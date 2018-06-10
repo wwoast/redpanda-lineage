@@ -6,7 +6,7 @@ the panda's name as the filename (either English or Japanese).
 
 ```
 id: <monotonic-ascending-number, assign one if none given> 
- 
+
 birthday: <date string> 
 birthplace: <zoo-names-translated-into-zoo-id> 
 children: <list-of-names-translated-into-panda-ids, alert on name collisions> 
