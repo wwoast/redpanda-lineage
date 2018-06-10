@@ -7,6 +7,22 @@
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
 
+## Windows Users
+
+TOWRITE: find a decent source code GUI tool that non-technical people could use. Atom? SublimeText? It needs to have Git integration, and work regardless of newline styles.
+
+
+## Mac Users
+
+TOWRITE: ideally its the same GUI as Mac users have, but test it.
+
+
+## Technical / Terminal Users
+
+TOWRITE: basic Git workflow at the terminal, with pictures
+Include any standards we want to enforce for commits
+
+
 ## Background: Why GitHub
 
 GitHub and its related tools are used by software developers for managing software source code. Most GitHub public projects allow anyone with expertise to contribute fixes and updates back to the software they use. The key facet that makes this work is _Code Review_ -- project owners can review and communicate with contributors, allowing contributions to be revised and refined before they are merged into the main source code.
