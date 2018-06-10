@@ -3,13 +3,13 @@
 # This Red Panda Lineage dataset builder takes all source input data and
 # creates a JSON file intended for family tree querying.
 
-import ConfigParser
+import configparser
 from datetime import datetime
+import json
 import os
-import simplejson as json
 
-global PANDA_PATH = "/pandas"
-global ZOO_PATH = "/zoos" 
+PANDA_PATH = "./pandas"
+ZOO_PATH = "./zoos" 
 
 class DateFormatError(ValueError):
     pass
@@ -46,8 +46,8 @@ class RedPandaGraph:
             [year, month, day] = date.split("/")
             datetime.date(int(year), int(month), int(day))
         except ValueError as e:
-            raise DateFormatError "ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
-                                  % (year, month, day)
+            raise DateFormatError("ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
+                                  % (filename, year, month, day))
 
     def check_imported_gender(self, gender, filename):
         """Validate the gender string is correct.
@@ -62,9 +62,9 @@ class RedPandaGraph:
             return "Male"
         elif gender in ["f", "F", "female", "Female", "メス"]:
             return "Female"
-        else
-            raise GenderFormatError "ERROR: %s: unsupported gender: %s" 
-                                    % ( filename, gender)
+        else:
+            raise GenderFormatError("ERROR: %s: unsupported gender: %s" 
+                                    % (filename, gender))
 
     def check_imported_name(self, name, filename):
         """Ensure the name strings are not longer than 80 characters.
@@ -73,8 +73,8 @@ class RedPandaGraph:
         intended to make text formatting simpler.
         """
         if len(name) > 80:
-            raise NameFormatError "ERROR: %s: name too long: %s"
-                                  % (filename, name)
+            raise NameFormatError("ERROR: %s: name too long: %s"
+                                  % (filename, name))
 
     def check_imported_panda_id(self, panda_id):
         """Validate that the ID for a panda doesn't already exist."""
@@ -97,29 +97,30 @@ class RedPandaGraph:
         """Write a JSON representation of the Red Panda graph."""
         pass
 
-    def import_all_redpandas(self, path):
-        """Given starting path, import all Red Panda files into the graph."""
-        for idx, subdir in enumerate(os.listdir(path)):
+    def import_file_tree(self, path, import_method):
+        """Given starting path, import all files into the graph.
+        
+        This can be used to import either the pandas, or the zoos.
+        """
+        for _, subdir in enumerate(sorted(os.listdir(path))):
             subpath = os.path.join(path, subdir)
             if os.path.isdir(subpath):
-                for jdx, subfile in enumerate(os.listdir(subpath):
-                    pandafile = os.path.join(subpath, subfile)
-                    if os.path.isfile(pandfile):
-                        import_redpanda(pandafile)
-
-    def import_all_zoos(self, path):
-        """Given starting path, import all Zoo files into the graph."""
-        pass
+                for _, subfile in enumerate(sorted(os.listdir(subpath))):
+                    datafile = os.path.join(subpath, subfile)
+                    if os.path.isfile(datafile):
+                        import_method(datafile)
 
     def import_redpanda(self, path):
         """Take a red panda file and convert it to JSON.
 
         Perform consistency checks on any red panda imported.
         """
+        print(path)
         pass
 
     def import_zoo(self, path):
         """Take a zoo file and convert it to JSON."""
+        print(path)
         pass
 
     def build_graph(self):
@@ -133,8 +134,8 @@ class RedPandaGraph:
                      { "_id":10,"en.name":"Karin", ...}]
         -    Edges: [{"_out":10,"_in":1,"_label":"family"}]
         """
-        self.import_all_redpandas(PANDA_PATH)
-        self.import_all_zoos(ZOO_PATH)
+        self.import_file_tree(PANDA_PATH, self.import_redpanda)
+        self.import_file_tree(ZOO_PATH, self.import_zoo)
         pass    
 
 
@@ -142,4 +143,4 @@ if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
     p.build_graph()
-    p.export_json_graph()
+    # p.export_json_graph()
