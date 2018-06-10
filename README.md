@@ -2,7 +2,7 @@
 ### Heavily Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/header.png" width="512" />
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/header.jpg" width="512" />
 
 ## Contribute To The Dataset!
 
