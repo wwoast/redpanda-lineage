@@ -23,21 +23,52 @@ class NameFormatError(ValueError):
 class RedPandaGraph:
     """Class with the redpanda database and format/consistency checks.
 
-    The database is dict that becomes a JSON blob upon export.
+    The database is an array of vertices and edges in the graph of red panda
+    relationships. A supplemental list of zoos rounds out the red panda data.
+    Upon export, these arrays of dicts become a JSON blob.
+        
+    Vertices represent a panda and their info, while edges represent parent
+    and child relationships between animals. In the example below, Karin is
+    Harumaki's mom:
+      
+    { vertices: [{ "_id":1,"en.name":"Harumaki", ...},
+                 { "_id":10,"en.name":"Karin", ...}],
+      edges: [{"_out":10,"_in":1,"_label":"family"}]}
     """
     def __init__(self):
-        self.vertices = [{}]
-        self.edges = {}
+        self.edges = []
+        self.vertices = []
+        self.zoos = []
         self.panda_files = []
         self.zoo_files = []
 
-    def check_dates(self):
-       """Run checks against the complete tree of red panda dates.
+    def build_graph(self):
+        """Reads in all files to build a red panda graph."""
+        self.import_file_tree(ZOO_PATH, self.import_zoo)
+        print(self.zoos)
+        # self.import_file_tree(PANDA_PATH, self.import_redpanda)
+        pass    
 
-       - Birth date and date of death should not be reversed.
-       - Child pandas should not be born before the parent.
-       - Child pandas should not be born after the parent died.
-       """
+    def check_dataset_dates(self):
+        """Run checks against the complete tree of red panda dates.
+
+        - Birth date and date of death should not be reversed.
+        - Child pandas should not be born before the parent.
+        - Child pandas should not be born after the parent died.
+
+        This requires the entire panda dataset to have been read.
+        """
+        pass
+
+    def check_dataset_panda_children_ids(self):
+        """Run checks against the complete index of red panda chilren's IDs.
+
+        - No duplicate IDs should exist
+        - The children IDs should be valid for only one red panda file
+        - There should be no loops / I'm my own grandpa situations
+
+        This requires the entire panda dataset to have been read.
+        """
        pass
 
     def check_imported_date(self, date, filename):
@@ -84,15 +115,6 @@ class RedPandaGraph:
         """Validate that the ID for a panda's zoo is valid."""
         pass
 
-    def check_panda_children_ids(self):
-        """Run checks against the complete index of red panda chilren's IDs.
-
-        - No duplicate IDs should exist
-        - The children IDs should be valid for only one red panda file
-        - There should be no loops / I'm my own grandpa situations
-        """
-        pass
-
     def export_json_graph(self, path):
         """Write a JSON representation of the Red Panda graph."""
         pass
@@ -100,7 +122,8 @@ class RedPandaGraph:
     def import_file_tree(self, path, import_method):
         """Given starting path, import all files into the graph.
         
-        This can be used to import either the pandas, or the zoos.
+        By adjusting path and import_method, this is used to import either the
+        panda data or the zoo data.
         """
         for _, subdir in enumerate(sorted(os.listdir(path))):
             subpath = os.path.join(path, subdir)
@@ -111,34 +134,37 @@ class RedPandaGraph:
                         import_method(datafile)
 
     def import_redpanda(self, path):
-        """Take a red panda file and convert it to JSON.
+        """Take a single red panda file and convert it into a Python dict.
 
-        Perform consistency checks on any red panda imported.
+        Panda files are expected to have a header of [panda]. Any fields defined
+        under that header will be consumed into the pandas datastore. 
+        
+        Fields with specific formats, like dates or names or ids, get validated
+        upon importing. This includes making sure birthplace and zoo refer to 
+        valid zoos. Relationship fields or panda ID checks are deferred until the
+        entire set of panda data is imported.
+
+        Since pandas live at zoos and we need to check zoo references, the list
+        of zoos must be imported prior to any red pandas being imported. 
         """
+        panda_entry = {}
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
-        
-
         self.panda_files.append(path) 
 
     def import_zoo(self, path):
-        """Take a zoo file and convert it to JSON."""
-        self.zoo_files.append(path) 
-
-    def build_graph(self):
-        """Reads in all files to build a red panda graph.
+        """Take a single zoo file and convert it into a Python dict.
         
-        Vertices represent a panda and their info, while edges represent parent
-        and child relationships between animals. In the example below, Karin is
-        Harumaki's mom:
-        
-        - Vertices: [{ "_id":1,"en.name":"Harumaki", ...},
-                     { "_id":10,"en.name":"Karin", ...}]
-        -    Edges: [{"_out":10,"_in":1,"_label":"family"}]
+        Zoo files are expected to have a header of [zoo]. Any fields defined
+        under that header will be consumed into the zoo datastore.
         """
-        self.import_file_tree(PANDA_PATH, self.import_redpanda)
-        self.import_file_tree(ZOO_PATH, self.import_zoo)
-        pass    
+        zoo_entry = {}
+        infile = configparser.ConfigParser()
+        infile.read(path, encoding='utf-8')
+        for field in infile.items("zoo"):
+            zoo_entry[field[0]] = field[1]
+        self.zoos.append(zoo_entry)
+        self.zoo_files.append(path) 
 
 
 if __name__ == '__main__':
