@@ -1,0 +1,12 @@
+id: 5
+cn.address: unknown 
+cn.location: 重庆市
+cn.name: 重慶市動物園
+en.address: Chongqing Zoo, Jiulongpo Qu, China, 400080
+en.location: Jiulongpo Qu
+en.name: Chonquing Zoo
+jp.address: unknown
+jp.location: unknown
+jp.name: unknown
+language.order: cn, jp, en
+website: http://www.cqzoo.com
