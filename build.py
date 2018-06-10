@@ -5,68 +5,108 @@
 
 import ConfigParser
 import simplejson as json
+from datetime import datetime
 
 
-def check_dates():
-    """Run checks against the complete tree of red panda dates.
+class DateFormatError(ValueError):
+    pass
 
-    - Birth date and date of death should not be reversed.
-    - Child pandas should not be born before the parent.
-    - Child pandas should not be born after the parent died.
+class GenderFormatError(ValueError):
+    pass
+
+class NameFormatError(ValueError):
+    pass
+
+class RedPandaGraph:
+    """Class with the redpanda database and format/consistency checks.
+
+    The database is dict that becomes a JSON blob upon export.
     """
-    pass
+    def __init__(self):
+        self.panda_db = {}
+        self.panda_files = []
+        slef.zoo_files = []
 
-def check_imported_date(date):
-    """Dates should all be in the form of YYYY/MM/DD."""
-    pass
+    def check_dates(self):
+       """Run checks against the complete tree of red panda dates.
 
-def check_imported_gender(gender):
-    """Validate the gender string is correct.
+       - Birth date and date of death should not be reversed.
+       - Child pandas should not be born before the parent.
+       - Child pandas should not be born after the parent died.
+       """
+       pass
 
-    Allowed strings are one of: 
-    m, f, M, F, male, female, オス, or メス
+    def check_imported_date(self, date, filename):
+        """Dates should all be in the form of YYYY/MM/DD."""
+        try:
+            [year, month, day] = date.split("/")
+            datetime.date(int(year), int(month), int(day))
+        except ValueError as e:
+            raise DateFormatError "ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
+                                  % (year, month, day)
 
-    The gender strings will be cast into just "Male" or "Female", so that
-    the website can choose which language to display this data in.
-    """
-    pass
+    def check_imported_gender(self, gender, filename):
+        """Validate the gender string is correct.
 
-def check_imported_name(name):
-    """Ensure the name strings are not longer than 80 characters.
+        Allowed strings are one of: 
+           m, f, M, F, male, female, オス, or メス
+
+        The gender strings will be cast into just "Male" or "Female", so that
+        the website can choose which language to display this data in.
+        """
+        if gender in ["m", "M", "male", "Male", "オス"]:
+            return "Male"
+        elif gender in ["f", "F", "female", "Female", "メス"]:
+            return "Female"
+        else
+            raise GenderFormatError "ERROR: %s: unsupported gender: %s" 
+                                    % ( filename, gender)
+
+    def check_imported_name(name, filename):
+        """Ensure the name strings are not longer than 80 characters.
     
-    This limitation applies to zoos, pandas, and other details, and is
-    intended to make text formatting simpler.
-    """
-    pass
+        This limitation applies to zoos, pandas, and other details, and is
+        intended to make text formatting simpler.
+        """
+        if len(name) > 80:
+            raise NameFormatError "ERROR: %s: name too long: %s"
+                                  % (filename, name)
 
-def check_imported_panda_id(panda_id):
-    """Validate that the ID for a panda doesn't already exist."""
-    pass
+    def check_imported_panda_id(self, panda_id):
+        """Validate that the ID for a panda doesn't already exist."""
+        pass
 
-def check_panda_children_ids():
-    """Run checks against the complete index of red panda chilren's IDs.
+    def check_panda_children_ids(self):
+        """Run checks against the complete index of red panda chilren's IDs.
 
-    - No duplicate IDs should exist
-    - The children IDs should be valid for only one red panda file
-    - There should be no loops / I'm my own grandpa situations
-    """
-    pass
+        - No duplicate IDs should exist
+        - The children IDs should be valid for only one red panda file
+        - There should be no loops / I'm my own grandpa situations
+        """
+        pass
 
-def import_redpanda(path):
-    """Take a red panda file and convert it to JSON.
+    def export_json_graph(path):
+        """Write a JSON representation of the Red Panda graph."""
+        pass
 
-    Perform consistency checks on any red panda imported.
-    """
-    pass
+    def import_redpanda(path):
+        """Take a red panda file and convert it to JSON.
 
-def import_zoo(path):
-    """Take a zoo file and convert it to JSON."""
-    pass
+        Perform consistency checks on any red panda imported.
+        """
+        pass
 
-def build_dataset():
-    """Reads in all files to build a red panda dataset"""
-    pass    
+    def import_zoo(path):
+        """Take a zoo file and convert it to JSON."""
+        pass
+
+    def build_graph():
+        """Reads in all files to build a red panda dataset"""
+        pass    
+
 
 if __name__ == '__main__':
-    """Initialize all library settings"""
-    build_dataset()
+    """Initialize all library settings, build, and export the database."""
+    p = RedPandaGraph()
+    p.build_graph()
+    p.export_json_graph()
