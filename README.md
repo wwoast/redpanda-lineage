@@ -2,6 +2,11 @@
 ### Heavily Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
+## Contribute To The Dataset!
+
+If you love Red Pandas and want to contribute to a public family tree, read the [Contribution Instructions](https://github.com/wwoast/redpanda-lineage/blob/master/docs/INSTRUCTIONS.md)
+
+
 ## Overview
 
 The global red panda population is estimated at under 10,000 animals, and between 500-1000 of these animals are distributed across zoos worldwide.
