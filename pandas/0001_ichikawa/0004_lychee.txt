@@ -5,6 +5,7 @@ children: 9, 2, 6, 7
 en.name: Lychee
 en.nicknames: none
 en.othernames: Raichi 
+gender: m
 jp.name: ライチ
 jp.nicknames: none
 jp.othernames: none
