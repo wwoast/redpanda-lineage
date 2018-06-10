@@ -115,13 +115,15 @@ class RedPandaGraph:
 
         Perform consistency checks on any red panda imported.
         """
-        print(path)
-        pass
+        infile = configparser.ConfigParser()
+        infile.read(path, encoding='utf-8')
+        
+
+        self.panda_files.append(path) 
 
     def import_zoo(self, path):
         """Take a zoo file and convert it to JSON."""
-        print(path)
-        pass
+        self.zoo_files.append(path) 
 
     def build_graph(self):
         """Reads in all files to build a red panda graph.
