@@ -9,4 +9,5 @@ gender: f
 jp.name: カリン
 jp.nicknames: none
 jp.othernames: none
+language.order: jp, en
 zoo: 1 

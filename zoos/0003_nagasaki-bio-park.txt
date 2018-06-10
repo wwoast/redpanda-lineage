@@ -5,4 +5,5 @@ en.name: Nagasaki Bio Park
 jp.address: ***
 jp.location: 長崎県西海市西彼町中山郷
 jp.name: 長崎バイオパーク施設利用約款
+language.order: jp, en
 website: http://www.biopark.co.jp

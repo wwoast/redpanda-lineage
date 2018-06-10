@@ -9,4 +9,5 @@ gender: m
 jp.name: ムギ 
 jp.nicknames: none
 jp.othernames: none
+language.order: jp, en
 zoo: 1

@@ -9,4 +9,5 @@ gender: f
 jp.name: 梨花
 jp.nicknames: none
 jp.othernames: リーファ
+language.order: jp, en
 zoo: 1 

@@ -2,6 +2,9 @@ id: 14
 birthday: 2010/7/14
 birthplace: 5 
 children: unknown
+cn.name: unknown
+cn.nicknames: none
+cn.othernames: none 
 en.name: Jasmine
 en.nicknames: none
 en.othernames: none 
@@ -9,4 +12,5 @@ gender: f
 jp.name: ジャスミン
 jp.nicknames: none
 jp.othernames: none
+language.order: jp, cn, en
 zoo: 2

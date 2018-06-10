@@ -5,4 +5,5 @@ en.name: Ichikawa-shi Zoological & Botanical Garden
 jp.address: ***
 jp.location: 市川市千葉県
 jp.name: 市川市動植物園
+language.order: jp, en
 website: http://www.city.ichikawa.lg.jp/zoo/index.html

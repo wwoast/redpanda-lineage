@@ -2,6 +2,9 @@ id: 15
 birthday: 2011/6/5
 birthplace: 5 
 children: unknown
+cn.name: unknown
+cn.nicknames: unknown
+cn.othernames: unknown
 en.name: Oolong
 en.nicknames: Wu-Ron
 en.othernames: none 
@@ -9,4 +12,5 @@ gender: m
 jp.name: ウーロン
 jp.nicknames: none
 jp.othernames: none
+language.order: jp, cn, en
 zoo: 2
