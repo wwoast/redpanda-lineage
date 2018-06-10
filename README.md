@@ -2,6 +2,8 @@
 ### Heavily Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/header.png" width="512" />
+
 ## Contribute To The Dataset!
 
 If you love Red Pandas and want to contribute to a public family tree, read the [Contribution Instructions](https://github.com/wwoast/redpanda-lineage/blob/master/docs/INSTRUCTIONS.md)
