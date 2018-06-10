@@ -4,9 +4,12 @@
 # creates a JSON file intended for family tree querying.
 
 import ConfigParser
-import simplejson as json
 from datetime import datetime
+import os
+import simplejson as json
 
+global PANDA_PATH = "/pandas"
+global ZOO_PATH = "/zoos" 
 
 class DateFormatError(ValueError):
     pass
@@ -23,9 +26,10 @@ class RedPandaGraph:
     The database is dict that becomes a JSON blob upon export.
     """
     def __init__(self):
-        self.panda_db = {}
+        self.vertices = [{}]
+        self.edges = {}
         self.panda_files = []
-        slef.zoo_files = []
+        self.zoo_files = []
 
     def check_dates(self):
        """Run checks against the complete tree of red panda dates.
@@ -62,7 +66,7 @@ class RedPandaGraph:
             raise GenderFormatError "ERROR: %s: unsupported gender: %s" 
                                     % ( filename, gender)
 
-    def check_imported_name(name, filename):
+    def check_imported_name(self, name, filename):
         """Ensure the name strings are not longer than 80 characters.
     
         This limitation applies to zoos, pandas, and other details, and is
@@ -75,6 +79,10 @@ class RedPandaGraph:
     def check_imported_panda_id(self, panda_id):
         """Validate that the ID for a panda doesn't already exist."""
         pass
+    
+    def check_imported_panda_zoo_id(self, zoo_id):
+        """Validate that the ID for a panda's zoo is valid."""
+        pass
 
     def check_panda_children_ids(self):
         """Run checks against the complete index of red panda chilren's IDs.
@@ -85,23 +93,48 @@ class RedPandaGraph:
         """
         pass
 
-    def export_json_graph(path):
+    def export_json_graph(self, path):
         """Write a JSON representation of the Red Panda graph."""
         pass
 
-    def import_redpanda(path):
+    def import_all_redpandas(self, path):
+        """Given starting path, import all Red Panda files into the graph."""
+        for idx, subdir in enumerate(os.listdir(path)):
+            subpath = os.path.join(path, subdir)
+            if os.path.isdir(subpath):
+                for jdx, subfile in enumerate(os.listdir(subpath):
+                    pandafile = os.path.join(subpath, subfile)
+                    if os.path.isfile(pandfile):
+                        import_redpanda(pandafile)
+
+    def import_all_zoos(self, path):
+        """Given starting path, import all Zoo files into the graph."""
+        pass
+
+    def import_redpanda(self, path):
         """Take a red panda file and convert it to JSON.
 
         Perform consistency checks on any red panda imported.
         """
         pass
 
-    def import_zoo(path):
+    def import_zoo(self, path):
         """Take a zoo file and convert it to JSON."""
         pass
 
-    def build_graph():
-        """Reads in all files to build a red panda dataset"""
+    def build_graph(self):
+        """Reads in all files to build a red panda graph.
+        
+        Vertices represent a panda and their info, while edges represent parent
+        and child relationships between animals. In the example below, Karin is
+        Harumaki's mom:
+        
+        - Vertices: [{ "_id":1,"en.name":"Harumaki", ...},
+                     { "_id":10,"en.name":"Karin", ...}]
+        -    Edges: [{"_out":10,"_in":1,"_label":"family"}]
+        """
+        self.import_all_redpandas(PANDA_PATH)
+        self.import_all_zoos(ZOO_PATH)
         pass    
 
 
