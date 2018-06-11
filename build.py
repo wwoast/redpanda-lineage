@@ -60,6 +60,7 @@ class RedPandaGraph:
 
         This requires the entire panda dataset to have been read.
         """
+        # TODO: graph traverse and date checking
         pass
 
     def check_dataset_children_ids(self):
@@ -70,13 +71,11 @@ class RedPandaGraph:
 
         This requires the entire panda dataset to have been read.
         """
+        # TODO: graph traverse and cycle checking
         pass
 
     def check_dataset_duplicate_ids(self, dataset):
-        """Run checks for duplicates against either zoo or panda datasets.
-        
-        This requires the entire panda or zoo dataset to have been read.
-        """
+        """Check for duplicate IDs in either the zoo or panda datasets."""
         ids = [a['_id'] for a in dataset]
         # Construct list of duplicates
         dupe_ids = [a for n, a in enumerate(ids) 
@@ -169,23 +168,34 @@ class RedPandaGraph:
         Since pandas live at zoos and we need to check zoo references, the list
         of zoos must be imported prior to any red pandas being imported. 
         """
-        panda_entry = {}
+        panda_edges = []
+        panda_vertex = {}
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
         for field in infile.items("panda"):
             if field[0].find("name") != -1:   # Name rule checking
                 self.check_imported_name(field[1], field[0], path)
-                panda_entry[field[0]] = field[1]
+                panda_vertex[field[0]] = field[1]
             elif field[0].find("gender") != -1:   # Gender rules
                 gender = self.check_imported_gender(field[1], path)
-                panda_entry[field[0]] = gender
+                panda_vertex[field[0]] = gender
             elif (field[0].find("birthplace") != -1 or
                   field[0].find("zoo") != -1):   # Zoo ID rules
                 self.check_imported_zoo_id(field[1], path)
-                panda_entry[field[0]] = field[1]
+                panda_vertex[field[0]] = field[1]
+            elif field[0].find("children") != -1:
+                panda_id = panda_vertex['_id']
+                children = field[1].replace(" ","").split(",")
+                for child_id in children:
+                    panda_edge = {}
+                    panda_edge['_out'] = panda_id
+                    panda_edge['_in'] = child_id
+                    panda_edge['_label'] = "family"
+                    panda_edges.append(panda_edge)
             else:   # Accept the data and move along
-                panda_entry[field[0]] = field[1]
-        self.vertices.append(panda_entry)
+                panda_vertex[field[0]] = field[1]
+        self.edges.extend(panda_edges)
+        self.vertices.append(panda_vertex)
         self.panda_files.append(path) 
 
     def import_zoo(self, path):
@@ -209,7 +219,8 @@ class RedPandaGraph:
     def verify_pandas(self):
         """All checks to ensure that the panda dataset is good."""
         self.check_dataset_duplicate_ids(self.vertices)
-        # self.check_dataset_children_ids(self.vertices)
+        self.check_dataset_children_ids()
+        self.check_dataset_dates()
 
 
 if __name__ == '__main__':
