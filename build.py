@@ -189,11 +189,14 @@ class RedPandaGraph:
                 children = field[1].replace(" ","").split(",")
                 # If a panda has "none" listed for children, we shouldn't
                 # be processing any edges for this.
-                if 'none' in children:
+                if 'none' in children or 'unknown' in children:
                     if len(children) > 1:
                         raise IdError("ERROR: %s: invalid children list: %s"
                                       % (path, str(children)))
-                    children.remove('none')
+                    if 'none' in children: 
+                        children.remove('none') 
+                    if 'unknown' in children:
+                        children.remove('unknown')
                 for child_id in children:
                     panda_edge = {}
                     panda_edge['_out'] = panda_id
