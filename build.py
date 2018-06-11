@@ -9,6 +9,7 @@ import json
 import os
 
 PANDA_PATH = "./pandas"
+OUTPUT_PATH = "./export/redpanda.json"
 ZOO_PATH = "./zoos" 
 
 class DateFormatError(ValueError):
@@ -52,8 +53,7 @@ class RedPandaGraph:
         """Reads in all files to build a red panda graph."""
         self.import_file_tree(ZOO_PATH, self.import_zoo)
         self.import_file_tree(PANDA_PATH, self.import_redpanda)
-        print(self.vertices)
-        pass    
+        # TODO: post-import checks
 
     def check_dataset_dates(self):
         """Run checks against the complete tree of red panda dates.
@@ -119,9 +119,14 @@ class RedPandaGraph:
             raise ZooKeyError("ERROR: %s: zoo id doesn't exist: %s"
                               % (sourcepath, zoo_id))
 
-    def export_json_graph(self, path):
+    def export_json_graph(self, destpath):
         """Write a JSON representation of the Red Panda graph."""
-        pass
+        export = {}
+        export['vertices'] = self.vertices
+        export['edges'] = self.edges
+        with open(destpath, 'wb') as wfh:
+            wfh.write(json.dumps(export, ensure_ascii=False).encode('utf8'))
+        # TODO: statistics on pandas in the graph
 
     def import_file_tree(self, path, import_method):
         """Given starting path, import all files into the graph.
@@ -189,4 +194,4 @@ if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
     p.build_graph()
-    # p.export_json_graph()
+    p.export_json_graph(OUTPUT_PATH)
