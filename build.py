@@ -135,7 +135,9 @@ class RedPandaGraph:
         export['vertices'] = self.vertices
         export['edges'] = self.edges
         with open(destpath, 'wb') as wfh:
-            wfh.write(json.dumps(export, ensure_ascii=False).encode('utf8'))
+            wfh.write(json.dumps(export, 
+                                 ensure_ascii=False,
+                                 sort_keys=True).encode('utf8'))
         # TODO: statistics on pandas in the graph
 
     def import_tree(self, path, import_method, verify_method):
