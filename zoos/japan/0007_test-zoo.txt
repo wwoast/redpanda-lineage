@@ -1,0 +1,10 @@
+﻿[zoo]
+_id: 7
+en.address: Tokuyama Zoo, Japan, 〒745-0851 Yamaguchi Prefecture, Shunan, Tokuyama, 5846
+en.location: Shūnan, Yamaguchi Prefecture 
+en.name: Tokuyama Zoo
+jp.address: unknown
+jp.location: 周南市  山口県
+jp.name: 周南市徳山動物園
+language.order: jp, en
+website: http://www.city.shunan.lg.jp/site/zoo/
