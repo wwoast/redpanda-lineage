@@ -51,8 +51,8 @@ class RedPandaGraph:
     def build_graph(self):
         """Reads in all files to build a red panda graph."""
         self.import_file_tree(ZOO_PATH, self.import_zoo)
-        print(self.zoos)
-        # self.import_file_tree(PANDA_PATH, self.import_redpanda)
+        self.import_file_tree(PANDA_PATH, self.import_redpanda)
+        print(self.vertices)
         pass    
 
     def check_dataset_dates(self):
@@ -77,16 +77,16 @@ class RedPandaGraph:
         """
         pass
 
-    def check_imported_date(self, date, filename):
+    def check_imported_date(self, date, sourcepath):
         """Dates should all be in the form of YYYY/MM/DD."""
         try:
             [year, month, day] = date.split("/")
             datetime.date(int(year), int(month), int(day))
         except ValueError as e:
             raise DateFormatError("ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
-                                  % (filename, year, month, day))
+                                  % (sourcepath, year, month, day))
 
-    def check_imported_gender(self, gender, filename):
+    def check_imported_gender(self, gender, sourcepath):
         """Validate the gender string is correct.
 
         Allowed strings are one of: 
@@ -101,23 +101,23 @@ class RedPandaGraph:
             return "Female"
         else:
             raise GenderFormatError("ERROR: %s: unsupported gender: %s" 
-                                    % (filename, gender))
+                                    % (sourcepath, gender))
 
-    def check_imported_name(self, name, filename):
+    def check_imported_name(self, name, field, sourcepath):
         """Ensure the name strings are not longer than 80 characters.
     
         This limitation applies to zoos, pandas, and other details, and is
         intended to make text formatting simpler.
         """
         if len(name) > 80:
-            raise NameFormatError("ERROR: %s: name too long: %s"
-                                  % (filename, name))
+            raise NameFormatError("ERROR: %s: %s name too long: %s"
+                                  % (sourcepath, field, name))
     
-    def check_imported_panda_zoo_id(self, zoo_id, filename):
+    def check_imported_zoo_id(self, zoo_id, sourcepath):
         """Validate that the ID for a panda's zoo is valid."""
         if zoo_id not in [zoo['_id'] for zoo in self.zoos]:
             raise ZooKeyError("ERROR: %s: zoo id doesn't exist: %s"
-                              % (filename, zoo_id))
+                              % (sourcepath, zoo_id))
 
     def export_json_graph(self, path):
         """Write a JSON representation of the Red Panda graph."""
@@ -154,6 +154,20 @@ class RedPandaGraph:
         panda_entry = {}
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
+        for field in infile.items("panda"):
+            if field[0].find("name") != -1:   # Name rule checking
+                self.check_imported_name(field[1], field[0], path)
+                panda_entry[field[0]] = field[1]
+            elif field[0].find("gender") != -1:   # Gender rules
+                gender = self.check_imported_gender(field[1], path)
+                panda_entry[field[0]] = gender
+            elif (field[0].find("birthplace") != -1 or
+                  field[0].find("zoo") != -1):   # Zoo ID rules
+                self.check_imported_zoo_id(field[1], path)
+                panda_entry[field[0]] = field[1]
+            else:   # Accept the data and move along
+                panda_entry[field[0]] = field[1]
+        self.vertices.append(panda_entry)
         self.panda_files.append(path) 
 
     def import_zoo(self, path):
