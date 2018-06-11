@@ -134,7 +134,7 @@ class RedPandaGraph:
             if os.path.isdir(subpath):
                 for _, subfile in enumerate(sorted(os.listdir(subpath))):
                     datafile = os.path.join(subpath, subfile)
-                    if os.path.isfile(datafile):
+                    if os.path.isfile(datafile) and datafile.endswith(".txt"):
                         import_method(datafile)
 
     def import_redpanda(self, path):
