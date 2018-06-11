@@ -17,7 +17,13 @@ class DateFormatError(ValueError):
 class GenderFormatError(ValueError):
     pass
 
+class PandaIdError(KeyError):
+    pass
+
 class NameFormatError(ValueError):
+    pass
+
+class ZooIdError(KeyError):
     pass
 
 class RedPandaGraph:
@@ -60,8 +66,8 @@ class RedPandaGraph:
         """
         pass
 
-    def check_dataset_panda_children_ids(self):
-        """Run checks against the complete index of red panda chilren's IDs.
+    def check_dataset_panda_ids(self):
+        """Run checks against the complete index of red panda IDs.
 
         - No duplicate IDs should exist
         - The children IDs should be valid for only one red panda file
@@ -69,7 +75,7 @@ class RedPandaGraph:
 
         This requires the entire panda dataset to have been read.
         """
-       pass
+        pass
 
     def check_imported_date(self, date, filename):
         """Dates should all be in the form of YYYY/MM/DD."""
@@ -106,14 +112,12 @@ class RedPandaGraph:
         if len(name) > 80:
             raise NameFormatError("ERROR: %s: name too long: %s"
                                   % (filename, name))
-
-    def check_imported_panda_id(self, panda_id):
-        """Validate that the ID for a panda doesn't already exist."""
-        pass
     
-    def check_imported_panda_zoo_id(self, zoo_id):
+    def check_imported_panda_zoo_id(self, zoo_id, filename):
         """Validate that the ID for a panda's zoo is valid."""
-        pass
+        if zoo_id not in [zoo['_id'] for zoo in self.zoos]:
+            raise ZooKeyError("ERROR: %s: zoo id doesn't exist: %s"
+                              % (filename, zoo_id))
 
     def export_json_graph(self, path):
         """Write a JSON representation of the Red Panda graph."""
