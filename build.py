@@ -18,13 +18,10 @@ class DateFormatError(ValueError):
 class GenderFormatError(ValueError):
     pass
 
-class PandaIdError(KeyError):
+class IdError(KeyError):
     pass
 
 class NameFormatError(ValueError):
-    pass
-
-class ZooIdError(KeyError):
     pass
 
 class RedPandaGraph:
@@ -51,9 +48,8 @@ class RedPandaGraph:
 
     def build_graph(self):
         """Reads in all files to build a red panda graph."""
-        self.import_file_tree(ZOO_PATH, self.import_zoo)
-        self.import_file_tree(PANDA_PATH, self.import_redpanda)
-        # TODO: post-import checks
+        self.import_tree(ZOO_PATH, self.import_zoo, self.verify_zoos)
+        self.import_tree(PANDA_PATH, self.import_redpanda, self.verify_pandas)
 
     def check_dataset_dates(self):
         """Run checks against the complete tree of red panda dates.
@@ -66,16 +62,31 @@ class RedPandaGraph:
         """
         pass
 
-    def check_dataset_panda_ids(self):
-        """Run checks against the complete index of red panda IDs.
+    def check_dataset_children_ids(self):
+        """Check the panda children IDs to ensure they form a family tree.
 
-        - No duplicate IDs should exist
         - The children IDs should be valid for only one red panda file
         - There should be no loops / I'm my own grandpa situations
 
         This requires the entire panda dataset to have been read.
         """
         pass
+
+    def check_dataset_duplicate_ids(self, dataset):
+        """Run checks for duplicates against either zoo or panda datasets.
+        
+        This requires the entire panda or zoo dataset to have been read.
+        """
+        ids = [a['_id'] for a in dataset]
+        # Construct list of duplicates
+        dupe_ids = [a for n, a in enumerate(ids) 
+                      if a in ids[:n]]
+        if len(dupe_ids) > 0:
+            # Get list of names for the duplicate pandas
+            dupe_names = [a['en.name'] for a in enumerate(dataset) 
+                                       if a['_id'] in dupe_ids]
+            raise IdError("ERROR: duplicate ids for en.names: %s" 
+                          % (dupe_names)) 
 
     def check_imported_date(self, date, sourcepath):
         """Dates should all be in the form of YYYY/MM/DD."""
@@ -128,7 +139,7 @@ class RedPandaGraph:
             wfh.write(json.dumps(export, ensure_ascii=False).encode('utf8'))
         # TODO: statistics on pandas in the graph
 
-    def import_file_tree(self, path, import_method):
+    def import_tree(self, path, import_method, verify_method):
         """Given starting path, import all files into the graph.
         
         By adjusting path and import_method, this is used to import either the
@@ -141,6 +152,8 @@ class RedPandaGraph:
                     datafile = os.path.join(subpath, subfile)
                     if os.path.isfile(datafile) and datafile.lower().endswith(".txt"):
                         import_method(datafile)
+        # Post-import, validate the entire dataset
+        verify_method()
 
     def import_redpanda(self, path):
         """Take a single red panda file and convert it into a Python dict.
@@ -150,8 +163,8 @@ class RedPandaGraph:
         
         Fields with specific formats, like dates or names or ids, get validated
         upon importing. This includes making sure birthplace and zoo refer to 
-        valid zoos. Relationship fields or panda ID checks are deferred until the
-        entire set of panda data is imported.
+        valid zoos. Relationship fields or panda ID checks are deferred until
+        the entire set of panda data is imported.
 
         Since pandas live at zoos and we need to check zoo references, the list
         of zoos must be imported prior to any red pandas being imported. 
@@ -188,6 +201,15 @@ class RedPandaGraph:
             zoo_entry[field[0]] = field[1]
         self.zoos.append(zoo_entry)
         self.zoo_files.append(path) 
+
+    def verify_zoos(self):
+        """All checks to ensure that the zoo dataset is good."""
+        self.check_dataset_duplicate_ids(self.zoos)
+
+    def verify_pandas(self):
+        """All checks to ensure that the panda dataset is good."""
+        self.check_dataset_duplicate_ids(self.vertices)
+        # self.check_dataset_children_ids(self.vertices)
 
 
 if __name__ == '__main__':
