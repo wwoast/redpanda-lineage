@@ -3,6 +3,8 @@
 ##### Justin Fairchild, June 2018
 
 ## How to Contribute to the Red Panda Lineage
+ 
+ * TODO: Picture of Lychee laying down 
 
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
@@ -19,15 +21,23 @@ To work with the Red Panda lineage dataset, you only need four things:
 
 Most people have used the first two things already. When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account.
 
+ * TODO: picture of GitHub signup process
+
 Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to (TOWRITE: folder locations on Windows or Mac). We're off to a great start!
 
 ----
 
 ## Creating A Branch to Work From
 
+ * TODO: another picture of Lychee
+
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
+ * TODO: picture of creating a Branch
+
 The `wwoast/redpanda-lineage` GitHub repository has any number of secondary branches in flight at a time. Branches typically represent the collected work of a single contributor, bundled up and ready to review for merging into our `master`. If you plan on contributing to the `master` branch, start by using GitHub Desktop to create a branch of your own. This will be created based on your downloaded _clone_ of the master branch.
+
+ * Picture of GitHub and typical branches (have a Maruyama branch ready for commit!!)
 
 Now that your branch is made, you can go edit panda files or create new subfolders in the `pandas/` or `zoos/` folders. 
 
@@ -66,23 +76,34 @@ Pandas in our dataset have a birthplace and zoo/home recorded in their datasets.
 
 ## Preparing Your Branch for Review
 
+ * TODO: Picture of Sora or Hao or Mugi in a tree
+
 You make changes to the files, save your changes, and call your work done for the day.
 
 Before you finish, return to the GitHub Desktop app. The app will have noticed all the changes you made to the Red Panda dataset. A set of changes to files can be recorded in your local working copy as a _commit_. Commits work similar to a bookmark, and your _commit message_ should be a short note that details the work you've done so far.
 
+ * TODO: Pictures of doing a commit and a push
+
 While you can make any number of commits as you do your work, we also recommend _pushing_ your branch to GitHub often. A _push_ makes a remote copy of your branch, and shows other Red Panda Dataset collaborators what changes you intend on contributing. Plus, now your data is saved to the Internet, in case your computer encounters technical difficulties!
 
- 
+----
 
+## Troubleshooting
 
+ * TODO: rascally picture of harumaki
 
+ * If you forget to make a branch...
+ * If you need to refactor from the master branch
+ * Other things that people could mess up!
 
+----
 
 ## Technical / Terminal Users
 
 TOWRITE: basic Git workflow at the terminal, with pictures
 Include any standards we want to enforce for commits
 
+----
 
 ## Background: Why GitHub
 
