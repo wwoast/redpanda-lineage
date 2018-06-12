@@ -23,7 +23,7 @@ Most people have used the first two things already. When you run [GitHub Desktop
 
  * TODO: picture of GitHub signup process
 
-Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to (TOWRITE: folder locations on Windows or Mac). We're off to a great start!
+Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`. We're off to a great start!
 
 ----
 
@@ -33,9 +33,12 @@ Once you've signed up and logged into GitHub Desktop, you'll be given the option
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
- * TODO: picture of creating a Branch
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/create-a-branch-1.jpg" /> 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/create-a-branch-2.jpg" />
 
 The `wwoast/redpanda-lineage` GitHub repository has any number of secondary branches in flight at a time. Branches typically represent the collected work of a single contributor, bundled up and ready to review for merging into our `master`. If you plan on contributing to the `master` branch, start by using GitHub Desktop to create a branch of your own. This will be created based on your downloaded _clone_ of the master branch.
+
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/select-a-branch.jpg" />
 
  * Picture of GitHub and typical branches (have a Maruyama branch ready for commit!!)
 
@@ -90,7 +93,7 @@ While you can make any number of commits as you do your work, we also recommend 
 
 ## Troubleshooting
 
- * TODO: rascally picture of harumaki
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg" />
 
  * If you forget to make a branch...
  * If you need to refactor from the master branch
