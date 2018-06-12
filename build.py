@@ -134,11 +134,16 @@ class RedPandaGraph:
         export = {}
         export['vertices'] = self.vertices
         export['edges'] = self.edges
+        export['totals'] = {}
+        export['totals']['zoos'] = len(self.zoos)
+        export['totals']['pandas'] = len(self.vertices) - len(self.zoos)
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
                                  sort_keys=True).encode('utf8'))
-        # TODO: statistics on pandas in the graph
+        print("Dataset exported: %d pandas at %d zoos"
+              % (export['totals']['pandas'], export['totals']['zoos']),
+              file=sys.stderr)
 
     def import_tree(self, path, import_method, verify_method):
         """Given starting path, import all files into the graph.
@@ -176,17 +181,21 @@ class RedPandaGraph:
         infile.read(path, encoding='utf-8')
         panda_nane = infile.get("panda", "en.name")   # For error messages
         for field in infile.items("panda"):
-            if field[0].find("name") != -1:   # Name rule checking
+            if field[0].find("name") != -1:
+                # Name rule checking
                 self.check_imported_name(field[1], field[0], path)
                 panda_vertex[field[0]] = field[1]
-            elif field[0].find("gender") != -1:   # Gender rules
+            elif field[0].find("gender") != -1:
+                # Gender rules
                 gender = self.check_imported_gender(field[1], path)
                 panda_vertex[field[0]] = gender
             elif (field[0].find("birthplace") != -1 or
-                  field[0].find("zoo") != -1):   # Zoo ID rules
+                  field[0].find("zoo") != -1):   
+                # Zoo ID rules
                 self.check_imported_zoo_id(field[1], path)
                 panda_vertex[field[0]] = field[1]
-            elif field[0].find("children") != -1:   # Process children IDs
+            elif field[0].find("children") != -1:   
+                # Process children IDs
                 panda_id = panda_vertex['_id']
                 children = field[1].replace(" ","").split(",")
                 # If a panda has "none" listed for children, we shouldn't
@@ -205,7 +214,8 @@ class RedPandaGraph:
                     panda_edge['_in'] = child_id
                     panda_edge['_label'] = "family"
                     panda_edges.append(panda_edge)
-            else:   # Accept the data and move along
+            else:
+                # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
         self.edges.extend(panda_edges)
         self.vertices.append(panda_vertex)
