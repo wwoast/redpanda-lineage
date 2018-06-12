@@ -26,7 +26,9 @@ jp.othernames: <utf8-strings with comma separator>
 ## /zoos
 
 To make it simpler to write panda files, the Zoo information is split off into
-a separate folder and schema.
+a separate folder and schema. Note that in the final compiled graph of zoos and
+pandas, the zoos are distinguished from pandas by their negative ID numbers,
+while pandas have positive ID numbers. Hackity hack!
 
 ```
 [zoo]
