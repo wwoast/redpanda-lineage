@@ -7,6 +7,7 @@ import configparser
 from datetime import datetime
 import json
 import os
+import sys
 
 PANDA_PATH = "./pandas"
 OUTPUT_PATH = "./export/redpanda.json"
@@ -125,8 +126,9 @@ class RedPandaGraph:
     
     def check_imported_zoo_id(self, zoo_id, sourcepath):
         """Validate that the ID for a panda's zoo is valid."""
-        if zoo_id not in [zoo['_id'] for zoo in self.zoos]:
-            raise ZooKeyError("ERROR: %s: zoo id doesn't exist: %s"
+        check_id = str(int(zoo_id) * -1)
+        if check_id not in [zoo['_id'] for zoo in self.zoos]:
+            raise IdError("ERROR: %s: zoo id doesn't exist: %s"
                               % (sourcepath, zoo_id))
 
     def export_json_graph(self, destpath):
@@ -180,6 +182,7 @@ class RedPandaGraph:
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
         panda_nane = infile.get("panda", "en.name")   # For error messages
+        panda_id = infile.get("panda", "_id")       # or assignments
         for field in infile.items("panda"):
             if field[0].find("name") != -1:
                 # Name rule checking
@@ -192,11 +195,21 @@ class RedPandaGraph:
             elif (field[0].find("birthplace") != -1 or
                   field[0].find("zoo") != -1):   
                 # Zoo ID rules
+                # To differentiate Zoo IDs from pandas, use negative IDs
+                zoo_id = str(int(field[1]) * -1)
                 self.check_imported_zoo_id(field[1], path)
-                panda_vertex[field[0]] = field[1]
+                zoo_vertex = [a for a in self.zoos if a['_id'] == zoo_id][0] 
+                # Is this a new zoo? Then add to the vertex list
+                if zoo_vertex not in self.vertices:
+                    self.vertices.append(zoo_vertex)
+                # Add a birthplace or zoo edge to the list that's a zoo
+                zoo_edge = {}
+                zoo_edge['_out'] = panda_id
+                zoo_edge['_in'] = zoo_id
+                zoo_edge['_label'] = field[0]
+                panda_edges.append(zoo_edge)
             elif field[0].find("children") != -1:   
                 # Process children IDs
-                panda_id = panda_vertex['_id']
                 children = field[1].replace(" ","").split(",")
                 # If a panda has "none" listed for children, we shouldn't
                 # be processing any edges for this.
@@ -231,7 +244,11 @@ class RedPandaGraph:
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
         for field in infile.items("zoo"):
-            zoo_entry[field[0]] = field[1]
+            # Use negative numbers for zoo IDs, to distinguish from pandas
+            [ key, value ] = [field[0], field[1]]
+            if key == '_id':
+                value = str(int(field[1]) * -1)
+            zoo_entry[key] = value
         self.zoos.append(zoo_entry)
         self.zoo_files.append(path) 
 
