@@ -40,8 +40,6 @@ The `wwoast/redpanda-lineage` GitHub repository has any number of secondary bran
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/select-a-branch.png" />
 
- * Picture of GitHub and typical branches (have a Maruyama branch ready for commit!!)
-
 Now that your branch is made, you can go edit panda files or create new subfolders in the `pandas/` or `zoos/` folders. 
 
 ----
