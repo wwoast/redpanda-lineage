@@ -44,18 +44,20 @@ The `wwoast/redpanda-lineage` GitHub repository has any number of secondary bran
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/select-a-branch.png" />
 
-Now that your branch is made, you can go edit panda files or create new subfolders in the `pandas/` or `zoos/` folders. 
+Now that your branch is made and selected, we're ready to do the important work of documenting new red pandas and zoos!
 
 ----
 
 ## Adding or Modifying Pandas in the Dataset
 
-Head over to your Windows Explorer or Mac Finder, and browse to the `pandas/` folder. You'll see subfolders for every zoo we've recorded pandas for. The purpose of the folders and filenames is for _human review_, to help us all ensure that:
+All panda and zoo editing starts in your _working copy_ of the `redpanda-lineage` repository. *Recall this is in your `Documents/Github` folder inside your user's home directory*.
+
+Open up Notepad++. Then from the File menu, select _Open Folder as Workspace_. Select the `redpanda-lineage` folder. In the left pane, you'll see the `/pandas` and `/zoos` folders. Underneath those you'll see subfolders for every zoo we've recorded pandas for. Having a left pane or "workspace view" as you edit this dataset is highly recommended, for a high-level view of which pandas and zoos are already in the dataset. The folders and filename standards are intended to assist _human review_, to help us all ensure that:
 
  * If we add a new panda file, it doesn't have a duplicate ID number to an existing panda
  * If we want to add a panda for a particular zoo, we know at a glance whether the panda is already in the dataset or not
 
-Take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Most of the data is self-explanatory, but you'll need to understand the dataset conventions for your updates to be accepted. 
+Let's take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Most of the data is self-explanatory, but you'll need to understand the dataset conventions for your updates to be accepted. 
 
 #### `_id`: Red Panda ID Numbers
 
@@ -93,6 +95,16 @@ While you can make any number of commits as you do your work, we also recommend 
 
 ----
 
+## The Peer Review Process
+
+So you've pushed your branch up to GitHub. When you're ready for us to review your changes, you visit [our repository on GitHub](https://github.com/wwoast/redpanda-lineage) and open a _Pull Request_ or *_PR_*, similar to you asking us "please pull the changes from my branch into the `master` branch".
+
+When you push a new branch to GitHub, the website helpfully indicates that you might want a PR for that new branch you just pushed with a big green bar. Click that bar and fill out the subsequent form, and you'll have started the _Pull Request_ process. Be aware that we may need to ask you follow-up questions or recommend changes, so keep refreshing your PR or maybe even bookmark it in your browser.
+
+If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ via Instagram.
+
+----
+
 ## Troubleshooting
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg" />
@@ -105,8 +117,15 @@ While you can make any number of commits as you do your work, we also recommend 
 
 ## Technical / Terminal Users
 
-TOWRITE: basic Git workflow at the terminal, with pictures
-Include any standards we want to enforce for commits
+If you're a command-line user, and you have Git, here's a quick sample of what a typical dataset session might look like
+
+```
+git clone https://github.com/wwoast/redpanda-lineage.git
+git checkout -b maruyama-zoo
+vim pandas/0001_ichikawa/0004_lychee.txt
+git commit -a -m "changed lychee's birthday"
+git push origin maruyama-zoo
+```
 
 ----
 
