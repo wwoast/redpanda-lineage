@@ -4,7 +4,7 @@
 
 ## How to Contribute to the Red Panda Lineage
  
- * TODO: Picture of Lychee laying down 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg" /> 
 
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
