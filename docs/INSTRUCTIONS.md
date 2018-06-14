@@ -25,7 +25,7 @@ Most people have used the first two things already. When you run [GitHub Desktop
 
 Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`.
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.jpg" /> 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.png" /> 
 
 We're off to a great start!
 
