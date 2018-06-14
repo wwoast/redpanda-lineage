@@ -6,8 +6,9 @@
 
 ## Contribute To The Dataset!
 
-If you love Red Pandas and want to contribute to a public family tree, read the [Contribution Instructions](https://github.com/wwoast/redpanda-lineage/blob/master/docs/INSTRUCTIONS.md)
+If you love Red Pandas and want to contribute to a public family tree, look into our [Contribution Instructions](https://github.com/wwoast/redpanda-lineage/blob/master/docs/INSTRUCTIONS.md)!
 
+----
 
 ## Overview
 
