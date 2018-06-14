@@ -101,7 +101,7 @@ So you've pushed your branch up to GitHub. When you're ready for us to review yo
 
 When you push a new branch to GitHub, the website helpfully indicates that you might want a PR for that new branch you just pushed with a big green bar. Click that bar and fill out the subsequent form, and you'll have started the _Pull Request_ process. Be aware that we may need to ask you follow-up questions or recommend changes, so keep refreshing your PR or maybe even bookmark it in your browser.
 
-If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ via Instagram.
+If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
 
 ----
 
