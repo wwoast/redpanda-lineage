@@ -31,7 +31,7 @@ To recap, you've downloaded GitHub Desktop, signed in with your account, and kno
 
 ## Creating A Branch to Work From
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working.jpg" /> 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg" /> 
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
