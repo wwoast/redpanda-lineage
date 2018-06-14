@@ -10,10 +10,10 @@ If you love Red Pandas and want to contribute to a public family tree, look into
 
 ----
 
-## Overview
+## Summary
 
 The global red panda population is estimated at under 10,000 animals, and between 500-1000 of these animals are distributed across zoos worldwide.
 
 With the goal of producing a web interface for viewing pandas and their offspring, I hope to create a flat-file human-editable dataset of pandas. A small group of passionate red panda lovers will manually curate this dataset by making updates or commits to this repository.
 
-When a commit is accepted, Travis CI will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file will be queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully browser-based red panda lineage viewer to be written.
+When a commit is accepted, Travis CI will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file will be queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully browser-based red panda lineage viewer to be written. Peek at our [Design Documentation](https://github.com/wwosat/redpanda-lineage/blob/master/docs/DESIGN.md) for more details.
