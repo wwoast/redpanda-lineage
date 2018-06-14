@@ -21,19 +21,17 @@ To work with the Red Panda lineage dataset, you only need four things:
 
 Most people have used the first two things already. When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account.
 
- * TODO: picture of GitHub signup process
-
 Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.png" /> 
 
-To recap, you've downloaded GitHub Desktop, and know where the `redpanda-lineage` folder is now. That's a pretty good start!
+To recap, you've downloaded GitHub Desktop, signed in with your account, and know where the `redpanda-lineage` folder is on your computer. That's a pretty good start!
 
 ----
 
 ## Creating A Branch to Work From
 
- * TODO: another picture of Lychee
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working.jpg" /> 
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
