@@ -15,7 +15,7 @@ To make contributions to this dataset, you'll be using tools similar to what sof
 To work with the Red Panda lineage dataset, you only need four things:
 
  * The Windows Explorer / Mac Finder, for viewing files and folders
- * A text editor. Even Windows Notepad will do! 
+ * A modern [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor, such as [Notepad++](https://notepad-plus-plus.org) 
  * The [GitHub Desktop](https://desktop.github.io) software
  * A free [GitHub Account](https://github.com/join).
 
