@@ -87,7 +87,7 @@ You make changes to the files, save your changes, and call your work done for th
 
 Before you finish, return to the GitHub Desktop app. The app will have noticed all the changes you made to the Red Panda dataset. A set of changes to files can be recorded in your local working copy as a _commit_. Commits work similar to a bookmark, and your _commit message_ should be a short note that details the work you've done so far.
 
- * TODO: Pictures of doing a commit and a push
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/commit-to-branch.png" /> 
 
 While you can make any number of commits as you do your work, we also recommend _pushing_ your branch to GitHub often. A _push_ makes a remote copy of your branch, and shows other Red Panda Dataset collaborators what changes you intend on contributing. Plus, now your data is saved to the Internet, in case your computer encounters technical difficulties!
 
