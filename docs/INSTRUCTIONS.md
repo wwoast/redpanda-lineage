@@ -27,7 +27,7 @@ Once you've signed up and logged into GitHub Desktop, you'll be given the option
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.png" /> 
 
-We're off to a great start!
+To recap, you've downloaded GitHub Desktop, and know where the `redpanda-lineage` folder is now. That's a pretty good start!
 
 ----
 
