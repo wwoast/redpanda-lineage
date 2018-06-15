@@ -227,6 +227,30 @@ class RedPandaGraph:
                     panda_edge['_in'] = child_id
                     panda_edge['_label'] = "family"
                     panda_edges.append(panda_edge)
+            elif field[0].find("litter") != -1:   
+                # Process whether pandas were in the same litter or not
+                litter = field[1].replace(" ","").split(",")
+                # If a panda has "none" listed for litter, we shouldn't
+                # be processing any edges for this.
+                if 'none' in litter or 'unknown' in litter:
+                    if len(litter) > 1:
+                        raise IdError("ERROR: %s: invalid litter list: %s"
+                                      % (path, str(litter)))
+                    if 'none' in litter: 
+                        litter.remove('none') 
+                    if 'unknown' in litter:
+                        litter.remove('unknown')
+                for sibling_id in litter:
+                    # Make sure no other litters exist
+                    sibling_edges = self.find_matching_edges(panda_id,
+                                                             sibling_id,
+                                                             "litter")
+                    if len(sibling_edges) == 0:
+                        panda_edge = {}
+                        panda_edge['_out'] = panda_id
+                        panda_edge['_in'] = sibling_id
+                        panda_edge['_label'] = "litter"
+                        panda_edges.append(panda_edge)
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
@@ -251,6 +275,16 @@ class RedPandaGraph:
             zoo_entry[key] = value
         self.zoos.append(zoo_entry)
         self.zoo_files.append(path) 
+
+    def find_matching_edges(self, outp, inp, label):
+        """Find matching edges in either direction.
+
+        Ex: If _in=8 and _out=2, match either that edge or _in=2 and _out=8
+        """
+        return [a for a in self.edges
+                if ((a['_label'] == label) and
+                    ((a['_out'] == outp and a['_in'] == inp) or  
+                     (a['_in'] == outp and a['_out'] == inp)))]
 
     def verify_zoos(self):
         """All checks to ensure that the zoo dataset is good."""
