@@ -3,9 +3,9 @@
 ##### Justin Fairchild, June 2018
 
 ## How to Contribute to the Red Panda Lineage
- 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg" /> 
 
+[![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt))
+ 
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
 ----
@@ -31,7 +31,7 @@ To recap, you've downloaded GitHub Desktop, signed in with your account, and kno
 
 ## Creating A Branch to Work From
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg" /> 
+[![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt))
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
@@ -103,7 +103,7 @@ If we don't merge your PR quickly, there is the chance your red panda ID numbers
 
 ## Troubleshooting
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg" />
+[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0001_harumaki.txt))
 
  * If you forget to make a branch...
  * If you need to refactor from the master branch
