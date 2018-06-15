@@ -11,6 +11,7 @@ _id: <monotonic-ascending-number, assign one if none given>
 birthday: <date string> 
 birthplace: <zoo-names-translated-into-zoo-id> 
 children: <list-of-names-translated-into-panda-ids, alert on name collisions> 
+litter: <list-of-names-translated-into-panda-ids, alert on name collisions> 
 gender: <m|f, or japanese male/female terms>
 zoo: <zoo-names-translated-into-zoo-id> 
  

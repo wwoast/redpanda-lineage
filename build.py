@@ -75,6 +75,10 @@ class RedPandaGraph:
         # TODO: graph traverse and cycle checking
         pass
 
+    def check_dataset_litter_ids(self):
+        """Check that pandas in the same litter have the same birthday."""
+        pass
+
     def check_dataset_duplicate_ids(self, dataset):
         """Check for duplicate IDs in either the zoo or panda datasets."""
         ids = [a['_id'] for a in dataset]
@@ -294,6 +298,7 @@ class RedPandaGraph:
         """All checks to ensure that the panda dataset is good."""
         self.check_dataset_duplicate_ids(self.vertices)
         self.check_dataset_children_ids()
+        self.check_dataset_litter_ids()
         self.check_dataset_dates()
 
 
