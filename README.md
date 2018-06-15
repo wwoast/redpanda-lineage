@@ -2,7 +2,7 @@
 ### Heavily Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/readme/header.jpg" width="512" />
+[![Kokin](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/readme/header.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0011_kushiro/0023_kokin.txt))
 
 ## Contribute To The Dataset!
 
