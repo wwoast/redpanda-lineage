@@ -1,0 +1,10 @@
+[zoo]
+_id: 12
+en.address: Japan, 〒241-0001 Kanagawa Prefecture, 横浜市旭区上白根町１１７５−１
+en.location: Yokohama, Kanagawa Prefecture
+en.name: Yokohama Zoo "Zoorasia" 
+jp.address: unknown
+jp.location: 横浜 神奈川県
+jp.name: よこはま動物園ズーラシア 
+language.order: jp, en
+website: http://www.hama-midorinokyokai.or.jp/zoo/zoorasia/

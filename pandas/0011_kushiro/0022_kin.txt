@@ -1,15 +1,16 @@
 [panda]
-_id: 17
+_id: 22
 birthday: 2012/7/20
 birthplace: 7 
-children: 18
-en.name: Gin
-en.nicknames: Silver, Gin-bear
+children: 23
+death: 2017/8/17
+en.name: Kin
+en.nicknames: Kin-bear, Gold, Love-bear
 en.othernames: none
 gender: f
-jp.name: ギン
+jp.name: キン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 22
-zoo: 7
+litter: 17
+zoo: 11

@@ -1,0 +1,10 @@
+[zoo]
+_id: 11
+en.address: Japan, 〒085-0201 Hokkaido, Kushiro, 阿寒町下仁々志別11 
+en.location: Kushiro, Kushiro Subprefecture, Hokkaido
+en.name: Kushiroshi Zoo 
+jp.address: unknown
+jp.location: 釧路市 釧路総合振興局
+jp.name: 釧路市動物園 
+language.order: jp, en
+website: http://www.city.kushiro.lg.jp/zoo/ 
