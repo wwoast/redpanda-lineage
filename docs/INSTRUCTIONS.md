@@ -61,7 +61,7 @@ Let's take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com
 
 The `_id` is just a unique identification number, starting at *1* and going up. The `_id` is represented both in the file as well as in the filename of the panda. So that filenames sort cleanly in Explorer, pad the filename id to four digits (Examples: 0004, 1215, 0036). When adding a new red panda, take the next highest number already available.
 
-To see the next available Red Panda number, look in the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) and do a text-search for the word _totals_.
+To see the next available Red Panda number, look in the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file.
 
 #### `children`: ID Numbers for Children of a Red Panda
 

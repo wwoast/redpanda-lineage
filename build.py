@@ -140,16 +140,16 @@ class RedPandaGraph:
         export = {}
         export['vertices'] = self.vertices
         export['edges'] = self.edges
-        export['totals'] = {}
-        export['totals']['zoos'] = len(self.zoos)
-        export['totals']['pandas'] = len(self.vertices) - len(self.zoos)
+        export['_totals'] = {}
+        export['_totals']['zoos'] = len(self.zoos)
+        export['_totals']['pandas'] = len(self.vertices) - len(self.zoos)
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
                                  indent=4,
                                  sort_keys=True).encode('utf8'))
         print("Dataset exported: %d pandas at %d zoos"
-              % (export['totals']['pandas'], export['totals']['zoos']),
+              % (export['_totals']['pandas'], export['_totals']['zoos']),
               file=sys.stderr)
 
     def import_tree(self, path, import_method, verify_method):
