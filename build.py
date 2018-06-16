@@ -146,6 +146,7 @@ class RedPandaGraph:
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
+                                 indent=4,
                                  sort_keys=True).encode('utf8'))
         print("Dataset exported: %d pandas at %d zoos"
               % (export['totals']['pandas'], export['totals']['zoos']),
