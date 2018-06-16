@@ -1,0 +1,15 @@
+[panda]
+_id: 28
+birthday: 2015/6/16 
+birthplace: 4
+children: unknown
+en.name: Keiko
+en.nicknames: none 
+en.othernames: none
+gender: f
+jp.name: ケイコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 29
+zoo: 4

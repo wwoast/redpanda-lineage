@@ -1,0 +1,10 @@
+[zoo]
+_id: 13
+en.address: Japan, 〒916-0027 Fukui Prefecture, Sabae, Sakuramachi, 3−8-9
+en.location: Sabae, Fukui Prefecture
+en.name: Nishiyama Zoo 
+jp.address: unknown
+jp.location: 鯖江市 福井県
+jp.name: 鯖江市西山動物園
+language.order: jp, en
+website: https://www.city.sabae.fukui.jp/nishiyama_zoo/

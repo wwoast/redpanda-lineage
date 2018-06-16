@@ -1,0 +1,10 @@
+[zoo]
+_id: 14
+en.address: Japan, 〒679-2121 Hyōgo Prefecture, 姫路市豊富町神谷１４３６−１
+en.location: Himeji, Hyōgo Prefecture
+en.name: Himeji Central Park 
+jp.address: unknown
+jp.location: 姫路市 兵庫県
+jp.name: 姫路セントラルパーク
+language.order: jp, en
+website: http://www.central-park.co.jp/
