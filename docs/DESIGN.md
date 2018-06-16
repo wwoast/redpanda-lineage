@@ -1,5 +1,5 @@
 # Red Panda Lineage
-### Heavily Work-In-Progress Red Panda Dataset 
+### Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
 ## Background: Why GitHub
