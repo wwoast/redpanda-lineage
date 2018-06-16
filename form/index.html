@@ -1,12 +1,25 @@
 <html>
 <head>
-  <title>Red Panda Database</title>
-  <script id="panda_db" type="application/json" charset="UTF-8" src="https://wwoast.github.io/redpanda-lineage/export/redpanda.json"></script>
-  <script type="application/javascript" src="https://wwoast.github.io/redpanda-lineage/form/dagoba.js"></script>
-  <script type="application/javascript" src="https://wwoast.github.io/redpanda-lineage/form/search.js"></script>
+<title>Red Panda Database</title>
+<script type="application/javascript" src="./dagoba.js"></script>
+<script type="application/javascript" src="./search.js"></script>
+<script type="application/javascript">
+var P;
+var G;
+window.addEventListener("DOMContentLoaded", function() {
+  P = Pandas.init();
+  G = Dagoba.graph();
+  // Hack to give time for P to load
+  setTimeout(function() { 
+    P.db.vertices.forEach(G.addVertex.bind(G));
+    P.db.edges   .forEach(G.addEdge  .bind(G));
+  }, 3000);
+});
+</script>
 </head>
 <body>
 <p>Search for Red Pandas on this site, by zoo and panda name.</p>
-<p>Well, not yet. But soon!</p>
+
+<div id="pandaFrame"></div>
 </body>
 </html>
