@@ -1,0 +1,10 @@
+[zoo]
+_id: 16
+en.address: Japan, 〒422-8005 Shizuoka Prefecture, Shizuoka, 駿河区池田1767−６ 
+en.location: Shizuoka, Shizuoka Prefecture 
+en.name: Shizuoka Municipal Nihondaira Zoo
+jp.address: unknown
+jp.location: 静岡市 静岡県
+jp.name: 静岡市立日本平動物園
+language.order: jp, en
+website: http://www.nhdzoo.jp/

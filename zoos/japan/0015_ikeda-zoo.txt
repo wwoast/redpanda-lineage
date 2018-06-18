@@ -1,0 +1,10 @@
+[zoo]
+_id: 15
+en.address: Japan, 〒700-0015 Okayama Prefecture, Okayama, 北区京山２丁目５番１号
+en.location: Okayama, Okayama Prefecture, Chugoku region
+en.name: Ikeda Zoo 
+jp.address: unknown
+jp.location: 岡山市 岡山県 中国地方
+jp.name: 池田動物園
+language.order: jp, en
+website: http://www.urban.ne.jp/home/ikedazoo/ 

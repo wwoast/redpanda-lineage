@@ -1,0 +1,15 @@
+[panda]
+_id: 31 
+birthday: 2005/6/23
+birthplace: unknown
+children: unknown
+en.name: Kirara
+en.nicknames: none 
+en.othernames: none
+gender: f
+jp.name: キララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+zoo: 14
