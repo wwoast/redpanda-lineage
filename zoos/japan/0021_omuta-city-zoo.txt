@@ -1,0 +1,10 @@
+[zoo]
+_id: 21
+en.address: Japan, 〒836-0871 Fukuoka Prefecture, Omuta, Showamachi, 163 
+en.location: Omuta, Fukuoka Prefecture
+en.name: Omuta City Zoo
+jp.address: unknown 
+jp.location: 大牟田市 福岡県
+jp.name: 大牟田市動物園
+language.order: jp, en
+website: http://www.omutazoo.org/
