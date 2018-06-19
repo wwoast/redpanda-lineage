@@ -1,15 +1,15 @@
 [panda]
-_id: 37
-birthday: 2012/7/3 
+_id: 44
+birthday: 2006/7/4 
 birthplace: 8
 children: unknown
-en.name: Genta
+en.name: Shuuna
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: 源太
+gender: f
+jp.name: シュウナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 45
-zoo: 18
+litter: unknown
+zoo: 22
