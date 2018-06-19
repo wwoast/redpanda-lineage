@@ -96,7 +96,7 @@ class RedPandaGraph:
         """Dates should all be in the form of YYYY/MM/DD."""
         try:
             [year, month, day] = date.split("/")
-            datetime.date(int(year), int(month), int(day))
+            datetime(int(year), int(month), int(day))
         except ValueError as e:
             raise DateFormatError("ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
                                   % (sourcepath, year, month, day))
@@ -189,6 +189,14 @@ class RedPandaGraph:
         panda_nane = infile.get("panda", "en.name")   # For error messages
         panda_id = infile.get("panda", "_id")         # or assignments
         for field in infile.items("panda"):
+            if (field[0].find("death") != -1 or
+                field[0].find("birthday") != -1):
+                # Record that an animal has died or was born, 
+                # regardless if the date has been recorded or not.
+                if field[1] != "unknown":
+                    self.check_imported_date(field[1], path)
+                panda_vertex[field[0]] = field[1]
+
             if field[1] == "unknown" or field[1] == "none":
                 # Basic null checks. Don't add this to the vertex
                 continue
