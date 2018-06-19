@@ -1,0 +1,10 @@
+[zoo]
+_id: 24
+en.address: Japan, 〒431-1209 Shizuoka Prefecture, Hamamatsu, 西区舘山寺町１９９
+en.location: Hamamatsu, Shizuoka Prefecture
+en.name: Hamamatsu Municipal Zoo
+jp.address: unknown
+jp.location: 浜松市 静岡県
+jp.name: 浜松市動物園
+language.order: jp, en
+website: http://www.hamazoo.net/
