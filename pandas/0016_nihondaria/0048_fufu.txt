@@ -1,0 +1,16 @@
+[panda]
+_id: 48
+birthday: unknown
+birthplace: unknown
+death: unknown
+children: 44
+en.name: Fu-Fu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 風風
+jp.nicknames: none
+jp.othernames: フーフー
+language.order: jp, en
+litter: unknown
+zoo: 16
