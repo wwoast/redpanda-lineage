@@ -1,0 +1,15 @@
+[panda]
+_id: 45
+birthday: 2012/7/3 
+birthplace: 8
+children: unknown
+en.name: Fūna
+en.nicknames: Greens
+en.othernames: none
+gender: f
+jp.name: 風菜
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 37
+zoo: 23
