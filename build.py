@@ -187,10 +187,10 @@ class RedPandaGraph:
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
         panda_nane = infile.get("panda", "en.name")   # For error messages
-        panda_id = infile.get("panda", "_id")       # or assignments
+        panda_id = infile.get("panda", "_id")         # or assignments
         for field in infile.items("panda"):
-            # Basic null checks. Don't add this to the vertex
             if field[1] == "unknown" or field[1] == "none":
+                # Basic null checks. Don't add this to the vertex
                 continue
             elif field[0].find("name") != -1:
                 # Name rule checking
@@ -228,16 +228,6 @@ class RedPandaGraph:
             elif field[0].find("litter") != -1:   
                 # Process whether pandas were in the same litter or not
                 litter = field[1].replace(" ","").split(",")
-                # If a panda has "none" listed for litter, we shouldn't
-                # be processing any edges for this.
-                if 'none' in litter or 'unknown' in litter:
-                    if len(litter) > 1:
-                        raise IdError("ERROR: %s: invalid litter list: %s"
-                                      % (path, str(litter)))
-                    if 'none' in litter: 
-                        litter.remove('none') 
-                    if 'unknown' in litter:
-                        litter.remove('unknown')
                 for sibling_id in litter:
                     # Make sure no other litters exist
                     sibling_edges = self.find_matching_edges(panda_id,
