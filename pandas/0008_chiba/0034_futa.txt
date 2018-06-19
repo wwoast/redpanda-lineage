@@ -1,0 +1,15 @@
+[panda]
+_id: 34
+birthday: 2003/7/5 
+birthplace: 16
+children: unknown
+en.name: Futa
+en.nicknames: Wind 
+en.othernames: none
+gender: m
+jp.name: 風太
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+zoo: 8
