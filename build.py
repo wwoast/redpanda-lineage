@@ -189,7 +189,10 @@ class RedPandaGraph:
         panda_nane = infile.get("panda", "en.name")   # For error messages
         panda_id = infile.get("panda", "_id")       # or assignments
         for field in infile.items("panda"):
-            if field[0].find("name") != -1:
+            # Basic null checks. Don't add this to the vertex
+            if field[1] == "unknown" or field[1] == "none":
+                continue
+            elif field[0].find("name") != -1:
                 # Name rule checking
                 self.check_imported_name(field[1], field[0], path)
                 panda_vertex[field[0]] = field[1]
@@ -216,16 +219,6 @@ class RedPandaGraph:
             elif field[0].find("children") != -1:   
                 # Process children IDs
                 children = field[1].replace(" ","").split(",")
-                # If a panda has "none" listed for children, we shouldn't
-                # be processing any edges for this.
-                if 'none' in children or 'unknown' in children:
-                    if len(children) > 1:
-                        raise IdError("ERROR: %s: invalid children list: %s"
-                                      % (path, str(children)))
-                    if 'none' in children: 
-                        children.remove('none') 
-                    if 'unknown' in children:
-                        children.remove('unknown')
                 for child_id in children:
                     panda_edge = {}
                     panda_edge['_out'] = panda_id
