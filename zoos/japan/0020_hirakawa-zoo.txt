@@ -1,0 +1,10 @@
+[zoo]
+_id: 20
+en.address: Japan, 〒891-0133 Kagoshima Prefecture, Kagoshima, Hirakawacho, 5669-1 
+en.location: Kagoshima, Kagoshima Prefecture
+en.name: Hirakawa Zoo
+jp.address: unknown
+jp.location: 鹿児島市 鹿児島県
+jp.name: 鹿児島市平川動物公園
+language.order: jp, en
+website: http://hirakawazoo.jp/

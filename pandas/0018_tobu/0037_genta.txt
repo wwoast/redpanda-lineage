@@ -1,0 +1,15 @@
+[panda]
+_id: 37
+birthday: 2012/7/3 
+birthplace: 8
+children: unknown
+en.name: Genta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 源太
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+zoo: 18
