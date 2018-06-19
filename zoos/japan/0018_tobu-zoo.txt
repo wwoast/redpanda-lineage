@@ -1,0 +1,10 @@
+[zoo]
+_id: 18
+en.address: Japan, 〒345-0831 Saitama Prefecture, Minamisaitama District, Miyashiro, 須賀１１０ 
+en.location: Miyashiro, Minamisaitama, Saitama Prefecture
+en.name: Tobu Zoo
+jp.address: unknown
+jp.location: 宮代町 南埼玉郡 埼玉県
+jp.name: 東武動物公園
+language.order: jp, en
+website: http://www.tobuzoo.com/park/
