@@ -1,0 +1,15 @@
+[panda]
+_id: 50
+birthday: 2013/7/10
+birthplace: 13
+children: unknown
+en.name: Sakuya
+en.nicknames: Saki
+en.othernames: none
+gender: f
+jp.name: 咲弥
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+zoo: 22
