@@ -1,0 +1,10 @@
+[zoo]
+_id: 26
+en.address: Japan, 〒010-1654 Akita Prefecture, Akita, Hamada, 字潟端154 
+en.location: Akita City, Akita Prefecture
+en.name: Akita Oomoriyama Zoo "Milve"
+jp.address: unknown
+jp.location: 秋田市 秋田県
+jp.name: 秋田市大森山動物園ミルヴェ
+language.order: jp, en
+website: http://www.city.akita.akita.jp/city/in/zoo/
