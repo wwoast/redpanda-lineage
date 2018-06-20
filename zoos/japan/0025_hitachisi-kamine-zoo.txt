@@ -1,0 +1,10 @@
+[zoo]
+_id: 25
+en.address: Japan, 〒317-0055 Ibaraki Prefecture, Hitachi, Miyatacho, 5 Chome−2−22
+en.location: Hitachi, Ibaraki Prefecture
+en.name: Hitachisi Kamine Zoo
+jp.address: unknown
+jp.location: 日立市 茨城県
+jp.name: 日立市かみね動物園
+language.order: jp, en
+website: http://www.city.hitachi.lg.jp/zoo/
