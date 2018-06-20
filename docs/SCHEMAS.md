@@ -7,21 +7,18 @@ the panda's name as the filename (either English or Japanese).
 ```
 [panda]
 _id: <monotonic-ascending-number, assign one if none given> 
-
 birthday: <date string> 
 birthplace: <zoo-names-translated-into-zoo-id> 
 children: <list-of-names-translated-into-panda-ids, alert on name collisions> 
-litter: <list-of-names-translated-into-panda-ids, alert on name collisions> 
-gender: <m|f, or japanese male/female terms>
-zoo: <zoo-names-translated-into-zoo-id> 
- 
 en.name: harumaki 
 en.nicknames: <common nicknames>
 en.othernames: <alternate spellings> 
-
+gender: <m|f, or japanese male/female terms>
 jp.name: <utf8-string>
 jp.nicknames: <utf8-strings with comma separator>
 jp.othernames: <utf8-strings with comma separator>
+litter: <list-of-names-translated-into-panda-ids, alert on name collisions> 
+zoo: <zoo-names-translated-into-zoo-id> 
 ```
  
 ## /zoos
@@ -34,13 +31,10 @@ while pandas have positive ID numbers. Hackity hack!
 ```
 [zoo]
 _id: <monotonic-ascending-number, assign one if none given> 
- 
-geolocation: <google maps location identifier> 
-website: <url> 
- 
+en.address: <google maps address info> 
 en.location: chiba prefecture, japan 
 en.name: ichikawa zoological park and gardens 
- 
 jp.location: <utf8-string> 
 jp.name: <utf8-string>
+website: <url> 
 ```
