@@ -4,6 +4,10 @@ This is the main dataset for red pandas, and where the graph database is
 generated from. Each panda will be stored in a single flat-text file, with
 the panda's name as the filename (either English or Japanese).
 
+Photo and Video URIs are intended to aid in identification of the animal.
+We'll have a timeline strategy later to track arbitrary photos/videos/events
+from a panda's life in a time-ordered way.
+
 ```
 [panda]
 _id: <monotonic-ascending-number, assign one if none given> 
@@ -18,6 +22,10 @@ jp.name: <utf8-string>
 jp.nicknames: <utf8-strings with comma separator>
 jp.othernames: <utf8-strings with comma separator>
 litter: <list-of-names-translated-into-panda-ids, alert on name collisions> 
+photo.1: <url>
+photo.2: <url>
+video.1: <url>
+video.2: <url>
 zoo: <zoo-names-translated-into-zoo-id> 
 ```
  
@@ -36,5 +44,9 @@ en.location: chiba prefecture, japan
 en.name: ichikawa zoological park and gardens 
 jp.location: <utf8-string> 
 jp.name: <utf8-string>
+photo.1: <url>
+photo.2: <url>
+video.1: <url>
+video.2: <url>
 website: <url> 
 ```
