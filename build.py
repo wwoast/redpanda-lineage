@@ -149,8 +149,7 @@ class RedPandaGraph:
                                  indent=4,
                                  sort_keys=True).encode('utf8'))
         print("Dataset exported: %d pandas at %d zoos"
-              % (export['_totals']['pandas'], export['_totals']['zoos']),
-              file=sys.stderr)
+              % (export['_totals']['pandas'], export['_totals']['zoos']))
 
     def import_tree(self, path, import_method, verify_method):
         """Given starting path, import all files into the graph.
