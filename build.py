@@ -87,10 +87,10 @@ class RedPandaGraph:
                       if a in ids[:n]]
         if len(dupe_ids) > 0:
             # Get list of names for the duplicate pandas
-            dupe_names = [a['en.name'] for a in enumerate(dataset) 
+            dupe_names = [a['en.name'] for a in dataset 
                                        if a['_id'] in dupe_ids]
             raise IdError("ERROR: duplicate ids for en.names: %s" 
-                          % (dupe_names)) 
+                          % str(dupe_names)) 
 
     def check_imported_date(self, date, sourcepath):
         """Dates should all be in the form of YYYY/MM/DD."""
