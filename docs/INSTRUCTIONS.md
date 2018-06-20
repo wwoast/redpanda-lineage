@@ -87,15 +87,25 @@ Before you finish, return to the GitHub Desktop app. The app will have noticed a
 
 While you can make any number of commits as you do your work, we also recommend _pushing_ your branch to GitHub often. A _push_ makes a remote copy of your branch, and shows other Red Panda Dataset collaborators what changes you intend on contributing. Plus, now your data is saved to the Internet, in case your computer encounters technical difficulties!
 
+Once you've pushed your branch up to GitHub, you can submit your changes for inclusion into the `master` database. When you're ready for us to review your changes, you visit [our repository on GitHub](https://github.com/wwoast/redpanda-lineage) and open a _Pull Request_ or *_PR_*, similar to you asking us "please pull the changes from my branch into the `master` branch".
+
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/pull-request.png" /> 
+
+When you push a new branch to GitHub, the website helpfully indicates that you might want a PR for that new branch you just pushed with a big _notice_ bar and a green _Pull Request_ button. Click that bar and fill out the subsequent form, and you'll have started the _Pull Request_ process.
+
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/pull-request-message.png" /> 
+
+Be aware that we may need to ask you follow-up questions or recommend changes, so keep refreshing your PR or maybe even bookmark it in your browser.
+
 ----
 
 ## The Peer Review Process
 
-So you've pushed your branch up to GitHub. When you're ready for us to review your changes, you visit [our repository on GitHub](https://github.com/wwoast/redpanda-lineage) and open a _Pull Request_ or *_PR_*, similar to you asking us "please pull the changes from my branch into the `master` branch".
+We use a _Continuous Integration_ tool called *Travis CI* to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
 
-When you push a new branch to GitHub, the website helpfully indicates that you might want a PR for that new branch you just pushed with a big green bar. Click that bar and fill out the subsequent form, and you'll have started the _Pull Request_ process. Be aware that we may need to ask you follow-up questions or recommend changes, so keep refreshing your PR or maybe even bookmark it in your browser.
+If you have a Mac or Linux system, you can run this tool yourself to validate your data prior to submitting changes upstream, or even making commits. Otherwise, just keep pushing your branches to GitHub, and *Travis CI* will happily run the `build.py` checks for you.
 
-If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
+Once the automated checks are done, you still need one of the dataset administrators to approve and merge your changes. If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
 
 ----
 
