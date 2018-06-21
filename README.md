@@ -1,5 +1,4 @@
 # Red Panda Lineage
-----
 
 [![Build Status](https://travis-ci.org/wwoast/redpanda-lineage.svg?branch=master)](https://travis-ci.org/wwoast/redpanda-lineage)
 
