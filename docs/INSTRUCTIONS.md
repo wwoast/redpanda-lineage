@@ -1,13 +1,10 @@
 # Red Panda Lineage
-----
 
 ## How to Contribute to the Red Panda Lineage
 
 [![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt)
  
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
-
-----
 
 ## Getting Started: Windows and Mac Users
 
@@ -26,8 +23,6 @@ Once you've signed up and logged into GitHub Desktop, you'll be given the option
 
 To recap, you've downloaded GitHub Desktop, signed in with your account, and know where the `redpanda-lineage` folder is on your computer. That's a pretty good start!
 
-----
-
 ## Creating A Branch to Work From
 
 [![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt)
@@ -43,8 +38,6 @@ The `wwoast/redpanda-lineage` GitHub repository has any number of secondary bran
 
 Now that your branch is made and selected, we're ready to do the important work of documenting new red pandas and zoos!
 
-----
-
 ## Adding or Modifying Pandas in the Dataset
 
 All panda and zoo editing starts in your _working copy_ of the `redpanda-lineage` repository. *Recall this is in your `Documents/Github` folder inside your user's home directory*.
@@ -56,13 +49,13 @@ Open up Notepad++. Then from the File menu, select _Open Folder as Workspace_. S
 
 Let's take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Most of the data is self-explanatory, but you'll need to understand the dataset conventions for your updates to be accepted. 
 
-#### `_id`: Red Panda ID Numbers
+### `_id`: Red Panda ID Numbers
 
 The `_id` is just a unique identification number, starting at *1* and going up. The `_id` is represented both in the file as well as in the filename of the panda. So that filenames sort cleanly in Explorer, pad the filename id to four digits (Examples: 0004, 1215, 0036). When adding a new red panda, take the next highest number already available.
 
 To see the next available Red Panda number, look in the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file.
 
-#### `children`: ID Numbers for Children of a Red Panda
+### `children`: ID Numbers for Children of a Red Panda
 
 The `children` field is a list of this red panda's immediate family. Rather than names, which are not unique, these children values represent `_id` numbers for other Red Panda files. 
 
@@ -70,11 +63,9 @@ Keeping the Explorer or Finder windows open as you make changes is very useful. 
 
 We don't track parents relationships, because the family tree can be fully constructed just with children and sibling relationships.
 
-#### `birthplace` and `zoo`: ID Numbers for Zoos
+### `birthplace` and `zoo`: ID Numbers for Zoos
 
 Pandas in our dataset have a birthplace and zoo/home recorded in their datasets. These are ID numbers as well, but for files in the `zoos/` folder. You'll notice that the subfolders of the `pandas/` directory reference both zoo names, as well as the zoo ID numbers.
-
-----
 
 ## Preparing Your Branch for Review
 
@@ -96,8 +87,6 @@ When you push a new branch to GitHub, the website helpfully indicates that you m
 
 Be aware that we may need to ask you follow-up questions or recommend changes, so keep refreshing your PR or maybe even bookmark it in your browser.
 
-----
-
 ## The Peer Review Process
 
 We use a _Continuous Integration_ tool called *Travis CI* to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
@@ -106,8 +95,6 @@ If you have a Mac or Linux system, you can run this tool yourself to validate yo
 
 Once the automated checks are done, you still need one of the dataset administrators to approve and merge your changes. If we don't merge your PR quickly, there is the chance your red panda ID numbers may get stale and need to be updated. Feel free to comment on your PR if you want attention. If we still fail to respond, reach out to _wumpwoast_ [via Instagram](https://instagram.com/wumpwoast).
 
-----
-
 ## Troubleshooting
 
 [![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0001_harumaki.txt)
@@ -115,8 +102,6 @@ Once the automated checks are done, you still need one of the dataset administra
  * If you forget to make a branch...
  * If you need to refactor from the master branch
  * Other things that people could mess up!
-
-----
 
 ## Appendix: Technical / Terminal Users
 
