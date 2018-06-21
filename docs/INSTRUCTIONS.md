@@ -1,6 +1,5 @@
 # Red Panda Lineage
-### Work-In-Progress Red Panda Dataset 
-##### Justin Fairchild, June 2018
+----
 
 ## How to Contribute to the Red Panda Lineage
 

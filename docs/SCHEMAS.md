@@ -1,4 +1,9 @@
-## /pandas
+# Red Panda Lineage
+----
+
+### Schemas 
+
+#### /pandas
 
 This is the main dataset for red pandas, and where the graph database is
 generated from. Each panda will be stored in a single flat-text file, with
@@ -29,7 +34,7 @@ video.2: <url>
 zoo: <zoo-names-translated-into-zoo-id> 
 ```
  
-## /zoos
+#### /zoos
 
 To make it simpler to write panda files, the Zoo information is split off into
 a separate folder and schema. Note that in the final compiled graph of zoos and

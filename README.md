@@ -1,14 +1,13 @@
 # Red Panda Lineage
-### Work-In-Progress Red Panda Dataset 
-##### Justin Fairchild, June 2018
+----
 
 [![Build Status](https://travis-ci.org/wwoast/redpanda-lineage.svg?branch=master)](https://travis-ci.org/wwoast/redpanda-lineage)
-
-----
 
 [![Kokin](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/readme/header.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0011_kushiro/0023_kokin.txt)
 
 [Download the dataset (JSON)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
+
+----
 
 ## Contribute To The Dataset!
 
@@ -23,3 +22,7 @@ The global red panda population is estimated at under 10,000 animals, and betwee
 With the goal of producing a web interface for viewing pandas and their offspring, I hope to create a flat-file human-editable dataset of pandas. A small group of passionate red panda lovers will manually curate this dataset by making updates or commits to this repository.
 
 When a commit is accepted, Travis CI will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file will be queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully browser-based red panda lineage viewer to be written. Peek at our [Design Documentation](https://github.com/wwosat/redpanda-lineage/blob/master/docs/DESIGN.md) for more details.
+
+#### Credtis
+
+This Red Panda lineage dataset was started by Justin Fairchild in June 2018, with the help of Daniele Bragaglio, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
