@@ -2,6 +2,10 @@
 ### Work-In-Progress Red Panda Dataset 
 ##### Justin Fairchild, June 2018
 
+[![Build Status](https://travis-ci.org/wwoast/redpanda-lineage.svg?branch=master)](https://travis-ci.org/wwoast/redpanda-lineage)
+
+----
+
 [![Kokin](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/readme/header.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0011_kushiro/0023_kokin.txt)
 
 [Download the dataset (JSON)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
