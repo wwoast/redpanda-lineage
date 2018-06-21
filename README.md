@@ -6,13 +6,9 @@
 
 [Download the dataset (JSON)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
 
-----
-
 ## Contribute To The Dataset!
 
 If you love Red Pandas and want to contribute to a public family tree, look into our [Contribution Instructions](https://github.com/wwoast/redpanda-lineage/blob/master/docs/INSTRUCTIONS.md)!
-
-----
 
 ## Summary
 
@@ -22,6 +18,6 @@ With the goal of producing a web interface for viewing pandas and their offsprin
 
 When a commit is accepted, Travis CI will run the bundled Python scripts, and publish a single JSON file to the _GitHub pages_ branch of this repository. This file will be queryable using the [Dagoba](https://github.com/dxnn/dagoba) graph query language, allowing a fully browser-based red panda lineage viewer to be written. Peek at our [Design Documentation](https://github.com/wwosat/redpanda-lineage/blob/master/docs/DESIGN.md) for more details.
 
-#### Credtis
+## Credits
 
 This Red Panda lineage dataset was started by Justin Fairchild in June 2018, with the help of Daniele Bragaglio, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
