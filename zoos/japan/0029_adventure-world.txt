@@ -1,0 +1,10 @@
+[zoo]
+_id: 29
+en.address: Japan, 〒649-2201 Wakayama Prefecture, 西牟婁郡 白浜町堅田２３９９
+en.location: Shirahama, Wakayama Prefecture
+en.name: Wakayama Adventure World
+jp.address: unknown
+jp.location: 白浜町 和歌山県
+jp.name: アドベンチャーワールド
+language.order: jp, en
+website: http://www.aws-s.com/

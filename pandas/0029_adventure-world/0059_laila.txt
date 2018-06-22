@@ -1,0 +1,14 @@
+[panda]
+_id: 59
+birthday: unknown
+birthplace: 7
+children: none
+en.name: Laila
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ライラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 29
