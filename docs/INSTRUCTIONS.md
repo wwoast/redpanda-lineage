@@ -106,7 +106,7 @@ We use a _Continuous Integration_ tool called *Travis CI* to run automated check
 Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the _Travis CI_ status. If you navigate through to see the details in _Travis CI_, you'll get to a screen where the text output of `build.py` describes what went wrong. 
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/commit-problem.png" /> 
-<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/pull-request.png" /> 
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/failed-ci.png" /> 
 
 If you have a Mac or Linux system, you can run this tool yourself to validate your data prior to submitting changes upstream, or even making commits. Otherwise, just keep pushing your branches to GitHub, and *Travis CI* will happily run the `build.py` checks for you.
 
