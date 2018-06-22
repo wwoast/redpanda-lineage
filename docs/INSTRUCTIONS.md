@@ -47,6 +47,10 @@ Open up Notepad++. Then from the File menu, select _Open Folder as Workspace_. S
  * If we add a new panda file, it doesn't have a duplicate ID number to an existing panda
  * If we want to add a panda for a particular zoo, we know at a glance whether the panda is already in the dataset or not
 
+A typical workflow for updating the database is to have your web references in one window, and an overlay of GitHub Desktop and Notepad++ as you add new pandas. Keeping recently used files around helps you know which zoos or pandas you've been recently adding.
+
+<img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/explorer-example.png" />
+
 Let's take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Most of the data is self-explanatory, but you'll need to understand the dataset conventions for your updates to be accepted. 
 
 ### `_id`: Red Panda ID Numbers
@@ -66,6 +70,14 @@ We don't track parents relationships, because the family tree can be fully const
 ### `birthplace` and `zoo`: ID Numbers for Zoos
 
 Pandas in our dataset have a birthplace and zoo/home recorded in their datasets. These are ID numbers as well, but for files in the `zoos/` folder. You'll notice that the subfolders of the `pandas/` directory reference both zoo names, as well as the zoo ID numbers.
+
+### `birthday` and `death`: ID Numbers for Zoos
+
+Dates in the Red Panda Lineage dataset are always in YYYY/MM/DD form. The `death` section can be omitted for pandas that are still alive, or be listed as `death: unknown` for a panda that passed away at an undetermined date.
+
+### Unknowns are Not Recorded
+
+Aside from `birthday` and `death` values, any item in a zoo or red panda entry that is marked as `none` or `unknown` is not transferred into the output JSON database. This keeps the output dataset slightly smaller.
 
 ## Preparing Your Branch for Review
 
