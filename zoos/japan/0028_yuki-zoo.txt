@@ -1,0 +1,10 @@
+[zoo]
+_id: 28
+en.address: Japan, 〒400-0865 Yamanashi Prefecture, Kōfu, 太田町10番1号
+en.location: Kōfu City, Yamanashi Prefecture
+en.name: Yuki Zoo
+jp.address: unknown
+jp.location: 甲府市 山梨県
+jp.name: 甲府市遊亀公園附属動物園
+language.order: jp, en
+website: https://www.city.kofu.yamanashi.jp/zoo/

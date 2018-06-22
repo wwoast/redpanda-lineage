@@ -1,0 +1,14 @@
+[panda]
+_id: 58
+birthday: 2014/7/10
+birthplace: 7
+children: none
+en.name: Hokuto
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ホクト
+jp.nicknames: none
+jp.othernames: 北斗
+language.order: jp, en
+zoo: 28
