@@ -1,0 +1,10 @@
+[zoo]
+_id: 31
+en.address: Japan, 〒923-1222 Ishikawa Prefecture, Nomi, Tokusanmachi, 600
+en.location: 
+en.name: Ishikawa Zoo
+jp.address: unknown
+jp.location: 能美市 石川県
+jp.name: いしかわ動物園
+language.order: jp, en
+website: http://www.ishikawazoo.jp/

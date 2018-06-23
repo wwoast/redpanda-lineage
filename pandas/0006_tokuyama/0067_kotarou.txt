@@ -1,0 +1,14 @@
+[panda]
+_id: 67
+birthday: 2006/06/22 
+birthplace: unknown 
+children: 70
+en.name: Kotarou
+en.nicknames: none 
+en.othernames: none
+gender: m
+jp.name: コタロウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 6
