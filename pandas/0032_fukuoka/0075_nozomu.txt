@@ -1,0 +1,14 @@
+[panda]
+_id: 75
+birthday: 2012/7/5
+birthplace: 10
+children: unknown
+en.name: Nozomu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ノゾム
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 32
