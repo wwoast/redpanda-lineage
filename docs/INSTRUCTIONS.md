@@ -36,7 +36,7 @@ GitHub repositories are managed like open projects. Any guest or contributor can
 
 The `wwoast/redpanda-lineage` GitHub repository has any number of secondary branches in flight at a time. Branches typically represent the collected work of a single contributor towards a single goal. Their branch might add a new zoo to the dataset, and a handful of pandas that live at that zoo. Bundling those changes into a branch makes it easier to organize and review changes to the dataset, so that eventually that branch can be merged into the global `master` branch.
 
-To contribute to the Red Panda Lineage dataset, start by using GitHub Desktop to create a branch of your own. The new branch will be created within the downloaded _clone_ repository on your computer.
+To contribute to the Red Panda Lineage dataset, start by using GitHub Desktop to create a branch of your own. The new branch will be created within the _working copy_ repository on your computer.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/select-a-branch.png" />
 
