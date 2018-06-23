@@ -1,15 +1,14 @@
 [panda]
-_id: 77
-birthday: 2006/6/24 
+_id: 80
+birthday: 2017/6/25 
 birthplace: 9
-children: 78
-en.name: Nuts
+children: none
+en.name: Miyabi
 en.nicknames: none 
-en.othernames: Natsu
+en.othernames: none
 gender: f
-jp.name: ナツ
+jp.name: ミヤビ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 20
 zoo: 9
