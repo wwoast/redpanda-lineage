@@ -2,7 +2,7 @@
 _id: 66
 birthday: unknown
 birthplace: unknown
-children: 65
+children: 64, 65
 en.name: Shinshin
 en.nicknames: none
 en.othernames: none
