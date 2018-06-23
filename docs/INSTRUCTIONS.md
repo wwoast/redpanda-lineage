@@ -11,14 +11,15 @@ To make contributions to this dataset, you'll be using tools similar to what sof
 To work with the Red Panda lineage dataset, you only need three things:
 
  * A [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor with a good file-browsing sidebar.
-  * On Windows, [Notepad++](https://notepad-plus-plus.org) is a good simple choice. Unfortunately the regular Windows Notepad doesn't save Japanese text properly without deep Windows tweaks. 
-  * [Atom](https://atom.io/) supports Mac and Windows, but is more complex.
+   * On Windows, [Notepad++](https://notepad-plus-plus.org) is a good simple choice. Unfortunately the regular Windows Notepad doesn't save Japanese text properly without deep Windows tweaks.
+   * [Atom](https://atom.io/) supports Mac and Windows, but is more complex.
+   * [Visual Studio Code](https://code.visualstudio.com) is nice if you're comfortable with code editors!
  * The [GitHub Desktop](https://desktop.github.io) software
  * A free [GitHub Account](https://github.com/join).
 
-When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account.
+When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account. After you sign up and log into GitHub Desktop, you'll be given the option to check out a repository.
 
-Once you're signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`.
+Search for `wwoast/redpanda-lineage`, and click Clone. Now you have a personal copy of the entire Red Panda dataset downloaded to your home folder, under `Documents/GitHub`. 
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.png" /> 
 
@@ -33,40 +34,46 @@ GitHub repositories are managed like open projects. Any guest or contributor can
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/create-new-branch-1.png" /> 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/create-new-branch-2.png" />
 
-The `wwoast/redpanda-lineage` GitHub repository has any number of secondary branches in flight at a time. Branches typically represent the collected work of a single contributor, bundled up and ready to review for merging into our `master`. If you plan on contributing to the `master` branch, start by using GitHub Desktop to create a branch of your own. This will be created based on your downloaded _clone_ of the master branch.
+The `wwoast/redpanda-lineage` GitHub repository has any number of secondary branches in flight at a time. Branches typically represent the collected work of a single contributor towards a single goal. Their branch might add a new zoo to the dataset, and a handful of pandas that live at that zoo. Bundling those changes into a branch makes it easier to organize and review changes to the dataset, so that eventually that branch can be merged into the global `master` branch.
+
+To contribute to the Red Panda Lineage dataset, start by using GitHub Desktop to create a branch of your own. The new branch will be created within the downloaded _clone_ repository on your computer.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/select-a-branch.png" />
 
 Now that your branch is made and selected, we're ready to do the important work of documenting new red pandas and zoos!
 
-## Adding or Modifying Pandas in the Dataset
+## Preparing Your Tools
 
-All panda and zoo editing starts in your _working copy_ of the `redpanda-lineage` repository. *Recall this is in your `Documents/Github` folder inside your user's home directory*.
+All panda and zoo editing starts in your _working copy_ of the `redpanda-lineage` repository. Recall this is in your `Documents/Github` folder inside your user's home directory.
 
-Open up Notepad++. Then from the File menu, select _Open Folder as Workspace_. Select the `redpanda-lineage` folder. In the left pane, you'll see the `/pandas` and `/zoos` folders. Underneath those you'll see subfolders for every zoo we've recorded pandas for. Having a left pane or "workspace view" as you edit this dataset is highly recommended, for a high-level view of which pandas and zoos are already in the dataset. The folders and filename standards are intended to assist _human review_, to help us all ensure that:
+Assuming you're on Windows, open up the Notepad++ editor you downloaded earlier. From the File menu, select _Open Folder as Workspace_. Select the `redpanda-lineage` folder. Now, in the left pane, you'll see the `/pandas` and `/zoos` folders. Underneath those you'll see subfolders for every zoo we've recorded pandas for.
 
- * If we add a new panda file, it doesn't have a duplicate ID number to an existing panda
- * If we want to add a panda for a particular zoo, we know at a glance whether the panda is already in the dataset or not
+It's critical to keep a "workspace view" or "sidebar" of your files as you edit this dataset, **so you know what pandas or zoos already exist in the dataset**. In particular:
 
-A typical workflow for updating the database is to have your web references in one window, and an overlay of GitHub Desktop and Notepad++ as you add new pandas. Keeping recently used files around helps you know which zoos or pandas you've been recently adding.
+ * When adding a new panda file, you don't want to re-use the ID number of an existing panda
+ * When adding a new panda for an existing zoo, you want to see at a glance if the panda is already in the dataset
+
+A typical workflow for updating the database is to have three applications open: a web browser for data retrieval, the GitHub Desktop app for managing changes to your branch, and your text editor inset in the GitHub Desktop window's dead space.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/explorer-example.png" />
 
-Let's take a look at [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Most of the data is self-explanatory, but you'll need to understand the dataset conventions for your updates to be accepted. 
+## Adding Pandas to the Dataset
+
+Each panda is a single `.txt` file in the `/pandas` folder, with a unique Panda ID number. Each zoo is a single `.txt` file in the `/zoos` folder, with a unique Zoo ID number. **Adding to the Red Panda Lineage dataset is just a matter of copying an existing panda or zoo file, changing the contents inside of it, and submitting your new files as a branch to GitHub for review.**
+
+Let's take a look at one of our panda files, [`pandas/0001_ichikawa/0004_lychee.txt`](https://github.com/wwoast/redpanda-lineage/blob/master/pandas/0001_ichikawa/0004_lychee.txt). This is the information we have on file for Lychee, a male red panda at Ichikawa Zoo. Fields are arranged alphabetically, and while some are obvious, let's discuss what each field means. 
 
 ### `_id`: Red Panda ID Numbers
 
-The `_id` is just a unique identification number, starting at *1* and going up. The `_id` is represented both in the file as well as in the filename of the panda. So that filenames sort cleanly in Explorer, pad the filename id to four digits (Examples: 0004, 1215, 0036). When adding a new red panda, take the next highest number already available.
+The `_id` is a unique identification number, starting at `1` and going up. The `_id` is represented both in the file as well as in the filename of the panda. So that filenames sort cleanly, the filename ID is padded to four digits (Examples: `0004`, `1215`, `0036`). 
 
-To see the next available Red Panda number, look in the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file.
+When adding a new red panda, take the next highest number that's not used. To see the next available Red Panda number, look in the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file.
 
 ### `children`: ID Numbers for Children of a Red Panda
 
-The `children` field is a list of this red panda's immediate family. Rather than names, which are not unique, these children values represent `_id` numbers for other Red Panda files. 
+The `children` field is a list of this red panda's immediate family. Rather than names, which are not unique, these children values are `_id` numbers in other Red Panda files.
 
-Keeping the Explorer or Finder windows open as you make changes is very useful. At a glance, you can see the IDs and names of a panda just in the filename, and combined with your other resources online, this should be enough to jog your memory and assist in validating whatever data we already have.
-
-We don't track parents relationships, because the family tree can be fully constructed just with children and sibling relationships.
+We don't track parent relationships, because the family tree can be fully constructed just with children and sibling relationships.
 
 ### `birthplace` and `zoo`: ID Numbers for Zoos
 
@@ -74,7 +81,7 @@ Pandas in our dataset have a birthplace and zoo/home recorded in their datasets.
 
 ### `birthday` and `death`: ID Numbers for Zoos
 
-Dates in the Red Panda Lineage dataset are always in YYYY/MM/DD form. The `death` section can be omitted for pandas that are still alive, or be listed as `death: unknown` for a panda that passed away at an undetermined date.
+Dates in the Red Panda Lineage dataset are always in `YYYY`/`MM`/`DD` form. The `death` section can be omitted for pandas that are still alive, or be listed as `death: unknown` for a panda that passed away at an undetermined date.
 
 ### Unknowns are Not Recorded
 
