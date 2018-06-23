@@ -1,0 +1,14 @@
+[panda]
+_id: 69
+birthday: 2012/07/28 
+birthplace: unknown
+children: unknown
+en.name: Karin
+en.nicknames: none 
+en.othernames: none
+gender: f
+jp.name: カリン 
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 6

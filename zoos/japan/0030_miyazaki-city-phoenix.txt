@@ -1,0 +1,10 @@
+[zoo]
+_id: 30
+en.address: Japan, 〒880-0122 Miyazaki Prefecture, Miyazaki, 塩路浜山3083-42
+en.location: Miyazaki City, Miyazaki Prefecture
+en.name: Miyazaki City Phoenix Zoo
+jp.address: unknown
+jp.location: 宮崎市 宮崎県
+jp.name: 宮崎市フェニックス自然動物園
+language.order: jp, en
+website: http://www.miyazaki-city-zoo.jp/index.html
