@@ -1,0 +1,14 @@
+[panda]
+_id: 66
+birthday: unknown
+birthplace: unknown
+children: 65
+en.name: Shinshin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シンシン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 29
