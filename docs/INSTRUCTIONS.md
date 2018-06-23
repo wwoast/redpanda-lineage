@@ -8,20 +8,21 @@ To make contributions to this dataset, you'll be using tools similar to what sof
 
 ## Getting Started: Windows and Mac Users
 
-To work with the Red Panda lineage dataset, you only need four things:
+To work with the Red Panda lineage dataset, you only need three things:
 
- * The Windows Explorer / Mac Finder, for viewing files and folders
- * A modern [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor, such as [Notepad++](https://notepad-plus-plus.org) 
+ * A [UTF-8 supporting](https://www.wikipedia.org/wiki/UTF-8) text editor with a good file-browsing sidebar.
+  * On Windows, [Notepad++](https://notepad-plus-plus.org) is a good simple choice. Unfortunately the regular Windows Notepad doesn't save Japanese text properly without deep Windows tweaks. 
+  * [Atom](https://atom.io/) supports Mac and Windows, but is more complex.
  * The [GitHub Desktop](https://desktop.github.io) software
  * A free [GitHub Account](https://github.com/join).
 
-Most people have used the first two things already. When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account.
+When you run [GitHub Desktop](https://desktop.github.io) for the first time, you'll have the option to sign up for a GitHub account.
 
-Once you've signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`.
+Once you're signed up and logged into GitHub Desktop, you'll be given the option to check out a repository. Search for `wwoast/redpanda-lineage`, and click Clone, and you'll have a copy of the Red Panda dataset downloaded to your home folder, under `Documents/GitHub`.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/windows-default-folders.png" /> 
 
-To recap, you've downloaded GitHub Desktop, signed in with your account, and know where the `redpanda-lineage` folder is on your computer. That's a pretty good start!
+To recap, you've downloaded GitHub Desktop, signed in with your account, and know where the `redpanda-lineage` folder is on your computer. Now, open some files in your new text editor and you'll be off to a good start!
 
 ## Creating A Branch to Work From
 
