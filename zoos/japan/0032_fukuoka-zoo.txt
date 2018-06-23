@@ -1,0 +1,10 @@
+[zoo]
+_id: 32
+en.address: Japan, 〒810-0037 Fukuoka Prefecture, Fukuoka, Chuo, 南公園1番1号
+en.location: Chuo-ku, Fukuoka City, Fukuoka Prefecture
+en.name: Fukuoka Municipal Zoo and Botanical Garden
+jp.address: unknown
+jp.location: 中央区 福岡市 福岡県
+jp.name: 福岡市動物園
+language.order: jp, en
+website: http://zoo.city.fukuoka.lg.jp/
