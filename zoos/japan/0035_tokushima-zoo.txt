@@ -1,0 +1,10 @@
+[zoo]
+_id: 35
+en.address: Japan, 〒771-4267 Tokushima Prefecture, Tokushima, Shibunocho, Nyudo−22-1
+en.location: Tokushima City, Tokushima Prefecture
+en.name: Tokushima Zoo
+jp.address: unknown
+jp.location: 徳島市 徳島県
+jp.name: とくしま動物園
+language.order: jp, en
+website: http://www.city.tokushima.tokushima.jp/zoo/

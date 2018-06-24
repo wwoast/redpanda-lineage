@@ -1,0 +1,14 @@
+[panda]
+_id: 108
+birthday: 2008/6/16
+birthplace: 10
+children: unknown
+en.name: Sora
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ソラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 35
