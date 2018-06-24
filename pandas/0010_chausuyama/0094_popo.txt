@@ -1,0 +1,15 @@
+[panda]
+_id: 94
+birthday: 2014/7/1
+birthplace: 10
+children: unknown
+en.name: Popo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ポポ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 95
+zoo: 10

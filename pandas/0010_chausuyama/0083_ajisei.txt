@@ -1,0 +1,14 @@
+[panda]
+_id: 83
+birthday: 2006/6/22 
+birthplace: 17
+children: 24, 92, 93
+en.name: Ajisei
+en.nicknames: Hydrangea
+en.othernames: none
+gender: f
+jp.name: アジサイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 10

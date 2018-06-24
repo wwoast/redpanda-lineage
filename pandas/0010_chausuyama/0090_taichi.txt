@@ -1,0 +1,14 @@
+[panda]
+_id: 90
+birthday: 2005/7/1
+birthplace: 22
+children: unknown
+en.name: Taichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タイチ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 10

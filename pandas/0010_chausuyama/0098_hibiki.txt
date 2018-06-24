@@ -1,0 +1,14 @@
+[panda]
+_id: 98
+birthday: unknown
+birthplace: 10
+children: unknown
+en.name: Hibiki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヒビキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 10

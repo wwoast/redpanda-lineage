@@ -1,0 +1,14 @@
+[panda]
+_id: 81
+birthday: 2000/7/4
+birthplace: 10
+children: 21, 82, 86, 87, 88
+en.name: Kiki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 10

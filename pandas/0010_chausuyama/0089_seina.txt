@@ -1,0 +1,15 @@
+[panda]
+_id: 89
+birthday: 2000/6/23
+birthplace: 10
+death: unknown
+children: 21, 82, 86, 87, 88
+en.name: Seina
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 星奈
+jp.nicknames: none
+jp.othernames: セイナ
+language.order: jp, en
+zoo: 10

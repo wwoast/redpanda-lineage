@@ -1,0 +1,14 @@
+[panda]
+_id: 91
+birthday: 2012/7/5
+birthplace: 10
+children: unknown
+en.name: Nene
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ネネ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 10
