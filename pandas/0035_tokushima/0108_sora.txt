@@ -1,15 +1,14 @@
 [panda]
-_id: 95
-birthday: 2014/7/1
+_id: 108
+birthday: 2008/6/16
 birthplace: 10
 children: unknown
-en.name: Yoshi-yoshi
+en.name: Sora
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: 佳佳
+gender: m
+jp.name: ソラ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 94
-zoo: 10
+zoo: 35

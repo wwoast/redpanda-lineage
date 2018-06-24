@@ -1,0 +1,15 @@
+[panda]
+_id: 95
+birthday: 2014/7/1
+birthplace: 10
+children: unknown
+en.name: Zsa-Zsa
+en.nicknames: none
+en.othernames: Jia-Jia
+gender: f
+jp.name: ジャジャ
+jp.nicknames: none
+jp.othernames: 佳佳
+language.order: jp, en
+litter: 94
+zoo: 10
