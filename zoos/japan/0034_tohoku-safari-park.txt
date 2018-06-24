@@ -1,0 +1,10 @@
+[zoo]
+_id: 34
+en.address: Japan, 〒964-0088 Fukushima Prefecture, Nihonmatsu, Sawamatsukura, 1
+en.location: Nihonmatsu, Fukushima Prefecture
+en.name: Tohoku Safari Park
+jp.address: unknown
+jp.location: 二本松市 福島県
+jp.name: 東北サファリパーク
+language.order: jp, en
+website: http://tohoku-safaripark.co.jp/
