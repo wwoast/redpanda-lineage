@@ -1,0 +1,14 @@
+[panda]
+_id: 102
+birthday: unknown
+birthplace: unknown
+children: 99, 100
+en.name: Azuki
+en.nicknames: Beans 
+en.othernames: none
+gender: f
+jp.name: アズキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 17

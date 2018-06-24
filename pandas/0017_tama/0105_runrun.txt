@@ -1,0 +1,14 @@
+[panda]
+_id: 105
+birthday: unknown
+birthplace: unknown
+children: unknown
+en.name: Run-Run
+en.nicknames: none  
+en.othernames: none
+gender: m
+jp.name: ルンルン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 17

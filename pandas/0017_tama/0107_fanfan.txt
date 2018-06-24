@@ -1,0 +1,14 @@
+[panda]
+_id: 107
+birthday: unknown
+birthplace: unknown
+children: unknown
+en.name: Fan-Fan
+en.nicknames: none  
+en.othernames: none
+gender: m
+jp.name: ファンファン
+jp.nicknames: none
+jp.othernames: 花花
+language.order: jp, en
+zoo: 17

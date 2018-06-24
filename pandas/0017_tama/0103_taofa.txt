@@ -1,0 +1,14 @@
+[panda]
+_id: 103
+birthday: unknown
+birthplace: 34
+children: unknown
+en.name: Taofa
+en.nicknames: Forehead-chan 
+en.othernames: none
+gender: f
+jp.name: タオファ
+jp.nicknames: none
+jp.othernames: 桃花
+language.order: jp, en
+zoo: 17
