@@ -1,14 +1,15 @@
 [panda]
-_id: 84
-birthday: 2006/7/6 
-birthplace: unknown
-children: 91, 92, 93, 94, 95
-en.name: Chao
+_id: 92
+birthday: 2013/6/21
+birthplace: 10
+children: unknown
+en.name: Taiyō
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: チャオ
+jp.name: タイヨウ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 93
 zoo: 10

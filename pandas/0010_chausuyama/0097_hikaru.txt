@@ -1,13 +1,13 @@
 [panda]
-_id: 83
-birthday: 2006/6/22 
-birthplace: unknown
-children: 92, 93
-en.name: Ajisei
+_id: 97
+birthday: unknown
+birthplace: 10
+children: unknown
+en.name: Hikaru
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: アジサイ
+gender: m
+jp.name: ヒカル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

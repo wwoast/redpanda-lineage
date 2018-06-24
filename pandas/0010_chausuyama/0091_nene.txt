@@ -1,13 +1,13 @@
 [panda]
-_id: 83
-birthday: 2006/6/22 
-birthplace: unknown
-children: 92, 93
-en.name: Ajisei
+_id: 91
+birthday: 2012/7/5
+birthplace: 10
+children: unknown
+en.name: Nene
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アジサイ
+jp.name: ネネ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

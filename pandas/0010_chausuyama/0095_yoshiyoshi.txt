@@ -1,14 +1,15 @@
 [panda]
-_id: 83
-birthday: 2006/6/22 
-birthplace: unknown
-children: 92, 93
-en.name: Ajisei
+_id: 95
+birthday: 2014/7/1
+birthplace: 10
+children: unknown
+en.name: Yoshi-yoshi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: アジサイ
+jp.name: 佳佳
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 94
 zoo: 10
