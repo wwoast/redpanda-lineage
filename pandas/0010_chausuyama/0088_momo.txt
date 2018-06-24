@@ -1,13 +1,13 @@
 [panda]
-_id: 81
-birthday: 2000/7/4
+_id: 87
+birthday: 2011/6/24
 birthplace: 10
-children: 82, 86, 87, 88
-en.name: Kiki
+children: unknown
+en.name: Mo-Mo
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: キキ
+gender: f
+jp.name: モモ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
