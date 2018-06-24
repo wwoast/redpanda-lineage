@@ -1,0 +1,14 @@
+[panda]
+_id: 109
+birthday: 2010/6/28
+birthplace: unknown
+children: 110
+en.name: Min-Min
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ミンミン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 35

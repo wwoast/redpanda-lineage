@@ -1,0 +1,14 @@
+[panda]
+_id: 110
+birthday: 2014/6/26
+birthplace: unknown
+children: none
+en.name: Anko
+en.nicknames: Red-Bean
+en.othernames: none
+gender: m
+jp.name: あんこ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 35
