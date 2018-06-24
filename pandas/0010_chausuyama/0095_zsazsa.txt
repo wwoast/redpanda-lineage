@@ -3,13 +3,13 @@ _id: 95
 birthday: 2014/7/1
 birthplace: 10
 children: unknown
-en.name: Yoshi-yoshi
+en.name: Zsa-Zsa
 en.nicknames: none
-en.othernames: none
+en.othernames: Jia-Jia
 gender: f
-jp.name: 佳佳
+jp.name: ジャジャ
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: 佳佳
 language.order: jp, en
 litter: 94
 zoo: 10
