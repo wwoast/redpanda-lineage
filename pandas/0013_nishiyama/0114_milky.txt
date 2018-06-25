@@ -1,0 +1,14 @@
+[panda]
+_id: 114
+birthday: 2013/7/7
+birthplace: 36
+children: unknown
+en.name: Milky
+en.nicknames: none
+en.othernames: Meruki
+gender: f
+jp.name: ミルキー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13
