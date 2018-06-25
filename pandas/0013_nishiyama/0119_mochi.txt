@@ -1,0 +1,14 @@
+[panda]
+_id: 119
+birthday: 2015/6/24
+birthplace: 13
+children: none
+en.name: Mochi
+en.nicknames: none
+en.othernames: Moochie 
+gender: m
+jp.name: モッチー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13
