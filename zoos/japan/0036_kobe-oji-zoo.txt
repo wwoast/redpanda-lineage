@@ -1,0 +1,10 @@
+[zoo]
+_id: 36
+en.address: Japan, 〒657-0838 Hyōgo Prefecture, Kobe, Nada Ward, 王子町３−１
+en.location: Nada Ward, Kobe
+en.name: Kobe Oji Zoo
+jp.address: unknown
+jp.location: 灘区 神戸市
+jp.name: 神戸市立王子動物園
+language.order: jp, en
+website: http://www.city.tokushima.tokushima.jp/zoo/

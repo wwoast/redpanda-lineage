@@ -1,0 +1,14 @@
+[panda]
+_id: 113
+birthday: 2011/6/27
+birthplace: 14
+children: 115, 116, 119, 121
+en.name: Kiraly
+en.nicknames: none
+en.othernames: Kirari
+gender: f
+jp.name: キラリ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13
