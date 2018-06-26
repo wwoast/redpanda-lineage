@@ -1,0 +1,14 @@
+[panda]
+_id: 121
+birthday: 2017/6/29
+birthplace: 13
+children: unknown
+en.name: Meixhang
+en.nicknames: Adorabear
+en.othernames: Meisyan, Mei-Shan, Mei-Xhang
+gender: f
+jp.name: めいしゃん
+jp.nicknames: none
+jp.othernames: 梅香
+language.order: jp, en
+zoo: 13

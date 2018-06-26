@@ -1,0 +1,14 @@
+[panda]
+_id: 122
+birthday: 2008/7/1
+birthplace: 13
+children: unknown
+en.name: Rai-Rai
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ライライ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 18
