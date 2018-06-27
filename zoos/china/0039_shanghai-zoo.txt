@@ -1,0 +1,13 @@
+[zoo]
+_id: 39
+cn.address: unknown 
+cn.location: 长宁区 上海
+cn.name: 上海動物園
+en.address: No. 2368 Hongqiao Road, Changning District, Shanghai
+en.location: Changning District, Shanghai
+en.name: Shanghai Zoo
+jp.address: unknown
+jp.location: unknown
+jp.name: unknown
+language.order: cn, jp, en
+website: http://www.shanghaizoo.cn/

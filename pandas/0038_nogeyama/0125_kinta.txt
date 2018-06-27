@@ -1,0 +1,15 @@
+[panda]
+_id: 125
+birthday: 2000/6/8
+birthplace: 39
+children: none
+death: 2018/6/11
+en.name: Kinta
+en.nicknames: none
+en.othernames: Spaceman, Quintana-Roo, Ageless Beauty 
+gender: f
+jp.name: キンタ 
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 38

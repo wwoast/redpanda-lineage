@@ -1,0 +1,14 @@
+[panda]
+_id: 126
+birthday: 2002/6/24
+birthplace: 6
+children: none
+en.name: Ken-Ken
+en.nicknames: none
+en.othernames: Kenken, Freckle-kun 
+gender: m
+jp.name: ケンケン
+jp.nicknames: none
+jp.othernames: 賢健
+language.order: jp, en
+zoo: 38
