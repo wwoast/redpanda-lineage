@@ -13,6 +13,9 @@ PANDA_PATH = "./pandas"
 OUTPUT_PATH = "./export/redpanda.json"
 ZOO_PATH = "./zoos" 
 
+class DateConsistencyError(ValueError):
+    pass
+
 class DateFormatError(ValueError):
     pass
 
@@ -77,6 +80,19 @@ class RedPandaGraph:
 
     def check_dataset_litter_ids(self):
         """Check that pandas in the same litter have the same birthday."""
+        litter_edges = [a for a in self.edges if a['_label'] == "litter"]
+        seen_pairs = []
+        for edge in litter_edges:
+            if (edge['_in'], edge['_out']) not in seen_pairs:
+                panda_in = [p for p in self.vertices if p['_id'] == edge['_in']][0]
+                panda_out = [p for p in self.vertices if p['_id'] == edge['_out']][0]
+                if panda_in['birthday'] != panda_out['birthday']:
+                    raise DateConsistencyError("Pandas in litter don't share birthday: %s, %s"
+                                               % (panda_in['en.name'], panda_out['en.name']))
+            # Litter relationships are recorded both directions, but we don't need
+            # to check the reverse-direction litter relationship
+            seen_pairs.append((edge['_in'], edge['_out']))
+            seen_pairs.append((edge['_out'], edge['_in']))
         pass
 
     def check_dataset_duplicate_ids(self, dataset):
