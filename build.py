@@ -72,10 +72,26 @@ class RedPandaGraph:
 
         - The children IDs should be valid for only one red panda file
         - There should be no loops / I'm my own grandpa situations
+        - Each child should have a mother and a father
 
-        This requires the entire panda dataset to have been read.
+        This requires the entire children edge dataset to have been read.
+        We make stacks of child -> parent -> grandparent ... paths,
+        and look for any duplicate IDs in the stacks.
         """
-        # TODO: graph traverse and cycle checking
+        # Start with the set of pandas that have no children
+        childless_ids = [p['_id'] for p in self.vertices
+                       if (p['children'] == "none" 
+                           or p['children'] == "unknown")]
+        # Finish with the pandas that have no recorded parents
+        all_child_ids = [x['_out'] for x in self.edges]
+        parentless_ids = [y for y in range(1, self.sum_pandas())
+                            if y not in all_child_ids]
+        # Sets of edges we can start or finish on
+        starting_edges = [s for s in self.edges 
+                            if s['_out'] in childless_ids]
+        finishing_edges = [f for f in self.edges
+                             if f['in'] in parentless_ids]
+        # This is hard to write :)
         pass
 
     def check_dataset_litter_ids(self):
@@ -84,8 +100,10 @@ class RedPandaGraph:
         seen_pairs = []
         for edge in litter_edges:
             if (edge['_in'], edge['_out']) not in seen_pairs:
-                panda_in = [p for p in self.vertices if p['_id'] == edge['_in']][0]
-                panda_out = [p for p in self.vertices if p['_id'] == edge['_out']][0]
+                panda_in = [p for p in self.vertices 
+                              if p['_id'] == edge['_in']][0]
+                panda_out = [p for p in self.vertices 
+                               if p['_id'] == edge['_out']][0]
                 if panda_in['birthday'] != panda_out['birthday']:
                     raise DateConsistencyError("Pandas in litter don't share birthday: %s, %s"
                                                % (panda_in['en.name'], panda_out['en.name']))
@@ -158,7 +176,7 @@ class RedPandaGraph:
         export['edges'] = self.edges
         export['_totals'] = {}
         export['_totals']['zoos'] = len(self.zoos)
-        export['_totals']['pandas'] = len(self.vertices) - len(self.zoos)
+        export['_totals']['pandas'] = self.sum_pandas()
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
@@ -297,6 +315,10 @@ class RedPandaGraph:
                     ((a['_out'] == outp and a['_in'] == inp) or  
                      (a['_in'] == outp and a['_out'] == inp)))]
 
+    def sum_pandas(self):
+        """Panda count is the vertices list minus the zoo count"""
+        return len(self.vertices) - len(self.zoos)
+
     def verify_zoos(self):
         """All checks to ensure that the zoo dataset is good."""
         self.check_dataset_duplicate_ids(self.zoos)
@@ -304,7 +326,7 @@ class RedPandaGraph:
     def verify_pandas(self):
         """All checks to ensure that the panda dataset is good."""
         self.check_dataset_duplicate_ids(self.vertices)
-        self.check_dataset_children_ids()
+        # self.check_dataset_children_ids()
         self.check_dataset_litter_ids()
         self.check_dataset_dates()
 
