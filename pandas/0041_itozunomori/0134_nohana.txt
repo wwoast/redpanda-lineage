@@ -1,0 +1,14 @@
+[panda]
+_id: 134
+birthday: 2017/7/31 
+birthplace: 41
+children: none
+en.name: Nohana
+en.nicknames: Flower
+en.othernames: none
+gender: f
+jp.name: 野花
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 41

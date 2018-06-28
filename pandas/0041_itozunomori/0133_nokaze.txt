@@ -1,0 +1,14 @@
+[panda]
+_id: 133
+birthday: 2009/6/25 
+birthplace: 15
+children: 131, 134
+en.name: Nokaze
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 野風
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 41
