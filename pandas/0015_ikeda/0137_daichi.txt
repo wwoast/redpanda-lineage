@@ -1,0 +1,14 @@
+[panda]
+_id: 137
+birthday: 2009/6/20 
+birthplace: 17
+children: 138
+en.name: Daichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 大地
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 15

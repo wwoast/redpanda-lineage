@@ -1,0 +1,14 @@
+[panda]
+_id: 141
+birthday: 2014/6/26
+birthplace: 35
+children: unknown
+en.name: Kinako
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: きなこ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 15

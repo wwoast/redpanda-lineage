@@ -1,0 +1,14 @@
+[panda]
+_id: 138
+birthday: 2012/6/19 
+birthplace: 15
+children: unknown
+en.name: Shizuku
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: しずく
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 15
