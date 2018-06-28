@@ -1,15 +1,15 @@
 [panda]
-_id: 110
+_id: 141
 birthday: 2014/6/26
 birthplace: 35
-children: none
-en.name: Anko
-en.nicknames: Red-Bean
+children: unknown
+en.name: Kinako
+en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: あんこ
+gender: f
+jp.name: きなこ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 141
-zoo: 35
+litter: 110
+zoo: 15

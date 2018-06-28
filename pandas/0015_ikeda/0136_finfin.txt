@@ -1,0 +1,15 @@
+[panda]
+_id: 136
+birthday: 2002/6/20 
+birthplace: 17
+children: unknown
+death: unknown
+en.name: Fin-Fin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: フィンフィン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 15

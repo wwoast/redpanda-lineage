@@ -1,0 +1,14 @@
+[panda]
+_id: 132
+birthday: 2007/6/21 
+birthplace: 37
+children: 131, 134
+en.name: Rin-Rin
+en.nicknames: Spinning
+en.othernames: none
+gender: m
+jp.name: 凌凌
+jp.nicknames: none
+jp.othernames: りんりん, リンリン
+language.order: jp, en
+zoo: 41

@@ -1,0 +1,14 @@
+[panda]
+_id: 140
+birthday: 2012/6/27
+birthplace: 6
+children: unknown
+en.name: Nonta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: のんた
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 15

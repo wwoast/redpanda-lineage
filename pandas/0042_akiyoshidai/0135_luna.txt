@@ -1,14 +1,14 @@
 [panda]
-_id: 69
-birthday: 2012/7/28 
-birthplace: unknown
+_id: 135
+birthday: 2004/6/28 
+birthplace: 15
 children: unknown
-en.name: Karin
-en.nicknames: none 
+en.name: Luna
+en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリン 
+jp.name: ルナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 6
+zoo: 42
