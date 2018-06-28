@@ -1,0 +1,15 @@
+[panda]
+_id: 128
+birthday: 2000/6/27
+birthplace: unknown
+children: unknown
+death: 2018/4/3
+en.name: Kousei
+en.nicknames: Stork 
+en.othernames: none
+gender: m
+jp.name: コウセイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 12
