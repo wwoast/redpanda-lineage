@@ -1,0 +1,14 @@
+[panda]
+_id: 147
+birthday: 2015
+birthplace: 37
+children: none
+en.name: Gao-Gao
+en.nicknames: Stripes, Shaggy
+en.othernames: none
+gender: m
+jp.name: 縞縞
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 16

@@ -1,0 +1,16 @@
+[panda]
+_id: 150
+birthday: 2011/6/12
+birthplace: 44
+children: 146
+en.name: Rinzen
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: リンゼン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: http://www.zooborns.com/.a/6a010535647bf3970b0153904b19a5970b-popup
+video.1: https://www.youtube.com/watch?v=jQsb-8uMhAE
+zoo: 43

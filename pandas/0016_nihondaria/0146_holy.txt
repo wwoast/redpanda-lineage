@@ -1,0 +1,14 @@
+[panda]
+_id: 146
+birthday: 2016/6/2
+birthplace: 16
+children: none
+en.name: Holy
+en.nicknames: none
+en.othernames: Holly
+gender: f
+jp.name: ホーリー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 16

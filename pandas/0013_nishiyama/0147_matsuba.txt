@@ -1,0 +1,14 @@
+[panda]
+_id: 147
+birthday: 2014/7/17
+birthplace: 16
+children: none
+en.name: Matsuba
+en.nicknames: Battle Princess, Mochi-slayer, Mochi-sweetie
+en.othernames: None
+gender: f
+jp.name: まつば
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13

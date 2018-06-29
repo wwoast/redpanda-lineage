@@ -1,0 +1,14 @@
+[panda]
+_id: 143
+birthday: 2010/6/15
+birthplace: 9
+children: 147
+en.name: Taku
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タク
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 16
