@@ -1,0 +1,14 @@
+[panda]
+_id: 155
+birthday: 2006/7/10
+birthplace: 15
+children: unknown
+en.name: Luna
+en.nicknames: none
+en.othernames: Runa
+gender: f
+jp.name: ルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 23
