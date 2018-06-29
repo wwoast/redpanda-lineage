@@ -1,7 +1,9 @@
 # Red Panda Lineage
 ----
 
-## Data Structure
+# Design Rationales
+
+## Data Formats
 
 ### Everything Is Text
 
@@ -41,3 +43,9 @@ In the case of our Red Panda Lineage, _CI_ tests all contributed data to ensure 
 Since the entire database is designed to be downloaded as part of this website, any searches in the Red Panda search website will finish almost instantly. On modern computers, databases with many thousands of items can be easily stored in RAM, and there's no need to wait for a remote database to answer your questions. We don't expect a red panda database to grow larger than what a modest computer or smartphone can keep in memory.
 
 ----
+
+# Implementation Strategy
+
+## Red Panda Search Forms
+
+TOWRITE: resolution rules, heuristics, and strategy 
