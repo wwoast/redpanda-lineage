@@ -4,19 +4,7 @@
 <script type="application/javascript" src="./zepto.js"></script>
 <script type="application/javascript" src="./dagoba.js"></script>
 <script type="application/javascript" src="./search.js"></script>
-<script type="application/javascript">
-var P;
-var G;
-window.addEventListener("DOMContentLoaded", function() {
-  P = Pandas.init();
-  G = Dagoba.graph();
-  // Hack to give time for P to load
-  setTimeout(function() { 
-    P.db.vertices.forEach(G.addVertex.bind(G));
-    P.db.edges   .forEach(G.addEdge  .bind(G));
-  }, 3000);
-});
-</script>
+<script type="application/javascript" src="./presentation.js"></script>
 </head>
 <body>
 <p>Search for Red Pandas on this site, by zoo and panda name.</p>
@@ -24,7 +12,7 @@ window.addEventListener("DOMContentLoaded", function() {
 <div id="pandaSearch">
   <form id="searchForm" action="javascript:">
     <div class="searchBoxFrame">
-      <div class="search"><input id="searchSubmit" type="submit" value=""></input></div>
+      <div class="search"><input id="searchSubmit" type="submit" value="Submit"></input></div>
       <div class="searchInput"><input id="searchEntry" type="search"></input></div>
     </div>
   </form>

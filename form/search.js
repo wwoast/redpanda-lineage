@@ -3,7 +3,9 @@
     Built with love and Dagoba.js :)  
 */
 
-
+/*
+    The Panda search form namespace
+*/
 var Pandas = {};   // Namespace
 
 Pandas.P = {};     // Prototype
@@ -28,8 +30,17 @@ Pandas.init = function() {
   return pandas;
 }
 
-/*
-Pandas.P.test_output = function(db) {
-  return JSON.stringify(db);
+// Search for each term in the graph database and infer what it is.
+Pandas.resolveQueryTerms = function(query) {
+  return null;
 }
-*/
+
+Pandas.queryPandaId = function(idnum) {
+  a = G.v(idnum).run();
+  console.log(a[0]['en.name']);
+}
+
+Pandas.queryPandaName = function(query) {
+  a = G.v({"en.name": query}).run();
+  console.log(a[0]['en.name']);
+}
