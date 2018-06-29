@@ -1,0 +1,14 @@
+[panda]
+_id: 156
+birthday: 2004/7/23 
+birthplace: 40
+children: unknown
+en.name: Ichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イチ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 25
