@@ -1,0 +1,14 @@
+[panda]
+_id: 154
+birthday: 2011/7/4
+birthplace: 20
+children: unknown
+en.name: Shun-Pei
+en.nicknames: none
+en.othernames: Shunpei
+gender: m
+jp.name: シュンペイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 23

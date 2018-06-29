@@ -1,0 +1,14 @@
+[panda]
+_id: 151
+birthday: 2010/6/26
+birthplace: 10
+children: unknown
+en.name: Subaru
+en.nicknames: none 
+en.othernames: none
+gender: m
+jp.name: スバル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 20
