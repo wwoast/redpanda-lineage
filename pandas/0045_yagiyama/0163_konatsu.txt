@@ -1,0 +1,14 @@
+[panda]
+_id: 163
+birthday: 2016/7/8
+birthplace: 46
+children: none
+en.name: Konatsu
+en.nicknames: Princess
+en.othernames: none
+gender: f
+jp.name: コナツ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 46
