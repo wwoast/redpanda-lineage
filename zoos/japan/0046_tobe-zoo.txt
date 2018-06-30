@@ -1,0 +1,10 @@
+[zoo]
+_id: 46
+en.address: 40 上原町 砥部町 伊予郡 Ehime Prefecture 791-2191, Japan
+en.location: Tobe, Ehime Prefecture, Shikoku
+en.name: Tobe Zoo
+jp.address: unknown
+jp.location: 砥部町 愛媛県 四国
+jp.name: 愛媛県立とべ動物園
+language.order: jp, en
+website: https://www.tobezoo.com/
