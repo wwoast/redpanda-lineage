@@ -76,7 +76,9 @@ Any terms that dictate the logic of the search must be processed first. Given th
     * English: `panda`, `zoo`
   * Sub-Type Operators:
     * Unary:
-      * English: `alive`, `dead`, `in`
+      * English: `alive`, `dead`, `in`, `born (before, after, on, around)`, `died (before, after, on, around)`
+    * Binary:
+      * `born (between)`, `died (between)`
   * Text Glob Operators:
     * `*`, `?`
   * Boolean Operators:
@@ -88,19 +90,19 @@ Any terms that dictate the logic of the search must be processed first. Given th
     * Unary:
       * English: `aunt`, `brother`, `cousin`, `children`, `dad`, `grandma`, `grandpa`, `litter`, `mate`, `mom`, `nephew`, `niece`, `parents`, `relatives`, `siblings`, `uncle`
     * Binary:
-      * English: children, relatives, siblings
+      * English: `children`, `relatives`, `siblings`
     * N-Ary:
-      * relatives, siblings
+      * `relatives`, `siblings`
   
 
 #### Order of Operations
 
 The type operators are only for scoping how specific a term is, or whether it needs resolution. Since these will make subsequent steps faster, and have no other effects on search results, type operators should be processed first.
 
-Next, the sub-type operators can be resolved. These do impact the search results, because the arguments only apply to a specific type. The `in` operator only takes a `zoo` argument, so we assume that arguments to that operator are zoos. This is similar for `alive`, `dead`, or the existence of relationship operators, which all imply their subjects are animals.
+Next, the sub-type operators can be resolved. These do impact the search results, because the arguments only apply to a specific type. The `in` operator only takes a `zoo` argument, so we assume that arguments to that operator are zoos. This is similar for `alive`, `dead`, or the existence of relationship operators, which all imply their subjects are animals. And the `born` and `died` operators imply the argument is a date.
 
-Next, the text glob operators can try and fill in values for strings that could match a panda name or a zoo name. The text glob processing stage has the same requirements as the "Subject" name construction -- you search for a term as if it was a panda or a zoo, and whichever has more matches, that's what you assume the type is. If this heuristic turns out to be incorrect, as long as the search interface makes it clear what type was chosen for a given term, 
+Now, the text glob operators can try and fill in values for strings that could match a panda name or a zoo name. The text glob processing stage has the same functionality requirements as "Subject" name construction -- you search for a term as if it was a panda or a zoo, and whichever has more matches, that's what you assume the type is. If this heuristic turns out to be incorrect, as long as the search interface makes it clear what type was chosen for a given term, 
 
-Next, we need to do the boolean processing, to decide what nodes are valid subjects to return relationship results based on.
+Next, we need to process the boolean operators, to decide what nodes (zoos or pandas) are valid subjects to return relationship results based on.
 
 Finally, we process the relationship operators, to see where from our graph nodes we go in or out to find the family members we want.
