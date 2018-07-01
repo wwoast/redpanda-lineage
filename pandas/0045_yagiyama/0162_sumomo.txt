@@ -1,0 +1,15 @@
+[panda]
+_id: 162
+birthday: 2014/7/6
+birthplace: 46
+children: none
+en.name: Sumomo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スモモ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 159
+zoo: 46
