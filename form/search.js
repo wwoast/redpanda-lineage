@@ -36,11 +36,12 @@ Pandas.resolveQueryTerms = function(query) {
 }
 
 Pandas.queryPandaId = function(idnum) {
-  a = G.v(idnum).run();
+  var node = G.v(idnum).run();
   console.log(a[0]['en.name']);
+  return node;
 }
 
 Pandas.queryPandaName = function(query) {
-  a = G.v({"en.name": query}).run();
-  console.log(a[0]['en.name']);
+  var nodes = G.v({"en.name": query}).run();
+  return nodes;
 }
