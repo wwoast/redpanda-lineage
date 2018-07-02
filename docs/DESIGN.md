@@ -54,7 +54,7 @@ Taking advantage of a static JSON dataset, and the Dagoba client-side graph data
 
 ## Red Panda Search Forms
 
-A fully usable, GitHub-hosted search page for the Red Panda data is being developed as part of this repository, in the `forms/` folder. Being built by red panda fans for red panda fans, the forms should illustrate the family relationships between related animals, and help visitors verify which animals they've taken photos of, or visited in zoos.
+A fully usable, GitHub-hosted search page for the Red Panda data is being developed as part of this repository, in the `search/` folder. Being built by red panda fans for red panda fans, the forms should illustrate the family relationships between related animals, and help visitors verify which animals they've taken photos of, or visited in zoos.
 
 ### Search Query Processing
 
