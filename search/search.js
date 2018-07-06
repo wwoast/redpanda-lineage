@@ -30,11 +30,17 @@ Pandas.init = function() {
   return pandas;
 }
 
-// Search for each term in the graph database and infer what it is.
-Pandas.resolveQueryTerms = function(query) {
-  return null;
+/*
+    Operator Definitions
+*/
+Pandas.ops = {
+  ""
 }
 
+
+/*
+    Methods for searching on Red Pandas
+*/
 Pandas.queryPandaId = function(idnum) {
   var node = G.v(idnum).run();
   console.log(a[0]['en.name']);
@@ -44,4 +50,9 @@ Pandas.queryPandaId = function(idnum) {
 Pandas.queryPandaName = function(query) {
   var nodes = G.v({"en.name": query}).run();
   return nodes;
+}
+
+// Search for each term in the graph database and infer what it is.
+Pandas.resolveQueryTerms = function(query) {
+  return null;
 }

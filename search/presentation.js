@@ -104,7 +104,7 @@ Show.displayMedia = function(frame_type, media_type, index) {
 // If the index'th photo in the panda or zoo data is missing,
 // create a placeholder frame with style "frame_type".
 Show.emptyMedia = function(frame_type, media_type, index) {
-  var missing_uri = "/path/to/defaults/missing_media.png";
+  var missing_uri = "/images/no-panda.jpg";
   var alt_text = media_type + "." + index + " not found";
   var contents = document.createElement('img');
   contents.src = missing_uri;
@@ -121,6 +121,7 @@ Show.emptyPandaResult = function() {
   var message = document.createElement('p');
   message.textContent = Show.default_panda['en.name'];
   var result = document.createElement('div');
+  result.class = "emptyPanda";
   result.appendChild(message);
   return result;
 }
