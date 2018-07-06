@@ -31,12 +31,51 @@ Pandas.init = function() {
 }
 
 /*
-    Operator Definitions
+    Operator Definitions and aliases, organized into stages (processing order), and then
+    by alphabetical operator order, and then in the alternate languages for searching that
+    we're trying to support
 */
 Pandas.ops = {
-  ""
+  "type": {
+    "panda": ['panda', 'red panda', 'パンダ', 'レッサーパンダ'],
+    "zoo": ['zoo', '動物園']
+  },
+  "sub-type": {
+    "alive": ['alive', 'living'],
+    "born": ['born'],
+    "dead": ['dead'],
+    "died": ['died'],
+    "in": ['in']
+  },
+  "glob": {
+    "*": ['*'],
+    "?": ['?']
+  },
+  "boolean": {
+    "and": ['and'],
+    "or": ['or'],
+    "not": ['not'],
+    "nor": ['nor']
+  },
+  "family": {
+    "aunt": ['aunt'],
+    "brother": ['brother'],
+    "cousin": ['cousin'],
+    "children": ['children'],
+    "dad": ['dad', 'father', 'papa'],
+    "grandma": ['grandma', 'grandmother'],
+    "grandpa": ['grandpa', 'grandfather'],
+    "litter": ['litter'],
+    "mate": ['husband', 'mate', 'wife'],
+    "mom": ['mom', 'mother'],
+    "nephew": ['nephew'],
+    "niece": ['niece'],
+    "parents": ['parents'],
+    "relatives": ['relative', 'relatives'],
+    "siblings": ['sibling', 'siblings'],
+    "uncle": ['uncle']
+  }
 }
-
 
 /*
     Methods for searching on Red Pandas
