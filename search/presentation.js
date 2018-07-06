@@ -87,6 +87,8 @@ Show.constructLink = function(my_id, their_id, their_relation) {
   // Look up the other panda
   // Create the link to them based on ID
   // Name the link based on the relationship information
+  var them = Pandas.queryPandaId(their_id);
+  // TODO: UI URL structure for query params for inset JSON
   return null;  // TODO
 }
 
@@ -108,6 +110,7 @@ Show.emptyMedia = function(frame_type, media_type, index) {
   contents.src = missing_uri;
   contents.alt = alt_text;
   var result = document.createElement('div');
+  result.className = frame_type;
   result.appendChild(contents);
   return result;
 }
@@ -126,6 +129,8 @@ Show.emptyPandaResult = function() {
 // elements should not be displayed, but a few should be printed 
 // regardless, such as birthday / time of death.
 Show.pandaInformation = function() {
+  var me = Pandas.queryPandaId(their_id);
+
   return null;   // TODO
 }
 
