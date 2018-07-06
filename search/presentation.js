@@ -65,8 +65,9 @@ Show.displayMedia = function(frame_type, media_type, index) {
 // If the index'th photo in the panda or zoo data is missing,
 // create a placeholder frame with style "frame_type".
 Show.emptyMedia = function(frame_type, media_type, index) {
-  var missing_uri = "/images/no-panda.jpg";
-  var alt_text = media_type + "." + index + " not found";
+  var missing_field = media_type + "." + index;
+  var missing_uri = Pandas.def.animal[missing_field];
+  var alt_text = missing_field + " not found";
   var contents = document.createElement('img');
   contents.src = missing_uri;
   contents.alt = alt_text;
@@ -80,7 +81,7 @@ Show.emptyMedia = function(frame_type, media_type, index) {
 // with special "no results" formatting.
 Show.emptyPandaResult = function() {
   var message = document.createElement('p');
-  message.textContent = Show.default_panda['en.name'];
+  message.textContent = Pandas.def.animal['en.name'];
   var result = document.createElement('div');
   result.class = "emptyPanda";
   result.appendChild(message);
@@ -90,12 +91,13 @@ Show.emptyPandaResult = function() {
 // Display a text dossier of information for a panda. Most missing
 // elements should not be displayed, but a few should be printed 
 // regardless, such as birthday / time of death.
-Show.pandaInformation = function() {
-  var me = Pandas.searchPandaId(their_id);
-
-  var name = me['en.name'];   // TODO: language-based mutation
-  var birthday = 
-
+Show.pandaInformation = function(id, language) {
+  var animal = Pandas.searchPandaId(id);
+  var name_field = language + ".name";
+  var name = animal[name_field];
+  var birthday = Pandas.birthday(animal, language);
+  var age = Pandas.age(animal, language);
+  // TODO: mother and father
   return null;   // TODO
 }
 

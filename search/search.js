@@ -121,16 +121,16 @@ Pandas.def.animal = {
   "jp.nicknames": "ニックネームは記録されていません",
   "jp.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
-  "photo.1": "No Photo Listed",
-  "photo.2": "No Photo Listed",
-  "photo.3": "No Photo Listed",
-  "photo.4": "No Photo Listed",
-  "photo.5": "No Photo Listed",
-  "video.1": "No Video Listed",
-  "video.2": "No Video Listed",
-  "video.3": "No Video Listed",
-  "video.4": "No Video Listed",
-  "video.5": "No Video Listed",
+  "photo.1": "/images/no-panda.jpg",
+  "photo.2": "/images/no-panda.jpg",
+  "photo.3": "/images/no-panda.jpg",
+  "photo.4": "/images/no-panda.jpg",
+  "photo.5": "/images/no-panda.jpg",
+  "video.1": "/images/no-panda.jpg",
+  "video.2": "/images/no-panda.jpg",
+  "video.3": "/images/no-panda.jpg",
+  "video.4": "/images/no-panda.jpg",
+  "video.5": "/images/no-panda.jpg",
   "zoo": "0"
 }
 
@@ -203,9 +203,7 @@ Pandas.resolveQueryTerms = function(query) {
 /*
     Getters and formatters for Red Panda details, with sensible defaults
 */
-// Given an animal's birthday, return their age up to the day they died.
-// If the animal's date of death is listed as "unknown", this means the animal
-// passed at an undetermined date, so its age is unknown.
+// Given an animal's birthday, return their age up to today or the day they died.
 Pandas.age = function(animal, language) {
   var birth = animal['birthday'];
   if (birth == undefined) {
@@ -213,6 +211,11 @@ Pandas.age = function(animal, language) {
   }
   var birthday = new Date(birth);
   var death = animal['death'];
+  // If the animal's date of death is listed as "unknown", this means the animal
+  // passed at an undetermined date, so its age is also unknown.
+  if (death == undefined) {
+    return Pandas.def.unknown[language];
+  }
   var endday = (death == undefined ? new Date() : new Date(death));
   var ms_per_day = 1000 * 60 * 60 * 24;
   var age_days = (endday - birthday)/ms_per_day;
@@ -223,21 +226,21 @@ Pandas.age = function(animal, language) {
   // where you should just print the age in years.
   if (age_days < 2) {
     return str(age_days) + " " + Pandas.def.age[language]['day'];
-  }
-  if (age_days <= 100) {
+  } else if (age_days <= 100) {
     return str(age_days) + " " + Pandas.def.age[language]['days'];
-  }
-  if (age_days <= 365) {
+  } else if (age_days <= 365) {
     return str(age_months) + " " + Pandas.def.age[language]['months'];
-  }
-  if (age_days <= 395) {
+  } else if (age_days <= 395) {
     return "1" + " " + Pandas.def.age[language]['year'];
-  }
-  if (age_days <= 730) {
+  } else if (age_days <= 425) {
+    return "1" + " " + Pandas.def.age[language]['year'] + " " + 
+           str(age_months) + Pandas.def.age[language]['month'];
+  } else if (age_days <= 730) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
            str(age_months) + Pandas.def.age[language]['months'];
+  } else {
+    return age_years + " " + Pandas.def.age[language]['years'];
   }
-  return age_years + " " + Pandas.def.age[language]['years'];
 }
 
 // Given an animal, return their birthday, formatted to the correct locale.
