@@ -24,7 +24,7 @@ $(function() {
     // Allow searches using special characters like #. The escape function doesn't
     // support unicode, so use encodeURI instead.
     query = encodeURI(query);
-    results = Pandas.queryPandaName(query);
+    results = Pandas.searchPandaName(query);
   });
 });
 
@@ -40,45 +40,6 @@ Show.init = function() {
   return show;
 }
 
-Show.default_panda = {
-  "_id": "0",
-  "birthday": "1970/1/1",
-  "birthplace": "0",
-  "children": "0",
-  "en.name": "Panda Not Found",
-  "en.nicknames": "No Nicknames Recorded",
-  "en.othernames": "No Alternate Names Recorded",
-  "gender": "Missing Gender Information",
-  "jp.name": "パンダが見つかりませんでした",
-  "jp.nicknames": "ニックネームは記録されていません",
-  "jp.othernames": "代わりのスペルは記録されていません",
-  "litter": "0",
-  "photo.1": "No Photo Listed",
-  "photo.2": "No Photo Listed",
-  "photo.3": "No Photo Listed",
-  "photo.4": "No Photo Listed",
-  "photo.5": "No Photo Listed",
-  "video.1": "No Video Listed",
-  "video.2": "No Video Listed",
-  "video.3": "No Video Listed",
-  "video.4": "No Video Listed",
-  "video.5": "No Video Listed",
-  "zoo": "0"
-}
-
-Show.default_zoo = {
-  "_id": "0",
-  "en.address": "No Google Maps Address Recorded",
-  "en.location": "No City, District, or State Info Listed",
-  "en.name": "Zoo Not Found",
-  "jp.address": "Googleマップのアドレスが記録されていません",
-  "jp.location": "市区町村の情報が表示されていない",
-  "jp.name": "動物園が見つかりません",
-  "photo.1": "No Photo Listed",
-  "photo.2": "No Photo Listed",
-  "video.1": "No Video Listed",
-  "video.2": "No Video Listed"
-}
 
 /****** TODO: STYLESHEETS AND STYLE REFERENCES ******/
 // Construct a link for a panda given lookup information 
@@ -87,7 +48,7 @@ Show.constructLink = function(my_id, their_id, their_relation) {
   // Look up the other panda
   // Create the link to them based on ID
   // Name the link based on the relationship information
-  var them = Pandas.queryPandaId(their_id);
+  var them = Pandas.searchPandaId(their_id);
   // TODO: UI URL structure for query params for inset JSON
   return null;  // TODO
 }
@@ -130,7 +91,10 @@ Show.emptyPandaResult = function() {
 // elements should not be displayed, but a few should be printed 
 // regardless, such as birthday / time of death.
 Show.pandaInformation = function() {
-  var me = Pandas.queryPandaId(their_id);
+  var me = Pandas.searchPandaId(their_id);
+
+  var name = me['en.name'];   // TODO: language-based mutation
+  var birthday = 
 
   return null;   // TODO
 }

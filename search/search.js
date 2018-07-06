@@ -78,20 +78,235 @@ Pandas.ops = {
 }
 
 /*
+    Defaults for a panda or zoo if a piece of information is missing
+*/
+Pandas.def.age = {
+  "cn": {
+    "year": "年",
+    "years": "年",
+    "month": "月",
+    "months": "月",
+    "day": "天",
+    "days": "天"
+  },
+  "en": {
+    "year": "year",
+    "years": "years",
+    "month": "month",
+    "months": "months",
+    "day": "day",
+    "days": "days"
+  },
+  "jp": {
+    "year": "年",
+    "years": "年",
+    "month": "月",
+    "months": "月",
+    "day": "日",
+    "days": "日"
+  }
+}
+
+Pandas.def.animal = {
+  "_id": "0",
+  "birthday": "1970/1/1",
+  "birthplace": "0",
+  "children": "0",
+  "death": "1970/1/1",
+  "en.name": "Panda Not Found",
+  "en.nicknames": "No Nicknames Recorded",
+  "en.othernames": "No Alternate Names Recorded",
+  "gender": "Unknown",
+  "jp.name": "パンダが見つかりませんでした",
+  "jp.nicknames": "ニックネームは記録されていません",
+  "jp.othernames": "代わりのスペルは記録されていません",
+  "litter": "0",
+  "photo.1": "No Photo Listed",
+  "photo.2": "No Photo Listed",
+  "photo.3": "No Photo Listed",
+  "photo.4": "No Photo Listed",
+  "photo.5": "No Photo Listed",
+  "video.1": "No Video Listed",
+  "video.2": "No Video Listed",
+  "video.3": "No Video Listed",
+  "video.4": "No Video Listed",
+  "video.5": "No Video Listed",
+  "zoo": "0"
+}
+
+Pandas.def.date = {
+  "cn": "YYYY-MM-DD",
+  "en": "MM/DD/YYYY",
+  "jp": "YYYY年MM月DD日"
+}
+
+Pandas.def.gender = {
+  "Female": {
+    "cn": "女",
+    "en": "female",
+    "jp": "メス"
+  },
+  "Male": {
+    "cn": "男",
+    "en": "male",
+    "jp": "オス"
+  }
+}
+
+Pandas.def.unknown = {
+  "cn": "不明",
+  "en": "unknown",
+  "jp": "未詳"
+}
+
+Pandas.def.zoo = {
+  "_id": "0",
+  "en.address": "No Google Maps Address Recorded",
+  "en.location": "No City, District, or State Info Listed",
+  "en.name": "Zoo Not Found",
+  "jp.address": "Googleマップのアドレスが記録されていません",
+  "jp.location": "市区町村の情報が表示されていない",
+  "jp.name": "動物園が見つかりません",
+  "photo.1": "No Photo Listed",
+  "photo.2": "No Photo Listed",
+  "video.1": "No Video Listed",
+  "video.2": "No Video Listed",
+  "website": "https://www.worldwildlife.org/"
+}
+
+/*
     Methods for searching on Red Pandas
 */
-Pandas.queryPandaId = function(idnum) {
+Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
-  console.log(a[0]['en.name']);
+  console.log(node[0]['en.name']);
   return node;
 }
 
-Pandas.queryPandaName = function(query) {
+Pandas.searchPandaName = function(query) {
   var nodes = G.v({"en.name": query}).run();
   return nodes;
+}
+
+// Zoos are stored with negative numbers, but are tracked in the database by
+// their positive ID numbers. So convert the ID before searching
+Pandas.searchZooId = function(idnum) {
+  var node = G.v(str(int(idnum) * -1)).run();
+  return node;
 }
 
 // Search for each term in the graph database and infer what it is.
 Pandas.resolveQueryTerms = function(query) {
   return null;
+}
+
+/*
+    Getters and formatters for Red Panda details, with sensible defaults
+*/
+// Given an animal's birthday, return their age up to the day they died.
+// If the animal's date of death is listed as "unknown", this means the animal
+// passed at an undetermined date, so its age is unknown.
+Pandas.age = function(animal, language) {
+  var birth = animal['birthday'];
+  if (birth == undefined) {
+    return Pandas.def.unknown[language];
+  }
+  var birthday = new Date(birth);
+  var death = animal['death'];
+  var endday = (death == undefined ? new Date() : new Date(death));
+  var ms_per_day = 1000 * 60 * 60 * 24;
+  var age_days = (endday - birthday)/ms_per_day;
+  var age_years = Math.floor(age_days / 365);
+  var age_months = Math.floor(age_days / 30);
+  // Date heuristics: Print the age in days if younger than 100 days old.
+  // Otherwise, print the age in terms of months and years, up to two years,
+  // where you should just print the age in years.
+  if (age_days < 2) {
+    return str(age_days) + " " + Pandas.def.age[language]['day'];
+  }
+  if (age_days <= 100) {
+    return str(age_days) + " " + Pandas.def.age[language]['days'];
+  }
+  if (age_days <= 365) {
+    return str(age_months) + " " + Pandas.def.age[language]['months'];
+  }
+  if (age_days <= 395) {
+    return "1" + " " + Pandas.def.age[language]['year'];
+  }
+  if (age_days <= 730) {
+    return "1" + " " + Pandas.def.age[language]['year'] + " " + 
+           str(age_months) + Pandas.def.age[language]['months'];
+  }
+  return age_years + " " + Pandas.def.age[language]['years'];
+}
+
+// Given an animal, return their birthday, formatted to the correct locale.
+Pandas.birthday = function(animal, language) {
+  return Pandas.date(animal, 'birthday', language);
+}
+
+// Given an animal and a language, return one of the panda's date fields
+// in the local format. The database always tracks dates in YYYY/MM/DD format.
+Pandas.date = function(animal, field, language) {
+  var date = animal[field];
+  if (date == undefined) {
+    return Pandas.def.unknown[language];
+  }
+  var format = Pandas.def.date[language];
+  [ year, month, day ] = date.split("/");
+  format.replace("YYYY", year);
+  format.replace("MM", month);
+  format.replace("DD", day);
+  return format;
+}
+
+// Given a field that doesn't have language information associated with it,
+// return either the field if it exists, or some reasonable default.
+Pandas.field = function(animal, field) {
+  return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given an animal and a language, return the proper gender string.
+Pandas.gender = function(animal, language) {
+  var gender = animal["gender"];
+  return gender == "undefined" ? Pandas.def.unknown[launguage] 
+                               : Pandas.def.gender[gender][language];
+}
+
+// Given an animal and a field name, return details about a zoo. 
+// Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
+Pandas.location = function(animal, field) {
+  return animal[field] == undefined ? Pandas.def.zoo 
+                                    : Pandas.searchZooId(animal[field]);
+}
+
+// Given an animal and a chosen language, return details for a red panda.
+Pandas.name = function(animal, language) {
+  var field = language + ".name";
+  return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given an animal and a chosen language, return nicknames.
+Pandas.nicknames = function(animal, language) {
+  var field = language + ".nicknames";
+  return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given an animal and a chosen language, return alternate names, such as
+// alternative Hiragana/Katakana/Kanji spellings of names.
+Pandas.othernames = function(animal, language) {
+  var field = language + ".othernames";
+  return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given a zoo found with Pandas.location(), return the name of the zoo.
+Pandas.zoo_name = function(zoo, language) {
+  var field = language + ".name";
+  return zoo[field] == undefined ? Pandas.def.zoo[field] : zoo[field];
+}
+
+// Given a zoo found with Pandas.location(), return an arbitrary field.
+// Useful for anything that's just a URI, like videos or photos.
+Pandas.zoo_field = function(zoo, field) {
+  return zoo[field] == undefined ? Pandas.def.zoo[field] : zoo[field];
 }
