@@ -1,0 +1,15 @@
+[panda]
+_id: 168
+birthday: unknown
+birthplace: 13
+death: 2014/12/18
+children: 26, 109, 124, 79, 114
+en.name: Chata
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: チャタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13

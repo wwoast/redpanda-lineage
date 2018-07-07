@@ -1,15 +1,15 @@
 [panda]
-_id: 65
-birthday: 2014/6/6
-birthplace: unknown
+_id: 166
+birthday: 2017/7/6 
+birthplace: 36
 children: none
-en.name: Kirara
+en.name: Jazz
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: キララ
+gender: m
+jp.name: ジャズ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 62
-zoo: 29
+litter: 167
+zoo: 36
