@@ -40,7 +40,36 @@ Show.init = function() {
   return show;
 }
 
+/*
+    Presentation-level data, separated out from output and formatting
+*/
+// Given an animal and a language, obtain the immediate information that would
+// be displayed in an information card about the panda, including its zoo and
+// its relatives.
+Show.acquirePandaInfo = function(animal, language) {
+  var name_field = language + ".name";
+  var zoo = Pandas.location(animal, "zoo", language);
 
+  // TODO: Mother, Father, Siblings
+  return {
+    "age": Pandas.age(animal),
+    "birthday": Pandas.birthday(animal, language),
+    "birthplace": Pandas.location(animal, "birthplace", language),
+    "death": Pandas.date(animal, "death", language),
+    "dad": null,        // TODO
+    "mom": null,        // TODO
+    "name": animal[name_field],
+    "photos": null,     // TODO
+    "siblings": null,   // TODO
+    "zoo_name": Pandas.zoo_name(zoo, language),
+    "zoo_website": Pandas.zoo_field(zoo, "website")
+  }
+}
+
+
+/*
+    Displayed output in the webpage
+*/
 /****** TODO: STYLESHEETS AND STYLE REFERENCES ******/
 // Construct a link for a panda given lookup information 
 // on the relationship to the panda in the current results
@@ -108,7 +137,7 @@ Show.pandaResult = function(panda) {
     return Show.emptyPandaResult();
   }
 
-  // Get nodes for any parents, children, and siblings
+  // Get nodes for any parents, children, and siblings. TODO
 
   // Validate images. Choose a profile image at random from the ones available
 

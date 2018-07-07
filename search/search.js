@@ -302,6 +302,27 @@ Pandas.othernames = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
+// Given an animal, choose a photo to display as its profile photo. The index
+// can be a number between 1 and 5, or it can be "random".
+Pandas.profile_photo = function(animal, index) {
+  // Find the available photo indexes between one and five
+  var photo_index = {
+    "photo.1": Pandas.field(animal, "photo.1"),
+    "photo.2": Pandas.field(animal, "photo.2"),
+    "photo.3": Pandas.field(animal, "photo.3"),
+    "photo.4": Pandas.field(animal, "photo.4"),
+    "photo.5": Pandas.field(animal, "photo.5")
+  }
+  photo_index.filter(function() {
+    // TODO: filter out unknown or unverified photos
+  });
+  // TODO: Of remaining available photos, choose one of the keys at random
+  if (!(index >= 1 && index <= 5)) {
+    index = Math.floor(Math.random() * 5) + 1;
+  }
+  return null;  // TODO
+}
+
 // Given a zoo found with Pandas.location(), return the name of the zoo.
 Pandas.zoo_name = function(zoo, language) {
   var field = language + ".name";
