@@ -1,0 +1,15 @@
+[panda]
+_id: 166
+birthday: 2017/7/6 
+birthplace: 36
+children: none
+en.name: Jazz
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャズ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 167
+zoo: 36

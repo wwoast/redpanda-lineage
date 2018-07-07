@@ -1,0 +1,15 @@
+[panda]
+_id: 165
+birthday: 2004/6/10
+birthplace: 12
+children: unknown
+en.name: Gaia
+en.nicknames: Prince Gaius, Prince
+en.othernames: none
+gender: m
+jp.name: ガイア
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 25
+zoo: 36
