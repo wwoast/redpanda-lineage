@@ -177,16 +177,46 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
+// Find a panda's dad
+Pandas.searchPandaDad = function(idnum) {
+  var nodes = G.v(idnum).in("family").filter(function(vertex) {
+    return vertex.gender == "Male";
+  }).run();
+  return nodes[0];
+}
+
+// Find a panda by an arbitrary field in the red panda database
+Pandas.searchPandaField = function(query, field) {
+  var search = {};
+  search[field] = query;
+  var nodes = G.v(search).run();
+  return nodes;
+}
+
+// Find a panda by id number
 Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
-  console.log(node[0]['en.name']);
   return node;
 }
 
-Pandas.searchPandaName = function(query) {
-  var nodes = G.v({"en.name": query}).run();
+// Find a panda's mother
+Pandas.searchPandaMom = function(idnum) {
+  var nodes = G.v(idnum).in("family").filter(function(vertex) {
+    return vertex.gender == "Female";
+  }).run();
+  return nodes[0];
+}
+
+// Find a panda by English name
+Pandas.searchPandaName = function(name) {
+  var nodes = G.v({"en.name": name}).run();
   return nodes;
 }
+
+
+
+
+
 
 // Zoos are stored with negative numbers, but are tracked in the database by
 // their positive ID numbers. So convert the ID before searching

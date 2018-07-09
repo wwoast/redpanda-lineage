@@ -56,8 +56,8 @@ Show.acquirePandaInfo = function(animal, language) {
     "birthday": Pandas.birthday(animal, language),
     "birthplace": Pandas.location(animal, "birthplace", language),
     "death": Pandas.date(animal, "death", language),
-    "dad": null,        // TODO
-    "mom": null,        // TODO
+    "dad": Pandas.searchPandaDad(animal["_id"]),
+    "mom": Pandas.searchPandaMom(animal["_id"]),
     "name": animal[name_field],
     "photos": null,     // TODO
     "siblings": null,   // TODO
