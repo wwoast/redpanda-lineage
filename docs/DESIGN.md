@@ -101,7 +101,8 @@ The type operators are only for scoping how specific a term is, or whether it ne
 
 Next, the sub-type operators can be resolved. These do impact the search results, because the arguments only apply to a specific type. The `in` operator only takes a `zoo` argument, so we assume that arguments to that operator are zoos. This is similar for `alive`, `dead`, or the existence of relationship operators, which all imply their subjects are animals. And the `born` and `died` operators imply the argument is a date.
 
-Now, the text glob operators can try and fill in values for strings that could match a panda name or a zoo name. The text glob processing stage has the same functionality requirements as "Subject" name construction -- you search for a term as if it was a panda or a zoo, and whichever has more matches, that's what you assume the type is. If this heuristic turns out to be incorrect, as long as the search interface makes it clear what type was chosen for a given term, 
+Now, the text glob operators can try and fill in values for strings that could match a panda name or a zoo name. The text glob processing stage has the same functionality requirements as "Subject" name construction -- you search for a term as if it was a panda or a zoo, and whichever has more matches, that's what you assume the type is. If this heuristic turns out to be incorrect, as long as the search interface makes it clear what type was chosen for a given term, the user can tune follow-up queries with
+manual sub-types to correct the bad automatic heuristic.
 
 Next, we need to process the boolean operators, to decide what nodes (zoos or pandas) are valid subjects to return relationship results based on.
 
