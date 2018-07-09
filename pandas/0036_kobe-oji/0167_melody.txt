@@ -1,15 +1,15 @@
 [panda]
-_id: 62
-birthday: 2014/6/6
-birthplace: 29 
+_id: 167
+birthday: 2017/7/6 
+birthplace: 36
 children: none
-en.name: Maruru
+en.name: Melody
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: マルル
+gender: f
+jp.name: メロディ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 65
-zoo: 29
+litter: 166
+zoo: 36
