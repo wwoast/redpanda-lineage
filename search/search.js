@@ -177,6 +177,11 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
+// Search for each term in the graph database and infer what it is.
+Pandas.resolveQueryTerms = function(query) {
+  return null;  // TODO
+}
+
 // Find a panda's dad
 Pandas.searchPandaDad = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
@@ -199,6 +204,12 @@ Pandas.searchPandaId = function(idnum) {
   return node;
 }
 
+// Find a panda's direct litter
+Pandas.searchLitter = function(idnum) {
+  var nodes = G.v(idnum).in("litter").run();
+  return nodes;
+}
+
 // Find a panda's mother
 Pandas.searchPandaMom = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
@@ -213,21 +224,19 @@ Pandas.searchPandaName = function(name) {
   return nodes;
 }
 
-
-
-
-
+// Find a panda's siblings, defined as the intersection of children 
+// by the same mother and father panda, but excluding the initial panda
+// we started the search from.
+Pandas.searchSiblings = function(idnum) {
+  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").run();
+  return nodes;
+}
 
 // Zoos are stored with negative numbers, but are tracked in the database by
 // their positive ID numbers. So convert the ID before searching
 Pandas.searchZooId = function(idnum) {
   var node = G.v(str(int(idnum) * -1)).run();
   return node;
-}
-
-// Search for each term in the graph database and infer what it is.
-Pandas.resolveQueryTerms = function(query) {
-  return null;
 }
 
 /*
@@ -332,25 +341,33 @@ Pandas.othernames = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
-// Given an animal, choose a photo to display as its profile photo. The index
-// can be a number between 1 and 5, or it can be "random".
+// Given an animal, choose a single photo to display as its profile photo.
+// The index can be a number between 1 and 5, or it can be "random".
 Pandas.profile_photo = function(animal, index) {
   // Find the available photo indexes between one and five
-  var photo_index = {
+  var photos = {
     "photo.1": Pandas.field(animal, "photo.1"),
     "photo.2": Pandas.field(animal, "photo.2"),
     "photo.3": Pandas.field(animal, "photo.3"),
     "photo.4": Pandas.field(animal, "photo.4"),
     "photo.5": Pandas.field(animal, "photo.5")
   }
-  photo_index.filter(function() {
-    // TODO: filter out unknown or unverified photos
-  });
-  // TODO: Of remaining available photos, choose one of the keys at random
-  if (!(index >= 1 && index <= 5)) {
-    index = Math.floor(Math.random() * 5) + 1;
+  // Filter out any keys that have the default value
+  photos = Object.keys(photos).reduce(function(filtered, key) {
+    if (photos[key] != Pandas.def.animal[key]) {
+      filtered[key] = photos[key];
+    }
+    return filtered;
+  }, {});
+  // If photo.(index) not in the photos dict, choose one of the available keys
+  // at random from the set of remaining valid images.
+  var choice = "photos." + str(index); 
+  if (photos.indexOf(choice) == -1) {
+    var space = Object.keys(photos).length;
+    var index = Math.floor(Math.random() * space) + 1;
+    choice = Object.keys(photos)[index];
   }
-  return null;  // TODO
+  return photos[choice];
 }
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.

@@ -47,21 +47,19 @@ Show.init = function() {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var name_field = language + ".name";
   var zoo = Pandas.location(animal, "zoo", language);
 
-  // TODO: Mother, Father, Siblings
   return {
-    "age": Pandas.age(animal),
-    "birthday": Pandas.birthday(animal, language),
-    "birthplace": Pandas.location(animal, "birthplace", language),
-    "death": Pandas.date(animal, "death", language),
-    "dad": Pandas.searchPandaDad(animal["_id"]),
-    "mom": Pandas.searchPandaMom(animal["_id"]),
-    "name": animal[name_field],
-    "photos": null,     // TODO
-    "siblings": null,   // TODO
-    "zoo_name": Pandas.zoo_name(zoo, language),
+            "age": Pandas.age(animal),
+       "birthday": Pandas.birthday(animal, language),
+     "birthplace": Pandas.location(animal, "birthplace", language),
+          "death": Pandas.date(animal, "death", language),
+            "dad": Pandas.searchPandaDad(animal["_id"]),
+            "mom": Pandas.searchPandaMom(animal["_id"]),
+           "name": Pandas.name(animal, language),
+          "photo": Pandas.profile_photo(animal, "random"),
+       "siblings": Pandas.searchSiblings(animal["_id"]),
+       "zoo_name": Pandas.zoo_name(zoo, language),
     "zoo_website": Pandas.zoo_field(zoo, "website")
   }
 }
