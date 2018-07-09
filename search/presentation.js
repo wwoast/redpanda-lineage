@@ -106,9 +106,10 @@ Show.emptyMedia = function(frame_type, media_type, index) {
 
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
-Show.emptyPandaResult = function() {
+Show.emptyPandaResult = function(language) {
+  var name_field = language + ".name";
   var message = document.createElement('p');
-  message.textContent = Pandas.def.animal['en.name'];
+  message.textContent = Pandas.def.animal[name_field];
   var result = document.createElement('div');
   result.class = "emptyPanda";
   result.appendChild(message);
@@ -120,12 +121,9 @@ Show.emptyPandaResult = function() {
 // regardless, such as birthday / time of death.
 Show.pandaInformation = function(id, language) {
   var animal = Pandas.searchPandaId(id);
-  var name_field = language + ".name";
-  var name = animal[name_field];
-  var birthday = Pandas.birthday(animal, language);
-  var age = Pandas.age(animal, language);
-  // TODO: mother and father
-  return null;   // TODO
+  var info = Show.acquirePandaInfo(animal, language);
+
+  // TODO: arrange the info in divs
 }
 
 // Format the results for a single panda as a div.
