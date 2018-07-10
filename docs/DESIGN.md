@@ -107,3 +107,25 @@ manual sub-types to correct the bad automatic heuristic.
 Next, we need to process the boolean operators, to decide what nodes (zoos or pandas) are valid subjects to return relationship results based on.
 
 Finally, we process the relationship operators, to see where from our graph nodes we go in or out to find the family members we want.
+
+----
+
+## Single Page Application Routing
+
+Since all resources for this website are loaded in the browser after the first page visit, there's no strong concept of loading resources over the network. However, we still want clicking through the web interface to activate things related to the browser's history, forward, and back buttons. Additionally, we want URLs that are visited to clearly represent what pandas or conditions we searched for. These types of issues in a single-page web application are often handled by a routing library.
+
+However, by utilizing ''hash links'', such as the common `<a href="#next-section">` style links the web has supported since the beginning, you can write a really solid single-page-application routing strategy without any fancy application routing libraries. After all, ''hash links'' don't require network calls, and neither does the red panda lineage page once you've loaded it for the first time! 
+
+Hash links don't look quite as pretty as visiting a domain and subfolders, but they also don't deceive users about what's a network resource versus a local one. Most importantly, you can still bookmark hash links and copy/paste them into messages to your friends.
+
+Here's a proposed routing map for the Red Panda Lineage search page, which will grow as I determine I need more easy-to-type links into particular views of the red panda data:
+
+ * `#panda=<id or name>`
+   * Loads a single panda, as well as their immediate relatives
+   * Uses searching under the hood to verify what language the search is under
+ * `#query=<query string>`
+   * Performs a search in the search box, with whatever search a user previously typed
+   * This means you can bookmark arbitrarily complex searches
+ * `#zoo=<id or name>`
+   * Loads a single zoo, as well as any pandas at that zoo that are alive
+   * Uses searching under the hood to verify what language the search is under
