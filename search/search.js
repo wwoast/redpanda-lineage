@@ -153,6 +153,65 @@ Pandas.def.gender = {
   }
 }
 
+// Used for slip-ins in Panda dossiers for brothers/sisters/moms
+Pandas.def.relations = {
+  "aunt": {
+    "cn": "姑媽",
+    "en": "aunt",
+    "jp": "叔母"
+  },
+  "brother": {
+    "cn": "兄",
+    "en": "brother",
+    "jp": "兄"
+  },
+  "cousin": {
+    "cn": "表姐",
+    "en": "cousin",
+    "jp": "いとこ"
+  },
+  "father": {
+    "cn": "父",
+    "en": "father",
+    "jp": "父"
+  },
+  "grandfather": {
+    "cn": "祖父",
+    "en": "grandfather",
+    "jp": "おじいちゃん"
+  },
+  "grandmother": {
+    "cn": "祖母",
+    "en": "grandmother",
+    "jp": "おばあちゃん"
+  },
+  "mother": {
+    "cn": "母",
+    "en": "mother",
+    "jp": "母"
+  },
+  "nephew": {
+    "cn": "外甥",
+    "en": "nephew",
+    "jp": "甥"
+  },
+  "niece": {
+    "cn": "侄女",
+    "en": "niece",
+    "jp": "姪"
+  },
+  "sister": {
+    "cn": "妹妹",
+    "en": "sister",
+    "jp": "姉"
+  },
+  "uncle": {
+    "cn": "叔叔",
+    "en": "uncle",
+    "jp": "叔父"
+  }
+}
+
 Pandas.def.unknown = {
   "cn": "不明",
   "en": "unknown",
