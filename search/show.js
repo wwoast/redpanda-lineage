@@ -40,6 +40,15 @@ Show.init = function() {
   return show;
 }
 
+Show.emoji = {
+   "arrow": "➡",
+    "born": "👼",
+    "died": "⛼",
+  "female": "♀️",
+    "male": "♂️"
+}
+
+
 /*
     Presentation-level data, separated out from final website layout
 */
@@ -65,22 +74,45 @@ Show.acquirePandaInfo = function(animal, language) {
 }
 
 /****** TODO: STYLESHEETS AND STYLE REFERENCES ******/
-// Construct a link for a panda given lookup information 
-// on the relationship to the panda in the current results.
-// Structure the searches as ?q=<query> URL parameters, since they
-// should just be panda searches (id:)
-Show.constructLink = function(my_id, their_id, their_relation) {
-  // Look up the other panda
+// Construct a link as per the design docs. Input is the query
+// string, and type is the initial hash code. Examples:
+//    https://domain/search/index.html#panda/Lychee
+//    https://domain/search/index.html#panda/4
+//    https://domain/search/index.html#zoo/1
+//    https://domain/search/index.html#query/(utf-8-query-string)
+// Text will be the name of the link.
+Show.constructLink = function(input, type, text) {
+  // For pandas and zoos, determine whether the argument is a name or an ID
+  // TOWRITE
+  // For query string, determine the query is properly formed
+  // TOWRITE
   // Create the link to them based on ID
   // Name the link based on the relationship information
-  var them = Pandas.searchPandaId(their_id);
-  // TODO: UI URL structure for query params for inset JSON
+  
   return null;  // TODO
 }
 
-// Render a born / died / age string out of emojis
+// Render a born / died / age string out of emojis. Not all browsers
+// support emoji rendering consistently, so we might need to render
+// images instead.
 Show.renderDates = function(animal, language) {
-  return null;
+  var dates = [];
+  var birthday = Pandas.date(animal, "birthday", language);
+  if (birthday != Pandas.def.animal.birthday) {
+    dates.push(Show.emoji.born);
+    dates.push(birthday);
+  }
+  var death = Pandas.date(animal, "death", language);
+  if (death != Pandas.def.animal.death) {
+    dates.push(Show.emoji.arrow);
+    dates.push(Show.emoji.death);
+    dates.push(death);
+  }
+  var age = Pandas.age(animal, language);
+  if ( age != Pandas.def.unknown[language]) {
+    dates.push(age);
+  }
+  return dates.join(' ');
 }
 
 /*
