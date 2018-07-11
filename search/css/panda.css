@@ -1,0 +1,37 @@
+body {
+}
+
+div#pandaFrame {
+}
+
+div.pandaResult {
+}
+
+div.pandaPhoto {
+    float: left;
+    width: 30%;
+    max-width: 500px;
+}
+
+div.pandaDetails {
+    float: right;
+    width: 70%;
+}
+
+div.familyFooter {
+    clear: both;
+}
+
+div.pandaList {
+}
+
+div.pandaList ul {
+}
+
+hr {
+    clear: both;
+}
+
+div.search {
+    clear: both;
+}
