@@ -236,11 +236,6 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
-// Search for each term in the graph database and infer what it is.
-Pandas.resolveQueryTerms = function(query) {
-  return null;  // TODO
-}
-
 // Find a panda's dad
 Pandas.searchPandaDad = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
@@ -376,13 +371,13 @@ Pandas.gender = function(animal, language) {
 
 // Given an animal and a field name, return details about a zoo. 
 // Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
-Pandas.location = function(animal, field) {
+Pandas.myLocation = function(animal, field) {
   return animal[field] == undefined ? Pandas.def.zoo 
                                     : Pandas.searchZooId(animal[field]);
 }
 
 // Given an animal and a chosen language, return details for a red panda.
-Pandas.name = function(animal, language) {
+Pandas.myName = function(animal, language) {
   var field = language + ".name";
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
@@ -402,7 +397,7 @@ Pandas.othernames = function(animal, language) {
 
 // Given an animal, choose a single photo to display as its profile photo.
 // The index can be a number between 1 and 5, or it can be "random".
-Pandas.profile_photo = function(animal, index) {
+Pandas.profilePhoto = function(animal, index) {
   // Find the available photo indexes between one and five
   var photos = {
     "photo.1": Pandas.field(animal, "photo.1"),
@@ -430,13 +425,13 @@ Pandas.profile_photo = function(animal, index) {
 }
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.
-Pandas.zoo_name = function(zoo, language) {
+Pandas.zooName = function(zoo, language) {
   var field = language + ".name";
   return zoo[field] == undefined ? Pandas.def.zoo[field] : zoo[field];
 }
 
 // Given a zoo found with Pandas.location(), return an arbitrary field.
 // Useful for anything that's just a URI, like videos or photos.
-Pandas.zoo_field = function(zoo, field) {
+Pandas.zooField = function(zoo, field) {
   return zoo[field] == undefined ? Pandas.def.zoo[field] : zoo[field];
 }
