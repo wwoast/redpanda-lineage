@@ -1,0 +1,119 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-size: 14pt;
+}
+
+div#pandaFrame {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+div.pandaResult {
+    display: block;
+    clear: both;
+    padding-bottom: 1ex;
+    min-height: 213pt;
+    background-color: lightpink;
+}
+
+div.pandaPhoto {
+    float: left;
+    padding-bottom: 1ex;
+}
+
+div.pandaPhoto img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 188pt;
+}
+
+div.pandaTitle {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    height: 32pt;
+    background-color: green;
+}
+
+div.pandaName {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22pt;
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: yellowgreen;
+}
+
+div.pandaGender {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22pt;
+    background-color: yellowgreen;
+}
+
+div.pandaDetails {
+    display: block;
+    min-width: 300px;
+    background-color: lightseagreen;
+}
+
+div.pandaDetails p, div.pandaDetails h3 {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+div.family {
+    display: block;
+    min-width: 300px;
+    background-color: lightpink;
+}
+
+div.parents, div.siblings {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+ul.pandaList {
+    text-align: left;
+    list-style: none;
+}
+
+hr {
+    clear: both;
+}
+
+div.search {
+    clear: both;
+}
+
+/* Portrait mode, default for iPhones and for frames that are in a 
+   similar layout / resolution */
+@media screen and (max-width: 630px) {
+    div.pandaResult {
+        background-color: lightgoldenrodyellow;
+        padding-bottom: 0ex;
+    }
+
+    div.pandaPhoto {
+        float: none;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 0ex;
+    }
+
+    div.pandaPhoto img {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}
