@@ -81,11 +81,13 @@ div.parents, div.siblings {
     display: inline-block;
     vertical-align: top;
     text-align: center;
+    max-width: 170px;
 }
 
 ul.pandaList {
     text-align: left;
     list-style: none;
+    padding-left: 1em;
 }
 
 hr {
