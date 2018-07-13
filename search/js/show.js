@@ -65,9 +65,15 @@ Show.init = function() {
 Show.emoji = {
    "arrow": "➡",
     "born": "👼",
+     "boy": "👦🏻",
     "died": "⛼",
+  "father": "👨🏻",
   "female": "♀️",
-    "male": "♂️"
+    "girl": "👧🏻",
+    "home": "🏡",
+    "male": "♂️",
+     "map": "🗺️",
+  "mother": "👩🏻"
 }
 
 
