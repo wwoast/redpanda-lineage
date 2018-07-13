@@ -17,29 +17,33 @@ div#pandaFrame {
 }
 
 div.pandaResult {
-    display: block;
+    display: table;
     clear: both;
     padding-bottom: 1ex;
-    min-height: 213pt;
-    background-color: lightpink;
 }
 
 div.pandaPhoto {
-    float: left;
-    padding-bottom: 1ex;
+    display: table-cell;
 }
 
 div.pandaPhoto img {
-    width: 100%;
+    width: auto;
+    height: auto;
     max-width: 400px;
-    max-height: 188pt;
+    max-height: 400px;
+}
+
+div.pandaDossier {
+    display: table-cell;
+    background-color: lightpink;
+    vertical-align: top;
 }
 
 div.pandaTitle {
     display: block;
-    width: 100%;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
+    min-width: 300px;
     height: 32pt;
     background-color: green;
 }
@@ -48,8 +52,8 @@ div.pandaName {
     display: inline-block;
     vertical-align: top;
     font-size: 22pt;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 18px;
+    padding-right: 18px;
     background-color: yellowgreen;
 }
 
@@ -57,6 +61,8 @@ div.pandaGender {
     display: inline-block;
     vertical-align: top;
     font-size: 22pt;
+    padding-left: 18px;
+    padding-right: 18px;
     background-color: yellowgreen;
 }
 
@@ -68,13 +74,16 @@ div.pandaDetails {
 
 div.pandaDetails p, div.pandaDetails h3 {
     display: inline-block;
-    margin-left: 1em;
+    margin-left: 18px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding-top: 0ex;
+    padding-bottom: 0ex;
 }
 
 div.family {
     display: block;
     min-width: 300px;
-    background-color: lightpink;
 }
 
 div.parents, div.siblings {
@@ -87,7 +96,7 @@ div.parents, div.siblings {
 ul.pandaList {
     text-align: left;
     list-style: none;
-    padding-left: 1em;
+    padding-left: 18px;
 }
 
 hr {
@@ -107,15 +116,24 @@ div.search {
     }
 
     div.pandaPhoto {
-        float: none;
-        width: 100%;
+        display: block;
         text-align: center;
         padding-bottom: 0ex;
     }
 
     div.pandaPhoto img {
-        width: 100%;
-        margin-left: auto;
+        width: auto;
+        height: auto;
+                margin-left: auto;
         margin-right: auto;
-    }    
+    }
+
+    div.pandaTitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.pandaDossier {
+        display: block;
+    }
 }
