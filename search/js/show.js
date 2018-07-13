@@ -66,6 +66,7 @@ Show.emoji = {
    "arrow": "➡",
     "born": "👼",
      "boy": "👦🏻",
+  "camera": "📷",
     "died": "⛼",
   "father": "👨🏻",
   "female": "♀️",

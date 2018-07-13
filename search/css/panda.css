@@ -71,7 +71,7 @@ div.pandaGender {
 div.pandaDetails {
     display: block;
     min-width: 300px;
-    background-color: #754F85; /* Grapes */
+    background-color: #866096; /* Grapes */
 }
 
 div.pandaDetails p, div.pandaDetails h3 {
@@ -99,6 +99,11 @@ ul.pandaList {
     text-align: left;
     list-style: none;
     padding-left: 18px;
+}
+
+ul.pandaList li {
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
 }
 
 hr {
