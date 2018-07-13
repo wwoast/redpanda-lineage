@@ -1,0 +1,11 @@
+id: 169
+birthday: 2015/7/4
+birthplace: Unknown 
+children: none
+en.name: Will Smith
+en.nicknames: Will-bear
+en.othernames: punk butt
+jp.name: 
+jp.nicknames: none
+jp.othernames:
+zoo: 
