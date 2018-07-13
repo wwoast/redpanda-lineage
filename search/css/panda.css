@@ -72,6 +72,8 @@ div.pandaDetails {
     display: block;
     min-width: 300px;
     background-color: #866096; /* Grapes */
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
 }
 
 div.pandaDetails p, div.pandaDetails h3 {
@@ -120,6 +122,9 @@ div.search {
     div.pandaResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
+        border: 0px;
+        border-top: 1px solid #033605;
+        border-bottom: 1px solid #033605;
     }
 
     div.pandaPhoto {
@@ -142,5 +147,7 @@ div.search {
 
     div.pandaDossier {
         display: block;
+        border-top: 1px solid #033605;
+        border-left: 0px;
     }
 }
