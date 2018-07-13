@@ -1,12 +1,12 @@
 [panda]
 _id: 170
-birthday: Unknown
-birthplace: Unknown	 
-children: Unknown
+birthday: unknown
+birthplace: unknown	 
+children: unknown
 en.name: Gaila
 en.nicknames: LadyBoss
 en.othernames: Gailabear
-jp.name: 
+jp.name: none
 jp.nicknames: none
-jp.othernames:
+jp.othernames: none
 zoo: 47
