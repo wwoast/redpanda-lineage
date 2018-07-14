@@ -1,0 +1,14 @@
+[panda]
+_id: 175
+birthday: 2013/7/4
+birthplace: 46
+children: none
+en.name: Yuuki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 優希
+jp.nicknames: none
+jp.othernames: ゆうき
+language.order: jp, en
+zoo: 42

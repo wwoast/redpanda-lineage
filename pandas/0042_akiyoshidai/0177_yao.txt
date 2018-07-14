@@ -1,0 +1,14 @@
+[panda]
+_id: 177
+birthday: 2017/7/14
+birthplace: 42
+children: none
+en.name: Yao
+en.nicknames: none
+en.othernames: Yō, You
+gender: m
+jp.name: 耀
+jp.nicknames: none
+jp.othernames: ヨウ
+language.order: jp, en
+zoo: 42

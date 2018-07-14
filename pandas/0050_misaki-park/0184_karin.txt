@@ -1,0 +1,14 @@
+[panda]
+_id: 184
+birthday: unknown
+birthplace: unknown
+children: none
+en.name: Karin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カリン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 50
