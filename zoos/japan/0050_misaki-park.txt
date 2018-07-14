@@ -1,0 +1,10 @@
+[zoo]
+_id: 50
+en.address: Japan, 〒599-0301 Osaka Prefecture, 泉南郡岬町淡輪３９９０
+en.location: Misaki Town, Osaka Prefecture
+en.name: Misaki Park
+jp.address: unknown
+jp.location: 岬町 大阪府
+jp.name: みさき公園
+language.order: jp, en
+website: http://www.nankai.co.jp/misaki/
