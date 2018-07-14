@@ -1,0 +1,14 @@
+[panda]
+_id: 185
+birthday: 2014/7/5
+birthplace: 17
+children: none
+en.name: Rai-Rai
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 来来
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 34
