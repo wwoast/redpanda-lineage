@@ -86,10 +86,11 @@ div.pandaDetails p {
     padding-bottom: 0ex;
 }
 
-ul li h3, ul li h4 {
+div.parents h3, div.siblings h3, div.parents h4, div.siblings h4 {
     display: inline-block;
     margin-left: 18px;
-    margin: 0 0 0 0;
+    margin-top: 1ex;
+    margin-bottom: 0ex;
     padding: 0 0 0 0;
     text-decoration: underline;
 }
@@ -111,10 +112,11 @@ ul.pandaList {
     text-align: left;
     list-style: none;
     padding-left: 18px;
+    margin-top: 0.5ex;
 }
 
 ul.pandaList li {
-    padding-top: 0.5ex;
+    padding-top: 0.25ex;
     padding-bottom: 0.5ex;
 }
 
@@ -156,5 +158,11 @@ div.search {
     div.pandaDossier {
         display: block;
         border: 0px solid;
+    }
+
+    ul.pandaList {
+        text-align: left;
+        list-style: none;
+        padding-left: 18px;
     }
 }
