@@ -18,7 +18,7 @@ div#pandaFrame {
     max-width: 800px;
 }
 
-div.pandaResult {
+div.pandaResult, div.zooResult {
     display: table;
     clear: both;
     margin-top: 1ex;
@@ -26,27 +26,27 @@ div.pandaResult {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
-div.pandaPhoto {
+div.pandaPhoto, div.zooPhoto {
     display: table-cell;
     vertical-align: middle;
     background-color: black;
 }
 
-div.pandaPhoto img {
+div.pandaPhoto img, div.zooPhoto img {
     width: auto;
     height: auto;
     max-width: 400px;
     max-height: 400px;
 }
 
-div.pandaDossier {
+div.pandaDossier, div.zooDossier {
     display: table-cell;
     background-color: #EDC1D7; /* Pink Lady Apples */
     vertical-align: top;
     border-left: 1px solid #033605; /* Bamboo Green */
 }
 
-div.pandaTitle {
+div.pandaTitle, div.zooTitle {
     display: block;
     text-align: left;
     font-weight: bold;
@@ -55,7 +55,7 @@ div.pandaTitle {
     background-color: yellowgreen;
 }
 
-div.pandaName {
+div.pandaName, div.zooName {
     display: inline-block;
     vertical-align: top;
     font-size: 22pt;
@@ -69,7 +69,7 @@ div.pandaGender {
     padding-right: 8px;
 }
 
-div.pandaDetails {
+div.pandaDetails, div.zooDetails {
     display: block;
     min-width: 300px;
     background-color: #9771A7; /* Grapes */
@@ -77,7 +77,7 @@ div.pandaDetails {
     padding-bottom: 0.5ex;
 }
 
-div.pandaDetails p {
+div.pandaDetails p, div.zooDetails p {
     display: inline-block;
     margin-left: 18px;
     margin-top: 0.5ex;
@@ -131,31 +131,31 @@ div.search {
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution */
 @media screen and (max-width: 630px) {
-    div.pandaResult {
+    div.pandaResult, div.zooResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
         border: 0px solid;
     }
 
-    div.pandaPhoto {
+    div.pandaPhoto, div.zooPhoto {
         display: block;
         text-align: center;
         padding-bottom: 0ex;
     }
 
-    div.pandaPhoto img {
+    div.pandaPhoto img, div.zooPhoto img {
         width: auto;
         height: auto;
-                margin-left: auto;
+        margin-left: auto;
         margin-right: auto;
     }
 
-    div.pandaTitle {
+    div.pandaTitle, div.zooTitle {
         width: 100%;
         text-align: center;
     }
 
-    div.pandaDossier {
+    div.pandaDossier, div.zooDossier {
         display: block;
         border: 0px solid;
     }
