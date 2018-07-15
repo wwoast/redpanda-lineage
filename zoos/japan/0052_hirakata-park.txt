@@ -1,0 +1,11 @@
+[zoo]
+_id: 52
+en.address: 1-1 枚方公園町 Hirakata, Osaka Prefecture 573-0054, Japan
+en.location: Hirakata, Osaka Prefecture
+en.name: Hirakata Park
+en.othernames: Hirapah
+jp.address: unknown
+jp.location: 枚方市 大阪府
+jp.name: ひらかたパーク
+language.order: jp, en
+website: http://www.hirakatapark.co.jp/
