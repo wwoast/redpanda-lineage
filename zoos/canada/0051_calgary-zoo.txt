@@ -1,0 +1,7 @@
+[zoo]
+_id: 51
+en.address: 210 St. George's Drive NE, Calgary, AB T2E 7V6, Canada
+en.location: Calgary, Alberta, Canada
+en.name: Calgary Zoo
+language.order: en
+website: https://www.calgaryzoo.com/

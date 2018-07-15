@@ -1,14 +1,15 @@
 [panda]
-_id: 161
-birthday: 2011/6/13
-birthplace: 34
-children: 159, 162
-en.name: Tian
+_id: 188
+birthday: 2013/6/12
+birthplace: 53
+children: none
+en.name: Yoichi
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ティエン
+jp.name: 与一
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 45
+litter: 189
+zoo: 53

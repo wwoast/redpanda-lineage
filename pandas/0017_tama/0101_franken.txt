@@ -1,8 +1,8 @@
 [panda]
 _id: 101
 birthday: 2012/6/11
-birthplace: unknown
-children: 99, 100
+birthplace: 51
+children: 164, 71, 99, 100
 en.name: Franken
 en.nicknames: none 
 en.othernames: none

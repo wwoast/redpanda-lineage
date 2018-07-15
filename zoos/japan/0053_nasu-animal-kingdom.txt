@@ -1,0 +1,10 @@
+[zoo]
+_id: 53
+en.address: 1042-1 Oshima, Nasu, Nasu District, Tochigi Prefecture 329-3223, Japan 
+en.location: Nasu District, Tochigi Prefecture
+en.name: Nasu Animal Kingdom
+jp.address: unknown
+jp.location: 那須郡 栃木県
+jp.name: 那須どうぶつ王国
+language.order: jp, en
+website: http://www.nasu-oukoku.com/

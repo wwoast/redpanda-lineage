@@ -3,12 +3,13 @@ _id: 71
 birthday: 2014/6/22 
 birthplace: 17
 children: unknown
-en.name: Fuku-Fuku
+en.name: Fu-Fu
 en.nicknames: none 
-en.othernames: none
+en.othernames: Fuku-Fuku
 gender: m
 jp.name: 福福
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 164
 zoo: 6

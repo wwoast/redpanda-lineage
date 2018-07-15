@@ -1,15 +1,14 @@
 [panda]
-_id: 162
-birthday: 2014/7/6
+_id: 173
+birthday: 2015/7/24
 birthplace: 46
 children: none
-en.name: Sumomo
+en.name: Totomaru
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: スモモ
+jp.name: 砥々丸
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: ととまる
 language.order: jp, en
-litter: 159
-zoo: 45
+zoo: 46

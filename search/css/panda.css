@@ -1,0 +1,153 @@
+html {
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    overflow-x: hidden;
+    line-height: 1.4;
+    font-size: 14pt;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+}
+
+div#pandaFrame {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+}
+
+div.pandaResult {
+    display: table;
+    clear: both;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+div.pandaPhoto {
+    display: table-cell;
+}
+
+div.pandaPhoto img {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+div.pandaDossier {
+    display: table-cell;
+    background-color: #EDC1D7; /* Pink Lady Apples */
+    vertical-align: top;
+    border-left: 1px solid #033605; /* Bamboo Green */
+}
+
+div.pandaTitle {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    min-width: 300px;
+    height: 32pt;
+    background-color: yellowgreen;
+}
+
+div.pandaName {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22pt;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+div.pandaGender {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22pt;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+div.pandaDetails {
+    display: block;
+    min-width: 300px;
+    background-color: #866096; /* Grapes */
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+div.pandaDetails p, div.pandaDetails h3 {
+    display: inline-block;
+    margin-left: 18px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding-top: 0ex;
+    padding-bottom: 0ex;
+}
+
+div.family {
+    display: block;
+    min-width: 300px;
+}
+
+div.parents, div.siblings {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    max-width: 170px;
+}
+
+ul.pandaList {
+    text-align: left;
+    list-style: none;
+    padding-left: 18px;
+}
+
+ul.pandaList li {
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
+hr {
+    clear: both;
+}
+
+div.search {
+    clear: both;
+}
+
+/* Portrait mode, default for iPhones and for frames that are in a 
+   similar layout / resolution */
+@media screen and (max-width: 630px) {
+    div.pandaResult {
+        background-color: lightgoldenrodyellow;
+        padding-bottom: 0ex;
+        border: 0px;
+        border-top: 1px solid #033605;
+        border-bottom: 1px solid #033605;
+    }
+
+    div.pandaPhoto {
+        display: block;
+        text-align: center;
+        padding-bottom: 0ex;
+    }
+
+    div.pandaPhoto img {
+        width: auto;
+        height: auto;
+                margin-left: auto;
+        margin-right: auto;
+    }
+
+    div.pandaTitle {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.pandaDossier {
+        display: block;
+        border-top: 1px solid #033605;
+        border-left: 0px;
+    }
+}

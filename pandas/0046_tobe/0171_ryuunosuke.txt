@@ -1,14 +1,14 @@
 [panda]
-_id: 161
-birthday: 2011/6/13
-birthplace: 34
-children: 159, 162
-en.name: Tian
+_id: 171
+birthday: 1999/7/27
+birthplace: unknown
+children: none
+en.name: Ryuunosuke
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ティエン
+jp.name: リュウノスケ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 45
+zoo: 46

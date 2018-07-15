@@ -1,0 +1,14 @@
+[panda]
+_id: 195
+birthday: unknown
+birthplace: unknown
+children: 194
+en.name: Al
+en.nicknames: none
+en.othernames: Aru, Love
+gender: m
+jp.name: アル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 50

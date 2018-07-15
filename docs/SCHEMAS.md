@@ -44,9 +44,10 @@ while pandas have positive ID numbers. Hackity hack!
 ```
 [zoo]
 _id: <monotonic-ascending-number, assign one if none given> 
-en.address: <google maps address info> 
+en.address: <google maps address info from google.com> 
 en.location: chiba prefecture, japan 
 en.name: ichikawa zoological park and gardens 
+jp.address: <google maps address info from google.jp>
 jp.location: <utf8-string> 
 jp.name: <utf8-string>
 photo.1: <url>

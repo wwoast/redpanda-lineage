@@ -1,14 +1,14 @@
 [panda]
-_id: 161
-birthday: 2011/6/13
-birthplace: 34
-children: 159, 162
-en.name: Tian
+_id: 174
+birthday: 2014/7/22
+birthplace: 46
+children: none
+en.name: Yuuto
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ティエン
+jp.name: 優砥
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 45
+zoo: 46

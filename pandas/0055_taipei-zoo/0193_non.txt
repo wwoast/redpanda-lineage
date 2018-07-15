@@ -1,14 +1,14 @@
 [panda]
-_id: 160
-birthday: 2011/7/18
-birthplace: 6
-children: 159, 162
-en.name: Kurumi
+_id: 193
+birthday: unknown
+birthplace: 17
+children: none
+en.name: Non
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クルミ
+jp.name: ノン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 45
+zoo: 55

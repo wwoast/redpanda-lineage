@@ -1,0 +1,11 @@
+[zoo]
+_id: 54
+en.address: 9-83 Uenokoen, Taitō, Tokyo 110-0007, Japan
+en.location: Taitō, Tokyo
+en.name: Ueno Zoological Gardens
+en.othernames: Ueno Zoo
+jp.address: unknown
+jp.location: 台東区 東京
+jp.name: 恩賜上野動物園
+language.order: jp, en
+website: http://www.tokyo-zoo.net/zoo/ueno/

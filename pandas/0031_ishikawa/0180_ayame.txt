@@ -1,14 +1,14 @@
 [panda]
-_id: 160
-birthday: 2011/7/18
+_id: 180
+birthday: 2011/7/12
 birthplace: 6
-children: 159, 162
-en.name: Kurumi
+children: 181, 182, 183
+en.name: Ayame
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: クルミ
+jp.name: アヤメ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 45
+zoo: 31
