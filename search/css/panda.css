@@ -89,6 +89,7 @@ ul li h3, ul li h4 {
     margin-left: 18px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    text-decoration: underline;
 }
 
 div.family {
