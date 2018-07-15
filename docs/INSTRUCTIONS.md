@@ -67,7 +67,7 @@ Let's take a look at one of our panda files, [`pandas/0001_ichikawa/0004_lychee.
 
 The `_id` is a unique identification number, starting at `1` and going up. The `_id` is represented both in the file as well as in the filename of the panda. So that filenames sort cleanly, the filename ID is padded to four digits (Examples: `0004`, `1215`, `0036`). 
 
-When adding a new red panda, take the next highest number that's not used. To see the next available Red Panda number, check the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file. The [shields.io badges](http://shields.io/#your-badge) on the [GitHub Readme](https://github.com/wwoast/redpanda-lineage) also show the latest version of this `_totals` data:
+When adding a new red panda, take the next highest number that's not used. To see the next available Red Panda number, check the [red panda JSON data](https://wwoast.github.io/redpanda-lineage/export/redpanda.json) for the `_totals` at the top of the file. The [shields](http://shields.io/#your-badge) below also show the latest version of this `_totals` data:
 
 [![Red Pandas](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.pandas&label=red%20pandas&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
 [![Zoos](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.zoos&label=zoos&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
