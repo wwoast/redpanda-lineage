@@ -1,14 +1,14 @@
 [panda]
-_id: 184
-birthday: unknown
-birthplace: unknown
-children: 194
-en.name: Karin
+_id: 187
+birthday: 2010/6/14
+birthplace: 17
+children: 188, 189
+en.name: Daizu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリン
+jp.name: ダイズ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 50
+zoo: 53

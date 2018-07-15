@@ -1,12 +1,12 @@
 [panda]
 _id: 107
-birthday: unknown
-birthplace: unknown
-children: unknown
+birthday: 1999/7/9
+birthplace: 15
+children: 191, 157, 192, 105, 36, 74
 en.name: Fan-Fan
 en.nicknames: none  
 en.othernames: none
-gender: m
+gender: f
 jp.name: ファンファン
 jp.nicknames: none
 jp.othernames: 花花

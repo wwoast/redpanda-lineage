@@ -1,0 +1,14 @@
+[panda]
+_id: 186
+birthday: 2009/6/19
+birthplace: 10
+children: 188, 189
+en.name: Gigi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジジ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 53

@@ -1,14 +1,15 @@
 [panda]
-_id: 184
+_id: 191
 birthday: unknown
-birthplace: unknown
-children: 194
-en.name: Karin
+birthplace: 17
+children: none
+death: unknown
+en.name: Kitaro
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: カリン
+gender: m
+jp.name: unknown
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 50
+zoo: 54

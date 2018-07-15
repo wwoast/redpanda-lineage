@@ -1,14 +1,14 @@
 [panda]
-_id: 184
-birthday: unknown
-birthplace: unknown
-children: 194
-en.name: Karin
+_id: 190
+birthday: 2013/7/19
+birthplace: 37
+children: none
+en.name: Sakae-Sakae
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリン
+jp.name: 栄栄
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 50
+zoo: 53

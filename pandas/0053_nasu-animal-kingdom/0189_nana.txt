@@ -1,14 +1,15 @@
 [panda]
-_id: 184
-birthday: unknown
-birthplace: unknown
-children: 194
-en.name: Karin
+_id: 189
+birthday: 2013/6/12
+birthplace: 53
+children: none
+en.name: Nana
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: カリン
+jp.name: 那々
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 50
+litter: 188
+zoo: 53

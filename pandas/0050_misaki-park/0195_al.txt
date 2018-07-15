@@ -1,13 +1,13 @@
 [panda]
-_id: 184
+_id: 195
 birthday: unknown
 birthplace: unknown
 children: 194
-en.name: Karin
+en.name: Al
 en.nicknames: none
-en.othernames: none
-gender: f
-jp.name: カリン
+en.othernames: Aru, Love
+gender: m
+jp.name: アル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
