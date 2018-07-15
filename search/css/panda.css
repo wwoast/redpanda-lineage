@@ -8,6 +8,7 @@ body {
     overflow-x: hidden;
     line-height: 1.4;
     font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
