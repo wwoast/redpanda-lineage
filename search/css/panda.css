@@ -28,6 +28,8 @@ div.pandaResult {
 
 div.pandaPhoto {
     display: table-cell;
+    vertical-align: middle;
+    background-color: black;
 }
 
 div.pandaPhoto img {
