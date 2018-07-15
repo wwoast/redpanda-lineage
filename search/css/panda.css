@@ -123,9 +123,7 @@ div.search {
     div.pandaResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
-        border: 0px;
-        border-top: 1px solid #033605;
-        border-bottom: 1px solid #033605;
+        border: 0px solid;
     }
 
     div.pandaPhoto {
@@ -148,7 +146,6 @@ div.search {
 
     div.pandaDossier {
         display: block;
-        border-top: 1px solid #033605;
-        border-left: 0px;
+        border: 0px solid;
     }
 }
