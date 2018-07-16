@@ -190,9 +190,11 @@ div.search {
         column-count: 2;
     }
 
-    /* Masonry layout tricks, the column width must be 100% */
+    /* Masonry layout tricks, the column width must be 100%.
+       Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings {
         width: 100%;
+        padding-right: 0px;
     } 
 
     div.pandaDetails p, div.zooDetails p {
