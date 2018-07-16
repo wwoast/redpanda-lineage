@@ -69,6 +69,15 @@ div.pandaGender {
     padding-right: 8px;
 }
 
+/* When timelines and edit modes are ready */
+div.titleMenu {
+    display: block;
+    font-size: 22pt;
+    float: right;
+    padding-left: 18px;
+    padding-right: 12px;
+}
+
 div.pandaDetails, div.zooDetails {
     display: block;
     min-width: 300px;
