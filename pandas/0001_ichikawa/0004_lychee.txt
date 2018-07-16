@@ -11,6 +11,10 @@ jp.name: ライチ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-photo.1: https://instagram.com/p/Bh_BPsPlaOu
-photo.2: https://instagram.com/p/BahlURkjXsd
+photo.1: https://www.instagram.com/p/Bh_BPsPlaOu/media/?size=m
+photo.1.author: na.mo.pan
+photo.1.link: https://www.instagram.com/na.mo.pan/
+photo.2: https://www.instagram.com/p/BahlURkjXsd/media/?size=m
+photo.2.author: shun033
+photo.2.link: https://www.instagram.com/shun033/
 zoo: 1
