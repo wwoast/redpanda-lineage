@@ -173,10 +173,6 @@ div.search {
         text-align: center;
     }
 
-    div.zooTitle {
-        margin-right: 8px;
-    }
-
     div.pandaGender {
         margin-left: 0px;
         margin-right: 0px;
@@ -194,6 +190,7 @@ div.search {
 
     div.zooName {
         padding-left: 14px;
+        padding-right: 8px;
     }
 
     div.parents, div.litter, div.siblings {
