@@ -184,12 +184,15 @@ div.search {
         border: 0px solid;
     }
 
+    /* Masonry layout tricks, order divs vertically instead of
+       horizontally, into two columns, on a phone screen. */
     div.family {
         column-count: 2;
     }
 
+    /* Masonry layout tricks, the column width must be 100% */
     div.parents, div.litter, div.siblings {
-        width: 170px;
+        width: 100%;
     } 
 
     div.pandaDetails p, div.zooDetails p {
