@@ -184,6 +184,14 @@ div.search {
         border: 0px solid;
     }
 
+    div.family {
+        column-count: 2;
+    }
+
+    div.parents, div.litter, div.siblings {
+        width: 170px;
+    } 
+
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
     }
