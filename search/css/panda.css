@@ -53,6 +53,7 @@ div.pandaTitle, div.zooTitle {
     min-width: 300px;
     height: 32pt;
     background-color: yellowgreen;
+    overflow-y: hidden;
 }
 
 div.pandaName, div.zooName {
