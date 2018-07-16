@@ -63,7 +63,7 @@ Show.init = function() {
 }
 
 Show.emoji = {
-  "animal": "🦓",
+  "animal": "🐼",
    "arrow": "➡",
 "birthday": "🎂",
     "born": "👼",
