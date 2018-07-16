@@ -173,6 +173,10 @@ div.search {
         text-align: center;
     }
 
+    div.zooTitle {
+        padding-right: 8px;
+    }
+
     div.pandaGender {
         margin-left: 0px;
         margin-right: 0px;
