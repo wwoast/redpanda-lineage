@@ -129,7 +129,8 @@ div.search {
 }
 
 /* Portrait mode, default for iPhones and for frames that are in a 
-   similar layout / resolution */
+   similar layout / resolution. Shorten the padding details, and turn
+   the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
     div.pandaResult, div.zooResult {
         background-color: lightgoldenrodyellow;
@@ -155,14 +156,26 @@ div.search {
         text-align: center;
     }
 
+    div.pandaGender {
+        padding-left: 0px;
+    }
+
     div.pandaDossier, div.zooDossier {
         display: block;
         border: 0px solid;
     }
 
+    div.pandaDetails p, div.zooDetails p {
+        margin-left: 10px;
+    }
+
+    div.parents, div.siblings {
+        padding-right: 10px;
+    }
+
     ul.pandaList {
         text-align: left;
         list-style: none;
-        padding-left: 18px;
+        padding-left: 10px;
     }
 }
