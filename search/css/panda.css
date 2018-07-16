@@ -51,15 +51,18 @@ div.pandaTitle, div.zooTitle {
     text-align: left;
     font-weight: bold;
     min-width: 300px;
-    height: 32pt;
+    min-height: 32pt;
     background-color: yellowgreen;
-    overflow-y: hidden;
 }
 
 div.pandaName, div.zooName {
     display: inline-block;
     vertical-align: top;
     font-size: 22pt;
+}
+
+div.zooName {
+    padding-left: 18px;
 }
 
 div.pandaGender {
@@ -115,6 +118,14 @@ div.parents, div.siblings {
     text-align: center;
     max-width: 170px;
     padding-right: 18px;
+}
+
+div.desktopOnly {
+    display: inline-block;
+}
+
+div.mobileOnly {
+    display: none;
 }
 
 ul.pandaList {
@@ -183,6 +194,18 @@ div.search {
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
     }
+
+    div.desktopOnly {
+        display: none;
+    }
+
+    div.mobileOnly {
+        display: inline-block;
+    }
+
+    div.zooName {
+        padding-left: 14px;
+    }    
 
     div.parents, div.siblings {
         padding-right: 14px;

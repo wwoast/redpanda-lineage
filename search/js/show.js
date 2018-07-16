@@ -63,6 +63,7 @@ Show.init = function() {
 }
 
 Show.emoji = {
+  "animal": "🦓",
    "arrow": "➡",
 "birthday": "🎂",
     "born": "👼",
@@ -74,11 +75,13 @@ Show.emoji = {
   "female": "♀️",
     "girl": "👧🏻",
     "home": "🏡",
+    "link": "🌐",
     "male": "♂️",
      "map": "🗺️",
    "money": "💸",
   "mother": "👩🏻",
-   "story": "🎍"
+   "story": "🎍",
+  "travel": "✈️"
 }
 
 Show.flags = {
