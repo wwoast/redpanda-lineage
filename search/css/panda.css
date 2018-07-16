@@ -112,7 +112,7 @@ div.family {
     min-width: 300px;
 }
 
-div.parents, div.siblings {
+div.parents, div.litter, div.siblings {
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -189,9 +189,9 @@ div.search {
 
     div.zooName {
         padding-left: 14px;
-    }    
+    }
 
-    div.parents, div.siblings {
+    div.parents, div.litter, div.siblings {
         padding-right: 14px;
     }
 
