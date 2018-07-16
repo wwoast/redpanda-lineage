@@ -64,10 +64,12 @@ Show.init = function() {
 
 Show.emoji = {
    "arrow": "➡",
+"birthday": "🎂",
     "born": "👼",
      "boy": "👦🏻",
   "camera": "📷",
     "died": "🌈",
+    "edit": "📝",
   "father": "👨🏻",
   "female": "♀️",
     "girl": "👧🏻",
@@ -76,7 +78,19 @@ Show.emoji = {
      "map": "🗺️",
    "money": "💸",
   "mother": "👩🏻",
-   "story": "📖"
+   "story": "🎍"
+}
+
+Show.flags = {
+  "Bhutan": "🇧🇹",
+  "Canada": "🇨🇦",
+   "China": "🇨🇳",
+   "India": "🇮🇳",
+   "Japan": "🇯🇵",
+  "Mexico": "🇲🇽",
+   "Nepal": "🇳🇵",
+  "Taiwan": "🇹🇼",
+     "USA": "🇺🇸"
 }
 
 
