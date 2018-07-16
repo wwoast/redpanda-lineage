@@ -129,6 +129,10 @@ ul.pandaList li {
     padding-bottom: 0.5ex;
 }
 
+ul.pandaList li.passedAway {
+    color: gray;
+}
+
 hr {
     clear: both;
 }
