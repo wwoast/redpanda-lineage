@@ -72,7 +72,7 @@ div.pandaGender {
 
 /* When timelines and edit modes are ready */
 div.titleMenu {
-    display: block;
+    display: none;
     font-size: 22pt;
     float: right;
     padding-right: 12px;
