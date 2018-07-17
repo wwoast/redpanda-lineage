@@ -12,7 +12,7 @@ body {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
-div.topMenu {
+div.topSearch {
     display: table;
     text-align: center;
     vertical-align: middle;
@@ -20,18 +20,18 @@ div.topMenu {
     height: 8%;
     max-height: 100px;
     background-color: white;
+    font-family: "Jun 201", sans-serif;
     width: 100%;
-    margin-bottom: 3ex;
+    margin-bottom: 1ex;
 }
 
 input.search {
-    font-size: 8vh;
     padding-top: 0px;
+    font-size: 8vh;
     margin-bottom: 0.1vh;
-    margin-top: 0.1vh;
+    min-width: 320px;
     max-width: 800px;
     width: 60%;
-    font-family: "Jun 201", sans-serif;
     border: 0px solid;
 }
 
