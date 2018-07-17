@@ -41,7 +41,7 @@ input.search {
 }
 
 input.search::placeholder {
-    color: #A8E480;
+    color: #E4A880;
 }
 
 div#pandaFrame {
@@ -180,10 +180,15 @@ div.search {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
+    div.topMenu {
+        margin-bottom: 1ex;
+    }
+
     input.search {
         padding-top: 0.5vh;
         padding-left: 4px;
         padding-bottom: 0vh;
+        margin: 0 0 0 0;
     }
 
     div.pandaResult, div.zooResult {
