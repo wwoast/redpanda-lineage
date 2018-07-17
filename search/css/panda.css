@@ -22,7 +22,6 @@ div.topSearch {
     background-color: white;
     font-family: "Jun 201", sans-serif;
     width: 100%;
-    margin-left: 18px;
     margin-bottom: 2ex;
 }
 
@@ -178,9 +177,7 @@ div.search {
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
     div.topSearch {
-        margin-left: 14px;
-        margin-right: 8px;
-        margin-top: 4px;
+        margin-top: 0.2vh;
     }
 
     div.pandaResult, div.zooResult {
