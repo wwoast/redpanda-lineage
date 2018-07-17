@@ -25,12 +25,16 @@ div.topSearch {
     margin-bottom: 2ex;
 }
 
+input[type='text'] {
+    font-family: "Jun 201", sans-serif;
+}
+
 input.search {
     padding-top: 0px;
     font-size: 8vh;
     margin-top: 0.1vh;
     margin-bottom: 0.1vh;
-    min-width: 320px;
+    min-width: 316px;
     max-width: 800px;
     width: 60%;
     border: 0px solid;
@@ -176,8 +180,9 @@ div.search {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
-    div.topSearch {
-        margin-top: 0.2vh;
+    input.search {
+        padding-top: 0.1vh;
+        padding-left: 4px;
     }
 
     div.pandaResult, div.zooResult {
