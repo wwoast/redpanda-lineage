@@ -12,6 +12,33 @@ body {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
+div.topMenu {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 32px;
+    height: 8%;
+    max-height: 100px;
+    background-color: white;
+    width: 100%;
+    margin-bottom: 3ex;
+}
+
+input.search {
+    font-size: 8vh;
+    padding-top: 0px;
+    margin-bottom: 0.1vh;
+    margin-top: 0.1vh;
+    max-width: 800px;
+    width: 60%;
+    font-family: "Jun 201", sans-serif;
+    border: 0px solid;
+}
+
+input.search::placeholder {
+    color: #A8E480;
+}
+
 div#pandaFrame {
     margin-left: auto;
     margin-right: auto;
