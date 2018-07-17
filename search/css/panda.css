@@ -26,7 +26,7 @@ div.topSearch {
 }
 
 input[type='text'] {
-    font-family: "Jun 201", sans-serif;
+    font-family: "Avenir Next Medium", "Avenir Next", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
 }
 
 input.search {
@@ -181,7 +181,7 @@ div.search {
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
     input.search {
-        padding-top: 0.1vh;
+        padding-top: 0.5vh;
         padding-left: 4px;
     }
 
