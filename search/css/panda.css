@@ -26,7 +26,7 @@ div.topSearch {
 }
 
 input[type='text'] {
-    font-family: "San Francisco", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
+    font-family: "Avenir Next", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
 }
 
 input.search {
@@ -41,7 +41,7 @@ input.search {
 }
 
 input.search::placeholder {
-    color: #E4A880;
+    color: #E4A880; /* The light green, but with RR and GG byte switched */
 }
 
 div#pandaFrame {
@@ -185,7 +185,6 @@ div.search {
     }
 
     input.search {
-        padding-top: 0.5vh;
         padding-left: 4px;
         padding-bottom: 0vh;
         margin: 0 0 0 0;
