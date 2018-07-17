@@ -180,7 +180,7 @@ div.search {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
-    div.topMenu {
+    div.topSearch {
         margin-bottom: 1ex;
     }
 
