@@ -26,7 +26,7 @@ div.topSearch {
 }
 
 input[type='text'] {
-    font-family: "Avenir Next Medium", "Avenir Next", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
+    font-family: "San Francisco", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
 }
 
 input.search {
@@ -183,6 +183,7 @@ div.search {
     input.search {
         padding-top: 0.5vh;
         padding-left: 4px;
+        padding-bottom: 0vh;
     }
 
     div.pandaResult, div.zooResult {
