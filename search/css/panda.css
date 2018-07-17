@@ -22,12 +22,14 @@ div.topSearch {
     background-color: white;
     font-family: "Jun 201", sans-serif;
     width: 100%;
-    margin-bottom: 1ex;
+    margin-left: 18px;
+    margin-bottom: 2ex;
 }
 
 input.search {
     padding-top: 0px;
     font-size: 8vh;
+    margin-top: 0.1vh;
     margin-bottom: 0.1vh;
     min-width: 320px;
     max-width: 800px;
@@ -175,6 +177,12 @@ div.search {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
+    div.topSearch {
+        margin-left: 14px;
+        margin-right: 8px;
+        margin-top: 4px;
+    }
+
     div.pandaResult, div.zooResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
