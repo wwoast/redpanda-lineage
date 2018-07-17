@@ -11,4 +11,10 @@ jp.name: アン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BjZcbAel8Cm/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2: https://www.instagram.com/p/BjCiubMFYVl/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
 zoo: 4
