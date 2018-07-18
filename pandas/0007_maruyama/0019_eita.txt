@@ -11,4 +11,10 @@ jp.name: エイタ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BTXGOaPDzqc/media/?size=m 
+photo.1.author: cattail.sapporo
+photo.1.link: https://www.instagram.com/cattail.sapporo/
+photo.2: https://www.instagram.com/p/BidqHYJF9xb/media/?size=m
+photo.2.author: mari_neko3
+photo.2.link: https://www.instagram.com/mari_neko3/
 zoo: 7
