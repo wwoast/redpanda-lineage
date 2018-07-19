@@ -7,8 +7,20 @@ en.name: Luna
 en.nicknames: none 
 en.othernames: Runa
 gender: f
-jp.name: 風花
+jp.name: ルナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BiPImdYFvI7/media/?size=m
+photo.1.author: yossi929
+photo.1.link: https://www.instagram.com/yossi929/
+photo.2: https://www.instagram.com/p/BlDXZjWlZ07/media/?size=m
+photo.2.author: lsdar13
+photo.2.link: https://www.instagram.com/lsdar13/
+photo.3: https://www.instagram.com/p/Bki3wlGFkRL/media/?size=m
+photo.3.author: yuka0714_0307
+photo.3.link: https://www.instagram.com/yuka0714_0307/
+photo.4: https://www.instagram.com/p/BidCVa0lCqT/media/?size=m
+photo.4.author: yuka0714_0307
+photo.4.link: https://www.instagram.com/yuka0714_0307/
 zoo: 6
