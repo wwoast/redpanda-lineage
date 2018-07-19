@@ -3,7 +3,7 @@ _id: 72
 birthday: 2006/6/2 
 birthplace: unknown
 children: unknown
-en.name: Fuhana
+en.name: Fuka
 en.nicknames: none 
 en.othernames: none
 gender: f
@@ -11,4 +11,7 @@ jp.name: 風花
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/Bi_r9TilMax/media/?size=m
+photo.1.author: re_ichimaru
+photo.1.link: https://www.instagram.com/re_ichimaru/
 zoo: 6
