@@ -2,7 +2,7 @@
 _id: 89
 birthday: 2000/6/23
 birthplace: 10
-death: unknown
+death: 2017/2/1
 children: 21, 104, 82, 86, 87, 88
 en.name: Seina
 en.nicknames: none
@@ -12,4 +12,13 @@ jp.name: 星奈
 jp.nicknames: none
 jp.othernames: セイナ
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BO8BNSOjBoO/media/?size=m
+photo.1.author: no_life_no_zoo
+photo.1.link: https://www.instagram.com/no_life_no_zoo/
+photo.2: https://www.instagram.com/p/BPgSCJGD-Oh/media/?size=m
+photo.2.author: takashi_8310iyo
+photo.2.link: https://www.instagram.com/takashi_8310iyo/
+photo.3: https://www.instagram.com/p/BQh1KAtDeme/media/?size=m
+photo.3.author: rdpnzoo
+photo.3.link: https://www.instagram.com/rdpnzoo/
 zoo: 10
