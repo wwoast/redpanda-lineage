@@ -5,10 +5,25 @@ birthplace: 13
 children: 115, 116, 119, 121
 en.name: Yan-Yan
 en.nicknames: none
-en.othernames: none
+en.othernames: Jan-Jan
 gender: m
 jp.name: ヤンヤン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BiTmiVuFKVu/media/?size=m
+photo.1.author: motohin
+photo.1.link: https://www.instagram.com/motohin/
+photo.2: https://www.instagram.com/p/BkQ7-SYl_pl/media/?size=m
+photo.2.author: kotata_513
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.3: https://www.instagram.com/p/BkZ5stnFTtL/media/?size=m
+photo.3.author: i.satosato
+photo.3.link: https://www.instagram.com/i.satosato/
+photo.4: https://www.instagram.com/p/Bjo2cubngrx/media/?size=m
+photo.4.author: minato.yokohama2130
+photo.4.link: https://www.instagram.com/minato.yokohama2130/
+photo.5: https://www.instagram.com/p/Bi_5U0ilF4f/media/?size=m
+photo.5.author: daniele.tokyo
+photo.5.link: https://www.instagram.com/daniele.tokyo/
 zoo: 23

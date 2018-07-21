@@ -5,11 +5,26 @@ birthplace: 14
 children: unknown
 en.name: Lala
 en.nicknames: none 
-en.othernames: none
+en.othernames: Rara
 gender: f
 jp.name: ララ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 30
+photo.1: https://www.instagram.com/p/BknL6WnFV2F/media/?size=m
+photo.1.author: minatomirai215
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.2: https://www.instagram.com/p/BkVAZbPFyib/media/?size=m
+photo.2.author: n.am.a
+photo.2.link: https://www.instagram.com/n.am.a/
+photo.3: https://www.instagram.com/p/Bk78E71FsAR/media/?size=m
+photo.3.author: n.am.a
+photo.3.link: https://www.instagram.com/n.am.a/
+photo.4: https://www.instagram.com/p/BhlT5Kvlx2U/media/?size=m
+photo.4.author: minatomirai215
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.5: https://www.instagram.com/p/BjR2hFvFc0U/media/?size=m
+photo.5.author: rdpnzoo
+photo.5.link: https://www.instagram.com/rdpnzoo/
 zoo: 12
