@@ -1,0 +1,30 @@
+[panda]
+_id: 42
+birthday: 2007/7/11
+birthplace: 8
+children: 197
+en.name: Fuumi
+en.nicknames: none 
+en.othernames: Kazumi, Kazami
+gender: f
+jp.name: 風美
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+photo.1: https://www.instagram.com/p/BlaIB7VAnNi/media/?size=m
+photo.1.author: mito_photo
+photo.1.link: https://www.instagram.com/mito_photo/
+photo.2: https://www.instagram.com/p/BhsiuHTlKG8/media/?size=m
+photo.2.author: _natsu_panda_
+photo.2.link: https://www.instagram.com/_natsu_panda_/
+photo.3: https://www.instagram.com/p/BfxtBWCn1iP/media/?size=m
+photo.3.author: yossi929
+photo.3.link: https://www.instagram.com/yossi929/
+photo.4: https://www.instagram.com/p/BfPLoRQnIfg/media/?size=m
+photo.4.author: yossi929
+photo.4.link: https://www.instagram.com/yossi929/
+photo.5: https://www.instagram.com/p/Bic5hwjAtEH/media/?size=m
+photo.5.author: paix_voyage_31
+photo.5.link: https://www.instagram.com/paix_voyage_31/
+zoo: 20
