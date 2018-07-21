@@ -11,4 +11,13 @@ jp.name: スミレ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BjOy7SUlFv5/media/?size=m
+photo.1.author: monmon_redpanda
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.2: https://www.instagram.com/p/BlHNN_8FkCu/media/?size=m
+photo.2.author: masumilky
+photo.2.link: https://www.instagram.com/masumilky/
+photo.3: https://www.instagram.com/p/BlGRa7Flgqn/media/?size=m
+photo.3.author: masumilky
+photo.3.link: https://www.instagram.com/masumilky/
 zoo: 16
