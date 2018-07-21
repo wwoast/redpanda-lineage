@@ -1,0 +1,14 @@
+[panda]
+_id: 196
+birthday: 2001/6/19
+birthplace: unknown
+children: unknown
+en.name: Dale
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: デール
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 12
