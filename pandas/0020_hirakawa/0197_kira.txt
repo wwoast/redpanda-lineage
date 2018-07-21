@@ -1,0 +1,23 @@
+[panda]
+_id: 197
+birthday: 2014/6/12
+birthplace: 10
+children: unknown
+en.name: Kira
+en.nicknames: none 
+en.othernames: none
+gender: f
+jp.name: キラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BPw-t-4jKjA/media/?size=m
+photo.1.author: lilla_tiara
+photo.1.link: https://www.instagram.com/lilla_tiara/
+photo.2: https://www.instagram.com/p/BjyC0pJlHC4/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
+photo.3: https://www.instagram.com/p/BNBlZdmDk7T/media/?size=m
+photo.3.author: mito_photo
+photo.3.link: https://www.instagram.com/mito_photo/
+zoo: 20
