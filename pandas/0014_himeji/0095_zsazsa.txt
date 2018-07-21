@@ -12,4 +12,19 @@ jp.nicknames: none
 jp.othernames: 佳佳
 language.order: jp, en
 litter: 94
-zoo: 10
+photo.1: https://www.instagram.com/p/Bkr4OsBlpVX/media/?size=m
+photo.1.author: kmasahon
+photo.1.link: https://www.instagram.com/kmasahon/
+photo.2: https://www.instagram.com/p/BkpaKlOlLIi/media/?size=m
+photo.2.author: i.satosato
+photo.2.link: https://www.instagram.com/i.satosato/
+photo.3: https://www.instagram.com/p/Bk67W1clbYd/media/?size=m
+photo.3.author: i.satosato
+photo.3.link: https://www.instagram.com/i.satosato/
+photo.4: https://www.instagram.com/p/8NEG50NoTo/media/?size=m
+photo.4.author: no_life_no_zoo
+photo.4.link: https://www.instagram.com/no_life_no_zoo/
+photo.5: https://www.instagram.com/p/BkryEPHFek3/media/?size=m
+photo.5.author: tomo3700
+photo.5.link: https://www.instagram.com/tomo3700/
+zoo: 14
