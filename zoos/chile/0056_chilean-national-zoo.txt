@@ -1,0 +1,10 @@
+[zoo]
+_id: 56
+en.address: Providencia, Santiago Metropolitan Region, Chile
+en.location: Santiago, Chile
+en.name: Chilean National Zoo
+es.address: Providencia, Santiago Metropolitan Region, Chile
+es.location: Santiago, Chile
+es.name: Zoológico Nacional de Chile
+language.order: es, en
+website: http://www.parquemet.cl/
