@@ -1,0 +1,18 @@
+[panda]
+_id: 199
+birthday: 2010/7/5
+birthplace: 7
+children: 200
+en.name: Kouta
+en.nicknames: none
+en.othernames: Kōta
+es.name: Kouta
+es.nicknames: none
+es.othernames: none
+gender: m
+jp.name: コウタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, es, en
+litter: 19
+zoo: 56

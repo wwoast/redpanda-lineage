@@ -1,0 +1,17 @@
+[panda]
+_id: 200
+birthday: unknown
+birthplace: 56
+children: none
+en.name: Kelu
+en.nicknames: none
+en.othernames: none
+es.name: Kelu
+es.nicknames: none
+es.othernames: none
+gender: m
+jp.name: ケルー
+jp.nicknames: none
+jp.othernames: ケル
+language.order: es, jp, en
+zoo: 56
