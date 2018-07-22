@@ -75,13 +75,15 @@ Show.emoji = {
   "female": "♀️",
     "girl": "👧🏻",
     "home": "🏡",
-    "link": "🌐",
+"language": "‍👁️‍🗨️",
+    "link": "🦉",
     "male": "♂️",
      "map": "🗺️",
    "money": "💸",
   "mother": "👩🏻",
    "story": "🎍",
-  "travel": "✈️"
+  "travel": "✈️",
+ "website": "🌐"
 }
 
 Show.flags = {
