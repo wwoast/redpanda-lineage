@@ -11,4 +11,16 @@ jp.name: ヤマト
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BhEFj3HFtfC/media/?size=m
+photo.1.author: rie_panda55
+photo.1.link: https://www.instagram.com/rie_panda55/
+photo.2: https://www.instagram.com/p/BiF3NwolxE9/media/?size=m
+photo.2.author: redpanda_nippon_takashi
+photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.3: https://www.instagram.com/p/BiI5D-jFvJh/media/?size=m
+photo.3.author: redpanda_nippon_takashi
+photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.4: https://www.instagram.com/p/BhOg6NylTvV/media/?size=m
+photo.4.author: hanamaru_redpanda
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
 zoo: 25
