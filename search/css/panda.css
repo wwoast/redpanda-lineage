@@ -22,7 +22,6 @@ div.topSearch {
     background-color: white;
     font-family: "Jun 201", sans-serif;
     width: 100%;
-    margin-bottom: 2ex;
 }
 
 div.shrinker {
@@ -48,7 +47,16 @@ input.search::placeholder {
     color: #E4A880; /* The light green, but with RR and GG byte switched */
 }
 
+img.fullFrame {
+    height: 80%;
+    width: 100%;
+    object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
+    opacity: 0.4;
+}
+
 div#pandaFrame {
+    margin-top: 2ex;
+    margin-bottom: 2ex;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
@@ -185,7 +193,6 @@ div.bottomMenu {
     background-color: #366938;
     font-family: "Jun 201", sans-serif;
     width: 100%;
-    margin-top: 2ex;
 }
 
 div.menuButton {
@@ -212,8 +219,8 @@ div.menuButton.outerRight {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
-    div.topSearch {
-        margin-bottom: 1ex;
+    div.pandaFrame {
+        margin-top: 1ex;
     }
 
     input.search {
