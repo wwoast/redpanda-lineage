@@ -221,6 +221,7 @@ div.menuButton.outerRight {
 @media screen and (max-width: 630px) {
     div.pandaFrame {
         margin-top: 1ex;
+        margin-bottom: 1ex;
     }
 
     input.search {
