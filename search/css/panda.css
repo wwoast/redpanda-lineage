@@ -195,25 +195,34 @@ div.bottomMenu {
     width: 100%;
 }
 
-div.menuButton {
+@keyframes activate {
+    from { background-color: #366938; }
+    to { background-color: #699C6A; }
+}
+
+button {
     display: inline-block;
     padding-left: 24px;
     padding-right: 24px;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
 }
 
-div.menuButton.outerLeft {
-    border-left: 0px dashed white;
-    border-right: 1px dashed white;
+button:hover, button:focus {
+    animation: activate;
+    animation-duration: 0.3s;
+    background-color: #699C6A;
 }
 
-div.menuButton.inner {
-    border-right: 1px dashed white;
+button:active {
+    animation: activate;
+    animation-duration: 0.3s;
+    animation-direction: alternate;
 }
-
-div.menuButton.outerRight {
-    border-right: 0px dashed white;
-}
-
 
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
@@ -298,7 +307,7 @@ div.menuButton.outerRight {
         padding-left: 14px;
     }
 
-    div.menuButton.outerLeft, div.menuButton.inner, div.menuButton.outerRight  {
-        border: 0px solid;
+    div.menuButton  {
+        display: table-cell;
     }
 }
