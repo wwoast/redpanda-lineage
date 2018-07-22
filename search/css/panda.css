@@ -168,12 +168,17 @@ ul.pandaList li.passedAway {
     color: gray;
 }
 
-hr {
-    clear: both;
-}
-
-div.search {
-    clear: both;
+div.bottomMenu {
+    display: table;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 32px;
+    height: 8%;
+    max-height: 100px;
+    background-color: white;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    margin-top: 2ex;
 }
 
 /* Portrait mode, default for iPhones and for frames that are in a 
