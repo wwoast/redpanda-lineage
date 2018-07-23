@@ -81,6 +81,7 @@ Show.emoji = {
      "map": "🗺️",
    "money": "💸",
   "mother": "👩🏻",
+  "random": "🎲",
    "story": "🎍",
   "travel": "✈️",
  "website": "🌐"
