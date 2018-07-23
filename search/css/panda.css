@@ -244,7 +244,7 @@ button.menu div.text {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
-    div.pandaFrame {
+    div#pandaFrame {
         margin-top: 1ex;
         margin-bottom: 1ex;
     }
