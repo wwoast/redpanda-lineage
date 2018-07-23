@@ -182,9 +182,8 @@ ul.pandaList li.passedAway {
 
 div.bottomMenu {
     display: table;
-    text-align: center;
-    vertical-align: middle;
     min-height: 32px;
+    text-align: center;
     height: 8%;
     max-height: 100px;
     margin-left: auto;
@@ -202,16 +201,12 @@ div.bottomMenu {
 
 button.menu {
     display: inline-block;
-    padding-left: 8px;
-    padding-right: 8px;
     border: none;
     color: white;
     line-height: 1.4;
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
-    width: 150px;  /* Otherwise button content uses necessary space */
-                   /* and buttons don't look evenly spaced */
 }
 
 button.menu:hover {
@@ -229,24 +224,19 @@ button.menu:active {
 button.menu div.buttonContent {
     display: table;
     border: none;
-    color: white;
-    line-height: 1.4;
-    font-size: 14pt;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: center;
-    font-family: "Jun 201", sans-serif;
 }
 
 button.menu div.icon {
-    display: table-row;
-    width: 100%;
+    display: table-cell;
     font-size: 24pt;
+    padding-right: 8px;
 }
 
 button.menu div.text {
-    display: table-row;
-    width: 100%;
+    display: table-cell;
+    padding-right: 8px;
 }
 
 
@@ -334,6 +324,18 @@ button.menu div.text {
     }
 
     button.menu {
-        display: table-cell;
+        width: 80px;
+    }
+
+    button.menu div.icon {
+        display: table-row;
+        font-size: 24pt;
+        padding: 0 0 0 0;
+    }
+
+    button.menu div.text {
+        display: table-row;
+        font-size: 10pt;
+        padding: 0 0 0 0;
     }
 }
