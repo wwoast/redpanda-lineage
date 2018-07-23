@@ -5,10 +5,11 @@ birthplace: 31
 children: none
 en.name: San
 en.nicknames: none
-en.othernames: none
+en.othernames: Sun
 gender: f
 jp.name: サン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 73
 zoo: 31

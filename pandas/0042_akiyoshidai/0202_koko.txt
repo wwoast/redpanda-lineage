@@ -1,14 +1,14 @@
 [panda]
-_id: 180
-birthday: 2011/7/12
+_id: 202
+birthday: 2003/7/15
 birthplace: 6
-children: 181, 182, 183, 73
-en.name: Ayame
+children: 201
+en.name: Kō-Kō
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: アヤメ
+gender: m
+jp.name: 航航
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 31
+zoo: 42
