@@ -142,7 +142,7 @@ div.pandaDetails p, div.zooDetails p {
     padding-bottom: 0ex;
 }
 
-div.parents h3, div.siblings h3, div.parents h4, div.siblings h4 {
+div.parents h3, div.litter h3, div.siblings h3, div.parents h4, div.litter h4, div.siblings h4 {
     display: inline-block;
     margin-left: 18px;
     margin-top: 1ex;
@@ -301,7 +301,8 @@ button.menu div.text {
        Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings {
         width: 100%;
-        padding-right: 0px;
+        padding-right: 14px;
+        text-align: left;
     } 
 
     div.pandaDetails p, div.zooDetails p {
@@ -313,18 +314,13 @@ button.menu div.text {
         padding-right: 8px;
     }
 
-    div.parents, div.litter, div.siblings {
-        padding-right: 14px;
-    }
-
-    div.parents h3, div.siblings h3, div.parents h4, div.siblings h4 {
-        margin-left: 0px;
-        padding-left: 0px;
+    div.parents h3, div.litter h3, div.siblings h3, div.parents h4, div.litter h4, div.siblings h4 {
+        margin-left: 14px;
     }
 
     ul.pandaList {
-        text-align: left;
         list-style: none;
+        text-align: left;
         padding-left: 14px;
     }
 
