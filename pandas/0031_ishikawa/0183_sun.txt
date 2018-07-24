@@ -1,0 +1,24 @@
+[panda]
+_id: 183
+birthday: 2015/8/23
+birthplace: 31
+children: none
+en.name: Sun
+en.nicknames: none
+en.othernames: San
+gender: f
+jp.name: サン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 73
+photo.1: https://www.instagram.com/p/Bj1LGQfnybc/media/?size=m
+photo.1.author: fjtmisa
+photo.1.link: https://www.instagram.com/fjtmisa/
+photo.2: https://www.instagram.com/p/BS8mehtBeMC/media/?size=m
+photo.2.author: perie1027vivi
+photo.2.link: https://www.instagram.com/perie1027vivi/
+photo.3: https://www.instagram.com/p/Bb8YCUchSq2/media/?size=m
+photo.3.author: 8a8i8
+photo.3.link: https://www.instagram.com/8a8i8/
+zoo: 31
