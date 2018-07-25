@@ -1,0 +1,29 @@
+[panda]
+_id: 204
+birthday: unknown
+birthplace: unknown
+children: none
+en.name: Sakura
+en.nicknames: 
+en.othernames: none
+gender: m
+jp.name: 
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BhBs9Xbhwbh/media/?size=m
+photo.1.author: love__mitarashi
+photo.1.link: https://www.instagram.com/love__mitarashi/
+photo.2: https://www.instagram.com/p/BjCdO0wFKg_/media/?size=m
+photo.2.author: love__mitarashi
+photo.2.link: https://www.instagram.com/love__mitarashi/
+photo.3: https://www.instagram.com/love__mitarashi/
+photo.3.author: love__mitarashi
+photo.3.link: https://www.instagram.com/love__mitarashi/
+photo.4: https://www.instagram.com/p/Bk1nFlKlgis/media/?size=m
+photo.4.author: love__mitarashi
+photo.4.link: https://www.instagram.com/love__mitarashi/
+photo.5: https://www.instagram.com/p/BhN60xzhOwq/media/?size=m
+photo.5.author: love__mitarashi
+photo.5.link: https://www.instagram.com/love__mitarashi/
+zoo: 35

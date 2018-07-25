@@ -1,0 +1,29 @@
+[panda]
+_id: 203
+birthday: unknown
+birthplace: unknown
+children: none
+en.name: Yomogi
+en.nicknames: 
+en.othernames: none
+gender: m
+jp.name: よもぎ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BlRZegmlPo4/media/?size=m
+photo.1.author: love__mitarashi
+photo.1.link: https://www.instagram.com/love__mitarashi/
+photo.2: https://www.instagram.com/p/Bdrx0UcFdid/media/?size=m
+photo.2.author: fetorus_mami
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.3: https://www.instagram.com/p/BkhHyvTljNO/media/?size=m
+photo.3.author: lsdar13
+photo.3.link: https://www.instagram.com/lsdar13/
+photo.4: https://www.instagram.com/p/BkhY6o7FLwg/media/?size=m
+photo.4.author: tabechum
+photo.4.link: https://www.instagram.com/tabechum/
+photo.5: https://www.instagram.com/p/BjTli4-lseC/media/?size=m
+photo.5.author: tabechum
+photo.5.link: https://www.instagram.com/tabechum/
+zoo: 35
