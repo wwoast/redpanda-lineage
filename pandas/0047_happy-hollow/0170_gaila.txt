@@ -9,4 +9,23 @@ en.othernames: Gailabear
 jp.name: ガイラ
 jp.nicknames: none
 jp.othernames: none
+language.order: en, jp
+photo.1: https://www.instagram.com/p/BSSOWqIBrqV/media/?size=m
+photo.1.author: zookeeper_aj
+photo.1.link: https://www.instagram.com/zookeeper_aj/
+photo.2: https://www.instagram.com/p/BaAauORg6ti/media/?size=m
+photo.2.author: wumpwoast
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.3: https://www.instagram.com/p/Bk1cgUilTzY/media/?size=m
+photo.3.author: wumpwoast
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.4: https://www.instagram.com/p/BU5NCkCAldF/media/?size=m
+photo.4.author: wumpwoast
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.5: https://www.instagram.com/p/BiZ8xxclfy9/media/?size=m
+photo.5.author: wumpwoast
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.6: https://www.instagram.com/p/Bjz40EFHH-Q/media/?size=m
+photo.6.author: zookeeper_aj
+photo.6.link: https://www.instagram.com/zookeeper_aj/
 zoo: 47

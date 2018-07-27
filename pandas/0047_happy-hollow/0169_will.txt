@@ -9,4 +9,20 @@ en.othernames: Punk Butt
 jp.name: ウィル・スミス
 jp.nicknames: none
 jp.othernames: none
+language.order: en, jp
+photo.1: https://www.instagram.com/p/BkGUMUOFgmd/media/?size=m
+photo.1.author: wumpwoast
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.2: https://www.instagram.com/p/BfosEc0gvOj/media/?size=m
+photo.2.author: wumpwoast
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.3: https://www.instagram.com/p/BUMkwRPBTyu/media/?size=m
+photo.3.author: zookeeper_aj
+photo.3.link: https://www.instagram.com/zookeeper_aj/
+photo.4: https://www.instagram.com/p/BbajfpxlOXV/media/?size=m
+photo.4.author: wumpwoast
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.5: https://www.instagram.com/p/BhQPEj2ACCT/media/?size=m
+photo.5.author: wumpwoast
+photo.5.link: https://www.instagram.com/wumpwoast/
 zoo: 47

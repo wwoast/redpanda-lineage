@@ -2,7 +2,7 @@
 _id: 172
 birthday: 2007/6/26
 birthplace: unknown
-children: none
+children: 174, 173
 en.name: Xianchi
 en.nicknames: none
 en.othernames: none
@@ -11,4 +11,16 @@ jp.name: シャンチー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+photo.1: https://www.instagram.com/p/BjuNJi7FpyV/media/?size=m
+photo.1.author: makimaru18
+photo.1.link: https://www.instagram.com/makimaru18/
+photo.2: https://www.instagram.com/p/Bkc83lnly8e/media/?size=m
+photo.2.author: yuka0714_0307
+photo.2.link: https://www.instagram.com/yuka0714_0307/
+photo.3: https://www.instagram.com/p/BkfEvKwlXQa/media/?size=m
+photo.3.author: lsdar13
+photo.3.link: https://www.instagram.com/lsdar13/
+photo.4: https://www.instagram.com/p/BkfI0LlFhDM/media/?size=m
+photo.4.author: craig_craig_craig
+photo.4.link: https://www.instagram.com/craig_craig_craig/
 zoo: 46
