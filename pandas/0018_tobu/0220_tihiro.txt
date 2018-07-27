@@ -1,0 +1,15 @@
+[panda]
+_id: 220
+birthday: 2003/6/16
+birthplace: 10
+children: unknown
+en.name: Tihiro
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: unknown
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 53
+zoo: 18
