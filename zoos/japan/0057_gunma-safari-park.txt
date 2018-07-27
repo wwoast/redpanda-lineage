@@ -1,0 +1,10 @@
+[zoo]
+_id: 57
+en.address: Japan, 〒370-2321 Gunma Prefecture, 富岡市岡本１
+en.location: Gunma Prefecture
+en.name: Gunma Safari Park
+jp.address: unknown
+jp.location: 群馬県
+jp.name: 群馬サファリパーク
+language.order: jp, en
+website: http://www.safari.co.jp/
