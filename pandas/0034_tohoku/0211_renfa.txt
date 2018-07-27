@@ -1,0 +1,14 @@
+[panda]
+_id: 211
+birthday: 1996/7/10
+birthplace: unknown
+children: unknown
+en.name: Ren-Fa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: レンファ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 34

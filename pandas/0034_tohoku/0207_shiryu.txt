@@ -1,0 +1,26 @@
+[panda]
+_id: 207
+birthday: 2007/6/26
+birthplace: 34
+children: 205, 103
+en.name: Shiryu
+en.nicknames: none
+en.othernames: Sea-Ryu
+gender: f
+jp.name: シーリィウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BhgHoC9F-Dr/media/?size=m
+photo.1.author: wonderfulzooken
+photo.1.link: https://www.instagram.com/wonderfulzooken/
+photo.2: https://www.instagram.com/p/BgLndurFd79/media/?size=m
+photo.2.author: daniele.tokyo
+photo.2.link: https://www.instagram.com/daniele.tokyo/
+photo.3: https://www.instagram.com/p/BjgRsBQltSY/media/?size=m
+photo.3.author: wonderfulzooken
+photo.3.link: https://www.instagram.com/wonderfulzooken/
+photo.4: https://www.instagram.com/p/Bc70_Atg6_Z/media/?size=m
+photo.4.author: tufopix
+photo.4.link: https://www.instagram.com/tufopix/
+zoo: 34

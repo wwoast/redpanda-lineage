@@ -1,0 +1,17 @@
+[panda]
+_id: 208
+birthday: 2002/6/28
+birthplace: 46
+children: 205, 103
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ロンロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BjSJwD0Ft2v/media/?size=m
+photo.1.author: rie_panda55
+photo.1.link: https://www.instagram.com/rie_panda55/
+zoo: 34
