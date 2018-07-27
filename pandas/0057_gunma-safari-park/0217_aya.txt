@@ -1,0 +1,14 @@
+[panda]
+_id: 217
+birthday: 2006/6/5  
+birthplace: unknown
+children: unknown
+en.name: Aya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 彩
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 57

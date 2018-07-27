@@ -1,0 +1,14 @@
+[panda]
+_id: 219
+birthday: 2013/6/15
+birthplace: 15
+children: unknown
+en.name: Himari
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ひまり
+jp.nicknames: none
+jp.othernames: ヒマリ
+language.order: jp, en
+zoo: 57
