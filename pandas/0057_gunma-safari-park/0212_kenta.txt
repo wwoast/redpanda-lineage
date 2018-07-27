@@ -1,0 +1,30 @@
+[panda]
+_id: 212
+birthday: 2016/7/13  
+birthplace: 26
+children: unknown
+en.name: Kenta
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ケンタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 213
+photo.1: https://www.instagram.com/p/BkKYOcgF44u/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2: https://www.instagram.com/p/BiWcHW1F0m4/media/?size=m
+photo.2.author: hanamaru_redpanda
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3: https://www.instagram.com/p/BkR_IFwFCwx/media/?size=m
+photo.3.author: miis_98
+photo.3.link: https://www.instagram.com/miis_98/
+photo.4: https://www.instagram.com/p/BjLXtI5lEyy/media/?size=m
+photo.4.author: miis_98
+photo.4.link: https://www.instagram.com/miis_98/
+photo.5: https://www.instagram.com/p/BiWyYzSFXj5/media/?size=m
+photo.5.author: lsdar13
+photo.5.link: https://www.instagram.com/lsdar13/
+zoo: 57

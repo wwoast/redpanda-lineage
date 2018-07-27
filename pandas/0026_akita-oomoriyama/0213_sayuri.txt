@@ -1,0 +1,15 @@
+[panda]
+_id: 213
+birthday: 2016/7/13  
+birthplace: 26
+children: unknown
+en.name: Sayuri
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 小百合
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 212
+zoo: 26

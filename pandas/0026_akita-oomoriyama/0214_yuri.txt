@@ -1,0 +1,14 @@
+[panda]
+_id: 214
+birthday: 2016/6/26 
+birthplace: 26
+children: 212, 213
+en.name: Yuri
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 百合
+jp.nicknames: none
+jp.othernames:  ゆり
+language.order: jp, en
+zoo: 26
