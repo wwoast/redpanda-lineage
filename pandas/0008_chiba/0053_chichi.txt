@@ -1,18 +1,18 @@
 [panda]
 _id: 53
-birthday: unknown
-birthplace: unknown
+birthday: 2003/6/16
+birthplace: 10
 children: 48, 72, 42, 85, 35, 46, 19, 199
 death: unknown
 en.name: Chi-Chi
 en.nicknames: none
-en.othernames: none
+en.othernames: Chii-Chii
 gender: f
 jp.name: チイチイ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 220
 photo.1: https://www.instagram.com/p/xBCRTBQfDd/media/?size=m
 photo.1.author: jwg13777
 photo.1.link: https://www.instagram.com/jwg13777/
