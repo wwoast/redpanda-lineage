@@ -1,0 +1,14 @@
+[panda]
+_id: 240
+birthday: 2018/6/7
+birthplace: 17
+children: none
+en.name: Taofa and Franken's Baby
+en.nicknames: none  
+en.othernames: none
+gender: f
+jp.name: unknown
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 17

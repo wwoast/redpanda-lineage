@@ -2,7 +2,7 @@
 _id: 5 
 birthday: 2015/7/13
 birthplace: 3 
-children: 8 
+children: 8, 246, 247
 en.name: Mugi
 en.nicknames: Barley, Muugs
 en.othernames: none 
