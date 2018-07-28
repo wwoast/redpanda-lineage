@@ -213,6 +213,21 @@ Pandas.def.relations = {
   }
 }
 
+Pandas.def.species = {
+  "cn": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani"
+  ],
+  "en": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani"
+  ],
+  "jp": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani"
+  ]
+}
+
 Pandas.def.unknown = {
   "cn": "不明",
   "en": "unknown",
