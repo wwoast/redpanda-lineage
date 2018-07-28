@@ -1,0 +1,15 @@
+[panda]
+_id: 234
+birthday: 2017/7/15
+birthplace: 37
+children: none
+en.name: Mii-Mii
+en.nicknames: none
+en.othernames: Miimii, Myi-Myi, Myimyi
+gender: f
+jp.name: 糸糸
+jp.nicknames: none
+jp.othernames: ミイミイ
+language.order: jp, en
+litter: 233
+zoo: 37

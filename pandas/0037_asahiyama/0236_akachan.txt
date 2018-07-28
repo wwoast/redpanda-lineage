@@ -1,14 +1,15 @@
 [panda]
-_id: 124
-birthday: 2011/7/17
-birthplace: 13
-children: 149, 225, 226
-en.name: Charmin
+_id: 236
+birthday: 2018/7/11
+birthplace: 37
+children: none
+en.name: unknown
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: チャーミン
+jp.name: unknown
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 235
 zoo: 37
