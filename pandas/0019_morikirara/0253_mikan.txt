@@ -1,0 +1,15 @@
+[panda]
+_id: 253
+birthday: 2011/7/18
+birthplace: 6
+children: 254, 255
+en.name: Mikan
+en.nicknames: none  
+en.othernames: none
+gender: f
+jp.name: みかん
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 160
+zoo: 19

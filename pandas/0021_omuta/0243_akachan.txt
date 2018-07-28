@@ -1,0 +1,14 @@
+[panda]
+_id: 243
+birthday: 2018/6/24
+birthplace: 21
+children: none
+en.name: Mai and Ren's Baby
+en.nicknames: unknown
+en.othernames: unknown
+gender: unknown
+jp.name: unknown
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 21

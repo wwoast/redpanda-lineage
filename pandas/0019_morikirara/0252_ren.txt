@@ -1,0 +1,14 @@
+[panda]
+_id: 252
+birthday: 2007/6/14
+birthplace: unknown
+children: 254, 255
+en.name: Ren
+en.nicknames: none  
+en.othernames: none
+gender: m
+jp.name: レン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 19

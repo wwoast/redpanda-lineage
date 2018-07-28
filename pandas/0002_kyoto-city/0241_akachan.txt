@@ -1,0 +1,13 @@
+[panda]
+_id: 241
+birthday: 2018/6/21
+birthplace: 2
+en.name: Jasmine and Oolong's Baby
+en.nicknames: none
+en.othernames: none 
+gender: m
+jp.name: unknown
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 2
