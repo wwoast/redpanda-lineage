@@ -110,7 +110,8 @@ class RedPandaGraph:
                                    if p['_id'] == edge['_out']][0]
                 except IndexError as e:
                     # One panda in a litter isn't pointing back at the other
-                    raise LinkError("Litter values inconsistent between two pandas: %s" % edge)
+                    raise LinkError("""Litter values inconsistent between two pandas,
+                                       \nor one panda ID is not in the database: %s""" % edge)
                 if panda_in['birthday'] != panda_out['birthday']:
                     raise DateConsistencyError("Pandas in litter don't share birthday: %s, %s"
                                                % (panda_in['en.name'], panda_out['en.name']))
