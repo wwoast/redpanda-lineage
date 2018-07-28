@@ -10,6 +10,7 @@ jp.name: ガイラ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+litter: unknown
 photo.1: https://www.instagram.com/p/BSSOWqIBrqV/media/?size=m
 photo.1.author: zookeeper_aj
 photo.1.link: https://www.instagram.com/zookeeper_aj/
@@ -28,4 +29,5 @@ photo.5.link: https://www.instagram.com/wumpwoast/
 photo.6: https://www.instagram.com/p/Bjz40EFHH-Q/media/?size=m
 photo.6.author: zookeeper_aj
 photo.6.link: https://www.instagram.com/zookeeper_aj/
+species: 1
 zoo: 47
