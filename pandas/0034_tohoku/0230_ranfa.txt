@@ -1,0 +1,17 @@
+[panda]
+_id: 230
+birthday: 2018/6/2
+birthplace: 34
+children: none
+en.name: Ran-Fa
+en.nicknames: none
+en.othernames: Ranfa, Ranhowa
+gender: f
+jp.name: 蘭花
+jp.nicknames: none
+jp.othernames: ランファ
+language.order: jp, en
+photo.1: https://www.instagram.com/p/BkWJxamASuk/media/?size=m
+photo.1.author: tohokusafaripark
+photo.1.link: https://www.instagram.com/tohokusafaripark/
+zoo: 34

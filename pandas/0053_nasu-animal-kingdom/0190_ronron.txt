@@ -1,0 +1,17 @@
+[panda]
+_id: 190
+birthday: 2013/7/19
+birthplace: 37
+children: none
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ronron
+gender: m
+jp.name: 栄栄
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+video.1: https://youtu.be/HQ_OsRtj6T0
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+zoo: 53

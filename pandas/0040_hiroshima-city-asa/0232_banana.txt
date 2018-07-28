@@ -1,14 +1,14 @@
 [panda]
-_id: 211
-birthday: 1996/7/10
+_id: 232
+birthday: unknown
 birthplace: unknown
-children: unknown
-en.name: Ren-Fa
+children: 228
+en.name: Banana
 en.nicknames: none
-en.othernames: Renfa
+en.othernames: none
 gender: f
-jp.name: レンファ
+jp.name: バナナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 34
+zoo: 37

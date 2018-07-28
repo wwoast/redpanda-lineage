@@ -1,0 +1,15 @@
+[panda]
+_id: 225
+birthday: 2016/6/28
+birthplace: 37
+children: unknown
+en.name: Rai-Rai
+en.nicknames: Thunder-Lightning
+en.othernames: Rai-Rai
+gender: m
+jp.name: 雷雷
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 226
+zoo: 37

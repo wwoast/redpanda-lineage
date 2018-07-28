@@ -1,0 +1,14 @@
+[panda]
+_id: 227
+birthday: 2011/5/28
+birthplace: 5
+children: 149, 225, 226, 233, 234, 235, 236
+en.name: Yu-Yu
+en.nicknames: none
+en.othernames: Yuyu
+gender: f
+jp.name: 渝渝
+jp.nicknames: none
+jp.othernames: ユウユウ
+language.order: jp, en
+zoo: 37

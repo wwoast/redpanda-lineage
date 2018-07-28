@@ -1,12 +1,12 @@
 [panda]
 _id: 197
 birthday: 2014/6/12
-birthplace: 10
+birthplace: 20
 children: unknown
 en.name: Kira
 en.nicknames: none 
 en.othernames: none
-gender: f
+gender: m
 jp.name: キラ
 jp.nicknames: none
 jp.othernames: none
@@ -20,4 +20,4 @@ photo.2.link: https://www.instagram.com/miis_98/
 photo.3: https://www.instagram.com/p/BNBlZdmDk7T/media/?size=m
 photo.3.author: mito_photo
 photo.3.link: https://www.instagram.com/mito_photo/
-zoo: 20
+zoo: 40

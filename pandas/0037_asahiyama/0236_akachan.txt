@@ -1,14 +1,15 @@
 [panda]
-_id: 190
-birthday: 2013/7/19
+_id: 236
+birthday: 2018/7/11
 birthplace: 37
 children: none
-en.name: Sakae-Sakae
+en.name: unknown
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: 栄栄
+gender: m
+jp.name: unknown
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-zoo: 53
+litter: 235
+zoo: 37
