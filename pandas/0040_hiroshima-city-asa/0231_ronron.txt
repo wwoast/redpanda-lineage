@@ -1,0 +1,14 @@
+[panda]
+_id: 231
+birthday: unknown
+birthplace: unknown
+children: 228
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ronron
+gender: m
+jp.name: ロンロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 37

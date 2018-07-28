@@ -1,0 +1,14 @@
+[panda]
+_id: 232
+birthday: unknown
+birthplace: unknown
+children: 228
+en.name: Banana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: バナナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 37
