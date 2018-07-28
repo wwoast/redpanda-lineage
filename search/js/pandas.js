@@ -223,8 +223,8 @@ Pandas.def.species = {
     "Ailurus fulgens styani"
   ],
   "jp": [
-    "Ailurus fulgens fulgens",
-    "Ailurus fulgens styani"
+    "西レッサーパンダ",
+    "シセンレッサーパンダ"
   ]
 }
 
