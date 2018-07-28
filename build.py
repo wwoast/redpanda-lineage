@@ -25,6 +25,9 @@ class GenderFormatError(ValueError):
 class IdError(KeyError):
     pass
 
+class LinkError(IndexError):
+    pass
+
 class NameFormatError(ValueError):
     pass
 
@@ -100,10 +103,14 @@ class RedPandaGraph:
         seen_pairs = []
         for edge in litter_edges:
             if (edge['_in'], edge['_out']) not in seen_pairs:
-                panda_in = [p for p in self.vertices 
-                              if p['_id'] == edge['_in']][0]
-                panda_out = [p for p in self.vertices 
-                               if p['_id'] == edge['_out']][0]
+                try:
+                    panda_in = [p for p in self.vertices 
+                                  if p['_id'] == edge['_in']][0]
+                    panda_out = [p for p in self.vertices 
+                                   if p['_id'] == edge['_out']][0]
+                except IndexError as e:
+                    # One panda in a litter isn't pointing back at the other
+                    raise LinkError("Litter values inconsistent between two pandas: %s" % edge)
                 if panda_in['birthday'] != panda_out['birthday']:
                     raise DateConsistencyError("Pandas in litter don't share birthday: %s, %s"
                                                % (panda_in['en.name'], panda_out['en.name']))
