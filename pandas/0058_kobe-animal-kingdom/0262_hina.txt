@@ -1,14 +1,14 @@
 [panda]
-_id: 260
+_id: 262
 birthday: unknown
 birthplace: unknown
 children: unknown
-en.name: Asahi
+en.name: Hina
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: 朝日
+gender: f
+jp.name: 陽那
 jp.nicknames: none
-jp.othernames: あさひ
+jp.othernames: ひな
 language.order: jp, en
 zoo: 58

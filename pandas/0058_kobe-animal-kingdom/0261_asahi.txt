@@ -3,12 +3,12 @@ _id: 261
 birthday: unknown
 birthplace: unknown
 children: unknown
-en.name: Hina
+en.name: Asahi
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: 陽那
+gender: m
+jp.name: 朝日
 jp.nicknames: none
-jp.othernames: ひな
+jp.othernames: あさひ
 language.order: jp, en
 zoo: 58
