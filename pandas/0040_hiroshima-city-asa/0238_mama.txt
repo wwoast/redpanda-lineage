@@ -1,0 +1,14 @@
+[panda]
+_id: 238
+birthday: 2005/7/7
+birthplace: 25
+children: unknown
+en.name: Ma-Ma
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マーマー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 40

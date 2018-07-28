@@ -1,0 +1,15 @@
+[panda]
+_id: 237
+birthday: 2015/6/26
+birthplace: 40
+children: unknown
+en.name: Maru
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 127
+zoo: 40
