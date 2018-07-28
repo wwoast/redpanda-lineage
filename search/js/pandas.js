@@ -7,6 +7,7 @@
     The Panda search form namespace
 */
 var Pandas = {};   // Namespace
+Pandas.def = {};   // Default values
 
 Pandas.P = {};     // Prototype
 
@@ -40,7 +41,7 @@ Pandas.ops = {
     "panda": ['panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['zoo', '動物園']
   },
-  "sub-type": {
+  "subtype": {
     "alive": ['alive', 'living'],
     "born": ['born'],
     "dead": ['dead'],

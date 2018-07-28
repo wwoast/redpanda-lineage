@@ -283,7 +283,6 @@ Show.pandaResults = function(animals, slip_in) {
 
 }
 
-
 // Test function. Just search an ID, and show results
 Show.bootstrap = function(id) {
   var animal = Pandas.searchPandaId(id);
