@@ -1,0 +1,14 @@
+[panda]
+_id: 261
+birthday: unknown
+birthplace: unknown
+children: unknown
+en.name: Asahi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 朝日
+jp.nicknames: none
+jp.othernames: あさひ
+language.order: jp, en
+zoo: 58
