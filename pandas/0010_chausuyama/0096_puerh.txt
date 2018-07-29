@@ -11,6 +11,7 @@ jp.name: プーアル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/Bkal0MalDix/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
@@ -20,4 +21,11 @@ photo.2.link: https://www.instagram.com/perie1027vivi/
 photo.3: https://www.instagram.com/p/BOXC4XoA3Mz/media/?size=m
 photo.3.author: perie2017vivi
 photo.3.link: https://www.instagram.com/perie1027vivi/
+photo.4: https://www.instagram.com/p/Bh7evSpFCny/media/?size=m
+photo.4.author: panda_daisuki
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.5: https://www.instagram.com/p/BKRZ_PTAk9y/media/?size=m
+photo.5.author: toshi1213_f1
+photo.5.link: https://www.instagram.com/toshi1213_f1/
+species: 2
 zoo: 10
