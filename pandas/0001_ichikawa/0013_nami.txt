@@ -2,7 +2,7 @@
 _id: 13 
 birthday: 2002/7/15
 birthplace: 1
-children: 4, 12, 179
+children: 4, 264, 12, 179
 en.name: Nami
 en.nicknames: none
 en.othernames: none 
@@ -11,10 +11,21 @@ jp.name: ナミ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/Bdi_kFeFhwA/media/?size=m
 photo.1.author: takashi_8310iyo
 photo.1.link: https://www.instagram.com/takashi_8310iyo/
 photo.2: https://www.instagram.com/p/BheHx60lwcl/media/?size=m
 photo.2.author: perie1027vivi
 photo.2.link: https://www.instagram.com/perie1027vivi/
+photo.3: https://www.instagram.com/p/BlO3ZholKpK/media/?size=m
+photo.3.author: _rifa_p
+photo.3.link: https://www.instagram.com/_rifa_p/
+photo.4: https://www.instagram.com/p/BkMMDLUFW8D/media/?size=m
+photo.4.author: ck.chie
+photo.4.link: https://www.instagram.com/ck.chie/
+photo.5: https://www.instagram.com/p/BZyNxazlwNq/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+species: 2
 zoo: 1

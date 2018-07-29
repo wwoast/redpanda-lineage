@@ -11,10 +11,21 @@ jp.name: ミンミン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/BhordilFctr/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.2: https://www.instagram.com/p/BkFUYhkFuRD/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3: https://www.instagram.com/p/BhOatdIhLSA/media/?size=m
+photo.3.author: tsumechmosu
+photo.3.link: https://www.instagram.com/tsumechmosu/
+photo.4: https://www.instagram.com/p/BlVXf5SFR12/media/?size=m
+photo.4.author: fetorus_mami
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.5: https://www.instagram.com/p/BkZXwEvluhd/media/?size=m
+photo.5.author: fetorus_mami
+photo.5.link: https://www.instagram.com/fetorus_mami/
+species: 2
 zoo: 9

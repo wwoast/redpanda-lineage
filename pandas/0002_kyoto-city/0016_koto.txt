@@ -11,10 +11,21 @@ jp.name: コト
 jp.nicknames: none
 jp.othernames: 古都
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/Bfnj1C7htmq/media/?size=m
 photo.1.author: lespan33
 photo.1.link: https://www.instagram.com/lespan33/
 photo.2: https://www.instagram.com/p/BjhWwXulRYF/media/?size=m
 photo.2.author: kinkinkin0826
 photo.2.link: https://www.instagram.com/kinkinkin0826/
+photo.3: https://www.instagram.com/p/BlsYSStF1Lh/media/?size=m
+photo.3.author: kinkinkin0826
+photo.3.link: https://www.instagram.com/kinkinkin0826/
+photo.4: https://www.instagram.com/p/BlAeq3Ale5g/media/?size=m
+photo.4.author: redpanda_nippon_takashi
+photo.4.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.5: https://www.instagram.com/p/Bijjb46FLtv/media/?size=m
+photo.5.author: kinkinkin0826
+photo.5.link: https://www.instagram.com/kinkinkin0826/
+species: 2
 zoo: 2
