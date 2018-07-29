@@ -11,7 +11,7 @@ jp.name: ノン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 86
+litter: 86, 186
 photo.1: https://www.instagram.com/p/BiVWqobnidg/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
@@ -21,4 +21,5 @@ photo.2.link: https://www.instagram.com/no_life_no_zoo/
 photo.3: https://www.instagram.com/p/BkL1K4al75T/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
+species: 2
 zoo: 10

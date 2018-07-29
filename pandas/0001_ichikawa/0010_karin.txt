@@ -11,10 +11,21 @@ jp.name: カリン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/Bg3zaeLg5Ba/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
 photo.2: https://www.instagram.com/p/BgwyRirg5bW/
 photo.2.author: firefoxpanda88
 photo.2.link: https://www.instagram.com/firefoxpanda88/
-zoo: 1 
+photo.3: https://www.instagram.com/p/BlU-0-jlwx3/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4: https://www.instagram.com/p/BgNlGUKFtXH/media/?size=m
+photo.4.author: na.mo.pan
+photo.4.link: https://www.instagram.com/na.mo.pan/
+photo.5: https://www.instagram.com/p/Bj_7qjJBzor/media/?size=m
+photo.5.author: sulfa2
+photo.5.link: https://www.instagram.com/sulfa2/
+species: 2
+zoo: 1
