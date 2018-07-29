@@ -2,7 +2,7 @@
 _id: 187
 birthday: 2010/6/14
 birthplace: 17
-children: 188, 189
+children: 188, 189, 261, 262, 263
 en.name: Daizu
 en.nicknames: none
 en.othernames: none
@@ -11,4 +11,6 @@ jp.name: ダイズ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 86, 87
+species: 2
 zoo: 53

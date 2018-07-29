@@ -1,8 +1,8 @@
 [panda]
 _id: 263
-birthday: unknown
-birthplace: unknown
-children: unknown
+birthday: 2015/6/29
+birthplace: 53
+children: none
 en.name: Suzu
 en.nicknames: none
 en.othernames: none
@@ -11,4 +11,6 @@ jp.name: 須々
 jp.nicknames: none
 jp.othernames: スズ
 language.order: jp, en
+litter: 261, 262
+species: 2
 zoo: 58
