@@ -13,6 +13,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
-photo.1: http://www.city.ichikawa.lg.jp/common/000222386.JPG
+photo.1: https://www.instagram.com/p/BCZui-wwZ_9/media/?size=m
+photo.1.author: rio_minron
+photo.1.link: https://www.instagram.com/rio_minron/
+photo.2: https://www.instagram.com/p/BBhmygoQZ2k/media/?size=m
+photo.2.author: rio_minron
+photo.2.link: https://www.instagram.com/rio_minron/
+photo.3: http://www.city.ichikawa.lg.jp/common/000222386.JPG
+photo.3.author: ichikawa.zoo
+photo.3.link: http://www.city.ichikawa.lg.jp/zoo/index.html
 species: 2
 zoo: 1

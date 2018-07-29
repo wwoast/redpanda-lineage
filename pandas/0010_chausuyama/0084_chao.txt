@@ -11,10 +11,21 @@ jp.name: チャオ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/BiZbxaxl3au/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.2: https://www.instagram.com/p/BkPoLKMFQtY/media/?size=m
 photo.2.author: 218_yu
 photo.2.link: https://www.instagram.com/218_yu/
+photo.3: https://www.instagram.com/p/BZe-BiWFtA6/media/?size=m
+photo.3.author: kobastudio
+photo.3.link: https://www.instagram.com/kobastudio/
+photo.4: https://www.instagram.com/p/BTfKLtRgRND/media/?size=m
+photo.4.author: _natus_panda_
+photo.4.link: https://www.instagram.com/_natsu_panda_/
+photo.5: https://www.instagram.com/p/BLuAyd2jyYI/media/?size=m
+photo.5.author: no_life_no_zoo
+photo.5.link: https://www.instagram.com/no_life_no_zoo/
+species: 2
 zoo: 10

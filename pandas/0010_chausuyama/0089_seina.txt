@@ -12,6 +12,7 @@ jp.name: 星奈
 jp.nicknames: none
 jp.othernames: セイナ
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/BO8BNSOjBoO/media/?size=m
 photo.1.author: no_life_no_zoo
 photo.1.link: https://www.instagram.com/no_life_no_zoo/
@@ -21,4 +22,5 @@ photo.2.link: https://www.instagram.com/takashi_8310iyo/
 photo.3: https://www.instagram.com/p/BQh1KAtDeme/media/?size=m
 photo.3.author: rdpnzoo
 photo.3.link: https://www.instagram.com/rdpnzoo/
+species: 2
 zoo: 10
