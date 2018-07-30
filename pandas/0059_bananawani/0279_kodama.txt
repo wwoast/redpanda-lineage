@@ -1,0 +1,17 @@
+[panda]
+_id: 279
+birthday: 2017/7/8
+birthplace: unknown
+children: none
+death: unknown
+en.name: Kodama
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: つばさ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 277, 278
+species: 1
+zoo: 59

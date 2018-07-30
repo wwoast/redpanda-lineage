@@ -1,0 +1,16 @@
+[panda]
+_id: 273
+birthday: 2009/7/12
+birthplace: unknown
+children: unknown
+en.name: Cinnamon
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シナモン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 1
+zoo: 59
