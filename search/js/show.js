@@ -39,16 +39,25 @@ $(function() {
   }, 3000);
 
   $('#searchForm').submit(function() {
-    $('#searchEntry').blur();   // Make iOS keyboard disappear after submitting
-    var query = $('#searchEntry').val().trim();
+    $('#searchForm').blur();   // Make iOS keyboard disappear after submitting
+    var query = $('#searchInput').val().trim();
     var results = [];
     // TODO: Remove or escape any search processing characters here like commas
     // Allow searches using special characters like #. The escape function doesn't
     // support unicode, so use encodeURI instead.
     query = encodeURI(query);
-    results = Pandas.searchPandaName(query);
+    window.location = "#" + query;
   });
 });
+
+/*
+    When the URL #hash changes, process it as a change in the search
+    text and present new content.
+*/
+window.addEventListener('hashchange', function() {
+  window.alert(this.window.location.hash);
+});
+
 
 /*
     Presentation logic
