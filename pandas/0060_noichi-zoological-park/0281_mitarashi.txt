@@ -1,0 +1,16 @@
+[panda]
+_id: 281
+birthday: 2013/6/25
+birthplace: 35
+children: 282
+en.name: Mitarashi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: みたらし
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 2
+zoo: 60

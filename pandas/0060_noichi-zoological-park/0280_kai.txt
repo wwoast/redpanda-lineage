@@ -1,0 +1,16 @@
+[panda]
+_id: 280
+birthday: 2008/6/16
+birthplace: 1
+children: none
+en.name: Kai
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 12
+species: 2
+zoo: 60
