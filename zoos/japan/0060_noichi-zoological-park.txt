@@ -1,0 +1,10 @@
+[zoo]
+_id: 60
+en.address: 738 大谷 野市町 Konan, Kōchi Prefecture 781-5233, Japan
+en.location: Konan, Kōchi Prefecture, Japan
+en.name: Noichi Zoological Park of Kochi Prefecture
+jp.address: unknown
+jp.location: 香南市 高知県
+jp.name: 高知県立のいち動物公園
+language.order: jp, en
+website: http://www.noichizoo.or.jp/
