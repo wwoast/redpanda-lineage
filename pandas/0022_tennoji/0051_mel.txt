@@ -11,6 +11,7 @@ jp.name: メル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 284
 photo.1: https://www.instagram.com/p/Bk_N3cSF5Rp/media/?size=m
 photo.1.author: tokkoo0524
 photo.1.link: https://www.instagram.com/tokkoo0524/
@@ -26,4 +27,5 @@ photo.4.link: https://www.instagram.com/bubbles_octi/
 photo.5: https://www.instagram.com/p/BhGo4WVA2pi/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.link: https://www.instagram.com/daniele.tokyo/
+species: 2
 zoo: 22
