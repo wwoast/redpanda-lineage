@@ -1,16 +1,16 @@
 [panda]
-_id: 279
-birthday: 2005/7/1
-birthplace: unknown
+_id: 281
+birthday: 2008/6/16
+birthplace: 1
 children: none
 en.name: Kai
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: m
 jp.name: カイ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 12
 species: 2
 zoo: 60
