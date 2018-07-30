@@ -1,0 +1,16 @@
+[panda]
+_id: 267
+birthday: 2014/6/29
+birthplace: unknown
+children: none
+en.name: Kuu
+en.nicknames: none
+en.othernames: Qoo
+gender: f
+jp.name: くう
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 1
+zoo: 59

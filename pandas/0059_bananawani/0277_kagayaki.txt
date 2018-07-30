@@ -1,0 +1,16 @@
+[panda]
+_id: 277
+birthday: 2017/7/8
+birthplace: unknown
+children: unknown
+en.name: Kagayaki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: かがやき
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 278, 279
+species: 1
+zoo: 59
