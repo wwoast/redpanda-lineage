@@ -1,0 +1,10 @@
+[zoo]
+_id: 59
+en.address: 1253-10 Naramoto, Higashiizu, Kamo District, Shizuoka Prefecture 413-0302, Japan
+en.location: Higashiizu-cho, Kamo, Shizuoka Prefecture, Japan
+en.name: Atagawa Tropical & Alligator Garden
+jp.address: unknown
+jp.location: 東伊豆町 賀茂郡 静岡県
+jp.name: 熱川バナナワニ園
+language.order: jp, en
+website: http://bananawani.jp/
