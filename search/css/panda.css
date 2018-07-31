@@ -109,7 +109,7 @@ div.pandaTitle, div.zooTitle {
     padding-left: 12px;
 }
 
-div.pandaName, div.zooName {
+div.pandaName, div.zooName, div.gender {
     display: inline-block;
     vertical-align: top;
     font-size: 22pt;
@@ -117,8 +117,8 @@ div.pandaName, div.zooName {
     padding: 0 0 0 0;
 }
 
-div.pandaName {
-    word-spacing: -0.3ex; /* Spacing between gender and name */
+div.gender {
+    margin-right: 0.3ex;
 }
 
 /* When timelines and edit modes are ready */
