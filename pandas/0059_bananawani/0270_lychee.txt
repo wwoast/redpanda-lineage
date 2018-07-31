@@ -12,5 +12,20 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: unknown
+photo.1: https://www.instagram.com/p/Bk93WJnlNlu/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2: https://www.instagram.com/p/BbE8eaChv9-/media/?size=m
+photo.2.author: sueyoshinoriko
+photo.2.link: https://www.instagram.com/sueyoshinoriko/
+photo.3: https://www.instagram.com/p/BhoHSDdFt6f/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4: https://www.instagram.com/p/BbItkStBiBT/media/?size=m
+photo.4.author: sueyoshinoriko
+photo.4.link: https://www.instagram.com/sueyoshinoriko/
+photo.5: https://www.instagram.com/p/BYAjHATg2Le/media/?size=m
+photo.5.author: ryumin89
+photo.5.link: https://www.instagram.com/ryumin89/
 species: 1
 zoo: 59
