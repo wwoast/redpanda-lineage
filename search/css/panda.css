@@ -111,20 +111,8 @@ div.pandaTitle, div.zooTitle {
 div.pandaName, div.zooName {
     display: inline-block;
     vertical-align: top;
-    font-size: 22pt;
-}
-
-div.zooName {
     padding-left: 18px;
-}
-
-div.pandaGender {
-    display: inline-block;
-    vertical-align: top;
     font-size: 22pt;
-    padding-left: 18px;
-    padding-right: 0px;
-    margin: 0 0 0 0;
 }
 
 /* When timelines and edit modes are ready */
@@ -290,11 +278,6 @@ button.menu div.text {
         text-align: center;
     }
 
-    div.pandaGender {
-        margin: 0 0 0 0;
-        padding: 0 0 0 0;
-    }
-
     div.pandaDossier, div.zooDossier {
         display: block;
         border: 0px solid;
@@ -318,8 +301,8 @@ button.menu div.text {
         margin-left: 14px;
     }
 
-    div.zooName {
-        padding-left: 14px;
+    div.pandaName, div.zooName {
+        padding-left: 8px;
         padding-right: 8px;
     }
 
