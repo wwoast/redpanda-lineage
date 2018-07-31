@@ -106,7 +106,7 @@ div.pandaTitle, div.zooTitle {
     min-width: 300px;
     min-height: 32pt;
     background-color: yellowgreen;
-    padding-left: 18px;
+    padding-left: 12px;
 }
 
 div.pandaName, div.zooName {
@@ -115,6 +115,10 @@ div.pandaName, div.zooName {
     font-size: 22pt;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}
+
+div.pandaName {
+    word-spacing: -0.3ex; /* Spacing between gender and name */
 }
 
 /* When timelines and edit modes are ready */
