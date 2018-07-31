@@ -302,8 +302,8 @@ button.menu div.text {
     }
 
     div.pandaName, div.zooName {
-        padding-left: 8px;
-        padding-right: 8px;
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     div.parents h3, div.litter h3, div.siblings h3, div.parents h4, div.litter h4, div.siblings h4 {
