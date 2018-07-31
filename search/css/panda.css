@@ -123,7 +123,8 @@ div.pandaGender {
     vertical-align: top;
     font-size: 22pt;
     padding-left: 18px;
-    padding-right: 8px;
+    padding-right: 0px;
+    margin: 0 0 0 0;
 }
 
 /* When timelines and edit modes are ready */
@@ -290,10 +291,8 @@ button.menu div.text {
     }
 
     div.pandaGender {
-        margin-left: 0px;
-        margin-right: 8px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
     }
 
     div.pandaDossier, div.zooDossier {
