@@ -79,6 +79,36 @@ div.pandaResult, div.zooResult {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
+div.emptyResult {
+    display: table;
+    position: relative;
+    clear: both;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+    vertical-align: middle;
+}
+
+div.emptyResult img {
+    width: 800px;
+    max-width: 100%;
+}
+
+div.emptyResult div.text {
+    position: absolute;
+    font-size: 22pt;
+    color: white;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
 div.pandaPhoto, div.zooPhoto {
     display: table-cell;
     vertical-align: middle;
@@ -259,7 +289,7 @@ button.menu div.text {
         margin: 0 0 0 0;
     }
 
-    div.pandaResult, div.zooResult {
+    div.pandaResult, div.zooResult, div.emptyResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
         border: 0px solid;
@@ -285,7 +315,6 @@ button.menu div.text {
     }
 
     div.pandaName {
-        margin-left: 8px;
         margin-right: 13px; /* Kerning issue with Male/Female symbols */
     }
 
