@@ -276,8 +276,8 @@ button.menu div.text {
     }
 
     div.pandaTitle, div.zooTitle {
-        width: 100%;
         text-align: center;
+        padding: 0 0 0 0;
     }
 
     div.pandaName, div.zooName {
