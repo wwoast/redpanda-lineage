@@ -141,14 +141,18 @@ div.pandaTitle, div.zooTitle {
 
 div.pandaName, div.zooName, div.gender {
     display: inline-block;
-    vertical-align: top;
     font-size: 22pt;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    vertical-align: middle;
 }
 
 div.gender {
-    margin-right: 0.3ex;
+    margin-right: 0.4ex;
+}
+
+div.gender img {
+    height: 18pt;
 }
 
 /* When timelines and edit modes are ready */
