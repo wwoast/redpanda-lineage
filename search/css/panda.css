@@ -147,10 +147,6 @@ div.pandaName, div.zooName, div.gender {
     vertical-align: middle;
 }
 
-div.pandaName {
-    margin-right: 0.3ex;
-}
-
 div.gender {
     margin-right: 0.5ex;
 }
@@ -163,7 +159,7 @@ div.gender img {
 div.storyMenu, div.editMenu {
     display: inline-block;
     font-size: 22pt;
-    margin-right: 0.3ex;
+    margin-left: 0.2ex;
     vertical-align: middle;
 }
 
@@ -330,13 +326,8 @@ button.menu div.text {
 	    margin-left: 0.5ex;
     }
 
-    div.pandaName {
-        margin-right: 0.3ex;
-    }
-
     div.storyMenu, div.editMenu {
-        padding-right: 0px;
-        margin-right: 0.3ex;
+        margin-left: 0.2ex;
     }
 
     div.zooName {
