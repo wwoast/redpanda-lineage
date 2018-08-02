@@ -214,7 +214,7 @@ div.bottomMenu {
     display: table;
     min-height: 32px;
     text-align: center;
-    height: 8%;
+    height: 8vh;
     max-height: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -237,6 +237,7 @@ button.menu {
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
+    height: 8vh;
 }
 
 button.menu:hover {
@@ -358,6 +359,7 @@ button.menu div.text {
 
     button.menu {
         width: 80px;
+        height: auto;
     }
 
     button.menu div.icon {
