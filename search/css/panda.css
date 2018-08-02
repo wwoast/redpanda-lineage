@@ -16,7 +16,7 @@ div.topSearch {
     display: table;
     text-align: center;
     vertical-align: middle;
-    height: 8vh;
+    height: 64px;
     background-color: white;
     font-family: "Jun 201", sans-serif;
     width: 100%;
@@ -40,7 +40,7 @@ input[type='text'] {
 }
 
 input.search {
-    font-size: 7vh;
+    font-size: 38pt;
     width: 100%;
     border: 0px solid;
     margin: 0 0 0 0;
@@ -56,7 +56,7 @@ input.search::placeholder {
 }
 
 img.fullFrame {
-    height: 84vh;
+    height: calc(100% - 128px);
     width: 100%;
     object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
     opacity: 0.4;
@@ -212,7 +212,7 @@ ul.pandaList li.passedAway {
 div.bottomMenu {
     display: table;
     text-align: center;
-    height: 7.5vh;
+    height: 64px;
     margin-left: auto;
     margin-right: auto;
     color: white;
@@ -235,7 +235,7 @@ button.menu {
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
-    height: 7.5vh;
+    height: 64px;
 }
 
 button.menu:hover {
@@ -282,10 +282,6 @@ button.menu div.text {
         padding-left: 4px;
         padding-bottom: 0vh;
         margin: 0 0 0 0;
-    }
-
-    img.fullFrame {
-        height: 82.3vh;
     }
 
     div.pandaResult, div.zooResult, div.emptyResult {
