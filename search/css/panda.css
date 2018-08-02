@@ -136,7 +136,7 @@ div.pandaTitle, div.zooTitle {
     min-width: 300px;
     min-height: 32pt;
     background-color: yellowgreen;
-    padding-left: 12px;
+    padding-left: 18px;
 }
 
 div.pandaName, div.zooName, div.gender {
@@ -148,7 +148,7 @@ div.pandaName, div.zooName, div.gender {
 }
 
 div.gender {
-    margin-right: 0.4ex;
+    margin-right: 0.5ex;
 }
 
 div.gender img {
