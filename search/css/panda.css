@@ -318,8 +318,11 @@ button.menu div.text {
         padding: 0 0 0 0;
     }
 
+    div.gender {
+	margin-left: 8px;
+    }
+
     div.pandaName {
-        margin-left: 8px;
         margin-right: 8px;
     }
 
