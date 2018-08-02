@@ -319,7 +319,8 @@ button.menu div.text {
     }
 
     div.pandaName {
-        margin-right: 13px; /* Kerning issue with Male/Female symbols */
+        margin-left: 8px;
+        margin-right: 8px;
     }
 
     div.zooName {
