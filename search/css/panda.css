@@ -16,12 +16,12 @@ div.topSearch {
     display: table;
     text-align: center;
     vertical-align: middle;
-    min-height: 32px;
-    height: 8%;
-    max-height: 100px;
+    height: 8vh;
     background-color: white;
     font-family: "Jun 201", sans-serif;
     width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 div.shrinker {
@@ -40,12 +40,11 @@ input[type='text'] {
 }
 
 input.search {
-    padding-top: 0px;
-    font-size: 8vh;
-    margin-top: 0.1vh;
-    margin-bottom: 0.1vh;
+    font-size: 7vh;
     width: 100%;
     border: 0px solid;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 input#searchSubmit {
@@ -57,7 +56,7 @@ input.search::placeholder {
 }
 
 img.fullFrame {
-    height: 80%;
+    height: 84vh;
     width: 100%;
     object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
     opacity: 0.4;
@@ -212,16 +211,15 @@ ul.pandaList li.passedAway {
 
 div.bottomMenu {
     display: table;
-    min-height: 32px;
     text-align: center;
-    height: 8vh;
-    max-height: 100px;
+    height: 7.5vh;
     margin-left: auto;
     margin-right: auto;
     color: white;
     background-color: #366938;
     font-family: "Jun 201", sans-serif;
     width: 100%;
+    vertical-align: middle;
 }
 
 @keyframes activate {
@@ -237,7 +235,7 @@ button.menu {
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
-    height: 8vh;
+    height: 7.5vh;
 }
 
 button.menu:hover {
@@ -284,6 +282,10 @@ button.menu div.text {
         padding-left: 4px;
         padding-bottom: 0vh;
         margin: 0 0 0 0;
+    }
+
+    img.fullFrame {
+        height: 82.3vh;
     }
 
     div.pandaResult, div.zooResult, div.emptyResult {
