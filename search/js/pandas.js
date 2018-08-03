@@ -268,10 +268,10 @@ Pandas.searchPandaField = function(query, field) {
   return nodes;
 }
 
-// Find a panda by id number
+// Find a single panda by id number
 Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
-  return node;
+  return node[0];
 }
 
 // Find a panda's direct litter
@@ -305,7 +305,7 @@ Pandas.searchSiblings = function(idnum) {
 // Zoos are stored with negative numbers, but are tracked in the database by
 // their positive ID numbers. So convert the ID before searching
 Pandas.searchZooId = function(idnum) {
-  var node = G.v(str(int(idnum) * -1)).run();
+  var node = G.v((parseInt(idnum) * -1).toString()).run();
   return node;
 }
 
@@ -334,21 +334,21 @@ Pandas.age = function(animal, language) {
   // Otherwise, print the age in terms of months and years, up to two years,
   // where you should just print the age in years.
   if (age_days < 2) {
-    return str(age_days) + " " + Pandas.def.age[language]['day'];
+    return age_days.toString() + " " + Pandas.def.age[language]['day'];
   } else if (age_days <= 100) {
-    return str(age_days) + " " + Pandas.def.age[language]['days'];
+    return age_days.toString() + " " + Pandas.def.age[language]['days'];
   } else if (age_days <= 365) {
-    return str(age_months) + " " + Pandas.def.age[language]['months'];
+    return age_months.toString() + " " + Pandas.def.age[language]['months'];
   } else if (age_days <= 395) {
     return "1" + " " + Pandas.def.age[language]['year'];
   } else if (age_days <= 425) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           str(age_months) + Pandas.def.age[language]['month'];
+           age_months.toString() + Pandas.def.age[language]['month'];
   } else if (age_days <= 730) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           str(age_months) + Pandas.def.age[language]['months'];
+           age_months.toString() + Pandas.def.age[language]['months'];
   } else {
-    return age_years + " " + Pandas.def.age[language]['years'];
+    return age_years.toString() + " " + Pandas.def.age[language]['years'];
   }
 }
 
@@ -431,8 +431,8 @@ Pandas.profilePhoto = function(animal, index) {
   }, {});
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
-  var choice = "photos." + str(index); 
-  if (photos.indexOf(choice) == -1) {
+  var choice = "photos." + index.toString(); 
+  if (photos[choice] != undefined) {
     var space = Object.keys(photos).length;
     var index = Math.floor(Math.random() * space) + 1;
     choice = Object.keys(photos)[index];

@@ -55,7 +55,10 @@ $(function() {
     text and present new content.
 */
 window.addEventListener('hashchange', function() {
-  window.alert(this.window.location.hash);
+  var query = this.window.location.hash.slice(1);
+
+  // Start by just displaying info for one panda by id search
+  Show.bootstrap(query);
 });
 
 
@@ -123,7 +126,7 @@ Show.acquirePandaInfo = function(animal, language) {
   var zoo = Pandas.myLocation(animal, "zoo", language);
   // Create links to direct family and zoos
   var dad_link = Show.goLink(dad['_id'], "panda", dad[name]);
-  var mom_link = Show.goLink(mom['_id'], "panda", dad[name]);
+  var mom_link = Show.goLink(mom['_id'], "panda", mom[name]);
   var sib_links = siblings.map(x => Show.goLink(x['_id'], "panda", x[name]));
   var zoo_link = Show.goLink(zoo['_id'], "zoo", zoo[name]);
   return {
@@ -289,11 +292,10 @@ Show.pandaResults = function(animals, slip_in) {
   }
 
   // TODO: Get and display all info for this panda
-
 }
 
 // Test function. Just search an ID, and show results
 Show.bootstrap = function(id) {
   var animal = Pandas.searchPandaId(id);
-  return Show.pandaResults(animal);
+  return Show.pandaInformation(animal, "no slip-in", "en");
 }
