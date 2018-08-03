@@ -97,7 +97,7 @@ div.emptyResult img {
     max-width: 100%;
 }
 
-div.emptyResult div.text {
+div.emptyResult div.overlay {
     position: absolute;
     font-size: 22pt;
     color: white;

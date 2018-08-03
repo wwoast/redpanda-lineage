@@ -111,6 +111,12 @@ Show.flags = {
      "USA": "🇺🇸"
 }
 
+Show.no_result = {
+  "cn": "沒有發現熊貓",
+  "en": "No Pandas Found",
+  "jp": "パンダが見つかりません"
+}
+
 
 /*
     Presentation-level data, separated out from final website layout
@@ -135,6 +141,7 @@ Show.acquirePandaInfo = function(animal, language) {
      "birthplace": Pandas.myLocation(animal, "birthplace", language),
           "death": Pandas.date(animal, "death", language),
             "dad": dad_link,
+         "gender": Pandas.gender(animal, language),
             "mom": mom_link,
            "name": Pandas.myName(animal, language),
           "photo": Pandas.profilePhoto(animal, "random"),
@@ -220,38 +227,49 @@ Show.renderDates = function(animal, language) {
 /*
     Displayed output in the webpage
 */
+Show.displayGender = function(gender) {
+  var img = document.createElement('img');
+  if (gender in Pandas.def.gender.Male) {
+    img.src = "images/male.svg";
+  } else if (gender in Pandas.def.gender.Female) {
+    img.src = "images/female.svg";
+  } else {
+    img.src = "images/unknown.svg";
+  }
+  img.alt = gender;
+  var div = document.createElement('div');
+  div.className = "gender";
+}
+
 // If the media exists for a panda, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
-Show.displayMedia = function(frame_type, media_type, index) {
-  // Empty condition here ---
-  // Display condition here ---
-  return null;  // TODO
+Show.displayPhoto = function(uri, frame_class) {
+  var image = document.createElement('img');
+  image.src = uri;
+  var div = document.createElement('div');
+  div.class = frame_class;
+  div.appendChild(image);
+  return div;
 }
 
-// If the index'th photo in the panda or zoo data is missing,
-// create a placeholder frame with style "frame_type".
-Show.emptyMedia = function(frame_type, media_type, index) {
-  var missing_field = media_type + "." + index;
-  var missing_uri = Pandas.def.animal[missing_field];
-  var alt_text = missing_field + " not found";
-  var contents = document.createElement('img');
-  contents.src = missing_uri;
-  contents.alt = alt_text;
-  var result = document.createElement('div');
-  result.className = frame_type;
-  result.appendChild(contents);
-  return result;
+Show.displayTitle = function(name, gender) {
+  <div class="pandaTitle">
+  <div class="gender"><img src="images/female.svg" alt="female" /></div><div class="pandaName">Kinta</div>
+</div>
 }
 
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
 Show.nullInformation = function(language) {
-  var name = language + ".name";
-  var message = document.createElement('p');
-  message.textContent = Pandas.def.animal[name];
+  var message = document.createElement('div');
+  message.className = 'overlay';
+  message.innerText = Show.no_result[language];
+  var image = document.createElement('img');
+  image.src = "images/no-panda.jpg";
   var result = document.createElement('div');
-  result.class = "nullInformation";
+  result.className = 'emptyResult';
+  result.appendChild(image);
   result.appendChild(message);
   return result;
 }
@@ -262,15 +280,30 @@ Show.nullInformation = function(language) {
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, slip_in, language) {
+/*
+<div class="pandaResult">
+  <div class="pandaDossier">
+    <div class="pandaTitle">
+      <div class="gender"><img src="images/female.svg" alt="female" /></div><div class="pandaName">Kinta</div>
+    </div>
+    <div class="pandaDetails">
+      <p>👼 2000/6/8</p>
+      <p>🌈 2018/6/11</p>
+      <p>🏡 Nogeyama Zoo</p>
+      <p>🗺️ Nogeyama, Yokohama 🇯🇵</p>
+      <p>📷 redpanda_nippon_takashi</p>
+    </div>
+    <div class="family">
+    </div><!-- family -->
+  </div><!-- pandaDossier -->
+</div> <!-- pandaResult -->
+*/
   var info = Show.acquirePandaInfo(animal, language);
   var name = language + ".name";
 
-  // TODO: arrange the info in divs. Use emojis instead of words when possible
-  // Display any avilable data about the panda
-  // Its names in different languages, its gender and age
-  // Links to its parents and children, which are listed by name
-  // Hide a section where more media can be displayed, but pre-compute what it all looks like
+  var photo = Show.displayPhoto(info.photo, 'pandaPhoto')
 
+  
   var message = document.createElement('p');
   message.textContent = animal[name] + " (" + slip_in + ")";
   var dates = document.createElement('p');
@@ -297,5 +330,5 @@ Show.pandaResults = function(animals, slip_in) {
 // Test function. Just search an ID, and show results
 Show.bootstrap = function(id) {
   var animal = Pandas.searchPandaId(id);
-  return Show.pandaInformation(animal, "no slip-in", "en");
+  return Show.pandaInformation(animal, undefined, "en");
 }
