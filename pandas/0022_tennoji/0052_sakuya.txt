@@ -11,6 +11,7 @@ jp.name: 咲弥
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 118
 photo.1: https://www.instagram.com/p/BgOHmDoFsRx/media/?size=m
 photo.1.author: motohin
 photo.1.link: https://www.instagram.com/motohin/
@@ -26,4 +27,5 @@ photo.4.link: https://www.instagram.com/makimaru18/
 photo.5: https://www.instagram.com/p/Bjq7b3Wlm6x/media/?size=m
 photo.5.author: makimaru18
 photo.5.link: https://www.instagram.com/makimaru18/
+species: 2
 zoo: 22
