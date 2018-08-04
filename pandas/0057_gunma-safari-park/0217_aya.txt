@@ -1,8 +1,9 @@
 [panda]
 _id: 217
 birthday: 2006/6/5  
-birthplace: unknown
-children: unknown
+birthplace: 18
+children: 61
+death: 2016/10/6
 en.name: Aya
 en.nicknames: none
 en.othernames: none
@@ -11,4 +12,5 @@ jp.name: 彩
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+species: 2
 zoo: 57
