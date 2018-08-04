@@ -12,4 +12,5 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 260
-zoo: 42
+species: 2
+zoo: 62

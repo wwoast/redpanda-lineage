@@ -3,6 +3,7 @@ _id: 229
 birthday: 2002/7/15
 birthplace: 17
 children: 190, 224
+death: unknown
 en.name: Nono
 en.nicknames: none
 en.othernames: none
@@ -11,4 +12,6 @@ jp.name: ノノ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 13
+species: 2
 zoo: 37

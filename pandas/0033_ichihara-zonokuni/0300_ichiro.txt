@@ -1,15 +1,16 @@
 [panda]
-_id: 218
-birthday: 2003/7/3  
-birthplace: 60
-children: 61
-en.name: Taiyo
+_id: 300
+birthday: 2014/7/6 
+birthplace: unknown
+children: none
+en.name: Ichiro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: 太陽
+jp.name: 一路
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 species: 2
-zoo: 57
+zoo: 33

@@ -2,7 +2,7 @@
 _id: 68
 birthday: 2006/5/30 
 birthplace: 30 
-children: 70
+children: 140, 70, 301
 en.name: Ribbon
 en.nicknames: none 
 en.othernames: none
