@@ -1,0 +1,16 @@
+[panda]
+_id: 294
+birthday: 2016/6/22
+birthplace: 64
+children: none
+en.name: Asunaro
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アスナロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 295
+species: 2
+zoo: 64
