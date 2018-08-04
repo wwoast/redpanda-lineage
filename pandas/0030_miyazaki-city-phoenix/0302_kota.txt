@@ -1,0 +1,16 @@
+[panda]
+_id: 302
+birthday: 2012/8/2
+birthplace: 42
+children: unknown
+en.name: Kota
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 2
+zoo: 30
