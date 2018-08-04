@@ -381,7 +381,7 @@ Pandas.field = function(animal, field) {
 // Given an animal and a language, return the proper gender string.
 Pandas.gender = function(animal, language) {
   var gender = animal["gender"];
-  return gender == "undefined" ? Pandas.def.unknown[launguage] 
+  return gender == "undefined" ? Pandas.def.unknown[language] 
                                : Pandas.def.gender[gender][language];
 }
 
@@ -416,11 +416,16 @@ Pandas.othernames = function(animal, language) {
 Pandas.profilePhoto = function(animal, index) {
   // Find the available photo indexes between one and five
   var photos = {
-    "photo.1": Pandas.field(animal, "photo.1"),
-    "photo.2": Pandas.field(animal, "photo.2"),
-    "photo.3": Pandas.field(animal, "photo.3"),
-    "photo.4": Pandas.field(animal, "photo.4"),
-    "photo.5": Pandas.field(animal, "photo.5")
+     "photo.1": Pandas.field(animal,  "photo.1"),
+     "photo.2": Pandas.field(animal,  "photo.2"),
+     "photo.3": Pandas.field(animal,  "photo.3"),
+     "photo.4": Pandas.field(animal,  "photo.4"),
+     "photo.5": Pandas.field(animal,  "photo.5"),
+     "photo.6": Pandas.field(animal,  "photo.6"),
+     "photo.7": Pandas.field(animal,  "photo.7"),
+     "photo.8": Pandas.field(animal,  "photo.8"),
+     "photo.9": Pandas.field(animal,  "photo.9"),
+    "photo.10": Pandas.field(animal, "photo.10")
   }
   // Filter out any keys that have the default value
   photos = Object.keys(photos).reduce(function(filtered, key) {
@@ -437,8 +442,15 @@ Pandas.profilePhoto = function(animal, index) {
     var index = Math.floor(Math.random() * space) + 1;
     choice = Object.keys(photos)[index];
   }
-  return photos[choice];
+  // Return not just the chosen photo but the author and link as well
+  var desired = {
+     "photo": photos[choice],
+    "credit": animal[choice + ".author"],
+      "link": ainmal[choice + ".link"]
+  }
+  return desired;
 }
+ 
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.
 Pandas.zooName = function(zoo, language) {

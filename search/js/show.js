@@ -129,6 +129,7 @@ Show.acquirePandaInfo = function(animal, language) {
   var mom = Pandas.searchPandaMom(animal["_id"]);
   var siblings = Pandas.searchSiblings(animal["_id"]);
   var zoo = Pandas.myLocation(animal, "zoo", language);
+  var picture = Pandas.profilePhoto(animal, "random");
   // Create links to direct family and zoos
   var dad_link = Show.goLink(dad['_id'], "panda", dad[name]);
   var mom_link = Show.goLink(mom['_id'], "panda", mom[name]);
@@ -144,7 +145,9 @@ Show.acquirePandaInfo = function(animal, language) {
             "mom": mom_link,
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
-          "photo": Pandas.profilePhoto(animal, "random"),
+          "photo": picture.photo,
+   "photo_credit": picture.author,
+     "photo_link": picture.link,
        "siblings": sib_links,
        "zoo_link": zoo_link
   }
@@ -201,29 +204,6 @@ Show.inLink = function(input, type, text) {
   }
 }
 
-// Render a born / died / age string out of emojis. Not all browsers
-// support emoji rendering consistently, so we might need to render
-// images instead.
-Show.renderDates = function(animal, language) {
-  var dates = [];
-  var birthday = Pandas.date(animal, "birthday", language);
-  if (birthday != Pandas.def.animal.birthday) {
-    dates.push(Show.emoji.born);
-    dates.push(birthday);
-  }
-  var death = Pandas.date(animal, "death", language);
-  if (death != Pandas.def.animal.death) {
-    dates.push(Show.emoji.arrow);
-    dates.push(Show.emoji.death);
-    dates.push(death);
-  }
-  var age = Pandas.age(animal, language);
-  if ( age != Pandas.def.unknown[language]) {
-    dates.push(age);
-  }
-  return dates.join(' ');
-}
-
 /*
     Displayed output in the webpage
 */
@@ -258,12 +238,45 @@ Show.displayGender = function(info) {
   div.className = "gender";
 }
 
+// The dossier of information for a single panda
+Show.displayPandaDetails = function(info) {
+  var born = document.createElement('p');
+  born.innerText = Show.emoji.born + " " + info.born;
+  // If still alive, print their current age
+  var second = document.createElement ('p');
+  if (info.death == Pandas.def.unknown[language]) {
+    second.innerText = "(" + info.age + ")";
+  } else {
+    second.innerText = Show.emoji.died + " " + info.death;
+  }
+  var zoo = document.createElement('p');
+  zoo.innerText = Show.emoji.home + " " + info.zoo;
+  var location = document.createElement('p');
+  // TODO: replace country words with flags
+  location.innerText = Show.emoji.map + " " + info.location;
+  var credit_link = document.createElement('a');
+  credit_link.href = info.photo_link;
+  credit_link.innerText = info.photo_credit;
+  credit.innerText = Show.emoji.camera + " " + info.photo_credit;
+  var credit  = document.createElement ('p');
+  credit.appendChild(credit_link);
+  var details = document.createElement('div');
+  details.className = "pandaDetails";
+  details.appendChild(born);
+  details.appendChild(second);
+  details.appendChild(zoo);
+  details.appendChild(location);
+  details.appendChild(credit_link);
+  return details;
+}
+
 // Will this break if the nodes are done on their own indent? :(
 Show.displayPandaTitle = function(info, language) {
   var gender = Show.displayGender(info);
   var name_div = document.createElement('div');
   name_div.className = 'pandaName';
   // In Japanese, display the first "othername" as furigana
+  // TODO: separate text class and node for furigana text
   if (language == "jp") {
     name_div.innerText = info.name + "(" + info.othernames[0] + ")"
   } else {
@@ -274,20 +287,7 @@ Show.displayPandaTitle = function(info, language) {
   div.appendChild(gender);
   div.appendChild(name);
   return div;
-}
-  
-Show.displayPandaDetails = function(info) {
-/*
-<div class="pandaDetails">
-  <p>👼 2000/6/8</p>
-  <p>🌈 2018/6/11</p>
-  <p>🏡 Nogeyama Zoo</p>
-  <p>🗺️ Nogeyama, Yokohama 🇯🇵</p>
-  <p>📷 redpanda_nippon_takashi</p>
-</div>
-*/
-  
-}
+}  
 
 // If the media exists for a panda, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
@@ -301,43 +301,24 @@ Show.displayPhoto = function(info, frame_class) {
   return div;
 }
 
-
 // Display a text dossier of information for a panda. Most missing
 // elements should not be displayed, but a few should be printed 
 // regardless, such as birthday / time of death. 
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, slip_in, language) {
-/*
-<div class="pandaResult">
-  <div class="pandaDossier">
-    <div class="pandaDetails">
-      <p>👼 2000/6/8</p>
-      <p>🌈 2018/6/11</p>
-      <p>🏡 Nogeyama Zoo</p>
-      <p>🗺️ Nogeyama, Yokohama 🇯🇵</p>
-      <p>📷 redpanda_nippon_takashi</p>
-    </div>
-    <div class="family">
-    </div><!-- family -->
-  </div><!-- pandaDossier -->
-</div> <!-- pandaResult -->
-*/
   var info = Show.acquirePandaInfo(animal, language);
-  var name = language + ".name";
-
-  var photo = Show.displayPhoto(info.photo, 'pandaPhoto');
-  var title = Show.displayPandaTitle(info.name, info.gender, language);
-
-  
-  var message = document.createElement('p');
-  message.textContent = animal[name] + " (" + slip_in + ")";
-  var dates = document.createElement('p');
-  dates.textContent = Show.renderDates(animal, language);
-  var parents = document.createElement('p');   // TODO: CSS and wireframing
-
+  var photo = Show.displayPhoto(info, 'pandaPhoto');
+  var title = Show.displayPandaTitle(info, language);
+  var details = Show.displayPandaDetails(info); 
+  // TODO: family details
+  var dossier = document.createElement('div');
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  // dossier.appendChild(family);
   var result = document.createElement('div');
-  result.appendChild(message);
+  result.appendChild(photo);
+  result.appendChild(dossier);
   return result; 
 }
 
