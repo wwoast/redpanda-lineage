@@ -283,7 +283,8 @@ div.footer {
 }
 
 div.footer p {
-    margin: 0 0 0 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-top: 1ex;
     padding-bottom: 1ex;
     margin-left: 14px;
@@ -406,6 +407,10 @@ a.emojiLink {
 
     div.footer {
         text-align: left;
+    }
+
+    div.footer p {
+        margin-left: 8px;
     }
 
     a.emojiLink {
