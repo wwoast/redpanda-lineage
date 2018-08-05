@@ -330,6 +330,13 @@ Pandas.searchZooId = function(idnum) {
 }
 
 /*
+    Methods for sorting the output of Panda searches (TODO: document)
+*/
+Pandas.sortByAge = function(nodes) {
+  return nodes;
+}
+
+/*
     Getters and formatters for Red Panda details, with sensible defaults
 */
 // Given an animal's birthday, return their age up to today or the day they died.
@@ -434,7 +441,7 @@ Pandas.othernames = function(animal, language) {
 // Given an animal, choose a single photo to display as its profile photo.
 // The index can be a number between 1 and 5, or it can be "random".
 Pandas.profilePhoto = function(animal, index) {
-  // Find the available photo indexes between one and five
+  // Find the available photo indexes between one and ten
   var photos = {
      "photo.1": Pandas.field(animal,  "photo.1"),
      "photo.2": Pandas.field(animal,  "photo.2"),
@@ -470,7 +477,6 @@ Pandas.profilePhoto = function(animal, index) {
   }
   return desired;
 }
- 
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.
 Pandas.zooName = function(zoo, language) {
