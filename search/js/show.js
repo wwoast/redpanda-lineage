@@ -131,7 +131,7 @@ Show.acquirePandaInfo = function(animal, language) {
   var dad = Pandas.searchPandaDad(animal["_id"]);
   var mom = Pandas.searchPandaMom(animal["_id"]);
   var litter = Pandas.searchLitter(animal["_id"]);
-  var siblings = Pandas.searchSiblingsNonLitter(animal["_id"]);
+  var siblings = Pandas.searchNonLitterSiblings(animal["_id"]);
   var zoo = Pandas.myZoo(animal, "zoo", language);
   var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
   // Create links to direct family and zoos

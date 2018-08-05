@@ -295,7 +295,7 @@ Pandas.searchPandaName = function(name) {
 }
 
 // Find a panda's littermates. Search for all pandas with the
-// same parents and the same birthday. TODO: sort by birthday and then name
+// same parents and the same birthday.
 Pandas.searchLitter = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
@@ -304,21 +304,30 @@ Pandas.searchLitter = function(idnum) {
   return nodes;
 }
 
-// Find a panda's siblings, defined as the intersection of children 
-// by the same mother and father panda, but excluding the initial panda
-// we started the search from. TODO: sort by birthday and then name
-Pandas.searchSiblings = function(idnum) {
-  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").run();
-  return nodes;
+// Find a pandas's direct siblings, with both the same mother and same father.
+Pandas.searchDirectSiblings = function(idnum) {
+  return;   // TODO
+}
+
+// Find just a panda's half siblings, not the ones with the same mother and father
+Pandas.searchHalfSiblings = function(idnum) {
+  return;   // TODO
 }
 
 // Find a panda's siblings, not including littermates.
-// TODO: sort by birthday and then name
-Pandas.searchSiblingsNonLitter = function(idnum) {
+Pandas.searchNonLitterSiblings = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
     return vertex.birthday != birthday;  // TODO: check only the year and month
   }).run();
+  return nodes;
+}
+
+// Find a panda's siblings, defined as the intersection of children 
+// by the same mother and father panda, but excluding the initial panda
+// we started the search from.
+Pandas.searchSiblings = function(idnum) {
+  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").run();
   return nodes;
 }
 

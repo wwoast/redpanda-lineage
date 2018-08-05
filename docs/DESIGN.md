@@ -110,6 +110,106 @@ Finally, we process the relationship operators, to see where from our graph node
 
 ----
 
+## Search Result Sorting and Related Results
+
+In Dagoba's naive tree search, when you search for siblings of a panda, you'll get the animal's brothers and sisters twice in the dataset: once from following the mother's links, and once from following the father's links. Knowing this, you wouldn't expect Dagoba to have any notion of domain-relevant sorting of graph search results would be either.
+
+What is the desired order of search results? And what related information might a user want to see when searching for a panda? Let's talk about this based on what a user might expect, oriented around different search workflows.
+
+### Single Panda Result
+
+```
+Found one panda, {name}, and its family at {zoo}. 
+```
+
+If you search for a single panda, either by its id-number, or by specifying both a name and a zoo, you expect to have one clear match for your animal. However, a single result for the search page isn't terribly useful, especially since this is a site about families of red pandas. So if the search you perform returns just a single panda, it makes sense to also return, in order:
+
+* Any litter mates the panda has, regardless of which zoo they're at
+* The panda's mother and father
+* Any siblings the panda has that you might see at the same zoo, up to a limit of three
+  * Any more than three could get a summary card of siblings, rather than result cards
+* Any children for this panda you'd see at the same zoo
+  * Any more than three could get a summary card of siblings, rather than result cards
+* A zoo card with information about the zoo (last)
+
+This way, you get an appreciation for the family traits and similarities, as well as context on which pandas at a zoo are related to each other.
+
+Color text for these search results should indicate any pandas' relationships to the one you searched for (mothers, fathers, brothers, sisters, children).
+
+Eventually single-panda results will also display timeline-related data for a panda, such as when major family events happened or when they moved zoos, as well as additional information like nicknames, exact species, and maybe preferred foods. 
+
+### Multiple Pandas with the Same Name
+
+```
+Found {number} pandas with {name}. Results are sorted from youngest to oldest.
+```
+
+If you search for a panda by name, and there are multiple pandas with that name, the search results should only provide the list of pandas whose names match what you searched for. Ideally, the sorting order would be based on what zoos are most popular, but this isn't something we can reasonably track in the lineage database. Its most likely that pandas you want are on display, which means we should sort based first on youthfulness, and then display any pandas who have passed away afterwards, also in order of age.
+
+### Search for a Zoo
+
+```
+Found {number} pandas currently at {zoo}. Results are sorted from oldest to youngest. 
+```
+
+If you search for a zoo, you likely want to see all the pandas a zoo currently has. In this case, we'll display a single result card for every panda in the dataset, organized by birthday from oldest to youngest, and leaving out any pandas that have passed away at this zoo.
+
+It gets tricky to search for pandas that were at a zoo, or may have been born at a zoo but have moved. It's worth thinking about what a reasonable search workflow for these queries might be, as they're not captured by the search operators very well. We may end up prompting the user for what kind of search they want to perform, and based on their selection, either return an entire set of pandas for a zoo, alive or dead, or return a set of data for all pandas born at a particular zoo. A query supplement might pop up that says:
+
+```
+Search instead for all pandas ever born at {zoo}.
+Search instead for all pandas that ever lived at {zoo}.
+```
+
+Until timeline data is well fleshed-out, the "all pandas that ever lived at {zoo}" search will be impossible, as we can't account for pandas currently that were neither born nor died at a zoo, but lived there for a brief time.
+
+### Search for a Panda's Children or Litter
+
+```
+{name} has been {gender-noun} to {number} panda cubs. Results are sorted from oldest to youngest.
+{name} has {number} direct siblings in {gender-noun} litter.
+```
+
+If you search for a panda's children, you should get first a summary of the panda {name} you searched for, and then you should get a list of the children from oldest to youngest. Regardless of whether the children are alive or not, they should be in the search results. Similar rules should work for litter-mates, and while there is still a need for date-sorting for litter-mates born on consecutive days, the date information is not relevant to that search.
+
+### Search for a Panda's Siblings
+
+```
+{name} has {number} litter-mates, {number} direct siblings, and {number} half-siblings.
+```
+
+Sibling searches are interesting, because chances are you want to know whether the panda is one of twins or triplets, as well as whether they have any full or half siblings. The ordering priority here should be litter-mates first, followed by direct siblings, oldest to youngest, and lastly including half-siblings, oldest to youngest.
+
+### Search with No Results
+
+```
+No results for {name}, but here is a random zoo that may be of interest.
+No results for {name}, but here is a random panda to make you happy!
+No results for {name}, but today is {birthday-panda}'s birthday!
+```
+
+Heuristically, we should be able to determine whether someone was searching for a zoo or for a panda using some kind of word analysis. Based on that, if we think a zoo was searched for, we can offer a random zoo from the dataset, from a country which matches the currently configured language for the user. If we think a panda was searched for, we can offer a single random panda that lives in a zoo relevant for the currently configured language.
+
+If there is a panda with a birthday in the dataset, we could opt to show a birthday panda instead of doing the normal "no results" behavior.
+
+### Search for a Panda's Extended Family
+
+```
+Found {number} results for {family-type} relations to {name}.
+```
+
+As for other family searches, the priority should be on listing family members at the exact same zoo first, followed by others that no longer live at the same zoo, and followed lastly by others that are no longer alive.
+
+### Boolean Gobbledy-Gook Searches
+
+```
+Found {number} results for a complex query. Results are sorted from youngest to oldest.
+```
+
+If someone wants to mix and match operators and give the domain-specific language a hard time, we should default to a search result strategy that orders pandas from youngest to oldest, with alive and dead pandas interleaved in the search results.
+
+----
+
 ## Single Page Application Routing
 
 Since all resources for this website are loaded in the browser after the first page visit, there's no strong concept of loading resources over the network. However, we still want clicking through the web interface to activate things related to the browser's history, forward, and back buttons. Additionally, we want URLs that are visited to clearly represent what pandas or conditions we searched for. These types of issues in a single-page web application are often handled by a routing library.
