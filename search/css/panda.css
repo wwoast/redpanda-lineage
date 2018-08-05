@@ -295,7 +295,7 @@ div.footer a {
 }
 
 a.emojiLink {
-    text-decoration: none;
+    text-decoration: none !important;   /* iPhone seems to require the !important */
 }
 
 
