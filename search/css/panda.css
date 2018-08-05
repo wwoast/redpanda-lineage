@@ -274,7 +274,7 @@ div.footer {
     width: 100%;
     text-align: left;
     font-size: 10pt;
-    background-color: #033605;
+    background-color: #366938;
     color: white;
     bottom: 0px;
     margin: 0 0 0 0;
@@ -292,6 +292,10 @@ div.footer p {
 
 div.footer a {
     color: white;
+}
+
+a.emojiLink {
+    text-decoration: none;
 }
 
 
