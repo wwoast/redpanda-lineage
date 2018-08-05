@@ -295,7 +295,7 @@ Pandas.searchPandaName = function(name) {
 }
 
 // Find a panda's littermates. Search for all pandas with the
-// same parents and the same birthday
+// same parents and the same birthday. TODO: sort by birthday and then name
 Pandas.searchLitter = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
@@ -306,13 +306,14 @@ Pandas.searchLitter = function(idnum) {
 
 // Find a panda's siblings, defined as the intersection of children 
 // by the same mother and father panda, but excluding the initial panda
-// we started the search from.
+// we started the search from. TODO: sort by birthday and then name
 Pandas.searchSiblings = function(idnum) {
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").run();
   return nodes;
 }
 
 // Find a panda's siblings, not including littermates.
+// TODO: sort by birthday and then name
 Pandas.searchSiblingsNonLitter = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {

@@ -133,7 +133,7 @@ Show.acquirePandaInfo = function(animal, language) {
   var litter = Pandas.searchLitter(animal["_id"]);
   var siblings = Pandas.searchSiblingsNonLitter(animal["_id"]);
   var zoo = Pandas.myZoo(animal, "zoo", language);
-  var picture = Pandas.profilePhoto(animal, "random");
+  var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
   // Create links to direct family and zoos
   var dad_link = Show.goLink(dad, "panda", dad[get_name], ["dad_icon", "live_icon"]);
   var mom_link = Show.goLink(mom, "panda", mom[get_name], ["mom_icon", "live_icon"]);
@@ -263,7 +263,8 @@ Show.displayGender = function(info) {
   div.className = "gender";
 }
 
-// The dossier of information for a single panda
+// The dossier of information for a single panda.
+// This is the purple main information stripe for a panda.
 Show.displayPandaDetails = function(info) {
   var born = document.createElement('p');
   born.innerText = Show.emoji.born + " " + info.born;
@@ -295,9 +296,92 @@ Show.displayPandaDetails = function(info) {
   return details;
 }
 
-// Display lists of family information, starting with 
+// Display lists of family information, starting with parents,
+// then adding immediate littermates, and finally including the
+// other siblings, ordered by birthday. This is the pink stripe
+// at the bottom of a family dossier.
 Show.displayPandaFamily = function(info) {
+  /*
+  <div class="family">
+    <div class="parents">
+      <h4>Parents</h4>
+      <ul class="pandaList">
+        <li><b>👩🏻</b> Min-Fa</li>
+        <li><b>👨🏻</b> Gaia</li>
+      </ul>
+    </div><!-- parents -->
+    <div class="siblings litter">
+      <h4>Litter</h4>
+      <ul class="pandaList">
+        <li><b>👦🏻</b> Jazz</li>
+      </ul>
+    </div><!-- litter -->
+    <div class="siblings">
+      <h4>Siblings</h4>
+      <ul class="pandaList">
+        <li><b>👦🏻</b> Fa-Fa</li>              
+        <li><b>👧🏻</b> Min-Min</li>
+        <li><b>👦🏻</b> Charmin</li>
+        <li><b>👦🏻</b> Sou-Sou</li>
+        <li><b>👧🏻</b> Milky</li>
+        <li><b>👧🏻</b> Tiara</li>
+      </ul>
+    </div><!-- brothers and sisters -->
+  </div>
+  */
+}
 
+// Do the littermates info in the family section
+Show.displayPandaLitter = function(info) {
+  var heading = document.createElement('h4');
+  heading.innerText = "Litter";
+
+  var ul = document.createElement('ul');
+  ul.className = "pandaList";
+  // TODO: loop over the available litter
+
+  var litter = document.createElement('div');
+  litter.className = 'litter';
+  litter.appendChild(heading);
+  litter.appendChild(ul);
+  return litter;
+}
+
+// Do mom and dad's info in the family section
+Show.displayPandaParents = function(info) {
+  var heading = document.createElement('h4');
+  heading.innerText = "Parents";
+
+  var ul = document.createElement('ul');
+  ul.className = "pandaList";
+  var mom = document.createElement('li');
+  mom.appendChild(info.mom_link);
+  var dad = document.createElement('li');
+  dad.appendChild(info.dad_link);  // TODO: what if a parent or both parents is missing?
+  ul.appendChild(mom);
+  ul.appendChild(dad);
+
+  var parents = document.createElement('div');
+  parents.className = 'parents';
+  parents.appendChild(heading);
+  parents.appendChild(ul);
+  return parents;
+}
+
+// Do the non-litter siblings info in the family section
+Show.displayPandaSiblings = function(info) {
+  var heading = document.createElement('h4');
+  heading.innerText = "Litter";
+
+  var ul = document.createElement('ul');
+  ul.className = "pandaList";
+  // TODO: loop over the available litter
+
+  var siblings = document.createElement('div');
+  siblings.className = 'siblings';
+  siblings.appendChild(heading);
+  siblings.appendChild(ul);
+  return siblings;
 }
 
 // Will this break if the nodes are done on their own indent? :(
