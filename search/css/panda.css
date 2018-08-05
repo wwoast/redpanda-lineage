@@ -407,4 +407,11 @@ a.emojiLink {
     div.footer {
         text-align: left;
     }
+
+    a.emojiLink {
+        /* Make the top-page arrow more touchable on mobile */
+        font-size: 20pt;
+        float: left;
+        padding-right: 8px;
+    }
 }
