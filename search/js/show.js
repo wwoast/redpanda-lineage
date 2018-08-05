@@ -76,6 +76,7 @@ Show.init = function() {
 
 Show.emoji = {
   "animal": "🐼",
+   "alien": "👽",
    "arrow": "➡",
 "birthday": "🎂",
     "born": "👼",
@@ -124,24 +125,31 @@ Show.no_result = {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var name = language + ".name";
+  var get_location = language + ".location";
+  var get_name = language + ".name";
+
   var dad = Pandas.searchPandaDad(animal["_id"]);
   var mom = Pandas.searchPandaMom(animal["_id"]);
-  var siblings = Pandas.searchSiblings(animal["_id"]);
-  var zoo = Pandas.myLocation(animal, "zoo", language);
+  var litter = Pandas.searchLitter(animal["_id"]);
+  var siblings = Pandas.searchSiblingsNonLitter(animal["_id"]);
+  var zoo = Pandas.myZoo(animal, "zoo", language);
   var picture = Pandas.profilePhoto(animal, "random");
   // Create links to direct family and zoos
-  var dad_link = Show.goLink(dad['_id'], "panda", dad[name]);
-  var mom_link = Show.goLink(mom['_id'], "panda", mom[name]);
-  var sib_links = siblings.map(x => Show.goLink(x['_id'], "panda", x[name]));
-  var zoo_link = Show.goLink(zoo['_id'], "zoo", zoo[name]);
+  var dad_link = Show.goLink(dad, "panda", dad[get_name], ["dad_icon", "live_icon"]);
+  var mom_link = Show.goLink(mom, "panda", mom[get_name], ["mom_icon", "live_icon"]);
+  var lit_links = litter.map(x => Show.goLink(x, "panda", x[get_name], ["child_icon", "live_icon"]));
+  var sib_links = siblings.map(x => Show.goLink(x, "panda", x[get_name], ["child_icon", "live_icon"]));
+  var zoo_link = Show.goLink(zoo['_id'], "zoo", zoo[get_name], undefined);
+  var location = Show.goLink(zoo['_id'], "zoo", zoo[get_location], undefined);
   return {
             "age": Pandas.age(animal),
        "birthday": Pandas.birthday(animal, language),
-     "birthplace": Pandas.myLocation(animal, "birthplace", language),
+     "birthplace": Pandas.myZoo(animal, "birthplace", language),
           "death": Pandas.date(animal, "death", language),
             "dad": dad_link,
          "gender": Pandas.gender(animal, language),
+         "litter": lit_links,
+       "location": location,
             "mom": mom_link,
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
@@ -165,17 +173,34 @@ Show.emptyLink = function() {
 //    https://domain/search/index.html#panda/4
 //    https://domain/search/index.html#zoo/1
 //    https://domain/search/index.html#query/(utf-8-query-string) (TODO)
-// Text will be the name of the link.
-Show.goLink = function(input, type, text) {
+// Text will be the name of the link, with additional options to determine
+// whether icons for gender/mom/dad/liveness are needed
+Show.goLink = function(input, type, link_text, options) {
   // Don't print content if the input id is zero
-  if (input == Pandas.def.animal['_id']) {
+  if (input['_id'] == Pandas.def.animal['_id']) {
     return Show.emptyLink();
   }
   // For pandas and zoos, determine whether the argument is a name or an ID
-  if (Query.isId(input)) {
+  if (type == "panda") {
     var a = document.createElement('a');
-    a.innerText = text;  
-    a.href = "#" + type + "/" + input;
+    var inner_text = link_text;
+    // Option to display gender face
+    if ("child_icon" in options) {
+      inner_text = Show.displayChildIcon(input) + " " + inner_text;
+    }
+    // Moms and dads have older faces
+    if ("mom_icon" in options) {
+      inner_text = Show.emoji.mother + " " + inner_text;
+    }
+    if ("dad_icon" in options) {
+      inner_text = Show.emoji.father + " " + inner_text;
+    }
+    if (("live_icon" in options) && (death in input)) {
+      a.className = "passedAway";
+      inner_text = inner_text + " " + Show.emoji.death;
+    } 
+    a.innerText = inner_text;  
+    a.href = "#" + type + "/" + input['_id'];
     return a;
   } else {  // TODO: are strings valid inputs?
     return Show.emptyLink();
@@ -188,21 +213,7 @@ Show.goLink = function(input, type, text) {
 //    https://domain/search/index.html#panda_Lychee  (TODO)
 //    https://domain/search/index.html#panda_4
 //    https://domain/search/index.html#zoo_1
-Show.inLink = function(input, type, text) {
-  // Don't print content if the input id is zero
-  if (input == Pandas.def.animal['_id']) {
-    return Show.emptyLink();
-  }
-  // For pandas and zoos, determine whether the argument is a name or an ID
-  if (Query.isId(input)) {
-    var a = document.createElement('a');
-    a.innerText = text;  
-    a.href = "#" + type + "_" + input;
-    return a;
-  } else {  // TODO: are strings valid inputs?
-    return Show.emptyLink();
-  }
-}
+// Show.inLink = function(input, type, text) {
 
 /*
     Displayed output in the webpage
@@ -220,6 +231,20 @@ Show.displayEmptyResult = function(language) {
   result.appendChild(image);
   result.appendChild(message);
   return result;
+}
+
+// Male and female icons next to pandas used for panda links.
+// This uses unlocalized m/f/unknown gender values, and displays
+// an alien face if the gender is not determined as a joke
+Show.displayChildIcon = function(animal) {
+  var gender = animal.gender;
+  if (gender == "m") {
+    return Show.emoji.male;
+  } else if (gender == "f") {
+    return Show.emoji.female;
+  } else {
+    return Show.emoji.alien;
+  }
 }
 
 // Use localized alt-text, and display SVG gender information
@@ -268,6 +293,11 @@ Show.displayPandaDetails = function(info) {
   details.appendChild(location);
   details.appendChild(credit_link);
   return details;
+}
+
+// Display lists of family information, starting with 
+Show.displayPandaFamily = function(info) {
+
 }
 
 // Will this break if the nodes are done on their own indent? :(

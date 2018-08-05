@@ -294,11 +294,30 @@ Pandas.searchPandaName = function(name) {
   return nodes;
 }
 
+// Find a panda's littermates. Search for all pandas with the
+// same parents and the same birthday
+Pandas.searchLitter = function(idnum) {
+  var birthday = G.v(idnum).run()[0].birthday;
+  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().filter(function(vertex) {
+    return vertex.birthday == birthday;  // TODO: check only the year and month
+  }).run();
+  return nodes;
+}
+
 // Find a panda's siblings, defined as the intersection of children 
 // by the same mother and father panda, but excluding the initial panda
 // we started the search from.
 Pandas.searchSiblings = function(idnum) {
-  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").run();
+  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().run();
+  return nodes;
+}
+
+// Find a panda's siblings, not including littermates.
+Pandas.searchSiblingsNonLitter = function(idnum) {
+  var birthday = G.v(idnum).run()[0].birthday;
+  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().filter(function(vertex) {
+    return vertex.birthday != birthday;  // TODO: check only the year and month
+  }).run();
   return nodes;
 }
 
@@ -385,17 +404,17 @@ Pandas.gender = function(animal, language) {
                                : Pandas.def.gender[gender][language];
 }
 
-// Given an animal and a field name, return details about a zoo. 
-// Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
-Pandas.myLocation = function(animal, field) {
-  return animal[field] == undefined ? Pandas.def.zoo 
-                                    : Pandas.searchZooId(animal[field]);
-}
-
 // Given an animal and a chosen language, return details for a red panda.
 Pandas.myName = function(animal, language) {
   var field = language + ".name";
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given an animal and a field name, return details about a zoo. 
+// Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
+Pandas.myZoo = function(animal, field) {
+  return animal[field] == undefined ? Pandas.def.zoo 
+                                    : Pandas.searchZooId(animal[field]);
 }
 
 // Given an animal and a chosen language, return nicknames.
