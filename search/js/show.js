@@ -301,34 +301,26 @@ Show.displayPandaDetails = function(info) {
 // other siblings, ordered by birthday. This is the pink stripe
 // at the bottom of a family dossier.
 Show.displayPandaFamily = function(info) {
-  /*
-  <div class="family">
-    <div class="parents">
-      <h4>Parents</h4>
-      <ul class="pandaList">
-        <li><b>👩🏻</b> Min-Fa</li>
-        <li><b>👨🏻</b> Gaia</li>
-      </ul>
-    </div><!-- parents -->
-    <div class="siblings litter">
-      <h4>Litter</h4>
-      <ul class="pandaList">
-        <li><b>👦🏻</b> Jazz</li>
-      </ul>
-    </div><!-- litter -->
-    <div class="siblings">
-      <h4>Siblings</h4>
-      <ul class="pandaList">
-        <li><b>👦🏻</b> Fa-Fa</li>              
-        <li><b>👧🏻</b> Min-Min</li>
-        <li><b>👦🏻</b> Charmin</li>
-        <li><b>👦🏻</b> Sou-Sou</li>
-        <li><b>👧🏻</b> Milky</li>
-        <li><b>👧🏻</b> Tiara</li>
-      </ul>
-    </div><!-- brothers and sisters -->
-  </div>
-  */
+  if ((info.dad == undefined && info.mom == undefined) &&
+      (info.litter.length == 0) &&
+      (info.siblings.length == 0))  {
+    return;   // No documented family
+  }
+  var family = document.createElement('div');
+  family.className = "family";
+  if (info.dad != undefined || info.mom != undefined) {
+    var parents = Show.displayPandaParents;
+    family.appendChild(parents);
+  }
+  if (info.litter.length > 0) {
+    var litter = Show.displayPandaLitter;
+    family.appendChild(litter);
+  }
+  if (info.siblings.length > 0) {
+    blocks.siblings = Show.displayPandaSiblings;
+    family.appendChild(siblings);
+  }
+  return family;
 }
 
 // Do the littermates info in the family section
@@ -338,7 +330,7 @@ Show.displayPandaLitter = function(info) {
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  // TODO: loop over the available litter
+  // TODO: loop over the available litter "in order"
 
   var litter = document.createElement('div');
   litter.className = 'litter';
@@ -357,7 +349,7 @@ Show.displayPandaParents = function(info) {
   var mom = document.createElement('li');
   mom.appendChild(info.mom_link);
   var dad = document.createElement('li');
-  dad.appendChild(info.dad_link);  // TODO: what if a parent or both parents is missing?
+  dad.appendChild(info.dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom);
   ul.appendChild(dad);
 
@@ -375,7 +367,7 @@ Show.displayPandaSiblings = function(info) {
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  // TODO: loop over the available litter
+  // TODO: loop over the available siblings "in order"
 
   var siblings = document.createElement('div');
   siblings.className = 'siblings';
