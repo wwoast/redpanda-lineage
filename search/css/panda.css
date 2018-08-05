@@ -22,6 +22,7 @@ div.topSearch {
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    border-top: 2px solid yellowgreen;
 }
 
 div.shrinker {
@@ -63,8 +64,8 @@ img.fullFrame {
 }
 
 div#pandaFrame {
-    margin-top: 2ex;
-    margin-bottom: 2ex;
+    margin-top: 1ex;
+    margin-bottom: 1ex;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
@@ -209,7 +210,7 @@ ul.pandaList li.passedAway {
     color: gray;
 }
 
-div.bottomMenu {
+div.topMenu {
     display: table;
     text-align: center;
     height: 64px;
@@ -268,14 +269,39 @@ button.menu div.text {
     padding-right: 8px;
 }
 
+div.footer {
+    display: table;
+    width: 100%;
+    text-align: left;
+    font-size: 10pt;
+    background-color: #033605;
+    color: white;
+    bottom: 0px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+
+div.footer p {
+    margin: 0 0 0 0;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
+div.footer a {
+    color: white;
+}
+
 
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
     div#pandaFrame {
-        margin-top: 1ex;
-        margin-bottom: 1ex;
+        margin-top: 0.5ex;
+        margin-bottom: 0.5ex;
     }
 
     input.search {
@@ -287,6 +313,8 @@ button.menu div.text {
     div.pandaResult, div.zooResult, div.emptyResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
+        margin-top: 0.7ex;
+        margin-bottom: 0.7ex;
         border: 0px solid;
     }
 
@@ -370,5 +398,9 @@ button.menu div.text {
         display: table-row;
         font-size: 10pt;
         padding: 0 0 0 0;
+    }
+
+    div.footer {
+        text-align: left;
     }
 }
