@@ -298,7 +298,7 @@ Pandas.searchPandaName = function(name) {
 // same parents and the same birthday
 Pandas.searchLitter = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
-  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().filter(function(vertex) {
+  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
     return vertex.birthday == birthday;  // TODO: check only the year and month
   }).run();
   return nodes;
@@ -308,14 +308,14 @@ Pandas.searchLitter = function(idnum) {
 // by the same mother and father panda, but excluding the initial panda
 // we started the search from.
 Pandas.searchSiblings = function(idnum) {
-  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().run();
+  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").run();
   return nodes;
 }
 
 // Find a panda's siblings, not including littermates.
 Pandas.searchSiblingsNonLitter = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
-  var nodes = G.v(idnum).as("me").in("family").out("family").except("me").unique().filter(function(vertex) {
+  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
     return vertex.birthday != birthday;  // TODO: check only the year and month
   }).run();
   return nodes;
