@@ -150,7 +150,7 @@ Show.acquirePandaInfo = function(animal, language) {
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
-   "photo_credit": picture['author'],
+   "photo_credit": picture['credit'],
      "photo_link": picture['link'],
        "siblings": siblings,
        "zoo_link": zoo_link
@@ -279,9 +279,8 @@ Show.displayPandaDetails = function(info, language) {
   location.innerText = Show.emoji.map + " " + info.location_link;
   var credit_link = document.createElement('a');
   credit_link.href = info.photo_link;
-  credit_link.innerText = info.photo_credit;
-  credit.innerText = Show.emoji.camera + " " + info.photo_credit;
-  var credit  = document.createElement ('p');
+  credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
+  var credit = document.createElement('p');
   credit.appendChild(credit_link);
   var details = document.createElement('div');
   details.className = "pandaDetails";
@@ -289,7 +288,7 @@ Show.displayPandaDetails = function(info, language) {
   details.appendChild(second);
   details.appendChild(zoo);
   details.appendChild(location);
-  details.appendChild(credit_link);
+  details.appendChild(credit);
   return details;
 }
 
@@ -306,15 +305,15 @@ Show.displayPandaFamily = function(info) {
   var family = document.createElement('div');
   family.className = "family";
   if (info.dad != undefined || info.mom != undefined) {
-    var parents = Show.displayPandaParents;
+    var parents = Show.displayPandaParents(info);
     family.appendChild(parents);
   }
   if (info.litter.length > 0) {
-    var litter = Show.displayPandaLitter;
+    var litter = Show.displayPandaLitter(info);
     family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
-    blocks.siblings = Show.displayPandaSiblings;
+    blocks.siblings = Show.displayPandaSiblings(info);
     family.appendChild(siblings);
   }
   return family;
@@ -346,10 +345,10 @@ Show.displayPandaParents = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
-  var mom_link = Show.goLink(info.mom, "panda", info.mom[get_name], ["mom_icon", "live_icon"]);
+  var mom_link = Show.goLink(info.mom, "panda", info.mom[info.get_name], ["mom_icon", "live_icon"]);
   mom_li.appendChild(mom_link);
   var dad_li = document.createElement('li');
-  var dad_link = Show.goLink(info.dad, "panda", info.dad[get_name], ["dad_icon", "live_icon"]);
+  var dad_link = Show.goLink(info.dad, "panda", info.dad[info.get_name], ["dad_icon", "live_icon"]);
   dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom_li);
   ul.appendChild(dad_li);
