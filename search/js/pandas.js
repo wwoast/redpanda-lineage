@@ -339,10 +339,18 @@ Pandas.searchZooId = function(idnum) {
 }
 
 /*
-    Methods for sorting the output of Panda searches (TODO: document)
+    Methods for sorting the output of Panda searches
 */
-Pandas.sortByAge = function(nodes) {
-  return nodes;
+Pandas.sortYoungestToOldest = function(nodes) {
+  return nodes.sort(function(a, b) {
+    return new Date(a.birthday) < new Date(b.birthday);
+  });
+}
+
+Pandas.sortOldestToYoungest = function(nodes) {
+  return nodes.sort(function(a, b) {
+    return new Date(a.birthday) > new Date(b.birthday);
+  });
 }
 
 /*
@@ -358,7 +366,7 @@ Pandas.age = function(animal, language) {
   var death = animal['death'];
   // If the animal's date of death is listed as "unknown", this means the animal
   // passed at an undetermined date, so its age is also unknown.
-  if (death == undefined) {
+  if (death == "unknown") {
     return Pandas.def.unknown[language];
   }
   var endday = (death == undefined ? new Date() : new Date(death));
@@ -473,7 +481,7 @@ Pandas.profilePhoto = function(animal, index) {
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
   var choice = "photos." + index.toString(); 
-  if (photos[choice] != undefined) {
+  if (photos[choice] == undefined) {
     var space = Object.keys(photos).length;
     var index = Math.floor(Math.random() * space) + 1;
     choice = Object.keys(photos)[index];
@@ -482,7 +490,7 @@ Pandas.profilePhoto = function(animal, index) {
   var desired = {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
-      "link": ainmal[choice + ".link"]
+      "link": animal[choice + ".link"]
   }
   return desired;
 }

@@ -134,29 +134,25 @@ Show.acquirePandaInfo = function(animal, language) {
   var siblings = Pandas.searchNonLitterSiblings(animal["_id"]);
   var zoo = Pandas.myZoo(animal, "zoo", language);
   var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
-  // Create links to direct family and zoos
-  var dad_link = Show.goLink(dad, "panda", dad[get_name], ["dad_icon", "live_icon"]);
-  var mom_link = Show.goLink(mom, "panda", mom[get_name], ["mom_icon", "live_icon"]);
-  var lit_links = litter.map(x => Show.goLink(x, "panda", x[get_name], ["child_icon", "live_icon"]));
-  var sib_links = siblings.map(x => Show.goLink(x, "panda", x[get_name], ["child_icon", "live_icon"]));
   var zoo_link = Show.goLink(zoo['_id'], "zoo", zoo[get_name], undefined);
   var location = Show.goLink(zoo['_id'], "zoo", zoo[get_location], undefined);
   return {
-            "age": Pandas.age(animal),
+            "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
           "death": Pandas.date(animal, "death", language),
-            "dad": dad_link,
+            "dad": dad,
          "gender": Pandas.gender(animal, language),
-         "litter": lit_links,
-       "location": location,
-            "mom": mom_link,
+       "get_name": get_name,
+         "litter": litter,
+  "location_link": location,
+            "mom": mom,
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
-          "photo": picture.photo,
-   "photo_credit": picture.author,
-     "photo_link": picture.link,
-       "siblings": sib_links,
+          "photo": picture['photo'],
+   "photo_credit": picture['author'],
+     "photo_link": picture['link'],
+       "siblings": siblings,
        "zoo_link": zoo_link
   }
 }
@@ -259,13 +255,14 @@ Show.displayGender = function(info) {
     img.src = "images/unknown.svg";
   }
   img.alt = info.gender;
-  var div = document.createElement('div');
-  div.className = "gender";
+  var gender = document.createElement('div');
+  gender.className = "gender";
+  return gender;
 }
 
 // The dossier of information for a single panda.
 // This is the purple main information stripe for a panda.
-Show.displayPandaDetails = function(info) {
+Show.displayPandaDetails = function(info, language) {
   var born = document.createElement('p');
   born.innerText = Show.emoji.born + " " + info.born;
   // If still alive, print their current age
@@ -279,7 +276,7 @@ Show.displayPandaDetails = function(info) {
   zoo.innerText = Show.emoji.home + " " + info.zoo;
   var location = document.createElement('p');
   // TODO: replace country words with flags
-  location.innerText = Show.emoji.map + " " + info.location;
+  location.innerText = Show.emoji.map + " " + info.location_link;
   var credit_link = document.createElement('a');
   credit_link.href = info.photo_link;
   credit_link.innerText = info.photo_credit;
@@ -327,11 +324,14 @@ Show.displayPandaFamily = function(info) {
 Show.displayPandaLitter = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Litter";
-
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  // TODO: loop over the available litter "in order"
-
+  for (animal in Pandas.sortOldestToYoungest(info.litter)) {
+    var litter_link = Show.goLink(animal, "panda", animal[info.get_name], ["child_icon", "live_icon"])
+    var li = document.createElement('li');
+    li.appendChild(litter_link);
+    ul.appendChild(li);
+  }
   var litter = document.createElement('div');
   litter.className = 'litter';
   litter.appendChild(heading);
@@ -343,16 +343,16 @@ Show.displayPandaLitter = function(info) {
 Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Parents";
-
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  var mom = document.createElement('li');
-  mom.appendChild(info.mom_link);
-  var dad = document.createElement('li');
-  dad.appendChild(info.dad_link);  // TODO: check what kind of link a missing parent gets
-  ul.appendChild(mom);
-  ul.appendChild(dad);
-
+  var mom_li = document.createElement('li');
+  var mom_link = Show.goLink(info.mom, "panda", info.mom[get_name], ["mom_icon", "live_icon"]);
+  mom_li.appendChild(mom_link);
+  var dad_li = document.createElement('li');
+  var dad_link = Show.goLink(info.dad, "panda", info.dad[get_name], ["dad_icon", "live_icon"]);
+  dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
+  ul.appendChild(mom_li);
+  ul.appendChild(dad_li);
   var parents = document.createElement('div');
   parents.className = 'parents';
   parents.appendChild(heading);
@@ -367,8 +367,12 @@ Show.displayPandaSiblings = function(info) {
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  // TODO: loop over the available siblings "in order"
-
+  for (animal in Pandas.sortOldestToYoungest(info.siblings)) {
+    var litter_link = Show.goLink(animal, "panda", animal[info.get_name], ["child_icon", "live_icon"])
+    var li = document.createElement('li');
+    li.appendChild(litter_link);
+    ul.appendChild(li);
+  }
   var siblings = document.createElement('div');
   siblings.className = 'siblings';
   siblings.appendChild(heading);
@@ -388,11 +392,11 @@ Show.displayPandaTitle = function(info, language) {
   } else {
     name_div.innerText = info.name;
   }
-  var div = document.createElement('div');
-  div.className = "pandaTitle";
-  div.appendChild(gender);
-  div.appendChild(name);
-  return div;
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(gender);
+  title_div.appendChild(name_div);
+  return title_div;
 }  
 
 // If the media exists for a panda, display it. If it's missing,
@@ -416,12 +420,12 @@ Show.pandaInformation = function(animal, slip_in, language) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto');
   var title = Show.displayPandaTitle(info, language);
-  var details = Show.displayPandaDetails(info); 
-  // TODO: family details
+  var details = Show.displayPandaDetails(info, language); 
+  var family = Show.displayPandaFamily(info);
   var dossier = document.createElement('div');
   dossier.appendChild(title);
   dossier.appendChild(details);
-  // dossier.appendChild(family);
+  dossier.appendChild(family);
   var result = document.createElement('div');
   result.appendChild(photo);
   result.appendChild(dossier);
