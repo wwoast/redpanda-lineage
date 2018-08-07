@@ -410,9 +410,9 @@ Pandas.date = function(animal, field, language) {
   }
   var format = Pandas.def.date[language];
   [ year, month, day ] = date.split("/");
-  format.replace("YYYY", year);
-  format.replace("MM", month);
-  format.replace("DD", day);
+  format = format.replace("YYYY", year);
+  format = format.replace("MM", month);
+  format = format.replace("DD", day);
   return format;
 }
 
