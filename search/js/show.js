@@ -318,11 +318,11 @@ Show.displayPandaDetails = function(info) {
     second.innerText = Show.emoji.died + " " + info.death;
   }
   var zoo = document.createElement('p');
-  // var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, ["home_icon"]);
-  // zoo.appendChild(zoo_link);
+  var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, ["home_icon"]);
+  zoo.appendChild(zoo_link);
   var location = document.createElement('p');
-  // location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
-  //                                        language, ["map_icon", "country_flag"]);
+  location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
+                                         language, ["map_icon", "country_flag"]);
   var credit_link = document.createElement('a');
   credit_link.href = info.photo_link;
   credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;

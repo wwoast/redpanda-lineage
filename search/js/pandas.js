@@ -435,12 +435,13 @@ Pandas.myName = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
-// Given an animal and a field name, return details about a zoo. 
-// Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
-// TODO: need to search for edges with this animal ID
+// Given an animal and a field name, return details about a zoo.
+// Though zoos are stored in the text filees related to an animal, 
+// when moved into Dagoba they become edges to zoo nodes.
+// Proper "fields" might be 'birthplace' or 'zoo'.
 Pandas.myZoo = function(animal, field) {
-  return animal[field] == undefined ? Pandas.def.zoo 
-                                    : Pandas.searchZooId(animal[field]);
+  var zoo = G.v(animal['_id']).out(field).run();
+  return zoo == [] ? Pandas.def.zoo : zoo[0];
 }
 
 // Given an animal and a chosen language, return nicknames.
