@@ -12,6 +12,65 @@ body {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
+div.topMenu {
+    display: table;
+    text-align: center;
+    height: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: #366938;
+    font-family: "Jun 201", sans-serif;
+    width: 100%;
+    vertical-align: middle;
+}
+
+@keyframes activate {
+    from { background-color: #366938; }
+    to { background-color: #699C6A; }
+}
+
+button.menu {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+}
+
+button.menu:hover {
+    animation: activate;
+    animation-duration: 0.3s;
+    background-color: #699C6A;
+}
+
+button.menu:active {
+    animation: activate;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+button.menu div.buttonContent {
+    display: table;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.menu div.icon {
+    display: table-cell;
+    font-size: 24pt;
+    padding-right: 8px;
+}
+
+button.menu div.text {
+    display: table-cell;
+    padding-right: 8px;
+}
+
 div.topSearch {
     display: table;
     text-align: center;
@@ -208,65 +267,6 @@ ul.pandaList li {
 
 ul.pandaList li.passedAway {
     color: gray;
-}
-
-div.topMenu {
-    display: table;
-    text-align: center;
-    height: 64px;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-    background-color: #366938;
-    font-family: "Jun 201", sans-serif;
-    width: 100%;
-    vertical-align: middle;
-}
-
-@keyframes activate {
-    from { background-color: #366938; }
-    to { background-color: #699C6A; }
-}
-
-button.menu {
-    display: inline-block;
-    border: none;
-    color: white;
-    line-height: 1.4;
-    font-size: 14pt;
-    font-family: "Jun 201", sans-serif;
-    background-color: #366938;
-    height: 64px;
-}
-
-button.menu:hover {
-    animation: activate;
-    animation-duration: 0.3s;
-    background-color: #699C6A;
-}
-
-button.menu:active {
-    animation: activate;
-    animation-duration: 0.6s;
-    animation-direction: alternate;
-}
-
-button.menu div.buttonContent {
-    display: table;
-    border: none;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-button.menu div.icon {
-    display: table-cell;
-    font-size: 24pt;
-    padding-right: 8px;
-}
-
-button.menu div.text {
-    display: table-cell;
-    padding-right: 8px;
 }
 
 div.footer {
