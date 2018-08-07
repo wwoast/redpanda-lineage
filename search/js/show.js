@@ -289,10 +289,11 @@ Show.displayChildIcon = function(animal) {
 // Use localized alt-text, and display SVG gender information
 // so that padding can work consistently on mobile.
 Show.displayGender = function(info) {
+  var language = info.language;
   var img = document.createElement('img');
-  if (info.gender in Pandas.def.gender.Male) {
+  if (info.gender == Pandas.def.gender.Male[language]) {
     img.src = "images/male.svg";
-  } else if (info.gender in Pandas.def.gender.Female) {
+  } else if (info.gender == Pandas.def.gender.Female[language]) {
     img.src = "images/female.svg";
   } else {
     img.src = "images/unknown.svg";
