@@ -30,6 +30,17 @@ div.topMenu {
     to { background-color: #699C6A; }
 }
 
+button.logo {
+    display: inline-block;
+    border: none;
+    color: white;
+    line-height: 1.4;
+    font-size: 14pt;
+    font-family: "Jun 201", sans-serif;
+    background-color: #366938;
+    height: 64px;
+}
+
 button.menu {
     display: inline-block;
     border: none;
@@ -41,32 +52,32 @@ button.menu {
     height: 64px;
 }
 
-button.menu:hover {
+button.menu:hover, button.logo:hover {
     animation: activate;
     animation-duration: 0.3s;
     background-color: #699C6A;
 }
 
-button.menu:active {
+button.menu:active, button.logo:active {
     animation: activate;
     animation-duration: 0.6s;
     animation-direction: alternate;
 }
 
-button.menu div.buttonContent {
+button.menu div.buttonContent, button.logo div.buttonContent {
     display: table;
     border: none;
     margin-left: auto;
     margin-right: auto;
 }
 
-button.menu div.icon {
+button.menu div.icon, button.logo div.icon {
     display: table-cell;
     font-size: 24pt;
     padding-right: 8px;
 }
 
-button.menu div.text {
+button.menu div.text, button.logo div.text {
     display: table-cell;
     padding-right: 8px;
 }
