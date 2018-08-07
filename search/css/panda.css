@@ -315,6 +315,27 @@ a.emojiLink {
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
 @media screen and (max-width: 630px) {
+    button.logo {
+        display: none;
+    }
+    
+    button.menu {
+        width: 80px;
+        height: auto;
+    }
+
+    button.menu div.icon {
+        display: table-row;
+        font-size: 24pt;
+        padding: 0 0 0 0;
+    }
+
+    button.menu div.text {
+        display: table-row;
+        font-size: 10pt;
+        padding: 0 0 0 0;
+    }
+
     div#pandaFrame {
         margin-top: 0.5ex;
         margin-bottom: 0.5ex;
@@ -397,23 +418,6 @@ a.emojiLink {
         list-style: none;
         text-align: left;
         padding-left: 14px;
-    }
-
-    button.menu {
-        width: 80px;
-        height: auto;
-    }
-
-    button.menu div.icon {
-        display: table-row;
-        font-size: 24pt;
-        padding: 0 0 0 0;
-    }
-
-    button.menu div.text {
-        display: table-row;
-        font-size: 10pt;
-        padding: 0 0 0 0;
     }
 
     div.footer {
