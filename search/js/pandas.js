@@ -437,6 +437,7 @@ Pandas.myName = function(animal, language) {
 
 // Given an animal and a field name, return details about a zoo. 
 // Supported fields include the birthplace and zoo fields, which are both Zoo IDs.
+// TODO: need to search for edges with this animal ID
 Pandas.myZoo = function(animal, field) {
   return animal[field] == undefined ? Pandas.def.zoo 
                                     : Pandas.searchZooId(animal[field]);

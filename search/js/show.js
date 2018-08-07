@@ -100,6 +100,7 @@ Show.emoji = {
  "website": "🌐"
 }
 
+// TODO: key on other language versions of country names
 Show.flags = {
   "Bhutan": "🇧🇹",
   "Canada": "🇨🇦",
@@ -125,39 +126,25 @@ Show.no_result = {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var get_location = language + ".location";
-  var get_name = language + ".name";
-
-  var dad = Pandas.searchPandaDad(animal["_id"]);
-  var mom = Pandas.searchPandaMom(animal["_id"]);
-  var litter = Pandas.searchLitter(animal["_id"]);
-  var siblings = Pandas.searchNonLitterSiblings(animal["_id"]);
-  var zoo = Pandas.myZoo(animal, "zoo", language);
   var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
   return {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
           "death": Pandas.date(animal, "death", language),
-            "dad": dad,
+            "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
-       "get_name": get_name,
-         "litter": litter,
-            "mom": mom,
+       "get_name": language + ".name",
+         "litter": Pandas.searchLitter(animal["_id"]),
+            "mom": Pandas.searchPandaMom(animal["_id"]),
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
    "photo_credit": picture['credit'],
      "photo_link": picture['link'],
-       "siblings": siblings,
-            "zoo": zoo
+       "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
+            "zoo": Pandas.myZoo(animal, "zoo")
   }
-}
-
-// If link is to an undefined item or the zero ID, return a spacer
-// TODO: final page layout
-Show.emptyLink = function() {
-  return null;
 }
 
 // Construct an animal link as per parameters. Options include
@@ -166,10 +153,10 @@ Show.emptyLink = function() {
 // Examples:
 //    https://domain/search/index.html#panda/Lychee
 //    https://domain/search/index.html#panda/4
-Show.animalLink = function(animal, link_text, options) {
+Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero
   if (animal['_id'] == Pandas.def.animal['_id']) {
-    return Show.emptyLink();
+    return Show.emptyLink(Pandas.def.animal[language + ".name"]);
   }
   var a = document.createElement('a');
   var inner_text = link_text;
@@ -199,26 +186,72 @@ Show.animalLink = function(animal, link_text, options) {
   return a;
 }
 
-// Construct a zoo link as per design docs. Examples:
-//    https://domain/search/index.html#zoo/1
-// Show.zooLink = function(zoo, link_text, options) {
+// If link is to an undefined item or the zero ID, return a spacer
+// TODO: final page layout
+Show.emptyLink = function(output_text) {
+  return null;  // TODO: link with the output text
+}
 
-// Construct a link as per the design docs. Input is the query
+// Construct a location string based on recorded location info for a zoo.
+// This will optionally replace a country name with a flag, which takes
+// less horizontal space and conforms to the general in-flow emoji style
+// of the display logic elsewhere in the search results.
+Show.homeLocation = function(zoo, desired_text, language, options) {
+  // Don't print content if the input id is zero
+  if (zoo['_id'] == Pandas.def.zoo['_id']) {
+    return Pandas.def.zoo[language + ".location"];
+  }
+  var output_text = desired_text;
+  if ("map_icon" in options) {
+    output_text = Show.emoji.map + " " + output_text;
+  }
+  if ("country_flag" in options) {
+    // Replace any country names in location details with a flag
+    var countries = Object.keys(Show.flags).filter(function(key) {
+      if (output_text.indexOf(key) != -1) {
+        return key;
+      }
+    });
+    countries.forEach(function(place) {
+      output_text.replace(place, Show.flags[place]);
+    });
+  }
+  return output_text;
+}
+
+// Construct a query link as per the design docs. Input is the query
 // string, and type is the initial hash code. Examples:
 //    https://domain/search/index.html#query/(utf-8-query-string) (TODO)
 // Text will be the name of the link, with additional options to determine
 // whether icons for gender/mom/dad/liveness are needed
 
-
-
-// Have an alternate type of link that forwards to the card inside the page.
-// These are also hash links, but they don't result in the search page being
-// redrawn -- only relocating to another animal on the same page.
-//    https://domain/search/index.html#panda_Lychee  (TODO)
-//    https://domain/search/index.html#panda_4
-//    https://domain/search/index.html#zoo_1
-// TODO: make this a mode of the primary link functions
-// Show.inLink = function(input, type, text) {
+// Construct a zoo link as per design docs. Examples:
+//    https://domain/search/index.html#zoo/1
+// Show.zooLink = function(zoo, link_text, options) {
+Show.zooLink = function(zoo, link_text, language, options) {
+  // Don't print content if the input id is zero
+  if (zoo['_id'] == Pandas.def.zoo['_id']) {
+    return Show.emptyLink(Pandas.def.zoo[language + ".name"]);
+  }
+  var a = document.createElement('a');
+  var inner_text = link_text;
+  // Options processing
+  if ("home_icon" in options) {
+    inner_text = Show.emoji.home + " " + inner_text;
+  }
+  if ("map_icon" in options) {
+    inner_text = Show.emoji.map + " " + inner_text;
+  }
+  a.innerText = inner_text;
+  if ("in_link" in options) {
+    // in_link: that finds a location on the displayed data
+    a.href = "#zoo" + "_" + zoo['_id'];
+  } else {
+    // go_link: creates a new results frame based on desired data
+    a.href = "#zoo" + "/" + zoo['_id'];
+  }
+  return a;
+}
 
 /*
     Displayed output in the webpage
@@ -283,10 +316,11 @@ Show.displayPandaDetails = function(info, language) {
     second.innerText = Show.emoji.died + " " + info.death;
   }
   var zoo = document.createElement('p');
-  zoo.innerText = Show.emoji.home + " " + info.zoo;
+  // var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, ["home_icon"]);
+  // zoo.appendChild(zoo_link);
   var location = document.createElement('p');
-  // TODO: replace country words with flags
-  location.innerText = Show.emoji.map + " " + info.location_link;
+  // location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
+  //                                        language, ["map_icon", "country_flag"]);
   var credit_link = document.createElement('a');
   credit_link.href = info.photo_link;
   credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
@@ -306,7 +340,7 @@ Show.displayPandaDetails = function(info, language) {
 // then adding immediate littermates, and finally including the
 // other siblings, ordered by birthday. This is the pink stripe
 // at the bottom of a family dossier.
-Show.displayPandaFamily = function(info) {
+Show.displayPandaFamily = function(info, language) {
   if ((info.dad == undefined && info.mom == undefined) &&
       (info.litter.length == 0) &&
       (info.siblings.length == 0))  {
@@ -315,28 +349,28 @@ Show.displayPandaFamily = function(info) {
   var family = document.createElement('div');
   family.className = "family";
   if (info.dad != undefined || info.mom != undefined) {
-    var parents = Show.displayPandaParents(info);
+    var parents = Show.displayPandaParents(info, language);
     family.appendChild(parents);
   }
   if (info.litter.length > 0) {
-    var litter = Show.displayPandaLitter(info);
+    var litter = Show.displayPandaLitter(info, language);
     family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
-    blocks.siblings = Show.displayPandaSiblings(info);
+    blocks.siblings = Show.displayPandaSiblings(info, language);
     family.appendChild(siblings);
   }
   return family;
 }
 
 // Do the littermates info in the family section
-Show.displayPandaLitter = function(info) {
+Show.displayPandaLitter = function(info, language) {
   var heading = document.createElement('h4');
   heading.innerText = "Litter";
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (animal in Pandas.sortOldestToYoungest(info.litter)) {
-    var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
+    var litter_link = Show.animalLink(animal, animal[info.get_name], language, ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
     ul.appendChild(li);
@@ -349,16 +383,16 @@ Show.displayPandaLitter = function(info) {
 }
 
 // Do mom and dad's info in the family section
-Show.displayPandaParents = function(info) {
+Show.displayPandaParents = function(info, language) {
   var heading = document.createElement('h4');
   heading.innerText = "Parents";
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
-  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name], ["mom_icon", "live_icon"]);
+  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name], language, ["mom_icon", "live_icon"]);
   mom_li.appendChild(mom_link);
   var dad_li = document.createElement('li');
-  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], ["dad_icon", "live_icon"]);
+  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], language, ["dad_icon", "live_icon"]);
   dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom_li);
   ul.appendChild(dad_li);
@@ -370,14 +404,14 @@ Show.displayPandaParents = function(info) {
 }
 
 // Do the non-litter siblings info in the family section
-Show.displayPandaSiblings = function(info) {
+Show.displayPandaSiblings = function(info, language) {
   var heading = document.createElement('h4');
   heading.innerText = "Litter";
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (animal in Pandas.sortOldestToYoungest(info.siblings)) {
-    var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
+    var litter_link = Show.animalLink(animal, animal[info.get_name], language, ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
     ul.appendChild(li);
@@ -430,7 +464,7 @@ Show.pandaInformation = function(animal, slip_in, language) {
   var photo = Show.displayPhoto(info, 'pandaPhoto');
   var title = Show.displayPandaTitle(info, language);
   var details = Show.displayPandaDetails(info, language); 
-  var family = Show.displayPandaFamily(info);
+  var family = Show.displayPandaFamily(info, language);
   var dossier = document.createElement('div');
   dossier.appendChild(title);
   dossier.appendChild(details);
