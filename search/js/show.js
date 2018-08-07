@@ -134,8 +134,6 @@ Show.acquirePandaInfo = function(animal, language) {
   var siblings = Pandas.searchNonLitterSiblings(animal["_id"]);
   var zoo = Pandas.myZoo(animal, "zoo", language);
   var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
-  var zoo_link = Show.goLink(zoo['_id'], "zoo", zoo[get_name], undefined);
-  var location = Show.goLink(zoo['_id'], "zoo", zoo[get_location], undefined);
   return {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
@@ -145,7 +143,6 @@ Show.acquirePandaInfo = function(animal, language) {
          "gender": Pandas.gender(animal, language),
        "get_name": get_name,
          "litter": litter,
-  "location_link": location,
             "mom": mom,
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
@@ -153,7 +150,7 @@ Show.acquirePandaInfo = function(animal, language) {
    "photo_credit": picture['credit'],
      "photo_link": picture['link'],
        "siblings": siblings,
-       "zoo_link": zoo_link
+            "zoo": zoo
   }
 }
 
@@ -163,45 +160,56 @@ Show.emptyLink = function() {
   return null;
 }
 
+// Construct an animal link as per parameters. Options include
+// whether to do a mom/dad/boy/girl icon, or whether to do a 
+// link within the page, versus a page wipe and redisplay.
+// Examples:
+//    https://domain/search/index.html#panda/Lychee
+//    https://domain/search/index.html#panda/4
+Show.animalLink = function(animal, link_text, options) {
+  // Don't print content if the input id is zero
+  if (animal['_id'] == Pandas.def.animal['_id']) {
+    return Show.emptyLink();
+  }
+  var a = document.createElement('a');
+  var inner_text = link_text;
+  // Option to display gender face
+  if ("child_icon" in options) {
+    inner_text = Show.displayChildIcon(animal) + " " + inner_text;
+  }
+  // Moms and dads have older faces
+  if ("mom_icon" in options) {
+    inner_text = Show.emoji.mother + " " + inner_text;
+  }
+  if ("dad_icon" in options) {
+    inner_text = Show.emoji.father + " " + inner_text;
+  }
+  if (("live_icon" in options) && (death in input)) {
+    a.className = "passedAway";
+    inner_text = inner_text + " " + Show.emoji.death;
+  } 
+  a.innerText = inner_text;
+  if ("in_link" in options) {
+    // in_link: that finds a location on the displayed data
+    a.href = "#panda" + "_" + animal['_id'];
+  } else {
+    // go_link: creates a new results frame based on desired data
+    a.href = "#panda" + "/" + animal['_id'];
+  }
+  return a;
+}
+
+// Construct a zoo link as per design docs. Examples:
+//    https://domain/search/index.html#zoo/1
+// Show.zooLink = function(zoo, link_text, options) {
+
 // Construct a link as per the design docs. Input is the query
 // string, and type is the initial hash code. Examples:
-//    https://domain/search/index.html#panda/Lychee  (TODO)
-//    https://domain/search/index.html#panda/4
-//    https://domain/search/index.html#zoo/1
 //    https://domain/search/index.html#query/(utf-8-query-string) (TODO)
 // Text will be the name of the link, with additional options to determine
 // whether icons for gender/mom/dad/liveness are needed
-Show.goLink = function(input, type, link_text, options) {
-  // Don't print content if the input id is zero
-  if (input['_id'] == Pandas.def.animal['_id']) {
-    return Show.emptyLink();
-  }
-  // For pandas and zoos, determine whether the argument is a name or an ID
-  if (type == "panda") {
-    var a = document.createElement('a');
-    var inner_text = link_text;
-    // Option to display gender face
-    if ("child_icon" in options) {
-      inner_text = Show.displayChildIcon(input) + " " + inner_text;
-    }
-    // Moms and dads have older faces
-    if ("mom_icon" in options) {
-      inner_text = Show.emoji.mother + " " + inner_text;
-    }
-    if ("dad_icon" in options) {
-      inner_text = Show.emoji.father + " " + inner_text;
-    }
-    if (("live_icon" in options) && (death in input)) {
-      a.className = "passedAway";
-      inner_text = inner_text + " " + Show.emoji.death;
-    } 
-    a.innerText = inner_text;  
-    a.href = "#" + type + "/" + input['_id'];
-    return a;
-  } else {  // TODO: are strings valid inputs?
-    return Show.emptyLink();
-  }
-}
+
+
 
 // Have an alternate type of link that forwards to the card inside the page.
 // These are also hash links, but they don't result in the search page being
@@ -209,6 +217,7 @@ Show.goLink = function(input, type, link_text, options) {
 //    https://domain/search/index.html#panda_Lychee  (TODO)
 //    https://domain/search/index.html#panda_4
 //    https://domain/search/index.html#zoo_1
+// TODO: make this a mode of the primary link functions
 // Show.inLink = function(input, type, text) {
 
 /*
@@ -257,6 +266,7 @@ Show.displayGender = function(info) {
   img.alt = info.gender;
   var gender = document.createElement('div');
   gender.className = "gender";
+  gender.appendChild(img);
   return gender;
 }
 
@@ -326,7 +336,7 @@ Show.displayPandaLitter = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (animal in Pandas.sortOldestToYoungest(info.litter)) {
-    var litter_link = Show.goLink(animal, "panda", animal[info.get_name], ["child_icon", "live_icon"])
+    var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
     ul.appendChild(li);
@@ -345,10 +355,10 @@ Show.displayPandaParents = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
-  var mom_link = Show.goLink(info.mom, "panda", info.mom[info.get_name], ["mom_icon", "live_icon"]);
+  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name], ["mom_icon", "live_icon"]);
   mom_li.appendChild(mom_link);
   var dad_li = document.createElement('li');
-  var dad_link = Show.goLink(info.dad, "panda", info.dad[info.get_name], ["dad_icon", "live_icon"]);
+  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], ["dad_icon", "live_icon"]);
   dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom_li);
   ul.appendChild(dad_li);
@@ -367,7 +377,7 @@ Show.displayPandaSiblings = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (animal in Pandas.sortOldestToYoungest(info.siblings)) {
-    var litter_link = Show.goLink(animal, "panda", animal[info.get_name], ["child_icon", "live_icon"])
+    var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
     ul.appendChild(li);
