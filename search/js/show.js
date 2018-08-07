@@ -264,7 +264,7 @@ Show.displayGender = function(info) {
 // This is the purple main information stripe for a panda.
 Show.displayPandaDetails = function(info, language) {
   var born = document.createElement('p');
-  born.innerText = Show.emoji.born + " " + info.born;
+  born.innerText = Show.emoji.born + " " + info.birthday;
   // If still alive, print their current age
   var second = document.createElement ('p');
   if (info.death == Pandas.def.unknown[language]) {
