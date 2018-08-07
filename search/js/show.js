@@ -135,6 +135,7 @@ Show.acquirePandaInfo = function(animal, language) {
             "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
+       "language": language,
          "litter": Pandas.searchLitter(animal["_id"]),
             "mom": Pandas.searchPandaMom(animal["_id"]),
            "name": Pandas.myName(animal, language),
@@ -305,7 +306,8 @@ Show.displayGender = function(info) {
 
 // The dossier of information for a single panda.
 // This is the purple main information stripe for a panda.
-Show.displayPandaDetails = function(info, language) {
+Show.displayPandaDetails = function(info) {
+  var language = info.language;
   var born = document.createElement('p');
   born.innerText = Show.emoji.born + " " + info.birthday;
   // If still alive, print their current age
@@ -340,7 +342,7 @@ Show.displayPandaDetails = function(info, language) {
 // then adding immediate littermates, and finally including the
 // other siblings, ordered by birthday. This is the pink stripe
 // at the bottom of a family dossier.
-Show.displayPandaFamily = function(info, language) {
+Show.displayPandaFamily = function(info) {
   if ((info.dad == undefined && info.mom == undefined) &&
       (info.litter.length == 0) &&
       (info.siblings.length == 0))  {
@@ -349,15 +351,15 @@ Show.displayPandaFamily = function(info, language) {
   var family = document.createElement('div');
   family.className = "family";
   if (info.dad != undefined || info.mom != undefined) {
-    var parents = Show.displayPandaParents(info, language);
+    var parents = Show.displayPandaParents(info);
     family.appendChild(parents);
   }
   if (info.litter.length > 0) {
-    var litter = Show.displayPandaLitter(info, language);
+    var litter = Show.displayPandaLitter(info);
     family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
-    blocks.siblings = Show.displayPandaSiblings(info, language);
+    blocks.siblings = Show.displayPandaSiblings(info);
     family.appendChild(siblings);
   }
   return family;
@@ -424,7 +426,8 @@ Show.displayPandaSiblings = function(info, language) {
 }
 
 // Will this break if the nodes are done on their own indent? :(
-Show.displayPandaTitle = function(info, language) {
+Show.displayPandaTitle = function(info) {
+  var language = info.language;
   var gender = Show.displayGender(info);
   var name_div = document.createElement('div');
   name_div.className = 'pandaName';
@@ -462,9 +465,9 @@ Show.displayPhoto = function(info, frame_class) {
 Show.pandaInformation = function(animal, slip_in, language) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto');
-  var title = Show.displayPandaTitle(info, language);
-  var details = Show.displayPandaDetails(info, language); 
-  var family = Show.displayPandaFamily(info, language);
+  var title = Show.displayPandaTitle(info);
+  var details = Show.displayPandaDetails(info); 
+  var family = Show.displayPandaFamily(info);
   var dossier = document.createElement('div');
   dossier.appendChild(title);
   dossier.appendChild(details);
