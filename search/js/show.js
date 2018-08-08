@@ -372,7 +372,7 @@ Show.displayPandaFamily = function(info) {
     family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
-    blocks.siblings = Show.displayPandaSiblings(info);
+    var siblings = Show.displayPandaSiblings(info);
     family.appendChild(siblings);
   }
   return family;
