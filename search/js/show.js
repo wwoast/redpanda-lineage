@@ -55,10 +55,22 @@ $(function() {
     text and present new content.
 */
 window.addEventListener('hashchange', function() {
-  var query = this.window.location.hash.slice(1);
+  var query = this.window.location.hash.slice(1);  // Everything after the #
 
   // Start by just displaying info for one panda by id search
-  Show.bootstrap(query);
+  var results = Show.bootstrap(query);
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
+  new_content.appendChild(results);
+
+  // Append the new content into the page and then swap it in
+  var body = document.getElementsByTagName('body')[0];
+  var old_content = document.getElementById('contentFrame');
+  body.appendChild(new_content);
+  old_content.style.display = "none";
+  new_content.style.display = "block";
+  body.removeChild(old_content);
+  new_content.id = 'contentFrame';
 });
 
 
@@ -452,9 +464,9 @@ Show.displayPandaTitle = function(info) {
 Show.displayPhoto = function(info, frame_class, fallback) {
   var image = document.createElement('img');
   image.src = info.photo;
-  img.onerror = "this.src='" + fallback + "'";
+  image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
-  div.class = frame_class;
+  div.className = frame_class;
   div.appendChild(image);
   return div;
 }
@@ -471,10 +483,12 @@ Show.pandaInformation = function(animal, slip_in, language) {
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
   var dossier = document.createElement('div');
+  dossier.className = "pandaDossier";
   dossier.appendChild(title);
   dossier.appendChild(details);
   dossier.appendChild(family);
   var result = document.createElement('div');
+  result.className = "pandaResult";
   result.appendChild(photo);
   result.appendChild(dossier);
   return result; 
