@@ -156,6 +156,11 @@ div.pandaResult, div.zooResult {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
+div.pandaResult > a {
+    text-decoration: none !important;
+    color: black;
+}
+
 div.emptyResult {
     display: table;
     position: relative;
