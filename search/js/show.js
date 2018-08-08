@@ -452,6 +452,7 @@ Show.displayPandaTitle = function(info) {
 Show.displayPhoto = function(info, frame_class) {
   var image = document.createElement('img');
   image.src = info.photo;
+  img.onerror = "this.src='images/no-panda.jpg'";
   var div = document.createElement('div');
   div.class = frame_class;
   div.appendChild(image);
