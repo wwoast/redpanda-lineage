@@ -39,6 +39,7 @@ button.logo {
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
     height: 64px;
+    float: left;
 }
 
 button.menu {
