@@ -134,12 +134,18 @@ img.fullFrame {
     opacity: 0.4;
 }
 
-div#pandaFrame {
+div#contentFrame {
     margin-top: 1ex;
     margin-bottom: 1ex;
     margin-left: auto;
     margin-right: auto;
     max-width: 800px;
+    z-index: 1;
+}
+
+div#hiddenContentFrame {
+    display: none;
+    z-index: -1;
 }
 
 div.pandaResult, div.zooResult {
@@ -337,7 +343,7 @@ a.emojiLink {
         padding: 0 0 0 0;
     }
 
-    div#pandaFrame {
+    div#contentFrame {
         margin-top: 0.5ex;
         margin-bottom: 0.5ex;
     }
