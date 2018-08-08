@@ -449,10 +449,10 @@ Show.displayPandaTitle = function(info) {
 // If the media exists for a panda, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
-Show.displayPhoto = function(info, frame_class) {
+Show.displayPhoto = function(info, frame_class, fallback) {
   var image = document.createElement('img');
   image.src = info.photo;
-  img.onerror = "this.src='images/no-panda.jpg'";
+  img.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
   div.class = frame_class;
   div.appendChild(image);
@@ -466,7 +466,7 @@ Show.displayPhoto = function(info, frame_class) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, slip_in, language) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info, 'pandaPhoto');
+  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
