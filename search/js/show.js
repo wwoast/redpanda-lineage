@@ -421,14 +421,14 @@ Show.displayPandaParents = function(info, language) {
 // Do the non-litter siblings info in the family section
 Show.displayPandaSiblings = function(info, language) {
   var heading = document.createElement('h4');
-  heading.innerText = "Litter";
+  heading.innerText = "Siblings";
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (animal in Pandas.sortOldestToYoungest(info.siblings)) {
-    var litter_link = Show.animalLink(animal, animal[info.get_name], language, ["child_icon", "live_icon"])
+    var siblings_link = Show.animalLink(animal, animal[info.get_name], language, ["child_icon", "live_icon"])
     var li = document.createElement('li');
-    li.appendChild(litter_link);
+    li.appendChild(siblings_link);
     ul.appendChild(li);
   }
   var siblings = document.createElement('div');
