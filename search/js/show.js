@@ -187,7 +187,7 @@ Show.animalLink = function(animal, link_text, options) {
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
-    inner_text = inner_text + " " + Show.emoji.death;
+    inner_text = inner_text + " " + Show.emoji.died;
   } 
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
@@ -379,12 +379,13 @@ Show.displayPandaFamily = function(info) {
 }
 
 // Do the littermates info in the family section
-Show.displayPandaLitter = function(info, language) {
+Show.displayPandaLitter = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Litter";
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  for (animal in Pandas.sortOldestToYoungest(info.litter)) {
+  for (index in Pandas.sortOldestToYoungest(info.litter)) {
+    var animal = info.litter[index];
     var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
@@ -398,7 +399,7 @@ Show.displayPandaLitter = function(info, language) {
 }
 
 // Do mom and dad's info in the family section
-Show.displayPandaParents = function(info, language) {
+Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Parents";
   var ul = document.createElement('ul');
@@ -419,13 +420,14 @@ Show.displayPandaParents = function(info, language) {
 }
 
 // Do the non-litter siblings info in the family section
-Show.displayPandaSiblings = function(info, language) {
+Show.displayPandaSiblings = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Siblings";
 
   var ul = document.createElement('ul');
   ul.className = "pandaList";
-  for (animal in Pandas.sortOldestToYoungest(info.siblings)) {
+  for (index in Pandas.sortOldestToYoungest(info.siblings)) {
+    var animal = info.siblings[index];
     var siblings_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(siblings_link);
