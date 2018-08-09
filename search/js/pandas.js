@@ -492,7 +492,7 @@ Pandas.profilePhoto = function(animal, index) {
   var choice = "photos." + index.toString(); 
   if (photos[choice] == undefined) {
     var space = Object.keys(photos).length;
-    var index = Math.floor(Math.random() * space) + 1;
+    var index = Math.floor(Math.random() * space);
     choice = Object.keys(photos)[index];
   }
   // Return not just the chosen photo but the author and link as well
