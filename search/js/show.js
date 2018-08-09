@@ -168,14 +168,14 @@ Show.acquirePandaInfo = function(animal, language) {
 //    https://domain/search/index.html#panda/Lychee
 //    https://domain/search/index.html#panda/4
 Show.animalLink = function(animal, link_text, language, options) {
+  // Don't print content if the input id is zero
+  if (animal['_id'] == Pandas.def.animal['_id']) {
+    return Show.emptyLink(Show.emoji.alien + " " + link_text);
+  }
+
   // Set up values for other functions working properly
   // Gender search requires doing a table search by language.
   var gender = Pandas.gender(animal, language);
-
-  // Don't print content if the input id is zero
-  if (animal['_id'] == Pandas.def.animal['_id']) {
-    return Show.emptyLink(Pandas.def.animal[language + ".name"]);
-  }
   var a = document.createElement('a');
   var inner_text = link_text;
   // Option to display gender face
@@ -207,7 +207,10 @@ Show.animalLink = function(animal, link_text, language, options) {
 // If link is to an undefined item or the zero ID, return a spacer
 // TODO: final page layout
 Show.emptyLink = function(output_text) {
-  return null;  // TODO: link with the output text
+  var a = document.createElement('a');
+  a.innerText = output_text;
+  a.href = '#not_sure_yet';
+  return a;
 }
 
 // Construct a location string based on recorded location info for a zoo.
@@ -412,14 +415,26 @@ Show.displayPandaParents = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
-  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name],
-                                 info.language, ["mom_icon", "live_icon"]);
+  var mom_link = "";
+  if (info.mom != undefined) {
+    mom_link = Show.animalLink(info.mom, info.mom[info.get_name],
+                               info.language, ["mom_icon", "live_icon"]);
+  } else {
+    mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.unknown[info.language],
+                               info.language, ["mom_icon"])
+  }
   mom_li.appendChild(mom_link);
-  var dad_li = document.createElement('li');
-  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], 
-                                 info.language, ["dad_icon", "live_icon"]);
-  dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom_li);
+  var dad_li = document.createElement('li');
+  var dad_link = "";
+  if (info.dad != undefined) {
+    dad_link = Show.animalLink(info.dad, info.dad[info.get_name], 
+                               info.language, ["dad_icon", "live_icon"]);
+  } else {
+    dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.unknown[info.language],
+                               info.language, ["dad_icon"])
+  }
+  dad_li.appendChild(dad_link);
   ul.appendChild(dad_li);
   var parents = document.createElement('div');
   parents.className = 'parents';
