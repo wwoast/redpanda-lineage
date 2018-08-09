@@ -385,19 +385,19 @@ Pandas.age = function(animal, language) {
   // Otherwise, print the age in terms of months and years, up to two years,
   // where you should just print the age in years.
   if (age_days < 2) {
-    return age_days.toString() + " " + Pandas.def.age[language]['day'];
+    return (Math.floor(age_days)).toString() + " " + Pandas.def.age[language]['day'];
   } else if (age_days <= 100) {
-    return age_days.toString() + " " + Pandas.def.age[language]['days'];
+    return (Math.floor(age_days)).toString() + " " + Pandas.def.age[language]['days'];
   } else if (age_days <= 365) {
     return age_months.toString() + " " + Pandas.def.age[language]['months'];
   } else if (age_days <= 395) {
     return "1" + " " + Pandas.def.age[language]['year'];
   } else if (age_days <= 425) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           age_months.toString() + Pandas.def.age[language]['month'];
+           (age_months - 12).toString() + " " + Pandas.def.age[language]['month'];
   } else if (age_days <= 730) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           age_months.toString() + Pandas.def.age[language]['months'];
+           (age_months - 12).toString() + " " + Pandas.def.age[language]['months'];
   } else {
     return age_years.toString() + " " + Pandas.def.age[language]['years'];
   }
