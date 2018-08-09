@@ -61,7 +61,10 @@ window.addEventListener('hashchange', function() {
   var results = Show.bootstrap(query);
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
-  new_content.appendChild(results);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(results);
+  new_content.appendChild(shrinker);
 
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
@@ -409,7 +412,6 @@ Show.displayPandaLitter = function(info) {
 }
 
 // Do mom and dad's info in the family section
-// TODO: if panda is missing, display as unknown instead
 Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Parents";

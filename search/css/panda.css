@@ -9,7 +9,7 @@ body {
     line-height: 1.4;
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
-    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
+    background: #366938;
 }
 
 div.topMenu {
@@ -132,20 +132,22 @@ img.fullFrame {
     width: 100%;
     object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
     opacity: 0.4;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
 div#contentFrame {
-    margin-top: 1ex;
-    margin-bottom: 1ex;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
     z-index: 1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
 div#hiddenContentFrame {
     display: none;
     z-index: -1;
+    background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
 div.pandaResult, div.zooResult {
@@ -349,8 +351,8 @@ a.emojiLink {
     }
 
     div#contentFrame {
-        margin-top: 0.5ex;
-        margin-bottom: 0.5ex;
+        padding-top: 0.5ex;
+        padding-bottom: 0.5ex;
     }
 
     input.search {
