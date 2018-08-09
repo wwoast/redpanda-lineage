@@ -154,6 +154,13 @@ Pandas.def.gender = {
   }
 }
 
+// Used for missing mothers and fathers, where capitalization is needed
+Pandas.def.no_name = {
+  "cn": "不明",
+  "en": "Unknown",
+  "jp": "未詳"
+}
+
 // Used for slip-ins in Panda dossiers for brothers/sisters/moms
 Pandas.def.relations = {
   "aunt": {

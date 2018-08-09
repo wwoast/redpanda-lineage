@@ -420,7 +420,7 @@ Show.displayPandaParents = function(info) {
     mom_link = Show.animalLink(info.mom, info.mom[info.get_name],
                                info.language, ["mom_icon", "live_icon"]);
   } else {
-    mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.unknown[info.language],
+    mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
                                info.language, ["mom_icon"])
   }
   mom_li.appendChild(mom_link);
@@ -431,7 +431,7 @@ Show.displayPandaParents = function(info) {
     dad_link = Show.animalLink(info.dad, info.dad[info.get_name], 
                                info.language, ["dad_icon", "live_icon"]);
   } else {
-    dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.unknown[info.language],
+    dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
                                info.language, ["dad_icon"])
   }
   dad_li.appendChild(dad_link);
