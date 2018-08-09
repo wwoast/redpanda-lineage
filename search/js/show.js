@@ -399,6 +399,7 @@ Show.displayPandaLitter = function(info) {
 }
 
 // Do mom and dad's info in the family section
+// TODO: if panda is missing, display as unknown instead
 Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
   heading.innerText = "Parents";

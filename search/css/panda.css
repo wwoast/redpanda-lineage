@@ -288,7 +288,7 @@ ul.pandaList li {
     padding-bottom: 0.5ex;
 }
 
-ul.pandaList li.passedAway {
+ul.pandaList li a.passedAway {
     color: gray;
 }
 
