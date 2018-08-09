@@ -99,6 +99,7 @@ Show.emoji = {
    "alien": "👽",
    "arrow": "➡",
 "birthday": "🎂",
+    "baby": "👶", 
     "born": "👼",
      "boy": "👦🏻",
   "camera": "📷",
@@ -321,7 +322,7 @@ Show.displayChildIcon = function(gender) {
   } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
     return Show.emoji.girl;
   } else {
-    return Show.emoji.alien;
+    return Show.emoji.baby;
   }
 }
 
