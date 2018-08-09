@@ -163,11 +163,15 @@ Show.acquirePandaInfo = function(animal, language) {
 // Construct an animal link as per parameters. Options include
 // whether to do a mom/dad/boy/girl icon, or whether to do a 
 // link within the page, versus a page wipe and redisplay.
+// Default link text requires a language translation.
 // Examples:
 //    https://domain/search/index.html#panda/Lychee
 //    https://domain/search/index.html#panda/4
-Show.animalLink = function(animal, link_text, options) {
-  var language = animal.language;
+Show.animalLink = function(animal, link_text, language, options) {
+  // Set up values for other functions working properly
+  // Gender search requires doing a table search by language.
+  var gender = Pandas.gender(animal, language);
+
   // Don't print content if the input id is zero
   if (animal['_id'] == Pandas.def.animal['_id']) {
     return Show.emptyLink(Pandas.def.animal[language + ".name"]);
@@ -176,7 +180,7 @@ Show.animalLink = function(animal, link_text, options) {
   var inner_text = link_text;
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    inner_text = Show.displayChildIcon(animal.gender) + " " + inner_text;
+    inner_text = Show.displayChildIcon(gender) + " " + inner_text;
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
@@ -286,13 +290,14 @@ Show.displayEmptyResult = function(language) {
 }
 
 // Male and female icons next to pandas used for panda links.
+// This 
 // This uses unlocalized m/f/unknown gender values, and displays
 // an alien face if the gender is not determined as a joke
 Show.displayChildIcon = function(gender) {
-  if (gender == "m") {
-    return Show.emoji.male;
-  } else if (gender == "f") {
-    return Show.emoji.female;
+  if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
+    return Show.emoji.boy;
+  } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
+    return Show.emoji.girl;
   } else {
     return Show.emoji.alien;
   }
@@ -386,7 +391,8 @@ Show.displayPandaLitter = function(info) {
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.litter)) {
     var animal = info.litter[index];
-    var litter_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
+    var litter_link = Show.animalLink(animal, animal[info.get_name], 
+                                      info.language, ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(litter_link);
     ul.appendChild(li);
@@ -406,10 +412,12 @@ Show.displayPandaParents = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
-  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name], ["mom_icon", "live_icon"]);
+  var mom_link = Show.animalLink(info.mom, info.mom[info.get_name],
+                                 info.language, ["mom_icon", "live_icon"]);
   mom_li.appendChild(mom_link);
   var dad_li = document.createElement('li');
-  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], ["dad_icon", "live_icon"]);
+  var dad_link = Show.animalLink(info.dad, info.dad[info.get_name], 
+                                 info.language, ["dad_icon", "live_icon"]);
   dad_li.appendChild(dad_link);  // TODO: check what kind of link a missing parent gets
   ul.appendChild(mom_li);
   ul.appendChild(dad_li);
@@ -429,7 +437,8 @@ Show.displayPandaSiblings = function(info) {
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
     var animal = info.siblings[index];
-    var siblings_link = Show.animalLink(animal, animal[info.get_name], ["child_icon", "live_icon"])
+    var siblings_link = Show.animalLink(animal, animal[info.get_name], 
+                                        info.language, ["child_icon", "live_icon"])
     var li = document.createElement('li');
     li.appendChild(siblings_link);
     ul.appendChild(li);
