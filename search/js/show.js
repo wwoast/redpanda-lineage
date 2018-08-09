@@ -361,13 +361,13 @@ Show.displayPandaDetails = function(info) {
 // other siblings, ordered by birthday. This is the pink stripe
 // at the bottom of a family dossier.
 Show.displayPandaFamily = function(info) {
+  var family = document.createElement('div');
+  family.className = "family";
   if ((info.dad == undefined && info.mom == undefined) &&
       (info.litter.length == 0) &&
       (info.siblings.length == 0))  {
-    return;   // No documented family
+    return family;   // No documented family
   }
-  var family = document.createElement('div');
-  family.className = "family";
   if (info.dad != undefined || info.mom != undefined) {
     var parents = Show.displayPandaParents(info);
     family.appendChild(parents);
