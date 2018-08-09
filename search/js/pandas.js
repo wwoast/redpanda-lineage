@@ -432,8 +432,8 @@ Pandas.field = function(animal, field) {
 // Given an animal and a language, return the proper gender string.
 Pandas.gender = function(animal, language) {
   var gender = animal["gender"];
-  return gender == "undefined" ? Pandas.def.unknown[language] 
-                               : Pandas.def.gender[gender][language];
+  return gender == undefined ? Pandas.def.unknown[language] 
+                             : Pandas.def.gender[gender][language];
 }
 
 // Given an animal and a chosen language, return details for a red panda.
