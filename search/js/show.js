@@ -111,6 +111,8 @@ Show.emoji = {
    "money": "💸",
   "mother": "👩🏻",
   "random": "🎲",
+"star_dad": "👨‍🎤",
+"star_mom": "👩‍🎤",
    "story": "🎍",
   "travel": "✈️",
  "website": "🌐"
@@ -172,9 +174,17 @@ Show.acquirePandaInfo = function(animal, language) {
 //    https://domain/search/index.html#panda/Lychee
 //    https://domain/search/index.html#panda/4
 Show.animalLink = function(animal, link_text, language, options) {
-  // Don't print content if the input id is zero
+  // Don't print content if the input id is zero. If these are
+  // fill-in links for moms or dads, use the Aladdin Sane icons :)
   if (animal['_id'] == Pandas.def.animal['_id']) {
-    return Show.emptyLink(Show.emoji.alien + " " + link_text);
+    var alien = Show.emoji.alien;
+    if (options.indexOf("mom_icon") != -1) {
+      alien = Show.emoji.star_mom;
+    }
+    if (options.indexOf("dad_icon") != -1) {
+      alien = Show.emoji.star_dad;
+    }
+    return Show.emptyLink(alien + " " + link_text);
   }
 
   // Set up values for other functions working properly
