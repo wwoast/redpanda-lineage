@@ -66,7 +66,8 @@ window.addEventListener('hashchange', function() {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
   var old_content = document.getElementById('contentFrame');
-  body.appendChild(new_content);
+  // Place the new content right after the old content
+  old_content.parentNode.insertBefore(new_content, old_content.nextSibling);
   old_content.style.display = "none";
   new_content.style.display = "block";
   body.removeChild(old_content);
