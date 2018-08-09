@@ -75,8 +75,12 @@ window.addEventListener('hashchange', function() {
   new_content.style.display = "block";
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
-});
 
+  if (body.lastElementChild.className != "footer") {
+    var footer = Show.footer();
+    body.appendChild(footer);
+  }
+});
 
 /*
     Presentation logic
@@ -114,6 +118,7 @@ Show.emoji = {
 "star_dad": "👨‍🎤",
 "star_mom": "👩‍🎤",
    "story": "🎍",
+     "top": "⬆",
   "travel": "✈️",
  "website": "🌐"
 }
@@ -532,6 +537,30 @@ Show.pandaInformation = function(animal, slip_in, language) {
   result.appendChild(photo);
   result.appendChild(dossier);
   return result; 
+}
+
+Show.footer = function() {
+  var p = document.createElement('p');
+  var top_link = document.createElement('a');
+  top_link.className = "emojiLink";
+  top_link.href = "#pageTop";
+  top_link.innerText = Show.emoji.top;
+  p.appendChild(top_link);
+  var msg1 = document.createTextNode(" All information courtesy of the ");
+  p.appendChild(msg1);
+  var rpl = document.createElement('a');
+  rpl.href = "https://github.com/wwoast/redpanda-lineage"
+  rpl.innerText = "Red Panda Lineage"
+  p.appendChild(rpl);
+  var msg2 = document.createTextNode(" dataset, curated by red panda fans worldwide. Any media linked from this dataset remains property of the media creator. Layout and design \u00A9 2018 Justin Fairchild.");
+  p.appendChild(msg2);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var footer = document.createElement('div');
+  footer.className = "footer";
+  footer.appendChild(shrinker);
+  return footer;
 }
 
 // Format the results for a single search as divs.
