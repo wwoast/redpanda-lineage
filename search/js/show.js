@@ -552,7 +552,7 @@ Show.footer = function() {
   rpl.href = "https://github.com/wwoast/redpanda-lineage"
   rpl.innerText = "Red Panda Lineage"
   p.appendChild(rpl);
-  var msg2 = document.createTextNode(" dataset, curated by red panda fans worldwide. Any media linked from this dataset remains property of the media creator. Layout and design \u00A9 2018 Justin Fairchild.");
+  var msg2 = document.createTextNode(" dataset and red panda fans worldwide. Any media linked from this dataset remains property of its creator. Layout and design \u00A9 2018 Justin Fairchild.");
   p.appendChild(msg2);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
