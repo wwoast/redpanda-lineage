@@ -106,7 +106,7 @@ Show.emoji = {
    "alien": "👽",
    "arrow": "➡",
 "birthday": "🎂",
-    "baby": "👶", 
+    "baby": "👶🏻", 
     "born": "👼",
      "boy": "👦🏻",
   "camera": "📷",
