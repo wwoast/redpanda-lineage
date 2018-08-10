@@ -331,6 +331,12 @@ div.vitamins {
     display: none;
 }
 
+div.pandaAbout {
+    color: white;
+    margin-left: 14px;
+    margin-right: 8px;
+}
+
 
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
@@ -455,4 +461,9 @@ div.vitamins {
         float: left;
         padding-right: 8px;
     }
+
+    div.pandaAbout p {
+        margin-left: 8px;
+        margin-right: 8px;
+    }    
 }
