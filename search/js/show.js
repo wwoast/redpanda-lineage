@@ -58,12 +58,19 @@ window.addEventListener('hashchange', function() {
   var query = this.window.location.hash.slice(1);  // Everything after the #
 
   // Start by just displaying info for one panda by id search
-  var results = Show.bootstrap(query);
+  var results = Query.bootstrap(query);
+  results = results instanceof Array ? results : [results];   // Guarantee array
+  var content_divs = [];
+  results.forEach(function(animal) {
+    content_divs.push(Show.pandaInformation(animal, undefined, "en"));
+  });
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(results);
+  content_divs.forEach(function(content_div) {
+    shrinker.appendChild(content_div);
+  });
   new_content.appendChild(shrinker);
 
   // Append the new content into the page and then swap it in
@@ -313,7 +320,6 @@ Show.displayEmptyResult = function(language) {
 }
 
 // Male and female icons next to pandas used for panda links.
-// This 
 // This uses unlocalized m/f/unknown gender values, and displays
 // an alien face if the gender is not determined as a joke
 Show.displayChildIcon = function(gender) {

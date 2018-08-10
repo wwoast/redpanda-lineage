@@ -144,7 +144,7 @@ Eventually single-panda results will also display timeline-related data for a pa
 Found {number} pandas with {name}. Results are sorted from youngest to oldest.
 ```
 
-If you search for a panda by name, and there are multiple pandas with that name, the search results should only provide the list of pandas whose names match what you searched for. Ideally, the sorting order would be based on what zoos are most popular, but this isn't something we can reasonably track in the lineage database. Its most likely that pandas you want are on display, which means we should sort based first on youthfulness, and then display any pandas who have passed away afterwards, also in order of age.
+If you search for a panda by name, and there are multiple pandas with that name, the search results should only provide the list of pandas whose names match what you searched for. Ideally, the sorting order would be based on what zoos are most popular, but this isn't something we can reasonably track in the lineage database. It's most likely that pandas you want are on display, which means we should sort based first on youthfulness, and then display any pandas who have passed away afterwards, also in order of age.
 
 ### Search for a Zoo
 

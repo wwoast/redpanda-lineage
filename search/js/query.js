@@ -48,7 +48,7 @@ Query.myLanguage = function(input) {
 // 6) String match as if type was a zoo
 // 7) String match as if type was a location
 // 8) String match as if type was a date
-Query.resolve = function(input, type, language) {
+Query.resolve = function(single_term, type, language) {
   var bundle = {
     "object": null,
     "language": language,
@@ -56,22 +56,43 @@ Query.resolve = function(input, type, language) {
   }
   // 1. Process numeric IDs, defaulting to assume it is
   // a panda unless otherwise described.
-  if (Query.isId(input)) {
+  if (Query.isId(single_term)) {
     if (type == "zoo") {
-      bundle.object = Pandas.searchZooId(input);
+      bundle.object = Pandas.searchZooId(single_term);
     } else if (type == "panda") {
-      bundle.object = Pandas.searchPandaId(input);
+      bundle.object = Pandas.searchPandaId(single_term);
     } else {
       bundle.type = "panda";
-      bundle.object = Pandas.searchPandaId(input);
+      bundle.object = Pandas.searchPandaId(single_term);
     }
     return bundle;
   }
-  // TODO: the rest of the resolution steps for strings
+  // TODO: the rest of the resolution steps for strings.
+  // For now, anything that's not a number is a string.
+  // For English strings, our names are capitalized in
+  // the database.
+  single_term = single_term.replace(/^\w/, function(chr) {
+    return chr.toUpperCase();
+  });
+  bundle.object = Pandas.searchPandaName(single_term);
   return bundle;
+}
+
+// Split input into words, and ascribe meanings to each one.
+// Return a bundle with an array of terms, with an array of meanings.
+Query.tokenize = function(input) {
+  var bundle = {};
+  var terms = input.split(' ');
 }
 
 /*
     Query processing rules
 */
+// Bootstrapped query processing. Supports one term, and assumes numbers
+// are panda IDs and strings are panda names.
+Query.bootstrap = function(input) {
+  var single_term = input.split(' ')[0];
+  var bundle = Query.resolve(single_term, "panda", "en");
+  return bundle.object;
+}
 // TOWRITE
