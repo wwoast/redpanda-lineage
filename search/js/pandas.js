@@ -366,7 +366,7 @@ Pandas.sortOldestToYoungest = function(nodes) {
 // Given an animal's birthday, return their age up to today or the day they died.
 Pandas.age = function(animal, language) {
   var birth = animal['birthday'];
-  if (birth == undefined) {
+  if ((birth == undefined) || (birth == "unknown")) {
     return Pandas.def.unknown[language];
   }
   var birthday = new Date(birth);
@@ -412,7 +412,7 @@ Pandas.birthday = function(animal, language) {
 // in the local format. The database always tracks dates in YYYY/MM/DD format.
 Pandas.date = function(animal, field, language) {
   var date = animal[field];
-  if (date == undefined) {
+  if ((date == undefined) || (date == "unknown")) {
     return Pandas.def.unknown[language];
   }
   var format = Pandas.def.date[language];
