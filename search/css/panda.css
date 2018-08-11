@@ -364,8 +364,8 @@ div.pandaAbout {
     }
 
     div#contentFrame {
-        padding-top: 0.5ex;
-        padding-bottom: 0.5ex;
+        padding-top: 0.1ex;
+        padding-bottom: 0.1ex;
     }
 
     input.search {
