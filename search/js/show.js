@@ -378,7 +378,7 @@ Show.displayPandaDetails = function(info) {
   var details = document.createElement('div');
   details.className = "pandaDetails";
   details.appendChild(born);
-  if ((info.age == undefined) && (info.age == "unknown")) {
+  if ((info.age != undefined) && (info.age != "unknown")) {
     details.appendChild(second);
   }
   details.appendChild(zoo);
