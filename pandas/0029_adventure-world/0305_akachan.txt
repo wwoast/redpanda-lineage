@@ -1,16 +1,16 @@
 [panda]
-_id: 64
-birthday: unknown
-birthplace: unknown
+_id: 305
+birthday: 2018/8/5
+birthplace: 29
 children: none
-en.name: Kokoro
+en.name: Laila and Shinshin's Baby
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ココロ
+jp.name: unknown
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: none
 species: 2
 zoo: 29

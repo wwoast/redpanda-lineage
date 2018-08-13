@@ -2,7 +2,7 @@
 _id: 66
 birthday: unknown
 birthplace: unknown
-children: 62, 65, 64, 63
+children: 62, 65, 64, 63, 305
 en.name: Shinshin
 en.nicknames: none
 en.othernames: none
@@ -11,4 +11,6 @@ jp.name: シンシン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
+species: 2
 zoo: 29
