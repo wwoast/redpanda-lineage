@@ -1,0 +1,17 @@
+[panda]
+_id: 303
+birthday: 2002/7/2
+birthplace: 1
+children: 11, 111, 265, 55, 56
+death: unknown
+en.name: Katsuo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カツオ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 2
+zoo: 1
