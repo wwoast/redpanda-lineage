@@ -3,9 +3,9 @@ _id: 45
 birthday: 2012/7/3 
 birthplace: 8
 children: unknown
-en.name: Fūna
+en.name: Fuuna
 en.nicknames: Greens
-en.othernames: none
+en.othernames: Fūna
 gender: f
 jp.name: 風菜
 jp.nicknames: none
@@ -18,4 +18,14 @@ photo.1.link: https://www.instagram.com/_rifa_p/
 photo.2: https://www.instagram.com/p/BkxU7muFqgX/media/?size=m
 photo.2.author: lsdar13
 photo.2.link: https://www.instagram.com/lsdar13/
+photo.3: https://www.instagram.com/p/BfwlHmeBNuW/media/?size=m
+photo.3.author: _rifa_p
+photo.3.link: https://www.instagram.com/_rifa_p/
+photo.4: https://www.instagram.com/p/Bf630QkBeBu/media/?size=m
+photo.4.author: _rifa_p
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.5: https://www.instagram.com/p/Bft-03RBjg8/media/?size=m
+photo.5.author: _rifa_p
+photo.5.link: https://www.instagram.com/_rifa_p/
+species: 2
 zoo: 23
