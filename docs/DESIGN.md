@@ -11,7 +11,7 @@ The Red Panda Lineage dataset is managed as a series of folders and text files. 
 
 The intent is for anyone with a text editor to easily be able to contribute to the dataset. Unfortunately, it is burdensome to contribute for people that don't understand software development workflows with GitHub, partly because `git` itself has a high barrier to understanding, and partly because this dataset quickly grew to hundreds of text files, which requires a development-grade text editing strategy to effectively manage. 
 
-### Text Format
+### Simple Text Format + Schema Expansion
 
 All text files follow a loose standard typically used by `.ini` files, and supported by the Python `configparser` library. This `.ini` standard is limited to `key: value` pairs, without hierarchies or complex data types for values. This is intended to keep the schemas as simple to write and understand as possible, while still supporting enough flexibility for new keys (field types) to be added as the lineage dataset evolves. 
 
@@ -218,14 +218,29 @@ However, by utilizing ''hash links'', such as the common `<a href="#next-section
 
 Hash links don't look quite as pretty as visiting a domain and subfolders, but they also don't deceive users about what's a network resource versus a local one. Most importantly, you can still bookmark hash links and copy/paste them into messages to your friends.
 
-Here's a proposed routing map for the Red Panda Lineage search page, which will grow as I determine I need more easy-to-type links into particular views of the red panda data:
+### Routing Hierarchy
 
- * `#panda=<id or name>`
-   * Loads a single panda, as well as their immediate relatives
-   * Uses searching under the hood to verify what language the search is under
- * `#query=<query string>`
-   * Performs a search in the search box, with whatever search a user previously typed
-   * This means you can bookmark arbitrarily complex searches
- * `#zoo=<id or name>`
-   * Loads a single zoo, as well as any pandas at that zoo that are alive
-   * Uses searching under the hood to verify what language the search is under
+ * `#panda` links will scope to individual animal references
+ * `#zoo` links will scope to individual zoo references
+ * `#query` links will scope to results in the style of search query processing, which may include many results
+
+### Routing Strategies For Known Entities (Pandas, Zoos)
+
+Since all links in the a page of panda results will be ''hash links'', we need to differentiate between two different flavors of links for different use cases:
+
+ * Traditional ''hash links'' which scroll forward to find an `#identifier` in the page.
+   * I'm calling these ''in links'' since they don't cause the entire page to redraw
+   * Their format will use underscores: `<a href="#panda_4">` will find Lychee in the search results
+ * Links which load information for a specific panda, and wipe any existing search results.
+   * I'm calling these ''go links'' since they'll appear to work very similarly to traditional off-page links
+   * Their format will use slashes, like a folder: `<a href="#panda/4">` will load Lychee's detailed information
+
+All of these links need to specify exact matches for zoos or pandas to function properly, so the routes will only support ID numbers for entities.
+
+Go links should also encode the current displayed panda photo in the search results, so that when loading the detailed panda information (which includes a photo carousel), the larger photo loaded will match the smaller one displayed previously. So in practice, many Panda ''go links'' will look like `<a href="#panda/4/photo/1">`. 
+
+### Routing Strategy for Queries
+
+A query URI should specify the exact search performed, so that it can be directly linked. If the query can be expressed as a  UTF-8 string, the fact that it's a ''hash link'' should mean the web server won't try to do any unexpected processing or routing on its own. Example: `<a href="#query/panda: lychee OR panda: hao">`
+
+Queries may be complex and arbitrary enough that we need to start worrying about misuse or malformed input, for something like a cross-site scripting (XSS) attempt. So an upper-limit on query length should be enforced, something like 50 characters or so. This will also prevent the graph database from trying to load results for a large number of animals, which due to graph traversing, can be multiple times larger than the initial dataset!
