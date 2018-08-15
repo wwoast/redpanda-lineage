@@ -46,7 +46,7 @@ $(function() {
     // Allow searches using special characters like #. The escape function doesn't
     // support unicode, so use encodeURI instead.
     query = encodeURI(query);
-    window.location = "#" + query;
+    window.location = "#query/" + query;
   });
 });
 
@@ -55,10 +55,9 @@ $(function() {
     text and present new content.
 */
 window.addEventListener('hashchange', function() {
-  var query = this.window.location.hash.slice(1);  // Everything after the #
-
+  var input = this.window.location.hash;
   // Start by just displaying info for one panda by id search
-  var results = Query.bootstrap(query);
+  var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   results.forEach(function(animal) {

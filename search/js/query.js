@@ -95,4 +95,40 @@ Query.bootstrap = function(input) {
   var bundle = Query.resolve(single_term, "panda", "en");
   return bundle.object;
 }
-// TOWRITE
+// TOWRITE MORE
+
+/*
+    Hash-Link Processing
+*/
+// Differentiate between events that change the hashlink on a page.
+Query.hashlink = function(input) {
+  if ((input.indexOf("#panda_") == 0) || (input.indexOf("#zoo_") == 0)) {
+    // in-links don't need a redraw
+    return false;
+  } else if (input.indexOf("#panda/") == 0) {
+    // go-link for a single panda result.
+    // for now, just a search result. soon, a detailed result page
+    var panda = input.slice(7);
+    var bundle = Query.resolve(panda, "panda", "en");
+    return bundle.object;
+  } else if (input.indexOf("#zoo/") == 0) {
+    // go-link for a single zoo result.
+    var zoo = input.slice(5);
+    var bundle = Query.resolve(zoo, "zoo", "en");
+    return bundle.object;
+  } else if (input.indexOf("#timeline/") == 0) {
+    // show full info and timeline for a panda. TODO
+    var panda = input.slice(10);
+    var bundle = Query.resolve(panda, "panda", "en");
+    return bundle.object;
+  } else if (input.indexOf("#query/") == 0) {
+    // process a query. TODO: better
+    var query = input.slice(7);
+    var single_term = query.split(' ')[0];
+    var bundle = Query.resolve(single_term, "panda", "en");
+    return bundle.object;
+  } else {
+    // Don't know how to process the hashlink, so do nothing
+    return false;
+  }
+}
