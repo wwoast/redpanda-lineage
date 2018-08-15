@@ -116,6 +116,11 @@ Query.hashlink = function(input) {
     var zoo = input.slice(5);
     var bundle = Query.resolve(zoo, "zoo", "en");
     return bundle.object;
+  } else if (input.indexOf("#timeline/") == 0) {
+    // show full info and timeline for a panda. TODO
+    var panda = input.slice(10);
+    var bundle = Query.resolve(panda, "panda", "en");
+    return bundle.object;
   } else if (input.indexOf("#query/") == 0) {
     // process a query. TODO: better
     var query = input.slice(7);
