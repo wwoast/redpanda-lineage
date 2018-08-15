@@ -275,7 +275,7 @@ div.family {
     min-width: 300px;
 }
 
-div.parents, div.litter, div.siblings, div.names {
+div.parents, div.litter, div.siblings, div.children, div.names {
     display: inline-block;
     vertical-align: top;
     text-align: center;
@@ -369,6 +369,51 @@ div.detailsPhoto img {
     height: 80vh;
 }
 
+div.detailsLocationTitle {
+    display: block;
+    text-align: center;
+    background-color: #755085;
+    border-bottom: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsLocation {
+    display: block;
+    text-align: center;
+    min-width: 300px;
+    background-color: #9771A7; /* Grapes */
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+span.detail {
+    display: block;
+    font-size: 10pt;
+}
+
+div.detailsVideo {
+    background-color: #366938; /* Match the menu background */
+    border: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsFamilyTitle {
+    display: block;
+    text-align: center;
+    background-color: #C28660;
+    border-bottom: 1px solid #033605; /* Bamboo Green */
+}
+
+div.detailsFamily {
+    display: block;
+    text-align: center;
+    background-color: #E4A880;
+    border: 1px solid #033605; /* Bamboo Green */
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+}
+
+
+
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
@@ -458,7 +503,7 @@ div.detailsPhoto img {
 
     /* Masonry layout tricks, the column width must be 100%.
        Zero the padding so it's not bigger than 100% */
-    div.parents, div.litter, div.siblings, div.names {
+    div.parents, div.litter, div.siblings, div.children, div.names {
         width: 100%;
         padding-right: 14px;
         text-align: left;

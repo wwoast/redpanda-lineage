@@ -127,7 +127,8 @@ Show.emoji = {
    "story": "🎍",
      "top": "⬆",
   "travel": "✈️",
- "website": "🌐"
+ "website": "🌐",
+     "zoo": "🦁"
 }
 
 // TODO: key on other language versions of country names
@@ -581,10 +582,4 @@ Show.pandaResults = function(animals, slip_in) {
   }
 
   // TODO: Get and display all info for this panda
-}
-
-// Test function. Just search an ID, and show results
-Show.bootstrap = function(id) {
-  var animal = Pandas.searchPandaId(id);
-  return Show.pandaInformation(animal, undefined, "en");
 }

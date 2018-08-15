@@ -88,13 +88,6 @@ Query.tokenize = function(input) {
 /*
     Query processing rules
 */
-// Bootstrapped query processing. Supports one term, and assumes numbers
-// are panda IDs and strings are panda names.
-Query.bootstrap = function(input) {
-  var single_term = input.split(' ')[0];
-  var bundle = Query.resolve(single_term, "panda", "en");
-  return bundle.object;
-}
 // TOWRITE MORE
 
 /*
