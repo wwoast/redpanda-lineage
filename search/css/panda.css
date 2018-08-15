@@ -362,7 +362,9 @@ div.detailsName {
     display: block;
     text-align: center;
     background-color: #EDC1D7;
-    border: 1px solid #033605; /* Bamboo Green */
+    border-left: 1px solid #033605; /* Bamboo Green */
+    border-right: 1px solid #033605; /* Bamboo Green */
+    border-top: 1px solid #033605; /* Bamboo Green */
 }
 
 div.detailsPhoto img {
@@ -372,7 +374,8 @@ div.detailsPhoto img {
 div.detailsLocationTitle {
     display: block;
     text-align: center;
-    background-color: #755085;
+    /* background-color: #755085; /* Dark Grapes */
+    background-color: yellowgreen;
     border-bottom: 1px solid #033605; /* Bamboo Green */
 }
 
@@ -381,7 +384,6 @@ div.detailsLocation {
     text-align: center;
     min-width: 300px;
     background-color: #9771A7; /* Grapes */
-    margin-top: 1ex;
     margin-bottom: 1ex;
     border: 1px solid #033605; /* Bamboo Green */
 }
@@ -399,7 +401,7 @@ div.detailsVideo {
 div.detailsFamilyTitle {
     display: block;
     text-align: center;
-    background-color: #C28660;
+    background-color: #C28660; /* Goldenrod */
     border-bottom: 1px solid #033605; /* Bamboo Green */
 }
 
