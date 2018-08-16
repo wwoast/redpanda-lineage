@@ -447,7 +447,7 @@ Show.displayPandaFamily = function(info) {
   // so maybe we get better balancing of the content.
   if ((family.children.length == 3) &&
       (window.matchMedia("(max-width: 630px)"))) {
-    div.family.style.columnCount = 2;
+    family.style.columnCount = 2;
   }
   return family;
 }
