@@ -510,8 +510,8 @@ div.detailsFamily {
        Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings, div.children, div.names {
         width: 100%;
-        max-width: 156px;
-        padding-right: 14px;
+        max-width: 150px;
+        padding-right: 6px;
         text-align: left;
     } 
 

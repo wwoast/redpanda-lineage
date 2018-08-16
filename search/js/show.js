@@ -424,7 +424,7 @@ Show.displayPandaFamily = function(info) {
   if ((info.dad == undefined && info.mom == undefined) &&
       (info.litter.length == 0) &&
       (info.siblings.length == 0) &&
-      (info.children.lenght == 0))  {
+      (info.children.length == 0))  {
     return family;   // No documented family
   }
   if (info.dad != undefined || info.mom != undefined) {
@@ -443,6 +443,8 @@ Show.displayPandaFamily = function(info) {
     var children = Show.displayPandaChildren(info);
     family.appendChild(children);
   }
+  // TODO: media queries. If only three columns on mobile, do column-count: 2
+  // so maybe we get better balancing of the content.
   return family;
 }
 
