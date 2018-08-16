@@ -449,7 +449,6 @@ Show.displayPandaFamily = function(info) {
       (window.matchMedia("(max-width: 630px)")).matches == true) {
     family.style.columnCount = 2;
   }
-  family = Show.columnBalance(family);
   return family;
 }
 
