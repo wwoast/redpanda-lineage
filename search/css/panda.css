@@ -506,7 +506,13 @@ div.detailsFamily {
         border: 0px solid;
     }
 
-    /* Masonry layout tricks, the column width must be 100%.
+    /* Masonry layout tricks: Order the columns vertically
+       instead of horizontally, into two columns, on mobile. */
+    div.family {
+        column-count: 2;
+    }
+
+    /* Masonry layout tricks: the column width must be 100%.
        Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings, div.children, div.names {
         width: 100%;
