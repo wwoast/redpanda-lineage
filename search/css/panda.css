@@ -111,6 +111,16 @@ input[type='text'] {
     font-family: "Avenir Next", "Ubuntu", "Segoe UI", "Palatino Linotype", sans-serif;
 }
 
+input.search[disabled] {
+    background-color: white;
+    color: gray;
+}
+
+input.search[disabled]::placeholser {
+    background-color: white;
+    color: gray;
+}
+
 input.search {
     font-size: 38pt;
     width: 100%;

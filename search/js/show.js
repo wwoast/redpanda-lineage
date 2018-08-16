@@ -37,6 +37,9 @@ $(function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     // TOWRITE: enable search bar
+    var placeholder = "➤ Search...";
+    document.forms['searchForm']['searchInput'].disabled = false;
+    document.forms['searchForm']['searchInput'].placeholder = placeholder;
   });
 
   $('#searchForm').submit(function() {
