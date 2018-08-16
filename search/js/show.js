@@ -423,7 +423,8 @@ Show.displayPandaFamily = function(info) {
   family.className = "family";
   if ((info.dad == undefined && info.mom == undefined) &&
       (info.litter.length == 0) &&
-      (info.siblings.length == 0))  {
+      (info.siblings.length == 0) &&
+      (info.children.lenght == 0))  {
     return family;   // No documented family
   }
   if (info.dad != undefined || info.mom != undefined) {
