@@ -445,6 +445,10 @@ Show.displayPandaFamily = function(info) {
   }
   // TODO: media queries. If only three columns on mobile, do column-count: 2
   // so maybe we get better balancing of the content.
+  if ((family.children.length == 3) &&
+      (window.matchMedia("(max-width: 630px)"))) {
+    div.family.style.columnCount = 2;
+  }
   return family;
 }
 
