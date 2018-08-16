@@ -99,7 +99,7 @@ div.topSearch {
 div.shrinker {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
+    max-width: 860px;
 }
 
 form {
@@ -177,7 +177,7 @@ div.emptyResult {
     display: table;
     position: relative;
     clear: both;
-    max-width: 800px;
+    max-width: 860px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -188,7 +188,7 @@ div.emptyResult {
 }
 
 div.emptyResult img {
-    width: 800px;
+    width: 860px;
     max-width: 100%;
 }
 
@@ -218,8 +218,8 @@ div.pandaPhoto img, div.zooPhoto img {
 
 div.pandaDossier, div.zooDossier {
     display: table-cell;
-    background-color: #EDC1D7; /* Pink Lady Apples */
     vertical-align: top;
+    background-color: #EDC1D7; /* Pink Lady Apples */
     border-left: 1px solid #033605; /* Bamboo Green */
 }
 
@@ -283,6 +283,7 @@ h3, h4 {
 div.family {
     display: block;
     min-width: 300px;
+    background-color: #EDC1D7; /* Pink Lady Apples */
 }
 
 div.parents, div.litter, div.siblings, div.children, div.names {
@@ -418,13 +419,11 @@ div.detailsFamilyTitle {
 div.detailsFamily {
     display: block;
     text-align: center;
-    background-color: #E4A880;
+    background-color: #E4A880; /* Sunflower */
     border: 1px solid #033605; /* Bamboo Green */
     margin-top: 1ex;
     margin-bottom: 1ex;
 }
-
-
 
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
@@ -505,12 +504,6 @@ div.detailsFamily {
     div.pandaDossier, div.zooDossier {
         display: block;
         border: 0px solid;
-    }
-
-    /* Masonry layout tricks, order divs vertically instead of
-       horizontally, into two columns, on a phone screen. */
-    div.family {
-        column-count: 2;
     }
 
     /* Masonry layout tricks, the column width must be 100%.
