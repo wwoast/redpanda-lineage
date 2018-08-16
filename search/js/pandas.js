@@ -8,6 +8,7 @@
 */
 var Pandas = {};   // Namespace
 Pandas.def = {};   // Default values
+Pandas.loaded = new Event('panda_data');
 
 Pandas.P = {};     // Prototype
 
@@ -26,6 +27,7 @@ Pandas.init = function() {
   request.send();
   request.onload = function() {
     pandas.db = request.response;
+    window.dispatchEvent(Pandas.loaded);   // Report the data has loaded
   }
 
   return pandas;

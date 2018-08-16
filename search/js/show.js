@@ -33,13 +33,14 @@ $(function() {
   Q = Query.init();
   G = Dagoba.graph();
   // Hack to give time for P to load
-  setTimeout(function() { 
+  window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
-  }, 3000);
+    // TOWRITE: enable search bar
+  });
 
   $('#searchForm').submit(function() {
-    $('#searchForm').blur();   // Make iOS keyboard disappear after submitting
+    $('#searchForm').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
     var query = $('#searchInput').val().trim();
     var results = [];
     // TODO: Remove or escape any search processing characters here like commas
