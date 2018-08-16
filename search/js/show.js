@@ -36,7 +36,7 @@ $(function() {
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
-    // TOWRITE: enable search bar
+    // Enable search bar once the page has loaded
     var placeholder = "➤ Search...";
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
@@ -166,6 +166,7 @@ Show.acquirePandaInfo = function(animal, language) {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
+       "children": Pandas.searchPandaChildren(animal["_id"]),
           "death": Pandas.date(animal, "death", language),
             "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
@@ -491,6 +492,28 @@ Show.displayPandaSiblings = function(info) {
   }
   var siblings = document.createElement('div');
   siblings.className = 'siblings';
+  siblings.appendChild(heading);
+  siblings.appendChild(ul);
+  return siblings;
+}
+
+// Display panda children in the family section
+Show.displayPandaSiblings = function(info) {
+  var heading = document.createElement('h4');
+  heading.innerText = "Children";
+
+  var ul = document.createElement('ul');
+  ul.className = "pandaList";
+  for (index in Pandas.sortOldestToYoungest(info.children)) {
+    var animal = info.children[index];
+    var children_link = Show.animalLink(animal, animal[info.get_name], 
+                                        info.language, ["child_icon", "live_icon"])
+    var li = document.createElement('li');
+    li.appendChild(children_link);
+    ul.appendChild(li);
+  }
+  var siblings = document.createElement('div');
+  siblings.className = 'children';
   siblings.appendChild(heading);
   siblings.appendChild(ul);
   return siblings;

@@ -261,6 +261,18 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
+// Find a panda's direct litter
+Pandas.searchEdgeLitter = function(idnum) {
+  var nodes = G.v(idnum).in("litter").run();
+  return nodes;
+}
+
+// Find a panda's children
+Pandas.searchPandaChildren = function(idnum) {
+  var nodes = G.v(idnum).out("family").run();
+  return nodes;
+}
+
 // Find a panda's dad
 Pandas.searchPandaDad = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
@@ -281,12 +293,6 @@ Pandas.searchPandaField = function(query, field) {
 Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
   return node[0];
-}
-
-// Find a panda's direct litter
-Pandas.searchLitter = function(idnum) {
-  var nodes = G.v(idnum).in("litter").run();
-  return nodes;
 }
 
 // Find a panda's mother

@@ -113,12 +113,12 @@ input[type='text'] {
 
 input.search[disabled] {
     background-color: white;
-    color: gray;
+    color: white;
 }
 
-input.search[disabled]::placeholser {
+input.search[disabled]::placeholder {
     background-color: white;
-    color: gray;
+    color: lightgray;
 }
 
 input.search {
