@@ -356,6 +356,28 @@ Show.displayGender = function(info) {
   return gender;
 }
 
+// Display panda children in the family section
+Show.displayPandaChildren = function(info) {
+  var heading = document.createElement('h4');
+  heading.innerText = "Children";
+
+  var ul = document.createElement('ul');
+  ul.className = "pandaList";
+  for (index in Pandas.sortOldestToYoungest(info.children)) {
+    var animal = info.children[index];
+    var children_link = Show.animalLink(animal, animal[info.get_name], 
+                                        info.language, ["child_icon", "live_icon"])
+    var li = document.createElement('li');
+    li.appendChild(children_link);
+    ul.appendChild(li);
+  }
+  var siblings = document.createElement('div');
+  siblings.className = 'children';
+  siblings.appendChild(heading);
+  siblings.appendChild(ul);
+  return siblings;
+}
+
 // The dossier of information for a single panda.
 // This is the purple main information stripe for a panda.
 Show.displayPandaDetails = function(info) {
@@ -415,6 +437,10 @@ Show.displayPandaFamily = function(info) {
   if (info.siblings.length > 0) {
     var siblings = Show.displayPandaSiblings(info);
     family.appendChild(siblings);
+  }
+  if (info.children.length > 0) {
+    var children = Show.displayPandaChildren(info);
+    family.appendChild(children);
   }
   return family;
 }
@@ -492,28 +518,6 @@ Show.displayPandaSiblings = function(info) {
   }
   var siblings = document.createElement('div');
   siblings.className = 'siblings';
-  siblings.appendChild(heading);
-  siblings.appendChild(ul);
-  return siblings;
-}
-
-// Display panda children in the family section
-Show.displayPandaSiblings = function(info) {
-  var heading = document.createElement('h4');
-  heading.innerText = "Children";
-
-  var ul = document.createElement('ul');
-  ul.className = "pandaList";
-  for (index in Pandas.sortOldestToYoungest(info.children)) {
-    var animal = info.children[index];
-    var children_link = Show.animalLink(animal, animal[info.get_name], 
-                                        info.language, ["child_icon", "live_icon"])
-    var li = document.createElement('li');
-    li.appendChild(children_link);
-    ul.appendChild(li);
-  }
-  var siblings = document.createElement('div');
-  siblings.className = 'children';
   siblings.appendChild(heading);
   siblings.appendChild(ul);
   return siblings;
