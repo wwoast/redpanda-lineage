@@ -445,6 +445,7 @@ Show.displayPandaFamily = function(info) {
   }
   // TODO: media queries. If only three columns on mobile, do column-count: 2
   // so maybe we get better balancing of the content.
+  // TODO: looks far better on mobile than on chrome test
   if ((family.children.length == 3) &&
       (window.matchMedia("(max-width: 630px)"))) {
     family.style.columnCount = 2;
