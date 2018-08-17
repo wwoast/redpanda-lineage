@@ -276,6 +276,20 @@ Show.emptyLink = function(output_text) {
   return a;
 }
 
+// Read from info.othernames, and if it's not a language default, 
+// add an alternate spelling to the name information.
+Show.furigana = function(othernames) {
+  if (othernames == Pandas.def.animal["jp.othernames"]) {
+    return false;
+  }
+  othernames = othernames instanceof Array ? othernames : [othernames];   // Guarantee array
+  var chosen = othernames[0];
+  var p = document.createElement('p');
+  p.className = "furigana";
+  p.innerText = "(" + chosen + ")";
+  return p;
+}
+
 // Construct a location string based on recorded location info for a zoo.
 // This will optionally replace a country name with a flag, which takes
 // less horizontal space and conforms to the general in-flow emoji style
@@ -573,7 +587,11 @@ Show.displayPandaTitle = function(info) {
   // In Japanese, display the first "othername" as furigana
   // TODO: separate text class and node for furigana text
   if (language == "jp") {
-    name_div.innerText = info.name + "(" + info.othernames[0] + ")"
+    name_div.innerText = info.name;
+    var furigana = Show.furigana(info.othernames);
+    if (furigana != false) {
+      name_div.appendChild(furigana);
+    }
   } else {
     name_div.innerText = info.name;
   }

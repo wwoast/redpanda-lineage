@@ -173,6 +173,12 @@ div.pandaTitle a, div.pandaDossier a, div.pandaFamily a {
     color: black;
 }
 
+p.furigana {
+    display: inline;
+    font-size: 80%;
+    margin-left: 1ex;
+}
+
 div.emptyResult {
     display: table;
     position: relative;
