@@ -40,6 +40,11 @@ $(function() {
     var placeholder = "➤ Search...";
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
+
+    // If a hashlink was bookmarked, bring up the results of it
+    if (window.location.hash.length > 0) {
+      outputResults();
+    }
   });
 
   $('#searchForm').submit(function() {
@@ -58,7 +63,7 @@ $(function() {
     When the URL #hash changes, process it as a change in the search
     text and present new content.
 */
-window.addEventListener('hashchange', function() {
+function outputResults() {
   var input = this.window.location.hash;
   // Start by just displaying info for one panda by id search
   var results = Query.hashlink(input);
@@ -90,7 +95,12 @@ window.addEventListener('hashchange', function() {
     var footer = Show.footer();
     body.appendChild(footer);
   }
+}
+
+window.addEventListener('hashchange', function() {
+  outputResults();
 });
+
 
 /*
     Presentation logic
