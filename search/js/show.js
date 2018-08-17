@@ -443,11 +443,12 @@ Show.displayPandaFamily = function(info) {
     var children = Show.displayPandaChildren(info);
     family.appendChild(children);
   }
-  // TODO: media queries. If only three columns on mobile, do column-count: 2
-  // so maybe we get better balancing of the content.
-  if ((family.children.length == 3) &&
-      (window.matchMedia("(max-width: 630px)")).matches == true) {
-    family.style.columnCount = 2;
+  // TODO: media queries. If four columns on mobile, swap
+  // litter and siblings columns to get better balancing.
+  // Four columns means the litter should be defined
+  if ((family.children.length == 4) &&
+      (window.matchMedia("(max-width: 630px)").matches == true)) {
+    family.childNodes[2].parentNode.insertBefore(family.childNodes[2], family.childNodes[1]);
   }
   return family;
 }

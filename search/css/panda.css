@@ -506,11 +506,17 @@ div.detailsFamily {
         border: 0px solid;
     }
 
+    /* Masonry tricks: do vertical layout of ULs when
+       in mobile mode. */
+    div.family {
+        column-count: 2;
+    }
+
     /* Masonry layout tricks: the column width must be 100%.
        Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings, div.children, div.names {
         width: 100%;
-        max-width: 158px;
+        max-width: 148px;
         padding-right: 6px;
         text-align: left;
     } 
