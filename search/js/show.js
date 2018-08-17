@@ -104,9 +104,10 @@ window.addEventListener('hashchange', function() {
 });
 
 /*
-   Page language settings come from the browser's Accept-Language header.
-   Map a browser specified language to one of our supported options.
+   Language selection functions
 */
+// Page language settings come from the browser's Accept-Language header.
+// Map a browser specified language to one of our supported options.
 function defaultLanguage() {
   Object.keys(Pandas.def.languages).forEach(function(option) {
     if (navigator.languages.indexOf(option) != -1) {
