@@ -566,7 +566,11 @@ Show.displayPandaTitle = function(info) {
 // of space on the page.
 Show.displayPhoto = function(info, frame_class, fallback) {
   var image = document.createElement('img');
-  image.src = info.photo;
+  if (info.photo == undefined) {
+    image.src = fallback;
+  } else {
+    image.src = info.photo;
+  }
   image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
   div.className = frame_class;
