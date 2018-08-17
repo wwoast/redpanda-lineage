@@ -101,8 +101,8 @@ Pandas.def.age = {
     "days": "days"
   },
   "jp": {
-    "year": "年",
-    "years": "年",
+    "year": "歳",
+    "years": "歳",
     "month": "月",
     "months": "月",
     "day": "日",
