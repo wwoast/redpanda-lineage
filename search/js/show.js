@@ -49,6 +49,16 @@ $(function() {
     }
   });
 
+  document.getElementById('languageButton').addEventListener("click", function() {
+    var language = L;
+    var options = Object.values(Pandas.def.languages);
+    var choice = options.indexOf(language);
+    choice = (choice + 1) % options.length;
+    var new_language = options[choice];
+    L = new_language;
+    updateLanguage(L);
+  });  
+
   $('#searchForm').submit(function() {
     $('#searchForm').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
     var query = $('#searchInput').val().trim();
@@ -130,9 +140,17 @@ function updateLanguage(language) {
   [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
   langIcon.innerText = Show.gui.flag[language];
   langText.innerText = Show.gui.language[language];
-  // TODO: others
+  var aboutButton = document.getElementById('aboutButton');
+  [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
+  langText.innerText = Show.gui.about[language];
+  var randomButton = document.getElementById('randomButton');
+  [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
+  langText.innerText = Show.gui.random[language];
+  var linksButton = document.getElementById('linksButton');
+  [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
+  langText.innerText = Show.gui.links[language];
+  // TODO: column class text headers
 }
-
 
 /*
     Presentation logic
