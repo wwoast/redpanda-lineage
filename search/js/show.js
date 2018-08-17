@@ -110,9 +110,9 @@ window.addEventListener('hashchange', function() {
 // Map a browser specified language to one of our supported options.
 function defaultLanguage() {
   Object.keys(Pandas.def.languages).forEach(function(option) {
-    if (navigator.languages.indexOf(option) != -1) {
+    if ((navigator.languages.indexOf(option) != -1) &&
+        (L == undefined)) {
       L = Pandas.def.languages[option];
-      return;
     }
   });
   // Fallback to English
@@ -120,7 +120,17 @@ function defaultLanguage() {
     L = "en";
   }
   // TODO: choose flag icon and language options based on this
-  return;
+  updateLanguage(L);
+}
+
+// Update all GUI elements based on the currently chosen language
+// For now, just do the language button itself
+function updateLanguage(language) {
+  var languageButton = document.getElementById('languageButton');
+  [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
+  langIcon.innerText = Show.gui.flag[language];
+  langText.innerText = Show.gui.language[language];
+  // TODO: others
 }
 
 
@@ -178,6 +188,54 @@ Show.flags = {
    "Nepal": "🇳🇵",
   "Taiwan": "🇹🇼",
      "USA": "🇺🇸"
+}
+
+Show.gui = {
+  "about": {
+    "cn": "關於",
+    "en": "About",
+    "jp": "約"
+  },
+  "children": {
+    "cn": Pandas.def.relations.children["cn"],
+    "en": "Children",   // Capitalization
+    "jp": Pandas.def.relations.children["jp"]
+  },
+  "flag": {
+    "cn": Show.flags["China"],
+    "en": Show.flags["USA"],
+    "jp": Show.flags["Japan"]
+  },
+  "language": {
+    "cn": "漢語",
+    "en": "English",
+    "jp": "日本語"
+  },
+  "litter": {
+    "cn": Pandas.def.relations.litter["cn"],
+    "en": "Litter",   // Capitalization
+    "jp": Pandas.def.relations.litter["jp"]
+  },
+  "links": {
+    "cn": "鏈接",
+    "en": "Links",
+    "jp": "リンク"
+  },
+  "parents": {
+    "cn": Pandas.def.relations.parents["cn"],
+    "en": "Parents",   // Capitalization
+    "jp": Pandas.def.relations.parents["jp"]
+  },
+  "random": {
+    "cn": "隨機",
+    "en": "Random",
+    "jp": "ランダム"
+  },
+  "siblings": {
+    "cn": Pandas.def.relations.siblings["cn"],
+    "en": "Siblings",   // Capitalization
+    "jp": Pandas.def.relations.siblings["jp"]
+  }
 }
 
 Show.no_result = {

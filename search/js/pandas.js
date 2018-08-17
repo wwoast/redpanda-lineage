@@ -184,6 +184,11 @@ Pandas.def.relations = {
     "en": "brother",
     "jp": "兄"
   },
+  "children": {
+    "cn": "孩子",
+    "en": "children",
+    "jp": "子供"
+  },
   "cousin": {
     "cn": "表姐",
     "en": "cousin",
@@ -204,6 +209,11 @@ Pandas.def.relations = {
     "en": "grandmother",
     "jp": "おばあちゃん"
   },
+  "litter": {
+    "cn": "litter",
+    "en": "litter",
+    "jp": "litter"
+  },
   "mother": {
     "cn": "母",
     "en": "mother",
@@ -219,10 +229,20 @@ Pandas.def.relations = {
     "en": "niece",
     "jp": "姪"
   },
+  "parents": {
+    "cn": "父母",
+    "en": "parents",
+    "jp": "親"
+  },
   "sister": {
     "cn": "妹妹",
     "en": "sister",
     "jp": "姉"
+  },
+  "siblings": {
+    "cn": "兄弟姐妹",
+    "en": "siblings",
+    "jp": "兄弟"
   },
   "uncle": {
     "cn": "叔叔",
