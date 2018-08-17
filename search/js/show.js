@@ -420,7 +420,9 @@ Show.displayPandaDetails = function(info) {
   }
   details.appendChild(zoo);
   details.appendChild(location);
-  details.appendChild(credit);
+  if (info.photo_credit != undefined) {
+    details.appendChild(credit);
+  }
   return details;
 }
 
