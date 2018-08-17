@@ -223,6 +223,7 @@ Hash links don't look quite as pretty as visiting a domain and subfolders, but t
  * `#panda` links will scope to individual animal references
  * `#zoo` links will scope to individual zoo references
  * `#query` links will scope to results in the style of search query processing, which may include many results
+ * `#timeline` links will scope to full biography and timeline info for an individual animal
 
 ### Routing Strategies For Known Entities (Pandas, Zoos)
 
@@ -237,7 +238,7 @@ Since all links in the a page of panda results will be ''hash links'', we need t
 
 All of these links need to specify exact matches for zoos or pandas to function properly, so the routes will only support ID numbers for entities.
 
-Go links should also encode the current displayed panda photo in the search results, so that when loading the detailed panda information (which includes a photo carousel), the larger photo loaded will match the smaller one displayed previously. So in practice, many Panda ''go links'' will look like `<a href="#panda/4/photo/1">`. 
+Go links should also encode the current displayed panda photo in the search results, so that when loading the detailed panda information (which includes a photo carousel), the larger photo loaded will match the smaller one displayed previously. So in practice, many Panda ''go links'' will look like `<a href="#timeline/4/photo/1">`. 
 
 ### Routing Strategy for Queries
 

@@ -24,6 +24,7 @@
 var P;   // Pandas
 var Q;   // Query stack
 var G;   // Lineage graph
+var L;   // Current language
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -32,7 +33,8 @@ $(function() {
   P = Pandas.init();
   Q = Query.init();
   G = Dagoba.graph();
-  // Hack to give time for P to load
+
+  defaultLanguage();
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
@@ -70,7 +72,7 @@ function outputResults() {
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   results.forEach(function(animal) {
-    content_divs.push(Show.pandaInformation(animal, undefined, "en"));
+    content_divs.push(Show.pandaInformation(animal, undefined, L));
   });
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
@@ -100,6 +102,25 @@ function outputResults() {
 window.addEventListener('hashchange', function() {
   outputResults();
 });
+
+/*
+   Page language settings come from the browser's Accept-Language header.
+   Map a browser specified language to one of our supported options.
+*/
+function defaultLanguage() {
+  Object.keys(Pandas.def.languages).forEach(function(option) {
+    if (navigator.languages.indexOf(option) != -1) {
+      L = Pandas.def.languages[option];
+      return;
+    }
+  });
+  // Fallback to English
+  if (L == undefined) {
+    L = "en";
+  }
+  // TODO: choose flag icon and language options based on this
+  return;
+}
 
 
 /*

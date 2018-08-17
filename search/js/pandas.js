@@ -163,6 +163,15 @@ Pandas.def.no_name = {
   "jp": "未詳"
 }
 
+// Used for determining what languages are selectable. Don't add new languages
+// to this set until we're ready with panda data in that language. We look for
+// ISO-639-1 codes in the navigator.languages value, and map it to a language
+// definition used within this project's code.
+Pandas.def.languages = {
+  "en": "en",
+  "ja": "jp"
+}
+
 // Used for slip-ins in Panda dossiers for brothers/sisters/moms
 Pandas.def.relations = {
   "aunt": {
