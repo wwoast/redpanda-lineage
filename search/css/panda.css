@@ -232,7 +232,6 @@ div.pandaDossier, div.zooDossier {
 div.pandaTitle, div.zooTitle {
     display: block;
     text-align: left;
-    font-weight: bold;
     min-width: 300px;
     min-height: 32pt;
     background-color: yellowgreen;
