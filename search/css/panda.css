@@ -453,7 +453,7 @@ div.detailsFamily {
         display: table-row;
         font-size: 10pt;
         padding: 0 0 0 0;
-        white-space: no-wrap;  /* Fix iPhone text overflow for "Random" jp */
+        word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
     }
 
     div#contentFrame {
