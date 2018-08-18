@@ -1,0 +1,10 @@
+[zoo]
+_id: 66
+en.address: Calle Chivatito s/n 1ª sección del Bosque de Chapultepec, Col. San Miguel Chapultepec, 11850 Delegación Miguel Hidalgo, CDMX, Mexico
+en.location: Mexico City, Mexico
+en.name: Chapultepec Zoo
+es.address: Calle Chivatito s/n 1ª sección del Bosque de Chapultepec, Col. San Miguel Chapultepec, Bosque de Chapultepec I Secc, 11850 Delegación Miguel Hidalgo, CDMX, Mexico
+es.location: Ciudad de México
+es.name: Zoologico De Chapultepec
+language.order: es, en
+website: http://data.sedema.cdmx.gob.mx/zoo_chapultepec/

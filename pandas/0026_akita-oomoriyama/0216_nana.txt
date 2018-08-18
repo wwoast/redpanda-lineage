@@ -3,6 +3,7 @@ _id: 216
 birthday: 2001/7/13
 birthplace: unknown
 children: unknown
+death: 2018/2/9
 en.name: Nana
 en.nicknames: none
 en.othernames: none
@@ -11,4 +12,5 @@ jp.name: ナナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+species: 2
 zoo: 26

@@ -6,10 +6,12 @@ children: none
 en.name: Hana
 en.nicknames: none
 en.othernames: none
+en.oldnames: Himawari
 gender: f
 jp.name: ハナ
 jp.nicknames: none
 jp.othernames: none
+jp.oldnames: ヒマワリ
 language.order: jp, en
 litter: unknown
 species: 2

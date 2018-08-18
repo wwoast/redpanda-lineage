@@ -1,7 +1,7 @@
 [panda]
 _id: 64
-birthday: unknown
-birthplace: unknown
+birthday: 2015/6/19
+birthplace: 29
 children: none
 en.name: Kokoro
 en.nicknames: none
@@ -11,6 +11,6 @@ jp.name: ココロ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: none
 species: 2
 zoo: 29

@@ -1,0 +1,15 @@
+[panda]
+_id: 306
+birthday: unknown
+birthplace: unknown
+children: 136, 191, 157, 192, 287, 83 
+en.name: Ryutarou
+en.nicknames: none  
+en.othernames: none
+gender: m
+jp.name: 緑太郎
+jp.nicknames: none
+jp.othernames: リュウタロウ
+language.order: jp, en
+species: 2
+zoo: 17
