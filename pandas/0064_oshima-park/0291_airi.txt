@@ -1,7 +1,7 @@
 [panda]
 _id: 291
 birthday: 2006/6/20
-birthplace: unknown
+birthplace: 10
 children: 292
 en.name: Airi
 en.nicknames: none
@@ -11,6 +11,6 @@ jp.name: アイリ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 54
 species: 2
 zoo: 64
