@@ -3,13 +3,16 @@ _id: 136
 birthday: 2002/6/20 
 birthplace: 17
 children: unknown
-death: unknown
+death: 2018/2/6
 en.name: Fin-Fin
 en.nicknames: none
+en.oldnames: Tanpopo
 en.othernames: none
 gender: f
 jp.name: フィンフィン
 jp.nicknames: none
+jp.oldnames: タンポポ
 jp.othernames: none
 language.order: jp, en
+species: 2
 zoo: 15
