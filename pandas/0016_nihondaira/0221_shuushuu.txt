@@ -3,12 +3,12 @@ _id: 221
 birthday: unknown
 birthplace: unknown
 death: unknown
-children: 44
+children: 44, 59
 en.name: Shuu-Shuu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: unknown
+jp.name: シュウシュウ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
