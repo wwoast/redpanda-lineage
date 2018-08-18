@@ -1,6 +1,6 @@
 [panda]
 _id: 191
-birthday: unknown
+birthday: 2003/6/26
 birthplace: 17
 children: none
 death: unknown
@@ -8,8 +8,9 @@ en.name: Kitaro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: unknown
+jp.name: 黄太郎
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: キタロウ
 language.order: jp, en
+species: 2
 zoo: 54
