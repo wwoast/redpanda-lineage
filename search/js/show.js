@@ -344,6 +344,27 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
+// Determine if altname is not worth displaying for furigana by calculating
+// its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
+Show.editDistance = function(a, b){
+  if(!a || !b) return (a || b).length;
+  var m = [];
+  for(var i = 0; i <= b.length; i++){
+    m[i] = [i];
+    if(i === 0) continue;
+    for(var j = 0; j <= a.length; j++){
+      m[0][j] = j;
+      if(j === 0) continue;
+      m[i][j] = b.charAt(i - 1) == a.charAt(j - 1) ? m[i - 1][j - 1] : Math.min(
+        m[i-1][j-1] + 1,
+        m[i][j-1] + 1,
+        m[i-1][j] + 1
+      );
+    }
+  }
+  return m[b.length][a.length];
+};
+
 // If link is to an undefined item or the zero ID, return a spacer
 // TODO: final page layout
 Show.emptyLink = function(output_text) {
@@ -355,11 +376,19 @@ Show.emptyLink = function(output_text) {
 
 // Read from info.othernames, and if it's not a language default, 
 // add an alternate spelling to the name information.
-Show.furigana = function(othernames) {
+Show.furigana = function(name, othernames) {
   if (othernames == Pandas.def.animal["jp.othernames"]) {
     return false;
   }
-  othernames = othernames instanceof Array ? othernames : [othernames];   // Guarantee array
+  othernames = othernames.split(',')   // Guarantee array
+  othernames = othernames.filter(function(option) {
+    if (Show.editDistance(name, option) > 1) {
+      return option;
+    }
+  });
+  if (othernames.length == 0) {
+    return false;
+  }
   var chosen = othernames[0];
   var p = document.createElement('p');
   p.className = "furigana";
@@ -665,7 +694,7 @@ Show.displayPandaTitle = function(info) {
   // TODO: separate text class and node for furigana text
   if (language == "jp") {
     name_div.innerText = info.name;
-    var furigana = Show.furigana(info.othernames);
+    var furigana = Show.furigana(info.name, info.othernames);
     if (furigana != false) {
       name_div.appendChild(furigana);
     }
