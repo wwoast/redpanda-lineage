@@ -1,0 +1,19 @@
+[panda]
+_id: 308
+birthday: 2001/7/13
+birthplace: 17
+children: unknown
+death: unknown
+en.name: Hana
+en.nicknames: none  
+en.othernames: none
+gender: f
+jp.name: ハナ
+jp.nicknames: none
+jp.othernames: none
+es.name: Hana
+es.nicknames: unknown
+es.othernames: unknown
+language.order: jp, es, en
+species: 2
+zoo: 17
