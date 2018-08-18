@@ -332,9 +332,13 @@ Pandas.searchPandaMom = function(idnum) {
   return nodes[0];
 }
 
-// Find a panda by English name
+// Find a panda by any name field
 Pandas.searchPandaName = function(name) {
-  var nodes = G.v({"en.name": name}).run();
+  var en_nodes = G.v({"en.name": name}).run();
+  var jp_nodes = G.v({"jp.name": name}).run();
+  var nodes = en_nodes.concat(jp_nodes).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Am I the first value in the array?
+  });
   return nodes;
 }
 

@@ -63,10 +63,6 @@ $(function() {
     $('#searchForm').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
     var query = $('#searchInput').val().trim();
     var results = [];
-    // TODO: Remove or escape any search processing characters here like commas
-    // Allow searches using special characters like #. The escape function doesn't
-    // support unicode, so use encodeURI instead.
-    query = encodeURI(query);
     window.location = "#query/" + query;
   });
 });
@@ -76,7 +72,8 @@ $(function() {
     text and present new content.
 */
 function outputResults() {
-  var input = this.window.location.hash;
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
