@@ -296,6 +296,27 @@ Pandas.searchEdgeLitter = function(idnum) {
   return nodes;
 }
 
+// Find a value in a set of Panda's othernames
+Pandas.searchOthernames = function(name) {
+  var nodes = G.v().filter(function(animal) {
+    var languages = Object.values(Pandas.def.languages);
+    // Valid "otherfields" for supported languages
+    var otherfields = languages.map(function(l) {
+      return l + ".othernames";
+    });
+    for (var i in otherfields) {
+      field = otherfields[i];
+      if (animal[field] != undefined) {
+        othernames = animal[field].split(',');
+        if (othernames.indexOf(name) != -1) {
+          return animal;
+        }
+      }
+    }
+  }).run();
+  return nodes;
+}
+
 // Find a panda's children
 Pandas.searchPandaChildren = function(idnum) {
   var nodes = G.v(idnum).out("family").run();
@@ -336,7 +357,8 @@ Pandas.searchPandaMom = function(idnum) {
 Pandas.searchPandaName = function(name) {
   var en_nodes = G.v({"en.name": name}).run();
   var jp_nodes = G.v({"jp.name": name}).run();
-  var nodes = en_nodes.concat(jp_nodes).filter(function(value, index, self) { 
+  var on_nodes = Pandas.searchOthernames(name);
+  var nodes = en_nodes.concat(jp_nodes).concat(on_nodes).filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
   });
   return nodes;
