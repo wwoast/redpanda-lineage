@@ -138,7 +138,7 @@ function defaultLanguage() {
   if (L == undefined) {
     L = "en";
   }
-  // TODO: choose flag icon and language options based on this
+  // Update buttons, displayed results, and cookie state
   updateLanguage(L);
 }
 
