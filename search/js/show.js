@@ -59,6 +59,11 @@ $(function() {
     updateLanguage(L);
   });  
 
+  document.getElementById('randomButton').addEventListener("click", function() {
+    var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
+    window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  });
+
   $('#searchForm').submit(function() {
     $('#searchForm').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
     var query = $('#searchInput').val().trim();
