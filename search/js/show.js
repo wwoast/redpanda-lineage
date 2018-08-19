@@ -118,15 +118,22 @@ window.addEventListener('hashchange', function() {
 /*
    Language selection functions
 */
-// Page language settings come from the browser's Accept-Language header.
 // Map a browser specified language to one of our supported options.
 function defaultLanguage() {
+  // Read language settings from browser's Accept-Language header
   Object.keys(Pandas.def.languages).forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
         (L == undefined)) {
       L = Pandas.def.languages[option];
     }
   });
+  // Read language cookie if it's there
+  if (document.cookie.length > 0) {
+    var test = document.cookie.split("=")[1];
+    if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
+      L = test;
+    }
+  }  
   // Fallback to English
   if (L == undefined) {
     L = "en";
@@ -151,11 +158,12 @@ function updateLanguage(language) {
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
   langText.innerText = Show.gui.links[language];
-
   // Redisplay results in the correct language
   if (window.location.hash != "") {
     outputResults();
   }
+  // Write a cookie for your chosen language
+  document.cookie = "language=" + language;
 }
 
 /*
