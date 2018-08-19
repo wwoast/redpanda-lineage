@@ -212,7 +212,7 @@ Pandas.def.relations = {
   "litter": {
     "cn": "litter",
     "en": "litter",
-    "jp": "litter"
+    "jp": "敷き藁"
   },
   "mother": {
     "cn": "母",
@@ -232,7 +232,7 @@ Pandas.def.relations = {
   "parents": {
     "cn": "父母",
     "en": "parents",
-    "jp": "親"
+    "jp": "両親"
   },
   "sister": {
     "cn": "妹妹",
