@@ -146,7 +146,11 @@ function updateLanguage(language) {
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
   langText.innerText = Show.gui.links[language];
-  // TODO: column class text headers
+
+  // Redisplay results in the correct language
+  if (window.location.hash != "") {
+    outputResults();
+  }
 }
 
 /*
@@ -507,8 +511,8 @@ Show.displayGender = function(info) {
 // Display panda children in the family section
 Show.displayPandaChildren = function(info) {
   var heading = document.createElement('h4');
-  heading.innerText = "Children";
-
+  heading.className = "childrenHeading" + " " + info.language;
+  heading.innerText = Show.gui.children[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.children)) {
@@ -606,7 +610,8 @@ Show.displayPandaFamily = function(info) {
 // Do the littermates info in the family section
 Show.displayPandaLitter = function(info) {
   var heading = document.createElement('h4');
-  heading.innerText = "Litter";
+  heading.className = "litterHeading" + " " + info.language;
+  heading.innerText = Show.gui.litter[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.litter)) {
@@ -627,7 +632,8 @@ Show.displayPandaLitter = function(info) {
 // Do mom and dad's info in the family section
 Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
-  heading.innerText = "Parents";
+  heading.className = "parentsHeading" + " " + info.language;
+  heading.innerText = Show.gui.parents[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   var mom_li = document.createElement('li');
@@ -662,8 +668,8 @@ Show.displayPandaParents = function(info) {
 // Do the non-litter siblings info in the family section
 Show.displayPandaSiblings = function(info) {
   var heading = document.createElement('h4');
-  heading.innerText = "Siblings";
-
+  heading.className = "siblingsHeading" + " " + info.language;
+  heading.innerText = Show.gui.siblings[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {

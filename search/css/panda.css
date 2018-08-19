@@ -285,6 +285,13 @@ h3, h4 {
     text-decoration: underline;
 }
 
+h3.jp, h4.jp {
+    /* Family headers kanji w/underlines doesn't look right */
+    text-decoration: none;
+    font-weight: normal;
+    border-bottom: 2px solid black;
+}
+
 div.family {
     display: block;
     min-width: 300px;
