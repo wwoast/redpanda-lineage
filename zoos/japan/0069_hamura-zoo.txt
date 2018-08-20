@@ -1,0 +1,10 @@
+[zoo]
+_id: 69
+en.address: 4122番地 Hane, Hamura-shi, Tōkyō-to 205-0012, Japan
+en.location: Hamura, Tokyo, Japan
+en.name: Hamura Zoo
+jp.address: 〒205-0012 東京都羽村市羽4122番地
+jp.location: 羽村市 東京都
+jp.name: 羽村市動物公園
+language.order: jp, en
+website: http://www.t-net.ne.jp/~hamura-z/

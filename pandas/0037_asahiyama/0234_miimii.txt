@@ -5,11 +5,18 @@ birthplace: 37
 children: none
 en.name: Mii-Mii
 en.nicknames: none
-en.othernames: Miimii, Myi-Myi, Myimyi
+en.othernames: Miimii, Myi-Myi, Myimyi, Mie-Mie
 gender: f
 jp.name: 糸糸
 jp.nicknames: none
 jp.othernames: ミイミイ
 language.order: jp, en
 litter: 233
+photo.1: https://www.instagram.com/p/BkeLA4GlKgU/media/?size=m
+photo.1.author: framereim
+photo.1.link: https://www.instagram.com/framereim/
+photo.2: https://www.instagram.com/p/Bl5T8ZYlGtP/media/?size=m
+photo.2.author: ho0oipo
+photo.2.link: https://www.instagram.com/ho0oipo/
+species: 2
 zoo: 37

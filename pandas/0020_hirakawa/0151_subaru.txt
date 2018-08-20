@@ -11,6 +11,7 @@ jp.name: スバル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 photo.1: https://www.instagram.com/p/BfDmEGxlNba/media/?size=m
 photo.1.author: yuka0714_0307
 photo.1.link: https://www.instagram.com/yuka0714_0307/
@@ -23,4 +24,8 @@ photo.3.link: https://www.instagram.com/sbskyy/
 photo.4: https://www.instagram.com/p/BHtzs7wDEM1/media/?size=m
 photo.4.author: mito_photo
 photo.4.link: https://www.instagram.com/mito_photo/
+photo.5: https://www.instagram.com/p/BmmdpltlAy2/media/?size=m
+photo.5.author: peek_a_boo00
+photo.5.link: https://www.instagram.com/peek_a_boo00/
+species: 2
 zoo: 20
