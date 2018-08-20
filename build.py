@@ -350,7 +350,7 @@ def vitamin():
     manifest = [
         "export/redpanda.json",
         "search/index.html",
-        "search/js/panda.js",
+        "search/js/pandas.js",
         "search/js/show.js"
     ]
     for fn in manifest:
