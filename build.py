@@ -356,7 +356,8 @@ def vitamin():
     for fn in manifest:
         with open(fn, 'r') as rfh:
             raw = rfh.read()
-            lists += list(set(raw))
+            lists += list(set(raw))  # Uniquify values
+    lists = list(set(lists))   # Uniquify lists of values
     lists.sort()
     vitamin += ''.join(lists)
     page = ""
