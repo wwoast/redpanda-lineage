@@ -359,7 +359,7 @@ def vitamin():
             lists += list(set(raw))
     lists.sort()
     vitamin += ''.join(lists)
-    with open("search/index.html", mode='+', encoding='utf-8') as wfh:
+    with open("search/index.html", mode='r+', encoding='utf-8') as wfh:
         a = wfh.read()
         a.replace('${vitamins}', vitamin)
         wfh.write(a)
