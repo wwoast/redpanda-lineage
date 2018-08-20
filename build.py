@@ -359,7 +359,7 @@ def vitamin():
             lists += list(set(raw))  # Uniquify values
     lists = list(set(lists))   # Uniquify lists of values
     lists.sort()
-    vitamin += ''.join(lists)
+    vitamin += ''.join(lists).replace("\n", "")
     page = ""
     with open("search/index.html", mode='r', encoding='utf-8') as rfh:
         page = rfh.read()
