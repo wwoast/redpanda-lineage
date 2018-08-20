@@ -338,9 +338,37 @@ class RedPandaGraph:
         self.check_dataset_litter_ids()
         self.check_dataset_dates()
 
+def vitamin():
+    """
+    Based on a completed Red Panda database, and on the contents of all Javascript and
+    HTML sources here, build a unique set of characters for display in the lineage
+    interface. This character set is necessary to instruct TypeSquare on which characters
+    we want to download in our font.
+    """
+    vitamin = "&amp;&copy;&ldquo;&rdquo;"  # &-encoded HTML characters to start
+    lists = []
+    manifest = [
+        "export/redpanda.json",
+        "search/index.html",
+        "search/js/panda.js",
+        "search/js/show.js"
+    ]
+    for fn in manifest:
+        with open(fn, 'r') as rfh:
+            raw = rfh.read()
+            lists += list(set(raw))
+    lists.sort()
+    vitamin += ''.join(lists)
+    with open("search/index.html", mode='+', encoding='utf-8') as wfh:
+        a = wfh.read()
+        a.replace('${vitamins}', vitamin)
+        wfh.write(a)
 
 if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
     p.build_graph()
     p.export_json_graph(OUTPUT_PATH)
+    # Only do this in CI when publishing a real page
+    if sys.argv[1] == "--vitamin":
+        vitamin()

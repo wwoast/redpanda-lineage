@@ -2,7 +2,7 @@ language: python
 python:
   - '3.4'
 sudo: false
-script: ./build.py
+script: ./build.py --vitamin
 after_success: rm .gitignore
 deploy:
   provider: pages
