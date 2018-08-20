@@ -158,8 +158,9 @@ function updateLanguage(language) {
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
   langText.innerText = Show.gui.links[language];
-  // Redisplay results in the correct language
-  if (window.location.hash != "") {
+  // Redisplay results in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) && (P.db != undefined)) {
     outputResults();
   }
   // Write a cookie for your chosen language
