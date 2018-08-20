@@ -1,0 +1,16 @@
+[panda]
+_id: 310
+birthday: unknown
+birthplace: unknown
+children: 129, 30, 20, 77, 313, 314
+en.name: Porin
+en.nicknames: none 
+en.othernames: none
+gender: f
+jp.name: ポリン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 2
+zoo: 9

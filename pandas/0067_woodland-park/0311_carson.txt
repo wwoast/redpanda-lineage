@@ -1,0 +1,15 @@
+[panda]
+_id: 311
+birthday: 2014/6/30
+birthplace: unknown
+children: none
+en.name: Carson
+en.nicknames: none  
+en.othernames: none
+gender: m
+jp.name: カーソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 67

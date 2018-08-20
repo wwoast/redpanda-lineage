@@ -1,0 +1,17 @@
+[panda]
+_id: 313
+birthday: 2005/6/23
+birthplace: 9
+children: none
+en.name: Yukiko
+en.nicknames: none
+en.oldnames: Take
+en.othernames: none
+gender: m
+jp.name: ユキコ
+jp.nicknames: none
+jp.oldnames: タケ
+jp.othernames: none
+language.order: en, jp
+species: 2
+zoo: 67

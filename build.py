@@ -373,5 +373,6 @@ if __name__ == '__main__':
     p.build_graph()
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
-    if sys.argv[1] == "--vitamin":
-        vitamin()
+    if len(sys.argv) > 1:
+        if sys.argv[1] == "--vitamin":
+            vitamin()
