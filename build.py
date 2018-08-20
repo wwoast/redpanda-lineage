@@ -362,7 +362,7 @@ def vitamin():
     page = ""
     with open("search/index.html", mode='r', encoding='utf-8') as rfh:
         page = rfh.read()
-        page.replace('${vitamins}', vitamin)
+        page = page.replace('${vitamins}', vitamin)
     with open("search/index.html", mode='w', encoding="utf-8") as wfh:
         wfh.write(page)
 
