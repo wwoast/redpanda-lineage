@@ -653,7 +653,7 @@ Show.displayPandaFamily = function(info) {
   // litter and siblings columns to get better balancing.
   // Four columns means the litter should be defined
   if ((family.children.length == 4) &&
-      (window.matchMedia("(max-width: 630px)").matches == true)) {
+      (window.matchMedia("(max-width: 670px)").matches == true)) {
     family.childNodes[2].parentNode.insertBefore(family.childNodes[2], family.childNodes[1]);
   }
   return family;
