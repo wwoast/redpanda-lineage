@@ -65,7 +65,7 @@ $(function() {
   });
 
   $('#searchForm').submit(function() {
-    $('#searchInput').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
+    $('#searchInput').blur();   // Make iOS keyboard disappear after submitting.
     var query = $('#searchInput').val().trim();
     var results = [];
     window.location = "#query/" + query;
@@ -105,9 +105,15 @@ function outputResults() {
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
 
-  if (body.lastElementChild.className != "footer") {
-    var footer = Show.footer();
+  var footer_test = body.lastElementChild;
+  if (footer_test.className != "footer") {
+    // If no footer exists, add one in
+    var footer = Show.footer(L);
     body.appendChild(footer);
+  } else {
+    // Redraw the footer for language event changes
+    var footer = Show.footer(L);
+    body.replaceChild(footer, footer_test);
   }
 }
 
@@ -244,6 +250,23 @@ Show.gui = {
     "cn": Show.flags["China"],
     "en": Show.flags["USA"],
     "jp": Show.flags["Japan"]
+  },
+  "footer": {
+    "cn": "TOWRITE",
+    "en": ["All information courtesy of the ",
+           "<INSERTLINK>",
+           " and red panda fans worldwide. ",
+          "Any media linked from this dataset remains property of its creator. ",
+          "Layout and design © 2018 Justin Fairchild."],
+    "jp": ["<INSERTLINK>", 
+           "、世界中のレッサーパンダファンのすべての情報提供。",
+           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
+           "設計©2018 Justin Fairchild"]
+  },
+  "footerLink": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Lineage",
+    "jp": "Red Panda Lineage"
   },
   "language": {
     "cn": "漢語",
@@ -780,21 +803,25 @@ Show.pandaInformation = function(animal, slip_in, language) {
   return result; 
 }
 
-Show.footer = function() {
+Show.footer = function(language) {
   var p = document.createElement('p');
   var top_link = document.createElement('a');
   top_link.className = "emojiLink";
   top_link.href = "#pageTop";
   top_link.innerText = Show.emoji.top;
   p.appendChild(top_link);
-  var msg1 = document.createTextNode(" All information courtesy of the ");
-  p.appendChild(msg1);
-  var rpl = document.createElement('a');
-  rpl.href = "https://github.com/wwoast/redpanda-lineage"
-  rpl.innerText = "Red Panda Lineage"
-  p.appendChild(rpl);
-  var msg2 = document.createTextNode(" dataset and red panda fans worldwide. Any media linked from this dataset remains property of its creator. Layout and design \u00A9 2018 Justin Fairchild.");
-  p.appendChild(msg2);
+  for (var i in Show.gui.footer[language]) {
+    var field = Show.gui.footer[language][i];
+    if (field == "<INSERTLINK>") {
+      var rpl = document.createElement('a');
+      rpl.href = "https://github.com/wwoast/redpanda-lineage";
+      rpl.innerText = Show.gui.footerLink[language];
+      p.appendChild(rpl);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
