@@ -65,7 +65,7 @@ $(function() {
   });
 
   $('#searchForm').submit(function() {
-    $('#searchForm').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
+    $('#searchInput').blur();   // Make iOS keyboard disappear after submitting. TODO: not working
     var query = $('#searchInput').val().trim();
     var results = [];
     window.location = "#query/" + query;
@@ -723,8 +723,7 @@ Show.displayPandaTitle = function(info) {
   var gender = Show.displayGender(info);
   var name_div = document.createElement('div');
   name_div.className = 'pandaName';
-  // In Japanese, display the first "othername" as furigana
-  // TODO: separate text class and node for furigana text
+  // In Japanese, display one of the "othernames" as furigana
   if (language == "jp") {
     name_div.innerText = info.name;
     var furigana = Show.furigana(info.name, info.othernames);
