@@ -16,7 +16,7 @@
   } else {
           return;
   }
-})(); 
+})();
 
 /*
     Global objects usable by forms, and things that operate as the page loads
@@ -29,7 +29,7 @@ var L;   // Current language
 /*
     Once page has loaded, add new event listeners for search processing
 */
-$(function() {
+document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
   G = Dagoba.graph();
@@ -64,9 +64,9 @@ $(function() {
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   });
 
-  $('#searchForm').submit(function() {
-    $('#searchInput').blur();   // Make iOS keyboard disappear after submitting.
-    var query = $('#searchInput').val().trim();
+  document.getElementById('searchForm').addEventListener("submit", function() {
+    document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
+    var query = (document.getElementById('searchInput').value).trim();
     var results = [];
     window.location = "#query/" + query;
   });
