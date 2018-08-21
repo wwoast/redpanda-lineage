@@ -371,6 +371,7 @@ Pandas.searchLitter = function(idnum) {
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
     return vertex.birthday == birthday;  // TODO: check only the year and month
   }).run();
+  // TODO: search litter nodes as well
   return nodes;
 }
 
