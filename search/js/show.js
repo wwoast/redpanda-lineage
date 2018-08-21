@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var placeholder = "➤ " + Show.gui.search[L];
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
+    document.getElementById('searchInput').focus();  // Set text cursor
 
     // If a hashlink was bookmarked, bring up the results of it
     if (window.location.hash.length > 0) {
