@@ -159,8 +159,11 @@ function updateLanguage(language) {
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
   langText.innerText = Show.gui.links[language];
   // Update the placeholder text for a search bar
-  var placeholder = "➤ " + Show.gui.loading[L];
-  document.forms['searchForm']['searchInput'].placeholder = placeholder;
+  if (P.db == undefined) {
+    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[L];
+  } else {
+    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[L];
+  }
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined)) {
@@ -230,7 +233,7 @@ Show.gui = {
   "about": {
     "cn": "關於",
     "en": "About",
-    "jp": "約"
+    "jp": "概要"
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
@@ -248,9 +251,9 @@ Show.gui = {
     "jp": "日本語"
   },
   "loading": {
-    "cn": "Loading Data...",
-    "en": "Loading Data...",
-    "jp": "データのロード"
+    "cn": "Loading...",
+    "en": "Loading...",
+    "jp": "ローディング"
   },
   "litter": {
     "cn": Pandas.def.relations.litter["cn"],
