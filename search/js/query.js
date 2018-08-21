@@ -78,6 +78,9 @@ Query.resolve = function(single_term, type, language) {
   single_term = single_term.replace(/-./, function(chr) {
     return chr.toUpperCase();
   });
+  single_term = single_term.replace(/ ./, function(chr) {
+    return chr.toUpperCase();
+  });
   bundle.object = Pandas.searchPandaName(single_term);
   return bundle;
 }

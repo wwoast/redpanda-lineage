@@ -69,6 +69,10 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
     var query = (document.getElementById('searchInput').value).trim();
     window.location = "#query/" + query;
+    // Refocus text cursor after a search is performed
+    setTimeout(function() {
+      document.getElementById('searchInput').focus();
+    }, 0);
   });
 });
 
