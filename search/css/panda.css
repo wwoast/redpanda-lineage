@@ -51,6 +51,7 @@ button.menu {
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
     height: 64px;
+    width: 136px;  /* Fixed width keeps them looking consistent across languages */
 }
 
 button.menu:hover, button.logo:hover {
@@ -76,11 +77,13 @@ button.menu div.icon, button.logo div.icon {
     display: table-cell;
     font-size: 24pt;
     padding-right: 8px;
+    text-align: left;
 }
 
 button.menu div.text, button.logo div.text {
     display: table-cell;
     padding-right: 8px;
+    text-align: left;
 }
 
 div.topSearch {
@@ -454,12 +457,14 @@ div.detailsFamily {
         display: table-row;
         font-size: 24pt;
         padding: 0 0 0 0;
+        text-align: center;
     }
 
     button.menu div.text {
         display: table-row;
         font-size: 10pt;
         padding: 0 0 0 0;
+        text-align: center;
         word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
     }
 
