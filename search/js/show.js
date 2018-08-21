@@ -85,6 +85,10 @@ function outputResults() {
   results.forEach(function(animal) {
     content_divs.push(Show.pandaInformation(animal, undefined, L));
   });
+  if (results.length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.displayEmptyResult(L));
+  }
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
   var shrinker = document.createElement('div');

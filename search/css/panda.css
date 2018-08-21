@@ -186,7 +186,7 @@ div.emptyResult {
     display: table;
     position: relative;
     clear: both;
-    max-width: 860px;
+    height: 65vh;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -197,7 +197,7 @@ div.emptyResult {
 }
 
 div.emptyResult img {
-    width: 860px;
+    height: 65vh;
     max-width: 100%;
 }
 
@@ -479,12 +479,16 @@ div.detailsFamily {
         margin: 0 0 0 0;
     }
 
-    div.pandaResult, div.zooResult, div.emptyResult {
+    div.pandaResult, div.zooResult {
         background-color: lightgoldenrodyellow;
         padding-bottom: 0ex;
         margin-top: 0.7ex;
         margin-bottom: 0.7ex;
         border: 0px solid;
+    }
+
+    div.emptyResult {
+        display: none;
     }
 
     div.pandaPhoto, div.zooPhoto, div.detailsPhoto {
