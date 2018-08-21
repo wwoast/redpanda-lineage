@@ -70,8 +70,12 @@ Query.resolve = function(single_term, type, language) {
   // TODO: the rest of the resolution steps for strings.
   // For now, anything that's not a number is a string.
   // For English strings, our names are capitalized in
-  // the database.
+  // the database, and strings after a hyphern are also
+  // capitalized.
   single_term = single_term.replace(/^\w/, function(chr) {
+    return chr.toUpperCase();
+  });
+  single_term = single_term.replace(/-./, function(chr) {
     return chr.toUpperCase();
   });
   bundle.object = Pandas.searchPandaName(single_term);
