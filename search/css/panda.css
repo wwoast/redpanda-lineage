@@ -51,7 +51,7 @@ button.menu {
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
     height: 64px;
-    width: 136px;  /* Fixed width keeps them looking consistent across languages */
+    width: 142px;  /* Fixed width keeps them looking consistent across languages */
 }
 
 button.menu:hover, button.logo:hover {
@@ -443,7 +443,7 @@ div.detailsFamily {
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 670px) {
     button.logo {
         display: none;
     }
