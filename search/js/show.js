@@ -39,7 +39,7 @@ $(function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     // Enable search bar once the page has loaded
-    var placeholder = "➤ Search...";
+    var placeholder = "➤ " + Show.gui.search[L];
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
 
@@ -158,6 +158,9 @@ function updateLanguage(language) {
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
   langText.innerText = Show.gui.links[language];
+  // Update the placeholder text for a search bar
+  var placeholder = "➤ " + Show.gui.loading[L];
+  document.forms['searchForm']['searchInput'].placeholder = placeholder;
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined)) {
@@ -244,6 +247,11 @@ Show.gui = {
     "en": "English",
     "jp": "日本語"
   },
+  "loading": {
+    "cn": "Loading Data...",
+    "en": "Loading Data...",
+    "jp": "データのロード"
+  },
   "litter": {
     "cn": Pandas.def.relations.litter["cn"],
     "en": "Litter",   // Capitalization
@@ -263,6 +271,11 @@ Show.gui = {
     "cn": "隨機",
     "en": "Random",
     "jp": "ランダム"
+  },
+  "search": {
+    "cn": "Search...",
+    "en": "Search...",
+    "jp": "サーチ..."
   },
   "siblings": {
     "cn": Pandas.def.relations.siblings["cn"],
