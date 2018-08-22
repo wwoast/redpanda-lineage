@@ -396,7 +396,10 @@ Show.animalLink = function(animal, link_text, language, options) {
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
     inner_text = inner_text + " " + Show.emoji.died;
-  } 
+  }
+  if (options.indexOf("half_icon") != -1) {
+    inner_text = inner_text + " " + "½"
+  }
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
@@ -737,8 +740,14 @@ Show.displayPandaSiblings = function(info) {
   ul.className = "pandaList";
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
     var animal = info.siblings[index];
+    var options = ["child_icon", "live_icon"];
+    var test_mom = Pandas.searchPandaMom(animal["_id"]);
+    var test_dad = Pandas.searchPandaDad(animal["_id"]);
+    if (!((test_mom == info.mom) && (test_dad == info.dad))) {
+      options.push("half_icon");
+    }
     var siblings_link = Show.animalLink(animal, animal[info.get_name], 
-                                        info.language, ["child_icon", "live_icon"])
+                                        info.language, options);
     var li = document.createElement('li');
     li.appendChild(siblings_link);
     ul.appendChild(li);
