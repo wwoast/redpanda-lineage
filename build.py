@@ -278,16 +278,11 @@ class RedPandaGraph:
                 # Process whether pandas were in the same litter or not
                 litter = field[1].replace(" ","").split(",")
                 for sibling_id in litter:
-                    # Make sure no other litters exist
-                    sibling_edges = self.find_matching_edges(panda_id,
-                                                             sibling_id,
-                                                             "litter")
-                    if len(sibling_edges) == 0:
-                        panda_edge = {}
-                        panda_edge['_out'] = panda_id
-                        panda_edge['_in'] = sibling_id
-                        panda_edge['_label'] = "litter"
-                        panda_edges.append(panda_edge)
+                    panda_edge = {}
+                    panda_edge['_out'] = panda_id
+                    panda_edge['_in'] = sibling_id
+                    panda_edge['_label'] = "litter"
+                    panda_edges.append(panda_edge)
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
