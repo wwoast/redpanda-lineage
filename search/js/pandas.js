@@ -290,12 +290,6 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
-// Find a panda's direct litter
-Pandas.searchEdgeLitter = function(idnum) {
-  var nodes = G.v(idnum).in("litter").run();
-  return nodes;
-}
-
 // Find a value in a set of Panda's othernames
 Pandas.searchOthernames = function(name) {
   var nodes = G.v().filter(function(animal) {
@@ -367,11 +361,7 @@ Pandas.searchPandaName = function(name) {
 // Find a panda's littermates. Search for all pandas with the
 // same parents and the same birthday.
 Pandas.searchLitter = function(idnum) {
-  var birthday = G.v(idnum).run()[0].birthday;
-  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
-    return vertex.birthday == birthday;  // TODO: check only the year and month
-  }).run();
-  // TODO: search litter nodes as well
+  var nodes = G.v(idnum).in("litter").run();
   return nodes;
 }
 
