@@ -178,6 +178,8 @@ function updateLanguage(language) {
   } else {
     document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[L];
   }
+  // Fixes TypeSquare unsetting this in its own javascript
+  document.getElementById('searchInput').style.fontFamily = "sans-serif";
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined)) {
