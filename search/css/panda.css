@@ -111,7 +111,7 @@ form {
 }
 
 input[type='text'] {
-    font-family: "Jun 201", sans-serif;
+    font-family: sans-serif;
 }
 
 input.search[disabled] {
