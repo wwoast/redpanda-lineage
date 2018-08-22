@@ -192,6 +192,7 @@ div.emptyResult {
     position: relative;
     clear: both;
     height: 65vh;
+    max-height: 600px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
