@@ -1,0 +1,10 @@
+[zoo]
+_id: 70
+en.address: 68 Honmachi, Himeji-shi, Hyogo Prefecture. ZIP:670-0012
+en.location: Himeji, Hyōgo Prefecture
+en.name: Himeji Municipal Zoo 
+jp.address: 〒670-0012 兵庫県姫路市本町68
+jp.location: 姫路市 兵庫県
+jp.name: 姫路市立動物園
+language.order: jp, en
+website: http://www.city.himeji.lg.jp/dobutuen/
