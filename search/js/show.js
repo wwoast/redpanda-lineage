@@ -747,7 +747,8 @@ Show.displayPandaSiblings = function(info) {
     var options = ["child_icon", "live_icon"];
     var test_mom = Pandas.searchPandaMom(animal["_id"]);
     var test_dad = Pandas.searchPandaDad(animal["_id"]);
-    if (!((test_mom == info.mom) && (test_dad == info.dad))) {
+    if (!((test_mom == info.mom) && (test_dad == info.dad)) &&
+         ((test_mom != undefined) && (test_dad != undefined))) {
       options.push("half_icon");
     }
     var siblings_link = Show.animalLink(animal, animal[info.get_name], 
