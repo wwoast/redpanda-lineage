@@ -112,6 +112,7 @@ form {
 
 input.search {
     font-family: sans-serif;
+    border-radius: 0;  /* Disable rounding on iOS */
 }
 
 input[type='text'] {
