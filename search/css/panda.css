@@ -110,6 +110,10 @@ form {
     padding: 0 0 0 0;
 }
 
+input.search {
+    font-family: sans-serif;
+}
+
 input[type='text'] {
     font-family: sans-serif;
 }
