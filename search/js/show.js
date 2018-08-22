@@ -396,12 +396,13 @@ Show.animalLink = function(animal, link_text, language, options) {
   if (options.indexOf("dad_icon") != -1) {
     inner_text = Show.emoji.father + " " + inner_text;
   }
+  // Half siblings indicator
+  if (options.indexOf("half_icon") != -1) {
+    inner_text = inner_text + " " + "½"
+  }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
     inner_text = inner_text + " " + Show.emoji.died;
-  }
-  if (options.indexOf("half_icon") != -1) {
-    inner_text = inner_text + " " + "½"
   }
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
