@@ -805,48 +805,7 @@ Show.displayPhoto = function(info, frame_class, fallback) {
   return div;
 }
 
-// Display a text dossier of information for a panda. Most missing
-// elements should not be displayed, but a few should be printed 
-// regardless, such as birthday / time of death. 
-// The "slip_in" value is a contextual reference to the initial search,
-// something like "Melody's brother" or "Harumaki's mom".
-Show.pandaInformation = function(animal, slip_in, language) {
-  var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
-  var title = Show.displayPandaTitle(info);
-  var details = Show.displayPandaDetails(info); 
-  var family = Show.displayPandaFamily(info);
-  var dossier = document.createElement('div');
-  dossier.className = "pandaDossier";
-  dossier.appendChild(title);
-  dossier.appendChild(details);
-  dossier.appendChild(family);
-  var result = document.createElement('div');
-  result.className = "pandaResult";
-  result.appendChild(photo);
-  result.appendChild(dossier);
-  return result; 
-}
-
-// Display information for a zoo relevant to the red pandas
-Show.zooInformation = function(zoo, language) {
-  // TODO: need search by zoo to get animal counts
-  var info = Show.acquireZooInfo(zoo, language);
-  // Then display the information
-  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
-  var title = Show.displayZooTitle(info);
-  var details = Show.displayZooDetails(info);
-  var dossier = document.createElement('div');
-  dossier.className = "zooDossier";
-  dossier.appendChild(title);
-  dossier.appendChild(details);
-  var result = document.createElement('div');
-  result.className = "zooResult";
-  result.appendChild(photo);
-  result.appendChild(dossier);
-  return result;
-}
-
+// Draw a footer with the correct language
 Show.footer = function(language) {
   var p = document.createElement('p');
   var top_link = document.createElement('a');
@@ -875,6 +834,29 @@ Show.footer = function(language) {
   return footer;
 }
 
+// Display a text dossier of information for a panda. Most missing
+// elements should not be displayed, but a few should be printed 
+// regardless, such as birthday / time of death. 
+// The "slip_in" value is a contextual reference to the initial search,
+// something like "Melody's brother" or "Harumaki's mom".
+Show.pandaInformation = function(animal, slip_in, language) {
+  var info = Show.acquirePandaInfo(animal, language);
+  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var title = Show.displayPandaTitle(info);
+  var details = Show.displayPandaDetails(info); 
+  var family = Show.displayPandaFamily(info);
+  var dossier = document.createElement('div');
+  dossier.className = "pandaDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  dossier.appendChild(family);
+  var result = document.createElement('div');
+  result.className = "pandaResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result; 
+}
+
 // Format the results for a single search as divs.
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
@@ -885,4 +867,23 @@ Show.pandaResults = function(animals, slip_in) {
   }
 
   // TODO: Get and display all info for this panda
+}
+
+// Display information for a zoo relevant to the red pandas
+Show.zooInformation = function(zoo, language) {
+  // TODO: need search by zoo to get animal counts
+  var info = Show.acquireZooInfo(zoo, language);
+  // Then display the information
+  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var title = Show.displayZooTitle(info);
+  var details = Show.displayZooDetails(info);
+  var dossier = document.createElement('div');
+  dossier.className = "zooDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  var result = document.createElement('div');
+  result.className = "zooResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result;
 }
