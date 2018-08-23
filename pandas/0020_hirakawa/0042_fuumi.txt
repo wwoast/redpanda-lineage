@@ -2,7 +2,7 @@
 _id: 42
 birthday: 2007/7/11
 birthplace: 8
-children: 197
+children: 197, 315
 en.name: Fuumi
 en.nicknames: none 
 en.othernames: Kazumi, Kazami
@@ -27,4 +27,5 @@ photo.4.link: https://www.instagram.com/yossi929/
 photo.5: https://www.instagram.com/p/Bic5hwjAtEH/media/?size=m
 photo.5.author: paix_voyage_31
 photo.5.link: https://www.instagram.com/paix_voyage_31/
+species: 2
 zoo: 20
