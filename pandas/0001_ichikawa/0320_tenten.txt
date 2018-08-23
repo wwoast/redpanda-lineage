@@ -1,0 +1,17 @@
+[panda]
+_id: 320
+birthday: unknown
+birthplace: unknown
+children: 4, 264, 12, 281, 179
+death: unknown
+en.name: Ten-Ten
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 天天
+jp.nicknames: none
+jp.othernames: テンテン
+language.order: jp, en
+litter: unknown
+species: 2
+zoo: 1
