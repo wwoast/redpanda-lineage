@@ -379,7 +379,15 @@ Pandas.searchHalfSiblings = function(idnum) {
 Pandas.searchNonLitterSiblings = function(idnum) {
   var birthday = G.v(idnum).run()[0].birthday;
   var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
-    return vertex.birthday != birthday;  // TODO: check only the year and month
+    var my_date = new Date(birthday);
+    var their_date = new Date(vertex.birthday);
+    var timeDiff = Math.abs(my_date.getTime() - their_date.getTime());
+    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+    if ( diffDays > 2 ) {
+      return true;
+    } else {
+      return false;
+    }
   }).run();
   return nodes;
 }
