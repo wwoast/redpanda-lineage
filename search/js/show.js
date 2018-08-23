@@ -359,6 +359,22 @@ Show.acquirePandaInfo = function(animal, language) {
   }
 }
 
+// Given a zoo, return an address, location, link to a website, and information
+// about the number of pandas (living) that are at the zoo
+Show.acquireZooInfo = function(zoo, language) {
+  return {
+     "animals": Pandas.searchPandaZoo(zoo["_id"]),   // TODO
+     "address": Pandas.zooField(zoo, language + ".address"),
+    "get_name": language + ".name",
+    "language": language,
+    "location": Pandas.zooField(zoo, language + ".location"),
+        "name": Pandas.zooField(zoo, language + ".name"),
+       "photo": Pandas.zooField(zoo, "photo"),
+"photo_credit": Pandas.zooField(zoo, "photo.author"),
+  "photo_link": Pandas.zooField(zoo, "phoot.link")
+  }
+}
+
 // Construct an animal link as per parameters. Options include
 // whether to do a mom/dad/boy/girl icon, or whether to do a 
 // link within the page, versus a page wipe and redisplay.
@@ -765,7 +781,7 @@ Show.displayPandaSiblings = function(info) {
   return siblings;
 }
 
-// Will this break if the nodes are done on their own indent? :(
+// Display the name and gender symbol for a single panda in the "title bar"
 Show.displayPandaTitle = function(info) {
   var language = info.language;
   var gender = Show.displayGender(info);
@@ -786,7 +802,7 @@ Show.displayPandaTitle = function(info) {
   title_div.appendChild(gender);
   title_div.appendChild(name_div);
   return title_div;
-}  
+}
 
 // If the media exists for a panda, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
@@ -803,6 +819,18 @@ Show.displayPhoto = function(info, frame_class, fallback) {
   div.className = frame_class;
   div.appendChild(image);
   return div;
+}
+
+// Display the name of a zoo in the "title bar"
+Show.displayZooTitle = function(info) {
+  var name_div = document.createElement('div');
+  name_div.className = 'zooName';
+  // No furigana for zoo names
+  name_div.innerText = info.name;
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(name_div);
+  return title_div;
 }
 
 // Draw a footer with the correct language
@@ -876,7 +904,7 @@ Show.zooInformation = function(zoo, language) {
   // Then display the information
   var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
-  var details = Show.displayZooDetails(info);
+  var details = Show.displayZooDetails(info);  // TODO
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
   dossier.appendChild(title);
