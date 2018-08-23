@@ -1,16 +1,16 @@
 [panda]
-_id: 272
+_id: 316
 birthday: 2010/6/26
-birthplace: unknown
-children: none
-en.name: Nuts
+birthplace: 71
+children: unknown
+en.name: Perry
 en.nicknames: none
-en.othernames: Natsu
+en.othernames: none
 gender: m
-jp.name: ナッツ
+jp.name: ペリー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: none
+litter: unknown
 species: 1
 zoo: 59

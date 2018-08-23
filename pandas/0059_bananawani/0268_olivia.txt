@@ -1,8 +1,8 @@
 [panda]
 _id: 268
-birthday: unknown
-birthplace: unknown
-children: none
+birthday: 2011/8/10
+birthplace: 72
+children: 267, 275, 276, 277, 278, 279, 317, 318, 319
 en.name: Olivia
 en.nicknames: none
 en.othernames: none

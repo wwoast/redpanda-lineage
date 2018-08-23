@@ -1,0 +1,10 @@
+[zoo]
+_id: 72
+en.address: Blijdorplaan 8, 3041 JG Rotterdam, Netherlands
+en.location: Rotterdam, Netherlands
+en.name: Rotterdam Zoo
+nl.address: Blijdorplaan 8, 3041 JG Rotterdam, Netherlands
+nl.location: Rotterdam, Netherlands
+nl.name: Diergaarde Blijdorp
+language.order: nl, en
+website: https://www.diergaardeblijdorp.nl/
