@@ -828,6 +828,25 @@ Show.pandaInformation = function(animal, slip_in, language) {
   return result; 
 }
 
+// Display information for a zoo relevant to the red pandas
+Show.zooInformation = function(zoo, language) {
+  // TODO: need search by zoo to get animal counts
+  var info = Show.acquireZooInfo(zoo, language);
+  // Then display the information
+  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var title = Show.displayZooTitle(info);
+  var details = Show.displayZooDetails(info);
+  var dossier = document.createElement('div');
+  dossier.className = "zooDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  var result = document.createElement('div');
+  result.className = "zooResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result;
+}
+
 Show.footer = function(language) {
   var p = document.createElement('p');
   var top_link = document.createElement('a');
