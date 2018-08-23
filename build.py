@@ -4,7 +4,7 @@
 # creates a JSON file intended for family tree querying.
 
 import configparser
-from datetime import datetime
+import datetime
 import json
 import os
 import sys
@@ -112,7 +112,7 @@ class RedPandaGraph:
                     # One panda in a litter isn't pointing back at the other
                     raise LinkError("""Litter values inconsistent between two pandas,
                                        \nor one panda ID is not in the database: %s""" % edge)
-                if panda_in['birthday'] != panda_out['birthday']:
+                if self.check_dataset_litter_timeframes(panda_in['birthday'], panda_out['birthday']) == False:
                     raise DateConsistencyError("Pandas in litter don't share birthday: %s, %s"
                                                % (panda_in['en.name'], panda_out['en.name']))
             # Litter relationships are recorded both directions, but we don't need
@@ -120,6 +120,18 @@ class RedPandaGraph:
             seen_pairs.append((edge['_in'], edge['_out']))
             seen_pairs.append((edge['_out'], edge['_in']))
         pass
+
+    def check_dataset_litter_timeframes(self, date_one, date_two):
+        """Valid litter dates are no more than two days apart."""
+        [ year_one, month_one, day_one ] = date_one.split("/")
+        [ year_two, month_two, day_two ] = date_two.split("/")
+        dt_one = datetime.datetime(int(year_one), int(month_one), int(day_one))
+        dt_two = datetime.datetime(int(year_two), int(month_two), int(day_two))
+        diff = dt_one - dt_two
+        if abs(diff.days) > 1:
+            return False
+        else:
+            return True 
 
     def check_dataset_duplicate_ids(self, dataset):
         """Check for duplicate IDs in either the zoo or panda datasets."""
@@ -138,7 +150,7 @@ class RedPandaGraph:
         """Dates should all be in the form of YYYY/MM/DD."""
         try:
             [year, month, day] = date.split("/")
-            datetime(int(year), int(month), int(day))
+            datetime.datetime(int(year), int(month), int(day))
         except ValueError as e:
             raise DateFormatError("ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
                                   % (sourcepath, year, month, day))
