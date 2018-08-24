@@ -363,7 +363,7 @@ Show.acquirePandaInfo = function(animal, language) {
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
-  var recorded = Pandas.searchPanadZooBornLived(zoo["_id"]);
+  var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   return {
        "animals": animals,
        "address": Pandas.zooField(zoo, language + ".address"),
@@ -854,17 +854,21 @@ Show.displayZooDetails = function(info) {
   zoo_link.href = info.website;
   zoo_link.innerText = info.name;
   zoo_page.appendChild(zoo_link);
-  var photo_page = document.createElement('p');
-  var photo_link = document.createElement('a');
-  photo_link.href = info.photo_link;
-  photo_link.innerText = info.photo_credit;
-  photo_page.appendChild(photo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
   details.appendChild(counts);
   details.appendChild(address);
   details.appendChild(zoo_page);
-  details.appendChild(photo_page);
+  // Photo details are optional for zoos, so don't show the
+  // photo link if there's no photo included in the dataset
+  if (info.photo != unknown) {
+    var photo_page = document.createElement('p');
+    var photo_link = document.createElement('a');
+    photo_link.href = info.photo_link;
+    photo_link.innerText = info.photo_credit;
+    photo_page.appendChild(photo_link);
+    details.appendChild(photo_page);
+  }
   return details;
 }
 
@@ -946,9 +950,7 @@ Show.pandaResults = function(animals, slip_in) {
 
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
-  // TODO: need search by zoo to get animal counts
   var info = Show.acquireZooInfo(zoo, language);
-  // Then display the information
   var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);  // TODO
