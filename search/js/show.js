@@ -861,7 +861,7 @@ Show.displayZooDetails = function(info) {
   details.appendChild(zoo_page);
   // Photo details are optional for zoos, so don't show the
   // photo link if there's no photo included in the dataset
-  if (info.photo != unknown) {
+  if (info.photo != undefined) {
     var photo_page = document.createElement('p');
     var photo_link = document.createElement('a');
     photo_link.href = info.photo_link;

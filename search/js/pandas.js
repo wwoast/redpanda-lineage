@@ -429,7 +429,7 @@ Pandas.searchSiblings = function(idnum) {
 // their positive ID numbers. So convert the ID before searching
 Pandas.searchZooId = function(idnum) {
   var node = G.v((parseInt(idnum) * -1).toString()).run();
-  return node;
+  return node[0];
 }
 
 /*
