@@ -359,6 +359,28 @@ Show.acquirePandaInfo = function(animal, language) {
   }
 }
 
+// Given a zoo, return an address, location, link to a website, and information
+// about the number of pandas (living) that are at the zoo
+Show.acquireZooInfo = function(zoo, language) {
+  var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
+  var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
+  return {
+       "animals": animals,
+       "address": Pandas.zooField(zoo, language + ".address"),
+  "animal_count": animals.length,
+      "get_name": language + ".name",
+      "language": language,
+      "location": Pandas.zooField(zoo, language + ".location"),
+          "name": Pandas.zooField(zoo, language + ".name"),
+         "photo": Pandas.zooField(zoo, "photo"),
+  "photo_credit": Pandas.zooField(zoo, "photo.author"),
+    "photo_link": Pandas.zooField(zoo, "photo.link"),
+      "recorded": recorded,
+"recorded_count": recorded.length,
+       "website": Pandas.zooField(zoo, "website")
+  }
+}
+
 // Construct an animal link as per parameters. Options include
 // whether to do a mom/dad/boy/girl icon, or whether to do a 
 // link within the page, versus a page wipe and redisplay.
@@ -765,7 +787,7 @@ Show.displayPandaSiblings = function(info) {
   return siblings;
 }
 
-// Will this break if the nodes are done on their own indent? :(
+// Display the name and gender symbol for a single panda in the "title bar"
 Show.displayPandaTitle = function(info) {
   var language = info.language;
   var gender = Show.displayGender(info);
@@ -786,7 +808,7 @@ Show.displayPandaTitle = function(info) {
   title_div.appendChild(gender);
   title_div.appendChild(name_div);
   return title_div;
-}  
+}
 
 // If the media exists for a panda, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
@@ -805,29 +827,64 @@ Show.displayPhoto = function(info, frame_class, fallback) {
   return div;
 }
 
-// Display a text dossier of information for a panda. Most missing
-// elements should not be displayed, but a few should be printed 
-// regardless, such as birthday / time of death. 
-// The "slip_in" value is a contextual reference to the initial search,
-// something like "Melody's brother" or "Harumaki's mom".
-Show.pandaInformation = function(animal, slip_in, language) {
-  var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
-  var title = Show.displayPandaTitle(info);
-  var details = Show.displayPandaDetails(info); 
-  var family = Show.displayPandaFamily(info);
-  var dossier = document.createElement('div');
-  dossier.className = "pandaDossier";
-  dossier.appendChild(title);
-  dossier.appendChild(details);
-  dossier.appendChild(family);
-  var result = document.createElement('div');
-  result.className = "pandaResult";
-  result.appendChild(photo);
-  result.appendChild(dossier);
-  return result; 
+// The dossier of information for a single zoo.
+// This is the purple main information stripe for a zoo.
+Show.displayZooDetails = function(info) {
+  var language = info.language;
+  var counts = document.createElement('p');
+  var count_text = {
+    "en": [ 
+      info.animal_count,
+      "current red pandas, and",
+      info.recorded_count,
+      "recorded in the database."
+    ].join(' '),
+    "jp": [
+      info.animal_count,
+      "current red pandas, and",
+      info.recorded_count,
+      "recorded in the database."
+    ]
+  }
+  counts.innerText = count_text[language];
+  var address = document.createElement('p');
+  address.innerText = Show.emoji.travel + " " + info.address;
+  var zoo_page = document.createElement('p');
+  var zoo_link = document.createElement('a');
+  zoo_link.href = info.website;
+  zoo_link.innerText = info.name;
+  zoo_page.appendChild(zoo_link);
+  var details = document.createElement('div');
+  details.className = "zooDetails";
+  details.appendChild(counts);
+  details.appendChild(address);
+  details.appendChild(zoo_page);
+  // Photo details are optional for zoos, so don't show the
+  // photo link if there's no photo included in the dataset
+  if (info.photo != undefined) {
+    var photo_page = document.createElement('p');
+    var photo_link = document.createElement('a');
+    photo_link.href = info.photo_link;
+    photo_link.innerText = info.photo_credit;
+    photo_page.appendChild(photo_link);
+    details.appendChild(photo_page);
+  }
+  return details;
 }
 
+// Display the name of a zoo in the "title bar"
+Show.displayZooTitle = function(info) {
+  var name_div = document.createElement('div');
+  name_div.className = 'zooName';
+  // No furigana for zoo names
+  name_div.innerText = info.name;
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(name_div);
+  return title_div;
+}
+
+// Draw a footer with the correct language
 Show.footer = function(language) {
   var p = document.createElement('p');
   var top_link = document.createElement('a');
@@ -856,6 +913,29 @@ Show.footer = function(language) {
   return footer;
 }
 
+// Display a text dossier of information for a panda. Most missing
+// elements should not be displayed, but a few should be printed 
+// regardless, such as birthday / time of death. 
+// The "slip_in" value is a contextual reference to the initial search,
+// something like "Melody's brother" or "Harumaki's mom".
+Show.pandaInformation = function(animal, slip_in, language) {
+  var info = Show.acquirePandaInfo(animal, language);
+  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var title = Show.displayPandaTitle(info);
+  var details = Show.displayPandaDetails(info); 
+  var family = Show.displayPandaFamily(info);
+  var dossier = document.createElement('div');
+  dossier.className = "pandaDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  dossier.appendChild(family);
+  var result = document.createElement('div');
+  result.className = "pandaResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result; 
+}
+
 // Format the results for a single search as divs.
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
@@ -866,4 +946,21 @@ Show.pandaResults = function(animals, slip_in) {
   }
 
   // TODO: Get and display all info for this panda
+}
+
+// Display information for a zoo relevant to the red pandas
+Show.zooInformation = function(zoo, language) {
+  var info = Show.acquireZooInfo(zoo, language);
+  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var title = Show.displayZooTitle(info);
+  var details = Show.displayZooDetails(info);  // TODO
+  var dossier = document.createElement('div');
+  dossier.className = "zooDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  var result = document.createElement('div');
+  result.className = "zooResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result;
 }
