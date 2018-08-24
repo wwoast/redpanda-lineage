@@ -471,25 +471,25 @@ Pandas.age = function(animal, language) {
   // Specify whether you say "day" or "days" in the age string
   var pluralize = function(count, time_word, language) {
     return (count < 2) ? Pandas.def.age[language][time_word]
-                          : Pandas.def.age[language][time_word + "s"]
+                       : Pandas.def.age[language][time_word + "s"]
+  }
+  var spacing = function(language) {
+    return (language == "jp") ? '' : " ";
   }
   // Date heuristics: Print the age in days if younger than 100 days old.
   // Otherwise, print the age in terms of months and years, up to two years,
   // where you should just print the age in years.
   if (age_days <= 100) {
-    return (Math.floor(age_days)).toString() + " " + pluralize(age_days, "day", language);
+    return (Math.floor(age_days)).toString() + spacing(language) + pluralize(age_days, "day", language);
   } else if (age_days <= 365) {
-    return age_months.toString() + " " + Pandas.def.age[language]['months'];
+    return age_months.toString() + spacing(language) + Pandas.def.age[language]['months'];
   } else if (age_days <= 395) {
-    return "1" + " " + Pandas.def.age[language]['year'];
-  } else if (age_days <= 425) {
-    return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           (age_months - 12).toString() + " " + pluralize((age_months - 12).toString(), "month", language);
+    return "1" + spacing(language) + Pandas.def.age[language]['year'];
   } else if (age_days <= 730) {
-    return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           (age_months - 12).toString() + " " + pluralize((age_months - 12).toString(), "month", language);
+    return "1" + spacing(language) + Pandas.def.age[language]['year'] + " " + 
+           (age_months - 12).toString() + spacing(language) + pluralize((age_months - 12).toString(), "month", language);
   } else {
-    return age_years.toString() + " " + Pandas.def.age[language]['years'];
+    return age_years.toString() + spacing(language) + Pandas.def.age[language]['years'];
   }
 }
 
