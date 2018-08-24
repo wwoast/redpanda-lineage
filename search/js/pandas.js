@@ -468,23 +468,26 @@ Pandas.age = function(animal, language) {
   var age_days = (endday - birthday)/ms_per_day;
   var age_years = Math.floor(age_days / 365);
   var age_months = Math.floor(age_days / 30);
+  // Specify whether you say "day" or "days" in the age string
+  var pluralize = function(count, time_word, language) {
+    return (count < 2) ? Pandas.def.age[language][time_word]
+                          : Pandas.def.age[language][time_word + "s"]
+  }
   // Date heuristics: Print the age in days if younger than 100 days old.
   // Otherwise, print the age in terms of months and years, up to two years,
   // where you should just print the age in years.
-  if (age_days < 2) {
-    return (Math.floor(age_days)).toString() + " " + Pandas.def.age[language]['day'];
-  } else if (age_days <= 100) {
-    return (Math.floor(age_days)).toString() + " " + Pandas.def.age[language]['days'];
+  if (age_days <= 100) {
+    return (Math.floor(age_days)).toString() + " " + pluralize(age_days, "day", language);
   } else if (age_days <= 365) {
     return age_months.toString() + " " + Pandas.def.age[language]['months'];
   } else if (age_days <= 395) {
     return "1" + " " + Pandas.def.age[language]['year'];
   } else if (age_days <= 425) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           (age_months - 12).toString() + " " + Pandas.def.age[language]['month'];
+           (age_months - 12).toString() + " " + pluralize((age_months - 12).toString(), "month", language);
   } else if (age_days <= 730) {
     return "1" + " " + Pandas.def.age[language]['year'] + " " + 
-           (age_months - 12).toString() + " " + Pandas.def.age[language]['months'];
+           (age_months - 12).toString() + " " + pluralize((age_months - 12).toString(), "month", language);
   } else {
     return age_years.toString() + " " + Pandas.def.age[language]['years'];
   }
