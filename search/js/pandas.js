@@ -290,6 +290,40 @@ Pandas.def.zoo = {
 /*
     Methods for searching on Red Pandas
 */
+// Find a pandas's direct siblings, with both the same mother and same father.
+Pandas.searchDirectSiblings = function(idnum) {
+  return;   // TODO
+}
+
+// Find just a panda's half siblings, not the ones with the same mother and father
+Pandas.searchHalfSiblings = function(idnum) {
+  return;   // TODO
+}
+
+// Find a panda's littermates. Search for all pandas with the
+// same parents and the same birthday.
+Pandas.searchLitter = function(idnum) {
+  var nodes = G.v(idnum).in("litter").run();
+  return nodes;
+}
+
+// Find a panda's siblings, not including littermates.
+Pandas.searchNonLitterSiblings = function(idnum) {
+  var birthday = G.v(idnum).run()[0].birthday;
+  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
+    var my_date = new Date(birthday);
+    var their_date = new Date(vertex.birthday);
+    var timeDiff = Math.abs(my_date.getTime() - their_date.getTime());
+    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
+    if ( diffDays > 2 ) {
+      return true;
+    } else {
+      return false;
+    }
+  }).run();
+  return nodes;
+}
+
 // Find a value in a set of Panda's othernames
 Pandas.searchOthernames = function(name) {
   var nodes = G.v().filter(function(animal) {
@@ -358,39 +392,30 @@ Pandas.searchPandaName = function(name) {
   return nodes;
 }
 
-// Find a panda's littermates. Search for all pandas with the
-// same parents and the same birthday.
-Pandas.searchLitter = function(idnum) {
-  var nodes = G.v(idnum).in("litter").run();
+// Find all pandas at a given zoo. Zoo IDs are negative numbers
+Pandas.searchPandaZoo = function(idnum) {
+  var nodes = G.v((parseInt(idnum) * -1).toString()).in("zoo").run();
   return nodes;
 }
 
-// Find a pandas's direct siblings, with both the same mother and same father.
-Pandas.searchDirectSiblings = function(idnum) {
-  return;   // TODO
-}
-
-// Find just a panda's half siblings, not the ones with the same mother and father
-Pandas.searchHalfSiblings = function(idnum) {
-  return;   // TODO
-}
-
-// Find a panda's siblings, not including littermates.
-Pandas.searchNonLitterSiblings = function(idnum) {
-  var birthday = G.v(idnum).run()[0].birthday;
-  var nodes = G.v(idnum).as("me").in("family").out("family").unique().except("me").filter(function(vertex) {
-    var my_date = new Date(birthday);
-    var their_date = new Date(vertex.birthday);
-    var timeDiff = Math.abs(my_date.getTime() - their_date.getTime());
-    var diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24));
-    if ( diffDays > 2 ) {
-      return true;
-    } else {
-      return false;
-    }
+// Find all pandas at a given zoo that are still alive
+Pandas.searchPandaZooCurrent = function(idnum) {
+  var nodes = G.v((parseInt(idnum) * -1).toString()).in("zoo").filter(function(vertex) {
+    return vertex.death == undefined;
   }).run();
   return nodes;
 }
+
+// Find all pandas that were either born at, or lived at a given zoo
+Pandas.searchPandaZooBornLived = function(idnum) {
+  var lived = G.v((parseInt(idnum) * -1).toString()).in("zoo").run();
+  var born = G.v((parseInt(idnum) * -1).toString()).in("birthplace").run();
+  var nodes = lived.concat(born).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Am I the first value in the array?
+  });
+  return nodes;
+}
+
 
 // Find a panda's siblings, defined as the intersection of children 
 // by the same mother and father panda, but excluding the initial panda

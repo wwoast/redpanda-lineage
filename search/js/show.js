@@ -362,16 +362,22 @@ Show.acquirePandaInfo = function(animal, language) {
 // Given a zoo, return an address, location, link to a website, and information
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
+  var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
+  var recorded = Pandas.searchPanadZooBornLived(zoo["_id"]);
   return {
-     "animals": Pandas.searchPandaZoo(zoo["_id"]),   // TODO
-     "address": Pandas.zooField(zoo, language + ".address"),
-    "get_name": language + ".name",
-    "language": language,
-    "location": Pandas.zooField(zoo, language + ".location"),
-        "name": Pandas.zooField(zoo, language + ".name"),
-       "photo": Pandas.zooField(zoo, "photo"),
-"photo_credit": Pandas.zooField(zoo, "photo.author"),
-  "photo_link": Pandas.zooField(zoo, "phoot.link")
+       "animals": animals,
+       "address": Pandas.zooField(zoo, language + ".address"),
+  "animal_count": animals.length,
+      "get_name": language + ".name",
+      "language": language,
+      "location": Pandas.zooField(zoo, language + ".location"),
+          "name": Pandas.zooField(zoo, language + ".name"),
+         "photo": Pandas.zooField(zoo, "photo"),
+  "photo_credit": Pandas.zooField(zoo, "photo.author"),
+    "photo_link": Pandas.zooField(zoo, "photo.link"),
+      "recorded": recorded,
+"recorded_count": recorded.length,
+       "website": Pandas.zooField(zoo, "website");
   }
 }
 
@@ -819,6 +825,47 @@ Show.displayPhoto = function(info, frame_class, fallback) {
   div.className = frame_class;
   div.appendChild(image);
   return div;
+}
+
+// The dossier of information for a single zoo.
+// This is the purple main information stripe for a zoo.
+Show.displayZooDetails = function(info) {
+  var language = info.language;
+  var counts = document.createElement('p');
+  var count_text = {
+    "en": [ 
+      info.animal_count,
+      "current red pandas, and",
+      info.recorded_count,
+      "recorded in the database."
+    ].join(' '),
+    "jp": [
+      info.animal_count,
+      "current red pandas, and",
+      info.recorded_count,
+      "recorded in the database."
+    ]
+  }
+  counts.innerText = count_text[language];
+  var address = document.createElement('p');
+  address.innerText = Show.emoji.travel + " " + info.address;
+  var zoo_page = document.createElement('p');
+  var zoo_link = document.createElement('a');
+  zoo_link.href = info.website;
+  zoo_link.innerText = info.name;
+  zoo_page.appendChild(zoo_link);
+  var photo_page = document.createElement('p');
+  var photo_link = document.createElement('a');
+  photo_link.href = info.photo_link;
+  photo_link.innerText = info.photo_credit;
+  photo_page.appendChild(photo_link);
+  var details = document.createElement('div');
+  details.className = "zooDetails";
+  details.appendChild(counts);
+  details.appendChild(address);
+  details.appendChild(zoo_page);
+  details.appendChild(photo_page);
+  return details;
 }
 
 // Display the name of a zoo in the "title bar"
