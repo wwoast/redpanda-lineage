@@ -12,5 +12,20 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 41
+photo.1: https://www.instagram.com/p/BkSjT3Bg9ZL/media/?size=m
+photo.1.author: sbskyy
+photo.1.link: https://www.instagram.com/sbskyy/
+photo.2: https://www.instagram.com/p/BlU9IeHleEB/media/?size=m
+photo.2.author: re_ichimaru
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.3: https://www.instagram.com/p/BlK0p7fFbAW/media/?size=m
+photo.3.author: leonard_redmof
+photo.3.link: https://www.instagram.com/leonard_redmof/
+photo.4: https://www.instagram.com/p/BloasYCFE0F/media/?size=m
+photo.4.author: re_ichimaru
+photo.4.link: https://www.instagram.com/re_ichimaru/
+photo.5: https://www.instagram.com/p/BlvBXaYFy6D/media/?size=m
+photo.5.author: leonard_redmof
+photo.5.link: https://www.instagram.com/leonard_redmof/
 species: 2
 zoo: 19
