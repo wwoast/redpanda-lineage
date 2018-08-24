@@ -7,8 +7,8 @@ death: unknown
 en.name: Kodama
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: つばさ
+gender: f
+jp.name: こだま
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
