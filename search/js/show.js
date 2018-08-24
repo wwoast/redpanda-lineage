@@ -377,7 +377,7 @@ Show.acquireZooInfo = function(zoo, language) {
     "photo_link": Pandas.zooField(zoo, "photo.link"),
       "recorded": recorded,
 "recorded_count": recorded.length,
-       "website": Pandas.zooField(zoo, "website");
+       "website": Pandas.zooField(zoo, "website")
   }
 }
 
