@@ -953,7 +953,7 @@ Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
   var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
-  var details = Show.displayZooDetails(info);  // TODO
+  var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
   dossier.appendChild(title);

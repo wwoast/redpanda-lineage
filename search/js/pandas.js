@@ -400,7 +400,7 @@ Pandas.searchPandaZoo = function(idnum) {
 
 // Find all pandas at a given zoo that are still alive
 Pandas.searchPandaZooCurrent = function(idnum) {
-  var nodes = G.v((parseInt(idnum) * -1).toString()).in("zoo").filter(function(vertex) {
+  var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
     return vertex.death == undefined;
   }).run();
   return nodes;
@@ -408,8 +408,8 @@ Pandas.searchPandaZooCurrent = function(idnum) {
 
 // Find all pandas that were either born at, or lived at a given zoo
 Pandas.searchPandaZooBornLived = function(idnum) {
-  var lived = G.v((parseInt(idnum) * -1).toString()).in("zoo").run();
-  var born = G.v((parseInt(idnum) * -1).toString()).in("birthplace").run();
+  var lived = G.v(idnum).in("zoo").run();
+  var born = G.v(idnum).in("birthplace").run();
   var nodes = lived.concat(born).filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
   });
@@ -428,7 +428,10 @@ Pandas.searchSiblings = function(idnum) {
 // Zoos are stored with negative numbers, but are tracked in the database by
 // their positive ID numbers. So convert the ID before searching
 Pandas.searchZooId = function(idnum) {
-  var node = G.v((parseInt(idnum) * -1).toString()).run();
+  if (parseInt(idnum) > 0) {
+    idnum = parseInt(idnum * -1).toString();
+  }
+  var node = G.v(idnum).run();
   return node[0];
 }
 
