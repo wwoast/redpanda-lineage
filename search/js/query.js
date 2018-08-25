@@ -14,6 +14,10 @@ Query.init = function() {
      targeted searches in the panda database.
   */ 
   var query = Object.create(Query.Q); 
+  query.terms = [];    // Space-deliminited array of query inputs
+  query.atoms = {};    // Atoms, which consist of a token and possibly a subject (panda: gin)
+                       // TODO: need a tree data structure
+
   return query;
 }
 
@@ -24,6 +28,7 @@ Query.init = function() {
     we're trying to support
 */
 Query.ops = {
+  "processed" : "___",
   "type": {
     "panda": ['panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['zoo', '動物園']
@@ -133,11 +138,45 @@ Query.resolve = function(single_term, type, language) {
   return bundle;
 }
 
+// Given a list of tokens, return a bundle with the current set of 
+// tokens processed, and metadata about each found token in the terms.
+Query.findTokens = function(terms, tokens) {
+  var bundle = {
+    "terms": terms
+  };
+  tokens.forEach(function(token) {
+    var index = terms.indexOf(token);
+    if (index > -1) {
+      bundle[index] = {
+      "object": undefined,
+       "terms": terms[index],
+        "type": "type"
+      }
+      terms[index] = Query.ops.processed;  // Tombstone a processed token
+    }
+  });
+  return bundle;
+}
+
 // Find type operators (panda, zoo) and validate which terms after
 // the type might be subjects for those type operators
 Query.typeAtoms = function(terms) {
-  var bundle = {}
-  // var types = Query.ops
+  var bundle = {};
+  var types = Query.ops.type.panda.concat(Query.ops.type.zoo);
+  types.forEach(function(type_op) {
+    var index = terms.indexOf(type_op);
+    if (index > -1) {
+      bundle[index] = {
+      "object": undefined,
+       "terms": terms[index],
+        "type": "type"
+      }
+    }
+  });
+  terms.forEach(function(term) {
+    
+  });
+
 
   return bundle;
 }
