@@ -15,9 +15,7 @@ Query.init = function() {
   */ 
   var query = Object.create(Query.Q); 
   query.terms = [];    // Space-deliminited array of query inputs
-  query.atoms = {};    // Atoms, which consist of a token and possibly a subject (panda: gin)
-                       // TODO: need a tree data structure
-
+  query.tree = {};     // reLexer parse tree
   return query;
 }
 
@@ -69,6 +67,59 @@ Query.ops = {
     "uncle": ['uncle']
   }
 }
+
+// Escape any characters in the operations list that have meaning for regexes.
+// https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
+Query.safe_regexp_input = function(input) {
+  if (input instanceof Array) {
+    return input.map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
+  } else {
+    return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+}
+
+// Make a regex that matches all terms in an array, or matches a single term from a string
+Query.regexp = function(input) {
+  var safe = Query.safe_regexp_input(input);
+  if (safe instanceof Array) {
+    // Parse any one of a number of equivalent operators
+    return new RegExp(safe.join("|"), 'gi');
+  } else {
+    // Single string parsing
+    return new RegExp(safe);  
+  }
+}
+
+// Get a list of valid operators (the children) of the Query.obj array
+// Return the result as an array
+Query.values = function(input) {
+  var results = [];
+  if (typeof input != "object") {
+    results = results.concat(input);
+  } else {
+    Object.values(input).forEach(function(subinput) {
+      if (typeof subinput != "object") {
+        results = results.concat(subinput);
+      } else {
+        results = results.concat(Query.values(subinput));
+      }
+    });
+  }
+  return results;
+}
+
+// TODO: construct regex from array of operators
+
+// Rules for reLexer. This is a series of stacked regexes that compose to match
+// a parsed query, for insertion into a parse tree for ordered processing of matches.
+Query.rules = {
+  glob: /\*/,
+  number: /-?\d+(\.\d+)?/,
+  space: /\s+/,
+  string: /^\s+/,
+  type: "asdflkj"
+}
+
 
 /*
     Query processing helper and resolution methods
