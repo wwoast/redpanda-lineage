@@ -205,6 +205,7 @@ div.emptyResult {
 div.emptyResult img {
     height: 65vh;
     max-width: 100%;
+    max-height: 600px;
 }
 
 div.emptyResult div.overlay {
