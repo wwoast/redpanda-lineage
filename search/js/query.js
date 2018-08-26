@@ -132,9 +132,8 @@ Query.rules = {
   ],
   // This is the root rule that new reLexer() starts its processing at 
   expression: or(
+    ':typeExpression',
     ':id',
-    ':type',
-    ':typeExpression'
   )
 }
 
@@ -142,6 +141,13 @@ Query.rules = {
     Actions are callbacks from the lexer matching. If an expression matches one of the
     expressions in the rules list, one of these callbacks is run. The env is passed in
     when running the lexer.parse function.
+
+    The format of capture is as follows:
+     - non named capture (:subject) => capture is a scalar
+     - named capture (:number>id) => capture is an array, with a[1] being the value
+     - multiple captures, apparently looks like capture.(named)/capture.(named)
+
+    TODO: make all Pandas. functions return arrays
 */
 Query.actions = {
   // Search on the Panda list and on the Zoo list. Whichever has more hits
@@ -151,6 +157,9 @@ Query.actions = {
     var zoo_nodes = Query.resolver.subject(captures, "zoo");
     (panda_nodes.length >= zoo_nodes.length) ? Query.results.concat(panda_nodes)
                                              : Query.results.concat(zoo_nodes);
+  },
+  "typeExpression": function(env, captures) {
+    return;
   }
 }
 

@@ -323,7 +323,7 @@ Pandas.searchPandaField = function(query, field) {
 // Find a single panda by id number
 Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
-  return node[0];
+  return node;
 }
 
 // Find a panda's mother
@@ -331,7 +331,7 @@ Pandas.searchPandaMom = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
     return vertex.gender == "Female";
   }).run();
-  return nodes[0];
+  return nodes;
 }
 
 // Find a panda by any name field
@@ -385,7 +385,7 @@ Pandas.searchZooId = function(idnum) {
     idnum = parseInt(idnum * -1).toString();
   }
   var node = G.v(idnum).run();
-  return node[0];
+  return nodes;
 }
 
 /*
