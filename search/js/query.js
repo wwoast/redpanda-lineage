@@ -62,18 +62,7 @@ Query.ops = {
     "relatives": ['relative', 'relatives'],
     "siblings": ['sibling', 'siblings'],
     "uncle": ['uncle']
-  },
-  "binary": [
-    Query.ops.family.children,
-    Query.ops.family.relatives,
-    Query.ops.family.siblings,
-    Query.ops.subtype.born,
-    Query.ops.subtype.died
-  ],
-  "n_ary": [
-    Query.ops.family.relatives,
-    Query.ops.family.siblings
-  ]
+  }
 }
 
 // Escape any characters in the operations list that have meaning for regexes.
@@ -128,22 +117,24 @@ Query.rules = {
     ':space?', ':separator?', ':space?'
   ],
   // Operators, in various languages
-  type: Query.values(Query.ops.type),
+  type: Query.regexp(Query.values(Query.ops.type)),
   // Subjects, either an id number or a panda / zoo name
-  id: ':number>number',
+  id: ':number',
   subject: or(
-    ':id>id',
-    ':string>string'
+    ':id',
+    ':string'
   ),
   stringExpression: [
-    ":subject>subject"
+    ":subject"
   ],
   typeExpression: [
-    ':type>type', ':divider?', ':subject>subject'
+    ':type', ':divider?', ':string'
   ],
+  // This is the root rule that new reLexer() starts its processing at 
   expression: or(
-    ':typeExpression',
-    ':stringExpression'
+    ':id',
+    ':type',
+    ':typeExpression'
   )
 }
 
@@ -153,17 +144,13 @@ Query.rules = {
     when running the lexer.parse function.
 */
 Query.actions = {
-  "stringExpression": function(env, captures) {
-    // Search on the Panda list and on the Zoo list. Whichever has more hits
-    // is what we'll say this string is.
-    var panda_nodes = Query.resolver.subject(captures.subject, "panda");
-    var zoo_nodes = Query.resolver.subject(captures.subject, "zoo");
+  // Search on the Panda list and on the Zoo list. Whichever has more hits
+  // is what we'll say this string is.
+  "id": function(env, captures) {
+    var panda_nodes = Query.resolver.subject(captures, "panda");
+    var zoo_nodes = Query.resolver.subject(captures, "zoo");
     (panda_nodes.length >= zoo_nodes.length) ? Query.results.concat(panda_nodes)
                                              : Query.results.concat(zoo_nodes);
-  },
-  "typeExpression": function(env, captures) {
-    var node = Query.resolvers.subject(captures.subject, captures.type);
-    Query.results.push(node);
   }
 }
 
@@ -171,32 +158,48 @@ Query.actions = {
     Resolvers are non-callback ways to validate data from a parse. They typically
     turn some string value into a node in the Pandas graph.
 */
-Query.resolvers = {
+Query.resolver = {
+  // Is the input an id number or not?
   "is_id": function(input) {
     return (isFinite(input) && input != Pandas.def.animal['_id']);
   },
+  // Assume this is a panda name. Do locale-specific tweaks to
+  // make the search work as you'd expect (capitalization, etc)
+  "name": function(input, language) {
+    input = input.replace(/^\w/, function(chr) {
+      return chr.toUpperCase();
+    });
+    input = input.replace(/-./, function(chr) {
+      return chr.toUpperCase();
+    });
+    input = input.replace(/ ./, function(chr) {
+      return chr.toUpperCase();
+    });
+    return input;
+  },
+  // Process a search term, either typed as panda/zoo, or untyped
   "subject": function(subject, type) {
     // Explicitly search for a panda by id
-    if ((Query.resolvers.is_id(subject)) &&
-        (type in Query.ops.type.panda)) {
+    if ((Query.resolver.is_id(subject)) &&
+        (Query.ops.type.panda.indexOf(type) != -1)) {
       return Pandas.searchPandaId(subject);
     }
     // Explicitly search for a zoo by id
-    if ((Query.resolvers.is_id(subject) == true) &&
-        (type in Query.ops.type.zoo)) {
+    if ((Query.resolver.is_id(subject) == true) &&
+        (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
     }
     // Raw ids are assumed to be panda ids
-    if ((Query.resolvers.is_id(subject)) &&
+    if ((Query.resolver.is_id(subject)) &&
         (type == undefined)) {
-      return Panda.searchPandaId(subject);    
+      return Pandas.searchPandaId(subject);    
     }
     // Otherwise search by name
-    if (type in Query.ops.type.panda) {
-      return Panda.searchPandaName(subject);
+    if (Query.ops.type.panda.indexOf(type) != -1) {
+      return Pandas.searchPandaName(Query.resolver.name(input, L));
     }
-    if (type in Query.ops.type.zoo) {
-      return Panda.searchZooName(subject);
+    if (Query.ops.type.zoo.indexOf(type) != -1) {
+      return Pandas.searchZooName(Query.resolver.name(input, L));
     }
   }
 }
@@ -228,7 +231,7 @@ Query.resolve = function(single_term, type, language) {
   }
   // 1. Process numeric IDs, defaulting to assume it is
   // a panda unless otherwise described.
-  if (Query.isId(single_term)) {
+  if (Query.resolver.is_id(single_term)) {
     if (type == "zoo") {
       bundle.object = Pandas.searchZooId(single_term);
     } else if (type == "panda") {
@@ -257,64 +260,6 @@ Query.resolve = function(single_term, type, language) {
   return bundle;
 }
 
-// Given a list of tokens, return a bundle with the current set of 
-// tokens processed, and metadata about each found token in the terms.
-Query.findTokens = function(terms, tokens) {
-  var bundle = {
-    "terms": terms
-  };
-  tokens.forEach(function(token) {
-    var index = terms.indexOf(token);
-    if (index > -1) {
-      bundle[index] = {
-      "object": undefined,
-       "terms": terms[index],
-        "type": "type"
-      }
-      terms[index] = Query.ops.processed;  // Tombstone a processed token
-    }
-  });
-  return bundle;
-}
-
-// Find type operators (panda, zoo) and validate which terms after
-// the type might be subjects for those type operators
-Query.typeAtoms = function(terms) {
-  var bundle = {};
-  var types = Query.ops.type.panda.concat(Query.ops.type.zoo);
-  types.forEach(function(type_op) {
-    var index = terms.indexOf(type_op);
-    if (index > -1) {
-      bundle[index] = {
-      "object": undefined,
-       "terms": terms[index],
-        "type": "type"
-      }
-    }
-  });
-  terms.forEach(function(term) {
-    
-  });
-
-
-  return bundle;
-}
-
-// Split input into words, and ascribe meanings to each one.
-// Return a bundle with an array of terms, with an array of meanings.
-Query.tokenize = function(input) {
-  var bundle = {};
-  var terms = input.split(' ');
-
-  // Pass 1: Find type operators (panda, zoo)
-
-}
-
-/*
-    Query processing rules
-*/
-// TOWRITE MORE
-
 /*
     Hash-Link Processing
 */
@@ -340,11 +285,8 @@ Query.hashlink = function(input) {
     var bundle = Query.resolve(panda, "panda", "en");
     return bundle.object;
   } else if (input.indexOf("#query/") == 0) {
-    // process a query. TODO: better
-    var query = input.slice(7);
-    var single_term = query.split(' ')[0];
-    var bundle = Query.resolve(single_term, "panda", "en");
-    return bundle.object;
+    // process a query. TODO: racey?
+    return Query.results;
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;
