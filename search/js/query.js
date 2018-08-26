@@ -8,25 +8,18 @@ var Query = {};   // Namespace
 Query.Q = {};     // Prototype
 
 Query.init = function() {
-  /* Create a Query object.
-
-     This stores the stack of operations and parameters necessary to perform
-     targeted searches in the panda database.
-  */ 
-  var query = Object.create(Query.Q); 
-  query.terms = [];    // Space-deliminited array of query inputs
-  query.tree = {};     // reLexer parse tree
+  var query = Object.create(Query.Q);
+  query.results = [];   // Where results are stored
   return query;
 }
-
 
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
-    we're trying to support
+    we're trying to support. Includes lists of the valid operators that may work on two
+    different panda arguments.
 */
 Query.ops = {
-  "processed" : "___",
   "type": {
     "panda": ['panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['zoo', '動物園']
@@ -34,15 +27,19 @@ Query.ops = {
   "subtype": {
     "alive": ['alive', 'living'],
     "born": ['born'],
+    "born before": ['born before'],
+    "born after": ['born after'],
     "dead": ['dead'],
     "died": ['died'],
-    "in": ['in']
+    "died before": ['died before'],
+    "died after": ['died after'],
+    "in": ['in', 'at']
   },
   "glob": {
     "*": ['*'],
     "?": ['?']
   },
-  "boolean": {
+  "logical": {
     "and": ['and'],
     "or": ['or'],
     "not": ['not'],
@@ -65,7 +62,18 @@ Query.ops = {
     "relatives": ['relative', 'relatives'],
     "siblings": ['sibling', 'siblings'],
     "uncle": ['uncle']
-  }
+  },
+  "binary": [
+    Query.ops.family.children,
+    Query.ops.family.relatives,
+    Query.ops.family.siblings,
+    Query.ops.subtype.born,
+    Query.ops.subtype.died
+  ],
+  "n_ary": [
+    Query.ops.family.relatives,
+    Query.ops.family.siblings
+  ]
 }
 
 // Escape any characters in the operations list that have meaning for regexes.
@@ -91,7 +99,7 @@ Query.regexp = function(input) {
 }
 
 // Get a list of valid operators (the children) of the Query.obj array
-// Return the result as an array
+// Return the result as a single-level array
 Query.values = function(input) {
   var results = [];
   if (typeof input != "object") {
@@ -108,39 +116,99 @@ Query.values = function(input) {
   return results;
 }
 
-// TODO: construct regex from array of operators
-
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
-  glob: /\*/,
+  // Primitive components 
   number: /-?\d+(\.\d+)?/,
   space: /\s+/,
-  string: /^\s+/,
-  type: "asdflkj"
+  string: /\w+/,
+  separator: /\S{1}/,
+  divider: [
+    ':space?', ':separator?', ':space?'
+  ],
+  // Operators, in various languages
+  type: Query.values(Query.ops.type),
+  // Subjects, either an id number or a panda / zoo name
+  id: ':number>number',
+  subject: or(
+    ':id>id',
+    ':string>string'
+  ),
+  stringExpression: [
+    ":subject>subject"
+  ],
+  typeExpression: [
+    ':type>type', ':divider?', ':subject>subject'
+  ],
+  expression: or(
+    ':typeExpression',
+    ':stringExpression'
+  )
 }
-
 
 /*
-    Query processing helper and resolution methods
+    Actions are callbacks from the lexer matching. If an expression matches one of the
+    expressions in the rules list, one of these callbacks is run. The env is passed in
+    when running the lexer.parse function.
 */
-// Is the given input a non-zero id number or not? Helper for other resolve function
-Query.isId = function(input) {
-  return (isFinite(input) && input != Pandas.def.animal['_id']);
+Query.actions = {
+  "stringExpression": function(env, captures) {
+    // Search on the Panda list and on the Zoo list. Whichever has more hits
+    // is what we'll say this string is.
+    var panda_nodes = Query.resolver.subject(captures.subject, "panda");
+    var zoo_nodes = Query.resolver.subject(captures.subject, "zoo");
+    (panda_nodes.length >= zoo_nodes.length) ? Query.results.concat(panda_nodes)
+                                             : Query.results.concat(zoo_nodes);
+  },
+  "typeExpression": function(env, captures) {
+    var node = Query.resolvers.subject(captures.subject, captures.type);
+    Query.results.push(node);
+  }
 }
 
-// Naive language detection of input strings. TODO: make better :P
-// Assume Japanese if any Japanese characters are detected!
-Query.myLanguage = function(input) {
-  for (var i = 0; i < input.length; i++) {
-    if ((str.charCodeAt(i) >= 12352 && str.charCodeAt(i) <= 12543) ||
-        (str.charCodeAt(i) >= 19000 && str.charCodeAt(i) <= 44000)) {
-      return "jp";
+/* 
+    Resolvers are non-callback ways to validate data from a parse. They typically
+    turn some string value into a node in the Pandas graph.
+*/
+Query.resolvers = {
+  "is_id": function(input) {
+    return (isFinite(input) && input != Pandas.def.animal['_id']);
+  },
+  "subject": function(subject, type) {
+    // Explicitly search for a panda by id
+    if ((Query.resolvers.is_id(subject)) &&
+        (type in Query.ops.type.panda)) {
+      return Pandas.searchPandaId(subject);
+    }
+    // Explicitly search for a zoo by id
+    if ((Query.resolvers.is_id(subject) == true) &&
+        (type in Query.ops.type.zoo)) {
+      return Pandas.searchZooId(subject);
+    }
+    // Raw ids are assumed to be panda ids
+    if ((Query.resolvers.is_id(subject)) &&
+        (type == undefined)) {
+      return Panda.searchPandaId(subject);    
+    }
+    // Otherwise search by name
+    if (type in Query.ops.type.panda) {
+      return Panda.searchPandaName(subject);
+    }
+    if (type in Query.ops.type.zoo) {
+      return Panda.searchZooName(subject);
     }
   }
-  return "en";
 }
 
+/*
+    Lexer instantiation
+*/
+Query.lexer = new reLexer(Query.rules, 'expression', Query.actions);
+
+/*
+    Pre-reLexer Query processing helper and resolution methods
+*/
 // Resolve whether the input is a name or an id, purely based on retrieval attempts.
 // Order these attempts as follows:
 // 1) Numeric data is treated as an ID, and then searched by its type.
