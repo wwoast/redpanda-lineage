@@ -384,7 +384,7 @@ Pandas.searchZooId = function(idnum) {
   if (parseInt(idnum) > 0) {
     idnum = parseInt(idnum * -1).toString();
   }
-  var node = G.v(idnum).run();
+  var nodes = G.v(idnum).run();
   return nodes;
 }
 

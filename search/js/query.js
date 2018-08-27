@@ -132,8 +132,7 @@ Query.rules = {
   ],
   // This is the root rule that new reLexer() starts its processing at 
   expression: or(
-    ':typeExpression',
-    ':id',
+    ':id'
   )
 }
 
@@ -147,19 +146,16 @@ Query.rules = {
      - named capture (:number>id) => capture is an array, with a[1] being the value
      - multiple captures, apparently looks like capture.(named)/capture.(named)
 
-    TODO: make all Pandas. functions return arrays
+     Try putting parser and friends into its own object since it doesn't like being on this one
+     or removing all use of concat from my javascript since it uses up the call stack:
+     https://davidwalsh.name/merge-arrays-javascript
 */
 Query.actions = {
-  // Search on the Panda list and on the Zoo list. Whichever has more hits
-  // is what we'll say this string is.
+  // Search on the Panda list and on the Zoo list. Prefer to do ID matches for pandas
   "id": function(env, captures) {
     var panda_nodes = Query.resolver.subject(captures, "panda");
     var zoo_nodes = Query.resolver.subject(captures, "zoo");
-    (panda_nodes.length >= zoo_nodes.length) ? Query.results.concat(panda_nodes)
-                                             : Query.results.concat(zoo_nodes);
-  },
-  "typeExpression": function(env, captures) {
-    return;
+    Query.results = (panda_nodes.length >= zoo_nodes.length) ? panda_nodes : zoo_nodes;
   }
 }
 
@@ -175,15 +171,17 @@ Query.resolver = {
   // Assume this is a panda name. Do locale-specific tweaks to
   // make the search work as you'd expect (capitalization, etc)
   "name": function(input, language) {
-    input = input.replace(/^\w/, function(chr) {
-      return chr.toUpperCase();
-    });
-    input = input.replace(/-./, function(chr) {
-      return chr.toUpperCase();
-    });
-    input = input.replace(/ ./, function(chr) {
-      return chr.toUpperCase();
-    });
+    if (language in ["en", "es"]) {  // Latin languages get caps
+      input = input.replace(/^\w/, function(chr) {
+        return chr.toUpperCase();
+      });
+      input = input.replace(/-./, function(chr) {
+        return chr.toUpperCase();
+      });
+      input = input.replace(/ ./, function(chr) {
+        return chr.toUpperCase();
+      });
+    }
     return input;
   },
   // Process a search term, either typed as panda/zoo, or untyped
