@@ -9,7 +9,6 @@ Query.Q = {};     // Prototype
 
 Query.init = function() {
   var query = Object.create(Query.Q);
-  query.results = [];   // Where results are stored
   return query;
 }
 
@@ -80,7 +79,7 @@ Query.regexp = function(input) {
   var safe = Query.safe_regexp_input(input);
   if (safe instanceof Array) {
     // Parse any one of a number of equivalent operators
-    return new RegExp(safe.join("|"), 'gi');
+    return new RegExp("\b" + safe.join("\b|\b") + "\b", 'gi');
   } else {
     // Single string parsing
     return new RegExp(safe);  
@@ -108,32 +107,34 @@ Query.values = function(input) {
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
-  // Primitive components 
-  number: /-?\d+(\.\d+)?/,
-  space: /\s+/,
-  string: /\w+/,
-  separator: /\S{1}/,
-  divider: [
+  // Primitive components
+  "id": /\d{1,5}/,
+  "space": /\s+/,
+  "string": /\w+/,
+  "separator": /\S{1}/,
+  "divider": [
     ':space?', ':separator?', ':space?'
   ],
   // Operators, in various languages
-  type: Query.regexp(Query.values(Query.ops.type)),
+  // type: Query.regexp(Query.values(Query.ops.type)),
+  "type": /\bpanda\b|\bzoo\b/,
   // Subjects, either an id number or a panda / zoo name
-  id: ':number',
-  subject: or(
-    ':id',
-    ':string'
+  "subject": or(
+    ':id>id',
+    ':string>string'
   ),
-  stringExpression: [
-    ":subject"
+  // Expression types
+  "subjectExpression": [
+    ":subject>subject"
   ],
-  typeExpression: [
-    ':type', ':divider?', ':string'
+  "typeExpression": [
+    ':type>type', ':space?', ':subject>subject'
   ],
   // This is the root rule that new reLexer() starts its processing at 
-  expression: or(
-    ':id'
-  )
+  "expression": [
+    // ':typeExpression',
+    ':subjectExpression/1'
+  ]
 }
 
 /*
@@ -146,18 +147,37 @@ Query.rules = {
      - named capture (:number>id) => capture is an array, with a[1] being the value
      - multiple captures, apparently looks like capture.(named)/capture.(named)
 
-     Try putting parser and friends into its own object since it doesn't like being on this one
-     or removing all use of concat from my javascript since it uses up the call stack:
-     https://davidwalsh.name/merge-arrays-javascript
+     Do all query processing in these action functions, with the output landing in the
+     Query.results[] array.
+
+     When any of the types shown in the regex list are seen, you get one of these callbacks,
+     regardless of whether they're in the expression list or not! So you only want callbacks
+     for full expression matches.
 */
 Query.actions = {
-  // Search on the Panda list and on the Zoo list. Prefer to do ID matches for pandas
-  "id": function(env, captures) {
-    var panda_nodes = Query.resolver.subject(captures, "panda");
-    var zoo_nodes = Query.resolver.subject(captures, "zoo");
-    Query.results = (panda_nodes.length >= zoo_nodes.length) ? panda_nodes : zoo_nodes;
+  // Parse IDs if they are valid numbers, and names as if they have proper search 
+  // capitalization. Parsing here percolates down itno other expressions :)
+  "subject": function(env, captures) {
+    [match_type, value] = captures;
+    switch (match_type) {
+      case "id":
+        return Query.resolver.is_id(value) ? value : 0;
+      case "string":
+        return Query.resolver.name(value, L);
+    }
+  },
+  // No type given. Based on result counts, guess whether this is a panda or zoo
+  "subjectExpression": function(env, captures) {
+    var panda_results = Query.resolver.subject(captures.subject, "panda");
+    var zoo_results = Query.resolver.subject(captures.subject, "zoo");
+    return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
+  },
+  // Type is given. Search for either a panda or a zoo.
+  "typeExpression": function(env, captures) {
+    var results = Query.resolver.subject(captures.subject, captures.type);
+    return results;
   }
-}
+},
 
 /* 
     Resolvers are non-callback ways to validate data from a parse. They typically
@@ -168,7 +188,7 @@ Query.resolver = {
   "is_id": function(input) {
     return (isFinite(input) && input != Pandas.def.animal['_id']);
   },
-  // Assume this is a panda name. Do locale-specific tweaks to
+  // Assume this is a panda name. Do locale-speciQuery.results =fic tweaks to
   // make the search work as you'd expect (capitalization, etc)
   "name": function(input, language) {
     if (language in ["en", "es"]) {  // Latin languages get caps
