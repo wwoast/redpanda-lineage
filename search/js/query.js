@@ -131,10 +131,10 @@ Query.rules = {
     ':type>type', ':space?', ':subject>subject'
   ],
   // This is the root rule that new reLexer() starts its processing at 
-  "expression": [
-    // ':typeExpression',
-    ':subjectExpression/1'
-  ]
+  "expression": or(
+    ':typeExpression',
+    ':subjectExpression'
+  )
 }
 
 /*
