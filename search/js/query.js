@@ -224,10 +224,10 @@ Query.resolver = {
     }
     // Otherwise search by name
     if (Query.ops.type.panda.indexOf(type) != -1) {
-      return Pandas.searchPandaName(Query.resolver.name(input, L));
+      return Pandas.searchPandaName(Query.resolver.name(subject, L));
     }
     if (Query.ops.type.zoo.indexOf(type) != -1) {
-      return Pandas.searchZooName(Query.resolver.name(input, L));
+      return Pandas.searchZooName(Query.resolver.name(subject, L));
     }
   }
 }
