@@ -168,8 +168,8 @@ Query.actions = {
   },
   // No type given. Based on result counts, guess whether this is a panda or zoo
   "subjectExpression": function(env, captures) {
-    var panda_results = Query.resolver.subject(captures.subject, "panda");
-    var zoo_results = Query.resolver.subject(captures.subject, "zoo");
+    var panda_results = Query.resolver.subject(captures.subject, "panda", L);
+    var zoo_results = Query.resolver.subject(captures.subject, "zoo", L);
     return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
   },
   // Type is given. Search for either a panda or a zoo.
@@ -188,10 +188,10 @@ Query.resolver = {
   "is_id": function(input) {
     return (isFinite(input) && input != Pandas.def.animal['_id']);
   },
-  // Assume this is a panda name. Do locale-speciQuery.results =fic tweaks to
+  // Assume this is a panda name. Do locale-specific tweaks to
   // make the search work as you'd expect (capitalization, etc)
   "name": function(input, language) {
-    if (["en", "es"].indexOf(L) != -1) {  // Latin languages get caps
+    if (["en", "es"].indexOf(language) != -1) {  // Latin languages get caps
       input = input.replace(/^\w/, function(chr) {
         return chr.toUpperCase();
       });
@@ -204,9 +204,9 @@ Query.resolver = {
     }
     return input;
   },
-  // Process a search term, either typed as panda/zoo, or untyped
-  // TODO: convert panda/zoo types to regex, to support Panda/Zoo caps
-  "subject": function(subject, type) {
+  // Process a search term, either typed as panda/zoo, or untyped,
+  // into a list of nodes in the Pandas/Zoos graph
+  "subject": function(subject, type, language) {
     // Explicitly search for a panda by id
     if ((Query.resolver.is_id(subject)) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
@@ -224,10 +224,10 @@ Query.resolver = {
     }
     // Otherwise search by name
     if (Query.ops.type.panda.indexOf(type) != -1) {
-      return Pandas.searchPandaName(Query.resolver.name(subject, L));
+      return Pandas.searchPandaName(Query.resolver.name(subject, language));
     }
     if (Query.ops.type.zoo.indexOf(type) != -1) {
-      return Pandas.searchZooName(Query.resolver.name(subject, L));
+      return Pandas.searchZooName(Query.resolver.name(subject, language));
     }
   }
 }
@@ -236,57 +236,6 @@ Query.resolver = {
     Lexer instantiation
 */
 Query.lexer = new reLexer(Query.rules, 'expression', Query.actions);
-
-/*
-    Pre-reLexer Query processing helper and resolution methods
-*/
-// Resolve whether the input is a name or an id, purely based on retrieval attempts.
-// Order these attempts as follows:
-// 1) Numeric data is treated as an ID, and then searched by its type.
-// 2) String data has language detection done
-// 3) String exact matched against its type's name, nickname, or othername
-// 4) String partial matched against its type's name, nickname, or othername.
-//    -- At this point the type either has no results or is null --
-// 5) String match as if type was panda
-// 6) String match as if type was a zoo
-// 7) String match as if type was a location
-// 8) String match as if type was a date
-Query.resolve = function(single_term, type, language) {
-  var bundle = {
-    "object": null,
-    "language": language,
-    "type": type,
-  }
-  // 1. Process numeric IDs, defaulting to assume it is
-  // a panda unless otherwise described.
-  if (Query.resolver.is_id(single_term)) {
-    if (type == "zoo") {
-      bundle.object = Pandas.searchZooId(single_term);
-    } else if (type == "panda") {
-      bundle.object = Pandas.searchPandaId(single_term);
-    } else {
-      bundle.type = "panda";
-      bundle.object = Pandas.searchPandaId(single_term);
-    }
-    return bundle;
-  }
-  // TODO: the rest of the resolution steps for strings.
-  // For now, anything that's not a number is a string.
-  // For English strings, our names are capitalized in
-  // the database, and strings after a hyphern are also
-  // capitalized.
-  single_term = single_term.replace(/^\w/, function(chr) {
-    return chr.toUpperCase();
-  });
-  single_term = single_term.replace(/-./, function(chr) {
-    return chr.toUpperCase();
-  });
-  single_term = single_term.replace(/ ./, function(chr) {
-    return chr.toUpperCase();
-  });
-  bundle.object = Pandas.searchPandaName(single_term);
-  return bundle;
-}
 
 /*
     Hash-Link Processing
@@ -300,20 +249,17 @@ Query.hashlink = function(input) {
     // go-link for a single panda result.
     // for now, just a search result. soon, a detailed result page
     var panda = input.slice(7);
-    var bundle = Query.resolve(panda, "panda", "en");
-    return bundle.object;
+    return Query.resolver.subject(panda, "panda", L);
   } else if (input.indexOf("#zoo/") == 0) {
     // go-link for a single zoo result.
     var zoo = input.slice(5);
-    var bundle = Query.resolve(zoo, "zoo", "en");
-    return bundle.object;
+    return Query.resolver.subject(zoo, "zoo", L);
   } else if (input.indexOf("#timeline/") == 0) {
     // show full info and timeline for a panda. TODO
     var panda = input.slice(10);
-    var bundle = Query.resolve(panda, "panda", "en");
-    return bundle.object;
+    return Query.resolver.subject(panda, "panda", L);
   } else if (input.indexOf("#query/") == 0) {
-    // process a query. TODO: racey?
+    // process a query.
     var terms = input.slice(7);
     return Query.lexer.parse(terms);
   } else {
