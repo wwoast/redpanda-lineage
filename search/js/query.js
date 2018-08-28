@@ -79,7 +79,7 @@ Query.regexp = function(input) {
   var safe = Query.safe_regexp_input(input);
   if (safe instanceof Array) {
     // Parse any one of a number of equivalent operators
-    return new RegExp("\b" + safe.join("\b|\b") + "\b", 'gi');
+    return new RegExp(safe.join("|"), 'iu');
   } else {
     // Single string parsing
     return new RegExp(safe);  
@@ -116,8 +116,8 @@ Query.rules = {
     ':space?', ':separator?', ':space?'
   ],
   // Operators, in various languages
-  // type: Query.regexp(Query.values(Query.ops.type)),
-  "type": /\bpanda\b|\bzoo\b/,
+  "type": Query.regexp(Query.values(Query.ops.type)),
+  // "type": /panda|zoo/,
   // Subjects, either an id number or a panda / zoo name
   "subject": or(
     ':id>id',
@@ -191,7 +191,7 @@ Query.resolver = {
   // Assume this is a panda name. Do locale-speciQuery.results =fic tweaks to
   // make the search work as you'd expect (capitalization, etc)
   "name": function(input, language) {
-    if (language in ["en", "es"]) {  // Latin languages get caps
+    if (["en", "es"].indexOf(L) != -1) {  // Latin languages get caps
       input = input.replace(/^\w/, function(chr) {
         return chr.toUpperCase();
       });
@@ -205,6 +205,7 @@ Query.resolver = {
     return input;
   },
   // Process a search term, either typed as panda/zoo, or untyped
+  // TODO: convert panda/zoo types to regex, to support Panda/Zoo caps
   "subject": function(subject, type) {
     // Explicitly search for a panda by id
     if ((Query.resolver.is_id(subject)) &&
@@ -313,7 +314,8 @@ Query.hashlink = function(input) {
     return bundle.object;
   } else if (input.indexOf("#query/") == 0) {
     // process a query. TODO: racey?
-    return Query.results;
+    var terms = input.slice(7);
+    return Query.lexer.parse(terms);
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;
