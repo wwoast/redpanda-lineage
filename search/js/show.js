@@ -93,8 +93,12 @@ function outputResults() {
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
-  results.forEach(function(animal) {
-    content_divs.push(Show.pandaInformation(animal, undefined, L));
+  results.forEach(function(entity) {
+    if (entity["_id"] < -1) {
+      content_divs.push(Show.zooInformation(entity, undefined, L));
+    } else {
+      content_divs.push(Show.pandaInformation(entity, undefined, L));
+    }
   });
   if (results.length == 0) {
     // No results? On desktop, bring up a sad panda
