@@ -261,7 +261,8 @@ Query.hashlink = function(input) {
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
     var terms = input.slice(7);
-    return Query.lexer.parse(terms);
+    var results = Query.lexer.parse(terms);
+    return (results == undefined) ? [] : results;
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;

@@ -94,10 +94,15 @@ function outputResults() {
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   results.forEach(function(entity) {
-    if (entity["_id"] < -1) {
-      content_divs.push(Show.zooInformation(entity, undefined, L));
+    if (entity["_id"] < 0) {
+      // Zoos get the Zoo div and pandas for this zoo
+      content_divs.push(Show.zooInformation(entity, L));
+      animals = Pandas.searchPandaZoo(entity["_id"]);
+      animals.forEach(function(animal) {
+        content_divs.push(Show.pandaInformation(animal));
+      });
     } else {
-      content_divs.push(Show.pandaInformation(entity, undefined, L));
+      content_divs.push(Show.pandaInformation(entity, L, undefined));
     }
   });
   if (results.length == 0) {
@@ -923,7 +928,7 @@ Show.footer = function(language) {
 // regardless, such as birthday / time of death. 
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
-Show.pandaInformation = function(animal, slip_in, language) {
+Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
   var title = Show.displayPandaTitle(info);
