@@ -99,7 +99,7 @@ function outputResults() {
       content_divs.push(Show.zooInformation(entity, L));
       animals = Pandas.searchPandaZoo(entity["_id"]);
       animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal));
+        content_divs.push(Show.pandaInformation(animal, L, undefined));
       });
     } else {
       content_divs.push(Show.pandaInformation(entity, L, undefined));
