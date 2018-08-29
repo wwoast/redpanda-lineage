@@ -777,8 +777,8 @@ Show.displayPandaSiblings = function(info) {
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
     var animal = info.siblings[index];
     var options = ["child_icon", "live_icon"];
-    var test_mom = Pandas.searchPandaMom(animal["_id"]);
-    var test_dad = Pandas.searchPandaDad(animal["_id"]);
+    var test_mom = Pandas.searchPandaMom(animal["_id"])[0];
+    var test_dad = Pandas.searchPandaDad(animal["_id"])[0];
     if (!((test_mom == info.mom) && (test_dad == info.dad)) &&
          ((test_mom != undefined) && (test_dad != undefined)) &&
          ((info.mom != undefined) && (info.dad != undefined))) {
