@@ -191,6 +191,8 @@ Query.resolver = {
   // Assume this is a panda name. Do locale-specific tweaks to
   // make the search work as you'd expect (capitalization, etc)
   "name": function(input, language) {
+    // TODO: determine if search string is latin text or not.
+    // Can't base this on the current page language!!
     if (["en", "es"].indexOf(language) != -1) {  // Latin languages get caps
       input = input.replace(/^\w/, function(chr) {
         return chr.toUpperCase();
