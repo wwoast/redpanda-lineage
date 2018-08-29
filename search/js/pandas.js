@@ -82,6 +82,11 @@ Pandas.def.animal = {
   "photo.3": "/images/no-panda.jpg",
   "photo.4": "/images/no-panda.jpg",
   "photo.5": "/images/no-panda.jpg",
+  "photo.6": "/images/no-panda.jpg",
+  "photo.7": "/images/no-panda.jpg",
+  "photo.8": "/images/no-panda.jpg",
+  "photo.9": "/images/no-panda.jpg",
+  "photo.10": "/images/no-panda.jpg",
   "video.1": "/images/no-panda.jpg",
   "video.2": "/images/no-panda.jpg",
   "video.3": "/images/no-panda.jpg",
@@ -309,7 +314,7 @@ Pandas.searchPandaDad = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
     return vertex.gender == "Male";
   }).run();
-  return nodes[0];
+  return nodes;
 }
 
 // Find a panda by an arbitrary field in the red panda database
@@ -323,7 +328,7 @@ Pandas.searchPandaField = function(query, field) {
 // Find a single panda by id number
 Pandas.searchPandaId = function(idnum) {
   var node = G.v(idnum).run();
-  return node[0];
+  return node;
 }
 
 // Find a panda's mother
@@ -331,10 +336,10 @@ Pandas.searchPandaMom = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {
     return vertex.gender == "Female";
   }).run();
-  return nodes[0];
+  return nodes;
 }
 
-// Find a panda by any name field
+// Find a panda by any name field. TODO: suport arbitrary language names, not just en and jp
 Pandas.searchPandaName = function(name) {
   var en_nodes = G.v({"en.name": name}).run();
   var jp_nodes = G.v({"jp.name": name}).run();
@@ -347,7 +352,7 @@ Pandas.searchPandaName = function(name) {
 
 // Find all pandas at a given zoo. Zoo IDs are negative numbers
 Pandas.searchPandaZoo = function(idnum) {
-  var nodes = G.v((parseInt(idnum) * -1).toString()).in("zoo").run();
+  var nodes = G.v(idnum).in("zoo").run();
   return nodes;
 }
 
@@ -384,8 +389,41 @@ Pandas.searchZooId = function(idnum) {
   if (parseInt(idnum) > 0) {
     idnum = parseInt(idnum * -1).toString();
   }
-  var node = G.v(idnum).run();
-  return node[0];
+  var nodes = G.v(idnum).run();
+  return nodes;
+}
+
+// Search for a word in the Zoo's name or location, and return
+// any nodes that match one of the strings therein.
+Pandas.searchZooName = function(zoo_name_str) {
+  // Get the matches against any of the valid zoo strings we care about
+  var languages = Object.values(Pandas.def.languages);
+  var fields = ["location", "name"];
+  var wants = [];
+  // Convolve the desired fields with the possible language options
+  languages.forEach(function(lang) {
+    fields.forEach(function(field) {
+      wants.push(lang + "." + field);
+    });
+  });
+  var location_nodes = G.v().filter(function(vertex) {
+    // Start with just the zoo ID nodes
+    if (vertex["_id"] > 0)
+      return false;
+    // Match the input string against any of the possible zoo name or location fields
+    var matches = []
+    wants.forEach(function(want) {
+      if (vertex[want] != undefined) {  // Node doesn't exist? We don't care
+        if (vertex[want].indexOf(zoo_name_str) != -1) {
+          matches.push(vertex);
+        }
+      }
+    });
+    return (matches.length > 0);
+  }).run();
+  // TODO: Have a counting heuristic. Zoos in both sets that match
+  // should be returned. For now just try returning the nodes we have.
+  return location_nodes;
 }
 
 /*
@@ -540,6 +578,12 @@ Pandas.profilePhoto = function(animal, index) {
     var space = Object.keys(photos).length;
     var index = Math.floor(Math.random() * space);
     choice = Object.keys(photos)[index];
+  }
+  // If there were still no valid photos, because the panda has no photos
+  // listed, return the default for one.
+  if (photos == {}) {
+    choice = 1;
+    photos[choice] = Pandas.field(animal, "photo.1");
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {

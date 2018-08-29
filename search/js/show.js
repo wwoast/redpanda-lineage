@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('searchForm').addEventListener("submit", function() {
     document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
     var query = (document.getElementById('searchInput').value).trim();
+    Query.lexer.parse(query);  // TODO: onhashchange, race for results?
     window.location = "#query/" + query;
     // Refocus text cursor after a search is performed
     setTimeout(function() {
@@ -92,8 +93,17 @@ function outputResults() {
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
-  results.forEach(function(animal) {
-    content_divs.push(Show.pandaInformation(animal, undefined, L));
+  results.forEach(function(entity) {
+    if (entity["_id"] < 0) {
+      // Zoos get the Zoo div and pandas for this zoo
+      content_divs.push(Show.zooInformation(entity, L));
+      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
+      animals.forEach(function(animal) {
+        content_divs.push(Show.pandaInformation(animal, L, undefined));
+      });
+    } else {
+      content_divs.push(Show.pandaInformation(entity, L, undefined));
+    }
   });
   if (results.length == 0) {
     // No results? On desktop, bring up a sad panda
@@ -343,12 +353,12 @@ Show.acquirePandaInfo = function(animal, language) {
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
        "children": Pandas.searchPandaChildren(animal["_id"]),
           "death": Pandas.date(animal, "death", language),
-            "dad": Pandas.searchPandaDad(animal["_id"]),
+            "dad": Pandas.searchPandaDad(animal["_id"])[0],
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
        "language": language,
          "litter": Pandas.searchLitter(animal["_id"]),
-            "mom": Pandas.searchPandaMom(animal["_id"]),
+            "mom": Pandas.searchPandaMom(animal["_id"])[0],
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
@@ -918,7 +928,7 @@ Show.footer = function(language) {
 // regardless, such as birthday / time of death. 
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
-Show.pandaInformation = function(animal, slip_in, language) {
+Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
   var title = Show.displayPandaTitle(info);
