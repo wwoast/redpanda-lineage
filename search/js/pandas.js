@@ -396,30 +396,31 @@ Pandas.searchZooId = function(idnum) {
 // Search for a word in the Zoo's name or location, and return
 // any nodes that match one of the strings therein.
 Pandas.searchZooName = function(zoo_name_str) {
-  var location_nodes = G.v().filter(function(vertex) {
-    // Get just the zoo nodes
-    if (vertex["_id"] < 0)
-      return vertex;
-  }).filter(function(vertex) {
-    // Get the matches against any of the valid zoo strings we care about
-    var languages = Object.values(Pandas.def.languages);
-    var fields = ["location", "name"];
-    var wants = [];
-    var matches = [];
-    // Convolve the desired fields with the possible language options
-    languages.forEach(function(lang) {
-      fields.forEach(function(field) {
-        wants.push(lang + "." + field);
-      });
+  // Get the matches against any of the valid zoo strings we care about
+  var languages = Object.values(Pandas.def.languages);
+  var fields = ["location", "name"];
+  var wants = [];
+  // Convolve the desired fields with the possible language options
+  languages.forEach(function(lang) {
+    fields.forEach(function(field) {
+      wants.push(lang + "." + field);
     });
+  });
+  var location_nodes = G.v().filter(function(vertex) {
+    // Start with just the zoo ID nodes
+    if (vertex["_id"] > 0)
+      return false;
     // Match the input string against any of the possible zoo name or location fields
+    var matches = []
     wants.forEach(function(want) {
-      if (vertex[want].indexOf(zoo_name_str) != -1) {
-        matches.push(vertex[want]);
+      if (vertex[want] != undefined) {  // Node doesn't exist? We don't care
+        if (vertex[want].indexOf(zoo_name_str) != -1) {
+          matches.push(vertex);
+        }
       }
     });
-    return matches;
-  }).unique().run();
+    return (matches.length > 0);
+  }).run();
   // TODO: Have a counting heuristic. Zoos in both sets that match
   // should be returned. For now just try returning the nodes we have.
   return location_nodes;
