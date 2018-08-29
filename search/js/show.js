@@ -97,7 +97,7 @@ function outputResults() {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.zooInformation(entity, L));
-      animals = Pandas.searchPandaZoo(entity["_id"]);
+      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
       animals.forEach(function(animal) {
         content_divs.push(Show.pandaInformation(animal, L, undefined));
       });
