@@ -110,7 +110,7 @@ Query.rules = {
   // Primitive components
   "id": /\d{1,5}/,
   "space": /\s+/,
-  "string": /\w+/,
+  "string": /[^0-9\s]+/,
   "separator": /\S{1}/,
   "divider": [
     ':space?', ':separator?', ':space?'
