@@ -190,21 +190,33 @@ Query.resolver = {
   },
   // Assume this is a panda name. Do locale-specific tweaks to
   // make the search work as you'd expect (capitalization, etc)
+  // Can't base this on the current page language, since we need
+  // to match latin partials against capitalized dataset names!
   "name": function(input, language) {
-    // TODO: determine if search string is latin text or not.
-    // Can't base this on the current page language!!
-    if (["en", "es"].indexOf(language) != -1) {  // Latin languages get caps
-      input = input.replace(/^\w/, function(chr) {
-        return chr.toUpperCase();
+    var output = [];
+    var words = input.split(' ');
+    // Determine what the character set is for each word.
+    // Apply capitalization rules for Latin-character words
+    words.forEach(function(word) {
+      var ranges = Pandas.def.ranges['en'];
+      var latin = ranges.some(function(range) {
+        return range.test(word);
       });
-      input = input.replace(/-./, function(chr) {
-        return chr.toUpperCase();
-      });
-      input = input.replace(/ ./, function(chr) {
-        return chr.toUpperCase();
-      });
-    }
-    return input;
+      if (latin == true) {
+        word = word.replace(/^\w/, function(chr) {
+          return chr.toUpperCase();
+        });
+        word = word.replace(/-./, function(chr) {
+          return chr.toUpperCase();
+        });
+        word = word.replace(/ ./, function(chr) {
+          return chr.toUpperCase();
+        });
+      }
+      // Return either the modified or unmodified word to the list
+      output.push(word);
+    });
+    return output.join(' ');   // Recombine terms with spaces
   },
   // Process a search term, either typed as panda/zoo, or untyped,
   // into a list of nodes in the Pandas/Zoos graph
