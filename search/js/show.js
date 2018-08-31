@@ -857,7 +857,7 @@ Show.displayZooDetails = function(info) {
       "頭の記録があります)"
     ].join('')
   }
-  counts.innerText = Show.emoji.panda + " " + count_text[language];
+  counts.innerText = Show.emoji.animal + " " + count_text[language];
   var address = document.createElement('p');
   address.innerText = Show.emoji.travel + " " + info.address;
   var zoo_page = document.createElement('p');
