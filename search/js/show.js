@@ -850,19 +850,20 @@ Show.displayZooDetails = function(info) {
       "recorded in the database."
     ].join(' '),
     "jp": [
+      "現在",
       info.animal_count,
-      "current red pandas, and",
+      "頭のレッサーパンダがいます。(データベースには",
       info.recorded_count,
-      "recorded in the database."
-    ]
+      "頭の記録があります)"
+    ].join('')
   }
-  counts.innerText = count_text[language];
+  counts.innerText = Show.emoji.panda + " " + count_text[language];
   var address = document.createElement('p');
   address.innerText = Show.emoji.travel + " " + info.address;
   var zoo_page = document.createElement('p');
   var zoo_link = document.createElement('a');
   zoo_link.href = info.website;
-  zoo_link.innerText = info.name;
+  zoo_link.innerText = Show.emoji.website + " " + info.name;
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
@@ -875,7 +876,7 @@ Show.displayZooDetails = function(info) {
     var photo_page = document.createElement('p');
     var photo_link = document.createElement('a');
     photo_link.href = info.photo_link;
-    photo_link.innerText = info.photo_credit;
+    photo_link.innerText = Show.emoji.camera + " " + info.photo_credit;
     photo_page.appendChild(photo_link);
     details.appendChild(photo_page);
   }
