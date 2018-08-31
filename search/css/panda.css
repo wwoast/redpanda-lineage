@@ -176,7 +176,7 @@ div.pandaResult, div.zooResult {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
-div.pandaTitle a, div.pandaDossier a, div.pandaFamily a {
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a {
     text-decoration: none !important;
     color: black;
 }
