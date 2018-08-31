@@ -12,17 +12,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 181
-photo.1: https://www.instagram.com/p/Bf165LVhaCE/media/?size=m
-photo.1.author: tumuri1228
-photo.1.link: https://www.instagram.com/tumuri1228/
-photo.2: https://www.instagram.com/p/Bfa_AYVj1La/media/?size=m
-photo.2.author: tak_grouses
-photo.2.link: https://www.instagram.com/tak_grouses/
-photo.3: https://www.instagram.com/p/BkUsFqnhbLk/media/?size=m
-photo.3.author: mana.sendo
-photo.3.link: https://www.instagram.com/mana.sendo/
-photo.4: https://www.instagram.com/p/BVhkFXMBJEE/media/?size=m
-photo.4.author: meiki.0331km
-photo.4.link: https://www.instagram.com/meiki.0331km/
+photo.1: https://www.instagram.com/p/Bfa_AYVj1La/media/?size=m
+photo.1.author: tak_grouses
+photo.1.link: https://www.instagram.com/tak_grouses/
+photo.2: https://www.instagram.com/p/BkUsFqnhbLk/media/?size=m
+photo.2.author: mana.sendo
+photo.2.link: https://www.instagram.com/mana.sendo/
+photo.3: https://www.instagram.com/p/BVhkFXMBJEE/media/?size=m
+photo.3.author: meiki.0331km
+photo.3.link: https://www.instagram.com/meiki.0331km/
 species: 2
 zoo: 6
