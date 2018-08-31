@@ -13,5 +13,11 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 314
+photo.1: http://zoo.city.fukuoka.lg.jp/files/NewsDetail/4/NewsDetail_4871_image.jpg
+photo.1.author: fukuoka_zoo
+photo.1.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
+photo.2: http://zoo.city.fukuoka.lg.jp/files/NewsDetail/4/NewsDetail_4872_image.jpg
+photo.2.author: fukuoka_zoo
+photo.2.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
 species: 2
 zoo: 32
