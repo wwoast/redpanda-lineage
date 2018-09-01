@@ -347,7 +347,7 @@ Show.no_result = {
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
   var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
-  return {
+  var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
@@ -357,6 +357,7 @@ Show.acquirePandaInfo = function(animal, language) {
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
        "language": language,
+ "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal["_id"]),
             "mom": Pandas.searchPandaMom(animal["_id"])[0],
            "name": Pandas.myName(animal, language),
@@ -367,6 +368,8 @@ Show.acquirePandaInfo = function(animal, language) {
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
+  // bundle = Show.languageFallback(bundle, animal);  // Any defaults here?
+  return bundle;
 }
 
 // Given a zoo, return an address, location, link to a website, and information
@@ -374,12 +377,13 @@ Show.acquirePandaInfo = function(animal, language) {
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
-  return {
+  var bundle = {
        "animals": animals,
        "address": Pandas.zooField(zoo, language + ".address"),
   "animal_count": animals.length,
       "get_name": language + ".name",
       "language": language,
+"language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, language + ".location"),
           "name": Pandas.zooField(zoo, language + ".name"),
          "photo": Pandas.zooField(zoo, "photo"),
@@ -389,6 +393,8 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
+  // bundle = Show.languageFallback(bundle, zoo);  // Any defaults here?
+  return bundle;
 }
 
 // Construct an animal link as per parameters. Options include
@@ -526,11 +532,70 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
   return output_text;
 }
 
-// Construct a query link as per the design docs. Input is the query
-// string, and type is the initial hash code. Examples:
-//    https://domain/search/index.html#query/(utf-8-query-string) (TODO)
-// Text will be the name of the link, with additional options to determine
-// whether icons for gender/mom/dad/liveness are needed
+// Do language fallback for anything reporting as "unknown" or "empty"
+Show.languageFallback = function(info, original) {
+  var bundle = info;
+  var order = info.language_order;
+  // Get the valid language-translatable keys in an object
+  function language_keys(entity) {
+    var obj_langs = entity.language_order || Object.values(Pandas.def.languages);
+    var filtered = Object.keys(entity).filter(function(key) {
+      // List the language-specific keys
+      [lang, primary] = key.split('.');
+      return (obj_langs.indexOf(lang) != -1);
+    });
+    return filtered;
+  }
+  // Only keep the keys that are translatable to different languages
+  function save_only_language_keys(entity) {
+    var obj_langs = entity.language_order || Object.values(Pandas.def.languages);
+    var filtered = language_keys(entity).reduce(function(obj, key) {
+      // Only keep JSON values with those matching keys
+      obj[key] = entity[key];
+      return obj;
+    }, {});
+    return filtered; 
+  }
+  // Default values that we want to ignore if we can
+  var default_animal = save_only_language_keys(Pandas.def.animal);
+  var default_zoo = save_only_language_keys(Pandas.def.zoo);
+  var input = save_only_language_keys(info);
+  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+                                .concat(Object.values(default_animal))
+                                .concat(Object.values(default_zoo));
+  // Return any keys that are displayed as per the current display language.
+  // These are in the original object, and in the info object but without
+  // the prepended language value.
+  var language_original = Object.keys(original).filter(function(key) {
+    return (key.indexOf(info.language) == 0);
+  });
+  // Derive the info-block language-translatable keys by getting a list of
+  // the seprate language keys from the original object, slicing off
+  // the lanugage prefix, and de-duplicating.
+  var language_info = language_keys(original).map(function(key) {
+    [language, desired] = key.split('.');
+    return desired;
+  }).filter(function(value, index, self) {
+    return self.indexOf(value) === index;
+  });
+  // Start replacing this language's value with an available value in the
+  // language.order list. Just stuff it in the original info blob's key.
+  for (var key in language_info) {
+    if (input[key] in empty_values) {
+      for (language of order) {
+        if (language == info.language) {
+          continue;  // Don't take replacement values from current language
+        }
+        var new_key = language + "." + key;
+        if (!(original[new_key] in empty_values)) {
+          // Put this language's value in the displayed output
+          bundle[key] = original[new_key];
+        }
+      } // If no available non-empty strings in other languages, do nothing
+    }
+  }
+  return bundle;
+}
 
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/search/index.html#zoo/1

@@ -537,6 +537,12 @@ Pandas.gender = function(animal, language) {
                              : Pandas.def.gender[gender][language];
 }
 
+// Return the language order as an array
+Pandas.language_order = function(animal) {
+  var ordering = animal["language.order"];
+  return ordering.replace(" ", "").split(',');
+}
+
 // Given an animal and a chosen language, return details for a red panda.
 Pandas.myName = function(animal, language) {
   var field = language + ".name";
