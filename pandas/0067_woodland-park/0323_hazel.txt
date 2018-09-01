@@ -1,0 +1,17 @@
+[panda]
+_id: 323
+birthday: unknown
+birthplace: unknown
+children: 324, 325
+en.name: Hazel
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ヘーゼル
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 67

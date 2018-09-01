@@ -1,0 +1,17 @@
+[panda]
+_id: 324
+birthday: unknown
+birthplace: unknown
+children: none
+en.name: Ila
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: イラ
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: en, jp
+litter: 325
+species: 2
+zoo: 67

@@ -1,0 +1,17 @@
+[panda]
+_id: 324
+birthday: unknown
+birthplace: unknown
+children: none
+en.name: Zeya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゼヤ
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: en, jp
+litter: 324
+species: 2
+zoo: 67
