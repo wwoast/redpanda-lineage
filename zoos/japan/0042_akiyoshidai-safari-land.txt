@@ -1,9 +1,9 @@
 [zoo]
 _id: 42
-en.address: 1212 Mitochoaka, Mine, Yamaguchi Prefecture 754-0302, Japan
+en.address: 1212 Mitōchōaka, Mine-shi, Yamaguchi-ken 754-0302, Japan
 en.location: Mine, Yamaguchi Prefecture
 en.name: Akiyoshidai Safari Land
-jp.address: unknown
+jp.address: 〒754-0302 山口県美祢市美東町赤１２１２
 jp.location: 美祢市 山口県
 jp.name: 秋吉台自然動物公園サファリランド
 language.order: jp, en

@@ -1,9 +1,9 @@
 [zoo]
 _id: 9
-en.address: Japan, 〒355-0065 Saitama Prefecture, Higashimatsuyama, Iwadono, 554
+en.address: 554 Iwadono, Higashimatsuyama, Saitama Prefecture 355-0065, Japan
 en.location: Highashimatsuyama, Saitama
 en.name: Saitama Children's Zoo
-jp.address: unknown
+jp.address: 〒355-0065 埼玉県東松山市岩殿554
 jp.location: 東松山市 埼玉県
 jp.name: 埼玉県こども動物自然公園
 language.order: jp, en

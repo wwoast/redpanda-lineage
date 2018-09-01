@@ -3,7 +3,7 @@ _id: 38
 en.address: 63-10 Oimatsucho, Nishi Ward, Yokohama, Kanagawa Prefecture 220-0032, Japan
 en.location: Nishi Ward, Yokohama
 en.name: Nogeyama Zoo
-jp.address: unknown
+jp.address: 〒220-0032 神奈川県横浜市西区老松町63-10
 jp.location: 西区 横浜
 jp.name: 横浜市立野毛山動物園
 language.order: jp, en

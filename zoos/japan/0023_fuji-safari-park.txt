@@ -1,9 +1,9 @@
 [zoo]
 _id: 23
-en.address: Japan, 〒410-1231 Shizuoka Prefecture, Susono, 須山字藤原2255−27
+en.address: Japan, 〒410-1231 Shizuoka Prefecture, Susono, Suyama, 字藤原2255−27
 en.location: Susuno, Shizuoka Prefecture
 en.name: Fuji Safari Park
-jp.address: unknown
+jp.address: 〒410-1231 静岡県裾野市須山字藤原2255−27
 jp.location: 裾野市 静岡県
 jp.name: 富士サファリパーク 公式サイト
 language.order: jp, en

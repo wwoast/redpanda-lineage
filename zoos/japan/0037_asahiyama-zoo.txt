@@ -3,7 +3,7 @@ _id: 37
 en.address: Japan, 〒078-8205 Hokkaido, 旭川市東旭川町倉沼
 en.location: Asahikawa, Hokkaido
 en.name: Asahiyama Zoo
-jp.address: unknown
+jp.address: 〒078-8205 北海道 旭川市東旭川町倉沼
 jp.location: 旭川市 北海道
 jp.name: 旭川市旭山動物園
 language.order: jp, en

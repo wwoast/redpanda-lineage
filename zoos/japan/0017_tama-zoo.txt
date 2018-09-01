@@ -1,9 +1,9 @@
 [zoo]
 _id: 17
-en.address: Japan, 〒191-0041 Tokyo, Hino, Hodokubo, 7 Chome−1−1
+en.address: 7 Chome-1-1 Hodokubo, Hino, Tokyo 191-0041, Japan
 en.location: Hino, Tokyo
 en.name: Tama Zoological Park
-jp.address: unknown
+jp.address: 〒191-0041 東京都日野市程久保７丁目１−1
 jp.location: 日野市 東京都
 jp.name: 多摩動物公園 
 language.order: jp, en

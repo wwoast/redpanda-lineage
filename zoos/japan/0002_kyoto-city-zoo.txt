@@ -1,9 +1,9 @@
 [zoo]
 _id: 2
-en.address: Kyoto City Zoo, Japan, 〒606-8333 Kyoto Prefecture, Kyoto, Sakyo Ward, Okazaki Hoshojicho
+en.address: Okazaki Hoshojicho, Sakyo Ward, Kyoto, Kyoto Prefecture 606-8333, Japan
 en.location: Kyoto City, Kyoto Prefecture, Sakyo Ward
 en.name: Kyoto City Zoo
-jp.address: unknown
+jp.address: 〒606-8333 京都府京都市左京区岡崎法勝寺町
 jp.location: 京都市 京都府 左京区
 jp.name: 京都市動物園
 language.order: jp, en

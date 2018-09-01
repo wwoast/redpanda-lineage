@@ -1,9 +1,9 @@
 [zoo]
 _id: 4
-en.address: Japan, 〒212-0055 Kanagawa Prefecture, Kawasaki, Saiwai Ward, Minamikase, 1 Chome−2−1 
+en.address: 1 Chome-2-1 Minamikase, Saiwai-ku, Kawasaki-shi, Kanagawa-ken 212-0055, Japan
 en.location: Kawasaki, Kanagawa Prefecture
 en.name: Yumemigasaki Zoological Park
-jp.address: unknown
+jp.address: 〒212-0055 神奈川県川崎市幸区南加瀬１丁目２−1
 jp.location: 川崎市 神奈川県
 jp.name: 川崎市夢見ヶ崎動物公園
 language.order: jp, en

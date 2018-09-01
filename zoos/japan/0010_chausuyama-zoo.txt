@@ -1,9 +1,9 @@
 [zoo]
 _id: 10
-en.address: Japan, 〒388-8016 Nagano Prefecture, Nagano, Shinonoiutabi, 570−1
+en.address: 570-1 Shinonoiutabi, Nagano, Nagano Prefecture 388-8016, Japan
 en.location: Nagano, Nagano Prefecture
 en.name: Naganoshi Chausuyama Zoo
-jp.address: unknown
+jp.address: 〒388-8016 長野県長野市篠ノ井有旅５７０−1
 jp.location: 長野市 長野県
 jp.name: 茶臼山動物園
 language.order: jp, en

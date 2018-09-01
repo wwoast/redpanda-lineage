@@ -1,9 +1,9 @@
 [zoo]
 _id: 19
-en.address: Japan, 〒857-1231 Nagasaki Prefecture, Sasebo, Funakoshicho, 2172
+en.address: 2172 Funakoshicho, Sasebo, Nagasaki Prefecture 857-1231, Japan
 en.location: Sasebo, Nagasaki Prefecture
 en.name: Kujukushima Zoological and Botanical Garden Morikirara
-jp.address: unknown
+jp.address: 〒857-1231 長崎県佐世保市船越町2172
 jp.location: 佐世保市 長崎県
 jp.name: 西海国立公園九十九島動植物園
 language.order: jp, en
