@@ -5,10 +5,11 @@ birthplace: 1
 en.name: Aka-chan
 en.nicknames: none
 en.othernames: none 
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 246
+species: 2
 zoo: 1
