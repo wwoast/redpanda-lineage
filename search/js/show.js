@@ -264,7 +264,7 @@ Show.gui = {
   "random": {
     "cn": "隨機",
     "en": "Random",
-    "jp": "ランダム"
+    "jp": "適当"
   },
   "search": {
     "cn": "Search...",
