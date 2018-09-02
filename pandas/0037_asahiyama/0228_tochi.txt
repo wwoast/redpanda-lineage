@@ -2,7 +2,7 @@
 _id: 228
 birthday: 2001/7/24
 birthplace: 6
-children: 190, 224
+children: 16, 190, 224
 en.name: Tochi
 en.nicknames: none
 en.othernames: none
@@ -11,4 +11,5 @@ jp.name: 栃
 jp.nicknames: none
 jp.othernames: トチ
 language.order: jp, en
+species: 2
 zoo: 37
