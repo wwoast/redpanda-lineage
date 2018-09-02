@@ -313,7 +313,7 @@ Show.acquirePandaInfo = function(animal, language) {
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = Language.infoFallback(bundle, animal);  // Any defaults here?
+  bundle = Language.fallbackInfo(bundle, animal);  // Any defaults here?
   return bundle;
 }
 
@@ -338,7 +338,7 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = Language.infoFallback(bundle, zoo);  // Any defaults here?
+  bundle = Language.fallbackInfo(bundle, zoo);  // Any defaults here?
   return bundle;
 }
 
