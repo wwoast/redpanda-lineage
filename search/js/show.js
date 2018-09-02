@@ -368,7 +368,7 @@ Show.acquirePandaInfo = function(animal, language) {
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  // bundle = Show.languageFallback(bundle, animal);  // Any defaults here?
+  bundle = Show.languageFallback(bundle, animal);  // Any defaults here?
   return bundle;
 }
 
@@ -393,7 +393,7 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
-  // bundle = Show.languageFallback(bundle, zoo);  // Any defaults here?
+  bundle = Show.languageFallback(bundle, zoo);  // Any defaults here?
   return bundle;
 }
 
@@ -536,9 +536,10 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
 Show.languageFallback = function(info, original) {
   var bundle = info;
   var order = info.language_order;
+  var blacklist = ["othernames", "nicknames"];  // Don't replace these fields
   // Get the valid language-translatable keys in an object
-  function language_keys(entity) {
-    var obj_langs = entity.language_order || Object.values(Pandas.def.languages);
+  function language_entity_keys(entity) {
+    var obj_langs = order.concat(Object.values(Pandas.def.languages));  // Dupes not important
     var filtered = Object.keys(entity).filter(function(key) {
       // List the language-specific keys
       [lang, primary] = key.split('.');
@@ -546,48 +547,56 @@ Show.languageFallback = function(info, original) {
     });
     return filtered;
   }
+  // Get the valid language-translatable keys in an info block
+  function language_info_keys(info) {
+    return language_entity_keys(original).map(function(key) {
+      [language, desired] = key.split('.');
+      return desired;
+    }).filter(function(value, index, self) {
+      return self.indexOf(value) === index;
+    });
+  }
   // Only keep the keys that are translatable to different languages
-  function save_only_language_keys(entity) {
-    var obj_langs = entity.language_order || Object.values(Pandas.def.languages);
-    var filtered = language_keys(entity).reduce(function(obj, key) {
+  function save_entity_language_keys(entity) {
+    var filtered = language_entity_keys(entity).reduce(function(obj, key) {
       // Only keep JSON values with those matching keys
       obj[key] = entity[key];
       return obj;
     }, {});
     return filtered; 
   }
+  function save_info_language_keys(info) {
+    var filtered = language_info_keys(info).reduce(function(obj, key) {
+      // Only keep JSON values with those matching keys
+      obj[key] = info[key];
+      return obj;
+    }, {});
+    return filtered;     
+  }
   // Default values that we want to ignore if we can
-  var default_animal = save_only_language_keys(Pandas.def.animal);
-  var default_zoo = save_only_language_keys(Pandas.def.zoo);
-  var input = save_only_language_keys(info);
+  var default_animal = save_entity_language_keys(Pandas.def.animal);
+  var default_zoo = save_entity_language_keys(Pandas.def.zoo);
   var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
                                 .concat(Object.values(default_animal))
                                 .concat(Object.values(default_zoo));
-  // Return any keys that are displayed as per the current display language.
-  // These are in the original object, and in the info object but without
-  // the prepended language value.
-  var language_original = Object.keys(original).filter(function(key) {
-    return (key.indexOf(info.language) == 0);
-  });
+  var input = save_info_language_keys(info);
   // Derive the info-block language-translatable keys by getting a list of
   // the seprate language keys from the original object, slicing off
   // the lanugage prefix, and de-duplicating.
-  var language_info = language_keys(original).map(function(key) {
-    [language, desired] = key.split('.');
-    return desired;
-  }).filter(function(value, index, self) {
-    return self.indexOf(value) === index;
-  });
+  var language_info = language_info_keys(info);
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original info blob's key.
-  for (var key in language_info) {
-    if (input[key] in empty_values) {
+  for (var key of language_info) {
+    if (blacklist.indexOf(key) != -1) {
+      continue;  // Ignore blacklist fields
+    }
+    if (empty_values.indexOf(input[key]) != -1) {
       for (language of order) {
         if (language == info.language) {
           continue;  // Don't take replacement values from current language
         }
         var new_key = language + "." + key;
-        if (!(original[new_key] in empty_values)) {
+        if (empty_values.indexOf(original[new_key]) == -1) {
           // Put this language's value in the displayed output
           bundle[key] = original[new_key];
         }
