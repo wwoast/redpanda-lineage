@@ -76,11 +76,19 @@ Language.update = function(lang_object) {
 /*
     Fallback Language functions
 */
-// TOWRITE: Zoo fallback and animal fallback logic
+// Calculate the current fallback language order for a given info block or entity.
+// Key here is adding the current display language to the list, so that if a dataset
+// doesn't include info for a language, we can overwrite that info anyways!
+Language.currentOrder = function(current_list, current_language) {
+  return current_list.concat(current_language).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Remove duplicates in the array
+  });
+}
+
 // Do language fallback for anything reporting as "unknown" or "empty" in an info block
 Language.fallbackInfo = function(info, original) {
   var bundle = info;
-  var order = info.language_order;
+  var order = Language.currentOrder(info.language_order, L.display);
   // Default values that we want to ignore if we can
   var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
   var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
@@ -99,7 +107,7 @@ Language.fallbackInfo = function(info, original) {
     }
     if (empty_values.indexOf(info[key]) != -1) {
       for (language of order) {
-        if (language == info.language) {
+        if (language == L.display) {
           continue;  // Don't take replacement values from current language
         }
         var new_key = language + "." + key;
@@ -111,16 +119,20 @@ Language.fallbackInfo = function(info, original) {
     }
   }
 
-  // Replace animal or zoo info similarly
+  // Replace nested zoo or birthplace text for panda entities similarly
   if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
-    bundle.zoo = Language.fallbackEntity(info.zoo, order, info.language);
+    bundle.zoo = Language.fallbackEntity(info.zoo);
+  }
+  if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
+    bundle.birthplace = Language.fallbackEntity(info.birthplace);
   }
   return bundle;
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
-Language.fallbackEntity = function(entity, order, current_language) {
+Language.fallbackEntity = function(entity) {
   var output = entity;
+  var order = Language.currentOrder(Pandas.language_order(entity), L.display);
   // Default values that we want to ignore if we can
   var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
   var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
@@ -128,8 +140,9 @@ Language.fallbackEntity = function(entity, order, current_language) {
                                 .concat(Object.values(default_animal))
                                 .concat(Object.values(default_zoo));
   // Derive the zoo/panda language-translatable keys by getting a list of
-  // the separate language keys from the original object
-  var language_entity = Language.listEntityKeys(entity, order);
+  // the separate language keys from the original object, and adding a
+  // synthetic list of keys that would apply for the current display language
+  var language_entity = Language.listDisplayKeys(entity, order, L.display);
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
   for (var key of language_entity) {
@@ -138,10 +151,10 @@ Language.fallbackEntity = function(entity, order, current_language) {
     }
     if (empty_values.indexOf(entity[key]) != -1) {
       for (language of order) {
-        if (language == current_language) {
+        if (language == L.display) {
           continue;  // Don't take replacement values from current language
         }
-        [ language, desired ] = key.split('.');
+        [ _, desired ] = key.split('.');
         var new_key = language + "." + desired;
         if (empty_values.indexOf(entity[new_key]) == -1) {
           // Put this language's value in the displayed output
@@ -151,6 +164,19 @@ Language.fallbackEntity = function(entity, order, current_language) {
     }
   }
   return output;
+}
+
+// Given a list of keys we're doing language translations for, add a set
+// for the current displayed language
+Language.listDisplayKeys = function(entity, order, current_language) {
+  var entity_keys = Language.listEntityKeys(entity, order);
+  var language_keys = entity_keys.map(function(key) {
+    [_, primary] = key.split('.');
+    return current_language + "." + primary;
+  });
+  return entity_keys.concat(language_keys).filter(function(value, index, self) {
+    return self.indexOf(value) === index;  // De-duplicate language keys
+  });
 }
 
 // Get the valid language-translatable keys in a zoo or animal object
