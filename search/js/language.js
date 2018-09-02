@@ -114,6 +114,7 @@ Language.fallbackInfo = function(info, original) {
         if (empty_values.indexOf(original[new_key]) == -1) {
           // Put this language's value in the displayed output
           bundle[key] = original[new_key];
+          break;
         }
       } // If no available non-empty strings in other languages, do nothing
     }
@@ -159,6 +160,7 @@ Language.fallbackEntity = function(entity) {
         if (empty_values.indexOf(entity[new_key]) == -1) {
           // Put this language's value in the displayed output
           output[key] = entity[new_key];
+          break;
         }
       } // If no available non-empty strings in other languages, do nothing
     }
