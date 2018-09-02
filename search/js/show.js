@@ -24,7 +24,7 @@
 var P;   // Pandas
 var Q;   // Query stack
 var G;   // Lineage graph
-var L;   // Current language
+var L;   // Language methods and current language
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -32,14 +32,17 @@ var L;   // Current language
 document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
+  L = Language.init();
   G = Dagoba.graph();
 
-  defaultLanguage();
+  Language.default(L);   // Set default language
+  updateLanguage(L.display);   // Update buttons, displayed results, and cookie state
+
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     // Enable search bar once the page has loaded
-    var placeholder = "➤ " + Show.gui.search[L];
+    var placeholder = "➤ " + Show.gui.search[L.display];
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
     document.getElementById('searchInput').focus();  // Set text cursor
@@ -56,13 +59,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
-    var language = L;
+    var language = L.display;
     var options = Object.values(Pandas.def.languages);
     var choice = options.indexOf(language);
     choice = (choice + 1) % options.length;
     var new_language = options[choice];
-    L = new_language;
-    updateLanguage(L);
+    L.display = new_language;
+    updateLanguage(L.display);
   });  
 
   document.getElementById('randomButton').addEventListener("click", function() {
@@ -96,18 +99,18 @@ function outputResults() {
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.zooInformation(entity, L));
+      content_divs.push(Show.zooInformation(entity, L.display));
       animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
       animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal, L, undefined));
+        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
       });
     } else {
-      content_divs.push(Show.pandaInformation(entity, L, undefined));
+      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
     }
   });
   if (results.length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.displayEmptyResult(L));
+    content_divs.push(Show.displayEmptyResult(L.display));
   }
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
@@ -131,11 +134,11 @@ function outputResults() {
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // If no footer exists, add one in
-    var footer = Show.footer(L);
+    var footer = Show.footer(L.display);
     body.appendChild(footer);
   } else {
     // Redraw the footer for language event changes
-    var footer = Show.footer(L);
+    var footer = Show.footer(L.display);
     body.replaceChild(footer, footer_test);
   }
 }
@@ -143,33 +146,6 @@ function outputResults() {
 window.addEventListener('hashchange', function() {
   outputResults();
 });
-
-/*
-   Language selection functions
-*/
-// Map a browser specified language to one of our supported options.
-function defaultLanguage() {
-  // Read language settings from browser's Accept-Language header
-  Object.keys(Pandas.def.languages).forEach(function(option) {
-    if ((navigator.languages.indexOf(option) != -1) &&
-        (L == undefined)) {
-      L = Pandas.def.languages[option];
-    }
-  });
-  // Read language cookie if it's there
-  if (document.cookie.length > 0) {
-    var test = document.cookie.split("=")[1];
-    if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
-      L = test;
-    }
-  }  
-  // Fallback to English
-  if (L == undefined) {
-    L = "en";
-  }
-  // Update buttons, displayed results, and cookie state
-  updateLanguage(L);
-}
 
 // Update all GUI elements based on the currently chosen language
 // For now, just do the language button itself
@@ -189,9 +165,9 @@ function updateLanguage(language) {
   langText.innerText = Show.gui.links[language];
   // Update the placeholder text for a search bar
   if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[L];
+    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[L.display];
   } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[L];
+    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[L.display];
   }
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
@@ -368,7 +344,7 @@ Show.acquirePandaInfo = function(animal, language) {
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
-  bundle = Show.languageFallback(bundle, animal);  // Any defaults here?
+  bundle = Show.languageInfoFallback(bundle, animal);  // Any defaults here?
   return bundle;
 }
 
@@ -393,7 +369,7 @@ Show.acquireZooInfo = function(zoo, language) {
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
   }
-  bundle = Show.languageFallback(bundle, zoo);  // Any defaults here?
+  bundle = Show.languageInfoFallback(bundle, zoo);  // Any defaults here?
   return bundle;
 }
 
@@ -533,7 +509,7 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty"
-Show.languageFallback = function(info, original) {
+Show.languageInfoFallback = function(info, original) {
   var bundle = info;
   var order = info.language_order;
   var blacklist = ["othernames", "nicknames"];  // Don't replace these fields

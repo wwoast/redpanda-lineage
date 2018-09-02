@@ -163,13 +163,13 @@ Query.actions = {
       case "id":
         return Query.resolver.is_id(value) ? value : 0;
       case "string":
-        return Query.resolver.name(value, L);
+        return Query.resolver.name(value, L.display);
     }
   },
   // No type given. Based on result counts, guess whether this is a panda or zoo
   "subjectExpression": function(env, captures) {
-    var panda_results = Query.resolver.subject(captures.subject, "panda", L);
-    var zoo_results = Query.resolver.subject(captures.subject, "zoo", L);
+    var panda_results = Query.resolver.subject(captures.subject, "panda", L.display);
+    var zoo_results = Query.resolver.subject(captures.subject, "zoo", L.display);
     return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
   },
   // Type is given. Search for either a panda or a zoo.
@@ -263,15 +263,15 @@ Query.hashlink = function(input) {
     // go-link for a single panda result.
     // for now, just a search result. soon, a detailed result page
     var panda = input.slice(7);
-    return Query.resolver.subject(panda, "panda", L);
+    return Query.resolver.subject(panda, "panda", L.display);
   } else if (input.indexOf("#zoo/") == 0) {
     // go-link for a single zoo result.
     var zoo = input.slice(5);
-    return Query.resolver.subject(zoo, "zoo", L);
+    return Query.resolver.subject(zoo, "zoo", L.display);
   } else if (input.indexOf("#timeline/") == 0) {
     // show full info and timeline for a panda. TODO
     var panda = input.slice(10);
-    return Query.resolver.subject(panda, "panda", L);
+    return Query.resolver.subject(panda, "panda", L.display);
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
     var terms = input.slice(7);
