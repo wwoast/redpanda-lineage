@@ -151,6 +151,8 @@ function outputResults() {
 }
 
 window.addEventListener('hashchange', function() {
+  // TODO: detect whether the route is for about or links.
+  // If not either of these, reset Show.page to outputResults() and run that function
   outputResults();
 });
 
