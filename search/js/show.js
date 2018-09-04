@@ -398,27 +398,6 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
-// Determine if altname is not worth displaying for furigana by calculating
-// its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
-Show.editDistance = function(a, b){
-  if(!a || !b) return (a || b).length;
-  var m = [];
-  for(var i = 0; i <= b.length; i++){
-    m[i] = [i];
-    if(i === 0) continue;
-    for(var j = 0; j <= a.length; j++){
-      m[0][j] = j;
-      if(j === 0) continue;
-      m[i][j] = b.charAt(i - 1) == a.charAt(j - 1) ? m[i - 1][j - 1] : Math.min(
-        m[i-1][j-1] + 1,
-        m[i][j-1] + 1,
-        m[i-1][j] + 1
-      );
-    }
-  }
-  return m[b.length][a.length];
-};
-
 // If link is to an undefined item or the zero ID, return a spacer
 // TODO: final page layout
 Show.emptyLink = function(output_text) {
@@ -436,7 +415,7 @@ Show.furigana = function(name, othernames) {
   }
   othernames = othernames.split(',')   // Guarantee array
   othernames = othernames.filter(function(option) {
-    if (Show.editDistance(name, option) > 1) {
+    if (Language.editDistance(name, option) > 1) {
       return option;
     }
   });
