@@ -101,8 +101,14 @@ window.addEventListener('hashchange', function() {
   outputResults();
 });
 
-// This is the main panda search results function. When the URL #hash changes, 
-// process it as a change in the search text and present new content. 
+// Displays the about page when the button is clicked. Load content from a static
+// file based on the given language, and display it in a #contentFrame.about
+function outputAbout() {
+  var TODO = "stuff";  
+}
+
+// This is the main panda search results function. When the URL #hash changes, process
+// it as a change in the search text and present new content in the #contentFrame.
 function outputResults() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
