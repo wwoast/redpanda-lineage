@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
   Language.default(L);   // Set default language
   Language.update(L, Show.page);   // Update buttons, displayed results, and cookie state
 
+  // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
@@ -68,16 +69,36 @@ document.addEventListener("DOMContentLoaded", function() {
     Language.update(L, Show.page);
   });  
 
+  // Once the about-page content is loaded, decide whether to display the
+  // contents or just keep them stashed.
+  window.addEventListener('about_ready', function() {
+    if (Show.page == outputAbout) {
+      outputAbout();
+    }
+  });
+
+  document.getElementById('aboutButton').addEventListener("click", function() {
+    // TODO: hashchange
+    outputAbout();
+  });
+
   document.getElementById('randomButton').addEventListener("click", function() {
     // Show a random panda from the database when the dice is clicked
     var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   });
 
-  document.getElementById('aboutButton').addEventListener("click", function() {
-    // Load contents from the about.json file and write an about page in the current language.
-    var TODO = "stuff";
-    // Make panda results disappear, and add the about page.
+  // Once the links-page content is loaded, decide whether to display the
+  // contents or just keep them stashed.
+  window.addEventListener('links_ready', function() {
+    if (Show.page == outputLinks) {
+      outputLinks();
+    }
+  });
+
+  document.getElementById('linksButton').addEventListener("click", function() {
+    // TODO: hashchange
+    outputLinks();
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {
@@ -90,6 +111,10 @@ document.addEventListener("DOMContentLoaded", function() {
       document.getElementById('searchInput').focus();
     }, 0);
   });
+
+  // Last but not least, fetch the about page and links page contents
+  fetchAboutPage();
+  // fetchLinksPage();
 });
 
 /*
@@ -100,12 +125,6 @@ window.addEventListener('hashchange', function() {
   // If not either of these, reset Show.page to outputResults() and run that function
   outputResults();
 });
-
-// Displays the about page when the button is clicked. Load content from a static
-// file based on the given language, and display it in a #contentFrame.about
-function outputAbout() {
-  var TODO = "stuff";  
-}
 
 // This is the main panda search results function. When the URL #hash changes, process
 // it as a change in the search text and present new content in the #contentFrame.
@@ -142,8 +161,59 @@ function outputResults() {
   new_content.appendChild(shrinker);
 
   // Append the new content into the page and then swap it in
-  var body = document.getElementsByTagName('body')[0];
   var old_content = document.getElementById('contentFrame');
+  swapContents(old_content, new_content);
+}
+
+// Fetch the about page contents
+function fetchAboutPage() {
+  var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
+  var specific = Language.display + "/about.html";
+  var fetch_url = base + specific;
+ 
+  var request = new XMLHttpRequest();
+  request.open('GET', fetch_url);
+  request.responseType = 'html';
+  request.send();
+  request.onload = function() {
+    Show.about.content = request.response;
+    window.dispatchEvent(Show.about.loaded);   // Report the data has loaded
+  }
+}
+
+// Fetch the links page contents
+function fetchLinksPage() {
+  var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
+  var specific = Language.display + "/links.html";
+  var fetch_url = base + specific;
+ 
+  var request = new XMLHttpRequest();
+  request.open('GET', fetch_url);
+  request.responseType = 'html';
+  request.send();
+  request.onload = function() {
+    Show.links.content = request.response;
+    window.dispatchEvent(Show.links.loaded);   // Report the data has loaded
+  }
+}
+
+// Displays the about page when the button is clicked. Load content from a static
+// file based on the given language, and display it in a #contentFrame.about
+function outputAbout() {
+  var TODO = "stuff";
+}
+
+// Displays the about page when the button is clicked. Load content from a static
+// file based on the given language, and display it in a #contentFrame.links
+function outputLinks() {
+  var TODO = "stuff";
+}
+
+// Swap in a new contents frame for an old contents frame. Also double-check that
+// the footer is still the bottom of the page.
+function swapContents(old_content, new_content) {
+  // Append the new content into the page and then swap it in
+  var body = document.getElementsByTagName('body')[0];
   // Place the new content right after the old content
   old_content.parentNode.insertBefore(new_content, old_content.nextSibling);
   old_content.style.display = "none";
@@ -174,6 +244,10 @@ Show.init = function() {
   var show = Object.create(Show.S);
   return show;
 }
+
+Show.about = {};
+Show.about.content = undefined;   // About page content
+Show.about.loaded = new Event('about_loaded');   // Event to fire when content loads
 
 Show.page = outputResults;   // Default mode is to show panda results
 
@@ -295,6 +369,10 @@ Show.gui = {
     "jp": Pandas.def.relations.siblings["jp"]
   }
 }
+
+Show.links = {};
+Show.links.content = undefined;   // Links page content
+Show.links.loaded = new Event('links_loaded');   // Event to fire when content loads
 
 Show.no_result = {
   "cn": "沒有發現熊貓",
