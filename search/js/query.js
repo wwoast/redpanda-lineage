@@ -20,8 +20,8 @@ Query.init = function() {
 */
 Query.ops = {
   "type": {
-    "panda": ['panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "zoo": ['zoo', '動物園']
+    "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
+    "zoo": ['Zoo', 'zoo', '動物園']
   },
   "subtype": {
     "alive": ['alive', 'living'],
