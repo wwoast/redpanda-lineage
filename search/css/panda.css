@@ -162,6 +162,10 @@ div#contentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
+div#contentFrame.about {
+    background: linear-gradient(#366938, #002200); /* Light to dark, top to bottom */
+}
+
 div#hiddenContentFrame {
     display: none;
     z-index: -1;
@@ -286,7 +290,7 @@ div.pandaDetails p, div.zooDetails p {
     padding-bottom: 0ex;
 }
 
-h3, h4 {
+h2, h3, h4 {
     display: inline-block;
     margin-left: 18px;
     margin-top: 1ex;
@@ -295,7 +299,7 @@ h3, h4 {
     text-decoration: underline;
 }
 
-h3.jp, h4.jp {
+h2.jp, h3.jp, h4.jp {
     /* Family headers kanji w/underlines doesn't look right */
     text-decoration: none;
     font-weight: normal;
@@ -554,7 +558,7 @@ div.detailsFamily {
         margin-left: 14px;
     }
 
-    h3, h4 {
+    h2, h3, h4 {
         margin-left: 14px;
     }
 
