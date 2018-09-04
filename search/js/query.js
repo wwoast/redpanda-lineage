@@ -110,14 +110,13 @@ Query.rules = {
   // Primitive components
   "id": /\d{1,5}/,
   "space": /\s+/,
-  "string": /[^0-9\s]+/,
+  "string": /[^0-9\s]+(\s+[^0-9\s]+)?/,
   "separator": /\S{1}/,
   "divider": [
     ':space?', ':separator?', ':space?'
   ],
   // Operators, in various languages
   "type": Query.regexp(Query.values(Query.ops.type)),
-  // "type": /panda|zoo/,
   // Subjects, either an id number or a panda / zoo name
   "subject": or(
     ':id>id',
