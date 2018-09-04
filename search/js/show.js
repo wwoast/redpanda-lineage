@@ -93,9 +93,16 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 /*
-    When the URL #hash changes, process it as a change in the search
-    text and present new content.
+    Display modes for the site
 */
+window.addEventListener('hashchange', function() {
+  // TODO: detect whether the route is for about or links.
+  // If not either of these, reset Show.page to outputResults() and run that function
+  outputResults();
+});
+
+// This is the main panda search results function. When the URL #hash changes, 
+// process it as a change in the search text and present new content. 
 function outputResults() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
@@ -149,12 +156,6 @@ function outputResults() {
     body.replaceChild(footer, footer_test);
   }
 }
-
-window.addEventListener('hashchange', function() {
-  // TODO: detect whether the route is for about or links.
-  // If not either of these, reset Show.page to outputResults() and run that function
-  outputResults();
-});
 
 /*
     Presentation logic
