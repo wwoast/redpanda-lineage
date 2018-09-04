@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   Language.default(L);   // Set default language
-  Language.update(L);   // Update buttons, displayed results, and cookie state
+  Language.update(L, outputResults);   // Update buttons, displayed results, and cookie state
 
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
@@ -65,12 +65,18 @@ document.addEventListener("DOMContentLoaded", function() {
     choice = (choice + 1) % options.length;
     var new_language = options[choice];
     L.display = new_language;
-    Language.update(L);
+    Language.update(L, outputResults);
   });  
 
   document.getElementById('randomButton').addEventListener("click", function() {
+    // Show a random panda from the database when the dice is clicked
     var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  });
+
+  document.getElementById('aboutButton').addEventListener("click", function() {
+    // Load contents from the about.json file and write an about page in the current language.
+    var TODO = "stuff";
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {

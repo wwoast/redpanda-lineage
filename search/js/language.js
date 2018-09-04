@@ -44,7 +44,7 @@ Language.default = function(lang_object) {
 
 // Update all GUI elements based on the currently chosen language
 // For now, just do the language button itself
-Language.update = function(lang_object) {
+Language.update = function(lang_object, callback) {
   var languageButton = document.getElementById('languageButton');
   [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
   langIcon.innerText = Show.gui.flag[lang_object.display];
@@ -66,8 +66,9 @@ Language.update = function(lang_object) {
   }
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
+  // TODO: take a callback function to redraw about/links pages if necessary
   if ((window.location.hash.length > 0) && (P.db != undefined)) {
-    outputResults();
+    callback();
   }
   // Write a cookie for your chosen language
   document.cookie = "language=" + lang_object.display;
