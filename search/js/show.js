@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   Language.default(L);   // Set default language
-  Language.update(L, outputResults);   // Update buttons, displayed results, and cookie state
+  Language.update(L, Show.page);   // Update buttons, displayed results, and cookie state
 
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
     choice = (choice + 1) % options.length;
     var new_language = options[choice];
     L.display = new_language;
-    Language.update(L, outputResults);
+    Language.update(L, Show.page);
   });  
 
   document.getElementById('randomButton').addEventListener("click", function() {
@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('aboutButton').addEventListener("click", function() {
     // Load contents from the about.json file and write an about page in the current language.
     var TODO = "stuff";
+    // Make panda results disappear, and add the about page.
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {
@@ -164,6 +165,8 @@ Show.init = function() {
   var show = Object.create(Show.S);
   return show;
 }
+
+Show.page = outputResults;   // Default mode is to show panda results
 
 Show.emoji = {
   "animal": "🐼",
