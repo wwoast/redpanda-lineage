@@ -63,7 +63,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('logoButton').addEventListener("click", function() {
     // Return to the empty search page
-    var stuff = "TODO";
+    Show.lastSearch == "";
+    outputHome();
+    window.location.hash = "";
+    Show.page == outputHome;
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
@@ -91,13 +94,13 @@ document.addEventListener("DOMContentLoaded", function() {
       Show.page = outputResults;
     } else {
       Show.lastSearch = window.location.hash;
-      Show.page = outputAbout;
       window.location = "#about";
       if ((Show.about.language != L.display) && (Show.about.language != undefined)) {
         fetchAboutPage();
       } else {
         outputAbout();
       }
+      Show.page = outputAbout;
     }
   });
 
@@ -123,13 +126,13 @@ document.addEventListener("DOMContentLoaded", function() {
       Show.page = outputResults;
     } else {
       Show.lastSearch = window.location.hash;
-      Show.page = outputLinks;
       window.location = "#links";
       if (Show.links.language == L.display) {
         outputLinks();
       } else {
         fetchLinksPage();
       }
+      Show.page = outputLinks;
     }
   });
 
@@ -169,46 +172,6 @@ function checkHashes() {
   } else if (window.location.hash == "#links") {
     Show.page = outputLinks;
   }
-}
-
-// This is the main panda search results function. When the URL #hash changes, process
-// it as a change in the search text and present new content in the #contentFrame.
-function outputResults() {
-  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
-  var input = decodeURIComponent(window.location.hash);
-  // Start by just displaying info for one panda by id search
-  var results = Query.hashlink(input);
-  results = results instanceof Array ? results : [results];   // Guarantee array
-  var content_divs = [];
-  results.forEach(function(entity) {
-    if (entity["_id"] < 0) {
-      // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.zooInformation(entity, L.display));
-      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
-      animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
-      });
-    } else {
-      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
-    }
-  });
-  if (results.length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.displayEmptyResult(L.display));
-  }
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  content_divs.forEach(function(content_div) {
-    shrinker.appendChild(content_div);
-  });
-  new_content.appendChild(shrinker);
-
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  swapContents(old_content, new_content);
-  redrawFooter();
 }
 
 // Fetch the about page contents
@@ -258,11 +221,67 @@ function outputAbout() {
   }
 }
 
+// Output just the base search bar with no footer
+function outputHome() {
+
+  var old_content = document.getElementById('contentFrame');
+  var new_content = document.createElement('img');
+  new_content.src = "images/jiuzhaigou.jpg";
+  new_content.className = "fullFrame";
+  new_content.id = "contentFrame";
+  swapContents(old_content, new_content);
+}
+
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
+  // Reload the about content in the current languge
+  if ((Show.links.language != L.display) && (Show.links.language != undefined)) {
+    fetchAboutPage();
+  } else {
+    var old_content = document.getElementById('contentFrame');
+    swapContents(old_content, Show.about.content);
+    redrawFooter();
+  }
+}
+
+// This is the main panda search results function. When the URL #hash changes, process
+// it as a change in the search text and present new content in the #contentFrame.
+function outputResults() {
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
+  // Start by just displaying info for one panda by id search
+  var results = Query.hashlink(input);
+  results = results instanceof Array ? results : [results];   // Guarantee array
+  var content_divs = [];
+  results.forEach(function(entity) {
+    if (entity["_id"] < 0) {
+      // Zoos get the Zoo div and pandas for this zoo
+      content_divs.push(Show.zooInformation(entity, L.display));
+      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
+      animals.forEach(function(animal) {
+        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
+      });
+    } else {
+      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
+    }
+  });
+  if (results.length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.displayEmptyResult(L.display));
+  }
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  content_divs.forEach(function(content_div) {
+    shrinker.appendChild(content_div);
+  });
+  new_content.appendChild(shrinker);
+
+  // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
-  swapContents(old_content, Show.links.content);
+  swapContents(old_content, new_content);
   redrawFooter();
 }
 
