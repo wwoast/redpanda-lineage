@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
       // Check the last query done and return to it
-      var stuff = TODO;
+      var stuff = "TODO";
     } else {
       Show.page = outputAbout;
       window.location = "#about";
@@ -254,6 +254,7 @@ function outputLinks() {
 
 // Add the footer at the bottom of the page
 function redrawFooter() {
+  var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // If no footer exists, add one in
