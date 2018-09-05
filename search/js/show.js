@@ -50,7 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById('searchInput').focus();  // Set text cursor
 
     // If a hashlink was bookmarked, bring up the results of it
-    if (window.location.hash.length > 0) {
+    if ((window.location.hash.length > 0) && 
+        (window.location.hash != "#about") &&
+        (window.location.hash != "#links")) {
       outputResults();
     }
 
@@ -86,8 +88,10 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
       // Check the last query done and return to it
-      var stuff = "TODO";
+      window.location = Show.lastSearch;
+      Show.page = outputResults;
     } else {
+      Show.lastSearch = window.location.hash;
       Show.page = outputAbout;
       window.location = "#about";
       outputAbout();
@@ -112,8 +116,10 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('linksButton').addEventListener("click", function() {
     if (Show.page == outputLinks) {
       // Check the last query done and return to it
-      var stuff = TODO;
+      window.location = Show.lastSearch;
+      Show.page = outputResults;
     } else {
+      Show.lastSearch = window.location.hash;
       Show.page = outputLinks;
       window.location = "#links";
       outputLinks();
