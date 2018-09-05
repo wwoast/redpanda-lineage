@@ -35,9 +35,10 @@ document.addEventListener("DOMContentLoaded", function() {
   L = Language.init();
   G = Dagoba.graph();
 
-  Language.default(L);   // Set default language
-  checkHashes();   // See if we started on the links or about pages
-  Language.update(L, Show.page);   // Update buttons, displayed results, and cookie state
+  Language.default(L);     // Set default language
+  checkHashes();           // See if we started on the links or about pages
+  Language.update(L);      // Update buttons, displayed results, and cookie state
+  redrawPage(Show.page);   // Ready to redraw? Let's go.
 
   // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
@@ -77,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var new_language = options[choice];
     L.display = new_language;
     Language.update(L, Show.page);
+    redrawPage(Show.page);
   });  
 
   // Once the about-page content is loaded, decide whether to display the
@@ -221,9 +223,9 @@ function outputAbout() {
   }
 }
 
-// Output just the base search bar with no footer
+// Output just the base search bar with no footer.
+// TODO: random content to entice new visitors :)
 function outputHome() {
-
   var old_content = document.getElementById('contentFrame');
   var new_content = document.createElement('img');
   new_content.src = "images/jiuzhaigou.jpg";
@@ -283,6 +285,19 @@ function outputResults() {
   var old_content = document.getElementById('contentFrame');
   swapContents(old_content, new_content);
   redrawFooter();
+}
+
+// Redraw page after an updateLanguage event or similar
+function redrawPage(callback) {
+  // Redisplay results in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == outputResults)) {
+    callback();
+  }
+  // For non-panda-results page, don't worry if the database is there or not
+  if ((window.location.hash.length > 0) && (callback != outputResults)) {
+    callback();  // TODO: have redisplay logic not live in the language function
+  }
 }
 
 // Add the footer at the bottom of the page

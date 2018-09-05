@@ -44,7 +44,7 @@ Language.default = function(lang_object) {
 
 // Update all GUI elements based on the currently chosen language
 // For now, just do the language button itself
-Language.update = function(lang_object, callback) {
+Language.update = function(lang_object) {
   var languageButton = document.getElementById('languageButton');
   [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
   langIcon.innerText = Show.gui.flag[lang_object.display];
@@ -63,15 +63,6 @@ Language.update = function(lang_object, callback) {
     document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[lang_object.display];
   } else {
     document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[lang_object.display];
-  }
-  // Redisplay results in the correct language, but only if the Pandas
-  // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == outputResults)) {
-    callback();
-  }
-  // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != outputResults)) {
-    callback();  // TODO: have redisplay logic not live in the language function
   }
   // Write a cookie for your chosen language
   document.cookie = "language=" + lang_object.display;
