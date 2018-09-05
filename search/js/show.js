@@ -51,8 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // If a hashlink was bookmarked, bring up the results of it
     if ((window.location.hash.length > 0) && 
-        (window.location.hash != "#about") &&
-        (window.location.hash != "#links")) {
+        (Show.fixed_routes.includes(window.location.hash) == false)) {
       outputResults();
     }
 
