@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
     Show.lastSearch == "";
     outputHome();
     window.location.hash = "";
-    Show.page == outputHome;
+    Show.page = outputHome;
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
@@ -84,8 +84,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Once the about-page content is loaded, decide whether to display the
   // contents or just keep them stashed.
   window.addEventListener('about_ready', function() {
-    if (Show.page == outputAbout) {
+    if (window.location.hash == "#about") {
       outputAbout();
+      Show.page = outputAbout;
     }
   });
 
@@ -101,8 +102,8 @@ document.addEventListener("DOMContentLoaded", function() {
         fetchAboutPage();
       } else {
         outputAbout();
+        Show.page = outputAbout;
       }
-      Show.page = outputAbout;
     }
   });
 
@@ -116,8 +117,9 @@ document.addEventListener("DOMContentLoaded", function() {
   // Once the links-page content is loaded, decide whether to display the
   // contents or just keep them stashed.
   window.addEventListener('links_ready', function() {
-    if (Show.page == outputLinks) {
+    if (window.location.hash == "#links") {
       outputLinks();
+      Show.page = outputLinks;
     }
   });
 
@@ -129,12 +131,12 @@ document.addEventListener("DOMContentLoaded", function() {
     } else {
       Show.lastSearch = window.location.hash;
       window.location = "#links";
-      if (Show.links.language == L.display) {
-        outputLinks();
-      } else {
+      if ((Show.links.language != L.display) && (Show.links.language != undefined)) {
         fetchLinksPage();
+      } else {
+        outputLinks();
+        Show.page = outputLinks;
       }
-      Show.page = outputLinks;
     }
   });
 
@@ -181,7 +183,6 @@ function fetchAboutPage() {
   var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
   var specific = L.display + "/about.html";
   var fetch_url = base + specific;
- 
   var request = new XMLHttpRequest();
   request.open('GET', fetch_url);
   request.responseType = 'document';
@@ -198,7 +199,6 @@ function fetchLinksPage() {
   var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
   var specific = L.display + "/links.html";
   var fetch_url = base + specific;
- 
   var request = new XMLHttpRequest();
   request.open('GET', fetch_url);
   request.responseType = 'document';
@@ -213,9 +213,10 @@ function fetchLinksPage() {
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.about
 function outputAbout() {
-  // Reload the about content in the current languge
-  if ((Show.about.language != L.display) && (Show.about.language != undefined)) {
-    fetchAboutPage();
+  if (Show.about.language == undefined) {
+    fetchAboutPage();   // Direct link
+  } else if (Show.about.language != L.display) {
+    fetchAboutPage();   // Language change event
   } else {
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
@@ -237,9 +238,11 @@ function outputHome() {
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
-  // Reload the about content in the current languge
-  if ((Show.links.language != L.display) && (Show.links.language != undefined)) {
-    fetchAboutPage();
+  if (Show.links.language == undefined) {
+    fetchLinksPage();   // Direct link
+  }
+  else if (Show.links.language != L.display) {
+    fetchLinksPage();   // Language change event
   } else {
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
