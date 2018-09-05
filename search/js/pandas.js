@@ -560,8 +560,8 @@ Pandas.gender = function(animal, language) {
 }
 
 // Return the language order as an array
-Pandas.language_order = function(animal) {
-  var ordering = animal["language.order"];
+Pandas.language_order = function(entity) {
+  var ordering = entity["language.order"];
   return ordering.replace(" ", "").split(',');
 }
 

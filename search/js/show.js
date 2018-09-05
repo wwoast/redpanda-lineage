@@ -36,6 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   Language.default(L);   // Set default language
+  checkHashes();   // See if we started on the links or about pages
   Language.update(L, Show.page);   // Update buttons, displayed results, and cookie state
 
   // Once the panda data is loaded, create the graph
@@ -59,6 +60,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
+  document.getElementById('logoButton').addEventListener("click", function() {
+    // Return to the empty search page
+    var stuff = "TODO";
+  });
+
   document.getElementById('languageButton').addEventListener("click", function() {
     var language = L.display;
     var options = Object.values(Pandas.def.languages);
@@ -78,9 +84,14 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('aboutButton').addEventListener("click", function() {
-    Show.page = outputAbout;
-    window.location = "#about";
-    outputAbout();
+    if (Show.page == outputAbout) {
+      // Check the last query done and return to it
+      var stuff = TODO;
+    } else {
+      Show.page = outputAbout;
+      window.location = "#about";
+      outputAbout();
+    }
   });
 
   document.getElementById('randomButton').addEventListener("click", function() {
@@ -99,9 +110,14 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('linksButton').addEventListener("click", function() {
-    Show.page = outputLinks;
-    window.location = "#links";
-    outputLinks();
+    if (Show.page == outputLinks) {
+      // Check the last query done and return to it
+      var stuff = TODO;
+    } else {
+      Show.page = outputLinks;
+      window.location = "#links";
+      outputLinks();
+    }
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {
@@ -127,10 +143,21 @@ document.addEventListener("DOMContentLoaded", function() {
 // When a hashlink is clicked from a non-links or non-about page, it should
 // output results for pandas.
 window.addEventListener('hashchange', function() {
-  if (Show.page == outputResults) {
+  if ((window.location.hash != "#about") &&
+      (window.location.hash != "#links")) {
     outputResults();
   }
 });
+
+// On initial page load, look for specific hashes that represent special buttons
+// and immediately load that page if necessary.
+function checkHashes() {
+  if (window.location.hash == "#about") {
+    Show.page = outputAbout;
+  } else if (window.location.hash == "#links") {
+    Show.page = outputLinks;
+  }
+}
 
 // This is the main panda search results function. When the URL #hash changes, process
 // it as a change in the search text and present new content in the #contentFrame.
@@ -169,6 +196,7 @@ function outputResults() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   swapContents(old_content, new_content);
+  redrawFooter();
 }
 
 // Fetch the about page contents
@@ -210,6 +238,7 @@ function outputAbout() {
   // New content: read just the child of new_content.body
   if (old_content.className != "about") {
     swapContents(old_content, Show.about.content);
+    redrawFooter();
   }
 }
 
@@ -219,6 +248,21 @@ function outputLinks() {
   var old_content = document.getElementById('contentFrame');
   if (old_content.className != "links") {
     swapContents(old_content, Show.links.content);
+    redrawFooter();
+  }
+}
+
+// Add the footer at the bottom of the page
+function redrawFooter() {
+  var footer_test = body.lastElementChild;
+  if (footer_test.className != "footer") {
+    // If no footer exists, add one in
+    var footer = Show.footer(L.display);
+    body.appendChild(footer);
+  } else {
+    // Redraw the footer for language event changes
+    var footer = Show.footer(L.display);
+    body.replaceChild(footer, footer_test);
   }
 }
 
@@ -233,17 +277,6 @@ function swapContents(old_content, new_content) {
   new_content.style.display = "block";
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
-
-  var footer_test = body.lastElementChild;
-  if (footer_test.className != "footer") {
-    // If no footer exists, add one in
-    var footer = Show.footer(L.display);
-    body.appendChild(footer);
-  } else {
-    // Redraw the footer for language event changes
-    var footer = Show.footer(L.display);
-    body.replaceChild(footer, footer_test);
-  }
 }
 
 /*
@@ -258,11 +291,12 @@ Show.init = function() {
   return show;
 }
 
+Show.page = outputResults;     // Default mode is to show panda results
+Show.lastSearch = undefined;   // When un-clicking Links/About, go back to the last panda search
+
 Show.about = {};
 Show.about.content = undefined;   // About page content
 Show.about.loaded = new Event('about_loaded');   // Event to fire when content loads
-
-Show.page = outputResults;   // Default mode is to show panda results
 
 Show.emoji = {
   "animal": "🐼",
