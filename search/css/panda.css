@@ -162,10 +162,6 @@ div#contentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
-div#contentFrame.about {
-    background: linear-gradient(#366938, #002200); /* Light to dark, top to bottom */
-}
-
 div#hiddenContentFrame {
     display: none;
     z-index: -1;
@@ -290,7 +286,7 @@ div.pandaDetails p, div.zooDetails p {
     padding-bottom: 0ex;
 }
 
-h2, h3, h4 {
+h3, h4 {
     display: inline-block;
     margin-left: 18px;
     margin-top: 1ex;
@@ -299,7 +295,7 @@ h2, h3, h4 {
     text-decoration: underline;
 }
 
-h2.jp, h3.jp, h4.jp {
+h3.jp, h4.jp {
     /* Family headers kanji w/underlines doesn't look right */
     text-decoration: none;
     font-weight: normal;
@@ -449,6 +445,23 @@ div.detailsFamily {
     border: 1px solid #033605; /* Bamboo Green */
     margin-top: 1ex;
     margin-bottom: 1ex;
+}
+
+div#contentFrame.about {
+    background: linear-gradient(#366938, #002200); /* Light to dark, top to bottom */
+}
+
+div#contentFrame.about div.shrinker {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 680px;
+}
+
+h2 {
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 1ex;
+    margin-bottom: 0ex;
 }
 
 /* Portrait mode, default for iPhones and for frames that are in a 
