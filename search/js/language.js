@@ -66,8 +66,12 @@ Language.update = function(lang_object, callback) {
   }
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (Show.page != undefined)) {
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == outputResults)) {
     callback();
+  }
+  // For non-panda-results page, don't worry if the database is there or not
+  if ((window.location.hash.length > 0) && (callback != outputResults)) {
+    callback();  // TODO: have redisplay logic not live in the language function
   }
   // Write a cookie for your chosen language
   document.cookie = "language=" + lang_object.display;

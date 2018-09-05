@@ -94,7 +94,11 @@ document.addEventListener("DOMContentLoaded", function() {
       Show.lastSearch = window.location.hash;
       Show.page = outputAbout;
       window.location = "#about";
-      outputAbout();
+      if ((Show.about.language != L.display) && (Show.about.language != undefined)) {
+        fetchAboutPage();
+      } else {
+        outputAbout();
+      }
     }
   });
 
@@ -122,7 +126,11 @@ document.addEventListener("DOMContentLoaded", function() {
       Show.lastSearch = window.location.hash;
       Show.page = outputLinks;
       window.location = "#links";
-      outputLinks();
+      if (Show.links.language == L.display) {
+        outputLinks();
+      } else {
+        fetchLinksPage();
+      }
     }
   });
 
@@ -140,7 +148,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Last but not least, fetch the about page and links page contents
   fetchAboutPage();
-  // fetchLinksPage();
+  fetchLinksPage();
 });
 
 /*
@@ -217,6 +225,7 @@ function fetchAboutPage() {
   request.send();
   request.onload = function() {
     Show.about.content = request.response.getElementById('hiddenContentFrame');
+    Show.about.language = L.display;   // What language the content was loaded in
     window.dispatchEvent(Show.about.loaded);   // Report the data has loaded
   }
 }
@@ -233,6 +242,7 @@ function fetchLinksPage() {
   request.send();
   request.onload = function() {
     Show.links.content = request.response.getElementById('hiddenContentFrame');
+    Show.links.language = L.display;   // What language the content was laoaded in
     window.dispatchEvent(Show.links.loaded);   // Report the data has loaded
   }
 }
@@ -240,9 +250,11 @@ function fetchLinksPage() {
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.about
 function outputAbout() {
-  var old_content = document.getElementById('contentFrame');
-  // New content: read just the child of new_content.body
-  if (old_content.className != "about") {
+  // Reload the about content in the current languge
+  if ((Show.about.language != L.display) && (Show.about.language != undefined)) {
+    fetchAboutPage();
+  } else {
+    var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
     redrawFooter();
   }
@@ -252,10 +264,8 @@ function outputAbout() {
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
   var old_content = document.getElementById('contentFrame');
-  if (old_content.className != "links") {
-    swapContents(old_content, Show.links.content);
-    redrawFooter();
-  }
+  swapContents(old_content, Show.links.content);
+  redrawFooter();
 }
 
 // Add the footer at the bottom of the page
@@ -299,10 +309,11 @@ Show.init = function() {
 }
 
 Show.page = outputResults;     // Default mode is to show panda results
-Show.lastSearch = undefined;   // When un-clicking Links/About, go back to the last panda search
+Show.lastSearch = '';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
 Show.about.content = undefined;   // About page content
+Show.about.language = undefined;   // Language the content was loaded in
 Show.about.loaded = new Event('about_loaded');   // Event to fire when content loads
 
 Show.emoji = {
@@ -426,6 +437,7 @@ Show.gui = {
 
 Show.links = {};
 Show.links.content = undefined;   // Links page content
+Show.links.language = undefined;   // Language the content was loaded in
 Show.links.loaded = new Event('links_loaded');   // Event to fire when content loads
 
 Show.no_result = {
