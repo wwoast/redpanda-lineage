@@ -168,15 +168,15 @@ function outputResults() {
 // Fetch the about page contents
 function fetchAboutPage() {
   var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
-  var specific = Language.display + "/about.html";
+  var specific = L.display + "/about.html";
   var fetch_url = base + specific;
  
   var request = new XMLHttpRequest();
   request.open('GET', fetch_url);
-  request.responseType = 'html';
+  request.responseType = 'document';
   request.send();
   request.onload = function() {
-    Show.about.content = request.response;
+    Show.about.content = request.response.getElementById('hiddenContentFrame');
     window.dispatchEvent(Show.about.loaded);   // Report the data has loaded
   }
 }
@@ -184,15 +184,15 @@ function fetchAboutPage() {
 // Fetch the links page contents
 function fetchLinksPage() {
   var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
-  var specific = Language.display + "/links.html";
+  var specific = L.display + "/links.html";
   var fetch_url = base + specific;
  
   var request = new XMLHttpRequest();
   request.open('GET', fetch_url);
-  request.responseType = 'html';
+  request.responseType = 'document';
   request.send();
   request.onload = function() {
-    Show.links.content = request.response;
+    Show.links.content = request.response.getElementById('hiddenContentFrame');
     window.dispatchEvent(Show.links.loaded);   // Report the data has loaded
   }
 }
@@ -200,13 +200,20 @@ function fetchLinksPage() {
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.about
 function outputAbout() {
-  var TODO = "stuff";
+  var old_content = document.getElementById('contentFrame');
+  // New content: read just the child of new_content.body
+  if (old_content.className != "about") {
+    swapContents(old_content, Show.about.content);
+  }
 }
 
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
-  var TODO = "stuff";
+  var old_content = document.getElementById('contentFrame');
+  if (old_content.className != "links") {
+    swapContents(old_content, Show.links.content);
+  }
 }
 
 // Swap in a new contents frame for an old contents frame. Also double-check that
