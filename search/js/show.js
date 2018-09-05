@@ -79,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('aboutButton').addEventListener("click", function() {
     // TODO: hashchange
+    Show.page = outputAbout;
     outputAbout();
   });
 
@@ -98,6 +99,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('linksButton').addEventListener("click", function() {
     // TODO: hashchange
+    Show.page = outputLinks;
     outputLinks();
   });
 
