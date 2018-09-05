@@ -558,7 +558,11 @@ div.detailsFamily {
         margin-left: 14px;
     }
 
-    h2, h3, h4 {
+    h2 {
+        margin-left: 8px;
+    }
+
+    h3, h4 {
         margin-left: 14px;
     }
 
