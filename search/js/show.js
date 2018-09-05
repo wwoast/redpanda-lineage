@@ -78,13 +78,14 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('aboutButton').addEventListener("click", function() {
-    // TODO: hashchange
     Show.page = outputAbout;
+    window.location = "#about";
     outputAbout();
   });
 
   document.getElementById('randomButton').addEventListener("click", function() {
     // Show a random panda from the database when the dice is clicked
+    Show.page = outputResults;
     var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   });
@@ -98,12 +99,13 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('linksButton').addEventListener("click", function() {
-    // TODO: hashchange
     Show.page = outputLinks;
+    window.location = "#links";
     outputLinks();
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {
+    Show.page = outputResults;
     document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
     var query = (document.getElementById('searchInput').value).trim();
     Query.lexer.parse(query);  // TODO: onhashchange, race for results?
@@ -122,10 +124,12 @@ document.addEventListener("DOMContentLoaded", function() {
 /*
     Display modes for the site
 */
+// When a hashlink is clicked from a non-links or non-about page, it should
+// output results for pandas.
 window.addEventListener('hashchange', function() {
-  // TODO: detect whether the route is for about or links.
-  // If not either of these, reset Show.page to outputResults() and run that function
-  outputResults();
+  if (Show.page == outputResults) {
+    outputResults();
+  }
 });
 
 // This is the main panda search results function. When the URL #hash changes, process
