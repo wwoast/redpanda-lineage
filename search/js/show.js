@@ -151,18 +151,17 @@ document.addEventListener("DOMContentLoaded", function() {
   fetchLinksPage();
 });
 
-/*
-    Display modes for the site
-*/
 // When a hashlink is clicked from a non-links or non-about page, it should
 // output results for pandas.
 window.addEventListener('hashchange', function() {
-  if ((window.location.hash != "#about") &&
-      (window.location.hash != "#links")) {
+  if (Show.fixed_routes.includes(window.location.hash) == false) {
     outputResults();
   }
 });
 
+/*
+    Display modes for the site
+*/
 // On initial page load, look for specific hashes that represent special buttons
 // and immediately load that page if necessary.
 function checkHashes() {
@@ -359,6 +358,13 @@ Show.flags = {
   "Taiwan": "🇹🇼",
      "USA": "🇺🇸"
 }
+
+// Hashlink routes that map to non-search-results content
+Show.fixed_routes = [
+  "",         // The empty query page
+  "#about",   // The about page
+  "#links"    // The links page
+]
 
 Show.gui = {
   "about": {
