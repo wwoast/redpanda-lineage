@@ -68,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function() {
     outputHome();
     window.location = "#home";
     Show.page = outputHome;
-    removeFooter();
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
@@ -252,6 +251,7 @@ function outputHome() {
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
   swapContents(old_content, new_content);
+  removeFooter();
 }
 
 // Displays the about page when the button is clicked. Load content from a static
