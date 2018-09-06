@@ -465,9 +465,17 @@ h2 {
 }
 
 div.youtube {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+div.youtube iframe {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
 }
 
 /* Portrait mode, default for iPhones and for frames that are in a 
@@ -501,6 +509,14 @@ div.youtube {
     div#contentFrame {
         padding-top: 0.1ex;
         padding-bottom: 0.1ex;
+    }
+
+    div.pandaAbout, div.pandaLinks {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     input.search {
