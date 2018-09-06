@@ -316,14 +316,14 @@ div.parents, div.litter, div.siblings, div.children, div.names {
     padding-right: 18px;
 }
 
-ul.pandaList {
+ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
     padding-left: 18px;
     margin-top: 0.5ex;
 }
 
-ul.pandaList li {
+ul.pandaList li, ul.linkList li {
     padding-top: 0.25ex;
     padding-bottom: 0.5ex;
 }
@@ -607,7 +607,7 @@ div.youtube iframe {
         margin-left: 14px;
     }
 
-    ul.pandaList {
+    ul.pandaList, ul.linkList {
         list-style: none;
         text-align: left;
         padding-left: 14px;
