@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Return to the empty search page
     Show.lastSearch = "";
     outputHome();
-    window.location.hash = "";
+    window.location.hash = "#home";
     Show.page = outputHome;
     removeFooter();
   });
@@ -88,7 +88,10 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location = Show.lastSearch;
       Show.page = outputResults;
     } else {
-      Show.lastSearch = window.location.hash;
+      // Only save the last page if it wasn't one of the other fixed buttons
+      if (Show.fixed_routes.includes(window.location.hash) == false) {
+        Show.lastSearch = window.location.hash;
+      }
       window.location = "#about";
       if ((Show.about.language != L.display) && (Show.about.language != undefined)) {
         fetchAboutPage();
@@ -112,7 +115,10 @@ document.addEventListener("DOMContentLoaded", function() {
       window.location = Show.lastSearch;
       Show.page = outputResults;
     } else {
-      Show.lastSearch = window.location.hash;
+      // Only save the last page if it wasn't one of the other fixed buttons
+      if (Show.fixed_routes.includes(window.location.hash) == false) {
+        Show.lastSearch = window.location.hash;
+      }
       window.location = "#links";
       if ((Show.links.language != L.display) && (Show.links.language != undefined)) {
         fetchLinksPage();
@@ -355,7 +361,7 @@ Show.init = function() {
 }
 
 Show.page = outputResults;     // Default mode is to show panda results
-Show.lastSearch = '';   // When un-clicking Links/About, go back to the last panda search
+Show.lastSearch = '#home';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
 Show.about.content = undefined;   // About page content
@@ -408,7 +414,7 @@ Show.flags = {
 
 // Hashlink routes that map to non-search-results content
 Show.fixed_routes = [
-  "",         // The empty query page
+  "#home",    // The empty query page
   "#about",   // The about page
   "#links"    // The links page
 ]
