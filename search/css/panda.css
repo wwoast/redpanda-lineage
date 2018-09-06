@@ -146,7 +146,7 @@ input.search::placeholder {
 }
 
 img.fullFrame {
-    height: calc(100% - 128px);
+    height: calc(100% - 130px);
     width: 100%;
     object-fit: cover; /* Images on the initial page maintain aspect ratio w/o scaling */
     opacity: 0.4;
