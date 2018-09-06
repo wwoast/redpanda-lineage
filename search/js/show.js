@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
       // Check the last query done and return to it, if it was a query
-      if (Show.fixed_routes.includes(window.location.hash) == false) {
+      if (Show.fixed_routes.includes(Show.lastSearch) == false) {
         window.location = Show.lastSearch;
       } else {
         window.location = "#home";
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('linksButton').addEventListener("click", function() {
     if (Show.page == outputLinks) {
       // Check the last query done and return to it, if it was a query
-      if (Show.fixed_routes.includes(window.location.hash) == false) {
+      if (Show.fixed_routes.includes(Show.lastSearch) == false) {
         window.location = Show.lastSearch;
       } else {
         window.location = "#home";
