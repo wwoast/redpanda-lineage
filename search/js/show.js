@@ -167,8 +167,6 @@ window.addEventListener('links_loaded', function() {
   }
 });
 
-
-
 /*
     Display modes for the site
 */
@@ -249,7 +247,7 @@ function outputLinks() {
     fetchLinksPage();   // Language change event
   } else {
     var old_content = document.getElementById('contentFrame');
-    swapContents(old_content, Show.about.content);
+    swapContents(old_content, Show.links.content);
     redrawFooter();
   }
 }
@@ -303,7 +301,7 @@ function redrawPage(callback) {
   }
   // For non-panda-results page, don't worry if the database is there or not
   if ((window.location.hash.length > 0) && (callback != outputResults)) {
-    callback();  // TODO: have redisplay logic not live in the language function
+    callback();
   }
 }
 
