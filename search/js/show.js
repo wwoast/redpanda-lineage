@@ -64,9 +64,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('logoButton').addEventListener("click", function() {
     // Return to the empty search page
-    Show.lastSearch = "";
+    Show.lastSearch = "#home";
     outputHome();
-    window.location.hash = "#home";
+    window.location = "#home";
     Show.page = outputHome;
     removeFooter();
   });
@@ -84,9 +84,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
-      // Check the last query done and return to it
-      window.location = Show.lastSearch;
-      Show.page = outputResults;
+      // Check the last query done and return to it, if it was a query
+      if (Show.fixed_routes.includes(window.location.hash) == false) {
+        window.location = Show.lastSearch;
+      } else {
+        window.location = "#home";
+      }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (Show.fixed_routes.includes(window.location.hash) == false) {
@@ -111,9 +114,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('linksButton').addEventListener("click", function() {
     if (Show.page == outputLinks) {
-      // Check the last query done and return to it
-      window.location = Show.lastSearch;
-      Show.page = outputResults;
+      // Check the last query done and return to it, if it was a query
+      if (Show.fixed_routes.includes(window.location.hash) == false) {
+        window.location = Show.lastSearch;
+      } else {
+        window.location = "#home";
+      }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
       if (Show.fixed_routes.includes(window.location.hash) == false) {
@@ -152,6 +158,9 @@ window.addEventListener('hashchange', function() {
   if (Show.fixed_routes.includes(window.location.hash) == false) {
     outputResults();
     Show.page = outputResults;
+  } else if (window.location.hash == "#home") {
+    outputHome();
+    Show.page = outputHome;
   }
 });
 
@@ -183,6 +192,8 @@ function checkHashes() {
     Show.page = outputAbout;
   } else if (window.location.hash == "#links") {
     Show.page = outputLinks;
+  } else {
+    Show.page = outputHome;
   }
 }
 
