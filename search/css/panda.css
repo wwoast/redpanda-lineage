@@ -469,6 +469,9 @@ div.youtube {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 53%;
 }
 
 div.youtube iframe {
@@ -517,6 +520,7 @@ div.youtube iframe {
         width: 100%;
         padding-left: 0px;
         padding-right: 0px;
+        margin-left: 0px;
     }
 
     input.search {
@@ -623,7 +627,7 @@ div.youtube iframe {
     }
 
     div.pandaAbout p {
-        margin-left: 8px;
+        margin-left: 14px;
         margin-right: 8px;
     }    
 }
