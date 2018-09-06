@@ -68,6 +68,7 @@ document.addEventListener("DOMContentLoaded", function() {
     outputHome();
     window.location.hash = "";
     Show.page = outputHome;
+    removeFooter();
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
@@ -321,6 +322,15 @@ function redrawFooter() {
   }
 }
 
+// Remove the footer if returning to the home page
+function removeFooter() {
+  var body = document.getElementsByTagName('body')[0];
+  var footer_test = body.lastElementChild;
+  if (footer_test.className == "footer") {
+    body.removeChild(footer_test);
+  }
+}
+
 // Swap in a new contents frame for an old contents frame. Also double-check that
 // the footer is still the bottom of the page.
 function swapContents(old_content, new_content) {
@@ -350,9 +360,8 @@ Show.page = outputResults;     // Default mode is to show panda results
 Show.lastSearch = '';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
-Show.about.content = {};   // About page content
+Show.about.content = undefined;   // About page content
 Show.about.language = undefined;   // Language the content was loaded in
-Show.about.last_loaded = undefined;   // Language the last content was loaded in
 Show.about.loaded = new Event('about_loaded');
 
 Show.emoji = {
@@ -482,9 +491,8 @@ Show.gui = {
 }
 
 Show.links = {};
-Show.links.content = {};   // Links page content
+Show.links.content = undefined;   // Links page content
 Show.links.language = undefined;   // Language the content was loaded in
-Show.links.last_loaded = undefined;   // Last lanugage content that was loaded in
 Show.links.loaded = new Event('links_loaded');
 
 Show.no_result = {
