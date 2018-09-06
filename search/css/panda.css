@@ -464,6 +464,7 @@ h2 {
     margin-bottom: 0ex;
 }
 
+/* Making youtube center and scale with the viewport requires hacks */
 div.youtube {
     position: relative;
     margin-left: auto;
@@ -598,7 +599,8 @@ div.youtube iframe {
     }
 
     h2 {
-        margin-left: 8px;
+        margin-left: 14px;
+        margin-right: 8px;
     }
 
     h3, h4 {
