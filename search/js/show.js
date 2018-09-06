@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('logoButton').addEventListener("click", function() {
     // Return to the empty search page
-    Show.lastSearch == "";
+    Show.lastSearch = "";
     outputHome();
     window.location.hash = "";
     Show.page = outputHome;
@@ -80,15 +80,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Language.update(L, Show.page);
     redrawPage(Show.page);
   });  
-
-  // Once the about-page content is loaded, decide whether to display the
-  // contents or just keep them stashed.
-  window.addEventListener('about_ready', function() {
-    if (window.location.hash == "#about") {
-      outputAbout();
-      Show.page = outputAbout;
-    }
-  });
 
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
@@ -112,15 +103,6 @@ document.addEventListener("DOMContentLoaded", function() {
     Show.page = outputResults;
     var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
-  });
-
-  // Once the links-page content is loaded, decide whether to display the
-  // contents or just keep them stashed.
-  window.addEventListener('links_ready', function() {
-    if (window.location.hash == "#links") {
-      outputLinks();
-      Show.page = outputLinks;
-    }
   });
 
   document.getElementById('linksButton').addEventListener("click", function() {
@@ -152,7 +134,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  // Last but not least, fetch the about page and links page contents
+  // Last but not least, fetch the about page and links page contents for each language
   fetchAboutPage();
   fetchLinksPage();
 });
@@ -162,8 +144,29 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('hashchange', function() {
   if (Show.fixed_routes.includes(window.location.hash) == false) {
     outputResults();
+    Show.page = outputResults;
   }
 });
+
+// Once the about-page content is loaded, decide whether to display the
+// contents or just keep them stashed.
+window.addEventListener('about_loaded', function() {
+  if (window.location.hash == "#about") {
+    outputAbout();
+    Show.page = outputAbout;
+  }
+});
+
+// Once the links-page content is loaded, decide whether to display the
+// contents or just keep them stashed.
+window.addEventListener('links_loaded', function() {
+  if (window.location.hash == "#links") {
+    outputLinks();
+    Show.page = outputLinks;
+  }
+});
+
+
 
 /*
     Display modes for the site
@@ -347,9 +350,10 @@ Show.page = outputResults;     // Default mode is to show panda results
 Show.lastSearch = '';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
-Show.about.content = undefined;   // About page content
+Show.about.content = {};   // About page content
 Show.about.language = undefined;   // Language the content was loaded in
-Show.about.loaded = new Event('about_loaded');   // Event to fire when content loads
+Show.about.last_loaded = undefined;   // Language the last content was loaded in
+Show.about.loaded = new Event('about_loaded');
 
 Show.emoji = {
   "animal": "🐼",
@@ -478,9 +482,10 @@ Show.gui = {
 }
 
 Show.links = {};
-Show.links.content = undefined;   // Links page content
+Show.links.content = {};   // Links page content
 Show.links.language = undefined;   // Language the content was loaded in
-Show.links.loaded = new Event('links_loaded');   // Event to fire when content loads
+Show.links.last_loaded = undefined;   // Last lanugage content that was loaded in
+Show.links.loaded = new Event('links_loaded');
 
 Show.no_result = {
   "cn": "沒有發現熊貓",
