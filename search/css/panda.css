@@ -399,7 +399,7 @@ div.pandaLinks ul.panda li:before {
     margin-right: 8px;
 }
 
-div.pandaLinks > ul > li > a {
+h5.caption a, div.pandaLinks > ul > li > a {
     color: white;
     text-decoration: none !important;
 }
@@ -500,6 +500,10 @@ div.youtube iframe {
     top: 0px;
     width: 100%;
     height: 100%;
+}
+
+img.aboutFocus {
+    width: 100%;
 }
 
 ul.linkList.multiColumn {
@@ -655,6 +659,11 @@ ul.linkList.multiColumn {
     div.pandaAbout p, div.pandaLinks p {
         margin-left: 14px;
         margin-right: 8px;
+    }
+
+    h5.caption {
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     ul.linkList.multiColumn {
