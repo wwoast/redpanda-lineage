@@ -384,8 +384,18 @@ div.pandaAbout, div.pandaLinks {
     margin-right: 8px;
 }
 
-div.pandaLinks ul li:before {
+div.pandaLinks ul.bamboo li:before {
     content: "🎍";
+    margin-right: 8px;
+}
+
+div.pandaLinks ul.heart li:before {
+    content: "❤️";
+    margin-right: 8px;
+}
+
+div.pandaLinks ul.panda li:before {
+    content: "🐼";
     margin-right: 8px;
 }
 
