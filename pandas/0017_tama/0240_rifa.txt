@@ -3,12 +3,13 @@ _id: 240
 birthday: 2018/6/7
 birthplace: 17
 children: none
-en.name: Aka-chan Taofa
+en.name: Rifa
 en.nicknames: none  
-en.othernames: none
+en.othernames: Plum Flowers, Li-Hua, Ri-fa
 gender: f
-jp.name: タオファの赤ちゃん
+jp.name: 李花
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: リーファ
 language.order: jp, en
+species: 2
 zoo: 17
