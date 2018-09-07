@@ -384,6 +384,16 @@ div.pandaAbout, div.pandaLinks {
     margin-right: 8px;
 }
 
+div.pandaLinks ul li:before {
+    content: "🎍";
+    margin-right: 8px;
+}
+
+div.pandaLinks > ul > li > a {
+    color: white;
+    text-decoration: none !important;
+}
+
 div.detailsNameTitle {
     display: block;
     text-align: center;
