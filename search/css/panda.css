@@ -378,7 +378,7 @@ div.detailsPhoto {
     border-right: 1px solid #033605; /* Bamboo Green */
 }
 
-div.pandaAbout {
+div.pandaAbout, div.pandaLinks {
     color: white;
     margin-left: 14px;
     margin-right: 8px;
@@ -628,7 +628,7 @@ div.youtube iframe {
         padding-right: 8px;
     }
 
-    div.pandaAbout p {
+    div.pandaAbout p, div.pandaLinks p {
         margin-left: 14px;
         margin-right: 8px;
     }    
