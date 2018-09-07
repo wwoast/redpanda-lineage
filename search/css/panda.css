@@ -508,11 +508,13 @@ div.youtube iframe {
 
 img.aboutFocus {
     width: 100%;
+    text-align: center;
 }
 
 img.twinFocus {
-    display: inline-block;
-    width: 50%;
+    display: inline;
+    width: 48%;
+    text-align: center;
 }
 
 ul.linkList.multiColumn {
