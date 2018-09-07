@@ -492,6 +492,10 @@ div.youtube iframe {
     height: 100%;
 }
 
+ul.linkList.multiColumn {
+    column-count: 2;
+}
+
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
@@ -641,5 +645,9 @@ div.youtube iframe {
     div.pandaAbout p, div.pandaLinks p {
         margin-left: 14px;
         margin-right: 8px;
+    }
+
+    ul.linkList.multiColumn {
+        column-count: 1;
     }    
 }
