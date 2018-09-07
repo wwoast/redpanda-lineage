@@ -404,6 +404,10 @@ h5.caption a, div.pandaLinks > ul > li > a {
     text-decoration: none !important;
 }
 
+h5.caption {
+    text-align: center;
+}
+
 div.detailsNameTitle {
     display: block;
     text-align: center;
@@ -504,6 +508,11 @@ div.youtube iframe {
 
 img.aboutFocus {
     width: 100%;
+}
+
+img.twinFocus {
+    display: inline-block;
+    width: 50%;
 }
 
 ul.linkList.multiColumn {
