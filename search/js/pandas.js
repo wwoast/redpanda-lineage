@@ -187,7 +187,7 @@ Pandas.def.relations = {
   "litter": {
     "cn": "litter",
     "en": "litter",
-    "jp": "同腹仔"
+    "jp": "双子"   /* "同腹仔" */
   },
   "mother": {
     "cn": "母",
