@@ -1,15 +1,15 @@
 [panda]
 _id: 171
 birthday: 1999/7/27
-birthplace: unknown
-children: none
+birthplace: 17
+children: 331
 en.name: Ryuunosuke
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: リュウノスケ
+jp.name: 緑之介
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: リュウノスケ
 language.order: jp, en
 photo.1: https://www.instagram.com/p/Bh8P0uOlcEB/media/?size=m
 photo.1.author: miis_98
@@ -26,4 +26,5 @@ photo.4.link: https://www.instagram.com/yuka0714_0307/
 photo.5: https://www.instagram.com/p/Blsvy55lbhp/media/?size=m
 photo.5.author: yuka0714_0307
 photo.5.link: https://www.instagram.com/yuka0714_0307/
+species: 2
 zoo: 46
