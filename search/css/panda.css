@@ -406,6 +406,8 @@ h5.caption > a, div.pandaLinks > ul > li > a {
 
 h5.caption {
     text-align: center;
+    margin-top: 0.5ex;
+    margin-bottom: 1ex;
 }
 
 div.detailsNameTitle {
@@ -670,11 +672,6 @@ ul.linkList.multiColumn {
     div.pandaAbout p, div.pandaLinks p {
         margin-left: 14px;
         margin-right: 8px;
-    }
-
-    h5.caption {
-        margin-top: 0.5ex;
-        margin-bottom: 1ex;
     }
 
     ul.linkList.multiColumn {
