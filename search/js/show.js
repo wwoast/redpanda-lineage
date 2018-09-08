@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // If a hashlink was bookmarked, bring up the results of it
     if ((window.location.hash.length > 0) && 
-        (Show.fixed_routes.includes(window.location.hash) == false)) {
+        (Show.routes.fixed.includes(window.location.hash) == false)) {
       outputResults();
     }
 
@@ -84,14 +84,14 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('aboutButton').addEventListener("click", function() {
     if (Show.page == outputAbout) {
       // Check the last query done and return to it, if it was a query
-      if (Show.fixed_routes.includes(Show.lastSearch) == false) {
+      if (Show.routes.fixed.includes(Show.lastSearch) == false) {
         window.location = Show.lastSearch;
       } else {
         window.location = "#home";
       }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
-      if (Show.fixed_routes.includes(window.location.hash) == false) {
+      if (Show.routes.fixed.includes(window.location.hash) == false) {
         Show.lastSearch = window.location.hash;
       }
       window.location = "#about";
@@ -114,14 +114,14 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('linksButton').addEventListener("click", function() {
     if (Show.page == outputLinks) {
       // Check the last query done and return to it, if it was a query
-      if (Show.fixed_routes.includes(Show.lastSearch) == false) {
+      if (Show.routes.fixed.includes(Show.lastSearch) == false) {
         window.location = Show.lastSearch;
       } else {
         window.location = "#home";
       }
     } else {
       // Only save the last page if it wasn't one of the other fixed buttons
-      if (Show.fixed_routes.includes(window.location.hash) == false) {
+      if (Show.routes.fixed.includes(window.location.hash) == false) {
         Show.lastSearch = window.location.hash;
       }
       window.location = "#links";
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", function() {
 // When a hashlink is clicked from a non-links or non-about page, it should
 // output results for pandas.
 window.addEventListener('hashchange', function() {
-  if (Show.fixed_routes.includes(window.location.hash) == false) {
+  if (Show.routes.fixed.includes(window.location.hash) == false) {
     outputResults();
     Show.page = outputResults;
   } else if (window.location.hash == "#home") {
@@ -187,7 +187,9 @@ window.addEventListener('links_loaded', function() {
 // On initial page load, look for specific hashes that represent special buttons
 // and immediately load that page if necessary.
 function checkHashes() {
-  if (window.location.hash == "#about") {
+  if (Show.routes.dynamic.includes(window.location.hash.split('/')[0])) {
+    Show.page = outputResults;
+  } else if (window.location.hash == "#about") {
     Show.page = outputAbout;
   } else if (window.location.hash == "#links") {
     Show.page = outputLinks;
@@ -423,13 +425,6 @@ Show.flags = {
      "USA": "🇺🇸"
 }
 
-// Hashlink routes that map to non-search-results content
-Show.fixed_routes = [
-  "#home",    // The empty query page
-  "#about",   // The about page
-  "#links"    // The links page
-]
-
 Show.gui = {
   "about": {
     "cn": "關於",
@@ -515,6 +510,21 @@ Show.no_result = {
   "en": "No Pandas Found",
   "jp": "パンダが見つかりません"
 }
+
+// Hashlink routes that map to non-search-results content
+Show.routes = {
+  "dynamic": [
+    "#panda",
+    "#zoo",
+    "#query"
+  ],
+  "fixed": [
+    "#home",    // The empty query page
+    "#about",   // The about page
+    "#links"    // The links page
+  ]
+}
+
 
 /*
     Presentation-level data, separated out from final website layout
