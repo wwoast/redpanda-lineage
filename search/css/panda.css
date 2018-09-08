@@ -406,7 +406,7 @@ h5.caption > a, div.pandaLinks > ul > li > a {
 
 h5.caption {
     text-align: center;
-    margin-top: 0.5ex;
+    margin-top: 0.7ex;
     margin-bottom: 1ex;
 }
 
@@ -509,6 +509,7 @@ div.youtube iframe {
 }
 
 img.aboutFocus {
+    display: inline;
     width: 100%;
     text-align: center;
 }
