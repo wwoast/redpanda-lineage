@@ -673,8 +673,8 @@ ul.linkList.multiColumn {
     }
 
     h5.caption {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0.5ex;
+        margin-bottom: 1ex;
     }
 
     ul.linkList.multiColumn {
