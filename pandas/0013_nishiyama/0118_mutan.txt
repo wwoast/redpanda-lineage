@@ -9,7 +9,7 @@ en.othernames: none
 gender: m
 jp.name: ムータン
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: 牡丹
 language.order: jp, en
 photo.1: https://www.instagram.com/p/BgbRIWhlZP1/media/?size=m
 photo.1.author: lsdar13
@@ -26,4 +26,5 @@ photo.4.link: https://www.instagram.com/kotata_513/
 photo.5: https://www.instagram.com/p/BkMEdJxlrEu/media/?size=m
 photo.5.author: lsdar13
 photo.5.link: https://www.instagram.com/lsdar13/
+species: 2
 zoo: 13
