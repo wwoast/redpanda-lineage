@@ -408,6 +408,8 @@ h5.caption {
     text-align: center;
     margin-top: 0.7ex;
     margin-bottom: 1ex;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 div.detailsNameTitle {
@@ -516,7 +518,7 @@ img.aboutFocus {
 
 img.twinFocus {
     display: inline;
-    width: 48%;
+    width: 49%;
     text-align: center;
 }
 
