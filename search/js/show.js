@@ -1113,6 +1113,12 @@ Show.pandaInformation = function(animal, language, slip_in) {
   return result; 
 }
 
+Show.photoCredits = function(author) {
+  // Take a credited author, and return a list of every single photo in
+  // the dataset attributed to them.
+  var stuff = "TODO";
+}
+
 // Format the results for a single search as divs.
 // The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
