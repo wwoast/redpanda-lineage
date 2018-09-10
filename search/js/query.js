@@ -160,11 +160,12 @@ Query.rules = {
 Query.actions = {
   // Parse IDs if they are valid numbers, and names as if they have proper search 
   // capitalization. Parsing here percolates down itno other expressions :)
-  "type": function(env, captures) {
-    [match_type, value] = captures;
-    if (Query.values(Query.ops.type.credit).includes(value)) {
+  "type": function(env, capture) {
+    var type = capture;
+    if (Query.ops.type.credit.includes(type)) {
       Query.env.preserve_case = true;
     }
+    return type;
   },
   "subject": function(env, captures) {
     [match_type, value] = captures;
@@ -231,7 +232,7 @@ Query.resolver = {
   // into a list of nodes in the Pandas/Zoos graph
   "subject": function(subject, type, language) {
     // Explicitly search for a panda by id
-    if ((Query.resolver.is_id(subject)) &&
+    if ((Query.resolver.is_id(subject) == true) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
       return Pandas.searchPandaId(subject);
     }
@@ -240,8 +241,12 @@ Query.resolver = {
         (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
     }
+    // If a credit operator is there, search for photo credits
+    if (Query.ops.type.credit.indexOf(type) != -1) {
+      return Pandas.searchPhotoCredit(subject);
+    }
     // Raw ids are assumed to be panda ids
-    if ((Query.resolver.is_id(subject)) &&
+    if ((Query.resolver.is_id(subject) == true) &&
         (type == undefined)) {
       return Pandas.searchPandaId(subject);    
     }
