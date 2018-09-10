@@ -526,6 +526,11 @@ ul.linkList.multiColumn {
     column-count: 2;
 }
 
+div.photoSample {
+    display: inline-block;
+    width: 160px;
+}
+
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */
