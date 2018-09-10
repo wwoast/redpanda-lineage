@@ -288,6 +288,8 @@ function outputResults() {
       animals.forEach(function(animal) {
         content_divs.push(Show.pandaInformation(animal, L.display, undefined));
       });
+    } else if (Query.env.output == "photos") {
+      var stuff = "TODO";
     } else {
       content_divs.push(Show.pandaInformation(entity, L.display, undefined));
     }
@@ -373,7 +375,7 @@ Show.init = function() {
   return show;
 }
 
-Show.page = outputResults;     // Default mode is to show panda results
+Show.page = outputResults;   // Default mode is to show panda results
 Show.lastSearch = '#home';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};

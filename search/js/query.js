@@ -14,6 +14,10 @@ Query.init = function() {
 
 Query.env = {};
 Query.env.preserve_case = false;
+// When displaying results, normally we just display zoos and pandas ("entities").
+// However, other output modes are supported based on the supplied types.
+// The "credit" search results in a spread of photos credited to a particular user.
+Query.env.output = "entities";
 
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
@@ -163,7 +167,8 @@ Query.actions = {
   "type": function(env, capture) {
     var type = capture;
     if (Query.ops.type.credit.includes(type)) {
-      Query.env.preserve_case = true;
+      Query.env.preserve_case = true;   // Don't adjust case for author searches
+      Query.env.output = "photos";      // Switch to "photo credit" output mode
     }
     return type;
   },
