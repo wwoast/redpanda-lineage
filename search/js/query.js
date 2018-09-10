@@ -12,6 +12,9 @@ Query.init = function() {
   return query;
 }
 
+Query.env = {};
+Query.env.preserve_case = false;
+
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
@@ -21,7 +24,8 @@ Query.init = function() {
 Query.ops = {
   "type": {
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "zoo": ['Zoo', 'zoo', '動物園']
+    "zoo": ['Zoo', 'zoo', '動物園'],
+    "credit": ['Credit', 'credit', 'Author', 'author', '著者']
   },
   "subtype": {
     "alive": ['alive', 'living'],
@@ -156,6 +160,12 @@ Query.rules = {
 Query.actions = {
   // Parse IDs if they are valid numbers, and names as if they have proper search 
   // capitalization. Parsing here percolates down itno other expressions :)
+  "type": function(env, captures) {
+    [match_type, value] = captures;
+    if (Query.values(Query.ops.type.credit).includes(value)) {
+      Query.env.preserve_case = true;
+    }
+  },
   "subject": function(env, captures) {
     [match_type, value] = captures;
     switch (match_type) {
@@ -191,7 +201,7 @@ Query.resolver = {
   // make the search work as you'd expect (capitalization, etc)
   // Can't base this on the current page language, since we need
   // to match latin partials against capitalized dataset names!
-  "name": function(input, language) {
+  "name": function(input) {
     var output = [];
     var words = input.split(' ');
     // Determine what the character set is for each word.
@@ -201,7 +211,7 @@ Query.resolver = {
       var latin = ranges.some(function(range) {
         return range.test(word);
       });
-      if (latin == true) {
+      if ((latin == true) && (Query.env.preserve_case == false)) {
         word = word.replace(/^\w/, function(chr) {
           return chr.toUpperCase();
         });
