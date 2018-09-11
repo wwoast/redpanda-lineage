@@ -338,7 +338,10 @@ function outputSearchResultPhotos(results) {
     }
   });
   // Write some HTML with summary information for the user and the number of photos
-  // and thank the person for contributing content to this database
+  var header = Show.credit(Query.env.credit, content_divs.length, L.display);
+  content_divs.unshift(header);
+  // HACK: revert to results mode
+  Query.env.output = "entities";
   return content_divs;
 }
 
@@ -461,6 +464,17 @@ Show.gui = {
     "cn": "關於",
     "en": "About",
     "jp": "概要"
+  },
+  "credit": {
+    "cn": "TOWRITE",
+    "en": ["<INSERTUSER>",
+           " has contributed ",
+           "<INSERTNUMBER>",
+           " photos."],
+    "jp": ["<INSERTUSER>",
+           "は",
+           "<INSERTNUMBER>",
+           "枚の写真を寄稿しました。"]
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
@@ -760,6 +774,36 @@ Show.zooLink = function(zoo, link_text, language, options) {
 /*
     Displayed output in the webpage
 */
+// Draw a header for crediting someone's photos contribution 
+// with the correct language
+Show.credit = function(credit, count, language) {
+  var p = document.createElement('p');
+  for (var i in Show.gui.credit[language]) {
+    var field = Show.gui.credit[language][i];
+    if (field == "<INSERTUSER>") {
+      field = credit;
+      var msg = document.createElement('i');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = count;
+      var msg = document.createElement('b');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var footer = document.createElement('div');
+  footer.className = "creditSummary";
+  footer.appendChild(shrinker);
+  return footer;
+}
+
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
 Show.displayEmptyResult = function(language) {
@@ -1159,6 +1203,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   }
   for (let photo of photos) {
     var img = document.createElement('img');
+    img.src = photo.replace('/?size=m', '/?size=t');
     var caption = document.createElement('h5');
     caption.className = "caption";
     caption.innerText = info.name;
