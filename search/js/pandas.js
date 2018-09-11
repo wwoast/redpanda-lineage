@@ -263,6 +263,38 @@ Pandas.def.zoo = {
 }
 
 /*
+    Utility functions and generators for doing panda processing
+*/
+// Generates a valid index to a photo for a panda entity, up to the
+// point that said entity doesn't have a defined photo in its data.
+// TODO: rewrite Pandas.profilePhoto in terms of this
+Pandas.photoGeneratorEntity = function*(entity) {
+  var index = 0;
+  while (index < index + 1) {
+    index++;
+    if (entity["photo." + index] == undefined) {
+      return;
+    }
+    yield "photo." + index;
+  }
+}
+
+// Generates a valid index to a photo for a panda entity, up to the
+// max index.
+// TODO: max index should be in the dataset, representing
+// the most photos a single panda entity has recorded. 
+Pandas.photoGeneratorMax = function*(max) {
+  var index = 0;
+  while (index < index + 1) {
+    index++;
+    if (index > max) {
+      return;
+    }
+    yield "photo." + index;
+  }
+}
+
+/*
     Methods for searching on Red Pandas
 */
 // Find a pandas's direct siblings, with both the same mother and same father.
@@ -413,6 +445,32 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   return nodes;
 }
 
+// Find all nodes with a particular photo credit.
+// TODO: populate MAX from the database somehow
+Pandas.searchPhotoCredit = function(author) {
+  var photo_fields = Pandas.photoGeneratorMax;
+  var nodes = [];
+  // Gets zoo photos
+  var query = {};
+  query["photo.author"] = author;
+  var search = G.v(query).run();
+  if (search != []) {
+    nodes = nodes.concat(search);
+  }
+  // Gets panda photos
+  for (let field_name of photo_fields(10)) {
+    var query = {};
+    query[field_name + ".author"] = author;
+    var search = G.v(query).run();
+    if (search != []) {
+      nodes = nodes.concat(search);
+    }
+  }
+  // Return any unique nodes that matched one of these searches
+  return nodes.filter(function(value, index, self) { 
+    return self.indexOf(value) === index;
+  });
+}
 
 // Find a panda's siblings, defined as the intersection of children 
 // by the same mother and father panda, but excluding the initial panda
@@ -594,7 +652,8 @@ Pandas.othernames = function(animal, language) {
 }
 
 // Given an animal, choose a single photo to display as its profile photo.
-// The index can be a number between 1 and 5, or it can be "random".
+// The index can be a number between 1 and 10, or it can be "random".
+// TODO: support more than the max of 10
 Pandas.profilePhoto = function(animal, index) {
   // Find the available photo indexes between one and ten
   var photos = {

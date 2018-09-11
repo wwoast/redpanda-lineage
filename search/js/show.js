@@ -273,12 +273,39 @@ function outputLinks() {
 
 // This is the main panda search results function. When the URL #hash changes, process
 // it as a change in the search text and present new content in the #contentFrame.
+// Based on Query.env.output, there are a handful of different output modes
 function outputResults() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
+  var content_divs = [];
+  switch(Query.env.output) {
+    case "entities":
+      content_divs = outputSearchResultEntities(results);
+      break;
+    case "photos":
+      content_divs = outputSearchResultPhotos(results);
+      break;
+  }
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  content_divs.forEach(function(content_div) {
+    shrinker.appendChild(content_div);
+  });
+  new_content.appendChild(shrinker);
+
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  swapContents(old_content, new_content);
+  redrawFooter();
+}
+
+// Given a search for pandas and zoos, output entity divs
+function outputSearchResultEntities(results) {
   var content_divs = [];
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -296,19 +323,26 @@ function outputResults() {
     // No results? On desktop, bring up a sad panda
     content_divs.push(Show.displayEmptyResult(L.display));
   }
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  content_divs.forEach(function(content_div) {
-    shrinker.appendChild(content_div);
-  });
-  new_content.appendChild(shrinker);
+  return content_divs;
+}
 
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  swapContents(old_content, new_content);
-  redrawFooter();
+function outputSearchResultPhotos(results) {
+  var content_divs = [];
+  results.forEach(function(entity) {
+    if (entity["_id"] < 0) {
+      // Zoos have a single photo to get
+      content_divs.push(Show.zooPhotoCredits(entity, L.display));
+    } else {
+      // Pandas have multiple photos, and you'll need to filter on the credited photo
+      content_divs = content_divs.concat(Show.pandaPhotoCredits(entity, Query.env.credit, L.display));
+    }
+  });
+  // Write some HTML with summary information for the user and the number of photos
+  var header = Show.credit(Query.env.credit, content_divs.length, L.display);
+  content_divs.unshift(header);
+  // HACK: revert to results mode
+  Query.env.output = "entities";
+  return content_divs;
 }
 
 // Redraw page after an updateLanguage event or similar
@@ -373,7 +407,7 @@ Show.init = function() {
   return show;
 }
 
-Show.page = outputResults;     // Default mode is to show panda results
+Show.page = outputResults;   // Default mode is to show panda results
 Show.lastSearch = '#home';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
@@ -430,6 +464,17 @@ Show.gui = {
     "cn": "關於",
     "en": "About",
     "jp": "概要"
+  },
+  "credit": {
+    "cn": "TOWRITE",
+    "en": ["<INSERTUSER>",
+           " has contributed ",
+           "<INSERTNUMBER>",
+           " photos."],
+    "jp": ["<INSERTUSER>",
+           "は",
+           "<INSERTNUMBER>",
+           "枚の写真を寄稿しました。"]
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
@@ -514,17 +559,17 @@ Show.no_result = {
 // Hashlink routes that map to non-search-results content
 Show.routes = {
   "dynamic": [
+    "#credit",
     "#panda",
-    "#zoo",
-    "#query"
+    "#query",
+    "#zoo"
   ],
   "fixed": [
-    "#home",    // The empty query page
-    "#about",   // The about page
-    "#links"    // The links page
+    "#about",    // The about page
+    "#home",     // The empty query page
+    "#links"     // The links page
   ]
 }
-
 
 /*
     Presentation-level data, separated out from final website layout
@@ -729,6 +774,36 @@ Show.zooLink = function(zoo, link_text, language, options) {
 /*
     Displayed output in the webpage
 */
+// Draw a header for crediting someone's photos contribution 
+// with the correct language
+Show.credit = function(credit, count, language) {
+  var p = document.createElement('p');
+  for (var i in Show.gui.credit[language]) {
+    var field = Show.gui.credit[language][i];
+    if (field == "<INSERTUSER>") {
+      field = credit;
+      var msg = document.createElement('i');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = count;
+      var msg = document.createElement('b');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var footer = document.createElement('div');
+  footer.className = "creditSummary";
+  footer.appendChild(shrinker);
+  return footer;
+}
+
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
 Show.displayEmptyResult = function(language) {
@@ -1113,16 +1188,32 @@ Show.pandaInformation = function(animal, language, slip_in) {
   return result; 
 }
 
-// Format the results for a single search as divs.
-// The "slip_in" value is a contextual reference to the initial search,
-// something like "Melody's brother" or "Harumaki's mom".
-Show.pandaResults = function(animals, slip_in) {
-  // No results? Display a specially-formatted empty card
-  if (!('_id' in panda)) {
-    return Show.nullPandaInformation();
+// Take an animal, and return a list of divs for all the photos of that animal
+// that match the username that was searched. Used for making reports of all
+// the photos in the website contributed by a single author.
+Show.pandaPhotoCredits = function(animal, credit, language) {
+  var content_divs = [];
+  var photos = [];
+  var info = Show.acquirePandaInfo(animal, language);
+  var photo_indexes = Pandas.photoGeneratorEntity;
+  for (let field_name of photo_indexes(animal)) {
+    if (animal[field_name + ".author"] == credit) {
+      photos.push(animal[field_name]);
+    }
   }
-
-  // TODO: Get and display all info for this panda
+  for (let photo of photos) {
+    var img = document.createElement('img');
+    img.src = photo.replace('/?size=m', '/?size=t');
+    var caption = document.createElement('h5');
+    caption.className = "caption";
+    caption.innerText = info.name;
+    var container = document.createElement('div');
+    container.className = "photoSample";
+    container.appendChild(img);
+    container.appendChild(caption);
+    content_divs.push(container);
+  }
+  return content_divs;
 }
 
 // Display information for a zoo relevant to the red pandas
@@ -1140,4 +1231,21 @@ Show.zooInformation = function(zoo, language) {
   result.appendChild(photo);
   result.appendChild(dossier);
   return result;
+}
+
+// Take a zoo, and return the photo. Assumes that you have a match
+// that match the username that was searched. Used for making reports of all
+// the photos in the website contributed by a single author.
+Show.zooPhotoCredits = function(zoo, language) {
+  var info = Show.acquireZooInfo(zoo, language);
+  var img = document.createElement('img');
+  img.src = zoo.photo;
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  caption.innerText = info.name;
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img);
+  container.appendChild(caption);
+  return container;
 }

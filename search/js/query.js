@@ -12,6 +12,13 @@ Query.init = function() {
   return query;
 }
 
+Query.env = {};
+Query.env.preserve_case = false;
+// When displaying results, normally we just display zoos and pandas ("entities").
+// However, other output modes are supported based on the supplied types.
+// The "credit" search results in a spread of photos credited to a particular user.
+Query.env.output = "entities";
+
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
@@ -21,7 +28,8 @@ Query.init = function() {
 Query.ops = {
   "type": {
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "zoo": ['Zoo', 'zoo', '動物園']
+    "zoo": ['Zoo', 'zoo', '動物園'],
+    "credit": ['Credit', 'credit', 'Author', 'author', '著者']
   },
   "subtype": {
     "alive": ['alive', 'living'],
@@ -138,13 +146,15 @@ Query.rules = {
 
 /*
     Actions are callbacks from the lexer matching. If an expression matches one of the
-    expressions in the rules list, one of these callbacks is run. The env is passed in
-    when running the lexer.parse function.
+    expressions in the rules list, a sequence of these callbacks is run. The first regex that
+    matches will process that data, and the returned data will pass up to the next callback.
+    So whatever is processed by the "type" action will then be seen in the "typeExpresssion"
+    action. The callbacks chain together! It's pretty cool.
 
     The format of capture is as follows:
      - non named capture (:subject) => capture is a scalar
      - named capture (:number>id) => capture is an array, with a[1] being the value
-     - multiple captures, apparently looks like capture.(named)/capture.(named)
+     - multiple captures, looks like capture.(named)/capture.(named)
 
      Do all query processing in these action functions, with the output landing in the
      Query.results[] array.
@@ -154,10 +164,26 @@ Query.rules = {
      for full expression matches.
 */
 Query.actions = {
+  "type": function(env, capture) {
+    var type = capture;
+    if (Query.ops.type.credit.includes(type)) {
+      Query.env.preserve_case = true;   // Don't adjust case for author searches
+      Query.env.output = "photos";      // Switch to "photo credit" output mode
+    } else {
+      Query.env.preserve_case = false;  // Re-capitalize to match names in the database
+      Query.env.output = "entities";    // Show basic zoo and panda search results
+    }
+    return type;
+  },
   // Parse IDs if they are valid numbers, and names as if they have proper search 
   // capitalization. Parsing here percolates down itno other expressions :)
   "subject": function(env, captures) {
     [match_type, value] = captures;
+    if (Query.env.output == "photos") {
+      // Search results must be post-processed for photo credit mode.
+      // Take the name we'll be filtering photos on.
+      Query.env.credit = value;
+    }
     switch (match_type) {
       case "id":
         return Query.resolver.is_id(value) ? value : 0;
@@ -191,7 +217,7 @@ Query.resolver = {
   // make the search work as you'd expect (capitalization, etc)
   // Can't base this on the current page language, since we need
   // to match latin partials against capitalized dataset names!
-  "name": function(input, language) {
+  "name": function(input) {
     var output = [];
     var words = input.split(' ');
     // Determine what the character set is for each word.
@@ -201,7 +227,7 @@ Query.resolver = {
       var latin = ranges.some(function(range) {
         return range.test(word);
       });
-      if (latin == true) {
+      if ((latin == true) && (Query.env.preserve_case == false)) {
         word = word.replace(/^\w/, function(chr) {
           return chr.toUpperCase();
         });
@@ -221,7 +247,7 @@ Query.resolver = {
   // into a list of nodes in the Pandas/Zoos graph
   "subject": function(subject, type, language) {
     // Explicitly search for a panda by id
-    if ((Query.resolver.is_id(subject)) &&
+    if ((Query.resolver.is_id(subject) == true) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
       return Pandas.searchPandaId(subject);
     }
@@ -230,8 +256,12 @@ Query.resolver = {
         (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
     }
+    // If a credit operator is there, search for photo credits
+    if (Query.ops.type.credit.indexOf(type) != -1) {
+      return Pandas.searchPhotoCredit(subject);
+    }
     // Raw ids are assumed to be panda ids
-    if ((Query.resolver.is_id(subject)) &&
+    if ((Query.resolver.is_id(subject) == true) &&
         (type == undefined)) {
       return Pandas.searchPandaId(subject);    
     }
