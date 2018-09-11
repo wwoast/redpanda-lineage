@@ -2,7 +2,7 @@
 _id: 81
 birthday: 2000/7/4
 birthplace: 10
-children: 21, 104, 82, 86, 87, 186, 88
+children: 21, 31, 82, 104, 86, 87, 186, 88
 en.name: Kiki
 en.nicknames: none
 en.othernames: none
@@ -17,4 +17,5 @@ photo.1.link: https://www.instagram.com/kipekaila/
 photo.2: https://www.instagram.com/p/BkQ4kbbFNUV/media/?size=m
 photo.2.author: kipekaila
 photo.2.link: https://www.instagram.com/kipekaila/
+species: 2
 zoo: 10

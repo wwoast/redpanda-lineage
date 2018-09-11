@@ -2,7 +2,7 @@
 _id: 30 
 birthday: 2004/6/29
 birthplace: 14
-children: unknown
+children: 239
 en.name: Toro
 en.nicknames: none 
 en.othernames: none
@@ -27,4 +27,5 @@ photo.4.link: https://www.instagram.com/miis_98/
 photo.5: https://www.instagram.com/p/Bjb_P-BldNl/media/?size=m
 photo.5.author: miis_98
 photo.5.link: https://www.instagram.com/miis_98/
+species: 2
 zoo: 14
