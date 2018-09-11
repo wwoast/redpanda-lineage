@@ -273,6 +273,7 @@ function outputLinks() {
 
 // This is the main panda search results function. When the URL #hash changes, process
 // it as a change in the search text and present new content in the #contentFrame.
+// Based on Query.env.output, there are a handful of different output modes
 function outputResults() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
@@ -280,23 +281,13 @@ function outputResults() {
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
-  results.forEach(function(entity) {
-    if (entity["_id"] < 0) {
-      // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.zooInformation(entity, L.display));
-      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
-      animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
-      });
-    } else if (Query.env.output == "photos") {
-      var stuff = "TODO";
-    } else {
-      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
-    }
-  });
-  if (results.length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.displayEmptyResult(L.display));
+  switch(Query.env.output) {
+    case "entities":
+      content_divs = outputSearchResultEntities(results);
+      break;
+    case "photos":
+      content_divs = outputSearchResultPhotos(results);
+      break;
   }
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
@@ -311,6 +302,44 @@ function outputResults() {
   var old_content = document.getElementById('contentFrame');
   swapContents(old_content, new_content);
   redrawFooter();
+}
+
+// Given a search for pandas and zoos, output entity divs
+function outputSearchResultEntities(results) {
+  var content_divs = [];
+  results.forEach(function(entity) {
+    if (entity["_id"] < 0) {
+      // Zoos get the Zoo div and pandas for this zoo
+      content_divs.push(Show.zooInformation(entity, L.display));
+      animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
+      animals.forEach(function(animal) {
+        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
+      });
+    } else {
+      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
+    }
+  });
+  if (results.length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.displayEmptyResult(L.display));
+  }
+  return content_divs;
+}
+
+function outputSearchResultPhotos(results) {
+  var content_divs = [];
+  results.forEach(function(entity) {
+    if (entity["_id"] < 0) {
+      // Zoos have a single photo to get
+      content_divs.push(Show.zooPhotoCredits(entity, L.display));
+    } else {
+      // Pandas have multiple photos, and you'll need to filter on the credited photo
+      content_divs = content_divs.concat(Show.pandaPhotoCredits(entity, Query.env.credit, L.display));
+    }
+  });
+  // Write some HTML with summary information for the user and the number of photos
+  // and thank the person for contributing content to this database
+  return content_divs;
 }
 
 // Redraw page after an updateLanguage event or similar
@@ -516,17 +545,17 @@ Show.no_result = {
 // Hashlink routes that map to non-search-results content
 Show.routes = {
   "dynamic": [
+    "#credit",
     "#panda",
-    "#zoo",
-    "#query"
+    "#query",
+    "#zoo"
   ],
   "fixed": [
-    "#home",    // The empty query page
-    "#about",   // The about page
-    "#links"    // The links page
+    "#about",    // The about page
+    "#home",     // The empty query page
+    "#links"     // The links page
   ]
 }
-
 
 /*
     Presentation-level data, separated out from final website layout
@@ -1115,22 +1144,32 @@ Show.pandaInformation = function(animal, language, slip_in) {
   return result; 
 }
 
-Show.photoCredits = function(author) {
-  // Take a credited author, and return a list of every single photo in
-  // the dataset attributed to them.
-  var stuff = "TODO";
-}
-
-// Format the results for a single search as divs.
-// The "slip_in" value is a contextual reference to the initial search,
-// something like "Melody's brother" or "Harumaki's mom".
-Show.pandaResults = function(animals, slip_in) {
-  // No results? Display a specially-formatted empty card
-  if (!('_id' in panda)) {
-    return Show.nullPandaInformation();
+// Take an animal, and return a list of divs for all the photos of that animal
+// that match the username that was searched. Used for making reports of all
+// the photos in the website contributed by a single author.
+Show.pandaPhotoCredits = function(animal, credit, language) {
+  var content_divs = [];
+  var photos = [];
+  var info = Show.acquirePandaInfo(animal, language);
+  var photo_indexes = Pandas.photoGeneratorEntity;
+  for (let field_name of photo_indexes(animal)) {
+    if (animal[field_name + ".author"] == credit) {
+      photos.push(animal[field_name]);
+    }
   }
-
-  // TODO: Get and display all info for this panda
+  for (let photo of photos) {
+    var img = document.createElement('img');
+    img.src = photo;
+    var caption = document.createElement('h5');
+    caption.className = "caption";
+    caption.innerText = info.name;
+    var container = document.createElement('div');
+    container.className = "photoSample";
+    container.appendChild(img);
+    container.appendChild(caption);
+    content_divs.push(container);
+  }
+  return content_divs;
 }
 
 // Display information for a zoo relevant to the red pandas
@@ -1148,4 +1187,21 @@ Show.zooInformation = function(zoo, language) {
   result.appendChild(photo);
   result.appendChild(dossier);
   return result;
+}
+
+// Take a zoo, and return the photo. Assumes that you have a match
+// that match the username that was searched. Used for making reports of all
+// the photos in the website contributed by a single author.
+Show.zooPhotoCredits = function(zoo, language) {
+  var info = Show.acquireZooInfo(zoo, language);
+  var img = document.createElement('img');
+  img.src = zoo.photo;
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  caption.innerText = info.name;
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img);
+  container.appendChild(caption);
+  return container;
 }

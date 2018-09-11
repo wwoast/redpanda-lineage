@@ -146,13 +146,15 @@ Query.rules = {
 
 /*
     Actions are callbacks from the lexer matching. If an expression matches one of the
-    expressions in the rules list, one of these callbacks is run. The env is passed in
-    when running the lexer.parse function.
+    expressions in the rules list, a sequence of these callbacks is run. The first regex that
+    matches will process that data, and the returned data will pass up to the next callback.
+    So whatever is processed by the "type" action will then be seen in the "typeExpresssion"
+    action. The callbacks chain together! It's pretty cool.
 
     The format of capture is as follows:
      - non named capture (:subject) => capture is a scalar
      - named capture (:number>id) => capture is an array, with a[1] being the value
-     - multiple captures, apparently looks like capture.(named)/capture.(named)
+     - multiple captures, looks like capture.(named)/capture.(named)
 
      Do all query processing in these action functions, with the output landing in the
      Query.results[] array.
@@ -162,18 +164,26 @@ Query.rules = {
      for full expression matches.
 */
 Query.actions = {
-  // Parse IDs if they are valid numbers, and names as if they have proper search 
-  // capitalization. Parsing here percolates down itno other expressions :)
   "type": function(env, capture) {
     var type = capture;
     if (Query.ops.type.credit.includes(type)) {
       Query.env.preserve_case = true;   // Don't adjust case for author searches
       Query.env.output = "photos";      // Switch to "photo credit" output mode
+    } else {
+      Query.env.preserve_case = false;  // Re-capitalize to match names in the database
+      Query.env.output = "entities";    // Show basic zoo and panda search results
     }
     return type;
   },
+  // Parse IDs if they are valid numbers, and names as if they have proper search 
+  // capitalization. Parsing here percolates down itno other expressions :)
   "subject": function(env, captures) {
     [match_type, value] = captures;
+    if (Query.env.output == "photos") {
+      // Search results must be post-processed for photo credit mode.
+      // Take the name we'll be filtering photos on.
+      Query.env.credit = value;
+    }
     switch (match_type) {
       case "id":
         return Query.resolver.is_id(value) ? value : 0;
