@@ -531,6 +531,11 @@ div.photoSample {
     width: 160px;
 }
 
+div.photoSample > img {
+    width: 100%;
+}
+
+
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn
    the two-column results layout into a single-column layout. */

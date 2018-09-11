@@ -1159,7 +1159,6 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   }
   for (let photo of photos) {
     var img = document.createElement('img');
-    img.src = photo;
     var caption = document.createElement('h5');
     caption.className = "caption";
     caption.innerText = info.name;

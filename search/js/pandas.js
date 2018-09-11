@@ -466,8 +466,10 @@ Pandas.searchPhotoCredit = function(author) {
       nodes = nodes.concat(search);
     }
   }
-  // Return all of the above
-  return nodes;
+  // Return any unique nodes that matched one of these searches
+  return nodes.filter(function(value, index, self) { 
+    return self.indexOf(value) === index;
+  });
 }
 
 // Find a panda's siblings, defined as the intersection of children 
