@@ -118,7 +118,7 @@ Query.rules = {
   // Primitive components
   "id": /\d{1,5}/,
   "space": /\s+/,
-  "string": /[^0-9\s]+(\s+[^0-9\s]+)?/,
+  "name": /[^\s]+(\s+[^\s]+)?/,
   "separator": /\S{1}/,
   "divider": [
     ':space?', ':separator?', ':space?'
@@ -128,7 +128,7 @@ Query.rules = {
   // Subjects, either an id number or a panda / zoo name
   "subject": or(
     ':id>id',
-    ':string>string'
+    ':name>name',
   ),
   // Expression types
   "subjectExpression": [
@@ -183,11 +183,12 @@ Query.actions = {
       // Search results must be post-processed for photo credit mode.
       // Take the name we'll be filtering photos on.
       Query.env.credit = value;
+      return value;   // Return the string value unmodified for searching
     }
     switch (match_type) {
       case "id":
         return Query.resolver.is_id(value) ? value : 0;
-      case "string":
+      case "name":
         return Query.resolver.name(value, L.display);
     }
   },
