@@ -281,16 +281,17 @@ function outputResults() {
   var results = Query.hashlink(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
   switch(Query.env.output) {
     case "entities":
       content_divs = outputSearchResultEntities(results);
       break;
     case "photos":
       content_divs = outputSearchResultPhotos(results);
+      new_content.style.textAlign = "center";   // Align photos centered in each row
       break;
   }
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   content_divs.forEach(function(content_div) {
