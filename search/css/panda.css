@@ -713,5 +713,12 @@ div.photoSample h5 {
 
     ul.linkList.multiColumn {
         column-count: 1;
+    }
+
+    div.photoSample {
+        display: inline-block;
+        width: 140px;
+        margin-bottom: 10px;
+        padding: 5px;
     }    
 }
