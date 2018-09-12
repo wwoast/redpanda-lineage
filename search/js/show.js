@@ -343,6 +343,7 @@ function outputSearchResultPhotos(results) {
   content_divs.unshift(header);
   // HACK: revert to results mode
   Query.env.output = "entities";
+  Query.env.preserve_case = false;
   return content_divs;
 }
 
