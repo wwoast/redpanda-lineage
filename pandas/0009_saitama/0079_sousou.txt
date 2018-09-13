@@ -5,7 +5,7 @@ birthplace: 13
 children: 80, 242
 en.name: Sou-Sou
 en.nicknames: none 
-en.othernames: Soo-Soo
+en.othernames: Soo-Soo, sousou, soosoo
 gender: m
 jp.name: ソウソウ
 jp.nicknames: none
@@ -21,14 +21,11 @@ photo.2.link: https://www.instagram.com/fetorus_mami/
 photo.3: https://www.instagram.com/p/Bll9lv6FW9L/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.4: https://www.instagram.com/p/Bk_XnFElp5Q/media/?size=m
+photo.4: https://www.instagram.com/p/Bk7aj3qF1Ue/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
-photo.5: https://www.instagram.com/p/Bk7aj3qF1Ue/media/?size=m
-photo.5.author: fetorus_mami
-photo.5.link: https://www.instagram.com/fetorus_mami/
-photo.6: https://www.instagram.com/p/9zZQPVEX5g/media/?size=m
-photo.6.author: sw.950502 
-photo.6.link: https://www.instagram.com/sw.950502/
+photo.5: https://www.instagram.com/p/9zZQPVEX5g/media/?size=m
+photo.5.author: sw.950502 
+photo.5.link: https://www.instagram.com/sw.950502/
 species: 2
 zoo: 9

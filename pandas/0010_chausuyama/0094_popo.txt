@@ -6,7 +6,7 @@ children: unknown
 en.name: Popo
 en.nicknames: none
 en.othernames: none
-gender: m
+gender: f
 jp.name: ポポ
 jp.nicknames: none
 jp.othernames: none
@@ -33,5 +33,11 @@ photo.6.link: https://www.instagram.com/craig_craig_craig/
 photo.7: https://www.instagram.com/p/BngForkF2jJ/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.8: https://www.instagram.com/p/BnldFQSFipj/media/?size=m
+photo.8.author: craig_craig_craig
+photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.9: https://www.instagram.com/p/BnpK60ql8RV/media/?size=m
+photo.9.author: craig_craig_craig
+photo.9.link: https://www.instagram.com/craig_craig_craig/
 species: 2
 zoo: 10
