@@ -239,7 +239,7 @@ class RedPandaGraph:
         panda_vertex = {}
         infile = configparser.ConfigParser()
         infile.read(path, encoding='utf-8')
-        panda_nane = infile.get("panda", "en.name")   # For error messages
+        panda_name = infile.get("panda", "en.name")   # For error messages
         panda_id = infile.get("panda", "_id")         # or assignments
         for field in infile.items("panda"):
             if (field[0].find("death") != -1 or
@@ -300,7 +300,7 @@ class RedPandaGraph:
                 panda_vertex[field[0]] = field[1]
         self.edges.extend(panda_edges)
         self.vertices.append(panda_vertex)
-        self.panda_files.append(path) 
+        self.panda_files.append(path)
 
     def import_zoo(self, path):
         """Take a single zoo file and convert it into a Python dict.
@@ -331,8 +331,8 @@ class RedPandaGraph:
                      (a['_in'] == outp and a['_out'] == inp)))]
 
     def sum_pandas(self):
-        """Panda count is the vertices list minus the zoo count"""
-        return len(self.vertices) - len(self.zoos)
+        """Panda count is just the count of the number of panda files imported."""
+        return len(self.panda_files)
 
     def verify_zoos(self):
         """All checks to ensure that the zoo dataset is good."""
