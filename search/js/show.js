@@ -569,8 +569,7 @@ Show.routes = {
   "fixed": [
     "#about",    // The about page
     "#home",     // The empty query page
-    "#links",    // The links page
-    "#pageTop"   // Scroll to top link
+    "#links"     // The links page
   ]
 }
 
@@ -1144,8 +1143,14 @@ Show.footer = function(language) {
   var p = document.createElement('p');
   var top_link = document.createElement('a');
   top_link.className = "emojiLink";
-  top_link.href = "#pageTop";
+  top_link.id = "pageTop";
+  top_link.href = "javascript:;";
   top_link.innerText = Show.emoji.top;
+  // anchor tags get used for JS redraws, so don't use an anchor tag for
+  // top-of-page scroll events. This fixes the language button after clicking pageTop.
+  top_link.addEventListener("click", function() {
+    window.scrollTo(0, 0);
+  });
   p.appendChild(top_link);
   for (var i in Show.gui.footer[language]) {
     var field = Show.gui.footer[language][i];
