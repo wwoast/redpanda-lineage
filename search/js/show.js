@@ -569,7 +569,8 @@ Show.routes = {
   "fixed": [
     "#about",    // The about page
     "#home",     // The empty query page
-    "#links"     // The links page
+    "#links",    // The links page
+    "#pageTop"   // Scroll to top link
   ]
 }
 
