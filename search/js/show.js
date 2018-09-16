@@ -1218,15 +1218,20 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   var photo_indexes = Pandas.photoGeneratorEntity;
   for (let field_name of photo_indexes(animal)) {
     if (animal[field_name + ".author"] == credit) {
-      photos.push(animal[field_name]);
+      photos.push({"image": animal[field_name], "index": field_name});
     }
   }
-  for (let photo of photos) {
+  for (let item of photos) {
+    var photo = item.image;
+    var index = item.index.split(".")[1];
     var img = document.createElement('img');
     img.src = photo.replace('/?size=m', '/?size=t');
     var caption = document.createElement('h5');
     caption.className = "caption";
-    caption.innerText = info.name;
+    var link = document.createElement('a');
+    link.href = "#panda/" + animal._id + "/photo/" + index;
+    link.innerText = info.name;
+    caption.appendChild(link);
     var container = document.createElement('div');
     container.className = "photoSample";
     container.appendChild(img);

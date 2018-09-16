@@ -399,8 +399,13 @@ div.pandaLinks ul.panda li:before {
     margin-right: 8px;
 }
 
-h5.caption > a, div.pandaLinks > ul > li > a {
+div.pandaAbout h5.caption > a, div.pandaLinks > ul > li > a {
     color: white;
+    text-decoration: none !important;
+}
+
+div.photoSample h5.caption > a {
+    color: black;
     text-decoration: none !important;
 }
 
