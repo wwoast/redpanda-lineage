@@ -307,6 +307,7 @@ class RedPandaGraph:
                     self.photo["credit"][author] = self.photo["credit"][author] + 1
                 else:
                     self.photo["credit"][author] = 1
+                panda_vertex[field[0]] = field[1]
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
