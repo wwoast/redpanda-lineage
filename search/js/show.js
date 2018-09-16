@@ -429,7 +429,7 @@ Show.emoji = {
     "edit": "📝",
   "father": "👨🏻",
   "female": "♀️",
-    "gift": "💝",
+    "gift": "🍎",
     "girl": "👧🏻",
     "home": "🏡",
 "language": "‍👁️‍🗨️",
@@ -913,12 +913,8 @@ Show.displayPandaDetails = function(info) {
     // See how many other panda photos this user has posted
     var other_photos = document.createElement('p');
     var credit_count_link = document.createElement('a');
-    var credit_photos = [];
-    Pandas.searchPhotoCredit(info.credit).forEach(function(animal) {
-      credit_photos = credit_photos.concat(Show.pandaPhotoCredits(animal, info.photo_credit, L.display));
-    });
     credit_count_link.href = "#credit/" + info.photo_credit;
-    credit_count_link.innerText = Show.emoji.gift + " " + credit_photos.length;
+    credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
     other_photos.appendChild(credit_count_link);
     details.appendChild(other_photos);
   }

@@ -13,4 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 photo.1: http://shinshin.cocolog-nifty.com/redpanda/images/2014/12/20/chata.jpg
+photo.1.author: shin
+photo.1.link: http://shinshin.cocolog-nifty.com/redpanda
+species: 2
 zoo: 13

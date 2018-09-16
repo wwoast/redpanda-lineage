@@ -19,7 +19,7 @@ photo.2: https://www.instagram.com/p/BkgHbtiFuwp/media/?size=m
 photo.2.author: taka__3428
 photo.2.link: https://www.instagram.com/taka__3428/
 photo.3: https://www.instagram.com/p/Bk5CgHJFNnc/media/?size=m
-photo.3.autohr: taka__3428
+photo.3.author: taka__3428
 photo.3.link: https://www.instagram.com/taka__3428/
 photo.4: https://www.instagram.com/p/Bk8ujqpl69_/media/?size=m
 photo.4.author: taka__3428
@@ -27,4 +27,5 @@ photo.4.link: https://www.instagram.com/taka__3428/
 photo.5: https://www.instagram.com/p/BliBgT3lTqE/media/?size=m
 photo.5.author: taka__3428
 photo.5.link: https://www.instagram.com/taka__3428/
+species: 2
 zoo: 24
