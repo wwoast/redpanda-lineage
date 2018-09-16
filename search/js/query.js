@@ -13,6 +13,8 @@ Query.init = function() {
 }
 
 Query.env = {};
+// Credit for photos being shown
+Query.env.credit = undefined;
 Query.env.preserve_case = false;
 // When displaying results, normally we just display zoos and pandas ("entities").
 // However, other output modes are supported based on the supplied types.
@@ -22,6 +24,7 @@ Query.env.output = "entities";
 Query.env.specific = undefined;
 // Reset query environment back to defaults, typically after a search is run
 Query.env.clear = function() {
+  Query.env.credit = undefined;
   Query.env.preserve_case = false;
   Query.env.output = "entities";
   Query.env.specific = undefined;
@@ -311,6 +314,12 @@ Query.hashlink = function(input) {
     // go-link for a single zoo result.
     var zoo = input.slice(5);
     return Query.resolver.subject(zoo, "zoo", L.display);
+  } else if (input.indexOf("#credit/") == 0) {
+    // go-link for a page of photo credits for a specific author
+    Query.env.credit = input.slice(8);
+    Query.env.preserve_case = true;   // Don't adjust case for author searches
+    Query.env.output = "photos";      // Set output mode for a photo list
+    return Query.resolver.subject(Query.env.credit, "credit", L.display);
   } else if (input.indexOf("#timeline/") == 0) {
     // show full info and timeline for a panda. TODO
     var panda = input.slice(10);

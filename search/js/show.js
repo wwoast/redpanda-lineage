@@ -429,6 +429,7 @@ Show.emoji = {
     "edit": "📝",
   "father": "👨🏻",
   "female": "♀️",
+    "gift": "💝",
     "girl": "👧🏻",
     "home": "🏡",
 "language": "‍👁️‍🗨️",
@@ -909,6 +910,17 @@ Show.displayPandaDetails = function(info) {
   details.appendChild(location);
   if (info.photo_credit != undefined) {
     details.appendChild(credit);
+    // See how many other panda photos this user has posted
+    var other_photos = document.createElement('p');
+    var credit_count_link = document.createElement('a');
+    var credit_photos = [];
+    Pandas.searchPhotoCredit(info.credit).forEach(function(animal) {
+      credit_photos = credit_photos.concat(Show.pandaPhotoCredits(animal, info.photo_credit, L.display));
+    });
+    credit_count_link.href = "#credit/" + info.photo_credit;
+    credit_count_link.innerText = Show.emoji.gift + " " + credit_photos.length;
+    other_photos.appendChild(credit_count_link);
+    details.appendChild(other_photos);
   }
   return details;
 }
@@ -1206,15 +1218,20 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   var photo_indexes = Pandas.photoGeneratorEntity;
   for (let field_name of photo_indexes(animal)) {
     if (animal[field_name + ".author"] == credit) {
-      photos.push(animal[field_name]);
+      photos.push({"image": animal[field_name], "index": field_name});
     }
   }
-  for (let photo of photos) {
+  for (let item of photos) {
+    var photo = item.image;
+    var index = item.index.split(".")[1];
     var img = document.createElement('img');
     img.src = photo.replace('/?size=m', '/?size=t');
     var caption = document.createElement('h5');
     caption.className = "caption";
-    caption.innerText = info.name;
+    var link = document.createElement('a');
+    link.href = "#panda/" + animal._id + "/photo/" + index;
+    link.innerText = info.name;
+    caption.appendChild(link);
     var container = document.createElement('div');
     container.className = "photoSample";
     container.appendChild(img);
