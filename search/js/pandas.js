@@ -677,7 +677,7 @@ Pandas.profilePhoto = function(animal, index) {
   }, {});
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
-  var choice = "photos." + index.toString(); 
+  var choice = "photo." + index.toString(); 
   if (photos[choice] == undefined) {
     var space = Object.keys(photos).length;
     var index = Math.floor(Math.random() * space);

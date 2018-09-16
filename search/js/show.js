@@ -342,8 +342,7 @@ function outputSearchResultPhotos(results) {
   var header = Show.credit(Query.env.credit, content_divs.length, L.display);
   content_divs.unshift(header);
   // HACK: revert to results mode
-  Query.env.output = "entities";
-  Query.env.preserve_case = false;
+  Query.env.clear();
   return content_divs;
 }
 
@@ -580,7 +579,8 @@ Show.routes = {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var picture = Pandas.profilePhoto(animal, "random");   // TODO: all photos for carousel
+  var photo_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var picture = Pandas.profilePhoto(animal, photo_index);   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
