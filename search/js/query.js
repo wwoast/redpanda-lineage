@@ -286,10 +286,14 @@ Query.lexer = new reLexer(Query.rules, 'expression', Query.actions);
 */
 // Differentiate between events that change the hashlink on a page.
 Query.hashlink = function(input) {
-  if ((input.indexOf("#panda_") == 0) || (input.indexOf("#zoo_") == 0)) {
-    // in-links don't need a redraw
-    return false;
-  } else if (input.indexOf("#panda/") == 0) {
+  if ((input.indexOf("#panda/") == 0) &&
+      (input.split("/").length == 4)) {
+    // go-link for a panda result with a chosen photo.
+    var uri_items = input.slice(7);
+    var [ panda, _, photo ] = uri_items.split("/");
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 2)) {
     // go-link for a single panda result.
     // for now, just a search result. soon, a detailed result page
     var panda = input.slice(7);
