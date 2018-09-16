@@ -5,7 +5,7 @@ birthplace: 50
 children: none
 en.name: Luca
 en.nicknames: none
-en.othernames: none
+en.othernames: Luka
 gender: f
 jp.name: ルカ
 jp.nicknames: none
@@ -26,4 +26,8 @@ photo.4.link: https://www.instagram.com/makimaru18/
 photo.5: https://www.instagram.com/p/BhJwTJplKNb/media/?size=m
 photo.5.author: nakacchi_desu
 photo.5.link: https://www.instagram.com/nakacchi_desu/
+photo.6: https://www.instagram.com/p/BnuS3LmljXB/media/?size=m
+photo.6.author: framereim
+photo.6.link: https://www.instagram.com/framereim/
+species: 2
 zoo: 50
