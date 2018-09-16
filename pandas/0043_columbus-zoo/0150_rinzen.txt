@@ -12,5 +12,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 photo.1: http://www.zooborns.com/.a/6a010535647bf3970b0153904b19a5970b-popup
+photo.1.author: zooborns
+photo.1.link: http://www.zooborns.com/
 video.1: https://www.youtube.com/watch?v=jQsb-8uMhAE
 zoo: 43
