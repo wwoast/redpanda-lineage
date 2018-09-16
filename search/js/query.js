@@ -18,6 +18,14 @@ Query.env.preserve_case = false;
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
 Query.env.output = "entities";
+// If a URI indicates a specific photo, indicate which one here.
+Query.env.specific = undefined;
+// Reset query environment back to defaults, typically after a search is run
+Query.env.clear = function() {
+  Query.env.preserve_case = false;
+  Query.env.output = "entities";
+  Query.env.specific = undefined;
+}
 
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
@@ -286,10 +294,15 @@ Query.lexer = new reLexer(Query.rules, 'expression', Query.actions);
 */
 // Differentiate between events that change the hashlink on a page.
 Query.hashlink = function(input) {
-  if ((input.indexOf("#panda_") == 0) || (input.indexOf("#zoo_") == 0)) {
-    // in-links don't need a redraw
-    return false;
-  } else if (input.indexOf("#panda/") == 0) {
+  if ((input.indexOf("#panda/") == 0) &&
+      (input.split("/").length == 4)) {
+    // go-link for a panda result with a chosen photo.
+    var uri_items = input.slice(7);
+    var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.specific = photo_id;
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 2)) {
     // go-link for a single panda result.
     // for now, just a search result. soon, a detailed result page
     var panda = input.slice(7);
