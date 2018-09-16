@@ -49,7 +49,8 @@ class RedPandaGraph:
     def __init__(self):
         self.edges = []
         self.panda_files = []
-        self.photo_credits = {}
+        self.photo = {}
+        self.photo["credit"] = {}
         self.vertices = []
         self.zoos = []
         self.zoo_files = []
@@ -196,7 +197,8 @@ class RedPandaGraph:
         export['vertices'] = self.vertices
         export['edges'] = self.edges
         export['_totals'] = {}
-        export['_photo_credits'] = self.photo_credits
+        export['_photo'] = {}
+        export['_photo']['credit'] = self.photo['credit']
         export['_totals']['zoos'] = len(self.zoos)
         export['_totals']['pandas'] = self.sum_pandas()
         with open(destpath, 'wb') as wfh:
@@ -299,11 +301,12 @@ class RedPandaGraph:
                     panda_edges.append(panda_edge)
             elif (field[0].find("photo") != -1 and 
                   len(field[0].split(".")) == 2):
-                credit = infile.get("panda", field[0] + ".author")
-                if credit in self.photo_credits.keys():
-                    self.photo_credits[credit] = self.photo_credits[credit] + 1
+                # Process a small set of photo credits for all the pandas
+                author = infile.get("panda", field[0] + ".author")
+                if author in self.photo["credit"].keys():
+                    self.photo["credit"][author] = self.photo["credit"][author] + 1
                 else:
-                    self.photo_credits[credit] = 1
+                    self.photo["credit"][author] = 1
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
