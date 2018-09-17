@@ -1137,6 +1137,13 @@ Show.displayZooDetails = function(info) {
     photo_link.innerText = Show.emoji.camera + " " + info.photo_credit;
     photo_page.appendChild(photo_link);
     details.appendChild(photo_page);
+    // See how many other panda photos this user has posted
+    var other_photos = document.createElement('p');
+    var credit_count_link = document.createElement('a');
+    credit_count_link.href = "#credit/" + info.photo_credit;
+    credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+    other_photos.appendChild(credit_count_link);
+    details.appendChild(other_photos);
   }
   return details;
 }
