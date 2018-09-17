@@ -1228,16 +1228,16 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
     var img = document.createElement('img');
     img.src = photo.replace('/?size=m', '/?size=t');
     img_link.appendChild(img);
+    var caption_link = document.createElement('a');
+    caption_link.href = "#panda/" + animal._id + "/photo/" + index;
     var caption = document.createElement('h5');
     caption.className = "caption";
-    var link = document.createElement('a');
-    link.href = "#panda/" + animal._id + "/photo/" + index;
-    link.innerText = info.name;
-    caption.appendChild(link);
+    caption.innerText = info.name;
+    caption_link.appendChild(caption);
     var container = document.createElement('div');
     container.className = "photoSample";
     container.appendChild(img_link);
-    container.appendChild(caption);
+    container.appendChild(caption_link);
     content_divs.push(container);
   }
   return content_divs;
@@ -1271,15 +1271,15 @@ Show.zooPhotoCredits = function(zoo, language) {
   var img = document.createElement('img');
   img.src = zoo.photo;
   img_link.appendChild(img);
+  var caption_link = document.createElement('a');
+  caption_link.href = "#zoo/" + zoo._id;
   var caption = document.createElement('h5');
   caption.className = "caption";
-  var link = document.createElement('a');
-  link.href = "#zoo/" + zoo._id;
-  link.innerText = info.name;
-  caption.appendChild(link);
+  caption.innerText = info.name;
+  caption_link.appendChild(caption);
   var container = document.createElement('div');
   container.className = "photoSample";
   container.appendChild(img_link);
-  container.appendChild(caption);
+  container.appendChild(caption_link);
   return container;
 }
