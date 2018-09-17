@@ -299,7 +299,7 @@ class RedPandaGraph:
                     panda_edge['_in'] = sibling_id
                     panda_edge['_label'] = "litter"
                     panda_edges.append(panda_edge)
-            elif (field[0].find("photo") != -1 and 
+            elif (field[0].find("photo") != -1 and
                   len(field[0].split(".")) == 2):
                 # Process a small set of photo credits for all the pandas
                 author = infile.get("panda", field[0] + ".author")
@@ -329,6 +329,12 @@ class RedPandaGraph:
             [ key, value ] = [field[0], field[1]]
             if key == '_id':
                 value = str(int(field[1]) * -1)
+            elif key == 'photo':
+                author = infile.get("zoo", key + ".author")
+                if author in self.photo["credit"].keys():
+                    self.photo["credit"][author] = self.photo["credit"][author] + 1
+                else:
+                    self.photo["credit"][author] = 1
             zoo_entry[key] = value
         self.zoos.append(zoo_entry)
         self.zoo_files.append(path) 
