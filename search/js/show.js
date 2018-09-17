@@ -469,11 +469,13 @@ Show.gui = {
   },
   "credit": {
     "cn": "TOWRITE",
-    "en": ["<INSERTUSER>",
+    "en": [Show.emoji.gift + " ",
+           "<INSERTUSER>",
            " has contributed ",
            "<INSERTNUMBER>",
            " photos."],
-    "jp": ["<INSERTUSER>",
+    "jp": [Show.emoji.gift + " ",
+           "<INSERTUSER>",
            "は",
            "<INSERTNUMBER>",
            "枚の写真を寄稿しました。"]
@@ -1220,8 +1222,12 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   for (let item of photos) {
     var photo = item.image;
     var index = item.index.split(".")[1];
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = photo.replace("/media/?size=m", "");
     var img = document.createElement('img');
     img.src = photo.replace('/?size=m', '/?size=t');
+    img_link.appendChild(img);
     var caption = document.createElement('h5');
     caption.className = "caption";
     var link = document.createElement('a');
@@ -1230,7 +1236,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
     caption.appendChild(link);
     var container = document.createElement('div');
     container.className = "photoSample";
-    container.appendChild(img);
+    container.appendChild(img_link);
     container.appendChild(caption);
     content_divs.push(container);
   }
@@ -1259,8 +1265,12 @@ Show.zooInformation = function(zoo, language) {
 // the photos in the website contributed by a single author.
 Show.zooPhotoCredits = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
+  var img_link = document.createElement('a');
+  // Link to the original instagram media
+  img_link.href = zoo.photo.replace("/media/?size=m", "");
   var img = document.createElement('img');
   img.src = zoo.photo;
+  img_link.appendChild(img);
   var caption = document.createElement('h5');
   caption.className = "caption";
   var link = document.createElement('a');
@@ -1269,7 +1279,7 @@ Show.zooPhotoCredits = function(zoo, language) {
   caption.appendChild(link);
   var container = document.createElement('div');
   container.className = "photoSample";
-  container.appendChild(img);
+  container.appendChild(img_link);
   container.appendChild(caption);
   return container;
 }
