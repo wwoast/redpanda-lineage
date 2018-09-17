@@ -64,6 +64,8 @@ Language.update = function(lang_object) {
   } else {
     document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[lang_object.display];
   }
+  // Change the page title
+  document.title = Show.gui.title[lang_object.display];
   // Write a cookie for your chosen language
   document.cookie = "language=" + lang_object.display;
 }

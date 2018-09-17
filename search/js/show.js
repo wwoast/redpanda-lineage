@@ -546,6 +546,11 @@ Show.gui = {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
     "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "title": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Family",
+    "jp": "レッサーパンダのファミリー"
   }
 }
 
