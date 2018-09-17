@@ -1263,7 +1263,10 @@ Show.zooPhotoCredits = function(zoo, language) {
   img.src = zoo.photo;
   var caption = document.createElement('h5');
   caption.className = "caption";
-  caption.innerText = info.name;
+  var link = document.createElement('a');
+  link.href = "#zoo/" + zoo._id;
+  link.innerText = info.name;
+  caption.appendChild(link);
   var container = document.createElement('div');
   container.className = "photoSample";
   container.appendChild(img);
