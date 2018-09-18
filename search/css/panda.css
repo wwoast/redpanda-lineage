@@ -234,6 +234,10 @@ div.pandaPhoto img, div.zooPhoto img {
     z-index: 1;
 }
 
+div.pandaPhoto.hidden {
+    display: none;
+}
+
 div.pandaPhoto span.navigator {
     display: none;
     position: absolute;

@@ -1098,12 +1098,17 @@ Show.displayPhoto = function(photo, frame_class, fallback) {
 // Create a list of photos that can be operated with a carousel
 Show.displayPhotoList = function(info, frame_class, fallback) {
   var ul = document.createElement('ul');
+  ul.className = "photoList";
   for (let photo of info.photo_list) {
     var li = document.createElement('li');
+    if (photo != info.photo) {
+      frame_class = frame_class + " hidden";
+    }
     var div = Show.displayPhoto(photo, frame_class, fallback);
     li.appendChild(div);
     ul.appendChild(li);
   }
+  return ul;
 }
 
 // The dossier of information for a single zoo.
