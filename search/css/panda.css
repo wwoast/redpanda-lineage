@@ -234,14 +234,14 @@ div.pandaPhoto img, div.zooPhoto img {
     z-index: 1;
 }
 
-div.pandaPhoto span {
+div.pandaPhoto span.navigator {
     display: none;
     position: absolute;
     top: 0;
     left: 0;
     height: 32pt;
     z-index: 2;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.3);
     color: white;
     padding-left: 18px;
     padding-right: 18px;

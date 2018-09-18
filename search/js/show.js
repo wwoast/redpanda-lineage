@@ -1078,7 +1078,7 @@ Show.displayPandaTitle = function(info) {
   return title_div;
 }
 
-// If the media exists for a panda, display it. If it's missing,
+// If the media exists for an entity, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
 Show.displayPhoto = function(info, frame_class, fallback) {
@@ -1089,12 +1089,9 @@ Show.displayPhoto = function(info, frame_class, fallback) {
     image.src = info.photo;
   }
   image.onerror = "this.src='" + fallback + "'";
-  var span = document.createElement('span');
-  span.innerText = "⇐ Ω ⇒";
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
-  div.appendChild(span);
   return div;
 }
 
@@ -1206,7 +1203,10 @@ Show.footer = function(language) {
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
-  var span = photo.getElementsByTagName('span')[0];
+  var span = document.createElement('span');
+  span.className = "navigator";
+  span.innerText = "⇐ Ω ⇒";
+  photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
