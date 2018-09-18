@@ -219,11 +219,32 @@ div.emptyResult div.overlay {
     padding: 0 0 0 0;
 }
 
-div.pandaPhoto, div.zooPhoto {
+div.photoList, div.zooPhoto {
     display: table-cell;
     vertical-align: middle;
     background-color: black;
     position: relative;
+}
+
+ul.photoList {
+    position: relative;
+}
+
+ul.photoList li {
+    position: absolute;
+    list-style: none;
+    top: 0px;
+    left: 0px;
+}
+
+div.pandaPhoto {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+div.pandaPhoto.hidden {
+    display: none;
 }
 
 div.pandaPhoto img, div.zooPhoto img {
@@ -232,10 +253,6 @@ div.pandaPhoto img, div.zooPhoto img {
     max-width: 400px;
     max-height: 400px;
     z-index: 1;
-}
-
-div.pandaPhoto.hidden {
-    display: none;
 }
 
 div.pandaPhoto span.navigator {
@@ -647,7 +664,7 @@ div.photoSample h5 {
         display: none;
     }
 
-    div.pandaPhoto, div.zooPhoto, div.detailsPhoto {
+    div.photoList, div.zooPhoto, div.detailsPhoto {
         display: block;
         text-align: center;
         padding-bottom: 0ex;

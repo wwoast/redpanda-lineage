@@ -607,6 +607,7 @@ Show.acquirePandaInfo = function(animal, language) {
           "photo": picture['photo'],
    "photo_credit": picture['credit'],
      "photo_link": picture['link'],
+     "photo_list": Pandas.photoList(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
@@ -1099,16 +1100,20 @@ Show.displayPhoto = function(photo, frame_class, fallback) {
 Show.displayPhotoList = function(info, frame_class, fallback) {
   var ul = document.createElement('ul');
   ul.className = "photoList";
-  for (let photo of info.photo_list) {
+  for (let photo of Object.values(info.photo_list)) {
     var li = document.createElement('li');
+    var this_frame = frame_class;
     if (photo != info.photo) {
-      frame_class = frame_class + " hidden";
+      this_frame = frame_class + " hidden";
     }
-    var div = Show.displayPhoto(photo, frame_class, fallback);
+    var div = Show.displayPhoto(photo, this_frame, fallback);
     li.appendChild(div);
     ul.appendChild(li);
   }
-  return ul;
+  var container = document.createElement('div');
+  container.className = "photoList";
+  container.appendChild(ul);
+  return container;
 }
 
 // The dossier of information for a single zoo.
@@ -1218,7 +1223,7 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info.photo, 'pandaPhoto', 'images/no-panda.jpg');
+  var photo = Show.displayPhotoList(info, 'pandaPhoto', 'images/no-panda.jpg');
   var span = document.createElement('span');
   span.className = "navigator";
   span.innerText = "⇐ Ω ⇒";

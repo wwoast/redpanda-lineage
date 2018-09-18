@@ -651,22 +651,20 @@ Pandas.othernames = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
-// Given an animal, choose a single photo to display as its profile photo.
-// The index can be a number between 1 and 10, or it can be "random".
 // TODO: support more than the max of 10
-Pandas.profilePhoto = function(animal, index) {
+Pandas.photoList = function(animal) {
   // Find the available photo indexes between one and ten
   var photos = {
-     "photo.1": Pandas.field(animal,  "photo.1"),
-     "photo.2": Pandas.field(animal,  "photo.2"),
-     "photo.3": Pandas.field(animal,  "photo.3"),
-     "photo.4": Pandas.field(animal,  "photo.4"),
-     "photo.5": Pandas.field(animal,  "photo.5"),
-     "photo.6": Pandas.field(animal,  "photo.6"),
-     "photo.7": Pandas.field(animal,  "photo.7"),
-     "photo.8": Pandas.field(animal,  "photo.8"),
-     "photo.9": Pandas.field(animal,  "photo.9"),
-    "photo.10": Pandas.field(animal, "photo.10")
+    "photo.1": Pandas.field(animal,  "photo.1"),
+    "photo.2": Pandas.field(animal,  "photo.2"),
+    "photo.3": Pandas.field(animal,  "photo.3"),
+    "photo.4": Pandas.field(animal,  "photo.4"),
+    "photo.5": Pandas.field(animal,  "photo.5"),
+    "photo.6": Pandas.field(animal,  "photo.6"),
+    "photo.7": Pandas.field(animal,  "photo.7"),
+    "photo.8": Pandas.field(animal,  "photo.8"),
+    "photo.9": Pandas.field(animal,  "photo.9"),
+   "photo.10": Pandas.field(animal, "photo.10")
   }
   // Filter out any keys that have the default value
   photos = Object.keys(photos).reduce(function(filtered, key) {
@@ -675,6 +673,15 @@ Pandas.profilePhoto = function(animal, index) {
     }
     return filtered;
   }, {});
+  return photos;
+}
+
+// Given an animal, choose a single photo to display as its profile photo.
+// The index can be a number between 1 and 10, or it can be "random".
+// TODO: support more than the max of 10
+Pandas.profilePhoto = function(animal, index) {
+  // Find the available photo indexes between one and ten
+  var photos = Pandas.photoList(animal);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
   var choice = "photo." + index.toString(); 
