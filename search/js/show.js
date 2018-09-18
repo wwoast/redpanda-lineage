@@ -1089,9 +1089,12 @@ Show.displayPhoto = function(info, frame_class, fallback) {
     image.src = info.photo;
   }
   image.onerror = "this.src='" + fallback + "'";
+  var span = document.createElement('span');
+  span.innerText = "⇐ Ω ⇒";
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
+  div.appendChild(span);
   return div;
 }
 
@@ -1203,6 +1206,13 @@ Show.footer = function(language) {
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var span = photo.getElementsByTagName('span')[0];
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);

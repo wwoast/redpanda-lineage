@@ -223,6 +223,7 @@ div.pandaPhoto, div.zooPhoto {
     display: table-cell;
     vertical-align: middle;
     background-color: black;
+    position: relative;
 }
 
 div.pandaPhoto img, div.zooPhoto img {
@@ -230,6 +231,23 @@ div.pandaPhoto img, div.zooPhoto img {
     height: auto;
     max-width: 400px;
     max-height: 400px;
+    z-index: 1;
+}
+
+div.pandaPhoto span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 32pt;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 22pt;
+    border-bottom-right-radius: 1ex;
+    text-align: center;
 }
 
 div.pandaDossier, div.zooDossier {
