@@ -1081,18 +1081,29 @@ Show.displayPandaTitle = function(info) {
 // If the media exists for an entity, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
-Show.displayPhoto = function(info, frame_class, fallback) {
+Show.displayPhoto = function(photo, frame_class, fallback) {
   var image = document.createElement('img');
-  if (info.photo == undefined) {
+  if (photo == undefined) {
     image.src = fallback;
   } else {
-    image.src = info.photo;
+    image.src = photo;
   }
   image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
   return div;
+}
+
+// Create a list of photos that can be operated with a carousel
+Show.displayPhotoList = function(info, frame_class, fallback) {
+  var ul = document.createElement('ul');
+  for (let photo of info.photo_list) {
+    var li = document.createElement('li');
+    var div = Show.displayPhoto(photo, frame_class, fallback);
+    li.appendChild(div);
+    ul.appendChild(li);
+  }
 }
 
 // The dossier of information for a single zoo.
@@ -1202,7 +1213,7 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var photo = Show.displayPhoto(info.photo, 'pandaPhoto', 'images/no-panda.jpg');
   var span = document.createElement('span');
   span.className = "navigator";
   span.innerText = "⇐ Ω ⇒";
@@ -1268,7 +1279,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
-  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = Show.displayPhoto(info.photo, 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
