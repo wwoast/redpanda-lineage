@@ -1091,7 +1091,7 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
   } else {
     image.src = photo;
     image.id = entity_id + "/photo/" + photo_id;   // For carousel
-    image.className = entity_id;
+    image.className = entity_id + "/photo";
   }
   image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
@@ -1101,13 +1101,25 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 }
 
 // The hover over or swipe menu for photo navigation
-Show.displayPhotoNavigation = function(photo_id) {
+Show.displayPhotoNavigation = function(animal_id, photo_id) {
   var link = document.createElement('a');
   link.className = "navigatorLink";
   var span = document.createElement('span');
   span.className = "navigator";
   span.innerText = photo_id;
   link.href = "javascript:;";
+  link.addEventListener('click', function() {
+    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+    var current_photo_id = current_photo.id.split("/")[2];
+    Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);   // Left click event
+  });
+  link.addEventListener('contextmenu', function(e) {
+    e.preventDefault();   // Prevent normal context menu from firing
+    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+    var current_photo_id = current_photo.id.split("/")[2];
+    Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
+  });
+
   link.appendChild(span);
   return link;
 }
@@ -1220,7 +1232,7 @@ Show.footer = function(language) {
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
-  var span = Show.displayPhotoNavigation(info.photo_index);
+  var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
@@ -1283,19 +1295,29 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
 // Switch the currently displayed photo to the next one in the list
 // TODO: move out of show?
 Show.photoSwap = function(photo, desired_index) {
-  var [animal_id, _, photo_id] = photo.id.split("/");
-  var max_index = Object.values(info.photo_manifest).length;
+  var span_link = photo.parentNode.childNodes[1];
+  var [animal_id, _, _] = photo.id.split("/");
+  var animal = Pandas.searchPandaId(animal_id)[0];
+  var photo_manifest = Pandas.photoManifest(animal);
+  var max_index = Object.values(photo_manifest).length;
   var new_index = "photo.1";   // Fallback value
-  if (desired_index >= 1 && new_index < max_index) {
+  if (desired_index < 1) {
+    new_index = "photo." + max_index.toString();
+  } else if (desired_index > max_index) {
+    new_index = "photo.1";
+  } else {
     var new_index = "photo." + desired_index.toString();
   }
-  var animal = Pandas.searchPandaId(animal_id);
-  var photo_manifest = Pandas.photoManifest(animal);
-  var new_photo
-
-  // TODO: actually swap the shown photo
-  // TODO: where does this animal's selector or info come from?
-  // Add panda id to the divs itself!
+  var new_choice = photo_manifest[new_index];
+  var new_container = Show.displayPhoto(new_choice, animal_id, desired_index.toString(), 
+                                        "pandaPhoto", "images/no-panda.jpg");
+  var new_photo = new_container.childNodes[0];
+  // Replace the span navigation id
+  span_link.childNodes[0].innerText = desired_index.toString();
+  // Actually replace the photo. Do this last
+  photo.parentNode.replaceChild(new_photo, photo);
+  // Other things to swap:
+  // Replace the animal credit and apple rating (need ids)
 }
 
 // Display information for a zoo relevant to the red pandas
