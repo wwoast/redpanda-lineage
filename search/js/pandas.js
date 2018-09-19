@@ -690,10 +690,11 @@ Pandas.profilePhoto = function(animal, index) {
     choice = Object.keys(photos)[index];
   }
   // If there were still no valid photos, because the panda has no photos
-  // listed, return the default for one.
-  if (photos == {}) {
-    choice = 1;
-    photos[choice] = Pandas.field(animal, "photo.1");
+  // listed, return the default for one. Cannot check if == {} because
+  // Javascript is ridiculous
+  if (Object.keys(photos).length === 0) {
+    choice = "photo.1";
+    photos[choice] = Pandas.field(animal, choice);
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {

@@ -1324,7 +1324,7 @@ Show.photoSwap = function(photo, desired_index) {
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
-  var photo = Show.displayPhoto(info, zoo._id, 1, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = Show.displayPhoto(info.photo, zoo._id, "1", 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
