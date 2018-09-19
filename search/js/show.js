@@ -587,8 +587,8 @@ Show.routes = {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var photo_index = Query.env.specific == undefined ? "random" : Query.env.specific;
-  var picture = Pandas.profilePhoto(animal, photo_index);   // TODO: all photos for carousel
+  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var picture = Pandas.profilePhoto(animal, chosen_index);   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
@@ -1101,6 +1101,14 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
   return div;
 }
 
+// The hover over or swipe menu for photo navigation
+Show.displayPhotoNavigation = function() {
+  var span = document.createElement('span');
+  span.className = "navigator";
+  span.innerText = "⇐ Ω ⇒";
+  return span;
+}
+
 // The dossier of information for a single zoo.
 // This is the purple main information stripe for a zoo.
 Show.displayZooDetails = function(info) {
@@ -1209,9 +1217,7 @@ Show.footer = function(language) {
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
-  var span = document.createElement('span');
-  span.className = "navigator";
-  span.innerText = "⇐ Ω ⇒";
+  var span = Show.displayPhotoNavigation(info.id, info.photo_index, Object);
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
