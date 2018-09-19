@@ -235,19 +235,41 @@ div.pandaPhoto img, div.zooPhoto img {
 }
 
 div.pandaPhoto span.navigator {
-    display: none;
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
     height: 32pt;
     z-index: 2;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.8);
     color: white;
-    padding-left: 18px;
-    padding-right: 18px;
     font-size: 22pt;
     border-bottom-right-radius: 1ex;
     text-align: center;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+span.navigator div.menu {
+    display: table;
+    table-layout: fixed;   /* Specify cell widths */
+    width: 100px;
+}
+
+span.navigator div.menu div.left,
+span.navigator div.menu div.center,
+span.navigator div.menu div.right {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+span.navigator div.menu div.left,
+span.navigator div.menu div.right {
+    max-width: 20px;
+}
+
+span.navigator div.menu div.center {
+    max-width: 60px;
 }
 
 div.pandaDossier, div.zooDossier {

@@ -1086,7 +1086,6 @@ Show.displayPandaTitle = function(info) {
 // of space on the page.
 Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) {
   var image = document.createElement('img');
-  photo_id = photo_id.replace("photo.", "");
   if (photo == undefined) {
     image.src = fallback;
   } else {
@@ -1102,10 +1101,24 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 }
 
 // The hover over or swipe menu for photo navigation
-Show.displayPhotoNavigation = function() {
+Show.displayPhotoNavigation = function(photo_id) {
   var span = document.createElement('span');
   span.className = "navigator";
-  span.innerText = "⇐ Ω ⇒";
+  var left = document.createElement('div');
+  left.className = "left";
+  left.innerText = "‹";
+  var center = document.createElement('div');
+  center.className = "center";
+  center.innerText = photo_id;
+  var right = document.createElement('div');
+  right.className = "right";
+  right.innerText = "›";
+  var menu = document.createElement("div");
+  menu.className = "menu";
+  menu.appendChild(left);
+  menu.appendChild(center);
+  menu.appendChild(right);
+  span.appendChild(menu);
   return span;
 }
 
@@ -1217,14 +1230,16 @@ Show.footer = function(language) {
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
-  var span = Show.displayPhotoNavigation(info.id, info.photo_index, Object);
+  var span = Show.displayPhotoNavigation(info.photo_index);
   photo.appendChild(span);
+  /*
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
+  */
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);

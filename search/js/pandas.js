@@ -699,7 +699,7 @@ Pandas.profilePhoto = function(animal, index) {
   var desired = {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
-     "index": choice,
+     "index": choice.replace("photo.", ""),
       "link": animal[choice + ".link"]
   }
   return desired;
