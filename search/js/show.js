@@ -1300,20 +1300,19 @@ Show.photoSwap = function(photo, desired_index) {
   var animal = Pandas.searchPandaId(animal_id)[0];
   var photo_manifest = Pandas.photoManifest(animal);
   var max_index = Object.values(photo_manifest).length;
-  var new_index = "photo.1";   // Fallback value
-  if (desired_index < 1) {
-    new_index = "photo." + max_index.toString();
-  } else if (desired_index > max_index) {
-    new_index = "photo.1";
+  var new_index = 1;   // Fallback value
+  if ((desired_index < 1) || (desired_index >= max_index)) {
+    new_index = (desired_index % max_index) + 1;
   } else {
-    var new_index = "photo." + desired_index.toString();
+    var new_index = desired_index;
   }
-  var new_choice = photo_manifest[new_index];
+  var chosen = "photo." + new_index.toString();
+  var new_choice = photo_manifest[chosen];
   var new_container = Show.displayPhoto(new_choice, animal_id, desired_index.toString(), 
                                         "pandaPhoto", "images/no-panda.jpg");
   var new_photo = new_container.childNodes[0];
   // Replace the span navigation id
-  span_link.childNodes[0].innerText = desired_index.toString();
+  span_link.childNodes[0].innerText = new_index.toString();
   // Actually replace the photo. Do this last
   photo.parentNode.replaceChild(new_photo, photo);
   // Other things to swap:
