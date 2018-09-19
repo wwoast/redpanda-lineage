@@ -438,6 +438,7 @@ Show.emoji = {
      "map": "🗺️",
    "money": "💸",
   "mother": "👩🏻",
+ "no_more": "🚫",
   "random": "🎲",
 "star_dad": "👨‍🎤",
 "star_mom": "👩‍🎤",
@@ -1106,22 +1107,25 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 Show.displayPhotoNavigation = function(animal_id, photo_id) {
   var link = document.createElement('a');
   link.className = "navigatorLink";
+  link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
-  span.innerText = photo_id;
-  link.href = "javascript:;";
-  link.addEventListener('click', function() {
-    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
-    var current_photo_id = current_photo.id.split("/")[2];
-    Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);   // Left click event
-  });
-  link.addEventListener('contextmenu', function(e) {
-    e.preventDefault();   // Prevent normal context menu from firing
-    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
-    var current_photo_id = current_photo.id.split("/")[2];
-    Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
-  });
-
+  if (Show.photoCount(animal_id) < 2) {
+    span.innerText = Show.emoji.no_more;
+  } else {
+    span.innerText = photo_id;
+    link.addEventListener('click', function() {
+      var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+      var current_photo_id = current_photo.id.split("/")[2];
+      Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);   // Left click event
+    });
+    link.addEventListener('contextmenu', function(e) {
+      e.preventDefault();   // Prevent normal context menu from firing
+      var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+      var current_photo_id = current_photo.id.split("/")[2];
+      Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
+    });
+  }
   link.appendChild(span);
   return link;
 }
@@ -1236,16 +1240,12 @@ Show.pandaInformation = function(animal, language, slip_in) {
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
-  // Only display carousels if multiple photos exist
-  if (Object.values(info.photo_manifest).length > 1) {
-    photo.addEventListener('mouseover', function() {
-      span.style.display = "block";
-    });
-    photo.addEventListener('mouseout', function() {
-      span.style.display = "none";
-    });
-    // TODO: touch events too
-  }
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
@@ -1298,6 +1298,14 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Utility function to get the current number of photos.
+Show.photoCount = function(animal_id) {
+  var animal = Pandas.searchPandaId(animal_id)[0];
+  var photo_manifest = Pandas.photoManifest(animal);
+  var max_index = Object.values(photo_manifest).length;
+  return max_index;
+}
+
 // Switch the currently displayed photo to the next one in the list
 // TODO: move out of show?
 Show.photoSwap = function(photo, desired_index) {
@@ -1319,8 +1327,10 @@ Show.photoSwap = function(photo, desired_index) {
   var new_container = Show.displayPhoto(new_choice, animal_id, new_index.toString(), 
                                         "pandaPhoto", "images/no-panda.jpg");
   var new_photo = new_container.childNodes[0];
-  // Replace the span navigation id
-  span_link.childNodes[0].innerText = new_index.toString();
+  // Replace the span navigation id if we have an actual carousel
+  if (max_index > 1) {
+    span_link.childNodes[0].innerText = new_index.toString();
+  }
   // Actually replace the photo
   photo.parentNode.replaceChild(new_photo, photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
