@@ -77,21 +77,21 @@ Pandas.def.animal = {
   "jp.nicknames": "ニックネームは記録されていません",
   "jp.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
-  "photo.1": "/images/no-panda.jpg",
-  "photo.2": "/images/no-panda.jpg",
-  "photo.3": "/images/no-panda.jpg",
-  "photo.4": "/images/no-panda.jpg",
-  "photo.5": "/images/no-panda.jpg",
-  "photo.6": "/images/no-panda.jpg",
-  "photo.7": "/images/no-panda.jpg",
-  "photo.8": "/images/no-panda.jpg",
-  "photo.9": "/images/no-panda.jpg",
-  "photo.10": "/images/no-panda.jpg",
-  "video.1": "/images/no-panda.jpg",
-  "video.2": "/images/no-panda.jpg",
-  "video.3": "/images/no-panda.jpg",
-  "video.4": "/images/no-panda.jpg",
-  "video.5": "/images/no-panda.jpg",
+  "photo.1": "images/no-panda.jpg",
+  "photo.2": "images/no-panda.jpg",
+  "photo.3": "images/no-panda.jpg",
+  "photo.4": "images/no-panda.jpg",
+  "photo.5": "images/no-panda.jpg",
+  "photo.6": "images/no-panda.jpg",
+  "photo.7": "images/no-panda.jpg",
+  "photo.8": "images/no-panda.jpg",
+  "photo.9": "images/no-panda.jpg",
+  "photo.10": "images/no-panda.jpg",
+  "video.1": "images/no-panda.jpg",
+  "video.2": "images/no-panda.jpg",
+  "video.3": "images/no-panda.jpg",
+  "video.4": "images/no-panda.jpg",
+  "video.5": "images/no-panda.jpg",
   "zoo": "0"
 }
 
@@ -268,8 +268,7 @@ Pandas.def.zoo = {
 // Generates a valid index to a photo for a panda entity, up to the
 // point that said entity doesn't have a defined photo in its data.
 // TODO: rewrite Pandas.profilePhoto in terms of this
-Pandas.photoGeneratorEntity = function*(entity) {
-  var index = 0;
+Pandas.photoGeneratorEntity = function*(entity, index=0) {
   while (index < index + 1) {
     index++;
     if (entity["photo." + index] == undefined) {
@@ -651,22 +650,20 @@ Pandas.othernames = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
-// Given an animal, choose a single photo to display as its profile photo.
-// The index can be a number between 1 and 10, or it can be "random".
 // TODO: support more than the max of 10
-Pandas.profilePhoto = function(animal, index) {
+Pandas.photoManifest = function(animal) {
   // Find the available photo indexes between one and ten
   var photos = {
-     "photo.1": Pandas.field(animal,  "photo.1"),
-     "photo.2": Pandas.field(animal,  "photo.2"),
-     "photo.3": Pandas.field(animal,  "photo.3"),
-     "photo.4": Pandas.field(animal,  "photo.4"),
-     "photo.5": Pandas.field(animal,  "photo.5"),
-     "photo.6": Pandas.field(animal,  "photo.6"),
-     "photo.7": Pandas.field(animal,  "photo.7"),
-     "photo.8": Pandas.field(animal,  "photo.8"),
-     "photo.9": Pandas.field(animal,  "photo.9"),
-    "photo.10": Pandas.field(animal, "photo.10")
+    "photo.1": Pandas.field(animal,  "photo.1"),
+    "photo.2": Pandas.field(animal,  "photo.2"),
+    "photo.3": Pandas.field(animal,  "photo.3"),
+    "photo.4": Pandas.field(animal,  "photo.4"),
+    "photo.5": Pandas.field(animal,  "photo.5"),
+    "photo.6": Pandas.field(animal,  "photo.6"),
+    "photo.7": Pandas.field(animal,  "photo.7"),
+    "photo.8": Pandas.field(animal,  "photo.8"),
+    "photo.9": Pandas.field(animal,  "photo.9"),
+   "photo.10": Pandas.field(animal, "photo.10")
   }
   // Filter out any keys that have the default value
   photos = Object.keys(photos).reduce(function(filtered, key) {
@@ -675,6 +672,15 @@ Pandas.profilePhoto = function(animal, index) {
     }
     return filtered;
   }, {});
+  return photos;
+}
+
+// Given an animal, choose a single photo to display as its profile photo.
+// The index can be a number between 1 and 10, or it can be "random".
+// TODO: support more than the max of 10
+Pandas.profilePhoto = function(animal, index) {
+  // Find the available photo indexes between one and ten
+  var photos = Pandas.photoManifest(animal);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
   var choice = "photo." + index.toString(); 
@@ -684,15 +690,17 @@ Pandas.profilePhoto = function(animal, index) {
     choice = Object.keys(photos)[index];
   }
   // If there were still no valid photos, because the panda has no photos
-  // listed, return the default for one.
-  if (photos == {}) {
-    choice = 1;
-    photos[choice] = Pandas.field(animal, "photo.1");
+  // listed, return the default for one. Cannot check if == {} because
+  // Javascript is ridiculous
+  if (Object.keys(photos).length === 0) {
+    choice = "photo.1";
+    photos[choice] = Pandas.field(animal, choice);
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
+     "index": choice.replace("photo.", ""),
       "link": animal[choice + ".link"]
   }
   return desired;

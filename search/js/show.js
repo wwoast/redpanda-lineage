@@ -587,8 +587,8 @@ Show.routes = {
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var photo_index = Query.env.specific == undefined ? "random" : Query.env.specific;
-  var picture = Pandas.profilePhoto(animal, photo_index);   // TODO: all photos for carousel
+  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var picture = Pandas.profilePhoto(animal, chosen_index);   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
@@ -598,6 +598,7 @@ Show.acquirePandaInfo = function(animal, language) {
             "dad": Pandas.searchPandaDad(animal["_id"])[0],
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
+             "id": animal["_id"],
        "language": language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal["_id"]),
@@ -606,7 +607,9 @@ Show.acquirePandaInfo = function(animal, language) {
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
    "photo_credit": picture['credit'],
+    "photo_index": picture['index'],
      "photo_link": picture['link'],
+ "photo_manifest": Pandas.photoManifest(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
@@ -903,6 +906,7 @@ Show.displayPandaDetails = function(info) {
   location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
                                          language, ["map_icon", "country_flag"]);
   var credit_link = document.createElement('a');
+  credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
   credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
   var credit = document.createElement('p');
@@ -920,6 +924,7 @@ Show.displayPandaDetails = function(info) {
     // See how many other panda photos this user has posted
     var other_photos = document.createElement('p');
     var credit_count_link = document.createElement('a');
+    credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
     credit_count_link.href = "#credit/" + info.photo_credit;
     credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
     other_photos.appendChild(credit_count_link);
@@ -1078,21 +1083,47 @@ Show.displayPandaTitle = function(info) {
   return title_div;
 }
 
-// If the media exists for a panda, display it. If it's missing,
+// If the media exists for an entity, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
-Show.displayPhoto = function(info, frame_class, fallback) {
+Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) {
   var image = document.createElement('img');
-  if (info.photo == undefined) {
+  if (photo == undefined) {
     image.src = fallback;
   } else {
-    image.src = info.photo;
+    image.src = photo;
+    image.id = entity_id + "/photo/" + photo_id;   // For carousel
+    image.className = entity_id + "/photo";
   }
   image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
   return div;
+}
+
+// The hover over or swipe menu for photo navigation
+Show.displayPhotoNavigation = function(animal_id, photo_id) {
+  var link = document.createElement('a');
+  link.className = "navigatorLink";
+  var span = document.createElement('span');
+  span.className = "navigator";
+  span.innerText = photo_id;
+  link.href = "javascript:;";
+  link.addEventListener('click', function() {
+    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+    var current_photo_id = current_photo.id.split("/")[2];
+    Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);   // Left click event
+  });
+  link.addEventListener('contextmenu', function(e) {
+    e.preventDefault();   // Prevent normal context menu from firing
+    var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+    var current_photo_id = current_photo.id.split("/")[2];
+    Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
+  });
+
+  link.appendChild(span);
+  return link;
 }
 
 // The dossier of information for a single zoo.
@@ -1202,7 +1233,19 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
+  var span = Show.displayPhotoNavigation(info.id, info.photo_index);
+  photo.appendChild(span);
+  // Only display carousels if multiple photos exist
+  if (Object.values(info.photo_manifest).length > 1) {
+    photo.addEventListener('mouseover', function() {
+      span.style.display = "block";
+    });
+    photo.addEventListener('mouseout', function() {
+      span.style.display = "none";
+    });
+    // TODO: touch events too
+  }
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
@@ -1226,7 +1269,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   var photos = [];
   var info = Show.acquirePandaInfo(animal, language);
   var photo_indexes = Pandas.photoGeneratorEntity;
-  for (let field_name of photo_indexes(animal)) {
+  for (let field_name of photo_indexes(animal, 0)) {
     if (animal[field_name + ".author"] == credit) {
       photos.push({"image": animal[field_name], "index": field_name});
     }
@@ -1255,10 +1298,48 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Switch the currently displayed photo to the next one in the list
+// TODO: move out of show?
+Show.photoSwap = function(photo, desired_index) {
+  var span_link = photo.parentNode.childNodes[1];
+  var [animal_id, _, photo_id] = photo.id.split("/");
+  var animal = Pandas.searchPandaId(animal_id)[0];
+  var photo_manifest = Pandas.photoManifest(animal);
+  var max_index = Object.values(photo_manifest).length;
+  var new_index = 1;   // Fallback value
+  if (desired_index < 1) {
+    new_index = max_index;
+  } else if (desired_index > max_index) {
+    new_index = (desired_index % max_index);
+  } else {
+    var new_index = desired_index;
+  }
+  var chosen = "photo." + new_index.toString();
+  var new_choice = photo_manifest[chosen];
+  var new_container = Show.displayPhoto(new_choice, animal_id, new_index.toString(), 
+                                        "pandaPhoto", "images/no-panda.jpg");
+  var new_photo = new_container.childNodes[0];
+  // Replace the span navigation id
+  span_link.childNodes[0].innerText = new_index.toString();
+  // Actually replace the photo
+  photo.parentNode.replaceChild(new_photo, photo);
+  var photo_info = Pandas.profilePhoto(animal, new_index);
+  // Replace the animal credit info
+  var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
+  credit_link.id = animal_id + "/author/" + new_index;
+  credit_link.href = photo_info["link"];
+  credit_link.innerText = Show.emoji.camera + " " + photo_info["credit"];
+  // And the photographer credit's apple points
+  var apple_link = document.getElementById(animal_id + "/counts/" + photo_id);
+  apple_link.id = animal_id + "/counts/" + new_index;
+  apple_link.href = "#credit/" + photo_info["credit"];
+  apple_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
+}
+
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
-  var photo = Show.displayPhoto(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = Show.displayPhoto(info.photo, zoo._id, "1", 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
