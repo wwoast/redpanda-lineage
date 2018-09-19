@@ -906,6 +906,7 @@ Show.displayPandaDetails = function(info) {
   location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
                                          language, ["map_icon", "country_flag"]);
   var credit_link = document.createElement('a');
+  credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
   credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
   var credit = document.createElement('p');
@@ -923,6 +924,7 @@ Show.displayPandaDetails = function(info) {
     // See how many other panda photos this user has posted
     var other_photos = document.createElement('p');
     var credit_count_link = document.createElement('a');
+    credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
     credit_count_link.href = "#credit/" + info.photo_credit;
     credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
     other_photos.appendChild(credit_count_link);
@@ -1300,7 +1302,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
 // TODO: move out of show?
 Show.photoSwap = function(photo, desired_index) {
   var span_link = photo.parentNode.childNodes[1];
-  var [animal_id, _, _] = photo.id.split("/");
+  var [animal_id, _, photo_id] = photo.id.split("/");
   var animal = Pandas.searchPandaId(animal_id)[0];
   var photo_manifest = Pandas.photoManifest(animal);
   var max_index = Object.values(photo_manifest).length;
@@ -1319,11 +1321,19 @@ Show.photoSwap = function(photo, desired_index) {
   var new_photo = new_container.childNodes[0];
   // Replace the span navigation id
   span_link.childNodes[0].innerText = new_index.toString();
-  // Actually replace the photo. Do this last
+  // Actually replace the photo
   photo.parentNode.replaceChild(new_photo, photo);
-  // Other things to swap:
-  // Replace the animal credit and apple rating (need ids)!!
-  // Give these fields ids so they can be selected and replaced
+  var photo_info = Pandas.profilePhoto(animal, new_index);
+  // Replace the animal credit info
+  var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
+  credit_link.id = animal_id + "/author/" + new_index;
+  credit_link.href = photo_info["link"];
+  credit_link.innerText = Show.emoji.camera + " " + photo_info["credit"];
+  // And the photographer credit's apple points
+  var apple_link = document.getElementById(animal_id + "/counts/" + photo_id);
+  apple_link.id = animal_id + "/counts/" + new_index;
+  apple_link.href = "#credit/" + photo_info["credit"];
+  apple_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
 }
 
 // Display information for a zoo relevant to the red pandas
