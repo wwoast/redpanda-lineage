@@ -1103,6 +1103,7 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 // The hover over or swipe menu for photo navigation
 Show.displayPhotoNavigation = function(photo_id) {
   var link = document.createElement('a');
+  link.className = "navigatorLink";
   var span = document.createElement('span');
   span.className = "navigator";
   span.innerText = photo_id;
@@ -1221,14 +1222,12 @@ Show.pandaInformation = function(animal, language, slip_in) {
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.photo_index);
   photo.appendChild(span);
-  /*
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  */
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
