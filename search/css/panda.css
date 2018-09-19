@@ -248,28 +248,7 @@ div.pandaPhoto span.navigator {
     text-align: center;
     padding-left: 6px;
     padding-right: 6px;
-}
-
-span.navigator div.menu {
-    display: table;
-    table-layout: fixed;   /* Specify cell widths */
-    width: 100px;
-}
-
-span.navigator div.menu div.left,
-span.navigator div.menu div.center,
-span.navigator div.menu div.right {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-span.navigator div.menu div.left,
-span.navigator div.menu div.right {
-    max-width: 20px;
-}
-
-span.navigator div.menu div.center {
-    max-width: 60px;
+    width: 36px;
 }
 
 div.pandaDossier, div.zooDossier {

@@ -1102,24 +1102,13 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 
 // The hover over or swipe menu for photo navigation
 Show.displayPhotoNavigation = function(photo_id) {
+  var link = document.createElement('a');
   var span = document.createElement('span');
   span.className = "navigator";
-  var left = document.createElement('div');
-  left.className = "left";
-  left.innerText = "‹";
-  var center = document.createElement('div');
-  center.className = "center";
-  center.innerText = photo_id;
-  var right = document.createElement('div');
-  right.className = "right";
-  right.innerText = "›";
-  var menu = document.createElement("div");
-  menu.className = "menu";
-  menu.appendChild(left);
-  menu.appendChild(center);
-  menu.appendChild(right);
-  span.appendChild(menu);
-  return span;
+  span.innerText = photo_id;
+  link.href = "javascript:;";
+  link.appendChild(span);
+  return link;
 }
 
 // The dossier of information for a single zoo.
