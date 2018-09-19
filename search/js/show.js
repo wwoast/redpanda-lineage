@@ -1236,8 +1236,8 @@ Show.pandaInformation = function(animal, language, slip_in) {
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
-  // Only display carousels if photos exist
-  if (info.photo != Pandas.def.animal["photo.1"]) {
+  // Only display carousels if multiple photos exist
+  if (Object.values(info.photo_manifest).length > 1) {
     photo.addEventListener('mouseover', function() {
       span.style.display = "block";
     });
