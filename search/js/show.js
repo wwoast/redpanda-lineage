@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
   L = Language.init();
+  T = Touch.init();
   G = Dagoba.graph();
 
   Language.default(L);     // Set default language
@@ -1110,6 +1111,7 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
   link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
+  // Clickable dogears when you have a carousel of more than one photo
   if (Show.photoCount(animal_id) < 2) {
     span.innerText = Show.emoji.no_more;
   } else {
@@ -1126,6 +1128,14 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
       Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
     });
   }
+  // Touchable carousels for every loaded photo
+  /*
+  var photo_div = document.getElementById(animal_id + "/photo/" + photo_id);
+  photo_div.addEventListener('ontouchstart', touchStart(event, 'someId'));
+  photo_div.addEventListener('ontouchend', touchEnd(event, 'someId'));
+  photo_div.addEventListener('ontouchmove', touchMove(event, 'someId'));
+  photo_div.addEventListener('ontouchcancel', touchCancel(event, 'someId'));
+  */
   link.appendChild(span);
   return link;
 }
