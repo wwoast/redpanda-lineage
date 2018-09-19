@@ -1234,12 +1234,16 @@ Show.pandaInformation = function(animal, language, slip_in) {
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
-    span.style.display = "block";
-  });
-  photo.addEventListener('mouseout', function() {
-    span.style.display = "none";
-  });
+  // Only display carousels if photos exist
+  if (info.photo != Pandas.def.animal["photo.1"]) {
+    photo.addEventListener('mouseover', function() {
+      span.style.display = "block";
+    });
+    photo.addEventListener('mouseout', function() {
+      span.style.display = "none";
+    });
+    // TODO: touch events too
+  }
   var title = Show.displayPandaTitle(info);
   var details = Show.displayPandaDetails(info); 
   var family = Show.displayPandaFamily(info);
@@ -1318,7 +1322,8 @@ Show.photoSwap = function(photo, desired_index) {
   // Actually replace the photo. Do this last
   photo.parentNode.replaceChild(new_photo, photo);
   // Other things to swap:
-  // Replace the animal credit and apple rating (need ids)
+  // Replace the animal credit and apple rating (need ids)!!
+  // Give these fields ids so they can be selected and replaced
 }
 
 // Display information for a zoo relevant to the red pandas
