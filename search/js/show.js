@@ -598,6 +598,7 @@ Show.acquirePandaInfo = function(animal, language) {
             "dad": Pandas.searchPandaDad(animal["_id"])[0],
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
+             "id": animal["_id"],
        "language": language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal["_id"]),
@@ -606,8 +607,9 @@ Show.acquirePandaInfo = function(animal, language) {
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
    "photo_credit": picture['credit'],
+    "photo_index": picture['index'],
      "photo_link": picture['link'],
-     "photo_list": Pandas.photoList(animal),
+ "photo_manifest": Pandas.photoManifest(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
@@ -1082,38 +1084,21 @@ Show.displayPandaTitle = function(info) {
 // If the media exists for an entity, display it. If it's missing,
 // display a placeholder empty frame that takes up the same amount
 // of space on the page.
-Show.displayPhoto = function(photo, frame_class, fallback) {
+Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) {
   var image = document.createElement('img');
+  photo_id = photo_id.replace("photo.", "");
   if (photo == undefined) {
     image.src = fallback;
   } else {
     image.src = photo;
+    image.id = entity_id + "/photo/" + photo_id;   // For carousel
+    image.className = entity_id;
   }
   image.onerror = "this.src='" + fallback + "'";
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
   return div;
-}
-
-// Create a list of photos that can be operated with a carousel
-Show.displayPhotoList = function(info, frame_class, fallback) {
-  var ul = document.createElement('ul');
-  ul.className = "photoList";
-  for (let photo of Object.values(info.photo_list)) {
-    var li = document.createElement('li');
-    var this_frame = frame_class;
-    if (photo != info.photo) {
-      this_frame = frame_class + " hidden";
-    }
-    var div = Show.displayPhoto(photo, this_frame, fallback);
-    li.appendChild(div);
-    ul.appendChild(li);
-  }
-  var container = document.createElement('div');
-  container.className = "photoList";
-  container.appendChild(ul);
-  return container;
 }
 
 // The dossier of information for a single zoo.
@@ -1223,7 +1208,7 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhotoList(info, 'pandaPhoto', 'images/no-panda.jpg');
+  var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = document.createElement('span');
   span.className = "navigator";
   span.innerText = "⇐ Ω ⇒";
@@ -1257,7 +1242,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   var photos = [];
   var info = Show.acquirePandaInfo(animal, language);
   var photo_indexes = Pandas.photoGeneratorEntity;
-  for (let field_name of photo_indexes(animal)) {
+  for (let field_name of photo_indexes(animal, 0)) {
     if (animal[field_name + ".author"] == credit) {
       photos.push({"image": animal[field_name], "index": field_name});
     }
@@ -1286,10 +1271,28 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Switch the currently displayed photo to the next one in the list
+// TODO: move out of show?
+Show.photoSwap = function(photo, desired_index) {
+  var [animal_id, _, photo_id] = photo.id.split("/");
+  var max_index = Object.values(info.photo_manifest).length;
+  var new_index = "photo.1";   // Fallback value
+  if (desired_index >= 1 && new_index < max_index) {
+    var new_index = "photo." + desired_index.toString();
+  }
+  var animal = Pandas.searchPandaId(animal_id);
+  var photo_manifest = Pandas.photoManifest(animal);
+  var new_photo
+
+  // TODO: actually swap the shown photo
+  // TODO: where does this animal's selector or info come from?
+  // Add panda id to the divs itself!
+}
+
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
-  var photo = Show.displayPhoto(info.photo, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = Show.displayPhoto(info, zoo._id, 1, 'zooPhoto', 'images/no-zoo.jpg');
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');

@@ -268,8 +268,7 @@ Pandas.def.zoo = {
 // Generates a valid index to a photo for a panda entity, up to the
 // point that said entity doesn't have a defined photo in its data.
 // TODO: rewrite Pandas.profilePhoto in terms of this
-Pandas.photoGeneratorEntity = function*(entity) {
-  var index = 0;
+Pandas.photoGeneratorEntity = function*(entity, index=0) {
   while (index < index + 1) {
     index++;
     if (entity["photo." + index] == undefined) {
@@ -652,7 +651,7 @@ Pandas.othernames = function(animal, language) {
 }
 
 // TODO: support more than the max of 10
-Pandas.photoList = function(animal) {
+Pandas.photoManifest = function(animal) {
   // Find the available photo indexes between one and ten
   var photos = {
     "photo.1": Pandas.field(animal,  "photo.1"),
@@ -681,7 +680,7 @@ Pandas.photoList = function(animal) {
 // TODO: support more than the max of 10
 Pandas.profilePhoto = function(animal, index) {
   // Find the available photo indexes between one and ten
-  var photos = Pandas.photoList(animal);
+  var photos = Pandas.photoManifest(animal);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
   var choice = "photo." + index.toString(); 
@@ -700,6 +699,7 @@ Pandas.profilePhoto = function(animal, index) {
   var desired = {
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
+     "index": choice,
       "link": animal[choice + ".link"]
   }
   return desired;
