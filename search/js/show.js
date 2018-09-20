@@ -23,8 +23,9 @@
 */
 var P;   // Pandas
 var Q;   // Query stack
-var G;   // Lineage graph
 var L;   // Language methods and current language
+var T;   // Touch object
+var G;   // Lineage graph
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -1116,28 +1117,26 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
     span.innerText = Show.emoji.no_more;
   } else {
     span.innerText = photo_id;
-    link.addEventListener('click', function() {
-      var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
-      var current_photo_id = current_photo.id.split("/")[2];
-      Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);   // Left click event
+    link.addEventListener('click', function() {  // Left click event
+      Show.photoNext(animal_id);
     });
-    link.addEventListener('contextmenu', function(e) {
+    link.addEventListener('contextmenu', function(e) {   // Right click event
       e.preventDefault();   // Prevent normal context menu from firing
-      var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
-      var current_photo_id = current_photo.id.split("/")[2];
-      Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);   // Right click event
+      Show.photoPrevious(animal_id);
     });
   }
-  // Touchable carousels for every loaded photo
-  /*
-  var photo_div = document.getElementById(animal_id + "/photo/" + photo_id);
-  photo_div.addEventListener('ontouchstart', touchStart(event, 'someId'));
-  photo_div.addEventListener('ontouchend', touchEnd(event, 'someId'));
-  photo_div.addEventListener('ontouchmove', touchMove(event, 'someId'));
-  photo_div.addEventListener('ontouchcancel', touchCancel(event, 'someId'));
-  */
+  // Show.displayPhotoTouch(animal_id, photo_id);
   link.appendChild(span);
   return link;
+}
+
+// Touchable carousels for every loaded photo.
+Show.displayPhotoTouch = function(animal_id, photo_id) {
+  var photo_div = document.getElementById(animal_id + "/photo/" + photo_id);
+  photo_div.addEventListener('ontouchstart', Touch.start(event, photo_id));
+  photo_div.addEventListener('ontouchend', Touch.end(event));
+  photo_div.addEventListener('ontouchmove', Touch.move(event));
+  photo_div.addEventListener('ontouchcancel', Touch.cancel(event));
 }
 
 // The dossier of information for a single zoo.
@@ -1316,8 +1315,21 @@ Show.photoCount = function(animal_id) {
   return max_index;
 }
 
+// Navigation input event -- load the next photo in the carousel
+Show.photoNext = function(animal_id) {
+  var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+  var current_photo_id = current_photo.id.split("/")[2];
+  Show.photoSwap(current_photo, parseInt(current_photo_id) + 1);
+}
+
+// Navigation input event -- load the previous photo in the carousel
+Show.photoPrevious = function(animal_id) {
+  var current_photo = document.getElementsByClassName(animal_id + "/photo")[0];
+  var current_photo_id = current_photo.id.split("/")[2];
+  Show.photoSwap(current_photo, parseInt(current_photo_id) - 1);
+}
+
 // Switch the currently displayed photo to the next one in the list
-// TODO: move out of show?
 Show.photoSwap = function(photo, desired_index) {
   var span_link = photo.parentNode.childNodes[1];
   var [animal_id, _, photo_id] = photo.id.split("/");
@@ -1343,6 +1355,7 @@ Show.photoSwap = function(photo, desired_index) {
   }
   // Actually replace the photo
   photo.parentNode.replaceChild(new_photo, photo);
+  // Show.displayPhotoTouch(animal_id, new_index);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
   var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
