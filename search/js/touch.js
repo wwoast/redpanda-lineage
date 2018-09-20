@@ -26,7 +26,7 @@ Touch.init = function() {
 // The 4 Touch Event Handlers
 Touch.start = function(event, passedName) {
   // disable the standard ability to select the touched object
-  event.preventDefault();
+  // event.preventDefault();
   // get the total number of fingers touching the screen
   Touch.fingerCount = event.touches.length;
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
@@ -44,7 +44,7 @@ Touch.start = function(event, passedName) {
 }
 
 Touch.move = function(event) {
-  event.preventDefault();
+  // event.preventDefault();
   if (event.touches.length == 1) {
     Touch.curX = event.touches[0].pageX;
     Touch.curY = event.touches[0].pageY;
@@ -54,7 +54,7 @@ Touch.move = function(event) {
 }
 
 Touch.end = function(event) {
-  event.preventDefault();
+  // event.preventDefault();
   if (Touch.fingerCount == 1 && Touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
