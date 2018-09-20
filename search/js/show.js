@@ -759,6 +759,23 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
   return output_text;
 }
 
+// Create a link to a location in Google Maps. This replaces the
+// older content from Show.homeLocation, but I may want to make use
+// of that function in the future.
+Show.locationLink = function(zoo, language) {
+  // Don't print content if the input id is zero
+  if (zoo['_id'] == Pandas.def.zoo['_id']) {
+    return Pandas.def.zoo[language + ".location"];
+  }
+  var link_text = Show.emoji.map + Show.flags[zoo.flag];
+  var search_address = zoo[zoo.language + ".address"];
+  var google_search = "https://www.google.com/search?q=" + search_address;
+  var a = document.createElement('a');
+  a.href = google_search;
+  a.innerText = link_text;
+  return a;
+}
+
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/search/index.html#zoo/1
 // Show.zooLink = function(zoo, link_text, options) {
@@ -902,12 +919,17 @@ Show.displayPandaDetails = function(info) {
   } else {
     second.innerText = Show.emoji.died + " " + info.death;
   }
+  // Zoo link is the animal's home zoo, linking to a search 
+  // for all living pandas at the given zoo.
   var zoo = document.createElement('p');
   var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, ["home_icon"]);
   zoo.appendChild(zoo_link);
+  // Location shows a map icon and a flag icon, and links to
+  // a Google Maps search for the "<language>.address" field
   var location = document.createElement('p');
-  location.innerText = Show.homeLocation(info.zoo, info.zoo[language + ".location"],
-                                         language, ["map_icon", "country_flag"]);
+  var location_link = Show.locationLink(info.zoo, language);
+  location.appendChild(location_link);
+  // Give credit for the person that took this photo
   var credit_link = document.createElement('a');
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
