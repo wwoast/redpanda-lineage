@@ -232,7 +232,6 @@ div.pandaPhoto img, div.zooPhoto img {
     max-width: 400px;
     max-height: 400px;
     z-index: 1;
-    min-height: 320px;  /* Instagram medium, reduces reflow */
 }
 
 a.navigatorLink {
