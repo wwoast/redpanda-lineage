@@ -1102,6 +1102,7 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
+  Show.displayPhotoTouch(image);
   return div;
 }
 
@@ -1125,18 +1126,24 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
       Show.photoPrevious(animal_id);
     });
   }
-  // Show.displayPhotoTouch(animal_id, photo_id);
   link.appendChild(span);
   return link;
 }
 
 // Touchable carousels for every loaded photo.
-Show.displayPhotoTouch = function(animal_id, photo_id) {
-  var photo_div = document.getElementById(animal_id + "/photo/" + photo_id);
-  photo_div.addEventListener('ontouchstart', Touch.start(event, photo_id));
-  photo_div.addEventListener('ontouchend', Touch.end(event));
-  photo_div.addEventListener('ontouchmove', Touch.move(event));
-  photo_div.addEventListener('ontouchcancel', Touch.cancel(event));
+Show.displayPhotoTouch = function(photo) {
+  photo.addEventListener('ontouchstart', function(event) {
+    Touch.start(event, photo.id);
+  });
+  photo.addEventListener('ontouchend', function(event) {
+    Touch.end(event);
+  });
+  photo.addEventListener('ontouchmove', function(event) {
+    Touch.move(event);
+  });
+  photo.addEventListener('ontouchcancel', function(event) {
+    Touch.cancel(event);
+  });
 }
 
 // The dossier of information for a single zoo.
@@ -1242,13 +1249,14 @@ Show.footer = function(language) {
 // Display a text dossier of information for a panda. Most missing
 // elements should not be displayed, but a few should be printed 
 // regardless, such as birthday / time of death. 
-// The "slip_in" value is a contextual reference to the initial search,
+// TODO: The "slip_in" value is a contextual reference to the initial search,
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
+
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
@@ -1355,7 +1363,7 @@ Show.photoSwap = function(photo, desired_index) {
   }
   // Actually replace the photo
   photo.parentNode.replaceChild(new_photo, photo);
-  // Show.displayPhotoTouch(animal_id, new_index);
+  Show.displayPhotoTouch(new_photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
   var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
