@@ -1134,16 +1134,16 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
 Show.displayPhotoTouch = function(photo) {
   photo.addEventListener('touchstart', function(event) {
     Touch.start(event, photo.id);
-  });
+  }, true);
   photo.addEventListener('touchend', function(event) {
     Touch.end(event);
-  });
+  }, true);
   photo.addEventListener('touchmove', function(event) {
     Touch.move(event);
-  });
+  }, true);
   photo.addEventListener('touchcancel', function(event) {
     Touch.cancel(event);
-  });
+  }, true);
 }
 
 // The dossier of information for a single zoo.
