@@ -4,5 +4,6 @@ en.address: 3001 Connecticut Ave NW, Washington, DC 20008
 en.location: Washington, DC, USA
 en.name: National Zoological Park
 en.othernames: National Zoo, Smithsonian's National Zoo, Smithsonian Conservation Biology Institute
+flag: USA
 language.order: en
 website: https://nationalzoo.si.edu/

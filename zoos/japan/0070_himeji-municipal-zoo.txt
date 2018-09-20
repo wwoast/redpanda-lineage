@@ -2,7 +2,8 @@
 _id: 70
 en.address: 68 Honmachi, Himeji-shi, Hyogo Prefecture. ZIP:670-0012
 en.location: Himeji, Hyōgo Prefecture
-en.name: Himeji Municipal Zoo 
+en.name: Himeji Municipal Zoo
+flag: Japan
 jp.address: 〒670-0012 兵庫県姫路市本町68
 jp.location: 姫路市 兵庫県
 jp.name: 姫路市立動物園

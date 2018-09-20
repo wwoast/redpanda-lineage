@@ -1256,7 +1256,6 @@ Show.pandaInformation = function(animal, language, slip_in) {
   var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
-
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
