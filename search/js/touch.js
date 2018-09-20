@@ -53,18 +53,18 @@ Touch.move = function(event) {
   }
 }
 
-Touch.end = function(event, callback) {
+Touch.end = function(event) {
   event.preventDefault();
   if (Touch.fingerCount == 1 && Touch.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
     Touch.swipeLength = Math.round(Math.sqrt(Math.pow(Touch.curX - Touch.startX,2) + 
                                              Math.pow(Touch.curY - Touch.startY,2)));
-    // If the swipe is longer than the minimum length, run the callback
+    // If the swipe is longer than the minimum length, do an interface task
     if (Touch.swipeLength >= Touch.minLength) {
       Touch.angle();
       Touch.swipeDirection();
-      callback();
+      Touch.process();   // Interface task
       Touch.cancel(event); // Reset the variables
     } else {
       Touch.cancel(event);
@@ -74,7 +74,7 @@ Touch.end = function(event, callback) {
   }
 }
 
-Touch.cancel = function(event) {
+Touch.cancel = function() {
   // reset the variables back to default values
   Touch.fingerCount = 0;
   Touch.startX = 0;
@@ -116,13 +116,12 @@ Touch.swipeDirection = function() {
   }
 }
 
-// Example callback
-Touch.process = function(element_id) {
-  var swipedElement = document.getElementById(element_id);
-  // Do stuff
+// Callback to change the photo based on where the touch event happened
+Touch.process = function() {
+  var animal_id = triggerElementID.split('/')[0];
   if ( Touch.swipeDirection == 'right' ) {
-    var stuff = "TODO";
+    Show.photoPrevious(animal_id);
   } else if ( Touch.swipeDirection == 'left' ) {
-    var stuff = "TODO";
+    Show.photoNext(animal_id);
   }
 }
