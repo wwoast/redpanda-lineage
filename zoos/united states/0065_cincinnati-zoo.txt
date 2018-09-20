@@ -1,7 +1,9 @@
 [zoo]
 _id: 65
+country: USA
 en.address: 3400 Vine St, Cincinnati, OH 45220
 en.location: Cincinnati, OH, USA
 en.name: Cincinnati Zoo and Botanical Garden
+flag: USA
 language.order: en
 website: https://nationalzoo.si.edu/
