@@ -24,104 +24,104 @@ Touch.init = function() {
 }
 
 // The 4 Touch Event Handlers
-Touch.start = function(event, passedName) {
+Touch.start = function(event, T, passedName) {
   // disable the standard ability to select the touched object
   // event.preventDefault();
   // get the total number of fingers touching the screen
-  Touch.fingerCount = event.touches.length;
+  T.fingerCount = event.touches.length;
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
   // check that only one finger was used
-  if (Touch.fingerCount == 1) {
+  if (T.fingerCount == 1) {
     // get the coordinates of the touch
-    Touch.startX = event.touches[0].pageX;
-    Touch.startY = event.touches[0].pageY;
+    T.startX = event.touches[0].pageX;
+    T.startY = event.touches[0].pageY;
     // store the triggering element ID
-    Touch.triggerElementID = passedName;
+    T.triggerElementID = passedName;
   } else {
     // more than one finger touched so cancel
-    Touch.cancel(event);
+    Touch.cancel(T);
   }
 }
 
-Touch.move = function(event) {
+Touch.move = function(event, T) {
   // event.preventDefault();
   if (event.touches.length == 1) {
-    Touch.curX = event.touches[0].pageX;
-    Touch.curY = event.touches[0].pageY;
+    T.curX = event.touches[0].pageX;
+    T.curY = event.touches[0].pageY;
   } else {
-    Touch.cancel(event);
+    Touch.cancel(T);
   }
 }
 
-Touch.end = function(event) {
+Touch.end = function(event, T) {
   // event.preventDefault();
-  if (Touch.fingerCount == 1 && Touch.curX != 0) {
+  if (T.fingerCount == 1 && T.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
-    Touch.swipeLength = Math.round(Math.sqrt(Math.pow(Touch.curX - Touch.startX,2) + 
-                                             Math.pow(Touch.curY - Touch.startY,2)));
+    T.swipeLength = Math.round(Math.sqrt(Math.pow(T.curX - T.startX,2) + 
+                                         Math.pow(T.curY - T.startY,2)));
     // If the swipe is longer than the minimum length, do an interface task
-    if (Touch.swipeLength >= Touch.minLength) {
-      Touch.angle();
-      Touch.swipeDirection();
-      Touch.process();   // Interface task
-      Touch.cancel(event); // Reset the variables
+    if (T.swipeLength >= T.minLength) {
+      Touch.angle(T);
+      Touch.swipeDirection(T);
+      Touch.process(T);   // Interface task
+      Touch.cancel(T); // Reset the variables
     } else {
-      Touch.cancel(event);
+      Touch.cancel(T);
     }
   } else {
-    Touch.cancel(event);
+    Touch.cancel(T);
   }
 }
 
-Touch.cancel = function() {
+Touch.cancel = function(T) {
   // reset the variables back to default values
-  Touch.fingerCount = 0;
-  Touch.startX = 0;
-  Touch.startY = 0;
-  Touch.curX = 0;
-  Touch.curY = 0;
-  Touch.deltaX = 0;
-  Touch.deltaY = 0;
-  Touch.horzDiff = 0;
-  Touch.vertDiff = 0;
-  Touch.swipeLength = 0;
-  Touch.swipeAngle = null;
-  Touch.swipeDirection = null;
-  Touch.triggerElementID = null;
+  T.fingerCount = 0;
+  T.startX = 0;
+  T.startY = 0;
+  T.curX = 0;
+  T.curY = 0;
+  T.deltaX = 0;
+  T.deltaY = 0;
+  T.horzDiff = 0;
+  T.vertDiff = 0;
+  T.swipeLength = 0;
+  T.swipeAngle = null;
+  T.swipeDirection = null;
+  T.triggerElementID = null;
 }
 
-Touch.angle = function() {
-  var X = Touch.startX - Touch.curX;
-  var Y = Touch.curY - Touch.startY;
+Touch.angle = function(T) {
+  var X = T.startX - T.curX;
+  var Y = T.curY - T.startY;
   // var Z = Math.round(Math.sqrt(Math.pow(X,2) + Math.pow(Y,2))); // the distance - rounded - in pixels
   var r = Math.atan2(Y,X); // angle in radians (Cartesian system)
-  Touch.swipeAngle = Math.round(r*180/Math.PI); // angle in degrees
-  if (Touch.swipeAngle < 0) { 
-    Touch.swipeAngle = 360 - Math.abs(Touch.swipeAngle);
+  T.swipeAngle = Math.round(r*180/Math.PI); // angle in degrees
+  if (T.swipeAngle < 0) { 
+    T.swipeAngle = 360 - Math.abs(T.swipeAngle);
   }
 }
 
-Touch.swipeDirection = function() {
-  if ((Touch.swipeAngle <= 45) && (Touch.swipeAngle >= 0)) {
-    Touch.swipeDirection = 'left';
-  } else if ((Touch.swipeAngle <= 360) && (Touch.swipeAngle >= 315)) {
-    Touch.swipeDirection = 'left';
-  } else if ((Touch.swipeAngle >= 135) && (Touch.swipeAngle <= 225)) {
-    Touch.swipeDirection = 'right';
-  } else if ((Touch.swipeAngle > 45) && (Touch.swipeAngle < 135)) {
-    Touch.swipeDirection = 'down';
+Touch.swipeDirection = function(T) {
+  if ((T.swipeAngle <= 45) && (T.swipeAngle >= 0)) {
+    T.swipeDirection = 'left';
+  } else if ((T.swipeAngle <= 360) && (T.swipeAngle >= 315)) {
+    T.swipeDirection = 'left';
+  } else if ((T.swipeAngle >= 135) && (T.swipeAngle <= 225)) {
+    T.swipeDirection = 'right';
+  } else if ((T.swipeAngle > 45) && (T.swipeAngle < 135)) {
+    T.swipeDirection = 'down';
   } else {
-    Touch.swipeDirection = 'up';
+    T.swipeDirection = 'up';
   }
 }
 
 // Callback to change the photo based on where the touch event happened
-Touch.process = function() {
-  var animal_id = triggerElementID.split('/')[0];
-  if ( Touch.swipeDirection == 'right' ) {
+Touch.process = function(T) {
+  var animal_id = T.triggerElementID.split('/')[0];
+  if ( T.swipeDirection == 'right' ) {
     Show.photoPrevious(animal_id);
-  } else if ( Touch.swipeDirection == 'left' ) {
+  } else if ( T.swipeDirection == 'left' ) {
     Show.photoNext(animal_id);
   }
 }
