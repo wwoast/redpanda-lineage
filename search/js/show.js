@@ -1132,16 +1132,16 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
 
 // Touchable carousels for every loaded photo.
 Show.displayPhotoTouch = function(photo) {
-  photo.addEventListener('ontouchstart', function(event) {
+  photo.addEventListener('touchstart', function(event) {
     Touch.start(event, photo.id);
   });
-  photo.addEventListener('ontouchend', function(event) {
+  photo.addEventListener('touchend', function(event) {
     Touch.end(event);
   });
-  photo.addEventListener('ontouchmove', function(event) {
+  photo.addEventListener('touchmove', function(event) {
     Touch.move(event);
   });
-  photo.addEventListener('ontouchcancel', function(event) {
+  photo.addEventListener('touchcancel', function(event) {
     Touch.cancel(event);
   });
 }
