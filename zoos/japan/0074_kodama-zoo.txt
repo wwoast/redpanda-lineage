@@ -1,0 +1,13 @@
+[zoo]
+_id: 74
+en.address: Osaki, Midori-ku, Saitama, Saitama Prefecture 336-0974, Japan
+en.location: Saitama, Saitama Prefecture, Japan
+en.name: Kodomo Zoo
+en.othernames: Osaki Park
+flag: Japan
+jp.address: 〒336-0974 埼玉県さいたま市緑区大崎
+jp.location: さいたま市 埼玉県
+jp.name: 大崎公園
+jp.othernames: 子供動物園
+language.order: jp, en
+website: http://www.city.saitama.jp/004/001/003/001/p002130.html
