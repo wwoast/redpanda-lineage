@@ -14,4 +14,8 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BkWJxamASuk/media/?size=m
 photo.1.author: tohokusafaripark
 photo.1.link: https://www.instagram.com/tohokusafaripark/
+species: 2
+video.1: https://youtu.be/Tj1Vraltvq8
+video.1.author: iwatatube
+video.1.link: https://www.youtube.com/user/iwatatube
 zoo: 34
