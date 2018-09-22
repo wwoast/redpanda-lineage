@@ -5,7 +5,7 @@ birthplace: 37
 children: none
 en.name: Shou-Shou
 en.nicknames: none
-en.othernames: Shoushou, Sho-Sho
+en.othernames: Shoushou, Sho-Sho, Syo-Syo, Syosyo, Shosho
 gender: m
 jp.name: 守守
 jp.nicknames: none
@@ -19,4 +19,7 @@ photo.2: https://www.instagram.com/p/BlpnnT4lLoA/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
 species: 2
+video.1: https://youtu.be/T0UIB96RKQI
+video.1.author: harry
+video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
 zoo: 37
