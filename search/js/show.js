@@ -1166,22 +1166,26 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
 // This makes it so that only a single page reflow occurs when navigating images.
 Show.displayPhotoPreload = function(entity_id, photo_id) {
   var imgs = [];
+  var default_photo = Pandas.def.animal["photo.1"];
   var prev_photo = "photo." + (parseInt(photo_id) - 1).toString();
   var next_photo = "photo." + (parseInt(photo_id) + 1).toString();
   var count = Show.photoCount(entity_id);
   var last_photo = "photo." + count.toString();
   var animal = Pandas.searchPandaId(entity_id)[0];
-  if (Pandas.field(animal, prev_photo) != Pandas.def.animal["photo.1"]) {
+  if (Pandas.field(animal, prev_photo) != default_photo) {
     imgs.push(animal[prev_photo]);
   } else {
     imgs.push(animal[last_photo]);  // Before first item is the last photo in the list
   }
-  if (Pandas.field(animal, next_photo) != Pandas.def.animal["photo.1"]) {
+  if (Pandas.field(animal, next_photo) != default_photo) {
     imgs.push(animal[next_photo]);
   } else {
     imgs.push(animal["photo.1"]);  // After last item is back to the first
   }
-  return imgs;
+  // If any of the photos we tried to preload are undefined, remove them from the preload list
+  return imgs.filter(function( element ) {
+    return element !== undefined;
+  });
 }
 
 // Touchable carousels for every loaded photo.
