@@ -256,6 +256,10 @@ div.pandaPhoto span.navigator {
     width: 36px;
 }
 
+img.preload {
+    display: none;
+}
+
 div.pandaDossier, div.zooDossier {
     display: table-cell;
     vertical-align: top;

@@ -1123,6 +1123,17 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
   var div = document.createElement('div');
   div.className = frame_class;
   div.appendChild(image);
+  // Preload the next and previous images to avoid double-reflow problems
+  if (frame_class == "pandaPhoto") {
+    var preloads = Show.displayPhotoPreload(entity_id, photo_id);
+    for (var preload of preloads) {
+      var pre_img = document.createElement('img');
+      pre_img.className = "pandaPhoto preload";
+      pre_img.src = preload;
+      div.appendChild(pre_img);
+    }
+  }
+  // Return the new div
   Show.displayPhotoTouch(image);
   return div;
 }
@@ -1149,6 +1160,32 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
   }
   link.appendChild(span);
   return link;
+}
+
+// Preload one photo ahead, and one photo behind, into the page without displaying them. 
+// This makes it so that only a single page reflow occurs when navigating images.
+Show.displayPhotoPreload = function(entity_id, photo_id) {
+  var imgs = [];
+  var default_photo = Pandas.def.animal["photo.1"];
+  var prev_photo = "photo." + (parseInt(photo_id) - 1).toString();
+  var next_photo = "photo." + (parseInt(photo_id) + 1).toString();
+  var count = Show.photoCount(entity_id);
+  var last_photo = "photo." + count.toString();
+  var animal = Pandas.searchPandaId(entity_id)[0];
+  if (Pandas.field(animal, prev_photo) != default_photo) {
+    imgs.push(animal[prev_photo]);
+  } else {
+    imgs.push(animal[last_photo]);  // Before first item is the last photo in the list
+  }
+  if (Pandas.field(animal, next_photo) != default_photo) {
+    imgs.push(animal[next_photo]);
+  } else {
+    imgs.push(animal["photo.1"]);  // After last item is back to the first
+  }
+  // If any of the photos we tried to preload are undefined, remove them from the preload list
+  return imgs.filter(function( element ) {
+    return element !== undefined;
+  });
 }
 
 // Touchable carousels for every loaded photo.
@@ -1359,7 +1396,7 @@ Show.photoPrevious = function(animal_id) {
 
 // Switch the currently displayed photo to the next one in the list
 Show.photoSwap = function(photo, desired_index) {
-  var span_link = photo.parentNode.childNodes[1];
+  var span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
   var [animal_id, _, photo_id] = photo.id.split("/");
   var animal = Pandas.searchPandaId(animal_id)[0];
   var photo_manifest = Pandas.photoManifest(animal);
