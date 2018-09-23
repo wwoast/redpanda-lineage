@@ -712,6 +712,20 @@ Show.emptyLink = function(output_text) {
   return a;
 }
 
+Show.fade = function(el) {
+  el.style.display = "block";
+  var op = 1;  // initial opacity
+  var timer = setInterval(function () {
+    if (op <= 0.1){
+      clearInterval(timer);
+      el.style.display = 'none';
+    }
+    el.style.opacity = op;
+    el.style.filter = 'alpha(opacity=' + op * 100 + ")";
+    op -= op * 0.1;
+  }, 40);
+}
+
 // Read from info.othernames, and if it's not a language default, 
 // add an alternate spelling to the name information.
 Show.furigana = function(name, othernames) {
@@ -1144,6 +1158,7 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 Show.displayPhotoNavigation = function(animal_id, photo_id) {
   var link = document.createElement('a');
   link.className = "navigatorLink";
+  link.id = animal_id + "/navigator";
   link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
@@ -1197,6 +1212,9 @@ Show.displayPhotoTouch = function(photo) {
   }, true);
   photo.addEventListener('touchend', function(event) {
     Touch.end(event, T);
+    var navigator_id = this.id.split("/")[0] + "/navigator";
+    var navigator = document.getElementById(navigator_id);  
+    Show.fade(navigator);
   }, true);
   photo.addEventListener('touchmove', function(event) {
     Touch.move(event, T);
