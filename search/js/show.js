@@ -1218,9 +1218,6 @@ Show.displayPhotoTouch = function(photo) {
   }, true);
   photo.addEventListener('touchend', function(event) {
     Touch.end(event, T);
-    var navigator_id = this.id.split("/")[0] + "/navigator";
-    var navigator = document.getElementById(navigator_id);  
-    Show.fade(navigator);
   }, true);
   photo.addEventListener('touchmove', function(event) {
     Touch.move(event, T);

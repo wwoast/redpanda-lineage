@@ -119,9 +119,13 @@ Touch.swipeDirection = function(T) {
 // Callback to change the photo based on where the touch event happened
 Touch.process = function(T) {
   var animal_id = T.triggerElementID.split('/')[0];
+  var navigator_id = animal_id + "/navigator";
+  var navigator = document.getElementById(navigator_id);
   if ( T.swipeDirection == 'right' ) {
     Show.photoPrevious(animal_id);
+    Show.fade(navigator);
   } else if ( T.swipeDirection == 'left' ) {
     Show.photoNext(animal_id);
+    Show.fade(navigator);
   }
 }
