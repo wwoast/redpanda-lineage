@@ -714,18 +714,22 @@ Show.emptyLink = function(output_text) {
 
 // Used to fade the dogear menu for selecting photos
 Show.fade = function(el) {
-  el.style.display = "none";
-  el.style.display = "block";
   var op = 1;  // initial opacity
+  if (el.style.display == "none" || el.style.display == "") {
+    el.style.display = "block";
+  } else {
+    el.style.opacity = op;  // Reset the opacity and let exisitng fade just run
+    return;
+  }
   var timer = setInterval(function () {
-    if (op <= 0.1){
+    if (op <= 0.05){
       clearInterval(timer);
       el.style.display = 'none';
     }
     el.style.opacity = op;
     el.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= op * 0.1;
-  }, 32);
+    op -= 0.15;
+  }, 40);
 }
 
 // Read from info.othernames, and if it's not a language default, 
@@ -1158,10 +1162,10 @@ Show.displayPhoto = function(photo, entity_id, photo_id, frame_class, fallback) 
 
 // The hover over or swipe menu for photo navigation
 Show.displayPhotoNavigation = function(animal_id, photo_id) {
-  var link = document.createElement('a');
-  link.className = "navigatorLink";
-  link.id = animal_id + "/navigator";
-  link.href = "javascript:;";
+  var span_link = document.createElement('a');
+  span_link.className = "navigatorLink";
+  span_link.id = animal_id + "/navigator";
+  span_link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
   // Clickable dogears when you have a carousel of more than one photo
@@ -1169,16 +1173,16 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
     span.innerText = Show.emoji.no_more;
   } else {
     span.innerText = photo_id;
-    link.addEventListener('click', function() {  // Left click event
+    span_link.addEventListener('click', function() {  // Left click event
       Show.photoNext(animal_id);
     });
-    link.addEventListener('contextmenu', function(e) {   // Right click event
+    span_link.addEventListener('contextmenu', function(e) {   // Right click event
       e.preventDefault();   // Prevent normal context menu from firing
       Show.photoPrevious(animal_id);
     });
   }
-  link.appendChild(span);
-  return link;
+  span_link.appendChild(span);
+  return span_link;
 }
 
 // Preload one photo ahead, and one photo behind, into the page without displaying them. 
@@ -1214,9 +1218,6 @@ Show.displayPhotoTouch = function(photo) {
   }, true);
   photo.addEventListener('touchend', function(event) {
     Touch.end(event, T);
-    var navigator_id = this.id.split("/")[0] + "/navigator";
-    var navigator = document.getElementById(navigator_id);  
-    Show.fade(navigator);
   }, true);
   photo.addEventListener('touchmove', function(event) {
     Touch.move(event, T);
