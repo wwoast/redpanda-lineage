@@ -728,7 +728,7 @@ Show.fade = function(el) {
     }
     el.style.opacity = op;
     el.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= 0.15;
+    op -= 0.10;
   }, 40);
 }
 
