@@ -54,7 +54,7 @@ Touch.move = function(event, T) {
 }
 
 Touch.end = function(event, T) {
-  // event.preventDefault();
+  event.preventDefault();
   if (T.fingerCount == 1 && T.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
