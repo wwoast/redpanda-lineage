@@ -728,7 +728,7 @@ Show.fade = function(el) {
     }
     el.style.opacity = op;
     el.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= 0.15;
+    op -= 0.10;
   }, 40);
 }
 
@@ -1440,6 +1440,8 @@ Show.photoSwap = function(photo, desired_index) {
   // Replace the span navigation id if we have an actual carousel
   if (max_index > 1) {
     span_link.childNodes[0].innerText = new_index.toString();
+  } else {
+    return;  // No carousel, no need to actually swap photos
   }
   // Actually replace the photo
   photo.parentNode.replaceChild(new_photo, photo);
