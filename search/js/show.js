@@ -453,15 +453,17 @@ Show.emoji = {
 
 // TODO: key on other language versions of country names
 Show.flags = {
-  "Bhutan": "🇧🇹",
-  "Canada": "🇨🇦",
-   "China": "🇨🇳",
-   "India": "🇮🇳",
-   "Japan": "🇯🇵",
-  "Mexico": "🇲🇽",
-   "Nepal": "🇳🇵",
-  "Taiwan": "🇹🇼",
-     "USA": "🇺🇸"
+     "Bhutan": "🇧🇹",
+     "Canada": "🇨🇦",
+      "Chile": "🇨🇱",
+      "China": "🇨🇳",
+      "India": "🇮🇳",
+      "Japan": "🇯🇵",
+     "Mexico": "🇲🇽",
+      "Nepal": "🇳🇵",
+"South Korea": "🇰🇷",
+     "Taiwan": "🇹🇼",
+        "USA": "🇺🇸"
 }
 
 Show.gui = {
