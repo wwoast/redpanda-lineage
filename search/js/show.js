@@ -712,7 +712,9 @@ Show.emptyLink = function(output_text) {
   return a;
 }
 
+// Used to fade the dogear menu for selecting photos
 Show.fade = function(el) {
+  el.style.display = "none";
   el.style.display = "block";
   var op = 1;  // initial opacity
   var timer = setInterval(function () {
@@ -723,7 +725,7 @@ Show.fade = function(el) {
     el.style.opacity = op;
     el.style.filter = 'alpha(opacity=' + op * 100 + ")";
     op -= op * 0.1;
-  }, 40);
+  }, 32);
 }
 
 // Read from info.othernames, and if it's not a language default, 
