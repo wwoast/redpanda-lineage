@@ -714,18 +714,22 @@ Show.emptyLink = function(output_text) {
 
 // Used to fade the dogear menu for selecting photos
 Show.fade = function(el) {
-  el.style.display = "none";
-  el.style.display = "block";
   var op = 1;  // initial opacity
+  if (el.style.display == "none" || el.style.display == "") {
+    el.style.display = "block";
+  } else {
+    el.style.opacity = op;  // Reset the opacity and let exisitng fade just run
+    return;
+  }
   var timer = setInterval(function () {
-    if (op <= 0.1){
+    if (op <= 0.05){
       clearInterval(timer);
       el.style.display = 'none';
     }
     el.style.opacity = op;
     el.style.filter = 'alpha(opacity=' + op * 100 + ")";
-    op -= op * 0.1;
-  }, 32);
+    op -= 0.15;
+  }, 40);
 }
 
 // Read from info.othernames, and if it's not a language default, 
