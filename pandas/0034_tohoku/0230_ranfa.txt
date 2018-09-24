@@ -14,6 +14,9 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BkWJxamASuk/media/?size=m
 photo.1.author: tohokusafaripark
 photo.1.link: https://www.instagram.com/tohokusafaripark/
+photo.2: https://www.instagram.com/p/BoFr6gYlsQK/media/?size=m
+photo.2.author: roko_mm
+photo.2.link: https://www.instagram.com/roko_mm/
 species: 2
 video.1: https://youtu.be/Tj1Vraltvq8
 video.1.author: iwatatube
