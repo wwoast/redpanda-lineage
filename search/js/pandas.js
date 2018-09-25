@@ -78,21 +78,8 @@ Pandas.def.animal = {
   "jp.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
   "photo.1": "images/no-panda.jpg",
-  "photo.2": "images/no-panda.jpg",
-  "photo.3": "images/no-panda.jpg",
-  "photo.4": "images/no-panda.jpg",
-  "photo.5": "images/no-panda.jpg",
-  "photo.6": "images/no-panda.jpg",
-  "photo.7": "images/no-panda.jpg",
-  "photo.8": "images/no-panda.jpg",
-  "photo.9": "images/no-panda.jpg",
-  "photo.10": "images/no-panda.jpg",
-  "video.1": "images/no-panda.jpg",
-  "video.2": "images/no-panda.jpg",
-  "video.3": "images/no-panda.jpg",
-  "video.4": "images/no-panda.jpg",
-  "video.5": "images/no-panda.jpg",
   "species": "-1",
+  "video.1": "images/no-panda.jpg",
   "zoo": "0"
 }
 
@@ -256,8 +243,8 @@ Pandas.def.zoo = {
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
-  "photo": "No Photo Listed",
-  "video": "No Video Listed",
+  "photo": "images/no-zoo.jpg",
+  "video": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
 
