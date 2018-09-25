@@ -279,10 +279,9 @@ Pandas.photoGeneratorEntity = function*(entity, index=0) {
 
 // Generates a valid index to a photo for a panda entity, up to the
 // max index.
-// TODO: max index should be in the dataset, representing
-// the most photos a single panda entity has recorded. 
-Pandas.photoGeneratorMax = function*(max) {
+Pandas.photoGeneratorMax = function*() {
   var index = 0;
+  var max = P.db["_photo"]["entity_max"];
   while (index < index + 1) {
     index++;
     if (index > max) {
@@ -456,7 +455,7 @@ Pandas.searchPhotoCredit = function(author) {
     nodes = nodes.concat(search);
   }
   // Gets panda photos
-  for (let field_name of photo_fields(10)) {
+  for (let field_name of photo_fields()) {
     var query = {};
     query[field_name + ".author"] = author;
     var search = G.v(query).run();
@@ -659,20 +658,14 @@ Pandas.othernames = function(animal, language) {
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
 }
 
-// TODO: support more than the max of 10
+// Find all available photos for a specific animal
 Pandas.photoManifest = function(animal) {
   // Find the available photo indexes between one and ten
-  var photos = {
-    "photo.1": Pandas.field(animal,  "photo.1"),
-    "photo.2": Pandas.field(animal,  "photo.2"),
-    "photo.3": Pandas.field(animal,  "photo.3"),
-    "photo.4": Pandas.field(animal,  "photo.4"),
-    "photo.5": Pandas.field(animal,  "photo.5"),
-    "photo.6": Pandas.field(animal,  "photo.6"),
-    "photo.7": Pandas.field(animal,  "photo.7"),
-    "photo.8": Pandas.field(animal,  "photo.8"),
-    "photo.9": Pandas.field(animal,  "photo.9"),
-   "photo.10": Pandas.field(animal, "photo.10")
+  var photos = {};
+  var photo_fields = Pandas.photoGeneratorEntity;
+  // Gets panda photos
+  for (let field_name of photo_fields(animal)) {
+    photos[field_name] = Pandas.field(animal, field_name);
   }
   // Filter out any keys that have the default value
   photos = Object.keys(photos).reduce(function(filtered, key) {
