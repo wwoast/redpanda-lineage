@@ -279,10 +279,9 @@ Pandas.photoGeneratorEntity = function*(entity, index=0) {
 
 // Generates a valid index to a photo for a panda entity, up to the
 // max index.
-// TODO: max index should be in the dataset, representing
-// the most photos a single panda entity has recorded. 
-Pandas.photoGeneratorMax = function*(max) {
+Pandas.photoGeneratorMax = function*() {
   var index = 0;
+  var max = P.db["_photo"]["entity_max"];
   while (index < index + 1) {
     index++;
     if (index > max) {
@@ -456,7 +455,7 @@ Pandas.searchPhotoCredit = function(author) {
     nodes = nodes.concat(search);
   }
   // Gets panda photos
-  for (let field_name of photo_fields(10)) {
+  for (let field_name of photo_fields()) {
     var query = {};
     query[field_name + ".author"] = author;
     var search = G.v(query).run();
