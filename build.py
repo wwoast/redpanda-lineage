@@ -51,6 +51,7 @@ class RedPandaGraph:
         self.panda_files = []
         self.photo = {}
         self.photo["credit"] = {}
+        self.photo["max"] = 0
         self.vertices = []
         self.zoos = []
         self.zoo_files = []
@@ -199,6 +200,7 @@ class RedPandaGraph:
         export['_totals'] = {}
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
+        export['_photo']['entity_max'] = self.photo['max']
         export['_totals']['zoos'] = len(self.zoos)
         export['_totals']['pandas'] = self.sum_pandas()
         with open(destpath, 'wb') as wfh:
@@ -307,6 +309,11 @@ class RedPandaGraph:
                     self.photo["credit"][author] = self.photo["credit"][author] + 1
                 else:
                     self.photo["credit"][author] = 1
+                # Track what the max number of panda photos an object has is
+                test_count = int(field[0].split(".")[1])
+                if test_count > self.photo["max"]:
+                    self.photo["max"] = test_count
+                # Accept the data and continue
                 panda_vertex[field[0]] = field[1]
             else:
                 # Accept the data and move along
