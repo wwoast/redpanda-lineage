@@ -1,0 +1,15 @@
+[panda]
+_id: 341
+birthday: unknown
+birthplace: unknown
+death: unknown
+children: 66, 112
+en.name: Lala
+en.nicknames: none
+en.othernames: Rara, Lara
+gender: f
+jp.name: ララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+zoo: 13
