@@ -1,14 +1,14 @@
 [panda]
-_id: 223
+_id: 341
 birthday: unknown
 birthplace: unknown
 death: unknown
-children: 84, 122
-en.name: Cha-Cha
+children: 66, 112
+en.name: Lala
 en.nicknames: none
-en.othernames: none
+en.othernames: Rara, Lara
 gender: f
-jp.name: チャチャ
+jp.name: ララ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

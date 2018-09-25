@@ -1,0 +1,15 @@
+[panda]
+_id: 340
+birthday: unknown
+birthplace: unknown
+death: unknown
+children: 84, 122, 66, 112
+en.name: Chun-Chun
+en.nicknames: none
+en.othernames: Chunchun, Syun-Syun, Syunsyun
+gender: m
+jp.name: 純純
+jp.nicknames: none
+jp.othernames: シュンシュン
+language.order: jp, en
+zoo: 13
