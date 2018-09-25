@@ -92,6 +92,7 @@ Pandas.def.animal = {
   "video.3": "images/no-panda.jpg",
   "video.4": "images/no-panda.jpg",
   "video.5": "images/no-panda.jpg",
+  "species": "-1",
   "zoo": "0"
 }
 
@@ -255,10 +256,8 @@ Pandas.def.zoo = {
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
-  "photo.1": "No Photo Listed",
-  "photo.2": "No Photo Listed",
-  "video.1": "No Video Listed",
-  "video.2": "No Video Listed",
+  "photo": "No Photo Listed",
+  "video": "No Video Listed",
   "website": "https://www.worldwildlife.org/"
 }
 
@@ -606,7 +605,17 @@ Pandas.date = function(animal, field, language) {
 // Given a field that doesn't have language information associated with it,
 // return either the field if it exists, or some reasonable default.
 Pandas.field = function(animal, field) {
-  return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+  if (animal[field] != undefined) {
+    return animal[field];
+  } else if (Pandas.def.animal[field] != undefined ) {
+    return Pandas.def.animal[field];
+  } else if (field.indexOf("photo.") == 0) {
+    return Pandas.def.animal["photo.1"];
+  } else if (field.indexOf("video.") == 0) {
+    return Pandas.def.animal["video.1"];
+  } else {
+    return undefined;
+  }
 }
 
 // Given an animal and a language, return the proper gender string.
