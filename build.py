@@ -384,7 +384,11 @@ def vitamin():
         "export/redpanda.json",
         "search/index.html",
         "search/js/pandas.js",
-        "search/js/show.js"
+        "search/js/show.js",
+        "search/fragments/en/about.html",
+        "search/fragments/jp/about.html",
+        "search/fragments/en/links.html",
+        "search/fragments/jp/links.html"
     ]
     for fn in manifest:
         with open(fn, 'r') as rfh:
