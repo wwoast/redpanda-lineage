@@ -784,13 +784,13 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
 // Create a link to a location in Google Maps. This replaces the
 // older content from Show.homeLocation, but I may want to make use
 // of that function in the future.
-Show.locationLink = function(zoo, address, language) {
+Show.locationLink = function(zoo, language) {
   // Don't print content if the input id is zero
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Pandas.def.zoo[language + ".location"];
   }
   var link_text = Show.emoji.map + " " + Show.flags[zoo.flag];
-  var google_search = "https://www.google.com/maps/search/" + address;
+  var google_search = zoo['map'];
   var a = document.createElement('a');
   a.href = google_search;
   a.innerText = link_text;
@@ -948,7 +948,7 @@ Show.displayPandaDetails = function(info) {
   // Location shows a map icon and a flag icon, and links to
   // a Google Maps search for the "<language>.address" field
   var location = document.createElement('p');
-  var location_link = Show.locationLink(info.zoo, info.zoo[language + ".address"], language);
+  var location_link = Show.locationLink(info.zoo, language);
   location.appendChild(location_link);
   // Give credit for the person that took this photo
   var credit_link = document.createElement('a');

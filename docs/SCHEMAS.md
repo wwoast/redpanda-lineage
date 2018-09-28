@@ -19,13 +19,14 @@ _id: <monotonic-ascending-number, assign one if none given>
 birthday: <date string> 
 birthplace: <zoo-names-translated-into-zoo-id> 
 children: <list-of-names-translated-into-panda-ids, alert on name collisions> 
-en.name: harumaki 
+en.name: Harumaki 
 en.nicknames: <common nicknames>
 en.othernames: <alternate spellings> 
 gender: <m|f, or japanese male/female terms>
 jp.name: <utf8-string>
 jp.nicknames: <utf8-strings with comma separator>
 jp.othernames: <utf8-strings with comma separator>
+language.order: <list-of-language-prefixes-most-meaningful-for-this-entity>
 litter: <list-of-names-translated-into-panda-ids, alert on name collisions> 
 photo.1: <url>
 photo.2: <url>
@@ -50,6 +51,8 @@ en.name: ichikawa zoological park and gardens
 jp.address: <google maps address info from google.jp>
 jp.location: <utf8-string> 
 jp.name: <utf8-string>
+language.order: <list-of-language-prefixes-most-meaningful-for-this-entity>
+map: <google-maps-shortlink-to-this-location>
 photo.1: <url>
 photo.2: <url>
 video.1: <url>
