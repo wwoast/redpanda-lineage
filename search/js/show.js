@@ -635,6 +635,7 @@ Show.acquireZooInfo = function(zoo, language) {
       "language": language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, language + ".location"),
+           "map": Pandas.zooField(zoo, "map"),
           "name": Pandas.zooField(zoo, language + ".name"),
          "photo": Pandas.zooField(zoo, "photo"),
   "photo_credit": Pandas.zooField(zoo, "photo.author"),
@@ -1249,7 +1250,10 @@ Show.displayZooDetails = function(info) {
   }
   counts.innerText = Show.emoji.animal + " " + count_text[language];
   var address = document.createElement('p');
-  address.innerText = Show.emoji.travel + " " + info.address;
+  var address_link = document.createElement('a');
+  address_link.innerText = Show.emoji.travel + " " + info.address;
+  address_link.href = info.map;
+  address.appendChild(address_link);
   var zoo_page = document.createElement('p');
   var zoo_link = document.createElement('a');
   zoo_link.href = info.website;
