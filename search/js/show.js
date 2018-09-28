@@ -795,6 +795,7 @@ Show.locationLink = function(zoo, language) {
   var a = document.createElement('a');
   a.href = google_search;
   a.innerText = link_text;
+  a.target = "_blank";   // Open in new tab
   return a;
 }
 
@@ -955,6 +956,7 @@ Show.displayPandaDetails = function(info) {
   var credit_link = document.createElement('a');
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
+  credit_link.target = "_blank";   // Open in new tab
   credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
   var credit = document.createElement('p');
   credit.appendChild(credit_link);
@@ -1253,10 +1255,12 @@ Show.displayZooDetails = function(info) {
   var address_link = document.createElement('a');
   address_link.innerText = Show.emoji.travel + " " + info.address;
   address_link.href = info.map;
+  address_link.target = "_blank";   // Open in new tab
   address.appendChild(address_link);
   var zoo_page = document.createElement('p');
   var zoo_link = document.createElement('a');
   zoo_link.href = info.website;
+  zoo_link.target = "_blank";   // Open in new tab
   zoo_link.innerText = Show.emoji.website + " " + info.name;
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
@@ -1381,6 +1385,7 @@ Show.pandaPhotoCredits = function(animal, credit, language) {
     var img_link = document.createElement('a');
     // Link to the original instagram media
     img_link.href = photo.replace("/media/?size=m", "");
+    img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
     img.src = photo.replace('/?size=m', '/?size=t');
     img_link.appendChild(img);
@@ -1455,6 +1460,7 @@ Show.photoSwap = function(photo, desired_index) {
   var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
   credit_link.id = animal_id + "/author/" + new_index;
   credit_link.href = photo_info["link"];
+  credit_link.target = "_blank";   // Open in new tab
   credit_link.innerText = Show.emoji.camera + " " + photo_info["credit"];
   // And the photographer credit's apple points
   var apple_link = document.getElementById(animal_id + "/counts/" + photo_id);
@@ -1488,6 +1494,7 @@ Show.zooPhotoCredits = function(zoo, language) {
   var img_link = document.createElement('a');
   // Link to the original instagram media
   img_link.href = zoo.photo.replace("/media/?size=m", "");
+  img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
   img.src = zoo.photo;
   img_link.appendChild(img);
