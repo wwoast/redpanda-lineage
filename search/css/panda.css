@@ -509,7 +509,7 @@ div.detailsFamily {
 }
 
 div#contentFrame.about, div#contentFrame.links {
-    background: linear-gradient(#366938, #002200); /* Light to dark, top to bottom */
+    background: radial-gradient(ellipse at top, #366938, #002200); /* Light to dark, top to bottom */
 }
 
 div#contentFrame.about div.shrinker, div#contentFrame.links div.shrinker {
