@@ -1,0 +1,18 @@
+[panda]
+_id: 247
+birthday: 2018/6/28
+birthplace: 1
+en.name: Shiro
+en.nicknames: none
+en.othernames: none 
+gender: f
+jp.name: シロちゃん
+jp.nicknames: none
+jp.othernames: 仮
+language.order: jp, en
+litter: 246
+photo.1: https://www.instagram.com/p/BoelF1LFi49/media/?size=m
+photo.1.author: na.mo.pan
+photo.1.link: https://www.instagram.com/na.mo.pan/
+species: 2
+zoo: 1

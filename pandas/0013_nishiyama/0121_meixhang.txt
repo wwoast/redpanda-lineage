@@ -5,7 +5,7 @@ birthplace: 13
 children: unknown
 en.name: Meixhang
 en.nicknames: Adorabear
-en.othernames: Meisyan, Mei-Shan, Mei-Xhang, Mexxiang, Mei-xiang
+en.othernames: Meisyan, Mei-Shan, Mei-Xhang, Meixiang, Mei-xiang
 gender: f
 jp.name: めいしゃん
 jp.nicknames: none
@@ -29,5 +29,8 @@ photo.5.link: https://www.instagram.com/minato.yokohama2130/
 photo.6: https://www.instagram.com/p/BobmezrlC5u/media/?size=m
 photo.6.author: redpanda77f
 photo.6.link: https://www.instagram.com/redpanda77f/
+photo.7: https://www.instagram.com/p/BofTX3yhJzB/media/?size=m
+photo.7.author: resapanlove
+photo.7.link: https://www.instagram.com/resapanlove/
 species: 2
 zoo: 13
