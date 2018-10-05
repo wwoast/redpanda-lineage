@@ -2,7 +2,7 @@ language: python
 python:
   - '3.4'
 sudo: false
-script: ./build.py --vitamin
+script: ./build.py --publish
 after_success: 
   - git mv export search/export
   - git commit -a -m "publish redpanda.json in search directory"
