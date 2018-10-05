@@ -5,9 +5,6 @@ sudo: false
 script: ./build.py --publish
 after_success:
   - rm .gitignore
-  - git add export/redpanda.json
-  - git mv export search/export
-  - git commit -a -m "publish redpanda.json in search directory"
 deploy:
   provider: pages
   skip-cleanup: true
