@@ -382,13 +382,13 @@ def vitamin():
     lists = []
     manifest = [
         "export/redpanda.json",
-        "search/index.html",
-        "search/js/pandas.js",
-        "search/js/show.js",
-        "search/fragments/en/about.html",
-        "search/fragments/jp/about.html",
-        "search/fragments/en/links.html",
-        "search/fragments/jp/links.html"
+        "index.html",
+        "js/pandas.js",
+        "js/show.js",
+        "fragments/en/about.html",
+        "fragments/jp/about.html",
+        "fragments/en/links.html",
+        "fragments/jp/links.html"
     ]
     for fn in manifest:
         with open(fn, 'r') as rfh:
@@ -398,10 +398,10 @@ def vitamin():
     lists.sort()
     vitamin += ''.join(lists).replace("\n", "")
     page = ""
-    with open("search/index.html", mode='r', encoding='utf-8') as rfh:
+    with open("index.html", mode='r', encoding='utf-8') as rfh:
         page = rfh.read()
         page = page.replace('${vitamins}', vitamin)
-    with open("search/index.html", mode='w', encoding="utf-8") as wfh:
+    with open("index.html", mode='w', encoding="utf-8") as wfh:
         wfh.write(page)
 
 if __name__ == '__main__':
