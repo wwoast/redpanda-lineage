@@ -411,5 +411,5 @@ if __name__ == '__main__':
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
-        if sys.argv[1] == "--vitamin":
+        if sys.argv[1] == "--publish":
             vitamin()
