@@ -3,7 +3,9 @@ python:
   - '3.4'
 sudo: false
 script: ./build.py --vitamin
-after_success: rm .gitignore
+after_success: 
+  - git mv export search/export
+  - git commit -a -m "publish redpanda.json in search directory"
 deploy:
   provider: pages
   skip-cleanup: true
