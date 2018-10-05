@@ -200,7 +200,7 @@ function checkHashes() {
 
 // Fetch the about page contents
 function fetchAboutPage() {
-  var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
+  var base = "https://wwoast.github.io/redpanda-lineage/fragments/";
   var specific = L.display + "/about.html";
   var fetch_url = base + specific;
   var request = new XMLHttpRequest();
@@ -216,7 +216,7 @@ function fetchAboutPage() {
 
 // Fetch the links page contents
 function fetchLinksPage() {
-  var base = "https://wwoast.github.io/redpanda-lineage/search/fragments/";
+  var base = "https://wwoast.github.io/redpanda-lineage/fragments/";
   var specific = L.display + "/links.html";
   var fetch_url = base + specific;
   var request = new XMLHttpRequest();
@@ -651,8 +651,8 @@ Show.acquireZooInfo = function(zoo, language) {
 // link within the page, versus a page wipe and redisplay.
 // Default link text requires a language translation.
 // Examples:
-//    https://domain/search/index.html#panda/Lychee
-//    https://domain/search/index.html#panda/4
+//    https://domain/index.html#panda/Lychee
+//    https://domain/index.html#panda/4
 Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
@@ -798,7 +798,7 @@ Show.locationLink = function(zoo, language) {
 }
 
 // Construct a zoo link as per design docs. Examples:
-//    https://domain/search/index.html#zoo/1
+//    https://domain/index.html#zoo/1
 // Show.zooLink = function(zoo, link_text, options) {
 Show.zooLink = function(zoo, link_text, language, options) {
   // Don't print content if the input id is zero
