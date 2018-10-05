@@ -200,7 +200,7 @@ function checkHashes() {
 
 // Fetch the about page contents
 function fetchAboutPage() {
-  var base = "https://wwoast.github.io/redpanda-lineage/fragments/";
+  var base = "/fragments/";
   var specific = L.display + "/about.html";
   var fetch_url = base + specific;
   var request = new XMLHttpRequest();
@@ -216,7 +216,7 @@ function fetchAboutPage() {
 
 // Fetch the links page contents
 function fetchLinksPage() {
-  var base = "https://wwoast.github.io/redpanda-lineage/fragments/";
+  var base = "/fragments/";
   var specific = L.display + "/links.html";
   var fetch_url = base + specific;
   var request = new XMLHttpRequest();
