@@ -552,8 +552,8 @@ Show.gui = {
   },
   "title": {
     "cn": "TOWRITE",
-    "en": "Red Panda Family",
-    "jp": "レッサーパンダのファミリー"
+    "en": "Red Panda Finder",
+    "jp": "レッサーパンダのファインダー"
   }
 }
 
