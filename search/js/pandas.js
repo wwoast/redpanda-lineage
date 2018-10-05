@@ -17,8 +17,9 @@ Pandas.init = function() {
   
   XMLHttpRequest the JSON panda data once all basic scripts have loaded.
   Then return the big chunk of data, along with our query functions.
+  Relative db_url is appended to the hostname being visited.
   */ 
-  var db_url = "https://wwoast.github.io/redpanda-lineage/export/redpanda.json";
+  var db_url = "/export/redpanda.json";
  
   var pandas = Object.create(Pandas.P); 
   var request = new XMLHttpRequest();
