@@ -1,6 +1,5 @@
 [zoo]
 _id: 47
-country: USA
 en.address: 748 Story Rd, San Jose, CA 95112 USA
 en.location: San Jose, CA, USA
 en.name: Happy Hollow Park & Zoo

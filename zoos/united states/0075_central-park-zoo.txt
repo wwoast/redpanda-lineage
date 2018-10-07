@@ -1,0 +1,12 @@
+[zoo]
+_id: 75
+en.address: E 64th St, New York, NY 10021
+en.location: New York City, NY, USA
+en.name: Woodland Park Zoo
+flag: USA
+jp.address: E 64th St、ニューヨーク、ニューヨーク10021
+jp.location: ニューヨーク ニューヨーク
+jp.name: セントラルパーク動物園
+language.order: en, jp
+map: https://goo.gl/maps/Jj2bHyYZhZ92
+website: https://centralparkzoo.com/

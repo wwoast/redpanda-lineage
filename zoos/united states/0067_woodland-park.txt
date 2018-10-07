@@ -1,6 +1,5 @@
 [zoo]
 _id: 67
-country: USA
 en.address: 5500 Phinney Ave N, Seattle, WA 98103
 en.location: Seattle, WA, USA
 en.name: Woodland Park Zoo
