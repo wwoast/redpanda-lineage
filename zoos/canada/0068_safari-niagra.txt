@@ -1,8 +1,9 @@
 [zoo]
 _id: 68
 en.address: 2821 Stevensville Rd, Stevensville, ON L0S 1S0, Canada
-en.location: Fort Erie, Ontario
+en.location: Fort Erie, Ontario, Canada
 en.name: Safari Niagra
+flag: Canada
 language.order: en
 map: https://goo.gl/maps/PkYjqGk5rX22
 website: https://safariniagara.com/
