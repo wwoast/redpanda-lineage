@@ -5,11 +5,12 @@ birthplace: 45
 children: none
 en.name: Aka-chan
 en.nicknames: none
-en.othernames: none
+en.othernames: Aka-Chan, Akachan
 gender: unknown
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 244
+species: 2
 zoo: 45
