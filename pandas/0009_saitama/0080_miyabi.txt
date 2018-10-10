@@ -14,7 +14,7 @@ language.order: jp, en
 litter: unknown
 photo.1: https://www.instagram.com/p/BhKvQqmFPff/media/?size=m
 photo.1.author: fetorus_mami
-photo.1.link: https://www.instagram.com/p/BhKvQqmFPff/media/?size=m
+photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.2: https://www.instagram.com/p/BkPrXe4l4jt/media/?size=m
 photo.2.author: roko_mm
 photo.2.link: https://www.instagram.com/roko_mm/
@@ -39,5 +39,8 @@ photo.8.link: https://www.instagram.com/l_ma_photos/
 photo.9: https://www.instagram.com/p/Be_xCT0A4XB/media/?size=m
 photo.9.author: s.okano521
 photo.9.link: https://www.instagram.com/s.okano521/
+photo.10: https://www.instagram.com/p/BotxNDslbLp/media/?size=m
+photo.10.author: lespan33
+photo.10.link: https://www.instagram.com/lespan33/
 species: 2
 zoo: 9
