@@ -11,6 +11,7 @@ jp.name: よもぎ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 204
 photo.1: https://www.instagram.com/p/BlRZegmlPo4/media/?size=m
 photo.1.author: love__mitarashi
 photo.1.link: https://www.instagram.com/love__mitarashi/
@@ -26,4 +27,5 @@ photo.4.link: https://www.instagram.com/tabechum/
 photo.5: https://www.instagram.com/p/BjTli4-lseC/media/?size=m
 photo.5.author: tabechum
 photo.5.link: https://www.instagram.com/tabechum/
+species: 2
 zoo: 35
