@@ -427,7 +427,7 @@ div.pandaLinks ul.panda li:before {
     margin-right: 8px;
 }
 
-div.pandaAbout h5.caption > a, div.pandaAbout h4 > a, div.pandaLinks > ul > li > a {
+div.pandaAbout h5.caption > a, div.pandaAbout h4, div.pandaAbout h4 > a, div.pandaLinks > ul > li > a {
     color: white;
     text-decoration: none !important;
 }
