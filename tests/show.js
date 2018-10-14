@@ -420,6 +420,7 @@ Show.emoji = {
   "animal": "🐼",
    "alien": "👽",
    "arrow": "➡",
+  "author": "✍️",
 "birthday": "🎂",
     "baby": "👶🏻", 
     "born": "👼",
