@@ -6,7 +6,7 @@ children: none
 death: 2016/2/2
 en.name: Fran
 en.nicknames: none
-en.othernames: none 
+en.othernames: Furan 
 gender: m
 jp.name: フラン
 jp.nicknames: none
@@ -23,4 +23,7 @@ photo.3: http://www.city.ichikawa.lg.jp/common/000222386.JPG
 photo.3.author: ichikawa.zoo
 photo.3.link: http://www.city.ichikawa.lg.jp/zoo/index.html
 species: 2
+video.1: https://youtu.be/vq8fxKQBMGA
+video.1.author: ガメ
+video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
 zoo: 1
