@@ -113,10 +113,18 @@ form {
 input.search {
     font-family: sans-serif;
     border-radius: 0;  /* Disable rounding on iOS */
+    font-size: 38pt;
+    width: 100%;
+    border: 0px solid;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 input[type='text'] {
     font-family: sans-serif;
+    vertical-align: middle;
+    border-radius: 0;  /* Disable rounding on iOS */
 }
 
 input.search[disabled] {
@@ -127,14 +135,6 @@ input.search[disabled] {
 input.search[disabled]::placeholder {
     background-color: white;
     color: lightgray;
-}
-
-input.search {
-    font-size: 38pt;
-    width: 100%;
-    border: 0px solid;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
 }
 
 input#searchSubmit {
