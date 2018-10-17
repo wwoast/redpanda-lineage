@@ -1,7 +1,7 @@
 [panda]
 _id: 339
-birthday: unknown
-birthplace: unknown
+birthday: 1999/7/21
+birthplace: 42
 children: unknown
 en.name: Miku
 en.nicknames: none 
