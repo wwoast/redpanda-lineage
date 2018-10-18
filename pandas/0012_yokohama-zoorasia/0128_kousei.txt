@@ -1,7 +1,7 @@
 [panda]
 _id: 128
 birthday: 2000/6/27
-birthplace: unknown
+birthplace: 13
 children: unknown
 death: 2018/4/3
 en.name: Kousei
@@ -21,4 +21,5 @@ photo.2.link: https://www.instagram.com/miis_98/
 photo.3: https://www.instagram.com/p/BPjbjVaD2fm/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
+species: 2
 zoo: 12
