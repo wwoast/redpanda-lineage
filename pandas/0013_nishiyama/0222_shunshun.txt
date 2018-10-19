@@ -1,9 +1,9 @@
 [panda]
 _id: 222
-birthday: unknown
-birthplace: unknown
+birthday: 2001/6/28
+birthplace: 52
 death: unknown
-children: 84, 66
+children: 84, 358, 122, 66, 112
 en.name: Shun-Shun
 en.nicknames: none
 en.othernames: Shunshun
