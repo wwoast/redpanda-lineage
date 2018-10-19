@@ -1,0 +1,16 @@
+[panda]
+_id: 340
+birthday: 2005/7/7
+birthplace: 17
+children: none
+death: 2017/11/28
+en.name: An-An
+en.nicknames: none
+en.othernames: An-an, Anan
+gender: f
+jp.name: 杏杏
+jp.nicknames: none
+jp.othernames: アンアン
+language.order: jp, en
+species: 2
+zoo: 54
