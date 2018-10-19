@@ -1,0 +1,16 @@
+[panda]
+_id: 352
+birthday: 1997/6/18
+birthplace: 10
+children: 353, 354, 209, 355, 356, 207, 172, 206
+death: unknown
+en.name: Ten-Ten
+en.nicknames: none
+en.othernames: Tenten, Ten-ten
+gender: m
+jp.name: 天天
+jp.nicknames: none
+jp.othernames: テンテン
+language.order: jp, en
+species: 2
+zoo: 34

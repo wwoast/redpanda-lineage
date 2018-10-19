@@ -1,0 +1,12 @@
+[zoo]
+_id: 78
+en.address: Makgye-dong, Gwacheon-si, Gyeonggi-do, South Korea
+en.location: Gyeonggi-do, South Korea
+en.name: Seoul Zoo
+flag: South Korea
+kr.address: 경기도 과천시 막계동
+kr.location: 경기도 한국
+kr.name: 서울대공원해양동물원
+language.order: kr, en
+map: https://goo.gl/maps/HU9yotcVBXQ2
+website: http://grandpark.seoul.go.kr

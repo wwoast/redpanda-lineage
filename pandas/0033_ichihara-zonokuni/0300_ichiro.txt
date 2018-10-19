@@ -1,7 +1,7 @@
 [panda]
 _id: 300
 birthday: 2014/7/6 
-birthplace: unknown
+birthplace: 33
 children: none
 en.name: Ichiro
 en.nicknames: none

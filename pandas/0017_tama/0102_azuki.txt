@@ -1,7 +1,7 @@
 [panda]
 _id: 102
 birthday: 2010/6/14
-birthplace: unknown
+birthplace: 17
 children: 71, 164, 99, 100, 256
 en.name: Azuki
 en.nicknames: Beans 

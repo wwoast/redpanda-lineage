@@ -1,0 +1,16 @@
+[panda]
+_id: 355
+birthday: 2004/6/29
+birthplace: 34
+children: unknown
+en.name: Foa-Foa
+en.nicknames: none
+en.othernames: Foafoa
+gender: f
+jp.name: ファーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 356
+species: 2
+zoo: 78
