@@ -38,9 +38,10 @@ Query.env.clear = function() {
 */
 Query.ops = {
   "type": {
+    "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', '赤', '赤ちゃん'],
+    "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "zoo": ['Zoo', 'zoo', '動物園'],
-    "credit": ['Credit', 'credit', 'Author', 'author', '著者']
+    "zoo": ['Zoo', 'zoo', '動物園']
   },
   "subtype": {
     "alive": ['alive', 'living'],
@@ -267,6 +268,11 @@ Query.resolver = {
     if ((Query.resolver.is_id(subject) == true) &&
         (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
+    }
+    // If a baby operator is there, find babies for the most recent year.
+    // Subject must either be a year, or omitted
+    if (Query.ops.type.baby.indexOf(type) != -1) {
+      return Pandas.searchBabies(subject);
     }
     // If a credit operator is there, search for photo credits
     if (Query.ops.type.credit.indexOf(type) != -1) {

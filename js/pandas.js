@@ -254,7 +254,6 @@ Pandas.def.zoo = {
 */
 // Generates a valid index to a photo for a panda entity, up to the
 // point that said entity doesn't have a defined photo in its data.
-// TODO: rewrite Pandas.profilePhoto in terms of this
 Pandas.photoGeneratorEntity = function*(entity, index=0) {
   while (index < index + 1) {
     index++;
