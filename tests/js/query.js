@@ -30,6 +30,26 @@ Query.env.clear = function() {
   Query.env.specific = undefined;
 }
 
+Query.regexp = {};
+
+// Get a list of valid operators (the children) of the Query.obj array
+// Return the result as a single-level array
+Query.values = function(input) {
+  var results = [];
+  if (typeof input != "object") {
+    results = results.concat(input);
+  } else {
+    Object.values(input).forEach(function(subinput) {
+      if (typeof subinput != "object") {
+        results = results.concat(subinput);
+      } else {
+        results = results.concat(Query.values(subinput));
+      }
+    });
+  }
+  return results;
+}
+
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
@@ -38,9 +58,10 @@ Query.env.clear = function() {
 */
 Query.ops = {
   "type": {
+    "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', '赤', '赤ちゃん'],
+    "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "zoo": ['Zoo', 'zoo', '動物園'],
-    "credit": ['Credit', 'credit', 'Author', 'author', '著者']
+    "zoo": ['Zoo', 'zoo', '動物園']
   },
   "subtype": {
     "alive": ['alive', 'living'],
@@ -83,9 +104,28 @@ Query.ops = {
   }
 }
 
+Query.ops.group = {};
+// Type operators 
+Query.ops.group.types = Query.values(Query.ops.type);
+// Single keywords that represent queries on their own. Indexes into Query.ops
+Query.ops.group.zeroary = Query.values([
+  Query.ops.type.baby
+])
+// Unary operators
+Query.ops.group.unary = Query.values([
+  Query.ops.type,
+  Query.ops.subtype,
+  Query.ops.family
+])
+// Binary and more operators
+Query.ops.group.binary = Query.values([
+  Query.ops.logical,
+  Query.ops.family
+])
+
 // Escape any characters in the operations list that have meaning for regexes.
 // https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
-Query.safe_regexp_input = function(input) {
+Query.regexp.safe_input = function(input) {
   if (input instanceof Array) {
     return input.map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
   } else {
@@ -94,33 +134,39 @@ Query.safe_regexp_input = function(input) {
 }
 
 // Make a regex that matches all terms in an array, or matches a single term from a string
-Query.regexp = function(input) {
-  var safe = Query.safe_regexp_input(input);
+Query.regexp.match_portion = function(input) {
+  var safe = Query.regexp.safe_input(input);
   if (safe instanceof Array) {
     // Parse any one of a number of equivalent operators
-    return new RegExp(safe.join("|"), 'iu');
+    return new RegExp("(" + safe.join("|") + ")" + "[^$]", 'iu');
   } else {
     // Single string parsing
-    return new RegExp(safe);  
+    return new RegExp(safe + "[^$]");  
   }
 }
 
-// Get a list of valid operators (the children) of the Query.obj array
-// Return the result as a single-level array
-Query.values = function(input) {
-  var results = [];
-  if (typeof input != "object") {
-    results = results.concat(input);
+// Make a regexp that matches just a single term on its own
+Query.regexp.match_single = function(input) {
+  var safe = Query.regexp.safe_input(input);
+  if (safe instanceof Array) {
+    // Match any one of a number of equivalent operators
+    return new RegExp("(" + safe.join("|") + ")" + "$", 'iu');
   } else {
-    Object.values(input).forEach(function(subinput) {
-      if (typeof subinput != "object") {
-        results = results.concat(subinput);
-      } else {
-        results = results.concat(Query.values(subinput));
-      }
-    });
+    // Single string parsing
+    return new RegExp(safe + "$");
   }
-  return results;
+}
+
+// Negative lookahead to fail matching an input
+Query.regexp.match_none = function(input) {
+  var safe = Query.regexp.safe_input(input);
+  if (safe instanceof Array) {
+    // Match any one of a number of equivalent operators
+    return new RegExp("^(?!.*(" + safe.join("|") + "))", 'iu');
+  } else {
+    // Single string parsing
+    return new RegExp("^(?!.*(" + safe + "))");
+  }  
 }
 
 // Rules for reLexer. This is a series of stacked regexes that compose to match
@@ -130,18 +176,18 @@ Query.rules = {
   "id": /\d{1,5}/,
   "space": /\s+/,
   "name": /[^\s]+(\s+[^\s]+)?/,
-  "separator": /\S{1}/,
-  "divider": [
-    ':space?', ':separator?', ':space?'
-  ],
   // Operators, in various languages
-  "type": Query.regexp(Query.values(Query.ops.type)),
+  "zeroary": Query.regexp.match_single(Query.ops.group.zeroary),
+  "type": Query.regexp.match_portion(Query.ops.group.types),
   // Subjects, either an id number or a panda / zoo name
   "subject": or(
     ':id>id',
-    ':name>name',
+    ':name>name'
   ),
   // Expression types
+  "zeroaryExpression": [
+    ':zeroary>zeroary'
+  ],
   "subjectExpression": [
     ":subject>subject"
   ],
@@ -150,8 +196,9 @@ Query.rules = {
   ],
   // This is the root rule that new reLexer() starts its processing at 
   "expression": or(
-    ':typeExpression',
-    ':subjectExpression'
+    ':zeroaryExpression/1',
+    ':typeExpression/2',
+    ':subjectExpression/3'
   )
 }
 
@@ -177,14 +224,21 @@ Query.rules = {
 Query.actions = {
   "type": function(env, capture) {
     var type = capture;
+    // Don't adjust case for author searches. Switch to "photo credit" output mode
     if (Query.ops.type.credit.includes(type)) {
-      Query.env.preserve_case = true;   // Don't adjust case for author searches
-      Query.env.output = "photos";      // Switch to "photo credit" output mode
+      Query.env.preserve_case = true;
+      Query.env.output = "photos";
+    // Normal searches. Just return pandas/zoos in a later subject search.
+    // Re-capitalize to match names in the database.
     } else {
-      Query.env.preserve_case = false;  // Re-capitalize to match names in the database
-      Query.env.output = "entities";    // Show basic zoo and panda search results
+      Query.env.preserve_case = false;
+      Query.env.output = "entities";
     }
     return type;
+  },
+  "zeroary": function(env, capture) {
+    var keyword = capture;
+    return keyword;
   },
   // Parse IDs if they are valid numbers, and names as if they have proper search 
   // capitalization. Parsing here percolates down itno other expressions :)
@@ -203,6 +257,10 @@ Query.actions = {
         return Query.resolver.name(value, L.display);
     }
   },
+  // Just a single-operator expression given
+  "zeroaryExpression": function(env, captures) {
+    return Query.resolver.singleton(captures.zeroary);
+  },
   // No type given. Based on result counts, guess whether this is a panda or zoo
   "subjectExpression": function(env, captures) {
     var panda_results = Query.resolver.subject(captures.subject, "panda", L.display);
@@ -215,7 +273,6 @@ Query.actions = {
     return results;
   }
 },
-
 /* 
     Resolvers are non-callback ways to validate data from a parse. They typically
     turn some string value into a node in the Pandas graph.
@@ -258,6 +315,7 @@ Query.resolver = {
   // Process a search term, either typed as panda/zoo, or untyped,
   // into a list of nodes in the Pandas/Zoos graph
   "subject": function(subject, type, language) {
+    type = type.replace(" ", "");   // End of word $ check may add space to type
     // Explicitly search for a panda by id
     if ((Query.resolver.is_id(subject) == true) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
@@ -283,6 +341,12 @@ Query.resolver = {
     }
     if (Query.ops.type.zoo.indexOf(type) != -1) {
       return Pandas.searchZooName(Query.resolver.name(subject, language));
+    }
+  },
+  // Process searches that are just single keywords, like "babies"
+  "singleton": function(keyword) {
+    if (Query.ops.type.baby.indexOf(keyword) != -1) {
+      return Pandas.searchBabies();
     }
   }
 }
