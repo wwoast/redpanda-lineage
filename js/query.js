@@ -326,6 +326,10 @@ Query.resolver = {
         (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
     }
+    // If the baby operator is there, search for babies by year
+    if (Query.ops.type.baby.indexOf(type) != -1) {
+      return Pandas.searchBabies(subject);
+    }
     // If a credit operator is there, search for photo credits
     if (Query.ops.type.credit.indexOf(type) != -1) {
       return Pandas.searchPhotoCredit(subject);
