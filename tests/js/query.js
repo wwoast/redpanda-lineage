@@ -104,24 +104,24 @@ Query.ops = {
   }
 }
 
+Query.ops.group = {};
+// Type operators 
+Query.ops.group.types = Query.values(Query.ops.type);
 // Single keywords that represent queries on their own. Indexes into Query.ops
-Query.ops.zeroary = Query.values([
+Query.ops.group.zeroary = Query.values([
   Query.ops.type.baby
 ])
-
 // Unary operators
-Query.ops.unary = Query.values([
+Query.ops.group.unary = Query.values([
   Query.ops.type,
   Query.ops.subtype,
   Query.ops.family
 ])
-
 // Binary and more operators
-Query.ops.binary = Query.values([
+Query.ops.group.binary = Query.values([
   Query.ops.logical,
   Query.ops.family
 ])
-
 
 // Escape any characters in the operations list that have meaning for regexes.
 // https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
@@ -133,18 +133,6 @@ Query.regexp.safe_input = function(input) {
   }
 }
 
-// TEST: Old match behavior
-Query.regexp.match = function(input) {
-  var safe = Query.regexp.safe_input(input);
-  if (safe instanceof Array) {
-    // Parse any one of a number of equivalent operators
-    return new RegExp(safe.join("|"), 'iu');
-  } else {
-    // Single string parsing
-    return new RegExp(safe);  
-  }
-}
-
 // Make a regex that matches all terms in an array, or matches a single term from a string
 Query.regexp.match_portion = function(input) {
   var safe = Query.regexp.safe_input(input);
@@ -153,7 +141,7 @@ Query.regexp.match_portion = function(input) {
     return new RegExp("(" + safe.join("|") + ")" + "[^$]", 'iu');
   } else {
     // Single string parsing
-    return new RegExp(safe);  
+    return new RegExp(safe + "[^$]");  
   }
 }
 
@@ -169,6 +157,18 @@ Query.regexp.match_single = function(input) {
   }
 }
 
+// Negative lookahead to fail matching an input
+Query.regexp.match_none = function(input) {
+  var safe = Query.regexp.safe_input(input);
+  if (safe instanceof Array) {
+    // Match any one of a number of equivalent operators
+    return new RegExp("^(?!.*(" + safe.join("|") + "))", 'iu');
+  } else {
+    // Single string parsing
+    return new RegExp("^(?!.*(" + safe + "))");
+  }  
+}
+
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
@@ -177,8 +177,8 @@ Query.rules = {
   "space": /\s+/,
   "name": /[^\s]+(\s+[^\s]+)?/,
   // Operators, in various languages
-  "zeroary": Query.regexp.match_single(Query.ops.zeroary),
-  "type": Query.regexp.match_portion(Query.values(Query.ops.type)),
+  "zeroary": Query.regexp.match_single(Query.ops.group.zeroary),
+  "type": Query.regexp.match_portion(Query.ops.group.types),
   // Subjects, either an id number or a panda / zoo name
   "subject": or(
     ':id>id',
@@ -196,9 +196,9 @@ Query.rules = {
   ],
   // This is the root rule that new reLexer() starts its processing at 
   "expression": or(
-    ':typeExpression',
-    ':subjectExpression',
-    ':zeroaryExpression'
+    ':zeroaryExpression/1',
+    ':typeExpression/2',
+    ':subjectExpression/3'
   )
 }
 
@@ -257,7 +257,7 @@ Query.actions = {
         return Query.resolver.name(value, L.display);
     }
   },
-  // Just a single unary expression given
+  // Just a single-operator expression given
   "zeroaryExpression": function(env, captures) {
     return Query.resolver.singleton(captures.zeroary);
   },
