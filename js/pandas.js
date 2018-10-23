@@ -87,7 +87,8 @@ Pandas.def.animal = {
 Pandas.def.date = {
   "cn": "YYYY-MM-DD",
   "en": "MM/DD/YYYY",
-  "jp": "YYYY年MM月DD日"
+  "jp": "YYYY年MM月DD日",
+  "earliest_year": "1970"
 }
 
 Pandas.def.gender = {
@@ -281,6 +282,25 @@ Pandas.photoGeneratorMax = function*() {
 /*
     Methods for searching on Red Pandas
 */
+// Find all panda babies born within a calendar year.
+// By default, show all babies. We might also track which ones are alive or not.
+Pandas.searchBabies = function(year=new Date().getFullYear()) {
+  var today = new Date();
+  var baby_year = today.getFullYear();
+  // Process whatever comes in as a year value. If > 1970, call it a year
+  if (!(parseInt(year) > parseInt(Pandas.date.earliest_year))) {
+    baby_year = year;
+  } else {
+    baby_year = today.getFullYear();  // TODO: Year when the most recent panda was born
+  }
+  var nodes = G.v().filter(function(vertex) {
+    var their_date = new Date(vertex.birthday);
+    var their_year = their_date.getFullYear();
+    return their_year == baby_year;
+  }).unique().run();
+  return nodes;
+}
+
 // Find a pandas's direct siblings, with both the same mother and same father.
 Pandas.searchDirectSiblings = function(idnum) {
   return;   // TODO
