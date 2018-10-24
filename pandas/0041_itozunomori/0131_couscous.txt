@@ -3,9 +3,9 @@ _id: 131
 birthday: 2015/7/21 
 birthplace: 41
 children: none
-en.name: Cous-Cous
+en.name: Couscous
 en.nicknames: none
-en.othernames: Kusu-Kusu, Couscous
+en.othernames: Kusu-Kusu, Couscous, Cous-Cous
 gender: m
 jp.name: クスクス
 jp.nicknames: none
@@ -44,5 +44,8 @@ photo.10.link: https://www.instagram.com/re_ichimaru/
 photo.11: https://www.instagram.com/p/BpHEaL3F-Iu/media/?size=m
 photo.11.author: re_ichimaru
 photo.11.link: https://www.instagram.com/re_ichimaru/
+photo.12: https://www.instagram.com/p/BpSz04DF3Gq/media/?size=m
+photo.12.author: yossi929
+photo.12.link: https://www.instagram.com/yossi929/
 species: 2
 zoo: 41
