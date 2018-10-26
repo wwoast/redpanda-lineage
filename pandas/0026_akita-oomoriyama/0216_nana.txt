@@ -1,8 +1,8 @@
 [panda]
 _id: 216
 birthday: 2001/7/13
-birthplace: unknown
-children: unknown
+birthplace: 17
+children: 238, 340
 death: 2018/2/9
 en.name: Nana
 en.nicknames: none

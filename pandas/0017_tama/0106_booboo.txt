@@ -5,7 +5,7 @@ birthplace: 52
 children: 216, 308, 13, 229, 193, 74, 187, 102
 en.name: Boo-Boo
 en.nicknames: none  
-en.othernames: Buu-Buu
+en.othernames: Buu-Buu, Bu-Bu, Bubu, Booboo
 gender: m
 jp.name: ブーブー
 jp.nicknames: none
@@ -26,4 +26,5 @@ photo.4.link: https://www.instagram.com/rie_panda55/
 photo.5: https://www.instagram.com/p/BjMd0G1l0H9/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+species: 2
 zoo: 17
