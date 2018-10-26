@@ -1,11 +1,11 @@
 [panda]
 _id: 310
-birthday: unknown
-birthplace: unknown
+birthday: 2002/6/15
+birthplace: 12
 children: 129, 30, 20, 77, 313, 321, 314, 322
 en.name: Porin
-en.nicknames: none 
-en.othernames: Porrin
+en.nicknames: none
+en.othernames: none
 gender: f
 jp.name: ポリン
 jp.nicknames: none
@@ -13,4 +13,4 @@ jp.othernames: none
 language.order: jp, en
 litter: unknown
 species: 2
-zoo: 9
+zoo: 29

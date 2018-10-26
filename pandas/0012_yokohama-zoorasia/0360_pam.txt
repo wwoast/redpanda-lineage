@@ -1,0 +1,16 @@
+[panda]
+_id: 360
+birthday: unknown
+birthplace: unknown
+children: 361, 362, 196, 310, 25, 165
+death: unknown
+en.name: Pam
+en.nicknames: unknown 
+en.othernames: unknown
+gender: f
+jp.name: パム
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+species: 2
+zoo: 12
