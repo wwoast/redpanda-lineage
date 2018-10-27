@@ -529,17 +529,34 @@ Pandas.searchZooName = function(zoo_name_str) {
 }
 
 /*
-    Methods for sorting the output of Panda searches
+    Methods for sorting the output of Panda searches.
+    Birthday searches use Unix epoch time and do javascript value sort.
 */
 Pandas.sortYoungestToOldest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday).getTime() < new Date(b.birthday).getTime();
+    time_a = new Date(a.birthday).getTime();
+    time_b = new Date(a.birthday).getTime();
+    if (time_a > time_b) {  // More recent birthday
+      return 1;
+    } else if (time_a < time_b) {
+      return -1;
+    } else {
+      return 0;
+    }
   });
 }
 
 Pandas.sortOldestToYoungest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday).getTime() > new Date(b.birthday).getTime();
+    time_a = new Date(a.birthday).getTime();
+    time_b = new Date(a.birthday).getTime();
+    if (time_a < time_b) {  // More recent birthday
+      return 1;
+    } else if (time_a > time_b) {
+      return -1;
+    } else {
+      return 0;
+    }
   });
 }
 
