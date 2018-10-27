@@ -1,15 +1,17 @@
 [panda]
-_id: 368
+_id: 366
 birthday: unknown
 birthplace: unknown
-children: 139, 123, 137
-en.name: Umi
+children: 138, 117, 219
+death: unknown
+en.name: Hiyori
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: 海
+gender: f
+jp.name: ひより
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
 species: 2
-zoo: 18
+zoo: 15
