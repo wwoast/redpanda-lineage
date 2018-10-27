@@ -534,8 +534,8 @@ Pandas.searchZooName = function(zoo_name_str) {
 */
 Pandas.sortYoungestToOldest = function(nodes) {
   return nodes.sort(function(a, b) {
-    time_a = new Date(a.birthday).getTime();
-    time_b = new Date(a.birthday).getTime();
+    time_a = parseInt(new Date(a.birthday).getTime());
+    time_b = parseInt(new Date(a.birthday).getTime());
     if (time_a > time_b) {  // More recent birthday
       return 1;
     } else if (time_a < time_b) {
@@ -548,9 +548,9 @@ Pandas.sortYoungestToOldest = function(nodes) {
 
 Pandas.sortOldestToYoungest = function(nodes) {
   return nodes.sort(function(a, b) {
-    time_a = new Date(a.birthday).getTime();
-    time_b = new Date(a.birthday).getTime();
-    if (time_a < time_b) {  // More recent birthday
+    time_a = parseInt(new Date(a.birthday).getTime());
+    time_b = parseInt(new Date(a.birthday).getTime());
+    if (time_a < time_b) {  // Earlier birthday
       return 1;
     } else if (time_a > time_b) {
       return -1;
