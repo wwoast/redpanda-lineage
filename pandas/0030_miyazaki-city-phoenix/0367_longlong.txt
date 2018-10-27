@@ -1,17 +1,17 @@
 [panda]
-_id: 231
+_id: 367
 birthday: unknown
 birthplace: unknown
-children: 336, 228, 332, 330
+children: 68, 252
 death: unknown
-en.name: Ron-Ron
-en.nicknames: none
-en.othernames: Ronron
+en.name: Long-Long
+en.nicknames: unknown
+en.othernames: unknown
 gender: m
-jp.name: ロンロン
+jp.name: 龍龍
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: unknown
 species: 2
-zoo: 40
+zoo: 30
