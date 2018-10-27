@@ -283,7 +283,6 @@ Pandas.photoGeneratorMax = function*() {
     Methods for searching on Red Pandas
 */
 // Find all panda babies born within a calendar year.
-// By default, show all babies. We might also track which ones are alive or not.
 Pandas.searchBabies = function(year=new Date().getFullYear()) {
   var today = new Date();
   var baby_year = today.getFullYear();
@@ -298,7 +297,7 @@ Pandas.searchBabies = function(year=new Date().getFullYear()) {
     var their_year = their_date.getFullYear();
     return their_year == baby_year;
   }).unique().run();
-  return nodes;
+  return Pandas.sortYoungestToOldest(nodes);
 }
 
 // Find a pandas's direct siblings, with both the same mother and same father.
@@ -530,17 +529,38 @@ Pandas.searchZooName = function(zoo_name_str) {
 /*
     Methods for sorting the output of Panda searches
 */
+/*
+    Methods for sorting the output of Panda searches.
+    Birthday searches use Unix epoch time and do javascript value sort.
+*/
 Pandas.sortYoungestToOldest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday) < new Date(b.birthday);
+    time_a = parseInt(new Date(a.birthday).getTime());
+    time_b = parseInt(new Date(b.birthday).getTime());
+    if (time_a < time_b) {
+      return 1;
+    } else if (time_a > time_b) {
+      return -1;
+    } else {
+      return 0;
+    }
   });
 }
 
 Pandas.sortOldestToYoungest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday) > new Date(b.birthday);
+    time_a = parseInt(new Date(a.birthday).getTime());
+    time_b = parseInt(new Date(b.birthday).getTime());
+    if (time_a > time_b) {
+      return 1;
+    } else if (time_a < time_b) {
+      return -1;
+    } else {
+      return 0;
+    }
   });
 }
+
 
 /*
     Getters and formatters for Red Panda details, with sensible defaults

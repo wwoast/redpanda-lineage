@@ -283,7 +283,6 @@ Pandas.photoGeneratorMax = function*() {
     Methods for searching on Red Pandas
 */
 // Find all panda babies born within a calendar year.
-// By default, show all babies. We might also track which ones are alive or not.
 Pandas.searchBabies = function(year=new Date().getFullYear()) {
   var today = new Date();
   var baby_year = today.getFullYear();
@@ -298,8 +297,7 @@ Pandas.searchBabies = function(year=new Date().getFullYear()) {
     var their_year = their_date.getFullYear();
     return their_year == baby_year;
   }).unique().run();
-  var sorted = Pandas.sortYoungestToOldest(nodes);
-  return sorted;
+  return Pandas.sortYoungestToOldest(nodes);
 }
 
 // Find a pandas's direct siblings, with both the same mother and same father.
