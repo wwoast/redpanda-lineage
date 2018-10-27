@@ -298,7 +298,7 @@ Pandas.searchBabies = function(year=new Date().getFullYear()) {
     var their_year = their_date.getFullYear();
     return their_year == baby_year;
   }).unique().run();
-  return nodes;
+  return Pandas.sortYoungestToOldest(nodes);
 }
 
 // Find a pandas's direct siblings, with both the same mother and same father.
@@ -532,13 +532,13 @@ Pandas.searchZooName = function(zoo_name_str) {
 */
 Pandas.sortYoungestToOldest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday) < new Date(b.birthday);
+    return new Date(a.birthday.replace(" ", "")) < new Date(b.birthday.replace(" ", ""));
   });
 }
 
 Pandas.sortOldestToYoungest = function(nodes) {
   return nodes.sort(function(a, b) {
-    return new Date(a.birthday) > new Date(b.birthday);
+    return new Date(a.birthday.replace(" ", "")) > new Date(b.birthday.replace(" ", ""));
   });
 }
 
