@@ -59,7 +59,7 @@ Query.values = function(input) {
 */
 Query.ops = {
   "type": {
-    "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', '赤ちゃん'],
+    "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', 'aka-chan', '赤ちゃん'],
     "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['Zoo', 'zoo', '動物園']
