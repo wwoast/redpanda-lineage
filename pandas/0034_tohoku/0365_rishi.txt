@@ -1,14 +1,16 @@
 [panda]
-_id: 210
-birthday: 1999/7/8
+_id: 365
+birthday: unknown
 birthplace: unknown
-children: 209, 206
-en.name: Yoshi
+children: 172, 207
+death: unknown
+en.name: Rishi
 en.nicknames: none
-en.othernames: Yeosy
+en.othernames: none
 gender: f
-jp.name: ユエシー
+jp.name: 日食
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+species: 2
 zoo: 34

@@ -8,9 +8,9 @@ en.name: Nene
 en.nicknames: none  
 en.othernames: none
 gender: f
-jp.name: 寧寧
+jp.name: 寧々
 jp.nicknames: none
-jp.othernames: ネネ
+jp.othernames: ネネ, 寧寧
 language.order: jp, en
 species: 2
 zoo: 17
