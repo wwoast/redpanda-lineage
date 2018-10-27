@@ -8,7 +8,8 @@ en.nicknames: none
 gender: m
 jp.name: キキ
 jp.nicknames: none
+jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 352
 species: 2
 zoo: 74
