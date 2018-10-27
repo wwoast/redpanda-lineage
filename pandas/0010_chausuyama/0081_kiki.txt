@@ -1,7 +1,7 @@
 [panda]
 _id: 81
 birthday: 2000/7/4
-birthplace: 10
+birthplace: 6
 children: 21, 31, 82, 54, 291, 104, 108, 86, 87, 186, 88
 en.name: Kiki
 en.nicknames: none
