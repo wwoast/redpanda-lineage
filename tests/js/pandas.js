@@ -421,7 +421,7 @@ Pandas.searchPandaName = function(name) {
   var nodes = en_nodes.concat(jp_nodes).concat(on_nodes).concat(old_nodes).filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
   });
-  return nodes;
+  return Pandas.sortYoungestToOldest(nodes);
 }
 
 // Find all pandas at a given zoo. Zoo IDs are negative numbers
