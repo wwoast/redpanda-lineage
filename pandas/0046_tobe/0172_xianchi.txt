@@ -6,10 +6,10 @@ children: 175, 174, 173
 en.name: Xianchi
 en.nicknames: none
 en.othernames: Shanzhi
-gender: f
+gender: m
 jp.name: シャンチー
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: 山鳩
 language.order: jp, en
 litter: 207
 photo.1: https://www.instagram.com/p/BjuNJi7FpyV/media/?size=m
