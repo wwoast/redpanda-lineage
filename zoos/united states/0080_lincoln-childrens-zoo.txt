@@ -1,0 +1,9 @@
+[zoo]
+_id: 80
+en.address: 1222 S 27th St, Lincoln, NE 68502
+en.location: Lincoln, NE, USA
+en.name: Lincoln Children's Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/5kHk6aS6A2R2
+website: https://www.lincolnzoo.org/
