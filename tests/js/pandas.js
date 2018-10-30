@@ -287,7 +287,7 @@ Pandas.searchBabies = function(year) {
   // Default search is for the most recent year we recorded a birth in
   var baby_year = P.db["_totals"]["last_born"];
   // Process whatever comes in as a year value. If > 1970, call it a year
-  if (!(parseInt(year) > parseInt(Pandas.date.earliest_year))) {
+  if (parseInt(year) > parseInt(Pandas.def.date.earliest_year)) {
     baby_year = year;
   }
   var nodes = G.v().filter(function(vertex) {
