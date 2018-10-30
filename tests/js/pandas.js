@@ -283,14 +283,12 @@ Pandas.photoGeneratorMax = function*() {
     Methods for searching on Red Pandas
 */
 // Find all panda babies born within a calendar year.
-Pandas.searchBabies = function(year=new Date().getFullYear()) {
-  var today = new Date();
-  var baby_year = today.getFullYear();
+Pandas.searchBabies = function(year) {
+  // Default search is for the most recent year we recorded a birth in
+  var baby_year = P.db["_totals"]["last_born"];
   // Process whatever comes in as a year value. If > 1970, call it a year
   if (!(parseInt(year) > parseInt(Pandas.date.earliest_year))) {
     baby_year = year;
-  } else {
-    baby_year = today.getFullYear();  // TODO: Year when the most recent panda was born
   }
   var nodes = G.v().filter(function(vertex) {
     var their_date = new Date(vertex.birthday);
