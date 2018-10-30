@@ -52,6 +52,9 @@ class RedPandaGraph:
         self.photo = {}
         self.photo["credit"] = {}
         self.photo["max"] = 0
+        self.summary = {}
+        self.summary["birthday"] = 1970
+        self.summary["death"] = 1970
         self.vertices = []
         self.zoos = []
         self.zoo_files = []
@@ -149,11 +152,16 @@ class RedPandaGraph:
             raise IdError("ERROR: duplicate ids for en.names: %s" 
                           % str(dupe_names)) 
 
-    def check_imported_date(self, date, sourcepath):
-        """Dates should all be in the form of YYYY/MM/DD."""
+    def check_imported_date(self, date, date_type, sourcepath):
+        """
+        Dates should all be in the form of YYYY/MM/DD.
+        Also, track most recent year that a panda was born or died (datetype).
+        """
         try:
             [year, month, day] = date.split("/")
             datetime.datetime(int(year), int(month), int(day))
+            if self.summary[date_type] < int(year):
+                self.summary[date_type] = int(year)
         except ValueError as e:
             raise DateFormatError("ERROR: %s: invalid YYYY/MM/DD date: %s/%s/%s"
                                   % (sourcepath, year, month, day))
@@ -203,6 +211,8 @@ class RedPandaGraph:
         export['_photo']['entity_max'] = self.photo['max']
         export['_totals']['zoos'] = len(self.zoos)
         export['_totals']['pandas'] = self.sum_pandas()
+        export['_totals']['last_born'] = self.summary['birthday']
+        export['_totals']['last_died'] = self.summary['death']
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
@@ -253,7 +263,7 @@ class RedPandaGraph:
                 # Record that an animal has died or was born, 
                 # regardless if the date has been recorded or not.
                 if field[1] != "unknown":
-                    self.check_imported_date(field[1], path)
+                    self.check_imported_date(field[1], field[0], path)
                 panda_vertex[field[0]] = field[1]
 
             if field[1] == "unknown" or field[1] == "none":
