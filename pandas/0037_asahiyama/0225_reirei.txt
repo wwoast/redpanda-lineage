@@ -2,14 +2,14 @@
 _id: 225
 birthday: 2016/6/28
 birthplace: 37
-children: unknown
-en.name: Rai-Rai
+children: none
+en.name: Rei-Rei
 en.nicknames: Thunder-Lightning
 en.othernames: Rai-Rai
 gender: m
 jp.name: 雷雷
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: れいれい
 language.order: jp, en
 litter: 226
 photo.1: https://www.instagram.com/p/BoWd8qKFl3H/media/?size=m
@@ -27,5 +27,8 @@ photo.4.link: https://www.instagram.com/hanamaru_redpanda/
 photo.5: https://www.instagram.com/p/BihC7RGlLwq/media/?size=m
 photo.5.author: craig_craig_craig
 photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.6: https://www.instagram.com/p/BpjTVk8FjkH/media/?size=m
+photo.6.author: wumpwoast
+photo.6.link: https://www.instagram.com/wumpwoast/
 species: 2
 zoo: 37
