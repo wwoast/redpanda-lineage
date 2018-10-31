@@ -414,6 +414,10 @@ div.compassMenuItem {
     border-right: 1px solid;
 }
 
+div.compassMenuItem.two {
+    width: calc(90% / 2);
+}
+
 div.compassMenuItem.three {
     width: calc(90% / 3);
 }
@@ -422,11 +426,11 @@ div.compassMenuItem.four {
     width: calc(90% / 4);
 }
 
-div.compassMenuItem.four {
-    width: percentage
+div.compassMenuItem.three:last-child {
+    border-right: none;
 }
 
-div.compassMenuItem:last-child {
+div.compassMenuItem.two:nth-child(2n) {
     border-right: none;
 }
 
