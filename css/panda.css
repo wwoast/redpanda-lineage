@@ -398,6 +398,29 @@ div.vitamins {
     display: none;
 }
 
+div.compassMenu {
+    background-color: #9771A7; /* Grapes */
+    margin: 1ex;
+    padding: 1ex;
+    border: 1px solid #002200;
+}
+
+div.compassMenuItem {
+    display: inline-block;
+    width: 48%;
+    vertical-align: middle;
+}
+
+div.compassMenuItem:nth-child(2n+1) {
+    text-align: right;
+    padding-right: 1ex;
+}
+
+div.compassMenuItem:nth-child(2n) {
+    text-align: left;
+    padding-left: 1ex;
+}
+
 div.detailsPhoto {
     display: block;
     text-align: center;
@@ -578,7 +601,7 @@ div.creditSummary {
 
 div.creditSummary p {
     display: inline-block;
-    background-color: #9771A7;
+    background-color: #9771A7; /* Grapes */
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
