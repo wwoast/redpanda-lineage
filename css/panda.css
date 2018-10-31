@@ -399,7 +399,7 @@ div.vitamins {
 }
 
 div.compassMenu {
-    background-color: #9771A7; /* Grapes */
+    background-color: yellowgreen;
     margin: 1ex;
     border: 1px solid #002200;
     text-align: center;
@@ -497,15 +497,14 @@ h5.caption {
 div.detailsNameTitle {
     display: block;
     text-align: center;
-    background-color: #ED6167;
-    border-bottom: 1px solid #033605; /* Bamboo Green */
+    background-color: lightgray;
 }
 
 div.detailsName {
     display: block;
     text-align: center;
-    background-color: #EDC1D7;
-    border-left: 1px solid #033605; /* Bamboo Green */
+    background-color: whitesmoke;
+    border-left: 1px solid #fbf3a6; /* Bamboo Green */
     border-right: 1px solid #033605; /* Bamboo Green */
     border-top: 1px solid #033605; /* Bamboo Green */
 }
@@ -518,7 +517,7 @@ div.detailsLocationTitle {
     display: block;
     text-align: center;
     /* background-color: #755085; /* Dark Grapes */
-    background-color: yellowgreen;
+    background-color: lightgray;
     border-bottom: 1px solid #033605; /* Bamboo Green */
 }
 
@@ -526,7 +525,7 @@ div.detailsLocation {
     display: block;
     text-align: center;
     min-width: 300px;
-    background-color: #9771A7; /* Grapes */
+    background-color: lightgray; /* Apples */
     margin-bottom: 1ex;
     border: 1px solid #033605; /* Bamboo Green */
 }
