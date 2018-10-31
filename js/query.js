@@ -224,7 +224,7 @@ Query.rules = {
 */
 Query.actions = {
   "type": function(env, capture) {
-    var type = capture;
+    var type = capture.replace(" ", "");   // Support zeroary types
     // Don't adjust case for author searches. Switch to "photo credit" output mode
     if (Query.ops.type.credit.includes(type)) {
       Query.env.preserve_case = true;
