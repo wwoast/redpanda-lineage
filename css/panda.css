@@ -401,24 +401,33 @@ div.vitamins {
 div.compassMenu {
     background-color: #9771A7; /* Grapes */
     margin: 1ex;
-    padding: 1ex;
     border: 1px solid #002200;
+    text-align: center;
 }
 
 div.compassMenuItem {
     display: inline-block;
-    width: 48%;
+    text-align: center;
     vertical-align: middle;
+    padding-top: 1ex;
+    padding-bottom: 1ex;
+    border-right: 1px solid;
 }
 
-div.compassMenuItem:nth-child(2n+1) {
-    text-align: right;
-    padding-right: 1ex;
+div.compassMenuItem.three {
+    width: calc(90% / 3);
 }
 
-div.compassMenuItem:nth-child(2n) {
-    text-align: left;
-    padding-left: 1ex;
+div.compassMenuItem.four {
+    width: calc(90% / 4);
+}
+
+div.compassMenuItem.four {
+    width: percentage
+}
+
+div.compassMenuItem:last-child {
+    border-right: none;
 }
 
 div.detailsPhoto {
