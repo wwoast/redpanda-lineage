@@ -497,14 +497,14 @@ h5.caption {
 div.detailsNameTitle {
     display: block;
     text-align: center;
-    background-color: lightgray;
+    background-color: #bcbcbc;
 }
 
 div.detailsName {
     display: block;
     text-align: center;
-    background-color: whitesmoke;
-    border-left: 1px solid #fbf3a6; /* Bamboo Green */
+    background-color: #dedede;
+    border-left: 1px solid #033605; /* Bamboo Green */
     border-right: 1px solid #033605; /* Bamboo Green */
     border-top: 1px solid #033605; /* Bamboo Green */
 }
@@ -513,21 +513,15 @@ div.detailsPhoto img {
     height: 80vh;
 }
 
-div.detailsLocationTitle {
-    display: block;
-    text-align: center;
-    /* background-color: #755085; /* Dark Grapes */
-    background-color: lightgray;
-    border-bottom: 1px solid #033605; /* Bamboo Green */
-}
-
 div.detailsLocation {
     display: block;
     text-align: center;
     min-width: 300px;
-    background-color: lightgray; /* Apples */
+    background-color: whitesmoke; /* Grapes */
     margin-bottom: 1ex;
-    border: 1px solid #033605; /* Bamboo Green */
+    border-left: 1px solid #033605; /* Bamboo Green */
+    border-right: 1px solid #033605; /* Bamboo Green */
+    border-bottom: 1px solid #033605; /* Bamboo Green */
 }
 
 span.detail {
