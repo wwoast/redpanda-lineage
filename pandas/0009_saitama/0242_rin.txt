@@ -3,11 +3,11 @@ _id: 242
 birthday: 2018/6/24
 birthplace: 9
 children: none
-en.name: Aka-chan
+en.name: Rin
 en.nicknames: none 
-en.othernames: Aka-Chan, Akachan
+en.othernames: 
 gender: f
-jp.name: 赤ちゃん
+jp.name: リン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
