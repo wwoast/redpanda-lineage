@@ -398,14 +398,14 @@ div.vitamins {
     display: none;
 }
 
-div.compassMenu {
+div.sectionMenu {
     background-color: yellowgreen;
     margin: 1ex;
     border: 1px solid #002200;
     text-align: center;
 }
 
-div.compassMenuItem {
+div.sectionMenuItem {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
@@ -414,23 +414,23 @@ div.compassMenuItem {
     border-right: 1px solid;
 }
 
-div.compassMenuItem.two {
+div.sectionMenuItem.two {
     width: calc(90% / 2);
 }
 
-div.compassMenuItem.three {
+div.sectionMenuItem.three {
     width: calc(90% / 3);
 }
 
-div.compassMenuItem.four {
+div.sectionMenuItem.four {
     width: calc(90% / 4);
 }
 
-div.compassMenuItem.three:last-child {
+div.sectionMenuItem.three:last-child {
     border-right: none;
 }
 
-div.compassMenuItem.two:nth-child(2n) {
+div.sectionMenuItem.two:nth-child(2n) {
     border-right: none;
 }
 
