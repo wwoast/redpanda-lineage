@@ -89,11 +89,11 @@ button.menu div.text, button.logo div.text {
 button.section {
     display: inline-block;
     border: 1px solid #002200;
-    color: white;
     line-height: 1.4;
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background-color: yellowgreen;
+    color: black;
 }
 
 button.section.two {
