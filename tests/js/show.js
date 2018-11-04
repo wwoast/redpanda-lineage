@@ -415,10 +415,8 @@ function sectionButtonEventHandlers(section_menu_id) {
   // related to the button's id. Example:
   //    aboutPage_button => shows aboutPage
   for (var button in buttons) {
-    button.addEventListener('click', function() {
-      var show_section_id = button.id.split("_")[0];
-      showSection(show_section_id);
-    });
+    var show_section_id = button.id.split("_")[0];
+    button.addEventListener('click', showSection(show_section_id));
   }
 }
 
