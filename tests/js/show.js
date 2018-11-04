@@ -172,6 +172,7 @@ window.addEventListener('about_loaded', function() {
     sectionButtonEventHandlers("aboutPageMenu");
     // Default: usage instructions appear non-hidden.
     // TODO: cookie setting to preserve which section is displayed
+    document.getElementById("usageGuide")[0].classList.remove("hidden");
     Show.page = outputAbout;
   }
 });
@@ -245,7 +246,6 @@ function outputAbout() {
   } else {
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
-    document.getElementsByClassName("usageGuide")[0].classList.remove("hidden");
     redrawFooter();
   }
 }
