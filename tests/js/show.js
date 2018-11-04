@@ -408,9 +408,7 @@ function swapContents(old_content, new_content) {
 function sectionButtonEventHandlers(section_menu_id) {
   var menu = document.getElementById(section_menu_id);
   // Find all button subelements of the menu
-  var buttons = [].filter.call(menu.childNodes, function(el) {
-    return el.classList.contains("sectionButton");
-  });
+  var buttons = document.getElementsByClassName("sectionButton");
   // For each button, add an event handler to show the section
   // related to the button's id. Example:
   //    aboutPage_button => shows aboutPage
