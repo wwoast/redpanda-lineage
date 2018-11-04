@@ -412,8 +412,7 @@ function sectionButtonEventHandlers(section_menu_id) {
   // For each button, add an event handler to show the section
   // related to the button's id. Example:
   //    aboutPage_button => shows aboutPage
-  for (var idx in buttons) {
-    var button = buttons[idx];
+  for (var button of buttons) {
     var show_section_id = button.id.split("_")[0];
     button.addEventListener('click', function() {
       showSection(show_section_id);
@@ -428,8 +427,7 @@ function showSection(section_id) {
   // Add the hidden section class to all sections on this page,
   // in preparation to un-set the hidden value on the desired section.
   var sections = document.getElementsByClassName("section");
-  for (var idx in sections) {
-    var section = sections[idx];
+  for (var section of sections) {
     section.classList.add("hidden");
   }
   // Remove the hidden class on this section
