@@ -86,7 +86,7 @@ button.menu div.text, button.logo div.text {
     text-align: left;
 }
 
-button.section {
+button.sectionButton {
     display: inline-block;
     border: 1px solid #002200;
     line-height: 1.4;
@@ -96,23 +96,23 @@ button.section {
     color: black;
 }
 
-button.section.two {
+button.sectionButton.two {
     width: calc(90% / 2);
 }
 
-button.section.three {
+button.sectionButton.three {
     width: calc(90% / 3);
 }
 
-button.section.four {
+button.sectionButton.four {
     width: calc(90% / 4);
 }
 
-button.section.three:last-child {
+button.sectionButton.three:last-child {
     border-right: none;
 }
 
-button.section.two:nth-child(2n) {
+button.sectionButton.two:nth-child(2n) {
     border-right: none;
 }
 
