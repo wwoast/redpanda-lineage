@@ -481,6 +481,10 @@ div.pandaAbout h5.caption > a, div.pandaLinks > ul > li > a {
     text-decoration: none !important;
 }
 
+div.pandaAbout > p > a {
+    color: white;  /* Links in About page body text keep underlines */
+}
+
 div.pandaAbout h4 {
     color: white;
     text-decoration: none !important;
