@@ -429,7 +429,7 @@ function showSection(section_id) {
   var shown = [].filter.call(sections, function(el) {
     return el.classList.contains("hidden") == false;
   });
-  show.classList.add("hidden");
+  shown.classList.add("hidden");
   // Remove the hidden class on this section
   desired.classList.remove("hidden");
 }
