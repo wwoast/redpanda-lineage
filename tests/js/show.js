@@ -172,7 +172,7 @@ window.addEventListener('about_loaded', function() {
     sectionButtonEventHandlers("aboutPageMenu");
     // Default: usage instructions appear non-hidden.
     // TODO: cookie setting to preserve which section is displayed
-    document.getElementById("usageGuide")[0].classList.remove("hidden");
+    document.getElementById("usageGuide").classList.remove("hidden");
     Show.page = outputAbout;
   }
 });
