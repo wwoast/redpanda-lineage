@@ -211,8 +211,6 @@ function fetchAboutPage() {
   request.onload = function() {
     Show.about.content = request.response.getElementById('hiddenContentFrame');
     Show.about.language = L.display;   // What language the content was loaded in
-    // Add event listeners to the newly created About page buttons
-    sectionButtonEventHandlers("aboutPageMenu");
     window.dispatchEvent(Show.about.loaded);   // Report the data has loaded
   }
 }
@@ -243,6 +241,11 @@ function outputAbout() {
   } else {
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
+    // Add event listeners to the newly created About page buttons
+    sectionButtonEventHandlers("aboutPageMenu");
+    // Default: usage instructions appear non-hidden.
+    // TODO: cookie setting to preserve which section is displayed
+    document.getElementsByClassName("usageGuide")[0].classList.remove("hidden");
     redrawFooter();
   }
 }
