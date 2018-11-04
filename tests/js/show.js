@@ -428,7 +428,7 @@ function showSection(section_id) {
   var sections = document.getElementsByClassName("section");
   var shown = [].filter.call(sections, function(el) {
     return el.classList.contains("hidden") == false;
-  });
+  })[0];
   shown.classList.add("hidden");
   // Remove the hidden class on this section
   desired.classList.remove("hidden");
