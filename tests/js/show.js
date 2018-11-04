@@ -424,12 +424,12 @@ function sectionButtonEventHandlers(section_menu_id) {
 // containers, and hide all of them but the one provided.
 function showSection(section_id) {
   var desired = document.getElementById(section_id);
-  // Add the hidden section class to all sections on this page,
-  // in preparation to un-set the hidden value on the desired section.
+  // Find currently shown section and hide it
   var sections = document.getElementsByClassName("section");
-  for (var section of sections) {
-    section.classList.add("hidden");
-  }
+  var shown = [].filter.call(sections, function(el) {
+    return el.classList.contains("hidden") == false;
+  });
+  show.classList.add("hidden");
   // Remove the hidden class on this section
   desired.classList.remove("hidden");
 }
