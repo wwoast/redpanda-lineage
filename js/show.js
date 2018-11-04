@@ -383,8 +383,9 @@ function removeFooter() {
   }
 }
 
-// Swap in a new contents frame for an old contents frame. Also double-check that
-// the footer is still the bottom of the page.
+// Swap in a new contents frame for an old contents frame.
+// After calling this, double-check that the footer 
+// is still the bottom of the page.
 function swapContents(old_content, new_content) {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];

@@ -383,8 +383,9 @@ function removeFooter() {
   }
 }
 
-// Swap in a new contents frame for an old contents frame. Also double-check that
-// the footer is still the bottom of the page.
+// Swap in a new contents frame for an old contents frame. 
+// After calling this, double-check that the footer 
+// is still the bottom of the page.
 function swapContents(old_content, new_content) {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
@@ -394,6 +395,20 @@ function swapContents(old_content, new_content) {
   new_content.style.display = "block";
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
+}
+
+// For pages with hidden sections, get a list of the section
+// containers, and hide all of them but the one provided.
+function showSection(section_id) {
+  var desired = document.getElementById(section_id);
+  // Add the hidden section class to all sections on this page,
+  // in preparation to un-set the hidden value on the desired section.
+  var sections = document.getElementsByClassName("section");
+  for (var section in sections) {
+    section.classList.add("hidden");
+  }
+  // Remove the hidden class on this section
+  desired.classList.remove("hidden");
 }
 
 /*
