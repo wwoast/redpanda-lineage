@@ -198,7 +198,8 @@ function checkHashes() {
   }
 }
 
-// Fetch the about page contents
+// Fetch the about page contents, and add the event listeners for how buttons
+// load different sections of the about page.
 function fetchAboutPage() {
   var base = "https://redpandafinder.com/tests/fragments/";
   var specific = L.display + "/about.html";
@@ -210,6 +211,8 @@ function fetchAboutPage() {
   request.onload = function() {
     Show.about.content = request.response.getElementById('hiddenContentFrame');
     Show.about.language = L.display;   // What language the content was loaded in
+    // Add event listeners to the newly created About page buttons
+    sectionButtonEventHandlers("aboutPageMenu");
     window.dispatchEvent(Show.about.loaded);   // Report the data has loaded
   }
 }
@@ -395,6 +398,25 @@ function swapContents(old_content, new_content) {
   new_content.style.display = "block";
   body.removeChild(old_content);
   new_content.id = 'contentFrame';
+}
+
+// The about page and links page have menus with buttons that
+// cause subsections to appear or disappear as needed.
+function sectionButtonEventHandlers(section_menu_id) {
+  var menu = document.getElementById(section_menu_id);
+  // Find all button subelements of the menu
+  var buttons = [].filter.call(menu.childNodes, function(el) {
+    return el.nodeName == "BUTTON";
+  });
+  // For each button, add an event handler to show the section
+  // related to the button's id. Example:
+  //    aboutPage_button => shows aboutPage
+  for (var button in buttons) {
+    button.addEventListener('click', function() {
+      var show_section_id = button.id.split("_")[0];
+      showSection(show_section_id);
+    });
+  }
 }
 
 // For pages with hidden sections, get a list of the section

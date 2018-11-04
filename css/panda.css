@@ -199,6 +199,11 @@ div#hiddenContentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
+/* Class to add to hidden sections on about/links page */
+div.hidden {
+    display: none;
+}
+
 div.pandaResult, div.zooResult {
     display: table;
     clear: both;
