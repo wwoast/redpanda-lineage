@@ -2,7 +2,7 @@
 _id: 40
 birthday: 2015/6/28 
 birthplace: 8
-children: unknown
+children: none
 en.name: Yuu
 en.nicknames: none
 en.othernames: Yū
@@ -36,5 +36,14 @@ photo.7.link: https://www.instagram.com/panda.daisuki/
 photo.8: https://www.instagram.com/p/BpqX4xoljcy/media/?size=m
 photo.8.author: ck.chie
 photo.8.link: https://www.instagram.com/ck.chie/
+photo.9: https://www.instagram.com/p/BpwcNwyFKah/media/?size=m
+photo.9.author: ifumoto88
+photo.9.link: https://www.instagram.com/ifumoto88/
+photo.10: https://www.instagram.com/p/BkIbIsYluT1/media/?size=m
+photo.10.author: panda.daisuki
+photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.11: https://www.instagram.com/p/BkyMdZZgI2u/media/?size=m
+photo.11.author: akki_gumi
+photo.11.link: https://www.instagram.com/akki_gumi/
 species: 2
 zoo: 8
