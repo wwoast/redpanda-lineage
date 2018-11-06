@@ -31,8 +31,8 @@ div.topMenu {
 }
 
 @keyframes activateSectionButton {
-    from { background-color: #366938; }
-    to { background-color: #699C6A; }
+    from { background-color: yellowgreen; }
+    to { background-color: whitesmoke; }
 }
 
 button.logo {
