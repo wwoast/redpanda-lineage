@@ -416,6 +416,8 @@ function sectionButtonEventHandlers(section_menu_id) {
     button.addEventListener('click', function() {
       var show_section_id = this.id.split("_")[0];
       showSection(show_section_id);
+      // TODO: set new uri representing sub-page
+      // TODO: set button color for the activated section
     });
   }
 }
@@ -450,9 +452,10 @@ Show.page = outputResults;   // Default mode is to show panda results
 Show.lastSearch = '#home';   // When un-clicking Links/About, go back to the last panda search
 
 Show.about = {};
-Show.about.content = undefined;   // About page content
+Show.about.content = undefined;    // About page content
 Show.about.language = undefined;   // Language the content was loaded in
 Show.about.loaded = new Event('about_loaded');
+Show.about.page_shown = "usage";   // #about/(usage|pandas|contributions)
 
 Show.emoji = {
   "animal": "🐼",
@@ -597,9 +600,10 @@ Show.gui = {
 }
 
 Show.links = {};
-Show.links.content = undefined;   // Links page content
+Show.links.content = undefined;    // Links page content
 Show.links.language = undefined;   // Language the content was loaded in
 Show.links.loaded = new Event('links_loaded');
+Show.links.page_shown = "community";   // #links/(community|zoos|friends)
 
 Show.no_result = {
   "cn": "沒有發現熊貓",
