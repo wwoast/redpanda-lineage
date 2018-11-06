@@ -89,7 +89,7 @@ button.menu div.text, button.logo div.text {
 button.sectionButton:hover {
     animation: activate;
     animation-duration: 0.3s;
-    background-color: #366938;
+    background-color: whitesmoke;
 }
 
 button.sectionButton {
