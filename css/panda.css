@@ -86,6 +86,12 @@ button.menu div.text, button.logo div.text {
     text-align: left;
 }
 
+button.sectionButton:hover {
+    animation: activate;
+    animation-duration: 0.3s;
+    background-color: #366938;
+}
+
 button.sectionButton {
     display: inline-block;
     border: 1px solid #002200;
