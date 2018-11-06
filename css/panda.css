@@ -25,7 +25,12 @@ div.topMenu {
     vertical-align: middle;
 }
 
-@keyframes activate {
+@keyframes activateMenuButton {
+    from { background-color: #366938; }
+    to { background-color: #699C6A; }
+}
+
+@keyframes activateSectionButton {
     from { background-color: #366938; }
     to { background-color: #699C6A; }
 }
@@ -55,13 +60,13 @@ button.menu {
 }
 
 button.menu:hover, button.logo:hover {
-    animation: activate;
+    animation: activateMenuButton;
     animation-duration: 0.3s;
     background-color: #699C6A;
 }
 
 button.menu:active, button.logo:active {
-    animation: activate;
+    animation: activateMenuButton;
     animation-duration: 0.6s;
     animation-direction: alternate;
 }
@@ -87,9 +92,15 @@ button.menu div.text, button.logo div.text {
 }
 
 button.sectionButton:hover {
-    animation: activate;
+    animation: activateSectionButton;
     animation-duration: 0.3s;
     background-color: whitesmoke;
+}
+
+button.sectionButton:active {
+    animation: activateSectionButton;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
 }
 
 button.sectionButton {
