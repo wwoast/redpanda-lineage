@@ -4,7 +4,7 @@ birthday: 2016/6/24
 birthplace: 17
 children: none
 en.name: Mametarou
-en.nicknames: Scramble! 
+en.nicknames: Scramble!, Mame-chan, Mamechan
 en.othernames: none
 gender: m
 jp.name: まめたろう
@@ -39,5 +39,8 @@ photo.8.link: https://www.instagram.com/run.swim.shingo/
 photo.9: https://www.instagram.com/p/Bo-MVR_lqPB/media/?size=m
 photo.9.author: kotata_513
 photo.9.link: https://www.instagram.com/kotata_513/
+photo.10: https://www.instagram.com/p/Bp4g0JiFugA/media/?size=m
+photo.10.author: akaikumaneko
+photo.10.link: https://www.instagram.com/akaikumaneko/
 species: 2
 zoo: 12
