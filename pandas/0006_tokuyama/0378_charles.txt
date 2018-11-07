@@ -3,11 +3,11 @@ _id: 378
 birthday: 2018/7/18
 birthplace: 6
 children: none
-en.name: Aka-chan
+en.name: Charles
 en.nicknames: none 
-en.othernames: Aka-Chan, Akachan
-gender: unknown
-jp.name: 赤ちゃん
+en.othernames: none
+gender: m
+jp.name: チャル
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
