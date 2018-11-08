@@ -8,17 +8,15 @@ Language.L = {};     // Prototype
 
 Language.init = function() {
   var language = Object.create(Language.L);
+  // The current displayed language in the page, and stored in the 
+  // browser's localStorage API
+  language.display = undefined;
+  language.storage = window.localStorage;
   return language;
 }
 
 // For fallback functions, don't replace these fields
 Language.fallback_blacklist = ["othernames", "nicknames"];
-
-// The current displayed language in the page, and stored in the 
-// browser's localStorage API
-Language.display = undefined;
-Language.storage = window.localStorage;
-
 
 /*
    Language selection functions
