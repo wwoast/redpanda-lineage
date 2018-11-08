@@ -424,6 +424,10 @@ function sectionButtonEventHandlers(section_menu_id) {
       Show.subMenu.setItem(menu_id, show_section_id);
     });
   }
+  // Activate the currently selected subSection's relevant menu button
+  var active_id = Show.subMenu.getItem(section_menu_id) + "_button";
+  var active_button = document.getElementById(active_id);
+  active_button.classList.add("selected");
 }
 
 // For pages with hidden sections, get a list of the section
