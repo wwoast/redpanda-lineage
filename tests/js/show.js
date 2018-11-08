@@ -439,9 +439,11 @@ function showSection(section_id) {
     return el.classList.contains("hidden") == false;
   })[0];
   // Turn off the existing shown section, and "unselect" its button
-  var shown_button = document.getElementById(shown.id + "_button");
-  shown.classList.add("hidden");
-  shown_button.classList.remove("selected");
+  if (shown != undefined) {
+    var shown_button = document.getElementById(shown.id + "_button");
+    shown.classList.add("hidden");
+    shown_button.classList.remove("selected");
+  }
   // Remove the hidden class on the desired section, and "select" its button
   desired.classList.remove("hidden");
   desired_button.classList.add("selected");
