@@ -170,9 +170,9 @@ window.addEventListener('about_loaded', function() {
     outputAbout();
     // Add event listeners to the newly created About page buttons
     sectionButtonEventHandlers("aboutPageMenu");
+    // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    // TODO: cookie setting to preserve which section is displayed
-    document.getElementById("usageGuide").classList.remove("hidden");
+    showSection(Show.subMenu.getItem("aboutPageMenu"));
     Show.page = outputAbout;
   }
 });
@@ -247,8 +247,6 @@ function outputAbout() {
     Show.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
-    // Display correct subsection of the about page (class swaps)
-    showSection(Show.subMenu.getItem("aboutPageMenu"));
     redrawFooter();
   }
 }
