@@ -113,6 +113,10 @@ button.sectionButton {
     color: black;
 }
 
+button.sectionButton.selected {
+    background-color: whitesmoke;
+}
+
 button.sectionButton.two {
     width: calc(90% / 2);
 }

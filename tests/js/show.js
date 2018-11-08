@@ -244,6 +244,7 @@ function outputAbout() {
   } else if (Show.about.language != L.display) {
     fetchAboutPage();   // Language change event
   } else {
+    Show.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.about.content);
     redrawFooter();
@@ -415,25 +416,35 @@ function sectionButtonEventHandlers(section_menu_id) {
   for (var button of buttons) {
     button.addEventListener('click', function() {
       var show_section_id = this.id.split("_")[0];
+      var menu_id = this.parentNode.id;
       showSection(show_section_id);
       // TODO: set new uri representing sub-page
-      // TODO: set button color for the activated section
+      // Set subMenu state. This is used to validate
+      // what page to show and how the menu will be colored.
+      Show.subMenu.setItem(menu_id, show_section_id);
     });
   }
 }
 
 // For pages with hidden sections, get a list of the section
 // containers, and hide all of them but the one provided.
+// This requires an id convention where sections are id'ed "name" and the
+// buttons that activate those sections are id'ed "name_button"
 function showSection(section_id) {
   var desired = document.getElementById(section_id);
+  var desired_button = document.getElementById(section_id + "_button");
   // Find currently shown section and hide it
   var sections = document.getElementsByClassName("section");
   var shown = [].filter.call(sections, function(el) {
     return el.classList.contains("hidden") == false;
   })[0];
+  // Turn off the existing shown section, and "unselect" its button
+  var shown_button = document.getElementById(shown.id + "_button");
   shown.classList.add("hidden");
-  // Remove the hidden class on this section
+  shown_button.classList.remove("selected");
+  // Remove the hidden class on the desired section, and "select" its button
   desired.classList.remove("hidden");
+  desired_button.classList.add("selected");
 }
 
 /*
@@ -455,7 +466,6 @@ Show.about = {};
 Show.about.content = undefined;    // About page content
 Show.about.language = undefined;   // Language the content was loaded in
 Show.about.loaded = new Event('about_loaded');
-Show.about.page_shown = "usage";   // #about/(usage|pandas|contributions)
 
 Show.emoji = {
   "animal": "🐼",
@@ -603,7 +613,6 @@ Show.links = {};
 Show.links.content = undefined;    // Links page content
 Show.links.language = undefined;   // Language the content was loaded in
 Show.links.loaded = new Event('links_loaded');
-Show.links.page_shown = "community";   // #links/(community|zoos|friends)
 
 Show.no_result = {
   "cn": "沒有發現熊貓",
@@ -625,6 +634,13 @@ Show.routes = {
     "#links"     // The links page
   ]
 }
+
+// Use session storage (lost when browser closes) for menu state.
+// Potential values are for the menus on the about and links page, so the
+// chosen sub-page will reappear when theses pages are regenerated.
+//   "aboutPageMenu" can be set to (usage|pandas|contributions)
+//   "linksPageMenu" can be set to (community|zoos|friends)
+Show.subMenu = window.sessionStorage;
 
 /*
     Presentation-level data, separated out from final website layout
@@ -838,6 +854,16 @@ Show.locationLink = function(zoo, language) {
   a.innerText = link_text;
   a.target = "_blank";   // Open in new tab
   return a;
+}
+
+// Set submenu defaults
+Show.subMenuDefaults = function() {
+  if (Show.subMenu.getItem("aboutPageMenu") == null) {
+    Show.subMenu.setItem("aboutPageMenu", "usageGuide");
+  }
+  if (Show.subMenu.getItem("linksPageMenu") == null) {
+    Show.subMenu.setItem("linksPageMenu", "redPandaCommunity");
+  }
 }
 
 // Construct a zoo link as per design docs. Examples:
