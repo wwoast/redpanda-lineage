@@ -14,8 +14,11 @@ Language.init = function() {
 // For fallback functions, don't replace these fields
 Language.fallback_blacklist = ["othernames", "nicknames"];
 
-// The current displayed language in the page
+// The current displayed language in the page, and stored in the 
+// browser's localStorage API
 Language.display = undefined;
+Language.storage = window.localStorage;
+
 
 /*
    Language selection functions
@@ -30,8 +33,8 @@ Language.default = function(lang_object) {
     }
   });
   // Read language cookie if it's there
-  if (document.cookie.length > 0) {
-    var test = document.cookie.split("=")[1];
+  var test = lang_object.storage.getItem("language");
+  if (test != null) {
     if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
       lang_object.display = test;
     }
@@ -66,8 +69,9 @@ Language.update = function(lang_object) {
   }
   // Change the page title
   document.title = Show.gui.title[lang_object.display];
-  // Write a cookie for your chosen language
-  document.cookie = "language=" + lang_object.display;
+  // Write localStorage for your chosen language. This is better than a cookie
+  // since the server never has to see what language you're using in each request.
+  lang_object.storage.setItem('language', lang_object.display);
 }
 
 /*
