@@ -182,6 +182,11 @@ window.addEventListener('about_loaded', function() {
 window.addEventListener('links_loaded', function() {
   if (window.location.hash == "#links") {
     outputLinks();
+    // Add event listeners to the newly created About page buttons
+    sectionButtonEventHandlers("linksPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    showSection(Show.subMenu.getItem("linksPageMenu"));
     Show.page = outputLinks;
   }
 });
