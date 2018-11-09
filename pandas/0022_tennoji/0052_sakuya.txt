@@ -9,7 +9,7 @@ en.othernames: none
 gender: f
 jp.name: 咲弥
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: サクヤ
 language.order: jp, en
 litter: 119
 photo.1: https://www.instagram.com/p/Bg_T2G4D5lW/media/?size=m
@@ -57,5 +57,8 @@ photo.14.link: https://www.instagram.com/mikaamihara/
 photo.15: https://www.instagram.com/p/Bpqrol8FqgZ/media/?size=m
 photo.15.author: kotata_513
 photo.15.link: https://www.instagram.com/kotata_513/
+photo.16: https://www.instagram.com/p/Bp8V2Mnl251/media/?size=m
+photo.16.author: makimaru18
+photo.16.link: https://www.instagram.com/makimaru18/
 species: 2
 zoo: 22
