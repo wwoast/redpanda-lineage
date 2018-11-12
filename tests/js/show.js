@@ -99,6 +99,11 @@ document.addEventListener("DOMContentLoaded", function() {
         fetchAboutPage();
       } else {
         outputAbout();
+        // Add event listeners to the newly created About page buttons
+        sectionButtonEventHandlers("aboutPageMenu");
+        // Display correct subsection of the about page (class swaps)
+        // Default: usage instructions appear non-hidden.
+        showSection(Show.subMenu.getItem("aboutPageMenu"));
         Show.page = outputAbout;
       }
     }
@@ -162,12 +167,7 @@ window.addEventListener('hashchange', function() {
     Show.page = outputHome;
   } else if (window.location.hash == "#about") {
     outputAbout();
-    // Add event listeners to the newly created About page buttons
-    sectionButtonEventHandlers("aboutPageMenu");
-    // Display correct subsection of the about page (class swaps)
-    // Default: usage instructions appear non-hidden.
-    showSection(Show.subMenu.getItem("aboutPageMenu"));
-    Show.page = outputAbout;    
+    Show.page = outputAbout;
   }
 });
 
