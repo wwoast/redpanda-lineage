@@ -165,9 +165,6 @@ window.addEventListener('hashchange', function() {
   } else if (window.location.hash == "#home") {
     outputHome();
     Show.page = outputHome;
-  } else if (window.location.hash == "#about") {
-    outputAbout();
-    Show.page = outputAbout;
   }
 });
 
