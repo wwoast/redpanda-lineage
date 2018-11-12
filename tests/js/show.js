@@ -160,6 +160,14 @@ window.addEventListener('hashchange', function() {
   } else if (window.location.hash == "#home") {
     outputHome();
     Show.page = outputHome;
+  } else if (window.location.hash == "#about") {
+    outputAbout();
+    // Add event listeners to the newly created About page buttons
+    sectionButtonEventHandlers("aboutPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    showSection(Show.subMenu.getItem("aboutPageMenu"));
+    Show.page = outputAbout;    
   }
 });
 
