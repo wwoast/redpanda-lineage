@@ -708,6 +708,10 @@ div.photoSample h5 {
         word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
     }
 
+    button.sectionButton {
+        font-size: 10pt;
+    }
+
     div#contentFrame {
         padding-top: 0.1ex;
         padding-bottom: 0.1ex;
