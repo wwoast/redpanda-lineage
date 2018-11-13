@@ -121,7 +121,7 @@ button.sectionButton {
 button.sectionButton.selected {
     animation: activateSectionButtonActivated;
     animation-duration: 0.6s;
-    background-color: whitesmoke;
+    background-color: plum;
 }
 
 button.sectionButton.two {
