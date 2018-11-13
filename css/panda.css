@@ -115,6 +115,7 @@ button.sectionButton {
     font-size: 12pt;
     font-family: "Jun 201", sans-serif;
     background-color: yellowgreen;
+    height: 5ex;   /* One lines of 12pt text */
     color: black;
 }
 
@@ -127,7 +128,6 @@ button.sectionButton.selected:active  {
     animation-duration: 0.8s;
     background-color: plum;
 }
-
 
 button.sectionButton.two {
     width: calc(90% / 2);
@@ -714,6 +714,8 @@ div.photoSample h5 {
 
     button.sectionButton {
         font-size: 10pt;
+        padding: 0 0 0 0;
+        height: 7.5ex;   /* Two lines of 10pt text */
     }
 
     div#contentFrame {
