@@ -734,15 +734,15 @@ div.photoSample h5 {
     }
 
     button.sectionButton.two {
-        width: calc(96% / 2);
+        width: calc(98% / 2);
     }
     
     button.sectionButton.three {
-        width: calc(96% / 3);
+        width: calc(98% / 3);
     }
     
     button.sectionButton.four {
-        width: calc(96% / 4);
+        width: calc(98% / 4);
     }    
 
     div#contentFrame {
