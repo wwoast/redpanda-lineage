@@ -715,7 +715,7 @@ div.photoSample h5 {
     button.sectionButton {
         font-size: 10pt;
         padding: 0 0 0 0;
-        height: 7.5ex;   /* Two lines of 10pt text */
+        height: 7.6ex;   /* Two lines of 10pt text */
     }
 
     button.sectionButton:active {
