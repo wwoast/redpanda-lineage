@@ -36,9 +36,8 @@ div.topMenu {
 }
 
 @keyframes activateSectionButtonActivated {
-    0% { background-color: plum; }
-    50% { background-color: whitesmoke; }
-    100% { background-color: plum; }
+    from { background-color: whitesmoke; }
+    to { background-color: plum; }
 }
 
 button.logo {
@@ -120,12 +119,6 @@ button.sectionButton {
 }
 
 button.sectionButton.selected {
-    background-color: plum;
-}
-
-button.sectionButton.selected:hover {
-    animation: activateSectionButtonActivated;
-    animation-duration: 0.5s;
     background-color: plum;
 }
 
