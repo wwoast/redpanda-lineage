@@ -31,18 +31,12 @@ div.topMenu {
 }
 
 @keyframes sectionButtonHover {
-    from { background-color: yellowgreen; }
     to { background-color: whitesmoke; }
 }
 
 @keyframes sectionButtonActivated {
     from { background-color: whitesmoke; }
     to { background-color: plum; }
-}
-
-@keyframes sectionButtonActivatedHover {
-    from { background-color: plum; }
-    to { background-color: whitesmoke; }
 }
 
 button.logo {
@@ -129,7 +123,7 @@ button.sectionButton.selected {
 }
 
 button.sectionButton.selected:hover {
-    animation: sectionButtonActivatedHover;
+    animation: sectionButtonHover;
     animation-duration: 0.6s;
     background-color: whitesmoke;
 }
