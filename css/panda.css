@@ -37,7 +37,7 @@ div.topMenu {
 
 @keyframes activateSectionButtonActivated {
     0% { background-color: whitesmoke; }
-    50% { background-color: lightsalmon; }
+    50% { background-color: plum; }
     100% { background-color: whitesmoke; }
 }
 
@@ -113,7 +113,7 @@ button.sectionButton {
     display: inline-block;
     border: 1px solid #002200;
     line-height: 1.4;
-    font-size: 14pt;
+    font-size: 13pt;
     font-family: "Jun 201", sans-serif;
     background-color: yellowgreen;
     color: black;
@@ -123,10 +123,6 @@ button.sectionButton.selected {
     animation: activateSectionButtonActivated;
     animation-duration: 0.6s;
     background-color: whitesmoke;
-}
-
-button.sectionButton.selected:hover {
-    background-color: lightsalmon;
 }
 
 button.sectionButton.two {
