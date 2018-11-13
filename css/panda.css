@@ -130,15 +130,15 @@ button.sectionButton.selected:active  {
 }
 
 button.sectionButton.two {
-    width: calc(94% / 2);
+    width: calc(92% / 2);
 }
 
 button.sectionButton.three {
-    width: calc(94% / 3);
+    width: calc(92% / 3);
 }
 
 button.sectionButton.four {
-    width: calc(94% / 4);
+    width: calc(92% / 4);
 }
 
 button.sectionButton.three:last-child {
