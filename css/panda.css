@@ -123,11 +123,18 @@ button.sectionButton.selected {
     background-color: plum;
 }
 
-button.sectionButton.selected:hover, button.sectionButton.selected:active {
+button.sectionButton.selected:hover {
     animation: activateSectionButtonActivated;
-    animation-duration: 1.0s;
+    animation-duration: 0.5s;
     background-color: plum;
 }
+
+button.sectionButton.selected:active  {
+    animation: activateSectionButtonActivated;
+    animation-duration: 0.8s;
+    background-color: plum;
+}
+
 
 button.sectionButton.two {
     width: calc(90% / 2);
