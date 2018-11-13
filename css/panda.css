@@ -718,6 +718,10 @@ div.photoSample h5 {
         height: 7.5ex;   /* Two lines of 10pt text */
     }
 
+    button.sectionButton:active {
+        padding: 0 0 0 0;
+    }
+
     div#contentFrame {
         padding-top: 0.1ex;
         padding-bottom: 0.1ex;
