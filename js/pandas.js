@@ -19,7 +19,7 @@ Pandas.init = function() {
   Then return the big chunk of data, along with our query functions.
   Relative db_url is appended to the hostname being visited.
   */ 
-  var db_url = "./export/redpanda.json";
+  var db_url = "https://redpandafinder.com/export/redpanda.json";
  
   var pandas = Object.create(Pandas.P); 
   var request = new XMLHttpRequest();
@@ -555,7 +555,6 @@ Pandas.sortOldestToYoungest = function(nodes) {
     }
   });
 }
-
 
 /*
     Getters and formatters for Red Panda details, with sensible defaults
