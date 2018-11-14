@@ -1,0 +1,9 @@
+[zoo]
+_id: 84
+en.address: 450 Flatbush Ave, Brooklyn, NY 11225
+en.location: Brooklyn, NY, USA
+en.name: Prospect Park Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/7JRYsikRmTz
+website: https://prospectparkzoo.com/
