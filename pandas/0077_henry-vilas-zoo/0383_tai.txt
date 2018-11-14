@@ -1,0 +1,16 @@
+[panda]
+_id: 383
+birthday: 2008/5/26
+birthplace: 82
+children: unknown
+en.name: Tai
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: タイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 77

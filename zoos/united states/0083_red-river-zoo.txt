@@ -1,0 +1,9 @@
+[zoo]
+_id: 83
+en.address: 4255 23rd Ave S, Fargo, ND 58104
+en.location: Fargo, North Dakota, USA
+en.name: Red River Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/iDn5ZuFrH4U2
+website: https://redriverzoo.org/

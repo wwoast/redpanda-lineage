@@ -1,0 +1,16 @@
+[panda]
+_id: 384
+birthday: 2014/6/20
+birthplace: 43
+children: unknown
+en.name: Kiari
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キアリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 77

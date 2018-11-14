@@ -1,0 +1,10 @@
+[zoo]
+_id: 82
+en.address: 13315 Buena Vista Road & 87th Avenue, Edmonton, AB T5J 2R7, Canada
+en.location: Edmonton, Alberta, Canada
+en.name: Edmonton Valley Zoo
+en.othernames: Valley Zoo & John Janzen Nature Center
+flag: Canada
+language.order: en
+map: https://goo.gl/maps/34HUM7tYy542
+website: https://www.edmonton.ca/attractions_events/edmonton-valley-zoo.aspx
