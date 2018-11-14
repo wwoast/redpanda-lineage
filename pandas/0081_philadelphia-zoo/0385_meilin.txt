@@ -1,0 +1,16 @@
+[panda]
+_id: 385
+birthday: 2002/6/26
+birthplace: 83
+children: unknown
+en.name: Mei-Lin
+en.nicknames: none
+en.othernames: Meilin, Mei Lin
+gender: f
+jp.name: メイリン
+jp.nicknames: unknown
+jp.othernames: none
+language.order: en, jp
+litter: 310
+species: 2
+zoo: 81
