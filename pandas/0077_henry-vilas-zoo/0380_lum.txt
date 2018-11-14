@@ -1,0 +1,15 @@
+[panda]
+_id: 380
+birthday: 2000/6/4
+birthplace: 43
+children: 381
+en.name: Lum
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラム
+jp.nicknames: ルーム
+jp.othernames: none
+language.order: en, jp
+species: 2
+zoo: 77
