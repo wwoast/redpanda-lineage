@@ -1,0 +1,25 @@
+[panda]
+_id: 345
+birthday: 2018/7/15
+birthplace: 53
+children: none
+en.name: Yosaku
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 与作
+jp.nicknames: none
+jp.othernames: ヨサク
+language.order: jp, en
+litter: 344
+photo.1: https://www.instagram.com/p/BpHIOUmF6n9/media/?size=m
+photo.1.author: daniele.tokyo
+photo.1.link: https://www.instagram.com/daniele.tokyo/
+photo.2: https://www.instagram.com/p/BpvVLdXFa-4/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
+photo.3: https://www.instagram.com/p/BpLCDXWBhmm/media/?size=m
+photo.3.author: resapanlove
+photo.3.link: https://www.instagram.com/resapanlove/
+species: 2
+zoo: 53

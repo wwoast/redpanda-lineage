@@ -1,0 +1,25 @@
+[panda]
+_id: 344
+birthday: 2018/7/15
+birthplace: 53
+children: none
+en.name: Eisaku
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 栄作
+jp.nicknames: none
+jp.othernames: エイサク
+language.order: jp, en
+litter: 345
+photo.1: https://www.instagram.com/p/Bo-PoplBpxr/media/?size=m
+photo.1.author: resapanlove
+photo.1.link: https://www.instagram.com/resapanlove/
+photo.2: https://www.instagram.com/p/BqOBEhngn6m/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
+photo.3: https://www.instagram.com/p/BpsjsoEl4he/media/?size=m
+photo.3.author: miis_98
+photo.3.link: https://www.instagram.com/miis_98/
+species: 2
+zoo: 53
