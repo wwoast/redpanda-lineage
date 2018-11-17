@@ -12,12 +12,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 277, 278
-photo.1: https://www.instagram.com/p/BnbgGcZluJ0/media/?size=m
-photo.1.author: akaikumaneko
-photo.1.link: https://www.instagram.com/akaikumaneko/
-photo.2: https://www.instagram.com/p/BqDnGo-FbnS/media/?size=m
-photo.2.author: craig_craig_craig
-photo.2.link: https://www.instagram.com/craig_craig_craig/
 species: 1
 zoo: 59
+photo.1: https://www.instagram.com/p/BqDnGo-FbnS/media/?size=m
+photo.1.author: craig_craig_craig
+photo.1.link: https://www.instagram.com/craig_craig_craig/
 
