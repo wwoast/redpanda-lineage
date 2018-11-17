@@ -278,7 +278,7 @@ function outputHome() {
   removeFooter();
 }
 
-// Displays the about page when the button is clicked. Load content from a static
+// Displays the links page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
   if (Show.links.language == undefined) {
@@ -287,6 +287,7 @@ function outputLinks() {
   else if (Show.links.language != L.display) {
     fetchLinksPage();   // Language change event
   } else {
+    Show.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.links.content);
     redrawFooter();

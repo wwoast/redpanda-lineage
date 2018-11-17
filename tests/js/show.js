@@ -278,7 +278,7 @@ function outputHome() {
   removeFooter();
 }
 
-// Displays the about page when the button is clicked. Load content from a static
+// Displays the links page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
   if (Show.links.language == undefined) {
