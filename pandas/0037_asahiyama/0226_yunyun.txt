@@ -11,6 +11,7 @@ jp.name: 雲雲
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 225
 photo.1: https://www.instagram.com/p/BoTYFczFKC9/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
@@ -44,6 +45,5 @@ photo.10.link: https://www.instagram.com/fetorus_mami/
 photo.11: https://www.instagram.com/p/BOOfJ4-DlhM/media/?size=m
 photo.11.author: monmon_redpanda
 photo.11.link: https://www.instagram.com/monmon_redpanda/
-litter: 225
 zoo: 37
 

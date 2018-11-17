@@ -18,25 +18,17 @@ class ProperlyDelimitedConfigParser(configparser.ConfigParser):
   Virtually identical to the original method, but delimit keys and values with ': ' as the delimiter,
   a humane and sensibly typed delimiter that the default ConfigParser class doesn't support.
   """
-  def write(self, fp, section):
-    if self._defaults:
-      fp.write("[%s]\n" % section)
-      for (key, value) in self._defaults.items():
-        fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
-      fp.write("\n")
-    for section in self._sections:
-      fp.write("[%s]\n" % section)
-      for (key, value) in self._sections[section].items():
-        if key == "__name__":
-          continue
-        if (value is not None) or (self._optcre == self.OPTCRE):
-
-          # This is the important departure from ConfigParser for what you are looking for
-          key = ": ".join((key, str(value).replace('\n', '\n\t')))
-
-        fp.write("%s\n" % (key))
-      fp.write("\n")
-
+  def write(self, fp, space_around_delimiters=True):
+      if space_around_delimiters:
+          d = "{} ".format(self._delimiters[0])
+      else:
+          d = self._delimiters[0]
+      if self._defaults:
+          self._write_section(fp, self.default_section,
+                              self._defaults.items(), d)
+          for section in self._sections:
+              self._write_section(fp, section,
+                                  self._sections[section].items(), d)
 
 def fetch_next_photo_index(config, start_point, stop_point):
     """
@@ -106,7 +98,7 @@ def remove_panda_photos(author):
         for filename in files:
             photo_index = start_index
             path = root + os.sep + filename
-            config = ProperlyDelimitedConfigParser()
+            config = ProperlyDelimitedConfigParser(default_section="panda", delimiters=(':'))
             config.read(path, encoding="utf-8")
             photo_option = "photo." + str(photo_index)
             author_option = photo_option + ".author"
@@ -169,7 +161,7 @@ def write_config(config, section, path):
     with open(path, 'w', encoding='utf-8') as wfh:
         # Sort the sections before writing
         config._defaults = OrderedDict(sorted(config._defaults.items(), key=strings_number_sensitive))
-        config.write(wfh, section)
+        config.write(wfh)
 
 if __name__ == '__main__':
     """Choose a utility funciton."""

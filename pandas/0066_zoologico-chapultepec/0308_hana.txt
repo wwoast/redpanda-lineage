@@ -7,13 +7,13 @@ death: unknown
 en.name: Hana
 en.nicknames: none
 en.othernames: none
+es.name: Hana
+es.nicknames: unknown
+es.othernames: unknown
 gender: f
 jp.name: ハナ
 jp.nicknames: none
 jp.othernames: none
-es.name: Hana
-es.nicknames: unknown
-es.othernames: unknown
 language.order: jp, es, en
 species: 2
 zoo: 17
