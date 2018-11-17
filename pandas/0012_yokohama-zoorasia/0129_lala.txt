@@ -30,11 +30,6 @@ photo.5.link: https://www.instagram.com/minatomirai215/
 photo.6: https://www.instagram.com/p/BoKxsTPFJTX/media/?size=m
 photo.6.author: tabechum
 photo.6.link: https://www.instagram.com/tabechum/
-species: 2
-video.1: https://youtu.be/Mnfw3xe6c6Y
-video.1.author: ガメ
-video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
-zoo: 12
 photo.7: https://www.instagram.com/p/BpPj4YiF0d4/media/?size=m
 photo.7.author: minatomirai215
 photo.7.link: https://www.instagram.com/minatomirai215/
@@ -44,4 +39,9 @@ photo.8.link: https://www.instagram.com/minatomirai215/
 photo.9: https://www.instagram.com/p/BqHkCBEg0oR/media/?size=m
 photo.9.author: xmarurux
 photo.9.link: https://www.instagram.com/xmarurux/
+species: 2
+video.1: https://youtu.be/Mnfw3xe6c6Y
+video.1.author: ガメ
+video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
+zoo: 12
 

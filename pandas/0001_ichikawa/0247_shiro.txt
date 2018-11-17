@@ -29,8 +29,6 @@ photo.5.link: https://www.instagram.com/ck.chie/
 photo.6: https://www.instagram.com/p/BpCCtXBlhwL/media/?size=m
 photo.6.author: redpanda_nippon_takashi
 photo.6.link: https://www.instagram.com/redpanda_nippon_takashi/
-species: 2
-zoo: 1
 photo.7: https://www.instagram.com/p/Bpg9y8AlvK7/media/?size=m
 photo.7.author: redpanda_nippon_takashi
 photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -46,4 +44,6 @@ photo.10.link: https://www.instagram.com/218_yu/
 photo.11: https://www.instagram.com/p/BqIvg0Tlk1q/media/?size=m
 photo.11.author: redpanda_nippon_takashi
 photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
+species: 2
+zoo: 1
 
