@@ -36,7 +36,6 @@ def fetch_next_photo_index(config, start_point, stop_point):
         # If start point went beyond the last photo, return zero
         if photo_index > stop_point:
             return 0
-    print("DEBUG photo-fetch: " + str(photo_index) + ": " + config.get("panda", photo_option))
     return photo_index
 
 def renumber_panda_photos(config, stop_point):
@@ -51,25 +50,18 @@ def renumber_panda_photos(config, stop_point):
         photo_option = "photo." + str(photo_index)
         photo_author = photo_option + ".author"
         photo_link = photo_option + ".link"
-        # print("DEBUG COUNTER: " + str(photo_index))
         if config.has_option("panda", photo_option) == False:
             next_index = fetch_next_photo_index(config, photo_index, stop_point)
             next_option = "photo." + str(next_index)
             next_author = next_option + ".author"
             next_link = next_option + ".link"
-            print("DEBUG RENUMBER CHECK: current photo: " + photo_option + " -- next index: " + str(next_index))
             if config.has_option("panda", next_option) == True:
-                print("DEBUG RENUMBER: " + next_option + " -> " + photo_option)
-                if config.has_option("panda", next_option):
-                    print("DEBUG pre-remove: " + next_option + " : " + config.get("panda", next_option))
                 config.set("panda", photo_option, config.get("panda", next_option))
                 config.set("panda", photo_author, config.get("panda", next_author))
                 config.set("panda", photo_link, config.get("panda", next_link))
                 config.remove_option("panda", next_option)
                 config.remove_option("panda", next_author)
                 config.remove_option("panda", next_link)
-                if config.has_option("panda", next_option):
-                    print("DEBUG post-remove: " + next_option + " : " + config.get("panda", next_option))
         photo_index = photo_index + 1
 
 def remove_panda_photos(author):
@@ -98,7 +90,7 @@ def remove_panda_photos(author):
             while config.has_option("panda", author_option) == True:
                 panda_author = config.get("panda", "photo." + str(photo_index) + ".author")
                 if author == panda_author:
-                    print("DEBUG REMOVE: " + path + " -- " + panda_author + " -- " + photo_option)
+                    # print("DEBUG REMOVE: " + path + " -- " + panda_author + " -- " + photo_option)
                     config.remove_option("panda", photo_option)
                     config.remove_option("panda", author_option)
                     config.remove_option("panda", author_link)
