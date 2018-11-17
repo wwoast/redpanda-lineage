@@ -287,6 +287,7 @@ function outputLinks() {
   else if (Show.links.language != L.display) {
     fetchLinksPage();   // Language change event
   } else {
+    Show.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Show.links.content);
     redrawFooter();
