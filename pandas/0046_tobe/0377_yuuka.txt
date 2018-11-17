@@ -1,11 +1,11 @@
 [panda]
 _id: 377
-birthday: 2010/6/20 
+birthday: 2010/6/20
 birthplace: 6
 children: 175, 174, 173
 death: 2016/8/16
 en.name: Yuuka
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Yuka, Yūka
 gender: f
 jp.name: 優花
@@ -21,3 +21,4 @@ photo.2.author: gachon_kudo
 photo.2.link: https://gachon.exblog.jp/
 species: 2
 zoo: 46
+

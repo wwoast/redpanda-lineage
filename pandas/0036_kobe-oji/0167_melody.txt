@@ -1,6 +1,6 @@
 [panda]
 _id: 167
-birthday: 2017/7/6 
+birthday: 2017/7/6
 birthplace: 36
 children: none
 en.name: Melody
@@ -83,3 +83,4 @@ photo.23.author: pantasanzoo
 photo.23.link: https://www.instagram.com/pantasanzoo/
 species: 2
 zoo: 36
+

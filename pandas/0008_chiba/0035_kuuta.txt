@@ -1,6 +1,6 @@
 [panda]
 _id: 35
-birthday: 2008/6/27 
+birthday: 2008/6/27
 birthplace: 8
 children: 37, 45, 38, 43, 39, 40, 47
 en.name: Kuuta
@@ -71,3 +71,4 @@ photo.19.author: ifumoto88
 photo.19.link: https://www.instagram.com/ifumoto88/
 species: 2
 zoo: 8
+

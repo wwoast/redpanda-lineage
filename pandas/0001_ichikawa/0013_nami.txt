@@ -1,11 +1,11 @@
 [panda]
-_id: 13 
+_id: 13
 birthday: 2002/7/15
 birthplace: 1
 children: 4, 264, 12, 281, 179
 en.name: Nami
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: ナミ
 jp.nicknames: none
@@ -35,3 +35,4 @@ photo.7.author: 218_yu
 photo.7.link: https://www.instagram.com/218_yu/
 species: 2
 zoo: 1
+

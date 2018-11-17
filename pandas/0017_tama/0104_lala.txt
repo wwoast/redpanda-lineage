@@ -4,7 +4,7 @@ birthday: 2008/6/16
 birthplace: 10
 children: 185
 en.name: Lala
-en.nicknames: Mofumofu Tail 
+en.nicknames: Mofumofu Tail
 en.othernames: Rara
 gender: f
 jp.name: ララ
@@ -50,3 +50,4 @@ photo.12.author: hiro107ig_zoo
 photo.12.link: https://www.instagram.com/hiro107ig_zoo/
 species: 2
 zoo: 17
+

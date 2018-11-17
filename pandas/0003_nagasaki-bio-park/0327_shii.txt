@@ -5,7 +5,7 @@ birthplace: 40
 children: 3
 en.name: Shii
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: m
 jp.name: 椎
 jp.nicknames: none
@@ -17,3 +17,4 @@ photo.1.author: tabechum
 photo.1.link: https://www.instagram.com/tabechum/
 species: 2
 zoo: 3
+

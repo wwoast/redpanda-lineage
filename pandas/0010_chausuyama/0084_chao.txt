@@ -1,6 +1,6 @@
 [panda]
 _id: 84
-birthday: 2006/7/6 
+birthday: 2006/7/6
 birthplace: 13
 children: 151, 24, 215, 346, 75, 91, 92, 93, 94, 95, 97, 98
 en.name: Chao
@@ -29,3 +29,4 @@ photo.5.author: no_life_no_zoo
 photo.5.link: https://www.instagram.com/no_life_no_zoo/
 species: 2
 zoo: 10
+

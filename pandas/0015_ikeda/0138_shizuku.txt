@@ -1,6 +1,6 @@
 [panda]
 _id: 138
-birthday: 2012/6/19 
+birthday: 2012/6/19
 birthplace: 15
 children: unknown
 en.name: Shizuku
@@ -52,3 +52,4 @@ photo.13.author: yuka0714_0307
 photo.13.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 15
+

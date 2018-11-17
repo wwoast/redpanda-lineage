@@ -1,10 +1,10 @@
 [panda]
 _id: 28
-birthday: 2015/6/16 
+birthday: 2015/6/16
 birthplace: 4
 children: none
 en.name: Keiko
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: ケイコ
@@ -41,3 +41,4 @@ photo.9.author: rie_panda55
 photo.9.link: https://www.instagram.com/rie_panda55/
 species: 2
 zoo: 4
+

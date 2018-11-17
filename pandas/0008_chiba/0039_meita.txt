@@ -1,6 +1,6 @@
 [panda]
 _id: 39
-birthday: 2014/6/28 
+birthday: 2014/6/28
 birthplace: 8
 children: none
 en.name: Meita
@@ -53,3 +53,4 @@ photo.13.author: panda.daisuki
 photo.13.link: https://www.instagram.com/panda.daisuki/
 species: 2
 zoo: 8
+

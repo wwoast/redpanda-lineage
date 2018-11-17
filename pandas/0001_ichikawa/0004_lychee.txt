@@ -1,11 +1,11 @@
 [panda]
-_id: 4 
+_id: 4
 birthday: 2005/6/25
-birthplace: 1 
+birthplace: 1
 children: 9, 266, 2, 6, 7
 en.name: Lychee
 en.nicknames: none
-en.othernames: Raichi 
+en.othernames: Raichi
 gender: m
 jp.name: ライチ
 jp.nicknames: none
@@ -38,3 +38,4 @@ photo.8.author: craig_craig_craig
 photo.8.link: https://www.instagram.com/craig_craig_craig/
 species: 2
 zoo: 1
+

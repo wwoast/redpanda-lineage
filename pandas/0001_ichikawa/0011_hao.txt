@@ -1,11 +1,11 @@
 [panda]
-_id: 11 
+_id: 11
 birthday: 2005/6/14
-birthplace: 1 
+birthplace: 1
 children: none
 en.name: Hao
 en.nicknames: Square-chin
-en.othernames: none 
+en.othernames: none
 gender: m
 jp.name: ハオ
 jp.nicknames: none
@@ -13,7 +13,7 @@ jp.othernames: 好
 language.order: jp, en
 litter: none
 photo.1: https://www.instagram.com/p/BihkCaAFxTP/media/?size=m
-photo.1.author: bubbles_octi 
+photo.1.author: bubbles_octi
 photo.1.link: https://www.instagram.com/bubbles_octi/
 photo.2: https://www.instagram.com/p/Bc6s_VBjqnt/media/?size=m
 photo.2.author: ck.chie
@@ -70,4 +70,5 @@ photo.19: https://www.instagram.com/p/Bp9p3-3llk8/media/?size=m
 photo.19.author: 218_yu
 photo.19.link: https://www.instagram.com/218_yu/
 species: 2
-zoo: 1 
+zoo: 1
+

@@ -4,7 +4,7 @@ birthday: 2018/7/13
 birthplace: 17
 children: none
 en.name: Zun
-en.nicknames: none  
+en.nicknames: none
 en.othernames: 
 gender: m
 jp.name: ずん
@@ -26,3 +26,4 @@ photo.4.author: akaikumaneko
 photo.4.link: https://www.instagram.com/akaikumaneko/
 species: 2
 zoo: 17
+

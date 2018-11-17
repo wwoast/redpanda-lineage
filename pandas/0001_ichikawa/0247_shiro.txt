@@ -4,7 +4,7 @@ birthday: 2018/6/28
 birthplace: 1
 en.name: Shiro
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: シロ
 jp.nicknames: none
@@ -52,3 +52,4 @@ photo.13.author: redpanda_nippon_takashi
 photo.13.link: https://www.instagram.com/redpanda_nippon_takashi/
 species: 2
 zoo: 1
+

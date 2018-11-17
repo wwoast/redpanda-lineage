@@ -1,11 +1,11 @@
 [panda]
-_id: 9 
+_id: 9
 birthday: 2009/7/4
-birthplace: 1 
+birthplace: 1
 children: 1
 en.name: Ichimaru
 en.nicknames: Shy Guy
-en.othernames: none 
+en.othernames: none
 gender: m
 jp.name: イチ丸
 jp.nicknames: none
@@ -52,4 +52,5 @@ photo.13: https://www.instagram.com/p/BmvJbcbBmj4/media/?size=m
 photo.13.author: miis_98
 photo.13.link: https://www.instagram.com/miis_98/
 species: 2
-zoo: 1 
+zoo: 1
+

@@ -5,7 +5,7 @@ birthplace: 46
 children: unknown
 en.name: Kiki
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: キキ
 jp.nicknames: none
@@ -17,3 +17,4 @@ photo.1.author: sbskyy
 photo.1.link: https://www.instagram.com/sbskyy/
 species: 2
 zoo: 3
+

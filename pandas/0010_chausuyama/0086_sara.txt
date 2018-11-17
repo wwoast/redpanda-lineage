@@ -1,6 +1,6 @@
 [panda]
 _id: 86
-birthday: 2009/6/19 
+birthday: 2009/6/19
 birthplace: 10
 children: unknown
 en.name: Sara
@@ -68,3 +68,4 @@ photo.18.author: _rifa_p
 photo.18.link: https://www.instagram.com/_rifa_p/
 species: 2
 zoo: 10
+

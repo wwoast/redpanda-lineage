@@ -6,9 +6,9 @@ children: none
 death: 2018/6/11
 en.name: Kinta
 en.nicknames: none
-en.othernames: Spaceman, Quintana-Roo, Ageless Beauty 
+en.othernames: Spaceman, Quintana-Roo, Ageless Beauty
 gender: f
-jp.name: キンタ 
+jp.name: キンタ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -53,3 +53,4 @@ photo.13.author: l_ma_photos
 photo.13.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 38
+

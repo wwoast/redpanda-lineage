@@ -4,7 +4,7 @@ birthday: 2010/6/26
 birthplace: 10
 children: 197, 315
 en.name: Subaru
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: スバル
@@ -29,3 +29,4 @@ photo.5.author: peek_a_boo00
 photo.5.link: https://www.instagram.com/peek_a_boo00/
 species: 2
 zoo: 20
+

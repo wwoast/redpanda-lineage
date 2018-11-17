@@ -1,6 +1,6 @@
 [panda]
 _id: 218
-birthday: 2003/7/3  
+birthday: 2003/7/3
 birthplace: 60
 children: 61
 en.name: Taiyo
@@ -16,3 +16,4 @@ photo.1.author: rdpnzoo
 photo.1.link: https://www.instagram.com/rdpnzoo/
 species: 2
 zoo: 57
+

@@ -1,10 +1,10 @@
 [panda]
 _id: 68
-birthday: 2006/5/30 
-birthplace: 30 
+birthday: 2006/5/30
+birthplace: 30
 children: 140, 70, 301
 en.name: Ribbon
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: リボン
@@ -25,3 +25,4 @@ photo.4.author: yuka0714_0307
 photo.4.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 6
+

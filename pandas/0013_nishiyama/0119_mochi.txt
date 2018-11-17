@@ -5,7 +5,7 @@ birthplace: 13
 children: none
 en.name: Mochi
 en.nicknames: none
-en.othernames: Moochie 
+en.othernames: Moochie
 gender: m
 jp.name: モッチー
 jp.nicknames: none
@@ -92,3 +92,4 @@ photo.26.author: l_ma_photos
 photo.26.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 13
+

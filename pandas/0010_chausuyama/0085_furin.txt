@@ -1,6 +1,6 @@
 [panda]
 _id: 85
-birthday: 2007/7/11 
+birthday: 2007/7/11
 birthplace: 8
 children: unknown
 en.name: Furin
@@ -38,3 +38,4 @@ photo.8.author: kipekaila
 photo.8.link: https://www.instagram.com/kipekaila/
 species: 2
 zoo: 10
+

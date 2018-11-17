@@ -4,7 +4,7 @@ birthday: 1999/7/21
 birthplace: 42
 children: unknown
 en.name: Miku
-en.nicknames: none 
+en.nicknames: none
 gender: f
 jp.name: ミク
 jp.nicknames: none
@@ -18,3 +18,4 @@ photo.2.author: akaikumaneko
 photo.2.link: https://www.instagram.com/akaikumaneko/
 species: 2
 zoo: 74
+

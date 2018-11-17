@@ -5,7 +5,7 @@ birthplace: unknown
 children: 361, 362, 196, 310, 382, 25, 165
 death: unknown
 en.name: Mii-Mii
-en.nicknames: unknown 
+en.nicknames: unknown
 en.othernames: Miimii
 gender: m
 jp.name: ミーミー
@@ -14,3 +14,4 @@ jp.othernames: none
 language.order: jp, en
 species: 2
 zoo: 12
+

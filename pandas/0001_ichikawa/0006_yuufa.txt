@@ -1,11 +1,11 @@
 [panda]
-_id: 6 
+_id: 6
 birthday: 2013/6/20
-birthplace: 1 
+birthplace: 1
 children: 8, 246, 247
 en.name: Yuufa
 en.nicknames: none
-en.othernames: You-hua, Yu-fa 
+en.othernames: You-hua, Yu-fa
 gender: f
 jp.name: 優花
 jp.nicknames: none
@@ -70,4 +70,5 @@ photo.19: https://www.instagram.com/p/BqMl5GpFeIK/media/?size=m
 photo.19.author: panda.daisuki
 photo.19.link: https://www.instagram.com/panda.daisuki/
 species: 2
-zoo: 1 
+zoo: 1
+

@@ -1,6 +1,6 @@
 [panda]
 _id: 156
-birthday: 2004/7/23 
+birthday: 2004/7/23
 birthplace: 40
 children: none
 en.name: Ichi
@@ -26,3 +26,4 @@ photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
 species: 2
 zoo: 25
+

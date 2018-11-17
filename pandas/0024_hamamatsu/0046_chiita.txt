@@ -1,6 +1,6 @@
 [panda]
 _id: 46
-birthday: 2008/6/27 
+birthday: 2008/6/27
 birthplace: 8
 children: unknown
 en.name: Chiita
@@ -65,3 +65,4 @@ video.1: https://youtu.be/-WMjIqoEK1U
 video.1.author: しもだちゃんねる
 video.1.link: https://www.youtube.com/channel/UCFMJwoHneCPsn_c0I-XaEYw
 zoo: 24
+

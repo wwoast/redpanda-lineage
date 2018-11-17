@@ -1,19 +1,19 @@
 [panda]
-_id: 2 
+_id: 2
 birthday: 2013/6/20
-birthplace: 1 
-children: none 
+birthplace: 1
+children: none
 en.name: Meito
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: m
 jp.name: 明登
 jp.nicknames: none
-jp.othernames: メイト 
+jp.othernames: メイト
 language.order: jp, en
 litter: 6, 7
 photo.1: https://instagram.com/p/Be6xaVdFG78/media/?size=m
-photo.1.author: takashi_8310iyo 
+photo.1.author: takashi_8310iyo
 photo.1.link: https://www.instagram.com/takashi_8310iyo/
 photo.2: https://instagram.com/p/BgLYfBVlp_b/media/?size=m
 photo.2.author: hanamaru_redpanda
@@ -67,4 +67,5 @@ photo.18: https://www.instagram.com/p/Bkhp4T1F-Kj/media/?size=m
 photo.18.author: miis_98
 photo.18.link: https://www.instagram.com/miis_98/
 species: 2
-zoo: 1 
+zoo: 1
+

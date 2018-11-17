@@ -5,7 +5,7 @@ birthplace: 6
 children: 5
 en.name: Koto
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: コト
 jp.nicknames: none
@@ -68,3 +68,4 @@ photo.18.author: makimaru18
 photo.18.link: https://www.instagram.com/makimaru18/
 species: 2
 zoo: 2
+

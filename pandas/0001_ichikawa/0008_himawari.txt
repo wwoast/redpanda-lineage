@@ -1,11 +1,11 @@
 [panda]
-_id: 8 
+_id: 8
 birthday: 2017/7/13
-birthplace: 1 
-children: none 
+birthplace: 1
+children: none
 en.name: Himawari
 en.nicknames: Sunflower
-en.othernames: Hima-chan 
+en.othernames: Hima-chan
 gender: f
 jp.name: ひまわり
 jp.nicknames: none
@@ -55,4 +55,5 @@ photo.14: https://www.instagram.com/p/BqMSYm6FRmH/media/?size=m
 photo.14.author: masa_polarbear
 photo.14.link: https://www.instagram.com/masa_polarbear/
 species: 2
-zoo: 1 
+zoo: 1
+

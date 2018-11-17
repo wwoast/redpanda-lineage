@@ -1,6 +1,6 @@
 [panda]
 _id: 133
-birthday: 2009/6/25 
+birthday: 2009/6/25
 birthplace: 15
 children: 131, 134
 en.name: Nokaze
@@ -46,3 +46,4 @@ photo.11.author: yossi929
 photo.11.link: https://www.instagram.com/yossi929/
 species: 2
 zoo: 41
+

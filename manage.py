@@ -12,6 +12,32 @@ import sys
 from collections import OrderedDict
 from shared import PANDA_PATH, ZOO_PATH
 
+
+class ProperlyDelimitedConfigParser(configparser.ConfigParser):
+  """
+  Virtually identical to the original method, but delimit keys and values with ': ' as the delimiter,
+  a humane and sensibly typed delimiter that the default ConfigParser class doesn't support.
+  """
+  def write(self, fp, section):
+    if self._defaults:
+      fp.write("[%s]\n" % section)
+      for (key, value) in self._defaults.items():
+        fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+      fp.write("\n")
+    for section in self._sections:
+      fp.write("[%s]\n" % section)
+      for (key, value) in self._sections[section].items():
+        if key == "__name__":
+          continue
+        if (value is not None) or (self._optcre == self.OPTCRE):
+
+          # This is the important departure from ConfigParser for what you are looking for
+          key = ": ".join((key, str(value).replace('\n', '\n\t')))
+
+        fp.write("%s\n" % (key))
+      fp.write("\n")
+
+
 def fetch_next_photo_index(config, start_point, stop_point):
     """
     Given we deleted pandas from a dataset entry, find the first available hole in
@@ -80,7 +106,7 @@ def remove_panda_photos(author):
         for filename in files:
             photo_index = start_index
             path = root + os.sep + filename
-            config = configparser.ConfigParser(default_section="panda")
+            config = ProperlyDelimitedConfigParser()
             config.read(path, encoding="utf-8")
             photo_option = "photo." + str(photo_index)
             author_option = photo_option + ".author"
@@ -105,7 +131,6 @@ def remove_panda_photos(author):
             # Done? Let's write config
             write_config(config, "panda", path)
 
-
 def remove_zoo_photos(author):
     """
     Zoos only have a single photo recorded for each one.
@@ -116,7 +141,7 @@ def remove_zoo_photos(author):
         for filename in files:
             path = root + os.sep + filename
             config.read(path, encoding="utf-8")
-            zoo_author = zoo.get("zoo", "photo.author")
+            zoo_author = config.get("zoo", "photo.author")
             if zoo_author == author:
                 config.remove_option("zoo", "photo") 
                 config.remove_option("zoo", "photo.author") 
@@ -144,7 +169,7 @@ def write_config(config, section, path):
     with open(path, 'w', encoding='utf-8') as wfh:
         # Sort the sections before writing
         config._defaults = OrderedDict(sorted(config._defaults.items(), key=strings_number_sensitive))
-        config.write(wfh)
+        config.write(wfh, section)
 
 if __name__ == '__main__':
     """Choose a utility funciton."""

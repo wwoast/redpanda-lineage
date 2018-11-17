@@ -5,7 +5,7 @@ birthplace: unknown
 children: 171, 216, 308, 13, 229, 193
 death: unknown
 en.name: Nene
-en.nicknames: none  
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: 寧々
@@ -14,3 +14,4 @@ jp.othernames: ネネ, 寧寧
 language.order: jp, en
 species: 2
 zoo: 17
+

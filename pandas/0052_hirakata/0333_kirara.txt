@@ -5,7 +5,7 @@ birthplace: unknown
 children: unknown
 en.name: Kirara
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: キララ
 jp.nicknames: none
@@ -14,3 +14,4 @@ language.order: jp, en
 litter: unknown
 species: 2
 zoo: 52
+

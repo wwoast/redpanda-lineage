@@ -1,7 +1,7 @@
 [panda]
 _id: 170
 birthday: 2011/6/5
-birthplace: 49	 
+birthplace: 49
 children: unknown
 en.name: Gaila
 en.nicknames: LadyBoss
@@ -38,3 +38,4 @@ photo.8.author: zookeeper_aj
 photo.8.link: https://www.instagram.com/zookeeper_aj/
 species: 1
 zoo: 47
+

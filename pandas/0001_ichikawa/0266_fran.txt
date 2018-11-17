@@ -6,7 +6,7 @@ children: none
 death: 2016/2/2
 en.name: Fran
 en.nicknames: none
-en.othernames: Furan 
+en.othernames: Furan
 gender: m
 jp.name: フラン
 jp.nicknames: none
@@ -27,3 +27,4 @@ video.1: https://youtu.be/vq8fxKQBMGA
 video.1.author: ガメ
 video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
 zoo: 1
+

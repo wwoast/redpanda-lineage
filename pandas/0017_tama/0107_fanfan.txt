@@ -4,7 +4,7 @@ birthday: 1999/7/9
 birthplace: 15
 children: 136, 191, 157, 192, 287, 83, 105, 36, 74
 en.name: Fan-Fan
-en.nicknames: none  
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: ファンファン
@@ -20,3 +20,4 @@ video.1.author: ガメ
 video.1.link: https://www.youtube.com/channel/UCY6TH3OBuVW3S21xNcEw2tg
 species: 2
 zoo: 17
+

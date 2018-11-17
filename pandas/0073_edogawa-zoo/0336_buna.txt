@@ -4,7 +4,7 @@ birthday: 2000/7/17
 birthplace: 40
 children: 290, 155
 en.name: Buna
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Beech
 gender: m
 jp.name: ブナ
@@ -38,3 +38,4 @@ photo.8.author: ifumoto88
 photo.8.link: https://www.instagram.com/ifumoto88/
 species: 2
 zoo: 73
+

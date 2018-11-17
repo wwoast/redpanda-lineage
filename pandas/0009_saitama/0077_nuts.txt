@@ -1,10 +1,10 @@
 [panda]
 _id: 77
-birthday: 2006/6/24 
+birthday: 2006/6/24
 birthplace: 9
 children: 27, 143, 78, 153, 347
 en.name: Nuts
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Natsu
 gender: f
 jp.name: ナツ
@@ -50,3 +50,4 @@ photo.12.author: kaoru_a358
 photo.12.link: https://www.instagram.com/kaoru_a358/
 species: 2
 zoo: 9
+

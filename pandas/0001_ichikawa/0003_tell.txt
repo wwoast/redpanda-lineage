@@ -1,11 +1,11 @@
 [panda]
-_id: 3 
+_id: 3
 birthday: 2010/7/10
 birthplace: 3
-children: none 
+children: none
 en.name: Tell
 en.nicknames: none
-en.othernames: Teru 
+en.othernames: Teru
 gender: f
 jp.name: テル
 jp.nicknames: none
@@ -77,3 +77,4 @@ photo.21.author: _rifa_p
 photo.21.link: https://www.instagram.com/_rifa_p/
 species: 2
 zoo: 1
+

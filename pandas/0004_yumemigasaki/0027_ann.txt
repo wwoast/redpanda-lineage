@@ -1,10 +1,10 @@
 [panda]
 _id: 27
-birthday: 2010/6/15 
+birthday: 2010/6/15
 birthplace: 9
-children: 10, 293, 28, 29 
+children: 10, 293, 28, 29
 en.name: Ann
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: アン
@@ -53,3 +53,4 @@ photo.13.author: akaikumaneko
 photo.13.link: https://www.instagram.com/akaikumaneko/
 species: 2
 zoo: 4
+

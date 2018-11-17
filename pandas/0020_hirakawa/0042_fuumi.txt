@@ -4,7 +4,7 @@ birthday: 2007/7/11
 birthplace: 8
 children: 197, 315
 en.name: Fuumi
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Kazumi, Kazami
 gender: f
 jp.name: 風美
@@ -26,3 +26,4 @@ photo.4.author: yossi929
 photo.4.link: https://www.instagram.com/yossi929/
 species: 2
 zoo: 20
+

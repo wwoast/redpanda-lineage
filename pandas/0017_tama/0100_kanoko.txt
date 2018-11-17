@@ -4,7 +4,7 @@ birthday: 2016/6/24
 birthplace: 17
 children: none
 en.name: Kanoko
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: かのこ
@@ -74,3 +74,4 @@ photo.20.author: hiro107ig_zoo
 photo.20.link: https://www.instagram.com/hiro107ig_zoo/
 species: 2
 zoo: 17
+

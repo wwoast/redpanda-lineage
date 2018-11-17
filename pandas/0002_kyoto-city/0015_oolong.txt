@@ -1,14 +1,14 @@
 [panda]
 _id: 15
 birthday: 2011/6/5
-birthplace: 5 
+birthplace: 5
 children: 96, 118, 288, 5, 241
 cn.name: unknown
 cn.nicknames: unknown
 cn.othernames: unknown
 en.name: Oolong
 en.nicknames: Wu-Ron
-en.othernames: none 
+en.othernames: none
 gender: m
 jp.name: ウーロン
 jp.nicknames: none
@@ -62,3 +62,4 @@ photo.15.author: kinkinkin0826
 photo.15.link: https://www.instagram.com/kinkinkin0826/
 species: 2
 zoo: 2
+

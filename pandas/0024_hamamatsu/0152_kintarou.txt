@@ -1,6 +1,6 @@
 [panda]
 _id: 152
-birthday: 1997/7/17 
+birthday: 1997/7/17
 birthplace: 14
 children: unknown
 en.name: Kintarou
@@ -54,3 +54,4 @@ photo.14.author: taka__3428
 photo.14.link: https://www.instagram.com/taka__3428/
 species: 2
 zoo: 24
+

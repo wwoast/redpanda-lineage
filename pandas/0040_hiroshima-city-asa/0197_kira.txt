@@ -4,7 +4,7 @@ birthday: 2014/6/12
 birthplace: 20
 children: unknown
 en.name: Kira
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: キラ
@@ -44,3 +44,4 @@ photo.10.author: kmasahon
 photo.10.link: https://www.instagram.com/kmasahon/
 species: 2
 zoo: 40
+

@@ -4,7 +4,7 @@ birthday: 2010/6/14
 birthplace: 17
 children: 71, 164, 99, 100, 256
 en.name: Azuki
-en.nicknames: Beans 
+en.nicknames: Beans
 en.othernames: none
 gender: f
 jp.name: アズキ
@@ -29,3 +29,4 @@ photo.5.author: mariten1119
 photo.5.link: https://www.instagram.com/mariten1119/
 species: 2
 zoo: 17
+

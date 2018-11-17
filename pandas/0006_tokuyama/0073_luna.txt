@@ -1,10 +1,10 @@
 [panda]
 _id: 73
-birthday: 2015/8/23 
+birthday: 2015/8/23
 birthplace: 31
 children: 376, 378
 en.name: Luna
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Runa, Moon
 gender: f
 jp.name: ルナ
@@ -35,3 +35,4 @@ photo.7.author: mariiiiiiiko721
 photo.7.link: https://www.instagram.com/mariiiiiiiko721/
 species: 2
 zoo: 6
+

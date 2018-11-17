@@ -6,7 +6,7 @@ children: none
 en.name: Tiara
 en.nicknames: none
 en.oldnames: Minko
-en.othernames: Minko 
+en.othernames: Minko
 gender: f
 jp.name: ティアラ
 jp.nicknames: none
@@ -46,3 +46,4 @@ photo.10.author: l_ma_photos
 photo.10.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 13
+

@@ -4,7 +4,7 @@ birthday: 2007/6/28
 birthplace: 17
 children: 185
 en.name: Run-Run
-en.nicknames: none  
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: ルンルン
@@ -41,3 +41,4 @@ photo.9.author: hiro107ig_zoo
 photo.9.link: https://www.instagram.com/hiro107ig_zoo/
 species: 2
 zoo: 17
+

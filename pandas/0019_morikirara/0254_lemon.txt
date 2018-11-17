@@ -4,7 +4,7 @@ birthday: 2014/7/13
 birthplace: 19
 children: none
 en.name: Lemon
-en.nicknames: none  
+en.nicknames: none
 en.othernames: Remon
 gender: m
 jp.name: レモン
@@ -38,3 +38,4 @@ photo.8.author: hanamaru_redpanda
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
 species: 2
 zoo: 58
+

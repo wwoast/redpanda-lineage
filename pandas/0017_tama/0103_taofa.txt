@@ -4,7 +4,7 @@ birthday: 2015/6/14
 birthplace: 34
 children: 240
 en.name: Taofa
-en.nicknames: Forehead-chan 
+en.nicknames: Forehead-chan
 en.othernames: Tao-fa, Tao-Fa
 gender: f
 jp.name: タオファ
@@ -43,3 +43,4 @@ photo.10.author: ck.chie
 photo.10.link: https://www.instagram.com/ck.chie/
 species: 2
 zoo: 17
+

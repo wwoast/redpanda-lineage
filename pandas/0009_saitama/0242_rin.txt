@@ -4,7 +4,7 @@ birthday: 2018/6/24
 birthplace: 9
 children: none
 en.name: Rin
-en.nicknames: none 
+en.nicknames: none
 en.othernames: 
 gender: f
 jp.name: リン
@@ -56,3 +56,4 @@ photo.14.author: s.okano521
 photo.14.link: https://www.instagram.com/s.okano521/
 species: 2
 zoo: 9
+

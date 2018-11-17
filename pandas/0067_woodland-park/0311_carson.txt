@@ -4,7 +4,7 @@ birthday: 2014/6/30
 birthplace: 80
 children: none
 en.name: Carson
-en.nicknames: none  
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: カーソン
@@ -65,3 +65,4 @@ photo.17.author: carsontheredpanda
 photo.17.link: https://www.instagram.com/carsontheredpanda/
 species: 1
 zoo: 67
+

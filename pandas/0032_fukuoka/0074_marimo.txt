@@ -4,7 +4,7 @@ birthday: 2008/6/24
 birthplace: 17
 children: unknown
 en.name: Marimo
-en.nicknames: Miss Manners 
+en.nicknames: Miss Manners
 en.othernames: none
 gender: f
 jp.name: マリモ
@@ -64,3 +64,4 @@ photo.17.author: re_ichimaru
 photo.17.link: https://www.instagram.com/re_ichimaru/
 species: 2
 zoo: 32
+

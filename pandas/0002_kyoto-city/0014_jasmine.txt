@@ -1,14 +1,14 @@
 [panda]
 _id: 14
 birthday: 2010/7/14
-birthplace: 5 
+birthplace: 5
 children: 96, 118, 288, 241
 cn.name: unknown
 cn.nicknames: none
-cn.othernames: none 
+cn.othernames: none
 en.name: Jasmine
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: ジャスミン
 jp.nicknames: none
@@ -74,3 +74,4 @@ photo.19.author: kinkinkin0826
 photo.19.link: https://www.instagram.com/kinkinkin0826/
 species: 2
 zoo: 2
+

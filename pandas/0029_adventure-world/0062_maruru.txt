@@ -1,7 +1,7 @@
 [panda]
 _id: 62
 birthday: 2014/6/6
-birthplace: 29 
+birthplace: 29
 children: none
 en.name: Maruru
 en.nicknames: none
@@ -35,3 +35,4 @@ photo.7.author: wumpwoast
 photo.7.link: https://www.instagram.com/wumpwoast/
 species: 2
 zoo: 29
+

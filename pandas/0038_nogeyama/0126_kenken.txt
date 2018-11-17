@@ -5,7 +5,7 @@ birthplace: 6
 children: 377, 180, 144, 130, 69
 en.name: Ken-Ken
 en.nicknames: none
-en.othernames: Kenken, Freckle-kun 
+en.othernames: Kenken, Freckle-kun
 gender: m
 jp.name: ケンケン
 jp.nicknames: none
@@ -47,3 +47,4 @@ photo.11.author: itsuak
 photo.11.link: https://www.instagram.com/itsuak/
 species: 2
 zoo: 38
+

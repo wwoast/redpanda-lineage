@@ -1,6 +1,6 @@
 [panda]
 _id: 259
-birthday: 2014/8/18 
+birthday: 2014/8/18
 birthplace: 42
 children: unknown
 en.name: Tōya
@@ -17,3 +17,4 @@ photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
 species: 2
 zoo: 62
+

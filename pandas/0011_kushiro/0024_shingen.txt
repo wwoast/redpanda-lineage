@@ -1,13 +1,13 @@
 [panda]
 _id: 24
 birthday: 2011/6/18
-birthplace: 10 
+birthplace: 10
 children: 23
 en.name: Shingen
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: シンゲン 
+jp.name: シンゲン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -88,3 +88,4 @@ photo.25.author: ichiken67
 photo.25.link: https://www.instagram.com/ichiken67/
 species: 2
 zoo: 11
+

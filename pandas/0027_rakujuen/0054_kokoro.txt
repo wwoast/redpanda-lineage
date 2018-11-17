@@ -1,10 +1,10 @@
 [panda]
 _id: 54
-birthday: 2006/6/20 
+birthday: 2006/6/20
 birthplace: 10
 children: unknown
 en.name: Kokoro
-en.nicknames: Mofumofu 
+en.nicknames: Mofumofu
 en.othernames: none
 gender: f
 jp.name: ココロ
@@ -41,3 +41,4 @@ photo.9.author: akaikumaneko
 photo.9.link: https://www.instagram.com/akaikumaneko/
 species: 2
 zoo: 27
+

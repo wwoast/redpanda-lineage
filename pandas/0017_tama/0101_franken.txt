@@ -4,7 +4,7 @@ birthday: 2012/6/11
 birthplace: 51
 children: 164, 71, 99, 100, 240, 256
 en.name: Franken
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: フランケン
@@ -34,3 +34,4 @@ photo.7.author: mofu_pan
 photo.7.link: https://www.instagram.com/mofu_pan/
 species: 2
 zoo: 17
+

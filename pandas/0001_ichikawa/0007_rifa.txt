@@ -1,11 +1,11 @@
 [panda]
-_id: 7 
+_id: 7
 birthday: 2013/6/20
-birthplace: 1 
-children: none 
+birthplace: 1
+children: none
 en.name: Rifa
 en.nicknames: none
-en.othernames: Li-hua, Ri-fa 
+en.othernames: Li-hua, Ri-fa
 gender: f
 jp.name: 梨花
 jp.nicknames: none
@@ -76,4 +76,5 @@ photo.21: https://www.instagram.com/p/BpvWsFylg5s/media/?size=m
 photo.21.author: 218_yu
 photo.21.link: https://www.instagram.com/218_yu/
 species: 2
-zoo: 1 
+zoo: 1
+

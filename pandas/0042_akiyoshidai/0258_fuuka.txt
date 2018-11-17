@@ -1,6 +1,6 @@
 [panda]
 _id: 258
-birthday: 2011/6/23 
+birthday: 2011/6/23
 birthplace: 42
 children: 176, 177, 178
 en.name: Fuuka
@@ -20,3 +20,4 @@ photo.2.author: yuka0714_0307
 photo.2.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 42
+

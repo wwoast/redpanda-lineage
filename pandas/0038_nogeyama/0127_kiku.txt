@@ -5,7 +5,7 @@ birthplace: 40
 children: none
 en.name: Kiku
 en.nicknames: none
-en.othernames: Chrysantheum 
+en.othernames: Chrysantheum
 gender: f
 jp.name: キク
 jp.nicknames: none
@@ -77,3 +77,4 @@ photo.21.author: minatomirai215
 photo.21.link: https://www.instagram.com/minatomirai215/
 species: 2
 zoo: 38
+

@@ -5,7 +5,7 @@ birthplace: 17
 children: unknown
 death: unknown
 en.name: Hana
-en.nicknames: none  
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: ハナ
@@ -17,3 +17,4 @@ es.othernames: unknown
 language.order: jp, es, en
 species: 2
 zoo: 17
+

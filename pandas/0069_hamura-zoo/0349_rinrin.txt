@@ -1,6 +1,6 @@
 [panda]
 _id: 349
-birthday: 2001/6/19 
+birthday: 2001/6/19
 birthplace: 31
 children: unknown
 en.name: Rin-Rin
@@ -20,3 +20,4 @@ photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
 species: 2
 zoo: 69
+

@@ -5,7 +5,7 @@ birthplace: unknown
 children: 36, 105
 death: unknown
 en.name: Tan-Tan
-en.nicknames: none  
+en.nicknames: none
 en.othernames: Tantan
 gender: m
 jp.name: 淡淡
@@ -14,3 +14,4 @@ jp.othernames: たんたん
 language.order: jp, en
 species: 2
 zoo: 17
+

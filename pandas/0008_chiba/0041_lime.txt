@@ -1,10 +1,10 @@
 [panda]
 _id: 41
-birthday: 2014/7/13 
+birthday: 2014/7/13
 birthplace: 19
 children: none
 en.name: Lime
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: ライム
@@ -74,3 +74,4 @@ photo.20.author: panda.daisuki
 photo.20.link: https://www.instagram.com/panda.daisuki/
 species: 2
 zoo: 8
+

@@ -1,11 +1,11 @@
 [panda]
-_id: 31 
+_id: 31
 birthday: 2005/6/23
 birthplace: 14
 children: 113, 239
 death: 2016/2/1
 en.name: Kirara
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: キララ
@@ -27,3 +27,4 @@ video.1: https://www.youtube.com/watch?v=IgrXCMGJlZk
 video.1.author: okoanMEW0504
 video.1.link: https://www.youtube.com/channel/UCOJ8l1xydKKP0jw70d4T7-Q
 zoo: 14
+

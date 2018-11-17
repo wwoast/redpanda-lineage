@@ -1,7 +1,7 @@
 [panda]
 _id: 38
-birthday: 2013/6/23 
-birthplace: 8 
+birthday: 2013/6/23
+birthplace: 8
 children: unknown
 en.name: Mii
 en.nicknames: none
@@ -59,3 +59,4 @@ photo.15.author: ifumoto88
 photo.15.link: https://www.instagram.com/ifumoto88/
 species: 2
 zoo: 8
+

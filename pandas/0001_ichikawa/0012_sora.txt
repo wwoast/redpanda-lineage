@@ -1,11 +1,11 @@
 [panda]
-_id: 12 
+_id: 12
 birthday: 2008/6/16
 birthplace: 1
 children: none
 en.name: Sora
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: ソラ
 jp.nicknames: none
@@ -64,4 +64,5 @@ photo.17: https://www.instagram.com/p/BqJ_Yn5lQwI/media/?size=m
 photo.17.author: tomo3700
 photo.17.link: https://www.instagram.com/tomo3700/
 species: 2
-zoo: 1 
+zoo: 1
+

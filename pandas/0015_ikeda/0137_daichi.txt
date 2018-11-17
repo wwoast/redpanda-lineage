@@ -1,6 +1,6 @@
 [panda]
 _id: 137
-birthday: 2009/6/20 
+birthday: 2009/6/20
 birthplace: 17
 children: 138, 117, 219
 en.name: Daichi
@@ -52,3 +52,4 @@ photo.13.author: yuka0714_0307
 photo.13.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 15
+

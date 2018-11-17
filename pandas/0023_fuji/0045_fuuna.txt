@@ -1,6 +1,6 @@
 [panda]
 _id: 45
-birthday: 2012/7/3 
+birthday: 2012/7/3
 birthplace: 8
 children: unknown
 en.name: Fuuna
@@ -44,3 +44,4 @@ photo.10.author: fuji_safari
 photo.10.link: https://www.instagram.com/fuji_safari/
 species: 2
 zoo: 23
+

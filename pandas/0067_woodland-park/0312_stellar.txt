@@ -5,7 +5,7 @@ birthplace: unknown
 children: none
 death: 2017/7/11
 en.name: Stellar
-en.nicknames: none  
+en.nicknames: none
 en.othernames: Neko
 gender: f
 jp.name: 恒星
@@ -23,3 +23,4 @@ photo.3.author: carsontheredpanda
 photo.3.link: https://www.instagram.com/carsontheredpanda/
 species: 1
 zoo: 67
+

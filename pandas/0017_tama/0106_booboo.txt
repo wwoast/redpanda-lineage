@@ -4,7 +4,7 @@ birthday: 1997/7/13
 birthplace: 52
 children: 216, 308, 13, 229, 193, 74, 187, 102
 en.name: Boo-Boo
-en.nicknames: none  
+en.nicknames: none
 en.othernames: Buu-Buu, Bu-Bu, Bubu, Booboo
 gender: m
 jp.name: ブーブー
@@ -31,3 +31,4 @@ photo.6.author: mariten1119
 photo.6.link: https://www.instagram.com/mariten1119/
 species: 2
 zoo: 17
+

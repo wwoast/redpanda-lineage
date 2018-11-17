@@ -1,6 +1,6 @@
 [panda]
 _id: 213
-birthday: 2016/7/13  
+birthday: 2016/7/13
 birthplace: 26
 children: unknown
 en.name: Sayuri
@@ -32,3 +32,4 @@ photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
 species: 2
 zoo: 26
+

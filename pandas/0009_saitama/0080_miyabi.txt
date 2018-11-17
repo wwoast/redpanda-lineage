@@ -1,10 +1,10 @@
 [panda]
 _id: 80
-birthday: 2017/6/25 
+birthday: 2017/6/25
 birthplace: 9
 children: none
 en.name: Miyabi
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: ミヤビ
@@ -62,3 +62,4 @@ photo.16.author: l_ma_photos
 photo.16.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 9
+

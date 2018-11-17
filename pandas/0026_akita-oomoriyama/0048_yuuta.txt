@@ -1,6 +1,6 @@
 [panda]
 _id: 48
-birthday: 2006/6/2 
+birthday: 2006/6/2
 birthplace: 8
 children: 214
 en.name: Yuuta
@@ -19,3 +19,4 @@ photo.2.author: kipekaila
 photo.2.link: https://www.instagram.com/kipekaila/
 litter: 72
 zoo: 26
+

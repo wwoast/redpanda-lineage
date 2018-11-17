@@ -1,10 +1,10 @@
 [panda]
 _id: 71
-birthday: 2014/6/22 
+birthday: 2014/6/22
 birthplace: 17
 children: 376, 378
 en.name: Fu-Fu
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Fuku-Fuku
 gender: m
 jp.name: 福福
@@ -35,3 +35,4 @@ photo.7.author: makimaru18
 photo.7.link: https://www.instagram.com/makimaru18/
 species: 2
 zoo: 6
+

@@ -1,10 +1,10 @@
 [panda]
 _id: 29
-birthday: 2015/6/16 
+birthday: 2015/6/16
 birthplace: 4
 children: none
 en.name: Kenta
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: m
 jp.name: ケンタ
@@ -38,3 +38,4 @@ video.1: https://youtu.be/ByBVD2actpA
 video.1.author: Candy Green
 video.1.link: https://www.youtube.com/channel/UCZvqG_-TOzfRM5yQHgFC7AQ
 zoo: 14
+

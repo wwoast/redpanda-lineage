@@ -1,10 +1,10 @@
 [panda]
 _id: 72
-birthday: 2006/6/2 
+birthday: 2006/6/2
 birthplace: 8
 children: 377, 180, 144, 130, 69
 en.name: Fuuka
-en.nicknames: none 
+en.nicknames: none
 en.othernames: Fuka, Fūka
 gender: f
 jp.name: 風花
@@ -29,3 +29,4 @@ photo.5.author: yuka0714_0307
 photo.5.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 6
+

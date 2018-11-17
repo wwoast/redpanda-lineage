@@ -7,7 +7,7 @@ en.name: Seita
 en.nicknames: Crafty
 en.othernames: none
 gender: m
-jp.name: セイタ 
+jp.name: セイタ
 jp.nicknames: none
 jp.othernames: 星太
 language.order: jp, en
@@ -47,3 +47,4 @@ photo.11.author: nishicotolo
 photo.11.link: https://www.instagram.com/nishicotolo/
 species: 2
 zoo: 7
+

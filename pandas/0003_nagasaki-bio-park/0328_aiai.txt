@@ -5,7 +5,7 @@ birthplace: 6
 children: 3
 en.name: Aiai
 en.nicknames: none
-en.othernames: none 
+en.othernames: none
 gender: f
 jp.name: アイアイ
 jp.nicknames: none
@@ -17,3 +17,4 @@ photo.1.author: tabechum
 photo.1.link: https://www.instagram.com/tabechum/
 species: 2
 zoo: 3
+

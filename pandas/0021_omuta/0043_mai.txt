@@ -1,6 +1,6 @@
 [panda]
 _id: 43
-birthday: 2013/6/23 
+birthday: 2013/6/23
 birthplace: 8
 children: 243
 en.name: Mai
@@ -35,3 +35,4 @@ photo.7.author: xmarurux
 photo.7.link: https://www.instagram.com/xmarurux/
 species: 2
 zoo: 21
+

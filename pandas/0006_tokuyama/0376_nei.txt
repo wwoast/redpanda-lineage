@@ -4,7 +4,7 @@ birthday: 2018/7/18
 birthplace: 6
 children: none
 en.name: Nei
-en.nicknames: none 
+en.nicknames: none
 en.othernames: none
 gender: unknown
 jp.name: ネイ
@@ -20,3 +20,4 @@ photo.2.author: animal_love_us
 photo.2.link: https://www.instagram.com/animal_love_us/
 species: 2
 zoo: 6
+
