@@ -24,4 +24,4 @@ When a commit is accepted, Travis CI will run the bundled Python scripts, and pu
 
 ## Credits
 
-This Red Panda Lineage dataset was started by Justin Fairchild in June 2018, with the help of Daniele Bragaglio, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
+This Red Panda Lineage dataset was started by _wumpwoast_ (Justin Fairchild) in June 2018, with the help and support of _firefoxpanda88_ and _daniele.tokyo_, and dedication of Red Panda fans in Japan and world-wide on Instagram and YouTube.
