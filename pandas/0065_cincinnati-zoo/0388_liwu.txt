@@ -1,17 +1,17 @@
 [panda]
-_id: 381
-birthday: 2008/6/1
-birthplace: 65
+_id: 388
+birthday: 2000/6/28
+birthplace: 83
 children: unknown
-en.name: Bailey
+death: 2017/8/10
+en.name: LiWu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ベイリー
+jp.name: リュウ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
 species: 2
 zoo: 65
-

@@ -1,0 +1,16 @@
+[panda]
+_id: 389
+birthday: 2004/6/8
+birthplace: 65
+children: unknown
+en.name: Harold
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ハロー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 65
