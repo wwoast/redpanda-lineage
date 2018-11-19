@@ -5,7 +5,7 @@ birthplace: 34
 children: unknown
 en.name: Chuihowa
 en.nicknames: none
-en.othernames: Chuy-How, Chuy-Fa, Chuihowa, Chuihiwa, Chuyhowa, Chuy-Howa, Chuifa, Ju-Hua
+en.othernames: Chuy-How, Chuy-Fa, Chuihiwa, Chuyhowa, Chuy-Howa, Chuifa, Ju-Hua, Juhua
 gender: f
 jp.name: チュイホワ
 jp.nicknames: none
@@ -29,6 +29,9 @@ photo.5.link: https://www.instagram.com/tabechum/
 photo.6: https://www.instagram.com/p/Bpg92sRl_RH/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
+photo.7: https://www.instagram.com/p/BUokHwyDZrT/media/?size=m
+photo.7.author: l_ma_photos
+photo.7.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 34
 
