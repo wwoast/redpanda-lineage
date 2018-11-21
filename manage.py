@@ -126,11 +126,11 @@ def remove_zoo_photos(author):
     """
     Zoos only have a single photo recorded for each one.
     """
-    config = configparser.ConfigParser(default_section="zoo")
     # Enter the zoo subdirectories
     for root, dirs, files in os.walk(ZOO_PATH):
         for filename in files:
             path = root + os.sep + filename
+            config = ProperlyDelimitedConfigParser(default_section="zoo", delimiters=(':'))
             config.read(path, encoding="utf-8")
             if config.has_option("zoo", "photo.author") == True:
                 zoo_author = config.get("zoo", "photo.author")
