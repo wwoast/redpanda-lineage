@@ -14,11 +14,13 @@ from shared import PANDA_PATH, ZOO_PATH
 
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
-    """
-    Virtually identical to the original method, but delimit keys and values with ': ' as the delimiter,
-    a humane and sensibly typed delimiter that the default ConfigParser class doesn't support.
-    """
     def write(self, fp, space_around_delimiters=True):
+        """
+        Virtually identical to the original method, but delimit keys and values
+        with ': ' as the delimiter, a humane and sensibly typed delimiter that
+        the default ConfigParser class doesn't support. Also, each file we write
+        only has a single section, so don't write newlines again.
+        """
         if space_around_delimiters:
             d = "{} ".format(self._delimiters[0])
         else:
@@ -26,9 +28,6 @@ class ProperlyDelimitedConfigParser(configparser.ConfigParser):
         if self._defaults:
             self._write_section(fp, self.default_section,
                                 self._defaults.items(), d)
-            for section in self._sections:
-                self._write_section(fp, section,
-                                    self._sections[section].items(), d)
 
 def fetch_next_photo_index(config, start_point, stop_point):
     """
