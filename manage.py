@@ -132,11 +132,12 @@ def remove_zoo_photos(author):
         for filename in files:
             path = root + os.sep + filename
             config.read(path, encoding="utf-8")
-            zoo_author = config.get("zoo", "photo.author")
-            if zoo_author == author:
-                config.remove_option("zoo", "photo") 
-                config.remove_option("zoo", "photo.author") 
-                config.remove_option("zoo", "photo.link")
+            if config.has_option("zoo", "photo.author") == True:
+                zoo_author = config.get("zoo", "photo.author")
+                if zoo_author == author:
+                    config.remove_option("zoo", "photo") 
+                    config.remove_option("zoo", "photo.author") 
+                    config.remove_option("zoo", "photo.link")
             # Done with removals?
             write_config(config, "zoo", path)
 
