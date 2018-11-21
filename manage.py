@@ -167,4 +167,4 @@ if __name__ == '__main__':
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-photos":
             remove_panda_photos(sys.argv[2])
-            # remove_zoo_photos(sys.argv[2])
+            remove_zoo_photos(sys.argv[2])
