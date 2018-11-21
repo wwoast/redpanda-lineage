@@ -6,10 +6,11 @@ en.name: Yokohama Zoo "Zoorasia"
 flag: Japan
 jp.address: 〒241-0001 神奈川県 横浜市旭区上白根町１１７５−１
 jp.location: 横浜 神奈川県
-jp.name: よこはま動物園ズーラシア 
+jp.name: よこはま動物園ズーラシア
 language.order: jp, en
 map: https://goo.gl/maps/j23gm6VW4Zo
 photo: https://www.instagram.com/p/BmlifKhB2rk/media/?size=m
 photo.author: chicoto_3
 photo.link: https://www.instagram.com/chicoto_3/
 website: http://www.hama-midorinokyokai.or.jp/zoo/zoorasia/
+

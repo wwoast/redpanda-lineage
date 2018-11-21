@@ -6,10 +6,11 @@ en.name: Kushiro City Zoo
 flag: Japan
 jp.address: 〒085-0201 北海道釧路市阿寒町下仁々志別11
 jp.location: 釧路市 釧路総合振興局
-jp.name: 釧路市動物園 
+jp.name: 釧路市動物園
 language.order: jp, en
 map: https://goo.gl/maps/8JVH1ftPJHm
 photo: https://www.instagram.com/p/Bm3DLdVHrlq/media/?size=m
 photo.author: kumaiss
 photo.link: https://www.instagram.com/kumaiss/
-website: http://www.city.kushiro.lg.jp/zoo/ 
+website: http://www.city.kushiro.lg.jp/zoo/
+
