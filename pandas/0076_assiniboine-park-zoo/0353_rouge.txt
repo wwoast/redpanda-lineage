@@ -2,14 +2,15 @@
 _id: 353
 birthday: 2002/6/20
 birthplace: 34
-children: unknown
+children: 401, 400, 393, 399
 en.name: Rouge
 en.nicknames: none
-en.othernames: none
+en.othernames: Chya-Fa, Chafa
 gender: f
 jp.name: チャーファ
 jp.nicknames: ルージュ
 jp.othernames: none
 language.order: jp, en
+litter: none
 species: 2
 zoo: 76

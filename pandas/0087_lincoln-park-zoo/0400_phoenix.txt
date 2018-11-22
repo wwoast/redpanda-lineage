@@ -1,16 +1,16 @@
 [panda]
-_id: 393
-birthday: 2012/6/30
+_id: 400
+birthday: 2011/6/13
 birthplace: 76
 children: unknown
-en.name: Kiah
+en.name: Phoenix
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: キア
+gender: m
+jp.name: フェニックス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
 species: 2
-zoo: 43
+zoo: 87
