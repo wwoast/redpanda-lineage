@@ -2,7 +2,7 @@
 _id: 338
 birthday: unknown
 birthplace: 10
-children: 89, 53, 220, 21, 31, 82
+children: 89, 53, 220, 374, 21, 31, 82
 death: unknown
 en.name: Liuxing
 en.nicknames: none
@@ -15,4 +15,3 @@ language.order: jp, en
 litter: unknown
 species: 2
 zoo: 10
-
