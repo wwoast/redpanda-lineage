@@ -29,6 +29,18 @@ class ProperlyDelimitedConfigParser(configparser.ConfigParser):
             self._write_section(fp, self.default_section,
                                 self._defaults.items(), d)
 
+    def _write_section(self, fp, section_name, section_items, delimiter):
+        """Write a single section to the specified `fp'."""
+        fp.write("[{}]\n".format(section_name))
+        for key, value in section_items:
+            value = self._interpolation.before_write(self, section_name, key,
+                                                     value)
+            if value is not None or not self._allow_no_value:
+                value = delimiter + str(value).replace('\n', '\n\t')
+            else:
+                value = ""
+            fp.write("{}{}\n".format(key, value))
+
 def fetch_next_photo_index(config, start_point, stop_point):
     """
     Given we deleted pandas from a dataset entry, find the first available hole in
