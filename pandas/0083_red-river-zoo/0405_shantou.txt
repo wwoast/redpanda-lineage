@@ -1,0 +1,17 @@
+[panda]
+_id: 405
+birthday: unknown
+birthplace: unknown
+children: 404, 399, 402, 403
+death: unknown
+en.name: Shan-Tou
+en.nicknames: none
+en.othernames: Shantou
+gender: f
+jp.name: シャントゥ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 83

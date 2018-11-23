@@ -1,0 +1,16 @@
+[panda]
+_id: 403
+birthday: 2009/6/11
+birthplace: 83
+children: unknown
+en.name: Leafa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 399, 402
+species: 2
+zoo: 88

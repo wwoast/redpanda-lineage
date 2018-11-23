@@ -1,0 +1,16 @@
+[panda]
+_id: 404
+birthday: 2008/6/10
+birthplace: 83
+children: unknown
+en.name: Li-Ming
+en.nicknames: none
+en.othernames: Liming
+gender: f
+jp.name: リミン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 399, 402
+species: 2
+zoo: 88
