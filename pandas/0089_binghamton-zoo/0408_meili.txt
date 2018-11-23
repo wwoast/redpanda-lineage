@@ -1,0 +1,16 @@
+[panda]
+_id: 408
+birthday: 2010/5/30
+birthplace: 51
+children: 409
+en.name: Mei-Li
+en.nicknames: none
+en.othernames: Meili
+gender: f
+jp.name: メイリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 89

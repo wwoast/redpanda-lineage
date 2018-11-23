@@ -1,0 +1,17 @@
+[panda]
+_id: 409
+birthday: 2013/6/18
+birthplace: 89
+children: unknown
+death: 2016/1/20
+en.name: Zhin-Li
+en.nicknames: none
+en.othernames: Zhinli
+gender: m
+jp.name: ジンリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 89

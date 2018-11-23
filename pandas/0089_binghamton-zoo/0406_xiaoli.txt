@@ -1,16 +1,17 @@
 [panda]
-_id: 404
+_id: 406
 birthday: 2008/6/10
 birthplace: 83
-children: unknown
-en.name: Li-Ming
+children: 409
+death: 2014/1/8
+en.name: Xiao-Li
 en.nicknames: none
-en.othernames: Liming
+en.othernames: Xiaoli
 gender: f
-jp.name: リミン
+jp.name: シャオリ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 406
+litter: 404
 species: 2
-zoo: 88
+zoo: 89
