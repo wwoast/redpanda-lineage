@@ -6,11 +6,17 @@ children: none
 en.name: Maki
 en.nicknames: none
 en.othernames: none
-gender: m
+gender: f
 jp.name: マキ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 322
+photo.1: https://www.instagram.com/p/BRT77mLjjtE/media/?size=m
+photo.1.author: safariniagra
+photo.1.link: https://www.instagram.com/safariniagara/
+photo.2: https://www.instagram.com/p/BeqON0zFwiT/media/?size=m
+photo.2.author: safariniagra
+photo.2.link: https://www.instagram.com/safariniagara/
 species: 2
 zoo: 68
