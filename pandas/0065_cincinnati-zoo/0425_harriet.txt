@@ -1,16 +1,16 @@
 [panda]
-_id: 323
+_id: 425
 birthday: 2016/6/14
 birthplace: 65
-children: 324, 325
-en.name: Hazel
+children: unknown
+en.name: Harriet
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ヘーゼル
+jp.name: ハリエット
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 425
+litter: 323
 species: 2
-zoo: 67
+zoo: 65
