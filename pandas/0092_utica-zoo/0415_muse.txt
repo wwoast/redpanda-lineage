@@ -1,16 +1,16 @@
 [panda]
-_id: 399
-birthday: 2009/6/11
+_id: 415
+birthday: 2011/6/20
 birthplace: 83
-children: 416, 417
-en.name: Leafa
+children: unknown
+en.name: Muse
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: リーファ
+gender: m
+jp.name: ミューズ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 402, 403
+litter: unknown
 species: 2
-zoo: 87
+zoo: 90

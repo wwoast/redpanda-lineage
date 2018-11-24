@@ -1,16 +1,16 @@
 [panda]
-_id: 399
-birthday: 2009/6/11
-birthplace: 83
-children: 416, 417
-en.name: Leafa
+_id: 417
+birthday: 2016/6/24
+birthplace: 87
+children: none
+en.name: Sheffield
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リーファ
+jp.name: シェフィールド
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 402, 403
+litter: 416
 species: 2
-zoo: 87
+zoo: 83
