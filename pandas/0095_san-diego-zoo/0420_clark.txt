@@ -1,0 +1,16 @@
+[panda]
+_id: 420
+birthday: 2015/6/26
+birthplace: 87
+children: none
+en.name: Clark
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クラーク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 421
+species: 2
+zoo: 93
