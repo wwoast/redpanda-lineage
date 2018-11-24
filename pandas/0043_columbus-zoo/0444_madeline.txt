@@ -12,5 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BTmJT9FhucS/media/?size=m
+photo.1.author: columbus_zoo
+photo.1.link: https://www.instagram.com/columbus_zoo/
 species: 2
 zoo: 43

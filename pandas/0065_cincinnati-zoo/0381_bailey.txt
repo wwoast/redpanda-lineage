@@ -12,5 +12,11 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BZMl9Z6BLJH/media/?size=m
+photo.1.author: charlesboisnyc
+photo.1.link: https://www.instagram.com/charleboisnyc/
+photo.2: https://www.instagram.com/p/BA-KbCrykKz/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
 species: 2
 zoo: 65

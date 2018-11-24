@@ -3,9 +3,9 @@ _id: 92
 birthday: 2013/6/21
 birthplace: 10
 children: unknown
-en.name: Taiyō
+en.name: Taiyo
 en.nicknames: none
-en.othernames: none
+en.othernames: Taiyō
 gender: m
 jp.name: タイヨウ
 jp.nicknames: none
@@ -18,5 +18,11 @@ photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.2: https://www.instagram.com/p/Bh3uNL8n3Af/media/?size=m
 photo.2.author: nashi.cp
 photo.2.link: https://www.instagram.com/nashi.cp/
+photo.3: https://www.instagram.com/p/BG6tvkqj6sp/media/?size=m
+photo.3.author: l_ma_photos
+photo.3.link: https://www.instagram.com/l_ma_photos/
+photo.4: https://www.instagram.com/p/BForFquj6uC/media/?size=m
+photo.4.author: l_ma_photos
+photo.4.link: https://www.instagram.com/l_ma_photos/
 species: 2
 zoo: 10

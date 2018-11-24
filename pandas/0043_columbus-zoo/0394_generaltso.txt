@@ -14,5 +14,8 @@ language.order: en, jp
 photo.1: https://www.instagram.com/p/BnCCbdxDvnr/media/?size=m
 photo.1.author: columbus_zoo
 photo.1.link: https://www.instagram.com/columbus_zoo/
+photo.2: https://www.instagram.com/p/BG84DY2ykEx/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
 species: 2
 zoo: 43
