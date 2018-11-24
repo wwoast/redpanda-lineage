@@ -1,16 +1,16 @@
 [panda]
-_id: 413
-birthday: 2011/6/20
-birthplace: 83
+_id: 422
+birthday: 2014/6/20
+birthplace: 43
 children: unknown
-en.name: Moshu
+en.name: Kovu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モシュ
+jp.name: コヴュ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 414, 415
+litter: 384, 411
 species: 2
-zoo: 90
+zoo: 91
