@@ -14,3 +14,6 @@ language.order: en, jp
 litter: 413, 415
 species: 2
 zoo: 91
+video.1: https://www.youtube.com/watch?v=xHwUOUE-xEU
+video.1.author: CBS Pittsburgh
+video.1.link: https://www.youtube.com/channel/UCOEvClYLRZcT5bNCCI5eMKg

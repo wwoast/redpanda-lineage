@@ -1,0 +1,16 @@
+[panda]
+_id: 422
+birthday: 2011/8/1
+birthplace: 96
+children: unknown
+en.name: Qiji
+en.nicknames: none
+en.othernames: Kee-Gee
+gender: f
+jp.name: キーゲー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 44
