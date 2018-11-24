@@ -1,0 +1,16 @@
+[panda]
+_id: 412
+birthday: 2014/7/3
+birthplace: 90
+children: unknown
+en.name: Phayara
+en.nicknames: none
+en.othernames: Faye
+gender: f
+jp.name: ファヤラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 83

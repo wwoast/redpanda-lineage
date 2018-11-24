@@ -1,0 +1,9 @@
+[zoo]
+_id: 92
+en.address: 1 Utica Zoo Way, Utica, NY 13501
+en.location: Utica, New York, USA
+en.name: Utica Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/DHsMpakdJA42
+website: http://www.uticazoo.org/

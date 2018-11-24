@@ -1,16 +1,16 @@
 [panda]
-_id: 403
-birthday: 2009/6/11
+_id: 413
+birthday: 2011/6/20
 birthplace: 83
 children: unknown
-en.name: Take
+en.name: Moshu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タケ
+jp.name: モシュ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 399, 402
+litter: unknown
 species: 2
-zoo: 88
+zoo: 90

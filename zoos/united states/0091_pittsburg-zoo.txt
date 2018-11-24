@@ -1,0 +1,9 @@
+[zoo]
+_id: 91
+en.address: 7370 Baker St, Pittsburgh, PA 15206
+en.location: Pittsburg, Pennsylvania, USA
+en.name: Pittsburg Zoo and PPG Aquarium
+flag: USA
+language.order: en
+map: https://goo.gl/maps/wKD5UXtTWh42
+website: https://www.pittsburghzoo.org/

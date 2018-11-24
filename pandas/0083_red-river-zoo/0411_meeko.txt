@@ -1,16 +1,16 @@
 [panda]
-_id: 403
-birthday: 2009/6/11
-birthplace: 83
+_id: 411
+birthday: 2014/6/20
+birthplace: 43
 children: unknown
-en.name: Take
+en.name: Meeko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タケ
+jp.name: ミーコ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 399, 402
+litter: none
 species: 2
-zoo: 88
+zoo: 83
