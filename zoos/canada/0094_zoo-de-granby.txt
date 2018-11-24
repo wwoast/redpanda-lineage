@@ -1,0 +1,12 @@
+[zoo]
+_id: 94
+en.address: 1050 Boulevard David-Bouchard N, Granby, QC J2H 0Y6, Canada
+en.location: Granby, Quebec, Canada
+en.name: Granby Zoo
+fr.address: 1050 Boulevard David-Bouchard N, Granby, QC J2H 0Y6, Canada
+fr.location: Granby, Quebec, Canada
+fr.name: Zoo de Granby
+flag: Canada
+language.order: fr, en
+map: https://goo.gl/maps/E9eNEDvNPj72
+website: https://zoodegranby.com/

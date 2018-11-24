@@ -1,0 +1,16 @@
+[panda]
+_id: 418
+birthday: 2018/6/6
+birthplace: 93
+children: unknown
+en.name: Dr. Lily Alanna Parkinson
+en.nicknames: none
+en.othernames: Lily, Dr. Parkinson
+gender: f
+jp.name: Lily博士
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 93

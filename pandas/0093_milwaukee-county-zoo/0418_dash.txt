@@ -1,0 +1,16 @@
+[panda]
+_id: 418
+birthday: 2012/6/6
+birthplace: 94
+children: 419
+en.name: Dash
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ダッシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 93
