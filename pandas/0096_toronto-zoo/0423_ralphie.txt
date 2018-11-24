@@ -1,0 +1,16 @@
+[panda]
+_id: 423
+birthday: 2008/5/25
+birthplace: 76
+children: 422
+en.name: Ralphie
+en.nicknames: none
+en.othernames: 
+gender: m
+jp.name: ラルフ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 96
