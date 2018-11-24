@@ -1,16 +1,16 @@
 [panda]
-_id: 413
-birthday: 2011/6/20
-birthplace: 83
-children: 412
-en.name: Moshu
+_id: 432
+birthday: 2014/6/28
+birthplace: 76
+children: unknown
+en.name: Arun
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モシュ
+jp.name: アルン
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 414, 415
+litter: none
 species: 2
-zoo: 90
+zoo: 86

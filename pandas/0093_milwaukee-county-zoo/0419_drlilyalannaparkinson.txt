@@ -3,14 +3,23 @@ _id: 419
 birthday: 2018/6/6
 birthplace: 93
 children: none
-en.name: Dr. Lily Alanna Parkinson
+en.name: Dr. Lily
 en.nicknames: none
-en.othernames: Lily, Dr. Parkinson
+en.othernames: Lily, Dr. Parkinson, Dr. Lily Alanna Parkinson
 gender: f
 jp.name: Lily博士
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+photo.1: https://www.instagram.com/p/BqERxoYg7iH/media/?size=m
+photo.1.author: gambit2704
+photo.1.link: https://www.instagram.com/gambit2704/
+photo.2: https://www.instagram.com/p/BoNYYdqgaE2/media/?size=m
+photo.2.author: journalsentinel
+photo.2.link: https://www.instagram.com/journalsentinel/
+photo.3: https://www.instagram.com/p/BoNSTAMAfeo/media/?size=m
+photo.3.author: dmwarnman
+photo.3.link: https://www.instagram.com/dmwarnman/
 species: 2
 zoo: 93

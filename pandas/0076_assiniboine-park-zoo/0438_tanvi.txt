@@ -1,16 +1,16 @@
 [panda]
-_id: 346
-birthday: 2012/6/18
-birthplace: 10
-children: 437, 438, 436
-en.name: Sachi
+_id: 438
+birthday: 2017/6/13
+birthplace: 82
+children: none
+en.name: Tanvi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: サチ
+jp.name: タンヴィ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 215
+litter: unknown
 species: 2
 zoo: 76

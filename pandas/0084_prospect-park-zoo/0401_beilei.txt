@@ -5,10 +5,12 @@ birthplace: 76
 children: unknown
 en.name: Beilei
 en.nicknames: none
-en.othernames: Roby
+en.oldnames: Roby
+en.othernames: none
 gender: f
-jp.name: unknown
+jp.name: バイリー
 jp.nicknames: none
+jp.oldnames: ロビー
 jp.othernames: none
 language.order: en, jp
 litter: unknown

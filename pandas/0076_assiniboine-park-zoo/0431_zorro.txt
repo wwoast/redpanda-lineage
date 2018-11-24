@@ -1,16 +1,16 @@
 [panda]
-_id: 413
-birthday: 2011/6/20
-birthplace: 83
-children: 412
-en.name: Moshu
+_id: 431
+birthday: 2013/7/1
+birthplace: 94
+children: none
+en.name: Zorro
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: モシュ
+jp.name: ゾロ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 414, 415
+litter: 430
 species: 2
-zoo: 90
+zoo: 76

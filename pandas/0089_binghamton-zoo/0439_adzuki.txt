@@ -1,0 +1,19 @@
+[panda]
+_id: 439
+birthday: 2018/7/7
+birthplace: 89
+children: none
+en.name: Adzuki
+en.nicknames: none
+en.othernames: Azuki
+gender: f
+jp.name: アズキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/BnJMsgZFt-N/media/?size=m
+photo.1.author: binghamtonzoo
+photo.1.link: https://www.instagram.com/binghamtonzoo/
+species: 2
+zoo: 89

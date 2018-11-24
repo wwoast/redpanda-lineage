@@ -1,19 +1,19 @@
 [panda]
-_id: 416
-birthday: 2016/6/24
-birthplace: 87
-children: none
-en.name: Waveland
+_id: 433
+birthday: 2015/6/22
+birthplace: 94
+children: unknown
+en.name: Kendji
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: ウェーヴランド
+gender: m
+jp.name: ケンジ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 417
-photo.1: https://www.instagram.com/p/BpHwUxRFZc8/media/?size=m
+litter: unknown
+photo.1: https://www.instagram.com/p/Boy_nShlwFW/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
 species: 2
-zoo: 83
+zoo: 65

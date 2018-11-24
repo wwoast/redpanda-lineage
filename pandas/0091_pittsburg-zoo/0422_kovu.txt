@@ -12,5 +12,11 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 384, 411
+photo.1: https://www.instagram.com/p/Bei4gMuF0Lk/media/?size=m
+photo.1.author: ksheaf_photography
+photo.1.link: https://www.instagram.com/ksheaf_photography/
+photo.2: https://www.instagram.com/p/BhGo-IDhSyu/media/?size=m
+photo.2.author: kt2709
+photo.2.link: https://www.instagram.com/kt2709/
 species: 2
 zoo: 91

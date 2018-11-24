@@ -2,7 +2,7 @@
 _id: 145
 birthday: 2012/6/11
 birthplace: 65
-children: 146, 148
+children: 395, 146, 148
 en.name: Homer
 en.nicknames: none
 en.othernames: none
@@ -26,4 +26,5 @@ photo.4.link: https://www.instagram.com/masumilky/
 photo.5: https://www.instagram.com/p/Bg8xZ6NBS3d/media/?size=m
 photo.5.author: masumilky
 photo.5.link: https://www.instagram.com/masumilky/
+species: 2
 zoo: 16

@@ -1,15 +1,16 @@
 [panda]
-_id: 395
+_id: 428
 birthday: 2015/6/22
-birthplace: 43
-children: unknown
-en.name: Ferguson
+birthplace: 76
+children: none
+en.name: Isuki
 en.nicknames: none
-en.othernames: 
+en.othernames: none
 gender: m
-jp.name: ファーガソン
+jp.name: イスキ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+litter: 427, 429
 species: 2
-zoo: 43
+zoo: 76
