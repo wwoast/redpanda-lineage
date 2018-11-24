@@ -1,16 +1,16 @@
 [panda]
-_id: 383
-birthday: 2008/5/26
+_id: 442
+birthday: 2007/6/26
 birthplace: 82
 children: unknown
-en.name: Tai
+en.name: Cassie
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タイ
+jp.name: キャシー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 443
+litter: 312
 species: 2
-zoo: 77
+zoo: 96

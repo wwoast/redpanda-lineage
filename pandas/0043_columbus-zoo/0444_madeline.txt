@@ -1,16 +1,16 @@
 [panda]
-_id: 383
-birthday: 2008/5/26
-birthplace: 82
+_id: 444
+birthday: 2015/6/22
+birthplace: 94
 children: unknown
-en.name: Tai
+en.name: Madeline
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タイ
+jp.name: マッドライン
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 443
+litter: unknown
 species: 2
-zoo: 77
+zoo: 43

@@ -11,6 +11,6 @@ jp.name: ゾロ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 430
+litter: 430, 445
 species: 2
 zoo: 76

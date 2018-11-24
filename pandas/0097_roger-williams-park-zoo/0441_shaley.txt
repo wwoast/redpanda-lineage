@@ -1,16 +1,16 @@
 [panda]
-_id: 383
-birthday: 2008/5/26
+_id: 441
+birthday: 2009/6/13
 birthplace: 82
-children: unknown
-en.name: Tai
+children: none
+en.name: Shaley
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: タイ
+jp.name: シェリー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 443
+litter: unknown
 species: 2
-zoo: 77
+zoo: 97
