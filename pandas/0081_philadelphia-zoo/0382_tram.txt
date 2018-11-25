@@ -3,14 +3,17 @@ _id: 382
 birthday: 2002/6/15
 birthplace: 12
 children: 381, 386, 387
-en.name: Tram
-en.nicknames: Porrin, Tram
-en.othernames: JJ
+en.name: JJ
+en.nicknames: none
+en.othernames: Tram, Porrin
 gender: f
 jp.name: トラム
 jp.nicknames: ポーリン
 jp.othernames: none
 language.order: jp, en
 litter: 310
+photo.1: https://www.instagram.com/p/BBhDJB9Sf9D/media/?size=m
+photo.1.author: sketchpoet
+photo.1.link: https://www.instagram.com/sketchpoet/
 species: 2
 zoo: 81

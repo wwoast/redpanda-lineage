@@ -1,16 +1,17 @@
 [panda]
-_id: 426
-birthday: 2003/6/18
+_id: 432
+birthday: 2014/6/28
 birthplace: 76
-children: 424, 401, 400, 448, 393, 432, 449, 427, 428, 429
-en.name: Rufus
+children: unknown
+death: 2015/8/17
+en.name: Rakesh
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ルフス
+jp.name: ラケシ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: none
+litter: 432
 species: 2
-zoo: 76
+zoo: 86

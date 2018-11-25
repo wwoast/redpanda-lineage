@@ -12,5 +12,14 @@ jp.nicknames: unknown
 jp.othernames: none
 language.order: en, jp
 litter: 407
+photo.1: https://www.instagram.com/p/BPA0F87DIxN/media/?size=m
+photo.1.author: philadelphiazoo
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.2: https://www.instagram.com/p/BiTZkaEjilh/media/?size=m
+photo.2.author: rossifari
+photo.2.link: https://www.instagram.com/rossifari/
+photo.3: https://www.instagram.com/p/BYEVDYeh6Zb/media/?size=m
+photo.3.author: timothy__lawrence
+photo.3.link: https://www.instagram.com/timothy__lawrence/
 species: 2
 zoo: 81

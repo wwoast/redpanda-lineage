@@ -6,4 +6,7 @@ en.name: Philadelphia Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/wE2icXwnpcN2
+photo: https://www.instagram.com/p/BRlxIGUlVaT/media/?size=m
+photo.author: philadelphiazoo
+photo.link: https://www.instagram.com/philadelphiazoo/
 website: https://www.philadelphiazoo.org/
