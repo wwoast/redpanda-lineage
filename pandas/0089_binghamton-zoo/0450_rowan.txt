@@ -1,0 +1,34 @@
+[panda]
+_id: 450
+birthday: 2018/7/7
+birthplace: 89
+children: none
+en.name: Rowan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ローヌン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 451
+photo.1: https://www.instagram.com/p/BlskqhVFidO/media/?size=m
+photo.1.author: binghamtonzoo
+photo.1.link: https://www.instagram.com/binghamtonzoo/
+photo.2: https://www.instagram.com/p/Bh4BTqtFFKJ/media/?size=m
+photo.2.author: binghamtonzoo
+photo.2.link: https://www.instagram.com/binghamtonzoo/
+photo.3: https://www.instagram.com/p/BiWxHhdlSKj/media/?size=m
+photo.3.author: binghamtonzoo
+photo.3.link: https://www.instagram.com/binghamtonzoo/
+photo.4: https://www.instagram.com/p/BaM4RR1nwID/media/?size=m
+photo.4.author: binghamtonzoo
+photo.4.link: https://www.instagram.com/binghamtonzoo/
+photo.5: https://www.instagram.com/p/BiwibU6lBSU/media/?size=m
+photo.5.author: binghamtonzoo
+photo.5.link: https://www.instagram.com/binghamtonzoo/
+photo.6: https://www.instagram.com/p/Bf-9UGwHI_z/media/?size=m
+photo.6.author: binghamtonzoo
+photo.6.link: https://www.instagram.com/binghamtonzoo/
+species: 2
+zoo: 89

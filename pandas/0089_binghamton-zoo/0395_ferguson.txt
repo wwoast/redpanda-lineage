@@ -11,5 +11,17 @@ jp.name: ファーガソン
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+photo.1: https://www.instagram.com/p/BqZ4grdFVj6/media/?size=m
+photo.1.author: binghamtonzoo
+photo.1.link: https://www.instagram.com/binghamtonzoo/
+photo.2: https://www.instagram.com/p/BZ39U0JH9gy/media/?size=m
+photo.2.author: binghamtonzoo
+photo.2.link: https://www.instagram.com/binghamtonzoo/
+photo.3: https://www.instagram.com/p/BX8AKKhDeFT/media/?size=m
+photo.3.author: binghamtonzoo
+photo.3.link: https://www.instagram.com/binghamtonzoo/
+photo.4: https://www.instagram.com/p/BVj8RjujfSi/media/?size=m
+photo.4.author: binghamtonzoo
+photo.4.link: https://www.instagram.com/binghamtonzoo/
 species: 2
 zoo: 89
