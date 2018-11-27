@@ -1,0 +1,16 @@
+[panda]
+_id: 462
+birthday: 2017/6/13
+birthplace: 51
+children: none
+en.name: Nisha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ニシヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 51
