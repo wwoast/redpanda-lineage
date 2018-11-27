@@ -1,0 +1,22 @@
+[panda]
+_id: 453
+birthday: 2004/6/29
+birthplace: 34
+children: none
+en.name: Luli
+en.nicknames: none
+en.oldnames: Pi-pa, Pipa
+en.othernames: none
+es.name: Luli
+es.nicknames: none
+es.oldnames: Pi-Pa, Pipa
+es.othernames: none
+gender: f
+jp.name: ルリ
+jp.nicknames: none
+jp.oldnames: ピーパ, ピパ
+jp.othernames: none
+language.order: es, en, jp
+litter: none
+species: 2
+zoo: 97

@@ -1,0 +1,12 @@
+[zoo]
+_id: 98
+en.address: República de la India, C1425 CABA, Argentina
+en.location: Buenos Aires, Argentina
+en.name: Buenos Aires Eco-Park
+es.address: República de la India, C1425 CABA, Argentina
+es.location: Buenos Aires, Argentina
+es.name: Ecoparque Interactivo de Buenos Aires
+flag: Argentina
+language.order: es, en, jp
+map: https://goo.gl/maps/LtEhMY2XMbJ2
+website: http://www.buenosaires.gob.ar/ecoparque
