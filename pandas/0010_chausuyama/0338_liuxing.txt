@@ -1,16 +1,16 @@
 [panda]
 _id: 338
-birthday: unknown
-birthplace: 10
+birthday: 1997/6/16
+birthplace: 34
 children: 89, 53, 220, 374, 21, 31, 82
-death: unknown
+death: 2007/4/6
 en.name: Liuxing
 en.nicknames: none
 en.othernames: Ryuusi
 gender: f
 jp.name: 流星
 jp.nicknames: none
-jp.othernames: リューシー
+jp.othernames: リューシー, リューシン
 language.order: jp, en
 litter: unknown
 species: 2

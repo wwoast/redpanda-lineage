@@ -1,17 +1,16 @@
 [panda]
-_id: 211
-birthday: 1996/7/10
+_id: 457
+birthday: 2004/7/7
 birthplace: 34
 children: none
-death: 2014/2/2
-en.name: Ren-Fa
+en.name: Shiru
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: レンファ
+jp.name: シール
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: none
 species: 2
-zoo: 34
+zoo: 19

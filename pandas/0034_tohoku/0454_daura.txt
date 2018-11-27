@@ -1,14 +1,14 @@
 [panda]
-_id: 211
-birthday: 1996/7/10
-birthplace: 34
-children: none
-death: 2014/2/2
-en.name: Ren-Fa
+_id: 454
+birthday: 1994/6/19
+birthplace: 57
+children: 453
+death: 2012/6/11
+en.name: Daura
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: レンファ
+jp.name: ダウラ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

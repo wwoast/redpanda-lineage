@@ -1,14 +1,14 @@
 [panda]
-_id: 211
-birthday: 1996/7/10
-birthplace: 34
-children: none
-death: 2014/2/2
-en.name: Ren-Fa
+_id: 455
+birthday: unknown
+birthplace: 57
+children: 211, 338, 210, 365, 304, 453, 457
+death: 2012/7/21
+en.name: Kuku
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: レンファ
+gender: m
+jp.name: クク
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
