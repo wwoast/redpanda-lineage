@@ -1,16 +1,16 @@
 [panda]
-_id: 447
-birthday: 2004/6/2
-birthplace: 76
-children: 418, 460, 458, 459
-en.name: Dusk
+_id: 459
+birthday: 2016/6/21
+birthplace: 51
+children: none
+en.name: Khairo
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ドゥシュコ
+jp.name: カイロ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: 458
 species: 2
 zoo: 51

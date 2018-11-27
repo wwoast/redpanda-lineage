@@ -1,0 +1,9 @@
+[zoo]
+_id: 99
+en.address: 4301 Lawndale Dr, Greensboro, NC 27455
+en.location: Greensboro, North Carolina, USA
+en.name: Greensboro Science Center
+flag: USA
+language.order: en
+map: https://goo.gl/maps/8Ecg8V5hWMz
+website: http://www.greensboroscience.org/
