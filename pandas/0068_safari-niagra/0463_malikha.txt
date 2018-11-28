@@ -1,0 +1,17 @@
+[panda]
+_id: 463
+birthday: 2004/6/8
+birthplace: 65
+children: 446
+death: 2016/2/21
+en.name: Malikha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マリクハ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 68

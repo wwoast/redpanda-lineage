@@ -521,6 +521,7 @@ Show.emoji = {
 
 // TODO: key on other language versions of country names
 Show.flags = {
+  "Argentina": "🇦🇷",
      "Bhutan": "🇧🇹",
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
