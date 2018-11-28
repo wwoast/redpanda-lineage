@@ -532,6 +532,7 @@ Show.flags = {
       "Nepal": "🇳🇵",
 "South Korea": "🇰🇷",
      "Taiwan": "🇹🇼",
+   "Thailand": "🇹🇭",
         "USA": "🇺🇸"
 }
 
