@@ -1,0 +1,9 @@
+[zoo]
+_id: 101
+en.address: 
+en.location: Apple Valley, Minnesota, USA
+en.name: Minnesota Zoological Garden
+flag: USA
+language.order: en
+map: 
+website: http://www.mnzoo.org/

@@ -1,0 +1,16 @@
+[panda]
+_id: 468
+birthday: unknown
+birthplace: unknown
+children: unknown
+en.name: Min
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: ミン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 101
