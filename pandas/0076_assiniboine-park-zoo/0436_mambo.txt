@@ -12,5 +12,11 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/Bo7ie4yAEFp/media/?size=m
+photo.1.author: sketchpoet
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.2: https://www.instagram.com/p/Bo3-AVynPZr/media/?size=m
+photo.2.author: assiniboineparkzoo
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
 species: 2
 zoo: 76
