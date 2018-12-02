@@ -2,13 +2,15 @@
 _id: 247
 birthday: 2018/6/28
 birthplace: 1
-en.name: Shiro
+en.name: Milk 
 en.nicknames: none
+en.oldnames: Shiro
 en.othernames: none
 gender: f
-jp.name: シロ
+jp.name: ミルク
 jp.nicknames: none
-jp.othernames: 仮
+jp.oldnames: シロ
+jp.othernames: none 
 language.order: jp, en
 litter: 246
 photo.1: https://www.instagram.com/p/BoelF1LFi49/media/?size=m

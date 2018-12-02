@@ -2,13 +2,15 @@
 _id: 246
 birthday: 2018/6/28
 birthplace: 1
-en.name: Kuro
+en.name: Cocoa
 en.nicknames: none
+en.oldnames: Kuro
 en.othernames: none
 gender: f
-jp.name: クロ
+jp.name: ココア
 jp.nicknames: none
-jp.othernames: 仮
+jp.oldnames: クロ
+jp.othernames: none
 language.order: jp, en
 litter: 247
 photo.1: https://www.instagram.com/p/BoelYg-FNK7/media/?size=m
