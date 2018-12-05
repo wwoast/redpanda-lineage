@@ -8,9 +8,9 @@ en.name: Mii-Mii
 en.nicknames: unknown
 en.othernames: Miimii
 gender: m
-jp.name: ミーミー
+jp.name: 美美
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: ミーミー
 language.order: jp, en
 species: 2
 zoo: 12
