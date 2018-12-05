@@ -1,0 +1,17 @@
+[panda]
+_id: 482
+birthday: unknown
+birthplace: unknown
+children: 150, 480
+death: unknown
+en.name: Tae-Bo
+en.nicknames: none
+en.othernames: Taebo
+gender: m
+jp.name: タエポー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 44
