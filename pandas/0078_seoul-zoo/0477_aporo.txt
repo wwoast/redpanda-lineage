@@ -1,0 +1,16 @@
+[panda]
+_id: 477
+birthday: 2004/6/28
+birthplace: 46
+children: unknown
+en.name: Aporo
+en.nicknames: none
+en.othernames: 
+gender: m
+jp.name: アポロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 135
+species: 2
+zoo: 78
