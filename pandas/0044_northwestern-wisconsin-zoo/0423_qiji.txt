@@ -4,11 +4,11 @@ birthday: 2011/8/1
 birthplace: 96
 children: 412
 en.name: Qiji
-en.nicknames: none
-en.othernames: Kee-Gee
+en.nicknames: Kee-Gee
+en.othernames: none
 gender: f
-jp.name: キーゲー
-jp.nicknames: none
+jp.name: クィジ
+jp.nicknames: キーゲー
 jp.othernames: none
 language.order: en, jp
 litter: none

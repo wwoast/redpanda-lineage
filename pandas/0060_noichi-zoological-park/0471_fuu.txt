@@ -8,9 +8,9 @@ en.name: Fuu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: フウ
+jp.name: 風
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: フウ
 language.order: jp, en
 litter: unknown
 species: 2
