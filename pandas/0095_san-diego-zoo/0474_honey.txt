@@ -1,0 +1,16 @@
+[panda]
+_id: 474
+birthday: 2003/6/18
+birthplace: 65
+children: none
+en.name: Honey
+en.nicknames: none
+en.othernames: Hun-E
+gender: f
+jp.name: ハニー
+jp.nicknames: none
+jp.othernames: 蜂蜜
+language.order: en, jp
+litter: none
+species: 2
+zoo: 95

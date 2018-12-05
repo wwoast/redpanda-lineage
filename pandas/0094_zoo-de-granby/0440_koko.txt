@@ -3,13 +3,14 @@ _id: 440
 birthday: 2000/6/23
 birthplace: 10
 children: 312, 442, 383, 443, 441, 430, 431, 433, 445, 444
-en.name: Kō-Kō
+death: 2017/2/17
+en.name: Koko
 en.nicknames: none
-en.othernames: Kou-Kou, Ko-Ko, Koko
+en.othernames: Kou-Kou, Ko-Ko, Koko, Kō-Kō
 gender: m
-jp.name: 航航
+jp.name: 虎虎
 jp.nicknames: none
-jp.othernames: コウコウ
+jp.othernames: ココ
 language.order: jp, en
 litter: unknown
 species: 2

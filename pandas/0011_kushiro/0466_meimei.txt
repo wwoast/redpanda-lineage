@@ -3,14 +3,14 @@ _id: 466
 birthday: 1999/6/27
 birthplace: 37
 children: none
-death: unknown
+death: 2017/1/4
 en.name: Mei-Mei
 en.nicknames: none
 en.othernames: Meimei
 gender: f
-jp.name: メイメイ
+jp.name: 美美
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: メイメイ
 language.order: jp, en
 litter: unknown
 species: 2
