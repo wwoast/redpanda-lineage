@@ -1,0 +1,17 @@
+[panda]
+_id: 483
+birthday: 2012/8/2
+birthplace: 42
+children: unknown
+death: 2016/5/22
+en.name: Rina
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 302
+species: 2
+zoo: 82
