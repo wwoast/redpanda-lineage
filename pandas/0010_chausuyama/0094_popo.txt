@@ -2,7 +2,7 @@
 _id: 94
 birthday: 2014/7/1
 birthplace: 10
-children: unknown
+children: none
 en.name: Popo
 en.nicknames: none
 en.othernames: none
@@ -42,5 +42,8 @@ photo.9.link: https://www.instagram.com/kipekaila/
 photo.10: https://www.instagram.com/p/Bpbxb4WAhVJ/media/?size=m
 photo.10.author: resapanlove
 photo.10.link: https://www.instagram.com/resapanlove/
+photo.11: https://www.instagram.com/p/BqpUWw1HSpz/media/?size=m
+photo.11.author: yakko____
+photo.11.link: https://www.instagram.com/yakko____/
 species: 2
 zoo: 10
