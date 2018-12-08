@@ -1,0 +1,16 @@
+[panda]
+_id: 485
+birthday: 2017/7/23
+birthplace: 82
+children: none
+en.name: Pepper
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ペッパー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 486
+species: 2
+zoo: 82

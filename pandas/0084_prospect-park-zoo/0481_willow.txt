@@ -1,0 +1,22 @@
+[panda]
+_id: 481
+birthday: 2015/8/24
+birthplace: 82
+children: 484
+en.name: Willow
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ウィロー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 434
+photo.1: https://www.instagram.com/p/BdDgZKyHLq3/media/?size=m
+photo.1.author: animal_lifenyc
+photo.1.link: https://www.instagram.com/animal_lifenyc/
+photo.2: https://www.instagram.com/p/BczhWYtnVcw/media/?size=m
+photo.2.author: animal_lifenyc
+photo.2.link: https://www.instagram.com/animal_lifenyc/
+species: 2
+zoo: 84

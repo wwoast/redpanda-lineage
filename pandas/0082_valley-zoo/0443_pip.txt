@@ -2,7 +2,7 @@
 _id: 443
 birthday: 2008/5/26
 birthplace: 82
-children: unknown
+children: 485, 486
 en.name: Pip
 en.nicknames: none
 en.othernames: none
@@ -12,5 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 383
+photo.1: https://www.instagram.com/p/Bi7L-TqDlQJ/media/?size=m
+photo.1.author: edmontonvalleyzoo
+photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
 species: 2
 zoo: 82

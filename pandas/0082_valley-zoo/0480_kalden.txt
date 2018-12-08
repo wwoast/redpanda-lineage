@@ -2,7 +2,7 @@
 _id: 480
 birthday: 2012/6/7
 birthplace: 44
-children: unknown
+children: 485, 486
 en.name: Kalden
 en.nicknames: none
 en.othernames: none
@@ -12,5 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BZhUPhkF7fB/media/?size=m
+photo.1.author: edmontonvalleyzoo
+photo.1.link: https://www.instagram.com/p/BZhUPhkF7fB/
 species: 2
 zoo: 82
