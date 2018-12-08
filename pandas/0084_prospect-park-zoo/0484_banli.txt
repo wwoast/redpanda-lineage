@@ -1,0 +1,22 @@
+[panda]
+_id: 484
+birthday: 2017/6/30
+birthplace: 84
+children: none
+en.name: Ban-Li
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: バンリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/BcxjbYMngkS/media/?size=m
+photo.1.author: animal_lifenyc
+photo.1.link: https://www.instagram.com/animal_lifenyc/
+photo.2: https://www.instagram.com/p/Bfls_gEHVSb/media/?size=m
+photo.2.author: animal_lifenyc
+photo.2.link: https://www.instagram.com/animal_lifenyc/
+species: 2
+zoo: 84
