@@ -3,9 +3,9 @@ _id: 227
 birthday: 2011/5/28
 birthplace: 5
 children: 149, 225, 226, 233, 234, 235, 236
-en.name: Yu-Yu
+en.name: Yuu-Yuu
 en.nicknames: none
-en.othernames: Yuyu
+en.othernames: Yuyu, Yū-Yū, Yuuyuu
 gender: f
 jp.name: 渝渝
 jp.nicknames: none
@@ -23,5 +23,8 @@ photo.3.link: https://www.instagram.com/monmon_redpanda/
 photo.4: https://www.instagram.com/p/BfbxM6ShHrn/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
+photo.5: https://www.instagram.com/p/BrIBsB5lh-b/media/?size=m
+photo.5.author: wumpwoast
+photo.5.link: https://www.instagram.com/fetorus_mami/
 species: 2
 zoo: 37

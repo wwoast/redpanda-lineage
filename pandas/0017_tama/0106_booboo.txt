@@ -5,7 +5,7 @@ birthplace: 52
 children: 216, 308, 13, 229, 193, 74, 187, 102
 en.name: Boo-Boo
 en.nicknames: none
-en.othernames: Buu-Buu, Bu-Bu, Bubu, Booboo
+en.othernames: Buu-Buu, Bu-Bu, Bubu, Booboo, Bū-Bū
 gender: m
 jp.name: ブーブー
 jp.nicknames: none
@@ -32,5 +32,8 @@ photo.6.link: https://www.instagram.com/mariten1119/
 photo.7: https://www.instagram.com/p/BqjGUaMl_4i/media/?size=m
 photo.7.author: wumpwoast
 photo.7.link: https://www.instagram.com/wumpwoast/
+photo.8: https://www.instagram.com/p/BrIf56HlhR6/media/?size=m
+photo.8.author: minatomirai215
+photo.8.link: https://www.instagram.com/minatomirai215/
 species: 2
 zoo: 17
