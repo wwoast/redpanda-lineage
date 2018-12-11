@@ -1,17 +1,17 @@
 [panda]
-_id: 479
+_id: 487
 birthday: unknown
 birthplace: unknown
-children: 408, 101
+children: 133, 32
 death: unknown
-en.name: Zeyar
+en.name: Tsubasa
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ゼイヤー
+jp.name: ツバサ
 jp.nicknames: none
 jp.othernames: none
-language.order: en, jp
+language.order: jp, en
 litter: unknown
 species: 2
-zoo: 51
+zoo: 15
