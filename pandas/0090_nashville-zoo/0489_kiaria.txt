@@ -1,0 +1,16 @@
+[panda]
+_id: 489
+birthday: 2017/6/16
+birthplace: 90
+children: none
+en.name: Kiaria
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キアリア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 488
+species: 2
+zoo: 90

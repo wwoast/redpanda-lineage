@@ -2,7 +2,7 @@
 _id: 413
 birthday: 2011/6/20
 birthplace: 83
-children: 412
+children: 412, 488, 489
 en.name: Moshu
 en.nicknames: none
 en.othernames: none
@@ -15,5 +15,8 @@ litter: 414, 415
 photo.1: https://www.instagram.com/p/BkP3hdAFo2A/media/?size=m
 photo.1.author: nashvillezoo
 photo.1.link: https://www.instagram.com/nashvillezoo/
+photo.2: https://www.instagram.com/p/BgMlUomBkEN/media/?size=m
+photo.2.author: nashvillezoo
+photo.2.link: https://www.instagram.com/nashvillezoo/
 species: 2
 zoo: 90
