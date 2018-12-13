@@ -11,17 +11,14 @@ jp.name: ホーリー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-photo.1: https://www.instagram.com/p/Bjgly2WlYYg/media/?size=m
-photo.1.author: masumilky
-photo.1.link: https://www.instagram.com/masumilky/
-photo.2: https://www.instagram.com/p/BjheSm-lCkF/media/?size=m
-photo.2.author: redpanda_nippon_takashi
-photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.3: https://www.instagram.com/p/BjfN3A-FVfh/media/?size=m
-photo.3.author: panda.daisuki
-photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.4: https://www.instagram.com/p/Bo3yE9hFT_t/media/?size=m
-photo.4.author: ifumoto88
-photo.4.link: https://www.instagram.com/ifumoto88/
+photo.1: https://www.instagram.com/p/BjheSm-lCkF/media/?size=m
+photo.1.author: redpanda_nippon_takashi
+photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.2: https://www.instagram.com/p/BjfN3A-FVfh/media/?size=m
+photo.2.author: panda.daisuki
+photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.3: https://www.instagram.com/p/Bo3yE9hFT_t/media/?size=m
+photo.3.author: ifumoto88
+photo.3.link: https://www.instagram.com/ifumoto88/
 species: 2
 zoo: 16
