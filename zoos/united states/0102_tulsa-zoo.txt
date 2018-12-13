@@ -1,0 +1,12 @@
+[zoo]
+_id: 102
+en.address: 6421 E 36th St N, Tulsa, OK 74115
+en.location: Tulsa, Oklahoma, USA
+en.name: Tulsa Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/5SaB25cXkwQ2
+photo: https://www.instagram.com/p/BWLjtRMltIE/media/?size=m
+photo.author: tulsazoo
+photo.link: https://www.instagram.com/tulsazoo/
+website: https://tulsazoo.org/

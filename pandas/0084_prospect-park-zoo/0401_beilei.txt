@@ -2,7 +2,7 @@
 _id: 401
 birthday: 2010/6/14
 birthplace: 76
-children: unknown
+children: 469, 470
 en.name: Beilei
 en.nicknames: none
 en.oldnames: Roby
@@ -14,5 +14,14 @@ jp.oldnames: ロビー
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BEgYkUXFXA6/media/?size=m
+photo.1.author: prospectparkzoo
+photo.1.link: https://www.instagram.com/prospectparkzoo/
+photo.2: https://www.instagram.com/p/BCf92hSFXEJ/media/?size=m
+photo.2.author: prospectparkzoo
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.3: https://www.instagram.com/p/7YCs5blXPN/media/?size=m
+photo.3.author: prospectparkzoo
+photo.3.link: https://www.instagram.com/prospectparkzoo/
 species: 2
 zoo: 84
