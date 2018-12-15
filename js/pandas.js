@@ -21,7 +21,7 @@ Pandas.init = function() {
   */ 
   var db_url = "https://redpandafinder.com/export/redpanda.json";
  
-  var pandas = Object.create(Pandas.P); 
+  var pandas = Object.create(Pandas.P);
   var request = new XMLHttpRequest();
   request.open('GET', db_url);
   request.responseType = 'json';
