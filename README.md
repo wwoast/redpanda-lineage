@@ -16,7 +16,7 @@ If you love Red Pandas and want to contribute to a public family tree, look into
 
 ## Summary
 
-The global red panda population is estimated at under 10,000 animals, and between 500-1000 of these animals are distributed across zoos worldwide.
+The global red panda population is estimated at under 10,000 animals, and around 1000 of these animals are distributed across zoos worldwide.
 
 The Red Panda Lineage dataset is a flat-file human-editable dataset of pandas. A small group of passionate red panda lovers manually curates this dataset by making updates or commits to this repository.
 
