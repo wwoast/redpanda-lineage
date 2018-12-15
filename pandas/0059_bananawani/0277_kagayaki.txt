@@ -2,7 +2,7 @@
 _id: 277
 birthday: 2017/7/8
 birthplace: 59
-children: unknown
+children: none
 en.name: Kagayaki
 en.nicknames: none
 en.othernames: none
@@ -30,5 +30,11 @@ photo.5.link: https://www.instagram.com/craig_craig_craig/
 photo.6: https://www.instagram.com/p/Bp_vml2lEGv/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
+photo.7: https://www.instagram.com/p/BrZeufElc5F/media/?size=m
+photo.7.author: roko_mm
+photo.7.link: https://www.instagram.com/roko_mm/
+photo.8: https://www.instagram.com/p/BhS3hNyFHul/media/?size=m
+photo.8.author: perie1027vivi
+photo.8.link: https://www.instagram.com/perie1027vivi/
 species: 1
 zoo: 59

@@ -3,9 +3,10 @@ _id: 350
 birthday: 2002/6/14
 birthplace: 59
 children: unknown
-en.name: Soruto
+death: 2018/1/1
+en.name: Salt
 en.nicknames: none
-en.othernames: none
+en.othernames: Soruto
 gender: m
 jp.name: ソルト
 jp.nicknames: none
