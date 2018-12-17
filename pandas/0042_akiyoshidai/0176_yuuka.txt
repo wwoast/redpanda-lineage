@@ -4,7 +4,7 @@ birthday: 2016/7/14
 birthplace: 42
 children: none
 en.name: Yuuka
-en.nicknames: Shrimpie Tail, Crazy
+en.nicknames: Shrimpie Tail
 en.othernames: Yūka
 gender: f
 jp.name: 優香
@@ -84,5 +84,8 @@ photo.23.link: https://www.instagram.com/yuka0714_0307/
 photo.24: https://www.instagram.com/p/BrLxhazlgW9/media/?size=m
 photo.24.author: yuka0714_0307
 photo.24.link: https://www.instagram.com/yuka0714_0307/
+photo.25: https://www.instagram.com/p/BrdwJUiF04H/media/?size=m
+photo.25.author: yuka0714_0307
+photo.25.link: https://www.instagram.com/yuka0714_0307/
 species: 2
 zoo: 42
