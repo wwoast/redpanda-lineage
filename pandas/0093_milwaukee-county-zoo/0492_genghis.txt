@@ -1,17 +1,17 @@
 [panda]
-_id: 482
+_id: 492
 birthday: 1998/6/27
 birthplace: 65
-children: 150, 480
-death: unknown
-en.name: Tae-Bo
+children: none
+death: 2015/1/15
+en.name: Genghis
 en.nicknames: none
-en.othernames: Taebo
+en.othernames: none
 gender: m
-jp.name: タエポー
+jp.name: ジェンギス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 492
+litter: 482
 species: 2
-zoo: 44
+zoo: 93
