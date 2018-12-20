@@ -934,20 +934,20 @@ Show.zooLink = function(zoo, link_text, language, options) {
     Displayed output in the webpage
 */
 // Draw menu buttons for the bottom menu, or potentially elsewhere.
-Show.button = function(id, icon, button_text) {
+Show.button = function(id, button_icon, button_text) {
   var button = document.createElement('button');
   button.className = "menu";
   button.id = id;
   var content = document.createElement('div');
   content.className = "buttonContent";
-  var icon = document.createElement('div');
-  icon.className = 'icon';
-  icon.innerText = icon;
-  var text = document.createElement('div');
-  text.className = 'text';
-  text.innerText = button_text;
-  content.appendChild(icon);
-  content.appendChild(text);
+  var icon_div = document.createElement('div');
+  icon_div.className = 'icon';
+  icon_div.innerText = button_icon;
+  var text_div = document.createElement('div');
+  text_div.className = 'text';
+  text_div.innerText = button_text;
+  content.appendChild(icon_div);
+  content.appendChild(text_div);
   button.appendChild(content);
   return button;
 }
