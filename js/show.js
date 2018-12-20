@@ -156,6 +156,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
+  document.getElementById('topButton').addEventListener("click", function() {
+    // anchor tags get used for JS redraws, so don't use an anchor tag for
+    // top-of-page scroll events. This fixes the language button after clicking pageTop.
+    window.scrollTo(0, 0);
+  });
+
   // Last but not least, fetch the about page and links page contents for each language
   fetchAboutPage();
   fetchLinksPage();
