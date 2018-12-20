@@ -12,7 +12,7 @@ body {
     background: #366938;
 }
 
-div.topMenu {
+div.topMenu, div.bottomMenu {
     display: table;
     text-align: center;
     height: 64px;
@@ -23,6 +23,11 @@ div.topMenu {
     font-family: "Jun 201", sans-serif;
     width: 100%;
     vertical-align: middle;
+}
+
+div.bottomMenu {
+    margin-bottom: 0.5ex;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
 }
 
 @keyframes activateMenuButton {
