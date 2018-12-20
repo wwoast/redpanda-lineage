@@ -156,13 +156,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  // Last but not least, fetch the about page and links page contents for each language
+  // Fetch the about page and links page contents for each language
   fetchAboutPage();
   fetchLinksPage();
+
+  // If a previous page was seen, load it
+  var last_seen = window.localStorage.getItem("last_seen");
+  if (last_seen != null) {
+    window.location.hash = last_seen;
+  }
 });
 
 // When a hashlink is clicked from a non-links or non-about page, it should
-// output results for pandas.
+// output results for pandas. Save the hashlink as a value to be loaded if the page
+// is closed.
 window.addEventListener('hashchange', function() {
   if (Show.routes.fixed.includes(window.location.hash) == false) {
     outputResults();
@@ -171,6 +178,7 @@ window.addEventListener('hashchange', function() {
     outputHome();
     Show.page = outputHome;
   }
+  window.localStorage.setItem("last_seen", window.location.hash);
 });
 
 // Once the about-page content is loaded, decide whether to display the
