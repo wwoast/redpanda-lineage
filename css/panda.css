@@ -25,6 +25,11 @@ div.topMenu, div.bottomMenu {
     vertical-align: middle;
 }
 
+div.bottomMenu {
+    margin-bottom: 0.5ex;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
 @keyframes activateMenuButton {
     from { background-color: #366938; }
     to { background-color: #699C6A; }
