@@ -12,7 +12,7 @@ body {
     background: #366938;
 }
 
-div.topMenu {
+div.topMenu, div.bottomMenu {
     display: table;
     text-align: center;
     height: 64px;
