@@ -162,7 +162,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // If a previous page was seen, load it
   var last_seen = window.localStorage.getItem("last_seen");
-  if (last_seen != null) {
+  var current_hash = window.location.hash;
+  if ((last_seen != null) && (current_hash.length == 0)) {
     window.location.hash = last_seen;
   }
 });
