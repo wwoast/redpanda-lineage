@@ -156,12 +156,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  document.getElementById('topButton').addEventListener("click", function() {
-    // anchor tags get used for JS redraws, so don't use an anchor tag for
-    // top-of-page scroll events. This fixes the language button after clicking pageTop.
-    window.scrollTo(0, 0);
-  });
-
   // Last but not least, fetch the about page and links page contents for each language
   fetchAboutPage();
   fetchLinksPage();
@@ -388,22 +382,28 @@ function redrawPage(callback) {
   }
 }
 
-// Add the footer at the bottom of the page
+// Add the footer at the bottom of the page, including a footer menu (TODO)
 function redrawFooter() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // If no footer exists, add one in
+    var bottomMenu = Show.bottomMenu(L.display);
     var footer = Show.footer(L.display);
+    body.appendChild(bottomMenu);
     body.appendChild(footer);
   } else {
+    // Also replace the footer menu
+    var bottomMenu_test = document.getElementById("pageBottom");
     // Redraw the footer for language event changes
+    var bottomMenu = Show.bottomMenu(L.display);
     var footer = Show.footer(L.display);
+    body.replaceChild(bottomMenu, bottomMenu_test);
     body.replaceChild(footer, footer_test);
   }
 }
 
-// Remove the footer if returning to the home page
+// Remove the footer and bottom menu if returning to the home page
 function removeFooter() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
@@ -588,6 +588,11 @@ Show.gui = {
     "en": "Red Panda Lineage",
     "jp": "Red Panda Lineage"
   },
+  "home": {
+    "cn": "TOWRITE",
+    "en": "Home",
+    "jp": "ホメパゲ"
+  },
   "language": {
     "cn": "漢語",
     "en": "English",
@@ -632,6 +637,11 @@ Show.gui = {
     "cn": "TOWRITE",
     "en": "Red Panda Finder",
     "jp": "レッサーパンダのファインダー"
+  },
+  "top": {
+    "cn": "TOWRITE",
+    "en": "Top",
+    "jp": "上"
   }
 }
 
@@ -923,6 +933,61 @@ Show.zooLink = function(zoo, link_text, language, options) {
 /*
     Displayed output in the webpage
 */
+// Draw menu buttons for the bottom menu, or potentially elsewhere.
+Show.button = function(id, icon, button_text) {
+  var button = document.createElement('button');
+  button.className = "menu";
+  button.id = id;
+  var content = document.createElement('div');
+  content.className = "buttonContent";
+  var icon = document.createElement('div');
+  icon.className = 'icon';
+  icon.innerText = icon;
+  var text = document.createElement('div');
+  text.className = 'text';
+  text.innerText = button_text;
+  content.appendChild(icon);
+  content.appendChild(text);
+  button.appendChild(content);
+  return button;
+}
+
+// Draw a bottom menu, for when there are panda search results
+Show.bottomMenu = function(language) {
+  var menu_div = document.createElement('div');
+  menu_div.className = "bottomMenu";
+  menu_div.id = "pageBottom";
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  // Currently there are top and home buttons
+  // Top button
+  var top_icon = Show.emoji.top;
+  var top_text = Show.gui.top[language];
+  var top_button = Show.button("topButton", top_icon, top_text);
+  top_button.addEventListener("click", function() {
+    // anchor tags get used for JS redraws, so don't use an anchor tag for
+    // top-of-page scroll events. This fixes the language button after clicking pageTop.
+    window.scrollTo(0, 0);
+  });
+  // Home button
+  var home_icon = Show.emoji.home;
+  var home_text = Show.gui.home[language];
+  var home_button = Show.button("homeButton", home_icon, home_text);
+  // In mobile mode, logo button at the top doesn't exist so add a home button
+  // to the footer bar menu.
+  home_button.addEventListener("click", function() {
+    // Return to the empty search page
+    Show.lastSearch = "#home";
+    outputHome();
+    window.location = "#home";
+    Show.page = outputHome;
+  });
+  shrinker.appendChild(top_button);
+  shrinker.appendChild(home_button);
+  menu_div.appendChild(shrinker);
+  return menu_div;
+}
+
 // Draw a header for crediting someone's photos contribution 
 // with the correct language
 Show.credit = function(credit, count, language) {
@@ -1396,17 +1461,6 @@ Show.displayZooTitle = function(info) {
 // Draw a footer with the correct language
 Show.footer = function(language) {
   var p = document.createElement('p');
-  var top_link = document.createElement('a');
-  top_link.className = "emojiLink";
-  top_link.id = "pageTop";
-  top_link.href = "javascript:;";
-  top_link.innerText = Show.emoji.top;
-  // anchor tags get used for JS redraws, so don't use an anchor tag for
-  // top-of-page scroll events. This fixes the language button after clicking pageTop.
-  top_link.addEventListener("click", function() {
-    window.scrollTo(0, 0);
-  });
-  p.appendChild(top_link);
   for (var i in Show.gui.footer[language]) {
     var field = Show.gui.footer[language][i];
     if (field == "<INSERTLINK>") {
