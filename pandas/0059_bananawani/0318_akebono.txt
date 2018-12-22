@@ -1,16 +1,16 @@
 [panda]
-_id: 319
+_id: 318
 birthday: 2018/7/25
 birthplace: 59
 children: none
-en.name: Aka-chan
+en.name: Akebono
 en.nicknames: none
-en.othernames: Aka-Chan, Akachan
+en.othernames: none
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: あけぼの
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: 曙
 language.order: jp, en
-litter: 317, 318
+litter: 317, 319
 species: 1
 zoo: 59
