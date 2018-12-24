@@ -5,7 +5,7 @@ birthplace: 6
 children: 257, 258, 302, 483, 195, 201, 259, 260
 en.name: Kō-Kō
 en.nicknames: none
-en.othernames: Kou-Kou, Ko-Ko, Koko
+en.othernames: Kou-Kou, Ko-Ko, Koko, Koukou
 gender: m
 jp.name: 航航
 jp.nicknames: none
@@ -21,5 +21,8 @@ photo.2.link: https://www.instagram.com/yuka0714_0307/
 photo.3: https://www.instagram.com/p/BqmjNjjnv2n/media/?size=m
 photo.3.author: yakko____
 photo.3.link: https://www.instagram.com/yakko____/
+photo.4: https://www.instagram.com/p/BcUOLo5FQTW/media/?size=m
+photo.4.author: hanamaru_redpanda
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
 species: 2
 zoo: 42
