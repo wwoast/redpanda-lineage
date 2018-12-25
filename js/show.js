@@ -1612,6 +1612,8 @@ Show.photoSwap = function(photo, desired_index) {
   // Actually replace the photo.
   // photo.parentNode.replaceChild(new_photo, photo);
   photo.src = new_photo.src;
+  photo.id = new_photo.id;
+  photo.className = new_photo.className;
   Show.displayPhotoTouch(new_photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
