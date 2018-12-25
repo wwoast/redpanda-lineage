@@ -1045,8 +1045,7 @@ Show.displayEmptyResult = function(language) {
 }
 
 // Male and female icons next to pandas used for panda links.
-// This uses unlocalized m/f/unknown gender values, and displays
-// an alien face if the gender is not determined as a joke
+// This uses unlocalized m/f/unknown gender values
 Show.displayChildIcon = function(gender) {
   if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
     return Show.emoji.boy;
@@ -1610,8 +1609,10 @@ Show.photoSwap = function(photo, desired_index) {
   } else {
     return;  // No carousel, no need to actually swap photos
   }
-  // Actually replace the photo
-  photo.parentNode.replaceChild(new_photo, photo);
+  // Actually replace the photo.
+  // TODO: do a replacement of an image in a tag
+  // photo.parentNode.replaceChild(new_photo, photo);
+  photo.src = new_photo.src;
   Show.displayPhotoTouch(new_photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
