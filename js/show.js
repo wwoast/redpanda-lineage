@@ -1610,7 +1610,6 @@ Show.photoSwap = function(photo, desired_index) {
     return;  // No carousel, no need to actually swap photos
   }
   // Actually replace the photo.
-  // TODO: do a replacement of an image in a tag
   // photo.parentNode.replaceChild(new_photo, photo);
   photo.src = new_photo.src;
   Show.displayPhotoTouch(new_photo);
