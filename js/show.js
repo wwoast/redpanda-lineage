@@ -1609,8 +1609,7 @@ Show.photoSwap = function(photo, desired_index) {
   } else {
     return;  // No carousel, no need to actually swap photos
   }
-  // Actually replace the photo.
-  // photo.parentNode.replaceChild(new_photo, photo);
+  // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
   photo.id = new_photo.id;
   photo.className = new_photo.className;
