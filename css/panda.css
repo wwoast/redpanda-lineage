@@ -102,7 +102,6 @@ button.menu div.icon, button.logo div.icon {
 
 button.menu div.text, button.logo div.text {
     display: table-cell;
-    padding-right: 8px;
     text-align: left;
 }
 
