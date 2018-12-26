@@ -3,16 +3,18 @@ _id: 53
 birthday: 2003/6/16
 birthplace: 10
 children: 48, 72, 42, 85, 35, 46, 19, 199
-death: unknown
+death: 2015/7/18
 en.name: Chi-Chi
 en.nicknames: none
 en.othernames: Chii-Chii
 gender: f
-jp.name: チイチイ
+jp.name: チィチィ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 220, 374
+location.1: 10, 2003/6/16
+location.2: 8, 2005/3/7
 photo.1: https://www.instagram.com/p/xBCRTBQfDd/media/?size=m
 photo.1.author: jwg13777
 photo.1.link: https://www.instagram.com/jwg13777/
