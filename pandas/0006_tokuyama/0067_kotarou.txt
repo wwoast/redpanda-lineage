@@ -3,7 +3,7 @@ _id: 67
 birthday: 2006/6/22
 birthplace: 17
 children: 16, 298, 253, 160, 140, 301, 70
-death: 2016/1/20
+death: 2016/1/4
 en.name: Kotarou
 en.nicknames: none
 en.othernames: none
@@ -13,5 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 83
+location.1: 17, 2006/6/22
+location.2: 6, 2008/5/27
 species: 2
 zoo: 6
