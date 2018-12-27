@@ -1,7 +1,7 @@
 [panda]
 _id: 238
 birthday: 2005/7/7
-birthplace: 25
+birthplace: 26
 children: none
 en.name: Ma-Ma
 en.nicknames: none
@@ -12,6 +12,9 @@ jp.nicknames: none
 jp.othernames: マーマー
 language.order: jp, en
 litter: 340
+location.1: 26, 2005/7/7
+location.2: 25, 2008/12/26
+location.3: 40, 2013/2/18
 photo.1: https://www.instagram.com/p/Bd7F1rfFVDX/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
