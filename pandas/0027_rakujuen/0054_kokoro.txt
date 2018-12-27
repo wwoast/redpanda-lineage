@@ -2,7 +2,7 @@
 _id: 54
 birthday: 2006/6/20
 birthplace: 10
-children: unknown
+children: none
 en.name: Kokoro
 en.nicknames: Mofumofu
 en.othernames: none
@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 291
+location.1: 10, 2006/6/20
+location.2: 27, 2014/1/7
 photo.1: https://www.instagram.com/p/BhOXsjtATcE/media/?size=m
 photo.1.author: daniele.tokyo
 photo.1.link: https://www.instagram.com/daniele.tokyo/
