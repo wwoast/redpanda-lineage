@@ -1,0 +1,9 @@
+[zoo]
+_id: 104
+en.address: 500 S Greenlawn Ave, South Bend, IN 46615
+en.location: South Bend, Indiana, USA
+en.name: Potawatomi Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/Kn5Ao11FJ5Q2
+website: https://www.potawatomizoo.org/
