@@ -15,5 +15,9 @@ jp.name: ハナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, es, en
+litter: unknown
+location.1: 17, 2001/7/13
+location.2: 54, 2002/12/3
+location.3: 66, 2003/1/27
 species: 2
-zoo: 17
+zoo: 66
