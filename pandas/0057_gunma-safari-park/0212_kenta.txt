@@ -2,7 +2,7 @@
 _id: 212
 birthday: 2016/7/13
 birthplace: 26
-children: unknown
+children: none
 en.name: Kenta
 en.nicknames: none
 en.othernames: none
@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 213
+location.1: 26, 2016/7/13
+location.2: 57, 2018/3/1
 photo.1: https://www.instagram.com/p/BkKYOcgF44u/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
