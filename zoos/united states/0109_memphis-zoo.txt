@@ -1,0 +1,9 @@
+[zoo]
+_id: 109
+en.address: 2000 Prentiss Pl, Memphis, TN 38112
+en.location: Memphis, Tennessee, USA
+en.name: Memphis Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/nQy82rrLbm32
+website: https://memphiszoo.org/
