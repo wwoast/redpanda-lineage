@@ -8,8 +8,11 @@ en.nicknames: none
 gender: f
 jp.name: ミク
 jp.nicknames: none
+jp.othernames: none
 language.order: jp, en
 litter: unknown
+location.1: 42, 1999/7/21
+location.2: 74, 2012/12/26
 photo.1: https://www.instagram.com/p/BnntKc_lTua/media/?size=m
 photo.1.author: rie_panda55
 photo.1.link: https://www.instagram.com/rie_panda55/
