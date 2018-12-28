@@ -12,5 +12,10 @@ jp.nicknames: ルーム
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+location.1: 43, 2000/6/4
+location.2: 107, 2001/10/17
+location.3: 84, 2002/12/12
+location.4: 65, 2007/12/5
+location.5: 77, 2011/11/7
 species: 2
 zoo: 77
