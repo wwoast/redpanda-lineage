@@ -1,8 +1,8 @@
 [panda]
 _id: 493
-birthday: unknown
+birthday: 2013/6/22
 birthplace: 84
-children: 494
+children: 494, 496
 en.name: Ming-Yue
 en.nicknames: none
 en.othernames: none
@@ -11,6 +11,6 @@ jp.name: ミンユエ
 jp.nicknames: none
 jp.othernames: 明越
 language.order: en, jp
-litter: unknown
+litter: 394
 species: 2
 zoo: 92

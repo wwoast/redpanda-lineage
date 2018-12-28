@@ -1,0 +1,16 @@
+[panda]
+_id: 496
+birthday: 2015/7/14
+birthplace: 92
+children: none
+en.name: Roshani
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ロシャーニ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 494
+species: 2
+zoo: 92

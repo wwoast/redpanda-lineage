@@ -2,7 +2,7 @@
 _id: 415
 birthday: 2011/6/20
 birthplace: 83
-children: 494
+children: 494, 496
 en.name: Muse
 en.nicknames: none
 en.othernames: none
@@ -12,5 +12,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 413, 414
+location.1: 83, 2011/6/20
+location.2: 92, 2012/5/14
 species: 2
 zoo: 92
