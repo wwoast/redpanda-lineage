@@ -15,15 +15,19 @@ litter: 2, 7
 photo.1: https://www.instagram.com/p/BiguT54lhJx/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: sleeping
 photo.2: https://www.instagram.com/p/BiamHHCFL4t/media/?size=m
 photo.2.author: redpanda_nippon_takashi
 photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.2.tags: smile
 photo.3: https://www.instagram.com/p/Bh_Tz8EFGlz/media/?size=m
 photo.3.author: daniele.tokyo
 photo.3.link: https://www.instagram.com/daniele.tokyo/
+photo.3.tags: profile, tongue
 photo.4: https://www.instagram.com/p/BkXY9rtFN8L/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.author: laying down, tongue
 photo.5: https://www.instagram.com/p/BitiuiIl7vr/media/?size=m
 photo.5.author: redpanda_nippon_takashi
 photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -33,9 +37,11 @@ photo.6.link: https://www.instagram.com/masa_polarbear/
 photo.7: https://www.instagram.com/p/Bo8M5XjlAi2/media/?size=m
 photo.7.author: na.mo.pan
 photo.7.link: https://www.instagram.com/na.mo.pan/
+photo.7.tags: tongue
 photo.8: https://www.instagram.com/p/Bk4Yvu0lxYl/media/?size=m
 photo.8.author: sulfa2
 photo.8.link: https://www.instagram.com/sulfa2/
+photo.8.tags: bamboo
 photo.9: https://www.instagram.com/p/BkP7YHJFDTA/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
@@ -48,6 +54,7 @@ photo.11.link: https://www.instagram.com/hanamaru_redpanda/
 photo.12: https://www.instagram.com/p/BiDTCB9lRlo/media/?size=m
 photo.12.author: rie_panda55
 photo.12.link: https://www.instagram.com/rie_panda55/
+photo.12.tags: bamboo
 photo.13: https://www.instagram.com/p/BgqWb7jAaW6/media/?size=m
 photo.13.author: wumpwoast
 photo.13.link: https://www.instagram.com/wumpwoast/
@@ -60,29 +67,38 @@ photo.15.link: https://www.instagram.com/na.mo.pan/
 photo.16: https://www.instagram.com/p/BTONj6Ljj-g/media/?size=m
 photo.16.author: _rifa_p
 photo.16.link: https://www.instagram.com/_rifa_p/
+photo.16.tags: tree
 photo.17: https://www.instagram.com/p/BbtuY2UjW03/media/?size=m
 photo.17.author: panda.daisuki
 photo.17.link: https://www.instagram.com/panda.daisuki/
+photo.17.tags: autumn, tree
 photo.18: https://www.instagram.com/p/BppwX6Kl9iN/media/?size=m
 photo.18.author: rie_panda55
 photo.18.link: https://www.instagram.com/rie_panda55/
+photo.18.tags: dish
 photo.19: https://www.instagram.com/p/BqMl5GpFeIK/media/?size=m
 photo.19.author: panda.daisuki
 photo.19.link: https://www.instagram.com/panda.daisuki/
+photo.19.tags: autumn, tree
 photo.20: https://www.instagram.com/p/Bq6vjfWF7BK/media/?size=m
 photo.20.author: na.mo.pan
 photo.20.link: https://www.instagram.com/na.mo.pan/
+photo.20.tags: autumn, tree
 photo.21: https://www.instagram.com/p/Bq-yq-nlDS0/media/?size=m
 photo.21.author: rie_panda55
 photo.21.link: https://www.instagram.com/rie_panda55/
+photo.21.tags: autumn, tree
 photo.22: https://www.instagram.com/p/Bq-6V4tFcZN/media/?size=m
 photo.22.author: panda.daisuki
 photo.22.link: https://www.instagram.com/panda.daisuki/
+photo.22.tags: autumn
 photo.23: https://www.instagram.com/p/BrKtc1ZlDsT/media/?size=m
 photo.23.author: mofu_pan
 photo.23.link: https://www.instagram.com/mofu_pan/
+photo.23.tags: autumn, tail
 photo.24: https://www.instagram.com/p/Br6Pd6olUHj/media/?size=m
 photo.24.author: rie_panda55
 photo.24.link: https://www.instagram.com/rie_panda55/
+photo.24.tags: dish
 species: 2
 zoo: 1

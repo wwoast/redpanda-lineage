@@ -15,18 +15,22 @@ litter: 6, 7
 photo.1: https://instagram.com/p/Be6xaVdFG78/media/?size=m
 photo.1.author: takashi_8310iyo
 photo.1.link: https://www.instagram.com/takashi_8310iyo/
+photo.1.tags: profile, smile
 photo.2: https://instagram.com/p/BgLYfBVlp_b/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: laying down
 photo.3: https://www.instagram.com/p/BbyDXdxlv2_/media/?size=m
 photo.3.author: wumpwoast
 photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: peek
 photo.4: https://www.instagram.com/p/BRwIOD7lyGJ/media/?size=m
 photo.4.author: takashi_8310iyo
 photo.4.link: https://www.instagram.com/takashi_8310iyo/
 photo.5: https://www.instagram.com/p/Bj9VXUNFke-/media/?size=m
 photo.5.author: wumpwoast
 photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: spider
 photo.6: https://www.instagram.com/p/Bm1rx4gFw6O/media/?size=m
 photo.6.author: panda.daisuki
 photo.6.link: https://www.instagram.com/panda.daisuki/
@@ -36,36 +40,45 @@ photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.8: https://www.instagram.com/p/BToVYfPDilE/media/?size=m
 photo.8.author: kinkinkin0826
 photo.8.link: https://www.instagram.com/kinkinkin0826/
+photo.8.tags: sleeping
 photo.9: https://www.instagram.com/p/BfhEKltFx6L/media/?size=m
 photo.9.author: nakacchi_desu
 photo.9.link: https://www.instagram.com/nakacchi_desu/
+photo.9.tags: wink
 photo.10: https://www.instagram.com/p/Bf-NUSzFixJ/media/?size=m
 photo.10.author: l_ma_photos
 photo.10.link: https://www.instagram.com/l_ma_photos/
+photo.10.tags: bamboo
 photo.11: https://www.instagram.com/p/Bhur3dpl_XR/media/?size=m
 photo.11.author: firefoxpanda88
 photo.11.link: https://www.instagram.com/firefoxpanda88/
+photo.11.tags: yawn
 photo.12: https://www.instagram.com/p/BiDXzCdldlX/media/?size=m
 photo.12.author: _rifa_p
 photo.12.link: https://www.instagram.com/_rifa_p/
+photo.12.tags: peek
 photo.13: https://www.instagram.com/p/Bid8tcggEzn/media/?size=m
 photo.13.author: sulfa2
 photo.13.link: https://www.instagram.com/sulfa2/
 photo.14: https://www.instagram.com/p/Bhtq2LSF9vu/media/?size=m
 photo.14.author: jwg13777
 photo.14.link: https://www.instagram.com/jwg13777/
+photo.14.tags: sleeping
 photo.15: https://www.instagram.com/p/Bk2aNwclJ42/media/?size=m
 photo.15.author: rdpnzoo
 photo.15.link: https://www.instagram.com/rdpnzoo/
+photo.15.tags: baby, laying down, tree
 photo.16: https://www.instagram.com/p/Blxv-pyFeWV/media/?size=m
 photo.16.author: craig_craig_craig
 photo.16.link: https://www.instagram.com/craig_craig_craig/
 photo.17: https://www.instagram.com/p/BMRRYzXgpJX/media/?size=m
 photo.17.author: rio_minron
 photo.17.link: https://www.instagram.com/rio_minron/
+photo.17.tags: autumn, baby, laying down, tree
 photo.18: https://www.instagram.com/p/Bkhp4T1F-Kj/media/?size=m
 photo.18.author: miis_98
 photo.18.link: https://www.instagram.com/miis_98/
+photo.18.tags: laying down
 photo.19: https://www.instagram.com/p/BqTQZXhFbQH/media/?size=m
 photo.19.author: _rifa_p
 photo.19.link: https://www.instagram.com/_rifa_p/

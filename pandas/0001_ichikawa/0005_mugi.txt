@@ -17,6 +17,7 @@ location.2: 1, 2016/9/5
 photo.1: https://www.instagram.com/p/BcI4pBhDQMX/media/?size=m
 photo.1.author: _rifa_p
 photo.1.link: https://www.instagram.com/_rifa_p/
+photo.1.tags: bamboo
 photo.2: https://instagram.com/p/BgJZ-4qlgQL/media/?size=m
 photo.2.author: na.mo.pan
 photo.2.link: https://www.instagram.com/na.mo.pan/
@@ -26,27 +27,33 @@ photo.3.link: https://www.instagram.com/na.mo.pan/
 photo.4: https://www.instagram.com/p/BgN-9OxlkUi/media/?size=m
 photo.4.author: takashi_8310iyo
 photo.4.link: https://www.instagram.com/takashi_8310iyo/
+photo.4.tags: profile, standing
 photo.5: https://www.instagram.com/p/BjcjE9HlF6z/media/?size=m
 photo.5.author: redpanda_nippon_takashi
 photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.5.tags: apple time, tongue
 photo.6: https://www.instagram.com/p/BoXlxCplToL/media/?size=m
 photo.6.author: _rifa_p
 photo.6.link: https://www.instagram.com/_rifa_p/
+photo.6.tags: grooming, tail
 photo.7: https://www.instagram.com/p/Bok6iCqFUpl/media/?size=m
 photo.7.author: ifumoto88
 photo.7.link: https://www.instagram.com/ifumoto88/
+photo.7.tags: bamboo
 photo.8: https://www.instagram.com/p/Bol-U6NlFj0/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
 photo.9: https://www.instagram.com/p/BowKIhvFww7/media/?size=m
 photo.9.author: perie1027vivi
 photo.9.link: https://www.instagram.com/perie1027vivi/
+photo.9.tags: bear worm, laying down, smile
 photo.10: https://www.instagram.com/p/Bo33vZ0lnam/media/?size=m
 photo.10.author: lsdar13
 photo.10.link: https://www.instagram.com/lsdar13/
 photo.11: https://www.instagram.com/p/Bo-r3POlnOy/media/?size=m
 photo.11.author: redpanda_nippon_takashi
 photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.11.tags: smile
 photo.12: https://www.instagram.com/p/BPlGFhcjewI/media/?size=m
 photo.12.author: rdpnzoo
 photo.12.link: https://www.instagram.com/rdpnzoo/
@@ -65,21 +72,25 @@ photo.16.link: https://www.instagram.com/218_yu/
 photo.17: https://www.instagram.com/p/BqR-2SqlU4_/media/?size=m
 photo.17.author: panda.daisuki
 photo.17.link: https://www.instagram.com/panda.daisuki/
+photo.17.tags: techitechi
 photo.18: https://www.instagram.com/p/BqVrhFll9Gb/media/?size=m
 photo.18.author: panda.daisuki
 photo.18.link: https://www.instagram.com/panda.daisuki/
+photo.18.tags: bamboo, tongue
 photo.19: https://www.instagram.com/p/BqqQytQl5W8/media/?size=m
 photo.19.author: lespan33
 photo.19.link: https://www.instagram.com/lespan33/
 photo.20: https://www.instagram.com/p/BqzCsvvF5Ht/media/?size=m
 photo.20.author: l_ma_photos
 photo.20.link: https://www.instagram.com/l_ma_photos/
+photo.20.tags: bamboo, tongue
 photo.21: https://www.instagram.com/p/Bq0KB_8Fzfm/media/?size=m
 photo.21.author: cabbage_biyori
 photo.21.link: https://www.instagram.com/cabbage_biyori/
 photo.22: https://www.instagram.com/p/Bq8NnznFLvs/media/?size=m
 photo.22.author: mofu_pan
 photo.22.link: https://www.instagram.com/mofu_pan/
+photo.22.tags: smile
 photo.23: https://www.instagram.com/p/BrKauJGl2OQ/media/?size=m
 photo.23.author: _rifa_p
 photo.23.link: https://www.instagram.com/_rifa_p/
@@ -89,8 +100,10 @@ photo.24.link: https://www.instagram.com/kinkinkin0826/
 photo.25: https://www.instagram.com/p/BrldKeolq6F/media/?size=m
 photo.25.author: craig_craig_craig
 photo.25.link: https://www.instagram.com/craig_craig_craig/
+photo.25.tags: bamboo
 photo.26: https://www.instagram.com/p/BZN_MBplJif/media/?size=m
 photo.26.author: hanamaru_redpanda
 photo.26.link: https://www.instagram.com/hanamaru_redpanda/
+photo.26.tags: tree
 species: 2
 zoo: 1
