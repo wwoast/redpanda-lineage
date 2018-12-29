@@ -15,33 +15,42 @@ litter: none
 photo.1: https://www.instagram.com/p/BihkCaAFxTP/media/?size=m
 photo.1.author: bubbles_octi
 photo.1.link: https://www.instagram.com/bubbles_octi/
+photo.1.tags: tongue
 photo.2: https://www.instagram.com/p/Bc6s_VBjqnt/media/?size=m
 photo.2.author: ck.chie
 photo.2.link: https://www.instagram.com/ck.chie/
+photo.2.tags: profile, tree
 photo.3: https://www.instagram.com/p/BfeadQEhroK/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
+photo.3.tags: laying down, tongue, tree
 photo.4: https://www.instagram.com/p/BbSvRavBDPn/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: tree
 photo.5: https://www.instagram.com/p/BkAM2UhlICS/media/?size=m
 photo.5.author: lsdar13
 photo.5.link: https://www.instagram.com/lsdar13/
+photo.5.tags: apple time
 photo.6: https://www.instagram.com/p/BmzjZTflcIZ/media/?size=m
 photo.6.author: ck.chie
 photo.6.link: https://www.instagram.com/ck.chie/
+photo.6.tags: smile, tongue
 photo.7: https://www.instagram.com/p/BBYsNt9wZ91/media/?size=m
 photo.7.author: rio_minron
 photo.7.link: https://www.instagram.com/rio_minron/
 photo.8: https://www.instagram.com/p/BkB5wb5l-Ye/media/?size=m
 photo.8.author: l_ma_photos
 photo.8.link: https://www.instagram.com/l_ma_photos/
+photo.8.tags: laying down
 photo.9: https://www.instagram.com/p/Bj--H6bFzfC/media/?size=m
 photo.9.author: _rifa_p
 photo.9.link: https://www.instagram.com/_rifa_p/
+photo.9.tags: tongue, tree
 photo.10: https://www.instagram.com/p/Bjq1C_1FTM4/media/?size=m
 photo.10.author: na.mo.pan
 photo.10.link: https://www.instagram.com/na.mo.pan/
+photo.10.tags: smile
 photo.11: https://www.instagram.com/p/Bi1TYKZFuCa/media/?size=m
 photo.11.author: hanamaru_redpanda
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
@@ -54,18 +63,22 @@ photo.13.link: https://www.instagram.com/masa_polarbear/
 photo.14: https://www.instagram.com/p/Ba6g8CYlcr_/media/?size=m
 photo.14.author: l_ma_photos
 photo.14.link: https://www.instagram.com/l_ma_photos/
+photo.14.tags: smile
 photo.15: https://www.instagram.com/p/BcOJbz7DuCT/media/?size=m
 photo.15.author: _rifa_p
 photo.15.link: https://www.instagram.com/_rifa_p/
+photo.15.tags: laying down, tree, yawn
 photo.16: https://www.instagram.com/p/Bo-PIVHlcaX/media/?size=m
 photo.16.author: _rifa_p
 photo.16.link: https://www.instagram.com/_rifa_p/
 photo.17: https://www.instagram.com/p/BpKX14kFGzF/media/?size=m
 photo.17.author: na.mo.pan
 photo.17.link: https://www.instagram.com/na.mo.pan/
+photo.17.tags: tree
 photo.18: https://www.instagram.com/p/Bp9387HlsLh/media/?size=m
 photo.18.author: na.mo.pan
 photo.18.link: https://www.instagram.com/na.mo.pan/
+photo.18.tags: smile
 photo.19: https://www.instagram.com/p/Bp9p3-3llk8/media/?size=m
 photo.19.author: 218_yu
 photo.19.link: https://www.instagram.com/218_yu/
@@ -75,11 +88,14 @@ photo.20.link: https://www.instagram.com/na.mo.pan/
 photo.21: https://www.instagram.com/p/BrTlxO6gqvt/media/?size=m
 photo.21.author: _rifa_p
 photo.21.link: https://www.instagram.com/_rifa_p/
+photo.21.tags: lunch time
 photo.22: https://www.instagram.com/p/Brzxl6kFxQ1/media/?size=m
 photo.22.author: akaikumaneko
 photo.22.link: https://www.instagram.com/akaikumaneko/
+photo.22.tags: yawn
 photo.23: https://www.instagram.com/p/Br2B6WZluVT/media/?size=m
 photo.23.author: yakko____
 photo.23.link: https://www.instagram.com/yakko____/
+photo.23.tags: smile
 species: 2
 zoo: 1
