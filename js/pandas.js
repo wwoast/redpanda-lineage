@@ -298,6 +298,22 @@ Pandas.searchBabies = function(year) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+// Find all panda babies that died within a calendar year.
+Pandas.searchDead = function(year) {
+  // Default search is for the most recent year we recorded a birth in
+  var died_year = P.db["_totals"]["last_died"];
+  // Process whatever comes in as a year value. If > 1970, call it a year
+  if (parseInt(year) > parseInt(Pandas.def.date.earliest_year)) {
+    died_year = year;
+  }
+  var nodes = G.v().filter(function(vertex) {
+    var their_date = new Date(vertex.death);
+    var their_year = their_date.getFullYear();
+    return their_year == died_year;
+  }).unique().run();
+  return Pandas.sortYoungestToOldest(nodes);
+}
+
 // Find a pandas's direct siblings, with both the same mother and same father.
 Pandas.searchDirectSiblings = function(idnum) {
   return;   // TODO

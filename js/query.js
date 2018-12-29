@@ -61,6 +61,7 @@ Query.ops = {
   "type": {
     "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', 'aka-chan', '赤ちゃん'],
     "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
+    "dead": ["Dead", "dead", "Died", "died", "死"],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['Zoo', 'zoo', '動物園']
   },
@@ -110,7 +111,8 @@ Query.ops.group = {};
 Query.ops.group.types = Query.values(Query.ops.type);
 // Single keywords that represent queries on their own. Indexes into Query.ops
 Query.ops.group.zeroary = Query.values([
-  Query.ops.type.baby
+  Query.ops.type.baby,
+  Query.ops.type.dead
 ])
 // Unary operators
 Query.ops.group.unary = Query.values([
@@ -331,6 +333,10 @@ Query.resolver = {
     if (Query.ops.type.baby.indexOf(type) != -1) {
       return Pandas.searchBabies(subject);
     }
+    // If the dead operator is there, search for panda deaths by year
+    if (Query.ops.type.dead.indexOf(type) != -1) {
+      return Pandas.searchDead(subject);
+    }
     // If a credit operator is there, search for photo credits
     if (Query.ops.type.credit.indexOf(type) != -1) {
       return Pandas.searchPhotoCredit(subject);
@@ -352,6 +358,9 @@ Query.resolver = {
   "singleton": function(keyword) {
     if (Query.ops.type.baby.indexOf(keyword) != -1) {
       return Pandas.searchBabies();
+    }
+    if (Query.ops.type.dead.indexOf(keyword) != -1) {
+      return Pandas.searchDead();
     }
   }
 }
