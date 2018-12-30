@@ -18,6 +18,7 @@ location.3: 9, 2009/2/10
 photo.1: https://www.instagram.com/p/BhordilFctr/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
+photo.1.tags: lips, profile
 photo.2: https://www.instagram.com/p/BkFUYhkFuRD/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
@@ -33,26 +34,31 @@ photo.5.link: https://www.instagram.com/fetorus_mami/
 photo.6: https://www.instagram.com/p/BnyJA5qFyDI/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: tongue
 photo.7: https://www.instagram.com/p/BoJ8qcal41P/media/?size=m
 photo.7.author: l_ma_photos
 photo.7.link: https://www.instagram.com/l_ma_photos/
+photo.7.tags: wink
 photo.8: https://www.instagram.com/p/BpLHGcuFsqz/media/?size=m
 photo.8.author: rie_panda55
 photo.8.link: https://www.instagram.com/rie_panda55/
 photo.9: https://www.instagram.com/p/Bql9VuaFtdz/media/?size=m
 photo.9.author: kipekaila
 photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: lips
 photo.10: https://www.instagram.com/p/BrNOxQMl8L4/media/?size=m
 photo.10.author: monmon_redpanda
 photo.10.link: https://www.instagram.com/monmon_redpanda/
 photo.11: https://www.instagram.com/p/Brfef47FILb/media/?size=m
 photo.11.author: fetorus_mami
 photo.11.link: https://www.instagram.com/fetorus_mami/
+photo.11.tags: smile
 photo.12: https://www.instagram.com/p/BrkjQbDlkIk/media/?size=m
 photo.12.author: fetorus_mami
 photo.12.link: https://www.instagram.com/fetorus_mami/
 photo.13: https://www.instagram.com/p/Br2hovClad1/media/?size=m
 photo.13.author: l_ma_photos
 photo.13.link: https://www.instagram.com/l_ma_photos/
+photo.13.tags: grooming, tail
 species: 2
 zoo: 9
