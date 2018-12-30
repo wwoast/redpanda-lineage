@@ -15,69 +15,87 @@ litter: 22
 photo.1: https://www.instagram.com/p/Be5F2xRl32t/media/?size=m
 photo.1.author: sina_dw
 photo.1.link: https://www.instagram.com/sina_dw/
+photo.1.tags: profile, snow
 photo.2: https://www.instagram.com/p/Bbfjo3DnKp7/media/?size=m
 photo.2.author: cattail.sapporo
 photo.2.link: https://www.instagram.com/cattail.sapporo/
 photo.3: https://www.instagram.com/p/Blsj2VsncZj/media/?size=m
 photo.3.author: cattail.sapporo
 photo.3.link: https://www.instagram.com/cattail.sapporo/
+photo.3.tags: snow, tree
 photo.4: https://www.instagram.com/p/BSijnmCBD83/media/?size=m
 photo.4.author: sina_dw
 photo.4.link: https://www.instagram.com/sina_dw/
+photo.4.tags: bamboo, smile
 photo.5: https://www.instagram.com/p/BgdHZ_pFPIV/media/?size=m
 photo.5.author: wumpwoast
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.6: https://www.instagram.com/p/BngWBx9nZ3o/media/?size=m
 photo.6.author: cattail.sapporo
 photo.6.link: https://www.instagram.com/cattail.sapporo/
+photo.6.tags: smile
 photo.7: https://www.instagram.com/p/BoWN1qCFn3V/media/?size=m
 photo.7.author: leonard_redmof
 photo.7.link: https://www.instagram.com/leonard_redmof/
+photo.7.tags: baby
 photo.8: https://www.instagram.com/p/BocdTx7H1oj/media/?size=m
 photo.8.author: cattail.sapporo
 photo.8.link: https://www.instagram.com/cattail.sapporo/
 photo.9: https://www.instagram.com/p/BojFXy3F-h2/media/?size=m
 photo.9.author: ho0oipo
 photo.9.link: https://www.instagram.com/ho0oipo/
+photo.9.tags: bear worm, sleeping
 photo.10: https://www.instagram.com/p/Botlum0l5kI/media/?size=m
 photo.10.author: mofu_pan
 photo.10.link: https://www.instagram.com/mofu_pan/
+photo.10.tags: smile, tree
 photo.11: https://www.instagram.com/p/Bo1Ov6nljVU/media/?size=m
 photo.11.author: ichiken67
 photo.11.link: https://www.instagram.com/ichiken67/
+photo.11.tags: tree
 photo.12: https://www.instagram.com/p/Bo8hj3VlzUG/media/?size=m
 photo.12.author: mofu_pan
 photo.12.link: https://www.instagram.com/mofu_pan/
+photo.12.tags: sleeping
 photo.13: https://www.instagram.com/p/BpEoWoglkxF/media/?size=m
 photo.13.author: ichiken67
 photo.13.link: https://www.instagram.com/ichiken67/
+photo.13.tags: yawn
 photo.14: https://www.instagram.com/p/BpJ9bLclUST/media/?size=m
 photo.14.author: ichiken67
 photo.14.link: https://www.instagram.com/ichiken67/
+photo.14.tags: tree
 photo.15: https://www.instagram.com/p/Bpc7VbNnPlM/media/?size=m
 photo.15.author: cattail.sapporo
 photo.15.link: https://www.instagram.com/cattail.sapporo/
+photo.15.tags: laying down
 photo.16: https://www.instagram.com/p/BphDVOaFUkJ/media/?size=m
 photo.16.author: ichiken67
 photo.16.link: https://www.instagram.com/ichiken67/
+photo.16.tags: laying down
 photo.17: https://www.instagram.com/p/BqBzh59Ftkm/media/?size=m
 photo.17.author: izu_108
 photo.17.link: https://www.instagram.com/izu_108/
+photo.17.tags: carry
 photo.18: https://www.instagram.com/p/BqUQcssF1y0/media/?size=m
 photo.18.author: nishicotolo
 photo.18.link: https://www.instagram.com/nishicotolo/
+photo.18.tags: carry
 photo.19: https://www.instagram.com/p/BqcGQsclIox/media/?size=m
 photo.19.author: sina_dw
 photo.19.link: https://www.instagram.com/sina_dw/
 photo.20: https://www.instagram.com/p/BqjRD7BlHw2/media/?size=m
 photo.20.author: fetorus_mami
 photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: snow
 photo.21: https://www.instagram.com/p/BqlXN54FvSy/media/?size=m
 photo.21.author: izu_108
 photo.21.link: https://www.instagram.com/izu_108/
+photo.21.tags: carry
 photo.22: https://www.instagram.com/p/BrP5KKKnOw1/media/?size=m
 photo.22.author: cattail.sapporo
 photo.22.link: https://www.instagram.com/cattail.sapporo/
+photo.22.tags: techitechi
 photo.23: https://www.instagram.com/p/BrSJ97lFG3c/media/?size=m
 photo.23.author: sina_dw
 photo.23.link: https://www.instagram.com/sina_dw/
@@ -93,20 +111,26 @@ photo.26.link: https://www.instagram.com/izu_108/
 photo.27: https://www.instagram.com/p/Br1CE7Ol_Yt/media/?size=m
 photo.27.author: _sealiz
 photo.27.link: https://www.instagram.com/_sealiz/
+photo.27.tags: snow
 photo.28: https://www.instagram.com/p/Br2bBrJFDf9/media/?size=m
 photo.28.author: photokaorin
 photo.28.link: https://www.instagram.com/photokaorin/
+photo.28.tags: snow, techitechi
 photo.29: https://www.instagram.com/p/Br3frBElzhF/media/?size=m
 photo.29.author: _sealiz
 photo.29.link: https://www.instagram.com/_sealiz/
+photo.29.tags: snow
 photo.30: https://www.instagram.com/p/Br5LgYbFhfS/media/?size=m
 photo.30.author: ho0oipo
 photo.30.link: https://www.instagram.com/ho0oipo/
+photo.30.tags: tree
 photo.31: https://www.instagram.com/p/Br6lKIkH8Rs/media/?size=m
 photo.31.author: cattail.sapporo
 photo.31.link: https://www.instagram.com/cattail.sapporo/
+photo.31.tags: snow
 photo.32: https://www.instagram.com/p/Br7W_iNlF-b/media/?size=m
 photo.32.author: framereim
 photo.32.link: https://www.instagram.com/framereim/
+photo.32.tags: carry, snow
 species: 2
 zoo: 7
