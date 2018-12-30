@@ -15,12 +15,15 @@ litter: 29
 photo.1: https://www.instagram.com/p/BkEpPRqF81K/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BjUOOcUFDpB/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda
+photo.2.tags: bamboo, tongue
 photo.3: https://www.instagram.com/p/BlT4W-2BSHH/media/?size=m
 photo.3.author: miis_98
 photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: bamboo, smile
 photo.4: https://www.instagram.com/p/BhXwn2Zl-nz/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
@@ -39,8 +42,10 @@ photo.8.link: https://www.instagram.com/miis_98/
 photo.9: https://www.instagram.com/p/Bp375fMlcRR/media/?size=m
 photo.9.author: rie_panda55
 photo.9.link: https://www.instagram.com/rie_panda55/
+photo.9.tags: sleeping, tree
 photo.10: https://www.instagram.com/p/BqnzY__ljeW/media/?size=m
 photo.10.author: _rifa_p
 photo.10.link: https://www.instagram.com/_rifa_p/
+photo.10.tags: standing, tail
 species: 2
 zoo: 4

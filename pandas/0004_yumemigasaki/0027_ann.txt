@@ -17,15 +17,18 @@ location.2: 4, 2011/12/12
 photo.1: https://www.instagram.com/p/BjZcbAel8Cm/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/BjCiubMFYVl/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
 photo.3: https://www.instagram.com/p/Bjo3AMwFuRR/media/?size=m
 photo.3.author: roko_mm
 photo.3.link: https://www.instagram.com/roko_mm/
+photo.3.tags: bamboo, tongue
 photo.4: https://www.instagram.com/p/BgFXsajFnLk/media/?size=m
 photo.4.author: tabechum
 photo.4.link: https://www.instagram.com/tabechum/
+photo.4.tags: tongue
 photo.5: https://www.instagram.com/p/BcNKJ25h43v/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
@@ -35,20 +38,26 @@ photo.6.link: https://www.instagram.com/pantasanzoo/
 photo.7: https://www.instagram.com/p/BoP0ow1FKXm/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.7.tags: smile
 photo.8: https://www.instagram.com/p/Boyjt2Al-Vt/media/?size=m
 photo.8.author: craig_craig_craig
 photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: mofumofu
 photo.9: https://www.instagram.com/p/Bo4LiqEAr3m/media/?size=m
 photo.9.author: perie1027vivi
 photo.9.link: https://www.instagram.com/perie1027vivi/
+photo.9.tags: profile, smile
 photo.10: https://www.instagram.com/p/BhRPpTKn2DD/media/?size=m
 photo.10.author: rdpnzoo
 photo.10.link: https://www.instagram.com/rdpnzoo/
+photo.10.tags: bamboo, tongue
 photo.11: https://www.instagram.com/p/Bp24cW4AzIQ/media/?size=m
 photo.11.author: miis_98
 photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: flowers, smile
 photo.12: https://www.instagram.com/p/Bp26zhWlPbZ/media/?size=m
 photo.12.author: rie_panda55
 photo.12.link: https://www.instagram.com/rie_panda55/
+photo.12.tags: techitechi
 species: 2
 zoo: 4
