@@ -17,18 +17,23 @@ location.2: 14, 2016/5/19
 photo.1: https://www.instagram.com/p/Bkr4OsBlpVX/media/?size=m
 photo.1.author: kmasahon
 photo.1.link: https://www.instagram.com/kmasahon/
+photo.1.tags: profile, smile
 photo.2: https://www.instagram.com/p/BkpaKlOlLIi/media/?size=m
 photo.2.author: i.satosato
 photo.2.link: https://www.instagram.com/i.satosato/
+photo.2.tags: laying down
 photo.3: https://www.instagram.com/p/Bk67W1clbYd/media/?size=m
 photo.3.author: i.satosato
 photo.3.link: https://www.instagram.com/i.satosato/
+photo.3.tags: bear worm, laying down
 photo.4: https://www.instagram.com/p/8NEG50NoTo/media/?size=m
 photo.4.author: no_life_no_zoo
 photo.4.link: https://www.instagram.com/no_life_no_zoo/
+photo.4.tags: smile
 photo.5: https://www.instagram.com/p/BkryEPHFek3/media/?size=m
 photo.5.author: tomo3700
 photo.5.link: https://www.instagram.com/tomo3700/
+photo.5.tags: yawn
 photo.6: https://www.instagram.com/p/Bm0udRcBRUX/media/?size=m
 photo.6.author: resapanlove
 photo.6.link: https://www.instagram.com/resapanlove/
@@ -38,20 +43,25 @@ photo.7.link: https://www.instagram.com/love__mitarashi/
 photo.8: https://www.instagram.com/p/BpJStacFgtz/media/?size=m
 photo.8.author: love__mitarashi
 photo.8.link: https://www.instagram.com/love__mitarashi/
+photo.8.tags: nose
 photo.9: https://www.instagram.com/p/BqKPbVSFtd6/media/?size=m
 photo.9.author: colette.jp
 photo.9.link: https://www.instagram.com/colette.jp/
+photo.9.tags: standing
 photo.10: https://www.instagram.com/p/BqWXa-JFHH4/media/?size=m
 photo.10.author: love__mitarashi
 photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: nose
 photo.11: https://www.instagram.com/p/Brh4Hw3ltpM/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
 photo.12: https://www.instagram.com/p/Br1wWRvFqnY/media/?size=m
 photo.12.author: love__mitarashi
 photo.12.link: https://www.instagram.com/love__mitarashi/
+photo.12.tags: bamboo
 photo.13: https://www.instagram.com/p/Br4oHtUFk8j/media/?size=m
 photo.13.author: love__mitarashi
 photo.13.link: https://www.instagram.com/love__mitarashi/
+photo.13.tags: bamboo, tongue
 species: 2
 zoo: 14
