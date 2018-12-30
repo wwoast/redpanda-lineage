@@ -15,14 +15,18 @@ litter: 93
 photo.1: https://www.instagram.com/p/BkRCXD0F54J/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: tree, upside-down
 photo.2: https://www.instagram.com/p/Bh3uNL8n3Af/media/?size=m
 photo.2.author: nashi.cp
 photo.2.link: https://www.instagram.com/nashi.cp/
+photo.2.tags: tree
 photo.3: https://www.instagram.com/p/BG6tvkqj6sp/media/?size=m
 photo.3.author: l_ma_photos
 photo.3.link: https://www.instagram.com/l_ma_photos/
+photo.3.tags: profile
 photo.4: https://www.instagram.com/p/BForFquj6uC/media/?size=m
 photo.4.author: l_ma_photos
 photo.4.link: https://www.instagram.com/l_ma_photos/
+photo.4.tags: smile
 species: 2
 zoo: 10

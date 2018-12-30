@@ -5,7 +5,7 @@ birthplace: 10
 children: none
 en.name: Mo-Mo
 en.nicknames: none
-en.othernames: none
+en.othernames: Momo
 gender: f
 jp.name: モモ
 jp.nicknames: none
@@ -15,11 +15,14 @@ litter: unknown
 photo.1: https://cdn.4travel.jp/img/tcs/t/pict/500/26/78/77/500_26787760.jpg?1349448819
 photo.1.author: shimahukurou
 photo.1.link: https://4travel.jp/travelogue/10711556
+photo.1.tags: tongue
 photo.2: https://cdn.4travel.jp/img/tcs/t/pict/500/26/79/03/500_26790379.jpg?1349448819
 photo.2.author: shimahukurou
 photo.2.link: https://4travel.jp/travelogue/10711556
+photo.2.tags: profile, techitechi
 photo.3: https://cdn.4travel.jp/img/tcs/t/pict/500/26/78/76/500_26787679.jpg?1349448819
 photo.3.author: shimahukurou
 photo.3.link: https://4travel.jp/travelogue/10711556
+photo.3.tags: smile, tongue
 species: 2
 zoo: 10
