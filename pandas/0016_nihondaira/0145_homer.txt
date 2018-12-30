@@ -16,25 +16,31 @@ location.1: 65, 2012/6/11
 location.2: 43, 2014/9/23
 location.3: 16, 2016/3/15
 photo.1: https://www.instagram.com/p/Be9ipO7l6pN/media/?size=m
-photo.1.author: kiyjo.zoo
+photo.1.author: kijyo.zoo
 photo.1.link: https://www.instagram.com/kijyo.zoo/
+photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/BBtXcsvykIO/media/?size=m
 photo.2.author: worldthathesees
 photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: snow
 photo.3: https://www.instagram.com/p/BBtXpIrSkIg/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: snow
 photo.4: https://www.instagram.com/p/BAgFZjoykKN/media/?size=m
 photo.4.author: worldthathesees
 photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: snow
 photo.5: https://www.instagram.com/p/BAgFiovSkKf/media/?size=m
 photo.5.author: worldthathesees
 photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: snow
 photo.6: https://www.instagram.com/p/BMbhKAPDVPe/media/?size=m
 photo.6.author: sketchpoet
 photo.6.link: https://www.instagram.com/sketchpoet/
 photo.7: https://www.instagram.com/p/BDC39Yqyf_-/media/?size=m
 photo.7.author: sketchpoet
 photo.7.link: https://www.instagram.com/sketchpoet/
+photo.7.tags: profile
 species: 2
 zoo: 16
