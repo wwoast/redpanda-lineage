@@ -20,12 +20,15 @@ location.2: 2, 2013/3/30
 photo.1: https://www.instagram.com/p/BfDiq22A4_W/media/?size=m
 photo.1.author: kinkinkin0826
 photo.1.link: https://www.instagram.com/kinkinkin0826/
+photo.1.tags: bamboo, profile
 photo.2: https://www.instagram.com/p/Bjj8wJFFk9C/media/?size=m
 photo.2.author: kinkinkin0826
 photo.2.link: https://www.instagram.com/kinkinkin0826/
+photo.2.tags: bamboo
 photo.3: https://www.instagram.com/p/BlaZoCIlzLZ/media/?size=m
 photo.3.author: kinkinkin0826
 photo.3.link: https://www.instagram.com/kinkinkin0826/
+photo.3.tags: laying down
 photo.4: https://www.instagram.com/p/Bjz1E0QFrcg/media/?size=m
 photo.4.author: nakacchi_desu
 photo.4.link: https://www.instagram.com/nakacchi_desu/
@@ -35,24 +38,29 @@ photo.5.link: https://www.instagram.com/lespan33/
 photo.6: https://www.instagram.com/p/Bni17Pbl5Ao/media/?size=m
 photo.6.author: kinkinkin0826
 photo.6.link: https://www.instagram.com/kinkinkin0826/
+photo.6.tags: techitechi, tree
 photo.7: https://www.instagram.com/p/BnqmwYdFtOQ/media/?size=m
 photo.7.author: lespan33
 photo.7.link: https://www.instagram.com/lespan33/
+photo.7.tags: apple time
 photo.8: https://www.instagram.com/p/BoymzEclMgT/media/?size=m
 photo.8.author: kinkinkin0826
 photo.8.link: https://www.instagram.com/kinkinkin0826/
 photo.9: https://www.instagram.com/p/Bo6aj_alkih/media/?size=m
 photo.9.author: re_ichimaru
 photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: smile
 photo.10: https://www.instagram.com/p/BpZKy2Kl5cI/media/?size=m
 photo.10.author: bubbles_octi
 photo.10.link: https://www.instagram.com/bubbles_octi/
 photo.11: https://www.instagram.com/p/BpdRwLelu-Y/media/?size=m
 photo.11.author: lespan33
 photo.11.link: https://www.instagram.com/lespan33/
+photo.11.tags: apple time
 photo.12: https://www.instagram.com/p/BpqFXujFZ1s/media/?size=m
 photo.12.author: lespan33
 photo.12.link: https://www.instagram.com/lespan33/
+photo.12.tags: techitechi
 photo.13: https://www.instagram.com/p/Bp-iuRrFekD/media/?size=m
 photo.13.author: lespan33
 photo.13.link: https://www.instagram.com/lespan33/
@@ -62,21 +70,26 @@ photo.14.link: https://www.instagram.com/mofu_pan/
 photo.15: https://www.instagram.com/p/BqKJ6KYlC9M/media/?size=m
 photo.15.author: kinkinkin0826
 photo.15.link: https://www.instagram.com/kinkinkin0826/
+photo.15.tags: laying down
 photo.16: https://www.instagram.com/p/BqQcJ1mFIGu/media/?size=m
 photo.16.author: redpanda_nippon_takashi
 photo.16.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.16.tags: apple time
 photo.17: https://www.instagram.com/p/Bqe2NO7FE9a/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
 photo.18: https://www.instagram.com/p/BqihPtQlOLH/media/?size=m
 photo.18.author: redpanda_nippon_takashi
 photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.18.tags: laying down
 photo.19: https://www.instagram.com/p/Bq1_SzZlGRL/media/?size=m
 photo.19.author: kinkinkin0826
 photo.19.link: https://www.instagram.com/kinkinkin0826/
+photo.19.tags: smile, tongue
 photo.20: https://www.instagram.com/p/BrAiEVtlzT1/media/?size=m
 photo.20.author: lespan33
 photo.20.link: https://www.instagram.com/lespan33/
+photo.20.tags: smile, tongue
 photo.21: https://www.instagram.com/p/BrDGP-1FwqP/media/?size=m
 photo.21.author: l_ma_photos
 photo.21.link: https://www.instagram.com/l_ma_photos/
@@ -89,5 +102,6 @@ photo.23.link: https://www.instagram.com/sakikukeco/
 photo.24: https://www.instagram.com/p/Br0mYvqFh-q/media/?size=m
 photo.24.author: redpanda_nippon_takashi
 photo.24.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.24.tags: laying down
 species: 2
 zoo: 2

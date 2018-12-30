@@ -20,11 +20,14 @@ location.2: 2, 2013/3/30
 photo.1: https://www.instagram.com/p/BgLn9xWlJS3/media/?size=m
 photo.1.author: kinkinkin0826
 photo.1.link: https://www.instagram.com/kinkinkin0826/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Blp1Bf3loi7/media/?size=m
 photo.2.author: lespan33
 photo.2.link: https://www.instagram.com/lespan33/
+photo.2.tags: flowers, lunch time
 photo.3: https://www.instagram.com/p/BkfHK_ElTCr/media/?size=m
 photo.3.author: kinkinkin0826
+photo.3.tags: tail
 photo.3.link: https://www.instagram.com/kinkinkin0826/
 photo.4: https://www.instagram.com/p/BjxEToflMEw/media/?size=m
 photo.4.author: lespan33
@@ -35,21 +38,25 @@ photo.5.link: https://www.instagram.com/lespan33/
 photo.6: https://www.instagram.com/p/BnV9kgkl2cY/media/?size=m
 photo.6.author: kinkinkin0826
 photo.6.link: https://www.instagram.com/kinkinkin0826/
+photo.6.tags: smile
 photo.7: https://www.instagram.com/p/BoSVnLdFTkg/media/?size=m
 photo.7.author: lespan33
 photo.7.link: https://www.instagram.com/lespan33/
+photo.7.smile: smile, tongue
 photo.8: https://www.instagram.com/p/BobJdA8FmJe/media/?size=m
 photo.8.author: gloryeui
 photo.8.link: https://www.instagram.com/gloryeui/
 photo.9: https://www.instagram.com/p/BogprdeFsRe/media/?size=m
 photo.9.author: kinkinkin0826
 photo.9.link: https://www.instagram.com/kinkinkin0826/
+photo.9.tags: tree
 photo.10: https://www.instagram.com/p/Boy_3GllNLK/media/?size=m
 photo.10.author: makimaru18
 photo.10.link: https://www.instagram.com/makimaru18/
 photo.11: https://www.instagram.com/p/Bo3y0_rFOpt/media/?size=m
 photo.11.author: kinkinkin0826
 photo.11.link: https://www.instagram.com/kinkinkin0826/
+photo.11.tags: laying down
 photo.12: https://www.instagram.com/p/Bo6gJX3lK4t/media/?size=m
 photo.12.author: gloryeui
 photo.12.link: https://www.instagram.com/gloryeui/
@@ -59,12 +66,14 @@ photo.13.link: https://www.instagram.com/kinkinkin0826/
 photo.14: https://www.instagram.com/p/BpRjqUNl9qb/media/?size=m
 photo.14.author: kinkinkin0826
 photo.14.link: https://www.instagram.com/kinkinkin0826/
+photo.14.tags: apple time
 photo.15: https://www.instagram.com/p/Bpjvn5vFPf8/media/?size=m
 photo.15.author: lespan33
 photo.15.link: https://www.instagram.com/lespan33/
 photo.16: https://www.instagram.com/p/Bpwd-VZlVc6/media/?size=m
 photo.16.author: kinkinkin0826
 photo.16.link: https://www.instagram.com/kinkinkin0826/
+photo.16.tags: apple time
 photo.17: https://www.instagram.com/p/Bp4diKwlW5m/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
@@ -77,18 +86,22 @@ photo.19.link: https://www.instagram.com/kinkinkin0826/
 photo.20: https://www.instagram.com/p/BqQ5NAhlpTw/media/?size=m
 photo.20.author: pantasanzoo
 photo.20.link: https://www.instagram.com/pantasanzoo/
+photo.20.tags: bamboo
 photo.21: https://www.instagram.com/p/BquONFAF3n_/media/?size=m
 photo.21.author: kinkinkin0826
 photo.21.link: https://www.instagram.com/kinkinkin0826/
+photo.21.tags: mofumofu, tail
 photo.22: https://www.instagram.com/p/BrWZBHBlcrf/media/?size=m
 photo.22.author: l_ma_photos
 photo.22.link: https://www.instagram.com/l_ma_photos/
+photo.22.tags: bamboo
 photo.23: https://www.instagram.com/p/BrfLFAXFRW3/media/?size=m
 photo.23.author: lespan33
 photo.23.link: https://www.instagram.com/lespan33/
 photo.24: https://www.instagram.com/p/BrhtH-XFvO6/media/?size=m
 photo.24.author: kinkinkin0826
 photo.24.link: https://www.instagram.com/kinkinkin0826/
+photo.24.tags: apple time
 photo.25: https://www.instagram.com/p/Br08swKFP5I/media/?size=m
 photo.25.author: motohin
 photo.25.link: https://www.instagram.com/motohin/
