@@ -17,24 +17,31 @@ location.2: 17, 2017/3/27
 photo.1: https://www.instagram.com/p/Be1adQihyzG/media/?size=m
 photo.1.author: _rifa_p
 photo.1.link: https://www.instagram.com/_rifa_p/
+photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/Be7cwEqHSvP/media/?size=m
 photo.2.author: kotata_513
 photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: bamboo, grumpy
 photo.3: https://www.instagram.com/p/Bf5b3XmlgHd/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: bamboo
 photo.4: https://www.instagram.com/p/BgTiS-9lE4p/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: grumpy, profile
 photo.5: https://www.instagram.com/p/BiOoKKpFT-g/media/?size=m
 photo.5.author: itsuak
 photo.5.link: https://www.instagram.com/itsuak/
+photo.5.tags: smile, standing, tree
 photo.6: https://www.instagram.com/p/BlvnN0JBCol/media/?size=m
 photo.6.author: redpanda_ko
 photo.6.link: https://www.instagram.com/redpanda_ko/
+photo.6.tags: laying down, smile, tree
 photo.7: https://www.instagram.com/p/BeMBa8aj66I/media/?size=m
 photo.7.author: s.okano521
 photo.7.link: https://www.instagram.com/s.okano521/
+photo.7.tags: tongue
 photo.8: https://www.instagram.com/p/BpgEspalZzI/media/?size=m
 photo.8.author: ck.chie
 photo.8.link: https://www.instagram.com/ck.chie/
@@ -44,6 +51,7 @@ photo.9.link: https://www.instagram.com/roko_mm/
 photo.10: https://www.instagram.com/p/Bp3PydHlKpa/media/?size=m
 photo.10.author: ck.chie
 photo.10.link: https://www.instagram.com/ck.chie/
+photo.10.tags: bamboo
 photo.11: https://www.instagram.com/p/BJJvARgA6cw/media/?size=m
 photo.11.author: mariten1119
 photo.11.link: https://www.instagram.com/mariten1119/
@@ -53,8 +61,10 @@ photo.12.link: https://www.instagram.com/minatomirai215/
 photo.13: https://www.instagram.com/p/BrN6QNDFGKG/media/?size=m
 photo.13.author: minatomirai215
 photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: tree
 photo.14: https://www.instagram.com/p/BrjZQ9glcHm/media/?size=m
 photo.14.author: ck.chie
 photo.14.link: https://www.instagram.com/ck.chie/
+photo.14.tags: bamboo
 species: 2
 zoo: 17
