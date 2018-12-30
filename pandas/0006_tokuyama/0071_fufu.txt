@@ -17,15 +17,19 @@ location.2: 6, 2016/2/24
 photo.1: https://www.instagram.com/p/BhfVcLilAjr/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
 photo.2.author: kotata_513
 photo.2.link: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
+photo.2.tags: smile
 photo.3: https://www.instagram.com/p/Bj84Fdil1Jk/media/?size=m
 photo.3.author: yuka0714_0307
 photo.3.link: https://www.instagram.com/yuka0714_0307/
+photo.3.tags: bamboo
 photo.4: https://www.instagram.com/p/Bn3jHNClTvc/media/?size=m
 photo.4.author: yuka0714_0307
 photo.4.link: https://www.instagram.com/yuka0714_0307/
+photo.4.tags: tail
 photo.5: https://www.instagram.com/p/BoPEvJnlNcW/media/?size=m
 photo.5.author: animal_love_us
 photo.5.link: https://www.instagram.com/animal_love_us/
@@ -38,11 +42,13 @@ photo.7.link: https://www.instagram.com/makimaru18/
 photo.8: https://www.instagram.com/p/BqgGsgeAx1X/media/?size=m
 photo.8.author: resapanlove
 photo.8.link: https://www.instagram.com/resapanlove/
+photo.8.tags: apple time
 photo.9: https://www.instagram.com/p/BqoOnYAFttU/media/?size=m
 photo.9.author: perie1027vivi
 photo.9.link: https://www.instagram.com/perie1027vivi/
 photo.10: https://www.instagram.com/p/Bq3JGh3lrzt/media/?size=m
 photo.10.author: monmon_redpanda
 photo.10.link: https://www.instagram.com/monmon_redpanda/
+photo.10.tags: smile
 species: 2
 zoo: 6
