@@ -14,20 +14,25 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BiJmdzYlPQs/media/?size=m
 photo.1.author: neon_ing
 photo.1.link: https://www.instagram.com/neon_ing/
+photo.1.tags: laying down
 photo.2: https://www.instagram.com/p/BjuNr3gFI7Y/media/?size=m
 photo.2.author: minatomirai215
 photo.2.link: https://www.instagram.com/minatomirai215/
 photo.3: https://www.instagram.com/p/BjUc1h5F_ll/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BpbY6GlFkie/media/?size=m
 photo.4.author: lsdar13
 photo.4.link: https://www.instagram.com/lsdar13/
+photo.4.tags: laying down
 photo.5: https://www.instagram.com/p/Bppaf-UFwGx/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: laying down
 photo.6: https://www.instagram.com/p/BrXSIs1lyqn/media/?size=m
 photo.6.author: framereim
 photo.6.link: https://www.instagram.com/framereim/
+photo.6.tags: profile
 species: 2
 zoo: 12
