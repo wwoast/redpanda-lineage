@@ -14,54 +14,68 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/Bb_tMjIjmk-/media/?size=m
 photo.1.author: ichiken67
 photo.1.link: https://www.instagram.com/ichiken67/
+photo.1.tags: surprise
 photo.2: https://instagram.com/p/BdRtMHChNGn/media?size=m
 photo.2.author: mifko55
 photo.2.link: https://www.instagram.com/mifko55/
 photo.3: https://www.instagram.com/p/Bku07rznaLt/media/?size=m
 photo.3.author: cattail.sapporo
 photo.3.link: https://www.instagram.com/cattail.sapporo/
+photo.3.tags: nose
 photo.4: https://www.instagram.com/p/Bj8J9J2lsX8/media/?size=m
 photo.4.author: kipekaila
 photo.4.link: https://www.instagram.com/kipekaila/
+photo.4.tags: bamboo, tongue
 photo.5: https://www.instagram.com/p/Bh_bFlVF7U0/media/?size=m
 photo.5.author: ichiken67
 photo.5.link: https://www.instagram.com/ichiken67/
 photo.6: https://www.instagram.com/p/BnWAdb-FJDk/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: tail
 photo.7: https://www.instagram.com/p/BoeGP7-lPXl/media/?size=m
 photo.7.author: ho0oipo
 photo.7.link: https://www.instagram.com/ho0oipo/
+photo.7.tags: tail
 photo.8: https://www.instagram.com/p/BomDSJalWnC/media/?size=m
 photo.8.author: makimaru18
 photo.8.link: https://www.instagram.com/makimaru18/
+photo.8.tags: tongue
 photo.9: https://www.instagram.com/p/BosuwUOlhNJ/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: tongue
 photo.10: https://www.instagram.com/p/Botkgy_Fo5L/media/?size=m
 photo.10.author: mofu_pan
 photo.10.link: https://www.instagram.com/mofu_pan/
 photo.11: https://www.instagram.com/p/BoyuGZclTwJ/media/?size=m
 photo.11.author: mofu_pan
 photo.11.link: https://www.instagram.com/mofu_pan/
+photo.11.tags: sleeping
 photo.12: https://www.instagram.com/p/BozHU3aFDVR/media/?size=m
 photo.12.author: minatomirai215
 photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: tail
 photo.13: https://www.instagram.com/p/Bo2yHkfFakb/media/?size=m
 photo.13.author: makimaru18
 photo.13.link: https://www.instagram.com/makimaru18/
+photo.13.tags: tongue
 photo.14: https://www.instagram.com/p/BpHt4kqlcVD/media/?size=m
 photo.14.author: nakacchi_desu
 photo.14.link: https://www.instagram.com/nakacchi_desu/
+photo.14.tags: paws
 photo.15: https://www.instagram.com/p/BpJXd2Dl72S/media/?size=m
 photo.15.author: sina_dw
 photo.15.link: https://www.instagram.com/sina_dw/
+photo.15.tags: apple time
 photo.16: https://www.instagram.com/p/BpJyYGNl_pz/media/?size=m
 photo.16.author: sina_dw
 photo.16.link: https://www.instagram.com/sina_dw/
+photo.16.tags: apple time
 photo.17: https://www.instagram.com/p/BpIwMa1FCQJ/media/?size=m
 photo.17.author: nakacchi_desu
 photo.17.link: https://www.instagram.com/nakacchi_desu/
+photo.17.tags: toys
 photo.18: https://www.instagram.com/p/BpMRnXsAl1X/media/?size=m
 photo.18.author: nakacchi_desu
 photo.18.link: https://www.instagram.com/nakacchi_desu/
@@ -71,15 +85,19 @@ photo.19.link: https://www.instagram.com/cattail.sapporo/
 photo.20: https://www.instagram.com/p/BpOnehel2-m/media/?size=m
 photo.20.author: makimaru18
 photo.20.link: https://www.instagram.com/makimaru18/
+photo.20.tags: laying down
 photo.21: https://www.instagram.com/p/BpO41CpFpKN/media/?size=m
 photo.21.author: sina_dw
 photo.21.link: https://www.instagram.com/sina_dw/
+photo.21.tags: laying down
 photo.22: https://www.instagram.com/p/BpT85_el1BC/media/?size=m
 photo.22.author: sina_dw
 photo.22.link: https://www.instagram.com/sina_dw/
+photo.22.tags: laying down, tail
 photo.23: https://www.instagram.com/p/BphHZxHFPNW/media/?size=m
 photo.23.author: mofu_pan
 photo.23.link: https://www.instagram.com/mofu_pan/
+photo.23.tags: yawn
 photo.24: https://www.instagram.com/p/BpjZv5ilPDh/media/?size=m
 photo.24.author: sina_dw
 photo.24.link: https://www.instagram.com/sina_dw/
@@ -92,15 +110,19 @@ photo.26.link: https://www.instagram.com/ichiken67/
 photo.27: https://www.instagram.com/p/Bp4Inr7F6JR/media/?size=m
 photo.27.author: ichiken67
 photo.27.link: https://www.instagram.com/ichiken67/
+photo.27.tags: apple time
 photo.28: https://www.instagram.com/p/BqFERjQly7v/media/?size=m
 photo.28.author: ichiken67
 photo.28.link: https://www.instagram.com/ichiken67/
+photo.28.tags: apple time
 photo.29: https://www.instagram.com/p/BqFK4q8lQfw/media/?size=m
 photo.29.author: sina_dw
 photo.29.link: https://www.instagram.com/sina_dw/
+photo.29.tags: grooming
 photo.30: https://www.instagram.com/p/BqHioc7FftE/media/?size=m
 photo.30.author: ichiken67
 photo.30.link: https://www.instagram.com/ichiken67/
+photo.30.tags: toys
 photo.31: https://www.instagram.com/p/BqRyJ9UlbNj/media/?size=m
 photo.31.author: sina_dw
 photo.31.link: https://www.instagram.com/sina_dw/
@@ -113,21 +135,26 @@ photo.33.link: https://www.instagram.com/fetorus_mami/
 photo.34: https://www.instagram.com/p/Bpt9M5-lWD0/media/?size=m
 photo.34.author: wumpwoast
 photo.34.link: https://www.instagram.com/wumpwoast/
+photo.34.tags: air tasting
 photo.35: https://www.instagram.com/p/Boxm3tZF5jS/media/?size=m
 photo.35.author: wonderfulzooken
 photo.35.link: https://www.instagram.com/wonderfulzooken/
+photo.35.tags: laying down
 photo.36: https://www.instagram.com/p/Brge-GIFoo0/media/?size=m
 photo.36.author: fetorus_mami
 photo.36.link: https://www.instagram.com/fetorus_mami/
 photo.37: https://www.instagram.com/p/Brz62AcHFHb/media/?size=m
 photo.37.author: cattail.sapporo
 photo.37.link: https://www.instagram.com/cattail.sapporo/
+photo.37.tags: paws
 photo.38: https://www.instagram.com/p/BdohBuggMhl/media/?size=m
 photo.38.author: framereim
 photo.38.link: https://www.instagram.com/framereim/
+photo.38.tags: panda bowl
 photo.39: https://www.instagram.com/p/BdtQyDEApWL/media/?size=m
 photo.39.author: framereim
 photo.39.link: https://www.instagram.com/framereim/
+photo.39.tags: toys
 species: 2
 video.1: https://youtu.be/f-hoQdNnqA0
 video.1.author: kosaru 323

@@ -17,12 +17,15 @@ location.2: 11, 2006/6/7
 photo.1: https://www.instagram.com/p/BivW5rzFKVX/media/?size=m
 photo.1.author: minatomirai215
 photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: flowers, profile
 photo.2: https://www.instagram.com/p/BbdlG-FhnTn/media/?size=m
 photo.2.author: minatomirai215
 photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: tongue
 photo.3: https://www.instagram.com/p/Bj00DXdlgYj/media/?size=m
 photo.3.author: wumpwoast
 photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: tail
 photo.4: https://www.instagram.com/p/Bc2MtHMlh55/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -35,23 +38,28 @@ photo.6.link: https://www.instagram.com/minatomirai215/
 photo.7: https://www.instagram.com/p/BpHu-Zbl9nR/media/?size=m
 photo.7.author: nakacchi_desu
 photo.7.link: https://www.instagram.com/nakacchi_desu/
+photo.7.tags: tongue
 photo.8: https://www.instagram.com/p/BpbwVhGlOzZ/media/?size=m
 photo.8.author: sina_dw
 photo.8.link: https://www.instagram.com/sina_dw/
+photo.8.tags: laying down
 photo.9: https://www.instagram.com/p/Bpjc-iMldOo/media/?size=m
 photo.9.author: daniele.tokyo
 photo.9.link: https://www.instagram.com/daniele.tokyo/
 photo.10: https://www.instagram.com/p/BpmGG95lJjJ/media/?size=m
 photo.10.author: sina_dw
 photo.10.link: https://www.instagram.com/sina_dw/
+photo.10.tags: apple time
 photo.11: https://www.instagram.com/p/Bqjj1AmF703/media/?size=m
 photo.11.author: fetorus_mami
 photo.11.link: https://www.instagram.com/fetorus_mami/
 photo.12: https://www.instagram.com/p/BqrAi0zFq2d/media/?size=m
 photo.12.author: yuka0714_0307
 photo.12.link: https://www.instagram.com/yuka0714_0307/
+photo.12.tags: home, snow
 photo.13: https://www.instagram.com/p/BrgiZwSlKjZ/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: home, snow
 species: 2
 zoo: 11
