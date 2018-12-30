@@ -15,30 +15,39 @@ litter: 66
 photo.1: https://www.instagram.com/p/BkQ7-SYl_pl/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BkZ5stnFTtL/media/?size=m
 photo.2.author: i.satosato
 photo.2.link: https://www.instagram.com/i.satosato/
+photo.2.tags: bear worm
 photo.3: https://www.instagram.com/p/Bjo2cubngrx/media/?size=m
 photo.3.author: minato.yokohama2130
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
+photo.3.tags: apple time, keeper
 photo.4: https://www.instagram.com/p/Bi_5U0ilF4f/media/?size=m
 photo.4.author: daniele.tokyo
 photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: wet
 photo.5: https://www.instagram.com/p/Bnn05J9lWtg/media/?size=m
 photo.5.author: minato.yokohama2130
 photo.5.link: https://www.instagram.com/minato.yokohama2130/
+photo.5.tags: laying down, profile, smile
 photo.6: https://www.instagram.com/p/BoL3cJkllRV/media/?size=m
 photo.6.author: minato.yokohama2130
 photo.6.link: https://www.instagram.com/minato.yokohama2130/
+photo.6.tags: smile
 photo.7: https://www.instagram.com/p/Bn84OrLlHB8/media/?size=m
 photo.7.author: minato.yokohama2130
 photo.7.link: https://www.instagram.com/minato.yokohama2130/
+photo.7.tags: laying down, tail
 photo.8: https://www.instagram.com/p/BolVtm_lNHS/media/?size=m
 photo.8.author: gloryeui
 photo.8.link: https://www.instagram.com/gloryeui/
+photo.8.tags: mofumofu, tail
 photo.9: https://www.instagram.com/p/Bpomdr5Find/media/?size=m
 photo.9.author: lsdar13
 photo.9.link: https://www.instagram.com/lsdar13/
+photo.9.tags: autumn
 photo.10: https://www.instagram.com/p/Bp1fFS4FWD1/media/?size=m
 photo.10.author: minato.yokohama2130
 photo.10.link: https://www.instagram.com/minato.yokohama2130/
@@ -48,21 +57,27 @@ photo.11.link: https://www.instagram.com/lsdar13/
 photo.12: https://www.instagram.com/p/Bp_UxmSF-wz/media/?size=m
 photo.12.author: l_ma_photos
 photo.12.link: https://www.instagram.com/l_ma_photos/
+photo.12.tags: bear worm, laying down, yawn
 photo.13: https://www.instagram.com/p/BqOxaE1l2lM/media/?size=m
 photo.13.author: mugicha0312
 photo.13.link: https://www.instagram.com/mugicha0312/
+photo.13.tags: laying down
 photo.14: https://www.instagram.com/p/Bql9hyKFD14/media/?size=m
 photo.14.author: makimaru18
 photo.14.link: https://www.instagram.com/makimaru18/
+photo.14.tags: laying down
 photo.15: https://www.instagram.com/p/BqqO-z2FNDv/media/?size=m
 photo.15.author: tomo3700
 photo.15.link: https://www.instagram.com/tomo3700/
+photo.15.tags: autumn, laying down
 photo.16: https://www.instagram.com/p/Bq04j8NgOG7/media/?size=m
 photo.16.author: resapanlove
 photo.16.link: https://www.instagram.com/resapanlove/
+photo.16.tags: autumn
 photo.17: https://www.instagram.com/p/Bq1rPAuFrSN/media/?size=m
 photo.17.author: lsdar13
 photo.17.link: https://www.instagram.com/lsdar13/
+photo.17.tags: autumn
 photo.18: https://www.instagram.com/p/Bq3WaCilE5i/media/?size=m
 photo.18.author: mugicha0312
 photo.18.link: https://www.instagram.com/mugicha0312/
@@ -72,6 +87,7 @@ photo.19.link: https://www.instagram.com/yakko____/
 photo.20: https://www.instagram.com/p/Brv9ofgFhsG/media/?size=m
 photo.20.author: mugicha0312
 photo.20.link: https://www.instagram.com/mugicha0312/
+photo.20.tags: dish, lunch time
 photo.21: https://www.instagram.com/p/Br6EnkqlL23/media/?size=m
 photo.21.author: kijyo.zoo
 photo.21.link: https://www.instagram.com/kijyo.zoo/
