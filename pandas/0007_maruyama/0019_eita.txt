@@ -17,72 +17,90 @@ location.2: 7, 2013/10/28
 photo.1: https://www.instagram.com/p/BTXGOaPDzqc/media/?size=m
 photo.1.author: cattail.sapporo
 photo.1.link: https://www.instagram.com/cattail.sapporo/
+photo.1.tags: profile, snow, tail
 photo.2: https://www.instagram.com/p/BidqHYJF9xb/media/?size=m
 photo.2.author: mari_neko3
 photo.2.link: https://www.instagram.com/mari_neko3/
 photo.3: https://www.instagram.com/p/BkyUOZxAA7Z/media/?size=m
 photo.3.author: liedcham
 photo.3.link: https://www.instagram.com/liedcham/
+photo.3.tags: sleeping
 photo.4: https://www.instagram.com/p/BiLlNORlZb1/media/?size=m
 photo.4.author: mari_neko3
 photo.4.link: https://www.instagram.com/mari_neko3/
+photo.4.tags: smile
 photo.5: https://www.instagram.com/p/Bh-Coa5F5ub/media/?size=m
 photo.5.author: izu_108
 photo.5.link: https://www.instagram.com/izu_108/
+photo.5.tags: bamboo, blink
 photo.6: https://www.instagram.com/p/BnyOv3NlVbh/media/?size=m
 photo.6.author: ichiken67
 photo.6.link: https://www.instagram.com/ichiken67/
+photo.6.tags: tree
 photo.7: https://www.instagram.com/p/Bn3kunAA6EJ/media/?size=m
 photo.7.author: photokaorin
 photo.7.link: https://www.instagram.com/photokaorin/
+photo.7.tags: apple time
 photo.8: https://www.instagram.com/p/BoNZwQ5ANyU/media/?size=m
 photo.8.author: photokaorin
 photo.8.link: https://www.instagram.com/photokaorin/
 photo.9: https://www.instagram.com/p/BoXb9HRnwfZ/media/?size=m
 photo.9.author: cattail.sapporo
 photo.9.link: https://www.instagram.com/cattail.sapporo/
+photo.9.tags: tree
 photo.10: https://www.instagram.com/p/BoeTqBeHi3u/media/?size=m
 photo.10.author: cattail.sapporo
 photo.10.link: https://www.instagram.com/cattail.sapporo/
 photo.11: https://www.instagram.com/p/BpPMCvqF5H_/media/?size=m
 photo.11.author: nakacchi_desu
 photo.11.link: https://www.instagram.com/nakacchi_desu/
+photo.11.tags: laying down
 photo.12: https://www.instagram.com/p/Bp9Uq7pFY9D/media/?size=m
 photo.12.author: nishitocolo
 photo.12.link: https://www.instagram.com/nishicotolo/
+photo.12.tags: tail
 photo.13: https://www.instagram.com/p/BqLMAScnfya/media/?size=m
 photo.13.author: cattail.sapporo
 photo.13.link: https://www.instagram.com/cattail.sapporo/
+photo.13.tags: smile, tongue
 photo.14: https://www.instagram.com/p/BqPRyb4lqTk/media/?size=m
 photo.14.author: nishicotolo
 photo.14.link: https://www.instagram.com/nishicotolo/
 photo.15: https://www.instagram.com/p/BqRogfWllgP/media/?size=m
 photo.15.author: ho0oipo
 photo.15.link: https://www.instagram.com/ho0oipo/
+photo.15.tags: apple time
 photo.16: https://www.instagram.com/p/Bql-WSoF_x8/media/?size=m
 photo.16.author: sina_dw
 photo.16.link: https://www.instagram.com/sina_dw/
 photo.17: https://www.instagram.com/p/BqpHyriF5Vs/media/?size=m
 photo.17.author: fetorus_mami
 photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: snow
 photo.18: https://www.instagram.com/p/BqzD_uxFMQH/media/?size=m
 photo.18.author: redpanda_korea_busan
 photo.18.link: https://www.instagram.com/redpanda_korea_busan/
+photo.18.tags: sleeping
 photo.19: https://www.instagram.com/p/Bq26v59HMGH/media/?size=m
 photo.19.author: cattail.sapporo
 photo.19.link: https://www.instagram.com/cattail.sapporo/
+photo.19.tags: standing
 photo.20: https://www.instagram.com/p/BrNR7Cilrzi/media/?size=m
 photo.20.author: ho0oipo
 photo.20.link: https://www.instagram.com/ho0oipo/
+photo.20.tags: snow
 photo.21: https://www.instagram.com/p/BrV4o-uHFT4/media/?size=m
 photo.21.author: cattail.sapporo
 photo.21.link: https://www.instagram.com/cattail.sapporo/
+photo.21.tags: snow
 photo.22: https://www.instagram.com/p/BrbVOKQl9P0/media/?size=m
 photo.22.author: ho0oipo
 photo.22.link: https://www.instagram.com/ho0oipo/
+photo.22.tags: snow
 photo.23: https://www.instagram.com/p/BrccOZuFqGU/media/?size=m
 photo.23.author: minatomirai215
 photo.23.link: https://www.instagram.com/minatomirai215/
+photo.23.tags: apple time
 photo.24: https://www.instagram.com/p/BrkKxiDlsMh/media/?size=m
 photo.24.author: sina_dw
 photo.24.link: https://www.instagram.com/sina_dw/
@@ -95,20 +113,26 @@ photo.26.link: https://www.instagram.com/mari_neko3/
 photo.27: https://www.instagram.com/p/BrsSoTzlvIW/media/?size=m
 photo.27.author: ho0oipo
 photo.27.link: https://www.instagram.com/ho0oipo/
+photo.27.tags: snow, tail
 photo.28: https://www.instagram.com/p/BrxJEPMFkx7/media/?size=m
 photo.28.author: nishicotolo
 photo.28.link: https://www.instagram.com/nishicotolo/
+photo.28.tags: apple time, snow
 photo.29: https://www.instagram.com/p/Br1fXc0l8I4/media/?size=m
 photo.29.author: framereim
 photo.29.link: https://www.instagram.com/framereim/
+photo.29.tags: snow, standing
 photo.30: https://www.instagram.com/p/Br5LAz3lPOo/media/?size=m
 photo.30.author: ho0oipo
 photo.30.link: https://www.instagram.com/ho0oipo/
+photo.30.tags: snow
 photo.31: https://www.instagram.com/p/Br7siS3lTgS/media/?size=m
 photo.31.author: ho0oipo
 photo.31.link: https://www.instagram.com/ho0oipo/
+photo.31.tags: snow, standing
 photo.32: https://www.instagram.com/p/Br7bBPDnjLD/media/?size=m
 photo.32.author: cattail.sapporo
 photo.32.link: https://www.instagram.com/cattail.sapporo/
+photo.32.tags: bamboo, tongue
 species: 2
 zoo: 7

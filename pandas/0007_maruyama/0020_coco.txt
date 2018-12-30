@@ -26,12 +26,14 @@ photo.3.link: https://www.instagram.com/izu_108/
 photo.4: https://www.instagram.com/p/Blas0RMA0xf/media/?size=m
 photo.4.author: _sealiz
 photo.4.link: https://www.instagram.com/_sealiz/
+photo.4.tags: sleeping
 photo.5: https://www.instagram.com/p/Bbd2uUtnkXb/media/?size=m
 photo.5.author: cattail.sapporo
 photo.5.link: https://www.instagram.com/cattail.sapporo/
 photo.6: https://www.instagram.com/p/BnS3Jytngvc/media/?size=m
 photo.6.author: cattail.sapporo
 photo.6.link: https://www.instagram.com/cattail.sapporo/
+photo.6.tags: laying down
 photo.7: https://www.instagram.com/p/Bn_ImGTFzoZ/media/?size=m
 photo.7.author: ichiken67
 photo.7.link: https://www.instagram.com/ichiken67/
@@ -41,12 +43,14 @@ photo.8.link: https://www.instagram.com/ichiken67/
 photo.9: https://www.instagram.com/p/BoDhHzPgWbw/media/?size=m
 photo.9.author: photokaorin
 photo.9.link: https://www.instagram.com/photokaorin/
+photo.9.tags: smile
 photo.10: https://www.instagram.com/p/BobhJTkFp-r/media/?size=m
 photo.10.author: ichiken67
 photo.10.link: https://www.instagram.com/ichiken67/
 photo.11: https://www.instagram.com/p/BobhWcEFPx_/media/?size=m
 photo.11.author: ichiken67
 photo.11.link: https://www.instagram.com/ichiken67/
+photo.11.tags: tongue
 photo.12: https://www.instagram.com/p/BotXR7UFFan/media/?size=m
 photo.12.author: ichiken67
 photo.12.link: https://www.instagram.com/ichiken67/
@@ -59,6 +63,7 @@ photo.14.link: https://www.instagram.com/ichiken67/
 photo.15: https://www.instagram.com/p/Bo1N7BClvEu/media/?size=m
 photo.15.author: mofu_pan
 photo.15.link: https://www.instagram.com/mofu_pan/
+photo.15.tags: dish, lunch time
 photo.16: https://www.instagram.com/p/BpaykQXFGG1/media/?size=m
 photo.16.author: nakacchi_desu
 photo.16.link: https://www.instagram.com/nakacchi_desu/
@@ -68,15 +73,18 @@ photo.17.link: https://www.instagram.com/nakacchi_desu/
 photo.18: https://www.instagram.com/p/BphFFDVFJr6/media/?size=m
 photo.18.author: ichiken67
 photo.18.link: https://www.instagram.com/ichiken67/
+photo.18.tags: dish, lunch time
 photo.19: https://www.instagram.com/p/BpmHu0HlW6R/media/?size=m
 photo.19.author: ho0oipo
 photo.19.link: https://www.instagram.com/ho0oipo/
+photo.19.tags: autumn
 photo.20: https://www.instagram.com/p/Bp0Ja7QlcJ4/media/?size=m
 photo.20.author: izu_108
 photo.20.link: https://www.instagram.com/izu_108/
 photo.21: https://www.instagram.com/p/Bp1fkxNlQzP/media/?size=m
 photo.21.author: nishicotolo
 photo.21.link: https://www.instagram.com/nishicotolo/
+photo.21.tags: laying down
 photo.22: https://www.instagram.com/p/BqCMm1OFRq8/media/?size=m
 photo.22.author: nishicotolo
 photo.22.link: https://www.instagram.com/nishicotolo/
@@ -89,9 +97,11 @@ photo.24.link: https://www.instagram.com/izu_108/
 photo.25: https://www.instagram.com/p/BqmINv9FvxW/media/?size=m
 photo.25.author: yuka0714_0307
 photo.25.link: https://www.instagram.com/yuka0714_0307/
+photo.25.tags: snow
 photo.26: https://www.instagram.com/p/Bqy2RkflUhA/media/?size=m
 photo.26.author: cabbage_biyori
 photo.26.link: https://www.instagram.com/cabbage_biyori/
+photo.26.tags: autumn
 photo.27: https://www.instagram.com/p/Bq1-Cz8FUIA/media/?size=m
 photo.27.author: mofu_pan
 photo.27.link: https://www.instagram.com/mofu_pan/
@@ -101,6 +111,7 @@ photo.28.link: https://www.instagram.com/izu_108/
 photo.29: https://www.instagram.com/p/Bq6_j_6lU-S/media/?size=m
 photo.29.author: sina_dw
 photo.29.link: https://www.instagram.com/sina_dw/
+photo.29.tags: snow
 photo.30: https://www.instagram.com/p/Bq9kmhSFBcf/media/?size=m
 photo.30.author: craig_craig_craig
 photo.30.link: https://www.instagram.com/craig_craig_craig/
@@ -110,15 +121,19 @@ photo.31.link: https://www.instagram.com/izu_108/
 photo.32: https://www.instagram.com/p/BrXcTx3lyXQ/media/?size=m
 photo.32.author: sina_dw
 photo.32.link: https://www.instagram.com/sina_dw/
+photo.32.tags: snow
 photo.33: https://www.instagram.com/p/BrbUfmbF_M5/media/?size=m
 photo.33.author: leondard_redmof
 photo.33.link: https://www.instagram.com/leonard_redmof/
+photo.33.tags: snow
 photo.34: https://www.instagram.com/p/BrebbGhFd7G/media/?size=m
 photo.34.author: minatomirai215
 photo.34.link: https://www.instagram.com/minatomirai215/
+photo.34.tags: snow, stretching
 photo.35: https://www.instagram.com/p/BrwycFNH1p2/media/?size=m
 photo.35.author: cattail.sapporo
 photo.35.link: https://www.instagram.com/cattail.sapporo/
+photo.35.tags: tongue
 photo.36: https://www.instagram.com/p/Brzu9CmFMv2/media/?size=m
 photo.36.author: ichiken67
 photo.36.link: https://www.instagram.com/ichiken67/
@@ -128,5 +143,6 @@ photo.37.link: https://www.instagram.com/ichiken67/
 photo.38: https://www.instagram.com/p/Brzvq2OlmCA/media/?size=m
 photo.38.author: ichiken67
 photo.38.link: https://www.instagram.com/ichiken67/
+photo.38.tags: snow
 species: 2
 zoo: 7
