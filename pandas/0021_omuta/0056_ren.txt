@@ -17,21 +17,26 @@ location.2: 21, 2010/11/18
 photo.1: https://www.instagram.com/p/BQq-goxArTS/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Bk2zt7Rltvw/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.tags: snow
 photo.3: https://www.instagram.com/p/Bk2eEJcAPDW/media/?size=m
 photo.3.author: sbskyy
 photo.3.link: https://www.instagram.com/sbskyy/
+photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BgvtDsvAL7x/media/?size=m
 photo.4.author: kinkinkin0826
 photo.4.link: https://www.instagram.com/kinkinkin0826/
+photo.4.tags: tongue
 photo.5: https://www.instagram.com/p/BiiJwYPlT1m/media/?size=m
 photo.5.author: yossi929
 photo.5.link: https://www.instagram.com/yossi929/
 photo.6: https://www.instagram.com/p/BoC7bbflQ72/media/?size=m
 photo.6.author: re_ichimaru
 photo.6.link: https://www.instagram.com/re_ichimaru/
+photo.6.tags: tree
 photo.7: https://www.instagram.com/p/Boh4ZtBlxLb/media/?size=m
 photo.7.author: re_ichimaru
 photo.7.link: https://www.instagram.com/re_ichimaru/
@@ -44,9 +49,11 @@ photo.9.link: https://www.instagram.com/xmarurux/
 photo.10: https://www.instagram.com/p/BpBRJ42FLAq/media/?size=m
 photo.10.author: xmarurux
 photo.10.link: https://www.instagram.com/xmarurux/
+photo.10.tags: laying down
 photo.11: https://www.instagram.com/p/BpNrrEgFcg5/media/?size=m
 photo.11.author: _rifa_p
 photo.11.link: https://www.instagram.com/_rifa_p/
+photo.11.tags: tree
 photo.12: https://www.instagram.com/p/BpRnu1tFY9n/media/?size=m
 photo.12.author: yossi929
 photo.12.link: https://www.instagram.com/yossi929/
@@ -56,11 +63,14 @@ photo.13.link: https://www.instagram.com/tokkoo0524/
 photo.14: https://www.instagram.com/p/BqUxW38FNab/media/?size=m
 photo.14.author: tokkoo0524
 photo.14.link: https://www.instagram.com/tokkoo0524/
+photo.14.tags: tree
 photo.15: https://www.instagram.com/p/BrGsh0UH5h_/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
+photo.15.tags: laying down
 photo.16: https://www.instagram.com/p/BrnH5eSF9yG/media/?size=m
 photo.16.author: panda.daisuki
 photo.16.link: https://www.instagram.com/panda.daisuki/
+photo.16.tags: laying down
 species: 2
 zoo: 21

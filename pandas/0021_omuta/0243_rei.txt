@@ -15,42 +15,54 @@ litter: none
 photo.1: https://www.instagram.com/p/BoWUQUElDbr/media/?size=m
 photo.1.author: xmarurux
 photo.1.link: https://www.instagram.com/xmarurux/
+photo.1.tags: baby, grumpy
 photo.2: https://www.instagram.com/p/BojHXCBFr-l/media/?size=m
 photo.2.author: yossi929
 photo.2.link: https://www.instagram.com/yossi929/
+photo.2.tags: baby
 photo.3: https://www.instagram.com/p/Boxfzldlf9r/media/?size=m
 photo.3.author: xmarurux
 photo.3.link: https://www.instagram.com/xmarurux/
+photo.3.tags: baby
 photo.4: https://www.instagram.com/p/Bo6dYmsF2fH/media/?size=m
 photo.4.author: xmarurux
 photo.4.link: https://www.instagram.com/xmarurux/
+photo.4.tags: baby, laying down
 photo.5: https://www.instagram.com/p/Bo6ctXHFgG_/media/?size=m
 photo.5.author: xmarurux
 photo.5.link: https://www.instagram.com/xmarurux/
+photo.5.tags: baby
 photo.6: https://www.instagram.com/p/BpG6Fjpl5g-/media/?size=m
 photo.6.author: xmarurux
 photo.6.link: https://www.instagram.com/xmarurux/
+photo.6.tags: baby
 photo.7: https://www.instagram.com/p/BpZlatel05F/media/?size=m
 photo.7.author: xmarurux
 photo.7.link: https://www.instagram.com/xmarurux/
+photo.7.tags: baby, mofumofu
 photo.8: https://www.instagram.com/p/Bpb3B3jlYew/media/?size=m
 photo.8.author: xmarurux
 photo.8.link: https://www.instagram.com/xmarurux/
 photo.9: https://www.instagram.com/p/Bpma1SrFfEt/media/?size=m
 photo.9.author: xmarurux
 photo.9.link: https://www.instagram.com/xmarurux/
+photo.9.tags: laying down
 photo.10: https://www.instagram.com/p/BpovG_Alqxa/media/?size=m
 photo.10.author: tabechum
 photo.10.link: https://www.instagram.com/tabechum/
+photo.10.tags: keeper
 photo.11: https://www.instagram.com/p/BqTZs-eFQwQ/media/?size=m
 photo.11.author: tabechum
 photo.11.link: https://www.instagram.com/tabechum/
+photo.11.tags: grumpy, profile
 photo.12: https://www.instagram.com/p/BqUt72uFi7P/media/?size=m
 photo.12.author: tokkoo0524
 photo.12.link: https://www.instagram.com/tokkoo0524/
+photo.12.tags: sleeping
 photo.13: https://www.instagram.com/p/Bqh0lBvAd5g/media/?size=m
 photo.13.author: xmarurux
 photo.13.link: https://www.instagram.com/xmarurux/
+photo.13.tags: hammock, pull-ups
 photo.14: https://www.instagram.com/p/Bq4LoetlFRJ/media/?size=m
 photo.14.author: peek_a_boo00
 photo.14.link: https://www.instagram.com/peek_a_boo00/
@@ -60,11 +72,14 @@ photo.15.link: https://www.instagram.com/kipekaila/
 photo.16: https://www.instagram.com/p/Brfbw5dlI5f/media/?size=m
 photo.16.author: ifumoto88
 photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: bamboo
 photo.17: https://www.instagram.com/p/Br2WvE7FnHO/media/?size=m
 photo.17.author: xmarurux
 photo.17.link: https://www.instagram.com/xmarurux/
+photo.17.tags: peek
 photo.18: https://www.instagram.com/p/Br2XR6klbJY/media/?size=m
 photo.18.author: xmarurux
 photo.18.link: https://www.instagram.com/xmarurux/
+photo.18.tags: laying down, upside-down
 species: 2
 zoo: 21
