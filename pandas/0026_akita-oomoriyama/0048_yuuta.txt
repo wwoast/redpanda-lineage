@@ -17,11 +17,14 @@ location.2: 26, 2008/10/18
 photo.1: http://yukawanet.com/wp-content/uploads/imgs/3/9/39742bcf.jpg
 photo.1.author: oomoriyama_zoo
 photo.1.link: http://www.city.akita.akita.jp/city/in/zoo/
+photo.1.tags: snow
 photo.2: https://www.instagram.com/p/Bpxqy2HF0cy/media/?size=m
 photo.2.author: kipekaila
 photo.2.link: https://www.instagram.com/kipekaila/
+photo.2.tags: eye
 photo.3: https://www.instagram.com/p/BqQqbnzFauK/media/?size=m
 photo.3.author: rie_panda55
 photo.3.link: https://www.instagram.com/rie_panda55/
+photo.3.tags: eye, profile
 species: 2
 zoo: 26

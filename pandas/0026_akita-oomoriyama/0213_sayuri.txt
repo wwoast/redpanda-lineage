@@ -15,12 +15,15 @@ litter: 212
 photo.1: https://www.instagram.com/p/Blg9jMcFMER/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: bamboo, profile
 photo.2: https://www.instagram.com/p/BlfK0xPlBK9/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: tongue
 photo.3: https://www.instagram.com/p/BkfSTgdF_iL/media/?size=m
 photo.3.author: mifko55
 photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: sleeping
 photo.4: https://www.instagram.com/p/Bpb4qDoFQGe/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -30,6 +33,7 @@ photo.5.link: https://www.instagram.com/fetorus_mami/
 photo.6: https://www.instagram.com/p/Bp3X2mnFtGz/media/?size=m
 photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: sleeping
 photo.7: https://www.instagram.com/p/BqV03NcljJU/media/?size=m
 photo.7.author: fetorus_mami
 photo.7.link: https://www.instagram.com/fetorus_mami/
