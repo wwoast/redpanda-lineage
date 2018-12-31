@@ -17,27 +17,32 @@ location.2: 17, 2001/2/16
 photo.1: https://www.instagram.com/p/BlKNqr2Fy0P/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: grooming, paws, profile
 photo.2: https://www.instagram.com/p/BjCiqSFFTVV/media/?size=m
 photo.2.author: rdpnzoo
 photo.2.link: https://www.instagram.com/rdpnzoo/
+photo.2.tags: tongue
 photo.3: https://www.instagram.com/p/BlJeNPllb-l/media/?size=m
 photo.3.author: lsdar13
 photo.3.link: https://www.instagram.com/lsdar13/
 photo.4: https://www.instagram.com/p/Bi75F3ilxuO/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
+photo.4.tags: grooming
 photo.5: https://www.instagram.com/p/BjMd0G1l0H9/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
 photo.6: https://www.instagram.com/p/BqD-3lLlgXb/media/?size=m
 photo.6.author: mariten1119
 photo.6.link: https://www.instagram.com/mariten1119/
+photo.6.tags: paws, tongue
 photo.7: https://www.instagram.com/p/BqjGUaMl_4i/media/?size=m
 photo.7.author: wumpwoast
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.8: https://www.instagram.com/p/BrIf56HlhR6/media/?size=m
 photo.8.author: minatomirai215
 photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: grooming, paws
 photo.9: https://www.instagram.com/p/BlK71RTF1eV/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
@@ -47,5 +52,6 @@ photo.10.link: https://www.instagram.com/minatomirai215/
 photo.11: https://www.instagram.com/p/BfA6P71FZYK/media/?size=m
 photo.11.author: hanamaru_redpanda
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
+photo.11.tags: tongue
 species: 2
 zoo: 17

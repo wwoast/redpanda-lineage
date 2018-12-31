@@ -14,42 +14,53 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BnqMaaMFNcB/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: baby, smile
 photo.2: https://www.instagram.com/p/BnlA42LlYgl/media/?size=m
 photo.2.author: redpanda_nippon_takashi
 photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.3: https://www.instagram.com/p/BoHLkoXFKSJ/media/?size=m
 photo.3.author: mofu_pan
 photo.3.link: https://www.instagram.com/mofu_pan/
+photo.3.tags: apple time
 photo.4: https://www.instagram.com/p/Bn0qGZMFuVe/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: peek
 photo.5: https://www.instagram.com/p/BoLGjafF75i/media/?size=m
 photo.5.author: ck.chie
 photo.5.link: https://www.instagram.com/ck.chie/
 photo.6: https://www.instagram.com/p/BoKvv3SlO3_/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: smile
 photo.7: https://www.instagram.com/p/BoaHDzdF5T0/media/?size=m
 photo.7.author: kotata_513
 photo.7.link: https://www.instagram.com/kotata_513/
+photo.7.tags: smile
 photo.8: https://www.instagram.com/p/BoxOdm7ltgE/media/?size=m
 photo.8.author: craig_craig_craig
 photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: grooming
 photo.9: https://www.instagram.com/p/Bo3gI7OFKEL/media/?size=m
 photo.9.author: na.mo.pan
 photo.9.link: https://www.instagram.com/na.mo.pan/
+photo.9.tags: hammock, upside-down
 photo.10: https://www.instagram.com/p/Bo6GRRglwvO/media/?size=m
 photo.10.author: mofu_pan
 photo.10.link: https://www.instagram.com/mofu_pan/
+photo.10.tags: hammock
 photo.11: https://www.instagram.com/p/BpBPih7Blkz/media/?size=m
 photo.11.author: respanlove
 photo.11.link: https://www.instagram.com/resapanlove/
+photo.11.tags: hammock, smile
 photo.12: https://www.instagram.com/p/BpOD4tmls_q/media/?size=m
 photo.12.author: ck.chie
 photo.12.link: https://www.instagram.com/ck.chie/
+photo.12.tags: air tasting, tongue
 photo.13: https://www.instagram.com/p/BpWpa0xlc4b/media/?size=m
 photo.13.author: miis_98
 photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: smile
 photo.14: https://www.instagram.com/p/BpwD0EvF4A8/media/?size=m
 photo.14.author: roko_mm
 photo.14.link: https://www.instagram.com/roko_mm/
@@ -59,24 +70,30 @@ photo.15.link: https://www.instagram.com/cabbage_biyori/
 photo.16: https://www.instagram.com/p/BqMQusPF4-H/media/?size=m
 photo.16.author: ck.chie
 photo.16.link: https://www.instagram.com/ck.chie/
+photo.16.tags: tongue
 photo.17: https://www.instagram.com/p/BqNA8niFkZn/media/?size=m
 photo.17.author: hiro107ig_zoo
 photo.17.link: https://www.instagram.com/hiro107ig_zoo/
+photo.17.tags: smile
 photo.18: https://www.instagram.com/p/BqXX9ANlJQk/media/?size=m
 photo.18.author: hiro107ig_zoo
 photo.18.link: https://www.instagram.com/hiro107ig_zoo/
+photo.18.tags: tree
 photo.19: https://www.instagram.com/p/BqZZvv7lFZf/media/?size=m
 photo.19.author: mofu_pan
 photo.19.link: https://www.instagram.com/mofu_pan/
 photo.20: https://www.instagram.com/p/BqcMSoQloTD/media/?size=m
 photo.20.author: mofu_pan
 photo.20.link: https://www.instagram.com/mofu_pan/
+photo.20.tags: tail
 photo.21: https://www.instagram.com/p/BqkKBK8lpXM/media/?size=m
 photo.21.author: mofu_pan
 photo.21.link: https://www.instagram.com/mofu_pan/
+photo.21.tags: profile, smile
 photo.22: https://www.instagram.com/p/BqkAdcyFwBM/media/?size=m
 photo.22.author: kinkinkin0826
 photo.22.link: https://www.instagram.com/kinkinkin0826/
+photo.22.tags: tree
 photo.23: https://www.instagram.com/p/Bqq07XDFxFT/media/?size=m
 photo.23.author: cabbage_biyori
 photo.23.link: https://www.instagram.com/cabbage_biyori/
@@ -89,17 +106,22 @@ photo.25.link: https://www.instagram.com/cabbage_biyori/
 photo.26: https://www.instagram.com/p/Brl-FMMlYay/media/?size=m
 photo.26.author: ck.chie
 photo.26.link: https://www.instagram.com/ck.chie/
+photo.26.tags: tail
 photo.27: https://www.instagram.com/p/Brtb8J0lsAM/media/?size=m
 photo.27.author: monmon_redpanda
 photo.27.link: https://www.instagram.com/monmon_redpanda/
+photo.27.tags: smile
 photo.28: https://www.instagram.com/p/Bq7QPc5FsWf/media/?size=m
 photo.28.author: _natsu_panda_
 photo.28.link: https://www.instagram.com/_natsu_panda_/
+photo.28.tags: smile
 photo.29: https://www.instagram.com/p/Brz77_NlO__/media/?size=m
 photo.29.author: mofu_pan
 photo.29.link: https://www.instagram.com/mofu_pan/
+photo.29.tags: paws
 photo.30: https://www.instagram.com/p/Br5EpNDlybe/media/?size=m
 photo.30.author: akaikumaneko
 photo.30.link: https://www.instagram.com/akaikumaneko/
+photo.30.tags: tail, tree
 species: 2
 zoo: 17
