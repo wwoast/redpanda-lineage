@@ -17,33 +17,40 @@ location.2: 28, 2009/4/8
 photo.1: https://www.instagram.com/p/BiBwfX-FcDy/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: bamboo, profile, tongue
 photo.2: https://www.instagram.com/p/BhY_e5nBpxe/media/?size=m
 photo.2.author: roko_mm
 photo.2.link: https://www.instagram.com/roko_mm/
 photo.3: https://www.instagram.com/p/Bi260EClvOw/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
+photo.3.tags: tail
 photo.4: https://www.instagram.com/p/BiaoeS0lvvG/media/?size=m
 photo.4.author: _rifa_p
 photo.4.link: https://www.instagram.com/_rifa_p/
+photo.4.tags: tree
 photo.5: https://www.instagram.com/p/BkxTIuGFb29/media/?size=m
 photo.5.author: lsdar13
 photo.5.link: https://www.instagram.com/lsdar13/
+photo.5.tags: sleeping, techitechi
 photo.6: https://www.instagram.com/p/BndrSCdl0f1/media/?size=m
 photo.6.author: lsdar13
 photo.6.link: https://www.instagram.com/lsdar13/
 photo.7: https://www.instagram.com/p/BnhltkzAHmC/media/?size=m
 photo.7.author: s.okano521
 photo.7.link: https://www.instagram.com/s.okano521/
+photo.7.tags: smile, tongue
 photo.8: https://www.instagram.com/p/BplZMgdlXCJ/media/?size=m
 photo.8.author: minatomirai215
 photo.8.link: https://www.instagram.com/minatomirai215/
 photo.9: https://www.instagram.com/p/Ba4-OVNhhCq/media/?size=m
 photo.9.author: tabechum
 photo.9.link: https://www.instagram.com/tabechum/
+photo.9.tags: ear
 photo.10: https://www.instagram.com/p/Bq9ZW8AnWzE/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
+photo.10.tags: bamboo
 photo.11: https://www.instagram.com/p/BrDnChgF4BZ/media/?size=m
 photo.11.author: minatomirai215
 photo.11.link: https://www.instagram.com/minatomirai215/
@@ -53,5 +60,6 @@ photo.12.link: https://www.instagram.com/minatomirai215/
 photo.13: https://www.instagram.com/p/BrXPJjOlD0H/media/?size=m
 photo.13.author: nishicotolo
 photo.13.link: https://www.instagram.com/nishicotolo/
+photo.13.tags: laying down, tree
 species: 2
 zoo: 28
