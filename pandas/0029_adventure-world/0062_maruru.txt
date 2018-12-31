@@ -15,18 +15,23 @@ litter: 65
 photo.1: https://www.instagram.com/p/BjZWN1qleyV/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: apple time
 photo.2: https://www.instagram.com/p/BixukkuhpSu/media/?size=m
 photo.2.author: resapanlove
 photo.2.link: https://www.instagram.com/resapanlove/
+photo.2.tags: profile, tree
 photo.3: https://www.instagram.com/p/BjrWGnKluRi/media/?size=m
 photo.3.author: framereim
 photo.3.link: https://www.instagram.com/framereim/
+photo.3.tags: lunch time
 photo.4: https://www.instagram.com/p/BjI3GlCBpV2/media/?size=m
 photo.4.author: resapanlove
 photo.4.link: https://www.instagram.com/resapanlove/
+photo.4.tags: home, standing, tail
 photo.5: https://www.instagram.com/p/BjM8wdgF_qm/media/?size=m
 photo.5.author: nakacchi_desu
 photo.5.link: https://www.instagram.com/nakacchi_desu/
+photo.5.tags: tree
 photo.6: https://www.instagram.com/p/BpE28QYlV3p/media/?size=m
 photo.6.author: mifko55
 photo.6.link: https://www.instagram.com/mifko55/
@@ -36,11 +41,14 @@ photo.7.link: https://www.instagram.com/wumpwoast/
 photo.8: https://www.instagram.com/p/BqUqNxJlYL9/media/?size=m
 photo.8.author: monmon_redpanda
 photo.8.link: https://www.instagram.com/monmon_redpanda/
+photo.8.tags: techitechi, tree
 photo.9: https://www.instagram.com/p/BqmmsQ5nCLR/media/?size=m
 photo.9.author: yakko____
 photo.9.link: https://www.instagram.com/yakko____/
+photo.9.tags: bamboo, smile
 photo.10: https://www.instagram.com/p/BreXj7pF4BN/media/?size=m
 photo.10.author: kipekaila
 photo.10.link: https://www.instagram.com/kipekaila/
+photo.10.tags: apple time
 species: 2
 zoo: 29
