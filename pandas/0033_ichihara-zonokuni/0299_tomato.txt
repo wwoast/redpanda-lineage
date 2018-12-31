@@ -16,6 +16,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BVgsl1uD6LM/media/?size=m
 photo.1.author: s.okano521
 photo.1.link: https://www.instagram.com/s.okano521/
+photo.1.tags: grooming, profile
 photo.2: https://www.instagram.com/p/BaQdfiUBrGv/media/?size=m
 photo.2.author: tabechum
 photo.2.link: https://www.instagram.com/tabechum/
@@ -25,5 +26,6 @@ photo.3.link: https://www.instagram.com/tabechum/
 photo.4: https://www.instagram.com/p/BYS7JeGFHDA/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: laying down
 species: 2
 zoo: 33
