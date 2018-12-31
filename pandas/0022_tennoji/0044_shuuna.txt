@@ -16,33 +16,42 @@ location.2: 22, 2007/4/2
 photo.1: https://www.instagram.com/p/Bi1hWmJFJgR/media/?size=m
 photo.1.author: makimaru18
 photo.1.link: https://www.instagram.com/makimaru18/
+photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BlVbYfylYIo/media/?size=m
 photo.2.author: taketake_aniphoto
 photo.2.link: https://www.instagram.com/taketake_aniphoto/
+photo.2.tags: apple time, standing
 photo.3: https://www.instagram.com/p/Bc72HnsA0fg/media/?size=m
 photo.3.author: bubbles_octi
 photo.3.link: https://www.instagram.com/bubbles_octi/
+photo.3.tags: grumpy
 photo.4: https://www.instagram.com/p/Ba8hLURgBzr/media/?size=m
 photo.4.author: bubbles_octi
 photo.4.link: https://www.instagram.com/bubbles_octi/
+photo.4.tags: tree
 photo.5: https://www.instagram.com/p/BoHV4h3F_rO/media/?size=m
 photo.5.author: bubbles_octi
 photo.5.link: https://www.instagram.com/bubbles_octi/
+photo.5.tags: standing
 photo.6: https://www.instagram.com/p/BoY5VQxFbyM/media/?size=m
 photo.6.author: makimaru18
 photo.6.link: https://www.instagram.com/makimaru18/
+photo.6.tags: bamboo
 photo.7: https://www.instagram.com/p/Boty7iHlaLa/media/?size=m
 photo.7.author: yossi929
 photo.7.link: https://www.instagram.com/yossi929/
 photo.8: https://www.instagram.com/p/BpIbbpLlXIY/media/?size=m
 photo.8.author: kisshan324
 photo.8.link: https://www.instagram.com/kisshan324/
+photo.8.tags: apple time, standing
 photo.9: https://www.instagram.com/p/BpJS6BHlJtH/media/?size=m
 photo.9.author: kotata_513
 photo.9.link: https://www.instagram.com/kotata_513/
+photo.9.tags: bamboo, profile
 photo.10: https://www.instagram.com/p/BpxzRGHl7CN/media/?size=m
 photo.10.author: pantasanzoo
 photo.10.link: https://www.instagram.com/pantasanzoo/
+photo.10.tags: apple time
 photo.11: https://www.instagram.com/p/Bp5T8mYFpgW/media/?size=m
 photo.11.author: wumpwoast
 photo.11.link: https://www.instagram.com/wumpwoast/
@@ -52,9 +61,11 @@ photo.12.link: https://www.instagram.com/pantasanzoo/
 photo.13: https://www.instagram.com/p/BrP2BDkFv9Y/media/?size=m
 photo.13.author: sakikukeco
 photo.13.link: https://www.instagram.com/sakikukeco/
+photo.13.tags: itchy
 photo.14: https://www.instagram.com/p/BrfRq_xFT7o/media/?size=m
 photo.14.author: bubbles_octi
 photo.14.link: https://www.instagram.com/bubbles_octi/
+photo.14.tags: standing
 species: 2
 video.1: https://youtu.be/M2EoG5r8Kuo
 video.1.author: okoanMEW0504
