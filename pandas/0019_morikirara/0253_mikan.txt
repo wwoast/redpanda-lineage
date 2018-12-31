@@ -17,6 +17,7 @@ location.2: 19, 2013/2/13
 photo.1: https://www.instagram.com/p/Bcb-iTlF6CN/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Bo9Wy1bFBD-/media/?size=m
 photo.2.author: nakacchi_desu
 photo.2.link: https://www.instagram.com/nakacchi_desu/
@@ -26,11 +27,14 @@ photo.3.link: https://www.instagram.com/yossi929/
 photo.4: https://www.instagram.com/p/BpvLIeLF2HP/media/?size=m
 photo.4.author: yossi929
 photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: apple time, keeper
 photo.5: https://www.instagram.com/p/BraWeIhlsfF/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: apple time, tongue
 photo.6: https://www.instagram.com/p/Brgh1PRlokD/media/?size=m
 photo.6.author: panda.daisuki
 photo.6.link: https://www.instagram.com/panda.daisuki/
+photo.6.tags: keeper
 species: 2
 zoo: 19
