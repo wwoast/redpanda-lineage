@@ -17,47 +17,55 @@ location.2: 17, 2011/4/26
 photo.1: https://www.instagram.com/p/BjE53LqFapp/media/?size=m
 photo.1.author: mariten1119
 photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BjHU-uiF2Qy/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: tongue
 photo.3: https://www.instagram.com/p/BkH6nCql1dy/media/?size=m
 photo.3.author: daniele.tokyo
 photo.3.link: https://www.instagram.com/daniele.tokyo/
+photo.3.tags: mofumofu, tail, snow
 photo.4: https://www.instagram.com/p/BcY1fYFAmHi/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
 photo.5: https://www.instagram.com/p/BkETlZ1lOTt/media/?size=m
 photo.5.author: kotata_513
 photo.5.link: https://www.instagram.com/kotata_513/
+photo.5.tags: tongue
 photo.6: https://www.instagram.com/p/Bop9Wq4Fudm/media/?size=m
 photo.6.author: kotata_513
 photo.6.link: https://www.instagram.com/kotata_513/
 photo.7: https://www.instagram.com/p/Bpdkt0eFYyo/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: tongue
 photo.8: https://www.instagram.com/p/Bpv3hWXlfv8/media/?size=m
 photo.8.author: mofu_pan
 photo.8.link: https://www.instagram.com/mofu_pan/
+photo.8.tags: mofumofu, tail
 photo.9: https://www.instagram.com/p/Bp1TyQalYdN/media/?size=m
 photo.9.author: cabbage_biyori
 photo.9.link: https://www.instagram.com/cabbage_biyori/
+photo.9.tags: mofumofu, tail
 photo.10: https://www.instagram.com/p/Bp11DGzl-mm/media/?size=m
 photo.10.author: mofu_pan
 photo.10.link: https://www.instagram.com/mofu_pan/
+photo.10.tags: laying down, mofumofu, tail
 photo.11: https://www.instagram.com/p/Bp7Xyxel1q9/media/?size=m
 photo.11.author: hiro107ig_zoo
 photo.11.link: https://www.instagram.com/hiro107ig_zoo/
 photo.12: https://www.instagram.com/p/BqMlQFdlEYt/media/?size=m
 photo.12.author: hiro107ig_zoo
 photo.12.link: https://www.instagram.com/hiro107ig_zoo/
-photo.13: https://www.instagram.com/p/Bq_QTk9lYVq/media/?size=m
-photo.13.author: cabbage_biyori
-photo.13.link: https://www.instagram.com/cabbage_biyori/
-photo.14: https://www.instagram.com/p/BrzklXvFsQx/media/?size=m
-photo.14.author: kipekaila
-photo.14.link: https://www.instagram.com/kipekaila/
-photo.15: https://www.instagram.com/p/Br7nLSlllnO/media/?size=m
-photo.15.author: akaikumaneko
-photo.15.link: https://www.instagram.com/akaikumaneko/
+photo.12.tags: paws, standing
+photo.13: https://www.instagram.com/p/BrzklXvFsQx/media/?size=m
+photo.13.author: kipekaila
+photo.13.link: https://www.instagram.com/kipekaila/
+photo.13.tags: upside-down
+photo.14: https://www.instagram.com/p/Br7nLSlllnO/media/?size=m
+photo.14.author: akaikumaneko
+photo.14.link: https://www.instagram.com/akaikumaneko/
+photo.14.tags: sleeping, tail
 species: 2
 zoo: 17
