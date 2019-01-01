@@ -15,6 +15,7 @@ litter: 225
 photo.1: https://www.instagram.com/p/BoTYFczFKC9/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: home, smile
 photo.2: https://www.instagram.com/p/BpUHqDzFcmL/media/?size=m
 photo.2.author: nishicotolo
 photo.2.link: https://www.instagram.com/nishicotolo/
@@ -24,41 +25,54 @@ photo.3.link: https://www.instagram.com/shiro_chu7216/
 photo.4: https://www.instagram.com/p/BpfbnB1lNn0/media/?size=m
 photo.4.author: yokohama0907
 photo.4.link: https://www.instagram.com/yokohama0907/
+photo.4.tags: bamboo, standing
 photo.5: https://www.instagram.com/p/BVzlZXrAUXg/media/?size=m
 photo.5.author: framereim
 photo.5.link: https://www.instagram.com/framereim/
+photo.5.tags: bridge, techitechi
 photo.6: https://www.instagram.com/p/BOXMzlvgWGt/media/?size=m
 photo.6.author: nakacchi_desu
 photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: baby, bridge, tongue
 photo.7: https://www.instagram.com/p/Bb1YmWgla_U/media/?size=m
 photo.7.author: fetorus_mami
 photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: bamboo, profile, smile
 photo.8: https://www.instagram.com/p/Bji0pyHFwkj/media/?size=m
 photo.8.author: leonard_redmof
 photo.8.link: https://www.instagram.com/leonard_redmof/
+photo.8.tags: destruction, grumpy, techitechi
 photo.9: https://www.instagram.com/p/BqKcKnaFUnz/media/?size=m
 photo.9.author: shiro_chu7216
 photo.9.link: https://www.instagram.com/shiro_chu7216/
+photo.9.tags: bamboo
 photo.10: https://www.instagram.com/p/BcXXrG0lG3U/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: wet
 photo.11: https://www.instagram.com/p/BOOfJ4-DlhM/media/?size=m
 photo.11.author: monmon_redpanda
 photo.11.link: https://www.instagram.com/monmon_redpanda/
+photo.11.tags: baby, grumpy, techitechi
 photo.12: https://www.instagram.com/p/Bqv7fRLlrPI/media/?size=m
 photo.12.author: yuka0714_0307
 photo.12.link: https://www.instagram.com/yuka0714_0307/
+photo.12.tags: bamboo, snow, techitechi
 photo.13: https://www.instagram.com/p/BqyIj2PljFq/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: itchy, mofumofu, tail
 photo.14: https://www.instagram.com/p/Bq56t5xlMnO/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
+photo.14.tags: mofumofu, tail
 photo.15: https://www.instagram.com/p/Bq56failrua/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
+photo.15.tags: bamboo
 photo.16: https://www.instagram.com/p/Bb3-ZDmFqdO/media/?size=m
 photo.16.author: hanamaru_redpanda
 photo.16.link: https://www.instagram.com/hanamaru_redpanda/
+photo.16.tags: standing
 species: 2
 zoo: 37
