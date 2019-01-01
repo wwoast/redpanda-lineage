@@ -15,24 +15,30 @@ litter: 234
 photo.1: https://www.instagram.com/p/Bll9kT7lEUE/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: blink, bridge, profile
 photo.2: https://www.instagram.com/p/BlpnnT4lLoA/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: laying down, tail, tree
 photo.3: https://www.instagram.com/p/BoOO0YQhN9t/media/?size=m
 photo.3.author: miis_98
 photo.3.link: https://www.instagram.com/miis_98/
 photo.4: https://www.instagram.com/p/BpJmsbbF1uu/media/?size=m
 photo.4.author: nishicotolo
 photo.4.link: https://www.instagram.com/nishicotolo/
+photo.4.tags: paws
 photo.5: https://www.instagram.com/p/BpjFR1ll-d8/media/?size=m
 photo.5.author: wumpwoast
 photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: bamboo, tail
 photo.6: https://www.instagram.com/p/BrIBbHeF0-z/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: bamboo
 photo.7: https://www.instagram.com/p/BbyxsBvlak7/media/?size=m
 photo.7.author: hanamaru_redpanda
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.7.tags: baby
 species: 2
 video.1: https://youtu.be/T0UIB96RKQI
 video.1.author: harry
