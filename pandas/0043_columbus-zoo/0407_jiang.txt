@@ -21,5 +21,6 @@ location.6: 43, 2016/6/29
 photo.1: https://www.instagram.com/p/BnB-9cijn9r/media/?size=m
 photo.1.author: columbus_zoo
 photo.1.link: https://www.instagram.com/columbus_zoo/
+photo.1.tags: profile
 species: 2
 zoo: 43
