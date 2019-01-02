@@ -17,18 +17,23 @@ location.2: 45, 2017/3/22
 photo.1: https://www.instagram.com/p/BlPfsYVFbO7/media/?size=m
 photo.1.author: godosei
 photo.1.link: https://www.instagram.com/godosei/
+photo.1.tags: home, profile, smile, tongue
 photo.2: https://www.instagram.com/p/BeSyxDgBe6x/media/?size=m
 photo.2.author: godosei
 photo.2.link: https://www.instagram.com/godosei/
+photo.2.tags: snow, tree
 photo.3: https://www.instagram.com/p/BhlutnBFED-/media/?size=m
 photo.3.author: take_421
 photo.3.link: https://www.instagram.com/take_421/
+photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BkHYNTslQwO/media/?size=m
 photo.4.author: godosei
 photo.4.link: https://www.instagram.com/godosei/
+photo.4.tags: home
 photo.5: https://www.instagram.com/p/BecwPW5BtFm/media/?size=m
 photo.5.author: godosei
 photo.5.link: https://www.instagram.com/godosei/
+photo.5.tags: bridge, snow
 photo.6: https://www.instagram.com/p/BSvp8zogb4h/media/?size=m
 photo.6.author: minatomirai215
 photo.6.link: https://www.instagram.com/minatomirai215/
@@ -38,27 +43,34 @@ photo.7.link: https://www.instagram.com/godosei/
 photo.8: https://www.instagram.com/p/BnxU-RXlheH/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
+photo.8.tags: smile, tongue
 photo.9: https://www.instagram.com/p/Bnxk9p_FtnG/media/?size=m
 photo.9.author: ifumoto88
 photo.9.link: https://www.instagram.com/ifumoto88/
 photo.10: https://www.instagram.com/p/BoF7jE6FDSD/media/?size=m
 photo.10.author: panda.daisuki
 photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.10.tags: laying down, home, smile
 photo.11: https://www.instagram.com/p/Bn0xFeAFGv1/media/?size=m
 photo.11.author: perie1027vivi
 photo.11.link: https://www.instagram.com/perie1027vivi/
+photo.11.tags: smile
 photo.12: https://www.instagram.com/p/BojNJnSldkB/media/?size=m
 photo.12.author: minatomirai215
 photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: bridge
 photo.13: https://www.instagram.com/p/BhX0en0ggga/media/?size=m
 photo.13.author: s.okano521
 photo.13.link: https://www.instagram.com/s.okano521/
+photo.13.tags: paws, techitechi
 photo.14: https://www.instagram.com/p/BpDYSP6FWts/media/?size=m
 photo.14.author: _rifa_p
 photo.14.link: https://www.instagram.com/_rifa_p/
+photo.14.tags: home, laying down
 photo.15: https://www.instagram.com/p/BpZTfPjFZ8a/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
+photo.15.tags: home
 photo.16: https://www.instagram.com/p/BpZTuvylgbY/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
@@ -71,11 +83,14 @@ photo.18.link: https://www.instagram.com/clam_chowder725/
 photo.19: https://www.instagram.com/p/BqaHk8bF93-/media/?size=m
 photo.19.author: take_421
 photo.19.link: https://www.instagram.com/take_421/
+photo.19.tags: bridge, smile
 photo.20: https://www.instagram.com/p/BqijziqlXpj/media/?size=m
 photo.20.author: rie_panda55
 photo.20.link: https://www.instagram.com/rie_panda55/
+photo.20.tags: standing
 photo.21: https://www.instagram.com/p/BqvjYVAFX2e/media/?size=m
 photo.21.author: _rifa_p
 photo.21.link: https://www.instagram.com/_rifa_p/
+photo.21.tags: home, laying down
 species: 2
 zoo: 45
