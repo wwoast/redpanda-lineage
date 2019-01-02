@@ -15,29 +15,37 @@ litter: 178
 photo.1: https://www.instagram.com/p/BmjuPeqlKcS/media/?size=m
 photo.1.author: _rifa_p
 photo.1.link: https://www.instagram.com/_rifa_p/
+photo.1.tags: tree
 photo.2: https://www.instagram.com/p/BmCKt90Fxl2/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: profile, smile
 photo.3: https://www.instagram.com/p/BkJzqAilFap/media/?size=m
 photo.3.author: yuka0714_0307
 photo.3.link: https://www.instagram.com/yuka0714_0307/
+photo.3.tags: bamboo
 photo.4: https://www.instagram.com/p/BjdgFYjFJw6/media/?size=m
 photo.4.author: yossi929
 photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: laying down, paws, smile
 photo.5: https://www.instagram.com/p/BiShgojlnZw/media/?size=m
 photo.5.author: yuka0714_0307
 photo.5.link: https://www.instagram.com/yuka0714_0307/
+photo.5.tags: bamboo
 photo.6: https://www.instagram.com/p/BioYMMlFgNN/media/?size=m
 photo.6.author: re_ichimaru
 photo.6.link: https://www.instagram.com/re_ichimaru/
+photo.6.tags: bear worm
 photo.7: https://www.instagram.com/p/Bo_5ZgLFUI5/media/?size=m
 photo.7.author: yuka0714_0307
 photo.7.link: https://www.instagram.com/yuka0714_0307/
 photo.8: https://www.instagram.com/p/Bqlm7deHqhk/media/?size=m
 photo.8.author: yakko____
 photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: smile
 photo.9: https://www.instagram.com/p/BcCOGs0Fpe3/media/?size=m
 photo.9.author: hanamaru_redpanda
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
+photo.9.tags: baby
 species: 2
 zoo: 42

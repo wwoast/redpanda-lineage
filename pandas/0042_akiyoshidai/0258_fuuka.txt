@@ -15,11 +15,14 @@ litter: 257
 photo.1: https://www.instagram.com/p/BY3TUMEBwr1/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: bamboo, profile
 photo.2: https://www.instagram.com/p/Bp_Gr_mlyuT/media/?size=m
 photo.2.author: yuka0714_0307
 photo.2.link: https://www.instagram.com/yuka0714_0307/
+photo.2.tags: flowers
 photo.3: https://www.instagram.com/p/BRjnn4lA1x0/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: smile
 species: 2
 zoo: 42
