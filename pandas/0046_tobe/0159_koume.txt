@@ -17,6 +17,7 @@ location.2: 46, 2016/2/29
 photo.1: https://www.instagram.com/p/BityXSil6t3/media/?size=m
 photo.1.author: nakacchi_desu
 photo.1.link: https://www.instagram.com/nakacchi_desu/
+photo.1.tags: bamboo, profile, tongue
 photo.2: https://www.instagram.com/p/Bk2q8E_lZT7/media/?size=m
 photo.2.author: yuka0714_0307
 photo.2.link: https://www.instagram.com/yuka0714_0307/
@@ -26,14 +27,18 @@ photo.3.link: https://www.instagram.com/makimaru18/
 photo.4: https://www.instagram.com/p/BqCw2oUFgpN/media/?size=m
 photo.4.author: yuka0714_0307
 photo.4.link: https://www.instagram.com/yuka0714_0307/
+photo.4.tags: carry
 photo.5: https://www.instagram.com/p/BrSjQxvFeos/media/?size=m
 photo.5.author: itsuak
 photo.5.link: https://www.instagram.com/itsuak/
+photo.5.tags: bamboo
 photo.6: https://www.instagram.com/p/Brh7sSoldmZ/media/?size=m
 photo.6.author: itsuak
 photo.6.link: https://www.instagram.com/itsuak/
+photo.6.tags: flowers
 photo.7: https://www.instagram.com/p/BsApYb2lDRd/media/?size=m
 photo.7.author: itsuak
 photo.7.link: https://www.instagram.com/itsuak/
+photo.7.tags: bamboo, smile
 species: 2
 zoo: 46
