@@ -21,8 +21,10 @@ location.5: 65, 2007/10/24
 photo.1: https://www.instagram.com/p/BIf8tMzjI0O/media/?size=m
 photo.1.author: degersm
 photo.1.link: https://www.instagram.com/degersm/
+photo.1.tags: tongue
 photo.2: https://www.instagram.com/p/BAiE73uNx1J/media/?size=m
 photo.2.author: ericatlady
 photo.2.link: https://www.instagram.com/ericatlady/
+photo.2.tags: home, profile
 species: 2
 zoo: 65
