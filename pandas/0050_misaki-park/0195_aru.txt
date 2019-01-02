@@ -17,36 +17,46 @@ location.2: 50, 2015/12/1
 photo.1: https://www.instagram.com/p/BjDz5OdFlHL/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: paws, standing
 photo.2: https://www.instagram.com/p/Bj6JWSzlw4b/media/?size=m
 photo.2.author: framereim
 photo.2.link: https://www.instagram.com/framereim/
+photo.2.tags: smile
 photo.3: https://www.instagram.com/p/BldHdZOFYY8/media/?size=m
 photo.3.author: framereim
 photo.3.link: https://www.instagram.com/framereim/
+photo.3.tags: itchy, paws
 photo.4: https://www.instagram.com/p/Bk6YWXglhvq/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
+photo.4.tags: apple time, bamboo
 photo.5: https://www.instagram.com/p/Bkunc6rF3QE/media/?size=m
 photo.5.author: framereim
 photo.5.link: https://www.instagram.com/framereim/
+photo.5.tags: bear worm
 photo.6: https://www.instagram.com/p/BoVBjpiFq_H/media/?size=m
 photo.6.author: framereim
 photo.6.link: https://www.instagram.com/framereim/
+photo.6.tags: bear worm, smile
 photo.7: https://www.instagram.com/p/BoYiXTulLyX/media/?size=m
 photo.7.author: yossi929
 photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: smile
 photo.8: https://www.instagram.com/p/BoiWx7ilIvq/media/?size=m
 photo.8.author: makimaru18
 photo.8.link: https://www.instagram.com/makimaru18/
+photo.8.tags: apple time, keeper
 photo.9: https://www.instagram.com/p/BotWbcYldiM/media/?size=m
 photo.9.author: framereim
 photo.9.link: https://www.instagram.com/framereim/
+photo.9.tags: keeper, standing
 photo.10: https://www.instagram.com/p/BpZUrGzlBrt/media/?size=m
 photo.10.author: kinkinkin0826
 photo.10.link: https://www.instagram.com/kinkinkin0826/
 photo.11: https://www.instagram.com/p/BphQrIOFg2U/media/?size=m
 photo.11.author: nakacchi_desu
 photo.11.link: https://www.instagram.com/nakacchi_desu/
+photo.11.tags: pumpkin
 photo.12: https://www.instagram.com/p/BqAJXYqF1f9/media/?size=m
 photo.12.author: makimaru18
 photo.12.link: https://www.instagram.com/makimaru18/
@@ -59,14 +69,18 @@ photo.14.link: https://www.instagram.com/dmover_a/
 photo.15: https://www.instagram.com/p/BqoOIiNFh3k/media/?size=m
 photo.15.author: framereim
 photo.15.link: https://www.instagram.com/framereim/
+photo.15.tags: standing
 photo.16: https://www.instagram.com/p/BrSpyDPlLDJ/media/?size=m
 photo.16.author: makimaru18
 photo.16.link: https://www.instagram.com/makimaru18/
+photo.16.tags: tongue
 photo.17: https://www.instagram.com/p/Brq7FD1FTjQ/media/?size=m
 photo.17.author: redpanda_nippon_takashi
 photo.17.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.17.tags: profile
 photo.18: https://www.instagram.com/p/Br9KHdFFejF/media/?size=m
 photo.18.author: makimaru18
 photo.18.link: https://www.instagram.com/makimaru18/
+photo.18.tags: standing
 species: 2
 zoo: 50
