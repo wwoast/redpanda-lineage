@@ -20,8 +20,10 @@ photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.2: https://www.instagram.com/p/BR0FDo5jv2z/media/?size=m
 photo.2.author: huku.mum
 photo.2.link: https://www.instagram.com/huku.mum/
+photo.2.tags: lunch time
 photo.3: https://www.instagram.com/p/BboitFJHvf6/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: bamboo, profile, smile
 species: 2
 zoo: 64
