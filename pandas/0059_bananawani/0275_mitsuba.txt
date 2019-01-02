@@ -15,9 +15,11 @@ litter: 276
 photo.1: https://www.instagram.com/p/BjrEHiElaqu/media/?size=m
 photo.1.author: craig_craig_craig
 photo.1.link: https://www.instagram.com/craig_craig_craig/
+photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/BlDA-7PFiSj/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: grooming, tail, tree
 photo.3: https://www.instagram.com/p/BkbIqRaFSa-/media/?size=m
 photo.3.author: craig_craig_craig
 photo.3.link: https://www.instagram.com/p/BkbIqRaFSa-/media/?size=m
@@ -27,17 +29,22 @@ photo.4.link: https://www.instagram.com/hanamaru_redpanda/
 photo.5: https://www.instagram.com/p/BPbU624jO6u/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: baby, bamboo
 photo.6: https://www.instagram.com/p/BRj_Lpyl1CN/media/?size=m
 photo.6.author: cicapeshi
 photo.6.link: https://www.instagram.com/cicapeshi/
+photo.6.tags: baby, bamboo
 photo.7: https://www.instagram.com/p/BirnkivFt_5/media/?size=m
 photo.7.author: fetorus_mami
 photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: tree
 photo.8: https://www.instagram.com/p/BhgVSzsF7KU/media/?size=m
 photo.8.author: hanamaru_redpanda
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
+photo.8.tags: profile
 photo.9: https://www.instagram.com/p/BbO0E45l1cT/media/?size=m
 photo.9.author: hanamaru_redpanda
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
+photo.9.tags: laying down, tail
 species: 1
 zoo: 59

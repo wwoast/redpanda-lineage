@@ -15,18 +15,22 @@ litter: 278, 279
 photo.1: https://www.instagram.com/p/Bhv8Cuul_3K/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Bltoloaha9E/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
 photo.3: https://www.instagram.com/p/BgAXlnkliUN/media/?size=m
 photo.3.author: takashi_8310iyo
 photo.3.link: https://www.instagram.com/takashi_8310iyo/
+photo.3.tags: laying down, tail
 photo.4: https://www.instagram.com/p/BeJjeGOhzBs/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: baby
 photo.5: https://www.instagram.com/p/BjccS_Blr8y/media/?size=m
 photo.5.author: craig_craig_craig
 photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: tree
 photo.6: https://www.instagram.com/p/Bp_vml2lEGv/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
@@ -39,5 +43,6 @@ photo.8.link: https://www.instagram.com/perie1027vivi/
 photo.9: https://www.instagram.com/p/BdXRTJIFZpW/media/?size=m
 photo.9.author: hanamaru_redpanda
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
+photo.9.tags: baby
 species: 1
 zoo: 59
