@@ -17,11 +17,14 @@ location.2: 93, 2016/3/15
 photo.1: https://www.instagram.com/p/BBNPpygtq4M/media/?size=m
 photo.1.author: cincinnatizoo
 photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: mofumofu, profile, tail
 photo.2: https://www.instagram.com/p/BpfB0_klhXn/media/?size=m
 photo.2.author: worldthathesees
 photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: tail
 photo.3: https://www.instagram.com/p/BA-LKhNSkL9/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tail, tree
 species: 2
 zoo: 93

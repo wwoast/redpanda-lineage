@@ -15,14 +15,18 @@ litter: none
 photo.1: https://www.instagram.com/p/BqERxoYg7iH/media/?size=m
 photo.1.author: gambit2704
 photo.1.link: https://www.instagram.com/gambit2704/
+photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BoNYYdqgaE2/media/?size=m
 photo.2.author: journalsentinel
 photo.2.link: https://www.instagram.com/journalsentinel/
+photo.2.tags: baby, ear
 photo.3: https://www.instagram.com/p/BoNSTAMAfeo/media/?size=m
 photo.3.author: dmwarnman
 photo.3.link: https://www.instagram.com/dmwarnman/
+photo.3.tags: baby, smile
 photo.4: https://www.instagram.com/p/BrDOOmxBmYn/media/?size=m
 photo.4.author: milwaukeecozoo
 photo.4.link: https://www.instagram.com/milwaukeecozoo/
+photo.4.tags: bamboo, snow
 species: 2
 zoo: 93
