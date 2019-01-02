@@ -17,11 +17,14 @@ location.2: 100, 2014/11/28
 photo.1: https://www.instagram.com/p/BQhyfJIgZTe/media/?size=m
 photo.1.author: iampann
 photo.1.link: https://www.instagram.com/iampann/
+photo.1.tags: laying down
 photo.2: https://www.instagram.com/p/BOYiNisDYRa/media/?size=m
 photo.2.author: kisukas
 photo.2.link: https://www.instagram.com/kisukas/
+photo.2.tags: profile
 photo.3: https://www.instagram.com/p/BSLNV6JDlC3/media/?size=m
 photo.3.author: drozdmarya
 photo.3.link: https://www.instagram.com/drozdmarya/
+photo.3.tags: paws
 species: 2
 zoo: 100
