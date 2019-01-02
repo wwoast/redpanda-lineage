@@ -15,11 +15,13 @@ litter: 355
 photo.1: https://www.instagram.com/p/BpalbkCBC9a/media/?size=m
 photo.1.author: onj_phot
 photo.1.link: https://www.instagram.com/onj_phot/
+photo.1.tags: bamboo, tongue
 photo.2: https://www.instagram.com/p/Bk-UAoGlVSd/media/?size=m
 photo.2.author: tomonobu_yasoshima
 photo.2.link: https://www.instagram.com/tomonobu_yasoshima/
 photo.3: https://www.instagram.com/p/BXz947blo29/media/?size=m
 photo.3.author: hanamaru_redpanda
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: toys
 species: 2
 zoo: 79
