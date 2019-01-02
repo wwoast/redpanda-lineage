@@ -17,8 +17,10 @@ location.2: 84, unknown
 photo.1: https://www.instagram.com/p/BdDgZKyHLq3/media/?size=m
 photo.1.author: animal_lifenyc
 photo.1.link: https://www.instagram.com/animal_lifenyc/
+photo.1.tags: profile, tree
 photo.2: https://www.instagram.com/p/BczhWYtnVcw/media/?size=m
 photo.2.author: animal_lifenyc
 photo.2.link: https://www.instagram.com/animal_lifenyc/
+photo.2.tags: snow
 species: 2
 zoo: 84
