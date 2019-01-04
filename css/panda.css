@@ -156,10 +156,6 @@ button.sectionButton.four {
     width: calc(90% / 4);
 }
 
-button.sectionButton.three:last-child {
-    border-right: none;
-}
-
 button.sectionButton.two:nth-child(2n) {
     border-right: none;
 }
