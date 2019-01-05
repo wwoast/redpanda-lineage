@@ -442,6 +442,10 @@ div.gender.profile img {
     height: 30pt;
 }
 
+div.gender.caption img {
+    height: 10pt;
+}
+
 div.pandaDetails, div.zooDetails {
     display: block;
     min-width: 300px;
@@ -726,6 +730,11 @@ div.photoSample {
     padding: 5px;
 }
 
+div.photoSample.immediateFamily {
+    width: 220px;
+    height: 220px;
+}
+
 div.photoSample > a > img {
     border: 1px solid #002200;
     width: 100%;
@@ -738,6 +747,15 @@ div.photoSample h5 {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+}
+
+div.photoSample h5.caption.familyName {
+    margin-bottom: 0px;
+}
+
+div.photoSample h5.caption.familyTitle {
+    background-color: whitesmoke;
+    margin-top: 0px;
 }
 
 
