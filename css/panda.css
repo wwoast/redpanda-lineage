@@ -892,6 +892,10 @@ div.photoSample h5 {
         text-align: center;
     }
 
+    div.species h4 {
+        text-decoration: none !important;
+    }
+
     ul.pandaList, ul.linkList {
         list-style: none;
         text-align: left;
