@@ -263,6 +263,7 @@ div.profile.nameHeader {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     background-color: #FFDECE;
+    text-align: center;
 }
 
 img.fullFrame {
@@ -293,7 +294,7 @@ div.hidden {
     display: none;
 }
 
-div.pandaResult, div.zooResult {
+div.pandaResult, div.zooResult, div.profileFrame {
     display: table;
     clear: both;
     margin-top: 1ex;
@@ -301,7 +302,7 @@ div.pandaResult, div.zooResult {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
-div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a {
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a {
     text-decoration: none !important;
     color: black;
 }
@@ -385,7 +386,7 @@ img.preload {
     display: none;
 }
 
-div.pandaDossier, div.zooDossier {
+div.pandaDossier, div.zooDossier, div.profileDossier {
     display: table-cell;
     vertical-align: top;
     background-color: #EDC1D7; /* Pink Lady Apples */
@@ -401,11 +402,21 @@ div.pandaTitle, div.zooTitle {
     padding-left: 18px;
 }
 
+div.profileLocation {
+    min-width: 300px;
+    min-height: 32pt;
+}
+
 div.pandaName, div.zooName, div.gender {
     display: inline-block;
     font-size: 22pt;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}
+
+div.pandaName.profile {
+    font-size: 34pt;
+    font-family: "Jun 201", sans-serif;
 }
 
 div.gender {
@@ -631,9 +642,6 @@ div.detailsLocation {
     min-width: 300px;
     background-color: whitesmoke; /* Grapes */
     margin-bottom: 1ex;
-    border-left: 1px solid #033605; /* Bamboo Green */
-    border-right: 1px solid #033605; /* Bamboo Green */
-    border-bottom: 1px solid #033605; /* Bamboo Green */
 }
 
 span.detail {
@@ -664,6 +672,10 @@ div.detailsFamily {
 
 div#contentFrame.about, div#contentFrame.links {
     background: radial-gradient(ellipse at top, #366938, #002200); /* Light to dark, top to bottom */
+}
+
+div#contentFrame.profile {
+    background: radial-gradient(ellipse at top, #C28660, #693638); /* Light to dark, top to bottom */
 }
 
 div#contentFrame.about div.shrinker, div#contentFrame.links div.shrinker {
@@ -861,7 +873,7 @@ div.photoSample h5 {
         margin-right: 0.5ex;
     }
 
-    div.pandaDossier, div.zooDossier {
+    div.pandaDossier, div.zooDossier, div.profileDossier {
         display: block;
         border: 0px solid;
     }
