@@ -475,6 +475,10 @@ h3.jp, h4.jp {
     border-bottom: 2px solid black;
 }
 
+h4.species {
+    text-decoration: none;
+}
+
 div.family {
     display: block;
     min-width: 300px;
@@ -559,15 +563,6 @@ div.sectionMenuItem {
     padding-bottom: 1ex;
 }
 
-div.detailsPhoto {
-    display: block;
-    text-align: center;
-    background-color: black;
-    border-top: 1px solid #033605; /* Bamboo Green */
-    border-left: 1px solid #033605; /* Bamboo Green */
-    border-right: 1px solid #033605; /* Bamboo Green */
-}
-
 div.pandaAbout, div.pandaLinks {
     color: white;
     margin-left: 14px;
@@ -636,10 +631,6 @@ div.detailsName {
     border-left: 1px solid #033605; /* Bamboo Green */
     border-right: 1px solid #033605; /* Bamboo Green */
     border-top: 1px solid #033605; /* Bamboo Green */
-}
-
-div.detailsPhoto img {
-    height: 80vh;
 }
 
 div.detailsLocation {
@@ -832,7 +823,7 @@ div.photoSample h5 {
         display: none;
     }
 
-    div.pandaPhoto, div.zooPhoto, div.detailsPhoto {
+    div.pandaPhoto, div.zooPhoto {
         display: block;
         text-align: center;
         padding-bottom: 0ex;
@@ -895,6 +886,10 @@ div.photoSample h5 {
 
     h3, h4 {
         margin-left: 14px;
+    }
+
+    h4.species {
+        text-align: center;
     }
 
     ul.pandaList, ul.linkList {
