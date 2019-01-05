@@ -23,6 +23,12 @@ div.topMenu, div.bottomMenu {
     font-family: "Jun 201", sans-serif;
     width: 100%;
     vertical-align: middle;
+    border-bottom: 2px solid yellowgreen;
+}
+
+div.topMenu.profile {
+    background-color: #693638;
+    border-bottom: 2px solid burlywood;
 }
 
 div.bottomMenu {
@@ -33,6 +39,11 @@ div.bottomMenu {
 @keyframes activateMenuButton {
     from { background-color: #366938; }
     to { background-color: #699C6A; }
+}
+
+@keyframes activateProfileMenuButton {
+    from { background-color: #693638; }
+    to { background-color: #9C696A; }
 }
 
 @keyframes sectionButtonHover {
@@ -62,6 +73,10 @@ button.logo {
     float: left;
 }
 
+button.logo.profile {
+    background-color: #693638;
+}
+
 button.menu {
     display: inline-block;
     border: none;
@@ -74,14 +89,30 @@ button.menu {
     width: 142px;  /* Fixed width keeps them looking consistent across languages */
 }
 
+button.menu.profile {
+    background-color: #693638;
+}
+
 button.menu:hover, button.logo:hover {
     animation: activateMenuButton;
     animation-duration: 0.3s;
     background-color: #699C6A;
 }
 
+button.menu.profile:hover, button.logo.profile:hover {
+    animation: activateProfileMenuButton;
+    animation-duration: 0.3s;
+    background-color: #9C696A;
+}
+
 button.menu:active, button.logo:active {
     animation: activateMenuButton;
+    animation-duration: 0.6s;
+    animation-direction: alternate;
+}
+
+button.menu.profile:active, button.logo.profile:active {
+    animation: activateProfileMenuButton;
     animation-duration: 0.6s;
     animation-direction: alternate;
 }
@@ -170,7 +201,6 @@ div.topSearch {
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    border-top: 2px solid yellowgreen;
 }
 
 div.shrinker {

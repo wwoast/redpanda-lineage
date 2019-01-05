@@ -531,6 +531,7 @@ Show.emoji = {
 "star_mom": "👩‍🎤",
    "story": "🎍",
      "top": "⬆",
+"timeline": "📰",
   "travel": "✈️",
  "website": "🌐",
      "zoo": "🦁"
