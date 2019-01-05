@@ -475,7 +475,7 @@ h3.jp, h4.jp {
     border-bottom: 2px solid black;
 }
 
-h4.species {
+div.species h4 {
     text-decoration: none;
 }
 
@@ -888,7 +888,7 @@ div.photoSample h5 {
         margin-left: 14px;
     }
 
-    h4.species {
+    div.species {
         text-align: center;
     }
 
