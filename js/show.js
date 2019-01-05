@@ -529,6 +529,7 @@ Show.emoji = {
  "no_more": "🚫",
  "profile": "💟",
   "random": "🎲",
+  "search": "🔍",
 "star_dad": "👨‍🎤",
 "star_mom": "👩‍🎤",
    "story": "🎍",
