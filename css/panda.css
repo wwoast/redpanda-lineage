@@ -12,6 +12,10 @@ body {
     background: #366938;
 }
 
+body.profile {
+    background: #693638;
+}
+
 div.topMenu, div.bottomMenu {
     display: table;
     text-align: center;
@@ -26,14 +30,14 @@ div.topMenu, div.bottomMenu {
     border-bottom: 2px solid yellowgreen;
 }
 
-div.topMenu.profile {
-    background-color: #693638;
-    border-bottom: 2px solid burlywood;
-}
-
 div.bottomMenu {
     margin-bottom: 0.5ex;
     border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+div.topMenu.profile, div.bottomMenu.profile {
+    background-color: #693638;
+    border-bottom: 2px solid burlywood;
 }
 
 @keyframes activateMenuButton {
@@ -250,6 +254,17 @@ input.search::placeholder {
     color: #E4A880; /* The light green, but with RR and GG byte switched */
 }
 
+div.profile.nameHeader {
+    font-family: sans-serif;
+    font-size: 38pt;
+    width: 100%;
+    border: 0px solid;
+    vertical-align: middle;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color: #FFDECE;
+}
+
 img.fullFrame {
     height: calc(100% - 130px);
     width: 100%;
@@ -406,6 +421,10 @@ div.gender img {
     height: 18pt;
 }
 
+div.gender.profile img {
+    height: 30pt;
+}
+
 div.pandaDetails, div.zooDetails {
     display: block;
     min-width: 300px;
@@ -480,6 +499,10 @@ div.footer {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     text-align: center;
+}
+
+div.footer.profile {
+    background-color: #693638;
 }
 
 div.footer p {

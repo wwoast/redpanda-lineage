@@ -13,7 +13,7 @@
 <script type="application/javascript" src="../js/query.js"></script>
 <script type="application/javascript" src="../js/show.js"></script>
 </head>
-<body>
+<body class="profile">
 
 <div class="topMenu profile" id="pageTop">
 <div class="shrinker">
@@ -24,11 +24,11 @@
   </div><div class="text">
       English
   </div></div></button><button id="aboutButton" class="menu profile"><div class="buttonContent"><div class="icon">
-      🎍
+      💟
   </div><div class="text">
       Profile
   </div></div></button><button id="randomButton" class="menu profile"><div class="buttonContent"><div class="icon">
-      📷
+      🖼️
   </div><div class="text">
       Media
   </div></div></button><button id="linksButton" class="menu profile"><div class="buttonContent"><div class="icon">
@@ -39,14 +39,14 @@
 </div>
 </div>
 
-<div class="topSearch profile">
+<div class="topSearch">
+<div class="profile nameHeader">
 <div class="shrinker">
-<form id="searchForm" action="javascript:" accept-charset="UTF-8">
-  <input class="search" id="searchSubmit" type="submit" />
-  <input class="search" id="searchInput" type="search" required disabled/>
-</form>
+  <div class="gender profile"><img src="../images/female.svg" alt="female" /></div> Harumaki
 </div>
 </div>
+</div>
+    
 
 <div id="contentFrame">
 <div class="shrinker">
@@ -95,9 +95,23 @@
 </div><!-- shrinker -->     
 </div><!-- contentFrame -->
 
-<div class="footer">
+<div class="bottomMenu profile" id="pageBottom">
 <div class="shrinker">
-  <p><a class="emojiLink" href="#pageTop">⬆</a> All dataset information courtesy of the <a href="https://github.com/wwoast/redpanda-lineage">Red Panda Lineage</a> dataset, curated by red panda fans worldwide. All rights to media linked in this dataset reserved by their creators. Data structure, layout, and formatting &copy; 2018 Justin Fairchild.</p>
+  <button id="topButton" class="menu profile"><div class="buttonContent"><div class="icon">
+      ⬆
+  </div><div class="text">
+      Top
+  </div></div></button><button id="homeButton" class="menu profile"><div class="buttonContent"><div class="icon">
+      🏡
+  </div><div class="text">
+      Home
+  </div></div></button>
+</div>
+</div>
+
+<div class="footer profile">
+<div class="shrinker">
+  <p>All dataset information courtesy of the <a href="https://github.com/wwoast/redpanda-lineage">Red Panda Lineage</a> dataset, curated by red panda fans worldwide. All rights to media linked in this dataset reserved by their creators. Data structure, layout, and formatting &copy; 2018 Justin Fairchild.</p>
 </div>
 </div>
 
