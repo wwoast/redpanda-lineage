@@ -300,6 +300,7 @@ div.pandaResult, div.zooResult, div.profileFrame {
     margin-top: 1ex;
     margin-bottom: 1ex;
     border: 1px solid #033605; /* Bamboo Green */
+    background-color: palegoldenrod;
 }
 
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a {
@@ -391,6 +392,11 @@ div.pandaDossier, div.zooDossier, div.profileDossier {
     vertical-align: top;
     background-color: #EDC1D7; /* Pink Lady Apples */
     border-left: 1px solid #033605; /* Bamboo Green */
+}
+
+div.profileDossier {
+    width: 100%;
+    background-color: palegoldenrod;
 }
 
 div.pandaTitle, div.zooTitle {
@@ -654,26 +660,11 @@ div.detailsVideo {
     border: 1px solid #033605; /* Bamboo Green */
 }
 
-div.detailsFamilyTitle {
-    display: block;
-    text-align: center;
-    background-color: #C28660; /* Goldenrod */
-    border-bottom: 1px solid #033605; /* Bamboo Green */
-}
-
-div.detailsFamily {
-    display: block;
-    text-align: center;
-    background-color: #E4A880; /* Sunflower */
-    border: 1px solid #033605; /* Bamboo Green */
-    margin-top: 1ex;
-    margin-bottom: 1ex;
-}
-
 div#contentFrame.about, div#contentFrame.links {
     background: radial-gradient(ellipse at top, #366938, #002200); /* Light to dark, top to bottom */
 }
 
+/* C28660 is Goldenrod, E4A880 is Sunflower */
 div#contentFrame.profile {
     background: radial-gradient(ellipse at top, #C28660, #693638); /* Light to dark, top to bottom */
 }
