@@ -300,7 +300,7 @@ div.pandaResult, div.zooResult, div.profileFrame {
     margin-top: 1ex;
     margin-bottom: 1ex;
     border: 1px solid #033605; /* Bamboo Green */
-    background-color: palegoldenrod;
+    background-color: #EEE8AA;
 }
 
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a {
@@ -396,7 +396,7 @@ div.pandaDossier, div.zooDossier, div.profileDossier {
 
 div.profileDossier {
     width: 100%;
-    background-color: palegoldenrod;
+    background-color: #EEE8AA;
 }
 
 div.pandaTitle, div.zooTitle {
