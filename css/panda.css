@@ -442,6 +442,10 @@ div.gender.profile img {
     height: 30pt;
 }
 
+div.gender.caption {
+    margin-right: 0.4ex;
+}
+
 div.gender.caption img {
     height: 10pt;
 }
