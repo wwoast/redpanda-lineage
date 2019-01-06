@@ -63,6 +63,6 @@ function showQRCode(text) {
    QRCode relevant to the loaded page's URI */
 document.addEventListener("DOMContentLoaded", function() {
     var qrcode = document.getElementById("qrcodeUri");
-    var img = showQRCode(window.location);
+    var img = showQRCode(window.location.toString());
     qrcode.src = img.src;
 });
