@@ -303,6 +303,20 @@ div.pandaResult, div.zooResult, div.profileFrame {
     background-color: #EEE8AA;
 }
 
+div.qrcodeFrame {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 250px;
+}
+
+div.qrcodeFrame img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a {
     text-decoration: none !important;
     color: black;
@@ -840,12 +854,20 @@ div.photoSample h5.caption.familyTitle {
         margin: 0 0 0 0;
     }
 
-    div.pandaResult, div.zooResult {
-        background-color: lightgoldenrodyellow;
+    div.pandaResult, div.zooResult, div.profileFrame {
         padding-bottom: 0ex;
         margin-top: 0.7ex;
         margin-bottom: 0.7ex;
         border: 0px solid;
+    }
+
+    div.qrcodeFrame {
+        width: 100%;
+    }
+
+    div.qrcodeFrame img {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     div.emptyResult {
@@ -884,7 +906,7 @@ div.photoSample h5.caption.familyTitle {
         margin-right: 0.5ex;
     }
 
-    div.pandaDossier, div.zooDossier, div.profileDossier {
+    div.pandaDossier, div.zooDossier, div.profileFrame {
         display: block;
         border: 0px solid;
     }
