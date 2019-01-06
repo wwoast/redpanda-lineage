@@ -731,8 +731,8 @@ div.photoSample {
 }
 
 div.photoSample.immediateFamily {
-    width: 220px;
     height: 220px;
+    width: 220px;
 }
 
 div.photoSample > a > img {
