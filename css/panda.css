@@ -717,16 +717,20 @@ ul.linkList.multiColumn {
     column-count: 2;
 }
 
-div.creditSummary {
+div.creditSummary, div.profileSummary {
     text-align: center;
 }
 
-div.creditSummary p {
+div.creditSummary p, div.profileSummary p {
     display: inline-block;
     background-color: #9771A7; /* Grapes */
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
+}
+
+div.profileSummary {
+    margin-top: 1em;
 }
 
 div.photoSample {
@@ -911,10 +915,6 @@ div.photoSample h5.caption.familyTitle {
         margin-left: 14px;
     }
 
-    div.species {
-        text-align: center;
-    }
-
     div.species h4 {
         text-decoration: none !important;
     }
@@ -923,6 +923,14 @@ div.photoSample h5.caption.familyTitle {
         list-style: none;
         text-align: left;
         padding-left: 14px;
+    }
+
+    div.profileSummary {
+        margin-top: 0px;   /* Vertical rhythm things unnecessary on mobile */
+    }
+
+    div.profile#contentFrame hr {
+        display: none;   /* Vertical rhythm things unnecessary on mobile */
     }
 
     div.footer {
