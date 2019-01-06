@@ -537,6 +537,7 @@ Show.emoji = {
 "timeline": "📰",
   "travel": "✈️",
  "website": "🌐",
+     "wip": "🚧",
      "zoo": "🦁"
 }
 
