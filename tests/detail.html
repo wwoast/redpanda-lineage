@@ -12,6 +12,8 @@
 <script type="application/javascript" src="../js/pandas.js"></script>
 <script type="application/javascript" src="../js/query.js"></script>
 <script type="application/javascript" src="../js/show.js"></script>
+<script type="application/javascript" src="../js/qrcode.js"></script>
+<script type="application/javascript" src="../js/html5-qrcode.js"></script>
 <script type="text/javascript" src="//typesquare.com/3/tsst/script/en/typesquare.js?5b4b76d1869443879a703734ac1e02ec" charset="utf-8"></script>
 </head>
 <body class="profile">
@@ -61,12 +63,10 @@
       <li>👼 6/23/2006 (12 years)</i></li>
     </ul>
   
-    <div class="qrcodeFrame"><!-- style="width: 100%; margin-left: 30px; margin-right: 30px; margin-top: 1ex;">-->
-      <div style="text-align: center;">
-        <span style="font-weight: bold; font-size: 10pt;">https://redpandafinder.com/</span>
-        <img src="../images/no-panda.jpg" />
-        <span style="font-weight: bold; font-size: 10pt;">#detail/min-fa</span>
-      </div>
+    <div class="qrcodeFrame">
+      <span class="qrcodeText">https://redpandafinder.com/</span>
+      <img id="qrcodeUri" src="../images/no-panda.jpg" />
+      <span class="qrcodeText">#detail/min-fa</span>
     </div>
 
     <div class="names" style="clear: both;">
