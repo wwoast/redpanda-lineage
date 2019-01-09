@@ -514,7 +514,7 @@ div.species h4 {
 }
 
 div.family {
-    display: block;
+    display: flex;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
 }
@@ -522,16 +522,21 @@ div.family {
 div.parents, div.litter, div.siblings, div.children, div.names {
     display: inline-block;
     vertical-align: top;
-    text-align: center;
-    max-width: 170px;
-    padding-right: 18px;
+}
+
+div.horizontal {
+    flex-direction: row;
 }
 
 ul.pandaList, ul.linkList {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     text-align: left;
     list-style: none;
     padding-left: 18px;
     margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
 }
 
 ul.pandaList li, ul.linkList li {
