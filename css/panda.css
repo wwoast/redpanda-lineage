@@ -514,7 +514,7 @@ div.species h4 {
 }
 
 div.family {
-    display: flex;
+    display: block;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
 }
