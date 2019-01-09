@@ -5,7 +5,7 @@ birthplace: 17
 children: none
 en.name: Mametarou
 en.nicknames: Scramble!, Mame-chan, Mamechan
-en.othernames: none
+en.othernames: Mametaro
 gender: m
 jp.name: まめたろう
 jp.nicknames: none
@@ -74,5 +74,9 @@ photo.16: https://www.instagram.com/p/BrzIzD_Flyt/media/?size=m
 photo.16.author: kotata_513
 photo.16.link: https://www.instagram.com/kotata_513/
 photo.16.tags: itchy, tail
+photo.17: https://www.instagram.com/p/BsYCfmDlpT_/media/?size=m
+photo.17.author: akaikumaneko
+photo.17.link: https://www.instagram.com/akaikumaneko/
+photo.17.tags: autumn
 species: 2
 zoo: 12
