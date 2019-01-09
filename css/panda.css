@@ -529,9 +529,6 @@ div.horizontal {
 }
 
 ul.pandaList, ul.linkList {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
     text-align: left;
     list-style: none;
     padding-left: 18px;
