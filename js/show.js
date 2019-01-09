@@ -1168,22 +1168,27 @@ Show.displayPandaFamily = function(info) {
       (info.children.length == 0))  {
     return family;   // No documented family
   }
+  var parents = undefined;
+  var litter = undefined;
+  var siblings = undefined;
+  var children = undefined;
   if (info.dad != undefined || info.mom != undefined) {
-    var parents = Show.displayPandaParents(info);
+    parents = Show.displayPandaParents(info);
     family.appendChild(parents);
   }
   if (info.litter.length > 0) {
-    var litter = Show.displayPandaLitter(info);
+    litter = Show.displayPandaLitter(info);
     family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
-    var siblings = Show.displayPandaSiblings(info);
+    siblings = Show.displayPandaSiblings(info);
     family.appendChild(siblings);
   }
   if (info.children.length > 0) {
-    var children = Show.displayPandaChildren(info);
+    children = Show.displayPandaChildren(info);
     family.appendChild(children);
   }
+  family = Show.familyListLayout(family, parents, litter, siblings, children);
   // TODO: media queries. If four columns on mobile, swap
   // litter and siblings columns to get better balancing.
   // Four columns means the litter should be defined
@@ -1471,6 +1476,17 @@ Show.displayZooTitle = function(info) {
   title_div.className = "pandaTitle";
   title_div.appendChild(name_div);
   return title_div;
+}
+
+// Given the parents/litter/siblings/children lists, apply classes
+// and styles and reorder the lists to optimize for space.
+Show.familyListLayout = function(family, parents, litter, siblings, children) {
+  for (let animal_list of [parents, litter, siblings, children]) {
+    if (animal_list != undefined) {
+      family.appendChild(animal_list);
+    }
+  }
+  return family;
 }
 
 // Draw a footer with the correct language
