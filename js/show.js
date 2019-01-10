@@ -1481,8 +1481,21 @@ Show.displayZooTitle = function(info) {
 // Given the parents/litter/siblings/children lists, apply classes
 // and styles and reorder the lists to optimize for space.
 Show.familyListLayout = function(family, parents, litter, siblings, children) {
-  for (let animal_list of [parents, litter, siblings, children].filter(l => l != undefined)) {
-    family.appendChild(animal_list);
+  if (parents != undefined) {
+    // Parent layout logic. 
+    family.appendChild(parents);
+  }
+  if (litter != undefined) {
+    // Litter layout logic. 
+    family.appendChild(litter);
+  }
+  if (siblings != undefined) {
+    // Siblings layout logic
+    family.appendChild(siblings);
+  }
+  if (children != undefined) {
+    // Children layout logic
+    family.appendChild(children);
   }
   return family;
 }

@@ -524,16 +524,30 @@ div.parents, div.litter, div.siblings, div.children, div.names {
     vertical-align: top;
 }
 
-div.horizontal {
-    flex-direction: row;
-}
-
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
     padding-left: 10px;
     margin-top: 0.5ex;
     margin-bottom: 0.5ex;
+}
+
+ul.pandaList.double {
+    column-count: 2;
+    column-width: 6.4em;
+    column-gap: 10px;   /* Same as left padding */
+    width: 54%;
+}
+
+ul.pandaList.triple {
+    column-count: 3;
+    column-width: 6.4em;
+    column-gap: 10px;   /* Same as left padding */
+    width: 81%;
+}
+
+ul.pandaList.flat {
+    height: 35pt;
 }
 
 ul.pandaList li, ul.linkList li {
