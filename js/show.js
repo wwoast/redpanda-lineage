@@ -1188,7 +1188,7 @@ Show.displayPandaFamily = function(info) {
     children = Show.displayPandaChildren(info);
     family.appendChild(children);
   }
-  family = Show.familyListLayout(family, parents, litter, siblings, children);
+  family = Show.familyListLayout(family, info, parents, litter, siblings, children);
   // TODO: media queries. If four columns on mobile, swap
   // litter and siblings columns to get better balancing.
   // Four columns means the litter should be defined
@@ -1480,7 +1480,8 @@ Show.displayZooTitle = function(info) {
 
 // Given the parents/litter/siblings/children lists, apply classes
 // and styles and reorder the lists to optimize for space.
-Show.familyListLayout = function(family, parents, litter, siblings, children) {
+Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
+  // Use info variable to get counts for layout decisions
   if (parents != undefined) {
     // Parent layout logic
     family.appendChild(parents);

@@ -526,6 +526,12 @@ div.parents, div.litter, div.siblings, div.children, div.names {
     flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
 }
 
+/* For list layouts with a single div */
+div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.children.singleton, div.singleton {
+    width: 100%;
+    flex-grow: 1;
+}
+
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
@@ -549,11 +555,13 @@ ul.pandaList.triple {
 }
 
 ul.pandaList.flat {
+    display: flex;   /* Want li children to flexibly grow */
     height: 35pt;
 }
 
 ul.pandaList.flat li {
     display: inline-block;   /* Force list items to flow horizontally */
+    flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
 }
 
 ul.pandaList li, ul.linkList li {
@@ -1000,13 +1008,13 @@ div.photoSample h5.caption.familyTitle {
         width: auto;
     }
 
-    ul.pandaList.onlyMobileFlat {
+    ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
+        display: flex;   /* Want li children to flexibly grow */
         height: 35pt;
-        display: flex;
         flex-grow: 1;
     }
 
-    ul.pandaList.onlyMobileFlat li {
+    ul.pandaList.flat li, ul.pandaList.onlyMobileFlat li {
         display: inline-block;   /* Force list items to flow horizontally */
         padding-right: 10px;
         flex-grow: 1;   /* Force list items to expand to fill space */
