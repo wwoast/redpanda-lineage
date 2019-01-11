@@ -522,6 +522,8 @@ div.family {
 div.parents, div.litter, div.siblings, div.children, div.names {
     display: inline-block;
     vertical-align: top;
+    padding-left: 10px;
+    flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
 }
 
 ul.pandaList, ul.linkList {
@@ -548,6 +550,10 @@ ul.pandaList.triple {
 
 ul.pandaList.flat {
     height: 35pt;
+}
+
+ul.pandaList.flat li {
+    display: inline-block;   /* Force list items to flow horizontally */
 }
 
 ul.pandaList li, ul.linkList li {
@@ -942,20 +948,23 @@ div.photoSample h5.caption.familyTitle {
         border: 0px solid;
     }
 
-    /* Masonry tricks: do vertical layout of ULs when
-       in mobile mode. */
     div.family {
-        column-count: 2;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    /* Masonry layout tricks: the column width must be 100%.
-       Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings, div.children, div.names {
-        width: 100%;
-        max-width: 148px;
-        padding-right: 6px;
         text-align: left;
-    } 
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        padding-left: 0px;
+    }
+
+    /* For family divs where you want to ensure next content is always on a new
+       line, use javascript to add this class. */
+    div.onlyMobileBreakAfter {
+        page-break-after: always;
+    }
 
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
@@ -978,6 +987,29 @@ div.photoSample h5.caption.familyTitle {
         list-style: none;
         text-align: left;
         padding-left: 14px;
+    }
+
+    /* On mobile portrait views, forces only two columns per line. 
+       Undesirable when first list is flat
+    div.family :nth-child(odd) {
+        page-break-before: always;
+    }
+    */
+
+    ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
+        width: auto;
+    }
+
+    ul.pandaList.onlyMobileFlat {
+        height: 35pt;
+        display: flex;
+        flex-grow: 1;
+    }
+
+    ul.pandaList.onlyMobileFlat li {
+        display: inline-block;   /* Force list items to flow horizontally */
+        padding-right: 10px;
+        flex-grow: 1;   /* Force list items to expand to fill space */
     }
 
     div.profileSummary {

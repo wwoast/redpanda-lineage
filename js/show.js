@@ -1482,11 +1482,11 @@ Show.displayZooTitle = function(info) {
 // and styles and reorder the lists to optimize for space.
 Show.familyListLayout = function(family, parents, litter, siblings, children) {
   if (parents != undefined) {
-    // Parent layout logic. 
+    // Parent layout logic
     family.appendChild(parents);
   }
   if (litter != undefined) {
-    // Litter layout logic. 
+    // Litter layout logic
     family.appendChild(litter);
   }
   if (siblings != undefined) {
