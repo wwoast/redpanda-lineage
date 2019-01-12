@@ -12,36 +12,24 @@ jp.nicknames: none
 jp.othernames: ヒカル
 language.order: jp, en
 litter: 177
-photo.1: https://www.instagram.com/p/BleOmxnlwdM/media/?size=m
-photo.1.author: yuka0714_0307
-photo.1.link: https://www.instagram.com/yuka0714_0307/
-photo.1.tags: smile
-photo.2: https://www.instagram.com/p/Bi77hhtFxVz/media/?size=m
+photo.1: https://www.instagram.com/p/Bi77hhtFxVz/media/?size=m
+photo.1.author: re_ichimaru
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.2: https://www.instagram.com/p/BikuLKDlOwj/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
-photo.3: https://www.instagram.com/p/BikuLKDlOwj/media/?size=m
-photo.3.author: re_ichimaru
-photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: flowers
+photo.3: https://www.instagram.com/p/Bll8QSaFVDU/media/?size=m
+photo.3.author: _rifa_p
+photo.3.link: https://www.instagram.com/_rifa_p/
 photo.3.tags: flowers
-photo.4: https://www.instagram.com/p/Bll8QSaFVDU/media/?size=m
+photo.4: https://www.instagram.com/p/BlT61hFFtdc/media/?size=m
 photo.4.author: _rifa_p
 photo.4.link: https://www.instagram.com/_rifa_p/
-photo.4.tags: flowers
-photo.5: https://www.instagram.com/p/BlT61hFFtdc/media/?size=m
-photo.5.author: _rifa_p
-photo.5.link: https://www.instagram.com/_rifa_p/
-photo.5.tags: flowers, profile
-photo.6: https://www.instagram.com/p/BpCdteEFqpt/media/?size=m
-photo.6.author: yuka0714_0307
-photo.6.link: https://www.instagram.com/yuka0714_0307/
-photo.6.tags: smile
-photo.7: https://www.instagram.com/p/Bp4rhIhlGNd/media/?size=m
-photo.7.author: yuka0714_0307
-photo.7.link: https://www.instagram.com/yuka0714_0307/
-photo.7.tags: apple time
-photo.8: https://www.instagram.com/p/BcEzsI2lefs/media/?size=m
-photo.8.author: hanamaru_redpanda
-photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: baby
+photo.4.tags: flowers, profile
+photo.5: https://www.instagram.com/p/BcEzsI2lefs/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: baby
 species: 2
 zoo: 42

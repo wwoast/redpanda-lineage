@@ -79,18 +79,25 @@ def renumber_panda_photos(config, stop_point):
         photo_option = "photo." + str(photo_index)
         photo_author = photo_option + ".author"
         photo_link = photo_option + ".link"
+        photo_tags = photo_option + ".tags"
         if config.has_option("panda", photo_option) == False:
             next_index = fetch_next_photo_index(config, photo_index, stop_point)
             next_option = "photo." + str(next_index)
             next_author = next_option + ".author"
             next_link = next_option + ".link"
+            next_tags = next_option + ".tags"
             if config.has_option("panda", next_option) == True:
                 config.set("panda", photo_option, config.get("panda", next_option))
                 config.set("panda", photo_author, config.get("panda", next_author))
                 config.set("panda", photo_link, config.get("panda", next_link))
+                if config.has_option("panda", next_tags):
+                    config.set("panda", photo_tags, config.get("panda", next_tags))
+                else:
+                    config.remove_option("panda", photo_tags)
                 config.remove_option("panda", next_option)
                 config.remove_option("panda", next_author)
                 config.remove_option("panda", next_link)
+                config.remove_option("panda", next_tags)
         photo_index = photo_index + 1
 
 def remove_panda_photos(author):
@@ -114,6 +121,7 @@ def remove_panda_photos(author):
             photo_option = "photo." + str(photo_index)
             author_option = photo_option + ".author"
             author_link = photo_option + ".link"
+            author_tags = photo_option + ".tags"
             # Look at all available photo fields for a panda, until we get to
             # the Nth photo that doesn't exist 
             while config.has_option("panda", author_option) == True:
@@ -123,11 +131,14 @@ def remove_panda_photos(author):
                     config.remove_option("panda", photo_option)
                     config.remove_option("panda", author_option)
                     config.remove_option("panda", author_link)
+                    if config.has_option("panda", author_tags):
+                        config.remove_option("panda", author_tags)
                     removals = removals + 1
                 photo_index = photo_index + 1
                 photo_option = "photo." + str(photo_index)
                 author_option = photo_option + ".author"
                 author_link = photo_option + ".link"
+                author_tags = photo_option + ".tags"
             # Next, renumber the ones that are still there
             if removals > 0:
                 renumber_panda_photos(config, photo_index)
@@ -136,7 +147,7 @@ def remove_panda_photos(author):
 
 def remove_zoo_photos(author):
     """
-    Zoos only have a single photo recorded for each one.
+    Zoos only have a single photo recorded for each one, and no tags
     """
     # Enter the zoo subdirectories
     for root, dirs, files in os.walk(ZOO_PATH):
