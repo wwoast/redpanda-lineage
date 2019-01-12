@@ -1490,13 +1490,13 @@ Show.neitherParentsDocumented = function(info) {
 
 Show.onlyParents = function(info) {
   // Only a parent div with two entries, and no other animals
-  return ((bothParentsDocumented(info)) && (info.litter.length == 0) && 
+  return ((Show.bothParentsDocumented(info)) && (info.litter.length == 0) && 
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
 Show.onlyLitter = function(info) {
   // Only a parent div with two entries, and no other animals
-  return ((neitherParentsDocumented(info)) && (info.litter.length == 2) && 
+  return ((Show.neitherParentsDocumented(info)) && (info.litter.length == 2) && 
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
