@@ -1605,8 +1605,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Siblings layout logic
   if (siblings != undefined) {
     if (Show.manySiblingsNoChildren(info)) {
-      parents.childNodes[1].classList.add('double');
-      parents.style.order = order++;
+      siblings.childNodes[1].classList.add('double');
+      siblings.style.order = order++;
     }
     family.appendChild(siblings);
     // Add dividers as instructed by earlier layout checks
