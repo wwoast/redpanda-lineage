@@ -962,16 +962,6 @@ div.photoSample h5.caption.familyTitle {
         flex-wrap: wrap;
     }
 
-    /* This hack for adding 100% width after a series of flex elements, plus adding order classes to flex 
-       contained elements, is the thing that allows line breaks in flex containers on Chrome.
-       This probably also requires a min-width or aggressive nbsp use, such that the after 100% doesn't scrunch
-       columns into unreadable jelly.
-    div.family::after {
-        width: 100%;
-        content: '';
-    }
-    */
-
     div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
