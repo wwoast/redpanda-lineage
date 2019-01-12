@@ -1480,9 +1480,23 @@ Show.displayZooTitle = function(info) {
 
 // Conditionals for arrangements of pandas, to simplify typing the familyListLayout
 // checks for things.
+Show.bothParentsDocumented = function(info) {
+  return ((info.dad != undefined) && (info.mom != undefined));
+}
+
+Show.neitherParentsDocumented = function(info) {
+  return ((info.dad == undefined) && (info.mom == undefined));
+}
+
 Show.onlyParents = function(info) {
   // Only a parent div with two entries, and no other animals
-  return ((info.parents.length == 2) && (info.litter.length == 0) && 
+  return ((bothParentdDocumented(info)) && (info.litter.length == 0) && 
+          (info.siblings.length == 0) && (info.children.length == 0));
+}
+
+Show.onlyLitter = function(info) {
+  // Only a parent div with two entries, and no other animals
+  return ((neitherParentsDocumented(info)) && (info.litter.length == 2) && 
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
@@ -1542,7 +1556,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Parent layout logic
   if (parents != undefined) {
     // Just parents? Make it flat on desktop and mobile
-    if (Show.onlyParents(info) == true) {
+    if (Show.onlyParents(info)) {
       parents.classList.add('singleton');
       parents.childNodes[3].classList.add('flat');
     }
@@ -1556,8 +1570,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Litter layout logic
   if (litter != undefined) {
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
-    if ((info.parents.length == 0) && (info.litter.length == 2) && 
-        (info.siblings.length == 0) && (info.children.length == 0)) {
+    if (Show.onlyLitter(info)) {
       litter.classList.add('singleton');
       litter.childNodes[3].classList.add('flat');
     }
