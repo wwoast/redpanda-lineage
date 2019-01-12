@@ -1478,24 +1478,97 @@ Show.displayZooTitle = function(info) {
   return title_div;
 }
 
+// Conditionals for arrangements of pandas, to simplify typing the familyListLayout
+// checks for things.
+Show.onlyParents = function(info) {
+  // Only a parent div with two entries, and no other animals
+  return ((info.parents.length == 2) && (info.litter.length == 0) && 
+          (info.siblings.length == 0) && (info.children.length == 0));
+}
+
+Show.manySiblingsNoChildren = function(info) {
+  // Five or more siblings, and no other litter/children
+  return ((info.siblings.length >= 5) && (info.litter.length == 0) &&
+          (info.children.length == 0));
+}
+
+Show.manyChildrenNoSiblings = function(info) {
+  // Five or more children, and no other siblings
+  return ((info.children.length >= 5) && (info.litter.length == 0) &&
+          (info.siblings.length == 0));
+}
+
+Show.someChildrenAndSiblings = function(info) {
+  // Between 2 and 4 siblings and 2 and 4 children
+  return ((info.litter.length == 0) && 
+          (info.siblings.length >= 2) && (info.siblings.length < 5) &&
+          (info.children.length >= 2) && (info.cihldren.length < 5))
+}
+
+Show.balancedChildrenAndSiblings = function(info) {
+  // Similar count of children and siblings
+  // List lengths within 1 animal of each other, and less than 7 of each
+  var difference = info.siblings.length - info.children.length;
+  return ((difference >= -1) && (difference <= 1) &&
+          (info.siblings.length < 7) && (info.children.length < 7));
+}
+
+Show.twiceTheSiblingsAsChildren = function(info) {
+  // If at least one litter, and twice the siblings as there are children
+  var factor = info.siblings.length / info.children.length;
+  return ((info.litter.length >= 1) && (factor >= 2));
+}
+
+Show.twiceTheChildrenAsSiblings = function(info) {
+  // If at least one litter, and twice the children as there are siblings
+  var factor = info.children.length / info.siblings.length;
+  return ((info.litter.length >= 1) && (factor >= 2));
+}
+
+Show.manyChildrenAndSiblings = function(info) {
+  // If at least six in each list of children and siblings
+  return ((info.siblings.length >= 6) && (info.children.length >= 6));
+}
+
 // Given the parents/litter/siblings/children lists, apply classes
-// and styles and reorder the lists to optimize for space.
+// and styles and reorder the lists to optimize for space. These classes
+// have CSS media query logic for mobile/widescreen, and therefore don't 
+// need JS hooks when the viewport changes. There are a number of
+// constraints this logic attempts to enforce, since family lists are
+// only logically ordered by birthdates:
+//   - No lists shorter than 5 will get multicolumn-split
+//   - No lists other than length 2 will get flattened
 Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
-  // Use info variable to get counts for layout decisions
+  // Parent layout logic
   if (parents != undefined) {
-    // Parent layout logic
+    // Just parents? Make it flat on desktop and mobile
+    if (Show.onlyParents(info) == true) {
+      parents.classList.add('singleton');
+      parents.childNodes[3].classList.add('flat');
+    }
+    // If small number of siblings or children
+    if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
+      parents.classList.add('mobileOnlyBreakAfter');
+      parents.childNodes[3].classList.add('onlyMobileFlat');
+    }
     family.appendChild(parents);
   }
+  // Litter layout logic
   if (litter != undefined) {
-    // Litter layout logic
+    // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
+    if ((info.parents.length == 0) && (info.litter.length == 2) && 
+        (info.siblings.length == 0) && (info.children.length == 0)) {
+      litter.classList.add('singleton');
+      litter.childNodes[3].classList.add('flat');
+    }
     family.appendChild(litter);
   }
+  // Siblings layout logic
   if (siblings != undefined) {
-    // Siblings layout logic
     family.appendChild(siblings);
   }
+  // Children layout logic
   if (children != undefined) {
-    // Children layout logic
     family.appendChild(children);
   }
   return family;

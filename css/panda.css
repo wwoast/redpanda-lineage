@@ -532,10 +532,6 @@ div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.childre
     flex-grow: 1;
 }
 
-div.breakAfter {
-    page-break-after: always;
-}
-
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
@@ -973,8 +969,9 @@ div.photoSample h5.caption.familyTitle {
     }
 
     /* For family divs where you want to ensure next content is always on a new
-       line, use javascript to add this class. */
-    div.breakAfter, div.onlyMobileBreakAfter {
+       line, use javascript to add this class. For some reason a non-media-query version
+       of this class failed to work on page breaking for the desktop layout! */
+    div.onlyMobileBreakAfter {
         page-break-after: always;
     }
 
