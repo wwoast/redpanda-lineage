@@ -1490,7 +1490,7 @@ Show.neitherParentsDocumented = function(info) {
 
 Show.onlyParents = function(info) {
   // Only a parent div with two entries, and no other animals
-  return ((bothParentdDocumented(info)) && (info.litter.length == 0) && 
+  return ((bothParentsDocumented(info)) && (info.litter.length == 0) && 
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
