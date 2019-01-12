@@ -526,6 +526,19 @@ div.parents, div.litter, div.siblings, div.children, div.names {
     flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
 }
 
+/* Add these after an element to guarantee that its display will force a new flex line.
+   On Firefox, CSS "page-break-after" works for this, but on Chrome it does not. */
+hr.flexDivider {
+    display: block;
+    width: 100%;
+    border: 0px solid;
+    margin: 0 0 0 0;
+}
+
+hr.flexDivider.onlyMobile {
+    display: none;
+}
+
 /* For list layouts with a single div */
 div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.children.singleton, div.singleton {
     width: 100%;
@@ -968,12 +981,20 @@ div.photoSample h5.caption.familyTitle {
         padding-left: 0px;
     }
 
-    /* For family divs where you want to ensure next content is always on a new
-       line, use javascript to add this class. For some reason a non-media-query version
-       of this class failed to work on page breaking for the desktop layout! */
-    div.onlyMobileBreakAfter {
-        page-break-after: always;
+    hr.flexDivider.onlyDesktop {
+        display: none;
     }
+
+    hr.flexDivider.onlyMobile {
+        display: block;
+    }
+
+    /* On mobile, parents divs that break after display, must be width 100% and not singletons,
+       as the singletons are 100% on desktop mode too!
+    div.parents.onlyMobileBreakAfter {
+        width: 100%;
+    }
+    */
 
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;

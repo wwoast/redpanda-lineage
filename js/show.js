@@ -1546,6 +1546,17 @@ Show.manyChildrenAndSiblings = function(info) {
   return ((info.siblings.length >= 6) && (info.children.length >= 6));
 }
 
+// Adds a divider. The mode doubles as a flag to describe whether or not flex
+// dividers are necessary.
+Show.flexDivider = function(mode) {
+  var divider = document.createElement('hr');
+  divider.className = "flexDivider";
+  if ((mode != undefined) && (mode != true)) {
+    divider.classList.add(mode);
+  }
+  return familyFlexDivider;
+}
+
 // Given the parents/litter/siblings/children lists, apply classes
 // and styles and reorder the lists to optimize for space. These classes
 // have CSS media query logic for mobile/widescreen, and therefore don't 
@@ -1555,6 +1566,8 @@ Show.manyChildrenAndSiblings = function(info) {
 //   - No lists shorter than 5 will get multicolumn-split
 //   - No lists other than length 2 will get flattened
 Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
+  var divider = undefined;
+
   // Parent layout logic
   if (parents != undefined) {
     // Just parents? Make it flat on desktop and mobile
@@ -1564,11 +1577,14 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     }
     // If small number of siblings or children
     if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
-      parents.classList.add('mobileOnlyBreakAfter');
       parents.childNodes[1].classList.add('onlyMobileFlat');
+      divider = "onlyMobile";
     }
     family.appendChild(parents);
+    // Add dividers as instructed by earlier layout checks
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
+
   // Litter layout logic
   if (litter != undefined) {
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
@@ -1577,14 +1593,22 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       litter.childNodes[1].classList.add('flat');
     }
     family.appendChild(litter);
+    // Add dividers as instructed by earlier layout checks
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
+
   // Siblings layout logic
   if (siblings != undefined) {
     family.appendChild(siblings);
+    // Add dividers as instructed by earlier layout checks
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
+
   // Children layout logic
   if (children != undefined) {
     family.appendChild(children);
+    // Add dividers as instructed by earlier layout checks
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
   return family;
 }
