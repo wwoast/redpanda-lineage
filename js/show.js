@@ -1567,6 +1567,7 @@ Show.flexDivider = function(mode) {
 //   - No lists other than length 2 will get flattened
 Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
   var divider = undefined;
+  var order = 0;   /* Flex box order, determines display groupings */
 
   // Parent layout logic
   if (parents != undefined) {
@@ -1574,11 +1575,13 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if (Show.onlyParents(info)) {
       parents.classList.add('singleton');
       parents.childNodes[1].classList.add('flat');
+      parents.style.order = order++;
     }
     // If small number of siblings or children
     if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
       divider = "onlyMobile";
+      parents.style.order = order++;
     }
     family.appendChild(parents);
     // Add dividers as instructed by earlier layout checks
@@ -1591,6 +1594,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if (Show.onlyLitter(info)) {
       litter.classList.add('singleton');
       litter.childNodes[1].classList.add('flat');
+      litter.style.order = order;
     }
     family.appendChild(litter);
     // Add dividers as instructed by earlier layout checks
