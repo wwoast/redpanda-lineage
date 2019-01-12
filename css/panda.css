@@ -998,15 +998,9 @@ div.photoSample h5.caption.familyTitle {
         padding-left: 14px;
     }
 
-    /* On mobile portrait views, forces only two columns per line. 
-       Undesirable when first list is flat
-    div.family :nth-child(odd) {
-        page-break-before: always;
-    }
-    */
-
     ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
-        width: auto;
+        width: auto;   /* Fill available space in flex */
+        height: auto;   /* And account for names in a li that are really long */
     }
 
     ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
