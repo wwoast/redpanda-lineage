@@ -90,7 +90,10 @@ def renumber_panda_photos(config, stop_point):
                 config.set("panda", photo_option, config.get("panda", next_option))
                 config.set("panda", photo_author, config.get("panda", next_author))
                 config.set("panda", photo_link, config.get("panda", next_link))
-                config.set("panda", photo_tags, config.get("panda", next_tags))
+                if config.has_option("panda", next_tags):
+                    config.set("panda", photo_tags, config.get("panda", next_tags))
+                else:
+                    config.remove_option("panda", photo_tags)
                 config.remove_option("panda", next_option)
                 config.remove_option("panda", next_author)
                 config.remove_option("panda", next_link)
@@ -128,7 +131,8 @@ def remove_panda_photos(author):
                     config.remove_option("panda", photo_option)
                     config.remove_option("panda", author_option)
                     config.remove_option("panda", author_link)
-                    config.remove_option("panda", author_tags)
+                    if config.has_option("panda", author_tags):
+                        config.remove_option("panda", author_tags)
                     removals = removals + 1
                 photo_index = photo_index + 1
                 photo_option = "photo." + str(photo_index)
