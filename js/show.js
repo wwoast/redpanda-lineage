@@ -1558,12 +1558,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Just parents? Make it flat on desktop and mobile
     if (Show.onlyParents(info)) {
       parents.classList.add('singleton');
-      parents.childNodes[3].classList.add('flat');
+      parents.childNodes[1].classList.add('flat');
     }
     // If small number of siblings or children
     if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
       parents.classList.add('mobileOnlyBreakAfter');
-      parents.childNodes[3].classList.add('onlyMobileFlat');
+      parents.childNodes[1].classList.add('onlyMobileFlat');
     }
     family.appendChild(parents);
   }
@@ -1572,7 +1572,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (Show.onlyLitter(info)) {
       litter.classList.add('singleton');
-      litter.childNodes[3].classList.add('flat');
+      litter.childNodes[1].classList.add('flat');
     }
     family.appendChild(litter);
   }
