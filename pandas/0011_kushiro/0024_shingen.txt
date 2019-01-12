@@ -24,7 +24,7 @@ photo.2.tags: profile
 photo.3: https://www.instagram.com/p/Bizw2VflT8n/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
-photo.3.tags: apple time, paws, standing 
+photo.3.tags: apple time, paws, standing
 photo.4: https://www.instagram.com/p/BiCAVBclMci/media/?size=m
 photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
@@ -108,17 +108,13 @@ photo.25: https://www.instagram.com/p/BqPLPE8FHuP/media/?size=m
 photo.25.author: ichiken67
 photo.25.link: https://www.instagram.com/ichiken67/
 photo.25.tags: autumn
-photo.26: https://www.instagram.com/p/BqhrHUvFQPG/media/?size=m
-photo.26.author: yuka0714_0307
-photo.26.link: https://www.instagram.com/yuka0714_0307/
+photo.26: https://www.instagram.com/p/BqtCME1FAsc/media/?size=m
+photo.26.author: fetorus_mami
+photo.26.link: https://www.instagram.com/fetorus_mami/
 photo.26.tags: snow, tree
-photo.27: https://www.instagram.com/p/BqtCME1FAsc/media/?size=m
+photo.27: https://www.instagram.com/p/Brgi5wMlupB/media/?size=m
 photo.27.author: fetorus_mami
 photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.27.tags: snow, tree
-photo.28: https://www.instagram.com/p/Brgi5wMlupB/media/?size=m
-photo.28.author: fetorus_mami
-photo.28.link: https://www.instagram.com/fetorus_mami/
-photo.28.tags: snow
+photo.27.tags: snow
 species: 2
 zoo: 11
