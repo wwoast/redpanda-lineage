@@ -764,6 +764,8 @@ Show.acquireZooInfo = function(zoo, language) {
 // Examples:
 //    https://domain/index.html#panda/Lychee
 //    https://domain/index.html#panda/4
+// Animal links now use Unicode non-breaking spaces between
+// the gender icon and the name.
 Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
@@ -775,7 +777,7 @@ Show.animalLink = function(animal, link_text, language, options) {
     if (options.indexOf("dad_icon") != -1) {
       alien = Show.emoji.star_dad;
     }
-    return Show.emptyLink(alien + " " + link_text);
+    return Show.emptyLink(alien + "\xa0" + link_text);
   }
 
   // Set up values for other functions working properly
@@ -785,14 +787,14 @@ Show.animalLink = function(animal, link_text, language, options) {
   var inner_text = link_text;
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    inner_text = Show.displayChildIcon(gender) + " " + inner_text;
+    inner_text = Show.displayChildIcon(gender) + "\xa0" + inner_text;
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    inner_text = Show.emoji.mother + " " + inner_text;
+    inner_text = Show.emoji.mother + "\xa0" + inner_text;
   }
   if (options.indexOf("dad_icon") != -1) {
-    inner_text = Show.emoji.father + " " + inner_text;
+    inner_text = Show.emoji.father + "\xa0" + inner_text;
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
