@@ -1567,7 +1567,8 @@ Show.flexDivider = function(mode) {
 //   - No lists other than length 2 will get flattened
 Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
   var divider = undefined;
-  var order = 0;   /* Flex box order, determines display groupings */
+  var order = 0;   /* Flex box order, determines display groupings,
+                      Increment whenever we plan on making a new row */
 
   // Parent layout logic
   if (parents != undefined) {
@@ -1603,6 +1604,10 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Siblings layout logic
   if (siblings != undefined) {
+    if (Show.manySiblingsNoChildren(info)) {
+      parents.childNodes[1].classList.add('double');
+      parents.style.order = order++;
+    }
     family.appendChild(siblings);
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));

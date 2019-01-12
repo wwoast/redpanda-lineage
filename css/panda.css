@@ -558,6 +558,7 @@ ul.pandaList.double {
     column-width: 6.4em;
     column-gap: 10px;   /* Same as left padding */
     width: 100%;
+    flex-grow: 0.6;   /* Guestimating width of flex space for two columns */
 }
 
 ul.pandaList.triple {
@@ -1022,6 +1023,11 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
+    }
+
+    /* On small screens, not enough room */
+    ul.pandaList.triple {
+        column-count: 2;
     }
 
     ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
