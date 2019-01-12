@@ -1554,7 +1554,7 @@ Show.flexDivider = function(mode) {
   if ((mode != undefined) && (mode != true)) {
     divider.classList.add(mode);
   }
-  return flexDivider;
+  return divider;
 }
 
 // Given the parents/litter/siblings/children lists, apply classes
