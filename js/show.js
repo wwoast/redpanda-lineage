@@ -1663,7 +1663,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     family.appendChild(litter);
     // Add dividers as instructed by earlier layout checks.
     ((divider == false) && (distance++));
-    ((distance == 2) && (divider = "mobileOnly"));
+    ((distance == 2) && (divider = "onlyMobile"));
     ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && (distance = 0));
     ((distance == 0) && (divider = false));
   }
@@ -1693,7 +1693,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Add dividers as instructed by earlier layout checks. If it's two columns since a
     // break was added, add another one.
     ((divider == false) && (distance++));
-    ((distance == 2) && (divider = "mobileOnly"));
+    ((distance == 2) && (divider = "onlyMobile"));
     ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && (distance = 0));
     ((distance == 0) && (divider = false));
   }
