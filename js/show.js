@@ -24,6 +24,7 @@ var Q;   // Query stack
 var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
+var F;   // Layout tools for list visual optimization
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -764,6 +765,8 @@ Show.acquireZooInfo = function(zoo, language) {
 // Examples:
 //    https://domain/index.html#panda/Lychee
 //    https://domain/index.html#panda/4
+// Animal links now use Unicode non-breaking spaces between
+// the gender icon and the name.
 Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
@@ -775,7 +778,7 @@ Show.animalLink = function(animal, link_text, language, options) {
     if (options.indexOf("dad_icon") != -1) {
       alien = Show.emoji.star_dad;
     }
-    return Show.emptyLink(alien + " " + link_text);
+    return Show.emptyLink(alien + "\xa0" + link_text);
   }
 
   // Set up values for other functions working properly
@@ -783,24 +786,26 @@ Show.animalLink = function(animal, link_text, language, options) {
   var gender = Pandas.gender(animal, language);
   var a = document.createElement('a');
   var inner_text = link_text;
+  // Use non-breaking dashes
+  inner_text.replace('-', "\u2011");
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    inner_text = Show.displayChildIcon(gender) + " " + inner_text;
+    inner_text = Show.displayChildIcon(gender) + "\xa0" + inner_text;
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    inner_text = Show.emoji.mother + " " + inner_text;
+    inner_text = Show.emoji.mother + "\xa0" + inner_text;
   }
   if (options.indexOf("dad_icon") != -1) {
-    inner_text = Show.emoji.father + " " + inner_text;
+    inner_text = Show.emoji.father + "\xa0" + inner_text;
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
-    inner_text = inner_text + " " + "½"
+    inner_text = inner_text + "\xa0" + "½"
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
-    inner_text = inner_text + " " + Show.emoji.died;
+    inner_text = inner_text + "\xa0" + Show.emoji.died;
   }
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
@@ -1168,29 +1173,24 @@ Show.displayPandaFamily = function(info) {
       (info.children.length == 0))  {
     return family;   // No documented family
   }
+  var parents = undefined;
+  var litter = undefined;
+  var siblings = undefined;
+  var children = undefined;
   if (info.dad != undefined || info.mom != undefined) {
-    var parents = Show.displayPandaParents(info);
-    family.appendChild(parents);
+    parents = Show.displayPandaParents(info);
   }
   if (info.litter.length > 0) {
-    var litter = Show.displayPandaLitter(info);
-    family.appendChild(litter);
+    litter = Show.displayPandaLitter(info);
   }
   if (info.siblings.length > 0) {
-    var siblings = Show.displayPandaSiblings(info);
-    family.appendChild(siblings);
+    siblings = Show.displayPandaSiblings(info);
   }
   if (info.children.length > 0) {
-    var children = Show.displayPandaChildren(info);
-    family.appendChild(children);
+    children = Show.displayPandaChildren(info);
   }
-  // TODO: media queries. If four columns on mobile, swap
-  // litter and siblings columns to get better balancing.
-  // Four columns means the litter should be defined
-  if ((family.children.length == 4) &&
-      (window.matchMedia("(max-width: 670px)").matches == true)) {
-    family.childNodes[2].parentNode.insertBefore(family.childNodes[2], family.childNodes[1]);
-  }
+  var layout = Layout.init(family, info, parents, litter, siblings, children);
+  family = layout.layout();
   return family;
 }
 

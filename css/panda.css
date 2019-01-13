@@ -514,7 +514,7 @@ div.species h4 {
 }
 
 div.family {
-    display: block;
+    display: flex;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
 }
@@ -522,21 +522,78 @@ div.family {
 div.parents, div.litter, div.siblings, div.children, div.names {
     display: inline-block;
     vertical-align: top;
-    text-align: center;
-    max-width: 170px;
-    padding-right: 18px;
+    padding-left: 10px;
+    flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
 }
+
+/* Add these after an element to guarantee that its display will force a new flex line.
+   On Firefox, CSS "page-break-after" works for this, but on Chrome it does not. */
+hr.flexDivider {
+    display: block;
+    width: 100%;
+    border: 0px solid;
+    margin: 0 0 0 0;
+}
+
+hr.flexDivider.onlyMobile {
+    display: none;
+}
+
+/* For list layouts with a single div */
+div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.children.singleton, div.singleton {
+    width: 100%;
+    flex-grow: 1;
+}
+
+/* 
+// TODO: testing flex distribution of width
+div.parents.double, div.litter.double, div.siblings.double, div.children.double, div.double {
+    width: 60%;
+    flex-grow: 0.5;
+}
+*/
+
+/*
+// TODO: testing flex distribution of width
+div.siblings.double, div.children.double, div.siblings.triple, div.children.triple {
+    width: 100%;
+}
+*/
 
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
-    padding-left: 18px;
+    padding-left: 10px;
     margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+}
+
+ul.pandaList.double {
+    column-count: 2;
+    /* column-width: 6.4em; */
+    column-gap: 10px;   /* Same as left padding */
+}
+
+ul.pandaList.triple {
+    column-count: 3;
+    /* column-width: 6.4em; */
+    column-gap: 10px;   /* Same as left padding */
+}
+
+ul.pandaList.flat {
+    display: flex;   /* Want li children to flexibly grow */
+}
+
+ul.pandaList.flat li {
+    display: inline-block;   /* Force list items to flow horizontally */
+    flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
+    width: 6.4em;   /* Inline list items means that elements need width to not scrunch */
 }
 
 ul.pandaList li, ul.linkList li {
     padding-top: 0.25ex;
     padding-bottom: 0.5ex;
+    white-space: nowrap;
 }
 
 ul.pandaList li a.passedAway {
@@ -926,20 +983,32 @@ div.photoSample h5.caption.familyTitle {
         border: 0px solid;
     }
 
-    /* Masonry tricks: do vertical layout of ULs when
-       in mobile mode. */
     div.family {
-        column-count: 2;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    /* Masonry layout tricks: the column width must be 100%.
-       Zero the padding so it's not bigger than 100% */
     div.parents, div.litter, div.siblings, div.children, div.names {
-        width: 100%;
-        max-width: 148px;
-        padding-right: 6px;
         text-align: left;
-    } 
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        padding-left: 0px;
+    }
+
+    hr.flexDivider.onlyDesktop {
+        display: none;
+    }
+
+    hr.flexDivider.onlyMobile {
+        display: block;
+    }
+
+    /* On mobile, parents divs that break after display, must be width 100% and not singletons,
+       as the singletons are 100% on desktop mode too!
+    div.parents.onlyMobileBreakAfter {
+        width: 100%;
+    }
+    */
 
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
@@ -962,6 +1031,34 @@ div.photoSample h5.caption.familyTitle {
         list-style: none;
         text-align: left;
         padding-left: 14px;
+    }
+
+    /* Double-wide list containers on mobile just take up the full row width */
+    /* TODO -- debugging column spacing details
+    div.parents.double, div.litter.double, div.siblings.double, div.children.double, div.double {
+        width: 100%;
+    } */
+    
+    ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
+        width: auto;   /* Fill available space in flex */
+        height: auto;   /* And account for names in a li that are really long */
+    }
+
+    /* On small screens, not enough room */
+    ul.pandaList.triple {
+        column-count: 2;
+    }
+
+    ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
+        display: flex;   /* Want li children to flexibly grow */
+        flex-grow: 1;
+    }
+
+    ul.pandaList.flat li, ul.pandaList.onlyMobileFlat li {
+        display: inline-block;   /* Force list items to flow horizontally */
+        padding-right: 10px;
+        flex-grow: 1;   /* Force list items to expand to fill space */
+        width: 6.4em;
     }
 
     div.profileSummary {
