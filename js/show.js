@@ -1613,6 +1613,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Parent layout logic
   if (parents != undefined) {
+    parents.style.order = order;
+
     // Just parents? Make it flat on desktop and mobile
     if (Show.onlyParents(info)) {
       parents.classList.add('singleton');
@@ -1647,11 +1649,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Litter layout logic
   if (litter != undefined) {
+    litter.style.order = order;
+
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (Show.onlyLitter(info)) {
       litter.classList.add('singleton');
       litter.childNodes[1].classList.add('flat');
-      litter.style.order = order;
     }
     family.appendChild(litter);
     // Add dividers as instructed by earlier layout checks
@@ -1660,6 +1663,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Siblings layout logic
   if (siblings != undefined) {
+    siblings.style.order = order;
+
     // Spread out the siblings column if we have space
     if (Show.manySiblingsNoChildren(info)) {
       siblings.childNodes[1].classList.add('double');
@@ -1679,6 +1684,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Children layout logic
   if (children != undefined) {
+    children.style.order = order;
+    
     family.appendChild(children);
     // If litter is much shorter than siblings on mobile, apply ordering to change display
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
