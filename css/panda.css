@@ -550,7 +550,7 @@ div.parents.double, div.litter.double, div.siblings.double, div.children.double,
     flex-grow: 0.5;
 }
 
-div.siblings.double, div.children.double {
+div.siblings.double, div.children.double, div.siblings.triple, div.children.triple {
     width: 100%;   /* TODO: may need this class to be exclusion of others */
 }
 
@@ -566,14 +566,12 @@ ul.pandaList.double {
     column-count: 2;
     column-width: 6.4em;
     column-gap: 10px;   /* Same as left padding */
-    width: 100%;
 }
 
 ul.pandaList.triple {
     column-count: 3;
     column-width: 6.4em;
     column-gap: 10px;   /* Same as left padding */
-    width: 100%;
 }
 
 ul.pandaList.flat {
