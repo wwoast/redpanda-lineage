@@ -1677,8 +1677,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       order = siblings.style.order + 1;
       litter.style.order = order;
       // Take the sibling column height, subtract 90 for the parents div (always 3x30px), and move the
-      // litter column up accordingly.
-      height = siblings.height;
+      // litter column up accordingly. Since it's not rendered yet, estimate the height
+      height = (info.siblings.length + 1) * 30;
       litter.style.marginTop = ((height * -1) + 90).toString() + "px";
     }
 
@@ -1697,8 +1697,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       order = children.style.order + 1;
       litter.style.order = order;
       // Take the sibling column height, subtract 90 for the parents div (always 3x30px), and move the
-      // litter column up accordingly.
-      height = chidren.height;
+      // litter column up accordingly. Since it's not rendered yet, estimate the height
+      height = (info.children.length + 1) * 30;
       litter.style.marginTop = ((height * -1) + 90).toString() + "px";
     }
     // Add dividers as instructed by earlier layout checks
