@@ -130,9 +130,27 @@ Layout.L.checks.twoLongChildrenAndSiblingsLists = function() {
   return (this.num.siblings >= 6) && (this.num.children >= 6);
 }
 
+Layout.L.div = {}
+Layout.L.div.order = 0;
+/* Take a div list, and apply flatten classes to it. When adding a flattened class,
+   we need to add a line-break entity afterwards, and bump the flex box display
+   order of subsequent inserted divs. */
+Layout.L.div.flatten = function(div, mobileOnly=false) {
+  if (mobileOnly == true) {
+    div.childNodes[1].classList.add("mobileOnlyFlat");
+    div.style.order = this.order++;
+  } else {
+    // Mobile and Desktop flattened divs generally only appear alone, so give
+    // them a 100%-width singleton entry into the family list.
+    div.classList.add("singleton");
+    div.childNodes[1].classList.add("flat");
+  }
+  return div;
+}
+
 // Adds a divider. The mode doubles as a flag to describe whether or not flex
 // dividers are necessary, so filter out "true" and "false" for class names
-Layout.L.flexDivider = function(mode) {
+Layout.L.div.flexDivider = function(mode) {
   var divider = document.createElement('hr');
   divider.className = "flexDivider";
   if ((mode != false) && (mode != true)) {
@@ -140,6 +158,7 @@ Layout.L.flexDivider = function(mode) {
   }
   return divider;
 }
+
 
 /* The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
@@ -158,28 +177,23 @@ Layout.L.layout = function() {
 
     // Just parents? Make it flat on desktop and mobile
     if (this.checks.onlyParentsNotOthers()) {
-      this.parents.classList.add('singleton');
-      this.parents.childNodes[1].classList.add('flat');
-      this.parents.style.order = order++;
+      this.parents = this.div.flatten(this.parents, mobileOnly=false);
     }
     // If small number of siblings or children
     if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
-      this.parents.childNodes[1].classList.add('onlyMobileFlat');
-      this.parents.style.order = order++;
+      this.parents = this.div.flatten(this.parents, mobileOnly=true);
       divider = "onlyMobile";
     }
     // If no litter column on mobile, and five or more children or siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
-      this.parents.childNodes[1].classList.add('onlyMobileFlat');
-      this.parents.style.order = order++;
+      this.parents = this.div.flatten(this.parents, mobileOnly=true);
       divider = "onlyMobile";
     }
     // If no litter column, and two short columns of children and siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
-      this.parents.childNodes[1].classList.add('onlyMobileFlat');
-      this.parents.style.order = order++;
+      this.parents = this.div.flatten(this.parents, mobileOnly=true);
       divider = "onlyMobile";
     }
 
@@ -187,7 +201,7 @@ Layout.L.layout = function() {
     this.family.appendChild(this.parents);
     // Add dividers as instructed by earlier layout checks
     ((divider == false) && (distance++));
-    ((divider != false) && (this.family.appendChild(this.flexDivider(divider))) && (distance = 0));
+    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
     ((distance == 0) && (divider = false));
   }
 
@@ -197,15 +211,14 @@ Layout.L.layout = function() {
 
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (this.checks.onlyLitterNotOthers()) {
-      this.litter.classList.add('singleton');
-      this.litter.childNodes[1].classList.add('flat');
+      this.litter = this.div.flatten(this.litter, mobileOnly=false);
     }
 
     this.family.appendChild(this.litter);
     // Add dividers as instructed by earlier layout checks.
     ((divider == false) && (distance++));
     ((distance == 2) && (divider = "onlyMobile"));
-    ((divider != false) && (this.family.appendChild(this.flexDivider(divider))) && (distance = 0));
+    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
     ((distance == 0) && (divider = false));
   }
 
@@ -244,7 +257,7 @@ Layout.L.layout = function() {
     // break was added, add another one.
     ((divider == false) && (distance++));
     ((distance == 2) && (divider = "onlyMobile"));
-    ((divider != false) && (this.family.appendChild(this.flexDivider(divider))) && (distance = 0));
+    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
     ((distance == 0) && (divider = false));
   }
 
