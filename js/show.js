@@ -799,11 +799,11 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
-    inner_text = inner_text + " " + "½"
+    inner_text = inner_text + "\xa0" + "½"
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
-    inner_text = inner_text + " " + Show.emoji.died;
+    inner_text = inner_text + "\xa0" + Show.emoji.died;
   }
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
