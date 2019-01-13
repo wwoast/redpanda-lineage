@@ -1671,10 +1671,15 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       siblings.style.order = order++;
     }
     family.appendChild(siblings);
-    // If litter is much shorter than siblings on mobile, apply ordering to change display
+    // If litter is much shorter than siblings on mobile, apply ordering to change display.
+    // This is only done once so it won't work when changing orientations in Web Inspector.
     if ((Show.litterExists(info)) && Show.onlySiblingsNotChildren(info) && Show.smallWidthScreen()) {
       order = siblings.style.order + 1;
       litter.style.order = order;
+      // Take the sibling column height, subtract 90 for the parents div (always 3x30px), and move the
+      // litter column up accordingly.
+      height = siblings.height;
+      litter.style.marginTop = ((height * -1) + 90).toString() + "px";
     }
 
     // Add dividers as instructed by earlier layout checks
@@ -1686,10 +1691,15 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     children.style.order = order;
 
     family.appendChild(children);
-    // If litter is much shorter than siblings on mobile, apply ordering to change display
+    // If litter is much shorter than siblings on mobile, apply ordering to change display.
+    // This is only done once so it won't work when changing orientations in Web Inspector.
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
       order = children.style.order + 1;
       litter.style.order = order;
+      // Take the sibling column height, subtract 90 for the parents div (always 3x30px), and move the
+      // litter column up accordingly.
+      height = chidren.height;
+      litter.style.marginTop = ((height * -1) + 90).toString() + "px";
     }
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
