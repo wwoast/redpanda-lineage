@@ -17,11 +17,13 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     // Set up item counts, since this is easier than pulling them from HTML.
     // Either both parents are displayed (one as undefined), or neither.
     if ((info.dad != undefined) || (info.mom != undefined)) {
-        layout.count.parents = 2;
+        layout.num.parents = 2;
     }
-    layout.count.litter = info.litter.length;
-    layout.count.siblings = info.siblings.length;
-    layout.count.children = info.children.length;
+    layout.num.litter = info.litter.length;
+    layout.num.siblings = info.siblings.length;
+    layout.num.children = info.children.length;
+    // Make sure checks can see this object's counts
+    layout.checks.num = layout.num;
     // Set up the divs themselves
     layout.family = family;
     layout.parents = parents;
@@ -31,31 +33,31 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     return layout;
 }
 
-Layout.num = {};
-Layout.num.parents = 0;
-Layout.num.litter = 0;
-Layout.num.siblings = 0;
-Layout.num.children = 0;
+Layout.L.num = {};
+Layout.L.num.parents = 0;
+Layout.L.num.litter = 0;
+Layout.L.num.siblings = 0;
+Layout.L.num.children = 0;
 
-Layout.family = undefined;   /* Output of this layout tool */
-Layout.parents = undefined;
-Layout.litter = undefined;
-Layout.siblings = undefined;
-Layout.children = undefined;
+Layout.L.family = undefined;   /* Output of this layout tool */
+Layout.L.parents = undefined;
+Layout.L.litter = undefined;
+Layout.L.siblings = undefined;
+Layout.L.children = undefined;
 
-Layout.arrangements = {};
+Layout.L.arrangements = {};
 // TOWRITE: define arrangements here, instead of nesting them in the generate.layout.
 // Include column swaps, tr swaps, and things in these functions.
 
-Layout.checks = {};
+Layout.L.checks = {};
 // If children and siblings within one animal difference of each other in size,
 // return true. Ignore lists longer than a mobile page height in length (7 or greater)
-Layout.checks.balancedChildrenAndSiblings = function() {
+Layout.L.checks.balancedChildrenAndSiblings = function() {
   var difference = this.num.siblings - this.num.children;
-  return ((this.checks.between(difference, -1, 1, "inclusive")) &&
+  return ((this.between(difference, -1, 1, "inclusive")) &&
           (this.num.siblings < 7) && (this.num.chidren < 7));
 }
-Layout.checks.between = function(test, a, b, mode) {
+Layout.L.checks.between = function(test, a, b, mode) {
   if (mode == "exclusive") {
     return (test > a) && (test < b);
   } else if (mode == "left inclusive") {
@@ -66,71 +68,71 @@ Layout.checks.between = function(test, a, b, mode) {
     return (test >= a) && (test <= b);
   }
 }
-Layout.checks.litterExists = function() {
+Layout.L.checks.litterExists = function() {
   return this.num.litter > 0;
 }
 // Five or more children, and no other litter/children
-Layout.checks.manyChildrenNoSiblings = function() {
+Layout.L.checks.manyChildrenNoSiblings = function() {
   return ((this.num.children >= 5) && (this.num.litter == 0) &&
           (this.num.siblings == 0));
 }
 // Five or more siblings, and no other litter/children
-Layout.checks.manySiblingsNoChildren = function() {
+Layout.L.checks.manySiblingsNoChildren = function() {
   return ((this.num.siblings >= 5) && (this.num.litter == 0) &&
           (this.num.children == 0));
 }
-Layout.checks.onlyChildrenNotSiblings = function() {
+Layout.L.checks.onlyChildrenNotSiblings = function() {
   return (this.num.children > 0) && (this.num.siblings == 0);
 }
-Layout.checks.onlyLitterNotOthers = function() {
+Layout.L.checks.onlyLitterNotOthers = function() {
   return ((this.num.parents == 0) && (this.num.litter > 0) &&
           (this.num.siblings == 0) && (this.num.children == 0));
 }
-Layout.checks.onlyParentsNotOthers = function() {
+Layout.L.checks.onlyParentsNotOthers = function() {
   return ((this.num.parents > 0) && (this.num.litter == 0) && 
           (this.num.siblings == 0) && (this.num.childen == 0));
 }
-Layout.checks.onlySiblingsNotChildren = function() {
+Layout.L.checks.onlySiblingsNotChildren = function() {
   return (this.num.siblings > 0) && (this.num.children == 0);
 }
 // If no litter, but at least one siblings and children column plus parents, return true
-Layout.checks.parentsButNoLitter = function() {
+Layout.L.checks.parentsButNoLitter = function() {
   return ((this.num.parents > 0) && (this.num.litter == 0) &&
           ((this.num.siblings > 0) || (this.num.children > 0)));
 }
 // If we have twice as many children as siblings, factor=2 will return true
-Layout.checks.ratioChildrenToSiblings = function(factor) {
+Layout.L.checks.ratioChildrenToSiblings = function(factor) {
   var ctos = this.num.children / this.num.siblings;
   var stoc = this.num.siblings / this.num.children;
   return (ctos >= factor) || (stoc >= factor);
 }
-Layout.checks.singleChildrenOrSiblingsList = function() {
-  return ((this.checks.onlyChildrenNotSiblings()) || this.checks.onlySiblingsNotChildren());
+Layout.L.checks.singleChildrenOrSiblingsList = function() {
+  return ((this.onlyChildrenNotSiblings()) || this.onlySiblingsNotChildren());
 }
 // Have only a single column of at least five children or five siblings.
-Layout.checks.singleLongChildrenOrSiblingsList = function() {
-  return ((this.checks.manyChildrenNoSiblings()) || (this.checks.manySiblingsNoChildren()));
+Layout.L.checks.singleLongChildrenOrSiblingsList = function() {
+  return ((this.manyChildrenNoSiblings()) || (this.manySiblingsNoChildren()));
 }
 // Have only a single column of less than five children or five siblings
-Layout.checks.singleShortChildrenOrSiblingsList = function() {
-  return ((this.checks.onlyOneOfSiblingsOrChildrenLists()) && 
+Layout.L.checks.singleShortChildrenOrSiblingsList = function() {
+  return ((this.onlyOneOfSiblingsOrChildrenLists()) && 
           (this.num.children < 5) && (this.num.siblings < 5));
 }
 // Determine if in mobile/portrait mode for layout tasks
-Layout.checks.smallScreen = function() {
+Layout.L.checks.smallScreen = function() {
   return (window.matchMedia("(max-width: 670px)").matches == true);
 }
-Layout.checks.twoShortChildrenAndSiblingsLists = function() {
-  return (this.checks.between(this.num.children, 2, 5, "inclusive") &&
-          this.checks.between(this.num.siblings, 2, 5, "inclusive"));
+Layout.L.checks.twoShortChildrenAndSiblingsLists = function() {
+  return (this.between(this.num.children, 2, 5, "inclusive") &&
+          this.between(this.num.siblings, 2, 5, "inclusive"));
 }
-Layout.checks.twoLongChildrenAndSiblingsLists = function() {
+Layout.L.checks.twoLongChildrenAndSiblingsLists = function() {
   return (this.num.siblings >= 6) && (this.num.children >= 6);
 }
 
 // Adds a divider. The mode doubles as a flag to describe whether or not flex
 // dividers are necessary, so filter out "true" and "false" for class names
-Layout.flexDivider = function(mode) {
+Layout.L.flexDivider = function(mode) {
   var divider = document.createElement('hr');
   divider.className = "flexDivider";
   if ((mode != false) && (mode != true)) {
@@ -142,7 +144,7 @@ Layout.flexDivider = function(mode) {
 /* The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
    what the best layout should be for each possible set of inputs. */
-Layout.layout = function() {
+Layout.L.layout = function() {
   // TOWRITE. don't do parents/children/siblings/etc divs separately. Write out tons of code,
   // and make it so that each path is as shallow as possible.
   var divider = false;
@@ -250,7 +252,7 @@ Layout.layout = function() {
   if (this.children != undefined) {
     this.children.style.order = order;
 
-    this.family.appendChild(children);
+    this.family.appendChild(this.children);
     // If litter is much shorter than children on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
@@ -273,5 +275,5 @@ Layout.layout = function() {
 
     // No more dividers to add after children
   }
-  return Layout.family;
+  return this.family;
 }
