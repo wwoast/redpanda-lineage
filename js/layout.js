@@ -186,7 +186,6 @@ Layout.L.layout = function() {
   // Parent layout logic
   if (this.parents != undefined) {
     this.parents.style.order = order;
-
     // Just parents? Make it flat on desktop and mobile
     if (this.checks.onlyParentsNotOthers()) {
       this.parents = this.div.flatten(this.parents, mobileOnly=false);
@@ -208,7 +207,6 @@ Layout.L.layout = function() {
       this.parents = this.div.flatten(this.parents, mobileOnly=true);
       divider = "onlyMobile";
     }
-
     // Append parents div to the family display
     this.family.appendChild(this.parents);
     // Add dividers as instructed by earlier layout checks
@@ -225,7 +223,7 @@ Layout.L.layout = function() {
     if (this.checks.onlyLitterNotOthers()) {
       this.litter = this.div.flatten(this.litter, mobileOnly=false);
     }
-
+    // Append litter div to the family display
     this.family.appendChild(this.litter);
     // Add dividers as instructed by earlier layout checks.
     ((divider == false) && (distance++));
@@ -242,7 +240,7 @@ Layout.L.layout = function() {
     if (this.checks.manySiblingsNoChildren()) {
       this.siblings = this.div.multiColumn(this.siblings, 2);
     }
-
+    // Append siblings div to the family display
     this.family.appendChild(this.siblings);
     // If litter is much shorter than siblings on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
@@ -280,7 +278,7 @@ Layout.L.layout = function() {
     if (this.checks.manyChildrenNoSiblings()) {
       this.children = this.div.multiColumn(this.children, 2);
     }
-
+    // Append children div to the family display
     this.family.appendChild(this.children);
     // If litter is much shorter than children on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
