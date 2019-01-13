@@ -550,6 +550,10 @@ div.parents.double, div.litter.double, div.siblings.double, div.children.double,
     flex-grow: 0.5;
 }
 
+div.siblings.double, div.children.double {
+    width: 100%;   /* TODO: may need this class to be exclusion of others */
+}
+
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;

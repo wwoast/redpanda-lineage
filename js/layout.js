@@ -215,7 +215,7 @@ Layout.L.layout = function() {
 
     // Spread out the siblings column if we have space
     if (this.checks.manySiblingsNoChildren()) {
-      this.siblings.childNodes[1].classList.add('double');
+      this.siblings.classList.add('double');
       this.siblings.style.order = order++;
     }
 
@@ -251,6 +251,12 @@ Layout.L.layout = function() {
   // Children layout logic
   if (this.children != undefined) {
     this.children.style.order = order;
+
+    // Spread out the children column if we have space
+    if (this.checks.manyChildrenNoSiblings()) {
+      this.children.classList.add('double');
+      this.children.style.order = order++;
+    }
 
     this.family.appendChild(this.children);
     // If litter is much shorter than children on mobile, apply ordering to change display.
