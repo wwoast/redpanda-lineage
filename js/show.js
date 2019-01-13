@@ -1190,10 +1190,7 @@ Show.displayPandaFamily = function(info) {
   // TODO: media queries. If four columns on mobile, swap
   // litter and siblings columns to get better balancing.
   // Four columns means the litter should be defined
-  if ((family.children.length == 4) &&
-      (window.matchMedia("(max-width: 670px)").matches == true)) {
-    family.childNodes[2].parentNode.insertBefore(family.childNodes[2], family.childNodes[1]);
-  }
+  // TODO: rewrite balancing based on flexbox order
   return family;
 }
 
