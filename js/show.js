@@ -1683,6 +1683,10 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if ((Show.litterExists(info)) && Show.onlySiblingsNotChildren(info) && Show.smallWidthScreen()) {
       order = siblings.style.order + 1;
       litter.style.order = order;
+      // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
+      // and move the litter column up accordingly. Estimate the height since it's not rendered yet
+      height = (info.siblings.length + 1) * 30;
+      litter.style.marginTop = ((height * -1) + 90).toString() + "px";
       // When doing a swap, move the line break element that might exist after the litter, to
       // after the sibling instead.
       var divBreak = litter.nextSibling;
@@ -1708,6 +1712,10 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
       order = children.style.order + 1;
       litter.style.order = order;
+      // Take the children column height, subtract 90 for the parents div (always 3*30px),
+      // and move the litter column up accordingly. Estimate the height since it's not rendered yet
+      height = (info.children.length + 1) * 30;
+      litter.style.marginTop = ((height * -1) + 90).toString() + "px";
       // When doing a swap, move the line break element that might exist after the litter, to
       // after the children instead.
       var divBreak = litter.nextSibling;
