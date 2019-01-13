@@ -196,7 +196,7 @@ Layout.L.layout = function() {
     this.litter.style.order = order;
 
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
-    if (this.checks.onlyLitterNoOthers()) {
+    if (this.checks.onlyLitterNotOthers()) {
       this.litter.classList.add('singleton');
       this.litter.childNodes[1].classList.add('flat');
     }
