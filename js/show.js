@@ -1592,7 +1592,8 @@ Show.manyChildrenAndSiblings = function(info) {
 Show.flexDivider = function(mode) {
   var divider = document.createElement('hr');
   divider.className = "flexDivider";
-  if ((mode != undefined) && (mode != true)) {
+  // If we got a class name to add, include it here
+  if ((mode != false) && (mode != true)) {
     divider.classList.add(mode);
   }
   return divider;
@@ -1607,7 +1608,7 @@ Show.flexDivider = function(mode) {
 //   - No lists shorter than 5 will get multicolumn-split
 //   - No lists other than length 2 will get flattened
 Show.familyListLayout = function(family, info, parents, litter, siblings, children) {
-  var divider = undefined;
+  var divider = false;
   var order = 0;   /* Flex box order, determines display groupings,
                       Increment whenever we plan on making a new row */
   var distance = 0;   /* Distance since the last line break */
@@ -1645,9 +1646,9 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Append parents div to the family display
     family.appendChild(parents);
     // Add dividers as instructed by earlier layout checks
-    ((divider == undefined) && (distance++));
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
-     (distance = 0) && (divider = undefined));
+    ((divider == false) && (distance++));
+    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = false));
   }
 
   // Litter layout logic
@@ -1661,10 +1662,10 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     }
     family.appendChild(litter);
     // Add dividers as instructed by earlier layout checks.
-    ((divider == undefined) && (distance++));
+    ((divider == false) && (distance++));
     ((distance == 2) && (divider = "mobileOnly"));
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
-     (distance = 0) && (divider = undefined));
+    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = false));
   }
 
   // Siblings layout logic
@@ -1691,10 +1692,10 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
     // Add dividers as instructed by earlier layout checks. If it's two columns since a
     // break was added, add another one.
-    ((divider == undefined) && (distance++));
+    ((divider == false) && (distance++));
     ((distance == 2) && (divider = "mobileOnly"));
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
-     (distance = 0) && (divider = undefined));
+    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = false));
   }
 
   // Children layout logic
@@ -1713,7 +1714,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       family.removeChild(litter.nextSibling);
       children.parentNode.insertBefore(divBreak, children.nextSibling);
     }
-    
+
     // No more dividers to add after children
   }
   return family;
