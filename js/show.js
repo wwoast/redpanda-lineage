@@ -1187,7 +1187,8 @@ Show.displayPandaFamily = function(info) {
   if (info.children.length > 0) {
     children = Show.displayPandaChildren(info);
   }
-  family = Show.familyListLayout(family, info, parents, litter, siblings, children);
+  var layout = Layout.init(family, info, parents, litter, siblings, children);
+  family = layout.layout();
   return family;
 }
 
