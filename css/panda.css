@@ -576,12 +576,12 @@ ul.pandaList.triple {
 
 ul.pandaList.flat {
     display: flex;   /* Want li children to flexibly grow */
-    height: 35pt;
 }
 
 ul.pandaList.flat li {
     display: inline-block;   /* Force list items to flow horizontally */
     flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
+    width: 6.4em;
 }
 
 ul.pandaList li, ul.linkList li {
@@ -1044,7 +1044,6 @@ div.photoSample h5.caption.familyTitle {
 
     ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
         display: flex;   /* Want li children to flexibly grow */
-        height: 35pt;
         flex-grow: 1;
     }
 
