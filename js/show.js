@@ -1653,7 +1653,6 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Litter layout logic
   if (litter != undefined) {
     litter.style.order = order;
-    count = count + 1;
 
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (Show.onlyLitter(info)) {
