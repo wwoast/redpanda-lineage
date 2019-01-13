@@ -131,6 +131,8 @@ Layout.L.checks.twoLongChildrenAndSiblingsLists = function() {
 }
 
 Layout.L.div = {}
+// Flex box order. Determines display groupings.
+// Increment whenever we plan on making a new row.
 Layout.L.div.order = 0;
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
    we need to add a line-break entity afterwards, and bump the flex box display
@@ -148,6 +150,19 @@ Layout.L.div.flatten = function(div, mobileOnly=false) {
   return div;
 }
 
+/* Take a div list, and apply a column-mode class to it. */
+Layout.L.div.multiColumn = function(div, columnCount=2) {
+  if (columnCount == 2) {
+    div.childNodes[1].classList.add("double");
+    div.style.order = this.order++;
+  }
+  if (columnCount == 3) {
+    div.childNodes[1].classList.add("triple");
+    div.style.order = this.order++;
+  }
+  return div;
+}
+
 // Adds a divider. The mode doubles as a flag to describe whether or not flex
 // dividers are necessary, so filter out "true" and "false" for class names
 Layout.L.div.flexDivider = function(mode) {
@@ -159,7 +174,6 @@ Layout.L.div.flexDivider = function(mode) {
   return divider;
 }
 
-
 /* The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
    what the best layout should be for each possible set of inputs. */
@@ -167,8 +181,6 @@ Layout.L.layout = function() {
   // TOWRITE. don't do parents/children/siblings/etc divs separately. Write out tons of code,
   // and make it so that each path is as shallow as possible.
   var divider = false;
-  var order = 0;   /* Flex box order, determines display groupings,
-                      Increment whenever we plan on making a new row */
   var distance = 0;   /* Distance since the last line break */
 
   // Parent layout logic
@@ -207,7 +219,7 @@ Layout.L.layout = function() {
 
   // Litter layout logic
   if (this.litter != undefined) {
-    this.litter.style.order = order;
+    this.litter.style.order = this.div.order;
 
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (this.checks.onlyLitterNotOthers()) {
@@ -224,12 +236,11 @@ Layout.L.layout = function() {
 
   // Siblings layout logic
   if (this.siblings != undefined) {
-    this.siblings.style.order = order;
+    this.siblings.style.order = this.div.order;
 
     // Spread out the siblings column if we have space
     if (this.checks.manySiblingsNoChildren()) {
-      this.siblings.childNodes[1].classList.add('double');
-      this.siblings.style.order = order++;
+      this.siblings = this.div.multiColumn(this.siblings, 2);
     }
 
     this.family.appendChild(this.siblings);
@@ -237,7 +248,7 @@ Layout.L.layout = function() {
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
-      order = this.siblings.style.order + 1;
+      var order = this.siblings.style.order + 1;
       this.litter.style.order = order;
       // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
       // and move the litter column up accordingly. Estimate the height since it's not rendered yet
@@ -263,12 +274,11 @@ Layout.L.layout = function() {
 
   // Children layout logic
   if (this.children != undefined) {
-    this.children.style.order = order;
+    this.children.style.order = this.div.order;
 
     // Spread out the children column if we have space
     if (this.checks.manyChildrenNoSiblings()) {
-      this.children.childNodes[1].classList.add('double');
-      this.children.style.order = order++;
+      this.children = this.div.multiColumn(this.children, 2);
     }
 
     this.family.appendChild(this.children);
@@ -276,7 +286,7 @@ Layout.L.layout = function() {
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
-      order = this.children.style.order + 1;
+      var order = this.children.style.order + 1;
       this.litter.style.order = order;
       // Take the children column height, subtract 90 for the parents div (always 3*30px),
       // and move the litter column up accordingly. Estimate the height since it's not rendered yet
