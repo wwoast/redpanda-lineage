@@ -589,7 +589,6 @@ ul.pandaList.flat li {
 ul.pandaList li, ul.linkList li {
     padding-top: 0.25ex;
     padding-bottom: 0.5ex;
-    white-space: nowrap;
 }
 
 ul.pandaList li a.passedAway {
