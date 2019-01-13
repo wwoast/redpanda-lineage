@@ -264,7 +264,7 @@ Layout.L.layout = function() {
     // If litter is much shorter than children on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
-    if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && Show.smallScreen()) {
+    if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
       order = this.children.style.order + 1;
       this.litter.style.order = order;
       // Take the children column height, subtract 90 for the parents div (always 3*30px),
