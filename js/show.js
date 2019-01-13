@@ -1176,19 +1176,15 @@ Show.displayPandaFamily = function(info) {
   var children = undefined;
   if (info.dad != undefined || info.mom != undefined) {
     parents = Show.displayPandaParents(info);
-    family.appendChild(parents);
   }
   if (info.litter.length > 0) {
     litter = Show.displayPandaLitter(info);
-    family.appendChild(litter);
   }
   if (info.siblings.length > 0) {
     siblings = Show.displayPandaSiblings(info);
-    family.appendChild(siblings);
   }
   if (info.children.length > 0) {
     children = Show.displayPandaChildren(info);
-    family.appendChild(children);
   }
   family = Show.familyListLayout(family, info, parents, litter, siblings, children);
   // TODO: media queries. If four columns on mobile, swap
@@ -1587,14 +1583,14 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // If small number of siblings or children
     if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
-      divider = "onlyMobile";
       parents.style.order = order++;
+      divider = "onlyMobile";
     }
     // If no litter column on mobile, flatten the parents before doing others
     if ((Show.parentsButNoLitter(info))) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
-      divider = "onlyMobile";
       parents.style.order = order++;
+      divider = "onlyMobile";
     }
     family.appendChild(parents);
     // Add dividers as instructed by earlier layout checks
