@@ -1475,6 +1475,10 @@ Show.displayZooTitle = function(info) {
 
 // Conditionals for arrangements of pandas, to simplify typing the familyListLayout
 // checks for things.
+Show.smallWidthScreen = functtion() {
+  return (window.matchMedia("(max-width: 670px)").matches == true);
+}
+
 Show.bothParentsDocumented = function(info) {
   return ((info.dad != undefined) && (info.mom != undefined));
 }
@@ -1485,6 +1489,10 @@ Show.lessThanFiveChildren = function(info) {
 
 Show.lessThanFiveSiblings = function(info) {
   return info.siblings.length < 5;
+}
+
+Show.litterExists = function(info) {
+  return info.litter.length >= 1;
 }
 
 Show.neitherParentsDocumented = function(info) {
@@ -1631,6 +1639,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       parents.style.order = order++;
       divider = "onlyMobile";
     }
+    // Append parents div to the family display
     family.appendChild(parents);
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
@@ -1651,11 +1660,19 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
 
   // Siblings layout logic
   if (siblings != undefined) {
+    // Spread out the siblings column if we have space
     if (Show.manySiblingsNoChildren(info)) {
       siblings.childNodes[1].classList.add('double');
       siblings.style.order = order++;
     }
     family.appendChild(siblings);
+    // If litter is much shorter than siblings on mobile, apply ordering to change display
+    if ((Show.litterExists(info)) && Show.onlySiblingsNotChildren(info) && Show.smallWidthScreen()) {
+      var tmp = siblings.style.order;
+      siblings.style.order = litter.style.order;
+      litter.style.order = tmp;
+    }
+
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
@@ -1663,6 +1680,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Children layout logic
   if (children != undefined) {
     family.appendChild(children);
+    // If litter is much shorter than siblings on mobile, apply ordering to change display
+    if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
+      var tmp = children.style.order;
+      children.style.order = litter.style.order;
+      litter.style.order = tmp;
+    }
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
   }
