@@ -1664,8 +1664,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Add dividers as instructed by earlier layout checks.
     ((divider == false) && (distance++));
     ((distance == 2) && (divider = "mobileOnly"));
-    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && 
-     (distance = 0) && (divider = false));
+    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && (distance = 0))
+    ((distance == 0) && (divider = false));
   }
 
   // Siblings layout logic
@@ -1694,8 +1694,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // break was added, add another one.
     ((divider == false) && (distance++));
     ((distance == 2) && (divider = "mobileOnly"));
-    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && 
-     (distance = 0) && (divider = false));
+    ((divider != false) && (family.appendChild(Show.flexDivider(divider))) && (distance = 0))
+    ((distance == 0) && (divider = false));
   }
 
   // Children layout logic
