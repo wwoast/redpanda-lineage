@@ -1610,6 +1610,7 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   var divider = undefined;
   var order = 0;   /* Flex box order, determines display groupings,
                       Increment whenever we plan on making a new row */
+  var distance = 0;   /* Distance since the last line break */
 
   // Parent layout logic
   if (parents != undefined) {
@@ -1644,12 +1645,15 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // Append parents div to the family display
     family.appendChild(parents);
     // Add dividers as instructed by earlier layout checks
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
+    ((divider == undefined) && (distance++));
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = undefined));
   }
 
   // Litter layout logic
   if (litter != undefined) {
     litter.style.order = order;
+    count = count + 1;
 
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (Show.onlyLitter(info)) {
@@ -1657,8 +1661,11 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       litter.childNodes[1].classList.add('flat');
     }
     family.appendChild(litter);
-    // Add dividers as instructed by earlier layout checks
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
+    // Add dividers as instructed by earlier layout checks.
+    ((divider == undefined) && (distance++));
+    ((distance == 2) && (divider = "mobileOnly"));
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = undefined));
   }
 
   // Siblings layout logic
@@ -1678,8 +1685,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       litter.style.order = order;
     }
 
-    // Add dividers as instructed by earlier layout checks
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
+    // Add dividers as instructed by earlier layout checks. If it's two columns since a
+    // break was added, add another one.
+    ((divider == undefined) && (distance++));
+    ((distance == 2) && (divider = "mobileOnly"));
+    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && 
+     (distance = 0) && (divider = undefined));
   }
 
   // Children layout logic
@@ -1687,14 +1698,13 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     children.style.order = order;
 
     family.appendChild(children);
-    // If litter is much shorter than siblings on mobile, apply ordering to change display.
+    // If litter is much shorter than children on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
       order = children.style.order + 1;
       litter.style.order = order;
     }
-    // Add dividers as instructed by earlier layout checks
-    ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
+    // No more dividers to add after children
   }
   return family;
 }
