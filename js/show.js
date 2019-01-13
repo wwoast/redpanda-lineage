@@ -1542,6 +1542,11 @@ Show.singleShortChildrenOrSiblingsColumn = function(info) {
           (Show.lessThanFiveSiblings(info)))
 }
 
+Show.twoShortSiblingAndChildrenColumns = function(info) {
+  return (((info.children.length >= 2) && (info.children.length <= 5)) &&
+          ((info.siblings.length >= 2) && (info.siblings.length <= 5)));
+}
+
 Show.someChildrenAndSiblings = function(info) {
   // Between 2 and 4 siblings and 2 and 4 children
   return ((info.litter.length == 0) && 
@@ -1615,6 +1620,13 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     // If no litter column on mobile, and five or more children or siblings, 
     // flatten the parents before doing others
     if ((Show.parentsButNoLitter(info)) && Show.singleLongChildrenOrSiblingsColumn(info)) {
+      parents.childNodes[1].classList.add('onlyMobileFlat');
+      parents.style.order = order++;
+      divider = "onlyMobile";
+    }
+    // If no litter column, and two short columns of children and siblings, 
+    // flatten the parents before doing others
+    if ((Show.parentsButNoLitter(info)) && (Show.twoShortSiblingAndChildrenColumns(info))) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
       parents.style.order = order++;
       divider = "onlyMobile";
