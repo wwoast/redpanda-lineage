@@ -185,7 +185,7 @@ Layout.L.layout = function() {
 
   // Parent layout logic
   if (this.parents != undefined) {
-    this.parents.style.order = order;
+    this.parents.style.order = this.div.order;
     // Just parents? Make it flat on desktop and mobile
     if (this.checks.onlyParentsNotOthers()) {
       this.parents = this.div.flatten(this.parents, mobileOnly=false);
