@@ -90,7 +90,7 @@ Layout.L.checks.onlyLitterNotOthers = function() {
 }
 Layout.L.checks.onlyParentsNotOthers = function() {
   return ((this.num.parents > 0) && (this.num.litter == 0) && 
-          (this.num.siblings == 0) && (this.num.childen == 0));
+          (this.num.siblings == 0) && (this.num.children == 0));
 }
 Layout.L.checks.onlySiblingsNotChildren = function() {
   return (this.num.siblings > 0) && (this.num.children == 0);
@@ -163,21 +163,21 @@ Layout.L.layout = function() {
       this.parents.style.order = order++;
     }
     // If small number of siblings or children
-    if ((this.checks.manyChildrenNoSiblings()) || (this.checks.manySiblingsNoChildren())) {
+    if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
       this.parents.childNodes[1].classList.add('onlyMobileFlat');
       this.parents.style.order = order++;
       divider = "onlyMobile";
     }
     // If no litter column on mobile, and five or more children or siblings, 
     // flatten the parents before doing others
-    if ((this.checks.parentsButNoLitter()) && this.checks.singleLongChildrenOrSiblingsList()) {
+    if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
       this.parents.childNodes[1].classList.add('onlyMobileFlat');
       this.parents.style.order = order++;
       divider = "onlyMobile";
     }
     // If no litter column, and two short columns of children and siblings, 
     // flatten the parents before doing others
-    if ((this.checks.parentsButNoLitter()) && (this.checks.twoShortChildrenAndSiblingsLists())) {
+    if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
       this.parents.childNodes[1].classList.add('onlyMobileFlat');
       this.parents.style.order = order++;
       divider = "onlyMobile";
