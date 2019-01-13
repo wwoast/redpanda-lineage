@@ -786,6 +786,8 @@ Show.animalLink = function(animal, link_text, language, options) {
   var gender = Pandas.gender(animal, language);
   var a = document.createElement('a');
   var inner_text = link_text;
+  // Use non-breaking dashes
+  inner_text.replace('-', "\u2011");
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
     inner_text = Show.displayChildIcon(gender) + "\xa0" + inner_text;
