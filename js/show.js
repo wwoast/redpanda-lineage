@@ -1496,6 +1496,12 @@ Show.onlyParents = function(info) {
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
+Show.parentsButNoLitter = function(info) {
+  // Only parents, and no litter, and some number of children
+  return ((Show.bothParentsDocumented(info)) && (info.litter.length == 0) &&
+          ((info.siblings.length > 0) || (info.children.length > 0)));
+}
+
 Show.onlyLitter = function(info) {
   // Only a parent div with two entries, and no other animals
   return ((Show.neitherParentsDocumented(info)) && (info.litter.length == 2) && 
@@ -1580,6 +1586,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     }
     // If small number of siblings or children
     if ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info))) {
+      parents.childNodes[1].classList.add('onlyMobileFlat');
+      divider = "onlyMobile";
+      parents.style.order = order++;
+    }
+    // If no litter column on mobile, flatten the parents before doing others
+    if ((Show.parentsButNoLitter(info))) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
       divider = "onlyMobile";
       parents.style.order = order++;
