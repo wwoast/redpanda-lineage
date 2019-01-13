@@ -545,14 +545,20 @@ div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.childre
     flex-grow: 1;
 }
 
+/* 
+// TODO: testing flex distribution of width
 div.parents.double, div.litter.double, div.siblings.double, div.children.double, div.double {
     width: 60%;
     flex-grow: 0.5;
 }
+*/
 
+/*
+// TODO: testing flex distribution of width
 div.siblings.double, div.children.double, div.siblings.triple, div.children.triple {
-    width: 100%;   /* TODO: may need this class to be exclusion of others */
+    width: 100%;
 }
+*/
 
 ul.pandaList, ul.linkList {
     text-align: left;
@@ -564,13 +570,13 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    column-width: 6.4em;
+    /* column-width: 6.4em; */
     column-gap: 10px;   /* Same as left padding */
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    column-width: 6.4em;
+    /* column-width: 6.4em; */
     column-gap: 10px;   /* Same as left padding */
 }
 
@@ -581,7 +587,7 @@ ul.pandaList.flat {
 ul.pandaList.flat li {
     display: inline-block;   /* Force list items to flow horizontally */
     flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
-    width: 6.4em;   /* Inline block means that elements need width to not scrunch */
+    width: 6.4em;   /* Inline list items means that elements need width to not scrunch */
 }
 
 ul.pandaList li, ul.linkList li {
@@ -1028,9 +1034,10 @@ div.photoSample h5.caption.familyTitle {
     }
 
     /* Double-wide list containers on mobile just take up the full row width */
+    /* TODO -- debugging column spacing details
     div.parents.double, div.litter.double, div.siblings.double, div.children.double, div.double {
         width: 100%;
-    }
+    } */
     
     ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
         width: auto;   /* Fill available space in flex */
@@ -1051,6 +1058,7 @@ div.photoSample h5.caption.familyTitle {
         display: inline-block;   /* Force list items to flow horizontally */
         padding-right: 10px;
         flex-grow: 1;   /* Force list items to expand to fill space */
+        width: 6.4em;
     }
 
     div.profileSummary {
