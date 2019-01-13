@@ -1673,9 +1673,8 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     family.appendChild(siblings);
     // If litter is much shorter than siblings on mobile, apply ordering to change display
     if ((Show.litterExists(info)) && Show.onlySiblingsNotChildren(info) && Show.smallWidthScreen()) {
-      var tmp = siblings.style.order;
-      siblings.style.order = litter.style.order;
-      litter.style.order = tmp;
+      order = siblings.style.order + 1;
+      litter.style.order = order;
     }
 
     // Add dividers as instructed by earlier layout checks
@@ -1685,13 +1684,12 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
   // Children layout logic
   if (children != undefined) {
     children.style.order = order;
-    
+
     family.appendChild(children);
     // If litter is much shorter than siblings on mobile, apply ordering to change display
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
-      var tmp = children.style.order;
-      children.style.order = litter.style.order;
-      litter.style.order = tmp;
+      order = children.style.order + 1;
+      litter.style.order = order;
     }
     // Add dividers as instructed by earlier layout checks
     ((divider != undefined) && (family.appendChild(Show.flexDivider(divider))) && (divider = undefined));
