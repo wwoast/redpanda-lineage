@@ -581,7 +581,7 @@ ul.pandaList.flat {
 ul.pandaList.flat li {
     display: inline-block;   /* Force list items to flow horizontally */
     flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
-    width: 6.4em;
+    width: 6.4em;   /* Inline block means that elements need width to not scrunch */
 }
 
 ul.pandaList li, ul.linkList li {
