@@ -1479,8 +1479,30 @@ Show.bothParentsDocumented = function(info) {
   return ((info.dad != undefined) && (info.mom != undefined));
 }
 
+Show.lessThanFiveChildren = function(info) {
+  return info.children.length < 5;
+}
+
+Show.lessThanFiveSiblings = function(info) {
+  return info.siblings.length < 5;
+}
+
 Show.neitherParentsDocumented = function(info) {
   return ((info.dad == undefined) && (info.mom == undefined));
+}
+
+Show.onlyChildrenNotSiblings = function(info) {
+  return ((info.children.length > 0) && (info.siblings.length == 0))
+}
+
+Show.onlyLitter = function(info) {
+  // Only a parent div with two entries, and no other animals
+  return ((Show.neitherParentsDocumented(info)) && (info.litter.length == 2) && 
+          (info.siblings.length == 0) && (info.children.length == 0));
+}
+
+Show.onlyOneOfSiblingsOrChildrenLists = function(info) {
+  return ((Show.onlyChildrenNotSiblings(info)) || Show.onlySiblingsNotChildren(info));
 }
 
 Show.onlyParents = function(info) {
@@ -1489,16 +1511,14 @@ Show.onlyParents = function(info) {
           (info.siblings.length == 0) && (info.children.length == 0));
 }
 
+Show.onlySiblingsNotChildren = function(info) {
+  return ((info.siblings.length > 0) && (info.children.length == 0))
+}
+
 Show.parentsButNoLitter = function(info) {
   // Only parents, and no litter, and some number of children
   return ((Show.bothParentsDocumented(info)) && (info.litter.length == 0) &&
           ((info.siblings.length > 0) || (info.children.length > 0)));
-}
-
-Show.onlyLitter = function(info) {
-  // Only a parent div with two entries, and no other animals
-  return ((Show.neitherParentsDocumented(info)) && (info.litter.length == 2) && 
-          (info.siblings.length == 0) && (info.children.length == 0));
 }
 
 Show.manySiblingsNoChildren = function(info) {
@@ -1511,6 +1531,15 @@ Show.manyChildrenNoSiblings = function(info) {
   // Five or more children, and no other siblings
   return ((info.children.length >= 5) && (info.litter.length == 0) &&
           (info.siblings.length == 0));
+}
+
+Show.singleLongChildrenOrSiblingsColumn = function(info) {
+  return ((Show.manySiblingsNoChildren(info)) || (Show.manyChildrenNoSiblings(info)));
+}
+
+Show.singleShortChildrenOrSiblingsColumn = function(info) {
+  return ((Show.onlyOneOfSiblingsOrChildrenLists(info)) && (Show.lessThanFiveChildren(info)) &&
+          (Show.lessThanFiveSiblings(info)))
 }
 
 Show.someChildrenAndSiblings = function(info) {
@@ -1583,8 +1612,9 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
       parents.style.order = order++;
       divider = "onlyMobile";
     }
-    // If no litter column on mobile, flatten the parents before doing others
-    if ((Show.parentsButNoLitter(info))) {
+    // If no litter column on mobile, and five or more children or siblings, 
+    // flatten the parents before doing others
+    if ((Show.parentsButNoLitter(info)) && Show.singleLongChildrenOrSiblingsColumn(info)) {
       parents.childNodes[1].classList.add('onlyMobileFlat');
       parents.style.order = order++;
       divider = "onlyMobile";
