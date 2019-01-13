@@ -1475,7 +1475,7 @@ Show.displayZooTitle = function(info) {
 
 // Conditionals for arrangements of pandas, to simplify typing the familyListLayout
 // checks for things.
-Show.smallWidthScreen = functtion() {
+Show.smallWidthScreen = function() {
   return (window.matchMedia("(max-width: 670px)").matches == true);
 }
 
