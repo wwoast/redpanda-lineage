@@ -216,6 +216,7 @@ Layout.L.layout = function() {
     // Spread out the siblings column if we have space
     if (this.checks.manySiblingsNoChildren()) {
       this.siblings.classList.add('double');
+      this.siblings.childNodes[1].classList.add('double');
       this.siblings.style.order = order++;
     }
 
@@ -255,6 +256,7 @@ Layout.L.layout = function() {
     // Spread out the children column if we have space
     if (this.checks.manyChildrenNoSiblings()) {
       this.children.classList.add('double');
+      this.children.childNodes[1].classList.add('double');
       this.children.style.order = order++;
     }
 
