@@ -1682,6 +1682,11 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if ((Show.litterExists(info)) && Show.onlySiblingsNotChildren(info) && Show.smallWidthScreen()) {
       order = siblings.style.order + 1;
       litter.style.order = order;
+      // When doing a swap, move the line break element that might exist after the litter, to
+      // after the sibling instead.
+      var divBreak = litter.nextSibling;
+      family.removeChild(litter.nextSibling);
+      siblings.parentNode.insertBefore(divBreak, siblings.nextSibling);
     }
 
     // Add dividers as instructed by earlier layout checks. If it's two columns since a
@@ -1702,7 +1707,13 @@ Show.familyListLayout = function(family, info, parents, litter, siblings, childr
     if ((Show.litterExists(info)) && Show.onlyChildrenNotSiblings(info) && Show.smallWidthScreen()) {
       order = children.style.order + 1;
       litter.style.order = order;
+      // When doing a swap, move the line break element that might exist after the litter, to
+      // after the children instead.
+      var divBreak = litter.nextSibling;
+      family.removeChild(litter.nextSibling);
+      children.parentNode.insertBefore(divBreak, children.nextSibling);
     }
+    
     // No more dividers to add after children
   }
   return family;
