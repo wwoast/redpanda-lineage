@@ -180,6 +180,7 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   shift = (height * -1) + 90;
   if (shift < 0) {   // Only move sibling up if we have space to move it up
     target.style.marginTop = shift.toString() + "px";
+    target.classList.add("adjustedMarginTop");
   }
   // When doing a swap, move the line break element that might exist after the target, to
   // after the swapped destination instead.
@@ -300,3 +301,19 @@ Layout.L.layout = function() {
   }
   return this.family;
 }
+
+var mobile = window.matchMedia("(max-width: 670px)");
+var last_offset = {};
+mobile.addListener(function(e) {
+  var columns = document.getElementsByClassName("adjustedMarginTop");
+  if (e.matches == false) {
+    for (col of columns) {
+      last_offset[col.style.className] = col.style.marginTop;
+      col.style.marginTop = "0px";
+    }
+  } else {
+    for (col of columns) {
+      col.style.marginTop = last_offset[col.style.className];
+    }
+  }
+});
