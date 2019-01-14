@@ -169,7 +169,8 @@ Layout.L.div.multiColumn = function(div, columnCount=2) {
   return div;
 }
 
-/* Swap the target column with the destination column */
+/* Swap the target column with the destination column. On mobile, include logic
+   that pushes the swapped column up to be even with the swapped column. */
 Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   var tmp_order = destination.style.order + 1;
   target.style.order = tmp_order;
@@ -184,7 +185,7 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   // after the swapped destination instead.
   var divBreak = target.nextSibling;
   target.parentNode.removeChild(divBreak);
-  destination.parentNode.insertBefore(divBreak, destination.nextSibling);
+  target.parentNode.insertBefore(divBreak, destination.nextSibling);
 }
 
 // Adds a divider if necessary. The mode doubles as a flag to describe whether
@@ -269,15 +270,15 @@ Layout.L.layout = function() {
     }
     // Append siblings div to the family display
     this.family.appendChild(this.siblings);
+    // Add dividers as instructed by earlier layout checks. If it's two columns since a
+    // break was added, add another one.
+    this.div.addFlexDivider(this.family);
     // If litter is much shorter than siblings on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
       this.div.swapColumn(this.litter, this.siblings, this.num.siblings);
     }
-    // Add dividers as instructed by earlier layout checks. If it's two columns since a
-    // break was added, add another one.
-    this.div.addFlexDivider(this.family);
   }
 
   // Children layout logic
@@ -289,13 +290,13 @@ Layout.L.layout = function() {
     }
     // Append children div to the family display
     this.family.appendChild(this.children);
+    // No more dividers to add after children
     // If litter is much shorter than children on mobile, apply ordering to change display.
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
       this.div.swapColumn(this.litter, this.children, this.num.children);
     }
-    // No more dividers to add after children
   }
   return this.family;
 }
