@@ -140,6 +140,34 @@ Layout.L.div.divider = false;
 // Distance in list-count since the last divider. When this gets to two,
 // or after a flat element, a divider should be added
 Layout.L.div.distance = 0;
+
+// Adds a divider if necessary. The "divider" value doubles as a flag to 
+// describe whether or not flex dividers are necessary, so filter out 
+// boolean "true" and "false" as class names
+Layout.L.div.addFlexDivider = function(mainDiv) {
+  // Increment distance when considering whether a divider should be added.
+  // On mobile, dividers must be added after every 2nd list at least.
+  if (this.divider == false) {
+    this.distance++;
+    if (this.distance == 2) {
+      this.divider = "onlyMobile";
+    }
+  }
+  if (this.divider != false) {
+    var breaker = document.createElement('hr');
+    breaker.className = "flexDivider";
+    if ((this.divider != false) && (this.divider != true)) {
+      breaker.classList.add(this.divider);
+    }
+    mainDiv.appendChild(breaker);
+    this.distance = 0;
+  }
+  // Reset divider and distance settings
+  if (this.distance == 0) {
+    this.divider = false;
+  }
+}
+
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
    we need to add a line-break entity afterwards, and bump the flex box display
    order of subsequent inserted divs. */
@@ -187,32 +215,6 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   var divBreak = target.nextSibling;
   target.parentNode.removeChild(divBreak);
   target.parentNode.insertBefore(divBreak, destination.nextSibling);
-}
-
-// Adds a divider if necessary. The mode doubles as a flag to describe whether
-// or not flex dividers are necessary, so filter out "true" and "false" for class names
-Layout.L.div.addFlexDivider = function(mainDiv) {
-  // Increment distance when considering whether a divider should be added.
-  // On mobile, dividers must be added after every 2nd list at least.
-  if (this.divider == false) {
-    this.distance++;
-    if (this.distance == 2) {
-      this.divider = "onlyMobile";
-    }
-  }
-  if (this.divider != false) {
-    var breaker = document.createElement('hr');
-    breaker.className = "flexDivider";
-    if ((this.divider != false) && (this.divider != true)) {
-      breaker.classList.add(this.divider);
-    }
-    mainDiv.appendChild(breaker);
-    this.distance = 0;
-  }
-  // Reset divider and distance settings
-  if (this.distance == 0) {
-    this.divider = false;
-  }
 }
 
 /* The layout generator basically prods all the possible arrangements of 
