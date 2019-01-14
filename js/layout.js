@@ -163,6 +163,24 @@ Layout.L.div.multiColumn = function(div, columnCount=2) {
   return div;
 }
 
+/* Swap the target column with the destination column */
+Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
+  var tmp_order = destination.style.order + 1;
+  target.style.order = tmp_order;
+  // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
+  // and move the litter column up accordingly. Estimate the height since it's not rendered yet
+  height = (destination_cnt + 1) * 30;
+  shift = (height * -1) + 90;
+  if (shift < 0) {   // Only move sibling up if we have space to move it up
+    target.style.marginTop = shift.toString() + "px";
+  }
+  // When doing a swap, move the line break element that might exist after the target, to
+  // after the swapped destination instead.
+  var divBreak = target.nextSibling;
+  target.parentNode.removeChild(divBreak);
+  destination.parentNode.insertBefore(divBreak, destination.nextSibling);
+}
+
 // Adds a divider. The mode doubles as a flag to describe whether or not flex
 // dividers are necessary, so filter out "true" and "false" for class names
 Layout.L.div.flexDivider = function(mode) {
@@ -246,20 +264,7 @@ Layout.L.layout = function() {
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
-      var order = this.siblings.style.order + 1;
-      this.litter.style.order = order;
-      // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
-      // and move the litter column up accordingly. Estimate the height since it's not rendered yet
-      height = (this.num.siblings + 1) * 30;
-      shift = (height * -1) + 90;
-      if (shift < 0) {   // Only move sibling up if we have space to move it up
-        this.litter.style.marginTop = shift.toString() + "px";
-      }
-      // When doing a swap, move the line break element that might exist after the litter, to
-      // after the sibling instead.
-      var divBreak = this.litter.nextSibling;
-      this.family.removeChild(this.litter.nextSibling);
-      this.siblings.parentNode.insertBefore(divBreak, this.siblings.nextSibling);
+      this.div.swapColumn(this.litter, this.siblings, this.num.siblings);
     }
 
     // Add dividers as instructed by earlier layout checks. If it's two columns since a
@@ -284,20 +289,7 @@ Layout.L.layout = function() {
     // This is only done once so it won't work when changing orientations in Web Inspector.
     // TODO: make an event to do column switching live on demand
     if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
-      var order = this.children.style.order + 1;
-      this.litter.style.order = order;
-      // Take the children column height, subtract 90 for the parents div (always 3*30px),
-      // and move the litter column up accordingly. Estimate the height since it's not rendered yet
-      height = (this.num.children + 1) * 30;
-      shift = (height * -1) + 90;
-      if (shift < 0) {   // Only move sibling up if we have space to move it up
-        this.litter.style.marginTop = shift.toString() + "px";
-      }
-      // When doing a swap, move the line break element that might exist after the litter, to
-      // after the children instead.
-      var divBreak = this.litter.nextSibling;
-      this.family.removeChild(this.litter.nextSibling);
-      this.children.parentNode.insertBefore(divBreak, this.children.nextSibling);
+      this.div.swapColumn(this.litter, this.children, this.num.children);
     }
 
     // No more dividers to add after children
