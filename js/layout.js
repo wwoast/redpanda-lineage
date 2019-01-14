@@ -134,6 +134,12 @@ Layout.L.div = {}
 // Flex box order. Determines display groupings.
 // Increment whenever we plan on making a new row.
 Layout.L.div.order = 0;
+// Modal check to add a divider to the layout flow.
+// May be true/false, or an mobileOnly options
+Layout.L.div.divider = false;
+// Distance in list-count since the last divider. When this gets to two,
+// or after a flat element, a divider should be added
+Layout.L.div.distance = 0;
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
    we need to add a line-break entity afterwards, and bump the flex box display
    order of subsequent inserted divs. */
@@ -181,26 +187,36 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   destination.parentNode.insertBefore(divBreak, destination.nextSibling);
 }
 
-// Adds a divider. The mode doubles as a flag to describe whether or not flex
-// dividers are necessary, so filter out "true" and "false" for class names
-Layout.L.div.flexDivider = function(mode) {
-  var divider = document.createElement('hr');
-  divider.className = "flexDivider";
-  if ((mode != false) && (mode != true)) {
-    divider.classList.add(mode);
+// Adds a divider if necessary. The mode doubles as a flag to describe whether
+// or not flex dividers are necessary, so filter out "true" and "false" for class names
+Layout.L.div.addFlexDivider = function(mainDiv) {
+  // Increment distance when considering whether a divider should be added.
+  // On mobile, dividers must be added after every 2nd list at least.
+  if (this.divider == false) {
+    this.distance++;
+    if (this.distance == 2) {
+      this.divider = "onlyMobile";
+    }
   }
-  return divider;
+  if (this.divider != false) {
+    var breaker = document.createElement('hr');
+    breaker.className = "flexDivider";
+    if ((this.divider != false) && (this.divider != true)) {
+      breaker.classList.add(this.divider);
+    }
+    mainDiv.appendChild(breaker);
+    this.distance = 0;
+  }
+  // Reset divider and distance settings
+  if (this.distance == 0) {
+    this.divider = false;
+  }
 }
 
 /* The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
    what the best layout should be for each possible set of inputs. */
 Layout.L.layout = function() {
-  // TOWRITE. don't do parents/children/siblings/etc divs separately. Write out tons of code,
-  // and make it so that each path is as shallow as possible.
-  var divider = false;
-  var distance = 0;   /* Distance since the last line break */
-
   // Parent layout logic
   if (this.parents != undefined) {
     this.parents.style.order = this.div.order;
@@ -211,32 +227,29 @@ Layout.L.layout = function() {
     // If small number of siblings or children
     if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
       this.parents = this.div.flatten(this.parents, mobileOnly=true);
-      divider = "onlyMobile";
+      this.div.divider = "onlyMobile";
     }
     // If no litter column on mobile, and five or more children or siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
       this.parents = this.div.flatten(this.parents, mobileOnly=true);
-      divider = "onlyMobile";
+      this.div.divider = "onlyMobile";
     }
     // If no litter column, and two short columns of children and siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
       this.parents = this.div.flatten(this.parents, mobileOnly=true);
-      divider = "onlyMobile";
+      this.div.divider = "onlyMobile";
     }
     // Append parents div to the family display
     this.family.appendChild(this.parents);
     // Add dividers as instructed by earlier layout checks
-    ((divider == false) && (distance++));
-    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
-    ((distance == 0) && (divider = false));
+    this.div.addFlexDivider(this.family);
   }
 
   // Litter layout logic
   if (this.litter != undefined) {
     this.litter.style.order = this.div.order;
-
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (this.checks.onlyLitterNotOthers()) {
       this.litter = this.div.flatten(this.litter, mobileOnly=false);
@@ -244,16 +257,12 @@ Layout.L.layout = function() {
     // Append litter div to the family display
     this.family.appendChild(this.litter);
     // Add dividers as instructed by earlier layout checks.
-    ((divider == false) && (distance++));
-    ((distance == 2) && (divider = "onlyMobile"));
-    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
-    ((distance == 0) && (divider = false));
+    this.div.addFlexDivider(this.family);
   }
 
   // Siblings layout logic
   if (this.siblings != undefined) {
     this.siblings.style.order = this.div.order;
-
     // Spread out the siblings column if we have space
     if (this.checks.manySiblingsNoChildren()) {
       this.siblings = this.div.multiColumn(this.siblings, 2);
@@ -266,19 +275,14 @@ Layout.L.layout = function() {
     if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
       this.div.swapColumn(this.litter, this.siblings, this.num.siblings);
     }
-
     // Add dividers as instructed by earlier layout checks. If it's two columns since a
     // break was added, add another one.
-    ((divider == false) && (distance++));
-    ((distance == 2) && (divider = "onlyMobile"));
-    ((divider != false) && (this.family.appendChild(this.div.flexDivider(divider))) && (distance = 0));
-    ((distance == 0) && (divider = false));
+    this.div.addFlexDivider(this.family);
   }
 
   // Children layout logic
   if (this.children != undefined) {
     this.children.style.order = this.div.order;
-
     // Spread out the children column if we have space
     if (this.checks.manyChildrenNoSiblings()) {
       this.children = this.div.multiColumn(this.children, 2);
@@ -291,7 +295,6 @@ Layout.L.layout = function() {
     if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
       this.div.swapColumn(this.litter, this.children, this.num.children);
     }
-
     // No more dividers to add after children
   }
   return this.family;
