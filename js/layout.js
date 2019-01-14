@@ -173,7 +173,7 @@ Layout.L.div.addFlexDivider = function(mainDiv) {
    order of subsequent inserted divs. */
 Layout.L.div.flatten = function(div, mobileOnly=false) {
   if (mobileOnly == true) {
-    div.childNodes[1].classList.add("mobileOnlyFlat");
+    div.childNodes[1].classList.add("onlyMobileFlat");
     div.style.order = this.order++;
   } else {
     // Mobile and Desktop flattened divs generally only appear alone, so give
