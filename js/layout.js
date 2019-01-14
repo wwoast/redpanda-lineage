@@ -241,12 +241,14 @@ Layout.L.layoutList = function(list_div, list_name, list_count) {
   if ((list_div == undefined) || (list_count == 0)) {
     return;
   }
+  var default_order = ["parents", "litter", "siblings", "children"];
   // Just this column, and it's short? Make it flat on desktop and mobile
   if (this.checks.onlyThisListHasMembers(list_name) && list_count == 2) {
     list_div = this.div.flatten(list_div, onlyMobile=false);
   }
-  // TODO: If a single other column exists with 2 < x < 5 items, flatten parents on mobile
-  // TODO: If no litter column, ...
+  // TODO: If a single short column after a long column, swap them.
+  // TODO: If a single other column exists with x > 6 items, flatten on mobile
+  // TODO: If three columns, and one is long, swap non-parent column with the longer one
 }
 
 /* The layout generator basically prods all the possible arrangements of 
