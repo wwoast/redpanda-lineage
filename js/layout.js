@@ -129,6 +129,16 @@ Layout.L.checks.twoShortChildrenAndSiblingsLists = function() {
 Layout.L.checks.twoLongChildrenAndSiblingsLists = function() {
   return (this.num.siblings >= 6) && (this.num.children >= 6);
 }
+/* More generic checks */
+// Choose a list, and ensure that no other lists have members
+Layout.L.checks.emptyLists = function(lists) {
+  return lists.map(list_name => this.num[list_name] == 0).indexOf(false) == - 1;
+}
+Layout.L.checks.onlyThisListHasMembers = function(list_name) {
+  var other_lists = Object.keys(this.num).filter(i => i != list_name);
+  return ((this.num[list_name] != 0) && (this.emptyLists(other_lists)));
+}
+
 
 Layout.L.div = {}
 // Flex box order. Determines display groupings.
@@ -217,10 +227,21 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   target.parentNode.insertBefore(divBreak, destination.nextSibling);
 }
 
+/* For a single list, run through the relevant layout rules */
+Layout.L.layoutList = function(list_div, list_name, list_count) {
+  if ((list_div == undefined) || (list_count == 0)) {
+    return;
+  }
+  // Just this column, and it's short? Make it flat on desktop and mobile
+  if (this.checks.onlyThisListHasMembers(list_name) && list_count == 2) {
+    list_div = this.div.flatten(list_div, mobileOnly=false);
+  }
+}
+
 /* The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
    what the best layout should be for each possible set of inputs. */
-Layout.L.layout = function() {
+Layout.L.layoutFamily = function() {
   // Parent layout logic
   if (this.parents != undefined) {
     this.parents.style.order = this.div.order;
