@@ -121,13 +121,15 @@ Layout.L.arrangement.shortMultiColumn = function(columns, mode="both") {
 
 // When sparse columns stacked up may be nearly as long as a third column,
 // kick the little ones out and let the longer column run. If a fourth column
-// appears, display it underneath the long column.
+// appears, display it underneath the long column. This is easier done using
+// a multicolumn-flow for divs, instead of the normal flex flow.
 Layout.L.arrangement.longRun = function() {
   return;
 }
 
 // Where the last column displayed in the order must be the longest on mobile
-// for space to be preserved
+// for space to be preserved. This is easier done using a multicolumn-flow for divs, 
+// instead of the normal flex flow.
 Layout.L.arrangement.lastColumnLong = function() {
   return;
 }
@@ -251,6 +253,8 @@ Layout.L.arrangement.div10_0_0_5_5 = Layout.L.arrangement.multiColumn(2, 'onlyDe
 Layout.L.arrangement.div10_0_0_6_4 = Layout.L.arrangement.multiColumn(2, 'onlyDesktop');
 // Ten list items. Seven-long columns are too much.
 Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
+// Ten list items. With parents, flatten the top
+Layout.L.arrangement.div10_2_0_8_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
 
 
 
@@ -361,7 +365,8 @@ Layout.L.div.order = 0;
 
 // Adds a divider if necessary. The "divider" value doubles as a flag to 
 // describe whether or not flex dividers are necessary, so filter out 
-// boolean "true" and "false" as class names
+// boolean "true" and "false" as class names. In flex layouts, these
+// line breakers must have proper order.
 Layout.L.div.addFlexDivider = function(mainDiv) {
   // Increment distance when considering whether a divider should be added.
   // On mobile, dividers must be added after every 2nd list at least.
@@ -376,6 +381,7 @@ Layout.L.div.addFlexDivider = function(mainDiv) {
     breaker.className = "flexDivider";
     if ((this.divider != false) && (this.divider != true)) {
       breaker.classList.add(this.divider);
+      breaker.style.order = this.div.order++;
     }
     mainDiv.appendChild(breaker);
     this.distance = 0;
@@ -439,10 +445,9 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   // Fix sibling div z-index to make things clickable on Firefox
   destination.style.zIndex = 2;
   // When doing a swap, move the line break element that might exist after the target, to
-  // after the swapped destination instead.
+  // after the swapped destination instead. This is an ordering switch
   var divBreak = target.nextSibling;
-  target.parentNode.removeChild(divBreak);
-  target.parentNode.insertBefore(divBreak, destination.nextSibling);
+  divBreak.style.order = destination.style.order;
 }
 
 /* Create all permutations of an input string. This is used to determine the
