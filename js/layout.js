@@ -233,6 +233,8 @@ Layout.L.layout = function() {
       if (shift < 0) {   // Only move sibling up if we have space to move it up
         this.litter.style.marginTop = shift.toString() + "px";
       }
+      // Fix sibling div z-index to make things clickable on Firefox
+      this.siblings.style.zIndex = 2;
       // When doing a swap, move the line break element that might exist after the litter, to
       // after the sibling instead.
       var divBreak = this.litter.nextSibling;
@@ -272,6 +274,8 @@ Layout.L.layout = function() {
       if (shift < 0) {   // Only move sibling up if we have space to move it up
         this.litter.style.marginTop = shift.toString() + "px";
       }
+      // Fix children div z-index to make things clickable on Firefox
+      this.children.style.zIndex = 2;
       // When doing a swap, move the line break element that might exist after the litter, to
       // after the children instead.
       var divBreak = this.litter.nextSibling;
