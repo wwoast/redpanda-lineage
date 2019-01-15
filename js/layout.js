@@ -432,7 +432,7 @@ Layout.L.div.multiColumn = function(div, columnCount=2) {
 /* Swap the target column with the destination column. On mobile, include logic
    that pushes the swapped column up to be even with the swapped column. */
 Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
-  var tmp_order = destination.style.order + 1;
+  var tmp_order = parseInt(destination.style.order) + 1;
   target.style.order = tmp_order;
   // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
   // and move the litter column up accordingly. Estimate the height since it's not rendered yet
