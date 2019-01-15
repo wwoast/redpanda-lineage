@@ -405,7 +405,6 @@ Layout.L.div.clear = function() {
 Layout.L.div.flatten = function(div, onlyMobile=false) {
   if (onlyMobile == true) {
     div.childNodes[1].classList.add("onlyMobileFlat");
-    div.style.order = this.order++;
     this.divider = "onlyMobile";
   } else {
     // Mobile and Desktop flattened divs generally only appear alone, so give
@@ -413,6 +412,7 @@ Layout.L.div.flatten = function(div, onlyMobile=false) {
     div.classList.add("singleton");
     div.childNodes[1].classList.add("flat");
   }
+  div.style.order = this.order++;
   return div;
 }
 
@@ -420,20 +420,20 @@ Layout.L.div.flatten = function(div, onlyMobile=false) {
 Layout.L.div.multiColumn = function(div, columnCount=2) {
   if (columnCount == 2) {
     div.childNodes[1].classList.add("double");
-    div.style.order = this.order++;
   }
   if (columnCount == 3) {
     div.childNodes[1].classList.add("triple");
-    div.style.order = this.order++;
   }
+  div.style.order = this.order++;
   return div;
 }
 
 /* Swap the target column with the destination column. On mobile, include logic
    that pushes the swapped column up to be even with the swapped column. */
 Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
-  var tmp_order = parseInt(destination.style.order) + 1;
+  var tmp_order = destination.style.order;
   target.style.order = tmp_order;
+  destination.style.order = parseInt(destination.style.order) - 1;
   // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
   // and move the litter column up accordingly. Estimate the height since it's not rendered yet
   height = (destination_cnt + 1) * 30;
