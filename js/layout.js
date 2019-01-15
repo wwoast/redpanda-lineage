@@ -25,11 +25,11 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     // Make sure checks can see this object's counts
     layout.checks.num = layout.num;
     // Set up the divs themselves
-    layout.arrangement.family = family;
-    layout.arrangement.parents = parents;
-    layout.arrangement.litter = litter;
-    layout.arrangement.siblings = siblings;
-    layout.arrangement.children = children;
+    layout.family = layout.arrangement.family = family;
+    layout.parents = layout.arrangement.parents = parents;
+    layout.litter = layout.arrangement.litter = litter;
+    layout.siblings = layout.arrangement.siblings = siblings;
+    layout.children = layout.arrangement.children = children;
     return layout;
 }
 
@@ -462,7 +462,7 @@ Layout.L.permutations = function(input) {
 }
 
 /* Layout manager. Looks at counts of each element, and gives an arrangement */
-Layout.L.layout = function() {
+Layout.L.layoutManager = function() {
   // Given the counts and sum, create a function name to call as an index
   var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
   var orders = this.permutations(this.arrangement.order);
