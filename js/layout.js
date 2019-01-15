@@ -436,6 +436,8 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
     target.style.marginTop = shift.toString() + "px";
     target.classList.add("adjustedMarginTop");
   }
+  // Fix sibling div z-index to make things clickable on Firefox
+  destination.style.zIndex = 2;
   // When doing a swap, move the line break element that might exist after the target, to
   // after the swapped destination instead.
   var divBreak = target.nextSibling;
