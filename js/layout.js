@@ -381,7 +381,7 @@ Layout.L.div.addFlexDivider = function(mainDiv) {
     breaker.className = "flexDivider";
     if ((this.divider != false) && (this.divider != true)) {
       breaker.classList.add(this.divider);
-      breaker.style.order = this.div.order++;
+      breaker.style.order = this.order++;
     }
     mainDiv.appendChild(breaker);
     this.distance = 0;
@@ -468,7 +468,7 @@ Layout.L.permutations = function(input) {
   return results;
 }
 
-/* Layout manager. Looks at counts of each element, and gives an arrangement */
+/* WIP Layout manager. Looks at counts of each element, and gives an arrangement */
 Layout.L.layoutManager = function() {
   // Given the counts and sum, create a function name to call as an index
   var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
@@ -484,17 +484,16 @@ Layout.L.layoutManager = function() {
       break;
     }
   }
-  // Call an arrangement function if it exists
+  // Call an arrangement function if it exists. If not, use a default layout heuristic
   if (arrange_id != undefined) {
     this.arrangement[arrange_id]();
   } else {
-    // TODO: if no arrangement function, what to do?
-    // Fall back to a broader algorithm
+    this.arrangement.default();
   }
 }
 
-
-/* The layout generator basically prods all the possible arrangements of 
+/* TODO: Remove this old layout manager
+   The layout generator basically prods all the possible arrangements of 
    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
    what the best layout should be for each possible set of inputs. */
 Layout.L.layoutFamily = function() {
