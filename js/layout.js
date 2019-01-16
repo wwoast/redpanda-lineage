@@ -24,6 +24,7 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
   layout.num.children = info.children.length;
   // Make sure children objects checks can see this object's counts
   layout.checks.num = layout.num;
+  layout.arrangement.num = layout.num;
   // Set up the divs themselves
   layout.family = layout.arrangement.family = family;
   layout.parents = layout.arrangement.parents = parents;
@@ -31,14 +32,6 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
   layout.siblings = layout.arrangement.siblings = siblings;
   layout.children = layout.arrangement.children = children;
   return layout;
-}
-
-/* Create a flex divider. This is a horizontal rule element with 100% width. */
-Layout.flexDivider = function(className) {
-  var breaker = document.createElement('hr');
-  breaker.className = "flexDivider";
-  breaker.classList.add(className);
-  return breaker;
 }
 
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
@@ -55,6 +48,14 @@ Layout.flatten = function(div, onlyMobile=false) {
     div.childNodes[1].classList.add("flat");
   }
   return div;
+}
+
+/* Create a flex divider. This is a horizontal rule element with 100% width. */
+Layout.flexDivider = function(className) {
+  var breaker = document.createElement('hr');
+  breaker.className = "flexDivider";
+  breaker.classList.add(className);
+  return breaker;
 }
 
 /* Take a div list, and apply a column-mode class to it. */
@@ -267,6 +268,9 @@ Layout.L.arrangement = {};
 // Flex box order. Determines display groupings.
 // Increment whenever we plan on making a new row.
 Layout.L.arrangement.boxOrder = 0;
+// Cutoffs for the number of columns in a multi-column list.
+// m[2] = 4 here means a two-column list must have greater than 4 items in it.
+Layout.L.arrangement.cutoffs = [0, 0, 4, 8, 16];
 // Distance in list-count since the last divider. When this gets to two,
 // or after a flat element, a divider should be added
 Layout.L.arrangement.distance = 0;
@@ -276,6 +280,9 @@ Layout.L.arrangement.dividerMode = false;
 // List arrangement values
 Layout.L.arrangement.list_default = ["parents", "litter", "siblings", "children"];
 Layout.L.arrangement.list_order = ["parents", "litter", "siblings", "children"];
+// Cutoffs for the number of columns in a multi-column list.
+// m[2] = 4 here means a two-column list must have greater than 4 items in it.
+Layout.L.arrangement.cutoffs = [0, 0, 4, 8, 16];
 // Actual HTMLNode outputs of this layout tool
 Layout.L.arrangement.family = undefined;
 Layout.L.arrangement.parents = undefined;
@@ -287,39 +294,89 @@ Layout.L.arrangement.children = undefined;
 // flattenTop, multiColumn, others.
 // Take all inputs and display as straight columns.
 Layout.L.arrangement.columns = function() {
-  // List names that are defined
-  var order = this.list_order.filter(x => this[x] != undefined);
-  // List values that are defined
-  var columns = this.list_order.map(x => this[x]).filter(x => x != undefined);
-  // Add line breaks after every two columns
-  for (let i = 0; i < columns.length; i++) {
-    if (i % 2 == 1) {
-      columns.splice(i, 0, this.addFlexDivider)
+  // Specific list values that exist (this["parents"] = HTMLElement, ...)
+  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  // Add line breaks after every two columns, and add order values to every item
+  for (let i = 0; i < lists.length; i++) {
+    var cur_list = lists[i];
+    cur_list.style.order = this.boxOrder++;
+    this.family.append(cur_list);
+    this.distance++;
+    if (this.distance == 2) {
+      var breaker = Layout.flexDivider("onlyMobile");
+      breaker.style.order = this.boxOrder++;
+      this.family.append(breaker);
+      this.distance = 0;
     }
   }
+  // Return distance/flexBreaker counters to default values
+  this.arrangement.reset();
 }
 
 // Take the longest column and make into a multicolumn list.
 // Any other columns that exist should be displayed as straight columns.
-// Mode can be "onlyMobile", "onlyDesktop", or "both"
+// Mode can be "onlyMobile", "onlyDesktop", or "both".
+// TODO: have modes for both the breakers and the multicolumn classes
 Layout.L.arrangement.multiColumn = function(columns, mode="both") {
-  return;
+  // The list order we're dealing with (strings "parents", "litter")
+  var order = this.list_order.map(x => this[x] != undefined);
+  // Specific list values that exist (this["parents"] = HTMLElement, ...)
+  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  // Add line breaks after every two columns, and add order values to every item
+  for (let i = 0; i < lists.length; i++) {
+    var cur_list = lists[i];
+    var list_name = order[i];
+    var list_len = this.num[list_name];
+    // What the multicolumn split should be
+    var mc_count = this.multiColumnCount(list_len);
+    if (list_len == this.largestColumn()) {
+      Layout.multiColumn(cur_list, mc_count);
+    }
+    this.family.append(cur_list);
+    this.distance++;
+    if (this.distance == 2) {
+      var breaker = Layout.flexDivider("onlyMobile");
+      breaker.style.order = this.boxOrder++;
+      this.family.append(breaker);
+      this.distance = 0;
+    }
+  }
+  // Return distance/flexBreaker counters to default values
+  this.arrangement.reset();
 }
 
-// Flatten a single column, both on mobile and desktop
-Layout.L.arrangement.flatten = function() {
-  Layout.flatten(this.parents);
-}
-
-// Flatten the first column, but keep the others. 
-// Top flat column is only done on mobile layouts
-Layout.L.arrangement.flattenTop = function() {
-  return;
+// Flatten a single column (the first one) both on mobile and desktop
+Layout.L.arrangement.flatten = function(mode="onlyMobile") {
+  // Specific list values that exist (this["parents"] = HTMLElement, ...)
+  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  // Add line breaks after every two columns, and add order values to every item
+  for (let i = 0; i < lists.length; i++) {
+    var cur_list = lists[i];
+    // Flatten the first list
+    if (i == 0) {
+      Layout.flatten(cur_list, mode);
+    }
+    // If just a single list, add a singleton class to adjust width on desktop
+    if (lists.length == 1) {
+      cur_list.style.classList.add("singleton");
+    }
+    cur_list.style.order = this.boxOrder++;
+    this.family.append(cur_list);
+    this.distance++;
+    if (this.distance == 2) {
+      var breaker = Layout.flexDivider("onlyMobile");
+      breaker.style.order = this.boxOrder++;
+      this.family.append(breaker);
+      this.distance = 0;
+    }
+  }
+  // Return distance/flexBreaker counters to default values
+  this.arrangement.reset();
 }
 
 // Combination of flattenTop and multiColumn.
 // TODO: need desktop or mobile modal flags for BOTH the flattening and the multicolumn mode
-Layout.L.arrangement.flattenTopMultiColumn = function(columns, mode="both") {
+Layout.L.arrangement.flattenPlusMultiColumn = function(columns, mode="both") {
   return;
 }
 
@@ -356,6 +413,7 @@ Layout.L.arrangement.default = function() {
   return;
 }
 
+// TODO: remove, as this is only used in legacy layouts!!
 // Adds a divider if necessary. The "dividerMode" value doubles as a 
 // class name to apply to the divider, so for detecting names, filter 
 // the normal boolean "true" and "false" values. In flex layouts, these
@@ -387,6 +445,11 @@ Layout.L.arrangement.addFlexDivider = function(mainDiv) {
   this.dividerMode = false;
 }
 
+// Find the longest column
+Layout.L.arrangement.largestColumn = function() {
+  return Object.keys(this.num).reduce(function(a, b){return obj[a] > obj[b] ? a : b });
+}
+
 // Clear state after doing a layout operation
 Layout.L.arrangement.reset = function() {
   Layout.L.arrangement.boxOrder = 0;
@@ -394,15 +457,21 @@ Layout.L.arrangement.reset = function() {
   Layout.L.arrangement.dividerMode = false;
 }
 
+// In the cutoff list that describes how many columns to use, find the first value
+// greater than the number of elements in the list you're measuring. That is the 
+// i'th value of the cutoff list, and i becomes the CSS column-count for the list.
+Layout.L.arrangement.multiColumnCount = function(list_len) {
+  return this.cutoffs.indexOf(this.cutoffs.map(x => x >= list_len)[0]);
+}
 
 /* The arrangement switchboard. Set these arrangement names equivalent 
    to the actual functions that will perform the layout duties.
    Comments refer to mobile layout considerations. */
 // TODO: remove any switchboard entries that don't need speical behavior!!
 // One list item? Simple column layout is fine.
-Layout.L.arrangement.div1_1_0_0_0 = Layout.L.arrangement.flatten;
+Layout.L.arrangement.div1_1_0_0_0 = Layout.L.arrangement.flatten("both");
 // Two list items, horizontal display to save space. 
-Layout.L.arrangement.div2_2_0_0_0 = Layout.L.arrangement.flatten;
+Layout.L.arrangement.div2_2_0_0_0 = Layout.L.arrangement.flatten("both");
 // Two list items, in their own columns
 Layout.L.arrangement.div2_1_1_0_0 = Layout.L.arrangement.columns;
 // Three list items. Two parents and a single third
@@ -415,7 +484,7 @@ Layout.L.arrangement.div3_0_0_3_0 = Layout.L.arrangement.columns;
 Layout.L.arrangement.div4_2_2_0_0 = Layout.L.arrangement.columns;
 // Four list items. Two in one category and singles
 // TODO: possibly long run, but find a way to kick the spacers right
-Layout.L.arrangement.div4_2_1_1_0 = Layout.L.arrangement.flattenTop;
+Layout.L.arrangement.div4_2_1_1_0 = Layout.L.arrangement.flatten("mobileOnly");
 // Four list items. Three in one category
 Layout.L.arrangement.div4_0_0_3_1 = Layout.L.arrangement.columns;
 // Four list items. All in one category. Longer lists will get multiColumn'ed
@@ -436,7 +505,7 @@ Layout.L.arrangement.div6_2_0_4_0 = Layout.L.arrangement.columns;
 // Six list items. Two parents and a short split
 Layout.L.arrangement.div6_2_3_1_0 = Layout.L.arrangement.longRun;
 // Six list items. Two parents and even columns
-Layout.L.arrangement.div6_2_2_2_0 = Layout.L.arrangement.flattenTop;
+Layout.L.arrangement.div6_2_2_2_0 = Layout.L.arrangement.flatten("mobileOnly");
 // Six list items. Two parents and spread
 Layout.L.arrangement.div6_2_2_1_1 = Layout.L.arrangement.columns;
 // Six list items. Mostly or all in one column
@@ -445,7 +514,7 @@ Layout.L.arrangement.div6_0_0_6_0 = Layout.L.arrangement.multiColumn(2);
 // Six list items. All in two columns
 Layout.L.arrangement.div6_0_0_3_3 = Layout.L.arrangement.columns;
 // Seven list items. Parents, and a multicolumn
-Layout.L.arrangement.div7_2_0_5_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
+Layout.L.arrangement.div7_2_0_5_0 = Layout.L.arrangement.flattenPlusMultiColumn(2);
 // Seven list items. Parents, litter, and three siblings
 Layout.L.arrangement.div7_2_2_3_0 = Layout.L.arrangement.longRun;
 // Seven list items. parents, litter, siblings, and children, all straight columns
@@ -467,7 +536,7 @@ Layout.L.arrangement.div8_2_1_5_0 = Layout.L.arrangement.longRun;
 // Eight list items. Do the four column below the one, but kick it up
 Layout.L.arrangement.div8_2_1_4_1 = Layout.L.arrangement.lastColumnLong;
 // Eight list items. Flatten the top and multicolumn the other one
-Layout.L.arrangement.div8_2_0_6_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
+Layout.L.arrangement.div8_2_0_6_0 = Layout.L.arrangement.flattenPlusMultiColumn(2);
 // Nine list items. Mostly balanced
 Layout.L.arrangement.div9_2_2_3_3 = Layout.L.arrangement.columns;
 // Nine list items. Mostly balanced, but kick the last column up slightly
@@ -480,16 +549,16 @@ Layout.L.arrangement.div9_2_2_5_0 = Layout.L.arrangement.multiColumn(2);
 Layout.L.arrangement.div9_2_1_6_0 = Layout.L.arrangement.multiColumn(2);
 // Nine list items, but a single column of three looks out of place here.
 Layout.L.arrangement.div9_0_0_6_3 = Layout.L.arrangement.shortMultiColumn(2);
-Layout.L.arrangement.div9_2_0_7_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
-Layout.L.arrangement.div9_0_0_8_1 = Layout.L.arrangement.flattenTopMultiColumn(3);
-Layout.L.arrangement.div9_0_0_9_0 = Layout.L.arrangement.flattenTopMultiColumn(4);
+Layout.L.arrangement.div9_2_0_7_0 = Layout.L.arrangement.flattenPlusMultiColumn(2);
+Layout.L.arrangement.div9_0_0_8_1 = Layout.L.arrangement.flattenPlusMultiColumn(3);
+Layout.L.arrangement.div9_0_0_9_0 = Layout.L.arrangement.flattenPlusMultiColumn(4);
 // Ten list items. Parents and balanced elsewhere
-Layout.L.arrangement.div10_2_0_4_4 = Layout.L.arrangement.flattenTop;
+Layout.L.arrangement.div10_2_0_4_4 = Layout.L.arrangement.flatten("mobileOnly");
 // Ten list items. Spread out wide
 Layout.L.arrangement.div10_2_2_3_3 = Layout.L.arrangement.columns;
 Layout.L.arrangement.div10_2_1_4_3 = Layout.L.arrangement.lastColumnLong;
 // Ten list items. Flatten the top, and multicolumn the largest one
-Layout.L.arrangement.div10_2_2_5_1 = Layout.L.arrangement.flattenTopMultiColumn(2);
+Layout.L.arrangement.div10_2_2_5_1 = Layout.L.arrangement.flattenPlusMultiColumn(2);
 // Ten list items. Balanced lists and a muticolumn
 Layout.L.arrangement.div10_2_2_6_0 = Layout.L.arrangement.multiColumn(2);
 // Ten list items. Sneak the singles down the left
@@ -504,7 +573,7 @@ Layout.L.arrangement.div10_0_0_6_4 = Layout.L.arrangement.multiColumn(2, 'onlyDe
 // Ten list items. Seven-long columns are too much.
 Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
 // Ten list items. With parents, flatten the top
-Layout.L.arrangement.div10_2_0_8_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
+Layout.L.arrangement.div10_2_0_8_0 = Layout.L.arrangement.flattenPlusMultiColumn(2);
 // Ten list items. Two columns of five should both be multiColumn'ed
 // TODO
 
