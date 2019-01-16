@@ -24,7 +24,6 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     layout.num.children = info.children.length;
     // Make sure children objects checks can see this object's counts
     layout.checks.num = layout.num;
-    layout.div.num = layout.num;
     // Set up the divs themselves
     layout.family = layout.arrangement.family = family;
     layout.parents = layout.arrangement.parents = parents;
@@ -33,12 +32,6 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     layout.children = layout.arrangement.children = children;
     return layout;
 }
-
-Layout.L.num = {};
-Layout.L.num.parents = 0;
-Layout.L.num.litter = 0;
-Layout.L.num.siblings = 0;
-Layout.L.num.children = 0;
 
 /* Given either a value or a range of values, validate that the available animals
    in that list matches the count given of them. For simplicity, assume inclusive */
@@ -70,13 +63,208 @@ Layout.L.count = function(p=0, l=0, s=0, c=0) {
           (this.between(this.num.children, range["children"][0], range["children"][1])));
 }
 
-// TOWRITE: define arrangements here, instead of nesting them in the generate.layout.
-// Include column swaps, tr swaps, and things in these functions. Since the
-// TODO!! L.div functions need to just be class methods/utilties.
+/* Take a div list, and apply flatten classes to it. When adding a flattened class,
+   we need to add a line-break entity afterwards, and bump the flex box display
+   order of subsequent inserted divs. */
+Layout.L.flatten = function(div, onlyMobile=false) {
+  if (onlyMobile == true) {
+    div.childNodes[1].classList.add("onlyMobileFlat");
+    this.dividerMode = "onlyMobile";
+  } else {
+    // Mobile and Desktop flattened divs generally only appear alone, so give
+    // them a 100%-width singleton entry into the family list.
+    div.classList.add("singleton");
+    div.childNodes[1].classList.add("flat");
+  }
+  return div;
+}
+
+/* WIP Layout manager. Looks at counts of each element, and gives an arrangement */
+Layout.L.layout = function() {
+  // Given the counts and sum, create a function name to call as an index
+  var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
+  var orders = this.permutations(this.arrangement.list_order);
+  // Find the name of an arrangement function based on the lits counts.
+  // divn_parentcnt_littercnt_siblingcnt_childcnt => example: div6_2_1_3_0
+  var arrange_id = undefined;
+  for (order of orders) {
+    this.arrangement.list_order = order;
+    var test = "div" + sum + "_" + order.map(list => this.num[list]).join("_");
+    if (this.arrangement.indexOf(test) != -1) {
+      arrange_id = test;
+      break;
+    }
+  }
+  // Call an arrangement function if it exists. If not, use a default layout heuristic
+  if (arrange_id != undefined) {
+    this.arrangement[arrange_id]();
+  } else {
+    this.arrangement.default();
+  }
+}
+
+/* TODO: Remove this old layout manager
+    The layout generator basically prods all the possible arrangements of 
+    parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
+    what the best layout should be for each possible set of inputs. */
+Layout.L.layoutFamily = function() {
+  // Parent layout logic
+  if (this.parents != undefined) {
+    this.parents.style.order = this.arrangement.boxOrder++;
+    // Just parents? Make it flat on desktop and mobile
+    if (this.checks.onlyParentsNotOthers()) {
+      this.parents = Layout.L.flatten(this.parents, onlyMobile=false);
+    }
+    // If small number of siblings or children
+    if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
+      this.parents = Layout.L.flatten(this.parents, onlyMobile=true);
+    }
+    // If no litter column on mobile, and five or more children or siblings, 
+    // flatten the parents before doing others
+    if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
+      this.parents = Layout.L.flatten(this.parents, onlyMobile=true);
+    }
+    // If no litter column, and two short columns of children and siblings, 
+    // flatten the parents before doing others
+    if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
+      this.parents = Layout.L.flatten(this.parents, onlyMobile=true);
+    }
+    // Append parents div to the family display
+    this.family.appendChild(this.parents);
+    // Add dividers as instructed by earlier layout checks
+    this.arrangement.addFlexDivider(this.family);
+  }
+
+  // Litter layout logic
+  if (this.litter != undefined) {
+    this.litter.style.order = this.arrangement.boxOrder++;
+    // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
+    if (this.checks.onlyLitterNotOthers()) {
+      this.litter = Layout.L.flatten(this.litter, onlyMobile=false);
+    }
+    // Append litter div to the family display
+    this.family.appendChild(this.litter);
+    // Add dividers as instructed by earlier layout checks.
+    this.arrangement.addFlexDivider(this.family);
+  }
+
+  // Siblings layout logic
+  if (this.siblings != undefined) {
+    this.siblings.style.order = this.arrangement.boxOrder++;
+    // Spread out the siblings column if we have space
+    if (this.checks.manySiblingsNoChildren()) {
+      this.siblings = Layout.L.multiColumn(this.siblings, 2);
+    }
+    // Append siblings div to the family display
+    this.family.appendChild(this.siblings);
+    // If litter is much shorter than siblings on mobile, apply ordering to change display.
+    // This is only done once so it won't work when changing orientations in Web Inspector.
+    // TODO: make an event to do column switching live on demand
+    if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
+      Layout.L.swapColumn(this.litter, this.siblings, this.num.siblings);
+    }
+    // Add dividers as instructed by earlier layout checks. If it's two columns since a
+    // break was added, add another one.
+    this.arrangement.addFlexDivider(this.family);
+  }
+
+  // Children layout logic
+  if (this.children != undefined) {
+    this.children.style.order = this.arrangement.boxOrder++;
+    // Spread out the children column if we have space
+    if (this.checks.manyChildrenNoSiblings()) {
+      this.children = Layout.L.multiColumn(this.children, 2);
+    }
+    // Append children div to the family display
+    this.family.appendChild(this.children);
+    // No more dividers to add after children
+    // If litter is much shorter than children on mobile, apply ordering to change display.
+    // This is only done once so it won't work when changing orientations in Web Inspector.
+    // TODO: make an event to do column switching live on demand
+    if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
+      Layout.L.swapColumn(this.litter, this.children, this.num.children);
+    }
+  }
+  this.arrangement.reset();   // Clear historical values for future layout calls
+  return this.family;
+}
+
+/* Take a div list, and apply a column-mode class to it. */
+Layout.L.multiColumn = function(div, columnCount=2) {
+  if (columnCount == 2) {
+    div.childNodes[1].classList.add("double");
+  }
+  if (columnCount == 3) {
+    div.childNodes[1].classList.add("triple");
+  }
+  return div;
+}
+  
+/* Swap the target column with the destination column. On mobile, include logic
+    that pushes the swapped column up to be even with the swapped column. */
+Layout.L.swapColumn = function(target, destination, destination_cnt) {
+  var tmp_order = target.style.order;
+  target.style.order = destination.style.order;
+  destination.style.order = tmp_order;
+  // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
+  // and move the litter column up accordingly. Estimate the height since it's not rendered yet
+  if (this.num.parents == 2) {
+    height = (destination_cnt + 1) * 30;
+    shift = (height * -1) + 90;
+    if (shift < 0) {   // Only move sibling up if we have space to move it up
+      target.style.marginTop = shift.toString() + "px";
+      target.classList.add("adjustedMarginTop");
+    }
+  }  
+  // Fix sibling div z-index to make things clickable on Firefox
+  destination.style.zIndex = 2;
+  // When doing a swap, move the line break element that might exist after the target, to
+  // after the swapped destination instead. This is an ordering switch
+  var divBreak = target.nextSibling;
+  divBreak.style.order = parseInt(destination.style.order) + 1;
+}
+
+Layout.L.num = {};
+Layout.L.num.parents = 0;
+Layout.L.num.litter = 0;
+Layout.L.num.siblings = 0;
+Layout.L.num.children = 0;
+
+/* Create all permutations of an input string. This is used to determine the
+   arrangements of parents and children in the layout function */
+Layout.L.permutations = function(input) {
+  var results = [];
+  if (input.length == 1) {
+    return input;
+  }
+  for (var i = 0; i < input.length; i++) {
+    var firstVal = input[i];
+    var valsLeft = input.slice(0, i).concat(input.slice(i + 1));
+    var innerPermutations = this.permutations(valsLeft);
+    for (var j = 0; j < innerPermutations.length; j++) {
+      results.push([firstVal].concat(innerPermutations[j]));
+    }
+  }
+  return results;
+}
+
+/* All details of creating new content and arranging that content happens in the 
+   arrangement object. */
 Layout.L.arrangement = {};
-Layout.L.arrangement.default = ["parents", "litter", "siblings", "children"];
-Layout.L.arrangement.order = ["parents", "litter", "siblings", "children"];
-Layout.L.arrangement.family = undefined;   /* Output of this layout tool */
+// Flex box order. Determines display groupings.
+// Increment whenever we plan on making a new row.
+Layout.L.arrangement.boxOrder = 0;
+// Distance in list-count since the last divider. When this gets to two,
+// or after a flat element, a divider should be added
+Layout.L.arrangement.distance = 0;
+// Modal check to add a divider to the layout flow.
+// May be true/false, or an mobileOnly options
+Layout.L.arrangement.dividerMode = false;
+// List arrangement values
+Layout.L.arrangement.list_default = ["parents", "litter", "siblings", "children"];
+Layout.L.arrangement.list_order = ["parents", "litter", "siblings", "children"];
+// Actual HTMLNode outputs of this layout tool
+Layout.L.arrangement.family = undefined;
 Layout.L.arrangement.parents = undefined;
 Layout.L.arrangement.litter = undefined;
 Layout.L.arrangement.siblings = undefined;
@@ -98,7 +286,7 @@ Layout.L.arrangement.multiColumn = function(columns, mode="both") {
 
 // Flatten a single column, both on mobile and desktop
 Layout.L.arrangement.flatten = function() {
-  return;
+  Layout.L.div.flatten(this.parents);
 }
 
 // Flatten the first column, but keep the others. 
@@ -146,12 +334,49 @@ Layout.L.arrangement.default = function() {
   return;
 }
 
+// Adds a divider if necessary. The "dividerMode" value doubles as a 
+// class name to apply to the divider, so for detecting names, filter 
+// the normal boolean "true" and "false" values. In flex layouts, these
+// line breakers must have monotonic CSS order values to arrange properly.
+Layout.L.arrangement.addFlexDivider = function(mainDiv) {
+  // Increment distance when considering whether a divider should be added.
+  // On mobile, dividers must be added after every 2nd list at least.
+  if (this.dividerMode == false) {
+    this.distance++;
+    if (this.distance == 2) {
+      this.dividerMode = "onlyMobile";
+    }
+  }
+  if (this.dividerMode != false) {
+    var breaker = document.createElement('hr');
+    breaker.className = "flexDivider";
+    if ((this.dividerMode != false) && (this.dividerMode != true)) {
+      breaker.classList.add(this.dividerMode);
+      breaker.style.order = this.boxOrder++;
+    }
+    mainDiv.appendChild(breaker);
+    this.distance = 0;
+  }
+  // Reset divider and distance settings
+  if (this.distance == 0) {
+    this.dividerMode = false;
+  }
+}
+
+// Clear state after doing a layout operation
+Layout.L.arrangement.reset = function() {
+  Layout.L.arrangement.boxOrder = 0;
+  Layout.L.arrangement.distance = 0;
+  Layout.L.arrangement.dividerMode = false;
+}
+
+
 /* The arrangement switchboard. Set these arrangement names equivalent 
    to the actual functions that will perform the layout duties.
    Comments refer to mobile layout considerations. */
 // TODO: remove any switchboard entries that don't need speical behavior!!
 // One list item? Simple column layout is fine.
-Layout.L.arrangement.div1_1_0_0_0 = Layout.L.arrangement.columns;
+Layout.L.arrangement.div1_1_0_0_0 = Layout.L.arrangement.flatten;
 // Two list items, horizontal display to save space. 
 Layout.L.arrangement.div2_2_0_0_0 = Layout.L.arrangement.flatten;
 // Two list items, in their own columns
@@ -256,11 +481,10 @@ Layout.L.arrangement.div10_0_0_6_4 = Layout.L.arrangement.multiColumn(2, 'onlyDe
 Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
 // Ten list items. With parents, flatten the top
 Layout.L.arrangement.div10_2_0_8_0 = Layout.L.arrangement.flattenTopMultiColumn(2);
-
-
-
 // Ten list items. Two columns of five should both be multiColumn'ed
+// TODO
 
+/* Logic checks relevant to the arrangement functions */
 Layout.L.checks = {};
 // If children and siblings within one animal difference of each other in size,
 // return true. Ignore lists longer than a mobile page height in length (7 or greater)
@@ -352,232 +576,6 @@ Layout.L.checks.onlyThisListHasMembers = function(list_name) {
   return ((this.num[list_name] != 0) && (this.emptyLists(other_lists)));
 }
 
-
-Layout.L.div = {}
-// Distance in list-count since the last divider. When this gets to two,
-// or after a flat element, a divider should be added
-Layout.L.div.distance = 0;
-// Modal check to add a divider to the layout flow.
-// May be true/false, or an mobileOnly options
-Layout.L.div.divider = false;
-// Flex box order. Determines display groupings.
-// Increment whenever we plan on making a new row.
-Layout.L.div.order = 0;
-
-// Adds a divider if necessary. The "divider" value doubles as a flag to 
-// describe whether or not flex dividers are necessary, so filter out 
-// boolean "true" and "false" as class names. In flex layouts, these
-// line breakers must have proper order.
-Layout.L.div.addFlexDivider = function(mainDiv) {
-  // Increment distance when considering whether a divider should be added.
-  // On mobile, dividers must be added after every 2nd list at least.
-  if (this.divider == false) {
-    this.distance++;
-    if (this.distance == 2) {
-      this.divider = "onlyMobile";
-    }
-  }
-  if (this.divider != false) {
-    var breaker = document.createElement('hr');
-    breaker.className = "flexDivider";
-    if ((this.divider != false) && (this.divider != true)) {
-      breaker.classList.add(this.divider);
-      breaker.style.order = this.order++;
-    }
-    mainDiv.appendChild(breaker);
-    this.distance = 0;
-  }
-  // Reset divider and distance settings
-  if (this.distance == 0) {
-    this.divider = false;
-  }
-}
-
-// Clear state after doing a layout operation
-Layout.L.div.clear = function() {
-  Layout.L.div.distance = 0;
-  Layout.L.div.divider = false;
-  Layout.L.div.order = 0;
-}
-
-/* Take a div list, and apply flatten classes to it. When adding a flattened class,
-   we need to add a line-break entity afterwards, and bump the flex box display
-   order of subsequent inserted divs. */
-Layout.L.div.flatten = function(div, onlyMobile=false) {
-  if (onlyMobile == true) {
-    div.childNodes[1].classList.add("onlyMobileFlat");
-    this.divider = "onlyMobile";
-  } else {
-    // Mobile and Desktop flattened divs generally only appear alone, so give
-    // them a 100%-width singleton entry into the family list.
-    div.classList.add("singleton");
-    div.childNodes[1].classList.add("flat");
-  }
-  return div;
-}
-
-/* Take a div list, and apply a column-mode class to it. */
-Layout.L.div.multiColumn = function(div, columnCount=2) {
-  if (columnCount == 2) {
-    div.childNodes[1].classList.add("double");
-  }
-  if (columnCount == 3) {
-    div.childNodes[1].classList.add("triple");
-  }
-  return div;
-}
-
-/* Swap the target column with the destination column. On mobile, include logic
-   that pushes the swapped column up to be even with the swapped column. */
-Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
-  var tmp_order = target.style.order;
-  target.style.order = destination.style.order;
-  destination.style.order = tmp_order;
-  // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
-  // and move the litter column up accordingly. Estimate the height since it's not rendered yet
-  if (this.num.parents == 2) {
-    height = (destination_cnt + 1) * 30;
-    shift = (height * -1) + 90;
-    if (shift < 0) {   // Only move sibling up if we have space to move it up
-      target.style.marginTop = shift.toString() + "px";
-      target.classList.add("adjustedMarginTop");
-    }
-  }  
-  // Fix sibling div z-index to make things clickable on Firefox
-  destination.style.zIndex = 2;
-  // When doing a swap, move the line break element that might exist after the target, to
-  // after the swapped destination instead. This is an ordering switch
-  var divBreak = target.nextSibling;
-  divBreak.style.order = parseInt(destination.style.order) + 1;
-}
-
-/* Create all permutations of an input string. This is used to determine the
-   arrangements of parents and children in the layout function */
-Layout.L.permutations = function(input) {
-  var results = [];
-  if (input.length == 1) {
-    return input;
-  }
-  for (var i = 0; i < input.length; i++) {
-    var firstVal = input[i];
-    var valsLeft = input.slice(0, i).concat(input.slice(i + 1));
-    var innerPermutations = this.permutations(valsLeft);
-    for (var j = 0; j < innerPermutations.length; j++) {
-      results.push([firstVal].concat(innerPermutations[j]));
-    }
-  }
-  return results;
-}
-
-/* WIP Layout manager. Looks at counts of each element, and gives an arrangement */
-Layout.L.layoutManager = function() {
-  // Given the counts and sum, create a function name to call as an index
-  var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
-  var orders = this.permutations(this.arrangement.order);
-  // Find the name of an arrangement function based on the lits counts.
-  // divn_parentcnt_littercnt_siblingcnt_childcnt => example: div6_2_1_3_0
-  var arrange_id = undefined;
-  for (order of orders) {
-    this.arrangement.order = order;
-    var test = "div" + sum + "_" + order.map(list => this.num[list]).join("_");
-    if (this.arrangement.indexOf(test) != -1) {
-      arrange_id = test;
-      break;
-    }
-  }
-  // Call an arrangement function if it exists. If not, use a default layout heuristic
-  if (arrange_id != undefined) {
-    this.arrangement[arrange_id]();
-  } else {
-    this.arrangement.default();
-  }
-}
-
-/* TODO: Remove this old layout manager
-   The layout generator basically prods all the possible arrangements of 
-   parents/litter/siblings/children, and based on hand-layout-optimizing, chooses
-   what the best layout should be for each possible set of inputs. */
-Layout.L.layoutFamily = function() {
-  // Parent layout logic
-  if (this.parents != undefined) {
-    this.parents.style.order = this.div.order++;
-    // Just parents? Make it flat on desktop and mobile
-    if (this.checks.onlyParentsNotOthers()) {
-      this.parents = this.div.flatten(this.parents, onlyMobile=false);
-    }
-    // If small number of siblings or children
-    if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
-      this.parents = this.div.flatten(this.parents, onlyMobile=true);
-    }
-    // If no litter column on mobile, and five or more children or siblings, 
-    // flatten the parents before doing others
-    if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
-      this.parents = this.div.flatten(this.parents, onlyMobile=true);
-    }
-    // If no litter column, and two short columns of children and siblings, 
-    // flatten the parents before doing others
-    if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
-      this.parents = this.div.flatten(this.parents, onlyMobile=true);
-    }
-    // Append parents div to the family display
-    this.family.appendChild(this.parents);
-    // Add dividers as instructed by earlier layout checks
-    this.div.addFlexDivider(this.family);
-  }
-
-  // Litter layout logic
-  if (this.litter != undefined) {
-    this.litter.style.order = this.div.order++;
-    // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
-    if (this.checks.onlyLitterNotOthers()) {
-      this.litter = this.div.flatten(this.litter, onlyMobile=false);
-    }
-    // Append litter div to the family display
-    this.family.appendChild(this.litter);
-    // Add dividers as instructed by earlier layout checks.
-    this.div.addFlexDivider(this.family);
-  }
-
-  // Siblings layout logic
-  if (this.siblings != undefined) {
-    this.siblings.style.order = this.div.order++;
-    // Spread out the siblings column if we have space
-    if (this.checks.manySiblingsNoChildren()) {
-      this.siblings = this.div.multiColumn(this.siblings, 2);
-    }
-    // Append siblings div to the family display
-    this.family.appendChild(this.siblings);
-    // If litter is much shorter than siblings on mobile, apply ordering to change display.
-    // This is only done once so it won't work when changing orientations in Web Inspector.
-    // TODO: make an event to do column switching live on demand
-    if ((this.checks.litterExists()) && this.checks.onlySiblingsNotChildren() && this.checks.smallScreen()) {
-      this.div.swapColumn(this.litter, this.siblings, this.num.siblings);
-    }
-    // Add dividers as instructed by earlier layout checks. If it's two columns since a
-    // break was added, add another one.
-    this.div.addFlexDivider(this.family);
-  }
-
-  // Children layout logic
-  if (this.children != undefined) {
-    this.children.style.order = this.div.order++;
-    // Spread out the children column if we have space
-    if (this.checks.manyChildrenNoSiblings()) {
-      this.children = this.div.multiColumn(this.children, 2);
-    }
-    // Append children div to the family display
-    this.family.appendChild(this.children);
-    // No more dividers to add after children
-    // If litter is much shorter than children on mobile, apply ordering to change display.
-    // This is only done once so it won't work when changing orientations in Web Inspector.
-    // TODO: make an event to do column switching live on demand
-    if ((this.checks.litterExists()) && this.checks.onlyChildrenNotSiblings() && this.checks.smallScreen()) {
-      this.div.swapColumn(this.litter, this.children, this.num.children);
-    }
-  }
-  this.div.clear();   // Clear historical values for future layout calls
-  return this.family;
-}
 
 var mobile = window.matchMedia("(max-width: 670px)");
 var last_offset = {};
