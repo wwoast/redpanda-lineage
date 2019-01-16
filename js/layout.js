@@ -33,6 +33,14 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     return layout;
 }
 
+/* Create a flex divider. This is a horizontal rule element with 100% width. */
+Layout.flexDivider = function(className) {
+  var breaker = document.createElement('hr');
+  breaker.className = "flexDivider";
+  breaker.classList.add(className);
+  return breaker;
+}
+
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
    we need to add a line-break entity afterwards, and bump the flex box display
    order of subsequent inserted divs. */
@@ -150,12 +158,14 @@ Layout.L.layout = function() {
       break;
     }
   }
-  // Call an arrangement function if it exists. If not, use a default layout heuristic
+  // Call an arrangement function if it exists. If not, use a default layout heuristic.
+  // This will result in an updated this.arrangement.family div getting written.
   if (arrange_id != undefined) {
     this.arrangement[arrange_id]();
   } else {
     this.arrangement.default();
   }
+  return this.arrangement.family;
 }
 
 /* TODO: Remove this old layout manager
@@ -277,7 +287,16 @@ Layout.L.arrangement.children = undefined;
 // flattenTop, multiColumn, others.
 // Take all inputs and display as straight columns.
 Layout.L.arrangement.columns = function() {
-  return;
+  // List names that are defined
+  var order = this.list_order.filter(x => this[x] != undefined);
+  // List values that are defined
+  var columns = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  // Add line breaks after every two columns
+  for (let i = 0; i < columns.length; i++) {
+    if (i % 2 == 1) {
+      columns.splice(i, 0, this.addFlexDivider)
+    }
+  }
 }
 
 // Take the longest column and make into a multicolumn list.
@@ -289,7 +308,7 @@ Layout.L.arrangement.multiColumn = function(columns, mode="both") {
 
 // Flatten a single column, both on mobile and desktop
 Layout.L.arrangement.flatten = function() {
-  Layout.L.div.flatten(this.parents);
+  Layout.flatten(this.parents);
 }
 
 // Flatten the first column, but keep the others. 
@@ -350,20 +369,22 @@ Layout.L.arrangement.addFlexDivider = function(mainDiv) {
       this.dividerMode = "onlyMobile";
     }
   }
-  if (this.dividerMode != false) {
-    var breaker = document.createElement('hr');
-    breaker.className = "flexDivider";
-    if ((this.dividerMode != false) && (this.dividerMode != true)) {
-      breaker.classList.add(this.dividerMode);
-      breaker.style.order = this.boxOrder++;
-    }
-    mainDiv.appendChild(breaker);
-    this.distance = 0;
+  // Verify if we need to add a divider yet
+  if (this.dividerMode == false) {
+    return;
   }
-  // Reset divider and distance settings
-  if (this.distance == 0) {
-    this.dividerMode = false;
+  // We're going to add a divider
+  var breaker = undefined;
+  if ((this.dividerMode != false) && (this.dividerMode != true)) {
+    breaker = Layout.flexDivider(this.dividerMode);
+  } else {
+    breaker = Layout.flexDivider(true);
   }
+  breaker.style.order = this.boxOrder++;
+  mainDiv.appendChild(breaker);
+  // Reset the distance and mode settings
+  this.distance = 0;
+  this.dividerMode = false;
 }
 
 // Clear state after doing a layout operation
