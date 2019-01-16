@@ -412,7 +412,6 @@ Layout.L.div.flatten = function(div, onlyMobile=false) {
     div.classList.add("singleton");
     div.childNodes[1].classList.add("flat");
   }
-  div.style.order = this.order++;
   return div;
 }
 
@@ -424,16 +423,15 @@ Layout.L.div.multiColumn = function(div, columnCount=2) {
   if (columnCount == 3) {
     div.childNodes[1].classList.add("triple");
   }
-  div.style.order = this.order++;
   return div;
 }
 
 /* Swap the target column with the destination column. On mobile, include logic
    that pushes the swapped column up to be even with the swapped column. */
 Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
-  var tmp_order = destination.style.order;
-  target.style.order = tmp_order;
-  destination.style.order = parseInt(destination.style.order) - 1;
+  var tmp_order = target.style.order;
+  target.style.order = destination.style.order;
+  destination.style.order = tmp_order;
   // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
   // and move the litter column up accordingly. Estimate the height since it's not rendered yet
   height = (destination_cnt + 1) * 30;
@@ -447,7 +445,7 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   // When doing a swap, move the line break element that might exist after the target, to
   // after the swapped destination instead. This is an ordering switch
   var divBreak = target.nextSibling;
-  divBreak.style.order = destination.style.order;
+  divBreak.style.order = parseInt(destination.style.order) + 1;
 }
 
 /* Create all permutations of an input string. This is used to determine the
@@ -499,7 +497,7 @@ Layout.L.layoutManager = function() {
 Layout.L.layoutFamily = function() {
   // Parent layout logic
   if (this.parents != undefined) {
-    this.parents.style.order = this.div.order;
+    this.parents.style.order = this.div.order++;
     // Just parents? Make it flat on desktop and mobile
     if (this.checks.onlyParentsNotOthers()) {
       this.parents = this.div.flatten(this.parents, onlyMobile=false);
@@ -526,7 +524,7 @@ Layout.L.layoutFamily = function() {
 
   // Litter layout logic
   if (this.litter != undefined) {
-    this.litter.style.order = this.div.order;
+    this.litter.style.order = this.div.order++;
     // Only a litter div of two entries, and no others. Make it flat on desktop and mobile
     if (this.checks.onlyLitterNotOthers()) {
       this.litter = this.div.flatten(this.litter, onlyMobile=false);
@@ -539,7 +537,7 @@ Layout.L.layoutFamily = function() {
 
   // Siblings layout logic
   if (this.siblings != undefined) {
-    this.siblings.style.order = this.div.order;
+    this.siblings.style.order = this.div.order++;
     // Spread out the siblings column if we have space
     if (this.checks.manySiblingsNoChildren()) {
       this.siblings = this.div.multiColumn(this.siblings, 2);
@@ -559,7 +557,7 @@ Layout.L.layoutFamily = function() {
 
   // Children layout logic
   if (this.children != undefined) {
-    this.children.style.order = this.div.order;
+    this.children.style.order = this.div.order++;
     // Spread out the children column if we have space
     if (this.checks.manyChildrenNoSiblings()) {
       this.children = this.div.multiColumn(this.children, 2);
