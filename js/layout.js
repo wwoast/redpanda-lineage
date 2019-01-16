@@ -22,8 +22,9 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
     layout.num.litter = info.litter.length;
     layout.num.siblings = info.siblings.length;
     layout.num.children = info.children.length;
-    // Make sure checks can see this object's counts
+    // Make sure children objects checks can see this object's counts
     layout.checks.num = layout.num;
+    layout.div.num = layout.num;
     // Set up the divs themselves
     layout.family = layout.arrangement.family = family;
     layout.parents = layout.arrangement.parents = parents;
@@ -434,12 +435,14 @@ Layout.L.div.swapColumn = function(target, destination, destination_cnt) {
   destination.style.order = tmp_order;
   // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
   // and move the litter column up accordingly. Estimate the height since it's not rendered yet
-  height = (destination_cnt + 1) * 30;
-  shift = (height * -1) + 90;
-  if (shift < 0) {   // Only move sibling up if we have space to move it up
-    target.style.marginTop = shift.toString() + "px";
-    target.classList.add("adjustedMarginTop");
-  }
+  if (this.num.parents == 2) {
+    height = (destination_cnt + 1) * 30;
+    shift = (height * -1) + 90;
+    if (shift < 0) {   // Only move sibling up if we have space to move it up
+      target.style.marginTop = shift.toString() + "px";
+      target.classList.add("adjustedMarginTop");
+    }
+  }  
   // Fix sibling div z-index to make things clickable on Firefox
   destination.style.zIndex = 2;
   // When doing a swap, move the line break element that might exist after the target, to
