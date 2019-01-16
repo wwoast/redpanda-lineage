@@ -13,24 +13,24 @@ var Layout = {};   /* Namespace */
 Layout.L = {};   /* Prototype */
 
 Layout.init = function(family, info, parents, litter, siblings, children) {
-    var layout = Object.create(Layout.L);
-    // Set up item counts, since this is easier than pulling them from HTML.
-    // Either both parents are displayed (one as undefined), or neither.
-    if ((info.dad != undefined) || (info.mom != undefined)) {
-        layout.num.parents = 2;
-    }
-    layout.num.litter = info.litter.length;
-    layout.num.siblings = info.siblings.length;
-    layout.num.children = info.children.length;
-    // Make sure children objects checks can see this object's counts
-    layout.checks.num = layout.num;
-    // Set up the divs themselves
-    layout.family = layout.arrangement.family = family;
-    layout.parents = layout.arrangement.parents = parents;
-    layout.litter = layout.arrangement.litter = litter;
-    layout.siblings = layout.arrangement.siblings = siblings;
-    layout.children = layout.arrangement.children = children;
-    return layout;
+  var layout = Object.create(Layout.L);
+  // Set up item counts, since this is easier than pulling them from HTML.
+  // Either both parents are displayed (one as undefined), or neither.
+  if ((info.dad != undefined) || (info.mom != undefined)) {
+      layout.num.parents = 2;
+  }
+  layout.num.litter = info.litter.length;
+  layout.num.siblings = info.siblings.length;
+  layout.num.children = info.children.length;
+  // Make sure children objects checks can see this object's counts
+  layout.checks.num = layout.num;
+  // Set up the divs themselves
+  layout.family = layout.arrangement.family = family;
+  layout.parents = layout.arrangement.parents = parents;
+  layout.litter = layout.arrangement.litter = litter;
+  layout.siblings = layout.arrangement.siblings = siblings;
+  layout.children = layout.arrangement.children = children;
+  return layout;
 }
 
 /* Create a flex divider. This is a horizontal rule element with 100% width. */
