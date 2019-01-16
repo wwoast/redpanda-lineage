@@ -185,16 +185,19 @@ Layout.L.layoutFamily = function() {
     // If small number of siblings or children
     if (this.checks.manyChildrenNoSiblings() || this.checks.manySiblingsNoChildren()) {
       this.parents = Layout.flatten(this.parents, onlyMobile=true);
+      this.arrangement.dividerMode = "mobileOnly";
     }
     // If no litter column on mobile, and five or more children or siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.singleLongChildrenOrSiblingsList()) {
       this.parents = Layout.flatten(this.parents, onlyMobile=true);
+      this.arrangement.dividerMode = "mobileOnly";
     }
     // If no litter column, and two short columns of children and siblings, 
     // flatten the parents before doing others
     if (this.checks.parentsButNoLitter() && this.checks.twoShortChildrenAndSiblingsLists()) {
       this.parents = Layout.flatten(this.parents, onlyMobile=true);
+      this.arrangement.dividerMode = "mobileOnly";
     }
     // Append parents div to the family display
     this.family.appendChild(this.parents);
@@ -310,7 +313,7 @@ Layout.L.arrangement.columns = function() {
     }
   }
   // Return distance/flexBreaker counters to default values
-  this.arrangement.reset();
+  this.reset();
 }
 
 // Take the longest column and make into a multicolumn list.
@@ -342,7 +345,7 @@ Layout.L.arrangement.multiColumn = function(columns, mode="both") {
     }
   }
   // Return distance/flexBreaker counters to default values
-  this.arrangement.reset();
+  this.reset();
 }
 
 // Flatten a single column (the first one) both on mobile and desktop
@@ -371,7 +374,7 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
     }
   }
   // Return distance/flexBreaker counters to default values
-  this.arrangement.reset();
+  this.reset();
 }
 
 // Combination of flattenTop and multiColumn.
