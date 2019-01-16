@@ -60,6 +60,24 @@ Layout.multiColumn = function(div, columnCount=2) {
   return div;
 }
 
+/* Create all permutations of an input string. This is used to determine the
+   arrangements of parents and children in the layout function */
+Layout.permutations = function(input) {
+  var results = [];
+  if (input.length == 1) {
+    return input;
+  }
+  for (var i = 0; i < input.length; i++) {
+    var firstVal = input[i];
+    var valsLeft = input.slice(0, i).concat(input.slice(i + 1));
+    var innerPermutations = this.permutations(valsLeft);
+    for (var j = 0; j < innerPermutations.length; j++) {
+      results.push([firstVal].concat(innerPermutations[j]));
+    }
+  }
+  return results;
+}
+
 /* Swap the target column with the destination column. On mobile, include logic
     that pushes the swapped column up to be even with the swapped column. */
 Layout.swapColumn = function(target, destination, height_adjust, destination_cnt) {
@@ -120,7 +138,7 @@ Layout.L.count = function(p=0, l=0, s=0, c=0) {
 Layout.L.layout = function() {
   // Given the counts and sum, create a function name to call as an index
   var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
-  var orders = this.permutations(this.arrangement.list_order);
+  var orders = Layout.permutations(this.arrangement.list_order);
   // Find the name of an arrangement function based on the lits counts.
   // divn_parentcnt_littercnt_siblingcnt_childcnt => example: div6_2_1_3_0
   var arrange_id = undefined;
@@ -232,24 +250,6 @@ Layout.L.num.parents = 0;
 Layout.L.num.litter = 0;
 Layout.L.num.siblings = 0;
 Layout.L.num.children = 0;
-
-/* Create all permutations of an input string. This is used to determine the
-   arrangements of parents and children in the layout function */
-Layout.permutations = function(input) {
-  var results = [];
-  if (input.length == 1) {
-    return input;
-  }
-  for (var i = 0; i < input.length; i++) {
-    var firstVal = input[i];
-    var valsLeft = input.slice(0, i).concat(input.slice(i + 1));
-    var innerPermutations = this.permutations(valsLeft);
-    for (var j = 0; j < innerPermutations.length; j++) {
-      results.push([firstVal].concat(innerPermutations[j]));
-    }
-  }
-  return results;
-}
 
 /* All details of creating new content and arranging that content happens in the 
    arrangement object. */
