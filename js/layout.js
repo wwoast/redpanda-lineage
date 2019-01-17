@@ -220,7 +220,7 @@ Layout.L.arrangement.children = undefined;
 // Take all inputs and display as straight columns.
 Layout.L.arrangement.columns = function() {
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
-  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
@@ -247,9 +247,9 @@ Layout.L.arrangement.multiColumn = function(columns, breaker_mode="both", column
   // a multicolumn, or just in the normal flow of adding columns
   var breaking_style = breaker_mode;
   // The list order we're dealing with (strings "parents", "litter")
-  var order = this.list_order.map(x => this[x] != undefined);
+  var order = this.list_default.map(x => this[x] != undefined);
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
-  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
@@ -279,7 +279,7 @@ Layout.L.arrangement.multiColumn = function(columns, breaker_mode="both", column
 // Flatten a single column (the first one) both on mobile and desktop
 Layout.L.arrangement.flatten = function(mode="onlyMobile") {
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
-  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
@@ -314,7 +314,7 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns, breaker_mode="bo
   // a multicolumn, or just in the normal flow of adding columns
   var breaking_style = breaker_mode;
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
-  var lists = this.list_order.map(x => this[x]).filter(x => x != undefined);
+  var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
@@ -420,7 +420,7 @@ Layout.L.arrangement.largestColumn = function() {
 // Clear state after doing a layout operation. Partial clears are useful
 // after adding a divider, so support that as the default.
 Layout.L.arrangement.resetCounters = function(mode="partial") {
-  if (mode="all") {
+  if (mode=="all") {
     Layout.L.arrangement.boxOrder = 0;
   }
   Layout.L.arrangement.distance = 0;
