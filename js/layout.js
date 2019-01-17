@@ -17,7 +17,9 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
   // Set up item counts, since this is easier than pulling them from HTML.
   // Either both parents are displayed (one as undefined), or neither.
   if ((info.dad != undefined) || (info.mom != undefined)) {
-      layout.num.parents = 2;
+    layout.num.parents = 2;
+  } else {
+    layout.num.parents = 0;
   }
   layout.num.litter = info.litter.length;
   layout.num.siblings = info.siblings.length;
@@ -338,7 +340,7 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
       breaking_style = column_mode;     /* Will do an after-column-style break */
     }
     // If just a single list, add a singleton class to adjust width on desktop
-    if (lists.length == 1) {
+    if (lists.length == 1)  {
       cur_list.classList.add("singleton");
     }
     this.family.append(cur_list);
@@ -357,7 +359,7 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
 }
 
 // In some extraordinary cases on mobile, multiColumn on three-element lists 
-// may look better than the other alternatives. Use this layout to guarantee
+// may look better than the flexbox alternatives. Use this layout to guarantee
 // that short lists still get flowed multicolumn.
 Layout.L.arrangement.shortMultiColumn = function(columns, mode="both") {
   return;
@@ -386,43 +388,24 @@ Layout.L.arrangement.lastColumnLong = function() {
 // -- Two long columns, shorter no less than 5, longest no more than 8? => longRun
 // -- Long column of 9 or more? Take all columns longer than 5 and multiColumn them
 // TOWRITE: for now, just default to columns
-Layout.L.arrangement.default = Layout.L.arrangement.columns;
-
-// TODO: remove, as this is only used in legacy layouts!!
-// Adds a divider if necessary. The "dividerMode" value doubles as a 
-// class name to apply to the divider, so for detecting names, filter 
-// the normal boolean "true" and "false" values. In flex layouts, these
-// line breakers must have monotonic CSS order values to arrange properly.
-Layout.L.arrangement.addFlexDivider = function(mainDiv) {
-  // Increment distance when considering whether a divider should be added.
-  // On mobile, dividers must be added after every 2nd list at least.
-  if (this.dividerMode == false) {
-    this.distance++;
-    if (this.distance == 2) {
-      this.dividerMode = "onlyMobile";
-    }
+Layout.L.arrangement.default = function() {
+  // One long column? Multi-column it
+  if ((this.largestColumn() > 4) && (this.columnCount() == 1)) {
+    return this.multiColumn();
   }
-  // Verify if we need to add a divider yet
-  if (this.dividerMode == false) {
-    return;
+  else {
+    return this.columns();
   }
-  // We're going to add a divider
-  var breaker = undefined;
-  if ((this.dividerMode != false) && (this.dividerMode != true)) {
-    breaker = Layout.flexDivider(this.dividerMode);
-  } else {
-    breaker = Layout.flexDivider(true);
-  }
-  breaker.style.order = this.boxOrder++;
-  mainDiv.appendChild(breaker);
-  // Reset the distance and mode settings
-  this.distance = 0;
-  this.dividerMode = false;
-}
+} 
 
 // Find the longest column
 Layout.L.arrangement.largestColumn = function() {
   return Object.values(this.num).reduce(function(a, b){return a > b ? a : b });
+}
+
+// Get the number of non-empty columns
+Layout.L.arrangement.columnCount = function() {
+  return Object.values(this.num).filter(function(a){return a != 0}).length;
 }
 
 // Clear state after doing a layout operation. Partial clears are useful
@@ -454,17 +437,15 @@ Layout.L.arrangement.div1_1_0_0_0 = function() { return this.columns() }
 Layout.L.arrangement.div2_2_0_0_0 = function() { return this.flatten("both") }
 // Two list items, in their own columns
 Layout.L.arrangement.div2_1_1_0_0 = function() { return this.columns() }
-// Three list items. Two parents and a single third
+// Three item arrangements all use column mode
 Layout.L.arrangement.div3_2_1_0_0 = function() { return this.columns() }
-// Three list items. One each in three lists
 Layout.L.arrangement.div3_0_1_1_1 = function() { return this.columns() }
-// Three list items. One column of three items
 Layout.L.arrangement.div3_0_0_3_0 = function() { return this.columns() }
 // Four list items. Two parents and two in a second column
 Layout.L.arrangement.div4_2_2_0_0 = function() { return this.columns() }
 // Four list items. Two in one category and singles
-// TODO: possibly long run, but find a way to kick the spacers right
-Layout.L.arrangement.div4_2_1_1_0 = function() { return this.flatten("onlyMobile") }
+// TODO: long run, since flatten mode is ambiguous with ordering
+// Layout.L.arrangement.div4_2_1_1_0 = function() { return this.longRun("onlyMobile") }
 // Four list items. Three in one category
 Layout.L.arrangement.div4_0_0_3_1 = function() { return this.columns() }
 // Four list items. All in one category. Longer lists will get multiColumn'ed
