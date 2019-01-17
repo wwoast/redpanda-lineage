@@ -528,14 +528,14 @@ div.parents, div.litter, div.siblings, div.children, div.names {
 
 /* Add these after an element to guarantee that its display will force a new flex line.
    On Firefox, CSS "page-break-after" works for this, but on Chrome it does not. */
-hr.flexDivider {
+hr.divider {
     display: block;
     width: 100%;
     border: 0px solid;
     margin: 0 0 0 0;
 }
 
-hr.flexDivider.onlyMobile {
+hr.divider.onlyMobile {
     display: none;
 }
 
@@ -976,17 +976,23 @@ div.photoSample h5.caption.familyTitle {
         flex-wrap: wrap;
     }
 
+    div.family.multiColumn {
+        display: block;
+        column-count: 2;
+        column-gap: 10px;
+    }
+
     div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
     }
 
-    hr.flexDivider.onlyDesktop {
+    hr.divider.onlyDesktop {
         display: none;
     }
 
-    hr.flexDivider.onlyMobile {
+    hr.divider.onlyMobile {
         display: block;
     }
 
