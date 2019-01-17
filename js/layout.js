@@ -253,6 +253,7 @@ Layout.L.arrangement.multiColumn = function(columns, breaker_mode="both", column
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
+    cur_list.style.order = this.boxOrder++;
     var list_name = order[i];
     var list_len = this.num[list_name];
     // What the multicolumn split should be
@@ -283,6 +284,7 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
+    cur_list.style.order = this.boxOrder++;
     // Flatten the first list
     if (i == 0) {
       Layout.flatten(cur_list, mode);
@@ -293,7 +295,6 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
       cur_list.classList.add("singleton");
       this.dividerMode = mode;
     }
-    cur_list.style.order = this.boxOrder++;
     this.family.append(cur_list);
     this.distance++;
     if ((this.distance == 2) || (this.dividerMode != false)) {
@@ -414,7 +415,8 @@ Layout.L.arrangement.addFlexDivider = function(mainDiv) {
 
 // Find the longest column
 Layout.L.arrangement.largestColumn = function() {
-  return Object.keys(this.num).reduce(function(a, b){return obj[a] > obj[b] ? a : b });
+  var num = this.num;   /* Annoying scoping */
+  return Object.keys(num).reduce(function(a, b){return num[a] > num[b] ? num[a] : num[b] });
 }
 
 // Clear state after doing a layout operation. Partial clears are useful
