@@ -49,8 +49,8 @@ Layout.between = function(test, a, b, mode) {
 /* Take a div list, and apply flatten classes to it. When adding a flattened class,
    we need to add a line-break entity afterwards, and bump the flex box display
    order of subsequent inserted divs. */
-Layout.flatten = function(div, onlyMobile=false) {
-  if (onlyMobile == true) {
+Layout.flatten = function(div, mode) {
+  if (mode == "onlyMobile") {
     div.childNodes[1].classList.add("onlyMobileFlat");
   } else {
     // Mobile and Desktop flattened divs generally only appear alone, so give
@@ -242,12 +242,12 @@ Layout.L.arrangement.columns = function() {
 // Any other columns that exist should be displayed as straight columns.
 // Mode can be "onlyMobile", "onlyDesktop", or "both".
 // TODO: have modes for both the breakers and the multicolumn classes
-Layout.L.arrangement.multiColumn = function(columns, breaker_mode="both", column_mode="both") {
+Layout.L.arrangement.multiColumn = function(columns=0, breaker_mode="both", column_mode="both") {
   // Decide which line breaker mode to use based on whether this comes after
   // a multicolumn, or just in the normal flow of adding columns
   var breaking_style = breaker_mode;
   // The list order we're dealing with (strings "parents", "litter")
-  var order = this.list_default.map(x => this[x] != undefined);
+  var order = this.list_default.filter(x => this[x] != undefined);
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
   var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
@@ -257,11 +257,12 @@ Layout.L.arrangement.multiColumn = function(columns, breaker_mode="both", column
     var list_name = order[i];
     var list_len = this.num[list_name];
     // What the multicolumn split should be
-    var mc_count = this.multiColumnCount(list_len);
     if (list_len == this.largestColumn()) {
+      var mc_count = columns;
+      if (mc_count == 0) { mc_count = this.multiColumnCount(list_len) }
       Layout.multiColumn(cur_list, mc_count);
       this.dividerMode = column_mode;   /* Add a divider based on input mode */
-      breaking_style = column_node;     /* Will do an after-column-style break */
+      breaking_style = column_mode;     /* Will do an after-column-style break */
     }
     this.family.append(cur_list);
     this.distance++;
@@ -310,35 +311,41 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
 
 // Combination of flattenTop and multiColumn.
 // TODO: need desktop or mobile modal flags for BOTH the flattening and the multicolumn mode
-Layout.L.arrangement.flattenPlusMultiColumn = function(columns, breaker_mode="both", column_mode="both") {
+Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="both", column_mode="both") {
   // Decide which line breaker mode to use based on whether this comes after
   // a multicolumn, or just in the normal flow of adding columns
   var breaking_style = breaker_mode;
+  // The list order we're dealing with (strings "parents", "litter")
+  var order = this.list_default.filter(x => this[x] != undefined);
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
   var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
   // Add line breaks after every two columns, and add order values to every item
   for (let i = 0; i < lists.length; i++) {
     var cur_list = lists[i];
-    // Flatten the first list
+    cur_list.style.order = this.boxOrder++;
+    var list_name = order[i];
+    var list_len = this.num[list_name];
+    // Flatten the first list, but only on mobile.
     if (i == 0) {
-      Layout.flatten(cur_list, mode);
+      Layout.flatten(cur_list, "onlyMobile");
     }
     // What the multicolumn split should be
-    var mc_count = this.multiColumnCount(list_len);
+    var mc_count = columns;
+    if (mc_count == 0) { mc_count = this.multiColumnCount(list_len) }
     if (list_len == this.largestColumn()) {
       Layout.multiColumn(cur_list, mc_count);
       this.dividerMode = column_mode;   /* Add a divider based on input mode */
-      breaking_style = column_node;     /* Will do an after-column-style break */
+      breaking_style = column_mode;     /* Will do an after-column-style break */
     }
     // If just a single list, add a singleton class to adjust width on desktop
     if (lists.length == 1) {
       cur_list.classList.add("singleton");
     }
-    cur_list.style.order = this.boxOrder++;
     this.family.append(cur_list);
     this.distance++;
-    if ((this.distance == 2) || (this.dividerMode != false)) {
-      var breaker = Layout.flexDivider(breaker_mode);
+    // Add a divider unless we've just processed the final column
+    if (((this.distance == 2) || (this.dividerMode != false)) && (i != lists.length - 1)) {
+      var breaker = Layout.flexDivider(breaking_style);
       breaker.style.order = this.boxOrder++;
       this.family.append(breaker);
       this.resetCounters("breakers");
@@ -415,8 +422,7 @@ Layout.L.arrangement.addFlexDivider = function(mainDiv) {
 
 // Find the longest column
 Layout.L.arrangement.largestColumn = function() {
-  var num = this.num;   /* Annoying scoping */
-  return Object.keys(num).reduce(function(a, b){return num[a] > num[b] ? num[a] : num[b] });
+  return Object.values(this.num).reduce(function(a, b){return a > b ? a : b });
 }
 
 // Clear state after doing a layout operation. Partial clears are useful
@@ -430,10 +436,12 @@ Layout.L.arrangement.resetCounters = function(mode="partial") {
 }
 
 // In the cutoff list that describes how many columns to use, find the first value
-// greater than the number of elements in the list you're measuring. That is the 
-// i'th value of the cutoff list, and i becomes the CSS column-count for the list.
+// greater than the number of elements in the list you're measuring. Then, step back
+// one entry in that array, and that n'th index to the cutoff list becomes the CSS 
+// column-count for the list. IOW the cutoff column reads the number of list items
+// underneath which it should remain in n columns.
 Layout.L.arrangement.multiColumnCount = function(list_len) {
-  return this.cutoffs.indexOf(this.cutoffs.map(x => x >= list_len)[0]);
+  return this.cutoffs.indexOf(this.cutoffs.filter(x => x >= list_len)[0]) - 1;
 }
 
 /* The arrangement switchboard. Set these arrangement names so they return
@@ -543,12 +551,12 @@ Layout.L.arrangement.div10_2_2_3_3 = function() { return this.columns() }
 // Ten list items. Flatten the top, and multicolumn the largest one
 Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiColumn(2) };
 // Ten list items. Balanced lists and a muticolumn
-Layout.L.arrangement.div10_2_2_6_0 = function() { return this.multiColumn(2) }
+Layout.L.arrangement.div10_2_2_6_0 = function() { return this.multiColumn(2, "onlyMobile", "onlyMobile") }
 // Ten list items. Sneak the singles down the left
 // TODO: implement
 // Layout.L.arrangement.div10_2_1_6_1 = Layout.L.arrangement.longRun;
 // Ten list items. Too long to be a long run.
-Layout.L.arrangement.div10_2_0_7_1 = function() { return this.multiColumn(2) }
+Layout.L.arrangement.div10_2_0_7_1 = function() { return this.multiColumn(2, "onlyMobile", "onlyMobile") }
 // Ten list items. No parents layouts, even stevens. Spread out on desktop
 Layout.L.arrangement.div10_0_0_5_5 = function() { return this.multiColumn(2, 'onlyDesktop') }
 // Ten list items. On mobile this looks fine as two columns.
