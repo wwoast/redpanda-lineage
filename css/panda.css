@@ -555,14 +555,16 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    /* column-width: 6.4em; */
     column-gap: 10px;   /* Same as left padding */
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    /* column-width: 6.4em; */
     column-gap: 10px;   /* Same as left padding */
+}
+
+ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
+    column-count: 1;
 }
 
 ul.pandaList.flat {
@@ -1021,6 +1023,16 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
+    }
+
+    ul.pandaList.double.onlyMobile {
+        column-count: 2;
+        column-gap: 10px;
+    }
+
+    ul.pandaList.triple.onlyMobile {
+        column-count: 3;
+        column-gap: 10px;
     }
 
     /* On small screens, not enough room */

@@ -72,12 +72,15 @@ Layout.flexDivider = function(className) {
 }
 
 /* Take a div list, and apply a column-mode class to it. */
-Layout.multiColumn = function(div, columnCount=2) {
+Layout.multiColumn = function(div, columnCount=2, extraStyle=undefined) {
   if (columnCount == 2) {
     div.childNodes[1].classList.add("double");
   }
   if (columnCount == 3) {
     div.childNodes[1].classList.add("triple");
+  }
+  if (extraStyle != undefined) {
+    div.childNodes[1].classList.add(extraStyle);
   }
   return div;
 }
@@ -244,7 +247,7 @@ Layout.L.arrangement.columns = function() {
 // Any other columns that exist should be displayed as straight columns.
 // Mode can be "onlyMobile", "onlyDesktop", or "both".
 // TODO: have modes for both the breakers and the multicolumn classes
-Layout.L.arrangement.multiColumn = function(columns=0, breaker_mode="both", column_mode="both") {
+Layout.L.arrangement.oneMultiColumn = function(columns=0, breaker_mode="both", column_mode="both") {
   // Decide which line breaker mode to use based on whether this comes after
   // a multicolumn, or just in the normal flow of adding columns
   var breaking_style = breaker_mode;
@@ -279,6 +282,47 @@ Layout.L.arrangement.multiColumn = function(columns=0, breaker_mode="both", colu
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
 }
+
+// Turn all lists into multi-columns on mobile, while only doing the long lists as
+// multi-column on the desktop.
+Layout.L.arrangement.allMultiColumns = function(columns=0, breaker_mode="both", column_mode="both") {
+  // Decide which line breaker mode to use based on whether this comes after
+  // a multicolumn, or just in the normal flow of adding columns
+  var breaking_style = breaker_mode;
+  // The list order we're dealing with (strings "parents", "litter")
+  var order = this.list_default.filter(x => this[x] != undefined);
+  // Specific list values that exist (this["parents"] = HTMLElement, ...)
+  var lists = this.list_default.map(x => this[x]).filter(x => x != undefined);
+  // Add line breaks after every two columns, and add order values to every item
+  for (let i = 0; i < lists.length; i++) {
+    var cur_list = lists[i];
+    cur_list.style.order = this.boxOrder++;
+    var list_name = order[i];
+    var list_len = this.num[list_name];
+    // What the multicolumn split should be. Flatten two-item lists also
+    if (list_len <= 2) {
+      Layout.multiColumn(cur_list, 2, "onlyMobile");
+    } else {
+      var mc_count = columns;
+      if (mc_count == 0) { mc_count = this.multiColumnCount(list_len) }
+      Layout.multiColumn(cur_list, mc_count);
+    }
+    this.dividerMode = column_mode;   /* Add a divider based on input mode */
+    breaking_style = column_mode;     /* Will do an after-column-style break */
+    this.family.append(cur_list);
+    this.distance++;
+    if ((this.distance == 2) || (this.dividerMode != false)) {
+      var breaker = Layout.flexDivider(breaking_style);
+      breaker.style.order = this.boxOrder++;
+      this.family.append(breaker);
+      this.resetCounters("breakers");
+      breaking_style = breaker_mode;   /* Revert to normal break style */
+    }
+  }
+  // Return distance/flexBreaker counters to default values
+  this.resetCounters("all");
+}
+
 
 // Flatten a single column (the first one) both on mobile and desktop
 Layout.L.arrangement.flatten = function(mode="onlyMobile") {
@@ -389,10 +433,11 @@ Layout.L.arrangement.lastColumnLong = function() {
 // -- Long column of 9 or more? Take all columns longer than 5 and multiColumn them
 // TOWRITE: for now, just default to columns
 Layout.L.arrangement.default = function() {
-  // One long column? Multi-column it
+  // Heuristics based on column sizing
   if ((this.largestColumn() > 4) && (this.columnCount() == 1)) {
-    return this.multiColumn();
+    return this.oneMultiColumn();
   }
+  // Default: just treat everything like a single column
   else {
     return this.columns();
   }
@@ -459,8 +504,6 @@ Layout.L.arrangement.div5_2_2_1_0 = function() { return this.columns() }
 Layout.L.arrangement.div5_2_1_1_1 = function() { return this.columns() }
 // Five list items. Four in one list, and a fifth
 Layout.L.arrangement.div5_0_0_4_1 = function() { return this.columns() }
-// Five list items. One list, but split multicolumn
-Layout.L.arrangement.div5_0_0_5_0 = function() { return this.multiColumn(2) }
 // Six list items. Two parents and others in a single column
 Layout.L.arrangement.div6_2_0_4_0 = function() { return this.columns() }
 // Six list items. Two parents and a short split
@@ -471,8 +514,7 @@ Layout.L.arrangement.div6_2_2_2_0 = function() { return this.flatten("onlyMobile
 // Six list items. Two parents and spread
 Layout.L.arrangement.div6_2_2_1_1 = function() { return this.columns() }
 // Six list items. Mostly or all in one column
-Layout.L.arrangement.div6_0_0_5_1 = function() { return this.multiColumn(2) }
-Layout.L.arrangement.div6_0_0_6_0 = function() { return this.multiColumn(2) }
+Layout.L.arrangement.div6_0_0_5_1 = function() { return this.oneMultiColumn(2) }
 // Six list items. All in two columns
 Layout.L.arrangement.div6_0_0_3_3 = function() { return this.columns() }
 // Seven list items. Parents, and a multicolumn
@@ -515,14 +557,13 @@ Layout.L.arrangement.div9_2_2_3_3 = function() { return this.columns() }
 // Layout.L.arrangement.div9_2_1_5_1 = Layout.L.arrangement.longRun;
 // Nine list items. A long column goes multiColumn. 
 // On mobile the broader multicolumn lists should shrink down to two columns
-Layout.L.arrangement.div9_2_2_5_0 = function() { return this.multiColumn(2) }
-Layout.L.arrangement.div9_2_1_6_0 = function() { return this.multiColumn(2) }
+Layout.L.arrangement.div9_2_2_5_0 = function() { return this.oneMultiColumn(2) }
+Layout.L.arrangement.div9_2_1_6_0 = function() { return this.oneMultiColumn(2) }
 // Nine list items, but a single column of three looks out of place here.
 // TODO: IMPLEMENT
 // Layout.L.arrangement.div9_0_0_6_3 = Layout.L.arrangement.shortMultiColumn(2);
 Layout.L.arrangement.div9_2_0_7_0 = function() { return this.flattenPlusMultiColumn(2) };
 Layout.L.arrangement.div9_0_0_8_1 = function() { return this.flattenPlusMultiColumn(3) };
-Layout.L.arrangement.div9_0_0_9_0 = function() { return this.flattenPlusMultiColumn(4) };
 // Ten list items. Parents and balanced elsewhere
 Layout.L.arrangement.div10_2_0_4_4 = function() { return this.flatten("onlyMobile") }
 // Ten list items. Spread out wide
@@ -532,17 +573,18 @@ Layout.L.arrangement.div10_2_2_3_3 = function() { return this.columns() }
 // Ten list items. Flatten the top, and multicolumn the largest one
 Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiColumn(2) };
 // Ten list items. Balanced lists and a muticolumn
-Layout.L.arrangement.div10_2_2_6_0 = function() { return this.multiColumn(2, "onlyMobile", "onlyMobile") }
+// TODO: On mobile, flatten all the short columns.
+Layout.L.arrangement.div10_2_2_6_0 = function() { return this.allMultiColumns(2, "onlyMobile", "onlyMobile") }
 // Ten list items. Sneak the singles down the left
 // TODO: implement
 // Layout.L.arrangement.div10_2_1_6_1 = Layout.L.arrangement.longRun;
 // Ten list items. Too long to be a long run.
-Layout.L.arrangement.div10_2_0_7_1 = function() { return this.multiColumn(2, "onlyMobile", "onlyMobile") }
+Layout.L.arrangement.div10_2_0_7_1 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") }
 // Ten list items. No parents layouts, even stevens. Spread out on desktop
-Layout.L.arrangement.div10_0_0_5_5 = function() { return this.multiColumn(2, 'onlyDesktop') }
+Layout.L.arrangement.div10_0_0_5_5 = function() { return this.oneMultiColumn(2, 'onlyDesktop') }
 // Ten list items. On mobile this looks fine as two columns.
 // On desktop the multicolumn div needs to be split out.
-Layout.L.arrangement.div10_0_0_6_4 = function() { return this.multiColumn(2, 'onlyDesktop') }
+Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 'onlyDesktop') }
 // Ten list items. Seven-long columns are too much.
 // TODO: Implement
 // Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
