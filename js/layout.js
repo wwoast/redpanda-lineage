@@ -483,8 +483,7 @@ Layout.L.arrangement.verticalBalance = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
   // Always keep parents first, or whatever the earliest valid entry is
-  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0] && 
-                                                            (x[1] == valid_list[1]));
+  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0]);
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
@@ -510,7 +509,7 @@ Layout.L.arrangement.verticalBalance = function() {
       // Array accumulator to count number of list entries in a desired set of lists
       var left_sum = left_lists.map(x => this.num[x]).reduce((acc, cv) => acc + cv); + left_padding;
       var right_sum = right_lists.map(x => this.num[x]).reduce((acc, cv) => acc + cv) + right_padding;
-      var difference = right_sum - left_sum;
+      var difference = Math.abs(right_sum - left_sum);
       if (difference == 0) {
         // If perfect balance, great! We're done
         this.list_order = list_order;
