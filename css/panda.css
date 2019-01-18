@@ -545,6 +545,14 @@ div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.childre
     flex-grow: 1;
 }
 
+div.parents.double, div.litter.double, div.siblings.double, div.children.double {
+    width: 50%;
+}
+
+div.parents.triple, div.litter.triple, div.siblings.triple, div.children.triple {
+    width: 75%;
+}
+
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
@@ -986,6 +994,11 @@ div.photoSample h5.caption.familyTitle {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
+    }
+
+    div.parents.double, div.litter.double, div.siblings.double, div.children.double,
+    div.parents.triple, div.litter.triple, div.siblings.triple, div.children.triple {
+        width: auto;
     }
 
     hr.divider.onlyDesktop {

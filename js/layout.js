@@ -76,9 +76,11 @@ Layout.flatten = function(div, mode) {
 Layout.multiColumn = function(div, columnCount=2, extraStyle=undefined) {
   if (columnCount == 2) {
     div.childNodes[1].classList.add("double");
+    div.classList.add("double");
   }
   if (columnCount == 3) {
     div.childNodes[1].classList.add("triple");
+    div.classList.add("triple");
   }
   if (extraStyle != undefined) {
     div.childNodes[1].classList.add(extraStyle);
@@ -478,7 +480,8 @@ Layout.L.arrangement.verticalBalance = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
   // Always keep parents first, or whatever the earliest valid entry is
-  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0] && x[1] == valid_list[1]);
+  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0] && 
+                                                            (x[1] == valid_list[1]));
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
@@ -621,7 +624,7 @@ Layout.L.arrangement.div9_2_2_3_3 = function() { return this.columns() };
 Layout.L.arrangement.div9_2_1_5_1 = function() { return this.longRun("onlyMobile") };
 // Nine list items. A long column goes multiColumn. 
 // On mobile the broader multicolumn lists should shrink down to two columns
-Layout.L.arrangement.div9_2_2_5_0 = function() { return this.oneMultiColumn(2) };
+Layout.L.arrangement.div9_2_2_5_0 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") };
 Layout.L.arrangement.div9_2_1_6_0 = function() { return this.oneMultiColumn(2) };
 // Nine list items, but a single column of three looks out of place here.
 // TODO: IMPLEMENT
@@ -636,6 +639,8 @@ Layout.L.arrangement.div10_2_2_3_3 = function() { return this.columns() };
 // Layout.L.arrangement.div10_2_1_4_3 = Layout.L.arrangement.lastColumnLong;
 // Ten list items. Flatten the top, and multicolumn the largest one
 Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiColumn(2) };
+// Another arrangement of that 10 looks better a different way
+Layout.L.arrangement.div10_2_1_5_2 = function() { return this.longRun("onlyMobile") };
 // Ten list items. Balanced lists and a muticolumn
 // TODO: On mobile, flatten all the short columns.
 Layout.L.arrangement.div10_2_2_6_0 = function() { return this.allMultiColumns(2, "onlyMobile", "onlyMobile") };
