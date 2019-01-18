@@ -474,6 +474,26 @@ Layout.L.arrangement.longestList = function() {
   return Object.values(this.num).reduce(function(a, b){return a > b ? a : b });
 }
 
+// In the cutoff list that describes how many columns to use, find the first value
+// greater than the number of elements in the list you're measuring. Then, step back
+// one entry in that array, and that n'th index to the cutoff list becomes the CSS 
+// column-count for the list. IOW the cutoff column reads the number of list items
+// underneath which it should remain in n columns.
+Layout.L.arrangement.multiColumnCount = function(list_len) {
+  return this.cutoffs.indexOf(this.cutoffs.filter(x => x >= list_len)[0]) - 1;
+}
+
+// Clear state after doing a layout operation. Partial clears are useful
+// after adding a divider, so support that as the default.
+Layout.L.arrangement.resetCounters = function(mode="partial") {
+  if (mode=="all") {
+    this.boxOrder = 0;
+    this.list_order = this.list_default;
+  }
+  this.distance = 0;
+  this.dividerMode = false;
+}
+
 // Given a multicolumn mobile layout with two lanes for lists, determine
 // the optimal balance of column content. The parents will always appear
 // first, but other elements can have line breaks inserted to change the balance.
@@ -528,26 +548,6 @@ Layout.L.arrangement.verticalBalance = function() {
     }
   }
   return minimum_split;
-}
-
-// Clear state after doing a layout operation. Partial clears are useful
-// after adding a divider, so support that as the default.
-Layout.L.arrangement.resetCounters = function(mode="partial") {
-  if (mode=="all") {
-    this.boxOrder = 0;
-    this.list_order = this.list_default;
-  }
-  this.distance = 0;
-  this.dividerMode = false;
-}
-
-// In the cutoff list that describes how many columns to use, find the first value
-// greater than the number of elements in the list you're measuring. Then, step back
-// one entry in that array, and that n'th index to the cutoff list becomes the CSS 
-// column-count for the list. IOW the cutoff column reads the number of list items
-// underneath which it should remain in n columns.
-Layout.L.arrangement.multiColumnCount = function(list_len) {
-  return this.cutoffs.indexOf(this.cutoffs.filter(x => x >= list_len)[0]) - 1;
 }
 
 /* The arrangement switchboard. Set these arrangement names so they return
