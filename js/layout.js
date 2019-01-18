@@ -646,7 +646,7 @@ Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiCo
 Layout.L.arrangement.div10_2_1_5_2 = function() { return this.longRun("onlyMobile") };
 // Ten list items. Balanced lists and a muticolumn
 // TODO: On mobile, flatten all the short columns.
-Layout.L.arrangement.div10_2_2_6_0 = function() { return this.allMultiColumns(2, "onlyMobile", "onlyMobile") };
+Layout.L.arrangement.div10_2_2_6_0 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") };
 // Ten list items. Sneak the singles down the left
 Layout.L.arrangement.div10_2_1_6_1 = function() { return this.longRun("onlyMobile") };
 // Ten list items. Too long to be a long run.
