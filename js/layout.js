@@ -457,9 +457,16 @@ Layout.L.arrangement.default = function() {
   // Heuristics based on column sizing
   if ((this.longestList() > 4) && (this.existingColumns() == 1)) {
     return this.oneMultiColumn();
-  }
-  // Default: just treat everything like a single column
-  else {
+  } else if ((this.longestList() <= 6) && (this.existingColumns() == 3)) {
+    return this.longRun("onlyMobile");
+  } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
+    return this.longRun("onlyMobile");
+  } else if ((this.longestList() > 6) && (this.existingColumns() > 2)) {
+    return this.oneMultiColumn();
+  } else if ((this.longestList() > 5) && (this.existingColums() == 2) && (this.sum() == this.longestList() + 2)) {
+    return this.flattenPlusMultiColumn();
+  } else {
+    // Default: just treat everything like a single column
     return this.columns();
   }
 } 
@@ -492,6 +499,10 @@ Layout.L.arrangement.resetCounters = function(mode="partial") {
   }
   this.distance = 0;
   this.dividerMode = false;
+}
+
+Layout.L.arrangement.sum = function() {
+  return this.num.parents + this.num.litter + this.num.siblings + this.num.children;
 }
 
 // Given a multicolumn mobile layout with two lanes for lists, determine
