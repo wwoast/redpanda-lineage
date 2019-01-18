@@ -619,9 +619,6 @@ Layout.L.arrangement.div8_2_1_5_0 = function() { return this.longRun("onlyMobile
 // Layout.L.arrangement.div8_2_1_4_1 = Layout.L.arrangement.lastColumnLong;
 // Eight list items. Flatten the top and multicolumn the other one
 Layout.L.arrangement.div8_2_0_6_0 = function() { return this.flattenPlusMultiColumn(2) };
-// Nine list items. Mostly balanced
-Layout.L.arrangement.div9_2_2_3_3 = function() { return this.columns() };
-// Nine list items. Mostly balanced, but kick the last column up slightly
 // TODO: implement
 // Layout.L.arrangement.div9_2_1_4_2 = Layout.L.arrangement.lastColumnLong;
 // Nine list items. Two single columns sneaking on the left
@@ -629,6 +626,8 @@ Layout.L.arrangement.div9_2_1_5_1 = function() { return this.longRun("onlyMobile
 // Nine list items. A long column goes multiColumn. 
 // On mobile the broader multicolumn lists should shrink down to two columns
 Layout.L.arrangement.div9_2_2_5_0 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") };
+// Nine list items. Parents and two similar length lists
+Layout.L.arrangement.div9_2_0_3_4 = function() { return this.flatten("onlyMobile") };
 Layout.L.arrangement.div9_2_1_6_0 = function() { return this.oneMultiColumn(2) };
 // Nine list items, but a single column of three looks out of place here.
 // TODO: IMPLEMENT
