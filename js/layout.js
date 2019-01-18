@@ -483,7 +483,9 @@ Layout.L.arrangement.verticalBalance = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
   // Always keep parents first, or whatever the earliest valid entry is
-  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0]);
+  // Litter must always come 2nd or 3rd here, as it's small.
+  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0] &&
+                                                                (x[1] == valid_list[1] || x[1] == valid_list[2]));
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
