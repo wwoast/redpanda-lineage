@@ -527,10 +527,11 @@ Layout.L.arrangement.verticalBalance = function() {
 // after adding a divider, so support that as the default.
 Layout.L.arrangement.resetCounters = function(mode="partial") {
   if (mode=="all") {
-    Layout.L.arrangement.boxOrder = 0;
+    this.boxOrder = 0;
+    this.list_order = this.list_default;
   }
-  Layout.L.arrangement.distance = 0;
-  Layout.L.arrangement.dividerMode = false;
+  this.distance = 0;
+  this.dividerMode = false;
 }
 
 // In the cutoff list that describes how many columns to use, find the first value
