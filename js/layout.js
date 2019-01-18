@@ -463,7 +463,7 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() > 6) && (this.existingColumns() > 2)) {
     return this.oneMultiColumn();
-  } else if ((this.longestList() > 5) && (this.existingColums() == 2) && (this.sum() == this.longestList() + 2)) {
+  } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() == this.longestList() + 2)) {
     return this.flattenPlusMultiColumn();
   } else {
     // Default: just treat everything like a single column
