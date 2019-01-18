@@ -499,7 +499,7 @@ Layout.L.arrangement.verticalBalance = function() {
       var right_sum = 0;
       var split_point = list_order.indexOf(list_name);
       var left_no_lists = split_point + 1;
-      var right_no_lists = list_order.length - split_point;
+      var right_no_lists = list_order.length - left_no_lists;
       // Padding between lists is taken into account
       var left_padding = between_list_pad * (left_no_lists - 1);
       var right_padding = between_list_pad * (right_no_lists - 1);
