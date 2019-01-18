@@ -1190,7 +1190,7 @@ Show.displayPandaFamily = function(info) {
     children = Show.displayPandaChildren(info);
   }
   var layout = Layout.init(family, info, parents, litter, siblings, children);
-  family = layout.layoutFamily();
+  family = layout.layout();
   return family;
 }
 
