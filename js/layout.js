@@ -269,6 +269,9 @@ Layout.L.arrangement.oneMultiColumn = function(columns=0, breaker_mode="both", c
       var mc_count = columns;
       if (mc_count == 0) { mc_count = this.multiColumnCount(list_len) }
       Layout.multiColumn(cur_list, mc_count);
+      if (this.existingColumns() == 1) {
+        cur_list.classList.add("singleton");   // More width for solo columns
+      }
       this.dividerMode = column_mode;   /* Add a divider based on input mode */
       breaking_style = column_mode;     /* Will do an after-column-style break */
     }
