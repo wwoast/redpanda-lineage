@@ -21,7 +21,7 @@ photo.1.tags: smile, tail
 photo.2: https://www.instagram.com/p/Bnp9z1LFJvk/media/?size=m
 photo.2.author: na.mo.pan
 photo.2.link: https://www.instagram.com/na.mo.pan/
-photo.2.tags: profile, smile, tree
+photo.2.tags: smile, tree
 photo.3: https://www.instagram.com/p/BoBsOifl5Uf/media/?size=m
 photo.3.author: ifumoto88
 photo.3.link: https://www.instagram.com/ifumoto88/
@@ -37,5 +37,9 @@ photo.6: https://www.instagram.com/p/BsSXXF7h1kG/media/?size=m
 photo.6.author: na.mo.pan
 photo.6.link: https://www.instagram.com/na.mo.pan/
 photo.6.tags: smile
+photo.7: https://www.instagram.com/p/Bskd8XZFvbC/media/?size=m
+photo.7.author: panda.daisuki
+photo.7.link: https://www.instagram.com/panda.daisuki/
+photo.7.tags: profile
 species: 2
 zoo: 73
