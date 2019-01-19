@@ -561,7 +561,7 @@ Layout.L.arrangement.verticalBalance = function() {
       var left_lists = list_order.slice(0, split_point + 1);
       var right_lists = list_order.slice(split_point + 1, this.list_default.length + 1);
       // Array accumulator to count number of list entries in a desired set of lists
-      var left_sum = left_lists.map(x => this.num[x]).reduce((acc, cv) => acc + cv); + left_padding;
+      var left_sum = left_lists.map(x => this.num[x]).reduce((acc, cv) => acc + cv) + left_padding;
       var right_sum = right_lists.map(x => this.num[x]).reduce((acc, cv) => acc + cv) + right_padding;
       var difference = Math.abs(right_sum - left_sum);
       if (difference == 0) {
