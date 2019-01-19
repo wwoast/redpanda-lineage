@@ -440,6 +440,7 @@ Layout.L.arrangement.longRun = function(mode="onlyMobile") {
     this.family.append(this[list_name]);
   }
   // Set height of the container div based on balancing info
+  this.family.style.height = this.height;   /* Make sure it applies immediately */
   this.family.dataset.height = this.height;   /* Store this value on the div for later use */
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
