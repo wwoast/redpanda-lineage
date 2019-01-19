@@ -12,14 +12,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 378
-photo.1: https://www.instagram.com/p/Bp9ugJelFLa/media/?size=m
-photo.1.author: animal_love_us
-photo.1.link: https://www.instagram.com/animal_love_us/
-photo.2: https://www.instagram.com/p/Bqn0wOlgwF6/media/?size=m
-photo.2.author: resapanlove
-photo.2.link: https://www.instagram.com/resapanlove/
-photo.3: https://www.instagram.com/p/Bq7GWnblTxj/media/?size=m
-photo.3.author: monmon_redpanda
-photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.1: https://www.instagram.com/p/BsrGmF7ghST/media/?size=m
+photo.1.author: resapanlove
+photo.1.link: https://www.instagram.com/resapanlove/
+photo.1.tags: apple time, keeper, profile
 species: 2
 zoo: 6
