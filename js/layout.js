@@ -570,6 +570,7 @@ Layout.L.arrangement.verticalBalance = function() {
         minimum_split = split_point;
         longest = (left_sum > right_sum) ? left_sum : right_sum;
         longest_list_count = (left_lists.length > right_lists.length) ? left_lists.length : right_lists.length;
+        // Account for item line height, and the heading/gap height as well
         this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
         return minimum_split;
       } else if (difference < minimum_space) {
@@ -586,8 +587,7 @@ Layout.L.arrangement.verticalBalance = function() {
       }
     }
   }
-  // Best available values
-  this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
+  // Use best available values stored from the loop
   return minimum_split;
 }
 
