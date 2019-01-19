@@ -604,7 +604,7 @@ ul.pandaList li, ul.linkList li {
    lists don't send their padding across to the next column. */
 ul.pandaList li > a, ul.linkList li > a {
     display: inline-block;
-    padding-bottom: 0.8ex;
+    padding-bottom: 0.75ex;
 }
 
 ul.pandaList li a.passedAway {
@@ -612,7 +612,7 @@ ul.pandaList li a.passedAway {
 }
 
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
-    padding-bottom: 0.2ex;
+    padding-bottom: 0.25ex;
 }
 
 div.footer {
