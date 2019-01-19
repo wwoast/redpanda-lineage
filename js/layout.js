@@ -569,6 +569,7 @@ Layout.L.arrangement.verticalBalance = function() {
         this.list_order = list_order;
         minimum_split = split_point;
         longest = (left_sum > right_sum) ? left_sum : right_sum;
+        longest_list_count = (left_lists.length > right_lists.length) ? left_lists.length : right_lists.length;
         this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
         return minimum_split;
       } else if (difference < minimum_space) {
