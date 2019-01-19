@@ -15,5 +15,14 @@ litter: 376
 photo.1: https://www.instagram.com/p/BqC8HLuF-sI/media/?size=m
 photo.1.author: makimaru18
 photo.1.link: https://www.instagram.com/makimaru18/
+photo.1.tags: baby
+photo.2: https://www.instagram.com/p/Bp9ugJelFLa/media/?size=m
+photo.2.author: animal_love_us
+photo.2.link: https://www.instagram.com/animal_love_us/
+photo.2.tags: baby, profile
+photo.3: https://www.instagram.com/p/Bq7GWnblTxj/media/?size=m
+photo.3.author: monmon_redpanda
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: apple time
 species: 2
 zoo: 6
