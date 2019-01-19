@@ -210,6 +210,9 @@ Layout.L.arrangement.distance = 0;
 // Modal check to add a divider to the layout flow.
 // May be true/false, or an mobileOnly options
 Layout.L.arrangement.dividerMode = false;
+// Height value to apply to the family box when in vertical flow mode.
+// This is required for flex-box to properly flow the elements. Arbitrary default
+Layout.L.arrangement.height = "500px";
 // List arrangement values
 Layout.L.arrangement.list_default = ["parents", "litter", "siblings", "children"];
 Layout.L.arrangement.list_order = ["parents", "litter", "siblings", "children"];
@@ -421,7 +424,10 @@ Layout.L.arrangement.shortMultiColumn = function(columns, mode="both") {
 // a multicolumn-flow for divs, instead of the normal flex flow.
 // FOR NOW, THIS IS MOBILE ONLY and will default to columns otherwise.
 Layout.L.arrangement.longRun = function(mode="onlyMobile") {
-  this.family.classList.add("multiColumn");
+  this.family.classList.add("vertical");
+  if (mode == "onlyMobile") {
+    this.family.classList.add(mode);
+  }
   // Balance columns better by adding hr elements.
   var split_point = this.verticalBalance();
   // Iterate through the list order, and add a mobile-only break at the
@@ -434,6 +440,8 @@ Layout.L.arrangement.longRun = function(mode="onlyMobile") {
       this.family.append(breaker);
     }
   }
+  // Set height of the container div based on balancing info
+  this.family.style.height = this.height;
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
 }
@@ -455,6 +463,7 @@ Layout.L.arrangement.lastColumnLong = function() {
 // TOWRITE: for now, just default to columns
 Layout.L.arrangement.default = function() {
   // Heuristics based on column sizing
+  // One really long column? Multi-column-split it based on available space
   if ((this.longestList() > 4) && (this.existingColumns() == 1)) {
     return this.oneMultiColumn();
   } else if ((this.longestList() <= 6) && (this.existingColumns() == 3)) {
@@ -463,6 +472,7 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() > 6) && (this.existingColumns() > 2)) {
     return this.oneMultiColumn();
+  // Two parents, and a long multicolumn below
   } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() == this.longestList() + 2)) {
     return this.flattenPlusMultiColumn();
   } else {
@@ -509,7 +519,7 @@ Layout.L.arrangement.sum = function() {
 // the optimal balance of column content. The parents will always appear
 // first, but other elements can have line breaks inserted to change the balance.
 // This will change the L.arrangement.list_order. Returns the split point which
-// to display the columns we want.
+// to display the columns we want, and sets the max L.arrangement.height.
 Layout.L.arrangement.verticalBalance = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
@@ -520,6 +530,10 @@ Layout.L.arrangement.verticalBalance = function() {
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
+  // Estimated height of our lines, based on 14pt and padding. Also, necessary
+  // values to calculate the final box-height.
+  var line_height = "100px";
+  var longest = 0;
   // Our desired order and spacing. Split at the middle by default, rounded down
   var minimum_space = Math.pow(2, 32) - 1;
   var minimum_split = Math.floor(valid_list.length / 2);
@@ -547,17 +561,23 @@ Layout.L.arrangement.verticalBalance = function() {
         // If perfect balance, great! We're done
         this.list_order = list_order;
         minimum_split = split_point;
+        longest = (left_sum > right_sum) ? left_sum : right_sum;
+        this.height = longest * parseInt(line_height);
         return minimum_split;
       } else if (difference < minimum_space) {
         // Otherwise, keep optimizing as best we can
         this.list_order = list_order;
         minimum_space = difference;
         minimum_split = split_point;
+        longest = (left_sum > right_sum) ? left_sum : right_sum;
+        this.height = longest * parseInt(line_height);
       } else {
         continue;
       }
     }
   }
+  // Best availablle values
+  height = longest * parseInt(line_height);
   return minimum_split;
 }
 
@@ -605,8 +625,6 @@ Layout.L.arrangement.div6_2_2_1_1 = function() { return this.columns() };
 Layout.L.arrangement.div6_0_0_5_1 = function() { return this.oneMultiColumn(2) };
 // Six list items. All in two columns
 Layout.L.arrangement.div6_0_0_3_3 = function() { return this.columns() };
-// Seven list items. Parents, and a multicolumn
-Layout.L.arrangement.div7_2_0_5_0 = function() { return this.flattenPlusMultiColumn(2) };
 // Seven list items. Parents, litter, and three siblings
 Layout.L.arrangement.div7_2_2_3_0 = function() { return this.longRun("onlyMobile") };
 // Seven list items. parents, litter, siblings, and children, all straight columns
@@ -628,8 +646,6 @@ Layout.L.arrangement.div8_2_1_5_0 = function() { return this.longRun("onlyMobile
 // Eight list items. Do the four column below the one, but kick it up
 // TODO: implement
 // Layout.L.arrangement.div8_2_1_4_1 = Layout.L.arrangement.lastColumnLong;
-// Eight list items. Flatten the top and multicolumn the other one
-Layout.L.arrangement.div8_2_0_6_0 = function() { return this.flattenPlusMultiColumn(2) };
 // TODO: implement
 // Layout.L.arrangement.div9_2_1_4_2 = Layout.L.arrangement.lastColumnLong;
 // Nine list items. Two single columns sneaking on the left
@@ -642,8 +658,7 @@ Layout.L.arrangement.div9_2_0_3_4 = function() { return this.flatten("onlyMobile
 Layout.L.arrangement.div9_2_1_6_0 = function() { return this.oneMultiColumn(2) };
 // Nine list items, but a single column of three looks out of place here.
 // TODO: IMPLEMENT
-// Layout.L.arrangement.div9_0_0_6_3 = function() { return this.Layout.L.arrangement.shortMultiColumn(2);
-Layout.L.arrangement.div9_2_0_7_0 = function() { return this.flattenPlusMultiColumn(2) };
+// Wouldn't normally flatten the one. Might not need this
 Layout.L.arrangement.div9_0_0_8_1 = function() { return this.flattenPlusMultiColumn(3) };
 // Ten list items. Parents and balanced elsewhere
 Layout.L.arrangement.div10_2_0_4_4 = function() { return this.flatten("onlyMobile") };
@@ -670,8 +685,6 @@ Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 
 // Ten list items. Seven-long columns are too much.
 // TODO: Implement
 // Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
-// Ten list items. With parents, flatten the top
-Layout.L.arrangement.div10_2_0_8_0 = function() { return this.flattenPlusMultiColumn(2) };
 // Ten list items. Two columns of five should both be multiColumn'ed
 // TODO
 
@@ -679,15 +692,16 @@ Layout.L.arrangement.div10_2_0_8_0 = function() { return this.flattenPlusMultiCo
 var mobile = window.matchMedia("(max-width: 670px)");
 var last_offset = {};
 mobile.addListener(function(e) {
-  var columns = document.getElementsByClassName("adjustedMarginTop");
+  var families = document.getElementsByClassName("family");
   if (e.matches == false) {
-    for (col of columns) {
-      last_offset[col.style.className] = col.style.marginTop;
-      col.style.marginTop = "0px";
+    for (family_div of families) {
+      if (family_div.classList.contains("mobileOnly")) {
+        family_div.style.height = "";
+      } else {
+        // TODO: recalculate height after media query change
+      }
     }
   } else {
-    for (col of columns) {
-      col.style.marginTop = last_offset[col.style.className];
-    }
+    // Recalculate height after media query change
   }
 });

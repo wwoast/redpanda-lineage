@@ -515,8 +515,19 @@ div.species h4 {
 
 div.family {
     display: flex;
+    flex-direction: row;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
+}
+
+div.family.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+div.family.vertical.onlyMobile {
+    display: flex;
+    flex-direction: row;
 }
 
 div.parents, div.litter, div.siblings, div.children, div.names {
@@ -984,10 +995,14 @@ div.photoSample h5.caption.familyTitle {
         flex-wrap: wrap;
     }
 
-    div.family.multiColumn {
-        display: block;
-        column-count: 2;
-        column-gap: 10px;
+    div.family.vertical.onlyMobile {
+        /* This requires JS to set a height for the flow to work */
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    div.family.vertical > div {
+        width: 50%;
     }
 
     div.parents, div.litter, div.siblings, div.children, div.names {
