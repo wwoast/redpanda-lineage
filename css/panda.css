@@ -597,8 +597,14 @@ ul.pandaList.flat li {
 }
 
 ul.pandaList li, ul.linkList li {
-    padding-bottom: 0.8ex;
     white-space: nowrap;
+}
+
+/* By applying list padding inside the list items, this ensures that multicolumn
+   lists don't send their padding across to the next column. */
+ul.pandaList li > a, ul.linkList li > a {
+    display: inline-block;
+    padding-bottom: 0.8ex;
 }
 
 ul.pandaList li a.passedAway {
