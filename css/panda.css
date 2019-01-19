@@ -1005,6 +1005,10 @@ div.photoSample h5.caption.familyTitle {
         width: 50%;
     }
 
+    div.family.vertical > hr.divider {
+        page-break-after: always;
+    }
+
     div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */

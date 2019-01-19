@@ -434,11 +434,18 @@ Layout.L.arrangement.longRun = function(mode="onlyMobile") {
   // desired split-point given
   for (let i = 0; i < this.list_order.length ; i++) {
     var list_name = this.list_order[i];
+    var cur_list = this[list_name];
+    cur_list.style.order = this.boxOrder++;
     this.family.append(this[list_name]);
+    
+    /*
+    // Breakers don't seem to work in vertical mode
     if (i == split_point) {
       var breaker = Layout.divider(mode);
+      breaker.style.order = this.boxOrder++;
       this.family.append(breaker);
     }
+    */
   }
   // Set height of the container div based on balancing info
   this.family.style.height = this.height;
@@ -524,21 +531,21 @@ Layout.L.arrangement.verticalBalance = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
   // Always keep parents first, or whatever the earliest valid entry is
-  // Litter must always come 2nd or 3rd here, as it's small.
-  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0] &&
-                                                                (x[1] == valid_list[1] || x[1] == valid_list[2]));
+  // Litter should never come last unless... TODO
+  var permutations = Layout.permutations(valid_list).filter(x => x[0] == valid_list[0]);
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
-  var line_height = "100px";
+  var line_height = "40px";
+  var list_count_height = "60px";
   var longest = 0;
   // Our desired order and spacing. Split at the middle by default, rounded down
   var minimum_space = Math.pow(2, 32) - 1;
   var minimum_split = Math.floor(valid_list.length / 2);
-  for (list_order of permutations) {
-    for (list_name of list_order) {
+  for (var list_order of permutations) {
+    for (var list_name of list_order) {
       if (list_name == list_order[list_order.length - 1]) {
         break;   // Exit the inner loop
       }
@@ -562,7 +569,7 @@ Layout.L.arrangement.verticalBalance = function() {
         this.list_order = list_order;
         minimum_split = split_point;
         longest = (left_sum > right_sum) ? left_sum : right_sum;
-        this.height = longest * parseInt(line_height);
+        this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
         return minimum_split;
       } else if (difference < minimum_space) {
         // Otherwise, keep optimizing as best we can
@@ -570,14 +577,16 @@ Layout.L.arrangement.verticalBalance = function() {
         minimum_space = difference;
         minimum_split = split_point;
         longest = (left_sum > right_sum) ? left_sum : right_sum;
-        this.height = longest * parseInt(line_height);
+        longest_list_count = (left_lists.length > right_lists.length) ? left_lists.length : right_lists.length;
+        // Account for item line height, and the heading/gap height as well
+        this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
       } else {
         continue;
       }
     }
   }
-  // Best availablle values
-  height = longest * parseInt(line_height);
+  // Best available values
+  this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
   return minimum_split;
 }
 
