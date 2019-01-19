@@ -130,7 +130,6 @@ Layout.swapColumn = function(target, destination, height_adjust, destination_cnt
   divBreak.style.order = parseInt(destination.style.order) + 1;
 }
 
-
 /* Given either a value or a range of values, validate that the available animals
    in that list matches the count given of them. For simplicity, assume inclusive */
 Layout.L.count = function(p=0, l=0, s=0, c=0) {
@@ -422,6 +421,8 @@ Layout.L.arrangement.shortMultiColumn = function(columns, mode="both") {
 // kick the little ones out and let the longer column run. If a fourth column
 // appears, display it underneath the long column. This is easier done using
 // a multicolumn-flow for divs, instead of the normal flex flow.
+// hr/line breaks in vertical flow don't work. Uses the height constraint to
+// influence the final displayed flow.
 // FOR NOW, THIS IS MOBILE ONLY and will default to columns otherwise.
 Layout.L.arrangement.longRun = function(mode="onlyMobile") {
   this.family.classList.add("vertical");
@@ -437,18 +438,9 @@ Layout.L.arrangement.longRun = function(mode="onlyMobile") {
     var cur_list = this[list_name];
     cur_list.style.order = this.boxOrder++;
     this.family.append(this[list_name]);
-    
-    /*
-    // Breakers don't seem to work in vertical mode
-    if (i == split_point) {
-      var breaker = Layout.divider(mode);
-      breaker.style.order = this.boxOrder++;
-      this.family.append(breaker);
-    }
-    */
   }
   // Set height of the container div based on balancing info
-  this.family.style.height = this.height;
+  this.family.dataset.height = this.height;   /* Store this value on the div for later use */
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
 }
@@ -699,19 +691,30 @@ Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 
 // TODO
 
 
-var mobile = window.matchMedia("(max-width: 670px)");
-var last_offset = {};
-mobile.addListener(function(e) {
+/* For vertical flow elements, the height is used to display content properly.
+   For now, these vertical flow details only exist in mobile mode, so we can
+   turn them off when setting height values outside mobile. */
+function recomputeHeight(e) {
   var families = document.getElementsByClassName("family");
-  if (e.matches == false) {
+  if ((e.matches == false) || (e.type == "DOMContentLoaded")) {
+    // Not in a mobile mode
     for (family_div of families) {
-      if (family_div.classList.contains("mobileOnly")) {
+      if (family_div.classList.contains("onlyMobile")) {
         family_div.style.height = "";
       } else {
-        // TODO: recalculate height after media query change
+        // Recalculate height after media query change
+        family_div.style.height = family_div.dataset.height;
       }
     }
   } else {
-    // Recalculate height after media query change
+    for (family_div of families) {
+      // Recalculate height after media query change
+      family_div.style.height = family_div.dataset.height;
+    }
   }
-});
+}
+// media-query height adjustments, plus making sure the height adjustment works
+// on the initial page load.
+var mobile = window.matchMedia("(max-width: 670px)");
+mobile.addListener(recomputeHeight);
+document.addEventListener("DOMContentLoaded", recomputeHeight);
