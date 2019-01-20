@@ -418,6 +418,10 @@ Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
     if (list_len >= 3) {
       Layout.multiColumn(cur_list);
     }
+    else if (i == 1) { 
+      // Make sure multicolumns don't flow into the first lane under litter
+      cur_list.style.height = "50%";
+    }
     else if ((i == 3) && (list_len > 1)) {
       Layout.multiColumn(cur_list);
     }
@@ -681,7 +685,7 @@ Layout.L.arrangement.verticalBalanceTwoMultiColumns = function() {
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
   var line_height = "35px";
-  var list_count_height = "35px";
+  var list_count_height = "32px";
   var sibling_col_cnt = 2;   // TODO: better calculate this
   var children_col_cnt = 2;
   var siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt);
