@@ -78,9 +78,9 @@ Pandas.def.animal = {
   "jp.nicknames": "ニックネームは記録されていません",
   "jp.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
-  "photo.1": "images/no-panda.jpg",
+  "photo.1": "images/no-panda-portrait.jpg",
   "species": "-1",
-  "video.1": "images/no-panda.jpg",
+  "video.1": "images/no-panda-portrait.jpg",
   "zoo": "0"
 }
 
