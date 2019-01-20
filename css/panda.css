@@ -518,6 +518,7 @@ div.family {
     flex-direction: row;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
+    flex-wrap: wrap;
 }
 
 div.family.vertical {
@@ -1001,13 +1002,11 @@ div.photoSample h5.caption.familyTitle {
     div.family {
         width: 100%;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
     div.family.vertical.onlyMobile {
         /* This requires JS to set a height for the flow to work */
         flex-direction: column;
-        flex-wrap: wrap;
     }
 
     div.family.vertical > div {
