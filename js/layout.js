@@ -524,6 +524,11 @@ Layout.L.arrangement.default = function() {
     return this.fourListTwoLong("onlyDesktop");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
     return this.threeListOneLong("onlyDesktop");
+  } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && 
+             (this.sum() - this.longestList() - 2 >= 3)) {
+    // TEST: Futa, Beilei 2010. 
+    // TODO: layout mode that can triple a long column underneath balanced top ones
+    return this.longRun("onlyMobile");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() - this.longestList() <= 2)) {
     // Two parents, and a long multicolumn below. TEST: Fan-Fan, Marimo
     return this.flattenPlusMultiColumn(2);
@@ -673,7 +678,7 @@ Layout.L.arrangement.verticalBalanceTwoMultiColumns = function() {
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
   var line_height = "35px";
-  var list_count_height = "30px";
+  var list_count_height = "35px";
   var sibling_col_cnt = 2;   // TODO: better calculate this
   var children_col_cnt = 2;
   var siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt);
