@@ -418,6 +418,9 @@ Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
     if (list_len >= 3) {
       Layout.multiColumn(cur_list);
     }
+    else if ((i == 3) && (list_len > 1)) {
+      Layout.multiColumn(cur_list);
+    }
     cur_list.style.order = this.boxOrder++;   /* Force to show last */
     this.family.append(this[list_name]);
   }
