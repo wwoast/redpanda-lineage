@@ -531,11 +531,11 @@ div.family.vertical.onlyDesktop {
 }
 
 div.family.vertical.onlyDesktop > div {
-    width: 150px;
+    width: 30%;
 }
 
 div.family.vertical.onlyDesktop > div.double, div.family.vertical.onlyDesktop > div.triple {
-    width: 350px;
+    width: 60%;
 }
 
 div.family.vertical.onlyMobile {
