@@ -410,13 +410,6 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
   this.resetCounters("all");
 }
 
-// In some extraordinary cases on mobile, multiColumn on three-element lists 
-// may look better than the flexbox alternatives. Use this layout to guarantee
-// that short lists still get flowed multicolumn.
-Layout.L.arrangement.shortMultiColumn = function(columns, mode="both") {
-  return;
-}
-
 // When sparse columns stacked up may be nearly as long as a third column,
 // kick the little ones out and let the longer column run. If a fourth column
 // appears, display it underneath the long column. This is easier done using
@@ -649,10 +642,9 @@ Layout.L.arrangement.div8_2_2_3_1 = function() { return this.longRun("onlyMobile
 Layout.L.arrangement.div8_2_2_4_0 = function() { return this.longRun("onlyMobile") };
 Layout.L.arrangement.div8_2_1_5_0 = function() { return this.longRun("onlyMobile") };
 // Eight list items. Do the four column below the one, but kick it up
-// TODO: implement
-// Layout.L.arrangement.div8_2_1_4_1 = Layout.L.arrangement.lastColumnLong;
-// TODO: implement
-// Layout.L.arrangement.div9_2_1_4_2 = Layout.L.arrangement.lastColumnLong;
+Layout.L.arrangement.div8_2_1_4_1 = function() { return this.longRun("onlyMobile") };
+// Nine items. Do a balancing act
+Layout.L.arrangement.div9_2_1_4_2 = function() { return this.longRun("onlyMobile")};
 // Nine list items. Two single columns sneaking on the left
 Layout.L.arrangement.div9_2_1_5_1 = function() { return this.longRun("onlyMobile") };
 // Nine list items. A long column goes multiColumn. 
@@ -661,8 +653,6 @@ Layout.L.arrangement.div9_2_2_5_0 = function() { return this.oneMultiColumn(2, "
 // Nine list items. Parents and two similar length lists
 Layout.L.arrangement.div9_2_0_3_4 = function() { return this.flatten("onlyMobile") };
 Layout.L.arrangement.div9_2_1_6_0 = function() { return this.oneMultiColumn(2) };
-// Nine list items, but a single column of three looks out of place here.
-// TODO: IMPLEMENT
 // Wouldn't normally flatten the one. Might not need this
 Layout.L.arrangement.div9_0_0_8_1 = function() { return this.flattenPlusMultiColumn(3) };
 // Ten list items. Parents and balanced elsewhere
@@ -688,15 +678,16 @@ Layout.L.arrangement.div10_0_0_5_5 = function() { return this.oneMultiColumn(2, 
 // On desktop the multicolumn div needs to be split out.
 Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 'onlyDesktop') };
 // Ten list items. Seven-long columns are too much.
-// TODO: Implement
-// Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
+Layout.L.arrangement.div10_0_0_7_3 = function() { return this.flattenPlusMultiColumn(2, 'onlyMobile') };
 // Ten list items. Two columns of five should both be multiColumn'ed
 // TODO
-// Twelve iteems: Force multicolumns to be just two wide
-Layout.L.arrangement.div12_2_1_9_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
+// Eleven items: force a two-column flatten, since 9 will default to 3 columns otherwise
+Layout.L.arrangement.div11_2_0_9_0 = function() { return this.flattenPlusMultiColumn(2)};
+// Twelve items: Force multicolumns to be just two wide
+Layout.L.arrangement.div12_2_1_9_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
 // Thirteen items. Force multicolumns to be just two wide
-Layout.L.arrangement.div13_2_2_9_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
-Layout.L.arrangement.div13_2_1_10_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
+Layout.L.arrangement.div13_2_2_9_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
+Layout.L.arrangement.div13_2_1_10_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
 
 
 /* For vertical flow elements, the height is used to display content properly.
