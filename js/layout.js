@@ -64,9 +64,6 @@ Layout.flatten = function(div, mode) {
   if (mode == "onlyMobile") {
     div.childNodes[1].classList.add("onlyMobileFlat");
   } else {
-    // Mobile and Desktop flattened divs generally only appear alone, so give
-    // them a 100%-width singleton entry into the family list.
-    div.classList.add("singleton");
     div.childNodes[1].classList.add("flat");
   }
   return div;
@@ -271,9 +268,6 @@ Layout.L.arrangement.oneMultiColumn = function(columns=0, breaker_mode="both", c
       var mc_count = columns;
       if (mc_count == 0) { mc_count = this.multiColumnCount(list_len) }
       Layout.multiColumn(cur_list, mc_count);
-      if (this.existingColumns() == 1) {
-        cur_list.classList.add("singleton");   // More width for solo columns
-      }
       this.dividerMode = column_mode;   /* Add a divider based on input mode */
       breaking_style = column_mode;     /* Will do an after-column-style break */
     }
@@ -344,12 +338,11 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
       Layout.flatten(cur_list, mode);
       this.dividerMode = mode;
     }
-    // If just a single list, add a singleton class to adjust width on desktop
-    if (lists.length == 1) {
+    this.family.append(cur_list);
+    if (this.existingColumns() == 1) {
       cur_list.classList.add("singleton");
       this.dividerMode = mode;
     }
-    this.family.append(cur_list);
     this.distance++;
     if ((this.distance == 2) || (this.dividerMode != false)) {
       var breaker = Layout.divider("onlyMobile");
@@ -389,10 +382,6 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
       Layout.multiColumn(cur_list, mc_count);
       this.dividerMode = column_mode;   /* Add a divider based on input mode */
       breaking_style = column_mode;     /* Will do an after-column-style break */
-    }
-    // If just a single list, add a singleton class to adjust width on desktop
-    if (lists.length == 1)  {
-      cur_list.classList.add("singleton");
     }
     this.family.append(cur_list);
     this.distance++;
