@@ -482,7 +482,7 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
     return this.threeListOneLong("onlyDesktop");
-  } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() == this.longestList() + 2)) {
+  } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() - this.longestList() <= 2)) {
     // Two parents, and a long multicolumn below
     return this.flattenPlusMultiColumn(2);
   } else {
