@@ -515,8 +515,20 @@ div.species h4 {
 
 div.family {
     display: flex;
+    flex-direction: row;
     min-width: 300px;
     background-color: #EDC1D7; /* Pink Lady Apples */
+    flex-wrap: wrap;
+}
+
+div.family.vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+div.family.vertical.onlyMobile {
+    display: flex;
+    flex-direction: row;
 }
 
 div.parents, div.litter, div.siblings, div.children, div.names {
@@ -586,13 +598,22 @@ ul.pandaList.flat li {
 }
 
 ul.pandaList li, ul.linkList li {
-    padding-top: 0.25ex;
-    padding-bottom: 0.5ex;
     white-space: nowrap;
+}
+
+/* By applying list padding inside the list items, this ensures that multicolumn
+   lists don't send their padding across to the next column. */
+ul.pandaList li > a, ul.linkList li > a {
+    display: inline-block;
+    padding-bottom: 0.75ex;
 }
 
 ul.pandaList li a.passedAway {
     color: gray;
+}
+
+h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
+    padding-bottom: 0.25ex;
 }
 
 div.footer {
@@ -981,13 +1002,19 @@ div.photoSample h5.caption.familyTitle {
     div.family {
         width: 100%;
         flex-direction: row;
-        flex-wrap: wrap;
     }
 
-    div.family.multiColumn {
-        display: block;
-        column-count: 2;
-        column-gap: 10px;
+    div.family.vertical.onlyMobile {
+        /* This requires JS to set a height for the flow to work */
+        flex-direction: column;
+    }
+
+    div.family.vertical > div {
+        width: 50%;
+    }
+
+    div.family.vertical > hr.divider {
+        page-break-after: always;
     }
 
     div.parents, div.litter, div.siblings, div.children, div.names {
