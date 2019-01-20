@@ -756,11 +756,11 @@ function recomputeHeight(e) {
       }
     }
   } else {
-    // We are in mobile mode
     for (family_div of families) {
+      // We are in mobile mode
       if (family_div.classList.contains("onlyDesktop")) {
         // Disable height when in mobile mode for onlyDesktop divs
-        famil_div.style.height = "";
+        family_div.style.height = "";
       } else {
         // Recalculate height after media query change
         family_div.style.height = family_div.dataset.height;
