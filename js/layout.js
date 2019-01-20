@@ -611,13 +611,13 @@ Layout.L.arrangement.verticalMultiColumnBalance = function() {
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
   var line_height = "35px";
-  var list_count_height = "20px";
+  var list_count_height = "25px";
   // Do list order based on what things exist or not
   this.list_order = this.list_default.filter(x => this.num[x] != 0);
   // Max items in the multicolumn list is just the list count / 2
   var squeeze_count = (this.existingColumns() > 3) ? 3 : 2;
   var padding = between_list_pad * (parseInt(list_count_height) * squeeze_count);
-  var squeeze_num = 4;  // Typically the max number of parents and litter
+  var squeeze_num = this.sum() - this.longestList();  // Typically the max number of parents and litter
   var squeeze_height = padding + (squeeze_num * parseInt(line_height));
   var multi_column_num = Math.ceil(this.longestList() / 2);
   var multi_column_height = multi_column_num * parseInt(line_height);
@@ -718,11 +718,11 @@ Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiCo
 Layout.L.arrangement.div10_2_1_5_2 = function() { return this.longRun("onlyMobile") };
 // Ten list items. Balanced lists and a muticolumn
 // TODO: On mobile, flatten all the short columns.
-Layout.L.arrangement.div10_2_2_6_0 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") };
+Layout.L.arrangement.div10_2_2_6_0 = function() { return this.threeListOneLong("onlyDesktop") };
 // Ten list items. Sneak the singles down the left
 Layout.L.arrangement.div10_2_1_6_1 = function() { return this.longRun("onlyMobile") };
 // Ten list items. Too long to be a long run.
-Layout.L.arrangement.div10_2_0_7_1 = function() { return this.oneMultiColumn(2, "onlyMobile", "onlyMobile") };
+Layout.L.arrangement.div10_2_0_7_1 = function() { return this.threeListOneLong("onlyDesktop") };
 // Ten list items. No parents layouts, even stevens. Spread out on desktop
 Layout.L.arrangement.div10_0_0_5_5 = function() { return this.oneMultiColumn(2, 'onlyDesktop') };
 // Ten list items. On mobile this looks fine as two columns.
@@ -732,8 +732,9 @@ Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 
 Layout.L.arrangement.div10_0_0_7_3 = function() { return this.flattenPlusMultiColumn(2, 'onlyMobile') };
 // Eleven items: force a two-column flatten, since 9 will default to 3 columns otherwise
 Layout.L.arrangement.div11_2_0_9_0 = function() { return this.flattenPlusMultiColumn(2)};
+Layout.L.arrangement.div11_2_2_7_0 = function() { return this.threeListOneLong("onlyDesktop") };
 // Twelve items: Force multicolumns to be just two wide
-Layout.L.arrangement.div12_2_1_9_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
+Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("onlyDesktop") };
 // Thirteen items. Force multicolumns to be just two wide
 Layout.L.arrangement.div13_2_2_9_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
 Layout.L.arrangement.div13_2_1_10_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
