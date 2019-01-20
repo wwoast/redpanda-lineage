@@ -533,7 +533,7 @@ Layout.L.arrangement.verticalBalance = function() {
   var between_list_pad = 2;
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
-  var line_height = "33px";
+  var line_height = "35px";
   var list_count_height = "20px";
   var longest = 0;
   // Our desired order and spacing. Split at the middle by default, rounded down
