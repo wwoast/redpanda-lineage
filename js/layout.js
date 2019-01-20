@@ -208,7 +208,8 @@ Layout.L.arrangement.distance = 0;
 Layout.L.arrangement.dividerMode = false;
 // Height value to apply to the family box when in vertical flow mode.
 // This is required for flex-box to properly flow the elements. Arbitrary default
-Layout.L.arrangement.height = "500px";
+Layout.L.arrangement.height_desktop = "500px";
+Layout.L.arrangement.height_mobile = "500px";
 // List arrangement values
 Layout.L.arrangement.list_default = ["parents", "litter", "siblings", "children"];
 Layout.L.arrangement.list_order = ["parents", "litter", "siblings", "children"];
@@ -398,19 +399,50 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
   this.resetCounters("all");
 }
 
+// Four-column layouts are the trickiest, and when two of those columns are
+// very long, we need to do a multi-column flow where the short columns squeeze
+// left, and the longer ones get flattened into 2-wide-multicols or 3-wide-multicols.
+Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
+  this.family.classList.add("vertical");
+  if (mode == "onlyDesktop") {
+    this.family.classList.add(mode);
+  }
+  // Balance columns modeled as single-column-lists
+  var split_point = this.verticalBalanceTwoMultiColumns();
+  // Iterate through the list order
+  for (let i = 0; i < this.list_order.length ; i++) {
+    var list_name = this.list_order[i];
+    var cur_list = this[list_name];
+    var list_len = this.num[list_name];
+    // Set a multicolumn if necessary
+    if (list_len >= 3) {
+      Layout.multiColumn(cur_list);
+    }
+    cur_list.style.order = this.boxOrder++;   /* Force to show last */
+    this.family.append(this[list_name]);
+  }
+  // Set height of the container div based on balancing info.
+  if (window.matchMedia("(max-width: 670px)").matches == false) {
+    this.family.style.height = this.height_desktop;             /* Use the desktop height in desktop mode */
+    this.family.dataset.height_desktop = this.height_desktop;   /* Store this value on the div for later use */
+  }
+  // Return distance/flexBreaker counters to default values
+  this.resetCounters("all"); 
+}
+
 // When sparse columns stacked up may be nearly as long as a third column,
 // kick the little ones out and let the longer column run. If a fourth column
-// appears, display it underneath the long column. This is easier done using
-// a multicolumn-flow for divs, instead of the normal flex flow.
-// hr/line breaks in vertical flow don't work. Uses the height constraint to
-// influence the final displayed flow.
+// appears, display it underneath the long column..
+// hr/line breaks in vertical flow don't work. Uses a height constraint to
+// influence the final displayed flow. Also see the event listeners at the
+// bottom of this file.
 Layout.L.arrangement.longRun = function(mode="onlyMobile") {
   this.family.classList.add("vertical");
   if (mode == "onlyMobile") {
     this.family.classList.add(mode);
   }
   // Balance columns modeled as single-column-lists
-  var split_point = this.verticalBalance();
+  var split_point = this.verticalBalanceMobile();
   // Iterate through the list order
   for (let i = 0; i < this.list_order.length ; i++) {
     var list_name = this.list_order[i];
@@ -420,9 +452,9 @@ Layout.L.arrangement.longRun = function(mode="onlyMobile") {
   }
   // Set height of the container div based on balancing info
   if (window.matchMedia("(max-width: 670px)").matches == true) {
-    this.family.style.height = this.height;   /* Make sure it applies immediately */
+    this.family.style.height = this.height_mobile;   /* Make sure it applies immediately */
   }
-  this.family.dataset.height = this.height;   /* Store this value on the div for later use */
+  this.family.dataset.height_mobile = this.height_mobile;   /* Store this value on the div for later use */
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
 }
@@ -439,7 +471,7 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
     this.family.classList.add(mode);
   }
   // Balance columns modeled as single-column-lists
-  var split_point = this.verticalMultiColumnBalance(2);
+  var split_point = this.verticalBalanceOneMultiColumn(2);
   // Iterate through the list order
   for (let i = 0; i < this.list_order.length ; i++) {
     var list_name = this.list_order[i];
@@ -456,9 +488,9 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
   }
   // Set height of the container div based on balancing info
   if (window.matchMedia("(max-width: 670px)").matches == false) {
-    this.family.style.height = this.height;   /* Make sure it applies immediately */
+    this.family.style.height = this.height_desktop;   /* Make sure it applies immediately */
   }
-  this.family.dataset.height = this.height;   /* Store this value on the div for later use */
+  this.family.dataset.height_desktop = this.height_desktop;   /* Store this value on the div for later use */
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all"); 
 }
@@ -472,18 +504,28 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
 // -- Long column of 9 or more? Take all columns longer than 5 and multiColumn them
 // TOWRITE: for now, just default to columns
 Layout.L.arrangement.default = function() {
-  // Heuristics based on column sizing
+  // Heuristics based on column sizing. More specific to less specific 
   if ((this.longestList() > 4) && (this.existingColumns() == 1)) {
     // One really long column? Multi-column-split it based on available space. TEST: Pam
     return this.oneMultiColumn();
   } else if ((this.longestList() <= 6) && (this.existingColumns() == 3)) {
     return this.longRun("onlyMobile");
+  } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) && 
+             (this.sum() - this.longestList() >= this.longestList())) {
+    // TEST: Seita
+    return this.fourListTwoLong("onlyDesktop");
+  } else if ((this.longestList() >= 8) && (this.existingColumns() == 3) && 
+             (this.sum() - this.longestList() >= this.longestList())) {
+    // TEST: Koto
+    return this.longRun("onlyMobile");
   } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
     return this.longRun("onlyMobile");
+  } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
+    return this.fourListTwoLong("onlyDesktop");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
     return this.threeListOneLong("onlyDesktop");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() - this.longestList() <= 2)) {
-    // Two parents, and a long multicolumn below
+    // Two parents, and a long multicolumn below. TEST: Fan-Fan, Marimo
     return this.flattenPlusMultiColumn(2);
   } else {
     // Default: just treat everything like a single column
@@ -530,7 +572,7 @@ Layout.L.arrangement.sum = function() {
 // first, but other elements can have line breaks inserted to change the balance.
 // This will change the L.arrangement.list_order. Returns the split point which
 // to display the columns we want, and sets the max L.arrangement.height.
-Layout.L.arrangement.verticalBalance = function() {
+Layout.L.arrangement.verticalBalanceMobile = function() {
   // Ordering permutations we want to try. 
   var valid_list = this.list_default.filter(x => this.num[x] != 0);
   // Always keep parents first, or whatever the earliest valid entry is
@@ -574,7 +616,7 @@ Layout.L.arrangement.verticalBalance = function() {
         longest = (left_sum > right_sum) ? left_sum : right_sum;
         longest_list_count = (left_lists.length > right_lists.length) ? left_lists.length : right_lists.length;
         // Account for item line height, and the heading/gap height as well
-        this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
+        this.height_mobile = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
         return minimum_split;
       } else if (difference < minimum_space) {
         // Otherwise, keep optimizing as best we can
@@ -584,7 +626,7 @@ Layout.L.arrangement.verticalBalance = function() {
         longest = (left_sum > right_sum) ? left_sum : right_sum;
         longest_list_count = (left_lists.length > right_lists.length) ? left_lists.length : right_lists.length;
         // Account for item line height, and the heading/gap height as well
-        this.height = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
+        this.height_mobile = (longest * parseInt(line_height)) + (longest_list_count * parseInt(list_count_height));
       } else {
         continue;
       }
@@ -595,7 +637,7 @@ Layout.L.arrangement.verticalBalance = function() {
 }
 
 // Much more hacky calculation for vertical balance of multicolumn vertical flow
-Layout.L.arrangement.verticalMultiColumnBalance = function(multi_cols) {
+Layout.L.arrangement.verticalBalanceOneMultiColumn = function(multi_cols) {
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
@@ -613,12 +655,34 @@ Layout.L.arrangement.verticalMultiColumnBalance = function(multi_cols) {
   var multi_column_cnt = Math.ceil(this.longestList() / multi_cols);
   var multi_column_height = multi_column_cnt * parseInt(line_height);
   if (multi_column_height > squeeze_height) {
-    this.height = multi_column_height;
+    this.height_desktop = multi_column_height;
     return 2;   // Split at the third column
   } else {
-    this.height = squeeze_height;
+    this.height_desktop = squeeze_height;
     return 0;   // Split at the first column
   }
+}
+
+// And even hackier vertical balancing of two multicolumns. Assume the multicolumns
+// are two-wide, and that they're taller than the left gutter
+Layout.L.arrangement.verticalBalanceTwoMultiColumns = function() {
+  this.list_order = this.list_default;
+  // How many lines worth of space do we count the gap between lists?
+  // Two lines, since it's spacing and a column header
+  var between_list_pad = 3;
+  // Estimated height of our lines, based on 14pt and padding. Also, necessary
+  // values to calculate the final box-height.
+  var line_height = "35px";
+  var list_count_height = "30px";
+  var sibling_col_cnt = 2;   // TODO: better calculate this
+  var children_col_cnt = 2;
+  var siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt);
+  var children_num = Math.ceil(this.num.children / children_col_cnt);
+  var siblings_height = siblings_num * parseInt(line_height);
+  var children_height = children_num * parseInt(line_height);
+  var padding = between_list_pad * parseInt(list_count_height);
+  this.height_desktop = siblings_height + children_height + padding;
+  return 2;   // Split at the third column
 }
 
 /* The arrangement switchboard. Set these arrangement names so they return
@@ -743,7 +807,7 @@ function recomputeHeight(e) {
         family_div.style.height = "";
       } else {
         // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height;
+        family_div.style.height = family_div.dataset.height_desktop;
       }
     }
   } else {
@@ -754,7 +818,7 @@ function recomputeHeight(e) {
         family_div.style.height = "";
       } else {
         // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height;
+        family_div.style.height = family_div.dataset.height_mobile;
       }
     }
   }
