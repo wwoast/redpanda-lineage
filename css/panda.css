@@ -521,7 +521,7 @@ div.family {
     flex-wrap: wrap;
 }
 
-div.family.vertical {
+div.family.vertical, div.family.vertical.onlyDesktop {
     display: flex;
     flex-direction: column;
 }
@@ -1001,6 +1001,10 @@ div.photoSample h5.caption.familyTitle {
 
     div.family {
         width: 100%;
+        flex-direction: row;
+    }
+
+    div.family.vertical.onlyDesktop {
         flex-direction: row;
     }
 
