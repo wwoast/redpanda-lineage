@@ -1504,7 +1504,7 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda.jpg');
+  var photo = Show.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda-portrait.jpg');
   var span = Show.displayPhotoNavigation(info.id, info.photo_index);
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
@@ -1606,7 +1606,7 @@ Show.photoSwap = function(photo, desired_index) {
   var chosen = "photo." + new_index.toString();
   var new_choice = photo_manifest[chosen];
   var new_container = Show.displayPhoto(new_choice, animal_id, new_index.toString(), 
-                                        "pandaPhoto", "images/no-panda.jpg");
+                                        "pandaPhoto", "images/no-panda-portrait.jpg");
   var new_photo = new_container.childNodes[0];
   // Replace the span navigation id if we have an actual carousel
   if (max_index > 1) {
