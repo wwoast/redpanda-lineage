@@ -596,7 +596,6 @@ Layout.L.arrangement.div3_0_0_3_0 = function() { return this.columns() };
 // Four list items. Two parents and two in a second column
 Layout.L.arrangement.div4_2_2_0_0 = function() { return this.columns() };
 // Four list items. Two in one category and singles
-// TODO: long run, since flatten mode is ambiguous with ordering
 Layout.L.arrangement.div4_2_1_1_0 = function() { return this.longRun("onlyMobile") };
 // Four list items. Three in one category
 Layout.L.arrangement.div4_0_0_3_1 = function() { return this.columns() };
@@ -659,7 +658,8 @@ Layout.L.arrangement.div9_0_0_8_1 = function() { return this.flattenPlusMultiCol
 Layout.L.arrangement.div10_2_0_4_4 = function() { return this.flatten("onlyMobile") };
 // Ten list items. Spread out wide
 Layout.L.arrangement.div10_2_2_3_3 = function() { return this.columns() };
-// TODO: impelment
+// Ten list items. Balance these
+Layout.L.arrangement.div10_2_1_4_3 = function() { return this.longRun("onlyMobile") };
 // Layout.L.arrangement.div10_2_1_4_3 = Layout.L.arrangement.lastColumnLong;
 // Ten list items. Flatten the top, and multicolumn the largest one
 Layout.L.arrangement.div10_2_2_5_1 = function() { return this.flattenPlusMultiColumn(2) };
@@ -679,8 +679,6 @@ Layout.L.arrangement.div10_0_0_5_5 = function() { return this.oneMultiColumn(2, 
 Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 'onlyDesktop') };
 // Ten list items. Seven-long columns are too much.
 Layout.L.arrangement.div10_0_0_7_3 = function() { return this.flattenPlusMultiColumn(2, 'onlyMobile') };
-// Ten list items. Two columns of five should both be multiColumn'ed
-// TODO
 // Eleven items: force a two-column flatten, since 9 will default to 3 columns otherwise
 Layout.L.arrangement.div11_2_0_9_0 = function() { return this.flattenPlusMultiColumn(2)};
 // Twelve items: Force multicolumns to be just two wide
