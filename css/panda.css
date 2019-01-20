@@ -521,9 +521,13 @@ div.family {
     flex-wrap: wrap;
 }
 
-div.family.vertical {
+div.family.vertical, div.family.vertical.onlyDesktop {
     display: flex;
     flex-direction: column;
+}
+
+div.family.vertical.onlyDesktop {
+    align-content: start;   /* Makes lists swing left */
 }
 
 div.family.vertical.onlyMobile {
@@ -575,12 +579,10 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    column-gap: 10px;   /* Same as left padding */
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    column-gap: 10px;   /* Same as left padding */
 }
 
 ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
@@ -1004,6 +1006,10 @@ div.photoSample h5.caption.familyTitle {
         flex-direction: row;
     }
 
+    div.family.vertical.onlyDesktop {
+        flex-direction: row;
+    }
+
     div.family.vertical.onlyMobile {
         /* This requires JS to set a height for the flow to work */
         flex-direction: column;
@@ -1036,13 +1042,6 @@ div.photoSample h5.caption.familyTitle {
         display: block;
     }
 
-    /* On mobile, parents divs that break after display, must be width 100% and not singletons,
-       as the singletons are 100% on desktop mode too!
-    div.parents.onlyMobileBreakAfter {
-        width: 100%;
-    }
-    */
-
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
     }
@@ -1073,12 +1072,12 @@ div.photoSample h5.caption.familyTitle {
 
     ul.pandaList.double.onlyMobile {
         column-count: 2;
-        column-gap: 10px;
+        column-gap: 20px;
     }
 
     ul.pandaList.triple.onlyMobile {
         column-count: 3;
-        column-gap: 10px;
+        column-gap: 20px;
     }
 
     /* On small screens, not enough room */
