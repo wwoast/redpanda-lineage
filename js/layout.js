@@ -512,7 +512,12 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) && 
              (this.sum() - this.longestList() >= this.longestList())) {
+    // TEST: Seita
     return this.fourListTwoLong("onlyDesktop");
+  } else if ((this.longestList() >= 8) && (this.existingColumns() == 3) && 
+             (this.sum() - this.longestList() >= this.longestList())) {
+    // TEST: Koto
+    return this.longRun("onlyMobile");
   } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
