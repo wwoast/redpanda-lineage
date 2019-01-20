@@ -504,12 +504,14 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
 // -- Long column of 9 or more? Take all columns longer than 5 and multiColumn them
 // TOWRITE: for now, just default to columns
 Layout.L.arrangement.default = function() {
-  // Heuristics based on column sizing
+  // Heuristics based on column sizing. More specific to less specific 
   if ((this.longestList() > 4) && (this.existingColumns() == 1)) {
     // One really long column? Multi-column-split it based on available space. TEST: Pam
     return this.oneMultiColumn();
   } else if ((this.longestList() <= 6) && (this.existingColumns() == 3)) {
     return this.longRun("onlyMobile");
+  } else if ((this.longestList() >= 8) && (this.sum() - this.longestList() >= this.longestList())) {
+    return this.fourListTwoLong("onlyDesktop");
   } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
