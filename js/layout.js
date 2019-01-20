@@ -450,7 +450,7 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
     this.family.classList.add(mode);
   }
   // Balance columns modeled as single-column-lists
-  var split_point = this.verticalMultiColumnBalance();
+  var split_point = this.verticalMultiColumnBalance(2);
   // Iterate through the list order
   for (let i = 0; i < this.list_order.length ; i++) {
     var list_name = this.list_order[i];
@@ -459,8 +459,10 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
     // Set a multicolumn if necessary
     if (list_len == this.longestList()) {
       Layout.multiColumn(cur_list, 2);
+      cur_list.style.order = this.existingColumns();   /* Force to show last */
+    } else {
+      cur_list.style.order = this.boxOrder++;
     }
-    cur_list.style.order = this.boxOrder++;
     this.family.append(this[list_name]);
   }
   // Set height of the container div based on balancing info
@@ -489,11 +491,13 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
     return this.longRun("onlyMobile");
+  } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
+    return this.threeListOneLong("onlyDesktop");
   } else if ((this.longestList() > 6) && (this.existingColumns() > 2)) {
     return this.oneMultiColumn();
   // Two parents, and a long multicolumn below
   } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() == this.longestList() + 2)) {
-    return this.flattenPlusMultiColumn();
+    return this.flattenPlusMultiColumn(2);
   } else {
     // Default: just treat everything like a single column
     return this.columns();
@@ -604,14 +608,14 @@ Layout.L.arrangement.verticalBalance = function() {
 }
 
 // Much more hacky calculation for vertical balance of multicolumn vertical flow
-Layout.L.arrangement.verticalMultiColumnBalance = function() {
+Layout.L.arrangement.verticalMultiColumnBalance = function(multi_cols) {
   // How many lines worth of space do we count the gap between lists?
   // Two lines, since it's spacing and a column header
   var between_list_pad = 2;
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
   var line_height = "35px";
-  var list_count_height = "25px";
+  var list_count_height = "30px";
   // Do list order based on what things exist or not
   this.list_order = this.list_default.filter(x => this.num[x] != 0);
   // Max items in the multicolumn list is just the list count / 2
@@ -619,8 +623,8 @@ Layout.L.arrangement.verticalMultiColumnBalance = function() {
   var padding = between_list_pad * (parseInt(list_count_height) * squeeze_count);
   var squeeze_num = this.sum() - this.longestList();  // Typically the max number of parents and litter
   var squeeze_height = padding + (squeeze_num * parseInt(line_height));
-  var multi_column_num = Math.ceil(this.longestList() / 2);
-  var multi_column_height = multi_column_num * parseInt(line_height);
+  var multi_column_cnt = Math.ceil(this.longestList() / multi_cols);
+  var multi_column_height = multi_column_cnt * parseInt(line_height);
   if (multi_column_height > squeeze_height) {
     this.height = multi_column_height;
     return 2;   // Split at the third column
@@ -735,9 +739,6 @@ Layout.L.arrangement.div11_2_0_9_0 = function() { return this.flattenPlusMultiCo
 Layout.L.arrangement.div11_2_2_7_0 = function() { return this.threeListOneLong("onlyDesktop") };
 // Twelve items: Force multicolumns to be just two wide
 Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("onlyDesktop") };
-// Thirteen items. Force multicolumns to be just two wide
-Layout.L.arrangement.div13_2_2_9_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
-Layout.L.arrangement.div13_2_1_10_0 = function() { return this.oneMultiColumn(2, 'onlyMobile')};
 
 
 /* For vertical flow elements, the height is used to display content properly.
