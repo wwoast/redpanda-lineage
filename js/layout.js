@@ -692,6 +692,11 @@ Layout.L.arrangement.div10_0_0_6_4 = function() { return this.oneMultiColumn(2, 
 // Layout.L.arrangement.div10_0_0_7_3 = Layout.L.arrangement.shortMultiColumn(2);
 // Ten list items. Two columns of five should both be multiColumn'ed
 // TODO
+// Twelve iteems: Force multicolumns to be just two wide
+Layout.L.arrangement.div12_2_1_9_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
+// Thirteen items. Force multicolumns to be just two wide
+Layout.L.arrangement.div13_2_2_9_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
+Layout.L.arrangement.div13_2_1_10_0 = function() { return this.oneMultiColumn('2', 'onlyMobile')};
 
 
 /* For vertical flow elements, the height is used to display content properly.
