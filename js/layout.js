@@ -408,7 +408,7 @@ Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
     this.family.classList.add(mode);
   }
   // Balance columns modeled as single-column-lists
-  // var split_point = this.verticalMultiColumnBalance(2);
+  var split_point = this.verticalBalanceTwoMultiColumns();
   // Iterate through the list order
   for (let i = 0; i < this.list_order.length ; i++) {
     var list_name = this.list_order[i];
@@ -421,11 +421,8 @@ Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
     cur_list.style.order = this.boxOrder++;   /* Force to show last */
     this.family.append(this[list_name]);
   }
-  // Set height of the container div based on balancing info
+  // Set height of the container div based on balancing info.
   if (window.matchMedia("(max-width: 670px)").matches == false) {
-    this.family.style.height = this.height_mobile;            /* Use the mobile height in mobile mode */
-    this.family.dataset.height_mobile = this.height_mobile;   /* Store this value on the div for later use */
-  } else {
     this.family.style.height = this.height_desktop;             /* Use the desktop height in desktop mode */
     this.family.dataset.height_desktop = this.height_desktop;   /* Store this value on the div for later use */
   }
@@ -515,6 +512,8 @@ Layout.L.arrangement.default = function() {
     return this.longRun("onlyMobile");
   } else if ((this.longestList() <= 9) && (this.existingColumns() == 4)) {
     return this.longRun("onlyMobile");
+  } else if ((this.longestList() > 9) && (this.existingColumns() == 4)) {
+    return this.fourListTwoLong("onlyDesktop");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 3) && (this.sum() - this.longestList() <= 4)) {
     return this.threeListOneLong("onlyDesktop");
   } else if ((this.longestList() > 5) && (this.existingColumns() == 2) && (this.sum() - this.longestList() <= 2)) {
@@ -654,6 +653,28 @@ Layout.L.arrangement.verticalBalanceOneMultiColumn = function(multi_cols) {
     this.height_desktop = squeeze_height;
     return 0;   // Split at the first column
   }
+}
+
+// And even hackier vertical balancing of two multicolumns. Assume the multicolumns
+// are two-wide, and that they're taller than the left gutter
+Layout.L.arrangement.verticalBalanceTwoMultiColumns = function() {
+  this.list_order = this.list_default;
+  // How many lines worth of space do we count the gap between lists?
+  // Two lines, since it's spacing and a column header
+  var between_list_pad = 3;
+  // Estimated height of our lines, based on 14pt and padding. Also, necessary
+  // values to calculate the final box-height.
+  var line_height = "35px";
+  var list_count_height = "30px";
+  var sibling_col_cnt = 2;   // TODO: better calculate this
+  var children_col_cnt = 2;
+  var siblings_num = Math.ceil(this.num.siblings / sibling_col_cnt);
+  var children_num = Math.ceil(this.num.children / children_col_cnt);
+  var siblings_height = siblings_num * parseInt(line_height);
+  var children_height = children_num * parseInt(line_height);
+  var padding = between_list_pad * parseInt(list_count_height);
+  this.height_desktop = siblings_height + children_height + padding;
+  return 2;   // Split at the third column
 }
 
 /* The arrangement switchboard. Set these arrangement names so they return
