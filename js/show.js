@@ -1103,7 +1103,7 @@ Show.displayPandaChildren = function(info) {
   heading.className = "childrenHeading" + " " + info.language;
   heading.innerText = Show.gui.children[info.language];
   var ul = document.createElement('ul');
-  ul.className = "pandaList";
+  ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.children)) {
     var animal = info.children[index];
     var children_link = Show.animalLink(animal, animal[info.get_name], 
@@ -1208,11 +1208,13 @@ Show.displayPandaFamily = function(info) {
 
 // Do the littermates info in the family section
 Show.displayPandaLitter = function(info) {
+  var language = info.language;
   var heading = document.createElement('h4');
   heading.className = "litterHeading" + " " + info.language;
+  heading.classList.add(language);
   heading.innerText = Show.gui.litter[info.language];
   var ul = document.createElement('ul');
-  ul.className = "pandaList";
+  ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.litter)) {
     var animal = info.litter[index];
     var litter_link = Show.animalLink(animal, animal[info.get_name], 
@@ -1234,7 +1236,7 @@ Show.displayPandaParents = function(info) {
   heading.className = "parentsHeading" + " " + info.language;
   heading.innerText = Show.gui.parents[info.language];
   var ul = document.createElement('ul');
-  ul.className = "pandaList";
+  ul.className = "pandaList" + " " + info.language;
   var mom_li = document.createElement('li');
   var mom_link = "";
   if (info.mom != undefined) {
@@ -1270,7 +1272,7 @@ Show.displayPandaSiblings = function(info) {
   heading.className = "siblingsHeading" + " " + info.language;
   heading.innerText = Show.gui.siblings[info.language];
   var ul = document.createElement('ul');
-  ul.className = "pandaList";
+  ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
     var animal = info.siblings[index];
     var options = ["child_icon", "live_icon"];

@@ -628,12 +628,20 @@ ul.pandaList li a.passedAway {
     color: gray;
 }
 
-span.condensed {
+ul.pandaList.en > li > a > span.condensed {
+    font-size: 13pt;
+}
+
+ul.pandaList.en > li > a > span.ultraCondensed {
+    font-size: 11pt;
+}
+
+ul.pandaList.jp > li > a > span.condensed {
     letter-spacing: -1px;
     font-size: 13pt;
 }
 
-span.ultraCondensed {
+ul.pandaList.jp > li > a > span.ultraCondensed {
     letter-spacing: -4px;
     font-size: 12pt;
 }
