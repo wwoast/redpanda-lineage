@@ -103,28 +103,49 @@ Layout.permutations = function(input) {
   return results;
 }
 
-/* Swap the target column with the destination column. On mobile, include logic
-    that pushes the swapped column up to be even with the swapped column. */
-Layout.swapColumn = function(target, destination, height_adjust, destination_cnt) {
-  var tmp_order = target.style.order;
-  target.style.order = destination.style.order;
-  destination.style.order = tmp_order;
-  // Take the sibling column height, subtract 90 for the parents div (always 3*30px),
-  // and move the litter column up accordingly. Estimate the height since it's not rendered yet
-  if (height_adjust == true) {
-    height = (destination_cnt + 1) * 30;
-    shift = (height * -1) + 90;
-    if (shift < 0) {   // Only move sibling up if we have space to move it up
-      target.style.marginTop = shift.toString() + "px";
-      target.classList.add("adjustedMarginTop");
+/* For vertical flow elements, the height is used to display content properly.
+   For now, these vertical flow details only exist in mobile mode, so we can
+   turn them off when setting height values outside mobile. */
+Layout.recomputeHeight = function(e) {
+  var families = document.getElementsByClassName("family");
+  if ((e.matches == false) || (e.type == "DOMContentLoaded")) {
+    // Not in a mobile mode
+    for (family_div of families) {
+      if (family_div.classList.contains("onlyMobile")) {
+        // Disable height when in desktop mode for onlyMobile divs
+        family_div.style.height = "";
+      } else {
+        // Recalculate height after media query change
+        family_div.style.height = family_div.dataset.height_desktop;
+      }
     }
-  }  
-  // Fix sibling div z-index to make things clickable on Firefox
-  destination.style.zIndex = 2;
-  // When doing a swap, move the line break element that might exist after the target, to
-  // after the swapped destination instead. This is an ordering switch
-  var divBreak = target.nextSibling;
-  divBreak.style.order = parseInt(destination.style.order) + 1;
+  } else {
+    for (family_div of families) {
+      // We are in mobile mode
+      if (family_div.classList.contains("onlyDesktop")) {
+        // Disable height when in mobile mode for onlyDesktop divs
+        family_div.style.height = "";
+      } else {
+        // Recalculate height after media query change
+        family_div.style.height = family_div.dataset.height_mobile;
+      }
+    }
+  }
+}
+
+// Look for span elements that are children of links, in the family bars.
+// Any of these that are displayed in the page larger than 100px, need to get shrunk.
+Layout.shrinkNames = function() {
+  var link_nodes = document.getElementsByClassName("geneaologyListName");
+  for (let link of link_nodes) {
+    var span = link.childNodes[1];
+    if (span.offsetWidth > 95) {
+      span.classList.add("ultraCondensed");
+      span.classList.remove("condensed");
+    } else if (span.offsetWidth > 75) {
+      span.classList.add("condensed");
+    }
+  }
 }
 
 /* Given either a value or a range of values, validate that the available animals
@@ -806,37 +827,9 @@ Layout.L.arrangement.div11_2_2_7_0 = function() { return this.threeListOneLong("
 Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("onlyDesktop") };
 
 
-/* For vertical flow elements, the height is used to display content properly.
-   For now, these vertical flow details only exist in mobile mode, so we can
-   turn them off when setting height values outside mobile. */
-function recomputeHeight(e) {
-  var families = document.getElementsByClassName("family");
-  if ((e.matches == false) || (e.type == "DOMContentLoaded")) {
-    // Not in a mobile mode
-    for (family_div of families) {
-      if (family_div.classList.contains("onlyMobile")) {
-        // Disable height when in desktop mode for onlyMobile divs
-        family_div.style.height = "";
-      } else {
-        // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height_desktop;
-      }
-    }
-  } else {
-    for (family_div of families) {
-      // We are in mobile mode
-      if (family_div.classList.contains("onlyDesktop")) {
-        // Disable height when in mobile mode for onlyDesktop divs
-        family_div.style.height = "";
-      } else {
-        // Recalculate height after media query change
-        family_div.style.height = family_div.dataset.height_mobile;
-      }
-    }
-  }
-}
 // media-query height adjustments, plus making sure the height adjustment works
 // on the initial page load.
 var mobile = window.matchMedia("(max-width: 670px)");
-mobile.addListener(recomputeHeight);
-document.addEventListener("DOMContentLoaded", recomputeHeight);
+mobile.addListener(Layout.recomputeHeight);
+mobile.addListener(Layout.shrinkNames);
+document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);
