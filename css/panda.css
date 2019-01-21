@@ -2,10 +2,6 @@ html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
 }
 
-span {
-    letter-spacing: -10px;
-}
-
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -1111,11 +1107,11 @@ div.photoSample h5.caption.familyTitle {
     }
 
     span.condensed {
-        letter-spacing: -1.5px;
+        letter-spacing: -1px;
     }
     
     span.ultraCondensed {
-        letter-spacing: -4.5px;
+        letter-spacing: -4px;
     }    
 
     div.profileSummary {
