@@ -139,10 +139,9 @@ Layout.shrinkNames = function() {
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   for (let link of link_nodes) {
     var span = link.childNodes[1];
-    if (span.offsetWidth > 95) {
+    if (link.offsetWidth > 150) {
       span.classList.add("ultraCondensed");
-      span.classList.remove("condensed");
-    } else if (span.offsetWidth > 75) {
+    } else if (link.offsetWidth > 120) {
       span.classList.add("condensed");
     }
   }
