@@ -629,11 +629,11 @@ ul.pandaList li a.passedAway {
 }
 
 span.condensed {
-    letter-spacing: -0.15ex;
+    letter-spacing: -1.5px;
 }
 
 span.ultraCondensed {
-    letter-spacing: -0.35ex;
+    letter-spacing: -4.5px;
 }
 
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
