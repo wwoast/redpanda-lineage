@@ -835,8 +835,24 @@ function recomputeHeight(e) {
     }
   }
 }
+
+// Look for span elements that are children of links, in the family bars.
+// Any of these that are displayed in the page larger than 100px, need to get shrunk.
+function shrinkNames() {
+  var link_nodes = document.getElementsByClassName("geneaologyListName");
+  for (let link of link_nodes) {
+    var span = link.childNodes[1];
+    if (span.offsetWidth > 100) {
+      span.classList.add("ultraCondensed");
+    } else if (span.offsetWidth > 80) {
+      span.classList.add("condensed");
+    }
+  }
+}
+
 // media-query height adjustments, plus making sure the height adjustment works
 // on the initial page load.
 var mobile = window.matchMedia("(max-width: 670px)");
 mobile.addListener(recomputeHeight);
 document.addEventListener("DOMContentLoaded", recomputeHeight);
+window.addEventListener("load", shrinkNames);

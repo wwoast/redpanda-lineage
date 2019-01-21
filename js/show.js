@@ -785,6 +785,7 @@ Show.animalLink = function(animal, link_text, language, options) {
   // Gender search requires doing a table search by language.
   var gender = Pandas.gender(animal, language);
   var a = document.createElement('a');
+  a.className = 'geneaologyListName';
   // Put the name itself in a span, in case we want to squeeze it width-wise
   var name_span = document.createElement('span');
   var inner_text = link_text;
@@ -808,7 +809,7 @@ Show.animalLink = function(animal, link_text, language, options) {
     trailing_text = trailing_text + "\xa0" + "½"
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
-    a.className = "passedAway";
+    a.classList.add("passedAway");
     trailing_text = trailing_text + "\xa0" + Show.emoji.died;
   }
   name_span.innerText = inner_text;
