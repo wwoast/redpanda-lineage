@@ -621,6 +621,7 @@ ul.pandaList li, ul.linkList li {
 ul.pandaList li > a, ul.linkList li > a {
     display: inline-block;
     padding-bottom: 0.75ex;
+    word-spacing: -0.1ex;   /* Condense text slightly */
 }
 
 ul.pandaList li a.passedAway {
