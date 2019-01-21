@@ -780,7 +780,7 @@ Show.animalLink = function(animal, link_text, language, options) {
     if (options.indexOf("dad_icon") != -1) {
       alien = Show.emoji.star_dad;
     }
-    return Show.emptyLink(alien + "\xa0" + link_text);
+    return Show.emptyLink(alien + "\u2009" + link_text);
   }
 
   // Set up values for other functions working properly
@@ -797,22 +797,22 @@ Show.animalLink = function(animal, link_text, language, options) {
   var trailing_text = "";
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    gender_text = Show.displayChildIcon(gender) + "\xa0";
+    gender_text = Show.displayChildIcon(gender) + "\u2009";
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    gender_text = Show.emoji.mother + "\xa0";
+    gender_text = Show.emoji.mother + "\u2009";
   }
   if (options.indexOf("dad_icon") != -1) {
-    gender_text = Show.emoji.father + "\xa0";
+    gender_text = Show.emoji.father + "\u2009";
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
-    trailing_text = trailing_text + "\xa0" + "½"
+    trailing_text = trailing_text + "\u200A" + "½"
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.classList.add("passedAway");
-    trailing_text = trailing_text + "\xa0" + Show.emoji.died;
+    trailing_text = trailing_text + "\u200A" + Show.emoji.died;
   }
   name_span.innerText = inner_text;
   a.append(gender_text);
@@ -832,7 +832,9 @@ Show.animalLink = function(animal, link_text, language, options) {
 // TODO: final page layout
 Show.emptyLink = function(output_text) {
   var a = document.createElement('a');
-  a.innerText = output_text;
+  var span = document.createElement('span');
+  span.innerText = output_text;
+  a.appendChild(span);
   a.href = '#not_sure_yet';
   return a;
 }

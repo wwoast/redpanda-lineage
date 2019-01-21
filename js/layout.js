@@ -139,9 +139,9 @@ Layout.shrinkNames = function() {
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   for (let link of link_nodes) {
     var span = link.childNodes[1];
-    if (span.offsetWidth > 100) {
+    if (span.offsetWidth > 95) {
       span.classList.add("ultraCondensed");
-    } else if (span.offsetWidth > 80) {
+    } else if (span.offsetWidth > 75) {
       span.classList.add("condensed");
     }
   }
@@ -831,4 +831,3 @@ Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("
 var mobile = window.matchMedia("(max-width: 670px)");
 mobile.addListener(Layout.recomputeHeight);
 document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);
-window.addEventListener("load", Layout.shrinkNames);
