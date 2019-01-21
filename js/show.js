@@ -335,6 +335,8 @@ function outputResults() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   swapContents(old_content, new_content);
+  // Call layout adjustment functions to shrink any names that are too long
+  Layout.shrinkNames();
   redrawFooter();
 }
 
