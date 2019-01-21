@@ -628,14 +628,6 @@ ul.pandaList li a.passedAway {
     color: gray;
 }
 
-span.condensed {
-    letter-spacing: -1.5px;
-}
-
-span.ultraCondensed {
-    letter-spacing: -4.5px;
-}
-
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
     padding-bottom: 0.25ex;
 }
@@ -1113,6 +1105,14 @@ div.photoSample h5.caption.familyTitle {
         flex-grow: 1;   /* Force list items to expand to fill space */
         width: 6.4em;
     }
+
+    span.condensed {
+        letter-spacing: -1.5px;
+    }
+    
+    span.ultraCondensed {
+        letter-spacing: -4.5px;
+    }    
 
     div.profileSummary {
         margin-top: 0px;   /* Vertical rhythm things unnecessary on mobile */
