@@ -592,12 +592,12 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    column-gap: 0em;   /* Don't waste space that flex will spread for columns */
+    column-gap: 1.5em;
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    column-gap: 0em;   /* Don't waste space that flex will spread for columns */
+    column-gap: 1.5em;
 }
 
 ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
@@ -1082,7 +1082,7 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
-        column-gap: 0em;   /* Don't waste space that flex will spread for columns */
+        column-gap: 1.5em;
     }
 
     ul.pandaList.double.onlyMobile {
