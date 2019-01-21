@@ -6,7 +6,7 @@ children: none
 en.name: Dale
 en.nicknames: none
 en.othernames: none
-gender: m
+gender: f
 jp.name: デール
 jp.nicknames: none
 jp.othernames: none
@@ -38,5 +38,9 @@ photo.7: https://www.instagram.com/p/Bsx7kBRFKbO/media/?size=m
 photo.7.author: l_ma_photos
 photo.7.link: https://www.instagram.com/l_ma_photos/
 photo.7.tags: bamboo, paws
+photo.8: https://www.instagram.com/p/Bsy3b-OldKK/media/?size=m
+photo.8.author: pantasanzoo
+photo.8.link: https://www.instagram.com/pantasanzoo/
+photo.8.tags: itchy
 species: 2
 zoo: 12
