@@ -785,29 +785,36 @@ Show.animalLink = function(animal, link_text, language, options) {
   // Gender search requires doing a table search by language.
   var gender = Pandas.gender(animal, language);
   var a = document.createElement('a');
+  // Put the name itself in a span, in case we want to squeeze it width-wise
+  var name_span = document.createElement('span');
   var inner_text = link_text;
   // Use non-breaking dashes
   inner_text.replace('-', "\u2011");
+  var gender_text = "";
+  var trailing_text = "";
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    inner_text = Show.displayChildIcon(gender) + "\xa0" + inner_text;
+    gender_text = Show.displayChildIcon(gender) + "\xa0";
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    inner_text = Show.emoji.mother + "\xa0" + inner_text;
+    gender_text = Show.emoji.mother + "\xa0";
   }
   if (options.indexOf("dad_icon") != -1) {
-    inner_text = Show.emoji.father + "\xa0" + inner_text;
+    gender_text = Show.emoji.father + "\xa0";
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
-    inner_text = inner_text + "\xa0" + "½"
+    trailing_text = trailing_text + "\xa0" + "½"
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.className = "passedAway";
-    inner_text = inner_text + "\xa0" + Show.emoji.died;
+    trailing_text = trailing_text + "\xa0" + Show.emoji.died;
   }
-  a.innerText = inner_text;
+  name_span.innerText = inner_text;
+  a.append(gender_text);
+  a.appendChild(name_span);
+  a.append(trailing_text);
   if (options.indexOf("in_link") != -1) {
     // in_link: that finds a location on the displayed data
     a.href = "#panda" + "_" + animal['_id'];
