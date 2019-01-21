@@ -2,6 +2,10 @@ html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
 }
 
+span {
+    letter-spacing: -10px;
+}
+
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
@@ -10,7 +14,6 @@ body {
     font-size: 14pt;
     font-family: "Jun 201", sans-serif;
     background: #366938;
-    letter-spacing: -3px;
 }
 
 body.profile {
