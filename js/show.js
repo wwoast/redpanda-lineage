@@ -780,7 +780,7 @@ Show.animalLink = function(animal, link_text, language, options) {
     if (options.indexOf("dad_icon") != -1) {
       alien = Show.emoji.star_dad;
     }
-    return Show.emptyLink(alien + "\u2009" + link_text);
+    return Show.emptyLink(alien + "\xa0" + link_text);
   }
 
   // Set up values for other functions working properly
@@ -797,14 +797,14 @@ Show.animalLink = function(animal, link_text, language, options) {
   var trailing_text = "";
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    gender_text = Show.displayChildIcon(gender) + "\u2009";
+    gender_text = Show.displayChildIcon(gender) + "\xa0";
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    gender_text = Show.emoji.mother + "\u2009";
+    gender_text = Show.emoji.mother + "\xa0";
   }
   if (options.indexOf("dad_icon") != -1) {
-    gender_text = Show.emoji.father + "\u2009";
+    gender_text = Show.emoji.father + "\xa0";
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {

@@ -136,14 +136,12 @@ Layout.recomputeHeight = function(e) {
 // Look for span elements that are children of links, in the family bars.
 // Any of these that are displayed in the page larger than 100px, need to get shrunk.
 Layout.shrinkNames = function() {
-  if (window.matchMedia("(max-width: 670px)").matches == false) {
-    return;
-  }
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   for (let link of link_nodes) {
     var span = link.childNodes[1];
     if (span.offsetWidth > 95) {
       span.classList.add("ultraCondensed");
+      span.classList.remove("condensed");
     } else if (span.offsetWidth > 75) {
       span.classList.add("condensed");
     }
