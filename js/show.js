@@ -24,7 +24,6 @@ var Q;   // Query stack
 var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
-var F;   // Layout tools for list visual optimization
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -1404,16 +1403,16 @@ Show.displayPhotoPreload = function(entity_id, photo_id) {
 // Touchable carousels for every loaded photo.
 Show.displayPhotoTouch = function(photo) {
   photo.addEventListener('touchstart', function(event) {
-    Touch.start(event, T, photo.id);
+    T.start(event, photo.id);
   }, true);
   photo.addEventListener('touchend', function(event) {
-    Touch.end(event, T);
+    T.end(event);
   }, true);
   photo.addEventListener('touchmove', function(event) {
-    Touch.move(event, T);
+    T.move(event);
   }, true);
   photo.addEventListener('touchcancel', function(event) {
-    Touch.cancel(T);
+    T.cancel();
   }, true);
 }
 
