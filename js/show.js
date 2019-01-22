@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", function() {
   T = Touch.init();
   G = Dagoba.graph();
 
-  Language.default(L);     // Set default language
+  L.default();     // Set default language
   checkHashes();           // See if we started on the links or about pages
-  Language.update(L);      // Update buttons, displayed results, and cookie state
+  L.update();      // Update buttons, displayed results, and cookie state
   redrawPage(Show.page);   // Ready to redraw? Let's go.
 
   // Once the panda data is loaded, create the graph
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
     choice = (choice + 1) % options.length;
     var new_language = options[choice];
     L.display = new_language;
-    Language.update(L, Show.page);
+    L.update();
     redrawPage(Show.page);
   });  
 

@@ -15,66 +15,65 @@ Language.init = function() {
   return language;
 }
 
-// For fallback functions, don't replace these fields
-Language.fallback_blacklist = ["othernames", "nicknames"];
-
 /*
    Language selection functions
 */
 // Map a browser specified language to one of our supported options.
-Language.default = function(lang_object) {
+Language.L.default = function() {
   // Read language settings from browser's Accept-Language header
   Object.keys(Pandas.def.languages).forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
-        (lang_object.display == undefined)) {
-      lang_object.display = Pandas.def.languages[option];
+        (this.display == undefined)) {
+      this.display = Pandas.def.languages[option];
     }
   });
   // Read language cookie if it's there
-  var test = lang_object.storage.getItem("language");
+  var test = this.storage.getItem("language");
   if (test != null) {
     if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
-      lang_object.display = test;
+      this.display = test;
     }
   }  
   // Fallback to English
-  if (lang_object.display == undefined) {
-    lang_object.display = "en";
+  if (this.display == undefined) {
+    this.display = "en";
   }
 }
 
 // Update all GUI elements based on the currently chosen language
-// For now, just do the language button itself
-Language.update = function(lang_object) {
+Language.L.update = function() {
   var languageButton = document.getElementById('languageButton');
   [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
-  langIcon.innerText = Show.gui.flag[lang_object.display];
-  langText.innerText = Show.gui.language[lang_object.display];
+  langIcon.innerText = Show.gui.flag[this.display];
+  langText.innerText = Show.gui.language[this.display];
   var aboutButton = document.getElementById('aboutButton');
   [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.about[lang_object.display];
+  langText.innerText = Show.gui.about[this.display];
   var randomButton = document.getElementById('randomButton');
   [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.random[lang_object.display];
+  langText.innerText = Show.gui.random[this.display];
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.links[lang_object.display];
+  langText.innerText = Show.gui.links[this.display];
   // Update the placeholder text for a search bar
   if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[lang_object.display];
+    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[this.display];
   } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[lang_object.display];
+    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[this.display];
   }
   // Change the page title
-  document.title = Show.gui.title[lang_object.display];
+  document.title = Show.gui.title[this.display];
   // Write localStorage for your chosen language. This is better than a cookie
   // since the server never has to see what language you're using in each request.
-  lang_object.storage.setItem('language', lang_object.display);
+  this.storage.setItem('language', this.display);
 }
 
 /*
     Language helper and utility functions
 */
+// For fallback functions, don't replace these fields
+Language.fallback_blacklist = ["othernames", "nicknames"];
+
 // Determine if altname is not worth displaying for furigana by calculating
 // its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
 Language.editDistance = function(a, b){
