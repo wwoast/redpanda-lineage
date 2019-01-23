@@ -16,6 +16,178 @@ Language.init = function() {
 }
 
 /*
+   Language elements translatable in the GUI
+*/
+// TODO: do we need localized emojis for various things?
+Language.L.emoji = {
+  "animal": "🐼",
+   "alien": "👽",
+   "arrow": "➡",
+  "author": "✍️",
+"birthday": "🎂",
+    "baby": "👶🏻", 
+    "born": "👼",
+     "boy": "👦🏻",
+  "camera": "📷",
+    "died": "🌈",
+    "edit": "📝",
+  "father": "👨🏻",
+  "female": "♀️",
+    "gift": "🍎",
+    "girl": "👧🏻",
+    "home": "🏡",
+"language": "‍👁️‍🗨️",
+    "link": "🦉",
+    "male": "♂️",
+     "map": "🗺️",
+   "media": "🖼",
+   "money": "💸",
+  "mother": "👩🏻",
+ "no_more": "🚫",
+ "profile": "💟",
+  "random": "🎲",
+  "search": "🔍",
+"star_dad": "👨‍🎤",
+"star_mom": "👩‍🎤",
+   "story": "🎍",
+     "top": "⬆",
+"timeline": "📰",
+  "travel": "✈️",
+ "website": "🌐",
+     "wip": "🚧",
+     "zoo": "🦁"
+}
+
+// TODO: key on other language versions of country names
+Language.L.flags = {
+  "Argentina": "🇦🇷",
+     "Bhutan": "🇧🇹",
+     "Canada": "🇨🇦",
+      "Chile": "🇨🇱",
+      "China": "🇨🇳",
+      "India": "🇮🇳",
+      "Japan": "🇯🇵",
+     "Mexico": "🇲🇽",
+      "Nepal": "🇳🇵",
+"South Korea": "🇰🇷",
+     "Taiwan": "🇹🇼",
+   "Thailand": "🇹🇭",
+        "USA": "🇺🇸"
+}
+
+// TODO: use this.display to auto grab the right emoji for the current language,
+// or allow overriding given an input language provided at the function call
+Language.L.gui = {
+  "about": {
+    "cn": "關於",
+    "en": "About",
+    "jp": "概要"
+  },
+  "credit": {
+    "cn": "TOWRITE",
+    "en": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           " has contributed ",
+           "<INSERTNUMBER>",
+           " photos."],
+    "jp": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "は",
+           "<INSERTNUMBER>",
+           "枚の写真を寄稿しました。"]
+  },
+  "children": {
+    "cn": Pandas.def.relations.children["cn"],
+    "en": "Children",   // Capitalization
+    "jp": Pandas.def.relations.children["jp"]
+  },
+  "flag": {
+    "cn": Language.L.flags["China"],
+    "en": Language.L.flags["USA"],
+    "jp": Language.L.flags["Japan"]
+  },
+  "footer": {
+    "cn": "TOWRITE",
+    "en": ["All information courtesy of the ",
+           "<INSERTLINK>",
+           " and red panda fans worldwide. ",
+          "Any media linked from this dataset remains property of its creator. ",
+          "Layout and design © 2018 Justin Fairchild."],
+    "jp": ["<INSERTLINK>", 
+           "、世界中のレッサーパンダファンのすべての情報提供。",
+           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
+           "設計©2018 Justin Fairchild"]
+  },
+  "footerLink": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Lineage",
+    "jp": "Red Panda Lineage"
+  },
+  "home": {
+    "cn": "TOWRITE",
+    "en": "Home",
+    "jp": "ホメパゲ"
+  },
+  "language": {
+    "cn": "漢語",
+    "en": "English",
+    "jp": "日本語"
+  },
+  "loading": {
+    "cn": "Loading...",
+    "en": "Loading...",
+    "jp": "ローディング"
+  },
+  "litter": {
+    "cn": Pandas.def.relations.litter["cn"],
+    "en": "Litter",   // Capitalization
+    "jp": Pandas.def.relations.litter["jp"]
+  },
+  "links": {
+    "cn": "鏈接",
+    "en": "Links",
+    "jp": "リンク"
+  },
+  "parents": {
+    "cn": Pandas.def.relations.parents["cn"],
+    "en": "Parents",   // Capitalization
+    "jp": Pandas.def.relations.parents["jp"]
+  },
+  "random": {
+    "cn": "隨機",
+    "en": "Random",
+    "jp": "適当"
+  },
+  "search": {
+    "cn": "Search...",
+    "en": "Search...",
+    "jp": "サーチ..."
+  },
+  "siblings": {
+    "cn": Pandas.def.relations.siblings["cn"],
+    "en": "Siblings",   // Capitalization
+    "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "title": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Finder",
+    "jp": "レッサーパンダのファインダー"
+  },
+  "top": {
+    "cn": "TOWRITE",
+    "en": "Top",
+    "jp": "上"
+  }
+}
+
+// TODO: fold into Language.L.gui
+Language.L.no_result = {
+  "cn": "沒有發現熊貓",
+  "en": "No Pandas Found",
+  "jp": "パンダが見つかりません"
+}
+
+/*
    Language selection functions
 */
 // Map a browser specified language to one of our supported options.
@@ -127,25 +299,25 @@ Language.L.fallbackInfo = function(info, original) {
 Language.L.update = function() {
   var languageButton = document.getElementById('languageButton');
   [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
-  langIcon.innerText = Show.gui.flag[this.display];
-  langText.innerText = Show.gui.language[this.display];
+  langIcon.innerText = this.gui.flag[this.display];
+  langText.innerText = this.gui.language[this.display];
   var aboutButton = document.getElementById('aboutButton');
   [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.about[this.display];
+  langText.innerText = this.gui.about[this.display];
   var randomButton = document.getElementById('randomButton');
   [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.random[this.display];
+  langText.innerText = this.gui.random[this.display];
   var linksButton = document.getElementById('linksButton');
   [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.links[this.display];
+  langText.innerText = this.gui.links[this.display];
   // Update the placeholder text for a search bar
   if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[this.display];
+    document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
   } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[this.display];
+    document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
   }
   // Change the page title
-  document.title = Show.gui.title[this.display];
+  document.title = this.gui.title[this.display];
   // Write localStorage for your chosen language. This is better than a cookie
   // since the server never has to see what language you're using in each request.
   this.storage.setItem('language', this.display);
@@ -242,5 +414,5 @@ Language.saveInfoKeys = function(info, order) {
     obj[key] = info[key];
     return obj;
   }, {});
-  return filtered;     
+  return filtered;
 }

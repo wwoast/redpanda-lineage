@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     // Enable search bar once the page has loaded
-    var placeholder = "➤ " + Show.gui.search[L.display];
+    var placeholder = "➤ " + L.gui.search[L.display];
     document.forms['searchForm']['searchInput'].disabled = false;
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
     document.getElementById('searchInput').focus();  // Set text cursor
@@ -504,175 +504,10 @@ Show.about.content = undefined;    // About page content
 Show.about.language = undefined;   // Language the content was loaded in
 Show.about.loaded = new Event('about_loaded');
 
-Show.emoji = {
-  "animal": "🐼",
-   "alien": "👽",
-   "arrow": "➡",
-  "author": "✍️",
-"birthday": "🎂",
-    "baby": "👶🏻", 
-    "born": "👼",
-     "boy": "👦🏻",
-  "camera": "📷",
-    "died": "🌈",
-    "edit": "📝",
-  "father": "👨🏻",
-  "female": "♀️",
-    "gift": "🍎",
-    "girl": "👧🏻",
-    "home": "🏡",
-"language": "‍👁️‍🗨️",
-    "link": "🦉",
-    "male": "♂️",
-     "map": "🗺️",
-   "media": "🖼",
-   "money": "💸",
-  "mother": "👩🏻",
- "no_more": "🚫",
- "profile": "💟",
-  "random": "🎲",
-  "search": "🔍",
-"star_dad": "👨‍🎤",
-"star_mom": "👩‍🎤",
-   "story": "🎍",
-     "top": "⬆",
-"timeline": "📰",
-  "travel": "✈️",
- "website": "🌐",
-     "wip": "🚧",
-     "zoo": "🦁"
-}
-
-// TODO: key on other language versions of country names
-Show.flags = {
-  "Argentina": "🇦🇷",
-     "Bhutan": "🇧🇹",
-     "Canada": "🇨🇦",
-      "Chile": "🇨🇱",
-      "China": "🇨🇳",
-      "India": "🇮🇳",
-      "Japan": "🇯🇵",
-     "Mexico": "🇲🇽",
-      "Nepal": "🇳🇵",
-"South Korea": "🇰🇷",
-     "Taiwan": "🇹🇼",
-   "Thailand": "🇹🇭",
-        "USA": "🇺🇸"
-}
-
-Show.gui = {
-  "about": {
-    "cn": "關於",
-    "en": "About",
-    "jp": "概要"
-  },
-  "credit": {
-    "cn": "TOWRITE",
-    "en": [Show.emoji.gift + " ",
-           "<INSERTUSER>",
-           " has contributed ",
-           "<INSERTNUMBER>",
-           " photos."],
-    "jp": [Show.emoji.gift + " ",
-           "<INSERTUSER>",
-           "は",
-           "<INSERTNUMBER>",
-           "枚の写真を寄稿しました。"]
-  },
-  "children": {
-    "cn": Pandas.def.relations.children["cn"],
-    "en": "Children",   // Capitalization
-    "jp": Pandas.def.relations.children["jp"]
-  },
-  "flag": {
-    "cn": Show.flags["China"],
-    "en": Show.flags["USA"],
-    "jp": Show.flags["Japan"]
-  },
-  "footer": {
-    "cn": "TOWRITE",
-    "en": ["All information courtesy of the ",
-           "<INSERTLINK>",
-           " and red panda fans worldwide. ",
-          "Any media linked from this dataset remains property of its creator. ",
-          "Layout and design © 2018 Justin Fairchild."],
-    "jp": ["<INSERTLINK>", 
-           "、世界中のレッサーパンダファンのすべての情報提供。",
-           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
-           "設計©2018 Justin Fairchild"]
-  },
-  "footerLink": {
-    "cn": "TOWRITE",
-    "en": "Red Panda Lineage",
-    "jp": "Red Panda Lineage"
-  },
-  "home": {
-    "cn": "TOWRITE",
-    "en": "Home",
-    "jp": "ホメパゲ"
-  },
-  "language": {
-    "cn": "漢語",
-    "en": "English",
-    "jp": "日本語"
-  },
-  "loading": {
-    "cn": "Loading...",
-    "en": "Loading...",
-    "jp": "ローディング"
-  },
-  "litter": {
-    "cn": Pandas.def.relations.litter["cn"],
-    "en": "Litter",   // Capitalization
-    "jp": Pandas.def.relations.litter["jp"]
-  },
-  "links": {
-    "cn": "鏈接",
-    "en": "Links",
-    "jp": "リンク"
-  },
-  "parents": {
-    "cn": Pandas.def.relations.parents["cn"],
-    "en": "Parents",   // Capitalization
-    "jp": Pandas.def.relations.parents["jp"]
-  },
-  "random": {
-    "cn": "隨機",
-    "en": "Random",
-    "jp": "適当"
-  },
-  "search": {
-    "cn": "Search...",
-    "en": "Search...",
-    "jp": "サーチ..."
-  },
-  "siblings": {
-    "cn": Pandas.def.relations.siblings["cn"],
-    "en": "Siblings",   // Capitalization
-    "jp": Pandas.def.relations.siblings["jp"]
-  },
-  "title": {
-    "cn": "TOWRITE",
-    "en": "Red Panda Finder",
-    "jp": "レッサーパンダのファインダー"
-  },
-  "top": {
-    "cn": "TOWRITE",
-    "en": "Top",
-    "jp": "上"
-  }
-}
-
 Show.links = {};
 Show.links.content = undefined;    // Links page content
 Show.links.language = undefined;   // Language the content was loaded in
 Show.links.loaded = new Event('links_loaded');
-
-Show.no_result = {
-  "cn": "沒有發現熊貓",
-  "en": "No Pandas Found",
-  "jp": "パンダが見つかりません"
-}
 
 // Hashlink routes that map to non-search-results content
 Show.routes = {
@@ -772,12 +607,12 @@ Show.animalLink = function(animal, link_text, language, options) {
   // Don't print content if the input id is zero. If these are
   // fill-in links for moms or dads, use the Aladdin Sane icons :)
   if (animal['_id'] == Pandas.def.animal['_id']) {
-    var alien = Show.emoji.alien;
+    var alien = L.emoji.alien;
     if (options.indexOf("mom_icon") != -1) {
-      alien = Show.emoji.star_mom;
+      alien = L.emoji.star_mom;
     }
     if (options.indexOf("dad_icon") != -1) {
-      alien = Show.emoji.star_dad;
+      alien = L.emoji.star_dad;
     }
     return Show.emptyLink(alien + "\xa0" + link_text);
   }
@@ -800,10 +635,10 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
-    gender_text = Show.emoji.mother + "\xa0";
+    gender_text = L.emoji.mother + "\xa0";
   }
   if (options.indexOf("dad_icon") != -1) {
-    gender_text = Show.emoji.father + "\xa0";
+    gender_text = L.emoji.father + "\xa0";
   }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
@@ -811,7 +646,7 @@ Show.animalLink = function(animal, link_text, language, options) {
   }
   if ((options.indexOf("live_icon") != -1) && ("death" in animal)) {
     a.classList.add("passedAway");
-    trailing_text = trailing_text + "\u200A" + Show.emoji.died;
+    trailing_text = trailing_text + "\u200A" + L.emoji.died;
   }
   name_span.innerText = inner_text;
   a.append(gender_text);
@@ -891,17 +726,17 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
   }
   var output_text = desired_text;
   if (options.indexOf("map_icon") != -1) {
-    output_text = Show.emoji.map + " " + output_text;
+    output_text = L.emoji.map + " " + output_text;
   }
   if ("country_flag" in options) {
     // Replace any country names in location details with a flag
-    var countries = Object.keys(Show.flags).filter(function(key) {
+    var countries = Object.keys(L.flags).filter(function(key) {
       if (output_text.indexOf(key) != -1) {
         return key;
       }
     });
     countries.forEach(function(place) {
-      output_text.replace(place, Show.flags[place]);
+      output_text.replace(place, L.flags[place]);
     });
   }
   return output_text;
@@ -915,7 +750,7 @@ Show.locationLink = function(zoo, language) {
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Pandas.def.zoo[language + ".location"];
   }
-  var link_text = Show.emoji.map + " " + Show.flags[zoo.flag];
+  var link_text = L.emoji.map + " " + L.flags[zoo.flag];
   var google_search = zoo['map'];
   var a = document.createElement('a');
   a.href = google_search;
@@ -946,10 +781,10 @@ Show.zooLink = function(zoo, link_text, language, options) {
   var inner_text = link_text;
   // Options processing
   if (options.indexOf("home_icon") != -1) {
-    inner_text = Show.emoji.home + " " + inner_text;
+    inner_text = L.emoji.home + " " + inner_text;
   }
   if (options.indexOf("map_icon") != -1) {
-    inner_text = Show.emoji.map + " " + inner_text;
+    inner_text = L.emoji.map + " " + inner_text;
   }
   a.innerText = inner_text;
   if (options.indexOf("in_link") != -1) {
@@ -993,8 +828,8 @@ Show.bottomMenu = function(language) {
   shrinker.className = "shrinker";
   // Currently there are top and home buttons
   // Top button
-  var top_icon = Show.emoji.top;
-  var top_text = Show.gui.top[language];
+  var top_icon = L.emoji.top;
+  var top_text = L.gui.top[language];
   var top_button = Show.button("topButton", top_icon, top_text);
   top_button.addEventListener("click", function() {
     // anchor tags get used for JS redraws, so don't use an anchor tag for
@@ -1002,8 +837,8 @@ Show.bottomMenu = function(language) {
     window.scrollTo(0, 0);
   });
   // Home button
-  var home_icon = Show.emoji.home;
-  var home_text = Show.gui.home[language];
+  var home_icon = L.emoji.home;
+  var home_text = L.gui.home[language];
   var home_button = Show.button("homeButton", home_icon, home_text);
   // In mobile mode, logo button at the top doesn't exist so add a home button
   // to the footer bar menu.
@@ -1024,8 +859,8 @@ Show.bottomMenu = function(language) {
 // with the correct language
 Show.credit = function(credit, count, language) {
   var p = document.createElement('p');
-  for (var i in Show.gui.credit[language]) {
-    var field = Show.gui.credit[language][i];
+  for (var i in L.gui.credit[language]) {
+    var field = L.gui.credit[language][i];
     if (field == "<INSERTUSER>") {
       field = credit;
       var msg = document.createElement('i');
@@ -1055,7 +890,7 @@ Show.credit = function(credit, count, language) {
 Show.displayEmptyResult = function(language) {
   var message = document.createElement('div');
   message.className = 'overlay';
-  message.innerText = Show.no_result[language];
+  message.innerText = L.no_result[language];
   var image = document.createElement('img');
   image.src = "images/no-panda.jpg";
   var result = document.createElement('div');
@@ -1069,11 +904,11 @@ Show.displayEmptyResult = function(language) {
 // This uses unlocalized m/f/unknown gender values
 Show.displayChildIcon = function(gender) {
   if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
-    return Show.emoji.boy;
+    return L.emoji.boy;
   } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
-    return Show.emoji.girl;
+    return L.emoji.girl;
   } else {
-    return Show.emoji.baby;
+    return L.emoji.baby;
   }
 }
 
@@ -1100,7 +935,7 @@ Show.displayGender = function(info) {
 Show.displayPandaChildren = function(info) {
   var heading = document.createElement('h4');
   heading.className = "childrenHeading" + " " + info.language;
-  heading.innerText = Show.gui.children[info.language];
+  heading.innerText = L.gui.children[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.children)) {
@@ -1123,13 +958,13 @@ Show.displayPandaChildren = function(info) {
 Show.displayPandaDetails = function(info) {
   var language = info.language;
   var born = document.createElement('p');
-  born.innerText = Show.emoji.born + " " + info.birthday;
+  born.innerText = L.emoji.born + " " + info.birthday;
   // If still alive, print their current age
   var second = document.createElement ('p');
   if (info.death == Pandas.def.unknown[language]) {
     second.innerText = "(" + info.age + ")";
   } else {
-    second.innerText = Show.emoji.died + " " + info.death;
+    second.innerText = L.emoji.died + " " + info.death;
   }
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
@@ -1146,7 +981,7 @@ Show.displayPandaDetails = function(info) {
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
   credit_link.target = "_blank";   // Open in new tab
-  credit_link.innerText = Show.emoji.camera + " " + info.photo_credit;
+  credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
   var credit = document.createElement('p');
   credit.appendChild(credit_link);
   var details = document.createElement('div');
@@ -1164,7 +999,7 @@ Show.displayPandaDetails = function(info) {
     var credit_count_link = document.createElement('a');
     credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
     credit_count_link.href = "#credit/" + info.photo_credit;
-    credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
     other_photos.appendChild(credit_count_link);
     details.appendChild(other_photos);
   }
@@ -1211,7 +1046,7 @@ Show.displayPandaLitter = function(info) {
   var heading = document.createElement('h4');
   heading.className = "litterHeading" + " " + info.language;
   heading.classList.add(language);
-  heading.innerText = Show.gui.litter[info.language];
+  heading.innerText = L.gui.litter[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.litter)) {
@@ -1233,7 +1068,7 @@ Show.displayPandaLitter = function(info) {
 Show.displayPandaParents = function(info) {
   var heading = document.createElement('h4');
   heading.className = "parentsHeading" + " " + info.language;
-  heading.innerText = Show.gui.parents[info.language];
+  heading.innerText = L.gui.parents[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   var mom_li = document.createElement('li');
@@ -1269,7 +1104,7 @@ Show.displayPandaParents = function(info) {
 Show.displayPandaSiblings = function(info) {
   var heading = document.createElement('h4');
   heading.className = "siblingsHeading" + " " + info.language;
-  heading.innerText = Show.gui.siblings[info.language];
+  heading.innerText = L.gui.siblings[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
@@ -1359,7 +1194,7 @@ Show.displayPhotoNavigation = function(animal_id, photo_id) {
   span.className = "navigator";
   // Clickable dogears when you have a carousel of more than one photo
   if (Show.photoCount(animal_id) < 2) {
-    span.innerText = Show.emoji.no_more;
+    span.innerText = L.emoji.no_more;
   } else {
     span.innerText = photo_id;
     span_link.addEventListener('click', function() {  // Left click event
@@ -1436,10 +1271,10 @@ Show.displayZooDetails = function(info) {
       "頭の記録があります)"
     ].join('')
   }
-  counts.innerText = Show.emoji.animal + " " + count_text[language];
+  counts.innerText = L.emoji.animal + " " + count_text[language];
   var address = document.createElement('p');
   var address_link = document.createElement('a');
-  address_link.innerText = Show.emoji.travel + " " + info.address;
+  address_link.innerText = L.emoji.travel + " " + info.address;
   address_link.href = info.map;
   address_link.target = "_blank";   // Open in new tab
   address.appendChild(address_link);
@@ -1447,7 +1282,7 @@ Show.displayZooDetails = function(info) {
   var zoo_link = document.createElement('a');
   zoo_link.href = info.website;
   zoo_link.target = "_blank";   // Open in new tab
-  zoo_link.innerText = Show.emoji.website + " " + info.name;
+  zoo_link.innerText = L.emoji.website + " " + info.name;
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
@@ -1460,14 +1295,14 @@ Show.displayZooDetails = function(info) {
     var photo_page = document.createElement('p');
     var photo_link = document.createElement('a');
     photo_link.href = info.photo_link;
-    photo_link.innerText = Show.emoji.camera + " " + info.photo_credit;
+    photo_link.innerText = L.emoji.camera + " " + info.photo_credit;
     photo_page.appendChild(photo_link);
     details.appendChild(photo_page);
     // See how many other panda photos this user has posted
     var other_photos = document.createElement('p');
     var credit_count_link = document.createElement('a');
     credit_count_link.href = "#credit/" + info.photo_credit;
-    credit_count_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
     other_photos.appendChild(credit_count_link);
     details.appendChild(other_photos);
   }
@@ -1489,12 +1324,12 @@ Show.displayZooTitle = function(info) {
 // Draw a footer with the correct language
 Show.footer = function(language) {
   var p = document.createElement('p');
-  for (var i in Show.gui.footer[language]) {
-    var field = Show.gui.footer[language][i];
+  for (var i in L.gui.footer[language]) {
+    var field = L.gui.footer[language][i];
     if (field == "<INSERTLINK>") {
       var rpl = document.createElement('a');
       rpl.href = "https://github.com/wwoast/redpanda-lineage";
-      rpl.innerText = Show.gui.footerLink[language];
+      rpl.innerText = L.gui.footerLink[language];
       p.appendChild(rpl);
     } else {
       var msg = document.createTextNode(field);
@@ -1638,12 +1473,12 @@ Show.photoSwap = function(photo, desired_index) {
   credit_link.id = animal_id + "/author/" + new_index;
   credit_link.href = photo_info["link"];
   credit_link.target = "_blank";   // Open in new tab
-  credit_link.innerText = Show.emoji.camera + " " + photo_info["credit"];
+  credit_link.innerText = L.emoji.camera + " " + photo_info["credit"];
   // And the photographer credit's apple points
   var apple_link = document.getElementById(animal_id + "/counts/" + photo_id);
   apple_link.id = animal_id + "/counts/" + new_index;
   apple_link.href = "#credit/" + photo_info["credit"];
-  apple_link.innerText = Show.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
+  apple_link.innerText = L.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
 }
 
 // Display information for a zoo relevant to the red pandas
