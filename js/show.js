@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   L.default();     // Set default language
-  checkHashes();           // See if we started on the links or about pages
+  checkHashes();   // See if we started on the links or about pages
   L.update();      // Update buttons, displayed results, and cookie state
   redrawPage(Show.page);   // Ready to redraw? Let's go.
 
