@@ -40,6 +40,89 @@ Language.L.default = function() {
   }
 }
 
+// Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
+Language.L.fallbackEntity = function(entity) {
+  var output = entity;
+  var order = Language.currentOrder(Pandas.language_order(entity), this.display);
+  // Default values that we want to ignore if we can
+  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
+  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
+  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+                                .concat(Object.values(default_animal))
+                                .concat(Object.values(default_zoo));
+  // Derive the zoo/panda language-translatable keys by getting a list of
+  // the separate language keys from the original object, and adding a
+  // synthetic list of keys that would apply for the current display language
+  var language_entity = Language.listDisplayKeys(entity, order, this.display);
+  // Start replacing this language's value with an available value in the
+  // language.order list. Just stuff it in the original entity's key.
+  for (var key of language_entity) {
+    if (Language.fallback_blacklist.indexOf(key) != -1) {
+      continue;  // Ignore blacklist fields
+    }
+    if (empty_values.indexOf(entity[key]) != -1) {
+      for (language of order) {
+        if (language == L.display) {
+          continue;  // Don't take replacement values from current language
+        }
+        [ _, desired ] = key.split('.');
+        var new_key = language + "." + desired;
+        if (empty_values.indexOf(entity[new_key]) == -1) {
+          // Put this language's value in the displayed output
+          output[key] = entity[new_key];
+          break;
+        }
+      } // If no available non-empty strings in other languages, do nothing
+    }
+  }
+  return output;
+}
+
+// Do language fallback for anything reporting as "unknown" or "empty" in an info block
+Language.L.fallbackInfo = function(info, original) {
+  var bundle = info;
+  var order = Language.currentOrder(info.language_order, this.display);
+  // Default values that we want to ignore if we can
+  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
+  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
+  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+                                .concat(Object.values(default_animal))
+                                .concat(Object.values(default_zoo));
+  // Derive the info-block language-translatable keys by getting a list of
+  // the separate language keys from the original object, slicing off
+  // the lanugage prefix, and de-duplicating.
+  var language_info = Language.listInfoKeys(original, order);
+  // Start replacing this language's value with an available value in the
+  // language.order list. Just stuff it in the original info blob's key.
+  for (var key of language_info) {
+    if (Language.fallback_blacklist.indexOf(key) != -1) {
+      continue;  // Ignore blacklist fields
+    }
+    if (empty_values.indexOf(info[key]) != -1) {
+      for (language of order) {
+        if (language == this.display) {
+          continue;  // Don't take replacement values from current language
+        }
+        var new_key = language + "." + key;
+        if (empty_values.indexOf(original[new_key]) == -1) {
+          // Put this language's value in the displayed output
+          bundle[key] = original[new_key];
+          break;
+        }
+      } // If no available non-empty strings in other languages, do nothing
+    }
+  }
+
+  // Replace nested zoo or birthplace text for panda entities similarly
+  if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
+    bundle.zoo = this.fallbackEntity(info.zoo);
+  }
+  if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
+    bundle.birthplace = this.fallbackEntity(info.birthplace);
+  }
+  return bundle;
+}
+
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
   var languageButton = document.getElementById('languageButton');
@@ -71,8 +154,14 @@ Language.L.update = function() {
 /*
     Language helper and utility functions
 */
-// For fallback functions, don't replace these fields
-Language.fallback_blacklist = ["othernames", "nicknames"];
+// Calculate the current fallback language order for a given info block or entity.
+// Key here is adding the current display language to the list, so that if a dataset
+// doesn't include info for a language, we can overwrite that info anyways!
+Language.currentOrder = function(current_list, current_language) {
+  return current_list.concat(current_language).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Remove duplicates in the array
+  });
+}
 
 // Determine if altname is not worth displaying for furigana by calculating
 // its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
@@ -95,100 +184,8 @@ Language.editDistance = function(a, b){
   return m[b.length][a.length];
 };
 
-/*
-    Fallback Language functions
-*/
-// Calculate the current fallback language order for a given info block or entity.
-// Key here is adding the current display language to the list, so that if a dataset
-// doesn't include info for a language, we can overwrite that info anyways!
-Language.currentOrder = function(current_list, current_language) {
-  return current_list.concat(current_language).filter(function(value, index, self) { 
-    return self.indexOf(value) === index;  // Remove duplicates in the array
-  });
-}
-
-// Do language fallback for anything reporting as "unknown" or "empty" in an info block
-Language.fallbackInfo = function(info, original) {
-  var bundle = info;
-  var order = Language.currentOrder(info.language_order, L.display);
-  // Default values that we want to ignore if we can
-  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
-  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
-  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
-                                .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo));
-  // Derive the info-block language-translatable keys by getting a list of
-  // the separate language keys from the original object, slicing off
-  // the lanugage prefix, and de-duplicating.
-  var language_info = Language.listInfoKeys(original, order);
-  // Start replacing this language's value with an available value in the
-  // language.order list. Just stuff it in the original info blob's key.
-  for (var key of language_info) {
-    if (Language.fallback_blacklist.indexOf(key) != -1) {
-      continue;  // Ignore blacklist fields
-    }
-    if (empty_values.indexOf(info[key]) != -1) {
-      for (language of order) {
-        if (language == L.display) {
-          continue;  // Don't take replacement values from current language
-        }
-        var new_key = language + "." + key;
-        if (empty_values.indexOf(original[new_key]) == -1) {
-          // Put this language's value in the displayed output
-          bundle[key] = original[new_key];
-          break;
-        }
-      } // If no available non-empty strings in other languages, do nothing
-    }
-  }
-
-  // Replace nested zoo or birthplace text for panda entities similarly
-  if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
-    bundle.zoo = Language.fallbackEntity(info.zoo);
-  }
-  if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
-    bundle.birthplace = Language.fallbackEntity(info.birthplace);
-  }
-  return bundle;
-}
-
-// Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
-Language.fallbackEntity = function(entity) {
-  var output = entity;
-  var order = Language.currentOrder(Pandas.language_order(entity), L.display);
-  // Default values that we want to ignore if we can
-  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
-  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
-  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
-                                .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo));
-  // Derive the zoo/panda language-translatable keys by getting a list of
-  // the separate language keys from the original object, and adding a
-  // synthetic list of keys that would apply for the current display language
-  var language_entity = Language.listDisplayKeys(entity, order, L.display);
-  // Start replacing this language's value with an available value in the
-  // language.order list. Just stuff it in the original entity's key.
-  for (var key of language_entity) {
-    if (Language.fallback_blacklist.indexOf(key) != -1) {
-      continue;  // Ignore blacklist fields
-    }
-    if (empty_values.indexOf(entity[key]) != -1) {
-      for (language of order) {
-        if (language == L.display) {
-          continue;  // Don't take replacement values from current language
-        }
-        [ _, desired ] = key.split('.');
-        var new_key = language + "." + desired;
-        if (empty_values.indexOf(entity[new_key]) == -1) {
-          // Put this language's value in the displayed output
-          output[key] = entity[new_key];
-          break;
-        }
-      } // If no available non-empty strings in other languages, do nothing
-    }
-  }
-  return output;
-}
+// For fallback functions, don't replace these fields
+Language.fallback_blacklist = ["othernames", "nicknames"];
 
 // Given a list of keys we're doing language translations for, add a set
 // for the current displayed language
