@@ -120,10 +120,10 @@ Touch.T.process = function() {
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
   if (this.swipeDirection == 'right') {
-    Show.photoPrevious(animal_id);
+    Photos.photoPrevious(animal_id);
     Show.fade(navigator);
   } else if (this.swipeDirection == 'left') {
-    Show.photoNext(animal_id);
+    Photos.photoNext(animal_id);
     Show.fade(navigator);
   }
 }
