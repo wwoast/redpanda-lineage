@@ -15,148 +15,207 @@ Language.init = function() {
   return language;
 }
 
-// For fallback functions, don't replace these fields
-Language.fallback_blacklist = ["othernames", "nicknames"];
+/*
+   Language elements translatable in the GUI
+*/
+// TODO: do we need localized emojis for various things?
+Language.L.emoji = {
+  "animal": "🐼",
+   "alien": "👽",
+   "arrow": "➡",
+  "author": "✍️",
+"birthday": "🎂",
+    "baby": "👶🏻", 
+    "born": "👼",
+     "boy": "👦🏻",
+  "camera": "📷",
+    "died": "🌈",
+    "edit": "📝",
+  "father": "👨🏻",
+  "female": "♀️",
+    "gift": "🍎",
+    "girl": "👧🏻",
+    "home": "🏡",
+"language": "‍👁️‍🗨️",
+    "link": "🦉",
+    "male": "♂️",
+     "map": "🗺️",
+   "media": "🖼",
+   "money": "💸",
+  "mother": "👩🏻",
+ "no_more": "🚫",
+ "profile": "💟",
+  "random": "🎲",
+  "search": "🔍",
+"star_dad": "👨‍🎤",
+"star_mom": "👩‍🎤",
+   "story": "🎍",
+     "top": "⬆",
+"timeline": "📰",
+  "travel": "✈️",
+ "website": "🌐",
+     "wip": "🚧",
+     "zoo": "🦁"
+}
+
+// TODO: key on other language versions of country names
+Language.L.flags = {
+  "Argentina": "🇦🇷",
+     "Bhutan": "🇧🇹",
+     "Canada": "🇨🇦",
+      "Chile": "🇨🇱",
+      "China": "🇨🇳",
+      "India": "🇮🇳",
+      "Japan": "🇯🇵",
+     "Mexico": "🇲🇽",
+      "Nepal": "🇳🇵",
+"South Korea": "🇰🇷",
+     "Taiwan": "🇹🇼",
+   "Thailand": "🇹🇭",
+        "USA": "🇺🇸"
+}
+
+// TODO: use this.display to auto grab the right emoji for the current language,
+// or allow overriding given an input language provided at the function call
+Language.L.gui = {
+  "about": {
+    "cn": "關於",
+    "en": "About",
+    "jp": "概要"
+  },
+  "credit": {
+    "cn": "TOWRITE",
+    "en": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           " has contributed ",
+           "<INSERTNUMBER>",
+           " photos."],
+    "jp": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "は",
+           "<INSERTNUMBER>",
+           "枚の写真を寄稿しました。"]
+  },
+  "children": {
+    "cn": Pandas.def.relations.children["cn"],
+    "en": "Children",   // Capitalization
+    "jp": Pandas.def.relations.children["jp"]
+  },
+  "flag": {
+    "cn": Language.L.flags["China"],
+    "en": Language.L.flags["USA"],
+    "jp": Language.L.flags["Japan"]
+  },
+  "footer": {
+    "cn": "TOWRITE",
+    "en": ["All information courtesy of the ",
+           "<INSERTLINK>",
+           " and red panda fans worldwide. ",
+          "Any media linked from this dataset remains property of its creator. ",
+          "Layout and design © 2018 Justin Fairchild."],
+    "jp": ["<INSERTLINK>", 
+           "、世界中のレッサーパンダファンのすべての情報提供。",
+           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
+           "設計©2018 Justin Fairchild"]
+  },
+  "footerLink": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Lineage",
+    "jp": "Red Panda Lineage"
+  },
+  "home": {
+    "cn": "TOWRITE",
+    "en": "Home",
+    "jp": "ホメパゲ"
+  },
+  "language": {
+    "cn": "漢語",
+    "en": "English",
+    "jp": "日本語"
+  },
+  "loading": {
+    "cn": "Loading...",
+    "en": "Loading...",
+    "jp": "ローディング"
+  },
+  "litter": {
+    "cn": Pandas.def.relations.litter["cn"],
+    "en": "Litter",   // Capitalization
+    "jp": Pandas.def.relations.litter["jp"]
+  },
+  "links": {
+    "cn": "鏈接",
+    "en": "Links",
+    "jp": "リンク"
+  },
+  "parents": {
+    "cn": Pandas.def.relations.parents["cn"],
+    "en": "Parents",   // Capitalization
+    "jp": Pandas.def.relations.parents["jp"]
+  },
+  "random": {
+    "cn": "隨機",
+    "en": "Random",
+    "jp": "適当"
+  },
+  "search": {
+    "cn": "Search...",
+    "en": "Search...",
+    "jp": "サーチ..."
+  },
+  "siblings": {
+    "cn": Pandas.def.relations.siblings["cn"],
+    "en": "Siblings",   // Capitalization
+    "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "title": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Finder",
+    "jp": "レッサーパンダのファインダー"
+  },
+  "top": {
+    "cn": "TOWRITE",
+    "en": "Top",
+    "jp": "上"
+  }
+}
+
+// TODO: fold into Language.L.gui
+Language.L.no_result = {
+  "cn": "沒有發現熊貓",
+  "en": "No Pandas Found",
+  "jp": "パンダが見つかりません"
+}
 
 /*
    Language selection functions
 */
 // Map a browser specified language to one of our supported options.
-Language.default = function(lang_object) {
+Language.L.default = function() {
   // Read language settings from browser's Accept-Language header
   Object.keys(Pandas.def.languages).forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
-        (lang_object.display == undefined)) {
-      lang_object.display = Pandas.def.languages[option];
+        (this.display == undefined)) {
+      this.display = Pandas.def.languages[option];
     }
   });
   // Read language cookie if it's there
-  var test = lang_object.storage.getItem("language");
+  var test = this.storage.getItem("language");
   if (test != null) {
     if (Object.values(Pandas.def.languages).indexOf(test) != -1) {
-      lang_object.display = test;
+      this.display = test;
     }
   }  
   // Fallback to English
-  if (lang_object.display == undefined) {
-    lang_object.display = "en";
+  if (this.display == undefined) {
+    this.display = "en";
   }
-}
-
-// Update all GUI elements based on the currently chosen language
-// For now, just do the language button itself
-Language.update = function(lang_object) {
-  var languageButton = document.getElementById('languageButton');
-  [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
-  langIcon.innerText = Show.gui.flag[lang_object.display];
-  langText.innerText = Show.gui.language[lang_object.display];
-  var aboutButton = document.getElementById('aboutButton');
-  [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.about[lang_object.display];
-  var randomButton = document.getElementById('randomButton');
-  [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.random[lang_object.display];
-  var linksButton = document.getElementById('linksButton');
-  [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
-  langText.innerText = Show.gui.links[lang_object.display];
-  // Update the placeholder text for a search bar
-  if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = Show.gui.loading[lang_object.display];
-  } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + Show.gui.search[lang_object.display];
-  }
-  // Change the page title
-  document.title = Show.gui.title[lang_object.display];
-  // Write localStorage for your chosen language. This is better than a cookie
-  // since the server never has to see what language you're using in each request.
-  lang_object.storage.setItem('language', lang_object.display);
-}
-
-/*
-    Language helper and utility functions
-*/
-// Determine if altname is not worth displaying for furigana by calculating
-// its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
-Language.editDistance = function(a, b){
-  if(!a || !b) return (a || b).length;
-  var m = [];
-  for(var i = 0; i <= b.length; i++){
-    m[i] = [i];
-    if(i === 0) continue;
-    for(var j = 0; j <= a.length; j++){
-      m[0][j] = j;
-      if(j === 0) continue;
-      m[i][j] = b.charAt(i - 1) == a.charAt(j - 1) ? m[i - 1][j - 1] : Math.min(
-        m[i-1][j-1] + 1,
-        m[i][j-1] + 1,
-        m[i-1][j] + 1
-      );
-    }
-  }
-  return m[b.length][a.length];
-};
-
-/*
-    Fallback Language functions
-*/
-// Calculate the current fallback language order for a given info block or entity.
-// Key here is adding the current display language to the list, so that if a dataset
-// doesn't include info for a language, we can overwrite that info anyways!
-Language.currentOrder = function(current_list, current_language) {
-  return current_list.concat(current_language).filter(function(value, index, self) { 
-    return self.indexOf(value) === index;  // Remove duplicates in the array
-  });
-}
-
-// Do language fallback for anything reporting as "unknown" or "empty" in an info block
-Language.fallbackInfo = function(info, original) {
-  var bundle = info;
-  var order = Language.currentOrder(info.language_order, L.display);
-  // Default values that we want to ignore if we can
-  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
-  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
-  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
-                                .concat(Object.values(default_animal))
-                                .concat(Object.values(default_zoo));
-  // Derive the info-block language-translatable keys by getting a list of
-  // the separate language keys from the original object, slicing off
-  // the lanugage prefix, and de-duplicating.
-  var language_info = Language.listInfoKeys(original, order);
-  // Start replacing this language's value with an available value in the
-  // language.order list. Just stuff it in the original info blob's key.
-  for (var key of language_info) {
-    if (Language.fallback_blacklist.indexOf(key) != -1) {
-      continue;  // Ignore blacklist fields
-    }
-    if (empty_values.indexOf(info[key]) != -1) {
-      for (language of order) {
-        if (language == L.display) {
-          continue;  // Don't take replacement values from current language
-        }
-        var new_key = language + "." + key;
-        if (empty_values.indexOf(original[new_key]) == -1) {
-          // Put this language's value in the displayed output
-          bundle[key] = original[new_key];
-          break;
-        }
-      } // If no available non-empty strings in other languages, do nothing
-    }
-  }
-
-  // Replace nested zoo or birthplace text for panda entities similarly
-  if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
-    bundle.zoo = Language.fallbackEntity(info.zoo);
-  }
-  if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
-    bundle.birthplace = Language.fallbackEntity(info.birthplace);
-  }
-  return bundle;
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
-Language.fallbackEntity = function(entity) {
+Language.L.fallbackEntity = function(entity) {
   var output = entity;
-  var order = Language.currentOrder(Pandas.language_order(entity), L.display);
+  var order = Language.currentOrder(Pandas.language_order(entity), this.display);
   // Default values that we want to ignore if we can
   var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
   var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
@@ -166,7 +225,7 @@ Language.fallbackEntity = function(entity) {
   // Derive the zoo/panda language-translatable keys by getting a list of
   // the separate language keys from the original object, and adding a
   // synthetic list of keys that would apply for the current display language
-  var language_entity = Language.listDisplayKeys(entity, order, L.display);
+  var language_entity = Language.listDisplayKeys(entity, order, this.display);
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
   for (var key of language_entity) {
@@ -190,6 +249,115 @@ Language.fallbackEntity = function(entity) {
   }
   return output;
 }
+
+// Do language fallback for anything reporting as "unknown" or "empty" in an info block
+Language.L.fallbackInfo = function(info, original) {
+  var bundle = info;
+  var order = Language.currentOrder(info.language_order, this.display);
+  // Default values that we want to ignore if we can
+  var default_animal = Language.saveEntityKeys(Pandas.def.animal, order);
+  var default_zoo = Language.saveEntityKeys(Pandas.def.zoo, order);
+  var empty_values = [undefined].concat(Object.values(Pandas.def.unknown))
+                                .concat(Object.values(default_animal))
+                                .concat(Object.values(default_zoo));
+  // Derive the info-block language-translatable keys by getting a list of
+  // the separate language keys from the original object, slicing off
+  // the lanugage prefix, and de-duplicating.
+  var language_info = Language.listInfoKeys(original, order);
+  // Start replacing this language's value with an available value in the
+  // language.order list. Just stuff it in the original info blob's key.
+  for (var key of language_info) {
+    if (Language.fallback_blacklist.indexOf(key) != -1) {
+      continue;  // Ignore blacklist fields
+    }
+    if (empty_values.indexOf(info[key]) != -1) {
+      for (language of order) {
+        if (language == this.display) {
+          continue;  // Don't take replacement values from current language
+        }
+        var new_key = language + "." + key;
+        if (empty_values.indexOf(original[new_key]) == -1) {
+          // Put this language's value in the displayed output
+          bundle[key] = original[new_key];
+          break;
+        }
+      } // If no available non-empty strings in other languages, do nothing
+    }
+  }
+
+  // Replace nested zoo or birthplace text for panda entities similarly
+  if ((info.zoo != undefined) && (info.zoo != Pandas.def.zoo)) {
+    bundle.zoo = this.fallbackEntity(info.zoo);
+  }
+  if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
+    bundle.birthplace = this.fallbackEntity(info.birthplace);
+  }
+  return bundle;
+}
+
+// Update all GUI elements based on the currently chosen language
+Language.L.update = function() {
+  var languageButton = document.getElementById('languageButton');
+  [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
+  langIcon.innerText = this.gui.flag[this.display];
+  langText.innerText = this.gui.language[this.display];
+  var aboutButton = document.getElementById('aboutButton');
+  [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
+  langText.innerText = this.gui.about[this.display];
+  var randomButton = document.getElementById('randomButton');
+  [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
+  langText.innerText = this.gui.random[this.display];
+  var linksButton = document.getElementById('linksButton');
+  [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
+  langText.innerText = this.gui.links[this.display];
+  // Update the placeholder text for a search bar
+  if (P.db == undefined) {
+    document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
+  } else {
+    document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
+  }
+  // Change the page title
+  document.title = this.gui.title[this.display];
+  // Write localStorage for your chosen language. This is better than a cookie
+  // since the server never has to see what language you're using in each request.
+  this.storage.setItem('language', this.display);
+}
+
+/*
+    Language helper and utility functions
+*/
+// Calculate the current fallback language order for a given info block or entity.
+// Key here is adding the current display language to the list, so that if a dataset
+// doesn't include info for a language, we can overwrite that info anyways!
+Language.currentOrder = function(current_list, current_language) {
+  return current_list.concat(current_language).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Remove duplicates in the array
+  });
+}
+
+// Determine if altname is not worth displaying for furigana by calculating
+// its Levenshtein distance. Courtesy of https://gist.github.com/rd4k1
+Language.editDistance = function(a, b){
+  if(!a || !b) return (a || b).length;
+  var m = [];
+  for(var i = 0; i <= b.length; i++){
+    m[i] = [i];
+    if(i === 0) continue;
+    for(var j = 0; j <= a.length; j++){
+      m[0][j] = j;
+      if(j === 0) continue;
+      m[i][j] = b.charAt(i - 1) == a.charAt(j - 1) ? m[i - 1][j - 1] : Math.min(
+        m[i-1][j-1] + 1,
+        m[i][j-1] + 1,
+        m[i-1][j] + 1
+      );
+    }
+  }
+  return m[b.length][a.length];
+};
+
+// For fallback functions, don't replace these fields
+Language.fallback_blacklist = ["othernames", "nicknames"];
 
 // Given a list of keys we're doing language translations for, add a set
 // for the current displayed language
@@ -246,5 +414,5 @@ Language.saveInfoKeys = function(info, order) {
     obj[key] = info[key];
     return obj;
   }, {});
-  return filtered;     
+  return filtered;
 }
