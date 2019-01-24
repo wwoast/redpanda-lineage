@@ -147,16 +147,16 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   } else {
     var new_index = desired_index;
   }
-  var chosen = "photo." + new_index.toString();
-  var new_choice = photo_manifest[chosen];
-  var new_container = this.displayPhoto(new_choice, animal_id, new_index.toString());
-  var new_photo = new_container.childNodes[0];
   // Replace the span navigation id if we have an actual carousel
   if (max_index > 1) {
     span_link.childNodes[0].innerText = new_index.toString();
   } else {
     return;  // No carousel, no need to actually swap photos
   }
+  var chosen = "photo." + new_index.toString();
+  var new_choice = photo_manifest[chosen];
+  var new_container = this.displayPhoto(new_choice, animal_id, new_index.toString());
+  var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
   photo.id = new_photo.id;
