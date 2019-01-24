@@ -369,7 +369,7 @@ function outputSearchResultPhotos(results) {
       content_divs.push(Show.zooPhotoCredits(entity, L.display));
     } else {
       // Pandas have multiple photos, and you'll need to filter on the credited photo
-      content_divs = content_divs.concat(Photos.pandaPhotoCredits(entity, Query.env.credit, L.display));
+      content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
     }
   });
   // Write some HTML with summary information for the user and the number of photos
@@ -1254,8 +1254,9 @@ Show.footer = function(language) {
 // something like "Melody's brother" or "Harumaki's mom".
 Show.pandaInformation = function(animal, language, slip_in) {
   var info = Show.acquirePandaInfo(animal, language);
-  var photo = Photos.displayPhoto(info.photo, info.id, info.photo_index, 'pandaPhoto', 'images/no-panda-portrait.jpg');
-  var span = Photos.displayPhotoNavigation(info.id, info.photo_index);
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();
+  var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
     span.style.display = "block";
@@ -1281,7 +1282,8 @@ Show.pandaInformation = function(animal, language, slip_in) {
 // Display information for a zoo relevant to the red pandas
 Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
-  var photo = Photos.displayPhoto(info.photo, zoo._id, "1", 'zooPhoto', 'images/no-zoo.jpg');
+  var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = gallery.displayPhoto();
   var title = Show.displayZooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
