@@ -233,3 +233,28 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
   }
   return content_divs;
 }
+
+// Take a zoo, and return the photo. Assumes that you have a match
+// that match the username that was searched. Used for making reports of all
+// the photos in the website contributed by a single author.
+Gallery.zooPhotoCredits = function(zoo, language) {
+  var info = Show.acquireZooInfo(zoo, language);
+  var img_link = document.createElement('a');
+  // Link to the original instagram media
+  img_link.href = zoo.photo.replace("/media/?size=m", "");
+  img_link.target = "_blank";   // Open in new tab
+  var img = document.createElement('img');
+  img.src = zoo.photo;
+  img_link.appendChild(img);
+  var caption_link = document.createElement('a');
+  caption_link.href = "#zoo/" + zoo._id;
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  caption.innerText = info.name;
+  caption_link.appendChild(caption);
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img_link);
+  container.appendChild(caption_link);
+  return container;
+}
