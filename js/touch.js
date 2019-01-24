@@ -127,3 +127,19 @@ Touch.T.process = function() {
     Show.fade(navigator);
   }
 }
+
+// Touchable carousels for every loaded photo.
+Touch.addHandler = function(photo_element) {
+  photo_element.addEventListener('touchstart', function(event) {
+    T.start(event, photo_element.id);
+  }, true);
+  photo_element.addEventListener('touchend', function(event) {
+    T.end(event);
+  }, true);
+  photo_element.addEventListener('touchmove', function(event) {
+    T.move(event);
+  }, true);
+  photo_element.addEventListener('touchcancel', function() {
+    T.cancel();
+  }, true);
+}

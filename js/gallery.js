@@ -53,7 +53,7 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
     }
   }
   // Return the new div
-  this.displayPhotoTouch(image);
+  Touch.addHandler(image);
   return div;
 }
 
@@ -110,23 +110,6 @@ Gallery.G.displayPhotoPreload = function() {
   });
 }
 
-// Touchable carousels for every loaded photo.
-Gallery.G.displayPhotoTouch = function(photo_element) {
-  var id = photo_element.id;   // Function scope
-  photo_element.addEventListener('touchstart', function(event) {
-    T.start(event, id);
-  }, true);
-  photo_element.addEventListener('touchend', function(event) {
-    T.end(event);
-  }, true);
-  photo_element.addEventListener('touchmove', function(event) {
-    T.move(event);
-  }, true);
-  photo_element.addEventListener('touchcancel', function() {
-    T.cancel();
-  }, true);
-}
-
 // Utility function to get the current number of photos.
 Gallery.G.photoCount = function() {
   var animal = Pandas.searchPandaId(this.info.id)[0];
@@ -178,7 +161,7 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   photo.src = new_photo.src;
   photo.id = new_photo.id;
   photo.className = new_photo.className;
-  this.displayPhotoTouch(new_photo);
+  Touch.addHandler(new_photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
   var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
