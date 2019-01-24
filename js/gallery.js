@@ -112,9 +112,9 @@ Gallery.G.displayPhotoPreload = function() {
 
 // Touchable carousels for every loaded photo.
 Gallery.G.displayPhotoTouch = function(photo_element) {
-  var index = this.index;   // Function scope
+  var id = photo_element.id;   // Function scope
   photo_element.addEventListener('touchstart', function(event) {
-    T.start(event, index);
+    T.start(event, id);
   }, true);
   photo_element.addEventListener('touchend', function(event) {
     T.end(event);
@@ -136,15 +136,15 @@ Gallery.G.photoCount = function() {
 }
 
 // Navigation input event -- load the next photo in the carousel
-Gallery.G.photoNext = function() {
-  var current_photo_element = document.getElementsByClassName(this.info.id + "/photo")[0];
+Gallery.G.photoNext = function(animal_id=this.info.id) {
+  var current_photo_element = document.getElementsByClassName(animal_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
 }
 
 // Navigation input event -- load the previous photo in the carousel
-Gallery.G.photoPrevious = function() {
-  var current_photo_element = document.getElementsByClassName(this.info.id + "/photo")[0];
+Gallery.G.photoPrevious = function(animal_id=this.info.id) {
+  var current_photo_element = document.getElementsByClassName(animal_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
 }
