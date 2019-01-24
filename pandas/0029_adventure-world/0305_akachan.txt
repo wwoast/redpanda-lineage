@@ -5,7 +5,7 @@ birthplace: 29
 children: none
 en.name: Aka-chan
 en.nicknames: none
-en.othernames: Aka-Chan, Akachan
+en.othernames: Aka-Chan, Akachan, Babu
 gender: m
 jp.name: 赤ちゃん
 jp.nicknames: 四男
@@ -80,5 +80,9 @@ photo.17: https://www.instagram.com/p/Bs2wcxTFNs0/media/?size=m
 photo.17.author: daniele.tokyo
 photo.17.link: https://www.instagram.com/daniele.tokyo/
 photo.17.tags: keeper, nose, paws
+photo.18: https://www.instagram.com/p/Bs7Pmyxlyqj/media/?size=m
+photo.18.author: adventureworld_official
+photo.18.link: https://www.instagram.com/adventureworld_official/
+photo.18.tags: mofumofu, tail, tree, upside-down
 species: 2
 zoo: 29
