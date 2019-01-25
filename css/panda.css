@@ -1007,7 +1007,7 @@ div.photoSample h5.caption.familyTitle {
     }
 
     div.family {
-        /* width: 100%; */
+        width: 100%;
         flex-direction: row;
     }
 
@@ -1032,11 +1032,6 @@ div.photoSample h5.caption.familyTitle {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
-    }
-
-    div.parents.double, div.litter.double, div.siblings.double, div.children.double,
-    div.parents.triple, div.litter.triple, div.siblings.triple, div.children.triple {
-        width: auto;
     }
 
     hr.divider.onlyDesktop {
@@ -1071,8 +1066,6 @@ div.photoSample h5.caption.familyTitle {
     }
     
     ul.pandaList.double, ul.pandaList.triple {
-        width: auto;   /* Fill available space in flex */
-        height: auto;   /* And account for names in a li that are really long */
         column-gap: 0.7em;
     }
 
