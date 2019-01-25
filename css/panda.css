@@ -1049,6 +1049,7 @@ div.photoSample h5.caption.familyTitle {
 
     div.pandaDetails p, div.zooDetails p {
         margin-left: 14px;
+        display: none;
     }
 
     h2 {
