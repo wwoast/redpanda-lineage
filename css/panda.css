@@ -575,12 +575,12 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    /* column-gap: 1.5em; */
+    column-gap: 1.5em;
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    /* column-gap: 1.5em; */
+    column-gap: 1.5em;
 }
 
 ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
@@ -1078,16 +1078,18 @@ div.photoSample h5.caption.familyTitle {
     }
     
     ul.pandaList.double, ul.pandaList.triple {
-        column-gap: 0.0em;
+        column-gap: 0.7em;
     }
 
     ul.pandaList.double.onlyMobile {
         column-count: 2;
+        column-gap: 0.7em;
     }
 
     /* On small screens, not enough room */
     ul.pandaList.triple, ul.pandaList.triple.onlyMobile {
         column-count: 2;
+        column-gap: 0.7em;
     }
 
     div.profileSummary {
