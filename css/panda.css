@@ -1007,7 +1007,7 @@ div.photoSample h5.caption.familyTitle {
     }
 
     div.family {
-        width: 100%;
+        /* width: 100%; */
         flex-direction: row;
     }
 

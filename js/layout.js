@@ -824,8 +824,6 @@ Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("
 // media-query height adjustments, plus making sure the height adjustment works
 // on the initial page load.
 var mobile = window.matchMedia("(max-width: 670px)");
-/*
 mobile.addListener(Layout.recomputeHeight);
 mobile.addListener(Layout.shrinkNames);
 document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);
-*/
