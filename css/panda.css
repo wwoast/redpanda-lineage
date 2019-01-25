@@ -1021,7 +1021,7 @@ div.photoSample h5.caption.familyTitle {
     }
 
     div.family.vertical > div {
-        /* width: 50%; */
+        width: 50%;
     }
 
     div.family.vertical > hr.divider {
