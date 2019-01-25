@@ -588,7 +588,7 @@ ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
 }
 
 ul.pandaList li, ul.linkList li {
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 /* By applying list padding inside the list items, this ensures that multicolumn
