@@ -1051,8 +1051,12 @@ div.photoSample h5.caption.familyTitle {
         margin-right: 8px;
     }
 
-    h3, h4 {
-        margin-left: 4px;
+    h3 {
+        margin-left: 4px;    /* Panda family headings */
+    }
+
+    h4 {
+        margin-left: 14px;   /* Author/about headings */
     }
 
     div.species h4 {
@@ -1063,7 +1067,14 @@ div.photoSample h5.caption.familyTitle {
         list-style: none;
         text-align: left;
         padding-left: 0px;
+    }
+
+    ul.pandaList {
         margin-left: 4px;
+    }
+
+    ul.linkList {
+        margin-left: 14px;
     }
     
     ul.pandaList.double, ul.pandaList.triple {
