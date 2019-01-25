@@ -525,7 +525,6 @@ div.family {
 div.family.vertical, div.family.vertical.onlyDesktop {
     display: flex;
     flex-direction: column;
-    min-height: 0px;
 }
 
 div.family.vertical.onlyDesktop {
@@ -576,12 +575,12 @@ ul.pandaList, ul.linkList {
 
 ul.pandaList.double {
     column-count: 2;
-    column-gap: 1.5em;
+    /* column-gap: 1.5em; */
 }
 
 ul.pandaList.triple {
     column-count: 3;
-    column-gap: 1.5em;
+    /* column-gap: 1.5em; */
 }
 
 ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
@@ -1079,7 +1078,7 @@ div.photoSample h5.caption.familyTitle {
     }
     
     ul.pandaList.double, ul.pandaList.triple {
-        column-gap: 0.7em;
+        /* column-gap: 0.7em; */
     }
 
     ul.pandaList.double.onlyMobile {
