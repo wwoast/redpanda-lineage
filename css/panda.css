@@ -564,24 +564,6 @@ hr.divider.onlyMobile {
     display: none;
 }
 
-/* For list layouts with a single div */
-div.parents.singleton, div.litter.singleton, div.siblings.singleton, div.children.singleton, div.singleton {
-    width: 100%;
-    flex-grow: 1;
-}
-
-div.singleton > div > ul {
-    width: 100%;
-}
-
-div.parents.double, div.litter.double, div.siblings.double, div.children.double {
-    /* width: 40%; */   /* No winning the width game here */
-}
-
-div.parents.triple, div.litter.triple, div.siblings.triple, div.children.triple {
-    /* width: 80%; */   /* No winning the width game here */
-}
-
 ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;

@@ -359,10 +359,6 @@ Layout.L.arrangement.flatten = function(mode="onlyMobile") {
       this.dividerMode = mode;
     }
     this.family.append(cur_list);
-    if (this.existingColumns() == 1) {
-      cur_list.classList.add("singleton");
-      this.dividerMode = mode;
-    }
     this.distance++;
     if ((this.distance == 2) || (this.dividerMode != false)) {
       var breaker = Layout.divider("onlyMobile");
