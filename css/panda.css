@@ -1067,7 +1067,7 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList, ul.linkList {
         list-style: none;
         text-align: left;
-        margin-left: 14px;
+        margin-left: 4px;
     }
     
     ul.pandaList.double, ul.pandaList.triple {
