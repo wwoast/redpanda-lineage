@@ -1091,7 +1091,7 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList.double, ul.pandaList.triple {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
-        column-gap: 1em;
+        column-gap: 0.7em;
     }
 
     ul.pandaList.double.onlyMobile {
