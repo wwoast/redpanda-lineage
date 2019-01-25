@@ -1021,7 +1021,7 @@ div.photoSample h5.caption.familyTitle {
     }
 
     div.family.vertical > div {
-        width: 50%;
+        /* width: 50%; */
     }
 
     div.family.vertical > hr.divider {
@@ -1030,7 +1030,7 @@ div.photoSample h5.caption.familyTitle {
 
     div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
-        /* flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
     }
 
@@ -1092,13 +1092,6 @@ div.photoSample h5.caption.familyTitle {
 
     div.footer p {
         margin-left: 8px;
-    }
-
-    a.emojiLink {
-        /* Make the top-page arrow more touchable on mobile */
-        font-size: 20pt;
-        float: left;
-        padding-right: 8px;
     }
 
     div.pandaAbout p, div.pandaLinks p {
