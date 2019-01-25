@@ -1078,7 +1078,7 @@ div.photoSample h5.caption.familyTitle {
     }
     
     ul.pandaList.double, ul.pandaList.triple {
-        /* column-gap: 0.7em; */
+        column-gap: 0.0em;
     }
 
     ul.pandaList.double.onlyMobile {
