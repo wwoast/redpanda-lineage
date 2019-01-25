@@ -1074,11 +1074,12 @@ div.photoSample h5.caption.familyTitle {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
         /* column-gap: 0.7em; */
+        background-color: goldenrod;
     }
 
     ul.pandaList.double.onlyMobile {
         column-count: 2;
-        background-color: blue;
+        background-color: cornflowerblue;
     }
 
     /* On small screens, not enough room */
