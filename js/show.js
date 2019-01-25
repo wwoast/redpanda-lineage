@@ -625,8 +625,6 @@ Show.animalLink = function(animal, link_text, language, options) {
   // Put the name itself in a span, in case we want to squeeze it width-wise
   var name_span = document.createElement('span');
   var inner_text = link_text;
-  // Use non-breaking dashes
-  inner_text.replace('-', "\u2011");
   var gender_text = "";
   var trailing_text = "";
   // Option to display gender face
