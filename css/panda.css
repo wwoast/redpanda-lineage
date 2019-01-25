@@ -1021,7 +1021,7 @@ div.photoSample h5.caption.familyTitle {
     }
 
     div.family.vertical > div {
-        width: 50%;
+        width: 48%;
     }
 
     div.family.vertical > hr.divider {
@@ -1067,13 +1067,13 @@ div.photoSample h5.caption.familyTitle {
     ul.pandaList, ul.linkList {
         list-style: none;
         text-align: left;
-        /* padding-left: 14px; */
+        padding-left: 14px;
     }
     
     ul.pandaList.double, ul.pandaList.triple {
-        /* width: auto;   /* Fill available space in flex */
-        /* height: auto;   /* And account for names in a li that are really long */
-        column-gap: 0.0em;
+        width: auto;   /* Fill available space in flex */
+        height: auto;   /* And account for names in a li that are really long */
+        column-gap: 0.7em;
     }
 
     ul.pandaList.double.onlyMobile {
