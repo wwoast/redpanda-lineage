@@ -604,15 +604,6 @@ ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
     column-count: 1;
 }
 
-ul.pandaList.flat {
-    display: flex;   /* Want li children to flexibly grow */
-}
-
-ul.pandaList.flat li {
-    display: inline-block;   /* Force list items to flow horizontally */
-    flex-grow: 0.15;    /* Nearly matches spacing of two different family columns */
-}
-
 ul.pandaList li, ul.linkList li {
     white-space: nowrap;
 }
@@ -1097,10 +1088,10 @@ div.photoSample h5.caption.familyTitle {
         padding-left: 14px;
     }
     
-    ul.pandaList.double, ul.pandaList.triple, ul.pandaList.flat {
+    ul.pandaList.double, ul.pandaList.triple {
         width: auto;   /* Fill available space in flex */
         height: auto;   /* And account for names in a li that are really long */
-        column-gap: 0em;
+        column-gap: 1.5em;
     }
 
     ul.pandaList.double.onlyMobile {
@@ -1110,18 +1101,6 @@ div.photoSample h5.caption.familyTitle {
     /* On small screens, not enough room */
     ul.pandaList.triple, ul.pandaList.triple.onlyMobile {
         column-count: 2;
-    }
-
-    ul.pandaList.flat, ul.pandaList.onlyMobileFlat {
-        display: flex;   /* Want li children to flexibly grow */
-        flex-grow: 1;
-    }
-
-    ul.pandaList.flat li, ul.pandaList.onlyMobileFlat li {
-        display: inline-block;   /* Force list items to flow horizontally */
-        padding-right: 10px;
-        flex-grow: 1;   /* Force list items to expand to fill space */
-        width: 6.4em;
     }
 
     div.profileSummary {

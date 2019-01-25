@@ -61,10 +61,9 @@ Layout.divider = function(className) {
    we need to add a line-break entity afterwards, and bump the flex box display
    order of subsequent inserted divs. */
 Layout.flatten = function(div, mode) {
+  div.childNodes[1].classList.add("double");
   if (mode == "onlyMobile") {
-    div.childNodes[1].classList.add("onlyMobileFlat");
-  } else {
-    div.childNodes[1].classList.add("flat");
+    div.childNodes[1].classList.add("onlyMobile");
   }
   return div;
 }
