@@ -1051,11 +1051,11 @@ div.photoSample h5.caption.familyTitle {
         margin-right: 8px;
     }
 
-    h3 {
+    h3, h4 {
         margin-left: 4px;    /* Panda family headings */
     }
 
-    h4 {
+    div.pandaAbout h4 {
         margin-left: 14px;   /* Author/about headings */
     }
 
