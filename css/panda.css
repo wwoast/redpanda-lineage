@@ -525,6 +525,7 @@ div.family {
 div.family.vertical, div.family.vertical.onlyDesktop {
     display: flex;
     flex-direction: column;
+    min-height: 0px;
 }
 
 div.family.vertical.onlyDesktop {
