@@ -1078,6 +1078,7 @@ div.photoSample h5.caption.familyTitle {
 
     ul.pandaList.double.onlyMobile {
         column-count: 2;
+        background-color: blue;
     }
 
     /* On small screens, not enough room */
