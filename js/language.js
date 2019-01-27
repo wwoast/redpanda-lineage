@@ -148,10 +148,20 @@ Language.L.gui = {
     "en": "Links",
     "jp": "リンク"
   },
+  "media": {
+    "cn": "TOWRITE",
+    "en": "Media",
+    "jp": "媒体"
+  },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
     "en": "Parents",   // Capitalization
     "jp": Pandas.def.relations.parents["jp"]
+  },
+  "profile": {
+    "cn": "TOWRITE",
+    "en": "Profile",
+    "jp": "横顔"
   },
   "random": {
     "cn": "隨機",
@@ -167,6 +177,11 @@ Language.L.gui = {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
     "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "timeline": {
+    "cn": "TOWRITE",
+    "en": "Timeline",
+    "jp": "知らせ"
   },
   "title": {
     "cn": "TOWRITE",
@@ -297,7 +312,8 @@ Language.L.fallbackInfo = function(info, original) {
 
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
-  var update_ids = ['languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+  var update_ids = ['languageButton', 'aboutButton', 'randomButton', 'linksButton',
+                    'profileButton', 'mediaButton', 'timelineButton'];
   var existing_elements = update_ids.map(x => document.getElementById(x)).filter(x => x != undefined);
   // Any buttons in the page? Redraw with correct language settings
   for (let element of existing_elements) {
