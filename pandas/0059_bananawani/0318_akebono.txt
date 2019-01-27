@@ -6,7 +6,7 @@ children: none
 en.name: Akebono
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: あけぼの
 jp.nicknames: none
 jp.othernames: 曙
@@ -24,5 +24,9 @@ photo.3: https://www.instagram.com/p/BrwqzpIFvyd/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.link: https://www.instagram.com/fetorus_mami/
 photo.3.tags: baby
+photo.4: https://www.instagram.com/p/BtGAP-TFQlp/media/?size=m
+photo.4.author: fetorus_mami
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: tree
 species: 1
 zoo: 59
