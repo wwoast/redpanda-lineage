@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // If a hashlink was bookmarked, bring up the results of it
     if ((window.location.hash.length > 0) && 
         (Page.routes.fixed.includes(window.location.hash) == false)) {
-      outputResults();
+      Page.results.render();
     }
 
     // Fixes TypeSquare unsetting the input typeface in its own javascript
@@ -65,9 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('logoButton').addEventListener("click", function() {
     // Return to the empty search page
     Page.lastSearch = "#home";
-    outputHome();
+    Page.home.render();
     window.location = "#home";
-    Page.current = outputHome;
+    Page.current = Page.home.render;
   });
 
   document.getElementById('languageButton').addEventListener("click", function() {
@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('randomButton').addEventListener("click", function() {
     // Show a random panda from the database when the dice is clicked
-    Page.current = outputResults;
+    Page.current = Page.results.render;
     var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
     window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   });
@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('searchForm').addEventListener("submit", function() {
-    Page.current = outputResults;
+    Page.current = Page.results.render;
     document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
     var query = (document.getElementById('searchInput').value).trim();
     Query.lexer.parse(query);  // TODO: onhashchange, race for results?
@@ -173,11 +173,11 @@ document.addEventListener("DOMContentLoaded", function() {
 // is closed.
 window.addEventListener('hashchange', function() {
   if (Page.routes.fixed.includes(window.location.hash) == false) {
-    outputResults();
-    Page.current = outputResults;
+    Page.results.render();
+    Page.current = Page.results.render;
   } else if (window.location.hash == "#home") {
-    outputHome();
-    Page.current = outputHome;
+    Page.home.render();
+    Page.current = Page.home.render;
   }
   window.localStorage.setItem("last_seen", window.location.hash);
 });
@@ -258,7 +258,20 @@ Page.about.render = function() {
   }
 }
 
-Page.current = outputResults;   // Default mode is to show panda results.
+Page.current = Page.results.render;   // Default mode is to show panda results.
+Page.home = {};
+Page.home.render = function() {
+  // Output just the base search bar with no footer.
+  // TODO: random content to entice new visitors :)
+  var old_content = document.getElementById('contentFrame');
+  var new_content = document.createElement('img');
+  new_content.src = "images/jiuzhaigou.jpg";
+  new_content.className = "fullFrame";
+  new_content.id = "contentFrame";
+  Page.swapContents(old_content, new_content);
+  removeFooter();
+}
+
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
 
 /*
@@ -308,13 +321,13 @@ Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
   // and immediately load that page if necessary.
   if (Page.routes.dynamic.includes(window.location.hash.split('/')[0])) {
-    Page.current = outputResults;
+    Page.current = Page.results.render;
   } else if (window.location.hash == "#about") {
     Page.current = Page.about.render;
   } else if (window.location.hash == "#links") {
     Page.current = Page.links.render;
   } else {
-    Page.current = outputHome;
+    Page.current = Page.home.render;
   }
 }
 Page.routes.dynamic = [
@@ -329,66 +342,13 @@ Page.routes.fixed = [
     "#links"     // The links page
 ];
 
-// Use session storage (lost when browser closes) for menu state.
-// Potential values are for the menus on the about and links page, so the
-// chosen sub-page will reappear when theses pages are regenerated.
-//   "aboutPageMenu" can be set to (usage|pandas|contributions)
-//   "linksPageMenu" can be set to (community|zoos|friends)
-Page.subMenu = window.sessionStorage;
-
 /*
-    Display modes for the site
+    Logic related to the results page output. The main render function chooses between
+    other results rendering modes, and we'll likely add many more as time goes on.
 */
-// Output just the base search bar with no footer.
-// TODO: random content to entice new visitors :)
-function outputHome() {
-  var old_content = document.getElementById('contentFrame');
-  var new_content = document.createElement('img');
-  new_content.src = "images/jiuzhaigou.jpg";
-  new_content.className = "fullFrame";
-  new_content.id = "contentFrame";
-  Page.swapContents(old_content, new_content);
-  removeFooter();
-}
-
-// This is the main panda search results function. When the URL #hash changes, process
-// it as a change in the search text and present new content in the #contentFrame.
-// Based on Query.env.output, there are a handful of different output modes
-function outputResults() {
-  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
-  var input = decodeURIComponent(window.location.hash);
-  // Start by just displaying info for one panda by id search
-  var results = Query.hashlink(input);
-  results = results instanceof Array ? results : [results];   // Guarantee array
-  var content_divs = [];
-  var new_content = document.createElement('div');
-  new_content.id = "hiddenContentFrame";
-  switch(Query.env.output) {
-    case "entities":
-      content_divs = outputSearchResultEntities(results);
-      break;
-    case "photos":
-      content_divs = outputSearchResultPhotos(results);
-      new_content.style.textAlign = "center";   // Align photos centered in each row
-      break;
-  }
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  content_divs.forEach(function(content_div) {
-    shrinker.appendChild(content_div);
-  });
-  new_content.appendChild(shrinker);
-
-  // Append the new content into the page and then swap it in
-  var old_content = document.getElementById('contentFrame');
-  Page.swapContents(old_content, new_content);
-  // Call layout adjustment functions to shrink any names that are too long
-  Layout.shrinkNames();
-  Page.redrawFooter();
-}
-
-// Given a search for pandas and zoos, output entity divs
-function outputSearchResultEntities(results) {
+Page.results = {};
+Page.results.entities = function(results) {
+  // Given a search for pandas and zoos, output entity divs
   var content_divs = [];
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -408,8 +368,7 @@ function outputSearchResultEntities(results) {
   }
   return content_divs;
 }
-
-function outputSearchResultPhotos(results) {
+Page.results.photos = function(results) {
   var content_divs = [];
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -427,16 +386,57 @@ function outputSearchResultPhotos(results) {
   Query.env.clear();
   return content_divs;
 }
+Page.results.render = function() {
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
+  // Start by just displaying info for one panda by id search
+  var results = Query.hashlink(input);
+  results = results instanceof Array ? results : [results];   // Guarantee array
+  var content_divs = [];
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
+  switch(Query.env.output) {
+    case "entities":
+      content_divs = Page.results.entities(results);
+      break;
+    case "photos":
+      content_divs = Page.results.photos(results);
+      new_content.style.textAlign = "center";   // Align photos centered in each row
+      break;
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  content_divs.forEach(function(content_div) {
+    shrinker.appendChild(content_div);
+  });
+  new_content.appendChild(shrinker);
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  Page.swapContents(old_content, new_content);
+  // Call layout adjustment functions to shrink any names that are too long
+  Layout.shrinkNames();
+  Page.redrawFooter();
+}
 
+// Use session storage (lost when browser closes) for menu state.
+// Potential values are for the menus on the about and links page, so the
+// chosen sub-page will reappear when theses pages are regenerated.
+//   "aboutPageMenu" can be set to (usage|pandas|contributions)
+//   "linksPageMenu" can be set to (community|zoos|friends)
+Page.subMenu = window.sessionStorage;
+
+/*
+    Display modes for the site
+*/
 // Redraw page after an updateLanguage event or similar
 function redrawPage(callback) {
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == outputResults)) {
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
     callback();
   }
   // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != outputResults)) {
+  if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
     callback();
   }
 }
@@ -558,9 +558,9 @@ Page.bottomMenu = function(language) {
   home_button.addEventListener("click", function() {
     // Return to the empty search page
     Page.lastSearch = "#home";
-    outputHome();
+    Page.home.render();
     window.location = "#home";
-    Page.current = outputHome;
+    Page.current = Page.home.render;
   });
   shrinker.appendChild(top_button);
   shrinker.appendChild(home_button);
