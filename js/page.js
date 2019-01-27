@@ -201,7 +201,7 @@ Page.results.entities = function(results) {
   });
   if (results.length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.displayEmptyResult(L.display));
+    content_divs.push(Show.emptyResult(L.display));
   }
   return content_divs;
 }

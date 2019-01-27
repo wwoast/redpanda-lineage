@@ -98,7 +98,7 @@ Show.animalLink = function(animal, link_text, language, options) {
   var trailing_text = "";
   // Option to display gender face
   if (options.indexOf("child_icon") != -1) {
-    gender_text = Show.displayChildIcon(gender) + "\xa0";
+    gender_text = Show.childIcon(gender) + "\xa0";
   }
   // Moms and dads have older faces
   if (options.indexOf("mom_icon") != -1) {
@@ -129,6 +129,18 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
+// Male and female icons next to pandas used for panda links.
+// This uses unlocalized m/f/unknown gender values
+Show.childIcon = function(gender) {
+  if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
+    return L.emoji.boy;
+  } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
+    return L.emoji.girl;
+  } else {
+    return L.emoji.baby;
+  }
+}
+
 // If link is to an undefined item or the zero ID, return a spacer
 // TODO: final page layout
 Show.emptyLink = function(output_text) {
@@ -138,6 +150,21 @@ Show.emptyLink = function(output_text) {
   a.appendChild(span);
   a.href = '#not_sure_yet';
   return a;
+}
+
+// If the panda search result returned nothing, output a card
+// with special "no results" formatting.
+Show.emptyResult = function(language) {
+  var message = document.createElement('div');
+  message.className = 'overlay';
+  message.innerText = L.no_result[language];
+  var image = document.createElement('img');
+  image.src = "images/no-panda.jpg";
+  var result = document.createElement('div');
+  result.className = 'emptyResult';
+  result.appendChild(image);
+  result.appendChild(message);
+  return result;
 }
 
 // Used to fade the dogear menu for selecting photos
@@ -180,6 +207,25 @@ Show.furigana = function(name, othernames) {
   p.className = "furigana";
   p.innerText = "(" + chosen + ")";
   return p;
+}
+
+// Use localized alt-text, and display SVG gender information
+// so that padding can work consistently on mobile.
+Show.gender = function(info, frame_class="gender") {
+  var language = info.language;
+  var img = document.createElement('img');
+  if (info.gender == Pandas.def.gender.Male[language]) {
+    img.src = "images/male.svg";
+  } else if (info.gender == Pandas.def.gender.Female[language]) {
+    img.src = "images/female.svg";
+  } else {
+    img.src = "images/unknown.svg";
+  }
+  img.alt = info.gender;
+  var gender = document.createElement('div');
+  gender.className = frame_class;
+  gender.appendChild(img);
+  return gender;
 }
 
 // Construct a location string based on recorded location info for a zoo.
@@ -226,6 +272,29 @@ Show.locationLink = function(zoo, language) {
   return a;
 }
 
+// Display the name and gender symbol for a single panda in the "title bar"
+Show.pandaTitle = function(info) {
+  var language = info.language;
+  var gender = Show.gender(info);
+  var name_div = document.createElement('div');
+  name_div.className = 'pandaName';
+  // In Japanese, display one of the "othernames" as furigana
+  if (language == "jp") {
+    name_div.innerText = info.name;
+    var furigana = Show.furigana(info.name, info.othernames);
+    if (furigana != false) {
+      name_div.appendChild(furigana);
+    }
+  } else {
+    name_div.innerText = info.name;
+  }
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(gender);
+  title_div.appendChild(name_div);
+  return title_div;
+}
+
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/index.html#zoo/1
 // Show.zooLink = function(zoo, link_text, options) {
@@ -254,81 +323,8 @@ Show.zooLink = function(zoo, link_text, language, options) {
   return a;
 }
 
-/*
-    Show functions used by all display modes
-*/
-// Male and female icons next to pandas used for panda links.
-// This uses unlocalized m/f/unknown gender values
-Show.displayChildIcon = function(gender) {
-  if (Object.values(Pandas.def.gender.Male).indexOf(gender) != -1) {
-    return L.emoji.boy;
-  } else if (Object.values(Pandas.def.gender.Female).indexOf(gender) != -1) {
-    return L.emoji.girl;
-  } else {
-    return L.emoji.baby;
-  }
-}
-
-// If the panda search result returned nothing, output a card
-// with special "no results" formatting.
-Show.displayEmptyResult = function(language) {
-  var message = document.createElement('div');
-  message.className = 'overlay';
-  message.innerText = L.no_result[language];
-  var image = document.createElement('img');
-  image.src = "images/no-panda.jpg";
-  var result = document.createElement('div');
-  result.className = 'emptyResult';
-  result.appendChild(image);
-  result.appendChild(message);
-  return result;
-}
-
-// Use localized alt-text, and display SVG gender information
-// so that padding can work consistently on mobile.
-Show.displayGender = function(info, frame_class="gender") {
-  var language = info.language;
-  var img = document.createElement('img');
-  if (info.gender == Pandas.def.gender.Male[language]) {
-    img.src = "images/male.svg";
-  } else if (info.gender == Pandas.def.gender.Female[language]) {
-    img.src = "images/female.svg";
-  } else {
-    img.src = "images/unknown.svg";
-  }
-  img.alt = info.gender;
-  var gender = document.createElement('div');
-  gender.className = frame_class;
-  gender.appendChild(img);
-  return gender;
-}
-
-// Display the name and gender symbol for a single panda in the "title bar"
-Show.displayPandaTitle = function(info) {
-  var language = info.language;
-  var gender = Show.displayGender(info);
-  var name_div = document.createElement('div');
-  name_div.className = 'pandaName';
-  // In Japanese, display one of the "othernames" as furigana
-  if (language == "jp") {
-    name_div.innerText = info.name;
-    var furigana = Show.furigana(info.name, info.othernames);
-    if (furigana != false) {
-      name_div.appendChild(furigana);
-    }
-  } else {
-    name_div.innerText = info.name;
-  }
-  var title_div = document.createElement('div');
-  title_div.className = "pandaTitle";
-  title_div.appendChild(gender);
-  title_div.appendChild(name_div);
-  return title_div;
-}
-
-
 // Display the name of a zoo in the "title bar"
-Show.displayZooTitle = function(info) {
+Show.zooTitle = function(info) {
   var name_div = document.createElement('div');
   name_div.className = 'zooName';
   // No furigana for zoo names
@@ -343,8 +339,8 @@ Show.displayZooTitle = function(info) {
     Show functions used by the search results pages
 */
 Show.results = {};
-// Display panda children in the family section
-Show.displayPandaChildren = function(info) {
+Show.results.children = function(info) {
+  // Display panda children in the family section
   var heading = document.createElement('h4');
   heading.className = "childrenHeading" + " " + info.language;
   heading.innerText = L.gui.children[info.language];
@@ -367,7 +363,7 @@ Show.displayPandaChildren = function(info) {
 
 // The dossier of information for a single panda.
 // This is the purple main information stripe for a panda.
-Show.displayPandaDetails = function(info) {
+Show.results.pandaDetails = function(info) {
   var language = info.language;
   var born = document.createElement('p');
   born.innerText = L.emoji.born + " " + info.birthday;
@@ -422,7 +418,7 @@ Show.displayPandaDetails = function(info) {
 // then adding immediate littermates, and finally including the
 // other siblings, ordered by birthday. This is the pink stripe
 // at the bottom of a family dossier.
-Show.displayPandaFamily = function(info) {
+Show.results.family = function(info) {
   var family = document.createElement('div');
   family.className = "family";
   if ((info.dad == undefined && info.mom == undefined) &&
@@ -436,16 +432,16 @@ Show.displayPandaFamily = function(info) {
   var siblings = undefined;
   var children = undefined;
   if (info.dad != undefined || info.mom != undefined) {
-    parents = Show.displayPandaParents(info);
+    parents = Show.results.parents(info);
   }
   if (info.litter.length > 0) {
-    litter = Show.displayPandaLitter(info);
+    litter = Show.results.litter(info);
   }
   if (info.siblings.length > 0) {
-    siblings = Show.displayPandaSiblings(info);
+    siblings = Show.results.siblings(info);
   }
   if (info.children.length > 0) {
-    children = Show.displayPandaChildren(info);
+    children = Show.results.children(info);
   }
   var layout = Layout.init(family, info, parents, litter, siblings, children);
   family = layout.layout();
@@ -453,7 +449,7 @@ Show.displayPandaFamily = function(info) {
 }
 
 // Do the littermates info in the family section
-Show.displayPandaLitter = function(info) {
+Show.results.litter = function(info) {
   var language = info.language;
   var heading = document.createElement('h4');
   heading.className = "litterHeading" + " " + info.language;
@@ -477,7 +473,7 @@ Show.displayPandaLitter = function(info) {
 }
 
 // Do mom and dad's info in the family section
-Show.displayPandaParents = function(info) {
+Show.results.parents = function(info) {
   var heading = document.createElement('h4');
   heading.className = "parentsHeading" + " " + info.language;
   heading.innerText = L.gui.parents[info.language];
@@ -513,7 +509,7 @@ Show.displayPandaParents = function(info) {
 }
 
 // Do the non-litter siblings info in the family section
-Show.displayPandaSiblings = function(info) {
+Show.results.siblings = function(info) {
   var heading = document.createElement('h4');
   heading.className = "siblingsHeading" + " " + info.language;
   heading.innerText = L.gui.siblings[info.language];
@@ -615,9 +611,9 @@ Show.pandaInformation = function(animal, language) {
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  var title = Show.displayPandaTitle(info);
-  var details = Show.displayPandaDetails(info); 
-  var family = Show.displayPandaFamily(info);
+  var title = Show.pandaTitle(info);
+  var details = Show.results.pandaDetails(info); 
+  var family = Show.results.family(info);
   var dossier = document.createElement('div');
   dossier.className = "pandaDossier";
   dossier.appendChild(title);
@@ -635,7 +631,7 @@ Show.zooInformation = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
   var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
   var photo = gallery.displayPhoto();
-  var title = Show.displayZooTitle(info);
+  var title = Show.zooTitle(info);
   var details = Show.displayZooDetails(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
