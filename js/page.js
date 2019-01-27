@@ -34,7 +34,7 @@ Page.about.render = function() {
   } else {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
-    Page.swapContents(old_content, Page.about.content);
+    Page.swap(old_content, Page.about.content);
     Page.footer.redraw();
   }
 }
@@ -105,7 +105,7 @@ Page.home.render = function() {
   new_content.src = "images/jiuzhaigou.jpg";
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
-  Page.swapContents(old_content, new_content);
+  Page.swap(old_content, new_content);
   Page.footer.remove();
 }
 
@@ -145,7 +145,7 @@ Page.links.render = function() {
   } else {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
-    Page.swapContents(old_content, Page.links.content);
+    Page.swap(old_content, Page.links.content);
     Page.footer.redraw();
   }
 }
@@ -249,7 +249,7 @@ Page.results.render = function() {
   new_content.appendChild(shrinker);
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
-  Page.swapContents(old_content, new_content);
+  Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
   Page.footer.redraw();
@@ -340,7 +340,7 @@ Page.redraw = function(callback) {
 // Swap in a new contents frame for an old contents frame. 
 // After calling this, double-check that the footer 
 // is still the bottom of the page.
-Page.swapContents = function(old_content, new_content) {
+Page.swap = function(old_content, new_content) {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
   // Place the new content right after the old content
