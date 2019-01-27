@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
   L.default();     // Set default language
   Page.routes.check();   // See if we started on the links or about pages
   L.update();      // Update buttons, displayed results, and cookie state
-  redrawPage(Page.current);   // Ready to redraw? Let's go.
+  Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
   // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var new_language = options[choice];
     L.display = new_language;
     L.update();
-    redrawPage(Page.current);
+    Page.redraw(Page.current);
   });
 
   document.getElementById('aboutButton').addEventListener("click", function() {
@@ -254,11 +254,68 @@ Page.about.render = function() {
     Page.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swapContents(old_content, Page.about.content);
-    Page.redrawFooter();
+    Page.footer.redraw();
   }
 }
 
 Page.current = Page.results.render;   // Default mode is to show panda results.
+
+Page.footer = {};
+Page.footer.redraw = function() {
+  // Add the footer at the bottom of the page
+  var body = document.getElementsByTagName('body')[0];
+  var footer_test = body.lastElementChild;
+  if (footer_test.className != "footer") {
+    // If no footer exists, add one in
+    var bottomMenu = Page.bottomMenu(L.display);
+    var footer = Page.footer.render(L.display);
+    body.appendChild(bottomMenu);
+    body.appendChild(footer);
+  } else {
+    // Also replace the footer menu
+    var bottomMenu_test = document.getElementById("pageBottom");
+    // Redraw the footer for language event changes
+    var bottomMenu = Page.bottomMenu(L.display);
+    var footer = Page.footer.render(L.display);
+    body.replaceChild(bottomMenu, bottomMenu_test);
+    body.replaceChild(footer, footer_test);
+  }
+}
+Page.footer.remove = function() {
+  // Remove the footer and bottom menu if returning to the home page
+  var body = document.getElementsByTagName('body')[0];
+  var footer_test = body.lastElementChild;
+  if (footer_test.className == "footer") {
+    var bottomMenu_test = document.getElementById("pageBottom");
+    body.removeChild(bottomMenu_test);
+    body.removeChild(footer_test);
+  }
+}
+Page.footer.render = function(language) {
+  // Draw a footer with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.footer[language]) {
+    var field = L.gui.footer[language][i];
+    if (field == "<INSERTLINK>") {
+      var rpl = document.createElement('a');
+      rpl.href = "https://github.com/wwoast/redpanda-lineage";
+      rpl.innerText = L.gui.footerLink[language];
+      p.appendChild(rpl);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var footer = document.createElement('div');
+  footer.className = "footer";
+  footer.appendChild(shrinker);
+  return footer;
+}
+
+
 Page.home = {};
 Page.home.render = function() {
   // Output just the base search bar with no footer.
@@ -269,7 +326,7 @@ Page.home.render = function() {
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
   Page.swapContents(old_content, new_content);
-  removeFooter();
+  Page.footer.remove();
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
@@ -309,7 +366,7 @@ Page.links.render = function() {
     Page.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swapContents(old_content, Page.links.content);
-    Page.redrawFooter();
+    Page.footer.redraw();
   }
 }
 
@@ -415,7 +472,7 @@ Page.results.render = function() {
   Page.swapContents(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  Page.redrawFooter();
+  Page.footer.redraw();
 }
 
 // Use session storage (lost when browser closes) for menu state.
@@ -429,7 +486,7 @@ Page.subMenu = window.sessionStorage;
     Display modes for the site
 */
 // Redraw page after an updateLanguage event or similar
-function redrawPage(callback) {
+Page.redraw = function(callback) {
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
@@ -438,38 +495,6 @@ function redrawPage(callback) {
   // For non-panda-results page, don't worry if the database is there or not
   if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
     callback();
-  }
-}
-
-// Add the footer at the bottom of the page
-Page.redrawFooter = function() {
-  var body = document.getElementsByTagName('body')[0];
-  var footer_test = body.lastElementChild;
-  if (footer_test.className != "footer") {
-    // If no footer exists, add one in
-    var bottomMenu = Page.bottomMenu(L.display);
-    var footer = Page.footer(L.display);
-    body.appendChild(bottomMenu);
-    body.appendChild(footer);
-  } else {
-    // Also replace the footer menu
-    var bottomMenu_test = document.getElementById("pageBottom");
-    // Redraw the footer for language event changes
-    var bottomMenu = Page.bottomMenu(L.display);
-    var footer = Page.footer(L.display);
-    body.replaceChild(bottomMenu, bottomMenu_test);
-    body.replaceChild(footer, footer_test);
-  }
-}
-
-// Remove the footer and bottom menu if returning to the home page
-function removeFooter() {
-  var body = document.getElementsByTagName('body')[0];
-  var footer_test = body.lastElementChild;
-  if (footer_test.className == "footer") {
-    var bottomMenu_test = document.getElementById("pageBottom");
-    body.removeChild(bottomMenu_test);
-    body.removeChild(footer_test);
   }
 }
 
@@ -613,30 +638,6 @@ Page.credit = function(credit, count, language) {
   shrinker.appendChild(p);
   var footer = document.createElement('div');
   footer.className = "creditSummary";
-  footer.appendChild(shrinker);
-  return footer;
-}
-
-// Draw a footer with the correct language
-Page.footer = function(language) {
-  var p = document.createElement('p');
-  for (var i in L.gui.footer[language]) {
-    var field = L.gui.footer[language][i];
-    if (field == "<INSERTLINK>") {
-      var rpl = document.createElement('a');
-      rpl.href = "https://github.com/wwoast/redpanda-lineage";
-      rpl.innerText = L.gui.footerLink[language];
-      p.appendChild(rpl);
-    } else {
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
-    }
-  }
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  shrinker.appendChild(p);
-  var footer = document.createElement('div');
-  footer.className = "footer";
   footer.appendChild(shrinker);
   return footer;
 }
