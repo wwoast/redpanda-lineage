@@ -554,7 +554,7 @@ div.family.vertical.onlyMobile {
     flex-direction: row;
 }
 
-div.parents, div.litter, div.siblings, div.children, div.zooHistory, div.names {
+div.parents, div.litter, div.siblings, div.children, div.names {
     display: inline-block;
     vertical-align: top;
     margin-left: 10px;
@@ -562,8 +562,9 @@ div.parents, div.litter, div.siblings, div.children, div.zooHistory, div.names {
 }
 
 div.zooHistory {
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    vertical-align: top;
+    flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
     text-align: center;
 }
 
@@ -590,7 +591,7 @@ hr.divider.onlyMobile {
     display: none;
 }
 
-ul.pandaList, ul.linkList, ul.zooList {
+ul.pandaList, ul.linkList {
     text-align: left;
     list-style: none;
     margin-left: 10px;
@@ -600,6 +601,11 @@ ul.pandaList, ul.linkList, ul.zooList {
 }
 
 ul.zooList {
+    text-align: left;
+    list-style: none;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding: 0 0 0 0;
     display: inline-block;
 }
 
@@ -1062,8 +1068,13 @@ div.photoSample h5.caption.familyTitle {
         margin-left: 4px;
     }
 
-    div.parents, div.litter, div.siblings, div.children, div.zooHistory, div.names {
+    div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
+        flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
+        padding-left: 0px;
+    }
+
+    div.zooHistory {
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
     }
@@ -1108,7 +1119,7 @@ div.photoSample h5.caption.familyTitle {
         margin-left: 4px;
     }
 
-    ul.linkList, ul.zooList {
+    ul.linkList {
         margin-left: 14px;
     }
     
