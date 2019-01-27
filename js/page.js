@@ -39,8 +39,6 @@ Page.about.render = function() {
   }
 }
 
-Page.current = Page.results.render;   // Default mode is to show panda results.
-
 Page.footer = {};
 Page.footer.redraw = function() {
   // Add the footer at the bottom of the page
@@ -320,6 +318,8 @@ Page.sections.show = function(section_id) {
   desired.classList.remove("hidden");
   desired_button.classList.add("selected");
 }
+
+Page.current = Page.results.render;   // Default mode is to show panda results.
 
 /*
     Miscellaneous stuff that I don't know how to organize yet
