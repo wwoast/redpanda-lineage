@@ -326,10 +326,12 @@ Language.L.update = function() {
     text.innerText = this.gui[lookup][this.display];   // Replace icon text
   }
   // Update the placeholder text for a search bar
-  if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
-  } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
+  if (document.forms['searchForm'] != undefined) {
+    if (P.db == undefined) {
+      document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
+    } else {
+      document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
+    }
   }
   // Change the page title
   document.title = this.gui.title[this.display];
