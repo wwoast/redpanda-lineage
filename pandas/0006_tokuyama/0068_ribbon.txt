@@ -5,7 +5,7 @@ birthplace: 30
 children: 140, 70, 301
 en.name: Ribbon
 en.nicknames: none
-en.othernames: none
+en.othernames: Ribon
 gender: f
 jp.name: リボン
 jp.nicknames: none
@@ -33,5 +33,9 @@ photo.5: https://www.instagram.com/p/BsSiJX4FXQp/media/?size=m
 photo.5.author: fetorus_mami
 photo.5.link: https://www.instagram.com/fetorus_mami/
 photo.5.tags: apple time, paws
+photo.6: https://www.instagram.com/p/BtBT-mKFsuO/media/?size=m
+photo.6.author: craig_craig_craig
+photo.6.link: https://www.instagram.com/craig_craig_craig/
+photo.6.tags: bamboo, paws
 species: 2
 zoo: 6

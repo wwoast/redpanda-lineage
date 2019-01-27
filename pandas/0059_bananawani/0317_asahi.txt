@@ -6,7 +6,7 @@ children: none
 en.name: Asahi
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: あさひ
 jp.nicknames: none
 jp.othernames: 旭
@@ -36,5 +36,9 @@ photo.6: https://www.instagram.com/p/BshxC3jFz3L/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
 photo.6.tags: baby, tree
+photo.7: https://www.instagram.com/p/BtGA0WMFdgl/media/?size=m
+photo.7.author: fetorus_mami
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: tree, white face
 species: 1
 zoo: 59

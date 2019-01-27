@@ -8,7 +8,7 @@ en.nicknames: none
 en.othernames: Aka-Chan, Akachan, Babu
 gender: m
 jp.name: 赤ちゃん
-jp.nicknames: 四男
+jp.nicknames: 四男, バブ
 jp.othernames: none
 language.order: jp, en
 litter: none
@@ -84,5 +84,9 @@ photo.18: https://www.instagram.com/p/Bs7Pmyxlyqj/media/?size=m
 photo.18.author: adventureworld_official
 photo.18.link: https://www.instagram.com/adventureworld_official/
 photo.18.tags: mofumofu, tail, tree, upside-down
+photo.19: https://www.instagram.com/p/BtDi0-5FaFc/media/?size=m
+photo.19.author: nakageo
+photo.19.link: https://www.instagram.com/nakageo/
+photo.19.tags: paws, tree
 species: 2
 zoo: 29

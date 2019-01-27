@@ -6,7 +6,7 @@ children: none
 en.name: Akatsuki
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: あかつき
 jp.nicknames: none
 jp.othernames: 暁
@@ -15,6 +15,10 @@ litter: 317, 318
 photo.1: http://www.codaworry.com/images/rpf/akatsuki-daniele-tokyo.jpg
 photo.1.author: daniele.tokyo
 photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: eye, profile
+photo.1.tags: baby, eye, profile
+photo.2: https://www.instagram.com/p/BtGBbXvlia0/media/?size=m
+photo.2.author: fetorus_mami
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.tags: baby, eye, tree
 species: 1
 zoo: 59
