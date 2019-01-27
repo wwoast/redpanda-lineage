@@ -44,10 +44,12 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
-    // Enable search bar once the page has loaded
+    // If available on the page, enable search bar once the page has loaded
     var placeholder = "➤ " + L.gui.search[L.display];
-    document.forms['searchForm']['searchInput'].disabled = false;
-    document.forms['searchForm']['searchInput'].placeholder = placeholder;
+    if (document.forms['searchForm'] != undefined) {
+      document.forms['searchForm']['searchInput'].disabled = false;
+      document.forms['searchForm']['searchInput'].placeholder = placeholder;
+    }
     document.getElementById('searchInput').focus();  // Set text cursor
 
     // If a hashlink was bookmarked, bring up the results of it
