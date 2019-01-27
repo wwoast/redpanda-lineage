@@ -511,6 +511,11 @@ h3.jp, h4.jp {
 
 div.species h4 {
     text-decoration: none;
+    margin-left: 14px;
+}
+
+div.profileFrame > div.profileDossier > ul.pandaList li {
+    margin-left: 4px;
 }
 
 div.family {
@@ -1028,6 +1033,10 @@ div.photoSample h5.caption.familyTitle {
         page-break-after: always;
     }
 
+    div.profileFrame > div.profileDossier > ul.pandaList > li {
+        margin-left: 4px;
+    }
+
     div.parents, div.litter, div.siblings, div.children, div.names {
         text-align: left;
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
@@ -1061,6 +1070,7 @@ div.photoSample h5.caption.familyTitle {
 
     div.species h4 {
         text-decoration: none !important;
+        margin-left: 8px;
     }
 
     ul.pandaList, ul.linkList {
