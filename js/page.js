@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   L.default();     // Set default language
-  checkHashes();   // See if we started on the links or about pages
+  Page.routes.check();   // See if we started on the links or about pages
   L.update();      // Update buttons, displayed results, and cookie state
   redrawPage(Page.current);   // Ready to redraw? Let's go.
 
@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", function() {
     L.display = new_language;
     L.update();
     redrawPage(Page.current);
-  });  
+  });
 
   document.getElementById('aboutButton').addEventListener("click", function() {
-    if (Page.current == outputAbout) {
+    if (Page.current == Page.about.render) {
       // Check the last query done and return to it, if it was a query
       if (Page.routes.fixed.includes(Page.lastSearch) == false) {
         window.location = Page.lastSearch;
@@ -98,13 +98,13 @@ document.addEventListener("DOMContentLoaded", function() {
       if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
         Page.about.fetch();
       } else {
-        outputAbout();
+        Page.about.render();
         // Add event listeners to the newly created About page buttons
         sectionButtonEventHandlers("aboutPageMenu");
         // Display correct subsection of the about page (class swaps)
         // Default: usage instructions appear non-hidden.
         showSection(Page.subMenu.getItem("aboutPageMenu"));
-        Page.current = outputAbout;
+        Page.current = Page.about.render;
       }
     }
   });
@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   document.getElementById('linksButton').addEventListener("click", function() {
-    if (Page.current == outputLinks) {
+    if (Page.current == Page.links.render) {
       // Check the last query done and return to it, if it was a query
       if (Page.routes.fixed.includes(Page.lastSearch) == false) {
         window.location = Page.lastSearch;
@@ -133,13 +133,13 @@ document.addEventListener("DOMContentLoaded", function() {
       if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
         Page.links.fetch();
       } else {
-        outputLinks();
+        Page.links.render();
         // Add event listeners to the newly created About page buttons
         sectionButtonEventHandlers("linksPageMenu");
         // Display correct subsection of the about page (class swaps)
         // Default: usage instructions appear non-hidden.
         showSection(Page.subMenu.getItem("linksPageMenu"));
-        Page.current = outputLinks;
+        Page.current = Page.links.render;
       }
     }
   });
@@ -186,13 +186,13 @@ window.addEventListener('hashchange', function() {
 // contents or just keep them stashed.
 window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
-    outputAbout();
+    Page.about.render();
     // Add event listeners to the newly created About page buttons
     sectionButtonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     showSection(Page.subMenu.getItem("aboutPageMenu"));
-    Page.current = outputAbout;
+    Page.current = Page.about.render;
   }
 });
 
@@ -200,13 +200,13 @@ window.addEventListener('about_loaded', function() {
 // contents or just keep them stashed.
 window.addEventListener('links_loaded', function() {
   if (window.location.hash == "#links") {
-    outputLinks();
+    Page.links.render();
     // Add event listeners to the newly created About page buttons
     sectionButtonEventHandlers("linksPageMenu");
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     showSection(Page.subMenu.getItem("linksPageMenu"));
-    Page.current = outputLinks;
+    Page.current = Page.links.render;
   }
 });
 
@@ -243,6 +243,20 @@ Page.about.fetch = function() {
 }
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
+Page.about.render = function() {
+  // Displays the about page when the button is clicked. Load content from a static
+  // file based on the given language, and display it in a #contentFrame.about
+  if (Page.about.language == undefined) {
+    Page.about.fetch();   // Direct link
+  } else if (Page.about.language != L.display) {
+    Page.about.fetch();   // Language change event
+  } else {
+    Page.subMenuDefaults();   // Initialize submenus if necessary
+    var old_content = document.getElementById('contentFrame');
+    Page.swapContents(old_content, Page.about.content);
+    Page.redrawFooter();
+  }
+}
 
 Page.current = outputResults;   // Default mode is to show panda results.
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
@@ -268,24 +282,52 @@ Page.links.fetch = function() {
     window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
   }
 }
-
 Page.links.language = undefined;   // Language the content was loaded in
 Page.links.loaded = new Event('links_loaded');
+Page.links.render = function() {
+  // Displays the links page when the button is clicked. Load content from a static
+  // file based on the given language, and display it in a #contentFrame.links
+  if (Page.links.language == undefined) {
+    Page.links.fetch();   // Direct link
+  }
+  else if (Page.links.language != L.display) {
+    Page.links.fetch();   // Language change event
+  } else {
+    Page.subMenuDefaults();   // Initialize submenus if necessary
+    var old_content = document.getElementById('contentFrame');
+    Page.swapContents(old_content, Page.links.content);
+    Page.redrawFooter();
+  }
+}
 
-// Hashlink routes that map to non-search-results content
-Page.routes = {
-  "dynamic": [
+/*
+    Logic related to checking page routes, which are all implemented as #hashlinks
+*/
+Page.routes = {};
+Page.routes.check = function() {
+  // On initial page load, look for specific hashes that represent special buttons
+  // and immediately load that page if necessary.
+  if (Page.routes.dynamic.includes(window.location.hash.split('/')[0])) {
+    Page.current = outputResults;
+  } else if (window.location.hash == "#about") {
+    Page.current = Page.about.render;
+  } else if (window.location.hash == "#links") {
+    Page.current = Page.links.render;
+  } else {
+    Page.current = outputHome;
+  }
+}
+Page.routes.dynamic = [
     "#credit",
     "#panda",
     "#query",
     "#zoo"
-  ],
-  "fixed": [
+];
+Page.routes.fixed = [
     "#about",    // The about page
     "#home",     // The empty query page
     "#links"     // The links page
-  ]
-}
+];
 
 // Use session storage (lost when browser closes) for menu state.
 // Potential values are for the menus on the about and links page, so the
@@ -297,35 +339,6 @@ Page.subMenu = window.sessionStorage;
 /*
     Display modes for the site
 */
-// On initial page load, look for specific hashes that represent special buttons
-// and immediately load that page if necessary.
-function checkHashes() {
-  if (Page.routes.dynamic.includes(window.location.hash.split('/')[0])) {
-    Page.current = outputResults;
-  } else if (window.location.hash == "#about") {
-    Page.current = outputAbout;
-  } else if (window.location.hash == "#links") {
-    Page.current = outputLinks;
-  } else {
-    Page.current = outputHome;
-  }
-}
-
-// Displays the about page when the button is clicked. Load content from a static
-// file based on the given language, and display it in a #contentFrame.about
-function outputAbout() {
-  if (Page.about.language == undefined) {
-    Page.about.fetch();   // Direct link
-  } else if (Page.about.language != L.display) {
-    Page.about.fetch();   // Language change event
-  } else {
-    Page.subMenuDefaults();   // Initialize submenus if necessary
-    var old_content = document.getElementById('contentFrame');
-    swapContents(old_content, Page.about.content);
-    Page.redrawFooter();
-  }
-}
-
 // Output just the base search bar with no footer.
 // TODO: random content to entice new visitors :)
 function outputHome() {
@@ -334,24 +347,8 @@ function outputHome() {
   new_content.src = "images/jiuzhaigou.jpg";
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
-  swapContents(old_content, new_content);
+  Page.swapContents(old_content, new_content);
   removeFooter();
-}
-
-// Displays the links page when the button is clicked. Load content from a static
-// file based on the given language, and display it in a #contentFrame.links
-function outputLinks() {
-  if (Page.links.language == undefined) {
-    Page.links.fetch();   // Direct link
-  }
-  else if (Page.links.language != L.display) {
-    Page.links.fetch();   // Language change event
-  } else {
-    Page.subMenuDefaults();   // Initialize submenus if necessary
-    var old_content = document.getElementById('contentFrame');
-    swapContents(old_content, Page.links.content);
-    Page.redrawFooter();
-  }
 }
 
 // This is the main panda search results function. When the URL #hash changes, process
@@ -384,7 +381,7 @@ function outputResults() {
 
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
-  swapContents(old_content, new_content);
+  Page.swapContents(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
   Page.redrawFooter();
