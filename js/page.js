@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       window.location = "#about";
       if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
-        fetchAboutPage();
+        Page.about.fetch();
       } else {
         outputAbout();
         // Add event listeners to the newly created About page buttons
@@ -131,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       window.location = "#links";
       if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
-        fetchLinksPage();
+        Page.links.fetch();
       } else {
         outputLinks();
         // Add event listeners to the newly created About page buttons
@@ -157,8 +157,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Fetch the about page and links page contents for each language
-  fetchAboutPage();
-  fetchLinksPage();
+  Page.about.fetch();
+  Page.links.fetch();
 
   // If a previous page was seen, load it
   var last_seen = window.localStorage.getItem("last_seen");
@@ -219,16 +219,56 @@ Page.init = function() {
   return page;
 }
 
-Page.current = outputResults;   // Default mode is to show panda results.
-Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
-
+/*
+    Logic related to the "About" page.
+    Loads language-specific content over an XHR
+*/
 Page.about = {};
 Page.about.content = undefined;    // About page content
+// Fetch the about page contents, and add the event listeners for how buttons
+// load different sections of the about page.
+Page.about.fetch = function() {
+  var base = "/fragments/";
+  var specific = L.display + "/about.html";
+  var fetch_url = base + specific;
+  var request = new XMLHttpRequest();
+  request.open('GET', fetch_url);
+  request.responseType = 'document';
+  request.send();
+  request.onload = function() {
+    Page.about.content = request.response.getElementById('hiddenContentFrame');
+    Page.about.language = L.display;   // What language the content was loaded in
+    window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
+  }
+}
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 
+Page.current = outputResults;   // Default mode is to show panda results.
+Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
+
+/*
+    Logic related to the Links page.
+    Loads language-specific content over an XHR
+*/
 Page.links = {};
 Page.links.content = undefined;    // Links page content
+// Fetch the links page contents
+Page.links.fetch = function() {
+  var base = "/fragments/";
+  var specific = L.display + "/links.html";
+  var fetch_url = base + specific;
+  var request = new XMLHttpRequest();
+  request.open('GET', fetch_url);
+  request.responseType = 'document';
+  request.send();
+  request.onload = function() {
+    Page.links.content = request.response.getElementById('hiddenContentFrame');
+    Page.links.language = L.display;   // What language the content was laoaded in
+    window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
+  }
+}
+
 Page.links.language = undefined;   // Language the content was loaded in
 Page.links.loaded = new Event('links_loaded');
 
@@ -271,51 +311,18 @@ function checkHashes() {
   }
 }
 
-// Fetch the about page contents, and add the event listeners for how buttons
-// load different sections of the about page.
-function fetchAboutPage() {
-  var base = "/fragments/";
-  var specific = L.display + "/about.html";
-  var fetch_url = base + specific;
-  var request = new XMLHttpRequest();
-  request.open('GET', fetch_url);
-  request.responseType = 'document';
-  request.send();
-  request.onload = function() {
-    Page.about.content = request.response.getElementById('hiddenContentFrame');
-    Page.about.language = L.display;   // What language the content was loaded in
-    window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
-  }
-}
-
-// Fetch the links page contents
-function fetchLinksPage() {
-  var base = "/fragments/";
-  var specific = L.display + "/links.html";
-  var fetch_url = base + specific;
-  var request = new XMLHttpRequest();
-  request.open('GET', fetch_url);
-  request.responseType = 'document';
-  request.send();
-  request.onload = function() {
-    Page.links.content = request.response.getElementById('hiddenContentFrame');
-    Page.links.language = L.display;   // What language the content was laoaded in
-    window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
-  }
-}
-
 // Displays the about page when the button is clicked. Load content from a static
 // file based on the given language, and display it in a #contentFrame.about
 function outputAbout() {
   if (Page.about.language == undefined) {
-    fetchAboutPage();   // Direct link
+    Page.about.fetch();   // Direct link
   } else if (Page.about.language != L.display) {
-    fetchAboutPage();   // Language change event
+    Page.about.fetch();   // Language change event
   } else {
     Page.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Page.about.content);
-    redrawFooter();
+    Page.redrawFooter();
   }
 }
 
@@ -335,15 +342,15 @@ function outputHome() {
 // file based on the given language, and display it in a #contentFrame.links
 function outputLinks() {
   if (Page.links.language == undefined) {
-    fetchLinksPage();   // Direct link
+    Page.links.fetch();   // Direct link
   }
   else if (Page.links.language != L.display) {
-    fetchLinksPage();   // Language change event
+    Page.links.fetch();   // Language change event
   } else {
     Page.subMenuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     swapContents(old_content, Page.links.content);
-    redrawFooter();
+    Page.redrawFooter();
   }
 }
 
@@ -380,7 +387,7 @@ function outputResults() {
   swapContents(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  redrawFooter();
+  Page.redrawFooter();
 }
 
 // Given a search for pandas and zoos, output entity divs
@@ -437,8 +444,8 @@ function redrawPage(callback) {
   }
 }
 
-// Add the footer at the bottom of the page, including a footer menu (TODO)
-function redrawFooter() {
+// Add the footer at the bottom of the page
+Page.redrawFooter = function() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
@@ -472,7 +479,7 @@ function removeFooter() {
 // Swap in a new contents frame for an old contents frame. 
 // After calling this, double-check that the footer 
 // is still the bottom of the page.
-function swapContents(old_content, new_content) {
+Page.swapContents = function(old_content, new_content) {
   // Append the new content into the page and then swap it in
   var body = document.getElementsByTagName('body')[0];
   // Place the new content right after the old content
