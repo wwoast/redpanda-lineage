@@ -360,10 +360,93 @@ Show.results.children = function(info) {
   children.appendChild(ul);
   return children;
 }
-
-// The dossier of information for a single panda.
-// This is the purple main information stripe for a panda.
+Show.results.family = function(info) {
+  // Display lists of family information, starting with parents,
+  // then adding immediate littermates, and finally including the
+  // other siblings, ordered by birthday. This is the pink stripe
+  // at the bottom of a family dossier.
+  var family = document.createElement('div');
+  family.className = "family";
+  if ((info.dad == undefined && info.mom == undefined) &&
+      (info.litter.length == 0) &&
+      (info.siblings.length == 0) &&
+      (info.children.length == 0))  {
+    return family;   // No documented family
+  }
+  var parents = undefined;
+  var litter = undefined;
+  var siblings = undefined;
+  var children = undefined;
+  if (info.dad != undefined || info.mom != undefined) {
+    parents = Show.results.parents(info);
+  }
+  if (info.litter.length > 0) {
+    litter = Show.results.litter(info);
+  }
+  if (info.siblings.length > 0) {
+    siblings = Show.results.siblings(info);
+  }
+  if (info.children.length > 0) {
+    children = Show.results.children(info);
+  }
+  var layout = Layout.init(family, info, parents, litter, siblings, children);
+  family = layout.layout();
+  return family;
+}
+Show.results.litter = function(info) {
+  // Do the littermates info in the family section
+  var language = info.language;
+  var heading = document.createElement('h4');
+  heading.className = "litterHeading" + " " + info.language;
+  heading.classList.add(language);
+  heading.innerText = L.gui.litter[info.language];
+  var ul = document.createElement('ul');
+  ul.className = "pandaList" + " " + info.language;
+  for (index in Pandas.sortOldestToYoungest(info.litter)) {
+    var animal = info.litter[index];
+    var litter_link = Show.animalLink(animal, animal[info.get_name], 
+                                      info.language, ["child_icon", "live_icon"])
+    var li = document.createElement('li');
+    li.appendChild(litter_link);
+    ul.appendChild(li);
+  }
+  var litter = document.createElement('div');
+  litter.className = 'litter';
+  litter.appendChild(heading);
+  litter.appendChild(ul);
+  return litter;
+}
+Show.results.panda = function(animal, language) {
+  // Display a block of information for a single panda.
+  // Most missing elements should not be displayed, but 
+  // a few should be printed regardless (birthday / death)
+  var info = Show.acquirePandaInfo(animal, language);
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  var title = Show.pandaTitle(info);
+  var details = Show.results.pandaDetails(info); 
+  var family = Show.results.family(info);
+  var dossier = document.createElement('div');
+  dossier.className = "pandaDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  dossier.appendChild(family);
+  var result = document.createElement('div');
+  result.className = "pandaResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result; 
+}
 Show.results.pandaDetails = function(info) {
+  // The purple results-page "dossier" information stripe for a panda.
   var language = info.language;
   var born = document.createElement('p');
   born.innerText = L.emoji.born + " " + info.birthday;
@@ -413,67 +496,8 @@ Show.results.pandaDetails = function(info) {
   }
   return details;
 }
-
-// Display lists of family information, starting with parents,
-// then adding immediate littermates, and finally including the
-// other siblings, ordered by birthday. This is the pink stripe
-// at the bottom of a family dossier.
-Show.results.family = function(info) {
-  var family = document.createElement('div');
-  family.className = "family";
-  if ((info.dad == undefined && info.mom == undefined) &&
-      (info.litter.length == 0) &&
-      (info.siblings.length == 0) &&
-      (info.children.length == 0))  {
-    return family;   // No documented family
-  }
-  var parents = undefined;
-  var litter = undefined;
-  var siblings = undefined;
-  var children = undefined;
-  if (info.dad != undefined || info.mom != undefined) {
-    parents = Show.results.parents(info);
-  }
-  if (info.litter.length > 0) {
-    litter = Show.results.litter(info);
-  }
-  if (info.siblings.length > 0) {
-    siblings = Show.results.siblings(info);
-  }
-  if (info.children.length > 0) {
-    children = Show.results.children(info);
-  }
-  var layout = Layout.init(family, info, parents, litter, siblings, children);
-  family = layout.layout();
-  return family;
-}
-
-// Do the littermates info in the family section
-Show.results.litter = function(info) {
-  var language = info.language;
-  var heading = document.createElement('h4');
-  heading.className = "litterHeading" + " " + info.language;
-  heading.classList.add(language);
-  heading.innerText = L.gui.litter[info.language];
-  var ul = document.createElement('ul');
-  ul.className = "pandaList" + " " + info.language;
-  for (index in Pandas.sortOldestToYoungest(info.litter)) {
-    var animal = info.litter[index];
-    var litter_link = Show.animalLink(animal, animal[info.get_name], 
-                                      info.language, ["child_icon", "live_icon"])
-    var li = document.createElement('li');
-    li.appendChild(litter_link);
-    ul.appendChild(li);
-  }
-  var litter = document.createElement('div');
-  litter.className = 'litter';
-  litter.appendChild(heading);
-  litter.appendChild(ul);
-  return litter;
-}
-
-// Do mom and dad's info in the family section
 Show.results.parents = function(info) {
+  // Do mom and dad's info in the family section
   var heading = document.createElement('h4');
   heading.className = "parentsHeading" + " " + info.language;
   heading.innerText = L.gui.parents[info.language];
@@ -507,9 +531,8 @@ Show.results.parents = function(info) {
   parents.appendChild(ul);
   return parents;
 }
-
-// Do the non-litter siblings info in the family section
 Show.results.siblings = function(info) {
+  // Do the non-litter siblings info in the family section
   var heading = document.createElement('h4');
   heading.className = "siblingsHeading" + " " + info.language;
   heading.innerText = L.gui.siblings[info.language];
@@ -537,10 +560,25 @@ Show.results.siblings = function(info) {
   siblings.appendChild(ul);
   return siblings;
 }
-
-// The dossier of information for a single zoo.
-// This is the purple main information stripe for a zoo.
-Show.displayZooDetails = function(info) {
+Show.results.zoo = function(zoo, language) {
+  // Display information for a zoo relevant to the red pandas
+  var info = Show.acquireZooInfo(zoo, language);
+  var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var photo = gallery.displayPhoto();
+  var title = Show.zooTitle(info);
+  var details = Show.results.zooDetails(info);
+  var dossier = document.createElement('div');
+  dossier.className = "zooDossier";
+  dossier.appendChild(title);
+  dossier.appendChild(details);
+  var result = document.createElement('div');
+  result.className = "zooResult";
+  result.appendChild(photo);
+  result.appendChild(dossier);
+  return result;
+}
+Show.results.zooDetails = function(info) {
+  // This is the purple "dossier" information stripe for a zoo.
   var language = info.language;
   var counts = document.createElement('p');
   var count_text = {
@@ -594,52 +632,4 @@ Show.displayZooDetails = function(info) {
     details.appendChild(other_photos);
   }
   return details;
-}
-
-// Display a text dossier of information for a panda. Most missing
-// elements should not be displayed, but a few should be printed 
-// regardless, such as birthday / time of death.
-Show.pandaInformation = function(animal, language) {
-  var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'pandaPhoto');
-  var photo = gallery.displayPhoto();
-  var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
-    span.style.display = "block";
-  });
-  photo.addEventListener('mouseout', function() {
-    span.style.display = "none";
-  });
-  var title = Show.pandaTitle(info);
-  var details = Show.results.pandaDetails(info); 
-  var family = Show.results.family(info);
-  var dossier = document.createElement('div');
-  dossier.className = "pandaDossier";
-  dossier.appendChild(title);
-  dossier.appendChild(details);
-  dossier.appendChild(family);
-  var result = document.createElement('div');
-  result.className = "pandaResult";
-  result.appendChild(photo);
-  result.appendChild(dossier);
-  return result; 
-}
-
-// Display information for a zoo relevant to the red pandas
-Show.zooInformation = function(zoo, language) {
-  var info = Show.acquireZooInfo(zoo, language);
-  var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
-  var photo = gallery.displayPhoto();
-  var title = Show.zooTitle(info);
-  var details = Show.displayZooDetails(info);
-  var dossier = document.createElement('div');
-  dossier.className = "zooDossier";
-  dossier.appendChild(title);
-  dossier.appendChild(details);
-  var result = document.createElement('div');
-  result.className = "zooResult";
-  result.appendChild(photo);
-  result.appendChild(dossier);
-  return result;
 }

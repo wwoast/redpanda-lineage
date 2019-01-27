@@ -190,13 +190,13 @@ Page.results.entities = function(results) {
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.zooInformation(entity, L.display));
+      content_divs.push(Show.results.zoo(entity, L.display));
       animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
       animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
+        content_divs.push(Show.results.panda(animal, L.display, undefined));
       });
     } else {
-      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
+      content_divs.push(Show.results.panda(entity, L.display, undefined));
     }
   });
   if (results.length == 0) {
