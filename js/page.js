@@ -319,38 +319,9 @@ Page.sections.show = function(section_id) {
   desired_button.classList.add("selected");
 }
 
-Page.current = Page.results.render;   // Default mode is to show panda results.
-
 /*
     Miscellaneous stuff that I don't know how to organize yet
 */
-// Redraw page after an updateLanguage event or similar
-Page.redraw = function(callback) {
-  // Redisplay results in the correct language, but only if the Pandas
-  // content has already been loaded.
-  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
-    callback();
-  }
-  // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
-    callback();
-  }
-}
-
-// Swap in a new contents frame for an old contents frame. 
-// After calling this, double-check that the footer 
-// is still the bottom of the page.
-Page.swap = function(old_content, new_content) {
-  // Append the new content into the page and then swap it in
-  var body = document.getElementsByTagName('body')[0];
-  // Place the new content right after the old content
-  old_content.parentNode.insertBefore(new_content, old_content.nextSibling);
-  old_content.style.display = "none";
-  new_content.style.display = "block";
-  body.removeChild(old_content);
-  new_content.id = 'contentFrame';
-}
-
 // Draw a bottom menu, for when there are panda search results
 Page.bottomMenu = function(language) {
   var menu_div = document.createElement('div');
@@ -434,4 +405,35 @@ Page.credit = function(credit, count, language) {
   footer.className = "creditSummary";
   footer.appendChild(shrinker);
   return footer;
+}
+
+// Stores callback to the current page render function for redraws.
+// Default mode is to show panda results.
+Page.current = Page.results.render;
+
+// Redraw page after an updateLanguage event or similar
+Page.redraw = function(callback) {
+  // Redisplay results in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
+    callback();
+  }
+  // For non-panda-results page, don't worry if the database is there or not
+  if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
+    callback();
+  }
+}
+
+// Swap in a new contents frame for an old contents frame. 
+// After calling this, double-check that the footer 
+// is still the bottom of the page.
+Page.swap = function(old_content, new_content) {
+  // Append the new content into the page and then swap it in
+  var body = document.getElementsByTagName('body')[0];
+  // Place the new content right after the old content
+  old_content.parentNode.insertBefore(new_content, old_content.nextSibling);
+  old_content.style.display = "none";
+  new_content.style.display = "block";
+  body.removeChild(old_content);
+  new_content.id = 'contentFrame';
 }
