@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
         Page.about.render();
         // Add event listeners to the newly created About page buttons
-        Page.Page.sections.buttonEventHandlers("aboutPageMenu");
+        Page.sections.buttonEventHandlers("aboutPageMenu");
         // Display correct subsection of the about page (class swaps)
         // Default: usage instructions appear non-hidden.
         Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
@@ -135,7 +135,7 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
         Page.links.render();
         // Add event listeners to the newly created About page buttons
-        Page.Page.sections.buttonEventHandlers("linksPageMenu");
+        Page.sections.buttonEventHandlers("linksPageMenu");
         // Display correct subsection of the about page (class swaps)
         // Default: usage instructions appear non-hidden.
         Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
