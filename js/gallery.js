@@ -170,20 +170,20 @@ Gallery.G.photoSwap = function(photo, desired_index) {
 }
 
 // Replace the photographer's credit info for a panda's photo
-Gallery.G.singlePhotoCredit = function(photo_info, current_id, new_id) {
+Gallery.G.singlePhotoCredit = function(photo_info, current_index, new_index) {
   var animal_id = photo_info.id;
-  var credit_link = document.getElementById(animal_id + "/author/" + current_id);
-  credit_link.id = animal_id + "/author/" + new_id;
+  var credit_link = document.getElementById(animal_id + "/author/" + current_index);
+  credit_link.id = animal_id + "/author/" + new_index;
   credit_link.href = photo_info["link"];
   credit_link.target = "_blank";   // Open in new tab
   credit_link.innerText = L.emoji.camera + " " + photo_info["credit"];
 }
 
 // Replace the photographer's apple points (number of photos on the site)
-Gallery.G.userApplePoints = function(photo_info, current_id, new_id) {
+Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
   var animal_id = photo_info.id;
-  var apple_link = document.getElementById(animal_id + "/counts/" + current_id);
-  apple_link.id = animal_id + "/counts/" + new_id;
+  var apple_link = document.getElementById(animal_id + "/counts/" + current_index);
+  apple_link.id = animal_id + "/counts/" + new_index;
   apple_link.href = "#credit/" + photo_info["credit"];
   apple_link.innerText = L.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
 }
