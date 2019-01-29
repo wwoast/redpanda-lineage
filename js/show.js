@@ -881,6 +881,14 @@ Show.results.zooDetails = function(info) {
     Methods related to displaying a panda search bar
 */
 Show.searchBar = {};
+Show.searchBar.display = function() {
+  // Display the search bar if it is hidden
+  if (document.forms['searchForm'] != undefined) {
+    document.forms['searchForm'].display = "block";
+  }
+  // Then enable and set text cursor focus
+  Show.searchBar.enable();
+}
 Show.searchBar.enable = function() {
   // Enable the search bar (i.e. if panda content has loaded), and display
   // the placeholder text in a localized way. If a page doesn't have the
@@ -891,6 +899,13 @@ Show.searchBar.enable = function() {
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
   }
   document.getElementById('searchInput').focus();  // Set text cursor
+}
+Show.searchBar.hide = function() {
+  // Hide the search bar
+  document.forms['searchForm'].display = "none";
+}
+Show.searchBar.remove = function() {
+  // TODO: remove the search bar when leaving profile mode
 }
 Show.searchBar.render = function(frame_class) {
   // Create a search bar. Should be the same kind of bar that would appear
