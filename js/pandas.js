@@ -737,6 +737,7 @@ Pandas.profilePhoto = function(animal, index) {
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {
+        "id": animal["_id"],
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
      "index": choice.replace("photo.", ""),

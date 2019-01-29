@@ -164,14 +164,26 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   Touch.addHandler(new_photo);
   var photo_info = Pandas.profilePhoto(animal, new_index);
   // Replace the animal credit info
-  var credit_link = document.getElementById(animal_id + "/author/" + photo_id);
-  credit_link.id = animal_id + "/author/" + new_index;
+  this.singlePhotoCredit(photo_info, photo_id, new_index);
+  // And the photographer credit's apple points
+  this.userApplePoints(photo_info, photo_id, new_index);
+}
+
+// Replace the photographer's credit info for a panda's photo
+Gallery.G.singlePhotoCredit = function(photo_info, current_id, new_id) {
+  var animal_id = photo_info.id;
+  var credit_link = document.getElementById(animal_id + "/author/" + current_id);
+  credit_link.id = animal_id + "/author/" + new_id;
   credit_link.href = photo_info["link"];
   credit_link.target = "_blank";   // Open in new tab
   credit_link.innerText = L.emoji.camera + " " + photo_info["credit"];
-  // And the photographer credit's apple points
-  var apple_link = document.getElementById(animal_id + "/counts/" + photo_id);
-  apple_link.id = animal_id + "/counts/" + new_index;
+}
+
+// Replace the photographer's apple points (number of photos on the site)
+Gallery.G.userApplePoints = function(photo_info, current_id, new_id) {
+  var animal_id = photo_info.id;
+  var apple_link = document.getElementById(animal_id + "/counts/" + current_id);
+  apple_link.id = animal_id + "/counts/" + new_id;
   apple_link.href = "#credit/" + photo_info["credit"];
   apple_link.innerText = L.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
 }
@@ -182,6 +194,7 @@ Gallery.G.photoSwap = function(photo, desired_index) {
 // Take an animal, and return a list of divs for all the photos of that animal
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
+// TODO: support paging!!
 Gallery.pandaPhotoCredits = function(animal, credit, language) {
   var content_divs = [];
   var photos = [];
