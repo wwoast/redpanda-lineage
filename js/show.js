@@ -386,13 +386,6 @@ Show.button.home.render = function() {
   home.addEventListener("click", Show.button.home.action);
   return home;
 }
-Show.button.home.renderLogo = function() {
-  var home = Show.button.render("logoButton", L.emoji.logo);
-  home.classList.add("logo");
-  home.classList.remove("menu");
-  home.addEventListener("click", Show.button.home.action);
-  return home;
-}
 Show.button.language = {};
 Show.button.language.action = function() {
   // When clicking the language button, cycle to the next possible display language
@@ -443,6 +436,16 @@ Show.button.links.render = function() {
   var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display]);
   links.addEventListener("click", Show.button.links.action);
   return links;
+}
+Show.button.logo = {};
+// The logo button and home button do the same thing, but appear in different spots
+Show.button.logo.action = Show.button.home.action;
+Show.button.logo.render = function() {
+  var logo = Show.button.render("logoButton", L.emoji.logo);
+  logo.classList.add("logo");
+  logo.classList.remove("menu");
+  logo.addEventListener("click", Show.button.logo.action);
+  return home;
 }
 Show.button.random = {};
 Show.button.random.action = function() {
@@ -574,7 +577,7 @@ Show.results.menus.top = function() {
   // Return to a green menu bar: Logo/Home, Language, About, Random, Links
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
-  var logo_button = Show.button.home.renderLogo();
+  var logo_button = Show.button.logo.render();
   var language_button = Show.button.language.render();
   var about_button = Show.button.about.render();
   var random_button = Show.button.random.render();
@@ -606,6 +609,8 @@ Show.results.menus.bottom = function() {
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
 }
+Show.results.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
 Show.results.panda = function(animal, language) {
   // Display a block of information for a single panda.
   // Most missing elements should not be displayed, but 

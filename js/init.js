@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Add event listeners to buttons that appear by default in the page
-  document.getElementById('logoButton').addEventListener("click", Show.button.home.action);
+  document.getElementById('logoButton').addEventListener("click", Show.button.logo.action);
   document.getElementById('languageButton').addEventListener("click", Show.button.language.action);
   document.getElementById('aboutButton').addEventListener("click", Show.button.about.action);
   document.getElementById('randomButton').addEventListener("click", Show.button.random.action);
