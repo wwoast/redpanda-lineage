@@ -335,6 +335,159 @@ Show.zooTitle = function(info) {
   return title_div;
 }
 
+/*
+    Show functions related to buttons and their event handlers
+*/
+Show.button = {};
+Show.button.about = {};
+Show.button.about.action = function() {
+  // Handle when someone clicks the about button
+  if (Page.current == Page.about.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#about";
+    if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
+      Page.about.fetch();
+    } else {
+      Page.about.render();
+      // Add event listeners to the newly created About page buttons
+      Page.sections.buttonEventHandlers("aboutPageMenu");
+      // Display correct subsection of the about page (class swaps)
+      // Default: usage instructions appear non-hidden.
+      Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+      Page.current = Page.about.render;
+    }
+  }
+}
+Show.button.about.render = function() {
+  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display]);
+  about.addEventListener("click", Show.button.about.action);
+  return about;
+}
+Show.button.home = {};
+Show.button.home.action = function() {
+  // Return to the empty search page
+  Page.lastSearch = "#home";
+  Page.home.render();
+  window.location = "#home";
+  Page.current = Page.home.render;
+};
+Show.button.home.render = function() {
+  var home = Show.button.render("homeButton", L.emoji.home, home_text);
+  home.addEventListener("click", Show.button.home.action);
+  return home;
+}
+Show.button.home.renderLogo = function() {
+  var home = Show.button.render("logoButton", L.emoji.logo);
+  home.classList.add("logo");
+  home.classList.remove("menu");
+  home.addEventListener("click", Show.button.home.action);
+  return home;
+}
+Show.button.language = {};
+Show.button.language.action = function() {
+  // When clicking the language button, cycle to the next possible display language
+  var language = L.display;
+  var options = Object.values(Pandas.def.languages);
+  var choice = options.indexOf(language);
+  choice = (choice + 1) % options.length;
+  var new_language = options[choice];
+  L.display = new_language;
+  L.update();
+  Page.redraw(Page.current);
+}
+Show.button.language.render = function() {
+  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display]);
+  language.addEventListener("click", Show.button.language.action);
+  return language;
+}
+Show.button.links = {};
+Show.button.links.action = function() {
+  // Handle when someone clicks the links button
+  if (Page.current == Page.links.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#links";
+    if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
+      Page.links.fetch();
+    } else {
+      Page.links.render();
+      // Add event listeners to the newly created About page buttons
+      Page.sections.buttonEventHandlers("linksPageMenu");
+      // Display correct subsection of the about page (class swaps)
+      // Default: usage instructions appear non-hidden.
+      Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
+      Page.current = Page.links.render;
+    }
+  }
+}
+Show.button.links.render = function() {
+  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display]);
+  links.addEventListener("click", Show.button.links.action);
+  return links;
+}
+Show.button.random = {};
+Show.button.random.action = function() {
+  // Show a random panda from the database when the dice is clicked
+  Page.current = Page.results.render;
+  var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
+  window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+}
+Show.button.random.render = function() {
+  var random = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display]);
+  random.addEventListener("click", Show.button.random.action);
+  return random;
+}
+Show.button.render = function(id, button_icon, button_text) {
+  // Draw menu buttons for the bottom menu, or potentially elsewhere.
+  var button = document.createElement('button');
+  button.className = "menu";
+  button.id = id;
+  var content = document.createElement('div');
+  content.className = "buttonContent";
+  var icon_div = document.createElement('div');
+  icon_div.className = 'icon';
+  icon_div.innerText = button_icon;
+  content.appendChild(icon_div);
+  if (button_text != undefined) {
+    var text_div = document.createElement('div');
+    text_div.className = 'text';
+    text_div.innerText = button_text;
+    content.appendChild(text_div);
+  }
+  button.appendChild(content);
+  return button;
+}
+Show.button.top = {};
+Show.button.top.action = function() {
+  // anchor tags get used for JS redraws, so don't use an anchor tag for
+  // top-of-page scroll events. This fixes the language button after clicking pageTop.
+  window.scrollTo(0, 0);
+}
+Show.button.top.render = function() {
+  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display]);
+  top.addEventListener("click", Show.button.top.action);
+  return top;
+}
+
 /* 
     Show functions used by the search results pages
 */
@@ -415,6 +568,43 @@ Show.results.litter = function(info) {
   litter.appendChild(heading);
   litter.appendChild(ul);
   return litter;
+}
+Show.results.menus = {};
+Show.results.menus.top = function() {
+  // Return to a green menu bar: Logo/Home, Language, About, Random, Links
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  var logo_button = Show.button.home.renderLogo();
+  var language_button = Show.button.language.render();
+  var about_button = Show.button.about.render();
+  var random_button = Show.button.random.render();
+  var links_button = Show.button.links.render();
+  new_contents.appendChild(logo_button);
+  new_contents.appendChild(language_button);
+  new_contents.appendChild(about_button);
+  new_contents.appendChild(random_button);
+  new_contents.appendChild(links_button);
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("topMenu")[0];
+  var current_contents = menu.childNodes[0];
+  menu.replaceChild(new_contents, current_contents);
+  // Remove any previous menu class modifiers
+  menu.classList.remove("profile");
+}
+Show.results.menus.bottom = function() {
+  // Return to a green menu bar: Top, Home
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  var top_button = Show.button.top.render();
+  var home_button = Show.button.home.render();
+  new_contents.appendChild(top_button);
+  new_contents.appendChild(home_button);
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("topMenu")[0];
+  var current_contents = menu.childNodes[0];
+  menu.replaceChild(new_contents, current_contents);
+  // Remove any previous menu class modifiers
+  menu.classList.remove("profile");
 }
 Show.results.panda = function(animal, language) {
   // Display a block of information for a single panda.

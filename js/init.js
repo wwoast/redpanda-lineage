@@ -64,87 +64,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  document.getElementById('logoButton').addEventListener("click", function() {
-    // Return to the empty search page
-    Page.lastSearch = "#home";
-    Page.home.render();
-    window.location = "#home";
-    Page.current = Page.home.render;
-  });
-
-  document.getElementById('languageButton').addEventListener("click", function() {
-    var language = L.display;
-    var options = Object.values(Pandas.def.languages);
-    var choice = options.indexOf(language);
-    choice = (choice + 1) % options.length;
-    var new_language = options[choice];
-    L.display = new_language;
-    L.update();
-    Page.redraw(Page.current);
-  });
-
-  document.getElementById('aboutButton').addEventListener("click", function() {
-    if (Page.current == Page.about.render) {
-      // Check the last query done and return to it, if it was a query
-      if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-        window.location = Page.lastSearch;
-      } else {
-        window.location = "#home";
-      }
-    } else {
-      // Only save the last page if it wasn't one of the other fixed buttons
-      if (Page.routes.fixed.includes(window.location.hash) == false) {
-        Page.lastSearch = window.location.hash;
-      }
-      window.location = "#about";
-      if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
-        Page.about.fetch();
-      } else {
-        Page.about.render();
-        // Add event listeners to the newly created About page buttons
-        Page.sections.buttonEventHandlers("aboutPageMenu");
-        // Display correct subsection of the about page (class swaps)
-        // Default: usage instructions appear non-hidden.
-        Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
-        Page.current = Page.about.render;
-      }
-    }
-  });
-
-  document.getElementById('randomButton').addEventListener("click", function() {
-    // Show a random panda from the database when the dice is clicked
-    Page.current = Page.results.render;
-    var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
-    window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
-  });
-
-  document.getElementById('linksButton').addEventListener("click", function() {
-    if (Page.current == Page.links.render) {
-      // Check the last query done and return to it, if it was a query
-      if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-        window.location = Page.lastSearch;
-      } else {
-        window.location = "#home";
-      }
-    } else {
-      // Only save the last page if it wasn't one of the other fixed buttons
-      if (Page.routes.fixed.includes(window.location.hash) == false) {
-        Page.lastSearch = window.location.hash;
-      }
-      window.location = "#links";
-      if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
-        Page.links.fetch();
-      } else {
-        Page.links.render();
-        // Add event listeners to the newly created About page buttons
-        Page.sections.buttonEventHandlers("linksPageMenu");
-        // Display correct subsection of the about page (class swaps)
-        // Default: usage instructions appear non-hidden.
-        Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-        Page.current = Page.links.render;
-      }
-    }
-  });
+  // Add event listeners to buttons that appear by default in the page
+  document.getElementById('logoButton').addEventListener("click", Show.button.home.action);
+  document.getElementById('languageButton').addEventListener("click", Show.button.language.action);
+  document.getElementById('aboutButton').addEventListener("click", Show.button.about.action);
+  document.getElementById('randomButton').addEventListener("click", Show.button.random.action);
+  document.getElementById('linksButton').addEventListener("click", Show.button.links.action);
 
   document.getElementById('searchForm').addEventListener("submit", function() {
     Page.current = Page.results.render;

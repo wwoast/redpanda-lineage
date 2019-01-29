@@ -330,51 +330,14 @@ Page.bottomMenu = function(language) {
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   // Currently there are top and home buttons
-  // Top button
-  var top_icon = L.emoji.top;
-  var top_text = L.gui.top[language];
-  var top_button = Page.button("topButton", top_icon, top_text);
-  top_button.addEventListener("click", function() {
-    // anchor tags get used for JS redraws, so don't use an anchor tag for
-    // top-of-page scroll events. This fixes the language button after clicking pageTop.
-    window.scrollTo(0, 0);
-  });
-  // Home button
-  var home_icon = L.emoji.home;
-  var home_text = L.gui.home[language];
-  var home_button = Page.button("homeButton", home_icon, home_text);
-  // In mobile mode, logo button at the top doesn't exist so add a home button
-  // to the footer bar menu.
-  home_button.addEventListener("click", function() {
-    // Return to the empty search page
-    Page.lastSearch = "#home";
-    Page.home.render();
-    window.location = "#home";
-    Page.current = Page.home.render;
-  });
+  // In mobile mode, logo button at the top doesn't exist
+  // so add a home button to the footer bar menu.
+  var top_button = Show.button.top.render();
+  var home_button = Show.button.home.render();
   shrinker.appendChild(top_button);
   shrinker.appendChild(home_button);
   menu_div.appendChild(shrinker);
   return menu_div;
-}
-
-// Draw menu buttons for the bottom menu, or potentially elsewhere.
-Page.button = function(id, button_icon, button_text) {
-  var button = document.createElement('button');
-  button.className = "menu";
-  button.id = id;
-  var content = document.createElement('div');
-  content.className = "buttonContent";
-  var icon_div = document.createElement('div');
-  icon_div.className = 'icon';
-  icon_div.innerText = button_icon;
-  var text_div = document.createElement('div');
-  text_div.className = 'text';
-  text_div.innerText = button_text;
-  content.appendChild(icon_div);
-  content.appendChild(text_div);
-  button.appendChild(content);
-  return button;
 }
 
 // Draw a header for crediting someone's photos contribution 
