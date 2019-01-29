@@ -45,12 +45,7 @@ document.addEventListener("DOMContentLoaded", function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
     // If available on the page, enable search bar once the page has loaded
-    var placeholder = "➤ " + L.gui.search[L.display];
-    if (document.forms['searchForm'] != undefined) {
-      document.forms['searchForm']['searchInput'].disabled = false;
-      document.forms['searchForm']['searchInput'].placeholder = placeholder;
-    }
-    document.getElementById('searchInput').focus();  // Set text cursor
+    Show.searchBar.enable();
 
     // If a hashlink was bookmarked, bring up the results of it
     if ((window.location.hash.length > 0) && 
@@ -70,17 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
   }
 
-  document.getElementById('searchForm').addEventListener("submit", function() {
-    Page.current = Page.results.render;
-    document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
-    var query = (document.getElementById('searchInput').value).trim();
-    Query.lexer.parse(query);  // TODO: onhashchange, race for results?
-    window.location = "#query/" + query;
-    // Refocus text cursor after a search is performed
-    setTimeout(function() {
-      document.getElementById('searchInput').focus();
-    }, 0);
-  });
+  // Add submit events for a search form if it exists
+  document.getElementById('searchForm').addEventListener("submit", Show.searchBar.submit);
 
   // Fetch the about page and links page contents for each language
   Page.about.fetch();

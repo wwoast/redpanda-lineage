@@ -491,6 +491,56 @@ Show.button.top.render = function() {
   return top;
 }
 
+/*
+    Show functions used by the profile/media/timelines page for a single animal
+*/
+Show.profile = {};
+Show.profile.menus = {};
+Show.profile.menus.bottom = function() {
+  // Offer red menu bar with a search function: Top, Home, Search
+  // TODO: the search bits
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of bottom-menu buttons and render them
+  for (let btn_id of Show.results.menus.bottomButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render();
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("bottomMenu")[0];
+  var current_contents = menu.childNodes[0];
+  menu.replaceChild(new_contents, current_contents);
+  // Remove any previous menu class modifiers
+  menu.classList.remove("profile");
+}
+Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
+Show.profile.menus.top = function() {
+  // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of top-menu buttons and render them
+  for (let btn_id of Show.results.menus.topButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render();
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("topMenu")[0];
+  var current_contents = menu.childNodes[0];
+  menu.replaceChild(new_contents, current_contents);
+  // Remove any previous menu class modifiers
+  menu.classList.remove("profile");
+}
+Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
+Show.profile.search = {};
+Show.profile.search.display = function() {
+  // TODO: show the search box at the bottom of the profile page
+}
+Show.profile.search.render = function() {
+  // TODO: render the search bar at the bottom of the profile page
+}
+
 /* 
     Show functions used by the search results pages
 */
@@ -584,7 +634,7 @@ Show.results.menus.bottom = function() {
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("topMenu")[0];
+  var menu = document.getElementsByClassName("bottomMenu")[0];
   var current_contents = menu.childNodes[0];
   menu.replaceChild(new_contents, current_contents);
   // Remove any previous menu class modifiers
@@ -825,4 +875,59 @@ Show.results.zooDetails = function(info) {
     details.appendChild(other_photos);
   }
   return details;
+}
+
+/*
+    Methods related to displaying a panda search bar
+*/
+Show.searchBar = {};
+Show.searchBar.enable = function() {
+  // Enable the search bar (i.e. if panda content has loaded), and display
+  // the placeholder text in a localized way. If a page doesn't have the
+  // search bar, do nothing.
+  if (document.forms['searchForm'] != undefined) {
+    document.forms['searchForm']['searchInput'].disabled = false;
+    var placeholder = "➤ " + L.gui.search[L.display];
+    document.forms['searchForm']['searchInput'].placeholder = placeholder;
+  }
+  document.getElementById('searchInput').focus();  // Set text cursor
+}
+Show.searchBar.render = function(frame_class) {
+  // Create a search bar. Should be the same kind of bar that would appear
+  // either at the top of the search results page, or at the bottom of the
+  // profiles page. There can only be one on a page (id logic).
+  var hidden_button = document.createElement('input');
+  hidden_button.id = "searchSubmit";
+  hidden_button.className = "search";
+  hidden_button.type = "submit";
+  var text_input = document.createElement('input');
+  text_input.id = "searchInput";
+  text_input.className = "search";
+  text_input.placeholder = "➤ " + L.gui.search[L.display];
+  text_input.type = "search";
+  var form = document.createElement('form');
+  form.id = "searchForm";
+  form.action = "javascript:";
+  form.acceptCharset = "UTF-8";
+  form.appendChild(hidden_button);
+  form.append_child(text_input);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(form);
+  var search_bar = document.createElement('div');
+  search_bar.className = frame_class;   // top_search or bottom_search
+  search_bar.appendChild(shrinker);
+  return search_bar;
+}
+Show.searchBar.submit = function() {
+  // JS actions for submiting a search
+  Page.current = Page.results.render;
+  document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
+  var query = (document.getElementById('searchInput').value).trim();
+  Query.lexer.parse(query);  // TODO: onhashchange, race for results?
+  window.location = "#query/" + query;
+  // Refocus text cursor after a search is performed
+  setTimeout(function() {
+    document.getElementById('searchInput').focus();
+  }, 0);
 }
