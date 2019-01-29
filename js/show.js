@@ -382,7 +382,7 @@ Show.button.home.action = function() {
   Page.current = Page.home.render;
 };
 Show.button.home.render = function() {
-  var home = Show.button.render("homeButton", L.emoji.home, home_text);
+  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display]);
   home.addEventListener("click", Show.button.home.action);
   return home;
 }
