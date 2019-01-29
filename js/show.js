@@ -573,20 +573,16 @@ Show.results.litter = function(info) {
   return litter;
 }
 Show.results.menus = {};
-Show.results.menus.top = function() {
-  // Return to a green menu bar: Logo/Home, Language, About, Random, Links
+Show.results.menus.bottom = function() {
+  // Return to a green menu bar: Top, Home
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
-  var logo_button = Show.button.logo.render();
-  var language_button = Show.button.language.render();
-  var about_button = Show.button.about.render();
-  var random_button = Show.button.random.render();
-  var links_button = Show.button.links.render();
-  new_contents.appendChild(logo_button);
-  new_contents.appendChild(language_button);
-  new_contents.appendChild(about_button);
-  new_contents.appendChild(random_button);
-  new_contents.appendChild(links_button);
+  // Take the list of bottom-menu buttons and render them
+  for (let btn_id of Show.results.menus.bottomButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render();
+    new_contents.appendChild(button);
+  }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   var current_contents = menu.childNodes[0];
@@ -594,14 +590,17 @@ Show.results.menus.top = function() {
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
 }
-Show.results.menus.bottom = function() {
-  // Return to a green menu bar: Top, Home
+Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.results.menus.top = function() {
+  // Return to a green menu bar: Logo/Home, Language, About, Random, Links
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
-  var top_button = Show.button.top.render();
-  var home_button = Show.button.home.render();
-  new_contents.appendChild(top_button);
-  new_contents.appendChild(home_button);
+  // Take the list of top-menu buttons and render them
+  for (let btn_id of Show.results.menus.topButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render();
+    new_contents.appendChild(button);
+  }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   var current_contents = menu.childNodes[0];
@@ -610,7 +609,6 @@ Show.results.menus.bottom = function() {
   menu.classList.remove("profile");
 }
 Show.results.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
-Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
 Show.results.panda = function(animal, language) {
   // Display a block of information for a single panda.
   // Most missing elements should not be displayed, but 

@@ -65,11 +65,10 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Add event listeners to buttons that appear by default in the page
-  document.getElementById('logoButton').addEventListener("click", Show.button.logo.action);
-  document.getElementById('languageButton').addEventListener("click", Show.button.language.action);
-  document.getElementById('aboutButton').addEventListener("click", Show.button.about.action);
-  document.getElementById('randomButton').addEventListener("click", Show.button.random.action);
-  document.getElementById('linksButton').addEventListener("click", Show.button.links.action);
+  for (let button_id of Show.results.menus.topButtons) {
+    var button_type = button_id.replace("Button", "");
+    document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
+  }
 
   document.getElementById('searchForm').addEventListener("submit", function() {
     Page.current = Page.results.render;
