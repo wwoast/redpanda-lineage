@@ -2,10 +2,10 @@
 _id: 226
 birthday: 2016/6/28
 birthplace: 37
-children: unknown
+children: none
 en.name: Yun-Yun
 en.nicknames: Cloud
-en.othernames: Un-Un, Yunyun
+en.othernames: Yunyun, Un-Un
 gender: f
 jp.name: 雲雲
 jp.nicknames: none
@@ -82,5 +82,9 @@ photo.18: https://www.instagram.com/p/BtAih3MF_-m/media/?size=m
 photo.18.author: ho0oipo
 photo.18.link: https://www.instagram.com/ho0oipo/
 photo.18.tags: paws, snow, tail
+photo.19: https://www.instagram.com/p/BshoI-0lfus/media/?size=m
+photo.19.author: yokohama0907
+photo.19.link: https://www.instagram.com/yokohama0907/
+photo.19.tags: nose, paws, snow
 species: 2
 zoo: 37
