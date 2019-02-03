@@ -151,7 +151,7 @@ Page.links.render = function() {
 }
 
 /*
-    The profiles page display details, media, or timelines for an idividual panda
+    The profiles page display details, media, or timelines for an individual panda
 */
 Page.profile = {};
 Page.profile.render = function() {
@@ -161,8 +161,10 @@ Page.profile.render = function() {
   var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   // TODO: document structure and things to display based on input
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
+  var content_div = Show.profile.panda(results[0], L.display);
+  var new_content = document.createElement('div');
+  new_content.className = "shrinker";
+  new_content.appendChild(content_div);
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
@@ -176,38 +178,49 @@ Page.routes = {};
 Page.routes.behavior = function(input) {
   // Each hashlink determines a different behavior for the page rendering.
   // Do a task based on what the route is.
-  if ((input.indexOf("#panda/") == 0) &&
-      (input.split("/").length == 4)) {
-    // go-link for a panda result with a chosen photo.
+  if (input.indexOf("#credit/") == 0) {
+    // link for a page of photo credits for a specific author
+    Query.env.credit = input.slice(8);
+    Query.env.preserve_case = true;   // Don't adjust case for author searches
+    Query.env.output = "photos";      // Set output mode for a photo list
+    return Query.resolver.subject(Query.env.credit, "credit", L.display);
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 4)) {
+    // link for a panda result with a chosen photo.
     var uri_items = input.slice(7);
     var [ panda, _, photo_id ] = uri_items.split("/");
     Query.env.specific = photo_id;
     return Query.resolver.subject(panda, "panda", L.display);    
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 2)) {
-    // go-link for a single panda result.
-    // for now, just a search result. soon, a detailed result page
+    // link for a single panda result. TODO: maybe do a detailed page
     var panda = input.slice(7);
     return Query.resolver.subject(panda, "panda", L.display);
-  } else if (input.indexOf("#zoo/") == 0) {
-    // go-link for a single zoo result.
-    var zoo = input.slice(5);
-    return Query.resolver.subject(zoo, "zoo", L.display);
-  } else if (input.indexOf("#credit/") == 0) {
-    // go-link for a page of photo credits for a specific author
-    Query.env.credit = input.slice(8);
-    Query.env.preserve_case = true;   // Don't adjust case for author searches
-    Query.env.output = "photos";      // Set output mode for a photo list
-    return Query.resolver.subject(Query.env.credit, "credit", L.display);
-  } else if (input.indexOf("#timeline/") == 0) {
-    // show full info and timeline for a panda. TODO
-    var panda = input.slice(10);
+  } else if ((input.indexOf("#profile/") == 0) &&
+             (input.split("/").length == 4)) {
+    // link for a panda profile result with a chosen photo.
+    var uri_items = input.slice(9);
+    var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.specific = photo_id;
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#profile/") == 0) &&
+             (input.split("/").length == 2)) {
+    // link for a single panda profile result.
+    var panda = input.slice(9);
     return Query.resolver.subject(panda, "panda", L.display);
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
     var terms = input.slice(7);
     var results = Query.lexer.parse(terms);
     return (results == undefined) ? [] : results;
+  } else if (input.indexOf("#timeline/") == 0) {
+    // show full info and timeline for a panda. TODO
+    var panda = input.slice(10);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if (input.indexOf("#zoo/") == 0) {
+    // link for a single zoo result.
+    var zoo = input.slice(5);
+    return Query.resolver.subject(zoo, "zoo", L.display);
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;

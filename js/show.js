@@ -538,6 +538,24 @@ Show.profile.menus.top = function() {
   menu.classList.remove("profile");
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
+Show.profile.panda = function(animal, language) {
+  // Create a profile page for a single panda
+  var info = Show.acquirePandaInfo(animal, language);
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();   // TODO: start at the profile photo always
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  var result = document.createElement('div');
+  result.className = "profileFrame";
+  result.appendChild(photo);
+  return result; 
+}
 Show.profile.search = {};
 Show.profile.search.render = function() {
   // Render the search bar at the bottom of the profile page
