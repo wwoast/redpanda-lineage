@@ -47,8 +47,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // If available on the page, enable search bar once the page has loaded
     Show.searchBar.enable();
 
-    // If a hashlink was bookmarked, bring up the results of it
-    if ((window.location.hash.length > 0) && 
+    // Determine what page content to display
+    if (Page.routes.profile.includes(window.location.hash)) {
+      Page.profile.render();
+    } else if ((window.location.hash.length > 0) && 
         (Page.routes.fixed.includes(window.location.hash) == false)) {
       Page.results.render();
     }
@@ -60,12 +62,12 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Add event listeners to buttons that appear by default in the page.
-  if (Page.routes.includes(window.location.hash, Page.routes.results)) {
+  if (Page.routes.results.includes(window.location.hash)) {
     for (let button_id of Show.results.menus.topButtons) {
       var button_type = button_id.replace("Button", "");
       document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
     }
-  } else if (Page.routes.includes(window.location.hash, Page.routes.profile)) {
+  } else if (Page.routes.profile.includes(window.location.hash)) {
     for (let button_id of Show.profile.menus.topButtons) {
       var button_type = button_id.replace("Button", "");
       document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);

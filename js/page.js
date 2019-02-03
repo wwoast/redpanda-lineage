@@ -151,6 +151,25 @@ Page.links.render = function() {
 }
 
 /*
+    The profiles page display details, media, or timelines for an idividual panda
+*/
+Page.profile = {};
+Page.profile.render = function() {
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
+  // Start by just displaying info for one panda by id search
+  var results = Query.hashlink(input);
+  results = results instanceof Array ? results : [results];   // Guarantee array
+  // TODO: document structure and things to display based on input
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, new_content);
+  Page.footer.redraw();
+}
+
+/*
     Logic related to checking page routes, which are all implemented as #hashlinks
 */
 Page.routes = {};
@@ -196,18 +215,6 @@ Page.routes.results = [
   "#query",
   "#zoo"
 ];
-Page.routes.includes = function(hashLink, routeList) {
-  // Return true if the hashLink includes something in the given routelist.
-  // Used to determine what kind of display mode we're in for choosing the
-  // button menus and other displayed details.
-  for (let route of routeList) {
-    if (hashLink.includes(route)) {
-      return true;
-    }
-  }
-  return false;
-}
-
 
 /*
     Logic related to the results page output. The main render function chooses between
