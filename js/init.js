@@ -59,10 +59,17 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  // Add event listeners to buttons that appear by default in the page
-  for (let button_id of Show.results.menus.topButtons) {
-    var button_type = button_id.replace("Button", "");
-    document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
+  // Add event listeners to buttons that appear by default in the page.
+  if (Page.routes.includes(window.location.hash, Page.routes.results)) {
+    for (let button_id of Show.results.menus.topButtons) {
+      var button_type = button_id.replace("Button", "");
+      document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
+    }
+  } else if (Page.routes.includes(window.location.hash, Page.routes.profile)) {
+    for (let button_id of Show.profile.menus.topButtons) {
+      var button_type = button_id.replace("Button", "");
+      document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
+    }
   }
 
   // Add submit events for a search form if it exists

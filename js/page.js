@@ -168,16 +168,46 @@ Page.routes.check = function() {
   }
 }
 Page.routes.dynamic = [
-    "#credit",
-    "#panda",
-    "#query",
-    "#zoo"
+  "#credit",
+  "#media",
+  "#panda",
+  "#profile",
+  "#query",
+  "#timeline",
+  "#zoo"
 ];
 Page.routes.fixed = [
-    "#about",    // The about page
-    "#home",     // The empty query page
-    "#links"     // The links page
+  "#about",    // The about page
+  "#home",     // The empty query page
+  "#links"     // The links page
 ];
+Page.routes.profile = [
+  "#media",
+  "#profile",
+  "#timeline"
+];
+Page.routes.results = [
+  "#about",
+  "#credit",
+  "#home",
+  "#links",
+  "#media",
+  "#panda",
+  "#query",
+  "#zoo"
+];
+Page.routes.includes = function(hashLink, routeList) {
+  // Return true if the hashLink includes something in the given routelist.
+  // Used to determine what kind of display mode we're in for choosing the
+  // button menus and other displayed details.
+  for (let route of routeList) {
+    if (hashLink.includes(route)) {
+      return true;
+    }
+  }
+  return false;
+}
+
 
 /*
     Logic related to the results page output. The main render function chooses between

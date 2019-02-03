@@ -447,6 +447,11 @@ Show.button.logo.render = function() {
   logo.addEventListener("click", Show.button.logo.action);
   return home;
 }
+Show.button.search = {};
+Show.button.search.action = function() {
+  // Used on pages where the search bar normally doesn't appear
+  Show.searchBar.toggle("bottomSearch");
+}
 Show.button.random = {};
 Show.button.random.action = function() {
   // Show a random panda from the database when the dice is clicked
@@ -534,11 +539,11 @@ Show.profile.menus.top = function() {
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
 Show.profile.search = {};
-Show.profile.search.display = function() {
-  // TODO: show the search box at the bottom of the profile page
-}
 Show.profile.search.render = function() {
-  // TODO: render the search bar at the bottom of the profile page
+  // Render the search bar at the bottom of the profile page
+  var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
+  var searchBar = Show.searchBar.render("bottomSearch profile");
+  bottomMenu.appendChild(searchBar);
 }
 
 /* 
@@ -890,7 +895,7 @@ Show.searchBar.display = function() {
   Show.searchBar.enable();
 }
 Show.searchBar.enable = function() {
-  // Enable the search bar (i.e. if panda content has loaded), and display
+  // Enable the search bar (i.e. if panda graph content has loaded), and display
   // the placeholder text in a localized way. If a page doesn't have the
   // search bar, do nothing.
   if (document.forms['searchForm'] != undefined) {
@@ -900,12 +905,11 @@ Show.searchBar.enable = function() {
   }
   document.getElementById('searchInput').focus();  // Set text cursor
 }
-Show.searchBar.hide = function() {
-  // Hide the search bar
-  document.forms['searchForm'].display = "none";
-}
-Show.searchBar.remove = function() {
-  // TODO: remove the search bar when leaving profile mode
+Show.searchBar.remove = function(frame_class="bottomMenu") {
+  // Remove the search bar when leaving profile mode. By default it will be
+  // the bottom menu search bar that gets disappeared.
+  var searchBar = document.getElementsByClassName(frame_class);
+  searchBar.parentNode.remove(searchBar);
 }
 Show.searchBar.render = function(frame_class) {
   // Create a search bar. Should be the same kind of bar that would appear
@@ -945,4 +949,16 @@ Show.searchBar.submit = function() {
   setTimeout(function() {
     document.getElementById('searchInput').focus();
   }, 0);
+}
+Show.searchBar.toggle = function(frame_class) {
+  // Normally the search bar just appears at the top of the page.
+  // In panda-profile mode, it's hidden unless the user opts to search
+  // for new pandas using the Search Button at the bottom of the page.
+  var searchBar = document.getElementsByClassName(frame_class)[0];
+  var display = searchBar.style.display;
+  if (display == "none") {
+    searchBar.style.display = "block";
+  } else {
+    searchBar.style.display = "none";
+  }
 }
