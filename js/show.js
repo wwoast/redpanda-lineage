@@ -31,6 +31,7 @@ Show.acquirePandaInfo = function(animal, language) {
      "photo_link": picture['link'],
  "photo_manifest": Pandas.photoManifest(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
+        "species": Pandas.species(animal["_id"]),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
   bundle = L.fallbackInfo(bundle, animal);  // Any defaults here?
@@ -551,9 +552,13 @@ Show.profile.panda = function(animal, language) {
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
+  // After the photo gallery, display species content
+  var species = Show.profile.species(animal, language);
+  // TODO: render the next bits of content
   var result = document.createElement('div');
   result.className = "profileFrame";
   result.appendChild(photo);
+  result.appendChild(species);
   return result; 
 }
 Show.profile.search = {};
@@ -562,6 +567,20 @@ Show.profile.search.render = function() {
   var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
   var searchBar = Show.searchBar.render("bottomSearch profile");
   bottomMenu.appendChild(searchBar);
+}
+Show.profile.species = function(animal, language) {
+  // Underneath a photo, display the subspecies info for the panda
+  var species_text = document.createTextNode(Pandas.species(animal, language));
+  var italics = document.createElement('i');
+  italics.appendChild(species_text);
+  var heading = document.createElement('h4');
+  var emoji = document.createTextNode(L.emoji.animal + " ");
+  heading.appendChild(emoji);
+  heading.appendChild(italics);
+  var species_div = document.createElement('div');
+  species_div.className = "species";
+  species_div.appendChild(heading);
+  return species_div;
 }
 
 /* 
