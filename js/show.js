@@ -130,6 +130,22 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
+// Display the birthday and either age/date of death for an animal
+// TODO: use in pandaDossier and profileDossier
+Show.birthday = function(info, element_tag) {
+  var born = document.createElement(element_tag);
+  var birthday = L.emoji.born + " " + info.birthday;
+  // If still alive, print their current age
+  var parentheses = undefined;
+  if (info.death == Pandas.def.unknown[language]) {
+    parentheses = "(" + info.age + ")";
+  } else {
+    parentheses = L.emoji.died + " " + info.death;
+  }
+  born.innerText = birthday + "\u2003" + parentheses;
+  return born; 
+}
+
 // Male and female icons next to pandas used for panda links.
 // This uses unlocalized m/f/unknown gender values
 Show.childIcon = function(gender) {
@@ -501,6 +517,35 @@ Show.button.top.render = function() {
     Show functions used by the profile/media/timelines page for a single animal
 */
 Show.profile = {};
+Show.profile.dossier = function(animal, language) {
+  // This includes the species details, along with photo details related
+  // to the currently displayed gallery on the profile page, and a QR code
+  // for the panda being displayed.
+  var info = Show.acquirePandaInfo(animal, language);
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();   // TODO: start at the profile photo always
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  // After the photo gallery, display species content
+  var species = Show.profile.species(animal, language);
+  // Next, display birthday info. TODO: do better than list items
+  var birthday = document.createElement('ul');
+  birthday.class = "pandaList";
+  birthday.appendChild(Show.birthday(info, 'li'));
+  // Then display photo credit content
+  var dossier = document.createElement('div');
+  dossier.className = "profileDossier";
+  dossier.appendChild(photo);
+  dossier.appendChild(species);
+  dossier.appendChild(birthday);
+  return dossier;
+}
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
   // Offer red menu bar with a search function: Top, Home, Search
@@ -541,24 +586,11 @@ Show.profile.menus.top = function() {
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
 Show.profile.panda = function(animal, language) {
   // Create a profile page for a single panda
-  var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'pandaPhoto');
-  var photo = gallery.displayPhoto();   // TODO: start at the profile photo always
-  var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
-    span.style.display = "block";
-  });
-  photo.addEventListener('mouseout', function() {
-    span.style.display = "none";
-  });
-  // After the photo gallery, display species content
-  var species = Show.profile.species(animal, language);
   // TODO: render the next bits of content
+  var dossier = Show.profile.dossier(animal, language);
   var result = document.createElement('div');
   result.className = "profileFrame";
-  result.appendChild(photo);
-  result.appendChild(species);
+  result.appendChild(dossier);
   return result; 
 }
 Show.profile.search = {};
