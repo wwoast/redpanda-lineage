@@ -158,7 +158,7 @@ Page.profile.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
-  var results = Query.hashlink(input);
+  var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   // TODO: document structure and things to display based on input
   var shrinker = document.createElement('div');
@@ -173,6 +173,46 @@ Page.profile.render = function() {
     Logic related to checking page routes, which are all implemented as #hashlinks
 */
 Page.routes = {};
+Page.routes.behavior = function(input) {
+  // Each hashlink determines a different behavior for the page rendering.
+  // Do a task based on what the route is.
+  if ((input.indexOf("#panda/") == 0) &&
+      (input.split("/").length == 4)) {
+    // go-link for a panda result with a chosen photo.
+    var uri_items = input.slice(7);
+    var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.specific = photo_id;
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 2)) {
+    // go-link for a single panda result.
+    // for now, just a search result. soon, a detailed result page
+    var panda = input.slice(7);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if (input.indexOf("#zoo/") == 0) {
+    // go-link for a single zoo result.
+    var zoo = input.slice(5);
+    return Query.resolver.subject(zoo, "zoo", L.display);
+  } else if (input.indexOf("#credit/") == 0) {
+    // go-link for a page of photo credits for a specific author
+    Query.env.credit = input.slice(8);
+    Query.env.preserve_case = true;   // Don't adjust case for author searches
+    Query.env.output = "photos";      // Set output mode for a photo list
+    return Query.resolver.subject(Query.env.credit, "credit", L.display);
+  } else if (input.indexOf("#timeline/") == 0) {
+    // show full info and timeline for a panda. TODO
+    var panda = input.slice(10);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if (input.indexOf("#query/") == 0) {
+    // process a query.
+    var terms = input.slice(7);
+    var results = Query.lexer.parse(terms);
+    return (results == undefined) ? [] : results;
+  } else {
+    // Don't know how to process the hashlink, so do nothing
+    return false;
+  }
+}
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
   // and immediately load that page if necessary.
@@ -215,6 +255,16 @@ Page.routes.results = [
   "#query",
   "#zoo"
 ];
+Page.routes.memberOf = function(routeList, current_route) {
+  // Determine if the current page route includes one of the routes
+  // specified in the different routes lists above.
+  for (let route of routeList) {
+    if (current_route.indexOf(route) != -1) {
+      return true;
+    }
+  }
+  return false;
+}
 
 /*
     Logic related to the results page output. The main render function chooses between
@@ -264,7 +314,7 @@ Page.results.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
-  var results = Query.hashlink(input);
+  var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   var new_content = document.createElement('div');

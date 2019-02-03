@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", function() {
     Show.searchBar.enable();
 
     // Determine what page content to display
-    if (Page.routes.profile.includes(window.location.hash)) {
+    if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
       Page.profile.render();
     } else if ((window.location.hash.length > 0) && 
-        (Page.routes.fixed.includes(window.location.hash) == false)) {
+        (Page.routes.memberOf(Page.routes.fixed, window.location.hash))) {
       Page.results.render();
     }
 
@@ -62,12 +62,12 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   // Add event listeners to buttons that appear by default in the page.
-  if (Page.routes.results.includes(window.location.hash)) {
+  if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
     for (let button_id of Show.results.menus.topButtons) {
       var button_type = button_id.replace("Button", "");
       document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
     }
-  } else if (Page.routes.profile.includes(window.location.hash)) {
+  } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
     for (let button_id of Show.profile.menus.topButtons) {
       var button_type = button_id.replace("Button", "");
       document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
