@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BqMBnbxFUL1/media/?size=m
 photo.1.author: adventureworld_official
 photo.1.link: https://www.instagram.com/adventureworld_official/
-photo.1.tags: baby, muzzle, profile
+photo.1.tags: baby, muzzle
 photo.2: https://www.instagram.com/p/BqTcR8zlMx8/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
@@ -88,5 +88,9 @@ photo.19: https://www.instagram.com/p/BtDi0-5FaFc/media/?size=m
 photo.19.author: nakageo
 photo.19.link: https://www.instagram.com/nakageo/
 photo.19.tags: paws, tree
+photo.20: https://www.instagram.com/p/BtQud0qgHMh/media/?size=m
+photo.20.author: pon.bird
+photo.20.link: https://www.instagram.com/pon.bird/
+photo.20.tags: laying down, profile, tree
 species: 2
 zoo: 29
