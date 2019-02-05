@@ -563,6 +563,20 @@ Show.profile.dossier = function(animal, language) {
   var item = document.createElement('li');
   item.innerText = first_string + "\u2003" + second_string;
   birthday.appendChild(item);
+  // Display a QR code
+  var qrcode = document.createElement('div');
+  qrcode.className = "qrcodeFrame";
+  var tld = document.createElement('span');
+  tld.className = "qrcodeText";
+  tld.innerText = "https://" + window.location.host + "/";
+  qrcode.appendChild(tld);
+  qrimg = document.createElement('img');
+  qrimg.id = "qrcodeUri";
+  qrcode.appendChild(qrimg);
+  var qrHashLink = document.createElement('span');
+  qrHashLink.className = "qrcodeText";
+  qrHashLink.innerText = window.location.hash;
+  qrcode.appendChild(qrHashLink);
   // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
@@ -584,6 +598,7 @@ Show.profile.dossier = function(animal, language) {
     credit.appendChild(apple_inner);
     dossier.appendChild(credit);
   }
+  dossier.appendChild(qrcode);
   return dossier;
 }
 Show.profile.menus = {};
