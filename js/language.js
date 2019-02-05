@@ -155,6 +155,16 @@ Language.L.gui = {
     "en": "Media",
     "jp": "媒体"
   },
+  "nicknames": {
+    "cn": "TOWRITE",
+    "en": "Nicknames",
+    "jp": "TOWRITE"
+  },
+  "othernames": {
+    "cn": "TOWRITE",
+    "en": "Other Names",
+    "jp": "TOWRITE"
+  },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
     "en": "Parents",   // Capitalization

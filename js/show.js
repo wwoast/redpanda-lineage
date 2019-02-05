@@ -311,6 +311,44 @@ Show.locationLink = function(zoo, language) {
   return a;
 }
 
+// Give a list of nicknames in all languages, in priority of the
+// current animal's language order
+Show.nicknames = function(animal) {
+  var container = document.createElement('ul');
+  container.className = "pandaList";
+  for (let language of animal["language.order"].split(",")) {
+    var nicknames = animal[language + ".nicknames"];
+    if (nicknames == undefined) {
+      continue;
+    }
+    for (let name of nicknames.split(",")) {
+      var add = document.createElement('li');
+      add.innerText = name;
+      container.appendChild(add);
+    }
+  }
+  return container;
+}
+
+// Give a list of nicknames in all languages, in priority of the
+// current animal's language order
+Show.othernames = function(animal) {
+  var container = document.createElement('ul');
+  container.className = "pandaList";
+  for (let language of animal["language.order"].split(",")) {
+    var othernames = animal[language + ".othernames"];
+    if (othernames == undefined) {
+      continue;
+    }
+    for (let name of othernames.split(",")) {
+      var add = document.createElement('li');
+      add.innerText = name;
+      container.appendChild(add);
+    }
+  }
+  return container;
+}
+
 // Display the name and gender symbol for a single panda in the "title bar"
 Show.pandaTitle = function(info) {
   var language = info.language;
@@ -607,6 +645,21 @@ Show.profile.dossier = function(animal, language) {
     dossier.appendChild(credit);
   }
   dossier.appendChild(qrcode);
+  // Nicknames and other names, in all languages
+  var nickname_heading = document.createElement('h4');
+  nickname_heading.innerText = L.gui.nicknames[L.display];
+  var nicknames = Show.nicknames(animal);
+  if (nicknames.childNodes.length > 0) {
+    dossier.appendChild(nickname_heading);
+    dossier.appendChild(nicknames);
+  }
+  var othernames_heading = document.createElement('h4');
+  othernames_heading.innerText = L.gui.othernames[L.display];
+  var othernames = Show.othernames(animal);
+  if (othernames.childNodes.length > 0) {
+    dossier.appendChild(othernames_heading);
+    dossier.appendChild(othernames);
+  }
   return dossier;
 }
 Show.profile.menus = {};
