@@ -58,11 +58,3 @@ function showQRCode(text) {
 
     return imgElement;
 }
-
-/* When the page loads, if you see a QRCode field, replace it with the 
-   QRCode relevant to the loaded page's URI */
-document.addEventListener("DOMContentLoaded", function() {
-    var qrcode = document.getElementById("qrcodeUri");
-    var img = showQRCode(window.location.toString());
-    qrcode.src = img.src;
-});

@@ -334,6 +334,26 @@ Show.pandaTitle = function(info) {
   return title_div;
 }
 
+// Construct a QR code out of the current page URL.
+Show.qrcodeImage = function() {
+  var img = showQRCode(window.location.toString());
+  var qrcode = document.createElement('div');
+  qrcode.className = "qrcodeFrame";
+  var tld = document.createElement('span');
+  tld.className = "qrcodeText";
+  tld.innerText = "https://" + window.location.host + "/";
+  qrcode.appendChild(tld);
+  qrimg = document.createElement('img');
+  qrimg.id = "qrcodeUri";
+  qrimg.src = img.src;
+  qrcode.appendChild(qrimg);
+  var qrHashLink = document.createElement('span');
+  qrHashLink.className = "qrcodeText";
+  qrHashLink.innerText = window.location.hash;
+  qrcode.appendChild(qrHashLink);
+  return qrcode;
+}
+
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/index.html#zoo/1
 // Show.zooLink = function(zoo, link_text, options) {
@@ -564,19 +584,7 @@ Show.profile.dossier = function(animal, language) {
   item.innerText = first_string + "\u2003" + second_string;
   birthday.appendChild(item);
   // Display a QR code
-  var qrcode = document.createElement('div');
-  qrcode.className = "qrcodeFrame";
-  var tld = document.createElement('span');
-  tld.className = "qrcodeText";
-  tld.innerText = "https://" + window.location.host + "/";
-  qrcode.appendChild(tld);
-  qrimg = document.createElement('img');
-  qrimg.id = "qrcodeUri";
-  qrcode.appendChild(qrimg);
-  var qrHashLink = document.createElement('span');
-  qrHashLink.className = "qrcodeText";
-  qrHashLink.innerText = window.location.hash;
-  qrcode.appendChild(qrHashLink);
+  var qrcode = Show.qrcodeImage();
   // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
