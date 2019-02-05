@@ -130,10 +130,9 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
-// Display the birthday and either age/date of death for an animal
-// TODO: use in pandaDossier and profileDossier
-Show.birthday = function(info, element_tag) {
-  var born = document.createElement(element_tag);
+// Display the birthday and either age/date of death for an animal.
+// Returns two text nodes that can be inserted into other elements
+Show.birthday = function(info) {
   var birthday = L.emoji.born + " " + info.birthday;
   // If still alive, print their current age
   var parentheses = undefined;
@@ -142,8 +141,7 @@ Show.birthday = function(info, element_tag) {
   } else {
     parentheses = L.emoji.died + " " + info.death;
   }
-  born.innerText = birthday + "\u2003" + parentheses;
-  return born; 
+  return [birthday, parentheses];
 }
 
 // Male and female icons next to pandas used for panda links.
@@ -535,9 +533,12 @@ Show.profile.dossier = function(animal, language) {
   // After the photo gallery, display species content
   var species = Show.profile.species(animal, language);
   // Next, display birthday info. TODO: do better than list items
+  var [first_string, second_string] = Show.birthday(info);
   var birthday = document.createElement('ul');
   birthday.class = "pandaList";
-  birthday.appendChild(Show.birthday(info, 'li'));
+  var item = document.createElement('li');
+  item.innerText = first_string + "\u2003" + second_string;
+  birthday.appendChild(item); 
   // Then display photo credit content
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
@@ -765,15 +766,12 @@ Show.results.panda = function(animal, language) {
 Show.results.pandaDetails = function(info) {
   // The purple results-page "dossier" information stripe for a panda.
   var language = info.language;
+  var [first_string, second_string] = Show.birthday(info);
   var born = document.createElement('p');
-  born.innerText = L.emoji.born + " " + info.birthday;
+  born.innerText = first_string;
   // If still alive, print their current age
   var second = document.createElement ('p');
-  if (info.death == Pandas.def.unknown[language]) {
-    second.innerText = "(" + info.age + ")";
-  } else {
-    second.innerText = L.emoji.died + " " + info.death;
-  }
+  second.innerText = second_string;
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
   var zoo = document.createElement('p');
