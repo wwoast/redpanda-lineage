@@ -14,14 +14,10 @@ language.order: jp, en
 litter: 364
 location.1: 15, 1999/7/9
 location.2: 17, 2001/5/12
-photo.1: https://www.instagram.com/p/BlAvIRzFmxL/media/?size=m
-photo.1.author: lsdar13
-photo.1.link: https://www.instagram.com/lsdar13/
-photo.1.tags: old, profile, tail
-photo.2: https://www.instagram.com/p/BtF96jgFcIQ/media/?size=m
-photo.2.author: mofu_pan
-photo.2.link: https://www.instagram.com/mofu_pan/
-photo.2.tags: bamboo, old
+photo.1: https://www.instagram.com/p/BtF96jgFcIQ/media/?size=m
+photo.1.author: mofu_pan
+photo.1.link: https://www.instagram.com/mofu_pan/
+photo.1.tags: bamboo, old
 species: 2
 video.1: https://youtu.be/AnjnjrW-9iw
 video.1.author: ガメ
