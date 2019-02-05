@@ -14,32 +14,28 @@ language.order: jp, en
 litter: 282
 location.1: 35, 2013/6/25
 location.2: 61, 2015/2/16
-photo.1: https://www.instagram.com/p/BkcNP5Tljma/media/?size=m
-photo.1.author: lsdar13
-photo.1.link: https://www.instagram.com/lsdar13/
-photo.1.tags: profile, tail
-photo.2: https://www.instagram.com/p/Bkc2d9GlVgT/media/?size=m
-photo.2.author: tomo3700
-photo.2.link: https://www.instagram.com/tomo3700/
-photo.3: https://www.instagram.com/p/BlRUXIsFqXO/media/?size=m
-photo.3.author: kisshan324
-photo.3.link: https://www.instagram.com/kisshan324/
-photo.3.tags: dish, tail
-photo.4: https://www.instagram.com/p/BoZSe8ZFBO5/media/?size=m
+photo.1: https://www.instagram.com/p/Bkc2d9GlVgT/media/?size=m
+photo.1.author: tomo3700
+photo.1.link: https://www.instagram.com/tomo3700/
+photo.2: https://www.instagram.com/p/BlRUXIsFqXO/media/?size=m
+photo.2.author: kisshan324
+photo.2.link: https://www.instagram.com/kisshan324/
+photo.2.tags: dish, tail
+photo.3: https://www.instagram.com/p/BoZSe8ZFBO5/media/?size=m
+photo.3.author: love__mitarashi
+photo.3.link: https://www.instagram.com/love__mitarashi/
+photo.4: https://www.instagram.com/p/Bp-ulwmlnwg/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.link: https://www.instagram.com/love__mitarashi/
-photo.5: https://www.instagram.com/p/Bp-ulwmlnwg/media/?size=m
-photo.5.author: love__mitarashi
-photo.5.link: https://www.instagram.com/love__mitarashi/
-photo.6: https://www.instagram.com/p/BqcBc23lYD1/media/?size=m
-photo.6.author: tomo3700
-photo.6.link: https://www.instagram.com/tomo3700/
-photo.6.tags: tongue
-photo.7: https://www.instagram.com/p/Bq0jI8BlNaV/media/?size=m
+photo.5: https://www.instagram.com/p/BqcBc23lYD1/media/?size=m
+photo.5.author: tomo3700
+photo.5.link: https://www.instagram.com/tomo3700/
+photo.5.tags: tongue
+photo.6: https://www.instagram.com/p/Bq0jI8BlNaV/media/?size=m
+photo.6.author: love__mitarashi
+photo.6.link: https://www.instagram.com/love__mitarashi/
+photo.7: https://www.instagram.com/p/BrSRVpnFibF/media/?size=m
 photo.7.author: love__mitarashi
 photo.7.link: https://www.instagram.com/love__mitarashi/
-photo.8: https://www.instagram.com/p/BrSRVpnFibF/media/?size=m
-photo.8.author: love__mitarashi
-photo.8.link: https://www.instagram.com/love__mitarashi/
 species: 2
 zoo: 61
