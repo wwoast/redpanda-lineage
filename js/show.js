@@ -130,9 +130,21 @@ Show.animalLink = function(animal, link_text, language, options) {
   return a;
 }
 
+// See how many other panda photos this user has posted. 
+// Links to the credit page
+Show.appleLink = function(info, container_element) {
+  var other_photos = document.createElement(container_element);
+  var credit_count_link = document.createElement('a');
+  credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
+  credit_count_link.href = "#credit/" + info.photo_credit;
+  credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+  other_photos.appendChild(credit_count_link);
+  return other_photos;
+}
+
 // Display the birthday and either age/date of death for an animal.
 // Returns two text nodes that can be inserted into other elements
-Show.birthday = function(info) {
+Show.birthday = function(info, language) {
   var birthday = L.emoji.born + " " + info.birthday;
   // If still alive, print their current age
   var parentheses = undefined;
@@ -154,6 +166,18 @@ Show.childIcon = function(gender) {
   } else {
     return L.emoji.baby;
   }
+}
+
+// Display a link to a photo credit on Instagram or elsewhere
+Show.creditLink = function(info, container_element) {
+  var credit_link = document.createElement('a');
+  credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
+  credit_link.href = info.photo_link;
+  credit_link.target = "_blank";   // Open in new tab
+  credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
+  var container = document.createElement(container_element);
+  container.appendChild(credit_link);
+  return container;
 }
 
 // If link is to an undefined item or the zero ID, return a spacer
@@ -533,18 +557,33 @@ Show.profile.dossier = function(animal, language) {
   // After the photo gallery, display species content
   var species = Show.profile.species(animal, language);
   // Next, display birthday info. TODO: do better than list items
-  var [first_string, second_string] = Show.birthday(info);
+  var [first_string, second_string] = Show.birthday(info, language);
   var birthday = document.createElement('ul');
-  birthday.class = "pandaList";
+  birthday.className = "pandaList";
   var item = document.createElement('li');
   item.innerText = first_string + "\u2003" + second_string;
-  birthday.appendChild(item); 
-  // Then display photo credit content
+  birthday.appendChild(item);
+  // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
   dossier.appendChild(photo);
   dossier.appendChild(species);
   dossier.appendChild(birthday);
+  if (info.photo_credit != undefined) {
+    // Display photo credit content if a photo exists
+    // TODO: factor out into CSS, and do similar with birthday
+    var credit = document.createElement('ul');
+    credit.className = "pandaList";
+    var credit_inner = Show.creditLink(info, 'li');
+    credit_inner.style.display = "inline-block";
+    credit_inner.style.paddingRight = "1em";
+    credit.appendChild(credit_inner);
+    // Display an apple link too
+    var apple_inner = Show.appleLink(info, 'li');
+    apple_inner.style.display = "inline-block";
+    credit.appendChild(apple_inner);
+    dossier.appendChild(credit);
+  }
   return dossier;
 }
 Show.profile.menus = {};
@@ -766,7 +805,7 @@ Show.results.panda = function(animal, language) {
 Show.results.pandaDetails = function(info) {
   // The purple results-page "dossier" information stripe for a panda.
   var language = info.language;
-  var [first_string, second_string] = Show.birthday(info);
+  var [first_string, second_string] = Show.birthday(info, language);
   var born = document.createElement('p');
   born.innerText = first_string;
   // If still alive, print their current age
@@ -783,13 +822,7 @@ Show.results.pandaDetails = function(info) {
   var location_link = Show.locationLink(info.zoo, language);
   location.appendChild(location_link);
   // Give credit for the person that took this photo
-  var credit_link = document.createElement('a');
-  credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
-  credit_link.href = info.photo_link;
-  credit_link.target = "_blank";   // Open in new tab
-  credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
-  var credit = document.createElement('p');
-  credit.appendChild(credit_link);
+  var credit = Show.creditLink(info, 'p');
   var details = document.createElement('div');
   details.className = "pandaDetails";
   details.appendChild(born);
@@ -801,12 +834,7 @@ Show.results.pandaDetails = function(info) {
   if (info.photo_credit != undefined) {
     details.appendChild(credit);
     // See how many other panda photos this user has posted
-    var other_photos = document.createElement('p');
-    var credit_count_link = document.createElement('a');
-    credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
-    credit_count_link.href = "#credit/" + info.photo_credit;
-    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
-    other_photos.appendChild(credit_count_link);
+    var other_photos = Show.appleLink(info, 'p');
     details.appendChild(other_photos);
   }
   return details;
