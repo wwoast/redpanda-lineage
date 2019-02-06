@@ -598,21 +598,11 @@ Show.button.top.render = function() {
 */
 Show.profile = {};
 Show.profile.dossier = function(animal, language) {
-  // This includes the species details, along with photo details related
+  // This includes the species details, along with photo-credit text related
   // to the currently displayed gallery on the profile page, and a QR code
   // for the panda being displayed.
   var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'pandaPhoto');
-  var photo = gallery.displayPhoto();   // TODO: start at the profile photo always
-  var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
-    span.style.display = "block";
-  });
-  photo.addEventListener('mouseout', function() {
-    span.style.display = "none";
-  });
-  // After the photo gallery, display species content
+  // Start with species information
   var species = Show.profile.species(animal, language);
   // Next, display birthday info. TODO: do better than list items
   var [first_string, second_string] = Show.birthday(info, language);
@@ -626,7 +616,6 @@ Show.profile.dossier = function(animal, language) {
   // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
-  dossier.appendChild(photo);
   dossier.appendChild(species);
   dossier.appendChild(birthday);
   if (info.photo_credit != undefined) {
@@ -661,6 +650,21 @@ Show.profile.dossier = function(animal, language) {
     dossier.appendChild(othernames);
   }
   return dossier;
+}
+Show.profile.gallery = function(info) {
+  // Show a carousel of photos for this animal
+  // TODO: start at the profile photo always
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  return photo;
 }
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
@@ -703,9 +707,12 @@ Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton'
 Show.profile.panda = function(animal, language) {
   // Create a profile page for a single panda
   // TODO: render the next bits of content
+  var info = Show.acquirePandaInfo(animal, language);
+  var gallery = Show.profile.gallery(info);
   var dossier = Show.profile.dossier(animal, language);
   var result = document.createElement('div');
   result.className = "profileFrame";
+  result.appendChild(gallery);
   result.appendChild(dossier);
   return result; 
 }
