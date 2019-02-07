@@ -61,19 +61,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  // Add event listeners to buttons that appear by default in the page.
-  if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
-    for (let button_id of Show.results.menus.topButtons) {
-      var button_type = button_id.replace("Button", "");
-      document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
-    }
-  } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
-    for (let button_id of Show.profile.menus.topButtons) {
-      var button_type = button_id.replace("Button", "");
-      document.getElementById(button_id).addEventListener("click", Show.button[button_type].action);
-    }
-  }
-
   // Add submit events for a search form if it exists
   document.getElementById('searchForm').addEventListener("submit", Show.searchBar.submit);
 

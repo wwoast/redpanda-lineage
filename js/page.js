@@ -151,6 +151,27 @@ Page.links.render = function() {
 }
 
 /*
+    The top and bottom menus of the page
+*/
+Page.menus = {};
+Page.menus.redraw = function(mode=undefined) {
+  if (mode == undefined) {
+    if (Page.routes.memberOf(Page.routes.no_footer, window.location.hash)) {
+      mode = "no_bottom_menu";
+    }
+    if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
+      mode = "results";
+    } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
+      mode = "profile";
+    }
+  }
+  Show[mode].menus.top();
+  if (mode != "no_bottom_menu") {
+    Show[mode].menus.bottom();
+  }
+}
+
+/*
     The profiles page display details, media, or timelines for an individual panda
 */
 Page.profile = {};
@@ -169,6 +190,7 @@ Page.profile.render = function() {
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   Page.footer.redraw("profile");
+  Page.menus.redraw("profile");
 }
 
 /*
@@ -252,6 +274,9 @@ Page.routes.fixed = [
   "#about",    // The about page
   "#home",     // The empty query page
   "#links"     // The links page
+];
+Page.routes.no_footer = [
+  "#home"
 ];
 Page.routes.profile = [
   "#media",
@@ -352,6 +377,7 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
+  Page.menus.redraw("results");
   Page.footer.redraw("results");
 }
 
