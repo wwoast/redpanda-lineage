@@ -597,11 +597,10 @@ Show.button.top.render = function() {
     Show functions used by the profile/media/timelines page for a single animal
 */
 Show.profile = {};
-Show.profile.dossier = function(animal, language) {
+Show.profile.dossier = function(animal, info, language) {
   // This includes the species details, along with photo-credit text related
   // to the currently displayed gallery on the profile page, and a QR code
   // for the panda being displayed.
-  var info = Show.acquirePandaInfo(animal, language);
   // Start with species information
   var species = Show.profile.species(animal, language);
   // Next, display birthday info. TODO: do better than list items
@@ -631,7 +630,7 @@ Show.profile.dossier = function(animal, language) {
     var apple_inner = Show.appleLink(info, 'li');
     apple_inner.style.display = "inline-block";
     credit.appendChild(apple_inner);
-    dossier.appendChild(credit);
+    dossier.appendChild(credit);   // TODO: credit link and apple link ids do not update. fix
   }
   dossier.appendChild(qrcode);
   // Nicknames and other names, in all languages
@@ -709,7 +708,7 @@ Show.profile.panda = function(animal, language) {
   // TODO: render the next bits of content
   var info = Show.acquirePandaInfo(animal, language);
   var gallery = Show.profile.gallery(info);
-  var dossier = Show.profile.dossier(animal, language);
+  var dossier = Show.profile.dossier(animal, info, language);
   var result = document.createElement('div');
   result.className = "profileFrame";
   result.appendChild(gallery);
