@@ -64,7 +64,7 @@ Page.footer.remove = function() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className == "footer") {
-    var bottomMenu_test = document.getElementById("pageBottom");
+    var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
     body.removeChild(bottomMenu_test);
     body.removeChild(footer_test);
   }
