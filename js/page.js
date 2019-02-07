@@ -35,18 +35,18 @@ Page.about.render = function() {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
-    Page.footer.redraw();
+    Page.footer.redraw("results");
   }
 }
 
 Page.footer = {};
-Page.footer.redraw = function() {
+Page.footer.redraw = function(page_mode="results") {
   // Add the footer at the bottom of the page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // If no footer exists, add one in
-    var bottomMenu = Page.bottomMenu(L.display);
+    var bottomMenu = Show[page_mode].menus.bottom();
     var footer = Page.footer.render(L.display);
     body.appendChild(bottomMenu);
     body.appendChild(footer);
@@ -146,7 +146,7 @@ Page.links.render = function() {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.links.content);
-    Page.footer.redraw();
+    Page.footer.redraw("results");
   }
 }
 
@@ -168,7 +168,7 @@ Page.profile.render = function() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
-  Page.footer.redraw();
+  Page.footer.redraw("profile");
 }
 
 /*
@@ -352,7 +352,7 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  Page.footer.redraw();
+  Page.footer.redraw("results");
 }
 
 /*
@@ -422,24 +422,6 @@ Page.sections.show = function(section_id) {
 /*
     Miscellaneous stuff that I don't know how to organize yet
 */
-// Draw a bottom menu, for when there are panda search results
-Page.bottomMenu = function(language) {
-  var menu_div = document.createElement('div');
-  menu_div.className = "bottomMenu";
-  menu_div.id = "pageBottom";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  // Currently there are top and home buttons
-  // In mobile mode, logo button at the top doesn't exist
-  // so add a home button to the footer bar menu.
-  var top_button = Show.button.top.render();
-  var home_button = Show.button.home.render();
-  shrinker.appendChild(top_button);
-  shrinker.appendChild(home_button);
-  menu_div.appendChild(shrinker);
-  return menu_div;
-}
-
 // Draw a header for crediting someone's photos contribution 
 // with the correct language
 Page.credit = function(credit, count, language) {

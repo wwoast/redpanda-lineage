@@ -372,6 +372,20 @@ Show.pandaTitle = function(info) {
   return title_div;
 }
 
+// Guarantee after calling this function that a menu, or a footer,
+// exist in the page where they should be.
+Show.update = function(new_contents, container=undefined, container_class=undefined) {
+  if (container == undefined) {
+    container = document.createElement('div');
+    container.appendChild(new_contents);
+  } else {
+    var old_contents = container.childNodes[0];
+    container.replaceChild(new_contents, old_contents);
+  }
+  container.className = container_class;   // Regardless, set the corret container class. TODO: list?
+  return container;
+}
+
 // Construct a QR code out of the current page URL.
 Show.qrcodeImage = function() {
   var img = showQRCode(window.location.toString());
@@ -672,33 +686,33 @@ Show.profile.menus.bottom = function() {
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them
-  for (let btn_id of Show.results.menus.bottomButtons) {
+  for (let btn_id of Show.profile.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
     var button = Show.button[btn_type].render();
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  var current_contents = menu.childNodes[0];
-  menu.replaceChild(new_contents, current_contents);
+  menu = Show.update(new_contents, menu, "bottomMenu");
   // Remove any previous menu class modifiers
-  menu.classList.remove("profile");
+  menu.classList.remove("results");
 }
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
+// TODO: add searchButton once the code is written
+Show.profile.menus.bottomButtons = ['topButton', 'homeButton'];
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.results.menus.topButtons) {
+  for (let btn_id of Show.profile.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
     var button = Show.button[btn_type].render();
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
+  // TODO: deal with if the menu isn't there
   var menu = document.getElementsByClassName("topMenu")[0];
-  var current_contents = menu.childNodes[0];
-  menu.replaceChild(new_contents, current_contents);
+  menu = Show.update(new_contents, menu, "topMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
 }
@@ -831,8 +845,7 @@ Show.results.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  var current_contents = menu.childNodes[0];
-  menu.replaceChild(new_contents, current_contents);
+  menu = Show.update(new_contents, menu, "bottomMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
 }
@@ -849,8 +862,7 @@ Show.results.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  var current_contents = menu.childNodes[0];
-  menu.replaceChild(new_contents, current_contents);
+  menu = Show.update(new_contents, menu, "topMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
 }
