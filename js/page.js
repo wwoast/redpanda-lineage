@@ -37,6 +37,7 @@ Page.about.render = function() {
     Page.swap(old_content, Page.about.content);
     Page.footer.redraw("results");
   }
+  Show["results"].menus.top();
 }
 
 Page.footer = {};
@@ -104,6 +105,7 @@ Page.home.render = function() {
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
   Page.swap(old_content, new_content);
+  Show["results"].menus.top();
   Page.footer.remove();
 }
 
@@ -146,6 +148,7 @@ Page.links.render = function() {
     Page.swap(old_content, Page.links.content);
     Page.footer.redraw("results");
   }
+  Show["results"].menus.top();
 }
 
 /*
