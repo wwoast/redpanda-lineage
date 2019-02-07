@@ -732,7 +732,7 @@ Show.profile.menus.top = function() {
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu");
   // Remove any previous menu class modifiers
-  menu.classList.remove("profile");
+  menu.classList.remove("results");
   return menu;
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
