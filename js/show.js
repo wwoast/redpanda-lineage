@@ -630,7 +630,7 @@ Show.profile.dossier = function(animal, info, language) {
     var apple_inner = Show.appleLink(info, 'li');
     apple_inner.style.display = "inline-block";
     credit.appendChild(apple_inner);
-    dossier.appendChild(credit);   // TODO: credit link and apple link ids do not update. fix
+    dossier.appendChild(credit);
   }
   dossier.appendChild(qrcode);
   // Nicknames and other names, in all languages
