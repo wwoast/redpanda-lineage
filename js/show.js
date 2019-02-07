@@ -696,6 +696,7 @@ Show.profile.menus.bottom = function() {
   menu = Show.update(new_contents, menu, "bottomMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("results");
+  return menu;
 }
 // TODO: add searchButton once the code is written
 Show.profile.menus.bottomButtons = ['topButton', 'homeButton'];
@@ -710,11 +711,11 @@ Show.profile.menus.top = function() {
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
-  // TODO: deal with if the menu isn't there
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
+  return menu;
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
 Show.profile.panda = function(animal, language) {
@@ -848,6 +849,7 @@ Show.results.menus.bottom = function() {
   menu = Show.update(new_contents, menu, "bottomMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
+  return menu;
 }
 Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
 Show.results.menus.top = function() {
@@ -865,6 +867,7 @@ Show.results.menus.top = function() {
   menu = Show.update(new_contents, menu, "topMenu");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
+  return menu;
 }
 Show.results.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
 Show.results.panda = function(animal, language) {
