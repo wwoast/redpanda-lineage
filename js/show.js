@@ -556,12 +556,19 @@ Show.button.logo.render = function() {
   logo.classList.add("logo");
   logo.classList.remove("menu");
   logo.addEventListener("click", Show.button.logo.action);
-  return home;
+  return logo;
 }
-Show.button.search = {};
-Show.button.search.action = function() {
-  // Used on pages where the search bar normally doesn't appear
-  Show.searchBar.toggle("bottomSearch");
+Show.button.media = {};
+// Work in progress button, doesn't do anything yet
+Show.button.media.render = function() {
+  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display]);
+  return media;
+}
+Show.button.profile = {};
+// Work in progress button, doesn't do anything yet
+Show.button.profile.render = function() {
+  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display]);
+  return profile;
 }
 Show.button.random = {};
 Show.button.random.action = function() {
@@ -594,6 +601,17 @@ Show.button.render = function(id, button_icon, button_text) {
   }
   button.appendChild(content);
   return button;
+}
+Show.button.search = {};
+Show.button.search.action = function() {
+  // Used on pages where the search bar normally doesn't appear
+  Show.searchBar.toggle("bottomSearch");
+}
+Show.button.timeline = {};
+// Work in progress button, doesn't do anything yet
+Show.button.timeline.render = function() {
+  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display]);
+  return timeline;
 }
 Show.button.top = {};
 Show.button.top.action = function() {

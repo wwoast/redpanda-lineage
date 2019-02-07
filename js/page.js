@@ -46,17 +46,15 @@ Page.footer.redraw = function(page_mode="results") {
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // If no footer exists, add one in
-    var bottomMenu = Show[page_mode].menus.bottom();
     var footer = Page.footer.render(L.display);
-    body.appendChild(bottomMenu);
+    var menu = Show[page_mode].menus.bottom();
+    body.appendChild(menu);
     body.appendChild(footer);
   } else {
-    // Also replace the footer menu
-    var bottomMenu_test = document.getElementById("pageBottom");
     // Redraw the footer for language event changes
-    var bottomMenu = Page.bottomMenu(L.display);
     var footer = Page.footer.render(L.display);
-    body.replaceChild(bottomMenu, bottomMenu_test);
+    var menu = Show[page_mode].menus.bottom();
+    body.appendChild(menu);
     body.replaceChild(footer, footer_test);
   }
 }
@@ -154,7 +152,8 @@ Page.links.render = function() {
     The top and bottom menus of the page
 */
 Page.menus = {};
-Page.menus.redraw = function(mode=undefined) {
+Page.menus.bottom = {};
+Page.menus.bottom.redraw = function(mode=undefined) {
   if (mode == undefined) {
     if (Page.routes.memberOf(Page.routes.no_footer, window.location.hash)) {
       mode = "no_bottom_menu";
@@ -165,7 +164,6 @@ Page.menus.redraw = function(mode=undefined) {
       mode = "profile";
     }
   }
-  Show[mode].menus.top();
   if (mode != "no_bottom_menu") {
     Show[mode].menus.bottom();
   }
@@ -189,8 +187,8 @@ Page.profile.render = function() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
+  Show["profile"].menus.top();
   Page.footer.redraw("profile");
-  Page.menus.redraw("profile");
 }
 
 /*
@@ -377,7 +375,7 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  Page.menus.redraw("results");
+  Show["profile"].menus.top();
   Page.footer.redraw("results");
 }
 
