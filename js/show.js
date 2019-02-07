@@ -578,7 +578,7 @@ Show.button.random.action = function() {
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
 }
 Show.button.random.render = function() {
-  var random = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display]);
+  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display]);
   random.addEventListener("click", Show.button.random.action);
   return random;
 }

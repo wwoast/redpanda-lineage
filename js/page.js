@@ -375,7 +375,7 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  Show["profile"].menus.top();
+  Show["results"].menus.top();
   Page.footer.redraw("results");
 }
 
