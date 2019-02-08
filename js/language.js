@@ -25,6 +25,7 @@ Language.L.emoji = {
    "arrow": "➡",
   "author": "✍️",
 "birthday": "🎂",
+  "bamboo": "🎍",
     "baby": "👶🏻", 
     "born": "👼",
      "boy": "👦🏻",
@@ -38,6 +39,7 @@ Language.L.emoji = {
     "home": "🏡",
 "language": "‍👁️‍🗨️",
     "link": "🦉",
+    "logo": "🐯🐻",
     "male": "♂️",
      "map": "🗺️",
    "media": "🖼",
@@ -148,10 +150,30 @@ Language.L.gui = {
     "en": "Links",
     "jp": "リンク"
   },
+  "media": {
+    "cn": "TOWRITE",
+    "en": "Media",
+    "jp": "媒体"
+  },
+  "nicknames": {
+    "cn": "TOWRITE",
+    "en": "Nicknames",
+    "jp": "TOWRITE"
+  },
+  "othernames": {
+    "cn": "TOWRITE",
+    "en": "Other Names",
+    "jp": "TOWRITE"
+  },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
     "en": "Parents",   // Capitalization
     "jp": Pandas.def.relations.parents["jp"]
+  },
+  "profile": {
+    "cn": "TOWRITE",
+    "en": "Profile",
+    "jp": "横顔"
   },
   "random": {
     "cn": "隨機",
@@ -167,6 +189,11 @@ Language.L.gui = {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
     "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "timeline": {
+    "cn": "TOWRITE",
+    "en": "Timeline",
+    "jp": "知らせ"
   },
   "title": {
     "cn": "TOWRITE",
@@ -297,24 +324,26 @@ Language.L.fallbackInfo = function(info, original) {
 
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
-  var languageButton = document.getElementById('languageButton');
-  [ langIcon, langText ] = languageButton.childNodes[0].childNodes;
-  langIcon.innerText = this.gui.flag[this.display];
-  langText.innerText = this.gui.language[this.display];
-  var aboutButton = document.getElementById('aboutButton');
-  [ langIcon, langText ] = aboutButton.childNodes[0].childNodes;
-  langText.innerText = this.gui.about[this.display];
-  var randomButton = document.getElementById('randomButton');
-  [ langIcon, langText ] = randomButton.childNodes[0].childNodes;
-  langText.innerText = this.gui.random[this.display];
-  var linksButton = document.getElementById('linksButton');
-  [ langIcon, langText ] = linksButton.childNodes[0].childNodes;
-  langText.innerText = this.gui.links[this.display];
+  var update_ids = ['languageButton', 'aboutButton', 'randomButton', 'linksButton',
+                    'profileButton', 'mediaButton', 'timelineButton'];
+  var existing_elements = update_ids.map(x => document.getElementById(x)).filter(x => x != undefined);
+  // Any buttons in the page? Redraw with correct language settings
+  for (let element of existing_elements) {
+    var id = element.id;
+    var lookup = id.replace("Button", "");
+    [icon, text] = element.childNodes[0].childNodes;
+    if (id == "languageButton") {
+      icon.innerText = this.gui.flag[this.display];   // Replace flag icon
+    }
+    text.innerText = this.gui[lookup][this.display];   // Replace icon text
+  }
   // Update the placeholder text for a search bar
-  if (P.db == undefined) {
-    document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
-  } else {
-    document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
+  if (document.forms['searchForm'] != undefined) {
+    if (P.db == undefined) {
+      document.forms['searchForm']['searchInput'].placeholder = this.gui.loading[this.display];
+    } else {
+      document.forms['searchForm']['searchInput'].placeholder = "➤ " + this.gui.search[this.display];
+    }
   }
   // Change the page title
   document.title = this.gui.title[this.display];

@@ -35,28 +35,26 @@ Page.about.render = function() {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
-    Page.footer.redraw();
+    Page.footer.redraw("results");
   }
+  Show["results"].menus.top();
 }
 
 Page.footer = {};
-Page.footer.redraw = function() {
+Page.footer.redraw = function(page_mode="results") {
   // Add the footer at the bottom of the page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
-    // If no footer exists, add one in
-    var bottomMenu = Page.bottomMenu(L.display);
+    // No footer exists, and no bottom menu either. Add both
     var footer = Page.footer.render(L.display);
-    body.appendChild(bottomMenu);
+    var menu = Show[page_mode].menus.bottom();
+    body.appendChild(menu);
     body.appendChild(footer);
   } else {
-    // Also replace the footer menu
-    var bottomMenu_test = document.getElementById("pageBottom");
     // Redraw the footer for language event changes
-    var bottomMenu = Page.bottomMenu(L.display);
     var footer = Page.footer.render(L.display);
-    body.replaceChild(bottomMenu, bottomMenu_test);
+    var bottomMenu = Show[page_mode].menus.bottom();   // TODO: does it replace?
     body.replaceChild(footer, footer_test);
   }
 }
@@ -65,7 +63,8 @@ Page.footer.remove = function() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className == "footer") {
-    var bottomMenu_test = document.getElementById("pageBottom");
+    // TODO: top and bottom menu operations should be by id
+    var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
     body.removeChild(bottomMenu_test);
     body.removeChild(footer_test);
   }
@@ -106,6 +105,7 @@ Page.home.render = function() {
   new_content.className = "fullFrame";
   new_content.id = "contentFrame";
   Page.swap(old_content, new_content);
+  Show["results"].menus.top();
   Page.footer.remove();
 }
 
@@ -146,14 +146,109 @@ Page.links.render = function() {
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.links.content);
-    Page.footer.redraw();
+    Page.footer.redraw("results");
   }
+  Show["results"].menus.top();
+}
+
+/*
+    The top and bottom menus of the page
+*/
+Page.menus = {};
+Page.menus.bottom = {};
+Page.menus.bottom.redraw = function(mode=undefined) {
+  if (mode == undefined) {
+    if (Page.routes.memberOf(Page.routes.no_footer, window.location.hash)) {
+      mode = "no_bottom_menu";
+    }
+    if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
+      mode = "results";
+    } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
+      mode = "profile";
+    }
+  }
+  if (mode != "no_bottom_menu") {
+    Show[mode].menus.bottom();
+  }
+}
+
+/*
+    The profiles page display details, media, or timelines for an individual panda
+*/
+Page.profile = {};
+Page.profile.render = function() {
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
+  // Start by just displaying info for one panda by id search
+  var results = Page.routes.behavior(input);
+  results = results instanceof Array ? results : [results];   // Guarantee array
+  // TODO: document structure and things to display based on input
+  var content_div = Show.profile.panda(results[0], L.display);
+  var new_content = document.createElement('div');
+  new_content.className = "shrinker";
+  new_content.appendChild(content_div);
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, new_content);
+  Show["profile"].menus.top();
+  Page.footer.redraw("profile");
 }
 
 /*
     Logic related to checking page routes, which are all implemented as #hashlinks
 */
 Page.routes = {};
+Page.routes.behavior = function(input) {
+  // Each hashlink determines a different behavior for the page rendering.
+  // Do a task based on what the route is.
+  if (input.indexOf("#credit/") == 0) {
+    // link for a page of photo credits for a specific author
+    Query.env.credit = input.slice(8);
+    Query.env.preserve_case = true;   // Don't adjust case for author searches
+    Query.env.output = "photos";      // Set output mode for a photo list
+    return Query.resolver.subject(Query.env.credit, "credit", L.display);
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 4)) {
+    // link for a panda result with a chosen photo.
+    var uri_items = input.slice(7);
+    var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.specific = photo_id;
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#panda/") == 0) &&
+             (input.split("/").length == 2)) {
+    // link for a single panda result. TODO: maybe do a detailed page
+    var panda = input.slice(7);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if ((input.indexOf("#profile/") == 0) &&
+             (input.split("/").length == 4)) {
+    // link for a panda profile result with a chosen photo.
+    var uri_items = input.slice(9);
+    var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.specific = photo_id;
+    return Query.resolver.subject(panda, "panda", L.display);    
+  } else if ((input.indexOf("#profile/") == 0) &&
+             (input.split("/").length == 2)) {
+    // link for a single panda profile result.
+    var panda = input.slice(9);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if (input.indexOf("#query/") == 0) {
+    // process a query.
+    var terms = input.slice(7);
+    var results = Query.lexer.parse(terms);
+    return (results == undefined) ? [] : results;
+  } else if (input.indexOf("#timeline/") == 0) {
+    // show full info and timeline for a panda. TODO
+    var panda = input.slice(10);
+    return Query.resolver.subject(panda, "panda", L.display);
+  } else if (input.indexOf("#zoo/") == 0) {
+    // link for a single zoo result.
+    var zoo = input.slice(5);
+    return Query.resolver.subject(zoo, "zoo", L.display);
+  } else {
+    // Don't know how to process the hashlink, so do nothing
+    return false;
+  }
+}
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
   // and immediately load that page if necessary.
@@ -168,16 +263,47 @@ Page.routes.check = function() {
   }
 }
 Page.routes.dynamic = [
-    "#credit",
-    "#panda",
-    "#query",
-    "#zoo"
+  "#credit",
+  "#media",
+  "#panda",
+  "#profile",
+  "#query",
+  "#timeline",
+  "#zoo"
 ];
 Page.routes.fixed = [
-    "#about",    // The about page
-    "#home",     // The empty query page
-    "#links"     // The links page
+  "#about",    // The about page
+  "#home",     // The empty query page
+  "#links"     // The links page
 ];
+Page.routes.no_footer = [
+  "#home"
+];
+Page.routes.profile = [
+  "#media",
+  "#profile",
+  "#timeline"
+];
+Page.routes.results = [
+  "#about",
+  "#credit",
+  "#home",
+  "#links",
+  "#media",
+  "#panda",
+  "#query",
+  "#zoo"
+];
+Page.routes.memberOf = function(routeList, current_route) {
+  // Determine if the current page route includes one of the routes
+  // specified in the different routes lists above.
+  for (let route of routeList) {
+    if (current_route.indexOf(route) != -1) {
+      return true;
+    }
+  }
+  return false;
+}
 
 /*
     Logic related to the results page output. The main render function chooses between
@@ -190,18 +316,18 @@ Page.results.entities = function(results) {
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
-      content_divs.push(Show.zooInformation(entity, L.display));
+      content_divs.push(Show.results.zoo(entity, L.display));
       animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
       animals.forEach(function(animal) {
-        content_divs.push(Show.pandaInformation(animal, L.display, undefined));
+        content_divs.push(Show.results.panda(animal, L.display, undefined));
       });
     } else {
-      content_divs.push(Show.pandaInformation(entity, L.display, undefined));
+      content_divs.push(Show.results.panda(entity, L.display, undefined));
     }
   });
   if (results.length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.displayEmptyResult(L.display));
+    content_divs.push(Show.emptyResult(L.display));
   }
   return content_divs;
 }
@@ -227,7 +353,7 @@ Page.results.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
-  var results = Query.hashlink(input);
+  var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   var new_content = document.createElement('div');
@@ -252,7 +378,8 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
-  Page.footer.redraw();
+  Show["results"].menus.top();
+  Page.footer.redraw("results");
 }
 
 /*
@@ -322,61 +449,6 @@ Page.sections.show = function(section_id) {
 /*
     Miscellaneous stuff that I don't know how to organize yet
 */
-// Draw a bottom menu, for when there are panda search results
-Page.bottomMenu = function(language) {
-  var menu_div = document.createElement('div');
-  menu_div.className = "bottomMenu";
-  menu_div.id = "pageBottom";
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  // Currently there are top and home buttons
-  // Top button
-  var top_icon = L.emoji.top;
-  var top_text = L.gui.top[language];
-  var top_button = Page.button("topButton", top_icon, top_text);
-  top_button.addEventListener("click", function() {
-    // anchor tags get used for JS redraws, so don't use an anchor tag for
-    // top-of-page scroll events. This fixes the language button after clicking pageTop.
-    window.scrollTo(0, 0);
-  });
-  // Home button
-  var home_icon = L.emoji.home;
-  var home_text = L.gui.home[language];
-  var home_button = Page.button("homeButton", home_icon, home_text);
-  // In mobile mode, logo button at the top doesn't exist so add a home button
-  // to the footer bar menu.
-  home_button.addEventListener("click", function() {
-    // Return to the empty search page
-    Page.lastSearch = "#home";
-    Page.home.render();
-    window.location = "#home";
-    Page.current = Page.home.render;
-  });
-  shrinker.appendChild(top_button);
-  shrinker.appendChild(home_button);
-  menu_div.appendChild(shrinker);
-  return menu_div;
-}
-
-// Draw menu buttons for the bottom menu, or potentially elsewhere.
-Page.button = function(id, button_icon, button_text) {
-  var button = document.createElement('button');
-  button.className = "menu";
-  button.id = id;
-  var content = document.createElement('div');
-  content.className = "buttonContent";
-  var icon_div = document.createElement('div');
-  icon_div.className = 'icon';
-  icon_div.innerText = button_icon;
-  var text_div = document.createElement('div');
-  text_div.className = 'text';
-  text_div.innerText = button_text;
-  content.appendChild(icon_div);
-  content.appendChild(text_div);
-  button.appendChild(content);
-  return button;
-}
-
 // Draw a header for crediting someone's photos contribution 
 // with the correct language
 Page.credit = function(credit, count, language) {

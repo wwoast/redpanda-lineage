@@ -44,15 +44,14 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
-    // Enable search bar once the page has loaded
-    var placeholder = "➤ " + L.gui.search[L.display];
-    document.forms['searchForm']['searchInput'].disabled = false;
-    document.forms['searchForm']['searchInput'].placeholder = placeholder;
-    document.getElementById('searchInput').focus();  // Set text cursor
+    // If available on the page, enable search bar once the page has loaded
+    Show.searchBar.enable();
 
-    // If a hashlink was bookmarked, bring up the results of it
-    if ((window.location.hash.length > 0) && 
-        (Page.routes.fixed.includes(window.location.hash) == false)) {
+    // Determine what page content to display
+    if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
+      Page.profile.render();
+    } else if ((window.location.hash.length > 0) && 
+        (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
     }
 
@@ -62,99 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 0);
   });
 
-  document.getElementById('logoButton').addEventListener("click", function() {
-    // Return to the empty search page
-    Page.lastSearch = "#home";
-    Page.home.render();
-    window.location = "#home";
-    Page.current = Page.home.render;
-  });
-
-  document.getElementById('languageButton').addEventListener("click", function() {
-    var language = L.display;
-    var options = Object.values(Pandas.def.languages);
-    var choice = options.indexOf(language);
-    choice = (choice + 1) % options.length;
-    var new_language = options[choice];
-    L.display = new_language;
-    L.update();
-    Page.redraw(Page.current);
-  });
-
-  document.getElementById('aboutButton').addEventListener("click", function() {
-    if (Page.current == Page.about.render) {
-      // Check the last query done and return to it, if it was a query
-      if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-        window.location = Page.lastSearch;
-      } else {
-        window.location = "#home";
-      }
-    } else {
-      // Only save the last page if it wasn't one of the other fixed buttons
-      if (Page.routes.fixed.includes(window.location.hash) == false) {
-        Page.lastSearch = window.location.hash;
-      }
-      window.location = "#about";
-      if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
-        Page.about.fetch();
-      } else {
-        Page.about.render();
-        // Add event listeners to the newly created About page buttons
-        Page.sections.buttonEventHandlers("aboutPageMenu");
-        // Display correct subsection of the about page (class swaps)
-        // Default: usage instructions appear non-hidden.
-        Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
-        Page.current = Page.about.render;
-      }
-    }
-  });
-
-  document.getElementById('randomButton').addEventListener("click", function() {
-    // Show a random panda from the database when the dice is clicked
-    Page.current = Page.results.render;
-    var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
-    window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
-  });
-
-  document.getElementById('linksButton').addEventListener("click", function() {
-    if (Page.current == Page.links.render) {
-      // Check the last query done and return to it, if it was a query
-      if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-        window.location = Page.lastSearch;
-      } else {
-        window.location = "#home";
-      }
-    } else {
-      // Only save the last page if it wasn't one of the other fixed buttons
-      if (Page.routes.fixed.includes(window.location.hash) == false) {
-        Page.lastSearch = window.location.hash;
-      }
-      window.location = "#links";
-      if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
-        Page.links.fetch();
-      } else {
-        Page.links.render();
-        // Add event listeners to the newly created About page buttons
-        Page.sections.buttonEventHandlers("linksPageMenu");
-        // Display correct subsection of the about page (class swaps)
-        // Default: usage instructions appear non-hidden.
-        Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-        Page.current = Page.links.render;
-      }
-    }
-  });
-
-  document.getElementById('searchForm').addEventListener("submit", function() {
-    Page.current = Page.results.render;
-    document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
-    var query = (document.getElementById('searchInput').value).trim();
-    Query.lexer.parse(query);  // TODO: onhashchange, race for results?
-    window.location = "#query/" + query;
-    // Refocus text cursor after a search is performed
-    setTimeout(function() {
-      document.getElementById('searchInput').focus();
-    }, 0);
-  });
+  // Add submit events for a search form if it exists
+  document.getElementById('searchForm').addEventListener("submit", Show.searchBar.submit);
 
   // Fetch the about page and links page contents for each language
   Page.about.fetch();

@@ -737,12 +737,25 @@ Pandas.profilePhoto = function(animal, index) {
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {
+        "id": animal["_id"],
      "photo": photos[choice],
     "credit": animal[choice + ".author"],
      "index": choice.replace("photo.", ""),
       "link": animal[choice + ".link"]
   }
   return desired;
+}
+
+// Given an animal species id, return the full species name
+Pandas.species = function(animal, language) {
+  // 0th value in Pandas.def.species is fulgens
+  // 1th vlue in Pandas.def.species is styani
+  // The panda files list the species as a number that is off by one from this
+  if (animal["species"] == undefined) {
+    return Pandas.def.unknown[language];
+  }
+  var idx = parseInt(animal["species"]) - 1;
+  return Pandas.def.species[language][idx];
 }
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.
