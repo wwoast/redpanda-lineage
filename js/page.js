@@ -46,7 +46,7 @@ Page.footer.redraw = function(page_mode="results") {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
-    // If no footer exists, add one in
+    // No footer exists, and no bottom menu either. Add both
     var footer = Page.footer.render(L.display);
     var menu = Show[page_mode].menus.bottom();
     body.appendChild(menu);
@@ -54,8 +54,7 @@ Page.footer.redraw = function(page_mode="results") {
   } else {
     // Redraw the footer for language event changes
     var footer = Page.footer.render(L.display);
-    var menu = Show[page_mode].menus.bottom();
-    body.appendChild(menu);
+    var bottomMenu = Show[page_mode].menus.bottom();   // TODO: does it replace?
     body.replaceChild(footer, footer_test);
   }
 }
@@ -64,6 +63,7 @@ Page.footer.remove = function() {
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.className == "footer") {
+    // TODO: top and bottom menu operations should be by id
     var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
     body.removeChild(bottomMenu_test);
     body.removeChild(footer_test);

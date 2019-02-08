@@ -374,7 +374,7 @@ Show.pandaTitle = function(info) {
 
 // Guarantee after calling this function that a menu, or a footer,
 // exist in the page where they should be.
-Show.update = function(new_contents, container=undefined, container_class=undefined) {
+Show.update = function(new_contents, container=undefined, container_class, container_id) {
   if (container == undefined) {
     container = document.createElement('div');
     container.appendChild(new_contents);
@@ -383,6 +383,7 @@ Show.update = function(new_contents, container=undefined, container_class=undefi
     container.replaceChild(new_contents, old_contents);
   }
   container.className = container_class;   // Regardless, set the corret container class. TODO: list?
+  container.id = container_id;
   return container;
 }
 
@@ -730,7 +731,7 @@ Show.profile.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu");
+  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.remove("results");
   return menu;
@@ -864,7 +865,7 @@ Show.results.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu");
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
   return menu;
@@ -882,7 +883,7 @@ Show.results.menus.top = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu");
+  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
   menu.classList.remove("profile");
   return menu;
