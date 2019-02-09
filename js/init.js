@@ -81,15 +81,15 @@ document.addEventListener("DOMContentLoaded", function() {
 // is closed.
 window.addEventListener('hashchange', function() {
   var mode = window.location.hash.split("/")[0];
-  if (Page.routes.results.includes(mode)) {
+  if (mode == "#home") {
+    Page.home.render();
+    Page.current = Page.home.render;
+  } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
   } else if (Page.routes.profile.includes(mode)) {
     Page.profile.render();
     Page.current = Page.profile.render;
-  } else if (mode == "#home") {
-    Page.home.render();
-    Page.current = Page.home.render;
   }
   window.localStorage.setItem("last_seen", window.location.hash);
 });

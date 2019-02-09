@@ -38,6 +38,17 @@ Page.about.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
+  Page.color("results");
+}
+
+/* Manage the background color of the page. Profiles/Results page have different 
+   colors. This mostly impacts how things look when you try and scroll on mobile
+   and you reach the end of touch-scrolling content. */
+Page.color = function(class_name) {
+  var body = document.getElementsByTagName('body')[0];
+  body.classList.remove("results");
+  body.classList.remove("profile");
+  body.classList.add(class_name);
 }
 
 Page.footer = {};
@@ -47,13 +58,13 @@ Page.footer.redraw = function(page_mode="results") {
   var footer_test = body.lastElementChild;
   if (footer_test.className != "footer") {
     // No footer exists, and no bottom menu either. Add both
-    var footer = Page.footer.render(L.display);
+    var footer = Page.footer.render(L.display, page_mode);
     var menu = Show[page_mode].menus.bottom();
     body.appendChild(menu);
     body.appendChild(footer);
   } else {
     // Redraw the footer for language event changes
-    var footer = Page.footer.render(L.display);
+    var footer = Page.footer.render(L.display, page_mode);
     var bottomMenu = Show[page_mode].menus.bottom();   // TODO: does it replace?
     body.replaceChild(footer, footer_test);
   }
@@ -62,15 +73,15 @@ Page.footer.remove = function() {
   // Remove the footer and bottom menu if returning to the home page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
-  if (footer_test.className == "footer") {
+  if (footer_test.classList.contains("footer")) {
     // TODO: top and bottom menu operations should be by id
     var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
     body.removeChild(bottomMenu_test);
     body.removeChild(footer_test);
   }
 }
-Page.footer.render = function(language) {
-  // Draw a footer with the correct language
+Page.footer.render = function(language, class_name) {
+  // Draw a footer with the correct language and color (class)
   var p = document.createElement('p');
   for (var i in L.gui.footer[language]) {
     var field = L.gui.footer[language][i];
@@ -89,6 +100,7 @@ Page.footer.render = function(language) {
   shrinker.appendChild(p);
   var footer = document.createElement('div');
   footer.className = "footer";
+  footer.classList.add(class_name);
   footer.appendChild(shrinker);
   return footer;
 }
@@ -107,6 +119,7 @@ Page.home.render = function() {
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
   Page.footer.remove();
+  Page.color("results");
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
@@ -149,6 +162,7 @@ Page.links.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
+  Page.color("results");
 }
 
 /*
@@ -192,6 +206,7 @@ Page.profile.render = function() {
   Page.swap(old_content, new_content);
   Show["profile"].menus.top();
   Page.footer.redraw("profile");
+  Page.color("profile");
 }
 
 /*
@@ -380,6 +395,7 @@ Page.results.render = function() {
   Layout.shrinkNames();
   Show["results"].menus.top();
   Page.footer.redraw("results");
+  Page.color("results");
 }
 
 /*
