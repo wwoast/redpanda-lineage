@@ -712,7 +712,7 @@ Show.profile.menus.bottom = function() {
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu");
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
   menu.classList.remove("results");
   return menu;

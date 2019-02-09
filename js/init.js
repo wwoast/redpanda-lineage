@@ -80,10 +80,14 @@ document.addEventListener("DOMContentLoaded", function() {
 // output results for pandas. Save the hashlink as a value to be loaded if the page
 // is closed.
 window.addEventListener('hashchange', function() {
-  if (Page.routes.fixed.includes(window.location.hash) == false) {
+  var mode = window.location.hash.split("/")[0];
+  if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
-  } else if (window.location.hash == "#home") {
+  } else if (Page.routes.profile.includes(mode)) {
+    Page.profile.render();
+    Page.current = Page.profile.render;
+  } else if (mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
   }
