@@ -480,8 +480,8 @@ Show.button.about.action = function() {
     }
   }
 }
-Show.button.about.render = function() {
-  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display]);
+Show.button.about.render = function(class_name="results") {
+  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
   about.addEventListener("click", Show.button.about.action);
   return about;
 }
@@ -493,8 +493,8 @@ Show.button.home.action = function() {
   window.location = "#home";
   Page.current = Page.home.render;
 };
-Show.button.home.render = function() {
-  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display]);
+Show.button.home.render = function(class_name="results") {
+  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display], class_name);
   home.addEventListener("click", Show.button.home.action);
   return home;
 }
@@ -510,8 +510,8 @@ Show.button.language.action = function() {
   L.update();
   Page.redraw(Page.current);
 }
-Show.button.language.render = function() {
-  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display]);
+Show.button.language.render = function(class_name="results") {
+  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display], class_name);
   language.addEventListener("click", Show.button.language.action);
   return language;
 }
@@ -544,16 +544,16 @@ Show.button.links.action = function() {
     }
   }
 }
-Show.button.links.render = function() {
-  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display]);
+Show.button.links.render = function(class_name="results") {
+  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
   links.addEventListener("click", Show.button.links.action);
   return links;
 }
 Show.button.logo = {};
 // The logo button and home button do the same thing, but appear in different spots
 Show.button.logo.action = Show.button.home.action;
-Show.button.logo.render = function() {
-  var logo = Show.button.render("logoButton", L.emoji.logo);
+Show.button.logo.render = function(class_name="results") {
+  var logo = Show.button.render("logoButton", L.emoji.logo, undefined, class_name);
   logo.classList.add("logo");
   logo.classList.remove("menu");
   logo.addEventListener("click", Show.button.logo.action);
@@ -561,14 +561,14 @@ Show.button.logo.render = function() {
 }
 Show.button.media = {};
 // Work in progress button, doesn't do anything yet
-Show.button.media.render = function() {
-  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display]);
+Show.button.media.render = function(class_name="profile") {class_name
+  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display], class_name);
   return media;
 }
 Show.button.profile = {};
 // Work in progress button, doesn't do anything yet
-Show.button.profile.render = function() {
-  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display]);
+Show.button.profile.render = function(class_name="profile") {
+  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
   return profile;
 }
 Show.button.random = {};
@@ -578,15 +578,16 @@ Show.button.random.action = function() {
   var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
 }
-Show.button.random.render = function() {
-  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display]);
+Show.button.random.render = function(class_name="results") {
+  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display], class_name);
   random.addEventListener("click", Show.button.random.action);
   return random;
 }
-Show.button.render = function(id, button_icon, button_text) {
+Show.button.render = function(id, button_icon, button_text, class_name) {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
   button.className = "menu";
+  button.classList.add(class_name);
   button.id = id;
   var content = document.createElement('div');
   content.className = "buttonContent";
@@ -610,8 +611,8 @@ Show.button.search.action = function() {
 }
 Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
-Show.button.timeline.render = function() {
-  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display]);
+Show.button.timeline.render = function(class_name="profile") {
+  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display], class_name);
   return timeline;
 }
 Show.button.top = {};
@@ -620,8 +621,8 @@ Show.button.top.action = function() {
   // top-of-page scroll events. This fixes the language button after clicking pageTop.
   window.scrollTo(0, 0);
 }
-Show.button.top.render = function() {
-  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display]);
+Show.button.top.render = function(class_name="results") {
+  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display], class_name);
   top.addEventListener("click", Show.button.top.action);
   return top;
 }
@@ -707,13 +708,14 @@ Show.profile.menus.bottom = function() {
   // Take the list of bottom-menu buttons and render them
   for (let btn_id of Show.profile.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("profile");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
   menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
+  menu.classList.add("profile");
   menu.classList.remove("results");
   return menu;
 }
@@ -726,13 +728,14 @@ Show.profile.menus.top = function() {
   // Take the list of top-menu buttons and render them
   for (let btn_id of Show.profile.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("profile");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
+  menu.classList.add("profile");
   menu.classList.remove("results");
   return menu;
 }
@@ -860,13 +863,14 @@ Show.results.menus.bottom = function() {
   // Take the list of bottom-menu buttons and render them
   for (let btn_id of Show.results.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("results");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
   menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
+  menu.classList.add("results");
   menu.classList.remove("profile");
   return menu;
 }
@@ -878,13 +882,14 @@ Show.results.menus.top = function() {
   // Take the list of top-menu buttons and render them
   for (let btn_id of Show.results.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("results");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
+  menu.classList.add("results");
   menu.classList.remove("profile");
   return menu;
 }
