@@ -611,7 +611,7 @@ Layout.L.arrangement.verticalBalanceMobile = function() {
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
   var line_height = "35px";
-  var list_count_height = "20px";
+  var list_count_height = "22px";
   var longest = 0;
   // Our desired order and spacing. Split at the middle by default, rounded down
   var minimum_space = Math.pow(2, 32) - 1;
