@@ -630,6 +630,40 @@ Show.button.top.render = function(class_name="results") {
   return top;
 }
 
+/* 
+    Show functions used to generate translated heading snippets in various page modes
+*/
+Show.message = {};
+Show.message.credit = function(credit, count, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.credit[language]) {
+    var field = L.gui.credit[language][i];
+    if (field == "<INSERTUSER>") {
+      field = credit;
+      var msg = document.createElement('i');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = count;
+      var msg = document.createElement('b');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "creditSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+
 /*
     Show functions used by the profile/media/timelines page for a single animal
 */
