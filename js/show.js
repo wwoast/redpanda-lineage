@@ -318,17 +318,24 @@ Show.locationLink = function(zoo, language) {
 // current animal's language order
 Show.nicknames = function(animal) {
   var container = document.createElement('ul');
-  container.className = "pandaList";
+  container.className = "nicknameList";
   for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
     var nicknames = animal[language + ".nicknames"];
     if (nicknames == undefined) {
       continue;
     }
-    for (let name of nicknames.split(",")) {
-      var add = document.createElement('li');
-      add.innerText = name;
-      container.appendChild(add);
+    var nicknames_list = [];
+    var nicknames_li = document.createElement('li');
+    nicknames_li.innerText = L.gui.language[L.display][language] + ": ";
+    // Nicknames for this animal
+    for (let name of nicknames.split(",").map(x => x.replace(" ",""))) {
+      nicknames_list.push(name);
     }
+    // Did we have any extra names? If so, add them
+    if (nicknames_list.length > 0) {
+      nicknames_li.innerText += nicknames_list.join(", ");
+      container.appendChild(nicknames_li);
+    }    
   }
   return container;
 }
@@ -338,7 +345,7 @@ Show.nicknames = function(animal) {
 // other languages, but not the current language
 Show.othernames = function(animal, current_language) {
   var container = document.createElement('ul');
-  container.className = "pandaList";  
+  container.className = "nicknameList";  
   // Cycle through other languages to get their names and other
   // spellings for their names
   for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
