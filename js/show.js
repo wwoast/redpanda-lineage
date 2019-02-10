@@ -319,7 +319,7 @@ Show.locationLink = function(zoo, language) {
 Show.nicknames = function(animal) {
   var container = document.createElement('ul');
   container.className = "nicknameList";
-  for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
+  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
     var nicknames = animal[language + ".nicknames"];
     if (nicknames == undefined) {
       continue;
@@ -328,7 +328,7 @@ Show.nicknames = function(animal) {
     var nicknames_li = document.createElement('li');
     nicknames_li.innerText = L.gui.language[L.display][language] + ": ";
     // Nicknames for this animal
-    for (let name of nicknames.split(",").map(x => x.replace(" ",""))) {
+    for (let name of nicknames.split(",").map(x => x.trim())) {
       nicknames_list.push(name);
     }
     // Did we have any extra names? If so, add them
@@ -348,7 +348,7 @@ Show.othernames = function(animal, current_language) {
   container.className = "nicknameList";  
   // Cycle through other languages to get their names and other
   // spellings for their names
-  for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
+  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
     var othername_list = [];
     var othername_li = document.createElement('li');
     othername_li.innerText = L.gui.language[L.display][language] + ": ";
@@ -362,7 +362,7 @@ Show.othernames = function(animal, current_language) {
     // Othernames / spellings for this animal
     var othernames = animal[language + ".othernames"];
     if (othernames != undefined) {
-      for (let name of othernames.split(",").map(x => x.replace(" ", ""))) {
+      for (let name of othernames.split(",").map(x => x.trim())) {
         othername_list.push(name);
       }
     }
