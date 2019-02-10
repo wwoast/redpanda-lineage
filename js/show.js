@@ -250,7 +250,7 @@ Show.furigana = function(name, othernames) {
 
 // Use localized alt-text, and display SVG gender information
 // so that padding can work consistently on mobile.
-Show.gender = function(info, frame_class="gender") {
+Show.gender = function(info, frame_class) {
   var language = info.language;
   var img = document.createElement('img');
   if (info.gender == Pandas.def.gender.Male[language]) {
@@ -262,7 +262,10 @@ Show.gender = function(info, frame_class="gender") {
   }
   img.alt = info.gender;
   var gender = document.createElement('div');
-  gender.className = frame_class;
+  gender.className = "gender";
+  if (frame_class != undefined) {
+    gender.classList.add(frame_class);
+  }
   gender.appendChild(img);
   return gender;
 }
@@ -347,29 +350,6 @@ Show.othernames = function(animal) {
     }
   }
   return container;
-}
-
-// Display the name and gender symbol for a single panda in the "title bar"
-Show.pandaTitle = function(info) {
-  var language = info.language;
-  var gender = Show.gender(info);
-  var name_div = document.createElement('div');
-  name_div.className = 'pandaName';
-  // In Japanese, display one of the "othernames" as furigana
-  if (language == "jp") {
-    name_div.innerText = info.name;
-    var furigana = Show.furigana(info.name, info.othernames);
-    if (furigana != false) {
-      name_div.appendChild(furigana);
-    }
-  } else {
-    name_div.innerText = info.name;
-  }
-  var title_div = document.createElement('div');
-  title_div.className = "pandaTitle";
-  title_div.appendChild(gender);
-  title_div.appendChild(name_div);
-  return title_div;
 }
 
 // Guarantee after calling this function that a menu, or a footer,
@@ -740,16 +720,38 @@ Show.profile.menus.top = function() {
   return menu;
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
+Show.profile.nameBar = function(info) {
+  // Replace the search bar with something that displays the animal's name and gender
+  var gender = Show.gender(info, "profile");
+  var name = document.createElement('div');
+  name.className = "pandaName";
+  name.classList.add("profile");
+  name.innerText = info.name;
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(gender);
+  shrinker.appendChild(name);
+  var nameBar = document.createElement('div');
+  nameBar.className = "nameHeader";
+  nameBar.classList.add("profile");
+  nameBar.appendChild(shrinker);
+  var body = document.getElementsByTagName("body")[0];
+  var topSearch = document.getElementsByClassName("topSearch")[0];   // TODO: id
+  body.replaceChild(nameBar, topSearch);
+}
 Show.profile.panda = function(animal, language) {
   // Create a profile page for a single panda
-  // TODO: render the next bits of content
   var info = Show.acquirePandaInfo(animal, language);
+  // Replace the search bar with the name bar for this animal
+  Show.profile.nameBar(info);
+  // Start with panda content
   var gallery = Show.profile.gallery(info);
   var dossier = Show.profile.dossier(animal, info, language);
   var result = document.createElement('div');
   result.className = "profileFrame";
   result.appendChild(gallery);
   result.appendChild(dossier);
+  // Replace the search bar with a name bar
   return result; 
 }
 Show.profile.search = {};
@@ -909,7 +911,7 @@ Show.results.panda = function(animal, language) {
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  var title = Show.pandaTitle(info);
+  var title = Show.results.pandaName(info);
   var details = Show.results.pandaDetails(info); 
   var family = Show.results.family(info);
   var dossier = document.createElement('div');
@@ -960,6 +962,28 @@ Show.results.pandaDetails = function(info) {
   }
   return details;
 }
+Show.results.pandaName = function(info) {
+  // Display the name and gender symbol for a single panda in the results "title bar"
+  var language = info.language;
+  var gender = Show.gender(info);
+  var name_div = document.createElement('div');
+  name_div.className = 'pandaName';
+  // In Japanese, display one of the "othernames" as furigana
+  if (language == "jp") {
+    name_div.innerText = info.name;
+    var furigana = Show.furigana(info.name, info.othernames);
+    if (furigana != false) {
+      name_div.appendChild(furigana);
+    }
+  } else {
+    name_div.innerText = info.name;
+  }
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(gender);
+  title_div.appendChild(name_div);
+  return title_div;
+}
 Show.results.parents = function(info) {
   // Do mom and dad's info in the family section
   var heading = document.createElement('h4');
@@ -994,6 +1018,9 @@ Show.results.parents = function(info) {
   parents.appendChild(heading);
   parents.appendChild(ul);
   return parents;
+}
+Show.results.searchBar = function(language) {
+  // TODO: leaving a profile page? Turn this into a search bar again
 }
 Show.results.siblings = function(info) {
   // Do the non-litter siblings info in the family section
