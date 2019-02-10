@@ -254,7 +254,10 @@ Page.routes.behavior = function(input) {
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
   // and immediately load that page if necessary.
-  if (Page.routes.dynamic.includes(window.location.hash.split('/')[0])) {
+  var mode = window.location.hash.split('/')[0];
+  if (Page.routes.profile.includes(mode)) {
+    Page.current = Page.profile.render;
+  } else if (Page.routes.dynamic.includes(mode)) {
     Page.current = Page.results.render;
   } else if (window.location.hash == "#about") {
     Page.current = Page.about.render;
@@ -291,7 +294,6 @@ Page.routes.results = [
   "#credit",
   "#home",
   "#links",
-  "#media",
   "#panda",
   "#query",
   "#zoo"
@@ -488,13 +490,19 @@ Page.current = Page.results.render;
 
 // Redraw page after an updateLanguage event or similar
 Page.redraw = function(callback) {
+  // TODO: rewrite this logic to be less tied to results/profile callback function checks
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
     callback();
   }
+  // Redisplay profile info in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.profile.render)) {
+    callback();
+  }
   // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
+  if ((window.location.hash.length > 0) && (callback != Page.results.render) && (callback != Page.profile.render)) {
     callback();
   }
 }
