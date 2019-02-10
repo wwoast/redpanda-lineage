@@ -198,9 +198,13 @@ Page.profile.render = function() {
   results = results instanceof Array ? results : [results];   // Guarantee array
   // TODO: document structure and things to display based on input
   var content_div = Show.profile.panda(results[0], L.display);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(content_div);
   var new_content = document.createElement('div');
-  new_content.className = "shrinker";
-  new_content.appendChild(content_div);
+  new_content.className = "profile";
+  new_content.id = "contentFrame";
+  new_content.appendChild(shrinker);
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
