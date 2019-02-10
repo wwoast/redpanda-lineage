@@ -601,9 +601,20 @@ ul.pandaList, ul.linkList, ul.nicknameList {
     padding: 0 0 0 0;
 }
 
+div.nicknameContainer, div.othernamesContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+div.nicknameContainer h4, div.othernamesContainer h4 {
+    margin-left: 0px;
+}
+
 ul.nicknameList {
     font-size: 12pt;
-    margin-left: 18px;
+    margin-left: 0px;
 }
 
 ul.nicknameList li {
@@ -1133,7 +1144,7 @@ div.photoSample h5.caption.familyTitle {
         margin-left: 14px;
     }
 
-    ul.nicknameList {
+    div.nicknameContainer, div.othernamesContainer {
         margin-left: 4px;
     }
     

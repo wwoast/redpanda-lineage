@@ -670,25 +670,32 @@ Show.profile.dossier = function(animal, info, language) {
     dossier.appendChild(credit);
   }
   dossier.appendChild(qrcode);
-  // Nicknames and other names, in all languages
+  // Nicknames, in all languages
+  var nicknames_container = document.createElement('div');
+  nicknames_container.className = "nicknameContainer";
   var nicknames_heading = document.createElement('h4');
   nicknames_heading.className = "nicknamesHeading";
   nicknames_heading.classList.add(L.display);
   nicknames_heading.innerText = L.gui.nicknames[L.display];
   var nicknames = Show.nicknames(animal);
   if (nicknames.childNodes.length > 0) {
-    dossier.appendChild(nicknames_heading);
-    dossier.appendChild(nicknames);
+    nicknames_container.appendChild(nicknames_heading);
+    nicknames_container.appendChild(nicknames);
   }
+  dossier.appendChild(nicknames_container);
+  // Other names container, in all languages
+  var othernames_container = document.createElement('div');
+  othernames_container.className = "othernamesContainer";
   var othernames_heading = document.createElement('h4');
   othernames_heading.className = "othernamesHeading";
   othernames_heading.classList.add(L.display);
   othernames_heading.innerText = L.gui.othernames[L.display];
   var othernames = Show.othernames(animal, L.display);
   if (othernames.childNodes.length > 0) {
-    dossier.appendChild(othernames_heading);
-    dossier.appendChild(othernames);
+    othernames_container.appendChild(othernames_heading);
+    othernames_container.appendChild(othernames);
   }
+  dossier.appendChild(othernames_container);
   return dossier;
 }
 Show.profile.gallery = function(info) {
