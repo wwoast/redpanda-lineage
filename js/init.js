@@ -54,15 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
     }
-
-    // Fixes TypeSquare unsetting the input typeface in its own javascript
-    setTimeout(function() {
-      document.getElementById('searchInput').style.fontFamily = "sans-serif";
-    }, 0);
   });
-
-  // Add submit events for a search form if it exists
-  document.getElementById('searchForm').addEventListener("submit", Show.searchBar.submit);
 
   // Fetch the about page and links page contents for each language
   Page.about.fetch();
@@ -80,12 +72,16 @@ document.addEventListener("DOMContentLoaded", function() {
 // output results for pandas. Save the hashlink as a value to be loaded if the page
 // is closed.
 window.addEventListener('hashchange', function() {
-  if (Page.routes.fixed.includes(window.location.hash) == false) {
-    Page.results.render();
-    Page.current = Page.results.render;
-  } else if (window.location.hash == "#home") {
+  var mode = window.location.hash.split("/")[0];
+  if (mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
+  } else if (Page.routes.results.includes(mode)) {
+    Page.results.render();
+    Page.current = Page.results.render;
+  } else if (Page.routes.profile.includes(mode)) {
+    Page.profile.render();
+    Page.current = Page.profile.render;
   }
   window.localStorage.setItem("last_seen", window.location.hash);
 });

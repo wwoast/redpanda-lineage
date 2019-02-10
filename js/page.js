@@ -38,6 +38,18 @@ Page.about.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
+  Show["results"].searchBar();   // Ensure the search bar comes back
+  Page.color("results");
+}
+
+/* Manage the background color of the page. Profiles/Results page have different 
+   colors. This mostly impacts how things look when you try and scroll on mobile
+   and you reach the end of touch-scrolling content. */
+Page.color = function(class_name) {
+  var body = document.getElementsByTagName('body')[0];
+  body.classList.remove("results");
+  body.classList.remove("profile");
+  body.classList.add(class_name);
 }
 
 Page.footer = {};
@@ -45,15 +57,15 @@ Page.footer.redraw = function(page_mode="results") {
   // Add the footer at the bottom of the page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
-  if (footer_test.className != "footer") {
+  if (footer_test.id != "footer") {
     // No footer exists, and no bottom menu either. Add both
-    var footer = Page.footer.render(L.display);
+    var footer = Page.footer.render(L.display, page_mode);
     var menu = Show[page_mode].menus.bottom();
     body.appendChild(menu);
     body.appendChild(footer);
   } else {
     // Redraw the footer for language event changes
-    var footer = Page.footer.render(L.display);
+    var footer = Page.footer.render(L.display, page_mode);
     var bottomMenu = Show[page_mode].menus.bottom();   // TODO: does it replace?
     body.replaceChild(footer, footer_test);
   }
@@ -62,15 +74,15 @@ Page.footer.remove = function() {
   // Remove the footer and bottom menu if returning to the home page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
-  if (footer_test.className == "footer") {
+  if (footer_test.id == "footer") {
     // TODO: top and bottom menu operations should be by id
     var bottomMenu_test = document.getElementsByClassName("bottomMenu")[0];
     body.removeChild(bottomMenu_test);
     body.removeChild(footer_test);
   }
 }
-Page.footer.render = function(language) {
-  // Draw a footer with the correct language
+Page.footer.render = function(language, class_name) {
+  // Draw a footer with the correct language and color (class)
   var p = document.createElement('p');
   for (var i in L.gui.footer[language]) {
     var field = L.gui.footer[language][i];
@@ -89,6 +101,8 @@ Page.footer.render = function(language) {
   shrinker.appendChild(p);
   var footer = document.createElement('div');
   footer.className = "footer";
+  footer.classList.add(class_name);
+  footer.id = "footer";
   footer.appendChild(shrinker);
   return footer;
 }
@@ -107,6 +121,8 @@ Page.home.render = function() {
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
   Page.footer.remove();
+  Show["results"].searchBar();   // Ensure the search bar comes back
+  Page.color("results");
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
@@ -149,27 +165,8 @@ Page.links.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
-}
-
-/*
-    The top and bottom menus of the page
-*/
-Page.menus = {};
-Page.menus.bottom = {};
-Page.menus.bottom.redraw = function(mode=undefined) {
-  if (mode == undefined) {
-    if (Page.routes.memberOf(Page.routes.no_footer, window.location.hash)) {
-      mode = "no_bottom_menu";
-    }
-    if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
-      mode = "results";
-    } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
-      mode = "profile";
-    }
-  }
-  if (mode != "no_bottom_menu") {
-    Show[mode].menus.bottom();
-  }
+  Show["results"].searchBar();   // Ensure the search bar comes back
+  Page.color("results");
 }
 
 /*
@@ -184,14 +181,19 @@ Page.profile.render = function() {
   results = results instanceof Array ? results : [results];   // Guarantee array
   // TODO: document structure and things to display based on input
   var content_div = Show.profile.panda(results[0], L.display);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(content_div);
   var new_content = document.createElement('div');
-  new_content.className = "shrinker";
-  new_content.appendChild(content_div);
+  new_content.className = "profile";
+  new_content.id = "contentFrame";
+  new_content.appendChild(shrinker);
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   Show["profile"].menus.top();
   Page.footer.redraw("profile");
+  Page.color("profile");
 }
 
 /*
@@ -252,7 +254,10 @@ Page.routes.behavior = function(input) {
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
   // and immediately load that page if necessary.
-  if (Page.routes.dynamic.includes(window.location.hash.split('/')[0])) {
+  var mode = window.location.hash.split('/')[0];
+  if (Page.routes.profile.includes(mode)) {
+    Page.current = Page.profile.render;
+  } else if (Page.routes.dynamic.includes(mode)) {
     Page.current = Page.results.render;
   } else if (window.location.hash == "#about") {
     Page.current = Page.about.render;
@@ -289,7 +294,6 @@ Page.routes.results = [
   "#credit",
   "#home",
   "#links",
-  "#media",
   "#panda",
   "#query",
   "#zoo"
@@ -380,6 +384,7 @@ Page.results.render = function() {
   Layout.shrinkNames();
   Show["results"].menus.top();
   Page.footer.redraw("results");
+  Page.color("results");
 }
 
 /*
@@ -485,13 +490,19 @@ Page.current = Page.results.render;
 
 // Redraw page after an updateLanguage event or similar
 Page.redraw = function(callback) {
+  // TODO: rewrite this logic to be less tied to results/profile callback function checks
   // Redisplay results in the correct language, but only if the Pandas
   // content has already been loaded.
   if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.results.render)) {
     callback();
   }
+  // Redisplay profile info in the correct language, but only if the Pandas
+  // content has already been loaded.
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.profile.render)) {
+    callback();
+  }
   // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != Page.results.render)) {
+  if ((window.location.hash.length > 0) && (callback != Page.results.render) && (callback != Page.profile.render)) {
     callback();
   }
 }

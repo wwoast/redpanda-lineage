@@ -254,7 +254,7 @@ input.search::placeholder {
     color: #E4A880; /* The light green, but with RR and GG byte switched */
 }
 
-div.profile.nameHeader {
+div.profile.nameBar {
     font-family: sans-serif;
     font-size: 38pt;
     width: 100%;
@@ -426,6 +426,7 @@ div.pandaDossier, div.zooDossier, div.profileDossier {
 div.profileDossier {
     width: 100%;
     background-color: #EEE8AA;
+    padding-bottom: 0.5ex;
 }
 
 div.pandaTitle, div.zooTitle {
@@ -591,13 +592,33 @@ hr.divider.onlyMobile {
     display: none;
 }
 
-ul.pandaList, ul.linkList {
+ul.pandaList, ul.linkList, ul.nicknameList {
     text-align: left;
     list-style: none;
     margin-left: 10px;
     margin-top: 0.5ex;
     margin-bottom: 0.5ex;
     padding: 0 0 0 0;
+}
+
+div.nicknameContainer, div.othernamesContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+div.nicknameContainer h4, div.othernamesContainer h4 {
+    margin-left: 0px;
+}
+
+ul.nicknameList {
+    font-size: 12pt;
+    margin-left: 0px;
+}
+
+ul.nicknameList li {
+    padding-bottom: 0.2ex;
 }
 
 ul.zooList {
@@ -623,7 +644,7 @@ ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
     column-count: 1;
 }
 
-ul.pandaList li, ul.linkList li {
+ul.pandaList li, ul.linkList li, ul.nicknameList li {
     /* white-space: nowrap; */   /* !!! Turning this on makes an overflow bug on iOS */
 }
 
@@ -1109,7 +1130,7 @@ div.photoSample h5.caption.familyTitle {
         margin-left: 8px;
     }
 
-    ul.pandaList, ul.linkList, ul.zooList {
+    ul.pandaList, ul.linkList, ul.nicknameList, ul.zooList {
         list-style: none;
         text-align: left;
         padding-left: 0px;
@@ -1121,6 +1142,10 @@ div.photoSample h5.caption.familyTitle {
 
     ul.linkList {
         margin-left: 14px;
+    }
+
+    div.nicknameContainer, div.othernamesContainer {
+        margin-left: 4px;
     }
     
     ul.pandaList.double, ul.pandaList.triple {

@@ -250,7 +250,7 @@ Show.furigana = function(name, othernames) {
 
 // Use localized alt-text, and display SVG gender information
 // so that padding can work consistently on mobile.
-Show.gender = function(info, frame_class="gender") {
+Show.gender = function(info, frame_class) {
   var language = info.language;
   var img = document.createElement('img');
   if (info.gender == Pandas.def.gender.Male[language]) {
@@ -262,7 +262,10 @@ Show.gender = function(info, frame_class="gender") {
   }
   img.alt = info.gender;
   var gender = document.createElement('div');
-  gender.className = frame_class;
+  gender.className = "gender";
+  if (frame_class != undefined) {
+    gender.classList.add(frame_class);
+  }
   gender.appendChild(img);
   return gender;
 }
@@ -315,61 +318,61 @@ Show.locationLink = function(zoo, language) {
 // current animal's language order
 Show.nicknames = function(animal) {
   var container = document.createElement('ul');
-  container.className = "pandaList";
-  for (let language of animal["language.order"].split(",")) {
+  container.className = "nicknameList";
+  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
     var nicknames = animal[language + ".nicknames"];
     if (nicknames == undefined) {
       continue;
     }
-    for (let name of nicknames.split(",")) {
-      var add = document.createElement('li');
-      add.innerText = name;
-      container.appendChild(add);
+    var nicknames_list = [];
+    var nicknames_li = document.createElement('li');
+    nicknames_li.innerText = L.gui.language[L.display][language] + ": ";
+    // Nicknames for this animal
+    for (let name of nicknames.split(",").map(x => x.trim())) {
+      nicknames_list.push(name);
     }
+    // Did we have any extra names? If so, add them
+    if (nicknames_list.length > 0) {
+      nicknames_li.innerText += nicknames_list.join(", ");
+      container.appendChild(nicknames_li);
+    }    
   }
   return container;
 }
 
-// Give a list of nicknames in all languages, in priority of the
-// current animal's language order
-Show.othernames = function(animal) {
+// Give a list of othernames in all languages, in priority of the
+// current animal's language order. Include their regular names in
+// other languages, but not the current language
+Show.othernames = function(animal, current_language) {
   var container = document.createElement('ul');
-  container.className = "pandaList";
-  for (let language of animal["language.order"].split(",")) {
-    var othernames = animal[language + ".othernames"];
-    if (othernames == undefined) {
-      continue;
+  container.className = "nicknameList";  
+  // Cycle through other languages to get their names and other
+  // spellings for their names
+  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
+    var othername_list = [];
+    var othername_li = document.createElement('li');
+    othername_li.innerText = L.gui.language[L.display][language] + ": ";
+    // Animal's name in other languages
+    if (language != current_language) {
+      var name = animal[language + ".name"];
+      if (name != undefined) {      
+        othername_list.push(name);
+      }
     }
-    for (let name of othernames.split(",")) {
-      var add = document.createElement('li');
-      add.innerText = name;
-      container.appendChild(add);
+    // Othernames / spellings for this animal
+    var othernames = animal[language + ".othernames"];
+    if (othernames != undefined) {
+      for (let name of othernames.split(",").map(x => x.trim())) {
+        othername_list.push(name);
+      }
+    }
+    // Did we have any extra names? If so, add them
+    if (othername_list.length > 0) {
+      othername_li.innerText += othername_list.join(", ");
+      container.appendChild(othername_li);
     }
   }
   return container;
-}
-
-// Display the name and gender symbol for a single panda in the "title bar"
-Show.pandaTitle = function(info) {
-  var language = info.language;
-  var gender = Show.gender(info);
-  var name_div = document.createElement('div');
-  name_div.className = 'pandaName';
-  // In Japanese, display one of the "othernames" as furigana
-  if (language == "jp") {
-    name_div.innerText = info.name;
-    var furigana = Show.furigana(info.name, info.othernames);
-    if (furigana != false) {
-      name_div.appendChild(furigana);
-    }
-  } else {
-    name_div.innerText = info.name;
-  }
-  var title_div = document.createElement('div');
-  title_div.className = "pandaTitle";
-  title_div.appendChild(gender);
-  title_div.appendChild(name_div);
-  return title_div;
 }
 
 // Guarantee after calling this function that a menu, or a footer,
@@ -480,8 +483,8 @@ Show.button.about.action = function() {
     }
   }
 }
-Show.button.about.render = function() {
-  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display]);
+Show.button.about.render = function(class_name="results") {
+  var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
   about.addEventListener("click", Show.button.about.action);
   return about;
 }
@@ -493,8 +496,8 @@ Show.button.home.action = function() {
   window.location = "#home";
   Page.current = Page.home.render;
 };
-Show.button.home.render = function() {
-  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display]);
+Show.button.home.render = function(class_name="results") {
+  var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display], class_name);
   home.addEventListener("click", Show.button.home.action);
   return home;
 }
@@ -510,8 +513,8 @@ Show.button.language.action = function() {
   L.update();
   Page.redraw(Page.current);
 }
-Show.button.language.render = function() {
-  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display]);
+Show.button.language.render = function(class_name="results") {
+  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
   language.addEventListener("click", Show.button.language.action);
   return language;
 }
@@ -544,16 +547,16 @@ Show.button.links.action = function() {
     }
   }
 }
-Show.button.links.render = function() {
-  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display]);
+Show.button.links.render = function(class_name="results") {
+  var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
   links.addEventListener("click", Show.button.links.action);
   return links;
 }
 Show.button.logo = {};
 // The logo button and home button do the same thing, but appear in different spots
 Show.button.logo.action = Show.button.home.action;
-Show.button.logo.render = function() {
-  var logo = Show.button.render("logoButton", L.emoji.logo);
+Show.button.logo.render = function(class_name="results") {
+  var logo = Show.button.render("logoButton", L.emoji.logo, undefined, class_name);
   logo.classList.add("logo");
   logo.classList.remove("menu");
   logo.addEventListener("click", Show.button.logo.action);
@@ -561,14 +564,14 @@ Show.button.logo.render = function() {
 }
 Show.button.media = {};
 // Work in progress button, doesn't do anything yet
-Show.button.media.render = function() {
-  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display]);
+Show.button.media.render = function(class_name="profile") {class_name
+  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display], class_name);
   return media;
 }
 Show.button.profile = {};
 // Work in progress button, doesn't do anything yet
-Show.button.profile.render = function() {
-  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display]);
+Show.button.profile.render = function(class_name="profile") {
+  var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
   return profile;
 }
 Show.button.random = {};
@@ -578,15 +581,16 @@ Show.button.random.action = function() {
   var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
 }
-Show.button.random.render = function() {
-  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display]);
+Show.button.random.render = function(class_name="results") {
+  var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display], class_name);
   random.addEventListener("click", Show.button.random.action);
   return random;
 }
-Show.button.render = function(id, button_icon, button_text) {
+Show.button.render = function(id, button_icon, button_text, class_name) {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
   button.className = "menu";
+  button.classList.add(class_name);
   button.id = id;
   var content = document.createElement('div');
   content.className = "buttonContent";
@@ -610,8 +614,8 @@ Show.button.search.action = function() {
 }
 Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
-Show.button.timeline.render = function() {
-  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display]);
+Show.button.timeline.render = function(class_name="profile") {
+  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display], class_name);
   return timeline;
 }
 Show.button.top = {};
@@ -620,8 +624,8 @@ Show.button.top.action = function() {
   // top-of-page scroll events. This fixes the language button after clicking pageTop.
   window.scrollTo(0, 0);
 }
-Show.button.top.render = function() {
-  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display]);
+Show.button.top.render = function(class_name="results") {
+  var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display], class_name);
   top.addEventListener("click", Show.button.top.action);
   return top;
 }
@@ -666,21 +670,32 @@ Show.profile.dossier = function(animal, info, language) {
     dossier.appendChild(credit);
   }
   dossier.appendChild(qrcode);
-  // Nicknames and other names, in all languages
-  var nickname_heading = document.createElement('h4');
-  nickname_heading.innerText = L.gui.nicknames[L.display];
+  // Nicknames, in all languages
+  var nicknames_container = document.createElement('div');
+  nicknames_container.className = "nicknameContainer";
+  var nicknames_heading = document.createElement('h4');
+  nicknames_heading.className = "nicknamesHeading";
+  nicknames_heading.classList.add(L.display);
+  nicknames_heading.innerText = L.gui.nicknames[L.display];
   var nicknames = Show.nicknames(animal);
   if (nicknames.childNodes.length > 0) {
-    dossier.appendChild(nickname_heading);
-    dossier.appendChild(nicknames);
+    nicknames_container.appendChild(nicknames_heading);
+    nicknames_container.appendChild(nicknames);
   }
+  dossier.appendChild(nicknames_container);
+  // Other names container, in all languages
+  var othernames_container = document.createElement('div');
+  othernames_container.className = "othernamesContainer";
   var othernames_heading = document.createElement('h4');
+  othernames_heading.className = "othernamesHeading";
+  othernames_heading.classList.add(L.display);
   othernames_heading.innerText = L.gui.othernames[L.display];
-  var othernames = Show.othernames(animal);
+  var othernames = Show.othernames(animal, L.display);
   if (othernames.childNodes.length > 0) {
-    dossier.appendChild(othernames_heading);
-    dossier.appendChild(othernames);
+    othernames_container.appendChild(othernames_heading);
+    othernames_container.appendChild(othernames);
   }
+  dossier.appendChild(othernames_container);
   return dossier;
 }
 Show.profile.gallery = function(info) {
@@ -707,13 +722,14 @@ Show.profile.menus.bottom = function() {
   // Take the list of bottom-menu buttons and render them
   for (let btn_id of Show.profile.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("profile");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu");
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
+  menu.classList.add("profile");
   menu.classList.remove("results");
   return menu;
 }
@@ -726,34 +742,59 @@ Show.profile.menus.top = function() {
   // Take the list of top-menu buttons and render them
   for (let btn_id of Show.profile.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("profile");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
+  menu.classList.add("profile");
   menu.classList.remove("results");
   return menu;
 }
 Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
+Show.profile.nameBar = function(info) {
+  // Replace the search bar with something that displays the animal's name and gender
+  var gender = Show.gender(info, "profile");
+  var name = document.createElement('div');
+  name.className = "pandaName";
+  name.classList.add("profile");
+  name.innerText = info.name;
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(gender);
+  shrinker.appendChild(name);
+  var nameBar = document.createElement('div');
+  nameBar.className = "nameBar";
+  nameBar.classList.add("profile");
+  nameBar.id = "focalBar";
+  nameBar.appendChild(shrinker);
+  var body = document.getElementsByTagName("body")[0];
+  // Replace search or nameBar that might be there
+  var existing = document.getElementById("focalBar");
+  body.replaceChild(nameBar, existing);
+}
 Show.profile.panda = function(animal, language) {
   // Create a profile page for a single panda
-  // TODO: render the next bits of content
   var info = Show.acquirePandaInfo(animal, language);
+  // Replace the search bar with the name bar for this animal
+  Show.profile.nameBar(info);
+  // Start with panda content
   var gallery = Show.profile.gallery(info);
   var dossier = Show.profile.dossier(animal, info, language);
   var result = document.createElement('div');
   result.className = "profileFrame";
   result.appendChild(gallery);
   result.appendChild(dossier);
+  // Replace the search bar with a name bar
   return result; 
 }
 Show.profile.search = {};
 Show.profile.search.render = function() {
   // Render the search bar at the bottom of the profile page
   var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
-  var searchBar = Show.searchBar.render("bottomSearch profile");
+  var searchBar = Show.searchBar.render("bottomSearch profile", "bottomSearch");
   bottomMenu.appendChild(searchBar);
 }
 Show.profile.species = function(animal, language) {
@@ -860,13 +901,14 @@ Show.results.menus.bottom = function() {
   // Take the list of bottom-menu buttons and render them
   for (let btn_id of Show.results.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("results");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("bottomMenu")[0];
   menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
   // Remove any previous menu class modifiers
+  menu.classList.add("results");
   menu.classList.remove("profile");
   return menu;
 }
@@ -878,13 +920,14 @@ Show.results.menus.top = function() {
   // Take the list of top-menu buttons and render them
   for (let btn_id of Show.results.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render();
+    var button = Show.button[btn_type].render("results");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
   var menu = document.getElementsByClassName("topMenu")[0];
   menu = Show.update(new_contents, menu, "topMenu", "pageTop");
   // Remove any previous menu class modifiers
+  menu.classList.add("results");
   menu.classList.remove("profile");
   return menu;
 }
@@ -904,7 +947,7 @@ Show.results.panda = function(animal, language) {
   photo.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  var title = Show.pandaTitle(info);
+  var title = Show.results.pandaName(info);
   var details = Show.results.pandaDetails(info); 
   var family = Show.results.family(info);
   var dossier = document.createElement('div');
@@ -916,6 +959,8 @@ Show.results.panda = function(animal, language) {
   result.className = "pandaResult";
   result.appendChild(photo);
   result.appendChild(dossier);
+  // Ensure theres's a search bar
+  Show.results.searchBar();
   return result; 
 }
 Show.results.pandaDetails = function(info) {
@@ -955,6 +1000,28 @@ Show.results.pandaDetails = function(info) {
   }
   return details;
 }
+Show.results.pandaName = function(info) {
+  // Display the name and gender symbol for a single panda in the results "title bar"
+  var language = info.language;
+  var gender = Show.gender(info);
+  var name_div = document.createElement('div');
+  name_div.className = 'pandaName';
+  // In Japanese, display one of the "othernames" as furigana
+  if (language == "jp") {
+    name_div.innerText = info.name;
+    var furigana = Show.furigana(info.name, info.othernames);
+    if (furigana != false) {
+      name_div.appendChild(furigana);
+    }
+  } else {
+    name_div.innerText = info.name;
+  }
+  var title_div = document.createElement('div');
+  title_div.className = "pandaTitle";
+  title_div.appendChild(gender);
+  title_div.appendChild(name_div);
+  return title_div;
+}
 Show.results.parents = function(info) {
   // Do mom and dad's info in the family section
   var heading = document.createElement('h4');
@@ -989,6 +1056,16 @@ Show.results.parents = function(info) {
   parents.appendChild(heading);
   parents.appendChild(ul);
   return parents;
+}
+Show.results.searchBar = function(language) {
+  // Leaving a profile page? Turn this into a search bar again
+  var body = document.getElementsByTagName("body")[0];
+  var focalBar = document.getElementById("focalBar");
+  if (focalBar.classList.contains("nameBar")) {
+    // Replace the nameBar with a search bar
+    var searchBar = Show.searchBar.render("topSearch", "focalBar");
+    body.replaceChild(searchBar, focalBar);
+  }
 }
 Show.results.siblings = function(info) {
   // Do the non-litter siblings info in the family section
@@ -1034,6 +1111,8 @@ Show.results.zoo = function(zoo, language) {
   result.className = "zooResult";
   result.appendChild(photo);
   result.appendChild(dossier);
+  // Ensure theres's a search bar
+  Show.results.searchBar();
   return result;
 }
 Show.results.zooDetails = function(info) {
@@ -1122,7 +1201,7 @@ Show.searchBar.remove = function(frame_class="bottomMenu") {
   var searchBar = document.getElementsByClassName(frame_class);
   searchBar.parentNode.remove(searchBar);
 }
-Show.searchBar.render = function(frame_class) {
+Show.searchBar.render = function(frame_class, frame_id) {
   // Create a search bar. Should be the same kind of bar that would appear
   // either at the top of the search results page, or at the bottom of the
   // profiles page. There can only be one on a page (id logic).
@@ -1140,13 +1219,20 @@ Show.searchBar.render = function(frame_class) {
   form.action = "javascript:";
   form.acceptCharset = "UTF-8";
   form.appendChild(hidden_button);
-  form.append_child(text_input);
+  form.appendChild(text_input);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(form);
   var search_bar = document.createElement('div');
   search_bar.className = frame_class;   // top_search or bottom_search
+  search_bar.id = frame_id;
   search_bar.appendChild(shrinker);
+  // Add submit events for a search form
+  form.addEventListener("submit", Show.searchBar.submit);
+  // Fixes TypeSquare unsetting the input typeface in its own javascript
+  setTimeout(function() {
+    document.getElementById('searchInput').style.fontFamily = "sans-serif";
+  }, 0);
   return search_bar;
 }
 Show.searchBar.submit = function() {

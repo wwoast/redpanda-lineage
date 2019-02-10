@@ -20,15 +20,19 @@ photo.1.link: https://www.instagram.com/hanamaru_redpanda/
 photo.2: https://www.instagram.com/p/BiVP23_HCgk/media/?size=m
 photo.2.author: rie_panda55
 photo.2.link: https://www.instagram.com/rie_panda55/
+photo.2.tags: tree
 photo.3: https://www.instagram.com/p/BcHkg4HhKv5/media/?size=m
 photo.3.author: 218_yu
 photo.3.link: https://www.instagram.com/218_yu/
+photo.3.tags: grooming
 photo.4: https://www.instagram.com/p/BCWSj4YQZy9/media/?size=m
 photo.4.author: rio_minron
 photo.4.link: https://www.instagram.com/rio_minron/
+photo.4.tags: bamboo, profile
 photo.5: https://www.instagram.com/p/BinpnuPgYI6/media/?size=m
 photo.5.author: jwg13777
 photo.5.link: https://www.instagram.com/jwg13777/
+photo.5.tags: baby, tree
 photo.6: https://www.instagram.com/p/BoFu-B8lGeH/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
@@ -38,6 +42,7 @@ photo.7.link: https://www.instagram.com/craig_craig_craig/
 photo.8: https://www.instagram.com/p/BoN_J85F_rO/media/?size=m
 photo.8.author: craig_craig_craig
 photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: tail, tongue
 photo.9: https://www.instagram.com/p/BokjA--FmQj/media/?size=m
 photo.9.author: tabechum
 photo.9.link: https://www.instagram.com/tabechum/
@@ -47,5 +52,6 @@ photo.10.link: https://www.instagram.com/craig_craig_craig/
 photo.11: https://www.instagram.com/p/BpomVoXleJo/media/?size=m
 photo.11.author: mariten1119
 photo.11.link: https://www.instagram.com/mariten1119/
+photo.11.tags: lips
 species: 2
 zoo: 25
