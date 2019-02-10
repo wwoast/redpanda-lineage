@@ -11,6 +11,7 @@ jp.name: 蘭花
 jp.nicknames: none
 jp.othernames: ランファ
 language.order: jp, en
+litter: none
 photo.1: https://www.instagram.com/p/BkWJxamASuk/media/?size=m
 photo.1.author: tohokusafaripark
 photo.1.link: https://www.instagram.com/tohokusafaripark/
@@ -129,7 +130,7 @@ photo.30.tags: paws, smile, snow, standing, tail
 photo.31: https://www.instagram.com/p/Bsfh3EaFRHd/media/?size=m
 photo.31.author: daniele.tokyo
 photo.31.link: https://www.instagram.com/daniele.tokyo/
-photo.31.tags: bamboo, smile
+photo.31.tags: bamboo, profile, smile
 species: 2
 video.1: https://youtu.be/Tj1Vraltvq8
 video.1.author: iwatatube
