@@ -1099,6 +1099,7 @@ Show.results.searchBar = function(language) {
     // Replace the nameBar with a search bar
     var searchBar = Show.searchBar.render("topSearch", "focalBar");
     body.replaceChild(searchBar, focalBar);
+    Show.searchBar.action();   // Add the event listeners
   }
 }
 Show.results.siblings = function(info) {
@@ -1210,6 +1211,16 @@ Show.results.zooDetails = function(info) {
     Methods related to displaying a panda search bar
 */
 Show.searchBar = {};
+Show.searchBar.action = function() {
+  // Set event listeners for the search bar
+  if (document.forms['searchForm'] != undefined) {
+    document.forms['searchForm'].addEventListener("submit", Show.searchBar.submit);
+  }
+  // Fix problems with Typesquare input box styling
+  if (document.getElementById('searchInput') != undefined) {
+    document.getElementById('searchInput').style.fontFamily = "sans-serif";
+  }
+}
 Show.searchBar.display = function() {
   // Display the search bar if it is hidden
   if (document.forms['searchForm'] != undefined) {
@@ -1226,7 +1237,7 @@ Show.searchBar.enable = function() {
     document.forms['searchForm']['searchInput'].disabled = false;
     var placeholder = "➤ " + L.gui.search[L.display];
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
-    document.forms['searchForm'].addEventListener("submit", Show.searchBar.submit);
+    Show.searchBar.action();
   }
   document.getElementById('searchInput').focus();  // Set text cursor
 }
@@ -1263,11 +1274,7 @@ Show.searchBar.render = function(frame_class, frame_id) {
   search_bar.id = frame_id;
   search_bar.appendChild(shrinker);
   // Add submit events for a search form
-  form.addEventListener("submit", Show.searchBar.submit);
-  // Fixes TypeSquare unsetting the input typeface in its own javascript
-  setTimeout(function() {
-    document.getElementById('searchInput').style.fontFamily = "sans-serif";
-  }, 0);
+  Show.searchBar.action();
   return search_bar;
 }
 Show.searchBar.submit = function() {
