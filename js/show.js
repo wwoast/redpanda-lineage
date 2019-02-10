@@ -734,11 +734,12 @@ Show.profile.nameBar = function(info) {
   var nameBar = document.createElement('div');
   nameBar.className = "nameBar";
   nameBar.classList.add("profile");
-  nameBar.id = "nameBar";
+  nameBar.id = "focalBar";
   nameBar.appendChild(shrinker);
   var body = document.getElementsByTagName("body")[0];
-  var topSearch = document.getElementsByClassName("topSearch")[0];   // TODO: id
-  body.replaceChild(nameBar, topSearch);
+  // Replace search or nameBar that might be there
+  var existing = document.getElementById("focalBar");
+  body.replaceChild(nameBar, existing);
 }
 Show.profile.panda = function(animal, language) {
   // Create a profile page for a single panda
@@ -759,7 +760,7 @@ Show.profile.search = {};
 Show.profile.search.render = function() {
   // Render the search bar at the bottom of the profile page
   var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
-  var searchBar = Show.searchBar.render("bottomSearch profile");
+  var searchBar = Show.searchBar.render("bottomSearch profile", "bottomSearch");
   bottomMenu.appendChild(searchBar);
 }
 Show.profile.species = function(animal, language) {
@@ -1023,13 +1024,13 @@ Show.results.parents = function(info) {
   return parents;
 }
 Show.results.searchBar = function(language) {
-  // TODO: leaving a profile page? Turn this into a search bar again
+  // Leaving a profile page? Turn this into a search bar again
   var body = document.getElementsByTagName("body")[0];
-  var nameBar = document.getElementById("nameBar");
-  if (nameBar != undefined) {
+  var focalBar = document.getElementById("focalBar");
+  if (focalBar.classList.contains("nameBar")) {
     // Replace the nameBar with a search bar
-    var searchBar = Show.searchBar.render("topSearch");
-    body.replaceChild(searchBar, nameBar);
+    var searchBar = Show.searchBar.render("topSearch", "focalBar");
+    body.replaceChild(searchBar, focalBar);
   }
 }
 Show.results.siblings = function(info) {
@@ -1166,7 +1167,7 @@ Show.searchBar.remove = function(frame_class="bottomMenu") {
   var searchBar = document.getElementsByClassName(frame_class);
   searchBar.parentNode.remove(searchBar);
 }
-Show.searchBar.render = function(frame_class) {
+Show.searchBar.render = function(frame_class, frame_id) {
   // Create a search bar. Should be the same kind of bar that would appear
   // either at the top of the search results page, or at the bottom of the
   // profiles page. There can only be one on a page (id logic).
@@ -1190,6 +1191,7 @@ Show.searchBar.render = function(frame_class) {
   shrinker.appendChild(form);
   var search_bar = document.createElement('div');
   search_bar.className = frame_class;   // top_search or bottom_search
+  search_bar.id = frame_id;
   search_bar.appendChild(shrinker);
   // Add submit events for a search form
   form.addEventListener("submit", Show.searchBar.submit);
