@@ -319,7 +319,7 @@ Show.locationLink = function(zoo, language) {
 Show.nicknames = function(animal) {
   var container = document.createElement('ul');
   container.className = "pandaList";
-  for (let language of animal["language.order"].split(",")) {
+  for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
     var nicknames = animal[language + ".nicknames"];
     if (nicknames == undefined) {
       continue;
@@ -333,20 +333,33 @@ Show.nicknames = function(animal) {
   return container;
 }
 
-// Give a list of nicknames in all languages, in priority of the
-// current animal's language order
-Show.othernames = function(animal) {
+// Give a list of othernames in all languages, in priority of the
+// current animal's language order. Include their regular names in
+// other languages, but not the current language
+Show.othernames = function(animal, current_language) {
   var container = document.createElement('ul');
-  container.className = "pandaList";
-  for (let language of animal["language.order"].split(",")) {
+  container.className = "pandaList";  
+  // Cycle through other languages to get their names and other
+  // spellings for their names
+  for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
+    // Animal's name in other languages
+    if (language != current_language) {
+      var name = animal[language + ".name"];
+      if (name != undefined) {      
+        var name_li = document.createElement('li');
+        name_li.innerText = name;
+        container.appendChild(name_li);
+      }
+    }
+    // Othernames / spellings for this animal
     var othernames = animal[language + ".othernames"];
     if (othernames == undefined) {
       continue;
     }
-    for (let name of othernames.split(",")) {
-      var add = document.createElement('li');
-      add.innerText = name;
-      container.appendChild(add);
+    for (let name of othernames.split(",").map(x => x.replace(" ", ""))) {
+      var othername_li = document.createElement('li');
+      othername_li.innerText = name;
+      container.appendChild(othername_li);
     }
   }
   return container;
@@ -491,7 +504,7 @@ Show.button.language.action = function() {
   Page.redraw(Page.current);
 }
 Show.button.language.render = function(class_name="results") {
-  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display], class_name);
+  var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
   language.addEventListener("click", Show.button.language.action);
   return language;
 }
@@ -657,7 +670,7 @@ Show.profile.dossier = function(animal, info, language) {
   }
   var othernames_heading = document.createElement('h4');
   othernames_heading.innerText = L.gui.othernames[L.display];
-  var othernames = Show.othernames(animal);
+  var othernames = Show.othernames(animal, L.display);
   if (othernames.childNodes.length > 0) {
     dossier.appendChild(othernames_heading);
     dossier.appendChild(othernames);

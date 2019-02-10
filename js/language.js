@@ -121,19 +121,31 @@ Language.L.gui = {
            "設計©2018 Justin Fairchild"]
   },
   "footerLink": {
-    "cn": "TOWRITE",
+    "cn": "Red Panda Lineage",
     "en": "Red Panda Lineage",
     "jp": "Red Panda Lineage"
   },
   "home": {
-    "cn": "TOWRITE",
+    "cn": "主頁",
     "en": "Home",
     "jp": "ホメパゲ"
   },
   "language": {
-    "cn": "漢語",
-    "en": "English",
-    "jp": "日本語"
+    "cn": {
+      "cn": "漢語",
+      "en": "英語",
+      "jp": "日語"
+    },
+    "en": {
+      "cn": "Chinese",
+      "en": "English",
+      "jp": "Japanese"
+    }, 
+    "jp": {
+      "cn": "中国語",
+      "en": "英語",
+      "jp": "日本語"
+    }
   },
   "loading": {
     "cn": "Loading...",
@@ -334,8 +346,10 @@ Language.L.update = function() {
     [icon, text] = element.childNodes[0].childNodes;
     if (id == "languageButton") {
       icon.innerText = this.gui.flag[this.display];   // Replace flag icon
+      text.innerText = this.gui[lookup][this.display][this.display]   // Replace language icon text
+    } else {
+      text.innerText = this.gui[lookup][this.display];   // Replace icon text
     }
-    text.innerText = this.gui[lookup][this.display];   // Replace icon text
   }
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
