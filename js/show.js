@@ -342,23 +342,26 @@ Show.othernames = function(animal, current_language) {
   // Cycle through other languages to get their names and other
   // spellings for their names
   for (let language of animal["language.order"].split(",").map(x => x.replace(" ", ""))) {
+    var othername_list = [];
+    var othername_li = document.createElement('li');
+    othername_li.innerText = L.gui.language[L.display][language] + ": ";
     // Animal's name in other languages
     if (language != current_language) {
       var name = animal[language + ".name"];
       if (name != undefined) {      
-        var name_li = document.createElement('li');
-        name_li.innerText = name;
-        container.appendChild(name_li);
+        othername_list.push(name);
       }
     }
     // Othernames / spellings for this animal
     var othernames = animal[language + ".othernames"];
-    if (othernames == undefined) {
-      continue;
+    if (othernames != undefined) {
+      for (let name of othernames.split(",").map(x => x.replace(" ", ""))) {
+        othername_list.push(name);
+      }
     }
-    for (let name of othernames.split(",").map(x => x.replace(" ", ""))) {
-      var othername_li = document.createElement('li');
-      othername_li.innerText = name;
+    // Did we have any extra names? If so, add them
+    if (othername_list.length > 0) {
+      othername_li.innerText += othername_list.join(", ");
       container.appendChild(othername_li);
     }
   }
@@ -661,14 +664,18 @@ Show.profile.dossier = function(animal, info, language) {
   }
   dossier.appendChild(qrcode);
   // Nicknames and other names, in all languages
-  var nickname_heading = document.createElement('h4');
-  nickname_heading.innerText = L.gui.nicknames[L.display];
+  var nicknames_heading = document.createElement('h4');
+  nicknames_heading.className = "nicknamesHeading";
+  nicknames_heading.classList.add(L.display);
+  nicknames_heading.innerText = L.gui.nicknames[L.display];
   var nicknames = Show.nicknames(animal);
   if (nicknames.childNodes.length > 0) {
-    dossier.appendChild(nickname_heading);
+    dossier.appendChild(nicknames_heading);
     dossier.appendChild(nicknames);
   }
   var othernames_heading = document.createElement('h4');
+  othernames_heading.className = "othernamesHeading";
+  othernames_heading.classList.add(L.display);
   othernames_heading.innerText = L.gui.othernames[L.display];
   var othernames = Show.othernames(animal, L.display);
   if (othernames.childNodes.length > 0) {

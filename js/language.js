@@ -168,14 +168,14 @@ Language.L.gui = {
     "jp": "媒体"
   },
   "nicknames": {
-    "cn": "TOWRITE",
+    "cn": "暱稱",
     "en": "Nicknames",
-    "jp": "TOWRITE"
+    "jp": "ニックネーム"
   },
   "othernames": {
-    "cn": "TOWRITE",
+    "cn": "其他名稱",
     "en": "Other Names",
-    "jp": "TOWRITE"
+    "jp": "他の名前"
   },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
