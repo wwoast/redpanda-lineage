@@ -603,6 +603,11 @@ ul.pandaList, ul.linkList, ul.nicknameList {
 
 ul.nicknameList {
     font-size: 12pt;
+    margin-left: 18px;
+}
+
+ul.nicknameList li {
+    padding-bottom: 0.2ex;
 }
 
 ul.zooList {
