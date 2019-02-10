@@ -54,15 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
     }
-
-    // Fixes TypeSquare unsetting the input typeface in its own javascript
-    setTimeout(function() {
-      document.getElementById('searchInput').style.fontFamily = "sans-serif";
-    }, 0);
   });
-
-  // Add submit events for a search form if it exists
-  document.getElementById('searchForm').addEventListener("submit", Show.searchBar.submit);
 
   // Fetch the about page and links page contents for each language
   Page.about.fetch();

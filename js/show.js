@@ -732,8 +732,9 @@ Show.profile.nameBar = function(info) {
   shrinker.appendChild(gender);
   shrinker.appendChild(name);
   var nameBar = document.createElement('div');
-  nameBar.className = "nameHeader";
+  nameBar.className = "nameBar";
   nameBar.classList.add("profile");
+  nameBar.id = "nameBar";
   nameBar.appendChild(shrinker);
   var body = document.getElementsByTagName("body")[0];
   var topSearch = document.getElementsByClassName("topSearch")[0];   // TODO: id
@@ -923,6 +924,8 @@ Show.results.panda = function(animal, language) {
   result.className = "pandaResult";
   result.appendChild(photo);
   result.appendChild(dossier);
+  // Ensure theres's a search bar
+  Show.results.searchBar();
   return result; 
 }
 Show.results.pandaDetails = function(info) {
@@ -1021,6 +1024,13 @@ Show.results.parents = function(info) {
 }
 Show.results.searchBar = function(language) {
   // TODO: leaving a profile page? Turn this into a search bar again
+  var body = document.getElementsByTagName("body")[0];
+  var nameBar = document.getElementById("nameBar");
+  if (nameBar != undefined) {
+    // Replace the nameBar with a search bar
+    var searchBar = Show.searchBar.render("topSearch");
+    body.replaceChild(searchBar, nameBar);
+  }
 }
 Show.results.siblings = function(info) {
   // Do the non-litter siblings info in the family section
@@ -1066,6 +1076,8 @@ Show.results.zoo = function(zoo, language) {
   result.className = "zooResult";
   result.appendChild(photo);
   result.appendChild(dossier);
+  // Ensure theres's a search bar
+  Show.results.searchBar();
   return result;
 }
 Show.results.zooDetails = function(info) {
@@ -1172,13 +1184,19 @@ Show.searchBar.render = function(frame_class) {
   form.action = "javascript:";
   form.acceptCharset = "UTF-8";
   form.appendChild(hidden_button);
-  form.append_child(text_input);
+  form.appendChild(text_input);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(form);
   var search_bar = document.createElement('div');
   search_bar.className = frame_class;   // top_search or bottom_search
   search_bar.appendChild(shrinker);
+  // Add submit events for a search form
+  form.addEventListener("submit", Show.searchBar.submit);
+  // Fixes TypeSquare unsetting the input typeface in its own javascript
+  setTimeout(function() {
+    document.getElementById('searchInput').style.fontFamily = "sans-serif";
+  }, 0);
   return search_bar;
 }
 Show.searchBar.submit = function() {

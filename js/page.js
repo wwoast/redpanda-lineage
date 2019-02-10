@@ -38,6 +38,7 @@ Page.about.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
+  Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
 }
 
@@ -120,6 +121,7 @@ Page.home.render = function() {
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
   Page.footer.remove();
+  Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
 }
 
@@ -163,28 +165,8 @@ Page.links.render = function() {
     Page.footer.redraw("results");
   }
   Show["results"].menus.top();
+  Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
-}
-
-/*
-    The top and bottom menus of the page
-*/
-Page.menus = {};
-Page.menus.bottom = {};
-Page.menus.bottom.redraw = function(mode=undefined) {
-  if (mode == undefined) {
-    if (Page.routes.memberOf(Page.routes.no_footer, window.location.hash)) {
-      mode = "no_bottom_menu";
-    }
-    if (Page.routes.memberOf(Page.routes.results, window.location.hash)) {
-      mode = "results";
-    } else if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
-      mode = "profile";
-    }
-  }
-  if (mode != "no_bottom_menu") {
-    Show[mode].menus.bottom();
-  }
 }
 
 /*
