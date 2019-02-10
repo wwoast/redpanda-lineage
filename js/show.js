@@ -1226,6 +1226,7 @@ Show.searchBar.enable = function() {
     document.forms['searchForm']['searchInput'].disabled = false;
     var placeholder = "➤ " + L.gui.search[L.display];
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
+    document.forms['searchForm'].addEventListener("submit", Show.searchBar.submit);
   }
   document.getElementById('searchInput').focus();  // Set text cursor
 }
