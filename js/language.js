@@ -183,9 +183,62 @@ Language.L.gui = {
     "jp": Pandas.def.relations.parents["jp"]
   },
   "profile": {
-    "cn": "TOWRITE",
+    "cn": "剖面",
     "en": "Profile",
     "jp": "横顔"
+  },
+  "profile_children": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTTOTAL>",
+           " children: ",
+           "<INSERTDAUGHTERS>",
+           " girls and ",
+           "<INSERTSONS>",
+           " boys!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTTOTAL>",
+           "人の子供がいます。",
+           "<INSERTDAUGHTERS>",
+           "人の女の子と",
+           "<INSERTSONS>",
+           "人の男の子"]
+  },
+  "profile_family": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           "'s immediate family"],
+    "jp": ["<INSERTNAME>",
+           "の直近の家族"]
+  },
+  "profile_siblings": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTTOTAL>",
+           " siblings: ",
+           "<INSERTSISTERS>",
+           " sisters and ",
+           "<INSERTBROTHERS>",
+           " brothers!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTTOTAL>",
+           "人の兄弟がいます。",
+           "<INSERTSISTERS>",
+           "人の姉妹と",
+           "<INSERTBROTHERS>",
+           "人の兄弟"]
+  },
+  "profile_where": {
+    "cn": ["TOWRITE"],
+    "en": ["Where has ",
+           "<INSERTNAME>",
+           " lived?"],
+    "jp": ["<INSERTNAME>",
+           "はどこに住んでいましたか？"]
   },
   "random": {
     "cn": "隨機",

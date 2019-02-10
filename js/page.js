@@ -347,7 +347,7 @@ Page.results.photos = function(results) {
     }
   });
   // Write some HTML with summary information for the user and the number of photos
-  var header = Page.credit(Query.env.credit, content_divs.length, L.display);
+  var header = Show.message.credit(Query.env.credit, content_divs.length, L.display);
   content_divs.unshift(header);
   // HACK: revert to results mode
   Query.env.clear();
@@ -454,36 +454,6 @@ Page.sections.show = function(section_id) {
 /*
     Miscellaneous stuff that I don't know how to organize yet
 */
-// Draw a header for crediting someone's photos contribution 
-// with the correct language
-Page.credit = function(credit, count, language) {
-  var p = document.createElement('p');
-  for (var i in L.gui.credit[language]) {
-    var field = L.gui.credit[language][i];
-    if (field == "<INSERTUSER>") {
-      field = credit;
-      var msg = document.createElement('i');
-      msg.innerText = field;
-      p.appendChild(msg);
-    } else if (field == "<INSERTNUMBER>") {
-      field = count;
-      var msg = document.createElement('b');
-      msg.innerText = field;
-      p.appendChild(msg);
-    } else {
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
-    }
-  }
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
-  shrinker.appendChild(p);
-  var footer = document.createElement('div');
-  footer.className = "creditSummary";
-  footer.appendChild(shrinker);
-  return footer;
-}
-
 // Stores callback to the current page render function for redraws.
 // Default mode is to show panda results.
 Page.current = Page.results.render;
