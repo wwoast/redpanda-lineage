@@ -246,7 +246,7 @@ Language.L.gui = {
     "jp": "適当"
   },
   "search": {
-    "cn": "Search...",
+    "cn": "搜索...",
     "en": "Search...",
     "jp": "サーチ..."
   },

@@ -194,6 +194,9 @@ Page.profile.render = function() {
   Show["profile"].menus.top();
   Page.footer.redraw("profile");
   Page.color("profile");
+  // Add a search bar but hide it until the bottomMenu search button is clicked
+  Show.profile.search.render();
+
 }
 
 /*

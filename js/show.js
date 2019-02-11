@@ -612,6 +612,12 @@ Show.button.search.action = function() {
   // Used on pages where the search bar normally doesn't appear
   Show.searchBar.toggle("bottomSearch");
 }
+Show.button.search.render = function(class_name="profile") {
+  var buttonText = L.gui.search[L.display].replace("...", "");   // No ellipses
+  var search = Show.button.render("searchButton", L.emoji.search, buttonText, class_name);
+  search.addEventListener("click", Show.button.search.action);
+  return search;
+}
 Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
 Show.button.timeline.render = function(class_name="profile") {
@@ -768,7 +774,7 @@ Show.profile.menus.bottom = function() {
   return menu;
 }
 // TODO: add searchButton once the code is written
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
@@ -821,7 +827,6 @@ Show.profile.panda = function(animal, language) {
   result.className = "profileFrame";
   result.appendChild(gallery);
   result.appendChild(dossier);
-  // Replace the search bar with a name bar
   return result; 
 }
 Show.profile.search = {};
@@ -1296,7 +1301,8 @@ Show.searchBar.toggle = function(frame_class) {
   var searchBar = document.getElementsByClassName(frame_class)[0];
   var display = searchBar.style.display;
   if (display == "none") {
-    searchBar.style.display = "block";
+    searchBar.style.display = "table";
+    Show.searchBar.action();   // Add the event listeners
   } else {
     searchBar.style.display = "none";
   }
