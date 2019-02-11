@@ -246,7 +246,7 @@ Language.L.gui = {
     "jp": "適当"
   },
   "search": {
-    "cn": "Search...",
+    "cn": "搜索...",
     "en": "Search...",
     "jp": "サーチ..."
   },
@@ -254,6 +254,11 @@ Language.L.gui = {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
     "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "since_date": {
+    "cn": "TOWRITE <INSERTDATE>",
+    "en": "Since <INSERTDATE>",
+    "jp": "<INSERTDATE>から"
   },
   "timeline": {
     "cn": "TOWRITE",

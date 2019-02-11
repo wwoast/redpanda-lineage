@@ -179,11 +179,15 @@ Page.profile.render = function() {
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
-  // TODO: document structure and things to display based on input
-  var content_div = Show.profile.panda(results[0], L.display);
+  var profile_div = Show.profile.panda(results[0], L.display);
+  var where_divs = Show.profile.where(results[0], L.display);
+  // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(content_div);
+  shrinker.appendChild(profile_div);
+  for (let where_div of where_divs) {
+    shrinker.appendChild(where_div);
+  }
   var new_content = document.createElement('div');
   new_content.className = "profile";
   new_content.id = "contentFrame";
@@ -194,6 +198,9 @@ Page.profile.render = function() {
   Show["profile"].menus.top();
   Page.footer.redraw("profile");
   Page.color("profile");
+  // Add a search bar but hide it until the bottomMenu search button is clicked
+  Show.profile.search.render();
+
 }
 
 /*

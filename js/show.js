@@ -38,6 +38,23 @@ Show.acquirePandaInfo = function(animal, language) {
   return bundle;
 }
 
+// Given an animal, return an array of location info translated correctly.
+Show.acquireLocationList = function(animal, language) {
+  var history = [];
+  var raw_locations = Pandas.locationList(animal);
+  for (let location of raw_locations) {
+    var zoo = Pandas.searchZooId(location["zoo"])[0];
+    var bundle = {
+            "name": Pandas.zooField(zoo, language + ".name"),
+        "location": Pandas.zooField(zoo, language + ".location"),
+      "start_date": Pandas.formatDate(location["start_date"], language),
+        "end_date": Pandas.formatDate(location["end_date"], language),
+    }
+    history.push(bundle);
+  }
+  return history;
+}
+
 // Given a zoo, return an address, location, link to a website, and information
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
@@ -612,6 +629,12 @@ Show.button.search.action = function() {
   // Used on pages where the search bar normally doesn't appear
   Show.searchBar.toggle("bottomSearch");
 }
+Show.button.search.render = function(class_name="profile") {
+  var buttonText = L.gui.search[L.display].replace("...", "");   // No ellipses
+  var search = Show.button.render("searchButton", L.emoji.search, buttonText, class_name);
+  search.addEventListener("click", Show.button.search.action);
+  return search;
+}
 Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
 Show.button.timeline.render = function(class_name="profile") {
@@ -660,6 +683,112 @@ Show.message.credit = function(credit, count, language) {
   shrinker.appendChild(p);
   var message = document.createElement('div');
   message.className = "creditSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_children = function(name, children_count, daughters, sons, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_children[language]) {
+    var field = L.gui.profile_children[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTOTAL>") {
+      var msg = document.createTextNode(children_count);
+      p.appendChild(msg);
+    } else if (field == "<INSERTDAUGHTERS>") {
+      var msg = document.createTextNode(daughters);
+      p.appendChild(msg);
+    } else if (field == "<INSERTSONS>") {
+      var msg = document.createTextNode(sons);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_family = function(name, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_family[language]) {
+    var field = L.gui.profile_family[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_siblings = function(name, sibling_count, sisters, brothers, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_siblings[language]) {
+    var field = L.gui.profile_siblings[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTOTAL>") {
+      var msg = document.createTextNode(sibling_count);
+      p.appendChild(msg);
+    } else if (field == "<INSERTSISTERS>") {
+      var msg = document.createTextNode(sisters);
+      p.appendChild(msg);
+    } else if (field == "<INSERTBROTHERS>") {
+      var msg = document.createTextNode(brothers);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_where = function(name, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_where[language]) {
+    var field = L.gui.profile_where[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
   message.appendChild(shrinker);
   return message;
 }
@@ -750,7 +879,6 @@ Show.profile.gallery = function(info) {
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
   // Offer red menu bar with a search function: Top, Home, Search
-  // TODO: the search bits
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them
@@ -767,8 +895,7 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-// TODO: add searchButton once the code is written
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
@@ -821,7 +948,6 @@ Show.profile.panda = function(animal, language) {
   result.className = "profileFrame";
   result.appendChild(gallery);
   result.appendChild(dossier);
-  // Replace the search bar with a name bar
   return result; 
 }
 Show.profile.search = {};
@@ -844,6 +970,41 @@ Show.profile.species = function(animal, language) {
   species_div.className = "species";
   species_div.appendChild(heading);
   return species_div;
+}
+Show.profile.where = function(animal, language) {
+  // Show the locations this panda has been at. Return an array of
+  // HTMLElements to insert into the page
+  var elements = [];
+  var history = Show.acquireLocationList(animal, language);
+  var message = Show.message.profile_where(animal[language + ".name"], language);
+  elements.push(message);
+  // Start at the current zoo, and work backwards
+  var container = document.createElement('div');
+  container.className = "zooHistory";
+  for (let zoo of history.reverse()) {
+    var zoo_icon = L.emoji.zoo;
+    var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
+    if (zoo["end_date"] == Pandas.def.unknown[language]) {
+      date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
+      zoo_icon = L.emoji.home;
+    }
+    var zoo_entry = document.createElement('ul');
+    zoo_entry.className = "zooList";
+    var zoo_name = document.createElement('li');
+    var zoo_name_text = document.createTextNode(zoo_icon + " " + zoo["name"]);
+    var zoo_date = document.createElement('span');
+    zoo_date.className = "detail";
+    zoo_date.innerText = date_string;
+    zoo_name.appendChild(zoo_name_text);
+    zoo_name.appendChild(zoo_date);
+    zoo_entry.appendChild(zoo_name);
+    var zoo_location = document.createElement('li');
+    zoo_location.innerText = zoo["location"];
+    zoo_entry.appendChild(zoo_location);
+    container.appendChild(zoo_entry);
+  }
+  elements.push(container);
+  return elements;
 }
 
 /* 
@@ -1241,10 +1402,10 @@ Show.searchBar.enable = function() {
   }
   document.getElementById('searchInput').focus();  // Set text cursor
 }
-Show.searchBar.remove = function(frame_class="bottomMenu") {
+Show.searchBar.remove = function(frame_id="bottomSearch") {
   // Remove the search bar when leaving profile mode. By default it will be
   // the bottom menu search bar that gets disappeared.
-  var searchBar = document.getElementsByClassName(frame_class);
+  var searchBar = document.getElementById(frame_id);
   searchBar.parentNode.remove(searchBar);
 }
 Show.searchBar.render = function(frame_class, frame_id) {
@@ -1284,6 +1445,9 @@ Show.searchBar.submit = function() {
   var query = (document.getElementById('searchInput').value).trim();
   Query.lexer.parse(query);  // TODO: onhashchange, race for results?
   window.location = "#query/" + query;
+  // TODO: when submitting from the bottomMenu search bar, destroy it and move the
+  // focus and query output to the top search bar.
+  Show.searchBar.remove();
   // Refocus text cursor after a search is performed
   setTimeout(function() {
     document.getElementById('searchInput').focus();
@@ -1296,7 +1460,8 @@ Show.searchBar.toggle = function(frame_class) {
   var searchBar = document.getElementsByClassName(frame_class)[0];
   var display = searchBar.style.display;
   if (display == "none") {
-    searchBar.style.display = "block";
+    searchBar.style.display = "table";
+    Show.searchBar.action();   // Add the event listeners
   } else {
     searchBar.style.display = "none";
   }

@@ -195,7 +195,7 @@ button.sectionButton.two:nth-child(2n) {
     border-right: none;
 }
 
-div.topSearch {
+div.topSearch, div.bottomSearch {
     display: table;
     text-align: center;
     vertical-align: middle;
@@ -205,6 +205,10 @@ div.topSearch {
     width: 100%;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+}
+
+div.bottomSearch {
+    display: none;
 }
 
 div.shrinker {
@@ -1059,7 +1063,7 @@ div.photoSample h5.caption.familyTitle {
         margin-right: 0.5ex;
     }
 
-    div.pandaDossier, div.zooDossier, div.profileFrame {
+    div.pandaDossier, div.zooDossier, div.profileFrame, div.profileDossier {
         display: block;
         border: 0px solid;
     }
