@@ -985,7 +985,7 @@ Show.profile.where = function(animal, language) {
     var zoo_icon = L.emoji.zoo;
     var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
     if (zoo["end_date"] == Pandas.def.unknown[language]) {
-      date_string = zoo["start_date"];
+      date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
       zoo_icon = L.emoji.home;
     }
     var zoo_entry = document.createElement('ul');

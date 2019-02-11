@@ -255,6 +255,11 @@ Language.L.gui = {
     "en": "Siblings",   // Capitalization
     "jp": Pandas.def.relations.siblings["jp"]
   },
+  "since_date": {
+    "cn": "TOWRITE <INSERTDATE>",
+    "en": "Since <INSERTDATE>",
+    "jp": "<INSERTDATE>から"
+  },
   "timeline": {
     "cn": "TOWRITE",
     "en": "Timeline",
