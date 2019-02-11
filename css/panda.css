@@ -1059,7 +1059,7 @@ div.photoSample h5.caption.familyTitle {
         margin-right: 0.5ex;
     }
 
-    div.pandaDossier, div.zooDossier, div.profileFrame {
+    div.pandaDossier, div.zooDossier, div.profileFrame, div.profileDossier {
         display: block;
         border: 0px solid;
     }
