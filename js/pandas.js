@@ -265,6 +265,18 @@ Pandas.photoGeneratorEntity = function*(entity, index=0) {
   }
 }
 
+// Generates a valid index to a location for a panda entity, up to the
+// point that said entity doesn't have a defined historical location in its data
+Pandas.locationGeneratorEntity = function*(entity, index=0) {
+  while (index < index + 1) {
+    index++;
+    if (entity["location." + index] == undefined) {
+      return;
+    }
+    yield "location." + index;
+  }
+}
+
 // Generates a valid index to a photo for a panda entity, up to the
 // max index.
 Pandas.photoGeneratorMax = function*() {
@@ -630,12 +642,7 @@ Pandas.date = function(animal, field, language) {
   if ((date == undefined) || (date == "unknown")) {
     return Pandas.def.unknown[language];
   }
-  var format = Pandas.def.date[language];
-  [ year, month, day ] = date.split("/");
-  format = format.replace("YYYY", year);
-  format = format.replace("MM", month);
-  format = format.replace("DD", day);
-  return format;
+  return Pandas.formatDate(date, language);
 }
 
 // Given a field that doesn't have language information associated with it,
@@ -654,6 +661,16 @@ Pandas.field = function(animal, field) {
   }
 }
 
+// Given a date string, format the date as per the locale settings
+Pandas.formatDate = function(date_string, language) {
+  var format = Pandas.def.date[language];
+  [ year, month, day ] = date_string.split("/");
+  format = format.replace("YYYY", year);
+  format = format.replace("MM", month);
+  format = format.replace("DD", day);
+  return format;
+}
+
 // Given an animal and a language, return the proper gender string.
 Pandas.gender = function(animal, language) {
   var gender = animal["gender"];
@@ -667,6 +684,43 @@ Pandas.language_order = function(entity) {
   return ordering.replace(" ", "").split(',');
 }
 
+// Returns a list of locations valid for an animal
+Pandas.locationList = function(animal) {
+  var locations = [];
+  // Find the available photo indexes between one and ten
+  var location_fields = Pandas.locationManifest(animal);
+  // Return not just the chosen photo but the author and link as well
+  for (let location_field in location_fields) {
+    var [field_name, index] = location_field.split(".");
+    var next_field = field_name + "." + (parseInt(index) + 1).toString();
+    var end_date = Pandas.def.animal["birthday"];
+    if (animal[next_field] != undefined) {
+      var [_, next_start] = animal[next_field].split(",").map(x => x.trim());
+      end_date = next_start;
+    }
+    var [zoo_index, start_date]= animal[location_field].split(",").map(x => x.trim());
+    var location = {
+          "zoo": zoo_index,
+   "start_date": start_date,
+     "end_date": end_date,
+    }
+    locations.push(location);
+  }
+  return locations;
+}
+
+// Return a list of location fields an animal has for historical zoo info
+Pandas.locationManifest = function(animal) {
+  // Find the available photo indexes between one and ten
+  var locations = {};
+  var location_fields = Pandas.locationGeneratorEntity;
+  // Gets panda locations
+  for (let field_name of location_fields(animal)) {
+    locations[field_name] = Pandas.field(animal, field_name);
+  }
+  return locations;
+}
+
 // Given an animal and a chosen language, return details for a red panda.
 Pandas.myName = function(animal, language) {
   var field = language + ".name";
@@ -674,7 +728,7 @@ Pandas.myName = function(animal, language) {
 }
 
 // Given an animal and a field name, return details about a zoo.
-// Though zoos are stored in the text filees related to an animal, 
+// Though zoos are stored in the text files related to an animal, 
 // when moved into Dagoba they become edges to zoo nodes.
 // Proper "fields" might be 'birthplace' or 'zoo'.
 Pandas.myZoo = function(animal, field) {
@@ -715,8 +769,6 @@ Pandas.photoManifest = function(animal) {
 }
 
 // Given an animal, choose a single photo to display as its profile photo.
-// The index can be a number between 1 and 10, or it can be "random".
-// TODO: support more than the max of 10
 Pandas.profilePhoto = function(animal, index) {
   // Find the available photo indexes between one and ten
   var photos = Pandas.photoManifest(animal);

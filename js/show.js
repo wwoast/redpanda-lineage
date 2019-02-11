@@ -38,6 +38,23 @@ Show.acquirePandaInfo = function(animal, language) {
   return bundle;
 }
 
+// Given an animal, return an array of location info translated correctly.
+Show.acquireLocationList = function(animal, language) {
+  var history = [];
+  var raw_locations = Pandas.locationList(animal);
+  for (let location of raw_locations) {
+    var zoo = Pandas.searchZooId(location["zoo"])[0];
+    var bundle = {
+            "name": Pandas.zooField(zoo, language + ".name"),
+        "location": Pandas.zooField(zoo, language + ".location"),
+      "start_date": Pandas.formatDate(location["start_date"], language),
+        "end_date": Pandas.formatDate(location["end_date"], language),
+    }
+    history.push(bundle);
+  }
+  return history;
+}
+
 // Given a zoo, return an address, location, link to a website, and information
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
@@ -669,6 +686,112 @@ Show.message.credit = function(credit, count, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.profile_children = function(name, children_count, daughters, sons, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_children[language]) {
+    var field = L.gui.profile_children[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTOTAL>") {
+      var msg = document.createTextNode(children_count);
+      p.appendChild(msg);
+    } else if (field == "<INSERTDAUGHTERS>") {
+      var msg = document.createTextNode(daughters);
+      p.appendChild(msg);
+    } else if (field == "<INSERTSONS>") {
+      var msg = document.createTextNode(sons);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_family = function(name, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_family[language]) {
+    var field = L.gui.profile_family[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_siblings = function(name, sibling_count, sisters, brothers, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_siblings[language]) {
+    var field = L.gui.profile_siblings[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTOTAL>") {
+      var msg = document.createTextNode(sibling_count);
+      p.appendChild(msg);
+    } else if (field == "<INSERTSISTERS>") {
+      var msg = document.createTextNode(sisters);
+      p.appendChild(msg);
+    } else if (field == "<INSERTBROTHERS>") {
+      var msg = document.createTextNode(brothers);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.profile_where = function(name, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  var p = document.createElement('p');
+  for (var i in L.gui.profile_where[language]) {
+    var field = L.gui.profile_where[language][i];
+    if (field == "<INSERTNAME>") {
+      var msg = document.createTextNode(name);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 
 /*
     Show functions used by the profile/media/timelines page for a single animal
@@ -849,6 +972,12 @@ Show.profile.species = function(animal, language) {
   species_div.className = "species";
   species_div.appendChild(heading);
   return species_div;
+}
+Show.profile.where = function(animal, language) {
+  // Show the locations this panda has been at. Return an array of
+  // HTMLElements to insert into the page
+  var message = Show.message.profile_where(animal[language + ".name"], language);
+  return message;
 }
 
 /* 
