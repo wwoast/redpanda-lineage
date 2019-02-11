@@ -180,12 +180,14 @@ Page.profile.render = function() {
   var results = Page.routes.behavior(input);
   results = results instanceof Array ? results : [results];   // Guarantee array
   var profile_div = Show.profile.panda(results[0], L.display);
-  var where_div = Show.profile.where(results[0], L.display);
+  var where_divs = Show.profile.where(results[0], L.display);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(profile_div);
-  shrinker.appendChild(where_div);
+  for (let where_div of where_divs) {
+    shrinker.appendChild(where_div);
+  }
   var new_content = document.createElement('div');
   new_content.className = "profile";
   new_content.id = "contentFrame";

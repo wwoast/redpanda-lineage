@@ -879,7 +879,6 @@ Show.profile.gallery = function(info) {
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
   // Offer red menu bar with a search function: Top, Home, Search
-  // TODO: the search bits
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
   // Take the list of bottom-menu buttons and render them
@@ -896,7 +895,6 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-// TODO: add searchButton once the code is written
 Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
@@ -976,8 +974,37 @@ Show.profile.species = function(animal, language) {
 Show.profile.where = function(animal, language) {
   // Show the locations this panda has been at. Return an array of
   // HTMLElements to insert into the page
+  var elements = [];
+  var history = Show.acquireLocationList(animal, language);
   var message = Show.message.profile_where(animal[language + ".name"], language);
-  return message;
+  elements.push(message);
+  // Start at the current zoo, and work backwards
+  var container = document.createElement('div');
+  container.className = "zooHistory";
+  for (let zoo of history.reverse()) {
+    var zoo_icon = L.emoji.zoo;
+    var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
+    if (zoo["end_date"] == Pandas.def.unknown[language]) {
+      date_string = zoo["start_date"];
+      zoo_icon = L.emoji.home;
+    }
+    var zoo_entry = document.createElement('ul');
+    zoo_entry.className = "zooList";
+    var zoo_name = document.createElement('li');
+    var zoo_name_text = document.createTextNode(zoo_icon + " " + zoo["name"]);
+    var zoo_date = document.createElement('span');
+    zoo_date.className = "detail";
+    zoo_date.innerText = date_string;
+    zoo_name.appendChild(zoo_name_text);
+    zoo_name.appendChild(zoo_date);
+    zoo_entry.appendChild(zoo_name);
+    var zoo_location = document.createElement('li');
+    zoo_location.innerText = zoo["location"];
+    zoo_entry.appendChild(zoo_location);
+    container.appendChild(zoo_entry);
+  }
+  elements.push(container);
+  return elements;
 }
 
 /* 

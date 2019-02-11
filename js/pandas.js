@@ -662,9 +662,12 @@ Pandas.field = function(animal, field) {
 }
 
 // Given a date string, format the date as per the locale settings
-Pandas.formatDate = function(date_string, language) {
+Pandas.formatDate = function(date, language) {
+  if ((date == undefined) || (date == "unknown")) {
+    return Pandas.def.unknown[language];
+  }
   var format = Pandas.def.date[language];
-  [ year, month, day ] = date_string.split("/");
+  [ year, month, day ] = date.split("/");
   format = format.replace("YYYY", year);
   format = format.replace("MM", month);
   format = format.replace("DD", day);
@@ -693,7 +696,7 @@ Pandas.locationList = function(animal) {
   for (let location_field in location_fields) {
     var [field_name, index] = location_field.split(".");
     var next_field = field_name + "." + (parseInt(index) + 1).toString();
-    var end_date = Pandas.def.animal["birthday"];
+    var end_date = undefined;
     if (animal[next_field] != undefined) {
       var [_, next_start] = animal[next_field].split(",").map(x => x.trim());
       end_date = next_start;
