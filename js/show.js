@@ -1246,10 +1246,10 @@ Show.searchBar.enable = function() {
   }
   document.getElementById('searchInput').focus();  // Set text cursor
 }
-Show.searchBar.remove = function(frame_class="bottomMenu") {
+Show.searchBar.remove = function(frame_id="bottomSearch") {
   // Remove the search bar when leaving profile mode. By default it will be
   // the bottom menu search bar that gets disappeared.
-  var searchBar = document.getElementsByClassName(frame_class);
+  var searchBar = document.getElementById(frame_id);
   searchBar.parentNode.remove(searchBar);
 }
 Show.searchBar.render = function(frame_class, frame_id) {
@@ -1289,6 +1289,9 @@ Show.searchBar.submit = function() {
   var query = (document.getElementById('searchInput').value).trim();
   Query.lexer.parse(query);  // TODO: onhashchange, race for results?
   window.location = "#query/" + query;
+  // TODO: when submitting from the bottomMenu search bar, destroy it and move the
+  // focus and query output to the top search bar.
+  Show.searchBar.remove();
   // Refocus text cursor after a search is performed
   setTimeout(function() {
     document.getElementById('searchInput').focus();
