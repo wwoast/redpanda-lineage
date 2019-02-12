@@ -895,7 +895,7 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'searchButton'];
+Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'aboutButton', 'randomButton', 'searchButton'];
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
