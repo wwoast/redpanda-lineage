@@ -128,23 +128,37 @@ Language.L.gui = {
   "home": {
     "cn": "主頁",
     "en": "Home",
+    "es": "TOWRITE",
     "jp": "ホメパゲ"
   },
   "language": {
     "cn": {
       "cn": "漢語",
       "en": "英語",
-      "jp": "日語"
+      "es": "西班牙語",
+      "jp": "日語",
+      "kr": "朝鮮語"
     },
     "en": {
       "cn": "Chinese",
       "en": "English",
-      "jp": "Japanese"
-    }, 
+      "es": "Spanish",
+      "jp": "Japanese",
+      "kr": "Korean"
+    },
+    "es": {
+      "cn": "Chino",
+      "en": "Ingles",
+      "es": "Español",
+      "jp": "Japonés",
+      "kr": "Coreano"
+    },
     "jp": {
       "cn": "中国語",
       "en": "英語",
-      "jp": "日本語"
+      "es": "スペイン語",
+      "jp": "日本語",
+      "kr": "韓国語"
     }
   },
   "loading": {
