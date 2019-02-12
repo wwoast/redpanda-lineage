@@ -571,6 +571,7 @@ div.zooHistory {
     vertical-align: top;
     flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
     text-align: center;
+    width: 100%;
 }
 
 ul.zooList {
