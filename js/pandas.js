@@ -709,6 +709,10 @@ Pandas.locationList = function(animal) {
     }
     locations.push(location);
   }
+  // If there were no location. fields, use the zoo field, birthday, and date of death
+  if (locations.length == 0) {
+    locations = Pandas.locationZoo(animal);
+  }
   return locations;
 }
 
@@ -721,6 +725,21 @@ Pandas.locationManifest = function(animal) {
   for (let field_name of location_fields(animal)) {
     locations[field_name] = Pandas.field(animal, field_name);
   }
+  return locations;
+}
+
+// When a panda doesn't have a list of zoo locations as location.X fields, use
+// the zoo, birthday, and date of death to fill in the necessary details
+Pandas.locationZoo = function(animal) {
+  var end_date = undefined;
+  if (animal["death"] != undefined) {
+    end_date = animal["death"];
+  }
+  var locations = [{
+    "zoo": Pandas.myZoo(animal, "zoo"),
+    "start_date": animal["birthday"],
+    "end_date": animal["death"]
+  }];
   return locations;
 }
 
