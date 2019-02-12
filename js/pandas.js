@@ -700,6 +700,10 @@ Pandas.locationList = function(animal) {
     if (animal[next_field] != undefined) {
       var [_, next_start] = animal[next_field].split(",").map(x => x.trim());
       end_date = next_start;
+    } else {
+      if (animal["death"] != undefined) {
+        end_date = animal["death"];
+      }
     }
     var [zoo_index, start_date]= animal[location_field].split(",").map(x => x.trim());
     var location = {
