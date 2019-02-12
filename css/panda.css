@@ -583,7 +583,10 @@ ul.zooList {
 
 ul.zooList li {
     text-align: center;
-    padding: 0.5ex 0.5ex 0.5ex 0.5ex;
+    padding-left: 2ex;
+    padding-right: 2ex;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
 }
 
 /* Add these after an element to guarantee that its display will force a new flex line.
