@@ -988,6 +988,9 @@ Show.profile.where = function(animal, language) {
       date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
       zoo_icon = L.emoji.home;
     }
+    if ((zoo["end_date"] != undefined) && (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
+      zoo_icon = L.emoji.died;
+    }
     var zoo_entry = document.createElement('ul');
     zoo_entry.className = "zooList";
     var zoo_name = document.createElement('li');
