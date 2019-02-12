@@ -1155,7 +1155,13 @@ div.photoSample h5.caption.familyTitle {
     }
 
     ul.zooList {
-        margin-right: 0px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    ul.zooList li {
+        padding-left: 1ex;
+        padding-right: 1ex;
     }
 
     div.nicknameContainer, div.othernamesContainer {
