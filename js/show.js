@@ -499,6 +499,7 @@ Show.button.about.action = function() {
       Page.current = Page.about.render;
     }
   }
+  window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.about.render = function(class_name="results") {
   var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
@@ -597,6 +598,7 @@ Show.button.random.action = function() {
   Page.current = Page.results.render;
   var pandaIds = P.db.vertices.filter(entity => entity._id > 0).map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
   var random = Show.button.render("randomButton", L.emoji.random, L.gui.random[L.display], class_name);
