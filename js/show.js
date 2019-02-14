@@ -1463,13 +1463,14 @@ Show.searchBar.submit = function() {
     document.getElementById('searchInput').focus();
   }, 0);
 }
-Show.searchBar.toggle = function(frame_class) {
+Show.searchBar.toggle = function(frame_id) {
   // Normally the search bar just appears at the top of the page.
   // In panda-profile mode, it's hidden unless the user opts to search
   // for new pandas using the Search Button at the bottom of the page.
-  var searchBar = document.getElementsByClassName(frame_class)[0];
+  var searchBar = document.getElementById(frame_id);
   var display = searchBar.style.display;
-  if (display == "none") {
+  // Catch whether the search bar has no explicit display style (first click), or none
+  if ((display == "none") || (display == "")) {
     searchBar.style.display = "table";
     Show.searchBar.action();   // Add the event listeners
   } else {
