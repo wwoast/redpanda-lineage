@@ -482,6 +482,9 @@ Page.redraw = function(callback) {
   if ((window.location.hash.length > 0) && (callback != Page.results.render) && (callback != Page.profile.render)) {
     callback();
   }
+  if ((window.location.hash.length == 0) && (callback == Page.home.render)) {
+    callback();
+  }
 }
 
 // Swap in a new contents frame for an old contents frame. 
