@@ -144,6 +144,8 @@ Show.animalLink = function(animal, link_text, language, options) {
   } else {
     // go_link: creates a new results frame based on desired data
     a.href = "#panda" + "/" + animal['_id'];
+    // Force page to scroll to the top after a reload event
+    a.addEventListener("click", Show.button.top.action);
   }
   return a;
 }
@@ -433,8 +435,8 @@ Show.qrcodeImage = function() {
 
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/index.html#zoo/1
-// Show.zooLink = function(zoo, link_text, options) {
-Show.zooLink = function(zoo, link_text, language, options) {
+// Show.zooLink = function(zoo, link_text, icon) {
+Show.zooLink = function(zoo, link_text, language, icon=undefined) {
   // Don't print content if the input id is zero
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Show.emptyLink(Pandas.def.zoo[language + ".name"]);
@@ -442,20 +444,13 @@ Show.zooLink = function(zoo, link_text, language, options) {
   var a = document.createElement('a');
   var inner_text = link_text;
   // Options processing
-  if (options.indexOf("home_icon") != -1) {
-    inner_text = L.emoji.home + " " + inner_text;
-  }
-  if (options.indexOf("map_icon") != -1) {
-    inner_text = L.emoji.map + " " + inner_text;
+  if (icon != undefined) {
+    inner_text = icon + " " + inner_text;
   }
   a.innerText = inner_text;
-  if (options.indexOf("in_link") != -1) {
-    // in_link: that finds a location on the displayed data
-    a.href = "#zoo" + "_" + zoo['_id'];
-  } else {
-    // go_link: creates a new results frame based on desired data
-    a.href = "#zoo" + "/" + zoo['_id'];
-  }
+  a.href = "#zoo" + "/" + zoo['_id'];
+  // Force page to scroll to the top after a reload event
+  a.addEventListener("click", Show.button.top.action);
   return a;
 }
 
@@ -997,20 +992,21 @@ Show.profile.where = function(animal, language) {
     if ((zoo["end_date"] != Pandas.def.unknown[language]) && (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
       zoo_icon = L.emoji.died;
     }
+    var zoo_info = Pandas.searchZooId(zoo["id"])[0];
     var zoo_entry = document.createElement('ul');
     zoo_entry.className = "zooList";
     var zoo_name = document.createElement('li');
-    var zoo_name_text = document.createTextNode(zoo_icon + " " + zoo["name"]);
+    // TODO: rewrite to use home_icon from this function
+    var zoo_link = Show.zooLink(zoo_info, zoo_info[language + ".name"], language, zoo_icon);
     var zoo_date = document.createElement('span');
     zoo_date.className = "detail";
     zoo_date.innerText = date_string;
-    zoo_name.appendChild(zoo_name_text);
+    zoo_name.appendChild(zoo_link);
     zoo_name.appendChild(zoo_date);
     zoo_entry.appendChild(zoo_name);
     var zoo_location = document.createElement('li');
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field  
-    var zoo_info = Pandas.searchZooId(zoo["id"])[0];
     var location_link = Show.locationLink(zoo_info, language, "text");
     zoo_location.appendChild(location_link);
     zoo_entry.appendChild(zoo_location);
@@ -1183,7 +1179,7 @@ Show.results.pandaDetails = function(info) {
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
   var zoo = document.createElement('p');
-  var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, ["home_icon"]);
+  var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
   zoo.appendChild(zoo_link);
   // Location shows a map icon and a flag icon, and links to
   // a Google Maps search for the "<language>.address" field
