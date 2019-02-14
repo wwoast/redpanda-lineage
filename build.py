@@ -263,10 +263,6 @@ class RedPandaGraph:
                 # To differentiate Zoo IDs from pandas, use negative IDs
                 zoo_id = str(int(field[1]) * -1)
                 self.check_imported_zoo_id(field[1], path)
-                zoo_vertex = [a for a in self.zoos if a['_id'] == zoo_id][0] 
-                # Is this a new zoo? Then add to the vertex list
-                if zoo_vertex not in self.vertices:
-                    self.vertices.append(zoo_vertex)
                 # Add a birthplace or zoo edge to the list that's a zoo
                 zoo_edge = {}
                 zoo_edge['_out'] = panda_id
@@ -334,7 +330,8 @@ class RedPandaGraph:
                     self.photo["credit"][author] = 1
             zoo_entry[key] = value
         self.zoos.append(zoo_entry)
-        self.zoo_files.append(path) 
+        self.zoo_files.append(path)
+        self.vertices.append(zoo_entry)
 
     def find_matching_edges(self, outp, inp, label):
         """Find matching edges in either direction.
