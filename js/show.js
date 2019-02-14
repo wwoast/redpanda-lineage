@@ -44,12 +44,14 @@ Show.acquireLocationList = function(animal, language) {
   var raw_locations = Pandas.locationList(animal);
   for (let location of raw_locations) {
     var zoo = Pandas.searchZooId(location["zoo"])[0];
+    zoo = L.fallbackEntity(zoo);   // Do language fallback strings
     var bundle = {
-              "id": Pandas.zooField(zoo, "_id"),
-            "name": Pandas.zooField(zoo, language + ".name"),
-        "location": Pandas.zooField(zoo, language + ".location"),
-      "start_date": Pandas.formatDate(location["start_date"], language),
         "end_date": Pandas.formatDate(location["end_date"], language),
+              "id": Pandas.zooField(zoo, "_id"),
+  "language_order": Pandas.language_order(zoo),
+        "location": Pandas.zooField(zoo, language + ".location"),
+            "name": Pandas.zooField(zoo, language + ".name"),
+      "start_date": Pandas.formatDate(location["start_date"], language),
     }
     history.push(bundle);
   }
@@ -996,7 +998,6 @@ Show.profile.where = function(animal, language) {
     var zoo_entry = document.createElement('ul');
     zoo_entry.className = "zooList";
     var zoo_name = document.createElement('li');
-    // TODO: rewrite to use home_icon from this function
     var zoo_link = Show.zooLink(zoo_info, zoo_info[language + ".name"], language, zoo_icon);
     var zoo_date = document.createElement('span');
     zoo_date.className = "detail";
