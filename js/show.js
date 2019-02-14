@@ -45,6 +45,7 @@ Show.acquireLocationList = function(animal, language) {
   for (let location of raw_locations) {
     var zoo = Pandas.searchZooId(location["zoo"])[0];
     var bundle = {
+              "id": Pandas.zooField(zoo, "_id"),
             "name": Pandas.zooField(zoo, language + ".name"),
         "location": Pandas.zooField(zoo, language + ".location"),
       "start_date": Pandas.formatDate(location["start_date"], language),
@@ -317,12 +318,15 @@ Show.homeLocation = function(zoo, desired_text, language, options) {
 // Create a link to a location in Google Maps. This replaces the
 // older content from Show.homeLocation, but I may want to make use
 // of that function in the future.
-Show.locationLink = function(zoo, language) {
+Show.locationLink = function(zoo, language, mode="icons_only") {
   // Don't print content if the input id is zero
   if (zoo['_id'] == Pandas.def.zoo['_id']) {
     return Pandas.def.zoo[language + ".location"];
   }
   var link_text = L.emoji.map + " " + L.flags[zoo.flag];
+  if (mode != "icons_only") {
+    link_text = L.emoji.map + " " + zoo[language + ".location"] + " " + L.flags[zoo.flag];
+  }
   var google_search = zoo['map'];
   var a = document.createElement('a');
   a.href = google_search;
@@ -1004,7 +1008,11 @@ Show.profile.where = function(animal, language) {
     zoo_name.appendChild(zoo_date);
     zoo_entry.appendChild(zoo_name);
     var zoo_location = document.createElement('li');
-    zoo_location.innerText = zoo["location"];
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field  
+    var zoo_info = Pandas.searchZooId(zoo["id"])[0];
+    var location_link = Show.locationLink(zoo_info, language, "text");
+    zoo_location.appendChild(location_link);
     zoo_entry.appendChild(zoo_location);
     container.appendChild(zoo_entry);
   }

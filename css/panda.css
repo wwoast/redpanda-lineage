@@ -336,7 +336,7 @@ div.qrcodeFrame img {
     background-color: white;
 }
 
-div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a {
+div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a, div.zooHistory a {
     text-decoration: none !important;
     color: black;
 }
