@@ -450,6 +450,42 @@ Pandas.searchPandaName = function(name) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+// Given a panda, search for photos tagged with any of a list of tags.
+// May return photo info only, or the entire animal
+Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
+  var photo_fields = Pandas.photoGeneratorMax;
+  var output = [];
+  // Gets panda photos
+  for (let field_name of photo_fields()) {
+    if (animal[field_name] == undefined) {
+      break;
+    }
+    for (let tag of tags) {
+      let photo_author = field_name + ".author";
+      let photo_link = field_name + ".link";
+      let photo_tags = field_name + ".tags";
+      if (animal[photo_tags] == undefined) {
+        continue;
+      }
+      if (animal[photo_tags].split(",").map(x => x.trim()).indexOf(tag) != -1) {
+        if (mode == "animal") {
+          return [animal];
+        } else {
+          var bundle = {
+            "id": animal["_id"],
+            field_name: animal[field_name],
+            photo_author: animal[photo_author],
+            photo_link: animal[photo_link],
+            photo_tags: tags   // Not the original tags, but the ones searched for
+          }
+          output.push(bundle);
+        }
+      }  
+    }
+  }
+  return output;
+}
+
 // Find all pandas at a given zoo. Zoo IDs are negative numbers
 Pandas.searchPandaZoo = function(idnum) {
   var nodes = G.v(idnum).in("zoo").run();
@@ -499,6 +535,21 @@ Pandas.searchPhotoCredit = function(author) {
   return nodes.filter(function(value, index, self) { 
     return self.indexOf(value) === index;
   });
+}
+
+// Find profile photos for all animals listed
+Pandas.searchPhotoProfile = function(animal_list) {
+  return Pandas.searchPhotoTags(animal_list, ["profile"]);
+}
+
+// Get all photos with a specific set of tags from a list of animals
+Pandas.searchPhotoTags = function(animal_list, tags) {
+  // Iterate per animal
+  var output = [];
+  for (let animal of animal_list) {
+    output.concat(Pandas.searchPandaPhotoTags(animal, tags, mode="photos"));
+  }
+  return output;
 }
 
 // Find a panda's siblings, defined as the intersection of children 
