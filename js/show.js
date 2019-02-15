@@ -800,6 +800,14 @@ Show.message.profile_where = function(name, language) {
     Show functions used by the profile/media/timelines page for a single animal
 */
 Show.profile = {};
+Show.profile.children = function(animal, language) {
+  // Display photos of the animal's family
+  var elements = [];
+  var message = Show.message.profile_children(animal[language + ".name"], language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileChildren(animal["id"]);
+  // Work through children from youngest to oldest. TOWRITE
+}
 Show.profile.dossier = function(animal, info, language) {
   // This includes the species details, along with photo-credit text related
   // to the currently displayed gallery on the profile page, and a QR code
@@ -878,6 +886,14 @@ Show.profile.gallery = function(info) {
     span.style.display = "none";
   });
   return photo;
+}
+Show.profile.family = function(animal, language) {
+  // Display photos of the animal's family
+  var elements = [];
+  var message = Show.message.profile_family(animal[language + ".name"], language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileImmeidateFamily(animal["id"]);
+  // Start with mom and dad, and then a self photo, and then littermates. TOWRITE
 }
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
@@ -959,6 +975,14 @@ Show.profile.search.render = function() {
   var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
   var searchBar = Show.searchBar.render("bottomSearch profile", "bottomSearch");
   bottomMenu.appendChild(searchBar);
+}
+Show.profile.siblings = function(animal, language) {
+  // Display photos of the animal's siblings
+  var elements = [];
+  var message = Show.message.profile_siblings(animal[language + ".name"], language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileSiblings(animal["id"]);
+  // Start with older siblings, then littermates, and then younger siblings. TOWRITE
 }
 Show.profile.species = function(animal, language) {
   // Underneath a photo, display the subspecies info for the panda
