@@ -473,12 +473,16 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
         } else {
           var bundle = {
             "id": animal["_id"],
-            field_name: animal[field_name],
-            photo_author: animal[photo_author],
-            photo_link: animal[photo_link],
-            photo_tags: tags   // Not the original tags, but the ones searched for
+            "photo": animal[field_name],
+            "photo.author": animal[photo_author],
+            "photo.link": animal[photo_link],
+            "photo.tags": tags   // Not the original tags, but the ones searched for
           }
           output.push(bundle);
+          if (mode == "singleton") {
+            // Only want the first photo of each tag found
+            return output;
+          }
         }
       }  
     }
@@ -539,15 +543,42 @@ Pandas.searchPhotoCredit = function(author) {
 
 // Find profile photos for all animals listed
 Pandas.searchPhotoProfile = function(animal_list) {
-  return Pandas.searchPhotoTags(animal_list, ["profile"]);
+  return Pandas.searchPhotoTags(animal_list, ["profile"], mode="singleton");
 }
 
-// Get all photos with a specific set of tags from a list of animals
-Pandas.searchPhotoTags = function(animal_list, tags) {
+// Find profile photos for an animal's children
+Pandas.searchPhotoProfileChildren = function(idnum) {
+  var children = Pandas.searchPandaChildren(idnum);
+  return Pandas.searchPhotoProfile(children);
+}
+
+// Find profile photos for an animal's family
+Pandas.searchPhotoProfileImmediateFamily = function(idnum) {
+  var me = Pandas.searchPandaId(idnum);
+  var mom = Pandas.searchPandaMom(idnum);
+  var dad = Pandas.searchPandaDad(idnum);
+  var litter = Pandas.searchLitter(idnum);
+  var family = me.concat(mom).concat(dad).concat(litter);
+  return Pandas.searchPhotoProfile(family);
+}
+
+// Find profile photos for an animal's siblings
+Pandas.searchPhotoProfileSiblings = function(idnum) {
+  var nonLitterSiblings = Pandas.searchNonLitterSiblings(idnum);
+  var litter = Pandas.searchLitter(idnum);
+  var siblings = nonLitterSiblings.concat(litter);
+  return Pandas.searchPhotoProfile(siblings);
+}
+
+// Get all photos with a specific set of tags from a list of animals.
+// Useful modes here include:
+//   "photos" (just return photos) and 
+//   "singleton" (for only one photo of each tag)
+Pandas.searchPhotoTags = function(animal_list, tags, mode) {
   // Iterate per animal
   var output = [];
   for (let animal of animal_list) {
-    output.concat(Pandas.searchPandaPhotoTags(animal, tags, mode="photos"));
+    output = output.concat(Pandas.searchPandaPhotoTags(animal, tags, mode));
   }
   return output;
 }
