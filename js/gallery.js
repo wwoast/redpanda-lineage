@@ -191,6 +191,58 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
 /*
     Standalone gallery/photo construction methods
 */
+// Create a profile page frame for a single animal, give it a nametag, and
+// additionally, give it a relationship value.
+Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationship, frame_class) {
+  // The overall container
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  if (frame_class != undefined) {
+    container.classList.add(frame_class);
+  }
+  // Photo container
+  var clickable_photo = document.createElement('a');
+  clickable_photo.target = "_blank";
+  if (chosen_photo != Pandas.def.animal["photo.1"]) {   // No link if no photo defined
+    clickable_photo.href = chosen_photo["photo"].replace("media/?size=m", "");   // Instagram hack
+  } 
+  var image = document.createElement('img');
+  image.src = chosen_photo["photo"];
+  clickable_photo.appendChild(image);
+  container.appendChild(clickable_photo);
+  // Family name caption
+  var animal_name = document.createElement('a');
+  animal_name.href = "#profile/" + animal["_id"];
+  var animal_text = document.createElement('h5');
+  animal_text.className = "caption familyName";
+  animal_text.innerText = animal[language + ".name"];
+  animal_name.appendChild(animal_text);
+  animal_name.addEventListener("click", Show.button.top.action);
+  container.appendChild(animal_name);
+  // Family title caption.
+  if (relationship != undefined) {
+    var gender = Show.genderAnimal(animal, language, "caption gender");
+    var animal_relation = document.createElement('a');
+    animal_relation.href = "#profile/" + animal["_id"];
+    var relation_text = document.createElement('h5');
+    relation_text.className = "caption familyTitle";
+    if (relationship == L.gui.me[language]) {
+      relationship = relationship + " " + L.emoji.profile;
+    }
+    if (animal["death"] != undefined) {
+      relationship = relationship + " " + L.emoji.died;
+    }
+    var text = document.createTextNode(relationship);
+    relation_text.appendChild(gender);
+    relation_text.appendChild(text);
+    animal_relation.appendChild(relation_text);
+    animal_relation.addEventListener("click", Show.button.top.action);
+    container.appendChild(animal_relation);  
+  }
+  return container;
+}
+
+
 // Take an animal, and return a list of divs for all the photos of that animal
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.

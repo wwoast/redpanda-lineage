@@ -450,6 +450,59 @@ Pandas.searchPandaName = function(name) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+// Given a panda, search for photos tagged with any of a list of tags.
+// May return photo info only, or the entire animal
+Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
+  var photo_fields = Pandas.photoGeneratorMax;
+  var output = [];
+  // Gets panda photos
+  for (let field_name of photo_fields()) {
+    if (animal[field_name] == undefined) {
+      break;
+    }
+    for (let tag of tags) {
+      let photo_author = field_name + ".author";
+      let photo_link = field_name + ".link";
+      let photo_tags = field_name + ".tags";
+      if (animal[photo_tags] == undefined) {
+        continue;
+      }
+      if (animal[photo_tags].split(",").map(x => x.trim()).indexOf(tag) != -1) {
+        if (mode == "animal") {
+          return [animal];
+        } else {
+          var bundle = {
+            "id": animal["_id"],
+            "photo": animal[field_name],
+            "photo.author": animal[photo_author],
+            "photo.link": animal[photo_link],
+            "photo.tags": tags   // Not the original tags, but the ones searched for
+          }
+          output.push(bundle);
+          if (mode == "singleton") {
+            // Only want the first photo of each tag found
+            return output;
+          }
+        }
+      }  
+    }
+  }
+  // If no photos exist, we need default information to feed the photo generators
+  if (output.length == 0) {
+    if (mode != "animal") {
+      var empty_bundle = {
+        "id": animal["_id"],
+        "photo": Pandas.def.animal["photo.1"],
+        "photo.author": Pandas.def.unknown[language],
+        "photo.link": Pandas.def.unknown[language],
+        "photo.tags": Pandas.def.unknown[language]
+      }
+      output.push(empty_bundle);
+    }
+  }
+  return output;
+}
+
 // Find all pandas at a given zoo. Zoo IDs are negative numbers
 Pandas.searchPandaZoo = function(idnum) {
   var nodes = G.v(idnum).in("zoo").run();
@@ -499,6 +552,48 @@ Pandas.searchPhotoCredit = function(author) {
   return nodes.filter(function(value, index, self) { 
     return self.indexOf(value) === index;
   });
+}
+
+// Find profile photos for all animals listed
+Pandas.searchPhotoProfile = function(animal_list) {
+  return Pandas.searchPhotoTags(animal_list, ["profile"], mode="singleton");
+}
+
+// Find profile photos for an animal's children
+Pandas.searchPhotoProfileChildren = function(idnum) {
+  var children = Pandas.sortOldestToYoungest(Pandas.searchPandaChildren(idnum));
+  return Pandas.searchPhotoProfile(children);
+}
+
+// Find profile photos for an animal's family
+Pandas.searchPhotoProfileImmediateFamily = function(idnum) {
+  var me = Pandas.searchPandaId(idnum);
+  var mom = Pandas.searchPandaMom(idnum);
+  var dad = Pandas.searchPandaDad(idnum);
+  var litter = Pandas.searchLitter(idnum);
+  var family = me.concat(mom).concat(dad).concat(litter);
+  return Pandas.searchPhotoProfile(family);
+}
+
+// Find profile photos for an animal's siblings
+Pandas.searchPhotoProfileSiblings = function(idnum) {
+  var nonLitterSiblings = Pandas.searchNonLitterSiblings(idnum);
+  var litter = Pandas.searchLitter(idnum);
+  var siblings = Pandas.sortOldestToYoungest(nonLitterSiblings.concat(litter));
+  return Pandas.searchPhotoProfile(siblings);
+}
+
+// Get all photos with a specific set of tags from a list of animals.
+// Useful modes here include:
+//   "photos" (just return photos) and 
+//   "singleton" (for only one photo of each tag)
+Pandas.searchPhotoTags = function(animal_list, tags, mode) {
+  // Iterate per animal
+  var output = [];
+  for (let animal of animal_list) {
+    output = output.concat(Pandas.searchPandaPhotoTags(animal, tags, mode));
+  }
+  return output;
 }
 
 // Find a panda's siblings, defined as the intersection of children 
@@ -672,6 +767,15 @@ Pandas.formatDate = function(date, language) {
   format = format.replace("MM", month);
   format = format.replace("DD", day);
   return format;
+}
+
+// Given a date string, return just the year
+Pandas.formatYear = function(date, language) {
+  if ((date == undefined) || (date == "unknown")) {
+    return Pandas.def.unknown[language];
+  }
+  [ year, month, day ] = date.split("/");
+  return year;
 }
 
 // Given an animal and a language, return the proper gender string.

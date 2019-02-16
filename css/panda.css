@@ -566,7 +566,7 @@ div.parents, div.litter, div.siblings, div.children, div.names {
     flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
 }
 
-div.zooHistory {
+div.zooHistory, div.profilePhotos {
     display: inline-block;
     vertical-align: top;
     flex-grow: 0.1;   /* Give a little bit of extra space relative to # of columns */
@@ -912,10 +912,6 @@ div.photoSample {
     padding: 5px;
 }
 
-div.photoSample.immediateFamily {
-    width: 300px;
-}
-
 div.photoSample > a > img {
     border: 1px solid #002200;
     width: 100%;
@@ -1105,7 +1101,7 @@ div.photoSample h5.caption.familyTitle {
         padding-left: 0px;
     }
 
-    div.zooHistory {
+    div.zooHistory, div.profilePhotos {
         flex-grow: 1;   /* Expand out things to simulate column gap in the lists */
         padding-left: 0px;
     }

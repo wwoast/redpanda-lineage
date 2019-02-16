@@ -292,6 +292,26 @@ Show.gender = function(info, frame_class) {
   return gender;
 }
 
+// Alternate gender function for if you only have an animal value and not 
+// an info block value available.
+Show.genderAnimal = function(animal, language, frame_class) {
+  var gender = document.createElement('div');
+  gender.className = frame_class;
+  var img = document.createElement('img');
+  if (animal["gender"] == "Male") {
+    img.src = "images/male.svg";
+    img.alt = Pandas.def.gender.Male[language];
+  } else if (animal["gender"] == "Female") {
+    img.src = "images/female.svg";
+    img.alt = Pandas.def.gender.Male[language];
+  } else {
+    img.src = "images/unknown.svg";
+    img.alt = Pandas.def.unknown[language];
+  }
+  gender.appendChild(img);
+  return gender;
+}
+
 // Construct a location string based on recorded location info for a zoo.
 // This will optionally replace a country name with a flag, which takes
 // less horizontal space and conforms to the general in-flow emoji style
@@ -734,6 +754,9 @@ Show.message.profile_family = function(name, language) {
       p.appendChild(msg);
     }
   }
+  // Fix s's if it appears
+  var innerText = p.innerText;
+  p.innerText = innerText.replace("s's", "s'");
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -800,6 +823,37 @@ Show.message.profile_where = function(name, language) {
     Show functions used by the profile/media/timelines page for a single animal
 */
 Show.profile = {};
+Show.profile.children = function(animal, language) {
+  // Display photos of the animal's children
+  var info = Show.acquirePandaInfo(animal, language);
+  var elements = [];
+  var photo_divs = [];
+  // Need to get daughters and sons counts
+  var children_count = info.children.length;
+  if (children_count == 0) {
+    return [];   // Don't display anything
+  }
+  var sons_count = info.children.filter(x => x.gender == "Male").length;
+  var daughters_count = info.children.filter(x => x.gender == "Female").length;
+  // TODO: what if it's neither a girl or a boy!? Update the message
+  // var babies_count = info.children.length - sons - daughters;
+  var message = Show.message.profile_children(animal[language + ".name"], children_count, daughters_count, sons_count, language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
+  for (let photo of photos) {
+    var child = info.children.filter(x => x["_id"] == photo["id"])[0];
+    var birth_year = Pandas.formatYear(child["birthday"]);
+    var div = Gallery.familyProfilePhoto(child, photo, language, birth_year);
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
+}
 Show.profile.dossier = function(animal, info, language) {
   // This includes the species details, along with photo-credit text related
   // to the currently displayed gallery on the profile page, and a QR code
@@ -863,6 +917,38 @@ Show.profile.dossier = function(animal, info, language) {
     dossier.appendChild(othernames_container);
   }
   return dossier;
+}
+Show.profile.family = function(animal, language) {
+  // Display photos of the animal's family
+  var info = Show.acquirePandaInfo(animal, language);
+  var elements = [];
+  var photo_divs = [];
+  var message = Show.message.profile_family(animal[language + ".name"], language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
+  // Start with mom and dad, and then a self photo, and then littermates.
+  var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
+  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+  var me_photo = photos.filter(x => x["id"] == info["id"])[0];
+  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
+  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
+  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
+  var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
+  photo_divs.push(mom);
+  photo_divs.push(dad);
+  photo_divs.push(me);
+  for (let litter_photo of litter_photos) {
+    var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, L.gui.twin[language], "immediateFamily");
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
 }
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
@@ -959,6 +1045,38 @@ Show.profile.search.render = function() {
   var bottomMenu = document.getElementsByClassName("bottomMenu")[0];
   var searchBar = Show.searchBar.render("bottomSearch profile", "bottomSearch");
   bottomMenu.appendChild(searchBar);
+}
+Show.profile.siblings = function(animal, language) {
+  // Display photos of the animal's siblings
+  var info = Show.acquirePandaInfo(animal, language);
+  var elements = [];
+  var photo_divs = [];
+  // Need to get daughters and sons counts
+  var total_siblings = info.siblings.concat(info.litter);
+  var siblings_count = total_siblings.length;
+  if (siblings_count == 0) {
+    return [];   // Don't display anything
+  }
+  var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
+  var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
+  // TODO: what if it's neither a girl or a boy!? Update the message
+  // var babies_count = info.children.length - sons - daughters;
+  var message = Show.message.profile_siblings(animal[language + ".name"], siblings_count, sisters_count, brothers_count, language);
+  elements.push(message);
+  var photos = Pandas.searchPhotoProfileSiblings(animal["_id"]);
+  for (let photo of photos) {
+    var sibling = total_siblings.filter(x => x["_id"] == photo["id"])[0];
+    var birth_year = Pandas.formatYear(sibling["birthday"]);
+    var div = Gallery.familyProfilePhoto(sibling, photo, language, birth_year);
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
 }
 Show.profile.species = function(animal, language) {
   // Underneath a photo, display the subspecies info for the panda

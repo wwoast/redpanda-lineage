@@ -103,6 +103,11 @@ Language.L.gui = {
     "en": "Children",   // Capitalization
     "jp": Pandas.def.relations.children["jp"]
   },
+  "father": {
+    "cn": "父親",
+    "en": "Father",
+    "jp": "お父さん"
+  },
   "flag": {
     "cn": Language.L.flags["China"],
     "en": Language.L.flags["USA"],
@@ -176,10 +181,20 @@ Language.L.gui = {
     "en": "Links",
     "jp": "リンク"
   },
+  "me": {
+    "cn": "我",
+    "en": "Me",
+    "jp": "私"
+  },
   "media": {
-    "cn": "TOWRITE",
+    "cn": "媒體",
     "en": "Media",
     "jp": "媒体"
+  },
+  "mother": {
+    "cn": "母親",
+    "en": "Mother",
+    "jp": "母"
   },
   "nicknames": {
     "cn": "暱稱",
@@ -223,7 +238,7 @@ Language.L.gui = {
   "profile_family": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
-           "'s immediate family"],
+           "'s Immediate Family"],
     "jp": ["<INSERTNAME>",
            "の直近の家族"]
   },
@@ -285,9 +300,14 @@ Language.L.gui = {
     "jp": "レッサーパンダのファインダー"
   },
   "top": {
-    "cn": "TOWRITE",
+    "cn": "頂",
     "en": "Top",
     "jp": "上"
+  },
+  "twin": {
+    "cn": "雙生",
+    "en": "Twin",
+    "jp": "双子"
   }
 }
 
