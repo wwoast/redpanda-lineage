@@ -684,8 +684,8 @@ Show.message.credit = function(credit, count, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.credit[language]) {
-    var field = L.gui.credit[language][i];
+  for (var i in L.messages.credit[language]) {
+    var field = L.messages.credit[language][i];
     if (field == "<INSERTUSER>") {
       field = credit;
       var msg = document.createElement('i');
@@ -710,11 +710,33 @@ Show.message.credit = function(credit, count, language) {
   return message;
 }
 Show.message.profile_children = function(name, children_count, daughters, sons, language) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_children[language]) {
-    var field = L.gui.profile_children[language][i];
+  var babies = 0;
+  if (children_count != daughters + sons) {
+    babies = children_count - daughters - sons;
+  }
+  // Choose the type of message
+  var message = undefined;
+  if (daughters > 0 && sons > 0 && babies > 0) {
+    message = L.messages.profile_children_babies;
+  } else if (daughters > 0 && sons > 0) {
+    message = L.messages.profile_children;
+  } else if (daughters > 0 && babies > 0) {
+    message = L.messages.profile_daughters_babies;
+  } else if (sons > 0 && babies > 0) {
+    message = L.messages.profile_sons_babies;
+  } else if (daughters > 0) {
+    message = L.messages.profile_daughters;
+  } else if (sons > 0) {
+    message = L.messages.profile_sons;
+  } else if (babies > 0) {
+    message = L.messages.profile_babies;
+  } else {
+    message = L.messages.profile_children;
+  }
+  // Do string replacement
+  for (var i in message[language]) {
+    var field = message[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -727,11 +749,16 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
     } else if (field == "<INSERTSONS>") {
       var msg = document.createTextNode(sons);
       p.appendChild(msg);
+    } else if (field == "<INSERTBABIES>") {
+      var msg = document.createTextNode(babies);
+      p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);
     }
   }
+  // TODO: Write a function to do all English tuneups.
+  // 1 babys. Nuts's. ETC
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -741,11 +768,9 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
   return message;
 }
 Show.message.profile_family = function(name, language) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_family[language]) {
-    var field = L.gui.profile_family[language][i];
+  for (var i in L.messages.profile_family[language]) {
+    var field = L.messages.profile_family[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -755,6 +780,8 @@ Show.message.profile_family = function(name, language) {
     }
   }
   // Fix s's if it appears
+  // TODO: Write a function to do all English tuneups.
+  // 1 babys. Nuts's. ETC
   var innerText = p.innerText;
   p.innerText = innerText.replace("s's", "s'");
   var shrinker = document.createElement('div');
@@ -766,11 +793,33 @@ Show.message.profile_family = function(name, language) {
   return message;
 }
 Show.message.profile_siblings = function(name, sibling_count, sisters, brothers, language) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_siblings[language]) {
-    var field = L.gui.profile_siblings[language][i];
+  var babies = 0;
+  if (sibling_count != sisters + brothers) {
+    babies = sibling_count - daughters - sons;
+  }
+  // Choose the type of message
+  var message = undefined;
+  if (sisters > 0 && brothers > 0 && babies > 0) {
+    message = L.messages.profile_siblings_babies;
+  } else if (sisters > 0 && brothers > 0) {
+    message = L.messages.profile_siblings;
+  } else if (sisters > 0 && babies > 0) {
+    message = L.messages.profile_sisters_babies;
+  } else if (brothers > 0 && babies > 0) {
+    message = L.messages.profile_brothers_babies;
+  } else if (sisters > 0) {
+    message = L.messages.profile_sisters;
+  } else if (brothers > 0) {
+    message = L.messages.profile_brothers;
+  } else if (babies > 0) {
+    message = L.messages.profile_babies;
+  } else {
+    message = L.messages.profile_siblings;
+  }
+
+  for (var i in message[language]) {
+    var field = message[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -783,11 +832,15 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
     } else if (field == "<INSERTBROTHERS>") {
       var msg = document.createTextNode(brothers);
       p.appendChild(msg);
+    } else if (field == "<INSERTBABIES>") {
+      var msg = document.createTextNode(babies);
+      p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);
     }
   }
+  // TODO: append more siblings if siblings != brothers+sisters (i.e. newborns)
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -800,8 +853,8 @@ Show.message.profile_where = function(name, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_where[language]) {
-    var field = L.gui.profile_where[language][i];
+  for (var i in L.messages.profile_where[language]) {
+    var field = L.messages.profile_where[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
