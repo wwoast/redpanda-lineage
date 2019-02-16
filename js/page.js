@@ -181,12 +181,13 @@ Page.profile.render = function() {
   results = results instanceof Array ? results : [results];   // Guarantee array
   var profile_div = Show.profile.panda(results[0], L.display);
   var where_divs = Show.profile.where(results[0], L.display);
+  var family_divs = Show.profile.family(results[0], L.display);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(profile_div);
-  for (let where_div of where_divs) {
-    shrinker.appendChild(where_div);
+  for (let content_div of where_divs.concat(family_divs)) {
+    shrinker.appendChild(content_div);
   }
   var new_content = document.createElement('div');
   new_content.className = "profile";

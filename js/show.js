@@ -889,11 +889,35 @@ Show.profile.gallery = function(info) {
 }
 Show.profile.family = function(animal, language) {
   // Display photos of the animal's family
+  var info = Show.acquirePandaInfo(animal, language);
   var elements = [];
+  var photo_divs = [];
   var message = Show.message.profile_family(animal[language + ".name"], language);
   elements.push(message);
-  var photos = Pandas.searchPhotoProfileImmeidateFamily(animal["id"]);
-  // Start with mom and dad, and then a self photo, and then littermates. TOWRITE
+  var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
+  // Start with mom and dad, and then a self photo, and then littermates.
+  var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
+  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+  var me_photo = photos.filter(x => x["id"] == info["id"])[0];
+  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
+  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, undefined, "immediateFamily");
+  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, undefined, "immediateFamily");
+  var me = Gallery.familyProfilePhoto(animal, me_photo, language, undefined, "immediateFamily");
+  photo_divs.push(mom);
+  photo_divs.push(dad);
+  photo_divs.push(me);
+  for (let litter_photo of litter_photos) {
+    var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, undefined, "immediateFamily");
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
 }
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {

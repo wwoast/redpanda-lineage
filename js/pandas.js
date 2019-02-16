@@ -487,6 +487,19 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       }  
     }
   }
+  // If no photos exist, we need default information to feed the photo generators
+  if (output.length == 0) {
+    if (mode != "animal") {
+      var empty_bundle = {
+        "id": animal["_id"],
+        "photo": Pandas.def.animal["photo.1"],
+        "photo.author": Pandas.def.unknown[language],
+        "photo.link": Pandas.def.unknown[language],
+        "photo.tags": Pandas.def.unknown[language]
+      }
+      output.push(empty_bundle);
+    }
+  }
   return output;
 }
 
