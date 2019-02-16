@@ -259,6 +259,28 @@ Language.L.messages = {
            "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
            "設計©2018 Justin Fairchild"]
   },
+  "profile_baby": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTBABIES>",
+           " children."],
+    "jp": ["<INSERTNAME>",
+           "の子供",
+           "<INSERTBABIES>",
+           "人"]
+  },
+  "profile_brothers": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTBROTHERS>",
+           " brothers."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTBROTHERS>",
+           "人の兄弟がいます"]
+  },
   "profile_children": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -272,11 +294,60 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "には",
            "<INSERTTOTAL>",
-           "人の子供がいます。",
+           "人の子供がいます：",
            "<INSERTDAUGHTERS>",
            "人の女の子と",
            "<INSERTSONS>",
            "人の男の子"]
+  },
+  "profile_children_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTTOTAL>",
+           " children: ",
+           "<INSERTDAUGHTERS>",
+           " girls, ",
+           "<INSERTSONS>",
+           " boys, and ",
+           "<INSERTBABIES>",
+           " very young children!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTTOTAL>",
+           "人の子供がいます：",
+           "<INSERTDAUGHTERS>",
+           "人の女の子と、",
+           "<INSERTSONS>",
+           "人の男の子、および",
+           "<INSERTBABIES>",
+           "人の子供"]
+  },
+  "profile_daughters": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTDAUGHTERS>",
+           " daughters."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTDAUGHTERS>",
+           "人の娘がいます"]
+  },
+  "profile_daughters_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTDAUGHTERS>",
+           " daughters and ",
+           "<INSERTBABIES>",
+           " very young children!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTDAUGHTERS>",
+           "人の娘と",
+           "<INSERTBABIES>",
+           "人の子供がいます"]
   },
   "profile_family": {
     "cn": ["TOWRITE"],
@@ -284,6 +355,17 @@ Language.L.messages = {
            "'s Immediate Family"],
     "jp": ["<INSERTNAME>",
            "の直近の家族"]
+  },
+  "profile_sisters": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTSISTERS>",
+           " sisters."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTSISTERS>",
+           "の姉妹がいます"]
   },
   "profile_siblings": {
     "cn": ["TOWRITE"],
@@ -303,6 +385,32 @@ Language.L.messages = {
            "人の姉妹と",
            "<INSERTBROTHERS>",
            "人の兄弟"]
+  },
+  "profile_sons": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTSISTERS>",
+           " sons."],
+    "jp": ["<INSERTNAME>",
+           "の息子は",
+           "<INSERTSONS>",
+           "人です"]
+  },
+  "profile_sons_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTSONS>",
+           " sons and ",
+           "<INSERTBABIES>",
+           " very young children!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTSONS>",
+           "人の息子と",
+           "<INSERTBABIES>",
+           "人の子供がいます"]
   },
   "profile_where": {
     "cn": ["TOWRITE"],

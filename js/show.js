@@ -712,6 +712,8 @@ Show.message.credit = function(credit, count, language) {
 Show.message.profile_children = function(name, children_count, daughters, sons, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
+  // TODO: choose the type of message to parse based on the number of daughters/sons, and
+  // whether there are unknown babies (i.e. children != daughters+sons)
   var p = document.createElement('p');
   for (var i in L.messages.profile_children[language]) {
     var field = L.messages.profile_children[language][i];
@@ -788,6 +790,7 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
       p.appendChild(msg);
     }
   }
+  // TODO: append more siblings if siblings != brothers+sisters (i.e. newborns)
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
