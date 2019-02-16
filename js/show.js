@@ -825,11 +825,28 @@ Show.message.profile_where = function(name, language) {
 Show.profile = {};
 Show.profile.children = function(animal, language) {
   // Display photos of the animal's family
+  var info = Show.acquirePandaInfo(animal, language);
   var elements = [];
+  var photo_divs = [];
   var message = Show.message.profile_children(animal[language + ".name"], language);
   elements.push(message);
-  var photos = Pandas.searchPhotoProfileChildren(animal["id"]);
-  // Work through children from youngest to oldest. TOWRITE
+  var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
+  // Work through children from youngest to oldest. TOWRITE: sort children
+  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+  for (let photo of photos) {
+    var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
+    var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
+    // Birth year is the "Relationship" text to use
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, undefined);
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
 }
 Show.profile.dossier = function(animal, info, language) {
   // This includes the species details, along with photo-credit text related
@@ -895,21 +912,6 @@ Show.profile.dossier = function(animal, info, language) {
   }
   return dossier;
 }
-Show.profile.gallery = function(info) {
-  // Show a carousel of photos for this animal
-  // TODO: start at the profile photo always
-  var gallery = Gallery.init(info, 'pandaPhoto');
-  var photo = gallery.displayPhoto();
-  var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
-    span.style.display = "block";
-  });
-  photo.addEventListener('mouseout', function() {
-    span.style.display = "none";
-  });
-  return photo;
-}
 Show.profile.family = function(animal, language) {
   // Display photos of the animal's family
   var info = Show.acquirePandaInfo(animal, language);
@@ -941,6 +943,21 @@ Show.profile.family = function(animal, language) {
   }
   elements.push(container);
   return elements;
+}
+Show.profile.gallery = function(info) {
+  // Show a carousel of photos for this animal
+  // TODO: start at the profile photo always
+  var gallery = Gallery.init(info, 'pandaPhoto');
+  var photo = gallery.displayPhoto();
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  return photo;
 }
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
