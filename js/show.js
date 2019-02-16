@@ -900,15 +900,15 @@ Show.profile.family = function(animal, language) {
   var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
   var me_photo = photos.filter(x => x["id"] == info["id"])[0];
   var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
-  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, undefined, "immediateFamily");
-  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, undefined, "immediateFamily");
-  var me = Gallery.familyProfilePhoto(animal, me_photo, language, undefined, "immediateFamily");
+  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
+  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
+  var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
   photo_divs.push(mom);
   photo_divs.push(dad);
   photo_divs.push(me);
   for (let litter_photo of litter_photos) {
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
-    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, undefined, "immediateFamily");
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, L.gui.twin[language], "immediateFamily");
     photo_divs.push(div);
   }
   var container = document.createElement('div');

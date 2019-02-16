@@ -219,9 +219,15 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   animal_name.appendChild(animal_text);
   container.appendChild(animal_name);
   // Family title caption
-  // if (relationship != undefined) {
-    // TODO: look up things
-  // }
+  if (relationship != undefined) {
+    var animal_relation = document.createElement('a');
+    animal_relation.href = "#panda/" + animal["_id"];
+    var relation_text = document.createElement('h5');
+    relation_text.className = "caption familyTitle";
+    relation_text.innerText = relationship;
+    animal_relation.appendChild(relation_text);
+    container.appendChild(animal_relation);  
+  }
   return container;
 }
 
