@@ -292,6 +292,26 @@ Show.gender = function(info, frame_class) {
   return gender;
 }
 
+// Alternate gender function for if you only have an animal value and not 
+// an info block value available.
+Show.genderAnimal = function(animal, language, frame_class) {
+  var gender = document.createElement('div');
+  gender.className = frame_class;
+  var img = document.createElement('img');
+  if (animal["gender"] == "Male") {
+    img.src = "images/male.svg";
+    img.alt = Pandas.def.gender.Male[language];
+  } else if (animal["gender"] == "Female") {
+    img.src = "images/female.svg";
+    img.alt = Pandas.def.gender.Male[language];
+  } else {
+    img.src = "images/unknown.svg";
+    img.alt = Pandas.def.unknown[language];
+  }
+  gender.appendChild(img);
+  return gender;
+}
+
 // Construct a location string based on recorded location info for a zoo.
 // This will optionally replace a country name with a flag, which takes
 // less horizontal space and conforms to the general in-flow emoji style

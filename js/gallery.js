@@ -218,13 +218,22 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   animal_text.innerText = animal[language + ".name"];
   animal_name.appendChild(animal_text);
   container.appendChild(animal_name);
-  // Family title caption
+  // Family title caption.
   if (relationship != undefined) {
+    var gender = Show.genderAnimal(animal, language, "caption gender");
     var animal_relation = document.createElement('a');
     animal_relation.href = "#panda/" + animal["_id"];
     var relation_text = document.createElement('h5');
     relation_text.className = "caption familyTitle";
-    relation_text.innerText = relationship;
+    if (relationship == L.gui.me[language]) {
+      relationship = relationship + " " + L.emoji.profile;
+    }
+    if (animal["death"] != undefined) {
+      relationship = relationship + " " + L.emoji.died;
+    }
+    var text = document.createTextNode(relationship);
+    relation_text.appendChild(gender);
+    relation_text.appendChild(text);
     animal_relation.appendChild(relation_text);
     container.appendChild(animal_relation);  
   }
