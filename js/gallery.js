@@ -217,7 +217,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   animal_text.className = "caption familyName";
   animal_text.innerText = animal[language + ".name"];
   animal_name.appendChild(animal_text);
-  animal_name.addEventListener(Show.button.top.action);
+  animal_name.addEventListener("click", Show.button.top.action);
   container.appendChild(animal_name);
   // Family title caption.
   if (relationship != undefined) {
@@ -236,7 +236,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     relation_text.appendChild(gender);
     relation_text.appendChild(text);
     animal_relation.appendChild(relation_text);
-    animal_relation.addEventListener(Show.button.top.action);
+    animal_relation.addEventListener("click", Show.button.top.action);
     container.appendChild(animal_relation);  
   }
   return container;
