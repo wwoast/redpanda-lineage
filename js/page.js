@@ -84,8 +84,8 @@ Page.footer.remove = function() {
 Page.footer.render = function(language, class_name) {
   // Draw a footer with the correct language and color (class)
   var p = document.createElement('p');
-  for (var i in L.gui.footer[language]) {
-    var field = L.gui.footer[language][i];
+  for (var i in L.messages.footer[language]) {
+    var field = L.messages.footer[language][i];
     if (field == "<INSERTLINK>") {
       var rpl = document.createElement('a');
       rpl.href = "https://github.com/wwoast/redpanda-lineage";

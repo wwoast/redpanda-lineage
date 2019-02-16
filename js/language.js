@@ -85,19 +85,6 @@ Language.L.gui = {
     "en": "About",
     "jp": "概要"
   },
-  "credit": {
-    "cn": "TOWRITE",
-    "en": [Language.L.emoji.gift + " ",
-           "<INSERTUSER>",
-           " has contributed ",
-           "<INSERTNUMBER>",
-           " photos."],
-    "jp": [Language.L.emoji.gift + " ",
-           "<INSERTUSER>",
-           "は",
-           "<INSERTNUMBER>",
-           "枚の写真を寄稿しました。"]
-  },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
     "en": "Children",   // Capitalization
@@ -112,18 +99,6 @@ Language.L.gui = {
     "cn": Language.L.flags["China"],
     "en": Language.L.flags["USA"],
     "jp": Language.L.flags["Japan"]
-  },
-  "footer": {
-    "cn": "TOWRITE",
-    "en": ["All information courtesy of the ",
-           "<INSERTLINK>",
-           " and red panda fans worldwide. ",
-          "Any media linked from this dataset remains property of its creator. ",
-          "Layout and design © 2018 Justin Fairchild."],
-    "jp": ["<INSERTLINK>", 
-           "、世界中のレッサーパンダファンのすべての情報提供。",
-           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
-           "設計©2018 Justin Fairchild"]
   },
   "footerLink": {
     "cn": "Red Panda Lineage",
@@ -216,6 +191,74 @@ Language.L.gui = {
     "en": "Profile",
     "jp": "横顔"
   },
+  "random": {
+    "cn": "隨機",
+    "en": "Random",
+    "jp": "適当"
+  },
+  "search": {
+    "cn": "搜索...",
+    "en": "Search...",
+    "jp": "サーチ..."
+  },
+  "siblings": {
+    "cn": Pandas.def.relations.siblings["cn"],
+    "en": "Siblings",   // Capitalization
+    "jp": Pandas.def.relations.siblings["jp"]
+  },
+  "since_date": {
+    "cn": "TOWRITE <INSERTDATE>",
+    "en": "Since <INSERTDATE>",
+    "jp": "<INSERTDATE>から"
+  },
+  "timeline": {
+    "cn": "TOWRITE",
+    "en": "Timeline",
+    "jp": "知らせ"
+  },
+  "title": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Finder",
+    "jp": "レッサーパンダのファインダー"
+  },
+  "top": {
+    "cn": "頂",
+    "en": "Top",
+    "jp": "上"
+  },
+  "twin": {
+    "cn": "雙生",
+    "en": "Twin",
+    "jp": "双子"
+  }
+}
+
+Language.L.messages = {
+  "credit": {
+    "cn": "TOWRITE",
+    "en": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           " has contributed ",
+           "<INSERTNUMBER>",
+           " photos."],
+    "jp": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "は",
+           "<INSERTNUMBER>",
+           "枚の写真を寄稿しました。"]
+  },
+  "footer": {
+    "cn": "TOWRITE",
+    "en": ["All information courtesy of the ",
+           "<INSERTLINK>",
+           " and red panda fans worldwide. ",
+          "Any media linked from this dataset remains property of its creator. ",
+          "Layout and design © 2018 Justin Fairchild."],
+    "jp": ["<INSERTLINK>", 
+           "、世界中のレッサーパンダファンのすべての情報提供。",
+           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
+           "設計©2018 Justin Fairchild"]
+  },
   "profile_children": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -269,46 +312,6 @@ Language.L.gui = {
     "jp": ["<INSERTNAME>",
            "はどこに住んでいましたか？"]
   },
-  "random": {
-    "cn": "隨機",
-    "en": "Random",
-    "jp": "適当"
-  },
-  "search": {
-    "cn": "搜索...",
-    "en": "Search...",
-    "jp": "サーチ..."
-  },
-  "siblings": {
-    "cn": Pandas.def.relations.siblings["cn"],
-    "en": "Siblings",   // Capitalization
-    "jp": Pandas.def.relations.siblings["jp"]
-  },
-  "since_date": {
-    "cn": "TOWRITE <INSERTDATE>",
-    "en": "Since <INSERTDATE>",
-    "jp": "<INSERTDATE>から"
-  },
-  "timeline": {
-    "cn": "TOWRITE",
-    "en": "Timeline",
-    "jp": "知らせ"
-  },
-  "title": {
-    "cn": "TOWRITE",
-    "en": "Red Panda Finder",
-    "jp": "レッサーパンダのファインダー"
-  },
-  "top": {
-    "cn": "頂",
-    "en": "Top",
-    "jp": "上"
-  },
-  "twin": {
-    "cn": "雙生",
-    "en": "Twin",
-    "jp": "双子"
-  }
 }
 
 // TODO: fold into Language.L.gui

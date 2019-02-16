@@ -684,8 +684,8 @@ Show.message.credit = function(credit, count, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.credit[language]) {
-    var field = L.gui.credit[language][i];
+  for (var i in L.messages.credit[language]) {
+    var field = L.messages.credit[language][i];
     if (field == "<INSERTUSER>") {
       field = credit;
       var msg = document.createElement('i');
@@ -713,8 +713,8 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_children[language]) {
-    var field = L.gui.profile_children[language][i];
+  for (var i in L.messages.profile_children[language]) {
+    var field = L.messages.profile_children[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -744,8 +744,8 @@ Show.message.profile_family = function(name, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_family[language]) {
-    var field = L.gui.profile_family[language][i];
+  for (var i in L.messages.profile_family[language]) {
+    var field = L.messages.profile_family[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -769,8 +769,8 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_siblings[language]) {
-    var field = L.gui.profile_siblings[language][i];
+  for (var i in L.messages.profile_siblings[language]) {
+    var field = L.messages.profile_siblings[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
@@ -800,8 +800,8 @@ Show.message.profile_where = function(name, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
   var p = document.createElement('p');
-  for (var i in L.gui.profile_where[language]) {
-    var field = L.gui.profile_where[language][i];
+  for (var i in L.messages.profile_where[language]) {
+    var field = L.messages.profile_where[language][i];
     if (field == "<INSERTNAME>") {
       var msg = document.createTextNode(name);
       p.appendChild(msg);
