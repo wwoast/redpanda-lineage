@@ -257,9 +257,9 @@ Language.L.messages = {
     "jp": ["<INSERTLINK>", 
            "、世界中のレッサーパンダファンのすべての情報提供。",
            "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
-           "設計©2018 Justin Fairchild"]
+           "設計©2019 Justin Fairchild"]
   },
-  "profile_baby": {
+  "profile_babies": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
            " has ",
@@ -280,6 +280,21 @@ Language.L.messages = {
            "には",
            "<INSERTBROTHERS>",
            "人の兄弟がいます"]
+  },
+  "profile_brothers_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTSISTERS>",
+           " brothers and ",
+           "<INSERTBABIES>",
+           " baby siblings."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTSISTERS>",
+           "人の兄弟と",
+           "<INSERTBABIES>",
+           "人の赤ちゃんの兄弟がいます"]
   },
   "profile_children": {
     "cn": ["TOWRITE"],
@@ -367,6 +382,21 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            "の姉妹がいます"]
   },
+  "profile_sisters_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTSISTERS>",
+           " sisters and ",
+           "<INSERTBABIES>",
+           " baby siblings."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTSISTERS>",
+           "の姉妹と",
+           "<INSERTBABIES>",
+           "人の赤ちゃんの兄弟がいます"]
+  },
   "profile_siblings": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -385,6 +415,29 @@ Language.L.messages = {
            "人の姉妹と",
            "<INSERTBROTHERS>",
            "人の兄弟"]
+  },
+  "profile_siblings_babies": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTTOTAL>",
+           " siblings: ",
+           "<INSERTSISTERS>",
+           " sisters, ",
+           "<INSERTBROTHERS>",
+           " brothers, and ",
+           "<INSERTBABIES>",
+           " baby siblings!"],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTTOTAL>",
+           "人の兄弟がいます：",
+           "<INSERTSISTERS>",
+           "人の姉妹、",
+           "<INSERTBROTHERS>",
+           "人の兄弟、および",
+           "<INSERTBABIES>",
+           "人の赤ちゃんの兄弟"]
   },
   "profile_sons": {
     "cn": ["TOWRITE"],
