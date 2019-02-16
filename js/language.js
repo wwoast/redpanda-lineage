@@ -238,7 +238,7 @@ Language.L.gui = {
   "profile_family": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
-           "'s immediate family"],
+           "'s Immediate Family"],
     "jp": ["<INSERTNAME>",
            "の直近の家族"]
   },

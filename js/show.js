@@ -754,6 +754,9 @@ Show.message.profile_family = function(name, language) {
       p.appendChild(msg);
     }
   }
+  // Fix s's if it appears
+  var innerText = p.innerText;
+  p.innerText = innerText.replace("s's", "s'");
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
