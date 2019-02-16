@@ -830,6 +830,9 @@ Show.profile.children = function(animal, language) {
   var photo_divs = [];
   // Need to get daughters and sons counts
   var children_count = info.children.length;
+  if (children_count == 0) {
+    return [];   // Don't display anything
+  }
   var sons_count = info.children.filter(x => x.gender == "Male").length;
   var daughters_count = info.children.filter(x => x.gender == "Female").length;
   // TODO: what if it's neither a girl or a boy!? Update the message
@@ -1051,6 +1054,9 @@ Show.profile.siblings = function(animal, language) {
   // Need to get daughters and sons counts
   var total_siblings = info.siblings.concat(info.litter);
   var siblings_count = total_siblings.length;
+  if (siblings_count == 0) {
+    return [];   // Don't display anything
+  }
   var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
   var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
   // TODO: what if it's neither a girl or a boy!? Update the message
