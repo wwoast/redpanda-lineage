@@ -561,7 +561,7 @@ Pandas.searchPhotoProfile = function(animal_list) {
 
 // Find profile photos for an animal's children
 Pandas.searchPhotoProfileChildren = function(idnum) {
-  var children = Pandas.searchPandaChildren(idnum);
+  var children = Pandas.sortOldestToYoungest(Pandas.searchPandaChildren(idnum));
   return Pandas.searchPhotoProfile(children);
 }
 
@@ -579,7 +579,7 @@ Pandas.searchPhotoProfileImmediateFamily = function(idnum) {
 Pandas.searchPhotoProfileSiblings = function(idnum) {
   var nonLitterSiblings = Pandas.searchNonLitterSiblings(idnum);
   var litter = Pandas.searchLitter(idnum);
-  var siblings = nonLitterSiblings.concat(litter);
+  var siblings = Pandas.sortOldestToYoungest(nonLitterSiblings.concat(litter));
   return Pandas.searchPhotoProfile(siblings);
 }
 
@@ -767,6 +767,15 @@ Pandas.formatDate = function(date, language) {
   format = format.replace("MM", month);
   format = format.replace("DD", day);
   return format;
+}
+
+// Given a date string, return just the year
+Pandas.formatYear = function(date, language) {
+  if ((date == undefined) || (date == "unknown")) {
+    return Pandas.def.unknown[language];
+  }
+  [ year, month, day ] = date.split("/");
+  return year;
 }
 
 // Given an animal and a language, return the proper gender string.

@@ -824,20 +824,23 @@ Show.message.profile_where = function(name, language) {
 */
 Show.profile = {};
 Show.profile.children = function(animal, language) {
-  // Display photos of the animal's family
+  // Display photos of the animal's children
   var info = Show.acquirePandaInfo(animal, language);
   var elements = [];
   var photo_divs = [];
-  var message = Show.message.profile_children(animal[language + ".name"], language);
+  // Need to get daughters and sons counts
+  var children_count = info.children.length;
+  var sons_count = info.children.filter(x => x.gender == "Male").length;
+  var daughters_count = info.children.filter(x => x.gender == "Female").length;
+  // TODO: what if it's neither a girl or a boy!? Update the message
+  // var babies_count = info.children.length - sons - daughters;
+  var message = Show.message.profile_children(animal[language + ".name"], children_count, sons_count, daughters_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
-  // Work through children from youngest to oldest. TOWRITE: sort children
-  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
   for (let photo of photos) {
-    var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
-    var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
-    // Birth year is the "Relationship" text to use
-    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, undefined);
+    var child = info.children.filter(x => x["_id"] == photo["id"])[0];
+    var birth_year = Pandas.formatYear(child["birthday"]);
+    var div = Gallery.familyProfilePhoto(child, photo, language, birth_year);
     photo_divs.push(div);
   }
   var container = document.createElement('div');
