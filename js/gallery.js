@@ -212,7 +212,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   container.appendChild(clickable_photo);
   // Family name caption
   var animal_name = document.createElement('a');
-  animal_name.href = "#panda/" + animal["_id"];
+  animal_name.href = "#profile/" + animal["_id"];
   var animal_text = document.createElement('h5');
   animal_text.className = "caption familyName";
   animal_text.innerText = animal[language + ".name"];
@@ -222,7 +222,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   if (relationship != undefined) {
     var gender = Show.genderAnimal(animal, language, "caption gender");
     var animal_relation = document.createElement('a');
-    animal_relation.href = "#panda/" + animal["_id"];
+    animal_relation.href = "#profile/" + animal["_id"];
     var relation_text = document.createElement('h5');
     relation_text.className = "caption familyTitle";
     if (relationship == L.gui.me[language]) {
