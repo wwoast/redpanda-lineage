@@ -291,7 +291,7 @@ Language.L.messages = {
            " baby siblings."],
     "jp": ["<INSERTNAME>",
            "には",
-           "<INSERTSISTERS>",
+           "<INSERTBROTHERS>",
            "人の兄弟と",
            "<INSERTBABIES>",
            "人の赤ちゃんの兄弟がいます"]
@@ -443,7 +443,7 @@ Language.L.messages = {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
            " has ",
-           "<INSERTSISTERS>",
+           "<INSERTSONS>",
            " sons."],
     "jp": ["<INSERTNAME>",
            "の息子は",
