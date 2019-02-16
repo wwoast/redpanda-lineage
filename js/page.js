@@ -183,12 +183,14 @@ Page.profile.render = function() {
   var where_divs = Show.profile.where(results[0], L.display);
   var family_divs = Show.profile.family(results[0], L.display);
   var children_divs = Show.profile.children(results[0], L.display);
+  var siblings_divs = Show.profile.siblings(results[0], L.display);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(profile_div);
   for (let content_div of where_divs.concat(family_divs)
-                                    .concat(children_divs)) {
+                                    .concat(children_divs)
+                                    .concat(siblings_divs)) {
     shrinker.appendChild(content_div);
   }
   var new_content = document.createElement('div');

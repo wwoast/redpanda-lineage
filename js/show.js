@@ -834,7 +834,7 @@ Show.profile.children = function(animal, language) {
   var daughters_count = info.children.filter(x => x.gender == "Female").length;
   // TODO: what if it's neither a girl or a boy!? Update the message
   // var babies_count = info.children.length - sons - daughters;
-  var message = Show.message.profile_children(animal[language + ".name"], children_count, sons_count, daughters_count, language);
+  var message = Show.message.profile_children(animal[language + ".name"], children_count, daughters_count, sons_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
   for (let photo of photos) {
@@ -1045,11 +1045,32 @@ Show.profile.search.render = function() {
 }
 Show.profile.siblings = function(animal, language) {
   // Display photos of the animal's siblings
+  var info = Show.acquirePandaInfo(animal, language);
   var elements = [];
-  var message = Show.message.profile_siblings(animal[language + ".name"], language);
+  var photo_divs = [];
+  // Need to get daughters and sons counts
+  var total_siblings = info.siblings.concat(info.litter);
+  var siblings_count = total_siblings.length;
+  var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
+  var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
+  // TODO: what if it's neither a girl or a boy!? Update the message
+  // var babies_count = info.children.length - sons - daughters;
+  var message = Show.message.profile_siblings(animal[language + ".name"], siblings_count, sisters_count, brothers_count, language);
   elements.push(message);
-  var photos = Pandas.searchPhotoProfileSiblings(animal["id"]);
-  // Start with older siblings, then littermates, and then younger siblings. TOWRITE
+  var photos = Pandas.searchPhotoProfileSiblings(animal["_id"]);
+  for (let photo of photos) {
+    var sibling = total_siblings.filter(x => x["_id"] == photo["id"])[0];
+    var birth_year = Pandas.formatYear(sibling["birthday"]);
+    var div = Gallery.familyProfilePhoto(sibling, photo, language, birth_year);
+    photo_divs.push(div);
+  }
+  var container = document.createElement('div');
+  container.className = "profilePhotos";
+  for (let photo_div of photo_divs) {
+    container.appendChild(photo_div);
+  }
+  elements.push(container);
+  return elements;
 }
 Show.profile.species = function(animal, language) {
   // Underneath a photo, display the subspecies info for the panda
