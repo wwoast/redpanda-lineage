@@ -925,9 +925,17 @@ Show.profile.dossier = function(animal, info, language) {
   var [first_string, second_string] = Show.birthday(info, language);
   var birthday = document.createElement('ul');
   birthday.className = "pandaList";
-  var item = document.createElement('li');
-  item.innerText = first_string + "\u2003" + second_string;
-  birthday.appendChild(item);
+  var first_item = document.createElement('li');
+  first_item.style.display = "inline-block";
+  first_item.style.paddingBottom = "0.25ex";
+  first_item.style.paddingRight = "1em";
+  first_item.innerText = first_string;
+  second_item = document.createElement('li');
+  second_item.style.display = "inline-block";
+  second_item.style.marginTop = "0.25ex";
+  second_item.innerText = second_string;
+  birthday.appendChild(first_item);
+  birthday.appendChild(second_item);
   // Display a QR code
   var qrcode = Show.qrcodeImage();
   // Lay it all out
