@@ -93,7 +93,7 @@ Language.L.gui = {
   "father": {
     "cn": "父親",
     "en": "Father",
-    "jp": "お父さん"
+    "jp": "父"
   },
   "flag": {
     "cn": Language.L.flags["China"],

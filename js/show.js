@@ -1112,15 +1112,16 @@ Show.profile.siblings = function(animal, language) {
   }
   var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
   var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
-  // TODO: what if it's neither a girl or a boy!? Update the message
-  // var babies_count = info.children.length - sons - daughters;
   var message = Show.message.profile_siblings(animal[language + ".name"], siblings_count, sisters_count, brothers_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileSiblings(animal["_id"]);
   for (let photo of photos) {
     var sibling = total_siblings.filter(x => x["_id"] == photo["id"])[0];
-    var birth_year = Pandas.formatYear(sibling["birthday"]);
-    var div = Gallery.familyProfilePhoto(sibling, photo, language, birth_year);
+    var subHeading = Pandas.formatYear(sibling["birthday"]);
+    if (Pandas.halfSiblings(animal, sibling)) {
+      subHeading = subHeading + "\u200A" + "(½)";
+    }
+    var div = Gallery.familyProfilePhoto(sibling, photo, language, subHeading);
     photo_divs.push(div);
   }
   var container = document.createElement('div');
@@ -1452,13 +1453,10 @@ Show.results.siblings = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
+    var myself = Pandas.searchPandaId(info.id)[0];
     var animal = info.siblings[index];
     var options = ["child_icon", "live_icon"];
-    var test_mom = Pandas.searchPandaMom(animal["_id"])[0];
-    var test_dad = Pandas.searchPandaDad(animal["_id"])[0];
-    if (!((test_mom == info.mom) && (test_dad == info.dad)) &&
-         ((test_mom != undefined) && (test_dad != undefined)) &&
-         ((info.mom != undefined) && (info.dad != undefined))) {
+    if (Pandas.halfSiblings(myself, animal)) {
       options.push("half_icon");
     }
     var siblings_link = Show.animalLink(animal, animal[info.get_name], 

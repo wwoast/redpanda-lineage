@@ -227,10 +227,10 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     var relation_text = document.createElement('h5');
     relation_text.className = "caption familyTitle";
     if (relationship == L.gui.me[language]) {
-      relationship = relationship + " " + L.emoji.profile;
+      relationship = relationship + "\u200A" + L.emoji.profile;
     }
     if (animal["death"] != undefined) {
-      relationship = relationship + " " + L.emoji.died;
+      relationship = relationship + "\u200A" + L.emoji.died;
     }
     var text = document.createTextNode(relationship);
     relation_text.appendChild(gender);
