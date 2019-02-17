@@ -253,18 +253,6 @@ Pandas.def.zoo = {
 /*
     Utility functions and generators for doing panda processing
 */
-// Generates a valid index to a photo for a panda entity, up to the
-// point that said entity doesn't have a defined photo in its data.
-Pandas.photoGeneratorEntity = function*(entity, index=0) {
-  while (index < index + 1) {
-    index++;
-    if (entity["photo." + index] == undefined) {
-      return;
-    }
-    yield "photo." + index;
-  }
-}
-
 // Generates a valid index to a location for a panda entity, up to the
 // point that said entity doesn't have a defined historical location in its data
 Pandas.locationGeneratorEntity = function*(entity, index=0) {
@@ -274,6 +262,18 @@ Pandas.locationGeneratorEntity = function*(entity, index=0) {
       return;
     }
     yield "location." + index;
+  }
+}
+
+// Generates a valid index to a photo for a panda entity, up to the
+// point that said entity doesn't have a defined photo in its data.
+Pandas.photoGeneratorEntity = function*(entity, index=0) {
+  while (index < index + 1) {
+    index++;
+    if (entity["photo." + index] == undefined) {
+      return;
+    }
+    yield "photo." + index;
   }
 }
 
@@ -783,6 +783,18 @@ Pandas.gender = function(animal, language) {
   var gender = animal["gender"];
   return gender == undefined ? Pandas.def.unknown[language] 
                              : Pandas.def.gender[gender][language];
+}
+
+// If both animals don't share parents, and neither animal's parents
+// are in an undefined/unknown situation, they are half siblings
+Pandas.halfSiblings = function(animal, sibling) {
+  var animal_mom = Pandas.searchPandaMom(animal["_id"])[0];
+  var animal_dad = Pandas.searchPandaDad(animal["_id"])[0];
+  var sibling_mom = Pandas.searchPandaMom(sibling["_id"])[0];
+  var sibling_dad = Pandas.searchPandaDad(sibling["_id"])[0];
+  return (!((animal_mom == sibling_mom) && (animal_dad == sibling_dad)) &&
+           ((animal_mom != undefined) && (animal_dad != undefined)) &&
+           ((sibling_mom != undefined) && (sibling_dad != undefined)));
 }
 
 // Return the language order as an array

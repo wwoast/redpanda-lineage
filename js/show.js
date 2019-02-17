@@ -611,6 +611,13 @@ Show.button.profile = {};
 // Work in progress button, doesn't do anything yet
 Show.button.profile.render = function(class_name="profile") {
   var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
+  // Japanese text is too wide
+  var text = profile.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
   return profile;
 }
 Show.button.random = {};
@@ -635,12 +642,12 @@ Show.button.render = function(id, button_icon, button_text, class_name) {
   var content = document.createElement('div');
   content.className = "buttonContent";
   var icon_div = document.createElement('div');
-  icon_div.className = 'icon';
+  icon_div.className = 'buttonIcon';
   icon_div.innerText = button_icon;
   content.appendChild(icon_div);
   if (button_text != undefined) {
     var text_div = document.createElement('div');
-    text_div.className = 'text';
+    text_div.className = 'buttonText';
     text_div.innerText = button_text;
     content.appendChild(text_div);
   }
@@ -662,6 +669,13 @@ Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
 Show.button.timeline.render = function(class_name="profile") {
   var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display], class_name);
+  // Japanese text is too wide
+  var text = timeline.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
   return timeline;
 }
 Show.button.top = {};
@@ -817,7 +831,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   } else {
     message = L.messages.profile_siblings;
   }
-
   for (var i in message[language]) {
     var field = message[language][i];
     if (field == "<INSERTNAME>") {
@@ -840,7 +853,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
       p.appendChild(msg);
     }
   }
-  // TODO: append more siblings if siblings != brothers+sisters (i.e. newborns)
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -850,8 +862,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   return message;
 }
 Show.message.profile_where = function(name, language) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   var p = document.createElement('p');
   for (var i in L.messages.profile_where[language]) {
     var field = L.messages.profile_where[language][i];
@@ -888,8 +898,6 @@ Show.profile.children = function(animal, language) {
   }
   var sons_count = info.children.filter(x => x.gender == "Male").length;
   var daughters_count = info.children.filter(x => x.gender == "Female").length;
-  // TODO: what if it's neither a girl or a boy!? Update the message
-  // var babies_count = info.children.length - sons - daughters;
   var message = Show.message.profile_children(animal[language + ".name"], children_count, daughters_count, sons_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
@@ -917,9 +925,17 @@ Show.profile.dossier = function(animal, info, language) {
   var [first_string, second_string] = Show.birthday(info, language);
   var birthday = document.createElement('ul');
   birthday.className = "pandaList";
-  var item = document.createElement('li');
-  item.innerText = first_string + "\u2003" + second_string;
-  birthday.appendChild(item);
+  var first_item = document.createElement('li');
+  first_item.style.display = "inline-block";
+  first_item.style.paddingBottom = "0.25ex";
+  first_item.style.paddingRight = "1em";
+  first_item.innerText = first_string;
+  second_item = document.createElement('li');
+  second_item.style.display = "inline-block";
+  second_item.style.marginTop = "0.25ex";
+  second_item.innerText = second_string;
+  birthday.appendChild(first_item);
+  birthday.appendChild(second_item);
   // Display a QR code
   var qrcode = Show.qrcodeImage();
   // Lay it all out
@@ -980,19 +996,29 @@ Show.profile.family = function(animal, language) {
   elements.push(message);
   var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
   // Start with mom and dad, and then a self photo, and then littermates.
-  var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
-  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+  var mom_photo = undefined;
+  if (info.mom != undefined) {
+    var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
+    var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
+    photo_divs.push(mom);
+  }
+  var dad_photo = undefined;
+  if (info.dad != undefined) {
+    var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+    var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
+    photo_divs.push(dad);
+  }
   var me_photo = photos.filter(x => x["id"] == info["id"])[0];
-  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
-  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
-  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
   var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
-  photo_divs.push(mom);
-  photo_divs.push(dad);
   photo_divs.push(me);
+  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
   for (let litter_photo of litter_photos) {
+    var subHeading = L.gui.twin[language];
+    if (litter_photos.length > 1) {
+      subHeading = L.gui.triplet[language];
+    }
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
-    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, L.gui.twin[language], "immediateFamily");
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, subHeading, "immediateFamily");
     photo_divs.push(div);
   }
   var container = document.createElement('div');
@@ -1112,15 +1138,16 @@ Show.profile.siblings = function(animal, language) {
   }
   var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
   var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
-  // TODO: what if it's neither a girl or a boy!? Update the message
-  // var babies_count = info.children.length - sons - daughters;
   var message = Show.message.profile_siblings(animal[language + ".name"], siblings_count, sisters_count, brothers_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileSiblings(animal["_id"]);
   for (let photo of photos) {
     var sibling = total_siblings.filter(x => x["_id"] == photo["id"])[0];
-    var birth_year = Pandas.formatYear(sibling["birthday"]);
-    var div = Gallery.familyProfilePhoto(sibling, photo, language, birth_year);
+    var subHeading = Pandas.formatYear(sibling["birthday"]);
+    if (Pandas.halfSiblings(animal, sibling)) {
+      subHeading = subHeading + "\u200A" + "(½)";
+    }
+    var div = Gallery.familyProfilePhoto(sibling, photo, language, subHeading);
     photo_divs.push(div);
   }
   var container = document.createElement('div');
@@ -1392,11 +1419,14 @@ Show.results.pandaName = function(info) {
   } else {
     name_div.innerText = info.name;
   }
+  var a = document.createElement('a');
+  a.href = "#profile/" + info.id;
   var title_div = document.createElement('div');
   title_div.className = "pandaTitle";
   title_div.appendChild(gender);
   title_div.appendChild(name_div);
-  return title_div;
+  a.appendChild(title_div);
+  return a;
 }
 Show.results.parents = function(info) {
   // Do mom and dad's info in the family section
@@ -1452,13 +1482,10 @@ Show.results.siblings = function(info) {
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
+    var myself = Pandas.searchPandaId(info.id)[0];
     var animal = info.siblings[index];
     var options = ["child_icon", "live_icon"];
-    var test_mom = Pandas.searchPandaMom(animal["_id"])[0];
-    var test_dad = Pandas.searchPandaDad(animal["_id"])[0];
-    if (!((test_mom == info.mom) && (test_dad == info.dad)) &&
-         ((test_mom != undefined) && (test_dad != undefined)) &&
-         ((info.mom != undefined) && (info.dad != undefined))) {
+    if (Pandas.halfSiblings(myself, animal)) {
       options.push("half_icon");
     }
     var siblings_link = Show.animalLink(animal, animal[info.get_name], 
