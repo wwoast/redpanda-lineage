@@ -128,16 +128,21 @@ button.menu div.buttonContent, button.logo div.buttonContent {
     margin-right: auto;
 }
 
-button.menu div.icon, button.logo div.icon {
+button.menu div.buttonIcon, button.logo div.buttonIcon {
     display: table-cell;
     font-size: 24pt;
     padding-right: 8px;
     text-align: left;
 }
 
-button.menu div.text, button.logo div.text {
+button.menu div.buttonText, button.logo div.buttonText {
     display: table-cell;
     text-align: left;
+}
+
+div.buttonText.condensed {
+    letter-spacing: -4px;
+    font-size: 13.5pt;
 }
 
 button.sectionButton:hover {
@@ -477,7 +482,7 @@ div.gender.profile img {
 }
 
 div.gender.caption {
-    margin-right: 0.4ex;
+    margin-right: 0.2ex;
     margin-left: 0px;
     padding: 0 0 0 0;
 }
@@ -951,19 +956,24 @@ div.photoSample h5.caption.familyTitle {
         height: auto;
     }
 
-    button.menu div.icon {
+    button.menu div.buttonIcon {
         display: table-row;
         font-size: 24pt;
         padding: 0 0 0 0;
         text-align: center;
     }
 
-    button.menu div.text {
+    button.menu div.buttonText {
         display: table-row;
         font-size: 10pt;
         padding: 0 0 0 0;
         text-align: center;
         word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
+    }
+
+    div.buttonText.condensed {
+        font-size: 10pt;
+        letter-spacing: -2px;
     }
 
     button.sectionButton {

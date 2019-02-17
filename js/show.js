@@ -611,6 +611,13 @@ Show.button.profile = {};
 // Work in progress button, doesn't do anything yet
 Show.button.profile.render = function(class_name="profile") {
   var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
+  // Japanese text is too wide
+  var text = profile.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
   return profile;
 }
 Show.button.random = {};
@@ -635,12 +642,12 @@ Show.button.render = function(id, button_icon, button_text, class_name) {
   var content = document.createElement('div');
   content.className = "buttonContent";
   var icon_div = document.createElement('div');
-  icon_div.className = 'icon';
+  icon_div.className = 'buttonIcon';
   icon_div.innerText = button_icon;
   content.appendChild(icon_div);
   if (button_text != undefined) {
     var text_div = document.createElement('div');
-    text_div.className = 'text';
+    text_div.className = 'buttonText';
     text_div.innerText = button_text;
     content.appendChild(text_div);
   }
@@ -662,6 +669,13 @@ Show.button.timeline = {};
 // Work in progress button, doesn't do anything yet
 Show.button.timeline.render = function(class_name="profile") {
   var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display], class_name);
+  // Japanese text is too wide
+  var text = timeline.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
   return timeline;
 }
 Show.button.top = {};

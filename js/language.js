@@ -109,7 +109,7 @@ Language.L.gui = {
     "cn": "主頁",
     "en": "Home",
     "es": "TOWRITE",
-    "jp": "ホメパゲ"
+    "jp": "ホーム"
   },
   "language": {
     "cn": {
@@ -164,7 +164,7 @@ Language.L.gui = {
   "media": {
     "cn": "媒體",
     "en": "Media",
-    "jp": "媒体"
+    "jp": "メディア"
   },
   "mother": {
     "cn": "母親",
@@ -189,7 +189,7 @@ Language.L.gui = {
   "profile": {
     "cn": "剖面",
     "en": "Profile",
-    "jp": "横顔"
+    "jp": "プロフィール"
   },
   "random": {
     "cn": "隨機",
@@ -214,7 +214,7 @@ Language.L.gui = {
   "timeline": {
     "cn": "TOWRITE",
     "en": "Timeline",
-    "jp": "知らせ"
+    "jp": "タイムライン"
   },
   "title": {
     "cn": "TOWRITE",
