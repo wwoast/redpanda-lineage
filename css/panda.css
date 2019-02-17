@@ -121,21 +121,21 @@ button.menu.profile:active, button.logo.profile:active {
     animation-direction: alternate;
 }
 
-button.menu div.buttonContent, button.logo div.buttonContent {
+div.buttonContent {
     display: table;
     border: none;
     margin-left: auto;
     margin-right: auto;
 }
 
-button.menu div.buttonIcon, button.logo div.buttonIcon {
+div.buttonIcon {
     display: table-cell;
     font-size: 24pt;
     padding-right: 8px;
     text-align: left;
 }
 
-button.menu div.buttonText, button.logo div.buttonText {
+div.buttonText {
     display: table-cell;
     text-align: left;
 }
@@ -954,16 +954,17 @@ div.photoSample h5.caption.familyTitle {
     button.menu {
         width: 80px;
         height: auto;
+        padding: 0 0 0 0;
     }
 
-    button.menu div.buttonIcon {
+    div.buttonIcon {
         display: table-row;
         font-size: 24pt;
         padding: 0 0 0 0;
         text-align: center;
     }
 
-    button.menu div.buttonText {
+    div.buttonText {
         display: table-row;
         font-size: 10pt;
         padding: 0 0 0 0;
@@ -973,7 +974,7 @@ div.photoSample h5.caption.familyTitle {
 
     div.buttonText.condensed {
         font-size: 10pt;
-        letter-spacing: -2px;
+        letter-spacing: -1px;
     }
 
     button.sectionButton {
