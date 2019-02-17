@@ -1419,11 +1419,14 @@ Show.results.pandaName = function(info) {
   } else {
     name_div.innerText = info.name;
   }
+  var a = document.createElement('a');
+  a.href = "#profile/" + info.id;
   var title_div = document.createElement('div');
   title_div.className = "pandaTitle";
   title_div.appendChild(gender);
   title_div.appendChild(name_div);
-  return title_div;
+  a.appendChild(title_div);
+  return a;
 }
 Show.results.parents = function(info) {
   // Do mom and dad's info in the family section
