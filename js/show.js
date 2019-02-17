@@ -817,7 +817,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   } else {
     message = L.messages.profile_siblings;
   }
-
   for (var i in message[language]) {
     var field = message[language][i];
     if (field == "<INSERTNAME>") {
@@ -840,7 +839,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
       p.appendChild(msg);
     }
   }
-  // TODO: append more siblings if siblings != brothers+sisters (i.e. newborns)
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -850,8 +848,6 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   return message;
 }
 Show.message.profile_where = function(name, language) {
-  // Draw a header for crediting someone's photos contribution 
-  // with the correct language
   var p = document.createElement('p');
   for (var i in L.messages.profile_where[language]) {
     var field = L.messages.profile_where[language][i];
@@ -888,8 +884,6 @@ Show.profile.children = function(animal, language) {
   }
   var sons_count = info.children.filter(x => x.gender == "Male").length;
   var daughters_count = info.children.filter(x => x.gender == "Female").length;
-  // TODO: what if it's neither a girl or a boy!? Update the message
-  // var babies_count = info.children.length - sons - daughters;
   var message = Show.message.profile_children(animal[language + ".name"], children_count, daughters_count, sons_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
@@ -980,16 +974,22 @@ Show.profile.family = function(animal, language) {
   elements.push(message);
   var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
   // Start with mom and dad, and then a self photo, and then littermates.
-  var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
-  var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+  var mom_photo = undefined;
+  if (info.mom != undefined) {
+    var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
+    var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
+    photo_divs.push(mom);
+  }
+  var dad_photo = undefined;
+  if (info.dad != undefined) {
+    var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
+    var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
+    photo_divs.push(dad);
+  }
   var me_photo = photos.filter(x => x["id"] == info["id"])[0];
-  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
-  var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
-  var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
   var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
-  photo_divs.push(mom);
-  photo_divs.push(dad);
   photo_divs.push(me);
+  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
   for (let litter_photo of litter_photos) {
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
     var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, L.gui.twin[language], "immediateFamily");
