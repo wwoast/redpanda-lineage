@@ -230,6 +230,11 @@ Language.L.gui = {
     "cn": "雙生",
     "en": "Twin",
     "jp": "双子"
+  },
+  "triplet": {
+    "cn": "三重",
+    "en": "Triplet",
+    "jp": "三つ子"
   }
 }
 

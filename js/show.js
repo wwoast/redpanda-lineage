@@ -1005,8 +1005,12 @@ Show.profile.family = function(animal, language) {
   photo_divs.push(me);
   var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
   for (let litter_photo of litter_photos) {
+    var subHeading = L.gui.twin[language];
+    if (litter_photos.length > 1) {
+      subHeading = L.gui.triplet[language];
+    }
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
-    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, L.gui.twin[language], "immediateFamily");
+    var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, subHeading, "immediateFamily");
     photo_divs.push(div);
   }
   var container = document.createElement('div');
