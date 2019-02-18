@@ -13,7 +13,7 @@
 // The canvas is then turned to an image PNG
 // before being returned as an <img> tag.
 function showQRCode(text) {
-    var dotsize = 3;  // size of box drawn on canvas
+    var dotsize = 5;  // size of box drawn on canvas
     var padding = 10; // (white area around your QRCode)
     var black = "rgb(0,0,0)";
     var white = "rgb(255,255,255)";
