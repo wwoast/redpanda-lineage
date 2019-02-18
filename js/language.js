@@ -258,7 +258,7 @@ Language.L.messages = {
            "<INSERTLINK>",
            " and red panda fans worldwide. ",
           "Any media linked from this dataset remains property of its creator. ",
-          "Layout and design © 2018 Justin Fairchild."],
+          "Layout and design © 2019 Justin Fairchild."],
     "jp": ["<INSERTLINK>", 
            "、世界中のレッサーパンダファンのすべての情報提供。",
            "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
