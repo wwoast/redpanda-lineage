@@ -13,11 +13,10 @@ jp.othernames: none
 language.order: jp, en
 litter: 195
 location.1: 42, 2013/8/15
-location.2: 201, 2018/6/11
+location.2: 31, 2018/6/11
 photo.1: https://www.instagram.com/p/BiW3lfglYCi/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BprVWZTlqLh/media/?size=m
 photo.2.author: bee_san.13
 photo.2.link: https://www.instagram.com/bee_san.13/
@@ -47,5 +46,9 @@ photo.9: https://www.instagram.com/p/BtgC2w6F_aW/media/?size=m
 photo.9.author: bee_san.13
 photo.9.link: https://www.instagram.com/bee_san.13/
 photo.9.tags: apple time, standing
+photo.10: https://www.instagram.com/p/BuBjaeTl1ko/media/?size=m
+photo.10.author: bee_san.13
+photo.10.link: https://www.instagram.com/bee_san.13/
+photo.10.tags: profile
 species: 2
 zoo: 31
