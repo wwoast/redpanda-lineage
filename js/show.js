@@ -411,6 +411,13 @@ Show.othernames = function(animal, current_language) {
         othername_list.push(name);
       }
     }
+    // Old names that were previously valid for this animal
+    var oldnames = animal[language + ".oldnames"];
+    if (oldnames != undefined) {
+      for (let name of oldnames.split(",").map(x => x.trim())) {
+        othername_list.push(name);
+      }
+    }
     // Did we have any extra names? If so, add them
     if (othername_list.length > 0) {
       othername_li.innerText += othername_list.join(", ");
