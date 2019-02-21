@@ -66,7 +66,12 @@ Page.footer.redraw = function(page_mode="results") {
   } else {
     // Redraw the footer for language event changes
     var footer = Page.footer.render(L.display, page_mode);
-    var bottomMenu = Show[page_mode].menus.bottom();   // TODO: does it replace?
+    var bottomMenu = Show[page_mode].menus.bottom();
+    // If bottom menu isn't there, add it
+    if (footer_test.previousElementSibling.id != "pageBottom") {
+      body.insertBefore(bottomMenu, footer_test);
+    }
+    // Replace footer menu itself
     body.replaceChild(footer, footer_test);
   }
 }
