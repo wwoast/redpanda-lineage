@@ -657,7 +657,12 @@ Show.button.render = function(id, button_icon, button_text, class_name) {
 Show.button.search = {};
 Show.button.search.action = function() {
   // Used on pages where the search bar normally doesn't appear
-  Show.searchBar.toggle("bottomSearch");
+  var active = Show.searchBar.toggle("bottomSearch");
+  var searchBar = document.getElementById("searchInput");
+  if (active == true) {
+    window.scrollTo(0, document.getElementById("searchInput").offsetTop);
+    document.getElementById("searchInput").focus();
+  }
 }
 Show.button.search.render = function(class_name="profile") {
   var buttonText = L.gui.search[L.display].replace("...", "");   // No ellipses
@@ -1671,7 +1676,9 @@ Show.searchBar.toggle = function(frame_id) {
   if ((display == "none") || (display == "")) {
     searchBar.style.display = "table";
     Show.searchBar.action();   // Add the event listeners
+    return true;
   } else {
     searchBar.style.display = "none";
+    return false;
   }
 }
