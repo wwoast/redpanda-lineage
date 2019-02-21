@@ -389,6 +389,8 @@ Page.results.render = function() {
     shrinker.appendChild(content_div);
   });
   new_content.appendChild(shrinker);
+  // Redraw the search bar if necessary
+  Show["results"].searchBar();
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
