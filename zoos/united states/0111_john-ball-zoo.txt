@@ -1,0 +1,9 @@
+[zoo]
+_id: 111
+en.address: TOWRITE
+en.location: Grand Rapids, Michigan, USA
+en.name: John Ball Zoo
+flag: USA
+language.order: en
+map: TOWRITE
+website: TOWRITE

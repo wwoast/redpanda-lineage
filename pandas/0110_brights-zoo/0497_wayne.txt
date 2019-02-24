@@ -1,0 +1,19 @@
+[panda]
+_id: 497
+birthday: 2012/7/11
+birthplace: 80
+children: 499, 169
+en.name: Wayne
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 80, 2012/7/11
+location.2: 48, 2013/4/16
+location.3: 110, 2015/11/9
+litter: unknown
+species: 1
+zoo: 110

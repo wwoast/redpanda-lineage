@@ -1,0 +1,19 @@
+[panda]
+_id: 502
+birthday: 2012/6/21
+birthplace: 48
+children: unknown
+en.name: Wyatt
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 48, 2012/6/21
+location.2: 112, 2013/5/7
+location.3: 111, 2017/6/28
+litter: 501
+species: 1
+zoo: 111

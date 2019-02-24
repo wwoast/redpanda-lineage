@@ -1,0 +1,19 @@
+[panda]
+_id: 498
+birthday: 2009/7/28
+birthplace: 107
+children: 500, 501, 502, 499, 169
+death: 2017/2/20
+en.name: Mei-Mei
+en.nicknames: none
+en.othernames: Meimei
+gender: f
+jp.name: メイメイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 107, 2009/7/28
+location.2: 48, 2010/3/10
+species: 1
+zoo: 48
