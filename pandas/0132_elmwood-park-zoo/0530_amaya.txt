@@ -1,0 +1,21 @@
+[panda]
+_id: 530
+birthday: 2008/6/29
+birthplace: 131
+children: none
+en.name: Amaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アマヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 531
+location.1: 131, 2008/6/29
+location.2: 75, 2009/3/18
+location.3: 84, 2016/10/24
+location.4: 75, 2017/1/4
+location.5: 132, 2017/3/29
+species: 1
+zoo: 132

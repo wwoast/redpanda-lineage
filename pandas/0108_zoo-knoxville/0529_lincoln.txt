@@ -1,0 +1,18 @@
+[panda]
+_id: 529
+birthday: 2013/7/26
+birthplace: 80
+children: none
+en.name: Lincoln
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: リンカーン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 80, 2013/7/26
+location.2: 108, 2014/1/24
+species: 1
+zoo: 108
