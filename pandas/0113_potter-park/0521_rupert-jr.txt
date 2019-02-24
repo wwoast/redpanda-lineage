@@ -1,0 +1,19 @@
+[panda]
+_id: 521
+birthday: 2011/7/3
+birthplace: 124
+children: unknown
+en.name: Rupert Jr.
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 124, 2011/7/3
+location.2: 101, 2012/5/23
+location.3: 113, 2014/11/14
+species: 1
+zoo: 113

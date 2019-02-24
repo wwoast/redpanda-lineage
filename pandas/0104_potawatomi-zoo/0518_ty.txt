@@ -1,0 +1,19 @@
+[panda]
+_id: 518
+birthday: 2001/7/9
+birthplace: 118
+children: unknown
+en.name: Ty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 118, 2001/7/9
+location.2: 122, 2002/3/13
+location.3: 104, 2002/11/20
+species: 1
+zoo: 104
