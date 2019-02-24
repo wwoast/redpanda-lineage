@@ -1,0 +1,19 @@
+[panda]
+_id: 526
+birthday: 2011/7/5
+birthplace: 120
+children: 311, 527
+en.name: Duli
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ドゥリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 120, 2011/7/5
+location.2: 80, 2012/5/22
+location.3: 128, 2014/11/28
+species: 1
+zoo: 128

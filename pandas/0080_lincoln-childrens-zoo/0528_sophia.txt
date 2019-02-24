@@ -1,0 +1,20 @@
+[panda]
+_id: 528
+birthday: 2002/6/20
+birthplace: 108
+children: 497, 523, 311, 527
+en.name: Sophia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ソフィア 
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 108, 2002/6/20
+location.2: 122, 2003/4/29
+location.3: 131, 2007/12/13
+location.4: 80, 2011/11/16
+species: 1
+zoo: 80

@@ -1,0 +1,9 @@
+[zoo]
+_id: 131
+en.address: 2300 Steele St, Denver, CO 80205
+en.location: Denver, Colorado, USA
+en.name: Denver Zoological Gardens
+flag: USA
+language.order: en
+map: https://goo.gl/maps/hqG7y33Ttwj
+website: https://www.denverzoo.org/

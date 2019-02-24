@@ -1,0 +1,9 @@
+[zoo]
+_id: 129
+en.address: 9100 Morro Rd, Atascadero, CA 93422
+en.location: Atascadero, California, USA
+en.name: Charles Paddock Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/Keb1Sqgrmr92
+website: http://www.charlespaddockzoo.org/
