@@ -1,0 +1,19 @@
+[panda]
+_id: 515
+birthday: 2013/6/21
+birthplace: 107
+children: unknown
+en.name: Xue Li
+en.nicknames: none
+en.othernames: Xueli, Xue-Li
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 107, 2013/6/21
+location.2: 108, 2013/10/13
+location.3: 107, 2014/4/4
+species: 1
+zoo: 107

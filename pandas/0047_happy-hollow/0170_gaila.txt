@@ -1,7 +1,7 @@
 [panda]
 _id: 170
 birthday: 2011/6/5
-birthplace: 49
+birthplace: 114
 children: unknown
 en.name: Gaila
 en.nicknames: LadyBoss
@@ -11,7 +11,10 @@ jp.name: ガイラ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: 507
+location.1: 114, 2011/6/5
+location.2: 115, 2012/8/15
+location.3: 47, 2016/1/13
 photo.1: https://www.instagram.com/p/BSSOWqIBrqV/media/?size=m
 photo.1.author: zookeeper_aj
 photo.1.link: https://www.instagram.com/zookeeper_aj/

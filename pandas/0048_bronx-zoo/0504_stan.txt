@@ -1,0 +1,17 @@
+[panda]
+_id: 504
+birthday: 2006/6/21
+birthplace: 84
+children: none
+death: 2006/10/1
+en.name: Stan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 84
