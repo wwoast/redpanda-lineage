@@ -3,11 +3,14 @@ _id: 515
 birthday: 2013/6/21
 birthplace: 107
 children: unknown
+cn.name: 薛礼
+cn.nicknames: none
+cn.othernames: none
 en.name: Xue Li
 en.nicknames: none
 en.othernames: Xueli, Xue-Li
 gender: f
-jp.name: TOWRITE
+jp.name: 薛礼
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp

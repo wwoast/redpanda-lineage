@@ -1,19 +1,19 @@
 [panda]
-_id: 521
-birthday: 2011/7/3
+_id: 522
+birthday: 2012/6/22
 birthplace: 124
 children: unknown
-en.name: Rupert Jr.
+en.name: Sherman
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name:  ルパート ジュニア
+jp.name: シャーマン
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
-location.1: 124, 2011/7/3
-location.2: 101, 2012/5/23
-location.3: 113, 2014/11/14
+location.1: 124, 2012/6/22
+location.2: 114, 2013/5/6
+location.3: 125, 2018/1/6
 species: 1
-zoo: 113
+zoo: 125

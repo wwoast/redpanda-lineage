@@ -1,9 +1,9 @@
 [zoo]
 _id: 110
-en.address: TOWRITE
+en.address: 3425 US-11E, Limestone, TN 37681, USA
 en.location: Limestone, Tennessee, USA
 en.name: Bright's Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/o1JzMwgEGPw
+website: http://www.brightszoo.com/

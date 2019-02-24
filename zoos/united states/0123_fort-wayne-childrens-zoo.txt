@@ -1,9 +1,9 @@
 [zoo]
 _id: 123
-en.address: TOWRITE
+en.address: 3411 Sherman Blvd, Fort Wayne, IN 46808, USA
 en.location: Fort Wayne, Indiana, USA
 en.name: Fort Wayne Children's Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/s6yrZhQmjR72
+website: https://kidszoo.org/

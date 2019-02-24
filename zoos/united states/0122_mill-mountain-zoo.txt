@@ -1,9 +1,9 @@
 [zoo]
 _id: 122
-en.address: TOWRITE
+en.address: Mill Mountain Spur, Roanoke, VA 24014, USA
 en.location: Roanoke, Virginia, USA
 en.name: Mill Mountain Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/npzDkr2388w
+website: http://www.mmzoo.org/

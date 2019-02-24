@@ -1,9 +1,9 @@
 [zoo]
 _id: 115
-en.address: TOWRITE
+en.address: 6800 Zoo Dr, Kansas City, MO 64132, USA
 en.location: Kansas City, Missouri, USA
 en.name: Kansas City Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/4NYWrwy6CpT2
+website: https://www.kansascityzoo.org/

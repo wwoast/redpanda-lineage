@@ -1,9 +1,9 @@
 [zoo]
 _id: 124
-en.address: TOWRITE
+en.address: 8450 W 10 Mile Rd, Royal Oak, MI 48067, USA
 en.location: Royal Oak, Michigan, USA
 en.name: Detroit Zoological Society
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/TQARh1R38qP2
+website: https://detroitzoo.org/

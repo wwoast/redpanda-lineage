@@ -3,11 +3,14 @@ _id: 508
 birthday: 2013/6/18
 birthplace: 105
 children: unknown
+cn.name: jp.name: 朱
+cn.nicknames: none
+cn.othernames: none
 en.name: Zhu
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: TOWRITE
+jp.name: 朱
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp

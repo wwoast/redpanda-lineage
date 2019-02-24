@@ -1,9 +1,9 @@
 [zoo]
 _id: 117
-en.address: TOWRITE
+en.address: 282 Millbrook School Rd, Millbrook, NY 12545, USA
 en.location: Millbrook, New York, USA
 en.name: Trevor Zoo At Millbrook School
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/6pn5QUdiz5G2
+website: https://www.millbrook.org/page/trevor-zoo-home

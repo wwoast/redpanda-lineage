@@ -1,9 +1,9 @@
 [zoo]
 _id: 112
-en.address: TOWRITE
+en.address: 301 N Holtzclaw Ave, Chattanooga, TN 37404, USA
 en.location: Chattanooga, Tennessee, USA
 en.name: Chattanooga Zoo At Warner Park
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/1ZHVrRkvvs12
+website: http://www.chattzoo.org/

@@ -1,9 +1,9 @@
 [zoo]
 _id: 111
-en.address: TOWRITE
+en.address: 1300 Fulton W, Grand Rapids, MI 49504, USA
 en.location: Grand Rapids, Michigan, USA
 en.name: John Ball Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/3gKq7TKsyQT2
+website: https://www.jbzoo.org/

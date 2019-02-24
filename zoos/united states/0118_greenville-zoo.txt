@@ -1,9 +1,9 @@
 [zoo]
 _id: 118
-en.address: TOWRITE
+en.address: 150 Cleveland Park Dr, Greenville, SC 29601, USA
 en.location: Greenville, South Carolina, USA
 en.name: Greenville Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/yBWpJYm1Bvr
+website: https://greenvillezoo.com/

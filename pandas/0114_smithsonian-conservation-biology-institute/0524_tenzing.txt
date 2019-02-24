@@ -1,0 +1,19 @@
+[panda]
+_id: 524
+birthday: 2013/6/1
+birthplace: 108
+children: unknown
+en.name: Tenzing
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: テンジン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 108, 2013/6/1
+location.2: 80, 2015/1/2
+location.3: 114, 2016/11/28
+species: 1
+zoo: 114

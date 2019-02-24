@@ -1,9 +1,9 @@
 [zoo]
 _id: 116
-en.address: TOWRITE
+en.address: 1020 S Morris Ave, Bloomington, IL 61701, USA
 en.location: Bloomington, Illinois, USA
 en.name: Miller Park Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/k6zARq4schp
+website: http://www.bloomingtonparks.org/facilities/miller-park-zoo

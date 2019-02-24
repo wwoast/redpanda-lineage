@@ -1,9 +1,9 @@
 [zoo]
 _id: 121
-en.address: TOWRITE
+en.address: 355 Julia Davis Dr, Boise, ID 83702, USA
 en.location: Boise, Idaho, USA
 en.name: Zoo Boise
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/etM24t7HdKG2
+website: http://www.zooboise.org/
