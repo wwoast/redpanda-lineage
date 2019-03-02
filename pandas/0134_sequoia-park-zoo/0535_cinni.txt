@@ -1,0 +1,16 @@
+[panda]
+_id: 535
+birthday: 2014/7/9
+birthplace: 134
+children: none
+en.name: Cinni
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 536
+species: 1
+zoo: 134

@@ -1,0 +1,21 @@
+[panda]
+_id: 534
+birthday: 2005/6/24
+birthplace: 104
+children: 535, 536
+death: 2018/8/8
+en.name: Stella Luna
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 104, 2005/6/24
+location.2: 114, 2006/11/27
+location.3: 120, 2010/12/16
+location.4: 134, 2013/1/15
+species: 1
+zoo: 134
