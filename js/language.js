@@ -61,12 +61,14 @@ Language.L.emoji = {
 }
 
 // TODO: key on other language versions of country names
+// TODO: language flag should key on the browser advertised locale (USA flag vs. UK flag)
 Language.L.flags = {
   "Argentina": "🇦🇷",
      "Bhutan": "🇧🇹",
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
       "China": "🇨🇳",
+    "Germany": "TOWRITE!!",
       "India": "🇮🇳",
       "Japan": "🇯🇵",
      "Mexico": "🇲🇽",
@@ -74,6 +76,7 @@ Language.L.flags = {
 "South Korea": "🇰🇷",
      "Taiwan": "🇹🇼",
    "Thailand": "🇹🇭",
+         "UK": "TOWRITE!!",
         "USA": "🇺🇸"
 }
 
