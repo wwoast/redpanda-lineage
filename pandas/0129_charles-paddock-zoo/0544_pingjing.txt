@@ -1,0 +1,16 @@
+[panda]
+_id: 544
+birthday: 2017/6/22
+birthplace: 81
+children: none
+en.name: Ping-Jing
+en.nicknames: none
+en.othernames: Pingjing, Ping Jing
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 543
+species: 1
+zoo: 129

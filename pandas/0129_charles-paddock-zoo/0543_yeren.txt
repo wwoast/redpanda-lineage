@@ -1,0 +1,16 @@
+[panda]
+_id: 543
+birthday: 2017/6/22
+birthplace: 81
+children: none
+en.name: Yeren
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 544
+species: 1
+zoo: 129

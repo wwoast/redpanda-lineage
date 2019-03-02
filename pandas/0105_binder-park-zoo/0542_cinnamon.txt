@@ -1,0 +1,19 @@
+[panda]
+_id: 542
+birthday: 2014/6/19
+birthplace: unknown
+children: unknown
+death: 2018/8/24
+en.name: Cinnamon
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シナモン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: -1, 2014/6/19
+location.2: 105, 2015/11/10
+species: 1
+zoo: 105
