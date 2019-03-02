@@ -3,15 +3,15 @@ _id: 371
 birthday: 1992/8/7
 birthplace: 15
 children: 351, 352, 76, 328, 126
-death: unknown
+death: 2006/11/1
 en.name: Mii-Mii
 en.nicknames: none
-en.othernames: Miimii
+en.othernames: Miimii, Mei-Mei, Meimei
 gender: f
 jp.name: 美美
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 547
 species: 2
 zoo: 6
