@@ -3,6 +3,7 @@ _id: 491
 birthday: 2009/6/4
 birthplace: 51
 children: unknown
+death: 2014/10/20
 en.name: Keti
 en.nicknames: none
 en.othernames: none
@@ -12,5 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 51, 2009/6/4
+location.2: 88, 2011/5/4
+location.3: 44, 2013/11/21
 species: 2
-zoo: 88
+zoo: 44

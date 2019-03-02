@@ -173,6 +173,12 @@ class RedPandaGraph:
             raise NameFormatError("ERROR: %s: %s name too long: %s"
                                   % (sourcepath, field, name))
     
+    def check_imported_panda_zoo_path(self, zoo_id, sourcepath):
+        """Validate that we didn't mis-number a panda's zoo id given which directory it sits in."""
+        if zoo_id not in sourcepath:
+            raise IdError("ERROR: %s: file path and zoo id don't match: %s"
+                              % (sourcepath, zoo_id))
+
     def check_imported_zoo_id(self, zoo_id, sourcepath):
         """Validate that the ID for a panda's zoo is valid."""
         check_id = str(int(zoo_id) * -1)
@@ -257,8 +263,7 @@ class RedPandaGraph:
                 # Gender rules
                 gender = self.check_imported_gender(field[1], path)
                 panda_vertex[field[0]] = gender
-            elif (field[0].find("birthplace") != -1 or
-                  field[0].find("zoo") != -1):   
+            elif (field[0].find("birthplace") != -1):
                 # Zoo ID rules
                 # To differentiate Zoo IDs from pandas, use negative IDs
                 zoo_id = str(int(field[1]) * -1)
@@ -301,6 +306,18 @@ class RedPandaGraph:
                     self.photo["max"] = test_count
                 # Accept the data and continue
                 panda_vertex[field[0]] = field[1]
+            elif (field[0].find("zoo") != -1):
+                # Zoo ID rules
+                # To differentiate Zoo IDs from pandas, use negative IDs
+                zoo_id = str(int(field[1]) * -1)
+                self.check_imported_zoo_id(field[1], path)
+                self.check_imported_panda_zoo_path(field[1], path)
+                # Add a birthplace or zoo edge to the list that's a zoo
+                zoo_edge = {}
+                zoo_edge['_out'] = panda_id
+                zoo_edge['_in'] = zoo_id
+                zoo_edge['_label'] = field[0]
+                panda_edges.append(zoo_edge)
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
