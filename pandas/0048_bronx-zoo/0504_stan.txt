@@ -1,7 +1,7 @@
 [panda]
 _id: 504
 birthday: 2006/6/21
-birthplace: 84
+birthplace: 48
 children: none
 death: 2006/10/1
 en.name: Stan
@@ -14,4 +14,4 @@ jp.othernames: none
 language.order: en, jp
 litter: none
 species: 1
-zoo: 84
+zoo: 48
