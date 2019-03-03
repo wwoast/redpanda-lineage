@@ -1,16 +1,19 @@
 [panda]
 _id: 359
-birthday: unknown
-birthplace: unknown
-children: 361, 362, 196, 310, 382, 25, 165
-death: unknown
+birthday: 1994/6/26
+birthplace: 4
+children: 361, 362, 196, 548, 310, 382, 25, 165
+death: 2015/3/31
 en.name: Mii-Mii
 en.nicknames: unknown
-en.othernames: Miimii
+en.othernames: Miimii, Mi-mi, Mimi
 gender: m
 jp.name: 美美
 jp.nicknames: none
 jp.othernames: ミーミー
 language.order: jp, en
+location.1: 4, 1994/6/26
+location.2: 38, 1997/12/17
+location.3: 12, 1998/11/24
 species: 2
 zoo: 12

@@ -3,7 +3,7 @@ _id: 222
 birthday: 2001/6/28
 birthplace: 52
 children: 84, 358, 122, 66, 112
-death: unknown
+death: 2016/12/30
 en.name: Shun-Shun
 en.nicknames: none
 en.othernames: Shunshun, Chun-Chun, Chunchun
@@ -12,4 +12,10 @@ jp.name: シュンシュン
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: unknown
+location.1: 52, 2001/6/28
+location.2: 13, 2004/6/4
+location.3: 17, 2012/1/13
+location.4: 13, 2012/4/18
+species: 2
 zoo: 13
