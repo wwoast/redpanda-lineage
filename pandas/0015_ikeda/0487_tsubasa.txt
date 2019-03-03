@@ -1,9 +1,9 @@
 [panda]
 _id: 487
-birthday: unknown
-birthplace: unknown
-children: 133, 32
-death: unknown
+birthday: 2006/6/20
+birthplace: 10
+children: 133, 32, 366
+death: 2010/4/19
 en.name: Tsubasa
 en.nicknames: none
 en.othernames: none
@@ -13,5 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: unknown
+location.1: 10, 2006/6/20
+location.2: 15, 2009/1/30
 species: 2
 zoo: 15

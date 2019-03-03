@@ -1,9 +1,9 @@
 [panda]
 _id: 366
-birthday: unknown
-birthplace: unknown
+birthday: 2009/7/8
+birthplace: 15
 children: 138, 117, 219
-death: unknown
+death: 2013/10/20
 en.name: Hiyori
 en.nicknames: none
 en.othernames: none
@@ -12,6 +12,6 @@ jp.name: ひより
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 32
 species: 2
 zoo: 15
