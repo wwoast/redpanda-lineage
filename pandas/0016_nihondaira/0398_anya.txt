@@ -3,7 +3,7 @@ _id: 398
 birthday: 1998/7/3
 birthplace: 42
 children: none
-death: unknown
+death: 2016/6/4
 en.name: A-nya
 en.nicknames: none
 en.othernames: Anya
@@ -13,5 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 397
+location.1: 42, 1998/7/3
+location.2: 16, 2012/12/12
 species: 2
 zoo: 16

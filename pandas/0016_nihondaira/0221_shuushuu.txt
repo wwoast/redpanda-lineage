@@ -1,16 +1,18 @@
 [panda]
 _id: 221
-birthday: unknown
-birthplace: unknown
+birthday: 2001/7/21
+birthplace: 6
 children: 44, 59, 142, 326
-death: unknown
+death: 2015/12/27
 en.name: Shuu-Shuu
 en.nicknames: none
-en.othernames: none
+en.othernames: Shyu-Shyu, Shuushuu, Shyushyu
 gender: m
 jp.name: シュウシュウ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+location.1: 6, 2001/7/21
+location.2: 16, 2004/3/18
 species: 2
 zoo: 16
