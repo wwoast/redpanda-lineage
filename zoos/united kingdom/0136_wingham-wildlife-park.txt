@@ -1,9 +1,9 @@
 [zoo]
 _id: 136
-en.address: TOWRITE
-en.location: TOWRITE
+en.address: Rusham Rd, Wingham, Canterbury CT3 1JL, UK
+en.location: Wingham, Canterbury, UK
 en.name: Wingham Wildlife Park
 flag: UK
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/F4dJmeSXfZC2
+website: http://winghamwildlifepark.co.uk/

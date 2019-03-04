@@ -1,9 +1,9 @@
 [zoo]
 _id: 139
-en.address: TOWRITE
-en.location: TOWRITE
+en.address: Totnes Rd, Paignton TQ4 7EU, UK
+en.location: Paignton, UK
 en.name: Paignton Zoo Environmental Park
 flag: UK
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/Jigbo16RLDP2
+website: https://www.paigntonzoo.org.uk/

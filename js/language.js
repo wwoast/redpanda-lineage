@@ -68,7 +68,7 @@ Language.L.flags = {
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
       "China": "🇨🇳",
-    "Germany": "TOWRITE!!",
+    "Germany": "🇩🇪",
       "India": "🇮🇳",
       "Japan": "🇯🇵",
      "Mexico": "🇲🇽",
@@ -76,7 +76,7 @@ Language.L.flags = {
 "South Korea": "🇰🇷",
      "Taiwan": "🇹🇼",
    "Thailand": "🇹🇭",
-         "UK": "TOWRITE!!",
+         "UK": "🇬🇧",
         "USA": "🇺🇸"
 }
 
@@ -111,7 +111,7 @@ Language.L.gui = {
   "home": {
     "cn": "主頁",
     "en": "Home",
-    "es": "TOWRITE",
+    "es": "Home",
     "jp": "ホーム"
   },
   "language": {

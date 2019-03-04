@@ -1,9 +1,9 @@
 [zoo]
 _id: 138
-de.address: TOWRITE
-de.location: TOWRITE
+de.address: Zittauer Str. 43, 02826 Görlitz, Germany
+de.location: Görlitz, Germany
 de.name: Naturshutz-Tierpark Goerlitz
 flag: Germany
 language.order: de
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/xgBoW6RyMht
+website: https://www.tierpark-goerlitz.de/de/
