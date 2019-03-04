@@ -11,9 +11,24 @@ jp.name: ワット
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+litter: 501
 location.1: 48, 2012/6/21
 location.2: 112, 2013/5/7
 location.3: 111, 2017/6/28
-litter: 501
+photo.1: https://www.instagram.com/p/Bas8NhGnyZ-/media/?size=m
+photo.1.author: animal_lifenyc
+photo.1.link: https://www.instagram.com/animal_lifenyc/
+photo.1.tags: bamboo, tail
+photo.2: https://www.instagram.com/p/Baa3Fxqni1z/media/?size=m
+photo.2.author: animal_lifenyc
+photo.2.link: https://www.instagram.com/animal_lifenyc/
+photo.2.tags: mofumofu, tail
+photo.3: https://www.instagram.com/p/BaSTD9mHVvE/media/?size=m
+photo.3.author: animal_lifenyc
+photo.3.link: https://www.instagram.com/animal_lifenyc/
+photo.4: https://www.instagram.com/p/BaUOuWeHATg/media/?size=m
+photo.4.author: animal_lifenyc
+photo.4.link: https://www.instagram.com/animal_lifenyc/
+photo.4.tags: smile
 species: 1
 zoo: 111
