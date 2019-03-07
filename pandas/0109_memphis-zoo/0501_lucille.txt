@@ -5,14 +5,18 @@ birthplace: 48
 children: unknown
 en.name: Lucille
 en.nicknames: none
-en.othernames: none
+en.othernames: Lucy
 gender: f
 jp.name: ルシル
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 location.1: 48, 2012/6/21
-locaiton.2: 109, 2012/9/14
+location.2: 109, 2012/9/14
 litter: 502
+photo.1: https://www.instagram.com/p/Bq05nn1leya/media/?size=m
+photo.1.author: nat.carraher
+photo.1.link: https://www.instagram.com/nat.carraher/
+photo.1.tags: laying down, paws
 species: 1
 zoo: 109

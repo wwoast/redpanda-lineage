@@ -15,5 +15,9 @@ litter: 311
 location.1: 80, 2014/6/30
 location.2: 130, 2015/5/18
 location.3: 129, 2018/1/24
+photo.1: https://www.instagram.com/p/BCQ_LTvykDP/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: white face
 species: 1
 zoo: 129

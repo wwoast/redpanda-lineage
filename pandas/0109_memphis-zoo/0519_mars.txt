@@ -15,5 +15,9 @@ litter: unknown
 location.1: 121, 2013/6/15
 location.2: 123, 2014/11/5
 location.3: 109, 2017/12/20
+photo.1: https://www.instagram.com/p/BqThqxGF78L/media/?size=m
+photo.1.author: nat.carraher
+photo.1.link: https://www.instagram.com/nat.carraher/
+photo.1.tags: bamboo
 species: 1
 zoo: 109
