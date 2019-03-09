@@ -1,0 +1,12 @@
+[zoo]
+_id: 142
+en.address: Blvd. Capitán Carlos Camacho Espíritu Km 16.5, Oasis, 72960 Puebla, Pue., Mexico
+en.location: Puebla, Mexico
+en.name: Africam Safari, Puebla
+es.address: Blvd. Capitán Carlos Camacho Espíritu Km 16.5, Oasis, 72960 Puebla, Pue., Mexico
+es.location: Puebla, Mexico
+es.name: Africam Safari, Puebla
+flag: Mexico
+language.order: es, en
+map: https://goo.gl/maps/UwKu7TQZFUm
+website: http://www.africamsafari.com/
