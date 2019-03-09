@@ -1,0 +1,13 @@
+[zoo]
+_id: 143
+en.address: １３１７−１３ Futo, Itō, Shizuoka Prefecture 413-0231, Japan
+en.location: Itō, Shizuoka Prefecture, Japan
+en.name: Izu Shaboten Zoo
+en.othernames: Izu Cactus Zoo
+flag: Japan
+jp.address: 〒413-0231 静岡県伊東市富戸１３１７−１３
+jp.location: 伊東市 静岡県
+jp.name: 伊豆シャボテン動物公園
+language.order: jp, en
+map: https://goo.gl/maps/iTyrJWJe9HU2
+website: https://izushaboten.com/
