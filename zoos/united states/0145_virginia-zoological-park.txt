@@ -1,0 +1,9 @@
+[zoo]
+_id: 145
+en.address: 3500 Granby St, Norfolk, VA 23504, USA
+en.location: Norfolk, Virginia, USA
+en.name: Virginia Zoological Park
+flag: USA
+language.order: en
+map: https://goo.gl/maps/HyLyK8pxxqs
+website: http://virginiazoo.org/

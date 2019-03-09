@@ -1,0 +1,9 @@
+[zoo]
+_id: 144
+en.address: 2333 Oak St, Manhattan, KS 66502, USA
+en.location: Manhattan, Kansas, USA
+en.name: Sunset Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/Sj3RgvkaU2y
+website: http://www.sunsetzoo.com/

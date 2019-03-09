@@ -1,0 +1,20 @@
+[panda]
+_id: 554
+birthday: 2018/6/29
+birthplace: 105
+children: none
+en.name: Oolong
+en.nicknames: Wu-Ron
+en.othernames: none
+gender: m
+jp.name: ウーロン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/BoMbEeGhcIL/media/?size=m
+photo.1.author: binderparkzoo
+photo.1.link: https://www.instagram.com/binderparkzoo/
+photo.1.tags: baby, profile
+species: 1
+zoo: 105

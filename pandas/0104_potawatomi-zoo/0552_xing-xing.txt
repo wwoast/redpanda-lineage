@@ -1,20 +1,16 @@
 [panda]
-_id: 518
-birthday: 2001/7/9
-birthplace: 118
+_id: 552
+birthday: 2017/6/20
+birthplace: 144
 children: unknown
-death: unknown
-en.name: Ty
+en.name: Xing-Xing
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: タイ
+jp.name: 興興
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
-location.1: 118, 2001/7/9
-location.2: 122, 2002/3/13
-location.3: 104, 2002/11/20
 species: 1
 zoo: 104
