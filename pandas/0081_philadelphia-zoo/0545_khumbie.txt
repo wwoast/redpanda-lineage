@@ -14,5 +14,9 @@ language.order: en, jp
 litter: unknown
 location.1: 141, 2014/6/14
 location.2: 81, 2015/11/23
+photo.1: https://www.instagram.com/p/BusBQMmBIDb/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: profile
 species: 1
 zoo: 81
