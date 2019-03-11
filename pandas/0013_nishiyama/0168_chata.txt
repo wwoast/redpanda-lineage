@@ -1,12 +1,12 @@
 [panda]
 _id: 168
-birthday: unknown
+birthday: 2002/6/25
 birthplace: 13
 children: 26, 109, 124, 79, 114
 death: 2014/12/18
 en.name: Chata
 en.nicknames: none
-en.othernames: none
+en.othernames: Cyata
 gender: m
 jp.name: チャタ
 jp.nicknames: none
