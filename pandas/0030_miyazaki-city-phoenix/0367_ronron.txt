@@ -1,17 +1,17 @@
 [panda]
 _id: 367
-birthday: unknown
-birthplace: unknown
+birthday: 1995/6/15
+birthplace: 30
 children: 68, 252
-death: unknown
-en.name: Long-Long
+death: 2007/12/17
+en.name: Ron-Ron
 en.nicknames: unknown
-en.othernames: unknown
+en.othernames: Long-Long
 gender: m
 jp.name: 龍龍
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: none
 species: 2
 zoo: 30

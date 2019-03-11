@@ -2,8 +2,8 @@
 _id: 335
 birthday: 1996/7/15
 birthplace: 30
-children: unknown
-death: unknown
+children: 561
+death: 2013/7/11
 en.name: Yuu-Yuu
 en.nicknames: none
 en.othernames: none
@@ -12,6 +12,6 @@ jp.name: ゆうゆう
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: none
 species: 2
 zoo: 52
