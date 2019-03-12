@@ -1,0 +1,18 @@
+[panda]
+_id: 576
+birthday: 2017/6/20
+birthplace: 105
+children: none
+en.name: Bo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ボー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 105, 2017/6/20
+location.2: 145, 2018/5/9
+species: 1
+zoo: 145

@@ -1,0 +1,19 @@
+[panda]
+_id: 578
+birthday: 2015/6/14
+birthplace: 114
+children: none
+death: 2018/1/24
+en.name: Sunny
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サニー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 114, 2015/6/14
+location.2: 145, 2016/4/5
+species: 1
+zoo: 145

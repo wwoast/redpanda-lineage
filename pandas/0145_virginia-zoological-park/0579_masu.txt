@@ -1,0 +1,18 @@
+[panda]
+_id: 579
+birthday: 2016/6/6
+birthplace: 131
+children: none
+en.name: Masu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ます
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 131, 2016/6/6
+location.2: 145, 2017/4/19
+species: 1
+zoo: 145
