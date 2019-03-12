@@ -1,0 +1,9 @@
+[zoo]
+_id: 148
+en.address: 425 Hawthorn St, New Bedford, MA 02740
+en.location: New Bedford, Massachusetts, USA
+en.name: Buttonwood Park Zoo
+flag: USA
+language.order: en
+map: https://goo.gl/maps/wYU9QHq3FvS2
+website: https://www.bpzoo.org/

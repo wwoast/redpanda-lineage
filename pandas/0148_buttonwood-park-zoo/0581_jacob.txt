@@ -1,0 +1,18 @@
+[panda]
+_id: 581
+birthday: 2017/6/20
+birthplace: 107
+children: none
+en.name: Jacob
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヤコブ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 107, 2017/6/20
+location.2: 148, 2018/5/23
+species: 1
+zoo: 148
