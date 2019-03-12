@@ -15,5 +15,24 @@ litter: unknown
 location.1: 124, 2011/7/3
 location.2: 101, 2012/5/23
 location.3: 113, 2014/11/14
+photo.1: https://www.instagram.com/p/BmhMJnHgkE1/media/?size=m
+photo.1.author: potterparkzoo
+photo.1.link: https://www.instagram.com/potterparkzoo/
+photo.2: https://www.instagram.com/p/BlLZ07yhAmf/media/?size=m
+photo.2.author: potterparkzoo
+photo.2.link: https://www.instagram.com/potterparkzoo/
+photo.2.tags: bamboo
+photo.3: https://www.instagram.com/p/Bkup9f0hUfj/media/?size=m
+photo.3.author: potterparkzoo
+photo.3.link: https://www.instagram.com/potterparkzoo/
+photo.3.tags: climb, profile
+photo.4: https://www.instagram.com/p/Bg3jYKLnrcn/media/?size=m
+photo.4.author: potterparkzoo
+photo.4.link: https://www.instagram.com/potterparkzoo/
+photo.4.tags: snow
+photo.5: https://www.instagram.com/p/Bf88z3UHJO6/media/?size=m
+photo.5.author: potterparkzoo
+photo.5.link: https://www.instagram.com/potterparkzoo/
+photo.5.tags: snow
 species: 1
 zoo: 113

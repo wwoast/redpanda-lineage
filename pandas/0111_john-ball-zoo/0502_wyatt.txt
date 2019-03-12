@@ -2,7 +2,7 @@
 _id: 502
 birthday: 2012/6/21
 birthplace: 48
-children: unknown
+children: 573, 574
 en.name: Wyatt
 en.nicknames: none
 en.othernames: none
@@ -34,5 +34,36 @@ photo.5: https://www.instagram.com/p/BuyrW7ugkN-/media/?size=m
 photo.5.author: johnballzoogr
 photo.5.link: https://www.instagram.com/johnballzoogr/
 photo.5.tags: smile
+photo.6: https://www.instagram.com/p/Btq7R9wgg8S/media/?size=m
+photo.6.author: johnballzoogr
+photo.6.link: https://www.instagram.com/johnballzoogr/
+photo.7: https://www.instagram.com/p/Br5M_3Eg3HN/media/?size=m
+photo.7.author: johnballzoogr
+photo.7.link: https://www.instagram.com/johnballzoogr/
+photo.7.tags: paws, techitechi
+photo.8: https://www.instagram.com/p/BrNc3C-gjWP/media/?size=m
+photo.8.author: johnballzoogr
+photo.8.link: https://www.instagram.com/johnballzoogr/
+photo.8.tags: laying down, snow
+photo.9: https://www.instagram.com/p/BqfoWqUgmV1/media/?size=m
+photo.9.author: johnballzoogr
+photo.9.link: https://www.instagram.com/johnballzoogr/
+photo.9.tags: dish, lunch time, smile
+photo.10: https://www.instagram.com/p/Bp12VuSgcCf/media/?size=m
+photo.10.author: johnballzoogr
+photo.10.link: https://www.instagram.com/johnballzoogr/
+photo.10.tags: paws, smile
+photo.11: https://www.instagram.com/p/BpKIhURFFr_/media/?size=m
+photo.11.author: johnballzoogr
+photo.11.link: https://www.instagram.com/johnballzoogr/
+photo.11.tags: sleeping, tail
+photo.12: https://www.instagram.com/p/BoenS_PAvPU/media/?size=m
+photo.12.author: johnballzoogr
+photo.12.link: https://www.instagram.com/johnballzoogr/
+photo.12.tags: tongue
+photo.13: https://www.instagram.com/p/Bnv2c2aDGrd/media/?size=m
+photo.13.author: johnballzoogr
+photo.13.link: https://www.instagram.com/johnballzoogr/
+photo.13.tags: tail
 species: 1
 zoo: 111

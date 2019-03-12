@@ -15,5 +15,21 @@ litter: 523
 location.1: 80, 2012/7/11
 location.2: 48, 2013/4/16
 location.3: 110, 2015/11/9
+photo.1: https://www.instagram.com/p/Bud_mPylVGm/media/?size=m
+photo.1.author: brightszoo
+photo.1.link: https://www.instagram.com/brightszoo/
+photo.1.tags: white face
+photo.2: https://www.instagram.com/p/BoJnN9nljoh/media/?size=m
+photo.2.author: brightszoo
+photo.2.link: https://www.instagram.com/brightszoo/
+photo.2.tags: apple time, pumpkin, smile, white face
+photo.3: https://www.instagram.com/p/BNnfhjqh0Ao/media/?size=m
+photo.3.author: brightszoo
+photo.3.link: https://www.instagram.com/brightszoo/
+photo.3.tags: profile
+photo.4: https://www.instagram.com/p/-y1f9TkY7V/media/?size=m
+photo.4.author: brightszoo
+photo.4.link: https://www.instagram.com/brightszoo/
+photo.4.tags: smile, white face
 species: 1
 zoo: 110

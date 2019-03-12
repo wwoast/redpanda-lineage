@@ -18,6 +18,7 @@ location.1: 76, 2010/6/14
 location.2: 43, 2011/6/21
 location.3: 84, 2011/7/25
 location.4: 65, 2016/5/26
+location.5: 112, 2019/1/1
 photo.1: https://www.instagram.com/p/BEgYkUXFXA6/media/?size=m
 photo.1.author: prospectparkzoo
 photo.1.link: https://www.instagram.com/prospectparkzoo/
@@ -34,5 +35,8 @@ photo.4: https://www.instagram.com/p/BEObmPctG3V/media/?size=m
 photo.4.author: mariten1119
 photo.4.link: https://www.instagram.com/mariten1119/
 photo.4.tags: laying down
+photo.5: https://www.instagram.com/p/BucY2_FHyec/media/?size=m
+photo.5.author: chattanoogazoo
+photo.5.link: https://www.instagram.com/chattanoogazoo/
 species: 2
-zoo: 65
+zoo: 112

@@ -1,0 +1,17 @@
+[panda]
+_id: 574
+birthday: 2016/7/11
+birthplace: 112
+children: none
+death: 2017/9/25
+en.name: Anndi
+en.nicknames: none
+en.othernames: Andi
+gender: m
+jp.name: アンディ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 573
+species: 1
+zoo: 112

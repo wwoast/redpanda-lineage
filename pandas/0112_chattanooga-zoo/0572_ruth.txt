@@ -1,0 +1,21 @@
+[panda]
+_id: 572
+birthday: 2004/7/18
+birthplace: 108
+children: unknown
+death: 2018/2/28
+en.name: Ruth
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ルース
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 108, 2004/7/18
+location.2: 107, 2005/12/12
+location.3: 119, 2011/12/16
+location.4: 112, 2016/6/8
+species: 1
+zoo: 112
