@@ -692,6 +692,16 @@ ul.pandaList.jp > li > a > span.ultraCondensed {
     font-size: 12pt;
 }
 
+ul.pandaList > li > a > span.condensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 13pt;
+}
+
+ul.pandaList > li > a > span.ultraCondensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 12pt;
+}
+
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
     padding-bottom: 0.25ex;
 }
