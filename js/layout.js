@@ -143,7 +143,8 @@ Layout.shrinkNames = function() {
     } else if (link.offsetWidth > 120) {
       span.classList.add("condensed");
     }
-    // Fix the spacing for strings that have mixed character sets
+    // Fix the spacing for strings that have mixed character sets.
+    // Fixes long mixed-range strings like "Erin Curry博士"
     var latin = Pandas.def.ranges['en'].some(function(range) {
       return range.test(span.innerText);
     });
