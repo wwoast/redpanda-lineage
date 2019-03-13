@@ -123,17 +123,17 @@ Pandas.def.languages = {
 // Character ranges
 Pandas.def.ranges = {
   "en": [
-    /^[\u0020-\u007f]/,   // Basic Latin
-    /^[\u00a0-\u00ff]/,   // Latin-1 Supplement
-    /^[\u0100-\u017f]/,   // Latin Supplement A,
-    /^[\u0180-\u024f]/    // Latin Supplement B
+    /[\u0020-\u007f]/,   // Basic Latin
+    /[\u00a0-\u00ff]/,   // Latin-1 Supplement
+    /[\u0100-\u017f]/,   // Latin Supplement A,
+    /[\u0180-\u024f]/    // Latin Supplement B
   ],
   "jp": [
-    /^[\u3000-\u303f]/,   // Japanese punctuation
-    /^[\u3040-\u309f]/,   // Japanese hiragana
-    /^[\u30a0-\u30ff]/,   // Japanese katakana,
-    /^[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
-    /^[\u4e00-\u9faf]/    // CJK unified Kanji set
+    /[\u3000-\u303f]/,   // Japanese punctuation
+    /[\u3040-\u309f]/,   // Japanese hiragana
+    /[\u30a0-\u30ff]/,   // Japanese katakana,
+    /[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
+    /[\u4e00-\u9faf]/    // CJK unified Kanji set
   ]
 }
 

@@ -143,6 +143,16 @@ Layout.shrinkNames = function() {
     } else if (link.offsetWidth > 120) {
       span.classList.add("condensed");
     }
+    // Fix the spacing for strings that have mixed character sets
+    var latin = Pandas.def.ranges['en'].some(function(range) {
+      return range.test(span.innerText);
+    });
+    var cjk = Pandas.def.ranges['jp'].some(function(range) {
+      return range.test(span.innerText);
+    });
+    if (latin && cjk) {
+      span.classList.add("adjusted");
+    }
   }
 }
 
