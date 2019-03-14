@@ -111,15 +111,6 @@ Pandas.def.no_name = {
   "jp": "未詳"
 }
 
-// Used for missing photos in tag searches
-Pandas.def.photo = {
-  "id": Pandas.def.animal["_id"],
-  "photo": Pandas.def.animal["photo.1"],
-  "photo.author": Pandas.def.unknown[language],
-  "photo.link": Pandas.def.unknown[language],
-  "photo.tags": Pandas.def.unknown[language]
-}
-
 // Used for determining what languages are selectable. Don't add new languages
 // to this set until we're ready with panda data in that language. We look for
 // ISO-639-1 codes in the navigator.languages value, and map it to a language
@@ -500,8 +491,13 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
   // Make sure the empty bundle still tracks the valid panda id.
   if (output.length == 0) {
     if (mode != "animal") {
-      var empty_bundle = Pandas.def.photo;
-      empty_bundle["id"] = animal["_id"];
+      var empty_bundle = {
+        "id": animal["_id"],
+        "photo": Pandas.def.animal["photo.1"],
+        "photo.author": Pandas.def.unknown[language],
+        "photo.link": Pandas.def.unknown[language],
+        "photo.tags": Pandas.def.unknown[language]
+      }
       output.push(empty_bundle);
     }
   }
@@ -601,7 +597,7 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
   for (let animal of animal_list) {
     var set = Pandas.searchPandaPhotoTags(animal, tags, mode);
     if (fallback == "first") {
-      if ((set.length == 1) && (set[0].author == Pandas.def.photo["photo.author"])) {
+      if ((set.length == 1) && (set[0].author == Pandas.def.unknown[L.display])) {
         set = [Pandas.profilePhoto(animal, "1")];
       }
     }
