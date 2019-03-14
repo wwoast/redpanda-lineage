@@ -597,7 +597,7 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
   for (let animal of animal_list) {
     var set = Pandas.searchPandaPhotoTags(animal, tags, mode);
     if (fallback == "first") {
-      if ((set.length == 1) && (set[0].author == Pandas.def.unknown[L.display])) {
+      if ((set.length == 1) && (set[0]["photo.author"] == Pandas.def.unknown[L.display])) {
         set = [Pandas.profilePhoto(animal, "1")];
       }
     }
