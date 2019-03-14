@@ -487,7 +487,8 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       }  
     }
   }
-  // If no photos exist, we need default information to feed the photo generators
+  // If no photos exist, we need default information to feed the photo generators.
+  // Make sure the empty bundle still tracks the valid panda id.
   if (output.length == 0) {
     if (mode != "animal") {
       var empty_bundle = {
@@ -556,7 +557,7 @@ Pandas.searchPhotoCredit = function(author) {
 
 // Find profile photos for all animals listed
 Pandas.searchPhotoProfile = function(animal_list) {
-  return Pandas.searchPhotoTags(animal_list, ["profile"], mode="singleton");
+  return Pandas.searchPhotoTags(animal_list, ["profile"], mode="singleton", fallback="first");
 }
 
 // Find profile photos for an animal's children
@@ -587,11 +588,20 @@ Pandas.searchPhotoProfileSiblings = function(idnum) {
 // Useful modes here include:
 //   "photos" (just return photos) and 
 //   "singleton" (for only one photo of each tag)
-Pandas.searchPhotoTags = function(animal_list, tags, mode) {
+// Fallback strategies include:
+//   "none": return a null photo entry
+//   "first": if no tag available, choose the first photo in the set
+Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
   // Iterate per animal
   var output = [];
   for (let animal of animal_list) {
-    output = output.concat(Pandas.searchPandaPhotoTags(animal, tags, mode));
+    var set = Pandas.searchPandaPhotoTags(animal, tags, mode);
+    if (fallback == "first") {
+      if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
+        set = [Pandas.profilePhoto(animal, "1")];
+      }
+    }
+    output = output.concat(set);
   }
   return output;
 }
@@ -912,7 +922,7 @@ Pandas.photoManifest = function(animal) {
 
 // Given an animal, choose a single photo to display as its profile photo.
 Pandas.profilePhoto = function(animal, index) {
-  // Find the available photo indexes between one and ten
+  // Find the available photo indexes
   var photos = Pandas.photoManifest(animal);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
