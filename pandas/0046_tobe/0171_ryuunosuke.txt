@@ -3,6 +3,7 @@ _id: 171
 birthday: 1999/7/27
 birthplace: 17
 children: 208, 135, 477, 331
+death: 2019/3/12
 en.name: Ryuunosuke
 en.nicknames: none
 en.othernames: none
@@ -30,5 +31,13 @@ photo.4: https://www.instagram.com/p/Bn4qXNdlXoT/media/?size=m
 photo.4.author: kipekaila
 photo.4.link: https://www.instagram.com/kipekaila/
 photo.4.tags: ear, eye, old
+photo.5: https://www.instagram.com/p/BvAzvGllYha/media/?size=m
+photo.5.author: yuka0714_0307
+photo.5.link: https://www.instagram.com/yuka0714_0307/
+photo.5.tags: eye, old
+photo.6: https://www.instagram.com/p/BvBKGYQhoP9/media/?size=m
+photo.6.author: totolove0724
+photo.6.link: https://www.instagram.com/totolove0724/
+photo.6.tags: eye, old
 species: 2
 zoo: 46
