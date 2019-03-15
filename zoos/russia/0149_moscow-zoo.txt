@@ -1,0 +1,12 @@
+[zoo]
+_id: 149
+en.address: Bolshaya Gruzinskaya Street, 1, Moskva, Russia, 123242
+en.location: Moscow, Russia
+en.name: Moscow Zoo
+flag: Russia
+language.order: ru, en
+map: https://goo.gl/maps/KR9xSj6sJfu
+ru.address: Б. Грузинская ул., 1, Москва, 123242
+ru.location: Москва
+ru.name: Московский зоопарк
+website: https://moscowzoo.ru

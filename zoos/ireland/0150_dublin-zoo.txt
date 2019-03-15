@@ -1,0 +1,9 @@
+[zoo]
+_id: 150
+en.address: Phoenix Park, Dublin 8, Ireland
+en.location: Dublin, Ireland
+en.name: Dublin Zoo
+flag: Ireland
+language.order: en
+map: https://goo.gl/maps/GVkUXsqUBVw
+website: https://www.dublinzoo.ie/
