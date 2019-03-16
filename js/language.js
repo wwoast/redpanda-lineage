@@ -122,28 +122,40 @@ Language.L.gui = {
       "en": "英語",
       "es": "西班牙語",
       "jp": "日語",
-      "kr": "朝鮮語"
+      "kr": "朝鮮語",
+      "ru": "俄語"
     },
     "en": {
       "cn": "Chinese",
       "en": "English",
       "es": "Spanish",
       "jp": "Japanese",
-      "kr": "Korean"
+      "kr": "Korean",
+      "ru": "Russian"
     },
     "es": {
       "cn": "Chino",
       "en": "Ingles",
       "es": "Español",
       "jp": "Japonés",
-      "kr": "Coreano"
+      "kr": "Coreano",
+      "ru": "Ruso"
     },
     "jp": {
       "cn": "中国語",
       "en": "英語",
       "es": "スペイン語",
       "jp": "日本語",
-      "kr": "韓国語"
+      "kr": "韓国語",
+      "ru": "ロシア語"
+    },
+    "ru": {
+      "cn": "китайский",
+      "en": "английский",
+      "es": "испанский",
+      "jp": "японский",
+      "kr": "корейский",
+      "ru": "русский"
     }
   },
   "loading": {
