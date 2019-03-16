@@ -74,6 +74,7 @@ Language.L.flags = {
       "Japan": "🇯🇵",
      "Mexico": "🇲🇽",
       "Nepal": "🇳🇵",
+     "Poland": "🇵🇱",
      "Russia": "🇷🇺",
 "South Korea": "🇰🇷",
      "Taiwan": "🇹🇼",
