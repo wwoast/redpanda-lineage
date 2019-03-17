@@ -14,5 +14,21 @@ language.order: en, jp
 litter: unknown
 location.1: 114, 2014/6/17
 location.2: 80, 2015/3/30
+photo.1: https://www.instagram.com/p/BPacUOgh1CJ/media/?size=m
+photo.1.author: lincolnchildrenszoo
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1.tags: bamboo, profile, smile
+photo.2: https://www.instagram.com/p/BrN8IKChOIW/media/?size=m
+photo.2.author: lincolnchildrenszoo
+photo.2.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.2.tags: bamboo
+photo.3: https://www.instagram.com/p/Bpr-9SYFmbU/media/?size=m
+photo.3.author: lincolnchildrenszoo
+photo.3.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.3.tags: laying down, tongue
+photo.4: https://www.instagram.com/p/BqxnY5FjgmD/media/?size=m
+photo.4.author: lincolnchildrenszoo
+photo.4.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.4.tags: bamboo, smile
 species: 1
 zoo: 80

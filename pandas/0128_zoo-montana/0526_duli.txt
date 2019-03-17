@@ -15,5 +15,12 @@ litter: unknown
 location.1: 120, 2011/7/5
 location.2: 80, 2012/5/22
 location.3: 128, 2014/11/28
+photo.1: https://www.instagram.com/p/q5XlSASkC7/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile, smile
+photo.2: https://www.instagram.com/p/1TMPTDJYfa/media/?size=m
+photo.2.author: zoomontana
+photo.2.link: https://www.instagram.com/zoomontana/
 species: 1
 zoo: 128

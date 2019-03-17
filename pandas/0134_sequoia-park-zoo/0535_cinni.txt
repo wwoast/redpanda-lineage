@@ -5,12 +5,28 @@ birthplace: 134
 children: none
 en.name: Cinni
 en.nicknames: none
-en.othernames: none
+en.othernames: Cini
 gender: f
 jp.name: チニ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 536
+photo.1: https://www.instagram.com/p/BAyXeobyf5u/media/?size=m
+photo.1.author: sketchpoet
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.1.tags: white face
+photo.2: https://www.instagram.com/p/BBcF3UMyf_C/media/?size=m
+photo.2.author: sketchpoet
+photo.2.link: https://www.instagram.com/sketchpoet/
+photo.2.tags: bamboo, white face
+photo.3: https://www.instagram.com/p/BPJ9mbTDQLA/media/?size=m
+photo.3.author: sketchpoet
+photo.3.link: https://www.instagram.com/sketchpoet/
+photo.3.tags: white face
+photo.4: https://www.instagram.com/p/BPKDmUfD23f/media/?size=m
+photo.4.author: sketchpoet
+photo.4.link: https://www.instagram.com/sketchpoet/
+photo.4.tags: profile, white face
 species: 1
 zoo: 134
