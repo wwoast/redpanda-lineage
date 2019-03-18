@@ -1,0 +1,68 @@
+[panda]
+_id: 255
+birthday: 2018/6/28
+birthplace: 19
+children: none
+en.name: Kabosu
+en.nicknames: none
+en.oldnames: Komikan
+en.othernames: none
+gender: m
+jp.name: 臭橙
+jp.nicknames: none
+jp.oldnames: こみかん
+jp.othernames: かぼす
+language.order: jp, en
+litter: none
+photo.1: https://www.instagram.com/p/BogDVgwlBm0/media/?size=m
+photo.1.author: yossi929
+photo.1.link: https://www.instagram.com/yossi929/
+photo.1.tags: baby, bamboo
+photo.2: https://www.instagram.com/p/Bo3j1uPFK6G/media/?size=m
+photo.2.author: monmon_redpanda
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: baby, paws, tongue, upside-down
+photo.3: https://www.instagram.com/p/Bo3i9iMFwe1/media/?size=m
+photo.3.author: monmon_redpanda
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: baby
+photo.4: https://www.instagram.com/p/Bo55imQlbwO/media/?size=m
+photo.4.author: monmon_redpanda
+photo.4.link: https://www.instagram.com/monmon_redpanda/
+photo.4.tags: baby, bamboo
+photo.5: https://www.instagram.com/p/BrZeK_UlKx2/media/?size=m
+photo.5.author: ifumoto88
+photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: tree
+photo.6: https://www.instagram.com/p/BraWPqul1_q/media/?size=m
+photo.6.author: ifumoto88
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.7: https://www.instagram.com/p/BraW2xKFbMH/media/?size=m
+photo.7.author: ifumoto88
+photo.7.link: https://www.instagram.com/ifumoto88/
+photo.7.tags: keeper
+photo.8: https://www.instagram.com/p/BrhugX_lzl4/media/?size=m
+photo.8.author: panda.daisuki
+photo.8.link: https://www.instagram.com/panda.daisuki/
+photo.8.tags: tree
+photo.9: https://www.instagram.com/p/BrnSX4rlXGW/media/?size=m
+photo.9.author: yossi929
+photo.9.link: https://www.instagram.com/yossi929/
+photo.9.tags: bamboo, profile
+photo.10: https://www.instagram.com/p/Brr3SdXF-Uz/media/?size=m
+photo.10.author: panda.daisuki
+photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.11: https://www.instagram.com/p/Bp4lsKbgc79/media/?size=m
+photo.11.author: tk_ani_photo
+photo.11.link: https://www.instagram.com/tk_ani_photo/
+photo.11.tags: baby
+photo.12: https://www.instagram.com/p/BtPJnTilmEd/media/?size=m
+photo.12.author: miis_98
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: paws
+photo.13: https://www.instagram.com/p/BvJedJsF_yL/media/?size=m
+photo.13.author: yossi929
+photo.13.link: https://www.instagram.com/yossi929/
+photo.13.tags: tree, upside-down
+species: 2
+zoo: 19
