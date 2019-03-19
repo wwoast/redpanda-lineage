@@ -2,7 +2,7 @@
 _id: 409
 birthday: 2013/6/18
 birthplace: 89
-children: unknown
+children: none
 death: 2016/1/20
 en.name: Zhin-Li
 en.nicknames: none
@@ -12,7 +12,7 @@ jp.name: ジンリ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 89, 2013/6/18
 location.2: 44, 2014/11/12
 photo.1: http://www.codaworry.com/images/rpf/zhin-li-binghamton.jpg

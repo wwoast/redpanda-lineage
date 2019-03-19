@@ -1,0 +1,19 @@
+[panda]
+_id: 597
+birthday: 2007/7/1
+birthplace: 15
+children: 154
+death: 2011/11/16
+en.name: Shun-Shun
+en.nicknames: none
+en.othernames: Shunshun, Chun-Chun, Chunchun
+gender: m
+jp.name: シュンシュン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 15, 2007/7/1
+location.2: 20, 2009/3/13
+species: 2
+zoo: 20
