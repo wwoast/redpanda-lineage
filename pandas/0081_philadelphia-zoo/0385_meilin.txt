@@ -2,14 +2,14 @@
 _id: 385
 birthday: 2002/6/26
 birthplace: 83
-children: unknown
+children: none
 death: 2017/4/5
 en.name: Mei-Lin
 en.nicknames: none
 en.othernames: Meilin, Mei Lin
 gender: f
 jp.name: メイリン
-jp.nicknames: unknown
+jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 407

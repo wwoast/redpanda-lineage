@@ -1,0 +1,18 @@
+[panda]
+_id: 621
+birthday: 2013/6/20
+birthplace: 145
+children: 619, 620
+en.name: Charlie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 622
+location.1: 145, 2013/6/20
+location.2: 126, 2014/9/11
+species: 1
+zoo: 126

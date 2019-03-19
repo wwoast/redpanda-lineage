@@ -1,17 +1,17 @@
 [panda]
-_id: 611
-birthday: 2000/7/6
-birthplace: 59
+_id: 615
+birthday: 2001/6/19
+birthplace: 31
 children: none
-death: 2017/1/1
-en.name: Momiji
+death: 2015/7/22
+en.name: Tan-Tan
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: m
 jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 490
-species: 1
-zoo: 59
+litter: 349
+species: 2
+zoo: 31

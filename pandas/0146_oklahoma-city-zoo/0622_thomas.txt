@@ -1,0 +1,18 @@
+[panda]
+_id: 622
+birthday: 2013/6/20
+birthplace: 145
+children: unknown
+en.name: Thomas
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 621
+location.1: 145, 2013/6/20
+location.2: 146, 2017/12/12
+species: 1
+zoo: 146

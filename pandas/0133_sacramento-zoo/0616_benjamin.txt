@@ -1,0 +1,18 @@
+[panda]
+_id: 616
+birthday: 2015/6/25
+birthplace: 81
+children: none
+en.name: Benjamin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 342
+location.1: 81, 2015/6/25
+location.2: 133, 2017/10/26
+species: 1
+zoo: 133

@@ -1,0 +1,18 @@
+[panda]
+_id: 614
+birthday: 2017/6/25
+birthplace: 65
+children: none
+en.name: Micu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2017/6/25
+location.2: 83, 2018/5/10
+species: 2
+zoo: 83

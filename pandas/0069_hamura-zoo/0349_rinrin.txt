@@ -2,7 +2,7 @@
 _id: 349
 birthday: 2001/6/19
 birthplace: 31
-children: unknown
+children: none
 en.name: Rin-Rin
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: 玲玲
 jp.nicknames: none
 jp.othernames: リンリン
 language.order: jp, en
-litter: unknown
+litter: 615
 location.1: 31, 2001/6/19
 location.2: 69, 2005/2/23
 photo.1: https://www.instagram.com/p/BdjDGpgDoGO/media/?size=m

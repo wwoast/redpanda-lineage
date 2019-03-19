@@ -1,9 +1,9 @@
 [panda]
 _id: 472
-birthday: unknown
-birthplace: unknown
+birthday: 1997/6/20
+birthplace: 17
 children: 337, 218, 90, 280
-death: unknown
+death: 2005/3/31
 en.name: You-You
 en.nicknames: none
 en.othernames: Youyou
@@ -12,6 +12,8 @@ jp.name: 葉葉
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
+litter: 50, 549
+location.1: 17, 1997/6/20
+location.2: 60, 1998/12/4
 species: 2
 zoo: 60
