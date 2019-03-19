@@ -2,7 +2,7 @@
 _id: 516
 birthday: 2013/6/6
 birthplace: 104
-children: unknown
+children: 517, 606
 en.name: Linus
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: ライナス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 104, 2013/6/6
 location.2: 48, 2014/4/10
 species: 1

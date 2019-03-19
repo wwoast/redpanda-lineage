@@ -1,17 +1,17 @@
 [panda]
-_id: 500
-birthday: 2011/6/20
+_id: 606
+birthday: 2016/6/24
 birthplace: 48
-children: 584, 517, 606
-death: 2016/12/25
-en.name: Bamboozle
+children: none
+death: 2017/11/14
+en.name: Cheyenne
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: たけのこ
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: none
+litter: 517
 species: 1
 zoo: 48

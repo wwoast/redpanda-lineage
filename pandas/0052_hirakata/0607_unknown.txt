@@ -1,17 +1,17 @@
 [panda]
-_id: 334
+_id: 607
 birthday: 2000/6/30
 birthplace: 52
 children: none
-death: 2016/11/10
-en.name: Booby
+death: 2001/5/31
+en.name: unknown
 en.nicknames: none
-en.othernames: Bubi, Bu-Bi-
+en.othernames: none
 gender: f
-jp.name: ブービー
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 607
+litter: 334
 species: 2
 zoo: 52

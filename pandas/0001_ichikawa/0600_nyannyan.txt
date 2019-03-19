@@ -1,0 +1,19 @@
+[panda]
+_id: 600
+birthday: 2001/7/9
+birthplace: 37
+children: none
+death: 2013/8/20
+en.name: Nyan-Nyan
+en.nicknames: none
+en.othernames: Nyannyan
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 37, 2001/7/9
+location.2: 1, 2012/11/28
+species: 2
+zoo: 1
