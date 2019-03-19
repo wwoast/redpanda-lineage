@@ -2,7 +2,7 @@
 _id: 123
 birthday: 2007/9/6
 birthplace: 18
-children: unknown
+children: none
 en.name: Kokoro
 en.nicknames: none
 en.othernames: none
@@ -11,6 +11,7 @@ jp.name: ココロ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: none
 photo.1: https://www.instagram.com/p/Bh1X6HeF7Kd/media/?size=m
 photo.1.author: mifko55
 photo.1.link: https://www.instagram.com/mifko55/

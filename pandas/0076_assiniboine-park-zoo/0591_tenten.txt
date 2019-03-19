@@ -1,0 +1,21 @@
+[panda]
+_id: 591
+birthday: 1997/7/3
+birthplace: 22
+children: none
+death: 2008/4/22
+en.name: Ten-Ten
+en.nicknames: none
+en.othernames: Tenten, Ten-ten
+gender: m
+jp.name: 天天
+jp.nicknames: none
+jp.othernames: テンテン
+language.order: en, jp
+litter: none
+location.1: 22, 1997/7/3
+location.2: 38, 1999/4/3
+location.3: 12, 1999/11/11
+location.4: 76, 2002/3/26
+species: 2
+zoo: 76

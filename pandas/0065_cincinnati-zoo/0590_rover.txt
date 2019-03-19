@@ -1,19 +1,20 @@
 [panda]
-_id: 473
+_id: 590
 birthday: 2005/5/16
 birthplace: 76
-children: 413, 414, 415
-en.name: Rusty
+children: 145, 392
+death: 2015/11/23
+en.name: Rover
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ラスティ
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 590
+litter: 473
 location.1: 76, 2005/5/16
-location.2: 83, 2006/10/31
-location.3: 97, 2014/12/11
+location.2: 43, 2006/10/31
+location.3: 65, 2011/10/31
 species: 2
-zoo: 97
+zoo: 65

@@ -5,8 +5,8 @@ birthplace: 12
 children: 68, 252
 death: 2016/3/8
 en.name: Franz
-en.nicknames: unknown
-en.othernames: unknown
+en.nicknames: none
+en.othernames: none
 gender: f
 jp.name: フランツ
 jp.nicknames: none

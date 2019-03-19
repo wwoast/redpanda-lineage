@@ -3,6 +3,7 @@ _id: 381
 birthday: 2008/6/1
 birthplace: 65
 children: 145, 390, 391
+death: 2019/1/1
 en.name: Bailey
 en.nicknames: none
 en.othernames: Beilei
@@ -11,7 +12,10 @@ jp.name: ベイリー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
+location.1: 65, 2008/6/1
+location.2: 87, 2009/4/20
+location.3: 65, 2011/11/7
 photo.1: https://www.instagram.com/p/BZMl9Z6BLJH/media/?size=m
 photo.1.author: charlesboisnyc
 photo.1.link: https://www.instagram.com/charleboisnyc/
