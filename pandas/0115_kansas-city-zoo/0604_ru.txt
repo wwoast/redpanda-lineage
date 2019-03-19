@@ -1,0 +1,17 @@
+[panda]
+_id: 604
+birthday: 2013/6/26
+birthplace: 115
+children: none
+death: 2014/1/12
+en.name: Ru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 1
+zoo: 115
