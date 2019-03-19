@@ -114,7 +114,7 @@ class RedPandaGraph:
         dt_one = datetime.datetime(int(year_one), int(month_one), int(day_one))
         dt_two = datetime.datetime(int(year_two), int(month_two), int(day_two))
         diff = dt_one - dt_two
-        if abs(diff.days) > 1:
+        if abs(diff.days) > 2:
             return False
         else:
             return True 

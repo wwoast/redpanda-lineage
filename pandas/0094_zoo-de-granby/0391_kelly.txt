@@ -2,7 +2,7 @@
 _id: 391
 birthday: 2015/6/12
 birthplace: 65
-children: unknown
+children: none
 en.name: Kelly
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: ケリー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 65, 2015/6/12
 location.2: 94, 2016/5/12
 species: 2
