@@ -237,6 +237,20 @@ Pandas.def.unknown = {
   "jp": "未詳"
 }
 
+// Slightly different default zoo listing, to account for wild-born animals
+Pandas.def.wild = {
+  "_id": "0",
+  "en.address": "Captured or Rescued Wild Animal",
+  "en.location": "No City, District, or State Info Listed",
+  "en.name": "Zoo Not Found",
+  "jp.address": "TOWRITE",
+  "jp.location": "市区町村の情報が表示されていない",
+  "jp.name": "動物園が見つかりません",
+  "photo": "images/no-zoo.jpg",
+  "video": "images/no-zoo.jpg",
+  "website": "https://www.worldwildlife.org/"
+}
+
 Pandas.def.zoo = {
   "_id": "0",
   "en.address": "No Google Maps Address Recorded",
@@ -617,6 +631,10 @@ Pandas.searchSiblings = function(idnum) {
 // Zoos are stored with negative numbers, but are tracked in the database by
 // their positive ID numbers. So convert the ID before searching
 Pandas.searchZooId = function(idnum) {
+  // Wild animals or other situations may have id == 0
+  if (parseInt(idnum) == 0) {
+    return [Pandas.def.wild];
+  }
   if (parseInt(idnum) > 0) {
     idnum = parseInt(idnum * -1).toString();
   }
@@ -832,6 +850,11 @@ Pandas.locationList = function(animal) {
       }
     }
     var [zoo_index, start_date]= animal[location_field].split(",").map(x => x.trim());
+    // If there was a wild animal, fill in defaults for the dates
+    if (zoo_index == 0) {
+      start_date = Pandas.def.animal["birthday"];
+      end_date = Pandas.def.animal["birthday"];
+    }
     var location = {
           "zoo": zoo_index,
    "start_date": start_date,
