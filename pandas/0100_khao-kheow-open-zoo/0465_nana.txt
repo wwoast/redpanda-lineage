@@ -2,7 +2,7 @@
 _id: 465
 birthday: 2012/7/7
 birthplace: 31
-children: unknown
+children: none
 en.name: Nana
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: ナナ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: none
+litter: 586
 location.1: 31, 2012/7/7
 location.2: 100, 2014/11/28
 photo.1: https://www.instagram.com/p/BVqjQzMBOUv/media/?size=m
