@@ -1,0 +1,19 @@
+[panda]
+_id: 626
+birthday: 2013/6/19
+birthplace: 122
+children: none
+death: 2014/1/6
+en.name: unknown
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 122, 2013/6/19
+location.2: 104, 2014/1/6
+species: 1
+zoo: 104

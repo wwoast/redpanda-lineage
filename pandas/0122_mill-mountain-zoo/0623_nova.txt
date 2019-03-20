@@ -1,0 +1,18 @@
+[panda]
+_id: 623
+birthday: 2006/6/27
+birthplace: 104
+children: 625, 626, 627, 628
+en.name: Nova
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 624
+location.1: 104, 2006/6/27
+location.2: 122, 2007/3/5
+species: 1
+zoo: 122

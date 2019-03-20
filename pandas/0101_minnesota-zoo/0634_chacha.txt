@@ -1,0 +1,18 @@
+[panda]
+_id: 634
+birthday: 2011/6/25
+birthplace: 146
+children: unknown
+en.name: Cha-Cha
+en.nicknames: none
+en.othernames: Chacha
+gender: f
+jp.name: チャチャ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 635, 636
+location.1: 146, 2011/6/25
+location.2: 101, 2012/4/24
+species: 1
+zoo: 101

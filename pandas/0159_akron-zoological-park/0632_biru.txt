@@ -1,0 +1,20 @@
+[panda]
+_id: 632
+birthday: 2010/6/24
+birthplace: 146
+children: none
+en.name: Biru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 633
+location.1: 146, 2010/6/24
+location.2: 75, 2011/4/12
+location.3: 154, 2016/6/22
+location.4: 159, 2016/10/25
+species: 1
+zoo: 159

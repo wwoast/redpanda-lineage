@@ -1,0 +1,19 @@
+[panda]
+_id: 633
+birthday: 2010/6/24
+birthplace: 146
+children: none
+en.name: Leela
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 632
+location.1: 146, 2010/6/24
+location.2: 158, 2011/4/12
+location.3: 160, 2013/3/5
+species: 1
+zoo: 160

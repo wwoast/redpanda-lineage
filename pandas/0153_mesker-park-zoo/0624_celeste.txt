@@ -1,0 +1,19 @@
+[panda]
+_id: 624
+birthday: 2006/6/27
+birthplace: 104
+children: 630, 631, 632, 633, 634, 635, 636
+en.name: Celeste
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 623
+location.1: 104, 2006/6/27
+location.2: 146, 2007/5/20
+location.3: 153, 2012/4/13
+species: 1
+zoo: 153

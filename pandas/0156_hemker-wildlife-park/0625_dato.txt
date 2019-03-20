@@ -1,0 +1,19 @@
+[panda]
+_id: 625
+birthday: 2011/6/14
+birthplace: 122
+children: unknown
+en.name: Dato
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 122, 2011/6/14
+location.2: 155, 2012/9/6
+location.3: 156, 2017/4/27
+species: 1
+zoo: 156
