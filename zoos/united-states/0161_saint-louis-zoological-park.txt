@@ -1,9 +1,10 @@
 [zoo]
 _id: 161
-en.address: TOWRITE
+en.address: Government Dr, St. Louis, MO 63110, USA
 en.location: Saint Louis, Missouri, USA
-en.name: Saint Louis Zoological Park
+en.name: Saint Louis Zoo
+en.othernames: Saint Louis Zoological Park
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/nLG8EFxE9v72
+website: https://www.stlzoo.org

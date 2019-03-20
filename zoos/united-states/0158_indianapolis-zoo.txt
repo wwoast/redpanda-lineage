@@ -1,9 +1,9 @@
 [zoo]
 _id: 158
-en.address: TOWRITE
+en.address: 1200 W Washington St, Indianapolis, IN 46222, USA
 en.location: Indianapolis, Indiana, USA
 en.name: Indianapolis Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/XzhaiFMGTE42
+website: https://www.indianapoliszoo.com

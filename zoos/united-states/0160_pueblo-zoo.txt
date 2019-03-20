@@ -1,9 +1,9 @@
 [zoo]
 _id: 160
-en.address: TOWRITE
+en.address: 3455 Nuckolls Ave, Pueblo, CO 81005, USA
 en.location: Pueblo, Colorado, USA
 en.name: Pueblo Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/sAm9JQGw7HG2
+website: https://www.pueblozoo.org

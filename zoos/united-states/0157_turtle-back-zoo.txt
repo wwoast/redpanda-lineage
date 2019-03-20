@@ -1,9 +1,9 @@
 [zoo]
 _id: 157
-en.address: TOWRITE
+en.address: 560 Northfield Ave, West Orange, NJ 07052, USA
 en.location: West Orange, New Jersey, USA
 en.name: Turtle Back Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/BVDYYje3PgC2
+website: https://turtlebackzoo.com/

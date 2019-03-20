@@ -1,9 +1,9 @@
 [zoo]
 _id: 159
-en.address: TOWRITE
+en.address: 500 Edgewood Ave, Akron, OH 44307, USA
 en.location: Akron, Ohio, USA
 en.name: Akron Zoological Park
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/DpXRUGpKrz22
+website: https://www.akronzoo.org

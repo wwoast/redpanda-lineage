@@ -1,9 +1,9 @@
 [zoo]
 _id: 165
-en.address: TOWRITE
-en.location: TOWRITE
+en.address: 2600 Sunnyside Ave S, Salt Lake City, UT 84108, USA
+en.location: Salt Lake City, Utah, USA
 en.name: Hogle Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/6rWGbpuKQap
+website: https://www.hoglezoo.org
