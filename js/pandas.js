@@ -820,6 +820,19 @@ Pandas.halfSiblings = function(animal, sibling) {
   var animal_dad = Pandas.searchPandaDad(animal["_id"])[0];
   var sibling_mom = Pandas.searchPandaMom(sibling["_id"])[0];
   var sibling_dad = Pandas.searchPandaDad(sibling["_id"])[0];
+  // If the sibling is older than one of your parents, they must be a half sibling.
+  // If one of the parents is missing, do this as a heuristic to determine whether
+  // someone is a half-sibling or not.
+  var sibling_year = parseInt(Pandas.formatYear(sibling["birthday"], L.display));
+  var mymom_year = parseInt(Pandas.formatYear(animal_mom["birthday"], L.display));
+  var mydad_year = parseInt(Pandas.formatYear(animal_dad["birthday"], L.display));
+  if (((animal_mom == undefined) || (animal_dad == undefined) || 
+       (sibling_mom == undefined) || (sibling_dad == undefined)) &&
+      ((sibling_year <= mymom_year) || (sibling_year <= mydad_year))) {
+    return true;
+  }
+  // Otherwise, return based on whether the parents match, and omit the half-sibling
+  // marker if one of the moms or dads happens to not be defined.
   return (!((animal_mom == sibling_mom) && (animal_dad == sibling_dad)) &&
            ((animal_mom != undefined) && (animal_dad != undefined)) &&
            ((sibling_mom != undefined) && (sibling_dad != undefined)));
