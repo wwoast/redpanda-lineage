@@ -97,6 +97,14 @@ Language.L.gui = {
     "en": "Children",   // Capitalization
     "jp": Pandas.def.relations.children["jp"]
   },
+  "contribute": {
+    "en": "Submit a Photo",
+    "jp": "写真を提出する"
+  },
+  "contribute_link": {
+    "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
+    "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
+  },
   "father": {
     "cn": "父親",
     "en": "Father",

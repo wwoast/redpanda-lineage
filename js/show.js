@@ -196,7 +196,14 @@ Show.creditLink = function(info, container_element) {
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.href = info.photo_link;
   credit_link.target = "_blank";   // Open in new tab
-  credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
+  if (info.photo_credit != undefined) {
+    // Attribute photo to someone
+    credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
+  } else {
+    // Ask users to submit through a Google Form
+    credit_link.innerText = L.emoji.camera + " " + L.gui.contribute[L.display] + "\xa0";
+    credit_link.href = L.gui.contribute_link[L.display];
+  }
   var container = document.createElement(container_element);
   container.appendChild(credit_link);
   return container;
@@ -1407,8 +1414,8 @@ Show.results.pandaDetails = function(info) {
   }
   details.appendChild(zoo);
   details.appendChild(location);
+  details.appendChild(credit);
   if (info.photo_credit != undefined) {
-    details.appendChild(credit);
     // See how many other panda photos this user has posted
     var other_photos = Show.appleLink(info, 'p');
     details.appendChild(other_photos);
