@@ -1,9 +1,9 @@
 [zoo]
 _id: 155
-en.address: TOWRITE
+en.address: 7401 SW 9th St, Des Moines, IA 50315, USA
 en.location: Des Moines, Iowa, USA
 en.name: Blank Park Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/KrqMWUznyA32
+website: https://www.blankparkzoo.com/

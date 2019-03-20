@@ -1,9 +1,10 @@
 [zoo]
 _id: 156
-en.address: TOWRITE
+en.address: 26715 Co Rd 39, Freeport, MN 56331, USA
 en.location: Freeport, Minnesota, USA
 en.name: Hemker Wildlife Park
+en.othernames: Hemker Park and Zoo
 flag: USA
 language.order: en
 map: TOWRITE
-website: TOWRITE
+website: https://www.hemkerzoo.com

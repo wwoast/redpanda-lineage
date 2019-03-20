@@ -7,7 +7,7 @@ en.name: Princess Lily
 en.nicknames: none
 en.othernames: Lily, Princess
 gender: f
-jp.name: TOWRITE
+jp.name: リリィ姫
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
@@ -18,8 +18,8 @@ location.3: 116, 2014/12/16
 location.4: 164, 2017/11/4
 location.5: 165, 2018/3/12
 photo.1: https://www.instagram.com/p/BTCBf8KB4Ca/media/?size=m
-photo.1.author: TOWRITE
-photo.1.link: TOWRITE
-photo.1.tags: TOWRITE
+photo.1.author: millerparkzoo
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: paws, profile, white face
 species: 1
 zoo: 165

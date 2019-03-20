@@ -8,9 +8,9 @@ en.name: Momotarou
 en.nicknames: none
 en.othernames: Momotaro
 gender: m
-jp.name: TOWRITE
+jp.name: 桃太郎
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: モモタロウ
 language.order: jp, en
 litter: 152
 location.1: 14, 1997/7/17

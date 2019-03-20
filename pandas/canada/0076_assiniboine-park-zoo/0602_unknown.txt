@@ -9,9 +9,9 @@ en.nicknames: none
 en.oldnames: Five
 en.othernames: none
 gender: m
-jp.name: TOWRITE
+jp.name: 未詳
 jp.nicknames: none
-jp.oldnames: TOWRITE
+jp.oldnames: 五
 jp.othernames: none
 language.order: en, jp
 litter: unknown

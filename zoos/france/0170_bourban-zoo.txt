@@ -1,12 +1,12 @@
 [zoo]
 _id: 170
-en.address: TOWRITE
+en.address: La Bourbansais, 35720 Pleugueneuc, France
 en.location: Pleugueneuc, Ille-et-Vilaine, France
-en.name: Chateau Et Parc Zoologique De La Bourban
-flag: TOWRITE
-fr.address: TOWRITE
-fr.location: TOWRITE
-fr.name: TOWRITE
+en.name: Zoo and Castle Bourbansais
+flag: France
+fr.address: La Bourbansais, 35720 Pleugueneuc, France
+fr.location: Pleugueneuc, Ille-et-Vilaine, France
+fr.name: Parc Zoologique & Château de la Bourbansais
 language.order: fr, en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/i3TtodAtxVo
+website: https://www.labourbansais.com

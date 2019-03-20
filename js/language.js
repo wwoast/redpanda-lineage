@@ -68,6 +68,7 @@ Language.L.flags = {
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
       "China": "🇨🇳",
+     "France": "🇫🇷",
     "Germany": "🇩🇪",
     "Ireland": "🇮🇪",
       "India": "🇮🇳",

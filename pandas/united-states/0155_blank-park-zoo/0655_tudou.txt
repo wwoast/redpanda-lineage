@@ -7,9 +7,9 @@ en.name: Tudou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: TOWRITE
+jp.name: 集う
 jp.nicknames: none
-jp.othernames: 
+jp.othernames: none
 language.order: en, jp
 litter: none
 location.1: 126, 2016/8/20

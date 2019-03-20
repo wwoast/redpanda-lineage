@@ -1,14 +1,14 @@
 [zoo]
 _id: 168
-en.address: TOWRITE
-en.location: Gdansk, Poland
-en.name: TOWRITE
-en.othernames: Gdansk Municipal Zoological Garden
+en.address: Karwieńska 3, 80-328 Gdańsk, Poland
+en.location: Gdańsk, Pomeranian Voivodship, Poland
+en.name: Gdańsk Zoo
+en.othernames: Gdańsk Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
-pl.address: TOWRITE
-pl.location: TOWRITE
-pl.name: TOWRITE
+pl.address: Karwieńska 3, 80-328 Gdańsk, Poland
+pl.location: Gdańsk, Pomeranian Voivodship, Poland
+pl.name: Zoo Gdańsk Oliwa
 pl.othernames: Miejski Ogród Zoologiczny Wybrzeza
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/fxbCMekzzCT2
+website: https://zoo.gda.pl/

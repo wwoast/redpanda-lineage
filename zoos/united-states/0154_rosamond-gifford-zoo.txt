@@ -1,9 +1,9 @@
 [zoo]
 _id: 154
-en.address: TOWRITE
+en.address: 1 Conservation Pl, Syracuse, NY 13204, USA
 en.location: Syracuse, New York, USA
 en.name: Rosamond Gifford Zoo at Burnet Park
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/ghur2zM8qwp
+website: https://www.rosamondgiffordzoo.org/

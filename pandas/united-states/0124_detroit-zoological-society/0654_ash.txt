@@ -7,9 +7,9 @@ en.name: Ash
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: TOWRITE
+jp.name: 灰
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: はい
 language.order: en, jp
 litter: 653
 location.1: 126, 2015/7/2
