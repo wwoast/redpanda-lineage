@@ -217,9 +217,16 @@ class RedPandaGraph:
             subpath = os.path.join(path, subdir)
             if os.path.isdir(subpath):
                 for _, subfile in enumerate(sorted(os.listdir(subpath))):
-                    datafile = os.path.join(subpath, subfile)
-                    if os.path.isfile(datafile) and datafile.lower().endswith(".txt"):
-                        import_method(datafile)
+                    subsubpath = os.path.join(subpath, subfile)
+                    if os.path.isfile(subsubpath) and subsubpath.lower().endswith(".txt"):
+                        # Import zoos
+                        import_method(subsubpath)
+                    if os.path.isdir(subsubpath):
+                        for _, subsubfile in enumerate(sorted(os.listdir(subsubpath))):
+                            datapath = os.path.join(subsubpath, subsubfile)
+                            if os.path.isfile(datapath) and datapath.lower().endswith(".txt"):
+                                # Import pandas
+                                import_method(datapath)
         # Post-import, validate the entire dataset
         verify_method()
 
