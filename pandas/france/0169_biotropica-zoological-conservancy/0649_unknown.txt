@@ -1,16 +1,18 @@
 [panda]
-_id: 537
-birthday: 2010/6/26
+_id: 649
+birthday: 2016/7/4
 birthplace: 135
-children: 647, 648, 650, 649
-en.name: Blue
+children: none
+en.name: unknown
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: ブルー
+gender: f
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+location.1: 135, 2016/7/4
+location.2: 169, 2017/4/27
 species: 2
-zoo: 135
+zoo: 169
