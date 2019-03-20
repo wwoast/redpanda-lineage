@@ -1,0 +1,20 @@
+[panda]
+_id: 656
+birthday: 1996/7/9
+birthplace: 11
+children: 303, 309, 375
+death: 2006/2/12
+en.name: Ikura
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: いくら
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 11, 1996/7/9
+location.2: 17, 1999/12/4
+location.3: 32, 2004/6/7
+species: 2
+zoo: 32
