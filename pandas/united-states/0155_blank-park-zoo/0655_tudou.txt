@@ -1,0 +1,18 @@
+[panda]
+_id: 655
+birthday: 2016/8/20
+birthplace: 126
+children: unknown
+en.name: Tudou
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: 
+language.order: en, jp
+litter: none
+location.1: 126, 2016/8/20
+location.2: 155, 2017/5/9
+species: 1
+zoo: 155
