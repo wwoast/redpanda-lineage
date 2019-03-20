@@ -4,11 +4,11 @@ birthday: 2011/6/25
 birthplace: 146
 children: none
 death: 2011/12/9
-en.name: unknown
+en.name: (unknown)
 en.nicknames: none
-en.othernames: 
+en.othernames: none
 gender: m
-jp.name: 未詳
+jp.name: (未詳)
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp

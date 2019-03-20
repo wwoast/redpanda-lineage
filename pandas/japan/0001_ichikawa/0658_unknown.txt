@@ -4,11 +4,11 @@ birthday: 1990/6/25
 birthplace: 1
 children: none
 death: 1998/7/6
-en.name: unknown
+en.name: (unknown)
 en.nicknames: none
-en.othernames: 
+en.othernames: none
 gender: f
-jp.name: TOWRITE
+jp.name: (未詳)
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
