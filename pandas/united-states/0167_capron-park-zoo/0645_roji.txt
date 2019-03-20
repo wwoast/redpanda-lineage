@@ -1,0 +1,18 @@
+[panda]
+_id: 645
+birthday: 2016/7/2
+birthplace: 113
+children: unknown
+en.name: Roji
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 646
+location.1: 113, 2016/7/2
+location.2: 167, 2017/5/2
+species: 1
+zoo: 167

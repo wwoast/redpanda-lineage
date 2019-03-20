@@ -1,0 +1,25 @@
+[panda]
+_id: 642
+birthday: 2010/6/27
+birthplace: 104
+children: unknown
+en.name: Princess Lily
+en.nicknames: none
+en.othernames: Lily, Princess
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 643, 644
+location.1: 104, 2010/6/27
+location.2: 95, 2011/4/27
+location.3: 116, 2014/12/16
+location.4: 164, 2017/11/4
+location.5: 165, 2018/3/12
+photo.1: https://www.instagram.com/p/BTCBf8KB4Ca/media/?size=m
+photo.1.author: TOWRITE
+photo.1.link: TOWRITE
+photo.1.tags: TOWRITE
+species: 1
+zoo: 165

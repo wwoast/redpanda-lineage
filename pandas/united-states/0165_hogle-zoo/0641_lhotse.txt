@@ -1,0 +1,20 @@
+[panda]
+_id: 641
+birthday: 2014/6/14
+birthplace: 141
+children: unknown
+en.name: Lhotse
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 545
+location.1: 141, 2014/6/14
+location.2: 146, 2015/11/23
+location.3: 164, 2017/12/13
+location.4: 165, 2018/3/12
+species: 1
+zoo: 165
