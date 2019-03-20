@@ -681,7 +681,7 @@ Layout.L.arrangement.verticalBalanceOneMultiColumn = function(multi_cols) {
   var between_list_pad = 2;
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
-  var line_height = "35px";
+  var line_height = "42px";
   var list_count_height = "30px";
   // Do list order based on what things exist or not
   this.list_order = this.list_default.filter(x => this.num[x] != 0);
