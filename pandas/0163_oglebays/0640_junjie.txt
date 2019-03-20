@@ -1,0 +1,19 @@
+[panda]
+_id: 640
+birthday: 2008/6/19
+birthplace: 114
+children: 520
+en.name: Junjie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 505
+location.1: 114, 2008/6/19
+location.2: 123, 2009/4/27
+location.3: 163, 2014/11/24
+species: 1
+zoo: 163
