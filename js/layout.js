@@ -157,37 +157,6 @@ Layout.shrinkNames = function() {
   }
 }
 
-/* Given either a value or a range of values, validate that the available animals
-   in that list matches the count given of them. For simplicity, assume inclusive */
-Layout.L.count = function(p=0, l=0, s=0, c=0) {
-  // Create ranges out of inputs
-  var range = {
-    "parents": p,
-    "litter": l,
-    "siblings": s,
-    "children": c
-  };
-  // Standardize on ranges
-  for (key in range) {
-    value = range[key];
-    if (isFinite(arg)) {
-      range[key] = [value, value]
-    } else if (Array.isArray(value)) {
-      if (isFinite(value[0]) && isFinite(value[1])) {
-        range[key] = [value[0], value[1]];
-      } else {
-        range[key] = [0, 0];
-      }
-    }
-  }
-  // Confirm the values of each input
-  return ((Layout.between(this.num.parents, range["parents"][0], range["parents"][1])) &&
-          (Layout.between(this.num.litter, range["litter"][0], range["litter"][1])) &&
-          (Layout.between(this.num.siblings, range["siblings"][0], range["siblings"][1])) &&
-          (Layout.between(this.num.children, range["children"][0], range["children"][1])));
-}
-
-
 /* WIP Layout manager. Looks at counts of each element, and gives an arrangement */
 Layout.L.layout = function() {
   // Given the counts and sum, create a function name to call as an index
@@ -274,6 +243,36 @@ Layout.L.arrangement.columns = function(nobreak=false) {
   }
   // Return distance/flexBreaker counters to default values
   this.resetCounters("all");
+}
+
+/* Given either a value or a range of values, validate that the available animals
+   in that list matches the count given of them. For simplicity, assume inclusive */
+Layout.L.arrangement.count = function(p=0, l=0, s=0, c=0) {
+  // Create ranges out of inputs
+  var range = {
+    "parents": p,
+    "litter": l,
+    "siblings": s,
+    "children": c
+  };
+  // Standardize on ranges
+  for (key in range) {
+    value = range[key];
+    if (isFinite(arg)) {
+      range[key] = [value, value]
+    } else if (Array.isArray(value)) {
+      if (isFinite(value[0]) && isFinite(value[1])) {
+        range[key] = [value[0], value[1]];
+      } else {
+        range[key] = [0, 0];
+      }
+    }
+  }
+  // Confirm the values of each input
+  return ((Layout.between(this.num.parents, range["parents"][0], range["parents"][1])) &&
+          (Layout.between(this.num.litter, range["litter"][0], range["litter"][1])) &&
+          (Layout.between(this.num.siblings, range["siblings"][0], range["siblings"][1])) &&
+          (Layout.between(this.num.children, range["children"][0], range["children"][1])));
 }
 
 // Take the longest column and make into a multicolumn list.
@@ -425,6 +424,48 @@ Layout.L.arrangement.flattenPlusMultiColumn = function(columns=0, breaker_mode="
   this.resetCounters("all");
 }
 
+// For a four-column layout with 2, 2, 1, long orientation, we want a three-multicolumn
+// on desktop, and a two-multicolumn on mobile. Put the two-width lists first, followed by
+// the one-width lists, and then lastly, the long list. If it's a 2, 1, 1 orientation,
+// flatten the parents list.
+Layout.L.arrangement.fourListOneLong = function() {
+  // The list order we're dealing with (strings "parents", "litter")
+  var order = this.list_default.filter(x => this[x] != undefined);
+  // Change the list orders so that it's most to least, and then put the longest list
+  // at the end. This guarantees best spread on desktop and mobile.
+  order.sort((a, b) => this.num[b] > this.num[a]);
+  order.push(order[0]);
+  order.shift();
+  // Specific list values that exist (this["parents"] = HTMLElement, ...)
+  var lists = order.map(x => this[x]).filter(x => x != undefined);
+  for (let i = 0; i < lists.length; i++) {
+    var cur_list = lists[i];
+    cur_list.style.order = this.boxOrder++;
+    var list_name = order[i];
+    var list_len = this.num[list_name];
+    // If both the short columns are length 1, flatten the parents list
+    // but only on mobile.
+    if (this.num[order[1]] == 1 && this.num[order[2]] == 1 && i == 0) {
+      Layout.flatten(cur_list, "onlyMobile");
+    }
+    var mc_count = 3;   // Collapses to 2 on mobile if needed
+    if (list_len == this.longestList()) {
+      Layout.multiColumn(cur_list, mc_count);
+    }
+    this.family.append(cur_list);
+    this.distance++;
+    // Add a divider unless we've just processed the final column
+    if (((this.distance == 3) || (this.dividerMode != false)) && (i != lists.length - 1)) {
+      var breaker = Layout.divider("both");
+      breaker.style.order = this.boxOrder++;
+      this.family.append(breaker);
+      this.resetCounters("breakers");
+    }
+  }
+  // Return distance/flexBreaker counters to default values
+  this.resetCounters("all");
+}
+
 // Four-column layouts are the trickiest, and when two of those columns are
 // very long, we need to do a multi-column flow where the short columns squeeze
 // left, and the longer ones get flattened into 2-wide-multicols or 3-wide-multicols.
@@ -547,6 +588,10 @@ Layout.L.arrangement.default = function() {
              (this.sum() - this.longestList() >= this.longestList())) {
     // TEST: Seita
     return this.fourListTwoLong("onlyDesktop");
+  } else if ((this.longestList() >= 8) && (this.existingColumns() == 4) &&
+             (this.sum() - this.longestList() <= 5)) {
+    // TEST: Luna / Akiyoshidai
+    return this.fourListOneLong();
   } else if ((this.longestList() >= 8) && (this.existingColumns() == 3) && 
              (this.sum() - this.longestList() >= this.longestList())) {
     // TEST: Koto
@@ -830,7 +875,6 @@ Layout.L.arrangement.div11_2_2_7_0 = function() { return this.threeListOneLong("
 // Layout.L.arrangement.div11_2_1_3_5 = function { return this.verticalFlow() };
 // Twelve items: Force multicolumns to be just two wide
 Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("onlyDesktop") };
-
 
 // media-query height adjustments, plus making sure the height adjustment works
 // on the initial page load.
