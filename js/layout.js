@@ -576,7 +576,6 @@ Layout.L.arrangement.threeListOneLong = function(mode="onlyDesktop") {
 // -- One long column, two shorts, and long column is 9 or more => multiColumn
 // -- Two long columns, shorter no less than 5, longest no more than 8? => longRun
 // -- Long column of 9 or more? Take all columns longer than 5 and multiColumn them
-// TOWRITE: for now, just default to columns
 Layout.L.arrangement.default = function() {
   // Heuristics based on column sizing. More specific to less specific 
   if ((this.longestList() > 4) && (this.existingColumns() == 1)) {

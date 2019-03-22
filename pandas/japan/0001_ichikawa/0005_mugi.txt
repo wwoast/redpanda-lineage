@@ -157,11 +157,11 @@ photo.39.tags: bamboo, tongue
 photo.40: https://www.instagram.com/p/BuGfEKwFrN9/media/?size=m
 photo.40.author: ifumoto88
 photo.40.link: https://www.instagram.com/ifumoto88/
-photo.40.tags: apple time
+photo.40.tags: apple time, shedding
 photo.41: https://www.instagram.com/p/BuoN0F2F9hr/media/?size=m
 photo.41.author: ifumoto88
 photo.41.link: https://www.instagram.com/ifumoto88/
-photo.41.tags: apple time, keeper, smile, tongue
+photo.41.tags: apple time, keeper, smile, shedding, tongue
 photo.42: https://www.instagram.com/p/BvEj5GzFj8K/media/?size=m
 photo.42.author: cabbage_biyori
 photo.42.link: https://www.instagram.com/cabbage_biyori/
@@ -170,5 +170,9 @@ photo.43: https://www.instagram.com/p/BvEaQVblY4C/media/?size=m
 photo.43.author: ifumoto88
 photo.43.link: https://www.instagram.com/ifumoto88/
 photo.43.tags: bamboo, tongue
+photo.44: https://www.instagram.com/p/BvO8KrFl1bq/media/?size=m
+photo.44.author: redpan22
+photo.44.link: https://www.instagram.com/redpan22/
+photo.44.tags: bamboo, tongue
 species: 2
 zoo: 1
