@@ -389,7 +389,7 @@ def vitamin():
     interface. This character set is necessary to instruct TypeSquare on which characters
     we want to download in our font.
     """
-    vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;½ń"  # &-encoded HTML characters to start
+    vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;"  # &-encoded HTML characters to start
     lists = []
     manifest = [
         "export/redpanda.json",
