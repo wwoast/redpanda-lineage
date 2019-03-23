@@ -17,11 +17,15 @@ location.2: 17, 2001/5/12
 photo.1: https://www.instagram.com/p/BtF96jgFcIQ/media/?size=m
 photo.1.author: mofu_pan
 photo.1.link: https://www.instagram.com/mofu_pan/
-photo.1.tags: bamboo, old, profile
+photo.1.tags: bamboo, old
 photo.2: https://www.instagram.com/p/Bu3NLArllOI/media/?size=m
 photo.2.author: nakayamanoboru6981
 photo.2.link: https://www.instagram.com/nakayamanoboru6981/
 photo.2.tags: old
+photo.3: https://www.instagram.com/p/BvTrftkl3yg/media/?size=m
+photo.3.author: codenameodk
+photo.3.link: https://www.instagram.com/codenameodk/
+photo.3.tags: old, profile
 species: 2
 video.1: https://youtu.be/AnjnjrW-9iw
 video.1.author: ガメ
