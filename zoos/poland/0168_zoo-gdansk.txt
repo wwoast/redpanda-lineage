@@ -6,9 +6,9 @@ en.name: Gdansk Zoo
 en.othernames: Gdansk Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
+map: https://goo.gl/maps/fxbCMekzzCT2
 pl.address: Karwienska 3, 80-328 Gdansk, Poland
 pl.location: Gdansk, Pomeranian Voivodship, Poland
 pl.name: Zoo Gdansk Oliwa
 pl.othernames: Miejski Ogród Zoologiczny Wybrzeza
-map: https://goo.gl/maps/fxbCMekzzCT2
 website: https://zoo.gda.pl/
