@@ -1,12 +1,12 @@
 [zoo]
 _id: 151
-en.address: Norbertańska 2, 09-402 Płock, Poland
+en.address: Norbertanska 2, 09-402 Płock, Poland
 en.location: Płock, Poland
 en.name: Zoo Płock
 en.othernames: Płock Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
-pl.address: Norbertańska 2, 09-402 Płock, Poland
+pl.address: Norbertanska 2, 09-402 Płock, Poland
 pl.location: Płock, Poland
 pl.name: Zoo Płock
 pl.othernames: Miejski Ogród Zoologiczny

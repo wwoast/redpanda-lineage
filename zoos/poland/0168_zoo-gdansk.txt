@@ -1,14 +1,14 @@
 [zoo]
 _id: 168
-en.address: Karwieńska 3, 80-328 Gdańsk, Poland
-en.location: Gdańsk, Pomeranian Voivodship, Poland
-en.name: Gdańsk Zoo
-en.othernames: Gdańsk Municipal Zoological Garden
+en.address: Karwienska 3, 80-328 Gdansk, Poland
+en.location: Gdansk, Pomeranian Voivodship, Poland
+en.name: Gdansk Zoo
+en.othernames: Gdansk Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
-pl.address: Karwieńska 3, 80-328 Gdańsk, Poland
-pl.location: Gdańsk, Pomeranian Voivodship, Poland
-pl.name: Zoo Gdańsk Oliwa
+pl.address: Karwienska 3, 80-328 Gdansk, Poland
+pl.location: Gdansk, Pomeranian Voivodship, Poland
+pl.name: Zoo Gdansk Oliwa
 pl.othernames: Miejski Ogród Zoologiczny Wybrzeza
 map: https://goo.gl/maps/fxbCMekzzCT2
 website: https://zoo.gda.pl/
