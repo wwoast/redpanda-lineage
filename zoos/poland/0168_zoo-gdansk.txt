@@ -1,14 +1,14 @@
 [zoo]
 _id: 168
-en.address: Karwieńska 3, 80-328 Gda\u0144sk, Poland
-en.location: Gda\u0144sk, Pomeranian Voivodship, Poland
-en.name: Gda\u0144sk Zoo
-en.othernames: Gda\u0144sk Municipal Zoological Garden
+en.address: Karwieńska 3, 80-328 Gda&#323sk, Poland
+en.location: Gda&#323sk, Pomeranian Voivodship, Poland
+en.name: Gda&#323sk Zoo
+en.othernames: Gda&#323sk Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
-pl.address: Karwie\u0144ska 3, 80-328 Gda\u0144sk, Poland
-pl.location: Gda\u0144sk, Pomeranian Voivodship, Poland
-pl.name: Zoo Gda\u0144sk Oliwa
+pl.address: Karwie&#323ska 3, 80-328 Gda&#323sk, Poland
+pl.location: Gda&#323sk, Pomeranian Voivodship, Poland
+pl.name: Zoo Gda&#323sk Oliwa
 pl.othernames: Miejski Ogród Zoologiczny Wybrzeza
 map: https://goo.gl/maps/fxbCMekzzCT2
 website: https://zoo.gda.pl/
