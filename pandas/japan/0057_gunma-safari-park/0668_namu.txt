@@ -1,0 +1,17 @@
+[panda]
+_id: 668
+birthday: 1993/10/26
+birthplace: 57
+children: 454, 456
+death: 1994/10/15
+en.name: Namu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナム
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 455
+species: 2
+zoo: 57
