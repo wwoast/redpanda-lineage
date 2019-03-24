@@ -1,0 +1,19 @@
+[panda]
+_id: 671
+birthday: 2006/6/21
+birthplace: 115
+children: unknown 
+en.name: Jing-Li
+en.nicknames: none
+en.othernames: Jing Li, Jingli
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 115, 2006/6/21
+location.2: 81, 2007/11/27
+location.3: 157, 2013/11/13
+species: 1
+zoo: 157
