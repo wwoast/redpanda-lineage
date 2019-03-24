@@ -1,0 +1,19 @@
+[panda]
+_id: 677
+birthday: 2007/7/4
+birthplace: 154
+children: unknown
+en.name: Jaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 154, 2007/7/4
+location.2: -1, 2008/6/25
+location.3: 146, 2011/12/5
+species: 1
+zoo: 146
