@@ -2,7 +2,7 @@
 _id: 508
 birthday: 2013/6/18
 birthplace: 105
-children: unknown
+children: none
 cn.name: 朱
 cn.nicknames: none
 cn.othernames: none
@@ -14,7 +14,7 @@ jp.name: 朱
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 105, 2013/6/18
 location.2: 108, 2015/7/17
 location.3: 117, 2017/1/10

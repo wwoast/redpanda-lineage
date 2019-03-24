@@ -2,7 +2,7 @@
 _id: 666
 birthday: 2010/6/27
 birthplace: 124
-children: unknown
+children: none
 en.name: Berry
 en.nicknames: none
 en.othernames: Granberry, Cranberry
@@ -11,7 +11,7 @@ jp.name: ベリー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 124, 2010/6/27
 location.2: 155, 2011/2/24
 location.3: 117, 2014/12/4

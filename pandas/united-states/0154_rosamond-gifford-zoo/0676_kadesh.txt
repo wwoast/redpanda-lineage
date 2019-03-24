@@ -1,0 +1,17 @@
+[panda]
+_id: 676
+birthday: 2004/7/2
+birthplace: 154
+children: unknown
+death: 2018/3/18
+en.name: Kadesh
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 154
