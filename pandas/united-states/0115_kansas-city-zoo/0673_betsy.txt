@@ -1,0 +1,21 @@
+[panda]
+_id: 673
+birthday: 1998/7/4
+birthplace: 108
+children: 674, 672
+death: 2006/11/20
+en.name: Betsy
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベッツィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 108, 1998/7/4
+location.2: 124, 2000/2/5
+location.3: 101, 2001/11/7
+location.4: 115, 2005/12/23
+species: 1
+zoo: 115
