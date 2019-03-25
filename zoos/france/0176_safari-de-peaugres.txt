@@ -1,0 +1,12 @@
+[zoo]
+_id: 176
+en.address: TOWRITE
+en.location: Peaugres, Ardeche, France
+en.name: Peaugres Safari
+flag: France
+fr.address: TOWRITE
+fr.location: TOWRITE
+fr.name: Safari de Peaugres
+language.order: fr, en
+map: TOWRITE
+website: TOWRITE
