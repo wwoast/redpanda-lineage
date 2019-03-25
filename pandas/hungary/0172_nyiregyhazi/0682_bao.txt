@@ -1,0 +1,21 @@
+[panda]
+_id: 682
+birthday: 2013/7/14
+birthplace: 150
+children: none
+en.name: Bao
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: TOWRITE
+hu.nicknames: none
+hu.othernames: none
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en, jp
+litter: 582
+location.1: 150, 2013/7/14
+location.2: 172, 2014/7/30
+species: 1
+zoo: 172

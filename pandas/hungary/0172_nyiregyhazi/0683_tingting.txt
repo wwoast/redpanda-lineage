@@ -1,0 +1,24 @@
+[panda]
+_id: 683
+birthday: 2013/6/23
+birthplace: 173
+children: none
+en.name: Ting-Ting
+en.nicknames: none
+en.othernames: none
+gender: f
+hu.name: TOWRITE
+hu.nicknames: none
+hu.othernames: none
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, sk, en, jp
+litter: unknown
+location.1: 173, 2013/6/23
+location.2: 172, 2014/5/30
+sk.name: TOWRITE
+sk.nicknames: none
+sk.othernames: none
+species: 1
+zoo: 172
