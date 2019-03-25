@@ -1,19 +1,21 @@
 [panda]
-_id: 538
+_id: 684
 birthday: 2009/6/6
 birthplace: 138
-children: 647, 648, 650, 649
-en.name: Tashi
+children: unknown
+death: 2018/8/10
+en.name: Pete
 en.nicknames: none
+en.oldnames: Dundup
 en.othernames: none
-gender: f
-jp.name: タシ
+gender: m
+jp.name: TOWRITE
 jp.nicknames: none
+jp.oldnames: TOWRITE
 jp.othernames: none
 language.order: en, jp
-litter: 684
+litter: 538
 location.1: 138, 2009/6/6
-location.2: unknown, 2010/5/17
-location.3: 135, 2011/2/22
+location.2: 174, 2010/10/20
 species: 2
-zoo: 135
+zoo: 174
