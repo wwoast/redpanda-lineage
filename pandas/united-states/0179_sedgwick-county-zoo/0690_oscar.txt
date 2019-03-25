@@ -1,0 +1,20 @@
+[panda]
+_id: 690
+birthday: 2002/6/20
+birthplace: 108
+children: 691, 692, 693, 694
+death: 2016/4/19
+en.name: Oscar
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 528
+location.1: 108, 2002/6/20
+location.2: 155, 2008/11/20
+location.3: 179, 2010/11/12
+species: 1
+zoo: 179

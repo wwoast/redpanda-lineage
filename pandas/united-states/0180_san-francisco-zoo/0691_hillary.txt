@@ -1,0 +1,19 @@
+[panda]
+_id: 691
+birthday: 2004/7/15
+birthplace: 108
+children: unkown
+en.name: Hillary
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 692
+location.1: 108, 2004/7/15
+location.2: 121, 2006/12/18
+location.3: 179, 2014/5/1
+species: 1
+zoo: 179
