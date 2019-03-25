@@ -1,18 +1,18 @@
 [panda]
-_id: 579
+_id: 687
 birthday: 2016/6/6
 birthplace: 131
 children: none
-en.name: Masu
+en.name: Lali
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: ます
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 687
+litter: 579
 location.1: 131, 2016/6/6
-location.2: 145, 2017/4/19
+location.2: 177, 2017/4/19
 species: 1
-zoo: 145
+zoo: 177

@@ -1,18 +1,18 @@
 [panda]
-_id: 579
-birthday: 2016/6/6
+_id: 688
+birthday: 2017/8/27
 birthplace: 131
 children: none
-en.name: Masu
+en.name: Sabal
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: ます
+gender: m
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 687
-location.1: 131, 2016/6/6
-location.2: 145, 2017/4/19
+litter: 689
+location.1: 131, 2017/8/27
+location.2: 178, 2018/5/17
 species: 1
-zoo: 145
+zoo: 178
