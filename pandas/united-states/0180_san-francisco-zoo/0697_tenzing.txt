@@ -1,0 +1,18 @@
+[panda]
+_id: 697
+birthday: 2013/6/1
+birthplace: 133
+children: none
+en.name: Tenzing
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 133, 2013/6/1
+location.2: 180, 2014/3/24
+species: 1
+zoo: 180

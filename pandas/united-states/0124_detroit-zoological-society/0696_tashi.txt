@@ -1,0 +1,20 @@
+[panda]
+_id: 696
+birthday: 2005/6/12
+birthplace: 109
+children: unkown
+en.name: Tashi
+en.nicknames: none
+en.othernames: Ta-Shi
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 695
+location.1: 109, 2005/6/12
+location.2: 116, 2006/4/6
+location.3: 119, 2006/12/19
+location.4: 124, 2008/11/20
+species: 1
+zoo: 124
