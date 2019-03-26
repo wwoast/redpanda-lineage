@@ -1,0 +1,12 @@
+[zoo]
+_id: 183
+en.address: TOWRITE
+en.location: TOWRITE
+en.name: TOWRITE
+flag: Hungary
+hu.address: TOWRITE
+hu.location: TOWRITE
+hu.name: Szeged Zoo
+language.order: hu, en
+map: TOWRITE
+website: TOWRITE

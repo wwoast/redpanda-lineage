@@ -64,6 +64,7 @@ Language.L.emoji = {
 // TODO: language flag should key on the browser advertised locale (USA flag vs. UK flag)
 Language.L.flags = {
   "Argentina": "🇦🇷",
+  "Australia": "TOWRITE",
      "Bhutan": "🇧🇹",
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
