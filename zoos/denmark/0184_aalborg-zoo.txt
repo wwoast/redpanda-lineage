@@ -1,0 +1,12 @@
+[zoo]
+_id: 184
+de.address: TOWRITE
+de.location: TOWRITE
+de.name: Aalborg Zoo
+en.address: TOWRITE
+en.location: Aalborg, Region Nordjylland, Denmark
+en.name: Aalborg Zoo
+flag: Denmark
+language.order: de, en
+map: TOWRITE
+website: TOWRITE
