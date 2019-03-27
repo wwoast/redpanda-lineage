@@ -1,0 +1,20 @@
+[panda]
+_id: 719
+birthday: unknown
+birthplace: unknown
+children: unknown
+death: 1998/8/2
+en.name: Tom
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: -1
+location.2: 46, 1989/5/4
+location.3: 6, 1992/1/23
+species: 2
+zoo: 6

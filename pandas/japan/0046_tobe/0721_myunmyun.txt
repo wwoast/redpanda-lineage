@@ -1,0 +1,20 @@
+[panda]
+_id: 721
+birthday: unknown
+birthplace: unknown
+children: unknown
+death: 2000/8/8
+en.name: Myun-Myun
+en.nicknames: none
+en.othernames: Myunmyun
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: -1
+location.2: 8, 1989/5/20
+location.3: 46, 1990/1/8
+species: 2
+zoo: 46
