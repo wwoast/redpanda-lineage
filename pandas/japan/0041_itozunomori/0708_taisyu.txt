@@ -1,0 +1,19 @@
+[panda]
+_id: 708
+birthday: unknown
+birthplace: unknown
+children: 710, 711, 712, 307, 707, 706, 713, 705
+death: 2001/11/16
+en.name: Taisyu
+en.nicknames: none
+en.othernames: Tai-Syu
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: -1
+location.2: 41, 1989/10/11
+species: 2
+zoo: 41
