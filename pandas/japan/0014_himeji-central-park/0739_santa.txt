@@ -1,0 +1,20 @@
+[panda]
+_id: 739
+birthday: 1991/6/29
+birthplace: 10
+children: none
+death: 2005/7/28
+en.name: Santa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 10, 1991/6/29
+location.2: 50, 1993/3/13
+location.3: 14, 1999/8/20
+species: 2
+zoo: 14

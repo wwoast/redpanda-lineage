@@ -1,0 +1,19 @@
+[panda]
+_id: 738
+birthday: 1991/6/6
+birthplace: 10
+children: 661, 662
+death: 1999/5/9
+en.name: Maho
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マホ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 10, 1991/6/6
+location.2: 50, 1993/3/13
+species: 2
+zoo: 50

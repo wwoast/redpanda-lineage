@@ -1,0 +1,19 @@
+[panda]
+_id: 740
+birthday: 1999/7/3
+birthplace: 3
+children: none
+death: 2002/9/16
+en.name: Leon
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 3, 1999/7/3
+location.2: 50, 2002/4/12
+species: 2
+zoo: 50
