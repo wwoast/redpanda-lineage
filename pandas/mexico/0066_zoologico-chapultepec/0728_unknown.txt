@@ -1,0 +1,23 @@
+[panda]
+_id: 728
+birthday: 1995/7/4
+birthplace: 11
+children: unknown
+death: unknown
+en.name: (unknown)
+en.nicknames: none
+en.othernames: none
+es.name: (unknown)
+es.nicknames: none
+es.othernames: none
+gender: m
+jp.name: (未詳)
+jp.nicknames: none
+jp.othernames: none
+language.order: es, en, jp
+litter: 729
+location.1: 11, 1995/7/4
+location.2: 54, 2001/1/16
+location.3: 66, 2003/1/27
+species: 2
+zoo: 66
