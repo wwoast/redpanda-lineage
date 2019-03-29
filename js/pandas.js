@@ -251,6 +251,13 @@ Pandas.def.wild = {
   "website": "https://www.worldwildlife.org/"
 }
 
+Pandas.def.wild = {
+  "_id": "wild.0",
+  "en.address": "No Google Maps Address Recorded",
+  "en.location": "No City, District, or State Info Listed",
+  "en.name": "Zoo Not Found"
+}
+
 Pandas.def.zoo = {
   "_id": "0",
   "en.address": "No Google Maps Address Recorded",
@@ -885,6 +892,7 @@ Pandas.locationList = function(animal) {
     locations.push(location);
   }
   // If there were no location. fields, use the zoo field, birthday, and date of death
+  // TODO: support either a zoo or a wild field here
   if (locations.length == 0) {
     locations = Pandas.locationZoo(animal);
   }
@@ -922,6 +930,16 @@ Pandas.locationZoo = function(animal) {
 Pandas.myName = function(animal, language) {
   var field = language + ".name";
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Given an animal and a field name, return wild location info.
+// Though wild locations are stored in the text files related 
+// to an animal, when moved into Dagoba they become edges to 
+// "wild" nodes. Proper "fields" might be 'birthplace' or 'wild',
+// but we cannot assume the birthplace of wild animals.
+Pandas.myWild = function(animal, field) {
+  var wild = G.v(animal['_id']).out(field).run();
+  return wild == [] ? Pandas.def.wild : wild[0];
 }
 
 // Given an animal and a field name, return details about a zoo.
@@ -1005,6 +1023,18 @@ Pandas.species = function(animal, language) {
   }
   var idx = parseInt(animal["species"]) - 1;
   return Pandas.def.species[language][idx];
+}
+
+// Given a wild location found with Pandas.location, return the wild location name.
+Pandas.wildName = function(wild, language) {
+  var field = language + ".name";
+  return wild[field] == undefined ? Pandas.def.wild[field] : wild[field];
+}
+
+// Given a wild location found with Pandas.location(), return an arbitrary field.
+// Useful for anything that's just a URI, like videos or photos.
+Pandas.wildField = function(wild, field) {
+  return wild[field] == undefined ? Pandas.def.wild[field] : wild[field];
 }
 
 // Given a zoo found with Pandas.location(), return the name of the zoo.
