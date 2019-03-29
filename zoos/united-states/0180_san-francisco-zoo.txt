@@ -1,9 +1,9 @@
 [zoo]
 _id: 180
-en.address: TOWRITE
+en.address: Sloat Blvd & Great Highway, San Francisco, CA 94132, United States
 en.location: San Francisco, California, USA
 en.name: San Francisco Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/H7Dy1JJ2Mtt
+website: http://www.sfzoo.org/

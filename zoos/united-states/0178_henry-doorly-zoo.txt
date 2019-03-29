@@ -1,9 +1,9 @@
 [zoo]
 _id: 178
-en.address: TOWRITE
+en.address: 3701 S 10th St, Omaha, NE 68107, USA
 en.location: Omaha, Nebraska, USA
 en.name: Omaha's Henry Doorly Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/L7o286QhDPM2
+website: http://www.omahazoo.com/

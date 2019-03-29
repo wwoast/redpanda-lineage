@@ -5,7 +5,8 @@ de.location: Görlitz, Germany
 de.name: Naturshutz-Tierpark Goerlitz
 en.address: Zittauer Str. 43, 02826 Görlitz, Germany
 en.location: Gorlitz, Germany
-en.name: TOWRITE
+en.name: Görlitz Zoo
+en.othernames: Gorlitz Zoo
 flag: Germany
 language.order: de, en
 map: https://goo.gl/maps/xgBoW6RyMht

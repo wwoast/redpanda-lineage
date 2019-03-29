@@ -1,12 +1,13 @@
 [zoo]
 _id: 172
-en.address: TOWRITE
-en.location: TOWRITE
-en.name: TOWRITE
+en.address: Nyíregyháza, Sóstói út, 4431 Hungary
+en.location: Sóstó, Nyíregyháza, Hungary
+en.name: Nyiregyhaza Animal Park
+en.othernames: Nyiregyhaza Zoo, Sosto Zoo
 flag: Hungary
-hu.address: TOWRITE
-hu.location: TOWRITE
-hu.name: TOWRITE
+hu.address: Nyíregyháza, Sóstói út, 4431 Hungary
+hu.location: Sóstó, Nyíregyháza, Hungary
+hu.name: Nyíregyházi Állatpark - Sóstó Zoo
 language.order: hu, en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/tkNhRWbQbuK2
+website: https://www.sostozoo.hu/

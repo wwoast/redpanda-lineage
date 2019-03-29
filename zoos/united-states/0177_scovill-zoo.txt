@@ -1,9 +1,9 @@
 [zoo]
 _id: 177
-en.address: TOWRITE
+en.address: 71 S Country Club Rd, Decatur, IL 62521, USA
 en.location: Decatur, Illinois, USA
 en.name: Scovill Zoo
 flag: USA
 language.order: en
-map: TOWRITE
-website: TOWRITE
+map: https://goo.gl/maps/bNjR8G7oPwx
+website: https://www.decatur-parks.org/scovill-zoo/

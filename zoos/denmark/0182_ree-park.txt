@@ -1,12 +1,12 @@
 [zoo]
 _id: 182
-de.address: TOWRITE
-de.location: TOWRITE
-de.name: Ree Park - Ebeltoft Safari
-en.address: TOWRITE
+dk.address: Stubbe Søvej 15, 8400 Ebeltoft, Denmark
+dk.location: Ebeltoft, Region Midtjylland, Denmark
+dk.name: Ree Park - Ebeltoft Safari
+en.address: Stubbe Søvej 15, 8400 Ebeltoft, Denmark
 en.location: Ebeltoft, Region Midtjylland, Denmark
 en.name: Ree Park - Ebeltoft Safari
 flag: Denmark
-language.order: de, en
-map: TOWRITE
-website: TOWRITE
+language.order: dk, en
+map: https://goo.gl/maps/4z1kJsgauGs
+website: https://www.reepark.dk/
