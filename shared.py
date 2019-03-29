@@ -2,6 +2,7 @@
 
 PANDA_PATH = "./pandas"
 OUTPUT_PATH = "./export/redpanda.json"
+WILD_PATH = "./wild" 
 ZOO_PATH = "./zoos" 
 
 class DateConsistencyError(ValueError):

@@ -36,12 +36,15 @@ class RedPandaGraph:
         self.summary["birthday"] = 1970
         self.summary["death"] = 1970
         self.vertices = []
+        self.wilds = []
+        self.wild_files = []
         self.zoos = []
         self.zoo_files = []
 
     def build_graph(self):
         """Reads in all files to build a red panda graph."""
         self.import_tree(ZOO_PATH, self.import_zoo, self.verify_zoos)
+        self.import_tree(WILD_PATH, self.import_wild, self.verify_wilds)
         self.import_tree(PANDA_PATH, self.import_redpanda, self.verify_pandas)
 
     def check_dataset_dates(self):
@@ -173,17 +176,29 @@ class RedPandaGraph:
             raise NameFormatError("ERROR: %s: %s name too long: %s"
                                   % (sourcepath, field, name))
     
-    def check_imported_panda_zoo_path(self, zoo_id, sourcepath):
-        """Validate that we didn't mis-number a panda's zoo id given which directory it sits in."""
-        if zoo_id not in sourcepath:
-            raise IdError("ERROR: %s: file path and zoo id don't match: %s"
-                              % (sourcepath, zoo_id))
+    def check_imported_wild_id(self, wild_id, sourcepath):
+        """Validate that the ID for a panda's zoo is valid."""
+        if wild_id not in [wild['_id'] for wild in self.wilds]:
+            raise IdError("ERROR: %s: wild id doesn't exist: %s"
+                              % (sourcepath, wild_id))
+
+    def check_imported_panda_wild_path(self, wild_id, sourcepath):
+        """Validate that we didn't mis-number a panda's wild id given which directory it sits in."""
+        if wild_id not in sourcepath:
+            raise IdError("ERROR: %s: file path and wild id don't match: %s"
+                              % (sourcepath, wild_id))
 
     def check_imported_zoo_id(self, zoo_id, sourcepath):
         """Validate that the ID for a panda's zoo is valid."""
         check_id = str(int(zoo_id) * -1)
         if check_id not in [zoo['_id'] for zoo in self.zoos]:
             raise IdError("ERROR: %s: zoo id doesn't exist: %s"
+                              % (sourcepath, zoo_id))
+
+    def check_imported_panda_zoo_path(self, zoo_id, sourcepath):
+        """Validate that we didn't mis-number a panda's wild id given which directory it sits in."""
+        if zoo_id not in sourcepath:
+            raise IdError("ERROR: %s: file path and zoo id don't match: %s"
                               % (sourcepath, zoo_id))
 
     def export_json_graph(self, destpath):
@@ -195,7 +210,9 @@ class RedPandaGraph:
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
+        export['_totals']['wilds'] = len(self.wilds)
         export['_totals']['zoos'] = len(self.zoos)
+        export['_totals']['locations'] = len(self.wilds) + len(self.zoos)
         export['_totals']['pandas'] = self.sum_pandas()
         export['_totals']['last_born'] = self.summary['birthday']
         export['_totals']['last_died'] = self.summary['death']
@@ -204,8 +221,9 @@ class RedPandaGraph:
                                  ensure_ascii=False,
                                  indent=4,
                                  sort_keys=True).encode('utf8'))
-        print("Dataset exported: %d pandas at %d zoos"
-              % (export['_totals']['pandas'], export['_totals']['zoos']))
+        print("Dataset exported: %d pandas at %d locations (%d wild, %d zoo)"
+              % (export['_totals']['pandas'], export['_totals']['locations'],
+                 export['_totals']['wilds'], export['_totals']['zoos']))
 
     def import_tree(self, path, import_method, verify_method):
         """Given starting path, import all files into the graph.
@@ -313,6 +331,17 @@ class RedPandaGraph:
                     self.photo["max"] = test_count
                 # Accept the data and continue
                 panda_vertex[field[0]] = field[1]
+            elif (field[0].find("wild") != -1):
+                # Wild ID rules
+                wild_id = field[1]
+                self.check_imported_wild_id(field[1], path)
+                self.check_imported_panda_wild_path(field[1], path)
+                # Add a wild edge to the list that's a wild location
+                wild_edge = {}
+                wild_edge['out'] = panda_id
+                wild_edge['in'] = wild_id
+                wild_edge['_label'] = field[0]
+                panda_edges.append(wild_edge)
             elif (field[0].find("zoo") != -1):
                 # Zoo ID rules
                 # To differentiate Zoo IDs from pandas, use negative IDs
@@ -332,11 +361,36 @@ class RedPandaGraph:
         self.vertices.append(panda_vertex)
         self.panda_files.append(path)
 
+    def import_wild(self, path):
+        """Take a single wild location file and convert it into a Python dict.
+        
+        Wild files are expected to have a header of [wild]. Any fields defined
+        under that header will be consumed into the wild datastore. Every panda
+        must have a link to a zoo or a wild location.
+        """
+        wild_entry = {}
+        infile = configparser.ConfigParser()
+        infile.read(path, encoding='utf-8')
+        for field in infile.items("wild"):
+            # Use negative numbers for zoo IDs, to distinguish from pandas
+            [ key, value ] = [field[0], field[1]]
+            if key == 'photo':
+                author = infile.get("wild", key + ".author")
+                if author in self.photo["credit"].keys():
+                    self.photo["credit"][author] = self.photo["credit"][author] + 1
+                else:
+                    self.photo["credit"][author] = 1
+            wild_entry[key] = value
+        self.wilds.append(wild_entry)
+        self.wild_files.append(path)
+        self.vertices.append(wild_entry)
+        
     def import_zoo(self, path):
         """Take a single zoo file and convert it into a Python dict.
         
         Zoo files are expected to have a header of [zoo]. Any fields defined
-        under that header will be consumed into the zoo datastore.
+        under that header will be consumed into the zoo datastore. Every panda
+        must have a link to a zoo or a wild location.
         """
         zoo_entry = {}
         infile = configparser.ConfigParser()
@@ -370,6 +424,10 @@ class RedPandaGraph:
     def sum_pandas(self):
         """Panda count is just the count of the number of panda files imported."""
         return len(self.panda_files)
+
+    def verify_wilds(self):
+        """All checks to ensure that the zoo dataset is good."""
+        self.check_dataset_duplicate_ids(self.wilds)
 
     def verify_zoos(self):
         """All checks to ensure that the zoo dataset is good."""
