@@ -1,0 +1,11 @@
+[panda]
+_id: 743
+en.name: Boki
+en.nicknames: none
+en.othernames: none
+jp.name: ボキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+seen.1: wild.6, 2019/Spring
+wild: wild.6
