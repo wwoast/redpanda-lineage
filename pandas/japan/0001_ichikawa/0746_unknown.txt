@@ -1,0 +1,19 @@
+[panda]
+_id: 746
+birthday: unknown
+birthplace: unknown
+children: 748, 749, 750, 751, 752, 753, 702
+death: 1994/11/1
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (未詳)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+locatoin.1: -1
+location.2: 1, 1986/11/1
+species: 2
+zoo: 1
