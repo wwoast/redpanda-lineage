@@ -1396,9 +1396,11 @@ Show.results.pandaDetails = function(info) {
   second.innerText = second_string;
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
-  var zoo = document.createElement('p');
-  var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
-  zoo.appendChild(zoo_link);
+  if (info.zoo != undefined) {
+    var zoo = document.createElement('p');
+    var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
+    zoo.appendChild(zoo_link);
+  }
   // Location shows a map icon and a flag icon, and links to
   // a Google Maps search for the "<language>.address" field
   var location = document.createElement('p');
