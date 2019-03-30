@@ -2,13 +2,13 @@
 _id: 754
 birthday: 1990/7/6
 birthplace: 10
-children: unknown
+children: 758, 760, 757, 320
 death: 2007/8/17
 en.name: Jirou
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: TOWRITE
+jp.name: ジロウ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

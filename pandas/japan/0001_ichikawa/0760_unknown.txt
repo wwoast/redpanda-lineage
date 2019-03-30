@@ -1,14 +1,14 @@
 [panda]
-_id: 753
-birthday: 1992/6/23
+_id: 760
+birthday: 1995/7/22
 birthplace: 1
-children: none
-death: 1994/8/16
-en.name: Nana
+children: unknown
+death: 2005/7/22
+en.name: (no name)
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: ナナ
+gender: unknown
+jp.name: (未詳)
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
