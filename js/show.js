@@ -1388,34 +1388,36 @@ Show.results.panda = function(animal, language) {
 Show.results.pandaDetails = function(info) {
   // The purple results-page "dossier" information stripe for a panda.
   var language = info.language;
+  // Start the new Div
+  var details = document.createElement('div');
+  details.className = "pandaDetails";
+  // Start creating content
   var [first_string, second_string] = Show.birthday(info, language);
   var born = document.createElement('p');
   born.innerText = first_string;
+  details.appendChild(born);
   // If still alive, print their current age
   var second = document.createElement ('p');
   second.innerText = second_string;
+  if ((info.age != undefined) && (info.age != "unknown")) {
+    details.appendChild(second);
+  }
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
   if (info.zoo != undefined) {
     var zoo = document.createElement('p');
     var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
-    zoo.appendChild(zoo_link);
+    zoo.appendChild(zoo_link);  
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field
+    var location = document.createElement('p');
+    var location_link = Show.locationLink(info.zoo, language);
+    location.appendChild(location_link);
+    details.appendChild(zoo);
+    details.appendChild(location);
   }
-  // Location shows a map icon and a flag icon, and links to
-  // a Google Maps search for the "<language>.address" field
-  var location = document.createElement('p');
-  var location_link = Show.locationLink(info.zoo, language);
-  location.appendChild(location_link);
   // Give credit for the person that took this photo
   var credit = Show.creditLink(info, 'p');
-  var details = document.createElement('div');
-  details.className = "pandaDetails";
-  details.appendChild(born);
-  if ((info.age != undefined) && (info.age != "unknown")) {
-    details.appendChild(second);
-  }
-  details.appendChild(zoo);
-  details.appendChild(location);
   details.appendChild(credit);
   if (info.photo_credit != undefined) {
     // See how many other panda photos this user has posted
