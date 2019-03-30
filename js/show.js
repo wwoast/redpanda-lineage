@@ -32,6 +32,7 @@ Show.acquirePandaInfo = function(animal, language) {
  "photo_manifest": Pandas.photoManifest(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
         "species": Pandas.species(animal["_id"]),
+           "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
   bundle = L.fallbackInfo(bundle, animal);  // Any defaults here?
@@ -1415,6 +1416,11 @@ Show.results.pandaDetails = function(info) {
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
+  }
+  if (info.wild != undefined) {
+    var wild = document.createElement('p');
+    wild.innerText = info.wild[language + ".name"];
+    details.appendChild(wild);
   }
   // Give credit for the person that took this photo
   var credit = Show.creditLink(info, 'p');
