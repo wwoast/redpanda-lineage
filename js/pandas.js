@@ -889,10 +889,10 @@ Pandas.locationList = function(animal) {
   }
   // If there were no location. fields, use the zoo field, birthday, and date of death.
   // If a wild animal, use a wild field instead of the zoo field
-  if ((locations.length == 0) && (Pandas.myWild(animal) != Pandas.def.wild)) {
+  if ((locations.length == 0) && (Pandas.myWild(animal, "wild") != undefined)) {
     locations = Pandas.locationWild(animal);
   }
-  if ((locations.length == 0) && (Pandas.myZoo(animal) != Pandas.def.zoo)) {
+  if ((locations.length == 0) && (Pandas.myZoo(animal, "zoo") != undefined)) {
     locations = Pandas.locationZoo(animal);
   }
   return locations;
