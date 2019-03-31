@@ -1647,7 +1647,9 @@ Show.searchBar.remove = function(frame_id="bottomSearch") {
   // Remove the search bar when leaving profile mode. By default it will be
   // the bottom menu search bar that gets disappeared.
   var searchBar = document.getElementById(frame_id);
-  searchBar.parentNode.remove(searchBar);
+  if (searchBar != null) {
+    searchBar.parentNode.remove(searchBar);
+  }
 }
 Show.searchBar.render = function(frame_class, frame_id) {
   // Create a search bar. Should be the same kind of bar that would appear
