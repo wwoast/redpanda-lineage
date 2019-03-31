@@ -123,7 +123,7 @@ class RedPandaGraph:
             return True 
 
     def check_dataset_duplicate_ids(self, dataset):
-        """Check for duplicate IDs in either the zoo or panda datasets."""
+        """Check for duplicate IDs in any of the datasets."""
         ids = [a['_id'] for a in dataset]
         # Construct list of duplicates
         dupe_ids = [a for n, a in enumerate(ids) 
@@ -338,8 +338,8 @@ class RedPandaGraph:
                 self.check_imported_panda_wild_path(field[1], path)
                 # Add a wild edge to the list that's a wild location
                 wild_edge = {}
-                wild_edge['out'] = panda_id
-                wild_edge['in'] = wild_id
+                wild_edge['_out'] = panda_id
+                wild_edge['_in'] = wild_id
                 wild_edge['_label'] = field[0]
                 panda_edges.append(wild_edge)
             elif (field[0].find("zoo") != -1):

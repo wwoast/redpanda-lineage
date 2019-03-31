@@ -3,4 +3,5 @@ _id: wild.3
 en.address: unknown
 en.location: unknown
 en.name: Wild Captured in China
+flag: China
 language.order: en

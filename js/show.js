@@ -1419,7 +1419,7 @@ Show.results.pandaDetails = function(info) {
   }
   if (info.wild != undefined) {
     var wild = document.createElement('p');
-    wild.innerText = info.wild[language + ".name"];
+    wild.innerText = L.flags[info.wild["flag"]] + " " + info.wild[language + ".name"];
     details.appendChild(wild);
   }
   // Give credit for the person that took this photo

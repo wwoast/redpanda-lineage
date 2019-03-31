@@ -3,4 +3,5 @@ _id: wild.1
 en.address: unknown
 en.location: unknown
 en.name: Wild Captured
+flag: Default
 language.order: en

@@ -3,4 +3,5 @@ _id: wild.2
 en.address: unknown
 en.location: unknown
 en.name: Wild Living
+flag: Default
 language.order: en
