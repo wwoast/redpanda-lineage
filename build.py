@@ -289,16 +289,27 @@ class RedPandaGraph:
                 gender = self.check_imported_gender(field[1], path)
                 panda_vertex[field[0]] = gender
             elif (field[0].find("birthplace") != -1):
-                # Zoo ID rules
-                # To differentiate Zoo IDs from pandas, use negative IDs
-                zoo_id = str(int(field[1]) * -1)
-                self.check_imported_zoo_id(field[1], path)
-                # Add a birthplace or zoo edge to the list that's a zoo
-                zoo_edge = {}
-                zoo_edge['_out'] = panda_id
-                zoo_edge['_in'] = zoo_id
-                zoo_edge['_label'] = field[0]
-                panda_edges.append(zoo_edge)
+                if (field[1].find("wild.") != -1):
+                  # Wild ID rules
+                  wild_id = field[1]
+                  self.check_imported_wild_id(field[1], path)
+                  # Add a wild edge to the list that's a wild location
+                  wild_edge = {}
+                  wild_edge['_out'] = panda_id
+                  wild_edge['_in'] = wild_id
+                  wild_edge['_label'] = field[0]
+                  panda_edges.append(wild_edge)
+                else:
+                  # Zoo ID rules
+                  # To differentiate Zoo IDs from pandas, use negative IDs
+                  zoo_id = str(int(field[1]) * -1)
+                  self.check_imported_zoo_id(field[1], path)
+                  # Add a birthplace or zoo edge to the list that's a zoo
+                  zoo_edge = {}
+                  zoo_edge['_out'] = panda_id
+                  zoo_edge['_in'] = zoo_id
+                  zoo_edge['_label'] = field[0]
+                  panda_edges.append(zoo_edge)
             elif field[0].find("children") != -1:   
                 # Process children IDs
                 children = field[1].replace(" ","").split(",")

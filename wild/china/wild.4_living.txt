@@ -4,4 +4,7 @@ en.address: unknown
 en.location: China
 en.name: Living Wild Animal
 flag: China
+jp.address: unknown
+jp.location: TOWRITE
+jp.name: TOWRITE
 language.order: en

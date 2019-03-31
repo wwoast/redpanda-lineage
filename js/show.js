@@ -1204,12 +1204,14 @@ Show.profile.where = function(animal, language) {
   container.className = "zooHistory";
   for (let zoo of history.reverse()) {
     var zoo_icon = L.emoji.zoo;
+    // TOWRITE: need different logic for date strings for wild animal sightings.
     var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
     if (zoo["end_date"] == Pandas.def.unknown[language]) {
       date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
       zoo_icon = L.emoji.home;
     }
-    if ((zoo["end_date"] != Pandas.def.unknown[language]) && (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
+    if ((zoo["end_date"] != Pandas.def.unknown[language]) && 
+        (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
       zoo_icon = L.emoji.died;
     }
     var zoo_info = Pandas.searchZooId(zoo["id"])[0];
@@ -1221,7 +1223,7 @@ Show.profile.where = function(animal, language) {
     zoo_date.className = "detail";
     zoo_date.innerText = date_string;
     zoo_name.appendChild(zoo_link);
-    if (zoo["start_date"] != Pandas.def.unknown[L.display]) {
+    if (zoo["start_date"] != Pandas.def.unknown[language]) {
       zoo_name.appendChild(zoo_date);
     }
     zoo_entry.appendChild(zoo_name);

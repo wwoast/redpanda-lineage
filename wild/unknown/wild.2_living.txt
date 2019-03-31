@@ -4,4 +4,7 @@ en.address: unknown
 en.location: unknown
 en.name: Living Wild Animal
 flag: Default
+jp.address: unknown
+jp.location: TOWRITE
+jp.name: TOWRITE
 language.order: en
