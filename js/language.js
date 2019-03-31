@@ -71,6 +71,7 @@ Language.L.flags = {
       "Chile": "🇨🇱",
       "China": "🇨🇳",
     "Default": "🐼",
+    "Denmark": "TOWRITE",
      "France": "🇫🇷",
     "Germany": "🇩🇪",
     "Hungary": "🇭🇺",
@@ -79,6 +80,7 @@ Language.L.flags = {
       "Japan": "🇯🇵",
      "Mexico": "🇲🇽",
       "Nepal": "🇳🇵",
+"Netherlands": "TOWRITE",
      "Poland": "🇵🇱",
      "Russia": "🇷🇺",
    "Slovakia": "🇸🇰",
@@ -114,6 +116,11 @@ Language.L.gui = {
   "contribute_link": {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
+  },
+  "fall": {
+    "cn": "TOWRITE",   // Convenience duplicate of autumn
+    "en": "Autumn",
+    "jp": "TOWRITE"
   },
   "father": {
     "cn": "父親",
