@@ -1,7 +1,7 @@
 [panda]
 _id: 718
 birthday: unknown
-birthplace: unknown
+birthplace: wild.3
 children: none
 death: 1988/10/16
 en.name: Tom
@@ -13,7 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: unknown
-location.1: -1
+location.1: wild.3
 location.2: 46, 1987/11/17
 species: 2
 zoo: 46
