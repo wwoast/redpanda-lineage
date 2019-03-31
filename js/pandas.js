@@ -219,15 +219,18 @@ Pandas.def.relations = {
 Pandas.def.species = {
   "cn": [
     "Ailurus fulgens fulgens",
-    "Ailurus fulgens styani"
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ],
   "en": [
     "Ailurus fulgens fulgens",
-    "Ailurus fulgens styani"
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ],
   "jp": [
     "西レッサーパンダ",
-    "シセンレッサーパンダ"
+    "シセンレッサーパンダ",
+    "未詳レッサーパンダ"
   ]
 }
 
@@ -239,7 +242,7 @@ Pandas.def.unknown = {
 
 // Slightly different default zoo listing, to account for wild-born animals
 Pandas.def.wild = {
-  "_id": "0",
+  "_id": "wild.0",
   "en.address": "Captured or Rescued Wild Animal",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
@@ -249,13 +252,6 @@ Pandas.def.wild = {
   "photo": "images/no-zoo.jpg",
   "video": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
-}
-
-Pandas.def.wild = {
-  "_id": "wild.0",
-  "en.address": "No Google Maps Address Recorded",
-  "en.location": "No City, District, or State Info Listed",
-  "en.name": "Zoo Not Found"
 }
 
 Pandas.def.zoo = {
@@ -860,7 +856,7 @@ Pandas.language_order = function(entity) {
   return ordering.replace(" ", "").split(',');
 }
 
-// Returns a list of locations valid for an animal
+// Returns a list of locations valid for a zoo animal.
 Pandas.locationList = function(animal) {
   var locations = [];
   // Find the available photo indexes between one and ten
@@ -891,9 +887,12 @@ Pandas.locationList = function(animal) {
     }
     locations.push(location);
   }
-  // If there were no location. fields, use the zoo field, birthday, and date of death
-  // TODO: support either a zoo or a wild field here
-  if (locations.length == 0) {
+  // If there were no location. fields, use the zoo field, birthday, and date of death.
+  // If a wild animal, use a wild field instead of the zoo field
+  if ((locations.length == 0) && (Pandas.myWild(animal) != Pandas.def.wild)) {
+    locations = Pandas.locationWild(animal);
+  }
+  if ((locations.length == 0) && (Pandas.myZoo(animal) != Pandas.def.zoo)) {
     locations = Pandas.locationZoo(animal);
   }
   return locations;
@@ -908,6 +907,21 @@ Pandas.locationManifest = function(animal) {
   for (let field_name of location_fields(animal)) {
     locations[field_name] = Pandas.field(animal, field_name);
   }
+  return locations;
+}
+
+// When a panda doesn't have a list of wild locations as location.X fields, use
+// the wild field, birthday, and date of death to fill in the necessary details
+Pandas.locationWild = function(animal) {
+  var end_date = undefined;
+  if (animal["death"] != undefined) {
+    end_date = animal["death"];
+  }
+  var locations = [{
+    "zoo": Pandas.myWild(animal, "wild"),
+    "start_date": Pandas.def.date[L],
+    "end_date": Pandas.def.date[L]
+  }];
   return locations;
 }
 

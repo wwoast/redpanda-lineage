@@ -1221,7 +1221,9 @@ Show.profile.where = function(animal, language) {
     zoo_date.className = "detail";
     zoo_date.innerText = date_string;
     zoo_name.appendChild(zoo_link);
-    zoo_name.appendChild(zoo_date);
+    if (zoo["start_date"] != Pandas.def.unknown[L.display]) {
+      zoo_name.appendChild(zoo_date);
+    }
     zoo_entry.appendChild(zoo_name);
     var zoo_location = document.createElement('li');
     // Location shows a map icon and a flag icon, and links to
