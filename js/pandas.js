@@ -91,6 +91,13 @@ Pandas.def.date = {
   "earliest_year": "1970"
 }
 
+Pandas.def.date_season = {
+  "cn": "SEASON YYYY",
+  "en": "SEASON YYYY",
+  "jp": "SEASON YYYY",
+  "earliest_year": "1970"
+}
+
 Pandas.def.gender = {
   "Female": {
     "cn": "女",
@@ -762,7 +769,7 @@ Pandas.birthday = function(animal, language) {
 }
 
 // Given an animal and a language, return one of the panda's date fields
-// in the local format. The database always tracks dates in YYYY/MM/DD format.
+// in the local format.
 Pandas.date = function(animal, field, language) {
   var date = animal[field];
   if ((date == undefined) || (date == "unknown")) {
@@ -787,16 +794,36 @@ Pandas.field = function(animal, field) {
   }
 }
 
-// Given a date string, format the date as per the locale settings
+// Given a date string, format the date as per the locale settings.
+// The database tracks dates in YYYY/MM/DD format for zoo animals.
+// For wild animal sightings, it tracks dates less granularly, since
+// pandas are endangered and we need to protect their whereabouts.
 Pandas.formatDate = function(date, language) {
   if ((date == undefined) || (date == "unknown")) {
     return Pandas.def.unknown[language];
+  }
+  if ((date.split("/").length == 2) &&
+      (L.gui[date.split("/")[1].toLowerCase()] != undefined)) {
+    return Pandas.formatSeason(date, language);
   }
   var format = Pandas.def.date[language];
   [ year, month, day ] = date.split("/");
   format = format.replace("YYYY", year);
   format = format.replace("MM", month);
   format = format.replace("DD", day);
+  return format;
+}
+
+// Given a date string with a year and a season, format that date
+Pandas.formatSeason = function(date, language) {
+  if ((date == undefined) || (date == "unknown")) {
+    return Pandas.def.unknown[language];
+  }
+  [ year, season ] = date.split("/");
+  season = season.toLowerCase();
+  var format = Pandas.def.date_season[language];
+  format = format.replace("YYYY", year);
+  format = format.replace("SEASON", L.gui[season][language]);
   return format;
 }
 

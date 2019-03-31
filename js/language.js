@@ -55,6 +55,7 @@ Language.L.emoji = {
      "top": "⬆",
 "timeline": "📰",
   "travel": "✈️",
+    "tree": "TOWRITE",
  "website": "🌐",
      "wip": "🚧",
      "zoo": "🦁"
@@ -95,6 +96,11 @@ Language.L.gui = {
     "cn": "關於",
     "en": "About",
     "jp": "概要"
+  },
+  "autumn": {
+    "cn": "TOWRITE",
+    "en": "Autumn",
+    "jp": "TOWRITE"
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
@@ -232,6 +238,11 @@ Language.L.gui = {
     "en": "Search...",
     "jp": "サーチ..."
   },
+  "seen_date": {
+    "cn": "TOWRITE <INSERTDATE>",
+    "en": "Seen <INSERTDATE>",
+    "jp": "TOWRITE <INSERTDATE>"
+  },
   "siblings": {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
@@ -241,6 +252,16 @@ Language.L.gui = {
     "cn": "TOWRITE <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
+  },
+  "spring": {
+    "cn": "TOWRITE",
+    "en": "Spring",
+    "jp": "TOWRITE"
+  },
+  "summer": {
+    "cn": "TOWRITE",
+    "en": "Summer",
+    "jp": "TOWRITE"
   },
   "timeline": {
     "cn": "TOWRITE",
@@ -266,6 +287,11 @@ Language.L.gui = {
     "cn": "三重",
     "en": "Triplet",
     "jp": "三つ子"
+  }, 
+  "winter": {
+    "cn": "TOWRITE",
+    "en": "Winter",
+    "jp": "TOWRITE"
   }
 }
 
