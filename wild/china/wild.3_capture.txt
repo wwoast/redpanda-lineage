@@ -5,6 +5,6 @@ en.location: China
 en.name: Captured Wild Animal
 flag: China
 jp.address: unknown
-jp.location: TOWRITE
-jp.name: TOWRITE
+jp.location: 漢
+jp.name: 捕獲された野生動物
 language.order: en
