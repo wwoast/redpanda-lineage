@@ -2,5 +2,9 @@
 _id: wild.2
 en.address: unknown
 en.location: unknown
-en.name: Wild Living
+en.name: Living Wild Animal
+flag: Default
+jp.address: unknown
+jp.location: 未詳
+jp.name: 生きている野生動物
 language.order: en

@@ -1,0 +1,17 @@
+[panda]
+_id: 774
+birthday: 1987/7/26
+birthplace: 13
+children: 769, 772, 495, 598, 732, 733
+death: 2009/6/3
+en.name: Ran-Ran
+en.nicknames: none
+en.othernames: Ranran
+gender: m
+jp.name: ランラン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 775
+species: 2
+zoo: 13

@@ -55,6 +55,7 @@ Language.L.emoji = {
      "top": "⬆",
 "timeline": "📰",
   "travel": "✈️",
+    "tree": "🌳",
  "website": "🌐",
      "wip": "🚧",
      "zoo": "🦁"
@@ -69,6 +70,8 @@ Language.L.flags = {
      "Canada": "🇨🇦",
       "Chile": "🇨🇱",
       "China": "🇨🇳",
+    "Default": "🐼",
+    "Denmark": "🇩🇰",
      "France": "🇫🇷",
     "Germany": "🇩🇪",
     "Hungary": "🇭🇺",
@@ -77,6 +80,7 @@ Language.L.flags = {
       "Japan": "🇯🇵",
      "Mexico": "🇲🇽",
       "Nepal": "🇳🇵",
+"Netherlands": "🇳🇱",
      "Poland": "🇵🇱",
      "Russia": "🇷🇺",
    "Slovakia": "🇸🇰",
@@ -95,6 +99,11 @@ Language.L.gui = {
     "en": "About",
     "jp": "概要"
   },
+  "autumn": {
+    "cn": "TOWRITE",
+    "en": "Autumn",
+    "jp": "TOWRITE"
+  },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
     "en": "Children",   // Capitalization
@@ -107,6 +116,11 @@ Language.L.gui = {
   "contribute_link": {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
+  },
+  "fall": {
+    "cn": "TOWRITE",   // Convenience duplicate of autumn
+    "en": "Autumn",
+    "jp": "TOWRITE"
   },
   "father": {
     "cn": "父親",
@@ -231,6 +245,11 @@ Language.L.gui = {
     "en": "Search...",
     "jp": "サーチ..."
   },
+  "seen_date": {
+    "cn": "TOWRITE <INSERTDATE>",
+    "en": "Seen <INSERTDATE>",
+    "jp": "TOWRITE <INSERTDATE>"
+  },
   "siblings": {
     "cn": Pandas.def.relations.siblings["cn"],
     "en": "Siblings",   // Capitalization
@@ -240,6 +259,16 @@ Language.L.gui = {
     "cn": "TOWRITE <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
+  },
+  "spring": {
+    "cn": "TOWRITE",
+    "en": "Spring",
+    "jp": "TOWRITE"
+  },
+  "summer": {
+    "cn": "TOWRITE",
+    "en": "Summer",
+    "jp": "TOWRITE"
   },
   "timeline": {
     "cn": "TOWRITE",
@@ -265,6 +294,11 @@ Language.L.gui = {
     "cn": "三重",
     "en": "Triplet",
     "jp": "三つ子"
+  }, 
+  "winter": {
+    "cn": "TOWRITE",
+    "en": "Winter",
+    "jp": "TOWRITE"
   }
 }
 

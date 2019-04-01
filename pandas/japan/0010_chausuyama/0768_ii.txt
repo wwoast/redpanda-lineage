@@ -1,0 +1,19 @@
+[panda]
+_id: 768
+birthday: unknown
+birthplace: wild.3
+children: 762, 763, 764, 765, 766, 767
+death: 1990/3/19
+en.name: I-I
+en.nicknames: none
+en.othernames: ii
+gender: m
+jp.name: 良
+jp.nicknames: none
+jp.othernames: いい
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 10, 1985/3/19
+species: 2
+zoo: 10

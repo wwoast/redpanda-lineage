@@ -32,6 +32,7 @@ Show.acquirePandaInfo = function(animal, language) {
  "photo_manifest": Pandas.photoManifest(animal),
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
         "species": Pandas.species(animal["_id"]),
+           "wild": Pandas.myWild(animal, "wild"),
             "zoo": Pandas.myZoo(animal, "zoo")
   }
   bundle = L.fallbackInfo(bundle, animal);  // Any defaults here?
@@ -1203,12 +1204,19 @@ Show.profile.where = function(animal, language) {
   container.className = "zooHistory";
   for (let zoo of history.reverse()) {
     var zoo_icon = L.emoji.zoo;
-    var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
-    if (zoo["end_date"] == Pandas.def.unknown[language]) {
-      date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
-      zoo_icon = L.emoji.home;
+    // Different date string logic for zoos versus wild animal sightings.
+    if (zoo["id"].indexOf("wild.") == -1) {
+      var date_string = zoo["start_date"] + "\u2014" + zoo["end_date"];
+      if (zoo["end_date"] == Pandas.def.unknown[language]) {
+        date_string = L.gui.since_date[language].replace("<INSERTDATE>", zoo["start_date"]);
+        zoo_icon = L.emoji.home;
+      }
+    } else {
+      zoo_icon = L.emoji.tree;
+      date_string = L.gui.seen_date[language].replace("<INSERTDATE>", zoo["start_date"]);
     }
-    if ((zoo["end_date"] != Pandas.def.unknown[language]) && (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
+    if ((zoo["end_date"] != Pandas.def.unknown[language]) && 
+    (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
       zoo_icon = L.emoji.died;
     }
     var zoo_info = Pandas.searchZooId(zoo["id"])[0];
@@ -1220,7 +1228,9 @@ Show.profile.where = function(animal, language) {
     zoo_date.className = "detail";
     zoo_date.innerText = date_string;
     zoo_name.appendChild(zoo_link);
-    zoo_name.appendChild(zoo_date);
+    if (zoo["start_date"] != Pandas.def.unknown[language]) {
+      zoo_name.appendChild(zoo_date);
+    }
     zoo_entry.appendChild(zoo_name);
     var zoo_location = document.createElement('li');
     // Location shows a map icon and a flag icon, and links to
@@ -1388,32 +1398,41 @@ Show.results.panda = function(animal, language) {
 Show.results.pandaDetails = function(info) {
   // The purple results-page "dossier" information stripe for a panda.
   var language = info.language;
+  // Start the new Div
+  var details = document.createElement('div');
+  details.className = "pandaDetails";
+  // Start creating content
   var [first_string, second_string] = Show.birthday(info, language);
   var born = document.createElement('p');
   born.innerText = first_string;
+  details.appendChild(born);
   // If still alive, print their current age
   var second = document.createElement ('p');
   second.innerText = second_string;
-  // Zoo link is the animal's home zoo, linking to a search 
-  // for all living pandas at the given zoo.
-  var zoo = document.createElement('p');
-  var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
-  zoo.appendChild(zoo_link);
-  // Location shows a map icon and a flag icon, and links to
-  // a Google Maps search for the "<language>.address" field
-  var location = document.createElement('p');
-  var location_link = Show.locationLink(info.zoo, language);
-  location.appendChild(location_link);
-  // Give credit for the person that took this photo
-  var credit = Show.creditLink(info, 'p');
-  var details = document.createElement('div');
-  details.className = "pandaDetails";
-  details.appendChild(born);
   if ((info.age != undefined) && (info.age != "unknown")) {
     details.appendChild(second);
   }
-  details.appendChild(zoo);
-  details.appendChild(location);
+  // Zoo link is the animal's home zoo, linking to a search 
+  // for all living pandas at the given zoo.
+  if (info.zoo != undefined) {
+    var zoo = document.createElement('p');
+    var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
+    zoo.appendChild(zoo_link);  
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field
+    var location = document.createElement('p');
+    var location_link = Show.locationLink(info.zoo, language);
+    location.appendChild(location_link);
+    details.appendChild(zoo);
+    details.appendChild(location);
+  }
+  if (info.wild != undefined) {
+    var wild = document.createElement('p');
+    wild.innerText = L.flags[info.wild["flag"]] + " " + info.wild[language + ".name"];
+    details.appendChild(wild);
+  }
+  // Give credit for the person that took this photo
+  var credit = Show.creditLink(info, 'p');
   details.appendChild(credit);
   if (info.photo_credit != undefined) {
     // See how many other panda photos this user has posted
@@ -1633,7 +1652,9 @@ Show.searchBar.remove = function(frame_id="bottomSearch") {
   // Remove the search bar when leaving profile mode. By default it will be
   // the bottom menu search bar that gets disappeared.
   var searchBar = document.getElementById(frame_id);
-  searchBar.parentNode.remove(searchBar);
+  if (searchBar != null) {
+    searchBar.parentNode.remove(searchBar);
+  }
 }
 Show.searchBar.render = function(frame_class, frame_id) {
   // Create a search bar. Should be the same kind of bar that would appear

@@ -1,19 +1,17 @@
 [panda]
-_id: 717
-birthday: unknown
-birthplace: wild.3
+_id: 765
+birthday: 1988/6/17
+birthplace: 10
 children: none
-death: 1998/7/20
+death: 1988/10/18
 en.name: (no name)
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: m
 jp.name: (ネームレス)
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: unknown
-location.1: wild.3
-location.2: 46, 1987/11/17
+litter: 766
 species: 2
-zoo: 46
+zoo: 10

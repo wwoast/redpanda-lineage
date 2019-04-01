@@ -1,6 +1,10 @@
 [wild]
 _id: wild.5
 en.address: unknown
-en.location: unknown
-en.name: Wild Captured in Nepal
+en.location: Nepal
+en.name: Captured Wild Animal
+flag: Nepal
+jp.address: unknown
+jp.location: ネパール
+jp.name: 捕獲された野生動物
 language.order: en
