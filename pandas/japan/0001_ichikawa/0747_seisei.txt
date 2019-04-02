@@ -2,15 +2,15 @@
 _id: 747
 birthday: unknown
 birthplace: wild.3
-children: 748, 749, 750, 751, 752, 753, 702
+children: 748, 749, 657, 658, 752, 753, 702
 death: 2000/9/7
-en.name: (no name)
+en.name: Sei-Sei
 en.nicknames: none
-en.othernames: none
+en.othernames: Seisei
 gender: f
-jp.name: (ネームレス)
+jp.name: 誠誠
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: セイセイ
 language.order: jp, en
 litter: unknown
 locatoin.1: wild.3
