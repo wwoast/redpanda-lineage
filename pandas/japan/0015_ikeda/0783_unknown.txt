@@ -1,9 +1,9 @@
 [panda]
-_id: 764
-birthday: 1987/5/31
-birthplace: 10
-children: 750, 751, 754
-death: 2003/5/13
+_id: 783
+birthday: 1991/6/16
+birthplace: 6
+children: unknown
+death: 2008/5/6
 en.name: (no name)
 en.nicknames: none
 en.othernames: none
@@ -12,8 +12,8 @@ jp.name: (無名)
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 763
-location.1: 10, 1987/5/31
-location.2: 13, 1991/10/30
+litter: 784
+location.1: 6, 1991/6/16
+location.2: 15, 1993/11/9
 species: 2
-zoo: 13
+zoo: 15
