@@ -641,6 +641,7 @@ Show.button.random.action = function() {
   Page.current = Page.results.render;
   var pandaIds = P.db.vertices.filter(entity => entity._id > 0)
                               .filter(entity => entity["photo.1"] != undefined)
+                              .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   window.scrollTo(0, 0);   // Go to the top of the page
