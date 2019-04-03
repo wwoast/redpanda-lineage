@@ -1409,7 +1409,7 @@ Show.results.pandaDetails = function(info) {
   // If still alive, print their current age
   var second = document.createElement ('p');
   second.innerText = second_string;
-  if ((info.age != undefined) && (info.age != "unknown")) {
+  if (info.age != undefined) {
     details.appendChild(second);
   }
   // Zoo link is the animal's home zoo, linking to a search 
