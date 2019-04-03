@@ -394,8 +394,8 @@ div.pandaPhoto, div.zooPhoto {
 div.pandaPhoto img, div.zooPhoto img {
     width: auto;
     height: auto;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 340px;
+    max-height: 340px;
     z-index: 1;
 }
 
@@ -1066,6 +1066,7 @@ div.photoSample h5.caption.familyTitle {
         margin-left: auto;
         margin-right: auto;
         max-width: 100%;
+        max-height: 100%;
     }
 
     div.pandaTitle, div.zooTitle {
