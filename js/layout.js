@@ -482,7 +482,7 @@ Layout.L.arrangement.fourListTwoLong = function(mode="onlyDesktop") {
     var cur_list = this[list_name];
     var list_len = this.num[list_name];
     // Set a multicolumn if necessary
-    if (list_len >= 3) {
+    if ((list_len >= 3) && (list_name != "litter")) {
       Layout.multiColumn(cur_list);
     }
     else if (i == 1) { 
