@@ -1,0 +1,19 @@
+[panda]
+_id: 797
+birthday: 2001/6/16
+birthplace: 133
+children: unknown
+death: 2013/1/31
+en.name: San
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 796
+location.1: 133, 2001/6/16
+location.2: 92, 2002/11/6
+species: 1
+zoo: 92

@@ -3,6 +3,7 @@ _id: 185
 en.address: 1600 S Beltline Hwy W, Scottsbluff, NE 69361
 en.location: Scottsbluff, Nebraska, USA
 en.name: Riverside Discovery Center
+en.othernames: Riverside Park and Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/Qt4FF5wmb2k

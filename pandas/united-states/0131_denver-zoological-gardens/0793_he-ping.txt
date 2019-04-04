@@ -1,0 +1,23 @@
+[panda]
+_id: 793
+birthday: 1998/6/19
+birthplace: 124
+children: 675, 794, 795, 796, 797, 530, 531, 532, 533, 798, 799
+death: 2011/12/15
+en.name: He-Ping
+en.nicknames: none
+en.othernames: Heping
+gender: m
+jp.name: 和平
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 800
+location.1: 124, 1998/6/19
+location.2: 108, 1999/12/17
+location.3: 133, 2001/3/30
+location.4: 93, 2001/11/8
+location.5: unknown, 2003/1/20
+location.6: 131, 2007/11/28
+species: 1
+zoo: 131

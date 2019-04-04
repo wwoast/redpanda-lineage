@@ -1,0 +1,17 @@
+[panda]
+_id: 798
+birthday: 2009/7/9
+birthplace: 131
+children: unknown
+death: 2009/10/15
+en.name: Ling-Qi
+en.nicknames: none
+en.othernames: Lingqi
+gender: f
+jp.name: リンチー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 532, 533, 799
+species: 1
+zoo: 131
