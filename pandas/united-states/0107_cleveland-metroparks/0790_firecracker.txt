@@ -1,0 +1,21 @@
+[panda]
+_id: 790
+birthday: 2006/6/30
+birthplace: 116
+children: unknown
+death: 2017/12/4
+en.name: Firecracker
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 爆竹
+jp.nicknames: none
+jp.othernames: ばくちく
+language.order: en, jp
+litter: 789
+location.1: 116, 2006/6/30
+location.2: 105, 2009/2/19
+location.3: 118, 2009/11/23
+location.4: 107, 2016/12/1
+species: 1
+zoo: 107

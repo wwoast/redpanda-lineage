@@ -1,0 +1,20 @@
+[panda]
+_id: 788
+birthday: 1997/6/25
+birthplace: 158
+children: 695, 696, 789, 790, 791, 792, 497, 523
+death: 2015/2/21
+en.name: Disney
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ディズニー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 158, 1997/6/25
+location.2: 109, 2000/1/12
+location.3: 80, 2016/11/29
+species: 1
+zoo: 80

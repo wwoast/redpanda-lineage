@@ -1,0 +1,19 @@
+[panda]
+_id: 789
+birthday: 2006/6/30
+birthplace: 116
+children: none
+death: 2009/2/8
+en.name: Velcro
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ベルクロ
+jp.nicknames: マジックテープ
+jp.othernames: none
+language.order: en, jp
+litter: 790
+location.1: 116, 2006/6/30
+location.2: 119, 2008/12/17
+species: 1
+zoo: 119
