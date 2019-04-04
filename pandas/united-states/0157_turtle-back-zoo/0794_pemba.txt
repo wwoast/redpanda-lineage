@@ -1,0 +1,22 @@
+[panda]
+_id: 794
+birthday: 2000/6/9
+birthplace: 108
+children: unknown
+death: 2008/3/21
+en.name: Pemba
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ペンバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 675, 795
+location.1: 108, 2000/6/9
+location.2: 133, 2001/3/30
+location.3: 119, 2001/11/8
+location.4: 120, 2005/4/13
+location.5: 157, 2007/4/19
+species: 1
+zoo: 157
