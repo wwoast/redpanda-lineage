@@ -5,7 +5,7 @@ birthplace: 60
 children: 290, 155
 en.name: Yu-Yu
 en.nicknames: none
-en.othernames: Yuyu, Flying
+en.othernames: Yuyu, Flying, You-You, Youyou
 gender: f
 jp.name: 遊遊
 jp.nicknames: none
@@ -53,5 +53,9 @@ photo.10: https://www.instagram.com/p/Bu0_yNplt6b/media/?size=m
 photo.10.author: ifumoto88
 photo.10.link: https://www.instagram.com/ifumoto88/
 photo.10.tags: paws, smile
+photo.11: https://www.instagram.com/p/Bv2sh__l7Zb/media/?size=m
+photo.11.author: ifumoto88
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: tail, tree
 species: 2
 zoo: 73

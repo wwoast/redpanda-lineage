@@ -17,7 +17,6 @@ location.2: 8, 2004/3/30
 photo.1: https://www.instagram.com/p/BfJ4l3AFfFS/media/?size=m
 photo.1.author: kipekaila
 photo.1.link: https://www.instagram.com/kipekaila/
-photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Bk09ip8lNSL/media/?size=m
 photo.2.author: panda.daisuki
 photo.2.link: https://www.instagram.com/panda.daisuki/
@@ -118,5 +117,13 @@ photo.26: https://www.instagram.com/p/Bvx5AsYFcXL/media/?size=m
 photo.26.author: mari_neko3
 photo.26.link: https://www.instagram.com/mari_neko3/
 photo.26.tags: eye, tail
+photo.27: https://www.instagram.com/p/Bvy_CH2l_tH/media/?size=m
+photo.27.author: ifumoto88
+photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: eye, slobber
+photo.28: https://www.instagram.com/p/Bv0W2C5FqZb/media/?size=m
+photo.28.author: na.mo.pan
+photo.28.link: https://www.instagram.com/na.mo.pan/
+photo.28.tags: profile
 species: 2
 zoo: 8

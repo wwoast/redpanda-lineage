@@ -21,5 +21,13 @@ photo.1.tags: profile, smile
 photo.2: https://www.instagram.com/p/BsPo5r1Fyjj/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.3: https://www.instagram.com/p/BvsKJiRAA09/media/?size=m
+photo.3.author: craig_craig_craig
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.3.tags: bamboo
+photo.4: https://www.instagram.com/p/BvWm4GkF32x/media/?size=m
+photo.4.author: craig_craig_craig
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: paws
 species: 2
 zoo: 30

@@ -30,6 +30,7 @@ photo.4.tags: dish, lunch time
 photo.5: https://www.instagram.com/p/Bol2DRLFyO0/media/?size=m
 photo.5.author: minato.yokohama2130
 photo.5.link: https://www.instagram.com/minato.yokohama2130/
+photo.5.tags: profile
 photo.6: https://www.instagram.com/p/BqHefetlq92/media/?size=m
 photo.6.author: minato.yokohama2130
 photo.6.link: https://www.instagram.com/minato.yokohama2130/
@@ -41,24 +42,20 @@ photo.8: https://www.instagram.com/p/BqhUETPlerG/media/?size=m
 photo.8.author: gloryeui
 photo.8.link: https://www.instagram.com/gloryeui/
 photo.8.tags: apple time, dish
-photo.9: https://www.instagram.com/p/Bq3-wZvlf6t/media/?size=m
-photo.9.author: gloryeui
-photo.9.link: https://www.instagram.com/gloryeui/
-photo.9.tags: profile
-photo.10: https://www.instagram.com/p/Bq4EG3iHtL9/media/?size=m
-photo.10.author: yakko____
-photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: apple time, dish, paws
-photo.11: https://www.instagram.com/p/BsAeszTlted/media/?size=m
+photo.9: https://www.instagram.com/p/Bq4EG3iHtL9/media/?size=m
+photo.9.author: yakko____
+photo.9.link: https://www.instagram.com/yakko____/
+photo.9.tags: apple time, dish, paws
+photo.10: https://www.instagram.com/p/BsAeszTlted/media/?size=m
+photo.10.author: minato.yokohama2130
+photo.10.link: https://www.instagram.com/minato.yokohama2130/
+photo.11: https://www.instagram.com/p/BsKij7fFnyq/media/?size=m
 photo.11.author: minato.yokohama2130
 photo.11.link: https://www.instagram.com/minato.yokohama2130/
-photo.12: https://www.instagram.com/p/BsKij7fFnyq/media/?size=m
-photo.12.author: minato.yokohama2130
-photo.12.link: https://www.instagram.com/minato.yokohama2130/
-photo.12.tags: apple time, lunch time, paws
-photo.13: https://www.instagram.com/p/Btrl6IhlYKE/media/?size=m
-photo.13.author: rierie_panda616
-photo.13.link: https://www.instagram.com/rierie_panda616/
-photo.13.tags: laying down
+photo.11.tags: apple time, lunch time, paws
+photo.12: https://www.instagram.com/p/Btrl6IhlYKE/media/?size=m
+photo.12.author: rierie_panda616
+photo.12.link: https://www.instagram.com/rierie_panda616/
+photo.12.tags: laying down
 species: 2
 zoo: 13
