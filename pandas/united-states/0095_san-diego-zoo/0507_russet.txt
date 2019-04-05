@@ -16,5 +16,32 @@ litter: 170
 location.1: 114, 2011/6/5
 location.2: 116, 2012/5/21
 location.3: 95, 2015/3/12
+photo.1: http://www.codaworry.com/images/rpf/russet-1-sandiego.jpg
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: smile
+photo.2: http://www.codaworry.com/images/rpf/russet-2-sandiego.jpg
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.3: http://www.codaworry.com/images/rpf/russet-3-sandiego.jpg
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile, tree
+photo.4: http://www.codaworry.com/images/rpf/russet-4-sandiego.jpg
+photo.4.author: worldthathesees
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: smile. tongue
+photo.5: http://www.codaworry.com/images/rpf/russet-5-sandiego.jpg
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: smile
+photo.6: http://www.codaworry.com/images/rpf/russet-6-sandiego.jpg
+photo.6.author: worldthathesees
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: profile, smile, tree
+photo.7: http://www.codaworry.com/images/rpf/russet-7-sandiego.jpg
+photo.7.author: worldthathesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: smile, tongue, tree
 species: 1
 zoo: 95
