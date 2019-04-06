@@ -8,7 +8,7 @@ en.nicknames: none
 en.othernames: Yū
 gender: f
 jp.name: ゆう
-jp.nicknames: none
+jp.nicknames: ユウ
 jp.othernames: none
 language.order: jp, en
 litter: 47
@@ -83,5 +83,8 @@ photo.18: https://www.instagram.com/p/Bvs8NWOlHzw/media/?size=m
 photo.18.author: mari_neko3
 photo.18.link: https://www.instagram.com/mari_neko3/
 photo.18.tags: home
+photo.19: https://www.instagram.com/p/Bv4G6lJl8bU/media/?size=m
+photo.19.author: ifumoto88
+photo.19.link: home, itchy, paws, tail
 species: 2
 zoo: 8
