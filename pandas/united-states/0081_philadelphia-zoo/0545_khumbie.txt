@@ -5,7 +5,7 @@ birthplace: 141
 children: 543, 544
 en.name: Khumbie
 en.nicknames: none
-en.othernames: none
+en.othernames: Khumbi
 gender: m
 jp.name: クンビー
 jp.nicknames: none
@@ -17,6 +17,19 @@ location.2: 81, 2015/11/23
 photo.1: https://www.instagram.com/p/BusBQMmBIDb/media/?size=m
 photo.1.author: rossifari
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: profile
+photo.2: https://www.instagram.com/p/BtDwbZWFSHM/media/?size=m
+photo.2.author: philadelphiazoo
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.2.tags: snow
+photo.3: https://www.instagram.com/p/BsDXfXqFqhv/media/?size=m
+photo.3.author: philadelphiazoo
+photo.3.link: https://www.instagram.com/philadelphiazoo/
+photo.4: https://www.instagram.com/p/BeZEpbxA74R/media/?size=m
+photo.4.author: philadelphiazoo
+photo.4.link: https://www.instagram.com/philadelphiazoo/
+photo.5: https://www.instagram.com/p/BYYbKs4lWnc/media/?size=m
+photo.5.author: philadelphiazoo
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: bamboo, paws, profile, tail
 species: 1
 zoo: 81
