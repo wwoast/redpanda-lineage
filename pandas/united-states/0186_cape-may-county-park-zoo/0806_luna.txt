@@ -1,0 +1,22 @@
+[panda]
+_id: 806
+birthday: 2001/6/22
+birthplace: 108
+children: 803, 804, 805, 534, 623, 624
+en.name: Luna
+en.nicknames: none
+en.othernames: Runa
+gender: f
+jp.name: ルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 108, 2001/6/22
+location.2: 48, 2002/5/29
+location.3: 75, 2002/7/2
+location.4: 104, 2003/1/9
+location.5: 154, 2007/4/12
+location.6: 186, 2011/11/23
+species: 1
+zoo: 186

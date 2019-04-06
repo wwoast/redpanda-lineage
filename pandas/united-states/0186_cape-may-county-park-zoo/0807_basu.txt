@@ -1,17 +1,18 @@
 [panda]
-_id: 580
+_id: 807
 birthday: 2013/7/20
 birthplace: 146
-children: 573, 574
-death: 2016/10/22
-en.name: Maina
+children: unknown
+en.name: Basu
 en.nicknames: none
 en.othernames: none
-gender: f
-jp.name: マイナ
+gender: m
+jp.name: バスー 
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 807, 808
+litter: 580, 808
+location.1: 146, 2013/7/20
+location.2: 186, 2014/4/22
 species: 1
-zoo: 112
+zoo: 186
