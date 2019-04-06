@@ -2,7 +2,7 @@
 _id: 371
 birthday: 1992/8/7
 birthplace: 15
-children: 351, 352, 76, 328, 126
+children: 475, 595, 802, 81, 476, 76, 328, 126
 death: 2006/11/1
 en.name: Mii-Mii
 en.nicknames: none
@@ -13,5 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 547
+location.1: 15, 1992/8/7
+location.2: 6, 1993/11/10
 species: 2
 zoo: 6
