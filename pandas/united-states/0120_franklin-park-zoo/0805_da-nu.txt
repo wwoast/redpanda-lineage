@@ -1,0 +1,20 @@
+[panda]
+_id: 805
+birthday: 2004/6/16
+birthplace: 104
+children: unknown
+death: 2008/1/22
+en.name: Da-nu
+en.nicknames: none
+en.othernames: Danu
+gender: f
+jp.name: ダヌー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 804
+location.1: 104, 2004/6/16
+location.2: 158, 2005/3/18
+location.3: 120, 2007/11/16
+species: 1
+zoo: 120

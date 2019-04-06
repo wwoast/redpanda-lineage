@@ -1,0 +1,18 @@
+[panda]
+_id: 804
+birthday: 2004/6/16
+birthplace: 104
+children: unknown
+en.name: Nyima
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ニマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 805
+location.1: 104, 2004/6/16
+location.2: 158, 2005/3/18
+species: 1
+zoo: 158
