@@ -1,0 +1,17 @@
+[panda]
+_id: 815
+birthday: 2017/6/14
+birthplace: 121
+children: none
+death: 2017/11/20
+en.name: Whiskers
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ひげ
+jp.nicknames: none
+jp.othernames: 髭
+language.order: en, jp
+litter: 814
+species: 1
+zoo: 121

@@ -1,0 +1,26 @@
+[panda]
+_id: 814
+birthday: 2017/6/14
+birthplace: 121
+children: none
+en.name: Leo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: レーオ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 815
+location.1: 121, 2017/6/14
+location.2: 152, 2018/2/6
+photo.1: https://www.instagram.com/p/BvWi2iYDYkf/media/?size=m
+photo.1.author: brookfieldzoo
+photo.1.link: https://www.instagram.com/brookfieldzoo/
+photo.1.tags: profile
+photo.2: https://www.instagram.com/p/Bk27A40gf4w/media/?size=m
+photo.2.author: brookfieldzoo
+photo.2.link: https://www.instagram.com/brookfieldzoo/
+photo.2.tags: bamboo
+species: 1
+zoo: 152

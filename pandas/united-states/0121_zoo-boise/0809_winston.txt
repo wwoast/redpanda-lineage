@@ -1,0 +1,26 @@
+[panda]
+_id: 809
+birthday: 2011/6/20
+birthplace: 108
+children: 519, 810, 811, 812, 813, 814, 815
+en.name: Winston
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウィンストン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 108, 2011/6/20
+location.2: 121, 2012/5/7
+photo.1: https://www.instagram.com/p/Bkqh2Y8gF9T/media/?size=m
+photo.1.author: zooboise
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: profile
+photo.2: https://www.instagram.com/p/BXD0FvZF5uw/media/?size=m
+photo.2.author: zooboise
+photo.2.link: https://www.instagram.com/zooboise/
+photo.2.tags: toys
+species: 1
+zoo: 121

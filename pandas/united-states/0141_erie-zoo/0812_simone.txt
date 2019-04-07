@@ -1,0 +1,18 @@
+[panda]
+_id: 812
+birthday: 2015/6/18
+birthplace: 121
+children: unknown
+en.name: Simone
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シモーネ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 813
+location.1: 121, 2015/6/18
+location.2: 141, 2016/5/5
+species: 1
+zoo: 141

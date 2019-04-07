@@ -1,0 +1,18 @@
+[panda]
+_id: 810
+birthday: 2014/6/6
+birthplace: 121
+children: unknown
+en.name: Sami
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サミ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 811
+location.1: 121, 2014/6/6
+location.2: 144, 2015/4/15
+species: 1
+zoo: 144

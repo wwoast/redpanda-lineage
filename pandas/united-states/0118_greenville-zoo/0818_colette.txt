@@ -1,0 +1,22 @@
+[panda]
+_id: 818
+birthday: 2012/6/11
+birthplace: 119
+children: unknown
+en.name: Colette
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: コレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 119, 2012/6/11
+location.2: 118, 2013/3/15
+photo.1: https://www.instagram.com/p/BpfkjspF7G0/media/?size=m
+photo.1.author: patrickrossphotos
+photo.1.link: https://www.instagram.com/patrickrossphotos/
+photo.1.tags: profile, smile
+species: 1
+zoo: 118
