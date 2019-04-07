@@ -15,5 +15,9 @@ language.order: jp, en
 litter: none
 location.1: 37, 2001/7/9
 location.2: 1, 2012/11/28
+photo.1: http://www.codaworry.com/images/rpf/nyannyan-1-ichikawa.jpg
+photo.1.author: dai4i
+photo.1.link: https://ameblo.jp/dai4i/entry-11501989286.html
+photo.1.tags: profile
 species: 2
 zoo: 1
