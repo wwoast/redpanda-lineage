@@ -1,6 +1,6 @@
 [panda]
 _id: 816
-birthday: 2018/6/1
+birthday: unknown
 birthplace: 121
 children: none
 en.name: Spring
@@ -12,9 +12,13 @@ jp.nicknames: none
 jp.othernames: 春
 language.order: en, jp
 litter: unknown
-photo.1: https://www.instagram.com/p/BrYogH5g3YB/media/?size=m
-photo.1.author: lilythecrazycatlady
-photo.1.link: https://www.instagram.com/lilythecrazycatlady/
-photo.1.tags: baby, profile
+photo.1: https://www.instagram.com/p/BnJk7FTA9Rv/media/?size=m
+photo.1.author: zooboise
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: baby
+photo.2: https://www.instagram.com/p/BrYogH5g3YB/media/?size=m
+photo.2.author: lilythecrazycatlady
+photo.2.link: https://www.instagram.com/lilythecrazycatlady/
+photo.2.tags: baby, profile
 species: 1
 zoo: 121
