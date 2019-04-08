@@ -1,0 +1,33 @@
+[panda]
+_id: 820
+birthday: 2012/7/1
+birthplace: 109
+children: 821
+en.name: Justin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャスティン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 109, 2012/7/1
+location.2: 123, 2017/12/20
+photo.1: https://www.instagram.com/p/BvwuU0HF7iX/media/?size=m
+photo.1.author: fwkidszoo
+photo.1.link: https://www.instagram.com/fwkidszoo/
+photo.1.tags: smile
+photo.2: https://www.instagram.com/p/BsGNYVyADNp/media/?size=m
+photo.2.author: fwkidszoo
+photo.2.link: https://www.instagram.com/fwkidszoo/
+photo.3: https://www.instagram.com/p/BqQOYbWgQqN/media/?size=m
+photo.3.author: fwkidszoo
+photo.3.link: https://www.instagram.com/fwkidszoo/
+photo.3.tags: bamboo, profile
+photo.4: https://www.instagram.com/p/BnmNqgKD7AF/media/?size=m
+photo.4.author: fwkidszoo
+photo.4.link: https://www.instagram.com/fwkidszoo/
+photo.4.tags: bamboo
+species: 1
+zoo: 123

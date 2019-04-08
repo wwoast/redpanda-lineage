@@ -3,9 +3,9 @@ _id: 15
 birthday: 2011/6/5
 birthplace: 5
 children: 96, 118, 288, 5, 241
-cn.name: unknown
-cn.nicknames: unknown
-cn.othernames: unknown
+cn.name: 烏龍
+cn.nicknames: none
+cn.othernames: none
 en.name: Oolong
 en.nicknames: Wu-Ron
 en.othernames: none

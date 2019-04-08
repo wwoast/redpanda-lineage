@@ -3,7 +3,7 @@ _id: 14
 birthday: 2010/7/14
 birthplace: 5
 children: 96, 118, 288, 241
-cn.name: unknown
+cn.name: 莉
 cn.nicknames: none
 cn.othernames: none
 en.name: Jasmine
@@ -154,5 +154,9 @@ photo.38: https://www.instagram.com/p/Bv6c0CyFW7j/media/?size=m
 photo.38.author: lespan33
 photo.38.link: https://www.instagram.com/lespan33/
 photo.38.tags: smile
+photo.39: https://www.instagram.com/p/Bv9e-3YFXbu/media/?size=m
+photo.39.author: akiakiakiko18
+photo.39.link: https://www.instagram.com/akiakiakiko18/
+photo.39.tags: bamboo, tongue
 species: 2
 zoo: 2

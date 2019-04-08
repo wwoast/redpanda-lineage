@@ -1,0 +1,18 @@
+[panda]
+_id: 821
+birthday: 2015/6/3
+birthplace: 109
+children: unknown
+en.name: Scout
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スカウト
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 109, 2015/6/3
+location.2: 188, 2016/11/8
+species: 1
+zoo: 188
