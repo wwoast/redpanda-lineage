@@ -1,0 +1,19 @@
+[panda]
+_id: 835
+birthday: 2004/7/17
+birthplace: 75
+children: none
+en.name: Scarlet
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スカーレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 834
+location.1: 75, 2004/7/17
+location.2: 163, 2005/11/17
+location.3: 118, 2008/11/13
+species: 1
+zoo: 118

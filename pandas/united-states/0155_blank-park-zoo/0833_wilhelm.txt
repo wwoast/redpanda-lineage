@@ -1,18 +1,18 @@
 [panda]
-_id: 581
+_id: 833
 birthday: 2017/6/20
 birthplace: 107
 children: none
-en.name: Jacob
+en.name: Wilhelm
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ヤコブ
+jp.name: ウィルヘルム
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 833
+litter: 581
 location.1: 107, 2017/6/20
-location.2: 148, 2018/5/23
+location.2: 155, 2018/4/26
 species: 1
-zoo: 148
+zoo: 155
