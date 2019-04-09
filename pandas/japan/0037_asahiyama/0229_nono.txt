@@ -15,5 +15,37 @@ language.order: jp, en
 litter: 13
 location.1: 17, 2002/7/15
 location.2: 37, 2004/2/13
+photo.1: http://www.codaworry.com/images/rpf/nono-1-asahiyama.jpg
+photo.1.author: asahiyamazoo1
+photo.1.link: http://www.city.asahikawa.hokkaido.jp/asahiyamazoo/news-blog/breeding-news/d0590092.html
+photo.1.tags: bridge
+photo.2: http://www.codaworry.com/images/rpf/nono-2-asahiyama.jpg
+photo.2.author: shinlachi
+photo.2.link: https://shinlachi.exblog.jp/22599695/
+photo.2.tags: bamboo, blink, grumpy
+photo.3: http://www.codaworry.com/images/rpf/nono-3-asahiyama.jpg
+photo.3.author: animalparadisedxv
+photo.3.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.3.tags: smile, snow, tongue
+photo.4: http://www.codaworry.com/images/rpf/nono-3-asahiyama.jpg
+photo.4.author: animalparadisedxv
+photo.4.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.4.tags: smile
+photo.5: http://www.codaworry.com/images/rpf/nono-5-asahiyama.jpg
+photo.5.author: animalparadisedxv
+photo.5.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.5.tags: snow
+photo.6: http://www.codaworry.com/images/rpf/nono-6-asahiyama.jpg
+photo.6.author: animalparadisedxv
+photo.6.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.6.tags: bamboo, snow
+photo.7: http://www.codaworry.com/images/rpf/nono-7-asahiyama.jpg
+photo.7.author: animalparadisedxv
+photo.7.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.7.tags: bamboo, profile, smile
+photo.8: http://www.codaworry.com/images/rpf/nono-8-asahiyama.jpg
+photo.8.author: animalparadisedxv
+photo.8.link: http://animalparadisedxv.blog.fc2.com/blog-entry-795.html
+photo.8.tags: bamboo, smile
 species: 2
 zoo: 37
