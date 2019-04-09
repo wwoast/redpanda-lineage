@@ -1,0 +1,21 @@
+[panda]
+_id: 836
+birthday: 2007/6/23
+birthplace: 141
+children: 516
+death: 2017/4/8
+en.name: Rusty
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ラスティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 837
+location.1: 141, 2007/6/23
+location.2: 48, 2008/10/1
+location.3: 101, 2010/10/14
+location.4: 104, 2012/11/15
+species: 1
+zoo: 104
