@@ -2,7 +2,7 @@
 _id: 443
 birthday: 2008/5/26
 birthplace: 82
-children: 434, 481, 485, 486
+children: 423, 434, 481, 485, 486
 en.name: Pip
 en.nicknames: none
 en.othernames: none
@@ -19,5 +19,16 @@ photo.2: https://www.instagram.com/p/Bg4bAHFDqJI/media/?size=m
 photo.2.author: daintrechristensen
 photo.2.link: https://www.instagram.com/daintrechristensen/
 photo.2.tags: profile
+photo.3: https://www.instagram.com/p/BZHaifDApAe/media/?size=m
+photo.3.author: buildingourzoo
+photo.3.link: https://www.instagram.com/buildingourzoo/
+photo.3.tags: tongue
+photo.4: https://www.instagram.com/p/BqulPf2D-XO/media/?size=m
+photo.4.author: buildingourzoo
+photo.4.link: https://www.instagram.com/buildingourzoo/
+photo.4.tags: laying down
+photo.5: https://www.instagram.com/p/BRKHmiFD1GJ/media/?size=m
+photo.5.author: buildingourzoo
+photo.5.link: https://www.instagram.com/buildingourzoo/
 species: 2
 zoo: 82

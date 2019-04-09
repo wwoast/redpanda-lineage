@@ -1,17 +1,17 @@
 [panda]
-_id: 829
-birthday: 1994/7/9
-birthplace: 29
-children: 826, 827, 828, 471, 612
-death: 2014/5/14
-en.name: Rin
+_id: 832
+birthday: 1998/6/20
+birthplace: 3
+children: none
+death: 1999/3/2
+en.name: Wakaba
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: リン
+jp.name: わかば
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
 species: 2
-zoo: 29
+zoo: 3

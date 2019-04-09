@@ -1,0 +1,19 @@
+[panda]
+_id: 830
+birthday: unknown
+birthplace: wild.3
+children: 231, 563, 363, 562
+death: 2009/7/20
+en.name: Rin-Rin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リンリン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 3, 1994/4/2
+species: 2
+zoo: 3

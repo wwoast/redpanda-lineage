@@ -1,0 +1,19 @@
+[panda]
+_id: 831
+birthday: unknown
+birthplace: wild.3
+children: 832, 602, 780, 223, 740
+death: 2003/2/15
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 3, 1994/4/2
+species: 2
+zoo: 3
