@@ -8,5 +8,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 location.1: wild.6, 2019/Spring
+photo.1: https://www.instagram.com/p/Bv47iCpjf3x/media/?size=m
+photo.1.author: redpandanetwork
+photo.1.link: https://www.instagram.com/redpandanetwork/
+photo.1.tags: profile
 species: 3
 wild: wild.6

@@ -15,5 +15,21 @@ language.order: jp, en
 litter: 303
 location.1: 17, 2002/7/2
 location.2: 9, 2003/11/17
+photo.1: https://www.codaworry.com/images/rpf/maguro-1-saitama.jpg
+photo.1.author: redpandamaniax
+photo.1.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.1.tags: bamboo
+photo.2: https://www.codaworry.com/images/rpf/maguro-2-saitama.jpg
+photo.2.author: gachon_kudo
+photo.2.link: https://gachon.exblog.jp/i12/
+photo.2.tags: flowers, smile, tongue
+photo.3: https://www.codaworry.com/images/rpf/maguro-3-saitama.jpg
+photo.3.author: redpandamaniax
+photo.3.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.3.tags: climb, tree
+photo.4: https://www.codaworry.com/images/rpf/maguro-4-saitama.jpg
+photo.4.author: redpandamaniax
+photo.4.link: http://redpandamaniax.blog59.fc2.com/blog-entry-269.html
+photo.4.tags: bamboo, profile
 species: 2
 zoo: 9

@@ -13,10 +13,10 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 314
-photo.1: http://zoo.city.fukuoka.lg.jp/files/NewsDetail/4/NewsDetail_4871_image.jpg
+photo.1: https://www.codaworry.com/images/rpf/tekka-3-fukuoka.jpg
 photo.1.author: fukuoka_zoo
 photo.1.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
-photo.2: http://zoo.city.fukuoka.lg.jp/files/NewsDetail/4/NewsDetail_4872_image.jpg
+photo.2: https://www.codaworry.com/images/rpf/tekka-4-fukuoka.jpg
 photo.2.author: fukuoka_zoo
 photo.2.link: http://zoo.city.fukuoka.lg.jp/news/detail/648
 photo.2.tags: bamboo, profile
