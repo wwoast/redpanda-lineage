@@ -16,5 +16,25 @@ location.1: 83, 2009/6/11
 location.2: 44, 2010/6/8
 location.3: 88, 2013/11/20
 location.4: 87, 2014/12/22
+photo.1: https://www.codaworry.com/images/rpf/leafa-1-lincolnpark.jpg
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: smile
+photo.2: https://www.codaworry.com/images/rpf/leafa-2-lincolnpark.jpg
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo
+photo.3: https://www.codaworry.com/images/rpf/leafa-3-lincolnpark.jpg
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile
+photo.4: https://www.codaworry.com/images/rpf/leafa-4-lincolnpark.jpg
+photo.4.author: worldthathesees
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: laying down
+photo.5: https://www.codaworry.com/images/rpf/leafa-5-lincolnpark.jpg
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: profile
 species: 2
 zoo: 87
