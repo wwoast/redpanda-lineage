@@ -235,6 +235,11 @@ Language.L.gui = {
     "en": "Profile",
     "jp": "プロフィール"
   },
+  "quadruplet": {
+    "cn": "四套",
+    "en": "Quadruplet",
+    "jp": "四つ子"
+  },
   "random": {
     "cn": "隨機",
     "en": "Random",

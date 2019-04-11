@@ -1037,8 +1037,11 @@ Show.profile.family = function(animal, language) {
   var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
   for (let litter_photo of litter_photos) {
     var subHeading = L.gui.twin[language];
-    if (litter_photos.length > 1) {
+    if (litter_photos.length == 2) {
       subHeading = L.gui.triplet[language];
+    }
+    if (litter_photos.length >= 3) {
+      subHeading = L.gui.quadruplet[language];
     }
     var litter_mate = info.litter.filter(x => x["_id"] == litter_photo["id"])[0];
     var div = Gallery.familyProfilePhoto(litter_mate, litter_photo, language, subHeading, "immediateFamily");
