@@ -233,7 +233,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     // TODO: cinch for any strings longer than X characters
     // TODO: cinch/make text smaller if also emojis exist
     if (relationship == L.gui.quadruplet["en"]) {
-      span.style.classList.add("condensed");
+      span.classList.add("condensed");
     }
     span.appendChild(text);
     relation_text.appendChild(span);
