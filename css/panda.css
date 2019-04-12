@@ -953,13 +953,13 @@ div.photoSample h5.caption.familyTitle {
 }
 
 div.photoSample h5.caption.familyTitle > span.condensed {
-    font-size: 10pt;
-    letter-spacing: -1px;
+    font-size: 11pt;
+    letter-spacing: -1.5px;
 }
 
 div.photoSample h5.caption.familyTitle > span.ultraCondensed {
-    font-size: 9pt;
-    letter-spacing: -1px;
+    font-size: 10pt;
+    letter-spacing: -1.5px;
 }
 
 /* Portrait mode, default for iPhones and for frames that are in a 
