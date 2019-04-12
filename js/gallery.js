@@ -231,7 +231,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     var span = document.createElement('span');
     var text = document.createTextNode(relationship);
     // TODO: cinch for any strings longer than X characters
-    if (relationship == L.gui.quadruplets["en"]) {
+    if (relationship == L.gui.quadruplet["en"]) {
       span.style.letterSpacing = "-1.5px";
     }
     span.appendChild(text);
