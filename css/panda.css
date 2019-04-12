@@ -674,11 +674,13 @@ ul.pandaList li a.passedAway {
     color: gray;
 }
 
-ul.pandaList.en > li > a > span.condensed {
+ul.pandaList.en > li > a > span.condensed,
+div.photoSample h5.caption.familyTitle > span.condensed {
     font-size: 13pt;
 }
 
-ul.pandaList.en > li > a > span.ultraCondensed {
+ul.pandaList.en > li > a > span.ultraCondensed,
+div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     font-size: 11pt;
 }
 
@@ -951,7 +953,6 @@ div.photoSample h5.caption.familyTitle {
     margin-top: 0px;
     border-top: 0px solid;
 }
-
 
 /* Portrait mode, default for iPhones and for frames that are in a 
    similar layout / resolution. Shorten the padding details, and turn

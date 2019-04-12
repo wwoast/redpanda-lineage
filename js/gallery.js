@@ -231,8 +231,9 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     var span = document.createElement('span');
     var text = document.createTextNode(relationship);
     // TODO: cinch for any strings longer than X characters
+    // TODO: cinch/make text smaller if also emojis exist
     if (relationship == L.gui.quadruplet["en"]) {
-      span.style.letterSpacing = "-1.5px";
+      span.style.classList.add("condensed");
     }
     span.appendChild(text);
     relation_text.appendChild(span);
