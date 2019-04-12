@@ -953,12 +953,12 @@ div.photoSample h5.caption.familyTitle {
 }
 
 div.photoSample h5.caption.familyTitle > span.condensed {
-    font-size: 11pt;
+    font-size: 10pt;
     letter-spacing: -1px;
 }
 
 div.photoSample h5.caption.familyTitle > span.ultraCondensed {
-    font-size: 10pt;
+    font-size: 9pt;
     letter-spacing: -1px;
 }
 
