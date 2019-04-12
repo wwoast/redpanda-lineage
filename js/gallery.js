@@ -232,7 +232,6 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     span.appendChild(text);
     relation_text.appendChild(gender);
     relation_text.appendChild(span);
-    animal_relation.appendChild(relation_text);
     // Emoji separation not cinched
     var emojis = "";
     if (relationship == L.gui.me[language]) {
@@ -242,7 +241,8 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
       emojis = emojis + "\u200A" + L.emoji.died;
     }
     var emoji_text = document.createTextNode(emojis);
-    animal_relation.appendChild(emoji_text);
+    relation_text.appendChild(emoji_text);
+    animal_relation.appendChild(relation_text);
     animal_relation.addEventListener("click", Show.button.top.action);
     container.appendChild(animal_relation);  
   }
