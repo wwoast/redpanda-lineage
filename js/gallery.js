@@ -226,18 +226,23 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     animal_relation.href = "#profile/" + animal["_id"];
     var relation_text = document.createElement('h5');
     relation_text.className = "caption familyTitle";
-    if (relationship == L.gui.me[language]) {
-      relationship = relationship + "\u200A" + L.emoji.profile;
-    }
-    if (animal["death"] != undefined) {
-      relationship = relationship + "\u200A" + L.emoji.died;
-    }
+    // Span text can be cinched/tightened if too wide
     var span = document.createElement('span');
     var text = document.createTextNode(relationship);
     span.appendChild(text);
     relation_text.appendChild(gender);
     relation_text.appendChild(span);
     animal_relation.appendChild(relation_text);
+    // Emoji separation not cinched
+    var emojis = "";
+    if (relationship == L.gui.me[language]) {
+      emojis = "\u200A" + L.emoji.profile;
+    }
+    if (animal["death"] != undefined) {
+      emojis = emojis + "\u200A" + L.emoji.died;
+    }
+    var emoji_text = document.createTextNode(emojis);
+    animal_relation.appendChild(emoji_text);
     animal_relation.addEventListener("click", Show.button.top.action);
     container.appendChild(animal_relation);  
   }
