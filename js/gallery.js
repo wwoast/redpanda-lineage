@@ -232,9 +232,11 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     if (animal["death"] != undefined) {
       relationship = relationship + "\u200A" + L.emoji.died;
     }
+    var span = document.createElement('span');
     var text = document.createTextNode(relationship);
+    span.appendChild(text);
     relation_text.appendChild(gender);
-    relation_text.appendChild(text);
+    relation_text.appendChild(span);
     animal_relation.appendChild(relation_text);
     animal_relation.addEventListener("click", Show.button.top.action);
     container.appendChild(animal_relation);  
