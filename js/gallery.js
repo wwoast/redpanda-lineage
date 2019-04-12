@@ -221,16 +221,20 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   container.appendChild(animal_name);
   // Family title caption.
   if (relationship != undefined) {
-    var gender = Show.genderAnimal(animal, language, "caption gender");
     var animal_relation = document.createElement('a');
     animal_relation.href = "#profile/" + animal["_id"];
     var relation_text = document.createElement('h5');
     relation_text.className = "caption familyTitle";
+    var gender = Show.genderAnimal(animal, language, "caption gender");
+    relation_text.appendChild(gender);
     // Span text can be cinched/tightened if too wide
     var span = document.createElement('span');
     var text = document.createTextNode(relationship);
+    // TODO: cinch for any strings longer than X characters
+    if (relationship == L.gui.quadruplets["en"]) {
+      span.style.letterSpacing = "-1.5px";
+    }
     span.appendChild(text);
-    relation_text.appendChild(gender);
     relation_text.appendChild(span);
     // Emoji separation not cinched
     var emojis = "";
