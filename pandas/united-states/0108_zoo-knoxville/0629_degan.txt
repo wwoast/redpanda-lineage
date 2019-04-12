@@ -15,5 +15,17 @@ litter: unknown
 location.1: 105, 2011/6/17
 location.2: 122, 2012/4/12
 location.3: 108, 2018/2/15
+photo.1: https://www.codaworry.com/images/rpf/deganreid-1-knoxville.jpg
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile, white face
+photo.2: https://www.codaworry.com/images/rpf/deganreid-2-knoxville.jpg
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bridge, white face
+photo.3: https://www.codaworry.com/images/rpf/deganreid-3-knoxville.jpg
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: white face
 species: 1
 zoo: 108

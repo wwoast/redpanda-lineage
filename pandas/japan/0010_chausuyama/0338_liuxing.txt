@@ -15,5 +15,13 @@ language.order: jp, en
 litter: none
 location.1: 34, 1997/6/16
 location.2: 10, 1998/12/28
+photo.1: https://www.codaworry.com/images/rpf/liuxing-1-chausuyama.jpg
+photo.1.author: gachon_kudo
+photo.1.link: https://gachon.exblog.jp/3615551/
+photo.1.tags: profile, smile
+photo.2: https://www.codaworry.com/images/rpf/liuxing-2-chausuyama.jpg
+photo.2.author: gachon_kudo
+photo.2.link: https://gachon.exblog.jp/3615551/
+photo.2.tags: dish, home
 species: 2
 zoo: 10
