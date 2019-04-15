@@ -1,0 +1,19 @@
+[panda]
+_id: 842
+birthday: 2010/6/12
+birthplace: 105
+children: unknown
+death: 2016/1/12
+en.name: Sorrel
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 栗色
+jp.nicknames: none
+jp.othernames: くりいろ
+language.order: en, jp
+litter: 841
+location.1: 105, 2010/6/12
+location.2: 187, 2011/4/28
+species: 1
+zoo: 187

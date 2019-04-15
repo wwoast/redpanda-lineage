@@ -1,0 +1,19 @@
+[panda]
+_id: 841
+birthday: 2010/6/12
+birthplace: 105
+children: unknown
+death: 2016/1/12
+en.name: Flynn
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フリン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 842
+location.1: 105, 2010/6/12
+location.2: 95, 2011/12/11
+species: 1
+zoo: 95
