@@ -421,6 +421,14 @@ div.pandaPhoto span.navigator {
     width: 36px;
 }
 
+div.pandaPhoto span.navigator.threeDigits {
+    font-size: 16pt;
+    line-height: 2;
+    padding-left: 0px;
+    padding-right: 4px;
+    letter-spacing: -1px;
+}
+
 img.preload {
     display: none;
 }

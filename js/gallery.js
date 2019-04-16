@@ -58,9 +58,17 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
 }
 
 // The hover over or swipe menu for photo navigation
-// Need ids defined outside of tihs.info due ot inner function scope
+// Need ids defined outside of this.info due ot inner function scope
 Gallery.G.displayPhotoNavigation = function() {
   var that = this;   // Function scoping
+  var condense = function(nav) {
+    // If more than three digits occur on click / mutate
+    if (nav.innerText.length > 2) {
+      nav.classList.add("threeDigits");
+    } else {
+      nav.classList.remove("threeDigits");
+    }
+  }
   var span_link = document.createElement('a');
   span_link.className = "navigatorLink";
   span_link.id = that.info.id + "/navigator";
@@ -74,10 +82,12 @@ Gallery.G.displayPhotoNavigation = function() {
     span.innerText = that.index;
     span_link.addEventListener('click', function() {  // Left click event
       that.photoNext(that.info.id);
+      condense(span);
     });
     span_link.addEventListener('contextmenu', function(e) {   // Right click event
       e.preventDefault();   // Prevent normal context menu from firing
       that.photoPrevious(that.info.id);
+      condense(span);
     });
   }
   span_link.appendChild(span);
