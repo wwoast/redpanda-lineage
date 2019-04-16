@@ -422,10 +422,10 @@ div.pandaPhoto span.navigator {
 }
 
 div.pandaPhoto span.navigator.threeDigits {
-    font-size: 16pt;
-    line-height: 2;
+    font-size: 18pt;
+    line-height: 1.7;
     padding-left: 0px;
-    padding-right: 4px;
+    padding-right: 10px;
     letter-spacing: -1px;
 }
 
