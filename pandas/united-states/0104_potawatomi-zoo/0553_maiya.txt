@@ -1,7 +1,7 @@
 [panda]
 _id: 553
-birthday: unknown
-birthplace: unknown
+birthday: 2014/6/26
+birthplace: 129
 children: none
 en.name: Maiya
 en.nicknames: none
@@ -11,10 +11,13 @@ jp.name: マイヤ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: 847
+location.1: 129, 2014/6/26
+location.2: 130, 2015/5/16
+location.3: 104, 2018/11/20
 photo.1: https://www.instagram.com/p/BqawhX6nXMr/media/?size=m
 photo.1.author: potawatomizoo
-photo.1.link: https://www.instagram.com/p/BqawhX6nXMr/media/?size=m
+photo.1.link: https://www.instagram.com/potawatomizoo/
 photo.1.tags: profile, tree
 species: 1
 zoo: 104

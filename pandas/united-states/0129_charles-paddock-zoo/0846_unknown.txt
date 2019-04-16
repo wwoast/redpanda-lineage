@@ -1,0 +1,17 @@
+[panda]
+_id: 846
+birthday: 2013/6/15
+birthplace: 129
+children: none
+death: 2014/3/1
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 845
+species: 1
+zoo: 129
