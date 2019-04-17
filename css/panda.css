@@ -1085,6 +1085,14 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         max-height: 100%;
     }
 
+    div.pandaPhoto span.navigator.threeDigits {
+        font-size: 18pt;
+        line-height: 1.7;
+        padding-left: 0px;
+        padding-right: 10px;
+        letter-spacing: -1px;
+    }
+
     div.pandaTitle, div.zooTitle {
         text-align: center;
         padding: 0 0 0 0;
