@@ -63,18 +63,25 @@ Gallery.G.displayPhotoNavigation = function() {
   var that = this;   // Function scoping
   var condense = function(nav) {
     // If more than three digits occur on click / mutate
+    if (nav == undefined) {
+      nav.classList.remove("threeDigits");
+    } else {
+      nav.classList.add("threeDigits");
+    }
+    /*
     if (nav.innerText.length > 2) {
       nav.classList.add("threeDigits");
     } else {
       nav.classList.remove("threeDigits");
     }
+    */
   }
   var span_link = document.createElement('a');
   span_link.className = "navigatorLink";
   span_link.id = that.info.id + "/navigator";
   span_link.href = "javascript:;";
   var span = document.createElement('span');
-  span.className = "navigator threeDigits";
+  span.className = "navigator";
   // Clickable dogears when you have a carousel of more than one photo
   if (this.photoCount(that.info.id) < 2) {
       span.innerText = L.emoji.no_more;
