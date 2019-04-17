@@ -74,7 +74,7 @@ Gallery.G.displayPhotoNavigation = function() {
   span_link.id = that.info.id + "/navigator";
   span_link.href = "javascript:;";
   var span = document.createElement('span');
-  span.className = "navigator";
+  span.className = "navigator threeDigits";
   // Clickable dogears when you have a carousel of more than one photo
   if (this.photoCount(that.info.id) < 2) {
       span.innerText = L.emoji.no_more;
