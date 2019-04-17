@@ -63,11 +63,11 @@ Gallery.G.displayPhotoNavigation = function() {
   var that = this;   // Function scoping
   var condense = function(nav) {
     // If more than three digits occur on click / mutate
-    if (nav == undefined) {
-      nav.classList.add("threeDigits");
-    } else {
-      nav.classList.remove("threeDigits");
-    }
+    // if (nav == undefined) {
+    nav.classList.add("threeDigits");
+    // } else {
+    //  nav.classList.remove("threeDigits");
+    // } 
     /*
     if (nav.innerText.length > 2) {
       nav.classList.add("threeDigits");
