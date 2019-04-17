@@ -1085,6 +1085,26 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         max-height: 100%;
     }
 
+    /* Must mirror this or else mobile doesn't get styles
+       for the thirdDigit */
+    div.pandaPhoto span.navigator {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 32pt;
+        z-index: 2;
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        font-size: 22pt;
+        border-bottom: 1px solid white;
+        border-right: 1px solid white;
+        border-bottom-right-radius: 0.8ex;
+        text-align: center;
+        padding-left: 6px;
+        padding-right: 6px;
+        width: 36px;
+    }
+
     div.pandaPhoto span.navigator.threeDigits {
         font-size: 18pt;
         line-height: 1.7;
