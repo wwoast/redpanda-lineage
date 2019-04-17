@@ -403,6 +403,7 @@ a.navigatorLink {
     display: none;
 }
 
+/*
 span.navigator {
     position: absolute;
     top: 0;
@@ -428,6 +429,7 @@ span.navigator.threeDigits {
     padding-right: 10px;
     letter-spacing: -1px;
 }
+*/
 
 img.preload {
     display: none;
