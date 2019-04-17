@@ -67,7 +67,6 @@ Gallery.G.displayPhotoNavigation = function() {
   span_link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
-  Gallery.condenseDogEar(span);   // More than three digits?
   // Clickable dogears when you have a carousel of more than one photo
   if (this.photoCount(that.info.id) < 2) {
       span.innerText = L.emoji.no_more;
@@ -84,6 +83,7 @@ Gallery.G.displayPhotoNavigation = function() {
     });
   }
   span_link.appendChild(span);
+  Gallery.condenseDogEar(span);   // More than three digits?
   return span_link;
 }
   
