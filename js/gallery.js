@@ -64,9 +64,9 @@ Gallery.G.displayPhotoNavigation = function() {
   var condense = function(nav) {
     // If more than three digits occur on click / mutate
     if (nav == undefined) {
-      nav.classList.remove("threeDigits");
-    } else {
       nav.classList.add("threeDigits");
+    } else {
+      nav.classList.remove("threeDigits");
     }
     /*
     if (nav.innerText.length > 2) {
