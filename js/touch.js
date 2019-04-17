@@ -121,9 +121,11 @@ Touch.T.process = function() {
   var navigator = document.getElementById(navigator_id);
   if (this.swipeDirection == 'right') {
     Gallery.G.photoPrevious(animal_id);
+    Gallery.condenseDogEar(navigator);
     Show.fade(navigator);
   } else if (this.swipeDirection == 'left') {
     Gallery.G.photoNext(animal_id);
+    Gallery.condenseDogEar(navigator);
     Show.fade(navigator);
   }
 }
