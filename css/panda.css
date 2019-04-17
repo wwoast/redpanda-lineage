@@ -403,7 +403,7 @@ a.navigatorLink {
     display: none;
 }
 
-/*
+
 span.navigator {
     position: absolute;
     top: 0;
@@ -423,13 +423,13 @@ span.navigator {
 }
 
 span.navigator.threeDigits {
-    font-size: 18pt;
+    font-size: 34pt;
     line-height: 1.7;
     padding-left: 0px;
     padding-right: 10px;
     letter-spacing: -1px;
 }
-*/
+
 
 img.preload {
     display: none;
@@ -1086,32 +1086,6 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         max-width: 100%;
         max-height: 100%;
     }
-
-    span.navigator {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 32pt;
-        z-index: 2;
-        background-color: rgba(0,0,0,0.8);
-        color: white;
-        font-size: 22pt;
-        border-bottom: 1px solid white;
-        border-right: 1px solid white;
-        border-bottom-right-radius: 0.8ex;
-        text-align: center;
-        padding-left: 6px;
-        padding-right: 6px;
-        width: 36px;
-    }
-    
-    span.navigator.threeDigits {
-        font-size: 18pt;
-        line-height: 1.7;
-        padding-left: 0px;
-        padding-right: 10px;
-        letter-spacing: -1px;
-    }    
 
     div.pandaTitle, div.zooTitle {
         text-align: center;
