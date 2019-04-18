@@ -119,13 +119,14 @@ Touch.T.process = function() {
   var animal_id = this.triggerElementID.split('/')[0];
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
+  var span = navigator.childNodes[0];
   if (this.swipeDirection == 'right') {
     Gallery.G.photoPrevious(animal_id);
-    Gallery.condenseDogEar(navigator);
+    Gallery.condenseDogEar(span);
     Show.fade(navigator);
   } else if (this.swipeDirection == 'left') {
     Gallery.G.photoNext(animal_id);
-    Gallery.condenseDogEar(navigator);
+    Gallery.condenseDogEar(span);
     Show.fade(navigator);
   }
 }
