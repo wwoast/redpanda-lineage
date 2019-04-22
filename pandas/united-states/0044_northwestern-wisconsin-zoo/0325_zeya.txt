@@ -13,6 +13,8 @@ jp.oldnames: none
 jp.othernames: none
 language.order: en, jp
 litter: 324
+location.1: 67, 2018/6/21
+location.2: 44, 2019/4/14
 photo.1: https://www.instagram.com/p/BmtnengF8yI/media/?size=m
 photo.1.author: woodlandparkzoo
 photo.1.link: https://www.instagram.com/woodlandparkzoo/
@@ -80,4 +82,4 @@ photo.17.author: rootbeer_popsicle_
 photo.17.link: https://www.instagram.com/rootbeer_popsicle_/
 photo.17.tags: tree
 species: 2
-zoo: 67
+zoo: 44

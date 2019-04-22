@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 166
+location.1: 36, 2017/7/6
+location.2: 20, 2019/4/18
 photo.1: https://www.instagram.com/p/Bk4wzYTlpqR/media/?size=m
 photo.1.author: daniele.tokyo
 photo.1.link: https://www.instagram.com/daniele.tokyo/
@@ -479,4 +481,4 @@ photo.118.author: colette.jp
 photo.118.link: https://www.instagram.com/colette.jp/
 photo.118.tags: smile, tree
 species: 2
-zoo: 36
+zoo: 20
