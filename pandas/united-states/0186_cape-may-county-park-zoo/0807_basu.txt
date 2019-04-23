@@ -14,5 +14,9 @@ language.order: en, jp
 litter: 580, 808
 location.1: 146, 2013/7/20
 location.2: 186, 2014/4/22
+photo.1: https://www.instagram.com/p/BwZ-leilP9p/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile, tongue
 species: 1
 zoo: 186

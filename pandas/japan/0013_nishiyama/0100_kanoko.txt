@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 99
+location.1: 17, 2016/6/24
+location.2: 13, 2019/4/1
 photo.1: https://www.instagram.com/p/BjjogmmlBXf/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
@@ -153,4 +155,4 @@ photo.36.author: fetorus_mami
 photo.36.link: https://www.instagram.com/fetorus_mami/
 photo.36.tags: bamboo, white face
 species: 2
-zoo: 17
+zoo: 13
