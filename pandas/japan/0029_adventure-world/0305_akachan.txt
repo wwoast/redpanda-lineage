@@ -5,7 +5,7 @@ birthplace: 29
 children: none
 en.name: Aka-chan
 en.nicknames: none
-en.othernames: Aka-Chan, Akachan, Babu
+en.othernames: Aka-Chan, Akachan, Babu, Yon
 gender: m
 jp.name: 赤ちゃん
 jp.nicknames: 四男, バブ
@@ -130,5 +130,13 @@ photo.30: https://www.instagram.com/p/BwRVDyclvQs/media/?size=m
 photo.30.author: framereim
 photo.30.link: https://www.instagram.com/framereim/
 photo.30.tags: grooming, paws, tail
+photo.31: https://www.instagram.com/p/BwtAhRnlCZi/media/?size=m
+photo.31.author: resapanlove
+photo.31.link: https://www.instagram.com/resapanlove/
+photo.31.tags: bridge, laying down
+photo.32: https://www.instagram.com/p/BwtjxSZFX-h/media/?size=m
+photo.32.author: framereim
+photo.32.link: https://www.instagram.com/framereim/
+photo.32.tags: standing, tongue
 species: 2
 zoo: 29
