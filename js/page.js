@@ -354,12 +354,12 @@ Page.results.entities = function(results) {
 }
 Page.results.photos = function(results) {
   var content_divs = [];
+  // Pandas and zoos have multiple photos, and 
+  // you'll need to filter on the credited photo
   results.forEach(function(entity) {
     if (entity["_id"] < 0) {
-      // Zoos have a single photo to get
-      content_divs.push(Gallery.zooPhotoCredits(entity, L.display));
+      content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
     } else {
-      // Pandas have multiple photos, and you'll need to filter on the credited photo
       content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
     }
   });

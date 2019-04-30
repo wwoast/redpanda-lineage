@@ -63,6 +63,7 @@ Show.acquireLocationList = function(animal, language) {
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
+  var picture = Pandas.profilePhoto(zoo, chosen_index);   // TODO: all photos for carousel
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   var bundle = {
        "animals": animals,
@@ -74,9 +75,10 @@ Show.acquireZooInfo = function(zoo, language) {
       "location": Pandas.zooField(zoo, language + ".location"),
            "map": Pandas.zooField(zoo, "map"),
           "name": Pandas.zooField(zoo, language + ".name"),
-         "photo": Pandas.zooField(zoo, "photo"),
-  "photo_credit": Pandas.zooField(zoo, "photo.author"),
-    "photo_link": Pandas.zooField(zoo, "photo.link"),
+         "photo": picture['photo'],
+  "photo_credit": picture['credit'],
+   "photo_index": picture['index'],
+    "photo_link": picture['link'],
       "recorded": recorded,
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")

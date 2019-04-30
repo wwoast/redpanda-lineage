@@ -309,24 +309,37 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
-Gallery.zooPhotoCredits = function(zoo, language) {
+Gallery.zooPhotoCredits = function(zoo, credit, language) {
+  var content_divs = [];
+  var photos = [];
   var info = Show.acquireZooInfo(zoo, language);
-  var img_link = document.createElement('a');
-  // Link to the original instagram media
-  img_link.href = zoo.photo.replace("/media/?size=m", "");
-  img_link.target = "_blank";   // Open in new tab
-  var img = document.createElement('img');
-  img.src = zoo.photo;
-  img_link.appendChild(img);
-  var caption_link = document.createElement('a');
-  caption_link.href = "#zoo/" + zoo._id;
-  var caption = document.createElement('h5');
-  caption.className = "caption";
-  caption.innerText = info.name;
-  caption_link.appendChild(caption);
-  var container = document.createElement('div');
-  container.className = "photoSample";
-  container.appendChild(img_link);
-  container.appendChild(caption_link);
-  return container;
+  var photo_indexes = Pandas.photoGeneratorEntity;
+  for (let field_name of photo_indexes(zoo, 0)) {
+    if (zoo[field_name + ".author"] == credit) {
+      photos.push({"image": zoo[field_name], "index": field_name});
+    }
+  }
+  for (let item of photos) {
+    var photo = item.image;
+    var index = item.index.split(".")[1];
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = photo.replace("/media/?size=m", "");
+    img_link.target = "_blank";   // Open in new tab
+    var img = document.createElement('img');
+    img.src = photo.replace('/?size=m', '/?size=t');
+    img_link.appendChild(img);
+    var caption_link = document.createElement('a');
+    caption_link.href = "#zoo/" + zoo._id + "/photo/" + index;
+    var caption = document.createElement('h5');
+    caption.className = "caption";
+    caption.innerText = info.name;
+    caption_link.appendChild(caption);
+    var container = document.createElement('div');
+    container.className = "photoSample";
+    container.appendChild(img_link);
+    container.appendChild(caption_link);
+    content_divs.push(container);
+  }
+  return content_divs;
 }
