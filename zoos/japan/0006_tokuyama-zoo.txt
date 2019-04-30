@@ -9,7 +9,7 @@ jp.location: 周南市  山口県
 jp.name: 周南市徳山動物園
 language.order: jp, en
 map: https://goo.gl/maps/bMAGo54PQxq
-photo: https://www.instagram.com/p/BYSVMrkFkoo/media/?size=m
-photo.author: satoshijimnikki
-photo.link: https://www.instagram.com/satoshijimnikki/
+photo.1: https://www.instagram.com/p/BYSVMrkFkoo/media/?size=m
+photo.1.author: satoshijimnikki
+photo.1.link: https://www.instagram.com/satoshijimnikki/
 website: http://www.city.shunan.lg.jp/site/zoo/

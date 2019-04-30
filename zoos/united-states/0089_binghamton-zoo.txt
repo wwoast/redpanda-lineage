@@ -6,7 +6,7 @@ en.name: Binghamton Zoo at Ross Park
 flag: USA
 language.order: en
 map: https://goo.gl/maps/BoeUeTysCJy
-photo: https://www.instagram.com/p/BoZZPJUluE1/media/?size=m
-photo.author: binghamtonzoo
-photo.link: https://www.instagram.com/binghamtonzoo/
+photo.1: https://www.instagram.com/p/BoZZPJUluE1/media/?size=m
+photo.1.author: binghamtonzoo
+photo.1.link: https://www.instagram.com/binghamtonzoo/
 website: https://rossparkzoo.com/

@@ -9,7 +9,7 @@ jp.location: 千葉県 関東地方
 jp.name: 千葉市動物公園
 language.order: jp, en
 map: https://goo.gl/maps/14c7BwdSTkr
-photo: https://www.instagram.com/p/Bmi34XCBmdw/media/?size=m
-photo.author: miinzel
-photo.link: https://www.instagram.com/miinzel/
+photo.1: https://www.instagram.com/p/Bmi34XCBmdw/media/?size=m
+photo.1.author: miinzel
+photo.1.link: https://www.instagram.com/miinzel/
 website: https://www.city.chiba.jp/zoo/

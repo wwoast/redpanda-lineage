@@ -9,7 +9,7 @@ jp.location: シアトル ワシントン
 jp.name: 森林公園動物園
 language.order: en, jp
 map: https://goo.gl/maps/4WtXGc1ZGnp
-photo: https://www.instagram.com/p/BhVdwVDl3kO/media/?size=m
-photo.author: liabrouillard
-photo.link: https://www.instagram.com/liabrouillard/
+photo.1: https://www.instagram.com/p/BhVdwVDl3kO/media/?size=m
+photo.1.author: liabrouillard
+photo.1.link: https://www.instagram.com/liabrouillard/
 website: https://www.zoo.org/

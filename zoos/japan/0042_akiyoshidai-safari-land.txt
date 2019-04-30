@@ -9,7 +9,7 @@ jp.location: 美祢市 山口県
 jp.name: 秋吉台自然動物公園サファリランド
 language.order: jp, en
 map: https://goo.gl/maps/UT1Be9m6ukw
-photo: https://www.instagram.com/p/BqlStDKA1JS/media/?size=m
-photo.author: toys_gear
-photo.link: https://www.instagram.com/toys_gear/
+photo.1: https://www.instagram.com/p/BqlStDKA1JS/media/?size=m
+photo.1.author: toys_gear
+photo.1.link: https://www.instagram.com/toys_gear/
 website: http://www.safariland.jp/

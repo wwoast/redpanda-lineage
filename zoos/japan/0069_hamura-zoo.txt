@@ -9,7 +9,7 @@ jp.location: 羽村市 東京都
 jp.name: 羽村市動物公園
 language.order: jp, en
 map: https://goo.gl/maps/EwC6VTy9MEp
-photo: https://www.instagram.com/p/BhK4t9fnfyH/media/?size=m
-photo.author: soarahinata7
-photo.link: https://www.instagram.com/soarahinata7/
+photo.1: https://www.instagram.com/p/BhK4t9fnfyH/media/?size=m
+photo.1.author: soarahinata7
+photo.1.link: https://www.instagram.com/soarahinata7/
 website: http://www.t-net.ne.jp/~hamura-z/

@@ -6,7 +6,7 @@ en.name: Bright's Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/o1JzMwgEGPw
-photo: https://www.instagram.com/p/BrjV8nlFSmv/media/?size=m
-photo.author: brightszoo
-photo.link: https://www.instagram.com/brightszoo/
+photo.1: https://www.instagram.com/p/BrjV8nlFSmv/media/?size=m
+photo.1.author: brightszoo
+photo.1.link: https://www.instagram.com/brightszoo/
 website: http://www.brightszoo.com/

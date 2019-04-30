@@ -12,7 +12,7 @@ jp.location: unknown
 jp.name: unknown
 language.order: cn, jp, en
 map: https://goo.gl/maps/rsck5UV8B552
-photo: https://www.instagram.com/p/Bq-FcXjAyNF/media/?size=m
-photo.author: alise_tifentale
-photo.link: https://www.instagram.com/alise_tifentale/
+photo.1: https://www.instagram.com/p/Bq-FcXjAyNF/media/?size=m
+photo.1.author: alise_tifentale
+photo.1.link: https://www.instagram.com/alise_tifentale/
 website: http://www.cqzoo.com

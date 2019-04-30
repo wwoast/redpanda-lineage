@@ -9,7 +9,7 @@ jp.location: 裾野市 静岡県
 jp.name: 富士サファリパーク 公式サイト
 language.order: jp, en
 map: https://goo.gl/maps/PLj4TTrSWVN2
-photo: https://www.instagram.com/p/BdXoC6Pnrlt/media/?size=m
-photo.author: fuji_safari
-photo.link: https://www.instagram.com/fuji_safari/
+photo.1: https://www.instagram.com/p/BdXoC6Pnrlt/media/?size=m
+photo.1.author: fuji_safari
+photo.1.link: https://www.instagram.com/fuji_safari/
 website: https://www.fujisafari.co.jp/

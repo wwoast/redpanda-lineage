@@ -9,7 +9,7 @@ jp.location: 静岡市 静岡県
 jp.name: 静岡市立日本平動物園
 language.order: jp, en
 map: https://goo.gl/maps/wFRiaNci3Qu
-photo: https://www.instagram.com/p/BvngsjVBY1J/media/?size=m
-photo.author: hiexmas
-photo.link: https://www.instagram.com/hiexmas/
+photo.1: https://www.instagram.com/p/BvngsjVBY1J/media/?size=m
+photo.1.author: hiexmas
+photo.1.link: https://www.instagram.com/hiexmas/
 website: http://www.nhdzoo.jp/

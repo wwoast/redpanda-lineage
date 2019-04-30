@@ -6,7 +6,7 @@ en.name: Safari Niagra
 flag: Canada
 language.order: en
 map: https://goo.gl/maps/PkYjqGk5rX22
-photo: https://www.instagram.com/p/oHvh9bxWxl/media/?size=m
-photo.author: a.stevens_xo
-photo.link: https://www.instagram.com/a.stevens_xo/
+photo.1: https://www.instagram.com/p/oHvh9bxWxl/media/?size=m
+photo.1.author: a.stevens_xo
+photo.1.link: https://www.instagram.com/a.stevens_xo/
 website: https://safariniagara.com/

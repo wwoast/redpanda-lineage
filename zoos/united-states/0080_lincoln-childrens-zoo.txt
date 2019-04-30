@@ -6,7 +6,7 @@ en.name: Lincoln Children's Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/5kHk6aS6A2R2
-photo: https://www.instagram.com/p/BdVUeFjndiT/media/?size=m
-photo.author: lincolnchildrenszoo
-photo.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1: https://www.instagram.com/p/BdVUeFjndiT/media/?size=m
+photo.1.author: lincolnchildrenszoo
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
 website: https://www.lincolnzoo.org/

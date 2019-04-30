@@ -9,7 +9,7 @@ jp.location: 日野市 東京都
 jp.name: 多摩動物公園
 language.order: jp, en
 map: https://goo.gl/maps/Emr9wdQYAm22
-photo: https://www.instagram.com/p/BlA5hY9l2Qk/media/?size=m
-photo.author: hiro_v36
-photo.link: https://www.instagram.com/hiro_v36/
+photo.1: https://www.instagram.com/p/BlA5hY9l2Qk/media/?size=m
+photo.1.author: hiro_v36
+photo.1.link: https://www.instagram.com/hiro_v36/
 website: http://www.tokyo-zoo.net/zoo/tama/

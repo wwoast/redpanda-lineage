@@ -9,7 +9,7 @@ jp.location: 釧路市 釧路総合振興局
 jp.name: 釧路市動物園
 language.order: jp, en
 map: https://goo.gl/maps/8JVH1ftPJHm
-photo: https://www.instagram.com/p/Bm3DLdVHrlq/media/?size=m
-photo.author: kumaiss
-photo.link: https://www.instagram.com/kumaiss/
+photo.1: https://www.instagram.com/p/Bm3DLdVHrlq/media/?size=m
+photo.1.author: kumaiss
+photo.1.link: https://www.instagram.com/kumaiss/
 website: http://www.city.kushiro.lg.jp/zoo/

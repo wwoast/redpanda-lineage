@@ -9,7 +9,7 @@ jp.location: 佐世保市 長崎県
 jp.name: 西海国立公園九十九島動植物園
 language.order: jp, en
 map: https://goo.gl/maps/1pRgFW9fo9v
-photo: https://www.instagram.com/p/Bmsj2UKAOi2/media/?size=m
-photo.author: yukaringo1126
-photo.link: https://www.instagram.com/yukaringo1126/
+photo.1: https://www.instagram.com/p/Bmsj2UKAOi2/media/?size=m
+photo.1.author: yukaringo1126
+photo.1.link: https://www.instagram.com/yukaringo1126/
 website: https://www.morikirara.jp/
