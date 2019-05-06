@@ -1006,13 +1006,13 @@ Pandas.othernames = function(animal, language) {
 }
 
 // Find all available photos for a specific animal
-Pandas.photoManifest = function(animal, mode="animal") {
+Pandas.photoManifest = function(entity, mode="animal") {
   // Find the available photo indexes between one and ten
   var photos = {};
   var photo_fields = Pandas.photoGeneratorEntity;
   // Gets panda or zoo photos
-  for (let field_name of photo_fields(animal)) {
-    photos[field_name] = Pandas.field(animal, field_name, mode);
+  for (let field_name of photo_fields(entity)) {
+    photos[field_name] = Pandas.field(entity, field_name, mode);
   }
   // Filter out any keys that have the default value for either
   // an animal or a zoo

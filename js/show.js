@@ -71,6 +71,7 @@ Show.acquireZooInfo = function(zoo, language) {
        "address": Pandas.zooField(zoo, language + ".address"),
   "animal_count": animals.length,
       "get_name": language + ".name",
+            "id": zoo["_id"],
       "language": language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, language + ".location"),
@@ -1061,7 +1062,7 @@ Show.profile.family = function(animal, language) {
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
   // TODO: start at the profile photo always
-  var gallery = Gallery.init(info, 'pandaPhoto');
+  var gallery = Gallery.init(info, 'animal');
   var photo = gallery.displayPhoto();
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -1378,7 +1379,7 @@ Show.results.panda = function(animal, language) {
   // Most missing elements should not be displayed, but 
   // a few should be printed regardless (birthday / death)
   var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'pandaPhoto');
+  var gallery = Gallery.init(info, 'animal');
   var photo = gallery.displayPhoto();
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -1550,9 +1551,17 @@ Show.results.siblings = function(info) {
 Show.results.zoo = function(zoo, language) {
   // Display information for a zoo relevant to the red pandas
   var info = Show.acquireZooInfo(zoo, language);
-  var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
   var photo = gallery.displayPhoto();
-  var title = Show.zooTitle(info);
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  title = Show.zooTitle(info);
   var details = Show.results.zooDetails(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
