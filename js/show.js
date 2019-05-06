@@ -8,7 +8,7 @@ var Show = {};   /* Namespace */
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
   var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
-  var picture = Pandas.profilePhoto(animal, chosen_index);   // TODO: all photos for carousel
+  var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
@@ -64,7 +64,7 @@ Show.acquireLocationList = function(animal, language) {
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
   var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
-  var picture = Pandas.profilePhoto(zoo, chosen_index);   // TODO: all photos for carousel
+  var picture = Pandas.profilePhoto(zoo, chosen_index, "zoo");   // TODO: all photos for carousel
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   var bundle = {
        "animals": animals,
