@@ -131,12 +131,12 @@ Gallery.G.photoCount = function() {
 }
 
 // Utility function to get the proper entity for photo counts
-Gallery.G.photoEntity = function() {
+Gallery.G.photoEntity = function(entity_id=this.info.id) {
   var entity = undefined;
   if (this.carousel_type == "zoo") {
-    entity = Pandas.searchZooId(this.info.id)[0];
+    entity = Pandas.searchZooId(entity_id)[0];
   } else {
-    entity = Pandas.searchPandaId(this.info.id)[0];
+    entity = Pandas.searchPandaId(entity_id)[0];
   }
   return entity;
 }
@@ -159,7 +159,7 @@ Gallery.G.photoPrevious = function(entity_id=this.info.id) {
 Gallery.G.photoSwap = function(photo, desired_index) {
   var span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
   var [entity_id, _, photo_id] = photo.id.split("/");
-  var entity = this.photoEntity();
+  var entity = this.photoEntity(entity_id);
   var photo_manifest = Pandas.photoManifest(entity, this.carousel_type);
   var max_index = Object.values(photo_manifest).length;
   var new_index = 1;   // Fallback value
