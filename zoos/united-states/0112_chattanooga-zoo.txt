@@ -6,7 +6,7 @@ en.name: Chattanooga Zoo At Warner Park
 flag: USA
 language.order: en
 map: https://goo.gl/maps/1ZHVrRkvvs12
-photo: https://www.instagram.com/p/BkTvbxIBQRS/media/?size=m
-photo.author: chattanoogazoo
-photo.link: https://www.instagram.com/chattanoogazoo/
+photo.1: https://www.instagram.com/p/BkTvbxIBQRS/media/?size=m
+photo.1.author: chattanoogazoo
+photo.1.link: https://www.instagram.com/chattanoogazoo/
 website: http://www.chattzoo.org/

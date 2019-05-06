@@ -6,7 +6,7 @@ en.name: Zoo Atlanta
 flag: USA
 language.order: en
 map: https://goo.gl/maps/bD7ZfqdL6D22
-photo: https://www.instagram.com/p/BrNNOCxHzYl/media/?size=m
-photo.author: jeteyepadawan
-photo.link: https://www.instagram.com/jeteyepadawan/
+photo.1: https://www.instagram.com/p/BrNNOCxHzYl/media/?size=m
+photo.1.author: jeteyepadawan
+photo.1.link: https://www.instagram.com/jeteyepadawan/
 website: https://zooatlanta.org/

@@ -6,7 +6,7 @@ en.name: Saskatoon Forestry Farm Park & Zoo
 flag: Canada
 language.order: en
 map: https://goo.gl/maps/1YnG95vKmtj
-photo: https://www.instagram.com/p/qu9VqANtg4/media/?size=m
-photo.author: bettychuong
-photo.link: https://www.instagram.com/bettychuong/
+photo.1: https://www.instagram.com/p/qu9VqANtg4/media/?size=m
+photo.1.author: bettychuong
+photo.1.link: https://www.instagram.com/bettychuong/
 website: https://www.saskatoon.ca/parks-recreation-attractions/events-attractions/saskatoon-forestry-farm-park-zoo

@@ -9,7 +9,7 @@ jp.location: 市原市 千葉県
 jp.name: 市原ぞうの国
 language.order: jp, en
 map: https://goo.gl/maps/t6TwYSxU2dT2
-photo: https://www.instagram.com/p/BM3ILmHjtLl/media/?size=m
-photo.author: s.okano521
-photo.link: https://www.instagram.com/s.okano521/
+photo.1: https://www.instagram.com/p/BM3ILmHjtLl/media/?size=m
+photo.1.author: s.okano521
+photo.1.link: https://www.instagram.com/s.okano521/
 website: http://www.zounokuni.com/

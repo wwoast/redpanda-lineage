@@ -9,7 +9,7 @@ jp.location: 鹿児島市 鹿児島県
 jp.name: 鹿児島市平川動物公園
 language.order: jp, en
 map: https://goo.gl/maps/RHkCy9Syv8G2
-photo: https://www.instagram.com/p/BKHIGMIhbiz/media/?size=m
-photo.author: otsuruw
-photo.link: https://www.instagram.com/otsuruw/
+photo.1: https://www.instagram.com/p/BKHIGMIhbiz/media/?size=m
+photo.1.author: otsuruw
+photo.1.link: https://www.instagram.com/otsuruw/
 website: http://hirakawazoo.jp/

@@ -6,7 +6,7 @@ en.name: Calgary Zoo
 flag: Canada
 language.order: en
 map: https://goo.gl/maps/gXaumYRHucJ2
-photo: https://www.instagram.com/p/7q3sBBGtnG/media/?size=m
-photo.author: thecalgaryzoo
-photo.link: https://www.instagram.com/thecalgaryzoo/
+photo.1: https://www.instagram.com/p/7q3sBBGtnG/media/?size=m
+photo.1.author: thecalgaryzoo
+photo.1.link: https://www.instagram.com/thecalgaryzoo/
 website: https://www.calgaryzoo.com/

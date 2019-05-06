@@ -6,7 +6,7 @@ en.name: Columbus Zoo and Aquarium
 flag: USA
 language.order: en
 map: https://goo.gl/maps/CWVYiPe7c3S2
-photo: https://www.instagram.com/p/BqkNLkSHHZI/media/?size=m
-photo.author: believeinthemagictraci
-photo.link: https://www.instagram.com/believeinthemagictraci/
+photo.1: https://www.instagram.com/p/BqkNLkSHHZI/media/?size=m
+photo.1.author: believeinthemagictraci
+photo.1.link: https://www.instagram.com/believeinthemagictraci/
 website: https://www.columbuszoo.org/

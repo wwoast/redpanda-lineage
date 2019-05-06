@@ -10,7 +10,7 @@ jp.location: 枚方市 大阪府
 jp.name: ひらかたパーク
 language.order: jp, en
 map: https://goo.gl/maps/Uz15oJH5U7U2
-photo: https://www.instagram.com/p/BpJMgzQB8Lb/media/?size=m
-photo.author: hirakatapark
-photo.link: https://www.instagram.com/hirakatapark/
+photo.1: https://www.instagram.com/p/BpJMgzQB8Lb/media/?size=m
+photo.1.author: hirakatapark
+photo.1.link: https://www.instagram.com/hirakatapark/
 website: http://www.hirakatapark.co.jp/

@@ -256,8 +256,8 @@ Pandas.def.wild = {
   "jp.address": "TOWRITE",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
-  "photo": "images/no-zoo.jpg",
-  "video": "images/no-zoo.jpg",
+  "photo.1": "images/no-zoo.jpg",
+  "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
 
@@ -269,8 +269,8 @@ Pandas.def.zoo = {
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
-  "photo": "images/no-zoo.jpg",
-  "video": "images/no-zoo.jpg",
+  "photo.1": "images/no-zoo.jpg",
+  "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
 
@@ -780,15 +780,15 @@ Pandas.date = function(animal, field, language) {
 
 // Given a field that doesn't have language information associated with it,
 // return either the field if it exists, or some reasonable default.
-Pandas.field = function(animal, field) {
+Pandas.field = function(animal, field, mode="animal") {
   if (animal[field] != undefined) {
     return animal[field];
-  } else if (Pandas.def.animal[field] != undefined ) {
-    return Pandas.def.animal[field];
+  } else if (Pandas.def[mode][field] != undefined ) {
+    return Pandas.def[mode][field];
   } else if (field.indexOf("photo.") == 0) {
-    return Pandas.def.animal["photo.1"];
+    return Pandas.def[mode]["photo.1"];
   } else if (field.indexOf("video.") == 0) {
-    return Pandas.def.animal["video.1"];
+    return Pandas.def[mode]["video.1"];
   } else {
     return undefined;
   }
@@ -1006,17 +1006,19 @@ Pandas.othernames = function(animal, language) {
 }
 
 // Find all available photos for a specific animal
-Pandas.photoManifest = function(animal) {
+Pandas.photoManifest = function(entity, mode="animal") {
   // Find the available photo indexes between one and ten
   var photos = {};
   var photo_fields = Pandas.photoGeneratorEntity;
-  // Gets panda photos
-  for (let field_name of photo_fields(animal)) {
-    photos[field_name] = Pandas.field(animal, field_name);
+  // Gets panda or zoo photos
+  for (let field_name of photo_fields(entity)) {
+    photos[field_name] = Pandas.field(entity, field_name, mode);
   }
-  // Filter out any keys that have the default value
+  // Filter out any keys that have the default value for either
+  // an animal or a zoo
   photos = Object.keys(photos).reduce(function(filtered, key) {
-    if (photos[key] != Pandas.def.animal[key]) {
+    if ((photos[key] != Pandas.def.animal[key]) && 
+        (photos[key] != Pandas.def.zoo[key])) {
       filtered[key] = photos[key];
     }
     return filtered;
@@ -1025,9 +1027,9 @@ Pandas.photoManifest = function(animal) {
 }
 
 // Given an animal, choose a single photo to display as its profile photo.
-Pandas.profilePhoto = function(animal, index) {
+Pandas.profilePhoto = function(animal, index, mode="animal") {
   // Find the available photo indexes
-  var photos = Pandas.photoManifest(animal);
+  var photos = Pandas.photoManifest(animal, mode);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
   var choice = "photo." + index.toString(); 
@@ -1041,7 +1043,7 @@ Pandas.profilePhoto = function(animal, index) {
   // Javascript is ridiculous
   if (Object.keys(photos).length === 0) {
     choice = "photo.1";
-    photos[choice] = Pandas.field(animal, choice);
+    photos[choice] = Pandas.field(animal, choice, mode);
   }
   // Return not just the chosen photo but the author and link as well
   var desired = {

@@ -7,7 +7,7 @@ en.othernames: National Zoo, Smithsonian's National Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/g8NQQHL5Qqw
-photo: https://www.instagram.com/p/Bo-RhjnHF4_/media/?size=m
-photo.author: smithsonianzoo
-photo.link: https://www.instagram.com/smithsonianzoo/
+photo.1: https://www.instagram.com/p/Bo-RhjnHF4_/media/?size=m
+photo.1.author: smithsonianzoo
+photo.1.link: https://www.instagram.com/smithsonianzoo/
 website: https://nationalzoo.si.edu/

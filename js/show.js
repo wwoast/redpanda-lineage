@@ -8,7 +8,7 @@ var Show = {};   /* Namespace */
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
   var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
-  var picture = Pandas.profilePhoto(animal, chosen_index);   // TODO: all photos for carousel
+  var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
        "birthday": Pandas.birthday(animal, language),
@@ -63,20 +63,24 @@ Show.acquireLocationList = function(animal, language) {
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
+  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var picture = Pandas.profilePhoto(zoo, chosen_index, "zoo");   // TODO: all photos for carousel
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   var bundle = {
        "animals": animals,
        "address": Pandas.zooField(zoo, language + ".address"),
   "animal_count": animals.length,
       "get_name": language + ".name",
+            "id": zoo["_id"],
       "language": language,
 "language_order": Pandas.language_order(zoo),
       "location": Pandas.zooField(zoo, language + ".location"),
            "map": Pandas.zooField(zoo, "map"),
           "name": Pandas.zooField(zoo, language + ".name"),
-         "photo": Pandas.zooField(zoo, "photo"),
-  "photo_credit": Pandas.zooField(zoo, "photo.author"),
-    "photo_link": Pandas.zooField(zoo, "photo.link"),
+         "photo": picture['photo'],
+  "photo_credit": picture['credit'],
+   "photo_index": picture['index'],
+    "photo_link": picture['link'],
       "recorded": recorded,
 "recorded_count": recorded.length,
        "website": Pandas.zooField(zoo, "website")
@@ -1058,7 +1062,7 @@ Show.profile.family = function(animal, language) {
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
   // TODO: start at the profile photo always
-  var gallery = Gallery.init(info, 'pandaPhoto');
+  var gallery = Gallery.init(info, 'animal');
   var photo = gallery.displayPhoto();
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -1375,7 +1379,7 @@ Show.results.panda = function(animal, language) {
   // Most missing elements should not be displayed, but 
   // a few should be printed regardless (birthday / death)
   var info = Show.acquirePandaInfo(animal, language);
-  var gallery = Gallery.init(info, 'pandaPhoto');
+  var gallery = Gallery.init(info, 'animal');
   var photo = gallery.displayPhoto();
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -1547,9 +1551,17 @@ Show.results.siblings = function(info) {
 Show.results.zoo = function(zoo, language) {
   // Display information for a zoo relevant to the red pandas
   var info = Show.acquireZooInfo(zoo, language);
-  var gallery = Gallery.init(info, 'zooPhoto', 'images/no-zoo.jpg');
+  var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
   var photo = gallery.displayPhoto();
-  var title = Show.zooTitle(info);
+  var span = gallery.displayPhotoNavigation();
+  photo.appendChild(span);
+  photo.addEventListener('mouseover', function() {
+    span.style.display = "block";
+  });
+  photo.addEventListener('mouseout', function() {
+    span.style.display = "none";
+  });
+  title = Show.zooTitle(info);
   var details = Show.results.zooDetails(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
@@ -1602,7 +1614,7 @@ Show.results.zooDetails = function(info) {
   details.appendChild(zoo_page);
   // Photo details are optional for zoos, so don't show the
   // photo link if there's no photo included in the dataset
-  if (info.photo != Pandas.def.zoo["photo"]) {
+  if (info.photo != Pandas.def.zoo["photo.1"]) {
     var photo_page = document.createElement('p');
     var photo_link = document.createElement('a');
     photo_link.href = info.photo_link;

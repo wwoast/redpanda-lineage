@@ -9,7 +9,7 @@ jp.location: 宮代町 南埼玉郡 埼玉県
 jp.name: 東武動物公園
 language.order: jp, en
 map: https://goo.gl/maps/74vbDPHR5DK2
-photo: https://www.instagram.com/p/Bioo8kVhp4i/media/?size=m
-photo.author: yurika_0212
-photo.link: https://www.instagram.com/yurika_0212/
+photo.1: https://www.instagram.com/p/Bioo8kVhp4i/media/?size=m
+photo.1.author: yurika_0212
+photo.1.link: https://www.instagram.com/yurika_0212/
 website: http://www.tobuzoo.com/park/

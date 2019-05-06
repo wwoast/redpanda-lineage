@@ -9,7 +9,7 @@ jp.location: 白浜町 和歌山県
 jp.name: アドベンチャーワールド
 language.order: jp, en
 map: https://goo.gl/maps/Z2vDjBgTPAG2
-photo: https://www.instagram.com/p/BqQ4Nf8gJh4/media/?size=m
-photo.author: doubakahanshidemenbaka
-photo.link: https://www.instagram.com/doubakahanshidemenbaka/
+photo.1: https://www.instagram.com/p/BqQ4Nf8gJh4/media/?size=m
+photo.1.author: doubakahanshidemenbaka
+photo.1.link: https://www.instagram.com/doubakahanshidemenbaka/
 website: http://www.aws-s.com/

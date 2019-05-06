@@ -6,7 +6,7 @@ en.name: Red River Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/iDn5ZuFrH4U2
-photo: https://www.instagram.com/p/BS67gHKD95c/media/?size=m
-photo.author: jdemolee
-photo.link: https://www.instagram.com/jdemolee/
+photo.1: https://www.instagram.com/p/BS67gHKD95c/media/?size=m
+photo.1.author: jdemolee
+photo.1.link: https://www.instagram.com/jdemolee/
 website: https://redriverzoo.org/

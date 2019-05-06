@@ -9,7 +9,7 @@ jp.location: 西区 横浜
 jp.name: 横浜市立野毛山動物園
 language.order: jp, en
 map: https://goo.gl/maps/TbqkYpePr5P2
-photo: https://www.instagram.com/p/BJphz90B8rd/media/?size=m
-photo.author: aqua_vanilla
-photo.link: https://www.instagram.com/aqua_vanilla/
+photo.1: https://www.instagram.com/p/BJphz90B8rd/media/?size=m
+photo.1.author: aqua_vanilla
+photo.1.link: https://www.instagram.com/aqua_vanilla/
 website: http://www.hama-midorinokyokai.or.jp/zoo/nogeyama/

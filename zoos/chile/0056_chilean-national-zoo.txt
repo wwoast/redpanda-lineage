@@ -9,7 +9,7 @@ es.name: Zoológico Nacional de Chile
 flag: Chile
 language.order: es, en
 map: https://goo.gl/maps/CtRXBeoUgYF2
-photo: https://www.instagram.com/p/BnWMq4RlZ83/media/?size=m
-photo.author: sibayupurnomo
-photo.link: https://www.instagram.com/sibayupurnomo/
+photo.1: https://www.instagram.com/p/BnWMq4RlZ83/media/?size=m
+photo.1.author: sibayupurnomo
+photo.1.link: https://www.instagram.com/sibayupurnomo/
 website: http://www.parquemet.cl/

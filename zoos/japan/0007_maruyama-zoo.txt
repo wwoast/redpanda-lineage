@@ -9,7 +9,7 @@ jp.location: 中央区 札幌市 北海道
 jp.name: 札幌市円山動物園
 language.order: jp, en
 map: https://goo.gl/maps/EY3uZRXNWNr
-photo: https://www.codaworry.com/images/rpf/maruyama-zoo-winter-small.jpg
-photo.author: wumpwoast
-photo.link: https://www.instagram.com/wumpwoast/
+photo.1: https://www.codaworry.com/images/rpf/maruyama-zoo-winter-small.jpg
+photo.1.author: wumpwoast
+photo.1.link: https://www.instagram.com/wumpwoast/
 website: http://www.city.sapporo.jp/zoo/index.html

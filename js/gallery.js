@@ -10,9 +10,19 @@ Gallery = {};     /* Namespace */
 
 Gallery.G = {};   /* Prototype */
 
-Gallery.init = function(info, element_class, fallback_url='images/no-panda-portrait.jpg') {
+Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portrait.jpg') {
   var gallery = Object.create(Gallery.G);
   gallery.info = info;   // Old photo value == info.photo
+  // Hacky way to determine the proper element class from whether this
+  // is an animal photo carousel or a zoo photo carousel
+  gallery.carousel_type = carousel_type;
+  if (carousel_type == "animal") {
+    gallery.element_class = "pandaPhoto";
+  } else if (carousel_type == "zoo") {
+    gallery.element_class = "zooPhoto";
+  } else {
+    gallery.element_class = "pandaPhoto";
+  }
   // Define index value for which of an animal's photos we'll display by default.
   // Doesn't apply to zoo info objects, so we have a default standby value
   if ("photo_index" in gallery.info) {
@@ -20,7 +30,6 @@ Gallery.init = function(info, element_class, fallback_url='images/no-panda-portr
   } else {
     gallery.index = "1";
   }
-  gallery.element_class = element_class;
   gallery.fallback_url = fallback_url;
   return gallery;
 }
@@ -96,16 +105,16 @@ Gallery.G.displayPhotoPreload = function() {
   var next_photo = "photo." + (parseInt(this.index) + 1).toString();
   var count = this.photoCount(this.info.id);
   var last_photo = "photo." + count.toString();
-  var animal = Pandas.searchPandaId(this.info.id)[0];
-  if (Pandas.field(animal, prev_photo) != default_photo) {
-    imgs.push(animal[prev_photo]);
+  var entity = this.photoEntity();
+  if (Pandas.field(entity, prev_photo, this.carousel_type) != default_photo) {
+    imgs.push(entity[prev_photo]);
   } else {
-    imgs.push(animal[last_photo]);  // Before first item is the last photo in the list
+    imgs.push(entity[last_photo]);  // Before first item is the last photo in the list
   }
-  if (Pandas.field(animal, next_photo) != default_photo) {
-    imgs.push(animal[next_photo]);
+  if (Pandas.field(entity, next_photo, this.carousel_type) != default_photo) {
+    imgs.push(entity[next_photo]);
   } else {
-    imgs.push(animal["photo.1"]);  // After last item is back to the first
+    imgs.push(entity["photo.1"]);  // After last item is back to the first
   }
   // If any of the photos we tried to preload are undefined, remove them from the preload list
   return imgs.filter(function(element) {
@@ -115,22 +124,33 @@ Gallery.G.displayPhotoPreload = function() {
 
 // Utility function to get the current number of photos.
 Gallery.G.photoCount = function() {
-  var animal = Pandas.searchPandaId(this.info.id)[0];
-  var photo_manifest = Pandas.photoManifest(animal);
+  var entity = this.photoEntity();
+  var photo_manifest = Pandas.photoManifest(entity, this.carousel_type);
   var max_index = Object.values(photo_manifest).length;
   return max_index;
 }
 
+// Utility function to get the proper entity for photo counts
+Gallery.G.photoEntity = function() {
+  var entity = undefined;
+  if (this.carousel_type == "zoo") {
+    entity = Pandas.searchZooId(this.info.id)[0];
+  } else {
+    entity = Pandas.searchPandaId(this.info.id)[0];
+  }
+  return entity;
+}
+
 // Navigation input event -- load the next photo in the carousel
-Gallery.G.photoNext = function(animal_id=this.info.id) {
-  var current_photo_element = document.getElementsByClassName(animal_id + "/photo")[0];
+Gallery.G.photoNext = function(entity_id=this.info.id) {
+  var current_photo_element = document.getElementsByClassName(entity_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
 }
 
 // Navigation input event -- load the previous photo in the carousel
-Gallery.G.photoPrevious = function(animal_id=this.info.id) {
-  var current_photo_element = document.getElementsByClassName(animal_id + "/photo")[0];
+Gallery.G.photoPrevious = function(entity_id=this.info.id) {
+  var current_photo_element = document.getElementsByClassName(entity_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
 }
@@ -138,9 +158,9 @@ Gallery.G.photoPrevious = function(animal_id=this.info.id) {
 // Switch the currently displayed photo to the next one in the list
 Gallery.G.photoSwap = function(photo, desired_index) {
   var span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
-  var [animal_id, _, photo_id] = photo.id.split("/");
-  var animal = Pandas.searchPandaId(animal_id)[0];
-  var photo_manifest = Pandas.photoManifest(animal);
+  var [entity_id, _, photo_id] = photo.id.split("/");
+  var entity = this.photoEntity();
+  var photo_manifest = Pandas.photoManifest(entity, this.carousel_type);
   var max_index = Object.values(photo_manifest).length;
   var new_index = 1;   // Fallback value
   if (desired_index < 1) {
@@ -158,14 +178,14 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   }
   var chosen = "photo." + new_index.toString();
   var new_choice = photo_manifest[chosen];
-  var new_container = this.displayPhoto(new_choice, animal_id, new_index.toString());
+  var new_container = this.displayPhoto(new_choice, entity_id, new_index.toString());
   var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
   photo.id = new_photo.id;
   photo.className = new_photo.className;
   Touch.addHandler(new_photo);
-  var photo_info = Pandas.profilePhoto(animal, new_index);
+  var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
   this.singlePhotoCredit(photo_info, photo_id, new_index);
   // And the photographer credit's apple points
@@ -309,24 +329,37 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
-Gallery.zooPhotoCredits = function(zoo, language) {
+Gallery.zooPhotoCredits = function(zoo, credit, language) {
+  var content_divs = [];
+  var photos = [];
   var info = Show.acquireZooInfo(zoo, language);
-  var img_link = document.createElement('a');
-  // Link to the original instagram media
-  img_link.href = zoo.photo.replace("/media/?size=m", "");
-  img_link.target = "_blank";   // Open in new tab
-  var img = document.createElement('img');
-  img.src = zoo.photo;
-  img_link.appendChild(img);
-  var caption_link = document.createElement('a');
-  caption_link.href = "#zoo/" + zoo._id;
-  var caption = document.createElement('h5');
-  caption.className = "caption";
-  caption.innerText = info.name;
-  caption_link.appendChild(caption);
-  var container = document.createElement('div');
-  container.className = "photoSample";
-  container.appendChild(img_link);
-  container.appendChild(caption_link);
-  return container;
+  var photo_indexes = Pandas.photoGeneratorEntity;
+  for (let field_name of photo_indexes(zoo, 0)) {
+    if (zoo[field_name + ".author"] == credit) {
+      photos.push({"image": zoo[field_name], "index": field_name});
+    }
+  }
+  for (let item of photos) {
+    var photo = item.image;
+    var index = item.index.split(".")[1];
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = photo.replace("/media/?size=m", "");
+    img_link.target = "_blank";   // Open in new tab
+    var img = document.createElement('img');
+    img.src = photo.replace('/?size=m', '/?size=t');
+    img_link.appendChild(img);
+    var caption_link = document.createElement('a');
+    caption_link.href = "#zoo/" + zoo._id + "/photo/" + index;
+    var caption = document.createElement('h5');
+    caption.className = "caption";
+    caption.innerText = info.name;
+    caption_link.appendChild(caption);
+    var container = document.createElement('div');
+    container.className = "photoSample";
+    container.appendChild(img_link);
+    container.appendChild(caption_link);
+    content_divs.push(container);
+  }
+  return content_divs;
 }

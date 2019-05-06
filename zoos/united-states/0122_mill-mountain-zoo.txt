@@ -6,7 +6,7 @@ en.name: Mill Mountain Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/npzDkr2388w
-photo: https://www.instagram.com/p/BmJogyJg4bf/media/?size=m
-photo.author: millmountainzoo
-photo.link: https://www.instagram.com/millmountainzoo/
+photo.1: https://www.instagram.com/p/BmJogyJg4bf/media/?size=m
+photo.1.author: millmountainzoo
+photo.1.link: https://www.instagram.com/millmountainzoo/
 website: http://www.mmzoo.org/

@@ -385,7 +385,8 @@ class RedPandaGraph:
         for field in infile.items("wild"):
             # Use negative numbers for zoo IDs, to distinguish from pandas
             [ key, value ] = [field[0], field[1]]
-            if key == 'photo':
+            if (key.find("photo") != -1 and
+                len(key.split(".")) == 2):
                 author = infile.get("wild", key + ".author")
                 if author in self.photo["credit"].keys():
                     self.photo["credit"][author] = self.photo["credit"][author] + 1
@@ -411,7 +412,8 @@ class RedPandaGraph:
             [ key, value ] = [field[0], field[1]]
             if key == '_id':
                 value = str(int(field[1]) * -1)
-            elif key == 'photo':
+            elif (key.find("photo") != -1 and
+                  len(key.split(".")) == 2):
                 author = infile.get("zoo", key + ".author")
                 if author in self.photo["credit"].keys():
                     self.photo["credit"][author] = self.photo["credit"][author] + 1

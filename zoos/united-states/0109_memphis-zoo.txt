@@ -6,7 +6,7 @@ en.name: Memphis Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/nQy82rrLbm32
-photo: https://www.instagram.com/memphiszoo/
-photo.author: memphiszoo
-photo.link: https://www.instagram.com/memphiszoo/
+photo.1: https://www.instagram.com/memphiszoo/
+photo.1.author: memphiszoo
+photo.1.link: https://www.instagram.com/memphiszoo/
 website: https://memphiszoo.org/

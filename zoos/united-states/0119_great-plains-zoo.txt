@@ -6,7 +6,7 @@ en.name: Great Plains Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/cDksLi3ecVF2
-photo: https://www.instagram.com/p/BizgGNel5T6/media/?size=m
-photo.author: greatplainszoo
-photo.link: https://www.instagram.com/greatplainszoo/
+photo.1: https://www.instagram.com/p/BizgGNel5T6/media/?size=m
+photo.1.author: greatplainszoo
+photo.1.link: https://www.instagram.com/greatplainszoo/
 website: https://greatzoo.org/
