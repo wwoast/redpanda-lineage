@@ -108,7 +108,6 @@ def remove_photos(section, author, file_path):
     Given a author (typically an Instagram username), remove their photos
     from every panda or zoo data entry.
     """
-    file_path = ""
     start_index = 1
     removals = 0
     # Enter the pandas subdirectories
