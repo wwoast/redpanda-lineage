@@ -6,4 +6,11 @@ en.name: Fort Wayne Children's Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/s6yrZhQmjR72
+photo.1: https://www.instagram.com/p/Brkp88eApCh/media/?size=m
+photo.1.author: fwkidszoo
+photo.1.link: https://www.instagram.com/fwkidszoo/
+photo.1.tags: profile
+photo.2: https://www.instagram.com/p/Bs3NpTWA0b5/media/?size=m
+photo.2.author: fwkidszoo
+photo.2.link: https://www.instagram.com/fwkidszoo/
 website: https://kidszoo.org/

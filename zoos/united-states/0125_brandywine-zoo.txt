@@ -6,4 +6,8 @@ en.name: Brandywine Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/BbYuTcVJmVL2
+photo.1: https://www.instagram.com/p/Brh7cdKFqcc/media/?size=m
+photo.1.author: brandywinezoo
+photo.1.link: https://www.instagram.com/brandywinezoo/
+photo.1.tags: profile
 website: https://brandywinezoo.org/

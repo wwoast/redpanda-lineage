@@ -16,5 +16,9 @@ location.1: 109, 2005/6/12
 location.2: 116, 2006/4/6
 location.3: 119, 2006/12/19
 location.4: 124, 2008/11/20
+photo.1: https://www.instagram.com/p/BvmLZCJgOSM/media/?size=m
+photo.1.author: detroitzoo
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: profile, snow
 species: 1
 zoo: 124
