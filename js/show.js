@@ -1615,18 +1615,10 @@ Show.results.zooDetails = function(info) {
   // Photo details are optional for zoos, so don't show the
   // photo link if there's no photo included in the dataset
   if (info.photo != Pandas.def.zoo["photo.1"]) {
-    var photo_page = document.createElement('p');
-    var photo_link = document.createElement('a');
-    photo_link.href = info.photo_link;
-    photo_link.innerText = L.emoji.camera + " " + info.photo_credit;
-    photo_page.appendChild(photo_link);
-    details.appendChild(photo_page);
-    // See how many other panda photos this user has posted
-    var other_photos = document.createElement('p');
-    var credit_count_link = document.createElement('a');
-    credit_count_link.href = "#credit/" + info.photo_credit;
-    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
-    other_photos.appendChild(credit_count_link);
+    // Give credit for the person that took this photo
+    var credit = Show.creditLink(info, 'p');
+    details.appendChild(credit);
+    var other_photos = Show.appleLink(info, 'p');
     details.appendChild(other_photos);
   }
   return details;
