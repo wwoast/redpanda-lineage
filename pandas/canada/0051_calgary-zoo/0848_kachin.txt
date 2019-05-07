@@ -1,0 +1,17 @@
+[panda]
+_id: 848
+birthday: 1995/5/31
+birthplace: 51
+children: 446
+death: 2011/7/6
+en.name: Kachin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カチン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+species: 2
+zoo: 51
