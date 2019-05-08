@@ -17,9 +17,13 @@ location.2: 16, 2012/12/12
 photo.1: https://www.instagram.com/p/BjOy7SUlFv5/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: apple time, keeper, profile
+photo.1.tags: apple time, keeper
 photo.2: https://www.instagram.com/p/BjY2q8ZAwoX/media/?size=m
 photo.2.author: lesserpanda_shizuokacity_cp
 photo.2.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.3: https://www.instagram.com/p/BxL-ubHlTHR/media/?size=m
+photo.3.author: ayusuke56
+photo.3.link: https://www.instagram.com/ayusuke56/
+photo.3.tags: bamboo, home, profile, smile
 species: 2
 zoo: 16
