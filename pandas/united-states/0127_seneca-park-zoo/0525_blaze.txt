@@ -15,5 +15,45 @@ litter: 652
 location.1: 126, 2013/7/20
 location.2: 114, 2014/10/30
 location.3: 127, 2018/3/15
+photo.1: https://www.instagram.com/p/BrVK_-HFMQt/media/?size=m
+photo.1.author: senecaparkzoo
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: laying down, paws, smile
+photo.2: https://www.instagram.com/p/BwmXjehF7yh/media/?size=m
+photo.2.author: senecaparkzoo
+photo.2.link: https://www.instagram.com/senecaparkzoo/
+photo.2.tags: bridge, sleeping
+photo.3: https://www.instagram.com/p/BsqH9R_AjbN/media/?size=m
+photo.3.author: senecaparkzoo
+photo.3.link: https://www.instagram.com/senecaparkzoo/
+photo.3.tags: bamboo, tongue
+photo.4: https://www.instagram.com/p/BvwTAiRj5fE/media/?size=m
+photo.4.author: senecaparkzoo
+photo.4.link: https://www.instagram.com/senecaparkzoo/
+photo.4.tags: bamboo, tongue, tree
+photo.5: https://www.instagram.com/p/BuTukeXFTRe/media/?size=m
+photo.5.author: senecaparkzoo
+photo.5.link: https://www.instagram.com/senecaparkzoo/
+photo.5.tags: bamboo, smile, tree
+photo.6: https://www.instagram.com/p/BqcldxQAmeo/media/?size=m
+photo.6.author: senecaparkzoo
+photo.6.link: https://www.instagram.com/senecaparkzoo/
+photo.6.tags: hammock, peek, tail
+photo.7: https://www.instagram.com/p/Bo1pE9wDLwl/media/?size=m
+photo.7.author: senecaparkzoo
+photo.7.link: https://www.instagram.com/senecaparkzoo/
+photo.7.tags: bamboo, paws
+photo.8: https://www.instagram.com/p/Bog_TYAgAh0/media/?size=m
+photo.8.author: senecaparkzoo
+photo.8.link: https://www.instagram.com/senecaparkzoo/
+photo.8.tags: laying down, paws
+photo.9: https://www.instagram.com/p/BnRAXYsjK-c/media/?size=m
+photo.9.author: senecaparkzoo
+photo.9.link: https://www.instagram.com/senecaparkzoo/
+photo.9.tags: hammock, profile
+photo.10: https://www.instagram.com/p/BmyNlt4j0YU/media/?size=m
+photo.10.author: senecaparkzoo
+photo.10.link: https://www.instagram.com/senecaparkzoo/
+photo.10.tags: laying down, tail
 species: 1
 zoo: 127

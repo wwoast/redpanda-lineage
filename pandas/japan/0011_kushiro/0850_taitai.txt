@@ -1,0 +1,19 @@
+[panda]
+_id: 850
+birthday: 1990/6/26
+birthplace: 36
+children: none
+death: 1999/3/27
+en.name: Tai Tai
+en.nicknames: none
+en.othernames: Tai-Tai
+gender: m
+jp.name: タイタイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 849
+location.1: 36, 1990/6/26
+location.2: 11, 1991/5/28
+species: 2
+zoo: 11

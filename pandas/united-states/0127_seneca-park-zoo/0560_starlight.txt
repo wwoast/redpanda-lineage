@@ -14,5 +14,21 @@ language.order: en, jp
 litter: unknown
 location.1: 114, 2017/6/17
 location.2: 127, 2018/3/15
+photo.1: https://www.instagram.com/p/BkIUqZhFTx1/media/?size=m
+photo.1.author: senecaparkzoo
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: bamboo, profile
+photo.2: https://www.instagram.com/p/Bnv53O0jr63/media/?size=m
+photo.2.author: senecaparkzoo
+photo.2.link: https://www.instagram.com/senecaparkzoo/
+photo.2.tags: tree
+photo.3: https://www.instagram.com/p/Bk5F9RNgD9L/media/?size=m
+photo.3.author: senecaparkzoo
+photo.3.link: https://www.instagram.com/senecaparkzoo/
+photo.3.tags: bamboo, paws
+photo.4: https://www.instagram.com/p/Bj5uvvTn5Jb/media/?size=m
+photo.4.author: senecaparkzoo
+photo.4.link: https://www.instagram.com/senecaparkzoo/
+photo.4.tags: bamboo, tree
 species: 1
 zoo: 127

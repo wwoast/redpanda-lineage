@@ -1,0 +1,19 @@
+[panda]
+_id: 852
+birthday: 1988/7/13
+birthplace: 40
+children: 152, 594, 851
+death: 2003/6/15
+en.name: Shin-Shin
+en.nicknames: none
+en.othernames: Shinshin
+gender: f
+jp.name: シンシン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: 40, 1988/7/13
+location.2: 14, 1992/11/6
+species: 2
+zoo: 14
