@@ -1,0 +1,20 @@
+[panda]
+_id: 853
+birthday: 2000/6/29
+birthplace: 39
+children: unknown
+death: 2013/3/21
+en.name: Kaguya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カグヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: 39, 2000/6/29
+location.2: 38, 2001/4/5
+location.3: 17, 2004/4/12
+species: 2
+zoo: 17
