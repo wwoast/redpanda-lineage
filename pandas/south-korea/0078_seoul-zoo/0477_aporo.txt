@@ -14,5 +14,20 @@ language.order: jp, en
 litter: 135
 location.1: 46, 2004/6/28
 location.2: 78, 2005/4/25
+photo.1: https://www.instagram.com/p/BxNHclZlXKt/media/?size=m
+photo.1.author: redpanda_pstommy
+photo.1.link: https://www.instagram.com/redpanda_pstommy/
+photo.2: https://www.instagram.com/p/Bt0qXvql6ja/media/?size=m
+photo.2.author: chefneko
+photo.2.link: https://www.instagram.com/chefneko/
+photo.2.tags: tongue
+photo.3: https://www.instagram.com/p/8wrAPrvl2c/media/?size=m
+photo.3.author: seoulgrandpark
+photo.3.link: https://www.instagram.com/seoulgrandpark/
+photo.3.tags: apple time
+photo.4: https://www.instagram.com/p/BvTKpuOnYCD/media/?size=m
+photo.4.author: seoulgrandpark
+photo.4.link: https://www.instagram.com/seoulgrandpark/
+photo.4.tags: profile
 species: 2
 zoo: 78
