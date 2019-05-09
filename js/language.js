@@ -20,45 +20,53 @@ Language.init = function() {
 */
 // TODO: do we need localized emojis for various things?
 Language.L.emoji = {
-  "animal": "🐼",
-   "alien": "👽",
-   "arrow": "➡",
-  "author": "✍️",
-"birthday": "🎂",
-  "bamboo": "🎍",
-    "baby": "👶🏻", 
-    "born": "👼",
-     "boy": "👦🏻",
-  "camera": "📷",
-    "died": "🌈",
-    "edit": "📝",
-  "father": "👨🏻",
-  "female": "♀️",
-    "gift": "🍎",
-    "girl": "👧🏻",
-    "home": "🏡",
-"language": "‍👁️‍🗨️",
-    "link": "🦉",
-    "logo": "🐯🐻",
-    "male": "♂️",
-     "map": "🗺️",
-   "media": "🖼",
-   "money": "💸",
-  "mother": "👩🏻",
- "no_more": "🚫",
- "profile": "💟",
-  "random": "🎲",
-  "search": "🔍",
-"star_dad": "👨‍🎤",
-"star_mom": "👩‍🎤",
-   "story": "🎍",
-     "top": "⬆",
-"timeline": "📰",
-  "travel": "✈️",
-    "tree": "🌳",
- "website": "🌐",
-     "wip": "🚧",
-     "zoo": "🦁"
+     "animal": "🐼",
+      "alien": "👽",
+      "apple": "🍎",
+      "arrow": "➡",
+     "author": "✍️",
+     "autumn": "🍂",
+   "birthday": "🎂",
+     "bamboo": "🎍",
+       "baby": "👶🏻",
+      "blink": "😑",
+       "born": "👼",
+        "boy": "👦🏻",
+     "bridge": "🌉",
+  "butterfly": "🦋",
+     "camera": "📷",
+"caterpillar": "🐛",
+       "died": "🌈",
+       "edit": "📝",
+     "father": "👨🏻",
+     "female": "♀️",
+       "gift": "🍎",
+       "girl": "👧🏻",
+       "home": "🏡",
+   "language": "‍👁️‍🗨️",
+       "link": "🦉",
+       "logo": "🐯🐻",
+       "male": "♂️",
+        "map": "🗺️",
+      "media": "🖼",
+      "money": "💸",
+     "mother": "👩🏻",
+    "no_more": "🚫",
+    "profile": "💟",
+     "random": "🎲",
+     "search": "🔍",
+   "star_dad": "👨‍🎤",
+   "star_mom": "👩‍🎤",
+      "story": "🎍",
+        "top": "⬆",
+   "timeline": "📰",
+     "tongue": "👅",
+    "tornado": "🌪️",
+     "travel": "✈️",
+       "tree": "🌳",
+    "website": "🌐",
+        "wip": "🚧",
+        "zoo": "🦁"
 }
 
 // TODO: key on other language versions of country names
@@ -554,6 +562,76 @@ Language.L.no_result = {
   "cn": "沒有發現熊貓",
   "en": "No Pandas Found",
   "jp": "パンダが見つかりません"
+}
+
+// Search tag translations for searching photos by metadata.
+// Limit to 100 photos returned by default, but they don't 
+// have to be the same 100 returned each time.
+// TODO: duplicate tag management (baby)
+// TODO: romanji for japanese terms
+Language.L.tags = {
+  "air tasting": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.tongue + 
+              Language.L.emoji.butterfly],
+       "en": ["air tasting", 
+              "air taste"],
+       "jp": ["舌ヒラヒラ"]
+  },
+  "apple time": {
+       "cn": ["TOWRITE"],
+    "emoji": [Show.emoji.apple],
+       "en": ["apple time"],
+       "jp": ["りんごタイム"]
+  },
+  "autumn": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.autumn],
+       "en": ["autumn", "fall"],
+       "jp": ["秋"]
+  },
+  "bamboo": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.bamboo],
+       "en": ["bamboo"],
+       "jp": ["笹"]
+  },
+  "bear worm": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.caterpillar],
+       "en": ["bear worm"],
+       "jp": ["のびのび"]
+  },
+  "blink": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.blink],
+       "en": ["blink", "blinking"],
+       "jp": ["まばたき"]
+  },
+  "bridge": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.bridge],
+       "en": ["bridge"],
+       "jp": ["架け橋"]
+  },
+  "carry": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["carry", "holding"],
+       "jp": ["運ぶ"]
+  },
+  "climb": {
+       "cn": ["TOWRITE"],
+    "emoji": [""],
+       "en": ["climb", "climbing"],
+       "jp": ["登る"]
+  },
+  "destruction": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.tornado],
+       "en": ["chaos", "destruction", "mess"],
+       "jp": ["破壊"]
+  }
 }
 
 /*
