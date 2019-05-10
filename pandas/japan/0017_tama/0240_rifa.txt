@@ -89,7 +89,7 @@ photo.20.tags: tail
 photo.21: https://www.instagram.com/p/BqkKBK8lpXM/media/?size=m
 photo.21.author: mofu_pan
 photo.21.link: https://www.instagram.com/mofu_pan/
-photo.21.tags: profile, smile
+photo.21.tags: smile
 photo.22: https://www.instagram.com/p/BqkAdcyFwBM/media/?size=m
 photo.22.author: kinkinkin0826
 photo.22.link: https://www.instagram.com/kinkinkin0826/
@@ -257,5 +257,9 @@ photo.64: https://www.instagram.com/p/BxOHBF6lgOh/media/?size=m
 photo.64.author: fetorus_mami
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: mofumofu, tongue
+photo.65: https://www.instagram.com/p/BxQsz6GlKEu/media/?size=m
+photo.65.author: fetorus_mami
+photo.65.link: https://www.instagram.com/fetorus_mami/
+photo.65.tags: profile
 species: 2
 zoo: 17
