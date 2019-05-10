@@ -31,30 +31,52 @@ Language.L.emoji = {
        "baby": "👶🏻",
       "blink": "😑",
        "born": "👼",
+       "bowl": "🍜",
         "boy": "👦🏻",
      "bridge": "🌉",
   "butterfly": "🦋",
      "camera": "📷",
 "caterpillar": "🐛",
        "died": "🌈",
+       "dish": "🍽️",
+        "ear": "👂",
        "edit": "📝",
+        "eye": "👁️",
      "father": "👨🏻",
      "female": "♀️",
+     "flower": "🌼",
        "gift": "🍎",
        "girl": "👧🏻",
+    "grandpa": "👴",
+     "grumpy": "😠",
+     "hearts": "💕",
        "home": "🏡",
+       "jizo": "🗿",
    "language": "‍👁️‍🗨️",
        "link": "🦉",
+       "lips": "👄",
        "logo": "🐯🐻",
        "male": "♂️",
         "map": "🗺️",
       "media": "🖼",
       "money": "💸",
+    "monocle": "🧐",
+       "moon": "🌙",
      "mother": "👩🏻",
     "no_more": "🚫",
+       "nose": "👃",
+      "panda": "🐼",
+       "paws": "🐾",
+       "poop": "💩",
+       "pray": "🙏",
     "profile": "💟",
      "random": "🎲",
      "search": "🔍",
+   "sleeping": "😴",
+    "slobber": "🤤",
+      "smile": "😄",
+       "snow": "❄️",
+     "spider": "🕷",
    "star_dad": "👨‍🎤",
    "star_mom": "👩‍🎤",
       "story": "🎍",
@@ -65,6 +87,8 @@ Language.L.emoji = {
      "travel": "✈️",
        "tree": "🌳",
     "website": "🌐",
+     "weight": "🏋️",
+      "worry": "😢",
         "wip": "🚧",
         "zoo": "🦁"
 }
@@ -631,6 +655,243 @@ Language.L.tags = {
     "emoji": [Language.L.emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
        "jp": ["破壊"]
+  },
+  "dig": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["dig", "digging", "digs"],
+       "jp": ["穴掘り"]
+  },
+  "dish": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.dish],
+       "en": ["dish", "plate"],
+       "jp": ["ごはん"]
+  },
+  "ear": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.ear],
+       "en": ["ear", "ears"],
+       "jp": ["耳"]
+  },
+  "eye": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.eye],
+       "en": ["eye", "eyes"],
+       "jp": ["目"]
+  },
+  "flower": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.flower],
+       "en": ["flower", "flowers"],
+       "jp": ["花"]
+  },
+  "grooming": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["groom", "grooming", "cleaning"],
+       "jp": ["毛づくろい"]
+  },
+  "grumpy": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.grumpy],
+       "en": ["grumpy", "grouchy"],
+       "jp": ["ご機嫌ナナメ"]
+  },
+  "hammock": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["hammock"],
+       "jp": ["ハンモック"]
+  },
+  "home": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.home],
+       "en": ["home"],
+       "jp": ["お家"]
+  },
+  "in love": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.hearts],
+       "en": ["in love", "love"],
+       "jp": ["恋"]
+  },
+  "itchy": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["itchy", "scratchy"],
+       "jp": ["かゆい"]
+  },
+  "jizo": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.jizo],
+       "en": ["jizo", "jizo statue"],
+       "jp": ["お地蔵さん"]
+  },
+  "keeper": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["keeper", "zookeeper"],
+       "jp": ["飼育員"]
+  },
+  "laying down": {
+       "cn": ["TOWRITE"],
+    "emoji": [""],
+       "en": ["lay down", "laying down"],
+       "jp": ["寝そべっている"]
+  },
+  "lips": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.lips],
+       "en": ["lips"],
+       "jp": ["くちびる"]
+  },
+  "long tongue": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.tongue +
+              Language.L.emoji.tongue],
+       "en": ["long tongue"],
+       "jp": ["長い舌"]
+  },
+  "lunch time": {
+       "cn": ["TOWRITE"],
+    "emoji": [],
+       "en": ["lunch time", "lunch"],
+       "jp": ["ランチの時間"]
+  },
+  "mofumofu": {
+        "cn": ["TOWRITE"],
+     "emoji": [],
+        "en": ["mofumofu"],
+        "jp": ["モフモフ"]
+  },
+  "muzzle": {
+        "cn": ["TOWRITE"],
+     "emoji": [],
+        "en": ["muzzle", "snout"],
+        "jp": ["マズル"]
+  },
+  "night": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.moon],
+        "en": ["night"],
+        "jp": ["夜"]
+  },
+  "nose": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.nose],
+        "en": ["nose", "snout"],
+        "jp": ["鼻"]
+  },
+  "old": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.grandpa],
+        "en": ["old"],
+        "jp": ["年老いた"]
+  },
+  "panda bowl": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.panda + 
+               Language.L.emoji.bowl],
+        "en": ["panda bowl", "bowl"],
+        "jp": ["エサ鉢"]
+  },
+  "paws": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.paws],
+        "en": ["paws", "feet"],
+        "jp": ["足"]
+  },
+  "peek": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.monocle],
+        "en": ["peek", "peeking"],
+        "jp": ["チラ見"]
+  },
+  "poop": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.poop],
+        "en": ["poop"],
+        "jp": [Language.L.emoji.poop]
+  },
+  "pooping": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.panda +
+               Language.L.emoji.poop],
+        "en": ["pooping"],
+        "jp": ["💩している"]
+  },
+  "praying": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.praying],
+        "en": ["praying", "pray"],
+        "jp": ["お祈りしている"]
+  },
+  "profile": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.profile],
+        "en": ["profile"],
+        "jp": ["横顔"]
+  },
+  "pull-up": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.weight],
+        "en": ["pull-up", "pull-ups", "pullup"],
+        "jp": ["懸垂"]
+  },
+  "shake": {
+        "cn": ["TOWRITE"],
+     "emoji": [],
+        "en": ["shake", "shaking"],
+        "jp": ["ゆらゆら"]
+  },
+  "shedding": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.worry],
+        "en": ["shedding", "losing fur", "losing hair"],
+        "jp": ["泣いている"]
+  },
+  "sleeping": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.sleeping],
+        "en": ["sleeping", "sleep", "asleep"],
+        "jp": ["寝ている"]
+  },
+  "slobber": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.slobber],
+        "en": ["slobber", "slobbering"],
+        "jp": ["よだれをたらしている"]
+  },
+  "smile": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.smile],
+        "en": ["smile", "smiling"],
+        "jp": ["スマイル"]
+  },
+  "snow": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.snow],
+        "en": ["snow"],
+        "jp": ["雪"]
+  },
+  "spider": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.spider],
+        "en": ["spider", "spider-bear", "spider bear"],
+        "jp": ["スパイダー"]
+  },
+  "standing": {
+        "cn": ["TOWRITE"],
+     "emoji": [],
+        "en": ["standing", "stand"],
+        "jp": ["立っている"]
+  },
+  "stretching": {
+        "cn": ["TOWRITE"],
+     "emoji": [],
+        "en": ["stretching", "stretch"],
+        "jp": ["ストレッチしている"]
   }
 }
 
