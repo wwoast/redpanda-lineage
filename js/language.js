@@ -44,7 +44,9 @@ Language.L.emoji = {
         "eye": "👁️",
      "father": "👨🏻",
      "female": "♀️",
+  "fireworks": "🎆",
      "flower": "🌼",
+   "football": "⚽",
        "gift": "🍎",
        "girl": "👧🏻",
     "grandpa": "👴",
@@ -71,25 +73,31 @@ Language.L.emoji = {
        "pray": "🙏",
     "profile": "💟",
      "random": "🎲",
+  "raincloud": "🌧️",
      "search": "🔍",
    "sleeping": "😴",
     "slobber": "🤤",
       "smile": "😄",
+      "snake": "🐍",
        "snow": "❄️",
      "spider": "🕷",
    "star_dad": "👨‍🎤",
    "star_mom": "👩‍🎤",
       "story": "🎍",
+     "target": "🎯",
         "top": "⬆",
    "timeline": "📰",
      "tongue": "👅",
     "tornado": "🌪️",
      "travel": "✈️",
        "tree": "🌳",
+"upside_down": "🙃",
     "website": "🌐",
      "weight": "🏋️",
+       "wink": "😉",
       "worry": "😢",
         "wip": "🚧",
+       "yawn": "😪",
         "zoo": "🦁"
 }
 
@@ -892,6 +900,66 @@ Language.L.tags = {
      "emoji": [],
         "en": ["stretching", "stretch"],
         "jp": ["ストレッチしている"]
+  },
+  "surprise": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.fireworks],
+        "en": ["surprise", "surprised"],
+        "jp": ["びっくり"]
+  },
+  "tail": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.snake],
+        "en": ["tail"],
+        "jp": ["しっぽ"]
+  },
+  "techitechi": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.target],
+        "en": ["techitechi"],
+        "jp": ["テチテチ"]
+  },
+  "tongue": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.tongue],
+        "en": ["tongue"],
+        "jp": ["べろ"]
+  },
+  "toy": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.football],
+        "en": ["toy", "toys"],
+        "jp": ["おもちゃ"]
+  },
+  "tree": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.tree],
+        "en": ["tree", "trees"],
+        "jp": ["木"]
+  },
+  "upside-down": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.upside_down],
+        "en": ["upside-down", "upside down"],
+        "jp": ["逆さま"]
+  },
+  "wink": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.wink],
+        "en": ["wink", "winking"],
+        "jp": ["ウィンク"]
+  },
+  "wet": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.raincloud],
+        "en": ["wet"],
+        "jp": ["濡れた"]
+  },
+  "yawn": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.yawn],
+        "en": ["yawn", "yawning"],
+        "jp": ["あくび"]
   }
 }
 
