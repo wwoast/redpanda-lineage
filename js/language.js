@@ -612,7 +612,7 @@ Language.L.tags = {
   },
   "apple time": {
        "cn": ["TOWRITE"],
-    "emoji": [Show.emoji.apple],
+    "emoji": [Language.L.emoji.apple],
        "en": ["apple time"],
        "jp": ["りんごタイム"]
   },
