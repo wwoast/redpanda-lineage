@@ -774,10 +774,195 @@ Show.landing.menus.bottom = function() {
 }
 Show.landing.menus.bottomButtons = ['topButton'];   // TODO: message button
 Show.landing.mothersday = {};
-// TODO: add these to zoos, tagged "mother's day"
+// TODO: organize these under group.json files in pandas/
+// Tag these photos as "mother's day", and refer to them here 
+// replacing photo.1, photo.1.author, and photo.1.link with zoo-id and photo-id
+Show.landing.mothersday.photos = [
+  {
+    "photo.1": "https://www.instagram.com/p/BxNEj_kliDR/",
+    "photo.1.author": "happy_love2.15",
+    "photo.1.format": "medium",
+    "photo.1.link": "https://www.instagram.com/happy_love2.15/",
+    "photo.1.message": {
+      "en": "Cocoa = Yuufa " + Language.L.emoji.mother + " = Milk",
+      "jp": "ココア = 優花" + Language.L.emoji.mother + " = ミルク"
+    },
+  },
+  {
+    "photo.2": "https://www.instagram.com/p/Br6nEBZlF7F/",
+    "photo.2.author": "redpanda_nippon_takashi",
+    "photo.2.format": "medium",
+    "photo.2.link": "https://www.instagram.com/redpanda_nippon_takashi/",
+    "photo.2.message": {
+      "en": "Himawari & Yuufa " + Language.L.emoji.mother,
+      "jp": "ひまわりと優花" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.3": "https://www.instagram.com/p/Bp9M7Hel4aL/",
+    "photo.3.author": "daniele.tokyo",
+    "photo.3.format": "large",
+    "photo.3.link": "https://www.instagram.com/daniele.tokyo/",
+    "photo.3.message": {
+      "en": "Yuri " + Language.L.emoji.mother + ", Kanta & Hinata",
+      "jp": "百合" + Language.L.emoji.mother + ", カンタとヒナタ"
+    }
+  },
+  {
+    "photo.4": "https://www.instagram.com/p/BrZQdseFUNI/",
+    "photo.4.author": "kipekaila",
+    "photo.4.format": "medium",
+    "photo.4.link": "https://www.instagram.com/kipekaila/",
+    "photo.4.message": {
+      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
+      "jp": "赤ちゃんとライラ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.5": "https://www.instagram.com/p/BqmJx72lQg7/",
+    "photo.5.author": "framereim",
+    "photo.5.format": "medium",
+    "photo.5.link": "https://www.instagram.com/framereim/",
+    "photo.5.message": {
+      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
+      "jp": "赤ちゃんとライラ" + Language.L.emoji.mother    
+    }
+  },
+  {
+    "photo.6": "https://www.instagram.com/p/BLE5X6ojiWE/",
+    "photo.6.author": "_sealiz",
+    "photo.6.format": "medium",
+    "photo.6.link": "https://www.instagram.com/_sealiz/",
+    "photo.6.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + "と円実"
+    }
+  },
+  {
+    "photo.7": "https://www.instagram.com/p/BWXl8oejiqw/",
+    "photo.7.author": "_sealiz",
+    "photo.7.format": "medium",
+    "photo.7.link": "https://www.instagram.com/_sealiz/",
+    "photo.7.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実とギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.8": "https://www.instagram.com/p/Bd7NrUMDmUv/",
+    "photo.8.author": "colette.jp",
+    "photo.8.format": "large",
+    "photo.8.link": "https://www.instagram.com/colette.jp/",
+    "photo.8.message": {
+      "en": "Min-fa " + Language.L.emoji.mother + " & Jazz",
+      "jp": "ミンファ" + Lanugage.L.emoji.mother + "とジャズ"
+    }
+  },
+  {
+    "photo.9": "https://www.instagram.com/p/BccAw_gFxb1/",
+    "photo.9.author": "l_ma_photos",
+    "photo.9.format": "medium",
+    "photo.9.link": "https://www.instagram.com/l_ma_photos/",
+    "photo.9.message": {
+      "en": "Miyabi & Hanabi " + Language.L.emoji.mother,
+      "jp": "ミヤビとハナビ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.10": "https://www.instagram.com/p/BZH0jiHBOgE/",
+    "photo.10.author": "_rifa_p",
+    "photo.10.format": "medium",
+    "photo.10.link": "https://www.instagram.com/_rifa_p/",
+    "photo.10.message": {
+      "en": "Kokoro & Chihiro " + Language.L.emoji.mother,
+      "jp": "ココロとチヒロ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.11": "https://www.instagram.com/p/BcJ4WpHlinR/",
+    "photo.11.author": "yossi929",
+    "photo.11.format": "medium",
+    "photo.11.link": "https://www.instagram.com/yossi929/",
+    "photo.11.message": {
+      "en": "Nokaze " + Language.L.emoji.mother + " & Nohana",
+      "jp": "野風" + Language.L.emoji.mother + "と野花"
+    }
+  },
+  {
+    "photo.12": "https://www.instagram.com/p/BoeGgpWlQ2K/",
+    "photo.12.author": "makimaru18",
+    "photo.12.format": "medium",
+    "photo.12.link": "https://www.instagram.com/makimaru18/",
+    "photo.12.message": {
+      "en": "Luca & Karin " + Language.L.emoji.mother,
+      "jp": "ルカとカリン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.13": "https://www.instagram.com/p/BqN6JedlDVA/",
+    "photo.13.author": "sb23megumi",
+    "photo.13.format": "large",
+    "photo.13.link": "https://www.instagram.com/sb23megumi/",
+    "photo.13.message": {
+      "en": "Rifa & Taofa " + Language.L.emoji.mother,
+      "jp": "李花とタオファ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.14": "https://www.instagram.com/p/Bce-oLthIl0/",
+    "photo.14.author": "mifko55",
+    "photo.14.format": "medium",
+    "photo.14.link": "https://www.instagram.com/mifko55/",
+    "photo.14.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + "と円実"
+    }
+  },
+  {
+    "photo.15": "https://www.instagram.com/p/BNobsDShO_0/",
+    "photo.15.author": "sina_dw",
+    "photo.15.format": "medium",
+    "photo.15.link": "https://www.instagram.com/sina_dw/",
+    "photo.15.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実とギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.16": "https://www.instagram.com/p/Bl5Hvo2l3l5/",
+    "photo.16.author": "izu_108",
+    "photo.16.format": "medium",
+    "photo.16.link": "https://www.instagram.com/izu_108/",
+    "photo.16.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実とギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.17": "https://www.instagram.com/p/BOn0VJpjyB8/",
+    "photo.17.author": "_sealiz",
+    "photo.17.format": "medium",
+    "photo.17.link": "https://www.instagram.com/_sealiz/",
+    "photo.17.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + "と円実"
+    }
+  },
+  {
+    "photo.18": "https://www.instagram.com/p/BZ3Qkfnge8I/",
+    "photo.18.author": "cattail.sapporo",
+    "photo.18.format": "large",
+    "photo.18.link": "https://www.instagram.com/cattail.sapporo/",
+    "photo.18.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実とギン" + Language.L.emoji.mother
+    }
+  }
+]
 Show.landing.mothersday.render = function() {
-  // Iterate over group photos tagged "mother's day"
-  
+  // Iterate over Show.landing.mothersday.photos.
+  // Make large format ones with a different URI and class
+
 }
 
 

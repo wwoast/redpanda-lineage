@@ -375,6 +375,11 @@ Language.L.messages = {
            "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
            "設計©2019 Justin Fairchild"]
   },
+  "landing_mothersday": {
+    "cn": ["TOWRITE"],
+    "en": ["Happy", "Mother's", "Day!"],
+    "jp": ["母の日", "おめでとう"]
+  },
   "profile_babies": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
