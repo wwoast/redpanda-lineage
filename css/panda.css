@@ -97,6 +97,10 @@ button.menu.profile {
     background-color: #693638;
 }
 
+button.menu.message {
+    width: 237px;   /* 1.6x a normal button size, for message text */
+}
+
 button.menu:hover, button.logo:hover {
     animation: activateMenuButton;
     animation-duration: 0.3s;
@@ -984,6 +988,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         padding: 0 0 0 0;
     }
 
+    button.menu.message {
+        width: 160px;   /* 2x a normal button size, for message text */
+    }    
+
     div.buttonIcon {
         display: table-row;
         font-size: 24pt;
@@ -999,7 +1007,13 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         word-break: keep-all;  /* Fix iPhone text overflow for "Random" jp */
     }
 
-    div.buttonText.condensed {
+    div.buttonText.message {
+        /* Message buttons always have text to right of icon */
+        display: table-cell;
+        text-align: left;
+    }
+
+    div.buttonText.condensed, div.buttonText.message.condensed {
         font-size: 10pt;
         letter-spacing: -1px;
     }

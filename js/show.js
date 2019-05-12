@@ -626,6 +626,32 @@ Show.button.media.render = function(class_name="profile") {class_name
   var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display], class_name);
   return media;
 }
+Show.button.message = {};
+// Menu bar content that may have an arbitrary icon and arbitrary text after it.
+// On mobile, the text will go to the side of the icon, with one word per line
+// (and three lines of text). On desktop, the text will run a wide one or two lines.
+// In both cases, a column ruler will space this special content from the other
+// buttons. This will likely look best when appearing as the first button in a menu.
+Show.button.message.render = function(id, button_icon, button_text, class_name="results") {
+  var button = document.createElement('button');
+  button.className = "menu message";
+  button.classList.add(class_name);
+  button.id = id;
+  var content = document.createElement('div');
+  content.className = "buttonContent message";
+  var icon_div = document.createElement('div');
+  icon_div.className = 'buttonIcon';
+  icon_div.innerText = button_icon;
+  content.appendChild(icon_div);
+  if (button_text != undefined) {
+    var text_div = document.createElement('div');
+    text_div.className = 'buttonText message';
+    text_div.innerText = button_text;
+    content.appendChild(text_div);
+  }
+  button.appendChild(content);
+  return button;  
+}
 Show.button.profile = {};
 // Work in progress button, doesn't do anything yet
 Show.button.profile.render = function(class_name="profile") {
@@ -716,6 +742,111 @@ Show.button.top.render = function(class_name="results") {
   top.addEventListener("click", Show.button.top.action);
   return top;
 }
+
+/*
+    Show functions used to generate content for the landing page when you
+    first visit redpandafinder.com. The landing (home) page is just a special 
+    case of the results page, minus no search input, and the only time there
+    is special display logic is when content is landing on the home page.
+    This is very WIP.
+*/
+Show.landing = {};
+Show.landing.menus = {};
+Show.landing.menus.bottom = function() {
+  // Return to a green menu bar: Top, and a Message Button 
+  // for if the landing page is in a special mode.
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of bottom-menu buttons and render them.
+  // Since the theme is green, leverage the "results" render type
+  for (let btn_id of Show.landing.menus.bottomButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render("results");
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("bottomMenu")[0];
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  // Remove any previous menu class modifiers
+  menu.classList.add("results");
+  menu.classList.remove("profile");
+  return menu;
+}
+Show.landing.menus.bottomButtons = ['topButton'];   // TODO: message button
+Show.landing.mothersday = {};
+Show.landing.mothersday.photos = {
+  "1": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "2": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "3": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw-large.jpg"
+  },
+  "4": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "5": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "6": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "7": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "8": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw-large.jpg"
+  },
+  "9": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  },
+  "10": {
+    "message": {
+      "en": "Yuufa",
+      "jp": "優花"
+    },
+    "photo": "tbw.jpg"
+  }
+}
+
 
 /* 
     Show functions used to generate translated heading snippets in various page modes
