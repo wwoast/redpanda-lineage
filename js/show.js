@@ -774,77 +774,10 @@ Show.landing.menus.bottom = function() {
 }
 Show.landing.menus.bottomButtons = ['topButton'];   // TODO: message button
 Show.landing.mothersday = {};
-Show.landing.mothersday.photos = {
-  "1": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "2": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "3": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw-large.jpg"
-  },
-  "4": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "5": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "6": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "7": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "8": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw-large.jpg"
-  },
-  "9": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  },
-  "10": {
-    "message": {
-      "en": "Yuufa",
-      "jp": "優花"
-    },
-    "photo": "tbw.jpg"
-  }
+// TODO: add these to zoos, tagged "mother's day"
+Show.landing.mothersday.render = function() {
+  // Iterate over group photos tagged "mother's day"
+  
 }
 
 
