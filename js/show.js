@@ -962,10 +962,43 @@ Show.landing.mothersday.photos = [
 Show.landing.mothersday.render = function() {
   // Iterate over Show.landing.mothersday.photos.
   // Make large format ones with a different URI and class
-
+  var counter = 0;
+  var mothers_div = document.createElement('div');
+  for (let photo_info of Show.landing.mothersday.photos) {
+    counter = counter + 1;
+    var source = photo_info["photo." + counter]
+    var author = Language.L.emoji.camera + " " + photo_info["photo." + counter + ".author"]
+    var format = photo_info["photo." + counter + ".format"]
+    var link = photo_info["photo." + counter + ".link"]
+    var message = photo_info["photo." + counter + ".message"][Language.L.display];
+    // Create the image frame
+    var img = document.createElement('img');
+    img.className = "TOWRITE";
+    img.src = source;
+    img.alt = message;
+    // Create the message caption
+    var caption_message = document.createElement('a');
+    var caption_message_text = document.createElement('h5');
+    caption_message_text.className = "caption shortMessage";
+    caption_message_text.innerText = message;
+    caption_message.appendChild(caption_message_text);
+    // Create the secondary credit caption
+    var caption_author = document.createElement('a');
+    var caption_author_text = document.createElement('h5');
+    caption_author_text.className = "caption authorCredit";
+    caption_author_text.innerText = author;
+    caption_author.appendChild(caption_author_text);
+    // Create the entire photo frame
+    var photo_frame = document.createElement('div');
+    photo_frame.className = "TOWRITE";
+    photo_frame.appendChild(img);
+    photo_frame.appendChild(caption_message);
+    photo_frame.appendChild(caption_author);
+    // Append this to the Mother's day frame
+    mothers_div.appendChild(photoFrame);
+  }
+  return mothers_div;
 }
-
-
 /* 
     Show functions used to generate translated heading snippets in various page modes
 */
