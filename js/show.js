@@ -785,7 +785,7 @@ Show.landing.mothersday.photos = [
     "photo.1.link": "https://www.instagram.com/happy_love2.15/",
     "photo.1.message": {
       "en": "Cocoa = Yuufa " + Language.L.emoji.mother + " = Milk",
-      "jp": "ココア = 優花" + Language.L.emoji.mother + " = ミルク"
+      "jp": "ココアと優花" + Language.L.emoji.mother + "とミルク"
     },
   },
   {
@@ -855,7 +855,7 @@ Show.landing.mothersday.photos = [
     "photo.8.link": "https://www.instagram.com/colette.jp/",
     "photo.8.message": {
       "en": "Min-fa " + Language.L.emoji.mother + " & Jazz",
-      "jp": "ミンファ" + Lanugage.L.emoji.mother + "とジャズ"
+      "jp": "ミンファ" + Language.L.emoji.mother + "とジャズ"
     }
   },
   {
@@ -967,15 +967,20 @@ Show.landing.mothersday.render = function() {
   for (let photo_info of Show.landing.mothersday.photos) {
     counter = counter + 1;
     var source = photo_info["photo." + counter]
-    var author = Language.L.emoji.camera + " " + photo_info["photo." + counter + ".author"]
+    var author = Language.L.emoji.camera + "\xa0" + photo_info["photo." + counter + ".author"]
     var format = photo_info["photo." + counter + ".format"]
     var link = photo_info["photo." + counter + ".link"]
-    var message = photo_info["photo." + counter + ".message"][Language.L.display];
+    var message = photo_info["photo." + counter + ".message"][L.display];
     // Create the image frame
+    var img_link = document.createElement('a');
+    img_link.href = source;
     var img = document.createElement('img');
-    img.className = "TOWRITE";
-    img.src = source;
-    img.alt = message;
+    if (format == "large") {
+      img.src = source + "media/?size=l";
+    } else {
+      img.src = source + "media/?size=m";
+    }
+    img_link.appendChild(img);
     // Create the message caption
     var caption_message = document.createElement('a');
     var caption_message_text = document.createElement('h5');
@@ -984,18 +989,24 @@ Show.landing.mothersday.render = function() {
     caption_message.appendChild(caption_message_text);
     // Create the secondary credit caption
     var caption_author = document.createElement('a');
+    caption_author.href = link;
     var caption_author_text = document.createElement('h5');
     caption_author_text.className = "caption authorCredit";
     caption_author_text.innerText = author;
     caption_author.appendChild(caption_author_text);
     // Create the entire photo frame
     var photo_frame = document.createElement('div');
-    photo_frame.className = "TOWRITE";
-    photo_frame.appendChild(img);
+    photo_frame.className = "photoSample";
+    photo_frame.appendChild(img_link);
     photo_frame.appendChild(caption_message);
     photo_frame.appendChild(caption_author);
+    if (format == "large") {
+      photo_frame.classList.add("fullPage");
+    } else {
+      photo_frame.classList.add("halfPage");
+    }
     // Append this to the Mother's day frame
-    mothers_div.appendChild(photoFrame);
+    mothers_div.appendChild(photo_frame);
   }
   return mothers_div;
 }

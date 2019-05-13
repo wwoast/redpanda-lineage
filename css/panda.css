@@ -306,6 +306,10 @@ div#hiddenContentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
+div#contentFrame.mothersDay {
+    text-align: center;
+}
+
 /* Class to add to hidden sections on about/links page */
 div.hidden {
     display: none;
@@ -940,6 +944,14 @@ div.photoSample {
     padding: 5px;
 }
 
+div.photoSample.halfPage {
+    width: 40%;
+}
+
+div.photoSample.fullPage {
+    width: 60%;
+}
+
 div.photoSample > a > img {
     border: 1px solid #002200;
     width: 100%;
@@ -954,7 +966,8 @@ div.photoSample h5 {
     width: 80%;
 }
 
-div.photoSample h5.caption.familyName {
+div.photoSample h5.caption.familyName,
+div.photoSample h5.caption.shortMessage {
     margin-bottom: 0px;
     border-bottom: 0px solid;
 }
@@ -963,6 +976,13 @@ div.photoSample h5.caption.familyTitle {
     background-color: whitesmoke;
     margin-top: 0px;
     border-top: 0px solid;
+}
+
+div.photoSample h5.caption.authorCredit {
+    background-color: whitesmoke;
+    margin-top: 0px;
+    border-top: 0px solid;
+    word-break: break-all;
 }
 
 div.photoSample h5.caption.familyTitle > span.condensed {

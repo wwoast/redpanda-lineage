@@ -119,10 +119,12 @@ Page.home = {};
 Page.home.render = function() {
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
-  var new_content = document.createElement('img');
-  new_content.src = "images/jiuzhaigou.jpg";
-  new_content.className = "fullFrame";
+  var new_content = document.createElement('div');
+  new_content.className = "results mothersDay";
   new_content.id = "contentFrame";
+  // Special mother's day logic!
+  var mothers_div = Show.landing.mothersday.render();
+  new_content.appendChild(mothers_div);
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
   Page.footer.remove();
