@@ -966,8 +966,7 @@ div.photoSample h5 {
     width: 80%;
 }
 
-div.photoSample h5.caption.familyName,
-div.photoSample h5.caption.shortMessage {
+div.photoSample h5.caption.familyName {
     margin-bottom: 0px;
     border-bottom: 0px solid;
 }
@@ -976,6 +975,11 @@ div.photoSample h5.caption.familyTitle {
     background-color: whitesmoke;
     margin-top: 0px;
     border-top: 0px solid;
+}
+
+div.photoSample h5.caption.shortMessage {
+    margin-bottom: 0px;
+    border-bottom: 0px solid;
 }
 
 div.photoSample h5.caption.authorCredit {
@@ -1285,10 +1289,18 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     }
 
     div.photoSample.halfPage {
-        width: 42.5%;
+        width: 45%;
     }
 
     div.photoSample.fullPage {
         width: 95%;
     }
+
+    div.photoSample h5.caption.shortMessage {
+        width: 100%;
+    }
+    
+    div.photoSample h5.caption.authorCredit {
+        width: 100%;
+    }    
 }
