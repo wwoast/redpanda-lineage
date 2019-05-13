@@ -628,10 +628,6 @@ Show.button.media.render = function(class_name="profile") {class_name
 }
 Show.button.message = {};
 // Menu bar content that may have an arbitrary icon and arbitrary text after it.
-// On mobile, the text will go to the side of the icon, with one word per line
-// (and three lines of text). On desktop, the text will run a wide one or two lines.
-// In both cases, a column ruler will space this special content from the other
-// buttons. This will likely look best when appearing as the first button in a menu.
 Show.button.message.render = function(id, button_icon, button_text, class_name="results") {
   var button = document.createElement('button');
   button.className = "menu message";
@@ -787,23 +783,23 @@ Show.landing.mothersday = {};
 // replacing photo.1, photo.1.author, and photo.1.link with zoo-id and photo-id
 Show.landing.mothersday.photos = [
   {
-    "photo.1": "https://www.instagram.com/p/BxNEj_kliDR/",
-    "photo.1.author": "happy_love2.15",
+    "photo.1": "https://www.instagram.com/p/BNobsDShO_0/",
+    "photo.1.author": "sina_dw",
     "photo.1.format": "medium",
-    "photo.1.link": "https://www.instagram.com/happy_love2.15/",
+    "photo.1.link": "https://www.instagram.com/sina_dw/",
     "photo.1.message": {
-      "en": "Cocoa & Yuufa " + Language.L.emoji.mother + " & Milk",
-      "jp": "ココア, 優花" + Language.L.emoji.mother + ", ミルク"
-    },
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実, ギン" + Language.L.emoji.mother
+    }
   },
   {
-    "photo.2": "https://www.instagram.com/p/Br6nEBZlF7F/",
-    "photo.2.author": "redpanda_nippon_takashi",
+    "photo.2": "https://www.instagram.com/p/BOn0VJpjyB8/",
+    "photo.2.author": "_sealiz",
     "photo.2.format": "medium",
-    "photo.2.link": "https://www.instagram.com/redpanda_nippon_takashi/",
+    "photo.2.link": "https://www.instagram.com/_sealiz/",
     "photo.2.message": {
-      "en": "Himawari & Yuufa " + Language.L.emoji.mother,
-      "jp": "ひまわり, 優花" + Language.L.emoji.mother
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
     }
   },
   {
@@ -937,25 +933,26 @@ Show.landing.mothersday.photos = [
     }
   },
   {
-    "photo.16": "https://www.instagram.com/p/BNobsDShO_0/",
-    "photo.16.author": "sina_dw",
+    "photo.16": "https://www.instagram.com/p/Br6LkgXFIIY/",
+    "photo.16.author": "redpanda_nippon_takashi",
     "photo.16.format": "medium",
-    "photo.16.link": "https://www.instagram.com/sina_dw/",
+    "photo.16.link": "https://www.instagram.com/redpanda_nippon_takashi/",
     "photo.16.message": {
-      "en": "Marumi & Gin " + Language.L.emoji.mother,
-      "jp": "円実, ギン" + Language.L.emoji.mother
-    }
+      "en": "Yuufa " + Language.L.emoji.mother + " & Milk & Cocoa",
+      "jp": "優花" + Language.L.emoji.mother + ", ミルク, ココア"
+    },
   },
   {
-    "photo.17": "https://www.instagram.com/p/BOn0VJpjyB8/",
-    "photo.17.author": "_sealiz",
+    "photo.17": "https://www.instagram.com/p/Br6nEBZlF7F/",
+    "photo.17.author": "redpanda_nippon_takashi",
     "photo.17.format": "medium",
-    "photo.17.link": "https://www.instagram.com/_sealiz/",
+    "photo.17.link": "https://www.instagram.com/redpanda_nippon_takashi/",
     "photo.17.message": {
-      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
-      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
+      "en": "Himawari & Yuufa " + Language.L.emoji.mother,
+      "jp": "ひまわり, 優花" + Language.L.emoji.mother
     }
   },
+
   {
     "photo.18": "https://www.instagram.com/p/BZ3Qkfnge8I/",
     "photo.18.author": "cattail.sapporo",

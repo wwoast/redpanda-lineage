@@ -98,7 +98,7 @@ button.menu.profile {
 }
 
 button.menu.message {
-    width: 237px;   /* 1.6x a normal button size, for message text */
+    width: 260px;   /* Longer button for message text */
 }
 
 button.menu:hover, button.logo:hover {
