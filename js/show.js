@@ -952,7 +952,6 @@ Show.landing.mothersday.photos = [
       "jp": "ひまわり, 優花" + Language.L.emoji.mother
     }
   },
-
   {
     "photo.18": "https://www.instagram.com/p/BZ3Qkfnge8I/",
     "photo.18.author": "cattail.sapporo",
