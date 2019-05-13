@@ -784,7 +784,7 @@ Show.landing.mothersday.photos = [
     "photo.1.format": "medium",
     "photo.1.link": "https://www.instagram.com/happy_love2.15/",
     "photo.1.message": {
-      "en": "Cocoa = Yuufa " + Language.L.emoji.mother + " = Milk",
+      "en": "Cocoa & Yuufa " + Language.L.emoji.mother + " & Milk",
       "jp": "ココアと優花" + Language.L.emoji.mother + "とミルク"
     },
   },
@@ -919,20 +919,20 @@ Show.landing.mothersday.photos = [
     }
   },
   {
-    "photo.15": "https://www.instagram.com/p/BNobsDShO_0/",
-    "photo.15.author": "sina_dw",
+    "photo.15": "https://www.instagram.com/p/Bl5Hvo2l3l5/",
+    "photo.15.author": "izu_108",
     "photo.15.format": "medium",
-    "photo.15.link": "https://www.instagram.com/sina_dw/",
+    "photo.15.link": "https://www.instagram.com/izu_108/",
     "photo.15.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
       "jp": "円実とギン" + Language.L.emoji.mother
     }
   },
   {
-    "photo.16": "https://www.instagram.com/p/Bl5Hvo2l3l5/",
-    "photo.16.author": "izu_108",
+    "photo.16": "https://www.instagram.com/p/BNobsDShO_0/",
+    "photo.16.author": "sina_dw",
     "photo.16.format": "medium",
-    "photo.16.link": "https://www.instagram.com/izu_108/",
+    "photo.16.link": "https://www.instagram.com/sina_dw/",
     "photo.16.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
       "jp": "円実とギン" + Language.L.emoji.mother

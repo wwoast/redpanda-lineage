@@ -945,11 +945,11 @@ div.photoSample {
 }
 
 div.photoSample.halfPage {
-    width: 40%;
+    width: 35%;
 }
 
 div.photoSample.fullPage {
-    width: 60%;
+    width: 72.5%;
 }
 
 div.photoSample > a > img {

@@ -127,7 +127,7 @@ Page.home.render = function() {
   new_content.appendChild(mothers_div);
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
-  Page.footer.remove();
+  Page.footer.redraw("landing");
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
 }
