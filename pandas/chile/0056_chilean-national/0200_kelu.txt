@@ -14,33 +14,13 @@ jp.name: ケルー
 jp.nicknames: none
 jp.othernames: ケル
 language.order: es, jp, en
-photo.1: https://www.instagram.com/p/BinZVNvnfqR/media/?size=m
-photo.1.author: zookeeperseba
-photo.1.link: https://www.instagram.com/zookeeperseba/
-photo.1.tags: profile, smile
-photo.2: https://www.instagram.com/p/BmCSpoWnufV/media/?size=m
-photo.2.author: zookeeperseba
-photo.2.link: https://www.instagram.com/zookeeperseba/
-photo.2.tags: laying down
-photo.3: https://www.instagram.com/p/BlO_4omnwd1/media/?size=m
-photo.3.author: zookeeperseba
-photo.3.link: https://www.instagram.com/zookeeperseba/
-photo.3.tags: dish, smile, tail
-photo.4: https://www.instagram.com/p/Bedi5JOgjT0/media/?size=m
-photo.4.author: zookeeperseba
-photo.4.link: https://www.instagram.com/zookeeperseba/
-photo.4.tags: mofumofu
-photo.5: https://www.instagram.com/p/BljLccJncO4/media/?size=m
-photo.5.author: zookeeperseba
-photo.5.link: https://www.instagram.com/zookeeperseba/
-photo.5.tags: apple time, dish, smile
-photo.6: https://www.instagram.com/p/Bl9VsnPnrDJ/media/?size=m
-photo.6.author: alexisbarnes.cl
-photo.6.link: https://www.instagram.com/alexisbanares.cl/
-photo.6.tags: bamboo, tail
-photo.7: https://www.instagram.com/p/BxPV3PVlRmH/media/?size=m
-photo.7.author: monmon_redpanda
-photo.7.link: https://www.instagram.com/monmon_redpanda/
-photo.7.tags: profile, smile
+photo.1: https://www.instagram.com/p/Bl9VsnPnrDJ/media/?size=m
+photo.1.author: alexisbarnes.cl
+photo.1.link: https://www.instagram.com/alexisbanares.cl/
+photo.1.tags: bamboo, tail
+photo.2: https://www.instagram.com/p/BxPV3PVlRmH/media/?size=m
+photo.2.author: monmon_redpanda
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: profile, smile
 species: 2
 zoo: 56
