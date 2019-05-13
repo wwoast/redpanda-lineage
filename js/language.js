@@ -377,8 +377,8 @@ Language.L.messages = {
   },
   "landing_mothersday": {
     "cn": ["TOWRITE"],
-    "en": ["Happy", "Mother's", "Day!"],
-    "jp": ["母の日", "おめでとう"]
+    "en": ["Happy Mother's Day!"],
+    "jp": ["母の日おめでとう"]
   },
   "profile_babies": {
     "cn": ["TOWRITE"],
