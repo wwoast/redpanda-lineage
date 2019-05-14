@@ -781,6 +781,8 @@ Show.landing.mothersday = {};
 // TODO: organize these under group.json files in pandas/
 // Tag these photos as "mother's day", and refer to them here 
 // replacing photo.1, photo.1.author, and photo.1.link with zoo-id and photo-id
+//   - remove author, link. keep message. photo.1 => media, 7, 1
+//              for non-group photo       photo.1 => panda, 17, n
 Show.landing.mothersday.photos = [
   {
     "photo.1": "https://www.instagram.com/p/BNobsDShO_0/",
