@@ -122,12 +122,14 @@ Page.home.render = function() {
   var new_content = document.createElement('div');
   new_content.className = "results mothersDay";
   new_content.id = "contentFrame";
-  // Special mother's day logic!
-  var mothers_div = Gallery.special.mothersday.render();
-  new_content.appendChild(mothers_div);
-  Page.swap(old_content, new_content);
   Show["results"].menus.top();
-  Page.footer.redraw("landing");
+  // Special mother's day logic!
+  if (P.db != undefined) {
+    var mothers_div = Gallery.special.mothersday.render();
+    new_content.appendChild(mothers_div);
+    Page.swap(old_content, new_content);
+    Page.footer.redraw("landing");
+  }
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
 }
