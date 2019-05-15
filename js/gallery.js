@@ -368,7 +368,7 @@ Gallery.special = {};
 Gallery.special.mothersday = {};
 Gallery.special.mothersday.photos = [
   {
-    "photo.1": ["media.7", "photo.1"],
+    "photo.1": ["media.7.gin-marumi", "photo.1"],
     "photo.1.format": "medium",
     "photo.1.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
@@ -376,7 +376,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.2": ["media.7", "photo.2"],
+    "photo.2": ["media.7.gin-marumi", "photo.2"],
     "photo.2.format": "medium",
     "photo.2.message": {
       "en": "Gin " + Language.L.emoji.mother + " & Marumi",
@@ -384,7 +384,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.3": ["media.26", "photo.1"],
+    "photo.3": ["media.26.hinata-kanta-yuri", "photo.1"],
     "photo.3.format": "large",
     "photo.3.message": {
       "en": "Yuri " + Language.L.emoji.mother + ", Kanta & Hinata",
@@ -392,7 +392,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.4": ["media.29", "photo.1"],
+    "photo.4": ["media.29.akachan-laila", "photo.1"],
     "photo.4.format": "medium",
     "photo.4.message": {
       "en": "Aka-chan & Laila " + Language.L.emoji.mother,
@@ -400,7 +400,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.5": ["media.29", "photo.2"],
+    "photo.5": ["media.29.akachan-laila", "photo.2"],
     "photo.5.format": "medium",
     "photo.5.message": {
       "en": "Aka-chan & Laila " + Language.L.emoji.mother,
@@ -408,7 +408,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.6": ["media.7", "photo.3"],
+    "photo.6": ["media.7.gin-marumi", "photo.3"],
     "photo.6.format": "medium",
     "photo.6.message": {
       "en": "Gin " + Language.L.emoji.mother + " & Marumi",
@@ -416,7 +416,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.7": ["media.7", "photo.4"],
+    "photo.7": ["media.7.gin-marumi", "photo.4"],
     "photo.7.format": "medium",
     "photo.7.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
@@ -424,7 +424,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.8": ["media.36", "photo.1"],
+    "photo.8": ["media.36.jazz-minfa", "photo.1"],
     "photo.8.format": "large",
     "photo.8.message": {
       "en": "Min-fa " + Language.L.emoji.mother + " & Jazz",
@@ -432,7 +432,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.9": ["media.9", "photo.1"],
+    "photo.9": ["media.9.hanabi-miyabi", "photo.1"],
     "photo.9.format": "medium",
     "photo.9.message": {
       "en": "Miyabi & Hanabi " + Language.L.emoji.mother,
@@ -440,7 +440,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.10": ["media.18", "photo.1"],
+    "photo.10": ["media.18.chihiro-kokoro", "photo.1"],
     "photo.10.format": "medium",
     "photo.10.message": {
       "en": "Kokoro & Chihiro " + Language.L.emoji.mother,
@@ -448,7 +448,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.11": ["media.41", "photo.1"],
+    "photo.11": ["media.41.nohana-nokaze", "photo.1"],
     "photo.11.format": "medium",
     "photo.11.message": {
       "en": "Nokaze " + Language.L.emoji.mother + " & Nohana",
@@ -456,7 +456,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.12": ["media.50", "photo.1"],
+    "photo.12": ["media.50.karin-luca", "photo.1"],
     "photo.12.format": "medium",
     "photo.12.message": {
       "en": "Luca & Karin " + Language.L.emoji.mother,
@@ -464,7 +464,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.13": ["media.17", "photo.1"],
+    "photo.13": ["media.17.rifa-taofa", "photo.1"],
     "photo.13.format": "large",
     "photo.13.message": {
       "en": "Rifa & Taofa " + Language.L.emoji.mother,
@@ -472,7 +472,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.14": ["media.7", "photo.5"],
+    "photo.14": ["media.7.gin-marumi", "photo.5"],
     "photo.14.format": "medium",
     "photo.14.message": {
       "en": "Gin " + Language.L.emoji.mother + " & Marumi",
@@ -480,7 +480,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.15": ["media.7", "photo.6"],
+    "photo.15": ["media.7.gin-marumi", "photo.6"],
     "photo.15.format": "medium",
     "photo.15.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
@@ -488,7 +488,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.16": ["media.1", "photo.1"],
+    "photo.16": ["media.1.cocoa-milk-yuufa", "photo.1"],
     "photo.16.format": "medium",
     "photo.16.message": {
       "en": "Yuufa " + Language.L.emoji.mother + " & Milk & Cocoa",
@@ -496,7 +496,7 @@ Gallery.special.mothersday.photos = [
     },
   },
   {
-    "photo.17": ["media.1", "photo.2"],
+    "photo.17": ["media.1.himawari-yuufa", "photo.1"],
     "photo.17.format": "medium",
     "photo.17.message": {
       "en": "Himawari & Yuufa " + Language.L.emoji.mother,
@@ -504,7 +504,7 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.18": ["media.7", "photo.7"],
+    "photo.18": ["media.7.gin-marumi", "photo.7"],
     "photo.18.format": "large",
     "photo.18.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
