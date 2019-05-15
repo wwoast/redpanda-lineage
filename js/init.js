@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", function() {
     } else if ((window.location.hash.length > 0) && 
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
+    } else if ((window.location.hash.length == 0) || 
+        (window.location.hash == "#home")) {
+      Page.home.render();
     }
   });
 
@@ -85,6 +88,7 @@ window.addEventListener('hashchange', function() {
   }
   window.localStorage.setItem("last_seen", window.location.hash);
 });
+
 
 // Once the about-page content is loaded, decide whether to display the
 // contents or just keep them stashed.
