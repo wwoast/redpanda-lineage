@@ -28,6 +28,8 @@ class RedPandaGraph:
     """
     def __init__(self):
         self.edges = []
+        self.media = []
+        self.media_files = []
         self.panda_files = []
         self.photo = {}
         self.photo["credit"] = {}
@@ -46,6 +48,7 @@ class RedPandaGraph:
         self.import_tree(ZOO_PATH, self.import_zoo, self.verify_zoos)
         self.import_tree(WILD_PATH, self.import_wild, self.verify_wilds)
         self.import_tree(PANDA_PATH, self.import_redpanda, self.verify_pandas)
+        self.import_tree(MEDIA_PATH, self.import_media, self.verify_media)
 
     def check_dataset_dates(self):
         """Run checks against the complete tree of red panda dates.
@@ -210,6 +213,7 @@ class RedPandaGraph:
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
+        export['_totals']['media'] = len(self.media)
         export['_totals']['wilds'] = len(self.wilds)
         export['_totals']['zoos'] = len(self.zoos)
         export['_totals']['locations'] = len(self.wilds) + len(self.zoos)
@@ -248,6 +252,40 @@ class RedPandaGraph:
         # Post-import, validate the entire dataset
         verify_method()
 
+    def import_media(self, path):
+        """Take a single media file and convert it into a Python dict.
+
+        Media files are expected to have a header of [media]. Any fields defined
+        under that header will be consumed into a list of photos or videos. All
+        of these media files should have two or more pandas in them.
+        """
+        media_vertex = {}
+        infile = configparser.ConfigParser()
+        infile.read(path, encoding='utf-8')
+        # Use the path name for error messages or assignments
+        for field in infile.items("media"):
+            if (field[0].find("photo") != -1 and
+                len(field[0].split(".")) == 2):
+                    # Process a small set of photo credits for all the pandas
+                    # author = infile.get("media", field[0] + ".author")
+                    # if author in self.photo["credit"].keys():
+                    #     self.photo["credit"][author] = self.photo["credit"][author] + 1
+                    # else:
+                    #     self.photo["credit"][author] = 1
+                    # Track what the max number of panda photos an object has is
+                    # test_count = int(field[0].split(".")[1])
+                    # if test_count > self.photo["max"]:
+                    #    self.photo["max"] = test_count
+                    # Accept the data and continue
+                    media_vertex[field[0]] = field[1]
+            # TODO: track video info for apple counting as well
+            else:
+                # Accept the data and move along
+                media_vertex[field[0]] = field[1]
+        self.media.append(media_vertex)
+        self.vertices.append(media_vertex)
+        self.media_files.append(path)
+
     def import_redpanda(self, path):
         """Take a single red panda file and convert it into a Python dict.
 
@@ -276,7 +314,6 @@ class RedPandaGraph:
                 if field[1] != "unknown":
                     self.check_imported_date(field[1], field[0], path)
                 panda_vertex[field[0]] = field[1]
-
             if field[1] == "unknown" or field[1] == "none":
                 # Basic null checks. Don't add this to the vertex
                 continue
@@ -438,6 +475,17 @@ class RedPandaGraph:
         """Panda count is just the count of the number of panda files imported."""
         return len(self.panda_files)
 
+    def verify_media(self):
+        """All checks to ensure that the group media vertices are good."""
+        self.check_dataset_duplicate_ids(self.media)
+
+    def verify_pandas(self):
+        """All checks to ensure that the panda dataset is good."""
+        self.check_dataset_duplicate_ids(self.vertices)
+        # self.check_dataset_children_ids()
+        self.check_dataset_litter_ids()
+        self.check_dataset_dates()
+
     def verify_wilds(self):
         """All checks to ensure that the zoo dataset is good."""
         self.check_dataset_duplicate_ids(self.wilds)
@@ -446,12 +494,6 @@ class RedPandaGraph:
         """All checks to ensure that the zoo dataset is good."""
         self.check_dataset_duplicate_ids(self.zoos)
 
-    def verify_pandas(self):
-        """All checks to ensure that the panda dataset is good."""
-        self.check_dataset_duplicate_ids(self.vertices)
-        # self.check_dataset_children_ids()
-        self.check_dataset_litter_ids()
-        self.check_dataset_dates()
 
 def vitamin():
     """

@@ -363,3 +363,205 @@ Gallery.zooPhotoCredits = function(zoo, credit, language) {
   }
   return content_divs;
 }
+
+Gallery.special = {};
+Gallery.special.mothersday = {};
+Gallery.special.mothersday.photos = [
+  {
+    "photo.1": ["media.7", "photo.1"],
+    "photo.1.format": "medium",
+    "photo.1.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実, ギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.2": ["media.7", "photo.2"],
+    "photo.2.format": "medium",
+    "photo.2.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
+    }
+  },
+  {
+    "photo.3": ["media.26", "photo.1"],
+    "photo.3.format": "large",
+    "photo.3.message": {
+      "en": "Yuri " + Language.L.emoji.mother + ", Kanta & Hinata",
+      "jp": "百合" + Language.L.emoji.mother + ", カンタ, ヒナタ"
+    }
+  },
+  {
+    "photo.4": ["media.29", "photo.1"],
+    "photo.4.format": "medium",
+    "photo.4.message": {
+      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
+      "jp": "赤ちゃん, ライラ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.5": ["media.29", "photo.2"],
+    "photo.5.format": "medium",
+    "photo.5.message": {
+      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
+      "jp": "赤ちゃん, ライラ" + Language.L.emoji.mother    
+    }
+  },
+  {
+    "photo.6": ["media.7", "photo.3"],
+    "photo.6.format": "medium",
+    "photo.6.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
+    }
+  },
+  {
+    "photo.7": ["media.7", "photo.4"],
+    "photo.7.format": "medium",
+    "photo.7.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実, ギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.8": ["media.36", "photo.1"],
+    "photo.8.format": "large",
+    "photo.8.message": {
+      "en": "Min-fa " + Language.L.emoji.mother + " & Jazz",
+      "jp": "ミンファ" + Language.L.emoji.mother + ", ジャズ"
+    }
+  },
+  {
+    "photo.9": ["media.9", "photo.1"],
+    "photo.9.format": "medium",
+    "photo.9.message": {
+      "en": "Miyabi & Hanabi " + Language.L.emoji.mother,
+      "jp": "ミヤビ, ハナビ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.10": ["media.18", "photo.1"],
+    "photo.10.format": "medium",
+    "photo.10.message": {
+      "en": "Kokoro & Chihiro " + Language.L.emoji.mother,
+      "jp": "ココロ, チヒロ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.11": ["media.41", "photo.1"],
+    "photo.11.format": "medium",
+    "photo.11.message": {
+      "en": "Nokaze " + Language.L.emoji.mother + " & Nohana",
+      "jp": "野風" + Language.L.emoji.mother + ", 野花"
+    }
+  },
+  {
+    "photo.12": ["media.50", "photo.1"],
+    "photo.12.format": "medium",
+    "photo.12.message": {
+      "en": "Luca & Karin " + Language.L.emoji.mother,
+      "jp": "ルカ, カリン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.13": ["media.17", "photo.1"],
+    "photo.13.format": "large",
+    "photo.13.message": {
+      "en": "Rifa & Taofa " + Language.L.emoji.mother,
+      "jp": "李花, タオファ" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.14": ["media.7", "photo.5"],
+    "photo.14.format": "medium",
+    "photo.14.message": {
+      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
+      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
+    }
+  },
+  {
+    "photo.15": ["media.7", "photo.6"],
+    "photo.15.format": "medium",
+    "photo.15.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実, ギン" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.16": ["media.1", "photo.1"],
+    "photo.16.format": "medium",
+    "photo.16.message": {
+      "en": "Yuufa " + Language.L.emoji.mother + " & Milk & Cocoa",
+      "jp": "優花" + Language.L.emoji.mother + ", ミルク, ココア"
+    },
+  },
+  {
+    "photo.17": ["media.1", "photo.2"],
+    "photo.17.format": "medium",
+    "photo.17.message": {
+      "en": "Himawari & Yuufa " + Language.L.emoji.mother,
+      "jp": "ひまわり, 優花" + Language.L.emoji.mother
+    }
+  },
+  {
+    "photo.18": ["media.7", "photo.7"],
+    "photo.18.format": "large",
+    "photo.18.message": {
+      "en": "Marumi & Gin " + Language.L.emoji.mother,
+      "jp": "円実, ギン"+ Language.L.emoji.mother
+    }
+  }
+]
+Gallery.special.mothersday.render = function() {
+  // Iterate over Gallery.special.mothersday.photos.
+  // Make large format ones with a different URI and class
+  var counter = 0;
+  var mothers_div = document.createElement('div');
+  for (let photo_info of Gallery.special.mothersday.photos) {
+    counter = counter + 1;
+    var counter_string = "photo." + counter;
+    var [graph_id, desired_photo] = photo_info[counter_string];
+    var graph_node = Pandas.searchPandaId(graph_id)[0];
+    var source = graph_node[desired_photo];
+    var author = Language.L.emoji.camera + "\xa0" + graph_node[desired_photo + ".author"]
+    var format = photo_info[counter_string + ".format"]
+    var link = graph_node[desired_photo + ".link"]
+    var message = photo_info["photo." + counter + ".message"][L.display];
+    // Create the image frame
+    var img_link = document.createElement('a');
+    img_link.href = source;
+    var img = document.createElement('img');
+    // Instagram size change logic
+    if (format == "large") {
+      img.src = img.src.replace("/media/?size=m", "/media/?size=l");
+    }
+    img_link.appendChild(img);
+    // Create the message caption
+    var caption_message = document.createElement('a');
+    var caption_message_text = document.createElement('h5');
+    caption_message_text.className = "caption shortMessage";
+    caption_message_text.innerText = message;
+    caption_message.appendChild(caption_message_text);
+    // Create the secondary credit caption
+    var caption_author = document.createElement('a');
+    caption_author.href = link;
+    var caption_author_text = document.createElement('h5');
+    caption_author_text.className = "caption authorCredit";
+    caption_author_text.innerText = author;
+    caption_author.appendChild(caption_author_text);
+    // Create the entire photo frame
+    var photo_frame = document.createElement('div');
+    photo_frame.className = "photoSample";
+    photo_frame.appendChild(img_link);
+    photo_frame.appendChild(caption_message);
+    photo_frame.appendChild(caption_author);
+    if (format == "large") {
+      photo_frame.classList.add("fullPage");
+    } else {
+      photo_frame.classList.add("halfPage");
+    }
+    // Append this to the Mother's day frame
+    mothers_div.appendChild(photo_frame);
+  }
+  return mothers_div;
+}
