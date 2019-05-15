@@ -267,15 +267,15 @@ class RedPandaGraph:
             if (field[0].find("photo") != -1 and
                 len(field[0].split(".")) == 2):
                     # Process a small set of photo credits for all the pandas
-                    author = infile.get("media", field[0] + ".author")
-                    if author in self.photo["credit"].keys():
-                        self.photo["credit"][author] = self.photo["credit"][author] + 1
-                    else:
-                        self.photo["credit"][author] = 1
+                    # author = infile.get("media", field[0] + ".author")
+                    # if author in self.photo["credit"].keys():
+                    #     self.photo["credit"][author] = self.photo["credit"][author] + 1
+                    # else:
+                    #     self.photo["credit"][author] = 1
                     # Track what the max number of panda photos an object has is
-                    test_count = int(field[0].split(".")[1])
-                    if test_count > self.photo["max"]:
-                        self.photo["max"] = test_count
+                    # test_count = int(field[0].split(".")[1])
+                    # if test_count > self.photo["max"]:
+                    #    self.photo["max"] = test_count
                     # Accept the data and continue
                     media_vertex[field[0]] = field[1]
             # TODO: track video info for apple counting as well
