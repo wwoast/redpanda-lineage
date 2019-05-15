@@ -123,7 +123,7 @@ Page.home.render = function() {
   new_content.className = "results mothersDay";
   new_content.id = "contentFrame";
   // Special mother's day logic!
-  var mothers_div = Show.landing.mothersday.render();
+  var mothers_div = Gallery.special.mothersday.render();
   new_content.appendChild(mothers_div);
   Page.swap(old_content, new_content);
   Show["results"].menus.top();
