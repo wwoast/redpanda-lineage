@@ -529,7 +529,7 @@ Gallery.special.mothersday.render = function() {
     var message = photo_info["photo." + counter + ".message"][L.display];
     // Create the image frame
     var img_link = document.createElement('a');
-    img_link.href = source.replace("/media/?size=m", "");
+    img_link.href = source.replace("/media/?size=m", "/");
     var img = document.createElement('img');
     // Instagram size change logic
     img.src = source;
