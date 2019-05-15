@@ -1,0 +1,13 @@
+[media]
+photo.1: https://www.instagram.com/p/BrZQdseFUNI/media/?size=m
+photo.1.author: kipekaila
+photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.tags: 60, 305
+photo.1.tags.60.location: 240, 130
+photo.1.tags.305.location: 100, 150
+photo.2: https://www.instagram.com/p/BqmJx72lQg7/media/?size=m
+photo.2.author: framereim
+photo.2.link: https://www.instagram.com/framereim/
+photo.2.tags: 60, 305
+photo.2.tags.60.location: 245, 135
+photo.2.tags.305.location: 175, 120
