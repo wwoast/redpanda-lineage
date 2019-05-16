@@ -14,6 +14,7 @@ language.order: en, jp
 litter: 470
 location.1: 84, 2015/7/1
 location.2: 90, 2016/5/27
+location.3: 191, 2019/5/10
 photo.1: https://www.instagram.com/p/BksR3_snL3y/media/?size=m
 photo.1.author: nashvillezoo
 photo.1.link: https://www.instagram.com/nashvillezoo/
@@ -33,5 +34,9 @@ photo.5: https://www.instagram.com/p/BDdN6rStG4B/media/?size=m
 photo.5.author: mariten1119
 photo.5.link: https://www.instagram.com/mariten1119/
 photo.5.tags: mofumofu, tail
+photo.6: https://www.instagram.com/p/BxSiC2Fjfxg/media/?size=m
+photo.6.author: oregonzoo
+photo.6.link: https://www.instagram.com/oregonzoo/
+photo.6.tags: smile
 species: 2
-zoo: 90
+zoo: 191
