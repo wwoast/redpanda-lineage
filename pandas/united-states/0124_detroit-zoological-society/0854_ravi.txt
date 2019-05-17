@@ -1,0 +1,30 @@
+[panda]
+_id: 854
+birthday: 2016/6/27
+birthplace: 154
+children: unknown
+en.name: Ravi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラヴィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 855
+location.1: 154, 2016/6/27
+location.2: 124, 2017/8/11
+photo.1: https://www.instagram.com/p/Bw_-kr2gUFo/media/?size=m
+photo.1.author: detroitzoo
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/BvWujixD6Ad/media/?size=m
+photo.2.author: detroitzoo
+photo.2.link: https://www.instagram.com/detroitzoo/
+photo.2.tags: bamboo
+photo.3: https://www.instagram.com/p/Bu8-nqPAIWN/media/?size=m
+photo.3.author: detroitzoo
+photo.3.link: https://www.instagram.com/detroitzoo/
+photo.3.tags: profile, tree
+species: 1
+zoo: 124

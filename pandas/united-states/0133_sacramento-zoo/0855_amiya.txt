@@ -1,0 +1,18 @@
+[panda]
+_id: 855
+birthday: 2016/6/27
+birthplace: 154
+children: unknown
+en.name: Amiya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: あみや
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 854
+location.1: 154, 2016/6/27
+location.2: 133, 2017/10/26
+species: 1
+zoo: 133
