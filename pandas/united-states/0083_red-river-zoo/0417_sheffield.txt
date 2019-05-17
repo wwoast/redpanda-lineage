@@ -6,7 +6,7 @@ children: none
 en.name: Sheffield
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: m
 jp.name: シェフィールド
 jp.nicknames: none
 jp.othernames: none
@@ -14,5 +14,32 @@ language.order: en, jp
 litter: 416
 location.1: 87, 2016/6/24
 location.2: 83, 2018/8/1
+photo.1: https://www.codaworry.com/images/rpf/sheffield-1-redriver.jpg
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: baby
+photo.2: https://www.codaworry.com/images/rpf/sheffield-2-redriver.jpg
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby
+photo.3: https://www.codaworry.com/images/rpf/sheffield-3-redriver.jpg
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: baby, bamboo
+photo.4: https://www.codaworry.com/images/rpf/sheffield-4-redriver.jpg
+photo.4.author: worldthathesees
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.5: https://www.codaworry.com/images/rpf/sheffield-5-redriver.jpg
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: home, nose
+photo.6: https://www.codaworry.com/images/rpf/sheffield-6-redriver.jpg
+photo.6.author: worldthathesees
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: profile
+photo.7: https://www.codaworry.com/images/rpf/sheffield-7-redriver.jpg
+photo.7.author: worldthathesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: air tasting, dish, tongue
 species: 2
 zoo: 83
