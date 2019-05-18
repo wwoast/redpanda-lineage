@@ -72,6 +72,7 @@ Language.L.emoji = {
       "panda": "🐼",
        "paws": "🐾",
        "poop": "💩",
+   "portrait": "🖼️",
        "pray": "🙏",
     "profile": "💟",
      "random": "🎲",
@@ -835,6 +836,12 @@ Language.L.tags = {
                Language.L.emoji.poop],
         "en": ["pooping"],
         "jp": ["💩している"]
+  },
+  "portrait": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.frame],
+        "en": ["portrait"],
+        "jp": ["顔写真"] 
   },
   "praying": {
         "cn": ["TOWRITE"],
