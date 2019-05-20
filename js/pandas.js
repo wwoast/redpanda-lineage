@@ -880,7 +880,11 @@ Pandas.halfSiblings = function(animal, sibling) {
 // Return the language order as an array
 Pandas.language_order = function(entity) {
   var ordering = entity["language.order"];
-  return ordering.replace(" ", "").split(',');
+  if (ordering == undefined) {
+    return Language.L.default.order;
+  } else {
+    return ordering.replace(" ", "").split(',');
+  }
 }
 
 // Returns a list of locations valid for a zoo animal.

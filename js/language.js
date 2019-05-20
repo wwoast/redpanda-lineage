@@ -18,6 +18,11 @@ Language.init = function() {
 /*
    Language elements translatable in the GUI
 */
+// Default parameters for entities that lack language information
+Language.L.default = {
+  "order": ["en", "jp"]
+}
+
 // TODO: do we need localized emojis for various things?
 Language.L.emoji = {
      "animal": "🐼",
