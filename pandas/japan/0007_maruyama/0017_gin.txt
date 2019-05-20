@@ -15,7 +15,7 @@ litter: 22
 photo.1: https://www.instagram.com/p/Be5F2xRl32t/media/?size=m
 photo.1.author: sina_dw
 photo.1.link: https://www.instagram.com/sina_dw/
-photo.1.tags: profile, snow
+photo.1.tags: portrait, profile, snow
 photo.2: https://www.instagram.com/p/Bbfjo3DnKp7/media/?size=m
 photo.2.author: cattail.sapporo
 photo.2.link: https://www.instagram.com/cattail.sapporo/
@@ -26,14 +26,14 @@ photo.3.tags: snow, tree, upside-down
 photo.4: https://www.instagram.com/p/BSijnmCBD83/media/?size=m
 photo.4.author: sina_dw
 photo.4.link: https://www.instagram.com/sina_dw/
-photo.4.tags: bamboo, smile
+photo.4.tags: bamboo, portrait, smile
 photo.5: https://www.instagram.com/p/BgdHZ_pFPIV/media/?size=m
 photo.5.author: wumpwoast
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.6: https://www.instagram.com/p/BngWBx9nZ3o/media/?size=m
 photo.6.author: cattail.sapporo
 photo.6.link: https://www.instagram.com/cattail.sapporo/
-photo.6.tags: smile
+photo.6.tags: portrait, smile
 photo.7: https://www.instagram.com/p/BoWN1qCFn3V/media/?size=m
 photo.7.author: leonard_redmof
 photo.7.link: https://www.instagram.com/leonard_redmof/
@@ -79,7 +79,7 @@ photo.17.tags: carry
 photo.18: https://www.instagram.com/p/BrP5KKKnOw1/media/?size=m
 photo.18.author: cattail.sapporo
 photo.18.link: https://www.instagram.com/cattail.sapporo/
-photo.18.tags: techitechi
+photo.18.tags: portrait, techitechi
 photo.19: https://www.instagram.com/p/BrSJ97lFG3c/media/?size=m
 photo.19.author: sina_dw
 photo.19.link: https://www.instagram.com/sina_dw/
@@ -92,6 +92,7 @@ photo.21.link: https://www.instagram.com/minatomirai215/
 photo.22: https://www.instagram.com/p/BrhlQ3zFJo2/media/?size=m
 photo.22.author: izu_108
 photo.22.link: https://www.instagram.com/izu_108/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/Br1CE7Ol_Yt/media/?size=m
 photo.23.author: _sealiz
 photo.23.link: https://www.instagram.com/_sealiz/
@@ -139,7 +140,7 @@ photo.33.tags: ear, snow, techitechi
 photo.34: https://www.instagram.com/p/BseVdyHlDAh/media/?size=m
 photo.34.author: izu_108
 photo.34.link: https://www.instagram.com/izu_108/
-photo.34.tags: techitechi
+photo.34.tags: portrait, techitechi
 photo.35: https://www.instagram.com/p/Bs7zlEgH8Ei/media/?size=m
 photo.35.author: cattail.sapporo
 photo.35.link: https://www.instagram.com/cattail.sapporo/
@@ -159,7 +160,7 @@ photo.38.tags: bamboo, standing, tree
 photo.39: https://www.instagram.com/p/BuPu1JenknF/media/?size=m
 photo.39.author: cattail.sapporo
 photo.39.link: https://www.instagram.com/cattail.sapporo/
-photo.39.tags: paws, smile, snow
+photo.39.tags: paws, portrait, smile, snow
 photo.40: https://www.instagram.com/p/BuWJ8WmF5hc/media/?size=m
 photo.40.author: leonard_redmof
 photo.40.link: https://www.instagram.com/leonard_redmof/
@@ -175,7 +176,7 @@ photo.42.tags: bamboo, smile, snow
 photo.43: https://www.instagram.com/p/Bui39wbFOhU/media/?size=m
 photo.43.author: mari_neko3
 photo.43.link: https://www.instagram.com/mari_neko3/
-photo.43.tags: smile
+photo.43.tags: portrait, smile
 photo.44: https://www.instagram.com/p/BvKfOoYnkAP/media/?size=m
 photo.44.author: cattail.sapporo
 photo.44.link: https://www.instagram.com/cattail.sapporo/
@@ -187,7 +188,7 @@ photo.45.tags: snow
 photo.46: https://www.instagram.com/p/BvtbUGEnUE1/media/?size=m
 photo.46.author: cattail.sapporo
 photo.46.link: https://www.instagram.com/cattail.sapporo/
-photo.46.tags: climb, paws
+photo.46.tags: climb, paws, portrait
 photo.47: https://www.instagram.com/p/BvteitjFYWX/media/?size=m
 photo.47.author: nishicotolo
 photo.47.link: https://www.instagram.com/nishicotolo/
@@ -206,11 +207,11 @@ photo.50.tags: tongue
 photo.51: https://www.instagram.com/p/Bv_7mZSHjgO/media/?size=m
 photo.51.author: cattail.sapporo
 photo.51.link: https://www.instagram.com/cattail.sapporo/
-photo.51.tags: smile, tongue
+photo.51.tags: portrait, smile, tongue
 photo.52: https://www.instagram.com/p/BwP9VpygtJ2/media/?size=m
 photo.52.author: cattail.sapporo
 photo.52.link: https://www.instagram.com/cattail.sapporo/
-photo.52.tags: bamboo, paws, smile
+photo.52.tags: bamboo, paws, portrait, smile
 photo.53: https://www.instagram.com/p/BwkmAlHgAe8/media/?size=m
 photo.53.author: cattail.sapporo
 photo.53.link: https://www.instagram.com/cattail.sapporo/
@@ -227,5 +228,9 @@ photo.56: https://www.instagram.com/p/BojFXy3F-h2/media/?size=m
 photo.56.author: ho0oipo
 photo.56.link: https://www.instagram.com/ho0oipo/
 photo.56.tags: home, flowers, laying down, sleeping
+photo.57: https://www.instagram.com/p/BxlIJQ9ABS1/media/?size=m
+photo.57.author: cattail.sapporo
+photo.57.link: https://www.instagram.com/cattail.sapporo/
+photo.57.tags: laying down, mofumofu, tail
 species: 2
 zoo: 7

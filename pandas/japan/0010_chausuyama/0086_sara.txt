@@ -19,7 +19,7 @@ photo.1.tags: home, smile, tree
 photo.2: https://www.instagram.com/p/BhELY76FMfu/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: techitechi
+photo.2.tags: portrait, techitechi
 photo.3: https://www.instagram.com/p/BKcXulyh4Qq/media/?size=m
 photo.3.author: no_life_no_zoo
 photo.3.link: https://www.instagram.com/no_life_no_zoo/
@@ -61,7 +61,7 @@ photo.12.tags: home, laying down, paws, profile, tree
 photo.13: https://www.instagram.com/p/BpwmALxlG4S/media/?size=m
 photo.13.author: redpan22
 photo.13.link: https://www.instagram.com/redpan22/
-photo.13.tags: home, smile, tree
+photo.13.tags: home, portrait, smile, tree
 photo.14: https://www.instagram.com/p/Bpu2EXtlx7A/media/?size=m
 photo.14.author: redpan22
 photo.14.link: https://www.instagram.com/redpan22/
@@ -161,7 +161,7 @@ photo.37.tags: bamboo, home, smile
 photo.38: https://www.instagram.com/p/BsVTO3Jl2Zm/media/?size=m
 photo.38.author: kinkinkin0826
 photo.38.link: https://www.instagram.com/kinkinkin0826/
-photo.38.tags: autumn, techitechi
+photo.38.tags: autumn, portrait, techitechi
 photo.39: https://www.instagram.com/p/BsYHx_KF2HN/media/?size=m
 photo.39.author: redpan22
 photo.39.link: https://www.instagram.com/redpan22/
@@ -185,7 +185,7 @@ photo.43.tags: laying down, paws, snow, upside-down
 photo.44: https://www.instagram.com/p/Bun8jRZFr95/media/?size=m
 photo.44.author: daniele.tokyo
 photo.44.link: https://www.instagram.com/daniele.tokyo/
-photo.44.tags: smile, tree
+photo.44.tags: portrait, smile, tree
 photo.45: https://www.instagram.com/p/ButBDbRlczk/media/?size=m
 photo.45.author: codenameodk
 photo.45.link: https://www.instagram.com/codenameodk/
@@ -237,5 +237,9 @@ photo.57: https://www.instagram.com/p/BwvF7oQFEHH/media/?size=m
 photo.57.author: taka__3428
 photo.57.link: https://www.instagram.com/taka__3428/
 photo.57.tags: sleeping
+photo.58: https://www.instagram.com/p/BxkYM-CFhFS/media/?size=m
+photo.58.author: resapan.suki
+photo.58.link: https://www.instagram.com/resapan.suki/
+photo.58.tags: portrait
 species: 2
 zoo: 10
