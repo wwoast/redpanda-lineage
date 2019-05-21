@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   T = Touch.init();
   G = Dagoba.graph();
 
-  L.default();     // Set default language
+  L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the links or about pages
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.

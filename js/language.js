@@ -986,7 +986,7 @@ Language.L.tags = {
    Language selection functions
 */
 // Map a browser specified language to one of our supported options.
-Language.L.default = function() {
+Language.L.defaultDisplayLanguage = function() {
   // Read language settings from browser's Accept-Language header
   Object.keys(Pandas.def.languages).forEach(function(option) {
     if ((navigator.languages.indexOf(option) != -1) &&
