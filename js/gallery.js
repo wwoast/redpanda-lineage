@@ -4,6 +4,10 @@
    This class, given a list of photos, will create many types of photo galleries --
    single frame ones with dogear navigation widgets and swipe controls, as well as 
    larger page-long galleries.
+
+   The Gallery instance has two types of methods: photo methods (for dealing with
+   single-photo panda info), and media methods (for dealing with photos with multiple
+   pandas).
 */
 
 Gallery = {};     /* Namespace */
@@ -312,10 +316,18 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
     img.src = photo.replace('/?size=m', '/?size=t');
     img_link.appendChild(img);
     var caption_link = document.createElement('a');
-    caption_link.href = "#panda/" + animal._id + "/photo/" + index;
+    // TODO: better handling of group photos
+    if (animal._id.indexOf("media.") != 0) {
+      caption_link.href = "#panda/" + animal._id + "/photo/" + index;
+    }
     var caption = document.createElement('h5');
     caption.className = "caption";
-    caption.innerText = info.name;
+    // TODO: handling of names of group pandas
+    if (animal._id.indexOf("media.") == 0) {
+      caption.innerText = Pandas.groupMediaCaption(animal, item.index);
+    } else {
+      caption.innerText = info.name;
+    }
     caption_link.appendChild(caption);
     var container = document.createElement('div');
     container.className = "photoSample";

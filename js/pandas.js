@@ -843,6 +843,35 @@ Pandas.gender = function(animal, language) {
                              : Pandas.def.gender[gender][language];
 }
 
+// Given an animal from a media/ file with tag info, generate a
+// string describing the contents of the photo.
+Pandas.groupMediaCaption = function(entity, photo_index) {
+  var tag_index = photo_index + ".tags";
+  var pandaTags = entity[tag_index].replace(" ", "").split(",").filter(function(tag) {
+    return parseInt(tag) > 0;
+  });
+  var output_string = Pandas.def.animal[L.display + ".name"];
+  var animals = [];
+  for (let id of pandaTags) {
+    var panda = Pandas.searchPandaId(id)[0];
+    var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
+    var info = {
+      "name": panda[L.display + ".name"],
+      "x": x,
+      "y": y
+    }
+    animals.push(info);
+  }
+  // Sort animals list by x values
+  animals = animals.sort((a, b) => a['x'] < b['x']);
+  // Read off their names into the output string and return
+  if (animals.length > 0) {
+    var connector = Language.L.messages["and"][L.display];
+    output_string = animals.map(x => x.name).join(connector);
+  }
+  return output_string;
+}
+
 // If both animals don't share parents, and neither animal's parents
 // are in an undefined/unknown situation, they are half siblings
 Pandas.halfSiblings = function(animal, sibling) {

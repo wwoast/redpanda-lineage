@@ -356,6 +356,11 @@ Language.L.gui = {
 }
 
 Language.L.messages = {
+  "and": {
+    "cn": "TOWRITE",
+    "en": " & ",
+    "jp": "と"
+  },
   "credit": {
     "cn": "TOWRITE",
     "en": [Language.L.emoji.gift + " ",
