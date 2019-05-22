@@ -21,6 +21,10 @@ photo.1.tags: bamboo, tail
 photo.2: https://www.instagram.com/p/BxPV3PVlRmH/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: profile, smile
+photo.2.tags: portrait, profile, smile
+photo.3: https://www.instagram.com/p/BRuZIAGgQTh/media/?size=m
+photo.3.author: bellorosendo
+photo.3.link: https://www.instagram.com/bellorosendo/
+photo.3.tags: portrait
 species: 2
 zoo: 56
