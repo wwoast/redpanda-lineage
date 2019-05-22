@@ -263,7 +263,15 @@ Page.routes.behavior = function(input) {
     // show full info and timeline for a panda. TODO
     var panda = input.slice(10);
     return Query.resolver.subject(panda, "panda", L.display);
-  } else if (input.indexOf("#zoo/") == 0) {
+  } else if ((input.indexOf("#zoo/") == 0) &&
+             (input.split("/").length == 4)) {
+    // link for a panda result with a chosen photo.
+    var uri_items = input.slice(5);
+    var [ zoo, _, zoo_id ] = uri_items.split("/");
+    Query.env.specific = zoo_id;
+    return Query.resolver.subject(zoo, "zoo", L.display);    
+  } else if ((input.indexOf("#zoo/") == 0) &&
+             (input.split("/").length == 2)) {
     // link for a single zoo result.
     var zoo = input.slice(5);
     return Query.resolver.subject(zoo, "zoo", L.display);
