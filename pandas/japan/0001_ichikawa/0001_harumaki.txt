@@ -19,7 +19,7 @@ photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BlRhMQqFNxt/media/?size=m
 photo.2.author: perie1027vivi
 photo.2.link: https://www.instagram.com/perie1027vivi/
-photo.2.tags: smile, tongue
+photo.2.tags: portrait, smile, tongue
 photo.3: https://www.instagram.com/p/BiRTsl7lRUu/media/?size=m
 photo.3.author: re_ichimaru
 photo.3.link: https://www.instagram.com/re_ichimaru/
@@ -89,6 +89,7 @@ photo.19.tags: laying down
 photo.20: https://www.instagram.com/p/BX_2HWTlP16/media/?size=m
 photo.20.author: myortp
 photo.20.link: https://www.instagram.com/myotrp/
+photo.20.tags: portrait
 photo.21: https://www.instagram.com/p/Bqa-I-QF3ve/media/?size=m
 photo.21.author: _rifa_p
 photo.21.link: https://www.instagram.com/_rifa_p/
@@ -104,7 +105,7 @@ photo.23.tags: blink
 photo.24: https://www.instagram.com/p/Brae9e2B0ST/media/?size=m
 photo.24.author: na.mo.pan
 photo.24.link: https://www.instagram.com/na.mo.pan/
-photo.24.tags: apple time
+photo.24.tags: apple time, portrait
 photo.25: https://www.instagram.com/p/Br140yoFzPi/media/?size=m
 photo.25.author: na.mo.pan
 photo.25.link: https://www.instagram.com/na.mo.pan/
@@ -115,7 +116,7 @@ photo.26.tags: dish, tongue
 photo.27: https://www.instagram.com/p/BsMiI6TlV17/media/?size=m
 photo.27.author: panda.daisuki
 photo.27.link: https://www.instagram.com/panda.daisuki/
-photo.27.tags: bamboo
+photo.27.tags: bamboo, portrait
 photo.28: https://www.instagram.com/p/BsbjAeTlwjm/media/?size=m
 photo.28.author: firefoxpanda88
 photo.28.link: https://www.instagram.com/firefoxpanda88/
@@ -123,7 +124,7 @@ photo.28.tags: tongue
 photo.29: https://www.instagram.com/p/Bsp1PdWFynH/media/?size=m
 photo.29.author: miis_98
 photo.29.link: https://www.instagram.com/miis_98/
-photo.29.tags: smile
+photo.29.tags: portrait, smile
 photo.30: https://www.instagram.com/p/Bs6pvAbl5rG/media/?size=m
 photo.30.author: panda.daisuki
 photo.30.link: https://www.instagram.com/panda.daisuki/

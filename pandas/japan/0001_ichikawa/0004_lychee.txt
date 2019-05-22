@@ -15,7 +15,7 @@ litter: 264
 photo.1: https://www.instagram.com/p/Bh_BPsPlaOu/media/?size=m
 photo.1.author: na.mo.pan
 photo.1.link: https://www.instagram.com/na.mo.pan/
-photo.1.tags: lips
+photo.1.tags: lips, portrait
 photo.2: https://www.instagram.com/p/BahlURkjXsd/media/?size=m
 photo.2.author: shun033
 photo.2.link: https://www.instagram.com/shun033/
@@ -35,7 +35,7 @@ photo.5.tags: jizo
 photo.6: https://www.instagram.com/p/Bm2U3vJFD1X/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: apple time
+photo.6.tags: apple time, portrait
 photo.7: https://www.instagram.com/p/BCNT0kHwZxQ/media/?size=m
 photo.7.author: rio_minron
 photo.7.link: https://www.instagram.com/rio_minron/
@@ -47,7 +47,7 @@ photo.8.tags: sleeping
 photo.9: https://www.instagram.com/p/Bqzaz2pFMj2/media/?size=m
 photo.9.author: kinkinkin0826
 photo.9.link: https://www.instagram.com/kinkinkin0826/
-photo.9.tags: wink
+photo.9.tags: portrait, wink
 photo.10: https://www.instagram.com/p/BsdfuwWluX7/media/?size=m
 photo.10.author: wumpwoast
 photo.10.link: https://www.instagram.com/wumpwoast/
@@ -55,6 +55,7 @@ photo.10.tags: apple time, tongue
 photo.11: https://www.instagram.com/p/Bs0T5xlF59S/media/?size=m
 photo.11.author: panda.daisuki
 photo.11.link: https://www.instagram.com/panda.daisuki/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/BtD2KDel25l/media/?size=m
 photo.12.author: masa_polarbear
 photo.12.link: https://www.instagram.com/masa_polarbear/
@@ -62,6 +63,6 @@ photo.12.tags: apple time, keeper
 photo.13: https://www.instagram.com/p/BtgE46yFFVa/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: lunch time, smile
+photo.13.tags: lunch time, portrait, smile
 species: 2
 zoo: 1

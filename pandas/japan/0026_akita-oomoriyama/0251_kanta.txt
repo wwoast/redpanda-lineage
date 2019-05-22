@@ -23,7 +23,7 @@ photo.2.tags: baby
 photo.3: https://www.instagram.com/p/BpMVPshF1Ml/media/?size=m
 photo.3.author: daniele.tokyo
 photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: baby, paws, profile
+photo.3.tags: baby, paws
 photo.4: https://www.instagram.com/p/Bpb6eLuF7pl/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -36,5 +36,9 @@ photo.6: https://www.instagram.com/p/BrQ7aP0Fud6/media/?size=m
 photo.6.author: mifko55
 photo.6.link: https://www.instagram.com/mifko55/
 photo.6.tags: baby, tree
+photo.7: https://www.instagram.com/p/BxoQx2rFHat/media/?size=m
+photo.7.author: craig_craig_craig
+photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.7.tags: paws, profile
 species: 2
 zoo: 26

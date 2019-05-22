@@ -25,7 +25,7 @@ photo.2.link: https://www.instagram.com/hanamaru_redpanda/
 photo.3: https://www.instagram.com/p/BlCb1l0lOPP/media/?size=m
 photo.3.author: na.mo.pan
 photo.3.link: https://www.instagram.com/na.mo.pan/
-photo.3.tags: bamboo
+photo.3.tags: bamboo, portrait
 photo.4: https://www.instagram.com/p/BjwrODOAgst/media/?size=m
 photo.4.author: taka__3428
 photo.4.link: https://www.instagram.com/taka__3428/
@@ -56,11 +56,11 @@ photo.10.link: https://www.instagram.com/sulfa2/
 photo.11: https://www.instagram.com/p/BigvPCflJK2/media/?size=m
 photo.11.author: miis_98
 photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: laying down
+photo.11.tags: laying down, portrait
 photo.12: https://www.instagram.com/p/BiOj15nFnWP/media/?size=m
 photo.12.author: re_ichimaru
 photo.12.link: https://www.instagram.com/re_ichimaru/
-photo.12.tags: bamboo
+photo.12.tags: bamboo, portrait
 photo.13: https://www.instagram.com/p/BlDEuogly15/media/?size=m
 photo.13.author: sulfa2
 photo.13.link: https://www.instagram.com/sulfa2/
@@ -76,7 +76,7 @@ photo.15.tags: home, laying down
 photo.16: https://www.instagram.com/p/BhWyKVClMt_/media/?size=m
 photo.16.author: perie1027vivi
 photo.16.link: https://www.instagram.com/perie1027vivi/
-photo.16.tags: bamboo
+photo.16.tags: bamboo, portrait
 photo.17: https://www.instagram.com/p/Bf8HcTuliuq/media/?size=m
 photo.17.author: l_ma_photos
 photo.17.link: https://www.instagram.com/l_ma_photos/
@@ -84,7 +84,7 @@ photo.17.tags: sleeping
 photo.18: https://www.instagram.com/p/BgIz6qildCA/media/?size=m
 photo.18.author: hanamaru_redpanda
 photo.18.link: https://www.instagram.com/hanamaru_redpanda/
-photo.18.tags: smile
+photo.18.tags: portrait, smile
 photo.19: https://www.instagram.com/p/BpYL1MilbnW/media/?size=m
 photo.19.author: redpanda_nippon_takashi
 photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/

@@ -17,15 +17,15 @@ litter: none
 photo.1: https://www.instagram.com/p/BkOY-78lxGI/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: flowers
+photo.1.tags: flowers, portrait
 photo.2: https://www.instagram.com/p/Bgc5C7plLEE/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BcM3yhghY4H/media/?size=m
 photo.3.author: furukawatatsuki
 photo.3.link: https://www.instagram.com/furukawatatsuki/
-photo.3.tags: baby, mofumofu, tail
+photo.3.tags: baby, mofumofu, portrait, tail
 photo.4: https://www.instagram.com/p/BcM400Yh_qK/media/?size=m
 photo.4.author: furukawatatsuki
 photo.4.link: https://www.instagram.com/furukawatatsuki/
@@ -37,6 +37,7 @@ photo.5.tags: nose
 photo.6: https://www.instagram.com/p/BohzXY6FKka/media/?size=m
 photo.6.author: yossi929
 photo.6.link: https://www.instagram.com/yossi929/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Bom9Ko5Ft4d/media/?size=m
 photo.7.author: re_ichimaru
 photo.7.link: https://www.instagram.com/re_ichimaru/
@@ -101,6 +102,7 @@ photo.23.tags: tree
 photo.24: https://www.instagram.com/p/Bq6UKQHFr8p/media/?size=m
 photo.24.author: kipekaila
 photo.24.link: https://www.instagram.com/kipekaila/
+photo.24.tags: portrait
 photo.25: https://www.instagram.com/p/Bq8WV_dFE5c/media/?size=m
 photo.25.author: kipekaila
 photo.25.link: https://www.instagram.com/kipekaila/
@@ -112,14 +114,14 @@ photo.26.tags: laying down, tail, wink
 photo.27: https://www.instagram.com/p/BroKUJ4lv_D/media/?size=m
 photo.27.author: yossi929
 photo.27.link: https://www.instagram.com/yossi929/
-photo.27.tags: apple time, paws, standing
+photo.27.tags: apple time, bite, paws, portrait, standing
 photo.28: https://www.instagram.com/p/BrjH5Qsla7D/media/?size=m
 photo.28.author: panda.daisuki
 photo.28.link: https://www.instagram.com/panda.daisuki/
 photo.29: https://www.instagram.com/p/BchIcGpl687/media/?size=m
 photo.29.author: hanamaru_redpanda
 photo.29.link: https://www.instagram.com/hanamaru_redpanda/
-photo.29.tags: baby
+photo.29.tags: baby, portrait
 photo.30: https://www.instagram.com/p/Br7DFnnlyEJ/media/?size=m
 photo.30.author: yossi929
 photo.30.link: https://www.instagram.com/yossi929/
@@ -183,7 +185,7 @@ photo.45.tags: apple time
 photo.46: https://www.instagram.com/p/BxUupN-FZ0Z/media/?size=m
 photo.46.author: yossi929
 photo.46.link: https://www.instagram.com/yossi929/
-photo.46.tags: climb, paws
+photo.46.tags: climb, paws, portrait
 photo.47: https://www.instagram.com/p/BxbDc3nFxE9/media/?size=m
 photo.47.author: yossi929
 photo.47.link: https://www.instagram.com/yossi929/
@@ -203,5 +205,20 @@ photo.51: https://www.instagram.com/p/BxlNvk_FeIu/media/?size=m
 photo.51.author: re_ichimaru
 photo.51.link: https://www.instagram.com/re_ichimaru/
 photo.51.tags: smile
+photo.52: https://www.instagram.com/p/Bxn8k6PFNDN/media/?size=m
+photo.52.author: yossi929
+photo.52.link: https://www.instagram.com/yossi929/
+photo.53: https://www.instagram.com/p/Bxm2Mvblk34/media/?size=m
+photo.53.author: yossi929
+photo.53.link: https://www.instagram.com/yossi929/
+photo.53.tags: portrait, smile
+photo.54: https://www.instagram.com/p/BxpXCXtFEZk/media/?size=m
+photo.54.author: nakacchi_desu
+photo.54.link: https://www.instagram.com/nakacchi_desu/
+photo.54.tags: apple time, dish, flowers, tongue
+photo.55: https://www.instagram.com/p/BxqWf5PFcui/media/?size=m
+photo.55.author: yossi929
+photo.55.link: https://www.instagram.com/yossi929/
+photo.55.tags: smile
 species: 2
 zoo: 41

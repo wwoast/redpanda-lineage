@@ -19,7 +19,7 @@ photo.1.tags: profile, smile
 photo.2: https://instagram.com/p/BgLYfBVlp_b/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: laying down
+photo.2.tags: laying down, portrait
 photo.3: https://www.instagram.com/p/BbyDXdxlv2_/media/?size=m
 photo.3.author: wumpwoast
 photo.3.link: https://www.instagram.com/wumpwoast/
@@ -34,6 +34,7 @@ photo.5.tags: spider
 photo.6: https://www.instagram.com/p/Bm1rx4gFw6O/media/?size=m
 photo.6.author: panda.daisuki
 photo.6.link: https://www.instagram.com/panda.daisuki/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BnhbNFfFXtm/media/?size=m
 photo.7.author: redpanda_nippon_takashi
 photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -52,7 +53,7 @@ photo.10.tags: bamboo
 photo.11: https://www.instagram.com/p/Bhur3dpl_XR/media/?size=m
 photo.11.author: firefoxpanda88
 photo.11.link: https://www.instagram.com/firefoxpanda88/
-photo.11.tags: yawn
+photo.11.tags: portrait, yawn
 photo.12: https://www.instagram.com/p/BiDXzCdldlX/media/?size=m
 photo.12.author: _rifa_p
 photo.12.link: https://www.instagram.com/_rifa_p/
@@ -88,7 +89,7 @@ photo.20.link: https://www.instagram.com/cabbage_biyori/
 photo.21: https://www.instagram.com/p/BshPy1LluYj/media/?size=m
 photo.21.author: firefoxpanda88
 photo.21.link: https://www.instagram.com/firefoxpanda88/
-photo.21.tags: smile
+photo.21.tags: portrait, smile
 photo.22: https://www.instagram.com/p/BsjkelalXjZ/media/?size=m
 photo.22.author: _rifa_p
 photo.22.link: https://www.instagram.com/_rifa_p/
