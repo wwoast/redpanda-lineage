@@ -857,8 +857,8 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
     var info = {
       "name": panda[L.display + ".name"],
-      "x": x,
-      "y": y
+      "x": parseInt(x),
+      "y": parseInt(y)
     }
     animals.push(info);
   }
