@@ -1,0 +1,8 @@
+[media]
+_id: media.17.azuki-zun
+photo.1: https://www.instagram.com/p/Bxr-GEGFNKk/media/?size=m
+photo.1.author: codenameodk
+photo.1.link: https://www.instagram.com/codenameodk/
+photo.1.tags: 102, 256, bridge
+photo.1.tags.102.location: 100, 100
+photo.1.tags.256.location: 135, 120

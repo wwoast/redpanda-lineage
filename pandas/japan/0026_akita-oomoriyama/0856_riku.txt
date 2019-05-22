@@ -1,0 +1,17 @@
+[panda]
+_id: 856
+birthday: 2004/7/13
+birthplace: 26
+children: 214
+death: 2014/10/8
+en.name: Riku
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リク
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 857
+species: 2
+zoo: 26
