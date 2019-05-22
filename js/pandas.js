@@ -862,8 +862,9 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     }
     animals.push(info);
   }
-  // Sort animals list by x values
-  animals = animals.sort((a, b) => a['x'] < b['x']);
+  // Sort animals list by x values. Chrome requires the return value to be 
+  // one, zero, or minus one, to determine sorting.
+  animals = animals.sort((a, b) => a['x'] > b['x'] ? 1: -1);
   // Read off their names into the output string and return
   if (animals.length > 0) {
     var connector = Language.L.messages["and"][L.display];

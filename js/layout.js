@@ -433,7 +433,7 @@ Layout.L.arrangement.fourListOneLong = function() {
   var order = this.list_default.filter(x => this[x] != undefined);
   // Change the list orders so that it's most to least, and then put the longest list
   // at the end. This guarantees best spread on desktop and mobile.
-  order.sort((a, b) => this.num[b] > this.num[a]);
+  order.sort((a, b) => this.num[b] > this.num[a] ? 1 : -1);
   order.push(order[0]);
   order.shift();
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
