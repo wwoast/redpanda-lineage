@@ -189,35 +189,36 @@ Query.regexp.match_none = function(input) {
 Query.rules = {
   /*** ATOMS ***/
   "idAtom": /\d{1,5}/,
-  "yearAtom": /\d{4}/,
-  "spaceAtom": /\s+/,
   "nameAtom": /[^\s]+(\s+[^\s]+)*/,
+  "spaceAtom": /\s+/,
+  "yearAtom": /\d{4}/,
   /*** TERMS ***/
-  // Terms include keywords, operators, and panda / zoo names
-  // Subjects, either an id number or a panda / zoo name
+  // Terms include keywords, operators, and panda / zoo names.
+  // Subjects, either an id number or a panda / zoo name.
   "subjectTerm": or(
     ':idAtom>idAtom',
     ':nameAtom>nameAtom'
   ),
-  "typeTerm": Query.regexp.match_portion(Query.ops.group.types),
-  "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
   // Tags: match any of the tags in the language files
-  "tagTerm": Query.regexp.match_single(Query.values(Language.L.tags)),
+  "tagTerm": Query.regexp.match_portion(Query.values(Language.L.tags)),
+  // Type: panda or zoo kewards
+  "typeTerm": Query.regexp.match_portion(Query.ops.group.types),
+  // Zeroary terms are operators that require no other keywords
+  "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
-  "zeroaryExpression": [
-    ':zeroaryTerm>zeroaryTerm'
-  ],
   "subjectExpression": [
     ":subjectTerm>subjectTerm"
+  ],
+  "tagExpression": [
+    ':tagTerm>tagTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'
   ],
   "typeExpression": [
     ':typeTerm>typeTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'
   ],
-  "tagExpression": or(
-    [':tagTerm>tagTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'],
-    [':subjectTerm>subjectTerm', ':spaceAtom?', ':tagTerm>tagTerm']
-  ),
+  "zeroaryExpression": [
+    ':zeroaryTerm>zeroaryTerm'
+  ],
   // This is the root rule that new reLexer() starts its processing at 
   "expression": or(
     ':zeroaryExpression/1',
@@ -300,12 +301,12 @@ Query.actions = {
     return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
   },
   // Tag + Subject. Search for either a panda or a zoo.
-  "tagExpression": function(env, captures) {
+  "tagExpression": function(_, captures) {
     var results = Query.resolver.tag(captures.subjectTerm, captures.tagTerm);
     return results;
   },
   // Type + Subject. Search for either a panda or a zoo.
-  "typeExpression": function(env, captures) {
+  "typeExpression": function(_, captures) {
     var results = Query.resolver.subject(captures.subjectTerm, captures.typeTerm);
     return results;
   },
@@ -319,10 +320,6 @@ Query.actions = {
     turn some string value into a node in the Pandas graph.
 */
 Query.resolver = {
-  // Is the input an id number or not?
-  "is_id": function(input) {
-    return (isFinite(input) && input != Pandas.def.animal['_id']);
-  },
   // Assume this is a panda name. Do locale-specific tweaks to
   // make the search work as you'd expect (capitalization, etc)
   // Can't base this on the current page language, since we need
@@ -401,8 +398,11 @@ Query.resolver = {
       return Pandas.searchZooName(Query.resolver.name(subject, language));
     }
   },
-  "tag": function(subject, tag, language) {
-    
+  "tag": function(subject, tag) {
+    var pandas = Pandas.searchPanda(subject);
+    // TODO: name capitalization is language specific. Move it to language.js and 
+    // include it here too.
+    return Pandas.searchPhotoTags(pandas, [tag], mode="photos", fallback="none");
   }
 }
 
