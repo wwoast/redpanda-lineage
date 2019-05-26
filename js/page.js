@@ -369,7 +369,10 @@ Page.results.photos = function(results) {
   // Determine if results are a list of pandas or a list of (tagged) photos.
   // Then display all the relevant photos for each entity. Make use of the 
   // fact that photo results have a slightly different structure.
-  if (results[0]["photo.author"] != undefined) {
+  if (results.length == 0) {
+    content_divs.push(Show.emptyResult(L.display));
+  }
+  else if (results[0]["photo.author"] != undefined) {
     results.forEach(function(photo) {
       content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
     });
