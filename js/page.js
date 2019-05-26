@@ -366,18 +366,27 @@ Page.results.entities = function(results) {
 }
 Page.results.photos = function(results) {
   var content_divs = [];
-  // Pandas and zoos have multiple photos, and 
-  // you'll need to filter on the credited photo
-  results.forEach(function(entity) {
-    if (entity["_id"] < 0) {
-      content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
-    } else {
-      content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
-    }
-  });
-  // Write some HTML with summary information for the user and the number of photos
-  var header = Show.message.credit(Query.env.credit, content_divs.length, L.display);
-  content_divs.unshift(header);
+  // Determine if results are a list of pandas or a list of (tagged) photos.
+  // Then display all the relevant photos for each entity. Make use of the 
+  // fact that photo results have a slightly different structure.
+  if (results[0]["photo.author"] != undefined) {
+    results.forEach(function(photo) {
+      content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+    });
+  } else {
+    // Display results for a list of pandas and / or zoos
+    results.forEach(function(entity) {
+      // Zoo ids are negative numbers. Display zoo search result page
+      if (entity["_id"] < 0) {
+        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
+      } else {
+        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
+      }
+    });  
+    // Write some HTML with summary information for the user and the number of photos
+    var header = Show.message.credit(Query.env.credit, content_divs.length, L.display);
+    content_divs.unshift(header);
+  }
   // HACK: revert to results mode
   Query.env.clear();
   return content_divs;

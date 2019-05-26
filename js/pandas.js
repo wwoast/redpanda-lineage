@@ -502,6 +502,7 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       let photo_author = field_name + ".author";
       let photo_link = field_name + ".link";
       let photo_tags = field_name + ".tags";
+      let photo_index = field_name.split(".")[1];
       if (animal[photo_tags] == undefined) {
         continue;
       }
@@ -513,6 +514,7 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
             "id": animal["_id"],
             "photo": animal[field_name],
             "photo.author": animal[photo_author],
+            "photo.index": photo_index,
             "photo.link": animal[photo_link],
             "photo.tags": tags   // Not the original tags, but the ones searched for
           }
@@ -533,6 +535,7 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
         "id": animal["_id"],
         "photo": Pandas.def.animal["photo.1"],
         "photo.author": Pandas.def.unknown[L.display],
+        "photo.index": Pandas.def.animal["_id"],
         "photo.link": Pandas.def.unknown[L.display],
         "photo.tags": Pandas.def.unknown[L.display]
       }
