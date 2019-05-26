@@ -270,7 +270,7 @@ Query.actions = {
   },
   // Tag expressions only result in photo results
   "tagTerm": function(_, capture) {
-    var tag = capture;
+    var tag = capture.trim()
     Query.env.output = "photos";
     return tag;
   },

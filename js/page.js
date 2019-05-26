@@ -367,17 +367,17 @@ Page.results.entities = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Determine if results are a list of pandas or a list of (tagged) photos.
-  // Then display all the relevant photos for each entity. Make use of the 
-  // fact that photo results have a slightly different structure.
+  // Then display all the relevant photos for each entity.
   if (results.length == 0) {
     content_divs.push(Show.emptyResult(L.display));
   }
+  // Photo results have a slightly different structure from panda/zoo results
   else if (results[0]["photo.author"] != undefined) {
     results.forEach(function(photo) {
       content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
     });
+  // Panda/zoo results
   } else {
-    // Display results for a list of pandas and / or zoos
     results.forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
