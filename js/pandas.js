@@ -277,6 +277,11 @@ Pandas.def.zoo = {
 /*
     Utility functions and generators for doing panda processing
 */
+// Valid panda IDs are numeric and non-zero
+Pandas.checkId = function(input) {
+  return (isFinite(input) && input != Pandas.def.animal['_id']);
+}
+
 // Generates a valid index to a location for a panda entity, up to the
 // point that said entity doesn't have a defined historical location in its data
 Pandas.locationGeneratorEntity = function*(entity, index=0) {
@@ -424,6 +429,15 @@ Pandas.searchOthernames = function(name) {
     }
   }).run();
   return nodes;
+}
+
+// Find a panda by either name or id
+Pandas.searchPanda = function(input_string) {
+  if (Pandas.checkId(input_string) == true) {
+    return Pandas.searchPandaId(input_string);
+  } else {
+    return Pandas.searchPandaName(input_string);
+  }
 }
 
 // Find a panda's children
@@ -843,8 +857,9 @@ Pandas.gender = function(animal, language) {
                              : Pandas.def.gender[gender][language];
 }
 
-// Given an animal from a media/ file with tag info, generate a
-// string describing the contents of the photo.
+// Given an animal from a media/ file with tag info that indicates
+// pixel location in a photo, generate a string describing which
+// pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
   var pandaTags = entity[tag_index].replace(" ", "").split(",").filter(function(tag) {
