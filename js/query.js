@@ -142,7 +142,7 @@ Query.ops.group.binary = Query.values([
 // https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 Query.regexp.safe_input = function(input) {
   if (input instanceof Array) {
-    return input.map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
+    return input.filter(x => x != undefined).map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
   } else {
     return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
