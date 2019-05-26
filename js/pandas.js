@@ -532,9 +532,9 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       var empty_bundle = {
         "id": animal["_id"],
         "photo": Pandas.def.animal["photo.1"],
-        "photo.author": Pandas.def.unknown[language],
-        "photo.link": Pandas.def.unknown[language],
-        "photo.tags": Pandas.def.unknown[language]
+        "photo.author": Pandas.def.unknown[L.display],
+        "photo.link": Pandas.def.unknown[L.display],
+        "photo.tags": Pandas.def.unknown[L.display]
       }
       output.push(empty_bundle);
     }

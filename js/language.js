@@ -1170,6 +1170,32 @@ Language.L.update = function() {
 /*
     Language helper and utility functions
 */
+// For names stored in Roman characters, they often start with a capital letter.
+// So input queries not capitalized need to be corrected for searching.
+Language.capitalNames = function(words) {
+  var output = [];
+  words.forEach(function(word) {
+    var ranges = Pandas.def.ranges['en'];
+    var latin = ranges.some(function(range) {
+      return range.test(word);
+    });
+    if ((latin == true) && (Query.env.preserve_case == false)) {
+      word = word.replace(/^\w/, function(chr) {
+        return chr.toUpperCase();
+      });
+      word = word.replace(/-./, function(chr) {
+        return chr.toUpperCase();
+      });
+      word = word.replace(/ ./, function(chr) {
+        return chr.toUpperCase();
+      });
+    }
+    // Return either the modified or unmodified word to the list
+    output.push(word);
+  });
+  return output.join(' ');   // Recombine terms with spaces
+}
+
 // Calculate the current fallback language order for a given info block or entity.
 // Key here is adding the current display language to the list, so that if a dataset
 // doesn't include info for a language, we can overwrite that info anyways!

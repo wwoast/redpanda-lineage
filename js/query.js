@@ -325,30 +325,8 @@ Query.resolver = {
   // Can't base this on the current page language, since we need
   // to match latin partials against capitalized dataset names!
   "name": function(input) {
-    var output = [];
     var words = input.split(' ');
-    // Determine what the character set is for each word.
-    // Apply capitalization rules for Latin-character words
-    words.forEach(function(word) {
-      var ranges = Pandas.def.ranges['en'];
-      var latin = ranges.some(function(range) {
-        return range.test(word);
-      });
-      if ((latin == true) && (Query.env.preserve_case == false)) {
-        word = word.replace(/^\w/, function(chr) {
-          return chr.toUpperCase();
-        });
-        word = word.replace(/-./, function(chr) {
-          return chr.toUpperCase();
-        });
-        word = word.replace(/ ./, function(chr) {
-          return chr.toUpperCase();
-        });
-      }
-      // Return either the modified or unmodified word to the list
-      output.push(word);
-    });
-    return output.join(' ');   // Recombine terms with spaces
+    return Language.capitalNames(words);
   },
   // Process searches that are just single keywords, like "babies"
   "singleton": function(keyword) {
@@ -399,9 +377,9 @@ Query.resolver = {
     }
   },
   "tag": function(subject, tag) {
-    var pandas = Pandas.searchPanda(subject);
-    // TODO: name capitalization is language specific. Move it to language.js and 
-    // include it here too.
+    var subject_split = subject.split(' ');
+    var canonical_subject = Language.capitalNames(subject_split);
+    var pandas = Pandas.searchPanda(canonical_subject);
     return Pandas.searchPhotoTags(pandas, [tag], mode="photos", fallback="none");
   }
 }
