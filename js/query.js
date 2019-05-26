@@ -208,7 +208,7 @@ Query.rules = {
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
   "subjectExpression": [
-    ":subjectTerm>subjectTerm"
+    ":subjectTerm>subjectTerm",
   ],
   "tagExpression": [
     ':tagTerm>tagTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'
@@ -224,7 +224,7 @@ Query.rules = {
     ':zeroaryExpression/1',
     ':typeExpression/2',
     ':tagExpression/3',
-    ':subjectExpression/4',
+    // ':subjectExpression/4',
   )
 }
 /*
