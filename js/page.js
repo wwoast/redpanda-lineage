@@ -368,17 +368,19 @@ Page.results.photos = function(results) {
   var content_divs = [];
   // Determine if results are a list of pandas or a list of (tagged) photos.
   // Then display all the relevant photos for each entity.
+  // TODO: rewrite this in terms of "parsed types"
+  // TODO: include whether it's entities or photos in the results
   if (results.length == 0) {
     content_divs.push(Show.emptyResult(L.display));
   }
   // Photo results have a slightly different structure from panda/zoo results
-  else if (results[0]["photo.author"] != undefined) {
+  else if (results["parsed"] == "tagExpression") {
     results.forEach(function(photo) {
       content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
     });
   // Panda/zoo results
   } else {
-    results.forEach(function(entity) {
+    results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
         content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
