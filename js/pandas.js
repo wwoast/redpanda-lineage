@@ -490,6 +490,7 @@ Pandas.searchPandaName = function(name) {
 
 // Given a panda, search for photos tagged with any of a list of tags.
 // May return photo info only, or the entire animal
+// TOWRITE: usable for zoo entities too, fix
 Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
   var photo_fields = Pandas.photoGeneratorMax;
   var output = [];

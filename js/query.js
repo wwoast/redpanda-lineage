@@ -208,20 +208,20 @@ Query.rules = {
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
   "tagExpression": [
-    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
+    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm&'
   ],
   "typeExpression": [
-    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
+    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm&'
   ],
   "zeroaryExpression": [
     ':zeroaryTerm>zeroaryTerm'
   ],
   // This is the root rule that new reLexer() starts its processing at 
   "expression": or(
-    //':zeroaryExpression/1',
-    ':typeExpression/1',
-    //':tagExpression/3',
-    ':subjectTerm/2'
+    ':zeroaryExpression/1',
+    ':typeExpression/2',
+    ':tagExpression/3',
+    ':subjectTerm/4'
   )
 }
 /*
@@ -262,10 +262,6 @@ Query.actions = {
   /*** TERM ACTIONS ***/
   // Based on result counts, guess whether this is a panda or zoo, and then
   // return results for either the panda or the zoo.
-  // TODO: wrap the processed result in a dictionary with the original term,
-  // and separate out the possible results not by length, but by panda/zoo type.
-  // If it's just a subject term result, you can opt into getting whichever's
-  // results are longer -- but that can happen outside parsing.
   "subjectTerm": function(_, captures) {
     [match_type, value] = captures;
     if (Query.env.output == "photos") {
@@ -273,9 +269,18 @@ Query.actions = {
       // Take the name we'll be filtering photos on.
       Query.env.credit = value;
     }
+    // Result 
     var panda_results = Query.resolver.subject(value, "panda", L.display);
     var zoo_results = Query.resolver.subject(value, "zoo", L.display);
-    return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
+    var credit_results = Query.resolver.subject(value, "credit", L.display);
+    return {
+      "query": value,
+      "parsed": "subjectTerm",
+      "hits": undefined,
+      "credit_hits": credit_results,
+      "panda_hits": panda_results,
+      "zoo_hits": zoo_results
+    }
   },
   // Tag expressions only result in photo results
   "tagTerm": function(env, capture) {
@@ -300,24 +305,36 @@ Query.actions = {
   /*** EXPRESSION ACTIONS ***/
   // Tag + Subject. Search for either a panda or a zoo.
   "tagExpression": function(_, captures) {
-    // TODO: get the subject results for this one, and do the tag search
+    // Get the subject results for this one, and do the tag search
     // based on the results found here.
-    // var results = Query.resolver.tag(captures.subjectTerm, captures.tagTerm);
-    return results;
+    var tag = captures.tagTerm;
+    return {
+      "query": tag + " " + captures.subjectTerm.query,
+      "parsed": "tagExpression",
+      "hits": Pandas.searchPhotoTags(subject, [tag], mode="photos", fallback="none"),
+      "tag": tag
+    }
   },
   // Type + Subject. Search for either a panda or a zoo.
   "typeExpression": function(_, captures) {
-    // TODO: get the subject results for this one, and select from the available subject
-    // results options to filter down to specific results.
-    // to filter down to a specific set of results.
-    // TODO: have subject return all results lazily, because we likely won't use 
-    // the subject captures here. Instead we need to 
-    // var results = Query.resolver.subject(captures.subjectTerm, captures.typeTerm);
-    return results;
+    // Get the subject results for this one, select from the available
+    // zoo/panda/credit results, and store that as the main "hits".
+    var type = captures.typeTerm;
+    var results = captures.subjectTerm;
+    return {
+      "query": type + " " + captures.subjectTerm.query,
+      "parsed": "typeExpression",
+      "hits": results[type + ".hits"],
+      "type": type
+    }
   },
   // Resolve the behavior of the zero-argument operator into results.
   "zeroaryExpression": function(_, captures) {
-    return Query.resolver.singleton(captures.zeroaryTerm);
+    return {
+      "query": captures.zeroaryTerm,
+      "parsed": "zeroaryExpression",
+      "hits": Query.resolver.singleton(captures.zeroaryTerm)
+    }
   }
 }
 /* 
@@ -377,12 +394,6 @@ Query.resolver = {
       return Pandas.searchZooName(Query.resolver.name(subject, language));
     }
   },
-  "tag": function(subject, tag) {
-    var subject_split = subject.split(' ');
-    var canonical_subject = Language.capitalNames(subject_split);
-    var pandas = Pandas.searchPanda(canonical_subject);
-    return Pandas.searchPhotoTags(pandas, [tag], mode="photos", fallback="none");
-  }
 }
 
 /*

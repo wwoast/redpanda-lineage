@@ -399,6 +399,7 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
+  // TODO: manage the new query response output
   results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   var new_content = document.createElement('div');
