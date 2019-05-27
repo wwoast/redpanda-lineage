@@ -187,44 +187,41 @@ Query.regexp.match_none = function(input) {
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
+  "space": /\s+/,
   /*** ATOMS ***/
   "idAtom": /\d{1,5}/,
   "nameAtom": /[^\s]+(\s+[^\s]+)*/,
-  "spaceAtom": /\s+/,
   "yearAtom": /\d{4}/,
+  "subjectTerm": or(
+    ":idAtom>idAtom",
+    ":nameAtom>nameAtom",
+  ),
   /*** TERMS ***/
   // Terms include keywords, operators, and panda / zoo names.
   // Subjects, either an id number or a panda / zoo name.
-  "subjectTerm": or(
-    ':idAtom>idAtom',
-    ':nameAtom>nameAtom'
-  ),
   // Tags: match any of the tags in the language files
   "tagTerm": Query.regexp.match_portion(Query.values(Language.L.tags)),
-  // Type: panda or zoo kewards
+  // Type: panda or zoo keywords
   "typeTerm": Query.regexp.match_portion(Query.ops.group.types),
   // Zeroary terms are operators that require no other keywords
   "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
-  "subjectExpression": [
-    ":subjectTerm>subjectTerm",
-  ],
   "tagExpression": [
-    ':tagTerm>tagTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'
+    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
   "typeExpression": [
-    ':typeTerm>typeTerm', ':spaceAtom?', ':subjectTerm>subjectTerm'
+    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
   "zeroaryExpression": [
     ':zeroaryTerm>zeroaryTerm'
   ],
   // This is the root rule that new reLexer() starts its processing at 
   "expression": or(
-    ':zeroaryExpression/1',
-    ':typeExpression/2',
-    ':tagExpression/3',
-    // ':subjectExpression/4',
+    //':zeroaryExpression/1',
+    ':typeExpression/1',
+    //':tagExpression/3',
+    ':subjectTerm/2'
   )
 }
 /*
@@ -250,32 +247,44 @@ Query.rules = {
      Expression actions return a resolution to the panda graph.
 */
 Query.actions = {
+  /*** ATOM ACTIONS ***/
+  // Guarantee that the id number is valid
+  "idAtom": function(_, captures) {
+    return Pandas.checkId(captures) ? captures : Pandas.def.animal[_id];
+  },
+  // For panda names, do locale-specific tweaks to make the search work
+  // as you'd expect (capitalization, etc). Can't base this on the current 
+  // page language, since we need to match latin partials against 
+  // capitalized dataset names!
+  "nameAtom": function(_, captures) {
+    return Language.capitalNames(captures);
+  },
   /*** TERM ACTIONS ***/
-  // Parse IDs if they are valid numbers, and names as if they have proper search 
-  // capitalization. Parsing here percolates down itno other expressions :)
+  // Based on result counts, guess whether this is a panda or zoo, and then
+  // return results for either the panda or the zoo.
+  // TODO: wrap the processed result in a dictionary with the original term,
+  // and separate out the possible results not by length, but by panda/zoo type.
+  // If it's just a subject term result, you can opt into getting whichever's
+  // results are longer -- but that can happen outside parsing.
   "subjectTerm": function(_, captures) {
     [match_type, value] = captures;
     if (Query.env.output == "photos") {
       // Search results must be post-processed for photo credit mode.
       // Take the name we'll be filtering photos on.
       Query.env.credit = value;
-      return value;   // Return the string value unmodified for searching
     }
-    switch (match_type) {
-      case "idAtom":
-        return Pandas.checkId(value) ? value : 0;
-      case "nameAtom":
-        return Query.resolver.name(value, L.display);
-    }
+    var panda_results = Query.resolver.subject(value, "panda", L.display);
+    var zoo_results = Query.resolver.subject(value, "zoo", L.display);
+    return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
   },
   // Tag expressions only result in photo results
-  "tagTerm": function(_, capture) {
+  "tagTerm": function(env, capture) {
     var tag = capture.trim()
     Query.env.output = "photos";
     return tag;
   },
   "typeTerm": function(_, capture) {
-    var type = capture.replace(" ", "");   // Support zeroary types
+    var type = capture.trim();
     // Don't adjust case for author searches. Switch to "photo credit" output mode
     if (Query.ops.type.credit.includes(type)) {
       Query.env.preserve_case = true;
@@ -288,26 +297,22 @@ Query.actions = {
     }
     return type;
   },
-  // Special zero-argument operator. Pass through.
-  "zeroaryTerm": function(_, capture) {
-    var keyword = capture;
-    return keyword;
-  },
   /*** EXPRESSION ACTIONS ***/
-  // No type given. Based on result counts, guess whether this is a panda or zoo
-  "subjectExpression": function(_, captures) {
-    var panda_results = Query.resolver.subject(captures.subjectTerm, "panda", L.display);
-    var zoo_results = Query.resolver.subject(captures.subjectTerm, "zoo", L.display);
-    return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
-  },
   // Tag + Subject. Search for either a panda or a zoo.
   "tagExpression": function(_, captures) {
-    var results = Query.resolver.tag(captures.subjectTerm, captures.tagTerm);
+    // TODO: get the subject results for this one, and do the tag search
+    // based on the results found here.
+    // var results = Query.resolver.tag(captures.subjectTerm, captures.tagTerm);
     return results;
   },
   // Type + Subject. Search for either a panda or a zoo.
   "typeExpression": function(_, captures) {
-    var results = Query.resolver.subject(captures.subjectTerm, captures.typeTerm);
+    // TODO: get the subject results for this one, and select from the available subject
+    // results options to filter down to specific results.
+    // to filter down to a specific set of results.
+    // TODO: have subject return all results lazily, because we likely won't use 
+    // the subject captures here. Instead we need to 
+    // var results = Query.resolver.subject(captures.subjectTerm, captures.typeTerm);
     return results;
   },
   // Resolve the behavior of the zero-argument operator into results.
@@ -320,10 +325,6 @@ Query.actions = {
     turn some string value into a node in the Pandas graph.
 */
 Query.resolver = {
-  // Assume this is a panda name. Do locale-specific tweaks to
-  // make the search work as you'd expect (capitalization, etc)
-  // Can't base this on the current page language, since we need
-  // to match latin partials against capitalized dataset names!
   "name": function(input) {
     var words = input.split(' ');
     return Language.capitalNames(words);

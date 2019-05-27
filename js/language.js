@@ -1172,8 +1172,14 @@ Language.L.update = function() {
 */
 // For names stored in Roman characters, they often start with a capital letter.
 // So input queries not capitalized need to be corrected for searching.
-Language.capitalNames = function(words) {
+Language.capitalNames = function(input) {
+  var words = [];
   var output = [];
+  if (input.indexOf(' ') != -1) {
+    words = input.split(' ');
+  } else {
+    words.push(input);
+  }
   words.forEach(function(word) {
     var ranges = Pandas.def.ranges['en'];
     var latin = ranges.some(function(range) {
