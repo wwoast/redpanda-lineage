@@ -208,10 +208,10 @@ Query.rules = {
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
   "tagExpression": [
-    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm&'
+    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
   "typeExpression": [
-    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm&'
+    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
   "zeroaryExpression": [
     ':zeroaryTerm>zeroaryTerm'
