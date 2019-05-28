@@ -268,8 +268,7 @@ Query.actions = {
   },
   // Tag expressions only result in photo results
   "tagTerm": function(_, capture) {
-    // var tag = capture.replace(/\s+$/, "");
-    var tag = capture;
+    var tag = capture.trim();
     Query.env.output_mode = "photos";
     return {
       "query": tag,
@@ -277,7 +276,7 @@ Query.actions = {
     }
   },
   "typeTerm": function(_, capture) {
-    var type = capture.replace(/\s+$/, "");
+    var type = capture.trim();
     // Normal searches. Just return pandas/zoos in a later subject search.
     // Re-capitalize to match names in the database.
     Query.env.output_mode = "entities";
