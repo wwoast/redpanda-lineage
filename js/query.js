@@ -303,6 +303,7 @@ Query.actions = {
       "hits": Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none"),
       "query": tag + " " + last_stage.query,
       "parsed": "tagExpression",
+      "subject": last_stage.query,
       "tag": tag
     }
   },
@@ -316,6 +317,7 @@ Query.actions = {
       "hits": results[type + "_hits"],
       "query": type + " " + results.query,
       "parsed": "typeExpression",
+      "subject": results.query,
       "type": type
     }
   },

@@ -377,17 +377,17 @@ Page.results.photos = function(results) {
     content_divs.unshift(header);
   }
   // Term expression for a credit term, on panda/zoo results.
-  else if (results["query"] == "termExpression") {
+  else if (results["parsed"] == "typeExpression") {
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
-        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["query"], L.display));
+        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], L.display));
       } else {
-        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["query"], L.display));
+        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], L.display));
       }
     });
     // Write some HTML with summary information for the user and the number of photos
-    var header = Show.message.credit(results["query"], content_divs.length, L.display);
+    var header = Show.message.credit(results["subject"], content_divs.length, L.display);
     content_divs.unshift(header);
   }
   // HACK: revert to results mode
