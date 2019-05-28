@@ -18,16 +18,15 @@ Query.env.preserve_case = false;
 // When displaying results, normally we just display zoos and pandas ("entities").
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
-Query.env.output = "entities";
+Query.env.output_mode = "entities";
 // If a URI indicates a specific photo, indicate which one here.
-Query.env.specific = undefined;
+Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run
 Query.env.clear = function() {
   Query.env.preserve_case = false;
-  Query.env.output = "entities";
-  Query.env.specific = undefined;
+  Query.env.output_mode = "entities";
+  Query.env.specific_photo = undefined;
 }
-Query.regexp = {};
 
 // Get a list of valid operators (the children) of the Query.obj array
 // Return the result as a single-level array
@@ -123,6 +122,7 @@ Query.ops.group.binary = Query.values([
   Query.ops.family
 ])
 
+Query.regexp = {};
 // Escape any characters in the operations list that have meaning for regexes.
 // https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 Query.regexp.safe_input = function(input) {
@@ -205,7 +205,7 @@ Query.rules = {
   "expression": or(
     ':zeroaryExpression/1',
     ':typeExpression/2',
-    ':tagExpression/3',
+    //':tagExpression/3',
     ':subjectTerm/4'
   )
 }
@@ -234,15 +234,15 @@ Query.rules = {
 Query.actions = {
   /*** ATOM ACTIONS ***/
   // Guarantee that the id number is valid
-  "idAtom": function(_, captures) {
-    return Pandas.checkId(captures) ? captures : Pandas.def.animal[_id];
+  "idAtom": function(_, capture) {
+    return Pandas.checkId(capture) ? capture : Pandas.def.animal[_id];
   },
   // For panda names, do locale-specific tweaks to make the search work
   // as you'd expect (capitalization, etc). Can't base this on the current 
   // page language, since we need to match latin partials against 
   // capitalized dataset names!
-  "nameAtom": function(_, captures) {
-    return Language.capitalNames(captures);
+  "nameAtom": function(_, capture) {
+    return Language.capitalNames(capture);
   },
   /*** TERM ACTIONS ***/
   // Based on result counts, guess whether this is a panda or zoo, and then
@@ -267,29 +267,26 @@ Query.actions = {
     }
   },
   // Tag expressions only result in photo results
-  "tagTerm": function(env, capture) {
-    var tag = capture.trim()
-    var output_mode = "photos";
+  "tagTerm": function(_, capture) {
+    var tag = capture.replace(/\s+$/, "");
+    Query.env.output_mode = "photos";
     return {
-      "output_mode": output_mode,
       "query": tag,
       "tag": tag
     }
   },
   "typeTerm": function(_, capture) {
-    var type = capture.trim();
+    var type = capture.replace(/\s+$/, "");
     // Normal searches. Just return pandas/zoos in a later subject search.
     // Re-capitalize to match names in the database.
-    var output_mode = "entities";
-    var preserve_case = false;
+    Query.env.output_mode = "entities";
+    Query.env.preserve_case = false;
     // Don't adjust case for author searches. Switch to "photo credit" output mode
     if (Query.ops.type.credit.includes(type)) {
-      output_mode = "photos";
-      preserve_case = true;
+      Query.env.output_mode = "photos";
+      Query.env.preserve_case = true;
     }
     return {
-      "output_mode": output_mode,
-      "preserve_case": preserve_case,
       "query": type,
       "type": type
     };
@@ -303,9 +300,7 @@ Query.actions = {
     var last_stage = captures.subjectTerm;
     var animals = Pandas.searchPanda(last_stage.query);
     return {
-      "hits": Pandas.searchPhotoTags(subject, [tag], mode="photos", fallback="none"),
-      "output_mode": last_stage.output_mode,
-      "preserve_case": last_stage.preserve_case,
+      "hits": Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none"),
       "query": tag + " " + last_stage.query,
       "parsed": "tagExpression",
       "tag": tag
@@ -319,8 +314,6 @@ Query.actions = {
     var results = captures.subjectTerm;
     return {
       "hits": results[type + "_hits"],
-      "output_mode": results.output_mode,
-      "preserve_case": results.preserve_case,
       "query": type + " " + results.query,
       "parsed": "typeExpression",
       "type": type
@@ -356,7 +349,6 @@ Query.resolver = {
   // Process a search term, either typed as panda/zoo, or untyped,
   // into a list of nodes in the Pandas/Zoos graph
   "subject": function(subject, type, language) {
-    type = type.replace(" ", "");   // End of word $ check may add space to type
     // Explicitly search for a panda by id
     if ((Pandas.checkId(subject) == true) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
@@ -386,10 +378,10 @@ Query.resolver = {
     }
     // Otherwise search by name
     if (Query.ops.type.panda.indexOf(type) != -1) {
-      return Pandas.searchPandaName(Query.resolver.name(subject, language));
+      return Pandas.searchPandaName(subject);
     }
     if (Query.ops.type.zoo.indexOf(type) != -1) {
-      return Pandas.searchZooName(Query.resolver.name(subject, language));
+      return Pandas.searchZooName(subject);
     }
   },
 }

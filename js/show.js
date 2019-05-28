@@ -7,7 +7,7 @@ var Show = {};   /* Namespace */
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_ohoto;
   var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
@@ -63,7 +63,7 @@ Show.acquireLocationList = function(animal, language) {
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
-  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
   var picture = Pandas.profilePhoto(zoo, chosen_index, "zoo");   // TODO: all photos for carousel
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   var bundle = {
@@ -1761,7 +1761,6 @@ Show.searchBar.submit = function() {
   Page.current = Page.results.render;
   document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
   var query = (document.getElementById('searchInput').value).trim();
-  Query.lexer.parse(query);  // TODO: onhashchange, race for results?
   window.location = "#query/" + query;
   // TODO: when submitting from the bottomMenu search bar, destroy it and move the
   // focus and query output to the top search bar.

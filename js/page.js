@@ -225,38 +225,41 @@ Page.routes.behavior = function(input) {
   // TODO: rewrite against new query logic functionality. This means we need to
   // do a lexer parse step for each of the URI types, similar to how query strings
   // themseleves are parsed.
+  // TODO: add tag search URIs
+  // TODO: 
   // Each hashlink determines a different behavior for the page rendering.
   // Do a task based on what the route is.
   if (input.indexOf("#credit/") == 0) {
     // link for a page of photo credits for a specific author
-    Query.env.credit = input.slice(8);
+    // TODO: rewrite
+    var photo_author = input.slice(8);
     Query.env.preserve_case = true;   // Don't adjust case for author searches
-    Query.env.output = "photos";      // Set output mode for a photo list
-    return Query.resolver.subject(Query.env.credit, "credit", L.display);
+    Query.env.output_mode = "photos";      // Set output mode for a photo list
+    // return Query.resolver.subject(photo_author, "credit", L.display);
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(7);
     var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.specific = photo_id;
-    return Query.resolver.subject(panda, "panda", L.display);    
+    Query.env.specific_photo = photo_id;
+    // return Query.resolver.subject(panda, "panda", L.display);
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single panda result. TODO: maybe do a detailed page
     var panda = input.slice(7);
-    return Query.resolver.subject(panda, "panda", L.display);
+    // return Query.resolver.subject(panda, "panda", L.display);
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda profile result with a chosen photo.
     var uri_items = input.slice(9);
     var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.specific = photo_id;
-    return Query.resolver.subject(panda, "panda", L.display);    
+    Query.env.specific_photo = photo_id;
+    // return Query.resolver.subject(panda, "panda", L.display);    
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single panda profile result.
     var panda = input.slice(9);
-    return Query.resolver.subject(panda, "panda", L.display);
+    // return Query.resolver.subject(panda, "panda", L.display);
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
     var terms = input.slice(7);
@@ -265,19 +268,19 @@ Page.routes.behavior = function(input) {
   } else if (input.indexOf("#timeline/") == 0) {
     // show full info and timeline for a panda. TODO
     var panda = input.slice(10);
-    return Query.resolver.subject(panda, "panda", L.display);
+    // return Query.resolver.subject(panda, "panda", L.display);
   } else if ((input.indexOf("#zoo/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(5);
     var [ zoo, _, zoo_id ] = uri_items.split("/");
-    Query.env.specific = zoo_id;
-    return Query.resolver.subject(zoo, "zoo", L.display);    
+    Query.env.specific_photo = zoo_id;
+    // return Query.resolver.subject(zoo, "zoo", L.display);    
   } else if ((input.indexOf("#zoo/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single zoo result.
     var zoo = input.slice(5);
-    return Query.resolver.subject(zoo, "zoo", L.display);
+    // return Query.resolver.subject(zoo, "zoo", L.display);
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;
