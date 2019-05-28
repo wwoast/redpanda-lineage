@@ -205,7 +205,7 @@ Query.rules = {
   "expression": or(
     ':zeroaryExpression/1',
     ':typeExpression/2',
-    //':tagExpression/3',
+    ':tagExpression/3',
     ':subjectTerm/4'
   )
 }
