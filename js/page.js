@@ -222,6 +222,9 @@ Page.profile.render = function() {
 */
 Page.routes = {};
 Page.routes.behavior = function(input) {
+  // TODO: rewrite against new query logic functionality. This means we need to
+  // do a lexer parse step for each of the URI types, similar to how query strings
+  // themseleves are parsed.
   // Each hashlink determines a different behavior for the page rendering.
   // Do a task based on what the route is.
   if (input.indexOf("#credit/") == 0) {
@@ -343,10 +346,15 @@ Page.routes.memberOf = function(routeList, current_route) {
     other results rendering modes, and we'll likely add many more as time goes on.
 */
 Page.results = {};
+// Given a search for pandas or zoos, output entity divs
 Page.results.entities = function(results) {
-  // Given a search for pandas and zoos, output entity divs
   var content_divs = [];
-  results.forEach(function(entity) {
+  if (results.length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.emptyResult(L.display));
+  }
+
+  results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.results.zoo(entity, L.display));
@@ -358,38 +366,38 @@ Page.results.entities = function(results) {
       content_divs.push(Show.results.panda(entity, L.display, undefined));
     }
   });
-  if (results.length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.display));
-  }
   return content_divs;
 }
 Page.results.photos = function(results) {
   var content_divs = [];
   // Determine if results are a list of pandas or a list of (tagged) photos.
   // Then display all the relevant photos for each entity.
-  // TODO: rewrite this in terms of "parsed types"
   // TODO: include whether it's entities or photos in the results
-  if (results.length == 0) {
+  if (results["hits"].length == 0) {
     content_divs.push(Show.emptyResult(L.display));
   }
   // Photo results have a slightly different structure from panda/zoo results
   else if (results["parsed"] == "tagExpression") {
-    results.forEach(function(photo) {
+    results["hits"].forEach(function(photo) {
       content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
     });
-  // Panda/zoo results
-  } else {
+    // Write some HTML with summary information for the user and the number of photos
+    // TODO: different messages for tag photo results
+    var header = Show.message.credit(results["tag"], content_divs.length, L.display);
+    content_divs.unshift(header);
+  }
+  // Term expression for a credit term, on panda/zoo results.
+  else if (results["query"] == "termExpression") {
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
-        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
+        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["query"], L.display));
       } else {
-        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
+        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["query"], L.display));
       }
-    });  
+    });
     // Write some HTML with summary information for the user and the number of photos
-    var header = Show.message.credit(Query.env.credit, content_divs.length, L.display);
+    var header = Show.message.credit(results["query"], content_divs.length, L.display);
     content_divs.unshift(header);
   }
   // HACK: revert to results mode
@@ -406,7 +414,7 @@ Page.results.render = function() {
   var content_divs = [];
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
-  switch(Query.env.output) {
+  switch(results["output_mode"]) {
     case "entities":
       content_divs = Page.results.entities(results);
       break;

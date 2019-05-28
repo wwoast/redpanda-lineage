@@ -14,7 +14,6 @@ Query.init = function() {
 
 Query.env = {};
 // Credit for photos being shown
-Query.env.credit = undefined;
 Query.env.preserve_case = false;
 // When displaying results, normally we just display zoos and pandas ("entities").
 // However, other output modes are supported based on the supplied types.
@@ -24,25 +23,11 @@ Query.env.output = "entities";
 Query.env.specific = undefined;
 // Reset query environment back to defaults, typically after a search is run
 Query.env.clear = function() {
-  Query.env.credit = undefined;
   Query.env.preserve_case = false;
   Query.env.output = "entities";
   Query.env.specific = undefined;
-  Query.env.tokens = [];
 }
 Query.regexp = {};
-/*
-   First-pass processing into terms
-[{
-    "type": "operator",
-    "term": "panda"
-},
-{
-    "type": "subject",
-    "term": "ichimaru"
-}]
-*/
-Query.env.terms = [];
 
 // Get a list of valid operators (the children) of the Query.obj array
 // Return the result as a single-level array
@@ -264,19 +249,18 @@ Query.actions = {
   // return results for either the panda or the zoo.
   "subjectTerm": function(_, captures) {
     [match_type, value] = captures;
-    if (Query.env.output == "photos") {
-      // Search results must be post-processed for photo credit mode.
-      // Take the name we'll be filtering photos on.
-      Query.env.credit = value;
-    }
-    // Result 
+    // Possible result sets
     var panda_results = Query.resolver.subject(value, "panda", L.display);
     var zoo_results = Query.resolver.subject(value, "zoo", L.display);
     var credit_results = Query.resolver.subject(value, "credit", L.display);
+    // By default, a bare subjectTerm search result should show the most
+    // available hits for either a zoo type or a panda type.
+    var most_hits = (panda_results.length >= zoo_results.length)
+                        ? panda_results : zoo_results;
     return {
       "query": value,
       "parsed": "subjectTerm",
-      "hits": undefined,
+      "hits": most_hits,
       "credit_hits": credit_results,
       "panda_hits": panda_results,
       "zoo_hits": zoo_results
@@ -285,33 +269,45 @@ Query.actions = {
   // Tag expressions only result in photo results
   "tagTerm": function(env, capture) {
     var tag = capture.trim()
-    Query.env.output = "photos";
-    return tag;
+    var output_mode = "photos";
+    return {
+      "output_mode": output_mode,
+      "query": tag,
+      "tag": tag
+    }
   },
   "typeTerm": function(_, capture) {
     var type = capture.trim();
-    // Don't adjust case for author searches. Switch to "photo credit" output mode
-    if (Query.ops.type.credit.includes(type)) {
-      Query.env.preserve_case = true;
-      Query.env.output = "photos";
     // Normal searches. Just return pandas/zoos in a later subject search.
     // Re-capitalize to match names in the database.
-    } else {
-      Query.env.preserve_case = false;
-      Query.env.output = "entities";
+    var output_mode = "entities";
+    var preserve_case = false;
+    // Don't adjust case for author searches. Switch to "photo credit" output mode
+    if (Query.ops.type.credit.includes(type)) {
+      output_mode = "photos";
+      preserve_case = true;
     }
-    return type;
+    return {
+      "output_mode": output_mode,
+      "preserve_case": preserve_case,
+      "query": type,
+      "type": type
+    };
   },
   /*** EXPRESSION ACTIONS ***/
   // Tag + Subject. Search for either a panda or a zoo.
   "tagExpression": function(_, captures) {
     // Get the subject results for this one, and do the tag search
     // based on the results found here.
-    var tag = captures.tagTerm;
+    var tag = captures.tagTerm.tag;
+    var last_stage = captures.subjectTerm;
+    var animals = Pandas.searchPanda(last_stage.query);
     return {
-      "query": tag + " " + captures.subjectTerm.query,
-      "parsed": "tagExpression",
       "hits": Pandas.searchPhotoTags(subject, [tag], mode="photos", fallback="none"),
+      "output_mode": last_stage.output_mode,
+      "preserve_case": last_stage.preserve_case,
+      "query": tag + " " + last_stage.query,
+      "parsed": "tagExpression",
       "tag": tag
     }
   },
@@ -319,21 +315,23 @@ Query.actions = {
   "typeExpression": function(_, captures) {
     // Get the subject results for this one, select from the available
     // zoo/panda/credit results, and store that as the main "hits".
-    var type = captures.typeTerm;
+    var type = captures.typeTerm.type;
     var results = captures.subjectTerm;
     return {
-      "query": type + " " + captures.subjectTerm.query,
+      "hits": results[type + "_hits"],
+      "output_mode": results.output_mode,
+      "preserve_case": results.preserve_case,
+      "query": type + " " + results.query,
       "parsed": "typeExpression",
-      "hits": results[type + ".hits"],
       "type": type
     }
   },
   // Resolve the behavior of the zero-argument operator into results.
   "zeroaryExpression": function(_, captures) {
     return {
-      "query": captures.zeroaryTerm,
+      "hits": Query.resolver.singleton(captures.zeroaryTerm),
       "parsed": "zeroaryExpression",
-      "hits": Query.resolver.singleton(captures.zeroaryTerm)
+      "query": captures.zeroaryTerm
     }
   }
 }
