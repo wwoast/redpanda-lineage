@@ -1760,7 +1760,7 @@ Show.searchBar.submit = function() {
   // JS actions for submiting a search
   Page.current = Page.results.render;
   document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
-  var query = (document.getElementById('searchInput').value).trim();
+  var query = (document.getElementById('searchInput').value).replace(/\s+$/, '');
   window.location = "#query/" + query;
   // TODO: when submitting from the bottomMenu search bar, destroy it and move the
   // focus and query output to the top search bar.

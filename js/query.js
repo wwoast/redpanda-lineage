@@ -268,7 +268,8 @@ Query.actions = {
   },
   // Tag expressions only result in photo results
   "tagTerm": function(_, capture) {
-    var tag = capture.replace(/\s+$/, "");
+    // var tag = capture.replace(/\s+$/, "");
+    var tag = capture;
     Query.env.output_mode = "photos";
     return {
       "query": tag,

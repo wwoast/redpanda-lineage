@@ -112,6 +112,7 @@ Language.L.emoji = {
        "moon": "🌙",
      "mother": "👩🏻",
        "nerd": "🤓",
+   "no_emoji": "⚪",
     "no_more": "🚫",
        "nose": "👃",
       "panda": "🐼",
@@ -706,13 +707,13 @@ Language.L.tags = {
   },
   "carry": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["carry", "holding"],
        "jp": ["運ぶ"]
   },
   "climb": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["climb", "climbing"],
        "jp": ["登る"]
   },
@@ -724,7 +725,7 @@ Language.L.tags = {
   },
   "dig": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["dig", "digging", "digs"],
        "jp": ["穴掘り"]
   },
@@ -754,7 +755,7 @@ Language.L.tags = {
   },
   "grooming": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["groom", "grooming", "cleaning"],
        "jp": ["毛づくろい"]
   },
@@ -766,7 +767,7 @@ Language.L.tags = {
   },
   "hammock": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["hammock"],
        "jp": ["ハンモック"]
   },
@@ -784,7 +785,7 @@ Language.L.tags = {
   },
   "itchy": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["itchy", "scratchy"],
        "jp": ["かゆい"]
   },
@@ -796,13 +797,13 @@ Language.L.tags = {
   },
   "keeper": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["keeper", "zookeeper"],
        "jp": ["飼育員"]
   },
   "laying down": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["lay down", "laying down"],
        "jp": ["寝そべっている"]
   },
@@ -821,19 +822,19 @@ Language.L.tags = {
   },
   "lunch time": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["lunch time", "lunch"],
        "jp": ["ランチの時間"]
   },
   "mofumofu": {
         "cn": ["TOWRITE"],
-     "emoji": [""],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["mofumofu"],
         "jp": ["モフモフ"]
   },
   "muzzle": {
         "cn": ["TOWRITE"],
-     "emoji": [""],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["muzzle", "snout"],
         "jp": ["マズル"]
   },
@@ -913,7 +914,7 @@ Language.L.tags = {
   },
   "shake": {
         "cn": ["TOWRITE"],
-     "emoji": [""],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["shake", "shaking"],
         "jp": ["ゆらゆら"]
   },
@@ -955,13 +956,13 @@ Language.L.tags = {
   },
   "standing": {
         "cn": ["TOWRITE"],
-     "emoji": [""],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
         "jp": ["立っている"]
   },
   "stretching": {
         "cn": ["TOWRITE"],
-     "emoji": [""],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
         "jp": ["ストレッチしている"]
   },
