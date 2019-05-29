@@ -363,19 +363,20 @@ Page.results.entities = function(results) {
 }
 Page.results.photos = function(results) {
   var content_divs = [];
-  if (results["hits"].length == 0) {
-    content_divs.push(Show.emptyResult(L.display));
-  }
   // Photo results have a slightly different structure from panda/zoo results
-  else if (results["parsed"] == "tagExpression") {
+  if (results["parsed"] == "tagExpression") {
     results["hits"].forEach(function(photo) {
-      content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+      if (photo["photo.index"] != "0") {   // Null photo result
+        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+      }
     });
     // Write some HTML with summary information for the user and the number of photos
-    var header = Show.message.tag_subject(results["hits"].length, results["subject"],
-                                          Language.L.tags[results["tag"]]["emoji"], 
-                                          results["tag"], L.display);
-    content_divs.unshift(header);
+    if (content_divs.length != 0) {
+      var header = Show.message.tag_subject(results["hits"].length, results["subject"],
+                                            Language.L.tags[results["tag"]]["emoji"], 
+                                            results["tag"], L.display);
+      content_divs.unshift(header);
+    }
   }
   // Term expression for a credit term, on panda/zoo results.
   else if ((results["parsed"] == "typeExpression") && (results["type"] == "credit")) {
@@ -390,6 +391,10 @@ Page.results.photos = function(results) {
     // Write some HTML with summary information for the user and the number of photos
     var header = Show.message.credit(results["subject"], content_divs.length, L.display);
     content_divs.unshift(header);    
+  }
+  // Done. Now, if there's no results...
+  if ((results["hits"].length == 0) || (content_divs.length == 0)) {
+    content_divs.push(Show.emptyResult(L.display));
   }
   // HACK: revert to results mode
   Query.env.clear();
