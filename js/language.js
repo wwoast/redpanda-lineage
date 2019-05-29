@@ -685,7 +685,7 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
-       "jp": ["笹"]
+       "jp": ["笹", "竹"]
   },
   "bear worm": {
        "cn": ["TOWRITE"],
