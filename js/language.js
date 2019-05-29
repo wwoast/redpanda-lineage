@@ -990,7 +990,7 @@ Language.L.tags = {
         "en": ["tongue"],
         "jp": ["べろ"]
   },
-  "toy": {
+  "toys": {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],

@@ -46,6 +46,19 @@ Query.values = function(input) {
   return results;
 }
 
+// Given a search tag, find the equivalent term for that tag that is standardized
+// on in the panda files, and return results for that tag. Searches all language
+// keywords for a tag.
+Query.searchTag = function(search_tag) {
+  for (var key of Object.keys(Language.L.tags)) {
+    let terms = Query.values(Language.L.tags[key]);
+    if (terms.indexOf(search_tag) != -1) {
+      return key;
+    } 
+  }
+}
+
+
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
@@ -268,7 +281,7 @@ Query.actions = {
   },
   // Tag expressions only result in photo results
   "tagTerm": function(_, capture) {
-    var tag = capture.trim();
+    var tag = Query.searchTag(capture.trim().toLowerCase());
     Query.env.output_mode = "photos";
     return {
       "query": tag,
