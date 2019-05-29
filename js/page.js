@@ -187,11 +187,11 @@ Page.profile.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  var profile_div = Show.profile.panda(results[0], L.display);
-  var where_divs = Show.profile.where(results[0], L.display);
-  var family_divs = Show.profile.family(results[0], L.display);
-  var children_divs = Show.profile.children(results[0], L.display);
-  var siblings_divs = Show.profile.siblings(results[0], L.display);
+  var profile_div = Show.profile.panda(results["hits"][0], L.display);
+  var where_divs = Show.profile.where(results["hits"][0], L.display);
+  var family_divs = Show.profile.family(results["hits"][0], L.display);
+  var children_divs = Show.profile.children(results["hits"][0], L.display);
+  var siblings_divs = Show.profile.siblings(results["hits"][0], L.display);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";

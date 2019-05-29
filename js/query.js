@@ -205,21 +205,31 @@ Query.rules = {
   "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
-  "tagExpression": [
+  "subjectTagExpression": [
+    ':subjectTerm>subjectTerm', ':space?', ':tagTerm>tagTerm'
+  ],
+  "subjectTypeExpression": [
+    ':subjectTerm>subjectTerm', ':space?', ':typeTerm>typeTerm'
+  ],
+  "tagSubjectExpression": [
     ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
-  "typeExpression": [
+  "typeSubjectExpression": [
     ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
   "zeroaryExpression": [
     ':zeroaryTerm>zeroaryTerm'
   ],
-  // This is the root rule that new reLexer() starts its processing at 
+  // This is the root rule that new reLexer() starts its processing at.
+  // TODO: make name regex not match a keyword, and turn on the inverted
+  // subject[]Expressions
   "expression": or(
     ':zeroaryExpression/1',
-    ':typeExpression/2',
-    ':tagExpression/3',
-    ':subjectTerm/4'
+    //':subjectTypeExpression/2',
+    ':typeSubjectExpression/3',
+    // ':subjectTagExpression/4',
+    ':tagSubjectExpression/5',
+    ':subjectTerm/6'
   )
 }
 /*
@@ -305,8 +315,14 @@ Query.actions = {
     };
   },
   /*** EXPRESSION ACTIONS ***/
+  "subjectTagExpression": function(_, captures) {
+    return Query.actions.tagSubjectExpression(_, captures);
+  },
+  "subjectTypeExpression": function(_, captures) {
+    return Query.actions.termSubjectExpression(_, captures);
+  },
   // Tag + Subject. Search for either a panda or a zoo.
-  "tagExpression": function(_, captures) {
+  "tagSubjectExpression": function(_, captures) {
     // Get the subject results for this one, and do the tag search
     // based on the results found here.
     var tag = captures.tagTerm.tag;
@@ -321,7 +337,7 @@ Query.actions = {
     }
   },
   // Type + Subject. Search for either a panda or a zoo.
-  "typeExpression": function(_, captures) {
+  "typeSubjectExpression": function(_, captures) {
     // Get the subject results for this one, select from the available
     // zoo/panda/credit results, and store that as the main "hits".
     var type = captures.typeTerm.type;
