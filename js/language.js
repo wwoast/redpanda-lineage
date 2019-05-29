@@ -763,7 +763,7 @@ Language.L.tags = {
        "en": ["eye", "eyes"],
        "jp": ["目"]
   },
-  "flower": {
+  "flowers": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],

@@ -984,7 +984,9 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
       var msg = document.createTextNode(emoji);
       p.appendChild(msg);
     } else if (field == "<INSERTTAG>") {
-      var msg = document.createTextNode(tag);
+      var msg = document.createElement('b');
+      var text = document.createTextNode(tag);
+      msg.appendChild(text);
       p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
