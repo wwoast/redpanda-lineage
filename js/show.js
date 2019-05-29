@@ -7,7 +7,7 @@ var Show = {};   /* Namespace */
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_ohoto;
+  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
   var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
@@ -1000,7 +1000,6 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
   message.className = "tagSummary";
   message.appendChild(shrinker);
   return message;
-
 }
 
 /*
