@@ -968,6 +968,38 @@ Show.message.profile_where = function(name, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.tag_subject = function(num, name, emoji, tag, language) {
+  var p = document.createElement('p');
+  for (var i in L.messages.tag_subject[language]) {
+    var field = L.messages.tag_subject[language][i];
+    if (field == "<INSERTNUM>") {
+      var msg = document.createTextNode(num);
+      p.appendChild(msg);
+    } else if (field == "<INSERTNAME>") {
+      var msg = document.createElement('i');
+      var text = document.createTextNode(name);
+      msg.appendChild(text);
+      p.appendChild(msg);
+    } else if (field == "<INSERTEMOJI>") {
+      var msg = document.createTextNode(emoji);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTAG>") {
+      var msg = document.createTextNode(tag);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
+  message.appendChild(shrinker);
+  return message;
+
+}
 
 /*
     Show functions used by the profile/media/timelines page for a single animal

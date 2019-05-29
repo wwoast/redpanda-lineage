@@ -372,9 +372,10 @@ Page.results.photos = function(results) {
       content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
     });
     // Write some HTML with summary information for the user and the number of photos
-    // TODO: different messages for tag photo results
-    // var header = Show.message.credit(results["tag"], content_divs.length, L.display);
-    // content_divs.unshift(header);
+    var header = Show.message.tag_subject(results["hits"].length, results["subject"],
+                                          Language.L.tags[results["tag"]]["emoji"], 
+                                          results["tag"], L.display);
+    content_divs.unshift(header);
   }
   // Term expression for a credit term, on panda/zoo results.
   else if ((results["parsed"] == "typeExpression") && (results["type"] == "credit")) {
@@ -388,7 +389,7 @@ Page.results.photos = function(results) {
     });
     // Write some HTML with summary information for the user and the number of photos
     var header = Show.message.credit(results["subject"], content_divs.length, L.display);
-    content_divs.unshift(header);      
+    content_divs.unshift(header);    
   }
   // HACK: revert to results mode
   Query.env.clear();

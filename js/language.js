@@ -646,6 +646,22 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "はどこに住んでいましたか？"]
   },
+  "tag_subject": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNUM>",
+           " ",
+           "<INSERTNAME>",
+           " photos tagged ",
+           "<INSERTEMOJI>",
+           " ",
+           "<INSERTTAG>"],
+    "jp": ["<INSERTNUM>",
+           "枚の",
+           "<INSERTNAME>",
+           "の",
+           "<INSERTEMOJI>",
+           "<INSERTTAG>"]
+  }
 }
 
 // TODO: fold into Language.L.gui
