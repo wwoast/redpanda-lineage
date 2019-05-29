@@ -227,10 +227,10 @@ Show.emptyLink = function(output_text) {
 
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
-Show.emptyResult = function(language) {
+Show.emptyResult = function(chosen_message=L.messages.no_result, language) {
   var message = document.createElement('div');
   message.className = 'overlay';
-  message.innerText = L.no_result[language];
+  message.innerText = chosen_message[language];
   var image = document.createElement('img');
   image.src = "images/no-panda.jpg";
   var result = document.createElement('div');

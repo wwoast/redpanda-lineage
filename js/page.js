@@ -345,7 +345,7 @@ Page.results.entities = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.display));
+    content_divs.push(Show.emptyResult(L.no_result, L.display));
   }
   results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -394,7 +394,7 @@ Page.results.photos = function(results) {
   }
   // Done. Now, if there's no results...
   if ((results["hits"].length == 0) || (content_divs.length == 0)) {
-    content_divs.push(Show.emptyResult(L.display));
+    content_divs.push(Show.emptyResult(L.messages.no_subject_tag_result, L.display));
   }
   // HACK: revert to results mode
   Query.env.clear();

@@ -432,6 +432,16 @@ Language.L.messages = {
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
+  "no_result": {
+    "cn": ["沒有發現熊貓"],
+    "en": ["No Pandas Found"],
+    "jp": ["パンダが見つかりません"]
+  },
+  "no_subject_tag_result": {
+    "cn": ["TOWRITE"],
+    "en": ["No Tagged Photos"],
+    "jp": ["このパンダのタグ付けされた写真はありません"]
+  },
   "profile_babies": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -662,13 +672,6 @@ Language.L.messages = {
            "<INSERTEMOJI>",
            "<INSERTTAG>"]
   }
-}
-
-// TODO: fold into Language.L.gui
-Language.L.no_result = {
-  "cn": "沒有發現熊貓",
-  "en": "No Pandas Found",
-  "jp": "パンダが見つかりません"
 }
 
 // Search tag translations for searching photos by metadata.
