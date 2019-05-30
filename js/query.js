@@ -14,23 +14,19 @@ Query.init = function() {
 
 Query.env = {};
 // Credit for photos being shown
-Query.env.credit = undefined;
 Query.env.preserve_case = false;
 // When displaying results, normally we just display zoos and pandas ("entities").
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
-Query.env.output = "entities";
+Query.env.output_mode = "entities";
 // If a URI indicates a specific photo, indicate which one here.
-Query.env.specific = undefined;
+Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run
 Query.env.clear = function() {
-  Query.env.credit = undefined;
   Query.env.preserve_case = false;
-  Query.env.output = "entities";
-  Query.env.specific = undefined;
+  Query.env.output_mode = "entities";
+  Query.env.specific_photo = undefined;
 }
-
-Query.regexp = {};
 
 // Get a list of valid operators (the children) of the Query.obj array
 // Return the result as a single-level array
@@ -49,6 +45,19 @@ Query.values = function(input) {
   }
   return results;
 }
+
+// Given a search tag, find the equivalent term for that tag that is standardized
+// on in the panda files, and return results for that tag. Searches all language
+// keywords for a tag.
+Query.searchTag = function(search_tag) {
+  for (var key of Object.keys(Language.L.tags)) {
+    let terms = Query.values(Language.L.tags[key]);
+    if (terms.indexOf(search_tag) != -1) {
+      return key;
+    } 
+  }
+}
+
 
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
@@ -126,11 +135,12 @@ Query.ops.group.binary = Query.values([
   Query.ops.family
 ])
 
+Query.regexp = {};
 // Escape any characters in the operations list that have meaning for regexes.
 // https://stackoverflow.com/questions/3446170/escape-string-for-use-in-javascript-regex
 Query.regexp.safe_input = function(input) {
   if (input instanceof Array) {
-    return input.map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
+    return input.filter(x => x != undefined).map(i => i.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));  // $& means the whole matched string
   } else {
     return input.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
@@ -175,36 +185,57 @@ Query.regexp.match_none = function(input) {
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
-  // Primitive components
-  "id": /\d{1,5}/,
   "space": /\s+/,
-  "name": /[^\s]+(\s+[^\s]+)?/,
-  // Operators, in various languages
-  "zeroary": Query.regexp.match_single(Query.ops.group.zeroary),
-  "type": Query.regexp.match_portion(Query.ops.group.types),
-  // Subjects, either an id number or a panda / zoo name
-  "subject": or(
-    ':id>id',
-    ':name>name'
+  /*** ATOMS ***/
+  "idAtom": /\d{1,5}/,
+  "nameAtom": /[^\s]+(\s+[^\s]+)*/,
+  "yearAtom": /19\d\d|2\d\d\d/,
+  "subjectTerm": or(
+    ":idAtom>idAtom",
+    ":nameAtom>nameAtom",
   ),
-  // Expression types
+  /*** TERMS ***/
+  // Terms include keywords, operators, and panda / zoo names.
+  // Subjects, either an id number or a panda / zoo name.
+  // Tags: match any of the tags in the language files
+  "tagTerm": Query.regexp.match_portion(Query.values(Language.L.tags)),
+  // Type: panda or zoo keywords
+  "typeTerm": Query.regexp.match_portion(Query.ops.group.types),
+  // Zeroary terms are operators that require no other keywords
+  "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
+  /*** EXPRESSIONS ***/
+  // A query string consists of expressions
+  "subjectTagExpression": [
+    ':subjectTerm>subjectTerm', ':space?', ':tagTerm>tagTerm'
+  ],
+  "subjectTypeExpression": [
+    ':subjectTerm>subjectTerm', ':space?', ':typeTerm>typeTerm'
+  ],
+  "tagSubjectExpression": [
+    ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
+  ],
+  "typeSubjectExpression": [
+    ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
+  ],
+  "typeYearExpression": [
+    ':typeTerm>typeTerm', ':space?', ':yearAtom>yearAtom'
+  ],
   "zeroaryExpression": [
-    ':zeroary>zeroary'
+    ':zeroaryTerm>zeroaryTerm'
   ],
-  "subjectExpression": [
-    ":subject>subject"
-  ],
-  "typeExpression": [
-    ':type>type', ':space?', ':subject>subject'
-  ],
-  // This is the root rule that new reLexer() starts its processing at 
+  // This is the root rule that new reLexer() starts its processing at.
+  // TODO: make name regex not match a keyword, and turn on the inverted
+  // subject[]Expressions
   "expression": or(
     ':zeroaryExpression/1',
-    ':typeExpression/2',
-    ':subjectExpression/3'
+    //':subjectTypeExpression/2',
+    ':typeYearExpression/3',
+    ':typeSubjectExpression/4',
+    // ':subjectTagExpression/5',
+    ':tagSubjectExpression/6',
+    ':subjectTerm/7'
   )
 }
-
 /*
     Actions are callbacks from the lexer matching. If an expression matches one of the
     expressions in the rules list, a sequence of these callbacks is run. The first regex that
@@ -223,109 +254,166 @@ Query.rules = {
      When any of the types shown in the regex list are seen, you get one of these callbacks,
      regardless of whether they're in the expression list or not! So you only want callbacks
      for full expression matches.
+
+     Term actions return a parser-dict which is used to build an array of expressions.
+     Expression actions return a resolution to the panda graph.
 */
 Query.actions = {
-  "type": function(env, capture) {
-    var type = capture.replace(" ", "");   // Support zeroary types
-    // Don't adjust case for author searches. Switch to "photo credit" output mode
-    if (Query.ops.type.credit.includes(type)) {
-      Query.env.preserve_case = true;
-      Query.env.output = "photos";
+  /*** ATOM ACTIONS ***/
+  // Guarantee that the id number is valid
+  "idAtom": function(_, capture) {
+    return Pandas.checkId(capture) ? capture : Pandas.def.animal[_id];
+  },
+  // For panda names, do locale-specific tweaks to make the search work
+  // as you'd expect (capitalization, etc). Can't base this on the current 
+  // page language, since we need to match latin partials against 
+  // capitalized dataset names!
+  "nameAtom": function(_, capture) {
+    return Language.capitalNames(capture);
+  },
+  // For years, default to the earliest year (1970) if it's some stupid number
+  "yearAtom": function(_, capture) {
+    return capture > Pandas.def.date.earliest_year ? capture : Pandas.def.date.earliest_year;
+  },
+  /*** TERM ACTIONS ***/
+  // Based on result counts, guess whether this is a panda or zoo, and then
+  // return results for either the panda or the zoo.
+  "subjectTerm": function(_, captures) {
+    [match_type, value] = captures;
+    // Possible result sets
+    var panda_results = Query.resolver.subject(value, "panda", L.display);
+    var zoo_results = Query.resolver.subject(value, "zoo", L.display);
+    var credit_results = Query.resolver.subject(value, "credit", L.display);
+    // By default, a bare subjectTerm search result should show the most
+    // available hits for either a zoo type or a panda type.
+    var most_hits = (panda_results.length >= zoo_results.length)
+                        ? panda_results : zoo_results;
+    return {
+      "query": value,
+      "parsed": "subjectTerm",
+      "hits": most_hits,
+      "credit_hits": credit_results,
+      "panda_hits": panda_results,
+      "zoo_hits": zoo_results
+    }
+  },
+  // Tag expressions only result in photo results
+  "tagTerm": function(_, capture) {
+    var tag = Query.searchTag(capture.trim().toLowerCase());
+    Query.env.output_mode = "photos";
+    return {
+      "query": tag,
+      "tag": tag
+    }
+  },
+  "typeTerm": function(_, capture) {
+    var type = capture.trim();
     // Normal searches. Just return pandas/zoos in a later subject search.
     // Re-capitalize to match names in the database.
-    } else {
-      Query.env.preserve_case = false;
-      Query.env.output = "entities";
+    Query.env.output_mode = "entities";
+    Query.env.preserve_case = false;
+    // Don't adjust case for author searches. Switch to "photo credit" output mode
+    if (Query.ops.type.credit.includes(type)) {
+      Query.env.output_mode = "photos";
+      Query.env.preserve_case = true;
     }
-    return type;
+    return {
+      "query": type,
+      "type": type
+    };
   },
-  "zeroary": function(env, capture) {
-    var keyword = capture;
-    return keyword;
+  /*** EXPRESSION ACTIONS ***/
+  "subjectTagExpression": function(_, captures) {
+    return Query.actions.tagSubjectExpression(_, captures);
   },
-  // Parse IDs if they are valid numbers, and names as if they have proper search 
-  // capitalization. Parsing here percolates down itno other expressions :)
-  "subject": function(env, captures) {
-    [match_type, value] = captures;
-    if (Query.env.output == "photos") {
-      // Search results must be post-processed for photo credit mode.
-      // Take the name we'll be filtering photos on.
-      Query.env.credit = value;
-      return value;   // Return the string value unmodified for searching
+  "subjectTypeExpression": function(_, captures) {
+    return Query.actions.termSubjectExpression(_, captures);
+  },
+  // Tag + Subject. Search for either a panda or a zoo.
+  "tagSubjectExpression": function(_, captures) {
+    // Get the subject results for this one, and do the tag search
+    // based on the results found here.
+    var tag = captures.tagTerm.tag;
+    var last_stage = captures.subjectTerm;
+    var animals = Pandas.searchPanda(last_stage.query);
+    return {
+      "hits": Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none"),
+      "query": tag + " " + last_stage.query,
+      "parsed": "tagExpression",
+      "subject": last_stage.query,
+      "tag": tag
     }
-    switch (match_type) {
-      case "id":
-        return Query.resolver.is_id(value) ? value : 0;
-      case "name":
-        return Query.resolver.name(value, L.display);
+  },
+  // Type + Subject. Search for either a panda or a zoo.
+  "typeSubjectExpression": function(_, captures) {
+    // Get the subject results for this one, select from the available
+    // zoo/panda/credit results, and store that as the main "hits".
+    var type = captures.typeTerm.type;
+    var results = captures.subjectTerm;
+    return {
+      "hits": results[type + "_hits"],
+      "query": type + " " + results.query,
+      "parsed": "typeExpression",
+      "subject": results.query,
+      "type": type
     }
   },
-  // Just a single-operator expression given
-  "zeroaryExpression": function(env, captures) {
-    return Query.resolver.singleton(captures.zeroary);
+  "typeYearExpression": function(_, captures) {
+    // Only works for specific type terms like born and died. Otherwise
+    // process similar to typeSubjectExpression
+    var type = captures.typeTerm.type;
+    var year = captures.yearAtom;
+    // Fallback to doing this like a panda ID search. If the other results
+    // option has more hits, return that instead.
+    var panda_results = Pandas.searchPanda(year);
+    var type_results = Query.resolver.subject(year, type, L.display);
+    var most_hits = (panda_results.length >= type_results.length)
+                        ? panda_results : type_results;
+    return {
+      "hits": most_hits,
+      "query": type + " " + year,
+      "parsed": "typeExpression",
+      "subject": year,
+      "type": type
+    }
   },
-  // No type given. Based on result counts, guess whether this is a panda or zoo
-  "subjectExpression": function(env, captures) {
-    var panda_results = Query.resolver.subject(captures.subject, "panda", L.display);
-    var zoo_results = Query.resolver.subject(captures.subject, "zoo", L.display);
-    return (panda_results.length >= zoo_results.length) ? panda_results : zoo_results;
-  },
-  // Type is given. Search for either a panda or a zoo.
-  "typeExpression": function(env, captures) {
-    var results = Query.resolver.subject(captures.subject, captures.type);
-    return results;
+  // Resolve the behavior of the zero-argument operator into results.
+  "zeroaryExpression": function(_, captures) {
+    return {
+      "hits": Query.resolver.singleton(captures.zeroaryTerm),
+      "parsed": "zeroaryExpression",
+      "query": captures.zeroaryTerm
+    }
   }
-},
+}
 /* 
     Resolvers are non-callback ways to validate data from a parse. They typically
     turn some string value into a node in the Pandas graph.
 */
 Query.resolver = {
-  // Is the input an id number or not?
-  "is_id": function(input) {
-    return (isFinite(input) && input != Pandas.def.animal['_id']);
-  },
-  // Assume this is a panda name. Do locale-specific tweaks to
-  // make the search work as you'd expect (capitalization, etc)
-  // Can't base this on the current page language, since we need
-  // to match latin partials against capitalized dataset names!
   "name": function(input) {
-    var output = [];
     var words = input.split(' ');
-    // Determine what the character set is for each word.
-    // Apply capitalization rules for Latin-character words
-    words.forEach(function(word) {
-      var ranges = Pandas.def.ranges['en'];
-      var latin = ranges.some(function(range) {
-        return range.test(word);
-      });
-      if ((latin == true) && (Query.env.preserve_case == false)) {
-        word = word.replace(/^\w/, function(chr) {
-          return chr.toUpperCase();
-        });
-        word = word.replace(/-./, function(chr) {
-          return chr.toUpperCase();
-        });
-        word = word.replace(/ ./, function(chr) {
-          return chr.toUpperCase();
-        });
-      }
-      // Return either the modified or unmodified word to the list
-      output.push(word);
-    });
-    return output.join(' ');   // Recombine terms with spaces
+    return Language.capitalNames(words);
+  },
+  // Process searches that are just single keywords, like "babies"
+  "singleton": function(keyword) {
+    if (Query.ops.type.baby.indexOf(keyword) != -1) {
+      return Pandas.searchBabies();
+    }
+    if (Query.ops.type.dead.indexOf(keyword) != -1) {
+      return Pandas.searchDead();
+    }
   },
   // Process a search term, either typed as panda/zoo, or untyped,
   // into a list of nodes in the Pandas/Zoos graph
   "subject": function(subject, type, language) {
-    type = type.replace(" ", "");   // End of word $ check may add space to type
     // Explicitly search for a panda by id
-    if ((Query.resolver.is_id(subject) == true) &&
+    if ((Pandas.checkId(subject) == true) &&
         (Query.ops.type.panda.indexOf(type) != -1)) {
       return Pandas.searchPandaId(subject);
     }
     // Explicitly search for a zoo by id
-    if ((Query.resolver.is_id(subject) == true) &&
+    if ((Pandas.checkId(subject) == true) &&
         (Query.ops.type.zoo.indexOf(type) != -1)) {
       return Pandas.searchZooId(subject);
     }
@@ -342,27 +430,18 @@ Query.resolver = {
       return Pandas.searchPhotoCredit(subject);
     }
     // Raw ids are assumed to be panda ids
-    if ((Query.resolver.is_id(subject) == true) &&
+    if ((Pandas.checkId(subject) == true) &&
         (type == undefined)) {
       return Pandas.searchPandaId(subject);    
     }
     // Otherwise search by name
     if (Query.ops.type.panda.indexOf(type) != -1) {
-      return Pandas.searchPandaName(Query.resolver.name(subject, language));
+      return Pandas.searchPandaName(subject);
     }
     if (Query.ops.type.zoo.indexOf(type) != -1) {
-      return Pandas.searchZooName(Query.resolver.name(subject, language));
+      return Pandas.searchZooName(subject);
     }
   },
-  // Process searches that are just single keywords, like "babies"
-  "singleton": function(keyword) {
-    if (Query.ops.type.baby.indexOf(keyword) != -1) {
-      return Pandas.searchBabies();
-    }
-    if (Query.ops.type.dead.indexOf(keyword) != -1) {
-      return Pandas.searchDead();
-    }
-  }
 }
 
 /*

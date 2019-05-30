@@ -7,7 +7,7 @@ var Show = {};   /* Namespace */
 // be displayed in an information card about the panda, including its zoo and
 // its relatives.
 Show.acquirePandaInfo = function(animal, language) {
-  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
   var picture = Pandas.profilePhoto(animal, chosen_index, "animal");   // TODO: all photos for carousel
   var bundle = {
             "age": Pandas.age(animal, language),
@@ -63,7 +63,7 @@ Show.acquireLocationList = function(animal, language) {
 // about the number of pandas (living) that are at the zoo
 Show.acquireZooInfo = function(zoo, language) {
   var animals = Pandas.searchPandaZooCurrent(zoo["_id"]);
-  var chosen_index = Query.env.specific == undefined ? "random" : Query.env.specific;
+  var chosen_index = Query.env.specific_photo == undefined ? "random" : Query.env.specific_photo;
   var picture = Pandas.profilePhoto(zoo, chosen_index, "zoo");   // TODO: all photos for carousel
   var recorded = Pandas.searchPandaZooBornLived(zoo["_id"]);
   var bundle = {
@@ -227,10 +227,10 @@ Show.emptyLink = function(output_text) {
 
 // If the panda search result returned nothing, output a card
 // with special "no results" formatting.
-Show.emptyResult = function(language) {
+Show.emptyResult = function(chosen_message=L.messages.no_result, language) {
   var message = document.createElement('div');
   message.className = 'overlay';
-  message.innerText = L.no_result[language];
+  message.innerText = chosen_message[language];
   var image = document.createElement('img');
   image.src = "images/no-panda.jpg";
   var result = document.createElement('div');
@@ -965,6 +965,47 @@ Show.message.profile_where = function(name, language) {
   shrinker.appendChild(p);
   var message = document.createElement('div');
   message.className = "profileSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.tag_subject = function(num, name, emoji, tag, language) {
+  // If there was an id as part of a tagExpression, rewrite this message
+  // using the panda's localized name instead.
+  if (Pandas.checkId(name) == true) {
+    name = Pandas.searchPandaId(name)[0][language + ".name"];
+  }
+  // For translating a tag between languages, we need the first value in
+  // the array of tags considered equivalent.
+  var near_tag = L.tags[tag][language][0];
+  var p = document.createElement('p');
+  for (var i in L.messages.tag_subject[language]) {
+    var field = L.messages.tag_subject[language][i];
+    if (field == "<INSERTNUM>") {
+      var msg = document.createTextNode(num);
+      p.appendChild(msg);
+    } else if (field == "<INSERTNAME>") {
+      var msg = document.createElement('i');
+      var text = document.createTextNode(name);
+      msg.appendChild(text);
+      p.appendChild(msg);
+    } else if (field == "<INSERTEMOJI>") {
+      var msg = document.createTextNode(emoji);
+      p.appendChild(msg);
+    } else if (field == "<INSERTTAG>") {
+      var msg = document.createElement('b');
+      var text = document.createTextNode(near_tag);
+      msg.appendChild(text);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
   message.appendChild(shrinker);
   return message;
 }
@@ -1760,8 +1801,7 @@ Show.searchBar.submit = function() {
   // JS actions for submiting a search
   Page.current = Page.results.render;
   document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
-  var query = (document.getElementById('searchInput').value).trim();
-  Query.lexer.parse(query);  // TODO: onhashchange, race for results?
+  var query = (document.getElementById('searchInput').value).replace(/\s+$/, '');
   window.location = "#query/" + query;
   // TODO: when submitting from the bottomMenu search bar, destroy it and move the
   // focus and query output to the top search bar.

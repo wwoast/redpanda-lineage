@@ -277,6 +277,11 @@ Pandas.def.zoo = {
 /*
     Utility functions and generators for doing panda processing
 */
+// Valid panda IDs are numeric and non-zero
+Pandas.checkId = function(input) {
+  return (isFinite(input) && input != Pandas.def.animal['_id']);
+}
+
 // Generates a valid index to a location for a panda entity, up to the
 // point that said entity doesn't have a defined historical location in its data
 Pandas.locationGeneratorEntity = function*(entity, index=0) {
@@ -426,6 +431,15 @@ Pandas.searchOthernames = function(name) {
   return nodes;
 }
 
+// Find a panda by either name or id
+Pandas.searchPanda = function(input_string) {
+  if (Pandas.checkId(input_string) == true) {
+    return Pandas.searchPandaId(input_string);
+  } else {
+    return Pandas.searchPandaName(input_string);
+  }
+}
+
 // Find a panda's children
 Pandas.searchPandaChildren = function(idnum) {
   var nodes = G.v(idnum).out("family").run();
@@ -476,6 +490,7 @@ Pandas.searchPandaName = function(name) {
 
 // Given a panda, search for photos tagged with any of a list of tags.
 // May return photo info only, or the entire animal
+// TOWRITE: usable for zoo entities too, fix
 Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
   var photo_fields = Pandas.photoGeneratorMax;
   var output = [];
@@ -488,6 +503,7 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       let photo_author = field_name + ".author";
       let photo_link = field_name + ".link";
       let photo_tags = field_name + ".tags";
+      let photo_index = field_name.split(".")[1];
       if (animal[photo_tags] == undefined) {
         continue;
       }
@@ -499,6 +515,7 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
             "id": animal["_id"],
             "photo": animal[field_name],
             "photo.author": animal[photo_author],
+            "photo.index": photo_index,
             "photo.link": animal[photo_link],
             "photo.tags": tags   // Not the original tags, but the ones searched for
           }
@@ -518,9 +535,10 @@ Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
       var empty_bundle = {
         "id": animal["_id"],
         "photo": Pandas.def.animal["photo.1"],
-        "photo.author": Pandas.def.unknown[language],
-        "photo.link": Pandas.def.unknown[language],
-        "photo.tags": Pandas.def.unknown[language]
+        "photo.author": Pandas.def.unknown[L.display],
+        "photo.index": Pandas.def.animal["_id"],
+        "photo.link": Pandas.def.unknown[L.display],
+        "photo.tags": Pandas.def.unknown[L.display]
       }
       output.push(empty_bundle);
     }
@@ -843,8 +861,9 @@ Pandas.gender = function(animal, language) {
                              : Pandas.def.gender[gender][language];
 }
 
-// Given an animal from a media/ file with tag info, generate a
-// string describing the contents of the photo.
+// Given an animal from a media/ file with tag info that indicates
+// pixel location in a photo, generate a string describing which
+// pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
   var pandaTags = entity[tag_index].replace(" ", "").split(",").filter(function(tag) {

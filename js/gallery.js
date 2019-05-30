@@ -338,6 +338,48 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Take a photo that matches a tag, and display it along with the tag emoji
+Gallery.tagPhotoCredits = function(result, language) {
+  var content_divs = [];
+  var animal = Pandas.searchPandaId(result.id)[0];
+  var info = Show.acquirePandaInfo(animal, language);
+  var photo = result["photo"];
+  var img_link = document.createElement('a');
+  // Link to the original instagram media
+  img_link.href = photo.replace("/media/?size=m", "");
+  img_link.target = "_blank";   // Open in new tab
+  var img = document.createElement('img');
+  img.src = photo.replace('/?size=m', '/?size=t');
+  img_link.appendChild(img);
+  var caption_link = document.createElement('a');
+  // TODO: better handling of group photos
+  if (animal._id.indexOf("media.") != 0) {
+    caption_link.href = "#panda/" + animal._id + "/photo/" + result["photo.index"];
+  }
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  // TODO: handling of names of group pandas
+  // TODO: support multiple tags
+  if (animal._id.indexOf("media.") == 0) {
+    caption.innerText = Pandas.groupMediaCaption(animal, item.index);
+  } else {
+    caption.innerText = info.name;
+  }
+  // Prefix caption with an emoji if we can get one
+  var tag_lookup = Language.L.tags[result["photo.tags"][0]];
+  if (tag_lookup != undefined) {
+    var emoji = tag_lookup["emoji"];
+    caption.innerText = emoji + "\xa0" + caption.innerText;
+  }
+  caption_link.appendChild(caption);
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img_link);
+  container.appendChild(caption_link);
+  content_divs.push(container);
+  return content_divs;
+}
+
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.

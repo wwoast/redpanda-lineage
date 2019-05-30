@@ -18,6 +18,46 @@ Language.init = function() {
 /*
    Language elements translatable in the GUI
 */
+// Character translation tables per language. Just hiragana/katakana
+Language.L.charset = {
+  "jp": {
+    "hiragana":
+      ["あ", "い", "う", "え", "お",
+       "か", "き", "く", "け", "こ",
+       "が", "ぎ", "ぐ", "げ", "ご",
+       "さ", "し", "す", "せ", "そ",
+       "ざ", "じ", "ず", "ぜ", "ぞ",
+       "た", "ち", "つ", "て", "と",
+       "だ", "ぢ", "づ", "で", "ど",
+       "な", "に", "ぬ", "ね", "の",
+       "は", "ひ", "ふ", "へ", "ほ",
+       "ば", "び", "ぶ", "べ", "ぼ",
+       "ぱ", "ぴ", "ぷ", "ぺ", "ぽ",
+       "ま", "み", "む", "め", "も",
+       "や",       "ゆ",       "よ",
+       "ら", "り", "る", "れ", "ろ",
+       "わ", "ゐ",		   "ゑ", "を",
+                   "ん"],
+    "katakana":
+      ["ア", "イ", "ウ", "エ", "オ",
+       "カ", "キ", "ク", "ケ", "コ",
+       "ガ", "ギ", "グ", "ゲ", "ゴ",
+       "サ", "シ", "ス", "セ", "ソ",
+       "ザ", "ジ", "ズ", "ゼ", "ゾ",
+       "タ", "チ", "ツ", "テ", "ト",
+       "ダ", "ヂ", "ヅ", "デ", "ド",
+       "ナ", "ニ", "ヌ", "ネ", "ノ",
+       "ハ", "ヒ", "フ", "ヘ", "ホ",
+       "バ", "ビ", "ブ", "ベ", "ボ",
+       "パ", "ピ", "プ", "ペ", "ポ",
+       "マ", "ミ", "ム", "メ", "モ",
+       "ヤ",		   "ユ",		  "ヨ",
+       "ラ", "リ", "ル", "レ", "ロ",
+       "ワ", "ヰ",       "ヱ", "ヲ",
+                   "ン"]
+  }
+}
+
 // Default parameters for entities that lack language information
 Language.L.default = {
   "order": ["en", "jp"]
@@ -72,6 +112,7 @@ Language.L.emoji = {
        "moon": "🌙",
      "mother": "👩🏻",
        "nerd": "🤓",
+   "no_emoji": "⚪",
     "no_more": "🚫",
        "nose": "👃",
       "panda": "🐼",
@@ -391,6 +432,16 @@ Language.L.messages = {
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
+  "no_result": {
+    "cn": ["沒有發現熊貓"],
+    "en": ["No Pandas Found"],
+    "jp": ["パンダが見つかりません"]
+  },
+  "no_subject_tag_result": {
+    "cn": ["TOWRITE"],
+    "en": ["No Tagged Photos"],
+    "jp": ["このパンダのタグ付けされた写真はありません"]
+  },
   "profile_babies": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -605,13 +656,22 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "はどこに住んでいましたか？"]
   },
-}
-
-// TODO: fold into Language.L.gui
-Language.L.no_result = {
-  "cn": "沒有發現熊貓",
-  "en": "No Pandas Found",
-  "jp": "パンダが見つかりません"
+  "tag_subject": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNUM>",
+           " ",
+           "<INSERTNAME>",
+           " photos tagged ",
+           "<INSERTEMOJI>",
+           " ",
+           "<INSERTTAG>"],
+    "jp": ["<INSERTNUM>",
+           "枚の",
+           "<INSERTNAME>",
+           "の",
+           "<INSERTEMOJI>",
+           "<INSERTTAG>"]
+  }
 }
 
 // Search tag translations for searching photos by metadata.
@@ -644,7 +704,7 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
-       "jp": ["笹"]
+       "jp": ["笹", "竹"]
   },
   "bear worm": {
        "cn": ["TOWRITE"],
@@ -666,13 +726,13 @@ Language.L.tags = {
   },
   "carry": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["carry", "holding"],
        "jp": ["運ぶ"]
   },
   "climb": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["climb", "climbing"],
        "jp": ["登る"]
   },
@@ -684,7 +744,7 @@ Language.L.tags = {
   },
   "dig": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["dig", "digging", "digs"],
        "jp": ["穴掘り"]
   },
@@ -706,7 +766,7 @@ Language.L.tags = {
        "en": ["eye", "eyes"],
        "jp": ["目"]
   },
-  "flower": {
+  "flowers": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],
@@ -714,7 +774,7 @@ Language.L.tags = {
   },
   "grooming": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["groom", "grooming", "cleaning"],
        "jp": ["毛づくろい"]
   },
@@ -726,7 +786,7 @@ Language.L.tags = {
   },
   "hammock": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["hammock"],
        "jp": ["ハンモック"]
   },
@@ -744,7 +804,7 @@ Language.L.tags = {
   },
   "itchy": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["itchy", "scratchy"],
        "jp": ["かゆい"]
   },
@@ -756,13 +816,13 @@ Language.L.tags = {
   },
   "keeper": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["keeper", "zookeeper"],
        "jp": ["飼育員"]
   },
   "laying down": {
        "cn": ["TOWRITE"],
-    "emoji": [""],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["lay down", "laying down"],
        "jp": ["寝そべっている"]
   },
@@ -781,19 +841,19 @@ Language.L.tags = {
   },
   "lunch time": {
        "cn": ["TOWRITE"],
-    "emoji": [],
+    "emoji": [Language.L.emoji.no_emoji],
        "en": ["lunch time", "lunch"],
        "jp": ["ランチの時間"]
   },
   "mofumofu": {
         "cn": ["TOWRITE"],
-     "emoji": [],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["mofumofu"],
         "jp": ["モフモフ"]
   },
   "muzzle": {
         "cn": ["TOWRITE"],
-     "emoji": [],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["muzzle", "snout"],
         "jp": ["マズル"]
   },
@@ -873,7 +933,7 @@ Language.L.tags = {
   },
   "shake": {
         "cn": ["TOWRITE"],
-     "emoji": [],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["shake", "shaking"],
         "jp": ["ゆらゆら"]
   },
@@ -915,13 +975,13 @@ Language.L.tags = {
   },
   "standing": {
         "cn": ["TOWRITE"],
-     "emoji": [],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
         "jp": ["立っている"]
   },
   "stretching": {
         "cn": ["TOWRITE"],
-     "emoji": [],
+     "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
         "jp": ["ストレッチしている"]
   },
@@ -949,7 +1009,7 @@ Language.L.tags = {
         "en": ["tongue"],
         "jp": ["べろ"]
   },
-  "toy": {
+  "toys": {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
@@ -1130,6 +1190,38 @@ Language.L.update = function() {
 /*
     Language helper and utility functions
 */
+// For names stored in Roman characters, they often start with a capital letter.
+// So input queries not capitalized need to be corrected for searching.
+Language.capitalNames = function(input) {
+  var words = [];
+  var output = [];
+  if (input.indexOf(' ') != -1) {
+    words = input.split(' ');
+  } else {
+    words.push(input);
+  }
+  words.forEach(function(word) {
+    var ranges = Pandas.def.ranges['en'];
+    var latin = ranges.some(function(range) {
+      return range.test(word);
+    });
+    if ((latin == true) && (Query.env.preserve_case == false)) {
+      word = word.replace(/^\w/, function(chr) {
+        return chr.toUpperCase();
+      });
+      word = word.replace(/-./, function(chr) {
+        return chr.toUpperCase();
+      });
+      word = word.replace(/ ./, function(chr) {
+        return chr.toUpperCase();
+      });
+    }
+    // Return either the modified or unmodified word to the list
+    output.push(word);
+  });
+  return output.join(' ');   // Recombine terms with spaces
+}
+
 // Calculate the current fallback language order for a given info block or entity.
 // Key here is adding the current display language to the list, so that if a dataset
 // doesn't include info for a language, we can overwrite that info anyways!

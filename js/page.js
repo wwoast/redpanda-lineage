@@ -187,12 +187,11 @@ Page.profile.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  results = results instanceof Array ? results : [results];   // Guarantee array
-  var profile_div = Show.profile.panda(results[0], L.display);
-  var where_divs = Show.profile.where(results[0], L.display);
-  var family_divs = Show.profile.family(results[0], L.display);
-  var children_divs = Show.profile.children(results[0], L.display);
-  var siblings_divs = Show.profile.siblings(results[0], L.display);
+  var profile_div = Show.profile.panda(results["hits"][0], L.display);
+  var where_divs = Show.profile.where(results["hits"][0], L.display);
+  var family_divs = Show.profile.family(results["hits"][0], L.display);
+  var children_divs = Show.profile.children(results["hits"][0], L.display);
+  var siblings_divs = Show.profile.siblings(results["hits"][0], L.display);
   // Generate new content frames
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
@@ -224,61 +223,59 @@ Page.routes = {};
 Page.routes.behavior = function(input) {
   // Each hashlink determines a different behavior for the page rendering.
   // Do a task based on what the route is.
+  // TODO: add tag search URIs
+  var query_string = undefined;
   if (input.indexOf("#credit/") == 0) {
     // link for a page of photo credits for a specific author
-    Query.env.credit = input.slice(8);
-    Query.env.preserve_case = true;   // Don't adjust case for author searches
-    Query.env.output = "photos";      // Set output mode for a photo list
-    return Query.resolver.subject(Query.env.credit, "credit", L.display);
+    var photo_author = input.slice(8);
+    Query.env.preserve_case = true;     // Don't adjust case for author searches
+    Query.env.output_mode = "photos";   // Set output mode for a photo list
+    query_string = "credit" + " " + photo_author;
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(7);
     var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.specific = photo_id;
-    return Query.resolver.subject(panda, "panda", L.display);    
+    Query.env.specific_photo = photo_id;
+    query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single panda result. TODO: maybe do a detailed page
     var panda = input.slice(7);
-    return Query.resolver.subject(panda, "panda", L.display);
+    query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda profile result with a chosen photo.
     var uri_items = input.slice(9);
     var [ panda, _, photo_id ] = uri_items.split("/");
-    Query.env.specific = photo_id;
-    return Query.resolver.subject(panda, "panda", L.display);    
+    Query.env.specific_photo = photo_id;
+    query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single panda profile result.
     var panda = input.slice(9);
-    return Query.resolver.subject(panda, "panda", L.display);
+    query_string = "panda" + " " + panda;
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
-    var terms = input.slice(7);
-    var results = Query.lexer.parse(terms);
-    return (results == undefined) ? [] : results;
-  } else if (input.indexOf("#timeline/") == 0) {
-    // show full info and timeline for a panda. TODO
-    var panda = input.slice(10);
-    return Query.resolver.subject(panda, "panda", L.display);
+    query_string = input.slice(7);    
   } else if ((input.indexOf("#zoo/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(5);
     var [ zoo, _, zoo_id ] = uri_items.split("/");
-    Query.env.specific = zoo_id;
-    return Query.resolver.subject(zoo, "zoo", L.display);    
+    Query.env.specific_photo = zoo_id;
+    query_string = "zoo" + " " + zoo;
   } else if ((input.indexOf("#zoo/") == 0) &&
              (input.split("/").length == 2)) {
     // link for a single zoo result.
     var zoo = input.slice(5);
-    return Query.resolver.subject(zoo, "zoo", L.display);
+    query_string = "zoo" + " " + zoo;
   } else {
     // Don't know how to process the hashlink, so do nothing
     return false;
   }
+  // Run the query through the parser and return results
+  return Query.lexer.parse(query_string);
 }
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
@@ -343,10 +340,14 @@ Page.routes.memberOf = function(routeList, current_route) {
     other results rendering modes, and we'll likely add many more as time goes on.
 */
 Page.results = {};
+// Given a search for pandas or zoos, output entity divs
 Page.results.entities = function(results) {
-  // Given a search for pandas and zoos, output entity divs
   var content_divs = [];
-  results.forEach(function(entity) {
+  if (results["hits"].length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.emptyResult(L.no_result, L.display));
+  }
+  results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
       // Zoos get the Zoo div and pandas for this zoo
       content_divs.push(Show.results.zoo(entity, L.display));
@@ -358,26 +359,43 @@ Page.results.entities = function(results) {
       content_divs.push(Show.results.panda(entity, L.display, undefined));
     }
   });
-  if (results.length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.display));
-  }
   return content_divs;
 }
 Page.results.photos = function(results) {
   var content_divs = [];
-  // Pandas and zoos have multiple photos, and 
-  // you'll need to filter on the credited photo
-  results.forEach(function(entity) {
-    if (entity["_id"] < 0) {
-      content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, Query.env.credit, L.display));
-    } else {
-      content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, Query.env.credit, L.display));
+  // Photo results have a slightly different structure from panda/zoo results
+  if (results["parsed"] == "tagExpression") {
+    results["hits"].forEach(function(photo) {
+      if (photo["photo.index"] != "0") {   // Null photo result
+        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+      }
+    });
+    // Write some HTML with summary information for the user and the number of photos
+    if (content_divs.length != 0) {
+      var header = Show.message.tag_subject(results["hits"].length, results["subject"],
+                                            Language.L.tags[results["tag"]]["emoji"], 
+                                            results["tag"], L.display);
+      content_divs.unshift(header);
     }
-  });
-  // Write some HTML with summary information for the user and the number of photos
-  var header = Show.message.credit(Query.env.credit, content_divs.length, L.display);
-  content_divs.unshift(header);
+  }
+  // Term expression for a credit term, on panda/zoo results.
+  else if ((results["parsed"] == "typeExpression") && (results["type"] == "credit")) {
+    results["hits"].forEach(function(entity) {
+      // Zoo ids are negative numbers. Display zoo search result page
+      if (entity["_id"] < 0) {
+        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], L.display));
+      } else {
+        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], L.display));
+      }
+    });
+    // Write some HTML with summary information for the user and the number of photos
+    var header = Show.message.credit(results["subject"], content_divs.length, L.display);
+    content_divs.unshift(header);    
+  }
+  // Done. Now, if there's no results...
+  if ((results["hits"].length == 0) || (content_divs.length == 0)) {
+    content_divs.push(Show.emptyResult(L.messages.no_subject_tag_result, L.display));
+  }
   // HACK: revert to results mode
   Query.env.clear();
   return content_divs;
@@ -387,11 +405,10 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  results = results instanceof Array ? results : [results];   // Guarantee array
   var content_divs = [];
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
-  switch(Query.env.output) {
+  switch(Query.env.output_mode) {
     case "entities":
       content_divs = Page.results.entities(results);
       break;

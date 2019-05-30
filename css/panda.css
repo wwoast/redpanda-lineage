@@ -921,11 +921,11 @@ ul.linkList.multiColumn {
     column-count: 2;
 }
 
-div.creditSummary, div.profileSummary {
+div.creditSummary, div.profileSummary, div.tagSummary {
     text-align: center;
 }
 
-div.creditSummary p, div.profileSummary p {
+div.creditSummary p, div.profileSummary p, div.tagSummary p {
     display: inline-block;
     background-color: #9771A7; /* Grapes */
     border: 1px solid #002200;
