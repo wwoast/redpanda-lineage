@@ -714,19 +714,6 @@ Show.button.search.render = function(class_name="profile") {
   search.addEventListener("click", Show.button.search.action);
   return search;
 }
-Show.button.timeline = {};
-// Work in progress button, doesn't do anything yet
-Show.button.timeline.render = function(class_name="profile") {
-  var timeline = Show.button.render("timelineButton", L.emoji.wip, L.gui.timeline[L.display], class_name);
-  // Japanese text is too wide
-  var text = timeline.childNodes[0].childNodes[1];
-  if (L.display == "jp") {
-    text.classList.add("condensed");
-  } else {
-    text.classList.remove("condensed");
-  }
-  return timeline;
-}
 Show.button.top = {};
 Show.button.top.action = function() {
   // anchor tags get used for JS redraws, so don't use an anchor tag for
@@ -737,6 +724,19 @@ Show.button.top.render = function(class_name="results") {
   var top = Show.button.render("topButton", L.emoji.top, L.gui.top[L.display], class_name);
   top.addEventListener("click", Show.button.top.action);
   return top;
+}
+Show.button.tree = {};
+// Work in progress button, doesn't do anything yet
+Show.button.tree.render = function(class_name="profile") {
+  var tree = Show.button.render("treeButton", L.emoji.wip, L.gui.family[L.display], class_name);
+  // Japanese text is too wide
+  var text = tree.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
+  return tree;
 }
 
 /*
@@ -1213,7 +1213,7 @@ Show.profile.menus.top = function() {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'timelineButton'];
+Show.profile.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'treeButton'];
 Show.profile.nameBar = function(info) {
   // Replace the search bar with something that displays the animal's name and gender
   var gender = Show.gender(info, "profile");

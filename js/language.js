@@ -135,7 +135,6 @@ Language.L.emoji = {
       "story": "🎍",
      "target": "🎯",
         "top": "⬆",
-   "timeline": "📰",
      "tongue": "👅",
     "tornado": "🌪️",
      "travel": "✈️",
@@ -210,6 +209,11 @@ Language.L.gui = {
     "cn": "TOWRITE",   // Convenience duplicate of autumn
     "en": "Autumn",
     "jp": "TOWRITE"
+  },
+  "family": {
+    "cn": "TOWRITE",
+    "en": "Family",
+    "jp": "ファミリ"
   },
   "father": {
     "cn": "父親",
@@ -364,11 +368,6 @@ Language.L.gui = {
     "en": "Summer",
     "jp": "TOWRITE"
   },
-  "timeline": {
-    "cn": "TOWRITE",
-    "en": "Timeline",
-    "jp": "タイムライン"
-  },
   "title": {
     "cn": "TOWRITE",
     "en": "Red Panda Finder",
@@ -378,6 +377,11 @@ Language.L.gui = {
     "cn": "頂",
     "en": "Top",
     "jp": "上"
+  },
+  "tree": {
+    "cn": "TOWRITE",
+    "en": "Tree",
+    "jp": "木"
   },
   "twin": {
     "cn": "雙生",
