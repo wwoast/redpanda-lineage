@@ -17,7 +17,7 @@ location.2: 57, 2018/3/1
 photo.1: https://www.instagram.com/p/BkKYOcgF44u/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: profile, smile, tongue
+photo.1.tags: portrait, profile, smile, tongue
 photo.2: https://www.instagram.com/p/BiWcHW1F0m4/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
@@ -111,5 +111,9 @@ photo.26: https://www.instagram.com/p/BxiqMK6FB72/media/?size=m
 photo.26.author: miis_98
 photo.26.link: https://www.instagram.com/miis_98/
 photo.26.tags: apple time
+photo.27: https://www.instagram.com/p/Bx1Pf5tlDKo/media/?size=m
+photo.27.author: miis_98
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: portrait, smile
 species: 2
 zoo: 57
