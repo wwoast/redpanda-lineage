@@ -969,6 +969,11 @@ Show.message.profile_where = function(name, language) {
   return message;
 }
 Show.message.tag_subject = function(num, name, emoji, tag, language) {
+  // If there was an id as part of a tagExpression, rewrite this message
+  // using the panda's localized name instead.
+  if (Pandas.checkId(name) == true) {
+    name = Pandas.searchPandaId(name)[0][language + ".name"];
+  }
   var p = document.createElement('p');
   for (var i in L.messages.tag_subject[language]) {
     var field = L.messages.tag_subject[language][i];
