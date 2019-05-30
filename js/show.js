@@ -974,6 +974,9 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
   if (Pandas.checkId(name) == true) {
     name = Pandas.searchPandaId(name)[0][language + ".name"];
   }
+  // For translating a tag between languages, we need the first value in
+  // the array of tags considered equivalent.
+  var near_tag = L.tags[tag][language][0];
   var p = document.createElement('p');
   for (var i in L.messages.tag_subject[language]) {
     var field = L.messages.tag_subject[language][i];
@@ -990,7 +993,7 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
       p.appendChild(msg);
     } else if (field == "<INSERTTAG>") {
       var msg = document.createElement('b');
-      var text = document.createTextNode(tag);
+      var text = document.createTextNode(near_tag);
       msg.appendChild(text);
       p.appendChild(msg);
     } else {
