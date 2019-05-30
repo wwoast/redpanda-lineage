@@ -189,7 +189,7 @@ Query.rules = {
   /*** ATOMS ***/
   "idAtom": /\d{1,5}/,
   "nameAtom": /[^\s]+(\s+[^\s]+)*/,
-  "yearAtom": /\d{4}/,
+  "yearAtom": /19\d\d|2\d\d\d/,
   "subjectTerm": or(
     ":idAtom>idAtom",
     ":nameAtom>nameAtom",
@@ -217,6 +217,9 @@ Query.rules = {
   "typeSubjectExpression": [
     ':typeTerm>typeTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
+  "typeYearExpression": [
+    ':typeTerm>typeTerm', ':space?', ':yearAtom>yearAtom'
+  ],
   "zeroaryExpression": [
     ':zeroaryTerm>zeroaryTerm'
   ],
@@ -226,10 +229,11 @@ Query.rules = {
   "expression": or(
     ':zeroaryExpression/1',
     //':subjectTypeExpression/2',
-    ':typeSubjectExpression/3',
-    // ':subjectTagExpression/4',
-    ':tagSubjectExpression/5',
-    ':subjectTerm/6'
+    ':typeYearExpression/3',
+    ':typeSubjectExpression/4',
+    // ':subjectTagExpression/5',
+    ':tagSubjectExpression/6',
+    ':subjectTerm/7'
   )
 }
 /*
@@ -266,6 +270,10 @@ Query.actions = {
   // capitalized dataset names!
   "nameAtom": function(_, capture) {
     return Language.capitalNames(capture);
+  },
+  // For years, default to the earliest year (1970) if it's some stupid number
+  "yearAtom": function(_, capture) {
+    return capture > Pandas.def.date.earliest_year ? capture : Pandas.def.date.earliest_year;
   },
   /*** TERM ACTIONS ***/
   // Based on result counts, guess whether this is a panda or zoo, and then
@@ -347,6 +355,25 @@ Query.actions = {
       "query": type + " " + results.query,
       "parsed": "typeExpression",
       "subject": results.query,
+      "type": type
+    }
+  },
+  "typeYearExpression": function(_, captures) {
+    // Only works for specific type terms like born and died. Otherwise
+    // process similar to typeSubjectExpression
+    var type = captures.typeTerm.type;
+    var year = captures.yearAtom;
+    // Fallback to doing this like a panda ID search. If the other results
+    // option has more hits, return that instead.
+    var panda_results = Pandas.searchPanda(year);
+    var type_results = Query.resolver.subject(year, type, L.display);
+    var most_hits = (panda_results.length >= type_results.length)
+                        ? panda_results : type_results;
+    return {
+      "hits": most_hits,
+      "query": type + " " + year,
+      "parsed": "typeExpression",
+      "subject": year,
       "type": type
     }
   },
