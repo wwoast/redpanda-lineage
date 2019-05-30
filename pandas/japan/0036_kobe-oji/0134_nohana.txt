@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.oldnames: ノリン
 jp.othernames: ノハナ
 language.order: jp, en
+location.1: 41, 2017/7/31
+location.2: 36, 2019/5/22
 litter: none
 photo.1: https://www.instagram.com/p/BkOY-78lxGI/media/?size=m
 photo.1.author: yossi929
@@ -221,4 +223,4 @@ photo.55.author: yossi929
 photo.55.link: https://www.instagram.com/yossi929/
 photo.55.tags: smile
 species: 2
-zoo: 41
+zoo: 36
