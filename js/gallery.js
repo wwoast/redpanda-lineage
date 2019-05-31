@@ -486,81 +486,65 @@ Gallery.special.mothersday.photos = [
     }
   },
   {
-    "photo.9": ["media.9.hanabi-miyabi", "photo.1"],
+    "photo.9": ["media.41.nohana-nokaze", "photo.1"],
     "photo.9.format": "medium",
     "photo.9.message": {
-      "en": "Miyabi & Hanabi " + Language.L.emoji.mother,
-      "jp": "ミヤビ, ハナビ" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.10": ["media.18.chihiro-kokoro", "photo.1"],
-    "photo.10.format": "medium",
-    "photo.10.message": {
-      "en": "Kokoro & Chihiro " + Language.L.emoji.mother,
-      "jp": "ココロ, チヒロ" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.11": ["media.41.nohana-nokaze", "photo.1"],
-    "photo.11.format": "medium",
-    "photo.11.message": {
       "en": "Nokaze " + Language.L.emoji.mother + " & Nohana",
       "jp": "野風" + Language.L.emoji.mother + ", 野花"
     }
   },
   {
-    "photo.12": ["media.50.karin-luca", "photo.1"],
-    "photo.12.format": "medium",
-    "photo.12.message": {
+    "photo.10": ["media.50.karin-luca", "photo.1"],
+    "photo.10.format": "medium",
+    "photo.10.message": {
       "en": "Luca & Karin " + Language.L.emoji.mother,
       "jp": "ルカ, カリン" + Language.L.emoji.mother
     }
   },
   {
-    "photo.13": ["media.17.rifa-taofa", "photo.1"],
-    "photo.13.format": "large",
-    "photo.13.message": {
+    "photo.11": ["media.17.rifa-taofa", "photo.1"],
+    "photo.11.format": "large",
+    "photo.11.message": {
       "en": "Rifa & Taofa " + Language.L.emoji.mother,
       "jp": "李花, タオファ" + Language.L.emoji.mother
     }
   },
   {
-    "photo.14": ["media.7.gin-marumi", "photo.5"],
-    "photo.14.format": "medium",
-    "photo.14.message": {
+    "photo.12": ["media.7.gin-marumi", "photo.5"],
+    "photo.12.format": "medium",
+    "photo.12.message": {
       "en": "Gin " + Language.L.emoji.mother + " & Marumi",
       "jp": "ギン" + Language.L.emoji.mother + ", 円実"
     }
   },
   {
-    "photo.15": ["media.7.gin-marumi", "photo.6"],
-    "photo.15.format": "medium",
-    "photo.15.message": {
+    "photo.13": ["media.7.gin-marumi", "photo.6"],
+    "photo.13.format": "medium",
+    "photo.13.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
       "jp": "円実, ギン" + Language.L.emoji.mother
     }
   },
   {
-    "photo.16": ["media.1.cocoa-milk-yuufa", "photo.1"],
-    "photo.16.format": "medium",
-    "photo.16.message": {
+    "photo.14": ["media.1.cocoa-milk-yuufa", "photo.1"],
+    "photo.14.format": "medium",
+    "photo.14.message": {
       "en": "Yuufa " + Language.L.emoji.mother + " & Milk & Cocoa",
       "jp": "優花" + Language.L.emoji.mother + ", ミルク, ココア"
     },
   },
   {
-    "photo.17": ["media.1.himawari-yuufa", "photo.1"],
-    "photo.17.format": "medium",
-    "photo.17.message": {
+    "photo.15": ["media.1.himawari-yuufa", "photo.1"],
+    "photo.15.format": "medium",
+    "photo.15.message": {
       "en": "Himawari & Yuufa " + Language.L.emoji.mother,
       "jp": "ひまわり, 優花" + Language.L.emoji.mother
     }
   },
   {
-    "photo.18": ["media.7.gin-marumi", "photo.7"],
-    "photo.18.format": "large",
-    "photo.18.message": {
+    "photo.16": ["media.7.gin-marumi", "photo.7"],
+    "photo.16.format": "large",
+    "photo.16.message": {
       "en": "Marumi & Gin " + Language.L.emoji.mother,
       "jp": "円実, ギン"+ Language.L.emoji.mother
     }
