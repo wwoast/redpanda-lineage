@@ -13,7 +13,6 @@ language.order: jp, en
 litter: 352
 location.1: 10, 1997/6/18
 location.2: 74, 1999/4/21
-phoot.8.link: https://www.instagram.com/ifumoto88/
 photo.1: https://www.instagram.com/p/BpZYmR_FhXG/media/?size=m
 photo.1.author: masa_polarbear
 photo.1.link: https://www.instagram.com/masa_polarbear/
@@ -30,20 +29,17 @@ photo.4: https://www.instagram.com/p/BnkF9SdFunD/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
 photo.4.tags: old, profile, sleeping
-photo.5: https://www.instagram.com/p/BsXO5p5l50g/media/?size=m
-photo.5.author: l_ma_photos
-photo.5.link: https://www.instagram.com/l_ma_photos/
-photo.5.tags: old, sleeping
-photo.6: https://www.instagram.com/p/BuJJyjHlOlc/media/?size=m
-photo.6.author: yuka0714_0307
-photo.6.link: https://www.instagram.com/yuka0714_0307/
-photo.6.tags: apple time, dish, lunch time, old, smile
-photo.7: https://www.instagram.com/p/BwTMXn9lGhA/media/?size=m
+photo.5: https://www.instagram.com/p/BuJJyjHlOlc/media/?size=m
+photo.5.author: yuka0714_0307
+photo.5.link: https://www.instagram.com/yuka0714_0307/
+photo.5.tags: apple time, dish, lunch time, old, smile
+photo.6: https://www.instagram.com/p/BwTMXn9lGhA/media/?size=m
+photo.6.author: ifumoto88
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: old
+photo.7: https://www.instagram.com/p/BwUBkqMFBXt/media/?size=m
 photo.7.author: ifumoto88
 photo.7.link: https://www.instagram.com/ifumoto88/
-photo.7.tags: old
-photo.8: https://www.instagram.com/p/BwUBkqMFBXt/media/?size=m
-photo.8.author: ifumoto88
-photo.8.tags: dish, lunch time, tongue
+photo.7.tags: dish, lunch time, tongue
 species: 2
 zoo: 74

@@ -41,24 +41,21 @@ photo.6.tags: paws, standing
 photo.7: https://www.instagram.com/p/BpniphflAP0/media/?size=m
 photo.7.author: fetorus_mami
 photo.7.link: https://www.instagram.com/fetorus_mami/
-photo.8: https://www.instagram.com/p/BUjhV0NDhmd/media/?size=m
-photo.8.author: l_ma_photos
-photo.8.link: https://www.instagram.com/l_ma_photos/
-photo.9: https://www.instagram.com/p/BuHnbZelrAE/media/?size=m
+photo.8: https://www.instagram.com/p/BuHnbZelrAE/media/?size=m
+photo.8.author: codenameodk
+photo.8.link: https://www.instagram.com/codenameodk/
+photo.8.tags: smile
+photo.9: https://www.instagram.com/p/Bua6oKjFrI3/media/?size=m
 photo.9.author: codenameodk
 photo.9.link: https://www.instagram.com/codenameodk/
-photo.9.tags: smile
-photo.10: https://www.instagram.com/p/Bua6oKjFrI3/media/?size=m
+photo.9.tags: bamboo
+photo.10: https://www.instagram.com/p/BwK56lZlEa1/media/?size=m
 photo.10.author: codenameodk
 photo.10.link: https://www.instagram.com/codenameodk/
-photo.10.tags: bamboo
-photo.11: https://www.instagram.com/p/BwK56lZlEa1/media/?size=m
+photo.10.tags: bamboo, snow
+photo.11: https://www.instagram.com/p/BxxDpdJFgpC/media/?size=m
 photo.11.author: codenameodk
 photo.11.link: https://www.instagram.com/codenameodk/
-photo.11.tags: bamboo, snow
-photo.12: https://www.instagram.com/p/BxxDpdJFgpC/media/?size=m
-photo.12.author: codenameodk
-photo.12.link: https://www.instagram.com/codenameodk/
-photo.12.tags: apple time, snow
+photo.11.tags: apple time, snow
 species: 2
 zoo: 34
