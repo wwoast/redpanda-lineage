@@ -56,21 +56,17 @@ photo.10.tags: apple time
 photo.11: https://www.instagram.com/p/BbodCOFlMFU/media/?size=m
 photo.11.author: hanamaru_redpanda
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.12: https://www.instagram.com/p/BuNciYulmf4/media/?size=m
-photo.12.author: yuka0714_0307
-photo.12.link: https://www.instagram.com/yuka0714_0307/
-photo.12.tags: bamboo, smile
-photo.13: https://www.instagram.com/p/Bu0-z82l3oC/media/?size=m
-photo.13.author: perie1027vivi
-photo.13.link: https://www.instagram.com/perie1027vivi/
-photo.13.tags: smile, standing
-photo.14: https://www.instagram.com/p/BvrAFQrl-Zp/media/?size=m
+photo.12: https://www.instagram.com/p/Bu0-z82l3oC/media/?size=m
+photo.12.author: perie1027vivi
+photo.12.link: https://www.instagram.com/perie1027vivi/
+photo.12.tags: smile, standing
+photo.13: https://www.instagram.com/p/BvrAFQrl-Zp/media/?size=m
+photo.13.author: daniele.tokyo
+photo.13.link: https://www.instagram.com/daniele.tokyo/
+photo.13.tags: paws, smile, standing
+photo.14: https://www.instagram.com/p/Bvd90NCFqg1/media/?size=m
 photo.14.author: daniele.tokyo
 photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: paws, smile, standing
-photo.15: https://www.instagram.com/p/Bvd90NCFqg1/media/?size=m
-photo.15.author: daniele.tokyo
-photo.15.link: https://www.instagram.com/daniele.tokyo/
-photo.15.tags: smile
+photo.14.tags: smile
 species: 2
 zoo: 18
