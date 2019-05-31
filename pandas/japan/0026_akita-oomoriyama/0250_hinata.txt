@@ -15,11 +15,11 @@ litter: 251
 photo.1: https://www.instagram.com/p/BprO40Xlkug/media/?size=m
 photo.1.author: mifko55
 photo.1.link: https://www.instagram.com/mifko55/
-photo.1.tags: baby, dish, profile, tongue
+photo.1.tags: baby, dish, portrait, tongue
 photo.2: https://www.instagram.com/p/Bpb7bcwFa7Z/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: apple time, baby
+photo.2.tags: apple time, baby, portrait
 photo.3: https://www.instagram.com/p/Bpv3pfelxpx/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
@@ -39,6 +39,10 @@ photo.6.tags: baby, tail
 photo.7: https://www.instagram.com/p/BtXyOa2lNSk/media/?size=m
 photo.7.author: mifko55
 photo.7.link: https://www.instagram.com/mifko55/
-photo.7.tags: techitechi, wet
+photo.7.tags: portrait, techitechi, wet
+photo.8: https://www.instagram.com/p/BtCQRncFpq3/media/?size=m
+photo.8.author: mifko55
+photo.8.link: https://www.instagram.com/mifko55/
+photo.8.tags: bamboo, portrait, tongue
 species: 2
 zoo: 26

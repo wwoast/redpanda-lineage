@@ -24,11 +24,11 @@ photo.2.tags: profile
 photo.3: https://www.instagram.com/p/BhytSzZl11k/media/?size=m
 photo.3.author: i.satosato
 photo.3.link: https://www.instagram.com/i.satosato/
-photo.3.tags: tree
+photo.3.tags: portrait, tree
 photo.4: https://www.instagram.com/p/Bkq4qghlimZ/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: smile
+photo.4.tags: portrait, smile
 photo.5: https://www.instagram.com/p/BjTuc8pFqXo/media/?size=m
 photo.5.author: love__mitarashi
 photo.5.link: https://www.instagram.com/love__mitarashi/
@@ -36,7 +36,7 @@ photo.5.tags: tree
 photo.6: https://www.instagram.com/p/BoKlMBvlONq/media/?size=m
 photo.6.author: i.satosato
 photo.6.link: https://www.instagram.com/i.satosato/
-photo.6.tags: tree, yawn
+photo.6.tags: portrait, tree, yawn
 photo.7: https://www.instagram.com/p/BpgWVL8leFO/media/?size=m
 photo.7.author: kotata_513
 photo.7.link: https://www.instagram.com/kotata_513/
@@ -73,9 +73,11 @@ photo.15.link: https://www.instagram.com/mofu_pan/
 photo.16: https://www.instagram.com/p/BqRxrZ2F726/media/?size=m
 photo.16.author: falcon_tenor
 photo.16.link: https://www.instagram.com/falcon_tenor/
+photo.16.tags: portrait
 photo.17: https://www.instagram.com/p/Bqjgq5olR5a/media/?size=m
 photo.17.author: love__mitarashi
 photo.17.link: https://www.instagram.com/love__mitarashi/
+photo.17.tags: portrait
 photo.18: https://www.instagram.com/p/BqkbxHgF4nL/media/?size=m
 photo.18.author: minatomirai215
 photo.18.link: https://www.instagram.com/minatomirai215/
@@ -93,7 +95,7 @@ photo.21.tags: tree
 photo.22: https://www.instagram.com/p/BqimrwKHnTp/media/?size=m
 photo.22.author: yakko____
 photo.22.link: https://www.instagram.com/yakko____/
-photo.22.tags: smile
+photo.22.tags: portrait, smile
 photo.23: https://www.instagram.com/p/BrHu90xlscA/media/?size=m
 photo.23.author: red.pan_da
 photo.23.link: https://www.instagram.com/red.pan_da/
@@ -109,7 +111,7 @@ photo.25.tags: tree
 photo.26: https://www.instagram.com/p/BrZ_9SgluXb/media/?size=m
 photo.26.author: kinkinkin0826
 photo.26.link: https://www.instagram.com/kinkinkin0826/
-photo.26.tags: tree
+photo.26.tags: portrait, tree
 photo.27: https://www.instagram.com/p/Br-bsJ2FFKs/media/?size=m
 photo.27.author: i.satosato
 photo.27.link: https://www.instagram.com/i.satosato/
@@ -121,7 +123,7 @@ photo.28.tags: bamboo, smile
 photo.29: https://www.instagram.com/p/BsVY_KTlDmS/media/?size=m
 photo.29.author: riri_panda616
 photo.29.link: https://www.instagram.com/riri_panda616/
-photo.29.tags: tree
+photo.29.tags: grumpy, portrait, tree
 photo.30: https://www.instagram.com/p/BseW35rlnM6/media/?size=m
 photo.30.author: firefoxpanda88
 photo.30.link: https://www.instagram.com/firefoxpanda88/
@@ -136,15 +138,15 @@ photo.32.tags: apple time, keeper
 photo.33: https://www.instagram.com/p/BssXu7AFCFf/media/?size=m
 photo.33.author: love__mitarashi
 photo.33.link: https://www.instagram.com/love__mitarashi/
-photo.33.tags: tree
+photo.33.tags: portrait, tree
 photo.34: https://www.instagram.com/p/BtFMwwpl7cs/media/?size=m
 photo.34.author: red.pan_da
 photo.34.link: https://www.instagram.com/red.pan_da/
-photo.34.tags: tree
+photo.34.tags: portrait, tree
 photo.35: https://www.instagram.com/p/BtEw64LFBDO/media/?size=m
 photo.35.author: redpanda_nippon_takashi
 photo.35.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.35.tags: lips, smile
+photo.35.tags: lips, portrait, smile
 photo.36: https://www.instagram.com/p/BtD8Nt7F2Mw/media/?size=m
 photo.36.author: i.satosato
 photo.36.link: https://www.instagram.com/i.satosato/
@@ -179,7 +181,7 @@ photo.43.tags: paws
 photo.44: https://www.instagram.com/p/BvOhPbBlg2p/media/?size=m
 photo.44.author: r.pan_mania
 photo.44.link: https://www.instagram.com/r.pan_mania/
-photo.44.tags: tongue
+photo.44.tags: portrait, tongue
 photo.45: https://www.instagram.com/p/Bv9EvKKFYxg/media/?size=m
 photo.45.author: i.satosato
 photo.45.link: https://www.instagram.com/i.satosato/
@@ -201,14 +203,15 @@ photo.49.tags: paws
 photo.50: https://www.instagram.com/p/Bws_IMuFy8x/media/?size=m
 photo.50.author: mifko55
 photo.50.link: https://www.instagram.com/mifko55/
+photo.50.tags: portrait
 photo.51: https://www.instagram.com/p/Bw_6dV7lPtC/media/?size=m
 photo.51.author: falcon_tenor
 photo.51.link: https://www.instagram.com/falcon_tenor/
-photo.51.tags: paws
+photo.51.tags: paws, portrait
 photo.52: https://www.instagram.com/p/BxMgkwwlqUJ/media/?size=m
 photo.52.author: falcon_tenor
 photo.52.link: https://www.instagram.com/falcon_tenor/
-photo.52.tags: flower, smile
+photo.52.tags: flower, portrait, smile
 photo.53: https://www.instagram.com/p/BxPmM5klIJR/media/?size=m
 photo.53.author: i.satosato
 photo.53.link: https://www.instagram.com/i.satosato/
@@ -272,5 +275,9 @@ photo.68: https://www.instagram.com/p/BxzUPuulwe1/media/?size=m
 photo.68.author: colette.jp
 photo.68.link: https://www.instagram.com/colette.jp/
 photo.68.tags: portrait, smile
+photo.69: https://www.instagram.com/p/BxzTwmTl-Zd/media/?size=m
+photo.69.author: falcon_tenor
+photo.69.link: https://www.instagram.com/falcon_tenor/
+photo.69.tags: portrait
 species: 2
 zoo: 36
