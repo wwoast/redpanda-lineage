@@ -866,7 +866,7 @@ Pandas.gender = function(animal, language) {
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
-  var pandaTags = entity[tag_index].replace(" ", "").split(",").filter(function(tag) {
+  var pandaTags = entity[tag_index].replace(/ /g, "").split(",").filter(function(tag) {
     return parseInt(tag) > 0;
   });
   var output_string = Pandas.def.animal[L.display + ".name"];
@@ -935,7 +935,7 @@ Pandas.language_order = function(entity) {
   if (ordering == undefined) {
     return Language.L.default.order;
   } else {
-    return ordering.replace(" ", "").split(',');
+    return ordering.replace(/ /g, "").split(',');
   }
 }
 

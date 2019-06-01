@@ -27,6 +27,7 @@ photo.2.tags: profile, sleeping
 photo.3: https://www.instagram.com/p/BkSEe8PAn5W/media/?size=m
 photo.3.author: mikaamihara
 photo.3.link: https://www.instagram.com/mikaamihara/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BliEO6fFyAT/media/?size=m
 photo.4.author: mikaamihara
 photo.4.link: https://www.instagram.com/mikaamihara/
@@ -34,5 +35,9 @@ photo.4.tags: blink, laying down
 photo.5: https://www.instagram.com/p/BkQ2EYalXB_/media/?size=m
 photo.5.author: craig_craig_craig
 photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.6: https://www.instagram.com/p/ByAYJe4Bw6e/media/?size=m
+photo.6.author: mikaamihara
+photo.6.link: https://www.instagram.com/mikaamihara/
+photo.6.tags: portrait, tree
 species: 2
 zoo: 63
