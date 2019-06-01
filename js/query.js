@@ -56,6 +56,7 @@ Query.searchTag = function(search_tag) {
       return key;
     } 
   }
+  return undefined;
 }
 
 
@@ -359,10 +360,13 @@ Query.actions = {
   // Resolve the behavior of the zero-argument operator into results.
   "zeroaryExpression": function(_, captures) {
     var keyword = captures.zeroaryTerm.toLowerCase();
+    // If this zeroary expression is a tag, store the in-file representation of this tag
+    var tag = Query.searchTag(keyword);
     return {
       "hits": Query.resolver.singleton(keyword),
       "parsed": "zeroaryExpression",
-      "query": keyword
+      "query": keyword,
+      "tag": tag
     }
   }
 }
@@ -381,7 +385,9 @@ Query.resolver = {
     }
     if (Query.values(Language.L.tags).indexOf(keyword) != -1) {
       Query.env.output_mode = "photos";
-      return Pandas.searchPhotoTags(Pandas.allAnimals(), [keyword], mode="photos", fallback="none");
+      // Find the canonical tag to do the searching by
+      var tag = Query.searchTag(keyword);
+      return Pandas.searchPhotoTags(Pandas.allAnimals(), [tag], mode="photos", fallback="none");
     }
   },
   // Process a search term, either typed as panda/zoo, or untyped,
