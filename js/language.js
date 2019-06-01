@@ -710,8 +710,8 @@ Language.L.tags = {
   "apple time": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.apple],
-       "en": ["apple time"],
-       "jp": ["りんごタイム"]
+       "en": ["apple time", "apple"],
+       "jp": ["りんごタイム", "りんご"]
   },
   "autumn": {
        "cn": ["TOWRITE"],
@@ -855,7 +855,7 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
-       "en": ["long tongue"],
+       "en": ["long tongue, long-tongue"],
        "jp": ["長い舌"]
   },
   "lunch time": {

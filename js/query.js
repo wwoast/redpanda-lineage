@@ -358,7 +358,7 @@ Query.actions = {
   },
   // Resolve the behavior of the zero-argument operator into results.
   "zeroaryExpression": function(_, captures) {
-    var keyword = captures.zeroaryTerm;
+    var keyword = captures.zeroaryTerm.toLowerCase();
     return {
       "hits": Query.resolver.singleton(keyword),
       "parsed": "zeroaryExpression",
