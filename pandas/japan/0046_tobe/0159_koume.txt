@@ -24,7 +24,7 @@ photo.2.link: https://www.instagram.com/makimaru18/
 photo.3: https://www.instagram.com/p/BrSjQxvFeos/media/?size=m
 photo.3.author: itsuak
 photo.3.link: https://www.instagram.com/itsuak/
-photo.3.tags: bamboo
+photo.3.tags: bamboo, portrait
 photo.4: https://www.instagram.com/p/Brh7sSoldmZ/media/?size=m
 photo.4.author: itsuak
 photo.4.link: https://www.instagram.com/itsuak/
@@ -36,7 +36,7 @@ photo.5.tags: bamboo, smile
 photo.6: https://www.instagram.com/p/BsNeHvll9dj/media/?size=m
 photo.6.author: itsuak
 photo.6.link: https://www.instagram.com/itsuak/
-photo.6.tags: laying down
+photo.6.tags: laying down, portrait
 photo.7: https://www.instagram.com/p/BsPrr61FGGj/media/?size=m
 photo.7.author: redpanda_nippon_takashi
 photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -51,7 +51,7 @@ photo.9.tags: bamboo, techitechi
 photo.10: https://www.instagram.com/p/Bs-fYqHlXVi/media/?size=m
 photo.10.author: itsuak
 photo.10.link: https://www.instagram.com/itsuak/
-photo.10.tags: paws
+photo.10.tags: paws, portrait
 photo.11: https://www.instagram.com/p/BtlHx9lFOTQ/media/?size=m
 photo.11.author: itsuak
 photo.11.link: https://www.instagram.com/itsuak/
@@ -59,10 +59,14 @@ photo.11.tags: bamboo, paws
 photo.12: https://www.instagram.com/p/Bu4EEQWl53u/media/?size=m
 photo.12.author: itsuak
 photo.12.link: https://www.instagram.com/itsuak/
-photo.12.tags: laying down
+photo.12.tags: laying down, portrait
 photo.13: https://www.instagram.com/p/BxPdXAiFt8D/media/?size=m
 photo.13.author: itsuak
 photo.13.link: https://www.instagram.com/itsuak/
 photo.13.tags: paws, tail
+photo.14: https://www.instagram.com/p/Bx9xm6Php1r/media/?size=m
+photo.14.author: itsuak
+photo.14.link: https://www.instagram.com/itsuak/
+photo.14.tags: portrait
 species: 2
 zoo: 46
