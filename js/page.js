@@ -365,11 +365,13 @@ Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
   if (results["parsed"] == "tagExpression") {
-    results["hits"].forEach(function(photo) {
+    for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+      } else {
+        results["hits"].pop(results["hits"].indexOf(photo));
       }
-    });
+    }
     // Write some HTML with summary information for the user and the number of photos
     if (content_divs.length != 0) {
       var header = Show.message.tag_subject(results["hits"].length, results["subject"],
