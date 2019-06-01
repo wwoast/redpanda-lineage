@@ -286,7 +286,7 @@ Query.actions = {
     }
   },
   "typeTerm": function(_, capture) {
-    var type = capture.trim();
+    var type = capture.trim().toLowerCase();
     // Normal searches. Just return pandas/zoos in a later subject search.
     // Re-capitalize to match names in the database.
     Query.env.output_mode = "entities";
