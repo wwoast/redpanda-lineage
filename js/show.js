@@ -986,8 +986,10 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
     } else if (field == "<INSERTNAME>") {
       var msg = document.createElement('i');
       var text = document.createTextNode(name);
-      msg.appendChild(text);
-      p.appendChild(msg);
+      if (name != undefined) {
+        msg.appendChild(text);
+        p.appendChild(msg);
+      }
     } else if (field == "<INSERTEMOJI>") {
       var msg = document.createTextNode(emoji);
       p.appendChild(msg);

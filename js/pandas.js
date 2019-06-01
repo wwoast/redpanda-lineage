@@ -323,6 +323,14 @@ Pandas.photoGeneratorMax = function*() {
 /*
     Methods for searching on Red Pandas
 */
+// Shorthand for getting all the animals
+Pandas.allAnimals = function() {
+  var animals = G.v().filter(function(vertex) {
+    return vertex["_id"] > 0;
+  }).run();
+  return animals;
+}
+
 // Find all panda babies born within a calendar year.
 Pandas.searchBabies = function(year) {
   // Default search is for the most recent year we recorded a birth in
@@ -645,7 +653,8 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
     }
     output = output.concat(set);
   }
-  return output;
+  // Filter out any cases where photo results with no matches were returned
+  return output.filter(x => x["photo.index"] != "0");
 }
 
 // Find a panda's siblings, defined as the intersection of children 

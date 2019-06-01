@@ -364,7 +364,8 @@ Page.results.entities = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  if (results["parsed"] == "tagExpression") {
+  if ((results["parsed"] == "tagExpression") ||
+      (results["parsed"] == "zeroaryExpression")) {
     for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
@@ -372,11 +373,14 @@ Page.results.photos = function(results) {
         results["hits"].pop(results["hits"].indexOf(photo));
       }
     }
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var hit_count = content_divs.length;
+    // TODO: limit to a max number of photos
     // Write some HTML with summary information for the user and the number of photos
     if (content_divs.length != 0) {
-      var header = Show.message.tag_subject(results["hits"].length, results["subject"],
-                                            Language.L.tags[results["tag"]]["emoji"], 
-                                            results["tag"], L.display);
+      var header = Show.message.tag_subject(hit_count, results["subject"],
+                                            Language.L.tags[tag]["emoji"], 
+                                            tag, L.display);
       content_divs.unshift(header);
     }
   }

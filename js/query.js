@@ -121,7 +121,8 @@ Query.ops.group.types = Query.values(Query.ops.type);
 // Single keywords that represent queries on their own. Indexes into Query.ops
 Query.ops.group.zeroary = Query.values([
   Query.ops.type.baby,
-  Query.ops.type.dead
+  Query.ops.type.dead,
+  Language.L.tags
 ])
 // Unary operators
 Query.ops.group.unary = Query.values([
@@ -208,10 +209,10 @@ Query.rules = {
   // This is the root rule that new reLexer() starts its processing at.
   "expression": or(
     ':zeroaryExpression/1',
-    ':typeYearExpression/3',
-    ':typeSubjectExpression/4',
-    ':tagSubjectExpression/6',
-    ':subjectTerm/7'
+    ':typeYearExpression/2',
+    ':typeSubjectExpression/3',
+    ':tagSubjectExpression/4',
+    ':subjectTerm/5'
   )
 }
 /*
@@ -357,10 +358,11 @@ Query.actions = {
   },
   // Resolve the behavior of the zero-argument operator into results.
   "zeroaryExpression": function(_, captures) {
+    var keyword = captures.zeroaryTerm;
     return {
-      "hits": Query.resolver.singleton(captures.zeroaryTerm),
+      "hits": Query.resolver.singleton(keyword),
       "parsed": "zeroaryExpression",
-      "query": captures.zeroaryTerm
+      "query": keyword
     }
   }
 }
@@ -369,10 +371,6 @@ Query.actions = {
     turn some string value into a node in the Pandas graph.
 */
 Query.resolver = {
-  "name": function(input) {
-    var words = input.split(' ');
-    return Language.capitalNames(words);
-  },
   // Process searches that are just single keywords, like "babies"
   "singleton": function(keyword) {
     if (Query.ops.type.baby.indexOf(keyword) != -1) {
@@ -380,6 +378,10 @@ Query.resolver = {
     }
     if (Query.ops.type.dead.indexOf(keyword) != -1) {
       return Pandas.searchDead();
+    }
+    if (Query.values(Language.L.tags).indexOf(keyword) != -1) {
+      Query.env.output_mode = "photos";
+      return Pandas.searchPhotoTags(Pandas.allAnimals(), [keyword], mode="photos", fallback="none");
     }
   },
   // Process a search term, either typed as panda/zoo, or untyped,
