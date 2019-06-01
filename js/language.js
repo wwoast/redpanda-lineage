@@ -451,6 +451,14 @@ Language.L.messages = {
     "en": ["No Tagged Photos"],
     "jp": ["このパンダのタグ付けされた写真はありません"]
   },
+  "overflow": {
+    "cn": ["TOWRITE"],
+    "en": [" Only ",
+           "<INSERTLIMIT>",
+           " shown."],
+    "jp": ["<INSERTLIMIT>",
+           "を表示中"]
+  },
   "profile_babies": {
     "cn": ["TOWRITE"],
     "en": ["<INSERTNAME>",
@@ -673,13 +681,15 @@ Language.L.messages = {
            " photos tagged ",
            "<INSERTEMOJI>",
            " ",
-           "<INSERTTAG>"],
+           "<INSERTTAG>",
+           "."],
     "jp": ["<INSERTNUM>",
            "枚の",
            "<INSERTNAME>",
            "の",
            "<INSERTEMOJI>",
-           "<INSERTTAG>"]
+           "<INSERTTAG>",
+           "。"]
   }
 }
 

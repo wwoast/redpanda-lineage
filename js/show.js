@@ -968,7 +968,7 @@ Show.message.profile_where = function(name, language) {
   message.appendChild(shrinker);
   return message;
 }
-Show.message.tag_subject = function(num, name, emoji, tag, language) {
+Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0) {
   // If there was an id as part of a tagExpression, rewrite this message
   // using the panda's localized name instead.
   if (Pandas.checkId(name) == true) {
@@ -1001,6 +1001,18 @@ Show.message.tag_subject = function(num, name, emoji, tag, language) {
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);
+    }
+  }
+  if (overflow > 0) {
+    for (var i in L.messages.overflow[language]) {
+      var field = L.messages.overflow[language][i];
+      if (field == "<INSERTLIMIT>") {
+        var msg = document.createTextNode(overflow);
+        p.appendChild(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        p.appendChild(msg);
+      }
     }
   }
   var shrinker = document.createElement('div');

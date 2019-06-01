@@ -375,12 +375,18 @@ Page.results.photos = function(results) {
     }
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var hit_count = content_divs.length;
-    // TODO: limit to a max number of photos
+    var overflow = 0;
+    var max_hits = 25;
+    if (hit_count > max_hits) {
+      // Too many hits. Randomize what we have and save the top fifty
+      overflow = max_hits;
+      content_divs = Pandas.shuffle(content_divs).splice(0, max_hits);
+    }
     // Write some HTML with summary information for the user and the number of photos
-    if (content_divs.length != 0) {
+    if (hit_count != 0) {
       var header = Show.message.tag_subject(hit_count, results["subject"],
                                             Language.L.tags[tag]["emoji"], 
-                                            tag, L.display);
+                                            tag, L.display, overflow);
       content_divs.unshift(header);
     }
   }
