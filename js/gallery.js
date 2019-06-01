@@ -310,10 +310,14 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
     var index = item.index.split(".")[1];
     var img_link = document.createElement('a');
     // Link to the original instagram media
-    img_link.href = photo.replace("/media/?size=m", "");
+    img_link.href = photo;
+    img_link.href = img_link.href.replace("/media/?size=m", "/");
+    img_link.href = img_link.href.replace("/media/?size=l", "/");
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
-    img.src = photo.replace('/?size=m', '/?size=t');
+    img.src = photo;
+    img.src = img.src.replace('/?size=m', '/?size=t');
+    img.src = img.src.replace('/?size=l', '/?size=t');
     img_link.appendChild(img);
     var caption_link = document.createElement('a');
     // TODO: better handling of group photos
@@ -346,10 +350,14 @@ Gallery.tagPhotoCredits = function(result, language) {
   var photo = result["photo"];
   var img_link = document.createElement('a');
   // Link to the original instagram media
-  img_link.href = photo.replace("/media/?size=m", "");
+  img_link.href = photo;
+  img_link.href = img_link.href.replace("/media/?size=m", "/");
+  img_link.href = img_link.href.replace("/media/?size=l", "/");
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  img.src = photo.replace('/?size=m', '/?size=t');
+  img.src = photo;
+  img.src = img.src.replace('/?size=m', '/?size=t');
+  img.src = img.src.replace('/?size=l', '/?size=t');
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   // TODO: better handling of group photos
@@ -398,10 +406,14 @@ Gallery.zooPhotoCredits = function(zoo, credit, language) {
     var index = item.index.split(".")[1];
     var img_link = document.createElement('a');
     // Link to the original instagram media
-    img_link.href = photo.replace("/media/?size=m", "");
+    img_link.href = photo;
+    img_link.href = img_link.href.replace("/media/?size=m", "/");
+    img_link.href = img_link.href.replace("/media/?size=l", "/");
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
-    img.src = photo.replace('/?size=m', '/?size=t');
+    img.src = photo;
+    img.src = img.src.replace('/?size=m', '/?size=t');
+    img.src = img.src.replace('/?size=l', '/?size=t');
     img_link.appendChild(img);
     var caption_link = document.createElement('a');
     caption_link.href = "#zoo/" + zoo._id + "/photo/" + index;
@@ -567,7 +579,9 @@ Gallery.special.mothersday.render = function() {
     var message = photo_info["photo." + counter + ".message"][L.display];
     // Create the image frame
     var img_link = document.createElement('a');
-    img_link.href = source.replace("/media/?size=m", "/");
+    img_link.href = source;
+    img_link.href = img_link.href.replace("/media/?size=m", "/");
+    img_link.href = img_link.href.replace("/media/?size=l", "/");
     var img = document.createElement('img');
     // Instagram size change logic
     img.src = source;
