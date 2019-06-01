@@ -419,8 +419,13 @@ Language.L.messages = {
            "<INSERTNUMBER>",
            "枚の写真を寄稿しました。"]
   },
-  "footer": {
+  "comma": {
     "cn": "TOWRITE",
+    "en": ", ",
+    "jp": "と"
+  },
+  "footer": {
+    "cn": ["TOWRITE"],
     "en": ["All information courtesy of the ",
            "<INSERTLINK>",
            " and red panda fans worldwide. ",
