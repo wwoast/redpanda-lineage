@@ -192,18 +192,6 @@ Query.regexp.negative_match_single = function(input) {
   }
 }
 
-// Negative lookahead to fail matching an input
-Query.regexp.match_none = function(input) {
-  var safe = Query.regexp.safe_input(input);
-  if (safe instanceof Array) {
-    // Match any one of a number of equivalent operators
-    return new RegExp("^(?!.*(" + safe.join("|") + "))", 'iu');
-  } else {
-    // Single string parsing
-    return new RegExp("^(?!.*(" + safe + "))");
-  }  
-}
-
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
