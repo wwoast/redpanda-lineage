@@ -170,28 +170,6 @@ Query.regexp.match_single = function(input) {
   }
 }
 
-Query.regexp.negative_match_portion = function(input) {
-  var safe = Query.regexp.safe_input(input);
-  if (safe instanceof Array) {
-    // Parse any one of a number of equivalent operators
-    return new RegExp("^(?!.*(" + safe.join("|") + "))" + "[^$]", 'iu');
-  } else {
-    // Single string parsing
-    return new RegExp(safe + "[^$]");  
-  }
-}
-
-Query.regexp.negative_match_single = function(input) {
-  var safe = Query.regexp.safe_input(input);
-  if (safe instanceof Array) {
-    // Match any one of a number of equivalent operators
-    return new RegExp("^(?!.*(" + safe.join("|") + "))" + "$", 'iu');
-  } else {
-    // Single string parsing
-    return new RegExp(safe + "$");
-  }
-}
-
 // Rules for reLexer. This is a series of stacked regexes that compose to match
 // a parsed query, for insertion into a parse tree for ordered processing of matches.
 Query.rules = {
@@ -200,13 +178,13 @@ Query.rules = {
   "idAtom": /\d{1,5}/,
   "nameAtom": /[^\s]+(\s+[^\s]+)*/,
   "yearAtom": /19\d\d|2\d\d\d/,
+  /*** TERMS ***/
+  // Terms include keywords, operators, and panda / zoo names.
+  // Subjects, either an id number or a panda / zoo name.
   "subjectTerm": or(
     ":idAtom>idAtom",
     ":nameAtom>nameAtom",
   ),
-  /*** TERMS ***/
-  // Terms include keywords, operators, and panda / zoo names.
-  // Subjects, either an id number or a panda / zoo name.
   // Tags: match any of the tags in the language files
   "tagTerm": Query.regexp.match_portion(Query.values(Language.L.tags)),
   // Type: panda or zoo keywords
@@ -215,12 +193,6 @@ Query.rules = {
   "zeroaryTerm": Query.regexp.match_single(Query.ops.group.zeroary),
   /*** EXPRESSIONS ***/
   // A query string consists of expressions
-  "subjectTagExpression": [
-    ':subjectTerm>subjectTerm', ':space?', ':tagTerm>tagTerm'
-  ],
-  "subjectTypeExpression": [
-    ':subjectTerm>subjectTerm', ':space?', ':typeTerm>typeTerm'
-  ],
   "tagSubjectExpression": [
     ':tagTerm>tagTerm', ':space?', ':subjectTerm>subjectTerm'
   ],
@@ -234,14 +206,10 @@ Query.rules = {
     ':zeroaryTerm>zeroaryTerm'
   ],
   // This is the root rule that new reLexer() starts its processing at.
-  // TODO: make name regex not match a keyword, and turn on the inverted
-  // subject[]Expressions
   "expression": or(
     ':zeroaryExpression/1',
-    //':subjectTypeExpression/2',
     ':typeYearExpression/3',
     ':typeSubjectExpression/4',
-    // ':subjectTagExpression/5',
     ':tagSubjectExpression/6',
     ':subjectTerm/7'
   )
