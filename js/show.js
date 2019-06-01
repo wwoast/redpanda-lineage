@@ -1000,6 +1000,9 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
       p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
+      if ((language == "jp") && (i == 1) && (name == undefined)) {
+        msg = document.createTextNode("枚");
+      }
       p.appendChild(msg);
     }
   }
