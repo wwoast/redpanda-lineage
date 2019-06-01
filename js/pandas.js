@@ -872,14 +872,17 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
-    var panda = Pandas.searchPandaId(id)[0];
-    var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
-    var info = {
-      "name": panda[L.display + ".name"],
-      "x": parseInt(x),
-      "y": parseInt(y)
+    if (parseInt(id) > 0) {
+      // Must be a numeric non-negative panda ID
+      var panda = Pandas.searchPandaId(id)[0];
+      var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
+      var info = {
+        "name": panda[L.display + ".name"],
+        "x": parseInt(x),
+        "y": parseInt(y)
+      }
+      animals.push(info);
     }
-    animals.push(info);
   }
   // Sort animals list by x values. Chrome requires the return value to be 
   // one, zero, or minus one, to determine sorting.
