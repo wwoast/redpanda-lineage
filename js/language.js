@@ -121,6 +121,7 @@ Language.L.emoji = {
    "portrait": "🖼️",
        "pray": "🙏",
     "profile": "💟",
+    "pumpkin": "🎃",
      "random": "🎲",
   "raincloud": "🌧️",
      "search": "🔍",
@@ -950,6 +951,12 @@ Language.L.tags = {
         "en": ["pull-up", "pull-ups", "pullup"],
         "jp": ["懸垂"]
   },
+  "pumpkin": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.pumpkin],
+        "en": ["pumpkin", "halloween"],
+        "jp": ["かぼちゃ", "南瓜"]
+  },
   "shake": {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.no_emoji],
@@ -1057,6 +1064,12 @@ Language.L.tags = {
      "emoji": [Language.L.emoji.raincloud],
         "en": ["wet"],
         "jp": ["濡れた"]
+  },
+  "white face": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.no_emoji],
+        "en": ["white face", "light face"],
+        "jp": ["しろめん", "白面", "白めん"]
   },
   "yawn": {
         "cn": ["TOWRITE"],
