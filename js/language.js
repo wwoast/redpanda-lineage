@@ -440,7 +440,7 @@ Language.L.messages = {
   "happy_birthday": {
     "cn": ["TOWRITE"],
     "en": [Language.L.emoji.birthday,
-           " Happy birthday, ",
+           " Happy Birthday, ",
            "<INSERTNAME>",
            "! (",
            "<INSERTNUMBER>",
