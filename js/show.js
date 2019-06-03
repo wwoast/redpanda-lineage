@@ -774,7 +774,9 @@ Show.landing.menus.bottomButtons = ['topButton'];
     Show functions used to generate translated heading snippets in various page modes
 */
 Show.message = {};
-Show.message.birthday = function(name, years, language) {
+Show.message.birthday = function(name, animal_id, years, language) {
+  var link = document.createElement('a');
+  link.href = "#panda/" + animal_id;
   var p = document.createElement('p');
   for (var i in L.messages.happy_birthday[language]) {
     var field = L.messages.happy_birthday[language][i];
@@ -791,9 +793,10 @@ Show.message.birthday = function(name, years, language) {
       p.appendChild(msg);
     }
   }
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "birthdaySummary";
   message.appendChild(shrinker);

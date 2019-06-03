@@ -301,11 +301,8 @@ Gallery.birthdayPhotoCredits = function(language) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
     // Post the birthday message (with age in years)
-    var message_link = document.createElement('a');
-    message_link.href = "#panda/" + animal._id;
-    var message = Show.message.birthday(info.name, years_old, language);
-    message_link.appendChild(message);
-    birthday_div.appendChild(message_link);
+    var message = Show.message.birthday(info.name, info.id, years_old, language);
+    birthday_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     var photo_count = 2;
     for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
@@ -324,7 +321,7 @@ Gallery.birthdayPhotoCredits = function(language) {
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
-      caption.innerText = Language.L.emoji.camera + "\u200A" + photo["photo.author"];
+      caption.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
       caption_link.appendChild(caption);
       var container = document.createElement('div');
       container.className = "photoSample quarterPage";
