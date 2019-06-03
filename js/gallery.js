@@ -308,16 +308,17 @@ Gallery.birthdayPhotoCredits = function(language) {
     for (let photo of photos.splice(0, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
-      img_link.href = photo["link"];
-      img_link.href = img_link.href.replace("/media/?size=m", "/");
-      img_link.href = img_link.href.replace("/media/?size=l", "/");
-      img_link.target = "_blank";   // Open in new tab
+      img_link.href = "#panda/" + animal._id + "/photo/" + photo["index"];
       var img = document.createElement('img');
       img.src = photo["photo"];
       img.src = img.src.replace('/?size=l', '/?size=m');
       img_link.appendChild(img);
+      // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = "#panda/" + animal._id + "/photo/" + photo["index"];
+      caption_link.href = photo["link"];
+      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
+      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
       caption.innerText = Language.L.emoji.camera + "\xa0" + photo["credit"];
