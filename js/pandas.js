@@ -358,6 +358,29 @@ Pandas.searchBabies = function(year) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+// Find all pandas born today, given parameters:
+//   keep_living: panda must still be alive
+//   photo_count: panda must have at least this many photos
+Pandas.searchBirthday = function(keep_living=true, photo_count=0) {
+  var today = new Date();
+  var nodes = G.v().filter(function(vertex) {
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == today.getDate()) &&
+            (birthday.getMonth() == today.getMonth()))
+  }).filter(function(vertex) {
+    if (keep_living == true) {
+      return (vertex.death == undefined);
+    } else {
+      return true;   // Get everyone
+    }
+  }).filter(function(vertex) {
+    if (photo_count > 0) {
+      return vertex["photo." + photo_count] != undefined;
+    }
+  }).run();
+  return nodes;
+}
+
 // Find all panda babies that died within a calendar year.
 Pandas.searchDead = function(year) {
   // Default search is for the most recent year we recorded a birth in
@@ -799,6 +822,20 @@ Pandas.age = function(animal, language) {
   } else {
     return age_years.toString() + spacing(language) + Pandas.def.age[language]['years'];
   }
+}
+
+// Return just a panda's age in years (for birthday messages/etc)
+Pandas.ageYears = function(animal) {
+  var birth = animal['birthday'];
+  if ((birth == undefined) || (birth == "unknown")) {
+    return Pandas.def.unknown[language];
+  }
+  var birthday = new Date(birth);
+  var endday = new Date();
+  var ms_per_day = 1000 * 60 * 60 * 24;
+  var age_days = (endday - birthday)/ms_per_day;
+  var age_years = Math.floor(age_days / 365);
+  return age_years.toString();
 }
 
 // Given an animal, return their birthday, formatted to the correct locale.

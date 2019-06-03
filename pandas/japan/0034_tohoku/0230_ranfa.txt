@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BkWJxamASuk/media/?size=m
 photo.1.author: tohokusafaripark
 photo.1.link: https://www.instagram.com/tohokusafaripark/
-photo.1.tags: newborn
+photo.1.tags: newborn, portrait
 photo.2: https://www.instagram.com/p/BoFr6gYlsQK/media/?size=m
 photo.2.author: roko_mm
 photo.2.link: https://www.instagram.com/roko_mm/
@@ -23,7 +23,7 @@ photo.2.tags: baby
 photo.3: https://www.instagram.com/p/BoGoB9LFIJg/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: baby
+photo.3.tags: baby, portrait
 photo.4: https://www.instagram.com/p/BoGwWKqFiZY/media/?size=m
 photo.4.author: daniele.tokyo
 photo.4.link: https://www.instagram.com/daniele.tokyo/
@@ -43,7 +43,7 @@ photo.7.tags: baby
 photo.8: https://www.instagram.com/p/BoKr8ZfFZl5/media/?size=m
 photo.8.author: firefoxpanda88
 photo.8.link: https://www.instagram.com/firefoxpanda88/
-photo.8.tags: baby
+photo.8.tags: baby, portrait
 photo.9: https://www.instagram.com/p/BoqkWfGFXpD/media/?size=m
 photo.9.author: fetorus_mami
 photo.9.link: https://www.instagram.com/fetorus_mami/
@@ -59,7 +59,7 @@ photo.11.tags: baby, paws
 photo.12: https://www.instagram.com/p/Boyh3cKFXuz/media/?size=m
 photo.12.author: daniele.tokyo
 photo.12.link: https://www.instagram.com/daniele.tokyo/
-photo.12.tags: baby, ear
+photo.12.tags: baby, ear, portrait
 photo.13: https://www.instagram.com/p/Bo1cQGrFX24/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
@@ -71,7 +71,7 @@ photo.14.tags: baby, laying down
 photo.15: https://www.instagram.com/p/Bo5oIAAlK1_/media/?size=m
 photo.15.author: tabechum
 photo.15.link: https://www.instagram.com/tabechum/
-photo.15.tags: baby, smile
+photo.15.tags: baby, portrait, smile
 photo.16: https://www.instagram.com/p/BpA90q2llqO/media/?size=m
 photo.16.author: tabechum
 photo.16.link: https://www.instagram.com/tabechum/
@@ -83,7 +83,7 @@ photo.17.tags: baby, ear
 photo.18: https://www.instagram.com/p/BpMHF08lkhp/media/?size=m
 photo.18.author: miis_98
 photo.18.link: https://www.instagram.com/miis_98/
-photo.18.tags: baby
+photo.18.tags: baby, portrait
 photo.19: https://www.instagram.com/p/BpVbGe5FIWE/media/?size=m
 photo.19.author: _rifa_p
 photo.19.link: https://www.instagram.com/_rifa_p/
@@ -122,7 +122,7 @@ photo.28.link: https://www.instagram.com/fetorus_mami/
 photo.29: https://www.instagram.com/p/BsIEelTlScg/media/?size=m
 photo.29.author: _rifa_p
 photo.29.link: https://www.instagram.com/_rifa_p/
-photo.29.tags: baby, ear
+photo.29.tags: baby, ear, portrait
 photo.30: https://www.instagram.com/p/BsXzeXHFexP/media/?size=m
 photo.30.author: daniele.tokyo
 photo.30.link: https://www.instagram.com/daniele.tokyo/
@@ -130,7 +130,7 @@ photo.30.tags: paws, smile, snow, standing, tail
 photo.31: https://www.instagram.com/p/Bsfh3EaFRHd/media/?size=m
 photo.31.author: daniele.tokyo
 photo.31.link: https://www.instagram.com/daniele.tokyo/
-photo.31.tags: bamboo, profile, smile
+photo.31.tags: bamboo, portrait, profile, smile
 photo.32: https://www.instagram.com/p/BuFwUKtl0V7/media/?size=m
 photo.32.author: codenameodk
 photo.32.link: https://www.instagram.com/codenameodk/
@@ -150,11 +150,11 @@ photo.35.tags: apple time, smile
 photo.36: https://www.instagram.com/p/BvCeRQNlb6q/media/?size=m
 photo.36.author: codenameodk
 photo.36.link: https://www.instagram.com/codenameodk/
-photo.36.tags: apple time, paws, smile
+photo.36.tags: apple time, paws, portrait, smile
 photo.37: https://www.instagram.com/p/BvfnwbahXv-/media/?size=m
 photo.37.author: totolove0724
 photo.37.link: https://www.instagram.com/totolove0724/
-photo.37.tags: bamboo, mofumofu, tail
+photo.37.tags: bamboo, mofumofu, portrait, tail
 photo.38: https://www.instagram.com/p/BvGypzvFhcM/media/?size=m
 photo.38.author: daniele.tokyo
 photo.38.link: https://www.instagram.com/daniele.tokyo/
@@ -166,18 +166,19 @@ photo.39.tags: bamboo, paws
 photo.40: https://www.instagram.com/p/Bvz2b_jFjmR/media/?size=m
 photo.40.author: ode_kake
 photo.40.link: https://www.instagram.com/ode_kake/
-photo.40.tags: smile
+photo.40.tags: portrait, smile
 photo.41: https://www.instagram.com/p/BvxK-FDllNg/media/?size=m
 photo.41.author: ode_kake
 photo.41.link: https://www.instagram.com/ode_kake/
-photo.41.tags: tongue, white face
+photo.41.tags: portrait, tongue, white face
 photo.42: https://www.instagram.com/p/BvptryzFgDN/media/?size=m
 photo.42.author: ode_kake
 photo.42.link: https://www.instagram.com/ode_kake/
+photo.42.tags: portrait
 photo.43: https://www.instagram.com/p/BvkZNtZFolW/media/?size=m
 photo.43.author: ode_kake
 photo.43.link: https://www.instagram.com/ode_kake/
-photo.43.tags: white face
+photo.43.tags: portrait, white face
 photo.44: https://www.instagram.com/p/BwIXR3BFSaO/media/?size=m
 photo.44.author: ode_kake
 photo.44.link: https://www.instagram.com/ode_kake/
@@ -185,7 +186,7 @@ photo.44.tags: paws
 photo.45: https://www.instagram.com/p/BwUR399lhfT/media/?size=m
 photo.45.author: ode_kake
 photo.45.link: https://www.instagram.com/ode_kake/
-photo.45.tags: bamboo, smile
+photo.45.tags: bamboo, portrait, smile
 photo.46: https://www.instagram.com/p/BwnfbAUFqDu/media/?size=m
 photo.46.author: ode_kake
 photo.46.link: https://www.instagram.com/ode_kake/
@@ -237,7 +238,7 @@ photo.57.tags: nose, snow
 photo.58: https://www.instagram.com/p/ByNm8gbh44r/media/?size=m
 photo.58.author: miis_98
 photo.58.link: https://www.instagram.com/miis_98/
-photo.58.tags: tail, white face
+photo.58.tags: portrait, tail, white face
 species: 2
 video.1: https://youtu.be/Tj1Vraltvq8
 video.1.author: iwatatube

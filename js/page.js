@@ -120,13 +120,13 @@ Page.home.render = function() {
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
   var new_content = document.createElement('div');
-  new_content.className = "results mothersDay";
+  new_content.className = "results birthdayPandas";
   new_content.id = "contentFrame";
   Show["results"].menus.top();
-  // Special mother's day logic!
+  // Special birthday logic!
   if (P.db != undefined) {
-    var mothers_div = Gallery.special.mothersday.render();
-    new_content.appendChild(mothers_div);
+    var birthday = Gallery.birthdayPhotoCredits(L.display);
+    new_content.appendChild(birthday);
     Page.swap(old_content, new_content);
     Page.footer.redraw("landing");
   }
