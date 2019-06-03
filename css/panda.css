@@ -986,6 +986,10 @@ div.photoSample h5.caption.shortMessage {
     border-bottom: 0px solid;
 }
 
+div.photoSample h5.caption.birthdayMessage {
+    overflow-x: hidden;
+}
+
 div.photoSample h5.caption.authorCredit {
     background-color: whitesmoke;
     margin-top: 0px;
