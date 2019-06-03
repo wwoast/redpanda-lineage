@@ -361,7 +361,7 @@ Pandas.searchBabies = function(year) {
 // Find all pandas born today, given parameters:
 //   keep_living: panda must still be alive
 //   photo_count: panda must have at least this many photos
-Pandas.searchBirthday = function(keep_living=true, photo_count=0) {
+Pandas.searchBirthday = function(keep_living=true, photo_count=30) {
   var today = new Date();
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);

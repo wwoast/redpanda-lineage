@@ -119,16 +119,23 @@ Page.home = {};
 Page.home.render = function() {
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
-  var new_content = document.createElement('div');
-  new_content.className = "results birthdayPandas";
-  new_content.id = "contentFrame";
   Show["results"].menus.top();
   // Special birthday logic!
-  if (P.db != undefined) {
+  if ((P.db != undefined) && (Pandas.searchBirthday().length > 0)) {
+    var new_content = document.createElement('div');
+    new_content.className = "results birthdayPandas";
+    new_content.id = "contentFrame";
     var birthday = Gallery.birthdayPhotoCredits(L.display);
     new_content.appendChild(birthday);
     Page.swap(old_content, new_content);
     Page.footer.redraw("landing");
+  } else {
+    var new_content = document.createElement('img');
+    new_content.src = "images/jiuzhaigou.jpg";
+    new_content.className = "fullFrame";
+    new_content.id = "contentFrame";
+    Page.swap(old_content, new_content);
+    Page.footer.remove();
   }
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
