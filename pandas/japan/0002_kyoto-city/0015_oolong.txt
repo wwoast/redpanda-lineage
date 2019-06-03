@@ -20,7 +20,7 @@ location.2: 2, 2013/3/30
 photo.1: https://www.instagram.com/p/BfDiq22A4_W/media/?size=m
 photo.1.author: kinkinkin0826
 photo.1.link: https://www.instagram.com/kinkinkin0826/
-photo.1.tags: bamboo, profile
+photo.1.tags: bamboo, portrait, profile
 photo.2: https://www.instagram.com/p/Bjj8wJFFk9C/media/?size=m
 photo.2.author: kinkinkin0826
 photo.2.link: https://www.instagram.com/kinkinkin0826/
@@ -42,7 +42,7 @@ photo.6.tags: techitechi, tree
 photo.7: https://www.instagram.com/p/BnqmwYdFtOQ/media/?size=m
 photo.7.author: lespan33
 photo.7.link: https://www.instagram.com/lespan33/
-photo.7.tags: apple time
+photo.7.tags: apple time, portrait
 photo.8: https://www.instagram.com/p/BoymzEclMgT/media/?size=m
 photo.8.author: kinkinkin0826
 photo.8.link: https://www.instagram.com/kinkinkin0826/
@@ -53,6 +53,7 @@ photo.9.tags: smile
 photo.10: https://www.instagram.com/p/BpZKy2Kl5cI/media/?size=m
 photo.10.author: bubbles_octi
 photo.10.link: https://www.instagram.com/bubbles_octi/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BpdRwLelu-Y/media/?size=m
 photo.11.author: lespan33
 photo.11.link: https://www.instagram.com/lespan33/
@@ -60,7 +61,7 @@ photo.11.tags: apple time
 photo.12: https://www.instagram.com/p/BpqFXujFZ1s/media/?size=m
 photo.12.author: lespan33
 photo.12.link: https://www.instagram.com/lespan33/
-photo.12.tags: techitechi
+photo.12.tags: portrait, techitechi
 photo.13: https://www.instagram.com/p/Bp-iuRrFekD/media/?size=m
 photo.13.author: lespan33
 photo.13.link: https://www.instagram.com/lespan33/
@@ -78,6 +79,7 @@ photo.16.tags: apple time
 photo.17: https://www.instagram.com/p/Bqe2NO7FE9a/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
+photo.17.tags: portrait
 photo.18: https://www.instagram.com/p/BqihPtQlOLH/media/?size=m
 photo.18.author: redpanda_nippon_takashi
 photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -119,7 +121,7 @@ photo.27.tags: dish, keeper, standing
 photo.28: https://www.instagram.com/p/BskveL2Fn5l/media/?size=m
 photo.28.author: kinkinkin0826
 photo.28.link: https://www.instagram.com/kinkinkin0826/
-photo.28.tags: smile, tongue
+photo.28.tags: portrait, smile, tongue
 photo.29: https://www.instagram.com/p/BszSXiylKvf/media/?size=m
 photo.29.author: redpanda_nippon_takashi
 photo.29.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -131,10 +133,11 @@ photo.30.tags: apple time, mofumofu
 photo.31: https://www.instagram.com/p/BtGGnDRFwnH/media/?size=m
 photo.31.author: kinkinkin0826
 photo.31.link: https://www.instagram.com/kinkinkin0826/
-photo.31.tags: dish, lunch time
+photo.31.tags: dish, lunch time, portrait
 photo.32: https://www.instagram.com/p/BtIEaYiF3po/media/?size=m
 photo.32.author: sakikukeco
 photo.32.link: https://www.instagram.com/sakikukeco/
+photo.32.tags: portrait
 photo.33: https://www.instagram.com/p/BtJvh74losO/media/?size=m
 photo.33.author: redpanda_nippon_takashi
 photo.33.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -146,11 +149,11 @@ photo.34.tags: nose, snow
 photo.35: https://www.instagram.com/p/BvJlcYGlJjW/media/?size=m
 photo.35.author: gloryeui
 photo.35.link: https://www.instagram.com/gloryeui/
-photo.35.tags: grumpy, paws
+photo.35.tags: grumpy, paws, portrait
 photo.36: https://www.instagram.com/p/Bv4Snc1lpHs/media/?size=m
 photo.36.author: akiakiakiko18
 photo.36.link: https://www.instagram.com/akiakiakiko18/
-photo.36.tags: smile
+photo.36.tags: portrait, smile
 photo.37: https://www.instagram.com/p/BwEJqJKFLrC/media/?size=m
 photo.37.author: gloryeui
 photo.37.link: https://www.instagram.com/gloryeui/
