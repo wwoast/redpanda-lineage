@@ -5,7 +5,7 @@ birthplace: 52
 children: 216, 308, 13, 229, 193, 74, 187, 102
 en.name: Boo-Boo
 en.nicknames: none
-en.othernames: Buu-Buu, Bu-Bu, Bubu, Booboo, Bū-Bū
+en.othernames: Booboo, Bubu, Buu-Buu, Bu-Bu, Bubu, Bū-Bū
 gender: m
 jp.name: ブーブー
 jp.nicknames: none
@@ -62,17 +62,13 @@ photo.12: https://www.instagram.com/p/BvFdps0Fj9K/media/?size=m
 photo.12.author: mofu_pan
 photo.12.link: https://www.instagram.com/mofu_pan/
 photo.12.tags: bamboo, paws
-photo.13: https://www.instagram.com/p/BvFdps0Fj9K/media/?size=m
+photo.13: https://www.instagram.com/p/BwMeWi0lM3k/media/?size=m
 photo.13.author: mofu_pan
 photo.13.link: https://www.instagram.com/mofu_pan/
-photo.13.tags: bamboo, laying down
-photo.14: https://www.instagram.com/p/BwMeWi0lM3k/media/?size=m
-photo.14.author: mofu_pan
-photo.14.link: https://www.instagram.com/mofu_pan/
-photo.14.tags: bamboo, paws
-photo.15: https://www.instagram.com/p/BxKFJ-qljke/media/?size=m
-photo.15.author: codenameodk
-photo.15.link: https://www.instagram.com/codenameodk/
-photo.15.tags: mofumofu, old
+photo.13.tags: bamboo, laying down, paws
+photo.14: https://www.instagram.com/p/BxKFJ-qljke/media/?size=m
+photo.14.author: codenameodk
+photo.14.link: https://www.instagram.com/codenameodk/
+photo.14.tags: mofumofu, old
 species: 2
 zoo: 17
