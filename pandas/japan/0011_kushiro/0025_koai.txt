@@ -68,11 +68,11 @@ photo.14.tags: paws
 photo.15: https://www.instagram.com/p/Bw6yeSzlFEc/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
-photo.15.tags: tongue
+photo.15.tags: portrait, tongue
 photo.16: https://www.instagram.com/p/Bx4e_3xhs5r/media/?size=m
 photo.16.author: tama67photo
 photo.16.link: https://www.instagram.com/tama67photo/
-photo.16.tags: flowers, paws
+photo.16.tags: flowers, paws, portrait
 photo.17: https://www.instagram.com/p/Bx85lI4hY1O/media/?size=m
 photo.17.author: tama67photo
 photo.17.link: https://www.instagram.com/tama67photo/
@@ -85,5 +85,48 @@ photo.19: https://www.instagram.com/p/ByNDUWIBVO5/media/?size=m
 photo.19.author: tama67photo
 photo.19.link: https://www.instagram.com/tama67photo/
 photo.19.tags: apple time, home, tongue
+photo.20: https://www.instagram.com/p/Bll4-vrluv1/media/?size=m
+photo.20.author: tomo3700
+photo.20.link: https://www.instagram.com/tomo3700/
+photo.20.tags: smile
+photo.21: https://www.instagram.com/p/Bj9iQAlljB-/media/?size=m
+photo.21.author: kipekaila
+photo.21.link: https://www.instagram.com/kipekaila/
+photo.22: https://www.instagram.com/p/Bj2bE1il-BS/media/?size=m
+photo.22.author: minatomirai215
+photo.22.link: https://www.instagram.com/minatomirai215/
+photo.22.tags: bamboo
+photo.23: https://www.instagram.com/p/BmsjNmtlo27/media/?size=m
+photo.23.author: mari_neko3
+photo.23.link: https://www.instagram.com/mari_neko3/
+photo.23.tags: grooming, tail
+photo.24: https://www.instagram.com/p/BrW5_h-F0-8/media/?size=m
+photo.24.author: wumpwoast
+photo.24.link: https://www.instagram.com/wumpwoast/
+photo.24.tags: tongue
+photo.25: https://www.instagram.com/p/BaG2akpBS0E/media/?size=m
+photo.25.author: zoowfreedom299
+photo.25.link: https://www.instagram.com/zoowfreedom299/
+photo.25.tags: portrait
+photo.26: https://www.instagram.com/p/Brq3VVDlrt-/media/?size=m
+photo.26.author: zoowfreedom299
+photo.26.link: https://www.instagram.com/zoowfreedom299/
+photo.26.tags: paws
+photo.27: https://www.instagram.com/p/BYMhgX7BGVI/media/?size=m
+photo.27.author: _rifa_p
+photo.27.link: https://www.instagram.com/_rifa_p/
+photo.27.tags: bamboo
+photo.28: https://www.instagram.com/p/BxWDCg5lWX5/media/?size=m
+photo.28.author: yakkooo24
+photo.28.link: https://www.instagram.com/yakkooo24/
+photo.28.tags: portrait
+photo.29: https://www.instagram.com/p/Bwt1_ESlL9G/media/?size=m
+photo.29.author: zoowfreedom299
+photo.29.link: https://www.instagram.com/zoowfreedom299/
+photo.29.tags: paws, portrait, tongue
+photo.30: https://www.instagram.com/p/BoxoYApFEo5/media/?size=m
+photo.30.author: zoowfreedom299
+photo.30.link: https://www.instagram.com/zoowfreedom299/
+photo.30.tags: paws, portrait, tongue
 species: 2
 zoo: 11
