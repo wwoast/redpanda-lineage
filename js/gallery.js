@@ -291,10 +291,50 @@ Gallery.condenseDogEar = function(nav) {
   }
 }
 
+// For a panda's birthday, grab a handful of photos (3). Display a birthday
+// header above the photos and credit messages below each one.
+Gallery.birthdayPhotoCredits = function(language) {
+  var birthday_div = document.createElement('div');
+  // Pandas must be alive, and have at least 30 photos
+  var birthday_animals = Pandas.searchBirthday(true, 30);
+  for (let animal of birthday_animals) {
+    var info = Show.acquirePandaInfo(animal, language);
+    var years_old = Pandas.ageYears(animal);
+    // Post the birthday message (with age in years)
+    var message = Show.message.birthday(info.name, years_old, language);
+    birthday_div.appendChild(message);
+    var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
+    var photo_count = 2;
+    for (let photo of photos.splice(0, photo_count)) {
+      var img_link = document.createElement('a');
+      // Link to the original instagram media
+      img_link.href = photo["link"];
+      img_link.href = img_link.href.replace("/media/?size=m", "/");
+      img_link.href = img_link.href.replace("/media/?size=l", "/");
+      img_link.target = "_blank";   // Open in new tab
+      var img = document.createElement('img');
+      img.src = photo["photo"];
+      img.src = img.src.replace('/?size=l', '/?size=m');
+      img_link.appendChild(img);
+      var caption_link = document.createElement('a');
+      caption_link.href = "#panda/" + animal._id + "/photo/" + photo["index"];
+      var caption = document.createElement('h5');
+      caption.className = "caption birthdayMessage";
+      caption.innerText = Language.L.emoji.camera + "\xa0" + photo["credit"];
+      caption_link.appendChild(caption);
+      var container = document.createElement('div');
+      container.className = "photoSample quarterPage";
+      container.appendChild(img_link);
+      container.appendChild(caption_link);
+      birthday_div.appendChild(container);
+    }
+  }
+  return birthday_div;
+}
+
 // Take an animal, and return a list of divs for all the photos of that animal
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
-// TODO: support paging!!
 Gallery.pandaPhotoCredits = function(animal, credit, language) {
   var content_divs = [];
   var photos = [];

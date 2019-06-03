@@ -758,14 +758,7 @@ Show.landing.menus.bottom = function() {
   for (let btn_id of Show.landing.menus.bottomButtons) {
     var btn_type = btn_id.replace("Button", "");
     var button = undefined;
-    if (btn_id == "message") {
-      button = Show.button.message.render("mothersday", 
-                                          L.emoji.mother, 
-                                          L.messages.landing_mothersday[L.display],
-                                          "results");
-    } else {
-      button = Show.button[btn_type].render("results");
-    }
+    button = Show.button[btn_type].render("results");
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
@@ -776,11 +769,36 @@ Show.landing.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.bottomButtons = ['message', 'topButton'];   // TODO: message button
+Show.landing.menus.bottomButtons = ['topButton'];
 /* 
     Show functions used to generate translated heading snippets in various page modes
 */
 Show.message = {};
+Show.message.birthday = function(name, years, language) {
+  var p = document.createElement('p');
+  for (var i in L.messages.happy_birthday[language]) {
+    var field = L.messages.happy_birthday[language][i];
+    if (field == "<INSERTNAME>") {
+      field = name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = years;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "birthdaySummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Show.message.credit = function(credit, count, language) {
   // Draw a header for crediting someone's photos contribution 
   // with the correct language
