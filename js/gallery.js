@@ -301,8 +301,11 @@ Gallery.birthdayPhotoCredits = function(language) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
     // Post the birthday message (with age in years)
+    var message_link = document.createElement('a');
+    message_link.href = "#panda/" + animal._id;
     var message = Show.message.birthday(info.name, years_old, language);
-    birthday_div.appendChild(message);
+    message_link.appendChild(message);
+    birthday_div.appendChild(message_link);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     var photo_count = 2;
     for (let photo of photos.splice(0, photo_count)) {

@@ -928,6 +928,7 @@ div.birthdaySummary, div.creditSummary, div.profileSummary, div.tagSummary {
 div.birthdaySummary p, div.creditSummary p, div.profileSummary p, div.tagSummary p {
     display: inline-block;
     background-color: #9771A7; /* Grapes */
+    color: black;   /* default to black text, even if inside an anchor tag */
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
