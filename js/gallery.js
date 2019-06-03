@@ -308,23 +308,23 @@ Gallery.birthdayPhotoCredits = function(language) {
     birthday_div.appendChild(message_link);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     var photo_count = 2;
-    for (let photo of photos.splice(0, photo_count)) {
+    for (let photo of Panda.shuffle(photos).splice(0, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
-      img_link.href = "#panda/" + animal._id + "/photo/" + photo["index"];
+      img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
       img.src = photo["photo"];
       img.src = img.src.replace('/?size=l', '/?size=m');
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["link"];
+      caption_link.href = photo["photo.link"];
       caption_link.href = caption_link.href.replace("/media/?size=m", "/");
       caption_link.href = caption_link.href.replace("/media/?size=l", "/");
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
-      caption.innerText = Language.L.emoji.camera + "\xa0" + photo["credit"];
+      caption.innerText = Language.L.emoji.camera + "\xa0" + photo["photo.author"];
       caption_link.appendChild(caption);
       var container = document.createElement('div');
       container.className = "photoSample quarterPage";
