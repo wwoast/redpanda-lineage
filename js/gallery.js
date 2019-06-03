@@ -308,7 +308,7 @@ Gallery.birthdayPhotoCredits = function(language) {
     birthday_div.appendChild(message_link);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     var photo_count = 2;
-    for (let photo of Panda.shuffle(photos).splice(0, photo_count)) {
+    for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
