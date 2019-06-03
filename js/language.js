@@ -446,8 +446,9 @@ Language.L.messages = {
            "<INSERTNUMBER>",
            ")"],
     "jp": [Language.L.emoji.birthday,
+           " ",
            "<INSERTNAME>",
-           "、誕生日おめでとう！ (",
+           "、誕生日おめでとう！（",
            "<INSERTNUMBER>",
            "歳）"]
   },
