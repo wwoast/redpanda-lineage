@@ -16,11 +16,11 @@ location.2: 11, 2014/11/13
 photo.1: https://www.instagram.com/p/BktmNDMlN1X/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: tree
+photo.1.tags: portrait, tree
 photo.2: https://www.instagram.com/p/BgctsnOlzRB/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: profile
+photo.2.tags: portrait, profile
 photo.3: https://www.instagram.com/p/Bizw2VflT8n/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
@@ -36,6 +36,7 @@ photo.5.tags: grooming, snow, tail
 photo.6: https://www.instagram.com/p/BniHbWgBmde/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Boyvc73lJoX/media/?size=m
 photo.7.author: mofu_pan
 photo.7.link: https://www.instagram.com/mofu_pan/
@@ -62,6 +63,7 @@ photo.12.tags: autumn
 photo.13: https://www.instagram.com/p/Bpg8EYBFi_S/media/?size=m
 photo.13.author: sina_dw
 photo.13.link: https://www.instagram.com/sina_dw/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/Bpx4jnEFzeH/media/?size=m
 photo.14.author: wumpwoast
 photo.14.link: https://www.instagram.com/wumpwoast/
@@ -85,7 +87,7 @@ photo.18.tags: laying down, tree
 photo.19: https://www.instagram.com/p/Bw8BAN-Fgbz/media/?size=m
 photo.19.author: yakko____
 photo.19.link: https://www.instagram.com/yakko____/
-photo.19.tags: tongue
+photo.19.tags: portrait, tongue
 photo.20: https://www.instagram.com/p/BT3p4D5jK6m/media/?size=m
 photo.20.author: _sealiz
 photo.20.link: https://www.instagram.com/_sealiz/
@@ -97,7 +99,7 @@ photo.21.tags: laying down
 photo.22: https://www.instagram.com/p/BxfP-G6FJJa/media/?size=m
 photo.22.author: minatomirai215
 photo.22.link: https://www.instagram.com/minatomirai215/
-photo.22.tags: paws, smile
+photo.22.tags: paws, portrait, smile
 photo.23: https://www.instagram.com/p/Bxt3W55lnKh/media/?size=m
 photo.23.author: wumpwoast
 photo.23.link: https://www.instagram.com/wumpwoast/
@@ -113,6 +115,37 @@ photo.25.tags: apple time, home, standing
 photo.26: https://www.instagram.com/p/ByKl-RTh70a/media/?size=m
 photo.26.author: tama67photo
 photo.26.link: https://www.instagram.com/tama67photo/
-photo.26.tags: apple time 
+photo.26.tags: apple time, portrait
+photo.27: https://www.instagram.com/p/BMG4RUhBazb/media/?size=m
+photo.27.author: sina_dw
+photo.27.link: https://www.instagram.com/sina_dw/
+photo.27.tags: autumn, bridge, tail
+photo.28: https://www.instagram.com/p/Bw7sexLF6Oe/media/?size=m
+photo.28.author: wumpwoast
+photo.28.link: https://www.instagram.com/wumpwoast/
+photo.28.tags: home
+photo.29: https://www.instagram.com/p/Bx6paWPho8F/media/?size=m
+photo.29.author: wumpwoast
+photo.29.link: https://www.instagram.com/wumpwoast/
+photo.29.tags: home, paws, portrait
+photo.30: https://www.instagram.com/p/BxupdAVlre-/media/?size=m
+photo.30.author: minatomirai215
+photo.30.link: https://www.instagram.com/minatomirai215/
+photo.31: https://www.instagram.com/p/BmupmjiFzwH/media/?size=m
+photo.31.author: leonard_redmof
+photo.31.link: https://www.instagram.com/leonard_redmof/
+photo.31.tags: apple time, home, standing
+photo.32: https://www.instagram.com/p/BvDy0wglBFH/media/?size=m
+photo.32.author: tomy.gsf1250s
+photo.32.link: https://www.instagram.com/tomy.gsf1250s/
+photo.32.tags: paws, snow
+photo.33: https://www.instagram.com/p/BakzHfnFFtN/media/?size=m
+photo.33.author: sina_dw
+photo.33.link: https://www.instagram.com/sina_dw/
+photo.33.tags: portrait
+photo.34: https://www.instagram.com/p/BaG2JKthBK3/media/?size=m
+photo.34.author: zoowfreedom299
+photo.34.link: https://www.instagram.com/zoowfreedom299/
+photo.34.tags: paws, portrait, tree
 species: 2
 zoo: 11
