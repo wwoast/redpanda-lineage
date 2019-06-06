@@ -437,8 +437,8 @@ Layout.L.arrangement.fourListOneLong = function() {
   order.push(order[0]);
   order.shift();
   // Put parent at the beginning of the list regardless
-  order.splice(order.indexOf("parent"), 1);
-  order.unshift("parent");
+  order.splice(order.indexOf("parents"), 1);
+  order.unshift("parents");
   // Specific list values that exist (this["parents"] = HTMLElement, ...)
   var lists = order.map(x => this[x]).filter(x => x != undefined);
   for (let i = 0; i < lists.length; i++) {
