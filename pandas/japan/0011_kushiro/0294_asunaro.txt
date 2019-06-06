@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 295
+location.1: 64, 2016/6/22
+location.2: 11, 2019/6/5
 photo.1: https://www.instagram.com/p/BkhmOZslTvq/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
@@ -24,4 +26,4 @@ photo.3.author: craig_craig_craig
 photo.3.link: https://www.instagram.com/craig_craig_craig/
 photo.3.tags: bamboo
 species: 2
-zoo: 64
+zoo: 11
