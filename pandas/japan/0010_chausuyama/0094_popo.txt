@@ -15,6 +15,7 @@ litter: 95
 photo.1: https://www.instagram.com/p/Bkq5BFnlV_J/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BjyE8PNFRPZ/media/?size=m
 photo.2.author: no_life_no_zoo
 photo.2.link: https://www.instagram.com/no_life_no_zoo/
@@ -26,7 +27,7 @@ photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BiMY-mUlur7/media/?size=m
 photo.4.author: colette.jp
 photo.4.link: https://www.instagram.com/colette.jp/
-photo.4.tags: slobber
+photo.4.tags: portrait, slobber
 photo.5: https://www.instagram.com/p/BnR7mpUFtSZ/media/?size=m
 photo.5.author: craig_craig_craig
 photo.5.link: https://www.instagram.com/craig_craig_craig/
@@ -34,14 +35,15 @@ photo.5.tags: tree, tail
 photo.6: https://www.instagram.com/p/BngForkF2jJ/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
-photo.6.tags: tree
+photo.6.tags: portrait, tree
 photo.7: https://www.instagram.com/p/BnldFQSFipj/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: tree
+photo.7.tags: portrait, tree
 photo.8: https://www.instagram.com/p/BpDTtEpFdrf/media/?size=m
 photo.8.author: kipekaila
 photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/Bpbxb4WAhVJ/media/?size=m
 photo.9.author: resapanlove
 photo.9.link: https://www.instagram.com/resapanlove/
@@ -49,7 +51,7 @@ photo.9.tags: tree
 photo.10: https://www.instagram.com/p/BqpUWw1HSpz/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: profile, tree
+photo.10.tags: portrait, profile, tree
 photo.11: https://www.instagram.com/p/BssY086lw90/media/?size=m
 photo.11.author: tomoki_redpanda
 photo.11.link: https://www.instagram.com/tomoki_redpanda/
@@ -69,11 +71,11 @@ photo.14.tags: snow, tail
 photo.15: https://www.instagram.com/p/BunNC6PFdFR/media/?size=m
 photo.15.author: ayusuke56
 photo.15.link: https://www.instagram.com/ayusuke56/
-photo.15.tags: smile
+photo.15.tags: portrait, smile
 photo.16: https://www.instagram.com/p/BusWYQSFGZb/media/?size=m
 photo.16.author: ayusuke56
 photo.16.link: https://www.instagram.com/ayusuke56/
-photo.16.tags: blink, smile, tree
+photo.16.tags: blink, muzzle, portrait, smile, tree
 photo.17: https://www.instagram.com/p/BvEntmaF5jm/media/?size=m
 photo.17.author: resapan.suki
 photo.17.link: https://www.instagram.com/resapan.suki/
@@ -81,7 +83,7 @@ photo.17.tags: bamboo, smile
 photo.18: https://www.instagram.com/p/BvROziilgg9/media/?size=m
 photo.18.author: codenameodk
 photo.18.link: https://www.instagram.com/codenameodk/
-photo.18.tags: tree
+photo.18.tags: portrait, tree
 photo.19: https://www.instagram.com/p/BvSkmsxFAHZ/media/?size=m
 photo.19.author: fetorus_mami
 photo.19.link: https://www.instagram.com/fetorus_mami/
@@ -101,9 +103,13 @@ photo.22.tags: blink, paws, tongue, tree
 photo.23: https://www.instagram.com/p/Bv1jUfLl0id/media/?size=m
 photo.23.author: perie1027vivi
 photo.23.link: https://www.instagram.com/perie1027vivi/
-photo.23.tags: tree
+photo.23.tags: portrait, tree
 photo.24: https://www.instagram.com/p/Bv-VleIlVSB/media/?size=m
 photo.24.author: mariten1119
 photo.24.link: https://www.instagram.com/mariten1119/
+photo.25: https://www.instagram.com/p/BySUKcmBeHJ/media/?size=m
+photo.25.author: codenameodk
+photo.25.link: https://www.instagram.com/codenameodk/
+photo.25.tags: portrait
 species: 2
 zoo: 10

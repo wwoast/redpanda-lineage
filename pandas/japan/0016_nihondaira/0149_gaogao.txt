@@ -17,7 +17,7 @@ location.2: 16, 2017/12/27
 photo.1: https://www.instagram.com/p/BeHz3tfH1MH/media/?size=m
 photo.1.author: hashimotophs
 photo.1.link: https://www.instagram.com/hashimotophs/
-photo.1.tags: apple time, bamboo, grumpy
+photo.1.tags: apple time, bamboo, grumpy, portrait
 photo.2: https://www.instagram.com/p/BeW1_ctgUgG/media/?size=m
 photo.2.author: framereim
 photo.2.link: https://www.instagram.com/framereim/
@@ -29,10 +29,11 @@ photo.3.tags: snow, standing
 photo.4: https://www.instagram.com/p/BlJ_Y3VDAwD/media/?size=m
 photo.4.author: lesserpanda_shizuokacity_cp
 photo.4.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BkglmOJjB7A/media/?size=m
 photo.5.author: lesserpanda_shizuokacity_cp
 photo.5.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.5.tags: profile, smile
+photo.5.tags: portrait, profile, smile
 photo.6: https://www.instagram.com/p/Bo0yas_FQrq/media/?size=m
 photo.6.author: ifumoto88
 photo.6.link: https://www.instagram.com/ifumoto88/
@@ -43,7 +44,7 @@ photo.7.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.8: https://www.instagram.com/p/Bo37m8kldFk/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
-photo.8.tags: paws
+photo.8.tags: paws, portrait
 photo.9: https://www.instagram.com/p/Bo5RQRXlJr8/media/?size=m
 photo.9.author: taka__3428
 photo.9.link: https://www.instagram.com/taka__3428/
@@ -55,11 +56,11 @@ photo.10.tags: bamboo, laying down
 photo.11: https://www.instagram.com/p/BplFhgrAAue/media/?size=m
 photo.11.author: lesserpanda_shizuokacity_cp
 photo.11.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.11.tags: bamboo, grumpy
+photo.11.tags: bamboo, grumpy, portrait
 photo.12: https://www.instagram.com/p/BqEOmwUFLJc/media/?size=m
 photo.12.author: ayusuke56
 photo.12.link: https://www.instagram.com/ayusuke56/
-photo.12.tags: smile
+photo.12.tags: portrait, smile
 photo.13: https://www.instagram.com/p/BqL9Aeola5C/media/?size=m
 photo.13.author: ayusuke56
 photo.13.link: https://www.instagram.com/ayusuke56/
@@ -83,17 +84,18 @@ photo.17.tags: paws
 photo.18: https://www.instagram.com/p/BscJuE7lMC9/media/?size=m
 photo.18.author: ayusuke56
 photo.18.link: https://www.instagram.com/ayusuke56/
+photo.18.tags: portrait
 photo.19: https://www.instagram.com/p/BsrmoAilAXs/media/?size=m
 photo.19.author: ayusuke56
 photo.19.link: https://www.instagram.com/ayusuke56/
-photo.19.tags: bamboo
+photo.19.tags: bamboo, portrait
 photo.20: https://www.instagram.com/p/BtMkF4YllPG/media/?size=m
 photo.20.author: nakacchi_desu
 photo.20.link: https://www.instagram.com/nakacchi_desu/
 photo.21: https://www.instagram.com/p/BtUyi8wFYCL/media/?size=m
 photo.21.author: ayusuke56
 photo.21.link: https://www.instagram.com/ayusuke56/
-photo.21.tags: smile
+photo.21.tags: portrait, smile
 photo.22: https://www.instagram.com/p/BpuTwcGF_Vg/media/?size=m
 photo.22.author: shisan916
 photo.22.link: https://www.instagram.com/shisan916/
@@ -105,10 +107,14 @@ photo.23.tags: peek
 photo.24: https://www.instagram.com/p/Bt3KE1Wlqwu/media/?size=m
 photo.24.author: craig_craig_craig
 photo.24.link: https://www.instagram.com/craig_craig_craig/
-photo.24.tags: smile
+photo.24.tags: portrait, smile
 photo.25: https://www.instagram.com/p/BxYsrHthy1s/media/?size=m
 photo.25.author: lesserpanda_shizuokacity_cp
 photo.25.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.25.tags: apple time
+photo.26: https://www.instagram.com/p/ByT9jcch1F4/media/?size=m
+photo.26.author: lesserpanda_shizuokacity_cp
+photo.26.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.26.tags: paws, portrait, shedding, tree
 species: 2
 zoo: 16

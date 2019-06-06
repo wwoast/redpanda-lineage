@@ -24,35 +24,38 @@ photo.1.tags: profile
 photo.2: https://www.instagram.com/p/Blp1Bf3loi7/media/?size=m
 photo.2.author: lespan33
 photo.2.link: https://www.instagram.com/lespan33/
-photo.2.tags: flowers, lunch time
+photo.2.tags: flowers, lunch time, portrait
 photo.3: https://www.instagram.com/p/BkfHK_ElTCr/media/?size=m
 photo.3.author: kinkinkin0826
 photo.3.link: https://www.instagram.com/kinkinkin0826/
-photo.3.tags: tail
+photo.3.tags: door, portrait, tail
 photo.4: https://www.instagram.com/p/BjxEToflMEw/media/?size=m
 photo.4.author: lespan33
 photo.4.link: https://www.instagram.com/lespan33/
 photo.5: https://www.instagram.com/p/Bm0rjI6lCHs/media/?size=m
 photo.5.author: lespan33
 photo.5.link: https://www.instagram.com/lespan33/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BnV9kgkl2cY/media/?size=m
 photo.6.author: kinkinkin0826
 photo.6.link: https://www.instagram.com/kinkinkin0826/
-photo.6.tags: smile
+photo.6.tags: portrait, smile
 photo.7: https://www.instagram.com/p/BoSVnLdFTkg/media/?size=m
 photo.7.author: lespan33
 photo.7.link: https://www.instagram.com/lespan33/
-photo.7.smile: smile, tongue
+photo.7.smile: portrait, smile, tongue
 photo.8: https://www.instagram.com/p/BobJdA8FmJe/media/?size=m
 photo.8.author: gloryeui
 photo.8.link: https://www.instagram.com/gloryeui/
+photo.8.tags: door
 photo.9: https://www.instagram.com/p/BogprdeFsRe/media/?size=m
 photo.9.author: kinkinkin0826
 photo.9.link: https://www.instagram.com/kinkinkin0826/
-photo.9.tags: tree
+photo.9.tags: portrait, tree
 photo.10: https://www.instagram.com/p/Boy_3GllNLK/media/?size=m
 photo.10.author: makimaru18
 photo.10.link: https://www.instagram.com/makimaru18/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Bo3y0_rFOpt/media/?size=m
 photo.11.author: kinkinkin0826
 photo.11.link: https://www.instagram.com/kinkinkin0826/
@@ -60,6 +63,7 @@ photo.11.tags: laying down
 photo.12: https://www.instagram.com/p/Bo6gJX3lK4t/media/?size=m
 photo.12.author: gloryeui
 photo.12.link: https://www.instagram.com/gloryeui/
+photo.12.tags: door
 photo.13: https://www.instagram.com/p/BpMXdAyF6JF/media/?size=m
 photo.13.author: kinkinkin0826
 photo.13.link: https://www.instagram.com/kinkinkin0826/
@@ -77,16 +81,18 @@ photo.16.tags: apple time
 photo.17: https://www.instagram.com/p/Bp4diKwlW5m/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
+photo.17.tags: portrait
 photo.18: https://www.instagram.com/p/BqCg3HiFB55/media/?size=m
 photo.18.author: mofu_pan
 photo.18.link: https://www.instagram.com/mofu_pan/
 photo.19: https://www.instagram.com/p/BqFCw9dFtEf/media/?size=m
 photo.19.author: kinkinkin0826
 photo.19.link: https://www.instagram.com/kinkinkin0826/
+photo.19.tags: portrait
 photo.20: https://www.instagram.com/p/BquONFAF3n_/media/?size=m
 photo.20.author: kinkinkin0826
 photo.20.link: https://www.instagram.com/kinkinkin0826/
-photo.20.tags: mofumofu, tail
+photo.20.tags: mofumofu, portrait, tail
 photo.21: https://www.instagram.com/p/BrfLFAXFRW3/media/?size=m
 photo.21.author: lespan33
 photo.21.link: https://www.instagram.com/lespan33/
@@ -97,6 +103,7 @@ photo.22.tags: apple time
 photo.23: https://www.instagram.com/p/Br08swKFP5I/media/?size=m
 photo.23.author: motohin
 photo.23.link: https://www.instagram.com/motohin/
+photo.23.tags: portrait
 photo.24: https://www.instagram.com/p/Bsh_mpyFzlU/media/?size=m
 photo.24.author: redpanda_nippon_takashi
 photo.24.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -104,6 +111,7 @@ photo.24.tags: apple time, dish, smile
 photo.25: https://www.instagram.com/p/BsnR4CulxDz/media/?size=m
 photo.25.author: kinkinkin0826
 photo.25.link: https://www.instagram.com/kinkinkin0826/
+photo.25.tags: door, portrait
 photo.26: https://www.instagram.com/p/Bs0QjL5FKbU/media/?size=m
 photo.26.author: bubbles_octi
 photo.26.link: https://www.instagram.com/bubbles_octi/
@@ -115,6 +123,7 @@ photo.27.tags: itchy, tail, tongue
 photo.28: https://www.instagram.com/p/Bs-Z1N8FI87/media/?size=m
 photo.28.author: kinkinkin0826
 photo.28.link: https://www.instagram.com/kinkinkin0826/
+photo.28.tags: portrait
 photo.29: https://www.instagram.com/p/BtCT3_VFC5S/media/?size=m
 photo.29.author: lespan33
 photo.29.link: https://www.instagram.com/lespan33/
@@ -133,7 +142,7 @@ photo.32.link: https://www.instagram.com/gloryeui/
 photo.33: https://www.instagram.com/p/BvESKw1lJQk/media/?size=m
 photo.33.author: kinkinkin0826
 photo.33.link: https://www.instagram.com/kinkinkin0826/
-photo.33.tags: mofumofu
+photo.33.tags: mofumofu, portrait
 photo.34: https://www.instagram.com/p/BvQbH0zl3zS/media/?size=m
 photo.34.author: akiakiakiko18
 photo.34.link: https://www.instagram.com/akiakiakiko18/
@@ -141,7 +150,7 @@ photo.34.tags: apple time, dish
 photo.35: https://www.instagram.com/p/BvOmOh-lFEv/media/?size=m
 photo.35.author: zoo11wan
 photo.35.link: https://www.instagram.com/zoo11wan/
-photo.35.tags: laying down, tail
+photo.35.tags: laying down, portrait, tail
 photo.36: https://www.instagram.com/p/BYvVqO7AzrP/media/?size=m
 photo.36.author: kinkinkin0826
 photo.36.link: https://www.instagram.com/kinkinkin0826/
@@ -161,14 +170,15 @@ photo.39.tags: smile
 photo.40: https://www.instagram.com/p/BwrzdCsFiof/media/?size=m
 photo.40.author: xmarurux
 photo.40.link: https://www.instagram.com/xmarurux/
+photo.40.tags: portrait
 photo.41: https://www.instagram.com/p/BxXlT5dliYT/media/?size=m
 photo.41.author: makimaru18
 photo.41.link: https://www.instagram.com/makimaru18/
-photo.41.tags: flowers, smile
+photo.41.tags: flowers, portrait, smile
 photo.42: https://www.instagram.com/p/BxqbXlJlt60/media/?size=m
 photo.42.author: yakko____
 photo.42.link: https://www.instagram.com/yakko____/
-photo.42.tags: apple time, keeper
+photo.42.tags: apple time, keeper, portrait
 photo.43: https://www.instagram.com/p/BxyuNYTFiLK/media/?size=m
 photo.43.author: lespan33
 photo.43.link: https://www.instagram.com/lespan33/
@@ -176,7 +186,7 @@ photo.43.tags: flowers, marking, tail
 photo.44: https://www.instagram.com/p/ByEDFUThvaV/media/?size=m
 photo.44.author: akiakiakiko18
 photo.44.link: https://www.instagram.com/akiakiakiko18/
-photo.44.tags: smile
+photo.44.tags: portrait, smile
 photo.45: https://www.instagram.com/p/ByL8GLUhAV3/media/?size=m
 photo.45.author: lespan33
 photo.45.link: https://www.instagram.com/lespan33/
@@ -189,5 +199,9 @@ photo.47: https://www.instagram.com/p/ByH_drDhDfx/media/?size=m
 photo.47.author: kinkinkin0826
 photo.47.link: https://www.instagram.com/kinkinkin0826/
 photo.47.tags: dish, smile, tongue
+photo.48: https://www.instagram.com/p/BySalO4B5Fu/media/?size=m
+photo.48.author: lespan33
+photo.48.link: https://www.instagram.com/lespan33/
+photo.48.tags: flowers, lips
 species: 2
 zoo: 2

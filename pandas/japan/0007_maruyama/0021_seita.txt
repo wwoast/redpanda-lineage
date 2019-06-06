@@ -17,23 +17,23 @@ location.2: 7, 2008/6/28
 photo.1: https://www.instagram.com/p/BbD4AuwnbIl/media/?size=m
 photo.1.author: cattail.sapporo
 photo.1.link: https://www.instagram.com/cattail.sapporo/
-photo.1.tags: apple time
+photo.1.tags: apple time, keeper, portrait
 photo.2: https://www.instagram.com/p/BjIpgeUgbsc/media/?size=m
 photo.2.author: cattail.sapporo
 photo.2.link: https://www.instagram.com/cattail.sapporo/
-photo.2.tags: sleeping
+photo.2.tags: portrait, sleeping
 photo.3: https://www.instagram.com/p/BlxiDnwH5Jq/media/?size=m
 photo.3.author: cattail.sapporo
 photo.3.link: https://www.instagram.com/cattail.sapporo/
-photo.3.tags: dish
+photo.3.tags: dish, portrait
 photo.4: https://www.instagram.com/p/BhXd7jTnJC5/media/?size=m
 photo.4.author: cattail.sapporo
 photo.4.link: https://www.instagram.com/cattail.sapporo/
-photo.4.tags: paws
+photo.4.tags: paws, portrait
 photo.5: https://www.instagram.com/p/Bbn3iMpnz4C/media/?size=m
 photo.5.author: cattail.sapporo
 photo.5.link: https://www.instagram.com/cattail.sapporo/
-photo.5.tags: bamboo
+photo.5.tags: bamboo, portrait
 photo.6: https://www.instagram.com/p/BoiUY9vn1Cb/media/?size=m
 photo.6.author: cattail.sapporo
 photo.6.link: https://www.instagram.com/cattail.sapporo/
@@ -62,7 +62,7 @@ photo.12.link: https://www.instagram.com/nishicotolo/
 photo.13: https://www.instagram.com/p/BqTYlUAH7rE/media/?size=m
 photo.13.author: cattail.sapporo
 photo.13.link: https://www.instagram.com/cattail.sapporo/
-photo.13.tags: apple time, paws
+photo.13.tags: apple time, paws, portrait
 photo.14: https://www.instagram.com/p/Bqe7McLFpk2/media/?size=m
 photo.14.author: mifko55
 photo.14.link: https://www.instagram.com/mifko55/
@@ -70,19 +70,19 @@ photo.14.tags: paws, tail
 photo.15: https://www.instagram.com/p/BqpIS83FI7B/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
-photo.15.tags: bridge
+photo.15.tags: bridge, portrait
 photo.16: https://www.instagram.com/p/Bq6gmnKnF5Y/media/?size=m
 photo.16.author: cattail.sapporo
 photo.16.link: https://www.instagram.com/cattail.sapporo/
-photo.16.tags: laying down
+photo.16.tags: laying down, portrait
 photo.17: https://www.instagram.com/p/BraChDEnSqJ/media/?size=m
 photo.17.author: cattail.sapporo
 photo.17.link: https://www.instagram.com/cattail.sapporo/
-photo.17.tags: dish
+photo.17.tags: dish, portrait
 photo.18: https://www.instagram.com/p/BrduofbH2U1/media/?size=m
 photo.18.author: cattail.sapporo
 photo.18.link: https://www.instagram.com/cattail.sapporo/
-photo.18.tags: bridge, yawn
+photo.18.tags: bridge, portrait, yawn
 photo.19: https://www.instagram.com/p/BrkUVY8FlvW/media/?size=m
 photo.19.author: minatomirai215
 photo.19.link: https://www.instagram.com/minatomirai215/
@@ -90,11 +90,11 @@ photo.19.tags: snow
 photo.20: https://www.instagram.com/p/BSqlu-rgwJc/media/?size=m
 photo.20.author: mari_neko3
 photo.20.link: https://www.instagram.com/mari_neko3/
-photo.20.tags: smile, techitechi
+photo.20.tags: portrait, smile, techitechi
 photo.21: https://www.instagram.com/p/BrxOVR9FnUy/media/?size=m
 photo.21.author: mifko55
 photo.21.link: https://www.instagram.com/mifko55/
-photo.21.tags: snow
+photo.21.tags: portrait, snow
 photo.22: https://www.instagram.com/p/BryK1wSnOBc/media/?size=m
 photo.22.author: cattail.sapporo
 photo.22.link: https://www.instagram.com/cattail.sapporo/
@@ -102,29 +102,30 @@ photo.22.tags: tongue
 photo.23: https://www.instagram.com/p/BsNUThgnJQi/media/?size=m
 photo.23.author: cattail.sapporo
 photo.23.link: https://www.instagram.com/cattail.sapporo/
-photo.23.tags: snow, tail
+photo.23.tags: portrait, snow, tail
 photo.24: https://www.instagram.com/p/BsVLfpelrkJ/media/?size=m
 photo.24.author: nishicotolo
 photo.24.link: https://www.instagram.com/nishicotolo/
 photo.25: https://www.instagram.com/p/BsqATyungjK/media/?size=m
 photo.25.author: cattail.sapporo
 photo.25.link: https://www.instagram.com/cattail.sapporo/
-photo.25.tags: snow, tail
+photo.25.tags: portrait, snow, tail
 photo.26: https://www.instagram.com/p/BsuknAUHc9K/media/?size=m
 photo.26.author: cattail.sapporo
 photo.26.link: https://www.instagram.com/cattail.sapporo/
+photo.26.tags: portrait
 photo.27: https://www.instagram.com/p/Bs76UTLFP7O/media/?size=m
 photo.27.author: _sealiz
 photo.27.link: https://www.instagram.com/_sealiz/
-photo.27.tags: profile
+photo.27.tags: portrait, profile
 photo.28: https://www.instagram.com/p/Bs9xgpknVcv/media/?size=m
 photo.28.author: cattail.sapporo
 photo.28.link: https://www.instagram.com/cattail.sapporo/
-photo.28.tags: paws, snow, tail
+photo.28.tags: paws, portrait, snow, tail
 photo.29: https://www.instagram.com/p/Bt1XUFJgGeL/media/?size=m
 photo.29.author: cattail.sapporo
 photo.29.link: https://www.instagram.com/cattail.sapporo/
-photo.29.tags: snow, tail
+photo.29.tags: bite, snow, tail
 photo.30: https://www.instagram.com/p/BuCP9MfHfdU/media/?size=m
 photo.30.author: cattail.sapporo
 photo.30.link: https://www.instagram.com/cattail.sapporo/
@@ -140,19 +141,19 @@ photo.32.tags: paws
 photo.33: https://www.instagram.com/p/BulWKqwly7m/media/?size=m
 photo.33.author: mari_neko3
 photo.33.link: https://www.instagram.com/mari_neko3/
-photo.33.tags: apple time, dish, smile
+photo.33.tags: apple time, dish, portrait, smile
 photo.34: https://www.instagram.com/p/BuiLwKSl7_0/media/?size=m
 photo.34.author: mari_neko3
 photo.34.link: https://www.instagram.com/mari_neko3/
-photo.34.tags: bridge, smile
+photo.34.tags: bridge, portrait, smile
 photo.35: https://www.instagram.com/p/ButIcSTlZ5f/media/?size=m
 photo.35.author: mari_neko3
 photo.35.link: https://www.instagram.com/mari_neko3/
-photo.35.tags: bridge, smile
+photo.35.tags: bridge, portrait, smile
 photo.36: https://www.instagram.com/p/BvIUN1sFF9t/media/?size=m
 photo.36.author: mari_neko3
 photo.36.link: https://www.instagram.com/mari_neko3/
-photo.36.tags: blink, smile, yawn
+photo.36.tags: blink, portrait, smile, yawn
 photo.37: https://www.instagram.com/p/BvOyuJvFXPV/media/?size=m
 photo.37.author: izu_108
 photo.37.link: https://www.instagram.com/izu_108/
@@ -160,7 +161,7 @@ photo.37.tags: climb, paws
 photo.38: https://www.instagram.com/p/Bv7hQQenDRB/media/?size=m
 photo.38.author: cattail.sapporo
 photo.38.link: https://www.instagram.com/cattail.sapporo/
-photo.38.tags: smile
+photo.38.tags: portrait, smile
 photo.39: https://www.instagram.com/p/Bv89us8l3MI/media/?size=m
 photo.39.author: mari_neko3
 photo.39.link: https://www.instagram.com/mari_neko3/
@@ -168,7 +169,7 @@ photo.39.tags: smile
 photo.40: https://www.instagram.com/p/BwCDtFlH34d/media/?size=m
 photo.40.author: cattail.sapporo
 photo.40.link: https://www.instagram.com/cattail.sapporo/
-photo.40.tags: bridge, laying down
+photo.40.tags: bridge, laying down, portrait
 photo.41: https://www.instagram.com/p/BwShXUOAONc/media/?size=m
 photo.41.author: cattail.sapporo
 photo.41.link: https://www.instagram.com/cattail.sapporo/
@@ -176,7 +177,7 @@ photo.41.tags: dish, tongue
 photo.42: https://www.instagram.com/p/BwmhAh8gm3h/media/?size=m
 photo.42.author: cattail.sapporo
 photo.42.link: https://www.instagram.com/cattail.sapporo/
-photo.42.tags: smile, snow
+photo.42.tags: portrait, smile, snow
 photo.43: https://www.instagram.com/p/BwtE-48lhS0/media/?size=m
 photo.43.author: kipekaila
 photo.43.link: https://www.instagram.com/kipekaila/
@@ -193,5 +194,9 @@ photo.46: https://www.instagram.com/p/ByIHvCHBNuK/media/?size=m
 photo.46.author: mifko55
 photo.46.link: https://www.instagram.com/mifko55/
 photo.46.tags: home, laying down
+photo.47: https://www.instagram.com/p/ByU682Phrc4/media/?size=m
+photo.47.author: tama67photo
+photo.47.link: https://www.instagram.com/tama67photo/
+photo.47.tags: bridge, laying down, portrait
 species: 2
 zoo: 7
