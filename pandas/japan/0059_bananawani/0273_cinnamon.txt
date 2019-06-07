@@ -15,17 +15,22 @@ litter: none
 photo.1: https://www.instagram.com/p/BlII8KklzQu/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: bamboo
+photo.1.tags: bamboo, portrait
 photo.2: https://www.instagram.com/p/Bl-fnqDlEl4/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: dish, lunch time, profile
+photo.2.tags: dish, lunch time, portrait
 photo.3: https://www.instagram.com/p/BhycoOEl7H1/media/?size=m
 photo.3.author: hanamaru_redpanda
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BdmoPfSlVfb/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait
+photo.5: https://www.instagram.com/p/ByVDtw1A2wQ/media/?size=m
+photo.5.author: miis_98
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: dish, portrait, profile
 species: 1
 zoo: 59
