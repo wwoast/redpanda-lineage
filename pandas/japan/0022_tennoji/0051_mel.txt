@@ -17,11 +17,11 @@ location.2: 22, 2015/4/21
 photo.1: https://www.instagram.com/p/Bk_N3cSF5Rp/media/?size=m
 photo.1.author: tokkoo0524
 photo.1.link: https://www.instagram.com/tokkoo0524/
-photo.1.tags: bamboo
+photo.1.tags: bamboo, portrait
 photo.2: https://www.instagram.com/p/BdsMLXIAEjK/media/?size=m
 photo.2.author: shrimpieaqua
 photo.2.link: https://www.instagram.com/shrimpieaqua/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BlaHmJ6l01i/media/?size=m
 photo.3.author: makimaru18
 photo.3.link: https://www.instagram.com/makimaru18/
@@ -29,7 +29,7 @@ photo.3.tags: grooming, tail
 photo.4: https://www.instagram.com/p/BW2pTQ8gMAl/media/?size=m
 photo.4.author: bubbles_octi
 photo.4.link: https://www.instagram.com/bubbles_octi/
-photo.4.tags: profile
+photo.4.tags: portrait, profile
 photo.5: https://www.instagram.com/p/BhGo4WVA2pi/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.link: https://www.instagram.com/daniele.tokyo/
@@ -40,15 +40,15 @@ photo.6.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.7: https://www.instagram.com/p/BoN4nMUlC5L/media/?size=m
 photo.7.author: makimaru18
 photo.7.link: https://www.instagram.com/makimaru18/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/BothxsFljnf/media/?size=m
 photo.8.author: yossi929
 photo.8.link: https://www.instagram.com/yossi929/
-photo.8.tags: smile
+photo.8.tags: portrait, smile
 photo.9: https://www.instagram.com/p/BpEspQdlWOZ/media/?size=m
 photo.9.author: makimaru18
 photo.9.link: https://www.instagram.com/makimaru18/
-photo.9.tags: grumpy, lips
+photo.9.tags: grumpy, lips, portrait
 photo.10: https://www.instagram.com/p/BpLRPpeF3T5/media/?size=m
 photo.10.author: kotata_513
 photo.10.link: https://www.instagram.com/kotata_513/
@@ -64,6 +64,7 @@ photo.12.tags: standing
 photo.13: https://www.instagram.com/p/Bq3swLrFUqy/media/?size=m
 photo.13.author: redpan22
 photo.13.link: https://www.instagram.com/redpan22/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/Bq-ErAhFcid/media/?size=m
 photo.14.author: bubbles_octi
 photo.14.link: https://www.instagram.com/bubbles_octi/
@@ -71,15 +72,15 @@ photo.14.tags: autumn
 photo.15: https://www.instagram.com/p/BrKyL7DlxgQ/media/?size=m
 photo.15.author: lespan33
 photo.15.link: https://www.instagram.com/lespan33/
-photo.15.tags: bamboo
+photo.15.tags: bamboo, portrait
 photo.16: https://www.instagram.com/p/BrcJplylHMu/media/?size=m
 photo.16.author: sakikukeco
 photo.16.link: https://www.instagram.com/sakikukeco/
-photo.16.tags: air tasting, tongue
+photo.16.tags: air tasting, portrait, tongue
 photo.17: https://www.instagram.com/p/Br2VKRAF9M-/media/?size=m
 photo.17.author: makimaru18
 photo.17.link: https://www.instagram.com/makimaru18/
-photo.17.tags: smile
+photo.17.tags: portrait, smile
 photo.18: https://www.instagram.com/p/Br2usF0lwiy/media/?size=m
 photo.18.author: sakikukeco
 photo.18.link: https://www.instagram.com/sakikukeco/
@@ -87,13 +88,15 @@ photo.18.tags: surprise
 photo.19: https://www.instagram.com/p/BsaZjbXFGaQ/media/?size=m
 photo.19.author: sakikukeco
 photo.19.link: https://www.instagram.com/sakikukeco/
-photo.19.tags: ear, smile
+photo.19.tags: ear, portrait, smile
 photo.20: https://www.instagram.com/p/BssIGB7FXRx/media/?size=m
 photo.20.author: red.pan_da
 photo.20.link: https://www.instagram.com/red.pan_da/
+photo.20.tags: portrait
 photo.21: https://www.instagram.com/p/BtDmDlulDL7/media/?size=m
 photo.21.author: bubbles_octi
 photo.21.link: https://www.instagram.com/bubbles_octi/
+photo.21.tags: portrait
 photo.22: https://www.instagram.com/p/BtlSNTKloQy/media/?size=m
 photo.22.author: joy93.87
 photo.22.link: https://www.instagram.com/joy93.87/
@@ -109,7 +112,7 @@ photo.24.tags: paws, tail
 photo.25: https://www.instagram.com/p/BvJoKs0ln91/media/?size=m
 photo.25.author: makimaru18
 photo.25.link: https://www.instagram.com/makimaru18/
-photo.25.tags: air tasting, tongue
+photo.25.tags: air tasting, portrait, tongue
 photo.26: https://www.instagram.com/p/BvtjLIVFIFh/media/?size=m
 photo.26.author: kinkinkin0826
 photo.26.link: https://www.instagram.com/kinkinkin0826/
@@ -117,6 +120,7 @@ photo.26.tags: laying down
 photo.27: https://www.instagram.com/p/BvxdCvXl5MQ/media/?size=m
 photo.27.author: makimaru18
 photo.27.link: https://www.instagram.com/makimaru18/
+photo.27.tags: portrait
 photo.28: https://www.instagram.com/p/Bwr1JQGlIDA/media/?size=m
 photo.28.author: xmarurux
 photo.28.link: https://www.instagram.com/xmarurux/
@@ -124,7 +128,7 @@ photo.28.tags: tree
 photo.29: https://www.instagram.com/p/BxM6RaTl59w/media/?size=m
 photo.29.author: sakikukeco
 photo.29.link: https://www.instagram.com/sakikukeco/
-photo.29.tags: ear
+photo.29.tags: ear, portrait
 photo.30: https://www.instagram.com/p/BxSDWyrlZtj/media/?size=m
 photo.30.author: sakikukeco
 photo.30.link: https://www.instagram.com/sakikukeco/
@@ -132,10 +136,14 @@ photo.30.tags: toys
 photo.31: https://www.instagram.com/p/BxruutDFAog/media/?size=m
 photo.31.author: firefoxpanda88
 photo.31.link: https://www.instagram.com/firefoxpanda88/
-photo.31.tags: itchy, smile
+photo.31.tags: itchy, portrait, smile
 photo.32: https://www.instagram.com/p/Bx47Vz4hU1M/media/?size=m
 photo.32.author: sakikukeco
 photo.32.link: https://www.instagram.com/sakikukeco/
 photo.32.tags: laying down, tail
+photo.33: https://www.instagram.com/p/ByabCc5hf1E/media/?size=m
+photo.33.author: sakikukeco
+photo.33.link: https://www.instagram.com/sakikukeco/
+photo.33.tags: apple time, portrait
 species: 2
 zoo: 22
