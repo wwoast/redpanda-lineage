@@ -1,0 +1,16 @@
+[panda]
+_id: 861
+birthday: 2018/6/25
+birthplace: 177
+children: none
+en.name: Xena
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゼナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 862
+species: 1
+zoo: 177

@@ -1,0 +1,18 @@
+[panda]
+_id: 859
+birthday: 2016/6/7
+birthplace: 114
+children: 861, 862
+en.name: Pabu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: パブ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 860
+location.1: 114, 2016/6/7
+location.2: 177, 2017/5/10
+species: 1
+zoo: 177
