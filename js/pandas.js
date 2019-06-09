@@ -442,7 +442,7 @@ Pandas.searchOldnames = function(name) {
     for (var i in otherfields) {
       field = otherfields[i];
       if (animal[field] != undefined) {
-        othernames = animal[field].split(',');
+        othernames = animal[field].split(',').map(x => x.trim());
         if (othernames.indexOf(name) != -1) {
           return animal;
         }
@@ -463,7 +463,7 @@ Pandas.searchOthernames = function(name) {
     for (var i in otherfields) {
       field = otherfields[i];
       if (animal[field] != undefined) {
-        othernames = animal[field].split(',');
+        othernames = animal[field].split(',').map(x => x.trim());
         if (othernames.indexOf(name) != -1) {
           return animal;
         }
