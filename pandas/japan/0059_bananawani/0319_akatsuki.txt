@@ -15,10 +15,22 @@ litter: 317, 318
 photo.1: https://www.codaworry.com/images/rpf/akatsuki-daniele-tokyo.jpg
 photo.1.author: daniele.tokyo
 photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: baby, eye, profile
+photo.1.tags: baby, eye
 photo.2: https://www.instagram.com/p/BtGBbXvlia0/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
 photo.2.tags: baby, eye, tree
+photo.3: https://www.instagram.com/p/BxFmpm8lYTm/media/?size=m
+photo.3.author: fetorus_mami
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: pooping, portrait, profile
+photo.4: https://www.instagram.com/p/Bw6w8WgAYFp/media/?size=m
+photo.4.author: teru6245
+photo.4.link: https://www.instagram.com/teru6245/
+photo.4.tags: laying down, tree
+photo.5: https://www.instagram.com/p/BycP8B-Br16/media/?size=m
+photo.5.author: _saaaaaaah_
+photo.5.link: https://www.instagram.com/_saaaaaaah_/
+photo.5.tags: laying down, tree, yawn
 species: 1
 zoo: 59

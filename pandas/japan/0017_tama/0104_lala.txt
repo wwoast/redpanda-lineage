@@ -21,25 +21,26 @@ photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BjHU-uiF2Qy/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: tongue
+photo.2.tags: portrait, tongue
 photo.3: https://www.instagram.com/p/BkH6nCql1dy/media/?size=m
 photo.3.author: daniele.tokyo
 photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: mofumofu, profile, tail, techitechi, snow
+photo.3.tags: mofumofu, portrait, profile, tail, techitechi, snow
 photo.4: https://www.instagram.com/p/BcY1fYFAmHi/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BkETlZ1lOTt/media/?size=m
 photo.5.author: kotata_513
 photo.5.link: https://www.instagram.com/kotata_513/
-photo.5.tags: tongue
+photo.5.tags: flowers, portrait, tongue
 photo.6: https://www.instagram.com/p/Bop9Wq4Fudm/media/?size=m
 photo.6.author: kotata_513
 photo.6.link: https://www.instagram.com/kotata_513/
 photo.7: https://www.instagram.com/p/Bpdkt0eFYyo/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: tongue
+photo.7.tags: portrait, tongue
 photo.8: https://www.instagram.com/p/Bpv3hWXlfv8/media/?size=m
 photo.8.author: mofu_pan
 photo.8.link: https://www.instagram.com/mofu_pan/
@@ -66,18 +67,18 @@ photo.13.tags: upside-down
 photo.14: https://www.instagram.com/p/BsMGlzkFcMo/media/?size=m
 photo.14.author: kotata_513
 photo.14.link: https://www.instagram.com/kotata_513/
-photo.14.tags: bamboo, mofumofu, tongue, tail
+photo.14.tags: bamboo, mofumofu, portrait, tongue, tail
 photo.15: https://www.instagram.com/p/BsN0FGolGDl/media/?size=m
 photo.15.author: ifumoto88
 photo.15.link: https://www.instagram.com/ifumoto88/
 photo.16: https://www.instagram.com/p/BsNJjUolMbY/media/?size=m
 photo.16.author: panda.daisuki
 photo.16.link: https://www.instagram.com/panda.daisuki/
-photo.16.tags: bamboo
+photo.16.tags: bamboo, portrait
 photo.17: https://www.instagram.com/p/Bscjav4FUqM/media/?size=m
 photo.17.author: kotata_513
 photo.17.link: https://www.instagram.com/kotata_513/
-photo.17.tags: bamboo, smile
+photo.17.tags: bamboo, portrait, smile
 photo.18: https://www.instagram.com/p/BtBQrSllyJL/media/?size=m
 photo.18.author: mariten1119
 photo.18.link: https://www.instagram.com/mariten1119/
@@ -85,7 +86,7 @@ photo.18.tags: bamboo, standing, tail
 photo.19: https://www.instagram.com/p/Btf2TD0FEg_/media/?size=m
 photo.19.author: daniele.tokyo
 photo.19.link: https://www.instagram.com/daniele.tokyo/
-photo.19.tags: mofumofu, yawn
+photo.19.tags: mofumofu, portrait, yawn
 photo.20: https://www.instagram.com/p/BtqdmU8FkQf/media/?size=m
 photo.20.author: codenameodk
 photo.20.link: https://www.instagram.com/codenameodk/
@@ -93,7 +94,7 @@ photo.20.tags: bamboo, mofumofu, tail
 photo.21: https://www.instagram.com/p/BuGsEk7F-ot/media/?size=m
 photo.21.author: resapan.suki
 photo.21.link: https://www.instagram.com/resapan.suki/
-photo.21.tags: tree
+photo.21.tags: portrait, tree
 photo.22: https://www.instagram.com/p/Bu1lkjJl51k/media/?size=m
 photo.22.author: codenameodk
 photo.22.link: https://www.instagram.com/codenameodk/
@@ -106,5 +107,9 @@ photo.24: https://www.instagram.com/p/BxgavpUFhCw/media/?size=m
 photo.24.author: kotata_513
 photo.24.link: https://www.instagram.com/kotata_513/
 photo.24.tags: bamboo, tongue
+photo.25: https://www.instagram.com/p/Byc1DSnhDCD/media/?size=m
+photo.25.author: codenameodk
+photo.25.link: https://www.instagram.com/codenameodk/
+photo.25.tags: portrait, smile
 species: 2
 zoo: 17
