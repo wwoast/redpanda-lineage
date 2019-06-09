@@ -1,0 +1,19 @@
+[panda]
+_id: 863
+birthday: 2008/6/28
+birthplace: 141
+children: unknown
+death: 2016/8/23
+en.name: Clay
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クレー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 817
+location.1: 141, 2008/6/28
+location.2: 177, 2009/5/3
+species: 1
+zoo: 177

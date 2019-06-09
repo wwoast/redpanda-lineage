@@ -15,6 +15,7 @@ litter: 311
 location.1: 80, 2014/6/30
 location.2: 130, 2015/5/18
 location.3: 129, 2018/1/24
+location.4: 112, 2019/5/1
 photo.1: https://www.instagram.com/p/BCQ_LTvykDP/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
@@ -26,6 +27,10 @@ photo.2.tags: bridge, paws
 photo.3: https://www.instagram.com/p/BXfsMI_Duru/media/?size=m
 photo.3.author: lincolnchildrenszoo
 photo.3.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.3.tas: laying down, paws
+photo.3.tags: laying down, paws
+photo.4: https://www.instagram.com/p/ByGlFOwFVhK/media/?size=m
+photo.4.author: chattanoogazoo
+photo.4.link: https://www.instagram.com/chattanoogazoo/
+photo.4.tags: tongue, yawn
 species: 1
-zoo: 129
+zoo: 112
