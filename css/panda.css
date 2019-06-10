@@ -783,6 +783,10 @@ div.pandaAbout, div.pandaLinks {
     margin-right: 8px;
 }
 
+div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
+    display: hidden;
+}
+
 div.pandaLinks ul.bamboo li:before {
     content: "🎍";
     margin-right: 8px;

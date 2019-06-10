@@ -24,6 +24,15 @@ Page.about.fetch = function() {
 }
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
+Page.about.mode_switch = function(media) {
+  if (media.matches) {
+    document.getElementsByClassName("pandaAbout onlyDesktop").display = "hidden";
+    document.getElementsByClassName("pandaAbout onlyMobile").display = "block";
+  } else {
+    document.getElementsByClassName("pandaAbout onlyMobile").display = "hidden";
+    document.getElementsByClassName("pandaAbout onlyDesktop").display = "block";
+  }
+}
 Page.about.render = function() {
   // Displays the about page when the button is clicked. Load content from a static
   // file based on the given language, and display it in a #contentFrame.about
@@ -32,6 +41,10 @@ Page.about.render = function() {
   } else if (Page.about.language != L.display) {
     Page.about.fetch();   // Language change event
   } else {
+    // Determine desktop or mobile, and display relevant instructions
+    var media = window.matchMedia("(max-width: 670px)");
+    Page.about.mode_switch(media);
+    media.addEventListener(Page.about.mode_switch);
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
