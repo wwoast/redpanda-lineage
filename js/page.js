@@ -26,11 +26,11 @@ Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 Page.about.mode_switch = function(media) {
   if (media.matches) {
-    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
+    Page.about.contents.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
+    Page.about.contents.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
   } else {
-    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
+    Page.about.contents.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "none";
+    Page.about.contents.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
   }
 }
 Page.about.render = function() {
@@ -43,8 +43,8 @@ Page.about.render = function() {
   } else {
     // Determine desktop or mobile, and display relevant instructions
     var media = window.matchMedia("(max-width: 670px)");
-    // Page.about.mode_switch(media);
-    // media.addListener(Page.about.mode_switch);
+    Page.about.mode_switch(media);
+    media.addListener(Page.about.mode_switch);
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
