@@ -14,5 +14,9 @@ language.order: en, jp
 litter: 860
 location.1: 114, 2016/6/7
 location.2: 177, 2017/5/10
+photo.1: https://www.instagram.com/p/BlS_d0enoNH/media/?size=m
+photo.1.author: decaturparkdistrict
+photo.1.link: https://www.instagram.com/decaturparkdistrict/
+photo.1.tags: profile
 species: 1
 zoo: 177

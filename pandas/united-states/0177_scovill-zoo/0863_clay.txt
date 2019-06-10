@@ -15,5 +15,17 @@ language.order: en, jp
 litter: 817
 location.1: 141, 2008/6/28
 location.2: 177, 2009/5/3
+photo.1: https://www.instagram.com/p/BKk2CZ_hCDy/media/?size=m
+photo.1.author: picturedecatur
+photo.1.link: https://www.instagram.com/picturedecatur/
+photo.1.tags: laying down
+photo.2: https://www.instagram.com/p/BHsteTPgPhB/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down
+photo.3: https://www.instagram.com/p/abNXj_pI4U/media/?size=m
+photo.3.author: hughmsullivan
+photo.3.link: https://www.instagram.com/hughmsullivan/
+photo.3.tags: profile 
 species: 1
 zoo: 177

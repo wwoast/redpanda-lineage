@@ -6,3 +6,9 @@ photo.1.link: https://www.instagram.com/fetorus_mami/
 photo.1.tags: 250, 251
 photo.1.tags.250.location: 120, 95
 photo.1.tags.251.location: 235, 75
+photo.2: https://www.instagram.com/p/ByfRd6mh-Uv/media/?size=m
+photo.2.author: fetorus_mami
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.tags: 250, 251
+photo.2.tags.250.location: 250, 95
+photo.2.tags.251.location: 85, 125
