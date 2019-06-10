@@ -43,8 +43,8 @@ Page.about.render = function() {
   } else {
     // Determine desktop or mobile, and display relevant instructions
     var media = window.matchMedia("(max-width: 670px)");
-    Page.about.mode_switch(media);
-    media.addListener(Page.about.mode_switch);
+    // Page.about.mode_switch(media);
+    // media.addListener(Page.about.mode_switch);
     Page.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
