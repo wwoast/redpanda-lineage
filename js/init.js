@@ -95,6 +95,10 @@ window.addEventListener('hashchange', function() {
 window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
     Page.about.render();
+    // Determine desktop or mobile, and display relevant instructions
+    var media = window.matchMedia("(max-width: 670px)");
+    Page.about.mode_switch(media);
+    media.addListener(Page.about.mode_switch);    
     // Add event listeners to the newly created About page buttons
     Page.sections.buttonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
