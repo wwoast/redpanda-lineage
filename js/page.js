@@ -26,11 +26,11 @@ Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 Page.about.mode_switch = function(media) {
   if (media.matches) {
-    document.getElementsByClassName("pandaAbout onlyDesktop").style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyMobile").style.display = "block";
+    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
+    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
   } else {
-    document.getElementsByClassName("pandaAbout onlyMobile").style.display = "none";
-    document.getElementsByClassName("pandaAbout onlyDesktop").style.display = "block";
+    document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "none";
+    document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
   }
 }
 Page.about.render = function() {
