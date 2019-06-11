@@ -1,0 +1,19 @@
+[panda]
+_id: 866
+birthday: 2013/6/6
+birthplace: 141
+children: 859, 860, 867
+en.name: Nutmeg
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナツメグ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 141, 2013/6/6
+location.2: 114, 2014/9/30
+location.3: 49, 2017/12/19
+species: 1
+zoo: 49

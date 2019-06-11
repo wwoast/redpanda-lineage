@@ -1,0 +1,19 @@
+[panda]
+_id: 870
+birthday: 2011/7/5
+birthplace: 120
+children: 868, 869
+en.name: Yanhua
+en.nicknames: none
+en.othernames: Yan-Hua
+gender: f
+jp.name: 陽花
+jp.nicknames: none
+jp.othernames: ヤンファ
+language.order: en, jp
+litter: unknown
+location.1: 120, 2011/7/5
+location.2: 114, 2012/5/17
+location.3: 160, 2015/12/8
+species: 1
+zoo: 160

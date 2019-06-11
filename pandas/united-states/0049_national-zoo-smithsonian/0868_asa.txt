@@ -1,0 +1,18 @@
+[panda]
+_id: 868
+birthday: 2014/5/27
+birthplace: 114
+children: none
+en.name: Asa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 869
+location.1: 114, 2014/5/27
+location.2: 49, 2015/12/8
+species: 1
+zoo: 49
