@@ -24,6 +24,7 @@ photo.2.link: https://www.instagram.com/minato.yokohama2130/
 photo.3: https://www.instagram.com/p/BoL092tlA6k/media/?size=m
 photo.3.author: minato.yokohama2130
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BpjWnRCF-rZ/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
@@ -39,6 +40,7 @@ photo.6.tags: standing
 photo.7: https://www.instagram.com/p/Bqe6ZFCFlpF/media/?size=m
 photo.7.author: minato.yokohama2130
 photo.7.link: https://www.instagram.com/minato.yokohama2130/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BqpBYHgFKgC/media/?size=m
 photo.8.author: minato.yokohama2130
 photo.8.link: https://www.instagram.com/minato.yokohama2130/
@@ -52,12 +54,15 @@ photo.10.link: https://www.instagram.com/minato.yokohama2130/
 photo.11: https://www.instagram.com/p/BrupY20FmEG/media/?size=m
 photo.11.author: minato.yokohama2130
 photo.11.link: https://www.instagram.com/minato.yokohama2130/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/Bp6u6mulHj1/media/?size=m
 photo.12.author: mugicha0312
 photo.12.link: https://www.instagram.com/mugicha0312/
+photo.12.tags: portrait
 photo.13: https://www.instagram.com/p/BsSrqjFlP5A/media/?size=m
 photo.13.author: minato.yokohama2130
 photo.13.link: https://www.instagram.com/minato.yokohama2130/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/BtAY8NrF1Vx/media/?size=m
 photo.14.author: mugicha0312
 photo.14.link: https://www.instagram.com/mugicha0312/
@@ -89,13 +94,18 @@ photo.20.tags: paws, tail
 photo.21: https://www.instagram.com/p/BwSJHz7FHPR/media/?size=m
 photo.21.author: akiakiakiko18
 photo.21.link: https://www.instagram.com/akiakiakiko18/
+photo.21.tags: portrait
 photo.22: https://www.instagram.com/p/BxUyhg_FLPG/media/?size=m
 photo.22.author: mugicha0312
 photo.22.link: https://www.instagram.com/mugicha0312/
-photo.22.tags: smile
+photo.22.tags: portrait, smile
 photo.23: https://www.instagram.com/p/BvYlNJQFMoR/media/?size=m
 photo.23.author: yakkooo24
 photo.23.link: https://www.instagram.com/yakkooo24/
 photo.23.tags: tail, tree
+photo.24: https://www.instagram.com/p/ByhlIcYhTSu/media/?size=m
+photo.24.author: minato.yokohama2130
+photo.24.link: https://www.instagram.com/minato.yokohama2130/
+photo.24.tags: bridge, paws, portrait
 species: 2
 zoo: 13

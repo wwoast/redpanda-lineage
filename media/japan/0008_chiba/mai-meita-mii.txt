@@ -1,0 +1,9 @@
+[media]
+_id: media.8.mai-meita-mii
+photo.1: https://www.instagram.com/p/ByiOMPJhwfd/media/?size=m
+photo.1.author: panda.daisuki
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: 38, 39, 43
+photo.1.tags.38.location: 250, 150
+photo.1.tags.39.location: 165, 195
+photo.1.tags.43.location: 100, 95
