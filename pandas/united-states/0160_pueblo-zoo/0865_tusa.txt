@@ -1,0 +1,19 @@
+[panda]
+_id: 865
+birthday: 2014/6/27
+birthplace: 177
+children: unknown
+en.name: Tusa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トゥサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 177, 2014/6/27
+location.2: 49, 2015/12/1
+location.3: 160, 2017/12/7
+species: 1
+zoo: 160
