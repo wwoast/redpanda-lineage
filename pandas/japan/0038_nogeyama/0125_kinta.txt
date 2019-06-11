@@ -18,11 +18,11 @@ location.2: 38, 2001/4/5
 photo.1: https://www.instagram.com/p/BjvN95sFdl4/media/?size=m
 photo.1.author: redpanda_nippon_takashi
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.1.tags: lips, profile, tongue
+photo.1.tags: lips, portrait, profile, tongue
 photo.2: https://www.instagram.com/p/BjlKW06FYdI/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: grooming, home, paws
+photo.2.tags: grooming, home, paws, portrait
 photo.3: https://www.instagram.com/p/Bgde0B4FA6n/media/?size=m
 photo.3.author: 218_yu
 photo.3.link: https://www.instagram.com/218_yu/
@@ -30,13 +30,14 @@ photo.3.tags: techitechi
 photo.4: https://www.instagram.com/p/BhMQQQ8h1aD/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait
 photo.5: https://www.instagram.com/p/Bj_1biIF8J6/media/?size=m
 photo.5.author: perie1027vivi
 photo.5.link: https://www.instagram.com/perie1027vivi/
 photo.6: https://www.instagram.com/p/Bfx0B6-BOi5/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Bgiu_d_l775/media/?size=m
 photo.7.author: 218_yu
 photo.7.link: https://www.instagram.com/218_yu/
@@ -44,13 +45,18 @@ photo.7.tags: tail
 photo.8: https://www.instagram.com/p/BivqbXzlGax/media/?size=m
 photo.8.author: miis_98
 photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: apple time
+photo.8.tags: apple time, portrait
 photo.9: https://www.instagram.com/p/BV9kkCZgTIL/media/?size=m
 photo.9.author: redpandatokyo
 photo.9.link: https://www.instagram.com/redpandatokyo/
-photo.9.tags: home, itchy, tail
+photo.9.tags: home, itchy, portrait, tail
 photo.10: https://www.instagram.com/p/BdahNNahMRP/media/?size=m
 photo.10.author: minatomirai215
 photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: portrait
+photo.11: https://www.instagram.com/p/ByjJ8qyB0iw/media/?size=m
+photo.11.author: minatomirai215
+photo.11.link: https://www.instagram.com/minatomirai215/
+photo.11.tags: paws, portrait
 species: 2
 zoo: 38

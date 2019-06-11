@@ -15,7 +15,7 @@ litter: 317, 319
 photo.1: https://www.instagram.com/p/BrPmWsOFcGa/media/?size=m
 photo.1.author: daniele.tokyo
 photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: baby, profile, tree
+photo.1.tags: baby, tree
 photo.2: https://www.instagram.com/p/BpRrWuQFiWI/media/?size=m
 photo.2.author: bananawani_official
 photo.2.link: https://www.instagram.com/bananawani_official/
@@ -23,10 +23,14 @@ photo.2.tags: baby
 photo.3: https://www.instagram.com/p/BrwqzpIFvyd/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: baby
+photo.3.tags: baby, portrait
 photo.4: https://www.instagram.com/p/BsFa1sOFoBP/media/?size=m
 photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: baby
+photo.4.tags: baby, portrait
+photo.5: https://www.instagram.com/p/ByiKXlphOKj/media/?size=m
+photo.5.author: miis_98
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: portrait, profile
 species: 1
 zoo: 59

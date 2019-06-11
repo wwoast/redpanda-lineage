@@ -17,11 +17,11 @@ location.2: 67, 2016/2/17
 photo.1: https://www.instagram.com/p/BWVHBANDagM/media/?size=m
 photo.1.author: carsontheredpanda
 photo.1.link: https://www.instagram.com/carsontheredpanda/
-photo.1.tags: sleeping, tree
+photo.1.tags: portrait, sleeping, tree
 photo.2: https://www.instagram.com/p/BStWUMfjHkb/media/?size=m
 photo.2.author: carsontheredpanda
 photo.2.link: https://www.instagram.com/carsontheredpanda/
-photo.2.tags: tail
+photo.2.tags: portrait, tail
 photo.3: https://www.instagram.com/p/BfyP0Jtj_wC/media/?size=m
 photo.3.author: carsontheredpanda
 photo.3.link: https://www.instagram.com/carsontheredpanda/
@@ -33,39 +33,39 @@ photo.4.tags: tree
 photo.5: https://www.instagram.com/p/Bhg4WfYlbJZ/media/?size=m
 photo.5.author: carsontheredpanda
 photo.5.link: https://www.instagram.com/carsontheredpanda/
-photo.5.tags: tree
+photo.5.tags: portrait, tree
 photo.6: https://www.instagram.com/p/Bh_zHoaFmfB/media/?size=m
 photo.6.author: carsontheredpanda
 photo.6.link: https://www.instagram.com/carsontheredpanda/
-photo.6.tags: itchy, tree
+photo.6.tags: itchy, portrait, tree
 photo.7: https://www.instagram.com/p/BjAcwIAFk0g/media/?size=m
 photo.7.author: carsontheredpanda
 photo.7.link: https://www.instagram.com/carsontheredpanda/
-photo.7.tags: tail, tree
+photo.7.tags: portrait, tail, tree
 photo.8: https://www.instagram.com/p/BnoaNW5FaJg/media/?size=m
 photo.8.author: carsontheredpanda
 photo.8.link: https://www.instagram.com/carsontheredpanda/
-photo.8.tags: smile, tail
+photo.8.tags: portrait, smile, tail
 photo.9: https://www.instagram.com/p/BoZS-hHFebQ/media/?size=m
 photo.9.author: carsontheredpanda
 photo.9.link: https://www.instagram.com/carsontheredpanda/
-photo.9.tags: tree
+photo.9.tags: portrait, tree
 photo.10: https://www.instagram.com/p/Bob287-F9wx/media/?size=m
 photo.10.author: carsontheredpanda
 photo.10.link: https://www.instagram.com/carsontheredpanda/
-photo.10.tags: home, lunch time, tree
+photo.10.tags: home, lunch time, portrait, tree
 photo.11: https://www.instagram.com/p/BojlEzBlDt4/media/?size=m
 photo.11.author: carsontheredpanda
 photo.11.link: https://www.instagram.com/carsontheredpanda/
-photo.11.tags: bamboo, smile, tree
+photo.11.tags: bamboo, portrait, smile, tree
 photo.12: https://www.instagram.com/p/Bo1eoqjlSLn/media/?size=m
 photo.12.author: carsontheredpanda
 photo.12.link: https://www.instagram.com/carsontheredpanda/
-photo.12.tags: smile, tongue, tree
+photo.12.tags: portrait, smile, tongue, tree
 photo.13: https://www.instagram.com/p/BpCeJDSFFM7/media/?size=m
 photo.13.author: carsontheredpanda
 photo.13.link: https://www.instagram.com/carsontheredpanda/
-photo.13.tags: bamboo, tree
+photo.13.tags: bamboo, portrait, tree
 photo.14: https://www.instagram.com/p/BpFCKvCFPOT/media/?size=m
 photo.14.author: carsontheredpanda
 photo.14.link: https://www.instagram.com/carsontheredpanda/
@@ -73,7 +73,7 @@ photo.14.tags: hammock
 photo.15: https://www.instagram.com/p/BpHrbZ3lnUk/media/?size=m
 photo.15.author: carsontheredpanda
 photo.15.link: https://www.instagram.com/carsontheredpanda/
-photo.15.tags: smile, tongue
+photo.15.tags: portrait, smile, tongue
 photo.16: https://www.instagram.com/p/BpM1xhaFrpM/media/?size=m
 photo.16.author: carsontheredpanda
 photo.16.link: https://www.instagram.com/carsontheredpanda/
@@ -97,19 +97,19 @@ photo.20.tags: tongue
 photo.21: https://www.instagram.com/p/BrMh9cvFVJ-/media/?size=m
 photo.21.author: carsontheredpanda
 photo.21.link: https://www.instagram.com/carsontheredpanda/
-photo.21.tags: profile, smile, tree
+photo.21.tags: portrait, profile, smile, tree
 photo.22: https://www.instagram.com/p/BTUEVTojScJ/media/?size=m
 photo.22.author: carsontheredpanda
 photo.22.link: https://www.instagram.com/carsontheredpanda/
-photo.22.tags: laying down, tree
+photo.22.tags: laying down, portrait, tree
 photo.23: https://www.instagram.com/p/BpR5aw1lPw9/media/?size=m
 photo.23.author: carsontheredpanda
 photo.23.link: https://www.instagram.com/carsontheredpanda/
-photo.23.tags: smile, tongue
+photo.23.tags: portrait, smile, tongue
 photo.24: https://www.instagram.com/p/BKdwj5ShSWk/media/?size=m
 photo.24.author: lincolnchildrenszoo
 photo.24.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.24.tags: smile, tongue
+photo.24.tags: portrait, smile, tongue
 photo.25: https://www.instagram.com/p/BwUk9UKlTuL/media/?size=m
 photo.25.author: carsontheredpanda
 photo.25.link: https://www.instagram.com/carsontheredpanda/
@@ -125,15 +125,15 @@ photo.27.tags: climb, standing, tree
 photo.28: https://www.instagram.com/p/Bwmj7EpFSal/media/?size=m
 photo.28.author: carsontheredpanda
 photo.28.link: https://www.instagram.com/carsontheredpanda/
-photo.28.tags: paws, tongue, tree
+photo.28.tags: paws, portrait, tongue, tree
 photo.29: https://www.instagram.com/p/BxC7U4vldGx/media/?size=m
 photo.29.author: carsontheredpanda
 photo.29.link: https://www.instagram.com/carsontheredpanda/
-photo.29.tags: paws, tongue, white face
+photo.29.tags: paws, portrait, tongue, white face
 photo.30: https://www.instagram.com/p/BxKofPVlrDY/media/?size=m
 photo.30.author: carsontheredpanda
 photo.30.link: https://www.instagram.com/carsontheredpanda/
-photo.30.tags: sleeping, tree
+photo.30.tags: portrait, sleeping, tree
 photo.31: https://www.instagram.com/p/BxPz7XtFDBG/media/?size=m
 photo.31.author: carsontheredpanda
 photo.31.link: https://www.instagram.com/carsontheredpanda/
@@ -141,18 +141,22 @@ photo.31.tags: peek, tree
 photo.32: https://www.instagram.com/p/BipCgWglbBa/media/?size=m
 photo.32.author: carsontheredpanda
 photo.32.link: https://www.instagram.com/carsontheredpanda/
-photo.32.tags: paws, tongue
+photo.32.tags: paws, portrait, tongue
 photo.33: https://www.instagram.com/p/Bxka2xIFqCp/media/?size=m
 photo.33.author: carsontheredpanda
 photo.33.link: https://www.instagram.com/carsontheredpanda/
-photo.33.tags: bamboo, smile
+photo.33.tags: bamboo, portrait, smile
 photo.34: https://www.instagram.com/p/BySuoiVhR_V/media/?size=m
 photo.34.author: carsontheredpanda
 photo.34.link: https://www.instagram.com/carsontheredpanda/
-photo.34.tags: tongue, tree, wink
+photo.34.tags: portrait, tongue, tree, wink
 photo.35: https://www.instagram.com/p/ByX2tlahVp5/media/?size=m
 photo.35.author: carsontheredpanda
 photo.35.link: https://www.instagram.com/carsontheredpanda/
-photo.35.tags: bamboo, smile, white face
+photo.35.tags: bamboo, portrait, smile, white face
+photo.36: https://www.instagram.com/p/ByiKh_UhEZa/media/?size=m
+photo.36.author: carsontheredpanda
+photo.36.link: https://www.instagram.com/carsontheredpanda/
+photo.36.tags: peek, portrait, tree
 species: 1
 zoo: 67

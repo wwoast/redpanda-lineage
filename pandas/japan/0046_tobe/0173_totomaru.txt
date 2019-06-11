@@ -14,7 +14,7 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BiFJ5JqlSmd/media/?size=m
 photo.1.author: itsuak
 photo.1.link: https://www.instagram.com/itsuak/
-photo.1.tags: bamboo, smile
+photo.1.tags: bamboo, portrait, smile
 photo.2: https://www.instagram.com/p/BnzZ95sFf9c/media/?size=m
 photo.2.author: kipekaila
 photo.2.link: https://www.instagram.com/kipekaila/
@@ -25,7 +25,7 @@ photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BpzRyXAFmCY/media/?size=m
 photo.4.author: itsuak
 photo.4.link: https://www.instagram.com/itsuak/
-photo.4.tags: laying down, smile, tongue
+photo.4.tags: laying down, portrait, smile, tongue
 photo.5: https://www.instagram.com/p/Bp1lHgzlrGi/media/?size=m
 photo.5.author: itsuak
 photo.5.link: https://www.instagram.com/itsuak/
@@ -33,10 +33,11 @@ photo.5.tags: smile, tongue
 photo.6: https://www.instagram.com/p/BprxhGmloYU/media/?size=m
 photo.6.author: itsuak
 photo.6.link: https://www.instagram.com/itsuak/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Bp4Ra0hFw1u/media/?size=m
 photo.7.author: itsuak
 photo.7.link: https://www.instagram.com/itsuak/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/Bp4r48AFTz8/media/?size=m
 photo.8.author: nakacchi_desu
 photo.8.link: https://www.instagram.com/nakacchi_desu/
@@ -44,7 +45,7 @@ photo.8.tags: bamboo, tongue
 photo.9: https://www.instagram.com/p/Bp6x4Lclbm9/media/?size=m
 photo.9.author: itsuak
 photo.9.link: https://www.instagram.com/itsuak/
-photo.9.tags: home, smile
+photo.9.tags: home, portrait, smile
 photo.10: https://www.instagram.com/p/BqHss5dFObo/media/?size=m
 photo.10.author: itsuak
 photo.10.link: https://www.instagram.com/itsuak/
@@ -52,7 +53,7 @@ photo.10.tags: bamboo, smile
 photo.11: https://www.instagram.com/p/BqKTm0bFLyM/media/?size=m
 photo.11.author: itsuak
 photo.11.link: https://www.instagram.com/itsuak/
-photo.11.tags: bamboo, laying down
+photo.11.tags: bamboo, laying down, portrait
 photo.12: https://www.instagram.com/p/BqqScoTFFzK/media/?size=m
 photo.12.author: itsuak
 photo.12.link: https://www.instagram.com/itsuak/
@@ -64,15 +65,15 @@ photo.13.tags: flowers
 photo.14: https://www.instagram.com/p/Bq7kceCFRdd/media/?size=m
 photo.14.author: itsuak
 photo.14.link: https://www.instagram.com/itsuak/
-photo.14.tags: smile, tongue
+photo.14.tags: portrait, smile, tongue
 photo.15: https://www.instagram.com/p/BrLAo-iFmZV/media/?size=m
 photo.15.author: itsuak
 photo.15.link: https://www.instagram.com/itsuak/
-photo.15.tags: laying down
+photo.15.tags: laying down, portrait
 photo.16: https://www.instagram.com/p/BrP4-Oplpm0/media/?size=m
 photo.16.author: itsuak
 photo.16.link: https://www.instagram.com/itsuak/
-photo.16.tags: smile, tongue
+photo.16.tags: portrait, smile, tongue
 photo.17: https://www.instagram.com/p/BrVBczrFDGB/media/?size=m
 photo.17.author: itsuak
 photo.17.link: https://www.instagram.com/itsuak/
@@ -83,7 +84,7 @@ photo.18.tags: sleeping, tail
 photo.19: https://www.instagram.com/p/BqZdj4ann2q/media/?size=m
 photo.19.author: joy93.87
 photo.19.link: https://www.instagram.com/joy93.87/
-photo.19.tags: laying down, tail
+photo.19.tags: laying down, portrait, tail
 photo.20: https://www.instagram.com/p/BeTAqucltnt/media/?size=m
 photo.20.author: fetorus_mami
 photo.20.link: https://www.instagram.com/fetorus_mami/
@@ -107,7 +108,7 @@ photo.24.tags: sleeping
 photo.25: https://www.instagram.com/p/BsfgAcklBwh/media/?size=m
 photo.25.author: itsuak
 photo.25.link: https://www.instagram.com/itsuak/
-photo.25.tags: bamboo
+photo.25.tags: bamboo, portrait
 photo.26: https://www.instagram.com/p/BsfxZHjlhVe/media/?size=m
 photo.26.author: redpanda_nippon_takashi
 photo.26.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -122,6 +123,7 @@ photo.28.tags: bamboo, wink
 photo.29: https://www.instagram.com/p/Btf7Asylw2i/media/?size=m
 photo.29.author: itsuak
 photo.29.link: https://www.instagram.com/itsuak/
+photo.29.tags: portrait
 photo.30: https://www.instagram.com/p/Bt3Q_9Zliri/media/?size=m
 photo.30.author: itsuak
 photo.30.link: https://www.instagram.com/itsuak/
@@ -129,11 +131,11 @@ photo.30.tags: laying down, tail
 photo.31: https://www.instagram.com/p/BuB24nNl001/media/?size=m
 photo.31.author: itsuak
 photo.31.link: https://www.instagram.com/itsuak/
-photo.31.tags: paws, smile
+photo.31.tags: paws, portrait, smile
 photo.32: https://www.instagram.com/p/BuMEI_dl-8J/media/?size=m
 photo.32.author: itsuak
 photo.32.link: https://www.instagram.com/itsuak/
-photo.32.tags: smile, tail
+photo.32.tags: portrait, smile, tail
 photo.33: https://www.instagram.com/p/BvwSJj7FDPY/media/?size=m
 photo.33.author: itsuak
 photo.33.link: https://www.instagram.com/itsuak/
@@ -144,7 +146,7 @@ photo.34.link: https://www.instagram.com/itsuak/
 photo.35: https://www.instagram.com/p/BxCjMTsFoig/media/?size=m
 photo.35.author: daniele.tokyo
 photo.35.link: https://www.instagram.com/daniele.tokyo/
-photo.35.tags: ear, smile
+photo.35.tags: ear, portrait, smile
 photo.36: https://www.instagram.com/p/Bxa4maPF-Te/media/?size=m
 photo.36.author: itsuak
 photo.36.link: https://www.instagram.com/itsuak/
@@ -152,7 +154,7 @@ photo.36.tags: bamboo, laying down, paws
 photo.37: https://www.instagram.com/p/Bx82hdvBoTm/media/?size=m
 photo.37.author: totolove0724
 photo.37.link: https://www.instagram.com/totolove0724/
-photo.37.tags: laying down, paws
+photo.37.tags: laying down, paws, portrait
 photo.38: https://www.instagram.com/p/ByGrOyPhJL-/media/?size=m
 photo.38.author: itsuak
 photo.38.link: https://www.instagram.com/itsuak/
@@ -161,5 +163,9 @@ photo.39: https://www.instagram.com/p/ByZ432UBxKR/media/?size=m
 photo.39.author: itsuak
 photo.39.link: https://www.instagram.com/itsuak/
 photo.39.tags: laying down, tongue
+photo.40: https://www.instagram.com/p/ByhxyS5hVw-/media/?size=m
+photo.40.author: yossi929
+photo.40.link: https://www.instagram.com/yossi929/
+photo.40.tags: bamboo, portrait
 species: 2
 zoo: 46
