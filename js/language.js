@@ -871,7 +871,7 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
-       "en": ["long tongue, long-tongue"],
+       "en": ["long tongue", "long-tongue"],
        "jp": ["長い舌"]
   },
   "lunch time": {

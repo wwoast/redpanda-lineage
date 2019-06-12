@@ -811,6 +811,10 @@ div.pandaAbout > p > a, div.pandaLinks > p > a, div.pandaAbout > ul > li > a, di
     color: white;  /* Links in About page body text keep underlines */
 }
 
+div.pandaAbout > ul.linkList > li > a {
+    text-decoration: none !important;
+}
+
 div.pandaAbout h4 {
     color: white;
     text-decoration: none !important;
