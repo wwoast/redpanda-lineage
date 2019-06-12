@@ -1313,7 +1313,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-right: 8px;
     }
 
-    ul.linkList.multiColumn, ul.tagList.multiColumn {
+    ul.linkList.multiColumn {
         column-count: 1;
     }
 
