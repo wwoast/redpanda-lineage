@@ -944,13 +944,13 @@ Language.L.tags = {
   },
   "portrait": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.frame],
+     "emoji": [Language.L.emoji.portrait],
         "en": ["portrait"],
         "jp": ["顔写真"] 
   },
   "praying": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.praying],
+     "emoji": [Language.L.emoji.pray],
         "en": ["praying", "pray"],
         "jp": ["お祈りしている"]
   },
