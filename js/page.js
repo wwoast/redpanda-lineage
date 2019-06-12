@@ -25,6 +25,7 @@ Page.about.fetch = function() {
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 Page.about.mode_switch = function(media) {
+  // Event listener callback for showing either mobile, or PC-mode instructions
   if (media.matches) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
     document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
@@ -49,6 +50,22 @@ Page.about.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+}
+Page.about.tags = function() {
+  // Take all available tags for this language, and draw an unordered list.
+  var container = document.getElementsByClassName("pandaAbout aboutTags");
+  var tagList = document.createElement('ul');
+  for (let tag of Language.L.tags) {
+    let thisEmoji = tag["emoji"];
+    let thisTag = tag[Page.about.language];
+    var tagLi = document.createElement('li');
+    var tagLink = document.createElement('a');
+    tagLink.href = "#query/" + thisTag;
+    tagLink.innerText = thisEmoji + " " + thisTag;
+    tagLi.appendChild(tagLink);
+    tagList.appendChild(tagLi);
+  }
+  container.appendChild(tagList);
 }
 
 /* Manage the background color of the page. Profiles/Results page have different 
