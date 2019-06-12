@@ -74,6 +74,7 @@ Language.L.emoji = {
    "birthday": "🎂",
      "bamboo": "🎍",
        "baby": "👶🏻",
+      "bento": "🍱",
       "blink": "😑",
        "born": "👼",
        "bowl": "🍜",
@@ -876,7 +877,7 @@ Language.L.tags = {
   },
   "lunch time": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.bento],
        "en": ["lunch time", "lunch"],
        "jp": ["ランチの時間"]
   },
