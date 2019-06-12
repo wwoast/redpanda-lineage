@@ -676,13 +676,13 @@ ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
     column-count: 1;
 }
 
-ul.pandaList li, ul.linkList li, ul.nicknameList li {
+ul.pandaList li, ul.linkList li, ul.nicknameList li, ul.tagList li {
     /* white-space: nowrap; */   /* !!! Turning this on makes an overflow bug on iOS */
 }
 
 /* By applying list padding inside the list items, this ensures that multicolumn
    lists don't send their padding across to the next column. */
-ul.pandaList li > a, ul.linkList li > a {
+ul.pandaList li > a, ul.linkList li > a, ul.tagList li > a {
     display: inline-block;
     padding-bottom: 0.75ex;
 }
@@ -811,7 +811,7 @@ div.pandaAbout > p > a, div.pandaLinks > p > a, div.pandaAbout > ul > li > a, di
     color: white;  /* Links in About page body text keep underlines */
 }
 
-div.pandaAbout > ul.linkList > li > a {
+div.pandaAbout > ul.tagList > li > a {
     text-decoration: none !important;
 }
 
@@ -925,7 +925,7 @@ img.twinFocus {
     text-align: center;
 }
 
-ul.linkList.multiColumn {
+ul.linkList.multiColumn, ul.tagList.multiColumn {
     column-count: 2;
 }
 
@@ -1294,7 +1294,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-right: 8px;
     }
 
-    ul.linkList.multiColumn {
+    ul.linkList.multiColumn, ul.tagList.multiColumn {
         column-count: 1;
     }
 

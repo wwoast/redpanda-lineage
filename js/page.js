@@ -55,7 +55,7 @@ Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
   var tagList = document.createElement('ul');
-  tagList.classList.add("linkList");
+  tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
   for (let key in Language.L.tags) {
     let tag = Language.L.tags[key];
