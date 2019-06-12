@@ -796,6 +796,12 @@ div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
     display: hidden;
 }
 
+div.aboutTags {
+    /* Roughly centered multicolumn contents */
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 div.pandaLinks ul.bamboo li:before {
     content: "🎍";
     margin-right: 8px;
