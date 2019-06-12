@@ -1255,8 +1255,12 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 4px;
     }
 
-    ul.linkList, ul.tagList {
+    ul.linkList {
         margin-left: 14px;
+    }
+
+    ul.tagList.multiColumn {
+        column-count: 2;
     }
 
     ul.zooList {
