@@ -55,9 +55,10 @@ Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
   var container = document.getElementsByClassName("pandaAbout aboutTags");
   var tagList = document.createElement('ul');
-  for (let tag of Language.L.tags) {
+  for (let key in Language.L.tags) {
+    let tag = Language.L.tags[key];
     let thisEmoji = tag["emoji"];
-    let thisTag = tag[Page.about.language];
+    let thisTag = tag[Page.about.language][0];
     var tagLi = document.createElement('li');
     var tagLink = document.createElement('a');
     tagLink.href = "#query/" + thisTag;
