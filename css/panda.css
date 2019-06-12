@@ -1259,6 +1259,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 14px;
     }
 
+    ul.tagList {
+        font-size: 13pt;   /* Assume tags might run long */
+        letter-spacing: -1px;
+    }
+
     ul.tagList.multiColumn {
         column-count: 2;
     }
