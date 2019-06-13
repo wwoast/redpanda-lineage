@@ -22,9 +22,25 @@ Page.about.fetch = function() {
     window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
   }
 }
-Page.about.language = undefined;   // Language the content was loaded in
-Page.about.loaded = new Event('about_loaded');
-Page.about.mode_switch = function(media) {
+Page.about.hashchange = function() {
+  // The about page hashchange results in needing to draw or fetch the
+  // about page and initialize its menus, or at the very least, scroll
+  // to the top of the page.
+  if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
+    Page.about.fetch();
+  } else {
+    Page.about.render();
+    // Add event listeners to the newly created About page buttons
+    Page.sections.buttonEventHandlers("aboutPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    Page.current = Page.about.render;
+  }
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
+Page.about.instructions = function(media) {
+  // Event listener callback for showing either mobile, or PC-mode instructions
   if (media.matches) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
     document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
@@ -33,6 +49,8 @@ Page.about.mode_switch = function(media) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
   }
 }
+Page.about.language = undefined;   // Language the content was loaded in
+Page.about.loaded = new Event('about_loaded');
 Page.about.render = function() {
   // Displays the about page when the button is clicked. Load content from a static
   // file based on the given language, and display it in a #contentFrame.about
@@ -49,6 +67,43 @@ Page.about.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+}
+Page.about.routing = function() {
+  // When someone clicks the about button, either show the about page,
+  // or return to the last page shown before the about page
+  if (Page.current == Page.about.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#about";
+  }
+}
+Page.about.tags = function() {
+  // Take all available tags for this language, and draw an unordered list.
+  var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
+  var tagList = document.createElement('ul');
+  tagList.classList.add("tagList");
+  tagList.classList.add("multiColumn");
+  for (let key in Language.L.tags) {
+    let tag = Language.L.tags[key];
+    let thisEmoji = tag["emoji"];
+    let thisTag = tag[Page.about.language][0];
+    var tagLi = document.createElement('li');
+    var tagLink = document.createElement('a');
+    tagLink.href = "#query/" + thisTag;
+    tagLink.innerText = thisEmoji + " " + thisTag;
+    tagLi.appendChild(tagLink);
+    tagList.appendChild(tagLi);
+  }
+  container.appendChild(tagList);
 }
 
 /* Manage the background color of the page. Profiles/Results page have different 
@@ -173,6 +228,23 @@ Page.links.fetch = function() {
     window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
   }
 }
+Page.links.hashchange = function() {
+  // The links page hashchange results in needing to draw or fetch the
+  // links page and initialize its menus, or at the very least, scroll
+  // to the top of the page.
+  if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
+    Page.links.fetch();
+  } else {
+    Page.links.render();
+    // Add event listeners to the newly created About page buttons
+    Page.sections.buttonEventHandlers("linksPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
+    Page.current = Page.links.render;
+  }
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
 Page.links.language = undefined;   // Language the content was loaded in
 Page.links.loaded = new Event('links_loaded');
 Page.links.render = function() {
@@ -192,6 +264,23 @@ Page.links.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+}
+Page.links.routing = function() {
+  // Handle when someone clicks the links button
+  if (Page.current == Page.links.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#links";
+  }
 }
 
 /*

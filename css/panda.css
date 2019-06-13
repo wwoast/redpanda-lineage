@@ -633,6 +633,20 @@ ul.pandaList, ul.linkList, ul.nicknameList {
     padding: 0 0 0 0;
 }
 
+ul.tagList {
+    text-align: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 0.5ex;
+    margin-bottom: 0.5ex;
+    padding: 0 0 0 0;
+}
+
+ul.tagList li {
+    text-align: center;
+    line-height: 1.7;
+}
+
 div.nicknameContainer, div.othernamesContainer {
     display: inline-block;
     vertical-align: top;
@@ -676,13 +690,13 @@ ul.pandaList.double.onlyMobile, ul.pandaList.triple.onlyMobile {
     column-count: 1;
 }
 
-ul.pandaList li, ul.linkList li, ul.nicknameList li {
+ul.pandaList li, ul.linkList li, ul.nicknameList li, ul.tagList li {
     /* white-space: nowrap; */   /* !!! Turning this on makes an overflow bug on iOS */
 }
 
 /* By applying list padding inside the list items, this ensures that multicolumn
    lists don't send their padding across to the next column. */
-ul.pandaList li > a, ul.linkList li > a {
+ul.pandaList li > a, ul.linkList li > a, ul.tagList li > a {
     display: inline-block;
     padding-bottom: 0.75ex;
 }
@@ -787,6 +801,12 @@ div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
     display: hidden;
 }
 
+div.aboutTags {
+    /* Roughly centered multicolumn contents */
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 div.pandaLinks ul.bamboo li:before {
     content: "🎍";
     margin-right: 8px;
@@ -809,6 +829,10 @@ div.pandaAbout h5.caption > a, div.pandaLinks > ul > li > a {
 
 div.pandaAbout > p > a, div.pandaLinks > p > a, div.pandaAbout > ul > li > a, div.pandaLinks > ul > li > a {
     color: white;  /* Links in About page body text keep underlines */
+}
+
+div.pandaAbout > ul.tagList > li > a {
+    text-decoration: none !important;
 }
 
 div.pandaAbout h4 {
@@ -923,6 +947,10 @@ img.twinFocus {
 
 ul.linkList.multiColumn {
     column-count: 2;
+}
+
+ul.tagList.multiColumn {
+    column-count: 3;
 }
 
 div.birthdaySummary, div.creditSummary, div.profileSummary, div.tagSummary {
@@ -1091,6 +1119,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 0px;
     }
 
+    div.aboutTags {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
     input.search {
         padding-left: 4px;
         padding-bottom: 0vh;
@@ -1226,7 +1259,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 8px;
     }
 
-    ul.pandaList, ul.linkList, ul.nicknameList, ul.zooList {
+    ul.pandaList, ul.linkList, ul.nicknameList, ul.tagList, ul.zooList {
         list-style: none;
         text-align: left;
         padding-left: 0px;
@@ -1238,6 +1271,13 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
 
     ul.linkList {
         margin-left: 14px;
+    }
+
+    ul.tagList {
+        font-size: 13pt;   /* Assume tags might run long */
+        letter-spacing: -1px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     ul.zooList {
@@ -1292,6 +1332,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
 
     ul.linkList.multiColumn {
         column-count: 1;
+    }
+
+    ul.tagList.multiColumn {
+        column-count: 2;
     }
 
     div.photoSample {

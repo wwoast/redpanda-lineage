@@ -79,6 +79,10 @@ window.addEventListener('hashchange', function() {
   if (mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
+  } else if (mode == "#about") {
+    Page.about.hashchange();
+  } else if (mode == "#links") {
+    Page.links.hashchange();
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
@@ -97,8 +101,10 @@ window.addEventListener('about_loaded', function() {
     Page.about.render();
     // Determine desktop or mobile, and display relevant instructions
     var media = window.matchMedia("(max-width: 670px)");
-    Page.about.mode_switch(media);
-    media.addListener(Page.about.mode_switch);    
+    Page.about.instructions(media);
+    media.addListener(Page.about.instructions);
+    // Add a tag list
+    Page.about.tags();
     // Add event listeners to the newly created About page buttons
     Page.sections.buttonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
