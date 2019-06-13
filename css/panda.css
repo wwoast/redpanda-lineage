@@ -642,6 +642,11 @@ ul.tagList {
     padding: 0 0 0 0;
 }
 
+ul.tagList li {
+    text-align: center;
+    line-height: 1.7;
+}
+
 div.nicknameContainer, div.othernamesContainer {
     display: inline-block;
     vertical-align: top;
@@ -798,8 +803,8 @@ div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
 
 div.aboutTags {
     /* Roughly centered multicolumn contents */
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 div.pandaLinks ul.bamboo li:before {
