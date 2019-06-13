@@ -15,121 +15,77 @@ language.order: jp, en
 litter: 17
 location.1: 7, 2012/7/20
 location.2: 11, 2016/6/17
-photo.1: https://www.instagram.com/p/BdWHVvMF2Lb/media/?size=m
-photo.1.author: sina_dw
-photo.1.link: https://www.instagram.com/sina_dw/
-photo.1.tags: autumn, tree
-photo.2: https://www.instagram.com/p/BfEMR3NlQ-r/media/?size=m
-photo.2.author: _sealiz
-photo.2.link: https://www.instagram.com/_sealiz/
-photo.2.tags: bamboo
-photo.3: https://www.instagram.com/p/BU8YxPfAjAu/media/?size=m
-photo.3.author: cattail.sapporo
-photo.3.link: https://www.instagram.com/cattail.sapporo/
-photo.3.tags: snow
-photo.4: https://www.instagram.com/p/Bb4LIk3FhsB/media/?size=m
-photo.4.author: sina_dw
-photo.4.link: https://www.instagram.com/sina_dw/
-photo.4.tags: bamboo, snow
-photo.5: https://www.instagram.com/p/BT6fDV5DD3h/media/?size=m
-photo.5.author: _sealiz
-photo.5.link: https://www.instagram.com/_sealiz/
-photo.5.tags: yawn
-photo.6: https://www.instagram.com/p/BloXb4jH1jr/media/?size=m
-photo.6.author: cattail.sapporo
-photo.6.link: https://www.instagram.com/cattail.sapporo/
-photo.6.tags: snow
-photo.7: https://www.instagram.com/p/Bit2f9sl7fq/media/?size=m
-photo.7.author: craig_craig_craig
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: tail
-photo.8: https://www.instagram.com/p/BNN7SdoDoe6/media/?size=m
-photo.8.author: sina_dw
-photo.8.link: https://www.instagram.com/sina_dw/
-photo.8.tags: tail
-photo.9: https://www.instagram.com/p/BMlj2GLDcNj/media/?size=m
-photo.9.author: minatomirai215
-photo.9.link: https://www.instagram.com/minatomirai215/
-photo.10: https://www.instagram.com/p/BgTUp3OFYOr/media/?size=m
-photo.10.author: sina_dw
-photo.10.link: https://www.instagram.com/sina_dw/
-photo.10.tags: snow
-photo.11: https://www.instagram.com/p/BVPjE7zAtqw/media/?size=m
-photo.11.author: polarbear_zoo
-photo.11.link: https://www.instagram.com/polarbear_zoo/
-photo.11.tags: tree
-photo.12: https://www.instagram.com/p/BSgS9UljnFy/media/?size=m
+photo.1: https://www.instagram.com/p/BfEMR3NlQ-r/media/?size=m
+photo.1.author: _sealiz
+photo.1.link: https://www.instagram.com/_sealiz/
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/BU8YxPfAjAu/media/?size=m
+photo.2.author: cattail.sapporo
+photo.2.link: https://www.instagram.com/cattail.sapporo/
+photo.2.tags: snow
+photo.3: https://www.instagram.com/p/BT6fDV5DD3h/media/?size=m
+photo.3.author: _sealiz
+photo.3.link: https://www.instagram.com/_sealiz/
+photo.3.tags: yawn
+photo.4: https://www.instagram.com/p/BloXb4jH1jr/media/?size=m
+photo.4.author: cattail.sapporo
+photo.4.link: https://www.instagram.com/cattail.sapporo/
+photo.4.tags: snow
+photo.5: https://www.instagram.com/p/Bit2f9sl7fq/media/?size=m
+photo.5.author: craig_craig_craig
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: tail
+photo.6: https://www.instagram.com/p/BMlj2GLDcNj/media/?size=m
+photo.6.author: minatomirai215
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.7: https://www.instagram.com/p/BVPjE7zAtqw/media/?size=m
+photo.7.author: polarbear_zoo
+photo.7.link: https://www.instagram.com/polarbear_zoo/
+photo.7.tags: tree
+photo.8: https://www.instagram.com/p/BSgS9UljnFy/media/?size=m
+photo.8.author: _sealiz
+photo.8.link: https://www.instagram.com/_sealiz/
+photo.8.tags: tree
+photo.9: https://www.instagram.com/p/BRf8YIZjq55/media/?size=m
+photo.9.author: framereim
+photo.9.link: https://www.instagram.com/framereim/
+photo.9.tags: snow
+photo.10: https://www.instagram.com/p/BWbC7cKgvjs/media/?size=m
+photo.10.author: cattail.sapporo
+photo.10.link: https://www.instagram.com/cattail.sapporo/
+photo.11: https://www.instagram.com/p/BSFCcBxj1tr/media/?size=m
+photo.11.author: _sealiz
+photo.11.link: https://www.instagram.com/_sealiz/
+photo.11.tags: bamboo, tongue
+photo.12: https://www.instagram.com/p/BR2y16ujhUH/media/?size=m
 photo.12.author: _sealiz
 photo.12.link: https://www.instagram.com/_sealiz/
-photo.12.tags: tree
-photo.13: https://www.instagram.com/p/BRf8YIZjq55/media/?size=m
-photo.13.author: framereim
-photo.13.link: https://www.instagram.com/framereim/
-photo.13.tags: snow
-photo.14: https://www.instagram.com/p/BWbC7cKgvjs/media/?size=m
+photo.12.tags: bamboo
+photo.13: https://www.instagram.com/p/BNdLVSuDkzG/media/?size=m
+photo.13.author: minatomirai215
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: bamboo, home
+photo.14: https://www.instagram.com/p/BX7ASoAgLqQ/media/?size=m
 photo.14.author: cattail.sapporo
 photo.14.link: https://www.instagram.com/cattail.sapporo/
-photo.15: https://www.instagram.com/p/BSFCcBxj1tr/media/?size=m
-photo.15.author: _sealiz
-photo.15.link: https://www.instagram.com/_sealiz/
-photo.15.tags: bamboo, tongue
-photo.16: https://www.instagram.com/p/BSPxRDIhnHA/media/?size=m
-photo.16.author: sina_dw
-photo.16.link: https://www.instagram.com/sina_dw/
-photo.16.tags: autumn
-photo.17: https://www.instagram.com/p/BR2y16ujhUH/media/?size=m
-photo.17.author: _sealiz
-photo.17.link: https://www.instagram.com/_sealiz/
-photo.17.tags: bamboo
-photo.18: https://www.instagram.com/p/BNdLVSuDkzG/media/?size=m
+photo.14.tags: lips, snow
+photo.15: https://www.instagram.com/p/BYBEW__Hywb/media/?size=m
+photo.15.author: choco401
+photo.15.link: https://www.instagram.com/choco401/
+photo.16: https://www.instagram.com/p/BxXTa-Ogv3T/media/?size=m
+photo.16.author: cattail.sapporo
+photo.16.link: https://www.instagram.com/cattail.sapporo/
+photo.16.tags: apple time, lips
+photo.17: https://www.instagram.com/p/BUT1ldwgtxy/media/?size=m
+photo.17.author: minatomirai215
+photo.17.link: https://www.instagram.com/minatomirai215/
+photo.18: https://www.instagram.com/p/BTtt4BpgPm6/media/?size=m
 photo.18.author: minatomirai215
 photo.18.link: https://www.instagram.com/minatomirai215/
-photo.18.tags: bamboo, home
-photo.19: https://www.instagram.com/p/BX7ASoAgLqQ/media/?size=m
-photo.19.author: cattail.sapporo
-photo.19.link: https://www.instagram.com/cattail.sapporo/
-photo.19.tags: lips, snow
-photo.20: https://www.instagram.com/p/BX7uTz1lMKF/media/?size=m
-photo.20.author: sina_dw
-photo.20.link: https://www.instagram.com/sina_dw/
-photo.20.tags: profile
-photo.21: https://www.instagram.com/p/BYBEW__Hywb/media/?size=m
-photo.21.author: choco401
-photo.21.link: https://www.instagram.com/choco401/
-photo.22: https://www.instagram.com/p/BZn9bGElJck/media/?size=m
-photo.22.author: sina_dw
-photo.22.link: https://www.instagram.com/sina_dw/
-photo.22.tags: autumn, bridge, smile
-photo.23: https://www.instagram.com/p/BMF0SEQhTQk/media/?size=m
-photo.23.author: sina_dw
-photo.23.link: https://www.instagram.com/sina_dw/
-photo.23.tags: lunch time, paws, standing
-photo.24: https://www.instagram.com/p/BMAsVBbBbmL/media/?size=m
-photo.24.author: sina_dw
-photo.24.link: https://www.instagram.com/sina_dw/
-photo.24.tags: autumn, tree
-photo.25: https://www.instagram.com/p/BxXTa-Ogv3T/media/?size=m
-photo.25.author: cattail.sapporo
-photo.25.link: https://www.instagram.com/cattail.sapporo/
-photo.25.tags: apple time, lips
-photo.26: https://www.instagram.com/p/BUT1ldwgtxy/media/?size=m
-photo.26.author: minatomirai215
-photo.26.link: https://www.instagram.com/minatomirai215/
-photo.27: https://www.instagram.com/p/BRAs5yChUeN/media/?size=m
-photo.27.author: sina_dw
-photo.27.link: https://www.instagram.com/sina_dw/
-photo.27.tags: snow
-photo.28: https://www.instagram.com/p/BY7Opr8F095/media/?size=m
-photo.28.author: sina_dw
-photo.28.link: https://www.instagram.com/sina_dw/
-photo.28.tags: bamboo, snow
-photo.29: https://www.instagram.com/p/BTtt4BpgPm6/media/?size=m
-photo.29.author: minatomirai215
-photo.29.link: https://www.instagram.com/minatomirai215/
-photo.29.tags: bamboo, portrait
-photo.30: https://www.instagram.com/p/BSLmMg-jP-U/media/?size=m
-photo.30.author: _sealiz
-photo.30.link: https://www.instagram.com/_sealiz/
-photo.30.tags: grooming, paws
+photo.18.tags: bamboo, portrait
+photo.19: https://www.instagram.com/p/BSLmMg-jP-U/media/?size=m
+photo.19.author: _sealiz
+photo.19.link: https://www.instagram.com/_sealiz/
+photo.19.tags: grooming, paws
 species: 2
 zoo: 11

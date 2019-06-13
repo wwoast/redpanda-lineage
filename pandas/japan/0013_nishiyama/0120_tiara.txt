@@ -66,57 +66,51 @@ photo.13.tags: smile
 photo.14: https://www.instagram.com/p/BtjNhuUFJvz/media/?size=m
 photo.14.author: gloryeui
 photo.14.link: https://www.instagram.com/gloryeui/
-photo.15: https://www.instagram.com/p/BtnbxgYl7Kr/media/?size=m
-photo.15.author: red.pan_da
-photo.15.link: https://www.instagram.com/red.pan_da/
-photo.16: https://www.instagram.com/p/Btn8Q7dlr-H/media/?size=m
-photo.16.author: red.pan_da
-photo.16.link: https://www.instagram.com/red.pan_da/
-photo.17: https://www.instagram.com/p/BtnpYOxlLZD/media/?size=m
-photo.17.author: mugicha0312
-photo.17.link: https://www.instagram.com/mugicha0312/
-photo.17.tags: apple time, dish, lunch time, paws
-photo.18: https://www.instagram.com/p/BwEuL_xFhEL/media/?size=m
-photo.18.author: kinkinkin0826
-photo.18.link: https://www.instagram.com/kinkinkin0826/
-photo.18.tags: bridge
-photo.19: https://www.instagram.com/p/BwKYYqpl9eQ/media/?size=m
-photo.19.author: akiakiakiko18
-photo.19.link: https://www.instagram.com/akiakiakiko18/
-photo.19.tags: apple time, mofumofu, tail
-photo.20: https://www.instagram.com/p/BwLTgdCFZwR/media/?size=m
-photo.20.author: nakacchi_desu
-photo.20.link: https://www.instagram.com/nakacchi_desu/
-photo.20.tags: bamboo, tongue, upside-down
-photo.21: https://www.instagram.com/p/BxE9uZ5FcUC/media/?size=m
-photo.21.author: tomoki_redpanda
-photo.21.link: https://www.instagram.com/tomoki_redpanda/
-photo.21.tags: tail, tree
-photo.22: https://www.instagram.com/p/BxSJWFxFggC/media/?size=m
+photo.15: https://www.instagram.com/p/BtnpYOxlLZD/media/?size=m
+photo.15.author: mugicha0312
+photo.15.link: https://www.instagram.com/mugicha0312/
+photo.15.tags: apple time, dish, lunch time, paws
+photo.16: https://www.instagram.com/p/BwEuL_xFhEL/media/?size=m
+photo.16.author: kinkinkin0826
+photo.16.link: https://www.instagram.com/kinkinkin0826/
+photo.16.tags: bridge
+photo.17: https://www.instagram.com/p/BwKYYqpl9eQ/media/?size=m
+photo.17.author: akiakiakiko18
+photo.17.link: https://www.instagram.com/akiakiakiko18/
+photo.17.tags: apple time, mofumofu, tail
+photo.18: https://www.instagram.com/p/BwLTgdCFZwR/media/?size=m
+photo.18.author: nakacchi_desu
+photo.18.link: https://www.instagram.com/nakacchi_desu/
+photo.18.tags: bamboo, tongue, upside-down
+photo.19: https://www.instagram.com/p/BxE9uZ5FcUC/media/?size=m
+photo.19.author: tomoki_redpanda
+photo.19.link: https://www.instagram.com/tomoki_redpanda/
+photo.19.tags: tail, tree
+photo.20: https://www.instagram.com/p/BxSJWFxFggC/media/?size=m
+photo.20.author: mugicha0312
+photo.20.link: https://www.instagram.com/mugicha0312/
+photo.20.tags: lips, smile
+photo.21: https://www.instagram.com/p/Bxeo38blUGe/media/?size=m
+photo.21.author: colette.jp
+photo.21.link: https://www.instagram.com/colette.jp/
+photo.21.tags: tree
+photo.22: https://www.instagram.com/p/BxkM0jGlqqM/media/?size=m
 photo.22.author: mugicha0312
 photo.22.link: https://www.instagram.com/mugicha0312/
-photo.22.tags: lips, smile
-photo.23: https://www.instagram.com/p/Bxeo38blUGe/media/?size=m
-photo.23.author: colette.jp
-photo.23.link: https://www.instagram.com/colette.jp/
-photo.23.tags: tree
-photo.24: https://www.instagram.com/p/BxkM0jGlqqM/media/?size=m
-photo.24.author: mugicha0312
-photo.24.link: https://www.instagram.com/mugicha0312/
-photo.24.tags: bamboo
-photo.25: https://www.instagram.com/p/BxwIyjIFmcA/media/?size=m
-photo.25.author: redpanda77f
-photo.25.link: https://www.instagram.com/redpanda77f/
-photo.25.tags: portrait
-photo.26: https://www.instagram.com/p/ByYuNJmhSxU/media/?size=m
-photo.26.author: tomo3700
-photo.26.link: https://www.instagram.com/tomo3700/
-photo.26.tags: tree
-photo.27: https://www.instagram.com/p/ByXo-cphBa9/media/?size=m
-photo.27.author: gloryeui
-photo.27.link: https://www.instagram.com/gloryeui/
-photo.28: https://www.instagram.com/p/ByZ4jXlBV3r/media/?size=m
-photo.28.author: gloryeui
-photo.28.link: https://www.instagram.com/gloryeui/
+photo.22.tags: bamboo
+photo.23: https://www.instagram.com/p/BxwIyjIFmcA/media/?size=m
+photo.23.author: redpanda77f
+photo.23.link: https://www.instagram.com/redpanda77f/
+photo.23.tags: portrait
+photo.24: https://www.instagram.com/p/ByYuNJmhSxU/media/?size=m
+photo.24.author: tomo3700
+photo.24.link: https://www.instagram.com/tomo3700/
+photo.24.tags: tree
+photo.25: https://www.instagram.com/p/ByXo-cphBa9/media/?size=m
+photo.25.author: gloryeui
+photo.25.link: https://www.instagram.com/gloryeui/
+photo.26: https://www.instagram.com/p/ByZ4jXlBV3r/media/?size=m
+photo.26.author: gloryeui
+photo.26.link: https://www.instagram.com/gloryeui/
 species: 2
 zoo: 13
