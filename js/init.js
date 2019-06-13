@@ -79,6 +79,12 @@ window.addEventListener('hashchange', function() {
   if (mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
+  } else if (mode == "#about") {
+    Page.about.render();
+    Page.current = Page.about.render;
+  } else if (mode == "#links") {
+    Page.links.render();
+    Page.current = Page.links.render;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
