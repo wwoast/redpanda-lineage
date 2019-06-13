@@ -80,11 +80,11 @@ window.addEventListener('hashchange', function() {
     Page.home.render();
     Page.current = Page.home.render;
   } else if (mode == "#about") {
-    Page.about.render();
-    Page.current = Page.about.render;
+    // GUI action changed to about page. Don't worry about calculating results
+    return;
   } else if (mode == "#links") {
-    Page.links.render();
-    Page.current = Page.links.render;
+    // GUI action changed to links page. Don't worry about calculating results
+    return;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
