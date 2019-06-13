@@ -526,7 +526,9 @@ Show.button.about.action = function() {
     if (Page.routes.fixed.includes(window.location.hash) == false) {
       Page.lastSearch = window.location.hash;
     }
-    window.location = "#about";
+    if (window.location != "#about") {
+      window.location = "#about";
+    }
     if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
       Page.about.fetch();
     } else {
