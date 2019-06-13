@@ -22,8 +22,25 @@ Page.about.fetch = function() {
     window.dispatchEvent(Page.about.loaded);   // Report the data has loaded
   }
 }
-Page.about.language = undefined;   // Language the content was loaded in
-Page.about.loaded = new Event('about_loaded');
+Page.about.hashchange = function() {
+  // The about page hashchange results in needing to draw or fetch the
+  // about page and initialize its menus, or at the very least, scroll
+  // to the top of the page.
+  if (window.location == "#about") {
+    if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
+      Page.about.fetch();
+    } else {
+      Page.about.render();
+      // Add event listeners to the newly created About page buttons
+      Page.sections.buttonEventHandlers("aboutPageMenu");
+      // Display correct subsection of the about page (class swaps)
+      // Default: usage instructions appear non-hidden.
+      Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+      Page.current = Page.about.render;
+    }
+  }
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
 Page.about.instructions = function(media) {
   // Event listener callback for showing either mobile, or PC-mode instructions
   if (media.matches) {
@@ -34,6 +51,8 @@ Page.about.instructions = function(media) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "block";
   }
 }
+Page.about.language = undefined;   // Language the content was loaded in
+Page.about.loaded = new Event('about_loaded');
 Page.about.render = function() {
   // Displays the about page when the button is clicked. Load content from a static
   // file based on the given language, and display it in a #contentFrame.about

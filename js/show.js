@@ -514,20 +514,6 @@ Show.button = {};
 Show.button.about = {};
 Show.button.about.action = function() {
   Page.about.routing();
-  if (window.location == "#about") {
-    if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
-      Page.about.fetch();
-    } else {
-      Page.about.render();
-      // Add event listeners to the newly created About page buttons
-      Page.sections.buttonEventHandlers("aboutPageMenu");
-      // Display correct subsection of the about page (class swaps)
-      // Default: usage instructions appear non-hidden.
-      Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
-      Page.current = Page.about.render;
-    }
-  }
-  window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.about.render = function(class_name="results") {
   var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);

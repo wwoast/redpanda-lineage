@@ -79,13 +79,11 @@ window.addEventListener('hashchange', function() {
   if (mode == "#home") {
     Page.home.render();
     Page.current = Page.home.render;
-  /*
+  
   } else if (mode == "#about") {
-    // TODO: test with just routing refactor.
-    // Show.button.about.action();
+    Page.about.hashchange();
   } else if (mode == "#links") {
     // TODO: figure this out
-  */
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
