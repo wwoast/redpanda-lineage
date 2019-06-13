@@ -25,7 +25,7 @@ Page.about.fetch = function() {
 Page.about.hashchange = function() {
   // The about page hashchange results in needing to draw or fetch the
   // about page and initialize its menus, or at the very least, scroll
-  // to the top of the page.  
+  // to the top of the page.
   if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
     Page.about.fetch();
   } else {
@@ -228,6 +228,23 @@ Page.links.fetch = function() {
     window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
   }
 }
+Page.links.hashchange = function() {
+  // The links page hashchange results in needing to draw or fetch the
+  // links page and initialize its menus, or at the very least, scroll
+  // to the top of the page.
+  if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
+    Page.links.fetch();
+  } else {
+    Page.links.render();
+    // Add event listeners to the newly created About page buttons
+    Page.sections.buttonEventHandlers("linksPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
+    Page.current = Page.links.render;
+  }
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
 Page.links.language = undefined;   // Language the content was loaded in
 Page.links.loaded = new Event('links_loaded');
 Page.links.render = function() {
@@ -247,6 +264,23 @@ Page.links.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+}
+Page.links.routing = function() {
+  // Handle when someone clicks the links button
+  if (Page.current == Page.links.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#links";
+  }
 }
 
 /*

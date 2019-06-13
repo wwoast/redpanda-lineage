@@ -552,33 +552,7 @@ Show.button.language.render = function(class_name="results") {
 }
 Show.button.links = {};
 Show.button.links.action = function() {
-  // Handle when someone clicks the links button
-  // TODO: refactor routing logic out into Page
-  if (Page.current == Page.links.render) {
-    // Check the last query done and return to it, if it was a query
-    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-      window.location = Page.lastSearch;
-    } else {
-      window.location = "#home";
-    }
-  } else {
-    // Only save the last page if it wasn't one of the other fixed buttons
-    if (Page.routes.fixed.includes(window.location.hash) == false) {
-      Page.lastSearch = window.location.hash;
-    }
-    window.location = "#links";
-    if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
-      Page.links.fetch();
-    } else {
-      Page.links.render();
-      // Add event listeners to the newly created About page buttons
-      Page.sections.buttonEventHandlers("linksPageMenu");
-      // Display correct subsection of the about page (class swaps)
-      // Default: usage instructions appear non-hidden.
-      Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-      Page.current = Page.links.render;
-    }
-  }
+  Page.links.routing();
 }
 Show.button.links.render = function(class_name="results") {
   var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
