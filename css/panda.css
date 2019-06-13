@@ -803,8 +803,8 @@ div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
 
 div.aboutTags {
     /* Roughly centered multicolumn contents */
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 div.pandaLinks ul.bamboo li:before {
@@ -945,8 +945,12 @@ img.twinFocus {
     text-align: center;
 }
 
-ul.linkList.multiColumn, ul.tagList.multiColumn {
+ul.linkList.multiColumn {
     column-count: 2;
+}
+
+ul.tagList.multiColumn {
+    column-count: 3;
 }
 
 div.birthdaySummary, div.creditSummary, div.profileSummary, div.tagSummary {
@@ -1115,6 +1119,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 0px;
     }
 
+    div.aboutTags {
+        margin-left: 8px;
+        margin-right: 0px;
+    }
+
     input.search {
         padding-left: 4px;
         padding-bottom: 0vh;
@@ -1267,10 +1276,6 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     ul.tagList {
         font-size: 13pt;   /* Assume tags might run long */
         letter-spacing: -1px;
-    }
-
-    ul.tagList.multiColumn {
-        column-count: 2;
     }
 
     ul.zooList {
