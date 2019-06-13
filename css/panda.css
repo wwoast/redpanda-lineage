@@ -1332,6 +1332,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         column-count: 1;
     }
 
+    ul.tagList.multiColumn {
+        column-count: 2;
+    }
+
     div.photoSample {
         display: inline-block;
         width: 140px;
