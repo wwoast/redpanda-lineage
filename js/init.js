@@ -80,9 +80,10 @@ window.addEventListener('hashchange', function() {
     Page.home.render();
     Page.current = Page.home.render;
   } else if (mode == "#about") {
-    Show.button.about.action();
+    // TODO: test with just routing refactor.
+    // Show.button.about.action();
   } else if (mode == "#links") {
-    Show.button.links.action();
+    // TODO: figure this out
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
@@ -101,8 +102,8 @@ window.addEventListener('about_loaded', function() {
     Page.about.render();
     // Determine desktop or mobile, and display relevant instructions
     var media = window.matchMedia("(max-width: 670px)");
-    Page.about.mode_switch(media);
-    media.addListener(Page.about.mode_switch);
+    Page.about.instructions(media);
+    media.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();
     // Add event listeners to the newly created About page buttons

@@ -513,20 +513,8 @@ Show.zooTitle = function(info) {
 Show.button = {};
 Show.button.about = {};
 Show.button.about.action = function() {
-  // Handle when someone clicks the about button
-  if (Page.current == Page.about.render) {
-    // Check the last query done and return to it, if it was a query
-    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
-      window.location = Page.lastSearch;
-    } else {
-      window.location = "#home";
-    }
-  } else {
-    // Only save the last page if it wasn't one of the other fixed buttons
-    if (Page.routes.fixed.includes(window.location.hash) == false) {
-      Page.lastSearch = window.location.hash;
-    }
-    window.location = "#about";
+  Page.about.routing();
+  if (window.location == "#about") {
     if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
       Page.about.fetch();
     } else {
@@ -543,9 +531,7 @@ Show.button.about.action = function() {
 }
 Show.button.about.render = function(class_name="results") {
   var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
-  about.addEventListener("click", function() {
-    window.location = "#about";
-  });
+  about.addEventListener("click", Show.button.about.action);
   return about;
 }
 Show.button.home = {};
@@ -581,6 +567,7 @@ Show.button.language.render = function(class_name="results") {
 Show.button.links = {};
 Show.button.links.action = function() {
   // Handle when someone clicks the links button
+  // TODO: refactor routing logic out into Page
   if (Page.current == Page.links.render) {
     // Check the last query done and return to it, if it was a query
     if (Page.routes.fixed.includes(Page.lastSearch) == false) {

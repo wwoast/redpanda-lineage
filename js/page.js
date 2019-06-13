@@ -24,7 +24,7 @@ Page.about.fetch = function() {
 }
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
-Page.about.mode_switch = function(media) {
+Page.about.instructions = function(media) {
   // Event listener callback for showing either mobile, or PC-mode instructions
   if (media.matches) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
@@ -50,6 +50,24 @@ Page.about.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+}
+Page.about.routing = function() {
+  // When someone clicks the about button, either show the about page,
+  // or return to the last page shown before the about page
+  if (Page.current == Page.about.render) {
+    // Check the last query done and return to it, if it was a query
+    if (Page.routes.fixed.includes(Page.lastSearch) == false) {
+      window.location = Page.lastSearch;
+    } else {
+      window.location = "#home";
+    }
+  } else {
+    // Only save the last page if it wasn't one of the other fixed buttons
+    if (Page.routes.fixed.includes(window.location.hash) == false) {
+      Page.lastSearch = window.location.hash;
+    }
+    window.location = "#about";
+  }
 }
 Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
