@@ -25,19 +25,17 @@ Page.about.fetch = function() {
 Page.about.hashchange = function() {
   // The about page hashchange results in needing to draw or fetch the
   // about page and initialize its menus, or at the very least, scroll
-  // to the top of the page.
-  if (window.location == "#about") {
-    if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
-      Page.about.fetch();
-    } else {
-      Page.about.render();
-      // Add event listeners to the newly created About page buttons
-      Page.sections.buttonEventHandlers("aboutPageMenu");
-      // Display correct subsection of the about page (class swaps)
-      // Default: usage instructions appear non-hidden.
-      Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
-      Page.current = Page.about.render;
-    }
+  // to the top of the page.  
+  if ((Page.about.language != L.display) && (Page.about.language != undefined)) {
+    Page.about.fetch();
+  } else {
+    Page.about.render();
+    // Add event listeners to the newly created About page buttons
+    Page.sections.buttonEventHandlers("aboutPageMenu");
+    // Display correct subsection of the about page (class swaps)
+    // Default: usage instructions appear non-hidden.
+    Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    Page.current = Page.about.render;
   }
   window.scrollTo(0, 0);   // Go to the top of the page
 }
