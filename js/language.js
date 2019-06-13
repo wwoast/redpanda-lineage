@@ -71,6 +71,7 @@ Language.L.emoji = {
       "arrow": "➡",
      "author": "✍️",
      "autumn": "🍂",
+        "bed": "🛌",
    "birthday": "🎂",
      "bamboo": "🎍",
        "baby": "👶🏻",
@@ -82,8 +83,13 @@ Language.L.emoji = {
      "bridge": "🌉",
   "butterfly": "🦋",
      "camera": "📷",
+    "camping": "🏕️",
+      "carry": "🍡",
 "caterpillar": "🐛",
+      "climb": "🧗",
+    "cyclone": "🌀",
        "died": "🌈",
+        "dig": "⛏️",
        "dish": "🍽️",
         "ear": "👂",
        "edit": "📝",
@@ -99,6 +105,7 @@ Language.L.emoji = {
      "grumpy": "😠",
      "hearts": "💕",
        "home": "🏡",
+       "itch": "🐜",
        "jizo": "🗿",
    "language": "‍👁️‍🗨️",
   "lightbulb": "💡",
@@ -112,6 +119,7 @@ Language.L.emoji = {
     "monocle": "🧐",
        "moon": "🌙",
      "mother": "👩🏻",
+     "muzzle": "🐴",
        "nerd": "🤓",
    "no_emoji": "⚪",
     "no_more": "🚫",
@@ -126,6 +134,7 @@ Language.L.emoji = {
      "random": "🎲",
   "raincloud": "🌧️",
      "search": "🔍",
+     "shower": "🚿",
    "sleeping": "😴",
     "slobber": "🤤",
       "smile": "😄",
@@ -136,12 +145,14 @@ Language.L.emoji = {
    "star_mom": "👩‍🎤",
       "story": "🎍",
      "target": "🎯",
+  "teddybear": "🧸",
         "top": "⬆",
      "tongue": "👅",
     "tornado": "🌪️",
      "travel": "✈️",
        "tree": "🌳",
 "upside_down": "🙃",
+      "weary": "😩",
     "website": "🌐",
      "weight": "🏋️",
        "wink": "😉",
@@ -762,13 +773,13 @@ Language.L.tags = {
   },
   "carry": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
        "jp": ["運ぶ"]
   },
   "climb": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
        "jp": ["登る"]
   },
@@ -780,7 +791,7 @@ Language.L.tags = {
   },
   "dig": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.dig],
        "en": ["dig", "digging", "digs"],
        "jp": ["穴掘り"]
   },
@@ -810,7 +821,7 @@ Language.L.tags = {
   },
   "grooming": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
        "jp": ["毛づくろい"]
   },
@@ -822,7 +833,7 @@ Language.L.tags = {
   },
   "hammock": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.camping],
        "en": ["hammock"],
        "jp": ["ハンモック"]
   },
@@ -840,7 +851,7 @@ Language.L.tags = {
   },
   "itchy": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
        "jp": ["かゆい"]
   },
@@ -852,13 +863,13 @@ Language.L.tags = {
   },
   "keeper": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
        "jp": ["飼育員"]
   },
   "laying down": {
        "cn": ["TOWRITE"],
-    "emoji": [Language.L.emoji.no_emoji],
+    "emoji": [Language.L.emoji.bed],
        "en": ["lay down", "laying down"],
        "jp": ["寝そべっている"]
   },
@@ -883,13 +894,13 @@ Language.L.tags = {
   },
   "mofumofu": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [Language.L.emoji.teddybear],
         "en": ["mofumofu"],
         "jp": ["モフモフ"]
   },
   "muzzle": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [Language.L.emoji.muzzle],
         "en": ["muzzle", "snout"],
         "jp": ["マズル"]
   },
@@ -975,7 +986,7 @@ Language.L.tags = {
   },
   "shake": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
         "jp": ["ゆらゆら"]
   },
