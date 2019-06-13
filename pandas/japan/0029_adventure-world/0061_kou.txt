@@ -27,11 +27,11 @@ photo.3.tags: dish, home
 photo.4: https://www.instagram.com/p/BYUTNL4gp8y/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: profile, smile, tree
+photo.4.tags: portrait, profile, smile, tree
 photo.5: https://www.instagram.com/p/BjR_1n7FPun/media/?size=m
 photo.5.author: kinkinkin0826
 photo.5.link: https://www.instagram.com/kinkinkin0826/
-photo.5.tags: blink, smile, tongue, tree
+photo.5.tags: blink, portrait, smile, tongue, tree
 photo.6: https://www.instagram.com/p/BS1IZBaD0lc/media/?size=m
 photo.6.author: mariten1119
 photo.6.link: https://www.instagram.com/mariten1119/
@@ -60,13 +60,14 @@ photo.12.link: https://www.instagram.com/kipekaila/
 photo.13: https://www.instagram.com/p/BrgbNfTFs9H/media/?size=m
 photo.13.author: kipekaila
 photo.13.link: https://www.instagram.com/kipekaila/
-photo.13.tags: lunch time
+photo.13.tags: lunch time, portrait
 photo.14: https://www.instagram.com/p/BrgYrovl20L/media/?size=m
 photo.14.author: mifko55
 photo.14.link: https://www.instagram.com/mifko55/
 photo.15: https://www.instagram.com/p/BroKnBoFxnQ/media/?size=m
 photo.15.author: _natsu_panda_
 photo.15.link: https://www.instagram.com/_natsu_panda_/
+photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/BswNuosF4TC/media/?size=m
 photo.16.author: mifko55
 photo.16.link: https://www.instagram.com/mifko55/
@@ -74,7 +75,7 @@ photo.16.tags: techitechi
 photo.17: https://www.instagram.com/p/Bu1DEzVFlaW/media/?size=m
 photo.17.author: mifko55
 photo.17.link: https://www.instagram.com/mifko55/
-photo.17.tags: mofumofu, paws
+photo.17.tags: mofumofu, paws, portrait
 photo.18: https://www.instagram.com/p/BvRDM8VFWtM/media/?size=m
 photo.18.author: nishicotolo
 photo.18.link: https://www.instagram.com/nishicotolo/
@@ -86,15 +87,19 @@ photo.19.tags: paws, smile
 photo.20: https://www.instagram.com/p/BwwKS69l8Xk/media/?size=m
 photo.20.author: mifko55
 photo.20.link: https://www.instagram.com/mifko55/
-photo.20.tags: paws, smile
+photo.20.tags: paws, portrait, smile
 photo.21: https://www.instagram.com/p/BxmkIFRllT6/media/?size=m
 photo.21.author: mifko55
 photo.21.link: https://www.instagram.com/mifko55/
-photo.21.tags: itchy, smile
+photo.21.tags: itchy, portrait, smile
 photo.22: https://www.instagram.com/p/ByIV6KWhYHH/media/?size=m
 photo.22.author: resapanlove
 photo.22.link: https://www.instagram.com/resapanlove/
 photo.22.tags: tail
+photo.23: https://www.instagram.com/p/ByfVDfZBur1/media/?size=m
+photo.23.author: shrimpieaqua
+photo.23.link: https://www.instagram.com/shrimpieaqua/
+photo.23.tags: dish, nose, paws, portrait
 species: 2
 video.1: https://youtu.be/TUNBGBRlvvg
 video.1.author: mmovies21
