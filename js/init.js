@@ -81,8 +81,10 @@ window.addEventListener('hashchange', function() {
     Page.current = Page.home.render;
   } else if (mode == "#about") {
     // GUI action changed to about page. Don't worry about calculating results
+    Page.current = Page.about.render;
   } else if (mode == "#links") {
     // GUI action changed to links page. Don't worry about calculating results
+    Page.current = Page.links.render;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
