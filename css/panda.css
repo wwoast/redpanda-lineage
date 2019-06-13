@@ -1276,6 +1276,8 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     ul.tagList {
         font-size: 13pt;   /* Assume tags might run long */
         letter-spacing: -1px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     ul.zooList {
