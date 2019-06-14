@@ -23,11 +23,11 @@ photo.2.tags: baby
 photo.3: https://www.instagram.com/p/BrcsjrPF0ND/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: baby, profile, snow
+photo.3.tags: baby, portrait, profile, snow
 photo.4: https://www.instagram.com/p/BsaL6mDFgMD/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: eye, climb, home
+photo.4.tags: climb, eye, home, portrait
 photo.5: https://www.instagram.com/p/BscIVS3FlU8/media/?size=m
 photo.5.author: tabechum
 photo.5.link: https://www.instagram.com/tabechum/
@@ -51,18 +51,30 @@ photo.9.tags: grumpy, paws, snow
 photo.10: https://www.instagram.com/p/BsbESsqly15/media/?size=m
 photo.10.author: yoshiyokohama
 photo.10.link: https://www.instagram.com/yoshiyokohama/
-photo.10.tags: snow
+photo.10.tags: portrait, snow
 photo.11: https://www.instagram.com/p/BtN_oQmlK21/media/?size=m
 photo.11.author: framereim
 photo.11.link: https://www.instagram.com/framereim/
-photo.11.tags: bite
+photo.11.tags: bite, portrait
 photo.12: https://www.instagram.com/p/BxR3uXNlOvv/media/?size=m
 photo.12.author: tama67photo
 photo.12.link: https://www.instagram.com/tama67photo/
-photo.12.tags: bridge, snow
+photo.12.tags: bridge, portrait, snow
 photo.13: https://www.instagram.com/p/BxR4VdQl38o/media/?size=m
 photo.13.author: tama67photo
 photo.13.link: https://www.instagram.com/tama67photo/
-photo.13.tags: bamboo, laying down, snow
+photo.13.tags: bamboo, laying down, portrait, snow
+photo.14: https://www.instagram.com/p/BtqL8s1lMyB/media/?size=m
+photo.14.author: asahiyamazoo1
+photo.14.link: https://www.instagram.com/asahiyamazoo1/
+photo.14.tags: portrait, techitechi
+photo.15: https://www.instagram.com/p/BynJw4cBbaR/media/?size=m
+photo.15.author: sasapan34
+photo.15.link: https://www.instagram.com/sasapan34/
+photo.15.tags: dig, muzzle
+photo.16: https://www.instagram.com/p/BtSxH60lQku/media/?size=m
+photo.16.author: asahiyamazoo1
+photo.16.link: https://www.instagram.com/asahiyamazoo1/
+photo.16.tags: home, portrait, snow
 species: 2
 zoo: 37

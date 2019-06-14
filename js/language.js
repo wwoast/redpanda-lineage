@@ -879,7 +879,7 @@ Language.L.tags = {
        "en": ["lips"],
        "jp": ["くちびる"]
   },
-  "long tongue": {
+  "long-tongue": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],

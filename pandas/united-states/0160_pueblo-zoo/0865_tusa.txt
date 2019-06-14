@@ -15,5 +15,13 @@ litter: none
 location.1: 177, 2014/6/27
 location.2: 49, 2015/12/1
 location.3: 160, 2017/12/7
+photo.1: https://www.instagram.com/p/BeqbVICBKcr/media/?size=m
+photo.1.author: pueblozoo
+photo.1.link: https://www.instagram.com/pueblozoo/
+photo.1.tags: dish, lunch time
+photo.2: https://www.instagram.com/p/BoOw5-1gTIQ/media/?size=m
+photo.2.author: itchypoint
+photo.2.link: https://www.instagram.com/itchypoint/
+photo.2.tags: profile
 species: 1
 zoo: 160

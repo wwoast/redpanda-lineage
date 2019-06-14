@@ -14,20 +14,16 @@ language.order: en, jp
 litter: 384, 411
 location.1: 43, 2014/6/20
 location.2: 91, 2015/3/31
-photo.1: https://www.instagram.com/p/Bei4gMuF0Lk/media/?size=m
-photo.1.author: ksheaf_photography
-photo.1.link: https://www.instagram.com/ksheaf_photography/
-photo.1.tags: bamboo
-photo.2: https://www.instagram.com/p/BhGo-IDhSyu/media/?size=m
-photo.2.author: kt2709
-photo.2.link: https://www.instagram.com/kt2709/
-photo.2.tags: grooming, tail
-photo.3: https://www.instagram.com/p/BBtY2W9ykLV/media/?size=m
+photo.1: https://www.instagram.com/p/BhGo-IDhSyu/media/?size=m
+photo.1.author: kt2709
+photo.1.link: https://www.instagram.com/kt2709/
+photo.1.tags: grooming, tail
+photo.2: https://www.instagram.com/p/BBtY2W9ykLV/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: lunch time, profile
+photo.3: https://www.instagram.com/p/BBtY8ukSkLf/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: lunch time, profile
-photo.4: https://www.instagram.com/p/BBtY8ukSkLf/media/?size=m
-photo.4.author: worldthathesees
-photo.4.link: https://www.instagram.com/worldthathesees/
 species: 2
 zoo: 91
