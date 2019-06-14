@@ -93,7 +93,6 @@ window.addEventListener('hashchange', function() {
   window.localStorage.setItem("last_seen", window.location.hash);
 });
 
-
 // Once the about-page content is loaded, decide whether to display the
 // contents or just keep them stashed.
 window.addEventListener('about_loaded', function() {
