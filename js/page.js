@@ -35,6 +35,12 @@ Page.about.hashchange = function() {
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    // Determine desktop or mobile, and display relevant instructions
+    var media = window.matchMedia("(max-width: 670px)");
+    Page.about.instructions(media);
+    media.addListener(Page.about.instructions);
+    // Add a tag list
+    Page.about.tags();
     Page.current = Page.about.render;
   }
   window.scrollTo(0, 0);   // Go to the top of the page

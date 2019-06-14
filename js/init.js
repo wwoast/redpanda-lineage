@@ -108,7 +108,7 @@ window.addEventListener('about_loaded', function() {
     Page.about.instructions(media);
     media.addListener(Page.about.instructions);
     // Add a tag list
-    Page.about.tags();    
+    Page.about.tags();  
     Page.current = Page.about.render;
   }
 });
