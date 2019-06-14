@@ -15,11 +15,11 @@ litter: none
 photo.1: https://www.instagram.com/p/BihkCaAFxTP/media/?size=m
 photo.1.author: bubbles_octi
 photo.1.link: https://www.instagram.com/bubbles_octi/
-photo.1.tags: tongue
+photo.1.tags: portrait, tongue
 photo.2: https://www.instagram.com/p/Bc6s_VBjqnt/media/?size=m
 photo.2.author: ck.chie
 photo.2.link: https://www.instagram.com/ck.chie/
-photo.2.tags: profile, tree
+photo.2.tags: portrait, profile, tree
 photo.3: https://www.instagram.com/p/BfeadQEhroK/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
@@ -27,11 +27,11 @@ photo.3.tags: laying down, tongue, tree
 photo.4: https://www.instagram.com/p/BbSvRavBDPn/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: tree
+photo.4.tags: portrait, tree
 photo.5: https://www.instagram.com/p/BmzjZTflcIZ/media/?size=m
 photo.5.author: ck.chie
 photo.5.link: https://www.instagram.com/ck.chie/
-photo.5.tags: smile, tongue
+photo.5.tags: portrait, smile, tongue
 photo.6: https://www.instagram.com/p/BBYsNt9wZ91/media/?size=m
 photo.6.author: rio_minron
 photo.6.link: https://www.instagram.com/rio_minron/
@@ -42,10 +42,11 @@ photo.7.tags: tongue, tree
 photo.8: https://www.instagram.com/p/Bjq1C_1FTM4/media/?size=m
 photo.8.author: na.mo.pan
 photo.8.link: https://www.instagram.com/na.mo.pan/
-photo.8.tags: smile
+photo.8.tags: portrait, smile
 photo.9: https://www.instagram.com/p/Bi1TYKZFuCa/media/?size=m
 photo.9.author: hanamaru_redpanda
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BiDhAyslkDV/media/?size=m
 photo.10.author: minatomirai215
 photo.10.link: https://www.instagram.com/minatomirai215/
@@ -80,7 +81,7 @@ photo.18.tags: lunch time
 photo.19: https://www.instagram.com/p/Br2B6WZluVT/media/?size=m
 photo.19.author: yakko____
 photo.19.link: https://www.instagram.com/yakko____/
-photo.19.tags: home, smile
+photo.19.tags: home, portrait, smile
 photo.20: https://www.instagram.com/p/BsQdxenFCzD/media/?size=m
 photo.20.author: craig_craig_craig
 photo.20.link: https://www.instagram.com/craig_craig_craig/
@@ -88,11 +89,11 @@ photo.20.tags: lips
 photo.21: https://www.instagram.com/p/Bt3GYQCFMLM/media/?size=m
 photo.21.author: ifumoto88
 photo.21.link: https://www.instagram.com/ifumoto88/
-photo.21.tags: lips, smile
+photo.21.tags: lips, portrait, smile
 photo.22: https://www.instagram.com/p/Bwy3yMolgdT/media/?size=m
 photo.22.author: firefoxpanda88
 photo.22.link: https://www.instagram.com/firefoxpanda88/
-photo.22.tags: paws
+photo.22.tags: paws, portrait
 photo.23: https://www.instagram.com/p/ByWTsPnn2yQ/media/?size=m
 photo.23.author: fetorus_mami
 photo.23.link: https://www.instagram.com/fetorus_mami/
