@@ -295,8 +295,8 @@ Gallery.condenseDogEar = function(nav) {
 // header above the photos and credit messages below each one.
 Gallery.birthdayPhotoCredits = function(language) {
   var birthday_div = document.createElement('div');
-  // Pandas must be alive, and have at least 30 photos
-  var birthday_animals = Pandas.searchBirthday(true, 30);
+  // Pandas must be alive, and have at least 20 photos
+  var birthday_animals = Pandas.searchBirthday(true, 20);
   for (let animal of birthday_animals) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
