@@ -1,20 +1,14 @@
 [media]
 _id: media.17.azuki-zun
-photo.1: https://www.instagram.com/p/Bxr-GEGFNKk/media/?size=m
-photo.1.author: codenameodk
-photo.1.link: https://www.instagram.com/codenameodk/
-photo.1.tags: 102, 256, bridge
-photo.1.tags.102.location: 100, 100
-photo.1.tags.256.location: 135, 120
-photo.2: https://www.instagram.com/p/ByHau9qBWzY/media/?size=m
-photo.2.author: kotata_513
-photo.2.link: https://www.instagram.com/kotata_513/
-photo.2.tags: 102, 256, paws
-photo.2.tags.102.location: 200, 115
-photo.2.tags.256.location: 250, 115
-photo.3: https://www.instagram.com/p/ByTXt91BvHO/media/?size=m
-photo.3.author: rie_panda55
-photo.3.link: https://www.instagram.com/rie_panda55/
-photo.3.tags: 102, 256
-photo.3.tags.102.location: 90, 130
-photo.3.tags.256.location: 210, 200
+photo.1: https://www.instagram.com/p/ByHau9qBWzY/media/?size=m
+photo.1.author: kotata_513
+photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: 102, 256, paws
+photo.1.tags.102.location: 200, 115
+photo.1.tags.256.location: 250, 115
+photo.2: https://www.instagram.com/p/ByTXt91BvHO/media/?size=m
+photo.2.author: rie_panda55
+photo.2.link: https://www.instagram.com/rie_panda55/
+photo.2.tags: 102, 256
+photo.2.tags.102.location: 90, 130
+photo.2.tags.256.location: 210, 200

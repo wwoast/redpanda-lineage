@@ -10,7 +10,7 @@ import re
 import sys
 
 from collections import OrderedDict
-from shared import PANDA_PATH, ZOO_PATH
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     def write(self, fp, space_around_delimiters=True):
@@ -163,10 +163,7 @@ def remove_photos(section, author, file_path):
                     removals = removals + 1
                 photo_index = photo_index + 1
                 photo_option = "photo." + str(photo_index)
-                author_optioion()
-                    removals = removals + 1
-                photo_index = photo_index + 1
-                photo_option n = photo_option + ".author"
+                author_option = photo_option + ".author"
                 author_link = photo_option + ".link"
                 author_tags = photo_option + ".tags"
             # Next, renumber the ones that are still there
