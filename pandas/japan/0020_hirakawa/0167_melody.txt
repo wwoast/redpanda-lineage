@@ -21,19 +21,19 @@ photo.1.tags: tree
 photo.2: https://www.instagram.com/p/BkRZ3pIlrb2/media/?size=m
 photo.2.author: panda.daisuki
 photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: laying down, tongue, tree
+photo.2.tags: laying down, portrait, tongue, tree
 photo.3: https://www.instagram.com/p/BbY7bsGlrsN/media/?size=m
 photo.3.author: falcon_tenor
 photo.3.link: https://www.instagram.com/falcon_tenor/
-photo.3.tags: tree
+photo.3.tags: portrait, tree
 photo.4: https://www.instagram.com/p/BhG6UNUHzoM/media/?size=m
 photo.4.author: i.satosato
 photo.4.link: https://www.instagram.com/i.satosato/
-photo.4.tags: smile, tree
+photo.4.tags: portrait, smile, tree
 photo.5: https://www.instagram.com/p/BfuwL47geKp/media/?size=m
 photo.5.author: bubbles_octi
 photo.5.link: https://www.instagram.com/bubbles_octi/
-photo.5.tags: bamboo, grumpy
+photo.5.tags: bamboo, grumpy, portrait
 photo.6: https://www.instagram.com/p/BnmpE6blCk6/media/?size=m
 photo.6.author: tomo3700
 photo.6.link: https://www.instagram.com/tomo3700/
@@ -49,7 +49,7 @@ photo.8.tags: wet
 photo.9: https://www.instagram.com/p/BoVq_sjly8g/media/?size=m
 photo.9.author: i.satosato
 photo.9.link: https://www.instagram.com/i.satosato/
-photo.9.tags: tree
+photo.9.tags: portrait, tree
 photo.10: https://www.instagram.com/p/BoY4BW1Fq6t/media/?size=m
 photo.10.author: kinkinkin0826
 photo.10.link: https://www.instagram.com/kinkinkin0826/
@@ -57,7 +57,7 @@ photo.10.tags: tree, wet
 photo.11: https://www.instagram.com/p/Bokfhi4ltX-/media/?size=m
 photo.11.author: tomo3700
 photo.11.link: https://www.instagram.com/tomo3700/
-photo.11.tags: apple time, keeper, tongue
+photo.11.tags: apple time, keeper, portrait, tongue
 photo.12: https://www.instagram.com/p/BoiK5yqlOZ5/media/?size=m
 photo.12.author: taketake_aniphoto
 photo.12.link: https://www.instagram.com/taketake_aniphoto/
@@ -81,7 +81,7 @@ photo.16.tags: apple time, keeper, pumpkin
 photo.17: https://www.instagram.com/p/BpttRrXlYjx/media/?size=m
 photo.17.author: kotata_513
 photo.17.link: https://www.instagram.com/kotata_513/
-photo.17.tags: bamboo
+photo.17.tags: bamboo, portrait
 photo.18: https://www.instagram.com/p/Bp4YBaGFquN/media/?size=m
 photo.18.author: colette.jp
 photo.18.link: https://www.instagram.com/colette.jp/
@@ -97,7 +97,7 @@ photo.20.tags: smile, standing
 photo.21: https://www.instagram.com/p/BqGJ4QpF0QI/media/?size=m
 photo.21.author: i.satosato
 photo.21.link: https://www.instagram.com/i.satosato/
-photo.21.tags: climb, tree
+photo.21.tags: climb, portrait, tree
 photo.22: https://www.instagram.com/p/BqGGnRYlTxe/media/?size=m
 photo.22.author: mofu_pan
 photo.22.link: https://www.instagram.com/mofu_pan/
@@ -113,19 +113,19 @@ photo.24.tags: keeper, standing
 photo.25: https://www.instagram.com/p/BqZ9oX9lYig/media/?size=m
 photo.25.author: i.satosato
 photo.25.link: https://www.instagram.com/i.satosato/
-photo.25.tags: apple time, keeper
+photo.25.tags: apple time, keeper, portrait
 photo.26: https://www.instagram.com/p/BqeZ8cAlj_x/media/?size=m
 photo.26.author: ifumoto88
 photo.26.link: https://www.instagram.com/ifumoto88/
-photo.26.tags: grumpy
+photo.26.tags: grumpy, portrait
 photo.27: https://www.instagram.com/p/BqhgLV8FOkL/media/?size=m
 photo.27.author: i.satosato
 photo.27.link: https://www.instagram.com/i.satosato/
-photo.27.tags: standing
+photo.27.tags: standing, window
 photo.28: https://www.instagram.com/p/BqpJPDqlqLc/media/?size=m
 photo.28.author: love__mitarashi
 photo.28.link: https://www.instagram.com/love__mitarashi/
-photo.28.tags: grumpy
+photo.28.tags: grumpy, portrait
 photo.29: https://www.instagram.com/p/BqupAyNlw17/media/?size=m
 photo.29.author: i.satosato
 photo.29.link: https://www.instagram.com/i.satosato/
@@ -144,10 +144,11 @@ photo.32.tags: bamboo, tongue
 photo.33: https://www.instagram.com/p/BrEAobelLOt/media/?size=m
 photo.33.author: redpanda_nippon_takashi
 photo.33.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.33.tags: portrait
 photo.34: https://www.instagram.com/p/BrC9a5Vl5Rw/media/?size=m
 photo.34.author: rieishi616
 photo.34.link: https://www.instagram.com/rieishi616/
-photo.34.tags: smile
+photo.34.tags: portrait, smile
 photo.35: https://www.instagram.com/p/BrJd3LdFa2S/media/?size=m
 photo.35.author: tomo3700
 photo.35.link: https://www.instagram.com/tomo3700/
@@ -187,7 +188,7 @@ photo.43.tags: bamboo
 photo.44: https://www.instagram.com/p/Brkg0fUHt82/media/?size=m
 photo.44.author: mochan8686
 photo.44.link: https://www.instagram.com/mochan8686/
-photo.44.tags: standing, tree
+photo.44.tags: portrait, standing, tree
 photo.45: https://www.instagram.com/p/BrKk18XH6X2/media/?size=m
 photo.45.author: mochan8686
 photo.45.link: https://www.instagram.com/mochan8686/
@@ -199,7 +200,7 @@ photo.46.tags: keeper
 photo.47: https://www.instagram.com/p/BsNuGdeFgrE/media/?size=m
 photo.47.author: riri_panda616
 photo.47.link: https://www.instagram.com/riri_panda616/
-photo.47.tags: bamboo, techitechi
+photo.47.tags: bamboo, portrait, techitechi
 photo.48: https://www.instagram.com/p/BsSnfy2FP-0/media/?size=m
 photo.48.author: falcon_tenor
 photo.48.link: https://www.instagram.com/falcon_tenor/
@@ -215,7 +216,7 @@ photo.50.tags: laying down, tree
 photo.51: https://www.instagram.com/p/BsZDLunlsm-/media/?size=m
 photo.51.author: tomo3700
 photo.51.link: https://www.instagram.com/tomo3700/
-photo.51.tags: apple time, keeper
+photo.51.tags: apple time, keeper, portrait
 photo.52: https://www.instagram.com/p/BsXe1TsFRF_/media/?size=m
 photo.52.author: redpanda_nippon_takashi
 photo.52.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -239,14 +240,14 @@ photo.56.tags: tree, upside-down
 photo.57: https://www.instagram.com/p/BsnE1ZxF9L2/media/?size=m
 photo.57.author: redpan22
 photo.57.link: https://www.instagram.com/redpan22/
-photo.57.tags: apple time, keeper, mofumofu
+photo.57.tags: apple time, keeper, mofumofu, portrait
 photo.58: https://www.instagram.com/p/BsvS2iNlYBD/media/?size=m
 photo.58.author: redpan22
 photo.58.link: https://www.instagram.com/redpan22/
 photo.59: https://www.instagram.com/p/BsxNbO_FAcH/media/?size=m
 photo.59.author: redpan22
 photo.59.link: https://www.instagram.com/redpan22/
-photo.59.tags: bamboo, mofumofu, smile, tail
+photo.59.tags: bamboo, mofumofu, portrait, smile, tail
 photo.60: https://www.instagram.com/p/Bsz2hR5FPcV/media/?size=m
 photo.60.author: falcon_tenor
 photo.60.link: https://www.instagram.com/falcon_tenor/
@@ -254,11 +255,11 @@ photo.60.tags: mofumofu, tail, tree
 photo.61: https://www.instagram.com/p/Bs4rKOXFH-5/media/?size=m
 photo.61.author: bubbles_octi
 photo.61.link: https://www.instagram.com/bubbles_octi/
-photo.61.tags: mofumofu, paws
+photo.61.tags: mofumofu, paws, portrait
 photo.62: https://www.instagram.com/p/Bs4_vSdlVFq/media/?size=m
 photo.62.author: framereim
 photo.62.link: https://www.instagram.com/framereim/
-photo.62.tags: blink, paws, smile
+photo.62.tags: blink, paws, portrait, smile
 photo.63: https://www.instagram.com/p/BtBKbf8l6KD/media/?size=m
 photo.63.author: redpan22
 photo.63.link: https://www.instagram.com/redpan22/
@@ -266,7 +267,7 @@ photo.63.tags: keeper, paws
 photo.64: https://www.instagram.com/p/BtA-6HMlfs7/media/?size=m
 photo.64.author: kinkinkin0826
 photo.64.link: https://www.instagram.com/kinkinkin0826/
-photo.64.tags: tree
+photo.64.tags: portrait, tree
 photo.65: https://www.instagram.com/p/BtF14pZlJfe/media/?size=m
 photo.65.author: falcon_tenor
 photo.65.link: https://www.instagram.com/falcon_tenor/
@@ -298,7 +299,7 @@ photo.71.tags: surprise,  tree
 photo.72: https://www.instagram.com/p/Buy-cw_Fg4M/media/?size=m
 photo.72.author: resapan.suki
 photo.72.link: https://www.instagram.com/resapan.suki/
-photo.72.tags: smile, tongue
+photo.72.tags: portrait, smile, tongue
 photo.73: https://www.instagram.com/p/Bu5qjAxldYq/media/?size=m
 photo.73.author: resapan.suki
 photo.73.link: https://www.instagram.com/resapan.suki/
@@ -306,7 +307,7 @@ photo.73.tags: bamboo, smile
 photo.74: https://www.instagram.com/p/BvIrIakFMaR/media/?size=m
 photo.74.author: gloryeui
 photo.74.link: https://www.instagram.com/gloryeui/
-photo.74.tags: bamboo, tongue
+photo.74.tags: bamboo, portrait, tongue
 photo.75: https://www.instagram.com/p/BvOlWqoFksX/media/?size=m
 photo.75.author: colette.jp
 photo.75.link: https://www.instagram.com/colette.jp/
@@ -325,7 +326,7 @@ photo.78.link: https://www.instagram.com/mochan8686/
 photo.79: https://www.instagram.com/p/BvyBivLllSX/media/?size=m
 photo.79.author: gloryeui
 photo.79.link: https://www.instagram.com/gloryeui/
-photo.79.tags: grumpy, techitechi, tree
+photo.79.tags: grumpy, portrait, techitechi, tree
 photo.80: https://www.instagram.com/p/Bv30uv4lMAn/media/?size=m
 photo.80.author: falcon_tenor
 photo.80.link: https://www.instagram.com/falcon_tenor/
@@ -333,7 +334,7 @@ photo.80.tags: flowers
 photo.81: https://www.instagram.com/p/Bv-NzEVH0Mb/media/?size=m
 photo.81.author: tomo3700
 photo.81.link: https://www.instagram.com/tomo3700/
-photo.81.tags: flowers, smile
+photo.81.tags: flowers, portrait, smile
 photo.82: https://www.instagram.com/p/Bv-y0e1l3R4/media/?size=m
 photo.82.author: love__mitarashi
 photo.82.link: https://www.instagram.com/love__mitarashi/
@@ -341,15 +342,15 @@ photo.82.tags: smile
 photo.83: https://www.instagram.com/p/Bv_-XrOF9kL/media/?size=m
 photo.83.author: resapan.suki
 photo.83.link: https://www.instagram.com/resapan.suki/
-photo.83.tags: smile, tree
+photo.83.tags: portrait, smile, tree
 photo.84: https://www.instagram.com/p/Bv_s4cmlkfw/media/?size=m
 photo.84.author: i.satosato
 photo.84.link: https://www.instagram.com/i.satosato/
-photo.84.tags: apple time, keeper
+photo.84.tags: apple time, keeper, portrait
 photo.85: https://www.instagram.com/p/Bv_hpngFJCd/media/?size=m
 photo.85.author: kinkinkin0826
 photo.85.link: https://www.instagram.com/kinkinkin0826/
-photo.85.tags: paws, smile, tree
+photo.85.tags: paws, portrait, smile, tree
 photo.86: https://www.instagram.com/p/Bv_5BYFFylb/media/?size=m
 photo.86.author: nakacchi_desu
 photo.86.link: https://www.instagram.com/nakacchi_desu/
@@ -365,6 +366,7 @@ photo.88.tags: tree, wet
 photo.89: https://www.instagram.com/p/BwA-_1NFTol/media/?size=m
 photo.89.author: mugicha0312
 photo.89.link: https://www.instagram.com/mugicha0312/
+photo.89.tags: portrait
 photo.90: https://www.instagram.com/p/BwEoF1uFmiE/media/?size=m
 photo.90.author: fetorus_mami
 photo.90.link: https://www.instagram.com/fetorus_mami/
@@ -384,7 +386,7 @@ photo.93.tags: bamboo, paws, smile, standing
 photo.94: https://www.instagram.com/p/BwJqz8DFc-O/media/?size=m
 photo.94.author: i.satosato
 photo.94.link: https://www.instagram.com/i.satosato/
-photo.94.tags: baby, paws
+photo.94.tags: baby, paws, portrait
 photo.95: https://www.instagram.com/p/BwLv9s3l0Ni/media/?size=m
 photo.95.author: riri_panda616
 photo.95.link: https://www.instagram.com/riri_panda616/
@@ -396,11 +398,11 @@ photo.96.tags: paws
 photo.97: https://www.instagram.com/p/BwLw9_-FqzU/media/?size=m
 photo.97.author: riri_panda616
 photo.97.link: https://www.instagram.com/riri_panda616/
-photo.97.tags: paws, smile, tree
+photo.97.tags: paws, portrait, smile, tree
 photo.98: https://www.instagram.com/p/BwMg0Lblw2Q/media/?size=m
 photo.98.author: motohin
 photo.98.link: https://www.instagram.com/motohin/
-photo.98.tags: flower, techitechi
+photo.98.tags: flower, portrait, techitechi
 photo.99: https://www.instagram.com/p/BwO0fNKFsQy/media/?size=m
 photo.99.author: perie1027vivi
 photo.99.link: https://www.instagram.com/perie1027vivi/
@@ -416,6 +418,7 @@ photo.101.tags: smile, tree
 photo.102: https://www.instagram.com/p/BwSh0DWFwDv/media/?size=m
 photo.102.author: keithkeith123
 photo.102.link: https://www.instagram.com/keithkeith123/
+photo.102.tags: portrait, techitechi
 photo.103: https://www.instagram.com/p/BwV--89FojV/media/?size=m
 photo.103.author: falcon_tenor
 photo.103.link: https://www.instagram.com/falcon_tenor/
@@ -427,19 +430,19 @@ photo.104.tags: paws, smile, tree
 photo.105: https://www.instagram.com/p/BwUOHFBlsrF/media/?size=m
 photo.105.author: tomo3700
 photo.105.link: https://www.instagram.com/tomo3700/
-photo.105.tags: smile, tree
+photo.105.tags: portrait, smile, tree
 photo.106: https://www.instagram.com/p/BwUGS_ql7TW/media/?size=m
 photo.106.author: jakeypump
 photo.106.link: https://www.instagram.com/jakeypump/
-photo.106.tags: laying down, techitechi, tree
+photo.106.tags: laying down, portrait, techitechi, tree
 photo.107: https://www.instagram.com/p/BwVaSvTl8X-/media/?size=m
 photo.107.author: firefoxpanda88
 photo.107.link: https://www.instagram.com/firefoxpanda88/
-photo.107.tags: tree
+photo.107.tags: portrait, tree
 photo.108: https://www.instagram.com/p/BwWxA_BlxMJ/media/?size=m
 photo.108.author: colette.jp
 photo.108.link: https://www.instagram.com/colette.jp/
-photo.108.tags: smile, tree
+photo.108.tags: portrait, smile, tree
 photo.109: https://www.instagram.com/p/BwUxKEelEsb/media/?size=m
 photo.109.author: bubbles_octi
 photo.109.link: https://www.instagram.com/bubbles_octi/
@@ -463,10 +466,14 @@ photo.113.tags: mofumofu
 photo.114: https://www.instagram.com/p/ByGtIi5HsZi/media/?size=m
 photo.114.author: tomo3700
 photo.114.link: https://www.instagram.com/tomo3700/
-photo.114.tags: bamboo, mofumofu, paws
+photo.114.tags: bamboo, mofumofu, paws, portrait
 photo.115: https://www.instagram.com/p/Bym6p_nBuoJ/media/?size=m
 photo.115.author: minatomirai215
 photo.115.link: https://www.instagram.com/minatomirai215/
-photo.115.tags: smile
+photo.115.tags: portrait, smile
+photo.116: https://www.instagram.com/p/BynaHTVhrZd/media/?size=m
+photo.116.author: yossi929
+photo.116.link: https://www.instagram.com/yossi929/
+photo.116.tags: eye, smile, portrait
 species: 2
 zoo: 20
