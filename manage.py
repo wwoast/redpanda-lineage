@@ -91,12 +91,31 @@ def renumber_photos(config, section, stop_point):
                 config.set(section, photo_link, config.get(section, next_link))
                 if config.has_option(section, next_tags):
                     config.set(section, photo_tags, config.get(section, next_tags))
+                    # Deal with group tags if they exist
+                    tags = config.get(section, next_tags)
+                    tag_ids = tags.replace(" ","").split(",")
+                    tag_ids = [x for x in tag_ids if x.isdigit()]
+                    for tag_id in tag_ids:
+                        photo_location_tag = photo_tags + "." + tag_id + ".location"
+                        next_location_tag = next_tags + "." + tag_id + ".location"
+                        if config.has_option(section, next_location_tag):
+                            config.set(section, photo_location_tag,
+                                       config.get(section, next_location_tag))
                 else:
                     config.remove_option(section, photo_tags)
                 config.remove_option(section, next_option)
                 config.remove_option(section, next_author)
                 config.remove_option(section, next_link)
-                config.remove_option(section, next_tags)
+                if config.has_option(section, next_tags):
+                    tags = config.get(section, next_tags)
+                    config.remove_option(section, next_tags)
+                    # Deal with group tags if they exist
+                    tag_ids = tags.replace(" ","").split(",")
+                    tag_ids = [x for x in tag_ids if x.isdigit()]
+                    for tag_id in tag_ids:
+                        next_location_tag = next_tags + "." + tag_id + ".location"
+                        if config.has_option(section, next_location_tag):
+                            config.remove_option(section, next_location_tag)
         photo_index = photo_index + 1
 
 def remove_photos(section, author, file_path):
@@ -131,11 +150,23 @@ def remove_photos(section, author, file_path):
                     config.remove_option(section, author_option)
                     config.remove_option(section, author_link)
                     if config.has_option(section, author_tags):
+                        tags = config.get(section, author_tags)
                         config.remove_option(section, author_tags)
+                        # For location group-photo tag lines, look for the numbers in the tag section, 
+                        # and remove any corresponding location tags from the groups section
+                        tag_ids = tags.replace(" ","").split(",")
+                        tag_ids = [x for x in tag_ids if x.isdigit()]
+                        for tag_id in tag_ids:
+                            photo_location_tag = author_tags + "." + tag_id + ".location"
+                            if config.has_option(section, photo_location_tag):
+                                config.remove_option(section, photo_location_tag)
                     removals = removals + 1
                 photo_index = photo_index + 1
                 photo_option = "photo." + str(photo_index)
-                author_option = photo_option + ".author"
+                author_optioion()
+                    removals = removals + 1
+                photo_index = photo_index + 1
+                photo_option n = photo_option + ".author"
                 author_link = photo_option + ".link"
                 author_tags = photo_option + ".tags"
             # Next, renumber the ones that are still there
@@ -143,6 +174,9 @@ def remove_photos(section, author, file_path):
                 renumber_photos(config, section, photo_index)
             # Done? Let's write config
             write_config(config, section, path)
+
+def remove_media_photos(author):
+    remove_photos("media", author, MEDIA_PATH)
 
 def remove_panda_photos(author):
     remove_photos("panda", author, PANDA_PATH)
@@ -178,3 +212,4 @@ if __name__ == '__main__':
         if sys.argv[1] == "--remove-photos":
             remove_panda_photos(sys.argv[2])
             remove_zoo_photos(sys.argv[2])
+            remove_media_photos(sys.argv[2])
