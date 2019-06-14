@@ -99,17 +99,17 @@ window.addEventListener('hashchange', function() {
 window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
     Page.about.render();
-    // Determine desktop or mobile, and display relevant instructions
-    var media = window.matchMedia("(max-width: 670px)");
-    Page.about.instructions(media);
-    media.addListener(Page.about.instructions);
-    // Add a tag list
-    Page.about.tags();
     // Add event listeners to the newly created About page buttons
     Page.sections.buttonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
     Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    // Determine desktop or mobile, and display relevant instructions
+    var media = window.matchMedia("(max-width: 670px)");
+    Page.about.instructions(media);
+    media.addListener(Page.about.instructions);
+    // Add a tag list
+    Page.about.tags();    
     Page.current = Page.about.render;
   }
 });
