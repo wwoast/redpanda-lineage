@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BhJSL-Yhtso/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: carry, flowers, shedding
+photo.1.tags: carry, flowers, portrait, shedding
 photo.2: https://www.instagram.com/p/BhKsThFhzcw/media/?size=m
 photo.2.author: _rifa_p
 photo.2.link: https://www.instagram.com/_rifa_p/
@@ -23,11 +23,11 @@ photo.2.tags: pull-up, tree
 photo.3: https://www.instagram.com/p/Bi_2QOLl1pO/media/?size=m
 photo.3.author: peek_a_boo00
 photo.3.link: https://www.instagram.com/peek_a_boo00/
-photo.3.tags: home, upside-down
+photo.3.tags: home, portrait, upside-down
 photo.4: https://www.instagram.com/p/BjwsUn3Fbk0/media/?size=m
 photo.4.author: makimaru18
 photo.4.link: https://www.instagram.com/makimaru18/
-photo.4.tags: profile, smile
+photo.4.tags: portrait, profile, smile
 photo.5: https://www.instagram.com/p/BhJwTJplKNb/media/?size=m
 photo.5.author: nakacchi_desu
 photo.5.link: https://www.instagram.com/nakacchi_desu/
@@ -39,9 +39,11 @@ photo.6.tags: tree
 photo.7: https://www.instagram.com/p/Bn6OfT7lvM5/media/?size=m
 photo.7.author: yossi929
 photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BoWDNJ3FpGE/media/?size=m
 photo.8.author: yossi929
 photo.8.link: https://www.instagram.com/yossi929/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BocqENUFrUQ/media/?size=m
 photo.9.author: re_ichimaru
 photo.9.link: https://www.instagram.com/re_ichimaru/
@@ -49,7 +51,7 @@ photo.9.tags: dish
 photo.10: https://www.instagram.com/p/BofR62ml379/media/?size=m
 photo.10.author: tomo3700
 photo.10.link: https://www.instagram.com/tomo3700/
-photo.10.tags: itchy
+photo.10.tags: itchy, portrait
 photo.11: https://www.instagram.com/p/BojMQsIFoyh/media/?size=m
 photo.11.author: framereim
 photo.11.link: https://www.instagram.com/framereim/
@@ -65,6 +67,7 @@ photo.13.tags: standing
 photo.14: https://www.instagram.com/p/BpeZ_U-lozq/media/?size=m
 photo.14.author: kinkinkin0826
 photo.14.link: https://www.instagram.com/kinkinkin0826/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/Bpg_7IwFjg0/media/?size=m
 photo.15.author: framereim
 photo.15.link: https://www.instagram.com/framereim/
@@ -76,22 +79,23 @@ photo.16.tags: bamboo, pumpkin
 photo.17: https://www.instagram.com/p/Bpy2odhFPB1/media/?size=m
 photo.17.author: framereim
 photo.17.link: https://www.instagram.com/framereim/
-photo.17.tags: laying down, paws, upside-down
+photo.17.tags: laying down, paws, portrait, upside-down
 photo.18: https://www.instagram.com/p/Bkc0eXnHOrK/media/?size=m
 photo.18.author: mochan8686
 photo.18.link: https://www.instagram.com/mochan8686/
-photo.18.tags: laying down
+photo.18.tags: laying down, portrait
 photo.19: https://www.instagram.com/p/BrNLeX_FwHn/media/?size=m
 photo.19.author: framereim
 photo.19.link: https://www.instagram.com/framereim/
-photo.19.tags: autumn, laying down, tree
+photo.19.tags: autumn, laying down, portrait, tree
 photo.20: https://www.instagram.com/p/Brq7YUBFb35/media/?size=m
 photo.20.author: redpanda_nippon_takashi
 photo.20.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.20.tags: window
 photo.21: https://www.instagram.com/p/BLD1o3SDiKz/media/?size=m
 photo.21.author: shrimpieaqua
 photo.21.link: https://www.instagram.com/shrimpieaqua/
-photo.21.tags: baby
+photo.21.tags: baby, portrait
 photo.22: https://www.instagram.com/p/BsML_Y3FBhe/media/?size=m
 photo.22.author: tomo3700
 photo.22.link: https://www.instagram.com/tomo3700/
@@ -99,14 +103,15 @@ photo.22.tags: apple time
 photo.23: https://www.instagram.com/p/Bssb-TulPeU/media/?size=m
 photo.23.author: makimaru18
 photo.23.link: https://www.instagram.com/makimaru18/
+photo.23.tags: portrait
 photo.24: https://www.instagram.com/p/BuD5rSQFjzs/media/?size=m
 photo.24.author: makimaru18
 photo.24.link: https://www.instagram.com/makimaru18/
-photo.24.tags: grooming, tongue
+photo.24.tags: grooming, portrait, tongue
 photo.25: https://www.instagram.com/p/BuMzPFRlK6K/media/?size=m
 photo.25.author: yakko____
 photo.25.link: https://www.instagram.com/yakko____/
-photo.25.tags: bamboo, ear
+photo.25.tags: bamboo, ear, portrait
 photo.26: https://www.instagram.com/p/BuRITlCFT0e/media/?size=m
 photo.26.author: makimaru18
 photo.26.link: https://www.instagram.com/makimaru18/
@@ -114,7 +119,7 @@ photo.26.tags: climb
 photo.27: https://www.instagram.com/p/BubJW8HlaDd/media/?size=m
 photo.27.author: kinkinkin0826
 photo.27.link: https://www.instagram.com/kinkinkin0826/
-photo.27.tags: smile
+photo.27.tags: portrait, smile
 photo.28: https://www.instagram.com/p/ButJo0Clb3A/media/?size=m
 photo.28.author: framereim
 photo.28.link: https://www.instagram.com/framereim/
@@ -122,14 +127,14 @@ photo.28.tags: paws, standing
 photo.29: https://www.instagram.com/p/BvFxaFDl0W_/media/?size=m
 photo.29.author: makimaru18
 photo.29.link: https://www.instagram.com/makimaru18/
-photo.29.tags: bamboo
+photo.29.tags: bamboo, portrait
 photo.30: https://www.instagram.com/p/BxlgXi3lxyZ/media/?size=m
 photo.30.author: makimaru18
 photo.30.link: https://www.instagram.com/makimaru18/
-photo.30.tags: shedding
+photo.30.tags: portrait, shedding
 photo.31: https://www.instagram.com/p/BwNobHNhOGM/media/?size=m
 photo.31.author: s24.star_load
 photo.31.link: https://www.instagram.com/s24.star_load/
-photo.31.tags: shedding
+photo.31.tags: portrait, shedding
 species: 2
 zoo: 50
