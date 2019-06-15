@@ -15,11 +15,11 @@ litter: none
 photo.1: https://www.instagram.com/p/BjKN73FHVNg/media/?size=m
 photo.1.author: cattail.sapporo
 photo.1.link: https://www.instagram.com/cattail.sapporo/
-photo.1.tags: profile, slobber, techitechi
+photo.1.tags: portrait, profile, slobber, techitechi
 photo.2: https://www.instagram.com/p/BllvOaGl8gB/media/?size=m
 photo.2.author: gloryeui
 photo.2.link: https://www.instagram.com/gloryeui/
-photo.2.tags: itchy
+photo.2.tags: itchy, portrait
 photo.3: https://www.instagram.com/p/BiHIlGYnPSa/media/?size=m
 photo.3.author: cattail.sapporo
 photo.3.link: https://www.instagram.com/cattail.sapporo/
@@ -35,19 +35,19 @@ photo.5.tags: smile
 photo.6: https://www.instagram.com/p/BnWc2HTHpyK/media/?size=m
 photo.6.author: cattail.sapporo
 photo.6.link: https://www.instagram.com/cattail.sapporo/
-photo.6.tags: laying down
+photo.6.tags: laying down, portrait
 photo.7: https://www.instagram.com/p/Bn3mrYhg1qC/media/?size=m
 photo.7.author: photokaorin
 photo.7.link: https://www.instagram.com/photokaorin/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/Bn8I0jclfiK/media/?size=m
 photo.8.author: miis_98
 photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: bamboo, tongue
+photo.8.tags: bamboo, portrait, tongue
 photo.9: https://www.instagram.com/p/BoU91E0F1Mn/media/?size=m
 photo.9.author: leonard_redmof
 photo.9.link: https://www.instagram.com/leonard_redmof/
-photo.9.tags: smile
+photo.9.tags: portrait, smile
 photo.10: https://www.instagram.com/p/Bobwd5Il6T5/media/?size=m
 photo.10.author: mari_neko3
 photo.10.link: https://www.instagram.com/mari_neko3/
@@ -69,6 +69,7 @@ photo.14.tags: apple time
 photo.15: https://www.instagram.com/p/BoxNI7gl_cf/media/?size=m
 photo.15.author: izu_108
 photo.15.link: https://www.instagram.com/izu_108/
+photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/BpFzTXPl1ZJ/media/?size=m
 photo.16.author: izu_108
 photo.16.link: https://www.instagram.com/izu_108/
@@ -91,10 +92,11 @@ photo.20.tags: bamboo
 photo.21: https://www.instagram.com/p/BqAGewMlPVr/media/?size=m
 photo.21.author: leonard_redmof
 photo.21.link: https://www.instagram.com/leonard_redmof/
-photo.21.tags: tongue
+photo.21.tags: portrait, tongue
 photo.22: https://www.instagram.com/p/BqFC3mhFCaY/media/?size=m
 photo.22.author: leonard_redmof
 photo.22.link: https://www.instagram.com/leonard_redmof/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/BqHjS8AlHCc/media/?size=m
 photo.23.author: nishicotolo
 photo.23.link: https://www.instagram.com/nishicotolo/
@@ -120,7 +122,7 @@ photo.28.tags: snow
 photo.29: https://www.instagram.com/p/Br6D4ItHbjP/media/?size=m
 photo.29.author: cattail.sapporo
 photo.29.link: https://www.instagram.com/cattail.sapporo/
-photo.29.tags: smile, snow
+photo.29.tags: portrait, smile, snow
 photo.30: https://www.instagram.com/p/BsKYKgoHMJ8/media/?size=m
 photo.30.author: cattail.sapporo
 photo.30.link: https://www.instagram.com/cattail.sapporo/
@@ -132,7 +134,7 @@ photo.31.tags: paws, snow
 photo.32: https://www.instagram.com/p/BsRrj65FxtA/media/?size=m
 photo.32.author: framereim
 photo.32.link: https://www.instagram.com/framereim/
-photo.32.tags: paws, snow
+photo.32.tags: paws, portrait, snow
 photo.33: https://www.instagram.com/p/BsSceiOlHLh/media/?size=m
 photo.33.author: nishicotolo
 photo.33.link: https://www.instagram.com/nishicotolo/
@@ -140,11 +142,11 @@ photo.33.tags: bamboo, grumpy
 photo.34: https://www.instagram.com/p/Bsc-PAyHsxf/media/?size=m
 photo.34.author: cattail.sapporo
 photo.34.link: https://www.instagram.com/cattail.sapporo/
-photo.34.tags: snow
+photo.34.tags: portrait, snow
 photo.35: https://www.instagram.com/p/BssKErTFF_H/media/?size=m
 photo.35.author: izu_108
 photo.35.link: https://www.instagram.com/izu_108/
-photo.35.tags: snow
+photo.35.tags: portrait, snow
 photo.36: https://www.instagram.com/p/Bsz-_NxFCDY/media/?size=m
 photo.36.author: nishicotolo
 photo.36.link: https://www.instagram.com/nishicotolo/
@@ -164,18 +166,18 @@ photo.39.tags: snow, tail
 photo.40: https://www.instagram.com/p/BtIsRhaF8aK/media/?size=m
 photo.40.author: leonard_redmof
 photo.40.link: https://www.instagram.com/leonard_redmof/
-photo.40.tags: apple time, smile
+photo.40.tags: apple time, portrait, smile
 photo.41: https://www.instagram.com/p/BtN4DL0HSoO/media/?size=m
 photo.41.author: cattail.sapporo
 photo.41.link: https://www.instagram.com/cattail.sapporo/
-photo.41.tags: snow
+photo.41.tags: portrait, snow
 photo.42: https://www.instagram.com/p/BtNzA2MFrSM/media/?size=m
 photo.42.author: izu_108
 photo.42.link: https://www.instagram.com/izu_108/
 photo.43: https://www.instagram.com/p/BtjZIAsnlFw/media/?size=m
 photo.43.author: cattail.sapporo
 photo.43.link: https://www.instagram.com/cattail.sapporo/
-photo.43.tags: snow
+photo.43.tags: portrait, snow
 photo.44: https://www.instagram.com/p/Bt-nuROFVjA/media/?size=m
 photo.44.author: leonard_redmof
 photo.44.link: https://www.instagram.com/leonard_redmof/
@@ -187,7 +189,7 @@ photo.45.tags: bamboo, snow, standing
 photo.46: https://www.instagram.com/p/BuPQflXn27I/media/?size=m
 photo.46.author: cattail.sapporo
 photo.46.link: https://www.instagram.com/cattail.sapporo/
-photo.46.tags: paws, snow
+photo.46.tags: paws, portrait, snow
 photo.47: https://www.instagram.com/p/BuQoqDFl3xy/media/?size=m
 photo.47.author: leonard_redmof
 photo.47.link: https://www.instagram.com/leonard_redmof/
@@ -195,11 +197,11 @@ photo.47.tags: laying down, paws
 photo.48: https://www.instagram.com/p/BuXD1sfn4F3/media/?size=m
 photo.48.author: cattail.sapporo
 photo.48.link: https://www.instagram.com/cattail.sapporo/
-photo.48.tags: mofumofu
+photo.48.tags: mofumofu, portrait
 photo.49: https://www.instagram.com/p/BunQvcileii/media/?size=m
 photo.49.author: mari_neko3
 photo.49.link: https://www.instagram.com/mari_neko3/
-photo.49.tags: smile
+photo.49.tags: portrait, smile
 photo.50: https://www.instagram.com/p/Bu8Xzk0FVmA/media/?size=m
 photo.50.author: izu_108
 photo.50.link: https://www.instagram.com/izu_108/
@@ -211,7 +213,7 @@ photo.51.tags: bamboo, paws, snow, tail
 photo.52: https://www.instagram.com/p/BpgUV1FlVUZ/media/?size=m
 photo.52.author: wumpwoast
 photo.52.link: https://www.instagram.com/wumpwoast/
-photo.52.tags: tongue
+photo.52.tags: portrait, tongue
 photo.53: https://www.instagram.com/p/BvqtVUalyBs/media/?size=m
 photo.53.author: nishicotolo
 photo.53.link: https://www.instagram.com/nishicotolo/
@@ -219,7 +221,7 @@ photo.53.tags: bamboo, smile
 photo.54: https://www.instagram.com/p/BvtENlknmZF/media/?size=m
 photo.54.author: cattail.sapporo
 photo.54.link: https://www.instagram.com/cattail.sapporo/
-photo.54.tags: bamboo
+photo.54.tags: bamboo, portrait
 photo.55: https://www.instagram.com/p/Bv000tfH-XC/media/?size=m
 photo.55.author: cattail.sapporo
 photo.55.link: https://www.instagram.com/cattail.sapporo/
@@ -227,13 +229,14 @@ photo.55.tags: bamboo, tail, tongue
 photo.56: https://www.instagram.com/p/Bv1bJKVFtcU/media/?size=m
 photo.56.author: mari_neko3
 photo.56.link: https://www.instagram.com/mari_neko3/
+photo.56.tags: portrait
 photo.57: https://www.instagram.com/p/Bv9GcMRlFjz/media/?size=m
 photo.57.author: _sealiz
 photo.57.link: https://www.instagram.com/_sealiz/
 photo.58: https://www.instagram.com/p/Bv-o19mnR8c/media/?size=m
 photo.58.author: cattail.sapporo
 photo.58.link: https://www.instagram.com/cattail.sapporo/
-photo.58.tags: bamboo, tongue
+photo.58.tags: bamboo, portrait, tongue
 photo.59: https://www.instagram.com/p/BwBHO80lNnH/media/?size=m
 photo.59.author: izu_108
 photo.59.link: https://www.instagram.com/izu_108/
@@ -245,10 +248,11 @@ photo.60.tags: paws, tongue
 photo.61: https://www.instagram.com/p/BwjjS0HgMBz/media/?size=m
 photo.61.author: cattail.sapporo
 photo.61.link: https://www.instagram.com/cattail.sapporo/
-photo.61.tags: bamboo, tongue
+photo.61.tags: bamboo, portrait, tongue
 photo.62: https://www.instagram.com/p/Bwtd_GqArV5/media/?size=m
 photo.62.author: cattail.sapporo
 photo.62.link: https://www.instagram.com/cattail.sapporo/
+photo.62.tags: portrait
 photo.63: https://www.instagram.com/p/BwrRQlMFDdS/media/?size=m
 photo.63.author: kipekaila
 photo.63.link: https://www.instagram.com/kipekaila/
@@ -256,10 +260,11 @@ photo.63.tags: smile, tongue
 photo.64: https://www.instagram.com/p/Bw-Vy4MAdSJ/media/?size=m
 photo.64.author: cattail.sapporo
 photo.64.link: https://www.instagram.com/cattail.sapporo/
+photo.64.tags: portrait
 photo.65: https://www.instagram.com/p/BxCZJekFxHW/media/?size=m
 photo.65.author: yakko____
 photo.65.link: https://www.instagram.com/yakko____/
-photo.65.tags: bamboo
+photo.65.tags: bamboo, portrait
 photo.66: https://www.instagram.com/p/BxPNJGDFM3H/media/?size=m
 photo.66.author: nishicotolo
 photo.66.link: https://www.instagram.com/nishicotolo/
@@ -271,7 +276,7 @@ photo.67.tags: shake, snow
 photo.68: https://www.instagram.com/p/BVW9aLFjFpz/media/?size=m
 photo.68.author: _sealiz
 photo.68.link: https://www.instagram.com/_sealiz/
-photo.68.tags: baby
+photo.68.tags: baby, portrait
 photo.69: https://www.instagram.com/p/BQHP71VjbqE/media/?size=m
 photo.69.author: _sealiz
 photo.69.link: https://www.instagram.com/_sealiz/
@@ -295,9 +300,11 @@ photo.73.tags: bridge
 photo.74: https://www.instagram.com/p/BxpCFlUFGJG/media/?size=m
 photo.74.author: tama67photo
 photo.74.link: https://www.instagram.com/tama67photo/
+photo.74.tags: portrait
 photo.75: https://www.instagram.com/p/Bxzd8byFxX2/media/?size=m
 photo.75.author: tama67photo
 photo.75.link: https://www.instagram.com/tama67photo/
+photo.75.tags: portrait
 photo.76: https://www.instagram.com/p/Bx1-q0Kl2Sa/media/?size=m
 photo.76.author: nishicotolo
 photo.76.link: https://www.instagram.com/nishicotolo/
@@ -308,7 +315,7 @@ photo.77.link: https://www.instagram.com/nishicotolo/
 photo.78: https://www.instagram.com/p/ByORemwgqxG/media/?size=m
 photo.78.author: cattail.sapporo
 photo.78.link: https://www.instagram.com/cattail.sapporo/
-photo.78.tags: bamboo, tongue
+photo.78.tags: bamboo, portrait, tongue
 photo.79: https://www.instagram.com/p/BySNI-HBDqX/media/?size=m
 photo.79.author: tama67photo
 photo.79.link: https://www.instagram.com/tama67photo/
