@@ -15,7 +15,7 @@ litter: 281
 photo.1: https://www.instagram.com/p/BiajyO_lXEZ/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: apple time, flowers, profile
+photo.1.tags: apple time, flowers, portrait, profile
 photo.2: https://www.instagram.com/p/Be6seETF7ZG/media/?size=m
 photo.2.author: na.mo.pan
 photo.2.link: https://www.instagram.com/na.mo.pan/
@@ -27,6 +27,7 @@ photo.3.tags: tongue
 photo.4: https://www.instagram.com/p/BkF6ZPCFxmB/media/?size=m
 photo.4.author: perie1027vivi
 photo.4.link: https://www.instagram.com/perie1027vivi/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BjJCY78Fvbp/media/?size=m
 photo.5.author: redpanda_nippon_takashi
 photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -34,19 +35,19 @@ photo.5.tags: keeper, standing
 photo.6: https://www.instagram.com/p/BnI6pjulP4D/media/?size=m
 photo.6.author: panda.daisuki
 photo.6.link: https://www.instagram.com/panda.daisuki/
-photo.6.tags: tongue
+photo.6.tags: portrait, tongue
 photo.7: https://www.instagram.com/p/BoOPiYYl1nJ/media/?size=m
 photo.7.author: run.swim.shingo
 photo.7.link: https://www.instagram.com/run.swim.shingo/
-photo.7.tags: smile, tree
+photo.7.tags: portrait, smile, tree
 photo.8: https://www.instagram.com/p/BogUnGVFnmR/media/?size=m
 photo.8.author: ck.chie
 photo.8.link: https://www.instagram.com/ck.chie/
-photo.8.tags: laying down, tongue, tree
+photo.8.tags: laying down, portrait, tongue, tree
 photo.9: https://www.instagram.com/p/BpDSdablLhR/media/?size=m
 photo.9.author: redpanda_nippon_takashi
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.9.tags: smile
+photo.9.tags: portrait, smile
 photo.10: https://www.instagram.com/p/Bp5emKAlebv/media/?size=m
 photo.10.author: _rifa_p
 photo.10.link: https://www.instagram.com/_rifa_p/
@@ -64,10 +65,11 @@ photo.13.tags: tree
 photo.14: https://www.instagram.com/p/BqKSeuoltY7/media/?size=m
 photo.14.author: 218_yu
 photo.14.link: https://www.instagram.com/218_yu/
-photo.14.tags: tongue
+photo.14.tags: portrait, tongue
 photo.15: https://www.instagram.com/p/BqJ_Yn5lQwI/media/?size=m
 photo.15.author: tomo3700
 photo.15.link: https://www.instagram.com/tomo3700/
+photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/BrELTEAF5Kg/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
@@ -79,11 +81,11 @@ photo.17.tags: tree
 photo.18: https://www.instagram.com/p/Blz7qc7lcdU/media/?size=m
 photo.18.author: hanamaru_redpanda
 photo.18.link: https://www.instagram.com/hanamaru_redpanda/
-photo.18.tags: laying down, tree
+photo.18.tags: laying down, portrait, tree
 photo.19: https://www.instagram.com/p/Br_OollFO9j/media/?size=m
 photo.19.author: redpanda_nippon_takashi
 photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.19.tags: tongue
+photo.19.tags: air tasting, portrait, tongue
 photo.20: https://www.instagram.com/p/BsS6CAeFqoB/media/?size=m
 photo.20.author: rie_panda55
 photo.20.link: https://www.instagram.com/rie_panda55/
@@ -94,10 +96,11 @@ photo.21.link: https://www.instagram.com/na.mo.pan/
 photo.22: https://www.instagram.com/p/BsVMEXWFPfA/media/?size=m
 photo.22.author: craig_craig_craig
 photo.22.link: https://www.instagram.com/craig_craig_craig/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/Bs1flu8lpBw/media/?size=m
 photo.23.author: panda.daisuki
 photo.23.link: https://www.instagram.com/panda.daisuki/
-photo.23.tags: bamboo, tongue
+photo.23.tags: bamboo, portrait, tongue
 photo.24: https://www.instagram.com/p/BuKw6Daln5H/media/?size=m
 photo.24.author: ck.chie
 photo.24.link: https://www.instagram.com/ck.chie/
@@ -109,7 +112,7 @@ photo.25.tags: smile, tongue
 photo.26: https://www.instagram.com/p/BxUdGa3Fcgq/media/?size=m
 photo.26.author: craig_craig_craig
 photo.26.link: https://www.instagram.com/p/BxUdGa3Fcgq/media/?size=m
-photo.26.tags: paws, tongue
+photo.26.tags: paws, portrait, tongue
 photo.27: https://www.instagram.com/p/BxeY4vXF1Ap/media/?size=m
 photo.27.author: ruru_maki
 photo.27.link: https://www.instagram.com/ruru_maki/
@@ -129,10 +132,10 @@ photo.30.tags: portrait
 photo.31: https://www.instagram.com/p/ByWTeT_nZnp/media/?size=m
 photo.31.author: fetorus_mami
 photo.31.link: https://www.instagram.com/fetorus_mami/
-photo.31.tags: paws
+photo.31.tags: paws, portrait
 photo.32: https://www.instagram.com/p/ByZSzO2BRkr/media/?size=m
 photo.32.author: minatomirai215
 photo.32.link: https://www.instagram.com/minatomirai215/
-photo.32.tags: smile
+photo.32.tags: portrait, smile
 species: 2
 zoo: 1
