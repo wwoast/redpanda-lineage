@@ -17,18 +17,19 @@ location.2: 14, 2018/4/4
 photo.1: https://www.instagram.com/p/BgvILRMgJGR/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/BgkD4XzFxqe/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BgiPqV5lZ2O/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
-photo.3.tags: spider
+photo.3.tags: portrait, spider
 photo.4: https://www.instagram.com/p/BjhS1XuFJpQ/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.link: https://www.instagram.com/love__mitarashi/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BooF2uqlLLc/media/?size=m
 photo.5.author: love__mitarashi
 photo.5.link: https://www.instagram.com/love__mitarashi/
@@ -39,6 +40,7 @@ photo.6.tags: smile
 photo.7: https://www.instagram.com/p/BqT-nXGFKVm/media/?size=m
 photo.7.author: love__mitarashi
 photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BqeMHg0FFbI/media/?size=m
 photo.8.author: love__mitarashi
 photo.8.link: https://www.instagram.com/love__mitarashi/
@@ -49,17 +51,19 @@ photo.9.link: https://www.instagram.com/love__mitarashi/
 photo.10: https://www.instagram.com/p/Br_AiPOAfw9/media/?size=m
 photo.10.author: miis_98
 photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Br-lmuHltmf/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: itchy, smile
+photo.11.tags: itchy, portrait, smile
 photo.12: https://www.instagram.com/p/BsWhQXUAabi/media/?size=m
 photo.12.author: miis_98
 photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: portrait
 photo.13: https://www.instagram.com/p/BseoA5yFP_U/media/?size=m
 photo.13.author: tabechum
 photo.13.link: https://www.instagram.com/tabechum/
-photo.13.tags: bamboo, snow
+photo.13.tags: bamboo, portrait, snow
 photo.14: https://www.instagram.com/p/Bxg52OulyVX/media/?size=m
 photo.14.author: love__mitarashi
 photo.14.link: https://www.instagram.com/love__mitarashi/
@@ -68,6 +72,26 @@ photo.15: https://www.instagram.com/p/Bxjazvulp2r/media/?size=m
 photo.15.author: love__mitarashi
 photo.15.link: https://www.instagram.com/love__mitarashi/
 photo.15.tags: itchy, home, paws
+photo.16: https://www.instagram.com/p/BjUQOePFKDm/media/?size=m
+photo.16.author: miis_98
+photo.16.link: https://www.instagram.com/miis_98/
+photo.16.tags: portrait
+photo.17: https://www.instagram.com/p/BjOArv_laE3/media/?size=m
+photo.17.author: miis_98
+photo.17.link: https://www.instagram.com/miis_98/
+photo.17.tags: home, itchy, portrait
+photo.18: https://www.instagram.com/p/BhJVvOPhcH0/media/?size=m
+photo.18.author: minatomirai215
+photo.18.link: https://www.instagram.com/minatomirai215/
+photo.18.tags: smile, tail
+photo.19: https://www.instagram.com/p/BhIGJBKBLnU/media/?size=m
+photo.19.author: miis_98
+photo.19.link: https://www.instagram.com/miis_98/
+photo.19.tags: portrait
+photo.20: https://www.instagram.com/p/BjCD64XFx9Q/media/?size=m
+photo.20.author: tabechum
+photo.20.link: https://www.instagram.com/tabechum/
+photo.20.tags: flowers, nose
 species: 2
 video.1: https://youtu.be/ByBVD2actpA
 video.1.author: Candy Green
