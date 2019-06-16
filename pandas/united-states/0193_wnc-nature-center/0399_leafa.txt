@@ -16,6 +16,7 @@ location.1: 83, 2009/6/11
 location.2: 44, 2010/6/8
 location.3: 88, 2013/11/20
 location.4: 87, 2014/12/22
+location.5: 193, 2019/5/1
 photo.1: https://www.codaworry.com/images/rpf/leafa-1-lincolnpark.jpg
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
@@ -48,4 +49,4 @@ photo.8.author: lincolnparkzoo
 photo.8.link: https://www.instagram.com/lincolnparkzoo/
 photo.8.tags: pumpkin
 species: 2
-zoo: 87
+zoo: 193

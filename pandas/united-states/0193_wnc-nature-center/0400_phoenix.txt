@@ -12,6 +12,11 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 448
+location.1: 76, 2011/6/13
+location.2: 95, 2012/10/30
+location.3: 88, 2013/11/20
+location.4: 87, 2014/12/22
+location.5: 193, 2019/5/1
 photo.1: https://www.instagram.com/p/BAF9jHiykCl/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
@@ -21,4 +26,4 @@ photo.2.author: lincolnparkzoo
 photo.2.link: https://www.instagram.com/lincolnparkzoo/
 photo.2.tags: lips, paws
 species: 2
-zoo: 87
+zoo: 193
