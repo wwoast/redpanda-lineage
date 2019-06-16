@@ -17,15 +17,15 @@ location.2: 35, 2011/6/22
 photo.1: https://www.instagram.com/p/BkEWXXJFrn4/media/?size=m
 photo.1.author: peek_a_boo00
 photo.1.link: https://www.instagram.com/peek_a_boo00/
-photo.1.tags: bamboo
+photo.1.tags: bamboo, portrait
 photo.2: https://www.instagram.com/p/Bjs7HkOFnVp/media/?size=m
 photo.2.author: framereim
 photo.2.link: https://www.instagram.com/framereim/
-photo.2.tags: smile, tongue
+photo.2.tags: portrait, smile, tail, tongue
 photo.3: https://www.instagram.com/p/Be9tYPjh-JU/media/?size=m
 photo.3.author: love__mitarashi
 photo.3.link: https://www.instagram.com/love__mitarashi/
-photo.3.tags: profile
+photo.3.tags: profile, portrait
 photo.4: https://www.instagram.com/p/BP7t_j3huNW/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.link: https://www.instagram.com/love__mitarashi/
@@ -40,6 +40,7 @@ photo.6.tags: wink
 photo.7: https://www.instagram.com/p/Bo6eO1TlDiy/media/?size=m
 photo.7.author: love__mitarashi
 photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BpNnZ2KFBGm/media/?size=m
 photo.8.author: love__mitarashi
 photo.8.link: https://www.instagram.com/love__mitarashi/
@@ -50,7 +51,7 @@ photo.9.link: https://www.instagram.com/love__mitarashi/
 photo.10: https://www.instagram.com/p/BqOs9-8lnqu/media/?size=m
 photo.10.author: love__mitarashi
 photo.10.link: https://www.instagram.com/love__mitarashi/
-photo.10.tags: bamboo, tongue
+photo.10.tags: bamboo, portrait, tongue
 photo.11: https://www.instagram.com/p/Bq4aU7JlIeq/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
@@ -65,6 +66,7 @@ photo.13.tags: mofumofu, tail
 photo.14: https://www.instagram.com/p/BtLFig1FPvv/media/?size=m
 photo.14.author: love__mitarashi
 photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: door, portrait
 photo.15: https://www.instagram.com/p/Bv6UznulUPP/media/?size=m
 photo.15.author: love__mitarashi
 photo.15.link: https://www.instagram.com/love__mitarashi/
@@ -72,10 +74,38 @@ photo.15.tags: laying down
 photo.16: https://www.instagram.com/p/BxrlhYvlyF0/media/?size=m
 photo.16.author: daniele.tokyo
 photo.16.link: https://www.instagram.com/daniele.tokyo/
-photo.16.tags: laying down, paws, tongue
+photo.16.tags: laying down, paws, portrait, tongue
 photo.17: https://www.instagram.com/p/ByWxb2YhmL7/media/?size=m
 photo.17.author: love__mitarashi
 photo.17.link: https://www.instagram.com/love__mitarashi/
 photo.17.tags: smile
+photo.18: https://www.instagram.com/p/BnSopLelJ4a/media/?size=m
+photo.18.author: love__mitarashi
+photo.18.link: https://www.instagram.com/love__mitarashi/
+photo.18.tags: home, portrait
+photo.19: https://www.instagram.com/p/BmzzULUlHC_/media/?size=m
+photo.19.author: love__mitarashi
+photo.19.link: https://www.instagram.com/love__mitarashi/
+photo.19.tags: bridge, tongue
+photo.20: https://www.instagram.com/p/Bmx4ppElUe1/media/?size=m
+photo.20.author: love__mitarashi
+photo.20.link: https://www.instagram.com/love__mitarashi/
+photo.20.tags: portrait
+photo.21: https://www.instagram.com/p/BmvcEF5llWT/media/?size=m
+photo.21.author: love__mitarashi
+photo.21.link: https://www.instagram.com/love__mitarashi/
+photo.21.tags: portrait
+photo.22: https://www.instagram.com/p/Bh0_jZPlhb5/media/?size=m
+photo.22.author: love__mitarashi
+photo.22.link: https://www.instagram.com/love__mitarashi/
+photo.22.tags: apple time, smile
+photo.23: https://www.instagram.com/p/BkFjJTMFHgU/media/?size=m
+photo.23.author: love__mitarashi
+photo.23.link: https://www.instagram.com/love__mitarashi/
+photo.23.tags: smile, tongue
+photo.24: https://www.instagram.com/p/Bi_2oYTlt2O/media/?size=m
+photo.24.author: love__mitarashi
+photo.24.link: https://www.instagram.com/love__mitarashi/
+photo.24.tags: paws, standing, tail
 species: 2
 zoo: 35
