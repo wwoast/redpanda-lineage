@@ -29,27 +29,31 @@ photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BgvtDsvAL7x/media/?size=m
 photo.4.author: kinkinkin0826
 photo.4.link: https://www.instagram.com/kinkinkin0826/
-photo.4.tags: tongue
+photo.4.tags: portrait, tongue
 photo.5: https://www.instagram.com/p/BiiJwYPlT1m/media/?size=m
 photo.5.author: yossi929
 photo.5.link: https://www.instagram.com/yossi929/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BoC7bbflQ72/media/?size=m
 photo.6.author: re_ichimaru
 photo.6.link: https://www.instagram.com/re_ichimaru/
-photo.6.tags: tree
+photo.6.tags: portrait, tree
 photo.7: https://www.instagram.com/p/Boh4ZtBlxLb/media/?size=m
 photo.7.author: re_ichimaru
 photo.7.link: https://www.instagram.com/re_ichimaru/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/Bo2gK6SF96j/media/?size=m
 photo.8.author: re_ichimaru
 photo.8.link: https://www.instagram.com/re_ichimaru/
+photo.8.tags: sign
 photo.9: https://www.instagram.com/p/Bo6Z-mTlgUj/media/?size=m
 photo.9.author: xmarurux
 photo.9.link: https://www.instagram.com/xmarurux/
+photo.9.tags: toys
 photo.10: https://www.instagram.com/p/BpBRJ42FLAq/media/?size=m
 photo.10.author: xmarurux
 photo.10.link: https://www.instagram.com/xmarurux/
-photo.10.tags: laying down
+photo.10.tags: laying down, portrait
 photo.11: https://www.instagram.com/p/BpNrrEgFcg5/media/?size=m
 photo.11.author: _rifa_p
 photo.11.link: https://www.instagram.com/_rifa_p/
@@ -57,9 +61,11 @@ photo.11.tags: tree
 photo.12: https://www.instagram.com/p/BpRnu1tFY9n/media/?size=m
 photo.12.author: yossi929
 photo.12.link: https://www.instagram.com/yossi929/
+photo.12.tags: portrait
 photo.13: https://www.instagram.com/p/BqUzIAmlksL/media/?size=m
 photo.13.author: tokkoo0524
 photo.13.link: https://www.instagram.com/tokkoo0524/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/BqUxW38FNab/media/?size=m
 photo.14.author: tokkoo0524
 photo.14.link: https://www.instagram.com/tokkoo0524/
@@ -67,29 +73,29 @@ photo.14.tags: tree
 photo.15: https://www.instagram.com/p/BrGsh0UH5h_/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
-photo.15.tags: laying down
+photo.15.tags: laying down, portrait, toys, yawn
 photo.16: https://www.instagram.com/p/BrnH5eSF9yG/media/?size=m
 photo.16.author: panda.daisuki
 photo.16.link: https://www.instagram.com/panda.daisuki/
-photo.16.tags: laying down
+photo.16.tags: laying down, portrait
 photo.17: https://www.instagram.com/p/BsaV6TIlQtC/media/?size=m
 photo.17.author: xmarurux
 photo.17.link: https://www.instagram.com/xmarurux/
-photo.17.tags: laying down
+photo.17.tags: blink, laying down, portait
 photo.18: https://www.instagram.com/p/BsYVvVEFf50/media/?size=m
 photo.18.author: nakacchi_desu
 photo.18.link: https://www.instagram.com/nakacchi_desu/
 photo.19: https://www.instagram.com/p/Bv9Qs9dl2ft/media/?size=m
 photo.19.author: xmarurux
 photo.19.link: https://www.instagram.com/xmarurux/
-photo.19.tags: bamboo, lips
+photo.19.tags: bamboo, lips, portrait
 photo.20: https://www.instagram.com/p/BwKDRkoFkeK/media/?size=m
 photo.20.author: miis_98
 photo.20.link: https://www.instagram.com/miis_98/
-photo.20.tags: home, paws
+photo.20.tags: home, paws, portrait
 photo.21: https://www.instagram.com/p/BwLg2g1l2Jn/media/?size=m
 photo.21.author: yossi929
 photo.21.link: https://www.instagram.com/yossi929/
-photo.21.tags: smile, tongue
+photo.21.tags: portrait, smile, tongue
 species: 2
 zoo: 21

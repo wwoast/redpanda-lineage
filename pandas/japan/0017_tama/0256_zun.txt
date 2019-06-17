@@ -19,7 +19,7 @@ photo.1.tags: baby
 photo.2: https://www.instagram.com/p/Bp8tcAjlLkH/media/?size=m
 photo.2.author: kotata_513
 photo.2.link: https://www.instagram.com/kotata_513/
-photo.2.tags: baby
+photo.2.tags: baby, portrait
 photo.3: https://www.instagram.com/p/Bp8K9ijlec9/media/?size=m
 photo.3.author: mariten1119
 photo.3.link: https://www.instagram.com/mariten1119/
@@ -34,6 +34,7 @@ photo.5.tags: hammock
 photo.6: https://www.instagram.com/p/BqrpbhtFPGo/media/?size=m
 photo.6.author: kinkinkin0826
 photo.6.link: https://www.instagram.com/kinkinkin0826/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Bqs3cF9FI20/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
@@ -41,14 +42,15 @@ photo.7.tags: hammock
 photo.8: https://www.instagram.com/p/BqtlYqtlsiB/media/?size=m
 photo.8.author: kotata_513
 photo.8.link: https://www.instagram.com/kotata_513/
-photo.8.tags: profile
+photo.8.tags: portrait, profile
 photo.9: https://www.instagram.com/p/BqvjEsAlXb3/media/?size=m
 photo.9.author: lespan33
 photo.9.link: https://www.instagram.com/lespan33/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BqwMejMlYVU/media/?size=m
 photo.10.author: ck.chie
 photo.10.link: https://www.instagram.com/ck.chie/
-photo.10.tags: hammock
+photo.10.tags: hammock, portrait
 photo.11: https://www.instagram.com/p/BqyHCNSlDVh/media/?size=m
 photo.11.author: craig_craig_craig
 photo.11.link: https://www.instagram.com/craig_craig_craig/
@@ -60,13 +62,15 @@ photo.12.tags: hammock
 photo.13: https://www.instagram.com/p/BrZxsF6lHkx/media/?size=m
 photo.13.author: kotata_513
 photo.13.link: https://www.instagram.com/kotata_513/
-photo.13.tags: bamboo
+photo.13.tags: bamboo, portrait
 photo.14: https://www.instagram.com/p/Brc0d6FFY70/media/?size=m
 photo.14.author: perie1027vivi
 photo.14.link: https://www.instagram.com/perie1027vivi/
+photo.14.tags: bridge, portrait
 photo.15: https://www.instagram.com/p/BrfCAiMlchL/media/?size=m
 photo.15.author: perie1027vivi
 photo.15.link: https://www.instagram.com/perie1027vivi/
+photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/BsIgDe2FBrj/media/?size=m
 photo.16.author: kotata_513
 photo.16.link: https://www.instagram.com/kotata_513/
@@ -77,21 +81,22 @@ photo.17.tags: mofumofu, tail
 photo.18: https://www.instagram.com/p/BsN0uVwlK5q/media/?size=m
 photo.18.author: ifumoto88
 photo.18.link: https://www.instagram.com/ifumoto88/
-photo.18.tags: climb, tree
+photo.18.tags: climb, head-first, tree
 photo.19: https://www.instagram.com/p/BsN1LMyFBCi/media/?size=m
 photo.19.author: ifumoto88
 photo.19.link: https://www.instagram.com/ifumoto88/
+photo.19.tags: portrait
 photo.20: https://www.instagram.com/p/BsjmFl3lhXX/media/?size=m
 photo.20.author: kotata_513
 photo.20.link: https://www.instagram.com/kotata_513/
 photo.21: https://www.instagram.com/p/BsiBjjjlOk_/media/?size=m
 photo.21.author: panda.daisuki
 photo.21.link: https://www.instagram.com/panda.daisuki/
-photo.21.tags: paws
+photo.21.tags: paws, portrait
 photo.22: https://www.instagram.com/p/BsvD9c1lfxT/media/?size=m
 photo.22.author: ifumoto88
 photo.22.link: https://www.instagram.com/ifumoto88/
-photo.22.tags: apple time, climb, mofumofu
+photo.22.tags: apple time, climb, head-first, mofumofu
 photo.23: https://www.instagram.com/p/Bs39fZmlv19/media/?size=m
 photo.23.author: kotata_513
 photo.23.link: https://www.instagram.com/kotata_513/
@@ -99,54 +104,54 @@ photo.23.tags: pull-up
 photo.24: https://www.instagram.com/p/Bs5jJdul3FK/media/?size=m
 photo.24.author: ifumoto88
 photo.24.link: https://www.instagram.com/ifumoto88/
-photo.24.tags: apple time, smile
+photo.24.tags: apple time, portrait, smile
 photo.25: https://www.instagram.com/p/BtIBxThlCuU/media/?size=m
 photo.25.author: kotata_513
 photo.25.link: https://www.instagram.com/kotata_513/
-photo.25.tags: paws, smile
+photo.25.tags: autumn, paws, portrait, smile
 photo.26: https://www.instagram.com/p/BtI7QtAFkAF/media/?size=m
 photo.26.author: mofu_pan
 photo.26.link: https://www.instagram.com/mofu_pan/
-photo.26.tags: autumn
+photo.26.tags: autumn, portrait
 photo.27: https://www.instagram.com/p/BtLbYF4F98I/media/?size=m
 photo.27.author: ck.chie
 photo.27.link: https://www.instagram.com/ck.chie/
-photo.27.tags: apple time, pull-up
+photo.27.tags: apple time, portrait, pull-up
 photo.28: https://www.instagram.com/p/BtNOfxBFjzo/media/?size=m
 photo.28.author: kotata_513
 photo.28.link: https://www.instagram.com/kotata_513/
 photo.29: https://www.instagram.com/p/Bte_nCxFtb-/media/?size=m
 photo.29.author: ck.chie
 photo.29.link: https://www.instagram.com/ck.chie/
-photo.29.tags: tongue
+photo.29.tags: bridge, portrait, tongue
 photo.30: https://www.instagram.com/p/Btp2VoAlw01/media/?size=m
 photo.30.author: resapan.suki
 photo.30.link: https://www.instagram.com/resapan.suki/
-photo.30.tags: apple time, blink
+photo.30.tags: apple time, blink, portrait
 photo.31: https://www.instagram.com/p/BuBR1gclobV/media/?size=m
 photo.31.author: resapan.suki
 photo.31.link: https://www.instagram.com/resapan.suki/
-photo.31.tags: tree
+photo.31.tags: portrait, tree
 photo.32: https://www.instagram.com/p/BuFLwq_lz9J/media/?size=m
 photo.32.author: rie_panda55
 photo.32.link: https://www.instagram.com/rie_panda55/
-photo.32.tags: tree
+photo.32.tags: climb, tree
 photo.33: https://www.instagram.com/p/BuNPG0mFosf/media/?size=m
 photo.33.author: kotata_513
 photo.33.link: https://www.instagram.com/kotata_513/
-photo.33.tags: apple time
+photo.33.tags: apple time, autumn, portrait
 photo.34: https://www.instagram.com/p/BupdnEdl_rf/media/?size=m
 photo.34.author: nakayamanoboru6981
 photo.34.link: https://www.instagram.com/nakayamanoboru6981/
-photo.34.tags: apple time, tongue, tree
+photo.34.tags: apple time, portrait, tongue, tree
 photo.35: https://www.instagram.com/p/BvI9EUCltmP/media/?size=m
 photo.35.author: kotata_513
 photo.35.link: https://www.instagram.com/kotata_513/
-photo.35.tags: bamboo, smile
+photo.35.tags: bamboo, portrait, smile
 photo.36: https://www.instagram.com/p/BvQPWkSlHcD/media/?size=m
 photo.36.author: panda.daisuki
 photo.36.link: https://www.instagram.com/panda.daisuki/
-photo.36.tags: smile, standing
+photo.36.tags: portrait, smile, standing
 photo.37: https://www.instagram.com/p/BwDxQxFFfgk/media/?size=m
 photo.37.author: ifumoto88
 photo.37.link: https://www.instagram.com/ifumoto88/
@@ -162,15 +167,15 @@ photo.39.tags: smile, tree
 photo.40: https://www.instagram.com/p/BwYYnhJl8GJ/media/?size=m
 photo.40.author: ck.chie
 photo.40.link: https://www.instagram.com/ck.chie/
-photo.40.tags: bridge, tree
+photo.40.tags: bridge, portrait, tree
 photo.41: https://www.instagram.com/p/BxOd-LFlkQj/media/?size=m
 photo.41.author: ck.chie
 photo.41.link: https://www.instagram.com/ck.chie/
-photo.41.tags: paws, smile, tree
+photo.41.tags: paws, portrait, smile, tree
 photo.42: https://www.instagram.com/p/BxCDGLnFYit/media/?size=m
 photo.42.author: panda.daisuki
 photo.42.link: https://www.instagram.com/panda.daisuki/
-photo.42.tags: apple time, tree
+photo.42.tags: apple time, portrait, tree
 photo.43: https://www.instagram.com/p/ByAMr2dB2c0/media/?size=m
 photo.43.author: ck.chie
 photo.43.link: https://www.instagram.com/ck.chie/
@@ -186,7 +191,7 @@ photo.45.tags: flowers, laying down, mofumofu, paws, upside-down
 photo.46: https://www.instagram.com/p/ByIPrmsBqgc/media/?size=m
 photo.46.author: panda.daisuki
 photo.46.link: https://www.instagram.com/panda.daisuki/
-photo.46.tags: flowers, tongue
+photo.46.tags: flowers, portrait, tongue
 photo.47: https://www.instagram.com/p/ByWKVAGBi40/media/?size=m
 photo.47.author: rie_panda55
 photo.47.link: https://www.instagram.com/rie_panda55/

@@ -33,15 +33,15 @@ photo.4.tags: old, sleeping
 photo.5: https://www.instagram.com/p/BnLtU4QlMha/media/?size=m
 photo.5.author: taka__3428
 photo.5.link: https://www.instagram.com/taka__3428/
-photo.5.tags: old
+photo.5.tags: old, portrait
 photo.6: https://www.instagram.com/p/BofcS3OlyZG/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: old
+photo.6.tags: old, portrait
 photo.7: https://www.instagram.com/p/BotdyjjFLxX/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: old, profile
+photo.7.tags: old, portrait, profile
 photo.8: https://www.instagram.com/p/BpJVMi5lrGe/media/?size=m
 photo.8.author: taka__3428
 photo.8.link: https://www.instagram.com/taka__3428/
@@ -73,7 +73,7 @@ photo.14.tags: apple time, old
 photo.15: https://www.instagram.com/p/Bq09FmCnD0L/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
-photo.15.tags: apple time, dish, old
+photo.15.tags: apple time, dish, old, portrait
 photo.16: https://www.instagram.com/p/BrKSHgNFsS0/media/?size=m
 photo.16.author: taka__3428
 photo.16.link: https://www.instagram.com/taka__3428/
@@ -81,15 +81,15 @@ photo.16.tags: old
 photo.17: https://www.instagram.com/p/BsNi5pDlRYc/media/?size=m
 photo.17.author: tabechum
 photo.17.link: https://www.instagram.com/tabechum/
-photo.17.tags: old, smile
+photo.17.tags: old, portrait, smile
 photo.18: https://www.instagram.com/p/BsNua5yl32E/media/?size=m
 photo.18.author: ifumoto88
 photo.18.link: https://www.instagram.com/ifumoto88/
-photo.18.tags: itchy, paws, tongue
+photo.18.tags: itchy, paws, portrait, tongue
 photo.19: https://www.instagram.com/p/BsN6OhglGNs/media/?size=m
 photo.19.author: minatomirai215
 photo.19.link: https://www.instagram.com/minatomirai215/
-photo.19.tags: old, paws
+photo.19.tags: door, old, paws, portrait
 photo.20: https://www.instagram.com/p/BskmDRHlNLV/media/?size=m
 photo.20.author: taka__3428
 photo.20.link: https://www.instagram.com/taka__3428/
@@ -125,7 +125,7 @@ photo.27.tags: old, paws
 photo.28: https://www.instagram.com/p/Bs73O6kFOlW/media/?size=m
 photo.28.author: taka__3428
 photo.28.link: https://www.instagram.com/taka__3428/
-photo.28.tags: old, peek
+photo.28.tags: old, peek, portrait
 photo.29: https://www.instagram.com/p/Bs-fPOyFqRR/media/?size=m
 photo.29.author: taka__3428
 photo.29.link: https://www.instagram.com/taka__3428/
@@ -140,7 +140,7 @@ photo.31.link: https://www.instagram.com/taka__3428/
 photo.32: https://www.instagram.com/p/BtGDTkZFdcF/media/?size=m
 photo.32.author: taka__3428
 photo.32.link: https://www.instagram.com/taka__3428/
-photo.32.tags: old, laying down, tail
+photo.32.tags: laying down, old, tail
 photo.33: https://www.instagram.com/p/BtIkWW5FJO9/media/?size=m
 photo.33.author: taka__3428
 photo.33.link: https://www.instagram.com/taka__3428/

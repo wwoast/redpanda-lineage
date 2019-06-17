@@ -19,15 +19,15 @@ photo.1.tags: baby, grumpy
 photo.2: https://www.instagram.com/p/BojHXCBFr-l/media/?size=m
 photo.2.author: yossi929
 photo.2.link: https://www.instagram.com/yossi929/
-photo.2.tags: baby
+photo.2.tags: baby, climb, portrait
 photo.3: https://www.instagram.com/p/Boxfzldlf9r/media/?size=m
 photo.3.author: xmarurux
 photo.3.link: https://www.instagram.com/xmarurux/
-photo.3.tags: baby
+photo.3.tags: baby, window
 photo.4: https://www.instagram.com/p/Bo6dYmsF2fH/media/?size=m
 photo.4.author: xmarurux
 photo.4.link: https://www.instagram.com/xmarurux/
-photo.4.tags: baby, laying down
+photo.4.tags: baby, laying down, portrait
 photo.5: https://www.instagram.com/p/Bo6ctXHFgG_/media/?size=m
 photo.5.author: xmarurux
 photo.5.link: https://www.instagram.com/xmarurux/
@@ -35,18 +35,19 @@ photo.5.tags: baby
 photo.6: https://www.instagram.com/p/BpG6Fjpl5g-/media/?size=m
 photo.6.author: xmarurux
 photo.6.link: https://www.instagram.com/xmarurux/
-photo.6.tags: baby
+photo.6.tags: baby, portrait
 photo.7: https://www.instagram.com/p/BpZlatel05F/media/?size=m
 photo.7.author: xmarurux
 photo.7.link: https://www.instagram.com/xmarurux/
-photo.7.tags: baby, mofumofu
+photo.7.tags: baby, mofumofu, portrait
 photo.8: https://www.instagram.com/p/Bpb3B3jlYew/media/?size=m
 photo.8.author: xmarurux
 photo.8.link: https://www.instagram.com/xmarurux/
+photo.8.tags: mofumofu, portrait
 photo.9: https://www.instagram.com/p/Bpma1SrFfEt/media/?size=m
 photo.9.author: xmarurux
 photo.9.link: https://www.instagram.com/xmarurux/
-photo.9.tags: laying down
+photo.9.tags: laying down, mofumofu, portrait
 photo.10: https://www.instagram.com/p/BpovG_Alqxa/media/?size=m
 photo.10.author: tabechum
 photo.10.link: https://www.instagram.com/tabechum/
@@ -58,17 +59,19 @@ photo.11.tags: grumpy, profile
 photo.12: https://www.instagram.com/p/BqUt72uFi7P/media/?size=m
 photo.12.author: tokkoo0524
 photo.12.link: https://www.instagram.com/tokkoo0524/
-photo.12.tags: sleeping
+photo.12.tags: portrait, sleeping
 photo.13: https://www.instagram.com/p/Bqh0lBvAd5g/media/?size=m
 photo.13.author: xmarurux
 photo.13.link: https://www.instagram.com/xmarurux/
-photo.13.tags: hammock, pull-ups
+photo.13.tags: hammock, portrait, pull-ups
 photo.14: https://www.instagram.com/p/Bq4LoetlFRJ/media/?size=m
 photo.14.author: peek_a_boo00
 photo.14.link: https://www.instagram.com/peek_a_boo00/
+photo.14.tags: portrait, sign
 photo.15: https://www.instagram.com/p/BrOYAoiFhcA/media/?size=m
 photo.15.author: kipekaila
 photo.15.link: https://www.instagram.com/kipekaila/
+photo.15.tags: portrait, toys
 photo.16: https://www.instagram.com/p/Brfbw5dlI5f/media/?size=m
 photo.16.author: ifumoto88
 photo.16.link: https://www.instagram.com/ifumoto88/
@@ -80,7 +83,7 @@ photo.17.tags: peek
 photo.18: https://www.instagram.com/p/Br2XR6klbJY/media/?size=m
 photo.18.author: xmarurux
 photo.18.link: https://www.instagram.com/xmarurux/
-photo.18.tags: laying down, upside-down
+photo.18.tags: laying down, portrait, upside-down
 photo.19: https://www.instagram.com/p/Bs-JY22gXs5/media/?size=m
 photo.19.author: xmarurux
 photo.19.link: https://www.instagram.com/xmarurux/
@@ -92,11 +95,11 @@ photo.20.tags: bamboo, smile
 photo.21: https://www.instagram.com/p/BtK8JVblBVd/media/?size=m
 photo.21.author: xmarurux
 photo.21.link: https://www.instagram.com/xmarurux/
-photo.21.tags: mofumofu, paws, tail
+photo.21.tags: home, mofumofu, paws, tail
 photo.22: https://www.instagram.com/p/BvtgCgkAwYm/media/?size=m
 photo.22.author: xmarurux
 photo.22.link: https://www.instagram.com/xmarurux/
-photo.22.tags: bamboo, climb, smile
+photo.22.tags: bamboo, climb, portrait, smile
 photo.23: https://www.instagram.com/p/Bv0BrfZFIYs/media/?size=m
 photo.23.author: fetorus_mami
 photo.23.link: https://www.instagram.com/fetorus_mami/
@@ -104,33 +107,34 @@ photo.23.tags: tree
 photo.24: https://www.instagram.com/p/Bv2ZrFhFTso/media/?size=m
 photo.24.author: craig_craig_craig
 photo.24.link: https://www.instagram.com/craig_craig_craig/
-photo.24.tags: bamboo
+photo.24.tags: bamboo, portrait
 photo.25: https://www.instagram.com/p/BwHMBs8FTxh/media/?size=m
 photo.25.author: miis_98
 photo.25.link: https://www.instagram.com/miis_98/
-photo.25.tags: bamboo
+photo.25.tags: bamboo, portrait
 photo.26: https://www.instagram.com/p/BwQQ1q9Fgs4/media/?size=m
 photo.26.author: miis_98
 photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: nose, smile
+photo.26.tags: nose, portrait, smile
 photo.27: https://www.instagram.com/p/BwfrOenFUZV/media/?size=m
 photo.27.author: yossi929
 photo.27.link: https://www.instagram.com/yossi929/
+photo.27.tags: portrait
 photo.28: https://www.instagram.com/p/Bw60uUtl848/media/?size=m
 photo.28.author: daniele.tokyo
 photo.28.link: https://www.instagram.com/daniele.tokyo/
-photo.28.tags: climb, tongue
+photo.28.tags: climb, standing, tongue
 photo.29: https://www.instagram.com/p/BxetjS7FEnV/media/?size=m
 photo.29.author: daniele.tokyo
 photo.29.link: https://www.instagram.com/daniele.tokyo/
-photo.29.tags: bamboo, nose
+photo.29.tags: bamboo, nose, portrait
 photo.30: https://www.instagram.com/p/Bxrvf3bFvcF/media/?size=m
 photo.30.author: xmarurux
 photo.30.link: https://www.instagram.com/xmarurux/
-photo.30.tags: home
+photo.30.tags: home, portrait
 photo.31: https://www.instagram.com/p/BuICbf3lSsy/media/?size=m
 photo.31.author: omutacityzoo
 photo.31.link: https://www.instagram.com/omutacityzoo/
-photo.31.tags: home
+photo.31.tags: home, portrait
 species: 2
 zoo: 21

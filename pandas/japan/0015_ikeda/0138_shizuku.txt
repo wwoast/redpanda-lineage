@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BjZlpCClvUn/media/?size=m
 photo.1.author: mofu_pan
 photo.1.link: https://www.instagram.com/mofu_pan/
-photo.1.tags: apple time
+photo.1.tags: apple time, portrait
 photo.2: https://www.instagram.com/p/BoOw5QpBnC8/media/?size=m
 photo.2.author: resapanlove
 photo.2.link: https://www.instagram.com/resapanlove/
@@ -27,7 +27,7 @@ photo.3.tags: air tasting, tongue
 photo.4: https://www.instagram.com/p/BpcJNg-lcDa/media/?size=m
 photo.4.author: itsuak
 photo.4.link: https://www.instagram.com/itsuak/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait
 photo.5: https://www.instagram.com/p/Bqg16K4FNKA/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
@@ -45,23 +45,23 @@ photo.8.tags: bridge
 photo.9: https://www.instagram.com/p/Bq3P-r0lPI8/media/?size=m
 photo.9.author: panda.daisuki
 photo.9.link: https://www.instagram.com/panda.daisuki/
-photo.9.tags: bamboo
+photo.9.tags: bamboo, portrait
 photo.10: https://www.instagram.com/p/BfnY49_FV2u/media/?size=m
 photo.10.author: hanamaru_redpanda
 photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: bamboo
+photo.10.tags: bamboo, portrait
 photo.11: https://www.instagram.com/p/_mXkDHvalx/media/?size=m
 photo.11.author: tama080707
 photo.11.link: https://www.instagram.com/tama080707/
-photo.11.tags: paws
+photo.11.tags: paws, portrait
 photo.12: https://www.instagram.com/p/BxQo3XCl9mE/media/?size=m
 photo.12.author: tomo3700
 photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: bamboo, lunch time
+photo.12.tags: bamboo, lunch time, portrait, shoots
 photo.13: https://www.instagram.com/p/BT7h746j9YU/media/?size=m
 photo.13.author: _rifa_p
 photo.13.link: https://www.instagram.com/_rifa_p/
-photo.13.tags: apple time, smile
+photo.13.tags: apple time, portrait, smile
 photo.14: https://www.instagram.com/p/BxuNweuFpTq/media/?size=m
 photo.14.author: daniele.tokyo
 photo.14.link: https://www.instagram.com/daniele.tokyo/
@@ -69,7 +69,7 @@ photo.14.tags: paws, sleeping
 photo.15: https://www.instagram.com/p/Bw4G-03lDJv/media/?size=m
 photo.15.author: sakikukeko
 photo.15.link: https://www.instagram.com/sakikukeco/
-photo.15.tags: bamboo, white face
+photo.15.tags: bamboo, portrait, white face
 photo.16: https://www.instagram.com/p/Bq3OsdFlqWb/media/?size=m
 photo.16.author: peach_redpanda
 photo.16.link: https://www.instagram.com/peach_redpanda/
@@ -77,18 +77,18 @@ photo.16.tags: bridge, tail
 photo.17: https://www.instagram.com/p/BiDV1nwlq2c/media/?size=m
 photo.17.author: zoom_ous
 photo.17.link: https://www.instagram.com/zoom_ous/
-photo.17.tags: smile
+photo.17.tags: portrait, smile
 photo.18: https://www.instagram.com/p/Bn_VhrWF9QK/media/?size=m
 photo.18.author: itsuak
 photo.18.link: https://www.instagram.com/itsuak/
-photo.18.tags: bridge, smile, tongue
+photo.18.tags: bridge, portrait, smile, tongue
 photo.19: https://www.instagram.com/p/BY93t9zg0vZ/media/?size=m
 photo.19.author: peek_a_boo00
 photo.19.link: https://www.instagram.com/peek_a_boo00/
-photo.19.tags: bridge, smile, tongue
+photo.19.tags: bridge, portrait, smile, tongue
 photo.20: https://www.instagram.com/p/BwwXJbNJfXn/media/?size=m
 photo.20.author: mami88888888
 photo.20.link: https://www.instagram.com/mami88888888/
-photo.20.tags: bamboo
+photo.20.tags: bamboo, portrait, shoots
 species: 2
 zoo: 15
