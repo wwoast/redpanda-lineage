@@ -15,11 +15,11 @@ litter: none
 photo.1: https://www.instagram.com/p/BqMBnbxFUL1/media/?size=m
 photo.1.author: adventureworld_official
 photo.1.link: https://www.instagram.com/adventureworld_official/
-photo.1.tags: baby, muzzle
+photo.1.tags: baby, muzzle, portrait
 photo.2: https://www.instagram.com/p/BqTcR8zlMx8/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: baby, muzzle
+photo.2.tags: baby, muzzle, portrait
 photo.3: https://www.instagram.com/p/BqloCMBFp_S/media/?size=m
 photo.3.author: framereim
 photo.3.link: https://www.instagram.com/framereim/
@@ -27,23 +27,23 @@ photo.3.tags: baby, muzzle
 photo.4: https://www.instagram.com/p/Bqs15vhFiqO/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: baby, muzzle, techitechi
+photo.4.tags: baby, muzzle, portrait, techitechi
 photo.5: https://www.instagram.com/p/BqmIbuylGru/media/?size=m
 photo.5.author: adventureworld_official
 photo.5.link: https://www.instagram.com/adventureworld_official/
-photo.5.tags: baby, muzzle
+photo.5.tags: baby, muzzle, portrait
 photo.6: https://www.instagram.com/p/BrbUnR_F8Zw/media/?size=m
 photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
-photo.6.tags: baby, muzzle
+photo.6.tags: baby, muzzle, portrait
 photo.7: https://www.instagram.com/p/Bref9ipFjaW/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: baby, keeper, muzzle, standing
+photo.7.tags: baby, keeper, muzzle, portrait, standing
 photo.8: https://www.instagram.com/p/Brdw59plRwg/media/?size=m
 photo.8.author: craig_craig_craig
 photo.8.link: https://www.instagram.com/craig_craig_craig/
-photo.8.tags: baby, muzzle, standing
+photo.8.tags: baby, muzzle, portrait, standing
 photo.9: https://www.instagram.com/p/BrkPEVBFMO6/media/?size=m
 photo.9.author: mifko55
 photo.9.link: https://www.instagram.com/mifko55/
@@ -51,11 +51,11 @@ photo.9.tags: baby, muzzle, standing, tree
 photo.10: https://www.instagram.com/p/BruWHLYlTg4/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: baby, pull-up, tail
+photo.10.tags: baby, portrait, pull-up, tail
 photo.11: https://www.instagram.com/p/Brga5kHlGzy/media/?size=m
 photo.11.author: _natsu_panda_
 photo.11.link: https://www.instagram.com/_natsu_panda_/
-photo.11.tags: muzzle
+photo.11.tags: muzzle, portrait
 photo.12: https://www.instagram.com/p/Brxi1CAlMob/media/?size=m
 photo.12.author: craig_craig_craig
 photo.12.link: https://www.instagram.com/craig_craig_craig/
@@ -67,7 +67,7 @@ photo.13.tags: keeper, muzzle, standing
 photo.14: https://www.instagram.com/p/Br9qWkxlwtW/media/?size=m
 photo.14.author: falcon_tenor
 photo.14.link: https://www.instagram.com/falcon_tenor/
-photo.14.tags: muzzle
+photo.14.tags: muzzle, portrait
 photo.15: https://www.instagram.com/p/BsJuZDpg2YJ/media/?size=m
 photo.15.author: nakacchi_desu
 photo.15.link: https://www.instagram.com/nakacchi_desu/
@@ -75,7 +75,7 @@ photo.15.tags: mofumofu, paws, tail
 photo.16: https://www.instagram.com/p/Bsc6F98lYac/media/?size=m
 photo.16.author: falcon_tenor
 photo.16.link: https://www.instagram.com/falcon_tenor/
-photo.16.tags: mofumofu
+photo.16.tags: mofumofu, portrait
 photo.17: https://www.instagram.com/p/Bs2wcxTFNs0/media/?size=m
 photo.17.author: daniele.tokyo
 photo.17.link: https://www.instagram.com/daniele.tokyo/
@@ -91,7 +91,7 @@ photo.19.tags: paws, tree
 photo.20: https://www.instagram.com/p/BtQud0qgHMh/media/?size=m
 photo.20.author: pon.bird
 photo.20.link: https://www.instagram.com/pon.bird/
-photo.20.tags: laying down, profile, tree
+photo.20.tags: laying down, portrait, profile, tree
 photo.21: https://www.instagram.com/p/BtitTfLF0J0/media/?size=m
 photo.21.author: mifko55
 photo.21.link: https://www.instagram.com/mifko55/
@@ -113,11 +113,11 @@ photo.25.tags: bridge
 photo.26: https://www.instagram.com/p/BvkZb60nhIu/media/?size=m
 photo.26.author: mochan8686
 photo.26.link: https://www.instagram.com/mochan8686/
-photo.26.tags: bridge
+photo.26.tags: bridge, portrait
 photo.27: https://www.instagram.com/p/Bv3uOcDFVR7/media/?size=m
 photo.27.author: framereim
 photo.27.link: https://www.instagram.com/framereim/
-photo.27.tags: smile
+photo.27.tags: portrait, smile
 photo.28: https://www.instagram.com/p/BwDgk5alC8U/media/?size=m
 photo.28.author: nakageo
 photo.28.link: https://www.instagram.com/nakageo/
@@ -133,7 +133,7 @@ photo.30.tags: bridge, laying down
 photo.31: https://www.instagram.com/p/BwtjxSZFX-h/media/?size=m
 photo.31.author: framereim
 photo.31.link: https://www.instagram.com/framereim/
-photo.31.tags: standing, tongue
+photo.31.tags: portrait, standing, tongue
 photo.32: https://www.instagram.com/p/BwiLRcCFhKH/media/?size=m
 photo.32.author: craig_craig_craig
 photo.32.link: https://www.instagram.com/craig_craig_craig/
@@ -172,11 +172,11 @@ photo.40.tags: bridge
 photo.41: https://www.instagram.com/p/ByGypZphDCv/media/?size=m
 photo.41.author: fetorus_mami
 photo.41.link: https://www.instagram.com/fetorus_mami/
-photo.41.tags: bridge
+photo.41.tags: bridge, portrait
 photo.42: https://www.instagram.com/p/ByQISEZB3Zh/media/?size=m
 photo.42.author: craig_craig_craig
 photo.42.link: https://www.instagram.com/craig_craig_craig/
-photo.42.tags: paws, smile
+photo.42.tags: paws, portrait, smile
 photo.43: https://www.instagram.com/p/BylgvMVhWNA/media/?size=m
 photo.43.author: redpanda_nippon_takashi
 photo.43.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -188,7 +188,11 @@ photo.44.tags: bite, smile
 photo.45: https://www.instagram.com/p/ByoRJJchbKT/media/?size=m
 photo.45.author: fetorus_mami
 photo.45.link: https://www.instagram.com/fetorus_mami/
-photo.45.tags: dish, smile
+photo.45.tags: dish, portrait, smile
+photo.46: https://www.instagram.com/p/Byux2dMBInM/media/?size=m
+photo.46.author: fetorus_mami
+photo.46.link: https://www.instagram.com/fetorus_mami/
+photo.46.tags: bridge, laying down
 species: 2
 video.1: https://youtu.be/rYd6QptEbU0
 video.1.author: d_mover

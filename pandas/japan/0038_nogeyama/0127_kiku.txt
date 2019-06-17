@@ -25,26 +25,26 @@ photo.2.tags: tongue
 photo.3: https://www.instagram.com/p/Bkd1-tyFCKD/media/?size=m
 photo.3.author: perie1027vivi
 photo.3.link: https://www.instagram.com/perie1027vivi/
-photo.3.tags: home, smile, tail
+photo.3.tags: home, portrait, smile, tail
 photo.4: https://www.instagram.com/p/Bg2OQjYAC5j/media/?size=m
 photo.4.author: tabechum
 photo.4.link: https://www.instagram.com/tabechum/
 photo.5: https://www.instagram.com/p/BjsyZlXFoBp/media/?size=m
 photo.5.author: panda.daisuki
 photo.5.link: https://www.instagram.com/panda.daisuki/
-photo.5.tags: paws, tree, tail
+photo.5.tags: paws, portrait, tree, tail
 photo.6: https://www.instagram.com/p/Bm10IMrlcfr/media/?size=m
 photo.6.author: tabechum
 photo.6.link: https://www.instagram.com/tabechum/
-photo.6.tags: tail, tree
+photo.6.tags: portrait, tail, tree
 photo.7: https://www.instagram.com/p/Bn6D5MkFKUR/media/?size=m
 photo.7.author: roko_mm
 photo.7.link: https://www.instagram.com/roko_mm/
-photo.7.tags: profile, smile, tree
+photo.7.tags: portrait, profile, smile, tree
 photo.8: https://www.instagram.com/p/BooI9D4F2Lf/media/?size=m
 photo.8.author: miis_98
 photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: laying down, smile, tongue, tree
+photo.8.tags: bridge, laying down, portrait, smile, tongue, tree
 photo.9: https://www.instagram.com/p/Bo7J0AUl2ba/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
@@ -52,9 +52,11 @@ photo.9.tags: smile, tree
 photo.10: https://www.instagram.com/p/Bo-MxsslOwq/media/?size=m
 photo.10.author: miis_98
 photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BpALFQZlUuI/media/?size=m
 photo.11.author: minatomirai215
 photo.11.link: https://www.instagram.com/minatomirai215/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/BpNyPdHFaci/media/?size=m
 photo.12.author: tabechum
 photo.12.link: https://www.instagram.com/tabechum/
@@ -69,6 +71,7 @@ photo.14.tags: apple time, keeper
 photo.15: https://www.instagram.com/p/BpYEswblkll/media/?size=m
 photo.15.author: tabechum
 photo.15.link: https://www.instagram.com/tabechum/
+photo.15.tags: door
 photo.16: https://www.instagram.com/p/BpgRmSmlRhQ/media/?size=m
 photo.16.author: tabechum
 photo.16.link: https://www.instagram.com/tabechum/
@@ -80,29 +83,30 @@ photo.17.tags: laying down, tongue, tree
 photo.18: https://www.instagram.com/p/Bqc6jp1ltSZ/media/?size=m
 photo.18.author: minatomirai215
 photo.18.link: https://www.instagram.com/minatomirai215/
-photo.18.tags: smile
+photo.18.tags: door, smile
 photo.19: https://www.instagram.com/p/Bqo54hllQu2/media/?size=m
 photo.19.author: mofu_pan
 photo.19.link: https://www.instagram.com/mofu_pan/
-photo.19.tags: tree
+photo.19.tags: portrait, tree
 photo.20: https://www.instagram.com/p/BqwzOW_l-ms/media/?size=m
 photo.20.author: kinkinkin0826
 photo.20.link: https://www.instagram.com/kinkinkin0826/
+photo.20.tags: door
 photo.21: https://www.instagram.com/p/Bq8r9zilcur/media/?size=m
 photo.21.author: lespan33
 photo.21.link: https://www.instagram.com/lespan33/
 photo.22: https://www.instagram.com/p/BrQ-UXwF2ZR/media/?size=m
 photo.22.author: miis_98
 photo.22.link: https://www.instagram.com/miis_98/
-photo.22.tags: grooming, tail, tree
+photo.22.tags: grooming, portrait, tail, tree
 photo.23: https://www.instagram.com/p/BrfA27zlFZ_/media/?size=m
 photo.23.author: miis_98
 photo.23.link: https://www.instagram.com/miis_98/
-photo.23.tags: air tasting, tongue, tree
+photo.23.tags: air tasting, portrait, tongue, tree
 photo.24: https://www.instagram.com/p/BYshCGrFQuX/media/?size=m
 photo.24.author: hanamaru_redpanda
 photo.24.link: https://www.instagram.com/hanamaru_redpanda/
-photo.24.tags: smile, tree
+photo.24.tags: portrait, smile, tree
 photo.25: https://www.instagram.com/p/Bry_EqoFgvB/media/?size=m
 photo.25.author: kipekaila
 photo.25.link: https://www.instagram.com/kipekaila/
@@ -114,11 +118,11 @@ photo.26.tags: grooming, tail, tree
 photo.27: https://www.instagram.com/p/BsKbXAcllhR/media/?size=m
 photo.27.author: miis_98
 photo.27.link: https://www.instagram.com/miis_98/
-photo.27.tags: grumpy, laying down, tail, tree
+photo.27.tags: grumpy, laying down, portrait, tail, tree
 photo.28: https://www.instagram.com/p/BsZscoWFWe-/media/?size=m
 photo.28.author: minatomirai215
 photo.28.link: https://www.instagram.com/minatomirai215/
-photo.28.tags: bamboo, techitechi
+photo.28.tags: bamboo, portrait, techitechi
 photo.29: https://www.instagram.com/p/BskTgA5FhJ2/media/?size=m
 photo.29.author: neon_ing
 photo.29.link: https://www.instagram.com/neon_ing/
@@ -130,7 +134,7 @@ photo.30.tags: apple time, keeper, paws, standing
 photo.31: https://www.instagram.com/p/Bs-3MlaF-cI/media/?size=m
 photo.31.author: minatomirai215
 photo.31.link: https://www.instagram.com/minatomirai215/
-photo.31.tags: shake, tree
+photo.31.tags: autumn, shake, tree
 photo.32: https://www.instagram.com/p/BtDheRClIdR/media/?size=m
 photo.32.author: minatomirai215
 photo.32.link: https://www.instagram.com/minatomirai215/
@@ -142,7 +146,7 @@ photo.33.tags: techitechi
 photo.34: https://www.instagram.com/p/BvHASHsFTTB/media/?size=m
 photo.34.author: redpan22
 photo.34.link: https://www.instagram.com/redpan22/
-photo.34.tags: paws, smile, tree
+photo.34.tags: paws, portrait, smile, tree
 photo.35: https://www.instagram.com/p/BvJsT2glAXv/media/?size=m
 photo.35.author: redpan22
 photo.35.link: https://www.instagram.com/redpan22/
@@ -150,6 +154,7 @@ photo.35.tags: bamboo, paws, tongue
 photo.36: https://www.instagram.com/p/Bv7IkDAFT_E/media/?size=m
 photo.36.author: minatomirai215
 photo.36.link: https://www.instagram.com/minatomirai215/
+photo.36.tags: door
 photo.37: https://www.instagram.com/p/BwUFJVcFGPQ/media/?size=m
 photo.37.author: minatomirai215
 photo.37.link: https://www.instagram.com/minatomirai215/
@@ -165,7 +170,7 @@ photo.39.tags: keeper, lunch time, tree
 photo.40: https://www.instagram.com/p/BxkVHT4Fwer/media/?size=m
 photo.40.author: akiakiakiko18
 photo.40.link: https://www.instagram.com/akiakiakiko18/
-photo.40.tags: tree
+photo.40.tags: portrait, tree
 photo.41: https://www.instagram.com/p/BycVwlXhVKO/media/?size=m
 photo.41.author: neon_ing
 photo.41.link: https://www.instagram.com/neon_ing/
@@ -174,5 +179,9 @@ photo.42: https://www.instagram.com/p/BydFh-RBJm_/media/?size=m
 photo.42.author: cabbage_biyori
 photo.42.link: https://www.instagram.com/cabbage_biyori/
 photo.42.tags: paws
+photo.43: https://www.instagram.com/p/BVUdMLugVSJ/media/?size=m
+photo.43.author: minatomirai215
+photo.43.link: https://www.instagram.com/minatomirai215/
+photo.43.tags: bamboo, paws, portrait
 species: 2
 zoo: 38

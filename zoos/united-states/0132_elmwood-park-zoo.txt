@@ -6,4 +6,8 @@ en.name: Elmwood Park Zoo
 flag: USA
 language.order: en
 map: https://goo.gl/maps/CknzKshwgbM2
+photo.1: https://www.instagram.com/p/BLOkc5GDaem/media/?size=m
+photo.1.author: elmwoodparkzoo
+photo.1.link: https://www.instagram.com/elmwoodparkzoo/
+photo.1.tags: profile
 website: https://www.elmwoodparkzoo.org/

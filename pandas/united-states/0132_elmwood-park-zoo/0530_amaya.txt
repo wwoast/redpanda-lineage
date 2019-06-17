@@ -3,6 +3,7 @@ _id: 530
 birthday: 2008/6/29
 birthplace: 131
 children: none
+death: 2018/12/14
 en.name: Amaya
 en.nicknames: none
 en.othernames: none
@@ -25,9 +26,21 @@ photo.2: https://www.instagram.com/p/BcBTsymA8ph/media/?size=m
 photo.2.author: rossifari
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: smile, white face, tongue
-photo.3: https://www.instagram.com/p/BiFsF4lFczA/media/?size=m
-photo.3.author: sacramentozoo
-photo.3.link: https://www.instagram.com/sacramentozoo/
-photo.3.tags: lips, portrait
+photo.3: https://www.instagram.com/p/BrX1bSMjFGf/media/?size=m
+photo.3.author: elmwoodparkzoo
+photo.3.link: https://www.instagram.com/elmwoodparkzoo/
+photo.3.tags: laying down, tail
+photo.4: https://www.instagram.com/p/BqK4kEVjKrr/media/?size=m
+photo.4.author: elmwoodparkzoo
+photo.4.link: https://www.instagram.com/elmwoodparkzoo/
+photo.4.tags: laying down, muzzle
+photo.5: https://www.instagram.com/p/BZGsHlOAR4T/media/?size=m
+photo.5.author: elmwoodparkzoo
+photo.5.link: https://www.instagram.com/elmwoodparkzoo/
+photo.5.tags: paws
+photo.6: https://www.instagram.com/p/BTC12Gfg0ye/media/?size=m
+photo.6.author: elmwoodparkzoo
+photo.6.link: https://www.instagram.com/elmwoodparkzoo/
+photo.6.tags: laying down, paws
 species: 1
 zoo: 132
