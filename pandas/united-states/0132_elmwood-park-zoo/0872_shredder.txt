@@ -1,0 +1,23 @@
+[panda]
+_id: 872
+birthday: 2014/6/26
+birthplace: 114
+children: none
+death: 2017/1/4
+en.name: Shredder
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シュレッダー 
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 871, 873
+location.1: 114, 2014/6/26
+location.2: 132, 2015/5/14
+photo.1: https://www.instagram.com/p/BO7piEoB4XO/media/?size=m
+photo.1.author: elmwoodparkzoo
+photo.1.link: https://www.instagram.com/elmwoodparkzoo/
+photo.1.tags: portrait, profile, paws
+species: 1
+zoo: 132

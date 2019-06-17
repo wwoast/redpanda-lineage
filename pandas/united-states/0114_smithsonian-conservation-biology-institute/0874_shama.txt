@@ -1,0 +1,20 @@
+[panda]
+_id: 874
+birthday: 2007/7/1
+birthplace: 114
+children: 871, 872, 873
+death: 2014/8/16
+en.name: Shama
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シャーマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 114, 2007/7/1
+location.2: 49, 2008/4/8
+location.3: 114, 2014/1/29
+species: 1
+zoo: 114
