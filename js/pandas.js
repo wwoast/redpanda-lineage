@@ -798,7 +798,7 @@ Pandas.age = function(animal, language) {
   var ms_per_day = 1000 * 60 * 60 * 24;
   var age_days = (endday - birthday)/ms_per_day;
   var age_years = Math.floor(age_days / 365);
-  var age_months = Math.floor(age_days / 30);
+  var age_months = Math.floor(age_days / 31);
   // Specify whether you say "day" or "days" in the age string
   var pluralize = function(count, time_word, language) {
     return (count < 2) ? Pandas.def.age[language][time_word]
