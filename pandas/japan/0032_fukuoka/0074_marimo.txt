@@ -17,11 +17,11 @@ location.2: 32, 2011/5/28
 photo.1: https://www.instagram.com/p/BWzdLMbl0Lc/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: apple time, praying, standing
+photo.1.tags: apple time, portrait, praying, standing
 photo.2: https://www.instagram.com/p/BbF30UPhYch/media/?size=m
 photo.2.author: umekonbuaji
 photo.2.link: https://www.instagram.com/umekonbuaji/
-photo.2.tags: tree
+photo.2.tags: portrait, tree
 photo.3: https://www.instagram.com/p/BgQ1lFAFdNR/media/?size=m
 photo.3.author: sbskyy
 photo.3.link: https://www.instagram.com/sbskyy/
@@ -33,29 +33,31 @@ photo.4.tags: laying down, tongue
 photo.5: https://www.instagram.com/p/BXcv6GtFN_h/media/?size=m
 photo.5.author: yossi929
 photo.5.link: https://www.instagram.com/yossi929/
-photo.5.tags: night
+photo.5.tags: night, portrait
 photo.6: https://www.instagram.com/p/Bnj_OdCFLpx/media/?size=m
 photo.6.author: re_ichimaru
 photo.6.link: https://www.instagram.com/re_ichimaru/
-photo.6.tags: tail
+photo.6.tags: portrait, tail
 photo.7: https://www.instagram.com/p/Bofv672lES4/media/?size=m
 photo.7.author: yossi929
 photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: peek, portrait
 photo.8: https://www.instagram.com/p/Boz0FHaFQnV/media/?size=m
 photo.8.author: re_ichimaru
 photo.8.link: https://www.instagram.com/re_ichimaru/
-photo.8.tags: tree
+photo.8.tags: portrait, tree
 photo.9: https://www.instagram.com/p/BpDSoWUFCCs/media/?size=m
 photo.9.author: yossi929
 photo.9.link: https://www.instagram.com/yossi929/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BpIfDT0l8SO/media/?size=m
 photo.10.author: re_ichimaru
 photo.10.link: https://www.instagram.com/re_ichimaru/
-photo.10.tags: apple time, keeper
+photo.10.tags: apple time, keeper, portrait
 photo.11: https://www.instagram.com/p/BpVdwAGFkKU/media/?size=m
 photo.11.author: yossi929
 photo.11.link: https://www.instagram.com/yossi929/
-photo.11.tags: smile
+photo.11.tags: portrait, smile
 photo.12: https://www.instagram.com/p/BpauWNlF1IZ/media/?size=m
 photo.12.author: yossi929
 photo.12.link: https://www.instagram.com/yossi929/
@@ -66,7 +68,7 @@ photo.13.link: https://www.instagram.com/re_ichimaru/
 photo.14: https://www.instagram.com/p/Bp5aVa3lA__/media/?size=m
 photo.14.author: yossi929
 photo.14.link: https://www.instagram.com/yossi929/
-photo.14.tags: bamboo
+photo.14.tags: bamboo, portrait
 photo.15: https://www.instagram.com/p/BqKTTmNFT7K/media/?size=m
 photo.15.author: sbskyy
 photo.15.link: https://www.instagram.com/sbskyy/
@@ -83,6 +85,7 @@ photo.18.tags: apple time, keeper, standing
 photo.19: https://www.instagram.com/p/BqdhcuAlWyv/media/?size=m
 photo.19.author: yossi929
 photo.19.link: https://www.instagram.com/yossi929/
+photo.19.tags: portrait
 photo.20: https://www.instagram.com/p/BquZ7FOluAU/media/?size=m
 photo.20.author: sbskyyy
 photo.20.link: https://www.instagram.com/sbskyy/
@@ -94,6 +97,7 @@ photo.21.tags: apple time, standing, tail
 photo.22: https://www.instagram.com/p/BrD9puwF9tV/media/?size=m
 photo.22.author: re_ichimaru
 photo.22.link: https://www.instagram.com/re_ichimaru/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/BrfXbHPF2Gl/media/?size=m
 photo.23.author: sbskyy
 photo.23.link: https://www.instagram.com/sbskyy/
@@ -101,19 +105,19 @@ photo.23.tags: apple time, standing
 photo.24: https://www.instagram.com/p/Br0_YT-lGIq/media/?size=m
 photo.24.author: re_ichimaru
 photo.24.link: https://www.instagram.com/re_ichimaru/
-photo.24.tags: apple time, praying, standing
+photo.24.tags: apple time, portrait, praying, standing
 photo.25: https://www.instagram.com/p/Br_w6b-lyW7/media/?size=m
 photo.25.author: panda.daisuki
 photo.25.link: https://www.instagram.com/panda.daisuki/
-photo.25.tags: apple time, standing, tongue
+photo.25.tags: apple time, portrait, standing, tongue
 photo.26: https://www.instagram.com/p/BsNs0d1lHg4/media/?size=m
 photo.26.author: re_ichimaru
 photo.26.link: https://www.instagram.com/re_ichimaru/
-photo.26.tags: apple time, praying, standing
+photo.26.tags: apple time, portrait, praying, standing
 photo.27: https://www.instagram.com/p/BsP9VWxlw4M/media/?size=m
 photo.27.author: yossi929
 photo.27.link: https://www.instagram.com/yossi929/
-photo.27.tags: apple time, keeper, paws
+photo.27.tags: apple time, keeper, paws, portrait
 photo.28: https://www.instagram.com/p/BsWj5aOF_4f/media/?size=m
 photo.28.author: umekonbuaji
 photo.28.link: https://www.instagram.com/umekonbuaji/
@@ -121,14 +125,15 @@ photo.28.tags: apple time, paws, standing
 photo.29: https://www.instagram.com/p/BsbypO1F1Ob/media/?size=m
 photo.29.author: re_ichimaru
 photo.29.link: https://www.instagram.com/re_ichimaru/
-photo.29.tags: apple time, standing
+photo.29.tags: apple time, portrait, standing
 photo.30: https://www.instagram.com/p/Bsb4XOZFBp3/media/?size=m
 photo.30.author: yossi929
 photo.30.link: https://www.instagram.com/yossi929/
+photo.30.tags: portrait
 photo.31: https://www.instagram.com/p/BshtE04FLm1/media/?size=m
 photo.31.author: re_ichimaru
 photo.31.link: https://www.instagram.com/re_ichimaru/
-photo.31.tags: apple time, standing
+photo.31.tags: apple time, portrait, standing
 photo.32: https://www.instagram.com/p/Bst40KqlUSO/media/?size=m
 photo.32.author: yossi929
 photo.32.link: https://www.instagram.com/yossi929/
@@ -140,26 +145,27 @@ photo.33.tags: laying down
 photo.34: https://www.instagram.com/p/Bs9mABml4T5/media/?size=m
 photo.34.author: re_ichimaru
 photo.34.link: https://www.instagram.com/re_ichimaru/
-photo.34.tags: tree
+photo.34.tags: portrait, tree
 photo.35: https://www.instagram.com/p/BtKEMVNF11B/media/?size=m
 photo.35.author: re_ichimaru
 photo.35.link: https://www.instagram.com/re_ichimaru/
-photo.35.tags: tail
+photo.35.tags: portrait, tail
 photo.36: https://www.instagram.com/p/Bt1y75rlhVv/media/?size=m
 photo.36.author: yossi929
 photo.36.link: https://www.instagram.com/yossi929/
-photo.36.tags: apple time, paws
+photo.36.tags: apple time, paws, portrait
 photo.37: https://www.instagram.com/p/BuIEDuslyg1/media/?size=m
 photo.37.author: yossi929
 photo.37.link: https://www.instagram.com/yossi929/
+photo.37.tags: portrait
 photo.38: https://www.instagram.com/p/BuZ1Al2lfDl/media/?size=m
 photo.38.author: re_ichimaru
 photo.38.link: https://www.instagram.com/re_ichimaru/
-photo.38.tags: apple time, praying, standing
+photo.38.tags: apple time, portrait, praying, standing
 photo.39: https://www.instagram.com/p/BwGRdurFr39/media/?size=m
 photo.39.author: mari_neko3
 photo.39.link: https://www.instagram.com/mari_neko3/
-photo.39.tags: home, laying down
+photo.39.tags: home, laying down, portrait
 photo.40: https://www.instagram.com/p/BwGM28gF2-O/media/?size=m
 photo.40.author: yossi929
 photo.40.link: https://www.instagram.com/yossi929/
@@ -167,11 +173,11 @@ photo.40.tags: bamboo, lunch time, paws, praying
 photo.41: https://www.instagram.com/p/Bw6ywQKFeZS/media/?size=m
 photo.41.author: yossi929
 photo.41.link: https://www.instagram.com/yossi929/
-photo.41.tags: apple time, flowers, paws, reiwa, standing
+photo.41.tags: apple time, flowers, paws, portrait, reiwa, standing
 photo.42: https://www.instagram.com/p/Bxhi_VsFySn/media/?size=m
 photo.42.author: fetorus_mami
 photo.42.link: https://www.instagram.com/fetorus_mami/
-photo.42.tags: lunch time, paws, toys
+photo.42.tags: lunch time, paws, portrait, toys
 photo.43: https://www.instagram.com/p/BxipFwKla38/media/?size=m
 photo.43.author: re_ichimaru
 photo.43.link: https://www.instagram.com/re_ichimaru/

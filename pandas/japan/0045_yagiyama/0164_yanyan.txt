@@ -5,7 +5,7 @@ birthplace: 17
 children: none
 en.name: Yan-Yan
 en.nicknames: none
-en.othernames: none
+en.othernames: Yanyan
 gender: m
 jp.name: ヤンヤン
 jp.nicknames: none
@@ -25,7 +25,7 @@ photo.2.tags: snow, tree
 photo.3: https://www.instagram.com/p/BhlutnBFED-/media/?size=m
 photo.3.author: take_421
 photo.3.link: https://www.instagram.com/take_421/
-photo.3.tags: smile
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/BkHYNTslQwO/media/?size=m
 photo.4.author: godosei
 photo.4.link: https://www.instagram.com/godosei/
@@ -43,22 +43,23 @@ photo.7.link: https://www.instagram.com/godosei/
 photo.8: https://www.instagram.com/p/BnxU-RXlheH/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
-photo.8.tags: smile, tongue
+photo.8.tags: portrait, smile, tongue
 photo.9: https://www.instagram.com/p/Bnxk9p_FtnG/media/?size=m
 photo.9.author: ifumoto88
 photo.9.link: https://www.instagram.com/ifumoto88/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BoF7jE6FDSD/media/?size=m
 photo.10.author: panda.daisuki
 photo.10.link: https://www.instagram.com/panda.daisuki/
-photo.10.tags: laying down, home, smile
+photo.10.tags: home, laying down, portrait, smile
 photo.11: https://www.instagram.com/p/Bn0xFeAFGv1/media/?size=m
 photo.11.author: perie1027vivi
 photo.11.link: https://www.instagram.com/perie1027vivi/
-photo.11.tags: smile
+photo.11.tags: portrait, smile
 photo.12: https://www.instagram.com/p/BojNJnSldkB/media/?size=m
 photo.12.author: minatomirai215
 photo.12.link: https://www.instagram.com/minatomirai215/
-photo.12.tags: bridge
+photo.12.tags: bridge, portrait, tongue
 photo.13: https://www.instagram.com/p/BhX0en0ggga/media/?size=m
 photo.13.author: s.okano521
 photo.13.link: https://www.instagram.com/s.okano521/
@@ -74,20 +75,22 @@ photo.15.tags: home
 photo.16: https://www.instagram.com/p/BpZTuvylgbY/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
+photo.16.tags: portrait, tail
 photo.17: https://www.instagram.com/p/BqFJKuol-kS/media/?size=m
 photo.17.author: fetorus_mami
 photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: portrait, smile
 photo.18: https://www.instagram.com/p/BqQZVFkFL_0/media/?size=m
 photo.18.author: clam_chowder725
 photo.18.link: https://www.instagram.com/clam_chowder725/
 photo.19: https://www.instagram.com/p/BqaHk8bF93-/media/?size=m
 photo.19.author: take_421
 photo.19.link: https://www.instagram.com/take_421/
-photo.19.tags: bridge, smile
+photo.19.tags: bridge, portrait, smile
 photo.20: https://www.instagram.com/p/BqijziqlXpj/media/?size=m
 photo.20.author: rie_panda55
 photo.20.link: https://www.instagram.com/rie_panda55/
-photo.20.tags: standing
+photo.20.tags: bridge, standing
 photo.21: https://www.instagram.com/p/BqvjYVAFX2e/media/?size=m
 photo.21.author: _rifa_p
 photo.21.link: https://www.instagram.com/_rifa_p/
@@ -95,15 +98,15 @@ photo.21.tags: home, laying down
 photo.22: https://www.instagram.com/p/BtGDaceFJ9n/media/?size=m
 photo.22.author: motohin
 photo.22.link: https://www.instagram.com/motohin/
-photo.22.tags: snow
+photo.22.tags: portrait, snow
 photo.23: https://www.instagram.com/p/Bt50Lt8lAgn/media/?size=m
 photo.23.author: ifumoto88
 photo.23.link: https://www.instagram.com/ifumoto88/
-photo.23.tags: bamboo, tree
+photo.23.tags: bamboo, portrait, tree
 photo.24: https://www.instagram.com/p/BuBYSyaFNVP/media/?size=m
 photo.24.author: happy_love2.15
 photo.24.link: https://www.instagram.com/happy_love2.15/
-photo.24.tags: home, paws, snow
+photo.24.tags: home, paws, portrait, snow
 photo.25: https://www.instagram.com/p/Bs3FCHkgfUt/media/?size=m
 photo.25.author: happy_love2.15
 photo.25.link: https://www.instagram.com/happy_love2.15/
@@ -135,18 +138,19 @@ photo.31.tags: smile
 photo.32: https://www.instagram.com/p/BxPdiDElgxY/media/?size=m
 photo.32.author: tama67photo
 photo.32.link: https://www.instagram.com/tama67photo/
-photo.32.tags: paws, tree
+photo.32.tags: paws, portrait, tree
 photo.33: https://www.instagram.com/p/BxLg2vtFsZr/media/?size=m
 photo.33.author: _rifa_p
 photo.33.link: https://www.instagram.com/_rifa_p/
+photo.33.tags: portrait
 photo.34: https://www.instagram.com/p/BxhTxMPl-xl/media/?size=m
 photo.34.author: tama67photo
 photo.34.link: https://www.instagram.com/tama67photo/
-photo.34.tags: peek, tree
+photo.34.tags: peek, portrait, tree
 photo.35: https://www.instagram.com/p/BxrEMhCFZUm/media/?size=m
 photo.35.author: kotata_513
 photo.35.link: https://www.instagram.com/kotata_513/
-photo.35.tags: bamboo, home, smile
+photo.35.tags: bamboo, home, portrait, smile
 photo.36: https://www.instagram.com/p/Bx366-UB3UN/media/?size=m
 photo.36.author: tama67photo
 photo.36.link: https://www.instagram.com/tama67photo/

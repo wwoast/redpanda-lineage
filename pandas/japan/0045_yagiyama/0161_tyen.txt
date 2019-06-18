@@ -21,11 +21,11 @@ photo.1.tags: lips, smile, tree
 photo.2: https://www.instagram.com/p/Bj9fYPZFcm7/media/?size=m
 photo.2.author: daniele.tokyo
 photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: apple time
+photo.2.tags: apple time, portrait
 photo.3: https://www.instagram.com/p/Bj8igM_F7a_/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
-photo.3.tags: home, smile, tail
+photo.3.tags: home, portrait, smile, tail
 photo.4: https://www.instagram.com/p/Bj-AscqlNnO/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
@@ -33,15 +33,15 @@ photo.4.tags: keeper
 photo.5: https://www.instagram.com/p/Bm23Sv8F3BZ/media/?size=m
 photo.5.author: godosei
 photo.5.link: https://www.instagram.com/godosei/
-photo.5.tags: night
+photo.5.tags: night, portrait
 photo.6: https://www.instagram.com/p/Bnyek8fFR04/media/?size=m
 photo.6.author: ifumoto88
 photo.6.link: https://www.instagram.com/ifumoto88/
-photo.6.tags: sleeping
+photo.6.tags: portrait, sleeping
 photo.7: https://www.instagram.com/p/BoSuZULFaFk/media/?size=m
 photo.7.author: _rifa_p
 photo.7.link: https://www.instagram.com/_rifa_p/
-photo.7.tags: praying
+photo.7.tags: portrait, praying
 photo.8: https://www.instagram.com/p/Bo3nITJFhv7/media/?size=m
 photo.8.author: clam_chowder725
 photo.8.link: https://www.instagram.com/clam_chowder725/
@@ -53,7 +53,7 @@ photo.9.tags: smile
 photo.10: https://www.instagram.com/p/BqIzFr7lR0a/media/?size=m
 photo.10.author: panda.daisuki
 photo.10.link: https://www.instagram.com/panda.daisuki/
-photo.10.tags: standing, tail
+photo.10.tags: portrait, standing, tail
 photo.11: https://www.instagram.com/p/Bqqc3PCFm8S/media/?size=m
 photo.11.author: rie_panda55
 photo.11.link: https://www.instagram.com/rie_panda55/
@@ -65,17 +65,18 @@ photo.12.tags: home, smile, tail
 photo.13: https://www.instagram.com/p/BrHN-zQF1EA/media/?size=m
 photo.13.author: miis_98
 photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: home, profile
+photo.13.tags: home, portrait, profile
 photo.14: https://www.instagram.com/p/Bt529k4FADJ/media/?size=m
 photo.14.author: ifumoto88
 photo.14.link: https://www.instagram.com/ifumoto88/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BuEIFPnF9LE/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
 photo.16: https://www.instagram.com/p/Bu7cIFHFKrO/media/?size=m
 photo.16.author: clam_chowder725
 photo.16.link: https://www.instagram.com/clam_chowder725/
-photo.16.tags: home, paws, tongue
+photo.16.tags: home, paws, portrait, tongue
 photo.17: https://www.instagram.com/p/BtqXD3QlExc/media/?size=m
 photo.17.author: happy_love2.15
 photo.17.link: https://www.instagram.com/happy_love2.15/
@@ -83,7 +84,7 @@ photo.17.tags: snow
 photo.18: https://www.instagram.com/p/Bv6iz_0lmxD/media/?size=m
 photo.18.author: fetorus_mami
 photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: bridge
+photo.18.tags: bridge, head-first, portrait
 photo.19: https://www.instagram.com/p/Bv6k5rCFU2C/media/?size=m
 photo.19.author: fetorus_mami
 photo.19.link: https://www.instagram.com/fetorus_mami/
@@ -91,15 +92,15 @@ photo.19.tags: home, smile
 photo.20: https://www.instagram.com/p/BxCmLc2FUTd/media/?size=m
 photo.20.author: resapan.suki
 photo.20.link: https://www.instagram.com/resapan.suki/
-photo.20.tags: bamboo, home, techitechi
+photo.20.tags: bamboo, home, portrait, techitechi
 photo.21: https://www.instagram.com/p/BXW3Z7XB6Ap/media/?size=m
 photo.21.author: hidehaya_biei
 photo.21.link: https://www.instagram.com/hidehaya_biei/
-photo.21.tags: tongue, tree
+photo.21.tags: portrait, tongue, tree
 photo.22: https://www.instagram.com/p/BVQ7CA-hpca/media/?size=m
 photo.22.author: hidehaya_biei
 photo.22.link: https://www.instagram.com/hidehaya_biei/
-photo.22.tags: paws, techitechi, tree
+photo.22.tags: paws, portrait, techitechi, tree
 photo.23: https://www.instagram.com/p/BxsD-hPl4YC/media/?size=m
 photo.23.author: happy_love2.15
 photo.23.link: https://www.instagram.com/happy_love2.15/
@@ -107,5 +108,6 @@ photo.23.tags: paws, standing, tongue, tree
 photo.24: https://www.instagram.com/p/ByMPhLNB61r/media/?size=m
 photo.24.author: fetorus_mami
 photo.24.link: https://www.instagram.com/fetorus_mami/
+photo.24.tags: portrait
 species: 2
 zoo: 45
