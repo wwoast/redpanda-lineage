@@ -135,12 +135,11 @@ Layout.recomputeHeight = function(e) {
 // Look for span elements that are children of links, in the family bars.
 // Any of these that are displayed in the page larger than 100px, need to get shrunk.
 Layout.shrinkNames = function() {
-  var link_nodes = document.getElementsByClassName("geneaologyListName");
-  for (let link of link_nodes) {
-    var span = link.childNodes[1];
-    if (link.offsetWidth > 140) {
+  var shrinker = function(element) {
+    var span = element.childNodes[1];
+    if (element.offsetWidth > 140) {
       span.classList.add("ultraCondensed");
-    } else if (link.offsetWidth > 120) {
+    } else if (element.offsetWidth > 120) {
       span.classList.add("condensed");
     }
     // Fix the spacing for strings that have mixed character sets.
@@ -154,6 +153,15 @@ Layout.shrinkNames = function() {
     if (latin && cjk) {
       span.classList.add("adjusted");
     }
+  }
+
+  var link_nodes = document.getElementsByClassName("geneaologyListName");
+  var caption_nodes = document.getElementsByClassName("caption birthdayMessage");
+  for (let link of link_nodes) {
+    shrinker(link);
+  }
+  for (let caption of caption_nodes) {
+    shrinker(caption);
   }
 }
 

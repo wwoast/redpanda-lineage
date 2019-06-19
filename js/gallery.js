@@ -321,7 +321,10 @@ Gallery.birthdayPhotoCredits = function(language) {
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
-      caption.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      var caption_span = document.createElement('span');
+      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      // TODO: condenser
+      caption.appendChild(caption_span);
       caption_link.appendChild(caption);
       var container = document.createElement('div');
       container.className = "photoSample quarterPage";

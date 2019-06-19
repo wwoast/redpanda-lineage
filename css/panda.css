@@ -733,6 +733,26 @@ ul.pandaList > li > a > span.ultraCondensed.adjusted {
     font-size: 12pt;
 }
 
+h5.birthdayMessage > span.condensed {
+    letter-spacing: -1px;
+    font-size: 13pt;
+}
+
+h5.birthdayMessage > span.ultraCondensed {
+    letter-spacing: -4px;
+    font-size: 12pt;
+}
+
+h5.birthdayMessage > span.condensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 13pt;
+}
+
+h5.birthdayMessage > span.ultraCondensed.adjusted {
+    letter-spacing: 0px;
+    font-size: 12pt;
+}
+
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
     padding-bottom: 0.25ex;
 }
