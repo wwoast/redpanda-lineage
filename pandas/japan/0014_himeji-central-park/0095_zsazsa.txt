@@ -5,7 +5,7 @@ birthplace: 10
 children: none
 en.name: Zsa-Zsa
 en.nicknames: none
-en.othernames: Jia-Jia, Ja-Ja, Jaja
+en.othernames: Jia-Jia, Ja-Ja, Jaja, Zsazsa
 gender: f
 jp.name: ジャジャ
 jp.nicknames: none
@@ -21,7 +21,7 @@ photo.1.tags: profile, smile
 photo.2: https://www.instagram.com/p/BkpaKlOlLIi/media/?size=m
 photo.2.author: i.satosato
 photo.2.link: https://www.instagram.com/i.satosato/
-photo.2.tags: laying down
+photo.2.tags: home, laying down, portrait
 photo.3: https://www.instagram.com/p/Bk67W1clbYd/media/?size=m
 photo.3.author: i.satosato
 photo.3.link: https://www.instagram.com/i.satosato/
@@ -33,13 +33,14 @@ photo.4.tags: smile
 photo.5: https://www.instagram.com/p/BkryEPHFek3/media/?size=m
 photo.5.author: tomo3700
 photo.5.link: https://www.instagram.com/tomo3700/
-photo.5.tags: yawn
+photo.5.tags: portrait, yawn
 photo.6: https://www.instagram.com/p/Bm0udRcBRUX/media/?size=m
 photo.6.author: resapanlove
 photo.6.link: https://www.instagram.com/resapanlove/
 photo.7: https://www.instagram.com/p/BoOXSaNFBgL/media/?size=m
 photo.7.author: love__mitarashi
 photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BpJStacFgtz/media/?size=m
 photo.8.author: love__mitarashi
 photo.8.link: https://www.instagram.com/love__mitarashi/
@@ -55,21 +56,23 @@ photo.10.tags: nose
 photo.11: https://www.instagram.com/p/Brh4Hw3ltpM/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/Br1wWRvFqnY/media/?size=m
 photo.12.author: love__mitarashi
 photo.12.link: https://www.instagram.com/love__mitarashi/
-photo.12.tags: bamboo
+photo.12.tags: bamboo, home
 photo.13: https://www.instagram.com/p/Br4oHtUFk8j/media/?size=m
 photo.13.author: love__mitarashi
 photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: bamboo, tongue
+photo.13.tags: bamboo, home, tongue
 photo.14: https://www.instagram.com/p/BsT68NqggoX/media/?size=m
 photo.14.author: miis_98
 photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: bamboo, smile
+photo.14.tags: bamboo, home, portrait, smile
 photo.15: https://www.instagram.com/p/BuYfkM5Fww9/media/?size=m
 photo.15.author: love__mitarashi
 photo.15.link: https://www.instagram.com/love__mitarashi/
+photo.15.tags: nose, portrait
 photo.16: https://www.instagram.com/p/BuqINt3Fs64/media/?size=m
 photo.16.author: re_ichimaru
 photo.16.link: https://www.instagram.com/re_ichimaru/
@@ -77,10 +80,11 @@ photo.16.tags: laying down, bamboo
 photo.17: https://www.instagram.com/p/BvOp6OuFsg6/media/?size=m
 photo.17.author: love__mitarashi
 photo.17.link: https://www.instagram.com/love__mitarashi/
-photo.17.tags: bamboo, peek
+photo.17.tags: bamboo, peek, portrait
 photo.18: https://www.instagram.com/p/3RH1hbPamv/media/?size=m
 photo.18.author: tama080707
 photo.18.link: https://www.instagram.com/tama080707/
+photo.18.tags: portrait
 photo.19: https://www.instagram.com/p/BvypipUlBhW/media/?size=m
 photo.19.author: love__mitarashi
 photo.19.link: https://www.instagram.com/love__mitarashi/
@@ -92,7 +96,7 @@ photo.20.tags: laying down
 photo.21: https://www.instagram.com/p/Bxe0muzlFAE/media/?size=m
 photo.21.author: love__mitarashi
 photo.21.link: https://www.instagram.com/love__mitarashi/
-photo.21.tags: smile
+photo.21.tags: portrait, smile
 photo.22: https://www.instagram.com/p/Bv82G4lgZYE/media/?size=m
 photo.22.author: s24.star_load
 photo.22.link: https://www.instagram.com/s24.star_load/

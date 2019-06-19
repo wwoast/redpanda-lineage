@@ -19,7 +19,7 @@ photo.1.tags: blink, laying down, tree
 photo.2: https://www.instagram.com/p/BfHLCn7Bry0/media/?size=m
 photo.2.author: no_life_no_zoo
 photo.2.link: https://www.instagram.com/no_life_no_zoo/
-photo.2.tags: apple time, snow
+photo.2.tags: apple time, portrait, snow
 photo.3: https://www.instagram.com/p/BkL1K4al75T/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
@@ -31,14 +31,14 @@ photo.4.tags: autumn, smile
 photo.5: https://www.instagram.com/p/BhGs54YlaIE/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: blink, tail, tree
+photo.5.tags: blink, portrait, tail, tree
 photo.6: https://www.instagram.com/p/BQP8Ph5DFjC/media/?size=m
 photo.6.author: rdpnzoo
 photo.6.link: https://www.instagram.com/rdpnzoo/
 photo.7: https://www.instagram.com/p/BpVTtBohIN0/media/?size=m
 photo.7.author: resapanlove
 photo.7.link: https://www.instagram.com/resapanlove/
-photo.7.tags: autumn, tree
+photo.7.tags: autumn, portrait, tree
 photo.8: https://www.instagram.com/p/BpValsVFm8z/media/?size=m
 photo.8.author: taka__3428
 photo.8.link: https://www.instagram.com/taka__3428/
@@ -50,10 +50,11 @@ photo.9.tags: tail, tree, wet
 photo.10: https://www.instagram.com/p/Bp-cbiSFTZa/media/?size=m
 photo.10.author: redpan22
 photo.10.link: https://www.instagram.com/redpan22/
-photo.10.tags: autumn, blink, tree
+photo.10.tags: autumn, blink, portrait, tree
 photo.11: https://www.instagram.com/p/BqNvmPWFm6F/media/?size=m
 photo.11.author: wumpwoast
 photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/BqqUeIMFRPb/media/?size=m
 photo.12.author: taka__3428
 photo.12.link: https://www.instagram.com/taka__3428/
@@ -64,6 +65,7 @@ photo.13.link: https://www.instagram.com/re_ichimaru/
 photo.14: https://www.instagram.com/p/BqpJC1fHiZv/media/?size=m
 photo.14.author: yakko____
 photo.14.link: https://www.instagram.com/yakko____/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BrP7aaqlpDx/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
@@ -71,7 +73,7 @@ photo.15.tags: profile, sleeping, tree
 photo.16: https://www.instagram.com/p/Brg6vSGlfS5/media/?size=m
 photo.16.author: ayusuke56
 photo.16.link: https://www.instagram.com/ayusuke56/
-photo.16.tags: sleeping, tree
+photo.16.tags: portrait, sleeping, tree
 photo.17: https://www.instagram.com/p/Bs_zmiOl6Ih/media/?size=m
 photo.17.author: rie_panda55
 photo.17.link: https://www.instagram.com/rie_panda55/
@@ -79,6 +81,22 @@ photo.17.tags: snow
 photo.18: https://www.instagram.com/p/BvWmOSmlNOC/media/?size=m
 photo.18.author: fetorus_mami
 photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: bamboo, tongue
+photo.18.tags: bamboo, portrait, tongue
+photo.19: https://www.instagram.com/p/BxBry0TlxCT/media/?size=m
+photo.19.author: kotata_513
+photo.19.link: https://www.instagram.com/kotata_513/
+photo.19.tags: bamboo, portrait, standing
+photo.20: https://www.instagram.com/p/Br_gpB6l1dh/media/?size=m
+photo.20.author: ayusuke56
+photo.20.link: https://www.instagram.com/ayusuke56/
+photo.20.tags: laying down, sleeping, tree
+photo.21: https://www.instagram.com/p/Bvf7qrelzZL/media/?size=m
+photo.21.author: kotata_513
+photo.21.link: https://www.instagram.com/kotata_513/
+photo.21.tags: bamboo, paws, portrait, smile
+photo.22: https://www.instagram.com/p/BxIFBwilKrY/media/?size=m
+photo.22.author: kygymd301
+photo.22.link: https://www.instagram.com/kygymd301/
+photo.22.tags: mofumofu, portrait, sleeping
 species: 2
 zoo: 10

@@ -27,11 +27,11 @@ photo.3.tags: baby, upside-down
 photo.4: https://www.instagram.com/p/Bo6IVqhl2v1/media/?size=m
 photo.4.author: perie1027vivi
 photo.4.link: https://www.instagram.com/perie1027vivi/
-photo.4.tags: baby, mofumofu
+photo.4.tags: baby, mofumofu, portrait
 photo.5: https://www.instagram.com/p/Bo_kCUSlhsM/media/?size=m
 photo.5.author: perie1027vivi
 photo.5.link: https://www.instagram.com/perie1027vivi/
-photo.5.tags: baby, standing
+photo.5.tags: baby, portrait, standing, window
 photo.6: https://www.instagram.com/p/BpgJVO3ghyl/media/?size=m
 photo.6.author: resapanlove
 photo.6.link: https://www.instagram.com/resapanlove/
@@ -39,7 +39,7 @@ photo.6.tags: baby, pull-up
 photo.7: https://www.instagram.com/p/BpioDzWlOCo/media/?size=m
 photo.7.author: roko_mm
 photo.7.link: https://www.instagram.com/roko_mm/
-photo.7.tags: baby
+photo.7.tags: baby, portrait
 photo.8: https://www.instagram.com/p/BqCnJG4ll45/media/?size=m
 photo.8.author: fetorus_mami
 photo.8.link: https://www.instagram.com/fetorus_mami/
@@ -63,6 +63,7 @@ photo.12.tags: baby
 photo.13: https://www.instagram.com/p/BqTfrSOlws0/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/BqTfTNRFoBj/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
@@ -70,11 +71,11 @@ photo.14.tags: bamboo
 photo.15: https://www.instagram.com/p/BqYZc_bFNqg/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
-photo.15.tags: bamboo
+photo.15.tags: bamboo, portrait
 photo.16: https://www.instagram.com/p/BqYw9qlFaFD/media/?size=m
 photo.16.author: ck.chie
 photo.16.link: https://www.instagram.com/ck.chie/
-photo.16.tags: bamboo
+photo.16.tags: bamboo, portrait
 photo.17: https://www.instagram.com/p/BqZ0RxmFu43/media/?size=m
 photo.17.author: fetorus_mami
 photo.17.link: https://www.instagram.com/fetorus_mami/
@@ -82,7 +83,7 @@ photo.17.tags: mofumofu, tail
 photo.18: https://www.instagram.com/p/Bqe1iqzltTk/media/?size=m
 photo.18.author: leonard_redmof
 photo.18.link: https://www.instagram.com/leonard_redmof/
-photo.18.tags: tail
+photo.18.tags: portrait, tail
 photo.19: https://www.instagram.com/p/BqoRX2VFrQK/media/?size=m
 photo.19.author: kipekaila
 photo.19.link: https://www.instagram.com/kipekaila/
@@ -94,7 +95,7 @@ photo.20.tags: laying down, yawn
 photo.21: https://www.instagram.com/p/BrNNSp9lAXL/media/?size=m
 photo.21.author: monmon_redpanda
 photo.21.link: https://www.instagram.com/monmon_redpanda/
-photo.21.tags: tongue
+photo.21.tags: portrait, tongue
 photo.22: https://www.instagram.com/p/BrOMrU-FRD9/media/?size=m
 photo.22.author: rie_panda55
 photo.22.link: https://www.instagram.com/rie_panda55/
@@ -114,11 +115,11 @@ photo.25.tags: autumn
 photo.26: https://www.instagram.com/p/BrBTd4YlMxq/media/?size=m
 photo.26.author: _natsu_panda_
 photo.26.link: https://www.instagram.com/_natsu_panda_/
-photo.26.tags: laying down, smile
+photo.26.tags: laying down, portrait, smile
 photo.27: https://www.instagram.com/p/BsA0kA-lkEr/media/?size=m
 photo.27.author: fetorus_mami
 photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.27.tags: bamboo, smile
+photo.27.tags: bamboo, portrait, smile
 photo.28: https://www.instagram.com/p/BsNrFXbFl7C/media/?size=m
 photo.28.author: craig_craig_craig
 photo.28.link: https://www.instagram.com/craig_craig_craig/
@@ -126,6 +127,7 @@ photo.28.tags: laying down
 photo.29: https://www.instagram.com/p/BsVlVIGlUgt/media/?size=m
 photo.29.author: ifumoto88
 photo.29.link: https://www.instagram.com/ifumoto88/
+photo.29.tags: portrait
 photo.30: https://www.instagram.com/p/Bs6uk_3hAB4/media/?size=m
 photo.30.author: fetorus_mami
 photo.30.link: https://www.instagram.com/fetorus_mami/
@@ -133,7 +135,7 @@ photo.30.tags: bamboo, smile, white face
 photo.31: https://www.instagram.com/p/BugYvtellOt/media/?size=m
 photo.31.author: resapan.suki
 photo.31.link: https://www.instagram.com/resapan.suki/
-photo.31.tags: bamboo, profile, smile, tongue
+photo.31.tags: bamboo, portrait, profile, smile, tongue
 photo.32: https://www.instagram.com/p/BvDfocUlYWl/media/?size=m
 photo.32.author: fetorus_mami
 photo.32.link: https://www.instagram.com/fetorus_mami/
@@ -153,6 +155,6 @@ photo.35.tags: tail, white face
 photo.36: https://www.instagram.com/p/BxuCU0RFOJS/media/?size=m
 photo.36.author: kotume4935
 photo.36.link: https://www.instagram.com/kotume4935/
-photo.36.tags: tail, wet, white face
+photo.36.tags: portrait, tail, wet, white face
 species: 2
 zoo: 9

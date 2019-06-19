@@ -24,7 +24,7 @@ photo.2.tags: bamboo
 photo.3: https://www.instagram.com/p/Bk6KJUEFqSl/media/?size=m
 photo.3.author: rie_panda55
 photo.3.link: https://www.instagram.com/rie_panda55/
-photo.3.tags: smile
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/Bh0i0tIFSDL/media/?size=m
 photo.4.author: nasu_animal_kingdom
 photo.4.link: https://www.instagram.com/nasu_animal_kingdom/
@@ -44,13 +44,18 @@ photo.7.tags: tongue
 photo.8: https://www.instagram.com/p/BqpT78EnjX0/media/?size=m
 photo.8.author: yakko____
 photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BX7lbtVF7h5/media/?size=m
 photo.9.author: hanamaru_redpanda
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: sleeping
+photo.9.tags: portrait, sleeping
 photo.10: https://www.instagram.com/p/BxMD9xdlinE/media/?size=m
 photo.10.author: re_ichimaru
 photo.10.link: https://www.instagram.com/re_ichimaru/
 photo.10.tags: itchy, techitechi
+photo.11: https://www.instagram.com/p/By3qLkMlRUH/media/?size=m
+photo.11.author: yakkooo24
+photo.11.link: https://www.instagram.com/yakkooo24/
+photo.11.tags: bridge, laying down, portrait
 species: 2
 zoo: 53

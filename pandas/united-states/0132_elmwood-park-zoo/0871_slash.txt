@@ -17,7 +17,7 @@ location.2: 132, 2015/5/14
 photo.1: https://www.instagram.com/p/Bfi2ipFATZe/media/?size=m
 photo.1.author: elmwoodparkzoo
 photo.1.link: https://www.instagram.com/elmwoodparkzoo/
-photo.1.tags: smile, tongue
+photo.1.tags: profile, smile, tongue
 photo.2: https://www.instagram.com/p/Bd2sc3RAdbg/media/?size=m
 photo.2.author: elmwoodparkzoo
 photo.2.link: https://www.instagram.com/elmwoodparkzoo/
@@ -33,6 +33,6 @@ photo.4.tags: home
 photo.5: https://www.instagram.com/p/BRLiVPygdpB/media/?size=m
 photo.5.author: elmwoodparkzoo
 photo.5.link: https://www.instagram.com/elmwoodparkzoo/
-photo.5.tags: bamboo, paws, profile
+photo.5.tags: bamboo, paws
 species: 1
 zoo: 132

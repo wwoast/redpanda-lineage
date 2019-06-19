@@ -21,18 +21,18 @@ photo.1.tags: dish, lunch time, nose
 photo.2: https://www.instagram.com/p/BheHx60lwcl/media/?size=m
 photo.2.author: perie1027vivi
 photo.2.link: https://www.instagram.com/perie1027vivi/
-photo.2.tags: profile
+photo.2.tags: portrait, profile
 photo.3: https://www.instagram.com/p/BlO3ZholKpK/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
 photo.4: https://www.instagram.com/p/BkMMDLUFW8D/media/?size=m
 photo.4.author: ck.chie
 photo.4.link: https://www.instagram.com/ck.chie/
-photo.4.tags: dish, lunch time, nose
+photo.4.tags: dish, lunch time, nose, portrait
 photo.5: https://www.instagram.com/p/BZyNxazlwNq/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: laying down
+photo.5.tags: laying down, portrait
 photo.6: https://www.instagram.com/p/BoU5_9al0K1/media/?size=m
 photo.6.author: redpanda_nippon_takashi
 photo.6.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -50,11 +50,11 @@ photo.9.tags: apple time
 photo.10: https://www.instagram.com/p/BrKtoHnFnkp/media/?size=m
 photo.10.author: ifumoto88
 photo.10.link: https://www.instagram.com/ifumoto88/
-photo.10.tags: air tasting, tongue
+photo.10.tags: air tasting, portrait, tongue
 photo.11: https://www.instagram.com/p/BrSRPDiF5Eq/media/?size=m
 photo.11.author: lespan33
 photo.11.link: https://www.instagram.com/lespan33/
-photo.11.tags: apple time
+photo.11.tags: apple time, portrait
 photo.12: https://www.instagram.com/p/BrZ_CEEl-4E/media/?size=m
 photo.12.author: fetorus_mami
 photo.12.link: https://www.instagram.com/fetorus_mami/
@@ -62,7 +62,7 @@ photo.12.tags: air tasting, tongue
 photo.13: https://www.instagram.com/p/BrpuV2Wltfk/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: dish, tongue
+photo.13.tags: dish, portrait, tongue
 photo.14: https://www.instagram.com/p/Brv7XrRFjAl/media/?size=m
 photo.14.author: 218_yu
 photo.14.link: https://www.instagram.com/218_yu/
@@ -70,11 +70,11 @@ photo.14.tags: dish, tongue
 photo.15: https://www.instagram.com/p/BsscY6WlujF/media/?size=m
 photo.15.author: ifumoto88
 photo.15.link: https://www.instagram.com/ifumoto88/
-photo.15.tags: home
+photo.15.tags: home, portrait
 photo.16: https://www.instagram.com/p/Bs0TI6QF2O9/media/?size=m
 photo.16.author: ifumoto88
 photo.16.link: https://www.instagram.com/ifumoto88/
-photo.16.tags: apple time, lips, smile
+photo.16.tags: apple time, lips, portrait, smile
 photo.17: https://www.instagram.com/p/BuGgaaSl_do/media/?size=m
 photo.17.author: ifumoto88
 photo.17.link: https://www.instagram.com/ifumoto88/
@@ -85,14 +85,15 @@ photo.18.link: https://www.instagram.com/ruru_maki/
 photo.19: https://www.instagram.com/p/BwPAdlylAMc/media/?size=m
 photo.19.author: ifumoto88
 photo.19.link: https://www.instagram.com/ifumoto88/
-photo.19.tags: mofumofu
+photo.19.tags: mofumofu, portrait
 photo.20: https://www.instagram.com/p/BwPX_ehlc2u/media/?size=m
 photo.20.author: ifumoto88
 photo.20.link: https://www.instagram.com/ifumoto88/
+photo.20.tags: portrait
 photo.21: https://www.instagram.com/p/BwuLxDjFIYw/media/?size=m
 photo.21.author: ifumoto88
 photo.21.link: https://www.instagram.com/ifumoto88/
-photo.21.tags: paws
+photo.21.tags: paws, portrait
 photo.22: https://www.instagram.com/p/ByFoUrqh3cD/media/?size=m
 photo.22.author: ifumoto88
 photo.22.link: https://www.instagram.com/ifumoto88/

@@ -15,15 +15,15 @@ litter: 2, 6
 photo.1: https://www.instagram.com/p/BhxpBwzFb4x/media/?size=m
 photo.1.author: na.mo.pan
 photo.1.link: https://www.instagram.com/na.mo.pan/
-photo.1.tags: profile, smile, tongue
+photo.1.tags: portrait, profile, smile, tongue
 photo.2: https://www.instagram.com/p/BgTLONjlR0s/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: home, laying down
+photo.2.tags: home, laying down, portrait
 photo.3: https://www.instagram.com/p/BgOEkFhA8Ss/media/?size=m
 photo.3.author: sobu9529
 photo.3.link: https://www.instagram.com/sobu9529/
-photo.3.tags: autumn, tree
+photo.3.tags: autumn, portrait, tree
 photo.4: https://www.instagram.com/p/BlHIUyaF4SZ/media/?size=m
 photo.4.author: _rifa_p
 photo.4.link: https://www.instagram.com/_rifa_p/
@@ -31,19 +31,19 @@ photo.4.tags: laying down
 photo.5: https://www.instagram.com/p/BiB4pTsFOBt/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.link: https://www.instagram.com/daniele.tokyo/
-photo.5.tags: sleeping
+photo.5.tags: portrait, sleeping
 photo.6: https://www.instagram.com/p/Bok_DCXF8UZ/media/?size=m
 photo.6.author: ifumoto88
 photo.6.link: https://www.instagram.com/ifumoto88/
-photo.6.tags: bamboo
+photo.6.tags: bamboo, portrait
 photo.7: https://www.instagram.com/p/BVOi1mjBiKy/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/BaKpqekjEOS/media/?size=m
 photo.8.author: _rifa_p
 photo.8.link: https://www.instagram.com/_rifa_p/
-photo.8.tags: smile
+photo.8.tags: portrait, smile
 photo.9: https://www.instagram.com/p/BflEXpTnK2t/media/?size=m
 photo.9.author: rdpnzoo
 photo.9.link: https://www.instagram.com/rdpnzoo/
@@ -51,7 +51,7 @@ photo.9.tags: pull-up
 photo.10: https://www.instagram.com/p/Bfp-q4uFDm3/media/?size=m
 photo.10.author: hanamaru_redpanda
 photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: sleeping, tail
+photo.10.tags: portrait, sleeping, tail
 photo.11: https://www.instagram.com/p/Bg2dpQogQXa/media/?size=m
 photo.11.author: wumpwoast
 photo.11.link: https://www.instagram.com/wumpwoast/
@@ -63,7 +63,7 @@ photo.12.tags: bamboo
 photo.13: https://www.instagram.com/p/BhWdjVwlx33/media/?size=m
 photo.13.author: perie1027vivi
 photo.13.link: https://www.instagram.com/perie1027vivi/
-photo.13.tags: laying down
+photo.13.tags: laying down, portrait
 photo.14: https://www.instagram.com/p/BhjLoTDFDKd/media/?size=m
 photo.14.author: rdpnzoo
 photo.14.link: https://www.instagram.com/rdpnzoo/
@@ -75,15 +75,15 @@ photo.15.tags: grooming, tongue
 photo.16: https://www.instagram.com/p/Bh6zRBHFx1H/media/?size=m
 photo.16.author: perie1027vivi
 photo.16.link: https://www.instagram.com/perie1027vivi/
-photo.16.tags: smile
+photo.16.tags: home, portrait, smile
 photo.17: https://www.instagram.com/p/Bh7rcedlc06/media/?size=m
 photo.17.author: _rifa_p
 photo.17.link: https://www.instagram.com/_rifa_p/
-photo.17.tags: smile
+photo.17.tags: portrait, smile
 photo.18: https://www.instagram.com/p/BjRt6mLlECV/media/?size=m
 photo.18.author: perie1027vivi
 photo.18.link: https://www.instagram.com/perie1027vivi/
-photo.18.tags: spider
+photo.18.tags: portrait, spider
 photo.19: https://www.instagram.com/p/-jEDBBQZ43/media/?size=m
 photo.19.author: rio_minron
 photo.19.link: https://www.instagram.com/rio_minron/
@@ -101,10 +101,11 @@ photo.22.link: https://www.instagram.com/na.mo.pan/
 photo.23: https://www.instagram.com/p/BIuNL2BjsBS/media/?size=m
 photo.23.author: makitani
 photo.23.link: https://www.flickr.com/photos/makitani/
-photo.23.tags: tree
+photo.23.tags: portrait, tree
 photo.24: https://www.instagram.com/p/BeSx-7QFtLL/media/?size=m
 photo.24.author: hanamaru_redpanda
 photo.24.link: https://www.instagram.com/hanamaru_redpanda/
+photo.24.tags: portrait
 photo.25: https://www.instagram.com/p/Bsa2A9cFTG6/media/?size=m
 photo.25.author: masa_polarbear
 photo.25.link: https://www.instagram.com/masa_polarbear/
@@ -112,7 +113,7 @@ photo.25.tags: tree
 photo.26: https://www.instagram.com/p/BsfpJWBl6qs/media/?size=m
 photo.26.author: craig_craig_craig
 photo.26.link: https://www.instagram.com/craig_craig_craig/
-photo.26.tags: home, smile
+photo.26.tags: home, portrait, smile
 photo.27: https://www.instagram.com/p/BtivT3Dlums/media/?size=m
 photo.27.author: masa_polarbear
 photo.27.link: https://www.instagram.com/masa_polarbear/
@@ -134,6 +135,6 @@ photo.31.link: https://www.instagram.com/_rifa_p/
 photo.32: https://www.instagram.com/p/BypljQuhoIH/media/?size=m
 photo.32.author: resapan.suki
 photo.32.link: https://www.instagram.com/resapan.suki/
-photo.32.tags: smile
+photo.32.tags: portrait, smile
 species: 2
 zoo: 1

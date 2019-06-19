@@ -16,7 +16,7 @@ location.2: 22, 2007/4/2
 photo.1: https://www.instagram.com/p/Bi1hWmJFJgR/media/?size=m
 photo.1.author: makimaru18
 photo.1.link: https://www.instagram.com/makimaru18/
-photo.1.tags: smile
+photo.1.tags: portrait, smile
 photo.2: https://www.instagram.com/p/BlVbYfylYIo/media/?size=m
 photo.2.author: taketake_aniphoto
 photo.2.link: https://www.instagram.com/taketake_aniphoto/
@@ -24,7 +24,7 @@ photo.2.tags: apple time, standing
 photo.3: https://www.instagram.com/p/Bc72HnsA0fg/media/?size=m
 photo.3.author: bubbles_octi
 photo.3.link: https://www.instagram.com/bubbles_octi/
-photo.3.tags: grumpy
+photo.3.tags: grumpy, portrait
 photo.4: https://www.instagram.com/p/Ba8hLURgBzr/media/?size=m
 photo.4.author: bubbles_octi
 photo.4.link: https://www.instagram.com/bubbles_octi/
@@ -36,10 +36,11 @@ photo.5.tags: standing
 photo.6: https://www.instagram.com/p/BoY5VQxFbyM/media/?size=m
 photo.6.author: makimaru18
 photo.6.link: https://www.instagram.com/makimaru18/
-photo.6.tags: bamboo
+photo.6.tags: bamboo, portrait
 photo.7: https://www.instagram.com/p/Boty7iHlaLa/media/?size=m
 photo.7.author: yossi929
 photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/BpIbbpLlXIY/media/?size=m
 photo.8.author: kisshan324
 photo.8.link: https://www.instagram.com/kisshan324/
@@ -47,14 +48,15 @@ photo.8.tags: apple time, standing
 photo.9: https://www.instagram.com/p/BpJS6BHlJtH/media/?size=m
 photo.9.author: kotata_513
 photo.9.link: https://www.instagram.com/kotata_513/
-photo.9.tags: bamboo, profile
+photo.9.tags: bamboo, portrait, profile
 photo.10: https://www.instagram.com/p/Bp5T8mYFpgW/media/?size=m
 photo.10.author: wumpwoast
 photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BrP2BDkFv9Y/media/?size=m
 photo.11.author: sakikukeco
 photo.11.link: https://www.instagram.com/sakikukeco/
-photo.11.tags: itchy
+photo.11.tags: itchy, portrait
 photo.12: https://www.instagram.com/p/BrfRq_xFT7o/media/?size=m
 photo.12.author: bubbles_octi
 photo.12.link: https://www.instagram.com/bubbles_octi/
@@ -70,11 +72,11 @@ photo.14.tags: bamboo, tongue, wink
 photo.15: https://www.instagram.com/p/BsXSOgWlNeG/media/?size=m
 photo.15.author: bubbles_octi
 photo.15.link: https://www.instagram.com/bubbles_octi/
-photo.15.tags: carry
+photo.15.tags: carry, portrait
 photo.16: https://www.instagram.com/p/BsajeTVlTvN/media/?size=m
 photo.16.author: makimaru18
 photo.16.link: https://www.instagram.com/makimaru18/
-photo.16.tags: bamboo, smile, tongue
+photo.16.tags: bamboo, portrait, smile, tongue
 photo.17: https://www.instagram.com/p/Bs1z6M4lFFW/media/?size=m
 photo.17.author: sakikukeco
 photo.17.link: https://www.instagram.com/sakikukeco/
@@ -82,6 +84,7 @@ photo.17.tags: apple time, keeper, paws
 photo.18: https://www.instagram.com/p/BtA6hJilSJt/media/?size=m
 photo.18.author: makimaru18
 photo.18.link: https://www.instagram.com/makimaru18/
+photo.18.tags: portrait
 photo.19: https://www.instagram.com/p/Btf1t8tFvY9/media/?size=m
 photo.19.author: sakikukeco
 photo.19.link: https://www.instagram.com/sakikukeco/
@@ -89,15 +92,15 @@ photo.19.tags: apple time, paws
 photo.20: https://www.instagram.com/p/Bu-pQHAlZ2W/media/?size=m
 photo.20.author: makimaru18
 photo.20.link: https://www.instagram.com/makimaru18/
-photo.20.tags: bamboo, smile
+photo.20.tags: bamboo, portrait, smile
 photo.21: https://www.instagram.com/p/Bv5NTCuFmoK/media/?size=m
 photo.21.author: makimaru18
 photo.21.link: https://www.instagram.com/makimaru18/
-photo.21.tags: smile, tongue
+photo.21.tags: portrait, smile, tongue
 photo.22: https://www.instagram.com/p/Bxm5oqEllfj/media/?size=m
 photo.22.author: bubbles_octi
 photo.22.link: https://www.instagram.com/bubbles_octi/
-photo.22.tags: smile
+photo.22.tags: portrait, smile
 photo.23: https://www.instagram.com/p/ByMWSNOlZtT/media/?size=m
 photo.23.author: sakikukeco
 photo.23.link: https://www.instagram.com/sakikukeco/

@@ -29,11 +29,11 @@ photo.3.tags: bamboo
 photo.4: https://www.instagram.com/p/BdtQ_vFDef0/media/?size=m
 photo.4.author: _rifa_p
 photo.4.link: https://www.instagram.com/_rifa_p/
-photo.4.tags: tail
+photo.4.tags: portrait, tail
 photo.5: https://www.instagram.com/p/Bhd2Yvrlnsw/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: home
+photo.5.tags: home, portrait, tail
 photo.6: https://www.instagram.com/p/BnVVVkoF5zl/media/?size=m
 photo.6.author: wumpwoast
 photo.6.link: https://www.instagram.com/wumpwoast/
@@ -41,35 +41,38 @@ photo.6.tags: smile
 photo.7: https://www.instagram.com/p/Bn7XKS1lHRt/media/?size=m
 photo.7.author: firefoxpanda88
 photo.7.link: https://www.instagram.com/firefoxpanda88/
-photo.7.tags: laying down
+photo.7.tags: home, laying down, portrait
 photo.8: https://www.instagram.com/p/BoL1ll4lRDF/media/?size=m
 photo.8.author: redpanda_nippon_takashi
 photo.8.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.9: https://www.instagram.com/p/BpOJOHnFQ7J/media/?size=m
 photo.9.author: perie1027vivi
 photo.9.link: https://www.instagram.com/perie1027vivi/
-photo.9.tags: dish
+photo.9.tags: dish, portrait
 photo.10: https://www.instagram.com/p/BqoJPpZFDOP/media/?size=m
 photo.10.author: na.mo.pan
 photo.10.link: https://www.instagram.com/na.mo.pan/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BrGx0nEnfM1/media/?size=m
 photo.11.author: yakko____
 photo.11.link: https://www.instagram.com/yakko____/
+photo.11.tags: door, portrait
 photo.12: https://www.instagram.com/p/BZGL8o9lLat/media/?size=m
 photo.12.author: hanamaru_redpanda
 photo.12.link: https://www.instagram.com/hanamaru_redpanda/
-photo.12.tags: sleeping
+photo.12.tags: home, portrait, sleeping
 photo.13: https://www.instagram.com/p/BsSJf5LlRw-/media/?size=m
 photo.13.author: perie1027vivi
 photo.13.link: https://www.instagram.com/perie1027vivi/
-photo.13.tags: tail
+photo.13.tags: portrait, tail
 photo.14: https://www.instagram.com/p/BtHxoYeFWBu/media/?size=m
 photo.14.author: firefoxpanda88
 photo.14.link: https://www.instagram.com/firefoxpanda88/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/Btlb3j2l4Gh/media/?size=m
 photo.15.author: firefoxpanda88
 photo.15.link: https://www.instagram.com/firefoxpanda88/
-photo.15.tags: nose
+photo.15.tags: home, nose, portrait
 photo.16: https://www.instagram.com/p/BvR06i2Fe9z/media/?size=m
 photo.16.author: take_421
 photo.16.link: https://www.instagram.com/take_421/
@@ -81,7 +84,7 @@ photo.17.tags: smile
 photo.18: https://www.instagram.com/p/BxefyLdFuY2/media/?size=m
 photo.18.author: firefoxpanda88
 photo.18.link: https://www.instagram.com/firefoxpanda88/
-photo.18.tags: smile
+photo.18.tags: portrait, smile
 photo.19: https://www.instagram.com/p/Bxl7D7flPI5/media/?size=m
 photo.19.author: pantasanzoo1
 photo.19.link: https://www.instagram.com/pantasanzoo1/
@@ -89,14 +92,14 @@ photo.19.tags: home, sleeping
 photo.20: https://www.instagram.com/p/BxmdNIUlJCT/media/?size=m
 photo.20.author: miis_98
 photo.20.link: https://www.instagram.com/miis_98/
-photo.20.tags: smile
+photo.20.tags: lunch time, portrait, smile
 photo.21: https://www.instagram.com/p/BxrZJeuFXoZ/media/?size=m
 photo.21.author: pantasanzoo1
 photo.21.link: https://www.instagram.com/pantasanzoo1/
-photo.21.tags: ear, smile
+photo.21.tags: ear, portrait, smile
 photo.22: https://www.instagram.com/p/ByEZGzdBi7k/media/?size=m
 photo.22.author: pantasanzoo1
 photo.22.link: https://www.instagram.com/pantasanzoo1/
-photo.22.tags: apple time, dish
+photo.22.tags: apple time, dish, home, portrait
 species: 2
 zoo: 27
