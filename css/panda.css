@@ -739,7 +739,7 @@ h5.birthdayMessage > span.condensed {
 }
 
 h5.birthdayMessage > span.ultraCondensed {
-    letter-spacing: -4px;
+    letter-spacing: -2px;
     font-size: 12pt;
 }
 

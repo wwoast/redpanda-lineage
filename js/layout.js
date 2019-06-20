@@ -135,6 +135,7 @@ Layout.recomputeHeight = function(e) {
 // Look for span elements that are children of links, in the family bars.
 // Any of these that are displayed in the page larger than 100px, need to get shrunk.
 Layout.shrinkNames = function() {
+  var media = window.matchMedia("(max-width: 670px)");
   var shrinker = function(element, nth, condensed, ultraCondensed) {
     var span = element.childNodes[nth];
     if (element.offsetWidth > ultraCondensed) {
@@ -155,13 +156,25 @@ Layout.shrinkNames = function() {
     }
   }
 
+  var expander = function(element, nth, _, _) {
+    var span = element.childNodes[nth];
+    span.classList.remove("condensed");
+    span.classList.remove("ultraCondensed");
+    span.classList.remove("adjusted");
+  }
+
+  var action = shrinker;
+  if (media.matches == false) {
+    action = expander;
+  }
+
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   var caption_nodes = document.getElementsByClassName("caption birthdayMessage");
   for (let link of link_nodes) {
-    shrinker(link, 1, 120, 140);
+    action(link, 1, 120, 140);
   }
   for (let caption of caption_nodes) {
-    shrinker(caption, 0, 100, 120);
+    action(caption, 0, 120, 140);
   }
 }
 
