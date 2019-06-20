@@ -180,7 +180,7 @@ Layout.shrinkNames = function() {
     action(link, 1, "outer", 120, 140);
   }
   for (let caption of caption_nodes) {
-    action(caption, 0, "inner", 120, 140);
+    action(caption, 0, "inner", 130, 140);
   }
 }
 
