@@ -197,6 +197,7 @@ Page.home.render = function() {
     var birthday = Gallery.birthdayPhotoCredits(L.display);
     new_content.appendChild(birthday);
     Page.swap(old_content, new_content);
+    Layout.shrinkNames();
     Page.footer.redraw("landing");
   } else {
     var new_content = document.createElement('img');
