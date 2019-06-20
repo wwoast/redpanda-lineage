@@ -36,18 +36,17 @@ Page.about.hashchange = function() {
     // Default: usage instructions appear non-hidden.
     Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
-    var media = window.matchMedia("(max-width: 670px)");
-    Page.about.instructions(media);
-    media.addListener(Page.about.instructions);
+    Page.about.instructions(Layout.media);
+    Layout.media.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();
     Page.current = Page.about.render;
   }
   window.scrollTo(0, 0);   // Go to the top of the page
 }
-Page.about.instructions = function(media) {
+Page.about.instructions = function() {
   // Event listener callback for showing either mobile, or PC-mode instructions
-  if (media.matches) {
+  if (Layout.media.matches) {
     document.getElementsByClassName("pandaAbout onlyDesktop")[0].style.display = "none";
     document.getElementsByClassName("pandaAbout onlyMobile")[0].style.display = "block";
   } else {

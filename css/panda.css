@@ -735,22 +735,22 @@ ul.pandaList > li > a > span.ultraCondensed.adjusted {
 
 h5.birthdayMessage > span.condensed {
     letter-spacing: -1px;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 h5.birthdayMessage > span.ultraCondensed {
     letter-spacing: -2px;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 h5.birthdayMessage > span.condensed.adjusted {
     letter-spacing: 0px;
-    font-size: 13pt;
+    font-size: 12pt;
 }
 
 h5.birthdayMessage > span.ultraCondensed.adjusted {
     letter-spacing: 0px;
-    font-size: 12pt;
+    font-size: 11pt;
 }
 
 h4.parentsHeading, h4.litterHeading, h4.siblingsHeading, h4.childrenHeading {
@@ -878,6 +878,11 @@ h5.caption {
     margin-bottom: 1ex;
     margin-left: 8px;
     margin-right: 8px;
+    line-height: 2.3ex;   /* Even height regardless of font size */
+}
+
+h5.birthdayMessage {
+    line-height: 2.3ex;
 }
 
 div.detailsNameTitle {
@@ -1026,17 +1031,20 @@ div.photoSample h5 {
 div.photoSample h5.caption.familyName {
     margin-bottom: 0px;
     border-bottom: 0px solid;
+    line-height: 2.3ex;
 }
 
 div.photoSample h5.caption.familyTitle {
     background-color: whitesmoke;
     margin-top: 0px;
     border-top: 0px solid;
+    line-height: 2.3ex;
 }
 
 div.photoSample h5.caption.shortMessage {
     margin-bottom: 0px;
     border-bottom: 0px solid;
+    line-height: 2.3ex;
 }
 
 div.photoSample h5.caption.birthdayMessage {
@@ -1048,6 +1056,7 @@ div.photoSample h5.caption.authorCredit {
     margin-top: 0px;
     border-top: 0px solid;
     word-break: break-all;
+    line-height: 2.3ex;
 }
 
 div.photoSample h5.caption.familyTitle > span.condensed {

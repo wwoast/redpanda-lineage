@@ -68,6 +68,9 @@ Layout.flatten = function(div, mode) {
   return div;
 }
 
+/* Tells JS to do operations on either a mobile or desktop size window */
+Layout.media = window.matchMedia("(max-width: 670px)");
+
 /* Take a div list, and apply a column-mode class to it. */
 Layout.multiColumn = function(div, columnCount=2, extraStyle=undefined) {
   if (columnCount == 2) {
@@ -135,12 +138,15 @@ Layout.recomputeHeight = function(e) {
 // Look for span elements that are children of links, in the family bars.
 // Any of these that are displayed in the page larger than 100px, need to get shrunk.
 Layout.shrinkNames = function() {
-  var media = window.matchMedia("(max-width: 670px)");
-  var shrinker = function(element, nth, condensed, ultraCondensed) {
+  var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
     var span = element.childNodes[nth];
-    if (element.offsetWidth > ultraCondensed) {
+    var width = element.offsetWidth;   // Default to outer width
+    if (width_select == "inner") {
+      width = span.offsetWidth;
+    }
+    if (width > ultraCondensed_width) {
       span.classList.add("ultraCondensed");
-    } else if (element.offsetWidth > condensed) {
+    } else if (width > condensed_width) {
       span.classList.add("condensed");
     }
     // Fix the spacing for strings that have mixed character sets.
@@ -164,21 +170,27 @@ Layout.shrinkNames = function() {
   }
 
   var action = shrinker;
-  if (media.matches == false) {
+  if (Layout.media.matches == false) {
     action = expander;
   }
 
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   var caption_nodes = document.getElementsByClassName("caption birthdayMessage");
   for (let link of link_nodes) {
-    action(link, 1, 120, 140);
+    action(link, 1, "outer", 120, 140);
   }
   for (let caption of caption_nodes) {
-    action(caption, 0, 120, 140);
+    action(caption, 0, "inner", 120, 140);
   }
 }
 
-/* WIP Layout manager. Looks at counts of each element, and gives an arrangement */
+/* Media-query height adjustments, plus making sure the height adjustment works
+   on the initial page load. */
+Layout.media.addListener(Layout.shrinkNames);
+Layout.media.addListener(Layout.recomputeHeight);
+document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);   
+
+/* Layout manager. Looks at counts of each element, and gives an arrangement */
 Layout.L.layout = function() {
   // Given the counts and sum, create a function name to call as an index
   var sum = (this.num.parents + this.num.litter + this.num.siblings + this.num.children).toString();
@@ -898,10 +910,3 @@ Layout.L.arrangement.div11_2_2_7_0 = function() { return this.threeListOneLong("
 // Layout.L.arrangement.div11_2_1_3_5 = function { return this.verticalFlow() };
 // Twelve items: Force multicolumns to be just two wide
 Layout.L.arrangement.div12_2_1_9_0 = function() { return this.threeListOneLong("onlyDesktop") };
-
-// media-query height adjustments, plus making sure the height adjustment works
-// on the initial page load.
-var mobile = window.matchMedia("(max-width: 670px)");
-mobile.addListener(Layout.recomputeHeight);
-mobile.addListener(Layout.shrinkNames);
-document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);

@@ -104,9 +104,8 @@ window.addEventListener('about_loaded', function() {
     // Default: usage instructions appear non-hidden.
     Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
-    var media = window.matchMedia("(max-width: 670px)");
-    Page.about.instructions(media);
-    media.addListener(Page.about.instructions);
+    Page.about.instructions(Layout.media);
+    Layout.media.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();  
     Page.current = Page.about.render;
