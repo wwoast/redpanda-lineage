@@ -17,19 +17,19 @@ location.2: 58, 2018/12/1
 photo.1: https://www.instagram.com/p/BkSjT3Bg9ZL/media/?size=m
 photo.1.author: sbskyy
 photo.1.link: https://www.instagram.com/sbskyy/
-photo.1.tags: profile, tail
+photo.1.tags: tail
 photo.2: https://www.instagram.com/p/BlU9IeHleEB/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
-photo.2.tags: smile, tongue
+photo.2.tags: portrait, profile, smile, tongue
 photo.3: https://www.instagram.com/p/BlK0p7fFbAW/media/?size=m
 photo.3.author: leonard_redmof
 photo.3.link: https://www.instagram.com/leonard_redmof/
-photo.3.tags: lunch time, keeper
+photo.3.tags: lunch time, keeper, portrait
 photo.4: https://www.instagram.com/p/BloasYCFE0F/media/?size=m
 photo.4.author: re_ichimaru
 photo.4.link: https://www.instagram.com/re_ichimaru/
-photo.4.tags: slobber
+photo.4.tags: portrait, slobber
 photo.5: https://www.instagram.com/p/BlvBXaYFy6D/media/?size=m
 photo.5.author: leonard_redmof
 photo.5.link: https://www.instagram.com/leonard_redmof/
@@ -40,15 +40,15 @@ photo.6.tags: standing
 photo.7: https://www.instagram.com/p/Bluugs4FvId/media/?size=m
 photo.7.author: re_ichimaru
 photo.7.link: https://www.instagram.com/re_ichimaru/
-photo.7.tags: apple time, keeper, smile, tongue
+photo.7.tags: apple time, keeper, portrait, smile, tongue
 photo.8: https://www.instagram.com/p/BcW8GPrFDX9/media/?size=m
 photo.8.author: hanamaru_redpanda
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: tongue
+photo.8.tags: portrait, tongue
 photo.9: https://www.instagram.com/p/BrrDtO-FGBq/media/?size=m
 photo.9.author: makimaru18
 photo.9.link: https://www.instagram.com/makimaru18/
-photo.9.tags: smile, tongue
+photo.9.tags: portrait, smile, tongue
 photo.10: https://www.instagram.com/p/BrubUa8l5Og/media/?size=m
 photo.10.author: colette.jp
 photo.10.link: https://www.instagram.com/colette.jp/
@@ -60,7 +60,7 @@ photo.11.tags: tail
 photo.12: https://www.instagram.com/p/Bs5RXZ9lDCt/media/?size=m
 photo.12.author: mofu_pan
 photo.12.link: https://www.instagram.com/mofu_pan/
-photo.12.tags: lips
+photo.12.tags: lips, portrait
 photo.13: https://www.instagram.com/p/Bs-x1vMlxXS/media/?size=m
 photo.13.author: mofu_pan
 photo.13.link: https://www.instagram.com/mofu_pan/
@@ -68,15 +68,15 @@ photo.13.tags: paws, standing
 photo.14: https://www.instagram.com/p/Btp5yaUlY6P/media/?size=m
 photo.14.author: joy93.87
 photo.14.link: https://www.instagram.com/joy93.87/
-photo.14.tags: smile
+photo.14.tags: portrait, smile
 photo.15: https://www.instagram.com/p/BtaxhPUgepq/media/?size=m
 photo.15.author: animal0720
 photo.15.link: https://www.instagram.com/animal0720/
-photo.15.tags: paws
+photo.15.tags: paws, portrait
 photo.16: https://www.instagram.com/p/Butiat1FykW/media/?size=m
 photo.16.author: mofu_pan
 photo.16.link: https://www.instagram.com/mofu_pan/
-photo.16.tags: paws, smile
+photo.16.tags: paws, portrait, smile
 photo.17: https://www.instagram.com/p/BvxRCivglu5/media/?size=m
 photo.17.author: s24.roxas_nable
 photo.17.link: https://www.instagram.com/s24.roxas_nable/
@@ -84,7 +84,7 @@ photo.17.tags: smile
 photo.18: https://www.instagram.com/p/Bw8JUZ2lHMl/media/?size=m
 photo.18.author: riri_panda616
 photo.18.link: https://www.instagram.com/riri_panda616/
-photo.18.tags: bamboo, paws, tree
+photo.18.tags: bamboo, paws, portrait, tree
 photo.19: https://www.instagram.com/p/BvNLn4AA4i8/media/?size=m
 photo.19.author: s24.star_load
 photo.19.link: https://www.instagram.com/s24.star_load/
@@ -92,7 +92,7 @@ photo.19.tags: tongue
 photo.20: https://www.instagram.com/p/BvVByr4gaHh/media/?size=m
 photo.20.author: s24.star_load
 photo.20.link: https://www.instagram.com/s24.star_load/
-photo.20.tags: smile, tongue
+photo.20.tags: portrait, smile, tongue
 photo.21: https://www.instagram.com/p/Bw6hBjhhnky/media/?size=m
 photo.21.author: s24.star_load
 photo.21.link: https://www.instagram.com/s24.star_load/
@@ -105,5 +105,9 @@ photo.23: https://www.instagram.com/p/BxyAjJmlfHD/media/?size=m
 photo.23.author: s24.star_load
 photo.23.link: https://www.instagram.com/s24.star_load/
 photo.23.tags: laying down, tail, tongue
+photo.24: https://www.instagram.com/p/ByxKoLphLWY/media/?size=m
+photo.24.author: sasapan34
+photo.24.link: https://www.instagram.com/sasapan34/
+photo.24.tags: smile
 species: 2
 zoo: 58

@@ -17,7 +17,7 @@ location.2: 58, 2016/2/15
 photo.1: https://www.instagram.com/p/BLz3h05jZ9o/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: techitechi
+photo.1.tags: portrait, techitechi
 photo.2: https://www.instagram.com/p/BLFLJJtgohQ/media/?size=m
 photo.2.author: tabechum
 photo.2.link: https://www.instagram.com/tabechum/
@@ -25,7 +25,7 @@ photo.2.tags: smile, tongue
 photo.3: https://www.instagram.com/p/BbPNfkmliAv/media/?size=m
 photo.3.author: kipekaila
 photo.3.link: https://www.instagram.com/kipekaila/
-photo.3.tags: bamboo, tongue
+photo.3.tags: bamboo, portrait, tongue
 photo.4: https://www.instagram.com/p/BGyfiQMQZ2h/media/?size=m
 photo.4.author: rio_minron
 photo.4.link: https://www.instagram.com/rio_minron/
@@ -41,7 +41,7 @@ photo.6.tags: laying down
 photo.7: https://www.instagram.com/p/BqcIsWJFNjm/media/?size=m
 photo.7.author: ifumoto88
 photo.7.link: https://www.instagram.com/ifumoto88/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/BqegT7ilLAf/media/?size=m
 photo.8.author: kotata_513
 photo.8.link: https://www.instagram.com/kotata_513/
@@ -52,22 +52,23 @@ photo.9.link: https://www.instagram.com/minatomirai215/
 photo.10: https://www.instagram.com/p/BlSm-ZaHtm9/media/?size=m
 photo.10.author: mochan8686
 photo.10.link: https://www.instagram.com/mochan8686/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Bkkp5icHu9D/media/?size=m
 photo.11.author: mochan8686
 photo.11.link: https://www.instagram.com/mochan8686/
-photo.11.tags: smile, tongue
+photo.11.tags: portrait, smile, tongue
 photo.12: https://www.instagram.com/p/Bh6OaK2ndU8/media/?size=m
 photo.12.author: mochan8686
 photo.12.link: https://www.instagram.com/mochan8686/
-photo.12.tags: sleeping
+photo.12.tags: portrait, sleeping
 photo.13: https://www.instagram.com/p/BrAhSKulkQi/media/?size=m
 photo.13.author: xmarurux
 photo.13.link: https://www.instagram.com/xmarurux/
-photo.13.tags: keeper, upside-down
+photo.13.tags: keeper, portrait, upside-down
 photo.14: https://www.instagram.com/p/BrCVHoxFDmR/media/?size=m
 photo.14.author: kotata_513
 photo.14.link: https://www.instagram.com/kotata_513/
-photo.14.tags: techitechi, tongue
+photo.14.tags: portrait, techitechi, tongue
 photo.15: https://www.instagram.com/p/BrEzmZZlMbJ/media/?size=m
 photo.15.author: kotata_513
 photo.15.link: https://www.instagram.com/kotata_513/
@@ -75,11 +76,11 @@ photo.15.tags: smile
 photo.16: https://www.instagram.com/p/BrGl-XhHx2b/media/?size=m
 photo.16.author: yakko____
 photo.16.link: https://www.instagram.com/yakko____/
-photo.16.tags: profile, smile
+photo.16.tags: portrait, profile, smile
 photo.17: https://www.instagram.com/p/Bv1aZYUl5a3/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
-photo.17.tags: smile, tongue
+photo.17.tags: portrait, smile, tongue
 photo.18: https://www.instagram.com/p/Bw8SCeWFA37/media/?size=m
 photo.18.author: riri_panda616
 photo.18.link: https://www.instagram.com/riri_panda616/
@@ -92,5 +93,9 @@ photo.20: https://www.instagram.com/p/ByXZs5fBEDw/media/?size=m
 photo.20.author: s24.star_load
 photo.20.link: https://www.instagram.com/s24.star_load/
 photo.20.tags: apple time
+photo.21: https://www.instagram.com/p/ByxLmjyhDgs/media/?size=m
+photo.21.author: sasapan34
+photo.21.link: https://www.instagram.com/sasapan34/
+photo.21.tags: bamboo, tongue
 species: 2
 zoo: 58
