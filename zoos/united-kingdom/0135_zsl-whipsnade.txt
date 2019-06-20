@@ -6,4 +6,11 @@ en.name: ZSL Whipsnade Zoo
 flag: UK
 language.order: en
 map: https://goo.gl/maps/QxpjzNmSEoN2
+photo.1: https://www.instagram.com/p/Bx7mZNKguXh/media/?size=m
+photo.1.author: zslwhipsnadezoo
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2: https://www.instagram.com/p/Br7mMnkAEVO/media/?size=m
+photo.2.author: zslwhipsnadezoo
+photo.2.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2.tags: profile
 website: https://www.zsl.org/zsl-whipsnade-zoo
