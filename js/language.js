@@ -769,19 +769,19 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.bridge],
        "en": ["bridge"],
-       "jp": ["架け橋"]
+       "jp": ["吊り橋・渡し木", "架け橋"]
   },
   "carry": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
-       "jp": ["運ぶ"]
+       "jp": ["笹運び", "枝運び", "運ぶ"]
   },
   "climb": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
-       "jp": ["登る"]
+       "jp": ["木登り", "登る"]
   },
   "destruction": {
        "cn": ["TOWRITE"],
@@ -853,7 +853,7 @@ Language.L.tags = {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
-       "jp": ["かゆい"]
+       "jp": ["カイカイ", "かゆい"]
   },
   "jizo": {
        "cn": ["TOWRITE"],
@@ -920,7 +920,7 @@ Language.L.tags = {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.grandpa],
         "en": ["old"],
-        "jp": ["年老いた"]
+        "jp": ["シニアパンダさん", "年老いた"]
   },
   "panda bowl": {
         "cn": ["TOWRITE"],
@@ -940,6 +940,12 @@ Language.L.tags = {
      "emoji": [Language.L.emoji.monocle],
         "en": ["peek", "peeking"],
         "jp": ["チラ見"]
+  },
+  "playing": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.no_emoji],
+        "en": ["playing", "play"],
+        "jp": ["拝み食い", "両手食い"]
   },
   "poop": {
         "cn": ["TOWRITE"],
@@ -970,13 +976,13 @@ Language.L.tags = {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.profile],
         "en": ["profile"],
-        "jp": ["横顔"]
+        "jp": ["プロフィール画像"]
   },
   "pull-up": {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
-        "jp": ["懸垂"]
+        "jp": ["鉄棒", "懸垂"]
   },
   "pumpkin": {
         "cn": ["TOWRITE"],
@@ -988,13 +994,13 @@ Language.L.tags = {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
-        "jp": ["ゆらゆら"]
+        "jp": ["ドリパン", "ブルブル", "ゆらゆら"]
   },
   "shedding": {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.worry],
-        "en": ["shedding", "losing fur", "losing hair"],
-        "jp": ["泣いている"]
+        "en": ["shedding", "changing fur", "losing fur", "losing hair"],
+        "jp": ["換毛", "泣いている"]
   },
   "sleeping": {
         "cn": ["TOWRITE"],
@@ -1066,7 +1072,7 @@ Language.L.tags = {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
-        "jp": ["おもちゃ"]
+        "jp": ["遊具", "おもちゃ", "おもちゃ"]
   },
   "tree": {
         "cn": ["TOWRITE"],
@@ -1096,7 +1102,7 @@ Language.L.tags = {
         "cn": ["TOWRITE"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["white face", "light face"],
-        "jp": ["しろめん", "白面", "白めん"]
+        "jp": ["色白さん", "しろめん", "白面", "白めん"]
   },
   "yawn": {
         "cn": ["TOWRITE"],
