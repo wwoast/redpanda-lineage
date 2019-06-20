@@ -16,6 +16,7 @@ litter: 507
 location.1: 114, 2011/6/5
 location.2: 115, 2012/8/15
 location.3: 47, 2016/1/13
+location.4: 152, 2019/3/28
 photo.1: https://www.instagram.com/p/BSSOWqIBrqV/media/?size=m
 photo.1.author: zookeeper_aj
 photo.1.link: https://www.instagram.com/zookeeper_aj/
@@ -77,4 +78,4 @@ photo.16.author: worldthathesees
 photo.16.link: https://www.instagram.com/worldthathesees/
 photo.16.tags: bamboo
 species: 1
-zoo: 47
+zoo: 152
