@@ -511,11 +511,13 @@ Pandas.searchPandaId = function(idnum) {
 }
 
 // Find instances of a panda's ID in the media (group) photos.
-// TODO
 Pandas.searchPandaMedia = function(idnum) {
-  var node = G.v(idnum).run();
-  // Get locations in a panda's details, or zoo if that's missing
-  // Search all media photos of those locations for photos by tag
+  var nodes = G.v().filter(function(vertex) {
+    return vertex["panda.tags"].split(",")
+                               .map(x => x.trim())
+                               .indexOf(idnum) != -1;
+  }).run();
+  return nodes;
 }
 
 // Find a panda's mother
@@ -931,9 +933,7 @@ Pandas.gender = function(animal, language) {
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
-  var pandaTags = entity[tag_index].replace(/ /g, "").split(",").filter(function(tag) {
-    return parseInt(tag) > 0;
-  });
+  var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
