@@ -19,10 +19,14 @@ photo.1.tags: tree, upside-down
 photo.2: https://www.instagram.com/p/Bh3uNL8n3Af/media/?size=m
 photo.2.author: nashi.cp
 photo.2.link: https://www.instagram.com/nashi.cp/
-photo.2.tags: tree
+photo.2.tags: portrait, tree
 photo.3: https://www.instagram.com/p/BQ7pu5oFQi3/media/?size=m
 photo.3.author: rdpnzoo
 photo.3.link: https://www.instagram.com/rdpnzoo/
 photo.3.tags: bridge, techitechi
+photo.4: https://www.instagram.com/p/BVlmV30AyII/media/?size=m
+photo.4.author: panda.daisuki
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: laying down, portrait, tree
 species: 2
 zoo: 10

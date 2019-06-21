@@ -22,15 +22,18 @@ photo.1.tags: lips, profile
 photo.2: https://www.instagram.com/p/BkFUYhkFuRD/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: portrait
 photo.3: https://www.instagram.com/p/BhOatdIhLSA/media/?size=m
 photo.3.author: tsumechmosu
 photo.3.link: https://www.instagram.com/tsumechmosu/
 photo.4: https://www.instagram.com/p/BlVXf5SFR12/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BkZXwEvluhd/media/?size=m
 photo.5.author: fetorus_mami
 photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BnyJA5qFyDI/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
@@ -45,6 +48,7 @@ photo.8.tags: lips
 photo.9: https://www.instagram.com/p/BrNOxQMl8L4/media/?size=m
 photo.9.author: monmon_redpanda
 photo.9.link: https://www.instagram.com/monmon_redpanda/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/Brfef47FILb/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
@@ -55,10 +59,11 @@ photo.11.link: https://www.instagram.com/fetorus_mami/
 photo.12: https://www.instagram.com/p/BsVkb6mFkVJ/media/?size=m
 photo.12.author: ifumoto88
 photo.12.link: https://www.instagram.com/ifumoto88/
+photo.12.tags: portrait
 photo.13: https://www.instagram.com/p/BskcaiIFhZ1/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
-photo.13.tags: sleeping
+photo.13.tags: portrait, sleeping
 photo.14: https://www.instagram.com/p/Bs0d7MDFdrQ/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
@@ -66,22 +71,26 @@ photo.14.tags: ear
 photo.15: https://www.instagram.com/p/BvSRsvXlw40/media/?size=m
 photo.15.author: kipekaila
 photo.15.link: https://www.instagram.com/kipekaila/
-photo.15.tags: grooming, white face
+photo.15.tags: grooming, portrait, white face
 photo.16: https://www.instagram.com/p/BvxcfsGFeL6/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
-photo.16.tags: paws, white face
+photo.16.tags: paws, portrait, white face
 photo.17: https://www.instagram.com/p/BvHFXqWFWNb/media/?size=m
 photo.17.author: craig_craig_craig
 photo.17.link: https://www.instagram.com/craig_craig_craig/
-photo.17.tags: paws
+photo.17.tags: paws, portrait
 photo.18: https://www.instagram.com/p/BxloWc6FJ5q/media/?size=m
 photo.18.author: craig_craig_craig
 photo.18.link: https://www.instagram.com/craig_craig_craig/
-photo.18.tags: paws, white face
+photo.18.tags: paws, portrait, white face
 photo.19: https://www.instagram.com/p/ByJdxz8hcDU/media/?size=m
 photo.19.author: sasapan34
 photo.19.link: https://www.instagram.com/sasapan34/
 photo.19.tags: white face
+photo.20: https://www.instagram.com/p/By8yr2CBBZj/media/?size=m
+photo.20.author: miis_98
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: paws, portrait
 species: 2
 zoo: 9
