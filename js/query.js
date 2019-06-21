@@ -391,7 +391,7 @@ Query.resolver = {
       var tag = Query.searchTag(keyword);
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
-      return Pandas.searchPhotoTags(Pandas.allAnimals(), [tag], mode="photos", fallback="none");
+      return Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), [tag], mode="photos", fallback="none");
     }
   },
   // Process a search term, either typed as panda/zoo, or untyped,

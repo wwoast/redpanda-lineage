@@ -342,6 +342,14 @@ Pandas.allAnimals = function() {
   return animals;
 }
 
+Pandas.allAnimalsAndMedia = function() {
+  var vertices = G.v().filter(function(vertex) {
+    return ((vertex["_id"] > 0) || 
+            (vertex["_id"].indexOf("media") != -1));
+  }).run();
+  return vertices;
+}
+
 // Find all panda babies born within a calendar year.
 Pandas.searchBabies = function(year) {
   // Default search is for the most recent year we recorded a birth in
