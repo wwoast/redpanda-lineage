@@ -1,8 +1,9 @@
 [media]
 _id: media.10.hibiki-hikaru
+panda.tags: 97, 98
 photo.1: https://www.instagram.com/p/Bycc0tyBZcE/media/?size=m
 photo.1.author: shigeko0531
 photo.1.link: https://www.instagram.com/shigeko0531/
-photo.1.tags: 97, 98, apple time, dish
+photo.1.tags: apple time, dish
 photo.1.tags.97.location: 155, 130
 photo.1.tags.98.location: 45, 80

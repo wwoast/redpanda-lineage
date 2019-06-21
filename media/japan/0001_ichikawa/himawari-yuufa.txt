@@ -1,6 +1,6 @@
 [media]
 _id: media.1.himawari-yuufa
-panda.ids: 6, 8
+panda.tags: 6, 8
 photo.1: https://www.instagram.com/p/Br6nEBZlF7F/media/?size=m
 photo.1.author: redpanda_nippon_takashi
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
