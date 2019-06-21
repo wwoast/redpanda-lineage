@@ -1,8 +1,9 @@
 [media]
 _id: media.37.charmin-shoushou
+panda.tags: 124, 233
 photo.1: https://www.instagram.com/p/BuD3RMvlm-U/media/?size=m
 photo.1.author: asahiyamazoo1
 photo.1.link: https://www.instagram.com/asahiyamazoo1/
-photo.1.tags: 124, 233, snow
+photo.1.tags: snow
 photo.1.tags.124.location: 100, 160
 photo.1.tags.233.location: 205, 75

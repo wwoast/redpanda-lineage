@@ -1,9 +1,10 @@
 [media]
 _id: media.26.hinata-kanta-sayuri-yuri.txt
+panda.tags: 213, 214, 250, 251
 photo.1: https://www.instagram.com/p/BxyVzxAlYb_/media/?size=l
 photo.1.author: minatomirai215
 photo.1.link: https://www.instagram.com/minatomirai215/
-photo.1.tags: 213, 214, 250, 251, apple time, keeper
+photo.1.tags: apple time, keeper
 photo.1.tags.213.location: 680, 740
 photo.1.tags.214.location: 210, 410
 photo.1.tags.250.location: 670, 325
@@ -11,7 +12,7 @@ photo.1.tags.251.location: 435, 385
 photo.2: https://www.instagram.com/p/BydpL6BBI5m/media/?size=l
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: 213, 214, 250, 251, apple time
+photo.2.tags: apple time
 photo.2.tags.213.location: 265, 730
 photo.2.tags.214.location: 900, 905
 photo.2.tags.250.location: 830, 130

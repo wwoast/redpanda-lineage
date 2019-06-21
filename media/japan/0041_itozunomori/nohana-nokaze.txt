@@ -1,8 +1,9 @@
 [media]
 _id: media.41.nohana-nokaze
+panda.tags: 133, 134
 photo.1: https://www.instagram.com/p/BcJ4WpHlinR/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: 133, 134, mother's day
+photo.1.tags: mother's day
 photo.1.tags.133.location: 185, 105
 photo.1.tags.134.location: 165, 170

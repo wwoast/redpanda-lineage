@@ -1,16 +1,17 @@
 [media]
 _id: media.1.himawari-milk-yuufa
+panda.tags: 6, 8, 247
 photo.1: https://www.instagram.com/p/ByRGRlDBaWb/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: 6, 8, 247
+photo.1.tags: apple time, lunch time
 photo.1.tags.6.location: 85, 70
 photo.1.tags.8.location: 215, 50
 photo.1.tags.247.location: 150, 230
 photo.2: https://www.instagram.com/p/BwOmVIog1CK/media/?size=m
 photo.2.author: jwg13777
 photo.2.link: https://www.instagram.com/jwg13777/
-photo.2.tags: 6, 8, 247, paws, standing
+photo.2.tags: paws, standing
 photo.2.tags.6.location: 170, 155
 photo.2.tags.8.location: 270, 160
 photo.2.tags.247.location: 105, 140
