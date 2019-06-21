@@ -413,7 +413,7 @@ Gallery.tagPhotoCredits = function(result, language) {
   // TODO: handling of names of group pandas
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
-    caption.innerText = Pandas.groupMediaCaption(animal, result["photo.index"]);
+    caption.innerText = Pandas.groupMediaCaption(animal, "photo." + result["photo.index"]);
   } else {
     caption.innerText = info.name;
   }
