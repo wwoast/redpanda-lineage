@@ -17,7 +17,7 @@ location.2: 73, 2003/6/11
 photo.1: https://www.instagram.com/p/Bm5YIFSlzs9/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: smile, tail
+photo.1.tags: door, smile, tail
 photo.2: https://www.instagram.com/p/Bnp9z1LFJvk/media/?size=m
 photo.2.author: na.mo.pan
 photo.2.link: https://www.instagram.com/na.mo.pan/
@@ -25,22 +25,23 @@ photo.2.tags: smile, tree
 photo.3: https://www.instagram.com/p/BoBsOifl5Uf/media/?size=m
 photo.3.author: ifumoto88
 photo.3.link: https://www.instagram.com/ifumoto88/
-photo.3.tags: tail
+photo.3.tags: portrait, tail
 photo.4: https://www.instagram.com/p/BqCiqFxFDjU/media/?size=m
 photo.4.author: ifumoto88
 photo.4.link: https://www.instagram.com/ifumoto88/
+photo.4.tags: door, paws
 photo.5: https://www.instagram.com/p/BrIP2BNFZzm/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: tree
+photo.5.tags: portrait, tree
 photo.6: https://www.instagram.com/p/BsSXXF7h1kG/media/?size=m
 photo.6.author: na.mo.pan
 photo.6.link: https://www.instagram.com/na.mo.pan/
-photo.6.tags: smile
+photo.6.tags: door, portrait, smile
 photo.7: https://www.instagram.com/p/Bskd8XZFvbC/media/?size=m
 photo.7.author: panda.daisuki
 photo.7.link: https://www.instagram.com/panda.daisuki/
-photo.7.tags: profile
+photo.7.tags: portrait, profile
 photo.8: https://www.instagram.com/p/Bs8ZbBJllUS/media/?size=m
 photo.8.author: nakacchi_desu
 photo.8.link: https://www.instagram.com/nakacchi_desu/
@@ -48,11 +49,11 @@ photo.8.tags: tree
 photo.9: https://www.instagram.com/p/Bu0_lOOFWUN/media/?size=m
 photo.9.author: ifumoto88
 photo.9.link: https://www.instagram.com/ifumoto88/
-photo.9.tags: peek, tree
+photo.9.tags: peek, portrait, tree
 photo.10: https://www.instagram.com/p/Bu0_yNplt6b/media/?size=m
 photo.10.author: ifumoto88
 photo.10.link: https://www.instagram.com/ifumoto88/
-photo.10.tags: paws, smile
+photo.10.tags: paws, portrait, smile
 photo.11: https://www.instagram.com/p/Bv2sh__l7Zb/media/?size=m
 photo.11.author: ifumoto88
 photo.11.link: https://www.instagram.com/ifumoto88/
@@ -64,7 +65,7 @@ photo.12.tags: climb, paws, standing, tree
 photo.13: https://www.instagram.com/p/Bv6WuaFlmB7/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: paws, standing
+photo.13.tags: paws, portrait, standing
 photo.14: https://www.instagram.com/p/Bv6WZCElmUc/media/?size=m
 photo.14.author: ifumoto88
 photo.14.link: https://www.instagram.com/ifumoto88/
@@ -76,6 +77,26 @@ photo.15.tags: paws, keeper, standing
 photo.16: https://www.instagram.com/p/BwD4onFlq8q/media/?size=m
 photo.16.author: na.mo.pan
 photo.16.link: https://www.instagram.com/na.mo.pan/
-photo.16.tags: smile
+photo.16.tags: flowers, smile
+photo.17: https://www.instagram.com/p/By84gvyh02o/media/?size=m
+photo.17.author: grsksu_tk
+photo.17.link: https://www.instagram.com/grskus_tk/
+photo.17.tags: tree
+photo.18: https://www.instagram.com/p/Bw1yTO3lNuU/media/?size=m
+photo.18.author: ifumoto88
+photo.18.link: https://www.instagram.com/ifumoto88/
+photo.18.tags: door, paws, portrait
+photo.19: https://www.instagram.com/p/BtGUZrpFcXO/media/?size=m
+photo.19.author: firefoxpanda88
+photo.19.link: https://www.instagram.com/firefoxpanda88/
+photo.19.tags: portrait, tree
+photo.20: https://www.instagram.com/p/BooMps_Fgtj/media/?size=m
+photo.20.author: ifumoto88
+photo.20.link: https://www.instagram.com/ifumoto88/
+photo.20.tags: tree
+photo.21: https://www.instagram.com/p/BmFa44RlB6W/media/?size=m
+photo.21.author: ifumoto88
+photo.21.link: https://www.instagram.com/ifumoto88/
+photo.21.tags: blink, laying down, portrait, smile
 species: 2
 zoo: 73
