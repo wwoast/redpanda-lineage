@@ -510,17 +510,29 @@ Pandas.searchPandaId = function(idnum) {
   return node;
 }
 
-// Find instances of a panda's ID in the media (group) photos.
-Pandas.searchPandaMedia = function(idnum) {
-  var nodes = G.v().filter(function(vertex) {
-    if (Object.keys(vertex).indexOf("panda.tags") != -1) {
-      return vertex["panda.tags"].split(",")
-                 .map(x => x.trim())
-                 .indexOf(idnum) != -1;
-    }
-  }).run();
-  return nodes;
+// Find instances of a panda's ID in both the animal vertices
+// and in the media (group) photos.
+Pandas.searchPandaMedia = function(query) {
+  var animals = Pandas.searchPanda(query);
+  // Get an array of graph result arrays, and flatten them
+  var media = [].concat.apply([], 
+    animals.map(x => x._id).map(function(id) {
+      // Search for graph nodes that have "panda.tags" values
+      // that match the ids of any animal in the original 
+      // searchPanda list.
+      var nodes = G.v().filter(function(vertex) {
+        if (Object.keys(vertex).indexOf("panda.tags") != -1) {
+          return vertex["panda.tags"].split(",")
+                     .map(x => x.trim())
+                     .indexOf(id) != -1;
+        }
+      }).run();
+      return nodes;
+    })
+  );
+  return animals.concat(media);
 }
+
 
 // Find a panda's mother
 Pandas.searchPandaMom = function(idnum) {

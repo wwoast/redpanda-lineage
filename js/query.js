@@ -315,11 +315,9 @@ Query.actions = {
     // based on the results found here.
     var tag = captures.tagTerm.tag;
     var last_stage = captures.subjectTerm;
-    var animals = Pandas.searchPanda(last_stage.query);
-    // Search media photos for all the animals by id, and include
-    // in the searchPhotoTags animals set
-    var media = [].concat.apply([], animals.map(x => Pandas.searchPandaMedia(x._id)))
-    animals = animals.concat(media);
+    // Search media photos for all the animals by id.
+    // Include in the searchPhotoTags animals set
+    var animals = Pandas.searchPandaMedia(last_stage.query);
     return {
       "hits": Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none"),
       "query": tag + " " + last_stage.query,
