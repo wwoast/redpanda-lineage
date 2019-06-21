@@ -25,7 +25,7 @@ photo.2.tags: smile, tongue
 photo.3: https://www.instagram.com/p/Blz0sDWgJXd/media/?size=m
 photo.3.author: jwg13777
 photo.3.link: https://www.instagram.com/jwg13777/
-photo.3.tags: laying down, paws
+photo.3.tags: laying down, paws, portrait
 photo.4: https://www.instagram.com/p/BUadSWkgX6O/media/?size=m
 photo.4.author: mifko55
 photo.4.link: https://www.instagram.com/mifko55/
@@ -33,11 +33,11 @@ photo.4.tags: tree
 photo.5: https://www.instagram.com/p/BW1_GS3FTpx/media/?size=m
 photo.5.author: i.satosato
 photo.5.link: https://www.instagram.com/i.satosato/
-photo.5.tags: paws, tongue
+photo.5.tags: paws, portrait, tongue
 photo.6: https://www.instagram.com/p/Bogkdf_lCYX/media/?size=m
 photo.6.author: framereim
 photo.6.link: https://www.instagram.com/framereim/
-photo.6.tags: laying down, tree, tongue
+photo.6.tags: laying down, portrait, tree, tongue
 photo.7: https://www.instagram.com/p/BrCUx61F4Vk/media/?size=m
 photo.7.author: kotata_513
 photo.7.link: https://www.instagram.com/kotata_513/
@@ -45,7 +45,7 @@ photo.7.tags: bamboo, tongue
 photo.8: https://www.instagram.com/p/BrGqB8WHenF/media/?size=m
 photo.8.author: yakko____
 photo.8.link: https://www.instagram.com/yakko____/
-photo.8.tags: tongue
+photo.8.tags: portrait, tongue
 photo.9: https://www.instagram.com/p/BssdrBbFaSB/media/?size=m
 photo.9.author: arinco_g6
 photo.9.link: https://www.instagram.com/arinco_g6/
@@ -53,11 +53,11 @@ photo.9.tags: bamboo, smile
 photo.10: https://www.instagram.com/p/BtQZLIsFyLE/media/?size=m
 photo.10.author: mofu_pan
 photo.10.link: https://www.instagram.com/mofu_pan/
-photo.10.tags: ear
+photo.10.tags: ear, portrait
 photo.11: https://www.instagram.com/p/BsCF6k7A-1s/media/?size=m
 photo.11.author: animal0720
 photo.11.link: https://www.instagram.com/animal0720/
-photo.11.tags: bridge, laying down, paws, tongue
+photo.11.tags: bridge, laying down, paws, portrait, tongue
 photo.12: https://www.instagram.com/p/Bv1ZNRolNcX/media/?size=m
 photo.12.author: lespan33
 photo.12.link: https://www.instagram.com/lespan33/
@@ -65,7 +65,7 @@ photo.12.tags: smile
 photo.13: https://www.instagram.com/p/Bw8Sqcnlreo/media/?size=m
 photo.13.author: riri_panda616
 photo.13.link: https://www.instagram.com/riri_panda616/
-photo.13.tags: smile
+photo.13.tags: portrait, smile
 photo.14: https://www.instagram.com/p/Bv3qqFIAzY2/media/?size=m
 photo.14.author: s24.star_load
 photo.14.link: https://www.instagram.com/s24.star_load/
@@ -86,5 +86,13 @@ photo.18: https://www.instagram.com/p/ByxKaC_hUO-/media/?size=m
 photo.18.author: sasapan34
 photo.18.link: https://www.instagram.com/sasapan34/
 photo.18.tags: smile
+photo.19: https://www.instagram.com/p/By5ODb5BiIA/media/?size=m
+photo.19.author: akiakiakiko18
+photo.19.link: https://www.instagram.com/akiakiakiko18/
+photo.19.tags: portrait, smile, tongue
+photo.20: https://www.instagram.com/p/BySP1NSgD7O/media/?size=m
+photo.20.author: akiwhite26
+photo.20.link: https://www.instagram.com/akiwhite26/
+photo.20.tags: bamboo, portrait, smile
 species: 2
 zoo: 58
