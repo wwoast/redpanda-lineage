@@ -510,6 +510,14 @@ Pandas.searchPandaId = function(idnum) {
   return node;
 }
 
+// Find instances of a panda's ID in the media (group) photos.
+// TODO
+Pandas.searchPandaMedia = function(idnum) {
+  var node = G.v(idnum).run();
+  // Get locations in a panda's details, or zoo if that's missing
+  // Search all media photos of those locations for photos by tag
+}
+
 // Find a panda's mother
 Pandas.searchPandaMom = function(idnum) {
   var nodes = G.v(idnum).in("family").filter(function(vertex) {

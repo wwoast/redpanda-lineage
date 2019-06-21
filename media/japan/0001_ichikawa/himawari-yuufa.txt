@@ -1,8 +1,9 @@
 [media]
 _id: media.1.himawari-yuufa
+panda.ids: 6, 8
 photo.1: https://www.instagram.com/p/Br6nEBZlF7F/media/?size=m
 photo.1.author: redpanda_nippon_takashi
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.1.tags: 6, 8, mother's day
+photo.1.tags: mother's day
 photo.1.tags.6.location: 240, 90
 photo.1.tags.8.location: 70, 215
