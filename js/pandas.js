@@ -933,9 +933,7 @@ Pandas.gender = function(animal, language) {
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
-  var pandaTags = entity[tag_index].replace(/ /g, "").split(",").filter(function(tag) {
-    return parseInt(tag) > 0;
-  });
+  var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
