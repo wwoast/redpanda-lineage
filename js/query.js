@@ -315,9 +315,9 @@ Query.actions = {
     // based on the results found here.
     var tag = captures.tagTerm.tag;
     var last_stage = captures.subjectTerm;
-    var animals = Pandas.searchPanda(last_stage.query);
-    // TODO: search media photos for all the animals by id, and include
-    // in the searchPhotoTags animals set
+    // Search media photos for all the animals by id.
+    // Include in the searchPhotoTags animals set
+    var animals = Pandas.searchPandaMedia(last_stage.query);
     return {
       "hits": Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none"),
       "query": tag + " " + last_stage.query,
@@ -391,7 +391,7 @@ Query.resolver = {
       var tag = Query.searchTag(keyword);
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
-      return Pandas.searchPhotoTags(Pandas.allAnimals(), [tag], mode="photos", fallback="none");
+      return Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), [tag], mode="photos", fallback="none");
     }
   },
   // Process a search term, either typed as panda/zoo, or untyped,

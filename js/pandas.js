@@ -342,6 +342,14 @@ Pandas.allAnimals = function() {
   return animals;
 }
 
+Pandas.allAnimalsAndMedia = function() {
+  var vertices = G.v().filter(function(vertex) {
+    return ((vertex["_id"] > 0) || 
+            (vertex["_id"].indexOf("media") != -1));
+  }).run();
+  return vertices;
+}
+
 // Find all panda babies born within a calendar year.
 Pandas.searchBabies = function(year) {
   // Default search is for the most recent year we recorded a birth in
@@ -510,15 +518,29 @@ Pandas.searchPandaId = function(idnum) {
   return node;
 }
 
-// Find instances of a panda's ID in the media (group) photos.
-Pandas.searchPandaMedia = function(idnum) {
-  var nodes = G.v().filter(function(vertex) {
-    return vertex["panda.tags"].split(",")
-                               .map(x => x.trim())
-                               .indexOf(idnum) != -1;
-  }).run();
-  return nodes;
+// Find instances of a panda's ID in both the animal vertices
+// and in the media (group) photos.
+Pandas.searchPandaMedia = function(query) {
+  var animals = Pandas.searchPanda(query);
+  // Get an array of graph result arrays, and flatten them
+  var media = [].concat.apply([], 
+    animals.map(x => x._id).map(function(id) {
+      // Search for graph nodes that have "panda.tags" values
+      // that match the ids of any animal in the original 
+      // searchPanda list.
+      var nodes = G.v().filter(function(vertex) {
+        if (Object.keys(vertex).indexOf("panda.tags") != -1) {
+          return vertex["panda.tags"].split(",")
+                     .map(x => x.trim())
+                     .indexOf(id) != -1;
+        }
+      }).run();
+      return nodes;
+    })
+  );
+  return animals.concat(media);
 }
+
 
 // Find a panda's mother
 Pandas.searchPandaMom = function(idnum) {
@@ -932,22 +954,20 @@ Pandas.gender = function(animal, language) {
 // pixel location in a photo, generate a string describing which
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
-  var tag_index = photo_index + ".tags";
+  var tag_index = "photo." + photo_index + ".tags";
   var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
-    if (parseInt(id) > 0) {
-      // Must be a numeric non-negative panda ID
-      var panda = Pandas.searchPandaId(id)[0];
-      var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
-      var info = {
-        "name": panda[L.display + ".name"],
-        "x": parseInt(x),
-        "y": parseInt(y)
-      }
-      animals.push(info);
+    // Must be a numeric non-negative panda ID
+    var panda = Pandas.searchPandaId(id)[0];
+    var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
+    var info = {
+      "name": panda[L.display + ".name"],
+      "x": parseInt(x),
+      "y": parseInt(y)
     }
+    animals.push(info);
   }
   // Sort animals list by x values. Chrome requires the return value to be 
   // one, zero, or minus one, to determine sorting.

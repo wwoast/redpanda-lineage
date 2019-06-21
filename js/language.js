@@ -126,6 +126,7 @@ Language.L.emoji = {
        "nose": "👃",
       "panda": "🐼",
        "paws": "🐾",
+    "playing": "🃏",
        "poop": "💩",
    "portrait": "🖼️",
        "pray": "🙏",
@@ -943,7 +944,7 @@ Language.L.tags = {
   },
   "playing": {
         "cn": ["TOWRITE"],
-     "emoji": [Language.L.emoji.no_emoji],
+     "emoji": [Language.L.emoji.playing],
         "en": ["playing", "play"],
         "jp": ["拝み食い", "両手食い"]
   },
