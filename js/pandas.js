@@ -513,9 +513,11 @@ Pandas.searchPandaId = function(idnum) {
 // Find instances of a panda's ID in the media (group) photos.
 Pandas.searchPandaMedia = function(idnum) {
   var nodes = G.v().filter(function(vertex) {
-    return vertex["panda.tags"].split(",")
-                               .map(x => x.trim())
-                               .indexOf(idnum) != -1;
+    if (Object.keys(vertex).indexOf("panda.tags") != -1) {
+      return vertex["panda.tags"].split(",")
+                 .map(x => x.trim())
+                 .indexOf(idnum) != -1;
+    }
   }).run();
   return nodes;
 }
