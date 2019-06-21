@@ -934,22 +934,20 @@ Pandas.gender = function(animal, language) {
 // pixel location in a photo, generate a string describing which
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
-  var tag_index = photo_index + ".tags";
+  var tag_index = "photo." + photo_index + ".tags";
   var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
-    if (parseInt(id) > 0) {
-      // Must be a numeric non-negative panda ID
-      var panda = Pandas.searchPandaId(id)[0];
-      var [x, y] = entity[tag_index + "." + id + ".location"].replace(" ","").split(",");
-      var info = {
-        "name": panda[L.display + ".name"],
-        "x": parseInt(x),
-        "y": parseInt(y)
-      }
-      animals.push(info);
+    // Must be a numeric non-negative panda ID
+    var panda = Pandas.searchPandaId(id)[0];
+    var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
+    var info = {
+      "name": panda[L.display + ".name"],
+      "x": parseInt(x),
+      "y": parseInt(y)
     }
+    animals.push(info);
   }
   // Sort animals list by x values. Chrome requires the return value to be 
   // one, zero, or minus one, to determine sorting.
