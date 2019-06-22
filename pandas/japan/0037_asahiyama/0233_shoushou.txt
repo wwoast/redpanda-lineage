@@ -15,7 +15,7 @@ litter: 234
 photo.1: https://www.instagram.com/p/Bll9kT7lEUE/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: blink, bridge, profile
+photo.1.tags: blink, bridge, portrait, profile
 photo.2: https://www.instagram.com/p/BlpnnT4lLoA/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
@@ -23,6 +23,7 @@ photo.2.tags: laying down, tail, tree
 photo.3: https://www.instagram.com/p/BoOO0YQhN9t/media/?size=m
 photo.3.author: miis_98
 photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BpjFR1ll-d8/media/?size=m
 photo.4.author: wumpwoast
 photo.4.link: https://www.instagram.com/wumpwoast/
@@ -34,7 +35,7 @@ photo.5.tags: bamboo
 photo.6: https://www.instagram.com/p/BbyxsBvlak7/media/?size=m
 photo.6.author: hanamaru_redpanda
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: baby
+photo.6.tags: baby, portrait
 photo.7: https://www.instagram.com/p/BsfGxDwljxY/media/?size=m
 photo.7.author: yoshiyokohama
 photo.7.link: https://www.instagram.com/yoshiyokohama/
@@ -50,7 +51,11 @@ photo.9.tags: bamboo, paws, snow
 photo.10: https://www.instagram.com/p/Byb4K_EBMpf/media/?size=m
 photo.10.author: asahiyamazoo1
 photo.10.link: https://www.instagram.com/asahiyamazoo1/
-photo.10.tags: bridge, ear, laying down
+photo.10.tags: bridge, ear, laying down, portrait
+photo.11: https://www.instagram.com/p/By7BbnvhrJn/media/?size=m
+photo.11.author: tama67photo
+photo.11.link: https://www.instagram.com/tama67photo/
+photo.11.tags: bamboo, ear, portrait, smile
 species: 2
 video.1: https://youtu.be/T0UIB96RKQI
 video.1.author: harry

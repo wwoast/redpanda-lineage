@@ -17,7 +17,7 @@ location.2: 50, 2015/12/1
 photo.1: https://www.instagram.com/p/Bi8uZhmFdOx/media/?size=m
 photo.1.author: makimaru18
 photo.1.link: https://www.instagram.com/makimaru18/
-photo.1.tags: profile, smile
+photo.1.tags: portrait, profile, smile
 photo.2: https://www.instagram.com/p/BkpxTWcF5Nx/media/?size=m
 photo.2.author: nakacchi_desu
 photo.2.link: https://www.instagram.com/nakacchi_desu/
@@ -25,23 +25,23 @@ photo.2.tags: blink
 photo.3: https://www.instagram.com/p/BkE761JFi1F/media/?size=m
 photo.3.author: framereim
 photo.3.link: https://www.instagram.com/framereim/
-photo.3.tags: apple time
+photo.3.tags: apple time, portrait
 photo.4: https://www.instagram.com/p/Bj4NAgalSuL/media/?size=m
 photo.4.author: framereim
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: standing, tongue
+photo.4.tags: portrait, standing, tongue
 photo.5: https://www.instagram.com/p/BlDjMRqlfI4/media/?size=m
 photo.5.author: makimaru18
 photo.5.link: https://www.instagram.com/makimaru18/
-photo.5.tags: blink, laying down, smile, tongue
+photo.5.tags: blink, home, laying down, portrait, smile, tongue
 photo.6: https://www.instagram.com/p/Bn8dJlQhFYZ/media/?size=m
 photo.6.author: resapanlove
 photo.6.link: https://www.instagram.com/resapanlove/
-photo.6.tags: smile, tail
+photo.6.tags: portrait, smile, tail
 photo.7: https://www.instagram.com/p/Bo5Mv1Sl0J8/media/?size=m
 photo.7.author: makimaru18
 photo.7.link: https://www.instagram.com/makimaru18/
-photo.7.tags: smile, standing, tongue
+photo.7.tags: portrait, smile, standing, tongue
 photo.8: https://www.instagram.com/p/Bpb15xHF0kl/media/?size=m
 photo.8.author: kinkinkin0826
 photo.8.link: https://www.instagram.com/kinkinkin0826/
@@ -53,14 +53,15 @@ photo.9.tags: sleeping
 photo.10: https://www.instagram.com/p/BlwILYinZgy/media/?size=m
 photo.10.author: mochan8686
 photo.10.link: https://www.instagram.com/mochan8686/
-photo.10.tags: smile
+photo.10.tags: portrait, smile
 photo.11: https://www.instagram.com/p/Brq7JYHF9ae/media/?size=m
 photo.11.author: redpanda_nippon_takashi
 photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/Br-N-wllNIQ/media/?size=m
 photo.12.author: tomo3700
 photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: apple time
+photo.12.tags: apple time, portrait
 photo.13: https://www.instagram.com/p/BslB9LwFIG2/media/?size=m
 photo.13.author: nakacchi_desu
 photo.13.link: https://www.instagram.com/nakacchi_desu/
@@ -68,11 +69,11 @@ photo.13.tags: paws
 photo.14: https://www.instagram.com/p/Bss8CMqlbCx/media/?size=m
 photo.14.author: sakikukeco
 photo.14.link: https://www.instagram.com/sakikukeco/
-photo.14.tags: paws
+photo.14.tags: paws, portrait
 photo.15: https://www.instagram.com/p/BuMGyD3lP1K/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
-photo.15.tags: bamboo, standing
+photo.15.tags: bamboo, portrait, standing
 photo.16: https://www.instagram.com/p/BvtSXttl2b8/media/?size=m
 photo.16.author: framereim
 photo.16.link: https://www.instagram.com/framereim/
@@ -80,7 +81,7 @@ photo.16.tags: bamboo, smile
 photo.17: https://www.instagram.com/p/Bvoo7bVFuFO/media/?size=m
 photo.17.author: framereim
 photo.17.link: https://www.instagram.com/framereim/
-photo.17.tags: paws
+photo.17.tags: paws, portrait
 photo.18: https://www.instagram.com/p/Bv0Ie-ulIR0/media/?size=m
 photo.18.author: minatomirai215
 photo.18.link: https://www.instagram.com/minatomirai215/
@@ -88,18 +89,22 @@ photo.18.tags: mofumofu
 photo.19: https://www.instagram.com/p/BwHJRSZl9-P/media/?size=m
 photo.19.author: framereim
 photo.19.link: https://www.instagram.com/framereim/
-photo.19.tags: cherry blossoms
+photo.19.tags: cherry blossoms, portrait
 photo.20: https://www.instagram.com/p/Bv7agkdlNeg/media/?size=m
 photo.20.author: keithkeith123
 photo.20.link: https://www.instagram.com/keithkeith123/
-photo.20.tags: sleeping
+photo.20.tags: portrait, sleeping
 photo.21: https://www.instagram.com/p/BxTnzeZFCd4/media/?size=m
 photo.21.author: makimaru18
 photo.21.link: https://www.instagram.com/makimaru18/
-photo.21.tags: smile
+photo.21.tags: portrait, smile
 photo.22: https://www.instagram.com/p/ByeBR_SB-yS/media/?size=m
 photo.22.author: makimaru18
 photo.22.link: https://www.instagram.com/makimaru18/
 photo.22.tags: shedding, standing
+photo.23: https://www.instagram.com/p/By7mrC2BBEf/media/?size=m
+photo.23.author: kinkinkin0826
+photo.23.link: https://www.instagram.com/kinkinkin0826/
+photo.23.tags: paws, smile
 species: 2
 zoo: 50
