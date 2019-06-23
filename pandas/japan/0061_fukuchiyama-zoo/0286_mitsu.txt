@@ -15,7 +15,7 @@ litter: 184
 photo.1: https://www.instagram.com/p/BfhTvI1gMlb/media/?size=m
 photo.1.author: bubbles_octi
 photo.1.link: https://www.instagram.com/bubbles_octi/
-photo.1.tags: grumpy, profile
+photo.1.tags: grumpy, portrait, profile
 photo.2: https://www.instagram.com/p/BllkopCFgGi/media/?size=m
 photo.2.author: kisshan324
 photo.2.link: https://www.instagram.com/kisshan324/
@@ -26,7 +26,7 @@ photo.3.link: https://www.instagram.com/kisshan324/
 photo.4: https://www.instagram.com/p/BoY8N9qFKm1/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.link: https://www.instagram.com/love__mitarashi/
-photo.4.tags: grumpy
+photo.4.tags: grumpy, portrait
 photo.5: https://www.instagram.com/p/BodfQNilPST/media/?size=m
 photo.5.author: love__mitarashi
 photo.5.link: https://www.instagram.com/love__mitarashi/
@@ -34,7 +34,7 @@ photo.5.tags: tree
 photo.6: https://www.instagram.com/p/BonOJX5FL_5/media/?size=m
 photo.6.author: kisshan324
 photo.6.link: https://www.instagram.com/kisshan324/
-photo.6.tags: grumpy, home, laying down
+photo.6.tags: grumpy, home, portrait, laying down
 photo.7: https://www.instagram.com/p/BopW9CBFK9C/media/?size=m
 photo.7.author: kisshan324
 photo.7.link: https://www.instagram.com/kisshan324/
@@ -50,7 +50,7 @@ photo.9.tags: tail
 photo.10: https://www.instagram.com/p/BqkBRZilojd/media/?size=m
 photo.10.author: colette.jp
 photo.10.link: https://www.instagram.com/colette.jp/
-photo.10.tags: smile
+photo.10.tags: door, smile
 photo.11: https://www.instagram.com/p/BqmTWhSlKmt/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
@@ -58,19 +58,19 @@ photo.11.tags: paws
 photo.12: https://www.instagram.com/p/BqpMGnOlRSH/media/?size=m
 photo.12.author: makimaru18
 photo.12.link: https://www.instagram.com/makimaru18/
-photo.12.tags: smile
+photo.12.tags: portrait, smile
 photo.13: https://www.instagram.com/p/BrBd9-WlkBq/media/?size=m
 photo.13.author: kisshan324
 photo.13.link: https://www.instagram.com/kisshan324/
-photo.13.tags: shedding, tail, yawn
+photo.13.tags: portrait, shedding, tail, yawn
 photo.14: https://www.instagram.com/p/Bg7HOH_By-t/media/?size=m
 photo.14.author: love__mitarashi
 photo.14.link: https://www.instagram.com/love__mitarashi/
-photo.14.tags: bamboo
+photo.14.tags: bamboo, portrait
 photo.15: https://www.instagram.com/p/BMeBKMQgfWH/media/?size=m
 photo.15.author: chiyo_redpanda
 photo.15.link: https://www.instagram.com/chiyo_redpanda/
-photo.15.tags: baby, bamboo
+photo.15.tags: baby, bamboo, portrait
 photo.16: https://www.instagram.com/p/BNu4GrIhbQv/media/?size=m
 photo.16.author: love__mitarashi
 photo.16.link: https://www.instagram.com/love__mitarashi/
@@ -78,11 +78,11 @@ photo.16.tags: baby
 photo.17: https://www.instagram.com/p/BjtpzdOlJtl/media/?size=m
 photo.17.author: love__mitarashi
 photo.17.link: https://www.instagram.com/love__mitarashi/
-photo.17.tags: smile
+photo.17.tags: door, portrait, smile
 photo.18: https://www.instagram.com/p/Brsa3DDlior/media/?size=m
 photo.18.author: love__mitarashi
 photo.18.link: https://www.instagram.com/love__mitarashi/
-photo.18.tags: itchy
+photo.18.tags: itchy, portrait
 photo.19: https://www.instagram.com/p/BvEYyhhlMmy/media/?size=m
 photo.19.author: redpanda_nippon_takashi
 photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/

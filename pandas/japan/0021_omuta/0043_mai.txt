@@ -17,19 +17,19 @@ location.2: 21, 2016/11/17
 photo.1: https://www.instagram.com/p/BVqEjILgxCc/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/BjmREN0lpf6/media/?size=m
 photo.2.author: yossi929
 photo.2.link: https://www.instagram.com/yossi929/
-photo.2.tags: tree
+photo.2.tags: portrait, tree
 photo.3: https://www.instagram.com/p/BinXQZHl7b3/media/?size=m
 photo.3.author: yossi929
 photo.3.link: https://www.instagram.com/yossi929/
-photo.3.tags: bamboo
+photo.3.tags: bamboo, portrait
 photo.4: https://www.instagram.com/p/BixwcaJlQ4Y/media/?size=m
 photo.4.author: yossi929
 photo.4.link: https://www.instagram.com/yossi929/
-photo.4.tags: smile
+photo.4.tags: portrait, smile
 photo.5: https://www.instagram.com/p/BhY-wNHljzf/media/?size=m
 photo.5.author: panda.daisuki
 photo.5.link: https://www.instagram.com/panda.daisuki/
@@ -37,7 +37,7 @@ photo.5.tags: air tasting, tongue
 photo.6: https://www.instagram.com/p/BnuVvmkFSDo/media/?size=m
 photo.6.author: yossi929
 photo.6.link: https://www.instagram.com/yossi929/
-photo.6.tags: paws
+photo.6.tags: paws, portrait
 photo.7: https://www.instagram.com/p/BpbqQddldij/media/?size=m
 photo.7.author: xmarurux
 photo.7.link: https://www.instagram.com/xmarurux/
@@ -53,15 +53,15 @@ photo.9.tags: bamboo
 photo.10: https://www.instagram.com/p/BssD5ZAla0S/media/?size=m
 photo.10.author: xmarurux
 photo.10.link: https://www.instagram.com/xmarurux/
-photo.10.tags: bamboo, standing
+photo.10.tags: bamboo, portrait, standing
 photo.11: https://www.instagram.com/p/BwOibAzF7I3/media/?size=m
 photo.11.author: miis_98
 photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: tree
+photo.11.tags: portrait, tree
 photo.12: https://www.instagram.com/p/BwS7b4-lDjr/media/?size=m
 photo.12.author: yossi929
 photo.12.link: https://www.instagram.com/yossi929/
-photo.12.tags: bamboo, smile
+photo.12.tags: bamboo, portrait, smile
 photo.13: https://www.instagram.com/p/BxI-l1fFE_y/media/?size=m
 photo.13.author: yossi929
 photo.13.link: https://www.instagram.com/yossi929/
