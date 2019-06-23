@@ -1,0 +1,27 @@
+[media]
+_id: media.42.hikaru-yao
+panda.tags: 177, 178
+photo.1: https://www.instagram.com/p/BubUMEyFWmm/media/?size=m
+photo.1.author: animal_love_us
+photo.1.link: https://www.instagram.com/animal_love_us/
+photo.1.tags: apple time, brothers, smile
+photo.1.tags.177.location: 115, 150
+photo.1.tags.178.location: 230, 160
+photo.2: https://www.instagram.com/p/BdpKkwZnRsF/media/?size=m
+photo.2.author: re_ichimaru
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: brothers, laying down, playing, upside-down
+photo.2.tags.177.location: 110, 180
+photo.2.tags.178.location: 150, 295
+photo.3: https://www.instagram.com/p/Bts-lipllFm/media/?size=m
+photo.3.author: re_ichimaru
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: brothers
+photo.3.tags.177.location: 95, 90
+photo.3.tags.178.location: 195, 80
+photo.4: https://www.instagram.com/p/Bc4dQ_jnjAy/media/?size=m
+photo.4.author: kotata_513
+photo.4.link: https://www.instagram.com/kotata_513/
+photo.4.tags: brothers, paws
+photo.4.tags.177.location: 210, 160
+photo.4.tags.178.location: 85, 110
