@@ -1,0 +1,21 @@
+[panda]
+_id: 895
+birthday: 2010/6/14
+birthplace: 76
+children: none
+en.name: Meris
+death: 2011/10/17
+en.nicknames: none
+en.oldnames: Steele
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.oldnames: TOWRITE
+jp.othernames: none
+language.order: en, jp
+litter: 401
+location.1: 76, 2010/6/14
+location.2: 43, 2011/6/21
+species: 2
+zoo: 43
