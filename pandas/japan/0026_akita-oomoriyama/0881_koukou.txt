@@ -1,0 +1,19 @@
+[panda]
+_id: 881
+birthday: 1993/6/30
+birthplace: 45
+children: none
+death: 2001/12/14
+en.name: Kou-Kou
+en.nicknames: none
+en.othernames: Koukou
+gender: f
+jp.name: コウコウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 879, 880
+location.1: 45, 1997/6/30
+location.2: 26, 2001/7/6
+species: 2
+zoo: 26

@@ -2,13 +2,13 @@
 _id: 779
 birthday: 1991/7/14
 birthplace: 6
-children: unknown
+children: none
 death: 2012/6/26
 en.name: Pao
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: パオg
+jp.name: パオ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en

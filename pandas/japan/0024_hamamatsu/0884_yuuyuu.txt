@@ -1,0 +1,19 @@
+[panda]
+_id: 884
+birthday: 1992/7/5
+birthplace: 45
+children: none
+death: 1998/8/26
+en.name: Yuu-Yuu
+en.nicknames: none
+en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuuyuu
+gender: m
+jp.name: ユーユー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 45, 1992/7/5
+location.2: 24, 1997/3/17
+species: 2
+zoo: 24
