@@ -5,7 +5,7 @@ birthplace: 37
 children: 131, 134
 en.name: Rin-Rin
 en.nicknames: Spinning
-en.othernames: none
+en.othernames: Rinrin
 gender: m
 jp.name: 凌凌
 jp.nicknames: none
@@ -16,29 +16,30 @@ location.2: 41, 2010/4/9
 photo.1: https://www.instagram.com/p/BjHVixYFq7e/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: bamboo, smile, tongue
+photo.1.tags: bamboo, portrait, smile, tongue
 photo.2: https://www.instagram.com/p/BJaczxMAYh1/media/?size=m
 photo.2.author: sbskyy
 photo.2.link: https://www.instagram.com/sbskyy/
 photo.3: https://www.instagram.com/p/BkQDortF3PO/media/?size=m
 photo.3.author: yossi929
 photo.3.link: https://www.instagram.com/yossi929/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BkQ1XZUF52_/media/?size=m
 photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: bridge
+photo.4.tags: bridge, portrait
 photo.5: https://www.instagram.com/p/BRlGYUggORZ/media/?size=m
 photo.5.author: peek_a_boo00
 photo.5.link: https://www.instagram.com/peek_a_boo00/
-photo.5.tags: laying down
+photo.5.tags: laying down, portrait
 photo.6: https://www.instagram.com/p/Boq-UBulaDx/media/?size=m
 photo.6.author: yossi929
 photo.6.link: https://www.instagram.com/yossi929/
-photo.6.tags: profile, standing
+photo.6.tags: portrait, profile, standing
 photo.7: https://www.instagram.com/p/BoqiMfOFd0n/media/?size=m
 photo.7.author: re_ichimaru
 photo.7.link: https://www.instagram.com/re_ichimaru/
-photo.7.tags: keeper, standing
+photo.7.tags: keeper, portrait, standing
 photo.8: https://www.instagram.com/p/BqN6DWnlSVk/media/?size=m
 photo.8.author: re_ichimaru
 photo.8.link: https://www.instagram.com/re_ichimaru/
@@ -46,7 +47,7 @@ photo.8.tags: sleeping
 photo.9: https://www.instagram.com/p/Bq4MmKJlpi-/media/?size=m
 photo.9.author: kipekaila
 photo.9.link: https://www.instagram.com/kipekaila/
-photo.9.tags: air tasting, tongue
+photo.9.tags: air tasting, portrait, tongue
 photo.10: https://www.instagram.com/p/Bq5rOJhlGI7/media/?size=m
 photo.10.author: re_ichimaru
 photo.10.link: https://www.instagram.com/re_ichimaru/
@@ -54,7 +55,7 @@ photo.10.tags: grumpy
 photo.11: https://www.instagram.com/p/BrSGaw9F1n0/media/?size=m
 photo.11.author: yossi929
 photo.11.link: https://www.instagram.com/yossi929/
-photo.11.tags: apple time, paws, standing
+photo.11.tags: apple time, paws, portrait, standing, window
 photo.12: https://www.instagram.com/p/BrWLwjtFaKp/media/?size=m
 photo.12.author: ifumoto88
 photo.12.link: https://www.instagram.com/ifumoto88/
@@ -68,6 +69,10 @@ photo.14.tags: bamboo, tongue
 photo.15: https://www.instagram.com/p/Bxs93auFaH_/media/?size=m
 photo.15.author: yossi929
 photo.15.link: https://www.instagram.com/yossi929/
-photo.15.tags: paws, peek
+photo.15.tags: paws, peek, portrait
+photo.16: https://www.instagram.com/p/By8xJU6BYls/media/?size=m
+photo.16.author: re_ichimaru
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: grumpy, paws, portrait
 species: 2
 zoo: 41

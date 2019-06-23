@@ -1,6 +1,6 @@
 [panda]
 _id: 148
-birthday: 2017/6/19
+birthday: 2017/6/23
 birthplace: 16
 children: none
 en.name: Nico
@@ -223,5 +223,9 @@ photo.54: https://www.instagram.com/p/Byy2GRGBPV9/media/?size=m
 photo.54.author: lesserpanda_shizuokacity_cp
 photo.54.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.54.tags: smile
+photo.55: https://www.instagram.com/p/BzDV8D3h98f/media/?size=m
+photo.55.author: taka__3428
+photo.55.link: https://www.instagram.com/taka__3428/
+photo.55.tags: bamboo
 species: 2
 zoo: 16

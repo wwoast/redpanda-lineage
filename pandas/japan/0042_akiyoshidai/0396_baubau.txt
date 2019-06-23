@@ -8,9 +8,9 @@ en.name: Bau-Bau
 en.nicknames: none
 en.othernames: Bao-Bao
 gender: m
-jp.name: バウバウ
+jp.name: 宝宝
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: バウバウ
 language.order: jp, en
 litter: unknown
 location.1: 15, 1994/7/11
@@ -19,5 +19,9 @@ photo.1: https://www.codaworry.com/images/rpf/akiyoshidai-bau-bau.jpg
 photo.1.author: akiyoshidaisafariland
 photo.1.link: https://www.instagram.com/akiyoshidaisafariland/
 photo.1.tags: old, profile
+photo.2: https://www.instagram.com/p/BdLrNurHwCs/media/?size=m
+photo.2.author: kotata_513
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: laying down, mofumofu
 species: 2
 zoo: 42

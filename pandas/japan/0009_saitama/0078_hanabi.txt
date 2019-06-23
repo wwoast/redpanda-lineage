@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BhB7bzwF_xx/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/Bk7bAUjFZX0/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
@@ -25,10 +25,11 @@ photo.3.link: https://www.instagram.com/fetorus_mami/
 photo.4: https://www.instagram.com/p/BigdJAnldrx/media/?size=m
 photo.4.author: redpanda_nippon_takashi
 photo.4.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BiOAMwFl38I/media/?size=m
 photo.5.author: ck.chie
 photo.5.link: https://www.instagram.com/ck.chie/
-photo.5.tags: tongue
+photo.5.tags: portrait, tongue
 photo.6: https://www.instagram.com/p/BnENCZWl7OT/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
@@ -48,7 +49,7 @@ photo.9.tags: bamboo, standing, tongue
 photo.10: https://www.instagram.com/p/BsqCwe7FBVo/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
-photo.10.tags: autumn
+photo.10.tags: autumn, portrait
 photo.11: https://www.instagram.com/p/BssSRB6l6aO/media/?size=m
 photo.11.author: fetorus_mami
 photo.11.link: https://www.instagram.com/fetorus_mami/
@@ -56,11 +57,11 @@ photo.11.tags: climb, tail
 photo.12: https://www.instagram.com/p/BtLWl09lCeW/media/?size=m
 photo.12.author: resapan.suki
 photo.12.link: https://www.instagram.com/resapan.suki/
-photo.12.tags: bamboo, paws
+photo.12.tags: bamboo, paws, portrait
 photo.13: https://www.instagram.com/p/Bknh8HIHwVr/media/?size=m
 photo.13.author: ruru_maki
 photo.13.link: https://www.instagram.com/ruru_maki/
-photo.13.tags: tongue, tree
+photo.13.tags: portrait, tongue, tree
 photo.14: https://www.instagram.com/p/BvDgfBdFdeY/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
@@ -72,7 +73,7 @@ photo.15.tags: sleeping
 photo.16: https://www.instagram.com/p/Bv3vze4lzy3/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
-photo.16.tags: smile
+photo.16.tags: portrait, smile
 photo.17: https://www.instagram.com/p/BxXbzY2F6SL/media/?size=m
 photo.17.author: sasapan34
 photo.17.link: https://www.instagram.com/sasapan34/
@@ -80,6 +81,10 @@ photo.17.tags: bamboo, smile
 photo.18: https://www.instagram.com/p/Bxvmxj7FQc6/media/?size=m
 photo.18.author: fetorus_mami
 photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: smile
+photo.18.tags: portrait, smile
+photo.19: https://www.instagram.com/p/ByKmxfBj4vQ/media/?size=m
+photo.19.author: pisaro0701
+photo.19.link: https://www.instagram.com/pisaro0701/
+photo.19.tags: portrait, smile
 species: 2
 zoo: 9
