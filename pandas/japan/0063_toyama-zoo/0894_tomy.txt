@@ -1,0 +1,19 @@
+[panda]
+_id: 894
+birthday: 1995/6/24
+birthplace: 13
+children: unknown
+death: 2014/6/19
+en.name: Tomy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 1995/6/24
+location.2: 63, 1998/8/24
+species: 2
+zoo: 63

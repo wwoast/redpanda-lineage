@@ -1,0 +1,19 @@
+[panda]
+_id: 891
+birthday: 1991/7/4
+birthplace: 13
+children: unknown
+death: 2009/4/16
+en.name: Kozue
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 13, 1991/7/4
+location.2: 2, 1993/3/18
+species: 2
+zoo: 2
