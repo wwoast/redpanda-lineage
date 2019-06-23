@@ -1,0 +1,21 @@
+[media]
+_id: media.42.fuuka-nonoka
+panda.tags: 257, 258
+photo.1: https://www.instagram.com/p/BzCbED8hNeG/media/?size=m
+photo.1.author: totolove0724
+photo.1.link: https://www.instagram.com/totolove0724/
+photo.1.tags: sisters
+photo.1.tags.257.location: 205, 125
+photo.1.tags.258.location: 90, 160
+photo.2: https://www.instagram.com/p/BbGAok9Aa1b/media/?size=m
+photo.2.author: peek_a_boo00
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.2.tags: apple time, sisters
+photo.2.tags.257.location: 230, 180
+photo.2.tags.258.location: 70, 195
+photo.3: https://www.instagram.com/p/BbNskX_Dq1r/media/?size=m
+photo.3.author: panda.daisuki
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: sisters
+photo.3.tags.257.location: 220, 160
+photo.3.tags.258.location: 120, 140
