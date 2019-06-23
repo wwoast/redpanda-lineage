@@ -177,7 +177,7 @@ Layout.shrinkNames = function() {
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   var caption_nodes = document.getElementsByClassName("caption birthdayMessage");
   for (let link of link_nodes) {
-    shrinker(link, 1, "outer", 120, 140);
+    shrinker(link, 1, "outer", 120, 138);
   }
   for (let caption of caption_nodes) {
     action(caption, 0, "inner", 130, 140);
