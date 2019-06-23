@@ -84,19 +84,19 @@ photo.17.tags: bamboo
 photo.18: https://www.instagram.com/p/BrwtdqElcYj/media/?size=m
 photo.18.author: monmon_redpanda
 photo.18.link: https://www.instagram.com/monmon_redpanda/
-photo.18.tags: eye
+photo.18.tags: eye, portrait
 photo.19: https://www.instagram.com/p/BsxoIT3FYeK/media/?size=m
 photo.19.author: ifumoto88
 photo.19.link: https://www.instagram.com/ifumoto88/
-photo.19.tags: paws
+photo.19.tags: paws, portrait
 photo.20: https://www.instagram.com/p/BtFxFV9l2ei/media/?size=m
 photo.20.author: ifumoto88
 photo.20.link: https://www.instagram.com/ifumoto88/
-photo.20.tags: eye
+photo.20.tags: eye, portrait
 photo.21: https://www.instagram.com/p/BtdflyFFz2k/media/?size=m
 photo.21.author: ifumoto88
 photo.21.link: https://www.instagram.com/ifumoto88/
-photo.21.tags: apple time, eye, keeper
+photo.21.tags: apple time, eye, keeper, portrait
 photo.22: https://www.instagram.com/p/BtqbYsHld_E/media/?size=m
 photo.22.author: ifumoto88
 photo.22.link: https://www.instagram.com/ifumoto88/
@@ -104,19 +104,19 @@ photo.22.tags: eye, snow
 photo.23: https://www.instagram.com/p/Btqbwgol0aK/media/?size=m
 photo.23.author: ifumoto88
 photo.23.link: https://www.instagram.com/ifumoto88/
-photo.23.tags: eye, paws, snow
+photo.23.tags: eye, paws, portrait, snow
 photo.24: https://www.instagram.com/p/BvrGZmjFr4H/media/?size=m
 photo.24.author: ifumoto88
 photo.24.link: https://www.instagram.com/ifumoto88/
-photo.24.tags: bamboo, tongue
+photo.24.tags: bamboo, portrait, tongue
 photo.25: https://www.instagram.com/p/Bvx5AsYFcXL/media/?size=m
 photo.25.author: mari_neko3
 photo.25.link: https://www.instagram.com/mari_neko3/
-photo.25.tags: eye, tail
+photo.25.tags: eye, portrait, tail
 photo.26: https://www.instagram.com/p/Bvy_CH2l_tH/media/?size=m
 photo.26.author: ifumoto88
 photo.26.link: https://www.instagram.com/ifumoto88/
-photo.26.tags: eye, slobber
+photo.26.tags: eye, portrait, slobber
 photo.27: https://www.instagram.com/p/Bv0W2C5FqZb/media/?size=m
 photo.27.author: na.mo.pan
 photo.27.link: https://www.instagram.com/na.mo.pan/
@@ -124,14 +124,14 @@ photo.27.tags: profile
 photo.28: https://www.instagram.com/p/Bv80QKSFyXd/media/?size=m
 photo.28.author: panda.daisuki
 photo.28.link: https://www.instagram.com/panda.daisuki/
-photo.28.tags: apple time, eye
+photo.28.tags: apple time, eye, portrait
 photo.29: https://www.instagram.com/p/BxKji8wFqJ4/media/?size=m
 photo.29.author: ifumoto88
 photo.29.link: https://www.instagram.com/ifumoto88/
-photo.29.tags: eye
+photo.29.tags: eye, portrait
 photo.30: https://www.instagram.com/p/BFNLryCPix9/media/?size=m
 photo.30.author: panda.daisuki
 photo.30.link: https://www.instagram.com/panda.daisuki/
-photo.30.tags: bamboo, keeper
+photo.30.tags: bamboo, keeper, shoots
 species: 2
 zoo: 8
