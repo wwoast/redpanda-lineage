@@ -49,6 +49,7 @@ class PhotoFile():
     """
     def __init__(self, section, file_path):
         self.section = section
+        # TODO: throw exception for section = None
         self.config = ProperlyDelimitedConfigParser(default_section=self.section, delimiters=(':'))
         self.config.read(file_path, encoding="utf-8")
         self.file_path = file_path
@@ -217,7 +218,7 @@ class PhotoFile():
         start_index = 1
         removals = 0
         photo_index = start_index
-        author_option = "photo." + photo_index + ".author"
+        author_option = "photo." + str(photo_index) + ".author"
         while self.has_field(author_option):
             photo_author = self.get_field(author_option)
             if author == photo_author:
@@ -227,7 +228,7 @@ class PhotoFile():
             author_option = "photo." + str(photo_index) + ".author"
         # Next, renumber the ones that are still there
         if removals > 0:
-            self.renumber_photos(config, section, photo_index)
+            self.renumber_photos(photo_index)
 
 def remove_author_from_lineage(author):
     """
@@ -239,14 +240,15 @@ def remove_author_from_lineage(author):
     from every panda or zoo data entry.
     """
     for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
+        section = None
         for section_name in ["media", "zoo", "panda"]:
-            if path.split("/").indexOf(section_name) != -1:
+            if section_name in file_path.split("/"):
                 section = section_name
         # Enter the pandas subdirectories
         for root, dirs, files in os.walk(file_path):
             for filename in files:
                 path = root + os.sep + filename
-                photo_list = new PhotoFile(section, path)
+                photo_list = PhotoFile(section, path)
                 photo_list.remove_author(author)
                 # Done? Let's write config
                 photo_list.update_file()
@@ -258,11 +260,12 @@ def remove_photo_from_file(path, photo_id):
     section header should be from the path itself.
     """
     for section_name in ["wild", "media", "zoo", "panda"]:
-        if path.split("/").indexOf(section_name) != -1:
+        if section_name in path.split("/"):
             section = section_name
-    photo_list = new PhotoFile(section, path)
+    photo_list = PhotoFile(section, path)
     if photo_list.delete_photo(photo_id) == True:
-        photo_list.renumber_photos()
+        # TODO: find max index
+        photo_list.renumber_photos(130)
         photo_list.update_file()
 
 if __name__ == '__main__':
