@@ -105,8 +105,9 @@ class PhotoFile():
 
     def __strings_number_sensitive(self, input):
         """
-        If there's a number in the filename, translate it to its equivalent ASCII value. This way, the
-        sorting of the number is preserved, rather than treating the digits like characters themselves
+        If there's a number in the filename, translate it to its ASCII value.
+        This way, the sorting of the number is preserved, rather than treating 
+        the digits like characters themselves
         """
         components = input[0].split(".")
         output = []
@@ -228,19 +229,7 @@ class PhotoFile():
         if removals > 0:
             self.renumber_photos(config, section, photo_index)
 
-
-def remove_photo_from_file(path, photo_id):
-    """
-    Given a file path and a photo index ID, remove the photo and renumber
-    all photos inside the file.
-    """
-    # TODO: figure out section from the path name
-    photo_list = new PhotoFile(section, path)
-    if photo_list.delete_photo(photo_id) == True:
-        photo_list.renumber_photos()
-        photo_list.update_file()
-
-def remove_author_from_lineage(section, author, file_path):
+def remove_author_from_lineage(author):
     """
     Occasionally users will remove or rename their photo files online.
     For cases where the original files cannot be recovered, it may be
@@ -249,33 +238,41 @@ def remove_author_from_lineage(section, author, file_path):
     Given a author (typically an Instagram username), remove their photos
     from every panda or zoo data entry.
     """
-    # Enter the pandas subdirectories
-    for root, dirs, files in os.walk(file_path):
-        for filename in files:
-            path = root + os.sep + filename
-            photo_list = new PhotoFile(section, path)
-            photo_list.remove_author(author)
-            # Done? Let's write config
-            photo_list.update_file()
+    for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
+        for section_name in ["media", "zoo", "panda"]:
+            if path.split("/").indexOf(section_name) != -1:
+                section = section_name
+        # Enter the pandas subdirectories
+        for root, dirs, files in os.walk(file_path):
+            for filename in files:
+                path = root + os.sep + filename
+                photo_list = new PhotoFile(section, path)
+                photo_list.remove_author(author)
+                # Done? Let's write config
+                photo_list.update_file()
 
-# TODO: just one removal function
-def remove_media_author(author):
-    remove_author_from_lineage("media", author, MEDIA_PATH)
-
-def remove_panda_author(author):
-    remove_author_from_lineage("panda", author, PANDA_PATH)
-
-def remove_zoo_author(author):
-    remove_author_from_lineage("zoo", author, ZOO_PATH)
+def remove_photo_from_file(path, photo_id):
+    """
+    Given a file path and a photo index ID, remove the photo and renumber
+    all photos inside the file. Determine what the proper configuration
+    section header should be from the path itself.
+    """
+    for section_name in ["wild", "media", "zoo", "panda"]:
+        if path.split("/").indexOf(section_name) != -1:
+            section = section_name
+    photo_list = new PhotoFile(section, path)
+    if photo_list.delete_photo(photo_id) == True:
+        photo_list.renumber_photos()
+        photo_list.update_file()
 
 if __name__ == '__main__':
     """Choose a utility funciton."""
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
-            remove_panda_author(sys.argv[2])
-            remove_zoo_author(sys.argv[2])
-            remove_media_author(sys.argv[2])
-        elif sys.argv[1] == "--remove-photo":
+            author = sys.argv[2]
+            remove_author_from_lineage(author)
+    if len(sys.argv) == 4:
+        if sys.argv[1] == "--remove-photo":
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
