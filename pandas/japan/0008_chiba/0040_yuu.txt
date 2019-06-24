@@ -15,7 +15,7 @@ litter: 47
 photo.1: https://www.instagram.com/p/BkNao-sFn6f/media/?size=m
 photo.1.author: panda.daisuki
 photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/Bet_XZHB7ka/media/?size=m
 photo.2.author: minatomirai215
 photo.2.link: https://www.instagram.com/minatomirai215/
@@ -31,26 +31,27 @@ photo.4.tags: apple time
 photo.5: https://www.instagram.com/p/BoTGiLXlVMb/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: tongue
+photo.5.tags: portrait, tongue
 photo.6: https://www.instagram.com/p/Bo2tYPihrcr/media/?size=m
 photo.6.author: resapanlove
 photo.6.link: https://www.instagram.com/resapanlove/
-photo.6.tags: tongue
+photo.6.tags: portrait, tongue
 photo.7: https://www.instagram.com/p/BpMR44rFsZN/media/?size=m
 photo.7.author: panda.daisuki
 photo.7.link: https://www.instagram.com/panda.daisuki/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BpqX4xoljcy/media/?size=m
 photo.8.author: ck.chie
 photo.8.link: https://www.instagram.com/ck.chie/
-photo.8.tags: techitechi, tongue
+photo.8.tags: portrait, techitechi, tongue
 photo.9: https://www.instagram.com/p/BpwcNwyFKah/media/?size=m
 photo.9.author: ifumoto88
 photo.9.link: https://www.instagram.com/ifumoto88/
-photo.9.tags: bamboo
+photo.9.tags: bamboo, portrait
 photo.10: https://www.instagram.com/p/BkIbIsYluT1/media/?size=m
 photo.10.author: panda.daisuki
 photo.10.link: https://www.instagram.com/panda.daisuki/
-photo.10.tags: apple time, keeper
+photo.10.tags: apple time, keeper, portrait
 photo.11: https://www.instagram.com/p/BkyMdZZgI2u/media/?size=m
 photo.11.author: akki_gumi
 photo.11.link: https://www.instagram.com/akki_gumi/
@@ -58,15 +59,15 @@ photo.11.tags: laying down
 photo.12: https://www.instagram.com/p/BpuEtZklyq6/media/?size=m
 photo.12.author: panda.daisuki
 photo.12.link: https://www.instagram.com/panda.daisuki/
-photo.12.tags: apple time, dish, keeper
+photo.12.tags: apple time, dish, keeper, portrait
 photo.13: https://www.instagram.com/p/Bp_8ZXnFoJC/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: smile
+photo.13.tags: portrait, smile
 photo.14: https://www.instagram.com/p/BtI-fQ8FeWL/media/?size=m
 photo.14.author: ifumoto88
 photo.14.link: https://www.instagram.com/ifumoto88/
-photo.14.tags: home, paws
+photo.14.tags: home, paws, portrait
 photo.15: https://www.instagram.com/p/BtgEBgsF7FE/media/?size=m
 photo.15.author: ifumoto88
 photo.15.link: https://www.instagram.com/ifumoto88/
@@ -78,19 +79,19 @@ photo.16.tags: snow, surprise, tail
 photo.17: https://www.instagram.com/p/BtvkOpMF22k/media/?size=m
 photo.17.author: ifumoto88
 photo.17.link: https://www.instagram.com/ifumoto88/
-photo.17.tags: carry, paws, snow
+photo.17.tags: carry, paws, portrait, snow
 photo.18: https://www.instagram.com/p/Bvs8NWOlHzw/media/?size=m
 photo.18.author: mari_neko3
 photo.18.link: https://www.instagram.com/mari_neko3/
-photo.18.tags: home
+photo.18.tags: home, portrait
 photo.19: https://www.instagram.com/p/Bv4G6lJl8bU/media/?size=m
 photo.19.author: ifumoto88
 photo.19.link: https://www.instagram.com/ifumoto88/
-photo.19.tags: home, itchy, paws, tail
+photo.19.tags: home, itchy, paws, portrait, tail
 photo.20: https://www.instagram.com/p/BRRl3WYj5-r/media/?size=m
 photo.20.author: _rifa_p
 photo.20.link: https://www.instagram.com/_rifa_p/
-photo.20.tags: bamboo
+photo.20.tags: bamboo, portrait
 photo.21: https://www.instagram.com/p/BySHoPbB_dh/media/?size=m
 photo.21.author: ck.chie
 photo.21.link: https://www.instagram.com/ck.chie/
