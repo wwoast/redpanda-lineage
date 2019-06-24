@@ -60,6 +60,19 @@ class PhotoFile():
     def has_field(self, field_name):
         return self.config.has_option(self.section, field_name)
 
+    def get_array(self, field_name):
+        """
+        Given a field name, if the value is a comma-delimited string, return
+        an array of values.
+        """
+        if self.has_field(field_name):
+            result = self.config.get(self.section, field_name)
+            if (result.find(",") != -1):
+                return result.replace(" ", "").split(",")
+            else:
+                return [result]
+        return []
+
     def get_field(self, field_name):
         """
         Given a field name, return it if it exists. If the result is a list of
@@ -67,17 +80,15 @@ class PhotoFile():
         return [] so that other loops can iterate on an empty value.
         """
         if self.has_field(field_name):
-            result = self.config.get(self.section, field_name)
-            if (result.find(",") != -1):
-                return result.replace(" ", "").split(",")
-            else:
-                return result
-        return []
+            return self.config.get(self.section, field_name)
+        else:
+            return None
 
     def set_field(self, field_name, value):
         """
         Set a value in the data file.
         """
+        print("DEBUG SET: " + str(field_name) + " -- " + str(value))
         self.config.set(self.section, field_name, value)
 
     def copy_field(self, dest_field, source_field):
@@ -151,7 +162,7 @@ class PhotoFile():
         self.delete_field(author_tags)
         # For location group-photo tag lines, look for the numbers in the tag section, 
         # and remove any corresponding location tags from the groups section
-        for panda_id in self.get_field(panda_tags):
+        for panda_id in self.get_array(panda_tags):
             photo_location_tag = author_tags + "." + panda_id + ".location"
             self.delete_field(photo_location_tag)
         return True
@@ -207,7 +218,7 @@ class PhotoFile():
                     self.move_field(photo_author, next_author)
                     self.move_field(photo_link, next_link)
                     self.move_field(photo_tags, next_tags)
-                    for panda_id in self.get_field(panda_tags):
+                    for panda_id in self.get_array(panda_tags):
                         photo_location_tag = photo_tags + "." + panda_id + ".location"
                         next_location_tag = next_tags + "." + panda_id + ".location"
                         self.move_field(photo_location_tag, next_location_tag)
