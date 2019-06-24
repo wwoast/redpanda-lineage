@@ -10,7 +10,7 @@ import re
 import sys
 
 from collections import OrderedDict
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     """
@@ -48,6 +48,9 @@ class PhotoFile():
     anyways, wrap the ConfigParser primitives with easier-to-read sugar.
     """
     def __init__(self, section, file_path):
+        if section == None:
+            raise SectionNameError("""Using wrong section ID to look for photos: %s""" % str(section))
+
         self.section = section
         # TODO: throw exception for section = None
         self.config = ProperlyDelimitedConfigParser(default_section=self.section, delimiters=(':'))
@@ -241,9 +244,9 @@ def remove_author_from_lineage(author):
     """
     for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
         section = None
-        for section_name in ["media", "zoo", "panda"]:
+        for section_name in ["media", "zoos", "pandas"]:
             if section_name in file_path.split("/"):
-                section = section_name
+                section = section_name.split("s")[0]   # HACK
         # Enter the pandas subdirectories
         for root, dirs, files in os.walk(file_path):
             for filename in files:
@@ -261,7 +264,7 @@ def remove_photo_from_file(path, photo_id):
     """
     for section_name in ["wild", "media", "zoo", "panda"]:
         if section_name in path.split("/"):
-            section = section_name
+            section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
     if photo_list.delete_photo(photo_id) == True:
         # TODO: find max index

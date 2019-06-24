@@ -23,3 +23,6 @@ class LinkError(IndexError):
 
 class NameFormatError(ValueError):
     pass
+
+class SectionNameError(ValueError):
+    pass
