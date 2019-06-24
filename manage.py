@@ -88,7 +88,7 @@ class PhotoFile():
         """
         Set a value in the data file.
         """
-        print("DEBUG SET: " + str(field_name) + " -- " + str(value))
+        # print("DEBUG SET: " + str(field_name) + " -- " + str(value))
         self.config.set(self.section, field_name, value)
 
     def copy_field(self, dest_field, source_field):
@@ -273,7 +273,8 @@ def remove_photo_from_file(path, photo_id):
     all photos inside the file. Determine what the proper configuration
     section header should be from the path itself.
     """
-    for section_name in ["wild", "media", "zoo", "panda"]:
+    section = None
+    for section_name in ["wild", "media", "zoos", "pandas"]:
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
