@@ -1,0 +1,17 @@
+[panda]
+_id: 896
+birthday: 2015/7/29
+birthplace: 16
+children: none
+death: 2015/12/17
+en.name: Takeru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タケル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 158
+species: 2
+zoo: 16
