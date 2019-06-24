@@ -17,19 +17,19 @@ location.2: 28, 2018/3/19
 photo.1: https://www.instagram.com/p/BQH4tXFB0WK/media/?size=m
 photo.1.author: cattail.sapporo
 photo.1.link: https://www.instagram.com/cattail.sapporo/
-photo.1.tags: bamboo, snow
+photo.1.tags: bamboo, portrait, snow
 photo.2: https://www.instagram.com/p/BhYtxZGlTyq/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: tree
+photo.2.tags: portrait, tree
 photo.3: https://www.instagram.com/p/BSX96vMDWk5/media/?size=m
 photo.3.author: cattail.sapporo
 photo.3.link: https://www.instagram.com/cattail.sapporo/
-photo.3.tags: bamboo, blink, profile, snow
+photo.3.tags: bamboo, blink, portrait, profile, snow
 photo.4: https://www.instagram.com/p/BirQJqOFu6P/media/?size=m
 photo.4.author: izu_108
 photo.4.link: https://www.instagram.com/izu_108/
-photo.4.tags: bridge, sleeping
+photo.4.tags: bridge, portrait, sleeping
 photo.5: https://www.instagram.com/p/BoWHeylBAxA/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
@@ -41,18 +41,19 @@ photo.6.tags: standing
 photo.7: https://www.instagram.com/p/BonFFcEHyqD/media/?size=m
 photo.7.author: cattail.sapporo
 photo.7.link: https://www.instagram.com/cattail.sapporo/
-photo.7.tags: apple time, blink, lips
+photo.7.tags: apple time, blink, lips, portrait, techitechi
 photo.8: https://www.instagram.com/p/BpaGPXuHu81/media/?size=m
 photo.8.author: cattail.sapporo
 photo.8.link: https://www.instagram.com/cattail.sapporo/
-photo.8.tags: autumn, techitechi
+photo.8.tags: autumn, portrait, techitechi
 photo.9: https://www.instagram.com/p/BpdgEO4l2-q/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: smile
 photo.10: https://www.instagram.com/p/BpjKH_olATy/media/?size=m
 photo.10.author: minatomirai215
 photo.10.link: https://www.instagram.com/minatomirai215/
-photo.10.tags: apple time
+photo.10.tags: apple time, portrait
 photo.11: https://www.instagram.com/p/Bpqj9LiFsXL/media/?size=m
 photo.11.author: minatomirai215
 photo.11.link: https://www.instagram.com/minatomirai215/
@@ -68,19 +69,19 @@ photo.13.tags: apple time, keeper, standing
 photo.14: https://www.instagram.com/p/BqBuddhFAS3/media/?size=m
 photo.14.author: minatomirai215
 photo.14.link: https://www.instagram.com/minatomirai215/
-photo.14.tags: keeper, lunch time
+photo.14.tags: keeper, lunch time, portrait
 photo.15: https://www.instagram.com/p/Bq08TDWldXf/media/?size=m
 photo.15.author: minatomirai215
 photo.15.link: https://www.instagram.com/minatomirai215/
-photo.15.tags: smile
+photo.15.tags: portrait, smile
 photo.16: https://www.instagram.com/p/Bq9askjncJt/media/?size=m
 photo.16.author: yakko____
 photo.16.link: https://www.instagram.com/yakko____/
-photo.16.tags: paws
+photo.16.tags: paws, portrait
 photo.17: https://www.instagram.com/p/BrNQt9UlV5a/media/?size=m
 photo.17.author: leonard_redmof
 photo.17.link: https://www.instagram.com/leonard_redmof/
-photo.17.tags: tree
+photo.17.tags: portrait, tree
 photo.18: https://www.instagram.com/p/BrNI1DUFy-V/media/?size=m
 photo.18.author: nishicotolo
 photo.18.link: https://www.instagram.com/nishicotolo/
@@ -97,6 +98,7 @@ photo.21.link: https://www.instagram.com/nishicotolo/
 photo.22: https://www.instagram.com/p/BTNXi-Hge95/media/?size=m
 photo.22.author: mari_neko3
 photo.22.link: https://www.instagram.com/mari_neko3/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/BrztJ30lqNn/media/?size=m
 photo.23.author: nishicotolo
 photo.23.link: https://www.instagram.com/nishicotolo/
@@ -115,7 +117,7 @@ photo.26.tags: smile
 photo.27: https://www.instagram.com/p/BuxQp45Foe_/media/?size=m
 photo.27.author: mari_neko3
 photo.27.link: https://www.instagram.com/mari_neko3/
-photo.27.tags: laying down, smile, tongue, tree
+photo.27.tags: laying down, portrait, smile, tongue, tree
 photo.28: https://www.instagram.com/p/BpB-k2Vlk_v/media/?size=m
 photo.28.author: shisan916
 photo.28.link: https://www.instagram.com/shisan916/
@@ -123,11 +125,11 @@ photo.28.tags: laying down, smile, tongue
 photo.29: https://www.instagram.com/p/Bv5Y3RRlX5f/media/?size=m
 photo.29.author: mari_neko3
 photo.29.link: https://www.instagram.com/mari_neko3/
-photo.29.tags: smile
+photo.29.tags: door, smile
 photo.30: https://www.instagram.com/p/BwBbdQ6l_ZU/media/?size=m
 photo.30.author: mari_neko3
 photo.30.link: https://www.instagram.com/mari_neko3/
-photo.30.tags: bamboo, tree
+photo.30.tags: bamboo, portrait, tree
 photo.31: https://www.instagram.com/p/BwTguBcl6Tf/media/?size=m
 photo.31.author: mari_neko3
 photo.31.link: https://www.instagram.com/mari_neko3/
@@ -135,23 +137,23 @@ photo.31.tags: air tasting, tongue, tree
 photo.32: https://www.instagram.com/p/BwgBrwalL93/media/?size=m
 photo.32.author: mofu_pan
 photo.32.link: https://www.instagram.com/mofu_pan/
-photo.32.tags: smile
+photo.32.tags: portrait, smile
 photo.33: https://www.instagram.com/p/Bw-vwttl20L/media/?size=m
 photo.33.author: kipekaila
 photo.33.link: https://www.instagram.com/kipekaila/
-photo.33.tags: smile
+photo.33.tags: portrait, smile
 photo.34: https://www.instagram.com/p/Bw-viK6Fnsg/media/?size=m
 photo.34.author: kipekaila
 photo.34.link: https://www.instagram.com/kipekaila/
-photo.34.tags: smile
+photo.34.tags: portrait, smile
 photo.35: https://www.instagram.com/p/BxFGBtygiNq/media/?size=m
 photo.35.author: miis_98
 photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: laying down, tree
+photo.35.tags: laying down, portrait, tree
 photo.36: https://www.instagram.com/p/BM7gbCxjMp5/media/?size=m
 photo.36.author: cattail.sapporo
 photo.36.link: https://www.instagram.com/cattail.sapporo/
-photo.36.tags: baby, flowers
+photo.36.tags: baby, flowers, portrait
 photo.37: https://www.instagram.com/p/BKNqXR_AzQ9/media/?size=m
 photo.37.author: mari_neko3
 photo.37.link: https://www.instagram.com/mari_neko3/
@@ -162,7 +164,7 @@ photo.38.link: https://www.instagram.com/_sealiz/
 photo.39: https://www.instagram.com/p/Bgd-PhMFw9H/media/?size=m
 photo.39.author: _sealiz
 photo.39.link: https://www.instagram.com/_sealiz/
-photo.39.tags: shake
+photo.39.tags: portrait, shake
 photo.40: https://www.instagram.com/p/BS52iN-j3en/media/?size=m
 photo.40.author: _sealiz
 photo.40.link: https://www.instagram.com/_sealiz/
@@ -170,15 +172,15 @@ photo.40.tags: flowers
 photo.41: https://www.instagram.com/p/BxWmPrcFM4I/media/?size=m
 photo.41.author: miis_98
 photo.41.link: https://www.instagram.com/miis_98/
-photo.41.tags: apple time, keeper, tree
+photo.41.tags: apple time, keeper, portrait, tree
 photo.42: https://www.instagram.com/p/BwjsFI1l-QZ/media/?size=m
 photo.42.author: sb23megumi
 photo.42.link: https://www.instagram.com/sb23megumi/
-photo.42.tags: smile
+photo.42.tags: portrait, smile
 photo.43: https://www.instagram.com/p/BxkOe7RlnJM/media/?size=m
 photo.43.author: minatomirai215
 photo.43.link: https://www.instagram.com/minatomirai215/
-photo.43.tags: bamboo
+photo.43.tags: bamboo, portrait
 species: 2
 video.1: https://youtu.be/t1SITm45Rc8
 video.1.author: mmovies21

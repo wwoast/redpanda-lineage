@@ -46,6 +46,7 @@ photo.8.link: https://www.instagram.com/re_ichimaru/
 photo.9: https://www.instagram.com/p/Br93Mdal2GA/media/?size=m
 photo.9.author: re_ichimaru
 photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: laying down, paws, playing, tail, upside-down
 photo.10: https://www.instagram.com/p/BsVdjNYlyMa/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
@@ -78,60 +79,56 @@ photo.17: https://www.instagram.com/p/Bxzy0-_larU/media/?size=m
 photo.17.author: animal_love_us
 photo.17.link: https://www.instagram.com/animal_love_us/
 photo.17.tags: portrait, tongue
-photo.18: https://www.instagram.com/p/Br93Mdal2GA/media/?size=m
-photo.18.author: re_ichimaru
-photo.18.link: https://www.instagram.com/re_ichimaru/
-photo.18.tags: laying down, paws, playing, tail, upside-down
-photo.19: https://www.instagram.com/p/BqOVbnylq6l/media/?size=m
-photo.19.author: peek_a_boo00
-photo.19.link: https://www.instagram.com/peek_a_boo00/
-photo.20: https://www.instagram.com/p/BqoHKSdFUM9/media/?size=m
-photo.20.author: akiyoshidaisafariland
-photo.20.link: https://www.instagram.com/akiyoshidaisafariland/
-photo.20.tags: muzzle, portrait, smile
-photo.21: https://www.instagram.com/p/BdBXxWEH4a9/media/?size=m
-photo.21.author: monmon_redpanda
-photo.21.link: https://www.instagram.com/monmon_redpanda/
-photo.21.tags: portrait, window
-photo.22: https://www.instagram.com/p/BijTgfkF5pw/media/?size=m
-photo.22.author: re_ichimaru
-photo.22.link: https://www.instagram.com/re_ichimaru/
-photo.22.tags: portrait
-photo.23: https://www.instagram.com/p/BbGziH_jzeH/media/?size=m
-photo.23.author: mariten1119
-photo.23.link: https://www.instagram.com/mariten1119/
-photo.23.tags: laying down, paws, smile, upside down
-photo.24: https://www.instagram.com/p/BccAdPID_FM/media/?size=m
-photo.24.author: colette.jp
-photo.24.link: https://www.instagram.com/colette.jp/
-photo.24.tags: apple time, paws
-photo.25: https://www.instagram.com/p/BZXIIsRDfP2/media/?size=m
-photo.25.author: resapanlove
-photo.25.link: https://www.instagram.com/resapanlove/
-photo.25.tags: bite, destruction
-photo.26: https://www.instagram.com/p/BbNjhjPH3UT/media/?size=m
-photo.26.author: tomo3700
-photo.26.link: https://www.instagram.com/tomo3700/
-photo.26.tags: laying down, portrait, tail, tongue, upside-down
-photo.27: https://www.instagram.com/p/BaIEJFsBY9l/media/?size=m
-photo.27.author: resapanlove
-photo.27.link: https://www.instagram.com/resapanlove/
-photo.27.tags: paws, portrait, tree
-photo.28: https://www.instagram.com/p/BfZeTxZlOtD/media/?size=m
-photo.28.author: fetorus_mami
+photo.18: https://www.instagram.com/p/BqOVbnylq6l/media/?size=m
+photo.18.author: peek_a_boo00
+photo.18.link: https://www.instagram.com/peek_a_boo00/
+photo.19: https://www.instagram.com/p/BqoHKSdFUM9/media/?size=m
+photo.19.author: akiyoshidaisafariland
+photo.19.link: https://www.instagram.com/akiyoshidaisafariland/
+photo.19.tags: muzzle, portrait, smile
+photo.20: https://www.instagram.com/p/BdBXxWEH4a9/media/?size=m
+photo.20.author: monmon_redpanda
+photo.20.link: https://www.instagram.com/monmon_redpanda/
+photo.20.tags: portrait, window
+photo.21: https://www.instagram.com/p/BijTgfkF5pw/media/?size=m
+photo.21.author: re_ichimaru
+photo.21.link: https://www.instagram.com/re_ichimaru/
+photo.21.tags: portrait
+photo.22: https://www.instagram.com/p/BbGziH_jzeH/media/?size=m
+photo.22.author: mariten1119
+photo.22.link: https://www.instagram.com/mariten1119/
+photo.22.tags: laying down, paws, smile, upside down
+photo.23: https://www.instagram.com/p/BccAdPID_FM/media/?size=m
+photo.23.author: colette.jp
+photo.23.link: https://www.instagram.com/colette.jp/
+photo.23.tags: apple time, paws
+photo.24: https://www.instagram.com/p/BZXIIsRDfP2/media/?size=m
+photo.24.author: resapanlove
+photo.24.link: https://www.instagram.com/resapanlove/
+photo.24.tags: bite, destruction
+photo.25: https://www.instagram.com/p/BbNjhjPH3UT/media/?size=m
+photo.25.author: tomo3700
+photo.25.link: https://www.instagram.com/tomo3700/
+photo.25.tags: laying down, portrait, tail, tongue, upside-down
+photo.26: https://www.instagram.com/p/BaIEJFsBY9l/media/?size=m
+photo.26.author: resapanlove
+photo.26.link: https://www.instagram.com/resapanlove/
+photo.26.tags: paws, portrait, tree
+photo.27: https://www.instagram.com/p/BfZeTxZlOtD/media/?size=m
+photo.27.author: fetorus_mami
+photo.27.link: https://www.instagram.com/fetorus_mami/
+photo.27.tags: bamboo, paws, portrait
+photo.28: https://www.instagram.com/p/Be8OzFBFJqr/media/?size=m
+photo.28.author: https://www.instagram.com/fetorus_mami/
 photo.28.link: https://www.instagram.com/fetorus_mami/
-photo.28.tags: bamboo, paws, portrait
-photo.29: https://www.instagram.com/p/Be8OzFBFJqr/media/?size=m
-photo.29.author: https://www.instagram.com/fetorus_mami/
-photo.29.link: https://www.instagram.com/fetorus_mami/
-photo.29.tags: portrait, snow
-photo.30: https://www.instagram.com/p/BbiNCbpHuXv/media/?size=m
-photo.30.author: re_ichimaru
-photo.30.link: https://www.instagram.com/re_ichimaru/
-photo.30.tags: smile
-photo.31: https://www.instagram.com/p/BYDaea2FJel/media/?size=m
-photo.31.author: yossi929
-photo.31.link: https://www.instagram.com/yossi929/
-photo.31.tags: grooming, mofumofu, portrait, tail
+photo.28.tags: portrait, snow
+photo.29: https://www.instagram.com/p/BbiNCbpHuXv/media/?size=m
+photo.29.author: re_ichimaru
+photo.29.link: https://www.instagram.com/re_ichimaru/
+photo.29.tags: smile
+photo.30: https://www.instagram.com/p/BYDaea2FJel/media/?size=m
+photo.30.author: yossi929
+photo.30.link: https://www.instagram.com/yossi929/
+photo.30.tags: grooming, mofumofu, portrait, tail
 species: 2
 zoo: 42

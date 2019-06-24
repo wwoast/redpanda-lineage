@@ -17,19 +17,19 @@ litter: 248
 photo.1: https://www.instagram.com/p/BqVu80qFA0h/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: baby, bamboo
+photo.1.tags: baby, bamboo, portrait
 photo.2: https://www.instagram.com/p/BsNTY9UFRkV/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: bamboo, techitechi, profile
+photo.2.tags: bamboo, techitechi, portrait, profile
 photo.3: https://www.instagram.com/p/BsPxF4flOqH/media/?size=m
 photo.3.author: gloryeui
 photo.3.link: https://www.instagram.com/gloryeui/
-photo.3.tags: dish
+photo.3.tags: dish, portrait
 photo.4: https://www.instagram.com/p/Bs9oreTl7SE/media/?size=m
 photo.4.author: ayusuke56
 photo.4.link: https://www.instagram.com/ayusuke56/
-photo.4.tags: grumpy
+photo.4.tags: grumpy, portrait
 photo.5: https://www.instagram.com/p/BtAT2g5lIw_/media/?size=m
 photo.5.author: masumilky
 photo.5.link: https://www.instagram.com/masumilky/
@@ -40,7 +40,7 @@ photo.6.link: https://www.instagram.com/masumilky/
 photo.7: https://www.instagram.com/p/BtGB-XMFVF8/media/?size=m
 photo.7.author: ayusuke56
 photo.7.link: https://www.instagram.com/ayusuke56/
-photo.7.tags: paws, standing, yawn
+photo.7.tags: paws, standing, window, yawn
 photo.8: https://www.instagram.com/p/BtGUupqFowx/media/?size=m
 photo.8.author: masumilky
 photo.8.link: https://www.instagram.com/masumilky/
@@ -48,7 +48,7 @@ photo.8.tags: bamboo, standing
 photo.9: https://www.instagram.com/p/BtNFbJqFQVF/media/?size=m
 photo.9.author: ayusuke56
 photo.9.link: https://www.instagram.com/ayusuke56/
-photo.9.tags: bamboo, smile
+photo.9.tags: bamboo, portrait, smile
 photo.10: https://www.instagram.com/p/Bsj94t3lufX/media/?size=m
 photo.10.author: yumi_nontan
 photo.10.link: https://www.instagram.com/yumi_nontan/
@@ -56,11 +56,11 @@ photo.10.tags: apple time, keeper
 photo.11: https://www.instagram.com/p/Bo56kQ4la1Z/media/?size=m
 photo.11.author: ifumoto88
 photo.11.link: https://www.instagram.com/ifumoto88/
-photo.11.tags: baby
+photo.11.tags: baby, portrait
 photo.12: https://www.instagram.com/p/Bo_sIgGFOBj/media/?size=m
 photo.12.author: panda.daisuki
 photo.12.link: https://www.instagram.com/panda.daisuki/
-photo.12.tags: baby, bamboo, climb
+photo.12.tags: baby, bamboo, climb, portrait
 photo.13: https://www.instagram.com/p/BpS4I0zlgyD/media/?size=m
 photo.13.author: rie_panda55
 photo.13.link: https://www.instagram.com/rie_panda55/
@@ -72,11 +72,11 @@ photo.14.tags: baby, standing
 photo.15: https://www.instagram.com/p/BqRAMuTlbZH/media/?size=m
 photo.15.author: ayusuke56
 photo.15.link: https://www.instagram.com/ayusuke56/
-photo.15.tags: baby, keeper, standing
+photo.15.tags: baby, keeper, portrait, standing
 photo.16: https://www.instagram.com/p/BqTl7crhCfg/media/?size=m
 photo.16.author: ayusuke56
 photo.16.link: https://www.instagram.com/ayusuke56/
-photo.16.tags: baby, paws
+photo.16.tags: baby, paws, portrait
 photo.17: https://www.instagram.com/p/BvY7FTDF4Lp/media/?size=m
 photo.17.author: daniele.tokyo
 photo.17.link: https://www.instagram.com/daniele.tokyo/
@@ -84,11 +84,11 @@ photo.17.tags: bamboo
 photo.18: https://www.instagram.com/p/BxJanLUFrYc/media/?size=m
 photo.18.author: ayusuke56
 photo.18.link: https://www.instagram.com/ayusuke56/
-photo.18.tags: bamboo
+photo.18.tags: bamboo, portrait
 photo.19: https://www.instagram.com/p/BtSN8xYF1FN/media/?size=m
 photo.19.author: ayusuke56
 photo.19.link: https://www.instagram.com/ayusuke56/
-photo.19.tags: smile
+photo.19.tags: portrait, smile
 photo.20: https://www.instagram.com/p/BxkQefiFQiy/media/?size=m
 photo.20.author: masumilky
 photo.20.link: https://www.instagram.com/masumilky/

@@ -20,7 +20,7 @@ photo.1.tags: profile, snow
 photo.2: https://www.instagram.com/p/BWJ7QqCha_V/media/?size=m
 photo.2.author: wonderfulzooken
 photo.2.link: https://www.instagram.com/wonderfulzooken/
-photo.2.tags: tail, upside-down
+photo.2.tags: portrait, tail, upside-down
 photo.3: https://www.instagram.com/p/BijNx0vlDfM/media/?size=m
 photo.3.author: hidehaya_biei
 photo.3.link: https://www.instagram.com/hidehaya_biei/
@@ -32,11 +32,11 @@ photo.4.tags: laying down, tree
 photo.5: https://www.instagram.com/p/Bljw4-rFVZY/media/?size=m
 photo.5.author: hidehaya_biei
 photo.5.link: https://www.instagram.com/hidehaya_biei/
-photo.5.tags: smile, tongue
+photo.5.tags: portrait, smile, tongue
 photo.6: https://www.instagram.com/p/Bnph8DZlwcR/media/?size=m
 photo.6.author: spla_calamari
 photo.6.link: https://www.instagram.com/spla_calamari/
-photo.6.tags: smile
+photo.6.tags: portrait, smile
 photo.7: https://www.instagram.com/p/Bnv9ZspFg8n/media/?size=m
 photo.7.author: perie1027vivi
 photo.7.link: https://www.instagram.com/perie1027vivi/
@@ -44,11 +44,11 @@ photo.7.tags: apple time, keeper
 photo.8: https://www.instagram.com/p/Bn2ied4lhDL/media/?size=m
 photo.8.author: hidehaya_biei
 photo.8.link: https://www.instagram.com/hidehaya_biei/
-photo.8.tags: smile
+photo.8.tags: portrait, smile
 photo.9: https://www.instagram.com/p/BoEgugnlf7g/media/?size=m
 photo.9.author: panda.daisuki
 photo.9.link: https://www.instagram.com/panda.daisuki/
-photo.9.tags: laying down, tree, yawn
+photo.9.tags: laying down, portrait, tree, yawn
 photo.10: https://www.instagram.com/p/BoKo5D_lfle/media/?size=m
 photo.10.author: hidehaya_biei
 photo.10.link: https://www.instagram.com/hidehaya_biei/
@@ -56,7 +56,7 @@ photo.10.tags: bamboo
 photo.11: https://www.instagram.com/p/BoSeRN5FrTN/media/?size=m
 photo.11.author: panda.daisuki
 photo.11.link: https://www.instagram.com/panda.daisuki/
-photo.11.tags: smile
+photo.11.tags: portrait, smile
 photo.12: https://www.instagram.com/p/BoaD1c-BpHF/media/?size=m
 photo.12.author: hidehaya_biei
 photo.12.link: https://www.instagram.com/hidehaya_biei/
@@ -68,7 +68,7 @@ photo.13.tags: tongue
 photo.14: https://www.instagram.com/p/BohxJD3F3cH/media/?size=m
 photo.14.author: hidehaya_biei
 photo.14.link: https://www.instagram.com/panda.daisuki/
-photo.14.tags: smile, tongue
+photo.14.tags: portrait, smile, tongue
 photo.15: https://www.instagram.com/p/BonycB-ltuL/media/?size=m
 photo.15.author: godosei
 photo.15.link: https://www.instagram.com/godosei/
@@ -83,7 +83,7 @@ photo.17.tags: bamboo
 photo.18: https://www.instagram.com/p/BoxSRSildce/media/?size=m
 photo.18.author: hidehaya_biei
 photo.18.link: https://www.instagram.com/hidehaya_biei/
-photo.18.tags: baby, mofumofu
+photo.18.tags: baby, mofumofu, portrait
 photo.19: https://www.instagram.com/p/BovPGKYFC9w/media/?size=m
 photo.19.author: hidehaya_biei
 photo.19.link: https://www.instagram.com/hidehaya_biei/
@@ -110,14 +110,15 @@ photo.24.tags: tongue
 photo.25: https://www.instagram.com/p/BpZUNLfluNA/media/?size=m
 photo.25.author: fetorus_mami
 photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.tags: portrait
 photo.26: https://www.instagram.com/p/BpauZbEl6jT/media/?size=m
 photo.26.author: hidehaya_biei
 photo.26.link: https://www.instagram.com/hidehaya_biei/
-photo.26.tags: baby
+photo.26.tags: baby, portrait
 photo.27: https://www.instagram.com/p/BpiMfNdjyue/media/?size=m
 photo.27.author: hidehaya_biei
 photo.27.link: https://www.instagram.com/hidehaya_biei/
-photo.27.tags: tongue
+photo.27.tags: portrait, tongue
 photo.28: https://www.instagram.com/p/BpjV8IxlXz4/media/?size=m
 photo.28.author: _rifa_p
 photo.28.link: https://www.instagram.com/_rifa_p/
@@ -129,7 +130,7 @@ photo.29.tags: tongue
 photo.30: https://www.instagram.com/p/Bpqa0yKlJT1/media/?size=m
 photo.30.author: hidehaya_biei
 photo.30.link: https://www.instagram.com/hidehaya_biei/
-photo.30.tags: bamboo, home
+photo.30.tags: bamboo, home, portrait
 photo.31: https://www.instagram.com/p/Bpu-wRYlocf/media/?size=m
 photo.31.author: hidehaya_biei
 photo.31.link: https://www.instagram.com/hidehaya_biei/
@@ -141,14 +142,15 @@ photo.32.tags: smile
 photo.33: https://www.instagram.com/p/Bp2-7tUlVTD/media/?size=m
 photo.33.author: fetorus_mami
 photo.33.link: https://www.instagram.com/fetorus_mami/
+photo.33.tags: portrait
 photo.34: https://www.instagram.com/p/BqGuuWzFfVF/media/?size=m
 photo.34.author: hidehaya_biei
 photo.34.link: https://www.instagram.com/hidehaya_biei/
-photo.34.tags: bamboo, smile
+photo.34.tags: bamboo, portrait, smile
 photo.35: https://www.instagram.com/p/BqIyOrJFEtl/media/?size=m
 photo.35.author: panda.daisuki
 photo.35.link: https://www.instagram.com/panda.daisuki/
-photo.35.tags: air tasting, home, laying down, tail, tongue
+photo.35.tags: air tasting, home, laying down, portrait, tail, tongue
 photo.36: https://www.instagram.com/p/BqLYMoEl0cs/media/?size=m
 photo.36.author: hidehaya_biei
 photo.36.link: https://www.instagram.com/hidehaya_biei/
@@ -175,7 +177,7 @@ photo.41.tags: smile
 photo.42: https://www.instagram.com/p/Bq4qF9Llj9j/media/?size=m
 photo.42.author: miis_98
 photo.42.link: https://www.instagram.com/miis_98/
-photo.42.tags: bamboo
+photo.42.tags: bamboo, portrait
 photo.43: https://www.instagram.com/p/Bq_XYBRFWzW/media/?size=m
 photo.43.author: hidehaya_biei
 photo.43.link: https://www.instagram.com/hidehaya_biei/
@@ -209,11 +211,11 @@ photo.50.tags: apple time, smile
 photo.51: https://www.instagram.com/p/Bt54yALlz27/media/?size=m
 photo.51.author: motohin
 photo.51.link: https://www.instagram.com/motohin/
-photo.51.tags: bamboo, home
+photo.51.tags: bamboo, home, portrait
 photo.52: https://www.instagram.com/p/Bt67ckllgyG/media/?size=m
 photo.52.author: hidehaya_biei
 photo.52.link: https://www.instagram.com/hidehaya_biei/
-photo.52.tags: tongue
+photo.52.tags: portrait, tongue
 photo.53: https://www.instagram.com/p/BuAzHp5j3h7/media/?size=m
 photo.53.author: hidehaya_biei
 photo.53.link: https://www.instagram.com/hidehaya_biei/
@@ -229,7 +231,7 @@ photo.55.tags: snow
 photo.56: https://www.instagram.com/p/BuLrPmClTb_/media/?size=m
 photo.56.author: daniele.tokyo
 photo.56.link: https://www.instagram.com/daniele.tokyo/
-photo.56.tags: smile
+photo.56.tags: portrait, smile
 photo.57: https://www.instagram.com/p/BuSTH9ilCDq/media/?size=m
 photo.57.author: hidehaya_biei
 photo.57.link: https://www.instagram.com/hidehaya_biei/
@@ -245,7 +247,7 @@ photo.59.tags: tongue
 photo.60: https://www.instagram.com/p/BuJZ3srFfrk/media/?size=m
 photo.60.author: happy_love2.15
 photo.60.link: https://www.instagram.com/happy_love2.15/
-photo.60.tags: bridge, climb
+photo.60.tags: bridge, climb, portrait
 photo.61: https://www.instagram.com/p/BuYqt1PlhAQ/media/?size=m
 photo.61.author: happy_love2.15
 photo.61.link: https://www.instagram.com/happy_love2.15/
@@ -253,11 +255,11 @@ photo.61.tags: snow, techitechi, tree
 photo.62: https://www.instagram.com/p/Bu7PX4qluDl/media/?size=m
 photo.62.author: hidehaya_biei
 photo.62.link: https://www.instagram.com/hidehaya_biei/
-photo.62.tags: smile
+photo.62.tags: portrait, smile
 photo.63: https://www.instagram.com/p/Bt5DzCFFHQD/media/?size=m
 photo.63.author: happy_love2.15
 photo.63.link: https://www.instagram.com/happy_love2.15/
-photo.63.tags: apple time, smile, tongue
+photo.63.tags: apple time, portrait, smile, tongue
 photo.64: https://www.instagram.com/p/BtloUezFNPL/media/?size=m
 photo.64.author: happy_love2.15
 photo.64.link: https://www.instagram.com/happy_love2.15/
@@ -265,7 +267,7 @@ photo.64.tags: apple time, baby, mofumofu, smile
 photo.65: https://www.instagram.com/p/BtBQ88HlDEw/media/?size=m
 photo.65.author: happy_love2.15
 photo.65.link: https://www.instagram.com/happy_love2.15/
-photo.65.tags: bridge, snow
+photo.65.tags: bridge, portrait, snow
 photo.66: https://www.instagram.com/p/Bs0XudeAEmL/media/?size=m
 photo.66.author: happy_love2.15
 photo.66.link: https://www.instagram.com/happy_love2.15/
@@ -289,7 +291,7 @@ photo.70.tags: bamboo, home, smile
 photo.71: https://www.instagram.com/p/BvrYNgggDcH/media/?size=m
 photo.71.author: miis_98
 photo.71.link: https://www.instagram.com/miis_98/
-photo.71.tags: laying down
+photo.71.tags: laying down, portrait
 photo.72: https://www.instagram.com/p/Bvv_UxxFcrF/media/?size=m
 photo.72.author: rie_panda55
 photo.72.link: apple time, keeper
@@ -300,11 +302,11 @@ photo.73.tags: bamboo, smile
 photo.74: https://www.instagram.com/p/Bv2_Hiwjo-o/media/?size=m
 photo.74.author: hidehaya_biei
 photo.74.link: https://www.instagram.com/hidehaya_biei/
-photo.74.tags: home, tongue
+photo.74.tags: home, portrait, tongue
 photo.75: https://www.instagram.com/p/Bv9WjXLFG4W/media/?size=m
 photo.75.author: minatomirai215
 photo.75.link: https://www.instagram.com/minatomirai215/
-photo.75.tags: smile
+photo.75.tags: portrait, smile
 photo.76: https://www.instagram.com/p/Bv-s1zMlJbp/media/?size=m
 photo.76.author: hidehaya_biei
 photo.76.link: https://www.instagram.com/hidehaya_biei/
@@ -315,18 +317,18 @@ photo.77.tags: paws, smile
 photo.78: https://www.instagram.com/p/BwUB2CUFKYE/media/?size=m
 photo.78.author: ck.chie
 photo.78.link: https://www.instagram.com/ck.chie/
-photo.78.tags: paws
+photo.78.tags: paws, portrait
 photo.79: https://www.instagram.com/p/BwX1mvHlOL2/media/?size=m
 photo.79.author: hidehaya_biei
 photo.79.link: https://www.instagram.com/hidehaya_biei/
 photo.80: https://www.instagram.com/p/Bwf8_o0lQ0I/media/?size=m
 photo.80.author: ifumoto88
 photo.80.link: https://www.instagram.com/ifumoto88/
-photo.80.tags: smile
+photo.80.tags: portrait, smile
 photo.81: https://www.instagram.com/p/Bwf1nqnFAuK/media/?size=m
 photo.81.author: ifumoto88
 photo.81.link: https://www.instagram.com/ifumoto88/
-photo.81.tags: smile
+photo.81.tags: portrait, smile
 photo.82: https://www.instagram.com/p/BxI3y8GlYZs/media/?size=m
 photo.82.author: chocopan102
 photo.82.link: https://www.instagram.com/chocopan102/
@@ -334,7 +336,7 @@ photo.82.tags: techitechi
 photo.83: https://www.instagram.com/p/BU84i-whzjQ/media/?size=m
 photo.83.author: hidehaya_biei
 photo.83.link: https://www.instagram.com/hidehaya_biei/
-photo.83.tags: techitechi
+photo.83.tags: portrait, techitechi
 photo.84: https://www.instagram.com/p/BxQmiCRlJXU/media/?size=m
 photo.84.author: chocopan102
 photo.84.link: https://www.instagram.com/chocopan102/
@@ -346,19 +348,19 @@ photo.85.tags: bamboo, home
 photo.86: https://www.instagram.com/p/BxXZ4jNlquL/media/?size=m
 photo.86.author: mofu_pan
 photo.86.link: https://www.instagram.com/mofu_pan/
-photo.86.tags: smile, tongue
+photo.86.tags: portrait, smile, tongue
 photo.87: https://www.instagram.com/p/Bxl6aZ4lDzC/media/?size=m
 photo.87.author: hidehaya_biei
 photo.87.link: https://www.instagram.com/hidehaya_biei/
-photo.87.tags: nose
+photo.87.tags: nose, portrait
 photo.88: https://www.instagram.com/p/BxyjTVgFcdd/media/?size=m
 photo.88.author: hidehaya_biei
 photo.88.link: https://www.instagram.com/hidehaya_biei/
-photo.88.tags: baby
+photo.88.tags: baby, portrait
 photo.89: https://www.instagram.com/p/ByJRwnGBLIs/media/?size=m
 photo.89.author: re_ichimaru
 photo.89.link: https://www.instagram.com/re_ichimaru/
-photo.89.tags: bridge, laying down, peek
+photo.89.tags: bridge, laying down, peek, portrait, shedding
 photo.90: https://www.instagram.com/p/ByKCEKlB2nD/media/?size=m
 photo.90.author: hidehaya_biei
 photo.90.link: https://www.instagram.com/hidehaya_biei/
