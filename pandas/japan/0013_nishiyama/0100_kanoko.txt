@@ -17,7 +17,7 @@ location.2: 13, 2019/4/1
 photo.1: https://www.instagram.com/p/BjjogmmlBXf/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
-photo.1.tags: bamboo
+photo.1.tags: bamboo, portrait
 photo.2: https://www.instagram.com/p/Bgxfi68glOe/media/?size=m
 photo.2.author: mariten1119
 photo.2.link: https://www.instagram.com/mariten1119/
@@ -25,7 +25,7 @@ photo.2.tags: hammock
 photo.3: https://www.instagram.com/p/Bi_zZhHFGRi/media/?size=m
 photo.3.author: hanamaru_redpanda
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: apple time
+photo.3.tags: apple time, portrait
 photo.4: https://www.instagram.com/p/BjUpbmgFVHW/media/?size=m
 photo.4.author: mariten1119
 photo.4.link: https://www.instagram.com/mariten1119/
@@ -33,15 +33,15 @@ photo.4.tags: bamboo
 photo.5: https://www.instagram.com/p/BkpH93XFFFI/media/?size=m
 photo.5.author: kotata_513
 photo.5.link: https://www.instagram.com/kotata_513/
-photo.5.tags: apple time
+photo.5.tags: apple time, portrait
 photo.6: https://www.instagram.com/p/BnvbOhelHfy/media/?size=m
 photo.6.author: mofu_pan
 photo.6.link: https://www.instagram.com/mofu_pan/
-photo.6.tags: apple time
+photo.6.tags: apple time, portrait
 photo.7: https://www.instagram.com/p/Bn5EdDrF7Yq/media/?size=m
 photo.7.author: ck.chie
 photo.7.link: https://www.instagram.com/ck.chie/
-photo.7.tags: bamboo, tongue
+photo.7.tags: bamboo, portrait, tongue
 photo.8: https://www.instagram.com/p/BnswTS9lHIl/media/?size=m
 photo.8.author: run.swim.shingo
 photo.8.link: https://www.instagram.com/run.swim.shingo/
@@ -52,15 +52,15 @@ photo.9.link: https://www.instagram.com/hiro107ig_zoo/
 photo.10: https://www.instagram.com/p/BonQolOFS3D/media/?size=m
 photo.10.author: kotata_513
 photo.10.link: https://www.instagram.com/kotata_513/
-photo.10.tags: apple time
+photo.10.tags: apple time, portrait
 photo.11: https://www.instagram.com/p/Boxou1gFc-j/media/?size=m
 photo.11.author: kotata_513
 photo.11.link: https://www.instagram.com/kotata_513/
-photo.11.tags: laying down
+photo.11.tags: laying down, portrait
 photo.12: https://www.instagram.com/p/Bo6Yf3bF360/media/?size=m
 photo.12.author: mofu_pan
 photo.12.link: https://www.instagram.com/mofu_pan/
-photo.12.tags: smile
+photo.12.tags: portrait, smile
 photo.13: https://www.instagram.com/p/BpJ22PnFBdq/media/?size=m
 photo.13.author: mofu_pan
 photo.13.link: https://www.instagram.com/mofu_pan/
@@ -75,14 +75,15 @@ photo.15.tags: tree
 photo.16: https://www.instagram.com/p/BpRqGB3FrSd/media/?size=m
 photo.16.author: mofu_pan
 photo.16.link: https://www.instagram.com/mofu_pan/
+photo.16.tags: portrait
 photo.17: https://www.instagram.com/p/Bo8j9pWF-C6/media/?size=m
 photo.17.author: run.swim.shingo
 photo.17.link: https://www.instagram.com/run.swim.shingo/
-photo.17.tags: bamboo
+photo.17.tags: bamboo, portrait
 photo.18: https://www.instagram.com/p/Bp5f3rhlkkn/media/?size=m
 photo.18.author: cabbage_biyori
 photo.18.link: https://www.instagram.com/cabbage_biyori/
-photo.18.tags: apple time
+photo.18.tags: apple time, portrait
 photo.19: https://www.instagram.com/p/BqMlZNnF1SX/media/?size=m
 photo.19.author: hiro107ig_zoo
 photo.19.link: https://www.instagram.com/hiro107ig_zoo/
@@ -90,7 +91,7 @@ photo.19.tags: apple time, tree
 photo.20: https://www.instagram.com/p/Bqw3ag3l7nq/media/?size=m
 photo.20.author: mofu_pan
 photo.20.link: https://www.instagram.com/mofu_pan/
-photo.20.tags: apple time
+photo.20.tags: apple time, portrait
 photo.21: https://www.instagram.com/p/BqzfUTVFhmc/media/?size=m
 photo.21.author: mofu_pan
 photo.21.link: https://www.instagram.com/mofu_pan/
@@ -106,10 +107,11 @@ photo.23.tags: apple time, profile, standing, tree
 photo.24: https://www.instagram.com/p/BrtwUwglalT/media/?size=m
 photo.24.author: craig_craig_craig
 photo.24.link: https://www.instagram.com/craig_craig_craig/
+photo.24.tags: portrait
 photo.25: https://www.instagram.com/p/BrwAeX_F6lr/media/?size=m
 photo.25.author: kotata_513
 photo.25.link: https://www.instagram.com/kotata_513/
-photo.25.tags: bamboo, tongue
+photo.25.tags: bamboo, portrait, tongue
 photo.26: https://www.instagram.com/p/Bu_EGg_FUtA/media/?size=m
 photo.26.author: cabbage_biyori
 photo.26.link: https://www.instagram.com/cabbage_biyori/
@@ -117,19 +119,19 @@ photo.26.tags: bridge, paws, tongue
 photo.27: https://www.instagram.com/p/Bu_iszmFJp-/media/?size=m
 photo.27.author: mofu_pan
 photo.27.link: https://www.instagram.com/mofu_pan/
-photo.27.tags: bamboo, smile
+photo.27.tags: bamboo, portrait, smile
 photo.28: https://www.instagram.com/p/BvBkTuiFoI8/media/?size=m
 photo.28.author: nakayamanoboru6981
 photo.28.link: https://www.instagram.com/nakayamanoboru6981/
-photo.28.tags: apple time
+photo.28.tags: apple time, portrait
 photo.29: https://www.instagram.com/p/BvEldbAlK5X/media/?size=m
 photo.29.author: mofu_pan
 photo.29.link: https://www.instagram.com/mofu_pan/
-photo.29.tags: apple time, hammock
+photo.29.tags: apple time, hammock, portrait
 photo.30: https://www.instagram.com/p/BvEkNoilNY0/media/?size=m
 photo.30.author: mofu_pan
 photo.30.link: https://www.instagram.com/mofu_pan/
-photo.30.tags: bamboo, smile
+photo.30.tags: bamboo, portrait, smile
 photo.31: https://www.instagram.com/p/BvIj-Yml9kM/media/?size=m
 photo.31.author: ck.chie
 photo.31.link: https://www.instagram.com/ck.chie/

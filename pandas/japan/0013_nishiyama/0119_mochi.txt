@@ -15,11 +15,11 @@ litter: 52
 photo.1: https://www.instagram.com/p/Bj0p40-F5Hq/media/?size=m
 photo.1.author: mugicha0312
 photo.1.link: https://www.instagram.com/mugicha0312/
-photo.1.tags: mofumofu, profile
+photo.1.tags: mofumofu, portrait, profile
 photo.2: https://www.instagram.com/p/BiTx58MFJLj/media/?size=m
 photo.2.author: colette.jp
 photo.2.link: https://www.instagram.com/colette.jp/
-photo.2.tags: wet
+photo.2.tags: portrait, wet
 photo.3: https://www.instagram.com/p/BgoCSpdg7oH/media/?size=m
 photo.3.author: mikaamihara
 photo.3.link: https://www.instagram.com/mikaamihara/
@@ -27,74 +27,81 @@ photo.3.tags: laying down, yawn
 photo.4: https://www.instagram.com/p/BiD6dColvdw/media/?size=m
 photo.4.author: mugicha0312
 photo.4.link: https://www.instagram.com/mugicha0312/
-photo.4.tags: dish, laying down
+photo.4.tags: dish, laying down, portrait
 photo.5: https://www.instagram.com/p/BnkmRfuhK-7/media/?size=m
 photo.5.author: ayusuke56
 photo.5.link: https://www.instagram.com/ayusuke56/
-photo.5.tags: apple time, dish
+photo.5.tags: apple time, dish, home, portrait
 photo.6: https://www.instagram.com/p/BnqwZfDliJv/media/?size=m
 photo.6.author: minato.yokohama2130
 photo.6.link: https://www.instagram.com/minato.yokohama2130/
-photo.6.tags: smile
+photo.6.tags: portrait, smile
 photo.7: https://www.instagram.com/p/Bn_EGF_lO1x/media/?size=m
 photo.7.author: mugicha0312
 photo.7.link: https://www.instagram.com/mugicha0312/
-photo.7.tags: air tasting, blink, laying down, tongue
+photo.7.tags: air tasting, blink, laying down, portrait, tongue
 photo.8: https://www.instagram.com/p/BoENJfBFq1I/media/?size=m
 photo.8.author: i.satosato
 photo.8.link: https://www.instagram.com/i.satosato/
-photo.8.tags: smile, tongue
+photo.8.tags: portrait, smile, tongue
 photo.9: https://www.instagram.com/p/BoOfNRWFpXA/media/?size=m
 photo.9.author: minato.yokohama2130
 photo.9.link: https://www.instagram.com/minato.yokohama2130/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BoXv6pglC9v/media/?size=m
 photo.10.author: mugicha0312
 photo.10.link: https://www.instagram.com/mugicha0312/
-photo.10.tags: blink, tongue
+photo.10.tags: blink, portrait, tongue
 photo.11: https://www.instagram.com/p/BolUzBYFAM6/media/?size=m
 photo.11.author: redpanda77f
 photo.11.link: https://www.instagram.com/redpanda77f/
 photo.12: https://www.instagram.com/p/BovgU7BFHTc/media/?size=m
 photo.12.author: mugicha0312
 photo.12.link: https://www.instagram.com/mugicha0312/
-photo.12.tags: apple time, blink
+photo.12.tags: apple time, blink, home, portrait
 photo.13: https://www.instagram.com/p/Bo4FqobFg8R/media/?size=m
 photo.13.author: minato.yokohama2130
 photo.13.link: https://www.instagram.com/minato.yokohama2130/
-photo.13.tags: bamboo, smile
+photo.13.tags: bamboo, portrait, smile
 photo.14: https://www.instagram.com/p/BpMY-xFFbvL/media/?size=m
 photo.14.author: kinkinkin0826
 photo.14.link: https://www.instagram.com/kinkinkin0826/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BpNccdWFboE/media/?size=m
 photo.15.author: minato.yokohama2130
 photo.15.link: https://www.instagram.com/minato.yokohama2130/
+photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/BpOxbJhFAEd/media/?size=m
 photo.16.author: gloryeui
 photo.16.link: https://www.instagram.com/gloryeui/
-photo.16.tags: apple time, dish
+photo.16.tags: apple time, dish, home, portrait
 photo.17: https://www.instagram.com/p/Bpb9KW6ld4g/media/?size=m
 photo.17.author: mikaamihara
 photo.17.link: https://www.instagram.com/mikaamihara/
-photo.17.tags: laying down, tongue
+photo.17.tags: laying down, portrait, tongue
 photo.18: https://www.instagram.com/p/BpxxPP_FJ1W/media/?size=m
 photo.18.author: mugicha0312
 photo.18.link: https://www.instagram.com/mugicha0312/
+photo.18.tags: portrait
 photo.19: https://www.instagram.com/p/Bpyt29rlrbP/media/?size=m
 photo.19.author: minato.yokohama2130
 photo.19.link: https://www.instagram.com/minato.yokohama2130/
-photo.19.tags: tongue
+photo.19.tags: portrait, tongue
 photo.20: https://www.instagram.com/p/Bp6nruMlSG6/media/?size=m
 photo.20.author: minato.yokohama2130
 photo.20.link: https://www.instagram.com/minato.yokohama2130/
 photo.21: https://www.instagram.com/p/BqwgaglFWT0/media/?size=m
 photo.21.author: minato.yokohama2130
 photo.21.link: https://www.instagram.com/minato.yokohama2130/
+photo.21.tags: portrait
 photo.22: https://www.instagram.com/p/Bq7BLIkFAQP/media/?size=m
 photo.22.author: minato.yokohama2130
 photo.22.link: https://www.instagram.com/minato.yokohama2130/
+photo.22.tags: portrait
 photo.23: https://www.instagram.com/p/Bqyi7R1nzWZ/media/?size=m
 photo.23.author: yakko____
 photo.23.link: https://www.instagram.com/yakko____/
+photo.23.tags: portrait
 photo.24: https://www.instagram.com/p/BrIYqtTlpJY/media/?size=m
 photo.24.author: redpanda77f
 photo.24.link: https://www.instagram.com/redpanda77f/
@@ -102,29 +109,31 @@ photo.24.tags: apple time
 photo.25: https://www.instagram.com/p/BrP6aqTFjit/media/?size=m
 photo.25.author: mugicha0312
 photo.25.link: https://www.instagram.com/mugicha0312/
+photo.25.tags: portrait
 photo.26: https://www.instagram.com/p/BriPSp5HQs5/media/?size=m
 photo.26.author: minato.yokohama2130
 photo.26.link: https://www.instagram.com/minato.yokohama2130/
-photo.26.tags: laying down
+photo.26.tags: laying down, portrait
 photo.27: https://www.instagram.com/p/BrjrvevlzgZ/media/?size=m
 photo.27.author: mugicha0312
 photo.27.link: https://www.instagram.com/mugicha0312/
-photo.27.tags: paws
+photo.27.tags: paws, portrait
 photo.28: https://www.instagram.com/p/Br9zBunFVIf/media/?size=m
 photo.28.author: minato.yokohama2130
 photo.28.link: https://www.instagram.com/minato.yokohama2130/
-photo.28.tags: wet
+photo.28.tags: portrait, wet
 photo.29: https://www.instagram.com/p/BsS81K9ldVh/media/?size=m
 photo.29.author: mugicha0312
 photo.29.link: https://www.instagram.com/mugicha0312/
+photo.29.tags: portrait
 photo.30: https://www.instagram.com/p/BsXnBNoglbZ/media/?size=m
 photo.30.author: resapanlove
 photo.30.link: https://www.instagram.com/resapanlove/
-photo.30.tags: bamboo, tongue
+photo.30.tags: bamboo, portrait, tongue
 photo.31: https://www.instagram.com/p/BskixXfnD9d/media/?size=m
 photo.31.author: minato.yokohama2130
 photo.31.link: https://www.instagram.com/minato.yokohama2130/
-photo.31.tags: mofumofu
+photo.31.tags: mofumofu, portrait
 photo.32: https://www.instagram.com/p/BsrzSqAFl7E/media/?size=m
 photo.32.author: mugicha0312
 photo.32.link: https://www.instagram.com/mugicha0312/
@@ -132,15 +141,15 @@ photo.32.tags: standing
 photo.33: https://www.instagram.com/p/BtVVOP_FEhQ/media/?size=m
 photo.33.author: joy93.87
 photo.33.link: https://www.instagram.com/joy93.87/
-photo.33.tags: bamboo
+photo.33.tags: bamboo, portrait
 photo.34: https://www.instagram.com/p/BudZDTVleT7/media/?size=m
 photo.34.author: gloryeui
 photo.34.link: https://www.instagram.com/p/BudZDTVleT7/media/?size=m
-photo.34.tags: laying down, mofumofu, smile, tongue
+photo.34.tags: laying down, mofumofu, portrait, smile, tongue
 photo.35: https://www.instagram.com/p/BwJguRXl5S2/media/?size=m
 photo.35.author: minato.yokohama2130
 photo.35.link: https://www.instagram.com/minato.yokohama2130/
-photo.35.tags: grumpy, shedding
+photo.35.tags: grumpy, portrait, shedding
 photo.36: https://www.instagram.com/p/BxRJnR5lJZA/media/?size=m
 photo.36.author: ruru_maki
 photo.36.link: https://www.instagram.com/ruru_maki/
@@ -156,6 +165,6 @@ photo.38.tags: dish, lunch time
 photo.39: https://www.instagram.com/p/ByNfgGNhmxt/media/?size=m
 photo.39.author: mugicha0312
 photo.39.link: https://www.instagram.com/mugicha0312/
-photo.39.tags: grooming, paws, tongue
+photo.39.tags: grooming, paws, portrait, tongue
 species: 2
 zoo: 13

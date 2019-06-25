@@ -25,18 +25,19 @@ photo.2.tags: profile
 photo.3: https://www.instagram.com/p/BeyvlZsn9gI/media/?size=m
 photo.3.author: kotata_513
 photo.3.link: https://www.instagram.com/kotata_513/
-photo.3.tags: smile
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/BfPyGUmnp08/media/?size=m
 photo.4.author: kotata_513
 photo.4.link: https://www.instagram.com/kotata_513/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BjEaznZl6in/media/?size=m
 photo.5.author: kotata_513
 photo.5.link: https://www.instagram.com/kotata_513/
-photo.5.tags: bamboo
+photo.5.tags: bamboo, portrait
 photo.6: https://www.instagram.com/p/Bn44h_nl9EU/media/?size=m
 photo.6.author: minatomirai215
 photo.6.link: https://www.instagram.com/minatomirai215/
-photo.6.tags: home, laying down
+photo.6.tags: home, laying down, portrait
 photo.7: https://www.instagram.com/p/Bn8LbECFUfA/media/?size=m
 photo.7.author: run.swim.shingo
 photo.7.link: https://www.instagram.com/run.swim.shingo/
@@ -44,14 +45,15 @@ photo.7.tags: wet
 photo.8: https://www.instagram.com/p/BnwswThlLxS/media/?size=m
 photo.8.author: run.swim.shingo
 photo.8.link: https://www.instagram.com/run.swim.shingo/
-photo.8.tags: wet
+photo.8.tags: portrait, wet
 photo.9: https://www.instagram.com/p/Bo-MVR_lqPB/media/?size=m
 photo.9.author: kotata_513
 photo.9.link: https://www.instagram.com/kotata_513/
-photo.9.tags: smile
+photo.9.tags: portrait, smile
 photo.10: https://www.instagram.com/p/BqHMxx8AfiG/media/?size=m
 photo.10.author: xmarurux
 photo.10.link: https://www.instagram.com/xmarurux/
+photo.10.tags: door, portrait, window
 photo.11: https://www.instagram.com/p/BrSVEREFl6G/media/?size=m
 photo.11.author: framereim
 photo.11.link: https://www.instagram.com/framereim/
@@ -62,19 +64,19 @@ photo.12.link: https://www.instagram.com/rie_panda55/
 photo.13: https://www.instagram.com/p/BrzIzD_Flyt/media/?size=m
 photo.13.author: kotata_513
 photo.13.link: https://www.instagram.com/kotata_513/
-photo.13.tags: itchy, tail
+photo.13.tags: itchy, portrait, tail
 photo.14: https://www.instagram.com/p/BuAercPFOoC/media/?size=m
 photo.14.author: tabechum
 photo.14.link: https://www.instagram.com/tabechum/
-photo.14.tags: tongue
+photo.14.tags: portrait, tongue
 photo.15: https://www.instagram.com/p/BpuQHJFgyUP/media/?size=m
 photo.15.author: happy_love2.15
 photo.15.link: https://www.instagram.com/happy_love2.15/
-photo.15.tags: flowers, paws, smile
+photo.15.tags: flowers, paws, portrait, smile
 photo.16: https://www.instagram.com/p/BwGJeJNlm7H/media/?size=m
 photo.16.author: kotata_513
 photo.16.link: https://www.instagram.com/kotata_513/
-photo.16.tags: smile
+photo.16.tags: portrait, smile
 photo.17: https://www.instagram.com/p/BwqbbqdlxMe/media/?size=m
 photo.17.author: tabechum
 photo.17.link: https://www.instagram.com/tabechum/
