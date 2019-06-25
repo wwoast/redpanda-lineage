@@ -19,31 +19,34 @@ location.2: 13, 2016/3/16
 photo.1: https://www.instagram.com/p/BWNYpN7Ao7e/media/?size=m
 photo.1.author: minatomirai215
 photo.1.link: https://www.instagram.com/minatomirai215/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/BgXLFGGl7zz/media/?size=m
 photo.2.author: tomo3700
 photo.2.link: https://www.instagram.com/tomo3700/
+photo.2.tags: portrait
 photo.3: https://www.instagram.com/p/BgmoX3Kl1Y9/media/?size=m
 photo.3.author: resapanlove
 photo.3.link: https://www.instagram.com/resapanlove/
+photo.3.tags: home, portrait
 photo.4: https://www.instagram.com/p/BlX6_Vdl8ab/media/?size=m
 photo.4.author: nakacchi_desu
 photo.4.link: https://www.instagram.com/nakacchi_desu/
 photo.5: https://www.instagram.com/p/BoKr-pFFaAq/media/?size=m
 photo.5.author: tomo3700
 photo.5.link: https://www.instagram.com/tomo3700/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BpgAZ8zFgQQ/media/?size=m
 photo.6.author: gloryeui
 photo.6.link: https://www.instagram.com/gloryeui/
-photo.6.tags: laying down
+photo.6.tags: laying down, portrait
 photo.7: https://www.instagram.com/p/BptAClxlw3a/media/?size=m
 photo.7.author: redpanda77f
 photo.7.link: https://www.instagram.com/redpanda77f/
-photo.7.tags: yawn
+photo.7.tags: portrait, yawn
 photo.8: https://www.instagram.com/p/Bqn_or7Fa7c/media/?size=m
 photo.8.author: tomo3700
 photo.8.link: https://www.instagram.com/tomo3700/
-photo.8.tags: tongue
+photo.8.tags: portrait, tongue
 photo.9: https://www.instagram.com/p/Bq8jvUCF5qN/media/?size=m
 photo.9.author: redpanda_nippon_takashi
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -51,6 +54,7 @@ photo.9.tags: snow
 photo.10: https://www.instagram.com/p/BqjoBNTHitR/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Bs-jBMcFTdK/media/?size=m
 photo.11.author: redpanda77f
 photo.11.link: https://www.instagram.com/redpanda77f/
@@ -58,18 +62,19 @@ photo.11.tags: bamboo, smile, standing
 photo.12: https://www.instagram.com/p/BtDkEUXlwOS/media/?size=m
 photo.12.author: gloryeui
 photo.12.link: https://www.instagram.com/gloryeui/
-photo.12.tags: smile
+photo.12.tags: portrait, smile
 photo.13: https://www.instagram.com/p/BtLktjSFGrc/media/?size=m
 photo.13.author: mugicha0312
 photo.13.link: https://www.instagram.com/mugicha0312/
-photo.13.tags: smile
+photo.13.tags: portrait, smile
 photo.14: https://www.instagram.com/p/BtjNhuUFJvz/media/?size=m
 photo.14.author: gloryeui
 photo.14.link: https://www.instagram.com/gloryeui/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BtnpYOxlLZD/media/?size=m
 photo.15.author: mugicha0312
 photo.15.link: https://www.instagram.com/mugicha0312/
-photo.15.tags: apple time, dish, lunch time, paws
+photo.15.tags: apple time, dish, lunch time, paws, portrait
 photo.16: https://www.instagram.com/p/BwEuL_xFhEL/media/?size=m
 photo.16.author: kinkinkin0826
 photo.16.link: https://www.instagram.com/kinkinkin0826/
@@ -77,7 +82,7 @@ photo.16.tags: bridge
 photo.17: https://www.instagram.com/p/BwKYYqpl9eQ/media/?size=m
 photo.17.author: akiakiakiko18
 photo.17.link: https://www.instagram.com/akiakiakiko18/
-photo.17.tags: apple time, mofumofu, tail
+photo.17.tags: apple time, mofumofu, portrait, tail
 photo.18: https://www.instagram.com/p/BwLTgdCFZwR/media/?size=m
 photo.18.author: nakacchi_desu
 photo.18.link: https://www.instagram.com/nakacchi_desu/
@@ -89,15 +94,15 @@ photo.19.tags: tail, tree
 photo.20: https://www.instagram.com/p/BxSJWFxFggC/media/?size=m
 photo.20.author: mugicha0312
 photo.20.link: https://www.instagram.com/mugicha0312/
-photo.20.tags: lips, smile
+photo.20.tags: lips, portrait, smile
 photo.21: https://www.instagram.com/p/Bxeo38blUGe/media/?size=m
 photo.21.author: colette.jp
 photo.21.link: https://www.instagram.com/colette.jp/
-photo.21.tags: tree
+photo.21.tags: portrait, tree
 photo.22: https://www.instagram.com/p/BxkM0jGlqqM/media/?size=m
 photo.22.author: mugicha0312
 photo.22.link: https://www.instagram.com/mugicha0312/
-photo.22.tags: bamboo
+photo.22.tags: bamboo, portrait
 photo.23: https://www.instagram.com/p/BxwIyjIFmcA/media/?size=m
 photo.23.author: redpanda77f
 photo.23.link: https://www.instagram.com/redpanda77f/
@@ -105,13 +110,15 @@ photo.23.tags: portrait
 photo.24: https://www.instagram.com/p/ByYuNJmhSxU/media/?size=m
 photo.24.author: tomo3700
 photo.24.link: https://www.instagram.com/tomo3700/
-photo.24.tags: tree
+photo.24.tags: portrait, tree
 photo.25: https://www.instagram.com/p/ByXo-cphBa9/media/?size=m
 photo.25.author: gloryeui
 photo.25.link: https://www.instagram.com/gloryeui/
+photo.25.tags: portrait
 photo.26: https://www.instagram.com/p/ByZ4jXlBV3r/media/?size=m
 photo.26.author: gloryeui
 photo.26.link: https://www.instagram.com/gloryeui/
+photo.26.tags: portrait
 photo.27: https://www.instagram.com/p/Byzyp7BBFSB/media/?size=m
 photo.27.author: daniele.tokyo
 photo.27.link: https://www.instagram.com/daniele.tokyo/
