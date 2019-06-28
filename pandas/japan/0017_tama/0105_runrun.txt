@@ -15,24 +15,26 @@ litter: 36
 photo.1: https://www.instagram.com/p/Bjt78FclniF/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/Bk41aEmFQ5N/media/?size=m
 photo.2.author: mariten1119
 photo.2.link: https://www.instagram.com/mariten1119/
 photo.3: https://www.instagram.com/p/BlBwN8llPDB/media/?size=m
 photo.3.author: _natsu_panda_
 photo.3.link: https://www.instagram.com/_natsu_panda_/
-photo.3.tags: grooming, tongue, tail
+photo.3.tags: grooming, portrait, tongue, tail
 photo.4: https://www.instagram.com/p/BpgQHeHgGtz/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
-photo.4.tags: tail
+photo.4.tags: portrait, tail
 photo.5: https://www.instagram.com/p/Bpt-m6PFisl/media/?size=m
 photo.5.author: roko_mm
 photo.5.link: https://www.instagram.com/roko_mm/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BpwgY5Ul3uL/media/?size=m
 photo.6.author: mofu_pan
 photo.6.link: https://www.instagram.com/mofu_pan/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Bp7dCzflEtc/media/?size=m
 photo.7.author: hiro107ig_zoo
 photo.7.link: https://www.instagram.com/hiro107ig_zoo/
@@ -47,25 +49,27 @@ photo.9.link: https://www.instagram.com/hiro107ig_zoo/
 photo.10: https://www.instagram.com/p/BqTjrialL6T/media/?size=m
 photo.10.author: kotata_513
 photo.10.link: https://www.instagram.com/kotata_513/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Be2gwz4lW-p/media/?size=m
 photo.11.author: hanamaru_redpanda
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.11.tags: snow
+photo.11.tags: portrait, snow
 photo.12: https://www.instagram.com/p/BrOOF0xl294/media/?size=m
 photo.12.author: _natsu_panda_
 photo.12.link: https://www.instagram.com/_natsu_panda_/
-photo.12.tags: tree
+photo.12.tags: portrait, tree
 photo.13: https://www.instagram.com/p/Bq7P91YFQu0/media/?size=m
 photo.13.author: _natsu_panda_
 photo.13.link: https://www.instagram.com/_natsu_panda_/
-photo.13.tags: climb
+photo.13.tags: climb, portrait
 photo.14: https://www.instagram.com/p/BsPjPxkF1V0/media/?size=m
 photo.14.author: kotata_513
 photo.14.link: https://www.instagram.com/kotata_513/
-photo.14.tags: smile
+photo.14.tags: bridge, portrait, smile
 photo.15: https://www.instagram.com/p/BtkWQM7lNLR/media/?size=m
 photo.15.author: resapan.suki
 photo.15.link: https://www.instagram.com/resapan.suki/
+photo.15.tags: bridge, portrait
 photo.16: https://www.instagram.com/p/BuMr5ail7kZ/media/?size=m
 photo.16.author: wumpwoast
 photo.16.link: https://www.instagram.com/wumpwoast/

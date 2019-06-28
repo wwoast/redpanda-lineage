@@ -19,11 +19,11 @@ photo.1.tags: baby, smile, tree
 photo.2: https://www.instagram.com/p/BpgLzk1Frqm/media/?size=m
 photo.2.author: na.mo.pan
 photo.2.link: https://www.instagram.com/na.mo.pan/
-photo.2.tags: baby, home
+photo.2.tags: baby, home, portrait
 photo.3: https://www.instagram.com/p/BqCNqaLFrSm/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: baby, standing, tail
+photo.3.tags: baby, portrait, standing, tail
 photo.4: https://www.instagram.com/p/BqFIo_WFvRo/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -35,23 +35,23 @@ photo.5.tags: baby, mofumofu
 photo.6: https://www.instagram.com/p/Bp_-xeKFDuH/media/?size=m
 photo.6.author: panda.daisuki
 photo.6.link: https://www.instagram.com/panda.daisuki/
-photo.6.tags: autumn, baby
+photo.6.tags: autumn, baby, portrait
 photo.7: https://www.instagram.com/p/BqM9vNlFlVe/media/?size=m
 photo.7.author: panda.daisuki
 photo.7.link: https://www.instagram.com/panda.daisuki/
-photo.7.tags: baby, lunch time, mofumofu
+photo.7.tags: baby, lunch time, mofumofu, portrait
 photo.8: https://www.instagram.com/p/BqTzTKxlYE0/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
-photo.8.tags: baby, mofumofu, tail
+photo.8.tags: baby, mofumofu, portrait, tail
 photo.9: https://www.instagram.com/p/BqUSv-CFqIp/media/?size=m
 photo.9.author: fetorus_mami
 photo.9.link: https://www.instagram.com/fetorus_mami/
-photo.9.tags: baby
+photo.9.tags: baby, portrait
 photo.10: https://www.instagram.com/p/Bqnxti9APe-/media/?size=m
 photo.10.author: miis_98
 photo.10.link: https://www.instagram.com/miis_98/
-photo.10.tags: autumn, profile
+photo.10.tags: autumn, portrait, profile
 photo.11: https://www.instagram.com/p/BrfUp1wBGzT/media/?size=m
 photo.11.author: take_421
 photo.11.link: https://www.instagram.com/take_421/
@@ -59,19 +59,19 @@ photo.11.tags: tail
 photo.12: https://www.instagram.com/p/BrfUV7mBtLp/media/?size=m
 photo.12.author: take_421
 photo.12.link: https://www.instagram.com/take_421/
-photo.12.tags: standing
+photo.12.tags: portrait, standing
 photo.13: https://www.instagram.com/p/Btp2H6oFpo7/media/?size=m
 photo.13.author: miis_98
 photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: grumpy, mofumofu
+photo.13.tags: grumpy, mofumofu, portrait
 photo.14: https://www.instagram.com/p/Bt52dIulks5/media/?size=m
 photo.14.author: ifumoto88
 photo.14.link: https://www.instagram.com/ifumoto88/
-photo.14.tags: bridge
+photo.14.tags: bridge, portrait
 photo.15: https://www.instagram.com/p/BuBodBEl2Re/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
-photo.15.tags: baby, paws
+photo.15.tags: baby, paws, portrait
 photo.16: https://www.instagram.com/p/BuBoo9vl-Jv/media/?size=m
 photo.16.author: fetorus_mami
 photo.16.link: https://www.instagram.com/fetorus_mami/
@@ -83,7 +83,7 @@ photo.17.tags: bamboo, smile
 photo.18: https://www.instagram.com/p/BubF_LuFxi_/media/?size=m
 photo.18.author: minatomirai215
 photo.18.link: https://www.instagram.com/minatomirai215/
-photo.18.tags: bamboo, smile
+photo.18.tags: bamboo, portrait, smile
 photo.19: https://www.instagram.com/p/BptjDgdgNMh/media/?size=m
 photo.19.author: happy_love2.15
 photo.19.link: https://www.instagram.com/happy_love2.15/
@@ -99,35 +99,35 @@ photo.21.tags: baby, bridge
 photo.22: https://www.instagram.com/p/Bxe3iTAl1T9/media/?size=m
 photo.22.author: tama67photo
 photo.22.link: https://www.instagram.com/tama67photo/
-photo.22.tags: home, yawn
+photo.22.tags: home, portrait, yawn
 photo.23: https://www.instagram.com/p/BxvvgxFltTV/media/?size=m
 photo.23.author: happy_love2.15
 photo.23.link: https://www.instagram.com/happy_love2.15/
-photo.23.tags: bridge, smile, tongue, tree
+photo.23.tags: bridge, portrait, smile, tongue, tree
 photo.24: https://www.instagram.com/p/ByANEqUhyN0/media/?size=m
 photo.24.author: tama67photo
 photo.24.link: https://www.instagram.com/tama67photo/
-photo.24.tags: smile
+photo.24.tags: portrait, smile
 photo.25: https://www.instagram.com/p/ByC4lGhhVqj/media/?size=m
 photo.25.author: tama67photo
 photo.25.link: https://www.instagram.com/tama67photo/
-photo.25.tags: standing
+photo.25.tags: portrait, standing
 photo.26: https://www.instagram.com/p/ByFSqRCBU2w/media/?size=m
 photo.26.author: tama67photo
 photo.26.link: https://www.instagram.com/tama67photo/
-photo.26.tags: tongue
+photo.26.tags: portrait, tongue
 photo.27: https://www.instagram.com/p/ByFTP_1hT7a/media/?size=m
 photo.27.author: tama67photo
 photo.27.link: https://www.instagram.com/tama67photo/
-photo.27.tags: bridge, laying down, tongue
+photo.27.tags: bridge, laying down, portrait, tongue
 photo.28: https://www.instagram.com/p/ByMNQMcBlwJ/media/?size=m
 photo.28.author: fetorus_mami
 photo.28.link: https://www.instagram.com/fetorus_mami/
-photo.28.tags: bridge, mofumofu, tongue
+photo.28.tags: bridge, mofumofu, portrait, tongue
 photo.29: https://www.instagram.com/p/ByXXIAHBylF/media/?size=m
 photo.29.author: tama67photo
 photo.29.link: https://www.instagram.com/tama67photo/
-photo.29.tags: bridge, yawn
+photo.29.tags: bridge, portrait, yawn
 photo.30: https://www.instagram.com/p/ByXXU0bhJnD/media/?size=m
 photo.30.author: tama67photo
 photo.30.link: https://www.instagram.com/tama67photo/

@@ -16,7 +16,7 @@ litter: 247
 photo.1: https://www.instagram.com/p/BoelYg-FNK7/media/?size=m
 photo.1.author: na.mo.pan
 photo.1.link: https://www.instagram.com/na.mo.pan/
-photo.1.tags: baby
+photo.1.tags: baby, portrait
 photo.2: https://www.instagram.com/p/BolKk3OlEw-/media/?size=m
 photo.2.author: ifumoto88
 photo.2.link: https://www.instagram.com/ifumoto88/
@@ -28,7 +28,7 @@ photo.3.tags: baby
 photo.4: https://www.instagram.com/p/Bo1fNk5lCEV/media/?size=m
 photo.4.author: pankatushitemasu
 photo.4.link: https://www.instagram.com/pankatushitemasu/
-photo.4.tags: baby
+photo.4.tags: baby, portrait
 photo.5: https://www.instagram.com/p/Bo_OHFll5bZ/media/?size=m
 photo.5.author: redpanda_nippon_takashi
 photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -40,7 +40,7 @@ photo.6.tags: baby
 photo.7: https://www.instagram.com/p/Bpp6UQ0Fwvu/media/?size=m
 photo.7.author: redpanda_nippon_takashi
 photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.7.tags: baby, bamboo
+photo.7.tags: baby, bamboo, portrait
 photo.8: https://www.instagram.com/p/Bpttsy0lXTs/media/?size=m
 photo.8.author: 218_yu
 photo.8.link: https://www.instagram.com/218_yu/
@@ -48,9 +48,11 @@ photo.8.tags: baby
 photo.9: https://www.instagram.com/p/BptqorRlDZM/media/?size=m
 photo.9.author: 218_yu
 photo.9.link: https://www.instagram.com/218_yu/
+photo.9.tags: baby, portrait
 photo.10: https://www.instagram.com/p/BqIGJOGlwl9/media/?size=m
 photo.10.author: na.mo.pan
 photo.10.link: https://www.instagram.com/na.mo.pan/
+photo.10.tags: baby, paws, portrait
 photo.11: https://www.instagram.com/p/BqIviZRFF_w/media/?size=m
 photo.11.author: redpanda_nippon_takashi
 photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -62,37 +64,39 @@ photo.12.tags: bamboo
 photo.13: https://www.instagram.com/p/BqSEtqpFwoU/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
-photo.13.tags: tree
+photo.13.tags: portrait, tree
 photo.14: https://www.instagram.com/p/BqTlkWWlY3d/media/?size=m
 photo.14.author: panda.daisuki
 photo.14.link: https://www.instagram.com/panda.daisuki/
-photo.14.tags: tree
+photo.14.tags: portrait, tree
 photo.15: https://www.instagram.com/p/BqUR1oKl1ua/media/?size=m
 photo.15.author: 218_yu
 photo.15.link: https://www.instagram.com/218_yu/
-photo.15.tags: tree
+photo.15.tags: portrait, tree
 photo.16: https://www.instagram.com/p/BqbH-4Fly3s/media/?size=m
 photo.16.author: minatomirai215
 photo.16.link: https://www.instagram.com/minatomirai215/
+photo.16.tags: home, portrait
 photo.17: https://www.instagram.com/p/BqhyYpCl7Al/media/?size=m
 photo.17.author: lespan33
 photo.17.link: https://www.instagram.com/lespan33/
-photo.17.tags: autumn, tree
+photo.17.tags: autumn, portrait, tree
 photo.18: https://www.instagram.com/p/Bq5yLjUlQX4/media/?size=m
 photo.18.author: tomo3700
 photo.18.link: https://www.instagram.com/tomo3700/
+photo.18.tags: laying down, paws, portrait, upside-down
 photo.19: https://www.instagram.com/p/Bq8xTA4FRed/media/?size=m
 photo.19.author: ck.chie
 photo.19.link: https://www.instagram.com/ck.chie/
-photo.19.tags: autumn, tree, smile
+photo.19.tags: autumn, portrait, tree, smile
 photo.20: https://www.instagram.com/p/BrKrKKxFC79/media/?size=m
 photo.20.author: ifumoto88
 photo.20.link: https://www.instagram.com/ifumoto88/
-photo.20.tags: bamboo
+photo.20.tags: bamboo, portrait
 photo.21: https://www.instagram.com/p/BrSXRl-F6gC/media/?size=m
 photo.21.author: leonard_redmof
 photo.21.link: https://www.instagram.com/leonard_redmof/
-photo.21.tags: autumn, tree
+photo.21.tags: autumn, portrait, tree
 photo.22: https://www.instagram.com/p/BrkMPcKlBBD/media/?size=m
 photo.22.author: 218_yu
 photo.22.link: https://www.instagram.com/218_yu/
@@ -104,16 +108,18 @@ photo.23.tags: autumn, tree
 photo.24: https://www.instagram.com/p/Br2gbjwF3N5/media/?size=m
 photo.24.author: ifumoto88
 photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: laying down, paws, portrait, upside-down
 photo.25: https://www.instagram.com/p/Br2hJlbFwMg/media/?size=m
 photo.25.author: ifumoto88
 photo.25.link: https://www.instagram.com/ifumoto88/
 photo.26: https://www.instagram.com/p/BsLDDhWFm35/media/?size=m
 photo.26.author: ifumoto88
 photo.26.link: https://www.instagram.com/ifumoto88/
-photo.26.tags: tree
+photo.26.tags: bite, portrait, tree
 photo.27: https://www.instagram.com/p/Br42E2kFp8b/media/?size=m
 photo.27.author: ifumoto88
 photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: portrait
 photo.28: https://www.instagram.com/p/Bs0UHS7lRlb/media/?size=m
 photo.28.author: ifumoto88
 photo.28.link: https://www.instagram.com/ifumoto88/
@@ -129,10 +135,11 @@ photo.30.tags: climb, home, standing
 photo.31: https://www.instagram.com/p/BtOAq0DlQO8/media/?size=m
 photo.31.author: ifumoto88
 photo.31.link: https://www.instagram.com/ifumoto88/
-photo.31.tags: laying down, paws, tree
+photo.31.tags: laying down, paws, portrait, tree
 photo.32: https://www.instagram.com/p/BtnZ3dNl8OC/media/?size=m
 photo.32.author: ifumoto88
 photo.32.link: https://www.instagram.com/ifumoto88/
+photo.32.tags: portrait, surprise
 photo.33: https://www.instagram.com/p/BtvugvBF_CJ/media/?size=m
 photo.33.author: firefoxpanda88
 photo.33.link: https://www.instagram.com/firefoxpanda88/
@@ -148,7 +155,7 @@ photo.35.tags: paws, sleeping, tree
 photo.36: https://www.instagram.com/p/BvEb2FBli_y/media/?size=m
 photo.36.author: ifumoto88
 photo.36.link: https://www.instagram.com/ifumoto88/
-photo.36.tags: smile, tongue
+photo.36.tags: portrait, smile, tongue
 photo.37: https://www.instagram.com/p/BvRYZNTFkYE/media/?size=m
 photo.37.author: ifumoto88
 photo.37.link: https://www.instagram.com/ifumoto88/
@@ -164,7 +171,7 @@ photo.39.tags: laying down, paws, tree
 photo.40: https://www.instagram.com/p/BwSK8qel4sc/media/?size=m
 photo.40.author: happy_love2.15
 photo.40.link: https://www.instagram.com/happy_love2.15/
-photo.40.tags: smile, tree
+photo.40.tags: portrait, smile, tree
 photo.41: https://www.instagram.com/p/BxG4He_loOB/media/?size=m
 photo.41.author: na.mo.pan
 photo.41.link: https://www.instagram.com/na.mo.pan/
@@ -172,7 +179,7 @@ photo.41.tags: tree
 photo.42: https://www.instagram.com/p/BxLc4pVF_t7/media/?size=m
 photo.42.author: rie_panda55
 photo.42.link: https://www.instagram.com/rie_panda55/
-photo.42.tags: shedding, tail
+photo.42.tags: portrait, shedding, tail
 photo.43: https://www.instagram.com/p/BxUne6SFZS1/media/?size=m
 photo.43.author: happy_love2.15
 photo.43.link: https://www.instagram.com/happy_love2.15/
@@ -180,11 +187,11 @@ photo.43.tags: tree, upside-down
 photo.44: https://www.instagram.com/p/BxWney3lmp7/media/?size=m
 photo.44.author: happy_love2.15
 photo.44.link: https://www.instagram.com/happy_love2.15/
-photo.44.tags: smile, standing, tongue, tree
+photo.44.tags: portrait, smile, standing, tongue, tree
 photo.45: https://www.instagram.com/p/BxfMqFvl4tj/media/?size=m
 photo.45.author: happy_love2.15
 photo.45.link: https://www.instagram.com/happy_love2.15/
-photo.45.tags: tree
+photo.45.tags: portrait, tree
 photo.46: https://www.instagram.com/p/BxmufnHl3Wb/media/?size=m
 photo.46.author: ifumoto88
 photo.46.link: https://www.instagram.com/ifumoto88/
@@ -192,19 +199,19 @@ photo.46.tags: portrait, smile, tongue
 photo.47: https://www.instagram.com/p/BxxQGjjlNEj/media/?size=m
 photo.47.author: craig_craig_craig
 photo.47.link: https://www.instagram.com/craig_craig_craig/
-photo.47.tags: bamboo, smile, techitechi
+photo.47.tags: bamboo, portrait, smile, techitechi
 photo.48: https://www.instagram.com/p/Bx2DI4dlXGO/media/?size=m
 photo.48.author: happy_love2.15
 photo.48.link: https://www.instagram.com/happy_love2.15/
-photo.48.tags: paws, smile, standing, tongue, tree
+photo.48.tags: paws, portrait, smile, standing, tongue, tree
 photo.49: https://www.instagram.com/p/Bx2Vs7nlUaU/media/?size=m
 photo.49.author: ifumoto88
 photo.49.link: https://www.instagram.com/ifumoto88/
-photo.49.tags: paws, smile, tongue, tree
+photo.49.tags: paws, portrait, smile, tongue, tree
 photo.50: https://www.instagram.com/p/Bx67du_hbOs/media/?size=m
 photo.50.author: 218_yu
 photo.50.link: https://www.instagram.com/218_yu/
-photo.50.tags: home, smile, tongue
+photo.50.tags: home, portrait, smile, tongue
 photo.51: https://www.instagram.com/p/ByAr9seBkek/media/?size=m
 photo.51.author: happy_love2.15
 photo.51.link: https://www.instagram.com/happy_love2.15/
@@ -216,7 +223,7 @@ photo.52.tags: smile, tongue, tree
 photo.53: https://www.instagram.com/p/ByGE9eMB2L1/media/?size=m
 photo.53.author: happy_love2.15
 photo.53.link: https://www.instagram.com/happy_love2.15/
-photo.53.tags: smile, tongue, tree
+photo.53.tags: portrait, smile, tongue, tree
 photo.54: https://www.instagram.com/p/ByLD2O2h5K9/media/?size=m
 photo.54.author: happy_love2.15
 photo.54.link: https://www.instagram.com/happy_love2.15/
@@ -228,7 +235,7 @@ photo.55.tags: flowers, standing
 photo.56: https://www.instagram.com/p/ByJHvWgBIH2/media/?size=m
 photo.56.author: redpanda_nippon_takashi
 photo.56.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.56.tags: laying down, tail
+photo.56.tags: baby, laying down, portrait, tail
 photo.57: https://www.instagram.com/p/ByPjNK_hFGx/media/?size=m
 photo.57.author: happy_love2.15
 photo.57.link: https://www.instagram.com/happy_love2.15/

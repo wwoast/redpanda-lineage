@@ -36,7 +36,7 @@ photo.5.tags: bamboo
 photo.6: https://www.instagram.com/p/Bpde7qEhDp0/media/?size=m
 photo.6.author: rootbeer_popsicle_
 photo.6.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.6.tags: sleeping, tree
+photo.6.tags: portrait, sleeping, tree
 photo.7: https://www.instagram.com/p/BpVS5Hen1bD/media/?size=m
 photo.7.author: rootbeer_popsicle_
 photo.7.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -51,6 +51,7 @@ photo.9.tags: tree, upside-down
 photo.10: https://www.instagram.com/p/BoAscMeneiD/media/?size=m
 photo.10.author: rootbeer_popsicle_
 photo.10.link: https://www.instagram.com/rootbeer_popsicle_/
+photo.10.tags: portrait, tail
 photo.11: https://www.instagram.com/p/Bn-Wy-vnsZp/media/?size=m
 photo.11.author: rootbeer_popsicle_
 photo.11.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -58,7 +59,7 @@ photo.11.tags: tail
 photo.12: https://www.instagram.com/p/Bl82akMFtZK/media/?size=m
 photo.12.author: rootbeer_popsicle_
 photo.12.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.12.tags: flowers, smile
+photo.12.tags: flowers, portrait, smile
 photo.13: https://www.instagram.com/p/BmCRAcYnRCz/media/?size=m
 photo.13.author: rootbeer_popsicle_
 photo.13.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -66,18 +67,19 @@ photo.13.tags: bamboo
 photo.14: https://www.instagram.com/p/BmUhK0VnFrb/media/?size=m
 photo.14.author: rootbeer_popsicle_
 photo.14.link: https://www.instagram.com/rootbeer_popsicle_/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BmcgpRoHA4V/media/?size=m
 photo.15.author: rootbeer_popsicle_
 photo.15.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.15.tags: itchy
+photo.15.tags: itchy, paws, portrait, smile
 photo.16: https://www.instagram.com/p/BmoJ9tMn-QK/media/?size=m
 photo.16.author: rootbeer_popsicle_
 photo.16.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.16.tags: tree
+photo.16.tags: paws, portrait, tree
 photo.17: https://www.instagram.com/p/BmgXAKFn1J9/media/?size=m
 photo.17.author: rootbeer_popsicle_
 photo.17.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.17.tags: laying down, tree
+photo.17.tags: laying down, portrait, tree
 photo.18: https://www.instagram.com/p/Bmmn_ZRHwp-/media/?size=m
 photo.18.author: rootbeer_popsicle_
 photo.18.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -85,7 +87,7 @@ photo.18.tags: bamboo
 photo.19: https://www.instagram.com/p/BnwMGlRHm37/media/?size=m
 photo.19.author: rootbeer_popsicle_
 photo.19.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.19.tags: flowers
+photo.19.tags: flowers, portrait
 photo.20: https://www.instagram.com/p/BnvJMUjnANh/media/?size=m
 photo.20.author: rootbeer_popsicle_
 photo.20.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -93,7 +95,7 @@ photo.20.tags: flowers
 photo.21: https://www.instagram.com/p/BnkVj9EHt8D/media/?size=m
 photo.21.author: rootbeer_popsicle_
 photo.21.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.21.tags: paws
+photo.21.tags: paws, portrait
 photo.22: https://www.instagram.com/p/BnhwonxnqJu/media/?size=m
 photo.22.author: rootbeer_popsicle_
 photo.22.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -101,7 +103,7 @@ photo.22.tags: tree, upside-down
 photo.23: https://www.instagram.com/p/Bl3-lHQnQz0/media/?size=m
 photo.23.author: rootbeer_popsicle_
 photo.23.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.23.tags: bamboo, smile
+photo.23.tags: bamboo, portrait, smile
 photo.24: https://www.instagram.com/p/BlwYOFcHqbE/media/?size=m
 photo.24.author: rootbeer_popsicle_
 photo.24.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -109,7 +111,7 @@ photo.24.tags: flowers
 photo.25: https://www.instagram.com/p/Bll78HoHsd0/media/?size=m
 photo.25.author: rootbeer_popsicle_
 photo.25.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.25.tags: laying down, smile, tongue
+photo.25.tags: laying down, portrait, smile, tongue
 photo.26: https://www.instagram.com/p/BlMurvEHIVW/media/?size=m
 photo.26.author: rootbeer_popsicle_
 photo.26.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -133,7 +135,7 @@ photo.30.tags: nose
 photo.31: https://www.instagram.com/p/Bse4BLyhn_p/media/?size=m
 photo.31.author: rootbeer_popsicle_
 photo.31.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.31.tags: smile, toys
+photo.31.tags: paws, smile, toys
 photo.32: https://www.instagram.com/p/Bs7RZNVBqRi/media/?size=m
 photo.32.author: rootbeer_popsicle_
 photo.32.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -144,7 +146,7 @@ photo.33.tags: tree
 photo.34: https://www.instagram.com/p/BtARdXBB-PZ/media/?size=m
 photo.34.author: rootbeer_popsicle_
 photo.34.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.34.tags: tree, upside-down
+photo.34.tags: portrait, tree, upside-down
 photo.35: https://www.instagram.com/p/BtC6DZChJqT/media/?size=m
 photo.35.author: rootbeer_popsicle_
 photo.35.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -160,7 +162,7 @@ photo.37.tags: bamboo, tail, tongue
 photo.38: https://www.instagram.com/p/BvNmC7OAtsf/media/?size=m
 photo.38.author: rootbeer_popsicle_
 photo.38.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.38.tags: paws, tongue
+photo.38.tags: paws, portrait, tongue
 photo.39: https://www.instagram.com/p/BvQRbUxgrhR/media/?size=m
 photo.39.author: rootbeer_popsicle_
 photo.39.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -174,11 +176,11 @@ photo.41.link: https://www.instagram.com/rootbeer_popsicle_/
 photo.42: https://www.instagram.com/p/BwBU__SBuLc/media/?size=m
 photo.42.author: rootbeer_popsicle_
 photo.42.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.42.tags: grooming, tail
+photo.42.tags: grooming, portrait, tail
 photo.43: https://www.instagram.com/p/BxL6yJEgTEk/media/?size=m
 photo.43.author: rootbeer_popsicle_
 photo.43.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.43.tags: smile, tongue
+photo.43.tags: portrait, smile, tongue
 photo.44: https://www.instagram.com/p/BxOhNvvlLM-/media/?size=m
 photo.44.author: rootbeer_popsicle_
 photo.44.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -186,7 +188,7 @@ photo.44.tags: tree
 photo.45: https://www.instagram.com/p/BxlTeSDAiB1/media/?size=m
 photo.45.author: rootbeer_popsicle_
 photo.45.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.45.tags: paws, smile
+photo.45.tags: paws, portrait, smile
 photo.46: https://www.instagram.com/p/Bxv17A4gpB8/media/?size=m
 photo.46.author: rootbeer_popsicle_
 photo.46.link: https://www.instagram.com/rootbeer_popsicle_/
@@ -194,6 +196,6 @@ photo.46.tags: climb
 photo.47: https://www.instagram.com/p/BygLN5KAYos/media/?size=m
 photo.47.author: rootbeer_popsicle_
 photo.47.link: https://www.instagram.com/rootbeer_popsicle_/
-photo.47.tags: smile, tongue
+photo.47.tags: portrait, smile, tongue
 species: 2
 zoo: 86
