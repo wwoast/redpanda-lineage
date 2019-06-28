@@ -17,6 +17,7 @@ location.2: 25, 2018/1/29
 photo.1: https://www.instagram.com/p/BhEFj3HFtfC/media/?size=m
 photo.1.author: rie_panda55
 photo.1.link: https://www.instagram.com/rie_panda55/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BiF3NwolxE9/media/?size=m
 photo.2.author: redpanda_nippon_takashi
 photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -27,15 +28,19 @@ photo.3.tags: profile
 photo.4: https://www.instagram.com/p/BhOg6NylTvV/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BoIB-8fFZtp/media/?size=m
 photo.5.author: craig_craig_craig
 photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/BoKqSgNlnCm/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BoV8T2llj9_/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/Boc9NdaFtce/media/?size=m
 photo.8.author: tabechum
 photo.8.link: https://www.instagram.com/tabechum/
@@ -45,6 +50,10 @@ photo.9.link: https://www.instagram.com/craig_craig_craig/
 photo.10: https://www.instagram.com/p/Bs5oh-klGXC/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: peek
+photo.10.tags: peek, portrait
+photo.11: https://www.instagram.com/p/BzHHAYkhBBF/media/?size=m
+photo.11.author: miis_98
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: portrait, tail, tongue
 species: 2
 zoo: 25

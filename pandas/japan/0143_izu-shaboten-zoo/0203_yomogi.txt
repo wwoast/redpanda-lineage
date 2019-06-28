@@ -29,7 +29,7 @@ photo.3.tags: laying down
 photo.4: https://www.instagram.com/p/BjTli4-lseC/media/?size=m
 photo.4.author: tabechum
 photo.4.link: https://www.instagram.com/tabechum/
-photo.4.tags: profile, sleeping, tail
+photo.4.tags: portrait, profile, sleeping, tail
 photo.5: https://www.instagram.com/p/Bo-3M7LlIwM/media/?size=m
 photo.5.author: love__mitarashi
 photo.5.link: https://www.instagram.com/love__mitarashi/
@@ -49,7 +49,7 @@ photo.8.tags: mofumofu, tail
 photo.9: https://www.instagram.com/p/BqzkBTNlNTs/media/?size=m
 photo.9.author: love__mitarashi
 photo.9.link: https://www.instagram.com/love__mitarashi/
-photo.9.tags: smile, tail
+photo.9.tags: home, portrait, smile, tail
 photo.10: https://www.instagram.com/p/Brr1lyyFNoO/media/?size=m
 photo.10.author: love__mitarashi
 photo.10.link: https://www.instagram.com/love__mitarashi/
@@ -57,22 +57,23 @@ photo.10.tags: tail
 photo.11: https://www.instagram.com/p/Bs7RzVYFSAi/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: bamboo
+photo.11.tags: bamboo, portrait
 photo.12: https://www.instagram.com/p/BvB47RclY4D/media/?size=m
 photo.12.author: love__mitarashi
 photo.12.link: https://www.instagram.com/love__mitarashi/
+photo.12.tags: portrait
 photo.13: https://www.instagram.com/p/BvsztjeAWoJ/media/?size=m
 photo.13.author: miis_98
 photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: bridge
+photo.13.tags: bridge, portrait
 photo.14: https://www.instagram.com/p/BvgpeT-lJM7/media/?size=m
 photo.14.author: daniele.tokyo
 photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: climb
+photo.14.tags: climb, portrait
 photo.15: https://www.instagram.com/p/Bv-f2A6lY5b/media/?size=m
 photo.15.author: minatomirai215
 photo.15.link: https://www.instagram.com/minatomirai215/
-photo.15.tags: bridge, paws, smile
+photo.15.tags: bridge, paws, portrait, smile
 photo.16: https://www.instagram.com/p/BwK_DAKld9G/media/?size=m
 photo.16.author: minatomirai215
 photo.16.link: https://www.instagram.com/minatomirai215/
@@ -80,14 +81,18 @@ photo.16.tags: bridge, paws
 photo.17: https://www.instagram.com/p/Bwf8ylLF8Sf/media/?size=m
 photo.17.author: ifumoto88
 photo.17.link: https://www.instagram.com/ifumoto88/
-photo.17.tags: bridge, laying down, paws, upside-down
+photo.17.tags: bridge, laying down, paws, portrait, upside-down
 photo.18: https://www.instagram.com/p/Bwj0N5Lllmx/media/?size=m
 photo.18.author: ifumoto88
 photo.18.link: https://www.instagram.com/ifumoto88/
-photo.18.tags: climb, paws
+photo.18.tags: climb, paws, portrait
 photo.19: https://www.instagram.com/p/Bxe9GA8ltWz/media/?size=m
 photo.19.author: leonard_redmof
 photo.19.link: https://www.instagram.com/leonard_redmof/
-photo.19.tags: baby, mofumofu, paws
+photo.19.tags: baby, mofumofu, paws, portrait
+photo.20: https://www.instagram.com/p/BzFFWCHhFYT/media/?size=m
+photo.20.author: ayusuke56
+photo.20.link: https://www.instagram.com/ayusuke56/
+photo.20.tags: laying down, portrait
 species: 2
 zoo: 143

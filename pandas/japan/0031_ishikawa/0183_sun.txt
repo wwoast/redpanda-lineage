@@ -15,18 +15,19 @@ litter: 73
 photo.1: https://www.instagram.com/p/Bj1LGQfnybc/media/?size=m
 photo.1.author: fjtmisa
 photo.1.link: https://www.instagram.com/fjtmisa/
-photo.1.tags: profile, smile, tongue
+photo.1.tags: portrait, profile, smile, tongue
 photo.2: https://www.instagram.com/p/BS8mehtBeMC/media/?size=m
 photo.2.author: perie1027vivi
 photo.2.link: https://www.instagram.com/perie1027vivi/
-photo.2.tags: grooming
+photo.2.tags: grooming, portrait
 photo.3: https://www.instagram.com/p/Bb8YCUchSq2/media/?size=m
 photo.3.author: 8a8i8
 photo.3.link: https://www.instagram.com/8a8i8/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BnlOJDoDUBi/media/?size=m
 photo.4.author: bee_san.13
 photo.4.link: https://www.instagram.com/bee_san.13/
-photo.4.tags: smile
+photo.4.tags: portrait, smile
 photo.5: https://www.instagram.com/p/Bqr0NYolvfh/media/?size=m
 photo.5.author: bee_san.13
 photo.5.link: https://www.instagram.com/bee_san.13/
@@ -34,11 +35,11 @@ photo.5.tags: tree
 photo.6: https://www.instagram.com/p/BkxSCJkFouZ/media/?size=m
 photo.6.author: mikaamihara
 photo.6.link: https://www.instagram.com/mikaamihara/
-photo.6.tags: sleeping, tongue
+photo.6.tags: portrait, sleeping, tongue
 photo.7: https://www.instagram.com/p/Bp64G7RFLow/media/?size=m
 photo.7.author: bee_san.13
 photo.7.link: https://www.instagram.com/bee_san.13/
-photo.7.tags: home, smile
+photo.7.tags: home, portrait, smile
 photo.8: https://www.instagram.com/p/BqzL6vqld4w/media/?size=m
 photo.8.author: bee_san.13
 photo.8.link: https://www.instagram.com/bee_san.13/
@@ -50,21 +51,26 @@ photo.9.tags: bamboo
 photo.10: https://www.instagram.com/p/BvOhEMUl5zB/media/?size=m
 photo.10.author: bee_san.13
 photo.10.link: https://www.instagram.com/bee_san.13/
-photo.10.tags: grooming, laying down, mofumofu, tongue
+photo.10.tags: grooming, laying down, mofumofu, portrait, tongue
 photo.11: https://www.instagram.com/p/BwEfosblg_E/media/?size=m
 photo.11.author: bee_san.13
 photo.11.link: https://www.instagram.com/bee_san.13/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/BxyKbdAlj_U/media/?size=m
 photo.12.author: rie_panda55
 photo.12.link: https://www.instagram.com/rie_panda55/
-photo.12.tags: bridge, tail
+photo.12.tags: bridge, portrait, tail
 photo.13: https://www.instagram.com/p/ByP24TpB7ee/media/?size=m
 photo.13.author: bee_san.13
 photo.13.link: https://www.instagram.com/bee_san.13/
-photo.13.tags: apple time, mofumofu
+photo.13.tags: apple time, mofumofu, portrait
 photo.14: https://www.instagram.com/p/ByXCGIOhZLM/media/?size=m
 photo.14.author: na.mo.pan
 photo.14.link: https://www.instagram.com/na.mo.pan/
 photo.14.tags: bridge, smile
+photo.15: https://www.instagram.com/p/BzLGhjwBUma/media/?size=m
+photo.15.author: bee_san.13
+photo.15.link: https://www.instagram.com/bee_san.13/
+photo.15.tags: portrait, smile, wink
 species: 2
 zoo: 31
