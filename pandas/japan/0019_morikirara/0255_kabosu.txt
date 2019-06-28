@@ -29,14 +29,15 @@ photo.3.tags: baby
 photo.4: https://www.instagram.com/p/Bo55imQlbwO/media/?size=m
 photo.4.author: monmon_redpanda
 photo.4.link: https://www.instagram.com/monmon_redpanda/
-photo.4.tags: baby, bamboo
+photo.4.tags: baby, bamboo, portrait
 photo.5: https://www.instagram.com/p/BrZeK_UlKx2/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: tree
+photo.5.tags: portrait, tree
 photo.6: https://www.instagram.com/p/BraWPqul1_q/media/?size=m
 photo.6.author: ifumoto88
 photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BraW2xKFbMH/media/?size=m
 photo.7.author: ifumoto88
 photo.7.link: https://www.instagram.com/ifumoto88/
@@ -44,22 +45,23 @@ photo.7.tags: keeper
 photo.8: https://www.instagram.com/p/BrhugX_lzl4/media/?size=m
 photo.8.author: panda.daisuki
 photo.8.link: https://www.instagram.com/panda.daisuki/
-photo.8.tags: tree
+photo.8.tags: portrait, tree
 photo.9: https://www.instagram.com/p/BrnSX4rlXGW/media/?size=m
 photo.9.author: yossi929
 photo.9.link: https://www.instagram.com/yossi929/
-photo.9.tags: bamboo, profile
+photo.9.tags: bamboo, portrait
 photo.10: https://www.instagram.com/p/Brr3SdXF-Uz/media/?size=m
 photo.10.author: panda.daisuki
 photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/Bp4lsKbgc79/media/?size=m
 photo.11.author: tk_ani_photo
 photo.11.link: https://www.instagram.com/tk_ani_photo/
-photo.11.tags: baby
+photo.11.tags: baby, portrait
 photo.12: https://www.instagram.com/p/BtPJnTilmEd/media/?size=m
 photo.12.author: miis_98
 photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: paws
+photo.12.tags: paws, portrait
 photo.13: https://www.instagram.com/p/BvJedJsF_yL/media/?size=m
 photo.13.author: yossi929
 photo.13.link: https://www.instagram.com/yossi929/
@@ -67,21 +69,30 @@ photo.13.tags: tree, upside-down
 photo.14: https://www.instagram.com/p/BvRIBRHlAal/media/?size=m
 photo.14.author: miis_98
 photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: tree
+photo.14.tags: portrait, profile, tree
 photo.15: https://www.instagram.com/p/BvP6sKXF017/media/?size=m
 photo.15.author: re_ichimaru
 photo.15.link: https://www.instagram.com/re_ichimaru/
 photo.15.tags: techitechi
-photo.16: https://www.instagram.com/p/BsZ4ckdlUyj/media/?size=m
-photo.16.author: yamaneko5628
-photo.16.link: https://www.instagram.com/yamaneko5628/
-photo.17: https://www.instagram.com/p/Bv_hdrulErB/media/?size=m
-photo.17.author: re_ichimaru
-photo.17.link: https://www.instagram.com/re_ichimaru/
-photo.17.tags: yawn
-photo.18: https://www.instagram.com/p/BxcPn54Fn1D/media/?size=m
-photo.18.author: daniele.tokyo
-photo.18.link: https://www.instagram.com/daniele.tokyo/
-photo.18.tags: bridge, smile, wet
+photo.16: https://www.instagram.com/p/Bv_hdrulErB/media/?size=m
+photo.16.author: re_ichimaru
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: yawn
+photo.17: https://www.instagram.com/p/BxcPn54Fn1D/media/?size=m
+photo.17.author: daniele.tokyo
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: bridge, smile, wet
+photo.18: https://www.instagram.com/p/BsvbEHsl7q0/media/?size=m
+photo.18.author: panda.daisuki
+photo.18.link: https://www.instagram.com/panda.daisuki/
+photo.18.tags: mofumofu, paws, portrait
+photo.19: https://www.instagram.com/p/Bw25V9Ul6TR/media/?size=m
+photo.19.author: re_ichimaru
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: mofumofu, wet
+photo.20: https://www.instagram.com/p/Bvkl4hvldI6/media/?size=m
+photo.20.author: re_ichimaru
+photo.20.link: https://www.instagram.com/re_ichimaru/
+photo.20.tags: techitechi
 species: 2
 zoo: 19
