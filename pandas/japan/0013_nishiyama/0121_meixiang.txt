@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BjhfVwGFVBX/media/?size=m
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/BkO0cnVBDAf/media/?size=m
 photo.2.author: resapanlove
 photo.2.link: https://www.instagram.com/resapanlove/
@@ -23,11 +23,11 @@ photo.2.tags: bridge, peek
 photo.3: https://www.instagram.com/p/Bi3y7lGgf0s/media/?size=m
 photo.3.author: minato.yokohama2130
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
-photo.3.tags: laying down, smile, tongue
+photo.3.tags: laying down, portrait, smile, tongue
 photo.4: https://www.instagram.com/p/BobmezrlC5u/media/?size=m
 photo.4.author: redpanda77f
 photo.4.link: https://www.instagram.com/redpanda77f/
-photo.4.tags: dish, smile
+photo.4.tags: dish, smile, window
 photo.5: https://www.instagram.com/p/BofTX3yhJzB/media/?size=m
 photo.5.author: resapanlove
 photo.5.link: https://www.instagram.com/resapanlove/
@@ -35,18 +35,19 @@ photo.5.tags: keeper, lunch time, tongue
 photo.6: https://www.instagram.com/p/BpCOvLBlhFW/media/?size=m
 photo.6.author: kinkinkin0826
 photo.6.link: https://www.instagram.com/kinkinkin0826/
-photo.6.tags: bamboo
+photo.6.tags: bamboo, portrait
 photo.7: https://www.instagram.com/p/BpEsVS0lF9m/media/?size=m
 photo.7.author: redpanda77f
 photo.7.link: https://www.instagram.com/redpanda77f/
-photo.7.tags: paws
+photo.7.tags: paws, window
 photo.8: https://www.instagram.com/p/BpRZcYGlQrM/media/?size=m
 photo.8.author: framereim
 photo.8.link: https://www.instagram.com/framereim/
-photo.8.tags: bridge, smile
+photo.8.tags: bridge, portrait, smile
 photo.9: https://www.instagram.com/p/BpZUxDTFAUS/media/?size=m
 photo.9.author: mugicha0312
 photo.9.link: https://www.instagram.com/mugicha0312/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BporBBnFSrS/media/?size=m
 photo.10.author: minato.yokohama2130
 photo.10.link: https://www.instagram.com/minato.yokohama2130/
@@ -54,38 +55,38 @@ photo.10.tags: bridge
 photo.11: https://www.instagram.com/p/Bp1ryQflyu2/media/?size=m
 photo.11.author: minato.yokohama2130
 photo.11.link: https://www.instagram.com/minato.yokohama2130/
-photo.11.tags: bridge
+photo.11.tags: bridge, portrait
 photo.12: https://www.instagram.com/p/BptceDiF7lv/media/?size=m
 photo.12.author: minato.yokohama2130
 photo.12.link: https://www.instagram.com/minato.yokohama2130/
 photo.13: https://www.instagram.com/p/BqcOdSOlL0a/media/?size=m
 photo.13.author: kinkinkin0826
 photo.13.link: https://www.instagram.com/kinkinkin0826/
-photo.13.tags: smile
+photo.13.tags: portrait, smile
 photo.14: https://www.instagram.com/p/BqrmQeTlTIW/media/?size=m
 photo.14.author: minato.yokohama2130
 photo.14.link: https://www.instagram.com/minato.yokohama2130/
-photo.14.tags: air tasting, tongue
+photo.14.tags: air tasting, portrait, tongue
 photo.15: https://www.instagram.com/p/Bq00y39n2Sl/media/?size=m
 photo.15.author: yakko____
 photo.15.link: https://www.instagram.com/yakko____/
-photo.15.tags: tail
+photo.15.tags: portrait, tail
 photo.16: https://www.instagram.com/p/BsiGH33FCiV/media/?size=m
 photo.16.author: minato.yokohama2130
 photo.16.link: https://www.instagram.com/minato.yokohama2130/
-photo.16.tags: laying down
+photo.16.tags: laying down, portrait
 photo.17: https://www.instagram.com/p/Bs0XC9jnqYs/media/?size=m
 photo.17.author: joy93.87
 photo.17.link: https://www.instagram.com/joy93.87/
-photo.17.tags: mofumofu, tail
+photo.17.tags: mofumofu, portrait, tail
 photo.18: https://www.instagram.com/p/BtGMQaGnL3y/media/?size=m
 photo.18.author: minato.yokohama2130
 photo.18.link: https://www.instagram.com/minato.yokohama2130/
-photo.18.tags: bridge, paws, smile, tongue
+photo.18.tags: bridge, paws, portrait, smile, tongue
 photo.19: https://www.instagram.com/p/Bv6n9FflzF_/media/?size=m
 photo.19.author: minato.yokohama2130
 photo.19.link: https://www.instagram.com/minato.yokohama2130/
-photo.19.tags: smile
+photo.19.tags: portrait, smile
 photo.20: https://www.instagram.com/p/BxGXLGxFtaP/media/?size=m
 photo.20.author: ruru_maki
 photo.20.link: https://www.instagram.com/ruru_maki/
@@ -93,7 +94,7 @@ photo.20.tags: peek
 photo.21: https://www.instagram.com/p/BxKNjOUF8QJ/media/?size=m
 photo.21.author: kinkinkin0826
 photo.21.link: https://www.instagram.com/kinkinkin0826/
-photo.21.tags: shedding
+photo.21.tags: portrait, shedding
 photo.22: https://www.instagram.com/p/BxSHTf8l9eB/media/?size=m
 photo.22.author: lespan33
 photo.22.link: https://www.instagram.com/lespan33/
@@ -105,9 +106,10 @@ photo.23.tags: shedding
 photo.24: https://www.instagram.com/p/BxchIB8FcJc/media/?size=m
 photo.24.author: mugicha0312
 photo.24.link: https://www.instagram.com/mugicha0312/
-photo.24.tags: grooming, shedding
+photo.24.tags: grooming, portrait, shedding
 photo.25: https://www.instagram.com/p/Byz1foshFF_/media/?size=m
 photo.25.author: kinkinkin0826
 photo.25.link: https://www.instagram.com/kinkinkin0826/
+photo.25.tags: portrait
 species: 2
 zoo: 13
