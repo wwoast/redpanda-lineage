@@ -1189,7 +1189,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     }
 
     div.pandaPhoto img, div.zooPhoto img {
-        width: auto;
+        width: 100%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
