@@ -1,6 +1,6 @@
 [panda]
 _id: 311
-birthday: 2014/6/30
+birthday: 2014/7/1
 birthplace: 80
 children: none
 en.name: Carson
@@ -186,5 +186,9 @@ photo.43: https://www.instagram.com/p/BzJGLbzBvKq/media/?size=m
 photo.43.author: happy_love2.15
 photo.43.link: https://www.instagram.com/happy_love2.15/
 photo.43.tags: dish, home, portrait
+photo.44: https://www.instagram.com/p/BzODQBmh40h/media/?size=m
+photo.44.author: carsontheredpanda
+photo.44.link: https://www.instagram.com/carsontheredpanda/
+photo.44.tags: dish, home, portrait, tongue, white face
 species: 1
 zoo: 67
