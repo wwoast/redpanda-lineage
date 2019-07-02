@@ -19,27 +19,27 @@ photo.1.tags: tree
 photo.2: https://www.instagram.com/p/BmCKt90Fxl2/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
-photo.2.tags: profile, smile
+photo.2.tags: portrait, profile, smile
 photo.3: https://www.instagram.com/p/BjdgFYjFJw6/media/?size=m
 photo.3.author: yossi929
 photo.3.link: https://www.instagram.com/yossi929/
-photo.3.tags: laying down, paws, smile
+photo.3.tags: laying down, paws, portrait, smile
 photo.4: https://www.instagram.com/p/BioYMMlFgNN/media/?size=m
 photo.4.author: re_ichimaru
 photo.4.link: https://www.instagram.com/re_ichimaru/
-photo.4.tags: bear worm
+photo.4.tags: bear worm, portrait
 photo.5: https://www.instagram.com/p/Bqlm7deHqhk/media/?size=m
 photo.5.author: yakko____
 photo.5.link: https://www.instagram.com/yakko____/
-photo.5.tags: smile
+photo.5.tags: portrait, smile
 photo.6: https://www.instagram.com/p/BcCOGs0Fpe3/media/?size=m
 photo.6.author: hanamaru_redpanda
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: baby
+photo.6.tags: baby, portrait
 photo.7: https://www.instagram.com/p/BszMY6OFQUo/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: dish, lunch time
+photo.7.tags: dish, lunch time, portrait
 photo.8: https://www.instagram.com/p/Bvz9BTRFWzn/media/?size=m
 photo.8.author: re_ichimaru
 photo.8.link: https://www.instagram.com/re_ichimaru/
@@ -53,11 +53,11 @@ photo.10.tags: apple time, smile
 photo.11: https://www.instagram.com/p/BogvkMgldYh/media/?size=m
 photo.11.author: monmon_redpanda
 photo.11.link: https://www.instagram.com/monmon_redpanda/
-photo.11.tags: smile
+photo.11.tags: portrait, smile
 photo.12: https://www.instagram.com/p/Bqlm7deHqhk/media/?size=m
 photo.12.author: yakko____
 photo.12.link: https://www.instagram.com/yakko____/
-photo.12.tags: smile
+photo.12.tags: portrait, smile
 photo.13: https://www.instagram.com/p/BjDomzPF5mH/media/?size=m
 photo.13.author: re_ichimaru
 photo.13.link: https://www.instagram.com/re_ichimaru/

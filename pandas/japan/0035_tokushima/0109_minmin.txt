@@ -17,7 +17,7 @@ location.2: 35, 2012/4/23
 photo.1: https://www.instagram.com/p/BkkYRbzBXSV/media/?size=m
 photo.1.author: capylife_
 photo.1.link: https://www.instagram.com/capylife_/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/BhhBzFklN2C/media/?size=m
 photo.2.author: love__mitarashi
 photo.2.link: https://www.instagram.com/love__mitarashi/
@@ -29,14 +29,15 @@ photo.3.tags: bamboo
 photo.4: https://www.instagram.com/p/BlOrM6fFsW8/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.link: https://www.instagram.com/love__mitarashi/
-photo.4.tags: bear worm
+photo.4.tags: bear worm, portrait
 photo.5: https://www.instagram.com/p/BoKdc61FVdD/media/?size=m
 photo.5.author: kisshan324
 photo.5.link: https://www.instagram.com/kisshan324/
+photo.5.tags: climb, portrait
 photo.6: https://www.instagram.com/p/BoM4rknlwtS/media/?size=m
 photo.6.author: kisshan324
 photo.6.link: https://www.instagram.com/kisshan324/
-photo.6.tags: bamboo
+photo.6.tags: bamboo, portrait
 photo.7: https://www.instagram.com/p/BoPrLSAlnwA/media/?size=m
 photo.7.author: kisshan324
 photo.7.link: https://www.instagram.com/kisshan324/
@@ -55,19 +56,19 @@ photo.10.tags: laying down
 photo.11: https://www.instagram.com/p/BqMUPCFl7Tw/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: laying down
+photo.11.tags: laying down, portrait
 photo.12: https://www.instagram.com/p/Bq_s5ctFgfc/media/?size=m
 photo.12.author: love__mitarashi
 photo.12.link: https://www.instagram.com/love__mitarashi/
-photo.12.tags: bamboo, tongue
+photo.12.tags: bamboo, portrait, tongue
 photo.13: https://www.instagram.com/p/BrHafgEFeCF/media/?size=m
 photo.13.author: love__mitarashi
 photo.13.link: https://www.instagram.com/love__mitarashi/
-photo.13.tags: apple time
+photo.13.tags: apple time, portrait
 photo.14: https://www.instagram.com/p/BtAePUklUQY/media/?size=m
 photo.14.author: love__mitarashi
 photo.14.link: https://www.instagram.com/love__mitarashi/
-photo.14.tags: dish
+photo.14.tags: dish, portrait
 photo.15: https://www.instagram.com/p/BtP4PHjlyRC/media/?size=m
 photo.15.author: love__mitarashi
 photo.15.link: https://www.instagram.com/love__mitarashi/
@@ -75,7 +76,7 @@ photo.15.tags: laying down, paws
 photo.16: https://www.instagram.com/p/Bu8sVekFo9q/media/?size=m
 photo.16.author: peek_a_boo00
 photo.16.link: https://www.instagram.com/peek_a_boo00/
-photo.16.tags: home, standing
+photo.16.tags: home, portrait, standing
 photo.17: https://www.instagram.com/p/BzPdcV8BHSr/media/?size=m
 photo.17.author: love__mitarashi
 photo.17.link: https://www.instagram.com/love__mitarashi/

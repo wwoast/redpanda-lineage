@@ -26,37 +26,38 @@ photo.2.tags: profile, tree
 photo.3: https://www.instagram.com/p/BsYQR-4FV9n/media/?size=m
 photo.3.author: carsontheredpanda
 photo.3.link: https://www.instagram.com/carsontheredpanda/
+photo.3.tags: home, portrait
 photo.4: https://www.instagram.com/p/BtBgr_HFnFD/media/?size=m
 photo.4.author: carsontheredpanda
 photo.4.link: https://www.instagram.com/carsontheredpanda/
-photo.4.tags: mofumofu, techitechi, tongue, tree
+photo.4.tags: mofumofu, portrait, techitechi, tail, tongue, tree
 photo.5: https://www.instagram.com/p/BtJYuvLF0oc/media/?size=m
 photo.5.author: carsontheredpanda
 photo.5.link: https://www.instagram.com/carsontheredpanda/
-photo.5.tags: smile, tongue, tree
+photo.5.tags: portrait, smile, tongue, tree
 photo.6: https://www.instagram.com/p/BtQ38jhFnhw/media/?size=m
 photo.6.author: carsontheredpanda
 photo.6.link: https://www.instagram.com/carsontheredpanda/
-photo.6.tags: blink, tree
+photo.6.tags: blink, portrait, tree
 photo.7: https://www.instagram.com/p/BuHDx0Ul-jH/media/?size=m
 photo.7.author: carsontheredpanda
 photo.7.link: https://www.instagram.com/carsontheredpanda/
-photo.7.tags: tongue, tree
+photo.7.tags: grooming, portrait, tail, tongue, tree
 photo.8: https://www.instagram.com/p/BuMTRncl6NE/media/?size=m
 photo.8.author: carsontheredpanda
 photo.8.link: https://www.instagram.com/carsontheredpanda/
-photo.8.tags: tongue, tree
+photo.8.tags: portrait, tongue, tree
 photo.9: https://www.instagram.com/p/BuWgt4IFT9q/media/?size=m
 photo.9.author: carsontheredpanda
 photo.9.link: https://www.instagram.com/carsontheredpanda/
-photo.9.tags: smile, tree
+photo.9.tags: portrait, smile, tree
 photo.10: https://www.instagram.com/p/BuVMB60gP9h/media/?size=m
 photo.10.author: rootbeer_popsicle
 photo.10.link: https://www.instagram.com/rootbeer_popsicle_/
 photo.11: https://www.instagram.com/p/BueRiFylMvZ/media/?size=m
 photo.11.author: carsontheredpanda
 photo.11.link: https://www.instagram.com/carsontheredpanda/
-photo.11.tags: laying down, tree
+photo.11.tags: laying down, portrait, tree
 photo.12: https://www.instagram.com/p/BumBuq-l_Lg/media/?size=m
 photo.12.author: carsontheredpanda
 photo.12.link: https://www.instagram.com/carsontheredpanda/
@@ -64,18 +65,22 @@ photo.12.tags: laying down, tree
 photo.13: https://www.instagram.com/p/Bu_mbY-lePu/media/?size=m
 photo.13.author: carsontheredpanda
 photo.13.link: https://www.instagram.com/carsontheredpanda/
-photo.13.tags: itchy, techitechi, tree
+photo.13.tags: itchy, portrait, techitechi, tree
 photo.14: https://www.instagram.com/p/BvHbv9Zlcnb/media/?size=m
 photo.14.author: carsontheredpanda
 photo.14.link: https://www.instagram.com/carsontheredpanda/
-photo.14.tags: bamboo, paws, standing
+photo.14.tags: bamboo, paws, portrait, standing
 photo.15: https://www.instagram.com/p/BvMlS5fl-bK/media/?size=m
 photo.15.author: carsontheredpanda
 photo.15.link: https://www.instagram.com/carsontheredpanda/
-photo.15.tags: laying down, tree
+photo.15.tags: laying down, portrait, tree
 photo.16: https://www.instagram.com/p/Bx2dxwoltQS/media/?size=m
 photo.16.author: carsontheredpanda
 photo.16.link: https://www.instagram.com/carsontheredpanda/
-photo.16.tags: hammock
+photo.16.tags: hammock, portrait
+photo.17: https://www.instagram.com/p/BzQvX6chHXm/media/?size=m
+photo.17.author: carsontheredpanda
+photo.17.link: https://www.instagram.com/carsontheredpanda/
+photo.17.tags: portrait, tree
 species: 2
 zoo: 44
