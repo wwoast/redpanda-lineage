@@ -212,7 +212,7 @@ Language.L.gui = {
     "jp": Pandas.def.relations.children["jp"]
   },
   "contribute": {
-    "cn": "上传照片"
+    "cn": "上传照片",
     "en": "Submit a Photo",
     "jp": "写真を提出する"
   },
