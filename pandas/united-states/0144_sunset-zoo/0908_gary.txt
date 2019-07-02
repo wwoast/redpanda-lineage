@@ -1,0 +1,19 @@
+[panda]
+_id: 908
+birthday: 2007/6/19
+birthplace: 107
+children: unknown
+death: 2018/7/14
+en.name: Gary
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 107, 2007/6/19
+location.2: 144, 2008/7/25
+species: 1
+zoo: 144

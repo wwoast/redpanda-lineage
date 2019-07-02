@@ -2,7 +2,7 @@
 _id: 519
 birthday: 2013/6/15
 birthplace: 121
-children: unknown
+children: none
 en.name: Mars
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: マルス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 121, 2013/6/15
 location.2: 123, 2014/11/5
 location.3: 109, 2017/12/20

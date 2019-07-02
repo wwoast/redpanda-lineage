@@ -1,19 +1,18 @@
 [panda]
-_id: 524
+_id: 912
 birthday: 2013/6/1
 birthplace: 108
-children: 560
-en.name: Tenzing
+children: unknown
+en.name: Tabei
 en.nicknames: none
 en.othernames: none
-gender: m
-jp.name: テンジン
+gender: f
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 912
+litter: 524
 location.1: 108, 2013/6/1
-location.2: 80, 2015/1/2
-location.3: 114, 2016/11/28
+location.2: 154, 2014/5/13
 species: 1
-zoo: 114
+zoo: 154

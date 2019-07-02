@@ -2,7 +2,7 @@
 _id: 552
 birthday: 2017/6/20
 birthplace: 144
-children: unknown
+children: none
 en.name: Xing-Xing
 en.nicknames: none
 en.othernames: none
@@ -11,6 +11,8 @@ jp.name: 興興
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
+location.1: 144, 2017/6/20
+location.2: 104, 2018/5/18
 species: 1
 zoo: 104
