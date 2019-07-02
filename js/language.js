@@ -197,12 +197,12 @@ Language.L.flags = {
 // or allow overriding given an input language provided at the function call
 Language.L.gui = {
   "about": {
-    "cn": "關於",
+    "cn": "关于",
     "en": "About",
     "jp": "概要"
   },
   "autumn": {
-    "cn": "TOWRITE",
+    "cn": "秋",
     "en": "Autumn",
     "jp": "TOWRITE"
   },
@@ -212,6 +212,7 @@ Language.L.gui = {
     "jp": Pandas.def.relations.children["jp"]
   },
   "contribute": {
+    "cn": "上传照片"
     "en": "Submit a Photo",
     "jp": "写真を提出する"
   },
@@ -220,17 +221,17 @@ Language.L.gui = {
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
   },
   "fall": {
-    "cn": "TOWRITE",   // Convenience duplicate of autumn
+    "cn": "秋",   // Convenience duplicate of autumn
     "en": "Autumn",
     "jp": "TOWRITE"
   },
   "family": {
-    "cn": "TOWRITE",
+    "cn": "家族",
     "en": "Family",
     "jp": "ファミリ"
   },
   "father": {
-    "cn": "父親",
+    "cn": "父亲",
     "en": "Father",
     "jp": "父"
   },
@@ -245,19 +246,19 @@ Language.L.gui = {
     "jp": "Red Panda Lineage"
   },
   "home": {
-    "cn": "主頁",
+    "cn": "主页",
     "en": "Home",
     "es": "Home",
     "jp": "ホーム"
   },
   "language": {
     "cn": {
-      "cn": "漢語",
-      "en": "英語",
-      "es": "西班牙語",
-      "jp": "日語",
-      "kr": "朝鮮語",
-      "ru": "俄語"
+      "cn": "汉语",
+      "en": "英语",
+      "es": "西班牙语",
+      "jp": "日语",
+      "kr": "朝鮮语",
+      "ru": "俄语"
     },
     "en": {
       "cn": "Chinese",
@@ -293,7 +294,7 @@ Language.L.gui = {
     }
   },
   "loading": {
-    "cn": "Loading...",
+    "cn": "加载中...",
     "en": "Loading...",
     "jp": "ローディング"
   },
@@ -303,7 +304,7 @@ Language.L.gui = {
     "jp": Pandas.def.relations.litter["jp"]
   },
   "links": {
-    "cn": "鏈接",
+    "cn": "链接",
     "en": "Links",
     "jp": "リンク"
   },
@@ -313,22 +314,22 @@ Language.L.gui = {
     "jp": "私"
   },
   "media": {
-    "cn": "媒體",
+    "cn": "媒体",
     "en": "Media",
     "jp": "メディア"
   },
   "mother": {
-    "cn": "母親",
+    "cn": "母亲",
     "en": "Mother",
     "jp": "母"
   },
   "nicknames": {
-    "cn": "暱稱",
+    "cn": "昵称",
     "en": "Nicknames",
     "jp": "ニックネーム"
   },
   "othernames": {
-    "cn": "其他名稱",
+    "cn": "其他名称",
     "en": "Other Names",
     "jp": "他の名前"
   },
@@ -338,17 +339,17 @@ Language.L.gui = {
     "jp": Pandas.def.relations.parents["jp"]
   },
   "profile": {
-    "cn": "剖面",
+    "cn": "档案",
     "en": "Profile",
     "jp": "プロフィール"
   },
   "quadruplet": {
-    "cn": "四套",
+    "cn": "四胞胎",
     "en": "Quadruplet",
     "jp": "四つ子"
   },
   "random": {
-    "cn": "隨機",
+    "cn": "随机",
     "en": "Random",
     "jp": "適当"
   },
@@ -358,7 +359,7 @@ Language.L.gui = {
     "jp": "サーチ..."
   },
   "seen_date": {
-    "cn": "TOWRITE <INSERTDATE>",
+    "cn": "目击日期 <INSERTDATE>",
     "en": "Seen <INSERTDATE>",
     "jp": "TOWRITE <INSERTDATE>"
   },
@@ -368,47 +369,47 @@ Language.L.gui = {
     "jp": Pandas.def.relations.siblings["jp"]
   },
   "since_date": {
-    "cn": "TOWRITE <INSERTDATE>",
+    "cn": "自 <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
   },
   "spring": {
-    "cn": "TOWRITE",
+    "cn": "春",
     "en": "Spring",
     "jp": "TOWRITE"
   },
   "summer": {
-    "cn": "TOWRITE",
+    "cn": "夏",
     "en": "Summer",
     "jp": "TOWRITE"
   },
   "title": {
-    "cn": "TOWRITE",
+    "cn": "查找小熊猫",
     "en": "Red Panda Finder",
     "jp": "レッサーパンダのファインダー"
   },
   "top": {
-    "cn": "頂",
+    "cn": "顶部",
     "en": "Top",
     "jp": "上"
   },
   "tree": {
-    "cn": "TOWRITE",
+    "cn": "树",
     "en": "Tree",
     "jp": "木"
   },
   "twin": {
-    "cn": "雙生",
+    "cn": "双胞胎",
     "en": "Twin",
     "jp": "双子"
   },
   "triplet": {
-    "cn": "三重",
+    "cn": "三胞胎",
     "en": "Triplet",
     "jp": "三つ子"
   }, 
   "winter": {
-    "cn": "TOWRITE",
+    "cn": "冬",
     "en": "Winter",
     "jp": "TOWRITE"
   }
@@ -416,12 +417,16 @@ Language.L.gui = {
 
 Language.L.messages = {
   "and": {
-    "cn": "TOWRITE",
+    "cn": "和",
     "en": " & ",
     "jp": "と"
   },
   "credit": {
-    "cn": "TOWRITE",
+    "cn": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           " 提供了 ",
+           "<INSERTNUMBER>",
+           " 张照片。"],
     "en": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
            " has contributed ",
@@ -434,7 +439,7 @@ Language.L.messages = {
            "枚の写真を寄稿しました。"]
   },
   "comma": {
-    "cn": "TOWRITE",
+    "cn": "及",
     "en": ", ",
     "jp": "と"
   },
