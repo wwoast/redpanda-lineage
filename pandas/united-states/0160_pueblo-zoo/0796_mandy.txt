@@ -2,7 +2,7 @@
 _id: 796
 birthday: 2001/6/16
 birthplace: 133
-children: unknown
+children: none
 death: 2006/12/31
 en.name: Mandy
 en.nicknames: none
@@ -14,7 +14,7 @@ jp.othernames: none
 language.order: en, jp
 litter: 797
 location.1: 133, 2001/6/16
-location.2: -1, 2003/5/1
+location.2: 192, 2003/5/1
 location.3: 160, 2005/11/10
 species: 1
 zoo: 160

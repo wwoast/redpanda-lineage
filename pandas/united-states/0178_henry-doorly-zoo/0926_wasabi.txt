@@ -1,18 +1,18 @@
 [panda]
-_id: 808
-birthday: 2013/7/20
+_id: 926
+birthday: 2016/7/3
 birthplace: 146
 children: none
-en.name: Reina
+en.name: Wasabi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: レイナ
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 580, 807
-location.1: 146, 2013/7/20
-location.2: 163, 2014/4/22
+litter: none
+location.1: 146, 2016/7/3
+location.2: 178, 2018/2/27
 species: 1
-zoo: 163
+zoo: 178

@@ -1,0 +1,19 @@
+[panda]
+_id: 927
+birthday: 2013/6/27
+birthplace: 124
+children: none
+en.name: Gansu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 928
+location.1: 124, 2013/6/27
+location.2: 125, 2014/5/21
+location.3: 108, 2018/2/23
+species: 1
+zoo: 108
