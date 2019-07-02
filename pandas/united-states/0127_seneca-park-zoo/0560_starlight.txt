@@ -2,7 +2,7 @@
 _id: 560
 birthday: 2017/6/17
 birthplace: 114
-children: unknown
+children: none
 en.name: Starlight
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: 星明かり
 jp.nicknames: none
 jp.othernames: スターライト
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 114, 2017/6/17
 location.2: 127, 2018/3/15
 photo.1: https://www.instagram.com/p/BkIUqZhFTx1/media/?size=m

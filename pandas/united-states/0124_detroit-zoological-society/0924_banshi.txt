@@ -1,19 +1,19 @@
 [panda]
-_id: 679
-birthday: 2009/6/13
+_id: 924
+birthday: 2002/7/2
 birthplace: 154
 children: none
-death: 2012/2/17
-en.name: Inari
+death: 2004/7/28
+en.name: Banshi
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: イナリ
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 678
-location.1: 154, 2009/6/13
-location.2: 144, 2010/10/27
+litter: none
+location.1: 154, 2002/7/2
+location.2: 124, 2003/11/18
 species: 1
-zoo: 144
+zoo: 124

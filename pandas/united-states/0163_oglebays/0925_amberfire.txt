@@ -1,0 +1,21 @@
+[panda]
+_id: 925
+birthday: 2003/6/24
+birthplace: 154
+children: unknown
+en.name: Amberfire
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: TOWRITE
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 154, 2003/6/24
+location.2: 109, 2004/11/12
+location.3: 116, 2006/4/5
+location.4: 123, 2007/3/5
+location.5: 163, 2009/9/18
+species: 1
+zoo: 163

@@ -1,17 +1,17 @@
 [panda]
-_id: 909
-birthday: 2008/6/28
-birthplace: 107
-children: 621, 622, 542, 906
-death: 2015/5/15
-en.name: Oscar
+_id: 919
+birthday: 2000/7/14
+birthplace: 105
+children: none
+death: 2000/9/9
+en.name: (no-name)
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: オスカー
+jp.name: (無名)
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
 species: 1
-zoo: 145
+zoo: 105

@@ -1,18 +1,19 @@
 [panda]
-_id: 558
-birthday: 2014/6/23
+_id: 923
+birthday: 1997/6/15
 birthplace: 108
 children: none
-en.name: Randy
+death: 2000/1/8
+en.name: Ed
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ランディ
+jp.name: TOWRITE
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 914
-location.1: 108, 2014/6/23
-location.2: 115, 2016/2/5
+litter: 875
+location.1: 108, 1997/6/15
+location.2: 105, 1998/5/28
 species: 1
-zoo: 115
+zoo: 105

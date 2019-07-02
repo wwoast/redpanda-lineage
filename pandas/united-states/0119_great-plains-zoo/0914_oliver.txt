@@ -1,9 +1,9 @@
 [panda]
-_id: 558
+_id: 914
 birthday: 2014/6/23
 birthplace: 108
 children: none
-en.name: Randy
+en.name: Oliver
 en.nicknames: none
 en.othernames: none
 gender: m
@@ -11,8 +11,8 @@ jp.name: ランディ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 914
+litter: 558
 location.1: 108, 2014/6/23
-location.2: 115, 2016/2/5
+location.2: 115, 2016/3/8
 species: 1
-zoo: 115
+zoo: 119

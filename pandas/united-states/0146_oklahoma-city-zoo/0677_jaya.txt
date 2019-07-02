@@ -2,7 +2,7 @@
 _id: 677
 birthday: 2007/7/4
 birthplace: 154
-children: unknown
+children: 864, 580, 807, 808, 926
 en.name: Jaya
 en.nicknames: none
 en.othernames: none
@@ -11,7 +11,7 @@ jp.name: ジャヤ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: none
 location.1: 154, 2007/7/4
 location.2: -1, 2008/6/25
 location.3: 146, 2011/12/5
