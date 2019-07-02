@@ -1,20 +1,21 @@
 [panda]
-_id: 509
+_id: 899
 birthday: 2006/6/6
 birthplace: 118
-children: 841, 842, 629, 508
-death: 2014/1/28
-en.name: Delilah
+children: none
+en.name: Daisy
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: デリラ
+jp.name: ヒナギク
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 898, 899
+litter: 509, 898
 location.1: 118, 2006/6/6
 location.2: 112, 2006/12/22
-location.3: 105, 2008/3/24
+location.3: 113, 2008/11/12
+location.4: 131, 2011/11/30
+location.5: 128, 2015/4/15
 species: 1
-zoo: 105
+zoo: 128
