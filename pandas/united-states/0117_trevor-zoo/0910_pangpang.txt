@@ -13,5 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 498, 605
+location.1: 107, 2009/6/28
+location.2: 117, 2010/4/20
 species: 1
-zoo: 145
+zoo: 117
