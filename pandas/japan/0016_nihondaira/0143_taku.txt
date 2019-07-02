@@ -17,7 +17,7 @@ location.2: 16, 2012/7/2
 photo.1: https://www.instagram.com/p/BkBo2vwDVFg/media/?size=m
 photo.1.author: lesserpanda_shizuokacity_cp
 photo.1.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/Bo0y_ORFSfn/media/?size=m
 photo.2.author: ifumoto88
 photo.2.link: https://www.instagram.com/ifumoto88/
@@ -25,32 +25,34 @@ photo.2.tags: itchy
 photo.3: https://www.instagram.com/p/Bo6oJ6NFUyT/media/?size=m
 photo.3.author: ifumoto88
 photo.3.link: https://www.instagram.com/ifumoto88/
-photo.3.tags: tree
+photo.3.tags: portrait, tree
 photo.4: https://www.instagram.com/p/BpAva8alHg-/media/?size=m
 photo.4.author: panda.daisuki
 photo.4.link: https://www.instagram.com/panda.daisuki/
-photo.4.tags: apple time, tree
+photo.4.tags: apple time, portrait, tree
 photo.5: https://www.instagram.com/p/BpTD6fNHGlE/media/?size=m
 photo.5.author: lesserpanda_shizuokacity_cp
 photo.5.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.5.tags: blink, smile
+photo.5.tags: blink, portrait, smile
 photo.6: https://www.instagram.com/p/BqCtfS2FpZB/media/?size=m
 photo.6.author: ayusuke56
 photo.6.link: https://www.instagram.com/ayusuke56/
-photo.6.tags: grooming, tail
+photo.6.tags: grooming, portrait, tail
 photo.7: https://www.instagram.com/p/BqG5MNOlDFU/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BqJYZyFlilM/media/?size=m
 photo.8.author: ayusuke56
 photo.8.link: https://www.instagram.com/ayusuke56/
+photo.8.tags: door, portrait
 photo.9: https://www.instagram.com/p/BqWKPAfh9e9/media/?size=m
 photo.9.author: lesserpanda_shizuokacity_cp
 photo.9.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.10: https://www.instagram.com/p/Bqd0HWgBoRK/media/?size=m
 photo.10.author: lesserpanda_shizuokacity_cp
 photo.10.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.10.tags: smile
+photo.10.tags: portrait, smile
 photo.11: https://www.instagram.com/p/BqyZVpbhCdi/media/?size=m
 photo.11.author: lesserpanda_shizuokacity_cp
 photo.11.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
@@ -64,7 +66,7 @@ photo.13.tags: lips, smile, snow
 photo.14: https://www.instagram.com/p/Bu4tLZbFSiI/media/?size=m
 photo.14.author: akiakiakiko18
 photo.14.link: https://www.instagram.com/akiakiakiko18/
-photo.14.tags: apple time, lips, smile
+photo.14.tags: apple time, lips, portrait, smile
 photo.15: https://www.instagram.com/p/BvwPAd5l1pu/media/?size=m
 photo.15.author: masumilky
 photo.15.link: https://www.instagram.com/masumilky/
@@ -84,5 +86,9 @@ photo.19: https://www.instagram.com/p/ByrGg7eBkY8/media/?size=m
 photo.19.author: lesserpanda_shizuokacity_cp
 photo.19.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.19.tags: lips, smile
+photo.20: https://www.instagram.com/p/BzW7nufBdIk/media/?size=m
+photo.20.author: lesserpanda_shizuokacity_cp
+photo.20.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.20.tags: apple time, paws
 species: 2
 zoo: 16
