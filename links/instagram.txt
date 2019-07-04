@@ -1,5 +1,6 @@
 [links]
 _id: links.instagram
+icon: bamboo
 link.1: https://www.instagram.com/animal_lifenyc/
 link.1.language: en
 link.1.name: animal_lifenyc
