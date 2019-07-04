@@ -215,58 +215,28 @@ Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the 
 
 /*
     Logic related to the Links page.
-    Loads language-specific content over an XHR
 */
 Page.links = {};
 Page.links.content = undefined;    // Links page content
-// Fetch the links page contents
-Page.links.fetch = function() {
-  var base = "/fragments/";
-  var specific = L.display + "/links.html";
-  var fetch_url = base + specific;
-  var request = new XMLHttpRequest();
-  request.open('GET', fetch_url);
-  request.responseType = 'document';
-  request.send();
-  request.onload = function() {
-    Page.links.content = request.response.getElementById('hiddenContentFrame');
-    Page.links.language = L.display;   // What language the content was laoaded in
-    window.dispatchEvent(Page.links.loaded);   // Report the data has loaded
-  }
-}
 Page.links.hashchange = function() {
   // The links page hashchange results in needing to draw or fetch the
   // links page and initialize its menus, or at the very least, scroll
   // to the top of the page.
-  if ((Page.links.language != L.display) && (Page.links.language != undefined)) {
-    Page.links.fetch();
-  } else {
-    Page.links.render();
-    // Add event listeners to the newly created About page buttons
-    Page.sections.buttonEventHandlers("linksPageMenu");
-    // Display correct subsection of the about page (class swaps)
-    // Default: usage instructions appear non-hidden.
-    Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-    Page.current = Page.links.render;
-  }
+  Page.links.render();
+  // Add event listeners to the newly created About page buttons
+  Page.sections.buttonEventHandlers("linksPageMenu");
+  // Display correct subsection of the about page (class swaps)
+  // Default: usage instructions appear non-hidden.
+  Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
+  Page.current = Page.links.render;
   window.scrollTo(0, 0);   // Go to the top of the page
 }
-Page.links.language = undefined;   // Language the content was loaded in
-Page.links.loaded = new Event('links_loaded');
 Page.links.render = function() {
-  // Displays the links page when the button is clicked. Load content from a static
-  // file based on the given language, and display it in a #contentFrame.links
-  if (Page.links.language == undefined) {
-    Page.links.fetch();   // Direct link
-  }
-  else if (Page.links.language != L.display) {
-    Page.links.fetch();   // Language change event
-  } else {
-    Page.sections.menuDefaults();   // Initialize submenus if necessary
-    var old_content = document.getElementById('contentFrame');
-    Page.swap(old_content, Page.links.content);
-    Page.footer.redraw("results");
-  }
+  // TODO: fill Page.links.content
+  Page.sections.menuDefaults();   // Initialize submenus if necessary
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, Page.links.content);
+  Page.footer.redraw("results");
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");

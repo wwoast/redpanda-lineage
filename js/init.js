@@ -59,9 +59,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Fetch the about page and links page contents for each language
+  // Fetch the about page contents for each language
   Page.about.fetch();
-  Page.links.fetch();
 
   // If a previous page was seen, load it
   var last_seen = window.localStorage.getItem("last_seen");
@@ -109,19 +108,5 @@ window.addEventListener('about_loaded', function() {
     // Add a tag list
     Page.about.tags();  
     Page.current = Page.about.render;
-  }
-});
-
-// Once the links-page content is loaded, decide whether to display the
-// contents or just keep them stashed.
-window.addEventListener('links_loaded', function() {
-  if (window.location.hash == "#links") {
-    Page.links.render();
-    // Add event listeners to the newly created About page buttons
-    Page.sections.buttonEventHandlers("linksPageMenu");
-    // Display correct subsection of the about page (class swaps)
-    // Default: usage instructions appear non-hidden.
-    Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-    Page.current = Page.links.render;
   }
 });
