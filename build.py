@@ -28,6 +28,8 @@ class RedPandaGraph:
     """
     def __init__(self):
         self.edges = []
+        self.links = []
+        self.links_files = []
         self.media = []
         self.media_files = []
         self.panda_files = []
@@ -49,6 +51,7 @@ class RedPandaGraph:
         self.import_tree(WILD_PATH, self.import_wild, self.verify_wilds)
         self.import_tree(PANDA_PATH, self.import_redpanda, self.verify_pandas)
         self.import_tree(MEDIA_PATH, self.import_media, self.verify_media)
+        self.import_tree(LINKS_PATH, self.import_links, self.verify_links)
 
     def check_dataset_dates(self):
         """Run checks against the complete tree of red panda dates.
@@ -237,7 +240,10 @@ class RedPandaGraph:
         """
         for _, subdir in enumerate(sorted(os.listdir(path))):
             subpath = os.path.join(path, subdir)
-            if os.path.isdir(subpath):
+            if os.path.isfile(subpath) and subpath.lower().endswith(".txt"):
+                # Import links
+                import_method(subpath)
+            elif os.path.isdir(subpath):
                 for _, subfile in enumerate(sorted(os.listdir(subpath))):
                     subsubpath = os.path.join(subpath, subfile)
                     if os.path.isfile(subsubpath) and subsubpath.lower().endswith(".txt"):
@@ -247,10 +253,26 @@ class RedPandaGraph:
                         for _, subsubfile in enumerate(sorted(os.listdir(subsubpath))):
                             datapath = os.path.join(subsubpath, subsubfile)
                             if os.path.isfile(datapath) and datapath.lower().endswith(".txt"):
-                                # Import pandas
+                                # Import pandas or media
                                 import_method(datapath)
         # Post-import, validate the entire dataset
         verify_method()
+
+    def import_links(self, path):
+        """Take a single links file and convert it into a Python dict.
+
+        Links files are expected to have a header of [links]. Any fields defined
+        under that header will be consumed into a list of links.
+        """
+        links_vertex = {}
+        infile = configparser.ConfigParser()
+        infile.read(path, encoding='utf-8')
+        # Use the path name for error messages or assignments
+        for field in infile.items("links"):
+            links_vertex[field[0]] = field[1]
+        self.links.append(links_vertex)
+        self.vertices.append(links_vertex)
+        self.links_files.append(path)
 
     def import_media(self, path):
         """Take a single media file and convert it into a Python dict.
@@ -327,26 +349,26 @@ class RedPandaGraph:
                 panda_vertex[field[0]] = gender
             elif (field[0].find("birthplace") != -1):
                 if (field[1].find("wild.") != -1):
-                  # Wild ID rules
-                  wild_id = field[1]
-                  self.check_imported_wild_id(field[1], path)
-                  # Add a wild edge to the list that's a wild location
-                  wild_edge = {}
-                  wild_edge['_out'] = panda_id
-                  wild_edge['_in'] = wild_id
-                  wild_edge['_label'] = field[0]
-                  panda_edges.append(wild_edge)
+                    # Wild ID rules
+                    wild_id = field[1]
+                    self.check_imported_wild_id(field[1], path)
+                    # Add a wild edge to the list that's a wild location
+                    wild_edge = {}
+                    wild_edge['_out'] = panda_id
+                    wild_edge['_in'] = wild_id
+                    wild_edge['_label'] = field[0]
+                    panda_edges.append(wild_edge)
                 else:
-                  # Zoo ID rules
-                  # To differentiate Zoo IDs from pandas, use negative IDs
-                  zoo_id = str(int(field[1]) * -1)
-                  self.check_imported_zoo_id(field[1], path)
-                  # Add a birthplace or zoo edge to the list that's a zoo
-                  zoo_edge = {}
-                  zoo_edge['_out'] = panda_id
-                  zoo_edge['_in'] = zoo_id
-                  zoo_edge['_label'] = field[0]
-                  panda_edges.append(zoo_edge)
+                    # Zoo ID rules
+                    # To differentiate Zoo IDs from pandas, use negative IDs
+                    zoo_id = str(int(field[1]) * -1)
+                    self.check_imported_zoo_id(field[1], path)
+                    # Add a birthplace or zoo edge to the list that's a zoo
+                    zoo_edge = {}
+                    zoo_edge['_out'] = panda_id
+                    zoo_edge['_in'] = zoo_id
+                    zoo_edge['_label'] = field[0]
+                    panda_edges.append(zoo_edge)
             elif field[0].find("children") != -1:   
                 # Process children IDs
                 children = field[1].replace(" ","").split(",")
@@ -474,6 +496,10 @@ class RedPandaGraph:
     def sum_pandas(self):
         """Panda count is just the count of the number of panda files imported."""
         return len(self.panda_files)
+
+    def verify_links(self):
+        """All checks to ensure that the links vertices are good."""
+        self.check_dataset_duplicate_ids(self.links)
 
     def verify_media(self):
         """All checks to ensure that the group media vertices are good."""
