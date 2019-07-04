@@ -232,7 +232,7 @@ Page.links.hashchange = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Page.links.render = function() {
-  // TODO: fill Page.links.content
+  // TODO: fill Page.links.content from show functions
   Page.sections.menuDefaults();   // Initialize submenus if necessary
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);

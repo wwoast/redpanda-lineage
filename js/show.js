@@ -689,6 +689,55 @@ Show.button.tree.render = function(class_name="profile") {
 }
 
 /*
+    Show functions used to generate content for the links page. Each links
+    page has slightly different content and styles.
+*/
+Show.links = {}
+Show.links.menus = {};
+Show.links.menus.bottom = function() {
+  // Return to a green menu bar.
+  // TODO: only show the top button if the page height is larger
+  // than the viewport by a certain amount
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of bottom-menu buttons and render them.
+  // Since the theme is green, leverage the "results" render type
+  for (let btn_id of Show.links.menus.bottomButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = undefined;
+    button = Show.button[btn_type].render("results");
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("bottomMenu")[0];
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  // Remove any previous menu class modifiers
+  menu.classList.add("results");
+  menu.classList.remove("profile");
+  return menu;
+}
+Show.links.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.links.menus.top = function() {
+  // Return to a green menu bar: Logo/Home, Language, About, Random, Links
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of top-menu buttons and render them
+  for (let btn_id of Show.links.menus.topButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render("results");
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("topMenu")[0];
+  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  // Remove any previous menu class modifiers
+  menu.classList.add("results");
+  menu.classList.remove("profile");
+  return menu;
+}
+Show.links.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+
+/*
     Show functions used to generate content for the landing page when you
     first visit redpandafinder.com. The landing (home) page is just a special 
     case of the results page, minus no search input, and the only time there
