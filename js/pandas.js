@@ -4,7 +4,7 @@
 */
 
 /*
-    The Panda search form namespace
+    Object for storing and searching the redpanda.json graph database
 */
 var Pandas = {};   // Namespace
 Pandas.def = {};   // Default values
@@ -419,6 +419,14 @@ Pandas.searchHalfSiblings = function(idnum) {
 // same parents and the same birthday.
 Pandas.searchLitter = function(idnum) {
   var nodes = G.v(idnum).in("litter").run();
+  return nodes;
+}
+
+// Find all links stored in the panda database ([links] files)
+Pandas.searchLinks = function(idstr) {
+  var nodes = G.v().filter(function(vertex) {
+    return (vertex["_id"] == "links." + idstr);
+  }).run();
   return nodes;
 }
 

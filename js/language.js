@@ -251,10 +251,21 @@ Language.L.gui = {
     "es": "Home",
     "jp": "ホーム"
   },
+  "instagramLinks_body": {
+    "cn": "TOWRITE",
+    "en": "Without all the dedicated and loving Instagram red panda fans I " +
+          "know, this site would not exist. Thank you so much!",
+    "jp": "TOWRITE"
+  },
   "instagramLinks_button": {
     "cn": "TOWRITE",
     "en": "Instagram",
     "jp": "インスタグラム"
+  },
+  "instagramLinks_header": {
+    "cn": "TOWRITE",
+    "en": "Red Pandas on Instagram",
+    "jp": "Instagram レッサーパンダ"
   },
   "language": {
     "cn": {
@@ -358,10 +369,20 @@ Language.L.gui = {
     "en": "Random",
     "jp": "適当"
   },
+  "redPandaCommunity_body": {
+    "cn": "",
+    "en": "",
+    "jp": ""
+  },
   "redPandaCommunity_button": {
     "cn": "TOWRITE",
     "en": "Community",
     "jp": "共同体"
+  },
+  "redPandaCommunity_header": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Community",
+    "jp": "レッサーパンダの共同体"
   },
   "search": {
     "cn": "搜索...",
@@ -383,7 +404,17 @@ Language.L.gui = {
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
   },
+  "specialThanksLinks_body": {
+    "cn": "",
+    "en": "",
+    "jp": ""
+  },
   "specialThanksLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Special Thanks",
+    "jp": "感佩"
+  },
+  "specialThanksLinks_header": {
     "cn": "TOWRITE",
     "en": "Special Thanks",
     "jp": "感佩"
@@ -428,10 +459,21 @@ Language.L.gui = {
     "en": "Winter",
     "jp": "TOWRITE"
   },
+  "zooLinks_body": {
+    "cn": "TOWRITE",
+    "en": "While many zoos are represented in this dataset, some of them are " +
+          "hotspots for seeing Red Pandas.",
+    "jp": ""
+  },
   "zooLinks_button": {
     "cn": "TOWRITE",
     "en": "Zoos",
     "jp": "動物園"
+  },
+  "zooLinks_header": {
+    "cn": "TOWRITE",
+    "en": "Major Red Panda Zoos",
+    "jp": "レッサーパンダの動物園"
   }
 }
 

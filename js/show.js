@@ -714,13 +714,23 @@ Show.links.body = function(subpage) {
   container.className = "links";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker;"
-  // TODO: draw the section menus
+  // Draw the section menus
   var menu = Show.links.menus.section(subpage);
   // Draw the links-page content
-  var content = Show.links.section[subpage]();
+  var content = Show.links.sections[subpage]();
   shrinker.appendChild(menu);
   shrinker.appendChild(content);
   container.appendChild(shrinker);
+  return container;
+}
+Show.links.insert = function(element, href, text, suffix) {
+  // Draw a link for the links page. Many modes will want
+  // to suffix specific data after the link text.
+  var container = document.createElement(element);
+  var anchor = document.createElement('a');
+  anchor.href = href;
+  anchor.innerText = text + " " + suffix;
+  container.appendChild(anchor);
   return container;
 }
 Show.links.menus = {};
@@ -786,18 +796,49 @@ Show.links.menus.top = function() {
   return menu;
 }
 Show.links.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+Show.links.order = {};
+Show.links.order.given = function(links) {
+  // Display links in the order they're defined in the dataset.
+}
+Show.links.order.language = function(links) {
+  // Display links in language order. Any link with the current language
+  // as the 1st in the link's language.order will be treated as a primary
+  // language link and appear first. All primray links will be arranged
+  // in lexicographical order. Next, any link with the current language 
+  // as Nth order in the language.order will appear Nth in the list.
+  // Return the links page content with the given ordering.
+  // TODO: slice links by language, and then alphabetize
+  return;
+}
+
 Show.links.sections = {};
 Show.links.sections.instagramLinks = function() {
-  return;  // TOWRITE
+  var data = 'instagram';
+  var links = Pandas.searchLinks(data);
+  // TODO: header and body
+  // TODO: order by language
+  return;
 }
 Show.links.sections.redPandaCommunity = function() {
-  return;  // TOWRITE
+  var data = 'community';
+  var links = Pandas.searchLinks(data);
+  // TODO: header and body
+  // TODO: order by language
+  return;
 }
 Show.links.sections.specialthanksLinks = function() {
-  return;  // TOWRITE
+  var data = 'special-thanks';
+  var links = Pandas.searchLinks(data);
+  // TODO: header and body
+  // TODO: order in the given order
+  return;
 }
 Show.links.sections.zooLinks = function() {
-  return;  // TOWRITE
+  var data = 'zoos';
+  var links = Pandas.searchLinks(data);
+  // TODO: header and body
+  // TODO: order by language
+  return;
 }
 
 /*
