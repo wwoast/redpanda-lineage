@@ -723,15 +723,39 @@ Show.links.body = function(subpage) {
   container.appendChild(shrinker);
   return container;
 }
-Show.links.insert = function(element, href, text, suffix) {
+Show.links.create = function(element, href, text, suffix, before=undefined, after=undefined) {
   // Draw a link for the links page. Many modes will want
-  // to suffix specific data after the link text.
+  // to suffix specific data as part of the link text
   var container = document.createElement(element);
   var anchor = document.createElement('a');
   anchor.href = href;
   anchor.innerText = text + " " + suffix;
+  if (anchor.href == "underline") {
+    // Non-link links for the special-thanks page.
+    // Do not process any suffix for this
+    anchor = document.createElement('u');
+    anchor.innerText = text;
+  }
+  if (before != undefined) {
+    // Before text is for the special-thanks page
+    var text_before = document.createTextNode(before);
+    container.appendChild(text_before);
+  }
   container.appendChild(anchor);
+  if (after != undefined) {
+    // After text is for the special-thanks page
+    var text_after = document.createTextNode(after);
+    container.appendChild(text_after);
+  }
   return container;
+}
+Show.links.flags = function(order) {
+  // Convert the language order string into a list of flag emojis
+  var flags = "";
+  if (order.length > 0) {
+    flags = order.map(l => Language.L.gui.flag[l]).join("");
+  }
+  return flags;
 }
 Show.links.menus = {};
 Show.links.menus.bottom = function() {
@@ -798,47 +822,202 @@ Show.links.menus.top = function() {
 Show.links.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
 Show.links.order = {};
 Show.links.order.given = function(links) {
-  // Display links in the order they're defined in the dataset.
+  // Go through a set of links, and return an object with all details necessary
+  // to construct links in the page, along with any counts that will assist in
+  // sorting, should sorting be necessary elsewhere.
+  var output = {};
+  output.counts = {};
+  // Count the hits for each language that we support in the display modes
+  for (let language of Object.values(Pandas.def.languages)) {
+    output.counts[language] = 0;
+  }
+  // Grab the icon from the links values
+  output.icon = links.icon;
+  // The list of links themselves
+  output.list = [];
+  var link_fields = Pandas.linkGeneratorEntity;
+  for (let field_name of link_fields(links)) {
+    var link = {
+      "first": links[field_name + "." + L.display + ".first"],
+      "href": links[field_name],
+      "last": links[field_name + "." + L.display + ".last"],
+      "order": links[field_name + ".language.order"].replace(/ /g, "").split(","),
+      "text": links[field_name + "." + L.display + ".name"]
+    }
+    for (let language of link.order) {
+      output.counts[language] = output.counts[language] + 1;
+    }
+    output.list.push(link);
+  }
+  return output;
+}
+Show.links.order.hits = function(links) {
+  // Display links in language order, and then order by which language
+  // has the most recorded hits in the links.
+  var output = Show.links.order.given(links);
+  output.list = output.list.sort(function(a, b) {
+    // Do a pass of alphabetical sorting by name
+    if (a.text > b.text) {
+      return 1;
+    } else if (a.text < b.text) {
+      return -1;
+    } else {
+      return 0;
+    }
+  }).sort(function(a, b) {
+    // If the primary (zeroth) language for the link is the 
+    // display language, prioritize that.
+    var aHasLang = a.order.indexOf(L.display);
+    var bHasLang = b.order.indexOf(L.display);
+    if (aHasLang == 0 && bHasLang == 0) {
+      return 0;
+    } else if (aHasLang == bHasLang) {
+      return 0;
+    } else if (aHasLang == 0) {
+      return -1;
+    } else {
+      return 1;
+    }
+  }).sort(function(a, b) {
+    // Finally, do a pass of sorting by language hits count for the primary
+    // language of each object
+    var aLangCount = output.counts[a.order[0]];
+    var bLangCount = output.counts[b.order[0]];
+    if (aLangCount > bLangCount) {
+      return -1;
+    } else if (aLangCount < bLangCount) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+  return output;
 }
 Show.links.order.language = function(links) {
   // Display links in language order. Any link with the current language
   // as the 1st in the link's language.order will be treated as a primary
-  // language link and appear first. All primray links will be arranged
-  // in lexicographical order. Next, any link with the current language 
-  // as Nth order in the language.order will appear Nth in the list.
-  // Return the links page content with the given ordering.
-  // TODO: slice links by language, and then alphabetize
-  return;
+  // language link and appear first. All primary links will be arranged
+  // in lexicographical order. Next, order the other links by whether the
+  // desired language is a secondary value for the given link.
+  // Return the links page content as an array with the desired ordering.
+  var output = Show.links.order.given(links);  
+  output.list = output.list.sort(function(a, b) {
+    // Do a pass of alphabetical sorting by name
+    if (a.text > b.text) {
+      return 1;
+    } else if (a.text < b.text) {
+      return -1;
+    } else {
+      return 0;
+    }
+  }).sort(function(a, b) {
+    // If the primary (zeroth) language for the link is the 
+    // display language, prioritize that.
+    var aHasLang = a.order.indexOf(L.display);
+    var bHasLang = b.order.indexOf(L.display);
+    if (aHasLang == 0 && bHasLang == 0) {
+      return 0;
+    } else if (aHasLang == bHasLang) {
+      return 0;
+    } else if (aHasLang == 0) {
+      return -1;
+    } else {
+      return 1;
+    }
+  }).sort(function(a, b) {
+    // Finally, do a pass of sorting by whether it has the 
+    // desired language anywhere in the language ordering.
+    var aHasLang = a.order.indexOf(L.display);
+    var bHasLang = b.order.indexOf(L.display);
+    if ((aHasLang < bHasLang) && (aHasLang > -1)) {
+      return -1;
+    } else if (aHasLang > bHasLang) {
+      return 1;
+    } else {
+      return 0;
+    }
+  });
+  return output;
 }
-
 Show.links.sections = {};
 Show.links.sections.instagramLinks = function() {
   var data = 'instagram';
-  var links = Pandas.searchLinks(data);
+  var links = Show.links.order.hits(Pandas.searchLinks(data));
+  var container = document.createElement('div');
+  container.id = "instagramLinks";
+  container.className = "section";
+  var sub_container = document.createElement('div');
+  sub_container.className = "pandaLinks";
   // TODO: header and body
-  // TODO: order by language
-  return;
+  var ul = document.createElement("ul");
+  ul.className = "linkList multiColumn " + links.icon;
+  for (let link of links) {
+    var suffix = Show.links.flags(link.order);
+    var li = Show.links.create('li', link.href, link.text, suffix);
+    ul.appendChild(li);
+  }
+  sub_container.appendChild(ul);
+  container.appendChild(sub_container);
+  return container;
 }
 Show.links.sections.redPandaCommunity = function() {
   var data = 'community';
-  var links = Pandas.searchLinks(data);
+  var links = Show.links.order.language(Pandas.searchLinks(data));
+  var container = document.createElement('div');
+  container.id = "redPandaCommunity";
+  container.className = "section";
+  var sub_container = document.createElement('div');
+  sub_container.className = "pandaLinks";
   // TODO: header and body
-  // TODO: order by language
-  return;
+  var ul = document.createElement("ul");
+  ul.className = "linkList " + links.icon;
+  for (let link of links) {
+    var suffix = Show.links.flags(link.order);
+    var li = Show.links.create('li', link.href, link.text, suffix);
+    ul.appendChild(li);
+  }
+  sub_container.appendChild(ul);
+  container.appendChild(sub_container);
+  return container;
 }
-Show.links.sections.specialthanksLinks = function() {
+Show.links.sections.specialThanksLinks = function() {
   var data = 'special-thanks';
-  var links = Pandas.searchLinks(data);
+  var links = Show.links.order.given(Pandas.searchLinks(data));
+  var container = document.createElement('div');
+  container.id = "specialThanksLinks";
+  container.className = "section";
+  var sub_container = document.createElement('div');
+  sub_container.className = "pandaLinks";
   // TODO: header and body
-  // TODO: order in the given order
-  return;
+  var ul = document.createElement("ul");
+  ul.className = "linkList " + links.icon;
+  for (let link of links) {
+    var li = Show.links.create('li', link.href, link.text, "", link.before, link.after);
+    ul.appendChild(li);
+  }
+  sub_container.appendChild(ul);
+  container.appendChild(sub_container);
+  return container;
 }
 Show.links.sections.zooLinks = function() {
   var data = 'zoos';
-  var links = Pandas.searchLinks(data);
+  var links = Show.links.order.language(Pandas.searchLinks(data));
+  var container = document.createElement('div');
+  container.id = "zooLinks";
+  container.className = "section";
+  var sub_container = document.createElement('div');
+  sub_container.className = "pandaLinks";
   // TODO: header and body
-  // TODO: order by language
-  return;
+  var ul = document.createElement("ul");
+  ul.className = "linkList " + links.icon;
+  for (let link of links) {
+    var suffix = Show.links.flags(link.order);
+    var li = Show.links.create('li', link.href, link.text, suffix);
+    ul.appendChild(li);
+  }
+  sub_container.appendChild(ul);
+  container.appendChild(sub_container);
+  return container;
 }
 
 /*

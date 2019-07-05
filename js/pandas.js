@@ -282,6 +282,18 @@ Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
 }
 
+// Generates a valid index to a link for a link entity, up to the
+// point that said entity doesn't have a defined link in its data.
+Pandas.linkGeneratorEntity = function*(entity, index=0) {
+  while (index < index + 1) {
+    index++;
+    if (entity["link." + index] == undefined) {
+      return;
+    }
+    yield "location." + index;
+  }
+}
+
 // Generates a valid index to a location for a panda entity, up to the
 // point that said entity doesn't have a defined historical location in its data
 Pandas.locationGeneratorEntity = function*(entity, index=0) {
@@ -422,12 +434,14 @@ Pandas.searchLitter = function(idnum) {
   return nodes;
 }
 
-// Find all links stored in the panda database ([links] files)
+// Find all links stored in a single panda database [links] file
 Pandas.searchLinks = function(idstr) {
   var nodes = G.v().filter(function(vertex) {
     return (vertex["_id"] == "links." + idstr);
   }).run();
-  return nodes;
+  // Instead of returning the nodes, return a dictionary 
+  // corresponding to all the links in that file.
+  return nodes[0];
 }
 
 // Find a panda's siblings, not including littermates.
