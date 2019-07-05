@@ -31,10 +31,10 @@ Page.about.hashchange = function() {
   } else {
     Page.about.render();
     // Add event listeners to the newly created About page buttons
-    Page.sections.buttonEventHandlers("aboutPageMenu");
+    Page.about.sections.buttonEventHandlers();
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    Page.about.sections.show(Page.about.sections.menu.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions(Layout.media);
     Layout.media.addListener(Page.about.instructions);
@@ -64,7 +64,7 @@ Page.about.render = function() {
   } else if (Page.about.language != L.display) {
     Page.about.fetch();   // Language change event
   } else {
-    Page.sections.menuDefaults();   // Initialize submenus if necessary
+    Page.about.sections.menuDefaults();   // Initialize submenus if necessary
     var old_content = document.getElementById('contentFrame');
     Page.swap(old_content, Page.about.content);
     Page.footer.redraw("results");
@@ -223,17 +223,15 @@ Page.links.hashchange = function() {
   // links page and initialize its menus, or at the very least, scroll
   // to the top of the page.
   Page.links.render();
-  // Add event listeners to the newly created About page buttons
-  Page.sections.buttonEventHandlers("linksPageMenu");
-  // Display correct subsection of the about page (class swaps)
-  // Default: usage instructions appear non-hidden.
-  Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
+  // Add event listeners to the newly created Links page buttons
+  Page.links.sections.buttonEventHandlers();
   Page.current = Page.links.render;
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Page.links.render = function() {
   // TODO: fill Page.links.content from show functions
-  Page.sections.menuDefaults();   // Initialize submenus if necessary
+  // TOWRITE
+  Page.links.sections.menuDefaults();   // Initialize submenus if necessary
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
   Page.footer.redraw("results");
@@ -258,6 +256,31 @@ Page.links.routing = function() {
     window.location = "#links";
   }
 }
+Page.links.sections = {};
+Page.links.sections.buttonEventHandlers = function() {
+  // Find all button subelements of the menu
+  var buttons = document.getElementsByClassName("sectionButton");
+  // For each button, add an event handler to show the section
+  // related to the button's id. Example:
+  //    aboutPage_button => shows aboutPage
+  for (var button of buttons) {
+    button.addEventListener('click', function() {
+      var show_section_id = this.id.split("_")[0];
+      var menu_id = this.parentNode.id;
+      // Draw new links page content.
+      // TOWRITE
+      Page.links.sections.menu.setItem(menu_id, show_section_id);
+    });
+  }
+}
+
+}
+Page.links.sections.menuDefaults = function() {
+  if (Page.links.sections.menu.getItem("linksPageMenu") == null) {
+    Page.links.sections.menu.setItem("linksPageMenu", "redPandaCommunity");
+  }
+}
+
 
 /*
     The profiles page display details, media, or timelines for an individual panda
@@ -532,11 +555,8 @@ Page.results.render = function() {
     Shared logic relating to the about/links page, both of which track sections
     that are displayed at some point or another
 */
-Page.sections = {};
-Page.sections.buttonEventHandlers = function(section_menu_id) {
-  // The about page and links page have menus with buttons that
-  // cause subsections to appear or disappear as needed.
-  var menu = document.getElementById(section_menu_id);
+Page.about.sections = {};
+Page.about.sections.buttonEventHandlers = function() {
   // Find all button subelements of the menu
   var buttons = document.getElementsByClassName("sectionButton");
   // For each button, add an event handler to show the section
@@ -546,11 +566,11 @@ Page.sections.buttonEventHandlers = function(section_menu_id) {
     button.addEventListener('click', function() {
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
-      Page.sections.show(show_section_id);
+      Page.about.sections.show(show_section_id);
       // TODO: set new uri representing sub-page
       // Set subMenu state. This is used to validate
       // what page to show and how the menu will be colored.
-      Page.sections.menu.setItem(menu_id, show_section_id);
+      Page.about.sections.menu.setItem(menu_id, show_section_id);
     });
   }
 }
@@ -559,17 +579,13 @@ Page.sections.buttonEventHandlers = function(section_menu_id) {
 // chosen sub-page will reappear when theses pages are regenerated.
 //   "aboutPageMenu" can be set to (usage|pandas|contributions)
 //   "linksPageMenu" can be set to (community|zoos|friends)
-Page.sections.menu = window.sessionStorage;
-Page.sections.menuDefaults = function() {
-  // Set submenu defaults
-  if (Page.sections.menu.getItem("aboutPageMenu") == null) {
-    Page.sections.menu.setItem("aboutPageMenu", "usageGuide");
-  }
-  if (Page.sections.menu.getItem("linksPageMenu") == null) {
-    Page.sections.menu.setItem("linksPageMenu", "redPandaCommunity");
+Page.about.sections.menu = window.sessionStorage;
+Page.about.sections.menuDefaults = function() {
+  if (Page.about.sections.menu.getItem("aboutPageMenu") == null) {
+    Page.about.sections.menu.setItem("aboutPageMenu", "usageGuide");
   }
 }
-Page.sections.show = function(section_id) {
+Page.about.sections.show = function(section_id) {
   // For pages with hidden sections, get a list of the section
   // containers, and hide all of them but the one provided.
   // This requires an id convention where sections are id'ed "name" and the
