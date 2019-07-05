@@ -251,6 +251,11 @@ Language.L.gui = {
     "es": "Home",
     "jp": "ホーム"
   },
+  "instagramLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Instagram",
+    "jp": "インスタグラム"
+  },
   "language": {
     "cn": {
       "cn": "汉语",
@@ -353,6 +358,11 @@ Language.L.gui = {
     "en": "Random",
     "jp": "適当"
   },
+  "redPandaCommunity_button": {
+    "cn": "TOWRITE",
+    "en": "Community",
+    "jp": "共同体"
+  },
   "search": {
     "cn": "搜索...",
     "en": "Search...",
@@ -372,6 +382,11 @@ Language.L.gui = {
     "cn": "自 <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
+  },
+  "specialThanksLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Special Thanks",
+    "jp": "感佩"
   },
   "spring": {
     "cn": "春",
@@ -412,6 +427,11 @@ Language.L.gui = {
     "cn": "冬",
     "en": "Winter",
     "jp": "TOWRITE"
+  },
+  "zooLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Zoos",
+    "jp": "動物園"
   }
 }
 
