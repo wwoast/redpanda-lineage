@@ -281,7 +281,7 @@ Page.links.hashchange = function() {
 }
 Page.links.render = function() {
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
-  var chosen = Page.stored.getItem(menu_id);
+  var chosen = Page.stored.getItem("linksPageMenu");
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
