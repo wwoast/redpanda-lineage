@@ -950,7 +950,7 @@ Show.links.sections.instagramLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList";
+  ul.classList.add("linkList");
   ul.classList.add("multiColumn");
   ul.classList.add(links.icon);
   for (let link of links.list) {
@@ -972,7 +972,7 @@ Show.links.sections.redPandaCommunity = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList";
+  ul.classList.add("linkList");
   ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
@@ -993,7 +993,7 @@ Show.links.sections.specialThanksLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList";
+  ul.classList.add("linkList");
   ul.classList.add(links.icon);
   for (let link of links.list) {
     var li = Show.links.create('li', link.href, link.text, "", link.before, link.after);
@@ -1013,7 +1013,7 @@ Show.links.sections.zooLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList";
+  ul.classList.add("linkList");
   ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
