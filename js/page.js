@@ -34,7 +34,7 @@ Page.about.hashchange = function() {
     Page.about.sections.buttonEventHandlers();
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    Page.about.sections.show(Page.about.sections.menu.getItem("aboutPageMenu"));
+    Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions(Layout.media);
     Layout.media.addListener(Page.about.instructions);
@@ -230,7 +230,7 @@ Page.links.hashchange = function() {
 }
 Page.links.render = function() {
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
-  var chosen = Page.links.sections.menu.getItem(menu_id);
+  var chosen = Page.stored.getItem(menu_id);
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
@@ -265,20 +265,20 @@ Page.links.sections.buttonEventHandlers = function() {
   //    redPandaCommunity_button => shows redPandaCommunity page
   for (var button of buttons) {
     button.addEventListener('click', function() {
-      var old_section = Page.links.sections.menu.getItem(menu_id);
+      var old_section = Page.stored.getItem(menu_id);
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old
       Page.links.content = Show.links.section[show_section_id]();
       var old_content = document.getElementById(old_section);
       Page.swap(old_content, Page.links.content);    
-      Page.links.sections.menu.setItem(menu_id, show_section_id);
+      Page.stored.setItem(menu_id, show_section_id);
     });
   }
 }
 Page.links.sections.menuDefaults = function() {
-  if (Page.links.sections.menu.getItem("linksPageMenu") == null) {
-    Page.links.sections.menu.setItem("linksPageMenu", "redPandaCommunity");
+  if (Page.stored.getItem("linksPageMenu") == null) {
+    Page.stored.setItem("linksPageMenu", "redPandaCommunity");
   }
 }
 
@@ -571,7 +571,7 @@ Page.about.sections.buttonEventHandlers = function() {
       // TODO: set new uri representing sub-page
       // Set subMenu state. This is used to validate
       // what page to show and how the menu will be colored.
-      Page.about.sections.menu.setItem(menu_id, show_section_id);
+      Page.stored.setItem(menu_id, show_section_id);
     });
   }
 }
@@ -580,10 +580,9 @@ Page.about.sections.buttonEventHandlers = function() {
 // chosen sub-page will reappear when theses pages are regenerated.
 //   "aboutPageMenu" can be set to (usage|pandas|contributions)
 //   "linksPageMenu" can be set to (community|zoos|friends)
-Page.about.sections.menu = window.sessionStorage;
 Page.about.sections.menuDefaults = function() {
-  if (Page.about.sections.menu.getItem("aboutPageMenu") == null) {
-    Page.about.sections.menu.setItem("aboutPageMenu", "usageGuide");
+  if (Page.stored.getItem("aboutPageMenu") == null) {
+    Page.stored.setItem("aboutPageMenu", "usageGuide");
   }
 }
 Page.about.sections.show = function(section_id) {
@@ -615,6 +614,9 @@ Page.about.sections.show = function(section_id) {
 // Stores callback to the current page render function for redraws.
 // Default mode is to show panda results.
 Page.current = Page.results.render;
+
+// The window.session variable that stores submenu state for about/links
+Page.stored = window.sessionStorage;
 
 // Redraw page after an updateLanguage event or similar
 Page.redraw = function(callback) {
