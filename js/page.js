@@ -230,7 +230,8 @@ Page.links.hashchange = function() {
 }
 Page.links.render = function() {
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
-  Page.links.content = Show.links.body();
+  var chosen = Page.links.sections.menu.getItem(menu_id);
+  Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
   Page.footer.redraw("results");
@@ -264,7 +265,7 @@ Page.links.sections.buttonEventHandlers = function() {
   //    redPandaCommunity_button => shows redPandaCommunity page
   for (var button of buttons) {
     button.addEventListener('click', function() {
-      var old_section = Page.links.sections.menuDefaults.getItem(menu_id);
+      var old_section = Page.links.sections.menu.getItem(menu_id);
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old

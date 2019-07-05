@@ -693,12 +693,17 @@ Show.button.tree.render = function(class_name="profile") {
     page has slightly different content and styles.
 */
 Show.links = {};
-Show.links.body = function() {
+Show.links.body = function(subpage) {
   // Draw a links page with menus and content based on the last
   // clicked version of a links menu button.
-  var subpage = Page.links.sections.menu.getItem(menu_id);
+  var container = document.createElement('div');
+  container.id = "contentFrame";
+  container.className = "links";
   // TODO: draw the section menus
+  var menu = 
+  // Draw the links-page content
   var content = Show.links.section[subpage]();
+
   return;  // TOWRITE, divs and stuff
 }
 Show.links.menus = {};
