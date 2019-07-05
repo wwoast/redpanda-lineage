@@ -713,7 +713,7 @@ Show.links.body = function(subpage) {
   container.id = "contentFrame";
   container.className = "links";
   var shrinker = document.createElement('div');
-  shrinker.className = "shrinker;"
+  shrinker.className = "shrinker";
   // Draw the section menus
   var menu = Show.links.menus.section(subpage);
   // Draw the links-page content
@@ -950,7 +950,9 @@ Show.links.sections.instagramLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList multiColumn " + links.icon;
+  ul.className = "linkList";
+  ul.classList.add("multiColumn");
+  ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
     var li = Show.links.create('li', link.href, link.text, suffix);
@@ -970,7 +972,8 @@ Show.links.sections.redPandaCommunity = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList " + links.icon;
+  ul.className = "linkList";
+  ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
     var li = Show.links.create('li', link.href, link.text, suffix);
@@ -990,7 +993,8 @@ Show.links.sections.specialThanksLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList " + links.icon;
+  ul.className = "linkList";
+  ul.classList.add(links.icon);
   for (let link of links.list) {
     var li = Show.links.create('li', link.href, link.text, "", link.before, link.after);
     ul.appendChild(li);
@@ -1009,7 +1013,8 @@ Show.links.sections.zooLinks = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  ul.className = "linkList " + links.icon;
+  ul.className = "linkList";
+  ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
     var li = Show.links.create('li', link.href, link.text, suffix);
