@@ -696,7 +696,10 @@ Show.links = {};
 Show.links.body = function() {
   // Draw a links page with menus and content based on the last
   // clicked version of a links menu button.
-  return;  // TOWRITE
+  var subpage = Page.links.sections.menu.getItem(menu_id);
+  // TODO: draw the section menus
+  var content = Show.links.section[subpage]();
+  return;  // TOWRITE, divs and stuff
 }
 Show.links.menus = {};
 Show.links.menus.bottom = function() {

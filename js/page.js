@@ -230,10 +230,7 @@ Page.links.hashchange = function() {
 }
 Page.links.render = function() {
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
-  // Draw the Show.links function based on the current menu value
-  var subpage = Page.links.sections.menu.getItem(menu_id);
-  // TODO: draw the section menus
-  Page.links.content = Show.links.section[subpage]();
+  Page.links.content = Show.links.body();
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
   Page.footer.redraw("results");
@@ -264,14 +261,15 @@ Page.links.sections.buttonEventHandlers = function() {
   var buttons = document.getElementsByClassName("sectionButton");
   // For each button, add an event handler to show the section
   // related to the button's id. Example:
-  //    aboutPage_button => shows aboutPage
+  //    redPandaCommunity_button => shows redPandaCommunity page
   for (var button of buttons) {
     button.addEventListener('click', function() {
+      var old_section = Page.links.sections.menuDefaults.getItem(menu_id);
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old
       Page.links.content = Show.links.section[show_section_id]();
-      var old_content = document.getElementById('contentFrame');
+      var old_content = document.getElementById(old_section);
       Page.swap(old_content, Page.links.content);    
       Page.links.sections.menu.setItem(menu_id, show_section_id);
     });
