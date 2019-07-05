@@ -91,6 +91,57 @@ Page.about.routing = function() {
     window.location = "#about";
   }
 }
+Page.about.sections = {};
+Page.about.sections.buttonEventHandlers = function() {
+  // Find all button subelements of the menu
+  var buttons = document.getElementsByClassName("sectionButton");
+  // For each button, add an event handler to show the section
+  // related to the button's id. Example:
+  //    aboutPage_button => shows aboutPage
+  for (var button of buttons) {
+    button.addEventListener('click', function() {
+      var show_section_id = this.id.split("_")[0];
+      var menu_id = this.parentNode.id;
+      Page.about.sections.show(show_section_id);
+      // TODO: set new uri representing sub-page
+      // Set subMenu state. This is used to validate
+      // what page to show and how the menu will be colored.
+      Page.stored.setItem(menu_id, show_section_id);
+    });
+  }
+}
+// Use session storage (lost when browser closes) for menu state.
+// Potential values are for the menus on the about and links page, so the
+// chosen sub-page will reappear when theses pages are regenerated.
+//   "aboutPageMenu" can be set to (usage|pandas|contributions)
+//   "linksPageMenu" can be set to (community|zoos|friends)
+Page.about.sections.menuDefaults = function() {
+  if (Page.stored.getItem("aboutPageMenu") == null) {
+    Page.stored.setItem("aboutPageMenu", "usageGuide");
+  }
+}
+Page.about.sections.show = function(section_id) {
+  // For pages with hidden sections, get a list of the section
+  // containers, and hide all of them but the one provided.
+  // This requires an id convention where sections are id'ed "name" and the
+  // buttons that activate those sections are id'ed "name_button"
+  var desired = document.getElementById(section_id);
+  var desired_button = document.getElementById(section_id + "_button");
+  // Find currently shown section and hide it
+  var sections = document.getElementsByClassName("section");
+  var shown = [].filter.call(sections, function(el) {
+    return el.classList.contains("hidden") == false;
+  })[0];
+  // Turn off the existing shown section, and "unselect" its button
+  if (shown != undefined) {
+    var shown_button = document.getElementById(shown.id + "_button");
+    shown.classList.add("hidden");
+    shown_button.classList.remove("selected");
+  }
+  // Remove the hidden class on the desired section, and "select" its button
+  desired.classList.remove("hidden");
+  desired_button.classList.add("selected");
+}
 Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
@@ -550,62 +601,6 @@ Page.results.render = function() {
   Show["results"].menus.top();
   Page.footer.redraw("results");
   Page.color("results");
-}
-
-/*
-    Shared logic relating to the about/links page, both of which track sections
-    that are displayed at some point or another
-*/
-Page.about.sections = {};
-Page.about.sections.buttonEventHandlers = function() {
-  // Find all button subelements of the menu
-  var buttons = document.getElementsByClassName("sectionButton");
-  // For each button, add an event handler to show the section
-  // related to the button's id. Example:
-  //    aboutPage_button => shows aboutPage
-  for (var button of buttons) {
-    button.addEventListener('click', function() {
-      var show_section_id = this.id.split("_")[0];
-      var menu_id = this.parentNode.id;
-      Page.about.sections.show(show_section_id);
-      // TODO: set new uri representing sub-page
-      // Set subMenu state. This is used to validate
-      // what page to show and how the menu will be colored.
-      Page.stored.setItem(menu_id, show_section_id);
-    });
-  }
-}
-// Use session storage (lost when browser closes) for menu state.
-// Potential values are for the menus on the about and links page, so the
-// chosen sub-page will reappear when theses pages are regenerated.
-//   "aboutPageMenu" can be set to (usage|pandas|contributions)
-//   "linksPageMenu" can be set to (community|zoos|friends)
-Page.about.sections.menuDefaults = function() {
-  if (Page.stored.getItem("aboutPageMenu") == null) {
-    Page.stored.setItem("aboutPageMenu", "usageGuide");
-  }
-}
-Page.about.sections.show = function(section_id) {
-  // For pages with hidden sections, get a list of the section
-  // containers, and hide all of them but the one provided.
-  // This requires an id convention where sections are id'ed "name" and the
-  // buttons that activate those sections are id'ed "name_button"
-  var desired = document.getElementById(section_id);
-  var desired_button = document.getElementById(section_id + "_button");
-  // Find currently shown section and hide it
-  var sections = document.getElementsByClassName("section");
-  var shown = [].filter.call(sections, function(el) {
-    return el.classList.contains("hidden") == false;
-  })[0];
-  // Turn off the existing shown section, and "unselect" its button
-  if (shown != undefined) {
-    var shown_button = document.getElementById(shown.id + "_button");
-    shown.classList.add("hidden");
-    shown_button.classList.remove("selected");
-  }
-  // Remove the hidden class on the desired section, and "select" its button
-  desired.classList.remove("hidden");
-  desired_button.classList.add("selected");
 }
 
 /*
