@@ -290,7 +290,7 @@ Pandas.linkGeneratorEntity = function*(entity, index=0) {
     if (entity["link." + index] == undefined) {
       return;
     }
-    yield "location." + index;
+    yield "link." + index;
   }
 }
 
