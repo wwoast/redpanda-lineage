@@ -693,6 +693,11 @@ Show.button.tree.render = function(class_name="profile") {
     page has slightly different content and styles.
 */
 Show.links = {};
+Show.links.body = function() {
+  // Draw a links page with menus and content based on the last
+  // clicked version of a links menu button.
+  return;  // TOWRITE
+}
 Show.links.menus = {};
 Show.links.menus.bottom = function() {
   // Return to a green menu bar.
@@ -717,6 +722,10 @@ Show.links.menus.bottom = function() {
   return menu;
 }
 Show.links.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.links.menus.sections = function() {
+  // Draw the links page subsection menus
+  return;  // TOWRITE
+}
 Show.links.menus.top = function() {
   // Return to a green menu bar: Logo/Home, Language, About, Random, Links
   var new_contents = document.createElement('div');
@@ -738,16 +747,16 @@ Show.links.menus.top = function() {
 Show.links.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
 Show.links.sections = {};
 Show.links.sections.instagramLinks = function() {
-  return;
+  return;  // TOWRITE
 }
 Show.links.sections.redPandaCommunity = function() {
-  return;
+  return;  // TOWRITE
 }
 Show.links.sections.specialthanksLinks = function() {
-  return;
+  return;  // TOWRITE
 }
 Show.links.sections.zooLinks = function() {
-  return;
+  return;  // TOWRITE
 }
 
 /*

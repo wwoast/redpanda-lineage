@@ -232,11 +232,12 @@ Page.links.render = function() {
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
   // Draw the Show.links function based on the current menu value
   var subpage = Page.links.sections.menu.getItem(menu_id);
+  // TODO: draw the section menus
   Page.links.content = Show.links.section[subpage]();
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
   Page.footer.redraw("results");
-  Show["results"].menus.top();
+  Show["links"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
 }
@@ -275,8 +276,6 @@ Page.links.sections.buttonEventHandlers = function() {
       Page.links.sections.menu.setItem(menu_id, show_section_id);
     });
   }
-}
-
 }
 Page.links.sections.menuDefaults = function() {
   if (Page.links.sections.menu.getItem("linksPageMenu") == null) {
