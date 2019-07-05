@@ -692,7 +692,7 @@ Show.button.tree.render = function(class_name="profile") {
     Show functions used to generate content for the links page. Each links
     page has slightly different content and styles.
 */
-Show.links = {}
+Show.links = {};
 Show.links.menus = {};
 Show.links.menus.bottom = function() {
   // Return to a green menu bar.
@@ -736,6 +736,19 @@ Show.links.menus.top = function() {
   return menu;
 }
 Show.links.menus.topButtons = ['logoButton', 'languageButton', 'aboutButton', 'randomButton', 'linksButton'];
+Show.links.sections = {};
+Show.links.sections.instagramLinks = function() {
+  return;
+}
+Show.links.sections.redPandaCommunity = function() {
+  return;
+}
+Show.links.sections.specialthanksLinks = function() {
+  return;
+}
+Show.links.sections.zooLinks = function() {
+  return;
+}
 
 /*
     Show functions used to generate content for the landing page when you

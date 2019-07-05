@@ -229,9 +229,10 @@ Page.links.hashchange = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Page.links.render = function() {
-  // TODO: fill Page.links.content from show functions
-  // TOWRITE
   Page.links.sections.menuDefaults();   // Initialize submenus if necessary
+  // Draw the Show.links function based on the current menu value
+  var subpage = Page.links.sections.menu.getItem(menu_id);
+  Page.links.content = Show.links.section[subpage]();
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
   Page.footer.redraw("results");
@@ -267,8 +268,10 @@ Page.links.sections.buttonEventHandlers = function() {
     button.addEventListener('click', function() {
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
-      // Draw new links page content.
-      // TOWRITE
+      // Draw new links page content, and erase the old
+      Page.links.content = Show.links.section[show_section_id]();
+      var old_content = document.getElementById('contentFrame');
+      Page.swap(old_content, Page.links.content);    
       Page.links.sections.menu.setItem(menu_id, show_section_id);
     });
   }
