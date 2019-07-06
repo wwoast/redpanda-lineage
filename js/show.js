@@ -828,7 +828,8 @@ Show.links.order.given = function(links) {
   var output = {};
   output.counts = {};
   // Count the hits for each language that we support in the display modes
-  for (let language of Object.values(Pandas.def.languages)) {
+  var default_languages = Object.values(Pandas.def.languages);
+  for (let language of default_languages) {
     output.counts[language] = 0;
   }
   // Grab the icon from the links values
@@ -837,6 +838,9 @@ Show.links.order.given = function(links) {
   output.list = [];
   var link_fields = Pandas.linkGeneratorEntity;
   for (let field_name of link_fields(links)) {
+    if (links[field_name + ".language.order"] == undefined) {
+      links[field_name + ".language.order"] = default_languages.join(",");
+    }
     var link = {
       "first": links[field_name + "." + L.display + ".first"],
       "href": links[field_name],
