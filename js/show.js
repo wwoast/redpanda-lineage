@@ -845,10 +845,20 @@ Show.links.order.given = function(links) {
       language_order = language_order.replace(/ /g, "").split(",");
     }
     // Fallback name selection, if (like the instagram names) we don't
-    // have language-specific names
-    var link_name = links[field_name + "." + L.display + ".name"]; 
+    // have language-specific names. Start with a generic name field if
+    // the links are actually generic.
+    var link_name = links[field_name + ".name"];
     if (link_name == undefined) {
-      link_name = links[field_name + ".name"];
+      link_name = links[field_name + "." + L.display + ".name"]; 
+    }
+    if (link_name == undefined) {
+      check_languages = language_order.filter(l => l != L.display);
+      for (let l of check_languages) {
+        link_name = links[field_name + "." + l + ".name"];
+        if (link_name != undefined) {
+          break;
+        }
+      }
     }
     var link = {
       "first": links[field_name + "." + L.display + ".first"],
