@@ -323,6 +323,9 @@ Page.links.sections.buttonEventHandlers = function() {
       // Erase the old content and bring the new content into the page
       old_content.parentNode.replaceChild(Page.links.content, old_content);
       Page.stored.setItem("linksPageMenu", show_section_id);
+      var old_button = document.getElementById(old_section + "_button");
+      this.classList.add("selected");
+      old_button.classList.remove("selected");
     });
   }
 }
