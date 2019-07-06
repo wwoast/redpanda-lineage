@@ -838,8 +838,14 @@ Show.links.order.given = function(links) {
   output.list = [];
   var link_fields = Pandas.linkGeneratorEntity;
   for (let field_name of link_fields(links)) {
+    // Fallback language order
     if (links[field_name + ".language.order"] == undefined) {
       links[field_name + ".language.order"] = default_languages.join(",");
+    }
+    // Fallback name selection, if (like the instagram names) we don't
+    // have language-specific names
+    if (links[field_name + "." + L.display + ".name"] == undefined) {
+      links[field_name + "." + L.display + ".name"] == links[field_name + ".name"];
     }
     var link = {
       "first": links[field_name + "." + L.display + ".first"],
