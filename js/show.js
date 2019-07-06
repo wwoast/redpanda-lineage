@@ -828,8 +828,7 @@ Show.links.order.given = function(links) {
   var output = {};
   output.counts = {};
   // Count the hits for each language that we support in the display modes
-  var default_languages = Object.values(Pandas.def.languages);
-  for (let language of default_languages) {
+  for (let language of Language.L.default.order) {
     output.counts[language] = 0;
   }
   // Grab the icon from the links values
@@ -839,8 +838,11 @@ Show.links.order.given = function(links) {
   var link_fields = Pandas.linkGeneratorEntity;
   for (let field_name of link_fields(links)) {
     // Fallback language order
+    var language_order = links[field_name + ".language.order"];
     if (links[field_name + ".language.order"] == undefined) {
-      links[field_name + ".language.order"] = default_languages.join(",");
+      language_order = Languages.L.default.order;
+    } else {
+      language_order = language_order.replace(/ /g, "").split(","),
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names
@@ -852,7 +854,7 @@ Show.links.order.given = function(links) {
       "first": links[field_name + "." + L.display + ".first"],
       "href": links[field_name],
       "last": links[field_name + "." + L.display + ".last"],
-      "order": links[field_name + ".language.order"].replace(/ /g, "").split(","),
+      "order": language_order,
       "text": link_name
     }
     for (let language of link.order) {
