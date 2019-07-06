@@ -316,7 +316,7 @@ Page.links.sections.buttonEventHandlers = function() {
   //    redPandaCommunity_button => shows redPandaCommunity page
   for (var button of buttons) {
     button.addEventListener('click', function() {
-      var old_section = Page.stored.getItem(menu_id);
+      var old_section = Page.stored.getItem("linksPageMenu");
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old
