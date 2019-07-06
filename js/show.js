@@ -842,7 +842,7 @@ Show.links.order.given = function(links) {
     if (links[field_name + ".language.order"] == undefined) {
       language_order = Languages.L.default.order;
     } else {
-      language_order = language_order.replace(/ /g, "").split(","),
+      language_order = language_order.replace(/ /g, "").split(",");
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names
