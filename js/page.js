@@ -323,7 +323,7 @@ Page.links.sections.buttonEventHandlers = function() {
       Page.links.content = Show.links.sections[show_section_id]();
       var old_content = document.getElementById(old_section);
       Page.swap(old_content, Page.links.content);    
-      Page.stored.setItem(menu_id, show_section_id);
+      Page.stored.setItem("linksPageMenu", show_section_id);
     });
   }
 }
