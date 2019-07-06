@@ -320,7 +320,7 @@ Page.links.sections.buttonEventHandlers = function() {
       var show_section_id = this.id.split("_")[0];
       var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old
-      Page.links.content = Show.links.section[show_section_id]();
+      Page.links.content = Show.links.sections[show_section_id]();
       var old_content = document.getElementById(old_section);
       Page.swap(old_content, Page.links.content);    
       Page.stored.setItem(menu_id, show_section_id);
