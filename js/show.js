@@ -890,9 +890,9 @@ Show.links.order.hits = function(links) {
     } else if (aHasLang == bHasLang) {
       return 0;
     } else if (aHasLang == 0) {
-      return -1;
-    } else {
       return 1;
+    } else {
+      return -1;
     }
   }).sort(function(a, b) {
     // Finally, do a pass of sorting by language hits count for the primary
@@ -939,9 +939,9 @@ Show.links.order.language = function(links) {
     } else if (aHasLang == bHasLang) {
       return 0;
     } else if (aHasLang == 0) {
-      return -1;
-    } else {
       return 1;
+    } else {
+      return -1;
     }
   }).sort(function(a, b) {
     // Finally, do a pass of sorting by whether it has the 
@@ -949,9 +949,9 @@ Show.links.order.language = function(links) {
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
     if ((aHasLang < bHasLang) && (aHasLang > -1)) {
-      return -1;
-    } else if (aHasLang > bHasLang) {
       return 1;
+    } else if (aHasLang > bHasLang) {
+      return -1;
     } else {
       return 0;
     }
