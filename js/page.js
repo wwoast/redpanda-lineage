@@ -322,7 +322,7 @@ Page.links.sections.buttonEventHandlers = function() {
       Page.links.content = Show.links.sections[show_section_id]();
       var old_content = document.getElementById(old_section);
       // Erase the old content and bring the new content into the page
-      old_content.parentNode.replaceChild(old_content, Page.links.content);
+      old_content.parentNode.replaceChild(Page.links.content, old_content);
       Page.stored.setItem("linksPageMenu", show_section_id);
     });
   }
