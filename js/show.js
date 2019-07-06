@@ -844,7 +844,7 @@ Show.links.order.given = function(links) {
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names
-    var link_name = links[field_name + "." + L.display + ".name"; 
+    var link_name = links[field_name + "." + L.display + ".name"]; 
     if (link_name == undefined) {
       link_name = links[field_name + ".name"];
     }
