@@ -844,15 +844,16 @@ Show.links.order.given = function(links) {
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names
-    if (links[field_name + "." + L.display + ".name"] == undefined) {
-      links[field_name + "." + L.display + ".name"] == links[field_name + ".name"];
+    var link_name = links[field_name + "." + L.display + ".name"; 
+    if (link_name == undefined) {
+      link_name = links[field_name + ".name"];
     }
     var link = {
       "first": links[field_name + "." + L.display + ".first"],
       "href": links[field_name],
       "last": links[field_name + "." + L.display + ".last"],
       "order": links[field_name + ".language.order"].replace(/ /g, "").split(","),
-      "text": links[field_name + "." + L.display + ".name"]
+      "text": link_name
     }
     for (let language of link.order) {
       output.counts[language] = output.counts[language] + 1;
