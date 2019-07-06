@@ -1290,11 +1290,14 @@ Language.L.fallbackInfo = function(info, original) {
 
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
-  var update_ids = ['languageButton', 'aboutButton', 'randomButton', 'linksButton',
-                    'profileButton', 'mediaButton', 'timelineButton'];
-  var existing_elements = update_ids.map(x => document.getElementById(x)).filter(x => x != undefined);
+  // Update menu buttons
+  var menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
+                         'linksButton', 'profileButton', 'mediaButton', 
+                         'timelineButton'];
+  var menu_button_elements = menu_button_ids.map(x => 
+    document.getElementById(x)).filter(x => x != undefined);
   // Any buttons in the page? Redraw with correct language settings
-  for (let element of existing_elements) {
+  for (let element of menu_button_elements) {
     var id = element.id;
     var lookup = id.replace("Button", "");
     [icon, text] = element.childNodes[0].childNodes;

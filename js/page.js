@@ -101,12 +101,11 @@ Page.about.sections.buttonEventHandlers = function() {
   for (var button of buttons) {
     button.addEventListener('click', function() {
       var show_section_id = this.id.split("_")[0];
-      var menu_id = this.parentNode.id;
       Page.about.sections.show(show_section_id);
       // TODO: set new uri representing sub-page
       // Set subMenu state. This is used to validate
       // what page to show and how the menu will be colored.
-      Page.stored.setItem(menu_id, show_section_id);
+      Page.stored.setItem("aboutPageMenu", show_section_id);
     });
   }
 }
@@ -274,8 +273,6 @@ Page.links.hashchange = function() {
   // links page and initialize its menus, or at the very least, scroll
   // to the top of the page.
   Page.links.render();
-  // Add event listeners to the newly created Links page buttons
-  Page.links.sections.buttonEventHandlers();
   Page.current = Page.links.render;
   window.scrollTo(0, 0);   // Go to the top of the page
 }
@@ -285,6 +282,8 @@ Page.links.render = function() {
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, Page.links.content);
+  // Add event listeners to the newly created Links page buttons
+  Page.links.sections.buttonEventHandlers();
   Page.footer.redraw("results");
   Show["links"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
