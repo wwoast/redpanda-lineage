@@ -840,7 +840,7 @@ Show.links.order.given = function(links) {
     // Fallback language order
     var language_order = links[field_name + ".language.order"];
     if (links[field_name + ".language.order"] == undefined) {
-      language_order = Languages.L.default.order;
+      language_order = Language.L.default.order;
     } else {
       language_order = language_order.replace(/ /g, "").split(",");
     }
