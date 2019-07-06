@@ -959,9 +959,9 @@ Show.links.order.language = function(links) {
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
     if ((aHasLang < bHasLang) && (aHasLang > -1)) {
-      return 1;
-    } else if (aHasLang > bHasLang) {
       return -1;
+    } else if (aHasLang > bHasLang) {
+      return 1;
     } else {
       return 0;
     }
