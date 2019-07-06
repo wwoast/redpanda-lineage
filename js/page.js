@@ -318,11 +318,11 @@ Page.links.sections.buttonEventHandlers = function() {
     button.addEventListener('click', function() {
       var old_section = Page.stored.getItem("linksPageMenu");
       var show_section_id = this.id.split("_")[0];
-      var menu_id = this.parentNode.id;
       // Draw new links page content, and erase the old
       Page.links.content = Show.links.sections[show_section_id]();
       var old_content = document.getElementById(old_section);
-      Page.swap(old_content, Page.links.content);    
+      // Erase the old content and bring the new content into the page
+      old_content.parentNode.replaceChild(old_content, Page.links.content);
       Page.stored.setItem("linksPageMenu", show_section_id);
     });
   }

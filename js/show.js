@@ -976,7 +976,7 @@ Show.links.sections.redPandaCommunity = function() {
   sub_container.className = "pandaLinks";
   // TODO: header and body
   var ul = document.createElement("ul");
-  // ul.classList.add("linkList");
+  ul.classList.add("linkList");
   ul.classList.add(links.icon);
   for (let link of links.list) {
     var suffix = Show.links.flags(link.order);
