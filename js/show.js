@@ -869,10 +869,13 @@ Show.links.order.hits = function(links) {
   // has the most recorded hits in the links.
   var output = Show.links.order.given(links);
   output.list = output.list.sort(function(a, b) {
-    // Do a pass of alphabetical sorting by name
-    if (a.text > b.text) {
+    // Do a pass of alphabetical sorting by name, without underscores
+    // changing the sort order.
+    var aText = a.text.replace("_", "");
+    var bText = b.text.replace("_", "");    
+    if (aText > bText) {
       return 1;
-    } else if (a.text < b.text) {
+    } else if (aText < bText) {
       return -1;
     } else {
       return 0;
@@ -915,10 +918,13 @@ Show.links.order.language = function(links) {
   // Return the links page content as an array with the desired ordering.
   var output = Show.links.order.given(links);  
   output.list = output.list.sort(function(a, b) {
-    // Do a pass of alphabetical sorting by name
-    if (a.text > b.text) {
+    // Do a pass of alphabetical sorting by name, without underscores
+    // changing the sort order.
+    var aText = a.text.replace("_", "");
+    var bText = b.text.replace("_", "");
+    if (aText > bText) {
       return 1;
-    } else if (a.text < b.text) {
+    } else if (aText < bText) {
       return -1;
     } else {
       return 0;
