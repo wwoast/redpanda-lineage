@@ -949,9 +949,10 @@ Show.links.order.language = function(links) {
     } else if (bHasLang == -1) {
       // One of the entries is missing the desired language 
       return -1;
+    } else if (aHasLang == 0) {
+      // Zeroth index is the primary language, so it comes first
+      return -1;
     } else if (aHasLang < bHasLang) {
-      // a's primary langauge index comes before b,
-      // so push a earlier in the ordering.
       return -1;
     } else {
       return 1;
