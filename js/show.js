@@ -990,7 +990,10 @@ Show.links.sections.instagramLinks = function() {
   container.className = "section";
   var sub_container = document.createElement('div');
   sub_container.className = "pandaLinks";
-  // TODO: header and body
+  var h2 = document.createElement('h2');
+  h2.innerText = Language.L.gui["instagramLinks_header"][L.display];
+  var body = document.createElement('p');
+  body.innerText = Language.L.gui["instagramLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add("multiColumn");
@@ -1001,6 +1004,8 @@ Show.links.sections.instagramLinks = function() {
     ul.appendChild(li);
   }
   sub_container.appendChild(ul);
+  container.appendChild(h2);
+  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
@@ -1012,7 +1017,10 @@ Show.links.sections.redPandaCommunity = function() {
   container.className = "section";
   var sub_container = document.createElement('div');
   sub_container.className = "pandaLinks";
-  // TODO: header and body
+  var h2 = document.createElement('h2');
+  h2.innerText = Language.L.gui["redPandaCommunity_header"][L.display];
+  var body = document.createElement('p');
+  body.innerText = Language.L.gui["redPandaCommunity_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1023,6 +1031,8 @@ Show.links.sections.redPandaCommunity = function() {
   }
   sub_container.appendChild(ul);
   container.appendChild(sub_container);
+  container.appendChild(h2);
+  container.appendChild(body);
   return container;
 }
 Show.links.sections.specialThanksLinks = function() {
@@ -1033,7 +1043,10 @@ Show.links.sections.specialThanksLinks = function() {
   container.className = "section";
   var sub_container = document.createElement('div');
   sub_container.className = "pandaLinks";
-  // TODO: header and body
+  var h2 = document.createElement('h2');
+  h2.innerText = Language.L.gui["specialThanksLinks_header"][L.display];
+  var body = document.createElement('p');
+  body.innerText = Language.L.gui["specialThanksLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1042,6 +1055,8 @@ Show.links.sections.specialThanksLinks = function() {
     ul.appendChild(li);
   }
   sub_container.appendChild(ul);
+  container.appendChild(h2);
+  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
@@ -1053,7 +1068,10 @@ Show.links.sections.zooLinks = function() {
   container.className = "section";
   var sub_container = document.createElement('div');
   sub_container.className = "pandaLinks";
-  // TODO: header and body
+  var h2 = document.createElement('h2');
+  h2.innerText = Language.L.gui["zooLinks_header"][L.display];
+  var body = document.createElement('p');
+  body.innerText = Language.L.gui["zooLinks_body"][L.display];
   var ul = document.createElement("ul");
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
@@ -1063,6 +1081,8 @@ Show.links.sections.zooLinks = function() {
     ul.appendChild(li);
   }
   sub_container.appendChild(ul);
+  container.appendChild(h2);
+  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
