@@ -15,6 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/BjClcZOAh5W/media/?size=m
 photo.1.author: minato.yokohama2130
 photo.1.link: https://www.instagram.com/minato.yokohama2130/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BkiHSXKnxb9/media/?size=m
 photo.2.author: minato.yokohama2130
 photo.2.link: https://www.instagram.com/minato.yokohama2130/
@@ -22,49 +23,53 @@ photo.2.tags: bamboo
 photo.3: https://www.instagram.com/p/BpCCWryFaun/media/?size=m
 photo.3.author: minato.yokohama2130
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BpEI1MnFL-t/media/?size=m
 photo.4.author: gloryeui
 photo.4.link: https://www.instagram.com/gloryeui/
 photo.5: https://www.instagram.com/p/BpEk5X1l4fT/media/?size=m
 photo.5.author: minato.yokohama2130
 photo.5.link: https://www.instagram.com/minato.yokohama2130/
+photo.5.tags: bridge, portrait
 photo.6: https://www.instagram.com/p/BpMQDeSF59w/media/?size=m
 photo.6.author: framereim
 photo.6.link: https://www.instagram.com/framereim/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BqR91-aF49n/media/?size=m
 photo.7.author: gloryeui
 photo.7.link: https://www.instagram.com/gloryeui/
-photo.7.tags: itchy
+photo.7.tags: itchy, portrait
 photo.8: https://www.instagram.com/p/BqUb5jxFf8z/media/?size=m
 photo.8.author: minato.yokohama2130
 photo.8.link: https://www.instagram.com/minato.yokohama2130/
 photo.9: https://www.instagram.com/p/BqswK-pHsUX/media/?size=m
 photo.9.author: tomo3700
 photo.9.link: https://www.instagram.com/tomo3700/
-photo.9.tags: dish
+photo.9.tags: dish, portrait
 photo.10: https://www.instagram.com/p/Bq4hw6Rl-9d/media/?size=m
 photo.10.author: minato.yokohama2130
 photo.10.link: https://www.instagram.com/minato.yokohama2130/
-photo.10.tags: bamboo
+photo.10.tags: bamboo, portrait
 photo.11: https://www.instagram.com/p/BrABlXoFb9d/media/?size=m
 photo.11.author: gloryeui
 photo.11.link: https://www.instagram.com/gloryeui/
+photo.11.tags: home, portrait
 photo.12: https://www.instagram.com/p/BrAGQVjFgMd/media/?size=m
 photo.12.author: tomo3700
 photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: tree
+photo.12.tags: portrait, tree
 photo.13: https://www.instagram.com/p/Bq36Dd2n8MP/media/?size=m
 photo.13.author: yakko____
 photo.13.link: https://www.instagram.com/yakko____/
-photo.13.tags: laying down
+photo.13.tags: home, laying down, portrait
 photo.14: https://www.instagram.com/p/BrDKbZhlVnx/media/?size=m
 photo.14.author: mugicha0312
 photo.14.link: https://www.instagram.com/mugicha0312/
-photo.14.tags: bamboo
+photo.14.tags: bamboo, paws, portrait, tongue
 photo.15: https://www.instagram.com/p/BrXvTJKlgNy/media/?size=m
 photo.15.author: makimaru18
 photo.15.link: https://www.instagram.com/makimaru18/
-photo.15.tags: tree
+photo.15.tags: portrait, tree
 photo.16: https://www.instagram.com/p/Brho26HlvSf/media/?size=m
 photo.16.author: gloryeui
 photo.16.link: https://www.instagram.com/gloryeui/
@@ -72,41 +77,43 @@ photo.16.tags: apple time, dish
 photo.17: https://www.instagram.com/p/BsK-WkhlVjJ/media/?size=m
 photo.17.author: minato.yokohama2130
 photo.17.link: https://www.instagram.com/minato.yokohama2130/
+photo.17.tags: portrait
 photo.18: https://www.instagram.com/p/BsKv2LNlJnY/media/?size=m
 photo.18.author: minato.yokohama2130
 photo.18.link: https://www.instagram.com/minato.yokohama2130/
+photo.18.tags: portrait
 photo.19: https://www.instagram.com/p/BtA3zN-lsZd/media/?size=m
 photo.19.author: gloryeui
 photo.19.link: https://www.instagram.com/gloryeui/
-photo.19.tags: profile
+photo.19.tags: portrait, profile
 photo.20: https://www.instagram.com/p/BtF0Uc9H7I8/media/?size=m
 photo.20.author: minato.yokohama2130
 photo.20.link: https://www.instagram.com/minato.yokohama2130/
-photo.20.tags: paws, smile
+photo.20.tags: paws, portrait, smile
 photo.21: https://www.instagram.com/p/BtNkOo3lsHV/media/?size=m
 photo.21.author: gloryeui
 photo.21.link: https://www.instagram.com/gloryeui/
-photo.21.tags: bamboo
+photo.21.tags: bamboo, portrait
 photo.22: https://www.instagram.com/p/BulLq2BFRWK/media/?size=m
 photo.22.author: gloryeui
 photo.22.link: https://www.instagram.com/gloryeui/
-photo.22.tags: paws, smile
+photo.22.tags: paws, portrait, smile
 photo.23: https://www.instagram.com/p/BvwBfR0lgoU/media/?size=m
 photo.23.author: gloryeui
 photo.23.link: https://www.instagram.com/gloryeui/
-photo.23.tags: mofumofu
+photo.23.tags: mofumofu, portrait
 photo.24: https://www.instagram.com/p/BwUarz_FZlG/media/?size=m
 photo.24.author: gloryeui
 photo.24.link: https://www.instagram.com/gloryeui/
-photo.24.tags: tail
+photo.24.tags: portrait, tail
 photo.25: https://www.instagram.com/p/BxM5jPgj65W/media/?size=m
 photo.25.author: lespan33
 photo.25.link: https://www.instagram.com/lespan33/
-photo.25.tags: apple time, smile
+photo.25.tags: apple time, portrait, smile
 photo.26: https://www.instagram.com/p/BxTubeulJA1/media/?size=m
 photo.26.author: gloryeui
 photo.26.link: https://www.instagram.com/gloryeui/
-photo.26.tags: tree
+photo.26.tags: portrait, tree
 photo.27: https://www.instagram.com/p/BxeuTnKlRq_/media/?size=m
 photo.27.author: framereim
 photo.27.link: https://www.instagram.com/framereim/
@@ -114,14 +121,14 @@ photo.27.tags: apple time, keeper, paws, standing, tail
 photo.28: https://www.instagram.com/p/Bx39lt6hdaf/media/?size=m
 photo.28.author: gloryeui
 photo.28.link: https://www.instagram.com/gloryeui/
-photo.28.tags: mofumofu
+photo.28.tags: mofumofu, portrait
 photo.29: https://www.instagram.com/p/ByfFDoMhZ00/media/?size=m
 photo.29.author: gloryeui
 photo.29.link: https://www.instagram.com/gloryeui/
-photo.29.tags: tail, tree
+photo.29.tags: portrait, tail, tree
 photo.30: https://www.instagram.com/p/Byl1snlhPXD/media/?size=m
 photo.30.author: gloryeui
 photo.30.link: https://www.instagram.com/gloryeui/
-photo.30.tags: dish, home, itchy, paws
+photo.30.tags: dish, home, itchy, paws, portrait
 species: 2
 zoo: 13
