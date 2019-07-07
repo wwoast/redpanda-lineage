@@ -535,10 +535,9 @@ def vitamin():
         "index.html",
         "js/pandas.js",
         "js/show.js",
+        "js/language.js",
         "fragments/en/about.html",
-        "fragments/jp/about.html",
-        "fragments/en/links.html",
-        "fragments/jp/links.html"
+        "fragments/jp/about.html"
     ]
     for fn in manifest:
         with open(fn, 'r') as rfh:
