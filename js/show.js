@@ -946,7 +946,7 @@ Show.links.order.language = function(links) {
     if (aHasLang == bHasLang) {
       // Either the zeroth index, or neight entry has the language
       return 0;
-    } else if (aHasLang == 0) {
+    } else if ((aHasLang < bHasLang) && (aHasLang != -1)) {
       return -1;
     } else {
       return 1;
