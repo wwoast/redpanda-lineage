@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   L.defaultDisplayLanguage();   // Set default display language
-  Page.routes.check();   // See if we started on the links or about pages
+  Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
@@ -50,6 +50,8 @@ document.addEventListener("DOMContentLoaded", function() {
     // Determine what page content to display
     if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
       Page.profile.render();
+    } else if (window.location.hash == "#links") {
+        Page.links.render();
     } else if ((window.location.hash.length > 0) && 
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();
@@ -59,9 +61,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
 
-  // Fetch the about page and links page contents for each language
+  // Fetch the about page contents for each language
   Page.about.fetch();
-  Page.links.fetch();
 
   // If a previous page was seen, load it
   var last_seen = window.localStorage.getItem("last_seen");
@@ -99,29 +100,15 @@ window.addEventListener('about_loaded', function() {
   if (window.location.hash == "#about") {
     Page.about.render();
     // Add event listeners to the newly created About page buttons
-    Page.sections.buttonEventHandlers("aboutPageMenu");
+    Page.about.sections.buttonEventHandlers("aboutPageMenu");
     // Display correct subsection of the about page (class swaps)
     // Default: usage instructions appear non-hidden.
-    Page.sections.show(Page.sections.menu.getItem("aboutPageMenu"));
+    Page.about.sections.show(Page.stored.getItem("aboutPageMenu"));
     // Determine desktop or mobile, and display relevant instructions
     Page.about.instructions(Layout.media);
     Layout.media.addListener(Page.about.instructions);
     // Add a tag list
     Page.about.tags();  
     Page.current = Page.about.render;
-  }
-});
-
-// Once the links-page content is loaded, decide whether to display the
-// contents or just keep them stashed.
-window.addEventListener('links_loaded', function() {
-  if (window.location.hash == "#links") {
-    Page.links.render();
-    // Add event listeners to the newly created About page buttons
-    Page.sections.buttonEventHandlers("linksPageMenu");
-    // Display correct subsection of the about page (class swaps)
-    // Default: usage instructions appear non-hidden.
-    Page.sections.show(Page.sections.menu.getItem("linksPageMenu"));
-    Page.current = Page.links.render;
   }
 });

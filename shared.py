@@ -1,5 +1,6 @@
 # Shared Python information for the Red Panda Lineage scripts
 
+LINKS_PATH = "./links"
 MEDIA_PATH = "./media" 
 PANDA_PATH = "./pandas"
 OUTPUT_PATH = "./export/redpanda.json"

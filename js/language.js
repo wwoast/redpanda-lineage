@@ -251,6 +251,22 @@ Language.L.gui = {
     "es": "Home",
     "jp": "ホーム"
   },
+  "instagramLinks_body": {
+    "cn": "TOWRITE",
+    "en": "Without all the dedicated and loving Instagram red panda fans I " +
+          "know, this site would not exist. Thank you so much!",
+    "jp": ""
+  },
+  "instagramLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Instagram",
+    "jp": "インスタグラム"
+  },
+  "instagramLinks_header": {
+    "cn": "TOWRITE",
+    "en": "Red Pandas on Instagram",
+    "jp": "Instagram レッサーパンダ"
+  },
   "language": {
     "cn": {
       "cn": "汉语",
@@ -353,6 +369,21 @@ Language.L.gui = {
     "en": "Random",
     "jp": "適当"
   },
+  "redPandaCommunity_body": {
+    "cn": "",
+    "en": "",
+    "jp": ""
+  },
+  "redPandaCommunity_button": {
+    "cn": "TOWRITE",
+    "en": "Community",
+    "jp": "共同体"
+  },
+  "redPandaCommunity_header": {
+    "cn": "TOWRITE",
+    "en": "Red Panda Community",
+    "jp": "レッサーパンダの共同体"
+  },
   "search": {
     "cn": "搜索...",
     "en": "Search...",
@@ -372,6 +403,21 @@ Language.L.gui = {
     "cn": "自 <INSERTDATE>",
     "en": "Since <INSERTDATE>",
     "jp": "<INSERTDATE>から"
+  },
+  "specialThanksLinks_body": {
+    "cn": "",
+    "en": "",
+    "jp": ""
+  },
+  "specialThanksLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Special Thanks",
+    "jp": "感佩"
+  },
+  "specialThanksLinks_header": {
+    "cn": "TOWRITE",
+    "en": "Special Thanks",
+    "jp": "感佩"
   },
   "spring": {
     "cn": "春",
@@ -412,6 +458,22 @@ Language.L.gui = {
     "cn": "冬",
     "en": "Winter",
     "jp": "TOWRITE"
+  },
+  "zooLinks_body": {
+    "cn": "TOWRITE",
+    "en": "While many zoos are represented in this dataset, some of them are " +
+          "hotspots for seeing Red Pandas.",
+    "jp": ""
+  },
+  "zooLinks_button": {
+    "cn": "TOWRITE",
+    "en": "Zoos",
+    "jp": "動物園"
+  },
+  "zooLinks_header": {
+    "cn": "TOWRITE",
+    "en": "Major Red Panda Zoos",
+    "jp": "レッサーパンダの動物園"
   }
 }
 
@@ -1228,11 +1290,14 @@ Language.L.fallbackInfo = function(info, original) {
 
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
-  var update_ids = ['languageButton', 'aboutButton', 'randomButton', 'linksButton',
-                    'profileButton', 'mediaButton', 'timelineButton'];
-  var existing_elements = update_ids.map(x => document.getElementById(x)).filter(x => x != undefined);
+  // Update menu buttons. TODO: grab these buttons by class
+  var menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
+                         'linksButton', 'profileButton', 'mediaButton', 
+                         'timelineButton'];
+  var menu_button_elements = menu_button_ids.map(x => 
+    document.getElementById(x)).filter(x => x != undefined);
   // Any buttons in the page? Redraw with correct language settings
-  for (let element of existing_elements) {
+  for (let element of menu_button_elements) {
     var id = element.id;
     var lookup = id.replace("Button", "");
     [icon, text] = element.childNodes[0].childNodes;
@@ -1242,6 +1307,10 @@ Language.L.update = function() {
     } else {
       text.innerText = this.gui[lookup][this.display];   // Replace icon text
     }
+  }
+  // On the Links page? Redraw it
+  if ((window.location.hash == "#links") && (P.db != undefined)) {
+    Page.links.render();
   }
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
