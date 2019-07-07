@@ -1030,7 +1030,7 @@ Show.links.sections.specialThanksLinks = function() {
   ul.classList.add("linkList");
   ul.classList.add(links.icon);
   for (let link of links.list) {
-    var li = Show.links.create('li', link.href, link.text, "", link.before, link.after);
+    var li = Show.links.create('li', link.href, link.text, "", link.first, link.last);
     ul.appendChild(li);
   }
   sub_container.appendChild(ul);
