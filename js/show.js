@@ -734,12 +734,12 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
     // Non-link links for the special-thanks page.
     // Do not process any suffix for this
     anchor = document.createElement('u');
-    anchor.innerText = text;
+    anchor.innerText = " " + text + " ";  // HACK: space gets trimmed
   }
   if (before != undefined) {
     // Before text is for the special-thanks page.
     // Trailing spaces get eaten from config, so add it back.
-    var text_before = document.createTextNode(before + " ");
+    var text_before = document.createTextNode(before);
     container.appendChild(text_before);
   }
   container.appendChild(anchor);
