@@ -730,7 +730,7 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
   var anchor = document.createElement('a');
   anchor.href = href;
   anchor.innerText = text + " " + suffix;
-  if (anchor.href == "underline") {
+  if (href == "underline") {
     // Non-link links for the special-thanks page.
     // Do not process any suffix for this
     anchor = document.createElement('u');
