@@ -17,11 +17,11 @@ location.2: 18, 2017/10/31
 photo.1: https://www.instagram.com/p/Bkv6S5KlFuz/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
-photo.1.tags: apple time, profile, tree
+photo.1.tags: apple time, portrait, profile, tree
 photo.2: https://www.instagram.com/p/BibUblRF9Mf/media/?size=m
 photo.2.author: craig_craig_craig
 photo.2.link: https://www.instagram.com/craig_craig_craig/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BiCDG0rF2GS/media/?size=m
 photo.3.author: mifko55
 photo.3.link: https://www.instagram.com/mifko55/
@@ -52,14 +52,15 @@ photo.9.tags: bamboo
 photo.10: https://www.instagram.com/p/BqUu_tzF3_3/media/?size=m
 photo.10.author: perie1027vivi
 photo.10.link: https://www.instagram.com/perie1027vivi/
-photo.10.tags: apple time
+photo.10.tags: apple time, portrait
 photo.11: https://www.instagram.com/p/BbodCOFlMFU/media/?size=m
 photo.11.author: hanamaru_redpanda
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
+photo.11.tags: portrait
 photo.12: https://www.instagram.com/p/Bu0-z82l3oC/media/?size=m
 photo.12.author: perie1027vivi
 photo.12.link: https://www.instagram.com/perie1027vivi/
-photo.12.tags: smile, standing
+photo.12.tags: portrait, smile, standing
 photo.13: https://www.instagram.com/p/BvrAFQrl-Zp/media/?size=m
 photo.13.author: daniele.tokyo
 photo.13.link: https://www.instagram.com/daniele.tokyo/
@@ -68,5 +69,32 @@ photo.14: https://www.instagram.com/p/Bvd90NCFqg1/media/?size=m
 photo.14.author: daniele.tokyo
 photo.14.link: https://www.instagram.com/daniele.tokyo/
 photo.14.tags: smile
+photo.15: https://www.instagram.com/p/BHYEjZJjvvP/media/?size=m
+photo.15.author: panda.daisuki
+photo.15.link: https://www.instagram.com/panda.daisuki/
+photo.15.tags: portrait
+photo.16: https://www.instagram.com/p/Bwbtbe5AEX1/media/?size=m
+photo.16.author: s.okano521
+photo.16.link: https://www.instagram.com/s.okano521/
+photo.16.tags: smile
+photo.17: https://www.instagram.com/p/BvbnYt6FnE4/media/?size=m
+photo.17.author: s.okano521
+photo.17.link: https://www.instagram.com/s.okano521/
+photo.17.tags: mofumofu
+photo.18: https://www.instagram.com/p/BzDNY2MhQF1/media/?size=m
+photo.18.author: 0808dion
+photo.18.link: https://www.instagram.com/0808dion/
+photo.18.tags: portrait
+photo.19: https://www.instagram.com/p/Bv21Lf5lntI/media/?size=m
+photo.19.author: animal_love499
+photo.19.link: https://www.instagram.com/animal_love499/
+photo.20: https://www.instagram.com/p/BvxTUqTl59q/media/?size=m
+photo.20.author: animal_love499
+photo.20.link: https://www.instagram.com/animal_love499/
+photo.20.tags: tongue, tree
+photo.21: https://www.instagram.com/p/Bri5S69FoYl/media/?size=m
+photo.21.author: s.okano521
+photo.21.link: https://www.instagram.com/s.okano521/
+photo.21.tags: tongue
 species: 2
 zoo: 18

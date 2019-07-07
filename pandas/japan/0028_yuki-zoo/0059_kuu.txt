@@ -17,10 +17,11 @@ location.2: 28, 2009/4/8
 photo.1: https://www.instagram.com/p/BiBwfX-FcDy/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: bamboo, profile, tongue
+photo.1.tags: bamboo, portrait, tongue
 photo.2: https://www.instagram.com/p/BhY_e5nBpxe/media/?size=m
 photo.2.author: roko_mm
 photo.2.link: https://www.instagram.com/roko_mm/
+photo.2.tags: portrait
 photo.3: https://www.instagram.com/p/Bi260EClvOw/media/?size=m
 photo.3.author: _rifa_p
 photo.3.link: https://www.instagram.com/_rifa_p/
@@ -36,17 +37,19 @@ photo.5.tags: smile, tongue
 photo.6: https://www.instagram.com/p/BplZMgdlXCJ/media/?size=m
 photo.6.author: minatomirai215
 photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/Ba4-OVNhhCq/media/?size=m
 photo.7.author: tabechum
 photo.7.link: https://www.instagram.com/tabechum/
-photo.7.tags: ear
+photo.7.tags: ear, portrait
 photo.8: https://www.instagram.com/p/Bq9ZW8AnWzE/media/?size=m
 photo.8.author: yakko____
 photo.8.link: https://www.instagram.com/yakko____/
-photo.8.tags: bamboo
+photo.8.tags: bamboo, portrait
 photo.9: https://www.instagram.com/p/BrDnChgF4BZ/media/?size=m
 photo.9.author: minatomirai215
 photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BrMcUs1FSnD/media/?size=m
 photo.10.author: minatomirai215
 photo.10.link: https://www.instagram.com/minatomirai215/
@@ -57,23 +60,23 @@ photo.11.tags: laying down, tree
 photo.12: https://www.instagram.com/p/Bsb6qMdlrio/media/?size=m
 photo.12.author: minatomirai215
 photo.12.link: https://www.instagram.com/minatomirai215/
-photo.12.tags: tongue
+photo.12.tags: portrait, tongue
 photo.13: https://www.instagram.com/p/BvUSV7oF9RL/media/?size=m
 photo.13.author: mari_neko3
 photo.13.link: https://www.instagram.com/mari_neko3/
-photo.13.tags: mofumofu, techitechi
+photo.13.tags: mofumofu, portrait, profile, techitechi
 photo.14: https://www.instagram.com/p/BwhUYauFHvW/media/?size=m
 photo.14.author: mofu_pan
 photo.14.link: https://www.instagram.com/mofu_pan/
-photo.14.tags: laying down, paws, techitechi, tree
+photo.14.tags: laying down, paws, portrait, techitechi, tree
 photo.15: https://www.instagram.com/p/Bw87K6uluCY/media/?size=m
 photo.15.author: kipekaila
 photo.15.link: https://www.instagram.com/kipekaila/
-photo.15.tags: lips, smile
+photo.15.tags: lips, portrait, smile
 photo.16: https://www.instagram.com/p/BxCwZEolow4/media/?size=m
 photo.16.author: kipekaila
 photo.16.link: https://www.instagram.com/kipekaila/
-photo.16.tags: techitechi, tree
+photo.16.tags: portrait, techitechi, tree
 photo.17: https://www.instagram.com/p/BixsYmelVD7/media/?size=m
 photo.17.author: _rifa_p
 photo.17.link: https://www.instagram.com/_rifa_p/
@@ -81,10 +84,14 @@ photo.17.tags: tree
 photo.18: https://www.instagram.com/p/BxYfMT-A3Zb/media/?size=m
 photo.18.author: miis_98
 photo.18.link: https://www.instagram.com/miis_98/
-photo.18.tags: apple time
+photo.18.tags: apple time, portrait
 photo.19: https://www.instagram.com/p/ByHSYEIhoxi/media/?size=m
 photo.19.author: minatomirai215
 photo.19.link: https://www.instagram.com/minatomirai215/
 photo.19.tags: apple time
+photo.20: https://www.instagram.com/p/Bzb6jdJhHZD/media/?size=m
+photo.20.author: minatomirai215
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: portrait
 species: 2
 zoo: 28

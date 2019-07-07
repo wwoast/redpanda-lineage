@@ -23,7 +23,7 @@ photo.2.tags: smile
 photo.3: https://www.instagram.com/p/Bh_Tz8EFGlz/media/?size=m
 photo.3.author: daniele.tokyo
 photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: portrait, profile, tongue
+photo.3.tags: portrait, tongue
 photo.4: https://www.instagram.com/p/BkXY9rtFN8L/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
@@ -141,5 +141,9 @@ photo.33: https://www.instagram.com/p/By7kGbnBi3G/media/?size=m
 photo.33.author: na.mo.pan
 photo.33.link: https://www.instagram.com/na.mo.pan/
 photo.33.tags: paws, standing, tail, toys
+photo.34: https://www.instagram.com/p/BzfxK0bhy1w/media/?size=m
+photo.34.author: ifumoto88
+photo.34.link: https://www.instagram.com/ifumoto88/
+photo.34.tags: portrait, profile, tree
 species: 2
 zoo: 1

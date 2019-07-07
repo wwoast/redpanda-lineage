@@ -17,37 +17,39 @@ location.2: 20, 2011/2/7
 photo.1: https://www.instagram.com/p/BlaIB7VAnNi/media/?size=m
 photo.1.author: mito_photo
 photo.1.link: https://www.instagram.com/mito_photo/
-photo.1.tags: bamboo, profile, tail
+photo.1.tags: bamboo, portrait, profile, tail
 photo.2: https://www.instagram.com/p/BhsiuHTlKG8/media/?size=m
 photo.2.author: _natsu_panda_
 photo.2.link: https://www.instagram.com/_natsu_panda_/
-photo.2.tags: bamboo, smile
+photo.2.tags: bamboo, portrait, smile
 photo.3: https://www.instagram.com/p/BfxtBWCn1iP/media/?size=m
 photo.3.author: yossi929
 photo.3.link: https://www.instagram.com/yossi929/
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BfPLoRQnIfg/media/?size=m
 photo.4.author: yossi929
 photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/b_V-dArpNv/media/?size=m
 photo.5.author: honeyandyogurt
 photo.5.link: https://www.instagram.com/honeyandyogurt/
-photo.5.tags: tongue, tree
+photo.5.tags: portrait, tongue, tree
 photo.6: https://www.instagram.com/p/BSq3wlelbRd/media/?size=m
 photo.6.author: yuki_s_071819
 photo.6.link: https://www.instagram.com/yuki_s_071819/
-photo.6.tags: itchy, paws
+photo.6.tags: itchy, paws, portrait
 photo.7: https://www.instagram.com/p/Bxq2JRQF-8G/media/?size=m
 photo.7.author: tabechum
 photo.7.link: https://www.instagram.com/tabechum/
-photo.7.tags: apple time, keeper, smile
+photo.7.tags: apple time, keeper, portrait, smile
 photo.8: https://www.instagram.com/p/BxtMNQ2lVF_/media/?size=m
 photo.8.author: tabechum
 photo.8.link: https://www.instagram.com/tabechum/
-photo.8.tags: keeper
+photo.8.tags: keeper, portrait
 photo.9: https://www.instagram.com/p/BxwJAWDlkUn/media/?size=m
 photo.9.author: tabechum
 photo.9.link: https://www.instagram.com/tabechum/
-photo.9.tags: paws, tongue
+photo.9.tags: paws, portrait, tongue
 photo.10: https://www.instagram.com/p/By1JF-7heRS/media/?size=m
 photo.10.author: yossi929
 photo.10.link: https://www.instagram.com/yossi929/
@@ -60,5 +62,9 @@ photo.12: https://www.instagram.com/p/By4tgq7hNgZ/media/?size=m
 photo.12.author: yossi929
 photo.12.link: https://www.instagram.com/yossi929/
 photo.12.tags: keeper, portrait, tongue
+photo.13: https://www.instagram.com/p/Bzfilq5htWk/media/?size=m
+photo.13.author: kinkinkin0826
+photo.13.link: https://www.instagram.com/kinkinkin0826/
+photo.13.tags: paws, portrait, tree
 species: 2
 zoo: 20
