@@ -730,19 +730,25 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
   var anchor = document.createElement('a');
   anchor.href = href;
   anchor.innerText = text + " " + suffix;
-  if (href == "underline") {
-    // Non-link links for the special-thanks page.
-    // Do not process any suffix for this
-    anchor = document.createElement('u');
-    anchor.innerText = " " + text + " ";  // HACK: space gets trimmed
-  }
   if (before != undefined) {
     // Before text is for the special-thanks page.
     // Trailing spaces get eaten from config, so add it back.
     var text_before = document.createTextNode(before);
     container.appendChild(text_before);
   }
-  container.appendChild(anchor);
+  if (href == "underline") {
+    // Non-link links for the special-thanks page.
+    // Do not process any suffix for this, and hack
+    // in leading and trailing space.
+    var space = document.createTextNode(" ");
+    anchor = document.createElement('u');
+    anchor.innerText = text;
+    container.appendChild(space);
+    container.appendChild(anchor);
+    container.appendChild(space);    
+  } else {
+    container.appendChild(anchor);
+  }
   if (after != undefined) {
     // After text is for the special-thanks page
     var text_after = document.createTextNode(after);
