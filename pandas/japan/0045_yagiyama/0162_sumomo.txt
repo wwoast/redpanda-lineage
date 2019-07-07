@@ -15,7 +15,7 @@ litter: 159
 photo.1: https://www.instagram.com/p/BTEWnDwAaC_/media/?size=m
 photo.1.author: clam_chowder725
 photo.1.link: https://www.instagram.com/clam_chowder725/
-photo.1.tags: mofumofu, profile, tongue
+photo.1.tags: mofumofu, portrait, profile, tongue
 photo.2: https://www.instagram.com/p/Bi4SXB8hBq_/media/?size=m
 photo.2.author: godosei
 photo.2.link: https://www.instagram.com/godosei/
@@ -23,15 +23,15 @@ photo.2.tags: ear
 photo.3: https://www.instagram.com/p/BiTsEzfFHXc/media/?size=m
 photo.3.author: godosei
 photo.3.link: https://www.instagram.com/godosei/
-photo.3.tags: laying down
+photo.3.tags: laying down, portrait
 photo.4: https://www.instagram.com/p/BjRt5G8FlCx/media/?size=m
 photo.4.author: daniele.tokyo
 photo.4.link: https://www.instagram.com/daniele.tokyo/
-photo.4.tags: home, smile
+photo.4.tags: home, portrait, smile
 photo.5: https://www.instagram.com/p/Bn2Uao9FN9g/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
-photo.5.tags: bridge
+photo.5.tags: bridge, portrait
 photo.6: https://www.instagram.com/p/BoVRzDzl4_Q/media/?size=m
 photo.6.author: _rifa_p
 photo.6.link: https://www.instagram.com/_rifa_p/
@@ -43,15 +43,15 @@ photo.7.tags: smile
 photo.8: https://www.instagram.com/p/Boh5rQwlH9Q/media/?size=m
 photo.8.author: _rifa_p
 photo.8.link: https://www.instagram.com/_rifa_p/
-photo.8.tags: bridge, smile
+photo.8.tags: bridge, portrait, smile
 photo.9: https://www.instagram.com/p/BpUDJmbFauE/media/?size=m
 photo.9.author: clam_chowder725
 photo.9.link: https://www.instagram.com/clam_chowder725/
-photo.9.tags: home, laying down
+photo.9.tags: home, laying down, portrait
 photo.10: https://www.instagram.com/p/BpkjsKRFYa5/media/?size=m
 photo.10.author: clam_chowder725
 photo.10.link: https://www.instagram.com/clam_chowder725/
-photo.10.tags: smile
+photo.10.tags: portrait, smile
 photo.11: https://www.instagram.com/p/Bps0Fc_lwnw/media/?size=m
 photo.11.author: na.mo.pan
 photo.11.link: https://www.instagram.com/na.mo.pan/
@@ -62,29 +62,35 @@ photo.12.link: https://www.instagram.com/craig_craig_craig/
 photo.13: https://www.instagram.com/p/Bqk6QColYXq/media/?size=m
 photo.13.author: rie_panda55
 photo.13.link: https://www.instagram.com/rie_panda55/
+photo.13.tags: portrait
 photo.14: https://www.instagram.com/p/Bq_ahArgroJ/media/?size=m
 photo.14.author: miis_98
 photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: bamboo, home
+photo.14.tags: bamboo, home, portrait
 photo.15: https://www.instagram.com/p/BsmqRG4lxgb/media/?size=m
 photo.15.author: spla_calamari
 photo.15.link: https://www.instagram.com/spla_calamari/
-photo.15.tags: home, tongue
+photo.15.tags: home, portrait, tongue
 photo.16: https://www.instagram.com/p/Bt5zqsRl_YS/media/?size=m
 photo.16.author: ifumoto88
 photo.16.link: https://www.instagram.com/ifumoto88/
-photo.16.tags: paws
+photo.16.tags: paws, portrait
 photo.17: https://www.instagram.com/p/BvFWkg8lSPw/media/?size=m
 photo.17.author: clam_chowder725
 photo.17.link: https://www.instagram.com/clam_chowder725/
-photo.17.tags: tongue
+photo.17.tags: portrait, tongue
 photo.18: https://www.instagram.com/p/BxPdKJOlTFH/media/?size=m
 photo.18.author: tama67photo
 photo.18.link: https://www.instagram.com/tama67photo/
-photo.18.tags: paws, tongue
+photo.18.tags: paws, portrait, tongue
 photo.19: https://www.instagram.com/p/Bx2I-vplC8p/media/?size=m
 photo.19.author: mifko55
 photo.19.link: https://www.instagram.com/mifko55/
+photo.19.tags: door
+photo.20: https://www.instagram.com/p/BzmNFwyBXTw/media/?size=m
+photo.20.author: minatomirai215
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: bridge, portrait
 species: 2
 video.1: https://youtu.be/GxFrwnJH4s8
 video.1.author: TheMamepanda
