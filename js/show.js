@@ -740,12 +740,13 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
     // Non-link links for the special-thanks page.
     // Do not process any suffix for this, and hack
     // in leading and trailing space.
-    var space = document.createTextNode(" ");
+    var leading = document.createTextNode(" ");
+    var trailing = document.createTextNode(" ");
     anchor = document.createElement('u');
     anchor.innerText = text;
-    container.appendChild(space);
+    container.appendChild(leading);
     container.appendChild(anchor);
-    container.appendChild(space);    
+    container.appendChild(trailing);    
   } else {
     container.appendChild(anchor);
   }
