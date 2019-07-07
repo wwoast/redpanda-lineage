@@ -895,9 +895,8 @@ Show.links.order.hits = function(links) {
     // display language, prioritize that.
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
-    if (aHasLang == 0 && bHasLang == 0) {
-      return 0;
-    } else if (aHasLang == bHasLang) {
+    if (aHasLang == bHasLang) {
+      // Either the zeroth index, or neight entry has the language
       return 0;
     } else if (aHasLang == 0) {
       return -1;
@@ -944,9 +943,8 @@ Show.links.order.language = function(links) {
     // display language, prioritize that.
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
-    if (aHasLang == 0 && bHasLang == 0) {
-      return 0;
-    } else if (aHasLang == bHasLang) {
+    if (aHasLang == bHasLang) {
+      // Either the zeroth index, or neight entry has the language
       return 0;
     } else if (aHasLang == 0) {
       return -1;
