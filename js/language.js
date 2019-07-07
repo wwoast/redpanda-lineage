@@ -255,7 +255,7 @@ Language.L.gui = {
     "cn": "TOWRITE",
     "en": "Without all the dedicated and loving Instagram red panda fans I " +
           "know, this site would not exist. Thank you so much!",
-    "jp": "TOWRITE"
+    "jp": ""
   },
   "instagramLinks_button": {
     "cn": "TOWRITE",
