@@ -1290,7 +1290,7 @@ Language.L.fallbackInfo = function(info, original) {
 
 // Update all GUI elements based on the currently chosen language
 Language.L.update = function() {
-  // Update menu buttons
+  // Update menu buttons. TODO: grab these buttons by class
   var menu_button_ids = ['languageButton', 'aboutButton', 'randomButton',
                          'linksButton', 'profileButton', 'mediaButton', 
                          'timelineButton'];
@@ -1307,6 +1307,17 @@ Language.L.update = function() {
     } else {
       text.innerText = this.gui[lookup][this.display];   // Replace icon text
     }
+  }
+  // Any section buttons in the page? Redraw with correct language settings
+  // TODO: grab these buttons by class
+  var section_button_ids = ['redPandaCommunity_button', 'zooLinks_button',
+                            'instagramLinks_button', 'specialThanksLinks_button'];
+  var section_button_elements = section_button_ids.map(x => 
+                            document.getElementById(x)).filter(x => x != undefined);
+  for (let element of section_button_elements) {
+    var id = element.id;
+    var text = element.childNodes[0];
+    text.innerText = this.gui[id][this.display];   // Replace section button text
   }
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
