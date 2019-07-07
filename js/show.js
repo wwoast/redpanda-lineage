@@ -737,8 +737,9 @@ Show.links.create = function(element, href, text, suffix, before=undefined, afte
     anchor.innerText = text;
   }
   if (before != undefined) {
-    // Before text is for the special-thanks page
-    var text_before = document.createTextNode(before);
+    // Before text is for the special-thanks page.
+    // Trailing spaces get eaten from config, so add it back.
+    var text_before = document.createTextNode(before + " ");
     container.appendChild(text_before);
   }
   container.appendChild(anchor);
