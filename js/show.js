@@ -891,19 +891,6 @@ Show.links.order.hits = function(links) {
       return 0;
     }
   }).sort(function(a, b) {
-    // If the primary (zeroth) language for the link is the 
-    // display language, prioritize that.
-    var aHasLang = a.order.indexOf(L.display);
-    var bHasLang = b.order.indexOf(L.display);
-    if (aHasLang == bHasLang) {
-      // Either the zeroth index, or neither entry has the language
-      return 0;
-    } else if (aHasLang == 0) {
-      return -1;
-    } else {
-      return 1;
-    }
-  }).sort(function(a, b) {
     // Finally, do a pass of sorting by language hits count for the primary
     // language of each object
     var aLangCount = output.counts[a.order[0]];
@@ -919,6 +906,34 @@ Show.links.order.hits = function(links) {
   return output;
 }
 Show.links.order.language = function(links) {
+  // Display links in language order, but otherwise preserving the list
+  // order of the underlying links dataset. This means that other than
+  // language sorting, the zoo lists will still prioritize the original
+  // list order, which is generally done by how many animals that zoo is
+  // known for.
+  // Return the links page content as an array with the desired ordering.
+  var output = Show.links.order.given(links);  
+  output.list = output.list.sort(function(a, b) {
+    // If the primary (zeroth) language for the link is the 
+    // display language, prioritize that.
+    var aHasLang = a.order.indexOf(L.display);
+    var bHasLang = b.order.indexOf(L.display);
+    if (aHasLang == bHasLang) {
+      // Either the zeroth index, or neither entry has the language
+      return 0;
+    } else if (bHasLang == -1) {
+      // One of the entries is missing the desired language 
+      return -1;
+    } else if (aHasLang == 0) {
+      // Zeroth index is the primary language, so it comes first
+      return -1;
+    } else {
+      return 1;
+    }
+  });
+  return output;
+}
+Show.links.order.languageAndAlphabet = function(links) {
   // Display links in language order. Any link with the current language
   // as the 1st in the link's language.order will be treated as a primary
   // language link and appear first. All primary links will be arranged
@@ -955,25 +970,13 @@ Show.links.order.language = function(links) {
     } else {
       return 1;
     }
-  });/*.sort(function(a, b) {
-    // Finally, do a pass of sorting by whether it has the 
-    // desired language anywhere in the language ordering.
-    var aHasLang = a.order.indexOf(L.display);
-    var bHasLang = b.order.indexOf(L.display);
-    if ((aHasLang < bHasLang) && (aHasLang != -1)) {
-      return 1;
-    } else if (aHasLang > bHasLang) {
-      return -1;
-    } else {
-      return 0;
-    }
-  });*/
+  });
   return output;
 }
 Show.links.sections = {};
 Show.links.sections.instagramLinks = function() {
   var data = 'instagram';
-  var links = Show.links.order.language(Pandas.searchLinks(data));
+  var links = Show.links.order.languageAndAlphabet(Pandas.searchLinks(data));
   var container = document.createElement('div');
   container.id = "instagramLinks";
   container.className = "section";
