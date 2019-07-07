@@ -1309,7 +1309,7 @@ Language.L.update = function() {
     }
   }
   // On the Links page? Redraw it
-  if (window.location.hash == "#links") {
+  if ((window.location.hash == "#links") && (P.db != undefined)) {
     Page.links.render();
   }
   // Update the placeholder text for a search bar
