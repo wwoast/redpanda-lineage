@@ -1030,9 +1030,9 @@ Show.links.sections.redPandaCommunity = function() {
     ul.appendChild(li);
   }
   sub_container.appendChild(ul);
-  container.appendChild(sub_container);
   container.appendChild(h2);
   container.appendChild(body);
+  container.appendChild(sub_container);
   return container;
 }
 Show.links.sections.specialThanksLinks = function() {
