@@ -1003,9 +1003,9 @@ Show.links.sections.instagramLinks = function() {
     var li = Show.links.create('li', link.href, link.text, suffix);
     ul.appendChild(li);
   }
+  sub_container.appendChild(h2);
+  sub_container.appendChild(body);
   sub_container.appendChild(ul);
-  container.appendChild(h2);
-  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
@@ -1029,9 +1029,9 @@ Show.links.sections.redPandaCommunity = function() {
     var li = Show.links.create('li', link.href, link.text, suffix);
     ul.appendChild(li);
   }
+  sub_container.appendChild(h2);
+  sub_container.appendChild(body);
   sub_container.appendChild(ul);
-  container.appendChild(h2);
-  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
@@ -1054,9 +1054,9 @@ Show.links.sections.specialThanksLinks = function() {
     var li = Show.links.create('li', link.href, link.text, "", link.first, link.last);
     ul.appendChild(li);
   }
+  sub_container.appendChild(h2);
+  sub_container.appendChild(body);
   sub_container.appendChild(ul);
-  container.appendChild(h2);
-  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
@@ -1080,9 +1080,9 @@ Show.links.sections.zooLinks = function() {
     var li = Show.links.create('li', link.href, link.text, suffix);
     ul.appendChild(li);
   }
+  sub_container.appendChild(h2);
+  sub_container.appendChild(body);
   sub_container.appendChild(ul);
-  container.appendChild(h2);
-  container.appendChild(body);
   container.appendChild(sub_container);
   return container;
 }
