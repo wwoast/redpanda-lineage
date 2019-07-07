@@ -441,18 +441,19 @@ Page.routes.check = function() {
   var mode = window.location.hash.split('/')[0];
   if (Page.routes.profile.includes(mode)) {
     Page.current = Page.profile.render;
-  } else if (Page.routes.dynamic.includes(mode)) {
-    Page.current = Page.results.render;
   } else if (window.location.hash == "#about") {
     Page.current = Page.about.render;
   } else if (window.location.hash == "#links") {
     Page.current = Page.links.render;
+  } else if (Page.routes.dynamic.includes(mode)) {
+    Page.current = Page.results.render;
   } else {
     Page.current = Page.home.render;
   }
 }
 Page.routes.dynamic = [
   "#credit",
+  "#links",
   "#media",
   "#panda",
   "#profile",
@@ -462,8 +463,7 @@ Page.routes.dynamic = [
 ];
 Page.routes.fixed = [
   "#about",    // The about page
-  "#home",     // The empty query page
-  "#links"     // The links page
+  "#home"     // The empty query page
 ];
 Page.routes.no_footer = [
   "#home"

@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
 
   L.defaultDisplayLanguage();   // Set default display language
-  Page.routes.check();   // See if we started on the links or about pages
+  Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
