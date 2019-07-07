@@ -896,7 +896,7 @@ Show.links.order.hits = function(links) {
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
     if (aHasLang == bHasLang) {
-      // Either the zeroth index, or neight entry has the language
+      // Either the zeroth index, or neither entry has the language
       return 0;
     } else if (aHasLang == 0) {
       return -1;
@@ -944,9 +944,12 @@ Show.links.order.language = function(links) {
     var aHasLang = a.order.indexOf(L.display);
     var bHasLang = b.order.indexOf(L.display);
     if (aHasLang == bHasLang) {
-      // Either the zeroth index, or neight entry has the language
+      // Either the zeroth index, or neither entry has the language
       return 0;
-    } else if ((aHasLang < bHasLang) && (aHasLang != -1)) {
+    } else if (bHasLang == -1) {
+      // One of the entries is missing the desired language 
+      return -1;
+    } else if (aHasLang == 0) {
       return -1;
     } else {
       return 1;
