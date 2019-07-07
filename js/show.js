@@ -949,11 +949,11 @@ Show.links.order.language = function(links) {
     } else if (aHasLang == bHasLang) {
       return 0;
     } else if (aHasLang == 0) {
-      return 1;
-    } else {
       return -1;
+    } else {
+      return 1;
     }
-  }).sort(function(a, b) {
+  });/*.sort(function(a, b) {
     // Finally, do a pass of sorting by whether it has the 
     // desired language anywhere in the language ordering.
     var aHasLang = a.order.indexOf(L.display);
@@ -965,7 +965,7 @@ Show.links.order.language = function(links) {
     } else {
       return 0;
     }
-  });
+  });*/
   return output;
 }
 Show.links.sections = {};
