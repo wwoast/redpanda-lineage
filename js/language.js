@@ -1308,16 +1308,9 @@ Language.L.update = function() {
       text.innerText = this.gui[lookup][this.display];   // Replace icon text
     }
   }
-  // Any section buttons in the page? Redraw with correct language settings
-  // TODO: grab these buttons by class
-  var section_button_ids = ['redPandaCommunity_button', 'zooLinks_button',
-                            'instagramLinks_button', 'specialThanksLinks_button'];
-  var section_button_elements = section_button_ids.map(x => 
-                            document.getElementById(x)).filter(x => x != undefined);
-  for (let element of section_button_elements) {
-    var id = element.id;
-    var text = element.childNodes[0];
-    text.innerText = this.gui[id][this.display];   // Replace section button text
+  // On the Links page? Redraw it
+  if (window.location.hash == "#links") {
+    Page.links.render();
   }
   // Update the placeholder text for a search bar
   if (document.forms['searchForm'] != undefined) {
