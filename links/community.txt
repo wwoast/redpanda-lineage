@@ -1,6 +1,6 @@
 [links]
 _id: links.community
-icon: ️heart
+icon: heart
 link.1: https://www.redpandanetwork.org/
 link.1.en.name: Red Panda Network
 link.1.language.order: en
