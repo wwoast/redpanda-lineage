@@ -629,7 +629,10 @@ Page.redraw = function(callback) {
     callback();
   }
   // For non-panda-results page, don't worry if the database is there or not
-  if ((window.location.hash.length > 0) && (callback != Page.results.render) && (callback != Page.profile.render)) {
+  if ((window.location.hash.length > 0) && 
+      (callback != Page.results.render) && 
+      (callback != Page.profile.render) &&
+      (callback != Page.links.render)) {
     callback();
   }
   if ((window.location.hash.length == 0) && (callback == Page.home.render)) {
