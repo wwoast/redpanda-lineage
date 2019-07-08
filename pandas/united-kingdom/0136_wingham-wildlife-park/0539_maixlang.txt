@@ -5,7 +5,7 @@ birthplace: 137
 children: none
 en.name: Mai Xlang
 en.nicknames: none
-en.othernames: none
+en.othernames: Mai, Mei Ling, Meiling, Maixlang
 gender: f
 jp.name: 舞翔
 jp.nicknames: none
@@ -14,5 +14,51 @@ language.order: en, jp
 litter: 685
 location.1: 137, 2013/6/20
 location.2: 136, 2014/4/28
+photo.1: https://www.instagram.com/p/BeLHVGRBFoR/media/?size=m
+photo.1.author: charliefreshwater
+photo.1.link: https://www.instagram.com/charliefreshwater/
+photo.1.tags: home, paws, portrait, smile
+photo.2: https://www.instagram.com/p/BhWGd0yluSC/media/?size=m
+photo.2.author: winghamwildlifepark
+photo.2.link: https://www.instagram.com/winghamwildlifepark/
+photo.2.tags: bamboo, portrait, profile
+photo.3: https://www.instagram.com/p/BlIVZl-At4N/media/?size=m
+photo.3.author: winghamwildlifepark
+photo.3.link: https://www.instagram.com/winghamwildlifepark/
+photo.3.tags: bridge, laying down
+photo.4: https://www.instagram.com/p/Bmi6R2tnLGs/media/?size=m
+photo.4.author: mark__dillen
+photo.4.link: https://www.instagram.com/mark__dillen/
+photo.4.tags: portrait, smile
+photo.5: https://www.instagram.com/p/BqUqZpbg30H/media/?size=m
+photo.5.author: colinmilessigns
+photo.5.link: https://www.instagram.com/colinmilessigns/
+photo.5.tags: home, portrait, smile, tongue
+photo.6: https://www.instagram.com/p/Bu0eyQ3FpMb/media/?size=m
+photo.6.author: you.yvonne
+photo.6.link: https://www.instagram.com/you.yvonne/
+photo.6.tags: grooming, paws, portrait
+photo.7: https://www.instagram.com/p/BvAHgpAgYFq/media/?size=m
+photo.7.author: photo_phoenix1
+photo.7.link: https://www.instagram.com/photo_phoenix1/
+photo.7.tags: door, home, portrait
+photo.8: https://www.instagram.com/p/BvOKLrWp_vl/media/?size=m
+photo.8.author: emparadise
+photo.8.link: https://www.instagram.com/emparadise/
+photo.8.tags: home, portrait
+photo.9: https://www.instagram.com/p/BxahXsNg5TS/media/?size=m
+photo.9.author: sctthewitt
+photo.9.link: https://www.instagram.com/sctthewitt/
+photo.9.tags: air tasting, portrait, tongue
+photo.10: https://www.instagram.com/p/Bxh1qbHAyrT/media/?size=m
+photo.10.author: rbm.artworks
+photo.10.link: https://www.instagram.com/rbm.artworks/
+photo.11: https://www.instagram.com/p/Bxh1UZxA8EC/media/?size=m
+photo.11.author: rbm.artworks
+photo.11.link: https://www.instagram.com/rbm.artworks/
+photo.12: https://www.instagram.com/p/BxkL1FCgyH6/media/?size=m
+photo.12.author: winghamwildlifepark
+photo.12.link: https://www.instagram.com/winghamwildlifepark/
+photo.12.tags: peek
 species: 2
 zoo: 136

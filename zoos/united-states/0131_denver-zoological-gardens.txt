@@ -6,4 +6,8 @@ en.name: Denver Zoological Gardens
 flag: USA
 language.order: en
 map: https://goo.gl/maps/hqG7y33Ttwj
+photo.1: https://www.instagram.com/p/BzVwJuVF-Zw/media/?size=m
+photo.1.author: denverzoo
+photo.1.link: https://www.instagram.com/denverzoo/
+photo.1.tags: profile
 website: https://www.denverzoo.org/
