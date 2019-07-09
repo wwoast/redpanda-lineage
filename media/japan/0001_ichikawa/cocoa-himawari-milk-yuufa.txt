@@ -4,8 +4,16 @@ panda.tags: 6, 8, 246, 247
 photo.1: https://www.instagram.com/p/ByTrJoTBMBJ/media/?size=l
 photo.1.author: fetorus_mami
 photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: keeper
+photo.1.tags: family, keeper
 photo.1.tags.6.location: 610, 90
 photo.1.tags.8.location: 435, 475
 photo.1.tags.246.location: 350, 580
 photo.1.tags.247.location: 880, 200
+photo.2: https://www.instagram.com/p/BzalMz0h438/media/?size=l
+photo.2.author: ifumoto88
+photo.2.link: https://www.instagram.com/ifumoto88/
+photo.2.tags: family, lunch time
+photo.2.tags.6.location: 175, 380
+photo.2.tags.8.location: 180, 80
+photo.2.tags.246.location: 280, 90
+photo.2.tags.247.location: 320, 335
