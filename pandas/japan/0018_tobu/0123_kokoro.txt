@@ -15,14 +15,15 @@ litter: none
 photo.1: https://www.instagram.com/p/Bh1X6HeF7Kd/media/?size=m
 photo.1.author: mifko55
 photo.1.link: https://www.instagram.com/mifko55/
-photo.1.tags: profile, smile
+photo.1.tags: portrait, profile, smile
 photo.2: https://www.instagram.com/p/Bhvzz--lR0M/media/?size=m
 photo.2.author: tabechum
 photo.2.link: https://www.instagram.com/tabechum/
+photo.2.tags: portrait
 photo.3: https://www.instagram.com/p/Bhxf4yqlhfG/media/?size=m
 photo.3.author: tabechum
 photo.3.link: https://www.instagram.com/tabechum/
-photo.3.tags: smile
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/BjcbhtflPr-/media/?size=m
 photo.4.author: sobu9529
 photo.4.link: https://www.instagram.com/sobu9529/
@@ -32,16 +33,22 @@ photo.5.link: https://www.instagram.com/tabechum/
 photo.6: https://www.instagram.com/p/BbjSjPGFfwW/media/?size=m
 photo.6.author: hanamaru_redpanda
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BcrkUu6lnaN/media/?size=m
 photo.7.author: hanamaru_redpanda
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.7.tags: lips, lunch time, portrait
 photo.8: https://www.instagram.com/p/Bd99JvHFBbo/media/?size=m
 photo.8.author: hanamaru_redpanda
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: tongue
+photo.8.tags: portrait, tongue
 photo.9: https://www.instagram.com/p/BZKbWoJFm9H/media/?size=m
 photo.9.author: _rifa_p
 photo.9.link: https://www.instagram.com/_rifa_p/
-photo.9.tags: mofumofu, smile
+photo.9.tags: mofumofu, portrait, smile
+photo.10: https://www.instagram.com/p/BzbfawohX8C/media/?size=m
+photo.10.author: ssc6105
+photo.10.link: https://www.instagram.com/ssc6105/
+photo.10.tags: portrait
 species: 2
 zoo: 18
