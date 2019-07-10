@@ -1266,7 +1266,7 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   var p = document.createElement('p');
   var babies = 0;
   if (sibling_count != sisters + brothers) {
-    babies = sibling_count - daughters - sons;
+    babies = sibling_count - sisters - brothers;
   }
   // Choose the type of message
   var message = undefined;
