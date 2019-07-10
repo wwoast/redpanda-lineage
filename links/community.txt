@@ -7,3 +7,7 @@ link.1.language.order: en
 link.2: https://redpandazine.com/
 link.2.en.name: Red Pandazine
 link.2.language.order: de, en
+link.3: https://www.nhdzoo.jp/red-panda/
+link.3.en.name: Nihondaira Zoo: About Red Pandas
+link.3.jp.name: レッサーパンダの聖地 静岡市
+link.3.language.order: jp, en
