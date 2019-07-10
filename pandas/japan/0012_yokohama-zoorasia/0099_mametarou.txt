@@ -21,11 +21,11 @@ photo.1.tags: yawn
 photo.2: https://www.instagram.com/p/BkhyLCOFW1E/media/?size=m
 photo.2.author: kotata_513
 photo.2.link: https://www.instagram.com/kotata_513/
-photo.2.tags: profile
+photo.2.tags: tail
 photo.3: https://www.instagram.com/p/BeyvlZsn9gI/media/?size=m
 photo.3.author: kotata_513
 photo.3.link: https://www.instagram.com/kotata_513/
-photo.3.tags: portrait, smile
+photo.3.tags: portrait, profile, smile
 photo.4: https://www.instagram.com/p/BfPyGUmnp08/media/?size=m
 photo.4.author: kotata_513
 photo.4.link: https://www.instagram.com/kotata_513/
@@ -121,13 +121,9 @@ photo.27: https://www.instagram.com/p/BznbEqghX1h/media/?size=m
 photo.27.author: pantasanzoo1
 photo.27.link: https://www.instagram.com/pantasanzoo1/
 photo.27.tags: apple time, paws, standing
-photo.28: https://www.instagram.com/p/BznbEqghX1h/media/?size=m
+photo.28: https://www.instagram.com/p/BznbqY9Be7j/media/?size=m
 photo.28.author: pantasanzoo1
 photo.28.link: https://www.instagram.com/pantasanzoo1/
-photo.28.tags: apple time, paws, standing
-photo.29: https://www.instagram.com/p/BznbqY9Be7j/media/?size=m
-photo.29.author: pantasanzoo1
-photo.29.link: https://www.instagram.com/pantasanzoo1/
-photo.29.tags: apple time, bite, home, keeper, paws
+photo.28.tags: apple time, bite, home, keeper, paws
 species: 2
 zoo: 12
