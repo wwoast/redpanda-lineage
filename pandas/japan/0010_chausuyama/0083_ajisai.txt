@@ -17,6 +17,7 @@ location.2: 10, 2009/3/26
 photo.1: https://www.instagram.com/p/BkTbcbaFSYE/media/?size=m
 photo.1.author: craig_craig_craig
 photo.1.link: https://www.instagram.com/craig_craig_craig/
+photo.1.tags: portrait, whiskers, white face
 photo.2: https://www.instagram.com/p/BkTNQdnlbRN/media/?size=m
 photo.2.author: _rifa_p
 photo.2.link: https://www.instagram.com/_rifa_p/
@@ -24,15 +25,15 @@ photo.2.tags: tail, techitechi
 photo.3: https://www.instagram.com/p/Bh7qYEHlb2l/media/?size=m
 photo.3.author: panda.daisuki
 photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: profile, sleeping
+photo.3.tags: portrait, profile, sleeping
 photo.4: https://www.instagram.com/p/BgnqJs-lhg_/media/?size=m
 photo.4.author: hanamaru_redpanda
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait, white face
 photo.5: https://www.instagram.com/p/Bh1m40KlGll/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: smile
+photo.5.tags: portrait, smile
 photo.6: https://www.instagram.com/p/BpQNiKPlIrR/media/?size=m
 photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
@@ -47,36 +48,38 @@ photo.8.tags: ear
 photo.9: https://www.instagram.com/p/BqpXR3rngtC/media/?size=m
 photo.9.author: yakko____
 photo.9.link: https://www.instagram.com/yakko____/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BrP6dkSF2EY/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
-photo.10.tags: ear
+photo.10.tags: ear, portrait
 photo.11: https://www.instagram.com/p/BsIZARXlyId/media/?size=m
 photo.11.author: kinkinkin0826
 photo.11.link: https://www.instagram.com/kinkinkin0826/
-photo.11.tags: peek
+photo.11.tags: peek, portrait
 photo.12: https://www.instagram.com/p/BtCzu5WlPaU/media/?size=m
 photo.12.author: rie_panda55
 photo.12.link: https://www.instagram.com/rie_panda55/
-photo.12.tags: white face
+photo.12.tags: portrait, snow, white face
 photo.13: https://www.instagram.com/p/Bu2lMHClWot/media/?size=m
 photo.13.author: ayusuke56
 photo.13.link: https://www.instagram.com/ayusuke56/
-photo.13.tags: tree
+photo.13.tags: portrait, tree
 photo.14: https://www.instagram.com/p/BvRlqvalzQh/media/?size=m
 photo.14.author: resapan.suki
 photo.14.link: https://www.instagram.com/resapan.suki/
-photo.14.tags: tree
+photo.14.tags: portrait, tree
 photo.15: https://www.instagram.com/p/BvShtmUFstE/media/?size=m
 photo.15.author: fetorus_mami
 photo.15.link: https://www.instagram.com/fetorus_mami/
 photo.16: https://www.instagram.com/p/Bvxa6xkFef-/media/?size=m
 photo.16.author: resapan.suki
 photo.16.link: https://www.instagram.com/resapan.suki/
+photo.16.tags: portrait
 photo.17: https://www.instagram.com/p/BwoIS_BFNQc/media/?size=m
 photo.17.author: shigeko0531
 photo.17.link: https://www.instagram.com/shigeko0531/
-photo.17.tags: sleeping, tree
+photo.17.tags: portrait, sleeping, tree
 photo.18: https://www.instagram.com/p/BwsIpJWlDIZ/media/?size=m
 photo.18.author: taka__3428
 photo.18.link: https://www.instagram.com/taka__3428/
@@ -85,5 +88,9 @@ photo.19: https://www.instagram.com/p/BznV-sJhtoT/media/?size=m
 photo.19.author: daniele.tokyo
 photo.19.link: https://www.instagram.com/daniele.tokyo/
 photo.19.tags: smile, tongue
+photo.20: https://www.instagram.com/p/Bzx4dAehD5G/media/?size=m
+photo.20.author: redpan22
+photo.20.link: https://www.instagram.com/redpan22/
+photo.20.tags: laying down, portrait, tail, tree
 species: 2
 zoo: 10
