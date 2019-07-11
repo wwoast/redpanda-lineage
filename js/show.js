@@ -1011,7 +1011,7 @@ Show.links.sections.instagramLinks = function() {
 }
 Show.links.sections.redPandaCommunity = function() {
   var data = 'community';
-  var links = Show.links.order.given(Pandas.searchLinks(data));
+  var links = Show.links.order.language(Pandas.searchLinks(data));
   var container = document.createElement('div');
   container.id = "redPandaCommunity";
   container.className = "section";
