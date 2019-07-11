@@ -1,0 +1,33 @@
+[panda]
+_id: 931
+birthday: unknown
+birthplace: 195
+children: unknown
+cn.name: 柔柔
+cn.nicknames: none
+cn.othernames: none
+en.name: Rou-Rou
+en.nicknames: none
+en.othernames: Rourou, Rouge
+gender: f
+jp.name: ロウロウ
+jp.nicknames: none
+jp.othernames: 柔柔
+language.order: cn, en, jp
+litter: unknown
+location.1: 195, unknown
+location.2: 196, 2009/3/22
+photo.1: https://www.instagram.com/p/BzlBG2in8Nc/media/?size=m
+photo.1.author: redpanda_tata
+photo.1.link: https://www.instagram.com/redpanda_tata/
+photo.1.tags: bamboo, eye, paws, portrait, profile
+photo.2: https://www.instagram.com/p/Bze04_tDTTa/media/?size=m
+photo.2.author: redpanda_tata
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: paws, portrait, tail
+photo.3: https://www.instagram.com/p/BzaSdqzH-jc/media/?size=m
+photo.3.author: redpanda_tata
+photo.3.link: https://www.instagram.com/redpanda_tata/
+photo.3.tags: nose, paws
+species: 2
+zoo: 196

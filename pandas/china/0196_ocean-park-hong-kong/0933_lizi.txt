@@ -1,0 +1,22 @@
+[panda]
+_id: 933
+birthday: unknown
+birthplace: 195
+children: unknown
+death: 2013/6/15
+cn.name: 栗子
+cn.nicknames: none
+cn.othernames: none
+en.name: Li-Zi
+en.nicknames: none
+en.othernames: Lizi, LiZi, Chestnut
+gender: f
+jp.name: リジ
+jp.nicknames: none
+jp.othernames: 栗子
+language.order: cn, en, jp
+litter: unknown
+location.1: 195, unknown
+location.2: 196, 2009/3/22
+species: -1
+zoo: 196

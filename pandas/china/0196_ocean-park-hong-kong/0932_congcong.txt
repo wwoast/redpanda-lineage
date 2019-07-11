@@ -1,0 +1,29 @@
+[panda]
+_id: 932
+birthday: unknown
+birthplace: 195
+children: unknown
+cn.name: 聰聰
+cn.nicknames: none
+cn.othernames: none
+en.name: Cong-Cong
+en.nicknames: none
+en.othernames: Congcong, Chong-Chong, Chongchong
+gender: m
+jp.name: コンコン
+jp.nicknames: none
+jp.othernames: 聰聰
+language.order: cn, en, jp
+litter: unknown
+location.1: 195, unknown
+location.2: 196, 2009/3/22
+photo.1: https://www.instagram.com/p/Bze0JKzDnyW/media/?size=m
+photo.1.author: redpanda_tata
+photo.1.link: https://www.instagram.com/redpanda_tata/
+photo.1.tags: grooming, paws, portrait
+photo.2: https://www.instagram.com/p/BzaTIPfHrDN/media/?size=m
+photo.2.author: redpanda_tata
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: bamboo, portrait, profile, tail
+species: 2
+zoo: 196
