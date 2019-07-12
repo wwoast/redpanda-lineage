@@ -1292,6 +1292,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         padding-left: 0px;
     }
 
+    h2.linksHeader {
+        display: none;
+    }
+
     ul.pandaList {
         margin-left: 4px;
     }
