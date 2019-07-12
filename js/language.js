@@ -1204,6 +1204,10 @@ Language.L.defaultDisplayLanguage = function() {
   if (this.display == undefined) {
     this.display = "en";
   }
+  // Adjust flags. For UK locales, make the English language flag
+  // a union-jack. For mainland China locales, make Taiwan flag
+  // look like a Chinese flag.
+  this.fallbackFlags();
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in a zoo or animal object
@@ -1242,6 +1246,31 @@ Language.L.fallbackEntity = function(entity) {
     }
   }
   return output;
+}
+
+// Do locale adjustments for which flags appear as language flags
+Language.L.fallbackFlags = function() {
+  // If an English locale other than USA, default the "english" 
+  // language flag to UK flag.
+  var us = lang.indexOf("en-US");
+  for (let lang of navigator.languages) {
+    if (lang.indexOf("en-") == 0) {
+      commonwealth = navigator.languages.indexOf(lang);
+      if ((commonwealth < us) || (us == -1)) {
+        Language.L.gui.flag["en"] = Language.L.flags["UK"];
+        break;
+      }
+    }
+  }
+  // If a Chinese locale other than Taiwan, default the "chinese"
+  // language flag to the China flag.
+  var china = "zh-CN";
+  var taiwan = "zh-TW";
+  if ((navigator.languages.indexOf(taiwan) != -1) &&
+      (navigator.languages.indexOf(china) != -1) &&
+      (navigator.languages.indexOf(taiwan) < navigator.languages.indexOf(china))) {
+    Language.L.gui.flag["cn"] = Language.L.flags["Taiwan"];        
+  }
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in an info block
