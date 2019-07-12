@@ -1252,7 +1252,7 @@ Language.L.fallbackEntity = function(entity) {
 Language.L.fallbackFlags = function() {
   // If an English locale other than USA, default the "english" 
   // language flag to UK flag.
-  var us = lang.indexOf("en-US");
+  var us = navigator.languages.indexOf("en-US");
   for (let lang of navigator.languages) {
     if (lang.indexOf("en-") == 0) {
       commonwealth = navigator.languages.indexOf(lang);
