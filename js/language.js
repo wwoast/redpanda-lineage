@@ -176,6 +176,7 @@ Language.L.flags = {
     "Denmark": "🇩🇰",
      "France": "🇫🇷",
     "Germany": "🇩🇪",
+  "Hong Kong": "🇭🇰",
     "Hungary": "🇭🇺",
     "Ireland": "🇮🇪",
       "India": "🇮🇳",
