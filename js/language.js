@@ -188,6 +188,7 @@ Language.L.flags = {
      "Russia": "🇷🇺",
    "Slovakia": "🇸🇰",
 "South Korea": "🇰🇷",
+      "Spain": "🇪🇸",
      "Taiwan": "🇹🇼",
    "Thailand": "🇹🇭",
          "UK": "🇬🇧",
@@ -239,6 +240,7 @@ Language.L.gui = {
   "flag": {
     "cn": Language.L.flags["China"],
     "en": Language.L.flags["USA"],
+    "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"]
   },
   "footerLink": {
@@ -253,7 +255,7 @@ Language.L.gui = {
     "jp": "ホーム"
   },
   "instagramLinks_body": {
-    "cn": "TOWRITE",
+    "cn": "",
     "en": "Without all the dedicated and loving Instagram red panda fans I " +
           "know, this site would not exist. Thank you so much!",
     "jp": ""
@@ -264,7 +266,7 @@ Language.L.gui = {
     "jp": "インスタグラム"
   },
   "instagramLinks_header": {
-    "cn": "TOWRITE",
+    "cn": "Instagram 小熊猫",
     "en": "Red Pandas on Instagram",
     "jp": "Instagram レッサーパンダ"
   },
@@ -376,12 +378,12 @@ Language.L.gui = {
     "jp": ""
   },
   "redPandaCommunity_button": {
-    "cn": "TOWRITE",
+    "cn": "社区",
     "en": "Community",
     "jp": "共同体"
   },
   "redPandaCommunity_header": {
-    "cn": "TOWRITE",
+    "cn": "小熊猫社区",
     "en": "Red Panda Community",
     "jp": "レッサーパンダの共同体"
   },
@@ -458,21 +460,21 @@ Language.L.gui = {
   "winter": {
     "cn": "冬",
     "en": "Winter",
-    "jp": "TOWRITE"
+    "jp": "冬"
   },
   "zooLinks_body": {
-    "cn": "TOWRITE",
+    "cn": "",
     "en": "While many zoos are represented in this dataset, some of them are " +
           "hotspots for seeing Red Pandas.",
     "jp": ""
   },
   "zooLinks_button": {
-    "cn": "TOWRITE",
+    "cn": "动物园",
     "en": "Zoos",
     "jp": "動物園"
   },
   "zooLinks_header": {
-    "cn": "TOWRITE",
+    "cn": "小熊猫动物园",
     "en": "Major Red Panda Zoos",
     "jp": "レッサーパンダの動物園"
   }
