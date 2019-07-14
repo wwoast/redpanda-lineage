@@ -413,12 +413,12 @@ Language.L.gui = {
     "jp": ""
   },
   "specialThanksLinks_button": {
-    "cn": "TOWRITE",
+    "cn": "鸣谢",
     "en": "Special Thanks",
     "jp": "感佩"
   },
   "specialThanksLinks_header": {
-    "cn": "TOWRITE",
+    "cn": "鸣谢",
     "en": "Special Thanks",
     "jp": "感佩"
   },
@@ -521,7 +521,12 @@ Language.L.messages = {
            "設計©2019 Justin Fairchild"]
   },
   "happy_birthday": {
-    "cn": ["TOWRITE"],
+    "cn": [Language.L.emoji.birthday,
+           " 生日快乐, ",
+           "<INSERTNAME>",
+           "! (",
+           "<INSERTNUMBER>",
+           "岁)"],
     "en": [Language.L.emoji.birthday,
            " Happy Birthday, ",
            "<INSERTNAME>",
@@ -536,22 +541,24 @@ Language.L.messages = {
            "歳）"]
   },
   "landing_mothersday": {
-    "cn": ["TOWRITE"],
+    "cn": ["母亲节快乐！"],
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
   "no_result": {
-    "cn": ["沒有發現熊貓"],
+    "cn": ["没有查找到相关小熊猫"],
     "en": ["No Pandas Found"],
     "jp": ["パンダが見つかりません"]
   },
   "no_subject_tag_result": {
-    "cn": ["TOWRITE"],
+    "cn": ["没有相关照片"],
     "en": ["No Tagged Photos"],
     "jp": ["このパンダのタグ付けされた写真はありません"]
   },
   "overflow": {
-    "cn": ["TOWRITE"],
+    "cn": ["只显示",
+           "<INSERTLIMIT>",
+           "条结果"],
     "en": [" Only ",
            "<INSERTLIMIT>",
            " shown."],
