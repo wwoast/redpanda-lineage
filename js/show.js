@@ -520,6 +520,25 @@ Show.button.about.render = function(class_name="results") {
   about.addEventListener("click", Show.button.about.action);
   return about;
 }
+Show.button.flag = {};
+Show.button.flag.action = function() {
+  return;  // TODO
+}
+Show.button.flag.render = function(language, class_color) {
+  var button = document.createElement('button');
+  button.classList.add("menu");
+  button.classList.add("flag");
+  button.classList.add(color_class);
+  button.id = language + "LanguageFlag";
+  var content = document.createElement('div');
+  content.className = "buttonContent";
+  var icon = document.createElement('div');
+  icon.className = "buttonIcon";
+  icon.innerText = Language.L.gui.flag[language];
+  content.appendChild(icon);
+  button.appendChild(content);
+  return button;
+}
 Show.button.home = {};
 Show.button.home.action = function() {
   // Return to the empty search page
@@ -1100,6 +1119,21 @@ Show.links.sections.zooLinks = function() {
 */
 Show.landing = {};
 Show.landing.menus = {};
+Show.landing.menus.language = function(class_color) {
+  // Draw the language select menu, but it will be hidden initially
+  var languages = Object.values(Pandas.def.languages);
+  var container = document.createElement('div');
+  container.classList.add("languageMenu");
+  container.classList.add(class_color);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  for (let language of languages) {
+    var button = Show.button.flag.render(language, class_color);
+    shrinker.appendChild(button);
+  }
+  container.appendChild(shrinker);
+  return container;
+}
 Show.landing.menus.bottom = function() {
   // Return to a green menu bar: Top, and a Message Button 
   // for if the landing page is in a special mode.

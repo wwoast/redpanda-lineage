@@ -31,7 +31,7 @@ div.topMenu, div.bottomMenu {
 }
 
 div.languageMenu {
-    display: table;
+    display: none;   /* table, for display */
     text-align: center;
     height: auto;
     margin-left: auto;
