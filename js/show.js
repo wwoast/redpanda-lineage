@@ -514,11 +514,43 @@ Show.button = {};
 Show.button.about = {};
 Show.button.about.action = function() {
   Page.about.routing();
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.about.render = function(class_name="results") {
   var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
   about.addEventListener("click", Show.button.about.action);
   return about;
+}
+Show.button.flag = {};
+Show.button.flag.action = function() {
+  var language = this.id.replace("LanguageFlag", "");
+  var options = Object.values(Pandas.def.languages);
+  var choice = options.indexOf(language);
+  // Don't redraw unless the language exists, or has
+  // changed from the current displayd language.
+  if ((choice > -1) && (language != L.display)) {
+    L.display = language;
+    L.update();
+    Page.redraw(Page.current);
+  }
+  // TODO: do we need to remove the language menu afterwards?
+  // Maybe when another button in the UI is clicked.
+}
+Show.button.flag.render = function(language, class_color) {
+  var button = document.createElement('button');
+  button.classList.add("menu");
+  button.classList.add("flag");
+  button.classList.add(class_color);
+  button.id = language + "LanguageFlag";
+  var content = document.createElement('div');
+  content.className = "buttonContent";
+  var icon = document.createElement('div');
+  icon.className = "buttonIcon";
+  icon.innerText = Language.L.gui.flag[language];
+  content.appendChild(icon);
+  button.appendChild(content);
+  button.addEventListener("click", Show.button.flag.action);
+  return button;
 }
 Show.button.home = {};
 Show.button.home.action = function() {
@@ -526,6 +558,7 @@ Show.button.home.action = function() {
   Page.lastSearch = "#home";
   Page.home.render();
   window.location = "#home";
+  Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.home.render;
 };
 Show.button.home.render = function(class_name="results") {
@@ -535,15 +568,17 @@ Show.button.home.render = function(class_name="results") {
 }
 Show.button.language = {};
 Show.button.language.action = function() {
-  // When clicking the language button, cycle to the next possible display language
-  var language = L.display;
-  var options = Object.values(Pandas.def.languages);
-  var choice = options.indexOf(language);
-  choice = (choice + 1) % options.length;
-  var new_language = options[choice];
-  L.display = new_language;
-  L.update();
-  Page.redraw(Page.current);
+  var language_menu = document.getElementsByClassName("languageMenu")[0];
+  if ((language_menu.style.display == "none") ||
+      (language_menu.style.display == "")) {
+    language_menu.style.display = "table";
+  } else {
+    language_menu.style.display = "none";
+  }
+}
+Show.button.language.hide = function() {
+  var language_menu = document.getElementsByClassName("languageMenu")[0];
+  language_menu.style.display = "none";
 }
 Show.button.language.render = function(class_name="results") {
   var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
@@ -553,6 +588,7 @@ Show.button.language.render = function(class_name="results") {
 Show.button.links = {};
 Show.button.links.action = function() {
   Page.links.routing();
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.links.render = function(class_name="results") {
   var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
@@ -619,6 +655,7 @@ Show.button.random.action = function() {
                               .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
@@ -680,6 +717,7 @@ Show.button.top = {};
 Show.button.top.action = function() {
   // anchor tags get used for JS redraws, so don't use an anchor tag for
   // top-of-page scroll events. This fixes the language button after clicking pageTop.
+  Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);
 }
 Show.button.top.render = function(class_name="results") {
@@ -1096,10 +1134,24 @@ Show.links.sections.zooLinks = function() {
     first visit redpandafinder.com. The landing (home) page is just a special 
     case of the results page, minus no search input, and the only time there
     is special display logic is when content is landing on the home page.
-    This is very WIP.
 */
 Show.landing = {};
 Show.landing.menus = {};
+Show.landing.menus.language = function(class_color) {
+  // Draw the language select menu, but it will be hidden initially
+  var languages = Object.values(Pandas.def.languages);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  for (let language of languages) {
+    var button = Show.button.flag.render(language, class_color);
+    shrinker.appendChild(button);
+  }
+  // Swap updated menu into the page when rendering
+  var menu = document.getElementsByClassName("languageMenu")[0];
+  menu = Show.update(shrinker, menu, "languageMenu", "languageTop");
+  menu.classList.remove("results", "profile");
+  menu.classList.add(class_color);
+}
 Show.landing.menus.bottom = function() {
   // Return to a green menu bar: Top, and a Message Button 
   // for if the landing page is in a special mode.
@@ -1585,6 +1637,9 @@ Show.profile.menus.bottom = function() {
   return menu;
 }
 Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'randomButton', 'searchButton'];
+Show.profile.menus.language = function() {
+  return Show.landing.menus.language("profile");
+}
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
@@ -1846,6 +1901,9 @@ Show.results.menus.bottom = function() {
   return menu;
 }
 Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.results.menus.language = function() {
+  return Show.landing.menus.language("results");
+}
 Show.results.menus.top = function() {
   // Return to a green menu bar: Logo/Home, Language, About, Random, Links
   var new_contents = document.createElement('div');
@@ -2200,6 +2258,7 @@ Show.searchBar.submit = function() {
   setTimeout(function() {
     document.getElementById('searchInput').focus();
   }, 0);
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.searchBar.toggle = function(frame_id) {
   // Normally the search bar just appears at the top of the page.
