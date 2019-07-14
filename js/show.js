@@ -522,7 +522,18 @@ Show.button.about.render = function(class_name="results") {
 }
 Show.button.flag = {};
 Show.button.flag.action = function() {
-  return;  // TODO
+  var language = this.id.replace("LanguageFlag", "");
+  var options = Object.values(Pandas.def.languages);
+  var choice = options.indexOf(language);
+  // Don't redraw unless the language exists, or has
+  // changed from the current displayd language.
+  if ((choice > -1) && (language != L.display)) {
+    L.display = language;
+    L.update();
+    Page.redraw(Page.current);
+  }
+  // TODO: do we need to remove the language menu afterwards?
+  // Maybe when another button in the UI is clicked.
 }
 Show.button.flag.render = function(language, class_color) {
   var button = document.createElement('button');
@@ -537,6 +548,7 @@ Show.button.flag.render = function(language, class_color) {
   icon.innerText = Language.L.gui.flag[language];
   content.appendChild(icon);
   button.appendChild(content);
+  button.addEventListener("click", Show.button.flag.action);
   return button;
 }
 Show.button.home = {};
@@ -554,15 +566,13 @@ Show.button.home.render = function(class_name="results") {
 }
 Show.button.language = {};
 Show.button.language.action = function() {
-  // When clicking the language button, cycle to the next possible display language
-  var language = L.display;
-  var options = Object.values(Pandas.def.languages);
-  var choice = options.indexOf(language);
-  choice = (choice + 1) % options.length;
-  var new_language = options[choice];
-  L.display = new_language;
-  L.update();
-  Page.redraw(Page.current);
+  var language_menu = document.getElementsByClassName("languageMenu")[0];
+  if ((language_menu.style.display == "none") ||
+      (language_menu.style.display == "")) {
+    language_menu.style.display = "table";
+  } else {
+    language_menu.style.display = "none";
+  }
 }
 Show.button.language.render = function(class_name="results") {
   var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
