@@ -528,7 +528,7 @@ Show.button.flag.render = function(language, class_color) {
   var button = document.createElement('button');
   button.classList.add("menu");
   button.classList.add("flag");
-  button.classList.add(color_class);
+  button.classList.add(class_color);
   button.id = language + "LanguageFlag";
   var content = document.createElement('div');
   content.className = "buttonContent";
