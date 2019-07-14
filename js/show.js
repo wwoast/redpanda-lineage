@@ -1115,24 +1115,23 @@ Show.links.sections.zooLinks = function() {
     first visit redpandafinder.com. The landing (home) page is just a special 
     case of the results page, minus no search input, and the only time there
     is special display logic is when content is landing on the home page.
-    This is very WIP.
 */
 Show.landing = {};
 Show.landing.menus = {};
 Show.landing.menus.language = function(class_color) {
   // Draw the language select menu, but it will be hidden initially
   var languages = Object.values(Pandas.def.languages);
-  var container = document.createElement('div');
-  container.classList.add("languageMenu");
-  container.classList.add(class_color);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   for (let language of languages) {
     var button = Show.button.flag.render(language, class_color);
     shrinker.appendChild(button);
   }
-  container.appendChild(shrinker);
-  return container;
+  // Swap updated menu into the page when rendering
+  var menu = document.getElementsByClassName("languageMenu")[0];
+  menu = Show.update(shrinker, menu, "languageMenu", "languageTop");
+  menu.classList.remove("results", "profile");
+  menu.classList.add(class_color);
 }
 Show.landing.menus.bottom = function() {
   // Return to a green menu bar: Top, and a Message Button 
@@ -1619,6 +1618,9 @@ Show.profile.menus.bottom = function() {
   return menu;
 }
 Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'randomButton', 'searchButton'];
+Show.profile.menus.language = function() {
+  return Show.landing.menus.language("profile");
+}
 Show.profile.menus.top = function() {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
@@ -1880,6 +1882,9 @@ Show.results.menus.bottom = function() {
   return menu;
 }
 Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.results.menus.language = function() {
+  return Show.landing.menus.language("results");
+}
 Show.results.menus.top = function() {
   // Return to a green menu bar: Logo/Home, Language, About, Random, Links
   var new_contents = document.createElement('div');

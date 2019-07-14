@@ -69,6 +69,7 @@ Page.about.render = function() {
     Page.swap(old_content, Page.about.content);
     Page.footer.redraw("results");
   }
+  Show["results"].menus.language();
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
@@ -238,6 +239,7 @@ Page.home = {};
 Page.home.render = function() {
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
+  Show["results"].menus.language();
   Show["results"].menus.top();
   // Special birthday logic!
   if ((P.db != undefined) && (Pandas.searchBirthday().length > 0)) {
@@ -285,6 +287,7 @@ Page.links.render = function() {
   // Add event listeners to the newly created Links page buttons
   Page.links.sections.buttonEventHandlers();
   Page.footer.redraw("results");
+  Show["results"].menus.language();
   Show["links"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
@@ -366,6 +369,7 @@ Page.profile.render = function() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
+  Show["profile"].menus.language();
   Show["profile"].menus.top();
   Page.footer.redraw("profile");
   Page.color("profile");
@@ -600,6 +604,7 @@ Page.results.render = function() {
   Page.swap(old_content, new_content);
   // Call layout adjustment functions to shrink any names that are too long
   Layout.shrinkNames();
+  Show["results"].menus.language();
   Show["results"].menus.top();
   Page.footer.redraw("results");
   Page.color("results");
