@@ -527,14 +527,13 @@ Show.button.flag.action = function() {
   var options = Object.values(Pandas.def.languages);
   var choice = options.indexOf(language);
   // Don't redraw unless the language exists, or has
-  // changed from the current displayd language.
+  // changed from the current display language.
   if ((choice > -1) && (language != L.display)) {
     L.display = language;
     L.update();
     Page.redraw(Page.current);
   }
-  // TODO: do we need to remove the language menu afterwards?
-  // Maybe when another button in the UI is clicked.
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.flag.render = function(language, class_color) {
   var button = document.createElement('button');
