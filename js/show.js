@@ -514,6 +514,7 @@ Show.button = {};
 Show.button.about = {};
 Show.button.about.action = function() {
   Page.about.routing();
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.about.render = function(class_name="results") {
   var about = Show.button.render("aboutButton", L.emoji.bamboo, L.gui.about[L.display], class_name);
@@ -557,6 +558,7 @@ Show.button.home.action = function() {
   Page.lastSearch = "#home";
   Page.home.render();
   window.location = "#home";
+  Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.home.render;
 };
 Show.button.home.render = function(class_name="results") {
@@ -574,6 +576,10 @@ Show.button.language.action = function() {
     language_menu.style.display = "none";
   }
 }
+Show.button.language.hide = function() {
+  var language_menu = document.getElementsByClassName("languageMenu")[0];
+  language_menu.style.display = "none";
+}
 Show.button.language.render = function(class_name="results") {
   var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
   language.addEventListener("click", Show.button.language.action);
@@ -582,6 +588,7 @@ Show.button.language.render = function(class_name="results") {
 Show.button.links = {};
 Show.button.links.action = function() {
   Page.links.routing();
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.button.links.render = function(class_name="results") {
   var links = Show.button.render("linksButton", L.emoji.link, L.gui.links[L.display], class_name);
@@ -648,6 +655,7 @@ Show.button.random.action = function() {
                               .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);
   window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
@@ -709,6 +717,7 @@ Show.button.top = {};
 Show.button.top.action = function() {
   // anchor tags get used for JS redraws, so don't use an anchor tag for
   // top-of-page scroll events. This fixes the language button after clicking pageTop.
+  Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);
 }
 Show.button.top.render = function(class_name="results") {
@@ -2249,6 +2258,7 @@ Show.searchBar.submit = function() {
   setTimeout(function() {
     document.getElementById('searchInput').focus();
   }, 0);
+  Show.button.language.hide();   // If language menu open, hide it
 }
 Show.searchBar.toggle = function(frame_id) {
   // Normally the search bar just appears at the top of the page.
