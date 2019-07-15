@@ -1,0 +1,16 @@
+[panda]
+_id: 936
+birthday: 2018/6/29
+birthplace: 120
+children: none
+en.name: Priya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: プリヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 120
