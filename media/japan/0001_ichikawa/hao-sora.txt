@@ -1,0 +1,9 @@
+[media]
+_id: media.1.hao-sora
+panda.tags: 11, 12
+photo.1: https://www.instagram.com/p/Bwpury9F_op/media/?size=m
+photo.1.author: run.swim.shingo
+photo.1.link: https://www.instagram.com/run.swim.shingo/
+photo.1.tags: couple, kiss, nose, portrait
+photo.1.tags.11.location: 90, 120
+photo.1.tags.12.location: 215, 150
