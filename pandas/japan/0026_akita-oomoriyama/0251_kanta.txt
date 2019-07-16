@@ -39,7 +39,7 @@ photo.6.tags: baby, tree
 photo.7: https://www.instagram.com/p/BxoQx2rFHat/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: paws, profile
+photo.7.tags: paws
 photo.8: https://www.instagram.com/p/Bx9p3xSh43l/media/?size=m
 photo.8.author: mifko55
 photo.8.link: https://www.instagram.com/mifko55/
@@ -48,5 +48,9 @@ photo.9: https://www.instagram.com/p/ByRat8IB01s/media/?size=m
 photo.9.author: craig_craig_craig
 photo.9.link: https://www.instagram.com/craig_craig_craig/
 photo.9.tags: mofumofu, tail
+photo.10: https://www.instagram.com/p/Bz6kBo7hYK6/media/?size=m
+photo.10.author: miis_98
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: mofumofu, paws, portrait, profile
 species: 2
 zoo: 26

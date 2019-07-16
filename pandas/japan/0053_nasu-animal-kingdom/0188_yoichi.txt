@@ -15,10 +15,11 @@ litter: 189
 photo.1: https://www.instagram.com/p/BdXnYjyAusT/media/?size=m
 photo.1.author: rnrirhrh
 photo.1.link: https://www.instagram.com/rnrirhrh/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BjioBF5loUB/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: laying down
+photo.2.tags: laying down, portrait
 photo.3: https://www.instagram.com/p/BLOYnc9A6vb/media/?size=m
 photo.3.author: rnrirhrh
 photo.3.link: https://www.instagram.com/rnrirhrh/
@@ -30,17 +31,18 @@ photo.4.tags: smile
 photo.5: https://www.instagram.com/p/Bm4TpJvlFaI/media/?size=m
 photo.5.author: miis_98
 photo.5.link: https://www.instagram.com/miis_98/
-photo.5.tags: smile
+photo.5.tags: portrait, smile
 photo.6: https://www.instagram.com/p/BnCnwT9lCWm/media/?size=m
 photo.6.author: miis_98
 photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: apple time, keeper
+photo.6.tags: apple time, keeper, portrait
 photo.7: https://www.instagram.com/p/Bl2fg-egilj/media/?size=m
 photo.7.author: akap1030
 photo.7.link: https://www.instagram.com/akap1030/
 photo.8: https://www.instagram.com/p/Boq_YPPF_hK/media/?size=m
 photo.8.author: kipekaila
 photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BoxcZhqFPpl/media/?size=m
 photo.9.author: fetorus_mami
 photo.9.link: https://www.instagram.com/fetorus_mami/
@@ -59,22 +61,27 @@ photo.12.tags: apple time, laying down
 photo.13: https://www.instagram.com/p/BX2phATlvKK/media/?size=m
 photo.13.author: hanamaru_redpanda
 photo.13.link: https://www.instagram.com/hanamaru_redpanda/
-photo.13.tags: smile
+photo.13.tags: portrait, smile
 photo.14: https://www.instagram.com/p/Bt8JzCtAbJE/media/?size=m
 photo.14.author: ode_kake
 photo.14.link: https://www.instagram.com/ode_kake/
+photo.14.tags: portrait
 photo.15: https://www.instagram.com/p/BwYDTuIl-b2/media/?size=m
 photo.15.author: rie_panda55
 photo.15.link: https://www.instagram.com/rie_panda55/
-photo.15.tags: tail
+photo.15.tags: portrait, tail
 photo.16: https://www.instagram.com/p/BylnaSdlrB6/media/?size=m
 photo.16.author: yakkooo24
 photo.16.link: https://www.instagram.com/yakkooo24/
-photo.16.tags: smile, tree
+photo.16.tags: portrait, smile, tree
 photo.17: https://www.instagram.com/p/ByxV1_ZjOMp/media/?size=m
 photo.17.author: pisaro0701
 photo.17.link: https://www.instagram.com/pisaro0701/
 photo.17.tags: mofumofu, smile, tongue
+photo.18: https://www.instagram.com/p/Bz5CcKZh2tb/media/?size=m
+photo.18.author: grskus_tk
+photo.18.link: https://www.instagram.com/grskus_tk/
+photo.18.tags: paws, portrait, smile
 species: 2
 video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
 video.1.author: 963293 ride
