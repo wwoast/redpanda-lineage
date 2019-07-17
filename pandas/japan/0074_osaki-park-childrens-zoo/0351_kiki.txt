@@ -28,7 +28,7 @@ photo.3.tags: apple time, keeper, old
 photo.4: https://www.instagram.com/p/BnkF9SdFunD/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
-photo.4.tags: old, profile, sleeping
+photo.4.tags: old, sleeping
 photo.5: https://www.instagram.com/p/BwTMXn9lGhA/media/?size=m
 photo.5.author: ifumoto88
 photo.5.link: https://www.instagram.com/ifumoto88/
@@ -49,5 +49,13 @@ photo.9: https://www.instagram.com/p/BzGDqmrhJdW/media/?size=m
 photo.9.author: kipekaila
 photo.9.link: https://www.instagram.com/kipekaila/
 photo.9.tags: laying down, old
+photo.10: https://www.instagram.com/p/BkLyH0Jli2h/media/?size=m
+photo.10.author: kipekaila
+photo.10.link: https://www.instagram.com/kipekaila/
+photo.10.tags: old, profile
+photo.11: https://www.instagram.com/p/BkQ4kbbFNUV/media/?size=m
+photo.11.author: kipekaila
+photo.11.link: https://www.instagram.com/kipekaila/
+photo.11.tags: dish, old
 species: 2
 zoo: 74
