@@ -17,3 +17,11 @@ photo.2.tags.6.location: 175, 380
 photo.2.tags.8.location: 180, 80
 photo.2.tags.246.location: 280, 90
 photo.2.tags.247.location: 320, 335
+photo.3: https://www.instagram.com/p/Bz8MYCIhRsN/media/?size=l
+photo.3.author: panda.daisuki
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: family, keeper
+photo.3.tags.6.location: 335, 375
+photo.3.tags.8.location: 700, 470
+photo.3.tags.246.location: 655, 665
+photo.3.tags.247.location: 560, 210
