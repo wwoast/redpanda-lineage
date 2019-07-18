@@ -175,7 +175,6 @@ Language.L.emoji = {
 }
 
 // TODO: key on other language versions of country names
-// TODO: language flag should key on the browser advertised locale (USA flag vs. UK flag)
 Language.L.flags = {
   "Argentina": "🇦🇷",
   "Australia": "🇦🇺",
