@@ -81,6 +81,7 @@ Language.L.emoji = {
           "bowl": "🍜",
            "boy": "👦🏻",
         "bridge": "🌉",
+      "brothers": "👦👦",
      "butterfly": "🦋",
         "camera": "📷",
        "camping": "🏕️",
@@ -88,6 +89,7 @@ Language.L.emoji = {
 "cherry_blossom": "🌸",
    "caterpillar": "🐛",
          "climb": "🧗",
+        "couple": "💑",
        "cyclone": "🌀",
           "died": "🌈",
            "dig": "⛏️",
@@ -109,6 +111,7 @@ Language.L.emoji = {
           "home": "🏡",
           "itch": "🐜",
           "jizo": "🗿",
+          "kiss": "💋",
       "language": "‍👁️‍🗨️",
      "lightbulb": "💡",
           "link": "🦉",
@@ -140,6 +143,8 @@ Language.L.emoji = {
          "scale": "⚖️",
         "search": "🔍",
         "shower": "🚿",
+      "siblings": "👧👦",
+       "sisters": "👧👧",
       "sleeping": "😴",
        "slobber": "🤤",
          "smile": "😄",
@@ -201,8 +206,6 @@ Language.L.flags = {
         "USA": "🇺🇸"
 }
 
-// TODO: use this.display to auto grab the right emoji for the current language,
-// or allow overriding given an input language provided at the function call
 Language.L.gui = {
   "about": {
     "cn": "关于",
@@ -854,6 +857,12 @@ Language.L.tags = {
        "en": ["bridge"],
        "jp": ["吊り橋・渡し木", "架け橋"]
   },
+  "brothers": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.brothers],
+       "en": ["brothers", "bros"],
+       "jp": ["男兄弟"]
+  },
   "carry": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.carry],
@@ -871,6 +880,12 @@ Language.L.tags = {
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
        "jp": ["木登り", "登る"]
+  },
+  "couple": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.couple],
+       "en": ["couple", "partners"],
+       "jp": ["カップル", "夫婦", "ふうふ"]
   },
   "destruction": {
        "cn": ["TOWRITE"],
@@ -961,6 +976,12 @@ Language.L.tags = {
     "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
        "jp": ["飼育員"]
+  },
+  "kiss": {
+       "cn": ["TOWRITE"],
+    "emoji": [Language.L.emoji.kiss],
+       "en": ["kissing", "kiss"],
+       "jp": ["接吻", "せっぷん", "キス"]
   },
   "laying down": {
        "cn": ["TOWRITE"],
@@ -1114,6 +1135,18 @@ Language.L.tags = {
      "emoji": [Language.L.emoji.bamboo],
         "en": ["shoots", "shoot"],
         "jp": ["竹の子", "たけのこ"]
+  },
+  "siblings": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.siblings],
+        "en": ["siblings"],
+        "jp": ["兄弟", "きょうだい"]
+  },
+  "sisters": {
+        "cn": ["TOWRITE"],
+     "emoji": [Language.L.emoji.sisters],
+        "en": ["sisters"],
+        "jp": ["姉妹"]
   },
   "sleeping": {
         "cn": ["TOWRITE"],
