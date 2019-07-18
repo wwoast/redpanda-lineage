@@ -860,10 +860,10 @@ Language.L.tags = {
        "en": ["carry", "holding"],
        "jp": ["笹運び", "枝運び", "運ぶ"]
   },
-  "cherry blossom": {
+  "cherry blossoms": {
        "cn": ["TOWRITE"],
     "emoji": [Language.L.emoji.cherry_blossom],
-       "en": ["cherry blossom"],
+       "en": ["cherry blossoms", "cherry blossom"],
        "jp": ["桜"]
   },
   "climb": {
