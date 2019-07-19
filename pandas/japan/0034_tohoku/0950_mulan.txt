@@ -5,11 +5,11 @@ birthplace: 34
 children: none
 en.name: Mulan
 en.nicknames: none
-en.othernames: Muran, Mu-Ran, Mu-Lan
+en.othernames: Muran, Mu-Ran, Mu-Lan, Mouren, Mokuren
 gender: f
-jp.name: 夢卵
+jp.name: 木蓮
 jp.nicknames: none
-jp.othernames: ムラン
+jp.othernames: ムーラン
 language.order: jp, en
 litter: none
 species: 2
