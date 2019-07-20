@@ -22,18 +22,19 @@ photo.2.tags: bamboo
 photo.3: https://www.instagram.com/p/BXk3xoVBpe-/media/?size=m
 photo.3.author: perie1027vivi
 photo.3.link: https://www.instagram.com/perie1027vivi/
-photo.3.tags: peek
+photo.3.tags: hammock, peek, portrait
 photo.4: https://www.instagram.com/p/BKUHpdGA3MM/media/?size=m
 photo.4.author: tabechum
 photo.4.link: https://www.instagram.com/tabechum/
+photo.4.tags: portrait
 photo.5: https://www.instagram.com/p/BJGDatTgGLw/media/?size=m
 photo.5.author: mariten1119
 photo.5.link: https://www.instagram.com/mariten1119/
-photo.5.tags: bridge
+photo.5.tags: bridge, portrait
 photo.6: https://www.instagram.com/p/BoMAzITlva9/media/?size=m
 photo.6.author: taka__3428
 photo.6.link: https://www.instagram.com/taka__3428/
-photo.6.tags: grumpy, profile
+photo.6.tags: grumpy, portrait, profile
 photo.7: https://www.instagram.com/p/BpS9c2AldLW/media/?size=m
 photo.7.author: kipekaila
 photo.7.link: https://www.instagram.com/kipekaila/
@@ -41,12 +42,15 @@ photo.7.tags: sleeping
 photo.8: https://www.instagram.com/p/Bpy6rT3l4Gz/media/?size=m
 photo.8.author: redpan22
 photo.8.link: https://www.instagram.com/redpan22/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BqJTq9ZltCq/media/?size=m
 photo.9.author: redpan22
 photo.9.link: https://www.instagram.com/redpan22/
+photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BqqWMLIH5V3/media/?size=m
 photo.10.author: yakko____
 photo.10.link: https://www.instagram.com/yakko____/
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BtehD2Kl2Hr/media/?size=m
 photo.11.author: tomoki_redpanda
 photo.11.link: https://www.instagram.com/p/BtehD2Kl2Hr/media/?size=m
@@ -54,18 +58,19 @@ photo.11.tags: bridge, smile
 photo.12: https://www.instagram.com/p/Bu_fDiEFJX9/media/?size=m
 photo.12.author: na.mo.pan
 photo.12.link: https://www.instagram.com/na.mo.pan/
-photo.12.tags: bridge, paws, smile, tongue
+photo.12.tags: bridge, paws, portrait, smile, tongue
 photo.13: https://www.instagram.com/p/BvSj7SIlnG6/media/?size=m
 photo.13.author: fetorus_mami
 photo.13.link: https://www.instagram.com/fetorus_mami/
-photo.13.tags: bridge, laying down, smile
+photo.13.tags: bridge, laying down, portrait, smile
 photo.14: https://www.instagram.com/p/BxG4UZOFLdX/media/?size=m
 photo.14.author: resapan.suki
 photo.14.link: https://www.instagram.com/resapan.suki/
+photo.14.tags: bite
 photo.15: https://www.instagram.com/p/Bx02xADF1Tp/media/?size=m
 photo.15.author: shigeko0531
 photo.15.link: https://www.instagram.com/shigeko0531/
-photo.15.tags: laying down
+photo.15.tags: laying down, portrait
 photo.16: https://www.instagram.com/p/ByWEEZFBoVq/media/?size=m
 photo.16.author: resapan.suki
 photo.16.link: https://www.instagram.com/resapan.suki/
@@ -77,6 +82,14 @@ photo.17.tags: laying down, smile, tongue
 photo.18: https://www.instagram.com/p/By2JP1eBlRl/media/?size=m
 photo.18.author: redpan22
 photo.18.link: https://www.instagram.com/redpan22/
-photo.18.tags: mofumofu
+photo.18.tags: mofumofu, portrait
+photo.19: https://www.instagram.com/p/BuluHI0F0A3/media/?size=m
+photo.19.author: redpan22
+photo.19.link: https://www.instagram.com/redpan22/
+photo.19.tags: portrait, tongue
+photo.20: https://www.instagram.com/p/BvahM-Il_Aa/media/?size=m
+photo.20.author: resapan.suki
+photo.20.link: https://www.instagram.com/resapan.suki/
+photo.20.tags: peek
 species: 2
 zoo: 10
