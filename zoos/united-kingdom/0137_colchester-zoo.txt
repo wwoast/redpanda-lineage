@@ -6,4 +6,14 @@ en.name: Colchester Zoo
 flag: UK
 language.order: en
 map: https://goo.gl/maps/JWJySzYiXeu
+photo.1: https://www.instagram.com/p/Be-w0mqn7kw/media/?size=m
+photo.1.author: colchester_zoo
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.2: https://www.instagram.com/p/BvqtZopltDO/media/?size=m
+photo.2.author: colchester_zoo
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: profile
+photo.3: https://www.instagram.com/p/BwPhUFRFjUi/media/?size=m
+photo.3.author: colchester_zoo
+photo.3.link: https://www.instagram.com/colchester_zoo/
 website: https://www.colchester-zoo.com/

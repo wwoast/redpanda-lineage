@@ -667,7 +667,7 @@ Show.button.refresh.action = function() {
   location.reload(false);   // Reload from cache
 }
 Show.button.refresh.altAction = function(e) {
-  e.preventDefault();        // Prevent normal right-click menu from firing
+  e.preventDefault();       // Prevent normal right-click menu from firing
   location.reload(true);    // Reload from server
 }
 Show.button.refresh.render = function(class_name="results") {
