@@ -139,6 +139,7 @@ Language.L.emoji = {
        "pumpkin": "🎃",
         "random": "🎲",
      "raincloud": "🌧️",
+       "refresh": "🔄",
          "reiwa": "🏵️",
          "scale": "⚖️",
         "search": "🔍",
@@ -394,6 +395,11 @@ Language.L.gui = {
     "cn": "小熊猫社区",
     "en": "Red Panda Community",
     "jp": "レッサーパンダの共同体"
+  },
+  "refresh": {
+    "cn": "重装",
+    "en": "Refresh",
+    "jp": "リロード"
   },
   "search": {
     "cn": "搜索...",

@@ -662,6 +662,20 @@ Show.button.random.render = function(class_name="results") {
   random.addEventListener("click", Show.button.random.action);
   return random;
 }
+Show.button.refresh = {};
+Show.button.refresh.action = function() {
+  location.reload(false);   // Reload from cache
+}
+Show.button.refresh.altAction = function(e) {
+  e.preventDefault();        // Prevent normal right-click menu from firing
+  location.reload(true);    // Reload from server
+}
+Show.button.refresh.render = function(class_name="results") {
+  var refresh = Show.button.render("refreshButton", L.emoji.refresh, L.gui.refresh[L.display], class_name);
+  refresh.addEventListener("click", Show.button.refresh.action);
+  refresh.addEventListener("contextmenu", Show.button.refresh.altAction);
+  return refresh;
+}
 Show.button.render = function(id, button_icon, button_text, class_name) {
   // Draw menu buttons for the bottom menu, or potentially elsewhere.
   var button = document.createElement('button');
@@ -1172,7 +1186,7 @@ Show.landing.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.landing.menus.bottomButtons = ['topButton'];
+Show.landing.menus.bottomButtons = ['topButton', 'refreshButton'];
 /* 
     Show functions used to generate translated heading snippets in various page modes
 */
