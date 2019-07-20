@@ -1,0 +1,9 @@
+[media]
+_id: media.7.gin-kin
+panda.tags: 17, 22
+photo.1: https://www.instagram.com/p/BldDhasHNn2/media/?size=l
+photo.1.author: cattail.sapporo
+photo.1.link: https://www.instagram.com/cattail.sapporo/
+photo.1.tags: apple time, sisters, tail
+photo.1.tags.17.location: 620, 435
+photo.1.tags.22.location: 205, 150
