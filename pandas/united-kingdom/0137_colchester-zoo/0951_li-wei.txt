@@ -1,0 +1,29 @@
+[panda]
+_id: 951
+birthday: 2011/6/22
+birthplace: 199
+children: 953
+cn.name: 立偉
+cn.nicknames: none
+cn.othernames: none
+en.name: Li-Wei
+en.nicknames: none
+en.othernames: Li Wei, Liwei
+gender: f
+jp.name: リーウィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 199, 2011/6/22
+location.2: 137, 2012/5/26
+photo.1: https://www.instagram.com/p/5bm7UoE0Kn/media/?size=m
+photo.1.author: colchester_zoo
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/BkfCmm2nAYy/media/?size=m
+photo.2.author: colchester_zoo
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: portrait, profile, smile, tongue
+species: 1
+zoo: 137

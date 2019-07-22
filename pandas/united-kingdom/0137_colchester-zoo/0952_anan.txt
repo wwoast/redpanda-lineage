@@ -1,0 +1,29 @@
+[panda]
+_id: 952
+birthday: 2009/6/23
+birthplace: 200
+children: 953
+cn.name: 安安
+cn.nicknames: none
+cn.othernames: none
+en.name: An-An
+en.nicknames: none
+en.othernames: Anan
+gender: m
+jp.name: アンアン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 200, 2009/6/23
+location.2: 137, 2010/5/6
+photo.1: https://www.instagram.com/p/BuRL1NSlY42/media/?size=m
+photo.1.author: colchester_zoo
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.1.tags: laying down, portrait, yawn
+photo.2: https://www.instagram.com/p/xwfFdgE0Co/media/?size=m
+photo.2.author: colchester_zoo
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: portrait, smile, whiskers
+species: 1
+zoo: 137
