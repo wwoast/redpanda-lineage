@@ -10,8 +10,10 @@ import json
 import os
 import sys
 
+from cStringIO import StringIO
 from shared import *
 from unidiff import PatchSet
+
 
 class RedPandaGraph:
     """Class with the redpanda database and format/consistency checks.
@@ -523,12 +525,53 @@ class RedPandaGraph:
         self.check_dataset_duplicate_ids(self.zoos)
 
 
+class UpdateFromCommits:
+    """
+    Take the last two Git commits in the repository, and process any additions
+    as content that can be inserted into the front page. 
+    
+    Assumes that build.py is always ran at the root of the repository.
+    """
+    def __init__(self):
+        self.repo = git.Repo(".")
+        self.last_commit = self.repo.commit("HEAD~1")
+        self.current_commit = self.repo.commit("HEAD")
+        self.diff_raw = self.repo.git.diff(self.last_commit, 
+                                           self.current_commit,
+                                           ignore_blank_lines=True,
+                                           ignore_space_at_eol=True)
+        self.patch = PatchSet(StringIO(self.diff_raw), encoding='utf-8')
+
+    def new_contributor(self):
+        """
+        Look at all added lines in the last diff. If any of them include a
+        photo author that isn't in the last published JSON file, return a
+        corresponding new author update for insertion into the current JSON.
+        """
+        pass
+
+    def new_pandas(self):
+        """
+        Look at all added lines in the last diff. If any of them represent
+        a brand new file not represented before, return a corresponding
+        new panda update for insertion into the JSON.
+        """
+        pass
+
+    def new_photos(self):
+        """
+        Look at all added lines in the last diff. If any of them represent
+        a new photo added to an existing panda file, return a corresponding
+        new photo update for insertion into the JSON.
+        """
+        pass
+
 def vitamin():
     """
-    Based on a completed Red Panda database, and on the contents of all Javascript and
-    HTML sources here, build a unique set of characters for display in the lineage
-    interface. This character set is necessary to instruct TypeSquare on which characters
-    we want to download in our font.
+    Based on a completed Red Panda database, and on the contents of all 
+    Javascript and HTML sources here, build a unique set of characters for 
+    display in the lineage interface. This character set is necessary to instruct 
+    TypeSquare on which characters we want to download in our font.
     """
     vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;"  # &-encoded HTML characters to start
     lists = []
