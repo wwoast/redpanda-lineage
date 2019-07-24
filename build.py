@@ -5,6 +5,7 @@
 
 import configparser
 import datetime
+import git
 import json
 import os
 import sys
