@@ -10,6 +10,7 @@ import os
 import sys
 
 from shared import *
+from unidiff import PatchSet
 
 class RedPandaGraph:
     """Class with the redpanda database and format/consistency checks.
