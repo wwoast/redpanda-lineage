@@ -10,7 +10,6 @@ import json
 import os
 import sys
 
-from io import StringIO
 from shared import *
 from unidiff import PatchSet
 
@@ -534,13 +533,45 @@ class UpdateFromCommits:
     """
     def __init__(self):
         self.repo = git.Repo(".")
-        self.last_commit = self.repo.commit("HEAD~1")
+        # "Long term this will be HEAD~1. Just for testing"
+        self.prior_commit = self.repo.commit("111c60ed459de5a3f87a804859d46c55325e7d6d")
         self.current_commit = self.repo.commit("HEAD")
-        self.diff_raw = self.repo.git.diff(self.last_commit, 
+        self.diff_raw = self.repo.git.diff(self.prior_commit, 
                                            self.current_commit,
                                            ignore_blank_lines=True,
                                            ignore_space_at_eol=True)
-        self.patch = PatchSet(StringIO(self.diff_raw), encoding='utf-8')
+        self.patch = PatchSet(self.diff_raw)
+        self.authors = []
+        self.photos = []
+        self.pandas = []
+        self.create_updates()
+
+    def create_updates(self):
+        """
+        Take the two listed commits, and make arrays of updates we can generate
+        the updates section from.
+        """
+        # Grab the last JSON file for author data
+        for change in self.patch:
+            filename = change.source_file
+            if change.added <= 0:
+                # Don't care about removal diffs
+                continue
+            elif filename.find(".txt") == -1:
+                # Don't care about non-config files
+                continue
+            elif change.is_added_file == True:
+                # New panda! Track photos as representing a new animal
+                for hunk in change:
+                    for line in hunk:
+                        raw = line.value
+                        self.pandas.append(self.new_pandas(raw, filename))
+            else:
+                # New photo. Track photo on its own
+                for hunk in change:
+                    for line in hunk:
+                        raw = line.value
+                        self.photos.append(self.new_photos(raw))
 
     def new_contributor(self):
         """
@@ -550,20 +581,26 @@ class UpdateFromCommits:
         """
         pass
 
-    def new_pandas(self):
+    def new_pandas(self, raw, filename):
         """
         Look at all added lines in the last diff. If any of them represent
         a brand new file not represented before, return a corresponding
         new panda update for insertion into the JSON.
         """
+        if raw.find("photo.") == 0:
+            print("new panda")
+            print(raw)
         pass
 
-    def new_photos(self):
+    def new_photos(self, raw):
         """
         Look at all added lines in the last diff. If any of them represent
         a new photo added to an existing panda file, return a corresponding
         new photo update for insertion into the JSON.
         """
+        if raw.find("photo.") == 0:
+            print("new photo")
+            print(raw)
         pass
 
 def vitamin():
@@ -602,6 +639,7 @@ if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
     p.build_graph()
+    u = UpdateFromCommits()
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
