@@ -564,20 +564,24 @@ class UpdateFromCommits:
                 # New panda! Track photos as representing a new animal
                 for hunk in change:
                     for line in hunk:
-                        raw = line.value
-                        self.pandas.append(self.new_pandas(raw, filename))
+                        if line.is_added:
+                            raw = line.value
+                            self.pandas.append(self.new_pandas(raw, filename))
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
                     for line in hunk:
-                        raw = line.value
-                        self.photos.append(self.new_photos(raw))
+                        if line.is_added:
+                            raw = line.value
+                            self.photos.append(self.new_photos(raw))
 
     def new_contributor(self):
         """
-        Look at all added lines in the last diff. If any of them include a
-        photo author that isn't in the last published JSON file, return a
-        corresponding new author update for insertion into the current JSON.
+        Look at all added lines in the last diff. Then look at the author
+        counts in the current redpanda.json export. If the number of photos
+        by that author is the same as the number of photos in the changelog,
+        they are a new contributor! Return a corresponding new contributor
+        update for insertion into the current JSON.
         """
         pass
 
