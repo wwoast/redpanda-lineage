@@ -541,9 +541,10 @@ class UpdateFromCommits:
                                            ignore_blank_lines=True,
                                            ignore_space_at_eol=True)
         self.patch = PatchSet(self.diff_raw)
+        self.filenames = {}
         self.authors = []
+        self.entities = []
         self.photos = []
-        self.pandas = []
         self.create_updates()
 
     def create_updates(self):
@@ -561,21 +562,23 @@ class UpdateFromCommits:
                 # Don't care about non-config files
                 continue
             elif change.is_added_file == True:
-                # New panda! Track photos as representing a new animal
+                # New [media|panda|zoo]! Track change as representing a new entity
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            raw = line.value
-                            self.pandas.append(self.new_pandas(raw, filename))
+                            entity = self._read_raw(line.value, filename)
+                            if entity != None:
+                                self.entities.append(entity)
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            raw = line.value
-                            self.photos.append(self.new_photos(raw))
+                            photo = self._read_raw(line.value, filename)
+                            if photo != None:
+                                self.photos.append(photo)
 
-    def new_contributor(self):
+    def new_contributors(self, author_set):
         """
         Look at all added lines in the last diff. Then look at the author
         counts in the current redpanda.json export. If the number of photos
@@ -583,29 +586,69 @@ class UpdateFromCommits:
         they are a new contributor! Return a corresponding new contributor
         update for insertion into the current JSON.
         """
-        pass
+        author_diffs = dict.fromkeys(author_set.iterkeys(), 0)
+        author_entities = {}
+        for change in self.patch:
+            filename = change.source_file
+            if (filename.find(".txt") == len(filename) - len(".txt") and
+                change.added >= 0):
+                # .txt file with changes
+                for hunk in change:
+                    for line in hunk:
+                        [key, value] = line.split(":")[0]
+                        if key.find(".author") == len(key) - len(".author"):
+                            # .author line
+                            author_diffs[value] = author_diffs[value] + 1
+                            if author_entities.get(value) == None:
+                                author_entities[value] = []
+                            entity_id = self._read_raw(line.value, filename)
+                            author_entities[value].append(entity_id)
+        # Remove any author_entities where the diff count in the changelog
+        # doesn't match the total count from the source data
+        for author in author_diffs.keys():
+            if author_diffs[author] != author_set[author]:
+                author_entities.pop(author)
+        # Now the author_entities list is just authors whose entities are
+        # their only photos in redpandafinder. Make the authors list from this
+        for entity in author_entities.values():
+            self.authors.extend(entity)
 
-    def new_pandas(self, raw, filename):
+    def _read_raw(self, raw, filename):
         """
-        Look at all added lines in the last diff. If any of them represent
-        a brand new file not represented before, return a corresponding
-        new panda update for insertion into the JSON.
+        Read the raw line and return a corresponding entity ID to track
+        in one of the "media|panda|zoo" object tables. We're specifically
+        looking for updates matching the form: "photo.X: url"
         """
-        if raw.find("photo.") == 0:
-            print("new panda")
-            print(raw)
-        pass
-
-    def new_photos(self, raw):
+        key = raw.split(":")[0]
+        if (key.find("photo.") != 0 or len(key.split(".")) != 2):
+            return None
+        photo_id = key.split(".")[1]
+        # Get the filename this raw line was seen in
+        entity_id = self.filenames.get(filename)
+        if entity_id == None:
+            # Cache the entity id associated with a file
+            entity_id = self._read_update_entity_id(filename)
+            self.filenames[filename] = entity_id
+        return entity_id + ".photo." + photo_id
+        
+    def _read_update_entity_id(self, filename):
         """
-        Look at all added lines in the last diff. If any of them represent
-        a new photo added to an existing panda file, return a corresponding
-        new photo update for insertion into the JSON.
+        Open the config file and read its _id value. For pandas and
+        zoos, help the frontend disambiguate the update type by adding
+        "panda" or "zoo" prefixed to the _id value itself.
         """
-        if raw.find("photo.") == 0:
-            print("new photo")
-            print(raw)
-        pass
+        config = configparser.ConfigParser()
+        # git diff filenames are not real filesystem names
+        filename = filename.replace("a/", "./", 1)
+        config.read(filename, encoding='utf-8')
+        if filename.find(MEDIA_PATH) != -1:
+            return config.get("media", "_id")
+        elif filename.find(PANDA_PATH) != -1:
+            return "panda." + config.get("panda", "_id")
+        elif filename.find(ZOO_PATH) != -1:
+            return "zoo." + config.get("zoo", "_id")
+        else:
+            return None
 
 def vitamin():
     """
@@ -644,6 +687,8 @@ if __name__ == '__main__':
     p = RedPandaGraph()
     p.build_graph()
     u = UpdateFromCommits()
+    # u.new_contributors(p.photo["credit"])
+    # print(u.authors)
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
