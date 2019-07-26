@@ -535,7 +535,11 @@ Language.L.messages = {
            "設計©2019 Justin Fairchild"]
   },
   "happy_birthday": {
-    "cn": ["TOWRITE"],
+    "cn": [Language.L.emoji.birthday,
+           "<INSERTNAME>",
+           "生日快乐！（",
+           "<INSERTNUMBER>",
+           "岁）"],
     "en": [Language.L.emoji.birthday,
            " Happy Birthday, ",
            "<INSERTNAME>",
@@ -550,22 +554,23 @@ Language.L.messages = {
            "歳）"]
   },
   "landing_mothersday": {
-    "cn": ["TOWRITE"],
+    "cn": ["母亲节快乐"],
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
   "no_result": {
-    "cn": ["沒有發現熊貓"],
+    "cn": ["没有找到这只小熊猫"],
     "en": ["No Pandas Found"],
     "jp": ["パンダが見つかりません"]
   },
   "no_subject_tag_result": {
-    "cn": ["TOWRITE"],
+    "cn": ["没有关联照片"],
     "en": ["No Tagged Photos"],
     "jp": ["このパンダのタグ付けされた写真はありません"]
   },
   "overflow": {
-    "cn": ["TOWRITE"],
+    "cn": ["仅显示",
+          "<INSERTLIMIT>"],
     "en": [" Only ",
            "<INSERTLIMIT>",
            " shown."],
@@ -573,7 +578,10 @@ Language.L.messages = {
            "を表示中"]
   },
   "profile_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTBABIES>",
+           "个孩子"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBABIES>",
@@ -584,7 +592,10 @@ Language.L.messages = {
            "人"]
   },
   "profile_brothers": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTBROTHERS>",
+           "个兄弟"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTBROTHERS>",
@@ -595,7 +606,12 @@ Language.L.messages = {
            "人の兄弟がいます"]
   },
   "profile_brothers_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTSISTERS>",
+           "个姐妹",
+           "<INSERTBABIES>",
+           "个新生儿"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSISTERS>",
@@ -610,7 +626,14 @@ Language.L.messages = {
            "人の赤ちゃんの兄弟がいます"]
   },
   "profile_children": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "一共有",
+           "<INSERTTOTAL>",
+           "个孩子: ",
+           "<INSERTDAUGHTERS>",
+           "个女儿和",
+           "<INSERTSONS>",
+           "个儿子！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -629,7 +652,16 @@ Language.L.messages = {
            "人の男の子"]
   },
   "profile_children_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "一共有",
+           "<INSERTTOTAL>",
+           "个孩子: ",
+           "<INSERTDAUGHTERS>",
+           "个女儿，",
+           "<INSERTSONS>",
+           "个儿子，以及",
+           "<INSERTBABIES>",
+           "个新生儿！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -652,7 +684,10 @@ Language.L.messages = {
            "人の子供"]
   },
   "profile_daughters": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTDAUGHTERS>",
+           "个女儿"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTDAUGHTERS>",
@@ -663,7 +698,12 @@ Language.L.messages = {
            "人の娘がいます"]
   },
   "profile_daughters_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTDAUGHTERS>",
+           "个女儿和",
+           "<INSERTBABIES>",
+           "个新生儿！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTDAUGHTERS>",
@@ -678,14 +718,18 @@ Language.L.messages = {
            "人の子供がいます"]
   },
   "profile_family": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "的直系亲属"],
     "en": ["<INSERTNAME>",
            "'s Immediate Family"],
     "jp": ["<INSERTNAME>",
            "の直近の家族"]
   },
   "profile_sisters": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTSISTERS>",
+           "个姐妹"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSISTERS>",
@@ -696,7 +740,12 @@ Language.L.messages = {
            "の姉妹がいます"]
   },
   "profile_sisters_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTSISTERS>",
+           "个姐妹和",
+           "<INSERTBABIES>",
+           "个新生儿"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSISTERS>",
@@ -711,7 +760,14 @@ Language.L.messages = {
            "人の赤ちゃんの兄弟がいます"]
   },
   "profile_siblings": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTTOTAL>",
+           "个同胞: ",
+           "<INSERTSISTERS>",
+           "个姐妹和",
+           "<INSERTBROTHERS>",
+           "个兄弟！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -730,7 +786,16 @@ Language.L.messages = {
            "人の兄弟"]
   },
   "profile_siblings_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTTOTAL>",
+           "个同胞：",
+           "<INSERTSISTERS>",
+           "个姐妹，",
+           "<INSERTBROTHERS>",
+           "个兄弟，以及",
+           "<INSERTBABIES>",
+           "个新生儿！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTTOTAL>",
@@ -753,7 +818,10 @@ Language.L.messages = {
            "人の赤ちゃんの兄弟"]
   },
   "profile_sons": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTSONS>",
+           "个儿子"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSONS>",
@@ -764,7 +832,12 @@ Language.L.messages = {
            "人です"]
   },
   "profile_sons_babies": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTSONS>",
+           "个儿子和",
+           "<INSERTBABIES>",
+           "个新生儿！"],
     "en": ["<INSERTNAME>",
            " has ",
            "<INSERTSONS>",
@@ -779,7 +852,8 @@ Language.L.messages = {
            "人の子供がいます"]
   },
   "profile_where": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAME>",
+           "住在哪里？"],
     "en": ["Where has ",
            "<INSERTNAME>",
            " lived?"],
@@ -787,7 +861,12 @@ Language.L.messages = {
            "はどこに住んでいましたか？"]
   },
   "tag_subject": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNUM>",
+           "张",
+           "<INSERTNAME>",
+           "<INSERTEMOJI>",
+           "<INSERTTAG>",
+           "的照片"],
     "en": ["<INSERTNUM>",
            " ",
            "<INSERTNAME>",
@@ -813,7 +892,7 @@ Language.L.messages = {
 // TODO: romanji for japanese terms
 Language.L.tags = {
   "air tasting": {
-       "cn": ["TOWRITE"],
+       "cn": ["尝尝空气"],
     "emoji": [Language.L.emoji.tongue + 
               Language.L.emoji.butterfly],
        "en": ["air tasting", 
@@ -821,400 +900,400 @@ Language.L.tags = {
        "jp": ["舌ヒラヒラ"]
   },
   "apple time": {
-       "cn": ["TOWRITE"],
+       "cn": ["苹果时间", "苹果"],
     "emoji": [Language.L.emoji.apple],
        "en": ["apple time", "apple"],
        "jp": ["りんごタイム", "りんご"]
   },
   "autumn": {
-       "cn": ["TOWRITE"],
+       "cn": ["秋天"],
     "emoji": [Language.L.emoji.autumn],
        "en": ["autumn", "fall"],
        "jp": ["秋"]
   },
   "bamboo": {
-       "cn": ["TOWRITE"],
+       "cn": ["竹子", "竹"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
        "jp": ["笹", "竹"]
   },
   "bear worm": {
-       "cn": ["TOWRITE"],
+       "cn": ["蠕动"],
     "emoji": [Language.L.emoji.caterpillar],
        "en": ["bear worm"],
        "jp": ["のびのび"]
   },
   "bite": {
-       "cn": ["TOWRITE"],
+       "cn": ["咬", "吃"],
     "emoji": [Language.L.emoji.tooth],
        "en": ["bite"],
        "jp": ["一口"]
   },
   "blink": {
-       "cn": ["TOWRITE"],
+       "cn": ["眨眼"],
     "emoji": [Language.L.emoji.blink],
        "en": ["blink", "blinking"],
        "jp": ["まばたき"]
   },
   "bridge": {
-       "cn": ["TOWRITE"],
+       "cn": ["吊桥", "桥"],
     "emoji": [Language.L.emoji.bridge],
        "en": ["bridge"],
        "jp": ["吊り橋・渡し木", "架け橋"]
   },
   "brothers": {
-       "cn": ["TOWRITE"],
+       "cn": ["兄弟"],
     "emoji": [Language.L.emoji.brothers],
        "en": ["brothers", "bros"],
        "jp": ["男兄弟"]
   },
   "carry": {
-       "cn": ["TOWRITE"],
+       "cn": ["运", "拿"],
     "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
        "jp": ["笹運び", "枝運び", "運ぶ"]
   },
   "cherry blossoms": {
-       "cn": ["TOWRITE"],
+       "cn": ["樱花"],
     "emoji": [Language.L.emoji.cherry_blossom],
        "en": ["cherry blossoms", "cherry blossom"],
        "jp": ["桜"]
   },
   "climb": {
-       "cn": ["TOWRITE"],
+       "cn": ["爬"],
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
        "jp": ["木登り", "登る"]
   },
   "couple": {
-       "cn": ["TOWRITE"],
+       "cn": ["夫妇", "情侣"],
     "emoji": [Language.L.emoji.couple],
        "en": ["couple", "partners"],
        "jp": ["カップル", "夫婦", "ふうふ"]
   },
   "destruction": {
-       "cn": ["TOWRITE"],
+       "cn": ["破坏"],
     "emoji": [Language.L.emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
        "jp": ["破壊"]
   },
   "dig": {
-       "cn": ["TOWRITE"],
+       "cn": ["挖"],
     "emoji": [Language.L.emoji.dig],
        "en": ["dig", "digging", "digs"],
        "jp": ["穴掘り"]
   },
   "dish": {
-       "cn": ["TOWRITE"],
+       "cn": ["盘子"],
     "emoji": [Language.L.emoji.dish],
        "en": ["dish", "plate"],
        "jp": ["ごはん"]
   },
   "door": {
-       "cn": ["TOWRITE"],
+       "cn": ["门"],
     "emoji": [Language.L.emoji.door],
        "en": ["door"],
        "jp": ["扉", "戸"]
   },
   "ear": {
-       "cn": ["TOWRITE"],
+       "cn": ["耳"],
     "emoji": [Language.L.emoji.ear],
        "en": ["ear", "ears"],
        "jp": ["耳"]
   },
   "eye": {
-       "cn": ["TOWRITE"],
+       "cn": ["眼睛", "眼"],
     "emoji": [Language.L.emoji.eye],
        "en": ["eye", "eyes"],
        "jp": ["目"]
   },
   "flowers": {
-       "cn": ["TOWRITE"],
+       "cn": ["花"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],
        "jp": ["花"]
   },
   "grooming": {
-       "cn": ["TOWRITE"],
+       "cn": ["梳毛"],
     "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
        "jp": ["毛づくろい"]
   },
   "grumpy": {
-       "cn": ["TOWRITE"],
+       "cn": ["牢骚满腹"],
     "emoji": [Language.L.emoji.grumpy],
        "en": ["grumpy", "grouchy"],
        "jp": ["ご機嫌ナナメ"]
   },
   "hammock": {
-       "cn": ["TOWRITE"],
+       "cn": ["吊床"],
     "emoji": [Language.L.emoji.camping],
        "en": ["hammock"],
        "jp": ["ハンモック"]
   },
   "home": {
-       "cn": ["TOWRITE"],
+       "cn": ["家"],
     "emoji": [Language.L.emoji.home],
        "en": ["home"],
        "jp": ["お家"]
   },
   "in love": {
-       "cn": ["TOWRITE"],
+       "cn": ["热恋", "恋爱"],
     "emoji": [Language.L.emoji.hearts],
        "en": ["in love", "love"],
        "jp": ["恋"]
   },
   "itchy": {
-       "cn": ["TOWRITE"],
+       "cn": ["挠痒", "抓痒"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
        "jp": ["カイカイ", "かゆい"]
   },
   "jizo": {
-       "cn": ["TOWRITE"],
+       "cn": ["地藏菩萨"],
     "emoji": [Language.L.emoji.jizo],
        "en": ["jizo", "jizo statue"],
        "jp": ["お地蔵さん"]
   },
   "keeper": {
-       "cn": ["TOWRITE"],
+       "cn": ["饲养员"],
     "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
        "jp": ["飼育員"]
   },
   "kiss": {
-       "cn": ["TOWRITE"],
+       "cn": ["接吻", "亲亲", "吻"],
     "emoji": [Language.L.emoji.kiss],
        "en": ["kissing", "kiss"],
        "jp": ["接吻", "せっぷん", "キス"]
   },
   "laying down": {
-       "cn": ["TOWRITE"],
+       "cn": ["躺"],
     "emoji": [Language.L.emoji.bed],
        "en": ["lay down", "laying down"],
        "jp": ["寝そべっている"]
   },
   "lips": {
-       "cn": ["TOWRITE"],
+       "cn": ["唇"],
     "emoji": [Language.L.emoji.lips],
        "en": ["lips"],
        "jp": ["くちびる"]
   },
   "long-tongue": {
-       "cn": ["TOWRITE"],
+       "cn": ["伸长舌头"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
        "en": ["long tongue", "long-tongue"],
        "jp": ["長い舌"]
   },
   "lunch time": {
-       "cn": ["TOWRITE"],
+       "cn": ["午餐时间"],
     "emoji": [Language.L.emoji.bento],
        "en": ["lunch time", "lunch"],
        "jp": ["ランチの時間"]
   },
   "mofumofu": {
-        "cn": ["TOWRITE"],
+        "cn": ["软软"],
      "emoji": [Language.L.emoji.teddybear],
         "en": ["mofumofu"],
         "jp": ["モフモフ"]
   },
   "muzzle": {
-        "cn": ["TOWRITE"],
+        "cn": ["口鼻套"],
      "emoji": [Language.L.emoji.muzzle],
         "en": ["muzzle", "snout"],
         "jp": ["マズル"]
   },
   "night": {
-        "cn": ["TOWRITE"],
+        "cn": ["夜", "晚上"],
      "emoji": [Language.L.emoji.moon],
         "en": ["night"],
         "jp": ["夜"]
   },
   "nose": {
-        "cn": ["TOWRITE"],
+        "cn": ["鼻子"],
      "emoji": [Language.L.emoji.nose],
         "en": ["nose", "snout"],
         "jp": ["鼻"]
   },
   "old": {
-        "cn": ["TOWRITE"],
+        "cn": ["老人"],
      "emoji": [Language.L.emoji.grandpa],
         "en": ["old"],
         "jp": ["シニアパンダさん", "年老いた"]
   },
   "panda bowl": {
-        "cn": ["TOWRITE"],
+        "cn": ["碗"],
      "emoji": [Language.L.emoji.panda + 
                Language.L.emoji.bowl],
         "en": ["panda bowl", "bowl"],
         "jp": ["エサ鉢"]
   },
   "paws": {
-        "cn": ["TOWRITE"],
+        "cn": ["爪"],
      "emoji": [Language.L.emoji.paws],
         "en": ["paws", "feet"],
         "jp": ["足"]
   },
   "peek": {
-        "cn": ["TOWRITE"],
+        "cn": ["偷窥"],
      "emoji": [Language.L.emoji.monocle],
         "en": ["peek", "peeking"],
         "jp": ["チラ見"]
   },
   "playing": {
-        "cn": ["TOWRITE"],
+        "cn": ["玩耍"],
      "emoji": [Language.L.emoji.playing],
         "en": ["playing", "play"],
         "jp": ["拝み食い", "両手食い"]
   },
   "poop": {
-        "cn": ["TOWRITE"],
+        "cn": ["便便"],
      "emoji": [Language.L.emoji.poop],
         "en": ["poop"],
         "jp": [Language.L.emoji.poop]
   },
   "pooping": {
-        "cn": ["TOWRITE"],
+        "cn": ["便便"],
      "emoji": [Language.L.emoji.panda +
                Language.L.emoji.poop],
         "en": ["pooping"],
         "jp": ["💩している"]
   },
   "portrait": {
-        "cn": ["TOWRITE"],
+        "cn": ["肖像"],
      "emoji": [Language.L.emoji.portrait],
         "en": ["portrait"],
         "jp": ["顔写真"] 
   },
   "praying": {
-        "cn": ["TOWRITE"],
+        "cn": ["祈祷"],
      "emoji": [Language.L.emoji.pray],
         "en": ["praying", "pray"],
         "jp": ["お祈りしている"]
   },
   "profile": {
-        "cn": ["TOWRITE"],
+        "cn": ["资料"],
      "emoji": [Language.L.emoji.profile],
         "en": ["profile"],
         "jp": ["プロフィール画像"]
   },
   "pull-up": {
-        "cn": ["TOWRITE"],
+        "cn": ["引体向上"],
      "emoji": [Language.L.emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
         "jp": ["鉄棒", "懸垂"]
   },
   "pumpkin": {
-        "cn": ["TOWRITE"],
+        "cn": ["南瓜"],
      "emoji": [Language.L.emoji.pumpkin],
         "en": ["pumpkin", "halloween"],
         "jp": ["かぼちゃ", "南瓜"]
   },
   "reiwa": {
-        "cn": ["TOWRITE"],
+        "cn": ["令和"],
      "emoji": [Language.L.emoji.reiwa],
         "en": ["reiwa"],
         "jp": ["令和"]
   },
   "scale": {
-        "cn": ["TOWRITE"],
+        "cn": ["测体重"],
      "emoji": [Language.L.emoji.scale],
         "en": ["scale", "weigh-in", "weight"],
         "jp": ["体重計", "たいじゅうけい"]
   },
   "shake": {
-        "cn": ["TOWRITE"],
+        "cn": ["摇晃"],
      "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
         "jp": ["ドリパン", "ブルブル", "ゆらゆら"]
   },
   "shedding": {
-        "cn": ["TOWRITE"],
+        "cn": ["换毛"],
      "emoji": [Language.L.emoji.worry],
         "en": ["shedding", "changing fur", "losing fur", "losing hair"],
         "jp": ["換毛", "泣いている"]
   },
   "shoots": {
-        "cn": ["TOWRITE"],
+        "cn": ["竹笋"],
      "emoji": [Language.L.emoji.bamboo],
         "en": ["shoots", "shoot"],
         "jp": ["竹の子", "たけのこ"]
   },
   "siblings": {
-        "cn": ["TOWRITE"],
+        "cn": ["同胞兄弟"],
      "emoji": [Language.L.emoji.siblings],
         "en": ["siblings"],
         "jp": ["兄弟", "きょうだい"]
   },
   "sisters": {
-        "cn": ["TOWRITE"],
+        "cn": ["姐妹"],
      "emoji": [Language.L.emoji.sisters],
         "en": ["sisters"],
         "jp": ["姉妹"]
   },
   "sleeping": {
-        "cn": ["TOWRITE"],
+        "cn": ["睡觉"],
      "emoji": [Language.L.emoji.sleeping],
         "en": ["sleeping", "sleep", "asleep"],
         "jp": ["寝ている"]
   },
   "slobber": {
-        "cn": ["TOWRITE"],
+        "cn": ["口水", "流口水"],
      "emoji": [Language.L.emoji.slobber],
         "en": ["slobber", "slobbering"],
         "jp": ["よだれをたらしている"]
   },
   "smile": {
-        "cn": ["TOWRITE"],
+        "cn": ["笑", "微笑"],
      "emoji": [Language.L.emoji.smile],
         "en": ["smile", "smiling"],
         "jp": ["スマイル"]
   },
   "snow": {
-        "cn": ["TOWRITE"],
+        "cn": ["雪"],
      "emoji": [Language.L.emoji.snow],
         "en": ["snow"],
         "jp": ["雪"]
   },
   "spider": {
-        "cn": ["TOWRITE"],
+        "cn": ["蜘蛛"],
      "emoji": [Language.L.emoji.spider],
         "en": ["spider", "spider-bear", "spider bear"],
         "jp": ["スパイダー"]
   },
   "standing": {
-        "cn": ["TOWRITE"],
+        "cn": ["站立"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
         "jp": ["立っている"]
   },
   "stretching": {
-        "cn": ["TOWRITE"],
+        "cn": ["拉伸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
         "jp": ["ストレッチしている"]
   },
   "surprise": {
-        "cn": ["TOWRITE"],
+        "cn": ["惊喜"],
      "emoji": [Language.L.emoji.fireworks],
         "en": ["surprise", "surprised"],
         "jp": ["びっくり"]
   },
   "tail": {
-        "cn": ["TOWRITE"],
+        "cn": ["尾巴"],
      "emoji": [Language.L.emoji.snake],
         "en": ["tail"],
         "jp": ["しっぽ"]
   },
   "techitechi": {
-        "cn": ["TOWRITE"],
+        "cn": ["目标"],
      "emoji": [Language.L.emoji.target],
         "en": ["techitechi"],
         "jp": ["テチテチ"]
   },
   "tongue": {
-        "cn": ["TOWRITE"],
+        "cn": ["舌"],
      "emoji": [Language.L.emoji.tongue],
         "en": ["tongue"],
         "jp": ["べろ"]
@@ -1232,37 +1311,37 @@ Language.L.tags = {
         "jp": ["木"]
   },
   "upside-down": {
-        "cn": ["TOWRITE"],
+        "cn": ["翻转"],
      "emoji": [Language.L.emoji.upside_down],
         "en": ["upside-down", "upside down"],
         "jp": ["逆さま"]
   },
   "wink": {
-        "cn": ["TOWRITE"],
+        "cn": ["眨眼"],
      "emoji": [Language.L.emoji.wink],
         "en": ["wink", "winking"],
         "jp": ["ウィンク"]
   },
   "wet": {
-        "cn": ["TOWRITE"],
+        "cn": ["湿"],
      "emoji": [Language.L.emoji.raincloud],
         "en": ["wet"],
         "jp": ["濡れた"]
   },
   "white face": {
-        "cn": ["TOWRITE"],
+        "cn": ["浅色的脸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["white face", "light face"],
         "jp": ["色白さん", "しろめん", "白面", "白めん"]
   },
   "window": {
-        "cn": ["TOWRITE"],
+        "cn": ["窗"],
      "emoji": [Language.L.emoji.window],
         "en": ["window"],
         "jp": ["窓", "まど"]
   },
   "yawn": {
-        "cn": ["TOWRITE"],
+        "cn": ["哈欠", "呵欠"],
      "emoji": [Language.L.emoji.yawn],
         "en": ["yawn", "yawning"],
         "jp": ["あくび"]
