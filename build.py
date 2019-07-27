@@ -566,7 +566,8 @@ class UpdateFromCommits:
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            entity = self._read_raw(line.value, filename)
+                            raw = line.value
+                            entity = self._read_raw(raw, filename)
                             if entity != None:
                                 self.entities.append(entity)
             else:
@@ -574,7 +575,8 @@ class UpdateFromCommits:
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            photo = self._read_raw(line.value, filename)
+                            raw = line.value
+                            photo = self._read_raw(raw, filename)
                             if photo != None:
                                 self.photos.append(photo)
 
@@ -586,7 +588,7 @@ class UpdateFromCommits:
         they are a new contributor! Return a corresponding new contributor
         update for insertion into the current JSON.
         """
-        author_diffs = dict.fromkeys(author_set.iterkeys(), 0)
+        author_diffs = {}
         author_entities = {}
         for change in self.patch:
             filename = change.source_file
@@ -595,18 +597,27 @@ class UpdateFromCommits:
                 # .txt file with changes
                 for hunk in change:
                     for line in hunk:
-                        [key, value] = line.split(":")[0]
-                        if key.find(".author") == len(key) - len(".author"):
-                            # .author line
-                            author_diffs[value] = author_diffs[value] + 1
-                            if author_entities.get(value) == None:
-                                author_entities[value] = []
-                            entity_id = self._read_raw(line.value, filename)
-                            author_entities[value].append(entity_id)
+                        raw = line.value
+                        if raw.find("photo.") == 0:
+                            [key, value] = raw.split(":", 1)
+                            if key.find(".author") == len(key) - len(".author"):
+                                # .author line
+                                value = value.strip()   # normalize whitespace
+                                if author_diffs.get(value) == None:
+                                    author_diffs[value] = 0
+                                author_diffs[value] = author_diffs[value] + 1
+                                if author_entities.get(value) == None:
+                                    author_entities[value] = []
+                                # modify the line so it processes
+                                raw = raw.replace(".author", "", 1)
+                                entity_id = self._read_raw(raw, filename)
+                                author_entities[value].append(entity_id)
         # Remove any author_entities where the diff count in the changelog
         # doesn't match the total count from the source data
         for author in author_diffs.keys():
             if author_diffs[author] != author_set[author]:
+                # print("diffs: " + str(author_diffs[author]) + 
+                #       " set: " + str(author_set[author]))
                 author_entities.pop(author)
         # Now the author_entities list is just authors whose entities are
         # their only photos in redpandafinder. Make the authors list from this
@@ -687,8 +698,8 @@ if __name__ == '__main__':
     p = RedPandaGraph()
     p.build_graph()
     u = UpdateFromCommits()
-    # u.new_contributors(p.photo["credit"])
-    # print(u.authors)
+    u.new_contributors(p.photo["credit"])
+    print(u.authors)
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
