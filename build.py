@@ -686,7 +686,7 @@ class UpdateFromCommits:
         """
         oldest_time = self.current_time - time_delta
         oldest_commit = None
-        for commit in self.repo.iter_commits('master'):
+        for commit in self.repo.iter_commits():
             date = commit.committed_date
             if date < oldest_time:
                 return oldest_commit
