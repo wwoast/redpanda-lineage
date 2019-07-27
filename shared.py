@@ -5,7 +5,10 @@ MEDIA_PATH = "./media"
 PANDA_PATH = "./pandas"
 OUTPUT_PATH = "./export/redpanda.json"
 WILD_PATH = "./wild" 
-ZOO_PATH = "./zoos" 
+ZOO_PATH = "./zoos"
+
+# Go back no more than this amount of time to get commits
+COMMIT_AGE = 7 * 24 * 60 * 60   # 7 days
 
 class DateConsistencyError(ValueError):
     pass
