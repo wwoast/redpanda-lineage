@@ -9,6 +9,7 @@ import git
 import json
 import os
 import sys
+import time
 
 from shared import *
 from unidiff import PatchSet
@@ -546,9 +547,10 @@ class UpdateFromCommits:
     Assumes that build.py is always ran at the root of the repository.
     """
     def __init__(self):
+        self.current_time = int(time.time())
         self.repo = git.Repo(".")
         # "Long term this will be HEAD~1. Just for testing"
-        self.prior_commit = self.repo.commit("111c60ed459de5a3f87a804859d46c55325e7d6d")
+        self.prior_commit = self._starting_commit(COMMIT_AGE)
         self.current_commit = self.repo.commit("HEAD")
         self.diff_raw = self.repo.git.diff(self.prior_commit, 
                                            self.current_commit,
@@ -675,6 +677,21 @@ class UpdateFromCommits:
             return "zoo." + config.get("zoo", "_id")
         else:
             return None
+
+    def _starting_commit(self, time_delta):
+        """
+        Given shared.py COMMIT_AGE lookback time, find the oldest commit
+        within that COMMIT_AGE time period. Updates will be calculated based
+        on whether the commit is in the POLICY time period.
+        """
+        oldest_time = self.current_time - time_delta
+        oldest_commit = None
+        for commit in self.repo.iter_commits('master'):
+            date = commit.committed_date
+            if date < oldest_time:
+                return oldest_commit
+            else:
+                oldest_commit = commit
 
 def vitamin():
     """
