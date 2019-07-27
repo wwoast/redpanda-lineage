@@ -43,6 +43,7 @@ class RedPandaGraph:
         self.summary["birthday"] = 1970
         self.summary["death"] = 1970
         self.vertices = []
+        self.updates = {}
         self.wilds = []
         self.wild_files = []
         self.zoos = []
@@ -216,6 +217,7 @@ class RedPandaGraph:
         export['vertices'] = self.vertices
         export['edges'] = self.edges
         export['_totals'] = {}
+        export['_updates'] = {}
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
@@ -226,6 +228,10 @@ class RedPandaGraph:
         export['_totals']['pandas'] = self.sum_pandas()
         export['_totals']['last_born'] = self.summary['birthday']
         export['_totals']['last_died'] = self.summary['death']
+        export['_updates']['authors'] = self.updates['authors']
+        export['_updates']['entities'] = self.updates['entities']
+        export['_updates']['photos'] = self.updates['photos']
+
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
@@ -496,6 +502,14 @@ class RedPandaGraph:
                     ((a['_out'] == outp and a['_in'] == inp) or  
                      (a['_in'] == outp and a['_out'] == inp)))]
 
+    def set_updates(self, updates):
+        """
+        In the UpdateFromCommits object, we build a list of new photos
+        since the <previous> commit. Store that in the RedPandaGraph for
+        when we do the export later.
+        """
+        self.updates = updates
+
     def sum_pandas(self):
         """Panda count is just the count of the number of panda files imported."""
         return len(self.panda_files)
@@ -542,9 +556,10 @@ class UpdateFromCommits:
                                            ignore_space_at_eol=True)
         self.patch = PatchSet(self.diff_raw)
         self.filenames = {}
-        self.authors = []
-        self.entities = []
-        self.photos = []
+        self.updates = {}
+        self.updates["authors"] = []
+        self.updates["entities"] = []
+        self.updates["photos"] = []
         self.create_updates()
 
     def create_updates(self):
@@ -569,7 +584,7 @@ class UpdateFromCommits:
                             raw = line.value
                             entity = self._read_raw(raw, filename)
                             if entity != None:
-                                self.entities.append(entity)
+                                self.updates["entities"].append(entity)
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
@@ -578,7 +593,7 @@ class UpdateFromCommits:
                             raw = line.value
                             photo = self._read_raw(raw, filename)
                             if photo != None:
-                                self.photos.append(photo)
+                                self.updates["photos"].append(photo)
 
     def new_contributors(self, author_set):
         """
@@ -622,7 +637,7 @@ class UpdateFromCommits:
         # Now the author_entities list is just authors whose entities are
         # their only photos in redpandafinder. Make the authors list from this
         for entity in author_entities.values():
-            self.authors.extend(entity)
+            self.updates["authors"].extend(entity)
 
     def _read_raw(self, raw, filename):
         """
@@ -699,7 +714,7 @@ if __name__ == '__main__':
     p.build_graph()
     u = UpdateFromCommits()
     u.new_contributors(p.photo["credit"])
-    print(u.authors)
+    p.set_updates(u.updates)
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
