@@ -5,11 +5,15 @@
 
 import configparser
 import datetime
+import git
 import json
 import os
 import sys
+import time
 
 from shared import *
+from unidiff import PatchSet
+
 
 class RedPandaGraph:
     """Class with the redpanda database and format/consistency checks.
@@ -40,6 +44,7 @@ class RedPandaGraph:
         self.summary["birthday"] = 1970
         self.summary["death"] = 1970
         self.vertices = []
+        self.updates = {}
         self.wilds = []
         self.wild_files = []
         self.zoos = []
@@ -213,6 +218,7 @@ class RedPandaGraph:
         export['vertices'] = self.vertices
         export['edges'] = self.edges
         export['_totals'] = {}
+        export['_updates'] = {}
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
@@ -223,6 +229,10 @@ class RedPandaGraph:
         export['_totals']['pandas'] = self.sum_pandas()
         export['_totals']['last_born'] = self.summary['birthday']
         export['_totals']['last_died'] = self.summary['death']
+        export['_updates']['authors'] = self.updates['authors']
+        export['_updates']['entities'] = self.updates['entities']
+        export['_updates']['photos'] = self.updates['photos']
+
         with open(destpath, 'wb') as wfh:
             wfh.write(json.dumps(export, 
                                  ensure_ascii=False,
@@ -493,6 +503,14 @@ class RedPandaGraph:
                     ((a['_out'] == outp and a['_in'] == inp) or  
                      (a['_in'] == outp and a['_out'] == inp)))]
 
+    def set_updates(self, updates):
+        """
+        In the UpdateFromCommits object, we build a list of new photos
+        since the <previous> commit. Store that in the RedPandaGraph for
+        when we do the export later.
+        """
+        self.updates = updates
+
     def sum_pandas(self):
         """Panda count is just the count of the number of panda files imported."""
         return len(self.panda_files)
@@ -521,12 +539,166 @@ class RedPandaGraph:
         self.check_dataset_duplicate_ids(self.zoos)
 
 
+class UpdateFromCommits:
+    """
+    Take the last two Git commits in the repository, and process any additions
+    as content that can be inserted into the front page. 
+    
+    Assumes that build.py is always ran at the root of the repository.
+    """
+    def __init__(self):
+        self.current_time = int(time.time())
+        self.repo = git.Repo(".")
+        # "Long term this will be HEAD~1. Just for testing"
+        self.prior_commit = self._starting_commit(COMMIT_AGE)
+        self.current_commit = self.repo.commit("HEAD")
+        self.diff_raw = self.repo.git.diff(self.prior_commit, 
+                                           self.current_commit,
+                                           ignore_blank_lines=True,
+                                           ignore_space_at_eol=True)
+        self.patch = PatchSet(self.diff_raw)
+        self.filenames = {}
+        self.updates = {}
+        self.updates["authors"] = []
+        self.updates["entities"] = []
+        self.updates["photos"] = []
+        self.create_updates()
+
+    def create_updates(self):
+        """
+        Take the two listed commits, and make arrays of updates we can generate
+        the updates section from.
+        """
+        # Grab the last JSON file for author data
+        for change in self.patch:
+            filename = change.source_file
+            if change.added <= 0:
+                # Don't care about removal diffs
+                continue
+            elif filename.find(".txt") == -1:
+                # Don't care about non-config files
+                continue
+            elif change.is_added_file == True:
+                # New [media|panda|zoo]! Track change as representing a new entity
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_added:
+                            raw = line.value
+                            entity = self._read_raw(raw, filename)
+                            if entity != None:
+                                self.updates["entities"].append(entity)
+            else:
+                # New photo. Track photo on its own
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_added:
+                            raw = line.value
+                            photo = self._read_raw(raw, filename)
+                            if photo != None:
+                                self.updates["photos"].append(photo)
+
+    def new_contributors(self, author_set):
+        """
+        Look at all added lines in the last diff. Then look at the author
+        counts in the current redpanda.json export. If the number of photos
+        by that author is the same as the number of photos in the changelog,
+        they are a new contributor! Return a corresponding new contributor
+        update for insertion into the current JSON.
+        """
+        author_diffs = {}
+        author_entities = {}
+        for change in self.patch:
+            filename = change.source_file
+            if (filename.find(".txt") == len(filename) - len(".txt") and
+                change.added >= 0):
+                # .txt file with changes
+                for hunk in change:
+                    for line in hunk:
+                        raw = line.value
+                        if raw.find("photo.") == 0:
+                            [key, value] = raw.split(":", 1)
+                            if key.find(".author") == len(key) - len(".author"):
+                                # .author line
+                                value = value.strip()   # normalize whitespace
+                                if author_diffs.get(value) == None:
+                                    author_diffs[value] = 0
+                                author_diffs[value] = author_diffs[value] + 1
+                                if author_entities.get(value) == None:
+                                    author_entities[value] = []
+                                # modify the line so it processes
+                                raw = raw.replace(".author", "", 1)
+                                entity_id = self._read_raw(raw, filename)
+                                author_entities[value].append(entity_id)
+        # Remove any author_entities where the diff count in the changelog
+        # doesn't match the total count from the source data
+        for author in author_diffs.keys():
+            if author_diffs[author] != author_set[author]:
+                # print("diffs: " + str(author_diffs[author]) + 
+                #       " set: " + str(author_set[author]))
+                author_entities.pop(author)
+        # Now the author_entities list is just authors whose entities are
+        # their only photos in redpandafinder. Make the authors list from this
+        for entity in author_entities.values():
+            self.updates["authors"].extend(entity)
+
+    def _read_raw(self, raw, filename):
+        """
+        Read the raw line and return a corresponding entity ID to track
+        in one of the "media|panda|zoo" object tables. We're specifically
+        looking for updates matching the form: "photo.X: url"
+        """
+        key = raw.split(":")[0]
+        if (key.find("photo.") != 0 or len(key.split(".")) != 2):
+            return None
+        photo_id = key.split(".")[1]
+        # Get the filename this raw line was seen in
+        entity_id = self.filenames.get(filename)
+        if entity_id == None:
+            # Cache the entity id associated with a file
+            entity_id = self._read_update_entity_id(filename)
+            self.filenames[filename] = entity_id
+        return entity_id + ".photo." + photo_id
+        
+    def _read_update_entity_id(self, filename):
+        """
+        Open the config file and read its _id value. For pandas and
+        zoos, help the frontend disambiguate the update type by adding
+        "panda" or "zoo" prefixed to the _id value itself.
+        """
+        config = configparser.ConfigParser()
+        # git diff filenames are not real filesystem names
+        filename = filename.replace("a/", "./", 1)
+        config.read(filename, encoding='utf-8')
+        if filename.find(MEDIA_PATH) != -1:
+            return config.get("media", "_id")
+        elif filename.find(PANDA_PATH) != -1:
+            return "panda." + config.get("panda", "_id")
+        elif filename.find(ZOO_PATH) != -1:
+            return "zoo." + config.get("zoo", "_id")
+        else:
+            return None
+
+    def _starting_commit(self, time_delta):
+        """
+        Given shared.py COMMIT_AGE lookback time, find the oldest commit
+        within that COMMIT_AGE time period. Updates will be calculated based
+        on whether the commit is in the POLICY time period.
+        """
+        oldest_time = self.current_time - time_delta
+        oldest_commit = None
+        for commit in self.repo.iter_commits():
+            date = commit.committed_date
+            if date < oldest_time:
+                return oldest_commit
+            else:
+                oldest_commit = commit
+
 def vitamin():
     """
-    Based on a completed Red Panda database, and on the contents of all Javascript and
-    HTML sources here, build a unique set of characters for display in the lineage
-    interface. This character set is necessary to instruct TypeSquare on which characters
-    we want to download in our font.
+    Based on a completed Red Panda database, and on the contents of all 
+    Javascript and HTML sources here, build a unique set of characters for 
+    display in the lineage interface. This character set is necessary to instruct 
+    TypeSquare on which characters we want to download in our font.
     """
     vitamin = "&amp;&copy;&lsquo;&rsquo;&ldquo;&rdquo;&nacute;"  # &-encoded HTML characters to start
     lists = []
@@ -557,6 +729,9 @@ if __name__ == '__main__':
     """Initialize all library settings, build, and export the database."""
     p = RedPandaGraph()
     p.build_graph()
+    u = UpdateFromCommits()
+    u.new_contributors(p.photo["credit"])
+    p.set_updates(u.updates)
     p.export_json_graph(OUTPUT_PATH)
     # Only do this in CI when publishing a real page
     if len(sys.argv) > 1:
