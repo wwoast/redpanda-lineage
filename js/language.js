@@ -427,12 +427,12 @@ Language.L.gui = {
     "jp": ""
   },
   "specialThanksLinks_button": {
-    "cn": "TOWRITE",
+    "cn": "鸣谢",
     "en": "Special Thanks",
     "jp": "感佩"
   },
   "specialThanksLinks_header": {
-    "cn": "TOWRITE",
+    "cn": "鸣谢",
     "en": "Special Thanks",
     "jp": "感佩"
   },
