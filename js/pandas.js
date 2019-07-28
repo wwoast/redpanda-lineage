@@ -878,7 +878,8 @@ Pandas.age = function(animal, language) {
     return (Math.floor(age_days)).toString() + spacing(language) + pluralize(age_days, "day", language);
   } else if (age_days <= 365) {
     return age_months.toString() + spacing(language) + Pandas.def.age[language]['months'];
-  } else if (age_days <= 395) {
+  } else if (age_days <= 403) {
+    // 403/31 == 13, lowest number that is still cleanly one year and less than one month
     return "1" + spacing(language) + Pandas.def.age[language]['year'];
   } else if (age_days <= 730) {
     return "1" + spacing(language) + Pandas.def.age[language]['year'] + " " + 
