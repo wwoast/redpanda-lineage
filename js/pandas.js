@@ -69,6 +69,9 @@ Pandas.def.animal = {
   "birthday": "1970/1/1",
   "birthplace": "0",
   "children": "0",
+  "cn.name": "TOWRITE",
+  "cn.nicknames": "TOWRITE",
+  "cn.othernames": "TOWRITE",
   "death": "1970/1/1",
   "en.name": "Panda Not Found",
   "en.nicknames": "No Nicknames Recorded",
@@ -124,7 +127,8 @@ Pandas.def.no_name = {
 // definition used within this project's code.
 Pandas.def.languages = {
   "en": "en",
-  "ja": "jp"
+  "ja": "jp",
+  "zh": "cn"
 }
 
 // Character ranges
@@ -182,7 +186,7 @@ Pandas.def.relations = {
     "jp": "おばあちゃん"
   },
   "litter": {
-    "cn": "litter",
+    "cn": "轿子",
     "en": "litter",
     "jp": "双子"   /* "同腹仔" */
   },
@@ -250,6 +254,9 @@ Pandas.def.unknown = {
 // Slightly different default zoo listing, to account for wild-born animals
 Pandas.def.wild = {
   "_id": "wild.0",
+  "cn.address": "TOWRITE",
+  "cn.location": "TOWRITE",
+  "cn.name": "TOWRITE",
   "en.address": "Captured or Rescued Wild Animal",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
@@ -263,6 +270,9 @@ Pandas.def.wild = {
 
 Pandas.def.zoo = {
   "_id": "0",
+  "cn.address": "TOWRITE",
+  "cn.location": "TOWRITE",
+  "cn.name": "TOWRITE",
   "en.address": "No Google Maps Address Recorded",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",

@@ -270,7 +270,7 @@ Language.L.gui = {
     "jp": ""
   },
   "instagramLinks_button": {
-    "cn": "TOWRITE",
+    "cn": "IG",
     "en": "Instagram",
     "jp": "インスタグラム"
   },
@@ -439,12 +439,12 @@ Language.L.gui = {
   "spring": {
     "cn": "春",
     "en": "Spring",
-    "jp": "TOWRITE"
+    "jp": "春"
   },
   "summer": {
     "cn": "夏",
     "en": "Summer",
-    "jp": "TOWRITE"
+    "jp": "夏"
   },
   "title": {
     "cn": "查找小熊猫",
@@ -523,7 +523,8 @@ Language.L.messages = {
     "jp": "と"
   },
   "footer": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTLINK>",
+           " ©2019 Justin Fairchild"],
     "en": ["All information courtesy of the ",
            "<INSERTLINK>",
            " and red panda fans worldwide. ",
@@ -881,7 +882,28 @@ Language.L.messages = {
            "の",
            "<INSERTEMOJI>",
            "<INSERTTAG>",
-           "。"]
+           "。"],
+  },
+  "zoo_details": {
+    "cn": [Language.L.emoji.animal,
+           " ",
+           "<INSERTANIMALCOUNT>",
+           "个当前的小熊猫。(",
+           "<INSERTRECORDEDCOUNT>",
+           "个记录在数据库中)"],
+    "en": [Language.L.emoji.animal,
+           " ",
+           "<INSERTANIMALCOUNT>",
+           " current red pandas, and ",
+           "<INSERTRECORDEDCOUNT>",
+           " recorded in the database."],
+    "jp": [Language.L.emoji.animal,
+           " ",
+           "現在",
+           "<INSERTANIMALCOUNT>",
+           "頭のレッサーパンダがいます。(データベースには",
+           "<INSERTRECORDEDCOUNT>",
+           "頭の記録があります)"]
   }
 }
 
@@ -1299,13 +1321,13 @@ Language.L.tags = {
         "jp": ["べろ"]
   },
   "toys": {
-        "cn": ["TOWRITE"],
+        "cn": ["玩具"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
         "jp": ["遊具", "おもちゃ", "おもちゃ"]
   },
   "tree": {
-        "cn": ["TOWRITE"],
+        "cn": ["树"],
      "emoji": [Language.L.emoji.tree],
         "en": ["tree", "trees"],
         "jp": ["木"]
@@ -1481,6 +1503,30 @@ Language.L.fallbackInfo = function(info, original) {
   }
   if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
     bundle.birthplace = this.fallbackEntity(info.birthplace);
+  }
+  if ((info.mom != undefined) && (info.mom != Pandas.def.animal)) {
+    bundle.mom = this.fallbackEntity(info.mom);
+  }
+  if ((info.dad != undefined) && (info.dad != Pandas.def.animal)) {
+    bundle.dad = this.fallbackEntity(info.dad);
+  }
+  for (let index in info.litter) {
+    if ((info.litter[index] != undefined) && 
+        (info.litter[index] != Pandas.def.animal)) {
+       info.litter[index] = this.fallbackEntity(info.litter[index]);
+    }
+  }
+  for (let index in info.siblings) {
+    if ((info.siblings[index] != undefined) && 
+        (info.siblings[index] != Pandas.def.animal)) {
+       info.siblings[index] = this.fallbackEntity(info.siblings[index]);
+    }
+  }
+  for (let index in info.children) {
+    if ((info.children[index] != undefined) && 
+        (info.children[index] != Pandas.def.animal)) {
+       info.children[index] = this.fallbackEntity(info.children[index]);
+    }
   }
   return bundle;
 }
