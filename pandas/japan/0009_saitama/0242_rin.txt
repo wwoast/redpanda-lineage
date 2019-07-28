@@ -5,7 +5,7 @@ birthplace: 9
 children: none
 en.name: Rin
 en.nicknames: none
-en.othernames: 
+en.othernames: Lynn
 gender: f
 jp.name: リン
 jp.nicknames: none
@@ -168,5 +168,9 @@ photo.39: https://www.instagram.com/p/BzDvUoohut-/media/?size=m
 photo.39.author: sasapan34
 photo.39.link: https://www.instagram.com/sasapan34/
 photo.39.tags: flowers, white face
+photo.40: https://www.instagram.com/p/B0S_S_VhVzF/media/?size=m
+photo.40.author: gloryeui
+photo.40.link: https://www.instagram.com/gloryeui/
+photo.40.tags: paws
 species: 2
 zoo: 9
