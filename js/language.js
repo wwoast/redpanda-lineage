@@ -1300,13 +1300,13 @@ Language.L.tags = {
         "jp": ["べろ"]
   },
   "toys": {
-        "cn": ["TOWRITE"],
+        "cn": ["玩具"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
         "jp": ["遊具", "おもちゃ", "おもちゃ"]
   },
   "tree": {
-        "cn": ["TOWRITE"],
+        "cn": ["树"],
      "emoji": [Language.L.emoji.tree],
         "en": ["tree", "trees"],
         "jp": ["木"]
