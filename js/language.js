@@ -270,7 +270,7 @@ Language.L.gui = {
     "jp": ""
   },
   "instagramLinks_button": {
-    "cn": "TOWRITE",
+    "cn": "IG",
     "en": "Instagram",
     "jp": "インスタグラム"
   },
@@ -439,12 +439,12 @@ Language.L.gui = {
   "spring": {
     "cn": "春",
     "en": "Spring",
-    "jp": "TOWRITE"
+    "jp": "春"
   },
   "summer": {
     "cn": "夏",
     "en": "Summer",
-    "jp": "TOWRITE"
+    "jp": "夏"
   },
   "title": {
     "cn": "查找小熊猫",
@@ -523,7 +523,8 @@ Language.L.messages = {
     "jp": "と"
   },
   "footer": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTLINK>",
+           " ©2019 Justin Fairchild"],
     "en": ["All information courtesy of the ",
            "<INSERTLINK>",
            " and red panda fans worldwide. ",
