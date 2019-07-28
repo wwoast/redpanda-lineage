@@ -882,7 +882,28 @@ Language.L.messages = {
            "の",
            "<INSERTEMOJI>",
            "<INSERTTAG>",
-           "。"]
+           "。"],
+  },
+  "zoo_details": {
+    "cn": [Language.L.emoji.animal,
+           " ",
+           "<INSERTANIMALCOUNT>",
+           "个当前的小熊猫。(",
+           "<INSERTRECORDEDCOUNT>",
+           "个记录在数据库中)"],
+    "en": [Language.L.emoji.animal,
+           " ",
+           "<INSERTANIMALCOUNT>",
+           " current red pandas, and ",
+           "<INSERTRECORDEDCOUNT>",
+           " recorded in the database."],
+    "jp": [Language.L.emoji.animal,
+           " ",
+           "現在",
+           "<INSERTANIMALCOUNT>",
+           "頭のレッサーパンダがいます。(データベースには",
+           "<INSERTRECORDEDCOUNT>",
+           "頭の記録があります)"]
   }
 }
 

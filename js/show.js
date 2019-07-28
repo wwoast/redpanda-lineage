@@ -2141,22 +2141,21 @@ Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
   var language = info.language;
   var counts = document.createElement('p');
-  var count_text = {
-    "en": [ 
-      info.animal_count,
-      "current red pandas, and",
-      info.recorded_count,
-      "recorded in the database."
-    ].join(' '),
-    "jp": [
-      "現在",
-      info.animal_count,
-      "頭のレッサーパンダがいます。(データベースには",
-      info.recorded_count,
-      "頭の記録があります)"
-    ].join('')
+  for (var i in L.messages.zoo_details[language]) {
+    var field = L.messages.zoo_details[language][i];
+    if (field == "<INSERTANIMALCOUNT>") {
+      field = info.animal_count;
+      var msg = document.createTextNode(field);
+      counts.appendChild(msg);
+    } else if (field == "<INSERTRECORDEDCOUNT>") {
+      field = info.recorded_count;
+      var msg = document.createTextNode(field);
+      counts.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      counts.appendChild(msg);
+    }
   }
-  counts.innerText = L.emoji.animal + " " + count_text[language];
   var address = document.createElement('p');
   var address_link = document.createElement('a');
   address_link.innerText = L.emoji.travel + " " + info.address;
