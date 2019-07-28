@@ -10,12 +10,18 @@ photo.1.tags.345.location: 105, 145
 photo.2: https://www.instagram.com/p/B0Lqg_Khm-E/media/?size=m
 photo.2.author: resapan.suki
 photo.2.link: https://www.instagram.com/resapan.suki/
-photo.2.tags: brothers, smile
+photo.2.tags: brothers, smile, twins
 photo.2.tags.344.location: 175, 115
 photo.2.tags.345.location: 190, 260
 photo.3: https://www.instagram.com/p/B0Lsh1ABe2s/media/?size=m
 photo.3.author: panda.daisuki
 photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: brothers, paws
+photo.3.tags: brothers, paws, twins
 photo.3.tags.344.location: 155, 180
 photo.3.tags.345.location: 60, 200
+photo.4: https://www.instagram.com/p/B0URmhQBWS4/media/?size=m
+photo.4.author: panda.daisuki
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: brothers, paws, twins
+photo.4.tags.344.location: 160, 145
+photo.4.tags.345.location: 255, 145
