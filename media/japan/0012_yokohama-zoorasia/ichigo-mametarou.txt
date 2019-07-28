@@ -1,0 +1,9 @@
+[media]
+_id: media.12.ichigo-mametarou
+panda.tags: 99, 130
+photo.1: https://www.instagram.com/p/BvHNcnxlmjm/media/?size=m
+photo.1.author: kipekaila
+photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.tags: apple time, couple
+photo.1.tags.99.location: 275, 95
+photo.1.tags.130.location: 95, 160

@@ -13,7 +13,7 @@ jp.othernames: none
 language.order: jp, en
 litter: 41
 location.1: 19, 2014/7/13
-location.2: 58, 2018/12/1
+location.2: 58, 2018/9/28
 photo.1: https://www.instagram.com/p/BkSjT3Bg9ZL/media/?size=m
 photo.1.author: sbskyy
 photo.1.link: https://www.instagram.com/sbskyy/
@@ -153,5 +153,17 @@ photo.35: https://www.instagram.com/p/Bz_oJB0hshy/media/?size=m
 photo.35.author: itsuak
 photo.35.link: https://www.instagram.com/itsuak/
 photo.35.tags: laying down, portrait, tongue
+photo.36: https://www.instagram.com/p/B0XPaPKhGoN/media/?size=m
+photo.36.author: sasapan34
+photo.36.link: https://www.instagram.com/sasapan34/
+photo.36.tags: lips, smile
+photo.37: https://www.instagram.com/p/B0a67WdhaDg/media/?size=m
+photo.37.author: yakko____
+photo.37.link: https://www.instagram.com/yakko____/
+photo.37.tags: portrait, smile, tongue
+photo.38: https://www.instagram.com/p/B0a9NMZl0iG/media/?size=m
+photo.38.author: yakkooo24
+photo.38.link: https://www.instagram.com/yakkooo24/
+photo.38.tags: apple time, paws, portrait, smile
 species: 2
 zoo: 58
