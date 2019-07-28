@@ -1483,6 +1483,30 @@ Language.L.fallbackInfo = function(info, original) {
   if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
     bundle.birthplace = this.fallbackEntity(info.birthplace);
   }
+  if ((info.mom != undefined) && (info.mom != Pandas.def.animal)) {
+    bundle.mom = this.fallbackEntity(info.mom);
+  }
+  if ((info.dad != undefined) && (info.dad != Pandas.def.animal)) {
+    bundle.dad = this.fallbackEntity(info.dad);
+  }
+  for (let index in info.litter) {
+    if ((info.litter[index] != undefined) && 
+        (info.litter[index] != Pandas.def.animal)) {
+       info.litter[index] = this.fallbackEntity(info.litter[index]);
+    }
+  }
+  for (let index in info.siblings) {
+    if ((info.siblings[index] != undefined) && 
+        (info.siblings[index] != Pandas.def.animal)) {
+       info.siblings[index] = this.fallbackEntity(info.siblings[index]);
+    }
+  }
+  for (let index in info.children) {
+    if ((info.children[index] != undefined) && 
+        (info.children[index] != Pandas.def.animal)) {
+       info.children[index] = this.fallbackEntity(info.children[index]);
+    }
+  }
   return bundle;
 }
 
