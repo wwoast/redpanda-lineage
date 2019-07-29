@@ -632,6 +632,10 @@ class UpdateFromCommits:
         # Remove any author_entities where the diff count in the changelog
         # doesn't match the total count from the source data
         for author in author_diffs.keys():
+            if (author_diffs.get(author) == None or
+                author_set.get(author) == None):
+                # We removed a photo contributor
+                continue
             if author_diffs[author] != author_set[author]:
                 # print("diffs: " + str(author_diffs[author]) + 
                 #       " set: " + str(author_set[author]))
