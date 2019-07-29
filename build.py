@@ -217,11 +217,10 @@ class RedPandaGraph:
         export = {}
         export['vertices'] = self.vertices
         export['edges'] = self.edges
-        export['_totals'] = {}
-        export['_updates'] = {}
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
+        export['_totals'] = {}
         export['_totals']['credit'] = len(self.photo['credit'].keys())
         export['_totals']['last_born'] = self.summary['birthday']
         export['_totals']['last_died'] = self.summary['death']
@@ -234,6 +233,7 @@ class RedPandaGraph:
         export['_totals']['updates']['photos'] = len(self.updates['photos'])
         export['_totals']['wilds'] = len(self.wilds)
         export['_totals']['zoos'] = len(self.zoos)
+        export['_updates'] = {}
         export['_updates']['authors'] = self.updates['authors']
         export['_updates']['entities'] = self.updates['entities']
         export['_updates']['photos'] = self.updates['photos']
