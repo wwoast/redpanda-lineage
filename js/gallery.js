@@ -292,9 +292,9 @@ Gallery.condenseDogEar = function(nav) {
   }
 }
 
-// For a panda's birthday, grab a handful of photos (3). Display a birthday
-// header above the photos and credit messages below each one.
-Gallery.birthdayPhotoCredits = function(language) {
+// For a panda's birthday, grab a handful of photos (2 by default).
+// Display a birthday header above the photos and credit messages below each one.
+Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
   var birthday_div = document.createElement('div');
   // Pandas must be alive, and have at least 20 photos
   var birthday_animals = Pandas.searchBirthday(true, 20);
@@ -305,7 +305,6 @@ Gallery.birthdayPhotoCredits = function(language) {
     var message = Show.message.birthday(info.name, info.id, years_old, language);
     birthday_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
-    var photo_count = 2;
     for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
@@ -335,6 +334,48 @@ Gallery.birthdayPhotoCredits = function(language) {
     }
   }
   return birthday_div;
+}
+
+// Get lists of animals who died in the last two weeks.
+Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
+  var memorial_div = document.createElement('div');
+  for (let id of id_list) {
+    var animal = Pandas.searchPandaId(id)[0];
+    var info = Show.acquirePandaInfo(animal, language);
+    var years_old = Pandas.ageYears(animal);
+    // Post the memorial message (with age in years)
+    var message = Show.message.memorial(info.name, info.id, years_old, language);
+    memorial_div.appendChild(message);
+    var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
+    for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
+      var img_link = document.createElement('a');
+      // Link to the original instagram media
+      img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
+      var img = document.createElement('img');
+      img.src = photo["photo"];
+      img.src = img.src.replace('/?size=l', '/?size=m');
+      img_link.appendChild(img);
+      // Link to the original instagram media
+      var caption_link = document.createElement('a');
+      caption_link.href = photo["photo.link"];
+      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
+      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.target = "_blank";   // Open in new tab
+      var caption = document.createElement('h5');
+      caption.className = "caption memorialMessage";
+      var caption_span = document.createElement('span');
+      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      // TODO: condenser
+      caption.appendChild(caption_span);
+      caption_link.appendChild(caption);
+      var container = document.createElement('div');
+      container.className = "photoSample quarterPage";
+      container.appendChild(img_link);
+      container.appendChild(caption_link);
+      memorial_div.appendChild(container);
+    }
+  }
+  return memorial_div;
 }
 
 // Take an animal, and return a list of divs for all the photos of that animal

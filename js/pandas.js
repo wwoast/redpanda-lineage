@@ -411,7 +411,7 @@ Pandas.searchBirthday = function(keep_living=true, photo_count=20) {
   return Pandas.sortOldestToYoungest(nodes);
 }
 
-// Find all panda babies that died within a calendar year.
+// Find all pandas that died within a calendar year.
 Pandas.searchDead = function(year) {
   // Default search is for the most recent year we recorded a birth in
   var died_year = P.db["_totals"]["last_died"];

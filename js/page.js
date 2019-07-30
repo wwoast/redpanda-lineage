@@ -242,12 +242,16 @@ Page.home.render = function() {
   Show["results"].menus.language();
   Show["results"].menus.top();
   // Special birthday logic!
-  if ((P.db != undefined) && (Pandas.searchBirthday().length > 0)) {
+  if (P.db != undefined) {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    var birthday = Gallery.birthdayPhotoCredits(L.display);
-    new_content.appendChild(birthday);
+    if (Pandas.searchBirthday().length > 0) {
+      var birthday = Gallery.birthdayPhotoCredits(L.display);
+      new_content.appendChild(birthday);
+    }
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["14", "123"])
+    new_content.appendChild(memorial);
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");

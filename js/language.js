@@ -546,6 +546,26 @@ Language.L.messages = {
            "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
            "設計©2019 Justin Fairchild"]
   },
+  "goodbye": {
+    "cn": [Language.L.emoji.died,
+           " 后会有期, ",
+           "<INSERTNAME>",
+           "。（",
+           "<INSERTNUMBER>",
+           "岁）"],
+    "en": [Language.L.emoji.died,
+           " Good-bye, ",
+           "<INSERTNAME>",
+           ". (",
+           "<INSERTNUMBER>",
+           ")"],
+    "jp": [Language.L.emoji.died, 
+           " ありがとう, ",
+           "<INSERTNAME>",
+           "。（",
+           "<INSERTNUMBER>",
+           "歳）"]
+  },
   "happy_birthday": {
     "cn": [Language.L.emoji.birthday,
            "<INSERTNAME>",

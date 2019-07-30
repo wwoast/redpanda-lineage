@@ -1248,6 +1248,34 @@ Show.message.credit = function(credit, count, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.memorial = function(name, animal_id, years, language) {
+  var link = document.createElement('a');
+  link.href = "#panda/" + animal_id;
+  var p = document.createElement('p');
+  for (var i in L.messages.goodbye[language]) {
+    var field = L.messages.goodbye[language][i];
+    if (field == "<INSERTNAME>") {
+      field = name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = years;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "memorialSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Show.message.profile_children = function(name, children_count, daughters, sons, language) {
   var p = document.createElement('p');
   var babies = 0;
