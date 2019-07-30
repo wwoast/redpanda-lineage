@@ -344,7 +344,7 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
     // Post the memorial message (with age in years)
-    var message = Show.message.memorial(info.name, info.id, years_old, language);
+    var message = Show.message.memorial(info.name, info.id, info.birthday, info.death, language);
     memorial_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {

@@ -1248,7 +1248,7 @@ Show.message.credit = function(credit, count, language) {
   message.appendChild(shrinker);
   return message;
 }
-Show.message.memorial = function(name, animal_id, years, language) {
+Show.message.memorial = function(name, animal_id, birth, death, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;
   var p = document.createElement('p');
@@ -1258,8 +1258,12 @@ Show.message.memorial = function(name, animal_id, years, language) {
       field = name;
       var msg = document.createTextNode(field);
       p.appendChild(msg);
-    } else if (field == "<INSERTNUMBER>") {
-      field = years;
+    } else if (field == "<INSERTBIRTH>") {
+      field = birth;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<INSERTDEATH>") {
+      field = death;
       var msg = document.createTextNode(field);
       p.appendChild(msg);
     } else {
