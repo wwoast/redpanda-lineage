@@ -1425,7 +1425,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         width: 100%;
     }
 
-    div.photoSample h5.caption.birthdayMessage {
+    div.photoSample h5.caption.birthdayMessage, div.photoSample h5.caption.memorialMessage {
         width: 100%;
     }
     

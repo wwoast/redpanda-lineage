@@ -175,11 +175,15 @@ Layout.shrinkNames = function() {
   }
 
   var link_nodes = document.getElementsByClassName("geneaologyListName");
-  var caption_nodes = document.getElementsByClassName("caption birthdayMessage");
+  var birthday_nodes = document.getElementsByClassName("caption birthdayMessage");
+  var memorial_nodes = document.getElementsByClassName("caption memorialMessage");
   for (let link of link_nodes) {
     shrinker(link, 1, "outer", 120, 138);
   }
-  for (let caption of caption_nodes) {
+  for (let caption of birthday_nodes) {
+    action(caption, 0, "inner", 130, 140);
+  }
+  for (let caption of memorial_nodes) {
     action(caption, 0, "inner", 130, 140);
   }
 }
