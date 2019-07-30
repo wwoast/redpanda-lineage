@@ -18,6 +18,17 @@ Language.init = function() {
 /*
    Language elements translatable in the GUI
 */
+// Bias values. This helps choose what the most likely second-language
+// for a given display language might be. This was added due to the
+// likelihood that Chinese speakers may be able to read English characters,
+// but not Japanese -- so we should fall back to English for them, despite
+// what an entity's preferred language order might be.
+Language.L.bias = {
+  "cn": ["en"],
+  "en": [],
+  "jp": []
+}
+
 // Character translation tables per language. Just hiragana/katakana
 Language.L.charset = {
   "jp": {
@@ -1609,7 +1620,10 @@ Language.capitalNames = function(input) {
 // Key here is adding the current display language to the list, so that if a dataset
 // doesn't include info for a language, we can overwrite that info anyways!
 Language.currentOrder = function(current_list, current_language) {
-  return current_list.concat(current_language).filter(function(value, index, self) { 
+  var bias = L.bias[current_language];
+  return bias.concat(current_list)
+             .concat(current_language)
+             .filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Remove duplicates in the array
   });
 }
