@@ -1481,7 +1481,7 @@ Show.profile.children = function(animal, language) {
   }
   var sons_count = info.children.filter(x => x.gender == "Male").length;
   var daughters_count = info.children.filter(x => x.gender == "Female").length;
-  var message = Show.message.profile_children(animal[language + ".name"], children_count, daughters_count, sons_count, language);
+  var message = Show.message.profile_children(info["name"], children_count, daughters_count, sons_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileChildren(animal["_id"]);
   for (let photo of photos) {
@@ -1575,7 +1575,7 @@ Show.profile.family = function(animal, language) {
   var info = Show.acquirePandaInfo(animal, language);
   var elements = [];
   var photo_divs = [];
-  var message = Show.message.profile_family(animal[language + ".name"], language);
+  var message = Show.message.profile_family(info["name"], language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
   // Start with mom and dad, and then a self photo, and then littermates.
@@ -1727,7 +1727,7 @@ Show.profile.siblings = function(animal, language) {
   }
   var brothers_count = total_siblings.filter(x => x.gender == "Male").length;
   var sisters_count = total_siblings.filter(x => x.gender == "Female").length;
-  var message = Show.message.profile_siblings(animal[language + ".name"], siblings_count, sisters_count, brothers_count, language);
+  var message = Show.message.profile_siblings(info["name"], siblings_count, sisters_count, brothers_count, language);
   elements.push(message);
   var photos = Pandas.searchPhotoProfileSiblings(animal["_id"]);
   for (let photo of photos) {
@@ -1765,8 +1765,9 @@ Show.profile.where = function(animal, language) {
   // Show the locations this panda has been at. Return an array of
   // HTMLElements to insert into the page
   var elements = [];
+  var info = Show.acquirePandaInfo(animal, language);
   var history = Show.acquireLocationList(animal, language);
-  var message = Show.message.profile_where(animal[language + ".name"], language);
+  var message = Show.message.profile_where(info["name"], language);
   elements.push(message);
   // Start at the current zoo, and work backwards
   var container = document.createElement('div');
