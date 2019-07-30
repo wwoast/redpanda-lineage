@@ -221,6 +221,7 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
 // Create a profile page frame for a single animal, give it a nametag, and
 // additionally, give it a relationship value.
 Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationship, frame_class) {
+  var info = Show.acquirePandaInfo(animal, language);
   // The overall container
   var container = document.createElement('div');
   container.className = "photoSample";
@@ -242,7 +243,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   animal_name.href = "#profile/" + animal["_id"];
   var animal_text = document.createElement('h5');
   animal_text.className = "caption familyName";
-  animal_text.innerText = animal[language + ".name"];
+  animal_text.innerText = info["name"];
   animal_name.appendChild(animal_text);
   animal_name.addEventListener("click", Show.button.top.action);
   container.appendChild(animal_name);
