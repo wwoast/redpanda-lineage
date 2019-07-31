@@ -3,9 +3,9 @@ _id: 194
 birthday: 2016/6/15
 birthplace: 50
 children: none
-en.name: Luca
+en.name: Luka
 en.nicknames: none
-en.othernames: Luka
+en.othernames: Luca
 gender: f
 jp.name: ルカ
 jp.nicknames: none
@@ -148,5 +148,9 @@ photo.34: https://www.instagram.com/p/B0Ply_ahohy/media/?size=m
 photo.34.author: pantasanzoo1
 photo.34.link: https://www.instagram.com/pantasanzoo1/
 photo.34.tags: flowers, smile, tongue
+photo.35: https://www.instagram.com/p/B0i6fz8BHo5/media/?size=m
+photo.35.author: sakikukeco
+photo.35.link: https://www.instagram.com/sakikukeco/
+photo.35.tags: portrait
 species: 2
 zoo: 50
