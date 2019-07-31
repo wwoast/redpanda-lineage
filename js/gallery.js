@@ -474,6 +474,18 @@ Gallery.tagPhotoCredits = function(result, language) {
   return content_divs;
 }
 
+// Make a gallery out of newly added photos, for the front page.
+// Choose five pandas from the list of updated photos at random.
+Gallery.updatedNewPhotoCredits = function(language) {
+  var new_photos_div = [];
+  // If any photo locators also describe a new author/new entity,
+  // only display those in their own section. Filter them out here.
+  var photo_locators = P.db["_updates"].photos
+    .filter(locator => P.db["_updates"].entities.indexOf(locator) != -1)
+    .filter(locator => P.db["_updates"].authors.indexOf(locator) != -1);
+  var photos = 
+}
+
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
