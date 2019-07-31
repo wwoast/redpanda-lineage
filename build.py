@@ -677,6 +677,7 @@ class UpdateFromCommits:
         config = configparser.ConfigParser()
         # git diff filenames are not real filesystem names
         filename = filename.replace("a/", "./", 1)
+        print(filename)
         config.read(filename, encoding='utf-8')
         if filename.find(MEDIA_PATH) != -1:
             return config.get("media", "_id")
