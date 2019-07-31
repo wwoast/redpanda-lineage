@@ -665,6 +665,8 @@ class UpdateFromCommits:
         if entity_id == None:
             # Cache the entity id associated with a file
             entity_id = self._read_update_entity_id(filename)
+            if entity_id == None:   # File was moved
+                return None
             self.filenames[filename] = entity_id
         return entity_id + ".photo." + photo_id
         
@@ -677,7 +679,8 @@ class UpdateFromCommits:
         config = configparser.ConfigParser()
         # git diff filenames are not real filesystem names
         filename = filename.replace("a/", "./", 1)
-        print(filename)
+        if not os.path.exists(filename):
+            return None
         config.read(filename, encoding='utf-8')
         if filename.find(MEDIA_PATH) != -1:
             return config.get("media", "_id")
