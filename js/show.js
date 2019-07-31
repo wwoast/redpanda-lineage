@@ -454,9 +454,51 @@ Show.update = function(new_contents, container=undefined, container_class, conta
   return container;
 }
 
+// Make a safe URL (no reflection issues)
+Show.qrcodeHashSafe = function() {
+  var in_hash = window.location.hash;
+  var out_hash = undefined;
+  var parts = in_hash.split("/");
+  var profile = undefined;
+  var panda_id = undefined;
+  var sub_hash = undefined;
+  var photo_id = undefined;
+  if (parts.length >= 4) {
+    profile = parts[0];
+    panda_id = parts[1];
+    sub_hash = parts[2];
+    photo_id = parts[3];
+    if ((parseInt(panda_id) <= 0) || 
+        (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
+      panda_id = '1';
+    }
+    if ((parseInt(photo_id) <= 0) || 
+        (parseInt(photo_id) > parseInt(P.db["_photo"].entity_max))) {
+      photo_id = '1'
+    }
+    out_hash = profile + "/" + panda_id + "/" + sub_hash + "/" + photo_id;
+  }
+  else if ((parts.length <= 3) && (parts.length >= 2)) {
+    profile = parts[0];
+    panda_id = parts[1];
+    sub_hash = '';
+    photo_id = '';
+    if ((parseInt(panda_id) <= 0) || 
+        (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
+      panda_id = '1';
+    }
+    out_hash = profile + "/" + panda_id;
+  } else {
+    out_hash = '';
+  }
+  return out_hash;
+}
+
 // Construct a QR code out of the current page URL.
 Show.qrcodeImage = function() {
-  var img = showQRCode(window.location.toString());
+  var safe_hash = Show.qrcodeHashSafe();
+  var safe_url = "https://" + window.location.host + "/" + safe_hash;
+  var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
   var tld = document.createElement('span');
@@ -469,7 +511,7 @@ Show.qrcodeImage = function() {
   qrcode.appendChild(qrimg);
   var qrHashLink = document.createElement('span');
   qrHashLink.className = "qrcodeText";
-  qrHashLink.innerText = window.location.hash;
+  qrHashLink.innerText = safe_hash;
   qrcode.appendChild(qrHashLink);
   return qrcode;
 }
