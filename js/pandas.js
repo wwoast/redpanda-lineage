@@ -1153,7 +1153,7 @@ Pandas.locationZoo = function(animal) {
 Pandas.locatorsToPhotos = function(locators) {
   photos = [];
   for (let locator of locators) {
-    photos.append(locatorToPhoto(locator));
+    photos.push(Pandas.locatorToPhoto(locator));
   }
   return photos;
 }
@@ -1169,10 +1169,10 @@ Pandas.locatorToPhoto = function(locator) {
   var entity = undefined;
   if (entity_type == "media") {
     entity_id = parts[0] + "." + parts[1] + "." + parts[2];
-    entity = Pandas.searchPandaMedia(entity_id)[0];
+    entity = Pandas.searchPandaId(entity_id)[0];
   }
-  else if (entity_type = "zoo") {
-    entity_id = str(parseInt(parts[1]) * -1);
+  else if (entity_type == "zoo") {
+    entity_id = parseInt(parts[1] * -1).toString();
     entity = Pandas.searchZooId(entity_id)[0];
   }
   else {

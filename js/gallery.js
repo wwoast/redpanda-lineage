@@ -481,9 +481,10 @@ Gallery.updatedNewPhotoCredits = function(language) {
   // If any photo locators also describe a new author/new entity,
   // only display those in their own section. Filter them out here.
   var photo_locators = P.db["_updates"].photos
-    .filter(locator => P.db["_updates"].entities.indexOf(locator) != -1)
-    .filter(locator => P.db["_updates"].authors.indexOf(locator) != -1);
-  var photos = 
+    .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
+    .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1);
+  var photos = Pandas.locatorsToPhotos(photo_locators);
+  return photos;
 }
 
 // Take a zoo, and return the photo. Assumes that you have a match
