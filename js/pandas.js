@@ -353,6 +353,21 @@ Pandas.shuffle = function(array) {
   return array;
 }
 
+// Enforce uniqueness on members of array-dicts, based on a field
+Pandas.unique = function(array, field) {
+  var seen = {};
+  for (let i = 0; i < array.length; i++) {
+    value = array[i][field];
+    if (value in seen) {
+      array.splice(i, 1);
+      i--;
+    } else {
+      seen[value] = true;
+    }
+  }
+  return array;
+}
+
 /*
     Methods for searching on Red Pandas
 */
