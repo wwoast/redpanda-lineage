@@ -252,6 +252,8 @@ Page.home.render = function() {
     }
     var memorial = Gallery.memorialPhotoCredits(L.display, ["14", "123"])
     new_content.appendChild(memorial);
+    var new_photos = Gallery.updatedNewPhotoCredits(L.display);
+    new_content.appendChild(new_photos);
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");

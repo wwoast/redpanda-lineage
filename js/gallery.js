@@ -342,8 +342,6 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
   for (let id of id_list) {
     var animal = Pandas.searchPandaId(id)[0];
     var info = Show.acquirePandaInfo(animal, language);
-    var years_old = Pandas.ageYears(animal);
-    // Post the memorial message (with age in years)
     var message = Show.message.memorial(info.name, info.id, info.birthday, info.death, language);
     memorial_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
@@ -476,15 +474,52 @@ Gallery.tagPhotoCredits = function(result, language) {
 
 // Make a gallery out of newly added photos, for the front page.
 // Choose five pandas from the list of updated photos at random.
-Gallery.updatedNewPhotoCredits = function(language) {
-  var new_photos_div = [];
+Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
+  var new_photos_div = document.createElement('div');
   // If any photo locators also describe a new author/new entity,
   // only display those in their own section. Filter them out here.
   var photo_locators = P.db["_updates"].photos
     .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
     .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1);
   var photos = Pandas.locatorsToPhotos(photo_locators);
-  return photos;
+  var message = Show.message.new_photos_this_week(P.db["_totals"]["updates"].photos, language);
+  new_photos_div.appendChild(message);
+  for (let item of Pandas.shuffle(photos).splice(0, photo_count)) {
+    var photo = item.photo;
+    var animal = Pandas.searchPandaId(item.id)[0];
+    var info = Show.acquirePandaInfo(animal, L.display);
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = photo;
+    img_link.href = img_link.href.replace("/media/?size=m", "/");
+    img_link.href = img_link.href.replace("/media/?size=l", "/");
+    img_link.target = "_blank";   // Open in new tab
+    var img = document.createElement('img');
+    img.src = photo;
+    img.src = img.src.replace('/?size=m', '/?size=t');
+    img.src = img.src.replace('/?size=l', '/?size=t');
+    img_link.appendChild(img);
+    var caption_link = document.createElement('a');
+    // TODO: better handling of group photos
+    if (item.id.indexOf("media.") != 0) {
+      caption_link.href = "#panda/" + item.id + "/photo/" + item.index;
+    }
+    var caption = document.createElement('h5');
+    caption.className = "caption";
+    // TODO: handling of names of group pandas
+    if (item.id.indexOf("media.") == 0) {
+      caption.innerText = Pandas.groupMediaCaption(animal, item.index);
+    } else {
+      caption.innerText = info.name;
+    }
+    caption_link.appendChild(caption);
+    var container = document.createElement('div');
+    container.className = "photoSample";
+    container.appendChild(img_link);
+    container.appendChild(caption_link);
+    new_photos_div.appendChild(container);
+  }
+  return new_photos_div;
 }
 
 // Take a zoo, and return the photo. Assumes that you have a match
