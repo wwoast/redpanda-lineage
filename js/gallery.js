@@ -486,8 +486,6 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
   new_photos_div.appendChild(message);
   for (let item of Pandas.shuffle(photos).splice(0, photo_count)) {
     var photo = item.photo;
-    var animal = Pandas.searchPandaId(item.id)[0];
-    var info = Show.acquirePandaInfo(animal, L.display);
     var img_link = document.createElement('a');
     // Link to the original instagram media
     img_link.href = photo;
@@ -507,9 +505,11 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
     var caption = document.createElement('h5');
     caption.className = "caption";
     // TODO: handling of names of group pandas
+    var animal = Pandas.searchPandaId(item.id)[0];  
     if (item.id.indexOf("media.") == 0) {
-      caption.innerText = Pandas.groupMediaCaption(animal, item.index);
+      caption.innerText = Pandas.groupMediaCaption(animal, "photo." + item.index);
     } else {
+      var info = Show.acquirePandaInfo(animal, L.display);
       caption.innerText = info.name;
     }
     caption_link.appendChild(caption);
