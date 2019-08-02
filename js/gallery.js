@@ -503,7 +503,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
       caption_link.href = "#panda/" + item.id + "/photo/" + item.index;
     }
     var caption = document.createElement('h5');
-    caption.className = "caption";
+    caption.className = "caption updateName";
     // TODO: handling of names of group pandas
     var animal = Pandas.searchPandaId(item.id)[0];  
     if (item.id.indexOf("media.") == 0) {
@@ -512,7 +512,13 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
       var info = Show.acquirePandaInfo(animal, L.display);
       caption.innerText = info.name;
     }
+    var author = document.createElement('h5');
+    author.className = "caption updateAuthor";
+    var author_span = document.createElement('span');
+    author_span.innerText = L.emoji.camera + " " + item.credit;
+    author.appendChild(author_span);
     caption_link.appendChild(caption);
+    caption_link.appendChild(author);
     var container = document.createElement('div');
     container.className = "photoSample";
     container.appendChild(img_link);

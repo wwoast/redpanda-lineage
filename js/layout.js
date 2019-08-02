@@ -177,6 +177,7 @@ Layout.shrinkNames = function() {
   var link_nodes = document.getElementsByClassName("geneaologyListName");
   var birthday_nodes = document.getElementsByClassName("caption birthdayMessage");
   var memorial_nodes = document.getElementsByClassName("caption memorialMessage");
+  var author_nodes = document.getElementsByClassName("caption updateAuthor");
   for (let link of link_nodes) {
     shrinker(link, 1, "outer", 120, 138);
   }
@@ -184,6 +185,9 @@ Layout.shrinkNames = function() {
     action(caption, 0, "inner", 130, 140);
   }
   for (let caption of memorial_nodes) {
+    action(caption, 0, "inner", 130, 140);
+  }
+  for (let caption of author_nodes) {
     action(caption, 0, "inner", 130, 140);
   }
 }
