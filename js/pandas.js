@@ -353,6 +353,21 @@ Pandas.shuffle = function(array) {
   return array;
 }
 
+// Enforce uniqueness on members of array-dicts, based on a field
+Pandas.unique = function(array, field) {
+  var seen = {};
+  for (let i = 0; i < array.length; i++) {
+    value = array[i][field];
+    if (value in seen) {
+      array.splice(i, 1);
+      i--;
+    } else {
+      seen[value] = true;
+    }
+  }
+  return array;
+}
+
 /*
     Methods for searching on Red Pandas
 */
@@ -1147,6 +1162,48 @@ Pandas.locationZoo = function(animal) {
     "end_date": animal["death"]
   }];
   return locations;
+}
+
+// Get a list of photos given a list of photo locators
+Pandas.locatorsToPhotos = function(locators) {
+  photos = [];
+  for (let locator of locators) {
+    photos.push(Pandas.locatorToPhoto(locator));
+  }
+  return photos;
+}
+
+// Locators are of the form "entity.EID.photo.PID". Resolve these into the
+// corresponding animal photo.
+Pandas.locatorToPhoto = function(locator) {
+  var parts = locator.split(".");
+  var photo_id = parts[parts.length - 1];
+  // Given the entity type, convert to the proper media/panda/zoo
+  var entity_type = parts[0];
+  var entity_id = undefined;
+  var entity = undefined;
+  if (entity_type == "media") {
+    entity_id = parts[0] + "." + parts[1] + "." + parts[2];
+    entity = Pandas.searchPandaId(entity_id)[0];
+  }
+  else if (entity_type == "zoo") {
+    entity_id = parseInt(parts[1] * -1).toString();
+    entity = Pandas.searchZooId(entity_id)[0];
+  }
+  else {
+    entity_id = parts[1];
+    entity = Pandas.searchPandaId(entity_id)[0];
+  }
+  // Get the photo for this entity
+  var choice = "photo." + photo_id;
+  var desired = {
+        "id": entity["_id"],
+     "photo": entity[choice],
+    "credit": entity[choice + ".author"],
+     "index": photo_id,
+      "link": entity[choice + ".link"]
+  }
+  return desired;
 }
 
 // Given an animal and a chosen language, return details for a red panda.

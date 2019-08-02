@@ -1008,11 +1008,11 @@ ul.tagList.multiColumn {
     column-count: 3;
 }
 
-div.birthdaySummary, div.creditSummary, div.memorialSummary, div.profileSummary, div.tagSummary {
+div.birthdaySummary, div.creditSummary, div.frontPageSummary, div.memorialSummary, div.profileSummary, div.tagSummary {
     text-align: center;
 }
 
-div.birthdaySummary p, div.creditSummary p, div.memorialSummary p, div.profileSummary p, div.tagSummary p {
+div.birthdaySummary p, div.creditSummary p, div.frontPageSummary p, div.memorialSummary p, div.profileSummary p, div.tagSummary p {
     display: inline-block;
     background-color: #9771A7; /* Grapes */
     color: black;   /* default to black text, even if inside an anchor tag */
@@ -1058,17 +1058,22 @@ div.photoSample h5 {
     width: 80%;
 }
 
-div.photoSample h5.caption.familyName {
+div.photoSample h5.caption.familyName, div.photoSample h5.caption.updateName {
     margin-bottom: 0px;
     border-bottom: 0px solid;
     line-height: 2.3ex;
 }
 
-div.photoSample h5.caption.familyTitle {
+div.photoSample h5.caption.familyTitle, div.photoSample h5.caption.updateAuthor {
     background-color: whitesmoke;
     margin-top: 0px;
     border-top: 0px solid;
     line-height: 2.3ex;
+}
+
+div.photoSample h5.caption.updateName, div.photoSample h5.caption.updateAuthor {
+    width: 100%;
+    overflow-x: hidden;
 }
 
 div.photoSample h5.caption.shortMessage {

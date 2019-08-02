@@ -1322,6 +1322,27 @@ Show.message.memorial = function(name, animal_id, birth, death, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.new_photos_this_week = function(count, language) {
+  var p = document.createElement('p');
+  var message = Language.L.messages.new_photos_this_week;
+  for (var i in message[language]) {
+    var field = message[language][i];
+    if (field == "<INSERTNUM>") {
+      var msg = document.createTextNode(count);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "frontPageSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Show.message.profile_children = function(name, children_count, daughters, sons, language) {
   var p = document.createElement('p');
   var babies = 0;

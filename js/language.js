@@ -599,6 +599,15 @@ Language.L.messages = {
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
+  "new_photos_this_week": {
+    "cn": ["<INSERTNUM>",
+           "本新照片本周！"],
+    "en": ["<INSERTNUM>",
+           " new photos this week!"],
+    "jp": ["今週の新着フォト",
+           "<INSERTNUM>",
+           "枚！"]
+  },
   "no_result": {
     "cn": ["没有找到这只小熊猫"],
     "en": ["No Pandas Found"],
