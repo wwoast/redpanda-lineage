@@ -473,8 +473,8 @@ Gallery.tagPhotoCredits = function(result, language) {
 }
 
 // Make a gallery out of newly added photos, for the front page.
-// Choose five pandas from the list of updated photos at random.
-Gallery.updatedNewPhotoCredits = function(language, photo_count=5) {
+// Choose some pandas from the list of updated photos at random.
+Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   var new_photos_div = document.createElement('div');
   // If any photo locators also describe a new author/new entity,
   // only display those in their own section. Filter them out here.
