@@ -848,7 +848,7 @@ Pandas.sortByName = function(nodes, name_field) {
 // name is based on the arrangement of pandas in the photo.
 Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
   nodes = nodes.map(function(node) {
-    if (!(name_field in node)) {
+    if (node["_id"].indexOf("media.") == 0) {
       // Media file. Get the group caption based on your desired photo in the list
       desired_index = photo_list.filter(photo => 
         photo.photo == node["photo." + photo.index])[0].index;
