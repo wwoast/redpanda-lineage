@@ -480,7 +480,8 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   // only display those in their own section. Filter them out here.
   var photo_locators = P.db["_updates"].photos
     .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
-    .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1);
+    .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
+    .filter(locator => locator.indexOf("zoo.") == -1);
   var photos = Pandas.unique(Pandas.locatorsToPhotos(photo_locators), "id");
   var message = Show.message.new_photos_this_week(P.db["_totals"]["updates"].photos, language);
   new_photos_div.appendChild(message);
