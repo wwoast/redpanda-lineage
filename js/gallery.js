@@ -485,6 +485,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   var photos = Pandas.unique(Pandas.locatorsToPhotos(photo_locators), "id");
   var message = Show.message.new_photos_this_week(P.db["_totals"]["updates"].photos, language);
   new_photos_div.appendChild(message);
+  // Just contribution photos
   var selected_photos = Pandas.shuffle(photos).splice(0, photo_count);
   var display_photos = Pandas.sortPhotosByName(selected_photos, language + ".name");
   for (let item of display_photos) {

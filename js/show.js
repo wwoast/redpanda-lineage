@@ -1322,6 +1322,43 @@ Show.message.memorial = function(name, animal_id, birth, death, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.new_photos = function(language) {
+  // Grab update counts
+  var counts = {
+    "contributors": P.db._totals.updates.authors,
+    "entities":  P.db._totals.updates.entites,
+    "photos": P.db._totals.updates.photos,
+    "suffix": 1,   // HACK
+    // Determine panda counts versus zoo counts in the entities
+    "pandas": P.db._updates.entities.filter(p => p.indexOf("panda.") == 0).length,
+    "zoos": P.db._updates.entities.filter(z => z.indexOf("zoo.") == 0).length
+  }
+  var section_order = ["zoos", "pandas", "photos", "contributors", "suffix"];
+  var lookup = Language.L.messages.new_photos;
+  var pieces = [];
+  for (let part of section_order) {
+    var count = counts[part];
+    if (count == 0) {
+      continue;
+    }
+    var message = lookup[part][language];
+    for (var i in message) {
+      var field = message[i];
+      if (field == "<INSERTCOUNT>") {
+        var msg = document.createTextNode(count);
+        pieces.push(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        pieces.push(msg);
+      }
+    }
+  }
+  return pieces;
+  // var p = document.createElement('p');
+  // Combine the pieces with list_commas, except for if there are two or more pieces
+  // TODO: contributor count isn't the photos by new contributors, but the contributor count themselves!
+  // TOWRITE
+}
 Show.message.new_photos_this_week = function(count, language) {
   var p = document.createElement('p');
   var message = Language.L.messages.new_photos_this_week;

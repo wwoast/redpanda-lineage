@@ -599,6 +599,50 @@ Language.L.messages = {
     "en": ["Happy Mother's Day!"],
     "jp": ["母の日おめでとう"]
   },
+  "list_comma": {
+    "cn": "、",
+    "en": ", ",
+    "jp": "、"
+  },
+  "new_photos": {
+    "contributors": {
+      "cn": ["<INSERTCOUNT>",
+             "新贡献者"],
+      "en": ["<INSERTCOUNT>",
+             " new contributors"],
+      "jp": ["<INSERTCOUNT>",
+             "人の新しい貢献者"]
+    },
+    "pandas": {
+      "cn": ["<INSERTCOUNT>",
+             "只新小熊猫"],
+      "en": ["<INSERTCOUNT>",
+             " red pandas"],
+      "jp": ["<INSERTCOUNT>",
+             "つの新しいレッサーパンダ"]
+    },
+    "photos": {
+      "cn": ["<INSERTCOUNT>",
+             "张新照片"], 
+      "en": ["<INSERTCOUNT>",
+             " new photos"],
+      "jp": ["<INSERTCOUNT>",
+             "枚の新しい写真"]
+    },
+    "suffix": {
+      "cn": ["本星期！"],
+      "en": ["this week!"],
+      "jp": ["今週！"]
+    },
+    "zoos": {
+      "cn": ["<INSERTCOUNT>",
+             "个新动物园"],
+      "en": ["<INSERTCOUNT>",
+            " new zoos"],
+      "jp": ["<INSERTCOUNT>",
+             "つの新しい動物園"]
+    }
+  },
   "new_photos_this_week": {
     "cn": ["<INSERTNUM>",
            "本新照片本周！"],
