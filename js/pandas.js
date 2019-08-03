@@ -841,6 +841,16 @@ Pandas.sortByName = function(nodes, name_field) {
   });
 }
 
+Pandas.sortPhotosByName = function(photo_list, name_field) {
+  // photo lists don't have names. So rebuild the animals list and then
+  // arrange the set of items based on the animal list.
+  var animals = photo_list.map(photo => Pandas.searchPandaId(photo.id)[0]);
+  animals = Pandas.sortByName(animals, name_field);
+  var output_list = animals.map(animal =>
+    photo_list.filter(photo => photo.id == animal["_id"])[0]);
+  return output_list;
+}
+
 Pandas.sortYoungestToOldest = function(nodes) {
   return nodes.sort(function(a, b) {
     time_a = parseInt(new Date(a.birthday).getTime());
