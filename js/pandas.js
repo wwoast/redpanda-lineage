@@ -829,6 +829,8 @@ Pandas.searchZooName = function(zoo_name_str) {
     Methods for sorting the output of Panda searches.
     Birthday searches use Unix epoch time and do javascript value sort.
 */
+// Sort a list of pandas by their desired "Lang.name" field.
+// Works for non-group entities (pandas and zoos).
 Pandas.sortByName = function(nodes, name_field) {
   return nodes.sort(function(a, b) {
     if (a[name_field] > b[name_field]) {
@@ -841,11 +843,27 @@ Pandas.sortByName = function(nodes, name_field) {
   });
 }
 
+// Sort a list of pandas including groups. This must include the list of
+// specific photos you're pulling out of the group file, because the group
+// name is based on the arrangement of pandas in the photo.
+Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
+  nodes = nodes.map(function(node) {
+    if (!(name_field in node)) {
+      // Media file. Get the group caption based on your desired photo in the list
+      desired_index = photo_list.filter(photo => 
+        photo.photo == node["photo." + photo.index])[0].index;
+      node[name_field] = Pandas.groupMediaCaption(node, "photo." + desired_index);
+    }
+    return node;
+  });
+  return Pandas.sortByName(nodes, name_field);
+}
+
 Pandas.sortPhotosByName = function(photo_list, name_field) {
   // photo lists don't have names. So rebuild the animals list and then
   // arrange the set of items based on the animal list.
   var animals = photo_list.map(photo => Pandas.searchPandaId(photo.id)[0]);
-  animals = Pandas.sortByName(animals, name_field);
+  animals = Pandas.sortByNameWithGroups(animals, photo_list, name_field);
   var output_list = animals.map(animal =>
     photo_list.filter(photo => photo.id == animal["_id"])[0]);
   return output_list;

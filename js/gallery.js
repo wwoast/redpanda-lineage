@@ -484,7 +484,9 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   var photos = Pandas.unique(Pandas.locatorsToPhotos(photo_locators), "id");
   var message = Show.message.new_photos_this_week(P.db["_totals"]["updates"].photos, language);
   new_photos_div.appendChild(message);
-  for (let item of Pandas.shuffle(photos).splice(0, photo_count)) {
+  var selected_photos = Pandas.shuffle(photos).splice(0, photo_count);
+  var display_photos = Pandas.sortPhotosByName(selected_photos, language + ".name");
+  for (let item of display_photos) {
     var photo = item.photo;
     var img_link = document.createElement('a');
     // Link to the original instagram media
