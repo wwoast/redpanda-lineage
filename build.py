@@ -228,7 +228,7 @@ class RedPandaGraph:
         export['_totals']['pandas'] = self.sum_pandas()
         export['_totals']['locations'] = len(self.wilds) + len(self.zoos)
         export['_totals']['updates'] = {}
-        export['_totals']['updates']['authors'] = len(self.updates['authors'])
+        export['_totals']['updates']['authors'] = self.updates['author_count']
         export['_totals']['updates']['entities'] = len(self.updates['entities'])
         export['_totals']['updates']['photos'] = len(self.updates['photos'])
         export['_totals']['wilds'] = len(self.wilds)
@@ -565,6 +565,7 @@ class UpdateFromCommits:
         self.filenames = {}
         self.updates = {}
         self.updates["authors"] = []
+        self.updates["author_count"] = 0
         self.updates["entities"] = []
         self.updates["photos"] = []
         self.create_updates()
@@ -640,15 +641,22 @@ class UpdateFromCommits:
             if (author_diffs.get(author) == None or
                 author_set.get(author) == None):
                 # We removed a photo contributor
+                author_diffs[author] = 0
                 continue
             if author_diffs[author] != author_set[author]:
-                # print("diffs: " + str(author_diffs[author]) + 
+                # print(author + " diffs: " + str(author_diffs[author]) + 
                 #       " set: " + str(author_set[author]))
                 author_entities.pop(author)
+                author_diffs[author] = 0
         # Now the author_entities list is just authors whose entities are
         # their only photos in redpandafinder. Make the authors list from this
         for entity in author_entities.values():
             self.updates["authors"].extend(entity)
+        # And get the count of unique authors added
+        for author in author_diffs.keys():
+            if author_diffs[author] > 0:
+                # print(author + ": " + str(author_diffs[author]) + " new photos this week")
+                self.updates["author_count"] = self.updates["author_count"] + 1
 
     def _read_raw(self, raw, filename):
         """
