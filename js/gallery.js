@@ -502,13 +502,18 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     var caption = document.createElement('h5');
     caption.className = "caption updateName";
     // TODO: handling of names of group pandas
-    var animal = Pandas.searchPandaId(item.id)[0];  
+    var animal = Pandas.searchPandaId(item.id)[0];
+    var updateName = undefined;
     if (item.id.indexOf("media.") == 0) {
-      caption.innerText = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
     } else {
       var info = Show.acquirePandaInfo(animal, L.display);
-      caption.innerText = info.name;
+      updateName = info.name;
     }
+    if (item.icon_purpose == "name") {
+      updateName = item.icon + " " + updateName;
+    }
+    caption.innerText = updateName;
     var author = document.createElement('h5');
     author.className = "caption updateAuthor";
     var author_span = document.createElement('span');
@@ -579,6 +584,8 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       .filter(panda => Pandas.searchPandaId(panda.id)[0].zoo == zoo_photo.id);
     var sort_zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of sort_zoo_pandas) {
+      zoo_panda.icon = Language.L.emoji.profile;   // heart_panel
+      zoo_panda.icon_purpose = "name";
       output_photos.push(zoo_panda);
       photo_count = photo_count - 1;
     }
