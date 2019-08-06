@@ -3,13 +3,13 @@ _id: 305
 birthday: 2018/8/5
 birthplace: 29
 children: none
-en.name: Yon
+en.name: Mugi
 en.nicknames: none
 en.othernames: Aka-Chan, Akachan, Babu, Yon
 gender: m
-jp.name: 四男
-jp.nicknames: バブ, 赤ちゃん
-jp.othernames: none
+jp.name: 麦
+jp.nicknames: バブ, 赤ちゃん, 四男
+jp.othernames: ムギ
 language.order: jp, en
 litter: none
 photo.1: https://www.instagram.com/p/BqMBnbxFUL1/media/?size=m
@@ -102,7 +102,7 @@ photo.22.tags: mofumofu, surprise
 photo.23: https://www.instagram.com/p/BuJcaMig90I/media/?size=m
 photo.23.author: animal0720
 photo.23.link: https://www.instagram.com/animal0720/
-photo.24: https://www.instagram.com/p/BuXM2qDF0wJ/media/?size=m
+photo.24: https://www.instagram.com/p/B0wb0ooBS9g/media/?size=m
 photo.24.author: kipekaila
 photo.24.link: https://www.instagram.com/kipekaila/
 photo.24.tags: nose, smile
@@ -233,6 +233,10 @@ photo.56: https://www.instagram.com/p/Bzf6_bBhSoU/media/?size=m
 photo.56.author: craig_craig_craig
 photo.56.link: https://www.instagram.com/craig_craig_craig/
 photo.56.tags: bridge, laying down
+photo.57: https://www.instagram.com/p/B0uk-wyBaEa/media/?size=m
+photo.57.author: redpanda_nippon_takashi
+photo.57.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.57.tags: laying down, techitechi
 species: 2
 video.1: https://youtu.be/rYd6QptEbU0
 video.1.author: d_mover
