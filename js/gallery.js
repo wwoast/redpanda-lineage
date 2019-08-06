@@ -476,18 +476,11 @@ Gallery.tagPhotoCredits = function(result, language) {
 // Choose some pandas from the list of updated photos at random.
 Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   var new_photos_div = document.createElement('div');
-  // If any photo locators also describe a new author/new entity,
-  // only display those in their own section. Filter them out here.
-  var photo_locators = P.db["_updates"].photos
-    .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
-    .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
-    .filter(locator => locator.indexOf("zoo.") == -1);
-  var photos = Pandas.unique(Pandas.locatorsToPhotos(photo_locators), "id");
-  var message = Show.message.new_photos_this_week(P.db["_totals"]["updates"].photos, language);
+  var message = Show.message.new_photos_this_week(P.db["_totals"].updates.photos, language);
   new_photos_div.appendChild(message);
-  // Just contribution photos
-  var selected_photos = Pandas.shuffle(photos).splice(0, photo_count);
-  var display_photos = Pandas.sortPhotosByName(selected_photos, language + ".name");
+  // Build a set of photos in the desired sort order: zoos, zoo(pandas),
+  // new contributors, and finally new photos.
+  var display_photos = Gallery.updatedPhotoOrdering(language, photo_count)
   for (let item of display_photos) {
     var photo = item.photo;
     var img_link = document.createElement('a');
@@ -509,17 +502,27 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     var caption = document.createElement('h5');
     caption.className = "caption updateName";
     // TODO: handling of names of group pandas
-    var animal = Pandas.searchPandaId(item.id)[0];  
+    var animal = Pandas.searchPandaId(item.id)[0];
+    var updateName = undefined;
     if (item.id.indexOf("media.") == 0) {
-      caption.innerText = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
     } else {
       var info = Show.acquirePandaInfo(animal, L.display);
-      caption.innerText = info.name;
+      updateName = info.name;
     }
+    if ("name_icon" in item) {
+      updateName = item.name_icon + " " + updateName;
+    }
+    caption.innerText = updateName;
     var author = document.createElement('h5');
     author.className = "caption updateAuthor";
     var author_span = document.createElement('span');
-    author_span.innerText = L.emoji.camera + " " + item.credit;
+    if ("credit_icon" in item) {
+      author_span.innerText = item.credit_icon + " " + item.credit;
+    }
+    else {
+      author_span.innerText = L.emoji.camera + " " + item.credit;
+    }
     author.appendChild(author_span);
     caption_link.appendChild(caption);
     caption_link.appendChild(author);
@@ -530,6 +533,82 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     new_photos_div.appendChild(container);
   }
   return new_photos_div;
+}
+
+// Enforce the photo ordering for photos in the updates list, and select not the
+// complete set of updates/pandas/zoos, but just a single photo for each one.
+Gallery.updatedPhotoOrdering = function(language, photo_count) {
+  // New zoo photos. Include only if there are current pandas at this zoo
+  // that have at least one photo. Take no more zoo photos than we have
+  // budgeted to show in this section
+  var zoo_locators = P.db["_updates"].entities
+    .filter(locator => locator.id.indexOf("zoo.") == 0);
+  var zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "id")
+    .filter(function(photo) {
+      var pandas = Pandas.searchPandaZoo(photo.id)
+        .filter(panda => "photo.1" in panda);
+      return pandas.length() > 0;
+    });
+  zoo_photos = Pandas.shuffle(zoo_photos).splice(0, photo_count);
+  zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
+  // Photos from new contributors
+  var author_locators = P.db["_updates"].authors;
+  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators, "id"));
+  author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
+  author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
+  // New pandas, or new panda group photos
+  var panda_locators = P.db["_updates"].entities
+    .filter(locator => zoo_locators.indexOf(locator) == -1);
+  var panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "id");
+  // Remaining new photos for exisitng pandas. If any photo locators also describe 
+  // a new author/new entity, only display those in their own section. Filter them out here.
+  var update_locators = P.db["_updates"].photos
+    .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
+    .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
+    .filter(locator => locator.indexOf("zoo.") == -1);
+  var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
+  update_photos = Pandas.shuffle(update_photos).splice(0, photo_count);
+  update_photos = Pandas.sortPhotosByName(update_photos, language + ".name");
+  // Now construct the list of photos. For each zoo in alphabetical order, find any
+  // pandas in the panda list for that zoo, with priority to photos from new contributors.
+  // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
+  // display remaining new pandas from the update_photos list in alphabetical order.
+  var output_photos = [];
+  for (let zoo_photo of zoo_photos) {
+    if (photo_count == 0) {
+      return output_photos;
+    }
+    output_photos.push(zoo_photo);
+    // Display updated photos for animals at this zoo first
+    var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
+      .filter(panda => Pandas.searchPandaId(panda.id)[0].zoo == zoo_photo.id);
+    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
+    for (let zoo_panda of zoo_pandas) {
+      zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
+      if (zoo_panda in author_photos) {
+        zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
+      }
+      output_photos.push(zoo_panda);
+      photo_count = photo_count - 1;
+    }
+  }
+  for (let author_photo of author_photos) {
+    if (photo_count == 0) {
+      return output_photos;
+    }
+    author_photo.credit_icon = Language.L.emoji.giftwrap;
+    output_photos.push(author_photo);
+    photo_count = photo_count - 1;
+  }
+  for (let update_photo of update_photos) {
+    if (photo_count == 0) {
+      return output_photos;
+    }
+    output_photos.push(update_photo);
+    photo_count = photo_count - 1;
+  }
+  // If somehow we didn't exhaust the entire possible set of photos already
+  return output_photos;
 }
 
 // Take a zoo, and return the photo. Assumes that you have a match

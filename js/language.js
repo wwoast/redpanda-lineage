@@ -115,6 +115,7 @@ Language.L.emoji = {
         "flower": "🌼",
       "football": "⚽",
           "gift": "🍎",
+      "giftwrap": "🎁",
           "girl": "👧🏻",
        "grandpa": "👴",
         "grumpy": "😠",
