@@ -620,21 +620,22 @@ class UpdateFromCommits:
                 # .txt file with changes
                 for hunk in change:
                     for line in hunk:
-                        raw = line.value
-                        if raw.find("photo.") == 0:
-                            [key, value] = raw.split(":", 1)
-                            if key.find(".author") == len(key) - len(".author"):
-                                # .author line
-                                value = value.strip()   # normalize whitespace
-                                if author_diffs.get(value) == None:
-                                    author_diffs[value] = 0
-                                author_diffs[value] = author_diffs[value] + 1
-                                if author_entities.get(value) == None:
-                                    author_entities[value] = []
-                                # modify the line so it processes
-                                raw = raw.replace(".author", "", 1)
-                                entity_id = self._read_raw(raw, filename)
-                                author_entities[value].append(entity_id)
+                        if line.is_added:
+                            raw = line.value
+                            if raw.find("photo.") == 0:
+                                [key, value] = raw.split(":", 1)
+                                if key.find(".author") == len(key) - len(".author"):
+                                    # .author line
+                                    value = value.strip()   # normalize whitespace
+                                    if author_diffs.get(value) == None:
+                                        author_diffs[value] = 0
+                                    author_diffs[value] = author_diffs[value] + 1
+                                    if author_entities.get(value) == None:
+                                        author_entities[value] = []
+                                    # modify the line so it processes
+                                    raw = raw.replace(".author", "", 1)
+                                    entity_id = self._read_raw(raw, filename)
+                                    author_entities[value].append(entity_id)
         # Remove any author_entities where the diff count in the changelog
         # doesn't match the total count from the source data
         for author in author_diffs.keys():
