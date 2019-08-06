@@ -510,15 +510,15 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
       var info = Show.acquirePandaInfo(animal, L.display);
       updateName = info.name;
     }
-    if (item.icon_purpose == "name") {
-      updateName = item.icon + " " + updateName;
+    if ("name_icon" in item) {
+      updateName = item.name_icon + " " + updateName;
     }
     caption.innerText = updateName;
     var author = document.createElement('h5');
     author.className = "caption updateAuthor";
     var author_span = document.createElement('span');
-    if (item.icon_purpose == "author") {
-      author_span.innerText = item.icon + " " + item.credit;
+    if ("credit_icon" in item) {
+      author_span.innerText = item.credit_icon + " " + item.credit;
     }
     else {
       author_span.innerText = L.emoji.camera + " " + item.credit;
@@ -550,12 +550,12 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       return pandas.length() > 0;
     });
   zoo_photos = Pandas.shuffle(zoo_photos).splice(0, photo_count);
-  var sort_zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
+  zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
   // Photos from new contributors
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators, "id"));
   author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
-  var sort_author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
+  author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
   // New pandas, or new panda group photos
   var panda_locators = P.db["_updates"].entities
     .filter(locator => zoo_locators.indexOf(locator) == -1);
@@ -568,13 +568,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => locator.indexOf("zoo.") == -1);
   var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
   update_photos = Pandas.shuffle(update_photos).splice(0, photo_count);
-  var sort_update_photos = Pandas.sortPhotosByName(update_photos, language + ".name");
+  update_photos = Pandas.sortPhotosByName(update_photos, language + ".name");
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
   // display remaining new pandas from the update_photos list in alphabetical order.
   var output_photos = [];
-  for (let zoo_photo of sort_zoo_photos) {
+  for (let zoo_photo of zoo_photos) {
     if (photo_count == 0) {
       return output_photos;
     }
@@ -582,24 +582,25 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     // Display updated photos for animals at this zoo first
     var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
       .filter(panda => Pandas.searchPandaId(panda.id)[0].zoo == zoo_photo.id);
-    var sort_zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
-    for (let zoo_panda of sort_zoo_pandas) {
-      zoo_panda.icon = Language.L.emoji.profile;   // heart_panel
-      zoo_panda.icon_purpose = "name";
+    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
+    for (let zoo_panda of zoo_pandas) {
+      zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
+      if (zoo_panda in author_photos) {
+        zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
+      }
       output_photos.push(zoo_panda);
       photo_count = photo_count - 1;
     }
   }
-  for (let author_photo of sort_author_photos) {
+  for (let author_photo of author_photos) {
     if (photo_count == 0) {
       return output_photos;
     }
-    author_photo.icon = Language.L.emoji.giftwrap;
-    author_photo.icon_purpose = "author";
+    author_photo.credit_icon = Language.L.emoji.giftwrap;
     output_photos.push(author_photo);
     photo_count = photo_count - 1;
   }
-  for (let update_photo of sort_update_photos) {
+  for (let update_photo of update_photos) {
     if (photo_count == 0) {
       return output_photos;
     }
