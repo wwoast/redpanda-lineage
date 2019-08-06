@@ -512,7 +512,12 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     var author = document.createElement('h5');
     author.className = "caption updateAuthor";
     var author_span = document.createElement('span');
-    author_span.innerText = L.emoji.camera + " " + item.credit;
+    if (item.icon_purpose == "author") {
+      author_span.innerText = item.icon + " " + item.credit;
+    }
+    else {
+      author_span.innerText = L.emoji.camera + " " + item.credit;
+    }
     author.appendChild(author_span);
     caption_link.appendChild(caption);
     caption_link.appendChild(author);
@@ -582,6 +587,8 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (photo_count == 0) {
       return output_photos;
     }
+    author_photo.icon = Language.L.emoji.giftwrap;
+    author_photo.icon_purpose = "author";
     output_photos.push(author_photo);
     photo_count = photo_count - 1;
   }
