@@ -3,6 +3,7 @@ _id: 196
 birthday: 2001/6/19
 birthplace: 12
 children: none
+death: 2019/8/2
 en.name: Dale
 en.nicknames: none
 en.othernames: none
@@ -22,7 +23,7 @@ photo.2.link: https://www.instagram.com/minatomirai215/
 photo.3: https://www.instagram.com/p/BjUc1h5F_ll/media/?size=m
 photo.3.author: minatomirai215
 photo.3.link: https://www.instagram.com/minatomirai215/
-photo.3.tags: smile
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/Bppaf-UFwGx/media/?size=m
 photo.4.author: minatomirai215
 photo.4.link: https://www.instagram.com/minatomirai215/
@@ -30,11 +31,11 @@ photo.4.tags: laying down
 photo.5: https://www.instagram.com/p/BrXSIs1lyqn/media/?size=m
 photo.5.author: framereim
 photo.5.link: https://www.instagram.com/framereim/
-photo.5.tags: profile
+photo.5.tags: portrait, profile
 photo.6: https://www.instagram.com/p/BuLcJoLFCtw/media/?size=m
 photo.6.author: mofu_pan
 photo.6.link: https://www.instagram.com/mofu_pan/
-photo.6.tags: smile
+photo.6.tags: portrait, smile
 photo.7: https://www.instagram.com/p/By2ydTaBmrr/media/?size=m
 photo.7.author: pantasanzoo1
 photo.7.link: https://www.instagram.com/pantasanzoo1/

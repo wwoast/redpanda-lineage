@@ -250,7 +250,7 @@ Page.home.render = function() {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
     }
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["14", "123"])
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["196", "191"])
     new_content.appendChild(memorial);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
