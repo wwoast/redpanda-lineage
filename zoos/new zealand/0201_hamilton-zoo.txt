@@ -1,0 +1,9 @@
+[zoo]
+_id: 201
+en.address: 183 Brymer Rd, Baverstock, Hamilton 3289, New Zealand
+en.location: Baverstock, Hamilton, New Zealand
+en.name: Hamilton Zoo
+flag: New Zealand
+language.order: en
+map: https://g.page/HamiltonZooNZ?share
+website: https://hamiltonzoo.co.nz/

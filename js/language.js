@@ -207,6 +207,7 @@ Language.L.flags = {
      "Mexico": "🇲🇽",
       "Nepal": "🇳🇵",
 "Netherlands": "🇳🇱",
+"New Zealand": "🇳🇿",
      "Poland": "🇵🇱",
      "Russia": "🇷🇺",
    "Slovakia": "🇸🇰",
