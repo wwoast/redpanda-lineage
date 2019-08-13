@@ -6,7 +6,7 @@ children: none
 en.name: Shi-Ren
 en.nicknames: none
 en.othernames: Shiren, Shi-ren
-gender: f
+gender: m
 jp.name: 詩人
 jp.nicknames: none
 jp.othernames: シーレン
@@ -33,5 +33,9 @@ photo.5: https://www.instagram.com/p/BuD83G9FURH/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.link: https://www.instagram.com/daniele.tokyo/
 photo.5.tags: bamboo, smile
+photo.6: https://www.instagram.com/p/B1GdGg7h6S_/media/?size=m
+photo.6.author: daniele.tokyo
+photo.6.link: https://www.instagram.com/daniele.tokyo/
+photo.6.tags: mofumofu, paws, tail
 species: 2
 zoo: 79
