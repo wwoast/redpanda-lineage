@@ -1,16 +1,16 @@
 [panda]
-_id: 958
-birthday: 2019/7/2
-birthplace: 9
+_id: 959
+birthday: 2019/7/18
+birthplace: 61
 children: none
 en.name: Aka-chan
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: ?
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: 957
+litter: none
 species: 2
-zoo: 9
+zoo: 61
