@@ -553,7 +553,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
   // Photos from new contributors
   var author_locators = P.db["_updates"].authors;
-  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators, "id"));
+  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
   author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
   author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
   // New pandas, or new panda group photos
