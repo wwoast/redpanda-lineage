@@ -567,6 +567,11 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
     .filter(locator => locator.indexOf("zoo.") == -1);
   var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
+  // If the author or entity photos have animals represented in the other update photos,
+  // remove them from the update photos to get a broader set of animals shown.
+  update_photos = update_photos.filter(photo => 
+    author_photos.concat(panda_photos).map(others => others["id"])
+    .indexOf(photo["id"]) == -1);
   update_photos = Pandas.shuffle(update_photos).splice(0, photo_count);
   update_photos = Pandas.sortPhotosByName(update_photos, language + ".name");
   // Now construct the list of photos. For each zoo in alphabetical order, find any
