@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 29, 2015/6/29
+location.2: 15, 2019/6/28
 photo.1: https://www.instagram.com/p/BjcPY2zFf2L/media/?size=m
 photo.1.author: mugicha0312
 photo.1.link: https://www.instagram.com/mugicha0312/
@@ -50,5 +52,9 @@ photo.10: https://www.instagram.com/p/By4EQqknfgJ/media/?size=m
 photo.10.author: mochan8686
 photo.10.link: https://www.instagram.com/mochan8686/
 photo.10.tags: mofumofu, portrait, tail, tongue
+photo.11: https://www.instagram.com/p/B1AKNgDBrti/media/?size=m
+photo.11.author: redpanda_nippon_takashi
+photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.11.tags: climb, paws, smile, spider, tail
 species: 2
-zoo: 29
+zoo: 15
