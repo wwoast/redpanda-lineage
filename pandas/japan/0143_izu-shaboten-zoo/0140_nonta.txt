@@ -14,6 +14,7 @@ language.order: jp, en
 litter: none
 location.1: 6, 2012/6/27
 location.2: 15, 2015/1/30
+location.3: 143, 2019/6/20
 photo.1: https://www.instagram.com/p/BoGSkkXB9wn/media/?size=m
 photo.1.author: resapanlove
 photo.1.link: https://www.instagram.com/resapanlove/
@@ -95,4 +96,4 @@ photo.20.author: itsuak
 photo.20.link: https://www.instagram.com/itsuak/
 photo.20.tags: bridge, portrait, tongue
 species: 2
-zoo: 15
+zoo: 143
