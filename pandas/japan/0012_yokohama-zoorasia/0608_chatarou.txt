@@ -4,9 +4,9 @@ birthday: 2003/6/26
 birthplace: 17
 children: none
 death: 2016/10/27
-en.name: Chataro
+en.name: Chatarou
 en.nicknames: none
-en.othernames: Chatarou, Tyatarou, Tyatorou
+en.othernames: Chataro, Tyatarou, Tyatorou
 gender: m
 jp.name: 茶太郎
 jp.nicknames: none
@@ -16,5 +16,9 @@ litter: 191
 location.1: 17, 2003/6/26
 location.2: 28, 2004/4/14
 location.3: 12, 2014/10/27
+photo.1: https://www.instagram.com/p/BMRPmiQAAvR/media/?size=m
+photo.1.author: rnrirhrh
+photo.1.link: https://www.instagram.com/rnrirhrh/
+photo.1.tags: paws, portrait, profile, smile
 species: 2
 zoo: 12
