@@ -30,7 +30,7 @@ photo.4.link: https://www.instagram.com/cattail.sapporo/
 photo.5: https://www.instagram.com/p/BnS3Jytngvc/media/?size=m
 photo.5.author: cattail.sapporo
 photo.5.link: https://www.instagram.com/cattail.sapporo/
-photo.5.tags: laying down, profile
+photo.5.tags: laying down, sleeping
 photo.6: https://www.instagram.com/p/BoDhHzPgWbw/media/?size=m
 photo.6.author: photokaorin
 photo.6.link: https://www.instagram.com/photokaorin/
@@ -291,5 +291,17 @@ photo.75: https://www.instagram.com/p/B0xRflFADjE/media/?size=m
 photo.75.author: cattail.sapporo
 photo.75.link: https://www.instagram.com/cattail.sapporo/
 photo.75.tags: laying down, portrait, smile
+photo.76: https://www.instagram.com/p/B1JH9xchqyU/media/?size=m
+photo.76.author: tama67photo
+photo.76.link: https://www.instagram.com/tama67photo/
+photo.76.tags: paws, portrait, smile
+photo.77: https://www.instagram.com/p/B1JHIzKB1LA/media/?size=m
+photo.77.author: tama67photo
+photo.77.link: https://www.instagram.com/tama67photo/
+photo.77.tags: paws
+photo.78: https://www.instagram.com/p/B1IrmuxhqLa/media/?size=m
+photo.78.author: izu_108
+photo.78.link: https://www.instagram.com/izu_108/
+photo.78.tags: portrait, profile, smile
 species: 2
 zoo: 7

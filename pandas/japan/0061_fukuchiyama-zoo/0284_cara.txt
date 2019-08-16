@@ -40,7 +40,7 @@ photo.6.tags: bamboo, lips
 photo.7: https://www.instagram.com/p/BqhLa5_FuJz/media/?size=m
 photo.7.author: tomo3700
 photo.7.link: https://www.instagram.com/tomo3700/
-photo.7.tags: grumpy, paws, profile
+photo.7.tags: grumpy, paws
 photo.8: https://www.instagram.com/p/BLYf8HvA52x/media/?size=m
 photo.8.author: motohin
 photo.8.link: https://www.instagram.com/motohin/
@@ -65,5 +65,17 @@ photo.13: https://www.instagram.com/p/B05x3TEBjpg/media/?size=m
 photo.13.author: leonard_redmof
 photo.13.link: https://www.instagram.com/leonard_redmof/
 photo.13.tags: dish, ear, paws, portrait, smile
+photo.14: https://www.instagram.com/p/BzvFxXulho3/media/?size=m
+photo.14.author: capylife_
+photo.14.link: https://www.instagram.com/capylife_/
+photo.14.tags: ear, laying down, portrait, profile
+photo.15: https://www.instagram.com/p/BvFX9uiFTy9/media/?size=m
+photo.15.author: redpanda_nippon_takashi
+photo.15.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.15.tags: ear, paws, portrait
+photo.16: https://www.instagram.com/p/B0xRHfcBhXv/media/?size=m
+photo.16.author: love__mitarashi
+photo.16.link: https://www.instagram.com/love__mitarashi/
+photo.16.tags: ear, portrait, shedding, tail
 species: 2
 zoo: 61
