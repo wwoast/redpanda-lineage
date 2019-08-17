@@ -556,11 +556,11 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id")
     .filter(photo => photo.type != "zoo");
   author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
-  author_photos_count = author_photos.length;
   if (author_photos_count > 3) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_photos = Pandas.unique(author_photos, "credit");
   }
+  author_photos_count = author_photos.length;
   author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
   // New pandas, or new panda group photos
   var panda_locators = P.db["_updates"].entities
