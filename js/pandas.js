@@ -1241,7 +1241,8 @@ Pandas.locatorToPhoto = function(locator) {
      "photo": entity[choice],
     "credit": entity[choice + ".author"],
      "index": photo_id,
-      "link": entity[choice + ".link"]
+      "link": entity[choice + ".link"],
+      "type": entity_type
   }
   return desired;
 }

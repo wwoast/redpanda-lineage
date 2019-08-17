@@ -551,9 +551,10 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     });
   zoo_photos = Pandas.shuffle(zoo_photos).splice(0, photo_count);
   zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
-  // Photos from new contributors
+  // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
-  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
+  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id")
+    .filter(photo => photo.type != "zoo");
   author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
   author_photos_count = author_photos.length;
   if (author_photos_count > 3) {
