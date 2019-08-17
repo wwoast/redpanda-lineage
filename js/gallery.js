@@ -549,23 +549,23 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
         .filter(panda => "photo.1" in panda);
       return pandas.length() > 0;
     });
-  zoo_photos = Pandas.shuffle(zoo_photos).splice(0, photo_count);
-  zoo_photos = Pandas.sortPhotosByName(zoo_photos, language + ".name");
+  var zoo_chosen = Pandas.shuffle(zoo_photos).splice(0, photo_count);
+  zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id")
     .filter(photo => photo.type != "zoo");
-  author_photos = Pandas.shuffle(author_photos).splice(0, photo_count);
-  if (author_photos.length > 3) {
+  var author_chosen = Pandas.shuffle(author_photos).splice(0, photo_count);
+  if (author_chosen.length > 3) {
     // If too many new people contributing photos, reduce down to one per contributor
-    author_photos = Pandas.unique(author_photos, "credit");
+    author_chosen = Pandas.unique(author_chosen, "credit");
   }
-  author_photos_count = author_photos.length;   // Final author photos count
-  author_photos = Pandas.sortPhotosByName(author_photos, language + ".name");
+  author_chosen = Pandas.sortPhotosByName(author_chosen, language + ".name");
   // New pandas, or new panda group photos
   var panda_locators = P.db["_updates"].entities
     .filter(locator => zoo_locators.indexOf(locator) == -1);
   var panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "id");
+  var panda_chosen = panda_photos;   // No change
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
   var update_locators = P.db["_updates"].photos
@@ -575,18 +575,18 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
   // If the author or entity photos have animals represented in the other update photos,
   // remove them from the update photos to get a broader set of animals shown.
-  update_count = photo_count - panda_photos.length - author_photos.length;
+  var update_count = photo_count - panda_chosen.length - author_chosen.length;
   update_photos = update_photos.filter(photo => 
     author_photos.concat(panda_photos).map(others => others["id"])
     .indexOf(photo["id"]) == -1);
-  update_photos = Pandas.shuffle(update_photos).splice(0, update_count);
-  update_photos = Pandas.sortPhotosByName(update_photos, language + ".name");
+  var update_chosen = Pandas.shuffle(update_photos).splice(0, update_count);
+  update_chosen = Pandas.sortPhotosByName(update_chosen, language + ".name");
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
   // display remaining new pandas from the update_photos list in alphabetical order.
   var output_photos = [];
-  for (let zoo_photo of zoo_photos) {
+  for (let zoo_photo of zoo_chosen) {
     if (photo_count == 0) {
       return output_photos;
     }
@@ -604,7 +604,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       photo_count = photo_count - 1;
     }
   }
-  for (let author_photo of author_photos) {
+  for (let author_photo of author_chosen) {
     if (photo_count == 0) {
       return output_photos;
     }
@@ -612,7 +612,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     output_photos.push(author_photo);
     photo_count = photo_count - 1;
   }
-  for (let update_photo of update_photos) {
+  for (let update_photo of update_chosen) {
     if (photo_count == 0) {
       return output_photos;
     }
