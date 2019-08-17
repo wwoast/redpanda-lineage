@@ -542,7 +542,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   // that have at least one photo. Take no more zoo photos than we have
   // budgeted to show in this section
   var zoo_locators = P.db["_updates"].entities
-    .filter(locator => locator.id.indexOf("zoo.") == 0);
+    .filter(locator => locator.indexOf("zoo.") == 0);
   var zoo_photos = Pandas.unique(Pandas.locatorsToPhotos(zoo_locators), "id")
     .filter(function(photo) {
       var pandas = Pandas.searchPandaZoo(photo.id)
