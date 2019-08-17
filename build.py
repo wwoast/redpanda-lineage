@@ -577,12 +577,12 @@ class UpdateFromCommits:
         """
         # Grab the last JSON file for author data
         for change in self.patch:
-            filename = change.source_file
+            filename = change.path
             if change.added <= 0:
                 # Don't care about removal diffs
                 continue
             elif filename.find(".txt") == -1:
-                # Don't care about non-config files
+                # Don't care about non-data files
                 continue
             elif change.is_added_file == True:
                 # New [media|panda|zoo]! Track change as representing a new entity
@@ -614,7 +614,7 @@ class UpdateFromCommits:
         author_diffs = {}
         author_entities = {}
         for change in self.patch:
-            filename = change.source_file
+            filename = change.path
             if (filename.find(".txt") == len(filename) - len(".txt") and
                 change.added >= 0):
                 # .txt file with changes
@@ -686,11 +686,10 @@ class UpdateFromCommits:
         "panda" or "zoo" prefixed to the _id value itself.
         """
         config = configparser.ConfigParser()
-        # git diff filenames are not real filesystem names
-        filename = filename.replace("a/", "./", 1)
         if not os.path.exists(filename):
             return None
         config.read(filename, encoding='utf-8')
+        filename = "./" + filename   # Standardize path
         if filename.find(MEDIA_PATH) != -1:
             return config.get("media", "_id")
         elif filename.find(PANDA_PATH) != -1:
