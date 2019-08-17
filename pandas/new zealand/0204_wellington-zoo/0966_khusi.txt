@@ -1,0 +1,18 @@
+[panda]
+_id: 966
+birthday: 2014/1/12
+birthplace: 201
+children: none
+en.name: Khusi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クシ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 965
+location.1: 201, 2014/1/12
+location.2: 204, 2015/3/24
+species: 1
+zoo: 204

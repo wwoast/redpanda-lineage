@@ -1,0 +1,9 @@
+[zoo]
+_id: 203
+en.address: Motions Rd, Auckland 1022, New Zealand
+en.location: Auckland, New Zealand
+en.name: Auckland Zoo
+flag: New Zealand
+language.order: en
+map: https://goo.gl/maps/nPrSb68L4jqgr9R46
+website: https://www.aucklandzoo.co.nz/

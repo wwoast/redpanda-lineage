@@ -1,0 +1,22 @@
+[panda]
+_id: 965
+birthday: 2014/1/12
+birthplace: 201
+children: none
+en.name: Khela
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 966
+location.1: 201, 2014/1/12
+location.2: 203, 2017/9/4
+photo.1: https://www.instagram.com/p/BWt_mX0Aa1j/media/?size=m
+photo.1.author: ashy_sanders
+photo.1.link: https://www.instagram.com/ashy_sanders/
+photo.1.tags: lunch time, profile, smile
+species: 1
+zoo: 203

@@ -210,6 +210,7 @@ Language.L.flags = {
 "New Zealand": "🇳🇿",
      "Poland": "🇵🇱",
      "Russia": "🇷🇺",
+  "Singapore": "🇸🇬",
    "Slovakia": "🇸🇰",
 "South Korea": "🇰🇷",
       "Spain": "🇪🇸",

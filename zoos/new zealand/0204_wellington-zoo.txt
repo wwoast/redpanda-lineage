@@ -1,0 +1,9 @@
+[zoo]
+_id: 204
+en.address: 200 Daniell St, Newtown, Wellington 6021, New Zealand
+en.location: Wellington, New Zealand
+en.name: Wellington Zoo
+flag: New Zealand
+language.order: en
+map: https://goo.gl/maps/gMmRuzMYTFQajWTaA
+website: https://wellingtonzoo.com/

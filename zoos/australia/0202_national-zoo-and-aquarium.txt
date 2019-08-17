@@ -1,0 +1,9 @@
+[zoo]
+_id: 202
+en.address: 999 Lady Denman Dr, Yarralumla ACT 2611, Australia
+en.location: Yarralumla, Australian Capital Territory, Australia
+en.name: National Zoo & Aquarium
+flag: Australia
+language.order: en
+map: https://g.page/CanberraZoo
+website: https://nationalzoo.com.au/

@@ -6,4 +6,7 @@ en.name: Hamilton Zoo
 flag: New Zealand
 language.order: en
 map: https://g.page/HamiltonZooNZ?share
+photo.1: https://www.instagram.com/p/Br_u0obFPRs/media/?size=m
+photo.1.author: hamiltonzoo
+photo.1.link: https://www.instagram.com/hamiltonzoo/
 website: https://hamiltonzoo.co.nz/

@@ -1,0 +1,24 @@
+[panda]
+_id: 971
+birthday: 2015/1/1
+birthplace: 201
+children: none
+en.name: Jamuna
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジャムナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 972
+photo.1: https://www.instagram.com/p/BjrYgE6BtqW/media/?size=m
+photo.1.author: hamiltonzoo
+photo.1.link: https://www.instagram.com/hamiltonzoo/
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/ByrU_K6JC4U/media/?size=m
+photo.2.author: hamiltonzoo
+photo.2.link: https://www.instagram.com/hamiltonzoo/
+photo.2.tags: flowers, smile
+species: 1
+zoo: 201
