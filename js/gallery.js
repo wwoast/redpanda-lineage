@@ -518,10 +518,10 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     author.className = "caption updateAuthor";
     var author_span = document.createElement('span');
     if ("credit_icon" in item) {
-      author_span.innerText = item.credit_icon + " " + item.credit;
+      author_span.innerText = item.credit_icon + "\xa0" + item.credit;
     }
     else {
-      author_span.innerText = L.emoji.camera + " " + item.credit;
+      author_span.innerText = L.emoji.camera + "\xa0" + item.credit;
     }
     author.appendChild(author_span);
     caption_link.appendChild(caption);
