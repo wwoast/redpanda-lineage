@@ -554,7 +554,6 @@ class UpdateFromCommits:
     def __init__(self):
         self.current_time = int(time.time())
         self.repo = git.Repo(".")
-        # "Long term this will be HEAD~1. Just for testing"
         self.prior_commit = self._starting_commit(COMMIT_AGE)
         self.current_commit = self.repo.commit("HEAD")
         self.diff_raw = self.repo.git.diff(self.prior_commit, 

@@ -14,5 +14,9 @@ language.order: en, jp
 litter: 968, 969
 location.1: 201, 2012/12/20
 location.2: 205, 2014/11/10
+photo.1: https://www.instagram.com/p/BxWOg3knLyj/media/?size=m
+photo.1.author: ejunlow
+photo.1.link: https://www.instagram.com/ejunlow/
+photo.1.tags: portrait
 species: 1
 zoo: 205

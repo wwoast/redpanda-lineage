@@ -2,8 +2,12 @@
 _id: 205
 en.address: 80 Mandai Lake Rd, Singapore 729826
 en.location: Singapore
-en.name: Singapore Zoo
+en.name: River Safari
+en.othernames: Wildlife Reserves Singapore River Safari, Singapore Zoo
 flag: Singapore
 language.order: en
 map: https://goo.gl/maps/YC9SowJPvw5XBHtY7
+photo.1: https://www.instagram.com/p/BpwrdGgldni/media/?size=m
+photo.1.author: gracie_the_papaya
+photo.1.link: https://www.instagram.com/gracie_the_papaya/
 website: https://www.wrs.com.sg/en/singapore-zoo.html

@@ -586,6 +586,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
   // display remaining new pandas from the update_photos list in alphabetical order.
   var output_photos = [];
+  var all_zoo_pandas = [];
   for (let zoo_photo of zoo_chosen) {
     if (photo_count == 0) {
       return output_photos;
@@ -601,12 +602,17 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
         zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
       }
       output_photos.push(zoo_panda);
+      all_zoo_pandas.push(zoo_panda);
       photo_count = photo_count - 1;
     }
   }
   for (let author_photo of author_chosen) {
     if (photo_count == 0) {
       return output_photos;
+    }
+    if (author_photo in all_zoo_pandas) {
+      // Zoo pandas don't show in the new authors section
+      continue;
     }
     author_photo.credit_icon = Language.L.emoji.giftwrap;
     output_photos.push(author_photo);
