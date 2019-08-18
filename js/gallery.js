@@ -476,7 +476,7 @@ Gallery.tagPhotoCredits = function(result, language) {
 // Choose some pandas from the list of updated photos at random.
 Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
   var new_photos_div = document.createElement('div');
-  var message = Show.message.new_photos_this_week(P.db["_totals"].updates.photos, language);
+  var message = Show.message.new_photos(language);
   new_photos_div.appendChild(message);
   // Build a set of photos in the desired sort order: zoos, zoo(pandas),
   // new contributors, and finally new photos.

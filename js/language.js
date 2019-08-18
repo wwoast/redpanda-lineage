@@ -514,6 +514,11 @@ Language.L.messages = {
     "en": " & ",
     "jp": "と"
   },
+  "and_words": {
+    "cn": "和",
+    "en": " and ",
+    "jp": "と"
+  },
   "credit": {
     "cn": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
@@ -634,7 +639,7 @@ Language.L.messages = {
     },
     "suffix": {
       "cn": ["本星期！"],
-      "en": ["this week!"],
+      "en": [" this week!"],
       "jp": ["今週！"]
     },
     "zoos": {
@@ -645,15 +650,6 @@ Language.L.messages = {
       "jp": ["<INSERTCOUNT>",
              "つの新しい動物園"]
     }
-  },
-  "new_photos_this_week": {
-    "cn": ["<INSERTNUM>",
-           "本新照片本周！"],
-    "en": ["<INSERTNUM>",
-           " new photos this week!"],
-    "jp": ["今週の新着フォト",
-           "<INSERTNUM>",
-           "枚！"]
   },
   "no_result": {
     "cn": ["没有找到这只小熊猫"],
@@ -1699,6 +1695,31 @@ Language.capitalNames = function(input) {
     output.push(word);
   });
   return output.join(' ');   // Recombine terms with spaces
+}
+
+// Make a phrase out of parts, with commas and terminal &
+Language.commaPhrase = function(pieces) {
+  var p = document.createElement('p');
+  for (var i = 0; i < pieces.length; i++) {
+    var m = document.createTextNode(pieces[i]);
+    var c = document.createTextNode(Language.L.messages.comma[L.display]);
+    var a = document.createTextNode(Language.L.messages.and_words[L.display]);
+    p.appendChild(m);
+    // Commas
+    if ((i < pieces.length - 3) && (pieces.length > 3)) {
+      p.appendChild(c);
+    }
+    // Comma and "and" for long phrases
+    if ((i == pieces.length - 3) && (pieces.length > 3)) {
+      p.appendChild(c);
+      p.appendChild(a);
+    }
+    // No commas, but just the "and"
+    if ((i == pieces.length - 3) && (pieces.length <= 3)) {
+      p.appendChild(a);
+    }
+  }
+  return p;
 }
 
 // Calculate the current fallback language order for a given info block or entity.

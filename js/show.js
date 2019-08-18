@@ -1333,7 +1333,17 @@ Show.message.new_photos = function(language) {
     "pandas": P.db._updates.entities.filter(p => p.indexOf("panda.") == 0).length,
     "zoos": P.db._updates.entities.filter(z => z.indexOf("zoo.") == 0).length
   }
-  var section_order = ["zoos", "pandas", "photos", "contributors", "suffix"];
+  var section_order = [];
+  if ((counts["zoos" > 0] && counts["pandas"] > 0)) {
+    section_order = ["zoos", "pandas", "contributors", "suffix"];
+  }
+  if (counts["pandas"] > 0 ) {
+    section_order = ["pandas", "contributors", "suffix"];
+  } else if (counts["contributors"] > 0) {
+    section_order = ["contributors", "photos", "suffix"];
+  } else {
+    section_order = ["photos", "suffix"];
+  }
   var lookup = Language.L.messages.new_photos;
   var pieces = [];
   for (let part of section_order) {
@@ -1341,37 +1351,20 @@ Show.message.new_photos = function(language) {
     if (count == 0) {
       continue;
     }
+    var output = "";
     var message = lookup[part][language];
     for (var i in message) {
       var field = message[i];
       if (field == "<INSERTCOUNT>") {
-        var msg = document.createTextNode(count);
-        pieces.push(msg);
+        output = output + count;
       } else {
-        var msg = document.createTextNode(field);
-        pieces.push(msg);
+        output = output + field;
       }
     }
+    pieces.push(output);
   }
-  return pieces;
-  // var p = document.createElement('p');
-  // Combine the pieces with list_commas, except for if there are two or more pieces
-  // TODO: contributor count isn't the photos by new contributors, but the contributor count themselves!
-  // TOWRITE
-}
-Show.message.new_photos_this_week = function(count, language) {
-  var p = document.createElement('p');
-  var message = Language.L.messages.new_photos_this_week;
-  for (var i in message[language]) {
-    var field = message[language][i];
-    if (field == "<INSERTNUM>") {
-      var msg = document.createTextNode(count);
-      p.appendChild(msg);
-    } else {
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
-    }
-  }
+  // Build a string out of phrases with commas + &
+  var p = Language.commaPhrase(pieces);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
