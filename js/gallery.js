@@ -573,14 +573,6 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
     .filter(locator => locator.indexOf("zoo.") == -1);
   var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
-  // If the author or entity photos have animals represented in the other update photos,
-  // remove them from the update photos to get a broader set of animals shown.
-  var update_count = photo_count - panda_chosen.length - author_chosen.length;
-  update_photos = update_photos.filter(photo => 
-    author_photos.concat(panda_photos).map(others => others["id"])
-    .indexOf(photo["id"]) == -1);
-  var update_chosen = Pandas.shuffle(update_photos).slice().splice(0, update_count);
-  update_chosen = Pandas.sortPhotosByName(update_chosen, language + ".name");
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
@@ -596,7 +588,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     var zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"]);
     var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
       .filter(panda => zoo_panda_ids.indexOf(panda.id) != -1);
-    zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
+    zoo_pandas = Pandas.unique(Pandas.sortPhotosByName(zoo_pandas, language + ".name"));
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
       if (zoo_panda in author_photos) {
@@ -606,12 +598,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       all_zoo_pandas.push(zoo_panda);
       photo_count = photo_count - 1;
     }
+    photo_count = photo_count - 1;
   }
   for (let author_photo of author_chosen) {
     if (photo_count == 0) {
       return output_photos;
     }
-    if (author_photo in all_zoo_pandas) {
+    if (all_zoo_pandas.indexOf(author_photo) != -1) {
       // Zoo pandas don't show in the new authors section
       continue;
     }
@@ -619,6 +612,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     output_photos.push(author_photo);
     photo_count = photo_count - 1;
   }
+  // If the author or entity photos have animals represented in the other update photos,
+  // remove them from the update photos to get a broader set of animals shown.
+  update_photos = update_photos.filter(photo => 
+    author_photos.concat(panda_photos).map(others => others["id"])
+    .indexOf(photo["id"]) == -1);
+  var update_chosen = Pandas.shuffle(update_photos).slice().splice(0, photo_count);
+  update_chosen = Pandas.sortPhotosByName(update_chosen, language + ".name");
   for (let update_photo of update_chosen) {
     if (photo_count == 0) {
       return output_photos;
