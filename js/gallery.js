@@ -547,7 +547,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(function(photo) {
       var pandas = Pandas.searchPandaZoo(photo.id)
         .filter(panda => "photo.1" in panda);
-      return pandas.length() > 0;
+      return pandas.length > 0;
     });
   var zoo_chosen = Pandas.shuffle(zoo_photos).splice(0, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
