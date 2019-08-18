@@ -549,13 +549,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
         .filter(panda => "photo.1" in panda);
       return pandas.length > 0;
     });
-  var zoo_chosen = Pandas.shuffle(zoo_photos).splice(0, photo_count);
+  var zoo_chosen = Pandas.shuffle(zoo_photos).slice().splice(0, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id")
     .filter(photo => photo.type != "zoo");
-  var author_chosen = Pandas.shuffle(author_photos).splice(0, photo_count);
+  var author_chosen = Pandas.shuffle(author_photos).slice().splice(0, photo_count);
   if (author_chosen.length > 3) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_chosen = Pandas.unique(author_chosen, "credit");
@@ -579,7 +579,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   update_photos = update_photos.filter(photo => 
     author_photos.concat(panda_photos).map(others => others["id"])
     .indexOf(photo["id"]) == -1);
-  var update_chosen = Pandas.shuffle(update_photos).splice(0, update_count);
+  var update_chosen = Pandas.shuffle(update_photos).slice().splice(0, update_count);
   update_chosen = Pandas.sortPhotosByName(update_chosen, language + ".name");
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
@@ -593,8 +593,9 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     }
     output_photos.push(zoo_photo);
     // Display updated photos for animals at this zoo first
+    var zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"]);
     var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
-      .filter(panda => Pandas.searchPandaId(panda.id)[0].zoo == zoo_photo.id);
+      .filter(panda => zoo_panda_ids.indexOf(panda.id) != -1);
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
