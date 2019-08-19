@@ -474,7 +474,7 @@ Gallery.tagPhotoCredits = function(result, language) {
 
 // Make a gallery out of newly added photos, for the front page.
 // Choose some pandas from the list of updated photos at random.
-Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
+Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
   var new_photos_div = document.createElement('div');
   var message = Show.message.new_photos(language);
   new_photos_div.appendChild(message);
