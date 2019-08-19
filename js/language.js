@@ -1711,7 +1711,7 @@ Language.commaPhrase = function(pieces) {
   for (var i = 0; i < pieces.length; i++) {
     var m = document.createTextNode(pieces[i]);
     var c = document.createTextNode(Language.L.messages.comma[L.display]);
-    var a = document.createTextNode(Language.L.messages.and_words[L.display]);
+    var a = document.createTextNode(Language.L.messages.and[L.display]);
     p.appendChild(m);
     // Commas
     if ((i < pieces.length - 3) && (pieces.length > 3)) {
