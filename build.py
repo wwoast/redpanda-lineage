@@ -230,7 +230,9 @@ class RedPandaGraph:
         export['_totals']['updates'] = {}
         export['_totals']['updates']['authors'] = self.updates['author_count']
         export['_totals']['updates']['entities'] = len(self.updates['entities'])
+        export['_totals']['updates']['pandas'] = self.updates['panda_count']
         export['_totals']['updates']['photos'] = len(self.updates['photos'])
+        export['_totals']['updates']['zoos'] = self.updates['zoo_count']
         export['_totals']['wilds'] = len(self.wilds)
         export['_totals']['zoos'] = len(self.zoos)
         export['_updates'] = {}
@@ -566,14 +568,21 @@ class UpdateFromCommits:
         self.updates["authors"] = []
         self.updates["author_count"] = 0
         self.updates["entities"] = []
+        self.updates["pandas"] = []
+        self.updates["panda_count"] = 0
         self.updates["photos"] = []
+        self.updates["zoos"] = []
+        self.updates["zoo_count"] = 0
         self.create_updates()
 
     def create_updates(self):
         """
         Take the two listed commits, and make arrays of updates we can generate
-        the updates section from.
+        the updates section from. Also make unique counts of pandas and zoos added
         """
+        seen = {}
+        seen["pandas"] = {}
+        seen["zoos"] = {}
         # Grab the last JSON file for author data
         for change in self.patch:
             filename = change.path
@@ -592,6 +601,14 @@ class UpdateFromCommits:
                             entity = self._read_raw(raw, filename)
                             if entity != None:
                                 self.updates["entities"].append(entity)
+                                if entity.find("zoo") == 0:
+                                    id = entity.split(".")[1]
+                                    seen["zoos"][id] = True
+                                    self.updates["zoos"].append(entity)
+                                if entity.find("panda") == 0:
+                                    id = entity.split(".")[1]
+                                    seen["pandas"][id] = True
+                                    self.updates["pandas"].append(entity)    
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
@@ -601,6 +618,9 @@ class UpdateFromCommits:
                             photo = self._read_raw(raw, filename)
                             if photo != None:
                                 self.updates["photos"].append(photo)
+        self.updates["panda_count"] = len(seen["pandas"].keys())
+        self.updates["zoo_count"] = len(seen["zoos"].keys())
+
 
     def new_contributors(self, author_set):
         """
@@ -655,7 +675,6 @@ class UpdateFromCommits:
         # And get the count of unique authors added
         for author in author_diffs.keys():
             if author_diffs[author] > 0:
-                # print(author + ": " + str(author_diffs[author]) + " new photos this week")
                 self.updates["author_count"] = self.updates["author_count"] + 1
 
     def _read_raw(self, raw, filename):

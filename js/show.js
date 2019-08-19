@@ -1330,11 +1330,14 @@ Show.message.new_photos = function(language) {
     "photos": P.db._totals.updates.photos,
     "suffix": 1,   // HACK
     // Determine panda counts versus zoo counts in the entities
-    "pandas": P.db._updates.entities.filter(p => p.indexOf("panda.") == 0).length,
-    "zoos": P.db._updates.entities.filter(z => z.indexOf("zoo.") == 0).length
+    "pandas": P.db._totals.updates.pandas,
+    "zoos": P.db._totals.updates.zoos
   }
   var section_order = [];
-  if ((counts["zoos" > 0] && counts["pandas"] > 0)) {
+  if (counts["zoos"] == 0 && counts["entities"] == 0 && counts["photos"] == 0) {
+    return;   // No message to display
+  }
+  if (counts["zoos" > 0] && counts["pandas"] > 0) {
     section_order = ["zoos", "pandas", "contributors", "suffix"];
   }
   if (counts["pandas"] > 0 ) {
