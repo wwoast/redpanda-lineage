@@ -565,7 +565,6 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   var panda_locators = P.db["_updates"].entities
     .filter(locator => zoo_locators.indexOf(locator) == -1);
   var panda_photos = Pandas.unique(Pandas.locatorsToPhotos(panda_locators), "id");
-  var panda_chosen = panda_photos;   // No change
   // Remaining new photos for exisitng pandas. If any photo locators also describe 
   // a new author/new entity, only display those in their own section. Filter them out here.
   var update_locators = P.db["_updates"].photos
@@ -591,7 +590,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     zoo_pandas = Pandas.unique(Pandas.sortPhotosByName(zoo_pandas, language + ".name"));
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
-      if (zoo_panda in author_photos) {
+      if (author_photos.indexOf(zoo_panda) != -1) {
         zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
       }
       output_photos.push(zoo_panda);
@@ -607,6 +606,10 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (all_zoo_pandas.indexOf(author_photo) != -1) {
       // Zoo pandas don't show in the new authors section
       continue;
+    }
+    // New panda added, so make sure it gets the heart icon
+    if (panda_photos.map(panda => panda.id).indexOf(author_photo.id) != -1) {
+      author_photo.name_icon = Language.L.emoji.profile;
     }
     author_photo.credit_icon = Language.L.emoji.giftwrap;
     output_photos.push(author_photo);
