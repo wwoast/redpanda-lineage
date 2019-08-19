@@ -615,7 +615,6 @@ Language.L.messages = {
   "new_photos": {
     "contributors": {
       "cn": [Language.L.emoji.giftwrap,
-             " ",
              "<INSERTCOUNT>",
              "新贡献者"],
       "en": [Language.L.emoji.giftwrap,
@@ -623,13 +622,11 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              " new contributors"],
       "jp": [Language.L.emoji.giftwrap,
-             " ",
              "<INSERTCOUNT>",
              "人の新しい貢献者"]
     },
     "pandas": {
       "cn": [Language.L.emoji.profile,
-             " ",
              "<INSERTCOUNT>",
              "只新小熊猫"],
       "en": [Language.L.emoji.profile,
@@ -637,7 +634,6 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              " new red pandas"],
       "jp": [Language.L.emoji.profile,
-             " ",
              "<INSERTCOUNT>",
              "つの新しいレッサーパンダ"]
     },
