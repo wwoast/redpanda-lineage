@@ -1329,7 +1329,6 @@ Show.message.new_photos = function(language) {
     "entities":  P.db._totals.updates.entites,
     "photos": P.db._totals.updates.photos,
     "suffix": 1,   // HACK
-    // Determine panda counts versus zoo counts in the entities
     "pandas": P.db._totals.updates.pandas,
     "zoos": P.db._totals.updates.zoos
   }
