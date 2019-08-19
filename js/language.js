@@ -614,19 +614,31 @@ Language.L.messages = {
   },
   "new_photos": {
     "contributors": {
-      "cn": ["<INSERTCOUNT>",
+      "cn": [Language.L.emoji.giftwrap,
+             " ",
+             "<INSERTCOUNT>",
              "新贡献者"],
-      "en": ["<INSERTCOUNT>",
+      "en": [Language.L.emoji.giftwrap,
+             " ",
+             "<INSERTCOUNT>",
              " new contributors"],
-      "jp": ["<INSERTCOUNT>",
+      "jp": [Language.L.emoji.giftwrap,
+             " ",
+             "<INSERTCOUNT>",
              "人の新しい貢献者"]
     },
     "pandas": {
-      "cn": ["<INSERTCOUNT>",
+      "cn": [Language.L.emoji.profile,
+             " ",
+             "<INSERTCOUNT>",
              "只新小熊猫"],
-      "en": ["<INSERTCOUNT>",
-             " red pandas"],
-      "jp": ["<INSERTCOUNT>",
+      "en": [Language.L.emoji.profile,
+             " ",
+             "<INSERTCOUNT>",
+             " new red pandas"],
+      "jp": [Language.L.emoji.profile,
+             " ",
+             "<INSERTCOUNT>",
              "つの新しいレッサーパンダ"]
     },
     "photos": {
