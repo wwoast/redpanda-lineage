@@ -1082,6 +1082,27 @@ div.photoSample h5.caption.updateName, div.photoSample h5.caption.updateAuthor {
     overflow-x: hidden;
 }
 
+div.photoSample h5.caption.newContributor {
+    background-color: #EDC1D7; /* Pink Lady Apples */
+}
+
+div.photoSample h5.caption.zoo.one {
+    background-color: cornflowerblue;
+}
+
+div.photoSample h5.caption.zoo.two {
+    background-color: burlywood;
+}
+
+div.photoSample h5.caption.zoo.three {
+    background-color: orchid;
+}
+
+div.photoSample h5.caption.zoo.four {
+    background-color: lightgreen;
+}
+
+
 div.photoSample h5.caption.shortMessage {
     margin-bottom: 0px;
     border-bottom: 0px solid;

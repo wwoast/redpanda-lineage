@@ -501,7 +501,12 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     }
     var caption = document.createElement('h5');
     caption.className = "caption updateName";
-    // TODO: handling of names of group pandas
+    if ("classes" in item) {
+      // Color any zoo-related animals in the summary info
+      for (let caption_class of item.classes) {
+        caption.classList.add(caption_class);
+      }
+    }
     var animal = Pandas.searchPandaId(item.id)[0];
     var updateName = undefined;
     if (item.id.indexOf("media.") == 0) {
@@ -519,6 +524,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=12) {
     var author_span = document.createElement('span');
     if ("credit_icon" in item) {
       author_span.innerText = item.credit_icon + "\xa0" + item.credit;
+      caption.classList.add("newContributor");
     }
     else {
       author_span.innerText = L.emoji.camera + "\xa0" + item.credit;
@@ -578,10 +584,14 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   // display remaining new pandas from the update_photos list in alphabetical order.
   var output_photos = [];
   var all_zoo_pandas = [];
+  var zoo_classes = ["one", "two", "three", "four"];
+  var zoo_class_index = 0;
   for (let zoo_photo of zoo_chosen) {
     if (photo_count == 0) {
       return output_photos;
     }
+    var class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]];
+    zoo_photo.classes = class_list;
     output_photos.push(zoo_photo);
     // Display updated photos for animals at this zoo first
     var zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"]);
@@ -593,11 +603,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       if (author_photos.indexOf(zoo_panda) != -1) {
         zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
       }
+      zoo_panda.classes = class_list;
       output_photos.push(zoo_panda);
       all_zoo_pandas.push(zoo_panda);
       photo_count = photo_count - 1;
     }
     photo_count = photo_count - 1;
+    zoo_class_index = zoo_class_index + 1;
   }
   for (let author_photo of author_chosen) {
     if (photo_count == 0) {
