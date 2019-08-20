@@ -1705,7 +1705,7 @@ Language.capitalNames = function(input) {
   return output.join(' ');   // Recombine terms with spaces
 }
 
-// Make a phrase out of parts, with commas and terminal &
+// Make a phrase out of parts, with commas and terminal "and"
 Language.commaPhrase = function(pieces) {
   var p = document.createElement('p');
   for (var i = 0; i < pieces.length; i++) {
