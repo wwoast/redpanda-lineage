@@ -1367,6 +1367,7 @@ Show.message.new_photos = function(language) {
   }
   // Build a string out of phrases with commas + &
   var p = Language.commaPhrase(pieces);
+  p.className = "updatePhotosMessage";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);

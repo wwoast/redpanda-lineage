@@ -1102,7 +1102,6 @@ div.photoSample h5.caption.zoo.four {
     background-color: lightgreen;
 }
 
-
 div.photoSample h5.caption.shortMessage {
     margin-bottom: 0px;
     border-bottom: 0px solid;
@@ -1200,6 +1199,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         padding-top: 0.1ex;
         padding-bottom: 0.1ex;
     }
+
+    p.updatePhotosMessage {
+        letter-spacing: -1px;
+    }    
 
     div.pandaAbout, div.pandaLinks {
         position: relative;
