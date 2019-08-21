@@ -651,11 +651,15 @@ Language.L.messages = {
       "jp": ["今週！"]
     },
     "zoos": {
-      "cn": ["<INSERTCOUNT>",
+      "cn": [Language.L.emoji.zoo,
+             "<INSERTCOUNT>",
              "个新动物园"],
-      "en": ["<INSERTCOUNT>",
+      "en": [Language.L.emoji.zoo,
+            " ",
+            "<INSERTCOUNT>",
             " new zoos"],
-      "jp": ["<INSERTCOUNT>",
+      "jp": [Language.L.emoji.zoo,
+             "<INSERTCOUNT>",
              "つの新しい動物園"]
     }
   },

@@ -1336,9 +1336,7 @@ Show.message.new_photos = function(language) {
   if (counts["zoos"] == 0 && counts["entities"] == 0 && counts["photos"] == 0) {
     return;   // No message to display
   }
-  if (counts["zoos" > 0] && counts["pandas"] > 0) {
-    section_order = ["zoos", "pandas", "contributors", "suffix"];
-  }
+  // Zoo counts is too much information
   if (counts["pandas"] > 0 ) {
     section_order = ["pandas", "contributors", "suffix"];
   } else if (counts["contributors"] > 0) {
