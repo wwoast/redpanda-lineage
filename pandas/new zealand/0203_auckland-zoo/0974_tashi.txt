@@ -1,0 +1,32 @@
+[panda]
+_id: 974
+birthday: 2018/12/1
+birthplace: 203
+children: none
+en.name: Tashi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タシ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/BuAMo5wFtDr/media/?size=m
+photo.1.author: aucklandzoo
+photo.1.link: https://www.instagram.com/aucklandzoo/
+photo.1.tags: baby, home
+photo.2: https://www.instagram.com/p/BwNeyV3g5ir/media/?size=m
+photo.2.author: aucklandzoo
+photo.2.link: https://www.instagram.com/aucklandzoo/
+photo.2.tags: climb, paws, smile, tree
+photo.3: https://www.instagram.com/p/BwfWK2yAA1R/media/?size=m
+photo.3.author: aucklandzoo
+photo.3.link: https://www.instagram.com/aucklandzoo/
+photo.3.tags: bamboo, profile, smile, tongue
+photo.4: https://www.instagram.com/p/BxDbsSTAP_J/media/?size=m
+photo.4.author: aucklandzoo
+photo.4.link: https://www.instagram.com/aucklandzoo/
+photo.4.tags: baby, paws, smile, white face
+species: 1
+zoo: 203
