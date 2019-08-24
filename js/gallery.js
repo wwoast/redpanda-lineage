@@ -602,7 +602,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     var zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"]);
     var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
       .filter(panda => zoo_panda_ids.indexOf(panda.id) != -1);
-    zoo_pandas = Pandas.unique(Pandas.sortPhotosByName(zoo_pandas, language + ".name"));
+    zoo_pandas = Pandas.unique(Pandas.sortPhotosByName(zoo_pandas, language + ".name"), "id");
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
       if (author_photos.indexOf(zoo_panda) != -1) {
