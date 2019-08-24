@@ -1,0 +1,16 @@
+[panda]
+_id: 977
+birthday: 2016/1/14
+birthplace: 203
+children: none
+en.name: Priya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: プリヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 976
+species: 1
+zoo: 203

@@ -1,6 +1,6 @@
 [panda]
 _id: 975
-birthday: unknown
+birthday: 2015/1/15
 birthplace: 203
 children: 974
 en.name: Ramesh
@@ -12,5 +12,21 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BAwOJM5B9zZ/media/?size=m
+photo.1.author: fredvanterra
+photo.1.link: https://www.instagram.com/fredvanterra/
+photo.1.tags: climb, portrait, smile, tree
+photo.2: https://www.instagram.com/p/B02fChWpPgX/media/?size=m
+photo.2.author: leelee8999
+photo.2.link: https://www.instagram.com/leelee8999/
+photo.2.tags: peek, tree
+photo.3: https://www.instagram.com/p/B1GEa_kJqmr/media/?size=m
+photo.3.author: _extraordinary_ordinary
+photo.3.link: https://www.instagram.com/_extraordinary_ordinary/
+photo.3.tags: peek, tree
+photo.4: https://www.instagram.com/p/B1QSHYDp3Dk/media/?size=m
+photo.4.author: julie_chandelier
+photo.4.link: https://www.instagram.com/julie_chandelier/
+photo.4.tags: peek, tree
 species: 1
 zoo: 203
