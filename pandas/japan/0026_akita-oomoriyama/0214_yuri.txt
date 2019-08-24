@@ -17,7 +17,7 @@ photo.1.link: https://www.instagram.com/daniele.tokyo/
 photo.2: https://www.instagram.com/p/BnTQc07FxsB/media/?size=m
 photo.2.author: daniele.tokyo
 photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: profile, standing
+photo.2.tags: standing
 photo.3: https://www.instagram.com/p/Bp1SrlRlZPo/media/?size=m
 photo.3.author: kipekaila
 photo.3.link: https://www.instagram.com/kipekaila/
@@ -37,5 +37,9 @@ photo.7: https://www.instagram.com/p/Bwkvs8Al2LU/media/?size=m
 photo.7.author: craig_craig_craig
 photo.7.link: https://www.instagram.com/craig_craig_craig/
 photo.7.tags: paws, standing
+photo.8: https://www.instagram.com/p/B1cwc6Lh9oO/media/?size=m
+photo.8.author: kotata_513
+photo.8.link: https://www.instagram.com/kotata_513/
+photo.8.tags: portrait, profile, smile
 species: 2
 zoo: 26
