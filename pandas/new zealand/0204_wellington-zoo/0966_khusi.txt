@@ -14,5 +14,13 @@ language.order: en, jp
 litter: 965
 location.1: 201, 2014/1/12
 location.2: 204, 2015/3/24
+photo.1: https://www.instagram.com/p/ByULLKHJK9G/media/?size=m
+photo.1.author: wellington.zoo
+photo.1.link: https://www.instagram.com/wellington.zoo/
+photo.1.tags: portrait, profile, techitechi, white face
+photo.2: https://www.instagram.com/p/BhqS2gHBmbN/media/?size=m
+photo.2.author: wellington.zoo
+photo.2.link: https://www.instagram.com/wellington.zoo/
+photo.2.tags: portrait, scale
 species: 1
 zoo: 204

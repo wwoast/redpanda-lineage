@@ -1,0 +1,16 @@
+[panda]
+_id: 982
+birthday: 2018/12/7
+birthplace: 181
+children: none
+en.name: Mishri
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ミシュリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 983, 984
+species: 1
+zoo: 181
