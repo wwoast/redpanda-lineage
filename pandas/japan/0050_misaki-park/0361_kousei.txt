@@ -16,5 +16,9 @@ litter: 362
 location.1: 12, 2000/6/23
 location.2: 52, 2003/6/5
 location.3: 50, 2011/3/18
+photo.1: https://www.instagram.com/p/B1qxuF-hm9K/media/?size=m
+photo.1.author: framereim
+photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: bite, paws
 species: 2
 zoo: 50

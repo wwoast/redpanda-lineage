@@ -69,7 +69,7 @@ photo.13.tags: tree, upside-down
 photo.14: https://www.instagram.com/p/BvRIBRHlAal/media/?size=m
 photo.14.author: miis_98
 photo.14.link: https://www.instagram.com/miis_98/
-photo.14.tags: portrait, profile, tree
+photo.14.tags: portrait, tree
 photo.15: https://www.instagram.com/p/BvP6sKXF017/media/?size=m
 photo.15.author: re_ichimaru
 photo.15.link: https://www.instagram.com/re_ichimaru/
@@ -98,5 +98,13 @@ photo.21: https://www.instagram.com/p/B1hvnM-hvav/media/?size=m
 photo.21.author: yossi929
 photo.21.link: https://www.instagram.com/yossi929/
 photo.21.tags: apple time, paws, techitechi
+photo.22: https://www.instagram.com/p/B1qQ-71hmjc/media/?size=m
+photo.22.author: yossi929
+photo.22.link: https://www.instagram.com/yossi929/
+photo.22.tags: portrait, profile
+photo.23: https://www.instagram.com/p/B1pTfRSBkjO/media/?size=m
+photo.23.author: re_ichimaru
+photo.23.link: https://www.instagram.com/re_ichimaru/
+photo.23.tags: apple time, paws, portrait, standing
 species: 2
 zoo: 19
