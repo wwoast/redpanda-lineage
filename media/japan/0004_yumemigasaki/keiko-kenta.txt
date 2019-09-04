@@ -1,0 +1,21 @@
+[media]
+_id: media.4.keiko-kenta
+panda.tags: 28, 29
+photo.1: https://www.instagram.com/p/BAUgx55vi1x/media/?size=m
+photo.1.author: panda.daisuki
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: laying down, siblings, twins
+photo.1.tags.28.location: 115, 170
+photo.1.tags.29.location: 200, 85
+photo.2: https://www.instagram.com/p/BAVdK4zPi9w/media/?size=m
+photo.2.author: panda.daisuki
+photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.2.tags: siblings, twins
+photo.2.tags.28.location: 230, 85
+photo.2.tags.29.location: 130, 105
+photo.3: https://www.instagram.com/p/BB6Ij5sNG3V/media/?size=m
+photo.3.author: mariten1119
+photo.3.link: https://www.instagram.com/mariten1119/
+photo.3.tags: bamboo, siblings, twins
+photo.3.tags.28.location: 85, 110
+photo.3.tags.29.location: 235, 175
