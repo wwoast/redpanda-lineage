@@ -251,7 +251,7 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     var memorial = Gallery.memorialPhotoCredits(L.display, ["261"])
-    // new_content.appendChild(memorial);
+    new_content.appendChild(memorial);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
     Page.swap(old_content, new_content);
