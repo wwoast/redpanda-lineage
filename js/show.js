@@ -2395,7 +2395,7 @@ Show.searchBar.submit = function() {
   // focus and query output to the top search bar.
   Show.searchBar.remove();
   // Refocus text cursor after a search is performed, but only on non-touch devices
-  if ("ontouchstart" in document.documentElement) {
+  if (!("ontouchstart" in window)) {
     setTimeout(function() {
       document.getElementById('searchInput').focus();
     }, 0);
