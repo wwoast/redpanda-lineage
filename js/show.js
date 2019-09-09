@@ -2387,7 +2387,8 @@ Show.searchBar.render = function(frame_class, frame_id) {
 Show.searchBar.submit = function() {
   // JS actions for submiting a search
   Page.current = Page.results.render;
-  document.getElementById('searchInput').blur();   // Make iOS keyboard disappear after submitting.
+  // Make iOS keyboard disappear after submitting.
+  document.getElementById('searchInput').blur();
   var query = (document.getElementById('searchInput').value).replace(/\s+$/, '');
   window.location = "#query/" + query;
   // TODO: when submitting from the bottomMenu search bar, destroy it and move the
@@ -2396,7 +2397,7 @@ Show.searchBar.submit = function() {
   // Refocus text cursor after a search is performed
   setTimeout(function() {
     document.getElementById('searchInput').focus();
-  }, 0);
+  }, 100);
   Show.button.language.hide();   // If language menu open, hide it
 }
 Show.searchBar.toggle = function(frame_id) {
