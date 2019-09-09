@@ -2394,10 +2394,12 @@ Show.searchBar.submit = function() {
   // TODO: when submitting from the bottomMenu search bar, destroy it and move the
   // focus and query output to the top search bar.
   Show.searchBar.remove();
-  // Refocus text cursor after a search is performed
-  setTimeout(function() {
-    document.getElementById('searchInput').focus();
-  }, 100);
+  // Refocus text cursor after a search is performed, but only on non-touch devices
+  if ("ontouchstart" in document.documentElement) {
+    setTimeout(function() {
+      document.getElementById('searchInput').focus();
+    }, 0);
+  }
   Show.button.language.hide();   // If language menu open, hide it
 }
 Show.searchBar.toggle = function(frame_id) {
