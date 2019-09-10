@@ -91,7 +91,7 @@ photo.19.tags: paws, tree
 photo.20: https://www.instagram.com/p/BtQud0qgHMh/media/?size=m
 photo.20.author: pon.bird
 photo.20.link: https://www.instagram.com/pon.bird/
-photo.20.tags: laying down, portrait, profile, tree
+photo.20.tags: laying down, portrait, tree
 photo.21: https://www.instagram.com/p/BtitTfLF0J0/media/?size=m
 photo.21.author: mifko55
 photo.21.link: https://www.instagram.com/mifko55/
@@ -249,6 +249,10 @@ photo.60: https://www.instagram.com/p/B0x1gsoA6B2/media/?size=m
 photo.60.author: s24.star_load
 photo.60.link: https://www.instagram.com/s24.star_load/
 photo.60.tags: bridge, laying down
+photo.61: https://www.instagram.com/p/B2HJ2pRBaaj/media/?size=m
+photo.61.author: motohin
+photo.61.link: https://www.instagram.com/motohin/
+photo.61.tags: portrait, profile, smile
 species: 2
 video.1: https://youtu.be/rYd6QptEbU0
 video.1.author: d_mover

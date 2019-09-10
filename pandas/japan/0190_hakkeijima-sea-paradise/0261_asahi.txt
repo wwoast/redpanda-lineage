@@ -19,7 +19,7 @@ location.3: 190, 2019/4/20
 photo.1: https://www.instagram.com/p/BZQ9IShgMRj/media/?size=m
 photo.1.author: shrimpieaqua
 photo.1.link: https://www.instagram.com/shrimpieaqua/
-photo.1.tags: portrait, profile, smile, tongue
+photo.1.tags: portrait, smile, tongue
 photo.2: https://www.instagram.com/p/BGygHDBwZ3s/media/?size=m
 photo.2.author: rio_minron
 photo.2.link: https://www.instagram.com/rio_minron/
@@ -158,5 +158,24 @@ photo.36: https://www.instagram.com/p/B2Ej_0FB99M/media/?size=m
 photo.36.author: love__mitarashi
 photo.36.link: https://www.instagram.com/love__mitarashi/
 photo.36.tags: portrait
+photo.37: https://www.instagram.com/p/B2GCf89hFtI/media/?size=m
+photo.37.author: roko_mm
+photo.37.link: https://www.instagram.com/roko_mm/
+photo.37.tags: portrait, smile, tongue
+photo.38: https://www.instagram.com/p/B2FfJRPh-0b/media/?size=m
+photo.38.author: sasapan34
+photo.38.link: https://www.instagram.com/sasapan34/
+photo.39: https://www.instagram.com/p/B2M1UDThdZW/media/?size=m
+photo.39.author: take_421
+photo.39.link: https://www.instagram.com/take_421/
+photo.39.tags: bridge
+photo.40: https://www.instagram.com/p/B2Gg3DLglhL/media/?size=m
+photo.40.author: nakacchi_desu
+photo.40.link: https://www.instagram.com/nakacchi_desu/
+photo.40.tags: portrait, profile
+photo.41: https://www.instagram.com/p/B2JPvwmBIUq/media/?size=m
+photo.41.author: roko_mm
+photo.41.link: https://www.instagram.com/roko_mm/
+photo.41.tags: portrait
 species: 2
 zoo: 190
