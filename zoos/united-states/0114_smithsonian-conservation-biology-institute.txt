@@ -5,6 +5,8 @@ en.location: Front Royal, Virginia, USA
 en.name: Smithsonian Conservation Biology Institute
 flag: USA
 language.order: en
+latitude: 38.919911
+longitude: -78.1745857
 map: https://goo.gl/maps/nwP7UfETU292
 photo.1: https://www.instagram.com/p/Bol2m-AgMLT/media/?size=m
 photo.1.author: doctorhellbender

@@ -6,6 +6,8 @@ en.name: River Safari
 en.othernames: Wildlife Reserves Singapore River Safari, Singapore Zoo
 flag: Singapore
 language.order: en
+latitude: 1.4043485
+longitude: 103.7908343
 map: https://goo.gl/maps/YC9SowJPvw5XBHtY7
 photo.1: https://www.instagram.com/p/BpwrdGgldni/media/?size=m
 photo.1.author: gracie_the_papaya

@@ -5,6 +5,8 @@ en.location: Atascadero, California, USA
 en.name: Charles Paddock Zoo
 flag: USA
 language.order: en
+latitude: 35.4693723
+longitude: -120.6699343
 map: https://goo.gl/maps/Keb1Sqgrmr92
 photo.1: https://www.instagram.com/p/Bf7ZDCmBwcy/media/?size=m
 photo.1.author: orteagone

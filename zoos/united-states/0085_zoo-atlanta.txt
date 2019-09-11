@@ -5,6 +5,8 @@ en.location: Atlanta, GA, USA
 en.name: Zoo Atlanta
 flag: USA
 language.order: en
+latitude: 33.7337421
+longitude: -84.3873637
 map: https://goo.gl/maps/bD7ZfqdL6D22
 photo.1: https://www.instagram.com/p/BrNNOCxHzYl/media/?size=m
 photo.1.author: jeteyepadawan

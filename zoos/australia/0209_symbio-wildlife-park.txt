@@ -6,6 +6,8 @@ en.name: Symbio Wildlife Park
 en.othernames: Symbio Wildlife Gardens
 flag: Australia
 language.order: en
+latitude: -34.2049732
+longitude: 150.9669419
 map: https://goo.gl/maps/ofRF9aQb1d4BYUDq7
 photo.1: https://www.instagram.com/p/BzcV65NhCEx/media/?size=m
 photo.1.author: symbiowildlifepark

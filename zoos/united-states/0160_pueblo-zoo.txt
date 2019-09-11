@@ -5,5 +5,7 @@ en.location: Pueblo, Colorado, USA
 en.name: Pueblo Zoo
 flag: USA
 language.order: en
+latitude: 38.262699
+longitude: -104.6614709
 map: https://goo.gl/maps/sAm9JQGw7HG2
 website: https://www.pueblozoo.org

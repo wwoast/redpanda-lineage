@@ -5,6 +5,8 @@ en.location: Bloomington, Illinois, USA
 en.name: Miller Park Zoo
 flag: USA
 language.order: en
+latitude: 40.4696537
+longitude: -89.0115789
 map: https://goo.gl/maps/k6zARq4schp
 photo.1: https://www.instagram.com/p/BLE33KTgYIT/media/?size=m
 photo.1.author: eilshermer

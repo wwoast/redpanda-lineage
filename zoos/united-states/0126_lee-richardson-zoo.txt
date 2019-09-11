@@ -5,6 +5,8 @@ en.location: Garden City, Kansas, USA
 en.name: Lee Richardson Zoo
 flag: USA
 language.order: en
+latitude: 37.9609497
+longitude: -100.8766584
 map: https://goo.gl/maps/xcMi2rcWTLR2
 photo.1: https://www.instagram.com/p/BxIdHYGAdl0/media/?size=m
 photo.1.author: leerichardsonzoo

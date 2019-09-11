@@ -6,5 +6,7 @@ en.name: Saint Louis Zoo
 en.othernames: Saint Louis Zoological Park
 flag: USA
 language.order: en
+latitude: 38.6381232
+longitude: -90.3001847
 map: https://goo.gl/maps/nLG8EFxE9v72
 website: https://www.stlzoo.org

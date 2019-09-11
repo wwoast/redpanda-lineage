@@ -8,6 +8,8 @@ jp.address: 〒880-0122 宮崎県宮崎市塩路浜山3083-42
 jp.location: 宮崎市 宮崎県
 jp.name: 宮崎市フェニックス自然動物園
 language.order: jp, en
+latitude: 31.9828945
+longitude: 131.4739183
 map: https://goo.gl/maps/Gm2Rjx3mpP72
 photo.1: https://www.instagram.com/p/BX94xg2FnUN/media/?size=m
 photo.1.author: stylusesmac

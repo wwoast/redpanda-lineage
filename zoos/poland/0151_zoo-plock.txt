@@ -6,6 +6,8 @@ en.name: Zoo Płock
 en.othernames: Płock Municipal Zoological Garden
 flag: Poland
 language.order: pl, en
+latitude: 52.5398539
+longitude: 19.7040869
 map: https://goo.gl/maps/U6HucY8t5gw
 pl.address: Norbertanska 2, 09-402 Płock, Poland
 pl.location: Płock, Poland

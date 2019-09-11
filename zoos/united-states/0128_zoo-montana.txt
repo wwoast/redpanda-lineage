@@ -5,6 +5,8 @@ en.location: Billings, Montana, USA
 en.name: Zoo Montana
 flag: USA
 language.order: en
+latitude: 45.7322514
+longitude: -108.6298244
 map: https://goo.gl/maps/RaRj3LmEif82
 photo.1: https://www.instagram.com/p/BqLbrJ7gzDf/media/?size=m
 photo.1.author: photography_felicity11

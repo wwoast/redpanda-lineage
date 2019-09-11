@@ -5,6 +5,8 @@ en.location: Staten Island, NY, USA
 en.name: Staten Island Zoo
 flag: USA
 language.order: en
+latitude: 40.6233661
+longitude: -74.1232649
 map: https://goo.gl/maps/1C5zcVNgMV72
 photo.1: https://www.instagram.com/p/Bl8e0mzgITc/media/?size=m
 photo.1.author: statenislandzoo

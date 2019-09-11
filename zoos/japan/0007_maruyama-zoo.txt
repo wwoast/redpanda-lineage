@@ -8,6 +8,8 @@ jp.address: 〒064-0959 北海道札幌市中央区 宮ケ丘3番地１
 jp.location: 中央区 札幌市 北海道
 jp.name: 札幌市円山動物園
 language.order: jp, en
+latitude: 43.051468
+longitude: 141.3056561
 map: https://goo.gl/maps/EY3uZRXNWNr
 photo.1: https://www.codaworry.com/images/rpf/maruyama-zoo-winter-small.jpg
 photo.1.author: wumpwoast

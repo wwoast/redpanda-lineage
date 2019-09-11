@@ -5,5 +5,7 @@ en.location: Wichita, Kansas, USA
 en.name: Sedgwick County Zoo
 flag: USA
 language.order: en
+latitude: 37.7170341
+longitude: -97.4173157
 map: https://goo.gl/maps/Po7n3tMmfBx
 website: https://scz.org

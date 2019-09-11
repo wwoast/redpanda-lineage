@@ -9,6 +9,8 @@ jp.address: 〒110-0007 東京都台東区上野公園９−83
 jp.location: 台東区 東京
 jp.name: 恩賜上野動物園
 language.order: jp, en
+latitude: 35.7164578
+longitude: 139.769129
 map: https://goo.gl/maps/o6BBZkWDuv32
 photo.1: https://www.instagram.com/p/BzIcrlSBZDX/media/?size=m
 photo.1.author: p_yokko

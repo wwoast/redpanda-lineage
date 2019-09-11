@@ -5,6 +5,8 @@ en.location: Providence, Rhode Island, USA
 en.name: Roger Williams Park Zoo
 flag: USA
 language.order: en
+latitude: 41.7903783
+longitude: -71.4235683
 map: https://goo.gl/maps/5Nw7c3CJH4r
 photo.1: https://www.instagram.com/p/ubojzMKZVd/media/?size=m
 photo.1.author: rwpzoo

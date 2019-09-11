@@ -5,6 +5,8 @@ en.location: Millbrook, New York, USA
 en.name: Trevor Zoo At Millbrook School
 flag: USA
 language.order: en
+latitude: 41.8552996
+longitude: -73.646979
 map: https://goo.gl/maps/6pn5QUdiz5G2
 photo.1: https://www.instagram.com/p/ouhrIizYwh/media/?size=m
 photo.1.author: carlyhaefeli

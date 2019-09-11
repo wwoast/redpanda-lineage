@@ -5,6 +5,8 @@ en.location: Cleveland, Ohio, USA
 en.name: Cleveland Metroparks Zoo
 flag: USA
 language.order: en
+latitude: 41.4499591
+longitude: -81.7133054
 map: https://goo.gl/maps/H1Beh6XdftG2
 photo.1: https://www.instagram.com/p/BbFu0YBlGua/media/?size=m
 photo.1.author: michael__bean

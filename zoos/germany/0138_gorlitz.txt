@@ -9,5 +9,7 @@ en.name: Görlitz Zoo
 en.othernames: Gorlitz Zoo
 flag: Germany
 language.order: de, en
+latitude: 51.1425184
+longitude: 14.9613021
 map: https://goo.gl/maps/xgBoW6RyMht
 website: https://www.tierpark-goerlitz.de/de/

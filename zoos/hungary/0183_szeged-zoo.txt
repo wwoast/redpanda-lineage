@@ -9,5 +9,7 @@ hu.location: Szeged, Hungary
 hu.name: Szeged Zoo
 hu.othernames: Szegedi Állatkert Zoo
 language.order: hu, en
+latitude: 46.251715
+longitude: 20.1095553
 map: https://goo.gl/maps/C9wF2wMo39A2
 website: http://zooszeged.hu/

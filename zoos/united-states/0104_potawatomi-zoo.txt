@@ -5,6 +5,8 @@ en.location: South Bend, Indiana, USA
 en.name: Potawatomi Zoo
 flag: USA
 language.order: en
+latitude: 41.6695218
+longitude: -86.2270148
 map: https://goo.gl/maps/Kn5Ao11FJ5Q2
 photo.1: https://www.instagram.com/p/Bp5DahOnSB-/media/?size=m
 photo.1.author: potawatomizoo

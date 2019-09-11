@@ -5,6 +5,8 @@ en.location: Philadelphia, Pennsylvania, USA
 en.name: Philadelphia Zoo
 flag: USA
 language.order: en
+latitude: 39.9734158
+longitude: -75.2334743
 map: https://goo.gl/maps/wE2icXwnpcN2
 photo.1: https://www.instagram.com/p/BRlxIGUlVaT/media/?size=m
 photo.1.author: philadelphiazoo

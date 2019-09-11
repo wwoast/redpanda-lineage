@@ -6,5 +6,7 @@ en.name: Hemker Wildlife Park
 en.othernames: Hemker Park and Zoo
 flag: USA
 language.order: en
+latitude: 45.671764
+longitude: -94.6690183
 map: https://goo.gl/maps/ngFHxdLvtVG2
 website: https://www.hemkerzoo.com

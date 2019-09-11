@@ -8,5 +8,7 @@ en.location: Chengdu, Sichuan, China
 en.name: Chengdu Research Base of Giant Panda Breeding
 flag: China
 language.order: cn, en
+latitude: 30.7329687
+longitude: 104.1370553
 map: https://goo.gl/maps/DYBfNPLa9KAdbDtg7
 website: http://www.panda.org.cn/

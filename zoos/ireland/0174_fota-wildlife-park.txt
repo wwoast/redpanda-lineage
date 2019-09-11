@@ -5,5 +5,7 @@ en.location: Carrigtwohill, County Cork, Ireland
 en.name: Fota Wildlife Park
 flag: Ireland
 language.order: en
+latitude: 51.8917076
+longitude: -8.3116182
 map: https://goo.gl/maps/etfG2zGm1MM2
 website: https://www.fotawildlife.ie/

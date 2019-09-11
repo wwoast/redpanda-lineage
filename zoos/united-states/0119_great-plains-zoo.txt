@@ -5,6 +5,8 @@ en.location: Sioux Falls, South Dakota, USA
 en.name: Great Plains Zoo
 flag: USA
 language.order: en
+latitude: 43.5443975
+longitude: -96.7804659
 map: https://goo.gl/maps/cDksLi3ecVF2
 photo.1: https://www.instagram.com/p/BizgGNel5T6/media/?size=m
 photo.1.author: greatplainszoo

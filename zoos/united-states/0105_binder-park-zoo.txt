@@ -5,6 +5,8 @@ en.location: Battle Creek, Michigan, USA
 en.name: Binder Park Zoo
 flag: USA
 language.order: en
+latitude: 42.2903965
+longitude: -85.1575119
 map: https://goo.gl/maps/KNY2H8TL7a52
 photo.1: https://www.instagram.com/p/BaSLKVFh39Y/media/?size=m
 photo.1.author: don__arturo_campos

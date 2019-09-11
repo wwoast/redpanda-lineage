@@ -5,6 +5,8 @@ en.location: Wellington, New Zealand
 en.name: Wellington Zoo
 flag: New Zealand
 language.order: en
+latitude: -41.3195392
+longitude: 174.7824547
 map: https://goo.gl/maps/gMmRuzMYTFQajWTaA
 photo.1: https://www.instagram.com/p/BupaDvsAuDw/media/?size=m
 photo.1.author: sognatricevagabonda

@@ -8,6 +8,8 @@ jp.address: 〒606-8333 京都府京都市左京区岡崎法勝寺町
 jp.location: 京都市 京都府 左京区
 jp.name: 京都市動物園
 language.order: jp, en
+latitude: 35.0126991
+longitude: 135.7839212
 map: https://goo.gl/maps/BzPvCJ64eiB2
 photo.1: https://www.instagram.com/p/BW1WhG-hsyy/media/?size=m
 photo.1.author: lespan33

@@ -9,6 +9,8 @@ en.name: Taipei Zoo
 en.othernames: Muzha Zoo
 flag: Taiwan
 language.order: cn, en
+latitude: 24.9971631
+longitude: 121.5829622
 map: https://goo.gl/maps/9vr6Usew49x
 photo.1: https://www.instagram.com/p/BqjdtXdn7fs/media/?size=m
 photo.1.author: yulixyang

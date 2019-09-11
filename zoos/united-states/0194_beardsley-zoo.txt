@@ -5,5 +5,7 @@ en.location: Bridgeport, Connecticut, USA
 en.name: Connecticut's Beardsley Zoo
 flag: USA
 language.order: en
+latitude: 41.2134138
+longitude: -73.1854623
 map: https://goo.gl/maps/3HuKmw5RFecxBZQVA
 website: https://www.beardsleyzoo.org/

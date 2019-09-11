@@ -5,5 +5,7 @@ en.location: Dudley, UK
 en.name: Dudley Zoological Gardens
 flag: UK
 language.order: en
+latitude: 52.5136579
+longitude: -2.0809638
 map: https://goo.gl/maps/9zbBT4pE4bifKV4p6
 website: https://www.dudleyzoo.org.uk/

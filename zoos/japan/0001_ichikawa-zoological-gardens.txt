@@ -8,6 +8,8 @@ jp.address: 〒272-0801 千葉県市川市大町２８４番１外
 jp.location: 市川市千葉県
 jp.name: 市川市動植物園
 language.order: jp, en
+latitude: 35.7642063
+longitude: 139.9638014
 map: https://goo.gl/maps/WSyNu7HFhH42
 photo.1: https://blackcabbit.files.wordpress.com/2013/08/ichikawashi-dousyokubutsuen.jpg
 photo.1.author: Blackcabbit's World

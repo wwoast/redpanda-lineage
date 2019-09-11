@@ -8,6 +8,8 @@ jp.address: 〒370-2321 群馬県 富岡市岡本１
 jp.location: 群馬県
 jp.name: 群馬サファリパーク
 language.order: jp, en
+latitude: 36.227195
+longitude: 138.8849445
 map: https://goo.gl/maps/at8sz15RscJ2
 photo.1: https://www.instagram.com/p/wDsin_Enj_/media/?size=m
 photo.1.author: omisadooguro

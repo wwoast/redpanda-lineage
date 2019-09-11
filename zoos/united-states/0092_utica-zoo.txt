@@ -5,5 +5,7 @@ en.location: Utica, New York, USA
 en.name: Utica Zoo
 flag: USA
 language.order: en
+latitude: 43.0890819
+longitude: -75.2772741
 map: https://goo.gl/maps/DHsMpakdJA42
 website: http://www.uticazoo.org/

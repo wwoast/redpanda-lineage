@@ -5,5 +5,7 @@ en.location: Norfolk, Virginia, USA
 en.name: Virginia Zoological Park
 flag: USA
 language.order: en
+latitude: 36.8800238
+longitude: -76.283351
 map: https://goo.gl/maps/HyLyK8pxxqs
 website: http://virginiazoo.org/

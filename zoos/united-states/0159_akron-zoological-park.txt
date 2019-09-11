@@ -5,5 +5,7 @@ en.location: Akron, Ohio, USA
 en.name: Akron Zoological Park
 flag: USA
 language.order: en
+latitude: 41.0760585
+longitude: -81.5445777
 map: https://goo.gl/maps/DpXRUGpKrz22
 website: https://www.akronzoo.org

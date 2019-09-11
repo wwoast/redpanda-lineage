@@ -9,6 +9,8 @@ kr.address: 경기도 과천시 막계동
 kr.location: 경기도 한국
 kr.name: 서울대공원해양동물원
 language.order: kr, en
+latitude: 37.4215021
+longitude: 127.017742
 map: https://goo.gl/maps/HU9yotcVBXQ2
 photo.1: https://www.instagram.com/p/BSxW3JIF0Kc/media/?size=m
 photo.1.author: anakjajan

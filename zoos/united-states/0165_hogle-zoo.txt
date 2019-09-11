@@ -5,6 +5,8 @@ en.location: Salt Lake City, Utah, USA
 en.name: Hogle Zoo
 flag: USA
 language.order: en
+latitude: 40.7501811
+longitude: -111.8162915
 map: https://goo.gl/maps/6rWGbpuKQap
 photo.1: https://www.instagram.com/p/BpHVqCPlRng/media/?size=m
 photo.1.author: mrs_r_mags

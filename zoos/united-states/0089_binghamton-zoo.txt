@@ -5,6 +5,8 @@ en.location: Binghamton, NY, USA
 en.name: Binghamton Zoo at Ross Park
 flag: USA
 language.order: en
+latitude: 42.0875777
+longitude: -75.9133327
 map: https://goo.gl/maps/BoeUeTysCJy
 photo.1: https://www.instagram.com/p/BoZZPJUluE1/media/?size=m
 photo.1.author: binghamtonzoo

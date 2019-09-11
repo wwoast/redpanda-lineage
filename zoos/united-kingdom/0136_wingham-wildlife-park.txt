@@ -5,6 +5,8 @@ en.location: Wingham, Canterbury, UK
 en.name: Wingham Wildlife Park
 flag: UK
 language.order: en
+latitude: 51.280525
+longitude: 1.212052
 map: https://goo.gl/maps/F4dJmeSXfZC2
 photo.1: https://www.instagram.com/p/Bt_if9SgXdy/media/?size=m
 photo.1.author: emmesswildlife

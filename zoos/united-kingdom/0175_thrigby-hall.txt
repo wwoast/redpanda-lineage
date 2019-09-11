@@ -5,5 +5,7 @@ en.location: Great Yarmouth, Norfolk, United Kingdom
 en.name: Thrigby Hall Wildlife Gardens
 flag: UK
 language.order: en
+latitude: 52.652519
+longitude: 1.6317406
 map: https://goo.gl/maps/EWoai8Xtp682
 website: https://www.thrigbyhall.com/

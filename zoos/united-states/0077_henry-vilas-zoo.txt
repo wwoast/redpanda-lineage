@@ -5,6 +5,8 @@ en.location: Madison, Wisconsin, USA
 en.name: Henry Vilas Zoo
 flag: USA
 language.order: en
+latitude: 43.0606143
+longitude: -89.4122236
 map: https://goo.gl/maps/eNq2cY1kKNu
 photo.1: https://www.instagram.com/p/BrLyYRknhZ1/media/?size=m
 photo.1.author: cpelnar

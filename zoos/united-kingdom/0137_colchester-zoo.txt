@@ -5,6 +5,8 @@ en.location: Colchester, UK
 en.name: Colchester Zoo
 flag: UK
 language.order: en
+latitude: 51.8680513
+longitude: 0.8314388
 map: https://goo.gl/maps/JWJySzYiXeu
 photo.1: https://www.instagram.com/p/Be-w0mqn7kw/media/?size=m
 photo.1.author: colchester_zoo

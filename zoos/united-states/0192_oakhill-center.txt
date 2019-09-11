@@ -5,5 +5,7 @@ en.location: Luther, Oklahoma, USA
 en.name: Oakhill Center for Rare and Endangered Species
 flag: USA
 language.order: en
+latitude: 45.513208
+longitude: -122.7186569
 map: none
 website: none

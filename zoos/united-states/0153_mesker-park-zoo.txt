@@ -5,5 +5,7 @@ en.location: Evansville, Indiana, USA
 en.name: Mesker Park Zoo
 flag: USA
 language.order: en
+latitude: 37.9960526
+longitude: -87.6160525
 map: https://goo.gl/maps/PXc9L33BQgS2
 website: https://www.meskerparkzoo.com/

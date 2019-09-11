@@ -8,6 +8,8 @@ jp.address: 〒410-1231 静岡県裾野市須山字藤原2255−27
 jp.location: 裾野市 静岡県
 jp.name: 富士サファリパーク 公式サイト
 language.order: jp, en
+latitude: 35.2587801
+longitude: 138.8076475
 map: https://goo.gl/maps/PLj4TTrSWVN2
 photo.1: https://www.instagram.com/p/BdXoC6Pnrlt/media/?size=m
 photo.1.author: fuji_safari

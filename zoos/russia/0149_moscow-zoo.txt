@@ -5,6 +5,8 @@ en.location: Moscow, Russia
 en.name: Moscow Zoo
 flag: Russia
 language.order: ru, en
+latitude: 55.7641493
+longitude: 37.5674998
 map: https://goo.gl/maps/KR9xSj6sJfu
 photo.1: https://www.instagram.com/p/BZx1NpPh7CE/media/?size=m
 photo.1.author: moscow_zoo_official

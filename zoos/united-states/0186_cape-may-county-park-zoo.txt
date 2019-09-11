@@ -5,5 +5,7 @@ en.location: Middle Township, New Jersey, USA
 en.name: Cape May County Park & Zoo
 flag: USA
 language.order: en
+latitude: 39.101968
+longitude: -74.8134187
 map: https://goo.gl/maps/vGHLYKq7jrK2
 website: https://www.capemaycountynj.gov/1008/Park-Zoo

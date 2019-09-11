@@ -6,6 +6,8 @@ en.name: Brookfield Zoo
 en.othernames: Chicago Zoological Park
 flag: USA
 language.order: en
+latitude: 41.8337869
+longitude: -87.8380204
 map: https://goo.gl/maps/Hek8arJZBUT2
 photo.1: https://www.instagram.com/p/4kBa_cMfd3/media/?size=m
 photo.1.author: brookfieldzoo

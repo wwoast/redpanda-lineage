@@ -5,6 +5,8 @@ en.location: Fort Wayne, Indiana, USA
 en.name: Fort Wayne Children's Zoo
 flag: USA
 language.order: en
+latitude: 41.1096716
+longitude: -85.1571732
 map: https://goo.gl/maps/s6yrZhQmjR72
 photo.1: https://www.instagram.com/p/Brkp88eApCh/media/?size=m
 photo.1.author: fwkidszoo

@@ -5,6 +5,8 @@ en.location: Baverstock, Hamilton, New Zealand
 en.name: Hamilton Zoo
 flag: New Zealand
 language.order: en
+latitude: -37.7749257
+longitude: 175.2137653
 map: https://g.page/HamiltonZooNZ?share
 photo.1: https://www.instagram.com/p/Br_u0obFPRs/media/?size=m
 photo.1.author: hamiltonzoo

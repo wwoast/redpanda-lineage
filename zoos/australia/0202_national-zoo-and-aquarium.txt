@@ -5,5 +5,7 @@ en.location: Yarralumla, Australian Capital Territory, Australia
 en.name: National Zoo & Aquarium
 flag: Australia
 language.order: en
+latitude: -35.2988266
+longitude: 149.0681533
 map: https://g.page/CanberraZoo
 website: https://nationalzoo.com.au/

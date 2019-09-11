@@ -5,6 +5,8 @@ en.location: Winnipeg, Manitoba, Canada
 en.name: Assiniboine Park Zoo
 flag: Canada
 language.order: en
+latitude: 49.8683326
+longitude: -97.3106535
 map: https://goo.gl/maps/yA6s5Fk3SZx
 photo.1: https://www.instagram.com/p/BoIJswQg-e6/media/?size=m
 photo.1.author: steffshieldswriter

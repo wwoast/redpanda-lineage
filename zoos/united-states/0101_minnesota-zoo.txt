@@ -5,6 +5,8 @@ en.location: Apple Valley, Minnesota, USA
 en.name: Minnesota Zoological Garden
 flag: USA
 language.order: en
+latitude: 44.7678109
+longitude: -93.2054319
 map: https://goo.gl/maps/ZdJu1mLMXFu
 photo.1: https://www.instagram.com/p/Bj6GxUxnTlo/media/?size=m
 photo.1.author: bbart724

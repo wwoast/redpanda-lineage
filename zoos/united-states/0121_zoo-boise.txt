@@ -5,6 +5,8 @@ en.location: Boise, Idaho, USA
 en.name: Zoo Boise
 flag: USA
 language.order: en
+latitude: 43.6078719
+longitude: -116.2116549
 map: https://goo.gl/maps/etM24t7HdKG2
 photo.1: https://www.instagram.com/p/Bb77go0hvax/media/?size=m
 photo.1.author: chispaazul

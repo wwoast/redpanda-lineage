@@ -5,6 +5,8 @@ en.location: Dunstable LU6 2LF, UK
 en.name: ZSL Whipsnade Zoo
 flag: UK
 language.order: en
+latitude: 51.8450681
+longitude: -0.6132085
 map: https://goo.gl/maps/QxpjzNmSEoN2
 photo.1: https://www.instagram.com/p/Bx7mZNKguXh/media/?size=m
 photo.1.author: zslwhipsnadezoo

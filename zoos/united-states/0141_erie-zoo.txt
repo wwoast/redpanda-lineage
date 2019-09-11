@@ -5,5 +5,7 @@ en.location: Erie, Pennsylvania, USA
 en.name: Erie Zoological Gardens
 flag: USA
 language.order: en
+latitude: 42.0972671
+longitude: -80.0826931
 map: https://goo.gl/maps/2JCNCyxMFZ32
 website: https://www.eriezoo.org/

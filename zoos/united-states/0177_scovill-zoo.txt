@@ -5,6 +5,8 @@ en.location: Decatur, Illinois, USA
 en.name: Scovill Zoo
 flag: USA
 language.order: en
+latitude: 39.8256011
+longitude: -88.9228137
 map: https://goo.gl/maps/bNjR8G7oPwx
 photo.1: https://www.instagram.com/p/Bw2_mgagzIg/media/?size=m
 photo.1.author: whitneybaker_95

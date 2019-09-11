@@ -5,5 +5,7 @@ en.location: Indianapolis, Indiana, USA
 en.name: Indianapolis Zoo
 flag: USA
 language.order: en
+latitude: 39.767442
+longitude: -86.1829187
 map: https://goo.gl/maps/XzhaiFMGTE42
 website: https://www.indianapoliszoo.com

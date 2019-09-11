@@ -5,6 +5,8 @@ en.location: Sacramento, California, USA
 en.name: Sacramento Zoo
 flag: USA
 language.order: en
+latitude: 38.5533686
+longitude: -121.5146257
 map: https://goo.gl/maps/GEYwh3eaDRF2
 photo.1: https://www.instagram.com/p/Bvkn-ZlHR_6/media/?size=m
 photo.1.author: sacramentozoo

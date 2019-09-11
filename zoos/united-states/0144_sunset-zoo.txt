@@ -5,5 +5,7 @@ en.location: Manhattan, Kansas, USA
 en.name: Sunset Zoo
 flag: USA
 language.order: en
+latitude: 39.1846213
+longitude: -96.5902839
 map: https://goo.gl/maps/Sj3RgvkaU2y
 website: http://www.sunsetzoo.com/

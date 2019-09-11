@@ -8,6 +8,8 @@ es.location: Buenos Aires, Argentina
 es.name: Ecoparque Interactivo de Buenos Aires
 flag: Argentina
 language.order: es, en, jp
+latitude: -34.5781333
+longitude: -58.4853221
 map: https://goo.gl/maps/LtEhMY2XMbJ2
 photo.1: https://www.instagram.com/p/Br35fPCHyrH/media/?size=m
 photo.1.author: mibaquerido

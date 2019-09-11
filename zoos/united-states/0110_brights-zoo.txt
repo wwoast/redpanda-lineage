@@ -5,6 +5,8 @@ en.location: Limestone, Tennessee, USA
 en.name: Bright's Zoo
 flag: USA
 language.order: en
+latitude: 36.2546187
+longitude: -82.6216489
 map: https://goo.gl/maps/o1JzMwgEGPw
 photo.1: https://www.instagram.com/p/BrjV8nlFSmv/media/?size=m
 photo.1.author: brightszoo

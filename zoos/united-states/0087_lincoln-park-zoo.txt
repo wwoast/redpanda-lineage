@@ -5,6 +5,8 @@ en.location: Chicago, Illinois, USA
 en.name: Lincoln Park Zoo
 flag: USA
 language.order: en
+latitude: 41.9211024
+longitude: -87.6509837
 map: https://goo.gl/maps/HadVPFE1zaq
 photo.1: https://www.instagram.com/p/BT5R0oGhH7M/media/?size=m
 photo.1.author: cristina_chernysh

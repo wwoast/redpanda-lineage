@@ -8,6 +8,8 @@ jp.address: 〒329-3223 栃木県那須郡那須町大島1042-1
 jp.location: 那須郡 栃木県
 jp.name: 那須どうぶつ王国
 language.order: jp, en
+latitude: 37.1290293
+longitude: 140.0349543
 map: https://goo.gl/maps/32qL3cSPkwP2
 photo.1: https://www.instagram.com/p/BoqztCmltwR/media/?size=m
 photo.1.author: kipekaila

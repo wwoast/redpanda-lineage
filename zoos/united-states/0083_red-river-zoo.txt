@@ -5,6 +5,8 @@ en.location: Fargo, North Dakota, USA
 en.name: Red River Zoo
 flag: USA
 language.order: en
+latitude: 46.8457505
+longitude: -96.8582848
 map: https://goo.gl/maps/iDn5ZuFrH4U2
 photo.1: https://www.instagram.com/p/BS67gHKD95c/media/?size=m
 photo.1.author: jdemolee

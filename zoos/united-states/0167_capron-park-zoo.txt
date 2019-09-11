@@ -5,5 +5,7 @@ en.location: Attleboro, Massachusetts, USA
 en.name: Capron Park Zoo
 flag: USA
 language.order: en
+latitude: 41.9376231
+longitude: -71.3014633
 map: https://goo.gl/maps/HkkkTA9xbaH2
 website: https://capronparkzoo.com

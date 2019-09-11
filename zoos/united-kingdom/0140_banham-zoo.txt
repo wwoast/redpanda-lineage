@@ -5,6 +5,8 @@ en.location: Banham, UK
 en.name: Banham Zoo
 flag: UK
 language.order: en
+latitude: 52.4503116
+longitude: 0.9828977
 map: https://goo.gl/maps/NUqMsUxC9u42
 photo.1: https://www.instagram.com/p/BqE35zHgIkV/media/?size=m
 photo.1.author: zseabanhamzoo

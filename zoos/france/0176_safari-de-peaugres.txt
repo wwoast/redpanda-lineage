@@ -8,5 +8,7 @@ fr.address: D821, 07340 Peaugres, France
 fr.location: Peaugres, Ardeche, France
 fr.name: Safari de Peaugres
 language.order: fr, en
+latitude: 45.2662271
+longitude: 4.715139
 map: https://goo.gl/maps/to47igrwiqs
 website: https://www.safari-peaugres.com/

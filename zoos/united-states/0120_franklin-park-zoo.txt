@@ -5,6 +5,8 @@ en.location: Boston, Massachusetts, USA
 en.name: Zoo New England Franklin Park Zoo
 flag: USA
 language.order: en
+latitude: 42.3054665
+longitude: -71.1075389
 map: https://goo.gl/maps/ge1HYzEu1qS2
 photo.1: https://www.instagram.com/p/8iq7F_Etmh/media/?size=m
 photo.1.author: zoonewengland

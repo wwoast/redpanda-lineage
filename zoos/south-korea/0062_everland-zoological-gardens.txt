@@ -9,6 +9,8 @@ kr.address: 경기도 용인시 처인구 포곡읍 에버랜드로 199
 kr.location: 용인시 경기도
 kr.name: 에버랜드
 language.order: kr, en
+latitude: 37.2939146
+longitude: 127.2003777
 map: https://goo.gl/maps/e4tvYMRSY7z
 photo.1: https://www.instagram.com/p/BpbxspAhJ8J/media/?size=m
 photo.1.author: minvlely_sh31

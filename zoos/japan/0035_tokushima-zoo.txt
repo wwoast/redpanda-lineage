@@ -8,6 +8,8 @@ jp.address: 〒771-4267 徳島県徳島市渋野町入道２２−１
 jp.location: 徳島市 徳島県
 jp.name: とくしま動物園
 language.order: jp, en
+latitude: 34.0137524
+longitude: 134.5191863
 map: https://goo.gl/maps/d7LpHftgkFq
 photo.1: https://www.instagram.com/p/BY5TZ6EgTjA/media/?size=m
 photo.1.author: polarbear_zoo

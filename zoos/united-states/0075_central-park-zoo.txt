@@ -8,6 +8,8 @@ jp.address: E 64th St、ニューヨーク、ニューヨーク10021
 jp.location: ニューヨーク ニューヨーク
 jp.name: セントラルパーク動物園
 language.order: en, jp
+latitude: 40.767782
+longitude: -73.9740222
 map: https://goo.gl/maps/Jj2bHyYZhZ92
 photo.1: https://www.instagram.com/p/Bj80DM7gxj6/media/?size=m
 photo.1.author: _pixie_dust_86

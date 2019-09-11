@@ -8,5 +8,7 @@ en.location: Ebeltoft, Region Midtjylland, Denmark
 en.name: Ree Park - Ebeltoft Safari
 flag: Denmark
 language.order: dk, en
+latitude: 56.2706695
+longitude: 10.6830025
 map: https://goo.gl/maps/4z1kJsgauGs
 website: https://www.reepark.dk/

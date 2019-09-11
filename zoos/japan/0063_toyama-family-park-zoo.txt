@@ -8,6 +8,8 @@ jp.address: 〒930-0151 富山県富山市古沢２５４
 jp.location: 富山市 富山県
 jp.name: 富山市ファミリーパーク
 language.order: jp, en
+latitude: 36.6909023
+longitude: 137.1460493
 map: https://goo.gl/maps/v3zCNrq2igs
 photo.1: https://www.instagram.com/p/BmuiSvKBgGI/media/?size=m
 photo.1.author: armsnet

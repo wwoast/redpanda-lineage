@@ -5,5 +5,7 @@ en.location: Sydney, New South Wales, Australia
 en.name: Taronga Zoo Sydney
 flag: Australia
 language.order: en
+latitude: -33.8399865
+longitude: 151.2260459
 map: https://goo.gl/maps/G2VL3pjjP4s
 website: https://taronga.org.au/sydney-zoo

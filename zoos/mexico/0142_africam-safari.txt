@@ -8,5 +8,7 @@ es.location: Puebla, Mexico
 es.name: Africam Safari, Puebla
 flag: Mexico
 language.order: es, en
+latitude: 18.9643204
+longitude: -98.2038396
 map: https://goo.gl/maps/UwKu7TQZFUm
 website: http://www.africamsafari.com/

@@ -6,6 +6,8 @@ en.name: Greater Vancouver Zoo
 en.othernames: 
 flag: Canada
 language.order: en
+latitude: 49.1238474
+longitude: -122.8687328
 map: https://goo.gl/maps/TxXkYjME52C2
 photo.1: https://www.instagram.com/p/Bki9rSMHJ0X/media/?size=m
 photo.1.author: gypsy_dreamz

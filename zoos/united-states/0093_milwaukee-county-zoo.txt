@@ -5,6 +5,8 @@ en.location: Milwaukee, Wisconsin, USA
 en.name: Milwaukee County Zoo
 flag: USA
 language.order: en
+latitude: 43.026838
+longitude: -88.0504021
 map: https://goo.gl/maps/pagD2rWWvY12
 photo.1: https://www.instagram.com/p/BrLDWB2Atk7/media/?size=m
 photo.1.author: milwaukeecozoo

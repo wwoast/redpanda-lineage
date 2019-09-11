@@ -5,5 +5,7 @@ en.location: Syracuse, New York, USA
 en.name: Rosamond Gifford Zoo at Burnet Park
 flag: USA
 language.order: en
+latitude: 43.0441161
+longitude: -76.1914599
 map: https://goo.gl/maps/ghur2zM8qwp
 website: https://www.rosamondgiffordzoo.org/

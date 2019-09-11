@@ -5,6 +5,8 @@ en.location: Greensboro, North Carolina, USA
 en.name: Greensboro Science Center
 flag: USA
 language.order: en
+latitude: 36.1298984
+longitude: -79.8691369
 map: https://goo.gl/maps/8Ecg8V5hWMz
 photo.1: https://www.instagram.com/p/BonIRvOHdsZ/media/?size=m
 photo.1.author: matthewpope28

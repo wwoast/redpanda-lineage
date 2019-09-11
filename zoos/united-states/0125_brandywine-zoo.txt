@@ -5,6 +5,8 @@ en.location: Wilmington, Delaware, USA
 en.name: Brandywine Zoo
 flag: USA
 language.order: en
+latitude: 39.7582466
+longitude: -75.5517247
 map: https://goo.gl/maps/BbYuTcVJmVL2
 photo.1: https://www.instagram.com/p/Brh7cdKFqcc/media/?size=m
 photo.1.author: brandywinezoo

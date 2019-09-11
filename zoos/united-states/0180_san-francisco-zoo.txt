@@ -5,5 +5,7 @@ en.location: San Francisco, California, USA
 en.name: San Francisco Zoo
 flag: USA
 language.order: en
+latitude: 37.7332206
+longitude: -122.5075049
 map: https://goo.gl/maps/H7Dy1JJ2Mtt
 website: http://www.sfzoo.org/

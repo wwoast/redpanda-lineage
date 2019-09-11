@@ -5,5 +5,7 @@ en.location: Paignton, UK
 en.name: Paignton Zoo Environmental Park
 flag: UK
 language.order: en
+latitude: 50.4326122
+longitude: -3.5974683
 map: https://goo.gl/maps/Jigbo16RLDP2
 website: https://www.paigntonzoo.org.uk/

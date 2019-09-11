@@ -6,5 +6,7 @@ en.name: ABQ BioPark - Zoo
 en.othernames: Rio Grande Zoo
 flag: USA
 language.order: en
+latitude: 35.0788346
+longitude: -106.6660283
 map: https://goo.gl/maps/kQFjvE72NVS2
 website: http://www.cabq.gov/culturalservices/biopark

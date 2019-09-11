@@ -5,6 +5,8 @@ en.location: Si Racha, Chon Buri, Thailand
 en.name: Khao Kheow Open Zoo
 flag: Thailand
 language.order: th, en
+latitude: 13.2148627
+longitude: 100.9866786
 map: https://goo.gl/maps/QRi8XP3ynNU2
 photo.1: https://www.instagram.com/p/BRAUtHuBncB/media/?size=m
 photo.1.author: nataly_sav

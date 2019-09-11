@@ -5,6 +5,8 @@ en.location: Calgary, Alberta, Canada
 en.name: Calgary Zoo
 flag: Canada
 language.order: en
+latitude: 51.0459038
+longitude: -114.0258625
 map: https://goo.gl/maps/gXaumYRHucJ2
 photo.1: https://www.instagram.com/p/7q3sBBGtnG/media/?size=m
 photo.1.author: thecalgaryzoo

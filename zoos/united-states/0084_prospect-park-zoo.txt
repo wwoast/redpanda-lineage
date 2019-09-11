@@ -5,6 +5,8 @@ en.location: Brooklyn, NY, USA
 en.name: Prospect Park Zoo
 flag: USA
 language.order: en
+latitude: 40.676838
+longitude: -73.9870309
 map: https://goo.gl/maps/7JRYsikRmTz
 photo.1: https://www.instagram.com/p/BqNk8Pbhhmg/media/?size=m
 photo.1.author: alyssabeckmannyc

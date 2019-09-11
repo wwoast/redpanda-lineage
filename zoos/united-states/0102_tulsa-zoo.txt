@@ -5,6 +5,8 @@ en.location: Tulsa, Oklahoma, USA
 en.name: Tulsa Zoo
 flag: USA
 language.order: en
+latitude: 36.2112664
+longitude: -95.9462436
 map: https://goo.gl/maps/5SaB25cXkwQ2
 photo.1: https://www.instagram.com/p/BWLjtRMltIE/media/?size=m
 photo.1.author: tulsazoo
