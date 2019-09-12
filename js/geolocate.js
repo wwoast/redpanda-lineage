@@ -50,6 +50,24 @@ Geo.G.getNaiveLocation = function() {
   });
 }
 
+/*
+ * Figure out the distance between current location and a zoo.
+ * Given the browser locale, use miles or kilometers.
+ */
+Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
+  var R = this.radius;
+  var lat1 = Geo.toRadians(myLat);
+  var lon1 = Geo.toRadians(myLon);
+  var lat2 = Geo.toRadians(targetLat);
+  var lon2 = Geo.toRadians(targetLon);
+  var dlon = lon2 - lon1;
+  var dlat = lat2 - lat1;
+  var a = Math.pow(Math.sin(dlat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon/2), 2);
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  var d = R * c;
+  return d;
+}
+
 // Determine what units for displaying distance
 // Radius of earth is 3961mi, and 6373km
 Geo.G.setUnits = function() {
@@ -67,24 +85,6 @@ Geo.G.setUnits = function() {
 Geo.G.toggleAccuracy = function() {
   this.finished = false;
   this.accuracy = !(this.accuracy);
-}
-
-/*
- * Figure out the distance between current location and a zoo.
- * Given the browser locale, use miles or kilometers.
- */
-Geo.haversine = function(myLat, myLon, targetLat, targetLon) {
-  var R = geo.radius;
-  var lat1 = Geo.toRadians(myLat);
-  var lon1 = Geo.toRadians(myLon);
-  var lat2 = Geo.toRadians(targetLat);
-  var lon2 = Geo.toRadians(targetLon);
-  var dlon = lon2 - lon1;
-  var dlat = lat2 - lat1;
-  var a = Math.pow(Math.sin(dlat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon/2), 2);
-  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
-  var d = R * c;
-  return d;
 }
 
 Geo.toRadians = function(degrees) {
