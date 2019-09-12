@@ -14,6 +14,7 @@ Geo.G = {};   // Prototype
 Geo.init = function() {
   var geo = Object.create(Geo.G);
   geo.results = [];       // List of zoos that match our search criteria
+  geo.resolved = false;   // Do we know where we are?
   geo.finished = false;   // Do we have results yet or not?
   geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
   // Determine the locale (whether to use kilometers or miles)
@@ -24,7 +25,9 @@ Geo.init = function() {
   geo.setUnits();
   // Quick, dirty geolocation
   geo.getNaiveLocation();
-  // TODO: find 20 closest zoos, and return the 5 closest
+  // Find 20 closest zoos, and return the 5 closest
+  geo.results = geo.findClosest(100, 5, 20);
+  // TODO: get fine-grained accuracy if we need to
   return geo;
 }
 
@@ -36,9 +39,31 @@ Geo.init = function() {
  * the case and too many results were found in the current radius and
  * the ordering may be inaccurate, use GPS location instead (if available).
  */
-Geo.G.findClosest = function(results_count, threshold) {
-  this.finished = true;   // We have something
-  // TODO: do results/distance count
+Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
+  var zoos = {};     // k=distance, v=zoo. Sort by keys ascending
+  var output = [];   // Get max_results items
+  // Iterating across zoos is silly
+  for(var i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
+    // Compare distance with where you are
+    var z = Pandas.searchZooId(i)[0];
+    var d = this.haversine(this.latitude, this.longitude, z.latitude, z.longitude);
+    if (d < max_distance) {
+      zoos[d] = z;
+    }
+  }
+  // Iterate through distances in ascending order
+  for (distance of Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)) {
+    output.push(zoos[distance]);
+  }
+  var count = output.length;
+  output = output.slice(0, max_results);   // Only keep the desired results
+  if (count > accuracy_threshold) {
+    // TODO: get strict location
+    this.toggleAccuracy();
+  } else {
+    this.finished = true;   // We have something
+  }
+  return output;
 }
 
 // Naiive geolocation for getting the quickest possible answer
@@ -46,7 +71,7 @@ Geo.G.getNaiveLocation = function() {
   navigator.geolocation.getCurrentPosition(position => {
     this.latitude = position.coords.latitude;
     this.longitude = position.coords.longitude;
-    this.finished = true;
+    this.resolved = true;
   });
 }
 
@@ -66,7 +91,7 @@ Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   var d = R * c;
   // For printing, use units and convert to a fixed-point number
-  var distance = d.toFixed(1).toString() + this.units;
+  // var distance = d.toFixed(1).toString() + this.units;
   return distance;
 }
 
@@ -85,6 +110,7 @@ Geo.G.setUnits = function() {
 // When changing the accuracy rating, un-toggle the flag tracking
 // whether we completed a geo-lookup yet or not
 Geo.G.toggleAccuracy = function() {
+  this.resolved = false;
   this.finished = false;
   this.accuracy = !(this.accuracy);
 }
