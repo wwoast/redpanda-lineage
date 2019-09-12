@@ -49,13 +49,15 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
     var d = this.haversine(this.latitude, this.longitude, 
                            parseFloat(z.latitude), parseFloat(z.longitude));
     if (d < max_distance) {
+      // For printing, use units and convert to a fixed-point number
+      z["distance"] = d.toFixed(1).toString() + this.units;
       zoos[d] = z;
     }
   }
   // Iterate through distances in ascending order
-  for (let distance of Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)) {
+  var closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1);
+  for (let distance of closest) {
     output.push(zoos[distance]);
-    // TODO: how to surface with pretty printing distances here? Or add to zoo info?
   }
   var count = output.length;
   output = output.slice(0, max_results);   // Only keep the desired results
@@ -92,8 +94,6 @@ Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
   var a = Math.pow(Math.sin(dlat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(dlon/2), 2);
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   var d = R * c;
-  // For printing, use units and convert to a fixed-point number
-  // var distance = d.toFixed(1).toString() + this.units;
   return d;
 }
 
