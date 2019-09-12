@@ -21,8 +21,6 @@ Geo.init = function() {
   geo.radius = 0;
   geo.units = "km";
   geo.setUnits();
-  // Start a quick dirty geolocation
-  geo.getNaiveLocation();
   return geo;
 }
 
@@ -125,6 +123,6 @@ window.addEventListener('found_zoos', function() {
 });
 
 window.addEventListener('resolved_location', function() {
-  // Find 20 closest zoos, and return the 5 closest
-  geo.results = geo.findClosest(100, 5, 20);
+  // Find 20 closest zoos within 100 (mi/km), and return the 5 closest
+  F.findClosest(100, 5, 20);
 });

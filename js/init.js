@@ -24,6 +24,7 @@ var Q;   // Query stack
 var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
+var F;   // Geo-location "finder"
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   L = Language.init();
   T = Touch.init();
   G = Dagoba.graph();
+  F = Geo.init();
 
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
