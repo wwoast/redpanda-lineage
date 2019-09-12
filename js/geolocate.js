@@ -52,7 +52,7 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
     }
   }
   // Iterate through distances in ascending order
-  for (distance of Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)) {
+  for (let distance of Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)) {
     output.push(zoos[distance]);
   }
   var count = output.length;
