@@ -14,8 +14,6 @@ Geo.G = {};   // Prototype
 Geo.init = function() {
   var geo = Object.create(Geo.G);
   geo.results = [];       // List of zoos that match our search criteria
-  geo.resolved = false;   // Do we know where we are?
-  geo.finished = false;   // Do we have results yet or not?
   geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
   // Determine the locale (whether to use kilometers or miles)
   geo.latitude = 0.0;
@@ -23,11 +21,8 @@ Geo.init = function() {
   geo.radius = 0;
   geo.units = "km";
   geo.setUnits();
-  // Quick, dirty geolocation
+  // Start a quick dirty geolocation
   geo.getNaiveLocation();
-  // Find 20 closest zoos, and return the 5 closest
-  geo.results = geo.findClosest(100, 5, 20);
-  // TODO: get fine-grained accuracy if we need to
   return geo;
 }
 
@@ -65,9 +60,9 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
     // TODO: get strict location
     this.toggleAccuracy();
   } else {
-    this.finished = true;   // We have something
+    this.results = output;
+    window.dispatchEvent(Geo.event.foundZoos);
   }
-  return output;
 }
 
 // Naiive geolocation for getting the quickest possible answer
@@ -75,7 +70,7 @@ Geo.G.getNaiveLocation = function() {
   navigator.geolocation.getCurrentPosition(position => {
     this.latitude = position.coords.latitude;
     this.longitude = position.coords.longitude;
-    this.resolved = true;
+    window.dispatchEvent(Geo.event.resolvedLocation);
   });
 }
 
@@ -112,11 +107,24 @@ Geo.G.setUnits = function() {
 // When changing the accuracy rating, un-toggle the flag tracking
 // whether we completed a geo-lookup yet or not
 Geo.G.toggleAccuracy = function() {
-  this.resolved = false;
-  this.finished = false;
   this.accuracy = !(this.accuracy);
 }
+
+Geo.event = {};
+Geo.event.foundZoos = new Event('found_zoos')
+Geo.event.resolvedLocation = new Event('resolved_location');
 
 Geo.toRadians = function(degrees) {
   return degrees * (Math.PI/180);
 }
+
+window.addEventListener('found_zoos', function() {
+  // If we were loading a results screen, spool the results
+  console.log("finished finding zoos");
+  return;
+});
+
+window.addEventListener('resolved_location', function() {
+  // Find 20 closest zoos, and return the 5 closest
+  geo.results = geo.findClosest(100, 5, 20);
+});
