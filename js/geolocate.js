@@ -66,7 +66,7 @@ Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   var d = R * c;
   // For printing, use units and convert to a fixed-point number
-  var distance = d.toFixed(2).toString() + this.units;
+  var distance = d.toFixed(1).toString() + this.units;
   return distance;
 }
 
