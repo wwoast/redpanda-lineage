@@ -11,7 +11,7 @@ var Geo = {};   // Namespace
 
 Geo.G = {};   // Prototype
 
-Geo.init() = function() {
+Geo.init = function() {
   var geo = Object.create(Geo.G);
   geo.results = [];       // List of zoos that match our search criteria
   geo.finished = false;   // Do we have results yet or not?
