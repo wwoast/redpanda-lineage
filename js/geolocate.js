@@ -46,7 +46,8 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
   for(var i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
     // Compare distance with where you are
     var z = Pandas.searchZooId(i)[0];
-    var d = this.haversine(this.latitude, this.longitude, z.latitude, z.longitude);
+    var d = this.haversine(this.latitude, this.longitude, 
+                           parseFloat(z.latitude), parseFloat(z.longitude));
     if (d < max_distance) {
       zoos[d] = z;
     }
