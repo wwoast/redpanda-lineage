@@ -43,13 +43,11 @@ Geo.G.findClosest = function(results_count, threshold) {
 
 // Naiive geolocation for getting the quickest possible answer
 Geo.G.getNaiveLocation = function() {
-  navigator.geolocation.getCurrentPosition(this.setPosition(position));
-}
-
-// Callback for a successful geolocation session
-Geo.G.setPosition = function(position) {
-  this.latitude = position.coords.latitude;
-  this.longitude = position.coords.longitude;
+  navigator.geolocation.getCurrentPosition(position => {
+    this.latitude = position.coords.latitude;
+    this.longitude = position.coords.longitude;
+    this.finished = true;
+  });
 }
 
 // Determine what units for displaying distance
