@@ -55,7 +55,7 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
   // Iterate through distances in ascending order
   for (let distance of Object.keys(zoos).sort((a, b) => a < b ? -1 : 1)) {
     output.push(zoos[distance]);
-    // TODO: deal with pretty printing distances here? Or add to zoo info?
+    // TODO: how to surface with pretty printing distances here? Or add to zoo info?
   }
   var count = output.length;
   output = output.slice(0, max_results);   // Only keep the desired results
