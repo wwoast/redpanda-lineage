@@ -610,7 +610,7 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  if ((Query.env.output_mode != "nearby") && (results == undefined)) {
+  if ((Query.env.output_mode != "nearby") && (results.hits == undefined)) {
     return;   // TODO: handle more delay-rendered results here
   }
   var content_divs = [];
