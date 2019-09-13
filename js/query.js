@@ -385,7 +385,9 @@ Query.resolver = {
       return Pandas.searchBabies();
     }
     if (Query.ops.type.nearby.indexOf(keyword) != -1) {
-      F.getNaiveLocation();
+      if (F.success == false) {
+        F.getNaiveLocation();
+      }
       // If we're still on a query page and another action hasn't occurred,
       // display the zoo results when we're done.
     }
