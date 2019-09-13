@@ -89,6 +89,7 @@ window.addEventListener('hashchange', function() {
   } else if (Query.env.output_mode == "nearby") {
     // Wait until the geolookup is done to render
     // TODO: interstitial?
+    F.resolved = false;
     Page.current = Page.results.render;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
