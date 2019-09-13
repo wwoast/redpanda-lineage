@@ -461,6 +461,9 @@ Page.routes.check = function() {
     Page.current = Page.home.render;
   }
 }
+Page.routes.delayed = [
+  "#query"
+]
 Page.routes.dynamic = [
   "#credit",
   "#links",
