@@ -13,7 +13,7 @@ Geo.G = {};   // Prototype
 
 Geo.init = function() {
   var geo = Object.create(Geo.G);
-  geo.success = false;    // Has a successful lookup completed?
+  geo.resolved = false;    // Has a successful lookup completed?
   geo.results = [];       // List of zoos that match our search criteria
   geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
   geo.latitude = 0.0;
@@ -74,6 +74,7 @@ Geo.G.getNaiveLocation = function() {
   navigator.geolocation.getCurrentPosition(position => {
     this.latitude = position.coords.latitude;
     this.longitude = position.coords.longitude;
+    this.resolved = true;
     window.dispatchEvent(Geo.event.resolvedLocation);
   });
 }
@@ -89,6 +90,7 @@ Geo.G.getPreciseLocation = function() {
   navigator.geolocation.getCurrentPosition(position => {
     this.latitude = position.coords.latitude;
     this.longitude = position.coords.longitude;
+    this.resolved = true;
     window.dispatchEvent(Geo.event.resolvedLocation);
   }, error_noop, options);
 }
@@ -129,11 +131,12 @@ Geo.G.toggleAccuracy = function() {
   this.accuracy = !(this.accuracy);
   if (this.accuracy == true) {
     // Fine-grained control with GPS
+    this.resolved = false;
     this.getPreciseLocation();
   } else {
     // Do a follow-up naive lookup. Our location may have changed,
     // so this isn't a waste of time if a toggle is performed.
-    this.success = false;
+    this.resolved = false;
     this.getNaiveLocation();
   }
 }
@@ -156,7 +159,6 @@ window.addEventListener('found_zoos', function() {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     F.toggleAccuracy();
   }
-  this.success = true;
 });
 
 window.addEventListener('resolved_location', function() {
