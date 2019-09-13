@@ -78,6 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // output results for pandas. Save the hashlink as a value to be loaded if the page
 // is closed.
 window.addEventListener('hashchange', function() {
+  // Any time the page changes, forget location details
+  // in case we might have moved around
+  F.resolved = false;
   var mode = window.location.hash.split("/")[0];
   if (mode == "#home") {
     Page.home.render();
@@ -89,7 +92,6 @@ window.addEventListener('hashchange', function() {
   } else if (Query.env.output_mode == "nearby") {
     // Wait until the geolookup is done to render
     // TODO: interstitial?
-    F.resolved = false;
     Page.current = Page.results.render;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
