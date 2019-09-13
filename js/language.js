@@ -673,6 +673,11 @@ Language.L.messages = {
     "en": ["No Tagged Photos"],
     "jp": ["このパンダのタグ付けされた写真はありません"]
   },
+  "no_zoos_nearby": {
+    "cn": ["附近没有动物园"],
+    "en": ["No Zoos Nearby"],
+    "jp": ["近くに動物園はありません"]
+  },
   "overflow": {
     "cn": ["仅显示",
           "<INSERTLIMIT>"],

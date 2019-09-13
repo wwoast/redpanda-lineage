@@ -24,6 +24,7 @@ var Q;   // Query stack
 var L;   // Language methods and current language
 var T;   // Touch object
 var G;   // Lineage graph
+var F;   // Geo-location "finder"
 
 /*
     Once page has loaded, add new event listeners for search processing
@@ -34,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   L = Language.init();
   T = Touch.init();
   G = Dagoba.graph();
+  F = Geo.init();
 
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
@@ -76,6 +78,9 @@ document.addEventListener("DOMContentLoaded", function() {
 // output results for pandas. Save the hashlink as a value to be loaded if the page
 // is closed.
 window.addEventListener('hashchange', function() {
+  // Any time the page changes, forget location details
+  // in case we might have moved around
+  F.resolved = false;
   var mode = window.location.hash.split("/")[0];
   if (mode == "#home") {
     Page.home.render();
@@ -84,6 +89,10 @@ window.addEventListener('hashchange', function() {
     Page.about.hashchange();
   } else if (mode == "#links") {
     Page.links.hashchange();
+  } else if (Query.env.output_mode == "nearby") {
+    // Wait until the geolookup is done to render
+    // TODO: interstitial?
+    Page.current = Page.results.render;
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;

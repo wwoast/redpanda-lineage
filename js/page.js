@@ -529,6 +529,31 @@ Page.results.entities = function(results) {
   });
   return content_divs;
 }
+// Given a search for nearest zoos, add zoo divs and the pandas that live there,
+// along with a header message of the zoos by proximity.
+Page.results.nearby = function(results) {
+  var content_divs = [];
+  if (results["hits"].length == 0) {
+    // No results? On desktop, bring up a sad panda
+    content_divs.push(Show.emptyResult(L.no_zoos_nearby, L.display));
+  }
+  // Summary information
+  results["hits"].forEach(function(entity) {
+    // TODO: Create message with the content information and zoo links
+  });
+  // Zoo results
+  results["hits"].forEach(function(entity) {
+    // Zoos get the Zoo div and pandas for this zoo
+    content_divs.push(Show.results.zoo(entity, L.display));
+    animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
+    animals.forEach(function(animal) {
+      content_divs.push(Show.results.panda(animal, L.display, undefined));
+    });
+  });
+  // HACK: return to entity mode
+  Query.env.output_mode = "entities";
+  return content_divs;
+}
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
@@ -595,6 +620,9 @@ Page.results.render = function() {
     case "photos":
       content_divs = Page.results.photos(results);
       new_content.style.textAlign = "center";   // Align photos centered in each row
+      break;
+    case "nearby":
+      content_divs = Page.results.nearby(F.results);
       break;
   }
   var shrinker = document.createElement('div');
