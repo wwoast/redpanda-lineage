@@ -385,7 +385,7 @@ Query.resolver = {
       return Pandas.searchBabies();
     }
     if (Query.ops.type.nearby.indexOf(keyword) != -1) {
-      if (F.success == false) {
+      if (F.resolved == false) {
         F.getNaiveLocation();
       }
       // If we're still on a query page and another action hasn't occurred,
