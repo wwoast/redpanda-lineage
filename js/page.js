@@ -461,9 +461,6 @@ Page.routes.check = function() {
     Page.current = Page.home.render;
   }
 }
-Page.routes.delayed = [
-  "#query"
-]
 Page.routes.dynamic = [
   "#credit",
   "#links",
@@ -613,6 +610,9 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
+  if ((Query.env.output_mode != "nearby") && (results == undefined)) {
+    return;   // TODO: handle more delay-rendered results here
+  }
   var content_divs = [];
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
