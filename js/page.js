@@ -550,6 +550,8 @@ Page.results.nearby = function(results) {
       content_divs.push(Show.results.panda(animal, L.display, undefined));
     });
   });
+  // HACK: return to entity mode
+  Query.env.output_mode = "entity";
   return content_divs;
 }
 Page.results.photos = function(results) {
