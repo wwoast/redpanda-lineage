@@ -118,8 +118,7 @@ Geo.toRadians = function(degrees) {
 
 window.addEventListener('found_zoos', function() {
   // If we were loading a results screen, spool the results
-  console.log("finished finding zoos");
-  return;
+  // If this is a normal results/query page
 });
 
 window.addEventListener('resolved_location', function() {

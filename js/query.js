@@ -72,6 +72,7 @@ Query.ops = {
     "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', 'aka-chan', '赤ちゃん'],
     "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
     "dead": ["Dead", "dead", "Died", "died", "死", "Rainbow", "rainbow", "虹"],
+    "nearby": ["nearby", "near", "近く", "近くの動物園"],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
     "zoo": ['Zoo', 'zoo', '動物園']
   },
@@ -123,6 +124,7 @@ Query.ops.group.types = Query.values(Query.ops.type);
 Query.ops.group.zeroary = Query.values([
   Query.ops.type.baby,
   Query.ops.type.dead,
+  Query.ops.type.nearby,
   Language.L.tags
 ])
 // Unary operators
@@ -381,6 +383,11 @@ Query.resolver = {
   "singleton": function(keyword) {
     if (Query.ops.type.baby.indexOf(keyword) != -1) {
       return Pandas.searchBabies();
+    }
+    if (Query.ops.type.nearby.indexOf(keyword) != -1) {
+      F.getNaiveLocation();
+      // If we're still on a query page and another action hasn't occurred,
+      // display the zoo results when we're done.
     }
     if (Query.ops.type.dead.indexOf(keyword) != -1) {
       return Pandas.searchDead();

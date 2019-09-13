@@ -86,6 +86,7 @@ window.addEventListener('hashchange', function() {
     Page.about.hashchange();
   } else if (mode == "#links") {
     Page.links.hashchange();
+  // TODO: add a case for nearby URI query as its own URI
   } else if (Page.routes.results.includes(mode)) {
     Page.results.render();
     Page.current = Page.results.render;
