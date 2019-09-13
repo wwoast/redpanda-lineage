@@ -41,7 +41,7 @@ Geo.init = function() {
  */
 Geo.G.findClosest = function(max_distance, max_results) {
   var zoos = {};     // k=distance, v=zoo. Sort by keys ascending
-  var output = [];   // Get max_results items
+  var hit_list = [];   // Get max_results items
   // Iterating across zoos is silly
   for(var i = -1; Pandas.searchZooId(i)[0] != undefined; i--) {
     // Compare distance with where you are
@@ -57,11 +57,14 @@ Geo.G.findClosest = function(max_distance, max_results) {
   // Iterate through distances in ascending order
   var closest = Object.keys(zoos).sort((a, b) => a < b ? -1 : 1);
   for (let distance of closest) {
-    output.push(zoos[distance]);
+    hit_list.push(zoos[distance]);
   }
-  var count = output.length;
-  output = output.slice(0, max_results);   // Only keep the desired results
-  this.results = output;
+  hit_list = hit_list.slice(0, max_results);   // Only keep the desired results
+  // Return a dict similar to the results of the query parse responses
+  this.results = {
+    "hits": hit_list,
+    "type": "nearby"
+  }
   window.dispatchEvent(Geo.event.foundZoos);  
 }
 
@@ -147,7 +150,7 @@ window.addEventListener('found_zoos', function() {
   Query.env.output_mode = "nearby";
   Page.results.render();
   Page.current = Page.results.render;
-  if (F.results.length >= F.close_Results) {
+  if (F.results.length >= F.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     F.toggleAccuracy();
   }
