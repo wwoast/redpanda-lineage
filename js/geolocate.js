@@ -15,12 +15,19 @@ Geo.init = function() {
   var geo = Object.create(Geo.G);
   geo.results = [];       // List of zoos that match our search criteria
   geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
-  // Determine the locale (whether to use kilometers or miles)
   geo.latitude = 0.0;
   geo.longitude = 0.0;
-  geo.radius = 0;
+  geo.earth = 0;
   geo.units = "km";
+  // Determine the locale (whether to use kilometers or miles)
   geo.setUnits();
+  // Default nearby search radius (100 km/mi)
+  geo.radius = 100;
+  // Default max results
+  geo.max_results = 5;
+  // If radius has more than 2*max_results nearby, try to offer better results
+  // by using GPS positioning instead of IP location
+  geo.close_results = geo.max_results * 2;
   return geo;
 }
 
@@ -32,7 +39,7 @@ Geo.init = function() {
  * the case and too many results were found in the current radius and
  * the ordering may be inaccurate, use GPS location instead (if available).
  */
-Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
+Geo.G.findClosest = function(max_distance, max_results) {
   var zoos = {};     // k=distance, v=zoo. Sort by keys ascending
   var output = [];   // Get max_results items
   // Iterating across zoos is silly
@@ -54,13 +61,8 @@ Geo.G.findClosest = function(max_distance, max_results, accuracy_threshold) {
   }
   var count = output.length;
   output = output.slice(0, max_results);   // Only keep the desired results
-  if (count > accuracy_threshold) {
-    // TODO: get strict location
-    this.toggleAccuracy();
-  } else {
-    this.results = output;
-    window.dispatchEvent(Geo.event.foundZoos);
-  }
+  this.results = output;
+  window.dispatchEvent(Geo.event.foundZoos);  
 }
 
 // Naiive geolocation for getting the quickest possible answer
@@ -72,12 +74,27 @@ Geo.G.getNaiveLocation = function() {
   });
 }
 
+// Set API options to use more precision if desired or useful
+Geo.G.getPreciseLocation = function() {
+  var options = {
+    enableHighAccuracy: true,
+    timeout: 5000,
+    maximumAge: 0
+  }
+  var error_noop = function() {};
+  navigator.geolocation.getCurrentPosition(position => {
+    this.latitude = position.coords.latitude;
+    this.longitude = position.coords.longitude;
+    window.dispatchEvent(Geo.event.resolvedLocation);
+  }, error_noop, options);
+}
+
 /*
  * Figure out the distance between current location and a zoo.
  * Given the browser locale, use miles or kilometers.
  */
 Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
-  var R = this.radius;
+  var R = this.earth;
   var lat1 = Geo.toRadians(myLat);
   var lon1 = Geo.toRadians(myLon);
   var lat2 = Geo.toRadians(targetLat);
@@ -94,10 +111,10 @@ Geo.G.haversine = function(myLat, myLon, targetLat, targetLon) {
 // Radius of earth is 3961mi, and 6373km
 Geo.G.setUnits = function() {
   if (navigator.language == "en-US") {
-    this.radius = 3961;
+    this.earth = 3961;
     this.units = "mi";
   } else {
-    this.radius = 6373;
+    this.earth = 6373;
     this.units = "km";
   }
 }
@@ -106,6 +123,14 @@ Geo.G.setUnits = function() {
 // whether we completed a geo-lookup yet or not
 Geo.G.toggleAccuracy = function() {
   this.accuracy = !(this.accuracy);
+  if (this.accuracy == true) {
+    // Fine-grained control with GPS
+    this.getPreciseLocation();
+  } else {
+    // Do a follow-up naive lookup. Our location may have changed,
+    // so this isn't a waste of time if a toggle is performed.
+    this.getNaiveLocation();
+  }
 }
 
 Geo.event = {};
@@ -119,9 +144,16 @@ Geo.toRadians = function(degrees) {
 window.addEventListener('found_zoos', function() {
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
+  Query.env.output.mode = "nearest";
+  Page.results.render();
+  Page.current = Page.results.render;
+  if (F.results.length >= F.close_Results) {
+    // Search fine-tuned results with GPS if there's a lot of nearby zoos
+    F.toggleAccuracy();
+  }
 });
 
 window.addEventListener('resolved_location', function() {
   // Find 20 closest zoos within 100 (mi/km), and return the 5 closest
-  F.findClosest(100, 5, 20);
+  F.findClosest(F.radius, F.max_results);
 });
