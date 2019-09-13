@@ -551,7 +551,7 @@ Page.results.nearby = function(results) {
     });
   });
   // HACK: return to entity mode
-  Query.env.output_mode = "entity";
+  Query.env.output_mode = "entities";
   return content_divs;
 }
 Page.results.photos = function(results) {
