@@ -562,7 +562,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => locator.indexOf("panda.") == 0);
   var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
   var new_panda_chosen = Pandas.shuffle(new_panda_photos).slice().splice(0, photo_count);
-  new_panda_chosen = Pandas.sortPhotosByName(new_pandas_chosen, language + ".name");
+  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
