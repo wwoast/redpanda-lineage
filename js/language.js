@@ -612,6 +612,17 @@ Language.L.messages = {
     "en": ", ",
     "jp": "、"
   },
+  "nearby_zoos": {
+    "cn": ["搜索附近的动物园。",
+            "如果地理定位已停用，",
+            "请搜索您所在的城市。"],
+    "en": ["Searching for nearby zoos. ",
+           "If geolocation is disabled,  ",
+           "please search for your city instead."],
+    "jp": ["近くの動物園を検索しています。",
+           "ジオロケーションが無効になっている場合は、",
+           "代わりに都市を検索してください。"]
+  },
   "new_photos": {
     "contributors": {
       "cn": [Language.L.emoji.giftwrap,
