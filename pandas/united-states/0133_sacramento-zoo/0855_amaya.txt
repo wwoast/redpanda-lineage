@@ -2,12 +2,12 @@
 _id: 855
 birthday: 2016/6/27
 birthplace: 154
-children: none
-en.name: Amiya
+children: 990
+en.name: Amaya
 en.nicknames: none
-en.othernames: none
+en.othernames: Amiya
 gender: f
-jp.name: あみや
+jp.name: アマヤ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
