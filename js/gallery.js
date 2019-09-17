@@ -622,15 +622,6 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     photo_count = photo_count - 1;
     zoo_class_index = zoo_class_index + 1;
   }
-  for (let new_panda_photo of new_panda_chosen) {
-    if (photo_count == 0) {
-      return output_photos;
-    }
-    // New panda added, so make sure it gets the heart icon
-    new_panda_photo.name_icon = Language.L.emoji.profile;
-    output_photos.push(new_panda_photo);
-    photo_count = photo_count - 1;
-  }
   for (let author_photo of author_chosen) {
     if (photo_count == 0) {
       return output_photos;
@@ -645,6 +636,15 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     }
     author_photo.credit_icon = Language.L.emoji.giftwrap;
     output_photos.push(author_photo);
+    photo_count = photo_count - 1;
+  }
+  for (let new_panda_photo of new_panda_chosen) {
+    if (photo_count == 0) {
+      return output_photos;
+    }
+    // New panda added, so make sure it gets the heart icon
+    new_panda_photo.name_icon = Language.L.emoji.profile;
+    output_photos.push(new_panda_photo);
     photo_count = photo_count - 1;
   }
   // If the author or entity photos have animals represented in the other update photos,
