@@ -557,6 +557,12 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     });
   var zoo_chosen = Pandas.shuffle(zoo_photos).slice().splice(0, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
+  // Photos of newly introduced pandas
+  var new_panda_locators = P.db["_updates"].entities
+    .filter(locator => locator.indexOf("panda.") == 0);
+  var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
+  var new_pandas_chosen = Pandas.shuffle(new_panda_photos).slice().splice(0, photo_count);
+  new_pandas_chosen = Pandas.sortPhotosByName(new_pandas_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
@@ -615,6 +621,15 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     }
     photo_count = photo_count - 1;
     zoo_class_index = zoo_class_index + 1;
+  }
+  for (let new_panda_photo of new_panda_chosen) {
+    if (photo_count == 0) {
+      return output_photos;
+    }
+    // New panda added, so make sure it gets the heart icon
+    new_panda_photo.name_icon = Language.L.emoji.profile;
+    output_photos.push(new_panda_photo);
+    photo_count = photo_count - 1;
   }
   for (let author_photo of author_chosen) {
     if (photo_count == 0) {
