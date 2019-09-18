@@ -1405,32 +1405,27 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
   } else {
     message = L.messages.profile_children;
   }
+  var output_text = "";
   // Do string replacement
   for (var i in message[language]) {
     var field = message[language][i];
     if (field == "<INSERTNAME>") {
-      var msg = document.createTextNode(name);
-      p.appendChild(msg);
+      output_text = output_text.concat(name);
     } else if (field == "<INSERTTOTAL>") {
-      var msg = document.createTextNode(children_count);
-      p.appendChild(msg);
+      output_text = output_text.concat(children_count);
     } else if (field == "<INSERTDAUGHTERS>") {
-      var msg = document.createTextNode(daughters);
-      p.appendChild(msg);
+      output_text = output_text.concat(daughters);
     } else if (field == "<INSERTSONS>") {
-      var msg = document.createTextNode(sons);
-      p.appendChild(msg);
+      output_text = output_text.concat(sons);
     } else if (field == "<INSERTBABIES>") {
-      var msg = document.createTextNode(babies);
-      p.appendChild(msg);
+      output_text = output_text.concat(babies);
     } else {
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
+      output_text = output_text.concat(field);
     }
   }
-  // TODO: Write a function to do all English tuneups.
-  // 1 babys. Nuts's. ETC. Write the pieces logic, rather than
-  // creating all the text nodes as here
+  output_text = Language.unpluralize([output_text])[0];
+  p.appendChild(document.createTextNode(output_text));
+
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -1452,8 +1447,6 @@ Show.message.profile_family = function(name, language) {
     }
   }
   // Fix s's if it appears
-  // TODO: Write a function to do all English tuneups.
-  // 1 babys. Nuts's. ETC
   var innerText = p.innerText;
   p.innerText = innerText.replace("s's", "s'");
   var shrinker = document.createElement('div');
@@ -1489,28 +1482,26 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   } else {
     message = L.messages.profile_siblings;
   }
+  var output_text = "";
   for (var i in message[language]) {
     var field = message[language][i];
     if (field == "<INSERTNAME>") {
-      var msg = document.createTextNode(name);
-      p.appendChild(msg);
+      output_text = output_text.concat(name);
     } else if (field == "<INSERTTOTAL>") {
-      var msg = document.createTextNode(sibling_count);
-      p.appendChild(msg);
+      output_text = output_text.concat(sibling_count);
     } else if (field == "<INSERTSISTERS>") {
-      var msg = document.createTextNode(sisters);
-      p.appendChild(msg);
+      output_text = output_text.concat(sisters);
     } else if (field == "<INSERTBROTHERS>") {
-      var msg = document.createTextNode(brothers);
-      p.appendChild(msg);
+      output_text = output_text.concat(brothers);
     } else if (field == "<INSERTBABIES>") {
-      var msg = document.createTextNode(babies);
-      p.appendChild(msg);
+      output_text = output_text.concat(babies);
     } else {
-      var msg = document.createTextNode(field);
-      p.appendChild(msg);
+      output_text = output_text.concat(field);
     }
   }
+  output_text = Language.unpluralize([output_text])[0];
+  p.appendChild(document.createTextNode(output_text));
+
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
