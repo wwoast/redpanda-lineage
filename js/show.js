@@ -1333,11 +1333,16 @@ Show.message.new_photos = function(language) {
     "zoos": P.db._totals.updates.zoos
   }
   var section_order = [];
-  if (counts["zoos"] == 0 && counts["entities"] == 0 && counts["photos"] == 0) {
+  if (counts["zoos"] == 0 && 
+      counts["entities"] == 0 && 
+      counts["photos"] == 0 &&
+      counts["pandas"] == 0) {
     return;   // No message to display
   }
-  // Zoo counts is too much information
-  if (counts["pandas"] > 0 ) {
+  // Zoo counts are too much information
+  if (counts["pandas"] > 0 && counts["photos"] > 0) {
+    section_order = ["pandas", "photos", "suffix"];
+  } else if (counts["pandas"] > 0 ) {
     section_order = ["pandas", "contributors", "suffix"];
   } else if (counts["contributors"] > 0) {
     section_order = ["contributors", "photos", "suffix"];
@@ -1363,6 +1368,7 @@ Show.message.new_photos = function(language) {
     }
     pieces.push(output);
   }
+  pieces = Language.unpluralize(pieces);
   // Build a string out of phrases with commas + &
   var p = Language.commaPhrase(pieces);
   p.className = "updatePhotosMessage";
@@ -1423,7 +1429,8 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
     }
   }
   // TODO: Write a function to do all English tuneups.
-  // 1 babys. Nuts's. ETC
+  // 1 babys. Nuts's. ETC. Write the pieces logic, rather than
+  // creating all the text nodes as here
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);

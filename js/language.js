@@ -1843,3 +1843,26 @@ Language.saveInfoKeys = function(info, order) {
   }, {});
   return filtered;
 }
+// Take specific english words and unpluralize them if necessary
+Language.unpluralize = function(pieces) {
+  var output = [];
+  if (L.display == "en") {
+    for (var input of pieces) {
+      input = input.replace("1 photos", "one photo")
+                   .replace("1 new photos", "one new photo")
+                   .replace("1 boys", "one boy")
+                   .replace("1 girls", "one girl")
+                   .replace("1 brothers", "one brother")
+                   .replace("1 sisters", "one sister")
+                   .replace("1 sons", "one son")
+                   .replace("1 daughters", "one daughter")
+                   .replace("1 new red pandas", "one new red panda")
+                   .replace("1 new contributors", "one new contributor")
+                   .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ");
+      output.push(input);
+    }
+    return output;
+  } else {
+    return pieces;
+  }
+}
