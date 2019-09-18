@@ -353,8 +353,11 @@ Pandas.shuffle = function(array) {
   return array;
 }
 
-// Enforce uniqueness on members of array-dicts, based on a field
+// Enforce uniqueness on members of array-dicts, based on a field.
+// Force a shuffle before choosing unique values, to add variety
+// when displaying unique values
 Pandas.unique = function(array, field) {
+  array = Pandas.shuffle(array);
   var seen = {};
   for (let i = 0; i < array.length; i++) {
     value = array[i][field];
