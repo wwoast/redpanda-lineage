@@ -1363,7 +1363,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         display: none;
     }
 
-    ul.pandaList {
+    ul.pandaList, ul.pandaList.double, ul.pandaList.triple {
         margin-left: 0px;   /* Get a little more space on mobile */
     }
     
