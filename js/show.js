@@ -573,6 +573,10 @@ Show.button.flag.action = function() {
   if ((choice > -1) && (language != L.display)) {
     L.display = language;
     L.update();
+    // Redraw the nearby page if necessary
+    if (Query.env.output_mode = "nearby") {
+      F.getNaiveLocation();
+    }
     Page.redraw(Page.current);
   }
   Show.button.language.hide();   // If language menu open, hide it
