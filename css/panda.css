@@ -1364,21 +1364,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     }
 
     ul.pandaList {
-        margin-left: 4px;
-    }
-
-    ul.pandaList.en > li > a > span.ultraCondensed {
-        font-size: 9.5pt;
-    }
-    
-    ul.pandaList.jp > li > a > span.ultraCondensed {
-        letter-spacing: -3px;
-        font-size: 11pt;
-    }
-
-    ul.pandaList > li > a > span.ultraCondensed.adjusted {
-        letter-spacing: 0px;
-        font-size: 9.5pt;
+        margin-left: 0px;   /* Get a little more space on mobile */
     }
     
     ul.linkList {
