@@ -1,0 +1,33 @@
+[panda]
+_id: 695
+birthday: 2005/6/12
+birthplace: 109
+children: 820
+en.name: Hunter
+en.nicknames: none
+en.oldnames: Pele
+en.othernames: none
+gender: f
+jp.name: ハンター
+jp.nicknames: none
+jp.oldnames: ペレ
+jp.othernames: none
+language.order: en, jp
+litter: 696
+location.1: 109, 2005/6/12
+location.2: 144, 2012/11/28
+location.3: 180, 2014/12/4
+photo.1: https://www.instagram.com/p/Bj8EXoajpvK/media/?size=m
+photo.1.author: sanfranciscozoo
+photo.1.link: https://www.instagram.com/sanfranciscozoo/
+photo.1.tags: paws, white face
+photo.2: https://www.instagram.com/p/Bur90kkgC9N/media/?size=m
+photo.2.author: sanfranciscozoo
+photo.2.link: https://www.instagram.com/sanfranciscozoo/
+photo.2.tags: laying down, mofumofu, tail
+photo.3: https://www.instagram.com/p/BVQg_etl2_3/media/?size=m
+photo.3.author: sanfranciscozoo
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+photo.3.tags: flowers, profile, white face
+species: 1
+zoo: 180

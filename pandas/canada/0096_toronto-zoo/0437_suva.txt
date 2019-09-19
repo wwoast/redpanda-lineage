@@ -1,0 +1,23 @@
+[panda]
+_id: 437
+birthday: 2017/6/13
+birthplace: 82
+children: none
+en.name: Suva
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 438
+location.1: 82, 2017/6/13
+location.2: 76, 2018/1/1
+location.3: 96, 2019/7/1
+photo.1: https://www.instagram.com/p/B2EkzLqgCta/media/?size=m
+photo.1.author: thetorontozoo
+photo.1.link: https://www.instagram.com/thetorontozoo/
+photo.1.tags: profile
+species: 2
+zoo: 96

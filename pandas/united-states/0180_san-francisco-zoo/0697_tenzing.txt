@@ -14,5 +14,64 @@ language.order: en, jp
 litter: none
 location.1: 133, 2013/6/1
 location.2: 180, 2014/3/24
+photo.1: https://www.instagram.com/p/BMFc1UXlZVE/media/?size=m
+photo.1.author: sanfranciscozoo
+photo.1.link: https://www.instagram.com/sanfranciscozoo/
+photo.1.tags: pumpkin
+photo.2: https://www.instagram.com/p/BQMX_fdlFbO/media/?size=m
+photo.2.author: sanfranciscozoo
+photo.2.link: https://www.instagram.com/sanfranciscozoo/
+photo.2.tags: bamboo, flowers, paws
+photo.3: https://www.instagram.com/p/BSzvXd0FMYu/media/?size=m
+photo.3.author: sanfranciscozoo
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+photo.3.tags: smile
+photo.4: https://www.instagram.com/p/BTHWqG4l0CW/media/?size=m
+photo.4.author: sanfranciscozoo
+photo.4.link: https://www.instagram.com/sanfranciscozoo/
+photo.4.tags: bamboo, paws, whiskers
+photo.5: https://www.instagram.com/p/BVFg5rflkBE/media/?size=m
+photo.5.author: sanfranciscozoo
+photo.5.link: https://www.instagram.com/sanfranciscozoo/
+photo.5.tags: bridge, smile
+photo.6: https://www.instagram.com/p/BZ6aF8eFNFk/media/?size=m
+photo.6.author: sanfranciscozoo
+photo.6.link: https://www.instagram.com/sanfranciscozoo/
+photo.6.tags: smile
+photo.7: https://www.instagram.com/p/Ba62A43lyqY/media/?size=m
+photo.7.author: sanfranciscozoo
+photo.7.link: https://www.instagram.com/sanfranciscozoo/
+photo.7.tags: pumpkin
+photo.8: https://www.instagram.com/p/Bds34ZZlSu5/media/?size=m
+photo.8.author: sanfranciscozoo
+photo.8.link: https://www.instagram.com/sanfranciscozoo/
+photo.8.tags: smile, tail
+photo.9: https://www.instagram.com/p/BfuJIBxnR4k/media/?size=m
+photo.9.author: sanfranciscozoo
+photo.9.link: https://www.instagram.com/sanfranciscozoo/
+photo.9.tags: air tasting, tail, tongue
+photo.10: https://www.instagram.com/p/Bg4rsESA6tB/media/?size=m
+photo.10.author: sanfranciscozoo
+photo.10.link: https://www.instagram.com/sanfranciscozoo/
+photo.10.tags: smile, white face
+photo.11: https://www.instagram.com/p/Bl3gufRg_yR/media/?size=m
+photo.11.author: sanfranciscozoo
+photo.11.link: https://www.instagram.com/sanfranciscozoo/
+photo.11.tags: home, laying down, toys, upside-down
+photo.12: https://www.instagram.com/p/Bnwk7vAFWVv/media/?size=m
+photo.12.author: sanfranciscozoo
+photo.12.link: https://www.instagram.com/sanfranciscozoo/
+photo.12.tags: grooming, tail
+photo.13: https://www.instagram.com/p/ByN4LxLl5vj/media/?size=m
+photo.13.author: sanfranciscozoo
+photo.13.link: https://www.instagram.com/sanfranciscozoo/
+photo.14: https://www.instagram.com/p/B1zjvAbnjO1/media/?size=m
+photo.14.author: sanfranciscozoo
+photo.14.link: https://www.instagram.com/sanfranciscozoo/
+photo.14.tags: lunch time
+photo.15: https://www.instagram.com/p/B2ZqI3TAlRc/media/?size=m
+photo.15.author: sanfranciscozoo
+photo.15.link: https://www.instagram.com/sanfranciscozoo/
+photo.15.tags: portrait, profile
 species: 1
 zoo: 180
