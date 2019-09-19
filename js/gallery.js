@@ -557,12 +557,6 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     });
   var zoo_chosen = Pandas.shuffle(zoo_photos).slice().splice(0, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
-  // Photos of newly introduced pandas
-  var new_panda_locators = P.db["_updates"].entities
-    .filter(locator => locator.indexOf("panda.") == 0);
-  var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
-  var new_panda_chosen = Pandas.shuffle(new_panda_photos).slice().splice(0, photo_count);
-  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
@@ -574,6 +568,13 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     author_chosen = Pandas.unique(author_chosen, "credit");
   }
   author_chosen = Pandas.sortPhotosByName(author_chosen, language + ".name");
+  // Photos of newly introduced pandas
+  var new_panda_locators = P.db["_updates"].entities
+    .filter(locator => locator.indexOf("panda.") == 0)
+    .filter(locator => author_locators.indexOf(locator) == -1);
+  var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
+  var new_panda_chosen = Pandas.shuffle(new_panda_photos).slice().splice(0, photo_count);
+  new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language + ".name");
   // New pandas, or new panda group photos
   var panda_locators = P.db["_updates"].entities
     .filter(locator => zoo_locators.indexOf(locator) == -1);
