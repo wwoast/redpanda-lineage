@@ -563,7 +563,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   var author_chosen = author_photos.slice();
   author_chosen = author_chosen.filter(photo => photo.type != "zoo");
   author_chosen = Pandas.shuffle(author_chosen).splice(0, photo_count);
-  if (author_chosen.length > 3) {
+  if (author_chosen.length > 10) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_chosen = Pandas.unique(author_chosen, "credit");
   }
