@@ -535,16 +535,12 @@ Page.results.nearby = function(results) {
   var content_divs = [];
   if (results.length == 0) {
     // Stuck at the interstitial after a language transition
-    return [];
+    F.geoLookupStart();
   }
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
     content_divs.push(Show.emptyResult(L.no_zoos_nearby, L.display));
   }
-  // Summary information
-  results["hits"].forEach(function(entity) {
-    // TODO: Create message with the content information and zoo links
-  });
   // Zoo results
   results["hits"].forEach(function(entity) {
     // Zoos get the Zoo div and pandas for this zoo

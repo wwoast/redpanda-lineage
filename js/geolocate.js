@@ -146,15 +146,20 @@ Geo.event = {};
 Geo.event.foundZoos = new Event('found_zoos')
 Geo.event.resolvedLocation = new Event('resolved_location');
 
-Geo.renderGeoLookupStart = function() {
+// The interstitial message to draw if blocked on location permissions
+Geo.geoLookupStart = function() {
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  // TODO: render message about looking up geolocation
   var message = Show.message.geolocationStart(L.display);
   shrinker.appendChild(message);
   new_content.appendChild(shrinker);
+  return new_content;
+}
+
+Geo.renderGeoLookupStart = function() {
+  var new_content = Geo.geoLookupStart();
   // Redraw the search bar if necessary
   Show["results"].searchBar();
   // Append the new content into the page and then swap it in
