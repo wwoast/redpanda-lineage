@@ -2361,7 +2361,12 @@ Show.searchBar.enable = function() {
     document.forms['searchForm']['searchInput'].placeholder = placeholder;
     Show.searchBar.action();
   }
-  document.getElementById('searchInput').focus();  // Set text cursor
+  // Refocus text cursor once page loads, but only on non-touch devices
+  if (!("ontouchstart" in window)) {
+    setTimeout(function() {
+      document.getElementById('searchInput').focus();   // Set text cursor
+    }, 0);
+  }
 }
 Show.searchBar.remove = function(frame_id="bottomSearch") {
   // Remove the search bar when leaving profile mode. By default it will be
