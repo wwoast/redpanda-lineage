@@ -71,6 +71,7 @@ Geo.G.findClosest = function(max_distance, max_results) {
 
 // Naive geolocation for getting the quickest possible answer. 
 Geo.G.getNaiveLocation = function() {
+  Geo.renderGeoLookupStart();
   navigator.geolocation.getCurrentPosition(position => {
     this.latitude = position.coords.latitude;
     this.longitude = position.coords.longitude;
@@ -144,6 +145,27 @@ Geo.G.toggleAccuracy = function() {
 Geo.event = {};
 Geo.event.foundZoos = new Event('found_zoos')
 Geo.event.resolvedLocation = new Event('resolved_location');
+
+Geo.renderGeoLookupStart = function() {
+  var new_content = document.createElement('div');
+  new_content.id = "hiddenContentFrame";
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  // TODO: render message about looking up geolocation
+  var message = Show.message.geolocationStart(L.display);
+  shrinker.appendChild(message);
+  new_content.appendChild(shrinker);
+  // Redraw the search bar if necessary
+  Show["results"].searchBar();
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, new_content);
+  // Call layout adjustment functions to shrink any names that are too long
+  Show["results"].menus.language();
+  Show["results"].menus.top();
+  Page.footer.redraw("results");
+  Page.color("results");
+}
 
 Geo.toRadians = function(degrees) {
   return degrees * (Math.PI/180);

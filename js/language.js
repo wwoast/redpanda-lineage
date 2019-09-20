@@ -613,15 +613,24 @@ Language.L.messages = {
     "jp": "、"
   },
   "nearby_zoos": {
-    "cn": ["搜索附近的动物园。",
-            "如果地理定位已停用，",
-            "请搜索您所在的城市。"],
-    "en": ["Searching for nearby zoos. ",
-           "If geolocation is disabled,  ",
-           "please search for your city instead."],
-    "jp": ["近くの動物園を検索しています。",
-           "ジオロケーションが無効になっている場合は、",
-           "代わりに都市を検索してください。"]
+    "cn": [Language.L.emoji.website,
+           " ",
+           Language.L.emoji.home,
+           " 搜索附近的动物园。",
+           "如果地理位置失败，",
+           "请尝试搜索您的城市。"],
+    "en": [Language.L.emoji.website,
+           " ",
+           Language.L.emoji.home,
+           " Searching for nearby zoos. ",
+           "If geolocation fails, try ",
+           "searching for your city."],
+    "jp": [Language.L.emoji.website,
+           " ",
+           Language.L.emoji.home,
+           " 近くの動物園を検索しています。",
+           "ジオロケーションが失敗した場合は、",
+           "都市を検索してみてください。"]
   },
   "new_photos": {
     "contributors": {
