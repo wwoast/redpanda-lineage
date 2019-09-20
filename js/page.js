@@ -533,7 +533,7 @@ Page.results.entities = function(results) {
 // along with a header message of the zoos by proximity.
 Page.results.nearby = function(results) {
   var content_divs = [];
-  if (results == []) {
+  if (results.length == 0) {
     // Stuck at the interstitial after a language transition
     Query.env.output_mode = "entities";
     return;
