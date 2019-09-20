@@ -535,7 +535,6 @@ Page.results.nearby = function(results) {
   var content_divs = [];
   if (results.length == 0) {
     // Stuck at the interstitial after a language transition
-    Query.env.output_mode = "entities";
     return;
   }
   if (results["hits"].length == 0) {
