@@ -622,7 +622,7 @@ Language.L.messages = {
     "en": [Language.L.emoji.website,
            " ",
            Language.L.emoji.home,
-           " Looking up nearby zoos. ",
+           " Finding nearby zoos. ",
            "If geolocation fails, try ",
            "searching for your city."],
     "jp": [Language.L.emoji.website,

@@ -533,6 +533,11 @@ Page.results.entities = function(results) {
 // along with a header message of the zoos by proximity.
 Page.results.nearby = function(results) {
   var content_divs = [];
+  if (results == []) {
+    // Stuck at the interstitial after a language transition
+    Query.env.output_mode = "entities";
+    return;
+  }
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
     content_divs.push(Show.emptyResult(L.no_zoos_nearby, L.display));
