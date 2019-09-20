@@ -535,7 +535,7 @@ Page.results.nearby = function(results) {
   var content_divs = [];
   if (results.length == 0) {
     // Stuck at the interstitial after a language transition
-    return;
+    return [];
   }
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
