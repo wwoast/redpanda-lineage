@@ -574,7 +574,7 @@ Show.button.flag.action = function() {
     L.display = language;
     L.update();
     // Redraw the nearby page if necessary
-    if (Query.env.output_mode = "nearby") {
+    if (Query.env.output_mode == "nearby") {
       F.getNaiveLocation();
     }
     Page.redraw(Page.current);
