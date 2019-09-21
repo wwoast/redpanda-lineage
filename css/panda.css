@@ -267,12 +267,13 @@ input.search {
     font-family: sans-serif;
     border-radius: 0;  /* Disable rounding on iOS */
     -webkit-appearance: none;  /* Guarantees styles work on Desktop Safari */
-    font-size: 38pt;
+    font-size: 50px;
     width: 100%;
     border: 0px solid;
     vertical-align: middle;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    height: 64px;
 }
 
 input[type='text'] {
