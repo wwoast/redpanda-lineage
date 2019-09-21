@@ -5,10 +5,12 @@ birthplace: 133
 children: none
 en.name: Tenzing
 en.nicknames: none
+en.oldnames: Kodari
 en.othernames: none
 gender: m
 jp.name: テンジン
 jp.nicknames: none
+jp.oldnames: コダリ
 jp.othernames: none
 language.order: en, jp
 litter: none
