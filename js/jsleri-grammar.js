@@ -11,6 +11,7 @@
     var k_born = Keyword('born');
     var k_died = Keyword('died');
     var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');
+    var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');
     var s_born_year = Sequence(k_born, r_year);
     var s_died_year = Sequence(k_died, r_year);
     var START = Prio(
@@ -21,7 +22,8 @@
         s_died_year,
         Sequence('(', THIS, ')'),
         Sequence(THIS, Keyword('or'), THIS),
-        Sequence(THIS, Keyword('and'), THIS)
+        Sequence(THIS, Keyword('and'), THIS),
+        r_name
     );
     window.Grammar = Grammar(START);
 })(
