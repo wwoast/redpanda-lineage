@@ -1,12 +1,12 @@
 'use strict';
 
 (function (
+            Grammar,
+            Keyword,
+            Prio,
             Regex,
             Sequence,
-            Keyword,
-            THIS,
-            Prio,
-            Grammar
+            THIS
         ) {
     var k_born = Keyword('born');
     var k_died = Keyword('died');
@@ -25,10 +25,10 @@
     );
     window.Grammar = Grammar(START);
 })(
+    window.jsleri.Grammar,
+    window.jsleri.Keyword,
+    window.jsleri.Prio,
     window.jsleri.Regex,
     window.jsleri.Sequence,
-    window.jsleri.Keyword,
     window.jsleri.THIS,
-    window.jsleri.Prio,
-    window.jsleri.Grammar
 );
