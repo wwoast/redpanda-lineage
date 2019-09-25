@@ -107,16 +107,24 @@ Queri.ops.group.binary = Queri.values([
   Sequence,
   THIS
 ) {
-  // Choice.apply(Choice, Queri.ops) == Choice(...Queri.ops)
-  var c_k_zeroary = Choice.apply(Choice, (Queri.ops.group.zeroary).map(kw => Keyword(kw)));
-  var c_k_unary = Choice.apply(Choice, (Queri.ops.group.zeroary).map(kw => Keyword(kw)));
-  var c_k_binary = Choice.apply(Choice, (Queri.ops.group.binary).map(kw => Keyword(kw)));
+  // Take a list of operators and turn it into a choice
+  // NOTE: Choice.apply(Choice, Queri.ops) == Choice(...Queri.ops)
+  var Choices = function(keyword_list) {
+    return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw)));
+  }
+
+  // Regex matches
+  var r_id = Regex('(?:^[\-0-9][0-9]*)');   // Any number, positive or negative
+  var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');   // Any year (1900 - 2999)
+  var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');   // Any sequence of non-space strings
+
+  // Sets of operators
+  var c_k_zeroary = Choices(Queri.ops.group.zeroary);
+  var c_k_unary = Choices(Queri.ops.group.zeroary);
+  var c_k_binary = Choices(Queri.ops.group.binary);
 
   var k_born = Keyword('born');
   var k_died = Keyword('died');
-  var r_id = Regex('(?:[0-9]*)')
-  var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');
-  var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');
   var s_born_year = Sequence(k_born, r_year);
   var s_died_year = Sequence(k_died, r_year);
   var START = Prio(
