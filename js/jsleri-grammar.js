@@ -86,19 +86,25 @@ Queri.ops.group.zeroary = Queri.values([
   Language.L.tags
 ]);
 // Unary operators
-Queri.ops.group.unary = Queri.values([
-  Queri.ops.type,
-  Queri.ops.subtype,
-  Queri.ops.family
+Queri.ops.group.name_subject = Queri.values([
+  Queri.ops.family,
+  Queri.ops.type.credit,
+  Queri.ops.type.panda,
+  Queri.ops.type.zoo
+]);
+Queri.ops.group.number_subject = Queri.values([
+  Queri.ops.family,
+  Queri.ops.type.panda,
+  Queri.ops.type.zoo
 ]);
 Queri.ops.group.year_subject = Queri.values([
   Queri.ops.type.baby,
   Queri.ops.type.dead
-])
-// Binary and more operators
-Queri.ops.group.binary = Queri.values([
-  Queri.ops.logical,
-  Queri.ops.family
+]);
+// Binary operators
+Queri.ops.group.binary_logic = Queri.values([
+  Queri.ops.logical.and,
+  Queri.ops.logical.or
 ]);
 
 // IIFE that implements search queries in terms of the dictionaries above
@@ -124,7 +130,6 @@ Queri.ops.group.binary = Queri.values([
       Sequence(b, a)
     )
   }
-
   // Regex matches
   // Any number, positive or negative
   var r_id = Regex('(?:^[\-0-9][0-9]*)');
@@ -132,21 +137,25 @@ Queri.ops.group.binary = Queri.values([
   var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');
   // Any sequence of strings separated by spaces
   var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');
-
   // Sets of operators
   // Zeroary keywords: Valid search with just a single term
   var c_k_zeroary = Choices(Queri.ops.group.zeroary);
   // Unary keywords: Valid search with the correct subject
+  var c_k_unary_name = Reversible(Choices(Queri.ops.group.name_subject), r_name);
+  var c_k_unary_number = Reversible(Choices(Queri.ops.group.name_subject), r_id);
   var c_k_unary_year = Reversible(Choices(Queri.ops.group.year_subject), r_year);
-
+  // Binary keywords
+  var c_k_binary_logical = Choices(Queri.ops.group.binary_logic);
+  // Start of the parsing logic, a prioritized tree
   var START = Prio(
     r_year,
     r_id,
     c_k_zeroary,
-    c_k_unary_year,
-    Sequence('(', THIS, ')'),
-    Sequence(THIS, Keyword('or'), THIS),
-    Sequence(THIS, Keyword('and'), THIS),
+    c_k_unary_year,     // Unary keywords followed by year-number
+    c_k_unary_number,   // Unary keywords followed by id-number
+    c_k_unary_name,     // Unary keywords followed by a name-string
+    Sequence('(', THIS, ')'),   // Bracketed expressions
+    Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
   Queri.grammar = Grammar(START);
