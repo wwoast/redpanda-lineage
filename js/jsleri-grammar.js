@@ -91,6 +91,10 @@ Queri.ops.group.unary = Queri.values([
   Queri.ops.subtype,
   Queri.ops.family
 ]);
+Queri.ops.group.year_subject = Queri.values([
+  Queri.ops.type.baby,
+  Queri.ops.type.dead
+])
 // Binary and more operators
 Queri.ops.group.binary = Queri.values([
   Queri.ops.logical,
@@ -112,27 +116,34 @@ Queri.ops.group.binary = Queri.values([
   var Choices = function(keyword_list) {
     return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw)));
   }
+  // Take a sequence, and make it parse in either direction
+  // Example: "born 1999" or "2005 babies"
+  var Reversible = function(a, b) {
+    return Choice(
+      Sequence(a, b),
+      Sequence(b, a)
+    )
+  }
 
   // Regex matches
-  var r_id = Regex('(?:^[\-0-9][0-9]*)');   // Any number, positive or negative
-  var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');   // Any year (1900 - 2999)
-  var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');   // Any sequence of non-space strings
+  // Any number, positive or negative
+  var r_id = Regex('(?:^[\-0-9][0-9]*)');
+  // Any year (1900 - 2999)
+  var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');
+  // Any sequence of strings separated by spaces
+  var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');
 
   // Sets of operators
+  // Zeroary keywords: Valid search with just a single term
   var c_k_zeroary = Choices(Queri.ops.group.zeroary);
-  var c_k_unary = Choices(Queri.ops.group.zeroary);
-  var c_k_binary = Choices(Queri.ops.group.binary);
+  // Unary keywords: Valid search with the correct subject
+  var c_k_unary_year = Reversible(Choices(Queri.ops.group.year_subject), r_year);
 
-  var k_born = Keyword('born');
-  var k_died = Keyword('died');
-  var s_born_year = Sequence(k_born, r_year);
-  var s_died_year = Sequence(k_died, r_year);
   var START = Prio(
     r_year,
     r_id,
     c_k_zeroary,
-    Choice(k_born, k_died),
-    Choice(s_born_year, s_died_year),
+    c_k_unary_year,
     Sequence('(', THIS, ')'),
     Sequence(THIS, Keyword('or'), THIS),
     Sequence(THIS, Keyword('and'), THIS),
