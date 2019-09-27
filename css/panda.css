@@ -1028,6 +1028,21 @@ div.birthdaySummary p, div.creditSummary p, div.frontPageSummary p, div.memorial
     margin: 1ex;
 }
 
+div.frontPageSummary p.summaryEmphasis {
+    background-image: radial-gradient(#EDC1D7 0%, #9771A7 130%);   /* Shiny grapes */
+    font-size: 19.5pt;
+    margin-top: 0.5ex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0.25ex;
+    padding: 1ex;
+}
+
+p.summaryEmphasis > a {
+    color: black;
+    text-decoration: none !important;
+}
+
 div.profileSummary {
     margin-top: 1em;
 }
