@@ -1295,19 +1295,19 @@ Show.message.credit = function(credit, count, language) {
   return message;
 }
 Show.message.findNearbyZoo = function(language) {
-  var p = document.createElement('p');
-  p.className = "summaryEmphasis";
   var link = document.createElement('a');
   link.href = "#query/nearby";
+  var p = document.createElement('p');
+  p.className = "summaryEmphasis";
   for (var i in L.messages.find_a_nearby_zoo[language]) {
     var field = L.messages.find_a_nearby_zoo[language][i];
     var msg = document.createTextNode(field);
-    link.appendChild(msg);
+    p.appendChild(msg);
   }
-  p.appendChild(link);
+  link.appendChild(p);
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  shrinker.appendChild(p);
+  shrinker.appendChild(link);
   var message = document.createElement('div');
   message.className = "frontPageSummary";
   message.appendChild(shrinker);
