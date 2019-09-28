@@ -1427,6 +1427,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-top: 0px;   /* Vertical rhythm things unnecessary on mobile */
     }
 
+    div.frontPageSummary p.summaryEmphasis {
+        padding-left: 0.5ex;
+        padding-right: 0.5ex;
+    }
+
     div.profile#contentFrame hr {
         display: none;   /* Vertical rhythm things unnecessary on mobile */
     }
