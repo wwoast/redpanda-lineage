@@ -947,7 +947,7 @@ div.detailsLocation {
 
 span.detail {
     display: block;
-    font-size: 10pt;
+font-size: 10pt;
 }
 
 div.detailsVideo {
@@ -1029,12 +1029,12 @@ div.birthdaySummary p, div.creditSummary p, div.frontPageSummary p, div.memorial
 }
 
 div.frontPageSummary p.summaryEmphasis {
-    background-image: radial-gradient(#EDC1D7 0%, #9771A7 130%);   /* Shiny grapes */
+    background-image: radial-gradient(gold 0%, #693638 150%);   /* Panda Gold */
     font-size: 19.5pt;
     margin-top: 0.5ex;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 0.25ex;
+    margin-bottom: 0ex;
     padding: 1ex;
 }
 

@@ -545,7 +545,7 @@ Language.L.messages = {
   },
   "find_a_nearby_zoo": {
     "cn": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],
-    "en": [Language.L.emoji.globe_americas, " Find a nearby zoo!"],
+    "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
     "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"]
   },
   "footer": {
