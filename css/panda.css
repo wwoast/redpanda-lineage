@@ -947,7 +947,7 @@ div.detailsLocation {
 
 span.detail {
     display: block;
-    font-size: 10pt;
+font-size: 10pt;
 }
 
 div.detailsVideo {
@@ -1026,6 +1026,21 @@ div.birthdaySummary p, div.creditSummary p, div.frontPageSummary p, div.memorial
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
+}
+
+div.frontPageSummary p.summaryEmphasis {
+    background-image: radial-gradient(gold 0%, #693638 150%);   /* Panda Gold */
+    font-size: 19.5pt;
+    margin-top: 0.5ex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0ex;
+    padding: 1ex;
+}
+
+p.summaryEmphasis > a {
+    color: black;
+    text-decoration: none !important;
 }
 
 div.profileSummary {
@@ -1410,6 +1425,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
 
     div.profileSummary {
         margin-top: 0px;   /* Vertical rhythm things unnecessary on mobile */
+    }
+
+    div.frontPageSummary p.summaryEmphasis {
+        padding-left: 0.6ex;
+        padding-right: 0.6ex;
     }
 
     div.profile#contentFrame hr {
