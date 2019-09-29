@@ -175,7 +175,8 @@ Queri.tree.view = function(parse_input) {
   return this.node_props(start, this.get_children(start.children));
 }
 
-// Build a grammar for making parse trees with
+// Build a grammar for making parse trees with.
+// TODO: make this appear in the tree and auto-run.
 Queri.grammar = function() {
   var Choice = window.jsleri.Choice;
   var Grammar = window.jsleri.Grammar;
