@@ -161,9 +161,6 @@ Queri.tree.node_type = function(node, children) {
     }
   }
 }
-/* WTF. why is last member of Queri.tree not getting picked up as a function? */
-Queri.tree.something = false;
-
 
 // IIFE that implements search queries in terms of the dictionaries above
 (function (
@@ -214,7 +211,7 @@ Queri.tree.something = false;
     r_name
   );
   Queri.grammar = Grammar(START);
-})(
+}(
   window.jsleri.Choice,
   window.jsleri.Grammar,
   window.jsleri.Keyword,
@@ -222,4 +219,5 @@ Queri.tree.something = false;
   window.jsleri.Regex,
   window.jsleri.Sequence,
   window.jsleri.THIS,
-);
+));
+
