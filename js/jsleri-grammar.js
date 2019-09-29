@@ -122,6 +122,9 @@ Queri.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 /* 
 Navigation and introspection through a grammar's parse tree. 
 jsleri won't do it for us, so we have to write this code ourself.
+
+Pass separate children value in case we want to process not the original
+parse tree, but a derived tree of children.
 */
 Queri.tree = {};
 Queri.tree.get_children = function(children) {
@@ -129,6 +132,7 @@ Queri.tree.get_children = function(children) {
     this.node_props(c, this.get_children(c.children))
   );
 }
+Queri.tree.grammar = undefined;
 Queri.tree.node_props = function(node, children) {
   return {
     'start': node.start,
@@ -139,15 +143,11 @@ Queri.tree.node_props = function(node, children) {
   }
 }
 Queri.tree.node_type = function(node, children) {
-  if (children == undefined) {
-    return "unknown";   // TODO: handle odd children
-  }
   if (children.length != 0) {
     return "composite";   // TODO: nuance here
   }
   if (node.element.hasOwnProperty("keyword")) {
-    // TODO: is it an operator or a tag?
-    return "keyword";
+    return "keyword";   // TODO: is it an operator or a tag?
   }
   if (node.element.hasOwnProperty("re")) {
     if (node.element.re == Queri.regex.id) {
@@ -161,17 +161,29 @@ Queri.tree.node_type = function(node, children) {
     }
   }
 }
+// Takes the result from parsing a grammar
+Queri.tree.view = function(parse_input) {
+  if (this.grammar == undefined) {
+    console.log("No query grammar defined")
+    return {};
+  }
+  var result = this.grammar.parse(parse_input);
+  var start = result.tree;
+  if (result.tree.hasOwnProperty("children")) {
+    start = result.tree.children[0];
+  }
+  return this.node_props(start, this.get_children(start.children));
+}
 
-// IIFE that implements search queries in terms of the dictionaries above
-(function (
-  Choice,
-  Grammar,
-  Keyword,
-  Prio,
-  Regex,
-  Sequence,
-  THIS
-) {
+// Build a grammar for making parse trees with
+Queri.grammar = function() {
+  var Choice = window.jsleri.Choice;
+  var Grammar = window.jsleri.Grammar;
+  var Keyword = window.jsleri.Keyword;
+  var Prio = window.jsleri.Prio;
+  var Regex = window.jsleri.Regex;
+  var Sequence = window.jsleri.Sequence;
+  var THIS = window.jsleri.THIS;
   // Take a list of operators and turn it into a choice
   // NOTE: Choice.apply(Choice, Queri.ops) == Choice(...Queri.ops)
   var Choices = function(keyword_list) {
@@ -210,14 +222,7 @@ Queri.tree.node_type = function(node, children) {
     Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
-  Queri.grammar = Grammar(START);
-}(
-  window.jsleri.Choice,
-  window.jsleri.Grammar,
-  window.jsleri.Keyword,
-  window.jsleri.Prio,
-  window.jsleri.Regex,
-  window.jsleri.Sequence,
-  window.jsleri.THIS,
-));
-
+  // Return the grammar, and also store it in the Queri.tree object
+  Queri.tree.grammar = Grammar(START);
+  return Grammar(START);
+}
