@@ -97,8 +97,12 @@ Queri.ops.group.number_subject = Queri.values([
   Queri.ops.type.panda,
   Queri.ops.type.zoo
 ]);
+// TODO: flesh where these operators live
 Queri.ops.group.year_subject = Queri.values([
   Queri.ops.type.baby,
+  Queri.ops.subtype.born,
+  Queri.ops.subtype.dead,
+  Queri.ops.subtype.died,
   Queri.ops.type.dead
 ]);
 // Binary operators
@@ -106,6 +110,60 @@ Queri.ops.group.binary_logic = Queri.values([
   Queri.ops.logical.and,
   Queri.ops.logical.or
 ]);
+// Regex strings
+Queri.regex = {};
+// Any number, positive or negative
+Queri.regex.id = '(?:^[\-0-9][0-9]*)';
+// Any sequence of strings separated by spaces
+Queri.regex.name = '(?:[^\s]+(?:\s+[^\s]+)*)';
+// Any year (1900 - 2999)
+Queri.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
+
+/* 
+Navigation and introspection through a grammar's parse tree. 
+jsleri won't do it for us, so we have to write this code ourself.
+*/
+Queri.tree = {};
+Queri.tree.get_children = function(children) {
+  return children.map(c => 
+    this.node_props(c, this.get_children(c.children))
+  );
+}
+Queri.tree.node_props = function(node, children) {
+  return {
+    'start': node.start,
+    'end': node.end,
+    'type': this.node_type(node, children),
+    'str': node.str,
+    'children': children
+  }
+}
+Queri.tree.node_type = function(node, children) {
+  if (children == undefined) {
+    return "unknown";   // TODO: handle odd children
+  }
+  if (children.length != 0) {
+    return "composite";   // TODO: nuance here
+  }
+  if (node.element.hasOwnProperty("keyword")) {
+    // TODO: is it an operator or a tag?
+    return "keyword";
+  }
+  if (node.element.hasOwnProperty("re")) {
+    if (node.element.re == Queri.regex.id) {
+      return "id";
+    }
+    if (node.element.re == Queri.regex.name) {
+      return "name";
+    }
+    if (node.element.re == Queri.regex.year) {
+      return "year";
+    }
+  }
+}
+/* WTF. why is last member of Queri.tree not getting picked up as a function? */
+Queri.tree.something = false;
+
 
 // IIFE that implements search queries in terms of the dictionaries above
 (function (
@@ -131,12 +189,9 @@ Queri.ops.group.binary_logic = Queri.values([
     )
   }
   // Regex matches
-  // Any number, positive or negative
-  var r_id = Regex('(?:^[\-0-9][0-9]*)');
-  // Any year (1900 - 2999)
-  var r_year = Regex('(?:19[0-9]{2}|2[0-9]{3})');
-  // Any sequence of strings separated by spaces
-  var r_name = Regex('(?:[^\s]+(?:\s+[^\s]+)*)');
+  var r_id = Regex(Queri.regex.id);
+  var r_name = Regex(Queri.regex.name);
+  var r_year = Regex(Queri.regex.year);
   // Sets of operators
   // Zeroary keywords: Valid search with just a single term
   var c_k_zeroary = Choices(Queri.ops.group.zeroary);
