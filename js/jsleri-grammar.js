@@ -222,6 +222,9 @@ Queri.tree.get_children = function(parent, children) {
 }
 // Where the grammar object is stored
 Queri.tree.grammar = undefined;
+Queri.tree.nodes = {};
+Queri.tree.nodes.all = {};
+Queri.tree.nodes.subjects = [];
 // Define our ideal tree node, using jsleri's as a base 
 Queri.tree.node_props = function(parent, node, children) {
   return {
@@ -256,9 +259,11 @@ Queri.tree.node_type = function(node, children) {
 Queri.tree.types = {};
 Queri.tree.types.composite = ["choice", "composite", "sequence"];
 Queri.tree.types.singular = ["id", "keyword", "name", "year"];
+Queri.tree.types.subject = ["id", "name", "year"];
 Queri.tree.tests = {};
 Queri.tree.tests.composite = Queri.tree.types.composite.map(t => ({"type": t}));
 Queri.tree.tests.singular = Queri.tree.types.singular.map(t => ({"type": t}));
+Queri.tree.tests.subject = Queri.tree.types.subject.map(t => ({"type": t}));
 // Takes the result from parsing a grammar, and builds a parse tree
 // with our own node details and formatting, based on jsleri's
 Queri.tree.view = function(parse_input) {
@@ -272,6 +277,11 @@ Queri.tree.view = function(parse_input) {
     start = result.tree.children[0];
   }
   return this.node_props(undefined, start, this.get_children(start, start.children));
+}
+// Write a parse tree based on the given input
+Queri.tree.write = function(parse_input) {
+  this.nodes.all = this.view(parse_input);
+  return this.nodes.all;
 }
 
 // Build the grammar for functions to use immediately
