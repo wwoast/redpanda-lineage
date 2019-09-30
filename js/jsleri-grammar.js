@@ -90,12 +90,14 @@ Queri.ops.group.name_subject = Queri.values([
   Queri.ops.family,
   Queri.ops.type.credit,
   Queri.ops.type.panda,
-  Queri.ops.type.zoo
+  Queri.ops.type.zoo,
+  Language.L.tags
 ]);
 Queri.ops.group.number_subject = Queri.values([
   Queri.ops.family,
   Queri.ops.type.panda,
-  Queri.ops.type.zoo
+  Queri.ops.type.zoo,
+  Language.L.tags
 ]);
 // TODO: flesh where these operators live
 Queri.ops.group.year_subject = Queri.values([
@@ -135,7 +137,7 @@ Queri.tree.build_grammar = function() {
   var Prio = window.jsleri.Prio;
   var Regex = window.jsleri.Regex;
   var Sequence = window.jsleri.Sequence;
-  var THIS = window.jsleri.THIS;
+  // var THIS = window.jsleri.THIS;
   // Take a list of operators and turn it into a choice
   // NOTE: Choice.apply(Choice, Queri.ops) == Choice(...Queri.ops)
   var Choices = function(keyword_list) {
@@ -161,8 +163,8 @@ Queri.tree.build_grammar = function() {
   var c_k_unary_number = Reversible(Choices(Queri.ops.group.name_subject), r_id);
   var c_k_unary_year = Reversible(Choices(Queri.ops.group.year_subject), r_year);
   // Binary keywords
-  var c_k_binary_logical = Choices(Queri.ops.group.binary_logic);
-  // Start of the parsing logic, a prioritized tree
+  // var c_k_binary_logical = Choices(Queri.ops.group.binary_logic);
+  // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_year,
     r_id,
@@ -170,8 +172,9 @@ Queri.tree.build_grammar = function() {
     c_k_unary_year,     // Unary keywords followed by year-number
     c_k_unary_number,   // Unary keywords followed by id-number
     c_k_unary_name,     // Unary keywords followed by a name-string
-    Sequence('(', THIS, ')'),   // Bracketed expressions
-    Sequence(THIS, c_k_binary_logical, THIS),
+    // TODO: don't have parse tree techniques to detect these
+    // Sequence('(', THIS, ')'),   // Bracketed expressions
+    // Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
   Queri.tree.grammar = Grammar(START);
@@ -192,7 +195,7 @@ Queri.tree.flatten = function(input) {
 // Filter all nodes of a tree and return a list of nodes that match
 // a given condition that we care about. 
 // Tests are an array of dict, and each dict has field names and values.
-// If any one of the tests match
+// If any one of the tests match, it's a node we want.
 Queri.tree.filter = function(node, tests) {
   var results = [];
   outer: for (let test of tests) {
@@ -250,6 +253,12 @@ Queri.tree.node_type = function(node, children) {
     }
   }
 }
+Queri.tree.types = {};
+Queri.tree.types.composite = ["choice", "composite", "sequence"];
+Queri.tree.types.singular = ["id", "keyword", "name", "year"];
+Queri.tree.tests = {};
+Queri.tree.tests.composite = Queri.tree.types.composite.map(t => ({"type": t}));
+Queri.tree.tests.singular = Queri.tree.types.singular.map(t => ({"type": t}));
 // Takes the result from parsing a grammar, and builds a parse tree
 // with our own node details and formatting, based on jsleri's
 Queri.tree.view = function(parse_input) {
