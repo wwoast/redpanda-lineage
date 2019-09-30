@@ -127,57 +127,8 @@ Pass separate children value in case we want to process not the original
 parse tree, but a derived tree of children.
 */
 Queri.tree = {};
-Queri.tree.get_children = function(children) {
-  return children.map(c => 
-    this.node_props(c, this.get_children(c.children))
-  );
-}
-Queri.tree.grammar = undefined;
-Queri.tree.node_props = function(node, children) {
-  return {
-    'start': node.start,
-    'end': node.end,
-    'type': this.node_type(node, children),
-    'str': node.str,
-    'children': children
-  }
-}
-Queri.tree.node_type = function(node, children) {
-  if (children.length != 0) {
-    return "composite";   // TODO: nuance here
-  }
-  if (node.element.hasOwnProperty("keyword")) {
-    return "keyword";   // TODO: is it an operator or a tag?
-  }
-  if (node.element.hasOwnProperty("re")) {
-    if (node.element.re == Queri.regex.id) {
-      return "id";
-    }
-    if (node.element.re == Queri.regex.name) {
-      return "name";
-    }
-    if (node.element.re == Queri.regex.year) {
-      return "year";
-    }
-  }
-}
-// Takes the result from parsing a grammar
-Queri.tree.view = function(parse_input) {
-  if (this.grammar == undefined) {
-    console.log("No query grammar defined")
-    return {};
-  }
-  var result = this.grammar.parse(parse_input);
-  var start = result.tree;
-  if (result.tree.hasOwnProperty("children")) {
-    start = result.tree.children[0];
-  }
-  return this.node_props(start, this.get_children(start.children));
-}
-
 // Build a grammar for making parse trees with.
-// TODO: make this appear in the tree and auto-run.
-Queri.grammar = function() {
+Queri.tree.build_grammar = function() {
   var Choice = window.jsleri.Choice;
   var Grammar = window.jsleri.Grammar;
   var Keyword = window.jsleri.Keyword;
@@ -223,7 +174,61 @@ Queri.grammar = function() {
     Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
-  // Return the grammar, and also store it in the Queri.tree object
   Queri.tree.grammar = Grammar(START);
-  return Grammar(START);
 }
+// Convert jsleri parse tree to our desired format, one child at a time
+Queri.tree.get_children = function(parent, children) {
+  return children.map(c => 
+    this.node_props(parent, c, this.get_children(parent, c.children))
+  );
+}
+// Where the grammar object is stored
+Queri.tree.grammar = undefined;
+// Define our ideal tree node, using jsleri's as a base 
+Queri.tree.node_props = function(parent, node, children) {
+  return {
+    'start': node.start,
+    'end': node.end,
+    'type': this.node_type(node, children),
+    'str': node.str,
+    'parent': parent,
+    'children': children
+  }
+}
+// Identify the nodes by type, for later processing into query sets
+Queri.tree.node_type = function(node, children) {
+  if (children.length != 0) {
+    return "composite";   // TODO: nuance here
+  }
+  if (node.element.hasOwnProperty("keyword")) {
+    return "keyword";   // TODO: is it an operator or a tag?
+  }
+  if (node.element.hasOwnProperty("re")) {
+    if (node.element.re == Queri.regex.id) {
+      return "id";
+    }
+    if (node.element.re == Queri.regex.name) {
+      return "name";
+    }
+    if (node.element.re == Queri.regex.year) {
+      return "year";
+    }
+  }
+}
+// Takes the result from parsing a grammar, and builds a parse tree
+// with our own node details and formatting, based on jsleri's
+Queri.tree.view = function(parse_input) {
+  if (this.grammar == undefined) {
+    console.log("No query grammar defined")
+    return {};
+  }
+  var result = this.grammar.parse(parse_input);
+  var start = result.tree;
+  if (result.tree.hasOwnProperty("children")) {
+    start = result.tree.children[0];
+  }
+  return this.node_props(undefined, start, this.get_children(start, start.children));
+}
+
+// Build the grammar for functions to use immediately
+Queri.tree.build_grammar();
