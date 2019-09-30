@@ -176,6 +176,41 @@ Queri.tree.build_grammar = function() {
   );
   Queri.tree.grammar = Grammar(START);
 }
+// Flatten results from something in a tree like form, to an array
+Queri.tree.flatten = function(input) {
+  var array = [];
+  while(input.length) {
+    var value = input.shift();
+    if (Array.isArray(value)) {
+      input = value.concat(input);
+    } else {
+      array.push(value);
+    }
+  }
+  return array;
+}
+// Filter all nodes of a tree and return a list of nodes that match
+// a given condition that we care about. 
+// Tests are an array of dict, and each dict has field names and values.
+// If any one of the tests match
+Queri.tree.filter = function(node, tests) {
+  var results = [];
+  outer: for (let test of tests) {
+    for (let field in test) {
+      if (node.hasOwnProperty(field)) {
+        var value = test[field];
+        if (node[field] == value) {
+          results.push(node);
+          break outer;   // Don't add matching result more than once
+        }
+      }  
+    }
+  }
+  // Do my children match?
+  results = results.concat(node.children.map(c =>
+    this.filter(c, tests)));
+  return this.flatten(results);
+}
 // Convert jsleri parse tree to our desired format, one child at a time
 Queri.tree.get_children = function(parent, children) {
   return children.map(c => 
