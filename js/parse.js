@@ -85,6 +85,9 @@ Parse.ops.group.zeroary = Parse.values([
   Parse.ops.type.nearby,
   Language.L.tags
 ]);
+Parse.ops.group.tags = Parse.values([
+  Language.L.tags
+]);
 // Unary operators
 Parse.ops.group.name_subject = Parse.values([
   Parse.ops.family,
@@ -179,6 +182,21 @@ Parse.tree.build_grammar = function() {
   );
   Parse.tree.grammar = Grammar(START);
 }
+// After performing the parse, navigate through the tree and do subsequent
+// node type classification and resolution.
+Parse.tree.classify = function(tree) {
+  // Get subject nodes (year/name/id)
+  var subject_nodes = this.filter(tree, this.tests.subject);
+  // Get the subject container nodes, and classify those vlaues
+  var container_nodes = subject_nodes.map(n => this.get_subject_container(n));
+  container_nodes.forEach(n => this.node_type_composite_ids(n));
+  // Finally, given what's in the containers, resolve what the keywords are
+  for (let containter_node of container_nodes) {
+    var value_nodes = this.filter(container_node, this.tests.singular);
+    // Resolve keyword types into something more specific based on the subject
+    this.node_type_specific_ids(container_node.type, value_nodes);
+  }
+}
 // Flatten results from something in a tree like form, to an array
 Parse.tree.flatten = function(input) {
   var array = [];
@@ -214,11 +232,22 @@ Parse.tree.filter = function(node, tests) {
     this.filter(c, tests)));
   return this.flatten(results);
 }
-// Convert jsleri parse tree to our desired format, one child at a time
+// Convert jsleri parse tree to our desired format, one child at a time.
 Parse.tree.get_children = function(parent, children) {
   return children.map(c => 
     this.node_props(parent, c, this.get_children(parent, c.children))
   );
+}
+// Start with leaf nodes containing type: "subject_*" in the parse tree,
+// and then work your way up until you're looking at the parser's stanza
+// where it parsed that subject in context of another keyword.
+Parse.tree.get_subject_container = function(node) {
+  var type = this.node_type_composite_ids(node.parent);
+  if (type.indexOf("contains") == 0) {
+    return this.get_subject_container(node.parent);
+  } else {
+    return node;
+  }
 }
 // Where the grammar object is stored
 Parse.tree.grammar = undefined;
@@ -230,30 +259,73 @@ Parse.tree.node_props = function(parent, node, children) {
   return {
     'start': node.start,
     'end': node.end,
-    'type': this.node_type(node, children),
+    'type': this.node_type(node),
     'str': node.str,
     'parent': parent,
     'children': children
   }
 }
-// Identify the nodes by type, for later processing into query sets
-Parse.tree.node_type = function(node, children) {
+// Identify the nodes by simple types, for later processing into query sets.
+// This is the first-level of parse-tree node identification.
+Parse.tree.node_type = function(node) {
   if (children.length != 0) {
-    return "composite";   // TODO: nuance here
+    return "composite";
   }
   if (node.element.hasOwnProperty("keyword")) {
-    return "keyword";   // TODO: is it an operator or a tag?
+    return "keyword";
   }
   if (node.element.hasOwnProperty("re")) {
     if (node.element.re == Parse.regex.id) {
-      return "id";
+      return "subject_id";
     }
     if (node.element.re == Parse.regex.name) {
-      return "name";
+      return "subject_name";
     }
     if (node.element.re == Parse.regex.year) {
-      return "year";
+      return "subject_year";
     }
+  }
+}
+// Starting with subject nodes, go up the tree and categorize
+// nodes based on their children
+// Figure out what a node is based on its composite types.
+// This is the second-level of parse-tree node identification.
+Parse.tree.node_type_composite_ids = function(node) {
+  var singulars = this.filter(node, this.tests.singular).map(n => n.type).sort();
+  if (singulars.length == 1) {
+    return "contains_" + singulars[0];
+  }
+  // Unary parse structures
+  if (singulars.length == 2) {
+    if (singulars[0] == "keyword" && singulars[1] == "keyword") {
+      return "set_keywords";
+    }
+    if (singulars[0] == "keyword" && singulars[1].indexOf("subject") == 0) {
+      return "set_keyword_subject";
+    }
+  }
+  // TODO: handle binary parse structures 
+  return "composite";
+}
+// Identify nodes intended to form a set of results.
+// Based on the combination of nodes, and possibly order, choose by default
+// whether or not a keyword is parsed as a type or a tag, disambiguating.
+// This is the third-level of parse-tree node identification.
+Parse.tree.node_type_specific_ids = function(container_type, value_nodes) {
+  if (container_type == "set_keywords") {
+    var keywords = value_nodes.map(n => n.str);
+    // Many keyword combinations will not have valid results, but we want to
+    // do some processing if we see certain types together. Examples:
+    // 1) If all are tags: search set should be intersection of all tags
+  }
+  if (container_type == "set_keyword_subject") {
+    var keyword_node = this.filter(value_nodes, [{"type": "keyword"}]);
+    var subject_node = this.filter(value_nodes, this.tests.subject);
+    // Some keyword-subject combinations will not have valid results, but we
+    // want to process certain types of results together. Examples:
+    // 1) baby+(year): baby is a type, year is the subject
+    // 2) baby+(name or id): baby is a tag, name is the intended panda
+    // 3) tag+(year or id): tag describes a photo. Consider the subject as an id
   }
 }
 Parse.tree.types = {};
