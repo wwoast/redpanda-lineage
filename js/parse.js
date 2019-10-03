@@ -194,7 +194,7 @@ Parse.tree.classify = function(tree) {
   for (let containter_node of container_nodes) {
     var value_nodes = this.filter(container_node, this.tests.singular);
     // Resolve keyword types into something more specific based on the subject
-    this.node_type_specific_ids(container_node.type, value_nodes);
+    this.node_type_specific_ids(container_node, value_nodes);
   }
 }
 // Flatten results from something in a tree like form, to an array
@@ -311,21 +311,75 @@ Parse.tree.node_type_composite_ids = function(node) {
 // Based on the combination of nodes, and possibly order, choose by default
 // whether or not a keyword is parsed as a type or a tag, disambiguating.
 // This is the third-level of parse-tree node identification.
-Parse.tree.node_type_specific_ids = function(container_type, value_nodes) {
-  if (container_type == "set_keywords") {
+Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
+  if (container_node.type == "set_keywords") {
     var keywords = value_nodes.map(n => n.str);
     // Many keyword combinations will not have valid results, but we want to
     // do some processing if we see certain types together. Examples:
     // 1) If all are tags: search set should be intersection of all tags
+    // TODO
   }
-  if (container_type == "set_keyword_subject") {
+  if (container_node.type == "set_keyword_subject") {
     var keyword_node = this.filter(value_nodes, [{"type": "keyword"}]);
     var subject_node = this.filter(value_nodes, this.tests.subject);
     // Some keyword-subject combinations will not have valid results, but we
-    // want to process certain types of results together. Examples:
-    // 1) baby+(year): baby is a type, year is the subject
-    // 2) baby+(name or id): baby is a tag, name is the intended panda
-    // 3) tag+(year or id): tag describes a photo. Consider the subject as an id
+    // want to process certain types of results together. Examples, from most
+    // specific to least specific:
+    //  1) (baby)+(year): baby is a type, year is the subject. Get all babies
+    if ((Parse.ops.group.type.baby.indexOf(keyword_node.str) != -1) && 
+        (subject_node.type == "subject_year")) {
+      container_node.type = "set_babies_list_year";
+      keyword_node.type = "type";
+    }
+    //  2) (baby)+(name or id): baby is a tag, name is the intended panda. Get baby photos
+    else if ((Parse.ops.group.type.baby.indexOf(keyword_node.str) != -1) &&
+             ((subject_node.type == "subject_name") || 
+              (subject_node.type == "subject_year"))) {
+      container_node.type = "set_baby_photos_subject";
+      keyword_node.type = "tag";
+    }
+    //  3) (credit)+(any subject): subject is an author name. Author search
+    else if (Parse.ops.type.credit.indexOf(keyword_node.str) != -1) {
+      container_node.type = "set_credit_photos";
+      keyword_node.type = "subject_author";
+    }
+    //  4) (family-term)+(year or id): keyword plus an id. Get pandas of "relation"
+    else if ((Parse.values(Parse.ops.family).indexOf(keyword_node.str) != -1) &&
+             (subject_node.type == "subject_year")) {
+      container_node.type = "set_family_list";
+      subject_node.type = "subject_panda_id";
+    }
+    //  5) (group.year_subject)+(year or id): keyword plus a year
+    else if ((Parse.ops.group.year_subject.indexOf(keyword_node.str) != -1) &&
+             (subject_node.type == "subject_id"))          
+    {
+      container_node.type = "set_keyword_year";
+      subject_node.type = "subject_year";
+    }
+    //  6) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
+    else if ((Parse.ops.nearby.indexOf(keyword) != -1) &&
+             (subject_node.type == "subject_id")) {
+      container_node.type = "set_nearby_zoo";
+      subject_node.type = "subject_zoo_id";
+    }
+    //  7) (panda|zoo)+(year or id): keyword plus an id. Get the panda matching the id.
+    else if ((Parse.ops.nearby.indexOf(keyword) != -1) &&
+             (subject_node.type == "subject_id")) {
+      container_node.type = "set_nearby_zoo";
+      subject_node.type = "subject_zoo_id";
+    }
+    //  8) (subtype but not in)+(year or id): keyword plus an id. Panda search
+    // TODO
+    //  9) (subtype in)+(year or id): keyword plus an id. Get pandas at a zoo id
+    // TODO
+    // 10) (tag)+(year or id): tag of a photo, plus an id. Get tagged photos of a panda.
+    else if ((Parse.ops.group.tags.indexOf(keyword) != -1) &&
+             ((subject_node.type == "subject_year") || 
+              (subject_node.type == "subject_id"))) {
+      container_node.type = "set_tag_id";
+      keyword_node.type = "tag";
+      subject_node.type = "subject_id";
+    }
   }
 }
 Parse.tree.types = {};
