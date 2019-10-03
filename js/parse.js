@@ -27,97 +27,186 @@ Parse.values = function(input) {
     TODO: organize operators by language for easier tracking / updating
     TODO: born after/before/etc
 */
-Parse.ops = {
-  "type": {
-    "baby": ['Baby', 'baby', 'Babies', 'babies', 'Aka-Chan', 'Aka-chan', 'aka-chan', '赤ちゃん'],
-    "credit": ['Credit', 'credit', 'Author', 'author', '著者'],
-    "dead": ["Dead", "dead", "Died", "died", "死", "Rainbow", "rainbow", "虹"],
-    "nearby": ["nearby", "near", "近く", "近くの動物園"],
-    "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
-    "tag": ['tag', 'Tag', 'tags'],
-    "zoo": ['Zoo', 'zoo', '動物園']
-  },
-  "subtype": {
-    "alive": ['alive', 'living'],
-    "born": ['born'],
-    "born before": ['born before'],
-    "born after": ['born after'],
-    "dead": ['dead'],
-    "died": ['died'],
-    "died before": ['died before'],
-    "died after": ['died after'],
-    "in": ['in', 'at']
-  },
-  "glob": {
-    "*": ['*'],
-    "?": ['?']
-  },
-  "logical": {
-    "and": ['and'],
-    "or": ['or'],
-    "not": ['not'],
-    "nor": ['nor']
-  },
-  "family": {
-    "aunt": ['aunt'],
-    "brother": ['brother'],
-    "cousin": ['cousin'],
-    "children": ['children'],
-    "dad": ['dad', 'father', 'papa'],
-    "grandma": ['grandma', 'grandmother'],
-    "grandpa": ['grandpa', 'grandfather'],
-    "litter": ['litter'],
-    "mate": ['husband', 'mate', 'wife'],
-    "mom": ['mom', 'mother'],
-    "nephew": ['nephew'],
-    "niece": ['niece'],
-    "parents": ['parents'],
-    "relatives": ['relative', 'relatives'],
-    "siblings": ['sibling', 'siblings'],
-    "uncle": ['uncle']
-  }
+Parse.keyword = {};
+/* Parse.keyword.alive = TODO */
+/* Parse.keyword.at = TODO */
+Parse.keyword.baby = {
+  "cn": ['TOWRITE'],
+  "en": ['aka-chan', 'Aka-Chan', 'Aka-chan', 'baby', 'Baby', 'babies', 'Babies'],
+  "jp": ['赤', '赤ちゃん']
+}
+/* Parse.keyword.born = TODO */
+Parse.keyword.credit = {
+  "cn": ['TOWRITE'],
+  "en": ['author', 'Author', 'credit', 'Credit'],
+  "jp": ['著者']
+},
+Parse.keyword.dead = {
+  "cn": ['TOWRITE'],
+  "en": ['dead', 'Dead', 'died', 'Died', 'rainbow', 'Rainbow'],
+  "jp": ['死', '虹']
+}
+Parse.keyword.family = {};
+Parse.keyword.family.aunt = {
+  "cn": ['TOWRITE'],
+  "en": ['aunt', 'Aunt'],
+  "jp": ['TOWRITE']
+}
+Parse.keyword.family.brother = {
+  "cn": ['TOWRITE'],
+  "en": ['brother', 'Brother'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.cousin = {
+  "cn": ['TOWRITE'],
+  "en": ['cousin', 'Cousin'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.children = {
+  "cn": ['TOWRITE'],
+  "en": ['children'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.dad = {
+  "cn": ['TOWRITE'],
+  "en": ['dad', 'Dad', 'father', 'Father', 'papa', 'Papa'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.grandma = {
+  "cn": ['TOWRITE'],
+  "en": ['grandma', 'Grandma', 'grandmother', 'Grandmother'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.grandpa = {
+  "cn": ['TOWRITE'],
+  "en": ['grandpa', 'Grandpa', 'grandfather', 'Grandfather'],
+  "jp": ['TORWITE']
+},
+Parse.keyword.family.litter = {
+  "cn": ['TOWRITE'],
+  "en": ['litter', 'Litter'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.mate = {
+  "cn": ['TOWRITE'],
+  "en": ['husband', 'Husband', 'mate', 'Mate', 'partner', 'Partner', 'wife', 'Wife'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.mom = {
+  "cn": ['TOWRITE'],
+  "en": ['mam', 'Mam', 'mama', 'Mama', 'mom', 'Mom', 'mommy', 'Mommy', 'mother', 'Mother'],
+  "jp": ['TOWRITE']
+}
+Parse.keyword.family.nephew = {
+  "cn": ['TOWRITE'],
+  "en": ['nephew', 'Nephew'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.niece = {
+  "cn": ['TOWRITE'],
+  "en": ['niece', 'Niece'],
+  "jp": ['TOWRITE']
+}
+Parse.keyword.family.parents = {
+  "cn": ['TOWRITE'],
+  "en": ['parent', 'Parent', 'parents', 'Parents'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.relatives = {
+  "cn": ['TOWRITE'],
+  "en": ['family', 'Family', 'relatives', 'Relatives'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.siblings = {
+  "cn": ['TOWRITE'],
+  "en": ['sibling', 'Sibling', 'siblings', 'Siblings'],
+  "jp": ['TOWRITE']
+},
+Parse.keyword.family.uncle = {
+  "cn": ['TOWRITE'],
+  "en": ['uncle', 'Uncle'],
+  "jp": ['TOWRITE']
+}
+/* Parse.keyword.in = TODO */
+/* Parse.keyword.logical AND/OR/NOT/NOR = TODO */
+Parse.keyword.nearby = {
+  "cn": ['TOWRITE'],
+  "en": ['near', 'Near', 'nearby', 'Nearby'],
+  "jp": ['近く', '近くの動物園']
+}
+Parse.keyword.panda = {
+  "cn": ['TOWRITE'],
+  "en": ['panda', 'Panda', 'red panda', 'Red panda', 'Red Panda'],
+  "jp": ['パンダ', 'レッサーパンダ']
+}
+Parse.keyword.tag = {
+  "cn": ['TOWRITE'],
+  "en": ['tag', 'Tag', 'tags', 'Tags'],
+  "jp": ['TOWRITE']
+}
+Parse.keyword.zoo = {
+  "cn": ['TOWRITE'],
+  "en": ['zoo', 'Zoo'],
+  "jp": ['動物園']
 }
 
-Parse.ops.group = {};
-// Type operators 
-Parse.ops.group.types = Parse.values(Parse.ops.type);
-// Single keywords that represent queries on their own. Indexes into Parse.ops
-Parse.ops.group.zeroary = Parse.values([
-  Parse.ops.type.baby,
-  Parse.ops.type.dead,
-  Parse.ops.type.nearby,
+Parse.group = {};
+// Valid baby keywords
+Parse.group.baby = Parse.values([
+  Parse.keyword.baby
+]);
+// Valid credit keywords
+Parse.group.credit = Parse.values([
+  Parse.keyword.credit
+]);
+// Valid family keywords
+Parse.group.family = Parse.values([
+  Parse.keyword.family
+]);
+// Valid nearby keywords
+Parse.group.nearby = Parse.values([
+  Parse.keyword.nearby
+]);
+// Valid panda keywords
+Parse.group.panda = Parse.values([
+  Parse.keyword.panda
+]);
+// Aggregate of all possible tag values
+Parse.group.tags = Parse.values([
   Language.L.tags
 ]);
-Parse.ops.group.tags = Parse.values([
-  Language.L.tags
+// Keywords that take some form of arbitrary string name
+Parse.group.takes_subject_name = Parse.values([
+  Language.L.tags,
+  Parse.keyword.credit,
+  Parse.keyword.family,
+  Parse.keyword.panda,
+  Parse.keyword.zoo
 ]);
-// Unary operators
-Parse.ops.group.name_subject = Parse.values([
-  Parse.ops.family,
-  Parse.ops.type.credit,
-  Parse.ops.type.panda,
-  Parse.ops.type.zoo,
-  Language.L.tags
+// Keywords that take some form of numeric ID value
+Parse.group.takes_subject_number = Parse.values([
+  Language.L.tags,
+  Parse.keyword.family,
+  Parse.keyword.panda,
+  Parse.keyword.zoo
 ]);
-Parse.ops.group.number_subject = Parse.values([
-  Parse.ops.family,
-  Parse.ops.type.panda,
-  Parse.ops.type.zoo,
-  Language.L.tags
+// Keywords that take some kind of numeric year value
+Parse.group.takes_subject_year = Parse.values([
+  Parse.keyword.baby,
+  Parse.keyword.dead
 ]);
-// TODO: flesh where these operators live
-Parse.ops.group.year_subject = Parse.values([
-  Parse.ops.type.baby,
-  Parse.ops.subtype.born,
-  Parse.ops.subtype.dead,
-  Parse.ops.subtype.died,
-  Parse.ops.type.dead
+// Single keywords that represent queries on their own
+Parse.group.zeroary = Parse.values([
+  Language.L.tags,
+  Parse.keyword.baby,
+  Parse.keyword.dead,
+  Parse.keyword.nearby
 ]);
-// Binary operators
-Parse.ops.group.binary_logic = Parse.values([
-  Parse.ops.logical.and,
-  Parse.ops.logical.or
+// Valid zoo keywords
+Parse.group.zoo = Parse.values([
+  Parse.keyword.zoo
 ]);
+
 // Regex strings
 Parse.regex = {};
 // Any number, positive or negative
@@ -145,7 +234,7 @@ Parse.tree.build_grammar = function() {
   var Sequence = window.jsleri.Sequence;
   // var THIS = window.jsleri.THIS;
   // Take a list of operators and turn it into a choice
-  // NOTE: Choice.apply(Choice, Parse.ops) == Choice(...Parse.ops)
+  // NOTE: Choice.apply(Choice, Parse.keyword) == Choice(...Parse.keyword)
   var Choices = function(keyword_list) {
     return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw)));
   }
@@ -163,11 +252,11 @@ Parse.tree.build_grammar = function() {
   var r_year = Regex(Parse.regex.year);
   // Sets of operators
   // Zeroary keywords: Valid search with just a single term
-  var c_k_zeroary = Choices(Parse.ops.group.zeroary);
+  var c_k_zeroary = Choices(Parse.group.zeroary);
   // Unary keywords: Valid search with the correct subject
-  var c_k_unary_name = Reversible(Choices(Parse.ops.group.name_subject), r_name);
-  var c_k_unary_number = Reversible(Choices(Parse.ops.group.name_subject), r_id);
-  var c_k_unary_year = Reversible(Choices(Parse.ops.group.year_subject), r_year);
+  var c_k_unary_name = Reversible(Choices(Parse.group.takes_subject_name), r_name);
+  var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
+  var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
   // Binary keywords
   // var c_k_binary_logical = Choices(Parse.ops.group.binary_logic);
   // Start of the parsing logic, a list of prioritized forms of search queries
@@ -321,7 +410,12 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     // Many keyword combinations will not have valid results, but we want to
     // do some processing if we see certain types together. Examples:
     // 1) If all are tags: search set should be intersection of all tags
-    // TODO
+    var keywords_tags = keywords.filter(k => Parse.group.tags.indexOf(k) != -1);
+    if (keywords.length == keywords_tags.length) {
+      container_node.type = "set_photos_matching_tags";
+      value_nodes.forEach(n => n.type = "tag");
+    }
+    // TODO: how to handle the invalid case?
   }
   if (container_node.type == "set_keyword_subject") {
     var keyword_node = this.filter(value_nodes, [{"type": "keyword"}]);
@@ -330,59 +424,55 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     // want to process certain types of results together. Examples, from most
     // specific to least specific:
     //  1) (baby)+(year): baby is a type, year is the subject. Get all babies
-    if ((Parse.ops.group.type.baby.indexOf(keyword_node.str) != -1) && 
+    if ((Parse.group.baby.indexOf(keyword_node.str) != -1) && 
         (subject_node.type == "subject_year")) {
       container_node.type = "set_babies_list_year";
       keyword_node.type = "type";
     }
     //  2) (baby)+(name or id): baby is a tag, name is the intended panda. Get baby photos
-    else if ((Parse.ops.group.type.baby.indexOf(keyword_node.str) != -1) &&
+    else if ((Parse.group.baby.indexOf(keyword_node.str) != -1) &&
              ((subject_node.type == "subject_name") || 
               (subject_node.type == "subject_year"))) {
       container_node.type = "set_baby_photos_subject";
       keyword_node.type = "tag";
     }
     //  3) (credit)+(any subject): subject is an author name. Author search
-    else if (Parse.ops.type.credit.indexOf(keyword_node.str) != -1) {
+    else if (Parse.group.credit.indexOf(keyword_node.str) != -1) {
       container_node.type = "set_credit_photos";
       keyword_node.type = "subject_author";
     }
     //  4) (family-term)+(year or id): keyword plus an id. Get pandas of "relation"
-    else if ((Parse.values(Parse.ops.family).indexOf(keyword_node.str) != -1) &&
+    else if ((Parse.group.family.indexOf(keyword_node.str) != -1) &&
              (subject_node.type == "subject_year")) {
       container_node.type = "set_family_list";
       subject_node.type = "subject_panda_id";
     }
     //  5) (group.year_subject)+(year or id): keyword plus a year
-    else if ((Parse.ops.group.year_subject.indexOf(keyword_node.str) != -1) &&
+    else if ((Parse.group.takes_subject_year.indexOf(keyword_node.str) != -1) &&
              (subject_node.type == "subject_id"))          
     {
       container_node.type = "set_keyword_year";
       subject_node.type = "subject_year";
     }
     //  6) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
-    else if ((Parse.ops.nearby.indexOf(keyword) != -1) &&
+    else if ((Parse.group.nearby.indexOf(keyword) != -1) &&
              (subject_node.type == "subject_id")) {
       container_node.type = "set_nearby_zoo";
       subject_node.type = "subject_zoo_id";
     }
-    //  7) (panda|zoo)+(year or id): keyword plus an id. Get the panda matching the id.
-    else if ((Parse.ops.nearby.indexOf(keyword) != -1) &&
-             (subject_node.type == "subject_id")) {
-      container_node.type = "set_nearby_zoo";
-      subject_node.type = "subject_zoo_id";
+    //  7) (panda)+(year or id): keyword plus an id. Get the panda matching the id.
+    else if ((Parse.group.panda.indexOf(keyword) != -1) && 
+             ((subject_node.type == "subject_id") || 
+              (subject_node.type == "subject_year"))) {
+      container_node.type = "set_panda_id";
+      subject_node.type = "subject_panda_id";
     }
-    //  8) (subtype but not in)+(year or id): keyword plus an id. Panda search
-    // TODO
-    //  9) (subtype in)+(year or id): keyword plus an id. Get pandas at a zoo id
-    // TODO
-    // 10) (tag)+(year or id): tag of a photo, plus an id. Get tagged photos of a panda.
-    else if ((Parse.ops.group.tags.indexOf(keyword) != -1) &&
-             ((subject_node.type == "subject_year") || 
-              (subject_node.type == "subject_id"))) {
-      container_node.type = "set_tag_id";
-      keyword_node.type = "tag";
-      subject_node.type = "subject_id";
+    //  8) (zoo)+(year or id): keyword plus an id. Get the zoo matching the id.
+    else if ((Parse.group.zoo.indexOf(keyword) != -1) && 
+             ((subject_node.type == "subject_id") || 
+              (subject_node.type == "subject_year"))) {
+      container_node.type = "set_zoo_id";
+      subject_node.type = "subject_zoo_id";
     }
   }
 }
