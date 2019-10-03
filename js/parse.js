@@ -35,12 +35,17 @@ Parse.keyword.baby = {
   "en": ['aka-chan', 'Aka-Chan', 'Aka-chan', 'baby', 'Baby', 'babies', 'Babies'],
   "jp": ['赤', '赤ちゃん']
 }
-/* Parse.keyword.born = TODO */
+Parse.keyword.born = {
+  "cn": ['TOWRITE'],
+  "en": ['born', 'Born'],
+  "jp": ['TOWRITE']
+}
+/* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
   "cn": ['TOWRITE'],
   "en": ['author', 'Author', 'credit', 'Credit'],
   "jp": ['著者']
-},
+}
 Parse.keyword.dead = {
   "cn": ['TOWRITE'],
   "en": ['dead', 'Dead', 'died', 'Died', 'rainbow', 'Rainbow'],
@@ -56,42 +61,42 @@ Parse.keyword.family.brother = {
   "cn": ['TOWRITE'],
   "en": ['brother', 'Brother'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.cousin = {
   "cn": ['TOWRITE'],
   "en": ['cousin', 'Cousin'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.children = {
   "cn": ['TOWRITE'],
   "en": ['children'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.dad = {
   "cn": ['TOWRITE'],
   "en": ['dad', 'Dad', 'father', 'Father', 'papa', 'Papa'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.grandma = {
   "cn": ['TOWRITE'],
   "en": ['grandma', 'Grandma', 'grandmother', 'Grandmother'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.grandpa = {
   "cn": ['TOWRITE'],
   "en": ['grandpa', 'Grandpa', 'grandfather', 'Grandfather'],
   "jp": ['TORWITE']
-},
+}
 Parse.keyword.family.litter = {
   "cn": ['TOWRITE'],
   "en": ['litter', 'Litter'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.mate = {
   "cn": ['TOWRITE'],
   "en": ['husband', 'Husband', 'mate', 'Mate', 'partner', 'Partner', 'wife', 'Wife'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.mom = {
   "cn": ['TOWRITE'],
   "en": ['mam', 'Mam', 'mama', 'Mama', 'mom', 'Mom', 'mommy', 'Mommy', 'mother', 'Mother'],
@@ -101,7 +106,7 @@ Parse.keyword.family.nephew = {
   "cn": ['TOWRITE'],
   "en": ['nephew', 'Nephew'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.niece = {
   "cn": ['TOWRITE'],
   "en": ['niece', 'Niece'],
@@ -111,17 +116,17 @@ Parse.keyword.family.parents = {
   "cn": ['TOWRITE'],
   "en": ['parent', 'Parent', 'parents', 'Parents'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.relatives = {
   "cn": ['TOWRITE'],
   "en": ['family', 'Family', 'relatives', 'Relatives'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.siblings = {
   "cn": ['TOWRITE'],
   "en": ['sibling', 'Sibling', 'siblings', 'Siblings'],
   "jp": ['TOWRITE']
-},
+}
 Parse.keyword.family.uncle = {
   "cn": ['TOWRITE'],
   "en": ['uncle', 'Uncle'],
@@ -193,6 +198,7 @@ Parse.group.takes_subject_number = Parse.values([
 // Keywords that take some kind of numeric year value
 Parse.group.takes_subject_year = Parse.values([
   Parse.keyword.baby,
+  Parse.keyword.born,
   Parse.keyword.dead
 ]);
 // Single keywords that represent queries on their own
