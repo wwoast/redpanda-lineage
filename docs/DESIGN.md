@@ -58,29 +58,33 @@ A fully usable, GitHub-hosted search page for the Red Panda data is being develo
 
 ### Search Query Processing
 
-Having a site focused on Red Panda searching makes it straightforward to process unstructured text to terms automatically keyed on types like "panda" or "zoo". The process will have many steps though, so we should order them and think about them separately.
+Having a site focused on Red Panda searching makes it straightforward to process unstructured text to terms automatically keyed on types like "panda" or "zoo".
 
-  1. Operator Detection
-  2. Panda/Zoo "Subject" name construction
-  3. Language identification
-  4. Term Type Matching
-  5. Final Query Searching
+The process will have many steps:
 
-A potential red panda community is largely Japanese, English, Chinese, or Hindi speaking, so we hope to support all of those languages eventually. Since the data I'm building from is mostly Japanese zoos, I'm supporting Japanese and English first. 
+  1. Parsing the Input String into Keywords and Subjects
+  2. Classifying Input Tokens into Search Result Sets
+  3. Resolving Search Subjects
+  4. Resolving Search Result Types
+  5. Merging Result Sets into a Final Set
 
-### Operators
+The current parsing strategy involves a left-to-right parser called _jsleri_. 
 
-Any terms that dictate the logic of the search must be processed first. Given this is a geneaology searching tool, we treat family relationships as if they were operators as well, and many of these operators will have language-specific aliases like "mom" and "mother".
+
+### Keywords
+
+Search keywords define the different varieties of searches that can be performed. There are basic keywords like _panda_ or _zoo_, but family relationships and other intuitive phrases
+should be keywords as well.
+
+Each keyword rule defines a set of keywords in all possible search input languages. In practice it's important to accept arbitrary language text as input, potentially even emojis, to support the fastest possible search input entry.
 
   * Type Operators:
     * English: `panda`, `zoo`
   * Sub-Type Operators:
     * Unary:
-      * English: `alive`, `dead`, `in`, `born (before, after, on, around)`, `died (before, after, on, around)`
+      * English: `alive`, `dead`, `born (before, after, on, around, at)`, `died (before, after, on, around, at)`
     * Binary:
       * `born (between)`, `died (between)`
-  * Text Glob Operators:
-    * `*`, `?`
   * Boolean Operators:
     * Unary:
       * English: `not`
@@ -95,18 +99,10 @@ Any terms that dictate the logic of the search must be processed first. Given th
       * `relatives`, `siblings`
   
 
-#### Order of Operations
+## Resolving Search Subjects
 
-The type operators are only for scoping how specific a term is, or whether it needs resolution. Since these will make subsequent steps faster, and have no other effects on search results, type operators should be processed first.
+The search query itself may lend a single possible interpretation to what a search subject may be. For instance, _grandpa <subject>_ clearly requires the subject to refer to a panda, not a zoo. However, _born before <subject>_ may have valid search strategies in the case that the subject is a date, or an animal's name.
 
-Next, the sub-type operators can be resolved. These do impact the search results, because the arguments only apply to a specific type. The `in` operator only takes a `zoo` argument, so we assume that arguments to that operator are zoos. This is similar for `alive`, `dead`, or the existence of relationship operators, which all imply their subjects are animals. And the `born` and `died` operators imply the argument is a date.
-
-Now, the text glob operators can try and fill in values for strings that could match a panda name or a zoo name. The text glob processing stage has the same functionality requirements as "Subject" name construction -- you search for a term as if it was a panda or a zoo, and whichever has more matches, that's what you assume the type is. If this heuristic turns out to be incorrect, as long as the search interface makes it clear what type was chosen for a given term, the user can tune follow-up queries with
-manual sub-types to correct the bad automatic heuristic.
-
-Next, we need to process the boolean operators, to decide what nodes (zoos or pandas) are valid subjects to return relationship results based on.
-
-Finally, we process the relationship operators, to see where from our graph nodes we go in or out to find the family members we want.
 
 ----
 

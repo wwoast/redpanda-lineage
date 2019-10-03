@@ -24,6 +24,8 @@ Parse.values = function(input) {
     we're trying to support. Includes lists of the valid operators that may work on two
     different panda arguments.
     WARN: substrings in the keyword list may be problematic, so try and avoid them
+    TODO: organize operators by language for easier tracking / updating
+    TODO: born after/before/etc
 */
 Parse.ops = {
   "type": {
@@ -32,6 +34,7 @@ Parse.ops = {
     "dead": ["Dead", "dead", "Died", "died", "死", "Rainbow", "rainbow", "虹"],
     "nearby": ["nearby", "near", "近く", "近くの動物園"],
     "panda": ['Panda', 'panda', 'red panda', 'パンダ', 'レッサーパンダ'],
+    "tag": ['tag', 'Tag', 'tags'],
     "zoo": ['Zoo', 'zoo', '動物園']
   },
   "subtype": {
@@ -188,10 +191,11 @@ Parse.tree.classify = function(tree) {
   // Get subject nodes (year/name/id)
   var subject_nodes = this.filter(tree, this.tests.subject);
   // Get the subject container nodes, and classify those vlaues
+  // TODO: for zeroary / single item queries, need a classify strategy
   var container_nodes = subject_nodes.map(n => this.get_subject_container(n));
   container_nodes.forEach(n => this.node_type_composite_ids(n));
   // Finally, given what's in the containers, resolve what the keywords are
-  for (let containter_node of container_nodes) {
+  for (let container_node of container_nodes) {
     var value_nodes = this.filter(container_node, this.tests.singular);
     // Resolve keyword types into something more specific based on the subject
     this.node_type_specific_ids(container_node, value_nodes);
