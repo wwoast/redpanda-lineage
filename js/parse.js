@@ -352,7 +352,7 @@ Parse.tree.node_props = function(parent, node, children) {
   return {
     'start': node.start,
     'end': node.end,
-    'type': this.node_type(node),
+    'type': this.node_type(node, children),
     'str': node.str,
     'parent': parent,
     'children': children
@@ -360,7 +360,10 @@ Parse.tree.node_props = function(parent, node, children) {
 }
 // Identify the nodes by simple types, for later processing into query sets.
 // This is the first-level of parse-tree node identification.
-Parse.tree.node_type = function(node) {
+Parse.tree.node_type = function(node, children) {
+  if (children == undefined) {
+    return;   // No need to update anything
+  }
   if (children.length != 0) {
     return "composite";
   }
