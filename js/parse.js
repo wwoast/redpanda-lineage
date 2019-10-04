@@ -288,7 +288,6 @@ Parse.tree.classify = function(tree) {
   // Get the subject container nodes, and classify those vlaues
   // TODO: for zeroary / single item queries, need a classify strategy
   var container_nodes = subject_nodes.map(n => this.walk_to_subject_container(n));
-  container_nodes.forEach(n => this.node_type_composite_ids(n));
   // Finally, given what's in the containers, resolve what the keywords are
   for (let container_node of container_nodes) {
     var value_nodes = this.filter(container_node, this.tests.singular);
@@ -339,7 +338,7 @@ Parse.tree.get_children = function(children) {
 }
 // Where the grammar object is stored
 Parse.tree.grammar = undefined;
-// Add parent node connectivity to the tree
+// Add parent node connectivity to the tree after the basic tree is generated
 Parse.tree.link_parents = function(current) {
   current.children.forEach(c => c['parent'] = current);
   current.children.forEach(c => this.link_parents(c));
@@ -417,8 +416,8 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     // TODO: how to handle the invalid case?
   }
   if (container_node.type == "set_keyword_subject") {
-    var keyword_node = this.filter(value_nodes, [{"type": "keyword"}]);
-    var subject_node = this.filter(value_nodes, this.tests.subject);
+    var keyword_node = this.filter(container_node, [{"type": "keyword"}])[0];
+    var subject_node = this.filter(container_node, this.tests.subject)[0];
     // Some keyword-subject combinations will not have valid results, but we
     // want to process certain types of results together. Examples, from most
     // specific to least specific:
@@ -454,20 +453,20 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
       subject_node.type = "subject_year";
     }
     //  6) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
-    else if ((Parse.group.nearby.indexOf(keyword) != -1) &&
+    else if ((Parse.group.nearby.indexOf(keyword_node.str) != -1) &&
              (subject_node.type == "subject_id")) {
       container_node.type = "set_nearby_zoo";
       subject_node.type = "subject_zoo_id";
     }
     //  7) (panda)+(year or id): keyword plus an id. Get the panda matching the id.
-    else if ((Parse.group.panda.indexOf(keyword) != -1) && 
+    else if ((Parse.group.panda.indexOf(keyword_node.str) != -1) && 
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
       container_node.type = "set_panda_id";
       subject_node.type = "subject_panda_id";
     }
     //  8) (zoo)+(year or id): keyword plus an id. Get the zoo matching the id.
-    else if ((Parse.group.zoo.indexOf(keyword) != -1) && 
+    else if ((Parse.group.zoo.indexOf(keyword_node.str) != -1) && 
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
       container_node.type = "set_zoo_id";
@@ -495,23 +494,22 @@ Parse.tree.view = function(parse_input) {
   if (result.tree.hasOwnProperty("children")) {
     start = result.tree.children[0];
   }
-  var t = this.node_props(start, this.get_children(start.children));
+  var tree = this.node_props(start, this.get_children(start.children));
   // Double-link nodes in this tree to their parents
-  this.link_parents(t);
-  return t;
+  this.link_parents(tree);
+  return tree;
 }
 // Start with leaf nodes containing type: "subject_*" in the parse tree,
 // and then work your way up until you're looking at the parser's stanza
 // where it parsed that subject in context of another keyword. Re-classify
 // any nodes you run into along the way.
 Parse.tree.walk_to_subject_container = function(node) {
-  var parent = node.parent;
-  var type = this.node_type_composite_ids(parent);
-  parent.type = type;
-  if (type.indexOf("contains") == 0) {
-    return this.get_subject_container(parent);
+  var parent_type = this.node_type_composite_ids(node.parent);
+  node.parent.type = parent_type;   // Set paret node types as we walk
+  if (parent_type.indexOf("contains") == 0) {
+    return this.get_subject_container(node.parent);
   } else {
-    return parent;
+    return node.parent;
   }
 }
 // Write a parse tree based on the given input
