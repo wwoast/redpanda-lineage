@@ -18,6 +18,19 @@ Parse.values = function(input) {
   return results;
 }
 
+// Given a search tag, find the equivalent term for that tag that is standardized
+// on in the panda files, and return results for that tag. Searches all language
+// keywords for a tag.
+Parse.searchTag = function(search_tag) {
+  for (var key of Object.keys(Language.L.tags)) {
+    let terms = Parse.values(Language.L.tags[key]);
+    if (terms.indexOf(search_tag) != -1) {
+      return key;
+    } 
+  }
+  return undefined;
+}
+
 /*
     Operator Definitions and aliases, organized into stages (processing order), and then
     by alphabetical operator order, and then in the alternate languages for searching that
@@ -330,6 +343,26 @@ Parse.tree.filter = function(node, tests) {
     this.filter(c, tests)));
   return this.flatten(results);
 }
+// Takes the result from parsing a grammar, and builds a parse tree
+// with our own node details and formatting, based on jsleri's
+Parse.tree.generate = function(parse_input) {
+  if (this.grammar == undefined) {
+    console.log("No query grammar defined")
+    return {};
+  }
+  var result = this.grammar.parse(parse_input);
+  var start = result.tree;
+  if (result.tree.hasOwnProperty("children")) {
+    start = result.tree.children[0];
+  }
+  var tree = this.node_props(start, this.get_children(start.children));
+  // Double-link nodes in this tree to their parents
+  this.link_parents(tree);
+  // Do higher-level classification of the nodes in the tree, to prepare
+  // for building results sets
+  this.classify(tree);
+  return tree;
+}
 // Convert jsleri parse tree to our desired format, one child at a time.
 Parse.tree.get_children = function(children) {
   return children.map(c => 
@@ -424,14 +457,14 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     //  1) (baby)+(year): baby is a type, year is the subject. Get all babies
     if ((Parse.group.baby.indexOf(keyword_node.str) != -1) && 
         (subject_node.type == "subject_year")) {
-      container_node.type = "set_babies_list_year";
+      container_node.type = "set_babies_year_list";
       keyword_node.type = "type";
     }
     //  2) (baby)+(name or id): baby is a tag, name is the intended panda. Get baby photos
     else if ((Parse.group.baby.indexOf(keyword_node.str) != -1) &&
              ((subject_node.type == "subject_name") || 
               (subject_node.type == "subject_year"))) {
-      container_node.type = "set_baby_photos_subject";
+      container_node.type = "set_baby_subject_photos";
       keyword_node.type = "tag";
     }
     //  3) (credit)+(any subject): subject is an author name. Author search
@@ -477,23 +510,24 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
   }
 }
 Parse.tree.types = {};
+Parse.tree.types.sets = [
+  "set_babies_year_list",
+  "set_baby_subject_photos",  
+  "set_credit_photos",
+  "set_family_list",
+  "set_keywords",
+  "set_keyword_subject",
+  "set_nearby_zoo",
+  "set_panda_id",
+  "set_keyword_year",
+  "set_zoo_id"
+];
 Parse.tree.types.composite = [
   "choice",
   "composite",
   "contains",
   "sequence"
-];
-Parse.tree.types.singular = [
-  "keyword",
-  "subject_author",
-  "subject_id",
-  "subject_name",
-  "subject_panda_id",
-  "subject_year",
-  "subject_zoo_id",
-  "tag",
-  "type"
-];
+].concat(Parse.tree.types.sets);
 Parse.tree.types.subject = [
   "subject_author",
   "subject_id",
@@ -502,27 +536,16 @@ Parse.tree.types.subject = [
   "subject_year",
   "subject_zoo_id"
 ];
+Parse.tree.types.singular = [
+  "keyword",
+  "tag",
+  "type"
+].concat(Parse.tree.types.subject);
 Parse.tree.tests = {};
 Parse.tree.tests.composite = Parse.tree.types.composite.map(t => ({"type": t}));
+Parse.tree.tests.sets = Parse.tree.types.sets.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
 Parse.tree.tests.subject = Parse.tree.types.subject.map(t => ({"type": t}));
-// Takes the result from parsing a grammar, and builds a parse tree
-// with our own node details and formatting, based on jsleri's
-Parse.tree.view = function(parse_input) {
-  if (this.grammar == undefined) {
-    console.log("No query grammar defined")
-    return {};
-  }
-  var result = this.grammar.parse(parse_input);
-  var start = result.tree;
-  if (result.tree.hasOwnProperty("children")) {
-    start = result.tree.children[0];
-  }
-  var tree = this.node_props(start, this.get_children(start.children));
-  // Double-link nodes in this tree to their parents
-  this.link_parents(tree);
-  return tree;
-}
 // Start with leaf nodes containing type: "subject_*" in the parse tree,
 // and then work your way up until you're looking at the parser's stanza
 // where it parsed that subject in context of another keyword. Re-classify
@@ -535,11 +558,6 @@ Parse.tree.walk_to_subject_container = function(node) {
   } else {
     return node.parent;
   }
-}
-// Write a parse tree based on the given input
-Parse.tree.write = function(parse_input) {
-  this.nodes.all = this.view(parse_input);
-  return this.nodes.all;
 }
 
 // Build the grammar for functions to use immediately
