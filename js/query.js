@@ -59,7 +59,7 @@ Query.resolver.single = function(set_node, singular_node) {
       hits = Pandas.searchPandaId(search_word);
     }
     // subject_name on its own may be a panda or a zoo
-    if (singular_node.type = "subject_name") {
+    if (singular_node.type == "subject_name") {
       var panda_hits = Pandas.searchPandaName(search_word);
       var zoo_hits = Pandas.searchZooName(search_word);
       hits = (panda_hits.length >= zoo_hits.length)

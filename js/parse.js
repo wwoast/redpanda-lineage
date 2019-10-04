@@ -1,4 +1,4 @@
-var Parse = {};   // Namespace. TODO: replace Query object
+var Parse = {};   // Namespace
 
 // Get a list of valid operators (the children) of the Parse.obj array
 // Return the result as a single-level array
@@ -308,7 +308,7 @@ Parse.tree.classify = function(tree) {
   } else if (subject_nodes.length == 0 && keyword_nodes.length == 1) {
     Parse.tree.classify_keyword_only(keyword_nodes[0]);
   } else {
-    Parse.tree.classify_plural(tree);
+    Parse.tree.classify_plural(subject_nodes);
   }
 }
 Parse.tree.classify_keyword_only = function(keyword_node) {
@@ -317,7 +317,7 @@ Parse.tree.classify_keyword_only = function(keyword_node) {
 Parse.tree.classify_subject_only = function(subject_node) {
   subject_node.parent.type = "set_subject";
 }
-Parse.tree.classify_plural = function(tree) {
+Parse.tree.classify_plural = function(subject_nodes) {
   // Get the subject container nodes, and classify those values
   var container_nodes = subject_nodes.map(n => this.walk_to_subject_container(n));
   // Finally, given what's in the containers, resolve what the keywords are
