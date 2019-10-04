@@ -177,6 +177,10 @@ Parse.group.baby = Parse.values([
 Parse.group.credit = Parse.values([
   Parse.keyword.credit
 ]);
+// Valid dead keywords
+Parse.group.dead = Parse.values([
+  Parse.keyword.dead
+]);
 // Valid family keywords
 Parse.group.family = Parse.values([
   Parse.keyword.family
