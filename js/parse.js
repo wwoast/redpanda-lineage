@@ -332,26 +332,25 @@ Parse.tree.filter = function(node, tests) {
   return this.flatten(results);
 }
 // Convert jsleri parse tree to our desired format, one child at a time.
-Parse.tree.get_children = function(parent, children) {
-  // Parent is from the original tree so we need to process it as well
-  parent = this.node_props(parent.parent, parent, parent.children);
+Parse.tree.get_children = function(children) {
   return children.map(c => 
-    this.node_props(parent, c, this.get_children(c, c.children))
+    this.node_props(c, this.get_children(c.children))
   );
 }
 // Where the grammar object is stored
 Parse.tree.grammar = undefined;
-Parse.tree.nodes = {};
-Parse.tree.nodes.all = {};
-Parse.tree.nodes.subjects = [];
+// Add parent node connectivity to the tree
+Parse.tree.link_parents = function(current) {
+  current.children.forEach(c => c['parent'] = current);
+  current.children.forEach(c => this.link_parents(c));
+}
 // Define our ideal tree node, using jsleri's as a base 
-Parse.tree.node_props = function(parent, node, children) {
+Parse.tree.node_props = function(node, children) {
   return {
     'start': node.start,
     'end': node.end,
     'type': this.node_type(node, children),
     'str': node.str,
-    'parent': parent,
     'children': children
   }
 }
@@ -496,7 +495,10 @@ Parse.tree.view = function(parse_input) {
   if (result.tree.hasOwnProperty("children")) {
     start = result.tree.children[0];
   }
-  return this.node_props(undefined, start, this.get_children(start, start.children));
+  var t = this.node_props(start, this.get_children(start.children));
+  // Double-link nodes in this tree to their parents
+  this.link_parents(t);
+  return t;
 }
 // Start with leaf nodes containing type: "subject_*" in the parse tree,
 // and then work your way up until you're looking at the parser's stanza
