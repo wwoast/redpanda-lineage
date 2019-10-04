@@ -280,7 +280,6 @@ Parse.tree.build_grammar = function() {
   // var c_k_binary_logical = Choices(Parse.ops.group.binary_logic);
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
-    r_year,
     r_id,
     c_k_zeroary,
     c_k_unary_year,     // Unary keywords followed by year-number
@@ -294,12 +293,28 @@ Parse.tree.build_grammar = function() {
   Parse.tree.grammar = Grammar(START);
 }
 // After performing the parse, navigate through the tree and do subsequent
-// node type classification and resolution.
+// node type classification and resolution. These node types will identify
+// where the query resolution code should do graph searches and build sets
+// of results to display.
 Parse.tree.classify = function(tree) {
-  // Get subject nodes (year/name/id)
   var subject_nodes = this.filter(tree, this.tests.subject);
-  // Get the subject container nodes, and classify those vlaues
-  // TODO: for zeroary / single item queries, need a classify strategy
+  var keyword_nodes = this.filter(tree, this.tests.keyword);
+  if (subject_nodes.length == 1 && keyword_nodes.length == 0) {
+    Parse.tree.classify_subject_only(subject_nodes[0]);
+  } else if (subject_nodes.length == 0 && keyword_nodes.length == 1) {
+    Parse.tree.classify_keyword_only(keyword_nodes[0]);
+  } else {
+    Parse.tree.classify_plural(tree);
+  }
+}
+Parse.tree.classify_keyword_only = function(keyword_node) {
+  keyword_node.parent.type = "set_keyword";
+}
+Parse.tree.classify_subject_only = function(subject_node) {
+  subject_node.parent.type = "set_subject";
+}
+Parse.tree.classify_plural = function(tree) {
+  // Get the subject container nodes, and classify those values
   var container_nodes = subject_nodes.map(n => this.walk_to_subject_container(n));
   // Finally, given what's in the containers, resolve what the keywords are
   for (let container_node of container_nodes) {
@@ -443,13 +458,13 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     // 1) If all are tags: search set should be intersection of all tags
     var keywords_tags = keywords.filter(k => Parse.group.tags.indexOf(k) != -1);
     if (keywords.length == keywords_tags.length) {
-      container_node.type = "set_photos_matching_tags";
+      container_node.type = "set_matching_tags_photos";
       value_nodes.forEach(n => n.type = "tag");
     }
     // TODO: how to handle the invalid case?
   }
   if (container_node.type == "set_keyword_subject") {
-    var keyword_node = this.filter(container_node, [{"type": "keyword"}])[0];
+    var keyword_node = this.filter(container_node, this.tests.keyword)[0];
     var subject_node = this.filter(container_node, this.tests.subject)[0];
     // Some keyword-subject combinations will not have valid results, but we
     // want to process certain types of results together. Examples, from most
@@ -515,11 +530,14 @@ Parse.tree.types.sets = [
   "set_baby_subject_photos",  
   "set_credit_photos",
   "set_family_list",
+  "set_keyword",
   "set_keywords",
   "set_keyword_subject",
-  "set_nearby_zoo",
-  "set_panda_id",
   "set_keyword_year",
+  "set_matching_tags_photos",
+  "set_nearby_zoo",
+  "set_subject",
+  "set_panda_id",
   "set_zoo_id"
 ];
 Parse.tree.types.composite = [
@@ -528,6 +546,11 @@ Parse.tree.types.composite = [
   "contains",
   "sequence"
 ].concat(Parse.tree.types.sets);
+Parse.tree.types.keyword = [
+  "keyword",
+  "tag",
+  "type"
+];
 Parse.tree.types.subject = [
   "subject_author",
   "subject_id",
@@ -536,13 +559,11 @@ Parse.tree.types.subject = [
   "subject_year",
   "subject_zoo_id"
 ];
-Parse.tree.types.singular = [
-  "keyword",
-  "tag",
-  "type"
-].concat(Parse.tree.types.subject);
+Parse.tree.types.singular = Parse.tree.types.keyword
+  .concat(Parse.tree.types.subject);
 Parse.tree.tests = {};
 Parse.tree.tests.composite = Parse.tree.types.composite.map(t => ({"type": t}));
+Parse.tree.tests.keyword = Parse.tree.types.keyword.map(t => ({"type": t}));
 Parse.tree.tests.sets = Parse.tree.types.sets.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
 Parse.tree.tests.subject = Parse.tree.types.subject.map(t => ({"type": t}));

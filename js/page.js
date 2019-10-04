@@ -445,7 +445,7 @@ Page.routes.behavior = function(input) {
     return false;
   }
   // Run the query through the parser and return results
-  return Query.resolver(query_string);
+  return Query.resolver.begin(query_string);
 }
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons

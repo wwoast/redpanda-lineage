@@ -31,74 +31,63 @@ Query.env.clear = function() {
 /* 
     Resolve the query string into something
 */
-Query.resolver = function(input_string) {
+Query.resolver = {};
+Query.resolver.begin = function(input_string) {
   var parse_tree = Parse.tree.generate(input_string);
   
   // Build result sets. For now, this should just be very simple result sets
-  // based on one of the available 
-
-  // Process searches that are just single keywords, like "babies"
-  /*
-  "singleton": function(keyword) {
-    if (Query.ops.type.baby.indexOf(keyword) != -1) {
+  // based on one of the available search sets
+  var set_nodes = Parse.tree.filter(parse_tree, Parse.tree.tests.sets);
+  // Nothing parsed looks like a search set to return results for
+  if (set_nodes.length == 0) {
+    return [];
+  }
+  // Zeroary search, or Single subject search.
+  var singular_nodes = Parse.tree.filter(set_nodes[0], Parse.tree.tests.singular);
+  if (set_nodes.length == 1 && singular_nodes.length == 1) {
+    return Query.resolver.single(set_nodes[0], singular_nodes[0]);
+  }
+  // Unary search, or Keyword + Search Term
+  // TOWRITE
+}
+// The parse tree found only a single term for searching
+Query.resolver.single = function(set_node, singular_node) {
+  var set_type = set_node.type;
+  var singular_type = singular_node.type;
+  var search_word = singular_node.str;
+  if (set_type == "set_subject") {
+    if (singular_type == "subject_id") {
+      return Pandas.searchPandaId(search_word);
+    }
+    if (singular_type = "subject_name") {
+      return Pandas.searchPandaName(search_word);
+    }
+    // subject_year isn't valid on its own
+  }
+  if (set_type == "set_keyword") {
+    if (Parse.group.baby.indexOf(search_word) != -1) {
       return Pandas.searchBabies();
     }
-    if (Query.ops.type.nearby.indexOf(keyword) != -1) {
+    if (Parse.group.nearby.indexOf(search_word) != -1) {
       if (F.resolved == false) {
         F.getNaiveLocation();
       }
       // If we're still on a query page and another action hasn't occurred,
       // display the zoo results when we're done.
     }
-    if (Query.ops.type.dead.indexOf(keyword) != -1) {
+    if (Parse.group.dead.indexOf(search_word) != -1) {
       return Pandas.searchDead();
     }
-    if (Query.values(Language.L.tags).indexOf(keyword) != -1) {
+    if (Parse.group.tags.indexOf(search_word) != -1) {
       Query.env.output_mode = "photos";
       // Find the canonical tag to do the searching by
-      var tag = Query.searchTag(keyword);
+      var tag = Parse.searchTag(search_word);
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
-      return Pandas.searchPhotoTags(Pandas.allAnimalsAndMedia(), [tag], mode="photos", fallback="none");
+      return Pandas.searchPhotoTags(
+        Pandas.allAnimalsAndMedia(), 
+        [tag], mode="photos", fallback="none"
+      );
     }
-  },
-  // Process a search term, either typed as panda/zoo, or untyped,
-  // into a list of nodes in the Pandas/Zoos graph
-  "subject": function(subject, type, language) {
-    // Explicitly search for a panda by id
-    if ((Pandas.checkId(subject) == true) &&
-        (Query.ops.type.panda.indexOf(type) != -1)) {
-      return Pandas.searchPandaId(subject);
-    }
-    // Explicitly search for a zoo by id
-    if ((Pandas.checkId(subject) == true) &&
-        (Query.ops.type.zoo.indexOf(type) != -1)) {
-      return Pandas.searchZooId(subject);
-    }
-    // If the baby operator is there, search for babies by year
-    if (Query.ops.type.baby.indexOf(type) != -1) {
-      return Pandas.searchBabies(subject);
-    }
-    // If the dead operator is there, search for panda deaths by year
-    if (Query.ops.type.dead.indexOf(type) != -1) {
-      return Pandas.searchDead(subject);
-    }
-    // If a credit operator is there, search for photo credits
-    if (Query.ops.type.credit.indexOf(type) != -1) {
-      return Pandas.searchPhotoCredit(subject);
-    }
-    // Raw ids are assumed to be panda ids
-    if ((Pandas.checkId(subject) == true) &&
-        (type == undefined)) {
-      return Pandas.searchPandaId(subject);    
-    }
-    // Otherwise search by name
-    if (Query.ops.type.panda.indexOf(type) != -1) {
-      return Pandas.searchPandaName(subject);
-    }
-    if (Query.ops.type.zoo.indexOf(type) != -1) {
-      return Pandas.searchZooName(subject);
-    }
-  },
-  */
+  }
 }
