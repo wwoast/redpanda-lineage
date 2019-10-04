@@ -384,7 +384,7 @@ Parse.tree.node_type = function(node, children) {
 Parse.tree.node_type_composite_ids = function(node) {
   var singulars = this.filter(node, this.tests.singular).map(n => n.type).sort();
   if (singulars.length == 1) {
-    return "contains_" + singulars[0];
+    return "contains";
   }
   // Unary parse structures
   if (singulars.length == 2) {
@@ -463,6 +463,7 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
       container_node.type = "set_panda_id";
+      keyword_node.type = "type";
       subject_node.type = "subject_panda_id";
     }
     //  8) (zoo)+(year or id): keyword plus an id. Get the zoo matching the id.
@@ -470,14 +471,37 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
       container_node.type = "set_zoo_id";
+      keyword_node.type = "type";
       subject_node.type = "subject_zoo_id";
     }
   }
 }
 Parse.tree.types = {};
-Parse.tree.types.composite = ["choice", "composite", "sequence"];
-Parse.tree.types.singular = ["keyword", "subject_id", "subject_name", "subject_year"];
-Parse.tree.types.subject = ["subject_id", "subject_name", "subject_year"];
+Parse.tree.types.composite = [
+  "choice",
+  "composite",
+  "contains",
+  "sequence"
+];
+Parse.tree.types.singular = [
+  "keyword",
+  "subject_author",
+  "subject_id",
+  "subject_name",
+  "subject_panda_id",
+  "subject_year",
+  "subject_zoo_id",
+  "tag",
+  "type"
+];
+Parse.tree.types.subject = [
+  "subject_author",
+  "subject_id",
+  "subject_name",
+  "subject_panda_id",
+  "subject_year",
+  "subject_zoo_id"
+];
 Parse.tree.tests = {};
 Parse.tree.tests.composite = Parse.tree.types.composite.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
