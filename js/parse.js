@@ -287,7 +287,7 @@ Parse.tree.classify = function(tree) {
   var subject_nodes = this.filter(tree, this.tests.subject);
   // Get the subject container nodes, and classify those vlaues
   // TODO: for zeroary / single item queries, need a classify strategy
-  var container_nodes = subject_nodes.map(n => this.get_subject_container(n));
+  var container_nodes = subject_nodes.map(n => this.walk_to_subject_container(n));
   container_nodes.forEach(n => this.node_type_composite_ids(n));
   // Finally, given what's in the containers, resolve what the keywords are
   for (let container_node of container_nodes) {
@@ -333,20 +333,11 @@ Parse.tree.filter = function(node, tests) {
 }
 // Convert jsleri parse tree to our desired format, one child at a time.
 Parse.tree.get_children = function(parent, children) {
+  // Parent is from the original tree so we need to process it as well
+  parent = this.node_props(parent.parent, parent, parent.children);
   return children.map(c => 
-    this.node_props(parent, c, this.get_children(parent, c.children))
+    this.node_props(parent, c, this.get_children(c, c.children))
   );
-}
-// Start with leaf nodes containing type: "subject_*" in the parse tree,
-// and then work your way up until you're looking at the parser's stanza
-// where it parsed that subject in context of another keyword.
-Parse.tree.get_subject_container = function(node) {
-  var type = this.node_type_composite_ids(node.parent);
-  if (type.indexOf("contains") == 0) {
-    return this.get_subject_container(node.parent);
-  } else {
-    return node;
-  }
 }
 // Where the grammar object is stored
 Parse.tree.grammar = undefined;
@@ -487,8 +478,8 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
 }
 Parse.tree.types = {};
 Parse.tree.types.composite = ["choice", "composite", "sequence"];
-Parse.tree.types.singular = ["id", "keyword", "name", "year"];
-Parse.tree.types.subject = ["id", "name", "year"];
+Parse.tree.types.singular = ["keyword", "subject_id", "subject_name", "subject_year"];
+Parse.tree.types.subject = ["subject_id", "subject_name", "subject_year"];
 Parse.tree.tests = {};
 Parse.tree.tests.composite = Parse.tree.types.composite.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
@@ -506,6 +497,20 @@ Parse.tree.view = function(parse_input) {
     start = result.tree.children[0];
   }
   return this.node_props(undefined, start, this.get_children(start, start.children));
+}
+// Start with leaf nodes containing type: "subject_*" in the parse tree,
+// and then work your way up until you're looking at the parser's stanza
+// where it parsed that subject in context of another keyword. Re-classify
+// any nodes you run into along the way.
+Parse.tree.walk_to_subject_container = function(node) {
+  var parent = node.parent;
+  var type = this.node_type_composite_ids(parent);
+  parent.type = type;
+  if (type.indexOf("contains") == 0) {
+    return this.get_subject_container(parent);
+  } else {
+    return parent;
+  }
 }
 // Write a parse tree based on the given input
 Parse.tree.write = function(parse_input) {
