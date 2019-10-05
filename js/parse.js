@@ -263,7 +263,7 @@ Parse.tree.build_grammar = function() {
   // Take a list of operators and turn it into a choice
   // NOTE: Choice.apply(Choice, Parse.keyword) == Choice(...Parse.keyword)
   var Choices = function(keyword_list) {
-    return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw)));
+    return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw, true)));
   }
   // Take a sequence, and make it parse in either direction
   // Example: "born 1999" or "2005 babies"
@@ -298,7 +298,7 @@ Parse.tree.build_grammar = function() {
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
-  Parse.tree.grammar = Grammar(START);
+  Parse.tree.grammar = new Grammar(START, '^[A-Za-z0-9_ ]+');
 }
 // After performing the parse, navigate through the tree and do subsequent
 // node type classification and resolution. These node types will identify
