@@ -34,6 +34,7 @@ class RedPandaGraph:
         self.edges = []
         self.links = []
         self.links_files = []
+        self.lexer_names = []   # Complex names with spaces
         self.media = []
         self.media_files = []
         self.panda_files = []
@@ -217,6 +218,8 @@ class RedPandaGraph:
         export = {}
         export['vertices'] = self.vertices
         export['edges'] = self.edges
+        export['_lexer'] = {}
+        export['_lexer']['names'] = sorted(self.lexer_names)
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
@@ -360,6 +363,8 @@ class RedPandaGraph:
                 # Name rule checking
                 self.check_imported_name(field[1], field[0], path)
                 panda_vertex[field[0]] = field[1]
+                # If a name has spaces in it, track it to help search parsing
+                self.process_lexer_names(field[1])
             elif field[0].find("gender") != -1:
                 # Gender rules
                 gender = self.check_imported_gender(field[1], path)
@@ -510,6 +515,22 @@ class RedPandaGraph:
                     ((a['_out'] == outp and a['_in'] == inp) or  
                      (a['_in'] == outp and a['_out'] == inp)))]
 
+    def process_lexer_names(self, input):
+        """
+        The RPF front-end uses a LR parser with space as delimiter. We help
+        it along by enumerating all input names for animals that have spaces
+        in them, so that a lexer can preserve those names when they appear in
+        the search input.
+        
+        Name fields may come in a few varieties -- just names, or commma-space
+        delimited lists. Process this down to just a simple list.
+        """
+        input_list = input.split(", ")   # Make an array
+        input_list = [x for x in input_list 
+                        if x.count(" ") > 0
+                        and not x in self.lexer_names]
+        self.lexer_names.extend(input_list)
+        
     def set_updates(self, updates):
         """
         In the UpdateFromCommits object, we build a list of new photos
