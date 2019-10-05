@@ -298,7 +298,7 @@ Parse.tree.build_grammar = function() {
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
-  Parse.tree.grammar = new Grammar(START, '^[A-Za-z0-9_ ]+');
+  Parse.tree.grammar = new Grammar(START, '^[A-Za-z0-9_\\- ]+');
 }
 // After performing the parse, navigate through the tree and do subsequent
 // node type classification and resolution. These node types will identify
