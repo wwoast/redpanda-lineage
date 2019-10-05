@@ -298,6 +298,7 @@ Parse.tree.build_grammar = function() {
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
+  // Maybe build the keyword regex out of Pandas.def.ranges
   Parse.tree.grammar = new Grammar(START, '^[A-Za-z0-9_\\- ]+');
 }
 // After performing the parse, navigate through the tree and do subsequent
