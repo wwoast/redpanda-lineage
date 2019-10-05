@@ -456,6 +456,9 @@ Parse.tree.node_type_composite_ids = function(node) {
     if (singulars[0] == "keyword" && singulars[1] == "keyword") {
       return "set_keywords";
     }
+    if (singulars[0].indexOf("subject") == 0 && singulars[1] == "tag") {
+      return "set_tag_subject";
+    }
     if (singulars[0] == "keyword" && singulars[1].indexOf("subject") == 0) {
       return "set_keyword_subject";
     }

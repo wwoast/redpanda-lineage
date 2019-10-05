@@ -47,7 +47,35 @@ Query.resolver.begin = function(input_string) {
     return Query.resolver.single(set_nodes[0], singular_nodes[0])
   }
   // Unary search, or Keyword + Search Term
-  // TOWRITE
+  if (set_nodes.length == 1 && singular_nodes.length == 2) {
+    return Query.resolver.pair(set_nodes[0], singular_nodes);
+  }
+}
+// The parse tree found a single set node, with a pair of nodes underneath it
+Query.resolver.pair = function(set_node) {
+  var hits = [];
+  var keyword_node = this.filter(set_node, this.tests.keyword)[0];
+  var subject_node = this.filter(set_node, this.tests.subject)[0];
+  var search_word = subject_node.str;
+  var tag = undefined;
+  if (set_node.type == "set_keyword_subject") {
+    // Go through what all the possible keywords might be that we care about here
+  }
+  if (set_node.type == "set_tag_subject") {
+    tag = Parse.search_tag(keyword_node.str);
+    if (singular_node.type == "subject_name") {
+      search_word = Language.capitalNames(search_word);
+    }
+    var animals = Pandas.searchPandaMedia(search_word);
+    hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
+  }
+  return {
+    "hits": hits,
+    "parsed": set_node.type,
+    "query": set_node.str,
+    "subject": search_word,
+    "tag": tag
+  }
 }
 // The parse tree found only a single term for searching
 Query.resolver.single = function(set_node, singular_node) {
@@ -97,8 +125,8 @@ Query.resolver.single = function(set_node, singular_node) {
     }
   }
   return {
-    "query": set_node.str,
+    "hits": hits,
     "parsed": set_node.type,
-    "hits": hits
+    "query": set_node.str
   }
 }
