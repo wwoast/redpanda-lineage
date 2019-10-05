@@ -197,6 +197,10 @@ Parse.group.panda = Parse.values([
 Parse.group.tags = Parse.values([
   Language.L.tags
 ]);
+// Keywords that take some kind of contributor name
+Parse.group.takes_subject_author = Parse.values([
+  Parse.group.credit
+]);
 // Keywords that take some form of arbitrary string name
 Parse.group.takes_subject_name = Parse.values([
   Language.L.tags,
@@ -312,7 +316,11 @@ Parse.tree.classify = function(tree) {
   }
 }
 Parse.tree.classify_keyword_only = function(keyword_node) {
-  keyword_node.parent.type = "set_keyword";
+  if (keyword_node.type == "tag") {
+    keyword_node.parent.type = "set_tag";
+  }  else {
+    keyword_node.parent.type = "set_keyword";
+  }
 }
 Parse.tree.classify_subject_only = function(subject_node) {
   subject_node.parent.type = "set_subject";
@@ -415,7 +423,11 @@ Parse.tree.node_type = function(node, children) {
     return "composite";
   }
   if (node.element.hasOwnProperty("keyword")) {
-    return "keyword";
+    if (Parse.group.tags.indexOf(node.element.keyword) != -1) {
+      return "tag";
+    } else {
+      return "keyword";   // All other query logic in result gathering
+    }
   }
   if (node.element.hasOwnProperty("re")) {
     if (node.element.re == Parse.regex.id) {
@@ -542,6 +554,8 @@ Parse.tree.types.sets = [
   "set_nearby_zoo",
   "set_subject",
   "set_panda_id",
+  "set_tag",
+  "set_tag_subject",
   "set_zoo_id"
 ];
 Parse.tree.types.composite = [

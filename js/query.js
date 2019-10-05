@@ -81,6 +81,8 @@ Query.resolver.single = function(set_node, singular_node) {
     if (Parse.group.dead.indexOf(search_word) != -1) {
       hits = Pandas.searchDead();
     }
+  }
+  if (set_node.type == "set_tag") {
     if (Parse.group.tags.indexOf(search_word) != -1) {
       Query.env.output_mode = "photos";
       // Find the canonical tag to do the searching by

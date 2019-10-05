@@ -560,8 +560,7 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  if ((results["parsed"] == "tagExpression") ||
-      (results["parsed"] == "zeroaryExpression")) {
+  if (results["parsed"] == "set_tag") {
     for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
@@ -587,7 +586,8 @@ Page.results.photos = function(results) {
     }
   }
   // Term expression for a credit term, on panda/zoo results.
-  else if ((results["parsed"] == "typeExpression") && (results["type"] == "credit")) {
+  // TODO: adjust to real types
+  else if ((results["parsed"] == "set_keyword_subject") && (results["type"] == "credit")) {
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
