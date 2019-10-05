@@ -185,6 +185,10 @@ Parse.group.dead = Parse.values([
 Parse.group.family = Parse.values([
   Parse.keyword.family
 ]);
+// Valid keywords of any type
+Parse.group.keywords = Parse.values([
+  Parse.keyword
+]);
 // Valid nearby keywords
 Parse.group.nearby = Parse.values([
   Parse.keyword.nearby
@@ -243,12 +247,60 @@ Parse.regex.name = '(?:[^\s]+(?:\s+[^\s]+)*)';
 // Any year (1900 - 2999)
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 
-/* 
-Navigation and introspection through a grammar's parse tree. 
-jsleri won't do it for us, so we have to write this code ourself.
+/*
+    Code that helps jsleri tokenize things properly, finding things
+    like panda names or keywords that have spaces in them.
 
-Pass separate children value in case we want to process not the original
-parse tree, but a derived tree of children.
+    Many aspects of RPF come from the build step, but it's so handy 
+    to process facets referentially in JS to build the lists of keywords.
+
+    TODO: maybe get the names list from python.
+*/
+Parse.lexer = {};
+Parse.lexer.terms = {};
+Parse.lexer.terms.names = {};
+Parse.lexer.terms.names.list = [];
+Parse.lexer.terms.names.max_spaces = 0;
+Parse.lexer.terms.tags = {};
+Parse.lexer.terms.tags.list = [];
+Parse.lexer.terms.tags.max_spaces = 0;
+Parse.lexer.terms.keywords = {};
+Parse.lexer.terms.keywords.list = [];
+Parse.lexer.terms.keywords.max_spaces = 0;
+// Build a wordlist of terms with spaces in them.
+Parse.lexer.build_wordlist = function() {
+  // Filter for terms with spaces, and track which term has the
+  // most spaces in it, so the lexer knows how many terms to grab
+  // at once when it starts with its greediest matches
+  var filter = function(token, list_name) {
+    if (token.indexOf(' ') != -1) {
+      var space_count = token.replace(/\S/g, '').length;
+      if (space_count > Parse.lexer.terms[list_name].max_spaces) {
+        Parse.lexer.terms[list_name].max_spaces = space_count;
+      }
+      return token;
+    }
+  }
+  Parse.lexer.terms.keywords.list = Parse.group.keywords
+    .filter(kw => filter(kw, "keywords")).sort();
+  Parse.lexer.terms.tags.list = Parse.group.tags
+    .filter(kw => filter(kw, "tags")).sort();
+  // Parse.lexer.terms.names.list = TOWRITE
+}
+/*
+    Translate input string into newline-delimited string of tokens.
+    Prioritize panda names, then tag names, then keywords.
+*/
+Parse.lexer.process = function(input) {
+  return input;   // LOL, TODO
+}
+
+/* 
+    Navigation and introspection through a grammar's parse tree. 
+    jsleri won't do it for us, so we have to write this code ourself.
+
+    Pass separate children value in case we want to process not the 
+    original parse tree, but a derived tree of children.
 */
 Parse.tree = {};
 // Build a grammar for making parse trees with.
