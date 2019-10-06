@@ -174,7 +174,6 @@ Geo.toRadians = function(degrees) {
 window.addEventListener('found_zoos', function() {
   // If we were loading a results screen, spool the results
   // If this is a normal results/query page
-  Query.env.output_mode = "nearby";
   Page.results.render();
   Page.current = Page.results.render;
   if (F.results.length >= F.close_results) {

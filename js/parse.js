@@ -289,14 +289,11 @@ Parse.lexer.build_wordlist = function() {
   Parse.lexer.terms.names.list = P.db['_lexer'].names
     .filter(kw => word_filter(kw, "names")).sort();  
 }
-/*
-    Generate a lexed string
-*/
+// Generate a lexed (tokenized) string
 Parse.lexer.generate = function(input) {
   var delimited_input = input.split(' ').join('\n');
   var space_tokens = this.process(input);
   for (let space_token of space_tokens) {
-    // TODO: build regex from the token found
     // Search and replace it (case insensitively) in the input string
     var newline_token = space_token.replace(" ", "\n");
     var newline_regexp = new RegExp(newline_token, "i");

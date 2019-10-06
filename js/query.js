@@ -132,6 +132,7 @@ Query.resolver.single = function(set_node, singular_node) {
       hits = Pandas.searchBabies();
     }
     if (Parse.group.nearby.indexOf(search_word) != -1) {
+      Query.env.output_mode = "nearby";
       if (F.resolved == false) {
         F.getNaiveLocation();
       }
