@@ -46,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
     P.db.edges   .forEach(G.addEdge  .bind(G));
+    
     // Build a helper for the lexer from all terms with spaces
     Parse.lexer.build_wordlist();
     // If available on the page, enable search bar once the page has loaded

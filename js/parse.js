@@ -272,7 +272,7 @@ Parse.lexer.build_wordlist = function() {
   // Filter for terms with spaces, and track which term has the
   // most spaces in it, so the lexer knows how many terms to grab
   // at once when it starts with its greediest matches
-  var filter = function(token, list_name) {
+  var word_filter = function(token, list_name) {
     if (token.indexOf(' ') != -1) {
       var space_count = token.replace(/\S/g, '').length;
       if (space_count > Parse.lexer.terms[list_name].max_spaces) {
@@ -282,17 +282,53 @@ Parse.lexer.build_wordlist = function() {
     }
   }
   Parse.lexer.terms.keywords.list = Parse.group.keywords
-    .filter(kw => filter(kw, "keywords")).sort();
+    .filter(kw => word_filter(kw, "keywords")).sort();
   Parse.lexer.terms.tags.list = Parse.group.tags
-    .filter(kw => filter(kw, "tags")).sort();
-  // Parse.lexer.terms.names.list = TOWRITE
+    .filter(kw => word_filter(kw, "tags")).sort();
+  // It's sorted in Python but this gets us word counts
+  Parse.lexer.terms.names.list = P.db['_lexer'].names
+    .filter(kw => word_filter(kw, "names")).sort();  
 }
 /*
     Translate input string into newline-delimited string of tokens.
     Prioritize panda names, then tag names, then keywords.
 */
 Parse.lexer.process = function(input) {
-  return input;   // LOL, TODO
+  var possible_tokens = function(input, max_spaces, list_name) {
+    var tokenlist = [];
+    var input_split = input.split(' ');
+    for (let n = max_spaces; n > 0; n--) {
+      for (let i = 0; i < input_split.length - n; i++) {
+        var token = input_split.slice(i, i+n+1).join(' ');
+        if (list_name == "names") {
+          token = Language.capitalNames(token);
+        }
+        tokenlist.push(token);
+      }
+    }
+    return tokenlist;
+  }
+  var ordering = ["names", "tags", "keywords"];
+  var input_spaces = input.replace(/\S/g, '').length;
+  // Find all contiguous strings with max_spaces and see
+  // if they're in one of the word lists
+  var found_tokens = [];
+  for (let list_name of ordering) {
+    var lexlist = Parse.lexer.terms[list_name].list;
+    // Count spaces in the input, so we can determine whether
+    // tokens with N-spaces exist in the input
+    var max_spaces = Parse.lexer.terms[list_name].max_spaces;
+    if (max_spaces > input_spaces) {
+      max_spaces = input_spaces;
+    }
+    lexlist = lexlist.filter(l => l.replace(/\S/g, '').length <= max_spaces);
+    // TODO: if names, I need to compare against the locale-specific capitalized
+    // version, so that string matching actually matches. Or use case insensitive
+    var tokens = possible_tokens(input, max_spaces, list_name)
+      .filter(t => lexlist.indexOf(t) != -1)
+    found_tokens = found_tokens.concat(tokens);
+  }
+  return found_tokens.join("\n");
 }
 
 /* 
