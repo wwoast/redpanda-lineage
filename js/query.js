@@ -71,6 +71,9 @@ Query.resolver.pair = function(set_node) {
       search_word = Language.capitalNames(search_word);
       hits = Pandas.searchPandaName(search_word);
     }
+    if (Parse.group.dead.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchDead(search_word);
+    }
   }
   if (set_node.type == "set_panda_id") {
     hits = Pandas.searchPandaId(search_word);
@@ -78,12 +81,15 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_zoo_id") {
     hits = Pandas.searchZooId(search_word);
   }
-  if (set_node.type == "set_zoo_name") {
-    hits = Pandas.searchZooName(search_word);
-  }
   if (set_node.type == "set_credit_photos") {
     Query.env.output_mode = "photos";
     hits = Pandas.searchPhotoCredit(search_word);
+  }
+  if (set_node.type == "set_babies_year_list") {
+    hits = Pandas.searchBabies(search_word);
+  }
+  if (set_node.type == "set_babies_year_list") {
+    hits = Pandas.searchBabies(search_word);
   }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
