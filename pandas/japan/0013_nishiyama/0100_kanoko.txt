@@ -13,7 +13,7 @@ jp.othernames: none
 language.order: jp, en
 litter: 99
 location.1: 17, 2016/6/24
-location.2: 13, 2019/4/1
+location.2: 13, 2019/3/19
 photo.1: https://www.instagram.com/p/BjjogmmlBXf/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
@@ -148,5 +148,9 @@ photo.34: https://www.instagram.com/p/Bm6nRIGldlJ/media/?size=m
 photo.34.author: run.swim.shingo
 photo.34.link: https://www.instagram.com/run.swim.shingo/
 photo.34.tags: paws, smile, tree
+photo.35: https://www.instagram.com/p/B3QNfH7BDEs/media/?size=m
+photo.35.author: yakko____
+photo.35.link: https://www.instagram.com/yakko____/
+photo.35.tags: portrait, smile, white face
 species: 2
 zoo: 13

@@ -9,7 +9,7 @@ en.othernames: Yunyun, Un-Un
 gender: f
 jp.name: 雲雲
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: ウンウン
 language.order: jp, en
 litter: 225
 photo.1: https://www.instagram.com/p/BoTYFczFKC9/media/?size=m
@@ -107,5 +107,9 @@ photo.24: https://www.instagram.com/p/B22pdbHhbks/media/?size=m
 photo.24.author: sasapan34
 photo.24.link: https://www.instagram.com/sasapan34/
 photo.24.tags: paws
+photo.25: https://www.instagram.com/p/B3LSBARBXMC/media/?size=m
+photo.25.author: wumpwoast
+photo.25.link: https://www.instagram.com/wumpwoast/
+photo.25.tags: autumn, portrait
 species: 2
 zoo: 37
