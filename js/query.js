@@ -33,7 +33,10 @@ Query.env.clear = function() {
 */
 Query.resolver = {};
 Query.resolver.begin = function(input_string) {
-  var parse_tree = Parse.tree.generate(input_string);
+  // Take the input string and lex it out into tokens
+  var lexed_input = Parse.lexer.generate(input_string);
+  // Parse the lexed input
+  var parse_tree = Parse.tree.generate(lexed_input);
   // Build result sets. For now, this should just be very simple result sets
   // based on one of the available search sets
   var set_nodes = Parse.tree.filter(parse_tree, Parse.tree.tests.sets);

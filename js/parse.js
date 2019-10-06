@@ -290,7 +290,23 @@ Parse.lexer.build_wordlist = function() {
     .filter(kw => word_filter(kw, "names")).sort();  
 }
 /*
-    Translate input string into newline-delimited string of tokens.
+    Generate a lexed string
+*/
+Parse.lexer.generate = function(input) {
+  var delimited_input = input.split(' ').join('\n');
+  var space_tokens = this.process(input);
+  for (let space_token of space_tokens) {
+    // TODO: build regex from the token found
+    // Search and replace it (case insensitively) in the input string
+    var newline_token = space_token.replace(" ", "\n");
+    var newline_regexp = new RegExp(newline_token, "i");
+    delimited_input = delimited_input.replace(newline_regexp, space_token);
+  }
+  return delimited_input;
+}
+/*
+    Find all valid tokens in the search input that have spaces,
+    and return them in a newline-separated way.
     Prioritize panda names, then tag names, then keywords.
 */
 Parse.lexer.process = function(input) {
@@ -322,12 +338,14 @@ Parse.lexer.process = function(input) {
     if (max_spaces > input_spaces) {
       max_spaces = input_spaces;
     }
+    // Don't deal with testing against possible space-holding keywords
+    // that have more spaces than the input query did!
     lexlist = lexlist.filter(l => l.replace(/\S/g, '').length <= max_spaces);
     var tokens = possible_tokens(input, max_spaces, list_name)
       .filter(t => lexlist.indexOf(t) != -1)
     found_tokens = found_tokens.concat(tokens);
   }
-  return found_tokens.join("\n");
+  return found_tokens;
 }
 
 /* 
@@ -385,7 +403,7 @@ Parse.tree.build_grammar = function() {
     // Sequence(THIS, c_k_binary_logical, THIS),
     r_name
   );
-  // Maybe build the keyword regex out of Pandas.def.ranges
+  // Keywords are newline separated
   Parse.tree.grammar = new Grammar(START, '^[^\n]+');
 }
 // After performing the parse, navigate through the tree and do subsequent
