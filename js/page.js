@@ -445,7 +445,7 @@ Page.routes.behavior = function(input) {
     return false;
   }
   // Run the query through the parser and return results
-  return Query.lexer.parse(query_string);
+  return Query.resolver.begin(query_string);
 }
 Page.routes.check = function() {
   // On initial page load, look for specific hashes that represent special buttons
@@ -535,14 +535,10 @@ Page.results.entities = function(results) {
 // along with a header message of the zoos by proximity.
 Page.results.nearby = function(results) {
   var content_divs = [];
-  if (results.length == 0) {
+  if (results["hits"].length == 0) {
     // Stuck at the interstitial after a language transition
     content_divs.push(Show.message.geolocationStart(L.display));
     return content_divs;
-  }
-  if (results["hits"].length == 0) {
-    // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.no_zoos_nearby, L.display));
   }
   // Zoo results
   results["hits"].forEach(function(entity) {
@@ -560,8 +556,7 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  if ((results["parsed"] == "tagExpression") ||
-      (results["parsed"] == "zeroaryExpression")) {
+  if ((results["parsed"] == "set_tag") || (results["parsed"] == "set_tag_subject")) {
     for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
@@ -587,7 +582,7 @@ Page.results.photos = function(results) {
     }
   }
   // Term expression for a credit term, on panda/zoo results.
-  else if ((results["parsed"] == "typeExpression") && (results["type"] == "credit")) {
+  else if (results["parsed"] == "set_credit_photos") {
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
@@ -613,7 +608,7 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  if ((Query.env.output_mode != "nearby") && (results.hits == undefined)) {
+  if ((Query.env.output_mode != "nearby") && (results.hits == [])) {
     return;   // TODO: handle more delay-rendered results here
   }
   var content_divs = [];
