@@ -300,6 +300,7 @@ Parse.lexer.process = function(input) {
     for (let n = max_spaces; n > 0; n--) {
       for (let i = 0; i < input_split.length - n; i++) {
         var token = input_split.slice(i, i+n+1).join(' ');
+        // Name matching needs to use locale-specific normalizing
         if (list_name == "names") {
           token = Language.capitalNames(token);
         }
@@ -322,8 +323,6 @@ Parse.lexer.process = function(input) {
       max_spaces = input_spaces;
     }
     lexlist = lexlist.filter(l => l.replace(/\S/g, '').length <= max_spaces);
-    // TODO: if names, I need to compare against the locale-specific capitalized
-    // version, so that string matching actually matches. Or use case insensitive
     var tokens = possible_tokens(input, max_spaces, list_name)
       .filter(t => lexlist.indexOf(t) != -1)
     found_tokens = found_tokens.concat(tokens);
