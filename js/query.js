@@ -63,12 +63,23 @@ Query.resolver.pair = function(set_node) {
   var tag = undefined;
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
+    if (Parse.group.zoo.indexOf(keyword_node.str) != -1) {
+      search_word = Language.capitalNames(search_word);
+      hits = Pandas.searchZooName(search_word);
+    }
+    if (Parse.group.panda.indexOf(keyword_node.str) != -1) {
+      search_word = Language.capitalNames(search_word);
+      hits = Pandas.searchPandaName(search_word);
+    }
   }
   if (set_node.type == "set_panda_id") {
     hits = Pandas.searchPandaId(search_word);
   }
-  if (set_node.type == "set_panda_name") {
-    hits = Pandas.searchPandaName(search_word);
+  if (set_node.type == "set_zoo_id") {
+    hits = Pandas.searchZooId(search_word);
+  }
+  if (set_node.type == "set_zoo_name") {
+    hits = Pandas.searchZooName(search_word);
   }
   if (set_node.type == "set_credit_photos") {
     Query.env.output_mode = "photos";
