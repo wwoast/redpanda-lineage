@@ -57,16 +57,17 @@ Query.resolver.begin = function(input_string) {
 // The parse tree found a single set node, with a pair of nodes underneath it
 Query.resolver.pair = function(set_node) {
   var hits = [];
-  var keyword_node = this.filter(set_node, this.tests.keyword)[0];
-  var subject_node = this.filter(set_node, this.tests.subject)[0];
+  var keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0];
+  var subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
   var search_word = subject_node.str;
   var tag = undefined;
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
   }
   if (set_node.type == "set_tag_subject") {
-    tag = Parse.search_tag(keyword_node.str);
-    if (singular_node.type == "subject_name") {
+    Query.env.output_mode = "photos";
+    tag = Parse.searchTag(keyword_node.str);
+    if (subject_node.type == "subject_name") {
       search_word = Language.capitalNames(search_word);
     }
     var animals = Pandas.searchPandaMedia(search_word);
@@ -75,7 +76,7 @@ Query.resolver.pair = function(set_node) {
   return {
     "hits": hits,
     "parsed": set_node.type,
-    "query": set_node.str,
+    "query": set_node.str.replace("\n", " "),
     "subject": search_word,
     "tag": tag
   }
@@ -130,6 +131,6 @@ Query.resolver.single = function(set_node, singular_node) {
   return {
     "hits": hits,
     "parsed": set_node.type,
-    "query": set_node.str
+    "query": set_node.str.replace("\n", " ")
   }
 }

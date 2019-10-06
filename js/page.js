@@ -560,7 +560,7 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  if (results["parsed"] == "set_tag") {
+  if ((results["parsed"] == "set_tag") || (results["parsed"] == "set_tag_subject")) {
     for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
