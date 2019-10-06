@@ -610,7 +610,7 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     //  3) (credit)+(any subject): subject is an author name. Author search
     else if (Parse.group.credit.indexOf(keyword_node.str) != -1) {
       container_node.type = "set_credit_photos";
-      keyword_node.type = "subject_author";
+      subject_node.type = "subject_author";
     }
     //  4) (family-term)+(year or id): keyword plus an id. Get pandas of "relation"
     else if ((Parse.group.family.indexOf(keyword_node.str) != -1) &&

@@ -586,8 +586,7 @@ Page.results.photos = function(results) {
     }
   }
   // Term expression for a credit term, on panda/zoo results.
-  // TODO: adjust to real types
-  else if ((results["parsed"] == "set_keyword_subject") && (results["type"] == "credit")) {
+  else if (results["parsed"] == "set_credit_photos") {
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {

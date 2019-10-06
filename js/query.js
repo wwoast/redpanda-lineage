@@ -64,6 +64,10 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
   }
+  if (set_node.type == "set_credit_photos") {
+    Query.env.output_mode = "photos";
+    hits = Pandas.searchPhotoCredit(search_word);
+  }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
     tag = Parse.searchTag(keyword_node.str);
