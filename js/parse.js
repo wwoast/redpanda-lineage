@@ -386,7 +386,7 @@ Parse.tree.build_grammar = function() {
     r_name
   );
   // Maybe build the keyword regex out of Pandas.def.ranges
-  Parse.tree.grammar = new Grammar(START, '^[A-Za-z0-9_\\- ]+');
+  Parse.tree.grammar = new Grammar(START, '^[^\n]+');
 }
 // After performing the parse, navigate through the tree and do subsequent
 // node type classification and resolution. These node types will identify
