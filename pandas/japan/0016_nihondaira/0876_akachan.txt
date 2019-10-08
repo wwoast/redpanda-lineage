@@ -6,7 +6,7 @@ children: none
 en.name: Aka-chan
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
@@ -79,6 +79,10 @@ photo.16.tags: baby, climb, laying down, paws, portrait
 photo.17: https://www.instagram.com/p/B3MbRqihYR2/media/?size=m
 photo.17.author: resapanlove
 photo.17.link: https://www.instagram.com/resapanlove/
-photo.17.tags: bamboo, paws, portrait
+photo.17.tags: baby, bamboo, paws, portrait
+photo.18: https://www.instagram.com/p/B28kWzpBcx9/media/?size=m
+photo.18.author: chocopan102
+photo.18.link: https://www.instagram.com/chocopan102/
+photo.18.tags: baby, climb, mofumofu
 species: 2
 zoo: 16

@@ -15,5 +15,9 @@ litter: 634, 636
 location.1: 146, 2011/6/25
 location.2: 109, 2012/4/24
 location.3: 161, 2014/3/27
+photo.1: https://www.instagram.com/p/B2fJGprpP3E/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: lunch time, portrait, tongue
 species: 1
 zoo: 161
