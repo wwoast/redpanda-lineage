@@ -1463,6 +1463,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         width: 140px;
         margin-bottom: 10px;
         padding: 5px;
+        vertical-align: top;
     }
 
     /* Don't want too small on mobile */
