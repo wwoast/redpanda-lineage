@@ -14,5 +14,36 @@ language.order: en, jp
 litter: 833
 location.1: 107, 2017/6/20
 location.2: 148, 2018/5/23
+photo.1: https://www.instagram.com/p/Bw4Nbizn3VK/media/?size=m
+photo.1.author: buttonwoodparkzoo
+photo.1.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2: https://www.instagram.com/p/BxI7sKtnEiL/media/?size=m
+photo.2.author: buttonwoodparkzoo
+photo.2.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2.tags: bamboo, portrait, smile
+photo.3: https://www.instagram.com/p/Bxc2CKWh0CO/media/?size=m
+photo.3.author: buttonwoodparkzoo
+photo.3.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.3.tags: portrait, nose, tongue
+photo.4: https://www.instagram.com/p/BxfzBcfBFdx/media/?size=m
+photo.4.author: buttonwoodparkzoo
+photo.4.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.4.tags: bamboo, portrait, smile
+photo.5: https://www.instagram.com/p/ByB3FAeB9VA/media/?size=m
+photo.5.author: buttonwoodparkzoo
+photo.5.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.5.tags: portrait
+photo.6: https://www.instagram.com/p/BynAqNYB1l6/media/?size=m
+photo.6.author: buttonwoodparkzoo
+photo.6.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.6.tags: portrait, profile
+photo.7: https://www.instagram.com/p/B1EK4Xmhl7V/media/?size=m
+photo.7.author: buttonwoodparkzoo
+photo.7.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.7.tags: portrait, tongue
+photo.8: https://www.instagram.com/p/B2m0eJOBUsS/media/?size=m
+photo.8.author: buttonwoodparkzoo
+photo.8.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.8.tags: portrait, smile
 species: 1
 zoo: 148

@@ -8,4 +8,14 @@ language.order: en
 latitude: 41.6342426
 longitude: -70.9577818
 map: https://goo.gl/maps/wYU9QHq3FvS2
+photo.1: https://www.instagram.com/p/BwQI35qH1-v/media/?size=m
+photo.1.author: buttonwoodparkzoo
+photo.1.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2: https://www.instagram.com/p/Bw-M-ZCnVwW/media/?size=m
+photo.2.author: buttonwoodparkzoo
+photo.2.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.2.tags: profile
+photo.3: https://www.instagram.com/p/ByL-rlCBUKG/media/?size=m
+photo.3.author: buttonwoodparkzoo
+photo.3.link: https://www.instagram.com/buttonwoodparkzoo/
 website: https://www.bpzoo.org/

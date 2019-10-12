@@ -1,0 +1,16 @@
+[panda]
+_id: 993
+birthday: 2018/6/12
+birthplace: 118
+children: none
+en.name: Frank
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フランク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 991, 992
+species: 1
+zoo: 118

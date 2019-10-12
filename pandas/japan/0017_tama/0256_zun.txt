@@ -42,7 +42,7 @@ photo.7.tags: hammock
 photo.8: https://www.instagram.com/p/BqtlYqtlsiB/media/?size=m
 photo.8.author: kotata_513
 photo.8.link: https://www.instagram.com/kotata_513/
-photo.8.tags: portrait, profile
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BqvjEsAlXb3/media/?size=m
 photo.9.author: lespan33
 photo.9.link: https://www.instagram.com/lespan33/
@@ -236,5 +236,9 @@ photo.57: https://www.instagram.com/p/B2l1PnuBDuO/media/?size=m
 photo.57.author: ssc6105
 photo.57.link: https://www.instagram.com/ssc6105/
 photo.57.tags: bamboo, portrait
+photo.58: https://www.instagram.com/p/B2wL9IThls_/media/?size=m
+photo.58.author: mofu_pan
+photo.58.link: https://www.instagram.com/mofu_pan/
+photo.58.tags: paws, portrait, profile, smile
 species: 2
 zoo: 17

@@ -1,0 +1,16 @@
+[panda]
+_id: 991
+birthday: 2018/6/12
+birthplace: 118
+children: none
+en.name: Anne
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 992, 993
+species: 1
+zoo: 118
