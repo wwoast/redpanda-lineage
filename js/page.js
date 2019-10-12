@@ -406,6 +406,7 @@ Page.routes.behavior = function(input) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(7);
     var [ panda, _, photo_id ] = uri_items.split("/");
+    Query.env.output_mode = "entities";
     Query.env.specific_photo = photo_id;
     query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#panda/") == 0) &&
