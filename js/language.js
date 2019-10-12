@@ -1552,7 +1552,8 @@ Language.L.fallbackEntity = function(entity) {
   // Start replacing this language's value with an available value in the
   // language.order list. Just stuff it in the original entity's key.
   for (var key of language_entity) {
-    if (Language.fallback_blacklist.indexOf(key) != -1) {
+    var blacklist_key = key.split(".")[1];   // No language suffix
+    if (Language.fallback_blacklist.indexOf(blacklist_key) != -1) {
       continue;  // Ignore blacklist fields
     }
     if (empty_values.indexOf(entity[key]) != -1) {
