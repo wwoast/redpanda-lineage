@@ -429,7 +429,9 @@ Page.routes.behavior = function(input) {
     query_string = "panda" + " " + panda;
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
-    query_string = input.slice(7);    
+    query_string = input.slice(7);
+    // Reset defaults to entity
+    Query.env.output_mode = "entities";  
   } else if ((input.indexOf("#zoo/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda result with a chosen photo.
