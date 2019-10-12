@@ -42,7 +42,10 @@ Query.resolver.begin = function(input_string) {
   var set_nodes = Parse.tree.filter(parse_tree, Parse.tree.tests.sets);
   // Nothing parsed looks like a search set to return results for
   if (set_nodes.length == 0) {
-    return [];
+    return {
+      "hits": [],
+      "query": input_string
+    };
   }
   // Zeroary search, or Single subject search.
   var singular_nodes = Parse.tree.filter(set_nodes[0], Parse.tree.tests.singular);
