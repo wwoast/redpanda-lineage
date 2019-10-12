@@ -535,7 +535,7 @@ Page.results.entities = function(results) {
 // along with a header message of the zoos by proximity.
 Page.results.nearby = function(results) {
   var content_divs = [];
-  if (results["hits"].length == 0) {
+  if (results.parsed == "geolookup_in_progress") {
     // Stuck at the interstitial after a language transition
     content_divs.push(Show.message.geolocationStart(L.display));
     return content_divs;

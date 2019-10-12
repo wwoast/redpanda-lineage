@@ -44,7 +44,8 @@ Query.resolver.begin = function(input_string) {
   if (set_nodes.length == 0) {
     return {
       "hits": [],
-      "query": input_string
+      "parsed": "no_results",
+      "query": input_string,
     };
   }
   // Zeroary search, or Single subject search.

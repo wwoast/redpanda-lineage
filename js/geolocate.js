@@ -14,7 +14,12 @@ Geo.G = {};   // Prototype
 Geo.init = function() {
   var geo = Object.create(Geo.G);
   geo.resolved = false;    // Has a successful lookup completed?
-  geo.results = [];       // List of zoos that match our search criteria
+  // List of zoos that match our search criteria
+  geo.results = {
+    "hits": [],
+    "parsed": "geolookup_in_progress",
+    "type": "nearby"
+  };
   geo.accuracy = false;   // Coarse (IP-based) or Fine (GPS-based)
   geo.latitude = 0.0;
   geo.longitude = 0.0;
@@ -64,6 +69,7 @@ Geo.G.findClosest = function(max_distance, max_results) {
   // Return a dict similar to the results of the query parse responses
   this.results = {
     "hits": hit_list,
+    "parsed": "set_zoo_id",
     "type": "nearby"
   }
   window.dispatchEvent(Geo.event.foundZoos);  
@@ -176,7 +182,7 @@ window.addEventListener('found_zoos', function() {
   // If this is a normal results/query page
   Page.results.render();
   Page.current = Page.results.render;
-  if (F.results.length >= F.close_results) {
+  if (F.results.hits.length >= F.close_results) {
     // Search fine-tuned results with GPS if there's a lot of nearby zoos
     F.toggleAccuracy();
   }
