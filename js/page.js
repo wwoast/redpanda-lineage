@@ -412,6 +412,7 @@ Page.routes.behavior = function(input) {
              (input.split("/").length == 2)) {
     // link for a single panda result. TODO: maybe do a detailed page
     var panda = input.slice(7);
+    Query.env.output_mode = "entities";
     query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 4)) {
@@ -433,6 +434,7 @@ Page.routes.behavior = function(input) {
     // link for a panda result with a chosen photo.
     var uri_items = input.slice(5);
     var [ zoo, _, zoo_id ] = uri_items.split("/");
+    Query.env.output_mode = "entities";
     Query.env.specific_photo = zoo_id;
     query_string = "zoo" + " " + zoo;
   } else if ((input.indexOf("#zoo/") == 0) &&
@@ -608,9 +610,6 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
-  if ((Query.env.output_mode != "nearby") && (results.hits == [])) {
-    return;   // TODO: handle more delay-rendered results here
-  }
   var content_divs = [];
   var new_content = document.createElement('div');
   new_content.id = "hiddenContentFrame";
