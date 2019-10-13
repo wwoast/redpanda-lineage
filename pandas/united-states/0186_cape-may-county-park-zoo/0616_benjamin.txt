@@ -14,5 +14,6 @@ language.order: en, jp
 litter: 342
 location.1: 81, 2015/6/25
 location.2: 133, 2017/10/26
+location.3: 186, 2019/9/26
 species: 1
-zoo: 133
+zoo: 186
