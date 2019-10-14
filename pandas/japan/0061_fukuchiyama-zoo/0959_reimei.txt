@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/B3RnYMEB6gi/media/?size=m
 photo.1.author: bubbles_octi
 photo.1.link: https://www.instagram.com/bubbles_octi/
-photo.1.tags: baby, portrait, profile
+photo.1.tags: baby, portrait
 photo.2: https://www.instagram.com/p/B3Rnai4BnzM/media/?size=m
 photo.2.author: love__mitarashi
 photo.2.link: https://www.instagram.com/love__mitarashi/
@@ -23,6 +23,30 @@ photo.2.tags: baby, portrait
 photo.3: https://www.instagram.com/p/B3Vo61MB769/media/?size=m
 photo.3.author: redpanda_nippon_takashi
 photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.3.tags: peek
+photo.3.tags: baby, peek
+photo.4: https://www.instagram.com/p/B3S3V34hi35/media/?size=m
+photo.4.author: tomo3700
+photo.4.link: https://www.instagram.com/tomo3700/
+photo.4.tags: baby, portrait, profile
+photo.5: https://www.instagram.com/p/B3RB0m-hwL3/media/?size=m
+photo.5.author: redpanda_nippon_takashi
+photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.5.tags: baby, keeper, mofumofu, portrait
+photo.6: https://www.instagram.com/p/B3WoZ1Rh5rQ/media/?size=m
+photo.6.author: kisshan324
+photo.6.link: https://www.instagram.com/kisshan324/
+photo.6.tags: baby, mofumofu, portrait, tail
+photo.7: https://www.instagram.com/p/B3ZT0oAhBSk/media/?size=m
+photo.7.author: love__mitarashi
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: baby, door, portrait
+photo.8: https://www.instagram.com/p/B3ZJp5Gh1-_/media/?size=m
+photo.8.author: tomo3700
+photo.8.link: https://www.instagram.com/tomo3700/
+photo.8.tags: baby, climb, portrait
+photo.9: https://www.instagram.com/p/B3ahKF7hVsY/media/?size=m
+photo.9.author: framereim
+photo.9.link: https://www.instagram.com/framereim/
+photo.9.tags: climb, keeper, paws, white face
 species: 2
 zoo: 61
