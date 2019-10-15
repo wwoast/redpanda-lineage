@@ -14,5 +14,17 @@ language.order: en, jp
 litter: 621
 location.1: 145, 2013/6/20
 location.2: 146, 2017/12/12
+photo.1: https://www.instagram.com/p/B2qTf_mAmB4/media/?size=m
+photo.1.author: okczoo
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/B2APpgcnKO2/media/?size=m
+photo.2.author: okczoo
+photo.2.link: https://www.instagram.com/okczoo/
+photo.2.tags: bamboo, paws
+photo.3: https://www.instagram.com/p/ByQwlfsnLzm/media/?size=m
+photo.3.author: okczoo
+photo.3.link: https://www.instagram.com/okczoo/
+photo.3.tags: portrait, profile
 species: 1
 zoo: 146

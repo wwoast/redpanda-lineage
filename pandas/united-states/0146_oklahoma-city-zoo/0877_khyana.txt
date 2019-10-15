@@ -3,7 +3,7 @@ _id: 877
 birthday: 2019/6/2
 birthplace: 146
 children: none
-en.name: Aka-chan
+en.name: Khyana
 en.nicknames: none
 en.othernames: none
 gender: f
@@ -12,5 +12,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 878
+photo.1: https://www.instagram.com/p/B3nBa9En2U_/media/?size=m
+photo.1.author: okczoo
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: baby, profile
 species: 1
 zoo: 146
