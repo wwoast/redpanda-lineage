@@ -1,0 +1,16 @@
+[panda]
+_id: 997
+birthday: 2019/6/18
+birthplace: 137
+children: none
+en.name: Kalaiya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カライヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 996
+species: 1
+zoo: 137

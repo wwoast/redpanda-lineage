@@ -1,0 +1,24 @@
+[panda]
+_id: 996
+birthday: 2019/6/18
+birthplace: 137
+children: none
+en.name: Kamala
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: カマラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://www.instagram.com/p/B03ZNy9FQn_/media/?size=m
+photo.1.author: colchester_zoo
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.1.tags: baby, keeper, paws
+photo.2: https://www.instagram.com/p/B3O37fsgcHS/media/?size=m
+photo.2.author: colchester_zoo
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: baby, door, home, profile
+litter: 997
+species: 1
+zoo: 137
