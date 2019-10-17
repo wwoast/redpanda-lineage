@@ -68,7 +68,7 @@ photo.13.tags: dish, ear, paws, portrait, smile
 photo.14: https://www.instagram.com/p/BzvFxXulho3/media/?size=m
 photo.14.author: capylife_
 photo.14.link: https://www.instagram.com/capylife_/
-photo.14.tags: ear, laying down, portrait, profile
+photo.14.tags: ear, laying down, portrait
 photo.15: https://www.instagram.com/p/BvFX9uiFTy9/media/?size=m
 photo.15.author: redpanda_nippon_takashi
 photo.15.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -89,5 +89,9 @@ photo.19: https://www.instagram.com/p/B3VtujOheAp/media/?size=m
 photo.19.author: redpanda_nippon_takashi
 photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.19.tags: apple time, ear, portrait, smile
+photo.20: https://www.instagram.com/p/B3pGwDAhmR1/media/?size=m
+photo.20.author: yossi929
+photo.20.link: https://www.instagram.com/yossi929/
+photo.20.tags: portrait, profile
 species: 2
 zoo: 61
