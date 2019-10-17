@@ -15,5 +15,13 @@ litter: 684
 location.1: 138, 2009/6/6
 location.2: unknown, 2010/5/17
 location.3: 135, 2011/2/22
+photo.1: https://www.instagram.com/p/ByXpCr_jUFa/media/?size=m
+photo.1.author: zslwhipsnadezoo
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.1.tags: dish, home, portrait, profile, smile
+photo.2: https://www.instagram.com/p/B2qt59CAegV/media/?size=m
+photo.2.author: officialzsl
+photo.2.link: https://www.instagram.com/officialzsl/
+photo.2.tags: flowers, portrait
 species: 2
 zoo: 135

@@ -6,11 +6,15 @@ children: none
 en.name: Aka-chan
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 947
+photo.1: https://www.instagram.com/p/B3rVeA_h3wc/media/?size=m
+photo.1.author: monmon_redpanda
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: baby, portrait, profile
 species: 2
 zoo: 63
