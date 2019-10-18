@@ -368,6 +368,7 @@ Parse.tree.build_grammar = function() {
   var Keyword = window.jsleri.Keyword;
   var Prio = window.jsleri.Prio;
   var Regex = window.jsleri.Regex;
+  var Repeat = window.jsleri.Repeat;
   var Sequence = window.jsleri.Sequence;
   // var THIS = window.jsleri.THIS;
   // Take a list of operators and turn it into a choice
@@ -394,12 +395,14 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_name = Reversible(Choices(Parse.group.takes_subject_name), r_name);
   var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
+  var c_k_group_tags = Repeat(Choices(Parse.group.tags, 2));
   // Binary keywords
   // var c_k_binary_logical = Choices(Parse.ops.group.binary_logic);
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_id,
     c_k_zeroary,
+    c_k_group_tags,     // Search for many tags at once
     c_k_unary_year,     // Unary keywords followed by year-number
     c_k_unary_number,   // Unary keywords followed by id-number
     c_k_unary_name,     // Unary keywords followed by a name-string
@@ -422,6 +425,8 @@ Parse.tree.classify = function(tree) {
     Parse.tree.classify_subject_only(subject_nodes[0]);
   } else if (subject_nodes.length == 0 && keyword_nodes.length == 1) {
     Parse.tree.classify_keyword_only(keyword_nodes[0]);
+  } else if (subject_nodes.length == 0 && keyword_nodes.length > 1) {
+    Parse.tree.classify_plural(keyword_nodes);
   } else {
     Parse.tree.classify_plural(subject_nodes);
   }
@@ -436,9 +441,9 @@ Parse.tree.classify_keyword_only = function(keyword_node) {
 Parse.tree.classify_subject_only = function(subject_node) {
   subject_node.parent.type = "set_subject";
 }
-Parse.tree.classify_plural = function(subject_nodes) {
-  // Get the subject container nodes, and classify those values
-  var container_nodes = subject_nodes.map(n => this.walk_to_subject_container(n));
+Parse.tree.classify_plural = function(plural_nodes) {
+  // Get the container nodes, and classify those values
+  var container_nodes = plural_nodes.map(n => this.walk_to_subject_container(n));
   // Finally, given what's in the containers, resolve what the keywords are
   for (let container_node of container_nodes) {
     var value_nodes = this.filter(container_node, this.tests.singular);
@@ -572,8 +577,16 @@ Parse.tree.node_type_composite_ids = function(node) {
     if (singulars[0] == "keyword" && singulars[1].indexOf("subject") == 0) {
       return "set_keyword_subject";
     }
+    if (singulars[0] == "tag" && singulars[1] == "tag") {
+      return "set_tag_union";
+    }
   }
-  // TODO: handle binary parse structures 
+  // Handle binary parse structures
+  if (singulars.length > 2) {
+    if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag") {
+      return "set_tag_union";
+    }
+  }
   return "composite";
 }
 // Identify nodes intended to form a set of results.
@@ -670,6 +683,7 @@ Parse.tree.types.sets = [
   "set_panda_id",
   "set_tag",
   "set_tag_subject",
+  "set_tag_union",
   "set_zoo_id"
 ];
 Parse.tree.types.composite = [
@@ -707,7 +721,7 @@ Parse.tree.walk_to_subject_container = function(node) {
   var parent_type = this.node_type_composite_ids(node.parent);
   node.parent.type = parent_type;   // Set paret node types as we walk
   if (parent_type.indexOf("contains") == 0) {
-    return this.get_subject_container(node.parent);
+    return this.walk_to_subject_container(node.parent);
   } else {
     return node.parent;
   }

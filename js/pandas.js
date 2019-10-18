@@ -292,6 +292,14 @@ Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
 }
 
+// Filter for distinct animals
+Pandas.distinct = function(list) {
+  var unique = (value, index, self) => {
+    return self.indexOf(value) === index;
+  }
+  return list.filter(unique);
+}
+
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {
