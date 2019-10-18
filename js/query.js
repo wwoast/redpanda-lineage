@@ -53,9 +53,37 @@ Query.resolver.begin = function(input_string) {
   if (set_nodes.length == 1 && singular_nodes.length == 1) {
     return Query.resolver.single(set_nodes[0], singular_nodes[0])
   }
-  // Unary search, or Keyword + Search Term
+  // Unary search, or Keyword + Search Term, or Two Keywords
   if (set_nodes.length == 1 && singular_nodes.length == 2) {
     return Query.resolver.pair(set_nodes[0], singular_nodes);
+  }
+  // Group search
+  if (set_nodes.length == 1 && singular_nodes.length > 2) {
+    return Query.resolver.group_one_set(set_nodes[0]);
+  }
+}
+// The parse tree found a group with one set, and many nodes
+Query.resolver.group_one_set = function(set_node) {
+  var hits = [];
+  var keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
+  var search_word = undefined;   // TODO: multi-subject search
+  var tag = undefined;
+  if (set_node.type == "set_tag_intersection") {
+    Query.env.output_mode = "photos";
+    tags = keyword_nodes
+      .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
+    tag = tags.join(", ");   // For query output
+    hits = Pandas.searchPhotoTags(
+      Pandas.allAnimalsAndMedia(), 
+      tags, mode="intersect", fallback="none"
+    );
+  }
+  return {
+    "hits": hits,
+    "parsed": set_node.type,
+    "query": set_node.str.replace("\n", " "),
+    "subject": search_word,
+    "tag": tag
   }
 }
 // The parse tree found a single set node, with a pair of nodes underneath it
@@ -63,7 +91,10 @@ Query.resolver.pair = function(set_node) {
   var hits = [];
   var keyword_node = Parse.tree.filter(set_node, Parse.tree.tests.keyword)[0];
   var subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
-  var search_word = subject_node.str;
+  var search_word = undefined;
+  if (subject_node != undefined) {
+    search_word = subject_node.str;   // Only set when a subject is given
+  }
   var tag = undefined;
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
@@ -92,18 +123,24 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_babies_year_list") {
     hits = Pandas.searchBabies(search_word);
   }
-  if (set_node.type == "set_babies_year_list") {
-    hits = Pandas.searchBabies(search_word);
-  }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
     tag = Parse.searchTag(keyword_node.str);
-    tag = tag.toLowerCase();
     if (subject_node.type == "subject_name") {
       search_word = Language.capitalNames(search_word);
     }
     var animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
+  }
+  if (set_node.type == "set_tag_intersection") {
+    Query.env.output_mode = "photos";
+    tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
+      .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
+    tag = tags.join(", ");   // For query output
+    hits = Pandas.searchPhotoTags(
+      Pandas.allAnimalsAndMedia(), 
+      tags, mode="intersect", fallback="none"
+    );
   }
   return {
     "hits": hits,
@@ -153,7 +190,6 @@ Query.resolver.single = function(set_node, singular_node) {
       Query.env.output_mode = "photos";
       // Find the canonical tag to do the searching by
       var tag = Parse.searchTag(search_word);
-      tag = tag.toLowerCase();
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
       hits = Pandas.searchPhotoTags(

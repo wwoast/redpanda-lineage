@@ -561,10 +561,11 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  if ((results["parsed"] == "set_tag") || (results["parsed"] == "set_tag_subject")) {
+  if ((results["parsed"] == "set_tag") || 
+      (results["parsed"] == "set_tag_subject")) {
     for (let photo of results["hits"]) {
       if (photo["photo.index"] != "0") {   // Null photo result
-        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display));
+        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, true));
       } else {
         results["hits"].pop(results["hits"].indexOf(photo));
       }
@@ -583,6 +584,31 @@ Page.results.photos = function(results) {
       var header = Show.message.tag_subject(hit_count, results["subject"],
                                             Language.L.tags[tag]["emoji"], 
                                             tag, L.display, overflow);
+      content_divs.unshift(header);
+    }
+  }
+  // Tag intersection search needs slightly different structure/messages
+  else if (results["parsed"] == "set_tag_intersection") {
+    for (let photo of results["hits"]) {
+      if (photo["photo.index"] != "0") {   // Null photo result
+        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, false));
+      } else {
+        results["hits"].pop(results["hits"].indexOf(photo));
+      }
+    }
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    var hit_count = content_divs.length;
+    var overflow = 0;
+    var max_hits = 25;
+    if (hit_count > max_hits) {
+      // Too many hits. Randomize what we have and save the top fifty
+      overflow = max_hits;
+      content_divs = Pandas.shuffle(content_divs).splice(0, max_hits);
+    }
+    // Write some HTML with summary information for the user and the number of photos
+    if (hit_count != 0) {
+      var header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
       content_divs.unshift(header);
     }
   }

@@ -292,6 +292,14 @@ Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
 }
 
+// Filter for distinct animals
+Pandas.distinct = function(list) {
+  var unique = (value, index, self) => {
+    return self.indexOf(value) === index;
+  }
+  return list.filter(unique);
+}
+
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {
@@ -612,10 +620,44 @@ Pandas.searchPandaName = function(name) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+// Given a panda, search for photos searched with ALL of a list of tags.
+// Returns photo info only.
+Pandas.searchPandaPhotoTagsIntersect = function(animal, tags) {
+  var photo_fields = Pandas.photoGeneratorMax;
+  var output = [];
+  for (let field_name of photo_fields()) {
+    if (animal[field_name] == undefined) {
+      break;
+    }
+    let photo_author = field_name + ".author";
+    let photo_link = field_name + ".link";
+    let photo_tags = field_name + ".tags";
+    let photo_index = field_name.split(".")[1];
+    if (animal[photo_tags] == undefined) {
+      continue;
+    }
+    var photo_tag_list = animal[photo_tags].split(",").map(x => x.trim());
+    // Is the search tag list a subset of the photo_tag_list
+    var contains = !(tags.some(val => photo_tag_list.indexOf(val) === -1));
+    if (contains == true) {
+      var bundle = {
+        "id": animal["_id"],
+        "photo": animal[field_name],
+        "photo.author": animal[photo_author],
+        "photo.index": photo_index,
+        "photo.link": animal[photo_link],
+        "photo.tags": tags   // Not the original tags, but the ones searched for
+      }
+      output.push(bundle);
+    }
+  }
+  return output;
+}
+
 // Given a panda, search for photos tagged with any of a list of tags.
 // May return photo info only, or the entire animal
 // TODO: usable for zoo entities too, fix
-Pandas.searchPandaPhotoTags = function(animal, tags, mode) {
+Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
   var photo_fields = Pandas.photoGeneratorMax;
   var output = [];
   // Gets panda photos
@@ -761,7 +803,13 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
   // Iterate per animal
   var output = [];
   for (let animal of animal_list) {
-    var set = Pandas.searchPandaPhotoTags(animal, tags, mode);
+    var set = [];
+    if (mode == "photos" || mode == "union") {
+      set = Pandas.searchPandaPhotoTagsUnion(animal, tags, mode);
+    }
+    if (mode == "intersect") {
+      set = Pandas.searchPandaPhotoTagsIntersect(animal, tags);
+    }
     if (fallback == "first") {
       if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
         set = [Pandas.profilePhoto(animal, "1")];
