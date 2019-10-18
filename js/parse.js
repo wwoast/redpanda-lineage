@@ -578,13 +578,13 @@ Parse.tree.node_type_composite_ids = function(node) {
       return "set_keyword_subject";
     }
     if (singulars[0] == "tag" && singulars[1] == "tag") {
-      return "set_tag_union";
+      return "set_tag_intersection";
     }
   }
   // Handle binary parse structures
   if (singulars.length > 2) {
     if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag") {
-      return "set_tag_union";
+      return "set_tag_intersection";
     }
   }
   return "composite";
@@ -682,8 +682,8 @@ Parse.tree.types.sets = [
   "set_subject",
   "set_panda_id",
   "set_tag",
+  "set_tag_intersection",
   "set_tag_subject",
-  "set_tag_union",
   "set_zoo_id"
 ];
 Parse.tree.types.composite = [

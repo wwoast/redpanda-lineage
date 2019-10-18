@@ -68,14 +68,14 @@ Query.resolver.group_one_set = function(set_node) {
   var keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
   var search_word = undefined;   // TODO: multi-subject search
   var tag = undefined;
-  if (set_node.type == "set_tag_union") {
+  if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
     tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
     hits = Pandas.searchPhotoTags(
       Pandas.allAnimalsAndMedia(), 
-      tags, mode="photos", fallback="none"
+      tags, mode="intersect", fallback="none"
     );
   }
   return {
@@ -135,14 +135,14 @@ Query.resolver.pair = function(set_node) {
     var animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
   }
-  if (set_node.type == "set_tag_union") {
+  if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
     tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
     hits = Pandas.searchPhotoTags(
       Pandas.allAnimalsAndMedia(), 
-      tags, mode="photos", fallback="none"
+      tags, mode="intersect", fallback="none"
     );
   }
   return {
