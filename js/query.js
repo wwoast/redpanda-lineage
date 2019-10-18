@@ -98,6 +98,7 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
     tag = Parse.searchTag(keyword_node.str);
+    tag = tag.toLowerCase();
     if (subject_node.type == "subject_name") {
       search_word = Language.capitalNames(search_word);
     }
@@ -152,6 +153,7 @@ Query.resolver.single = function(set_node, singular_node) {
       Query.env.output_mode = "photos";
       // Find the canonical tag to do the searching by
       var tag = Parse.searchTag(search_word);
+      tag = tag.toLowerCase();
       // TODO: search media photos for all the animals by id, and include
       // in the searchPhotoTags animals set
       hits = Pandas.searchPhotoTags(

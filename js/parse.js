@@ -22,6 +22,15 @@ Parse.values = function(input) {
 // on in the panda files, and return results for that tag. Searches all language
 // keywords for a tag.
 Parse.searchTag = function(search_tag) {
+  // Lowercase any search terms in the latin character range
+  var ranges = Pandas.def.ranges['en'];
+  var latin = ranges.some(function(range) {
+    return range.test(search_tag);
+  });
+  if (latin == true) {
+    search_tag = search_tag.toLowerCase();
+  }
+  // Now search the tags list for a match
   for (var key of Object.keys(Language.L.tags)) {
     let terms = Parse.values(Language.L.tags[key]);
     if (terms.indexOf(search_tag) != -1) {
