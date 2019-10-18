@@ -427,7 +427,7 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
 }
 
 // Take a photo that matches a tag, and display it along with the tag emoji
-Gallery.tagPhotoCredits = function(result, language) {
+Gallery.tagPhotoCredits = function(result, language, add_emoji) {
   var content_divs = [];
   var animal = Pandas.searchPandaId(result.id)[0];
   var info = Show.acquirePandaInfo(animal, language);
@@ -459,7 +459,7 @@ Gallery.tagPhotoCredits = function(result, language) {
   }
   // Prefix caption with an emoji if we can get one
   var tag_lookup = Language.L.tags[result["photo.tags"][0]];
-  if (tag_lookup != undefined) {
+  if ((tag_lookup != undefined) && (add_emoji == true)) {
     var emoji = tag_lookup["emoji"];
     caption.innerText = emoji + "\xa0" + caption.innerText;
   }

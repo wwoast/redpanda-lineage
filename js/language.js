@@ -997,6 +997,17 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "はどこに住んでいましたか？"]
   },
+  "tag_combo": {
+    "cn": ["组合搜索:",
+           "<INSERTNUM>",
+           "相片。"],
+    "en": [" Combo: ",
+           "<INSERTNUM>",
+           " photos."],
+    "jp": ["コンボ検索:",
+           "<INSERTNUM>",
+           "写真。"]
+  },
   "tag_subject": {
     "cn": ["<INSERTNUM>",
            "张",

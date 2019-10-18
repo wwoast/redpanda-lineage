@@ -1568,6 +1568,42 @@ Show.message.profile_where = function(name, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.tag_combo = function(num, emojis, language, overflow) {
+  var p = document.createElement('p');
+  // Emojis come first!
+  for (let emoji of emojis) {
+    p.appendChild(document.createTextNode(emoji + " "));
+  }
+  for (var i in L.messages.tag_combo[language]) {
+    var field = L.messages.tag_combo[language][i];
+    if (field == "<INSERTNUM>") {
+      var msg = document.createTextNode(num);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  if (overflow > 0) {
+    for (var i in L.messages.overflow[language]) {
+      var field = L.messages.overflow[language][i];
+      if (field == "<INSERTLIMIT>") {
+        var msg = document.createTextNode(overflow);
+        p.appendChild(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        p.appendChild(msg);
+      }
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0) {
   // If there was an id as part of a tagExpression, rewrite this message
   // using the panda's localized name instead.

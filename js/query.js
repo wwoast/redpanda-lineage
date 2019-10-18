@@ -123,9 +123,6 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_babies_year_list") {
     hits = Pandas.searchBabies(search_word);
   }
-  if (set_node.type == "set_babies_year_list") {
-    hits = Pandas.searchBabies(search_word);
-  }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
     tag = Parse.searchTag(keyword_node.str);
