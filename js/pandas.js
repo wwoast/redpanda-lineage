@@ -804,7 +804,7 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
   var output = [];
   for (let animal of animal_list) {
     var set = [];
-    if (mode == "photos" || mode == "union") {
+    if (mode == "photos" || mode == "union" || mode == "singleton") {
       set = Pandas.searchPandaPhotoTagsUnion(animal, tags, mode);
     }
     if (mode == "intersect") {
