@@ -309,11 +309,11 @@ class RedPandaGraph:
             if (field[0].find("photo") != -1 and
                 len(field[0].split(".")) == 2):
                     # Process a small set of photo credits for all the pandas
-                    # author = infile.get("media", field[0] + ".author")
-                    # if author in self.photo["credit"].keys():
-                    #    self.photo["credit"][author] = self.photo["credit"][author] + 1
-                    # else:
-                    #    self.photo["credit"][author] = 1
+                    author = infile.get("media", field[0] + ".author")
+                    if author in self.photo["credit"].keys():
+                       self.photo["credit"][author] = self.photo["credit"][author] + 1
+                    else:
+                       self.photo["credit"][author] = 1
                     # Track what the max number of panda photos an object has is
                     # test_count = int(field[0].split(".")[1])
                     # if test_count > self.photo["max"]:
@@ -691,8 +691,10 @@ class UpdateFromCommits:
                 author_diffs[author] = 0
         # Now the author_entities list is just authors whose entities are
         # their only photos in redpandafinder. Make the authors list from this
-        for entity in author_entities.values():
-            self.updates["authors"].extend(entity)
+        for entity_list in author_entities.values():
+            # Handle cases where entities were moved and no longer valid locators
+            entity_list = [e for e in entity_list if e != None]
+            self.updates["authors"].extend(entity_list)
         # And get the count of unique authors added
         for author in author_diffs.keys():
             if author_diffs[author] > 0:
