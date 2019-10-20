@@ -632,7 +632,8 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       continue;
     }
     // New panda added, so make sure it gets the heart icon
-    if (panda_photos.map(panda => panda.id).indexOf(author_photo.id) != -1) {
+    if ((panda_photos.map(panda => panda.id).indexOf(author_photo.id) != -1) &&
+        (author_photo.id.indexOf("media") == -1)) {
       author_photo.name_icon = Language.L.emoji.profile;
     }
     author_photo.credit_icon = Language.L.emoji.giftwrap;
