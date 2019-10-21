@@ -1,0 +1,65 @@
+[panda]
+_id: 625
+birthday: 2011/6/14
+birthplace: 122
+children: none
+en.name: Raz
+en.nicknames: none
+en.oldnames: Dato
+en.othernames: Razz
+gender: m
+jp.name: ラズ
+jp.nicknames: none
+jp.oldnames: ダト
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 122, 2011/6/14
+location.2: 155, 2012/9/6
+location.3: 156, 2017/4/27
+photo.1: https://www.instagram.com/p/BTh2YiQF03E/media/?size=m
+photo.1.author: hemkerzoo
+photo.1.link: https://www.instagram.com/hemkerzoo/
+photo.1.tags: portrait, tail
+photo.2: https://www.instagram.com/p/BUCWfYMl0e2/media/?size=m
+photo.2.author: hemkerzoo
+photo.2.link: https://www.instagram.com/hemkerzoo/
+photo.2.tags: peek, tree
+photo.3: https://www.instagram.com/p/BVS0sz-lChX/media/?size=m
+photo.3.author: hemkerzoo
+photo.3.link: https://www.instagram.com/hemkerzoo/
+photo.3.tags: portrait, smile, tongue
+photo.4: https://www.instagram.com/p/BWfUboKlGge/media/?size=m
+photo.4.author: hemkerzoo
+photo.4.link: https://www.instagram.com/hemkerzoo/
+photo.4.tags: peek, portrait, tree
+photo.5: https://www.instagram.com/p/BYd0-fjHxvS/media/?size=m
+photo.5.author: hemkerzoo
+photo.5.link: https://www.instagram.com/hemkerzoo/
+photo.5.tags: smile
+photo.6: https://www.instagram.com/p/BZRezRwHuhi/media/?size=m
+photo.6.author: hemkerzoo
+photo.6.link: https://www.instagram.com/hemkerzoo/
+photo.6.tags: tail
+photo.7: https://www.instagram.com/p/BgULa6JhI-S/media/?size=m
+photo.7.author: hemkerzoo
+photo.7.link: https://www.instagram.com/hemkerzoo/
+photo.7.tags: tail, tree
+photo.8: https://www.instagram.com/p/BqqGjwnDE2p/media/?size=m
+photo.8.author: hemkerzoo
+photo.8.link: https://www.instagram.com/hemkerzoo/
+photo.8.tags: portrait, white face
+photo.9: https://www.instagram.com/p/Bys9iu3B_WD/media/?size=m
+photo.9.author: hemkerzoo
+photo.9.link: https://www.instagram.com/hemkerzoo/
+photo.9.tags: laying down, portrait, smile, tail, tongue, tree
+photo.10: https://www.instagram.com/p/B0Ow6lfBp_5/media/?size=m
+photo.10.author: hemkerzoo
+photo.10.link: https://www.instagram.com/hemkerzoo/
+photo.10.tags: laying down, portrait, tree
+photo.11: https://www.instagram.com/p/B2rTOSfhtIv/media/?size=m
+photo.11.author: hemkerzoo
+photo.11.link: https://www.instagram.com/hemkerzoo/
+photo.11.tags: portrait, smile
+species: 1
+zoo: 156
