@@ -135,7 +135,7 @@ photo.30.tags: bamboo, smile, white face
 photo.31: https://www.instagram.com/p/BugYvtellOt/media/?size=m
 photo.31.author: resapan.suki
 photo.31.link: https://www.instagram.com/resapan.suki/
-photo.31.tags: bamboo, portrait, profile, smile, tongue
+photo.31.tags: bamboo, portrait, smile, tongue
 photo.32: https://www.instagram.com/p/BvDfocUlYWl/media/?size=m
 photo.32.author: fetorus_mami
 photo.32.link: https://www.instagram.com/fetorus_mami/
@@ -220,5 +220,13 @@ photo.52: https://www.instagram.com/p/B3zCXWJh7X9/media/?size=m
 photo.52.author: ssc6105
 photo.52.link: https://www.instagram.com/ssc6105/
 photo.52.tags: bamboo, paws, portrait, standing
+photo.53: https://www.instagram.com/p/BvB6ULclYML/media/?size=m
+photo.53.author: s.okano521
+photo.53.link: https://www.instagram.com/s.okano521/
+photo.53.tags: peek, white face
+photo.54: https://www.instagram.com/p/B34b65jhkh6/media/?size=m
+photo.54.author: motohin
+photo.54.link: https://www.instagram.com/motohin/
+photo.54.tags: portrait, profile
 species: 2
 zoo: 9
