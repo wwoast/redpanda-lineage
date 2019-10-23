@@ -268,10 +268,15 @@ Language.L.gui = {
     "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"]
   },
-  "footerLink": {
+  "footerLink_rpf": {
     "cn": "Red Panda Lineage",
     "en": "Red Panda Lineage",
     "jp": "Red Panda Lineage"
+  },
+  "footerLink_rpn": {
+    "cn": "Red Panda Network",
+    "en": "Red Panda Network",
+    "jp": "Red Panda Network"
   },
   "home": {
     "cn": "主页",
@@ -549,16 +554,19 @@ Language.L.messages = {
     "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"]
   },
   "footer": {
-    "cn": ["<INSERTLINK>",
+    "cn": ["<INSERTLINK_RPF>",
            " ©2019 Justin Fairchild"],
-    "en": ["All information courtesy of the ",
-           "<INSERTLINK>",
-           " and red panda fans worldwide. ",
-          "Any media linked from this dataset remains property of its creator. ",
-          "Layout and design © 2019 Justin Fairchild."],
-    "jp": ["<INSERTLINK>", 
-           "、世界中のレッサーパンダファンのすべての情報提供。",
-           "このデータセットからリンクされたメディアはすべて、作成者の所有物です。",
+    "en": ["If you love red pandas, please support ",
+           "<INSERTLINK_RPN>",
+           " as well as your local zoos. Lineage data courtesy of the ",
+           "<INSERTLINK_RPF>",
+           " project, but linked media remains property of its creators. ",
+           "Layout and design © 2019 Justin Fairchild."],
+    "jp": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
+           "<INSERTLINK_RPF>",
+           "もサポートしてください。系統データは",
+           "<INSERTLINK_RPN>",
+           "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
            "設計©2019 Justin Fairchild"]
   },
   "goodbye": {
