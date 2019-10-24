@@ -269,7 +269,7 @@ Language.L.gui = {
     "jp": Language.L.flags["Japan"]
   },
   "footerLink_rpf": {
-    "cn": "Red Panda Lineage",
+    "cn": "小熊猫族谱项目",
     "en": "Red Panda Lineage",
     "jp": "Red Panda Lineage"
   },
@@ -554,8 +554,13 @@ Language.L.messages = {
     "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"]
   },
   "footer": {
-    "cn": ["<INSERTLINK_RPF>",
-           " ©2019 Justin Fairchild"],
+    "cn": ["如果你喜爱小熊猫，请支持小熊猫网络（",
+           "<INSERTLINK_RPN>",
+           "）以及你当地的动物园。",
+           "族谱数据归属于",
+           "<INSERTLINK_RPF>",
+           "但相关媒介内容（如图片等）版权归属于原作者。",
+           "布局与设计©️2019 Justin Fairchild"],
     "en": ["If you love red pandas, please support ",
            "<INSERTLINK_RPN>",
            " as well as your local zoos. Lineage data courtesy of the ",
