@@ -1,0 +1,16 @@
+[panda]
+_id: 1000
+birthday: 2018/6/23
+birthplace: 65
+children: none
+en.name: Linus
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ライナス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 999
+species: 2
+zoo: 65
