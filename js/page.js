@@ -209,13 +209,26 @@ Page.footer.remove = function() {
 Page.footer.render = function(language, class_name) {
   // Draw a footer with the correct language and color (class)
   var p = document.createElement('p');
+  var rpn_url = "https://www.redpandanetwork.org";
+  var rpn_logo_link = document.createElement('a');
+  rpn_logo_link.href = rpn_url;
+  var rpn_logo = document.createElement('img');
+  rpn_logo.className = "footerRpnLogo";
+  rpn_logo.src = "images/rpn-logo.png";
+  rpn_logo_link.appendChild(rpn_logo);
+  p.appendChild(rpn_logo_link);
   for (var i in L.messages.footer[language]) {
     var field = L.messages.footer[language][i];
-    if (field == "<INSERTLINK>") {
-      var rpl = document.createElement('a');
-      rpl.href = "https://github.com/wwoast/redpanda-lineage";
-      rpl.innerText = L.gui.footerLink[language];
-      p.appendChild(rpl);
+    if (field == "<INSERTLINK_RPF>") {
+      var rpf = document.createElement('a');
+      rpf.href = "https://github.com/wwoast/redpanda-lineage";
+      rpf.innerText = L.gui.footerLink_rpf[language];
+      p.appendChild(rpf);
+    } else if (field == "<INSERTLINK_RPN>") {
+      var rpn = document.createElement('a');
+      rpn.href = rpn_url;
+      rpn.innerText = L.gui.footerLink_rpn[language];
+      p.appendChild(rpn);
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);

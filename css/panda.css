@@ -444,7 +444,6 @@ a.navigatorLink {
     display: none;
 }
 
-
 span.navigator {
     position: absolute;
     top: 0;
@@ -804,7 +803,6 @@ div.footer {
     bottom: 0px;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
-    text-align: center;
 }
 
 div.footer.profile {
@@ -1005,6 +1003,13 @@ img.twinFocus {
     display: inline;
     width: 49%;
     text-align: center;
+}
+
+img.footerRpnLogo {
+    width: 40px;
+    float: left;
+    margin-right: 4pt;
+    margin-top: 3pt;
 }
 
 ul.linkList.multiColumn {
