@@ -568,9 +568,9 @@ Language.L.messages = {
            " project, but linked media remains property of its creators. ",
            "Layout and design © 2019 Justin Fairchild."],
     "jp": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
-           "<INSERTLINK_RPF>",
-           "もサポートしてください。系統データは",
            "<INSERTLINK_RPN>",
+           "もサポートしてください。系統データは",
+           "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
            "設計©2019 Justin Fairchild"]
   },
