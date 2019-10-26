@@ -1,0 +1,35 @@
+[panda]
+_id: 841
+birthday: 2010/6/12
+birthplace: 105
+children: none
+death: 2016/1/12
+en.name: Lila
+en.nicknames: none
+en.othernames: Flynn
+gender: f
+jp.name: リラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 842
+location.1: 105, 2010/6/12
+location.2: 95, 2011/12/11
+photo.1: https://www.instagram.com/p/KtfpsCxEbA/media/?size=m
+photo.1.author: sandiegozoo
+photo.1.link: https://www.instagram.com/sandiegozoo/
+photo.1.tags: portrait, white face
+photo.2: https://www.instagram.com/p/hei7J3xETA/media/?size=m
+photo.2.author: sandiegozoo
+photo.2.link: https://www.instagram.com/sandiegozoo/
+photo.2.tags: portrait, profile, tail, white face
+photo.3: https://www.instagram.com/p/8oe8VqREbr/media/?size=m
+photo.3.author: sandiegozoo
+photo.3.link: https://www.instagram.com/sandiegozoo/
+photo.3.tags: hammock, laying down, long-tongue, paws, portrait, white face
+photo.4: https://www.instagram.com/p/BnwPjQlnZmf/media/?size=m
+photo.4.author: sandiegozoo
+photo.4.link: https://www.instagram.com/sandiegozoo/
+photo.4.tags: smile, tail, white face
+species: 1
+zoo: 95
