@@ -9,7 +9,7 @@ en.othernames: Yunyun, Un-Un
 gender: f
 jp.name: 雲雲
 jp.nicknames: none
-jp.othernames: ウンウン
+jp.othernames: ユンユン, ウンウン
 language.order: jp, en
 litter: 225
 photo.1: https://www.instagram.com/p/BoTYFczFKC9/media/?size=m
@@ -119,5 +119,9 @@ photo.27: https://www.instagram.com/p/B3EvT_JB5Io/media/?size=m
 photo.27.author: nishicotolo
 photo.27.link: https://www.instagram.com/nishicotolo/
 photo.27.tags: bridge, paws, laying down
+photo.28: https://www.instagram.com/p/B4CPcGeBgXq/media/?size=m
+photo.28.author: sasapan34
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: bamboo
 species: 2
 zoo: 37

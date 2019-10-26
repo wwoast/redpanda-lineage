@@ -23,7 +23,7 @@ photo.2.tags: baby, window
 photo.3: https://www.instagram.com/p/B3WssgohtsE/media/?size=m
 photo.3.author: kaoru_a358
 photo.3.link: https://www.instagram.com/kaoru_a358/
-photo.3.tags: portrait, window
+photo.3.tags: baby, portrait, window
 photo.4: https://www.instagram.com/p/B3lL_fohSxg/media/?size=m
 photo.4.author: _saaaaaaah_
 photo.4.link: https://www.instagram.com/_saaaaaaah_/
@@ -40,5 +40,17 @@ photo.7: https://www.instagram.com/p/B3zC5_OhvoX/media/?size=m
 photo.7.author: fetorus_mami
 photo.7.link: https://www.instagram.com/fetorus_mami/
 photo.7.tags: baby, portrait, profile
+photo.8: https://www.instagram.com/p/B31rMdyhhzM/media/?size=m
+photo.8.author: grskus_tk
+photo.8.link: https://www.instagram.com/grskus_tk/
+photo.8.tags: baby, paws
+photo.9: https://www.instagram.com/p/B34JOwbByHW/media/?size=m
+photo.9.author: ck.chie
+photo.9.link: https://www.instagram.com/ck.chie/
+photo.9.tags: baby, mofumofu, paws
+photo.10: https://www.instagram.com/p/B34qY0NB3Dn/media/?size=m
+photo.10.author: ig.hiro107_zoo
+photo.10.link: https://www.instagram.com/ig.hiro107_zoo/
+photo.10.tags: laying down
 species: 2
 zoo: 17
