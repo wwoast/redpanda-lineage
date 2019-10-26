@@ -12,5 +12,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1000
+photo.1: https://www.instagram.com/p/BtE_dJIlGwB/media/?size=m
+photo.1.author: andersonkelley
+photo.1.link: https://www.instagram.com/andersonkelley/
+photo.1.tags: dark face, paws
 species: 2
 zoo: 65
