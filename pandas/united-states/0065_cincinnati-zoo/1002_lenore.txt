@@ -1,0 +1,16 @@
+[panda]
+_id: 1002
+birthday: 2019/7/5
+birthplace: 65
+children: none
+en.name: Lenore
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: レノレ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1001
+species: 2
+zoo: 65

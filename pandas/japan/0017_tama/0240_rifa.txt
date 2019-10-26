@@ -243,7 +243,7 @@ photo.59.tags: mofumofu, tongue
 photo.60: https://www.instagram.com/p/BxQsz6GlKEu/media/?size=m
 photo.60.author: fetorus_mami
 photo.60.link: https://www.instagram.com/fetorus_mami/
-photo.60.tags: profile
+photo.60.tags: mofumofu
 photo.61: https://www.instagram.com/p/Bxbqa57lRPa/media/?size=m
 photo.61.author: kotata_513
 photo.61.link: https://www.instagram.com/kotata_513/
@@ -492,5 +492,13 @@ photo.122: https://www.instagram.com/p/B39HG1qh2EU/media/?size=m
 photo.122.author: ck.chie
 photo.122.link: https://www.instagram.com/ck.chie/
 photo.122.tags: door, portrait, smile
+photo.123: https://www.instagram.com/p/B4Ck0cfBoRr/media/?size=m
+photo.123.author: ssc6105
+photo.123.link: https://www.instagram.com/ssc6105/
+photo.123.tags: bamboo, smile, tree
+photo.124: https://www.instagram.com/p/B3-WuFFhlLw/media/?size=m
+photo.124.author: run.swim.shingo
+photo.124.link: https://www.instagram.com/run.swim.shingo/
+photo.124.tags: portrait, profile, smile
 species: 2
 zoo: 17

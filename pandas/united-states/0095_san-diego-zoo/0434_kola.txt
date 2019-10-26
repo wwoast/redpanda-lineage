@@ -2,11 +2,11 @@
 _id: 434
 birthday: 2015/8/24
 birthplace: 82
-children: 999, 1000
+children: 999, 1000, 1001, 1002
 en.name: Kola
 en.nicknames: none
 en.othernames: none
-gender: f
+gender: m
 jp.name: コーラ
 jp.nicknames: none
 jp.othernames: none
