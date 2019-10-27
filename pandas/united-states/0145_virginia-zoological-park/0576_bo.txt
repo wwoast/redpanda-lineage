@@ -14,5 +14,9 @@ language.order: en, jp
 litter: none
 location.1: 105, 2017/6/20
 location.2: 145, 2018/5/9
+photo.1: https://www.instagram.com/p/By8l5HDjfNi/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: paws, portrait, profile, smile, tongue
 species: 1
 zoo: 145

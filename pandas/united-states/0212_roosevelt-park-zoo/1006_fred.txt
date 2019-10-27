@@ -1,0 +1,18 @@
+[panda]
+_id: 1006
+birthday: 2013/5/30
+birthplace: 187
+children: none
+en.name: Fred
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フレッド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1007
+location.1: 187, 2013/5/30
+location.2: 212, 2014/10/14
+species: 1
+zoo: 212
