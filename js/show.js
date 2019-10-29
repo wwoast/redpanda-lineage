@@ -1439,7 +1439,7 @@ Show.message.profile_children = function(name, children_count, daughters, sons, 
   } else if (sons > 0) {
     message = L.messages.profile_sons;
   } else if (babies > 0) {
-    message = L.messages.profile_babies;
+    message = L.messages.profile_babies_children;
   } else {
     message = L.messages.profile_children;
   }
@@ -1516,7 +1516,7 @@ Show.message.profile_siblings = function(name, sibling_count, sisters, brothers,
   } else if (brothers > 0) {
     message = L.messages.profile_brothers;
   } else if (babies > 0) {
-    message = L.messages.profile_babies;
+    message = L.messages.profile_babies_siblings;
   } else {
     message = L.messages.profile_siblings;
   }

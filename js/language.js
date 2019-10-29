@@ -727,7 +727,7 @@ Language.L.messages = {
     "jp": ["<INSERTLIMIT>",
            "を表示中"]
   },
-  "profile_babies": {
+  "profile_babies_children": {
     "cn": ["<INSERTNAME>",
            "有",
            "<INSERTBABIES>",
@@ -740,6 +740,20 @@ Language.L.messages = {
            "の子供",
            "<INSERTBABIES>",
            "人"]
+  },
+  "profile_babies_siblings": {
+    "cn": ["<INSERTNAME>",
+           "有",
+           "<INSERTBABIES>",
+           "个孩子"],
+    "en": ["<INSERTNAME>",
+           " has ",
+           "<INSERTBABIES>",
+           " baby siblings."],
+    "jp": ["<INSERTNAME>",
+           "には",
+           "<INSERTBABIES>",
+           "人の赤ちゃんの兄弟がいます"]
   },
   "profile_brothers": {
     "cn": ["<INSERTNAME>",
