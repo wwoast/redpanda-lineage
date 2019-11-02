@@ -2,7 +2,8 @@
 _id: 213
 en.address: Kingussie PH21 1NL, United Kingdom
 en.location: Kincraig, Kingussie PH21 1NL, United Kingdom
-en.name: RZSS Highland Wildlife Park
+en.name: Highland Wildlife Park
+en.othernames: RZSS Highland Wildlife Park
 flag: UK
 language.order: en
 latitude: 57.107387
