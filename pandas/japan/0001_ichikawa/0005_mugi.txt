@@ -28,7 +28,7 @@ photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BgN-9OxlkUi/media/?size=m
 photo.4.author: takashi_8310iyo
 photo.4.link: https://www.instagram.com/takashi_8310iyo/
-photo.4.tags: profile, standing
+photo.4.tags: standing
 photo.5: https://www.instagram.com/p/BjcjE9HlF6z/media/?size=m
 photo.5.author: redpanda_nippon_takashi
 photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -376,5 +376,13 @@ photo.93: https://www.instagram.com/p/B4M0e33h7ZP/media/?size=m
 photo.93.author: ssc6105
 photo.93.link: https://www.instagram.com/ssc6105/
 photo.93.tags: bamboo, portrait, whiskers
+photo.94: https://www.instagram.com/p/B4TOthMhiAK/media/?size=m
+photo.94.author: lespan33
+photo.94.link: https://www.instagram.com/lespan33/
+photo.94.tags: baby, mofumofu, portrait, tail
+photo.95: https://www.instagram.com/p/B4Uv2uNh5iA/media/?size=m
+photo.95.author: mugicha0312
+photo.95.link: https://www.instagram.com/mugicha0312/
+photo.95.tags: dish, lunch time, paws, portrait, profile
 species: 2
 zoo: 1

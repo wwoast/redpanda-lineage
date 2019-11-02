@@ -17,7 +17,7 @@ location.2: 14, 2016/5/19
 photo.1: https://www.instagram.com/p/Bkr4OsBlpVX/media/?size=m
 photo.1.author: kmasahon
 photo.1.link: https://www.instagram.com/kmasahon/
-photo.1.tags: profile, smile
+photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BkpaKlOlLIi/media/?size=m
 photo.2.author: i.satosato
 photo.2.link: https://www.instagram.com/i.satosato/
@@ -141,5 +141,21 @@ photo.32: https://www.instagram.com/p/B2q-YA4BIr3/media/?size=m
 photo.32.author: kmasahon
 photo.32.link: https://www.instagram.com/kmasahon/
 photo.32.tags: laying down, smile
+photo.33: https://www.instagram.com/p/B1SPTVDBKWF/media/?size=m
+photo.33.author: love__mitarashi
+photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.tags: portrait, smile
+photo.34: https://www.instagram.com/p/BwdEyCvFGGt/media/?size=m
+photo.34.author: re_ichimaru
+photo.34.link: https://www.instagram.com/re_ichimaru/
+photo.34.tags: home, laying down
+photo.35: https://www.instagram.com/p/BzYIQBnBQrO/media/?size=m
+photo.35.author: resapanlove
+photo.35.link: https://www.instagram.com/resapanlove/
+photo.35.tags: apple time, portrait, profile, smile
+photo.36: https://www.instagram.com/p/Bkq0P_aFFzJ/media/?size=m
+photo.36.author: _rifa_p
+photo.36.link: https://www.instagram.com/_rifa_p/
+photo.36.tags: paws, portrait, whiskers
 species: 2
 zoo: 14
