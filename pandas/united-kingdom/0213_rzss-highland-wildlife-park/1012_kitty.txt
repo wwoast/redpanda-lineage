@@ -1,6 +1,6 @@
 [panda]
 _id: 1012
-birthday: unknown
+birthday: 2011/6/22
 birthplace: unknown
 children: 1013, 1014, 1010, 1015
 en.name: Kitty
@@ -9,11 +9,11 @@ en.othernames: none
 gender: f
 language.order: en
 litter: unknown
-location.1: ?, ?/mm/dd
-location.2: ?, ?/mm/dd
-species: 2
-zoo: 213
+location.1: unknown, 2011/6/22 
+location.2: 213, 2012/5/23
 photo.1: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/60856752_10219237543508573_6759299773871685632_n.jpg?_nc_cat=110&_nc_oc=AQkQsqXhq8Bu6Hek84QPufuNO4IM6NjmPTrMsTC6CvCV74NjFNfwK5qmokD5p0_B44s&_nc_ht=scontent.fybz1-1.fna&oh=e1a8b99f8ab9ec94cc0aae4623e32a80&oe=5E534E6D
 photo.1.author: Cathie Louise Burgess
 photo.1.link: https://www.facebook.com/media/set/?set=p.10219237543468572&type=3
 photo.1.tags: mother, baby
+species: 2
+zoo: 213

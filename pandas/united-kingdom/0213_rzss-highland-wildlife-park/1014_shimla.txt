@@ -7,11 +7,9 @@ en.nicknames: none
 en.othernames: none
 gender: m
 language.order: en
-litter: 830
+litter: 1013
 location.1: 213, 2018/07/15
 location.2: unknown
-species: 2
-zoo: 213
 photo.1: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/50705118_10156698979416708_3443977379507077120_n.jpg?_nc_cat=100&_nc_oc=AQka7K_-sFAWy8eH54Ipo3jrsq7NPAf77kEN62d9WB0ylttA3VlyLWnc-3sgaQ_rW2c&_nc_ht=scontent.fybz1-1.fna&oh=d6153478e33330ea761384bd9f862146&oe=5E183A39
 photo.1.author: Alison McTavish
 photo.1.link: http://socsi.in/U0pcu
@@ -20,3 +18,5 @@ photo.2: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/48416783_10156635740251
 photo.2.author: Maxine
 photo.2.link: http://socsi.in/tG3c1
 photo.2.tags: siblings
+species: 2
+zoo: 213
