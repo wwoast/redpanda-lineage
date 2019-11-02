@@ -11,9 +11,25 @@ language.order: en
 litter: unknown
 location.1: unknown, 2011/6/22 
 location.2: 213, 2012/5/23
-photo.1: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/60856752_10219237543508573_6759299773871685632_n.jpg?_nc_cat=110&_nc_oc=AQkQsqXhq8Bu6Hek84QPufuNO4IM6NjmPTrMsTC6CvCV74NjFNfwK5qmokD5p0_B44s&_nc_ht=scontent.fybz1-1.fna&oh=e1a8b99f8ab9ec94cc0aae4623e32a80&oe=5E534E6D
-photo.1.author: Cathie Louise Burgess
-photo.1.link: https://www.facebook.com/media/set/?set=p.10219237543468572&type=3
-photo.1.tags: mother, baby
+photo.1: https://www.instagram.com/p/BzVL_X_A_z1/media/?size=m
+photo.1.author: alysonhouston
+photo.1.link: https://www.instagram.com/alysonhouston/
+photo.1.tags: peek, tail, tree
+photo.2: https://www.instagram.com/p/B3j0X7JH_7_/media/?size=m
+photo.2.author: siobhanpeace
+photo.2.link: https://www.instagram.com/siobhanpeace/
+photo.2.tags: autumn, itchy, tail
+photo.3: https://www.instagram.com/p/Bz1I2mlAw5y/media/?size=m
+photo.3.author: hollie512
+photo.3.link: https://www.instagram.com/hollie512/
+photo.3.tags: portrait, white face
+photo.4: https://www.instagram.com/p/Bs59mhrBzF0/media/?size=m
+photo.4.author: bbateyphotography
+photo.4.link: https://www.instagram.com/bbateyphotography/
+photo.4.tags: peek, techitechi, white face
+photo.6: https://www.instagram.com/p/Bk-8gf1n5Vw/media/?size=m
+photo.6.author: corinnepardey
+photo.6.link: https://www.instagram.com/corinnepardey/
+photo.6.tags: portrait
 species: 2
 zoo: 213

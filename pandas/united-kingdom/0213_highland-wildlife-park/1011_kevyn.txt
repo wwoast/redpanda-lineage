@@ -11,9 +11,25 @@ language.order: en
 litter: unknown
 location.1: 184, 2011/7/14
 location.2: 213, 2012/7/24
-photo.1: https://pbs.twimg.com/media/D_bbX-eXkAAkNJ0.jpg
-photo.1.author: Jan Morse
-photo.1.link: https://twitter.com/HighlandWPark
-photo.1.tags: birthday, cute
+photo.1: https://www.instagram.com/p/BhYmQCAjZVD/media/?size=m
+photo.1.author: jbhague
+photo.1.link: https://www.instagram.com/jbhague/
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/Bv1SjuNAOdI/media/?size=m
+photo.2.author: bbateyphotography
+photo.2.link: https://www.instagram.com/bbateyphotography/
+photo.2.tags: paws, tree
+photo.3: https://www.instagram.com/p/B0ZAtQVpbJY/media/?size=m
+photo.3.author: marzipan37
+photo.3.link: https://www.instagram.com/marzipan37/
+photo.3.tags: tree
+photo.4: https://www.instagram.com/p/B2phw_2H2fT/media/?size=m
+photo.4.author: photos_by_ciara_
+photo.4.link: https://www.instagram.com/photos_by_ciara_/
+photo.4.tags: portrait, profile
+photo.5: https://pbs.twimg.com/media/D_bbX-eXkAAkNJ0.jpg
+photo.5.author: Jan Morse
+photo.5.link: https://twitter.com/HighlandWPark
+photo.5.tags: birthday, cute
 species: 2
 zoo: 213
