@@ -1,0 +1,24 @@
+[panda]
+_id: 1016
+birthday: 2019/6/10
+birthplace: 44
+children: none
+en.name: Temari
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: テマリ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: https://www.instagram.com/p/B4Wm1Kqh-Np/media/?size=m
+photo.1.author: love__mitarashi
+photo.1.link: https://www.instagram.com/love__mitarashi/
+photo.1.tags: baby, mofumofu, tail
+photo.2: https://www.instagram.com/p/B4XSiJTBjin/media/?size=m
+photo.2.author: tomo3700
+photo.2.link: https://www.instagram.com/tomo3700/
+photo.2.tags: baby, mofumofu, portrait, techitechi, white face
+species: 2
+zoo: 14
