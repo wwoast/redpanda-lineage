@@ -1,0 +1,19 @@
+[panda]
+_id: 1009
+birthday: 2008
+birthplace: 72
+children: unknown
+en.name: Jasmina
+en.nicknames: none
+en.othernames: none
+gender: f
+language.order: en
+litter: unknown
+location.1: unknown
+location.2: unknown
+species: 2
+zoo: 150
+photo.1: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/67488971_10158628889338136_3656600474229932032_n.png?_nc_cat=108&_nc_oc=AQlzISEJ1yZDfw8kWbWTng_NVPqBUsHAJf9R6BFnc-VwquDeqZZVnztyM_WNMTfn9mE&_nc_ht=scontent.fybz1-1.fna&oh=d89eeb5296b936ad55c978650ba3838f&oe=5E1E085E
+photo.1.author: Dublin Zoo
+photo.1.link: https://www.facebook.com/DublinZoo/
+photo.1.tags: birthday

@@ -1,0 +1,15 @@
+[panda]
+_id: 1010
+birthday: 2017/06/14
+birthplace: 213
+children: unknown
+en.name: N'mai
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: 829
+location.1: 213, 2017/06/14
+location.2: 150, 2018/05/17
+species: 2
+zoo: 150

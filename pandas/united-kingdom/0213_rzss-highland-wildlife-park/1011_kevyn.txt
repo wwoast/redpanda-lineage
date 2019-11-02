@@ -1,0 +1,19 @@
+[panda]
+_id: 1011
+birthday: 2011/07/14
+birthplace: unknown
+children: 1013, 1014, 1010, 1015
+en.name: Kevyn
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: unknown
+location.1: ?, ?/mm/dd
+location.2: ?, ?/mm/dd
+species: 2
+zoo: 213
+photo.1: https://pbs.twimg.com/media/D_bbX-eXkAAkNJ0.jpg
+photo.1.author: Jan Morse
+photo.1.link: https://twitter.com/HighlandWPark
+photo.1.tags: birthday, cute
