@@ -826,7 +826,7 @@ a.emojiLink {
     text-decoration: none !important;   /* iPhone seems to require the !important */
 }
 
-div.vitamins {
+div.hiddenSlug, div.vitamins {
     /* A slug of characters to make webfonts load all necessary glyphs.
        Otherwise Typesquare, the Morisawa foundry service, won't properly load
        all the glyphs one of the search result pages might need. */
