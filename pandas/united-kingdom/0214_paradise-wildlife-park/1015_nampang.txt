@@ -10,5 +10,9 @@ language.order: en
 litter: 1010
 location.1: 213, 2017/6/14
 location.2: 214, 2018/2/24
+photo.1: https://www.instagram.com/p/Bz5uD1qACkW/media/?size=m
+photo.1.author: paradisewildlifepark
+photo.1.link: https://www.instagram.com/paradisewildlifepark/
+photo.1.tags: portrait, profile, smile, tongue, white face
 species: 2
 zoo: 214

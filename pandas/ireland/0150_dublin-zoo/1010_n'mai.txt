@@ -11,5 +11,37 @@ language.order: en
 litter: 1015
 location.1: 213, 2017/6/14
 location.2: 150, 2018/5/17
+photo.1: https://www.instagram.com/p/Bi351WaFZqd/media/?size=m
+photo.1.author: dublinzoo_official
+photo.1.link: https://www.instagram.com/dublinzoo_official/
+photo.1.tags: tree
+photo.2: https://www.instagram.com/p/BoORew8lNsl/media/?size=m
+photo.2.author: dublinzoo_official
+photo.2.link: https://www.instagram.com/dublinzoo_official/
+photo.2.tags: portrait, tail, tree
+photo.3: https://www.instagram.com/p/Boi6mX5FVmg/media/?size=m
+photo.3.author: dublinzoo_official
+photo.3.link: https://www.instagram.com/dublinzoo_official/
+photo.3.tags: tail, tree
+photo.4: https://www.instagram.com/p/Bq7DjX1FI1o/media/?size=m
+photo.4.author: dublinzoo_official
+photo.4.link: https://www.instagram.com/dublinzoo_official/
+photo.4.tags: mofumofu, portrait, tail, tree
+photo.5: https://www.instagram.com/p/Brfiso6Fkmx/media/?size=m
+photo.5.author: dublinzoo_official
+photo.5.link: https://www.instagram.com/dublinzoo_official/
+photo.5.tags: climb, portrait, tree
+photo.6: https://www.instagram.com/p/BjaP5hUB_f4/media/?size=m
+photo.6.author: cian_s03
+photo.6.link: https://www.instagram.com/cian_s03/
+photo.6.tags: portrait
+photo.7: https://www.instagram.com/p/BjaPrhhh3M_/media/?size=m
+photo.7.author: cian_s03
+photo.7.link: https://www.instagram.com/cian_s03/
+photo.7.tags: portrait, tree
+photo.8: https://www.instagram.com/p/BuD7ubvlSwP/media/?size=m
+photo.8.author: dublinzoo_official
+photo.8.link: https://www.instagram.com/dublinzoo_official/
+photo.8.tags: portrait, profile
 species: 2
 zoo: 150
