@@ -359,7 +359,6 @@ Page.links.sections.menuDefaults = function() {
   }
 }
 
-
 /*
     The profiles page display details, media, or timelines for an individual panda
 */
@@ -396,7 +395,6 @@ Page.profile.render = function() {
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
   Show.profile.search.render();
-
 }
 
 /*
