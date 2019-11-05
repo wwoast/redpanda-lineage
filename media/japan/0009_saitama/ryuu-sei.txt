@@ -1,0 +1,21 @@
+[media]
+_id: media.9.ryuu-sei
+panda.tags: 957, 958
+photo.1: https://www.instagram.com/p/B3zEv6MBhsj/media/?size=m
+photo.1.author: motohin
+photo.1.link: https://www.instagram.com/motohin/
+photo.1.tags: brothers, bridge, siblings, twins
+photo.1.tags.957.location: 145, 145
+photo.1.tags.958.location: 250, 115
+photo.2: https://www.instagram.com/p/B3zUGapBDRc/media/?size=m
+photo.2.author: resapanlove
+photo.2.link: https://www.instagram.com/resapanlove/
+photo.2.tags: brothers, mofumofu, siblings, twins
+photo.2.tags.957.location: 125, 60
+photo.2.tags.958.location: 230, 90
+photo.3: https://www.instagram.com/p/B31UaqmhEUS/media/?size=m
+photo.3.author: fetorus_mami
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: brothers, mofumofu, siblings, twins, window
+photo.3.tags.957.location: 180, 155
+photo.3.tags.958.location: 55, 65
