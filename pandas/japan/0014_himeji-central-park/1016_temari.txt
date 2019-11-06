@@ -19,7 +19,7 @@ photo.1.tags: baby, mofumofu, tail
 photo.2: https://www.instagram.com/p/B4XSiJTBjin/media/?size=m
 photo.2.author: tomo3700
 photo.2.link: https://www.instagram.com/tomo3700/
-photo.2.tags: baby, mofumofu, portrait, techitechi, white face
+photo.2.tags: baby, mofumofu, portrait, profile, techitechi, white face
 photo.3: https://www.instagram.com/p/B4cFZvKBUBV/media/?size=m
 photo.3.author: love__mitarashi
 photo.3.link: https://www.instagram.com/love__mitarashi/
@@ -28,5 +28,9 @@ photo.4: https://www.instagram.com/p/B4cGhpDBwaq/media/?size=m
 photo.4.author: colette.jp
 photo.4.link: https://www.instagram.com/colette.jp/
 photo.4.tags: baby, mofumofu, portrait, tree, white face
+photo.5: https://www.instagram.com/p/B4dhsh3hVsA/media/?size=m
+photo.5.author: tomo3700
+photo.5.link: https://www.instagram.com/tomo3700/
+photo.5.tags: baby, mofumofu, portrait, tail, tree, white face
 species: 2
 zoo: 14
