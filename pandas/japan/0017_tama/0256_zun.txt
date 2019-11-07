@@ -207,7 +207,7 @@ photo.49.tags: bamboo, portrait
 photo.50: https://www.instagram.com/p/B0fIbgoB-kz/media/?size=m
 photo.50.author: resapan.suki
 photo.50.link: https://www.instagram.com/resapan.suki/
-photo.50.tags: bamboo, portrait
+photo.50.tags: bamboo, portrait, profile
 photo.51: https://www.instagram.com/p/B0f1CMmB5ga/media/?size=m
 photo.51.author: ssc6105
 photo.51.link: https://www.instagram.com/ssc6105/
@@ -239,7 +239,7 @@ photo.57.tags: bamboo, portrait
 photo.58: https://www.instagram.com/p/B2wL9IThls_/media/?size=m
 photo.58.author: mofu_pan
 photo.58.link: https://www.instagram.com/mofu_pan/
-photo.58.tags: paws, portrait, profile, smile
+photo.58.tags: paws, portrait, smile
 photo.59: https://www.instagram.com/p/B3k2hXUBALY/media/?size=m
 photo.59.author: ssc6105
 photo.59.link: https://www.instagram.com/ssc6105/
@@ -256,5 +256,20 @@ photo.62: https://www.instagram.com/p/B4TI053BuCg/media/?size=m
 photo.62.author: ck.chie
 photo.62.link: https://www.instagram.com/ck.chie/
 photo.62.tags: climb, tree
+photo.63: https://www.instagram.com/p/B4dfUhoBDw0/media/?size=m
+photo.63.author: kotata_513
+photo.63.link: https://www.instagram.com/kotata_513/
+photo.64: https://www.instagram.com/p/B4f8sVwBRbc/media/?size=m
+photo.64.author: kipekaila
+photo.64.link: https://www.instagram.com/kipekaila/
+photo.64.tags: portrait, smile, tree
+photo.65: https://www.instagram.com/p/B1yUpeSB1M4/media/?size=m
+photo.65.author: osopanda551
+photo.65.link: https://www.instagram.com/osopanda551/
+photo.65.tags: bridge, paws, portrait, smile
+photo.66: https://www.instagram.com/p/B1tlM2wBzJw/media/?size=m
+photo.66.author: osopanda551
+photo.66.link: https://www.instagram.com/osopanda551/
+photo.66.tags: climb, portrait, smile, tree
 species: 2
 zoo: 17
