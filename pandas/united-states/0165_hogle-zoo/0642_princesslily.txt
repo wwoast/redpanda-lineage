@@ -5,7 +5,7 @@ birthplace: 104
 children: none
 en.name: Princess Lily
 en.nicknames: none
-en.othernames: Lily, Princess
+en.othernames: Lily, Princess, Lila
 gender: f
 jp.name: リリィ姫
 jp.nicknames: none
@@ -17,9 +17,17 @@ location.2: 95, 2011/4/27
 location.3: 116, 2014/12/16
 location.4: 164, 2017/11/4
 location.5: 165, 2018/3/12
-photo.1: https://www.instagram.com/p/BTCBf8KB4Ca/media/?size=m
-photo.1.author: millerparkzoo
-photo.1.link: https://www.instagram.com/millerparkzoo/
-photo.1.tags: paws, profile, white face
+photo.1: https://www.instagram.com/p/KtfpsCxEbA/media/?size=m
+photo.1.author: sandiegozoo
+photo.1.link: https://www.instagram.com/sandiegozoo/
+photo.1.tags: portrait, white face
+photo.2: https://www.instagram.com/p/8oe8VqREbr/media/?size=m
+photo.2.author: sandiegozoo
+photo.2.link: https://www.instagram.com/sandiegozoo/
+photo.2.tags: hammock, laying down, long-tongue, paws, portrait, white face
+photo.3: https://www.instagram.com/p/BTCBf8KB4Ca/media/?size=m
+photo.3.author: millerparkzoo
+photo.3.link: https://www.instagram.com/millerparkzoo/
+photo.3.tags: paws, profile, white face
 species: 1
 zoo: 165
