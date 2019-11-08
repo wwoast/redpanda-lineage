@@ -29,5 +29,13 @@ photo.3.tags: tail, tree
 photo.4: https://www.instagram.com/p/BsbAINvFALj/media/?size=m
 photo.4.author: carsontheredpanda
 photo.4.link: https://www.instagram.com/carsontheredpanda/
+photo.5: https://www.instagram.com/p/Bdy4Tj2j-Mz/media/?size=m
+photo.5.author: perissodactyls
+photo.5.link: https://www.instagram.com/perissodactyls/
+photo.5.tags: snow, tree
+photo.6: https://www.instagram.com/p/BdGEfW7D8VG/media/?size=m
+photo.6.author: perissodactyls
+photo.6.link: https://www.instagram.com/perissodactyls/
+photo.6.tags: snow, tail
 species: 2
 zoo: 93

@@ -17,7 +17,6 @@ location.2: 13, 2015/2/13
 photo.1: https://www.instagram.com/p/BlDRquvFr8S/media/?size=m
 photo.1.author: minato.yokohama2130
 photo.1.link: https://www.instagram.com/minato.yokohama2130/
-photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BnI4EhAFuc7/media/?size=m
 photo.2.author: minato.yokohama2130
 photo.2.link: https://www.instagram.com/minato.yokohama2130/
@@ -90,11 +89,11 @@ photo.19.tags: smile
 photo.20: https://www.instagram.com/p/BwMCL-WlseS/media/?size=m
 photo.20.author: minato.yokohama2130
 photo.20.link: https://www.instagram.com/minato.yokohama2130/
-photo.20.tags: paws, tail
+photo.20.tags: paws, portrait, tail
 photo.21: https://www.instagram.com/p/BwSJHz7FHPR/media/?size=m
 photo.21.author: akiakiakiko18
 photo.21.link: https://www.instagram.com/akiakiakiko18/
-photo.21.tags: portrait
+photo.21.tags: portrait, profile
 photo.22: https://www.instagram.com/p/BxUyhg_FLPG/media/?size=m
 photo.22.author: mugicha0312
 photo.22.link: https://www.instagram.com/mugicha0312/
