@@ -3,11 +3,11 @@ _id: 995
 birthday: 2019/6/29
 birthplace: 40
 children: none
-en.name: Aka-chan
+en.name: Pu-Pu
 en.nicknames: none
-en.othernames: none
+en.othernames: Pupu
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: ププ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -24,5 +24,9 @@ photo.3: https://www.instagram.com/p/B3-nCGmB8t4/media/?size=m
 photo.3.author: resapanlove
 photo.3.link: https://www.instagram.com/resapanlove/
 photo.3.tags: baby, portrait, window
+photo.4: https://www.instagram.com/p/B4hhN2vhx-n/media/?size=m
+photo.4.author: mifko55
+photo.4.link: https://www.instagram.com/mifko55/
+photo.4.tags: baby, mofumofu, portrait
 species: 2
 zoo: 40
