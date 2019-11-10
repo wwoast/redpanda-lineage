@@ -1,0 +1,16 @@
+[panda]
+_id: 1027
+birthday: 2009/12/10
+birthplace: 207
+children: none
+en.name: Jaya
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 973
+species: 1
+zoo: 207
