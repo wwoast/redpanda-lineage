@@ -197,7 +197,7 @@ Language.L.flags = {
         "Canada": "🇨🇦",
          "Chile": "🇨🇱",
          "China": "🇨🇳",
-       "Czechia": "TOWRITE",
+       "Czechia": "🇨🇿",
        "Default": "🐼",
        "Denmark": "🇩🇰",
         "France": "🇫🇷",
