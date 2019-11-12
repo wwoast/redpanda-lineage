@@ -79,7 +79,7 @@ photo.16.author: na.mo.pan
 photo.16.link: https://www.instagram.com/na.mo.pan/
 photo.16.tags: flowers, smile
 photo.17: https://www.instagram.com/p/By84gvyh02o/media/?size=m
-photo.17.author: grsksu_tk
+photo.17.author: grskus_tk
 photo.17.link: https://www.instagram.com/grskus_tk/
 photo.17.tags: tree
 photo.18: https://www.instagram.com/p/Bw1yTO3lNuU/media/?size=m
@@ -118,5 +118,17 @@ photo.26: https://www.instagram.com/p/B4mSMfphqWC/media/?size=m
 photo.26.author: sasapan34
 photo.26.link: https://www.instagram.com/sasapan34/
 photo.26.tags: home, smile, whiskers
+photo.27: https://www.instagram.com/p/B4pf5TKhUqm/media/?size=m
+photo.27.author: grskus_tk
+photo.27.link: https://www.instagram.com/grskus_tk/
+photo.27.tags: door, paws, portrait
+photo.28: https://www.instagram.com/p/B4pMYOxheTR/media/?size=m
+photo.28.author: grskus_tk
+photo.28.link: https://www.instagram.com/grskus_tk/
+photo.28.tags: bamboo, portrait, whiskers
+photo.29: https://www.instagram.com/p/B4pKn6rBt9Q/media/?size=m
+photo.29.author: grskus_tk
+photo.29.link: https://www.instagram.com/grskus_tk/
+photo.29.tags: portrait, tail, tree
 species: 2
 zoo: 73

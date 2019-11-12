@@ -14,7 +14,7 @@ language.order: jp, en
 photo.1: https://www.instagram.com/p/BjheSm-lCkF/media/?size=m
 photo.1.author: redpanda_nippon_takashi
 photo.1.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.1.tags: baby, profile
+photo.1.tags: baby
 photo.2: https://www.instagram.com/p/BjfN3A-FVfh/media/?size=m
 photo.2.author: panda.daisuki
 photo.2.link: https://www.instagram.com/panda.daisuki/
@@ -49,6 +49,6 @@ photo.9.tags: portrait, tail, tongue
 photo.10: https://www.instagram.com/p/B4lyxwlBjFe/media/?size=m
 photo.10.author: lesserpanda_shizuokacity_cp
 photo.10.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.10.tags: portrait
+photo.10.tags: portrait, profile
 species: 2
 zoo: 16
