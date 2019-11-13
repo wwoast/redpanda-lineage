@@ -1,0 +1,18 @@
+[panda]
+_id: 1049
+birthday: 2012/6/19
+birthplace: 59
+children: unknown
+en.name: Yukiko
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ユキコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1048
+location.1: 59, 2012/6/19
+location.2: 72, 2014/3/27
+species: 1
+zoo: 72

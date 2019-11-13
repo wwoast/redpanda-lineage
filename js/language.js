@@ -193,6 +193,7 @@ Language.L.emoji = {
 Language.L.flags = {
      "Argentina": "🇦🇷",
      "Australia": "🇦🇺",
+       "Belgium": "🇧🇪",
         "Bhutan": "🇧🇹",
         "Canada": "🇨🇦",
          "Chile": "🇨🇱",

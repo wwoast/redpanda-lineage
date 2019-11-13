@@ -1,0 +1,14 @@
+[zoo]
+_id: 220
+en.address: Jászberény, Fémnyomó u. 3, 5100 Hungary
+en.location: Jaszberenyi, Hungary
+en.name: Jaszberenyi Zoo
+flag: Hungary
+hu.address: Jászberény, Fémnyomó u. 3, 5100 Hungary
+hu.location: Jászberény, Hungary
+hu.name: Jászberényi Állat- és Növénykert
+language.order: hu, en
+latitude: 47.493309
+longitude: 19.8662863
+map: https://goo.gl/maps/bmY8bmrZ8uFLq83p7
+website: http://www.jaszberenyzoo.hu/
