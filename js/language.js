@@ -29,8 +29,9 @@ Language.L.bias = {
   "jp": []
 }
 
-// Character translation tables per language. Just hiragana/katakana
-Language.L.charset = {
+// Character translation tables per language. Just hiragana/katakana.
+// Define this for all objects, not just for the instance.
+Language.charset = {
   "jp": {
     "hiragana":
       ["あ", "い", "う", "え", "お",
@@ -48,7 +49,9 @@ Language.L.charset = {
        "や",       "ゆ",       "よ",
        "ら", "り", "る", "れ", "ろ",
        "わ", "ゐ",		   "ゑ", "を",
-                   "ん"],
+                   "ん",
+       "ぁ", "ぃ", "ぅ", "ぇ", "ぉ",
+       "ゃ",       "ゅ",      "ょ"],
     "katakana":
       ["ア", "イ", "ウ", "エ", "オ",
        "カ", "キ", "ク", "ケ", "コ",
@@ -62,10 +65,12 @@ Language.L.charset = {
        "バ", "ビ", "ブ", "ベ", "ボ",
        "パ", "ピ", "プ", "ペ", "ポ",
        "マ", "ミ", "ム", "メ", "モ",
-       "ヤ",		   "ユ",		  "ヨ",
+       "ヤ",		   "ユ",      "ヨ",
        "ラ", "リ", "ル", "レ", "ロ",
        "ワ", "ヰ",       "ヱ", "ヲ",
-                   "ン"]
+                   "ン",
+       "ァ", "ィ", "ゥ", "ェ", "ォ",
+       "ャ",       "ュ",      "ョ"]
   }
 }
 
@@ -1843,6 +1848,46 @@ Language.editDistance = function(a, b){
 // For fallback functions, don't replace these fields
 Language.fallback_blacklist = ["othernames", "nicknames"];
 
+Language.hiraganaToKatakana = function(input) {
+  var source_range = Pandas.def.ranges['jp'][1];   // Hiragana range regex
+  var test = source_range.test(input);
+  if (test == false) {
+    return input;
+  } else {
+    var output = "";
+    for (let char of input) {
+      var index = Language.charset["jp"].hiragana.indexOf(char); 
+      if (index > -1) { 
+        var swap = Language.charset["jp"].katakana[index];
+        output += swap;
+      } else {
+        output += char;
+      }
+    }
+  }
+  return output;
+}
+
+Language.katakanaToHiragana = function(input) {
+  var source_range = Pandas.def.ranges['jp'][2];   // Katakana range regex
+  var test = source_range.test(input);
+  if (test == false) {
+    return input;
+  } else {
+    var output = "";
+    for (let char of input) {
+      var index = Language.charset["jp"].katakana.indexOf(char); 
+      if (index > -1) { 
+        var swap = Language.charset["jp"].hiragana[index];
+        output += swap;
+      } else {
+        output += char;
+      }
+    }
+    return output;
+  }
+}
+
 // Given a list of keys we're doing language translations for, add a set
 // for the current displayed language
 Language.listDisplayKeys = function(entity, order, current_language) {
@@ -1900,6 +1945,7 @@ Language.saveInfoKeys = function(info, order) {
   }, {});
   return filtered;
 }
+
 // Take specific english words and unpluralize them if necessary
 Language.unpluralize = function(pieces) {
   var output = [];
