@@ -99,11 +99,9 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
     if (Parse.group.zoo.indexOf(keyword_node.str) != -1) {
-      search_word = Language.capitalNames(search_word);
       hits = Pandas.searchZooName(search_word);
     }
     if (Parse.group.panda.indexOf(keyword_node.str) != -1) {
-      search_word = Language.capitalNames(search_word);
       hits = Pandas.searchPandaName(search_word);
     }
     if (Parse.group.dead.indexOf(keyword_node.str) != -1) {
@@ -126,9 +124,6 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
     tag = Parse.searchTag(keyword_node.str);
-    if (subject_node.type == "subject_name") {
-      search_word = Language.capitalNames(search_word);
-    }
     var animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
   }
@@ -161,7 +156,6 @@ Query.resolver.single = function(set_node, singular_node) {
     }
     // subject_name on its own may be a panda or a zoo
     if (singular_node.type == "subject_name") {
-      search_word = Language.capitalNames(search_word);
       var panda_hits = Pandas.searchPandaName(search_word);
       var zoo_hits = Pandas.searchZooName(search_word);
       hits = (panda_hits.length >= zoo_hits.length)

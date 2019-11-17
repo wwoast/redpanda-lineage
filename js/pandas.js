@@ -849,6 +849,9 @@ Pandas.searchZooId = function(idnum) {
 // Search for a word in the Zoo's name or location, and return
 // any nodes that match one of the strings therein.
 Pandas.searchZooName = function(zoo_name_str) {
+  if (Language.testString(zoo_name_str, "Latin") == true) {
+    zoo_name_str = Language.capitalNames(zoo_name_str);
+  }
   // Get the matches against any of the valid zoo strings we care about
   var languages = Object.values(Pandas.def.languages);
   var fields = ["location", "name"];
