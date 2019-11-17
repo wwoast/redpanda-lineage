@@ -499,9 +499,22 @@ Pandas.searchNonLitterSiblings = function(idnum) {
 
 // Replaced searchOldnames and searchOthernames with a more generic function,
 // that can eventually support hiragana/katakana swapping.
-Pandas.searchPandaNameFields = function(name, name_fields=undefined) {
-  // If the name is English, capitalize every space-separated name. TODO  
-  // If the name is Hiragana or Katakana, search for animals with the other name. TODO
+Pandas.searchPandaNameFields = function(input, name_fields=undefined) {
+  var inputs = [];
+  // If the name is English, capitalize every space-separated name.
+  if (Language.testString(input, "Latin") == true) {
+    input = Language.capitalNames(input);
+  }
+  // If the name is Hiragana or Katakana, search for animals with the other name.
+  if (Language.testString(input, "Hiragana") == true) {
+    inputs.push(Language.hiraganaToKatakana(input));
+  }
+  if (Language.testString(input, "Katakana") == true) {
+    inputs.push(Language.katakanaToHiragana(input));
+  }
+  // Guarantee that we at least have the original input string
+  inputs.unshift(input);
+  // Choose which name fields to search against
   if (name_fields == undefined) {
     // Default searches for one of a Panda's possible names.
     // Add "nicknames" if you want to search for that too.
@@ -521,8 +534,10 @@ Pandas.searchPandaNameFields = function(name, name_fields=undefined) {
     for (let field of collected_fields) {
       if (animal[field] != undefined) {
         name_list = animal[field].split(',').map(x => x.trim());
-        if (name_list.indexOf(name) != -1) {
-          return animal;
+        for (let wanted of inputs) {
+          if (name_list.indexOf(wanted) != -1) {
+            return animal;
+          }
         }
       }
     }

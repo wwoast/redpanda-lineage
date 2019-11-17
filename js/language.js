@@ -1947,6 +1947,14 @@ Language.saveInfoKeys = function(info, order) {
 // return true. Depending on the mode, this may be an "all" match
 // or an "any" match.
 Language.testString = function(input, test_name) {
+  if (test_name == "Hiragana") {
+    var range = Pandas.def.ranges['jp'][1];
+    return range.test(input);   // True if any characters match the hiragana range
+  }
+  if (test_name == "Katakana") {
+    var range = Pandas.def.ranges['jp'][2];
+    return range.test(input);   // True if any characters match the katakana range
+  }
   if ((test_name == "Latin") || (test_name == "English")) {
     var ranges = Pandas.def.ranges['en'];
     var latin = ranges.some(function(range) {
@@ -1954,6 +1962,7 @@ Language.testString = function(input, test_name) {
     });
     return latin;   // True if any characters match the latin range
   }
+  return false;   // The test doesn't exist
 }
 
 // Take specific english words and unpluralize them if necessary
