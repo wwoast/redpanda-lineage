@@ -1766,10 +1766,7 @@ Language.capitalNames = function(input) {
     words.push(input);
   }
   words.forEach(function(word) {
-    var ranges = Pandas.def.ranges['en'];
-    var latin = ranges.some(function(range) {
-      return range.test(word);
-    });
+    latin = Language.testString(input, "Latin");
     if ((latin == true) && (Query.env.preserve_case == false)) {
       word = word.replace(/^\w/, function(chr) {
         return chr.toUpperCase();
@@ -1944,6 +1941,19 @@ Language.saveInfoKeys = function(info, order) {
     return obj;
   }, {});
   return filtered;
+}
+
+// Language test functions. If the string is in the given range,
+// return true. Depending on the mode, this may be an "all" match
+// or an "any" match.
+Language.testString = function(input, test_name) {
+  if ((test_name == "Latin") || (test_name == "English")) {
+    var ranges = Pandas.def.ranges['en'];
+    var latin = ranges.some(function(range) {
+      return range.test(input);
+    });
+    return latin;   // True if any characters match the latin range
+  }
 }
 
 // Take specific english words and unpluralize them if necessary

@@ -500,6 +500,8 @@ Pandas.searchNonLitterSiblings = function(idnum) {
 // Replaced searchOldnames and searchOthernames with a more generic function,
 // that can eventually support hiragana/katakana swapping.
 Pandas.searchPandaNameFields = function(name, name_fields=undefined) {
+  // If the name is English, capitalize every space-separated name. TODO  
+  // If the name is Hiragana or Katakana, search for animals with the other name. TODO
   if (name_fields == undefined) {
     // Default searches for one of a Panda's possible names.
     // Add "nicknames" if you want to search for that too.
