@@ -3,11 +3,11 @@ _id: 962
 birthday: 2019/7/5
 birthplace: 24
 children: none
-en.name: Aka-chan
+en.name: Arata
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: アラタ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -72,5 +72,9 @@ photo.15: https://www.instagram.com/p/B4Pa4Suh3N9/media/?size=m
 photo.15.author: taka__3428
 photo.15.link: https://www.instagram.com/taka__3428/
 photo.15.tags: baby, paws
+photo.16: https://www.instagram.com/p/B4e2_iXB9zb/media/?size=m
+photo.16.author: taka__3428
+photo.16.link: https://www.instagram.com/taka__3428/
+photo.16.tags: apple time, baby, bite, dish, portrait
 species: 2
 zoo: 24

@@ -3,11 +3,11 @@ _id: 963
 birthday: 2019/7/5
 birthplace: 24
 children: none
-en.name: Aka-chan
+en.name: Mirai
 en.nicknames: none
 en.othernames: none
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: ミライ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -76,5 +76,13 @@ photo.16: https://www.instagram.com/p/B4U4oMchzCP/media/?size=m
 photo.16.author: minatomirai215
 photo.16.link: https://www.instagram.com/minatomirai215/
 photo.16.tags: baby, panda bowl, portrait
+photo.17: https://www.instagram.com/p/B4gqHKpheM8/media/?size=m
+photo.17.author: minatomirai215
+photo.17.link: https://www.instagram.com/minatomirai215/
+photo.17.tags: apple time, baby, paws, portrait, window, tongue
+photo.18: https://www.instagram.com/p/B4hi9W6hbr7/media/?size=m
+photo.18.author: taka__3428
+photo.18.link: https://www.instagram.com/taka__3428/
+photo.18.tags: baby
 species: 2
 zoo: 24
