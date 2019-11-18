@@ -12,10 +12,10 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 962
-photo.1: https://www.instagram.com/p/B2OmZL_hugq/media/?size=m
+photo.1: https://www.instagram.com/p/B18jmIIhDF0/media/?size=m
 photo.1.author: taka__3428
 photo.1.link: https://www.instagram.com/taka__3428/
-photo.1.tags: baby, smile, tail
+photo.1.tags: baby, laying down
 photo.2: https://www.instagram.com/p/B2tpFa1hTu1/media/?size=m
 photo.2.author: taka__3428
 photo.2.link: https://www.instagram.com/taka__3428/
@@ -48,45 +48,25 @@ photo.9: https://www.instagram.com/p/B3t30EuhVXB/media/?size=m
 photo.9.author: taka__3428
 photo.9.link: https://www.instagram.com/taka__3428/
 photo.9.tags: baby, toys
-photo.10: https://www.instagram.com/p/B32Hrw5h0Ej/media/?size=m
+photo.10: https://www.instagram.com/p/B34T64NBHIc/media/?size=m
 photo.10.author: taka__3428
 photo.10.link: https://www.instagram.com/taka__3428/
-photo.10.tags: baby
-photo.11: https://www.instagram.com/p/B34Q5e9B-ZV/media/?size=m
+photo.10.tags: baby, toys
+photo.11: https://www.instagram.com/p/B34Si_zhlNM/media/?size=m
 photo.11.author: taka__3428
 photo.11.link: https://www.instagram.com/taka__3428/
-photo.11.tags: baby, laying down, paws, toys
-photo.12: https://www.instagram.com/p/B34T64NBHIc/media/?size=m
+photo.11.tags: baby, pumpkin
+photo.12: https://www.instagram.com/p/B4PdPEZB0Ew/media/?size=m
 photo.12.author: taka__3428
 photo.12.link: https://www.instagram.com/taka__3428/
-photo.12.tags: baby, toys
-photo.13: https://www.instagram.com/p/B34Si_zhlNM/media/?size=m
-photo.13.author: taka__3428
-photo.13.link: https://www.instagram.com/taka__3428/
-photo.13.tags: baby, pumpkin
-photo.14: https://www.instagram.com/p/B4GT7K4BuL4/media/?size=m
-photo.14.author: taka__3428
-photo.14.link: https://www.instagram.com/taka__3428/
-photo.14.tags: baby, laying down, portrait, upside-down, window
-photo.15: https://www.instagram.com/p/B4Jl-MbBc_d/media/?size=m
-photo.15.author: taka__3428
-photo.15.link: https://www.instagram.com/taka__3428/
-photo.15.tags: baby, bite
-photo.16: https://www.instagram.com/p/B4LZoMZhbQ6/media/?size=m
-photo.16.author: taka__3428
-photo.16.link: https://www.instagram.com/taka__3428/
-photo.16.tags: baby, mofumofu, portrait, profile, tail
-photo.17: https://www.instagram.com/p/B4PdPEZB0Ew/media/?size=m
-photo.17.author: taka__3428
-photo.17.link: https://www.instagram.com/taka__3428/
-photo.17.tags: baby, pumpkin
-photo.18: https://www.instagram.com/p/B4U4oMchzCP/media/?size=m
-photo.18.author: minatomirai215
-photo.18.link: https://www.instagram.com/minatomirai215/
-photo.18.tags: baby, panda bowl, portrait
-photo.19: https://www.instagram.com/p/B4YdqbyBM77/media/?size=m
-photo.19.author: minatomirai215
-photo.19.link: https://www.instagram.com/minatomirai215/
-photo.19.tags: baby, panda bowl, portrait, tongue
+photo.12.tags: baby, pumpkin
+photo.13: https://www.instagram.com/p/B4U4oMchzCP/media/?size=m
+photo.13.author: minatomirai215
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: baby, panda bowl, portrait
+photo.14: https://www.instagram.com/p/B4YdqbyBM77/media/?size=m
+photo.14.author: minatomirai215
+photo.14.link: https://www.instagram.com/minatomirai215/
+photo.14.tags: baby, panda bowl, portrait, tongue
 species: 2
 zoo: 24

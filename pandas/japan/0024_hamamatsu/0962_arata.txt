@@ -12,10 +12,10 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 963
-photo.1: https://www.instagram.com/p/B18jmIIhDF0/media/?size=m
+photo.1: https://www.instagram.com/p/B2OmZL_hugq/media/?size=m
 photo.1.author: taka__3428
 photo.1.link: https://www.instagram.com/taka__3428/
-photo.1.tags: baby, laying down
+photo.1.tags: baby, smile, tail
 photo.2: https://www.instagram.com/p/B2jZqdrhuBp/media/?size=m
 photo.2.author: taka__3428
 photo.2.link: https://www.instagram.com/taka__3428/
@@ -56,29 +56,49 @@ photo.11: https://www.instagram.com/p/B4KW19zB-GQ/media/?size=m
 photo.11.author: leonard_redmof
 photo.11.link: https://www.instagram.com/leonard_redmof/
 photo.11.tags: baby, paws, window
-photo.12: https://www.instagram.com/p/B4RQMRABIJG/media/?size=m
+photo.12: https://www.instagram.com/p/B32Hrw5h0Ej/media/?size=m
 photo.12.author: taka__3428
 photo.12.link: https://www.instagram.com/taka__3428/
-photo.12.tags: baby, pumpkin
-photo.13: https://www.instagram.com/p/B4Pa4Suh3N9/media/?size=m
+photo.12.tags: baby
+photo.13: https://www.instagram.com/p/B34Q5e9B-ZV/media/?size=m
 photo.13.author: taka__3428
 photo.13.link: https://www.instagram.com/taka__3428/
-photo.13.tags: baby, paws
-photo.14: https://www.instagram.com/p/B4e2_iXB9zb/media/?size=m
+photo.13.tags: baby, laying down, paws, toys
+photo.14: https://www.instagram.com/p/B4RQMRABIJG/media/?size=m
 photo.14.author: taka__3428
 photo.14.link: https://www.instagram.com/taka__3428/
-photo.14.tags: apple time, baby, bite, dish, portrait
-photo.15: https://www.instagram.com/p/B4gqHKpheM8/media/?size=m
-photo.15.author: minatomirai215
-photo.15.link: https://www.instagram.com/minatomirai215/
-photo.15.tags: apple time, baby, paws, portrait, window, tongue
-photo.16: https://www.instagram.com/p/B4hi9W6hbr7/media/?size=m
+photo.14.tags: baby, pumpkin
+photo.15: https://www.instagram.com/p/B4Pa4Suh3N9/media/?size=m
+photo.15.author: taka__3428
+photo.15.link: https://www.instagram.com/taka__3428/
+photo.15.tags: baby, paws
+photo.16: https://www.instagram.com/p/B4e2_iXB9zb/media/?size=m
 photo.16.author: taka__3428
 photo.16.link: https://www.instagram.com/taka__3428/
-photo.16.tags: baby
-photo.17: https://www.instagram.com/p/B4cXTffBJ8y/media/?size=m
-photo.17.author: taka__3428
-photo.17.link: https://www.instagram.com/taka__3428/
-photo.17.tags: baby, standing
+photo.16.tags: apple time, baby, bite, dish, portrait
+photo.17: https://www.instagram.com/p/B4gqHKpheM8/media/?size=m
+photo.17.author: minatomirai215
+photo.17.link: https://www.instagram.com/minatomirai215/
+photo.17.tags: apple time, baby, paws, portrait, window, tongue
+photo.18: https://www.instagram.com/p/B4hi9W6hbr7/media/?size=m
+photo.18.author: taka__3428
+photo.18.link: https://www.instagram.com/taka__3428/
+photo.18.tags: baby
+photo.19: https://www.instagram.com/p/B4GT7K4BuL4/media/?size=m
+photo.19.author: taka__3428
+photo.19.link: https://www.instagram.com/taka__3428/
+photo.19.tags: baby, laying down, portrait, upside-down, window
+photo.20: https://www.instagram.com/p/B4Jl-MbBc_d/media/?size=m
+photo.20.author: taka__3428
+photo.20.link: https://www.instagram.com/taka__3428/
+photo.20.tags: baby, bite
+photo.21: https://www.instagram.com/p/B4LZoMZhbQ6/media/?size=m
+photo.21.author: taka__3428
+photo.21.link: https://www.instagram.com/taka__3428/
+photo.21.tags: baby, mofumofu, portrait, profile, tail
+photo.22: https://www.instagram.com/p/B4cXTffBJ8y/media/?size=m
+photo.22.author: taka__3428
+photo.22.link: https://www.instagram.com/taka__3428/
+photo.22.tags: baby, standing
 species: 2
 zoo: 24
