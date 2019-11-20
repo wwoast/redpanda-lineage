@@ -1072,6 +1072,7 @@ div.photoSample.fullPage {
     width: 72.5%;
 }
 
+div.photoSample > img,
 div.photoSample > a > img {
     border: 1px solid #002200;
     width: 100%;
