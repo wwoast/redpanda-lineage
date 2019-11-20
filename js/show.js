@@ -651,9 +651,16 @@ Show.button.logo.render = function(class_name="results") {
   return logo;
 }
 Show.button.media = {};
+Show.button.media.action = function() {
+  Page.media.render();
+  // window.location = "#media";   // TOWRITE: get ID from current window location?
+  Show.button.language.hide();   // If language menu open, hide it
+  Page.current = Page.media.render;
+}
 // Work in progress button, doesn't do anything yet
-Show.button.media.render = function(class_name="profile") {class_name
-  var media = Show.button.render("mediaButton", L.emoji.wip, L.gui.media[L.display], class_name);
+Show.button.media.render = function(class_name="profile") {
+  var media = Show.button.render("mediaButton", L.emoji.media, L.gui.media[L.display], class_name);
+  media.addEventListener("click", Show.button.media.action);
   return media;
 }
 Show.button.message = {};
@@ -679,9 +686,15 @@ Show.button.message.render = function(id, button_icon, button_text, class_name="
   return button;  
 }
 Show.button.profile = {};
-Show.button.profile.render = function(class_name="profile") {
-  // Work in progress button, doesn't do anything yet
+Show.button.profile.action = function() {
+  Page.profile.render();
+  // window.location = "#profile";   // TOWRITE: get ID from current window location?
+  Show.button.language.hide();   // If language menu open, hide it
+  Page.current = Page.profile.render;
+}
+Show.button.profile.render = function(class_name="profile") {  
   var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
+  profile.addEventListener("click", Show.button.profile.action);
   // Japanese text is too wide
   var text = profile.childNodes[0].childNodes[1];
   if (L.display == "jp") {
@@ -1665,7 +1678,7 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
 }
 
 /*
-    Show functions used by the profile/media/timelines page for a single animal
+    Show functions used by the profile page for a single animal
 */
 Show.profile = {};
 Show.profile.children = function(animal, language) {
@@ -1852,7 +1865,7 @@ Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'randomButton', '
 Show.profile.menus.language = function() {
   return Show.landing.menus.language("profile");
 }
-Show.profile.menus.top = function() {
+Show.profile.menus.top = function(panda_id) {
   // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
   var new_contents = document.createElement('div');
   new_contents.className = "shrinker";
@@ -2012,6 +2025,24 @@ Show.profile.where = function(animal, language) {
   elements.push(container);
   return elements;
 }
+
+/*
+    Show functions used by the media page for a single animal (group photos).
+    Has to be defined after the profiles page since it refers to that logic
+*/
+Show.media = {};
+Show.media.gallery = function(animal, language) {
+  var gallery = Gallery.groupPhotos([animal["_id"]], 10);
+  var result = document.createElement('div');
+  result.className = "mediaFrame";
+  for (let photo of gallery) {
+    result.appendChild(photo);
+  }
+  return result;
+}
+Show.media.menus = Show.profile.menus;
+Show.media.nameBar = Show.profile.nameBar;
+Show.media.search = Show.profile.search;
 
 /* 
     Show functions used by the search results pages

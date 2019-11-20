@@ -360,7 +360,37 @@ Page.links.sections.menuDefaults = function() {
 }
 
 /*
-    The profiles page display details, media, or timelines for an individual panda
+    The media page displays group photos for an individual panda. It's part of the
+    "profile" group of pages that show information about a specific animal.
+*/
+Page.media = {};
+Page.media.render = function() {
+  // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
+  var input = decodeURIComponent(window.location.hash);
+  // Start by just displaying info for one panda by id search
+  var results = Page.routes.behavior(input);
+  // Generate new content frames
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  var gallery_div = Show.media.gallery(results["hits"][0], L.display);
+  shrinker.appendChild(gallery_div);
+  var new_content = document.createElement('div');
+  new_content.className = "profile";
+  new_content.id = "contentFrame";
+  new_content.appendChild(shrinker);
+  // Append the new content into the page and then swap it in
+  var old_content = document.getElementById('contentFrame');
+  Page.swap(old_content, new_content);
+  Show["media"].menus.language();
+  Show["media"].menus.top();   // TOWRITE: need to take id of panda for buttons
+  Page.footer.redraw("profile");
+  Page.color("profile");
+  // Add a search bar but hide it until the bottomMenu search button is clicked
+  Show.media.search.render();
+}
+
+/*
+    The profiles page display details for an individual panda
 */
 Page.profile = {};
 Page.profile.render = function() {
@@ -390,7 +420,7 @@ Page.profile.render = function() {
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   Show["profile"].menus.language();
-  Show["profile"].menus.top();
+  Show["profile"].menus.top();   // TOWRITE: need to take id of panda for buttons
   Page.footer.redraw("profile");
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -437,6 +467,10 @@ Page.routes.behavior = function(input) {
              (input.split("/").length == 2)) {
     // link for a single panda profile result.
     var panda = input.slice(9);
+    query_string = "panda" + " " + panda;
+  } else if ((input.indexOf("#media/") == 0) &&
+             (input.split("/").length == 2)) {
+    var panda = input.slice(7);
     query_string = "panda" + " " + panda;
   } else if (input.indexOf("#query/") == 0) {
     // process a query.
