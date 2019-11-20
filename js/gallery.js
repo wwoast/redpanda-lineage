@@ -352,6 +352,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         } else {
           seen[url] = true;
         }
+        // TOWRITE: image styles based on url being medium or large
         var img = document.createElement('img');
         img.src = url;
         // Names of the group photos
@@ -373,6 +374,11 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         // Put it all in a frame
         var container = document.createElement('div');
         container.className = "photoSample";
+        if (url.match("?size=l") != null && url.match("instagram.com") != null) {
+          container.classList.add("fullPage");
+        } else {
+          container.classList.add("halfPage");
+        }
         container.appendChild(img);
         container.appendChild(caption_names);
         container.appendChild(caption_credit_link);
