@@ -357,7 +357,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         img.src = url;
         // Names of the group photos
         var caption_names = document.createElement('h5');
-        caption_names.className = "caption";
+        caption_names.className = "caption groupMediaName";
         var caption_names_span = document.createElement('span');
         caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
         caption_names.appendChild(caption_names_span);
@@ -366,7 +366,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         var caption_credit_link = document.createElement('a');
         caption_credit_link.href = "#credit/" + author;   // build from author info
         var caption_credit = document.createElement('h5');
-        caption_credit.className = "caption";
+        caption_credit.className = "caption groupMediaAuthor";
         var caption_credit_span = document.createElement('span');
         caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
         caption_credit.appendChild(caption_credit_span);
