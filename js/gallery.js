@@ -336,7 +336,44 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
   return birthday_div;
 }
 
+// Get media photos (of two or more animals), which include a particular animal.
+// Return a set of divs that includes both images and the titles for each image.
+Gallery.groupPhotos = function(id_list, photo_count=10) {
+  var photo_divs = [];
+  var seen = {};
+  for (let id of id_list) {
+    var entities = Pandas.searchPandaMedia(id, only_media=true);
+    for (let entity of entities) {
+      var photos = Pandas.photoManifest(entity);
+      for (let key in photos) {
+        var url = photos[key];
+        if (seen[url] == true) {
+          continue;   // Skip photos we've already trakced
+        } else {
+          seen[url] = true;
+        }
+        var img = document.createElement('img');
+        img.src = url;
+        var caption = document.createElement('h5');
+        caption.className = "caption";
+        var caption_span = document.createElement('span');
+        caption_span.innerText = Pandas.groupMediaCaption(entity, key);
+        // TODO: condenser
+        caption.appendChild(caption_span);
+        var container = document.createElement('div');
+        container.className = "photoSample";
+        container.appendChild(img);
+        container.appendChild(caption);
+        photo_divs.push(container);        
+      }
+    }
+  }
+  var output = Pandas.shuffle(photo_divs).splice(0, photo_count);
+  return output;
+}
+
 // Get lists of animals who died in the last two weeks.
+// Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
   var memorial_div = document.createElement('div');
   for (let id of id_list) {
