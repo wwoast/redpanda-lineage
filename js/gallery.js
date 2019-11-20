@@ -374,8 +374,14 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         // Put it all in a frame
         var container = document.createElement('div');
         container.className = "photoSample";
-        if (url.match("?size=l") != null && url.match("instagram.com") != null) {
+        if ((url.indexOf("?size=l") != -1) && 
+            (url.indexOf("instagram.com") != -1)) {
           container.classList.add("fullPage");
+        } else if ((url.indexOf("?size=m") != -1) &&
+                   (url.indexOf("instagram.com") != -1)) {
+          container.classList.add("halfPage");
+        } else if (url.indexOf("instagram.com") == -1) {
+          container.classList.add("fullPage");   // self-hosted images
         } else {
           container.classList.add("halfPage");
         }
