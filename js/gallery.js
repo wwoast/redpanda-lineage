@@ -354,16 +354,28 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         }
         var img = document.createElement('img');
         img.src = url;
-        var caption = document.createElement('h5');
-        caption.className = "caption";
-        var caption_span = document.createElement('span');
-        caption_span.innerText = Pandas.groupMediaCaption(entity, key);
-        // TODO: condenser
-        caption.appendChild(caption_span);
+        // Names of the group photos
+        var caption_names = document.createElement('h5');
+        caption_names.className = "caption";
+        var caption_names_span = document.createElement('span');
+        caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
+        caption_names.appendChild(caption_names_span);
+        // Credit for the group photos
+        var author = entity[key + ".author"];
+        var caption_credit_link = document.createElement('a');
+        caption_credit_link.href = "#credit/" + author;   // build from author info
+        var caption_credit = document.createElement('h5');
+        caption_credit.className = "caption";
+        var caption_credit_span = document.createElement('span');
+        caption_credit_span.innerText = author;   // build from author info
+        caption_credit.appendChild(caption_names_span);
+        caption_credit_link.appendChild(caption_credit);
+        // Put it all in a frame
         var container = document.createElement('div');
         container.className = "photoSample";
         container.appendChild(img);
-        container.appendChild(caption);
+        container.appendChild(caption_names);
+        container.appendChild(caption_credit_link);
         photo_divs.push(container);        
       }
     }
