@@ -368,8 +368,8 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         var caption_credit = document.createElement('h5');
         caption_credit.className = "caption";
         var caption_credit_span = document.createElement('span');
-        caption_credit_span.innerText = Language.L.emoji.apple_link + " " + author;
-        caption_credit.appendChild(caption_names_span);
+        caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
+        caption_credit.appendChild(caption_credit_span);
         caption_credit_link.appendChild(caption_credit);
         // Put it all in a frame
         var container = document.createElement('div');
