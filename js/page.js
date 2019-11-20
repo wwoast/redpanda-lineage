@@ -370,14 +370,11 @@ Page.media.render = function() {
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   // Generate new content frames
-  var shrinker = document.createElement('div');
-  shrinker.className = "shrinker";
   var gallery_div = Show.media.gallery(results["hits"][0], L.display);
-  shrinker.appendChild(gallery_div);
   var new_content = document.createElement('div');
   new_content.className = "profile";
   new_content.id = "contentFrame";
-  new_content.appendChild(shrinker);
+  new_content.appendChild(gallery_div);
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
