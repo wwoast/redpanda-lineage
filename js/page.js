@@ -379,7 +379,8 @@ Page.media.render = function() {
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   Show["media"].menus.language();
-  Show["media"].menus.top();   // TOWRITE: need to take id of panda for buttons
+  var result_id = results["hits"][0]["_id"];
+  Show["media"].menus.top(result_id);
   Page.footer.redraw("profile");
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
@@ -417,7 +418,8 @@ Page.profile.render = function() {
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
   Show["profile"].menus.language();
-  Show["profile"].menus.top();   // TOWRITE: need to take id of panda for buttons
+  var result_id = results["hits"][0]["_id"];
+  Show["profile"].menus.top(result_id);   // TOWRITE: need to take id of panda for buttons
   Page.footer.redraw("profile");
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked

@@ -651,16 +651,18 @@ Show.button.logo.render = function(class_name="results") {
   return logo;
 }
 Show.button.media = {};
-Show.button.media.action = function() {
+Show.button.media.action = function(panda_id) {
   Page.media.render();
-  // window.location = "#media";   // TOWRITE: get ID from current window location?
+  window.location = "#media/" + panda_id;
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.media.render;
 }
 // Work in progress button, doesn't do anything yet
-Show.button.media.render = function(class_name="profile") {
+Show.button.media.render = function(class_name="profile", panda_id) {
   var media = Show.button.render("mediaButton", L.emoji.media, L.gui.media[L.display], class_name);
-  media.addEventListener("click", Show.button.media.action);
+  media.addEventListener("click", function() {
+    Show.button.media.action(panda_id);
+  });
   return media;
 }
 Show.button.message = {};
@@ -686,15 +688,17 @@ Show.button.message.render = function(id, button_icon, button_text, class_name="
   return button;  
 }
 Show.button.profile = {};
-Show.button.profile.action = function() {
+Show.button.profile.action = function(panda_id) {
   Page.profile.render();
-  // window.location = "#profile";   // TOWRITE: get ID from current window location?
+  window.location = "#profile/" + panda_id;
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.profile.render;
 }
-Show.button.profile.render = function(class_name="profile") {  
+Show.button.profile.render = function(class_name="profile", panda_id) {  
   var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
-  profile.addEventListener("click", Show.button.profile.action);
+  profile.addEventListener("click", function() {
+    Show.button.profile.action(panda_id)
+  });
   // Japanese text is too wide
   var text = profile.childNodes[0].childNodes[1];
   if (L.display == "jp") {
@@ -1872,7 +1876,7 @@ Show.profile.menus.top = function(panda_id) {
   // Take the list of top-menu buttons and render them
   for (let btn_id of Show.profile.menus.topButtons) {
     var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("profile");
+    var button = Show.button[btn_type].render("profile", panda_id);
     new_contents.appendChild(button);
   }
   // Remove exisitng contents and replace with new.
