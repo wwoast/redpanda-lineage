@@ -353,8 +353,13 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
           seen[url] = true;
         }
         // TOWRITE: image styles based on url being medium or large
+        var img_link = document.createElement('a');
+        img_link.href = url;
+        img_link.href = img_link.href.replace("/media/?size=m", "/");
+        img_link.href = img_link.href.replace("/media/?size=l", "/");
         var img = document.createElement('img');
         img.src = url;
+        img_link.appendChild(img);
         // Names of the group photos
         var caption_names = document.createElement('h5');
         caption_names.className = "caption groupMediaName";
@@ -385,7 +390,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         } else {
           container.classList.add("quarterPage");
         }
-        container.appendChild(img);
+        container.appendChild(img_link);
         container.appendChild(caption_names);
         container.appendChild(caption_credit_link);
         photo_divs.push(container);        
