@@ -715,6 +715,11 @@ Language.L.messages = {
     "en": ["No Pandas Found"],
     "jp": ["パンダが見つかりません"]
   },
+  "no_group_media_result": {
+    "cn": ["找不到合影"],
+    "en": ["No Group Photos Found"],
+    "jp": ["集合写真は見つかりませんでした"]
+  },
   "no_subject_tag_result": {
     "cn": ["没有关联照片"],
     "en": ["No Tagged Photos"],

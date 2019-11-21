@@ -2040,6 +2040,9 @@ Show.media.gallery = function(animal, language) {
   for (let photo of gallery) {
     result.appendChild(photo);
   }
+  if (gallery.length < 1) {
+    result.appendChild(Show.emptyResult(L.messages.no_group_media_result, L.display));
+  }
   return result;
 }
 Show.media.menus = Show.profile.menus;
