@@ -336,7 +336,80 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
   return birthday_div;
 }
 
+// Get media photos (of two or more animals), which include a particular animal.
+// Return a set of divs that includes both images and the titles for each image.
+Gallery.groupPhotos = function(id_list, photo_count=10) {
+  var photo_divs = [];
+  var seen = {};
+  for (let id of id_list) {
+    var entities = Pandas.searchPandaMedia(id, only_media=true);
+    for (let entity of entities) {
+      var photos = Pandas.photoManifest(entity);
+      for (let key in photos) {
+        var url = photos[key];
+        if (seen[url] == true) {
+          continue;   // Skip photos we've already trakced
+        } else {
+          seen[url] = true;
+        }
+        // TOWRITE: image styles based on url being medium or large
+        var img_link = document.createElement('a');
+        img_link.href = url;
+        img_link.href = img_link.href.replace("/media/?size=m", "/");
+        img_link.href = img_link.href.replace("/media/?size=l", "/");
+        var img = document.createElement('img');
+        img.src = url;
+        img_link.appendChild(img);
+        // Names of the group photos
+        var caption_names = document.createElement('h5');
+        caption_names.className = "caption groupMediaName";
+        var caption_names_span = document.createElement('span');
+        caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
+        caption_names.appendChild(caption_names_span);
+        // Credit for the group photos
+        var author = entity[key + ".author"];
+        var caption_credit_link = document.createElement('a');
+        caption_credit_link.href = "#credit/" + author;   // build from author info
+        var caption_credit = document.createElement('h5');
+        caption_credit.className = "caption groupMediaAuthor";
+        var caption_credit_span = document.createElement('span');
+        caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
+        caption_credit.appendChild(caption_credit_span);
+        caption_credit_link.appendChild(caption_credit);
+        // Put it all in a frame
+        var container = document.createElement('div');
+        container.className = "photoSample";
+        if ((url.indexOf("?size=l") != -1) && 
+            (url.indexOf("instagram.com") != -1)) {
+          container.classList.add("halfPage");
+        } else if ((url.indexOf("?size=m") != -1) &&
+                   (url.indexOf("instagram.com") != -1)) {
+          container.classList.add("quarterPage");
+        } else if (url.indexOf("instagram.com") == -1) {
+          container.classList.add("fullPage");   // self-hosted images
+        } else {
+          container.classList.add("quarterPage");
+        }
+        container.appendChild(img_link);
+        container.appendChild(caption_names);
+        container.appendChild(caption_credit_link);
+        photo_divs.push(container);        
+      }
+    }
+  }
+  var output = Pandas.shuffle(photo_divs).splice(0, photo_count);
+  return output;
+}
+
+// Solo photos that can be found in the group gallery. These are chosen on
+// the basis of having the most tags, and are ideally interesting "action shots"
+// of an individual animal.
+Gallery.actionPhotos = function(language, id_list, photo_count=10) {
+  return;   // TOWRITE
+}
+
 // Get lists of animals who died in the last two weeks.
+// Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
   var memorial_div = document.createElement('div');
   for (let id of id_list) {
@@ -527,7 +600,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
       caption.classList.add("newContributor");
     }
     else {
-      author_span.innerText = L.emoji.camera + "\xa0" + item.credit;
+      author_span.innerText = Language.L.emoji.camera + "\xa0" + item.credit;
     }
     author.appendChild(author_span);
     caption_link.appendChild(caption);

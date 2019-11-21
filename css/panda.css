@@ -339,7 +339,7 @@ div#hiddenContentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
-div#contentFrame.mothersDay, div#contentFrame.birthdayPandas {
+div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
     text-align: center;
 }
 
@@ -1069,9 +1069,10 @@ div.photoSample.halfPage {
 }
 
 div.photoSample.fullPage {
-    width: 72.5%;
+    width: 60%;
 }
 
+div.photoSample > img,
 div.photoSample > a > img {
     border: 1px solid #002200;
     width: 100%;
@@ -1086,13 +1087,17 @@ div.photoSample h5 {
     width: 80%;
 }
 
-div.photoSample h5.caption.familyName, div.photoSample h5.caption.updateName {
+div.photoSample h5.caption.familyName,
+div.photoSample h5.caption.groupMediaName, 
+div.photoSample h5.caption.updateName {
     margin-bottom: 0px;
     border-bottom: 0px solid;
     line-height: 2.3ex;
 }
 
-div.photoSample h5.caption.familyTitle, div.photoSample h5.caption.updateAuthor {
+div.photoSample h5.caption.familyTitle, 
+div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.updateAuthor {
     background-color: whitesmoke;
     margin-top: 0px;
     border-top: 0px solid;

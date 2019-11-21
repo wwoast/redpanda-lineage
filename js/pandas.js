@@ -583,8 +583,9 @@ Pandas.searchPandaId = function(idnum) {
 }
 
 // Find instances of a panda's ID in both the animal vertices
-// and in the media (group) photos.
-Pandas.searchPandaMedia = function(query) {
+// and in the media (group) photos. Optionally, only return
+// group information for animals.
+Pandas.searchPandaMedia = function(query, only_media=false) {
   var animals = Pandas.searchPanda(query);
   // Get an array of graph result arrays, and flatten them
   var media = [].concat.apply([], 
@@ -602,9 +603,12 @@ Pandas.searchPandaMedia = function(query) {
       return nodes;
     })
   );
-  return animals.concat(media);
+  if (only_media == true) {
+    return media;
+  } else {
+    return animals.concat(media);
+  }
 }
-
 
 // Find a panda's mother
 Pandas.searchPandaMom = function(idnum) {
@@ -1180,7 +1184,6 @@ Pandas.language_order = function(entity) {
 // Returns a list of locations valid for a zoo animal.
 Pandas.locationList = function(animal) {
   var locations = [];
-  // Find the available photo indexes between one and ten
   var location_fields = Pandas.locationManifest(animal);
   // Return not just the chosen photo but the author and link as well
   for (let location_field in location_fields) {
@@ -1221,7 +1224,6 @@ Pandas.locationList = function(animal) {
 
 // Return a list of location fields an animal has for historical zoo info
 Pandas.locationManifest = function(animal) {
-  // Find the available photo indexes between one and ten
   var locations = {};
   var location_fields = Pandas.locationGeneratorEntity;
   // Gets panda locations
@@ -1344,7 +1346,6 @@ Pandas.othernames = function(animal, language) {
 
 // Find all available photos for a specific animal
 Pandas.photoManifest = function(entity, mode="animal") {
-  // Find the available photo indexes between one and ten
   var photos = {};
   var photo_fields = Pandas.photoGeneratorEntity;
   // Gets panda or zoo photos
@@ -1369,7 +1370,7 @@ Pandas.profilePhoto = function(animal, index, mode="animal") {
   var photos = Pandas.photoManifest(animal, mode);
   // If photo.(index) not in the photos dict, choose one of the available keys
   // at random from the set of remaining valid images.
-  var choice = "photo." + index.toString(); 
+  var choice = "photo." + index.toString();
   if (photos[choice] == undefined) {
     var space = Object.keys(photos).length;
     var index = Math.floor(Math.random() * space);
