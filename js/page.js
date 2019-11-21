@@ -500,6 +500,8 @@ Page.routes.check = function() {
   var mode = window.location.hash.split('/')[0];
   if (Page.routes.profile.includes(mode)) {
     Page.current = Page.profile.render;
+  } else if (Page.routes.media.includes(mode)) {
+      Page.current = Page.media.render;  
   } else if (window.location.hash == "#about") {
     Page.current = Page.about.render;
   } else if (window.location.hash == "#links") {
@@ -740,10 +742,14 @@ Page.redraw = function(callback) {
   if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.profile.render)) {
     callback();
   }
+  if ((window.location.hash.length > 0) && (P.db != undefined) && (callback == Page.media.render)) {
+    callback();
+  }
   // For non-panda-results page, don't worry if the database is there or not
   if ((window.location.hash.length > 0) && 
       (callback != Page.results.render) && 
       (callback != Page.profile.render) &&
+      (callback != Page.media.render) &&
       (callback != Page.links.render)) {
     callback();
   }
