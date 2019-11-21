@@ -378,6 +378,7 @@ Page.media.render = function() {
   // Append the new content into the page and then swap it in
   var old_content = document.getElementById('contentFrame');
   Page.swap(old_content, new_content);
+  Layout.shrinkNames();
   Show["media"].menus.language();
   var result_id = results["hits"][0]["_id"];
   Show["media"].menus.top(result_id);

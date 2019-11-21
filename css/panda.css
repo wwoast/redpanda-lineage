@@ -766,12 +766,14 @@ ul.pandaList > li > a > span.ultraCondensed.adjusted {
 }
 
 h5.birthdayMessage > span.condensed,
+h5.groupMediaAuthor > span.condensed,
 h5.memorialMessage > span.condensed,
 h5.updateAuthor > span.condensed {
     letter-spacing: -1px;
 }
 
 h5.birthdayMessage > span.ultraCondensed,
+h5.groupMediaAuthor > span.ultraCondensed,
 h5.memorialMessage > span.ultraCondensed,
 h5.updateAuthor > span.ultraCondensed {
     letter-spacing: -2px;
@@ -1096,7 +1098,7 @@ div.photoSample h5.caption.updateName {
 }
 
 div.photoSample h5.caption.familyTitle, 
-div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.groupMediaAuthor, 
 div.photoSample h5.caption.updateAuthor {
     background-color: whitesmoke;
     margin-top: 0px;
@@ -1104,7 +1106,10 @@ div.photoSample h5.caption.updateAuthor {
     line-height: 2.3ex;
 }
 
-div.photoSample h5.caption.updateName, div.photoSample h5.caption.updateAuthor {
+div.photoSample h5.caption.groupMediaAuthor,
+div.photoSample h5.caption.groupMediaName,
+div.photoSample h5.caption.updateName, 
+div.photoSample h5.caption.updateAuthor {
     width: 100%;
     overflow-x: hidden;
 }
