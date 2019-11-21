@@ -339,7 +339,7 @@ div#hiddenContentFrame {
     background: linear-gradient(to right, #A8E480, #366938, #A8E480); /* Granny Smith Apples! */
 }
 
-div#contentFrame.mothersDay, div#contentFrame.birthdayPandas {
+div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
     text-align: center;
 }
 
