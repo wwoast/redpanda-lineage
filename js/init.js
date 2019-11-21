@@ -55,8 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // Determine what page content to display
     if (Page.routes.memberOf(Page.routes.profile, window.location.hash)) {
       Page.profile.render();
+    } else if (Page.routes.memberOf(Page.routes.media, window.location.hash)) {
+      Page.media.render();
     } else if (window.location.hash == "#links") {
-        Page.links.render();
+      Page.links.render();
     } else if ((window.location.hash.length > 0) && 
         (Page.routes.memberOf(Page.routes.fixed, window.location.hash)) == false) {
       Page.results.render();

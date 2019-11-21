@@ -524,11 +524,13 @@ Page.routes.fixed = [
   "#about",    // The about page
   "#home"     // The empty query page
 ];
+Page.routes.media = [
+  "#media"
+];
 Page.routes.no_footer = [
   "#home"
 ];
 Page.routes.profile = [
-  "#media",
   "#profile",
   "#timeline"
 ];
