@@ -100,6 +100,9 @@ window.addEventListener('hashchange', function() {
   } else if (Page.routes.profile.includes(mode)) {
     Page.profile.render();
     Page.current = Page.profile.render;
+  } else if (Page.routes.media.includes(mode)) {
+    Page.media.render();
+    Page.current = Page.media.render;
   }
   window.localStorage.setItem("last_seen", window.location.hash);
 });
