@@ -1069,7 +1069,7 @@ div.photoSample.halfPage {
 }
 
 div.photoSample.fullPage {
-    width: 72.5%;
+    width: 60%;
 }
 
 div.photoSample > img,

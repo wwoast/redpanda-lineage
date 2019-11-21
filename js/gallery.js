@@ -376,14 +376,14 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
         container.className = "photoSample";
         if ((url.indexOf("?size=l") != -1) && 
             (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("fullPage");
+          container.classList.add("halfPage");
         } else if ((url.indexOf("?size=m") != -1) &&
                    (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("halfPage");
+          container.classList.add("quarterPage");
         } else if (url.indexOf("instagram.com") == -1) {
           container.classList.add("fullPage");   // self-hosted images
         } else {
-          container.classList.add("halfPage");
+          container.classList.add("quarterPage");
         }
         container.appendChild(img);
         container.appendChild(caption_names);
