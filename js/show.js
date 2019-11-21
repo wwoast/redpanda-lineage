@@ -2033,6 +2033,8 @@ Show.profile.where = function(animal, language) {
 Show.media = {};
 Show.media.gallery = function(animal, language) {
   var gallery = Gallery.groupPhotos([animal["_id"]], 10);
+  var info = Show.acquirePandaInfo(animal, language);
+  Show.profile.nameBar(info);
   var result = document.createElement('div');
   result.className = "mediaFrame";
   for (let photo of gallery) {
