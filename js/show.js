@@ -694,11 +694,23 @@ Show.button.profile.action = function(panda_id) {
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.profile.render;
 }
+Show.button.profile.altAction = function(e) {
+  e.preventDefault();       // Prevent normal right-click menu from firing
+  Page.current = Page.profile.render;
+  var pandaIds = P.db.vertices.filter(entity => entity._id > 0)
+                              .filter(entity => entity["photo.1"] != undefined)
+                              .filter(entity => entity.death == undefined)
+                              .map(entity => entity._id);
+  window.location = "#profile/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  Show.button.language.hide();   // If language menu open, hide it
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
 Show.button.profile.render = function(class_name="profile", panda_id) {  
   var profile = Show.button.render("profileButton", L.emoji.profile, L.gui.profile[L.display], class_name);
   profile.addEventListener("click", function() {
-    Show.button.profile.action(panda_id)
+    Show.button.profile.action(panda_id);
   });
+  profile.addEventListener("contextmenu", Show.button.profile.altAction);
   // Japanese text is too wide
   var text = profile.childNodes[0].childNodes[1];
   if (L.display == "jp") {
