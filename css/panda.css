@@ -1486,12 +1486,13 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         width: 45%;
     }
 
-    div.photoSample.halfPage {
-        width: 45%;
-    }
-
+    /* Make the half-page items full-size on mobile */
+    div.photoSample.halfPage,
     div.photoSample.fullPage {
-        width: 95%;
+        width: 100%;
+        padding: 0 0 0 0;
+        border-left: 0px;
+        border-right: 0px;
     }
 
     div.photoSample h5.caption.shortMessage {
@@ -1504,5 +1505,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     
     div.photoSample h5.caption.authorCredit {
         width: 100%;
-    }    
+    }
+
+    div.photoSample.halfPage h5.caption,
+    div.photoSample.fullPage h5.caption {
+        width: 95%;
+    }
 }
