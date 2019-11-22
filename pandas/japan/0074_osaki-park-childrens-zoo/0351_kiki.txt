@@ -3,6 +3,7 @@ _id: 351
 birthday: 1997/6/18
 birthplace: 10
 children: none
+death: 2019/11/20
 en.name: Kiki
 en.nicknames: none
 gender: m
@@ -65,5 +66,9 @@ photo.13: https://www.instagram.com/p/B2G9euVBdG6/media/?size=m
 photo.13.author: ifumoto88
 photo.13.link: https://www.instagram.com/ifumoto88/
 photo.13.tags: old, paws, portrait
+photo.14: https://www.instagram.com/p/B5JKnWIBo0o/media/?size=m
+photo.14.author: kaoru_a358
+photo.14.link: https://www.instagram.com/kaoru_a358/
+photo.14.tags: bamboo, old, portrait
 species: 2
 zoo: 74

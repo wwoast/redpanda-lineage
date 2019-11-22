@@ -14,5 +14,25 @@ language.order: jp, en
 litter: 1049
 location.1: 59, 2012/6/19
 location.2: 219, 2014/6/11
+photo.1: https://www.instagram.com/p/Babax8ogtQu/media/?size=m
+photo.1.author: pairidaizaofficial
+photo.1.link: https://www.instagram.com/pairidaizaofficial/
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/BipFEDRAMSu/media/?size=m
+photo.2.author: pairidaizaofficial
+photo.2.link: https://www.instagram.com/pairidaizaofficial/
+photo.2.tags: flowers, portrait, tail
+photo.3: https://www.instagram.com/p/BnWNORWHRL8/media/?size=m
+photo.3.author: pairidaizaofficial
+photo.3.link: https://www.instagram.com/pairidaizaofficial/
+photo.3.tags: smile, tree
+photo.4: https://www.instagram.com/p/BsTOWwpHdqX/media/?size=m
+photo.4.author: pairidaizaofficial
+photo.4.link: https://www.instagram.com/pairidaizaofficial/
+photo.4.tags: portrait, profile, whiskers
+photo.5: https://www.instagram.com/p/BtFrIsxHl26/media/?size=m
+photo.5.author: pairidaizaofficial
+photo.5.link: https://www.instagram.com/pairidaizaofficial/
+photo.5.tags: portrait, snow
 species: 1
 zoo: 219
