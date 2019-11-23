@@ -145,6 +145,9 @@ Page.about.sections.show = function(section_id) {
 Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
+  if (container.childNodes.length > 0) {
+    return;
+  }
   var tagList = document.createElement('ul');
   tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
