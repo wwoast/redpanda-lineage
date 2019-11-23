@@ -1260,7 +1260,7 @@ Language.L.tags = {
   "jizo": {
        "cn": ["地藏菩萨"],
     "emoji": [Language.L.emoji.jizo],
-       "en": ["jizo", "jizo statue"],
+       "en": ["jizo", "jizo statue", "statue"],
        "jp": ["お地蔵さん"]
   },
   "keeper": {
@@ -1303,7 +1303,7 @@ Language.L.tags = {
   "mofumofu": {
         "cn": ["软软"],
      "emoji": [Language.L.emoji.teddybear],
-        "en": ["mofumofu"],
+        "en": ["mofumofu", "fluffy", "punchy"],
         "jp": ["モフモフ"]
   },
   "muzzle": {
@@ -1497,7 +1497,7 @@ Language.L.tags = {
   "techitechi": {
         "cn": ["目标"],
      "emoji": [Language.L.emoji.target],
-        "en": ["techitechi"],
+        "en": ["techitechi", "spot", "cute spot"],
         "jp": ["テチテチ"]
   },
   "tongue": {
