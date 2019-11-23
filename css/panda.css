@@ -1494,8 +1494,10 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         padding-right: 0px;
     }
 
-    div.photoSample > img,
-    div.photoSample > a > img {
+    div.photoSample.halfPage > img,
+    div.photoSample.halfPage > a > img,
+    div.photoSample.fullPage > img,
+    div.photoSample.fullPage > a > img {
         border-left: 0px;
         border-right: 0px;
     }
