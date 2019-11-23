@@ -633,7 +633,7 @@ Page.results.photos = function(results) {
       var ctag = Language.tagPrimary(tag);
       var header = Show.message.tag_subject(hit_count, results["subject"],
                                             Language.L.tags[ctag]["emoji"], 
-                                            tag, L.display, overflow);
+                                            ctag, L.display, overflow);
       content_divs.unshift(header);
     }
   }
