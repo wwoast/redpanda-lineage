@@ -1655,7 +1655,7 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
   }
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
-  var near_tag = L.tags[tag][language][0];
+  var near_tag = Language.L.tags[tag][language][0];
   var p = document.createElement('p');
   for (var i in L.messages.tag_subject[language]) {
     var field = L.messages.tag_subject[language][i];

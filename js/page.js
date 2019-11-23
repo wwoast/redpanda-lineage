@@ -145,6 +145,9 @@ Page.about.sections.show = function(section_id) {
 Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
+  if (container.childNodes[0].hasChildNodes == true) {
+    return;
+  }
   var tagList = document.createElement('ul');
   tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
@@ -630,9 +633,10 @@ Page.results.photos = function(results) {
     }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
+      var ctag = Language.tagPrimary(tag);
       var header = Show.message.tag_subject(hit_count, results["subject"],
-                                            Language.L.tags[tag]["emoji"], 
-                                            tag, L.display, overflow);
+                                            Language.L.tags[ctag]["emoji"], 
+                                            ctag, L.display, overflow);
       content_divs.unshift(header);
     }
   }
