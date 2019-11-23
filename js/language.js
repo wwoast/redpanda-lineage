@@ -1948,6 +1948,19 @@ Language.saveInfoKeys = function(info, order) {
   return filtered;
 }
 
+// Find the canonical tag given something being parsed as a tag.
+// i.e. for "climbing", return "climb".
+Language.tagPrimary = function(input) {
+  var lang_values = Object.values(Pandas.def.languages).concat("emoji");
+  for (let ctag in Language.L.tags) {
+    for (let lang of lang_values) {
+      if (input.indexOf(Language.L.tags[ctag][lang] != -1)) {
+        return ctag;
+      }
+    }
+  }
+}
+
 // Language test functions. If the string is in the given range,
 // return true. Depending on the mode, this may be an "all" match
 // or an "any" match.

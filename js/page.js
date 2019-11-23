@@ -630,8 +630,9 @@ Page.results.photos = function(results) {
     }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
+      var ctag = Language.tagPrimary(tag);
       var header = Show.message.tag_subject(hit_count, results["subject"],
-                                            Language.L.tags[tag]["emoji"], 
+                                            Language.L.tags[ctag]["emoji"], 
                                             tag, L.display, overflow);
       content_divs.unshift(header);
     }
