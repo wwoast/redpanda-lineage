@@ -11,6 +11,7 @@ jp.name: カマラ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+litter: 997
 photo.1: https://www.instagram.com/p/B03ZNy9FQn_/media/?size=m
 photo.1.author: colchester_zoo
 photo.1.link: https://www.instagram.com/colchester_zoo/
@@ -23,6 +24,5 @@ photo.3: https://www.instagram.com/p/B38iaLQh_BA/media/?size=m
 photo.3.author: wumpwoast
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: baby, bamboo, portrait
-litter: 997
 species: 1
 zoo: 137
