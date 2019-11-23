@@ -657,12 +657,25 @@ Show.button.media.action = function(panda_id) {
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.media.render;
 }
+Show.button.media.altAction = function(e) {
+  e.preventDefault();       // Prevent normal right-click menu from firing
+  Page.current = Page.media.render;
+  var pandaIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+                              .filter(entity => entity["photo.1"] != undefined)
+                              .map(entity => entity["panda.tags"])
+                              .map(tag_ids => tag_ids.split(", "));
+  pandaIds = Pandas.unique(Parse.tree.flatten(pandaIds));
+  window.location = "#media/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  Show.button.language.hide();   // If language menu open, hide it
+  window.scrollTo(0, 0);   // Go to the top of the page
+}
 // Work in progress button, doesn't do anything yet
 Show.button.media.render = function(class_name="profile", panda_id) {
   var media = Show.button.render("mediaButton", L.emoji.media, L.gui.media[L.display], class_name);
   media.addEventListener("click", function() {
     Show.button.media.action(panda_id);
   });
+  media.addEventListener("contextmenu", Show.button.media.altAction);
   return media;
 }
 Show.button.message = {};
