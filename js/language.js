@@ -1954,7 +1954,7 @@ Language.tagPrimary = function(input) {
   var lang_values = Object.values(Pandas.def.languages).concat("emoji");
   for (let ctag in Language.L.tags) {
     for (let lang of lang_values) {
-      if (input.indexOf(Language.L.tags[ctag][lang] != -1)) {
+      if (Language.L.tags[ctag][lang].indexOf(input) != -1) {
         return ctag;
       }
     }
