@@ -1,7 +1,7 @@
 [panda]
 _id: 1054
 birthday: 2005/6/24
-birthplace: 220
+birthplace: 222
 children: unknown
 en.name: Gwen
 en.nicknames: none
@@ -12,8 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1055
-location.1: 220, 2005/6/24
-location.2: 221, 2006/5/12
+location.1: 222, 2005/6/24
+location.2: 223, 2006/5/12
 location.3: 219, 2016/1/22
 photo.1: https://www.instagram.com/p/BobT8agng7T/media/?size=m
 photo.1.author: pairidaizaofficial
