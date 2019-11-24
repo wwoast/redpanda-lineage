@@ -1,6 +1,6 @@
 [panda]
 _id: 1057
-birthday: unknown
+birthday: 2015/6/26
 birthplace: unknown
 children: 1058
 en.name: Mojo
@@ -12,5 +12,21 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: unknown
+photo.1: https://www.instagram.com/p/BwLC407nNys/media/?size=m
+photo.1.author: nathalie.elliot
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: air tasting, portrait, profile, tongue
+photo.2: https://www.instagram.com/p/BzKrgSuITIb/media/?size=m
+photo.2.author: nathalie.elliot
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: bridge, portrait, tail
+photo.3: https://www.instagram.com/p/B0eLPnwIuo-/media/?size=m
+photo.3.author: nathalie.elliot
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: bridge, portrait, wet
+photo.4: https://www.instagram.com/p/B0iGrYsnZNM/media/?size=m
+photo.4.author: nathalie.elliot
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: bamboo, portrait, wet
 species: 1
 zoo: 219
