@@ -4,7 +4,11 @@ en.address: Domaine de Cambron, 7940 Brugelette, Belgium
 en.location: Cambron, Brugelette, Belgium
 en.name: Pairi Daiza
 flag: Belgium
-language.order: en
+fr.address: Domaine de Cambron, 7940 Brugelette, Belgium
+fr.location: Cambron, Brugelette, Belgium
+fr.name: Jardin Des Mondes
+fr.othernames: Parc Paradisio SA
+language.order: fr, en
 latitude: 50.585112
 longitude: 3.8820805
 map: https://g.page/JardinDesMondes?share

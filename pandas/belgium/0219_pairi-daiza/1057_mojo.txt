@@ -1,0 +1,16 @@
+[panda]
+_id: 1057
+birthday: unknown
+birthplace: unknown
+children: 1058
+en.name: Mojo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モジョ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+species: 1
+zoo: 219
