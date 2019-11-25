@@ -621,6 +621,21 @@ Show.button.language.action = function() {
     language_menu.style.display = "none";
   }
 }
+Show.button.language.altAction = function(e) {
+  e.preventDefault();
+  var language = L.display;
+  var options = Object.values(Pandas.def.languages);
+  var count = options.length;
+  var choice = (options.indexOf(language) + 1) % count;
+  L.display = options[choice];
+  L.update();
+  // Redraw the nearby page if necessary
+  if (Query.env.output_mode == "nearby") {
+    F.getNaiveLocation();
+  }
+  Page.redraw(Page.current);
+  Show.button.language.hide();   // If language menu open, hide it
+}
 Show.button.language.hide = function() {
   var language_menu = document.getElementsByClassName("languageMenu")[0];
   language_menu.style.display = "none";
@@ -628,6 +643,7 @@ Show.button.language.hide = function() {
 Show.button.language.render = function(class_name="results") {
   var language = Show.button.render("languageButton", L.gui.flag[L.display], L.gui.language[L.display][L.display], class_name);
   language.addEventListener("click", Show.button.language.action);
+  language.addEventListener("contextmenu", Show.button.language.altAction);
   return language;
 }
 Show.button.links = {};
