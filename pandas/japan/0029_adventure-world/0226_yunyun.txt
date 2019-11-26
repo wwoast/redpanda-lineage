@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: ユンユン, ウンウン
 language.order: jp, en
 litter: 225
+location.1: 37, 2016/6/28
+location.2: 29, 2019/10/28
 photo.1: https://www.instagram.com/p/BoTYFczFKC9/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
@@ -144,4 +146,4 @@ photo.33.author: tama67photo
 photo.33.link: https://www.instagram.com/tama67photo/
 photo.33.tags: paws, portrait, tongue, window
 species: 2
-zoo: 37
+zoo: 29
