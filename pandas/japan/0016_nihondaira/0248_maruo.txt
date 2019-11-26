@@ -17,29 +17,31 @@ litter: 249
 photo.1: https://www.instagram.com/p/Bqa4Go3Fo2U/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
-photo.1.tags: profile
+photo.1.tags: baby
 photo.2: https://www.instagram.com/p/BqeAsZZlfW_/media/?size=m
 photo.2.author: ayusuke56
 photo.2.link: https://www.instagram.com/ayusuke56/
-photo.2.tags: bamboo
+photo.2.tags: baby, bamboo
 photo.3: https://www.instagram.com/p/BtANZoWlD_k/media/?size=m
 photo.3.author: ayusuke56
 photo.3.link: https://www.instagram.com/ayusuke56/
-photo.3.tags: bamboo
+photo.3.tags: baby, bamboo
 photo.4: https://www.instagram.com/p/Bs-qd0_l8Bt/media/?size=m
 photo.4.author: masumilky
 photo.4.link: https://www.instagram.com/masumilky/
-photo.4.tags: bamboo, standing
+photo.4.tags: baby, bamboo, standing
 photo.5: https://www.instagram.com/p/Bs-q_V7l03b/media/?size=m
 photo.5.author: masumilky
 photo.5.link: https://www.instagram.com/masumilky/
+photo.5.tags: baby
 photo.6: https://www.instagram.com/p/BtGLZZKFXUt/media/?size=m
 photo.6.author: masumilky
 photo.6.link: https://www.instagram.com/masumilky/
-photo.6.tags: apple time, keeper, standing
+photo.6.tags: apple time, baby, keeper, standing
 photo.7: https://www.instagram.com/p/BsjndANldoB/media/?size=m
 photo.7.author: ayusuke56
 photo.7.link: https://www.instagram.com/ayusuke56/
+photo.7.tags: baby
 photo.8: https://www.instagram.com/p/Bo6nw7TF8T6/media/?size=m
 photo.8.author: ifumoto88
 photo.8.link: https://www.instagram.com/ifumoto88/
@@ -51,7 +53,7 @@ photo.9.tags: baby, climb
 photo.10: https://www.instagram.com/p/Btx7OnTlI2Q/media/?size=m
 photo.10.author: craig_craig_craig
 photo.10.link: https://www.instagram.com/craig_craig_craig/
-photo.10.tags: apple time, standing, tongue
+photo.10.tags: apple time, baby, standing, tongue
 photo.11: https://www.instagram.com/p/Bw6aX1jlwbF/media/?size=m
 photo.11.author: ayusuke56
 photo.11.link: https://www.instagram.com/ayusuke56/
@@ -122,5 +124,9 @@ photo.28: https://www.instagram.com/p/B4tAuZ4hHFq/media/?size=m
 photo.28.author: pantasanzoo1
 photo.28.link: https://www.instagram.com/pantasanzoo1/
 photo.28.tags: paws, tree
+photo.29: https://www.instagram.com/p/B5FhLH4Bx44/media/?size=m
+photo.29.author: kipekaila
+photo.29.link: https://www.instagram.com/kipekaila/
+photo.29.tags: portrait, profile, whiskers
 species: 2
 zoo: 16
