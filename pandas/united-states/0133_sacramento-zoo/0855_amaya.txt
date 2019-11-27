@@ -14,5 +14,12 @@ language.order: en, jp
 litter: 854
 location.1: 154, 2016/6/27
 location.2: 133, 2017/10/26
+photo.1: https://www.instagram.com/p/B5PHHvOgAZw/media/?size=m
+photo.1.author: ohmygoat1
+photo.1.link: https://www.instagram.com/ohmygoat1/
+photo.2: https://www.instagram.com/p/B42vzpggDJn/media/?size=m
+photo.2.author: ohmygoat1
+photo.2.link: https://www.instagram.com/ohmygoat1/
+photo.2.tags: portrait, profile
 species: 1
 zoo: 133

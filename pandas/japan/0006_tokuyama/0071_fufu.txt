@@ -17,7 +17,6 @@ location.2: 6, 2016/2/24
 photo.1: https://www.instagram.com/p/BhfVcLilAjr/media/?size=m
 photo.1.author: kotata_513
 photo.1.link: https://www.instagram.com/kotata_513/
-photo.1.tags: profile
 photo.2: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
 photo.2.author: kotata_513
 photo.2.link: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
@@ -38,7 +37,7 @@ photo.6.link: https://www.instagram.com/perie1027vivi/
 photo.7: https://www.instagram.com/p/Bq3JGh3lrzt/media/?size=m
 photo.7.author: monmon_redpanda
 photo.7.link: https://www.instagram.com/monmon_redpanda/
-photo.7.tags: smile
+photo.7.tags: portrait, profile, smile
 photo.8: https://www.instagram.com/p/Bx8JAV9hxlR/media/?size=m
 photo.8.author: kipekaila
 photo.8.link: https://www.instagram.com/kipekaila/

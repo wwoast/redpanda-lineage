@@ -8,7 +8,14 @@ language.order: en
 latitude: 49.8683326
 longitude: -97.3106535
 map: https://goo.gl/maps/yA6s5Fk3SZx
-photo.1: https://www.instagram.com/p/BoIJswQg-e6/media/?size=m
-photo.1.author: steffshieldswriter
-photo.1.link: https://www.instagram.com/steffshieldswriter/
+photo.1: https://www.instagram.com/p/B0JK30Rjk-d/media/?size=m
+photo.1.author: assiniboineparkzoo
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2: https://www.instagram.com/p/B0gnd6YjaaK/media/?size=m
+photo.2.author: assiniboineparkzoo
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3: https://www.instagram.com/p/B3xHDiTDO17/media/?size=m
+photo.3.author: assiniboineparkzoo
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: profile
 website: http://www.assiniboineparkzoo.ca/
