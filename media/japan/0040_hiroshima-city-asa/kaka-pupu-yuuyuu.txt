@@ -4,7 +4,14 @@ panda.tags: 224, 994, 995
 photo.1: https://www.instagram.com/p/B4kLgY4BLYt/media/?size=l
 photo.1.author: nakacchi_desu
 photo.1.link: https://www.instagram.com/nakacchi_desu/
-photo.1.tags: counter-clockwise, family, siblings, train, twins
+photo.1.tags: baby, counter-clockwise, family, siblings, train, twins
 photo.1.tags.224.location: 780, 475
 photo.1.tags.994.location: 700, 160
 photo.1.tags.995.location: 415, 240
+photo.2: https://www.instagram.com/p/B5ZfRXpBT0t/media/?size=m
+photo.2.author: re_ichimaru
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: baby, family, playing, siblings, twins
+photo.2.tags.224.location: 205, 110
+photo.2.tags.994.location: 225, 175
+photo.2.tags.995.location: 85, 135

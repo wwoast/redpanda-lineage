@@ -1,0 +1,24 @@
+[panda]
+_id: 1060
+birthday: 2019/7/6
+birthplace: 124
+children: none
+en.name: Keti
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケティ
+jp.nicknames: none
+jp.othernames: 
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/B5EnGaQBN-o/media/?size=m
+photo.1.author: detroitzoo
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: baby, laying down, portrait
+photo.2: https://www.instagram.com/p/B4z1Sr1A5lC/media/?size=m
+photo.2.author: detroitzoo
+photo.2.link: https://www.instagram.com/detroitzoo/
+photo.2.tags: baby, laying down
+species: 1
+zoo: 124
