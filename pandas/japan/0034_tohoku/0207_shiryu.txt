@@ -15,10 +15,10 @@ litter: 172
 photo.1: https://www.instagram.com/p/BhgHoC9F-Dr/media/?size=m
 photo.1.author: wonderfulzooken
 photo.1.link: https://www.instagram.com/wonderfulzooken/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BgLndurFd79/media/?size=m
 photo.2.author: daniele.tokyo
 photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: profile
 photo.3: https://www.instagram.com/p/BjgRsBQltSY/media/?size=m
 photo.3.author: wonderfulzooken
 photo.3.link: https://www.instagram.com/wonderfulzooken/
@@ -29,15 +29,15 @@ photo.4.link: https://www.instagram.com/tufopix/
 photo.5: https://www.instagram.com/p/BobWtn2lMXT/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.link: https://www.instagram.com/daniele.tokyo/
-photo.5.tags: grooming
+photo.5.tags: grooming, portrait, profile, tail
 photo.6: https://www.instagram.com/p/Bqffahala6E/media/?size=m
 photo.6.author: wumpwoast
 photo.6.link: https://www.instagram.com/wumpwoast/
-photo.6.tags: paws, standing
+photo.6.tags: paws, portrait, standing
 photo.7: https://www.instagram.com/p/ByqvtTGg3S8/media/?size=m
 photo.7.author: miis_98
 photo.7.link: https://www.instagram.com/miis_98/
-photo.7.tags: smile
+photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/BzW1nYqB2SN/media/?size=m
 photo.8.author: zoowfreedom299
 photo.8.link: https://www.instagram.com/zoowfreedom299/
