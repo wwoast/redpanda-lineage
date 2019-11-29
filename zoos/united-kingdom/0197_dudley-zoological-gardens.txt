@@ -7,5 +7,9 @@ flag: UK
 language.order: en
 latitude: 52.5136579
 longitude: -2.0809638
+photo.1: https://www.instagram.com/p/B47pamUAcue/media/?size=m
+photo.1.author: dudley.zoo
+photo.1.link: https://www.instagram.com/dudley.zoo/
+photo.1.tags: profile
 map: https://goo.gl/maps/9zbBT4pE4bifKV4p6
 website: https://www.dudleyzoo.org.uk/
