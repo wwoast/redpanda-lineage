@@ -11,6 +11,8 @@ jp.name: イスキ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 76, 2015/6/22
+location.2: 109, 2017/11/9
 litter: 427, 429
 species: 2
-zoo: 76
+zoo: 109
