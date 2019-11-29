@@ -18,7 +18,7 @@ location.3: 76, 2014/7/15
 photo.1: https://www.instagram.com/p/BY_RNhhnNOI/media/?size=m
 photo.1.author: assiniboineparkzoo
 photo.1.link: https://www.instagram.com/assiniboineparkzoo/
-photo.1.tags: laying down, profile, tree
+photo.1.tags: laying down, tree
 photo.2: https://www.instagram.com/p/BVuJ_3PlDE3/media/?size=m
 photo.2.author: rdpnzoo
 photo.2.link: https://www.instagram.com/rdpnzoo/
@@ -27,5 +27,13 @@ photo.3: https://www.instagram.com/p/BnmKSEhHTsC/media/?size=m
 photo.3.author: ryanmcgibbon
 photo.3.link: https://www.instagram.com/ryanmcgibbon/
 photo.3.tags: lunch time
+photo.4: https://www.instagram.com/p/B2kQp9zjhUG/media/?size=m
+photo.4.author: assiniboineparkzoo
+photo.4.link: https://www.instagram.com/assiniboineparkzoo/
+photo.4.tags: air tasting, tongue, whiskers
+photo.5: https://www.instagram.com/p/B2rXj6XDMLy/media/?size=m
+photo.5.author: assiniboineparkzoo
+photo.5.link: https://www.instagram.com/assiniboineparkzoo/
+photo.5.tags: paws, profile, whiskers
 species: 2
 zoo: 76
