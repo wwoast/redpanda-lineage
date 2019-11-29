@@ -567,7 +567,7 @@ Language.L.messages = {
            "族谱数据归属于",
            "<INSERTLINK_RPF>",
            "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©️2019 Justin Fairchild"],
+           "布局与设计©2019 Justin Fairchild"],
     "en": ["If you love red pandas, please support ",
            "<INSERTLINK_RPN>",
            " as well as your local zoos. Lineage data courtesy of the ",
