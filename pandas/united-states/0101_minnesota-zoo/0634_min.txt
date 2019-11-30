@@ -1,20 +1,24 @@
 [panda]
-_id: 468
-birthday: unknown
-birthplace: unknown
+_id: 634
+birthday: 2011/6/25
+birthplace: 146
 children: unknown
 en.name: Min
 en.nicknames: none
+en.oldnames: Cha-Cha, Chacha
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: ミン
 jp.nicknames: none
+jp.oldnames: チャチャ
 jp.othernames: none
 language.order: en, jp
-litter: unknown
+litter: 635, 636
+location.1: 146, 2011/6/25
+location.2: 101, 2012/4/24
 photo.1: https://www.instagram.com/p/B5bZSJXhjOi/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down, portrait, profile, whiskers
-species: 2
+species: 1
 zoo: 101

@@ -1,0 +1,18 @@
+[panda]
+_id: 468
+birthday: unknown
+birthplace: 166
+children: none
+en.name: Marvin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マーヴィン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 166, unknown
+location.2: 108, 2019/8/23
+species: 1
+zoo: 108
