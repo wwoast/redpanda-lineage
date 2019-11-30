@@ -11,4 +11,14 @@ language.order: dk, en
 latitude: 56.2706695
 longitude: 10.6830025
 map: https://goo.gl/maps/4z1kJsgauGs
+photo.1: https://www.instagram.com/p/Bt26iIDBkkI/media/?size=m
+photo.1.author: reeparksafari
+photo.1.link: https://www.instagram.com/reeparksafari/
+photo.2: https://www.instagram.com/p/B1L4n8dHEg4/media/?size=m
+photo.2.author: reeparksafari
+photo.2.link: https://www.instagram.com/reeparksafari/
+photo.2.tags: profile
+photo.3: https://www.instagram.com/p/BfQZGEOgnfr/media/?size=m
+photo.3.author: reeparksafari
+photo.3.link: https://www.instagram.com/reeparksafari/
 website: https://www.reepark.dk/

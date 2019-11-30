@@ -17,7 +17,7 @@ location.2: 108, 2014/1/24
 photo.1: https://www.instagram.com/p/BuTrVTPH6-p/media/?size=m
 photo.1.author: zooknoxville
 photo.1.link: https://www.instagram.com/zooknoxville/
-photo.1.tags: laying down, profile, tail
+photo.1.tags: laying down, tail
 photo.2: https://www.instagram.com/p/BzViUvBlarb/media/?size=m
 photo.2.author: lincolnchildrenszoo
 photo.2.link: https://www.instagram.com/lincolnchildrenszoo/
@@ -30,5 +30,17 @@ photo.4: https://www.instagram.com/p/B40JjCrBlsh/media/?size=m
 photo.4.author: worldthathesees
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: portrait, tail, tongue
+photo.5: https://www.instagram.com/p/B5dZTEYhjP_/media/?size=m
+photo.5.author: worldthatehesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, profile, whiskers
+photo.6: https://www.instagram.com/p/B5dZXmHB9aK/media/?size=m
+photo.6.author: worldthatehesees
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: air tasting, laying down, tail, tongue
+photo.7: https://www.instagram.com/p/B5dZdPEh-YT/media/?size=m
+photo.7.author: worldthatehesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: paws, peek, tail
 species: 1
 zoo: 108
