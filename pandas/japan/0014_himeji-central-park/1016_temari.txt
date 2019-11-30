@@ -48,14 +48,14 @@ photo.9: https://www.instagram.com/p/B4pao-ChGXl/media/?size=m
 photo.9.author: motohin
 photo.9.link: https://www.instagram.com/motohin/
 photo.9.tags: baby, portrait, white face
-photo.10: https://www.instagram.com/p/B4sRrXmBpAq/media/?size=m
-photo.10.author: nakacchi_desu
-photo.10.link: https://www.instagram.com/nakacchi_desu/
-photo.10.tags: baby, paws
-photo.11: https://www.instagram.com/p/B4rc0YWBsOc/media/?size=m
-photo.11.author: chankunvv
-photo.11.link: https://www.instagram.com/chankunvv/
-photo.11.tags: baby, door, portrait, white face
+photo.10: https://www.instagram.com/p/B4rc0YWBsOc/media/?size=m
+photo.10.author: chankunvv
+photo.10.link: https://www.instagram.com/chankunvv/
+photo.10.tags: baby, door, portrait, white face
+photo.11: https://www.instagram.com/p/B4sRrXmBpAq/media/?size=m
+photo.11.author: nakacchi_desu
+photo.11.link: https://www.instagram.com/nakacchi_desu/
+photo.11.tags: baby, paws
 photo.12: https://www.instagram.com/p/B4uEfH-Bfqs/media/?size=m
 photo.12.author: colette.jp
 photo.12.link: https://www.instagram.com/colette.jp/
@@ -64,33 +64,68 @@ photo.13: https://www.instagram.com/p/B4tiykvhk5X/media/?size=m
 photo.13.author: love__mitarashi
 photo.13.link: https://www.instagram.com/love__mitarashi/
 photo.13.tags: baby, tree, tail
-photo.14: https://www.instagram.com/p/B4vjrtrB8tY/media/?size=m
-photo.14.author: tomo3700
-photo.14.link: https://www.instagram.com/tomo3700/
-photo.14.tags: baby, home, portrait, upside-down
-photo.15: https://www.instagram.com/p/B4zjCOehHhR/media/?size=m
-photo.15.author: i.satosato
-photo.15.link: https://www.instagram.com/i.satosato/
-photo.15.tags: laying down, portrait, white face
-photo.16: https://www.instagram.com/p/B40kST-B8W9/media/?size=m
-photo.16.author: redpanda_nippon_takashi
-photo.16.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.16.tags: baby, home, laying down
-photo.17: https://www.instagram.com/p/B44teukBMhi/media/?size=m
-photo.17.author: motohin
-photo.17.link: https://www.instagram.com/motohin/
-photo.17.tags: mofumofu, portrait
-photo.18: https://www.instagram.com/p/B5Ta8Uxh9Lc/media/?size=m
-photo.18.author: panda.daisuki
-photo.18.link: https://www.instagram.com/panda.daisuki/
-photo.18.tags: baby, mofumofu, portrait, standing, tail
-photo.19: https://www.instagram.com/p/B5KhZLeh4oO/media/?size=m
-photo.19.author: daniele.tokyo
-photo.19.link: https://www.instagram.com/daniele.tokyo/
-photo.19.tags: baby, laying down, portrait
-photo.20: https://www.instagram.com/p/B5OefJSBRAz/media/?size=m
-photo.20.author: monmon_redpanda
-photo.20.link: https://www.instagram.com/monmon_redpanda/
-photo.20.tags: baby, portrait, smile
+photo.14: https://www.instagram.com/p/B4ufd6SBo1N/media/?size=m
+photo.14.author: redpanda_nippon_takashi
+photo.14.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.14.tags: baby, bamboo, home, paws, standing, tail
+photo.15: https://www.instagram.com/p/B4vjrtrB8tY/media/?size=m
+photo.15.author: tomo3700
+photo.15.link: https://www.instagram.com/tomo3700/
+photo.15.tags: baby, home, portrait, upside-down
+photo.16: https://www.instagram.com/p/B4zjCOehHhR/media/?size=m
+photo.16.author: i.satosato
+photo.16.link: https://www.instagram.com/i.satosato/
+photo.16.tags: laying down, portrait, white face
+photo.17: https://www.instagram.com/p/B40kST-B8W9/media/?size=m
+photo.17.author: redpanda_nippon_takashi
+photo.17.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.17.tags: baby, home, laying down
+photo.18: https://www.instagram.com/p/B439xSShnv5/media/?size=m
+photo.18.author: love__mitarashi
+photo.18.link: https://www.instagram.com/love__mitarashi/
+photo.18.tags: baby, paws, standing, tree
+photo.19: https://www.instagram.com/p/B44m3ciBfH-/media/?size=m
+photo.19.author: colette.jp
+photo.19.link: https://www.instagram.com/colette.jp/
+photo.19.tags: mofumofu, portrait, standing, tail
+photo.20: https://www.instagram.com/p/B44teukBMhi/media/?size=m
+photo.20.author: motohin
+photo.20.link: https://www.instagram.com/motohin/
+photo.20.tags: mofumofu, portrait
+photo.21: https://www.instagram.com/p/B46oncAhLXu/media/?size=m
+photo.21.author: panda.daisuki
+photo.21.link: https://www.instagram.com/panda.daisuki/
+photo.21.tags: laying down, mofumofu, paws, portrait, tail
+photo.22: https://www.instagram.com/p/B4_hjUVBPrF/media/?size=m
+photo.22.author: panda.daisuki
+photo.22.link: https://www.instagram.com/panda.daisuki/
+photo.22.tags: portrait, tongue, white face
+photo.23: https://www.instagram.com/p/B5AGg_IhRrG/media/?size=m
+photo.23.author: colette.jp
+photo.23.link: https://www.instagram.com/colette.jp/
+photo.23.tags: home, laying down, portrait, tree
+photo.24: https://www.instagram.com/p/B5BmdtAhhnG/media/?size=m
+photo.24.author: rie_panda55
+photo.24.link: https://www.instagram.com/rie_panda55/
+photo.24.tags: paws, standing, tail
+photo.25: https://www.instagram.com/p/B5ICjpYBrov/media/?size=m
+photo.25.author: love__mitarashi
+photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.26: https://www.instagram.com/p/B5IGx_uB14n/media/?size=m
+photo.26.author: i.satosato
+photo.26.link: https://www.instagram.com/i.satosato/
+photo.26.tags: mofumofu, paws, portrait, tail
+photo.27: https://www.instagram.com/p/B5KhZLeh4oO/media/?size=m
+photo.27.author: daniele.tokyo
+photo.27.link: https://www.instagram.com/daniele.tokyo/
+photo.27.tags: baby, laying down, portrait
+photo.28: https://www.instagram.com/p/B5OefJSBRAz/media/?size=m
+photo.28.author: monmon_redpanda
+photo.28.link: https://www.instagram.com/monmon_redpanda/
+photo.28.tags: baby, portrait, smile
+photo.29: https://www.instagram.com/p/B5Ta8Uxh9Lc/media/?size=m
+photo.29.author: panda.daisuki
+photo.29.link: https://www.instagram.com/panda.daisuki/
+photo.29.tags: baby, mofumofu, portrait, standing, tail
 species: 2
 zoo: 14
