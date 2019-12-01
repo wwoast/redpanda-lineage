@@ -360,7 +360,11 @@ Pandas.randomChoice = function(array, count) {
   }
   for (let i = count; i > 0; i--) {
     var random = Math.floor(Math.random() * array.length);
-    seen[random] = array[random];
+    if (random in seen) {
+      i = i + 1;   // We chose this one already
+    } else {
+      seen[random] = array[random];
+    }
   }
   return Object.values(seen);
 }
