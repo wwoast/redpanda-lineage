@@ -350,13 +350,29 @@ Pandas.photoGeneratorMax = function*() {
   }
 }
 
+// Get random items from the array, trying our best not to 
+// select the same item more than once.
+Pandas.randomChoice = function(array, count) {
+  var seen = {};
+  // If you want just all the array items, return a shuffle instead
+  if (count >= array.length) {
+    return Pandas.shuffle(array);
+  }
+  var spread = array.length + 1;
+  for (let i = count; i > 0; i--) {
+    var random = Math.floor(Math.random() * spread);
+    seen[random] = array[random];
+  }
+  return Object.values(seen);
+}
+
 // Shuffle an array
 Pandas.shuffle = function(array) {
-  for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = array[i];
-      array[i] = array[j];
-      array[j] = temp;
+  for (let i = array.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
   }
   return array;
 }
