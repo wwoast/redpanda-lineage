@@ -1119,6 +1119,7 @@ Pandas.gender = function(animal, language) {
 // pixel location in a photo, generate a string describing which
 // pandas are in the photo
 Pandas.groupMediaCaption = function(entity, photo_index) {
+  console.log(entity["_id"]);
   var tag_index = photo_index + ".tags";
   var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
   var output_string = Pandas.def.animal[L.display + ".name"];
