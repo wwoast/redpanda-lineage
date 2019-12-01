@@ -305,7 +305,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
     var message = Show.message.birthday(info.name, info.id, years_old, language);
     birthday_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
-    for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
+    for (let photo of Pandas.randomChoice(photos, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
@@ -397,7 +397,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
       }
     }
   }
-  var output = Pandas.shuffle(photo_divs).splice(0, photo_count);
+  var output = Pandas.randomChoice(photo_divs, photo_count);
   return output;
 }
 
@@ -418,7 +418,7 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
     var message = Show.message.memorial(info.name, info.id, info.birthday, info.death, language);
     memorial_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
-    for (let photo of Pandas.shuffle(photos).splice(0, photo_count)) {
+    for (let photo of Pandas.randomChoice(photos, photo_count)) {
       var img_link = document.createElement('a');
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
@@ -628,14 +628,14 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
         .filter(panda => "photo.1" in panda);
       return pandas.length > 0;
     });
-  var zoo_chosen = Pandas.shuffle(zoo_photos).slice().splice(0, photo_count);
+  var zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
   var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
   var author_chosen = author_photos.slice();
   author_chosen = author_chosen.filter(photo => photo.type != "zoo");
-  author_chosen = Pandas.shuffle(author_chosen).splice(0, photo_count);
+  author_chosen = Pandas.randomChoice(author_chosen, photo_count);
   if (author_chosen.length > 10) {
     // If too many new people contributing photos, reduce down to one per contributor
     author_chosen = Pandas.unique(author_chosen, "credit");
@@ -646,7 +646,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => author_locators.indexOf(locator) == -1);
   var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
-  var new_panda_chosen = Pandas.shuffle(new_panda_photos).slice().splice(0, photo_count);
+  var new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count);
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language + ".name");
   // New pandas, or new panda group photos
   var panda_locators = P.db["_updates"].entities
@@ -727,7 +727,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   update_photos = update_photos.filter(photo => 
     author_photos.concat(panda_photos).map(others => others["id"])
     .indexOf(photo["id"]) == -1);
-  var update_chosen = Pandas.shuffle(update_photos).slice().splice(0, photo_count);
+  var update_chosen = Pandas.randomChoice(update_photos, photo_count);
   update_chosen = Pandas.sortPhotosByName(update_chosen, language + ".name");
   for (let update_photo of update_chosen) {
     if (photo_count == 0) {

@@ -629,7 +629,7 @@ Page.results.photos = function(results) {
     if (hit_count > max_hits) {
       // Too many hits. Randomize what we have and save the top fifty
       overflow = max_hits;
-      content_divs = Pandas.shuffle(content_divs).splice(0, max_hits);
+      content_divs = Pandas.randomChoice(content_divs, max_hits);
     }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
@@ -657,7 +657,7 @@ Page.results.photos = function(results) {
     if (hit_count > max_hits) {
       // Too many hits. Randomize what we have and save the top fifty
       overflow = max_hits;
-      content_divs = Pandas.shuffle(content_divs).splice(0, max_hits);
+      content_divs = Pandas.randomChoice(content_divs, max_hits);
     }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
