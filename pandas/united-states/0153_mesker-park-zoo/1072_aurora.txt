@@ -1,0 +1,20 @@
+[panda]
+_id: 1072
+birthday: 2019/6/8
+birthplace: 153
+children: none
+en.name: Aurora
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: オーロラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1073
+photo.1: https://www.instagram.com/p/B5cwhuGBzJy/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: baby, door, home, portrait, profile, white face
+species: 1
+zoo: 153

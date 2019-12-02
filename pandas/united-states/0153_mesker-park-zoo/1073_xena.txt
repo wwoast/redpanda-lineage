@@ -1,0 +1,20 @@
+[panda]
+_id: 1073
+birthday: 2019/6/8
+birthplace: 153
+children: none
+en.name: Xena
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゼナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1072
+photo.1: https://www.instagram.com/p/B5cwyDJBaT7/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: baby, door, home, portrait, profile
+species: 1
+zoo: 153
