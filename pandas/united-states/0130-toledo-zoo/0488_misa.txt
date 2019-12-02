@@ -11,6 +11,12 @@ jp.name: ミサ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 90, 2017/6/16
+location.2: 130, 2018/9/19
+photo.1: https://www.instagram.com/p/B2rDAeXF_Uv/media/?size=m
+photo.1.author: thetoledozoo
+photo.1.link: https://www.instagram.com/thetoledozoo/
+photo.1.tags: smile
 litter: 489
 species: 2
-zoo: 90
+zoo: 130
