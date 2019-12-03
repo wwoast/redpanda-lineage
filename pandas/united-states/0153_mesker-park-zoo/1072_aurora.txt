@@ -12,9 +12,13 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1073
-photo.1: https://www.instagram.com/p/B5cwhuGBzJy/media/?size=m
-photo.1.author: worldthathesees
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: baby, door, home, portrait, profile, white face
+photo.1: https://www.instagram.com/p/B0zKMxLB3-p/media/?size=m
+photo.1.author: meskerzoo
+photo.1.link: https://www.instagram.com/meskerzoo/
+photo.1.tags: baby, panda bowl, scale
+photo.2: https://www.instagram.com/p/B5cwhuGBzJy/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, door, home, portrait, profile, white face
 species: 1
 zoo: 153
