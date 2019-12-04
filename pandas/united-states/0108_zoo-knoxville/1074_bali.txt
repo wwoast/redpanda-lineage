@@ -1,18 +1,18 @@
 [panda]
-_id: 468
-birthday: 2019/6/29
-birthplace: 166
+_id: 1074
+birthday: 2019/6/20
+birthplace: 107
 children: none
-en.name: Marvin
+en.name: Bali
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: マーヴィン
+jp.name: バリ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: none
-location.1: 166, 2019/6/29
-location.2: 108, 2019/8/23
+litter: 1075
+location.1: 107, 2019/6/20
+location.2: 108, 2019/8/21
 species: 1
 zoo: 108
