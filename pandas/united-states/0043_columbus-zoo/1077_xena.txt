@@ -1,0 +1,24 @@
+[panda]
+_id: 1077
+birthday: 1997/6/23
+birthplace: 65
+children: none
+death: 2013/3/4
+en.name: Xena
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゼナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1078
+location.1: 65, 1997/6/23
+location.2: 84, 1998/2/26
+location.3: 43, 2003/9/25
+photo.1: https://www.instagram.com/p/B2uJZuXBLUi/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, whiskers
+species: 2
+zoo: 43
