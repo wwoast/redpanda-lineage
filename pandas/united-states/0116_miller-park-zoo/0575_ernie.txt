@@ -17,18 +17,22 @@ location.2: 116, 2010/4/15
 photo.1: https://www.instagram.com/p/Bul-2HchYoz/media/?size=m
 photo.1.author: millerparkzoo
 photo.1.link: https://www.instagram.com/millerparkzoo/
-photo.1.tags: profile
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BZGpsarBmIV/media/?size=m
 photo.2.author: millerparkzoo
 photo.2.link: https://www.instagram.com/millerparkzoo/
-photo.2.tags: laying down
+photo.2.tags: laying down, portrait, profile
 photo.3: https://www.instagram.com/p/BPxd9fajiKV/media/?size=m
 photo.3.author: millerparkzoo
 photo.3.link: https://www.instagram.com/millerparkzoo/
-photo.3.tags: tail
+photo.3.tags: portrait, tail
 photo.4: https://www.instagram.com/p/BPdksKnDkWc/media/?size=m
 photo.4.author: millerparkzoo
 photo.4.link: https://www.instagram.com/millerparkzoo/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait
+photo.5: https://www.instagram.com/p/BqH9L7oBg7V/media/?size=m
+photo.5.author: millerparkzoo
+photo.5.link: https://www.instagram.com/millerparkzoo/
+photo.5.tags: dish, lunch time, portrait, smile, snow
 species: 1
 zoo: 116
