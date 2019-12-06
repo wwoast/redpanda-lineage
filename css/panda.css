@@ -586,7 +586,6 @@ div.family {
     display: flex;
     flex-direction: row;
     min-width: 300px;
-    background-color: #EDC1D7; /* Pink Lady Apples */
     flex-wrap: wrap;
     overflow: hidden;
 }
