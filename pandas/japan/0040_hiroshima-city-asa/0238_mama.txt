@@ -5,7 +5,7 @@ birthplace: 26
 children: none
 en.name: Ma-Ma
 en.nicknames: none
-en.othernames: none
+en.othernames: Maa-Maa, Mahmah, Mah-Mah
 gender: f
 jp.name: 麻麻
 jp.nicknames: none
@@ -42,5 +42,9 @@ photo.7: https://www.instagram.com/p/B443sd2hfPm/media/?size=m
 photo.7.author: leonard_redmof
 photo.7.link: https://www.instagram.com/leonard_redmof/
 photo.7.tags: grooming, paws, portrait
+photo.8: https://www.instagram.com/p/B5pr4qoBi6j/media/?size=m
+photo.8.author: craig_craig_craig
+photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: bamboo, portrait, smile
 species: 2
 zoo: 40

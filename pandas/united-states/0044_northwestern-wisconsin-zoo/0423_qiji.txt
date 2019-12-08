@@ -15,5 +15,9 @@ litter: none
 location.1: 96, 2011/8/1
 location.2: 90, 2012/5/31
 location.3: 44, 2015/11/19
+photo.1: https://www.instagram.com/p/B2eYcRlHVEF/media/?size=m
+photo.1.author: newzoogb
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: paws, portrait, profile, upside-down
 species: 2
 zoo: 44
