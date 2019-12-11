@@ -14,21 +14,25 @@ language.order: en, jp
 litter: 1074
 location.1: 107, 2019/6/20
 location.2: 108, 2019/8/21
-photo.1: https://www.instagram.com/p/B5ke9zchSzm/media/?size=m
+photo.1: https://www.instagram.com/p/B3x459ahabu/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: baby, hammock, peek, white face
-photo.2: https://www.instagram.com/p/B5kgLAsBpb8/media/?size=m
+photo.1.tags: baby, keeper, paws, portrait
+photo.2: https://www.instagram.com/p/B5ke9zchSzm/media/?size=m
 photo.2.author: worldthathesees
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: baby, toys, white face
-photo.3: https://www.instagram.com/p/B5mFcl3hgAC/media/?size=m
+photo.2.tags: baby, hammock, peek, white face
+photo.3: https://www.instagram.com/p/B5kgLAsBpb8/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: peek
-photo.4: https://www.instagram.com/p/B5mFfY6hfM2/media/?size=m
+photo.3.tags: baby, toys, white face
+photo.4: https://www.instagram.com/p/B5mFcl3hgAC/media/?size=m
 photo.4.author: worldthathesees
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: peek
+photo.5: https://www.instagram.com/p/B5mFfY6hfM2/media/?size=m
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: peek
 species: 1
 zoo: 108
