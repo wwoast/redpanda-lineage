@@ -613,24 +613,25 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
+  var max_tag_hits = 25;
   if ((results["parsed"] == "set_tag") || 
       (results["parsed"] == "set_tag_subject")) {
-    for (let photo of results["hits"]) {
-      if (photo["photo.index"] != "0") {   // Null photo result
+    var page_results = results["hits"].slice();   // Working copy of photo set
+    var hit_count = page_results.length;
+    var overflow = 0;
+    if (hit_count > max_tag_hits) {
+      // Too many hits. Randomize what we have and save the top N
+      overflow = max_tag_hits;
+      page_results = Pandas.randomChoice(page_results, max_tag_hits);
+    }
+    for (let photo of page_results) {
+      if (photo["photo.index"] != "0") {   // Not a null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, true));
       } else {
-        results["hits"].pop(results["hits"].indexOf(photo));
+        page_results.pop(page_results.indexOf(photo));
       }
     }
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    var hit_count = content_divs.length;
-    var overflow = 0;
-    var max_hits = 25;
-    if (hit_count > max_hits) {
-      // Too many hits. Randomize what we have and save the top fifty
-      overflow = max_hits;
-      content_divs = Pandas.randomChoice(content_divs, max_hits);
-    }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
       var ctag = Language.tagPrimary(tag);
@@ -642,23 +643,23 @@ Page.results.photos = function(results) {
   }
   // Tag intersection search needs slightly different structure/messages
   else if (results["parsed"] == "set_tag_intersection") {
-    for (let photo of results["hits"]) {
-      if (photo["photo.index"] != "0") {   // Null photo result
+    var page_results = results["hits"].slice();   // Working copy of photo set
+    var hit_count = page_results.length;
+    var overflow = 0;
+    if (hit_count > max_tag_hits) {
+      // Too many hits. Randomize what we have and save the top N
+      overflow = max_tag_hits;
+      page_results = Pandas.randomChoice(page_results, max_tag_hits);
+    }
+    for (let photo of page_results) {
+      if (photo["photo.index"] != "0") {   // Not a null photo result
         content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, false));
       } else {
-        results["hits"].pop(results["hits"].indexOf(photo));
+        page_results.pop(page_results.indexOf(photo));
       }
     }
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    var hit_count = content_divs.length;
-    var overflow = 0;
-    var max_hits = 25;
-    if (hit_count > max_hits) {
-      // Too many hits. Randomize what we have and save the top fifty
-      overflow = max_hits;
-      content_divs = Pandas.randomChoice(content_divs, max_hits);
-    }
     // Write some HTML with summary information for the user and the number of photos
     if (hit_count != 0) {
       var header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
