@@ -588,12 +588,14 @@ Language.L.messages = {
   "and": {
     "cn": "和",
     "en": " & ",
-    "jp": "と"
+    "jp": "と",
+    "np": "र"
   },
   "and_words": {
     "cn": "和",
     "en": " and ",
-    "jp": "と"
+    "jp": "と",
+    "np": "र"
   },
   "credit": {
     "cn": [Language.L.emoji.gift + " ",
@@ -610,17 +612,24 @@ Language.L.messages = {
            "<INSERTUSER>",
            "は",
            "<INSERTNUMBER>",
-           "枚の写真を寄稿しました。"]
+           "枚の写真を寄稿しました。"],
+    "np": [Language.L.emoji.gift + " ",
+           "<INSERTUSER>",
+           "ले ",
+           "<INSERTNUMBER>",
+           "फोटो योगदान गरेको छ"]
   },
   "comma": {
     "cn": "及",
     "en": ", ",
-    "jp": "と"
+    "jp": "と",
+    "np": ", "
   },
   "find_a_nearby_zoo": {
     "cn": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],
     "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
-    "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"]
+    "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"],
+    "np": [Language.L.emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"]
   },
   "footer": {
     "cn": ["如果你喜爱小熊猫，请支持小熊猫网络（",
@@ -641,7 +650,13 @@ Language.L.messages = {
            "もサポートしてください。系統データは",
            "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2019 Justin Fairchild"]
+           "設計©2019 Justin Fairchild"],
+    "np": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
+           "<INSERTLINK_RPN>",
+           "साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्।",
+           "<INSERTLINK_RPF>",
+           "प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
+           "लेआउट र डिजाइन प्रतिलिपि अधिकार २०१९ Justin Fairchild द्वारा।"]
   },
   "goodbye": {
     "cn": ["后会有期, ",
@@ -670,7 +685,16 @@ Language.L.messages = {
            "<INSERTBIRTH>",
            " — ",
            "<INSERTDEATH>",
-           "）"]
+           "）"],
+    "np": ["विदाई, ",
+           "<INSERTNAME>",
+           "। ",
+           Language.L.emoji.died,
+           " (",
+           "<INSERTBIRTH>",
+           " — ",
+           "<INSERTDEATH>",
+           ")"]
   },
   "happy_birthday": {
     "cn": [Language.L.emoji.birthday,
@@ -689,17 +713,26 @@ Language.L.messages = {
            "<INSERTNAME>",
            "、誕生日おめでとう！（",
            "<INSERTNUMBER>",
-           "歳）"]
+           "歳）"],
+    "np": [Language.L.emoji.birthday,
+           " ",
+           "जन्मदिनको शुभकामना, ",
+           "<INSERTNAME>",
+           "! (",
+           "<INSERTNUMBER>",
+           ")"]
   },
   "landing_mothersday": {
     "cn": ["母亲节快乐"],
     "en": ["Happy Mother's Day!"],
-    "jp": ["母の日おめでとう"]
+    "jp": ["母の日おめでとう"],
+    "np": ["खुसी आमाको दिन!"]
   },
   "list_comma": {
     "cn": "、",
     "en": ", ",
-    "jp": "、"
+    "jp": "、",
+    "np": ", "
   },
   "nearby_zoos": {
     "cn": [Language.L.emoji.website,
@@ -719,7 +752,13 @@ Language.L.messages = {
            Language.L.emoji.home,
            " 近くの動物園を見上げます。",
            "ジオロケーションが失敗した場合は、",
-           "都市を検索してみてください。"]
+           "都市を検索してみてください。"],
+    "np": [Language.L.emoji.website, 
+           " ",
+           Language.L.emoji.home,
+           " नजिकका चिडियाखानाहरू भेट्टाउँदै।",
+           " यदि भौगोलिक स्थान असफल भयो भने,",
+           " आफ्नो शहरको लागि खोजी प्रयास गर्नुहोस्।"]
   },
   "new_photos": {
     "contributors": {
@@ -732,7 +771,10 @@ Language.L.messages = {
              " new contributors"],
       "jp": [Language.L.emoji.giftwrap,
              "<INSERTCOUNT>",
-             "人の新しい貢献者"]
+             "人の新しい貢献者"],
+      "np": [Language.L.emoji.giftwrap,
+             "<INSERTCOUNT>",
+             " योगदानकर्ताहरू नयाँ"]
     },
     "pandas": {
       "cn": [Language.L.emoji.profile,
@@ -744,7 +786,10 @@ Language.L.messages = {
              " new red pandas"],
       "jp": [Language.L.emoji.profile,
              "<INSERTCOUNT>",
-             "つの新しいレッサーパンダ"]
+             "つの新しいレッサーパンダ"],
+      "np": [Language.L.emoji.profile,
+             "<INSERTCOUNT>",
+             " निगल्य पोन्या नयाँ"]
     },
     "photos": {
       "cn": ["<INSERTCOUNT>",
@@ -752,12 +797,15 @@ Language.L.messages = {
       "en": ["<INSERTCOUNT>",
              " new photos"],
       "jp": ["<INSERTCOUNT>",
-             "枚の新しい写真"]
+             "枚の新しい写真"],
+      "np": ["<INSERTCOUNT>",
+             " छवि नयाँ"]
     },
     "suffix": {
       "cn": ["本星期！"],
       "en": [" this week!"],
-      "jp": ["今週！"]
+      "jp": ["今週！"],
+      "np": ["यो हप्ता"]
     },
     "zoos": {
       "cn": [Language.L.emoji.zoo,
@@ -769,28 +817,35 @@ Language.L.messages = {
             " new zoos"],
       "jp": [Language.L.emoji.zoo,
              "<INSERTCOUNT>",
-             "つの新しい動物園"]
+             "つの新しい動物園"],
+      "np": [Language.L.emoji.zoo,
+             "<INSERTCOUNT>",
+             " नयाँ चिडियाखाना"]
     }
   },
   "no_result": {
     "cn": ["没有找到这只小熊猫"],
     "en": ["No Pandas Found"],
-    "jp": ["パンダが見つかりません"]
+    "jp": ["パンダが見つかりません"],
+    "np": ["कुनै निगल्य पोन्या फेला परेन"]
   },
   "no_group_media_result": {
     "cn": ["找不到合影"],
     "en": ["No Group Photos Found"],
-    "jp": ["集合写真は見つかりませんでした"]
+    "jp": ["集合写真は見つかりませんでした"],
+    "np": ["कुनै निगल्य पोन्या समूह भेटिएन"]
   },
   "no_subject_tag_result": {
     "cn": ["没有关联照片"],
     "en": ["No Tagged Photos"],
-    "jp": ["このパンダのタグ付けされた写真はありません"]
+    "jp": ["このパンダのタグ付けされた写真はありません"],
+    "np": ["कुनै फोटोहरू ट्याग छैनन्"]
   },
   "no_zoos_nearby": {
     "cn": ["附近没有动物园"],
     "en": ["No Zoos Nearby"],
-    "jp": ["近くに動物園はありません"]
+    "jp": ["近くに動物園はありません"],
+    "np": ["नजिकै कुनै चिडियाखाना छैन"]
   },
   "overflow": {
     "cn": ["仅显示",
@@ -799,7 +854,9 @@ Language.L.messages = {
            "<INSERTLIMIT>",
            " shown."],
     "jp": ["<INSERTLIMIT>",
-           "を表示中"]
+           "を表示中"],
+    "np": ["<INSERTLIMIT>",
+           " मात्र"]
   },
   "profile_babies_children": {
     "cn": ["<INSERTNAME>",
@@ -813,7 +870,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "の子供",
            "<INSERTBABIES>",
-           "人"]
+           "人"],
+    "np": ["<INSERTNAME>",
+           " को ",
+           "<INSERTBABIES>",
+           " बच्चाहरु छन्"]
   },
   "profile_babies_siblings": {
     "cn": ["<INSERTNAME>",
@@ -827,7 +888,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "には",
            "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"]
+           "人の赤ちゃんの兄弟がいます"],
+    "np": ["<INSERTNAME>",
+           " ",
+           "<INSERTBABIES>",
+           "बच्चाका भाई बहिनीहरू छन्"]
   },
   "profile_brothers": {
     "cn": ["<INSERTNAME>",
@@ -841,7 +906,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "には",
            "<INSERTBROTHERS>",
-           "人の兄弟がいます"]
+           "人の兄弟がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTBROTHERS>",
+           " भाइहरु"]
   },
   "profile_brothers_babies": {
     "cn": ["<INSERTNAME>",
@@ -861,7 +930,13 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            "人の兄弟と",
            "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"]
+           "人の赤ちゃんの兄弟がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTBROTHERS>",
+           " भाइहरु र ",
+           "<INSERTBABIES>",
+           " नवजात शिशुहरू"]
   },
   "profile_children": {
     "cn": ["<INSERTNAME>",
@@ -887,7 +962,15 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            "人の女の子と",
            "<INSERTSONS>",
-           "人の男の子"]
+           "人の男の子"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTTOTAL>",
+           " बच्चाहरु: ",
+           "<INSERTDAUGHTERS>",
+           " छोरीहरू र ",
+           "<INSERTSONS>",
+           " छोराहरू!"]
   },
   "profile_children_babies": {
     "cn": ["<INSERTNAME>",
@@ -919,7 +1002,17 @@ Language.L.messages = {
            "<INSERTSONS>",
            "人の男の子、および",
            "<INSERTBABIES>",
-           "人の子供"]
+           "人の子供"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTTOTAL>",
+           " बच्चाहरु: ",
+           "<INSERTDAUGHTERS>",
+           " छोरीहरू, ",
+           "<INSERTSONS>",
+           " छोराहरू र ",
+           "<INSERTBABIES>",
+           " बच्चाहरु!"]
   },
   "profile_daughters": {
     "cn": ["<INSERTNAME>",
@@ -933,7 +1026,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "には",
            "<INSERTDAUGHTERS>",
-           "人の娘がいます"]
+           "人の娘がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTDAUGHTERS>",
+           " छोरीहरू"]
   },
   "profile_daughters_babies": {
     "cn": ["<INSERTNAME>",
@@ -953,7 +1050,13 @@ Language.L.messages = {
            "<INSERTDAUGHTERS>",
            "人の娘と",
            "<INSERTBABIES>",
-           "人の子供がいます"]
+           "人の子供がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTDAUGHTERS>",
+           " छोरीहरू र ",
+           "<INSERTBABIES>",
+           " बच्चाहरु"]
   },
   "profile_family": {
     "cn": ["<INSERTNAME>",
@@ -961,7 +1064,9 @@ Language.L.messages = {
     "en": ["<INSERTNAME>",
            "'s Immediate Family"],
     "jp": ["<INSERTNAME>",
-           "の直近の家族"]
+           "の直近の家族"],
+    "np": ["<INSERTNAME>",
+           "को निकट परिवार"]
   },
   "profile_sisters": {
     "cn": ["<INSERTNAME>",
@@ -975,7 +1080,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "には",
            "<INSERTSISTERS>",
-           "の姉妹がいます"]
+           "の姉妹がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTSISTERS>",
+           " बहिनीहरू"]
   },
   "profile_sisters_babies": {
     "cn": ["<INSERTNAME>",
@@ -995,7 +1104,13 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            "の姉妹と",
            "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟がいます"]
+           "人の赤ちゃんの兄弟がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTSISTERS>",
+           " बहिनीहरू र ",
+           "<INSERTBABIES>",
+           " बच्चा भाई बहिनीहरू"]
   },
   "profile_siblings": {
     "cn": ["<INSERTNAME>",
@@ -1021,7 +1136,15 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            "人の姉妹と",
            "<INSERTBROTHERS>",
-           "人の兄弟"]
+           "人の兄弟"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTTOTAL>",
+           " भाइबहिनीहरू: ",
+           "<INSERTSISTERS>",
+           " बहिनीहरू र ",
+           "<INSERTBROTHERS>",
+           "भाइहरु"]
   },
   "profile_siblings_babies": {
     "cn": ["<INSERTNAME>",
@@ -1053,7 +1176,17 @@ Language.L.messages = {
            "<INSERTBROTHERS>",
            "人の兄弟、および",
            "<INSERTBABIES>",
-           "人の赤ちゃんの兄弟"]
+           "人の赤ちゃんの兄弟"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTTOTAL>",
+           " भाइबहिनीहरू: ",
+           "<INSERTSISTERS>",
+           " बहिनीहरू, ",
+           "<INSERTBROTHERS>",
+           " भाइहरु र ",
+           "<INSERTBABIES>",
+           " बच्चाहरु!"]
   },
   "profile_sons": {
     "cn": ["<INSERTNAME>",
@@ -1067,7 +1200,11 @@ Language.L.messages = {
     "jp": ["<INSERTNAME>",
            "の息子は",
            "<INSERTSONS>",
-           "人です"]
+           "人です"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTSONS>",
+           "छोराहरू"]
   },
   "profile_sons_babies": {
     "cn": ["<INSERTNAME>",
@@ -1087,7 +1224,13 @@ Language.L.messages = {
            "<INSERTSONS>",
            "人の息子と",
            "<INSERTBABIES>",
-           "人の子供がいます"]
+           "人の子供がいます"],
+    "np": ["<INSERTNAME>",
+           " छ ",
+           "<INSERTSONS>",
+           " छोराहरू र ",
+           "<INSERTBABIES>",
+           " बच्चाहरु!"]
   },
   "profile_where": {
     "cn": ["<INSERTNAME>",
@@ -1096,7 +1239,9 @@ Language.L.messages = {
            "<INSERTNAME>",
            " lived?"],
     "jp": ["<INSERTNAME>",
-           "はどこに住んでいましたか？"]
+           "はどこに住んでいましたか？"],
+    "np": ["<INSERTNAME>",
+           " कहाँ बस्यो?"]
   },
   "tag_combo": {
     "cn": ["组合搜索:",
@@ -1107,7 +1252,10 @@ Language.L.messages = {
            " photos."],
     "jp": ["コンボ検索:",
            "<INSERTNUM>",
-           "写真。"]
+           "写真。"],
+    "np": ["कम्बो: ",
+           "<INSERTNUM>",
+           " फोटोहरू"]
   },
   "tag_subject": {
     "cn": ["<INSERTNUM>",
@@ -1131,6 +1279,13 @@ Language.L.messages = {
            "<INSERTEMOJI>",
            "<INSERTTAG>",
            "。"],
+    "np": ["<INSERTNUM>",
+           " ",
+           "<INSERTNAME>",
+           " फोटोहरू ट्याग गरियो ",
+           "<INSERTEMOJI>",
+           "<INSERTTAG>",
+           "।"]
   },
   "zoo_details": {
     "cn": [Language.L.emoji.animal,
@@ -1151,7 +1306,13 @@ Language.L.messages = {
            "<INSERTANIMALCOUNT>",
            "頭のレッサーパンダがいます。(データベースには",
            "<INSERTRECORDEDCOUNT>",
-           "頭の記録があります)"]
+           "頭の記録があります)"],
+    "np": [Language.L.emoji.animal,
+           " ",
+           "<INSERTANIMALCOUNT>",
+           " वर्तमान निगल्या पोनिया र डाटाबेस मा ",
+           "<INSERTRECORDEDCOUNT>",
+           "।"]
   }
 }
 
