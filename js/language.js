@@ -1328,454 +1328,530 @@ Language.L.tags = {
               Language.L.emoji.butterfly],
        "en": ["air tasting", 
               "air taste"],
-       "jp": ["舌ヒラヒラ"]
+       "jp": ["舌ヒラヒラ"],
+       "np": ["हावा चाख्ने"]
   },
   "apple time": {
        "cn": ["苹果时间", "苹果"],
     "emoji": [Language.L.emoji.apple],
        "en": ["apple time", "apple"],
-       "jp": ["りんごタイム", "りんご"]
+       "jp": ["りんごタイム", "りんご"],
+       "np": ["स्याउ समय", "स्याउ"]
   },
   "autumn": {
        "cn": ["秋天"],
     "emoji": [Language.L.emoji.autumn],
        "en": ["autumn", "fall"],
-       "jp": ["秋"]
+       "jp": ["秋"],
+       "np": ["शरद तु"]
   },
   "bamboo": {
        "cn": ["竹子", "竹"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
-       "jp": ["笹", "竹"]
+       "jp": ["笹", "竹"],
+       "np": ["बाँस"]
   },
   "bear worm": {
        "cn": ["蠕动"],
     "emoji": [Language.L.emoji.caterpillar],
        "en": ["bear worm"],
-       "jp": ["のびのび"]
+       "jp": ["のびのび"],
+       "np": ["कीरा भालु"]
   },
   "bite": {
        "cn": ["咬", "吃"],
     "emoji": [Language.L.emoji.tooth],
        "en": ["bite"],
-       "jp": ["一口"]
+       "jp": ["一口"],
+       "np": ["काट्नु"]
   },
   "blink": {
        "cn": ["眨眼"],
     "emoji": [Language.L.emoji.blink],
        "en": ["blink", "blinking"],
-       "jp": ["まばたき"]
+       "jp": ["まばたき"],
+       "np": ["झिम्काइ"]
   },
   "bridge": {
        "cn": ["吊桥", "桥"],
     "emoji": [Language.L.emoji.bridge],
        "en": ["bridge"],
-       "jp": ["吊り橋・渡し木", "架け橋"]
+       "jp": ["吊り橋・渡し木", "架け橋"],
+       "np": ["पुल"]
   },
   "brothers": {
        "cn": ["兄弟"],
     "emoji": [Language.L.emoji.brothers],
        "en": ["brothers", "bros"],
-       "jp": ["男兄弟"]
+       "jp": ["男兄弟"],
+       "np": ["भाइहरु"]
   },
   "carry": {
        "cn": ["运", "拿"],
     "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
-       "jp": ["笹運び", "枝運び", "運ぶ"]
+       "jp": ["笹運び", "枝運び", "運ぶ"],
+       "np": ["बोक्नु", "समात्नु"]
   },
   "cherry blossoms": {
        "cn": ["樱花"],
     "emoji": [Language.L.emoji.cherry_blossom],
        "en": ["cherry blossoms", "cherry blossom"],
-       "jp": ["桜"]
+       "jp": ["桜"],
+       "np": ["चेरी खिल"]
   },
   "climb": {
        "cn": ["爬"],
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
-       "jp": ["木登り", "登る"]
+       "jp": ["木登り", "登る"],
+       "np": ["चढाई"]
   },
   "couple": {
        "cn": ["夫妇", "情侣"],
     "emoji": [Language.L.emoji.couple],
        "en": ["couple", "partners"],
-       "jp": ["カップル", "夫婦", "ふうふ"]
+       "jp": ["カップル", "夫婦", "ふうふ"],
+       "np": ["जोडी"]
   },
   "destruction": {
        "cn": ["破坏"],
     "emoji": [Language.L.emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
-       "jp": ["破壊"]
+       "jp": ["破壊"],
+       "np": ["विनाश"]
   },
   "dig": {
        "cn": ["挖"],
     "emoji": [Language.L.emoji.dig],
        "en": ["dig", "digging", "digs"],
-       "jp": ["穴掘り"]
+       "jp": ["穴掘り"],
+       "np": ["खन्नुहोस्"]
   },
   "dish": {
        "cn": ["盘子"],
     "emoji": [Language.L.emoji.dish],
        "en": ["dish", "plate"],
-       "jp": ["ごはん"]
+       "jp": ["ごはん"],
+       "np": ["थाल"]
   },
   "door": {
        "cn": ["门"],
     "emoji": [Language.L.emoji.door],
        "en": ["door"],
-       "jp": ["扉", "戸"]
+       "jp": ["扉", "戸"],
+       "np": ["ढोका"]
   },
   "ear": {
        "cn": ["耳"],
     "emoji": [Language.L.emoji.ear],
        "en": ["ear", "ears"],
-       "jp": ["耳"]
+       "jp": ["耳"],
+       "np": ["कान"]
   },
   "eye": {
        "cn": ["眼睛", "眼"],
     "emoji": [Language.L.emoji.eye],
        "en": ["eye", "eyes"],
-       "jp": ["目"]
+       "jp": ["目"],
+       "np": ["कान"]
   },
   "flowers": {
        "cn": ["花"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],
-       "jp": ["花"]
+       "jp": ["花"],
+       "np": ["फूल", "फूलहरू"]
   },
   "grooming": {
        "cn": ["梳毛"],
     "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
-       "jp": ["毛づくろい"]
+       "jp": ["毛づくろい"],
+       "np": ["फूलहरू"]
   },
   "grumpy": {
        "cn": ["牢骚满腹"],
     "emoji": [Language.L.emoji.grumpy],
        "en": ["grumpy", "grouchy"],
-       "jp": ["ご機嫌ナナメ"]
+       "jp": ["ご機嫌ナナメ"],
+       "np": ["नराम्रो"]
   },
   "hammock": {
        "cn": ["吊床"],
     "emoji": [Language.L.emoji.camping],
        "en": ["hammock"],
-       "jp": ["ハンモック"]
+       "jp": ["ハンモック"],
+       "np": ["ह्यामॉक"]
   },
   "home": {
        "cn": ["家"],
     "emoji": [Language.L.emoji.home],
        "en": ["home"],
-       "jp": ["お家"]
+       "jp": ["お家"],
+       "np": ["घर"]
   },
   "in love": {
        "cn": ["热恋", "恋爱"],
     "emoji": [Language.L.emoji.hearts],
        "en": ["in love", "love"],
-       "jp": ["恋"]
+       "jp": ["恋"],
+       "np": ["मायामा"]
   },
   "itchy": {
        "cn": ["挠痒", "抓痒"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
-       "jp": ["カイカイ", "かゆい"]
+       "jp": ["カイカイ", "かゆい"],
+       "np": ["खुजली"]
   },
   "jizo": {
        "cn": ["地藏菩萨"],
     "emoji": [Language.L.emoji.jizo],
        "en": ["jizo", "jizo statue", "statue"],
-       "jp": ["お地蔵さん"]
+       "jp": ["お地蔵さん"],
+       "np": ["मूर्ति"]
   },
   "keeper": {
        "cn": ["饲养员"],
     "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
-       "jp": ["飼育員"]
+       "jp": ["飼育員"],
+       "np": ["चिडियाखाना"]
   },
   "kiss": {
        "cn": ["接吻", "亲亲", "吻"],
     "emoji": [Language.L.emoji.kiss],
        "en": ["kissing", "kiss"],
-       "jp": ["接吻", "せっぷん", "キス"]
+       "jp": ["接吻", "せっぷん", "キス"],
+       "np": ["चुम्बन"]
   },
   "laying down": {
        "cn": ["躺"],
     "emoji": [Language.L.emoji.bed],
        "en": ["lay down", "laying down"],
-       "jp": ["寝そべっている"]
+       "jp": ["寝そべっている"],
+       "np": ["तल राख्नु"]
   },
   "lips": {
        "cn": ["唇"],
     "emoji": [Language.L.emoji.lips],
        "en": ["lips"],
-       "jp": ["くちびる"]
+       "jp": ["くちびる"],
+       "np": ["ओठ"]
   },
   "long-tongue": {
        "cn": ["伸长舌头"],
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
        "en": ["long tongue", "long-tongue"],
-       "jp": ["長い舌"]
+       "jp": ["長い舌"],
+       "np": ["लामो जीभ"]
   },
   "lunch time": {
        "cn": ["午餐时间"],
     "emoji": [Language.L.emoji.bento],
        "en": ["lunch time", "lunch"],
-       "jp": ["ランチの時間"]
+       "jp": ["ランチの時間"],
+       "np": ["खाजा समय", "भोजन"]
   },
   "mofumofu": {
         "cn": ["软软"],
      "emoji": [Language.L.emoji.teddybear],
         "en": ["mofumofu", "fluffy", "punchy"],
-        "jp": ["モフモフ"]
+        "jp": ["モフモフ"],
+        "np": ["रमाईलो"]
   },
   "muzzle": {
         "cn": ["口鼻套"],
      "emoji": [Language.L.emoji.muzzle],
         "en": ["muzzle", "snout"],
-        "jp": ["マズル"]
+        "jp": ["マズル"],
+        "np": ["थूली", "थोरै"]
   },
   "night": {
         "cn": ["夜", "晚上"],
      "emoji": [Language.L.emoji.moon],
         "en": ["night"],
-        "jp": ["夜"]
+        "jp": ["夜"],
+        "np": ["रात"]
   },
   "nose": {
         "cn": ["鼻子"],
      "emoji": [Language.L.emoji.nose],
         "en": ["nose", "snout"],
-        "jp": ["鼻"]
+        "jp": ["鼻"],
+        "np": ["नाक"]
   },
   "old": {
         "cn": ["老人"],
      "emoji": [Language.L.emoji.grandpa],
         "en": ["old"],
-        "jp": ["シニアパンダさん", "年老いた"]
+        "jp": ["シニアパンダさん", "年老いた"],
+        "np": ["पुरानो"]
   },
   "panda bowl": {
         "cn": ["碗"],
      "emoji": [Language.L.emoji.panda + 
                Language.L.emoji.bowl],
         "en": ["panda bowl", "bowl"],
-        "jp": ["エサ鉢"]
+        "jp": ["エサ鉢"],
+        "np": ["पोनिया कटोरा"]
   },
   "paws": {
         "cn": ["爪"],
      "emoji": [Language.L.emoji.paws],
         "en": ["paws", "feet"],
-        "jp": ["足"]
+        "jp": ["足"],
+        "np": ["पन्जा"]
   },
   "peek": {
         "cn": ["偷窥"],
      "emoji": [Language.L.emoji.monocle],
         "en": ["peek", "peeking"],
-        "jp": ["チラ見"]
+        "jp": ["チラ見"],
+        "np": ["झिक्नु"]
   },
   "playing": {
         "cn": ["玩耍"],
      "emoji": [Language.L.emoji.playing],
         "en": ["playing", "play"],
-        "jp": ["拝み食い", "両手食い"]
+        "jp": ["拝み食い", "両手食い"],
+        "np": ["खेलिरहेको", "खेल्नु"]
   },
   "poop": {
         "cn": ["便便"],
      "emoji": [Language.L.emoji.poop],
         "en": ["poop"],
-        "jp": [Language.L.emoji.poop]
+        "jp": [Language.L.emoji.poop],
+        "np": [Language.L.emoji.poop]
   },
   "pooping": {
         "cn": ["便便"],
      "emoji": [Language.L.emoji.panda +
                Language.L.emoji.poop],
         "en": ["pooping"],
-        "jp": ["💩している"]
+        "jp": ["💩している"],
+        "np": [Language.L.emoji.panda +
+               Language.L.emoji.poop]
   },
   "portrait": {
         "cn": ["肖像"],
      "emoji": [Language.L.emoji.portrait],
         "en": ["portrait"],
-        "jp": ["顔写真"] 
+        "jp": ["顔写真"],
+        "np": ["चित्र"]
   },
   "praying": {
         "cn": ["祈祷"],
      "emoji": [Language.L.emoji.pray],
         "en": ["praying", "pray"],
-        "jp": ["お祈りしている"]
+        "jp": ["お祈りしている"],
+        "np": ["प्रार्थना गर्दै", "प्रार्थना"]
   },
   "profile": {
         "cn": ["资料"],
      "emoji": [Language.L.emoji.profile],
         "en": ["profile"],
-        "jp": ["プロフィール画像"]
+        "jp": ["プロフィール画像"],
+        "np": ["प्रोफाइल"]
   },
   "pull-up": {
         "cn": ["引体向上"],
      "emoji": [Language.L.emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
-        "jp": ["鉄棒", "懸垂"]
+        "jp": ["鉄棒", "懸垂"],
+        "np": ["तान्नु"]
   },
   "pumpkin": {
         "cn": ["南瓜"],
      "emoji": [Language.L.emoji.pumpkin],
         "en": ["pumpkin", "halloween"],
-        "jp": ["かぼちゃ", "南瓜"]
+        "jp": ["かぼちゃ", "南瓜"],
+        "np": ["कद्दू", "हेलोवीन"]
   },
   "reiwa": {
         "cn": ["令和"],
      "emoji": [Language.L.emoji.reiwa],
         "en": ["reiwa"],
-        "jp": ["令和"]
+        "jp": ["令和"],
+        "np": [Language.L.emoji.reiwa]
   },
   "scale": {
         "cn": ["测体重"],
      "emoji": [Language.L.emoji.scale],
         "en": ["scale", "weigh-in", "weight"],
-        "jp": ["体重計", "たいじゅうけい"]
+        "jp": ["体重計", "たいじゅうけい"],
+        "np": ["स्केल", "तौल"]
   },
   "shake": {
         "cn": ["摇晃"],
      "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
-        "jp": ["ドリパン", "ブルブル", "ゆらゆら"]
+        "jp": ["ドリパン", "ブルブル", "ゆらゆら"],
+        "np": ["हल्लाउनु"]
   },
   "shedding": {
         "cn": ["换毛"],
      "emoji": [Language.L.emoji.worry],
         "en": ["shedding", "changing fur", "losing fur", "losing hair"],
-        "jp": ["換毛", "泣いている"]
+        "jp": ["換毛", "泣いている"],
+        "np": ["सुस्त"]
   },
   "shoots": {
         "cn": ["竹笋"],
      "emoji": [Language.L.emoji.bamboo],
         "en": ["shoots", "shoot"],
-        "jp": ["竹の子", "たけのこ"]
+        "jp": ["竹の子", "たけのこ"],
+        "np": ["बाँस को टुप्पो"]
   },
   "siblings": {
         "cn": ["同胞兄弟"],
      "emoji": [Language.L.emoji.siblings],
         "en": ["siblings"],
-        "jp": ["兄弟", "きょうだい"]
+        "jp": ["兄弟", "きょうだい"],
+        "np": ["भाइबहिनीहरू"]
   },
   "sisters": {
         "cn": ["姐妹"],
      "emoji": [Language.L.emoji.sisters],
         "en": ["sisters"],
-        "jp": ["姉妹"]
+        "jp": ["姉妹"],
+        "np": ["बहिनीहरू"]
   },
   "sleeping": {
         "cn": ["睡觉"],
      "emoji": [Language.L.emoji.sleeping],
         "en": ["sleeping", "sleep", "asleep"],
-        "jp": ["寝ている"]
+        "jp": ["寝ている"],
+        "np": ["सुत्नु", "निद्रा"]
   },
   "slobber": {
         "cn": ["口水", "流口水"],
      "emoji": [Language.L.emoji.slobber],
         "en": ["slobber", "slobbering"],
-        "jp": ["よだれをたらしている"]
+        "jp": ["よだれをたらしている"],
+        "np": ["स्लोबर"]
   },
   "smile": {
         "cn": ["笑", "微笑"],
      "emoji": [Language.L.emoji.smile],
         "en": ["smile", "smiling"],
-        "jp": ["スマイル"]
+        "jp": ["スマイル"],
+        "np": ["हाँसो"]
   },
   "snow": {
         "cn": ["雪"],
      "emoji": [Language.L.emoji.snow],
         "en": ["snow"],
-        "jp": ["雪"]
+        "jp": ["雪"],
+        "np": ["हिउँ"]
   },
   "spider": {
         "cn": ["蜘蛛"],
      "emoji": [Language.L.emoji.spider],
         "en": ["spider", "spider-bear", "spider bear"],
-        "jp": ["スパイダー"]
+        "jp": ["スパイダー"],
+        "np": ["माकुरो", "माकुरो भालु"]
   },
   "standing": {
         "cn": ["站立"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
-        "jp": ["立っている"]
+        "jp": ["立っている"],
+        "np": ["खडा"]
   },
   "stretching": {
         "cn": ["拉伸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
-        "jp": ["ストレッチしている"]
+        "jp": ["ストレッチしている"],
+        "np": ["तन्नु", "तान्न"]
   },
   "surprise": {
         "cn": ["惊喜"],
      "emoji": [Language.L.emoji.fireworks],
         "en": ["surprise", "surprised"],
-        "jp": ["びっくり"]
+        "jp": ["びっくり"],
+        "np": ["अचम्म"]
   },
   "tail": {
         "cn": ["尾巴"],
      "emoji": [Language.L.emoji.snake],
         "en": ["tail"],
-        "jp": ["しっぽ"]
+        "jp": ["しっぽ"],
+        "np": ["पुच्छर"]
   },
   "techitechi": {
         "cn": ["目标"],
      "emoji": [Language.L.emoji.target],
         "en": ["techitechi", "spot", "cute spot"],
-        "jp": ["テチテチ"]
+        "jp": ["テチテチ"],
+        "np": ["राम्रो स्थान"]
   },
   "tongue": {
         "cn": ["舌"],
      "emoji": [Language.L.emoji.tongue],
         "en": ["tongue"],
-        "jp": ["べろ"]
+        "jp": ["べろ"],
+        "np": ["जिब्रो"]
   },
   "toys": {
         "cn": ["玩具"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
-        "jp": ["遊具", "おもちゃ", "おもちゃ"]
+        "jp": ["遊具", "おもちゃ", "おもちゃ"],
+        "np": ["खेलौना"]
   },
   "tree": {
         "cn": ["树"],
      "emoji": [Language.L.emoji.tree],
         "en": ["tree", "trees"],
-        "jp": ["木"]
+        "jp": ["木"],
+        "np": ["रूख"]
   },
   "upside-down": {
         "cn": ["翻转"],
      "emoji": [Language.L.emoji.upside_down],
         "en": ["upside-down", "upside down"],
-        "jp": ["逆さま"]
+        "jp": ["逆さま"],
+        "np": ["तलको माथि"]
   },
   "wink": {
         "cn": ["眨眼"],
      "emoji": [Language.L.emoji.wink],
         "en": ["wink", "winking"],
-        "jp": ["ウィンク"]
+        "jp": ["ウィンク"],
+        "np": ["आखा भ्किम्काउनु"]
   },
   "wet": {
         "cn": ["湿"],
      "emoji": [Language.L.emoji.raincloud],
         "en": ["wet"],
-        "jp": ["濡れた"]
+        "jp": ["濡れた"],
+        "np": ["भिजेको"]
   },
   "white face": {
         "cn": ["浅色的脸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["white face", "light face"],
-        "jp": ["色白さん", "しろめん", "白面", "白めん"]
+        "jp": ["色白さん", "しろめん", "白面", "白めん"],
+        "np": ["सेतो अनुहार"]
   },
   "window": {
         "cn": ["窗"],
      "emoji": [Language.L.emoji.window],
         "en": ["window"],
-        "jp": ["窓", "まど"]
+        "jp": ["窓", "まど"],
+        "np": ["विन्डो"]
   },
   "yawn": {
         "cn": ["哈欠", "呵欠"],
      "emoji": [Language.L.emoji.yawn],
         "en": ["yawn", "yawning"],
-        "jp": ["あくび"]
+        "jp": ["あくび"],
+        "np": ["जांभई"]
   }
 }
 
