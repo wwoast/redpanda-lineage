@@ -26,7 +26,8 @@ Language.init = function() {
 Language.L.bias = {
   "cn": ["en"],
   "en": [],
-  "jp": []
+  "jp": [],
+  "np": ["en"]
 }
 
 // Character translation tables per language. Just hiragana/katakana.
