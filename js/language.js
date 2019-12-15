@@ -616,9 +616,9 @@ Language.L.messages = {
            "枚の写真を寄稿しました。"],
     "np": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
-           "ले ",
+           " ले ",
            "<INSERTNUMBER>",
-           "फोटो योगदान गरेको छ"]
+           " फोटो योगदान गरेको छ"]
   },
   "comma": {
     "cn": "及",
@@ -689,7 +689,7 @@ Language.L.messages = {
            "）"],
     "np": ["विदाई, ",
            "<INSERTNAME>",
-           "। ",
+           " ",
            Language.L.emoji.died,
            " (",
            "<INSERTBIRTH>",
@@ -893,7 +893,7 @@ Language.L.messages = {
     "np": ["<INSERTNAME>",
            " ",
            "<INSERTBABIES>",
-           "बच्चाका भाई बहिनीहरू छन्"]
+           " बच्चाका भाई बहिनीहरू छन्"]
   },
   "profile_brothers": {
     "cn": ["<INSERTNAME>",
@@ -1145,7 +1145,7 @@ Language.L.messages = {
            "<INSERTSISTERS>",
            " बहिनीहरू र ",
            "<INSERTBROTHERS>",
-           "भाइहरु"]
+           " भाइहरु"]
   },
   "profile_siblings_babies": {
     "cn": ["<INSERTNAME>",
@@ -1205,7 +1205,7 @@ Language.L.messages = {
     "np": ["<INSERTNAME>",
            " छ ",
            "<INSERTSONS>",
-           "छोराहरू"]
+           " छोराहरू"]
   },
   "profile_sons_babies": {
     "cn": ["<INSERTNAME>",
