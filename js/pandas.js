@@ -61,6 +61,14 @@ Pandas.def.age = {
     "months": "月",
     "day": "日",
     "days": "日"
+  },
+  "np": {
+    "year": "बर्ष",
+    "years": "बर्ष",
+    "month": "महिना",
+    "months": "महिना",
+    "day": "दिन",
+    "days": "दिनहरु"
   }
 }
 
@@ -81,6 +89,9 @@ Pandas.def.animal = {
   "jp.nicknames": "ニックネームは記録されていません",
   "jp.othernames": "代わりのスペルは記録されていません",
   "litter": "0",
+  "np.name": "निगल्या पोनिया फेला परेन",
+  "np.nicknames": "उपनामहरू फेला परेन",
+  "np.othernames": "अरु नामहरु फेला परेन",
   "photo.1": "images/no-panda-portrait.jpg",
   "species": "-1",
   "video.1": "images/no-panda-portrait.jpg",
@@ -91,6 +102,7 @@ Pandas.def.date = {
   "cn": "YYYY-MM-DD",
   "en": "MM/DD/YYYY",
   "jp": "YYYY年MM月DD日",
+  "np": "YYYY-MM-DD",
   "earliest_year": "1970"
 }
 
@@ -98,6 +110,7 @@ Pandas.def.date_season = {
   "cn": "SEASON YYYY",
   "en": "SEASON YYYY",
   "jp": "SEASON YYYY",
+  "np": "SEASON YYYY",
   "earliest_year": "1970"
 }
 
@@ -105,12 +118,14 @@ Pandas.def.gender = {
   "Female": {
     "cn": "女",
     "en": "female",
-    "jp": "メス"
+    "jp": "メス",
+    "np": "महिला"
   },
   "Male": {
     "cn": "男",
     "en": "male",
-    "jp": "オス"
+    "jp": "オス",
+    "np": "नर"
   }
 }
 
@@ -118,7 +133,8 @@ Pandas.def.gender = {
 Pandas.def.no_name = {
   "cn": "不明",
   "en": "Unknown",
-  "jp": "未詳"
+  "jp": "未詳",
+  "np": "अज्ञात"
 }
 
 // Used for determining what languages are selectable. Don't add new languages
@@ -145,6 +161,9 @@ Pandas.def.ranges = {
     /[\u30a0-\u30ff]/,   // Japanese katakana,
     /[\uff00-\uffef]/,   // Japanese full-width romanji and half-width katakana
     /[\u4e00-\u9faf]/    // CJK unified Kanji set
+  ],
+  "np": [
+    /[\u0900-\u0954]/    // Devanghari unicode range
   ]
 }
 
@@ -153,77 +172,92 @@ Pandas.def.relations = {
   "aunt": {
     "cn": "姑媽",
     "en": "aunt",
-    "jp": "叔母"
+    "jp": "叔母",
+    "np": "काकी"
   },
   "brother": {
     "cn": "兄",
     "en": "brother",
-    "jp": "兄"
+    "jp": "兄",
+    "np": "भाई"
   },
   "children": {
     "cn": "孩子",
     "en": "children",
-    "jp": "子供"
+    "jp": "子供",
+    "np": "बच्चाहरु"
   },
   "cousin": {
     "cn": "表姐",
     "en": "cousin",
-    "jp": "いとこ"
+    "jp": "いとこ",
+    "np": "भान्जा"
   },
   "father": {
     "cn": "父",
     "en": "father",
-    "jp": "父"
+    "jp": "父",
+    "np": "बुबा"
   },
   "grandfather": {
     "cn": "祖父",
     "en": "grandfather",
-    "jp": "おじいちゃん"
+    "jp": "おじいちゃん",
+    "np": "हजुरबुबा"
   },
   "grandmother": {
     "cn": "祖母",
     "en": "grandmother",
-    "jp": "おばあちゃん"
+    "jp": "おばあちゃん",
+    "np": "हजुरआमा"
   },
   "litter": {
     "cn": "轿子",
     "en": "litter",
-    "jp": "双子"   /* "同腹仔" */
+    "jp": "双子",   /* "同腹仔" */
+    "np": "रोटी"
   },
   "mother": {
     "cn": "母",
     "en": "mother",
-    "jp": "母"
+    "jp": "母",
+    "np": "आमा"
   },
   "nephew": {
     "cn": "外甥",
     "en": "nephew",
-    "jp": "甥"
+    "jp": "甥",
+    "np": "भतिजा"
   },
   "niece": {
     "cn": "侄女",
     "en": "niece",
-    "jp": "姪"
+    "jp": "姪",
+    "np": "भान्जी" 
   },
   "parents": {
     "cn": "父母",
     "en": "parents",
-    "jp": "両親"
+    "jp": "両親",
+    "np": "अभिभावक"
   },
   "sister": {
     "cn": "妹妹",
     "en": "sister",
-    "jp": "姉"
+    "jp": "姉",
+    "np": "बहिनी"
   },
   "siblings": {
     "cn": "兄弟姐妹",
     "en": "siblings",
-    "jp": "兄弟"
+    "jp": "兄弟",
+    "np": "भाइबहिनीहरू"
   },
   "uncle": {
     "cn": "叔叔",
     "en": "uncle",
-    "jp": "叔父"
+    "jp": "叔父",
+    "np": "काका"
   }
 }
 
@@ -242,13 +276,19 @@ Pandas.def.species = {
     "西レッサーパンダ",
     "シセンレッサーパンダ",
     "未詳レッサーパンダ"
+  ],
+  "np": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ]
 }
 
 Pandas.def.unknown = {
   "cn": "不明",
   "en": "unknown",
-  "jp": "未詳"
+  "jp": "未詳",
+  "np": "अज्ञात"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals
@@ -263,6 +303,9 @@ Pandas.def.wild = {
   "jp.address": "TOWRITE",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
+  "np.address": "जंगली जनावर कब्जा वा बचाव",
+  "np.location": "कुनै स्थान जानकारी छैन",
+  "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
@@ -279,6 +322,9 @@ Pandas.def.zoo = {
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
+  "np.address": "कुनै ठेगाना सूचीबद्ध छैन",
+  "np.location": "कुनै स्थान जानकारी छैन",
+  "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
