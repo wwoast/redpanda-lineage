@@ -1926,15 +1926,19 @@ Language.L.fallbackEntity = function(entity) {
 
 // Do locale adjustments for which flags appear as language flags
 Language.L.fallbackFlags = function() {
-  // If an English locale other than USA, default the "english" 
-  // language flag to UK flag.
+  // If an English locale other than USA, or if no English locale
+  // defined at all, default the "english" language flag to UK flag.
   var us = navigator.languages.indexOf("en-US");
-  for (let lang of navigator.languages) {
-    if (lang.indexOf("en-") == 0) {
-      commonwealth = navigator.languages.indexOf(lang);
-      if ((commonwealth < us) || (us == -1)) {
-        Language.L.gui.flag["en"] = Language.L.flags["UK"];
-        break;
+  if (us == -1) {
+    Language.L.gui.flag["en"] = Language.L.flags["UK"];
+  } else {
+    for (let lang of navigator.languages) {
+      if (lang.indexOf("en") == 0) {
+        commonwealth = navigator.languages.indexOf(lang);
+        if (commonwealth < us) {
+          Language.L.gui.flag["en"] = Language.L.flags["UK"];
+          break;
+        }
       }
     }
   }
