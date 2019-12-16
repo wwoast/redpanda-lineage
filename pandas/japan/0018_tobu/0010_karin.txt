@@ -14,6 +14,7 @@ language.order: jp, en
 litter: none
 location.1: 4, 2012/6/9
 location.2: 1, 2014/5/12
+location.3: 18, 2019/12/16
 photo.1: https://www.instagram.com/p/Bg3zaeLg5Ba/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
@@ -105,5 +106,9 @@ photo.23: https://www.instagram.com/p/B5T68RWBTvQ/media/?size=m
 photo.23.author: ssc6105
 photo.23.link: https://www.instagram.com/ssc6105/
 photo.23.tags: grumpy, laying down
+photo.24: https://www.instagram.com/p/B51JEFRhLjp/media/?size=m
+photo.24.author: _rifa_p
+photo.24.link: https://www.instagram.com/_rifa_p/
+photo.24.tags: laying down, paws, portrait, tail
 species: 2
-zoo: 1
+zoo: 18
