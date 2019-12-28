@@ -396,16 +396,64 @@ Pandas.photoGeneratorMax = function*() {
   }
 }
 
+// If given no argument, return a random number. Otherwise
+// return a repeatable random value.
+Pandas.prngValue = function(input, count) {
+  if (input == undefined) {
+    // If no inputs given, we want a truly random value
+    return Math.random();
+  } 
+  if (count == undefined) {
+    count = 1;
+  }
+  // Otherwise, take a chain of random values
+  var seed = Pandas.seededPrng(input);
+  for (let i = 0; i <= count - 1; i++) {
+    seed = Pandas.seededPrng(seed);
+  }
+  return seed;
+}
+
+// Seeded PRNG for the random choice function
+Pandas.seededPrng = function(input) {
+  return Pandas.seededPrngInner(Pandas.prngHash(input))();
+}
+
+// Mulberry32 seeded PRNG for the random choice function.
+// Call using Pandas.seededPrng(seed)();
+Pandas.seededPrngInner = s=>t=>
+(s=s+1831565813|0,t=Math.imul(s^s>>>15,1|s),t=t+Math.imul(t^t>>>7,61|t)^t,
+(t^t>>>14)>>>0)/2**32;
+
+// Burtleburtle hash that uniformly distributes bits in integer inputs
+Pandas.prngHash = n=>
+(n=61^n^n>>>16,n+=n<<3,n=Math.imul(n,668265261),n^=n>>>15)>>>0;
+
 // Get random items from the array, trying our best not to 
 // select the same item more than once.
 Pandas.randomChoice = function(array, count) {
+  return Pandas.randomChoiceInner(array, undefined, count);
+}
+
+// Get random items from the array in a deterministic way given an input
+// seed, which should be numeric/integer data
+Pandas.randomChoiceGivenSeed = function(array, seed_input, count) {
+  return Pandas.randomChoiceInner(array, seed_input, count);
+}
+
+// Do random choices given an input seed
+Pandas.randomChoiceInner = function(array, seed_input, count) {
+  var seed = undefined;
   var seen = {};
   // If you want just all the array items, return a shuffle instead
   if (count >= array.length) {
     return Pandas.shuffle(array);
   }
   for (let i = count; i > 0; i--) {
-    var random = Math.floor(Math.random() * array.length);
+    // Get a chosen-random value, or a truly random one 
+    // if seed_input is undefined
+    seed = Pandas.prngValue(seed_input, count);
+    var random = Math.floor(seed * array.length);
     if (random in seen) {
       i = i + 1;   // We chose this one already
     } else {
@@ -415,10 +463,18 @@ Pandas.randomChoice = function(array, count) {
   return Object.values(seen);
 }
 
-// Shuffle an array
+// Shuffle an array randomly
 Pandas.shuffle = function(array) {
+  return Pandas.shuffleWithSeed(array, undefined);
+}
+
+// Shuffle an array with a seed
+Pandas.shuffleWithSeed = function(array, seed_input) {
+  // Get a chosen-random value, or a truly random one 
+  // if seed_input is undefined
+  var seed = Pandas.prngValue(seed_input, 1);
   for (let i = array.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
+    var j = Math.floor(seed * (i + 1));
     var temp = array[i];
     array[i] = array[j];
     array[j] = temp;
