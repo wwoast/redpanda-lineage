@@ -2305,7 +2305,8 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 baby siblings/, "one baby sibling")
                    .replace(/\b1 current red pandas/, "one current red panda")
                    .replace(/\b1 new contributors/, "one new contributor")
-                   .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ");
+                   .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
+                   .replace(/^one\s/, "One ");
       output.push(input);
     }
     return output;
