@@ -1,0 +1,16 @@
+[panda]
+_id: 1082
+birthday: 2019/7/6
+birthplace: 92
+children: none
+en.name: Xiabo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シアボ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1083
+species: 2
+zoo: 92

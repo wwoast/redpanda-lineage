@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 451
+location.1: 89, 2017/7/7
+location.2: 90, 2019/5/7
 photo.1: https://www.instagram.com/p/BlskqhVFidO/media/?size=m
 photo.1.author: binghamtonzoo
 photo.1.link: https://www.instagram.com/binghamtonzoo/
@@ -35,4 +37,4 @@ photo.6: https://www.instagram.com/p/Bf-9UGwHI_z/media/?size=m
 photo.6.author: binghamtonzoo
 photo.6.link: https://www.instagram.com/binghamtonzoo/
 species: 2
-zoo: 89
+zoo: 90

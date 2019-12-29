@@ -1,0 +1,19 @@
+[panda]
+_id: 1081
+birthday: 2019/6/30
+birthplace: 51
+children: none
+en.name: Udaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ウダヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+np.name: उदय
+np.nicknames: none
+np.othernames: none
+species: 2
+zoo: 51

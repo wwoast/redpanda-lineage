@@ -1,0 +1,16 @@
+[panda]
+_id: 1083
+birthday: 2019/7/6
+birthplace: 92
+children: none
+en.name: Mei-Lin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: メイリン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1082
+species: 2
+zoo: 92
