@@ -916,7 +916,7 @@ Show.links.flags = function(order) {
   // Convert the language order string into a list of flag emojis
   var flags = "";
   if (order.length > 0) {
-    flags = order.map(l => Language.L.gui.flag[l]).join("");
+    flags = order.map(l => Language.L.gui.flag[l]).join(" ");
   }
   return flags;
 }

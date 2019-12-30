@@ -774,6 +774,7 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              "人の新しい貢献者"],
       "np": [Language.L.emoji.giftwrap,
+             " ",
              "<INSERTCOUNT>",
              " योगदानकर्ताहरू नयाँ"]
     },
@@ -789,6 +790,7 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              "つの新しいレッサーパンダ"],
       "np": [Language.L.emoji.profile,
+             " ",
              "<INSERTCOUNT>",
              " निगल्य पोन्या नयाँ"]
     },
@@ -820,6 +822,7 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              "つの新しい動物園"],
       "np": [Language.L.emoji.zoo,
+             " ",
              "<INSERTCOUNT>",
              " नयाँ चिडियाखाना"]
     }
