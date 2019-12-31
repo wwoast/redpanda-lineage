@@ -19,7 +19,7 @@ photo.1.tags: tongue
 photo.2: https://cdn.4travel.jp/img/tcs/t/pict/500/26/79/03/500_26790379.jpg?1349448819
 photo.2.author: resapanlove
 photo.2.link: https://4travel.jp/travelogue/10711556
-photo.2.tags: profile, techitechi
+photo.2.tags: techitechi
 photo.3: https://cdn.4travel.jp/img/tcs/t/pict/500/26/78/76/500_26787679.jpg?1349448819
 photo.3.author: resapanlove
 photo.3.link: https://4travel.jp/travelogue/10711556
@@ -27,5 +27,9 @@ photo.3.tags: smile, tongue
 photo.4: https://www.instagram.com/p/B532KO-Bm7v/media/?size=m
 photo.4.author: shigeko0531
 photo.4.link: https://www.instagram.com/shigeko0531/
+photo.5: https://www.instagram.com/p/B6RqMnXh8A_/media/?size=m
+photo.5.author: resapan.suki
+photo.5.link: https://www.instagram.com/resapan.suki/
+photo.5.tags: portrait, profile, whiskers
 species: 2
 zoo: 10
