@@ -51,65 +51,62 @@ photo.9.tags: portrait
 photo.10: https://www.instagram.com/p/BiDhAyslkDV/media/?size=m
 photo.10.author: minatomirai215
 photo.10.link: https://www.instagram.com/minatomirai215/
-photo.11: https://www.instagram.com/p/B54W5LfhO0n/media/?size=m
-photo.11.author: masa_polarbear
-photo.11.link: https://www.instagram.com/masa_polarbear/
-photo.12: https://www.instagram.com/p/BcOJbz7DuCT/media/?size=m
+photo.11: https://www.instagram.com/p/BcOJbz7DuCT/media/?size=m
+photo.11.author: _rifa_p
+photo.11.link: https://www.instagram.com/_rifa_p/
+photo.11.tags: laying down, tree, yawn
+photo.12: https://www.instagram.com/p/Bo-PIVHlcaX/media/?size=m
 photo.12.author: _rifa_p
 photo.12.link: https://www.instagram.com/_rifa_p/
-photo.12.tags: laying down, tree, yawn
-photo.13: https://www.instagram.com/p/Bo-PIVHlcaX/media/?size=m
-photo.13.author: _rifa_p
-photo.13.link: https://www.instagram.com/_rifa_p/
-photo.14: https://www.instagram.com/p/BpKX14kFGzF/media/?size=m
+photo.13: https://www.instagram.com/p/BpKX14kFGzF/media/?size=m
+photo.13.author: na.mo.pan
+photo.13.link: https://www.instagram.com/na.mo.pan/
+photo.13.tags: tree
+photo.14: https://www.instagram.com/p/Bp9387HlsLh/media/?size=m
 photo.14.author: na.mo.pan
 photo.14.link: https://www.instagram.com/na.mo.pan/
-photo.14.tags: tree
-photo.15: https://www.instagram.com/p/Bp9387HlsLh/media/?size=m
-photo.15.author: na.mo.pan
-photo.15.link: https://www.instagram.com/na.mo.pan/
-photo.15.tags: smile
-photo.16: https://www.instagram.com/p/Bp9p3-3llk8/media/?size=m
-photo.16.author: 218_yu
-photo.16.link: https://www.instagram.com/218_yu/
-photo.17: https://www.instagram.com/p/BqfALcuFbLT/media/?size=m
-photo.17.author: na.mo.pan
-photo.17.link: https://www.instagram.com/na.mo.pan/
-photo.18: https://www.instagram.com/p/BrTlxO6gqvt/media/?size=m
-photo.18.author: _rifa_p
-photo.18.link: https://www.instagram.com/_rifa_p/
-photo.18.tags: lunch time
-photo.19: https://www.instagram.com/p/Br2B6WZluVT/media/?size=m
-photo.19.author: yakko____
-photo.19.link: https://www.instagram.com/yakko____/
-photo.19.tags: home, portrait, smile
-photo.20: https://www.instagram.com/p/BsQdxenFCzD/media/?size=m
-photo.20.author: craig_craig_craig
-photo.20.link: https://www.instagram.com/craig_craig_craig/
-photo.20.tags: lips
-photo.21: https://www.instagram.com/p/Bt3GYQCFMLM/media/?size=m
-photo.21.author: ifumoto88
-photo.21.link: https://www.instagram.com/ifumoto88/
-photo.21.tags: lips, portrait, smile
-photo.22: https://www.instagram.com/p/Bwy3yMolgdT/media/?size=m
-photo.22.author: firefoxpanda88
-photo.22.link: https://www.instagram.com/firefoxpanda88/
-photo.22.tags: paws, portrait
-photo.23: https://www.instagram.com/p/ByWTsPnn2yQ/media/?size=m
-photo.23.author: fetorus_mami
-photo.23.link: https://www.instagram.com/fetorus_mami/
-photo.23.tags: laying down, tail
-photo.24: https://www.instagram.com/p/BzPEBMBB1YQ/media/?size=m
-photo.24.author: masa_polarbear
-photo.24.link: https://www.instagram.com/masa_polarbear/
-photo.24.tags: smile
-photo.25: https://www.instagram.com/p/BblIa8NDbVc/media/?size=m
-photo.25.author: ck.chie
-photo.25.link: https://www.instagram.com/ck.chie/
-photo.25.tags: autumn, laying down, portrait, tongue, tree
-photo.26: https://www.instagram.com/p/B54W5LfhO0n/media/?size=m
-photo.26.author: masa_polarbear
-photo.26.link: https://www.instagram.com/masa_polarbear/
-photo.26.tags: paws
+photo.14.tags: smile
+photo.15: https://www.instagram.com/p/Bp9p3-3llk8/media/?size=m
+photo.15.author: 218_yu
+photo.15.link: https://www.instagram.com/218_yu/
+photo.16: https://www.instagram.com/p/BqfALcuFbLT/media/?size=m
+photo.16.author: na.mo.pan
+photo.16.link: https://www.instagram.com/na.mo.pan/
+photo.17: https://www.instagram.com/p/BrTlxO6gqvt/media/?size=m
+photo.17.author: _rifa_p
+photo.17.link: https://www.instagram.com/_rifa_p/
+photo.17.tags: lunch time
+photo.18: https://www.instagram.com/p/Br2B6WZluVT/media/?size=m
+photo.18.author: yakko____
+photo.18.link: https://www.instagram.com/yakko____/
+photo.18.tags: home, portrait, smile
+photo.19: https://www.instagram.com/p/BsQdxenFCzD/media/?size=m
+photo.19.author: craig_craig_craig
+photo.19.link: https://www.instagram.com/craig_craig_craig/
+photo.19.tags: lips
+photo.20: https://www.instagram.com/p/Bt3GYQCFMLM/media/?size=m
+photo.20.author: ifumoto88
+photo.20.link: https://www.instagram.com/ifumoto88/
+photo.20.tags: lips, portrait, smile
+photo.21: https://www.instagram.com/p/Bwy3yMolgdT/media/?size=m
+photo.21.author: firefoxpanda88
+photo.21.link: https://www.instagram.com/firefoxpanda88/
+photo.21.tags: paws, portrait
+photo.22: https://www.instagram.com/p/ByWTsPnn2yQ/media/?size=m
+photo.22.author: fetorus_mami
+photo.22.link: https://www.instagram.com/fetorus_mami/
+photo.22.tags: laying down, tail
+photo.23: https://www.instagram.com/p/BzPEBMBB1YQ/media/?size=m
+photo.23.author: masa_polarbear
+photo.23.link: https://www.instagram.com/masa_polarbear/
+photo.23.tags: smile
+photo.24: https://www.instagram.com/p/BblIa8NDbVc/media/?size=m
+photo.24.author: ck.chie
+photo.24.link: https://www.instagram.com/ck.chie/
+photo.24.tags: autumn, laying down, portrait, tongue, tree
+photo.25: https://www.instagram.com/p/B54W5LfhO0n/media/?size=m
+photo.25.author: masa_polarbear
+photo.25.link: https://www.instagram.com/masa_polarbear/
+photo.25.tags: paws
 species: 2
 zoo: 1
