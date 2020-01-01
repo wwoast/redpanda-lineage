@@ -1176,7 +1176,11 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
 
     button.menu.message {
         width: 160px;   /* 2x a normal button size, for message text */
-    }    
+    }
+
+    button.menu.flag {
+        width: 80px;    /* Flags are smaller on mobile */
+    }
 
     div.buttonIcon {
         display: table-row;
