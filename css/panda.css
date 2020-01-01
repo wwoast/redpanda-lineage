@@ -736,11 +736,15 @@ ul.pandaList li a.passedAway {
     color: gray;
 }
 
-ul.pandaList.en > li > a > span.condensed {
+ul.pandaList.cn > li > a > span.condensed,
+ul.pandaList.en > li > a > span.condensed,
+ul.pandaList.np > li > a > span.condensed {
     font-size: 12.5pt;
 }
 
-ul.pandaList.en > li > a > span.ultraCondensed {
+ul.pandaList.cn > li > a > span.ultraCondensed,
+ul.pandaList.en > li > a > span.ultraCondensed,
+ul.pandaList.np > li > a > span.ultraCondensed {
     font-size: 10pt;
 }
 
