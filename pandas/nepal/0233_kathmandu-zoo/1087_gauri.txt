@@ -1,0 +1,19 @@
+[panda]
+_id: 1087
+birthday: 2011/6/1
+birthplace: wild.6
+children: unknown
+en.name: Gauri
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ガウリ
+jp.nicknames: none
+jp.othernames: none
+language.order: np, en, jp
+litter: unknown
+np.name: गौरी
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 233
