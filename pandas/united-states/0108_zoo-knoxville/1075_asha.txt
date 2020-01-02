@@ -3,12 +3,14 @@ _id: 1075
 birthday: 2019/6/20
 birthplace: 107
 children: none
-en.name: Asa
+en.name: Asha
 en.nicknames: none
+en.oldnames: Asa
 en.othernames: none
 gender: m
-jp.name: アサ
+jp.name: アシャ
 jp.nicknames: none
+jp.oldnames: アサ
 jp.othernames: none
 language.order: en, jp
 litter: 1074
