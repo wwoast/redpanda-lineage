@@ -15,23 +15,19 @@ litter: 383
 photo.1: https://www.instagram.com/p/Bi7L-TqDlQJ/media/?size=m
 photo.1.author: edmontonvalleyzoo
 photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
-photo.2: https://www.instagram.com/p/Bg4bAHFDqJI/media/?size=m
-photo.2.author: daintrechristensen
-photo.2.link: https://www.instagram.com/daintrechristensen/
-photo.2.tags: profile
-photo.3: https://www.instagram.com/p/BZHaifDApAe/media/?size=m
+photo.2: https://www.instagram.com/p/BZHaifDApAe/media/?size=m
+photo.2.author: buildingourzoo
+photo.2.link: https://www.instagram.com/buildingourzoo/
+photo.2.tags: tongue
+photo.3: https://www.instagram.com/p/BqulPf2D-XO/media/?size=m
 photo.3.author: buildingourzoo
 photo.3.link: https://www.instagram.com/buildingourzoo/
-photo.3.tags: tongue
-photo.4: https://www.instagram.com/p/BqulPf2D-XO/media/?size=m
+photo.3.tags: laying down
+photo.4: https://www.instagram.com/p/BRKHmiFD1GJ/media/?size=m
 photo.4.author: buildingourzoo
 photo.4.link: https://www.instagram.com/buildingourzoo/
-photo.4.tags: laying down
-photo.5: https://www.instagram.com/p/BRKHmiFD1GJ/media/?size=m
-photo.5.author: buildingourzoo
-photo.5.link: https://www.instagram.com/buildingourzoo/
-photo.6: https://www.instagram.com/p/Bx72T_7gxpZ/media/?size=m
-photo.6.author: edmontonvalleyzoo
-photo.6.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.5: https://www.instagram.com/p/Bx72T_7gxpZ/media/?size=m
+photo.5.author: edmontonvalleyzoo
+photo.5.link: https://www.instagram.com/edmontonvalleyzoo/
 species: 2
 zoo: 82
