@@ -12,37 +12,41 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 323
-photo.1: https://www.instagram.com/p/Boy_rwAF2IQ/media/?size=m
-photo.1.author: worldthathesees
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: portrait
-photo.2: https://www.instagram.com/p/BLoAUAEgxGK/media/?size=m
-photo.2.author: cincinnatizoo
-photo.2.link: https://www.instagram.com/cincinnatizoo/
-photo.2.tags: baby
-photo.3: https://www.instagram.com/p/B19qAbCpkBk/media/?size=m
-photo.3.author: rossifari
-photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/B1wuRyjJuiL/media/?size=m
+photo.1: https://www.instagram.com/p/Beat153hP_t/media/?size=m
+photo.1.author: cincinnatizoo
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: baby, paws, smile
+photo.2: https://www.instagram.com/p/Boy_rwAF2IQ/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/BLoAUAEgxGK/media/?size=m
+photo.3.author: cincinnatizoo
+photo.3.link: https://www.instagram.com/cincinnatizoo/
+photo.3.tags: baby
+photo.4: https://www.instagram.com/p/B19qAbCpkBk/media/?size=m
 photo.4.author: rossifari
 photo.4.link: https://www.instagram.com/rossifari/
-photo.4.tags: portrait, profile
-photo.5: https://www.instagram.com/p/B3fe7fzJmaa/media/?size=m
+photo.4.tags: portrait
+photo.5: https://www.instagram.com/p/B1wuRyjJuiL/media/?size=m
 photo.5.author: rossifari
 photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: smile, tail
-photo.6: https://www.instagram.com/p/B1laNEQABLz/media/?size=m
-photo.6.author: cincinnatizoo
-photo.6.link: https://www.instagram.com/cincinnatizoo/
-photo.6.tags: whiskers
-photo.7: https://www.instagram.com/p/B5oYJdJBWbb/media/?size=m
-photo.7.author: snapcrackleangela
-photo.7.link: https://www.instagram.com/snapcrackleangela/
-photo.7.tags: portrait, whiskers
-photo.8: https://www.instagram.com/p/B6stnkWB9Ay/media/?size=m
-photo.8.author: worldthathesees
-photo.8.link: https://www.instagram.com/worldthathesees/
-photo.8.tags: paws, portrait, snow, techitechi
+photo.5.tags: portrait, profile
+photo.6: https://www.instagram.com/p/B3fe7fzJmaa/media/?size=m
+photo.6.author: rossifari
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: smile, tail
+photo.7: https://www.instagram.com/p/B1laNEQABLz/media/?size=m
+photo.7.author: cincinnatizoo
+photo.7.link: https://www.instagram.com/cincinnatizoo/
+photo.7.tags: whiskers
+photo.8: https://www.instagram.com/p/B5oYJdJBWbb/media/?size=m
+photo.8.author: snapcrackleangela
+photo.8.link: https://www.instagram.com/snapcrackleangela/
+photo.8.tags: portrait, whiskers
+photo.9: https://www.instagram.com/p/B6stnkWB9Ay/media/?size=m
+photo.9.author: worldthathesees
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: paws, portrait, snow, techitechi
 species: 2
 zoo: 65
