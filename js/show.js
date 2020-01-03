@@ -722,7 +722,6 @@ Show.button.paging.action = function(panda_id, paging_callback) {
   paging_callback(panda_id);   // TODO: arguments, logic
 }
 Show.button.paging.render = function(class_name, panda_id, paging_callback) {
-  // If we're on a page that needs a "next page" button, display it (TODO)
   var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
   paging.addEventListener("click", function() {
     Show.button.paging.action(panda_id, paging_callback);   // TODO: arguments
@@ -734,6 +733,10 @@ Show.button.paging.render = function(class_name, panda_id, paging_callback) {
   } else {
     text.classList.remove("condensed");
   }
+  // If we're on a page that needs a "next page" button, display it (TODO)
+  if (Query.env.paging.display_button == false) {
+    paging.classList.add("hidden");
+  }   
   return paging;
 }
 Show.button.profile = {};

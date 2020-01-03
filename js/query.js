@@ -19,6 +19,12 @@ Query.env.preserve_case = false;
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
 Query.env.output_mode = "entities";
+// If a query has enough results to do paging, set display to true here.
+// Also enforce defaults to restrict bandwidth use on mobile vs. desktop
+Query.env.paging = {};
+Query.env.paging.display_button = false;
+Query.env.paging.desktop_count = 100;
+Query.env.paging.mobile_count = 25;
 // If a URI indicates a specific photo, indicate which one here.
 Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run
