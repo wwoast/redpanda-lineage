@@ -177,18 +177,24 @@ Page.color = function(class_name) {
 
 Page.footer = {};
 Page.footer.redraw = function(page_mode="results") {
+  var display_class = {
+    "results": "results",
+    "media": "profile",
+    "profile": "profile"
+  }
+  var display_mode = display_class[page_mode];
   // Add the footer at the bottom of the page
   var body = document.getElementsByTagName('body')[0];
   var footer_test = body.lastElementChild;
   if (footer_test.id != "footer") {
     // No footer exists, and no bottom menu either. Add both
-    var footer = Page.footer.render(L.display, page_mode);
+    var footer = Page.footer.render(L.display, display_mode);
     var menu = Show[page_mode].menus.bottom();
     body.appendChild(menu);
     body.appendChild(footer);
   } else {
     // Redraw the footer for language event changes
-    var footer = Page.footer.render(L.display, page_mode);
+    var footer = Page.footer.render(L.display, display_mode);
     var bottomMenu = Show[page_mode].menus.bottom();
     // If bottom menu isn't there, add it
     if (footer_test.previousElementSibling.id != "pageBottom") {
@@ -385,7 +391,7 @@ Page.media.render = function() {
   Show["media"].menus.language();
   var result_id = results["hits"][0]["_id"];
   Show["media"].menus.top(result_id);
-  Page.footer.redraw("profile");
+  Page.footer.redraw("media");
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
   Show.media.search.render();

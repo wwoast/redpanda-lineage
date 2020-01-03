@@ -716,6 +716,26 @@ Show.button.message.render = function(id, button_icon, button_text, class_name="
   button.appendChild(content);
   return button;  
 }
+Show.button.paging = {};
+Show.button.paging.action = function(panda_id, paging_callback) {
+  Show.button.language.hide();   // If language menu open, hide it
+  paging_callback(panda_id);   // TODO: arguments, logic
+}
+Show.button.paging.render = function(class_name, panda_id, paging_callback) {
+  // If we're on a page that needs a "next page" button, display it (TODO)
+  var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
+  paging.addEventListener("click", function() {
+    Show.button.paging.action(panda_id, paging_callback);   // TODO: arguments
+  });
+  // English and Japanese text is too wide
+  var text = paging.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
+  return paging;
+}
 Show.button.profile = {};
 Show.button.profile.action = function(panda_id) {
   Page.profile.render();
@@ -2090,7 +2110,48 @@ Show.media.gallery = function(animal, language) {
   }
   return result;
 }
-Show.media.menus = Show.profile.menus;
+Show.media.menus = {};
+Show.media.menus.bottom = function() {
+  // Offer red menu bar with a search function: Top, Home, Search
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of bottom-menu buttons and render them
+  for (let btn_id of Show.media.menus.bottomButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render("profile");
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("bottomMenu")[0];
+  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
+  // Remove any previous menu class modifiers
+  menu.classList.add("profile");
+  menu.classList.remove("results");
+  return menu;
+}
+Show.media.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton', 'randomButton', 'searchButton'];
+Show.media.menus.language = function() {
+  return Show.landing.menus.language("profile");
+}
+Show.media.menus.top = function(panda_id) {
+  // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
+  var new_contents = document.createElement('div');
+  new_contents.className = "shrinker";
+  // Take the list of top-menu buttons and render them
+  for (let btn_id of Show.media.menus.topButtons) {
+    var btn_type = btn_id.replace("Button", "");
+    var button = Show.button[btn_type].render("profile", panda_id);
+    new_contents.appendChild(button);
+  }
+  // Remove exisitng contents and replace with new.
+  var menu = document.getElementsByClassName("topMenu")[0];
+  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
+  // Remove any previous menu class modifiers
+  menu.classList.add("profile");
+  menu.classList.remove("results");
+  return menu;
+}
+Show.media.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'treeButton'];
 Show.media.nameBar = Show.profile.nameBar;
 Show.media.search = Show.profile.search;
 
@@ -2194,7 +2255,7 @@ Show.results.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.results.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton'];
 Show.results.menus.language = function() {
   return Show.landing.menus.language("results");
 }
