@@ -1926,7 +1926,7 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'randomButton', 'searchButton'];
+Show.profile.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton', 'randomButton', 'searchButton'];
 Show.profile.menus.language = function() {
   return Show.landing.menus.language("profile");
 }
@@ -2110,48 +2110,7 @@ Show.media.gallery = function(animal, language) {
   }
   return result;
 }
-Show.media.menus = {};
-Show.media.menus.bottom = function() {
-  // Offer red menu bar with a search function: Top, Home, Search
-  var new_contents = document.createElement('div');
-  new_contents.className = "shrinker";
-  // Take the list of bottom-menu buttons and render them
-  for (let btn_id of Show.media.menus.bottomButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("profile");
-    new_contents.appendChild(button);
-  }
-  // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("bottomMenu")[0];
-  menu = Show.update(new_contents, menu, "bottomMenu", "pageBottom");
-  // Remove any previous menu class modifiers
-  menu.classList.add("profile");
-  menu.classList.remove("results");
-  return menu;
-}
-Show.media.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton', 'randomButton', 'searchButton'];
-Show.media.menus.language = function() {
-  return Show.landing.menus.language("profile");
-}
-Show.media.menus.top = function(panda_id) {
-  // A red menu bar: Logo/Home, Language, Profile, Media, Timeline
-  var new_contents = document.createElement('div');
-  new_contents.className = "shrinker";
-  // Take the list of top-menu buttons and render them
-  for (let btn_id of Show.media.menus.topButtons) {
-    var btn_type = btn_id.replace("Button", "");
-    var button = Show.button[btn_type].render("profile", panda_id);
-    new_contents.appendChild(button);
-  }
-  // Remove exisitng contents and replace with new.
-  var menu = document.getElementsByClassName("topMenu")[0];
-  menu = Show.update(new_contents, menu, "topMenu", "pageTop");
-  // Remove any previous menu class modifiers
-  menu.classList.add("profile");
-  menu.classList.remove("results");
-  return menu;
-}
-Show.media.menus.topButtons = ['logoButton', 'languageButton', 'profileButton', 'mediaButton', 'treeButton'];
+Show.media.menus = Show.profile.menus;
 Show.media.nameBar = Show.profile.nameBar;
 Show.media.search = Show.profile.search;
 
