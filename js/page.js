@@ -57,6 +57,8 @@ Page.about.instructions = function() {
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 Page.about.render = function() {
+  // No need for paging on the about page
+  Query.env.paging.display_button = false;
   // Displays the about page when the button is clicked. Load content from a static
   // file based on the given language, and display it in a #contentFrame.about
   if (Page.about.language == undefined) {
@@ -253,6 +255,8 @@ Page.footer.render = function(language, class_name) {
 */
 Page.home = {};
 Page.home.render = function() {
+  // No need for paging on the home page
+  Query.env.paging.display_button = false;
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
   Show["results"].menus.language();
@@ -303,7 +307,10 @@ Page.links.hashchange = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Page.links.render = function() {
-  Page.links.sections.menuDefaults();   // Initialize submenus if necessary
+  // No need for paging on the links page
+  Query.env.paging.display_button = false;
+  // Initialize submenus if necessary
+  Page.links.sections.menuDefaults();
   var chosen = Page.stored.getItem("linksPageMenu");
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
@@ -372,6 +379,8 @@ Page.media.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
+  // TODO: count results and display a next page button if necessary
+  Query.env.paging.display_button = true;
   // Generate new content frames
   var gallery_div = Show.media.gallery(results["hits"][0], L.display);
   var new_content = document.createElement('div');
@@ -398,6 +407,8 @@ Page.profile = {};
 Page.profile.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
+  // Profile pages never have additional content to load
+  Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   var profile_div = Show.profile.panda(results["hits"][0], L.display);
@@ -691,6 +702,8 @@ Page.results.photos = function(results) {
 Page.results.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
+  // Don't assume a paging button is necessary until shown otherwise
+  Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   var content_divs = [];

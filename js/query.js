@@ -76,6 +76,7 @@ Query.resolver.group_one_set = function(set_node) {
   var tag = undefined;
   if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
@@ -129,12 +130,14 @@ Query.resolver.pair = function(set_node) {
   }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tag = Parse.searchTag(keyword_node.str);
     var animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
   }
   if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
@@ -188,6 +191,7 @@ Query.resolver.single = function(set_node, singular_node) {
   if (set_node.type == "set_tag") {
     if (Parse.group.tags.indexOf(search_word) != -1) {
       Query.env.output_mode = "photos";
+      Query.env.paging.display_button = true;
       // Find the canonical tag to do the searching by
       var tag = Parse.searchTag(search_word);
       // TODO: search media photos for all the animals by id, and include
