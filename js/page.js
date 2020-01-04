@@ -622,63 +622,18 @@ Page.results.nearby = function(results) {
   return content_divs;
 }
 Page.results.photos = function(results) {
-  var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
+  var content_divs = [];
   var max_tag_hits = 25;
   if ((results["parsed"] == "set_tag") || 
       (results["parsed"] == "set_tag_subject")) {
-    var page_results = results["hits"].slice();   // Working copy of photo set
-    var hit_count = page_results.length;
-    var overflow = 0;
-    if (hit_count > max_tag_hits) {
-      // Too many hits. Randomize what we have and save the top N
-      overflow = max_tag_hits;
-      page_results = Pandas.randomChoice(page_results, max_tag_hits);
-    }
-    for (let photo of page_results) {
-      if (photo["photo.index"] != "0") {   // Not a null photo result
-        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, true));
-      } else {
-        page_results.pop(page_results.indexOf(photo));
-      }
-    }
-    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    // Write some HTML with summary information for the user and the number of photos
-    if (hit_count != 0) {
-      var ctag = Language.tagPrimary(tag);
-      var header = Show.message.tag_subject(hit_count, results["subject"],
-                                            Language.L.tags[ctag]["emoji"], 
-                                            ctag, L.display, overflow);
-      content_divs.unshift(header);
-    }
-  }
-  // Tag intersection search needs slightly different structure/messages
-  else if (results["parsed"] == "set_tag_intersection") {
-    var page_results = results["hits"].slice();   // Working copy of photo set
-    var hit_count = page_results.length;
-    var overflow = 0;
-    if (hit_count > max_tag_hits) {
-      // Too many hits. Randomize what we have and save the top N
-      overflow = max_tag_hits;
-      page_results = Pandas.randomChoice(page_results, max_tag_hits);
-    }
-    for (let photo of page_results) {
-      if (photo["photo.index"] != "0") {   // Not a null photo result
-        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, false));
-      } else {
-        page_results.pop(page_results.indexOf(photo));
-      }
-    }
-    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    // Write some HTML with summary information for the user and the number of photos
-    if (hit_count != 0) {
-      var header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
-      content_divs.unshift(header);
-    }
-  }
-  // Term expression for a credit term, on panda/zoo results.
-  else if (results["parsed"] == "set_credit_photos") {
+    // Basic tag views with emoji in the name field
+    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, true);
+  } else if (results["parsed"] == "set_tag_intersection") {
+    // Combo tag views, no emoji in the name field
+    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, false);
+  } else if (results["parsed"] == "set_credit_photos") {
+    // Term expression for a credit term, on panda/zoo results. TODO: refactor
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
@@ -689,11 +644,7 @@ Page.results.photos = function(results) {
     });
     // Write some HTML with summary information for the user and the number of photos
     var header = Show.message.credit(results["subject"], content_divs.length, L.display);
-    content_divs.unshift(header);    
-  }
-  // Done. Now, if there's no results...
-  if ((results["hits"].length == 0) || (content_divs.length == 0)) {
-    content_divs.push(Show.emptyResult(L.messages.no_subject_tag_result, L.display));
+    content_divs.unshift(header);
   }
   // HACK: revert to results mode
   Query.env.clear();

@@ -499,8 +499,56 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Display a gallery of photos with a given tag.
+// TODO: add paging values
+Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
+  var content_divs = [];
+  var page_results = results["hits"].slice();   // Working copy of photo set
+  var hit_count = page_results.length;
+  var overflow = 0;
+  if (hit_count > max_hits) {
+    // Too many hits. Randomize what we have and save the top N
+    overflow = max_hits;
+    page_results = Pandas.randomChoice(page_results, max_hits);
+  }
+  for (let photo of page_results) {
+    if (photo["photo.index"] != "0") {   // Not a null photo result
+      content_divs = content_divs.concat(Gallery.tagPhotoSingle(photo, language, add_emoji));
+    } else {
+      page_results.pop(page_results.indexOf(photo));
+    }
+  }
+  // Build a summary message based on which tag_photo parser mode we have,
+  // and whether we have hits or not.
+  var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
+  content_divs.unshift(header);
+  return content_divs;
+}
+
+// Logic to determine which message to display inside the photo gallery of tagged photos
+Gallery.tagPhotoMessage = function(results, hit_count, overflow) {
+  var header = undefined;
+  if (hit_count == 0) {
+    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+  } else if ((results["parsed"] == "set_tag") ||
+             (results["parsed"] == "set_tag_subject")) {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var ctag = Language.tagPrimary(tag);
+    header = Show.message.tag_subject(hit_count, results["subject"],
+                                      Language.L.tags[ctag]["emoji"], 
+                                      ctag, L.display, overflow);
+  } else if (results["parsed"] == "set_tag_intersection") {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
+  } else {
+    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+  }
+  return header;
+}
+
 // Take a photo that matches a tag, and display it along with the tag emoji
-Gallery.tagPhotoCredits = function(result, language, add_emoji) {
+Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   var content_divs = [];
   var animal = Pandas.searchPandaId(result.id)[0];
   var info = Show.acquirePandaInfo(animal, language);
