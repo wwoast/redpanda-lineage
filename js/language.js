@@ -866,7 +866,8 @@ Language.L.messages = {
            " shown."],
     "jp": ["<INSERTLIMIT>",
            "を表示中"],
-    "np": ["<INSERTLIMIT>",
+    "np": [" ",
+           "<INSERTLIMIT>",
            " मात्र"]
   },
   "profile_babies_children": {
@@ -1295,6 +1296,7 @@ Language.L.messages = {
            "<INSERTNAME>",
            " फोटोहरू ट्याग गरियो ",
            "<INSERTEMOJI>",
+           " ",
            "<INSERTTAG>",
            "।"]
   },
