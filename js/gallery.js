@@ -338,7 +338,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
 
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
-Gallery.groupPhotos = function(id_list, photo_count=Query.env.paging.media_count) {
+Gallery.groupPhotos = function(id_list, photo_count) {
   var photo_divs = [];
   var seen = {};
   for (let id of id_list) {
@@ -397,11 +397,29 @@ Gallery.groupPhotos = function(id_list, photo_count=Query.env.paging.media_count
       }
     }
   }
+  var redraw = true;
+  if (photo_count == undefined) {
+    // Get all photos (from the paging function), and
+    // HACK: don't redraw the menu
+    photo_count = photo_divs.length;
+    redraw = false;
+  }
   var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
-  if (photo_divs.length <= photo_count) {
-    // Last page of content. Hide Next button
-    Query.env.paging.display_button = false;
-    Page.footer.redraw("profile");
+  if (redraw == true) {
+    if (photo_divs.length <= photo_count) {
+      // Last page of content. Hide Next button
+      Query.env.paging.display_button = false;
+      Page.footer.redraw("profile");
+    } else if (redraw == true) {
+      Query.env.paging.callback.function = Gallery.groupPhotosPage;
+      Query.env.paging.callback.arguments = [
+        1,
+        id_list,
+        photo_count
+      ];
+      // Inject into the mediaFrame inside the contentFrame
+      Query.env.paging.callback.frame_id = "contentFrame";
+    }
   }
   return output;
 }
@@ -409,14 +427,25 @@ Gallery.groupPhotos = function(id_list, photo_count=Query.env.paging.media_count
 // Get the Nth page of group photos. Since we don't have a ton of group photos in general,
 // I figure this is OK to write in terms of the older groupPhotos which parses all photos
 // and writes name tags and such.
-Gallery.groupPhotosPage = function(id_list, page, photo_count) {
-  var photos = Gallery.groupPhotos(id_list, id_list.length);
+Gallery.groupPhotosPage = function(page, id_list, photo_count) {
+  var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
   var output = photos.slice(page * photo_count);
   if (output.length <= photo_count) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
-    Page.footer.redraw("profile");
+  } else {
+    // Limit to just photo_count of the output
+    output = output.slice(0, photo_count);
+    Query.env.paging.callback.function = Gallery.groupPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      id_list,
+      photo_count
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
   }
+  // Redraw the footer menu to update the paging button
+  Page.footer.redraw("profile");
   return output;
 }
 
@@ -538,7 +567,7 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
 
 // Use a page counter to determine where in the results count to start showing photos.
 // If photos on this page < max_hits, hide the next page button
-Gallery.tagPhotosPage = function(results, language, page, max_hits, add_emoji) {
+Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   var content_divs = [];
   var starting_point = page * Query.env.paging.results_count;
   // Working copy of photo set, starting at the nth page of photos
@@ -547,8 +576,22 @@ Gallery.tagPhotosPage = function(results, language, page, max_hits, add_emoji) {
   if (hit_count <= max_hits) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
-    Page.footer.redraw("results");
+  } else {
+    // Limit to just photo_count of the output
+    output = output.slice(0, photo_count);
+    // Set callbacks for next button, and redraw footer
+    Query.env.paging.callback.function = Gallery.tagPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      results,
+      language,
+      max_hits,
+      add_emoji
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
   }
+  // Redraw footer to update the paging button
+  Page.footer.redraw("results");
   // Always randomize the ordering of result photos
   page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   for (let photo of page_results) {

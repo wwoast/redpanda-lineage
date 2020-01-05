@@ -19,11 +19,18 @@ Query.env.preserve_case = false;
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
 Query.env.output_mode = "entities";
-// If a query has enough results to do paging, set display to true here.
 Query.env.paging = {};
+// If a query has enough results to do paging, display the button
+Query.env.paging.display_button = false;
+// Callback for how the next button loads new content on this page,
+// and what frame DIV it spools that content into.
+Query.env.paging.callback = {};
+// Page number must always come first in the arguments list
+Query.env.paging.callback.arguments = [];
+Query.env.paging.callback.function = undefined;
+Query.env.paging.callback.frame_id = undefined;
 Query.env.paging.media_count = 10;
 Query.env.paging.results_count = 25;
-Query.env.paging.display_button = false;
 // Paging seed, set to when the page was last loaded
 Query.env.paging.seed = Date.now();
 // If a URI indicates a specific photo, indicate which one here.
