@@ -398,6 +398,25 @@ Gallery.groupPhotos = function(id_list, photo_count=Query.env.paging.media_count
     }
   }
   var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
+  if (photo_divs.length <= photo_count) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+    Page.footer.redraw("profile");
+  }
+  return output;
+}
+
+// Get the Nth page of group photos. Since we don't have a ton of group photos in general,
+// I figure this is OK to write in terms of the older groupPhotos which parses all photos
+// and writes name tags and such.
+Gallery.groupPhotosPage = function(id_list, page, photo_count) {
+  var photos = Gallery.groupPhotos(id_list, id_list.length);
+  var output = photos.slice(page * photo_count);
+  if (output.length <= photo_count) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+    Page.footer.redraw("profile");
+  }
   return output;
 }
 
