@@ -680,7 +680,7 @@ Show.button.media.altAction = function(e) {
                               .filter(entity => entity["photo.1"] != undefined)
                               .map(entity => entity["panda.tags"])
                               .map(tag_ids => tag_ids.split(", "));
-  pandaIds = Pandas.unique(Parse.tree.flatten(pandaIds));
+  pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds));
   window.location = "#media/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page

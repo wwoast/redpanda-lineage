@@ -338,7 +338,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
 
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
-Gallery.groupPhotos = function(id_list, photo_count=10) {
+Gallery.groupPhotos = function(id_list, photo_count=Query.env.paging.media_count) {
   var photo_divs = [];
   var seen = {};
   for (let id of id_list) {
