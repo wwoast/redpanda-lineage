@@ -428,10 +428,10 @@ Language.L.gui = {
     "np": "अरु नामहरु"
   },
   "paging": {
-    "cn": "下一个…",
-    "en": "Next…",
-    "jp": "次…",
-    "np": "अर्को…"
+    "cn": "下一个",
+    "en": "Next",
+    "jp": "次",
+    "np": "अर्को"
   },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
