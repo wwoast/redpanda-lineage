@@ -1740,6 +1740,8 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
       p.appendChild(msg);
     }
   }
+  /*
+  // With paging, overflow messages are unnecessary...
   if (overflow > 0) {
     for (var i in L.messages.overflow[language]) {
       var field = L.messages.overflow[language][i];
@@ -1752,6 +1754,7 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
       }
     }
   }
+  */
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
