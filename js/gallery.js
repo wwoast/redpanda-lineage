@@ -397,7 +397,7 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
       }
     }
   }
-  var output = Pandas.randomChoice(photo_divs, photo_count);
+  var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
   return output;
 }
 
