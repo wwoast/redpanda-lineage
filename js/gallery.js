@@ -500,17 +500,38 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
 }
 
 // Display a gallery of photos with a given tag.
-// TODO: add paging values
 Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
-  var content_divs = [];
   var page_results = results["hits"].slice();   // Working copy of photo set
   var hit_count = page_results.length;
   var overflow = 0;
   if (hit_count > max_hits) {
     // Too many hits. Randomize what we have and save the top N
     overflow = max_hits;
-    page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   }
+  // Get the first page of content
+  var content_divs = Gallery.tagPhotosPage(results, language, 0, max_hits, add_emoji);
+  // Build a summary message based on which tag_photo parser mode we have,
+  // and whether we have hits or not.
+  var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
+  content_divs.unshift(header);
+  return content_divs;
+}
+
+// Use a page counter to determine where in the results count to start showing photos.
+// If photos on this page < max_hits, hide the next page button
+Gallery.tagPhotosPage = function(results, language, page, max_hits, add_emoji) {
+  var content_divs = [];
+  var starting_point = page * Query.env.paging.count;
+  // Working copy of photo set, starting at the nth page of photos
+  var page_results = results["hits"].slice(starting_point);
+  var hit_count = page_results.length;
+  if (hit_count <= max_hits) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+    Page.footer.redraw("results");
+  }
+  // Always randomize the ordering of result photos
+  page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   for (let photo of page_results) {
     if (photo["photo.index"] != "0") {   // Not a null photo result
       content_divs = content_divs.concat(Gallery.tagPhotoSingle(photo, language, add_emoji));
@@ -518,10 +539,6 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
       page_results.pop(page_results.indexOf(photo));
     }
   }
-  // Build a summary message based on which tag_photo parser mode we have,
-  // and whether we have hits or not.
-  var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
-  content_divs.unshift(header);
   return content_divs;
 }
 

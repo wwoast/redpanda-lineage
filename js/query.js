@@ -20,13 +20,9 @@ Query.env.preserve_case = false;
 // The "credit" search results in a spread of photos credited to a particular user.
 Query.env.output_mode = "entities";
 // If a query has enough results to do paging, set display to true here.
-// Also enforce defaults to restrict bandwidth use on mobile vs. desktop
 Query.env.paging = {};
+Query.env.paging.count = 25;
 Query.env.paging.display_button = false;
-Query.env.paging.initial_count = 25;
-// Subsequent pages of content
-Query.env.paging.desktop_count = 100;
-Query.env.paging.mobile_count = 25;
 // Paging seed, set to when the page was last loaded
 Query.env.paging.seed = Date.now();
 // If a URI indicates a specific photo, indicate which one here.
