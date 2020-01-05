@@ -19,6 +19,20 @@ Query.env.preserve_case = false;
 // However, other output modes are supported based on the supplied types.
 // The "credit" search results in a spread of photos credited to a particular user.
 Query.env.output_mode = "entities";
+Query.env.paging = {};
+// If a query has enough results to do paging, display the button
+Query.env.paging.display_button = false;
+// Callback for how the next button loads new content on this page,
+// and what frame DIV it spools that content into.
+Query.env.paging.callback = {};
+// Page number must always come first in the arguments list
+Query.env.paging.callback.arguments = [];
+Query.env.paging.callback.function = undefined;
+Query.env.paging.callback.frame_id = undefined;
+Query.env.paging.media_count = 10;
+Query.env.paging.results_count = 25;
+// Paging seed, set to when the page was last loaded
+Query.env.paging.seed = Date.now();
 // If a URI indicates a specific photo, indicate which one here.
 Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run
@@ -70,6 +84,7 @@ Query.resolver.group_one_set = function(set_node) {
   var tag = undefined;
   if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tags = keyword_nodes
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
@@ -123,12 +138,14 @@ Query.resolver.pair = function(set_node) {
   }
   if (set_node.type == "set_tag_subject") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tag = Parse.searchTag(keyword_node.str);
     var animals = Pandas.searchPandaMedia(search_word);
     hits = Pandas.searchPhotoTags(animals, [tag], mode="photos", fallback="none");
   }
   if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     tags = Parse.tree.filter(set_node, Parse.tree.tests.keyword)
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
@@ -182,6 +199,7 @@ Query.resolver.single = function(set_node, singular_node) {
   if (set_node.type == "set_tag") {
     if (Parse.group.tags.indexOf(search_word) != -1) {
       Query.env.output_mode = "photos";
+      Query.env.paging.display_button = true;
       // Find the canonical tag to do the searching by
       var tag = Parse.searchTag(search_word);
       // TODO: search media photos for all the animals by id, and include

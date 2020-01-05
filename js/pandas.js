@@ -409,9 +409,11 @@ Pandas.prngValue = function(input, count) {
     count = 1;
   }
   // Otherwise, take a chain of random values
-  var seed = Pandas.seededPrng(input);
-  for (let i = 0; i <= count - 1; i++) {
-    seed = Pandas.seededPrng(seed);
+  var next_input = input;
+  for (let i = 0; i <= count; i++) {
+    seed = Pandas.seededPrng(next_input);
+    // Since good inputs to prng should be integers, convert to integer
+    next_input = parseInt(seed.toString().split(".")[1])
   }
   return seed;
 }
@@ -434,30 +436,24 @@ Pandas.prngHash = n=>
 // Get random items from the array, trying our best not to 
 // select the same item more than once.
 Pandas.randomChoice = function(array, count) {
-  return Pandas.randomChoiceInner(array, undefined, count);
+  return Pandas.randomChoiceSeed(array, undefined, count);
 }
 
-// Get random items from the array in a deterministic way given an input
-// seed, which should be numeric/integer data
-Pandas.randomChoiceGivenSeed = function(array, seed_input, count) {
-  return Pandas.randomChoiceInner(array, seed_input, count);
-}
-
-// Do random choices given an input seed
-Pandas.randomChoiceInner = function(array, seed_input, count) {
+// Do random choices given an input seed. 
+// If seed_input is undefined, choose a random seed instead.
+Pandas.randomChoiceSeed = function(array, seed_input, count) {
   var seed = undefined;
   var seen = {};
   // If you want just all the array items, return a shuffle instead
   if (count >= array.length) {
     return Pandas.shuffle(array);
   }
-  for (let i = count; i > 0; i--) {
-    // Get a chosen-random value, or a truly random one 
-    // if seed_input is undefined
-    seed = Pandas.prngValue(seed_input, count);
+  var n = count;
+  for (let i = 1; i <= n; i++) {
+    seed = Pandas.prngValue(seed_input, i);
     var random = Math.floor(seed * array.length);
     if (random in seen) {
-      i = i + 1;   // We chose this one already
+      n = n + 1;   // Don't choose duplicate array indexes
     } else {
       seen[random] = array[random];
     }

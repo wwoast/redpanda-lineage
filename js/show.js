@@ -680,7 +680,7 @@ Show.button.media.altAction = function(e) {
                               .filter(entity => entity["photo.1"] != undefined)
                               .map(entity => entity["panda.tags"])
                               .map(tag_ids => tag_ids.split(", "));
-  pandaIds = Pandas.unique(Parse.tree.flatten(pandaIds));
+  pandaIds = Pandas.distinct(Parse.tree.flatten(pandaIds));
   window.location = "#media/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
   Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
@@ -715,6 +715,42 @@ Show.button.message.render = function(id, button_icon, button_text, class_name="
   }
   button.appendChild(content);
   return button;  
+}
+Show.button.paging = {};
+Show.button.paging.action = function(callback, parameters, frame_id, class_name) {
+  Show.button.language.hide();   // If language menu open, hide it
+  var new_photos = callback.apply(null, parameters);
+  // Append content into the page. HACK: always the first child of the container frame
+  var frame = document.getElementById(frame_id).childNodes[0];
+  for (let new_photo of new_photos) {
+    frame.appendChild(new_photo);
+  }
+  // Update the page count for the next button to use
+  parameters[0] = parameters[0] + 1;
+  // Redraw the footer with the next action, with the correct color (class_name)
+  Page.footer.redraw(class_name)
+}
+Show.button.paging.render = function(class_name) {
+  var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
+  // Get callback function and arguments from Query.env
+  var callback = Query.env.paging.callback.function;
+  var parameters = Query.env.paging.callback.arguments;
+  var frame_id = Query.env.paging.callback.frame_id;
+  paging.addEventListener("click", function() {
+    Show.button.paging.action(callback, parameters, frame_id, class_name);
+  });
+  // English and Japanese text is too wide
+  var text = paging.childNodes[0].childNodes[1];
+  if (L.display == "jp") {
+    text.classList.add("condensed");
+  } else {
+    text.classList.remove("condensed");
+  }
+  // If we're on a page that needs a "next page" button, display it (TODO)
+  if (Query.env.paging.display_button == false) {
+    paging.classList.add("hidden");
+  }   
+  return paging;
 }
 Show.button.profile = {};
 Show.button.profile.action = function(panda_id) {
@@ -1906,7 +1942,7 @@ Show.profile.menus.bottom = function() {
   menu.classList.remove("results");
   return menu;
 }
-Show.profile.menus.bottomButtons = ['topButton', 'homeButton', 'randomButton', 'searchButton'];
+Show.profile.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton', 'randomButton', 'searchButton'];
 Show.profile.menus.language = function() {
   return Show.landing.menus.language("profile");
 }
@@ -2194,7 +2230,7 @@ Show.results.menus.bottom = function() {
   menu.classList.remove("profile");
   return menu;
 }
-Show.results.menus.bottomButtons = ['topButton', 'homeButton'];
+Show.results.menus.bottomButtons = ['topButton', 'pagingButton', 'homeButton'];
 Show.results.menus.language = function() {
   return Show.landing.menus.language("results");
 }

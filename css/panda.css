@@ -125,6 +125,10 @@ button.menu.flag {
     width: 106px;  /* Divide 320px by number of buttons you expect to have */
 }
 
+button.menu.hidden {
+    display: none;
+}
+
 button.menu.profile, button.menu.flag.profile {
     background-color: #693638;
 }

@@ -57,6 +57,8 @@ Page.about.instructions = function() {
 Page.about.language = undefined;   // Language the content was loaded in
 Page.about.loaded = new Event('about_loaded');
 Page.about.render = function() {
+  // No need for paging on the about page
+  Query.env.paging.display_button = false;
   // Displays the about page when the button is clicked. Load content from a static
   // file based on the given language, and display it in a #contentFrame.about
   if (Page.about.language == undefined) {
@@ -253,6 +255,8 @@ Page.footer.render = function(language, class_name) {
 */
 Page.home = {};
 Page.home.render = function() {
+  // No need for paging on the home page
+  Query.env.paging.display_button = false;
   // Output just the base search bar with no footer.
   var old_content = document.getElementById('contentFrame');
   Show["results"].menus.language();
@@ -303,7 +307,10 @@ Page.links.hashchange = function() {
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Page.links.render = function() {
-  Page.links.sections.menuDefaults();   // Initialize submenus if necessary
+  // No need for paging on the links page
+  Query.env.paging.display_button = false;
+  // Initialize submenus if necessary
+  Page.links.sections.menuDefaults();
   var chosen = Page.stored.getItem("linksPageMenu");
   Page.links.content = Show.links.body(chosen);
   var old_content = document.getElementById('contentFrame');
@@ -372,6 +379,8 @@ Page.media.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
+  // TODO: count results and display a next page button if necessary
+  Query.env.paging.display_button = true;
   // Generate new content frames
   var gallery_div = Show.media.gallery(results["hits"][0], L.display);
   var new_content = document.createElement('div');
@@ -398,6 +407,8 @@ Page.profile = {};
 Page.profile.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
+  // Profile pages never have additional content to load
+  Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   var profile_div = Show.profile.panda(results["hits"][0], L.display);
@@ -611,63 +622,18 @@ Page.results.nearby = function(results) {
   return content_divs;
 }
 Page.results.photos = function(results) {
-  var content_divs = [];
   // Photo results have a slightly different structure from panda/zoo results
-  var max_tag_hits = 25;
+  var content_divs = [];
+  var max_tag_hits = Query.env.paging.results_count;
   if ((results["parsed"] == "set_tag") || 
       (results["parsed"] == "set_tag_subject")) {
-    var page_results = results["hits"].slice();   // Working copy of photo set
-    var hit_count = page_results.length;
-    var overflow = 0;
-    if (hit_count > max_tag_hits) {
-      // Too many hits. Randomize what we have and save the top N
-      overflow = max_tag_hits;
-      page_results = Pandas.randomChoice(page_results, max_tag_hits);
-    }
-    for (let photo of page_results) {
-      if (photo["photo.index"] != "0") {   // Not a null photo result
-        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, true));
-      } else {
-        page_results.pop(page_results.indexOf(photo));
-      }
-    }
-    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    // Write some HTML with summary information for the user and the number of photos
-    if (hit_count != 0) {
-      var ctag = Language.tagPrimary(tag);
-      var header = Show.message.tag_subject(hit_count, results["subject"],
-                                            Language.L.tags[ctag]["emoji"], 
-                                            ctag, L.display, overflow);
-      content_divs.unshift(header);
-    }
-  }
-  // Tag intersection search needs slightly different structure/messages
-  else if (results["parsed"] == "set_tag_intersection") {
-    var page_results = results["hits"].slice();   // Working copy of photo set
-    var hit_count = page_results.length;
-    var overflow = 0;
-    if (hit_count > max_tag_hits) {
-      // Too many hits. Randomize what we have and save the top N
-      overflow = max_tag_hits;
-      page_results = Pandas.randomChoice(page_results, max_tag_hits);
-    }
-    for (let photo of page_results) {
-      if (photo["photo.index"] != "0") {   // Not a null photo result
-        content_divs = content_divs.concat(Gallery.tagPhotoCredits(photo, L.display, false));
-      } else {
-        page_results.pop(page_results.indexOf(photo));
-      }
-    }
-    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
-    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    // Write some HTML with summary information for the user and the number of photos
-    if (hit_count != 0) {
-      var header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
-      content_divs.unshift(header);
-    }
-  }
-  // Term expression for a credit term, on panda/zoo results.
-  else if (results["parsed"] == "set_credit_photos") {
+    // Basic tag views with emoji in the name field
+    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, true);
+  } else if (results["parsed"] == "set_tag_intersection") {
+    // Combo tag views, no emoji in the name field
+    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, false);
+  } else if (results["parsed"] == "set_credit_photos") {
+    // Term expression for a credit term, on panda/zoo results. TODO: refactor
     results["hits"].forEach(function(entity) {
       // Zoo ids are negative numbers. Display zoo search result page
       if (entity["_id"] < 0) {
@@ -678,11 +644,7 @@ Page.results.photos = function(results) {
     });
     // Write some HTML with summary information for the user and the number of photos
     var header = Show.message.credit(results["subject"], content_divs.length, L.display);
-    content_divs.unshift(header);    
-  }
-  // Done. Now, if there's no results...
-  if ((results["hits"].length == 0) || (content_divs.length == 0)) {
-    content_divs.push(Show.emptyResult(L.messages.no_subject_tag_result, L.display));
+    content_divs.unshift(header);
   }
   // HACK: revert to results mode
   Query.env.clear();
@@ -691,6 +653,8 @@ Page.results.photos = function(results) {
 Page.results.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
+  // Don't assume a paging button is necessary until shown otherwise
+  Query.env.paging.display_button = false;
   // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   var content_divs = [];

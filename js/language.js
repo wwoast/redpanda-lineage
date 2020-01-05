@@ -149,6 +149,7 @@ Language.L.emoji = {
       "no_emoji": "⚪",
        "no_more": "🚫",
           "nose": "👃",
+        "paging": "⏬",
          "panda": "🐼",
           "paws": "🐾",
        "playing": "🃏",
@@ -425,6 +426,12 @@ Language.L.gui = {
     "en": "Other Names",
     "jp": "他の名前",
     "np": "अरु नामहरु"
+  },
+  "paging": {
+    "cn": "下一个",
+    "en": "Next",
+    "jp": "次",
+    "np": "अर्को"
   },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
@@ -852,14 +859,17 @@ Language.L.messages = {
     "np": ["नजिकै कुनै चिडियाखाना छैन"]
   },
   "overflow": {
-    "cn": ["仅显示",
-          "<INSERTLIMIT>"],
-    "en": [" Only ",
+    "cn": ["显示前",
+          "<INSERTLIMIT>",
+          "个"],
+    "en": [" First ",
            "<INSERTLIMIT>",
            " shown."],
-    "jp": ["<INSERTLIMIT>",
-           "を表示中"],
-    "np": ["<INSERTLIMIT>",
+    "jp": ["最初の",
+           "<INSERTLIMIT>",
+           "を表示"],
+    "np": [" ",
+           "<INSERTLIMIT>",
            " मात्र"]
   },
   "profile_babies_children": {
@@ -1288,6 +1298,7 @@ Language.L.messages = {
            "<INSERTNAME>",
            " फोटोहरू ट्याग गरियो ",
            "<INSERTEMOJI>",
+           " ",
            "<INSERTTAG>",
            "।"]
   },

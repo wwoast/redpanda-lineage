@@ -338,7 +338,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
 
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
-Gallery.groupPhotos = function(id_list, photo_count=10) {
+Gallery.groupPhotos = function(id_list, photo_count) {
   var photo_divs = [];
   var seen = {};
   for (let id of id_list) {
@@ -397,7 +397,55 @@ Gallery.groupPhotos = function(id_list, photo_count=10) {
       }
     }
   }
-  var output = Pandas.randomChoice(photo_divs, photo_count);
+  var redraw = true;
+  if (photo_count == undefined) {
+    // Get all photos (from the paging function), and
+    // HACK: don't redraw the menu
+    photo_count = photo_divs.length;
+    redraw = false;
+  }
+  var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
+  if (redraw == true) {
+    if (photo_divs.length <= photo_count) {
+      // Last page of content. Hide Next button
+      Query.env.paging.display_button = false;
+      Page.footer.redraw("profile");
+    } else if (redraw == true) {
+      Query.env.paging.callback.function = Gallery.groupPhotosPage;
+      Query.env.paging.callback.arguments = [
+        1,
+        id_list,
+        photo_count
+      ];
+      // Inject into the mediaFrame inside the contentFrame
+      Query.env.paging.callback.frame_id = "contentFrame";
+    }
+  }
+  return output;
+}
+
+// Get the Nth page of group photos. Since we don't have a ton of group photos in general,
+// I figure this is OK to write in terms of the older groupPhotos which parses all photos
+// and writes name tags and such.
+Gallery.groupPhotosPage = function(page, id_list, photo_count) {
+  var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
+  var output = photos.slice(page * photo_count);
+  if (output.length <= photo_count) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+  } else {
+    // Limit to just photo_count of the output
+    output = output.slice(0, photo_count);
+    Query.env.paging.callback.function = Gallery.groupPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      id_list,
+      photo_count
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
+  }
+  // Redraw the footer menu to update the paging button
+  Page.footer.redraw("profile");
   return output;
 }
 
@@ -499,8 +547,87 @@ Gallery.pandaPhotoCredits = function(animal, credit, language) {
   return content_divs;
 }
 
+// Display a gallery of photos with a given tag.
+Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
+  var page_results = results["hits"].slice();   // Working copy of photo set
+  var hit_count = page_results.length;
+  var overflow = 0;
+  if (hit_count > max_hits) {
+    // Too many hits. Randomize what we have and save the top N
+    overflow = max_hits;
+  }
+  // Get the first page of content
+  var content_divs = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
+  // Build a summary message based on which tag_photo parser mode we have,
+  // and whether we have hits or not.
+  var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
+  content_divs.unshift(header);
+  return content_divs;
+}
+
+// Use a page counter to determine where in the results count to start showing photos.
+// If photos on this page < max_hits, hide the next page button
+Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
+  var content_divs = [];
+  var starting_point = page * Query.env.paging.results_count;
+  // Working copy of photo set, starting at the nth page of photos
+  var page_results = results["hits"].slice(starting_point);
+  var hit_count = page_results.length;
+  if (hit_count <= max_hits) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+  } else {
+    // Limit to just photo_count of the output
+    page_results = page_results.slice(0, max_hits);
+    // Set callbacks for next button, and redraw footer
+    Query.env.paging.callback.function = Gallery.tagPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      results,
+      language,
+      max_hits,
+      add_emoji
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
+  }
+  // Redraw footer to update the paging button
+  Page.footer.redraw("results");
+  // Always randomize the ordering of result photos
+  page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
+  for (let photo of page_results) {
+    if (photo["photo.index"] != "0") {   // Not a null photo result
+      content_divs = content_divs.concat(Gallery.tagPhotoSingle(photo, language, add_emoji));
+    } else {
+      page_results.pop(page_results.indexOf(photo));
+    }
+  }
+  return content_divs;
+}
+
+// Logic to determine which message to display inside the photo gallery of tagged photos
+Gallery.tagPhotoMessage = function(results, hit_count, overflow) {
+  var header = undefined;
+  if (hit_count == 0) {
+    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+  } else if ((results["parsed"] == "set_tag") ||
+             (results["parsed"] == "set_tag_subject")) {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var ctag = Language.tagPrimary(tag);
+    header = Show.message.tag_subject(hit_count, results["subject"],
+                                      Language.L.tags[ctag]["emoji"], 
+                                      ctag, L.display, overflow);
+  } else if (results["parsed"] == "set_tag_intersection") {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
+  } else {
+    header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
+  }
+  return header;
+}
+
 // Take a photo that matches a tag, and display it along with the tag emoji
-Gallery.tagPhotoCredits = function(result, language, add_emoji) {
+Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   var content_divs = [];
   var animal = Pandas.searchPandaId(result.id)[0];
   var info = Show.acquirePandaInfo(animal, language);
