@@ -21,7 +21,8 @@ Query.env.preserve_case = false;
 Query.env.output_mode = "entities";
 // If a query has enough results to do paging, set display to true here.
 Query.env.paging = {};
-Query.env.paging.count = 25;
+Query.env.paging.media_count = 10;
+Query.env.paging.results_count = 25;
 Query.env.paging.display_button = false;
 // Paging seed, set to when the page was last loaded
 Query.env.paging.seed = Date.now();

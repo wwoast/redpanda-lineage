@@ -521,7 +521,7 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
 // If photos on this page < max_hits, hide the next page button
 Gallery.tagPhotosPage = function(results, language, page, max_hits, add_emoji) {
   var content_divs = [];
-  var starting_point = page * Query.env.paging.count;
+  var starting_point = page * Query.env.paging.results_count;
   // Working copy of photo set, starting at the nth page of photos
   var page_results = results["hits"].slice(starting_point);
   var hit_count = page_results.length;

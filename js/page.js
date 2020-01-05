@@ -624,7 +624,7 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   // Photo results have a slightly different structure from panda/zoo results
   var content_divs = [];
-  var max_tag_hits = Query.env.paging.count;
+  var max_tag_hits = Query.env.paging.results_count;
   if ((results["parsed"] == "set_tag") || 
       (results["parsed"] == "set_tag_subject")) {
     // Basic tag views with emoji in the name field
