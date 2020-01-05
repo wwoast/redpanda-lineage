@@ -557,7 +557,7 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
     overflow = max_hits;
   }
   // Get the first page of content
-  var content_divs = Gallery.tagPhotosPage(results, language, 0, max_hits, add_emoji);
+  var content_divs = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
   // Build a summary message based on which tag_photo parser mode we have,
   // and whether we have hits or not.
   var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
@@ -578,7 +578,7 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
     Query.env.paging.display_button = false;
   } else {
     // Limit to just photo_count of the output
-    output = output.slice(0, photo_count);
+    page_results = page_results.slice(0, max_hits);
     // Set callbacks for next button, and redraw footer
     Query.env.paging.callback.function = Gallery.tagPhotosPage;
     Query.env.paging.callback.arguments = [
