@@ -1679,6 +1679,8 @@ Show.message.tag_combo = function(num, emojis, language, overflow) {
   }
   output_text = Language.unpluralize([output_text])[0];
   p.appendChild(document.createTextNode(output_text));
+  /*
+  // With paging, overflow messages are unnecessary...
   if (overflow > 0) {
     for (var i in L.messages.overflow[language]) {
       var field = L.messages.overflow[language][i];
@@ -1691,6 +1693,7 @@ Show.message.tag_combo = function(num, emojis, language, overflow) {
       }
     }
   }
+  */
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
