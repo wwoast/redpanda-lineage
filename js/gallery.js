@@ -509,7 +509,7 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
   if (hit_count > max_hits) {
     // Too many hits. Randomize what we have and save the top N
     overflow = max_hits;
-    page_results = Pandas.randomChoice(page_results, max_hits);
+    page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   }
   for (let photo of page_results) {
     if (photo["photo.index"] != "0") {   // Not a null photo result

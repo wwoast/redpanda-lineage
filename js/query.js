@@ -23,8 +23,12 @@ Query.env.output_mode = "entities";
 // Also enforce defaults to restrict bandwidth use on mobile vs. desktop
 Query.env.paging = {};
 Query.env.paging.display_button = false;
+Query.env.paging.initial_count = 25;
+// Subsequent pages of content
 Query.env.paging.desktop_count = 100;
 Query.env.paging.mobile_count = 25;
+// Paging seed, set to when the page was last loaded
+Query.env.paging.seed = Date.now();
 // If a URI indicates a specific photo, indicate which one here.
 Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run
