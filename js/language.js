@@ -859,13 +859,15 @@ Language.L.messages = {
     "np": ["नजिकै कुनै चिडियाखाना छैन"]
   },
   "overflow": {
-    "cn": ["仅显示",
-          "<INSERTLIMIT>"],
-    "en": [" Only ",
+    "cn": ["显示前",
+          "<INSERTLIMIT>",
+          "个"],
+    "en": [" First ",
            "<INSERTLIMIT>",
            " shown."],
-    "jp": ["<INSERTLIMIT>",
-           "を表示中"],
+    "jp": ["最初の",
+           "<INSERTLIMIT>",
+           "を表示"],
     "np": [" ",
            "<INSERTLIMIT>",
            " मात्र"]
