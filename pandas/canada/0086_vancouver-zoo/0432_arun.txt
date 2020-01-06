@@ -123,7 +123,7 @@ photo.27.tags: air tasting, tongue, tree
 photo.28: https://www.instagram.com/p/BqoRbXzhkRH/media/?size=m
 photo.28.author: westcoast_kathy
 photo.28.link: https://www.instagram.com/westcoast_kathy/
-photo.28.tags: bamboo, profile
+photo.28.tags: bamboo
 photo.29: https://www.instagram.com/p/BrofWNGhZQQ/media/?size=m
 photo.29.author: westcoast_kathy
 photo.29.link: https://www.instagram.com/westcoast_kathy/
@@ -348,5 +348,9 @@ photo.85: https://www.instagram.com/p/B6HHlDQghoK/media/?size=m
 photo.85.author: westcoast_kathy
 photo.85.link: https://www.instagram.com/westcoast_kathy/
 photo.85.tags: laying down, whiskers
+photo.86: https://www.instagram.com/p/B6uVlP3DsqP/media/?size=m
+photo.86.author: westcoast_kathy
+photo.86.link: https://www.instagram.com/westcoast_kathy/
+photo.86.tags: portrait, profile, whiskers
 species: 2
 zoo: 86
