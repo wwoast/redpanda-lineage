@@ -17,7 +17,7 @@ location.2: 30, 2015/1/15
 photo.1: https://www.instagram.com/p/BTDwxn5gi70/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: bamboo, profile, muzzle, techitechi, tongue
+photo.1.tags: bamboo, muzzle, techitechi, tongue
 photo.2: https://www.instagram.com/p/BsG-en1F72s/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
@@ -57,6 +57,10 @@ photo.10.tags: mofumofu, portrait
 photo.11: https://www.instagram.com/p/B2ZLo4MhH9h/media/?size=m
 photo.11.author: miis_98
 photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: apple time, dish, portrait, smile
+photo.11.tags: apple time, dish, portrait, profile, smile
+photo.12: https://www.instagram.com/p/B6z7Oc-BBlE/media/?size=m
+photo.12.author: re_ichimaru
+photo.12.link: https://www.instagram.com/re_ichimaru/
+photo.12.tags: bamboo, muzzle, portrait, smile
 species: 2
 zoo: 30

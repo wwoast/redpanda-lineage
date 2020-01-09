@@ -19,10 +19,34 @@ photo.1.tags: baby
 photo.2: https://www.instagram.com/p/B3ErlbbHarv/media/?size=m
 photo.2.author: cincinnatizoo
 photo.2.link: https://www.instagram.com/cincinnatizoo/
-photo.2.tags: baby, portrait, whiskers
+photo.2.tags: baby, portrait, profile, whiskers
 photo.3: https://www.instagram.com/p/B6yeFoDBDoX/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: bamboo, snow
+photo.4: https://www.instagram.com/p/B60Lyr-hjeT/media/?size=m
+photo.4.author: worldthathesees
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tail, whiskers
+photo.5: https://www.instagram.com/p/B621txJhFux/media/?size=m
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, tree, techitechi
+photo.6: https://www.instagram.com/p/B63jFUTh-zM/media/?size=m
+photo.6.author: worldthathesees
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: mofumofu, tail, tree
+photo.7: https://www.instagram.com/p/B67_JwXh1h2/media/?size=m
+photo.7.author: worldthathesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: paws, portrait, snow, techitechi
+photo.8: https://www.instagram.com/p/B67AqelBSGJ/media/?size=m
+photo.8.author: worldthathesees
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: bamboo, portrait, standing, tail, tree
+photo.9: https://www.instagram.com/p/B65aYW7BIOj/media/?size=m
+photo.9.author: worldthathesees
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: portrait, snow, whiskers
 species: 2
 zoo: 65
