@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 1, 2016/7/6
+location.2: 32, 2019/1/6
 photo.1: https://www.instagram.com/p/Bgcw1YHFmt4/media/?size=m
 photo.1.author: takashi_8310iyo
 photo.1.link: https://www.instagram.com/takashi_8310iyo/
@@ -586,4 +588,4 @@ species: 2
 video.1: https://www.youtube.com/watch?v=9m89fVLit44
 video.1.author: vitamin z
 video.1.link: https://www.youtube.com/channel/UCXvA8FmqTxoxgS55vy_L5cQ
-zoo: 1
+zoo: 32
