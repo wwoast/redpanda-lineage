@@ -2,7 +2,8 @@
 _id: 29
 en.address: ２３９９ Katata, Shirahama, Nishimuro District, Wakayama Prefecture 649-2201, Japan
 en.location: Shirahama, Wakayama Prefecture
-en.name: Wakayama Adventure World
+en.name: Adventure World
+en.othernames: Wakayama Adventure World
 flag: Japan
 jp.address: 〒649-2201 和歌山県西牟婁郡白浜町堅田２３９９
 jp.location: 白浜町 和歌山県
@@ -17,4 +18,7 @@ photo.1.link: https://www.instagram.com/doubakahanshidemenbaka/
 photo.2: https://www.instagram.com/p/B5P-Lv_jJKE/media/?size=m
 photo.2.author: hiroko.8125
 photo.2.link: https://www.instagram.com/hiroko.8125/
+photo.3: https://www.instagram.com/p/B7I0mIThaDk/media/?size=m
+photo.3.author: framereim
+photo.3.link: https://www.instagram.com/framereim/
 website: http://www.aws-s.com/

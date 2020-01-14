@@ -5,7 +5,7 @@ birthplace: 15
 children: 136, 191, 608, 157, 192, 287, 67, 83, 105, 36, 74
 en.name: Fan-Fan
 en.nicknames: none
-en.othernames: none
+en.othernames: Fanfan
 gender: f
 jp.name: ファンファン
 jp.nicknames: none
@@ -17,7 +17,7 @@ location.2: 17, 2001/5/12
 photo.1: https://www.instagram.com/p/BtF96jgFcIQ/media/?size=m
 photo.1.author: mofu_pan
 photo.1.link: https://www.instagram.com/mofu_pan/
-photo.1.tags: bamboo, old
+photo.1.tags: bamboo, old, portrait
 photo.2: https://www.instagram.com/p/Bu3NLArllOI/media/?size=m
 photo.2.author: nakayamanoboru6981
 photo.2.link: https://www.instagram.com/nakayamanoboru6981/
@@ -34,6 +34,10 @@ photo.5: https://www.instagram.com/p/B52u1cSBxdg/media/?size=m
 photo.5.author: osopanda551
 photo.5.link: https://www.instagram.com/osopanda551/
 photo.5.tags: bamboo, laying down, portrait, tail, white face
+photo.6: https://www.instagram.com/p/B7I1JKmhOMz/media/?size=m
+photo.6.author: osopanda551
+photo.6.link: https://www.instagram.com/osopanda551/
+photo.6.tags: bamboo, mofumofu, old, portrait, profile
 species: 2
 video.1: https://youtu.be/AnjnjrW-9iw
 video.1.author: ガメ
