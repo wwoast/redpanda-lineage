@@ -14,13 +14,9 @@ language.order: en, jp
 litter: 486
 location.1: 82, 2017/7/23
 location.2: 83, 2019/3/29
-photo.1: https://www.instagram.com/p/BZhUPhkF7fB/media/?size=m
-photo.1.author: edmontonvalleyzoo
-photo.1.link: https://www.instagram.com/p/BZhUPhkF7fB/
-photo.1.tags: baby, profile
-photo.2: https://www.instagram.com/p/B1OacpWDnbH/media/?size=m
-photo.2.author: mitchellreineke
-photo.2.link: https://www.instagram.com/mitchellreineke/
-photo.2.tags: peek, profile, tree
+photo.1: https://www.instagram.com/p/B1OacpWDnbH/media/?size=m
+photo.1.author: mitchellreineke
+photo.1.link: https://www.instagram.com/mitchellreineke/
+photo.1.tags: peek, profile, tree
 species: 2
 zoo: 83
