@@ -17,6 +17,18 @@ location.2: 82, 2013/7/11
 photo.1: https://www.instagram.com/p/Bx72T_7gxpZ/media/?size=m
 photo.1.author: edmontonvalleyzoo
 photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
-photo.1.tags: profile
+photo.1.tags: whiskers
+photo.2: https://www.instagram.com/p/Byamiongemv/media/?size=m
+photo.2.author: edmontonvalleyzoo
+photo.2.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.2.tags: paws, whiskers
+photo.3: https://www.instagram.com/p/B2rf9HRA8Zn/media/?size=m
+photo.3.author: edmontonvalleyzoo
+photo.3.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.3.tags: laying down, portrait, profile, tail
+photo.4: https://www.instagram.com/p/B6v4f4_g-T7/media/?size=m
+photo.4.author: edmontonvalleyzoo
+photo.4.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.4.tags: whiskers
 species: 2
 zoo: 82
