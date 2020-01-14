@@ -1,0 +1,22 @@
+[panda]
+_id: 1090
+birthday: 2013/6/6
+birthplace: 213
+children: unknown
+en.name: Kush
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クッシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 213, 2013/6/6
+location.2: 198, 2014/6/22
+photo.1: https://www.instagram.com/p/BaWh9bphNKM/media/?size=m
+photo.1.author: curraghswildlifepark
+photo.1.link: https://www.instagram.com/curraghswildlifepark/
+photo.1.tags: bamboo, portrait, profile, smile, whiskers
+species: 1
+zoo: 198
