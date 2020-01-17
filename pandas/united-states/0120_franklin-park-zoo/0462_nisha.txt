@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 51, 2017/6/13
+location.2: 120, 2018/10/1
 photo.1: https://www.instagram.com/p/Bb7m6QdgqwM/media/?size=m
 photo.1.author: smitshow
 photo.1.link: https://www.instagram.com/smitshow/
@@ -19,10 +21,18 @@ photo.1.tags: snow
 photo.2: https://www.instagram.com/p/BpsV4qSBlQL/media/?size=m
 photo.2.author: martyna.chomiuk
 photo.2.link: https://www.instagram.com/martyna.chomiuk/
-photo.2.tags: apple time, bamboo, profile, snow
+photo.2.tags: apple time, bamboo, snow
 photo.3: https://www.instagram.com/p/B2rIfb8AIBe/media/?size=m
 photo.3.author: artistic_zebra_photography
 photo.3.link: https://www.instagram.com/artistic_zebra_photography/
 photo.3.tags: laying down, sleeping
+photo.4: https://www.instagram.com/p/B5gDDs2p-z1/media/?size=m
+photo.4.author: rossifari
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: bamboo, portrait, profile
+photo.5: https://www.instagram.com/p/B5x8-XspJS9/media/?size=m
+photo.5.author: rossifari
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: grumpy, whiskers
 species: 2
-zoo: 51
+zoo: 120

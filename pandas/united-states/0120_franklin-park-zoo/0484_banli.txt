@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 84, 2017/6/30
+location.2: 120, 2018/10/1
 photo.1: https://www.instagram.com/p/BbXU3gVHiLX/media/?size=m
 photo.1.author: animal_lifenyc
 photo.1.link: https://www.instagram.com/animal_lifenyc/
@@ -28,5 +30,9 @@ photo.4: https://www.instagram.com/p/BeL6qLfnDs5/media/?size=m
 photo.4.author: animal_lifenyc
 photo.4.link: https://www.instagram.com/animal_lifenyc/
 photo.4.tags: baby
+photo.5: https://www.instagram.com/p/Btet3B0gXJX/media/?size=m
+photo.5.author: zoonewengland
+photo.5.link: https://www.instagram.com/zoonewengland/
+photo.5.tags: bamboo
 species: 2
-zoo: 84
+zoo: 120
