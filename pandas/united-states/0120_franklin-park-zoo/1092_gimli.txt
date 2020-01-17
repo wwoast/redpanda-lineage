@@ -1,0 +1,28 @@
+[panda]
+_id: 1092
+birthday: 2019/7/6
+birthplace: 120
+children: none
+en.name: Gimli
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: ギムリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/B3DPj7uHFC7/media/?size=m
+photo.1.author: zoonewengland
+photo.1.link: https://www.instagram.com/zoonewengland/
+photo.1.tags: baby, portrait
+photo.2: https://www.instagram.com/p/B5QRABXngKr/media/?size=m
+photo.2.author: zoonewengland
+photo.2.link: https://www.instagram.com/zoonewengland/
+photo.2.tags: baby, portrait
+photo.3: https://www.instagram.com/p/B7J1sVin3WZ/media/?size=m
+photo.3.author: zoonewengland
+photo.3.link: https://www.instagram.com/zoonewengland/
+photo.3.tags: baby, portrait, smile
+species: 1
+zoo: 120
