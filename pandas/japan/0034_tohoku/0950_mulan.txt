@@ -39,7 +39,7 @@ photo.6.tags: baby, bite, peek, portrait
 photo.7: https://www.instagram.com/p/B3uVMdihX7H/media/?size=m
 photo.7.author: nakayamanoboru6981
 photo.7.link: https://www.instagram.com/nakayamanoboru6981/
-photo.7.tags: baby, portrait, profile
+photo.7.tags: baby, portrait
 photo.8: https://www.instagram.com/p/B3w0FPbhf8x/media/?size=m
 photo.8.author: nakayamanoboru6981
 photo.8.link: https://www.instagram.com/nakayamanoboru6981/
@@ -88,5 +88,13 @@ photo.19: https://www.instagram.com/p/B7QUATJhnyT/media/?size=m
 photo.19.author: pink.b22
 photo.19.link: https://www.instagram.com/pink.b22/
 photo.19.tags: apple time, keeper, portrait
+photo.20: https://www.instagram.com/p/B7URJi2h0yz/media/?size=m
+photo.20.author: ode_kake
+photo.20.link: https://www.instagram.com/ode_kake/
+photo.20.tags: bamboo, bite, paws, portrait, profile
+photo.21: https://www.instagram.com/p/B7Q7Q_3g3PR/media/?size=m
+photo.21.author: miis_98
+photo.21.link: https://www.instagram.com/miis_98/
+photo.21.tags: air tasting, baby, portrait, tongue
 species: 2
 zoo: 34
