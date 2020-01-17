@@ -15,7 +15,7 @@ litter: none
 photo.1: https://www.instagram.com/p/By7EPZohRSO/media/?size=m
 photo.1.author: lesserpanda_shizuokacity_cp
 photo.1.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.1.tags: baby, keeper, paws, portrait, profile
+photo.1.tags: baby, keeper, paws, portrait
 photo.2: https://www.instagram.com/p/B2Jtnr4hI9u/media/?size=m
 photo.2.author: yakko____
 photo.2.link: https://www.instagram.com/yakko____/
@@ -155,7 +155,7 @@ photo.35.tags: apple time, baby, keeper
 photo.36: https://www.instagram.com/p/B3xx-HlhzUV/media/?size=m
 photo.36.author: miis_98
 photo.36.link: https://www.instagram.com/miis_98/
-photo.36.tags: baby, laying down, portrait, tree
+photo.36.tags: baby, laying down, portrait, profile, tree
 photo.37: https://www.instagram.com/p/B32zRZ4H9_F/media/?size=m
 photo.37.author: tetusara.ki_
 photo.37.link: https://www.instagram.com/tetusara.ki_/
@@ -214,5 +214,13 @@ photo.51: https://www.instagram.com/p/B6ktciqBLpN/media/?size=m
 photo.51.author: wumpwoast
 photo.51.link: https://www.instagram.com/wumpwoast/
 photo.51.tags: bamboo, laying down, paws, portrait, smile
+photo.52: https://www.instagram.com/p/B7YeLogBwyL/media/?size=m
+photo.52.author: ayusuke56
+photo.52.link: https://www.instagram.com/ayusuke56/
+photo.52.tags: bamboo, portrait
+photo.53: https://www.instagram.com/p/B7D5YpGhYxy/media/?size=m
+photo.53.author: ayusuke56
+photo.53.link: https://www.instagram.com/ayusuke56/
+photo.53.tags: portrait, shake
 species: 2
 zoo: 16
