@@ -1009,6 +1009,65 @@ Pandas.searchZooName = function(zoo_name_str) {
     Methods for sorting the output of Panda searches.
     Birthday searches use Unix epoch time and do javascript value sort.
 */
+// Sort Japanese panda names by determining the hiragana-equivalent name
+// for each animal in the dataset.
+Pandas.sortByNameJapanese = function(nodes) {
+  var hiragana_generate = function(name) {
+    var hiragana = Pandas.def.ranges['jp'][1];   // Hiragana range regex
+    var katakana = Pandas.def.ranges['jp'][2];   // Katakana range regex
+    if (hiragana.test(name) == true) {
+      return name;
+    }
+    if (katakana.test(name) == true) {
+      return Language.katakanaToHiragana(name);
+    }
+  }
+
+  var build_name_list = function(node, name_field, othername_field) {
+    var name_list = [];
+    if (name_field in node) {
+      name_list = name_list.concat(node[name_field]);
+    }
+    if (othername_field in node) {
+      name_list = name_list.concat(node[othername_field].split(", "));
+    }
+    return name_list;
+  }
+
+  var name_field = "jp.name";
+  var othername_field = "jp.othernames";
+  var sort_name = "jp.sortname";
+
+  var connector = Language.L.messages["and"][L.display]
+  nodes = nodes.map(function(node) {
+    // Determine which panda is first in the photo, and sort by
+    // its hiragana name in the "othernames" list if necessary
+    if (node["_id"].indexOf("media.") == 0) {
+      var panda_ids = node["panda.tags"].split(", ");
+      var animals = panda_ids.map(function(id) {
+        var panda = Pandas.searchPandaId(id)[0];
+        return panda;
+      })
+      // Sort only by the first name in the photo
+      var first_group_name = node[name_field].split(connector)[0];
+      var animal = animals.filter(animal => animal[name_field] == first_group_name)[0];
+      var name_list = build_name_list(animal, name_field, othername_field);
+      node[sort_name] = name_list.map(function(name) {
+        return hiragana_generate(name);
+      }).filter(name => name != undefined)[0];
+    } else {
+      // Sort by the first hiragana name, from the "othernames"
+      // list if necessary. Find the first hiragana or katakana string.
+      var name_list = build_name_list(node, name_field, othername_field);
+      node[sort_name] = name_list.map(function(name) {
+        return hiragana_generate(name);
+      }).filter(name => name != undefined)[0];
+    }
+    return node;
+  });
+  return Pandas.sortByName(nodes, sort_name);
+}
+
 // Sort a list of pandas by their desired "Lang.name" field.
 // Works for non-group entities (pandas and zoos).
 Pandas.sortByName = function(nodes, name_field) {
@@ -1036,7 +1095,11 @@ Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
     }
     return node;
   });
-  return Pandas.sortByName(nodes, name_field);
+  if (L.display == "jp") {
+    return Pandas.sortByNameJapanese(nodes);
+  } else {
+    return Pandas.sortByName(nodes, name_field);
+  }
 }
 
 Pandas.sortPhotosByName = function(photo_list, name_field) {
