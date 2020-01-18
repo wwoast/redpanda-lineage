@@ -1026,10 +1026,10 @@ Pandas.sortByNameJapanese = function(nodes) {
   var build_name_list = function(node, name_field, othername_field) {
     var name_list = [];
     if (name_field in node) {
-      name_list.push(node[name_field]);
+      name_list = name_list.concat(node[name_field]);
     }
     if (othername_field in node) {
-      name_list.push(node[othername_field].split(", "));
+      name_list = name_list.concat(node[othername_field].split(", "));
     }
     return name_list;
   }
@@ -1045,23 +1045,23 @@ Pandas.sortByNameJapanese = function(nodes) {
     if (node["_id"].indexOf("media.") == 0) {
       var panda_ids = node["panda.tags"].split(", ");
       var animals = panda_ids.map(function(id) {
-        var panda = Pandas.searchPandaId(id);
+        var panda = Pandas.searchPandaId(id)[0];
         return panda;
       })
       // Sort only by the first name in the photo
       var first_group_name = node[name_field].split(connector)[0];
-      var animal = animals.filter(animal => animal[name_field] == first_group_name);
+      var animal = animals.filter(animal => animal[name_field] == first_group_name)[0];
       var name_list = build_name_list(animal, name_field, othername_field);
-      node[sort_name] = name_list.filter(function(name) {
+      node[sort_name] = name_list.map(function(name) {
         return hiragana_generate(name);
-      })[0];
+      }).filter(name => name != undefined)[0];
     } else {
       // Sort by the first hiragana name, from the "othernames"
       // list if necessary. Find the first hiragana or katakana string.
       var name_list = build_name_list(node, name_field, othername_field);
-      node[sort_name] = name_list.filter(function(name) {
+      node[sort_name] = name_list.map(function(name) {
         return hiragana_generate(name);
-      })[0];
+      }).filter(name => name != undefined)[0];
     }
     return node;
   });
