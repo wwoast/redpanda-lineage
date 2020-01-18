@@ -18,6 +18,10 @@ location.2: 23, 2015/11/26
 photo.1: https://www.instagram.com/p/qOs1NxrpLW/media/?size=m
 photo.1.author: honeyandyogurt
 photo.1.link: https://www.instagram.com/honeyandyogurt/
-photo.1.tags: portrait, profile
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/BHqzKQpA9KN/media/?size=m
+photo.2.author: fuji_safari
+photo.2.link: https://www.instagram.com/fuji_safari/
+photo.2.tags: laying down, portrait, profile, whiskers
 species: 2
 zoo: 23
