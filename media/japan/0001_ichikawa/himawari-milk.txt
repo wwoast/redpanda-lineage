@@ -1,0 +1,9 @@
+[media]
+_id: media.1.himawari-milk
+panda.tags: 8, 247
+photo.1: https://www.instagram.com/p/BrMOcH_ljDH/media/?size=m
+photo.1.author: ck.chie
+photo.1.link: https://www.instagram.com/ck.chie/
+photo.1.tags: autumn, door, sisters
+photo.1.tags.8.location: 140, 125
+photo.1.tags.247.location: 180, 125
