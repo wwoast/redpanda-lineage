@@ -336,7 +336,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
   return birthday_div;
 }
 
-// Take pandaPhotoCredis and zooPhotoCredits, and interleave them as results.
+// Take pandaPhotoCredits and zooPhotoCredits, and interleave them as results.
 Gallery.creditPhotos = function(results, language, max_hits) {
   var photo_results = Gallery.creditPhotosPage(0, results, language, max_hits);
   var content_divs = photo_results["output"];
@@ -352,27 +352,28 @@ Gallery.creditPhotos = function(results, language, max_hits) {
 // TODO: zooPhotoCredits and pandaPhotoCredits shouldn't return divs yet, to prevent
 // loading the entire image set each time you only want (set/N) images
 Gallery.creditPhotosPage = function(page, results, language, max_hits) {
-  var grab_divs = [];
+  var grab_photos = [];
+  var content_photos = [];
   var content_divs = [];
   // We must unspool the results because each entity we query here can have multiple
   // results returned, and the paging must only return the first max_hits content.
   for (let entity of results["hits"]) {
     if (entity["_id"] < 0) {
-      grab_divs = grab_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
+      grab_photos = grab_photos.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
     } else {
-      grab_divs = grab_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], language));
+      grab_photos = grab_photos.concat(Gallery.pandaPhotoCredits(entity, results["subject"], language));
     }
   }
   var starting_point = page * Query.env.paging.results_count;
   // Working copy of photo set, starting at the nth page of photos
-  var content_divs = grab_divs.slice(starting_point);
-  var hit_count = content_divs.length;
+  var content_photos = grab_photos.slice(starting_point);
+  var hit_count = content_photos.length;
   if (hit_count <= max_hits) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
   } else {
     // Limit to just photo_count of the output
-    content_divs = content_divs.slice(0, max_hits);
+    content_photos = content_photos.slice(0, max_hits);
     // Set callbacks for next button, and redraw footer
     Query.env.paging.callback.function = Gallery.creditPhotosPage;
     Query.env.paging.callback.arguments = [
@@ -383,11 +384,20 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
   }
+  // Take the desired content_photos and convert them to divs
+  content_photos.forEach(function(photo) {
+    if (photo["type"] == "panda") {
+      content_divs = content_divs.concat(Gallery.pandaPhotoCreditSingle(photo));
+    }
+    if (photo["type"] == "zoo") {
+      content_divs = content_divs.concat(Gallery.zooPhotoCreditSingle(photo));
+    }
+  });
   // Redraw footer to update the paging button
   Page.footer.redraw("results");
   return {
     "output": content_divs,
-    "hit_count": grab_divs.length
+    "hit_count": grab_photos.length
   }
 }
 
@@ -558,50 +568,59 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
 Gallery.pandaPhotoCredits = function(animal, credit, language) {
-  var content_divs = [];
   var photos = [];
-  var info = Show.acquirePandaInfo(animal, language);
   var photo_indexes = Pandas.photoGeneratorEntity;
   for (let field_name of photo_indexes(animal, 0)) {
     if (animal[field_name + ".author"] == credit) {
-      photos.push({"image": animal[field_name], "index": field_name});
+      photos.push({
+        "id": animal["_id"],
+        "image": animal[field_name], 
+        "index": field_name,
+        "type": "panda"}
+      );
     }
   }
-  for (let item of photos) {
-    var photo = item.image;
-    var index = item.index.split(".")[1];
-    var img_link = document.createElement('a');
-    // Link to the original instagram media
-    img_link.href = photo;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
-    img_link.target = "_blank";   // Open in new tab
-    var img = document.createElement('img');
-    img.src = photo;
-    img.src = img.src.replace('/?size=m', '/?size=t');
-    img.src = img.src.replace('/?size=l', '/?size=t');
-    img_link.appendChild(img);
-    var caption_link = document.createElement('a');
-    // TODO: better handling of group photos
-    if (animal._id.indexOf("media.") != 0) {
-      caption_link.href = "#panda/" + animal._id + "/photo/" + index;
-    }
-    var caption = document.createElement('h5');
-    caption.className = "caption";
-    // TODO: handling of names of group pandas
-    if (animal._id.indexOf("media.") == 0) {
-      caption.innerText = Pandas.groupMediaCaption(animal, item.index);
-    } else {
-      caption.innerText = info.name;
-    }
-    caption_link.appendChild(caption);
-    var container = document.createElement('div');
-    container.className = "photoSample";
-    container.appendChild(img_link);
-    container.appendChild(caption_link);
-    content_divs.push(container);
+  return photos;
+}
+
+// Format a panda credit photo into displayable content
+Gallery.pandaPhotoCreditSingle = function(item) {
+  var photo = item.image;
+  var index = item.index.split(".")[1];
+  var img_link = document.createElement('a');
+  var id = item.id;
+  // Link to the original instagram media
+  img_link.href = photo;
+  img_link.href = img_link.href.replace("/media/?size=m", "/");
+  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.target = "_blank";   // Open in new tab
+  var img = document.createElement('img');
+  img.src = photo;
+  img.src = img.src.replace('/?size=m', '/?size=t');
+  img.src = img.src.replace('/?size=l', '/?size=t');
+  img_link.appendChild(img);
+  var caption_link = document.createElement('a');
+  // TODO: better handling of group photos
+  if (id.indexOf("media.") != 0) {
+    caption_link.href = "#panda/" + id + "/photo/" + index;
   }
-  return content_divs;
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  // TODO: handling of names of group pandas
+  if (id.indexOf("media.") == 0) {
+    var entity = Pandas.searchPandaId(id)[0];
+    caption.innerText = Pandas.groupMediaCaption(entity, item.index);
+  } else {
+    var animal = Pandas.searchPandaId(id)[0];
+    var name = Pandas.myName(animal, L.display);
+    caption.innerText = name;
+  }
+  caption_link.appendChild(caption);
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img_link);
+  container.appendChild(caption_link);
+  return container;
 }
 
 // Display a gallery of photos with a given tag.
@@ -931,42 +950,47 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
 Gallery.zooPhotoCredits = function(zoo, credit, language) {
-  var content_divs = [];
   var photos = [];
-  var info = Show.acquireZooInfo(zoo, language);
   var photo_indexes = Pandas.photoGeneratorEntity;
   for (let field_name of photo_indexes(zoo, 0)) {
     if (zoo[field_name + ".author"] == credit) {
-      photos.push({"image": zoo[field_name], "index": field_name});
+      photos.push({
+        "id": zoo["_id"],
+        "image": zoo[field_name],
+        "index": field_name,
+        "type": "zoo"});
     }
   }
-  for (let item of photos) {
-    var photo = item.image;
-    var index = item.index.split(".")[1];
-    var img_link = document.createElement('a');
-    // Link to the original instagram media
-    img_link.href = photo;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
-    img_link.target = "_blank";   // Open in new tab
-    var img = document.createElement('img');
-    img.src = photo;
-    img.src = img.src.replace('/?size=m', '/?size=t');
-    img.src = img.src.replace('/?size=l', '/?size=t');
-    img_link.appendChild(img);
-    var caption_link = document.createElement('a');
-    caption_link.href = "#zoo/" + zoo._id + "/photo/" + index;
-    var caption = document.createElement('h5');
-    caption.className = "caption";
-    caption.innerText = info.name;
-    caption_link.appendChild(caption);
-    var container = document.createElement('div');
-    container.className = "photoSample";
-    container.appendChild(img_link);
-    container.appendChild(caption_link);
-    content_divs.push(container);
-  }
-  return content_divs;
+  return photos;
+}
+
+Gallery.zooPhotoCreditSingle = function(item) {
+  var photo = item.image;
+  var index = item.index.split(".")[1];
+  var img_link = document.createElement('a');
+  var id = item.id;
+  var info = Show.acquireZooInfo(id, L.display);
+  // Link to the original instagram media
+  img_link.href = photo;
+  img_link.href = img_link.href.replace("/media/?size=m", "/");
+  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.target = "_blank";   // Open in new tab
+  var img = document.createElement('img');
+  img.src = photo;
+  img.src = img.src.replace('/?size=m', '/?size=t');
+  img.src = img.src.replace('/?size=l', '/?size=t');
+  img_link.appendChild(img);
+  var caption_link = document.createElement('a');
+  caption_link.href = "#zoo/" + id + "/photo/" + index;
+  var caption = document.createElement('h5');
+  caption.className = "caption";
+  caption.innerText = info.name;
+  caption_link.appendChild(caption);
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  container.appendChild(img_link);
+  container.appendChild(caption_link);
+  return container;
 }
 
 Gallery.special = {};
