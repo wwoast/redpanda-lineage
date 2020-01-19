@@ -339,19 +339,57 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
 // Take pandaPhotoCredis and zooPhotoCredits, and interleave them as results.
 // TODO: paging
 Gallery.creditPhotos = function(results, language, max_hits) {
-  var content_divs = [];
-  results["hits"].forEach(function(entity) {
-    // Zoo ids are negative numbers. Display zoo search result page
-    if (entity["_id"] < 0) {
-      content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
-    } else {
-      content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], language));
-    }
-  });
+  var photo_results = Gallery.creditPhotosPage(0, results, language, max_hits);
+  var content_divs = photo_results["output"];
+  var photo_count = photo_results["hit_count"];
   // Write some HTML with summary information for the user and the number of photos
-  var header = Show.message.credit(results["subject"], content_divs.length, language);
+  var header = Show.message.credit(results["subject"], photo_count, language);
   content_divs.unshift(header);
   return content_divs;
+}
+
+// Use a page counter to determine where in the results count to start showing photos.
+// If photos on this page < max_hits, hide the next page button
+Gallery.creditPhotosPage = function(page, results, language, max_hits) {
+  var grab_divs = [];
+  var content_divs = [];
+  // We must unspool the results because each entity we query here can have multiple
+  // results returned, and the paging must only return the first max_hits content.
+  // TODO: zooPhotoCredits and pandaPhotoCredits shouldn't return divs yet, to prevent
+  // early image loading.
+  for (let entity of results["hits"]) {
+    if (entity["_id"] < 0) {
+      grab_divs = grab_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
+    } else {
+      grab_divs = grab_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], language));
+    }
+  }
+  var starting_point = page * Query.env.paging.results_count;
+  // Working copy of photo set, starting at the nth page of photos
+  var content_divs = grab_divs.slice(starting_point);
+  var hit_count = content_divs.length;
+  if (hit_count <= max_hits) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+  } else {
+    // Limit to just photo_count of the output
+    content_divs = content_divs.slice(0, max_hits);
+    // Set callbacks for next button, and redraw footer
+    Query.env.paging.callback.function = Gallery.creditPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      results,
+      language,
+      max_hits,
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
+  }
+  // Redraw footer to update the paging button
+  Page.footer.redraw("results");
+  return {
+    "output": content_divs,
+    "hit_count": grab_divs.length
+  }
 }
 
 // Get media photos (of two or more animals), which include a particular animal.
@@ -464,7 +502,9 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
   }
   // Redraw the footer menu to update the paging button
   Page.footer.redraw("profile");
-  return output;
+  return {
+    "output": output
+  }
 }
 
 // Solo photos that can be found in the group gallery. These are chosen on
@@ -575,7 +615,8 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
     overflow = max_hits;
   }
   // Get the first page of content
-  var content_divs = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
+  var paging_data = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
+  var content_divs = paging_data["output"];
   // Build a summary message based on which tag_photo parser mode we have,
   // and whether we have hits or not.
   var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
@@ -619,7 +660,9 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
       page_results.pop(page_results.indexOf(photo));
     }
   }
-  return content_divs;
+  return {
+    "output": content_divs
+  }
 }
 
 // Logic to determine which message to display inside the photo gallery of tagged photos

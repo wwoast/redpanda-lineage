@@ -131,6 +131,7 @@ Query.resolver.pair = function(set_node) {
   }
   if (set_node.type == "set_credit_photos") {
     Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
     hits = Pandas.searchPhotoCredit(search_word);
   }
   if (set_node.type == "set_babies_year_list") {
