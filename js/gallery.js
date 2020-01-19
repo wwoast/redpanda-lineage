@@ -336,6 +336,24 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
   return birthday_div;
 }
 
+// Take pandaPhotoCredis and zooPhotoCredits, and interleave them as results.
+// TODO: paging
+Gallery.creditPhotos = function(results, language, max_hits) {
+  var content_divs = [];
+  results["hits"].forEach(function(entity) {
+    // Zoo ids are negative numbers. Display zoo search result page
+    if (entity["_id"] < 0) {
+      content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
+    } else {
+      content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], language));
+    }
+  });
+  // Write some HTML with summary information for the user and the number of photos
+  var header = Show.message.credit(results["subject"], content_divs.length, language);
+  content_divs.unshift(header);
+  return content_divs;
+}
+
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
 Gallery.groupPhotos = function(id_list, photo_count) {

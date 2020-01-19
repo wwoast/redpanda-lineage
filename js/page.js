@@ -624,27 +624,16 @@ Page.results.nearby = function(results) {
 Page.results.photos = function(results) {
   // Photo results have a slightly different structure from panda/zoo results
   var content_divs = [];
-  var max_tag_hits = Query.env.paging.results_count;
+  var max_hits = Query.env.paging.results_count;
   if ((results["parsed"] == "set_tag") || 
       (results["parsed"] == "set_tag_subject")) {
     // Basic tag views with emoji in the name field
-    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, true);
+    content_divs = Gallery.tagPhotos(results, L.display, max_hits, true);
   } else if (results["parsed"] == "set_tag_intersection") {
     // Combo tag views, no emoji in the name field
-    content_divs = Gallery.tagPhotos(results, L.display, max_tag_hits, false);
+    content_divs = Gallery.tagPhotos(results, L.display, max_hits, false);
   } else if (results["parsed"] == "set_credit_photos") {
-    // Term expression for a credit term, on panda/zoo results. TODO: refactor
-    results["hits"].forEach(function(entity) {
-      // Zoo ids are negative numbers. Display zoo search result page
-      if (entity["_id"] < 0) {
-        content_divs = content_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], L.display));
-      } else {
-        content_divs = content_divs.concat(Gallery.pandaPhotoCredits(entity, results["subject"], L.display));
-      }
-    });
-    // Write some HTML with summary information for the user and the number of photos
-    var header = Show.message.credit(results["subject"], content_divs.length, L.display);
-    content_divs.unshift(header);
+    content_divs = Gallery.creditPhotos(results, L.display, max_hits);
   }
   // HACK: revert to results mode
   Query.env.clear();
