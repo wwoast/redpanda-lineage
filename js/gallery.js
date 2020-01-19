@@ -612,8 +612,8 @@ Gallery.pandaPhotoCreditSingle = function(item) {
     caption.innerText = Pandas.groupMediaCaption(entity, item.index);
   } else {
     var animal = Pandas.searchPandaId(id)[0];
-    var name = Pandas.myName(animal, L.display);
-    caption.innerText = name;
+    var info = Show.acquirePandaInfo(animal, L.display);
+    caption.innerText = info.name;
   }
   caption_link.appendChild(caption);
   var container = document.createElement('div');
@@ -969,7 +969,7 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var index = item.index.split(".")[1];
   var img_link = document.createElement('a');
   var id = item.id;
-  var entity = Pandas.searchZooId(id);
+  var entity = Pandas.searchZooId(id)[0];
   var info = Show.acquireZooInfo(entity, L.display);
   // Link to the original instagram media
   img_link.href = photo;
