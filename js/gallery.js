@@ -337,7 +337,6 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
 }
 
 // Take pandaPhotoCredis and zooPhotoCredits, and interleave them as results.
-// TODO: paging
 Gallery.creditPhotos = function(results, language, max_hits) {
   var photo_results = Gallery.creditPhotosPage(0, results, language, max_hits);
   var content_divs = photo_results["output"];
@@ -350,13 +349,13 @@ Gallery.creditPhotos = function(results, language, max_hits) {
 
 // Use a page counter to determine where in the results count to start showing photos.
 // If photos on this page < max_hits, hide the next page button
+// TODO: zooPhotoCredits and pandaPhotoCredits shouldn't return divs yet, to prevent
+// loading the entire image set each time you only want (set/N) images
 Gallery.creditPhotosPage = function(page, results, language, max_hits) {
   var grab_divs = [];
   var content_divs = [];
   // We must unspool the results because each entity we query here can have multiple
   // results returned, and the paging must only return the first max_hits content.
-  // TODO: zooPhotoCredits and pandaPhotoCredits shouldn't return divs yet, to prevent
-  // early image loading.
   for (let entity of results["hits"]) {
     if (entity["_id"] < 0) {
       grab_divs = grab_divs.concat(Gallery.zooPhotoCredits(entity, results["subject"], language));
