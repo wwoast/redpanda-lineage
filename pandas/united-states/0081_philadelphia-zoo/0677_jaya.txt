@@ -13,11 +13,16 @@ jp.othernames: none
 language.order: en, jp
 litter: none
 location.1: 154, 2007/7/4
-location.2: -1, 2008/6/25
+location.2: 186, 2008/6/25
 location.3: 146, 2011/12/5
+location.4: 81, 2019/3/18
 photo.1: https://www.instagram.com/p/B2pUSDkpuij/media/?size=m
 photo.1.author: rossifari
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: apple time, portrait, profile
+photo.2: https://www.instagram.com/p/B7Y9vF6JRe7/media/?size=m
+photo.2.author: rossifari
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait
 species: 1
-zoo: 146
+zoo: 81

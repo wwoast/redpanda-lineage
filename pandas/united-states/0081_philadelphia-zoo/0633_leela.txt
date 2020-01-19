@@ -15,5 +15,6 @@ litter: 632
 location.1: 146, 2010/6/24
 location.2: 158, 2011/4/12
 location.3: 160, 2013/3/5
+location.4: 81, 2019/3/18
 species: 1
-zoo: 160
+zoo: 81
