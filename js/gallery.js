@@ -969,7 +969,8 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var index = item.index.split(".")[1];
   var img_link = document.createElement('a');
   var id = item.id;
-  var info = Show.acquireZooInfo(id, L.display);
+  var entity = Pandas.searchZooId(id);
+  var info = Show.acquireZooInfo(entity, L.display);
   // Link to the original instagram media
   img_link.href = photo;
   img_link.href = img_link.href.replace("/media/?size=m", "/");
