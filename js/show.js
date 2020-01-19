@@ -266,7 +266,7 @@ Show.furigana = function(name, othernames) {
   if (othernames == Pandas.def.animal["jp.othernames"]) {
     return false;
   }
-  othernames = othernames.split(',')   // Guarantee array
+  othernames = othernames.split(',');   // Guarantee array
   othernames = othernames.filter(function(option) {
     if (Language.editDistance(name, option) > 1) {
       return option;
@@ -719,7 +719,8 @@ Show.button.message.render = function(id, button_icon, button_text, class_name="
 Show.button.paging = {};
 Show.button.paging.action = function(callback, parameters, frame_id, class_name) {
   Show.button.language.hide();   // If language menu open, hide it
-  var new_photos = callback.apply(null, parameters);
+  var paging_data = callback.apply(null, parameters);
+  var new_photos = paging_data["output"];
   // Append content into the page. HACK: always the first child of the container frame
   var frame = document.getElementById(frame_id).childNodes[0];
   for (let new_photo of new_photos) {
