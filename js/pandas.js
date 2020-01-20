@@ -446,7 +446,7 @@ Pandas.randomChoiceSeed = function(array, seed_input, count) {
   var seen = {};
   // If you want just all the array items, return a shuffle instead
   if (count >= array.length) {
-    return Pandas.shuffle(array);
+    return Pandas.shuffleWithSeed(array, seed_input);
   }
   var n = count;
   for (let i = 1; i <= n; i++) {
