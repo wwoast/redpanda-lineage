@@ -368,6 +368,10 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
   // Working copy of photo set, starting at the nth page of photos
   var content_photos = grab_photos.slice(starting_point);
   var hit_count = content_photos.length;
+  if (page == 0 && Query.env.paging.shown_pages > 1) {
+    // Refresh, but show more than just the normal photo_count
+    max_hits = Query.env.paging.shown_pages * max_hits;
+  }
   if (hit_count <= max_hits) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
@@ -493,6 +497,10 @@ Gallery.groupPhotos = function(id_list, photo_count) {
 // I figure this is OK to write in terms of the older groupPhotos which parses all photos
 // and writes name tags and such.
 Gallery.groupPhotosPage = function(page, id_list, photo_count) {
+  if (page == 0 && Query.env.paging.shown_pages > 1) { 
+    // Refresh, but show more than just the normal photo_count
+    photo_count = Query.env.paging.shown_pages * photo_count;
+  }
   var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
   var output = photos.slice(page * photo_count);
   if (output.length <= photo_count) {
@@ -650,6 +658,10 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   // Working copy of photo set, starting at the nth page of photos
   var page_results = results["hits"].slice(starting_point);
   var hit_count = page_results.length;
+  if (page == 0 && Query.env.paging.shown_pages > 1) {
+    // Refresh, but show more than just the normal photo_count
+    max_hits = Query.env.paging.shown_pages * max_hits;
+  }
   if (hit_count <= max_hits) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;

@@ -33,6 +33,8 @@ Query.env.paging.media_count = 10;
 Query.env.paging.results_count = 25;
 // Paging seed, set to when the page was last loaded
 Query.env.paging.seed = Date.now();
+// Shown counter, for page refreshes
+Query.env.paging.shown_pages = 1;
 // If a URI indicates a specific photo, indicate which one here.
 Query.env.specific_photo = undefined;
 // Reset query environment back to defaults, typically after a search is run

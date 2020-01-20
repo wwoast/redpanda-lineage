@@ -86,6 +86,8 @@ window.addEventListener('hashchange', function() {
   // Any time the page changes, forget location details
   // in case we might have moved around
   F.resolved = false;
+  // And forget how many pages we have shown
+  Query.env.paging.shown_pages = 1;
   var mode = window.location.hash.split("/")[0];
   if (mode == "#home") {
     Page.home.render();

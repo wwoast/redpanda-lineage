@@ -730,6 +730,9 @@ Show.button.paging.action = function(callback, parameters, frame_id, class_name)
   parameters[0] = parameters[0] + 1;
   // Redraw the footer with the next action, with the correct color (class_name)
   Page.footer.redraw(class_name)
+  // Increment the shown page counter, in case we want to refresh
+  // after changing the shown language 
+  Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1;
 }
 Show.button.paging.render = function(class_name) {
   var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
