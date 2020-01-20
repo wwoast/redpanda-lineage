@@ -355,6 +355,7 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
   var grab_photos = [];
   var content_photos = [];
   var content_divs = [];
+  var initial_max_hits = max_hits;
   // We must unspool the results because each entity we query here can have multiple
   // results returned, and the paging must only return the first max_hits content.
   for (let entity of results["hits"]) {
@@ -384,7 +385,7 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
       page + 1,
       results,
       language,
-      max_hits,
+      initial_max_hits,
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
   }
@@ -497,6 +498,7 @@ Gallery.groupPhotos = function(id_list, photo_count) {
 // I figure this is OK to write in terms of the older groupPhotos which parses all photos
 // and writes name tags and such.
 Gallery.groupPhotosPage = function(page, id_list, photo_count) {
+  var initial_photo_count = photo_count;
   if (page == 0 && Query.env.paging.shown_pages > 1) { 
     // Refresh, but show more than just the normal photo_count
     photo_count = Query.env.paging.shown_pages * photo_count;
@@ -513,7 +515,7 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     Query.env.paging.callback.arguments = [
       page + 1,
       id_list,
-      photo_count
+      initial_photo_count
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
   }
@@ -654,6 +656,7 @@ Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
 // If photos on this page < max_hits, hide the next page button
 Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   var content_divs = [];
+  var initial_max_hits = max_hits;
   var starting_point = page * Query.env.paging.results_count;
   // Working copy of photo set, starting at the nth page of photos
   var page_results = results["hits"].slice(starting_point);
@@ -674,7 +677,7 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
       page + 1,
       results,
       language,
-      max_hits,
+      initial_max_hits,
       add_emoji
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
