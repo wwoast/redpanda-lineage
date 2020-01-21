@@ -583,6 +583,7 @@ class UpdateFromCommits:
                                            self.current_commit,
                                            ignore_blank_lines=True,
                                            ignore_space_at_eol=True)
+        print(self.diff_raw)
         self.patch = PatchSet(self.diff_raw)
         self.filenames = {}
         self.updates = {}
