@@ -583,7 +583,6 @@ class UpdateFromCommits:
                                            self.current_commit,
                                            ignore_blank_lines=True,
                                            ignore_space_at_eol=True)
-        print(self.diff_raw)
         self.patch = PatchSet(self.diff_raw)
         self.filenames = {}
         self.updates = {}
@@ -606,10 +605,8 @@ class UpdateFromCommits:
         seen["pandas"] = {}
         seen["zoos"] = {}
         # Grab the last JSON file for author data
-        print(COMMIT_AGE)
         for change in self.patch:
             filename = change.path
-            print(filename)
             if change.added <= 0:
                 # Don't care about removal diffs
                 continue
@@ -757,6 +754,8 @@ class UpdateFromCommits:
                 return oldest_commit
             else:
                 oldest_commit = commit
+        # If CI does a shallow clone, use the oldest commit we have
+        return oldest_commit
 
 def vitamin():
     """
