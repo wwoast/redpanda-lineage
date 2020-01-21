@@ -607,6 +607,7 @@ class UpdateFromCommits:
         # Grab the last JSON file for author data
         for change in self.patch:
             filename = change.path
+            print(filename)
             if change.added <= 0:
                 # Don't care about removal diffs
                 continue
