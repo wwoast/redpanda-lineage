@@ -274,8 +274,8 @@ Page.home.render = function() {
     new_content.appendChild(memorial);
     var nearby = Show.message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
-    var new_photos = Gallery.updatedNewPhotoCredits(L.display);
-    new_content.appendChild(new_photos);
+    // var new_photos = Gallery.updatedNewPhotoCredits(L.display);
+    // new_content.appendChild(new_photos);
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");
