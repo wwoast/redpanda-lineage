@@ -1,0 +1,17 @@
+[panda]
+_id: 1094
+birthday: 2019/7/17
+birthplace: 126
+children: none
+death: 2019/8/21
+en.name: Shikha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1093
+species: 1
+zoo: 126

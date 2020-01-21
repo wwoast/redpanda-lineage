@@ -15,6 +15,7 @@ litter: 651
 location.1: 124, 2011/7/3
 location.2: 101, 2012/5/23
 location.3: 113, 2014/11/14
+location.4: 160, 2019/7/1
 photo.1: https://www.instagram.com/p/BmhMJnHgkE1/media/?size=m
 photo.1.author: potterparkzoo
 photo.1.link: https://www.instagram.com/potterparkzoo/
@@ -35,4 +36,4 @@ photo.5.author: potterparkzoo
 photo.5.link: https://www.instagram.com/potterparkzoo/
 photo.5.tags: snow
 species: 1
-zoo: 113
+zoo: 160
