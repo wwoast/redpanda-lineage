@@ -1462,7 +1462,7 @@ Show.message.new_photos = function(language) {
   // Grab update counts
   var counts = {
     "contributors": P.db._totals.updates.authors,
-    "entities":  P.db._totals.updates.entites,
+    "entities":  P.db._totals.updates.entities,
     "photos": P.db._totals.updates.photos,
     "suffix": 1,   // HACK
     "pandas": P.db._totals.updates.pandas,
@@ -1473,7 +1473,7 @@ Show.message.new_photos = function(language) {
       counts["entities"] == 0 && 
       counts["photos"] == 0 &&
       counts["pandas"] == 0) {
-    return;   // No message to display
+    return document.createElement('br');   // No message to display
   }
   // Zoo counts are too much information
   if (counts["pandas"] > 0 && counts["photos"] > 0) {
