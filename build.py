@@ -605,6 +605,7 @@ class UpdateFromCommits:
         seen["pandas"] = {}
         seen["zoos"] = {}
         # Grab the last JSON file for author data
+        print(COMMIT_AGE)
         for change in self.patch:
             filename = change.path
             print(filename)
