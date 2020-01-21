@@ -754,6 +754,8 @@ class UpdateFromCommits:
                 return oldest_commit
             else:
                 oldest_commit = commit
+        # If CI does a shallow clone, use the oldest commit we have
+        return oldest_commit
 
 def vitamin():
     """
