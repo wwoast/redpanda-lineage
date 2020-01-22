@@ -12,6 +12,17 @@ Language.init = function() {
   // browser's localStorage API
   language.display = undefined;
   language.storage = window.localStorage;
+  // Construct tag lists with arbitrary capitalization
+  for (let tag in language.tags) {
+    var en_tags = language.tags[tag]["en"];
+    var first_cap = en_tags.map(x => Language.capitalize(x, "first"));
+    var all_cap = en_tags.map(y => Language.capitalize(y, "all"));
+    language.tags[tag]["en"] = en_tags.concat(first_cap)
+                                      .concat(all_cap)
+                                      .filter(function(value, index, self) {
+                                        return self.indexOf(value) === index;
+                                      });
+  }
   return language;
 }
 
@@ -2105,6 +2116,20 @@ Language.capitalNames = function(input) {
     output.push(word);
   });
   return output.join(' ');   // Recombine terms with spaces
+}
+
+// Capitalize words in a string
+Language.capitalize = function(input, mode) {
+  var output = "";
+  var words = input.split(" ").length;
+  if ((mode == "first") || (words == 1)) {
+    output = input.charAt(0).toUpperCase() + input.slice(1);
+  } else {
+    output = input.replace(/(?:^|\s)\S/g, function(a) {
+      return a.toUpperCase();
+    });
+  }
+  return output;
 }
 
 // Make a phrase out of parts, with commas and terminal "and"

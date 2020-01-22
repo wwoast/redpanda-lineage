@@ -32,7 +32,6 @@ var F;   // Geo-location "finder"
 document.addEventListener("DOMContentLoaded", function() {
   P = Pandas.init();
   Q = Query.init();
-  L = Language.init();
   T = Touch.init();
   G = Dagoba.graph();
   F = Geo.init();

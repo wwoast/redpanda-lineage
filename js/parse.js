@@ -1,5 +1,7 @@
 var Parse = {};   // Namespace
 
+L = Language.init();   // Initialize the language methods for proper parser building
+
 // Get a list of valid operators (the children) of the Parse.obj array
 // Return the result as a single-level array
 Parse.values = function(input) {
