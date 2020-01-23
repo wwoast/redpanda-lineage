@@ -15,5 +15,12 @@ litter: 526
 location.1: 120, 2011/7/5
 location.2: 114, 2012/5/17
 location.3: 160, 2015/12/8
+photo.1: https://www.instagram.com/p/B7JXHrzgix-/media/?size=m
+photo.1.author: pueblozoo
+photo.1.link: https://www.instagram.com/pueblozoo/
+photo.1.tags: portrait, profile, whiskers
 species: 1
+video.1: https://youtu.be/0S5ptIvaJzk
+video.1.author: worldthathesees
+video.1.link: https://www.youtube.com/channel/UCNV4J53SlMAgZZI6EDvxdPQ
 zoo: 160
