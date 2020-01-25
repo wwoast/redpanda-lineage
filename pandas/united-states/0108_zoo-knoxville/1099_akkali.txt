@@ -1,0 +1,19 @@
+[panda]
+_id: 1099
+birthday: 2002/12/24
+birthplace: 204
+children: 1097, 1098, 546, 618, 809
+death: 2017/5/28
+en.name: Akkali
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アッカリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1100
+location.1: 204, 2002/12/24
+location.2: 108, 2007/7/18
+species: 1
+zoo: 108
