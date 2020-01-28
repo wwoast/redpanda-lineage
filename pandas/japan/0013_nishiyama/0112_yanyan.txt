@@ -31,7 +31,7 @@ photo.4.tags: portrait, wet
 photo.5: https://www.instagram.com/p/Bnn05J9lWtg/media/?size=m
 photo.5.author: minato.yokohama2130
 photo.5.link: https://www.instagram.com/minato.yokohama2130/
-photo.5.tags: laying down, portrait, profile, smile
+photo.5.tags: laying down, paws, portrait, profile, smile, tongue, whiskers
 photo.6: https://www.instagram.com/p/BoL3cJkllRV/media/?size=m
 photo.6.author: minato.yokohama2130
 photo.6.link: https://www.instagram.com/minato.yokohama2130/
@@ -95,5 +95,13 @@ photo.21: https://www.instagram.com/p/B1_fSGlBD4s/media/?size=m
 photo.21.author: kisshan324
 photo.21.link: https://www.instagram.com/kisshan324/
 photo.21.tags: bamboo, lunch time, paws, portrait
+photo.22: https://www.instagram.com/p/B7xxk8cBThK/media/?size=m
+photo.22.author: minato.yokohama2130
+photo.22.link: https://www.instagram.com/minato.yokohama2130/
+photo.22.tags: laying down, portrait, whiskers
+photo.23: https://www.instagram.com/p/B7vPV-Ah0iu/media/?size=m
+photo.23.author: minato.yokohama2130
+photo.23.link: https://www.instagram.com/minato.yokohama2130/
+photo.23.tags: bamboo, home, portrait
 species: 2
 zoo: 13
