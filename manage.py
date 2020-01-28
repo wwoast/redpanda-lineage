@@ -280,7 +280,7 @@ def remove_photo_from_file(path, photo_id):
     photo_list = PhotoFile(section, path)
     if photo_list.delete_photo(photo_id) == True:
         # TODO: find max index
-        photo_list.renumber_photos(130)
+        photo_list.renumber_photos(500)
         photo_list.update_file()
 
 if __name__ == '__main__':
