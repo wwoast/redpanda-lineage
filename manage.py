@@ -5,6 +5,7 @@
 # photos taken by a specific credited author.
 
 import configparser
+import json
 import os
 import re
 import sys
@@ -244,6 +245,20 @@ class PhotoFile():
         if removals > 0:
             self.renumber_photos(photo_index)
 
+def get_max_entity_count():
+    """
+    Read the export/redpanda.json file. If it doesn't exist, ask one to
+    be built. Then read _photo.entity_max from this file, which is the
+    highest photo count for a single panda or zoo.
+    """
+    data = "export/redpanda.json"
+    if (os.path.exists(data)):
+        with open("export/redpanda.json", "r") as jfh:
+            return json.loads(jfh.read())["_photo"]["entity_max"]
+    else:
+        print("%s file not built yet with build.py -- please generate.")
+        sys.exit()
+
 def remove_author_from_lineage(author):
     """
     Occasionally users will remove or rename their photo files online.
@@ -279,8 +294,9 @@ def remove_photo_from_file(path, photo_id):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
     if photo_list.delete_photo(photo_id) == True:
-        # TODO: find max index
-        photo_list.renumber_photos(500)
+        # Read max from an existing photo
+        max = int(get_max_entity_count())
+        photo_list.renumber_photos(max)
         photo_list.update_file()
 
 if __name__ == '__main__':
