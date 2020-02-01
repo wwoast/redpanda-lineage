@@ -593,10 +593,16 @@ Page.results.entities = function(results) {
       animals.forEach(function(animal) {
         content_divs.push(Show.results.panda(animal, L.display, undefined));
       });
+      content_divs.push(Show.zooDivider("bear-bamboo"));
     } else {
       content_divs.push(Show.results.panda(entity, L.display, undefined));
     }
   });
+  // Remove the last element if it's a divider
+  var last_element = content_divs[content_divs.length - 1];
+  if (last_element.className == 'zooDivider') {
+    content_divs.pop();
+  }
   return content_divs;
 }
 // Given a search for nearest zoos, add zoo divs and the pandas that live there,

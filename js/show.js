@@ -516,6 +516,30 @@ Show.qrcodeImage = function() {
   return qrcode;
 }
 
+// Construct a zoo divider, for when you search a place name and
+// get multiple results worth of zoos
+Show.zooDivider = function(mode="bear-bamboo") {
+  var divider = document.createElement('div');
+  var modes = ["bamboo", "bear", "bear-bamboo", "fruit"];
+  if (mode == "random") {
+    mode = Pandas.randomChoice(modes, 1);
+  }
+  divider.className = 'zooDivider';
+  if (mode == "bamboo") {
+    divider.innerText = '- 🎍 — 🎋 — 🎍 -';
+  } else if (mode == "bear") {
+    divider.innerText = '🌿 🐯 🐻 🌿';
+  } else if (mode == "bear-bamboo") {
+    divider.innerText = '🌿 🎍 🐯🐻 🎍 🌿';
+  } else if (mode == "fruit") {
+    divider.innerText = '🌿 🍎 🍇 🍎 🌿';
+  } else {
+    divider.innerText = '🌿 🍎 🍇 🍎 🌿';
+  }
+  return divider;
+}
+
+
 // Construct a zoo link as per design docs. Examples:
 //    https://domain/index.html#zoo/1
 // Show.zooLink = function(zoo, link_text, icon) {

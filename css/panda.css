@@ -659,6 +659,15 @@ hr.divider.onlyMobile {
     display: none;
 }
 
+div.zooDivider {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 0.5ex;
+    padding-bottom: 0.5ex;
+}
+
 ul.pandaList, ul.linkList, ul.nicknameList {
     text-align: left;
     list-style: none;
