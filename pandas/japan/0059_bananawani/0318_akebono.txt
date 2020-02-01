@@ -24,7 +24,7 @@ photo.2.tags: baby, tree
 photo.3: https://www.instagram.com/p/BrwqL_ulsTH/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: baby, profile, wet
+photo.3.tags: baby, wet
 photo.4: https://www.instagram.com/p/BsWo1V0FF9P/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -37,5 +37,9 @@ photo.6: https://www.instagram.com/p/BtGA0WMFdgl/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
 photo.6.tags: tree, white face
+photo.7: https://www.instagram.com/p/ByiKXlphOKj/media/?size=m
+photo.7.author: miis_98
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: portrait, profile
 species: 1
 zoo: 59
