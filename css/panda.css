@@ -1071,7 +1071,7 @@ div.arrivalsHeader p,
 div.departuresHeader p,
 div.residentsHeader p {
     background-color: lightsalmon;
-    min-width: 170px;
+    min-width: 226px;   /* 2/3 of the mobile min viewport width */
 }
 
 div.frontPageSummary p.summaryEmphasis {
