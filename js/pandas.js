@@ -876,11 +876,11 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
         at_zoo_previously = true;
         continue;
       } else {
-        zoo_post_move = new Date(move_date);
+        zoo_post_move = move_date;
       }
       // Compare all zoo node dates with current time.
       var current_time = new Date();
-      var move_time = new Date(move_date);
+      var move_time = new Date(zoo_post_move);
       var ms_per_month = 1000 * 60 * 60 * 24 * 31;
       var ms_in_period = months * ms_per_month;
       if (current_time - move_time < ms_in_period) {
@@ -894,6 +894,8 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
       }
     }
   }).run();
+  // TODO -- order in terms of most recent move date.
+  // TODO: does this logic work with multiple arrival/returns?
   return nodes;
 }
 
