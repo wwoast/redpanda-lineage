@@ -2582,10 +2582,10 @@ Show.results.zooAnimals = function(zoo, language) {
   var id = zoo["_id"];
   // Death list takes precedence over all others. 
   // No panda in this list should appear in the other lists.
-  var deaths = Pandas.searchPandaZooDied(id);
+  var deaths = Pandas.searchPandaZooDied(id, 12);
   // Which pandas came to this zoo in the last six months?
   var arrivals = Pandas.searchPandaZooArrived(id, 6);
-  var born = Pandas.searchPandaZooBorn(id, 6);
+  var born = Pandas.searchPandaZooBorn(id, 12);
   // Which pandas departed this zoo in the last six months?
   var departures = Pandas.searchPandaZooDeparted(id, 6);
   // Which animals were resident at this zoo?
