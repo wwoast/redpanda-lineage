@@ -1445,24 +1445,6 @@ Language.L.messages = {
            " ",
            "नयाँ आगमन"]
   },
-  "zoo_header_just_pandas": {
-    "cn": [Language.L.emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "的小熊猫"],
-    "en": [Language.L.emoji.panda,
-           " ",
-           "Pandas at ",
-           "<INSERTZOO>"],
-    "jp": [Language.L.emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           "のパンダ"],
-    "np": [Language.L.emoji.panda,
-           " ",
-           "<INSERTZOO>",
-           " पोन्या"]
-  },
   "zoo_header_other_pandas": {
     "cn": [Language.L.emoji.panda,
            " ",

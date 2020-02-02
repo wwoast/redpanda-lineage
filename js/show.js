@@ -1359,6 +1359,30 @@ Show.landing.menus.bottomButtons = ['topButton', 'refreshButton'];
     Show functions used to generate translated heading snippets in various page modes
 */
 Show.message = {};
+Show.message.arrivals = function(zoo, born, language) {
+  // Zoo search: display arriving animals along with ones just born.
+  // If any animals were born, this message gets a baby icon suffix
+  var link = document.createElement('a');
+  link.href = "#zoo/" + zoo["_id"] + "/arrivals";
+  var p = document.createElement('p');
+  for (var i in L.messages.zoo_header_new_arrivals[language]) {
+    var field = L.messages.zoo_header_new_arrivals[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  if (born.length > 0) {
+    var suffix = document.createTextNode(" " + Language.L.emoji.baby);
+    p.appendChild(suffix);
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "arrivalsHeading";
+  message.appendChild(shrinker);
+  return message;
+}
 Show.message.birthday = function(name, animal_id, years, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;
@@ -1413,6 +1437,30 @@ Show.message.credit = function(credit, count, language) {
   shrinker.appendChild(p);
   var message = document.createElement('div');
   message.className = "creditSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Show.message.departures = function(zoo, deaths, language) {
+  // Zoo search: display departing animals along with ones that died.
+  // If any animals passed away, this message gets a rainbow icon suffix
+  var link = document.createElement('a');
+  link.href = "#zoo/" + zoo["_id"] + "/departures";
+  var p = document.createElement('p');
+  for (var i in L.messages.zoo_header_recently_departed[language]) {
+    var field = L.messages.zoo_header_recently_departed[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  if (deaths.length > 0) {
+    var suffix = document.createTextNode(" " + Language.L.emoji.died);
+    p.appendChild(suffix);
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "departuresHeading";
   message.appendChild(shrinker);
   return message;
 }
@@ -1689,6 +1737,32 @@ Show.message.profile_where = function(name, language) {
   message.className = "profileSummary";
   message.appendChild(shrinker);
   return message;
+}
+Show.message.residents = function(zoo) {
+  // Zoo search: display a header for the resident animals
+  // that didn't recently leave or arrive
+  var link = document.createElement('a');
+  link.href = "#zoo/" + zoo["_id"] + "/residents";
+  var p = document.createElement('p');
+  for (var i in L.messages.zoo_header_other_pandas[language]) {
+    var field = L.messages.zoo_header_other_pandas[language][i];
+    if (field == "<INSERTZOO>") {
+      var msg = document.createTextNode(zoo.name);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "residentsHeading";
+  message.appendChild(shrinker);
+  return message;
+
 }
 Show.message.tag_combo = function(num, emojis, language, overflow) {
   var p = document.createElement('p');
@@ -2515,6 +2589,30 @@ Show.results.zooAnimals = function(zoo, language) {
   var coming = Pandas.sortByDate(arrivals.concat(born), "sort_time", "descending");
   // Define the per-section messages. There are modifications depending on
   // which of the input lists are non-empty
+  var headers = {
+    "arrivals": Show.message.arrivals(zoo, born, language),
+    "departures": Show.message.departures(zoo, deaths, language)
+  }
+  // Spool it all out
+  var content_divs = [];
+  if (coming.length > 0) {
+    content_divs = content_divs.concat(headers["arrivals"]);
+    content_divs = content_divs.concat(coming);
+  }
+  if (leaving.length > 0) {
+    content_divs = content_divs.concat(headers["departures"]);
+    content_divs = content_divs.concat(leaving);
+  }
+  // Residents get a message if there are other subsections 
+  // in these lists of zoo animals
+  if (residents.length > 0) {
+    if (leaving.length > 0 || coming.length > 0) {
+      headers["residents"] = Show.message.residents(zoo);
+      content_div = content_divs.concat(headers["residents"]);
+    }
+    content_divs = content_divs.concat(residents);
+  }
+  return content_divs;
 }
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
