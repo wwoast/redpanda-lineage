@@ -348,6 +348,17 @@ Pandas.distinct = function(list) {
   return list.filter(unique);
 }
 
+// Remove elements from the second list from the first
+Pandas.removeElements = function(list, removals) {
+  return list.filter(function(item) {
+    if (removals.indexOf(item) > -1) {
+      return false;
+    } else {
+      return true;
+    }
+  });
+}
+
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {

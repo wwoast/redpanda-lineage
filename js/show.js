@@ -2488,6 +2488,19 @@ Show.results.zoo = function(zoo, language) {
   Show.results.searchBar();
   return result;
 }
+// Display the animals at a zoo as follows:
+// 1) Recently arrived animals at the zoo (if any exist)
+// 2) Recently departed or died animals at the zoo (if any exist)
+// 3) The other resident animals living at the zoo
+Show.results.zooAnimals = function(zoo, language) {
+  var id = zoo["_id"];
+  var arrivals = Pandas.searchPandaZooArrival(id, 6);
+  var departures = Pandas.searchPandaZooDeparted(id, 6);
+  var residents = Pandas.searchPandaZooCurrent(id);
+  residents = Pandas.removeElements(residents, arrivals);
+  residents = Pandas.sortOldestToYoungest(residents);
+  // TODO: content_divs, messages, display  
+}
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
   var language = info.language;
