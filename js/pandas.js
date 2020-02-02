@@ -844,6 +844,29 @@ Pandas.searchPandaZoo = function(idnum) {
   return nodes;
 }
 
+// Find all pandas that were either born at, or lived at a given zoo
+Pandas.searchPandaZooBornLived = function(idnum) {
+  var lives = G.v(idnum).in("zoo").run();
+  var born = G.v(idnum).in("birthplace").run();
+  var was_here = G.v().filter(function(vertex) {
+    // Gets panda locations. If the zoo matches
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      var zoo_id = location.split(", ")[0];
+      // Matching zoo values will be positive ids in location fields
+      if (zoo_id == idnum * -1) {
+        return vertex;
+      }
+    }
+    return false;
+  }).run();
+  var nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Am I the first value in the array?
+  });
+  return nodes;
+}
+
 // Find all pandas at a given zoo that are still alive
 Pandas.searchPandaZooCurrent = function(idnum) {
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
@@ -900,18 +923,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
   return nodes;
 }
 
-// Find all pandas that were either born at, or lived at a given zoo
-Pandas.searchPandaZooBornLived = function(idnum) {
-  var lived = G.v(idnum).in("zoo").run();
-  var born = G.v(idnum).in("birthplace").run();
-  var nodes = lived.concat(born).filter(function(value, index, self) { 
-    return self.indexOf(value) === index;  // Am I the first value in the array?
-  });
-  return nodes;
-}
-
 // Find all nodes with a particular photo credit.
-// TODO: populate MAX from the database somehow
 Pandas.searchPhotoCredit = function(author) {
   var photo_fields = Pandas.photoGeneratorMax;
   var nodes = [];
