@@ -884,6 +884,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
       var ms_per_month = 1000 * 60 * 60 * 24 * 31;
       var ms_in_period = months * ms_per_month;
       if (current_time - move_time < ms_in_period) {
+        vertex["sort_time"] = move_time; 
         return vertex;   // Less than N months?
       } else {
         // This move didn't happen recently. Start the move
@@ -894,7 +895,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
       }
     }
   }).run();
-  // TODO -- order in terms of most recent move date.
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
   // TODO: does this logic work with multiple arrival/returns?
   return nodes;
 }
@@ -1146,6 +1147,16 @@ Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
     return Pandas.sortByNameJapanese(nodes);
   } else {
     return Pandas.sortByName(nodes, name_field);
+  }
+}
+
+Pandas.sortByDate = function(nodes, field_name, mode="descending") {
+  // Pandas.sortByName lexicographic sort should work for numbers too,
+  // but to get recent ordering, reverse the list
+  if (mode == "descending") {
+    return Pandas.sortByName(nodes, field_name).reverse();
+  } else {
+    return Pandas.sortByName(nodes, field_name);
   }
 }
 
