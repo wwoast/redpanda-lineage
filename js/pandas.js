@@ -879,6 +879,7 @@ Pandas.searchPandaZooBorn = function(idnum, months=6) {
 
 // Find all pandas that were either born at, or lived at a given zoo
 Pandas.searchPandaZooBornLived = function(idnum) {
+  var compare_id = idnum * -1;
   var lives = G.v(idnum).in("zoo").run();
   var born = G.v(idnum).in("birthplace").run();
   var was_here = G.v().filter(function(vertex) {
@@ -888,7 +889,7 @@ Pandas.searchPandaZooBornLived = function(idnum) {
       var location = Pandas.field(vertex, field_name);
       var zoo_id = location.split(", ")[0];
       // Matching zoo values will be positive ids in location fields
-      if (zoo_id == idnum * -1) {
+      if (zoo_id == compare_id) {
         return vertex;
       }
     }
@@ -902,6 +903,7 @@ Pandas.searchPandaZooBornLived = function(idnum) {
 
 // Find all pandas at a given zoo that are alive, and arrived recently
 Pandas.searchPandaZooArrived = function(idnum, months=6) {
+  var compare_id = idnum * -1;
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
     return vertex.death == undefined;   // Gotta be alive
   }).filter(function(vertex) {
@@ -910,7 +912,7 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
     for (let field_name of location_fields(vertex)) {
       var location = Pandas.field(vertex, field_name);
       [zoo_id, move_date] = location.split(", ");
-      if (zoo_id * -1 != idnum) {
+      if (zoo_id != compare_id) {
         continue;   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
@@ -941,6 +943,7 @@ Pandas.searchPandaZooCurrent = function(idnum) {
 // Find all pandas that left a zoo in the last six months
 // Use the location tag
 Pandas.searchPandaZooDeparted = function(idnum, months=6) {
+  var compare_id = idnum * -1;
   var nodes = [];
   var nodes = G.v().filter(function(vertex) {
     // Departed animals aren't at the desired zoo currently
@@ -955,10 +958,10 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
     for (let field_name of location_fields(vertex)) {
       var location = Pandas.field(vertex, field_name);
       [zoo_id, move_date] = location.split(", ");
-      if (zoo_id != idnum && at_zoo_previously == false) {
+      if (zoo_id != compare_id && at_zoo_previously == false) {
         continue;
       }
-      if (zoo_id == idnum) {
+      if (zoo_id == compare_id) {
         at_zoo_previously = true;
         continue;
       } else {

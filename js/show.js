@@ -1379,7 +1379,7 @@ Show.message.arrivals = function(zoo, born, language) {
   shrinker.className = "shrinker";
   shrinker.appendChild(link);
   var message = document.createElement('div');
-  message.className = "arrivalsHeading";
+  message.className = "arrivalsHeader";
   message.appendChild(shrinker);
   return message;
 }
@@ -1460,7 +1460,7 @@ Show.message.departures = function(zoo, deaths, language) {
   shrinker.className = "shrinker";
   shrinker.appendChild(link);
   var message = document.createElement('div');
-  message.className = "departuresHeading";
+  message.className = "departuresHeader";
   message.appendChild(shrinker);
   return message;
 }
@@ -1738,16 +1738,17 @@ Show.message.profile_where = function(name, language) {
   message.appendChild(shrinker);
   return message;
 }
-Show.message.residents = function(zoo) {
+Show.message.residents = function(zoo, language) {
   // Zoo search: display a header for the resident animals
   // that didn't recently leave or arrive
   var link = document.createElement('a');
   link.href = "#zoo/" + zoo["_id"] + "/residents";
+  var info = Show.acquireZooInfo(zoo, language);
   var p = document.createElement('p');
   for (var i in L.messages.zoo_header_other_pandas[language]) {
     var field = L.messages.zoo_header_other_pandas[language][i];
     if (field == "<INSERTZOO>") {
-      var msg = document.createTextNode(zoo.name);
+      var msg = document.createTextNode(info.name);
       p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
@@ -1759,7 +1760,7 @@ Show.message.residents = function(zoo) {
   shrinker.className = "shrinker";
   shrinker.appendChild(link);
   var message = document.createElement('div');
-  message.className = "residentsHeading";
+  message.className = "residentsHeader";
   message.appendChild(shrinker);
   return message;
 
@@ -2614,9 +2615,9 @@ Show.results.zooAnimals = function(zoo, language) {
   // Residents get a message if there are other subsections 
   // in these lists of zoo animals
   if (residents.length > 0) {
-    if (leaving.length > 0 || coming.length > 0) {
-      headers["residents"] = Show.message.residents(zoo);
-      content_div = content_divs.concat(headers["residents"]);
+    if ((leaving.length > 0 ) || (coming.length > 0)) {
+      headers["residents"] = Show.message.residents(zoo, language);
+      content_divs = content_divs.concat(headers["residents"]);
     }
     content_divs = content_divs.concat(animals_to_divs(residents));
   }
