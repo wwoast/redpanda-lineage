@@ -2591,6 +2591,7 @@ Show.results.zooAnimals = function(zoo, language) {
   // Which animals were resident at this zoo?
   var residents = Pandas.searchPandaZooCurrent(id);
   residents = Pandas.removeElements(residents, arrivals);
+  residents = Pandas.removeElements(residents, born);
   residents = Pandas.sortOldestToYoungest(residents);
   // Deaths and departures are together
   var leaving = Pandas.sortByDate(departures.concat(deaths), "sort_time", "descending");
