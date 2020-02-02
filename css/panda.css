@@ -1038,17 +1038,40 @@ ul.tagList.multiColumn {
     column-count: 3;
 }
 
-div.birthdaySummary, div.creditSummary, div.frontPageSummary, div.memorialSummary, div.profileSummary, div.tagSummary {
+div.arrivalsHeader,
+div.birthdaySummary,
+div.creditSummary,
+div.departuresHeader,
+div.frontPageSummary, 
+div.memorialSummary,
+div.profileSummary,
+div.residentsHeader,
+div.tagSummary {
     text-align: center;
 }
 
-div.birthdaySummary p, div.creditSummary p, div.frontPageSummary p, div.memorialSummary p, div.profileSummary p, div.tagSummary p {
+div.arrivalsHeader p,
+div.birthdaySummary p,
+div.creditSummary p,
+div.departuresHeader p,
+div.frontPageSummary p,
+div.memorialSummary p,
+div.profileSummary p,
+div.residentsHeader p,
+div.tagSummary p {
     display: inline-block;
     background-color: #9771A7; /* Grapes */
     color: black;   /* default to black text, even if inside an anchor tag */
     border: 1px solid #002200;
     padding: 1ex;
     margin: 1ex;
+}
+
+div.arrivalsHeader p,
+div.departuresHeader p,
+div.residentsHeader p {
+    background-color: lightsalmon;
+    min-width: 226px;   /* 2/3 of the mobile min viewport width */
 }
 
 div.frontPageSummary p.summaryEmphasis {

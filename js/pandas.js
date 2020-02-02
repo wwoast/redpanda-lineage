@@ -348,6 +348,17 @@ Pandas.distinct = function(list) {
   return list.filter(unique);
 }
 
+// Remove elements from the second list from the first
+Pandas.removeElements = function(list, removals) {
+  return list.filter(function(item) {
+    if (removals.indexOf(item) > -1) {
+      return false;
+    } else {
+      return true;
+    }
+  });
+}
+
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {
@@ -844,6 +855,83 @@ Pandas.searchPandaZoo = function(idnum) {
   return nodes;
 }
 
+// Find all pandas born (and living) at a given zoo. 
+// For interleaving with other results, make a date object from 
+// their birthday for the sort_time
+Pandas.searchPandaZooBorn = function(idnum, months=6) {
+  var born = G.v(idnum).in("birthplace").filter(function(vertex) {
+    return vertex.death == undefined;   // Gotta be alive
+  }).filter(function(vertex) {
+    // Compare all panda birthdays node dates with current time.
+    var current_time = new Date();
+    var birth_time = new Date(vertex["birthday"]);
+    var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+    var ms_in_period = months * ms_per_month;
+    if (current_time - birth_time < ms_in_period) {
+      vertex["sort_time"] = birth_time;
+      return vertex;
+    } else {
+      return false;
+    }
+  }).run();
+  return born;
+}
+
+// Find all pandas that were either born at, or lived at a given zoo
+Pandas.searchPandaZooBornLived = function(idnum) {
+  var compare_id = idnum * -1;
+  var lives = G.v(idnum).in("zoo").run();
+  var born = G.v(idnum).in("birthplace").run();
+  var was_here = G.v().filter(function(vertex) {
+    // Gets panda locations and finds zoo matches
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      var zoo_id = location.split(", ")[0];
+      // Matching zoo values will be positive ids in location fields
+      if (zoo_id == compare_id) {
+        return vertex;
+      }
+    }
+    return false;
+  }).run();
+  var nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
+    return self.indexOf(value) === index;  // Am I the first value in the array?
+  });
+  return nodes;
+}
+
+// Find all pandas at a given zoo that are alive, and arrived recently
+Pandas.searchPandaZooArrived = function(idnum, months=6) {
+  var compare_id = idnum * -1;
+  var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+    return vertex.death == undefined;   // Gotta be alive
+  }).filter(function(vertex) {
+    // If their arrival date was within six months, keep in the list
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      [zoo_id, move_date] = location.split(", ");
+      if (zoo_id != compare_id) {
+        continue;   // Ignore location values not at this zoo
+      }
+      // Compare all zoo node dates with current time.
+      var current_time = new Date();
+      var move_time = new Date(move_date);
+      var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+      var ms_in_period = months * ms_per_month;
+      if (current_time - move_time < ms_in_period) {
+        vertex["sort_time"] = move_time; 
+        return vertex;   // Less than N months?
+      }
+    }
+  }).run();
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
+  // TODO: iterating backwards on location fields would fix
+  // if there was a quick back-and-forth travel
+  return nodes;
+}
+
 // Find all pandas at a given zoo that are still alive
 Pandas.searchPandaZooCurrent = function(idnum) {
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
@@ -852,18 +940,76 @@ Pandas.searchPandaZooCurrent = function(idnum) {
   return nodes;
 }
 
-// Find all pandas that were either born at, or lived at a given zoo
-Pandas.searchPandaZooBornLived = function(idnum) {
-  var lived = G.v(idnum).in("zoo").run();
-  var born = G.v(idnum).in("birthplace").run();
-  var nodes = lived.concat(born).filter(function(value, index, self) { 
-    return self.indexOf(value) === index;  // Am I the first value in the array?
-  });
+// Find all pandas that left a zoo in the last six months
+// Use the location tag
+Pandas.searchPandaZooDeparted = function(idnum, months=6) {
+  var compare_id = idnum * -1;
+  var nodes = [];
+  var nodes = G.v().filter(function(vertex) {
+    // Departed animals aren't at the desired zoo currently
+    return vertex["zoo"] != idnum;
+  }).filter(function(vertex) {
+    // Gets panda locations. We want the date of the next zoo
+    // the animal was based at. If that date is less than 6 months 
+    // ago, return in list.
+    var at_zoo_previously = false;
+    var zoo_post_move = '';
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      [zoo_id, move_date] = location.split(", ");
+      if (zoo_id != compare_id && at_zoo_previously == false) {
+        continue;
+      }
+      if (zoo_id == compare_id) {
+        at_zoo_previously = true;
+        continue;
+      } else {
+        zoo_post_move = move_date;
+      }
+      // Compare all zoo node dates with current time.
+      var current_time = new Date();
+      var move_time = new Date(zoo_post_move);
+      var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+      var ms_in_period = months * ms_per_month;
+      if (current_time - move_time < ms_in_period) {
+        vertex["sort_time"] = move_time; 
+        return vertex;   // Less than N months?
+      } else {
+        // This move didn't happen recently. Start the move
+        // calculations from scratch again, continuing through
+        // the list of animal locations
+        at_zoo_previously = false;
+        zoo_post_move = '';
+      }
+    }
+  }).run();
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
+  // TODO: does this logic work with multiple arrival/returns?
+  return nodes;
+}
+
+Pandas.searchPandaZooDied = function(idnum, months=6) {
+  var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+    return vertex.death != undefined;   // Gotta be dead
+  }).filter(function(vertex) {
+    // Compare all panda anniversary dates with current time.
+    var current_time = new Date();
+    var anniversary = new Date(vertex["death"]);
+    var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+    var ms_in_period = months * ms_per_month;
+    if (current_time - anniversary < ms_in_period) {
+      vertex["sort_time"] = anniversary;
+      return vertex;
+    } else {
+      return false;
+    }
+  }).run();
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
   return nodes;
 }
 
 // Find all nodes with a particular photo credit.
-// TODO: populate MAX from the database somehow
 Pandas.searchPhotoCredit = function(author) {
   var photo_fields = Pandas.photoGeneratorMax;
   var nodes = [];
@@ -1099,6 +1245,16 @@ Pandas.sortByNameWithGroups = function(nodes, photo_list, name_field) {
     return Pandas.sortByNameJapanese(nodes);
   } else {
     return Pandas.sortByName(nodes, name_field);
+  }
+}
+
+Pandas.sortByDate = function(nodes, field_name, mode="descending") {
+  // Pandas.sortByName lexicographic sort should work for numbers too,
+  // but to get recent ordering, reverse the list
+  if (mode == "descending") {
+    return Pandas.sortByName(nodes, field_name).reverse();
+  } else {
+    return Pandas.sortByName(nodes, field_name);
   }
 }
 
