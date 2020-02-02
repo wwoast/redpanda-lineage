@@ -852,6 +852,51 @@ Pandas.searchPandaZooCurrent = function(idnum) {
   return nodes;
 }
 
+// Find all pandas that left a zoo in the last six months
+// Use the location tag
+Pandas.searchPandaZooDeparted = function(idnum, months=6) {
+  var location_fields = Pandas.locationGeneratorEntity;
+  var nodes = [];
+  var nodes = G.v().filter(function(vertex) {
+    // Departed animals aren't at the desired zoo currently
+    return vertex["zoo"] != idnum;
+  }).filter(function(vertex) {
+    // Gets panda locations. We want the date of the next zoo
+    // the animal was based at. If that date is less than 6 months 
+    // ago, return in list.
+    var at_zoo_previously = false;
+    var zoo_post_move = '';
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      [zoo_id, move_date] = location.split(", ");
+      if (zoo_id != idnum && at_zoo_previously == false) {
+        continue;
+      }
+      if (zoo_id == idnum) {
+        at_zoo_previously = true;
+        continue;
+      } else {
+        zoo_post_move = new Date(move_date);
+      }
+      // Compare all zoo node dates with current time.
+      var current_time = new Date();
+      var move_time = new Date(move_date);
+      var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+      var ms_in_period = months * ms_per_month;
+      if (current_time - move_time < ms_in_period) {
+        return vertex;   // Less than N months?
+      } else {
+        // This move didn't happen recently. Start the move
+        // calculations from scratch again, continuing through
+        // the list of animal locations
+        at_zoo_previously = false;
+        zoo_post_move = '';
+      }
+    }
+  }).run();
+  return nodes;
+}
+
 // Find all pandas that were either born at, or lived at a given zoo
 Pandas.searchPandaZooBornLived = function(idnum) {
   var lived = G.v(idnum).in("zoo").run();
