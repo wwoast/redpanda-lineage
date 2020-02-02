@@ -986,10 +986,17 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
   return nodes;
 }
 
-Pandas.searchPandaZooDied = function(idnum) {
+Pandas.searchPandaZooDied = function(idnum, months=6) {
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
-    if (vertex.death != undefined) {
-      vertex["sort_time"] = new Date(vertex.death);
+    return vertex.death != undefined;   // Gotta be dead
+  }).filter(function(vertex) {
+    // Compare all panda anniversary dates with current time.
+    var current_time = new Date();
+    var anniversary = new Date(vertex["death"]);
+    var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+    var ms_in_period = months * ms_per_month;
+    if (current_time - anniversary < ms_in_period) {
+      vertex["sort_time"] = anniversary;
       return vertex;
     } else {
       return false;

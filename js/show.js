@@ -2570,12 +2570,20 @@ Show.results.zoo = function(zoo, language) {
 // 3) The other resident animals living at the zoo
 //    -- order them oldest to youngest
 Show.results.zooAnimals = function(zoo, language) {
+  var animals_to_divs = function(animals) {
+    var output_divs = [];
+    animals.forEach(function(animal) {
+      output_divs.push(Show.results.panda(animal, L.display, undefined));
+    });
+    return output_divs;
+  }
+
   var id = zoo["_id"];
   // Death list takes precedence over all others. 
   // No panda in this list should appear in the other lists.
   var deaths = Pandas.searchPandaZooDied(id);
   // Which pandas came to this zoo in the last six months?
-  var arrivals = Pandas.searchPandaZooArrival(id, 6);
+  var arrivals = Pandas.searchPandaZooArrived(id, 6);
   var born = Pandas.searchPandaZooBorn(id, 6);
   // Which pandas departed this zoo in the last six months?
   var departures = Pandas.searchPandaZooDeparted(id, 6);
@@ -2597,11 +2605,11 @@ Show.results.zooAnimals = function(zoo, language) {
   var content_divs = [];
   if (coming.length > 0) {
     content_divs = content_divs.concat(headers["arrivals"]);
-    content_divs = content_divs.concat(coming);
+    content_divs = content_divs.concat(animals_to_divs(coming));
   }
   if (leaving.length > 0) {
     content_divs = content_divs.concat(headers["departures"]);
-    content_divs = content_divs.concat(leaving);
+    content_divs = content_divs.concat(animals_to_divs(leaving));
   }
   // Residents get a message if there are other subsections 
   // in these lists of zoo animals
@@ -2610,7 +2618,7 @@ Show.results.zooAnimals = function(zoo, language) {
       headers["residents"] = Show.message.residents(zoo);
       content_div = content_divs.concat(headers["residents"]);
     }
-    content_divs = content_divs.concat(residents);
+    content_divs = content_divs.concat(animals_to_divs(residents));
   }
   return content_divs;
 }
