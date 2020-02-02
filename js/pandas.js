@@ -878,6 +878,36 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   return nodes;
 }
 
+// Find all pandas at a given zoo that are alive, and arrived recently
+Pandas.searchPandaZooArrived = function(idnum, months=6) {
+  var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+    return vertex.death == undefined;   // Gotta be alive
+  }).filter(function(vertex) {
+    // If their arrival date was within six months, keep in the list
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(vertex)) {
+      var location = Pandas.field(vertex, field_name);
+      [zoo_id, move_date] = location.split(", ");
+      if (zoo_id * -1 != idnum) {
+        continue;   // Ignore location values not at this zoo
+      }
+      // Compare all zoo node dates with current time.
+      var current_time = new Date();
+      var move_time = new Date(move_date);
+      var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+      var ms_in_period = months * ms_per_month;
+      if (current_time - move_time < ms_in_period) {
+        vertex["sort_time"] = move_time; 
+        return vertex;   // Less than N months?
+      }
+    }
+  }).run();
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
+  // TODO: iterating backwards on location fields would fix
+  // if there was a quick back-and-forth travel
+  return nodes;
+}
+
 // Find all pandas at a given zoo that are still alive
 Pandas.searchPandaZooCurrent = function(idnum) {
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {

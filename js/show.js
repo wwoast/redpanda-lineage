@@ -2489,13 +2489,23 @@ Show.results.zoo = function(zoo, language) {
   return result;
 }
 // Display the animals at a zoo as follows:
-// 1) Recently arrived animals at the zoo (if any exist)
+// 1) Recently arrived or born animals at the zoo (if any exist)
+//    -- order them together by their sort_time field
 // 2) Recently departed or died animals at the zoo (if any exist)
+//    -- order them together by their sort_time field
 // 3) The other resident animals living at the zoo
+//    -- order them oldest to youngest
 Show.results.zooAnimals = function(zoo, language) {
   var id = zoo["_id"];
+  // Death list takes precedence over all others. 
+  // No panda in this list should appear in the other lists.
+  var deaths = Pandas.searchPandaZooDied(id);
+  // Which pandas came to this zoo in the last six months?
   var arrivals = Pandas.searchPandaZooArrival(id, 6);
+  // TODO: born
+  // Which pandas departed this zoo in the last six months?
   var departures = Pandas.searchPandaZooDeparted(id, 6);
+  // Which animals were resident at this zoo?
   var residents = Pandas.searchPandaZooCurrent(id);
   residents = Pandas.removeElements(residents, arrivals);
   residents = Pandas.sortOldestToYoungest(residents);
