@@ -878,7 +878,6 @@ Pandas.searchPandaZooCurrent = function(idnum) {
 // Find all pandas that left a zoo in the last six months
 // Use the location tag
 Pandas.searchPandaZooDeparted = function(idnum, months=6) {
-  var location_fields = Pandas.locationGeneratorEntity;
   var nodes = [];
   var nodes = G.v().filter(function(vertex) {
     // Departed animals aren't at the desired zoo currently
@@ -889,6 +888,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
     // ago, return in list.
     var at_zoo_previously = false;
     var zoo_post_move = '';
+    var location_fields = Pandas.locationGeneratorEntity;
     for (let field_name of location_fields(vertex)) {
       var location = Pandas.field(vertex, field_name);
       [zoo_id, move_date] = location.split(", ");
@@ -920,6 +920,19 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
   }).run();
   nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
   // TODO: does this logic work with multiple arrival/returns?
+  return nodes;
+}
+
+Pandas.searchPandaZooDied = function(idnum) {
+  var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
+    if (vertex.death != undefined) {
+      vertex["sort_time"] = new Date(vertex.death);
+      return vertex;
+    } else {
+      return false;
+    }
+  }).run();
+  nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
   return nodes;
 }
 
