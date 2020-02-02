@@ -849,7 +849,7 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   var lives = G.v(idnum).in("zoo").run();
   var born = G.v(idnum).in("birthplace").run();
   var was_here = G.v().filter(function(vertex) {
-    // Gets panda locations. If the zoo matches
+    // Gets panda locations and finds zoo matches
     var location_fields = Pandas.locationGeneratorEntity;
     for (let field_name of location_fields(vertex)) {
       var location = Pandas.field(vertex, field_name);
