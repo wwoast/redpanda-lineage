@@ -1432,16 +1432,16 @@ Language.L.messages = {
            "<INSERTYEAR>"]
   },
   "zoo_header_new_arrivals": {
-    "cn": [Language.L.emoji.star,
+    "cn": [Language.L.emoji.fireworks,
            " ",
            "新来的"],
-    "en": [Language.L.emoji.star,
+    "en": [Language.L.emoji.fireworks,
            " ",
            "New Arrivals"],
-    "jp": [Language.L.emoji.star,
+    "jp": [Language.L.emoji.fireworks,
            " ",
            "新着"],
-    "np": [Language.L.emoji.star,
+    "np": [Language.L.emoji.fireworks,
            " ",
            "नयाँ आगमन"]
   },
