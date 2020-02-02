@@ -2502,14 +2502,19 @@ Show.results.zooAnimals = function(zoo, language) {
   var deaths = Pandas.searchPandaZooDied(id);
   // Which pandas came to this zoo in the last six months?
   var arrivals = Pandas.searchPandaZooArrival(id, 6);
-  // TODO: born
+  var born = Pandas.searchPandaZooBorn(id, 6);
   // Which pandas departed this zoo in the last six months?
   var departures = Pandas.searchPandaZooDeparted(id, 6);
   // Which animals were resident at this zoo?
   var residents = Pandas.searchPandaZooCurrent(id);
   residents = Pandas.removeElements(residents, arrivals);
   residents = Pandas.sortOldestToYoungest(residents);
-  // TODO: content_divs, messages, display  
+  // Deaths and departures are together
+  var leaving = Pandas.sortByDate(departures.concat(deaths), "sort_time", "descending");
+  // Births and arrivals are together
+  var coming = Pandas.sortByDate(arrivals.concat(born), "sort_time", "descending");
+  // Define the per-section messages. There are modifications depending on
+  // which of the input lists are non-empty
 }
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.

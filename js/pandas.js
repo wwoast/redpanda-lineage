@@ -855,6 +855,28 @@ Pandas.searchPandaZoo = function(idnum) {
   return nodes;
 }
 
+// Find all pandas born (and living) at a given zoo. 
+// For interleaving with other results, make a date object from 
+// their birthday for the sort_time
+Pandas.searchPandaZooBorn = function(idnum, months=6) {
+  var born = G.v(idnum).in("birthplace").filter(function(vertex) {
+    return vertex.death == undefined;   // Gotta be alive
+  }).filter(function(vertex) {
+    // Compare all panda birthdays node dates with current time.
+    var current_time = new Date();
+    var birth_time = new Date(vertex["birthday"]);
+    var ms_per_month = 1000 * 60 * 60 * 24 * 31;
+    var ms_in_period = months * ms_per_month;
+    if (current_time - birth_time < ms_in_period) {
+      vertex["sort_time"] = birth_time;
+      return vertex;
+    } else {
+      return false;
+    }
+  }).run();
+  return born;
+}
+
 // Find all pandas that were either born at, or lived at a given zoo
 Pandas.searchPandaZooBornLived = function(idnum) {
   var lives = G.v(idnum).in("zoo").run();
