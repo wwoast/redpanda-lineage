@@ -2706,12 +2706,13 @@ Show.results.zooCounts = function(info) {
     // Find the first location marker matching the zoo for this animal
     // Get the year from this value.
     var earliest_year = -1;
+    var compare_id = info["id"] * -1;
     for (let animal of total_zoo) {
       var location_fields = Pandas.locationGeneratorEntity;
       for (let field_name of location_fields(animal)) {
         var location = Pandas.field(animal, field_name);
         [loc_id, loc_date] = location.split(", ");
-        if (loc_date != undefined) {
+        if ((loc_date != undefined) && (loc_id == compare_id)) {
           var year = parseInt(location.split(", ")[1].split("/")[0]);
           if ((earliest_year == -1) || (year < earliest_year)) {
             earliest_year = year;
