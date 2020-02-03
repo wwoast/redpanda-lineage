@@ -29,13 +29,17 @@ photo.3.tags: tail
 photo.4: https://www.instagram.com/p/BqcQJ8plA9F/media/?size=m
 photo.4.author: makimaru18
 photo.4.link: https://www.instagram.com/makimaru18/
-photo.5: https://www.instagram.com/p/Bxx6wczlDOS/media/?size=m
-photo.5.author: kipekaila
-photo.5.link: https://www.instagram.com/kipekaila/
-photo.5.tags: apple time
-photo.6: https://www.instagram.com/p/B3luQunhunI/media/?size=m
-photo.6.author: kmasahon
-photo.6.link: https://www.instagram.com/kmasahon/
-photo.6.tags: paws, smile
+photo.5: https://www.instagram.com/p/BsI14xhls45/media/?size=m
+photo.5.author: animal_love_us
+photo.5.link: https://www.instagram.com/animal_love_us/
+photo.5.tags: bamboo, portrait, tongue
+photo.6: https://www.instagram.com/p/Bxx6wczlDOS/media/?size=m
+photo.6.author: kipekaila
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: apple time
+photo.7: https://www.instagram.com/p/B3luQunhunI/media/?size=m
+photo.7.author: kmasahon
+photo.7.link: https://www.instagram.com/kmasahon/
+photo.7.tags: paws, smile
 species: 2
 zoo: 6
