@@ -906,6 +906,14 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   return nodes;
 }
 
+// Find all pandas born at a given zoo any time 
+Pandas.searchPandaZooBornRecords = function(idnum) {
+  var nodes = G.v(idnum).in("birthplace").run();
+  // HACK: good enough for year sorting
+  nodes = Pandas.sortByName(nodes, "birthday").reverse();
+  return nodes;
+}
+
 // Find all pandas at a given zoo that are alive, and arrived recently
 Pandas.searchPandaZooArrived = function(idnum, months=6) {
   var compare_id = idnum * -1;

@@ -2659,13 +2659,13 @@ Show.results.zooCounts = function(info) {
   }
   // Other messages may disappear if they aren't meaningful for the data
   // How many pandas were born at this zoo
-  var born_at_zoo = Pandas.searchPandaZooBorn(info["id"]);
+  var born_at_zoo = Pandas.searchPandaZooBornRecords(info["id"]);
   var born_count = born_at_zoo.length;
   if (born_count > 0) {
     var earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0];
     for (var i in L.messages.zoo_details_babies[language]) {
       var field = L.messages.zoo_details_babies[language][i];
-      if (field == "<INSERTNUM>") {
+      if (field == "<INSERTBABIES>") {
         var msg = document.createTextNode(born_count);
         li_items["born"].appendChild(msg);
       } else if (field == "<INSERTYEAR>") {
@@ -2704,16 +2704,19 @@ Show.results.zooCounts = function(info) {
   var total_count = total_zoo.length;
   if (total_count > 0) {
     // Find the first location marker matching the zoo for this animal
-    // Get the year from this value
-    var earliest_animal = total_zoo[total_count - 1];
-    var earliest_animal_year = "1970";   // TODO: record in the dataset
-    var compare_id = info["id"] * -1;
-    var location_fields = Pandas.locationGeneratorEntity;
-    for (let field_name of location_fields(earliest_animal)) {
-      var location = Pandas.field(earliest_animal, field_name);
-      [location_id, location_date] = location.split(", ");
-      if (location_id == compare_id) {
-        earliest_animal_year = location_date.split("/")[0];
+    // Get the year from this value.
+    var earliest_year = -1;
+    for (let animal of total_zoo) {
+      var location_fields = Pandas.locationGeneratorEntity;
+      for (let field_name of location_fields(animal)) {
+        var location = Pandas.field(animal, field_name);
+        [loc_id, loc_date] = location.split(", ");
+        if (loc_date != undefined) {
+          var year = parseInt(location.split(", ")[1].split("/")[0]);
+          if ((earliest_year == -1) || (year < earliest_year)) {
+            earliest_year = year;
+          }
+        }
       }
     }
     // Now for the message
@@ -2723,7 +2726,7 @@ Show.results.zooCounts = function(info) {
         var msg = document.createTextNode(total_count);
         li_items["recorded"].appendChild(msg);
       } else if (field == "<INSERTYEAR>") {
-        var msg = document.createTextNode(earliest_animal_year);
+        var msg = document.createTextNode(earliest_year);
         li_items["recorded"].appendChild(msg);
       } else {
         var msg = document.createTextNode(field);
