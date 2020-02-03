@@ -2624,6 +2624,31 @@ Show.results.zooAnimals = function(zoo, language) {
   }
   return content_divs;
 }
+Show.results.zooCounts = function(info) {
+  // The pink "animal counts" information stripe for a zoo
+  var ul = document.createElement('ul');
+  var li_living = document.createElement('li');
+  // Animals living at this zoo today
+  var at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length;
+  if (at_zoo < 1) {
+    for (var i in L.messages.zoo_details_no_pandas_live_here[language]) {
+      var field = L.messages.zoo_details_no_pandas_live_here[language][i];
+      var msg = document.createTextNode(field);
+      li_living.appendChild(msg);
+    }
+  } else {
+    for (var i in L.messages.zoo_details_pandas_live_here[language]) {
+      var field = L.messages.zoo_details_pandas_live_here[language][i];
+      if (field == "<INSERTNUM>") {
+        var msg = document.createTextNode(at_zoo);
+      } else {
+        var msg = document.createTextNode(field);
+        li_living.appendChild(msg);
+      }
+    }
+  }
+  // Other messages may disappear if they aren't meaningful for the data
+}
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
   var address = document.createElement('p');

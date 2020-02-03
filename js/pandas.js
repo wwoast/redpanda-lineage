@@ -867,6 +867,11 @@ Pandas.searchPandaZooBorn = function(idnum, months=6) {
     var birth_time = new Date(vertex["birthday"]);
     var ms_per_month = 1000 * 60 * 60 * 24 * 31;
     var ms_in_period = months * ms_per_month;
+    if (ms_in_period == 0) {
+      // Get all born if months == 0
+      vertex["sort_time"] = birth_time; 
+      return vertex;
+    }
     if (current_time - birth_time < ms_in_period) {
       vertex["sort_time"] = birth_time;
       return vertex;
@@ -920,6 +925,11 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
       var move_time = new Date(move_date);
       var ms_per_month = 1000 * 60 * 60 * 24 * 31;
       var ms_in_period = months * ms_per_month;
+      if (ms_in_period == 0) {
+        // Get all arrived if months == 0
+        vertex["sort_time"] = move_time; 
+        return vertex;
+      }
       if (current_time - move_time < ms_in_period) {
         vertex["sort_time"] = move_time; 
         return vertex;   // Less than N months?
@@ -972,6 +982,11 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
       var move_time = new Date(zoo_post_move);
       var ms_per_month = 1000 * 60 * 60 * 24 * 31;
       var ms_in_period = months * ms_per_month;
+      if (ms_in_period == 0) {
+        // Get all departed if months == 0
+        vertex["sort_time"] = move_time; 
+        return vertex;
+      }
       if (current_time - move_time < ms_in_period) {
         vertex["sort_time"] = move_time; 
         return vertex;   // Less than N months?
@@ -998,6 +1013,11 @@ Pandas.searchPandaZooDied = function(idnum, months=6) {
     var anniversary = new Date(vertex["death"]);
     var ms_per_month = 1000 * 60 * 60 * 24 * 31;
     var ms_in_period = months * ms_per_month;
+    if (ms_in_period == 0) {
+      // Get all died if months == 0
+      vertex["sort_time"] = anniversary; 
+      return vertex;
+    }
     if (current_time - anniversary < ms_in_period) {
       vertex["sort_time"] = anniversary;
       return vertex;

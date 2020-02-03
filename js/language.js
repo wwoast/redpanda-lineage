@@ -1380,6 +1380,20 @@ Language.L.messages = {
            "<INSERTNUM>",
            " पांडा यहाँ बस्छन्"]
   },
+  "zoo_details_no_pandas_live_here": {
+    "cn": [Language.L.emoji.panda,
+           " ",
+           "没有找到这只小熊猫"],
+    "en": [Language.L.emoji.panda,
+           " ",
+           "No red pandas currently here."],
+    "jp": [Language.L.emoji.panda,
+           " ",
+           "パンダが見つかりません"],
+    "np": [Language.L.emoji.panda,
+           " ",
+           "कुनै निगल्य पोन्या फेला परेन"]
+  },
   "zoo_details_records": {
     "cn": [Language.L.emoji.recordbook,
            " ",
