@@ -2640,22 +2640,26 @@ Show.results.zooCounts = function(info) {
   // Animals living at this zoo today
   var at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length;
   if (at_zoo < 1) {
+    var output_text = "";
     for (var i in L.messages.zoo_details_no_pandas_live_here[language]) {
       var field = L.messages.zoo_details_no_pandas_live_here[language][i];
-      var msg = document.createTextNode(field);
-      li_items["living"].appendChild(msg);
+      var output_text = output_text.concat(field);
     }
+    var text_node = document.createTextNode(output_text);
+    li_items["living"].appendChild(text_node);
   } else {
+    var output_text = "";
     for (var i in L.messages.zoo_details_pandas_live_here[language]) {
       var field = L.messages.zoo_details_pandas_live_here[language][i];
       if (field == "<INSERTNUM>") {
-        var msg = document.createTextNode(at_zoo);
-        li_items["living"].appendChild(msg);
+        output_text = output_text.concat(at_zoo);        
       } else {
-        var msg = document.createTextNode(field);
-        li_items["living"].appendChild(msg);
+        output_text = output_text.concat(field);
       }
     }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["living"].appendChild(text_node);
   }
   // Other messages may disappear if they aren't meaningful for the data
   // How many pandas were born at this zoo
@@ -2663,19 +2667,20 @@ Show.results.zooCounts = function(info) {
   var born_count = born_at_zoo.length;
   if (born_count > 0) {
     var earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0];
+    var output_text = "";
     for (var i in L.messages.zoo_details_babies[language]) {
       var field = L.messages.zoo_details_babies[language][i];
       if (field == "<INSERTBABIES>") {
-        var msg = document.createTextNode(born_count);
-        li_items["born"].appendChild(msg);
+        output_text = output_text.concat(born_count);
       } else if (field == "<INSERTYEAR>") {
-        var msg = document.createTextNode(earliest_born_year);
-        li_items["born"].appendChild(msg);
+        output_text = output_text.concat(earliest_born_year);
       } else {
-        var msg = document.createTextNode(field);
-        li_items["born"].appendChild(msg);
+        output_text = output_text.concat(field);
       }
     }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["born"].appendChild(text_node);
   }
   // How many pandas have recently departed this zoo
   var departed_zoo = Pandas.searchPandaZooDied(info["id"], 9);
@@ -2684,20 +2689,21 @@ Show.results.zooCounts = function(info) {
   var died_count = died_at_zoo.length;
   var total_departed = departed_count + died_count;
   if (total_departed > 0) {
+    var output_text = "";
     for (var i in L.messages.zoo_details_departures[language]) {
       var field = L.messages.zoo_details_departures[language][i];
       if (field == "<INSERTNUM>") {
-        var msg = document.createTextNode(total_departed);
-        li_items["departed"].appendChild(msg);
+        output_text = output_text.concat(total_departed);
       } else {
-        var msg = document.createTextNode(field);
-        li_items["departed"].appendChild(msg);
+        output_text = output_text.concat(field);
       }
     }
     if (died_count > 0) {
-      var suffix = document.createTextNode(" " + Language.L.emoji.died);
-      li_items["departed"].appendChild(suffix);
+      output_text = output_text.concat(" " + Language.L.emoji.died);
     }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["departed"].appendChild(text_node);
   }
   // How many pandas total have been recorded here
   var total_zoo = Pandas.searchPandaZooBornLived(info["id"]);
@@ -2721,19 +2727,20 @@ Show.results.zooCounts = function(info) {
       }
     }
     // Now for the message
+    var output_text = "";
     for (var i in L.messages.zoo_details_records[language]) {
       var field = L.messages.zoo_details_records[language][i];
       if (field == "<INSERTNUM>") {
-        var msg = document.createTextNode(total_count);
-        li_items["recorded"].appendChild(msg);
+        output_text = output_text.concat(total_count);
       } else if (field == "<INSERTYEAR>") {
-        var msg = document.createTextNode(earliest_year);
-        li_items["recorded"].appendChild(msg);
+        output_text = output_text.concat(earliest_year);
       } else {
-        var msg = document.createTextNode(field);
-        li_items["recorded"].appendChild(msg);
+        output_text = output_text.concat(field);
       }
     }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["recorded"].appendChild(text_node);
   }
   // Finally, construct the set of info
   for (let message of ["living", "born", "departed", "recorded"]) {
