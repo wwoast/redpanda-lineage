@@ -2551,10 +2551,12 @@ Show.results.zoo = function(zoo, language) {
   });
   title = Show.zooTitle(info);
   var details = Show.results.zooDetails(info);
+  var counts = Show.results.zooCounts(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
   dossier.appendChild(title);
   dossier.appendChild(details);
+  dossier.appendChild(counts);
   var result = document.createElement('div');
   result.className = "zooResult";
   result.appendChild(photo);
@@ -2627,27 +2629,113 @@ Show.results.zooAnimals = function(zoo, language) {
 Show.results.zooCounts = function(info) {
   // The pink "animal counts" information stripe for a zoo
   var ul = document.createElement('ul');
-  var li_living = document.createElement('li');
+  var li_items = {
+    "living": document.createElement('li'),
+    "born": document.createElement('li'),
+    "departed": document.createElement('li'),
+    "recorded": document.createElement('li')
+  }
   // Animals living at this zoo today
   var at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length;
   if (at_zoo < 1) {
     for (var i in L.messages.zoo_details_no_pandas_live_here[language]) {
       var field = L.messages.zoo_details_no_pandas_live_here[language][i];
       var msg = document.createTextNode(field);
-      li_living.appendChild(msg);
+      li_items["living"].appendChild(msg);
     }
   } else {
     for (var i in L.messages.zoo_details_pandas_live_here[language]) {
       var field = L.messages.zoo_details_pandas_live_here[language][i];
       if (field == "<INSERTNUM>") {
         var msg = document.createTextNode(at_zoo);
+        li_items["living"].appendChild(msg);
       } else {
         var msg = document.createTextNode(field);
-        li_living.appendChild(msg);
+        li_items["living"].appendChild(msg);
       }
     }
   }
   // Other messages may disappear if they aren't meaningful for the data
+  // How many pandas were born at this zoo
+  var born_at_zoo = Pandas.searchPandaZooBorn(info["id"]);
+  var born_count = born_at_zoo.length;
+  if (born_count > 0) {
+    var earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0];
+    for (var i in L.messages.zoo_details_babies[language]) {
+      var field = L.messages.zoo_details_babies[language][i];
+      if (field == "<INSERTNUM>") {
+        var msg = document.createTextNode(born_count);
+        li_items["born"].appendChild(msg);
+      } else if (field == "<INSERTYEAR>") {
+        var msg = document.createTextNode(earliest_born_year);
+        li_items["born"].appendChild(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        li_items["born"].appendChild(msg);
+      }
+    }
+  }
+  // How many pandas have recently departed this zoo
+  var departed_zoo = Pandas.searchPandaZooDied(info["id"], 9);
+  var died_at_zoo = Pandas.searchPandaZooDeparted(info["id"], 9);
+  var departed_count = departed_zoo.length;
+  var died_count = died_at_zoo.length;
+  var total_departed = departed_count + died_count;
+  if (total_departed > 0) {
+    for (var i in L.messages.zoo_details_departures[language]) {
+      var field = L.messages.zoo_details_departures[language][i];
+      if (field == "<INSERTNUM>") {
+        var msg = document.createTextNode(born_count);
+        li_items["departed"].appendChild(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        li_items["departed"].appendChild(msg);
+      }
+    }
+    if (died_count > 0) {
+      var suffix = document.createTextNode(" " + Language.L.emoji.died);
+      li_items["departed"].appendChild(suffix);
+    }
+  }
+  // How many pandas total have been recorded here
+  var total_zoo = Pandas.searchPandaZooBornLived(info["id"]);
+  var total_count = total_zoo.length;
+  if (total_count > 0) {
+    // Find the first location marker matching the zoo for this animal
+    // Get the year from this value
+    var earliest_animal = total_zoo[total_count - 1];
+    var earliest_animal_year = "1970";   // TODO: record in the dataset
+    var compare_id = info["id"] * -1;
+    var location_fields = Pandas.locationGeneratorEntity;
+    for (let field_name of location_fields(earliest_animal)) {
+      var location = Pandas.field(earliest_animal, field_name);
+      [location_id, location_date] = location.split(", ");
+      if (location_id == compare_id) {
+        earliest_animal_year = location_date.split("/")[0];
+      }
+    }
+    // Now for the message
+    for (var i in L.messages.zoo_details_records[language]) {
+      var field = L.messages.zoo_details_records[language][i];
+      if (field == "<INSERTNUM>") {
+        var msg = document.createTextNode(total_count);
+        li_items["recorded"].appendChild(msg);
+      } else if (field == "<INSERTYEAR>") {
+        var msg = document.createTextNode(earliest_animal_year);
+        li_items["recorded"].appendChild(msg);
+      } else {
+        var msg = document.createTextNode(field);
+        li_items["recorded"].appendChild(msg);
+      }
+    }
+  }
+  // Finally, construct the set of info
+  for (let message of ["living", "born", "departed", "recorded"]) {
+    if (li_items[message].childNodes.length > 0) {
+      ul.appendChild(li_items[message]);
+    }
+  }
+  return ul;
 }
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
