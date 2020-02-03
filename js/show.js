@@ -2626,24 +2626,6 @@ Show.results.zooAnimals = function(zoo, language) {
 }
 Show.results.zooDetails = function(info) {
   // This is the purple "dossier" information stripe for a zoo.
-  var language = info.language;
-  var counts = document.createElement('p');
-  var output_text = "";
-  for (var i in L.messages.zoo_details[language]) {
-    var field = L.messages.zoo_details[language][i];
-    if (field == "<INSERTANIMALCOUNT>") {
-      field = info.animal_count;
-      output_text = output_text.concat(field);
-    } else if (field == "<INSERTRECORDEDCOUNT>") {
-      field = info.recorded_count;
-      output_text = output_text.concat(field);
-    } else {
-      output_text = output_text.concat(field);
-    }
-  }
-  output_text = Language.unpluralize([output_text])[0];
-  counts.appendChild(document.createTextNode(output_text));
-
   var address = document.createElement('p');
   var address_link = document.createElement('a');
   address_link.innerText = L.emoji.travel + " " + info.address;
@@ -2658,7 +2640,6 @@ Show.results.zooDetails = function(info) {
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
-  details.appendChild(counts);
   details.appendChild(address);
   details.appendChild(zoo_page);
   // Photo details are optional for zoos, so don't show the
