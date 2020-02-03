@@ -2683,8 +2683,8 @@ Show.results.zooCounts = function(info) {
     li_items["born"].appendChild(text_node);
   }
   // How many pandas have recently departed this zoo
-  var departed_zoo = Pandas.searchPandaZooDied(info["id"], 9);
-  var died_at_zoo = Pandas.searchPandaZooDeparted(info["id"], 9);
+  var departed_zoo = Pandas.searchPandaZooDeparted(info["id"], 9);
+  var died_at_zoo = Pandas.searchPandaZooDied(info["id"], 9);
   var departed_count = departed_zoo.length;
   var died_count = died_at_zoo.length;
   var total_departed = departed_count + died_count;
