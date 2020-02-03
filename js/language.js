@@ -1349,7 +1349,7 @@ Language.L.messages = {
     "en": [Language.L.emoji.truck,
            " ",
            "<INSERTNUM>", 
-           "recent departures"],
+           " recent departures"],
     "jp": [Language.L.emoji.truck,
            " ",
            "最近の",

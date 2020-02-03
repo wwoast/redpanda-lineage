@@ -2628,7 +2628,9 @@ Show.results.zooAnimals = function(zoo, language) {
 }
 Show.results.zooCounts = function(info) {
   // The pink "animal counts" information stripe for a zoo
+  var language = info.language;
   var ul = document.createElement('ul');
+  ul.className = "zooCounts";
   var li_items = {
     "living": document.createElement('li'),
     "born": document.createElement('li'),
@@ -2685,7 +2687,7 @@ Show.results.zooCounts = function(info) {
     for (var i in L.messages.zoo_details_departures[language]) {
       var field = L.messages.zoo_details_departures[language][i];
       if (field == "<INSERTNUM>") {
-        var msg = document.createTextNode(born_count);
+        var msg = document.createTextNode(total_departed);
         li_items["departed"].appendChild(msg);
       } else {
         var msg = document.createTextNode(field);
