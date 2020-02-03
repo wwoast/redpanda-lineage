@@ -1316,33 +1316,6 @@ Language.L.messages = {
            "<INSERTTAG>",
            "।"]
   },
-  "zoo_details": {
-    "cn": [Language.L.emoji.animal,
-           " ",
-           "<INSERTANIMALCOUNT>",
-           "个当前的小熊猫。(",
-           "<INSERTRECORDEDCOUNT>",
-           "个记录在数据库中)"],
-    "en": [Language.L.emoji.animal,
-           " ",
-           "<INSERTANIMALCOUNT>",
-           " current red pandas, and ",
-           "<INSERTRECORDEDCOUNT>",
-           " recorded in the database."],
-    "jp": [Language.L.emoji.animal,
-           " ",
-           "現在",
-           "<INSERTANIMALCOUNT>",
-           "頭のレッサーパンダがいます。(データベースには",
-           "<INSERTRECORDEDCOUNT>",
-           "頭の記録があります)"],
-    "np": [Language.L.emoji.animal,
-           " ",
-           "<INSERTANIMALCOUNT>",
-           " वर्तमान निगल्या पोनिया र डाटाबेस मा ",
-           "<INSERTRECORDEDCOUNT>",
-           "।"]
-  },
   "zoo_details_babies": {
     "cn": [Language.L.emoji.baby,
            " ",
@@ -1376,7 +1349,7 @@ Language.L.messages = {
     "en": [Language.L.emoji.truck,
            " ",
            "<INSERTNUM>", 
-           "recent departures"],
+           " recent departures"],
     "jp": [Language.L.emoji.truck,
            " ",
            "最近の",
@@ -1395,8 +1368,7 @@ Language.L.messages = {
     "en": [Language.L.emoji.panda,
            " ",
            "<INSERTNUM>",
-           " ",
-           "red pandas live here."],
+           " red pandas live here"],
     "jp": [Language.L.emoji.panda,
            " ",
            "ここに",
@@ -1406,6 +1378,20 @@ Language.L.messages = {
            " ",
            "<INSERTNUM>",
            " पांडा यहाँ बस्छन्"]
+  },
+  "zoo_details_no_pandas_live_here": {
+    "cn": [Language.L.emoji.panda,
+           " ",
+           "没有找到这只小熊猫"],
+    "en": [Language.L.emoji.panda,
+           " ",
+           "No red pandas currently here."],
+    "jp": [Language.L.emoji.panda,
+           " ",
+           "パンダが見つかりません"],
+    "np": [Language.L.emoji.panda,
+           " ",
+           "कुनै निगल्य पोन्या फेला परेन"]
   },
   "zoo_details_records": {
     "cn": [Language.L.emoji.recordbook,
@@ -2480,6 +2466,9 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 new red pandas/, "one new red panda")
                    .replace(/\b1 baby siblings/, "one baby sibling")
                    .replace(/\b1 current red pandas/, "one current red panda")
+                   .replace(/\b1 red pandas live/, "one red panda lives")
+                   .replace(/\b1 babies/, "one baby")
+                   .replace(/\b1 recent departures/, "one recent departure")
                    .replace(/\b1 new contributors/, "one new contributor")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
                    .replace(/^one\s/, "One ");

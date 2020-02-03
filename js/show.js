@@ -2551,10 +2551,12 @@ Show.results.zoo = function(zoo, language) {
   });
   title = Show.zooTitle(info);
   var details = Show.results.zooDetails(info);
+  var counts = Show.results.zooCounts(info);
   var dossier = document.createElement('div');
   dossier.className = "zooDossier";
   dossier.appendChild(title);
   dossier.appendChild(details);
+  dossier.appendChild(counts);
   var result = document.createElement('div');
   result.className = "zooResult";
   result.appendChild(photo);
@@ -2624,26 +2626,132 @@ Show.results.zooAnimals = function(zoo, language) {
   }
   return content_divs;
 }
-Show.results.zooDetails = function(info) {
-  // This is the purple "dossier" information stripe for a zoo.
+Show.results.zooCounts = function(info) {
+  // The pink "animal counts" information stripe for a zoo
   var language = info.language;
-  var counts = document.createElement('p');
-  var output_text = "";
-  for (var i in L.messages.zoo_details[language]) {
-    var field = L.messages.zoo_details[language][i];
-    if (field == "<INSERTANIMALCOUNT>") {
-      field = info.animal_count;
-      output_text = output_text.concat(field);
-    } else if (field == "<INSERTRECORDEDCOUNT>") {
-      field = info.recorded_count;
-      output_text = output_text.concat(field);
-    } else {
-      output_text = output_text.concat(field);
+  var ul = document.createElement('ul');
+  ul.className = "zooCounts";
+  var li_items = {
+    "living": document.createElement('li'),
+    "born": document.createElement('li'),
+    "departed": document.createElement('li'),
+    "recorded": document.createElement('li')
+  }
+  // Animals living at this zoo today
+  var at_zoo = Pandas.searchPandaZooCurrent(info["id"]).length;
+  if (at_zoo < 1) {
+    var output_text = "";
+    for (var i in L.messages.zoo_details_no_pandas_live_here[language]) {
+      var field = L.messages.zoo_details_no_pandas_live_here[language][i];
+      var output_text = output_text.concat(field);
+    }
+    var text_node = document.createTextNode(output_text);
+    li_items["living"].appendChild(text_node);
+  } else {
+    var output_text = "";
+    for (var i in L.messages.zoo_details_pandas_live_here[language]) {
+      var field = L.messages.zoo_details_pandas_live_here[language][i];
+      if (field == "<INSERTNUM>") {
+        output_text = output_text.concat(at_zoo);        
+      } else {
+        output_text = output_text.concat(field);
+      }
+    }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["living"].appendChild(text_node);
+  }
+  // Other messages may disappear if they aren't meaningful for the data
+  // How many pandas were born at this zoo
+  var born_at_zoo = Pandas.searchPandaZooBornRecords(info["id"]);
+  var born_count = born_at_zoo.length;
+  if (born_count > 0) {
+    var earliest_born_year = born_at_zoo[born_count - 1]["birthday"].split("/")[0];
+    var output_text = "";
+    for (var i in L.messages.zoo_details_babies[language]) {
+      var field = L.messages.zoo_details_babies[language][i];
+      if (field == "<INSERTBABIES>") {
+        output_text = output_text.concat(born_count);
+      } else if (field == "<INSERTYEAR>") {
+        output_text = output_text.concat(earliest_born_year);
+      } else {
+        output_text = output_text.concat(field);
+      }
+    }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["born"].appendChild(text_node);
+  }
+  // How many pandas have recently departed this zoo
+  var departed_zoo = Pandas.searchPandaZooDied(info["id"], 9);
+  var died_at_zoo = Pandas.searchPandaZooDeparted(info["id"], 9);
+  var departed_count = departed_zoo.length;
+  var died_count = died_at_zoo.length;
+  var total_departed = departed_count + died_count;
+  if (total_departed > 0) {
+    var output_text = "";
+    for (var i in L.messages.zoo_details_departures[language]) {
+      var field = L.messages.zoo_details_departures[language][i];
+      if (field == "<INSERTNUM>") {
+        output_text = output_text.concat(total_departed);
+      } else {
+        output_text = output_text.concat(field);
+      }
+    }
+    if (died_count > 0) {
+      output_text = output_text.concat(" " + Language.L.emoji.died);
+    }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["departed"].appendChild(text_node);
+  }
+  // How many pandas total have been recorded here
+  var total_zoo = Pandas.searchPandaZooBornLived(info["id"]);
+  var total_count = total_zoo.length;
+  if (total_count > 0) {
+    // Find the first location marker matching the zoo for this animal
+    // Get the year from this value.
+    var earliest_year = -1;
+    var compare_id = info["id"] * -1;
+    for (let animal of total_zoo) {
+      var location_fields = Pandas.locationGeneratorEntity;
+      for (let field_name of location_fields(animal)) {
+        var location = Pandas.field(animal, field_name);
+        [loc_id, loc_date] = location.split(", ");
+        if ((loc_date != undefined) && (loc_id == compare_id)) {
+          var year = parseInt(location.split(", ")[1].split("/")[0]);
+          if ((earliest_year == -1) || (year < earliest_year)) {
+            earliest_year = year;
+          }
+        }
+      }
+    }
+    // Now for the message
+    var output_text = "";
+    for (var i in L.messages.zoo_details_records[language]) {
+      var field = L.messages.zoo_details_records[language][i];
+      if (field == "<INSERTNUM>") {
+        output_text = output_text.concat(total_count);
+      } else if (field == "<INSERTYEAR>") {
+        output_text = output_text.concat(earliest_year);
+      } else {
+        output_text = output_text.concat(field);
+      }
+    }
+    output_text = Language.unpluralize([output_text])[0];
+    var text_node = document.createTextNode(output_text);
+    li_items["recorded"].appendChild(text_node);
+  }
+  // Finally, construct the set of info
+  for (let message of ["living", "born", "departed", "recorded"]) {
+    if (li_items[message].childNodes.length > 0) {
+      ul.appendChild(li_items[message]);
     }
   }
-  output_text = Language.unpluralize([output_text])[0];
-  counts.appendChild(document.createTextNode(output_text));
-
+  return ul;
+}
+Show.results.zooDetails = function(info) {
+  // This is the purple "dossier" information stripe for a zoo.
   var address = document.createElement('p');
   var address_link = document.createElement('a');
   address_link.innerText = L.emoji.travel + " " + info.address;
@@ -2658,7 +2766,6 @@ Show.results.zooDetails = function(info) {
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
-  details.appendChild(counts);
   details.appendChild(address);
   details.appendChild(zoo_page);
   // Photo details are optional for zoos, so don't show the

@@ -561,6 +561,21 @@ div.pandaDetails p, div.zooDetails p {
     padding-bottom: 0ex;
 }
 
+ul.zooCounts {
+    background-color: #EDC1D7;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 1ex;
+    padding-bottom: 0.5ex;
+    padding-left: 0px;
+    list-style: none;
+}
+
+ul.zooCounts > li {
+    margin-left: 14px;
+    padding-bottom: 0.5ex;
+}
+
 h3, h4 {
     display: inline-block;
     margin-left: 18px;
