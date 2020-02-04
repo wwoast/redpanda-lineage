@@ -15,5 +15,9 @@ language.order: en, jp
 litter: none
 location.1: 34, 2005/5/10
 location.2: 83, 2007/2/21
+photo.1: https://www.instagram.com/p/0RBgt5qd_I/media/?size=m
+photo.1.author: sasjoberg
+photo.1.link: https://www.instagram.com/sasjoberg/
+photo.1.tags: portrait, profile
 species: 2
 zoo: 83
