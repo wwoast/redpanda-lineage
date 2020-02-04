@@ -2468,6 +2468,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 current red pandas/, "one current red panda")
                    .replace(/\b1 red pandas live/, "one red panda lives")
                    .replace(/\b1 cubs/, "one cub")
+                   .replace(/\b1 recorded in the database/, "one record in the database")
                    .replace(/\b1 recent departures/, "one recent departure")
                    .replace(/\b1 new contributors/, "one new contributor")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
