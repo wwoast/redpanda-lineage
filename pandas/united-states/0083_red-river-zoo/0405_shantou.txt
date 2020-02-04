@@ -18,6 +18,10 @@ location.2: 83, 2007/2/21
 photo.1: https://www.instagram.com/p/0RBgt5qd_I/media/?size=m
 photo.1.author: sasjoberg
 photo.1.link: https://www.instagram.com/sasjoberg/
-photo.1.tags: portrait, profile
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/BEEkA_iqn20/media/?size=m
+photo.2.author: kardtrik
+photo.2.link: https://www.instagram.com/kardtrik/
+photo.2.tags: portrait, profile
 species: 2
 zoo: 83
