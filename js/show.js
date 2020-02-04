@@ -817,7 +817,7 @@ Show.button.random = {};
 Show.button.random.action = function() {
   // Show a random panda from the database when the dice is clicked
   Page.current = Page.results.render;
-  var pandaIds = P.db.vertices.filter(entity => entity._id > 0)
+  var pandaIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                               .filter(entity => entity["photo.1"] != undefined)
                               .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);

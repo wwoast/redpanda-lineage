@@ -1385,7 +1385,7 @@ Language.L.messages = {
            "没有找到这只小熊猫"],
     "en": [Language.L.emoji.panda,
            " ",
-           "No red pandas currently here."],
+           "No red pandas currently here"],
     "jp": [Language.L.emoji.panda,
            " ",
            "パンダが見つかりません"],
