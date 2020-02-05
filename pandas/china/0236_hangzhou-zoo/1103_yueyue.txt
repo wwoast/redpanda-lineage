@@ -1,0 +1,23 @@
+[panda]
+_id: 1103
+birthday: unknown
+birthplace: unknown
+children: 1102
+cn.name: 悦悦
+cn.nicknames: none
+cn.othernames: none
+en.name: Yue-Yue
+en.nicknames: none
+en.othernames: Yueyue
+gender: m
+jp.name: ユェユェ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/B7SwwfgnCW2/media/?size=m
+photo.1.author: mkr0369
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: ear, nose, tail
+species: 2
+zoo: 236
