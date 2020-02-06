@@ -2,17 +2,17 @@
 _id: 1103
 birthday: unknown
 birthplace: unknown
-children: 1102
+children: 1104
 cn.name: 悦悦
 cn.nicknames: none
 cn.othernames: none
 en.name: Yue-Yue
 en.nicknames: none
-en.othernames: Yueyue
+en.othernames: Yueyue, Moon
 gender: m
-jp.name: ユェユェ
+jp.name: 悦悦
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: ユェユェ
 language.order: cn, en, jp
 litter: unknown
 photo.1: https://www.instagram.com/p/B7SwwfgnCW2/media/?size=m

@@ -1,0 +1,27 @@
+[panda]
+_id: 1105
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 苹果
+cn.nicknames: none
+cn.othernames: none
+en.name: Apple
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 苹果
+jp.nicknames: none
+jp.othernames: りんご
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/B7XSSInn-ph/media/?size=m
+photo.1.author: mkr0369
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: bridge, paws
+photo.2: https://www.instagram.com/p/B8HTPEnB78S/media/?size=m
+photo.2.author: mkr0369
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: peek, paws
+species: 2
+zoo: 236
