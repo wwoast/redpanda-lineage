@@ -1,0 +1,27 @@
+[panda]
+_id: 1107
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 玲玲
+cn.nicknames: none
+cn.othernames: none
+en.name: Ling-Ling
+en.nicknames: none
+en.othernames: Lingling, Rin-Rin, Rinrin
+gender: f
+jp.name: 玲玲
+jp.nicknames: none
+jp.othernames: リンリン
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/B7DOIayjASf/media/?size=m
+photo.1.author: mkr0369
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: muzzle, portrait, profile, toys
+photo.2: https://www.instagram.com/p/B59kx82jRSA/media/?size=m
+photo.2.author: mkr0369
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: peek, portrait
+species: 2
+zoo: 236

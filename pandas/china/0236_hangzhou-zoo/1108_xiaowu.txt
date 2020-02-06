@@ -1,0 +1,27 @@
+[panda]
+_id: 1108
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 小五
+cn.nicknames: none
+cn.othernames: none
+en.name: Xiao-Wu
+en.nicknames: none
+en.othernames: Xiaowu, Five
+gender: m
+jp.name: 小五
+jp.nicknames: none
+jp.othernames: シャウー
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/B7SvyohHCrW/media/?size=m
+photo.1.author: mkr0369
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: autumn, itchy, paws, portrait
+photo.2: https://www.instagram.com/p/B7skuP7hgee/media/?size=m
+photo.2.author: mkr0369
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: portrait, profile, whiskers
+species: 2
+zoo: 236
