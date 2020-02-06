@@ -12,6 +12,8 @@ jp.nicknames: none
 jp.othernames: ショウショウ
 language.order: jp, en
 litter: 234
+location.1: 37, 2017/7/15
+location.2: 235, 2020/1/30
 photo.1: https://www.instagram.com/p/Bll9kT7lEUE/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
@@ -72,4 +74,4 @@ species: 2
 video.1: https://youtu.be/T0UIB96RKQI
 video.1.author: harry
 video.1.link: https://www.youtube.com/channel/UCBEK8vgdksglberN7QwjQ4A
-zoo: 37
+zoo: 235
