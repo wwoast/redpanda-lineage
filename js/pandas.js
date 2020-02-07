@@ -884,6 +884,9 @@ Pandas.searchPandaZooBorn = function(idnum, months=6) {
 
 // Find all pandas that were either born at, or lived at a given zoo
 Pandas.searchPandaZooBornLived = function(idnum) {
+  if (idnum > 0) {
+    idnum = idnum * -1;
+  }
   var compare_id = idnum * -1;
   var lives = G.v(idnum).in("zoo").run();
   var born = G.v(idnum).in("birthplace").run();
@@ -903,11 +906,14 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   var nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
   });
-  return nodes;
+  return Pandas.sortOldestToYoungest(nodes);
 }
 
 // Find all pandas born at a given zoo any time 
 Pandas.searchPandaZooBornRecords = function(idnum) {
+  if (idnum > 0) {
+    idnum = idnum * -1;   // HACK: zoo records
+  }
   var nodes = G.v(idnum).in("birthplace").run();
   // HACK: good enough for year sorting
   nodes = Pandas.sortByName(nodes, "birthday").reverse();
@@ -1013,6 +1019,9 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
 }
 
 Pandas.searchPandaZooDied = function(idnum, months=6) {
+  if (idnum > 0) {
+    idnum = idnum * -1;   // HACK: zoo records
+  }
   var nodes = G.v(idnum).in("zoo").filter(function(vertex) {
     return vertex.death != undefined;   // Gotta be dead
   }).filter(function(vertex) {

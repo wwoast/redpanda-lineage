@@ -64,6 +64,11 @@ Parse.keyword.born = {
   "en": ['born', 'Born'],
   "jp": ['TOWRITE']
 }
+Parse.keyword.born_at = {
+  "cn": ['TOWRITE'],
+  "en": ['born at', 'Born at'],
+  "jp": ['TOWRITE']
+}
 /* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
   "cn": ['TOWRITE'],
@@ -74,6 +79,11 @@ Parse.keyword.dead = {
   "cn": ['TOWRITE'],
   "en": ['dead', 'Dead', 'died', 'Died', 'rainbow', 'Rainbow'],
   "jp": ['死', '虹']
+}
+Parse.keyword.died_at = {
+  "cn": ['TOWRITE'],
+  "en": ['died at', 'Died at'],
+  "jp": ['TOWRITE']
 }
 Parse.keyword.family = {};
 Parse.keyword.family.aunt = {
@@ -157,6 +167,11 @@ Parse.keyword.family.uncle = {
   "jp": ['TOWRITE']
 }
 /* Parse.keyword.in = TODO */
+Parse.keyword.lived_at = {
+  "cn": ['TOWRITE'],
+  "en": ['lived at', 'Lived at'],
+  "jp": ['TOWRITE']
+}
 /* Parse.keyword.logical AND/OR/NOT/NOR = TODO */
 Parse.keyword.nearby = {
   "cn": ['TOWRITE'],
@@ -184,6 +199,10 @@ Parse.group = {};
 Parse.group.baby = Parse.values([
   Parse.keyword.baby
 ]);
+// Valid born at keywords
+Parse.group.born_at = Parse.values([
+  Parse.keyword.born_at
+]);
 // Valid credit keywords
 Parse.group.credit = Parse.values([
   Parse.keyword.credit
@@ -192,6 +211,10 @@ Parse.group.credit = Parse.values([
 Parse.group.dead = Parse.values([
   Parse.keyword.dead
 ]);
+// Valid died at keywords
+Parse.group.died_at = Parse.values([
+  Parse.keyword.died_at
+]);
 // Valid family keywords
 Parse.group.family = Parse.values([
   Parse.keyword.family
@@ -199,6 +222,10 @@ Parse.group.family = Parse.values([
 // Valid keywords of any type
 Parse.group.keywords = Parse.values([
   Parse.keyword
+]);
+// Valid lived at keywords
+Parse.group.lived_at = Parse.values([
+  Parse.keyword.lived_at
 ]);
 // Valid nearby keywords
 Parse.group.nearby = Parse.values([
@@ -227,6 +254,9 @@ Parse.group.takes_subject_name = Parse.values([
 // Keywords that take some form of numeric ID value
 Parse.group.takes_subject_number = Parse.values([
   Language.L.tags,
+  Parse.keyword.born_at,
+  Parse.keyword.died_at,
+  Parse.keyword.lived_at,
   Parse.keyword.family,
   Parse.keyword.panda,
   Parse.keyword.zoo

@@ -115,6 +115,15 @@ Query.resolver.pair = function(set_node) {
   var tag = undefined;
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
+    if (Parse.group.born_at.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchPandaZooBornRecords(search_word);
+    }
+    if (Parse.group.died_at.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchPandaZooDied(search_word, 0);
+    }
+    if (Parse.group.lived_at.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchPandaZooBornLived(search_word);
+    }
     if (Parse.group.zoo.indexOf(keyword_node.str) != -1) {
       hits = Pandas.searchZooName(search_word);
     }
