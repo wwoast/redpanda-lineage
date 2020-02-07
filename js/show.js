@@ -1363,7 +1363,12 @@ Show.message.arrivals = function(zoo, born, language) {
   // Zoo search: display arriving animals along with ones just born.
   // If any animals were born, this message gets a baby icon suffix
   var link = document.createElement('a');
-  link.href = "#zoo/" + zoo["_id"] + "/arrivals";
+  link.href = "javascript:";
+  var link_id = "arrivals/zoo/" + zoo["_id"];
+  link.id = link_id;
+  link.addEventListener("click", function() {
+    document.getElementById(link_id).scrollIntoView(true);
+  });
   var p = document.createElement('p');
   for (var i in L.messages.zoo_header_new_arrivals[language]) {
     var field = L.messages.zoo_header_new_arrivals[language][i];
@@ -1444,7 +1449,12 @@ Show.message.departures = function(zoo, deaths, language) {
   // Zoo search: display departing animals along with ones that died.
   // If any animals passed away, this message gets a rainbow icon suffix
   var link = document.createElement('a');
-  link.href = "#zoo/" + zoo["_id"] + "/departures";
+  link.href = "javascript:";
+  var link_id = "departures/zoo/" + zoo["_id"];
+  link.id = link_id;
+  link.addEventListener("click", function() {
+    document.getElementById(link_id).scrollIntoView(true);
+  });
   var p = document.createElement('p');
   for (var i in L.messages.zoo_header_recently_departed[language]) {
     var field = L.messages.zoo_header_recently_departed[language][i];
@@ -1742,7 +1752,12 @@ Show.message.residents = function(zoo, language) {
   // Zoo search: display a header for the resident animals
   // that didn't recently leave or arrive
   var link = document.createElement('a');
-  link.href = "#zoo/" + zoo["_id"] + "/residents";
+  link.href = "javascript:";
+  var link_id = "residents/zoo/" + zoo["_id"];
+  link.id = link_id;
+  link.addEventListener("click", function() {
+    document.getElementById(link_id).scrollIntoView(true);
+  });
   var info = Show.acquireZooInfo(zoo, language);
   var p = document.createElement('p');
   for (var i in L.messages.zoo_header_other_pandas[language]) {
@@ -2663,6 +2678,8 @@ Show.results.zooCounts = function(info) {
   }
   // Other messages may disappear if they aren't meaningful for the data
   // How many pandas were born at this zoo
+  var born_link = document.createElement('a');
+  born_link.href = "#query/born at " + info.id;
   var born_at_zoo = Pandas.searchPandaZooBornRecords(info["id"]);
   var born_count = born_at_zoo.length;
   if (born_count > 0) {
@@ -2680,9 +2697,16 @@ Show.results.zooCounts = function(info) {
     }
     output_text = Language.unpluralize([output_text])[0];
     var text_node = document.createTextNode(output_text);
-    li_items["born"].appendChild(text_node);
+    born_link.appendChild(text_node);
+    li_items["born"].appendChild(born_link);
   }
   // How many pandas have recently departed this zoo
+  var departed_link = document.createElement('a');
+  departed_link.href = "javascript:";
+  var departed_link_id = "departures/zoo/" + info.id;
+  departed_link.addEventListener("click", function() {
+    document.getElementById(departed_link_id).scrollIntoView(true);
+  });
   var departed_zoo = Pandas.searchPandaZooDeparted(info["id"], 9);
   var died_at_zoo = Pandas.searchPandaZooDied(info["id"], 9);
   var departed_count = departed_zoo.length;
@@ -2703,7 +2727,8 @@ Show.results.zooCounts = function(info) {
     }
     output_text = Language.unpluralize([output_text])[0];
     var text_node = document.createTextNode(output_text);
-    li_items["departed"].appendChild(text_node);
+    departed_link.appendChild(text_node);
+    li_items["departed"].appendChild(departed_link);
   }
   // How many pandas total have been recorded here
   var total_zoo = Pandas.searchPandaZooBornLived(info["id"]);
@@ -2727,6 +2752,8 @@ Show.results.zooCounts = function(info) {
       }
     }
     // Now for the message
+    var total_link = document.createElement('a');
+    total_link.href = "#query/lived at " + info.id;
     var output_text = "";
     for (var i in L.messages.zoo_details_records[language]) {
       var field = L.messages.zoo_details_records[language][i];
@@ -2740,7 +2767,8 @@ Show.results.zooCounts = function(info) {
     }
     output_text = Language.unpluralize([output_text])[0];
     var text_node = document.createTextNode(output_text);
-    li_items["recorded"].appendChild(text_node);
+    total_link.appendChild(text_node);
+    li_items["recorded"].appendChild(total_link);
   }
   // Finally, construct the set of info
   for (let message of ["living", "born", "departed", "recorded"]) {
