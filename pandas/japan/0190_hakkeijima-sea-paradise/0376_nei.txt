@@ -5,13 +5,15 @@ birthplace: 6
 children: none
 en.name: Nei
 en.nicknames: none
-en.othernames: none
+en.othernames: Ney
 gender: m
 jp.name: ネイ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 378
+location.1: 6, 2018/7/18
+location.2: 190, 2020/2/6
 photo.1: https://www.instagram.com/p/BsrGmF7ghST/media/?size=m
 photo.1.author: resapanlove
 photo.1.link: https://www.instagram.com/resapanlove/
@@ -45,4 +47,4 @@ photo.8.author: kmasahon
 photo.8.link: https://www.instagram.com/kmasahon/
 photo.8.tags: paws, tongue
 species: 2
-zoo: 6
+zoo: 190
