@@ -13,17 +13,21 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/goNCtzPsDI/media/?size=m
-photo.1.author: rrzoogal
-photo.1.link: https://www.instagram.com/rrzoogal/
-photo.1.tags: baby
-photo.2: https://www.instagram.com/p/5ZhX9OykFi/media/?size=m
-photo.2.author: worldthathesees
-photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: profile, smile
-photo.3: https://www.instagram.com/p/BY6lcrWgmmR/media/?size=m
-photo.3.author: michael.boom
-photo.3.link: https://www.instagram.com/michael.boom/
-photo.3.tagS: bamboo, portrait, tail
+photo.1: https://www.instagram.com/p/cw4O97Hs1I/media/?size=m
+photo.1.author: zooborns
+photo.1.link: https://www.instagram.com/zooborns/
+photo.1.tags: baby, portrait
+photo.2: https://www.instagram.com/p/goNCtzPsDI/media/?size=m
+photo.2.author: rrzoogal
+photo.2.link: https://www.instagram.com/rrzoogal/
+photo.2.tags: baby
+photo.3: https://www.instagram.com/p/5ZhX9OykFi/media/?size=m
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: profile, smile
+photo.4: https://www.instagram.com/p/BY6lcrWgmmR/media/?size=m
+photo.4.author: michael.boom
+photo.4.link: https://www.instagram.com/michael.boom/
+photo.4.tags: bamboo, portrait, tail
 species: 2
 zoo: 83

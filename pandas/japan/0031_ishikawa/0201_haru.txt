@@ -17,16 +17,19 @@ location.2: 31, 2018/6/11
 photo.1: https://www.instagram.com/p/BiW3lfglYCi/media/?size=m
 photo.1.author: yossi929
 photo.1.link: https://www.instagram.com/yossi929/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BprVWZTlqLh/media/?size=m
 photo.2.author: bee_san.13
 photo.2.link: https://www.instagram.com/bee_san.13/
+photo.2.tags: portrait
 photo.3: https://www.instagram.com/p/BpvwNnMlgTN/media/?size=m
 photo.3.author: bee_san.13
 photo.3.link: https://www.instagram.com/bee_san.13/
+photo.3.tags: portrait, smile
 photo.4: https://www.instagram.com/p/Bql8s-AHXcB/media/?size=m
 photo.4.author: yakko____
 photo.4.link: https://www.instagram.com/yakko____/
-photo.4.tags: ear
+photo.4.tags: ear, portrait
 photo.5: https://www.instagram.com/p/BrfS_ZUFft8/media/?size=m
 photo.5.author: bee_san.13
 photo.5.link: https://www.instagram.com/bee_san.13/
@@ -34,22 +37,23 @@ photo.5.tags: grooming, laying down
 photo.6: https://www.instagram.com/p/BcRs0QOlQk6/media/?size=m
 photo.6.author: hanamaru_redpanda
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BsmZDwQF_Yr/media/?size=m
 photo.7.author: bee_san.13
 photo.7.link: https://www.instagram.com/bee_san.13/
-photo.7.tags: paws
+photo.7.tags: paws, portrait
 photo.8: https://www.instagram.com/p/BtO-3XqFnuH/media/?size=m
 photo.8.author: bee_san.13
 photo.8.link: https://www.instagram.com/bee_san.13/
-photo.8.tags: bamboo, smile, tail
+photo.8.tags: bamboo, portrait, smile, tail
 photo.9: https://www.instagram.com/p/BtgC2w6F_aW/media/?size=m
 photo.9.author: bee_san.13
 photo.9.link: https://www.instagram.com/bee_san.13/
-photo.9.tags: apple time, standing
+photo.9.tags: apple time, portrait, standing
 photo.10: https://www.instagram.com/p/BuBjaeTl1ko/media/?size=m
 photo.10.author: bee_san.13
 photo.10.link: https://www.instagram.com/bee_san.13/
-photo.10.tags: profile
+photo.10.tags: portrait
 photo.11: https://www.instagram.com/p/BvjB6R3Fvrb/media/?size=m
 photo.11.author: bee_san.13
 photo.11.link: https://www.instagram.com/bee_san.13/
@@ -82,5 +86,9 @@ photo.18: https://www.instagram.com/p/B70oMa5hPIv/media/?size=m
 photo.18.author: bee_san.13
 photo.18.link: https://www.instagram.com/bee_san.13/
 photo.18.tags: portrait, tree, whiskers
+photo.19: https://www.instagram.com/p/B8OXAMFBRw_/media/?size=m
+photo.19.author: bee_san.13
+photo.19.link: https://www.instagram.com/bee_san.13/
+photo.19.tags: portrait, profile, whiskers
 species: 2
 zoo: 31
