@@ -14,5 +14,17 @@ language.order: en, jp
 litter: 430, 431
 location.1: 94, 2013/7/1
 location.2: 51, 2014/10/15
+photo.1: https://www.instagram.com/p/B4p0wf0hXjo/media/?size=m
+photo.1.author: garseeyaink
+photo.1.link: https://www.instagram.com/garseeyaink/
+photo.1.tags: portrait, profile, whiskers
+photo.2: https://www.instagram.com/p/B5OoYI8hbbG/media/?size=m
+photo.2.author: garseeyaink
+photo.2.link: https://www.instagram.com/garseeyaink/
+photo.2.tags: tail, techitechi
+photo.3: https://www.instagram.com/p/B6lsd9chJ2a/media/?size=m
+photo.3.author: garseeyaink
+photo.3.link: https://www.instagram.com/garseeyaink/
+photo.3.tags: peek, portrait, snow, whiskers
 species: 2
 zoo: 51
