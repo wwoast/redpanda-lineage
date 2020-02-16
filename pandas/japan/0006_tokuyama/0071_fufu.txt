@@ -14,40 +14,76 @@ language.order: jp, en
 litter: 164
 location.1: 17, 2014/6/22
 location.2: 6, 2016/2/24
-photo.1: https://www.instagram.com/p/BhfVcLilAjr/media/?size=m
-photo.1.author: kotata_513
-photo.1.link: https://www.instagram.com/kotata_513/
-photo.2: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
-photo.2.author: kotata_513
-photo.2.link: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
-photo.2.tags: smile
-photo.3: https://www.instagram.com/p/BoPEvJnlNcW/media/?size=m
-photo.3.author: animal_love_us
-photo.3.link: https://www.instagram.com/animal_love_us/
-photo.4: https://www.instagram.com/p/BpiT_KLl1fc/media/?size=m
-photo.4.author: makimaru18
-photo.4.link: https://www.instagram.com/makimaru18/
-photo.5: https://www.instagram.com/p/BqgGsgeAx1X/media/?size=m
-photo.5.author: resapanlove
-photo.5.link: https://www.instagram.com/resapanlove/
-photo.5.tags: apple time
-photo.6: https://www.instagram.com/p/BqoOnYAFttU/media/?size=m
-photo.6.author: perie1027vivi
-photo.6.link: https://www.instagram.com/perie1027vivi/
-photo.7: https://www.instagram.com/p/Bq3JGh3lrzt/media/?size=m
-photo.7.author: monmon_redpanda
-photo.7.link: https://www.instagram.com/monmon_redpanda/
-photo.7.tags: portrait, profile, smile
-photo.8: https://www.instagram.com/p/Bx8JAV9hxlR/media/?size=m
-photo.8.author: kipekaila
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.9: https://www.instagram.com/p/Bz-g5WqhiSU/media/?size=m
-photo.9.author: re_ichimaru
-photo.9.link: https://www.instagram.com/re_ichimaru/
-photo.9.tags: apple time, paws, window
-photo.10: https://www.instagram.com/p/B1uOxm-hkM6/media/?size=m
-photo.10.author: kmasahon
-photo.10.link: https://www.instagram.com/kmasahon/
-photo.10.tags: bamboo, whiskers
+photo.1: https://www.instagram.com/p/BYqnElLgIFx/media/?size=m
+photo.1.author: nakacchi_desu
+photo.1.link: https://www.instagram.com/nakacchi_desu/
+photo.1.tags: smile, tongue
+photo.2: https://www.instagram.com/p/BYrXTHDAqKM/media/?size=m
+photo.2.author: nakacchi_desu
+photo.2.link: https://www.instagram.com/nakacchi_desu/
+photo.2.tags: bamboo, paws
+photo.3: https://www.instagram.com/p/BYs7lAjg572/media/?size=m
+photo.3.author: nakacchi_desu
+photo.3.link: https://www.instagram.com/nakacchi_desu/
+photo.3.tags: smile, tail, tongue
+photo.4: https://www.instagram.com/p/BdM0gArA3Gs/media/?size=m
+photo.4.author: framereim
+photo.4.link: https://www.instagram.com/framereim/
+photo.4.tags: whiskers
+photo.5: https://www.instagram.com/p/BeSXQN7j5id/media/?size=m
+photo.5.author: craig_craig_craig
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: bamboo, bite
+photo.6: https://www.instagram.com/p/BhfVcLilAjr/media/?size=m
+photo.6.author: kotata_513
+photo.6.link: https://www.instagram.com/kotata_513/
+photo.7: https://www.instagram.com/p/BivyC2HFnYd/media/?size=m
+photo.7.auhtor: kotata_513
+photo.7.link: https://www.instagram.com/kotata_513/
+photo.7.tags: paws, portrait, whiskers
+photo.8: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
+photo.8.author: kotata_513
+photo.8.link: https://www.instagram.com/p/BkUIX3oFqJX/media/?size=m
+photo.8.tags: smile
+photo.9: https://www.instagram.com/p/Bmb_LfelF0M/media/?size=m
+photo.9.author: kotata_513
+photo.9.link: https://www.instagram.com/kotata_513/
+photo.9.tags: mofumofu, paws, whiskers
+photo.10: https://www.instagram.com/p/BnY0UPMlDv9/media/?size=m
+photo.10.author: animal_love_us
+photo.10.link: https://www.instagram.com/animal_love_us/
+photo.10.tags: portrait, whiskers
+photo.11: https://www.instagram.com/p/BoPEvJnlNcW/media/?size=m
+photo.11.author: animal_love_us
+photo.11.link: https://www.instagram.com/animal_love_us/
+photo.12: https://www.instagram.com/p/BpiT_KLl1fc/media/?size=m
+photo.12.author: makimaru18
+photo.12.link: https://www.instagram.com/makimaru18/
+photo.13: https://www.instagram.com/p/BqgGsgeAx1X/media/?size=m
+photo.13.author: resapanlove
+photo.13.link: https://www.instagram.com/resapanlove/
+photo.13.tags: apple time
+photo.14: https://www.instagram.com/p/BqoOnYAFttU/media/?size=m
+photo.14.author: perie1027vivi
+photo.14.link: https://www.instagram.com/perie1027vivi/
+photo.15: https://www.instagram.com/p/Bq3JGh3lrzt/media/?size=m
+photo.15.author: monmon_redpanda
+photo.15.link: https://www.instagram.com/monmon_redpanda/
+photo.15.tags: portrait, profile, smile
+photo.16: https://www.instagram.com/p/Bu_n-V1FURp/media/?size=m
+photo.16.author: animal_love_us
+photo.16.link: https://www.instagram.com/animal_love_us/
+photo.16.tags: bamboo, portrait, whiskers
+photo.17: https://www.instagram.com/p/Bx8JAV9hxlR/media/?size=m
+photo.17.author: kipekaila
+photo.17.link: https://www.instagram.com/kipekaila/
+photo.18: https://www.instagram.com/p/Bz-g5WqhiSU/media/?size=m
+photo.18.author: re_ichimaru
+photo.18.link: https://www.instagram.com/re_ichimaru/
+photo.18.tags: apple time, paws, window
+photo.19: https://www.instagram.com/p/B1uOxm-hkM6/media/?size=m
+photo.19.author: kmasahon
+photo.19.link: https://www.instagram.com/kmasahon/
+photo.19.tags: bamboo, whiskers
 species: 2
 zoo: 6
