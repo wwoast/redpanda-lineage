@@ -8,4 +8,7 @@ language.order: en
 latitude: 39.101968
 longitude: -74.8134187
 map: https://goo.gl/maps/vGHLYKq7jrK2
+photo.1: https://www.instagram.com/p/B1XXxB7gjU4/media/?size=m
+photo.1.author: micokeeper
+photo.1.link: https://www.instagram.com/micokeeper/
 website: https://www.capemaycountynj.gov/1008/Park-Zoo
