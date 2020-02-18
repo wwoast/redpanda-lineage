@@ -15,27 +15,27 @@ litter: 376
 photo.1: https://www.instagram.com/p/BqC8HLuF-sI/media/?size=m
 photo.1.author: makimaru18
 photo.1.link: https://www.instagram.com/makimaru18/
-photo.1.tags: baby
-photo.2: https://www.instagram.com/p/Bp9ugJelFLa/media/?size=m
-photo.2.author: animal_love_us
-photo.2.link: https://www.instagram.com/animal_love_us/
-photo.2.tags: baby, profile
-photo.3: https://www.instagram.com/p/Bq7GWnblTxj/media/?size=m
-photo.3.author: monmon_redpanda
-photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: apple time
-photo.4: https://www.instagram.com/p/BrPqRd5lDrD/media/?size=m
-photo.4.author: colette.jp
-photo.4.link: https://www.instagram.com/colette.jp/
-photo.4.tags: baby, mofumofu, portrait
-photo.5: https://www.instagram.com/p/BrnDwMQlyC4/media/?size=m
-photo.5.author: animal_love_us
-photo.5.link: https://www.instagram.com/animal_love_us/
-photo.5.tags: baby, peek
+photo.1.tags: baby, portrait
+photo.2: https://www.instagram.com/p/Bq7GWnblTxj/media/?size=m
+photo.2.author: monmon_redpanda
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: apple time, portrait
+photo.3: https://www.instagram.com/p/BrPqRd5lDrD/media/?size=m
+photo.3.author: colette.jp
+photo.3.link: https://www.instagram.com/colette.jp/
+photo.3.tags: baby, mofumofu, portrait
+photo.4: https://www.instagram.com/p/BrnDwMQlyC4/media/?size=m
+photo.4.author: animal_love_us
+photo.4.link: https://www.instagram.com/animal_love_us/
+photo.4.tags: baby, peek, portrait
+photo.5: https://www.instagram.com/p/Bt1qE-7FPRQ/media/?size=m
+photo.5.author: craig_craig_craig
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: peek, portrait
 photo.6: https://www.instagram.com/p/BxXJds0lYT0/media/?size=m
 photo.6.author: daniele.tokyo
 photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: paws
+photo.6.tags: paws, portrait, profile
 photo.7: https://www.instagram.com/p/ByXoWDHhA9z/media/?size=m
 photo.7.author: animal_love_us
 photo.7.link: https://www.instagram.com/animal_love_us/
@@ -43,6 +43,6 @@ photo.7.tags: bamboo, peek
 photo.8: https://www.instagram.com/p/Bx-yo2oBwnO/media/?size=m
 photo.8.author: kipekaila
 photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: smile
+photo.8.tags: portrait, smile
 species: 2
 zoo: 6

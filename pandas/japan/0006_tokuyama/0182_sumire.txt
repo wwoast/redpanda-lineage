@@ -14,32 +14,36 @@ language.order: jp, en
 litter: 181
 location.1: 31, 2014/7/11
 location.2: 6, 2018/5/9
-photo.1: https://www.instagram.com/p/Bfa_AYVj1La/media/?size=m
-photo.1.author: tak_grouses
-photo.1.link: https://www.instagram.com/tak_grouses/
-photo.1.tags: tree
-photo.2: https://www.instagram.com/p/BkUsFqnhbLk/media/?size=m
-photo.2.author: mana.sendo
-photo.2.link: https://www.instagram.com/mana.sendo/
-photo.2.tags: profile, smile, tongue
-photo.3: https://www.instagram.com/p/BVhkFXMBJEE/media/?size=m
-photo.3.author: meiki.0331km
-photo.3.link: https://www.instagram.com/meiki.0331km/
-photo.3.tags: tail
-photo.4: https://www.instagram.com/p/BqcQJ8plA9F/media/?size=m
-photo.4.author: makimaru18
-photo.4.link: https://www.instagram.com/makimaru18/
-photo.5: https://www.instagram.com/p/BsI14xhls45/media/?size=m
-photo.5.author: animal_love_us
-photo.5.link: https://www.instagram.com/animal_love_us/
-photo.5.tags: bamboo, portrait, tongue
-photo.6: https://www.instagram.com/p/Bxx6wczlDOS/media/?size=m
-photo.6.author: kipekaila
-photo.6.link: https://www.instagram.com/kipekaila/
-photo.6.tags: apple time
-photo.7: https://www.instagram.com/p/B3luQunhunI/media/?size=m
-photo.7.author: kmasahon
-photo.7.link: https://www.instagram.com/kmasahon/
-photo.7.tags: paws, smile
+photo.1: https://www.instagram.com/p/BbLq29ajVOP/media/?size=m
+photo.1.author: okuma96
+photo.1.link: https://www.instagram.com/okuma96/
+photo.1.tags: itchy
+photo.2: https://www.instagram.com/p/Bfa_AYVj1La/media/?size=m
+photo.2.author: tak_grouses
+photo.2.link: https://www.instagram.com/tak_grouses/
+photo.2.tags: tree
+photo.3: https://www.instagram.com/p/BkUsFqnhbLk/media/?size=m
+photo.3.author: mana.sendo
+photo.3.link: https://www.instagram.com/mana.sendo/
+photo.3.tags: profile, smile, tongue
+photo.4: https://www.instagram.com/p/BVhkFXMBJEE/media/?size=m
+photo.4.author: meiki.0331km
+photo.4.link: https://www.instagram.com/meiki.0331km/
+photo.4.tags: tail
+photo.5: https://www.instagram.com/p/BqcQJ8plA9F/media/?size=m
+photo.5.author: makimaru18
+photo.5.link: https://www.instagram.com/makimaru18/
+photo.6: https://www.instagram.com/p/BsI14xhls45/media/?size=m
+photo.6.author: animal_love_us
+photo.6.link: https://www.instagram.com/animal_love_us/
+photo.6.tags: bamboo, portrait, tongue
+photo.7: https://www.instagram.com/p/Bxx6wczlDOS/media/?size=m
+photo.7.author: kipekaila
+photo.7.link: https://www.instagram.com/kipekaila/
+photo.7.tags: apple time
+photo.8: https://www.instagram.com/p/B3luQunhunI/media/?size=m
+photo.8.author: kmasahon
+photo.8.link: https://www.instagram.com/kmasahon/
+photo.8.tags: paws, smile
 species: 2
 zoo: 6

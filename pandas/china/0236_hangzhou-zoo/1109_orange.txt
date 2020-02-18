@@ -1,23 +1,23 @@
 [panda]
-_id: 1103
+_id: 1109
 birthday: unknown
 birthplace: unknown
-children: 1104, 1109
-cn.name: 悦悦
+children: unknown
+cn.name: 橘
 cn.nicknames: none
 cn.othernames: none
-en.name: Yue-Yue
+en.name: Orange
 en.nicknames: none
-en.othernames: Yueyue, Moon
-gender: m
-jp.name: 悦悦
+en.othernames: none
+gender: f
+jp.name: 橘
 jp.nicknames: none
-jp.othernames: ユェユェ
+jp.othernames: タチバナ
 language.order: cn, en, jp
 litter: unknown
-photo.1: https://www.instagram.com/p/B7SwwfgnCW2/media/?size=m
+photo.1: https://www.instagram.com/p/B8ZRjf7BdGS/media/?size=m
 photo.1.author: mkr0369
 photo.1.link: https://www.instagram.com/mkr0369/
-photo.1.tags: ear, nose, tail
+photo.1.tags: bamboo, profile, smile
 species: 2
 zoo: 236
