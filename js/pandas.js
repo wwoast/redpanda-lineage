@@ -412,6 +412,7 @@ Pandas.photoGeneratorMax = function*() {
 // If given no argument, return a random number. Otherwise
 // return a repeatable random value.
 Pandas.prngValue = function(input, count) {
+  let seed = undefined;
   if (input == undefined) {
     // If no inputs given, we want a truly random value
     return Math.random();
@@ -453,7 +454,7 @@ Pandas.randomChoice = function(array, count) {
 // Do random choices given an input seed. 
 // If seed_input is undefined, choose a random seed instead.
 Pandas.randomChoiceSeed = function(array, seed_input, count) {
-  var seed = undefined;
+  let seed = undefined;
   var seen = {};
   // If you want just all the array items, return a shuffle instead
   if (count >= array.length) {
@@ -481,7 +482,7 @@ Pandas.shuffle = function(array) {
 Pandas.shuffleWithSeed = function(array, seed_input) {
   // Get a chosen-random value, or a truly random one 
   // if seed_input is undefined
-  var seed = Pandas.prngValue(seed_input, 1);
+  let seed = Pandas.prngValue(seed_input, 1);
   for (let i = array.length - 1; i > 0; i--) {
     var j = Math.floor(seed * (i + 1));
     var temp = array[i];
