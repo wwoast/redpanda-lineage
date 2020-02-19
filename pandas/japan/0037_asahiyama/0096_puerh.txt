@@ -14,6 +14,7 @@ language.order: jp, en
 litter: 288
 location.1: 2, 2015/6/25
 location.2: 10, 2016/9/6
+location.3: 37, 2020/2/18
 photo.1: https://www.instagram.com/p/Bkal0MalDix/media/?size=m
 photo.1.author: perie1027vivi
 photo.1.link: https://www.instagram.com/perie1027vivi/
@@ -95,4 +96,4 @@ photo.21.author: sasapan34
 photo.21.link: https://www.instagram.com/sasapan34/
 photo.21.tags: snow, surprise, tail
 species: 2
-zoo: 10
+zoo: 37
