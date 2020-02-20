@@ -422,47 +422,7 @@ Gallery.groupPhotos = function(id_list, photo_count) {
         } else {
           seen[url] = true;
         }
-        // TOWRITE: image styles based on url being medium or large
-        var img_link = document.createElement('a');
-        img_link.href = url;
-        img_link.href = img_link.href.replace("/media/?size=m", "/");
-        img_link.href = img_link.href.replace("/media/?size=l", "/");
-        var img = document.createElement('img');
-        img.src = url;
-        img_link.appendChild(img);
-        // Names of the group photos
-        var caption_names = document.createElement('h5');
-        caption_names.className = "caption groupMediaName";
-        var caption_names_span = document.createElement('span');
-        caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
-        caption_names.appendChild(caption_names_span);
-        // Credit for the group photos
-        var author = entity[key + ".author"];
-        var caption_credit_link = document.createElement('a');
-        caption_credit_link.href = "#credit/" + author;   // build from author info
-        var caption_credit = document.createElement('h5');
-        caption_credit.className = "caption groupMediaAuthor";
-        var caption_credit_span = document.createElement('span');
-        caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
-        caption_credit.appendChild(caption_credit_span);
-        caption_credit_link.appendChild(caption_credit);
-        // Put it all in a frame
-        var container = document.createElement('div');
-        container.className = "photoSample";
-        if ((url.indexOf("?size=l") != -1) && 
-            (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("halfPage");
-        } else if ((url.indexOf("?size=m") != -1) &&
-                   (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("quarterPage");
-        } else if (url.indexOf("instagram.com") == -1) {
-          container.classList.add("fullPage");   // self-hosted images
-        } else {
-          container.classList.add("quarterPage");
-        }
-        container.appendChild(img_link);
-        container.appendChild(caption_names);
-        container.appendChild(caption_credit_link);
+        var container = Gallery.groupPhotoSingle(entity, key, url)
         photo_divs.push(container);        
       }
     }
@@ -524,6 +484,51 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
   return {
     "output": output
   }
+}
+
+Gallery.groupPhotoSingle = function(entity, key, url) {
+  // TOWRITE: image styles based on url being medium or large
+  var img_link = document.createElement('a');
+  img_link.href = url;
+  img_link.href = img_link.href.replace("/media/?size=m", "/");
+  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  var img = document.createElement('img');
+  img.src = url;
+  img_link.appendChild(img);
+  // Names of the group photos
+  var caption_names = document.createElement('h5');
+  caption_names.className = "caption groupMediaName";
+  var caption_names_span = document.createElement('span');
+  caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
+  caption_names.appendChild(caption_names_span);
+  // Credit for the group photos
+  var author = entity[key + ".author"];
+  var caption_credit_link = document.createElement('a');
+  caption_credit_link.href = "#credit/" + author;   // build from author info
+  var caption_credit = document.createElement('h5');
+  caption_credit.className = "caption groupMediaAuthor";
+  var caption_credit_span = document.createElement('span');
+  caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
+  caption_credit.appendChild(caption_credit_span);
+  caption_credit_link.appendChild(caption_credit);
+  // Put it all in a frame
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  if ((url.indexOf("?size=l") != -1) && 
+      (url.indexOf("instagram.com") != -1)) {
+    container.classList.add("halfPage");
+  } else if ((url.indexOf("?size=m") != -1) &&
+              (url.indexOf("instagram.com") != -1)) {
+    container.classList.add("quarterPage");
+  } else if (url.indexOf("instagram.com") == -1) {
+    container.classList.add("fullPage");   // self-hosted images
+  } else {
+    container.classList.add("quarterPage");
+  }
+  container.appendChild(img_link);
+  container.appendChild(caption_names);
+  container.appendChild(caption_credit_link);
+  return container; 
 }
 
 // Solo photos that can be found in the group gallery. These are chosen on
