@@ -415,14 +415,14 @@ Gallery.groupPhotos = function(id_list, photo_count) {
     var entities = Pandas.searchPandaMedia(id, only_media=true);
     for (let entity of entities) {
       var photos = Pandas.photoManifest(entity);
-      for (let key in photos) {
-        var url = photos[key];
+      for (let photo_key in photos) {
+        var url = photos[photo_key];
         if (seen[url] == true) {
           continue;   // Skip photos we've already trakced
         } else {
           seen[url] = true;
         }
-        var container = Gallery.groupPhotoSingle(entity, key, url)
+        var container = Gallery.groupPhotoSingle(entity, photo_key, url)
         photo_divs.push(container);        
       }
     }
@@ -486,7 +486,7 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
   }
 }
 
-Gallery.groupPhotoSingle = function(entity, key, url) {
+Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // TOWRITE: image styles based on url being medium or large
   var img_link = document.createElement('a');
   img_link.href = url;
@@ -499,10 +499,10 @@ Gallery.groupPhotoSingle = function(entity, key, url) {
   var caption_names = document.createElement('h5');
   caption_names.className = "caption groupMediaName";
   var caption_names_span = document.createElement('span');
-  caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
+  caption_names_span.innerText = Pandas.groupMediaCaption(entity, photo_key);
   caption_names.appendChild(caption_names_span);
   // Credit for the group photos
-  var author = entity[key + ".author"];
+  var author = entity[photo_key + ".author"];
   var caption_credit_link = document.createElement('a');
   caption_credit_link.href = "#credit/" + author;   // build from author info
   var caption_credit = document.createElement('h5');
