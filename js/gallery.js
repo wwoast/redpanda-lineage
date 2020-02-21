@@ -649,8 +649,10 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   var content_divs = [];
   var initial_max_hits = max_hits;
   var starting_point = page * Query.env.paging.results_count;
-  // Working copy of photo set, starting at the nth page of photos
-  var page_results = results["hits"].slice(starting_point);
+  // Working copy of photo set, shuffled
+  var page_results = results["hits"].slice();
+  page_results = Pandas.shuffleWithSeed(results["hits"], Query.env.paging.seed);
+  page_results = page_results.slice(starting_point);
   var hit_count = page_results.length;
   if (page == 0 && Query.env.paging.shown_pages > 1) {
     // Refresh, but show more than just the normal photo_count
@@ -675,8 +677,6 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   }
   // Redraw footer to update the paging button
   Page.footer.redraw("results");
-  // Always randomize the ordering of result photos
-  page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   for (let photo of page_results) {
     if (photo["photo.index"] != "0") {   // Not a null photo result
       content_divs = content_divs.concat(Gallery.tagPhotoSingle(photo, language, add_emoji));
