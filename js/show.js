@@ -2237,7 +2237,7 @@ Show.profile.where = function(animal, language) {
 */
 Show.media = {};
 Show.media.gallery = function(animal, language) {
-  var gallery = Gallery.groupPhotos([animal["_id"]], 10);
+  var gallery = Gallery.groupPhotosPage(0, [animal["_id"]], 10)["output"];
   var info = Show.acquirePandaInfo(animal, language);
   Show.profile.nameBar(info);
   var result = document.createElement('div');

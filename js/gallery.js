@@ -409,88 +409,28 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
 Gallery.groupPhotos = function(id_list, photo_count) {
-  var photo_divs = [];
   var seen = {};
+  var photo_list = [];
   for (let id of id_list) {
     var entities = Pandas.searchPandaMedia(id, only_media=true);
     for (let entity of entities) {
       var photos = Pandas.photoManifest(entity);
-      for (let key in photos) {
-        var url = photos[key];
+      for (let photo_key in photos) {
+        var url = photos[photo_key];
         if (seen[url] == true) {
           continue;   // Skip photos we've already trakced
         } else {
           seen[url] = true;
+          photo_list.push({
+            "entity": entity,
+            "photo_key": photo_key,
+            "url": url
+          });
         }
-        // TOWRITE: image styles based on url being medium or large
-        var img_link = document.createElement('a');
-        img_link.href = url;
-        img_link.href = img_link.href.replace("/media/?size=m", "/");
-        img_link.href = img_link.href.replace("/media/?size=l", "/");
-        var img = document.createElement('img');
-        img.src = url;
-        img_link.appendChild(img);
-        // Names of the group photos
-        var caption_names = document.createElement('h5');
-        caption_names.className = "caption groupMediaName";
-        var caption_names_span = document.createElement('span');
-        caption_names_span.innerText = Pandas.groupMediaCaption(entity, key);
-        caption_names.appendChild(caption_names_span);
-        // Credit for the group photos
-        var author = entity[key + ".author"];
-        var caption_credit_link = document.createElement('a');
-        caption_credit_link.href = "#credit/" + author;   // build from author info
-        var caption_credit = document.createElement('h5');
-        caption_credit.className = "caption groupMediaAuthor";
-        var caption_credit_span = document.createElement('span');
-        caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
-        caption_credit.appendChild(caption_credit_span);
-        caption_credit_link.appendChild(caption_credit);
-        // Put it all in a frame
-        var container = document.createElement('div');
-        container.className = "photoSample";
-        if ((url.indexOf("?size=l") != -1) && 
-            (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("halfPage");
-        } else if ((url.indexOf("?size=m") != -1) &&
-                   (url.indexOf("instagram.com") != -1)) {
-          container.classList.add("quarterPage");
-        } else if (url.indexOf("instagram.com") == -1) {
-          container.classList.add("fullPage");   // self-hosted images
-        } else {
-          container.classList.add("quarterPage");
-        }
-        container.appendChild(img_link);
-        container.appendChild(caption_names);
-        container.appendChild(caption_credit_link);
-        photo_divs.push(container);        
       }
     }
   }
-  var redraw = true;
-  if (photo_count == undefined) {
-    // Get all photos (from the paging function), and
-    // HACK: don't redraw the menu
-    photo_count = photo_divs.length;
-    redraw = false;
-  }
-  var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
-  if (redraw == true) {
-    if (photo_divs.length <= photo_count) {
-      // Last page of content. Hide Next button
-      Query.env.paging.display_button = false;
-      Page.footer.redraw("profile");
-    } else if (redraw == true) {
-      Query.env.paging.callback.function = Gallery.groupPhotosPage;
-      Query.env.paging.callback.arguments = [
-        1,
-        id_list,
-        photo_count
-      ];
-      // Inject into the mediaFrame inside the contentFrame
-      Query.env.paging.callback.frame_id = "contentFrame";
-    }
-  }
+  var output = Pandas.shuffleWithSeed(photo_list, Query.env.paging.seed);
   return output;
 }
 
@@ -504,13 +444,13 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     photo_count = Query.env.paging.shown_pages * photo_count;
   }
   var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
-  var output = photos.slice(page * photo_count);
-  if (output.length <= photo_count) {
+  var chosen = photos.slice(page * photo_count);   // Choose just this page
+  if (chosen.length <= photo_count) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
   } else {
     // Limit to just photo_count of the output
-    output = output.slice(0, photo_count);
+    chosen = chosen.slice(0, photo_count);
     Query.env.paging.callback.function = Gallery.groupPhotosPage;
     Query.env.paging.callback.arguments = [
       page + 1,
@@ -519,11 +459,62 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
   }
+  // Now that photos are whittled down, make divs
+  var output = [];
+  for (let shot of chosen) {
+    var container = Gallery.groupPhotoSingle(shot["entity"], shot["photo_key"], shot["url"]);
+    output.push(container);        
+  }
   // Redraw the footer menu to update the paging button
   Page.footer.redraw("profile");
   return {
     "output": output
   }
+}
+
+Gallery.groupPhotoSingle = function(entity, photo_key, url) {
+  // TOWRITE: image styles based on url being medium or large
+  var img_link = document.createElement('a');
+  img_link.href = url;
+  img_link.href = img_link.href.replace("/media/?size=m", "/");
+  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  var img = document.createElement('img');
+  img.src = url;
+  img_link.appendChild(img);
+  // Names of the group photos
+  var caption_names = document.createElement('h5');
+  caption_names.className = "caption groupMediaName";
+  var caption_names_span = document.createElement('span');
+  caption_names_span.innerText = Pandas.groupMediaCaption(entity, photo_key);
+  caption_names.appendChild(caption_names_span);
+  // Credit for the group photos
+  var author = entity[photo_key + ".author"];
+  var caption_credit_link = document.createElement('a');
+  caption_credit_link.href = "#credit/" + author;   // build from author info
+  var caption_credit = document.createElement('h5');
+  caption_credit.className = "caption groupMediaAuthor";
+  var caption_credit_span = document.createElement('span');
+  caption_credit_span.innerText = Language.L.emoji.apple + " " + author;
+  caption_credit.appendChild(caption_credit_span);
+  caption_credit_link.appendChild(caption_credit);
+  // Put it all in a frame
+  var container = document.createElement('div');
+  container.className = "photoSample";
+  if ((url.indexOf("?size=l") != -1) && 
+      (url.indexOf("instagram.com") != -1)) {
+    container.classList.add("halfPage");
+  } else if ((url.indexOf("?size=m") != -1) &&
+              (url.indexOf("instagram.com") != -1)) {
+    container.classList.add("quarterPage");
+  } else if (url.indexOf("instagram.com") == -1) {
+    container.classList.add("fullPage");   // self-hosted images
+  } else {
+    container.classList.add("quarterPage");
+  }
+  container.appendChild(img_link);
+  container.appendChild(caption_names);
+  container.appendChild(caption_credit_link);
+  return container; 
 }
 
 // Solo photos that can be found in the group gallery. These are chosen on
@@ -658,8 +649,10 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   var content_divs = [];
   var initial_max_hits = max_hits;
   var starting_point = page * Query.env.paging.results_count;
-  // Working copy of photo set, starting at the nth page of photos
-  var page_results = results["hits"].slice(starting_point);
+  // Working copy of photo set, shuffled
+  var page_results = results["hits"].slice();
+  page_results = Pandas.shuffleWithSeed(results["hits"], Query.env.paging.seed);
+  page_results = page_results.slice(starting_point);
   var hit_count = page_results.length;
   if (page == 0 && Query.env.paging.shown_pages > 1) {
     // Refresh, but show more than just the normal photo_count
@@ -684,8 +677,6 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   }
   // Redraw footer to update the paging button
   Page.footer.redraw("results");
-  // Always randomize the ordering of result photos
-  page_results = Pandas.randomChoiceSeed(page_results, Query.env.paging.seed, max_hits);
   for (let photo of page_results) {
     if (photo["photo.index"] != "0") {   // Not a null photo result
       content_divs = content_divs.concat(Gallery.tagPhotoSingle(photo, language, add_emoji));
