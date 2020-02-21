@@ -409,8 +409,8 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
 Gallery.groupPhotos = function(id_list, photo_count) {
-  var photo_divs = [];
   var seen = {};
+  var photo_list = [];
   for (let id of id_list) {
     var entities = Pandas.searchPandaMedia(id, only_media=true);
     for (let entity of entities) {
@@ -421,36 +421,16 @@ Gallery.groupPhotos = function(id_list, photo_count) {
           continue;   // Skip photos we've already trakced
         } else {
           seen[url] = true;
+          photo_list.push({
+            "entity": entity,
+            "photo_key": photo_key,
+            "url": url
+          });
         }
-        var container = Gallery.groupPhotoSingle(entity, photo_key, url)
-        photo_divs.push(container);        
       }
     }
   }
-  var redraw = true;
-  if (photo_count == undefined) {
-    // Get all photos (from the paging function), and
-    // HACK: don't redraw the menu
-    photo_count = photo_divs.length;
-    redraw = false;
-  }
-  var output = Pandas.randomChoiceSeed(photo_divs, Query.env.paging.seed, photo_count);
-  if (redraw == true) {
-    if (photo_divs.length <= photo_count) {
-      // Last page of content. Hide Next button
-      Query.env.paging.display_button = false;
-      Page.footer.redraw("profile");
-    } else if (redraw == true) {
-      Query.env.paging.callback.function = Gallery.groupPhotosPage;
-      Query.env.paging.callback.arguments = [
-        1,
-        id_list,
-        photo_count
-      ];
-      // Inject into the mediaFrame inside the contentFrame
-      Query.env.paging.callback.frame_id = "contentFrame";
-    }
-  }
+  var output = Pandas.shuffleWithSeed(photo_list, Query.env.paging.seed);
   return output;
 }
 
@@ -464,13 +444,13 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     photo_count = Query.env.paging.shown_pages * photo_count;
   }
   var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
-  var output = photos.slice(page * photo_count);
-  if (output.length <= photo_count) {
+  var chosen = photos.slice(page * photo_count);   // Choose just this page
+  if (chosen.length <= photo_count) {
     // Last page of content. Hide Next button
     Query.env.paging.display_button = false;
   } else {
     // Limit to just photo_count of the output
-    output = output.slice(0, photo_count);
+    chosen = chosen.slice(0, photo_count);
     Query.env.paging.callback.function = Gallery.groupPhotosPage;
     Query.env.paging.callback.arguments = [
       page + 1,
@@ -478,6 +458,12 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
       initial_photo_count
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
+  }
+  // Now that photos are whittled down, make divs
+  var output = [];
+  for (let shot of chosen) {
+    var container = Gallery.groupPhotoSingle(shot["entity"], shot["photo_key"], shot["url"]);
+    output.push(container);        
   }
   // Redraw the footer menu to update the paging button
   Page.footer.redraw("profile");
