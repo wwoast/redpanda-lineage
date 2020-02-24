@@ -32,13 +32,17 @@ photo.5: https://www.instagram.com/p/B621JdnAIIW/media/?size=m
 photo.5.author: cincinnatizoo
 photo.5.link: https://www.instagram.com/cincinnatizoo/
 photo.5.tags: mofumofu, tail, wet
-photo.6: https://www.instagram.com/p/B64btoHBix7/media/?size=m
-photo.6.author: worldthathesees
-photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: bamboo, snow, tail
-photo.7: https://www.instagram.com/p/B56EjwyHiRX/media/?size=m
-photo.7.author: shaesavestheplanet
-photo.7.link: https://www.instagram.com/shaesavestheplanet/
-photo.7.tags: keeper, portrait
+photo.6: https://www.instagram.com/p/B56EjwyHiRX/media/?size=m
+photo.6.author: shaesavestheplanet
+photo.6.link: https://www.instagram.com/shaesavestheplanet/
+photo.6.tags: keeper, portrait
+photo.7: https://www.instagram.com/p/B64btoHBix7/media/?size=m
+photo.7.author: worldthathesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: bamboo, snow, tail
+photo.8: https://www.instagram.com/p/B8SuLNqlwZe/media/?size=m
+photo.8.author: andersonkelley
+photo.8.link: https://www.instagram.com/andersonkelley/
+photo.8.tags: peek
 species: 2
 zoo: 65
