@@ -15,5 +15,13 @@ litter: none
 location.1: 51, 2007/6/11
 location.2: 96, 2008/9/25
 location.3: 94, 2010/2/5
+photo.1: https://www.instagram.com/p/BnApumOAOz_/media/?size=m
+photo.1.author: couple.voyageur
+photo.1.link: https://www.instagram.com/couple.voyageur/
+photo.1.tags: portrait, profile, snow, tongue
+photo.2: https://www.instagram.com/p/Bt39uc-AghF/media/?size=m
+photo.2.author: zoodegranbyofficiel
+photo.2.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.2.tags: portrait, whiskers
 species: 2
 zoo: 94
