@@ -11,6 +11,8 @@ jp.name: ミルキー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+location.1: 13, 2013/7/7
+location.2: 29, 2020/2/26
 litter: none
 photo.1: https://www.instagram.com/p/BjClcZOAh5W/media/?size=m
 photo.1.author: minato.yokohama2130
@@ -187,4 +189,4 @@ photo.44.author: makimaru18
 photo.44.link: https://www.instagram.com/makimaru18/
 photo.44.tags: paws, portrait
 species: 2
-zoo: 13
+zoo: 29
