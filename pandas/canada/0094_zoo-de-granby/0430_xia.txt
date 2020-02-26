@@ -14,5 +14,6 @@ language.order: en, jp
 litter: 431, 445
 location.1: 94, 2013/7/1
 location.2: 76, 2014/10/15
+location.3: 94, 2017/11/21
 species: 2
-zoo: 76
+zoo: 94
