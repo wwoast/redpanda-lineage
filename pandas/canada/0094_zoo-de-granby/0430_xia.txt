@@ -15,9 +15,20 @@ litter: 431, 445
 location.1: 94, 2013/7/1
 location.2: 76, 2014/10/15
 location.3: 94, 2017/11/21
-photo.1: https://www.instagram.com/p/B2sVUv0nVBC/media/?size=m
-photo.1.author: zoodegranbyofficiel
-photo.1.link: https://www.instagram.com/zoodegranbyofficiel/
-photo.1.tags: paws, portrait, smile, tongue
+photo.1: https://www.instagram.com/p/BU4JYp8D4j_/media/?size=m
+photo.1.author: arnaultlavillephotography
+photo.1.link: https://www.instagram.com/arnaultlavillephotography/
+photo.2: https://www.instagram.com/p/BihKc-ABAQv/media/?size=m
+photo.2.author: alexacaluori
+photo.2.link: https://www.instagram.com/alexacaluori/
+photo.2.tags: snow, tail
+photo.3: https://www.instagram.com/p/BlRbslyluSO/media/?size=m
+photo.3.author: myrveilleuse.carpediem
+photo.3.link: https://www.instagram.com/myrveilleuse.carpediem/
+photo.3.tags: portrait, smile, tail, tongue
+photo.4: https://www.instagram.com/p/B8TsCMMFV1B/media/?size=m
+photo.4.author: zoodegranbyofficiel
+photo.4.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.4.tags: snow
 species: 2
 zoo: 94

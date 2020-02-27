@@ -16,25 +16,29 @@ location.1: 76, 2004/6/2
 location.2: 94, 2005/8/25
 location.3: 76, 2012/12/5
 location.4: 51, 2013/10/30
-photo.1: https://www.instagram.com/p/B32DjNghNwV/media/?size=m
-photo.1.author: garseeyaink
-photo.1.link: https://www.instagram.com/garseeyaink/
-photo.1.tags: bridge, whiskers
-photo.2: https://www.instagram.com/p/B3r7AFcHlES/media/?size=m
-photo.2.author: dferryonline
-photo.2.link: https://www.instagram.com/dferryonline/
-photo.2.tags: blink, dish, portrait
-photo.3: https://www.instagram.com/p/B3LNt9-B2Y4/media/?size=m
-photo.3.author: m.l.hphotography
-photo.3.link: https://www.instagram.com/m.l.hphotography/
-photo.3.tags: bridge, ear, portrait
-photo.4: https://www.instagram.com/p/B2sGHeSAVTL/media/?size=m
-photo.4.author: otterscotter
-photo.4.link: https://www.instagram.com/otterscotter/
-photo.4.tags: portrait, profile, tail
-photo.5: https://www.instagram.com/p/B2cWg5XBxCq/media/?size=m
-photo.5.author: alisanova_photography
-photo.5.link: https://www.instagram.com/alisanova_photography/
-photo.5.tags: bridge
+photo.1: https://www.instagram.com/p/B2sGHeSAVTL/media/?size=m
+photo.1.author: otterscotter
+photo.1.link: https://www.instagram.com/otterscotter/
+photo.1.tags: portrait, profile, tail
+photo.2: https://www.instagram.com/p/B2cWg5XBxCq/media/?size=m
+photo.2.author: alisanova_photography
+photo.2.link: https://www.instagram.com/alisanova_photography/
+photo.2.tags: bridge
+photo.3: https://www.instagram.com/p/B2sVUv0nVBC/media/?size=m
+photo.3.author: zoodegranbyofficiel
+photo.3.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.3.tags: paws, portrait, smile, tongue
+photo.4: https://www.instagram.com/p/B32DjNghNwV/media/?size=m
+photo.4.author: garseeyaink
+photo.4.link: https://www.instagram.com/garseeyaink/
+photo.4.tags: bridge, whiskers
+photo.5: https://www.instagram.com/p/B3r7AFcHlES/media/?size=m
+photo.5.author: dferryonline
+photo.5.link: https://www.instagram.com/dferryonline/
+photo.5.tags: blink, dish, portrait
+photo.6: https://www.instagram.com/p/B3LNt9-B2Y4/media/?size=m
+photo.6.author: m.l.hphotography
+photo.6.link: https://www.instagram.com/m.l.hphotography/
+photo.6.tags: bridge, ear, portrait
 species: 2
 zoo: 51
