@@ -15,5 +15,13 @@ litter: 667
 location.1: 118, 2001/7/9
 location.2: 122, 2002/3/13
 location.3: 104, 2002/11/20
+photo.1: https://www.instagram.com/p/Bb0Avd4nT-D/media/?size=m
+photo.1.author: potawatomizoo
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: portrait, profile, white face
+photo.2: https://www.instagram.com/p/BgztMwSAitc/media/?size=m
+photo.2.author: potawatomizoo
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: white face
 species: 1
 zoo: 104
