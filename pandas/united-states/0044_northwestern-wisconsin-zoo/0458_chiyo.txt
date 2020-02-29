@@ -3,14 +3,18 @@ _id: 458
 birthday: 2016/6/21
 birthplace: 51
 children: none
-en.name: Chiyo
+en.name: Chiya
 en.nicknames: none
-en.othernames: none
+en.othernames: Chiyo
 gender: m
-jp.name: 千代
+jp.name: チヤ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 459
+photo.1: https://www.instagram.com/p/B713XTXgZ51/media/?size=m
+photo.1.author: newzoogb
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: doctor, laying down
 species: 2
 zoo: 44
