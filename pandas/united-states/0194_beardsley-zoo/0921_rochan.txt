@@ -17,6 +17,14 @@ location.2: 194, 2015/10/20
 photo.1: https://www.instagram.com/p/tnda0ZEtt7/media/?size=m
 photo.1.author: zoonewengland
 photo.1.link: https://www.instagram.com/zoonewengland/
-photo.1.tags: baby, portrait, profile, tail
+photo.1.tags: baby, portrait, tail
+photo.2: https://www.instagram.com/p/BsJ1nEGB1Vs/media/?size=m
+photo.2.author: rossifari
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait, profile, whiskers
+photo.3: https://www.instagram.com/p/B2mhvuHp5cl/media/?size=m
+photo.3.author: ctbeardsleyzoo
+photo.3.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.3.tags: peek, portrait, tail
 species: 1
 zoo: 194

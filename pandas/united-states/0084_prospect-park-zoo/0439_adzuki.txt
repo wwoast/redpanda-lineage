@@ -21,7 +21,7 @@ photo.1.tags: baby
 photo.2: https://www.instagram.com/p/Bqc2Pbil3MK/media/?size=m
 photo.2.author: binghamtonzoo
 photo.2.link: https://www.instagram.com/binghamtonzoo/
-photo.2.tags: profile, techitechi
+photo.2.tags: techitechi
 photo.3: https://www.instagram.com/p/BqXTPwHFYnA/media/?size=m
 photo.3.author: binghamtonzoo
 photo.3.link: https://www.instagram.com/binghamtonzoo/
@@ -58,5 +58,9 @@ photo.11: https://www.instagram.com/p/BmN-qQfFa71/media/?size=m
 photo.11.author: binghamtonzoo
 photo.11.link: https://www.instagram.com/binghamtonzoo/
 photo.11.tags: baby
+photo.12: https://www.instagram.com/p/BxBPADgBeaz/media/?size=m
+photo.12.author: rossifari
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: portrait, profile, whiskers
 species: 2
 zoo: 84

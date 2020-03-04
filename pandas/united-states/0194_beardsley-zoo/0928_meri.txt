@@ -3,9 +3,9 @@ _id: 928
 birthday: 2013/6/27
 birthplace: 124
 children: none
-en.name: Merry
+en.name: Meri
 en.nicknames: none
-en.othernames: none
+en.othernames: Merry
 gender: f
 jp.name: メリー
 jp.nicknames: none
@@ -15,5 +15,9 @@ litter: 927
 location.1: 124, 2013/6/27
 location.2: 125, 2014/5/21
 location.3: 194, 2018/1/11
+photo.1: https://www.instagram.com/p/BtUiOk3hMKw/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: bamboo, portrait, profile, tongue, white face
 species: 1
 zoo: 194

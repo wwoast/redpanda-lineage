@@ -5,7 +5,7 @@ birthplace: 84
 children: none
 en.name: Ban-Li
 en.nicknames: none
-en.othernames: none
+en.othernames: Banli
 gender: f
 jp.name: バンリ
 jp.nicknames: none
@@ -17,26 +17,30 @@ location.2: 120, 2018/10/1
 photo.1: https://www.instagram.com/p/BbXU3gVHiLX/media/?size=m
 photo.1.author: animal_lifenyc
 photo.1.link: https://www.instagram.com/animal_lifenyc/
-photo.1.tags: baby
+photo.1.tags: baby, portrait
 photo.2: https://www.instagram.com/p/BcxjbYMngkS/media/?size=m
 photo.2.author: animal_lifenyc
 photo.2.link: https://www.instagram.com/animal_lifenyc/
-photo.2.tags: baby, bamboo, snow
+photo.2.tags: baby, bamboo, portrait, snow
 photo.3: https://www.instagram.com/p/Bfls_gEHVSb/media/?size=m
 photo.3.author: animal_lifenyc
 photo.3.link: https://www.instagram.com/animal_lifenyc/
-photo.3.tags: baby, lunch time, profile
+photo.3.tags: baby, lunch time, portrait
 photo.4: https://www.instagram.com/p/BeL6qLfnDs5/media/?size=m
 photo.4.author: animal_lifenyc
 photo.4.link: https://www.instagram.com/animal_lifenyc/
-photo.4.tags: baby
+photo.4.tags: baby, portrait
 photo.5: https://www.instagram.com/p/Btet3B0gXJX/media/?size=m
 photo.5.author: zoonewengland
 photo.5.link: https://www.instagram.com/zoonewengland/
 photo.5.tags: bamboo
-photo.6: https://www.instagram.com/p/B2mz8iWJFG4/media/?size=m
-photo.6.author: zoonewengland
-photo.6.link: https://www.instagram.com/zoonewengland/
-photo.6.tags: mofumofu, portrait, profile, whiskers
+photo.6: https://www.instagram.com/p/BwxyOTzhTr_/media/?size=m
+photo.6.author: rossifari
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: mofumofu, portrait, profile 
+photo.7: https://www.instagram.com/p/B2mz8iWJFG4/media/?size=m
+photo.7.author: zoonewengland
+photo.7.link: https://www.instagram.com/zoonewengland/
+photo.7.tags: mofumofu, portrait, whiskers
 species: 2
 zoo: 120
