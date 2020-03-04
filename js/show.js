@@ -2614,6 +2614,8 @@ Show.results.zooAnimals = function(zoo, language) {
   var leaving = Pandas.sortByDate(departures.concat(deaths), "sort_time", "descending");
   // Births and arrivals are together
   var coming = Pandas.sortByDate(arrivals.concat(born), "sort_time", "descending");
+  // If a recently born panda moves zoos, take it off the arrivals list
+  coming = Pandas.removeElements(coming, leaving);
   // Define the per-section messages. There are modifications depending on
   // which of the input lists are non-empty
   var headers = {
