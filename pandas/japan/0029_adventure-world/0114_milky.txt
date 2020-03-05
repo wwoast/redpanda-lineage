@@ -11,9 +11,9 @@ jp.name: ミルキー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: none
 location.1: 13, 2013/7/7
 location.2: 29, 2020/2/26
-litter: none
 photo.1: https://www.instagram.com/p/BjClcZOAh5W/media/?size=m
 photo.1.author: minato.yokohama2130
 photo.1.link: https://www.instagram.com/minato.yokohama2130/
@@ -196,13 +196,9 @@ photo.46: https://www.instagram.com/p/B81C9VCBVe5/media/?size=m
 photo.46.author: kinkinkin0826
 photo.46.link: https://www.instagram.com/kinkinkin0826/
 photo.46.tags: mofumofu, paws, whiskers
-photo.47: https://www.instagram.com/p/B83v6TBBjHI/media/?size=m
-photo.47.author: minato.yokohama2130
-photo.47.link: https://www.instagram.com/minato.yokohama2130/
-photo.47.tags: portrait, tree
-photo.48: https://www.instagram.com/p/B87SvR-hfJz/media/?size=m
-photo.48.author: mugicha0312
-photo.48.link: https://www.instagram.com/mugicha0312/
-photo.48.tags: dish, portrait, whiskers
+photo.47: https://www.instagram.com/p/B87SvR-hfJz/media/?size=m
+photo.47.author: mugicha0312
+photo.47.link: https://www.instagram.com/mugicha0312/
+photo.47.tags: dish, portrait, whiskers
 species: 2
 zoo: 29
