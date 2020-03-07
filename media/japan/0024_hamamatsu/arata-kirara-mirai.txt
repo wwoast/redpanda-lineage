@@ -57,3 +57,31 @@ photo.8.tags: family, home, siblings, twins
 photo.8.tags.65.location: 875, 475
 photo.8.tags.962.location: 700, 235
 photo.8.tags.963.location: 370, 380
+photo.9: https://www.instagram.com/p/B6onBTdhiG7/media/?size=m
+photo.9.author: ayusuke56
+photo.9.link: https://www.instagram.com/ayusuke56/
+photo.9.tags: family, siblings, tail, twins
+photo.9.tags.65.location: 160, 175
+photo.9.tags.962.location: 240, 135
+photo.9.tags.963.location: 115, 115
+photo.10: https://www.instagram.com/p/B9HGlV7BMav/media/?size=l
+photo.10.author: taka__3428
+photo.10.link: https://www.instagram.com/taka__3428/
+photo.10.tags: family, playing, siblings, twins
+photo.10.tags.65.location: 445, 105
+photo.10.tags.962.location: 840, 430
+photo.10.tags.963.location: 425, 430
+photo.11: https://www.instagram.com/p/B8EJr3EBQ-A/media/?size=m
+photo.11.author: miis_98
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: family, home
+photo.11.tags.65.location: 125, 265
+photo.11.tags.962.location: 155, 150
+photo.11.tags.963.location: 190, 85
+photo.12: https://www.instagram.com/p/B61e5xkBHr8/media/?size=m
+photo.12.author: taka__3428
+photo.12.link: https://www.instagram.com/taka__3428/
+photo.12.tags: family, home
+photo.12.tags.65.location: 455, 370
+photo.12.tags.962.location: 875, 355
+photo.12.tags.963.location: 135, 345
