@@ -29,7 +29,7 @@ photo.3.tags: bamboo, bite, portrait
 photo.4: https://www.instagram.com/p/BzE4gMHBSQc/media/?size=m
 photo.4.author: wumpwoast
 photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: portrait, profile, smile, tongue
+photo.4.tags: portrait, smile, tongue
 photo.5: https://www.instagram.com/p/BzLdXTLBTHr/media/?size=m
 photo.5.author: wumpwoast
 photo.5.link: https://www.instagram.com/wumpwoast/
@@ -94,5 +94,9 @@ photo.20: https://www.instagram.com/p/B89-uC5hg64/media/?size=m
 photo.20.author: wumpwoast
 photo.20.link: https://www.instagram.com/wumpwoast/
 photo.20.tags: bamboo, techitechi, white face
+photo.21: https://www.instagram.com/p/B9ax4Efh6nY/media/?size=m
+photo.21.author: wumpwoast
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: portrait, profile, white face
 species: 1
 zoo: 47

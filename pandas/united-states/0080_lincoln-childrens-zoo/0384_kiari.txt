@@ -14,6 +14,7 @@ language.order: en, jp
 litter: 411, 422
 location.1: 43, 2014/6/20
 location.2: 77, 2015/3/18
+location.3: 80, 2019/10/1
 photo.1: https://www.codaworry.com/images/rpf/kiari-1-henryvilas.jpg
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
@@ -254,5 +255,17 @@ photo.60: https://www.codaworry.com/images/rpf/kiari-61-henryvilas.jpg
 photo.60.author: worldthathesees
 photo.60.link: https://www.instagram.com/worldthathesees/
 photo.60.tags: bamboo, smile
+photo.61: https://www.instagram.com/p/B5VXA52jr9H/media/?size=m 
+photo.61.author: lincolnchildrenszoo
+photo.61.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.61.tags: mofumofu, portrait, profile
+photo.62: https://www.instagram.com/p/B8hlXJrAu_L/media/?size=m
+photo.62.author: lincolnchildrenszoo
+photo.62.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.62.tags: tail
+photo.63: https://www.instagram.com/p/B88_oulDnog/media/?size=m
+photo.63.author: lincolnchildrenszoo
+photo.63.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.63.tags: paws, peek, portrait, profile
 species: 2
-zoo: 77
+zoo: 80
