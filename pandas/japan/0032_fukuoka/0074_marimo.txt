@@ -339,7 +339,7 @@ photo.82.tags: portrait
 photo.83: https://www.instagram.com/p/B7D4FKZh8on/media/?size=m
 photo.83.author: re_ichimaru
 photo.83.link: https://www.instagram.com/re_ichimaru/
-photo.83.tags: apple time, paws, prayer, portrait, standing, tongue
+photo.83.tags: apple time, paws, praying, portrait, standing, tongue
 photo.84: https://www.instagram.com/p/B7ucxirhRzA/media/?size=m
 photo.84.author: re_ichimaru
 photo.84.link: https://www.instagram.com/re_ichimaru/
@@ -391,5 +391,21 @@ photo.96: https://www.instagram.com/p/B7qSEDnBLET/media/?size=m
 photo.96.author: yossi929
 photo.96.link: https://www.instagram.com/yossi929/
 photo.96.tags: paws, portrait, standing, toys
+photo.97: https://www.instagram.com/p/B9GNQmYBQ3S/media/?size=m
+photo.97.author: re_ichimaru
+photo.97.link: https://www.instagram.com/re_ichimaru/
+photo.97.tags: apple time, paws, portrait, praying
+photo.98: https://www.instagram.com/p/B9JyUMthVUF/media/?size=m
+photo.98.author: umekonbuaji
+photo.98.link: https://www.instagram.com/umekonbuaji/
+photo.98.tags: paws, standing, tail
+photo.99: https://www.instagram.com/p/B9OERtZhbVa/media/?size=m
+photo.99.author: re_ichimaru
+photo.99.link: https://www.instagram.com/re_ichimaru/
+photo.99.tags: apple time, paws, portrait, standing, tongue
+photo.100: https://www.instagram.com/p/B9SgrCKhu31/media/?size=m
+photo.100.author: yossi929
+photo.100.link: https://www.instagram.com/yossi929/
+photo.100.tags: peek
 species: 2
 zoo: 32
