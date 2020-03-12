@@ -19,17 +19,21 @@ location.4: 23, 2017/7/4
 photo.1: https://www.instagram.com/p/BgM3orFFfEa/media/?size=m
 photo.1.author: _rifa_p
 photo.1.link: https://www.instagram.com/_rifa_p/
-photo.1.tags: itchy
+photo.1.tags: itchy, portrait
 photo.2: https://www.instagram.com/p/BYLLC5clC5t/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
 photo.3: https://www.instagram.com/p/Br1BTyJF5kq/media/?size=m
 photo.3.author: miis_98
 photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: apple time, dish, keeper, profile
+photo.3.tags: apple time, dish, keeper, portrait, profile
 photo.4: https://www.instagram.com/p/BsBvI-WF4Y_/media/?size=m
 photo.4.author: kipekaila
 photo.4.link: https://www.instagram.com/kipekaila/
-photo.4.tags: bamboo
+photo.4.tags: bamboo, portrait
+photo.5: https://www.instagram.com/p/BbCBmorlpVD/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: portrait
 species: 2
 zoo: 23

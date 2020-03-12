@@ -17,7 +17,7 @@ location.2: 64, 2007/7/18
 photo.1: https://www.instagram.com/p/Bkr0RjglPjP/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: profile, sleeping
+photo.1.tags: portrait, sleeping
 photo.2: https://www.instagram.com/p/Bxh4TlTFxUl/media/?size=m
 photo.2.author: craig_craig_craig
 photo.2.link: https://www.instagram.com/craig_craig_craig/
@@ -26,5 +26,9 @@ photo.3: https://www.instagram.com/p/B6swaunhJTy/media/?size=m
 photo.3.author: grskus_tk
 photo.3.link: https://www.instagram.com/grskus_tk/
 photo.3.tags: paws, portrait
+photo.4: https://www.instagram.com/p/Bd40TWWFdET/media/?size=m
+photo.4.author: hanamaru_redpanda
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: laying down, portrait, profile
 species: 2
 zoo: 64

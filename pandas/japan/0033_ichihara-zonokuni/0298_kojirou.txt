@@ -3,6 +3,7 @@ _id: 298
 birthday: 2010/7/14
 birthplace: 6
 children: 300, 587
+death: 2019/1/1
 en.name: Kojirou
 en.nicknames: none
 en.othernames: none
@@ -18,5 +19,8 @@ photo.1: https://www.instagram.com/p/BYVXPAYlY3f/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
 photo.1.tags: bamboo, profile
+photo.2: https://www.instagram.com/p/BlK_2deA-h7/media/?size=m
+photo.2.author: patraschtsuckey
+photo.2.link: https://www.instagram.com/patraschtsuckey/
 species: 2
 zoo: 33

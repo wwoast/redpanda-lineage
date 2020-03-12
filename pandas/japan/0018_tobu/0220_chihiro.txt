@@ -45,10 +45,14 @@ photo.7.tags: old
 photo.8: https://www.instagram.com/p/BbmDON9FrDT/media/?size=m
 photo.8.author: hanamaru_redpanda
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: portrait, old
+photo.8.tags: old, portrait
 photo.9: https://www.instagram.com/p/BZKat6-lx6w/media/?size=m
 photo.9.author: _rifa_p
 photo.9.link: https://www.instagram.com/_rifa_p/
 photo.9.tags: portrait, smile
+photo.10: https://www.instagram.com/p/BcuAPq_FKLh/media/?size=m
+photo.10.author: hanamaru_redpanda
+photo.10.link: https://www.instagram.com/hanamaru_redpanda/
+photo.10.tags: laying down, old, portrait, sleeping
 species: 2
 zoo: 18
