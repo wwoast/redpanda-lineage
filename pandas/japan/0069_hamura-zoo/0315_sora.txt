@@ -41,7 +41,7 @@ photo.6.tags: tail
 photo.7: https://www.instagram.com/p/Bi4Cc8Gl0R2/media/?size=m
 photo.7.author: hanamaru_redpanda
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
-photo.7.tags: apple time, dish, smile
+photo.7.tags: apple time, dish, portrait, smile
 photo.8: https://www.instagram.com/p/BswcBzFlVxy/media/?size=m
 photo.8.author: cabbage_biyori
 photo.8.link: https://www.instagram.com/cabbage_biyori/
@@ -49,7 +49,7 @@ photo.8.tags: mofumofu, techitechi, white face
 photo.9: https://www.instagram.com/p/BtxpgukFozP/media/?size=m
 photo.9.author: resapan.suki
 photo.9.link: https://www.instagram.com/resapan.suki/
-photo.9.tags: ear, white face
+photo.9.tags: close-up, ear, portrait, white face
 photo.10: https://www.instagram.com/p/BuGksGZFI9N/media/?size=m
 photo.10.author: cabbage_biyori
 photo.10.link: https://www.instagram.com/cabbage_biyori/
@@ -61,11 +61,11 @@ photo.11.tags: apple time, keeper
 photo.12: https://www.instagram.com/p/BuL0KWDFCUG/media/?size=m
 photo.12.author: resapan.suki
 photo.12.link: https://www.instagram.com/resapan.suki/
-photo.12.tags: ear, techitechi, white face
+photo.12.tags: ear, portrait, techitechi, white face
 photo.13: https://www.instagram.com/p/Bv2RVLOFfbe/media/?size=m
 photo.13.author: kipekaila
 photo.13.link: https://www.instagram.com/kipekaila/
-photo.13.tags: sleeping, tail
+photo.13.tags: portrait, sleeping, tail
 photo.14: https://www.instagram.com/p/BvWE2kSFz5k/media/?size=m
 photo.14.author: s.okano521
 photo.14.link: https://www.instagram.com/s.okano521/
@@ -76,7 +76,7 @@ photo.15.link: https://www.instagram.com/cabbage_biyori/
 photo.16: https://www.instagram.com/p/BymC1hMhbER/media/?size=m
 photo.16.author: kaoru_a358
 photo.16.link: https://www.instagram.com/kaoru_a358/
-photo.16.tags: standing
+photo.16.tags: portrait, standing
 photo.17: https://www.instagram.com/p/B0BUrvUhs1x/media/?size=m
 photo.17.author: framereim
 photo.17.link: https://www.instagram.com/framereim/

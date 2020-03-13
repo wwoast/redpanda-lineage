@@ -16,7 +16,7 @@ litter: 20
 photo.1: https://www.instagram.com/p/BkABRvIFRRF/media/?size=m
 photo.1.author: hanamaru_redpanda
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: profile, smile
+photo.1.tags: portrait, smile
 photo.2: https://www.instagram.com/p/BkZXZtXluqi/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
@@ -64,5 +64,9 @@ photo.14: https://www.instagram.com/p/Bxcks8blDfI/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
 photo.14.tags: paws
+photo.15: https://www.instagram.com/p/BiMUJwTFaUs/media/?size=m
+photo.15.author: hanamaru_redpanda
+photo.15.link: https://www.instagram.com/hanamaru_redpanda/
+photo.15.tags: portrait, profile
 species: 2
 zoo: 9
