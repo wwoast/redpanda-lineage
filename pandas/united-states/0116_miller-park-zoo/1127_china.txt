@@ -1,0 +1,23 @@
+[panda]
+_id: 1127
+birthday: 2019/6/16
+birthplace: 116
+children: none
+cn.name: 中國
+cn.nicknames: none
+cn.othernames: none
+en.name: China
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 中国
+jp.nicknames: none
+jp.othernames: none
+language.order: en, cn, jp
+litter: 1128, 1129
+photo.1: https://www.instagram.com/p/B4aVoillSzC/media/?size=m
+photo.1.author: millerparkzoo
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: portrait, whiskers
+species: 1
+zoo: 116
