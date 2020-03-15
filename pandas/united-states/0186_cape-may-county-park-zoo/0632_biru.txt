@@ -1,0 +1,44 @@
+[panda]
+_id: 632
+birthday: 2010/6/24
+birthplace: 146
+children: none
+en.name: Biru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ビル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 633
+location.1: 146, 2010/6/24
+location.2: 75, 2011/4/12
+location.3: 154, 2016/6/22
+location.4: 159, 2016/10/25
+location.5: 186, 2019/11/1
+photo.1: https://www.instagram.com/p/BaJ-9ScAXD9/media/?size=m
+photo.1.author: clevbuck86
+photo.1.link: https://www.instagram.com/clevbuck86/
+photo.1.tags: laying down, paws
+photo.2: https://www.instagram.com/p/Bh6wM4bBMQH/media/?size=m
+photo.2.author: kopperheadpix
+photo.2.link: https://www.instagram.com/kopperheadpix/
+photo.2.tags: paws, portrait, profile, smile
+photo.3: https://www.instagram.com/p/Bicf38BhA9l/media/?size=m
+photo.3.author: akronzoo
+photo.3.link: https://www.instagram.com/akronzoo/
+photo.4: https://www.instagram.com/p/Bl6D0j5haB2/media/?size=m
+photo.4.author: kopperheadpix
+photo.4.link: https://www.instagram.com/kopperheadpix/
+photo.4.tags: peek, portrait, whiskers
+photo.5: https://www.instagram.com/p/BmB5a2cnDyh/media/?size=m
+photo.5.author: kopperheadpix
+photo.5.link: https://www.instagram.com/kopperheadpix/
+photo.5.tags: bridge, paws, portrait, tail
+photo.6: https://www.instagram.com/p/BpCW5kcAdSq/media/?size=m
+photo.6.author: kopperheadpix
+photo.6.link: https://www.instagram.com/kopperheadpix/
+photo.6.tags: paws, portrait, tongue
+species: 1
+zoo: 186
