@@ -17,7 +17,7 @@ location.2: 127, 2018/3/15
 photo.1: https://www.instagram.com/p/BkIUqZhFTx1/media/?size=m
 photo.1.author: senecaparkzoo
 photo.1.link: https://www.instagram.com/senecaparkzoo/
-photo.1.tags: bamboo, profile
+photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/Bnv53O0jr63/media/?size=m
 photo.2.author: senecaparkzoo
 photo.2.link: https://www.instagram.com/senecaparkzoo/
@@ -34,5 +34,17 @@ photo.5: https://www.instagram.com/p/BuTukeXFTRe/media/?size=m
 photo.5.author: senecaparkzoo
 photo.5.link: https://www.instagram.com/senecaparkzoo/
 photo.5.tags: bamboo, smile, tree
+photo.6: https://www.instagram.com/p/B26mKElAc5G/media/?size=m
+photo.6.author: senecaparkzoo
+photo.6.link: https://www.instagram.com/senecaparkzoo/
+photo.6.tags: laying down, portrait
+photo.7: https://www.instagram.com/p/B40MolkjnkK/media/?size=m
+photo.7.author: senecaparkzoo
+photo.7.link: https://www.instagram.com/senecaparkzoo/
+photo.7.tags: nose, snow
+photo.8: https://www.instagram.com/p/B9jeA13Jh-L/media/?size=m
+photo.8.author: senecaparkzoo
+photo.8.link: https://www.instagram.com/senecaparkzoo/
+photo.8.tags: apple time, portrait, profile, smile, tongue
 species: 1
 zoo: 127
