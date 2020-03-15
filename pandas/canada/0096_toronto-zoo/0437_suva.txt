@@ -15,17 +15,25 @@ litter: 438
 location.1: 82, 2017/6/13
 location.2: 76, 2018/1/1
 location.3: 96, 2019/7/1
-photo.1: https://www.instagram.com/p/B2EkzLqgCta/media/?size=m
-photo.1.author: thetorontozoo
-photo.1.link: https://www.instagram.com/thetorontozoo/
-photo.1.tags: climb
-photo.2: https://www.instagram.com/p/B4F6FS2pBF3/media/?size=m
-photo.2.author: rossifari
-photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: autumn, portrait, profile, whiskers
-photo.3: https://www.instagram.com/p/B5VzHe7p0dB/media/?size=m
-photo.3.author: rossifari
-photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: autumn, portrait, tongue, whiskers
+photo.1: https://www.instagram.com/p/B2kQp9zjhUG/media/?size=m
+photo.1.author: assiniboineparkzoo
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: air tasting, tongue, whiskers
+photo.2: https://www.instagram.com/p/B2rXj6XDMLy/media/?size=m
+photo.2.author: assiniboineparkzoo
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: paws, profile, whiskers
+photo.3: https://www.instagram.com/p/B2EkzLqgCta/media/?size=m
+photo.3.author: thetorontozoo
+photo.3.link: https://www.instagram.com/thetorontozoo/
+photo.3.tags: climb
+photo.4: https://www.instagram.com/p/B4F6FS2pBF3/media/?size=m
+photo.4.author: rossifari
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: autumn, portrait, profile, whiskers
+photo.5: https://www.instagram.com/p/B5VzHe7p0dB/media/?size=m
+photo.5.author: rossifari
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: autumn, portrait, tongue, whiskers
 species: 2
 zoo: 96
