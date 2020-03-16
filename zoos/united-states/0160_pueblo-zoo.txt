@@ -7,6 +7,7 @@ flag: USA
 language.order: en
 latitude: 38.262699
 longitude: -104.6614709
+map: https://goo.gl/maps/sAm9JQGw7HG2
 photo.1: https://www.instagram.com/p/B4Yg12wHclq/media/?size=m
 photo.1.author: keepermerlo
 photo.1.link: https://www.instagram.com/keepermerlo/
@@ -14,5 +15,4 @@ photo.2: https://www.instagram.com/p/B1UwqJDhG8X/media/?size=m
 photo.2.author: keepermerlo
 photo.2.link: https://www.instagram.com/keepermerlo/
 photo.2.tags: profile
-map: https://goo.gl/maps/sAm9JQGw7HG2
 website: https://www.pueblozoo.org

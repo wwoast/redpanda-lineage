@@ -2,8 +2,8 @@
 _id: 272
 birthday: 2010/6/26
 birthplace: 59
-death: 2019/11/1
 children: none
+death: 2019/11/1
 en.name: Nuts
 en.nicknames: none
 en.othernames: Natsu
@@ -45,17 +45,13 @@ photo.8.link: https://www.instagram.com/hanamaru_redpanda/
 photo.9: https://www.instagram.com/p/BtBXF4klcue/media/?size=m
 photo.9.author: fetorus_mami
 photo.9.link: https://www.instagram.com/fetorus_mami/
-photo.10: https://www.instagram.com/p/BuaKwEuhBRJ/media/?size=m
-photo.10.author: chocopan102
-photo.10.link: https://www.instagram.com/chocopan102/
-photo.10.tags: smile, tongue
-photo.11: https://www.instagram.com/p/BeRQ2h5hhwA/media/?size=m
-photo.11.author: miis_98
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: door, paws, portrait, tail
-photo.12: https://www.instagram.com/p/BdOZvGOlaZQ/media/?size=m
-photo.12.author: fetorus_mami
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: bamboo
+photo.10: https://www.instagram.com/p/BeRQ2h5hhwA/media/?size=m
+photo.10.author: miis_98
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: door, paws, portrait, tail
+photo.11: https://www.instagram.com/p/BdOZvGOlaZQ/media/?size=m
+photo.11.author: fetorus_mami
+photo.11.link: https://www.instagram.com/fetorus_mami/
+photo.11.tags: bamboo
 species: 1
 zoo: 59

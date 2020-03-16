@@ -3,10 +3,10 @@ _id: 1117
 birthday: 1994/6/24
 birthplace: 108
 children: none
-death: 2007/12/6
 cn.name: 台北
-cn.othernames: none
 cn.nicknames: none
+cn.othernames: none
+death: 2007/12/6
 en.name: Taipei
 en.nicknames: none
 en.othernames: none
