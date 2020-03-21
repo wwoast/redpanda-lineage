@@ -3,9 +3,9 @@ _id: 88
 birthday: 2011/6/24
 birthplace: 10
 children: none
-en.name: Mo-Mo
+en.name: Momo
 en.nicknames: none
-en.othernames: Momo
+en.othernames: Mo-Mo
 gender: f
 jp.name: モモ
 jp.nicknames: none
@@ -63,5 +63,13 @@ photo.13: https://www.instagram.com/p/B92fzodh0Fm/media/?size=m
 photo.13.author: shigeko0531
 photo.13.link: https://www.instagram.com/shigeko0531/
 photo.13.tags: home, laying down, paws
+photo.14: https://www.instagram.com/p/B963eYRhIi1/media/?size=m
+photo.14.author: craig_craig_craig
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: paws, portrait
+photo.15: https://www.instagram.com/p/B9-Z--sBDHt/media/?size=m
+photo.15.author: craig_craig_craig
+photo.15.link: https://www.instagram.com/craig_craig_craig/
+photo.15.tags: apple time, blink, dish, paws, portrait, smile, whiskers
 species: 2
 zoo: 10

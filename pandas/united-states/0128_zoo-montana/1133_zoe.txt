@@ -1,0 +1,19 @@
+[panda]
+_id: 1133
+birthday: 2003/7/7
+birthplace: 108
+children: none
+en.name: Zoe
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゾーイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1134
+location.1: 108, 2003/7/7
+location.2: 112, 2004/4/14
+location.3: 128, 2008/11/14
+species: 1
+zoo: 128

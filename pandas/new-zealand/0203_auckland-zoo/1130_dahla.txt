@@ -1,0 +1,20 @@
+[panda]
+_id: 1130
+birthday: 2018/12/18
+birthplace: 203
+children: none
+en.name: Dahla
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ダーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/B95WAFuhgZa/media/?size=m
+photo.1.author: aucklandzoo
+photo.1.link: https://www.instagram.com/aucklandzoo/
+photo.1.tags: baby, door, home, portrait
+species: 1
+zoo: 203
