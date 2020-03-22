@@ -37,7 +37,7 @@ photo.5.tags: mofumofu
 photo.6: https://www.instagram.com/p/BtLPnUCl55x/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: bamboo, profile, smile
+photo.6.tags: bamboo, smile
 photo.7: https://www.instagram.com/p/BuXwOzSFiGc/media/?size=m
 photo.7.author: kipekaila
 photo.7.link: https://www.instagram.com/kipekaila/
@@ -86,6 +86,10 @@ photo.18.link: apple time, paws, praying, standing
 photo.19: https://www.instagram.com/p/B8eVcjahNY1/media/?size=m
 photo.19.author: itsuak
 photo.19.link: https://www.instagram.com/itsuak/
-photo.19.tags: bamboo, paws, portrait
+photo.19.tags: bamboo, paws, portrait, profile
+photo.20: https://www.instagram.com/p/B-A_DKKAA7c/media/?size=m
+photo.20.author: miis_98
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: portrait
 species: 2
 zoo: 15
