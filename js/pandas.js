@@ -965,12 +965,19 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "arrived",
-          "from": last_location
+          "from": last_location,
+          "move_date": move_date
         }
         return vertex;
       }
       if (current_time - move_time < ms_in_period) {
-        vertex["sort_time"] = move_time; 
+        vertex["sort_time"] = move_time;
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "arrived",
+          "from": last_location,
+          "move_date": move_date
+        }
         return vertex;   // Less than N months?
       }
       last_location = zoo_id;
@@ -1028,7 +1035,8 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "departed",
-          "to": zoo_id
+          "to": zoo_id,
+          "move_date": move_date
         }
         return vertex;
       }
@@ -1037,7 +1045,8 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "departed",
-          "to": zoo_id
+          "to": zoo_id,
+          "move_date": move_date
         }
         return vertex;   // Less than N months?
       } else {
@@ -1078,7 +1087,7 @@ Pandas.searchPandaZooDied = function(idnum, months=6) {
     if (current_time - anniversary < ms_in_period) {
       vertex["sort_time"] = anniversary;
       // Info about why this animal appeared in results
-      vertex["quoery_context"] = {
+      vertex["search_context"] = {
         "query": "died"
       }
       return vertex;
