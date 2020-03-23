@@ -928,12 +928,21 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   return Pandas.sortOldestToYoungest(nodes);
 }
 
-// Find all pandas born at a given zoo any time 
-Pandas.searchPandaZooBornRecords = function(idnum) {
+// Find all pandas born at a given zoo any time.
+// Set search_context to true if you want the results to add a "born" zoo listing
+Pandas.searchPandaZooBornRecords = function(idnum, search_context=false) {
   if (idnum > 0) {
     idnum = idnum * -1;   // HACK: zoo records
   }
-  var nodes = G.v(idnum).in("birthplace").run();
+  var nodes = G.v(idnum).in("birthplace").filter(function(vertex) {
+    if (search_context == true) {
+      vertex["search_context"] = {
+        "query": "born_at",
+        "at": idnum
+      }
+    }
+    return vertex;
+  }).run();
   // HACK: good enough for year sorting
   nodes = Pandas.sortByName(nodes, "birthday").reverse();
   return nodes;
