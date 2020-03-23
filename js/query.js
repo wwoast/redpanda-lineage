@@ -116,7 +116,7 @@ Query.resolver.pair = function(set_node) {
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
     if (Parse.group.born_at.indexOf(keyword_node.str) != -1) {
-      hits = Pandas.searchPandaZooBornRecords(search_word);
+      hits = Pandas.searchPandaZooBornRecords(search_word, true);
     }
     if (Parse.group.died_at.indexOf(keyword_node.str) != -1) {
       hits = Pandas.searchPandaZooDied(search_word, 0);
