@@ -619,6 +619,21 @@ Language.L.messages = {
     "jp": "と",
     "np": "र"
   },
+  "arrived_from_zoo": {
+    "cn": ["<INSERTDATE>",
+           "，来自",
+           "<INSERTZOO>"],
+    "en": ["<INSERTDATE>",
+           ", from ",
+           "<INSERTZOO>"],
+    "jp": ["<INSERTDATE>",
+           "、",
+           "<INSERTZOO>",
+           "から"],
+    "np": ["<INSERTDATE>",
+           " बाट ",
+           "<INSERTZOO>"]
+  },
   "credit": {
     "cn": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
@@ -646,6 +661,22 @@ Language.L.messages = {
     "en": ", ",
     "jp": "と",
     "np": ", "
+  },
+  "departed_to_zoo": {
+    "cn": ["<INSERTDATE>",
+           "去",
+           "<INSERTZOO>"],
+    "en": ["<INSERTZOO>",
+           " on ",
+           "<INSERTDATE>"],
+    "jp": ["<INSERTDATE>",
+           "に",
+           "<INSERTZOO>",
+           "に行きました"],
+    "np": ["<INSERTZOO>",
+           " ",
+           "<INSERTDATE>",
+           " मा"]
   },
   "find_a_nearby_zoo": {
     "cn": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],

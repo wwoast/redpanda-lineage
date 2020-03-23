@@ -952,6 +952,7 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
       var location = Pandas.field(vertex, field_name);
       [zoo_id, move_date] = location.split(", ");
       if (zoo_id != compare_id) {
+        last_location = zoo_id;
         continue;   // Ignore location values not at this zoo
       }
       // Compare all zoo node dates with current time.
@@ -965,7 +966,7 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "arrived",
-          "from": last_location,
+          "from": parseInt(last_location) * -1,
           "move_date": move_date
         }
         return vertex;
@@ -975,7 +976,7 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "arrived",
-          "from": last_location,
+          "from": parseInt(last_location) * -1,
           "move_date": move_date
         }
         return vertex;   // Less than N months?
@@ -1035,7 +1036,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "departed",
-          "to": zoo_id,
+          "to": parseInt(zoo_id) * -1,
           "move_date": move_date
         }
         return vertex;
@@ -1045,7 +1046,7 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
         // Info about why this animal appeared in results
         vertex["search_context"] = {
           "query": "departed",
-          "to": zoo_id,
+          "to": parseInt(zoo_id) * -1,
           "move_date": move_date
         }
         return vertex;   // Less than N months?
