@@ -592,7 +592,7 @@ Page.results.entities = function(results) {
       content_divs = content_divs.concat(Show.results.zooAnimals(entity, L.display));
       content_divs.push(Show.zooDivider("bear-bamboo"));
     } else {
-      content_divs.push(Show.results.panda(entity, L.display, undefined));
+      content_divs.push(Show.results.panda(entity, L.display));
     }
   });
   // Remove the last element if it's a divider
@@ -617,7 +617,7 @@ Page.results.nearby = function(results) {
     content_divs.push(Show.results.zoo(entity, L.display));
     animals = Pandas.sortOldestToYoungest(Pandas.searchPandaZooCurrent(entity["_id"]));
     animals.forEach(function(animal) {
-      content_divs.push(Show.results.panda(animal, L.display, undefined));
+      content_divs.push(Show.results.panda(animal, L.display));
     });
   });
   // HACK: return to entity mode

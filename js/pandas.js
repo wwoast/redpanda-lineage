@@ -359,6 +359,19 @@ Pandas.removeElements = function(list, removals) {
   });
 }
 
+// Remove elements from the second list from the first, as long as 
+// some dictionary item matches (typically the animal or zoo id)
+Pandas.removeElementsWithMatchingField = function(list, removals, field) {
+  var removals_field = removals.map(x => x[field]);
+  return list.filter(function(item) {
+    if (removals_field.indexOf(item[field]) > -1) {
+      return false;
+    } else {
+      return true;
+    }
+  });
+}
+
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {
@@ -875,6 +888,11 @@ Pandas.searchPandaZooBorn = function(idnum, months=6) {
     }
     if (current_time - birth_time < ms_in_period) {
       vertex["sort_time"] = birth_time;
+      // Info about why this animal appeared in results
+      vertex["search_context"] = {
+        "query": "born",
+        "at": idnum
+      }
       return vertex;
     } else {
       return false;
@@ -929,6 +947,7 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
   }).filter(function(vertex) {
     // If their arrival date was within six months, keep in the list
     var location_fields = Pandas.locationGeneratorEntity;
+    var last_location = null;
     for (let field_name of location_fields(vertex)) {
       var location = Pandas.field(vertex, field_name);
       [zoo_id, move_date] = location.split(", ");
@@ -942,13 +961,19 @@ Pandas.searchPandaZooArrived = function(idnum, months=6) {
       var ms_in_period = months * ms_per_month;
       if (ms_in_period == 0) {
         // Get all arrived if months == 0
-        vertex["sort_time"] = move_time; 
+        vertex["sort_time"] = move_time;
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "arrived",
+          "from": last_location
+        }
         return vertex;
       }
       if (current_time - move_time < ms_in_period) {
         vertex["sort_time"] = move_time; 
         return vertex;   // Less than N months?
       }
+      last_location = zoo_id;
     }
   }).run();
   nodes = Pandas.sortByDate(nodes, "sort_time", "descending");
@@ -1000,10 +1025,20 @@ Pandas.searchPandaZooDeparted = function(idnum, months=6) {
       if (ms_in_period == 0) {
         // Get all departed if months == 0
         vertex["sort_time"] = move_time; 
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "departed",
+          "to": zoo_id
+        }
         return vertex;
       }
       if (current_time - move_time < ms_in_period) {
-        vertex["sort_time"] = move_time; 
+        vertex["sort_time"] = move_time;
+        // Info about why this animal appeared in results
+        vertex["search_context"] = {
+          "query": "departed",
+          "to": zoo_id
+        }
         return vertex;   // Less than N months?
       } else {
         // This move didn't happen recently. Start the move
@@ -1033,11 +1068,19 @@ Pandas.searchPandaZooDied = function(idnum, months=6) {
     var ms_in_period = months * ms_per_month;
     if (ms_in_period == 0) {
       // Get all died if months == 0
-      vertex["sort_time"] = anniversary; 
+      vertex["sort_time"] = anniversary;
+      // Info about why this animal appeared in results
+      vertex["search_context"] = {
+        "query": "died"
+      }
       return vertex;
     }
     if (current_time - anniversary < ms_in_period) {
       vertex["sort_time"] = anniversary;
+      // Info about why this animal appeared in results
+      vertex["quoery_context"] = {
+        "query": "died"
+      }
       return vertex;
     } else {
       return false;

@@ -30,6 +30,7 @@ Show.acquirePandaInfo = function(animal, language) {
     "photo_index": picture['index'],
      "photo_link": picture['link'],
  "photo_manifest": Pandas.photoManifest(animal),
+ "search_context": animal["search_context"],
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
         "species": Pandas.species(animal["_id"]),
            "wild": Pandas.myWild(animal, "wild"),
@@ -2591,7 +2592,7 @@ Show.results.zooAnimals = function(zoo, language) {
   var animals_to_divs = function(animals) {
     var output_divs = [];
     animals.forEach(function(animal) {
-      output_divs.push(Show.results.panda(animal, L.display, undefined));
+      output_divs.push(Show.results.panda(animal, L.display));
     });
     return output_divs;
   }
@@ -2607,15 +2608,16 @@ Show.results.zooAnimals = function(zoo, language) {
   var departures = Pandas.searchPandaZooDeparted(id, 9);
   // Which animals were resident at this zoo?
   var residents = Pandas.searchPandaZooCurrent(id);
-  residents = Pandas.removeElements(residents, arrivals);
-  residents = Pandas.removeElements(residents, born);
+  // Remove duplicate items based on panda "_id" fields
+  residents = Pandas.removeElementsWithMatchingField(residents, arrivals, "_id");
+  residents = Pandas.removeElementsWithMatchingField(residents, born, "_id");
   residents = Pandas.sortOldestToYoungest(residents);
   // Deaths and departures are together
   var leaving = Pandas.sortByDate(departures.concat(deaths), "sort_time", "descending");
   // Births and arrivals are together
   var coming = Pandas.sortByDate(arrivals.concat(born), "sort_time", "descending");
   // If a recently born panda moves zoos, take it off the arrivals list
-  coming = Pandas.removeElements(coming, leaving);
+  coming = Pandas.removeElementsWithMatchingField(coming, leaving, "_id");
   // Define the per-section messages. There are modifications depending on
   // which of the input lists are non-empty
   var headers = {
