@@ -30,6 +30,7 @@ Show.acquirePandaInfo = function(animal, language) {
     "photo_index": picture['index'],
      "photo_link": picture['link'],
  "photo_manifest": Pandas.photoManifest(animal),
+ "search_context": animal["search_context"],
        "siblings": Pandas.searchNonLitterSiblings(animal["_id"]),
         "species": Pandas.species(animal["_id"]),
            "wild": Pandas.myWild(animal, "wild"),
@@ -1388,6 +1389,23 @@ Show.message.arrivals = function(zoo, born, language) {
   message.appendChild(shrinker);
   return message;
 }
+Show.message.arrived_from_zoo = function(zoo, date, language) {
+  // Text to go into the Show.zooLink function
+  var text = "";
+  for (var i in L.messages.arrived_from_zoo[language]) {
+    var field = L.messages.arrived_from_zoo[language][i];
+    if (field == "<INSERTDATE>") {
+      field = date;
+      text = text + field;
+    } else if (field == "<INSERTZOO>") {
+      field = zoo;
+      text = text + field;
+    } else {
+      text = text + field;
+    }
+  }
+  return text; 
+}
 Show.message.birthday = function(name, animal_id, years, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;
@@ -1444,6 +1462,23 @@ Show.message.credit = function(credit, count, language) {
   message.className = "creditSummary";
   message.appendChild(shrinker);
   return message;
+}
+Show.message.departed_to_zoo = function(zoo, date, language) {
+  // Text to go into the Show.zooLink function
+  var text = "";
+  for (var i in L.messages.departed_to_zoo[language]) {
+    var field = L.messages.departed_to_zoo[language][i];
+    if (field == "<INSERTDATE>") {
+      field = date;
+      text = text + field;
+    } else if (field == "<INSERTZOO>") {
+      field = zoo;
+      text = text + field;
+    } else {
+      text = text + field;
+    }
+  }
+  return text; 
 }
 Show.message.departures = function(zoo, deaths, language) {
   // Zoo search: display departing animals along with ones that died.
@@ -2414,6 +2449,11 @@ Show.results.pandaDetails = function(info) {
   // Start the new Div
   var details = document.createElement('div');
   details.className = "pandaDetails";
+  // Modes for arrived/deparated animals based on query context
+  var search_context = undefined;
+  if (info.search_context != undefined) {
+    search_context = info.search_context.query;
+  }
   // Start creating content
   var [first_string, second_string] = Show.birthday(info, language);
   var born = document.createElement('p');
@@ -2427,10 +2467,10 @@ Show.results.pandaDetails = function(info) {
   }
   // Zoo link is the animal's home zoo, linking to a search 
   // for all living pandas at the given zoo.
-  if (info.zoo != undefined) {
+  if (info.zoo != undefined && (search_context != "arrived" && search_context != "departed")) {
     var zoo = document.createElement('p');
     var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
-    zoo.appendChild(zoo_link);  
+    zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
     // a Google Maps search for the "<language>.address" field
     var location = document.createElement('p');
@@ -2439,6 +2479,43 @@ Show.results.pandaDetails = function(info) {
     details.appendChild(zoo);
     details.appendChild(location);
   }
+  // Arrivals have zoo information for where they came from
+  if (info.zoo != undefined && search_context == "arrived") {
+    var zoo = document.createElement('p');
+    var target_zoo = Pandas.searchZooId(info.search_context.from)[0];
+    var target_date = Pandas.formatDate(info.search_context.move_date, language);
+    // Custom language templates for this
+    var icon = Language.L.emoji.truck;
+    var target_text = Show.message.arrived_from_zoo(target_zoo[language + ".name"], target_date, language);
+    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    zoo.appendChild(zoo_link);
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field
+    var location = document.createElement('p');
+    var location_link = Show.locationLink(target_zoo, language);
+    location.appendChild(location_link);
+    details.appendChild(zoo);
+    details.appendChild(location);
+  }
+  if (info.zoo != undefined && search_context == "departed") {
+    var zoo = document.createElement('p');
+    var target_zoo = Pandas.searchZooId(info.search_context.to)[0];
+    var target_date = Pandas.formatDate(info.search_context.move_date, language);
+    // Custom language templates for this
+    var icon = Language.L.emoji.truck;
+    var target_text = Show.message.departed_to_zoo(target_zoo[language + ".name"], target_date, language);
+    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    zoo.appendChild(zoo_link);
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field
+    var location = document.createElement('p');
+    var location_link = Show.locationLink(target_zoo, language);
+    location.appendChild(location_link);
+    details.appendChild(zoo);
+    details.appendChild(location);
+  }
+  // Departures have zoo information for where they left to. TODO
+  // Wild animals, don't do context things for
   if (info.wild != undefined) {
     var wild = document.createElement('p');
     wild.innerText = L.flags[info.wild["flag"]] + " " + info.wild[language + ".name"];
@@ -2591,7 +2668,7 @@ Show.results.zooAnimals = function(zoo, language) {
   var animals_to_divs = function(animals) {
     var output_divs = [];
     animals.forEach(function(animal) {
-      output_divs.push(Show.results.panda(animal, L.display, undefined));
+      output_divs.push(Show.results.panda(animal, L.display));
     });
     return output_divs;
   }
@@ -2607,15 +2684,16 @@ Show.results.zooAnimals = function(zoo, language) {
   var departures = Pandas.searchPandaZooDeparted(id, 9);
   // Which animals were resident at this zoo?
   var residents = Pandas.searchPandaZooCurrent(id);
-  residents = Pandas.removeElements(residents, arrivals);
-  residents = Pandas.removeElements(residents, born);
+  // Remove duplicate items based on panda "_id" fields
+  residents = Pandas.removeElementsWithMatchingField(residents, arrivals, "_id");
+  residents = Pandas.removeElementsWithMatchingField(residents, born, "_id");
   residents = Pandas.sortOldestToYoungest(residents);
   // Deaths and departures are together
   var leaving = Pandas.sortByDate(departures.concat(deaths), "sort_time", "descending");
   // Births and arrivals are together
   var coming = Pandas.sortByDate(arrivals.concat(born), "sort_time", "descending");
   // If a recently born panda moves zoos, take it off the arrivals list
-  coming = Pandas.removeElements(coming, leaving);
+  coming = Pandas.removeElementsWithMatchingField(coming, leaving, "_id");
   // Define the per-section messages. There are modifications depending on
   // which of the input lists are non-empty
   var headers = {
