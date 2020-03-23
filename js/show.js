@@ -2525,7 +2525,8 @@ Show.results.pandaDetails = function(info) {
     details.appendChild(zoo);
     details.appendChild(location);
   }
-  // Which zoo is the animal at now. Ignore if just arrived/departed
+  // Which zoo is the animal at now. Ignore if just arrived/departed,
+  // or if the born_at zoo is the same as the current zoo
   if ((info.zoo != undefined) && 
       (squelch_home_zoo == false) &&
       (search_context != "arrived" && 
