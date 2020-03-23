@@ -2243,6 +2243,11 @@ Show.profile.where = function(animal, language) {
     (zoo["end_date"] == Pandas.date(animal, "death", L.display))) {
       zoo_icon = L.emoji.died;
     }
+    if ((zoo["start_date"] != Pandas.def.unknown[language]) &&
+    (zoo["start_date"] == Pandas.formatDate(animal["birthday"], language)) &&
+    (zoo_icon != L.emoji.home)) {
+      zoo_icon = L.emoji.born_at;
+    }
     var zoo_info = Pandas.searchZooId(zoo["id"])[0];
     var zoo_entry = document.createElement('ul');
     zoo_entry.className = "zooList";
