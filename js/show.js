@@ -2456,6 +2456,7 @@ Show.results.pandaDetails = function(info) {
   if (info.search_context != undefined) {
     search_context = info.search_context.query;
   }
+  var squelch_home_zoo = false;
   // Start creating content
   var [first_string, second_string] = Show.birthday(info, language);
   var born = document.createElement('p');
@@ -2509,6 +2510,11 @@ Show.results.pandaDetails = function(info) {
     var target_date = Pandas.formatDate(info.search_context.move_date, language);
     var icon = Language.L.emoji.born_at;
     var target_text = target_zoo[language + ".name"];
+    var compare_text = info.zoo[language + ".name"];
+    if (target_text == compare_text) {
+      squelch_home_zoo = true;
+      icon = icon + " " + Language.L.emoji.home;
+    }
     var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
     // Location shows a map icon and a flag icon, and links to
@@ -2521,6 +2527,7 @@ Show.results.pandaDetails = function(info) {
   }
   // Which zoo is the animal at now. Ignore if just arrived/departed
   if ((info.zoo != undefined) && 
+      (squelch_home_zoo == false) &&
       (search_context != "arrived" && 
        search_context != "departed")) {
     var zoo = document.createElement('p');
