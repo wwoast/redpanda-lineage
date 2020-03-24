@@ -933,7 +933,7 @@ Pandas.searchPandaZooBornLived = function(idnum, search_context=false) {
       var current_range = undefined;
       for (let field_name of location_fields(vertex)) {
         var location = Pandas.field(vertex, field_name);
-        var date = location.split(", ")[1];
+        [zoo_id, date] = location.split(", ");
         // Matching zoo values will be positive ids in location fields
         if (zoo_id == compare_id) {
           current_range = [date];
@@ -943,9 +943,14 @@ Pandas.searchPandaZooBornLived = function(idnum, search_context=false) {
           current_range = undefined;
         }
       }
+      // Catch a range going on until today
+      if (current_range != undefined) {
+        date_ranges.push(current_range);
+      }
       vertex["search_context"] = {
         "query": "born_or_lived",
-        "ranges": date_ranges
+        "ranges": date_ranges,
+        "at": idnum
       }
       return vertex;
     });

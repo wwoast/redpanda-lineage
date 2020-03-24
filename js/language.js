@@ -170,6 +170,8 @@ Language.L.emoji = {
           "pray": "🙏",
        "profile": "💟",
        "pumpkin": "🎃",
+ "range_current": "⏳",
+"range_previous": "⌛",
         "random": "🎲",
      "raincloud": "🌧️",
     "recordbook": "📖",
@@ -1347,6 +1349,12 @@ Language.L.messages = {
            " ",
            "<INSERTTAG>",
            "।"]
+  },
+  "today": {
+    "cn": "今天",
+    "en": "today",
+    "jp": "今日",
+    "np": "आज"
   },
   "zoo_details_babies": {
     "cn": [Language.L.emoji.baby,

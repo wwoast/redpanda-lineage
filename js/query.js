@@ -122,7 +122,7 @@ Query.resolver.pair = function(set_node) {
       hits = Pandas.searchPandaZooDied(search_word, 0);
     }
     if (Parse.group.lived_at.indexOf(keyword_node.str) != -1) {
-      hits = Pandas.searchPandaZooBornLived(search_word);
+      hits = Pandas.searchPandaZooBornLived(search_word, true);
     }
     if (Parse.group.zoo.indexOf(keyword_node.str) != -1) {
       hits = Pandas.searchZooName(search_word);

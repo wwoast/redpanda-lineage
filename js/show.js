@@ -2532,9 +2532,54 @@ Show.results.pandaDetails = function(info) {
     details.appendChild(zoo);
     details.appendChild(location);
   }
+  // Ranges that an animal lived somewhere
+  if (info.zoo != undefined && search_context == "born_or_lived" ) {
+    var zoo = document.createElement('p');
+    var target_zoo = Pandas.searchZooId(info.search_context.at)[0];
+    var target_date = Pandas.formatDate(info.search_context.move_date, language);
+    var icon = Language.L.emoji.zoo;
+    var target_text = target_zoo[language + ".name"];
+    var compare_text = info.zoo[language + ".name"];
+    if (target_text == compare_text) {
+      squelch_home_zoo = true;
+      icon = Language.L.emoji.home;
+    }
+    var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
+    zoo.appendChild(zoo_link);
+    // Location shows a map icon and a flag icon, and links to
+    // a Google Maps search for the "<language>.address" field
+    var location = document.createElement('p');
+    var location_link = Show.locationLink(target_zoo, language);
+    location.appendChild(location_link);
+    details.appendChild(zoo);
+    details.appendChild(location);
+    // Next, show the date ranges this is valid for
+    for (let range of info.search_context.ranges) {
+        var entry = document.createElement('p');
+      var icon = Language.L.emoji.range_previous;
+      if (range.length < 2 && info.death == Pandas.def.unknown[language]) {
+        icon = Language.L.emoji.range_current;
+      }
+      var start_range = Pandas.formatDate(range.shift(), language);
+      var end_range = range.shift();
+      if (end_range == undefined && info.death != Pandas.def.unknown[language]) {
+        end_range = info.death;
+      } else if (end_range == undefined) {
+        end_range = Language.L.messages["today"][language];
+      } else {
+        end_range = Pandas.formatDate(end_range, language);
+      }
+      entry.innerText = icon + " " + start_range + " \u2014 " + end_range;
+      details.appendChild(entry);
+    }
+    // Don't show the home zoo if the animal is dead
+    if (info.death != Pandas.def.unknown[language]) {
+      squelch_home_zoo = true;
+    }
+  }
   // Which zoo is the animal at now. Ignore if just arrived/departed,
   // or if the born_at zoo is the same as the current zoo
-  if ((info.zoo != undefined) && (squelch_home_zoo == false)) {
+  if (info.zoo != undefined && squelch_home_zoo == false) {
     var zoo = document.createElement('p');
     var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
     zoo.appendChild(zoo_link);
