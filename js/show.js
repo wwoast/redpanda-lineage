@@ -2558,18 +2558,18 @@ Show.results.pandaDetails = function(info) {
         var entry = document.createElement('p');
       var icon = Language.L.emoji.range_previous;
       if (range.length < 2 && info.death == Pandas.def.unknown[language]) {
-        icon = Language.L.emoji.range_current;
+        icon = Language.L.emoji.truck;   // When they arrived, haven't left
       }
       var start_range = Pandas.formatDate(range.shift(), language);
       var end_range = range.shift();
       if (end_range == undefined && info.death != Pandas.def.unknown[language]) {
-        end_range = info.death;
+        end_range = " \u2014 " + info.death;
       } else if (end_range == undefined) {
-        end_range = Language.L.messages["today"][language];
+        end_range = "";
       } else {
-        end_range = Pandas.formatDate(end_range, language);
+        end_range = " \u2014 " + Pandas.formatDate(end_range, language);
       }
-      entry.innerText = icon + " " + start_range + " \u2014 " + end_range;
+      entry.innerText = icon + " " + start_range + end_range;
       details.appendChild(entry);
     }
     // Don't show the home zoo if the animal is dead
