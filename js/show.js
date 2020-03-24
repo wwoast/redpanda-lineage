@@ -2490,6 +2490,7 @@ Show.results.pandaDetails = function(info) {
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
+    squelch_home_zoo = true;
   }
   // Departures are for which zoo an animal just left for
   if (info.zoo != undefined && search_context == "departed") {
@@ -2508,6 +2509,7 @@ Show.results.pandaDetails = function(info) {
     location.appendChild(location_link);
     details.appendChild(zoo);
     details.appendChild(location);
+    squelch_home_zoo = true;
   }
   if (info.zoo != undefined && search_context == "born_at") {
     var zoo = document.createElement('p');
@@ -2532,10 +2534,7 @@ Show.results.pandaDetails = function(info) {
   }
   // Which zoo is the animal at now. Ignore if just arrived/departed,
   // or if the born_at zoo is the same as the current zoo
-  if ((info.zoo != undefined) && 
-      (squelch_home_zoo == false) &&
-      (search_context != "arrived" && 
-       search_context != "departed")) {
+  if ((info.zoo != undefined) && (squelch_home_zoo == false)) {
     var zoo = document.createElement('p');
     var zoo_link = Show.zooLink(info.zoo, info.zoo[language + ".name"], language, L.emoji.home);
     zoo.appendChild(zoo_link);

@@ -902,7 +902,7 @@ Pandas.searchPandaZooBorn = function(idnum, months=6) {
 }
 
 // Find all pandas that were either born at, or lived at a given zoo
-Pandas.searchPandaZooBornLived = function(idnum) {
+Pandas.searchPandaZooBornLived = function(idnum, search_context=false) {
   if (idnum > 0) {
     idnum = idnum * -1;
   }
@@ -925,6 +925,31 @@ Pandas.searchPandaZooBornLived = function(idnum) {
   var nodes = lives.concat(born).concat(was_here).filter(function(value, index, self) { 
     return self.indexOf(value) === index;  // Am I the first value in the array?
   });
+  if (search_context == true) {
+    // Inject valid date ranges for this animal at the given zoo
+    nodes = nodes.filter(function(vertex) {
+      var location_fields = Pandas.locationGeneratorEntity;
+      var date_ranges = [];
+      var current_range = undefined;
+      for (let field_name of location_fields(vertex)) {
+        var location = Pandas.field(vertex, field_name);
+        var date = location.split(", ")[1];
+        // Matching zoo values will be positive ids in location fields
+        if (zoo_id == compare_id) {
+          current_range = [date];
+        } else if (current_range != undefined) {
+          current_range.push(date);
+          date_ranges.push(current_range);
+          current_range = undefined;
+        }
+      }
+      vertex["search_context"] = {
+        "query": "born_or_lived",
+        "ranges": date_ranges
+      }
+      return vertex;
+    });
+  }
   return Pandas.sortOldestToYoungest(nodes);
 }
 
