@@ -20,7 +20,7 @@ photo.1.link: https://www.instagram.com/_rifa_p/
 photo.2: https://www.instagram.com/p/BgI2vu2FYiu/media/?size=m
 photo.2.author: miis_98
 photo.2.link: https://www.instagram.com/miis_98/
-photo.2.tags: profile
+photo.2.tags: portrait, profile
 photo.3: https://www.instagram.com/p/BmLPPPtFIZ1/media/?size=m
 photo.3.author: rdpnzoo
 photo.3.link: https://www.instagram.com/rdpnzoo/
@@ -33,5 +33,9 @@ photo.5: https://www.instagram.com/p/B86CRHOh2o-/media/?size=m
 photo.5.author: grskus_tk
 photo.5.link: https://www.instagram.com/grskus_tk/
 photo.5.tags: portrait
+photo.6: https://www.instagram.com/p/B-CodlIhVz2/media/?size=m
+photo.6.author: mini_cochi
+photo.6.link: https://www.instagram.com/mini_cochi/
+photo.6.tags: air tasting, paws, portrait, tongue
 species: 2
 zoo: 69
