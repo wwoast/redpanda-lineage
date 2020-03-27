@@ -2518,9 +2518,12 @@ Show.results.pandaDetails = function(info) {
     var icon = Language.L.emoji.born_at;
     var target_text = target_zoo[language + ".name"];
     var compare_text = info.zoo[language + ".name"];
-    if (target_text == compare_text) {
+    if (target_text == compare_text && info.death == Pandas.def.unknown[language]) {
       squelch_home_zoo = true;
       icon = icon + " " + Language.L.emoji.home;
+    }
+    if (info.death != Pandas.def.unknown[language]) {
+      squelch_home_zoo = true;
     }
     var zoo_link = Show.zooLink(target_zoo, target_text, language, icon);
     zoo.appendChild(zoo_link);
