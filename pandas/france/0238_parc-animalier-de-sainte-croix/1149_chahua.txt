@@ -1,0 +1,32 @@
+[panda]
+_id: 1149
+birthday: 2014/6/13
+birthplace: 239
+children: unknown
+cn.name: 茶花
+cn.nicknames: none
+cn.othernames: none
+en.name: Chahua
+en.nicknames: none
+en.othernames: Cha-Hua, Cha-Hua
+fr.name: Chahua
+fr.nicknames: none
+fr.othernames: Cha Hua, Cha-Hua
+gender: f
+jp.name: 茶花
+jp.nicknames: none
+jp.othernames: チャファ
+language.order: fr, cn, en, jp
+litter: 1148
+location.1: 239, 2014/6/13
+location.2: 238, 2015/3/6
+photo.1: https://www.instagram.com/p/B-KwGUjHKWq/media/?size=m
+photo.1.author: nathalie.elliott
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: peek, portrait, profile
+photo.2: https://www.instagram.com/p/B9eTDS1HbTV/media/?size=m
+photo.2.author: nathalie.elliott
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: bamboo, paws, portrait, tongue
+species: 2
+zoo: 238
