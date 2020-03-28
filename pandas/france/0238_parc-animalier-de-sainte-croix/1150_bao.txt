@@ -1,0 +1,26 @@
+[panda]
+_id: 1150
+birthday: 2014/6/13
+birthplace: unknown
+children: unknown
+cn.name: 宝
+cn.nicknames: none
+cn.othernames: none
+en.name: Bao
+en.nicknames: none
+en.othernames: none
+fr.name: Bao
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: バオ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/B8J8DOMiw0o/media/?size=m
+photo.1.author: parcsaintecroix
+photo.1.link: https://www.instagram.com/parcsaintecroix/
+photo.1.tags: bridge, portrait, profile
+species: 1
+zoo: 238
