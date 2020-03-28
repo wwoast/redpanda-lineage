@@ -493,7 +493,7 @@ Language.L.gui = {
     "np": "निगल्य पोन्या समुदाय"
   },
   "refresh": {
-    "cn": "重装",
+    "cn": "刷新",
     "en": "Refresh",
     "jp": "リロード",
     "np": "ताजा गर्नु"
@@ -1890,7 +1890,7 @@ Language.L.tags = {
         "np": ["बाँस को टुप्पो"]
   },
   "siblings": {
-        "cn": ["同胞兄弟"],
+        "cn": ["同胞"],
      "emoji": [Language.L.emoji.siblings],
         "en": ["siblings"],
         "jp": ["兄弟", "きょうだい"],
