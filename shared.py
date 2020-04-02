@@ -10,6 +10,9 @@ ZOO_PATH = "./zoos"
 # Go back no more than this amount of time to get commits
 COMMIT_AGE = 7 * 24 * 60 * 60   # 7 days
 
+class AuthorError(ValueError):
+    pass
+
 class DateConsistencyError(ValueError):
     pass
 

@@ -147,6 +147,12 @@ class RedPandaGraph:
             raise IdError("ERROR: duplicate ids for en.names: %s" 
                           % str(dupe_names)) 
 
+    def check_imported_author(self, author, field_name, sourcepath):
+        """Validate that a link isn't in the author field by accident."""
+        if ("http://" in author or "https://" in author):
+            raise AuthorError("ERROR: %s: %s should not be a URL: %s"
+                              % (sourcepath, field_name, author))
+
     def check_imported_date(self, date, date_type, sourcepath):
         """
         Dates should all be in the form of YYYY/MM/DD.
@@ -413,6 +419,7 @@ class RedPandaGraph:
                   len(field[0].split(".")) == 2):
                 # Process a small set of photo credits for all the pandas
                 author = infile.get("panda", field[0] + ".author")
+                self.check_imported_author(author, field[0], path)
                 if author in self.photo["credit"].keys():
                     self.photo["credit"][author] = self.photo["credit"][author] + 1
                 else:
