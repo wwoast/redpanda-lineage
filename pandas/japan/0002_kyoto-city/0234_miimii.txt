@@ -18,7 +18,7 @@ phoot.14.link: https://www.instagram.com/sasapan34/
 photo.1: https://www.instagram.com/p/BkeLA4GlKgU/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: laying down, paws, upside-down
+photo.1.tags: laying down, paws, portrait, upside-down
 photo.2: https://www.instagram.com/p/Bl5T8ZYlGtP/media/?size=m
 photo.2.author: ho0oipo
 photo.2.link: https://www.instagram.com/ho0oipo/
@@ -26,19 +26,19 @@ photo.2.tags: bridge, laying down, tongue
 photo.3: https://www.instagram.com/p/BoKtPB-lZEr/media/?size=m
 photo.3.author: miis_98
 photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: bridge, profile
+photo.3.tags: bridge, laying down, portrait
 photo.4: https://www.instagram.com/p/BrY02-ilSXh/media/?size=m
 photo.4.author: mifko55
 photo.4.link: https://www.instagram.com/mifko55/
-photo.4.tags: home, standing
+photo.4.tags: home, portrait, standing
 photo.5: https://www.instagram.com/p/BbyxUv-F56-/media/?size=m
 photo.5.author: hanamaru_redpanda
 photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: baby
+photo.5.tags: baby, portrait
 photo.6: https://www.instagram.com/p/BuPoj52lq-6/media/?size=m
 photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
-photo.6.tags: snow, techitechi
+photo.6.tags: portrait, snow, techitechi
 photo.7: https://www.instagram.com/p/BpJmsbbF1uu/media/?size=m
 photo.7.author: nishicotolo
 photo.7.link: https://www.instagram.com/nishicotolo/
@@ -46,7 +46,7 @@ photo.7.tags: paws
 photo.8: https://www.instagram.com/p/BtZmvrqF-K3/media/?size=m
 photo.8.author: asahiyamazoo1
 photo.8.link: https://www.instagram.com/asahiyamazoo1/
-photo.8.tags: long-tongue, tongue
+photo.8.tags: long-tongue, portrait, tongue
 photo.9: https://www.instagram.com/p/By3_TF1Bzye/media/?size=m
 photo.9.author: tama67photo
 photo.9.link: https://www.instagram.com/tama67photo/
@@ -118,5 +118,17 @@ photo.26: https://www.instagram.com/p/B-TYGcQBMX1/media/?size=m
 photo.26.author: redpanda_nippon_takashi
 photo.26.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.26.tags: flowers, paws, tree
+photo.27: https://www.instagram.com/p/B-UJq30B_7n/media/?size=m
+photo.27.author: kinkinkin0826
+photo.27.link: https://www.instagram.com/kinkinkin0826/
+photo.27.tags: flowers, portrait, tree
+photo.28: https://www.instagram.com/p/B-UcfjzBgzx/media/?size=m
+photo.28.author: lespan33
+photo.28.link: https://www.instagram.com/lespan33/
+photo.28.tags: apple time, dish
+photo.29: https://www.instagram.com/p/B-Zdu_fhum5/media/?size=m
+photo.29.author: akiakiakiko18
+photo.29.link: https://www.instagram.com/akiakiakiko18/
+photo.29.tags: portrait, profile, smile
 species: 2
 zoo: 2

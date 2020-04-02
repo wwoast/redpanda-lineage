@@ -14,156 +14,186 @@ language.order: en, jp
 litter: none
 location.1: 48, 2015/7/4
 location.2: 47, 2016/4/27
-photo.1: https://www.instagram.com/p/BkGUMUOFgmd/media/?size=m
-photo.1.author: wumpwoast
-photo.1.link: https://www.instagram.com/wumpwoast/
-photo.1.tags: air tasting, paws, tongue
-photo.2: https://www.instagram.com/p/BfosEc0gvOj/media/?size=m
-photo.2.author: wumpwoast
-photo.2.link: https://www.instagram.com/wumpwoast/
-photo.2.tags: in love
-photo.3: https://www.instagram.com/p/BUMkwRPBTyu/media/?size=m
+photo.1: https://www.instagram.com/p/BLefdtwhQu_/media/?size=m
+photo.1.author: hhpzoo
+photo.1.link: https://www.instagram.com/hhpzoo/
+photo.1.tags: peek, whiskers
+photo.2: https://www.instagram.com/p/BMrmltmBo33/media/?size=m
+photo.2.author: hhpzoo
+photo.2.link: https://www.instagram.com/hhpzoo/
+photo.2.tags: bamboo, laying down, peek
+photo.3: https://www.instagram.com/p/BSv36ishZA7/media/?size=m
 photo.3.author: zookeeper_aj
 photo.3.link: https://www.instagram.com/zookeeper_aj/
-photo.4: https://www.instagram.com/p/BbajfpxlOXV/media/?size=m
-photo.4.author: wumpwoast
-photo.4.link: https://www.instagram.com/wumpwoast/
-photo.5: https://www.instagram.com/p/BhQPEj2ACCT/media/?size=m
-photo.5.author: wumpwoast
-photo.5.link: https://www.instagram.com/wumpwoast/
-photo.5.tags: bamboo, laying down
-photo.6: https://www.instagram.com/p/Bm7LHiFnxAo/media/?size=m
-photo.6.author: zookeeper_aj
-photo.6.link: https://www.instagram.com/zookeeper_aj/
-photo.6.tags: dish, lunch time
-photo.7: https://www.instagram.com/p/BoJsm2lhiRE/media/?size=m
-photo.7.author: zookeeper_aj
-photo.7.link: https://www.instagram.com/zookeeper_aj/
-photo.7.tags: profile, tongue
-photo.8: https://www.instagram.com/p/BsN-WbqF55X/media/?size=m
-photo.8.author: wumpwoast
-photo.8.link: https://www.instagram.com/wumpwoast/
-photo.8.tags: bamboo
-photo.9: https://www.instagram.com/p/Bs7EJSLl6LK/media/?size=m
-photo.9.author: wumpwoast
-photo.9.link: https://www.instagram.com/wumpwoast/
-photo.9.tags: smile, tail
-photo.10: https://www.instagram.com/p/BuRET9-Fjsf/media/?size=m
+photo.3.tags: bridge, tail, white face
+photo.4: https://www.instagram.com/p/BUMkwRPBTyu/media/?size=m
+photo.4.author: zookeeper_aj
+photo.4.link: https://www.instagram.com/zookeeper_aj/
+photo.5: https://www.instagram.com/p/BZHbEajn-7N/media/?size=m
+photo.5.author: zookeeper_aj
+photo.5.link: https://www.instagram.com/zookeeper_aj/
+photo.6: https://www.instagram.com/p/BbajfpxlOXV/media/?size=m
+photo.6.author: wumpwoast
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.7: https://www.instagram.com/p/BfosEc0gvOj/media/?size=m
+photo.7.author: wumpwoast
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: in love, portrait, tail
+photo.8: https://www.instagram.com/p/BgZtoFgAb9T/media/?size=m
+photo.8.author: hhpzoo
+photo.8.link: https://www.instagram.com/hhpzoo/
+photo.9: https://www.instagram.com/p/BgaQnKznB0L/media/?size=m
+photo.9.author: zookeeper_aj
+photo.9.link: https://www.instagram.com/zookeeper_aj/
+photo.9.tags: techitechi, whiskers
+photo.10: https://www.instagram.com/p/BhQPEj2ACCT/media/?size=m
 photo.10.author: wumpwoast
 photo.10.link: https://www.instagram.com/wumpwoast/
-photo.10.tags: peek
-photo.11: https://www.instagram.com/p/BvI1utdFKYQ/media/?size=m
+photo.10.tags: bamboo, laying down
+photo.11: https://www.instagram.com/p/BkGUMUOFgmd/media/?size=m
 photo.11.author: wumpwoast
 photo.11.link: https://www.instagram.com/wumpwoast/
-photo.11.tags: bamboo
-photo.12: https://www.instagram.com/p/Bv930ztFznn/media/?size=m
+photo.11.tags: air tasting, paws, tongue
+photo.12: https://www.instagram.com/p/BmWTuL7F3nk/media/?size=m
 photo.12.author: wumpwoast
 photo.12.link: https://www.instagram.com/wumpwoast/
-photo.12.tags: paws, pooping, smile
-photo.13: https://www.instagram.com/p/BrGv8uQjOnf/media/?size=m
-photo.13.author: hhpzoo
-photo.13.link: https://www.instagram.com/hhpzoo/
-photo.13.tags: smile, white face
-photo.14: https://www.instagram.com/p/BxfY2jOleUn/media/?size=m
-photo.14.author: wumpwoast
-photo.14.link: https://www.instagram.com/wumpwoast/
-photo.14.tags: bamboo, dish, paws, standing
-photo.15: https://www.instagram.com/p/ByE332lBhDh/media/?size=m
-photo.15.author: wumpwoast
-photo.15.link: https://www.instagram.com/wumpwoast/
-photo.15.tags: bamboo
-photo.16: https://www.instagram.com/p/ByOQIZ-hKq_/media/?size=m
+photo.12.tags: lunch time, paws, portrait
+photo.13: https://www.instagram.com/p/Bm7LHiFnxAo/media/?size=m
+photo.13.author: zookeeper_aj
+photo.13.link: https://www.instagram.com/zookeeper_aj/
+photo.13.tags: dish, lunch time
+photo.14: https://www.instagram.com/p/BoJsm2lhiRE/media/?size=m
+photo.14.author: zookeeper_aj
+photo.14.link: https://www.instagram.com/zookeeper_aj/
+photo.14.tags: profile, tongue
+photo.15: https://www.instagram.com/p/BrGv8uQjOnf/media/?size=m
+photo.15.author: hhpzoo
+photo.15.link: https://www.instagram.com/hhpzoo/
+photo.15.tags: smile, white face
+photo.16: https://www.instagram.com/p/BsN-WbqF55X/media/?size=m
 photo.16.author: wumpwoast
 photo.16.link: https://www.instagram.com/wumpwoast/
-photo.16.tags: bamboo, tongue
-photo.17: https://www.instagram.com/p/ByQA5lKh1EO/media/?size=m
+photo.16.tags: bamboo
+photo.17: https://www.instagram.com/p/Bs7EJSLl6LK/media/?size=m
 photo.17.author: wumpwoast
 photo.17.link: https://www.instagram.com/wumpwoast/
-photo.18: https://www.instagram.com/p/ByiC8qlBISj/media/?size=m
+photo.17.tags: smile, tail
+photo.18: https://www.instagram.com/p/BuRET9-Fjsf/media/?size=m
 photo.18.author: wumpwoast
 photo.18.link: https://www.instagram.com/wumpwoast/
-photo.18.tags: door, lunch time
-photo.19: https://www.instagram.com/p/B0D_RwJh2YV/media/?size=m
+photo.18.tags: peek
+photo.19: https://www.instagram.com/p/BvI1utdFKYQ/media/?size=m
 photo.19.author: wumpwoast
 photo.19.link: https://www.instagram.com/wumpwoast/
-photo.19.tags: peek, portrait
-photo.20: https://www.instagram.com/p/B1C_U6RBwNK/media/?size=m
+photo.19.tags: bamboo
+photo.20: https://www.instagram.com/p/Bv930ztFznn/media/?size=m
 photo.20.author: wumpwoast
 photo.20.link: https://www.instagram.com/wumpwoast/
-photo.20.tags: bamboo, bite, wink
-photo.21: https://www.instagram.com/p/B2SbO09B865/media/?size=m
+photo.20.tags: paws, pooping, smile
+photo.21: https://www.instagram.com/p/BwV-LmaFkdA/media/?size=m
 photo.21.author: wumpwoast
 photo.21.link: https://www.instagram.com/wumpwoast/
-photo.21.tags: door, laying down, peek, portrait
-photo.22: https://www.instagram.com/p/B2hEkakBBfn/media/?size=m
+photo.21.tags: portrait, tail
+photo.22: https://www.instagram.com/p/BxfY2jOleUn/media/?size=m
 photo.22.author: wumpwoast
 photo.22.link: https://www.instagram.com/wumpwoast/
-photo.22.tags: portrait
-photo.23: https://www.instagram.com/p/B2axxuwgng8/media/?size=m
-photo.23.author: zookeeper_aj
-photo.23.link: https://www.instagram.com/zookeeper_aj/
-photo.23.tags: laying down, peek
-photo.24: https://www.instagram.com/p/B2riytHgOPb/media/?size=m
-photo.24.author: zookeeper_aj
-photo.24.link: https://www.instagram.com/zookeeper_aj/
-photo.24.tags: lunch time, paws
-photo.25: https://www.instagram.com/p/B3iui9Ihff8/media/?size=m
+photo.22.tags: bamboo, dish, paws, standing
+photo.23: https://www.instagram.com/p/ByE332lBhDh/media/?size=m
+photo.23.author: wumpwoast
+photo.23.link: https://www.instagram.com/wumpwoast/
+photo.23.tags: bamboo
+photo.24: https://www.instagram.com/p/ByOQIZ-hKq_/media/?size=m
+photo.24.author: wumpwoast
+photo.24.link: https://www.instagram.com/wumpwoast/
+photo.24.tags: bamboo, tongue
+photo.25: https://www.instagram.com/p/ByQA5lKh1EO/media/?size=m
 photo.25.author: wumpwoast
 photo.25.link: https://www.instagram.com/wumpwoast/
-photo.25.tags: portrait, smile, tail
-photo.26: https://www.instagram.com/p/B3ojCeRhUP7/media/?size=m
+photo.26: https://www.instagram.com/p/ByiC8qlBISj/media/?size=m
 photo.26.author: wumpwoast
 photo.26.link: https://www.instagram.com/wumpwoast/
-photo.26.tags: bamboo, bridge
-photo.27: https://www.instagram.com/p/B4SMkKgDQr-/media/?size=m
-photo.27.author: hhpzoo
-photo.27.link: https://www.instagram.com/hhpzoo/
-photo.27.tags: pumpkin, smile, tongue
-photo.28: https://www.instagram.com/p/B4TxWDXhUJl/media/?size=m
+photo.26.tags: door, lunch time
+photo.27: https://www.instagram.com/p/B0D_RwJh2YV/media/?size=m
+photo.27.author: wumpwoast
+photo.27.link: https://www.instagram.com/wumpwoast/
+photo.27.tags: peek, portrait
+photo.28: https://www.instagram.com/p/B1C_U6RBwNK/media/?size=m
 photo.28.author: wumpwoast
 photo.28.link: https://www.instagram.com/wumpwoast/
-photo.28.tags: portrait, whiskers
-photo.29: https://www.instagram.com/p/B4t1CCQh6Ms/media/?size=m
+photo.28.tags: bamboo, bite, wink
+photo.29: https://www.instagram.com/p/B2SbO09B865/media/?size=m
 photo.29.author: wumpwoast
 photo.29.link: https://www.instagram.com/wumpwoast/
-photo.29.tags: portrait, techitechi
-photo.30: https://www.instagram.com/p/B4x29vAAnys/media/?size=m
+photo.29.tags: door, laying down, peek, portrait
+photo.30: https://www.instagram.com/p/B2axxuwgng8/media/?size=m
 photo.30.author: zookeeper_aj
 photo.30.link: https://www.instagram.com/zookeeper_aj/
-photo.30.tags: smile
-photo.31: https://www.instagram.com/p/B46cmx6BeVZ/media/?size=m
+photo.30.tags: laying down, peek
+photo.31: https://www.instagram.com/p/B2hEkakBBfn/media/?size=m
 photo.31.author: wumpwoast
 photo.31.link: https://www.instagram.com/wumpwoast/
-photo.31.tags: laying down, portrait, tail
-photo.32: https://www.instagram.com/p/B5bMmNfgxRi/media/?size=m
+photo.31.tags: portrait
+photo.32: https://www.instagram.com/p/B2riytHgOPb/media/?size=m
 photo.32.author: zookeeper_aj
 photo.32.link: https://www.instagram.com/zookeeper_aj/
-photo.33: https://www.instagram.com/p/B5nj9UghzU_/media/?size=m
+photo.32.tags: lunch time, paws
+photo.33: https://www.instagram.com/p/B3iui9Ihff8/media/?size=m
 photo.33.author: wumpwoast
 photo.33.link: https://www.instagram.com/wumpwoast/
-photo.33.tags: peek, portrait
-photo.34: https://www.instagram.com/p/B5yPioSAzao/media/?size=m
-photo.34.author: zookeeper_aj
-photo.34.link: bamboo, bite, paws
-photo.35: https://www.instagram.com/p/B7WLogxBejV/media/?size=m
-photo.35.author: wumpwoast
-photo.35.link: https://www.instagram.com/wumpwoast/
-photo.35.tags: bamboo, bite, portrait, whiskers, white face
-photo.36: https://www.instagram.com/p/B8J0A1uBt_c/media/?size=m
+photo.33.tags: portrait, smile, tail
+photo.34: https://www.instagram.com/p/B3ojCeRhUP7/media/?size=m
+photo.34.author: wumpwoast
+photo.34.link: https://www.instagram.com/wumpwoast/
+photo.34.tags: bamboo, bridge
+photo.35: https://www.instagram.com/p/B4SMkKgDQr-/media/?size=m
+photo.35.author: hhpzoo
+photo.35.link: https://www.instagram.com/hhpzoo/
+photo.35.tags: pumpkin, smile, tongue
+photo.36: https://www.instagram.com/p/B4TxWDXhUJl/media/?size=m
 photo.36.author: wumpwoast
 photo.36.link: https://www.instagram.com/wumpwoast/
-photo.36.tags: bamboo, portrait, tongue
-photo.37: https://www.instagram.com/p/B8VLMFtgZai/media/?size=m
-photo.37.author: zookeeper_aj
-photo.37.link: https://www.instagram.com/zookeeper_aj/
-photo.37.tags: bamboo
-photo.38: https://www.instagram.com/p/B92Qch5hx1f/media/?size=m
-photo.38.author: wumpwoast
-photo.38.link: https://www.instagram.com/wumpwoast/
-photo.38.tags: portrait, whiskers
-photo.39: https://www.instagram.com/p/B94X-XLnRC6/media/?size=m
+photo.36.tags: portrait, whiskers
+photo.37: https://www.instagram.com/p/B4t1CCQh6Ms/media/?size=m
+photo.37.author: wumpwoast
+photo.37.link: https://www.instagram.com/wumpwoast/
+photo.37.tags: portrait, techitechi
+photo.38: https://www.instagram.com/p/B4x29vAAnys/media/?size=m
+photo.38.author: zookeeper_aj
+photo.38.link: https://www.instagram.com/zookeeper_aj/
+photo.38.tags: smile
+photo.39: https://www.instagram.com/p/B46cmx6BeVZ/media/?size=m
 photo.39.author: wumpwoast
 photo.39.link: https://www.instagram.com/wumpwoast/
-photo.39.tags: blink, portrait
+photo.39.tags: laying down, portrait, tail
+photo.40: https://www.instagram.com/p/B5bMmNfgxRi/media/?size=m
+photo.40.author: zookeeper_aj
+photo.40.link: https://www.instagram.com/zookeeper_aj/
+photo.41: https://www.instagram.com/p/B5nj9UghzU_/media/?size=m
+photo.41.author: wumpwoast
+photo.41.link: https://www.instagram.com/wumpwoast/
+photo.41.tags: peek, portrait
+photo.42: https://www.instagram.com/p/B5yPioSAzao/media/?size=m
+photo.42.author: zookeeper_aj
+photo.42.link: bamboo, bite, paws
+photo.43: https://www.instagram.com/p/B7WLogxBejV/media/?size=m
+photo.43.author: wumpwoast
+photo.43.link: https://www.instagram.com/wumpwoast/
+photo.43.tags: bamboo, bite, portrait, whiskers, white face
+photo.44: https://www.instagram.com/p/B8J0A1uBt_c/media/?size=m
+photo.44.author: wumpwoast
+photo.44.link: https://www.instagram.com/wumpwoast/
+photo.44.tags: bamboo, portrait, tongue
+photo.45: https://www.instagram.com/p/B8VLMFtgZai/media/?size=m
+photo.45.author: zookeeper_aj
+photo.45.link: https://www.instagram.com/zookeeper_aj/
+photo.45.tags: bamboo
+photo.46: https://www.instagram.com/p/B92Qch5hx1f/media/?size=m
+photo.46.author: wumpwoast
+photo.46.link: https://www.instagram.com/wumpwoast/
+photo.46.tags: portrait, whiskers
+photo.47: https://www.instagram.com/p/B94X-XLnRC6/media/?size=m
+photo.47.author: wumpwoast
+photo.47.link: https://www.instagram.com/wumpwoast/
+photo.47.tags: blink, portrait
 species: 1
 zoo: 47
