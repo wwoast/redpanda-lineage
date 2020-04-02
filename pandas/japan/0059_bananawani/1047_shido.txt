@@ -2,13 +2,13 @@
 _id: 1047
 birthday: 2008/6/20
 birthplace: 59
-children: unknown
+children: 274
 death: 2015/6/25
-en.name: Shido
+en.name: Sid
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ツドウ
+jp.name: シド
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
