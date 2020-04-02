@@ -14,111 +14,115 @@ language.order: jp, en
 litter: 294
 location.1: 64, 2016/6/22
 location.2: 41, 2018/10/18
-photo.1: https://www.instagram.com/p/BdzioUGlBoD/media/?size=m
-photo.1.author: hanamaru_redpanda
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: portrait
-photo.2: https://www.instagram.com/p/Bdugr1FlaIr/media/?size=m
+photo.1: https://www.instagram.com/p/BUxqC47h7Vk/media/?size=m
+photo.1.author: miis_98
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: paws, whiskers
+photo.2: https://www.instagram.com/p/BdzioUGlBoD/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: baby, portrait
-photo.3: https://www.instagram.com/p/BpJxiEnFRl8/media/?size=m
-photo.3.author: craig_craig_craig
-photo.3.link: https://www.instagram.com/craig_craig_craig/
-photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/Bp2-k5jFHSE/media/?size=m
-photo.4.author: yossi929
-photo.4.link: https://www.instagram.com/yossi929/
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/Bdugr1FlaIr/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: baby, portrait
+photo.4: https://www.instagram.com/p/BpJxiEnFRl8/media/?size=m
+photo.4.author: craig_craig_craig
+photo.4.link: https://www.instagram.com/craig_craig_craig/
 photo.4.tags: portrait
-photo.5: https://www.instagram.com/p/BrppD7ilwEO/media/?size=m
+photo.5: https://www.instagram.com/p/Bp2-k5jFHSE/media/?size=m
 photo.5.author: yossi929
 photo.5.link: https://www.instagram.com/yossi929/
-photo.5.tags: portrait, profile
-photo.6: https://www.instagram.com/p/Br2XxLiFRYm/media/?size=m
+photo.5.tags: portrait
+photo.6: https://www.instagram.com/p/BrppD7ilwEO/media/?size=m
 photo.6.author: yossi929
 photo.6.link: https://www.instagram.com/yossi929/
-photo.6.tags: apple time, nose, portrait
-photo.7: https://www.instagram.com/p/Br6POBMFMZU/media/?size=m
-photo.7.author: re_ichimaru
-photo.7.link: https://www.instagram.com/re_ichimaru/
-photo.8: https://www.instagram.com/p/BsdMnArlMTi/media/?size=m
-photo.8.author: yossi929
-photo.8.link: https://www.instagram.com/yossi929/
-photo.8.tags: portrait, tongue
-photo.9: https://www.instagram.com/p/Bs5HNzTlUob/media/?size=m
-photo.9.author: re_ichimaru
-photo.9.link: https://www.instagram.com/re_ichimaru/
-photo.9.tags: bridge
-photo.10: https://www.instagram.com/p/BtMhs6PFrQY/media/?size=m
+photo.6.tags: portrait, profile
+photo.7: https://www.instagram.com/p/Br2XxLiFRYm/media/?size=m
+photo.7.author: yossi929
+photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: apple time, nose, portrait
+photo.8: https://www.instagram.com/p/Br6POBMFMZU/media/?size=m
+photo.8.author: re_ichimaru
+photo.8.link: https://www.instagram.com/re_ichimaru/
+photo.9: https://www.instagram.com/p/BsdMnArlMTi/media/?size=m
+photo.9.author: yossi929
+photo.9.link: https://www.instagram.com/yossi929/
+photo.9.tags: portrait, tongue
+photo.10: https://www.instagram.com/p/Bs5HNzTlUob/media/?size=m
 photo.10.author: re_ichimaru
 photo.10.link: https://www.instagram.com/re_ichimaru/
-photo.10.tags: portrait
-photo.11: https://www.instagram.com/p/BuSCeD1Hupe/media/?size=m
-photo.11.author: mochan8686
-photo.11.link: https://www.instagram.com/mochan8686/
+photo.10.tags: bridge
+photo.11: https://www.instagram.com/p/BtMhs6PFrQY/media/?size=m
+photo.11.author: re_ichimaru
+photo.11.link: https://www.instagram.com/re_ichimaru/
 photo.11.tags: portrait
-photo.12: https://www.instagram.com/p/BxeEsJAF4wa/media/?size=m
-photo.12.author: re_ichimaru
-photo.12.link: https://www.instagram.com/re_ichimaru/
-photo.12.tags: sleeping, smile
-photo.13: https://www.instagram.com/p/Bx2Mv3HFkzD/media/?size=m
+photo.12: https://www.instagram.com/p/BuSCeD1Hupe/media/?size=m
+photo.12.author: mochan8686
+photo.12.link: https://www.instagram.com/mochan8686/
+photo.12.tags: portrait
+photo.13: https://www.instagram.com/p/BxeEsJAF4wa/media/?size=m
 photo.13.author: re_ichimaru
 photo.13.link: https://www.instagram.com/re_ichimaru/
-photo.13.tags: smile
-photo.14: https://www.instagram.com/p/Bx_FbmshTz2/media/?size=m
-photo.14.author: yossi929
-photo.14.link: https://www.instagram.com/yossi929/
-photo.14.tags: bamboo, portrait
-photo.15: https://www.instagram.com/p/By_lqnTlp19/media/?size=m
-photo.15.author: yakkooo24
-photo.15.link: https://www.instagram.com/yakkooo24/
-photo.15.tags: climb
-photo.16: https://www.instagram.com/p/BzA3UGiBCNA/media/?size=m
-photo.16.author: yossi929
-photo.16.link: https://www.instagram.com/yossi929/
-photo.17: https://www.instagram.com/p/BzDSAPCha35/media/?size=m
-photo.17.author: kinkinkin0826
-photo.17.link: https://www.instagram.com/kinkinkin0826/
-photo.17.tags: portrait
-photo.18: https://www.instagram.com/p/By_VZ7dhV1O/media/?size=m
-photo.18.author: re_ichimaru
-photo.18.link: https://www.instagram.com/re_ichimaru/
-photo.18.tags: smile
-photo.19: https://www.instagram.com/p/B1zo68PBE4O/media/?size=m
-photo.19.author: yossi929
-photo.19.link: https://www.instagram.com/yossi929/
-photo.19.tags: apple time, portrait
-photo.20: https://www.instagram.com/p/B2iJZEiB9Qd/media/?size=m
+photo.13.tags: sleeping, smile
+photo.14: https://www.instagram.com/p/Bx2Mv3HFkzD/media/?size=m
+photo.14.author: re_ichimaru
+photo.14.link: https://www.instagram.com/re_ichimaru/
+photo.14.tags: smile
+photo.15: https://www.instagram.com/p/Bx_FbmshTz2/media/?size=m
+photo.15.author: yossi929
+photo.15.link: https://www.instagram.com/yossi929/
+photo.15.tags: bamboo, portrait
+photo.16: https://www.instagram.com/p/By_lqnTlp19/media/?size=m
+photo.16.author: yakkooo24
+photo.16.link: https://www.instagram.com/yakkooo24/
+photo.16.tags: climb
+photo.17: https://www.instagram.com/p/BzA3UGiBCNA/media/?size=m
+photo.17.author: yossi929
+photo.17.link: https://www.instagram.com/yossi929/
+photo.18: https://www.instagram.com/p/BzDSAPCha35/media/?size=m
+photo.18.author: kinkinkin0826
+photo.18.link: https://www.instagram.com/kinkinkin0826/
+photo.18.tags: portrait
+photo.19: https://www.instagram.com/p/By_VZ7dhV1O/media/?size=m
+photo.19.author: re_ichimaru
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: smile
+photo.20: https://www.instagram.com/p/B1zo68PBE4O/media/?size=m
 photo.20.author: yossi929
 photo.20.link: https://www.instagram.com/yossi929/
-photo.20.tags: laying down, portrait
-photo.21: https://www.instagram.com/p/B2jKwUwg_V4/media/?size=m
-photo.21.author: miis_98
-photo.21.link: https://www.instagram.com/miis_98/
-photo.21.tags: door, paws, portrait
-photo.22: https://www.instagram.com/p/B2y3dPbB1Cy/media/?size=m
-photo.22.author: panda.daisuki
-photo.22.link: https://www.instagram.com/panda.daisuki/
-photo.22.tags: portrait
-photo.23: https://www.instagram.com/p/B2zD2VphL5x/media/?size=m
-photo.23.author: ifumoto88
-photo.23.link: https://www.instagram.com/ifumoto88/
-photo.23.tags: apple time, keeper, long-tongue, portrait, tongue
-photo.24: https://www.instagram.com/p/B3RTw5Ghq21/media/?size=m
-photo.24.author: panda.daisuki
-photo.24.link: https://www.instagram.com/panda.daisuki/
-photo.24.tags: portrait, smile, tail, tongue, toys, white face
-photo.25: https://www.instagram.com/p/B3q-mupB6mD/media/?size=m
-photo.25.author: re_ichimaru
-photo.25.link: https://www.instagram.com/re_ichimaru/
-photo.25.tags: laying down, portrait, sleeping
-photo.26: https://www.instagram.com/p/B7Tbtn8hJBq/media/?size=m
-photo.26.author: yossi929
-photo.26.link: https://www.instagram.com/yossi929/
-photo.26.tags: portrait, window
-photo.27: https://www.instagram.com/p/B8VxUfZhpAv/media/?size=m
-photo.27.author: mofu_pan
-photo.27.link: https://www.instagram.com/mofu_pan/
-photo.27.tags: portrait
+photo.20.tags: apple time, portrait
+photo.21: https://www.instagram.com/p/B2iJZEiB9Qd/media/?size=m
+photo.21.author: yossi929
+photo.21.link: https://www.instagram.com/yossi929/
+photo.21.tags: laying down, portrait
+photo.22: https://www.instagram.com/p/B2jKwUwg_V4/media/?size=m
+photo.22.author: miis_98
+photo.22.link: https://www.instagram.com/miis_98/
+photo.22.tags: door, paws, portrait
+photo.23: https://www.instagram.com/p/B2y3dPbB1Cy/media/?size=m
+photo.23.author: panda.daisuki
+photo.23.link: https://www.instagram.com/panda.daisuki/
+photo.23.tags: portrait
+photo.24: https://www.instagram.com/p/B2zD2VphL5x/media/?size=m
+photo.24.author: ifumoto88
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: apple time, keeper, long-tongue, portrait, tongue
+photo.25: https://www.instagram.com/p/B3RTw5Ghq21/media/?size=m
+photo.25.author: panda.daisuki
+photo.25.link: https://www.instagram.com/panda.daisuki/
+photo.25.tags: portrait, smile, tail, tongue, toys, white face
+photo.26: https://www.instagram.com/p/B3q-mupB6mD/media/?size=m
+photo.26.author: re_ichimaru
+photo.26.link: https://www.instagram.com/re_ichimaru/
+photo.26.tags: laying down, portrait, sleeping
+photo.27: https://www.instagram.com/p/B7Tbtn8hJBq/media/?size=m
+photo.27.author: yossi929
+photo.27.link: https://www.instagram.com/yossi929/
+photo.27.tags: portrait, window
+photo.28: https://www.instagram.com/p/B8VxUfZhpAv/media/?size=m
+photo.28.author: mofu_pan
+photo.28.link: https://www.instagram.com/mofu_pan/
+photo.28.tags: portrait
 species: 2
 zoo: 41
