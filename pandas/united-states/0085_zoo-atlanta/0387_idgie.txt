@@ -3,6 +3,7 @@ _id: 387
 birthday: 2006/6/7
 birthplace: 65
 children: none
+death: 2020/4/2
 en.name: Idgie
 en.nicknames: none
 en.othernames: none
@@ -57,5 +58,9 @@ photo.11: https://www.instagram.com/p/B9zd73qlv7I/media/?size=m
 photo.11.author: zooatl
 photo.11.link: https://www.instagram.com/zooatl/
 photo.11.tags: peek, smile
+photo.12: https://www.instagram.com/p/B-hmFyWFSIl/media/?size=m
+photo.12.author: zooatl
+photo.12.link: https://www.instagram.com/zooatl/
+photo.12.tags: laying down, portrait, home
 species: 2
 zoo: 85
