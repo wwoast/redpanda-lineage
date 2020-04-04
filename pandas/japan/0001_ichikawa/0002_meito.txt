@@ -15,7 +15,7 @@ litter: 6, 7
 photo.1: https://instagram.com/p/Be6xaVdFG78/media/?size=m
 photo.1.author: takashi_8310iyo
 photo.1.link: https://www.instagram.com/takashi_8310iyo/
-photo.1.tags: profile, smile
+photo.1.tags: smile
 photo.2: https://instagram.com/p/BgLYfBVlp_b/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
@@ -188,5 +188,9 @@ photo.46: https://www.instagram.com/p/B-DiP5IpwFb/media/?size=m
 photo.46.author: sunnylettuce_2020
 photo.46.link: https://www.instagram.com/sunnylettuce_2020/
 photo.46.tags: paws, peek, tail
+photo.47: https://www.instagram.com/p/BVJnetRBjGL/media/?size=m
+photo.47.author: miis_98
+photo.47.link: https://www.instagram.com/miis_98/
+photo.47.tags: paws, portrait, profile
 species: 2
 zoo: 1
