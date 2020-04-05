@@ -10,6 +10,10 @@ ZOO_PATH = "./zoos"
 # Go back no more than this amount of time to get commits
 COMMIT_AGE = 7 * 24 * 60 * 60   # 7 days
 
+# IG alphabet for hashes, time ordering oldest to newest
+HASH_ORDER = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
+
+# Exceptions
 class AuthorError(ValueError):
     pass
 

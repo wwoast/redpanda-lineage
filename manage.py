@@ -11,7 +11,8 @@ import re
 import sys
 
 from collections import OrderedDict
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
+from operator import item
+from shared import HASH_ORDER, MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     """
@@ -259,6 +260,20 @@ def get_max_entity_count():
         print("%s file not built yet with build.py -- please generate.")
         sys.exit()    
 
+def hash_compare(input):
+    """
+    Calculate a number based on the character index value of each value in 
+    a hash string. This is used to sort IG hashes by oldest-uploaded to 
+    most-recently-uploaded.
+    """
+    output = 0
+    power = 1
+    for char in input:
+        value = (HASH_ORDER.index(char) + 1) * power
+        power = power * 10
+        output = output + value
+    return output
+
 def remove_author_from_lineage(author):
     """
     Occasionally users will remove or rename their photo files online.
@@ -340,7 +355,7 @@ def sort_ig_hashes(path):
         photo_index = photo_index + 1
     # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple)
-    ig_photos = sorted(ig_photos, key=lambda x: x[0])
+    ig_photos = sorted(ig_photos, key=lambda x: hash_compare(x[0]))
     # Now, re-distribute the photos, iterating down the ig
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
