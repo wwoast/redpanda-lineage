@@ -257,7 +257,7 @@ def get_max_entity_count():
             return json.loads(jfh.read())["_photo"]["entity_max"]
     else:
         print("%s file not built yet with build.py -- please generate.")
-        sys.exit()
+        sys.exit()    
 
 def remove_author_from_lineage(author):
     """
@@ -299,14 +299,82 @@ def remove_photo_from_file(path, photo_id):
         photo_list.renumber_photos(max)
         photo_list.update_file()
 
+def sort_instagram_hashes(path):
+    """
+    Take a zoo/panda file, and sort all photos by their Instagram hashes. 
+    This makes the photos appear in the order they were uploaded to IG,
+    oldest to newest. 
+    If a photo does not use an Instagram URI, keep its index unchanged.
+    TODO: someday maybe make this work for media photos
+    """
+    section = None
+    for section_name in ["wild", "zoos", "pandas"]:
+        if section_name in path.split("/"):
+            section = section_name.split("s")[0]   # HACK
+    photo_list = PhotoFile(section, path)
+    max = int(get_max_entity_count())
+    non_instagram_indices = []
+    instagram_photos = []
+    # Build photo indices of IG photos and non-IG photos
+    start_index = 1
+    stop_point = max
+    photo_index = start_index
+    while photo_index <= stop_point:
+        photo_option = "photo." + str(photo_index)
+        photo = photo_list.get_field(photo_option)
+        if photo == None:
+            # No more photos
+            break
+        else if "https://www.instagram.com" in photo:
+            # Track the photo and index as a tuple
+            instagram_photos.append([photo, photo_index])
+            # Rename all photo fields as "old_photo_field"
+            photo_list.move_field("old." + photo_option, photo_option)
+            photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
+            photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
+            photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
+        else:
+            # Track the non-instagram index, so we can avoid it
+            # Don't need to rename these photos
+            non_instagram_indexes.append(photo_index)
+        photo_index = photo_index + 1
+    # Sort the list of instagram photo tuples by photo URL 
+    # (the 0th item in each tuple)
+    instagram_photos = sorted(instagram_photos, key=lambda x: x[0])
+    # Now, re-distribute the photos, iterating down the instagram
+    # photos, moving "old_photo_field" to "photo_field" but with
+    # updated indices
+    list_index = start_index
+    while photo_index <= stop_point:
+        if (list_index == instgram_photos.length):
+            # No more photos
+            break
+        [photo, old_index] = instagram_photos[list_index - 1]
+        photo_index = list_index
+        while photo_index in non_instagram_indices:
+            photo_index = photo_index + 1   # Avoid indices for non-IG photos
+        current_option = "photo." + photo_index
+        old_option = "old.photo." + old_index
+        photo_list.move_field(current_option, old_option)
+        photo_list.move_field(current_option + ".author", old_option + ".author")
+        photo_list.move_field(current_option + ".link", old_option + ".link")
+        photo_list.move_field(current_option + ".tags", old_option + ".tags")
+        list_index = list_index + 1
+    # We're done. Update the photo file
+    photo_list.update_file()
+
 if __name__ == '__main__':
     """Choose a utility funciton."""
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
             remove_author_from_lineage(author)
+        if sys.argv[1] == "--sort-instagram-hashes":
+            file_path = sys.argv[2]
+            sort_instagram_hashes(file_path)
     if len(sys.argv) == 4:
         if sys.argv[1] == "--remove-photo":
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
+
