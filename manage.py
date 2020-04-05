@@ -342,8 +342,11 @@ def sort_ig_hashes(path):
         photo_index = photo_index + 1
     # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple)
-    ig_photos = sorted(ig_photos, key=lambda x: len(x))
-    ig_photos = sorted(ig_photos, key=lambda x: [hash_order.index(char) for char in x])
+    ig_photos = sorted(ig_photos, key=lambda x: len(x[0]))
+    ig_photos = sorted(
+        ig_photos, 
+        key=lambda x: 
+            [hash_order.index(char) for char in x[0].split("/")[4]])
     # Now, re-distribute the photos, iterating down the ig
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
