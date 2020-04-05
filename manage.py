@@ -11,7 +11,6 @@ import re
 import sys
 
 from collections import OrderedDict
-from operator import item
 from shared import HASH_ORDER, MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
@@ -260,18 +259,26 @@ def get_max_entity_count():
         print("%s file not built yet with build.py -- please generate.")
         sys.exit()    
 
-def hash_compare(input):
+def hash_compare(input_url):
     """
     Calculate a number based on the character index value of each value in 
     a hash string. This is used to sort IG hashes by oldest-uploaded to 
     most-recently-uploaded.
     """
+    # IG alphabet for hashes, time ordering oldest to newest
+    hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
     output = 0
-    power = 1
-    for char in input:
-        value = (HASH_ORDER.index(char) + 1) * power
-        power = power * 10
+    # https://www.instagram.com/p/<HASH-STRING>/media/?size=m
+    input_hash = input_url.split("/")[4]
+    input_hash = input_hash[len(input_hash)::-1]   # Reverse the string
+    digit_offset = 1
+    exp = 1
+    for char in input_hash:
+        value = hash_order.index(char) * digit_offset
         output = output + value
+        digit_offset = (10 ** exp)
+        exp = exp + 1
+    print("%s: %s" % (input_hash, output))
     return output
 
 def remove_author_from_lineage(author):
