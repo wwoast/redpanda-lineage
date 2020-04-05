@@ -341,7 +341,8 @@ def sort_ig_hashes(path):
             non_ig_indexes.append(photo_index)
         photo_index = photo_index + 1
     # Sort the list of ig photo tuples by photo URL 
-    # (the 0th item in each tuple)
+    # (the 0th item in each tuple is the url)
+    # (the 4th item in each URL is the ig photo hash)
     ig_photos = sorted(ig_photos, key=lambda x: len(x[0]))
     ig_photos = sorted(
         ig_photos, 
