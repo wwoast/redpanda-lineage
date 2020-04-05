@@ -265,7 +265,7 @@ def remove_author_from_lineage(author):
     For cases where the original files cannot be recovered, it may be
     simpler to remove photos by an author and add them back later.
 
-    Given a author (typically an Instagram username), remove their photos
+    Given a author (typically an IG username), remove their photos
     from every panda or zoo data entry.
     """
     for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
@@ -299,12 +299,12 @@ def remove_photo_from_file(path, photo_id):
         photo_list.renumber_photos(max)
         photo_list.update_file()
 
-def sort_instagram_hashes(path):
+def sort_ig_hashes(path):
     """
-    Take a zoo/panda file, and sort all photos by their Instagram hashes. 
+    Take a zoo/panda file, and sort all photos by their IG hashes. 
     This makes the photos appear in the order they were uploaded to IG,
     oldest to newest. 
-    If a photo does not use an Instagram URI, keep its index unchanged.
+    If a photo does not use an IG URI, keep its index unchanged.
     TODO: someday maybe make this work for media photos
     """
     section = None
@@ -313,8 +313,8 @@ def sort_instagram_hashes(path):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
     max = int(get_max_entity_count())
-    non_instagram_indices = []
-    instagram_photos = []
+    non_ig_indices = []
+    ig_photos = []
     # Build photo indices of IG photos and non-IG photos
     start_index = 1
     stop_point = max
@@ -325,36 +325,36 @@ def sort_instagram_hashes(path):
         if photo == None:
             # No more photos
             break
-        else if "https://www.instagram.com" in photo:
+        elif "https://www.instagram.com" in photo:
             # Track the photo and index as a tuple
-            instagram_photos.append([photo, photo_index])
+            ig_photos.append([photo, photo_index])
             # Rename all photo fields as "old_photo_field"
             photo_list.move_field("old." + photo_option, photo_option)
             photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
             photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
             photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
         else:
-            # Track the non-instagram index, so we can avoid it
+            # Track the non-ig index, so we can avoid it
             # Don't need to rename these photos
-            non_instagram_indexes.append(photo_index)
+            non_ig_indexes.append(photo_index)
         photo_index = photo_index + 1
-    # Sort the list of instagram photo tuples by photo URL 
+    # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple)
-    instagram_photos = sorted(instagram_photos, key=lambda x: x[0])
-    # Now, re-distribute the photos, iterating down the instagram
+    ig_photos = sorted(ig_photos, key=lambda x: x[0])
+    # Now, re-distribute the photos, iterating down the ig
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
     list_index = start_index
     while photo_index <= stop_point:
-        if (list_index == instgram_photos.length):
+        if (list_index - 1 == len(ig_photos)):
             # No more photos
             break
-        [photo, old_index] = instagram_photos[list_index - 1]
+        [photo, old_index] = ig_photos[list_index - 1]
         photo_index = list_index
-        while photo_index in non_instagram_indices:
+        while photo_index in non_ig_indices:
             photo_index = photo_index + 1   # Avoid indices for non-IG photos
-        current_option = "photo." + photo_index
-        old_option = "old.photo." + old_index
+        current_option = "photo." + str(photo_index)
+        old_option = "old.photo." + str(old_index)
         photo_list.move_field(current_option, old_option)
         photo_list.move_field(current_option + ".author", old_option + ".author")
         photo_list.move_field(current_option + ".link", old_option + ".link")
@@ -371,7 +371,7 @@ if __name__ == '__main__':
             remove_author_from_lineage(author)
         if sys.argv[1] == "--sort-instagram-hashes":
             file_path = sys.argv[2]
-            sort_instagram_hashes(file_path)
+            sort_ig_hashes(file_path)
     if len(sys.argv) == 4:
         if sys.argv[1] == "--remove-photo":
             file_path = sys.argv[2]
