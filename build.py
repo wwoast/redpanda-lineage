@@ -760,16 +760,15 @@ class UpdateFromCommits:
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            self._process_raw_line(filename, line.value, added=True, counting=False)
+                            self._process_raw_line(filename, line.value, added=False, counting=False)
+                        elif line.is_removed:
+                            self._process_raw_line(filename, line.value, added=False, counting=False)
         self.updates["panda_count"] = len(self.seen["panda"].keys())
         self.updates["zoo_count"] = len(self.seen["zoo"].keys())
         # Take locator_to_photo results, and de-duplicate based on whether
         # the photo existed in multiple diffs/files or not.
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
-            print(locator + " ===> ")
-            # print("    " + self.locator_to_photo[locator].photo_uri + " ==> ")
-            print("    " + str(self.locator_to_photo[locator].changes))
             if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
                 # Not in the counted new photo list, so remove it
                 self.locator_to_photo.pop(locator)
@@ -861,14 +860,17 @@ class UpdateFromCommits:
             self.locator_to_photo[locator] = actual
         # Track whether this was a removal or an addition.
         actual.register_change(raw, added)
+        # If this is a new entity, add it to our counts
+        if (self.seen[actual.entity_type].get(actual.entity_id) != True and
+            counting == True):
+            if actual.entity_type == "panda":
+                self.updates["pandas"].append(locator)
+            if actual.entity_type == "zoo":
+                self.updates["zoos"].append(locator)
+            if actual.entity_type == "media":
+                self.updates["entities"].append(locator)
         if added == True:
             self.seen[actual.entity_type][actual.entity_id] = True
-        # If this is a new entity, add it to our counts
-        if (counting == True):
-            if actual.entity_type == "panda":
-                self.updates["pandas"].append(entity)
-            if actual.entity_type == "zoo":
-                self.updates["zoos"].append(entity)
 
     def _starting_commit(self, time_delta):
         """
