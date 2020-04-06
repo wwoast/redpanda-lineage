@@ -638,7 +638,7 @@ class PhotoEntry:
         """
         if self.filename in self.cache:
             self.entity_type = self.cache[self.filename].split(".")[0]
-            self.entity_id = self.cache[self.filename].split(".")[1]
+            self.entity_id = self.cache[self.filename][len(self.entity_type) + 1:]
             self.was_cached = True
         else:
             config = configparser.ConfigParser()
