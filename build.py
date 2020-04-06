@@ -649,7 +649,7 @@ class PhotoEntry:
             if self.filename.find(MEDIA_PATH) != -1:
                 entity = config.get("media", "_id")
                 self.entity_type = entity.split(".")[0]
-                self.entity_id = entity.split(".")[1]
+                self.entity_id = entity[len(self.entity_type) + 1:]
             elif self.filename.find(PANDA_PATH) != -1:
                 self.entity_type = "panda"
                 self.entity_id = config.get("panda", "_id")
