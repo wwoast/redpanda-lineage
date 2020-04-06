@@ -574,9 +574,102 @@ class RedPandaGraph:
         self.check_dataset_duplicate_ids(self.zoos)
 
 
+class PhotoEntry:
+    """
+    Represents all properties of a photo entry in a file.
+    Intended as a better way to track whether photos are new or not.
+    Git diffs are read line by line, and added to photo entities
+    based on their locator ID (<entity_id>.photo.<photo_id>).
+    
+    The UpdateFromCommits class uses hash tables of these by 
+    locator ID to make accurate counts of new photos, new entities, 
+    and new contributors.
+
+    Stores a reference to a filename cache, so we avoid rereading
+    configuration files every time a new locator is validated.
+    """
+    def __init__(self, filename, cache, raw):
+        self.filename = filename
+        self.cache = cache
+        self.author_name = None
+        self.changes = []
+        self.entity_id = None
+        self.entity_type = None
+        self.photo_index = None
+        self.photo_uri = None
+        self.was_cached = False
+        # Read in the entity details from the backing file just once
+        self._read_update_entity_id()
+        # Add the raw line, so we know what the photo locator is
+        self.add_raw_line(raw)
+    
+    def add_raw_line(self, raw):
+        """
+        Read the raw line and return a corresponding entity ID to track
+        in one of the "media|panda|zoo" object tables. We're specifically
+        looking for updates matching the form: "photo.X: url".
+        """
+        key = raw.split(":")[0]
+        value = raw[len(key) + 1:].strip()
+        if key.find("photo.") == 0:
+            splitkey = key.split(".")
+            self._set_only_once("photo_index", splitkey[1])
+            if len(splitkey) == 2:
+                self._set_only_once("photo_uri", value)
+            elif (len(splitkey) == 3 and splitkey[2] == "author"):
+                self._set_only_once("author_name", value)
+
+    def entity_locator(self):
+        return self.entity_type + "." + self.entity_id
+
+    def photo_locator(self):
+        return self.entity_locator() + ".photo." + self.photo_index
+
+    def register_change(self, change):
+        # List of booleans. False == removed, True == added
+        self.changes.append(change)
+
+    def _read_update_entity_id(self):
+        """
+        Open the config file and read its _id value.
+        Store the entity_type and entity_id for each photo.
+        """
+        if self.filename in self.cache:
+            self.entity_type = self.cache[self.filename].split(".")[0]
+            self.entity_id = self.cache[self.filename].split(".")[1]
+            self.was_cached = True
+        else:
+            config = configparser.ConfigParser()
+            if not os.path.exists(self.filename):
+                return None
+            config.read(self.filename, encoding='utf-8')
+            self.filename = "./" + self.filename   # Standardize path
+            if self.filename.find(MEDIA_PATH) != -1:
+                entity = config.get("media", "_id")
+                self.entity_type = entity.split(".")[0]
+                self.entity_id = entity.split(".")[1]
+            elif self.filename.find(PANDA_PATH) != -1:
+                self.entity_type = "panda"
+                self.entity_id = config.get("panda", "_id")
+            elif self.filename.find(ZOO_PATH) != -1:
+                self.entity_type = "zoo"
+                self.entity_id = config.get("zoo", "_id")
+            else:
+                pass
+
+    def _set_only_once(self, object_field, value):
+        """
+        If a non-None value already exists in the object,
+        don't update that field a second time.
+        """
+        existing = getattr(self, object_field)
+        if existing == None:
+            setattr(self, object_field, str(value))
+
+
 class UpdateFromCommits:
     """
-    Take the last two Git commits in the repository, and process any additions
+    Take two Git commits in the repository, and process any additions
     as content that can be inserted into the front page. 
     
     Assumes that build.py is always ran at the root of the repository.
@@ -591,7 +684,14 @@ class UpdateFromCommits:
                                            ignore_blank_lines=True,
                                            ignore_space_at_eol=True)
         self.patch = PatchSet(self.diff_raw)
-        self.filenames = {}
+        self.locator_to_photo = {}
+        self.filename_to_entity = {}
+        self.seen = {}
+        self.seen["media"] = {}
+        self.seen["panda"] = {}
+        self.seen["photos"] = {}
+        self.seen["wild"] = {}
+        self.seen["zoo"] = {}
         self.updates = {}
         self.updates["authors"] = []
         self.updates["author_count"] = 0
@@ -603,53 +703,74 @@ class UpdateFromCommits:
         self.updates["zoo_count"] = 0
         self.create_updates()
 
+    def count_new_photos(self):
+        """
+        Given the locator_to_photo map, find all PhotoEntry photo_uri values
+        that are duplicated across PhotoEntry values. Record just the list
+        of changes on these values.
+        TODO: could hunt for photo duplicates here too.
+        """
+        seen_uris = {}
+        # Get list of changes per photo locator
+        for locator in self.locator_to_photo.keys():
+            uri = self.locator_to_photo[locator].photo_uri
+            changes = self.locator_to_photo[locator].changes
+            if (seen_uris.get(uri) == None):
+                seen_uris[uri] = changes
+            else:
+                seen_uris[uri].extend(changes)
+        
+        for uri in seen_uris.copy().keys():
+            if len(seen_uris[uri]) % 2 == 0:
+                # Filter out where changes have more equal removals (Fs) to additions (Ts)
+                # These images have likely just moved between files
+                seen_uris.pop(uri)
+            elif (len(seen_uris[uri]) == 1 and seen_uris[uri][0] == False):
+                # Filter out where only a removal has happened
+                seen_uris.pop(uri)
+        return seen_uris
+
     def create_updates(self):
         """
         Take the two listed commits, and make arrays of updates we can generate
         the updates section from. Also make unique counts of pandas and zoos added
         """
-        seen = {}
-        seen["pandas"] = {}
-        seen["zoos"] = {}
         # Grab the last JSON file for author data
+        # TODO: need to just get full repo contents on both sides, all photos of each
         for change in self.patch:
             filename = change.path
-            if change.added <= 0:
-                # Don't care about removal diffs
-                continue
-            elif filename.find(".txt") == -1:
+            if filename.find(".txt") == -1:
                 # Don't care about non-data files
                 continue
+            elif change.added <= 0:
+                # We removed a photo or removed a file somewhere
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_removed:
+                            self._process_raw_line(filename, line.value, added=False, counting=False)
             elif change.is_added_file == True:
                 # New [media|panda|zoo]! Track change as representing a new entity
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            raw = line.value
-                            entity = self._read_raw(raw, filename)
-                            if entity != None:
-                                self.updates["entities"].append(entity)
-                                if entity.find("zoo") == 0:
-                                    id = entity.split(".")[1]
-                                    seen["zoos"][id] = True
-                                    self.updates["zoos"].append(entity)
-                                if entity.find("panda") == 0:
-                                    id = entity.split(".")[1]
-                                    seen["pandas"][id] = True
-                                    self.updates["pandas"].append(entity)    
+                            self._process_raw_line(filename, line.value, added=True, counting=True)
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            raw = line.value
-                            photo = self._read_raw(raw, filename)
-                            if photo != None:
-                                self.updates["photos"].append(photo)
-        self.updates["panda_count"] = len(seen["pandas"].keys())
-        self.updates["zoo_count"] = len(seen["zoos"].keys())
-
-
+                            self._process_raw_line(filename, line.value, added=True, counting=False)
+        self.updates["panda_count"] = len(self.seen["panda"].keys())
+        self.updates["zoo_count"] = len(self.seen["zoo"].keys())
+        # Take locator_to_photo results, and de-duplicate based on whether
+        # the photo existed in multiple diffs/files or not.
+        self.seen["photos"] = self.count_new_photos()
+        for locator in self.locator_to_photo.copy().keys():
+            if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
+                # Not in the counted new photo list, so remove it
+                self.locator_to_photo.pop(locator)
+        self.updates["photos"] = list(self.locator_to_photo.keys())
+             
     def new_contributors(self, author_set):
         """
         Look at all added lines in the last diff. Then look at the author
@@ -660,42 +781,33 @@ class UpdateFromCommits:
         """
         author_diffs = {}
         author_entities = {}
-        for change in self.patch:
-            filename = change.path
-            if (filename.find(".txt") == len(filename) - len(".txt") and
-                change.added >= 0):
-                # .txt file with changes
-                for hunk in change:
-                    for line in hunk:
-                        if line.is_added:
-                            raw = line.value
-                            if raw.find("photo.") == 0:
-                                [key, value] = raw.split(":", 1)
-                                if key.find(".author") == len(key) - len(".author"):
-                                    # .author line
-                                    value = value.strip()   # normalize whitespace
-                                    if author_diffs.get(value) == None:
-                                        author_diffs[value] = 0
-                                    author_diffs[value] = author_diffs[value] + 1
-                                    if author_entities.get(value) == None:
-                                        author_entities[value] = []
-                                    # modify the line so it processes
-                                    raw = raw.replace(".author", "", 1)
-                                    entity_id = self._read_raw(raw, filename)
-                                    author_entities[value].append(entity_id)
+        # Look at all locator_to_photos contributions. Filter on those that
+        # just have "added" changes. Then compare against the number in
+        # redpanda.json for how many photos theat
+        for locator in self.locator_to_photo.keys():
+            changes = self.locator_to_photo[locator].changes
+            author = self.locator_to_photo[locator].author_name
+            if (changes == [True]):
+                # Just an addition
+                if (author_diffs.get(author) == None):
+                    author_diffs[author] = 0
+                    author_entities[author] = []
+                author_diffs[author] = author_diffs[author] + 1
+                author_entities[author].append(locator)
         # Remove any author_entities where the diff count in the changelog
         # doesn't match the total count from the source data
-        for author in author_diffs.keys():
+        for author in author_diffs.copy().keys():
             if (author_diffs.get(author) == None or
                 author_set.get(author) == None):
                 # We removed a photo contributor
-                author_diffs[author] = 0
+                author_entities.pop(author)
+                author_diffs.pop(author)
                 continue
             if author_diffs[author] != author_set[author]:
                 # print(author + " diffs: " + str(author_diffs[author]) + 
                 #       " set: " + str(author_set[author]))
                 author_entities.pop(author)
-                author_diffs[author] = 0
+                author_diffs.pop(author)
         # Now the author_entities list is just authors whose entities are
         # their only photos in redpandafinder. Make the authors list from this
         for entity_list in author_entities.values():
@@ -703,49 +815,56 @@ class UpdateFromCommits:
             entity_list = [e for e in entity_list if e != None]
             self.updates["authors"].extend(entity_list)
         # And get the count of unique authors added
-        for author in author_diffs.keys():
+        for author in author_diffs.copy().keys():
             if author_diffs[author] > 0:
                 self.updates["author_count"] = self.updates["author_count"] + 1
 
-    def _read_raw(self, raw, filename):
+    def _process_raw_line(self, filename, raw, added=True, counting=False):
         """
-        Read the raw line and return a corresponding entity ID to track
-        in one of the "media|panda|zoo" object tables. We're specifically
-        looking for updates matching the form: "photo.X: url"
+        Annoying code where we use the PhotoEntry object to create locators
+        for where an entity or a photo might already exist in our lookup
+        caches for entities and photos.
+
+        Add to the entity cache for files we haven't seen before, and add to
+        the photo cache for lines representing a facet of a photo we haven't
+        seen before.
         """
-        key = raw.split(":")[0]
-        if (key.find("photo.") != 0 or len(key.split(".")) != 2):
-            return None
-        photo_id = key.split(".")[1]
-        # Get the filename this raw line was seen in
-        entity_id = self.filenames.get(filename)
-        if entity_id == None:
-            # Cache the entity id associated with a file
-            entity_id = self._read_update_entity_id(filename)
-            if entity_id == None:   # File was moved
-                return None
-            self.filenames[filename] = entity_id
-        return entity_id + ".photo." + photo_id
-        
-    def _read_update_entity_id(self, filename):
-        """
-        Open the config file and read its _id value. For pandas and
-        zoos, help the frontend disambiguate the update type by adding
-        "panda" or "zoo" prefixed to the _id value itself.
-        """
-        config = configparser.ConfigParser()
-        if not os.path.exists(filename):
-            return None
-        config.read(filename, encoding='utf-8')
-        filename = "./" + filename   # Standardize path
-        if filename.find(MEDIA_PATH) != -1:
-            return config.get("media", "_id")
-        elif filename.find(PANDA_PATH) != -1:
-            return "panda." + config.get("panda", "_id")
-        elif filename.find(ZOO_PATH) != -1:
-            return "zoo." + config.get("zoo", "_id")
+        # Raw lines destined for photo objects need at least this
+        if (raw.find("photo.") != 0 or raw.find(":") == -1):
+            return
+        raw = raw.strip()
+        # Create a stub photo entry to validate whether we've
+        # read in an update from this file before
+        stub = PhotoEntry(filename, self.filename_to_entity, raw)
+        actual = None
+        entity = stub.entity_locator()
+        print(entity + " ==> " + raw)
+        locator = stub.photo_locator()
+        if stub.was_cached == True:
+            # We read something from this file before
+            actual = self.locator_to_photo.get(locator)
+            if actual == None:
+                # New photo processed. Promote stub
+                actual = stub
+                self.locator_to_photo[locator] = actual
+            else:
+                # Add the raw line to an existing photo item
+                actual.add_raw_line(raw)
         else:
-            return None
+            # New filename read, and new photo object. Promote stub
+            actual = stub
+            self.filename_to_entity[filename] = entity
+            self.locator_to_photo[locator] = actual
+        # Track whether this was a removal or an addition.
+        actual.register_change(added)
+        if added == True:
+            self.seen[actual.entity_type][actual.entity_id] = True
+        # If this is a new entity, add it to our counts
+        if (counting == True):
+            if actual.entity_type == "panda":
+                self.updates["pandas"].append(entity)
+            if actual.entity_type == "zoo":
+                self.updates["zoos"].append(entity)
 
     def _starting_commit(self, time_delta):
         """
