@@ -721,7 +721,6 @@ class UpdateFromCommits:
                 seen_uris[uri] = changes
             else:
                 seen_uris[uri].extend(changes)
-        
         for uri in seen_uris.copy().keys():
             if len(seen_uris[uri]) % 2 == 0:
                 # Filter out where changes have more equal removals (Fs) to additions (Ts)
@@ -760,11 +759,11 @@ class UpdateFromCommits:
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            self._process_raw_line(filename, line.value, added=False, counting=False)
+                            self._process_raw_line(filename, line.value, added=True, counting=False)
                         elif line.is_removed:
                             self._process_raw_line(filename, line.value, added=False, counting=False)
-        self.updates["panda_count"] = len(self.seen["panda"].keys())
-        self.updates["zoo_count"] = len(self.seen["zoo"].keys())
+        self.updates["panda_count"] = len(self.updates["pandas"])
+        self.updates["zoo_count"] = len(self.updates["zoos"])
         # Take locator_to_photo results, and de-duplicate based on whether
         # the photo existed in multiple diffs/files or not.
         self.seen["photos"] = self.count_new_photos()
