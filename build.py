@@ -768,7 +768,7 @@ class UpdateFromCommits:
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
             print(locator + " ===> ")
-            print("    " + self.locator_to_photo[locator].photo_uri + " ==> ")
+            # print("    " + self.locator_to_photo[locator].photo_uri + " ==> ")
             print("    " + str(self.locator_to_photo[locator].changes))
             if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
                 # Not in the counted new photo list, so remove it
