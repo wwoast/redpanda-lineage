@@ -625,9 +625,11 @@ class PhotoEntry:
     def photo_locator(self):
         return self.entity_locator() + ".photo." + self.photo_index
 
-    def register_change(self, change):
+    def register_change(self, raw, change):
         # List of booleans. False == removed, True == added
-        self.changes.append(change)
+        # Only register for the photo.X linkes
+        if (raw.find("photo." + self.photo_index + ":") == 0):
+            self.changes.append(change)
 
     def _read_update_entity_id(self):
         """
@@ -736,7 +738,6 @@ class UpdateFromCommits:
         the updates section from. Also make unique counts of pandas and zoos added
         """
         # Grab the last JSON file for author data
-        # TODO: need to just get full repo contents on both sides, all photos of each
         for change in self.patch:
             filename = change.path
             if filename.find(".txt") == -1:
@@ -766,6 +767,9 @@ class UpdateFromCommits:
         # the photo existed in multiple diffs/files or not.
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
+            print(locator + " ===> ")
+            print("    " + self.locator_to_photo[locator].photo_uri + " ==> ")
+            print("    " + str(self.locator_to_photo[locator].changes))
             if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
                 # Not in the counted new photo list, so remove it
                 self.locator_to_photo.pop(locator)
@@ -838,7 +842,7 @@ class UpdateFromCommits:
         stub = PhotoEntry(filename, self.filename_to_entity, raw)
         actual = None
         entity = stub.entity_locator()
-        print(entity + " ==> " + raw)
+        # print(entity + " ==> " + raw)
         locator = stub.photo_locator()
         if stub.was_cached == True:
             # We read something from this file before
@@ -856,7 +860,7 @@ class UpdateFromCommits:
             self.filename_to_entity[filename] = entity
             self.locator_to_photo[locator] = actual
         # Track whether this was a removal or an addition.
-        actual.register_change(added)
+        actual.register_change(raw, added)
         if added == True:
             self.seen[actual.entity_type][actual.entity_id] = True
         # If this is a new entity, add it to our counts
