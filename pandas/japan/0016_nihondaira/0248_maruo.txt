@@ -14,15 +14,15 @@ jp.oldnames: ミホ太
 jp.othernames: none
 language.order: jp, en
 litter: 249
-photo.1: https://www.instagram.com/p/Bqa4Go3Fo2U/media/?size=m
-photo.1.author: miis_98
-photo.1.link: https://www.instagram.com/miis_98/
+photo.1: https://www.instagram.com/p/Bo6nw7TF8T6/media/?size=m
+photo.1.author: ifumoto88
+photo.1.link: https://www.instagram.com/ifumoto88/
 photo.1.tags: baby
-photo.2: https://www.instagram.com/p/BqeAsZZlfW_/media/?size=m
-photo.2.author: ayusuke56
-photo.2.link: https://www.instagram.com/ayusuke56/
-photo.2.tags: baby, bamboo
-photo.3: https://www.instagram.com/p/BtANZoWlD_k/media/?size=m
+photo.2: https://www.instagram.com/p/Bqa4Go3Fo2U/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: baby
+photo.3: https://www.instagram.com/p/BqeAsZZlfW_/media/?size=m
 photo.3.author: ayusuke56
 photo.3.link: https://www.instagram.com/ayusuke56/
 photo.3.tags: baby, bamboo
@@ -30,10 +30,10 @@ photo.4: https://www.instagram.com/p/BsjndANldoB/media/?size=m
 photo.4.author: ayusuke56
 photo.4.link: https://www.instagram.com/ayusuke56/
 photo.4.tags: baby
-photo.5: https://www.instagram.com/p/Bo6nw7TF8T6/media/?size=m
-photo.5.author: ifumoto88
-photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: baby
+photo.5: https://www.instagram.com/p/BtANZoWlD_k/media/?size=m
+photo.5.author: ayusuke56
+photo.5.link: https://www.instagram.com/ayusuke56/
+photo.5.tags: baby, bamboo
 photo.6: https://www.instagram.com/p/Btx7OnTlI2Q/media/?size=m
 photo.6.author: craig_craig_craig
 photo.6.link: https://www.instagram.com/craig_craig_craig/
@@ -42,42 +42,42 @@ photo.7: https://www.instagram.com/p/Bw6aX1jlwbF/media/?size=m
 photo.7.author: ayusuke56
 photo.7.link: https://www.instagram.com/ayusuke56/
 photo.7.tags: paws
-photo.8: https://www.instagram.com/p/BxeBIFJFEjd/media/?size=m
-photo.8.author: ayusuke56
-photo.8.link: https://www.instagram.com/ayusuke56/
-photo.8.tags: laying down, paws, upside-down
-photo.9: https://www.instagram.com/p/BxjKfDSlAIY/media/?size=m
-photo.9.author: ayusuke56
-photo.9.link: https://www.instagram.com/ayusuke56/
-photo.9.tags: bamboo
-photo.10: https://www.instagram.com/p/BxwCX71FjdF/media/?size=m
+photo.8: https://www.instagram.com/p/BxLWReCljsH/media/?size=m
+photo.8.author: shirokuma_jump
+photo.8.link: https://www.instagram.com/shirokuma_jump/
+photo.8.tags: peek, tree
+photo.9: https://www.instagram.com/p/BxdXepVlWhf/media/?size=m
+photo.9.author: shirokuma_jump
+photo.9.link: https://www.instagram.com/shirokuma_jump/
+photo.9.tags: tree
+photo.10: https://www.instagram.com/p/BxeBIFJFEjd/media/?size=m
 photo.10.author: ayusuke56
 photo.10.link: https://www.instagram.com/ayusuke56/
-photo.10.tags: bamboo, paws, smile, tail
-photo.11: https://www.instagram.com/p/Bx1L6PTFytH/media/?size=m
+photo.10.tags: laying down, paws, upside-down
+photo.11: https://www.instagram.com/p/BxjKfDSlAIY/media/?size=m
 photo.11.author: ayusuke56
 photo.11.link: https://www.instagram.com/ayusuke56/
-photo.11.tags: bamboo, laying down
-photo.12: https://www.instagram.com/p/BxynbtDlS0g/media/?size=m
+photo.11.tags: bamboo
+photo.12: https://www.instagram.com/p/BxwCX71FjdF/media/?size=m
 photo.12.author: ayusuke56
 photo.12.link: https://www.instagram.com/ayusuke56/
-photo.12.tags: nose, portrait
-photo.13: https://www.instagram.com/p/BxdXepVlWhf/media/?size=m
-photo.13.author: shirokuma_jump
-photo.13.link: https://www.instagram.com/shirokuma_jump/
-photo.13.tags: tree
-photo.14: https://www.instagram.com/p/BxLWReCljsH/media/?size=m
-photo.14.author: shirokuma_jump
-photo.14.link: https://www.instagram.com/shirokuma_jump/
-photo.14.tags: peek, tree
-photo.15: https://www.instagram.com/p/BzctAQlBN-S/media/?size=m
-photo.15.author: otenkihime
-photo.15.link: https://www.instagram.com/otenkihime/
-photo.15.tags: laying down, portrait, tongue
-photo.16: https://www.instagram.com/p/BzC0BI1gwa5/media/?size=m
-photo.16.author: kijyo.zoo
-photo.16.link: https://www.instagram.com/kijyo.zoo/
-photo.16.tags: portrait, tail
+photo.12.tags: bamboo, paws, smile, tail
+photo.13: https://www.instagram.com/p/BxynbtDlS0g/media/?size=m
+photo.13.author: ayusuke56
+photo.13.link: https://www.instagram.com/ayusuke56/
+photo.13.tags: nose, portrait
+photo.14: https://www.instagram.com/p/Bx1L6PTFytH/media/?size=m
+photo.14.author: ayusuke56
+photo.14.link: https://www.instagram.com/ayusuke56/
+photo.14.tags: bamboo, laying down
+photo.15: https://www.instagram.com/p/BzC0BI1gwa5/media/?size=m
+photo.15.author: kijyo.zoo
+photo.15.link: https://www.instagram.com/kijyo.zoo/
+photo.15.tags: portrait, tail
+photo.16: https://www.instagram.com/p/BzctAQlBN-S/media/?size=m
+photo.16.author: otenkihime
+photo.16.link: https://www.instagram.com/otenkihime/
+photo.16.tags: laying down, portrait, tongue
 photo.17: https://www.instagram.com/p/B0FW9q5BT3_/media/?size=m
 photo.17.author: lesserpanda_shizuokacity_cp
 photo.17.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
@@ -112,14 +112,14 @@ photo.25: https://www.instagram.com/p/B5tr9suBhTt/media/?size=m
 photo.25.author: lesserpanda_shizuokacity_cp
 photo.25.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.25.tags: bridge, portrait, tail
-photo.26: https://www.instagram.com/p/B6-pugABZCk/media/?size=m
-photo.26.author: ayusuke56
-photo.26.link: https://www.instagram.com/ayusuke56/
-photo.26.tags: lunch time, paws, portrait, toys
-photo.27: https://www.instagram.com/p/B6uVGqoBPWd/media/?size=m
-photo.27.author: wumpwoast
-photo.27.link: https://www.instagram.com/wumpwoast/
-photo.27.tags: portrait, whiskers
+photo.26: https://www.instagram.com/p/B6uVGqoBPWd/media/?size=m
+photo.26.author: wumpwoast
+photo.26.link: https://www.instagram.com/wumpwoast/
+photo.26.tags: portrait, whiskers
+photo.27: https://www.instagram.com/p/B6-pugABZCk/media/?size=m
+photo.27.author: ayusuke56
+photo.27.link: https://www.instagram.com/ayusuke56/
+photo.27.tags: lunch time, paws, portrait, toys
 photo.28: https://www.instagram.com/p/B7HzHZCBcQO/media/?size=m
 photo.28.author: lesserpanda_shizuokacity_cp
 photo.28.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
@@ -140,5 +140,9 @@ photo.32: https://www.instagram.com/p/B9YLcFnBXuV/media/?size=m
 photo.32.author: lesserpanda_shizuokacity_cp
 photo.32.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.32.tags: peek, tree
+photo.33: https://www.instagram.com/p/B-n_ydABRFd/media/?size=m
+photo.33.author: lesserpanda_shizuokacity_cp
+photo.33.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.33.tags: bamboo, portrait
 species: 2
 zoo: 16

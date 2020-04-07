@@ -16,24 +16,41 @@ location.1: 73, 2006/7/10
 location.2: 36, 2009/3/26
 location.3: 15, 2014/1/30
 location.4: 23, 2017/7/4
-photo.1: https://www.instagram.com/p/BgM3orFFfEa/media/?size=m
-photo.1.author: _rifa_p
-photo.1.link: https://www.instagram.com/_rifa_p/
-photo.1.tags: itchy, portrait
-photo.2: https://www.instagram.com/p/BYLLC5clC5t/media/?size=m
-photo.2.author: hanamaru_redpanda
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3: https://www.instagram.com/p/Br1BTyJF5kq/media/?size=m
-photo.3.author: miis_98
-photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: apple time, dish, keeper, portrait, profile
-photo.4: https://www.instagram.com/p/BsBvI-WF4Y_/media/?size=m
-photo.4.author: kipekaila
-photo.4.link: https://www.instagram.com/kipekaila/
-photo.4.tags: bamboo, portrait
-photo.5: https://www.instagram.com/p/BbCBmorlpVD/media/?size=m
-photo.5.author: hanamaru_redpanda
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: portrait
+photo.1: https://www.instagram.com/p/BYLLC5clC5t/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: portrait
+photo.2: https://www.instagram.com/p/BZ7wuLzBJ4X/media/?size=m
+photo.2.author: miis_98
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: paws, portrait, whiskers
+photo.3: https://www.instagram.com/p/BbCBmorlpVD/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait
+photo.4: https://www.instagram.com/p/BfAxrNkh31v/media/?size=m
+photo.4.author: miis_98
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: apple time, paws, portrait, tongue, whiskers
+photo.5: https://www.instagram.com/p/BfHWHq9hlf7/media/?size=m
+photo.5.author: miis_98
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: paws, portrait, tail
+photo.6: https://www.instagram.com/p/BgM3orFFfEa/media/?size=m
+photo.6.author: _rifa_p
+photo.6.link: https://www.instagram.com/_rifa_p/
+photo.6.tags: itchy, portrait
+photo.7: https://www.instagram.com/p/Br1BTyJF5kq/media/?size=m
+photo.7.author: miis_98
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: apple time, dish, keeper, portrait
+photo.8: https://www.instagram.com/p/BsBvI-WF4Y_/media/?size=m
+photo.8.author: kipekaila
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: bamboo, portrait
+photo.9: https://www.instagram.com/p/B-pQr8ihs1E/media/?size=m
+photo.9.author: miis_98
+photo.9.link: https://www.instagram.com/miis_98/
+photo.9.tags: bamboo, portrait, profile, snow
 species: 2
 zoo: 23
