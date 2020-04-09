@@ -13,60 +13,68 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 20
-photo.1: https://www.instagram.com/p/BkABRvIFRRF/media/?size=m
-photo.1.author: hanamaru_redpanda
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: portrait, smile
-photo.2: https://www.instagram.com/p/BkZXZtXluqi/media/?size=m
+photo.1: https://www.instagram.com/p/BHA4Bdtvi2K/media/?size=m
+photo.1.author: panda.daisuki
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: portrait, tail
+photo.2: https://www.instagram.com/p/BSzaDkVA8fD/media/?size=m
 photo.2.author: fetorus_mami
 photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: bamboo, laying down
-photo.3: https://www.instagram.com/p/BkaVbxXlIwx/media/?size=m
-photo.3.author: rie_panda55
-photo.3.link: https://www.instagram.com/rie_panda55/
-photo.3.tags: tongue
-photo.4: https://www.instagram.com/p/BkZx29UF6H0/media/?size=m
-photo.4.author: craig_craig_craig
-photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: pooping
-photo.5: https://www.instagram.com/p/BkaDgcEFvST/media/?size=m
-photo.5.author: mifko55
-photo.5.link: https://www.instagram.com/mifko55/
-photo.5.tags: laying down
-photo.6: https://www.instagram.com/p/BSzaDkVA8fD/media/?size=m
+photo.2.tags: lips
+photo.3: https://www.instagram.com/p/BbwNNoMhyxG/media/?size=m
+photo.3.author: miis_98
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: portrait
+photo.4: https://www.instagram.com/p/BiMUJwTFaUs/media/?size=m
+photo.4.author: hanamaru_redpanda
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: portrait, profile
+photo.5: https://www.instagram.com/p/BkABRvIFRRF/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: portrait, smile
+photo.6: https://www.instagram.com/p/BkZXZtXluqi/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: lips
-photo.7: https://www.instagram.com/p/BoxPke1FjQH/media/?size=m
-photo.7.author: lespan33
-photo.7.link: https://www.instagram.com/lespan33/
-photo.8: https://www.instagram.com/p/Bo6KZXDFuHD/media/?size=m
-photo.8.author: fetorus_mami
-photo.8.link: https://www.instagram.com/fetorus_mami/
-photo.9: https://www.instagram.com/p/BpCEFVWl5Qf/media/?size=m
-photo.9.author: redpanda_nippon_takashi
-photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.10: https://www.instagram.com/p/BpmW66yFNyK/media/?size=m
-photo.10.author: kaoru_a358
-photo.10.link: https://www.instagram.com/kaoru_a358/
-photo.11: https://www.instagram.com/p/BqYadHCF2k9/media/?size=m
+photo.6.tags: bamboo, laying down
+photo.7: https://www.instagram.com/p/BkZx29UF6H0/media/?size=m
+photo.7.author: craig_craig_craig
+photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.7.tags: pooping
+photo.8: https://www.instagram.com/p/BkaDgcEFvST/media/?size=m
+photo.8.author: mifko55
+photo.8.link: https://www.instagram.com/mifko55/
+photo.8.tags: laying down
+photo.9: https://www.instagram.com/p/BkaVbxXlIwx/media/?size=m
+photo.9.author: rie_panda55
+photo.9.link: https://www.instagram.com/rie_panda55/
+photo.9.tags: tongue
+photo.10: https://www.instagram.com/p/BoxPke1FjQH/media/?size=m
+photo.10.author: lespan33
+photo.10.link: https://www.instagram.com/lespan33/
+photo.11: https://www.instagram.com/p/Bo6KZXDFuHD/media/?size=m
 photo.11.author: fetorus_mami
 photo.11.link: https://www.instagram.com/fetorus_mami/
-photo.11.tags: poop
-photo.12: https://www.instagram.com/p/BqhM2GhFQ5T/media/?size=m
+photo.12: https://www.instagram.com/p/BpCEFVWl5Qf/media/?size=m
 photo.12.author: redpanda_nippon_takashi
 photo.12.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.13: https://www.instagram.com/p/BqhuabBliS8/media/?size=m
-photo.13.author: perie1027vivi
-photo.13.link: https://www.instagram.com/perie1027vivi/
-photo.13.tags: laying down
-photo.14: https://www.instagram.com/p/Bxcks8blDfI/media/?size=m
+photo.13: https://www.instagram.com/p/BpmW66yFNyK/media/?size=m
+photo.13.author: kaoru_a358
+photo.13.link: https://www.instagram.com/kaoru_a358/
+photo.14: https://www.instagram.com/p/BqYadHCF2k9/media/?size=m
 photo.14.author: fetorus_mami
 photo.14.link: https://www.instagram.com/fetorus_mami/
-photo.14.tags: paws
-photo.15: https://www.instagram.com/p/BiMUJwTFaUs/media/?size=m
-photo.15.author: hanamaru_redpanda
-photo.15.link: https://www.instagram.com/hanamaru_redpanda/
-photo.15.tags: portrait, profile
+photo.14.tags: poop
+photo.15: https://www.instagram.com/p/BqhM2GhFQ5T/media/?size=m
+photo.15.author: redpanda_nippon_takashi
+photo.15.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.16: https://www.instagram.com/p/BqhuabBliS8/media/?size=m
+photo.16.author: perie1027vivi
+photo.16.link: https://www.instagram.com/perie1027vivi/
+photo.16.tags: laying down
+photo.17: https://www.instagram.com/p/Bxcks8blDfI/media/?size=m
+photo.17.author: fetorus_mami
+photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: paws
 species: 2
 zoo: 9
