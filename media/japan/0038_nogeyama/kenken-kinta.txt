@@ -1,0 +1,9 @@
+[media]
+_id: media.38.kenken-kinta
+panda.tags: 125, 126
+photo.1: https://www.instagram.com/p/BPoAEL7grhN/media/?size=l
+photo.1.author: tabechum
+photo.1.link: https://www.instagram.com/tabechum/
+photo.1.tags: couple, home
+photo.1.tags.125.location: 800, 180
+photo.1.tags.126.location: 260, 205
