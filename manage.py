@@ -314,7 +314,7 @@ def sort_ig_hashes(path):
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
-    max = int(get_max_entity_count())
+    max = int(get_max_entity_count()) + 1
     non_ig_indices = []
     ig_photos = []
     # Build photo indices of IG photos and non-IG photos
