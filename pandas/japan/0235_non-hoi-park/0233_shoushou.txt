@@ -14,114 +14,198 @@ language.order: jp, en
 litter: 234
 location.1: 37, 2017/7/15
 location.2: 235, 2020/1/30
-photo.1: https://www.instagram.com/p/Bll9kT7lEUE/media/?size=m
-photo.1.author: framereim
-photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: blink, bridge, portrait, profile
-photo.2: https://www.instagram.com/p/BlpnnT4lLoA/media/?size=m
-photo.2.author: hanamaru_redpanda
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: laying down, tail, tree
-photo.3: https://www.instagram.com/p/BoOO0YQhN9t/media/?size=m
-photo.3.author: miis_98
-photo.3.link: https://www.instagram.com/miis_98/
-photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/BpjFR1ll-d8/media/?size=m
-photo.4.author: wumpwoast
-photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: bamboo, tail
-photo.5: https://www.instagram.com/p/BrIBbHeF0-z/media/?size=m
-photo.5.author: fetorus_mami
-photo.5.link: https://www.instagram.com/fetorus_mami/
-photo.5.tags: bamboo
-photo.6: https://www.instagram.com/p/BbyxsBvlak7/media/?size=m
+photo.1: https://www.instagram.com/p/BbyxsBvlak7/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: baby, portrait
+photo.2: https://www.instagram.com/p/BcO79eMhcW7/media/?size=m
+photo.2.author: mifko55
+photo.2.link: https://www.instagram.com/mifko55/
+photo.2.tags: baby, portrait, snow
+photo.3: https://www.instagram.com/p/BdP0-yxllqr/media/?size=m
+photo.3.author: _sealiz
+photo.3.link: https://www.instagram.com/_sealiz/
+photo.3.tags: baby, bamboo, paws, snow
+photo.4: https://www.instagram.com/p/BgVpffclxuG/media/?size=m
+photo.4.author: mifko55
+photo.4.link: https://www.instagram.com/mifko55/
+photo.4.tags: baby, portrait, snow, tail
+photo.5: https://www.instagram.com/p/Bll9kT7lEUE/media/?size=m
+photo.5.author: framereim
+photo.5.link: https://www.instagram.com/framereim/
+photo.5.tags: blink, bridge, portrait, profile
+photo.6: https://www.instagram.com/p/BlpnnT4lLoA/media/?size=m
 photo.6.author: hanamaru_redpanda
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: baby, portrait
-photo.7: https://www.instagram.com/p/BsfGxDwljxY/media/?size=m
-photo.7.author: yoshiyokohama
-photo.7.link: https://www.instagram.com/yoshiyokohama/
-photo.7.tags: nose, snow
-photo.8: https://www.instagram.com/p/BsWPRY_lJVs/media/?size=m
-photo.8.author: yoshiyokohama
-photo.8.link: https://www.instagram.com/yoshiyokohama/
-photo.8.tags: nose, snow, tongue
-photo.9: https://www.instagram.com/p/BdP0-yxllqr/media/?size=m
-photo.9.author: _sealiz
-photo.9.link: https://www.instagram.com/_sealiz/
-photo.9.tags: bamboo, paws, snow
-photo.10: https://www.instagram.com/p/Byb4K_EBMpf/media/?size=m
-photo.10.author: asahiyamazoo1
-photo.10.link: https://www.instagram.com/asahiyamazoo1/
-photo.10.tags: bridge, ear, laying down, portrait
-photo.11: https://www.instagram.com/p/By7BbnvhrJn/media/?size=m
-photo.11.author: tama67photo
-photo.11.link: https://www.instagram.com/tama67photo/
-photo.11.tags: bamboo, ear, portrait, smile
-photo.12: https://www.instagram.com/p/BzXvZ-eBi6W/media/?size=m
-photo.12.author: tama67photo
-photo.12.link: https://www.instagram.com/tama67photo/
-photo.12.tags: laying down, portrait, sleeping
-photo.13: https://www.instagram.com/p/B7vX0hfh4ua/media/?size=m
+photo.6.tags: laying down, tail, tree
+photo.7: https://www.instagram.com/p/BoOO0YQhN9t/media/?size=m
+photo.7.author: miis_98
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: portrait
+photo.8: https://www.instagram.com/p/BpjFR1ll-d8/media/?size=m
+photo.8.author: wumpwoast
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.tags: bamboo, tail
+photo.9: https://www.instagram.com/p/BrIBbHeF0-z/media/?size=m
+photo.9.author: fetorus_mami
+photo.9.link: https://www.instagram.com/fetorus_mami/
+photo.9.tags: bamboo
+photo.10: https://www.instagram.com/p/BsWPRY_lJVs/media/?size=m
+photo.10.author: yoshiyokohama
+photo.10.link: https://www.instagram.com/yoshiyokohama/
+photo.10.tags: nose, snow, tongue
+photo.11: https://www.instagram.com/p/BsfGxDwljxY/media/?size=m
+photo.11.author: yoshiyokohama
+photo.11.link: https://www.instagram.com/yoshiyokohama/
+photo.11.tags: nose, snow
+photo.12: https://www.instagram.com/p/Byb4K_EBMpf/media/?size=m
+photo.12.author: asahiyamazoo1
+photo.12.link: https://www.instagram.com/asahiyamazoo1/
+photo.12.tags: bridge, ear, laying down, portrait
+photo.13: https://www.instagram.com/p/By7BbnvhrJn/media/?size=m
 photo.13.author: tama67photo
 photo.13.link: https://www.instagram.com/tama67photo/
-photo.13.tags: nose, portrait, snow, tongue
-photo.14: https://www.instagram.com/p/B7ny9pwh180/media/?size=m
-photo.14.author: leonard_redmof
-photo.14.link: https://www.instagram.com/leonard_redmof/
-photo.14.tags: baby, portrait, snow, tail
-photo.15: https://www.instagram.com/p/B72LavZBZEF/media/?size=m
-photo.15.author: asahiyamazoo1
-photo.15.link: https://www.instagram.com/asahiyamazoo1/
-photo.15.tags: apple time, snow, tail
-photo.16: https://www.instagram.com/p/B77V4Txh-SX/media/?size=m
-photo.16.author: asahiyamazoo1
-photo.16.link: https://www.instagram.com/asahiyamazoo1/
-photo.16.tags: bamboo, moving, peek
-photo.17: https://www.instagram.com/p/B8TtPs5hm4T/media/?size=m
-photo.17.author: ayusuke56
-photo.17.link: https://www.instagram.com/ayusuke56/
-photo.17.tags: apple time, portrait
-photo.18: https://www.instagram.com/p/B8UWhlHBAlA/media/?size=m
-photo.18.author: kisshan324
-photo.18.link: https://www.instagram.com/kisshan324/
-photo.18.tags: bamboo, laying down, portrait
-photo.19: https://www.instagram.com/p/B8Tz1MbhlWq/media/?size=m
+photo.13.tags: bamboo, ear, portrait, smile
+photo.14: https://www.instagram.com/p/BzXvZ-eBi6W/media/?size=m
+photo.14.author: tama67photo
+photo.14.link: https://www.instagram.com/tama67photo/
+photo.14.tags: laying down, portrait, sleeping
+photo.15: https://www.instagram.com/p/B7ny9pwh180/media/?size=m
+photo.15.author: leonard_redmof
+photo.15.link: https://www.instagram.com/leonard_redmof/
+photo.15.tags: baby, portrait, snow, tail
+photo.16: https://www.instagram.com/p/B7vX0hfh4ua/media/?size=m
+photo.16.author: tama67photo
+photo.16.link: https://www.instagram.com/tama67photo/
+photo.16.tags: nose, portrait, snow, tongue
+photo.17: https://www.instagram.com/p/B72LavZBZEF/media/?size=m
+photo.17.author: asahiyamazoo1
+photo.17.link: https://www.instagram.com/asahiyamazoo1/
+photo.17.tags: apple time, snow, tail
+photo.18: https://www.instagram.com/p/B77V4Txh-SX/media/?size=m
+photo.18.author: asahiyamazoo1
+photo.18.link: https://www.instagram.com/asahiyamazoo1/
+photo.18.tags: bamboo, moving, peek
+photo.19: https://www.instagram.com/p/B8Tm-E0BERY/media/?size=m
 photo.19.author: taka__3428
 photo.19.link: https://www.instagram.com/taka__3428/
-photo.19.tags: bamboo, laying down, portrait
-photo.20: https://www.instagram.com/p/B8Tm-E0BERY/media/?size=m
-photo.20.author: taka__3428
-photo.20.link: https://www.instagram.com/taka__3428/
-photo.20.tags: peek, portrait
-photo.21: https://www.instagram.com/p/B8WMhfFB5oX/media/?size=m
-photo.21.author: ayusuke56
-photo.21.link: https://www.instagram.com/ayusuke56/
-photo.21.tags: laying down, portrait
-photo.22: https://www.instagram.com/p/B8Y1peBhODf/media/?size=m
-photo.22.author: ayusuke56
-photo.22.link: https://www.instagram.com/ayusuke56/
-photo.22.tags: bamboo, bite, portrait, smile
-photo.23: https://www.instagram.com/p/B8bNBIThWmA/media/?size=m
+photo.19.tags: peek, portrait
+photo.20: https://www.instagram.com/p/B8TtPs5hm4T/media/?size=m
+photo.20.author: ayusuke56
+photo.20.link: https://www.instagram.com/ayusuke56/
+photo.20.tags: apple time, portrait
+photo.21: https://www.instagram.com/p/B8Tz1MbhlWq/media/?size=m
+photo.21.author: taka__3428
+photo.21.link: https://www.instagram.com/taka__3428/
+photo.21.tags: bamboo, laying down, portrait
+photo.22: https://www.instagram.com/p/B8UWhlHBAlA/media/?size=m
+photo.22.author: kisshan324
+photo.22.link: https://www.instagram.com/kisshan324/
+photo.22.tags: bamboo, laying down, portrait
+photo.23: https://www.instagram.com/p/B8WMhfFB5oX/media/?size=m
 photo.23.author: ayusuke56
 photo.23.link: https://www.instagram.com/ayusuke56/
-photo.23.tags: bamboo, bite, paws, portrait
-photo.24: https://www.instagram.com/p/B8d34ofheWE/media/?size=m
+photo.23.tags: laying down, portrait
+photo.24: https://www.instagram.com/p/B8Y1peBhODf/media/?size=m
 photo.24.author: ayusuke56
 photo.24.link: https://www.instagram.com/ayusuke56/
-photo.24.tags: bamboo, laying down, portrait
-photo.25: https://www.instagram.com/p/B8fKn6vhis9/media/?size=m
-photo.25.author: sasapan34
-photo.25.link: https://www.instagram.com/sasapan34/
-photo.25.tags: bamboo, paws, smile, tongue
-photo.26: https://www.instagram.com/p/B8gcEUBBEOw/media/?size=m
+photo.24.tags: bamboo, bite, portrait, smile
+photo.25: https://www.instagram.com/p/B8bNBIThWmA/media/?size=m
+photo.25.author: ayusuke56
+photo.25.link: https://www.instagram.com/ayusuke56/
+photo.25.tags: bamboo, bite, paws, portrait
+photo.26: https://www.instagram.com/p/B8d34ofheWE/media/?size=m
 photo.26.author: ayusuke56
 photo.26.link: https://www.instagram.com/ayusuke56/
-photo.26.tags: bamboo, paws
-photo.27: https://www.instagram.com/p/B8jGe_-higt/media/?size=m
-photo.27.author: ayusuke56
-photo.27.link: https://www.instagram.com/ayusuke56/
-photo.27.tags: bamboo, peek, portrait
+photo.26.tags: bamboo, laying down, portrait
+photo.27: https://www.instagram.com/p/B8fKn6vhis9/media/?size=m
+photo.27.author: sasapan34
+photo.27.link: https://www.instagram.com/sasapan34/
+photo.27.tags: bamboo, paws, smile, tongue
+photo.28: https://www.instagram.com/p/B8gcEUBBEOw/media/?size=m
+photo.28.author: ayusuke56
+photo.28.link: https://www.instagram.com/ayusuke56/
+photo.28.tags: bamboo, paws
+photo.29: https://www.instagram.com/p/B8jGe_-higt/media/?size=m
+photo.29.author: ayusuke56
+photo.29.link: https://www.instagram.com/ayusuke56/
+photo.29.tags: bamboo, peek, portrait
+photo.30: https://www.instagram.com/p/B8lnreWBkR5/media/?size=m
+photo.30.author: ayusuke56
+photo.30.link: https://www.instagram.com/ayusuke56/
+photo.30.tags: paws, portrait
+photo.31: https://www.instagram.com/p/B8oPluIh-Gp/media/?size=m
+photo.31.author: ayusuke56
+photo.31.link: https://www.instagram.com/ayusuke56/
+photo.31.tags: paws, portrait
+photo.32: https://www.instagram.com/p/B8qx4H6hP5n/media/?size=m
+photo.32.author: ayusuke56
+photo.32.link: https://www.instagram.com/ayusuke56/
+photo.32.tags: apple time, paws, smile
+photo.33: https://www.instagram.com/p/B8tdFfzBSbR/media/?size=m
+photo.33.author: ayusuke56
+photo.33.link: https://www.instagram.com/ayusuke56/
+photo.33.tags: apple time, paws, portrait
+photo.34: https://www.instagram.com/p/B8v_NQ7h5bU/media/?size=m
+photo.34.author: ayusuke56
+photo.34.link: https://www.instagram.com/ayusuke56/
+photo.34.tags: apple time, paws, portrait, smile
+photo.35: https://www.instagram.com/p/B8yhEBmBmTO/media/?size=m
+photo.35.author: ayusuke56
+photo.35.link: https://www.instagram.com/ayusuke56/
+photo.35.tags: paws, peek, portrait
+photo.36: https://www.instagram.com/p/B81KQ1JBbg_/media/?size=m
+photo.36.author: ayusuke56
+photo.36.link: https://www.instagram.com/ayusuke56/
+photo.36.tags: itchy, paws, portrait, tail
+photo.37: https://www.instagram.com/p/B9GlAiah4m9/media/?size=m
+photo.37.author: sasapan34
+photo.37.link: https://www.instagram.com/sasapan34/
+photo.37.tags: peek
+photo.38: https://www.instagram.com/p/B9bdR4kBBDI/media/?size=m
+photo.38.author: firefoxpanda88
+photo.38.link: https://www.instagram.com/firefoxpanda88/
+photo.38.tags: baby, portrait, snow
+photo.39: https://www.instagram.com/p/B9wZYMkBv_e/media/?size=m
+photo.39.author: ayusuke56
+photo.39.link: https://www.instagram.com/ayusuke56/
+photo.39.tags: bamboo, portrait, tongue
+photo.40: https://www.instagram.com/p/B9y9-BWBJxZ/media/?size=m
+photo.40.author: ayusuke56
+photo.40.link: https://www.instagram.com/ayusuke56/
+photo.40.tags: paws, portrait, tail, tongue
+photo.41: https://www.instagram.com/p/B91V__shkE5/media/?size=m
+photo.41.author: taka__3428
+photo.41.link: https://www.instagram.com/taka__3428/
+photo.41.tags: laying down, paws, portrait
+photo.42: https://www.instagram.com/p/B91etOqhGxr/media/?size=m
+photo.42.author: ayusuke56
+photo.42.link: https://www.instagram.com/ayusuke56/
+photo.42.tags: bamboo, portrait, tongue
+photo.43: https://www.instagram.com/p/B94Ek9cBP17/media/?size=m
+photo.43.author: ayusuke56
+photo.43.link: https://www.instagram.com/ayusuke56/
+photo.43.tags: bamboo, portrait, smile
+photo.44: https://www.instagram.com/p/B96sCEBB1Eh/media/?size=m
+photo.44.author: ayusuke56
+photo.44.link: https://www.instagram.com/ayusuke56/
+photo.44.tags: bamboo, peek
+photo.45: https://www.instagram.com/p/B99Rf7DBZ5N/media/?size=m
+photo.45.author: ayusuke56
+photo.45.link: https://www.instagram.com/ayusuke56/
+photo.45.tags: bamboo, peek, portrait
+photo.46: https://www.instagram.com/p/B9_xTzUhX0v/media/?size=m
+photo.46.author: ayusuke56
+photo.46.link: https://www.instagram.com/ayusuke56/
+photo.46.tags: bamboo, paws, portrait
+photo.47: https://www.instagram.com/p/B-CWIsIBxEo/media/?size=m
+photo.47.author: ayusuke56
+photo.47.link: https://www.instagram.com/ayusuke56/
+photo.47.tags: bridge, paws, portrait
+photo.48: https://www.instagram.com/p/B-E_FFghE2O/media/?size=m
+photo.48.author: ayusuke56
+photo.48.link: https://www.instagram.com/ayusuke56/
+photo.48.tags: portrait
 species: 2
 video.1: https://youtu.be/T0UIB96RKQI
 video.1.author: harry
