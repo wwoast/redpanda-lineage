@@ -167,6 +167,13 @@ Layout.shrinkNames = function() {
     span.classList.remove("condensed");
     span.classList.remove("ultraCondensed");
     span.classList.remove("adjusted");
+
+    // Still apply the condenser style to author nodes, so the updates page
+    // doesn't have super long names in the author boxes
+    var author_nodes = document.getElementsByClassName("caption updateAuthor");
+    for (let caption of author_nodes) {
+      shrinker(caption, 0, "inner", 142, 155);
+    }
   }
 
   var action = shrinker;
