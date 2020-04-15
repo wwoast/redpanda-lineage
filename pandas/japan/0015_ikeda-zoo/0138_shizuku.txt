@@ -12,111 +12,115 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
-photo.1: https://www.instagram.com/p/BjZlpCClvUn/media/?size=m
-photo.1.author: mofu_pan
-photo.1.link: https://www.instagram.com/mofu_pan/
-photo.1.tags: apple time, portrait
-photo.2: https://www.instagram.com/p/BoOw5QpBnC8/media/?size=m
-photo.2.author: resapanlove
-photo.2.link: https://www.instagram.com/resapanlove/
-photo.2.tags: profile, smile
-photo.3: https://www.instagram.com/p/BoVHtpSFOeI/media/?size=m
-photo.3.author: kotata_513
-photo.3.link: https://www.instagram.com/kotata_513/
-photo.3.tags: air tasting, tongue
-photo.4: https://www.instagram.com/p/BpcJNg-lcDa/media/?size=m
-photo.4.author: itsuak
-photo.4.link: https://www.instagram.com/itsuak/
-photo.4.tags: bamboo, portrait
-photo.5: https://www.instagram.com/p/Bqg16K4FNKA/media/?size=m
-photo.5.author: ifumoto88
-photo.5.link: https://www.instagram.com/ifumoto88/
-photo.6: https://www.instagram.com/p/BqjMSi9FPk1/media/?size=m
-photo.6.author: ifumoto88
-photo.6.link: https://www.instagram.com/ifumoto88/
-photo.7: https://www.instagram.com/p/Bql27VpFKr5/media/?size=m
-photo.7.author: ifumoto88
-photo.7.link: https://www.instagram.com/ifumoto88/
-photo.7.tags: bridge
-photo.8: https://www.instagram.com/p/Bql2t2glhb3/media/?size=m
-photo.8.author: ifumoto88
-photo.8.link: https://www.instagram.com/ifumoto88/
-photo.8.tags: bridge
-photo.9: https://www.instagram.com/p/Bq3P-r0lPI8/media/?size=m
-photo.9.author: panda.daisuki
-photo.9.link: https://www.instagram.com/panda.daisuki/
-photo.9.tags: bamboo, portrait
-photo.10: https://www.instagram.com/p/BfnY49_FV2u/media/?size=m
-photo.10.author: hanamaru_redpanda
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: bamboo, portrait
-photo.11: https://www.instagram.com/p/_mXkDHvalx/media/?size=m
-photo.11.author: tama080707
-photo.11.link: https://www.instagram.com/tama080707/
-photo.11.tags: paws, portrait
-photo.12: https://www.instagram.com/p/BxQo3XCl9mE/media/?size=m
-photo.12.author: tomo3700
-photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: bamboo, lunch time, portrait, shoots
-photo.13: https://www.instagram.com/p/BT7h746j9YU/media/?size=m
-photo.13.author: _rifa_p
-photo.13.link: https://www.instagram.com/_rifa_p/
-photo.13.tags: apple time, portrait, smile
-photo.14: https://www.instagram.com/p/BxuNweuFpTq/media/?size=m
-photo.14.author: daniele.tokyo
-photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: paws, sleeping
-photo.15: https://www.instagram.com/p/Bw4G-03lDJv/media/?size=m
-photo.15.author: sakikukeko
-photo.15.link: https://www.instagram.com/sakikukeco/
-photo.15.tags: bamboo, portrait, white face
+photo.1: https://www.instagram.com/p/_mXkDHvalx/media/?size=m
+photo.1.author: tama080707
+photo.1.link: https://www.instagram.com/tama080707/
+photo.1.tags: paws, portrait
+photo.2: https://www.instagram.com/p/BT7h746j9YU/media/?size=m
+photo.2.author: _rifa_p
+photo.2.link: https://www.instagram.com/_rifa_p/
+photo.2.tags: apple time, portrait, smile
+photo.3: https://www.instagram.com/p/BY93t9zg0vZ/media/?size=m
+photo.3.author: peek_a_boo00
+photo.3.link: https://www.instagram.com/peek_a_boo00/
+photo.3.tags: bridge, portrait, smile, tongue
+photo.4: https://www.instagram.com/p/BZcUNQvhBzf/media/?size=m
+photo.4.author: miis_98
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: bridge, paws, portrait, smile
+photo.5: https://www.instagram.com/p/BfnY49_FV2u/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: bamboo, portrait
+photo.6: https://www.instagram.com/p/BiDV1nwlq2c/media/?size=m
+photo.6.author: zoom_ous
+photo.6.link: https://www.instagram.com/zoom_ous/
+photo.6.tags: portrait, smile
+photo.7: https://www.instagram.com/p/BjZlpCClvUn/media/?size=m
+photo.7.author: mofu_pan
+photo.7.link: https://www.instagram.com/mofu_pan/
+photo.7.tags: apple time, portrait
+photo.8: https://www.instagram.com/p/Bn_VhrWF9QK/media/?size=m
+photo.8.author: itsuak
+photo.8.link: https://www.instagram.com/itsuak/
+photo.8.tags: bridge, portrait, smile, tongue
+photo.9: https://www.instagram.com/p/BoOw5QpBnC8/media/?size=m
+photo.9.author: resapanlove
+photo.9.link: https://www.instagram.com/resapanlove/
+photo.9.tags: profile, smile
+photo.10: https://www.instagram.com/p/BoVHtpSFOeI/media/?size=m
+photo.10.author: kotata_513
+photo.10.link: https://www.instagram.com/kotata_513/
+photo.10.tags: air tasting, tongue
+photo.11: https://www.instagram.com/p/BpcJNg-lcDa/media/?size=m
+photo.11.author: itsuak
+photo.11.link: https://www.instagram.com/itsuak/
+photo.11.tags: bamboo, portrait
+photo.12: https://www.instagram.com/p/Bqg16K4FNKA/media/?size=m
+photo.12.author: ifumoto88
+photo.12.link: https://www.instagram.com/ifumoto88/
+photo.13: https://www.instagram.com/p/BqjMSi9FPk1/media/?size=m
+photo.13.author: ifumoto88
+photo.13.link: https://www.instagram.com/ifumoto88/
+photo.14: https://www.instagram.com/p/Bql2t2glhb3/media/?size=m
+photo.14.author: ifumoto88
+photo.14.link: https://www.instagram.com/ifumoto88/
+photo.14.tags: bridge
+photo.15: https://www.instagram.com/p/Bql27VpFKr5/media/?size=m
+photo.15.author: ifumoto88
+photo.15.link: https://www.instagram.com/ifumoto88/
+photo.15.tags: bridge
 photo.16: https://www.instagram.com/p/Bq3OsdFlqWb/media/?size=m
 photo.16.author: peach_redpanda
 photo.16.link: https://www.instagram.com/peach_redpanda/
 photo.16.tags: bridge, tail
-photo.17: https://www.instagram.com/p/BiDV1nwlq2c/media/?size=m
-photo.17.author: zoom_ous
-photo.17.link: https://www.instagram.com/zoom_ous/
-photo.17.tags: portrait, smile
-photo.18: https://www.instagram.com/p/Bn_VhrWF9QK/media/?size=m
-photo.18.author: itsuak
-photo.18.link: https://www.instagram.com/itsuak/
-photo.18.tags: bridge, portrait, smile, tongue
-photo.19: https://www.instagram.com/p/BY93t9zg0vZ/media/?size=m
-photo.19.author: peek_a_boo00
-photo.19.link: https://www.instagram.com/peek_a_boo00/
-photo.19.tags: bridge, portrait, smile, tongue
-photo.20: https://www.instagram.com/p/BwwXJbNJfXn/media/?size=m
-photo.20.author: mami88888888
-photo.20.link: https://www.instagram.com/mami88888888/
-photo.20.tags: bamboo, portrait, shoots
-photo.21: https://www.instagram.com/p/Bzdi6AuBFSc/media/?size=m
-photo.21.author: itsuak
-photo.21.link: https://www.instagram.com/itsuak/
-photo.21.tags: bridge, paws, portrait, smile
-photo.22: https://www.instagram.com/p/BznfbBHB66F/media/?size=m
+photo.17: https://www.instagram.com/p/Bq3P-r0lPI8/media/?size=m
+photo.17.author: panda.daisuki
+photo.17.link: https://www.instagram.com/panda.daisuki/
+photo.17.tags: bamboo, portrait
+photo.18: https://www.instagram.com/p/BwwXJbNJfXn/media/?size=m
+photo.18.author: mami88888888
+photo.18.link: https://www.instagram.com/mami88888888/
+photo.18.tags: bamboo, portrait, shoots
+photo.19: https://www.instagram.com/p/Bw4G-03lDJv/media/?size=m
+photo.19.author: sakikukeko
+photo.19.link: https://www.instagram.com/sakikukeco/
+photo.19.tags: bamboo, portrait, white face
+photo.20: https://www.instagram.com/p/BxQo3XCl9mE/media/?size=m
+photo.20.author: tomo3700
+photo.20.link: https://www.instagram.com/tomo3700/
+photo.20.tags: bamboo, lunch time, portrait, shoots
+photo.21: https://www.instagram.com/p/BxuNweuFpTq/media/?size=m
+photo.21.author: daniele.tokyo
+photo.21.link: https://www.instagram.com/daniele.tokyo/
+photo.21.tags: paws, sleeping
+photo.22: https://www.instagram.com/p/Bzdi6AuBFSc/media/?size=m
 photo.22.author: itsuak
 photo.22.link: https://www.instagram.com/itsuak/
-photo.22.tags: laying down, paws, portrait
-photo.23: https://www.instagram.com/p/BzqHzbKhwfu/media/?size=m
-photo.23.author: kisshan324
-photo.23.link: https://www.instagram.com/kisshan324/
-photo.23.tags: smile, tongue
-photo.24: https://www.instagram.com/p/B2TuosaB9ln/media/?size=m
-photo.24.author: lespan33
-photo.24.link: https://www.instagram.com/lespan33/
-photo.24.tags: apple time, portrait, smile, tongue
-photo.25: https://www.instagram.com/p/B6A-18aBDmL/media/?size=m
-photo.25.author: itsuak
-photo.25.link: https://www.instagram.com/itsuak/
-photo.25.tags: autumn, portrait, smile, techitechi
-photo.26: https://www.instagram.com/p/B-GB7cNhLhv/media/?size=m
-photo.26.author: miis_98
-photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: bamboo, paws, portrait, smile, tongue
-photo.27: https://www.instagram.com/p/BZcUNQvhBzf/media/?size=m
+photo.22.tags: bridge, paws, portrait, smile
+photo.23: https://www.instagram.com/p/BznfbBHB66F/media/?size=m
+photo.23.author: itsuak
+photo.23.link: https://www.instagram.com/itsuak/
+photo.23.tags: laying down, paws, portrait
+photo.24: https://www.instagram.com/p/BzqHzbKhwfu/media/?size=m
+photo.24.author: kisshan324
+photo.24.link: https://www.instagram.com/kisshan324/
+photo.24.tags: smile, tongue
+photo.25: https://www.instagram.com/p/B2TuosaB9ln/media/?size=m
+photo.25.author: lespan33
+photo.25.link: https://www.instagram.com/lespan33/
+photo.25.tags: apple time, portrait, smile, tongue
+photo.26: https://www.instagram.com/p/B6A-18aBDmL/media/?size=m
+photo.26.author: itsuak
+photo.26.link: https://www.instagram.com/itsuak/
+photo.26.tags: autumn, portrait, smile, techitechi
+photo.27: https://www.instagram.com/p/B-GB7cNhLhv/media/?size=m
 photo.27.author: miis_98
 photo.27.link: https://www.instagram.com/miis_98/
-photo.27.tags: bridge, paws, portrait, smile
+photo.27.tags: bamboo, paws, portrait, smile, tongue
+photo.28: https://www.instagram.com/p/B-32_HOBCAZ/media/?size=m
+photo.28.author: itsuak
+photo.28.link: https://www.instagram.com/itsuak/
+photo.28.tags: bamboo, portrait, smile, shoots
 species: 2
 zoo: 15

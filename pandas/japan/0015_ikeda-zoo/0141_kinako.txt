@@ -14,81 +14,85 @@ language.order: jp, en
 litter: 110
 location.1: 35, 2014/6/26
 location.2: 15, 2017/5/29
-photo.1: https://www.instagram.com/p/BqgjZXclPYI/media/?size=m
-photo.1.author: ifumoto88
-photo.1.link: https://www.instagram.com/ifumoto88/
-photo.1.tags: laying down, portrait
-photo.2: https://www.instagram.com/p/BqjG3tblG_V/media/?size=m
-photo.2.author: ifumoto88
-photo.2.link: https://www.instagram.com/ifumoto88/
-photo.2.tags: bridge, portrait
-photo.3: https://www.instagram.com/p/BqjW9ppFbdO/media/?size=m
-photo.3.author: panda.daisuki
-photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: bridge, laying down, portrait
-photo.4: https://www.instagram.com/p/BqlxURxlESj/media/?size=m
+photo.1: https://www.instagram.com/p/BZylo8FAQKZ/media/?size=m
+photo.1.author: peek_a_boo00
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.1.tags: laying down, portrait, tongue
+photo.2: https://www.instagram.com/p/Blxqi2rla1R/media/?size=m
+photo.2.author: itsuak
+photo.2.link: https://www.instagram.com/itsuak/
+photo.2.tags: portrait, profile, smile, tongue
+photo.3: https://www.instagram.com/p/BqgjZXclPYI/media/?size=m
+photo.3.author: ifumoto88
+photo.3.link: https://www.instagram.com/ifumoto88/
+photo.3.tags: laying down, portrait
+photo.4: https://www.instagram.com/p/BqjG3tblG_V/media/?size=m
 photo.4.author: ifumoto88
 photo.4.link: https://www.instagram.com/ifumoto88/
-photo.4.tags: nose, portrait
-photo.5: https://www.instagram.com/p/BvrZX51FLbq/media/?size=m
-photo.5.author: itsuak
-photo.5.link: https://www.instagram.com/itsuak/
-photo.5.tags: laying down, paws
-photo.6: https://www.instagram.com/p/BwWyyfDlxGJ/media/?size=m
-photo.6.author: itsuak
-photo.6.link: https://www.instagram.com/itsuak/
-photo.6.tags: air tasting, portrait, tongue
-photo.7: https://www.instagram.com/p/BwrdkBrF_4D/media/?size=m
+photo.4.tags: bridge, portrait
+photo.5: https://www.instagram.com/p/BqjW9ppFbdO/media/?size=m
+photo.5.author: panda.daisuki
+photo.5.link: https://www.instagram.com/panda.daisuki/
+photo.5.tags: bridge, laying down, portrait
+photo.6: https://www.instagram.com/p/BqlxURxlESj/media/?size=m
+photo.6.author: ifumoto88
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: nose, portrait
+photo.7: https://www.instagram.com/p/BvrZX51FLbq/media/?size=m
 photo.7.author: itsuak
 photo.7.link: https://www.instagram.com/itsuak/
-photo.7.tags: portrait
-photo.8: https://www.instagram.com/p/BxfLeWhF50s/media/?size=m
+photo.7.tags: laying down, paws
+photo.8: https://www.instagram.com/p/BwWyyfDlxGJ/media/?size=m
 photo.8.author: itsuak
 photo.8.link: https://www.instagram.com/itsuak/
-photo.8.tags: laying down, smile, tongue
-photo.9: https://www.instagram.com/p/Bw0lkAHFQb9/media/?size=m
-photo.9.author: sakikukeco
-photo.9.link: https://www.instagram.com/sakikukeco/
+photo.8.tags: air tasting, portrait, tongue
+photo.9: https://www.instagram.com/p/BwrdkBrF_4D/media/?size=m
+photo.9.author: itsuak
+photo.9.link: https://www.instagram.com/itsuak/
 photo.9.tags: portrait
-photo.10: https://www.instagram.com/p/BxsIjCqlVdc/media/?size=m
-photo.10.author: itsuak
-photo.10.link: https://www.instagram.com/itsuak/
-photo.10.tags: bridge, portrait, smile, tongue
-photo.11: https://www.instagram.com/p/Blxqi2rla1R/media/?size=m
-photo.11.author: itsuak
-photo.11.link: https://www.instagram.com/itsuak/
-photo.11.tags: portrait, profile, smile, tongue
-photo.12: https://www.instagram.com/p/Bw6aaTohhRB/media/?size=m
-photo.12.author: yuta_record
-photo.12.link: https://www.instagram.com/yuta_record/
-photo.12.tags: bamboo, paws, portrait
-photo.13: https://www.instagram.com/p/BzqDkGGB68F/media/?size=m
+photo.10: https://www.instagram.com/p/Bw0lkAHFQb9/media/?size=m
+photo.10.author: sakikukeco
+photo.10.link: https://www.instagram.com/sakikukeco/
+photo.10.tags: portrait
+photo.11: https://www.instagram.com/p/Bw6aaTohhRB/media/?size=m
+photo.11.author: yuta_record
+photo.11.link: https://www.instagram.com/yuta_record/
+photo.11.tags: bamboo, paws, portrait
+photo.12: https://www.instagram.com/p/BxfLeWhF50s/media/?size=m
+photo.12.author: itsuak
+photo.12.link: https://www.instagram.com/itsuak/
+photo.12.tags: laying down, smile, tongue
+photo.13: https://www.instagram.com/p/BxsIjCqlVdc/media/?size=m
 photo.13.author: itsuak
 photo.13.link: https://www.instagram.com/itsuak/
-photo.13.tags: laying down, portrait, tongue
-photo.14: https://www.instagram.com/p/Bzu-hbBB3B-/media/?size=m
+photo.13.tags: bridge, portrait, smile, tongue
+photo.14: https://www.instagram.com/p/BzqDkGGB68F/media/?size=m
 photo.14.author: itsuak
 photo.14.link: https://www.instagram.com/itsuak/
-photo.14.tags: air tasting, bridge, laying down, tongue
-photo.15: https://www.instagram.com/p/B3W3muXhGfQ/media/?size=m
+photo.14.tags: laying down, portrait, tongue
+photo.15: https://www.instagram.com/p/Bzu-hbBB3B-/media/?size=m
 photo.15.author: itsuak
 photo.15.link: https://www.instagram.com/itsuak/
-photo.15.tags: laying down, paws, portrait, smile, tongue
-photo.16: https://www.instagram.com/p/B4P4G2rB-kY/media/?size=m
+photo.15.tags: air tasting, bridge, laying down, tongue
+photo.16: https://www.instagram.com/p/B3W3muXhGfQ/media/?size=m
 photo.16.author: itsuak
 photo.16.link: https://www.instagram.com/itsuak/
-photo.16.tags: portrait, smile, tongue
-photo.17: https://www.instagram.com/p/B55dZtYh-9Y/media/?size=m
+photo.16.tags: laying down, paws, portrait, smile, tongue
+photo.17: https://www.instagram.com/p/B4P4G2rB-kY/media/?size=m
 photo.17.author: itsuak
 photo.17.link: https://www.instagram.com/itsuak/
-photo.17.tags: portrait, tail
-photo.18: https://www.instagram.com/p/B5-WkkeBSs9/media/?size=m
+photo.17.tags: portrait, smile, tongue
+photo.18: https://www.instagram.com/p/B55dZtYh-9Y/media/?size=m
 photo.18.author: itsuak
 photo.18.link: https://www.instagram.com/itsuak/
-photo.18.tags: blink, itchy, portrait
-photo.19: https://www.instagram.com/p/B-JMddNBjDD/media/?size=m
-photo.19.author: miis_98
-photo.19.link: https://www.instagram.com/miis_98/
-photo.19.tags: peek, portrait
+photo.18.tags: portrait, tail
+photo.19: https://www.instagram.com/p/B5-WkkeBSs9/media/?size=m
+photo.19.author: itsuak
+photo.19.link: https://www.instagram.com/itsuak/
+photo.19.tags: blink, itchy, portrait
+photo.20: https://www.instagram.com/p/B-JMddNBjDD/media/?size=m
+photo.20.author: miis_98
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: peek, portrait
 species: 2
 zoo: 15

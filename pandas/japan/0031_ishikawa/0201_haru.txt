@@ -14,101 +14,105 @@ language.order: jp, en
 litter: 195
 location.1: 42, 2013/8/15
 location.2: 31, 2018/6/11
-photo.1: https://www.instagram.com/p/BiW3lfglYCi/media/?size=m
-photo.1.author: yossi929
-photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: portrait
-photo.2: https://www.instagram.com/p/BprVWZTlqLh/media/?size=m
-photo.2.author: bee_san.13
-photo.2.link: https://www.instagram.com/bee_san.13/
-photo.2.tags: portrait
-photo.3: https://www.instagram.com/p/BpvwNnMlgTN/media/?size=m
-photo.3.author: bee_san.13
-photo.3.link: https://www.instagram.com/bee_san.13/
-photo.3.tags: portrait, smile
-photo.4: https://www.instagram.com/p/Bql8s-AHXcB/media/?size=m
-photo.4.author: yakko____
-photo.4.link: https://www.instagram.com/yakko____/
-photo.4.tags: ear, portrait
-photo.5: https://www.instagram.com/p/BrfS_ZUFft8/media/?size=m
+photo.1: https://www.instagram.com/p/BY60PyMBaPC/media/?size=m
+photo.1.author: miis_98
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: portrait, whiskers
+photo.2: https://www.instagram.com/p/BbEZ4QtAZ8W/media/?size=m
+photo.2.author: peek_a_boo00
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.2.tags: apple time
+photo.3: https://www.instagram.com/p/BcRs0QOlQk6/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait
+photo.4: https://www.instagram.com/p/BiW3lfglYCi/media/?size=m
+photo.4.author: yossi929
+photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: portrait
+photo.5: https://www.instagram.com/p/BprVWZTlqLh/media/?size=m
 photo.5.author: bee_san.13
 photo.5.link: https://www.instagram.com/bee_san.13/
-photo.5.tags: grooming, laying down
-photo.6: https://www.instagram.com/p/BcRs0QOlQk6/media/?size=m
-photo.6.author: hanamaru_redpanda
-photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: portrait
-photo.7: https://www.instagram.com/p/BsmZDwQF_Yr/media/?size=m
-photo.7.author: bee_san.13
-photo.7.link: https://www.instagram.com/bee_san.13/
-photo.7.tags: paws, portrait
-photo.8: https://www.instagram.com/p/BtO-3XqFnuH/media/?size=m
+photo.5.tags: portrait
+photo.6: https://www.instagram.com/p/BpvwNnMlgTN/media/?size=m
+photo.6.author: bee_san.13
+photo.6.link: https://www.instagram.com/bee_san.13/
+photo.6.tags: portrait, smile
+photo.7: https://www.instagram.com/p/Bql8s-AHXcB/media/?size=m
+photo.7.author: yakko____
+photo.7.link: https://www.instagram.com/yakko____/
+photo.7.tags: ear, portrait
+photo.8: https://www.instagram.com/p/BrfS_ZUFft8/media/?size=m
 photo.8.author: bee_san.13
 photo.8.link: https://www.instagram.com/bee_san.13/
-photo.8.tags: bamboo, portrait, smile, tail
-photo.9: https://www.instagram.com/p/BtgC2w6F_aW/media/?size=m
+photo.8.tags: grooming, laying down
+photo.9: https://www.instagram.com/p/BsmZDwQF_Yr/media/?size=m
 photo.9.author: bee_san.13
 photo.9.link: https://www.instagram.com/bee_san.13/
-photo.9.tags: apple time, portrait, standing
-photo.10: https://www.instagram.com/p/BuBjaeTl1ko/media/?size=m
+photo.9.tags: paws, portrait
+photo.10: https://www.instagram.com/p/BtO-3XqFnuH/media/?size=m
 photo.10.author: bee_san.13
 photo.10.link: https://www.instagram.com/bee_san.13/
-photo.10.tags: portrait
-photo.11: https://www.instagram.com/p/BvjB6R3Fvrb/media/?size=m
+photo.10.tags: bamboo, portrait, smile, tail
+photo.11: https://www.instagram.com/p/BtgC2w6F_aW/media/?size=m
 photo.11.author: bee_san.13
 photo.11.link: https://www.instagram.com/bee_san.13/
-photo.11.tags: smile
-photo.12: https://www.instagram.com/p/Bx1wYqplF8r/media/?size=m
-photo.12.author: rie_panda55
-photo.12.link: https://www.instagram.com/rie_panda55/
-photo.12.tags: bridge, tail
-photo.13: https://www.instagram.com/p/B0P9qRGhtyI/media/?size=m
-photo.13.author: na.mo.pan
-photo.13.link: https://www.instagram.com/na.mo.pan/
-photo.13.tags: apple time, bridge, flowers, keeper, paws
-photo.14: https://www.instagram.com/p/B1TU5sZh4ei/media/?size=m
-photo.14.author: bee_san.13
-photo.14.link: https://www.instagram.com/bee_san.13/
-photo.14.tags: portrait
-photo.15: https://www.instagram.com/p/B2_pb9HhHzX/media/?size=m
-photo.15.author: bee_san.13
-photo.15.link: https://www.instagram.com/bee_san.13/
-photo.15.tags: laying down, portrait, smile, white face
-photo.16: https://www.instagram.com/p/B50EhUYhaM0/media/?size=m
+photo.11.tags: apple time, portrait, standing
+photo.12: https://www.instagram.com/p/BuBjaeTl1ko/media/?size=m
+photo.12.author: bee_san.13
+photo.12.link: https://www.instagram.com/bee_san.13/
+photo.12.tags: portrait
+photo.13: https://www.instagram.com/p/BvjB6R3Fvrb/media/?size=m
+photo.13.author: bee_san.13
+photo.13.link: https://www.instagram.com/bee_san.13/
+photo.13.tags: smile
+photo.14: https://www.instagram.com/p/Bx1wYqplF8r/media/?size=m
+photo.14.author: rie_panda55
+photo.14.link: https://www.instagram.com/rie_panda55/
+photo.14.tags: bridge, tail
+photo.15: https://www.instagram.com/p/B0P9qRGhtyI/media/?size=m
+photo.15.author: na.mo.pan
+photo.15.link: https://www.instagram.com/na.mo.pan/
+photo.15.tags: apple time, bridge, flowers, keeper, paws
+photo.16: https://www.instagram.com/p/B1TU5sZh4ei/media/?size=m
 photo.16.author: bee_san.13
 photo.16.link: https://www.instagram.com/bee_san.13/
-photo.16.tags: laying down, portrait, sleeping, tail
-photo.17: https://www.instagram.com/p/B70oMa5hPIv/media/?size=m
+photo.16.tags: portrait
+photo.17: https://www.instagram.com/p/B2_pb9HhHzX/media/?size=m
 photo.17.author: bee_san.13
 photo.17.link: https://www.instagram.com/bee_san.13/
-photo.17.tags: portrait, tree, whiskers
-photo.18: https://www.instagram.com/p/B8OXAMFBRw_/media/?size=m
+photo.17.tags: laying down, portrait, smile, white face
+photo.18: https://www.instagram.com/p/B50EhUYhaM0/media/?size=m
 photo.18.author: bee_san.13
 photo.18.link: https://www.instagram.com/bee_san.13/
-photo.18.tags: portrait, profile, whiskers
-photo.19: https://www.instagram.com/p/B8Xf9W6BEFK/media/?size=m
-photo.19.author: sasapan34
-photo.19.link: https://www.instagram.com/sasapan34/
-photo.19.tags: paws
-photo.20: https://www.instagram.com/p/B8lBPerBcSy/media/?size=m
+photo.18.tags: laying down, portrait, sleeping, tail
+photo.19: https://www.instagram.com/p/B70oMa5hPIv/media/?size=m
+photo.19.author: bee_san.13
+photo.19.link: https://www.instagram.com/bee_san.13/
+photo.19.tags: portrait, tree, whiskers
+photo.20: https://www.instagram.com/p/B8OXAMFBRw_/media/?size=m
 photo.20.author: bee_san.13
 photo.20.link: https://www.instagram.com/bee_san.13/
-photo.20.tags: apple time, paws, portrait, window
-photo.21: https://www.instagram.com/p/B8vw-NgB8Hg/media/?size=m
-photo.21.author: bee_san.13
-photo.21.link: https://www.instagram.com/bee_san.13/
-photo.21.tags: portrait, whiskers
-photo.22: https://www.instagram.com/p/B-Axk5bhqEa/media/?size=m
+photo.20.tags: portrait, profile, whiskers
+photo.21: https://www.instagram.com/p/B8Xf9W6BEFK/media/?size=m
+photo.21.author: sasapan34
+photo.21.link: https://www.instagram.com/sasapan34/
+photo.21.tags: paws
+photo.22: https://www.instagram.com/p/B8lBPerBcSy/media/?size=m
 photo.22.author: bee_san.13
 photo.22.link: https://www.instagram.com/bee_san.13/
-photo.22.tags: long-tongue, portrait, shedding, tongue
-photo.23: https://www.instagram.com/p/B-Er8UrhLTF/media/?size=m
+photo.22.tags: apple time, paws, portrait, window
+photo.23: https://www.instagram.com/p/B8vw-NgB8Hg/media/?size=m
 photo.23.author: bee_san.13
 photo.23.link: https://www.instagram.com/bee_san.13/
-photo.23.tags: peek, portrait, techitechi
-photo.24: https://www.instagram.com/p/BY60PyMBaPC/media/?size=m
-photo.24.author: miis_98
-photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: portrait, whiskers
+photo.23.tags: portrait, whiskers
+photo.24: https://www.instagram.com/p/B-Axk5bhqEa/media/?size=m
+photo.24.author: bee_san.13
+photo.24.link: https://www.instagram.com/bee_san.13/
+photo.24.tags: long-tongue, portrait, shedding, tongue
+photo.25: https://www.instagram.com/p/B-Er8UrhLTF/media/?size=m
+photo.25.author: bee_san.13
+photo.25.link: https://www.instagram.com/bee_san.13/
+photo.25.tags: peek, portrait, techitechi
 species: 2
 zoo: 31
