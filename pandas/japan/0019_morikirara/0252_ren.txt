@@ -14,10 +14,10 @@ language.order: jp, en
 litter: none
 location.1: 30, 2007/6/14
 location.2: 19, 2010/2/18
-photo.1: https://www.instagram.com/p/BopkGUVlTrk/media/?size=m
-photo.1.author: re_ichimaru
-photo.1.link: https://www.instagram.com/re_ichimaru/
-photo.1.tags: profile, smile
+photo.1: https://www.instagram.com/p/BcZdo1NFzYF/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: lips, portrait, whiskers
 photo.2: https://www.instagram.com/p/BlZGGsRFC-z/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
@@ -26,62 +26,70 @@ photo.3: https://www.instagram.com/p/BlcwDexldSJ/media/?size=m
 photo.3.author: re_ichimaru
 photo.3.link: https://www.instagram.com/re_ichimaru/
 photo.3.tags: paws
-photo.4: https://www.instagram.com/p/Bo3kNkbl7gt/media/?size=m
-photo.4.author: monmon_redpanda
-photo.4.link: https://www.instagram.com/monmon_redpanda/
-photo.4.tags: smile
-photo.5: https://www.instagram.com/p/BpE904flimM/media/?size=m
-photo.5.author: nakacchi_desu
-photo.5.link: https://www.instagram.com/nakacchi_desu/
-photo.5.tags: tree
-photo.6: https://www.instagram.com/p/BpF1X8CFlQN/media/?size=m
-photo.6.author: re_ichimaru
-photo.6.link: https://www.instagram.com/re_ichimaru/
-photo.6.tags: smile
-photo.7: https://www.instagram.com/p/Bps9LRmFdci/media/?size=m
-photo.7.author: yossi929
-photo.7.link: https://www.instagram.com/yossi929/
-photo.7.tags: bamboo, peek
-photo.8: https://www.instagram.com/p/BqwgR4uFSoX/media/?size=m
-photo.8.author: yama_pix
-photo.8.link: https://www.instagram.com/yama_pix/
-photo.9: https://www.instagram.com/p/BraVrQtldkm/media/?size=m
-photo.9.author: ifumoto88
-photo.9.link: https://www.instagram.com/ifumoto88/
-photo.9.tags: tail
-photo.10: https://www.instagram.com/p/BrnLE1alK60/media/?size=m
-photo.10.author: yossi929
-photo.10.link: https://www.instagram.com/yossi929/
-photo.10.tags: paws, smile
-photo.11: https://www.instagram.com/p/BrrVzmkF3om/media/?size=m
-photo.11.author: panda.daisuki
-photo.11.link: https://www.instagram.com/panda.daisuki/
-photo.12: https://www.instagram.com/p/BtUUJFZgOrM/media/?size=m
-photo.12.author: miis_98
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: bamboo, smile
-photo.13: https://www.instagram.com/p/BuOPlOLFBfj/media/?size=m
-photo.13.author: fetorus_mami
-photo.13.link: https://www.instagram.com/fetorus_mami/
-photo.13.tags: bamboo
-photo.14: https://www.instagram.com/p/BvROJYfFGy3/media/?size=m
-photo.14.author: re_ichimaru
-photo.14.link: https://www.instagram.com/re_ichimaru/
-photo.15: https://www.instagram.com/p/Byy-D2ElXsU/media/?size=m
-photo.15.author: v_kiki_v
-photo.15.link: https://www.instagram.com/v_kiki_v/
-photo.15.tags: paws, smile
-photo.16: https://www.instagram.com/p/B0a7DX2hShq/media/?size=m
-photo.16.author: re_ichimaru
-photo.16.link: https://www.instagram.com/re_ichimaru/
-photo.16.tags: paws, wave
-photo.17: https://www.instagram.com/p/B0qX4cFBKyx/media/?size=m
+photo.4: https://www.instagram.com/p/BopkGUVlTrk/media/?size=m
+photo.4.author: re_ichimaru
+photo.4.link: https://www.instagram.com/re_ichimaru/
+photo.4.tags: profile, smile
+photo.5: https://www.instagram.com/p/Bo3kNkbl7gt/media/?size=m
+photo.5.author: monmon_redpanda
+photo.5.link: https://www.instagram.com/monmon_redpanda/
+photo.5.tags: smile
+photo.6: https://www.instagram.com/p/BpE904flimM/media/?size=m
+photo.6.author: nakacchi_desu
+photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: tree
+photo.7: https://www.instagram.com/p/BpF1X8CFlQN/media/?size=m
+photo.7.author: re_ichimaru
+photo.7.link: https://www.instagram.com/re_ichimaru/
+photo.7.tags: smile
+photo.8: https://www.instagram.com/p/Bps9LRmFdci/media/?size=m
+photo.8.author: yossi929
+photo.8.link: https://www.instagram.com/yossi929/
+photo.8.tags: bamboo, peek
+photo.9: https://www.instagram.com/p/BqwgR4uFSoX/media/?size=m
+photo.9.author: yama_pix
+photo.9.link: https://www.instagram.com/yama_pix/
+photo.10: https://www.instagram.com/p/BraVrQtldkm/media/?size=m
+photo.10.author: ifumoto88
+photo.10.link: https://www.instagram.com/ifumoto88/
+photo.10.tags: tail
+photo.11: https://www.instagram.com/p/BrnLE1alK60/media/?size=m
+photo.11.author: yossi929
+photo.11.link: https://www.instagram.com/yossi929/
+photo.11.tags: paws, smile
+photo.12: https://www.instagram.com/p/BrrVzmkF3om/media/?size=m
+photo.12.author: panda.daisuki
+photo.12.link: https://www.instagram.com/panda.daisuki/
+photo.13: https://www.instagram.com/p/BtUUJFZgOrM/media/?size=m
+photo.13.author: miis_98
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: bamboo, smile
+photo.14: https://www.instagram.com/p/BuOPlOLFBfj/media/?size=m
+photo.14.author: fetorus_mami
+photo.14.link: https://www.instagram.com/fetorus_mami/
+photo.14.tags: bamboo
+photo.15: https://www.instagram.com/p/BvROJYfFGy3/media/?size=m
+photo.15.author: re_ichimaru
+photo.15.link: https://www.instagram.com/re_ichimaru/
+photo.16: https://www.instagram.com/p/Byy-D2ElXsU/media/?size=m
+photo.16.author: v_kiki_v
+photo.16.link: https://www.instagram.com/v_kiki_v/
+photo.16.tags: paws, smile
+photo.17: https://www.instagram.com/p/B0a7DX2hShq/media/?size=m
 photo.17.author: re_ichimaru
 photo.17.link: https://www.instagram.com/re_ichimaru/
-photo.17.tags: paws, smile
-photo.18: https://www.instagram.com/p/BcZdo1NFzYF/media/?size=m
-photo.18.author: hanamaru_redpanda
-photo.18.link: https://www.instagram.com/hanamaru_redpanda/
-photo.18.tags: lips, portrait, whiskers
+photo.17.tags: paws, wave
+photo.18: https://www.instagram.com/p/B0qX4cFBKyx/media/?size=m
+photo.18.author: re_ichimaru
+photo.18.link: https://www.instagram.com/re_ichimaru/
+photo.18.tags: paws, smile
+photo.19: https://www.instagram.com/p/B9TAExNp71D/media/?size=m
+photo.19.author: morikirara
+photo.19.link: https://www.instagram.com/morikirara/
+photo.19.tags: close-up, portrait, whiskers
+photo.20: https://www.instagram.com/p/B-6GFTQJcxh/media/?size=m
+photo.20.author: morikirara
+photo.20.link: https://www.instagram.com/morikirara/
+photo.20.tags: bamboo, tail, tongue
 species: 2
 zoo: 19
