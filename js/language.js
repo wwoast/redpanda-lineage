@@ -35,11 +35,22 @@ Language.init = function() {
 // but not Japanese -- so we should fall back to English for them, despite
 // what an entity's preferred language order might be.
 Language.L.bias = {
-  "cn": ["en"],
+  "cn": ["latin"],
   "en": [],
-  "jp": [],
-  "np": ["en"]
+  "jp": ["latin"],
+  "np": ["latin"]
 }
+
+// Types of alphabets, so we can fall back to an alphabet that someone
+// is capable of reading based on their language skills. In practice,
+// we opt to fall back to latin languages since that alphabet is more
+// widely understood
+Language.alphabets = {
+  "cjk": ["cn", "jp", "kr"],
+  "cyrillic": ["ru"],
+  "latin": ["de", "dk", "en", "es", "fr", "nl", "pl"],
+}
+
 
 // Character translation tables per language. Just hiragana/katakana.
 // Define this for all objects, not just for the instance.
@@ -2319,6 +2330,17 @@ Language.commaPhrase = function(pieces) {
 // doesn't include info for a language, we can overwrite that info anyways!
 Language.currentOrder = function(current_list, current_language) {
   var bias = L.bias[current_language];
+  if (bias == "latin") {
+    bias = [];
+    // Iterate through the current list of languages. If one has a latin
+    // writing system, use it as an option. This will usually fall back to
+    // English, but not always.
+    for (let lang of current_list) {
+      if (Language.alphabets["latin"].indexOf(lang) != -1) {
+        bias.push(lang);
+      }
+    }
+  }
   return bias.concat(current_list)
              .concat(current_language)
              .filter(function(value, index, self) { 
