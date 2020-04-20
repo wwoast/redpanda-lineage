@@ -37,7 +37,7 @@ Language.init = function() {
 Language.L.bias = {
   "cn": ["latin"],
   "en": [],
-  "jp": [],
+  "jp": ["latin"],
   "np": ["latin"]
 }
 
