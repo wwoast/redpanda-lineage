@@ -1,7 +1,7 @@
 [zoo]
 _id: 215
 en.address: College Rd, Bristol BS8 3HA, United Kingdom
-en.location: Bristol, United Kingdom
+en.location: Bristol, UK
 en.name: Bristol Zoological Gardens
 flag: UK
 language.order: en

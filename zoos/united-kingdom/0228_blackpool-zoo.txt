@@ -1,7 +1,7 @@
 [zoo]
 _id: 228
 en.address: E Park Dr, Blackpool FY3 8PP, United Kingdom
-en.location: Blackpool, United Kingdom
+en.location: Blackpool, UK
 en.name: Blackpool Zoo
 flag: UK
 language.order: en

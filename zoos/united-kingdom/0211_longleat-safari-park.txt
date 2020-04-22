@@ -1,7 +1,7 @@
 [zoo]
 _id: 211
 en.address: Warminster BA12 7NW, United Kingdom
-en.location: Longleat, Warminster, United Kingdom
+en.location: Longleat, Warminster, UK
 en.name: Longleat Safari Park
 flag: UK
 language.order: en
