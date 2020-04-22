@@ -15,24 +15,10 @@ photo.2.tags: apple time, brothers, family, siblings, twins
 photo.2.tags.190.location: 160, 100
 photo.2.tags.344.location: 240, 155
 photo.2.tags.345.location: 90, 150
-photo.3: https://www.instagram.com/p/B3oTFj2B_q_/media/?size=l
-photo.3.author: pankatushitemasu
-photo.3.link: https://www.instagram.com/pankatushitemasu/
-photo.3.tags: brothers, family, siblings, smile, twins
-photo.3.tags.190.location: 930, 710
-photo.3.tags.344.location: 560, 325
-photo.3.tags.345.location: 170, 490
-photo.4: https://www.instagram.com/p/B3dIHRJBYSi/media/?size=m
-photo.4.author: pankatushitemasu
-photo.4.link: https://www.instagram.com/pankatushitemasu/
-photo.4.tags: brothers, family, siblings, twins
-photo.4.tags.190.location: 120, 80
-photo.4.tags.344.location: 245, 200
-photo.4.tags.345.location: 50, 155
-photo.5: https://www.instagram.com/p/B9ehloIhb0-/media/?size=l
-photo.5.author: panda.daisuki
-photo.5.link: https://www.instagram.com/panda.daisuki/
-photo.5.tags: family, siblings, twins
-photo.5.tags.190.location: 490, 440
-photo.5.tags.344.location: 755, 280
-photo.5.tags.345.location: 245, 230
+photo.3: https://www.instagram.com/p/B9ehloIhb0-/media/?size=l
+photo.3.author: panda.daisuki
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: family, siblings, twins
+photo.3.tags.190.location: 490, 440
+photo.3.tags.344.location: 755, 280
+photo.3.tags.345.location: 245, 230
