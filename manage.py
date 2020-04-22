@@ -168,6 +168,20 @@ class PhotoFile():
             self.delete_field(photo_location_tag)
         return True
 
+    def photo_count(self):
+        """
+        Find the number of photos in this config file.
+        """
+        photo_index = 1
+        photo_option = "photo." + str(photo_index)
+        is_photo = self.has_field(photo_option)
+        if is_photo == True:
+            while is_photo == True:
+                photo_index = photo_index + 1
+                photo_option = "photo." + str(photo_index)
+                is_photo = self.has_field(photo_option)
+        return photo_index - 1
+
     def __fetch_next_photo_index(self, start_point, stop_point):
         """
         Given we deleted pandas from a dataset entry, find the first available hole in
@@ -314,7 +328,10 @@ def sort_ig_hashes(path):
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
+    photo_count = photo_list.photo_count()
     max = int(get_max_entity_count()) + 1
+    if photo_count >= max:
+        max = photo_count + 1
     non_ig_indices = []
     ig_photos = []
     # Build photo indices of IG photos and non-IG photos
