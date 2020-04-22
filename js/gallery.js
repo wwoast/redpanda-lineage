@@ -34,6 +34,9 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   } else {
     gallery.index = "1";
   }
+  // Galleries need unique IDs, in case somehow the same animal appears twice in
+  // output results for a page.
+  gallery.unique = Math.random().toString(36).slice(2);
   gallery.fallback_url = fallback_url;
   return gallery;
 }
@@ -48,8 +51,8 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
     image.src = this.fallback_url;
   } else {
     image.src = url;
-    image.id = id + "/photo/" + index;   // For carousel
-    image.className = id + "/photo";
+    image.id = this.unique + "_" + id + "/photo/" + index;   // For carousel
+    image.className = this.unique + "_" + id + "/photo";
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
   var div = document.createElement('div');
@@ -76,12 +79,12 @@ Gallery.G.displayPhotoNavigation = function() {
   var that = this;   // Function scoping
   var span_link = document.createElement('a');
   span_link.className = "navigatorLink";
-  span_link.id = that.info.id + "/navigator";
+  span_link.id = that.unique + "_" + that.info.id + "/navigator";
   span_link.href = "javascript:;";
   var span = document.createElement('span');
   span.className = "navigator";
   // Clickable dogears when you have a carousel of more than one photo
-  if (this.photoCount(that.info.id) < 2) {
+  if (this.photoCount() < 2) {
       span.innerText = L.emoji.no_more;
   } else {
     span.innerText = that.index;
@@ -107,7 +110,7 @@ Gallery.G.displayPhotoPreload = function() {
   var default_photo = Pandas.def.animal["photo.1"];
   var prev_photo = "photo." + (parseInt(this.index) - 1).toString();
   var next_photo = "photo." + (parseInt(this.index) + 1).toString();
-  var count = this.photoCount(this.info.id);
+  var count = this.photoCount();
   var last_photo = "photo." + count.toString();
   var entity = this.photoEntity();
   if (Pandas.field(entity, prev_photo, this.carousel_type) != default_photo) {
@@ -147,14 +150,16 @@ Gallery.G.photoEntity = function(entity_id=this.info.id) {
 
 // Navigation input event -- load the next photo in the carousel
 Gallery.G.photoNext = function(entity_id=this.info.id) {
-  var current_photo_element = document.getElementsByClassName(entity_id + "/photo")[0];
+  var carousel_id = this.unique + "_" + entity_id;
+  var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
 }
 
 // Navigation input event -- load the previous photo in the carousel
 Gallery.G.photoPrevious = function(entity_id=this.info.id) {
-  var current_photo_element = document.getElementsByClassName(entity_id + "/photo")[0];
+  var carousel_id = this.unique + "_" + entity_id;
+  var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
 }
@@ -162,7 +167,8 @@ Gallery.G.photoPrevious = function(entity_id=this.info.id) {
 // Switch the currently displayed photo to the next one in the list
 Gallery.G.photoSwap = function(photo, desired_index) {
   var span_link = photo.parentNode.childNodes[photo.parentNode.childNodes.length - 1];
-  var [entity_id, _, photo_id] = photo.id.split("/");
+  var [carousel_id, _, photo_id] = photo.id.split("/");
+  var entity_id = carousel_id.split("_").pop();
   var entity = this.photoEntity(entity_id);
   var photo_manifest = Pandas.photoManifest(entity, this.carousel_type);
   var max_index = Object.values(photo_manifest).length;

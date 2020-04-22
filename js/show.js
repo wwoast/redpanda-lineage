@@ -2071,7 +2071,6 @@ Show.profile.family = function(animal, language) {
 }
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
-  // TODO: start at the profile photo always
   var gallery = Gallery.init(info, 'animal');
   var photo = gallery.displayPhoto();
   var span = gallery.displayPhotoNavigation();
