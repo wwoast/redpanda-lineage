@@ -2969,7 +2969,8 @@ Show.results.zooDetails = function(info) {
   var details = document.createElement('div');
   details.className = "zooDetails";
   if (info.closed != Pandas.def.zoo.closed) {
-    var closed = Show.message.closed(Pandas.formatDate(info.closed), L.display);
+    var date = Pandas.formatDate(info.closed, L.display);
+    var closed = Show.message.closed(date, L.display);
     details.appendChild(closed);
   }
   details.appendChild(address);
