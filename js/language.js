@@ -129,6 +129,7 @@ Language.L.emoji = {
 "cherry_blossom": "🌸",
    "caterpillar": "🐛",
          "climb": "🧗",
+        "closed": "🔒",
         "couple": "💑",
        "cyclone": "🌀",
           "died": "🌈",
@@ -648,6 +649,27 @@ Language.L.messages = {
            " बाट ",
            "<INSERTZOO>"]
   },
+  "closed": {
+    "cn": [Language.L.emoji.closed + " ",
+           "<INSERTDATE>",
+           "永久关闭"],
+    "en": [Language.L.emoji.closed + " ", 
+           "Permanently closed on ",
+           "<INSERTDATE>"],
+    "jp": [Language.L.emoji.closed + " ",
+           "<INSERTDATE>",
+           "に閉業"],
+    "np": [Language.L.emoji.closed + " ",
+           "स्थायी रूपमा ",
+           "<INSERTDATE>",
+           "बन्द भयो"]
+  },
+  "comma": {
+    "cn": "及",
+    "en": ", ",
+    "jp": "と",
+    "np": ", "
+  },
   "credit": {
     "cn": [Language.L.emoji.gift + " ",
            "<INSERTUSER>",
@@ -669,12 +691,6 @@ Language.L.messages = {
            " ले ",
            "<INSERTNUMBER>",
            " फोटो योगदान गरेको छ"]
-  },
-  "comma": {
-    "cn": "及",
-    "en": ", ",
-    "jp": "と",
-    "np": ", "
   },
   "departed_to_zoo": {
     "cn": ["<INSERTDATE>",

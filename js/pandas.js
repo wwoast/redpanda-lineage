@@ -315,6 +315,7 @@ Pandas.def.wild = {
 
 Pandas.def.zoo = {
   "_id": "0",
+  "closed": "1970/1/1",
   "cn.address": "TOWRITE",
   "cn.location": "TOWRITE",
   "cn.name": "TOWRITE",

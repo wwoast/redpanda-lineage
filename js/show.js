@@ -73,6 +73,7 @@ Show.acquireZooInfo = function(zoo, language) {
        "animals": animals,
        "address": Pandas.zooField(zoo, language + ".address"),
   "animal_count": animals.length,
+        "closed": Pandas.zooField(zoo, "closed"),
       "get_name": language + ".name",
             "id": zoo["_id"],
       "language": language,
@@ -1435,6 +1436,21 @@ Show.message.birthday = function(name, animal_id, years, language) {
   message.className = "birthdaySummary";
   message.appendChild(shrinker);
   return message;
+}
+Show.message.closed = function(date) {
+  var p = document.createElement('p');
+  for (var i in L.messages.closed[language]) {
+    var field = L.messages.closed[language][i];
+    if (field == "<INSERTDATE>") {
+      field = date;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  return p;  
 }
 Show.message.credit = function(credit, count, language) {
   // Draw a header for crediting someone's photos contribution 
@@ -2952,6 +2968,10 @@ Show.results.zooDetails = function(info) {
   zoo_page.appendChild(zoo_link);
   var details = document.createElement('div');
   details.className = "zooDetails";
+  if (info.closed != Pandas.def.zoo.closed) {
+    var closed = Show.message.closed(Pandas.formatDate(closed, L.display));
+    details.appendChild(closed);
+  }
   details.appendChild(address);
   details.appendChild(zoo_page);
   // Photo details are optional for zoos, so don't show the
