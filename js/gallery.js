@@ -150,7 +150,11 @@ Gallery.G.photoEntity = function(entity_id=this.info.id) {
 
 // Navigation input event -- load the next photo in the carousel
 Gallery.G.photoNext = function(entity_id=this.info.id) {
-  var carousel_id = this.unique + "_" + entity_id;
+  // HACK: from touch handlers, it has a carousel id
+  var carousel_id = entity_id;
+  if (entity_id.indexOf("_") == -1) {
+    carousel_id = this.unique + "_" + entity_id;
+  }
   var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) + 1);
@@ -158,7 +162,11 @@ Gallery.G.photoNext = function(entity_id=this.info.id) {
 
 // Navigation input event -- load the previous photo in the carousel
 Gallery.G.photoPrevious = function(entity_id=this.info.id) {
-  var carousel_id = this.unique + "_" + entity_id;
+  // HACK: from touch handlers, it has a carousel id
+  var carousel_id = entity_id;
+  if (entity_id.indexOf("_") == -1) {
+    carousel_id = this.unique + "_" + entity_id;
+  }
   var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
