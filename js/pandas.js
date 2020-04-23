@@ -1606,7 +1606,6 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
       var match = new RegExp(connector + last_animal.name + "$");
       var replace = Language.L.messages["and"][L.display] + last_animal.name;
       output_string = output_string.replace(match, replace);
-                                            );
     } else {  
       output_string = animals.map(x => x.name).join(connector);
     }
