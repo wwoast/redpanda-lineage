@@ -1437,7 +1437,7 @@ Show.message.birthday = function(name, animal_id, years, language) {
   message.appendChild(shrinker);
   return message;
 }
-Show.message.closed = function(date) {
+Show.message.closed = function(date, language) {
   var p = document.createElement('p');
   for (var i in L.messages.closed[language]) {
     var field = L.messages.closed[language][i];
@@ -2969,7 +2969,7 @@ Show.results.zooDetails = function(info) {
   var details = document.createElement('div');
   details.className = "zooDetails";
   if (info.closed != Pandas.def.zoo.closed) {
-    var closed = Show.message.closed(Pandas.formatDate(info.closed, L.display));
+    var closed = Show.message.closed(Pandas.formatDate(info.closed), L.display);
     details.appendChild(closed);
   }
   details.appendChild(address);
