@@ -49,6 +49,11 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
   var image = document.createElement('img');
   if (url == undefined) {
     image.src = this.fallback_url;
+  } else if (id.indexOf("_") != -1) {
+    // HACK: passing carousel id from touch handlers
+    image.src = url;
+    image.id = id + "/photo/" + index;
+    image.className = id + "/photo";
   } else {
     image.src = url;
     image.id = this.unique + "_" + id + "/photo/" + index;   // For carousel
@@ -196,7 +201,7 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   }
   var chosen = "photo." + new_index.toString();
   var new_choice = photo_manifest[chosen];
-  var new_container = this.displayPhoto(new_choice, entity_id, new_index.toString());
+  var new_container = this.displayPhoto(new_choice, carousel_id, new_index.toString());
   var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
