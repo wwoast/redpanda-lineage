@@ -724,6 +724,10 @@ Gallery.tagPhotoMessage = function(results, hit_count, overflow) {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
     header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
+  } else if (results["parsed"] == "set_tag_intersection_subject") {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
+    header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
   } else {
     header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
   }

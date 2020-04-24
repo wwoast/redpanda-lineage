@@ -84,6 +84,19 @@ Query.resolver.group_one_set = function(set_node) {
   var keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
   var search_word = undefined;   // TODO: multi-subject search
   var tag = undefined;
+  if (set_node.type == "set_tag_intersection_subject") {
+    var subject_node = Parse.tree.filter(set_node, Parse.tree.tests.subject)[0];
+    search_word = subject_node.str;
+    Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
+    tags = keyword_nodes
+      .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
+    tag = tags.join(", ");   // For query output
+    hits = Pandas.searchPhotoTags(
+      Pandas.searchPanda(search_word), 
+      tags, mode="intersect", fallback="none"
+    );
+  }
   if (set_node.type == "set_tag_intersection") {
     Query.env.output_mode = "photos";
     Query.env.paging.display_button = true;

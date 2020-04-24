@@ -632,7 +632,7 @@ Page.results.photos = function(results) {
       (results["parsed"] == "set_tag_subject")) {
     // Basic tag views with emoji in the name field
     content_divs = Gallery.tagPhotos(results, L.display, max_hits, true);
-  } else if (results["parsed"] == "set_tag_intersection") {
+  } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
     // Combo tag views, no emoji in the name field
     content_divs = Gallery.tagPhotos(results, L.display, max_hits, false);
   } else if (results["parsed"] == "set_credit_photos") {

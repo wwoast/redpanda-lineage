@@ -428,16 +428,20 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
   var c_k_group_tags = Repeat(Choices(Parse.group.tags, 2));
+  var c_k_group_tags_name = Reversible(Repeat(Choices(Parse.group.tags, 2)), r_name);
+  var c_k_group_tags_id = Reversible(Repeat(Choices(Parse.group.tags, 2)), r_id);
   // Binary keywords
   // var c_k_binary_logical = Choices(Parse.ops.group.binary_logic);
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_id,
     c_k_zeroary,
-    c_k_group_tags,     // Search for many tags at once
-    c_k_unary_year,     // Unary keywords followed by year-number
-    c_k_unary_number,   // Unary keywords followed by id-number
-    c_k_unary_name,     // Unary keywords followed by a name-string
+    c_k_group_tags,       // Search for many tags at once
+    c_k_group_tags_name,  // Tags followed by a name-string
+    c_k_group_tags_id,    // Tags followed by id-number
+    c_k_unary_year,       // Unary keywords followed by year-number
+    c_k_unary_number,     // Unary keywords followed by id-number
+    c_k_unary_name,       // Unary keywords followed by a name-string
     // TODO: don't have parse tree techniques to detect these
     // Sequence('(', THIS, ')'),   // Bracketed expressions
     // Sequence(THIS, c_k_binary_logical, THIS),
@@ -618,6 +622,11 @@ Parse.tree.node_type_composite_ids = function(node) {
     if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag") {
       return "set_tag_intersection";
     }
+    if (Pandas.distinct(singulars).length == 2 && 
+        singulars[0].indexOf("subject") == 0 &&
+        singulars[1] == "tag") {
+      return "set_tag_intersection_subject";
+    }
   }
   return "composite";
 }
@@ -715,6 +724,7 @@ Parse.tree.types.sets = [
   "set_panda_id",
   "set_tag",
   "set_tag_intersection",
+  "set_tag_intersection_subject",
   "set_tag_subject",
   "set_zoo_id"
 ];
@@ -751,7 +761,7 @@ Parse.tree.tests.subject = Parse.tree.types.subject.map(t => ({"type": t}));
 // any nodes you run into along the way.
 Parse.tree.walk_to_subject_container = function(node) {
   var parent_type = this.node_type_composite_ids(node.parent);
-  node.parent.type = parent_type;   // Set paret node types as we walk
+  node.parent.type = parent_type;   // Set parent node types as we walk
   if (parent_type.indexOf("contains") == 0) {
     return this.walk_to_subject_container(node.parent);
   } else {
