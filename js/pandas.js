@@ -948,6 +948,12 @@ Pandas.searchPandaZooBornLived = function(idnum, search_context=false) {
       if (current_range != undefined) {
         date_ranges.push(current_range);
       }
+      // Sort by first arrival time in the list
+      if (date_ranges.length == 0) {
+        vertex["sort_time"] = new Date(vertex.birthday);
+      } else {
+        vertex["sort_time"] = new Date(date_ranges[0][0]);
+      }
       vertex["search_context"] = {
         "query": "born_or_lived",
         "ranges": date_ranges,
@@ -956,7 +962,8 @@ Pandas.searchPandaZooBornLived = function(idnum, search_context=false) {
       return vertex;
     });
   }
-  return Pandas.sortOldestToYoungest(nodes);
+  nodes = Pandas.sortByDate(nodes, "sort_time", "ascending");
+  return nodes;
 }
 
 // Find all pandas born at a given zoo any time.
