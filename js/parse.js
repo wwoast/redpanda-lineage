@@ -37,7 +37,14 @@ Parse.searchTag = function(search_tag) {
     let terms = Parse.values(Language.L.tags[key]);
     if (terms.indexOf(search_tag) != -1) {
       return key;
-    } 
+    }
+  }
+  // Search things that could be tags in the right context
+  for (var key of Object.keys(Language.L.polyglots)) {
+    let terms = Parse.values(Language.L.polyglots[key]);
+    if (terms.indexOf(search_tag) != -1) {
+      return key;
+    }    
   }
   return undefined;
 }
@@ -246,6 +253,7 @@ Parse.group.takes_subject_author = Parse.values([
 // Keywords that take some form of arbitrary string name
 Parse.group.takes_subject_name = Parse.values([
   Language.L.tags,
+  Parse.keyword.baby,
   Parse.keyword.credit,
   Parse.keyword.family,
   Parse.keyword.panda,
@@ -661,9 +669,8 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
     }
     //  2) (baby)+(name or id): baby is a tag, name is the intended panda. Get baby photos
     else if ((Parse.group.baby.indexOf(keyword_node.str) != -1) &&
-             ((subject_node.type == "subject_name") || 
-              (subject_node.type == "subject_year"))) {
-      container_node.type = "set_baby_subject_photos";
+             (subject_node.type == "subject_name")) {
+      container_node.type = "set_baby_subject";
       keyword_node.type = "tag";
     }
     //  3) (credit)+(any subject): subject is an author name. Author search
@@ -711,7 +718,7 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
 Parse.tree.types = {};
 Parse.tree.types.sets = [
   "set_babies_year_list",
-  "set_baby_subject_photos",  
+  "set_baby_subject",  
   "set_credit_photos",
   "set_family_list",
   "set_keyword",

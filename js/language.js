@@ -1526,6 +1526,17 @@ Language.L.messages = {
   }
 }
 
+// These are tags in some contexts, and keywords in others
+Language.L.polyglots = {
+  "baby": {
+    "cn": ["宝宝", "婴儿", "婴儿们"],
+ "emoji": [Language.L.emoji.baby],
+    "en": ["baby", "babies"],
+    "jp": ["赤", "赤ちゃん"],
+    "np": ["बच्चा"]
+  }
+}
+
 // Search tag translations for searching photos by metadata.
 // Limit to 100 photos returned by default, but they don't 
 // have to be the same 100 returned each time.
@@ -2493,6 +2504,14 @@ Language.tagPrimary = function(input) {
   for (let ctag in Language.L.tags) {
     for (let lang of lang_values) {
       if (Language.L.tags[ctag][lang].indexOf(input) != -1) {
+        return ctag;
+      }
+    }
+  }
+  // Need to search polyglots too, for things like "baby"
+  for (let ctag in Language.L.polyglots) {
+    for (let lang of lang_values) {
+      if (Language.L.polyglots[ctag][lang].indexOf(input) != -1) {
         return ctag;
       }
     }

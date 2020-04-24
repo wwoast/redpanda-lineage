@@ -629,7 +629,8 @@ Page.results.photos = function(results) {
   var content_divs = [];
   var max_hits = Query.env.paging.results_count;
   if ((results["parsed"] == "set_tag") || 
-      (results["parsed"] == "set_tag_subject")) {
+      (results["parsed"] == "set_tag_subject") ||
+      (results["parsed"] == "set_baby_subject")) {
     // Basic tag views with emoji in the name field
     content_divs = Gallery.tagPhotos(results, L.display, max_hits, true);
   } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {

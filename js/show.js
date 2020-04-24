@@ -1833,7 +1833,7 @@ Show.message.residents = function(zoo, language) {
   return message;
 
 }
-Show.message.tag_combo = function(num, emojis, language, overflow) {
+Show.message.tag_combo = function(num, emojis, language) {
   var p = document.createElement('p');
   // Emojis come first!
   for (let emoji of emojis) {
@@ -1850,21 +1850,6 @@ Show.message.tag_combo = function(num, emojis, language, overflow) {
   }
   output_text = Language.unpluralize([output_text])[0];
   p.appendChild(document.createTextNode(output_text));
-  /*
-  // With paging, overflow messages are unnecessary...
-  if (overflow > 0) {
-    for (var i in L.messages.overflow[language]) {
-      var field = L.messages.overflow[language][i];
-      if (field == "<INSERTLIMIT>") {
-        var msg = document.createTextNode(overflow);
-        p.appendChild(msg);
-      } else {
-        var msg = document.createTextNode(field);
-        p.appendChild(msg);
-      }
-    }
-  }
-  */
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
   shrinker.appendChild(p);
@@ -1873,7 +1858,7 @@ Show.message.tag_combo = function(num, emojis, language, overflow) {
   message.appendChild(shrinker);
   return message;
 }
-Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0) {
+Show.message.tag_subject = function(num, name, emoji, tag, language) {
   // If there was an id as part of a tagExpression, rewrite this message
   // using the panda's localized name instead.
   if (Pandas.checkId(name) == true) {
@@ -1881,7 +1866,14 @@ Show.message.tag_subject = function(num, name, emoji, tag, language, overflow=0)
   }
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
-  var near_tag = Language.L.tags[tag][language][0];
+  // Need to look up "baby" info as well from the polyglot list of things
+  // that can be either keywords or tags.
+  var near_tag = undefined;
+  if (tag in Language.L.tags) {
+    near_tag = Language.L.tags[tag][language][0];
+  } else {
+    near_tag = Language.L.polyglots[tag][language][0];
+  }
   var p = document.createElement('p');
   for (var i in L.messages.tag_subject[language]) {
     var field = L.messages.tag_subject[language][i];

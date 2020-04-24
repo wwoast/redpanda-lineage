@@ -647,17 +647,12 @@ Gallery.pandaPhotoCreditSingle = function(item) {
 Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
   var page_results = results["hits"].slice();   // Working copy of photo set
   var hit_count = page_results.length;
-  var overflow = 0;
-  if (hit_count > max_hits) {
-    // Too many hits. Randomize what we have and save the top N
-    overflow = max_hits;
-  }
   // Get the first page of content
   var paging_data = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
   var content_divs = paging_data["output"];
   // Build a summary message based on which tag_photo parser mode we have,
   // and whether we have hits or not.
-  var header = Gallery.tagPhotoMessage(results, hit_count, overflow);
+  var header = Gallery.tagPhotoMessage(results, hit_count);
   content_divs.unshift(header);
   return content_divs;
 }
@@ -709,7 +704,7 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
 }
 
 // Logic to determine which message to display inside the photo gallery of tagged photos
-Gallery.tagPhotoMessage = function(results, hit_count, overflow) {
+Gallery.tagPhotoMessage = function(results, hit_count) {
   var header = undefined;
   if (hit_count == 0) {
     header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
@@ -719,15 +714,21 @@ Gallery.tagPhotoMessage = function(results, hit_count, overflow) {
     var ctag = Language.tagPrimary(tag);
     header = Show.message.tag_subject(hit_count, results["subject"],
                                       Language.L.tags[ctag]["emoji"], 
-                                      ctag, L.display, overflow);
+                                      ctag, L.display);
+  } else if (results["parsed"] == "set_baby_subject") {
+    var tag = results["tag"] != undefined ? results["tag"] : results["query"];
+    var ctag = Language.tagPrimary(tag);
+    header = Show.message.tag_subject(hit_count, results["subject"],
+                           Language.L.polyglots[ctag]["emoji"], 
+                           ctag, L.display);
   } else if (results["parsed"] == "set_tag_intersection") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
+    header = Show.message.tag_combo(hit_count, emojis, L.display);
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    header = Show.message.tag_combo(hit_count, emojis, L.display, overflow);
+    header = Show.message.tag_combo(hit_count, emojis, L.display);
   } else {
     header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
   }
