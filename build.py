@@ -642,10 +642,19 @@ class PhotoEntry:
             self.was_cached = True
         else:
             config = configparser.ConfigParser()
-            if not os.path.exists(self.filename):
-                return None
-            config.read(self.filename, encoding='utf-8')
             self.filename = "./" + self.filename   # Standardize path
+            if not os.path.exists(self.filename):
+                # Fallback to filename number and path for entity
+                # This is a hack for when files are renamed
+                if self.filename.find(MEDIA_PATH) != -1:
+                    self.entity_type = "media"
+                elif self.filename.find(PANDA_PATH) != -1:
+                    self.entity_type = "panda"
+                elif self.filename.find(ZOO_PATH) != -1:
+                    self.entity_type = "zoo"
+                self.entity_id = self.filename.split("_")[0]
+                return
+            config.read(self.filename, encoding='utf-8')
             if self.filename.find(MEDIA_PATH) != -1:
                 entity = config.get("media", "_id")
                 self.entity_type = entity.split(".")[0]
