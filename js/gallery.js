@@ -102,6 +102,12 @@ Gallery.G.displayPhotoNavigation = function() {
       that.photoPrevious(that.info.id);
       Gallery.condenseDogEar(span);
     });
+    span_link.addEventListener('auxclick', function(e) {   // Middle click event
+      if (e.which == 2) {
+        e.preventDefault();   // Prevent middle click opening a new tab
+        that.photoRandom(that.info.id);
+      }
+    });
   }
   span_link.appendChild(span);
   Gallery.condenseDogEar(span);   // More than three digits?
@@ -175,6 +181,28 @@ Gallery.G.photoPrevious = function(entity_id=this.info.id) {
   var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
   this.photoSwap(current_photo_element, parseInt(current_photo_id) - 1);
+}
+
+// Navigation input event -- load a random photo of this animal in the carousel
+Gallery.G.photoRandom = function(entity_id=this.info.id) {
+  // HACK: from touch handlers, it has a carousel id
+  var carousel_id = entity_id;
+  if (entity_id.indexOf("_") == -1) {
+    carousel_id = this.unique + "_" + entity_id;
+  }
+  var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
+  var current_photo_id = current_photo_element.id.split("/")[2];
+  // Randomly choose the next id
+  var photo_indexes = Object.keys(
+    Pandas.photoManifest(Pandas.searchPandaId(entity_id)[0], "animal"))
+      .map(x => x.split(".")[1]);
+  var next_id = current_photo_id;
+  if (photo_indexes.length > 1) {
+    while (next_id == current_photo_id) {
+      next_id = Pandas.randomChoice(photo_indexes, 1);
+    }
+  }
+  this.photoSwap(current_photo_element, parseInt(next_id));
 }
 
 // Switch the currently displayed photo to the next one in the list
