@@ -12,34 +12,34 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 73
-photo.1: https://www.instagram.com/p/Bj1LGQfnybc/media/?size=m
-photo.1.author: fjtmisa
-photo.1.link: https://www.instagram.com/fjtmisa/
-photo.1.tags: portrait, profile, smile, tongue
-photo.2: https://www.instagram.com/p/BS8mehtBeMC/media/?size=m
-photo.2.author: perie1027vivi
-photo.2.link: https://www.instagram.com/perie1027vivi/
-photo.2.tags: grooming, portrait
-photo.3: https://www.instagram.com/p/Bb8YCUchSq2/media/?size=m
-photo.3.author: 8a8i8
-photo.3.link: https://www.instagram.com/8a8i8/
-photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/BnlOJDoDUBi/media/?size=m
-photo.4.author: bee_san.13
-photo.4.link: https://www.instagram.com/bee_san.13/
-photo.4.tags: portrait, smile
-photo.5: https://www.instagram.com/p/Bqr0NYolvfh/media/?size=m
+photo.1: https://www.instagram.com/p/BS8mehtBeMC/media/?size=m
+photo.1.author: perie1027vivi
+photo.1.link: https://www.instagram.com/perie1027vivi/
+photo.1.tags: grooming, portrait
+photo.2: https://www.instagram.com/p/Bb8YCUchSq2/media/?size=m
+photo.2.author: 8a8i8
+photo.2.link: https://www.instagram.com/8a8i8/
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/Bj1LGQfnybc/media/?size=m
+photo.3.author: fjtmisa
+photo.3.link: https://www.instagram.com/fjtmisa/
+photo.3.tags: portrait, profile, smile, tongue
+photo.4: https://www.instagram.com/p/BkxSCJkFouZ/media/?size=m
+photo.4.author: mikaamihara
+photo.4.link: https://www.instagram.com/mikaamihara/
+photo.4.tags: portrait, sleeping, tongue
+photo.5: https://www.instagram.com/p/BnlOJDoDUBi/media/?size=m
 photo.5.author: bee_san.13
 photo.5.link: https://www.instagram.com/bee_san.13/
-photo.5.tags: tree
-photo.6: https://www.instagram.com/p/BkxSCJkFouZ/media/?size=m
-photo.6.author: mikaamihara
-photo.6.link: https://www.instagram.com/mikaamihara/
-photo.6.tags: portrait, sleeping, tongue
-photo.7: https://www.instagram.com/p/Bp64G7RFLow/media/?size=m
+photo.5.tags: portrait, smile
+photo.6: https://www.instagram.com/p/Bp64G7RFLow/media/?size=m
+photo.6.author: bee_san.13
+photo.6.link: https://www.instagram.com/bee_san.13/
+photo.6.tags: home, portrait, smile
+photo.7: https://www.instagram.com/p/Bqr0NYolvfh/media/?size=m
 photo.7.author: bee_san.13
 photo.7.link: https://www.instagram.com/bee_san.13/
-photo.7.tags: home, portrait, smile
+photo.7.tags: tree
 photo.8: https://www.instagram.com/p/BqzL6vqld4w/media/?size=m
 photo.8.author: bee_san.13
 photo.8.link: https://www.instagram.com/bee_san.13/
@@ -104,34 +104,34 @@ photo.23: https://www.instagram.com/p/B6F-rfWB-Cy/media/?size=m
 photo.23.author: bee_san.13
 photo.23.link: https://www.instagram.com/bee_san.13/
 photo.23.tags: apple time, keeper, portrait, whiskers
-photo.24: https://www.instagram.com/p/B75iqzihUGI/media/?size=m
-photo.24.author: bee_san.13
-photo.24.link: https://www.instagram.com/bee_san.13/
-photo.24.tags: portrait, smile
-photo.25: https://www.instagram.com/p/B8GdaxGBbgY/media/?size=m
+photo.24: https://www.instagram.com/p/B6XLsGzhlsz/media/?size=m
+photo.24.author: merumeru119
+photo.24.link: https://www.instagram.com/merumeru119/
+photo.24.tags: portrait, whiskers
+photo.25: https://www.instagram.com/p/B75iqzihUGI/media/?size=m
 photo.25.author: bee_san.13
 photo.25.link: https://www.instagram.com/bee_san.13/
-photo.25.tags: portrait, techitechi
-photo.26: https://www.instagram.com/p/B8RPAswhL4f/media/?size=m
-photo.26.author: sasapan34
-photo.26.link: https://www.instagram.com/sasapan34/
-photo.26.tags: paws, smile
-photo.27: https://www.instagram.com/p/B8SXXXbhgS2/media/?size=m
-photo.27.author: bee_san.13
-photo.27.link: https://www.instagram.com/bee_san.13/
-photo.27.tags: apple time, keeper, portrait, standing, tail
-photo.28: https://www.instagram.com/p/B8YnhkBBRJH/media/?size=m
-photo.28.author: mifko55
-photo.28.link: https://www.instagram.com/mifko55/
-photo.28.tags: portrait, whiskers
-photo.29: https://www.instagram.com/p/B9B6rzrhDd-/media/?size=m
-photo.29.author: bee_san.13
-photo.29.link: https://www.instagram.com/bee_san.13/
-photo.29.tags: paws, smile, toys
-photo.30: https://www.instagram.com/p/B6XLsGzhlsz/media/?size=m
-photo.30.author: merumeru119
-photo.30.link: https://www.instagram.com/merumeru119/
-photo.30.tags: portrait, whiskers
+photo.25.tags: portrait, smile
+photo.26: https://www.instagram.com/p/B8GdaxGBbgY/media/?size=m
+photo.26.author: bee_san.13
+photo.26.link: https://www.instagram.com/bee_san.13/
+photo.26.tags: portrait, techitechi
+photo.27: https://www.instagram.com/p/B8RPAswhL4f/media/?size=m
+photo.27.author: sasapan34
+photo.27.link: https://www.instagram.com/sasapan34/
+photo.27.tags: paws, smile
+photo.28: https://www.instagram.com/p/B8SXXXbhgS2/media/?size=m
+photo.28.author: bee_san.13
+photo.28.link: https://www.instagram.com/bee_san.13/
+photo.28.tags: apple time, keeper, portrait, standing, tail
+photo.29: https://www.instagram.com/p/B8YnhkBBRJH/media/?size=m
+photo.29.author: mifko55
+photo.29.link: https://www.instagram.com/mifko55/
+photo.29.tags: portrait, whiskers
+photo.30: https://www.instagram.com/p/B9B6rzrhDd-/media/?size=m
+photo.30.author: bee_san.13
+photo.30.link: https://www.instagram.com/bee_san.13/
+photo.30.tags: paws, smile, toys
 photo.31: https://www.instagram.com/p/B9I6WLZhHee/media/?size=m
 photo.31.author: tabechum
 photo.31.link: https://www.instagram.com/tabechum/

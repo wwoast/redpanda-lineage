@@ -12,18 +12,18 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 182
-photo.1: https://www.instagram.com/p/BgYbXHKFjlN/media/?size=m
-photo.1.author: kk_specs
-photo.1.link: https://www.instagram.com/kk.specs/
-photo.1.tags: blink, tail
+photo.1: https://www.instagram.com/p/BVk-BvRhw_B/media/?size=m
+photo.1.author: meiki.0331km
+photo.1.link: https://www.instagram.com/meiki.0331km/
+photo.1.tags: tail
 photo.2: https://www.instagram.com/p/BZfq9PljfT5/media/?size=m
 photo.2.author: s0a5w3a
 photo.2.link: https://www.instagram.com/s0a5w3a/
 photo.2.tags: apple time
-photo.3: https://www.instagram.com/p/BVk-BvRhw_B/media/?size=m
-photo.3.author: meiki.0331km
-photo.3.link: https://www.instagram.com/meiki.0331km/
-photo.3.tags: tail
+photo.3: https://www.instagram.com/p/BgYbXHKFjlN/media/?size=m
+photo.3.author: kk_specs
+photo.3.link: https://www.instagram.com/kk.specs/
+photo.3.tags: blink, tail
 photo.4: https://www.instagram.com/p/Bji3gYnliZq/media/?size=m
 photo.4.author: so2_bicycle
 photo.4.link: https://www.instagram.com/so2_bicycle/
@@ -32,13 +32,13 @@ photo.5: https://www.instagram.com/p/BmsoA18DCrY/media/?size=m
 photo.5.author: bee_san.13
 photo.5.link: https://www.instagram.com/bee_san.13/
 photo.5.tags: grooming, tail
-photo.6: https://www.instagram.com/p/BrFa6YnFcgz/media/?size=m
+photo.6: https://www.instagram.com/p/BqMdLdSFUPn/media/?size=m
 photo.6.author: bee_san.13
 photo.6.link: https://www.instagram.com/bee_san.13/
-photo.6.tags: bamboo, smile
-photo.7: https://www.instagram.com/p/BqMdLdSFUPn/media/?size=m
+photo.7: https://www.instagram.com/p/BrFa6YnFcgz/media/?size=m
 photo.7.author: bee_san.13
 photo.7.link: https://www.instagram.com/bee_san.13/
+photo.7.tags: bamboo, smile
 photo.8: https://www.instagram.com/p/B39Wo1whtez/media/?size=m
 photo.8.author: re_ichimaru
 photo.8.link: https://www.instagram.com/re_ichimaru/
@@ -50,5 +50,25 @@ photo.10: https://www.instagram.com/p/B9753M4Bvd5/media/?size=m
 photo.10.author: tabechum
 photo.10.link: https://www.instagram.com/tabechum/
 photo.10.tags: bamboo, paws, portrait, smile
+photo.11: https://www.instagram.com/p/B_NCpWohBBY/media/?size=m
+photo.11.author: ayusuke56
+photo.11.link: https://www.instagram.com/ayusuke56/
+photo.11.tags: apple time, paws, portrait, tongue
+photo.12: https://www.instagram.com/p/B_Pmgtrh23l/media/?size=m
+photo.12.author: ayusuke56
+photo.12.link: https://www.instagram.com/ayusuke56/
+photo.12.tags: ear, portrait, smile, techitechi
+photo.13: https://www.instagram.com/p/B_Uv8dLnM9j/media/?size=m
+photo.13.author: ayusuke56
+photo.13.link: https://www.instagram.com/ayusuke56/
+photo.13.tags: ear, portrait, smile
+photo.14: https://www.instagram.com/p/B_XUfpmHxGq/media/?size=m
+photo.14.author: ayusuke56
+photo.14.link: https://www.instagram.com/ayusuke56/
+photo.14.tags: bamboo, portrait
+photo.15: https://www.instagram.com/p/B_Z6HEmHC0R/media/?size=m
+photo.15.author: ayusuke56
+photo.15.link: https://www.instagram.com/ayusuke56/
+photo.15.tags: ear, portrait
 species: 2
 zoo: 31

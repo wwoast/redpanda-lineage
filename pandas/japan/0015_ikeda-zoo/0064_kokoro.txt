@@ -44,14 +44,14 @@ photo.7.link: https://www.instagram.com/kipekaila/
 photo.8: https://www.instagram.com/p/Bvyw2DMFuSm/media/?size=m
 photo.8.author: sakikukeco
 photo.8.link: https://www.instagram.com/sakikukeco/
-photo.9: https://www.instagram.com/p/By42mnaBKha/media/?size=m
-photo.9.author: framereim
-photo.9.link: https://www.instagram.com/framereim/
-photo.9.tags: smile, tree
-photo.10: https://www.instagram.com/p/By4EQqknfgJ/media/?size=m
-photo.10.author: mochan8686
-photo.10.link: https://www.instagram.com/mochan8686/
-photo.10.tags: mofumofu, portrait, tail, tongue
+photo.9: https://www.instagram.com/p/By4EQqknfgJ/media/?size=m
+photo.9.author: mochan8686
+photo.9.link: https://www.instagram.com/mochan8686/
+photo.9.tags: mofumofu, portrait, tail, tongue
+photo.10: https://www.instagram.com/p/By42mnaBKha/media/?size=m
+photo.10.author: framereim
+photo.10.link: https://www.instagram.com/framereim/
+photo.10.tags: smile, tree
 photo.11: https://www.instagram.com/p/B1AKNgDBrti/media/?size=m
 photo.11.author: redpanda_nippon_takashi
 photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
@@ -99,5 +99,13 @@ photo.22: https://www.instagram.com/p/B-9yHvAg4iN/media/?size=m
 photo.22.author: itsuak
 photo.22.link: https://www.instagram.com/itsuak/
 photo.22.tags: bamboo, paws
+photo.23: https://www.instagram.com/p/B_AVGAYA947/media/?size=m
+photo.23.author: itsuak
+photo.23.link: https://www.instagram.com/itsuak/
+photo.23.tags: climb, paws, portrait
+photo.24: https://www.instagram.com/p/B_OXRqmBW5_/media/?size=m
+photo.24.author: kipekaila
+photo.24.link: https://www.instagram.com/kipekaila/
+photo.24.tags: bridge, laying down, portrait, white face
 species: 2
 zoo: 15
