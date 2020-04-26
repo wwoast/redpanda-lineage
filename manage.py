@@ -404,15 +404,15 @@ def sort_ig_updates():
     Any data file that was updated in the last commit, do a sort operation for the
     IG hashes, leaving non-IG files unchanged.
     """
-    self.repo = git.Repo(".")
-    self.prior_commit = self._starting_commit("HEAD~1")
-    self.current_commit = self.repo.commit("HEAD")
-    self.diff_raw = self.repo.git.diff(self.prior_commit, 
-                                        self.current_commit,
-                                        ignore_blank_lines=True,
-                                        ignore_space_at_eol=True)
-    self.patch = PatchSet(self.diff_raw)
-    for change in self.patch:
+    repo = git.Repo(".")
+    prior_commit = repo.commit("HEAD~1")
+    current_commit = repo.commit("HEAD")
+    diff_raw = repo.git.diff(prior_commit, 
+                             current_commit,
+                             ignore_blank_lines=True,
+                             ignore_space_at_eol=True)
+    patch = PatchSet(diff_raw)
+    for change in patch:
         filename = change.path
         if filename.find(".txt") == -1:
             # Don't care about non-data files
@@ -423,7 +423,7 @@ def sort_ig_updates():
 
 if __name__ == '__main__':
     """Choose a utility funciton."""
-    if len(sys.argv == 2):
+    if len(sys.argv) == 2:
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
     if len(sys.argv) == 3:
