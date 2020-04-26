@@ -322,7 +322,7 @@ def sort_ig_hashes(path):
     TODO: someday maybe make this work for media photos
     """
     # IG alphabet for hashes, time ordering oldest to newest
-    hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
+    hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
     section = None
     for section_name in ["wild", "zoos", "pandas"]:
         if section_name in path.split("/"):
