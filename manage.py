@@ -348,6 +348,7 @@ def sort_ig_hashes(path):
             # Track the photo and index as a tuple
             ig_photos.append([photo, photo_index])
             # Rename all photo fields as "old_photo_field"
+            # TODO: to support media use, move the location tag items too
             photo_list.move_field("old." + photo_option, photo_option)
             photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
             photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
