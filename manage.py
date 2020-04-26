@@ -5,6 +5,7 @@
 # photos taken by a specific credited author.
 
 import configparser
+import git
 import json
 import os
 import re
@@ -12,6 +13,7 @@ import sys
 
 from collections import OrderedDict
 from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
+from unidiff import PatchSet
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     """
@@ -397,8 +399,33 @@ def sort_ig_hashes(path):
     # We're done. Update the photo file
     photo_list.update_file()
 
+def sort_ig_updates():
+    """
+    Any data file that was updated in the last commit, do a sort operation for the
+    IG hashes, leaving non-IG files unchanged.
+    """
+    self.repo = git.Repo(".")
+    self.prior_commit = self._starting_commit("HEAD~1")
+    self.current_commit = self.repo.commit("HEAD")
+    self.diff_raw = self.repo.git.diff(self.prior_commit, 
+                                        self.current_commit,
+                                        ignore_blank_lines=True,
+                                        ignore_space_at_eol=True)
+    self.patch = PatchSet(self.diff_raw)
+    for change in self.patch:
+        filename = change.path
+        if filename.find(".txt") == -1:
+            # Don't care about non-data files
+            continue
+        elif change.added > 0:
+            sort_ig_hashes(filename)
+
+
 if __name__ == '__main__':
     """Choose a utility funciton."""
+    if len(sys.argv == 2):
+        if sys.argv[1] == "--sort-instagram-updates":
+            sort_ig_updates()
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
