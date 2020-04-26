@@ -319,12 +319,11 @@ def sort_ig_hashes(path):
     This makes the photos appear in the order they were uploaded to IG,
     oldest to newest. 
     If a photo does not use an IG URI, keep its index unchanged.
-    TODO: someday maybe make this work for media photos
     """
     # IG alphabet for hashes, time ordering oldest to newest
     hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
     section = None
-    for section_name in ["wild", "zoos", "pandas"]:
+    for section_name in ["wild", "zoos", "media", "pandas"]:
         if section_name in path.split("/"):
             section = section_name.split("s")[0]   # HACK
     photo_list = PhotoFile(section, path)
@@ -348,11 +347,15 @@ def sort_ig_hashes(path):
             # Track the photo and index as a tuple
             ig_photos.append([photo, photo_index])
             # Rename all photo fields as "old_photo_field"
-            # TODO: to support media use, move the location tag items too
             photo_list.move_field("old." + photo_option, photo_option)
             photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
             photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
             photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
+            if section == "media":
+                panda_tags = photo_list.get_field("panda.tags").split(", ")
+                for panda_id in panda_tags:
+                    photo_item = photo_option + ".tags." + panda_id + ".location"
+                    photo_list.move_field("old." + photo_item, photo_item)
         else:
             # Track the non-ig index, so we can avoid it
             # Don't need to rename these photos
@@ -384,6 +387,12 @@ def sort_ig_hashes(path):
         photo_list.move_field(current_option + ".author", old_option + ".author")
         photo_list.move_field(current_option + ".link", old_option + ".link")
         photo_list.move_field(current_option + ".tags", old_option + ".tags")
+        if section == "media":
+            panda_tags = photo_list.get_field("panda.tags").split(", ")
+            for panda_id in panda_tags:
+                current_loc_tag =  current_option + ".tags." + panda_id + ".location"
+                old_loc_tag = old_option + ".tags." + panda_id + ".location"
+                photo_list.move_field(current_loc_tag, old_loc_tag)
         list_index = list_index + 1
     # We're done. Update the photo file
     photo_list.update_file()
