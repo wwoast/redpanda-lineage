@@ -14,28 +14,28 @@ language.order: jp, en
 location.1: 5, 2011/5/28
 location.2: 2, 2013/3/30
 location.3: 37, 2013/7/10
-photo.1: https://www.instagram.com/p/BgKtic2lNLO/media/?size=m
-photo.1.author: 218_yu
-photo.1.link: https://www.instagram.com/218_yu/
-photo.1.tags: bamboo, smile, snow
-photo.2: https://www.instagram.com/p/BOJOKMyjDQZ/media/?size=m
-photo.2.author: framereim
-photo.2.link: https://www.instagram.com/framereim/
-photo.2.tags: nose, snow, standing
-photo.3: https://www.instagram.com/p/BOZV4eajesq/media/?size=m
-photo.3.author: monmon_redpanda
-photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: snow, techitechi
+photo.1: https://www.instagram.com/p/BOJOKMyjDQZ/media/?size=m
+photo.1.author: framereim
+photo.1.link: https://www.instagram.com/framereim/
+photo.1.tags: nose, snow, standing
+photo.2: https://www.instagram.com/p/BOZV4eajesq/media/?size=m
+photo.2.author: monmon_redpanda
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: snow, techitechi
+photo.3: https://www.instagram.com/p/Bb9GOq6loZD/media/?size=m
+photo.3.author: hanamaru_redpanda
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: profile, snow
 photo.4: https://www.instagram.com/p/BfbxM6ShHrn/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
-photo.5: https://www.instagram.com/p/BrIBsB5lh-b/media/?size=m
-photo.5.author: fetorus_mami
-photo.5.link: https://www.instagram.com/fetorus_mami/
-photo.6: https://www.instagram.com/p/Bb9GOq6loZD/media/?size=m
-photo.6.author: hanamaru_redpanda
-photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: profile, snow
+photo.5: https://www.instagram.com/p/BgKtic2lNLO/media/?size=m
+photo.5.author: 218_yu
+photo.5.link: https://www.instagram.com/218_yu/
+photo.5.tags: bamboo, smile, snow
+photo.6: https://www.instagram.com/p/BrIBsB5lh-b/media/?size=m
+photo.6.author: fetorus_mami
+photo.6.link: https://www.instagram.com/fetorus_mami/
 photo.7: https://www.instagram.com/p/BuQBNhkl4fP/media/?size=m
 photo.7.author: kipekaila
 photo.7.link: https://www.instagram.com/kipekaila/
@@ -64,14 +64,14 @@ photo.13: https://www.instagram.com/p/B5emEYBBPTY/media/?size=m
 photo.13.author: sasapan34
 photo.13.link: https://www.instagram.com/sasapan34/
 photo.13.tags: grumpy, whiskers
-photo.14: https://www.instagram.com/p/B7vXrAgBSR8/media/?size=m
+photo.14: https://www.instagram.com/p/B7s-W2cB9AG/media/?size=m
 photo.14.author: tama67photo
 photo.14.link: https://www.instagram.com/tama67photo/
-photo.14.tags: portrait, snow, tail
-photo.15: https://www.instagram.com/p/B7s-W2cB9AG/media/?size=m
+photo.14.tags: portrait, snow, tail, tongue
+photo.15: https://www.instagram.com/p/B7vXrAgBSR8/media/?size=m
 photo.15.author: tama67photo
 photo.15.link: https://www.instagram.com/tama67photo/
-photo.15.tags: portrait, snow, tail, tongue
+photo.15.tags: portrait, snow, tail
 photo.16: https://www.instagram.com/p/B9YpincBH11/media/?size=m
 photo.16.author: sasapan34
 photo.16.link: https://www.instagram.com/sasapan34/
