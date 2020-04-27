@@ -18,14 +18,14 @@ photo.1: https://www.instagram.com/p/BUxqC47h7Vk/media/?size=m
 photo.1.author: miis_98
 photo.1.link: https://www.instagram.com/miis_98/
 photo.1.tags: paws, whiskers
-photo.2: https://www.instagram.com/p/BdzioUGlBoD/media/?size=m
+photo.2: https://www.instagram.com/p/Bdugr1FlaIr/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: portrait
-photo.3: https://www.instagram.com/p/Bdugr1FlaIr/media/?size=m
+photo.2.tags: baby, portrait
+photo.3: https://www.instagram.com/p/BdzioUGlBoD/media/?size=m
 photo.3.author: hanamaru_redpanda
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: baby, portrait
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BpJxiEnFRl8/media/?size=m
 photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
@@ -73,21 +73,21 @@ photo.15: https://www.instagram.com/p/Bx_FbmshTz2/media/?size=m
 photo.15.author: yossi929
 photo.15.link: https://www.instagram.com/yossi929/
 photo.15.tags: bamboo, portrait
-photo.16: https://www.instagram.com/p/By_lqnTlp19/media/?size=m
-photo.16.author: yakkooo24
-photo.16.link: https://www.instagram.com/yakkooo24/
-photo.16.tags: climb
-photo.17: https://www.instagram.com/p/BzA3UGiBCNA/media/?size=m
-photo.17.author: yossi929
-photo.17.link: https://www.instagram.com/yossi929/
-photo.18: https://www.instagram.com/p/BzDSAPCha35/media/?size=m
-photo.18.author: kinkinkin0826
-photo.18.link: https://www.instagram.com/kinkinkin0826/
-photo.18.tags: portrait
-photo.19: https://www.instagram.com/p/By_VZ7dhV1O/media/?size=m
-photo.19.author: re_ichimaru
-photo.19.link: https://www.instagram.com/re_ichimaru/
-photo.19.tags: smile
+photo.16: https://www.instagram.com/p/By_VZ7dhV1O/media/?size=m
+photo.16.author: re_ichimaru
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: smile
+photo.17: https://www.instagram.com/p/By_lqnTlp19/media/?size=m
+photo.17.author: yakkooo24
+photo.17.link: https://www.instagram.com/yakkooo24/
+photo.17.tags: climb
+photo.18: https://www.instagram.com/p/BzA3UGiBCNA/media/?size=m
+photo.18.author: yossi929
+photo.18.link: https://www.instagram.com/yossi929/
+photo.19: https://www.instagram.com/p/BzDSAPCha35/media/?size=m
+photo.19.author: kinkinkin0826
+photo.19.link: https://www.instagram.com/kinkinkin0826/
+photo.19.tags: portrait
 photo.20: https://www.instagram.com/p/B1zo68PBE4O/media/?size=m
 photo.20.author: yossi929
 photo.20.link: https://www.instagram.com/yossi929/
@@ -116,29 +116,29 @@ photo.26: https://www.instagram.com/p/B3q-mupB6mD/media/?size=m
 photo.26.author: re_ichimaru
 photo.26.link: https://www.instagram.com/re_ichimaru/
 photo.26.tags: laying down, portrait, sleeping
-photo.27: https://www.instagram.com/p/B7Tbtn8hJBq/media/?size=m
-photo.27.author: yossi929
-photo.27.link: https://www.instagram.com/yossi929/
-photo.27.tags: portrait, window
-photo.28: https://www.instagram.com/p/B8VxUfZhpAv/media/?size=m
-photo.28.author: mofu_pan
-photo.28.link: https://www.instagram.com/mofu_pan/
-photo.28.tags: portrait
-photo.29: https://www.instagram.com/p/B_BMtcJhZo3/media/?size=m
-photo.29.author: yossi929
-photo.29.link: https://www.instagram.com/yossi929/
-photo.29.tags: bamboo, bite, portrait, techitechi
-photo.30: https://www.instagram.com/p/B_TLCwYhdo1/media/?size=m
-photo.30.author: yossi929
-photo.30.link: https://www.instagram.com/yossi929/
-photo.30.tags: laying down, portrait
-photo.31:  https://www.instagram.com/p/B9lNye8pTJP/media/?size=m
-photo.31.author: itozu_zoo
-photo.31.link: https://www.instagram.com/itozu_zoo/
-photo.31.tags: laying down, paws, portrait, techitechi
-photo.32: https://www.instagram.com/p/B6-AMq9pV_S/media/?size=m
-photo.32.author: itozu_zoo
-photo.32.link: https://www.instagram.com/itozu_zoo/
-photo.32.tags: bamboo, standing, tail
+photo.27: https://www.instagram.com/p/B6-AMq9pV_S/media/?size=m
+photo.27.author: itozu_zoo
+photo.27.link: https://www.instagram.com/itozu_zoo/
+photo.27.tags: bamboo, standing, tail
+photo.28: https://www.instagram.com/p/B7Tbtn8hJBq/media/?size=m
+photo.28.author: yossi929
+photo.28.link: https://www.instagram.com/yossi929/
+photo.28.tags: portrait, window
+photo.29: https://www.instagram.com/p/B8VxUfZhpAv/media/?size=m
+photo.29.author: mofu_pan
+photo.29.link: https://www.instagram.com/mofu_pan/
+photo.29.tags: portrait
+photo.30: https://www.instagram.com/p/B9lNye8pTJP/media/?size=m
+photo.30.author: itozu_zoo
+photo.30.link: https://www.instagram.com/itozu_zoo/
+photo.30.tags: laying down, paws, portrait, techitechi
+photo.31: https://www.instagram.com/p/B_BMtcJhZo3/media/?size=m
+photo.31.author: yossi929
+photo.31.link: https://www.instagram.com/yossi929/
+photo.31.tags: bamboo, bite, portrait, techitechi
+photo.32: https://www.instagram.com/p/B_TLCwYhdo1/media/?size=m
+photo.32.author: yossi929
+photo.32.link: https://www.instagram.com/yossi929/
+photo.32.tags: laying down, portrait
 species: 2
 zoo: 41
