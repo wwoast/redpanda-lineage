@@ -376,7 +376,7 @@ def sort_ig_hashes(path):
     # updated indices
     list_index = start_index
     while photo_index <= stop_point:
-        if (list_index - 1 == len(ig_photos)):
+        if (list_index - 1 == len(ig_photos) + len(non_ig_indices)):
             # No more photos
             break
         [photo, old_index] = ig_photos[list_index - 1]
