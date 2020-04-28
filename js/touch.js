@@ -47,8 +47,8 @@ Touch.T.move = function(event) {
     this.curX = event.touches[0].pageX;
     this.curY = event.touches[0].pageY;
     // Gesture length calculation
-    var newDeltaX = Math.abs(this.curX - this.startX);
     if (this.xTurn == 0) {
+      var newDeltaX = Math.abs(this.curX - this.startX);
       if (newDeltaX > this.deltaX) {
         this.deltaX = newDeltaX;
       } else {
@@ -56,13 +56,13 @@ Touch.T.move = function(event) {
         this.horzDiff = this.horzDiff + this.deltaX;
       }
     } else {
-      var newXTurn = Math.abs(this.xTurn - this.curX);
+      var newDeltaX = Math.abs(this.xTurn - this.curX);
       if (newDeltaX > this.deltaX) {
+        this.deltaX = newDeltaX;
+      } else {
         // We turned again, so cancel
         this.horzDiff = this.horzDiff + newXTurn;
         this.xTurn = 0;
-      } else {
-        this.deltaX = newDeltaX;
       }
     }
   } else {
