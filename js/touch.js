@@ -148,6 +148,7 @@ Touch.T.process = function() {
   var navigator = document.getElementById(navigator_id);
   var span = navigator.childNodes[0];
   if ((this.horzDiff > 2*this.minLength) && (this.turnCount > 0)) {
+      ((this.swipeDirection == 'right') || (this.swipeDirection == 'left'))) {
     // At least one direction turn, and a swipe twice as long as a normal
     // left-right directional swipe
     Gallery.G.photoRandom(animal_id);
