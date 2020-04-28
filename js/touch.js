@@ -142,7 +142,9 @@ Touch.T.process = function() {
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
   var span = navigator.childNodes[0];
-  if (this.horzDiff > 2*this.minLength) {
+  if ((this.horzDiff > 2*this.minLength) &&
+     ((this.swipeDirection == 'right') ||
+      (this.swipeDirection == 'left'))) {
     Gallery.G.photoRandom(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
