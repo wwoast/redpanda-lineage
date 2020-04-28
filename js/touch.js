@@ -54,6 +54,7 @@ Touch.T.move = function(event) {
       } else {
         this.xTurn = this.curX;
         this.horzDiff = this.horzDiff + this.deltaX;
+        this.deltaX = 0;
       }
     } else {
       var newDeltaX = Math.abs(this.xTurn - this.curX);
