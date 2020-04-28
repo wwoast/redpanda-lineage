@@ -99,6 +99,7 @@ Touch.T.cancel = function() {
   this.curX = 0;
   this.curY = 0;
   this.deltaX = 0;
+  this.xTurn = 0;
   this.horzDiff = 0;
   this.vertDiff = 0;
   this.swipeLength = 0;
