@@ -13,7 +13,7 @@ Touch.init = function() {
   touch.curX = 0;
   touch.curY = 0;
   touch.deltaX = 0;
-  touch.xTurn = 0;
+  touch.xTurn = -1;
   touch.horzDiff = 0;
   touch.vertDiff = 0;
   touch.minLength = 64;   // the shortest distance the user may swipe
@@ -103,7 +103,7 @@ Touch.T.cancel = function() {
   this.curX = 0;
   this.curY = 0;
   this.deltaX = 0;
-  this.xTurn = 0;
+  this.xTurn = -1;
   this.horzDiff = 0;
   this.vertDiff = 0;
   this.swipeLength = 0;
@@ -143,9 +143,10 @@ Touch.T.process = function() {
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
   var span = navigator.childNodes[0];
-  if ((this.horzDiff > 2*this.minLength) &&
-     ((this.swipeDirection == 'right') ||
-      (this.swipeDirection == 'left'))) {
+  if (((this.horzDiff > 2*this.minLength) && (this.xTurn > -1)) &&
+     ((this.swipeDirection == 'right') || (this.swipeDirection == 'left'))) {
+    // At least one direction turn, and a swipe twice as long as a normal
+    // left-right directional swipe
     Gallery.G.photoRandom(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
