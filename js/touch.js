@@ -13,7 +13,7 @@ Touch.init = function() {
   touch.curX = 0;
   touch.curY = 0;
   touch.deltaX = 0;
-  touch.deltaY = 0;
+  touch.xTurn = 0;
   touch.horzDiff = 0;
   touch.vertDiff = 0;
   touch.minLength = 64;   // the shortest distance the user may swipe
@@ -46,6 +46,25 @@ Touch.T.move = function(event) {
   if (event.touches.length == 1) {
     this.curX = event.touches[0].pageX;
     this.curY = event.touches[0].pageY;
+    // Gesture length calculation
+    var newDeltaX = Math.abs(this.curX - this.startX);
+    if (this.xTurn == 0) {
+      if (newDeltaX > this.deltaX) {
+        this.deltaX = newDeltaX;
+      } else {
+        this.xTurn = this.curX;
+        this.horzDiff = this.horzDiff + this.deltaX;
+      }
+    } else {
+      var newXTurn = Math.abs(this.xTurn - this.curX);
+      if (newDeltaX > this.deltaX) {
+        // We turned again, so cancel
+        this.horzDiff = this.horzDiff + newXTurn;
+        this.xTurn = 0;
+      } else {
+        this.deltaX = newDeltaX;
+      }
+    }
   } else {
     this.cancel();
   }
@@ -80,7 +99,6 @@ Touch.T.cancel = function() {
   this.curX = 0;
   this.curY = 0;
   this.deltaX = 0;
-  this.deltaY = 0;
   this.horzDiff = 0;
   this.vertDiff = 0;
   this.swipeLength = 0;
@@ -126,6 +144,10 @@ Touch.T.process = function() {
     Show.fade(navigator);
   } else if (this.swipeDirection == 'left') {
     Gallery.G.photoNext(animal_id);
+    Gallery.condenseDogEar(span);
+    Show.fade(navigator);
+  } else if (this.horzDiff > 2*this.minLength) {
+    Gallery.G.photoRandom(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
   }
