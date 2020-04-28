@@ -13,7 +13,8 @@ Touch.init = function() {
   touch.curX = 0;
   touch.curY = 0;
   touch.deltaX = 0;
-  touch.deltaY = 0;
+  touch.xTurn = 0;
+  touch.turnCount = 0;
   touch.horzDiff = 0;
   touch.vertDiff = 0;
   touch.minLength = 64;   // the shortest distance the user may swipe
@@ -46,6 +47,29 @@ Touch.T.move = function(event) {
   if (event.touches.length == 1) {
     this.curX = event.touches[0].pageX;
     this.curY = event.touches[0].pageY;
+    // Gesture length calculation
+    if (this.xTurn == 0) {
+      var newDeltaX = Math.abs(this.curX - this.startX);
+      if (newDeltaX > this.deltaX) {
+        this.deltaX = newDeltaX;
+      } else {
+        this.xTurn = this.curX;
+        this.horzDiff = this.horzDiff + this.deltaX;
+        this.deltaX = 0;
+        this.turnCount = this.turnCount + 1;
+      }
+    } else {
+      var newDeltaX = Math.abs(this.xTurn - this.curX);
+      if (newDeltaX > this.deltaX) {
+        this.deltaX = newDeltaX;
+      } else {
+        // We turned again, so cancel
+        this.horzDiff = this.horzDiff + this.deltaX;
+        this.xTurn = 0;
+        this.deltaX = 0;
+        this.turnCount = this.turnCount + 1;
+      }
+    }
   } else {
     this.cancel();
   }
@@ -58,8 +82,10 @@ Touch.T.end = function(event) {
     // to determine the length of the swipe
     this.swipeLength = Math.round(Math.sqrt(Math.pow(this.curX - this.startX,2) + 
                                             Math.pow(this.curY - this.startY,2)));
-    // If the swipe is longer than the minimum length, do an interface task
-    if (this.swipeLength >= this.minLength) {
+    // If the swipe is longer than the minimum length, or if the
+    // length of the swipe is long enough, do an interface task
+    if ((this.swipeLength >= this.minLength) || 
+        (this.horzDiff > 2*this.minLength)) {
       this.angle();
       this.determine();   // What the swipe direction and angle are
       this.process();     // Do something in the RPF interface
@@ -80,7 +106,8 @@ Touch.T.cancel = function() {
   this.curX = 0;
   this.curY = 0;
   this.deltaX = 0;
-  this.deltaY = 0;
+  this.xTurn = 0;
+  this.turnCount = 0;
   this.horzDiff = 0;
   this.vertDiff = 0;
   this.swipeLength = 0;
@@ -120,7 +147,14 @@ Touch.T.process = function() {
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
   var span = navigator.childNodes[0];
-  if (this.swipeDirection == 'right') {
+  if (((this.horzDiff > 2*this.minLength) && (this.turnCount > 0)) &&
+      ((this.swipeDirection == 'right') || (this.swipeDirection == 'left'))) {
+    // At least one direction turn, and a swipe twice as long as a normal
+    // left-right directional swipe
+    Gallery.G.photoRandom(animal_id);
+    Gallery.condenseDogEar(span);
+    Show.fade(navigator);
+  } else if (this.swipeDirection == 'right') {
     Gallery.G.photoPrevious(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);

@@ -106,6 +106,7 @@ Gallery.G.displayPhotoNavigation = function() {
       if (e.which == 2) {
         e.preventDefault();   // Prevent middle click opening a new tab
         that.photoRandom(that.info.id);
+        Gallery.condenseDogEar(span);
       }
     });
   }
@@ -189,6 +190,8 @@ Gallery.G.photoRandom = function(entity_id=this.info.id) {
   var carousel_id = entity_id;
   if (entity_id.indexOf("_") == -1) {
     carousel_id = this.unique + "_" + entity_id;
+  } else {
+    entity_id = carousel_id.split("_").pop();
   }
   var current_photo_element = document.getElementsByClassName(carousel_id + "/photo")[0];
   var current_photo_id = current_photo_element.id.split("/")[2];
