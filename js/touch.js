@@ -77,8 +77,10 @@ Touch.T.end = function(event) {
     // to determine the length of the swipe
     this.swipeLength = Math.round(Math.sqrt(Math.pow(this.curX - this.startX,2) + 
                                             Math.pow(this.curY - this.startY,2)));
-    // If the swipe is longer than the minimum length, do an interface task
-    if (this.swipeLength >= this.minLength) {
+    // If the swipe is longer than the minimum length, or if the
+    // length of the swipe is long enough, do an interface task
+    if ((this.swipeLength >= this.minLength) || 
+        (this.horzDiff > 2*this.minLength)) {
       this.angle();
       this.determine();   // What the swipe direction and angle are
       this.process();     // Do something in the RPF interface
