@@ -62,8 +62,9 @@ Touch.T.move = function(event) {
         this.deltaX = newDeltaX;
       } else {
         // We turned again, so cancel
-        this.horzDiff = this.horzDiff + newXTurn;
+        this.horzDiff = this.horzDiff + this.deltaX;
         this.xTurn = 0;
+        this.deltaX = 0;
       }
     }
   } else {
