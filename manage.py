@@ -361,7 +361,7 @@ def sort_ig_hashes(path):
         else:
             # Track the non-ig index, so we can avoid it
             # Don't need to rename these photos
-            non_ig_indexes.append(photo_index)
+            non_ig_indices.append(photo_index)
         photo_index = photo_index + 1
     # Sort the list of ig photo tuples by photo URL 
     # (the 0th item in each tuple is the url)
