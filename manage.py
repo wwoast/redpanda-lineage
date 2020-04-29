@@ -343,8 +343,9 @@ def sort_ig_hashes(path):
         photo_option = "photo." + str(photo_index)
         photo = photo_list.get_field(photo_option)
         if photo == None:
-            # No more photos
-            break
+            # Missing photo at this index, continue
+            photo_index = photo_index + 1
+            continue
         elif "https://www.instagram.com" in photo:
             # Track the photo and index as a tuple
             ig_photos.append([photo, photo_index])
@@ -375,6 +376,7 @@ def sort_ig_hashes(path):
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
     list_index = start_index
+    photo_index = start_index
     while photo_index <= stop_point:
         if (list_index - 1 == len(ig_photos) + len(non_ig_indices)):
             # No more photos
