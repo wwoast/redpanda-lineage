@@ -353,14 +353,15 @@ def remove_photo_from_file(path, photo_id):
         photo_list.renumber_photos(max)
         photo_list.update_file()
 
-def restore_author_to_lineage(author):
+def restore_author_to_lineage(author, prior_commit=None):
     """
     Find the most recent commit where photos by an author were removed.
     Re-add them to the pandas they were removed from. For any panda that
     had photos restored, sort their photo hashes.
     """
     repo = git.Repo(".")
-    prior_commit = find_commit_of_removed_photos(author, repo)
+    if prior_commit == None:
+        prior_commit = find_commit_of_removed_photos(author, repo)
     current_commit = repo.commit("HEAD")
     diff_raw = repo.git.diff(prior_commit, 
                              current_commit,
@@ -496,4 +497,8 @@ if __name__ == '__main__':
             file_path = sys.argv[2]
             photo_id = sys.argv[3]
             remove_photo_from_file(file_path, photo_id)
+        if sys.argv[1] == "--restore-author":
+            author = sys.argv[2]
+            commit = sys.argv[3]
+            restore_author_to_lineage(author, commit)
 
