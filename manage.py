@@ -55,7 +55,6 @@ class PhotoFile():
             raise SectionNameError("""Using wrong section ID to look for photos: %s""" % str(section))
 
         self.section = section
-        # TODO: throw exception for section = None
         self.config = ProperlyDelimitedConfigParser(default_section=self.section, delimiters=(':'))
         self.config.read(file_path, encoding="utf-8")
         self.file_path = file_path
@@ -261,6 +260,45 @@ class PhotoFile():
         if removals > 0:
             self.renumber_photos(photo_index)
 
+def find_commit_of_removed_photos(author, repo):
+    """
+    Iterate through the Git repo and find the most recent commit where an 
+    author's photos were removed.
+    """
+    counter = 0
+    compare = repo.commit("HEAD")
+    for commit in repo.iter_commits('master'):
+        diff_raw = repo.git.diff(compare, 
+                                 commit,
+                                 ignore_blank_lines=True,
+                                 ignore_space_at_eol=True)
+        patch = PatchSet(diff_raw)
+        for change in patch:
+            filename = change.path
+            if filename.find(".txt") == -1:
+                # Don't care about non-data files
+                continue
+            elif change.removed <= 0:
+                # No lines were removed, so we don't care
+                continue
+            else:
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_removed:
+                            # author must be at the end of a line, prepended with ": "
+                            line = line.value.strip()
+                            search_string = ": " + author
+                            if len(line) <= len(search_string):
+                                continue
+                            expected_location = len(line) - len(search_string)
+                            if line.find(search_string) == expected_location:
+                                counter = counter + 1
+        if counter > 0:
+            return commit
+        else:
+            # Prepare for the next iteration
+            compare = commit
+
 def get_max_entity_count():
     """
     Read the export/redpanda.json file. If it doesn't exist, ask one to
@@ -314,6 +352,21 @@ def remove_photo_from_file(path, photo_id):
         max = int(get_max_entity_count())
         photo_list.renumber_photos(max)
         photo_list.update_file()
+
+def restore_author_to_lineage(author):
+    """
+    Find the most recent commit where photos by an author were removed.
+    Re-add them to the pandas they were removed from. For any panda that
+    had photos restored, sort their photo hashes.
+    """
+    repo = git.Repo(".")
+    prior_commit = find_commit_of_removed_photos(author, repo)
+    current_commit = repo.commit("HEAD")
+    diff_raw = repo.git.diff(prior_commit, 
+                             current_commit,
+                             ignore_blank_lines=True,
+                             ignore_space_at_eol=True)
+    print(prior_commit)
 
 def sort_ig_hashes(path):
     """
@@ -432,6 +485,9 @@ if __name__ == '__main__':
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
             remove_author_from_lineage(author)
+        if sys.argv[1] == "--restore-author":
+            author = sys.argv[2]
+            restore_author_to_lineage(author)
         if sys.argv[1] == "--sort-instagram-hashes":
             file_path = sys.argv[2]
             sort_ig_hashes(file_path)
