@@ -14,18 +14,18 @@ language.order: jp, en
 litter: none
 location.1: 37, 2013/7/19
 location.2: 53, 2016/3/9
-photo.1: https://www.instagram.com/p/BjmXzhyFDxu/media/?size=m
-photo.1.author: monmon_redpanda
-photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: ear, portrait
-photo.2: https://www.instagram.com/p/BkydaQHlMGz/media/?size=m
-photo.2.author: rie_panda55
-photo.2.link: https://www.instagram.com/rie_panda55/
-photo.2.tags: portrait, profile
-photo.3: https://www.instagram.com/p/BkRGdnMFiYD/media/?size=m
-photo.3.author: fetorus_mami
-photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: paws, standing
+photo.1: https://www.instagram.com/p/BLiyhdxACc7/media/?size=m
+photo.1.author: rnrirhrh
+photo.1.link: https://www.instagram.com/rnrirhrh/
+photo.1.tags: laying down, paws, portrait
+photo.2: https://www.instagram.com/p/BX5HdYBlHmJ/media/?size=m
+photo.2.author: hanamaru_redpanda
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: laying down, portrait
+photo.3: https://www.instagram.com/p/BjmXzhyFDxu/media/?size=m
+photo.3.author: monmon_redpanda
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: ear, portrait
 photo.4: https://www.instagram.com/p/BkH161fF7_2/media/?size=m
 photo.4.author: fetorus_mami
 photo.4.link: https://www.instagram.com/fetorus_mami/
@@ -34,66 +34,65 @@ photo.5: https://www.instagram.com/p/BkH2UxJlDFA/media/?size=m
 photo.5.author: fetorus_mami
 photo.5.link: https://www.instagram.com/fetorus_mami/
 photo.5.tags: portrait
-photo.6: https://www.instagram.com/p/BnADK4OFqko/media/?size=m
-photo.6.author: miis_98
-photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: mofumofu, portrait, smile
-photo.7: https://www.instagram.com/p/Bo7mmgblQ3m/media/?size=m
-photo.7.author: kipekaila
-photo.7.link: https://www.instagram.com/kipekaila/
-photo.7.tags: dish, lunch time, smile
-photo.8: https://www.instagram.com/p/BpqkyXsl7JS/media/?size=m
+photo.6: https://www.instagram.com/p/BkRGdnMFiYD/media/?size=m
+photo.6.author: fetorus_mami
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: paws, standing
+photo.7: https://www.instagram.com/p/BkydaQHlMGz/media/?size=m
+photo.7.author: rie_panda55
+photo.7.link: https://www.instagram.com/rie_panda55/
+photo.7.tags: portrait, profile
+photo.8: https://www.instagram.com/p/BnADK4OFqko/media/?size=m
 photo.8.author: miis_98
 photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: dish, portrait, tongue
-photo.9: https://www.instagram.com/p/BrAlYDBFujA/media/?size=m
-photo.9.author: craig_craig_craig
-photo.9.link: https://www.instagram.com/craig_craig_craig/
-photo.9.tags: paws, standing
-photo.10: https://www.instagram.com/p/Bq9k0m6HHCB/media/?size=m
-photo.10.author: yakko____
-photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: portrait, standing
-photo.11: https://www.instagram.com/p/BX5HdYBlHmJ/media/?size=m
-photo.11.author: hanamaru_redpanda
-photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.11.tags: laying down, portrait
-photo.12: https://www.instagram.com/p/BxQoKf9lXg0/media/?size=m
-photo.12.author: re_ichimaru
-photo.12.link: https://www.instagram.com/re_ichimaru/
-photo.12.tags: laying down
-photo.13: https://www.instagram.com/p/Bz6oxRahJPS/media/?size=m
-photo.13.author: grskus_tk
-photo.13.link: https://www.instagram.com/grskus_tk/
-photo.13.tags: portrait, smile
-photo.14: https://www.instagram.com/p/B0GVw7WhZZ5/media/?size=m
-photo.14.author: leonard_redmof
-photo.14.link: https://www.instagram.com/leonard_redmof/
+photo.8.tags: mofumofu, portrait, smile
+photo.9: https://www.instagram.com/p/Bo7mmgblQ3m/media/?size=m
+photo.9.author: kipekaila
+photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: dish, lunch time, smile
+photo.10: https://www.instagram.com/p/BpqkyXsl7JS/media/?size=m
+photo.10.author: miis_98
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: dish, portrait, tongue
+photo.11: https://www.instagram.com/p/Bq9k0m6HHCB/media/?size=m
+photo.11.author: yakko____
+photo.11.link: https://www.instagram.com/yakko____/
+photo.11.tags: portrait, standing
+photo.12: https://www.instagram.com/p/BrAlYDBFujA/media/?size=m
+photo.12.author: craig_craig_craig
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: paws, standing
+photo.13: https://www.instagram.com/p/BxQoKf9lXg0/media/?size=m
+photo.13.author: re_ichimaru
+photo.13.link: https://www.instagram.com/re_ichimaru/
+photo.13.tags: laying down
+photo.14: https://www.instagram.com/p/Bz6oxRahJPS/media/?size=m
+photo.14.author: grskus_tk
+photo.14.link: https://www.instagram.com/grskus_tk/
 photo.14.tags: portrait, smile
-photo.15: https://www.instagram.com/p/B0GBze8hxar/media/?size=m
-photo.15.author: ifumoto88
-photo.15.link: https://www.instagram.com/ifumoto88/
-photo.15.tags: laying down, portrait
-photo.16: https://www.instagram.com/p/B0GkCg2BrJg/media/?size=m
-photo.16.author: panda.daisuki
-photo.16.link: https://www.instagram.com/panda.daisuki/
-photo.16.tags: paws, profile
-photo.17: https://www.instagram.com/p/B0I999sByIj/media/?size=m
-photo.17.author: ifumoto88
-photo.17.link: https://www.instagram.com/ifumoto88/
-photo.17.tags: bridge, portrait, smile, tail
-photo.18: https://www.instagram.com/p/B1BoNzXhLxL/media/?size=m
+photo.15: https://www.instagram.com/p/B0EJ03cBYIv/media/?size=m
+photo.15.author: hamiiiii831_
+photo.15.link: https://www.instagram.com/hamiiiii831_/
+photo.16: https://www.instagram.com/p/B0GBze8hxar/media/?size=m
+photo.16.author: ifumoto88
+photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: laying down, portrait
+photo.17: https://www.instagram.com/p/B0GVw7WhZZ5/media/?size=m
+photo.17.author: leonard_redmof
+photo.17.link: https://www.instagram.com/leonard_redmof/
+photo.17.tags: portrait, smile
+photo.18: https://www.instagram.com/p/B0GkCg2BrJg/media/?size=m
 photo.18.author: panda.daisuki
 photo.18.link: https://www.instagram.com/panda.daisuki/
-photo.18.tags: bamboo, portrait, smile
-photo.19: https://www.instagram.com/p/B0-2a_hhi4E/media/?size=m
-photo.19.author: panda.daisuki
-photo.19.link: https://www.instagram.com/panda.daisuki/
-photo.19.tags: paws, peek, portrait, smile
-photo.20: https://www.instagram.com/p/B1BrQSqhNBK/media/?size=m
-photo.20.author: ifumoto88
-photo.20.link: https://www.instagram.com/ifumoto88/
-photo.20.tags: bamboo, paws, standing
+photo.18.tags: paws, profile
+photo.19: https://www.instagram.com/p/B0I999sByIj/media/?size=m
+photo.19.author: ifumoto88
+photo.19.link: https://www.instagram.com/ifumoto88/
+photo.19.tags: bridge, portrait, smile, tail
+photo.20: https://www.instagram.com/p/B0-2a_hhi4E/media/?size=m
+photo.20.author: panda.daisuki
+photo.20.link: https://www.instagram.com/panda.daisuki/
+photo.20.tags: paws, peek, portrait, smile
 photo.21: https://www.instagram.com/p/B1BCMmpBdYS/media/?size=m
 photo.21.author: ifumoto88
 photo.21.link: https://www.instagram.com/ifumoto88/
@@ -102,70 +101,74 @@ photo.22: https://www.instagram.com/p/B1BFLQqBrnt/media/?size=m
 photo.22.author: fetorus_mami
 photo.22.link: https://www.instagram.com/fetorus_mami/
 photo.22.tags: bridge, mofumofu, tongue
-photo.23: https://www.instagram.com/p/B1GjcS3Bymh/media/?size=m
+photo.23: https://www.instagram.com/p/B1BoNzXhLxL/media/?size=m
 photo.23.author: panda.daisuki
 photo.23.link: https://www.instagram.com/panda.daisuki/
-photo.23.tags: bridge, paws, portrait, smile, tongue
-photo.24: https://www.instagram.com/p/B1Oev0mhFC5/media/?size=m
-photo.24.author: leonard_redmof
-photo.24.link: https://www.instagram.com/leonard_redmof/
-photo.24.tags: laying down, portrait
-photo.25: https://www.instagram.com/p/B1cZzHSBPOx/media/?size=m
-photo.25.author: rie_panda55
-photo.25.link: https://www.instagram.com/rie_panda55/
-photo.25.tags: smile, tail
-photo.26: https://www.instagram.com/p/B1hxg_NhqFi/media/?size=m
+photo.23.tags: bamboo, portrait, smile
+photo.24: https://www.instagram.com/p/B1BrQSqhNBK/media/?size=m
+photo.24.author: ifumoto88
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: bamboo, paws, standing
+photo.25: https://www.instagram.com/p/B1GYGDehx8W/media/?size=m
+photo.25.author: miis_98
+photo.25.link: https://www.instagram.com/miis_98/
+photo.25.tags: portrait, shake
+photo.26: https://www.instagram.com/p/B1GjcS3Bymh/media/?size=m
 photo.26.author: panda.daisuki
 photo.26.link: https://www.instagram.com/panda.daisuki/
-photo.26.tags: laying down, portrait
-photo.27: https://www.instagram.com/p/B1GYGDehx8W/media/?size=m
-photo.27.author: miis_98
-photo.27.link: https://www.instagram.com/miis_98/
-photo.27.tags: portrait, shake
-photo.28: https://www.instagram.com/p/B1z-PISgsb3/media/?size=m
-photo.28.author: sunnylettuce_2020
-photo.28.link: https://www.instagram.com/sunnylettuce_2020/
-photo.28.tags: portrait, smile
-photo.29: https://www.instagram.com/p/B17YQszBaWR/media/?size=m
+photo.26.tags: bridge, paws, portrait, smile, tongue
+photo.27: https://www.instagram.com/p/B1Oev0mhFC5/media/?size=m
+photo.27.author: leonard_redmof
+photo.27.link: https://www.instagram.com/leonard_redmof/
+photo.27.tags: laying down, portrait
+photo.28: https://www.instagram.com/p/B1cZzHSBPOx/media/?size=m
+photo.28.author: rie_panda55
+photo.28.link: https://www.instagram.com/rie_panda55/
+photo.28.tags: smile, tail
+photo.29: https://www.instagram.com/p/B1hxg_NhqFi/media/?size=m
 photo.29.author: panda.daisuki
 photo.29.link: https://www.instagram.com/panda.daisuki/
-photo.29.tags: bridge, laying down, portrait, smile
-photo.30: https://www.instagram.com/p/B2GrYjTBqpz/media/?size=m
-photo.30.author: spla_calamari
-photo.30.link: https://www.instagram.com/spla_calamari/
-photo.30.tags: blink, laying down, paws, portrait, smile
-photo.31: https://www.instagram.com/p/B2GfNRWh6oa/media/?size=m
-photo.31.author: spla_calamari
-photo.31.link: https://www.instagram.com/spla_calamari/
-photo.31.tags: laying down, portrait, sleeping
-photo.32: https://www.instagram.com/p/B2Ypg7FBmJH/media/?size=m
-photo.32.author: panda.daisuki
-photo.32.link: https://www.instagram.com/panda.daisuki/
-photo.32.tags: laying down, portrait
-photo.33: https://www.instagram.com/p/B3x8rZah5Mm/media/?size=m
-photo.33.author: zoowfreedom299
-photo.33.link: https://www.instagram.com/zoowfreedom299/
-photo.33.tags: paws, smile
-photo.34: https://www.instagram.com/p/BLiyhdxACc7/media/?size=m
-photo.34.author: rnrirhrh
-photo.34.link: https://www.instagram.com/rnrirhrh/
-photo.34.tags: laying down, paws, portrait
-photo.35: https://www.instagram.com/p/B4G-0iYhj9w/media/?size=m
+photo.29.tags: laying down, portrait
+photo.30: https://www.instagram.com/p/B1z-PISgsb3/media/?size=m
+photo.30.author: sunnylettuce_2020
+photo.30.link: https://www.instagram.com/sunnylettuce_2020/
+photo.30.tags: portrait, smile
+photo.31: https://www.instagram.com/p/B17YQszBaWR/media/?size=m
+photo.31.author: panda.daisuki
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: bridge, laying down, portrait, smile
+photo.32: https://www.instagram.com/p/B2GfNRWh6oa/media/?size=m
+photo.32.author: spla_calamari
+photo.32.link: https://www.instagram.com/spla_calamari/
+photo.32.tags: laying down, portrait, sleeping
+photo.33: https://www.instagram.com/p/B2GrYjTBqpz/media/?size=m
+photo.33.author: spla_calamari
+photo.33.link: https://www.instagram.com/spla_calamari/
+photo.33.tags: blink, laying down, paws, portrait, smile
+photo.34: https://www.instagram.com/p/B2Ypg7FBmJH/media/?size=m
+photo.34.author: panda.daisuki
+photo.34.link: https://www.instagram.com/panda.daisuki/
+photo.34.tags: laying down, portrait
+photo.35: https://www.instagram.com/p/B3x8rZah5Mm/media/?size=m
 photo.35.author: zoowfreedom299
 photo.35.link: https://www.instagram.com/zoowfreedom299/
-photo.35.tags: bamboo, paws, smile
-photo.36: https://www.instagram.com/p/B6ewbJEB-_P/media/?size=m
+photo.35.tags: paws, smile
+photo.36: https://www.instagram.com/p/B4G-0iYhj9w/media/?size=m
 photo.36.author: zoowfreedom299
 photo.36.link: https://www.instagram.com/zoowfreedom299/
-photo.36.tags: portrait, tail, tongue
-photo.37: https://www.instagram.com/p/B9oM0eChpLv/media/?size=m
-photo.37.author: sasapan34
-photo.37.link: https://www.instagram.com/sasapan34/
-photo.37.tags: smile, whiskers
+photo.36.tags: bamboo, paws, smile
+photo.37: https://www.instagram.com/p/B6ewbJEB-_P/media/?size=m
+photo.37.author: zoowfreedom299
+photo.37.link: https://www.instagram.com/zoowfreedom299/
+photo.37.tags: portrait, tail, tongue
 photo.38: https://www.instagram.com/p/B9lvsCJB6a8/media/?size=m
 photo.38.author: panda.daisuki
 photo.38.link: https://www.instagram.com/panda.daisuki/
 photo.38.tags: paws, standing, tail
+photo.39: https://www.instagram.com/p/B9oM0eChpLv/media/?size=m
+photo.39.author: sasapan34
+photo.39.link: https://www.instagram.com/sasapan34/
+photo.39.tags: smile, whiskers
 species: 2
 video.1: https://youtu.be/HQ_OsRtj6T0
 video.1.author: mmovies21
