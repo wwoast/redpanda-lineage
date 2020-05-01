@@ -399,7 +399,6 @@ def restore_author_to_lineage(author, prior_commit=None):
                 path_to_photo_index[path].pop(option)
     # Iterate through files that are getting photos back.
     # Add the photos to the ends of the files
-    print(str(path_to_photo_index))
     for path in path_to_photo_index.keys():
         if not os.path.exists(path):
             # File may have been moved.
@@ -417,10 +416,10 @@ def restore_author_to_lineage(author, prior_commit=None):
         # Swap the old index to one that's not currently in the file
         for key in path_to_photo_index[path].keys():
             index = key.split(".")[1]
-            key.replace("." + index + ".", "." + str(photo_index) + ".")
             value = path_to_photo_index[path][key]
+            key = key.replace("photo." + index, "photo." + str(photo_index))
             photo_list.set_field(key, value)
-            print("%s: %s" % (key, value))
+            # print("%s: %s" % (key, value))
         # Update the list of photos
         # photo_list.update_file()
     # Finally, sort the photo files
