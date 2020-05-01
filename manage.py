@@ -434,6 +434,7 @@ def sort_ig_hashes(path):
     If a photo does not use an IG URI, keep its index unchanged.
     """
     # IG alphabet for hashes, time ordering oldest to newest
+    # print(path)
     hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
     section = None
     for section_name in ["wild", "zoos", "media", "pandas"]:
