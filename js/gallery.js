@@ -352,7 +352,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
     // Post the birthday message (with age in years)
-    var message = Show.message.birthday(info.name, info.id, years_old, language);
+    var message = Message.birthday(info.name, info.id, years_old, language);
     birthday_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     for (let photo of Pandas.randomChoice(photos, photo_count)) {
@@ -392,7 +392,7 @@ Gallery.creditPhotos = function(results, language, max_hits) {
   var content_divs = photo_results["output"];
   var photo_count = photo_results["hit_count"];
   // Write some HTML with summary information for the user and the number of photos
-  var header = Show.message.credit(results["subject"], photo_count, language);
+  var header = Message.credit(results["subject"], photo_count, language);
   content_divs.unshift(header);
   return content_divs;
 }
@@ -581,7 +581,7 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
   for (let id of id_list) {
     var animal = Pandas.searchPandaId(id)[0];
     var info = Show.acquirePandaInfo(animal, language);
-    var message = Show.message.memorial(info.name, info.id, info.birthday, info.death, language);
+    var message = Message.memorial(info.name, info.id, info.birthday, info.death, language);
     memorial_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     for (let photo of Pandas.randomChoice(photos, photo_count)) {
@@ -743,23 +743,23 @@ Gallery.tagPhotoMessage = function(results, hit_count) {
              (results["parsed"] == "set_tag_subject")) {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
-    header = Show.message.tag_subject(hit_count, results["subject"],
+    header = Message.tag_subject(hit_count, results["subject"],
                                       Language.L.tags[ctag]["emoji"], 
                                       ctag, L.display);
   } else if (results["parsed"] == "set_baby_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var ctag = Language.tagPrimary(tag);
-    header = Show.message.tag_subject(hit_count, results["subject"],
+    header = Message.tag_subject(hit_count, results["subject"],
                            Language.L.polyglots[ctag]["emoji"], 
                            ctag, L.display);
   } else if (results["parsed"] == "set_tag_intersection") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    header = Show.message.tag_combo(hit_count, emojis, L.display);
+    header = Message.tag_combo(hit_count, emojis, L.display);
   } else if (results["parsed"] == "set_tag_intersection_subject") {
     var tag = results["tag"] != undefined ? results["tag"] : results["query"];
     var emojis = tag.split(", ").map(tag => Language.L.tags[tag]["emoji"]);
-    header = Show.message.tag_combo(hit_count, emojis, L.display);
+    header = Message.tag_combo(hit_count, emojis, L.display);
   } else {
     header = Show.emptyResult(L.messages.no_subject_tag_result, L.display);
   }
@@ -816,7 +816,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
 // Choose some pandas from the list of updated photos at random.
 Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
   var new_photos_div = document.createElement('div');
-  var message = Show.message.new_photos(language);
+  var message = Message.new_photos(language);
   new_photos_div.appendChild(message);
   // Build a set of photos in the desired sort order: zoos, zoo(pandas),
   // new contributors, and finally new photos.

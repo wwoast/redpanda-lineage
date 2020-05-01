@@ -272,7 +272,7 @@ Page.home.render = function() {
     }
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["387"])
     // new_content.appendChild(memorial);
-    var nearby = Show.message.findNearbyZoo(L.display);
+    var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
@@ -608,7 +608,7 @@ Page.results.nearby = function(results) {
   var content_divs = [];
   if (results.parsed == "geolookup_in_progress") {
     // Stuck at the interstitial after a language transition
-    content_divs.push(Show.message.geolocationStart(L.display));
+    content_divs.push(Message.geolocationStart(L.display));
     return content_divs;
   }
   // Zoo results

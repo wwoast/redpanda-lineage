@@ -158,7 +158,7 @@ Geo.renderGeoLookupStart = function() {
   new_content.id = "hiddenContentFrame";
   var shrinker = document.createElement('div');
   shrinker.className = "shrinker";
-  var message = Show.message.geolocationStart(L.display);
+  var message = Message.geolocationStart(L.display);
   shrinker.appendChild(message);
   new_content.appendChild(shrinker);
   // Redraw the search bar if necessary
