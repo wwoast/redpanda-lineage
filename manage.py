@@ -407,15 +407,17 @@ def restore_author_to_lineage(author, prior_commit=None):
         photo_count = photo_list.photo_count()
         photo_index = photo_count + 1
         # Swap the old index to one that's not currently in the file
+        print("%s getting content back:")
         for key in path_to_photo_index[path].keys():
             index = key.split(".")[1]
             key.replace(index, str(photo_index))
             photo_list.set_field(key, value)
+            print("%s: %s" % (key, value))
         # Update the list of photos
-        photo_list.update_file()
+        # photo_list.update_file()
     # Finally, sort the photo files
-    for path in path_to_photo_index.keys():
-        sort_ig_hashes(path)
+    # for path in path_to_photo_index.keys():
+    #    sort_ig_hashes(path)
 
 def sort_ig_hashes(path):
     """
