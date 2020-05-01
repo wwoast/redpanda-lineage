@@ -362,8 +362,9 @@ def restore_author_to_lineage(author, prior_commit=None):
     repo = git.Repo(".")
     if prior_commit == None:
         prior_commit = find_commit_of_removed_photos(author, repo)
-        # print(prior_commit)
-    current_commit = repo.commit("HEAD")
+    # Go back one more from this commit
+    current_commit = prior_commit
+    prior_commit = str(prior_commit) + "~1"    
     diff_raw = repo.git.diff(prior_commit, 
                              current_commit,
                              ignore_blank_lines=True,
@@ -381,21 +382,28 @@ def restore_author_to_lineage(author, prior_commit=None):
             # No lines were removed, so we don't care
             continue
         else:
+            # Prepare to add lines
+            path_to_photo_index[filename] = {}
             for hunk in change:
                 for line in hunk:
                     if line.is_removed:
                         if line.value.find("photo.") != 0:
                             continue
                         [key, value] = line.value.strip().split(": ")
-                        option = key.split(".")[0]
-                        path_to_photo_index[filename] = {}
                         path_to_photo_index[filename][key] = value
+    # Delete any items where the author isn't the given
+    for path in path_to_photo_index.keys():
+        for option in list(path_to_photo_index[path].keys()):
+            index = option.split(".")[1]
+            if path_to_photo_index[path].get("photo." + index + ".author") != author:
+                path_to_photo_index[path].pop(option)
     # Iterate through files that are getting photos back.
     # Add the photos to the ends of the files
+    print(str(path_to_photo_index))
     for path in path_to_photo_index.keys():
         if not os.path.exists(path):
             # File may have been moved.
-            print("%s no longer exists, so where do I put this?")
+            print("%s:\nfile no longer exists, so where do I put this?" % path)
             for key in path_to_photo_index[path].keys():
                 print("%s: %s" % (key, value))
             continue
@@ -407,10 +415,10 @@ def restore_author_to_lineage(author, prior_commit=None):
         photo_count = photo_list.photo_count()
         photo_index = photo_count + 1
         # Swap the old index to one that's not currently in the file
-        print("%s getting content back:")
         for key in path_to_photo_index[path].keys():
             index = key.split(".")[1]
             key.replace(index, str(photo_index))
+            value = path_to_photo_index[path][key]
             photo_list.set_field(key, value)
             print("%s: %s" % (key, value))
         # Update the list of photos
