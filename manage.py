@@ -419,6 +419,7 @@ def restore_author_to_lineage(author, prior_commit=None):
             value = path_to_photo_index[path][key]
             key = key.replace("photo." + index, "photo." + str(photo_index))
             photo_list.set_field(key, value)
+            photo_index = photo_index + 1
             # print("%s: %s" % (key, value))
         # Update the list of photos
         photo_list.update_file()
