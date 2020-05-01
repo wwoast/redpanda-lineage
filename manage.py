@@ -408,8 +408,8 @@ def restore_author_to_lineage(author, prior_commit=None):
         # Update the list of photos
         photo_list.update_file()
     # Finally, sort the photo files
-    for path in path_to_photo_index.keys():
-        sort_ig_hashes(path)
+    # for path in path_to_photo_index.keys():
+    #    sort_ig_hashes(path)
 
 def sort_ig_hashes(path):
     """
