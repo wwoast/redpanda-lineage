@@ -384,10 +384,10 @@ def restore_author_to_lineage(author, prior_commit=None):
             for hunk in change:
                 for line in hunk:
                     if line.is_removed:
+                        if line.value.find("photo.") != 0:
+                            continue
                         [key, value] = line.value.strip().split(": ")
                         option = key.split(".")[0]
-                        if (option != "photo"):
-                            continue
                         path_to_photo_index[filename] = {}
                         path_to_photo_index[filename][key] = value
     # Iterate through files that are getting photos back.
@@ -398,7 +398,7 @@ def restore_author_to_lineage(author, prior_commit=None):
             if section_name in path.split("/"):
                 section = section_name.split("s")[0]   # HACK
         photo_list = PhotoFile(section, path)
-        photo_count = photo_list.photo_count():
+        photo_count = photo_list.photo_count()
         photo_index = photo_count + 1
         # Swap the old index to one that's not currently in the file
         for key in path_to_photo_index[path].keys():
