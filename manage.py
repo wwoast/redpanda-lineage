@@ -393,7 +393,7 @@ def restore_author_to_lineage(author, prior_commit=None):
     # Iterate through files that are getting photos back.
     # Add the photos to the ends of the files
     for path in path_to_photo_index.keys():
-        if not os.path.exists(self.filename):
+        if not os.path.exists(path):
             # File may have been moved.
             print("%s no longer exists, so where do I put this?")
             for key in path_to_photo_index[path].keys():
