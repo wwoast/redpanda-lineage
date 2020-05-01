@@ -362,12 +362,54 @@ def restore_author_to_lineage(author, prior_commit=None):
     repo = git.Repo(".")
     if prior_commit == None:
         prior_commit = find_commit_of_removed_photos(author, repo)
+        # print(prior_commit)
     current_commit = repo.commit("HEAD")
     diff_raw = repo.git.diff(prior_commit, 
                              current_commit,
                              ignore_blank_lines=True,
                              ignore_space_at_eol=True)
-    print(prior_commit)
+    # Make list of removed lines per filename, and convert.
+    # Handjam this just by iterating on file lines
+    path_to_photo_index = {}
+    patch = PatchSet(diff_raw)
+    for change in patch:
+        filename = change.path
+        if filename.find(".txt") == -1:
+            # Don't care about non-data files
+            continue
+        elif change.removed <= 0:
+            # No lines were removed, so we don't care
+            continue
+        else:
+            for hunk in change:
+                for line in hunk:
+                    if line.is_removed:
+                        [key, value] = line.value.strip().split(": ")
+                        option = key.split(".")[0]
+                        if (option != "photo"):
+                            continue
+                        path_to_photo_index[filename] = {}
+                        path_to_photo_index[filename][key] = value
+    # Iterate through files that are getting photos back.
+    # Add the photos to the ends of the files
+    for path in path_to_photo_index.keys():
+        section = None
+        for section_name in ["wild", "media", "zoos", "pandas"]:
+            if section_name in path.split("/"):
+                section = section_name.split("s")[0]   # HACK
+        photo_list = PhotoFile(section, path)
+        photo_count = photo_list.photo_count():
+        photo_index = photo_count + 1
+        # Swap the old index to one that's not currently in the file
+        for key in path_to_photo_index[path].keys():
+            index = key.split(".")[1]
+            key.replace(index, photo_index)
+            photo_list.set_field(key, value)
+        # Update the list of photos
+        photo_list.update_file()
+    # Finally, sort the photo files
+    for path in path_to_photo_index.keys():
+        sort_ig_hashes(path)
 
 def sort_ig_hashes(path):
     """
