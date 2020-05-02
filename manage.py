@@ -439,6 +439,7 @@ def sort_ig_hashes(path):
     """
     # IG alphabet for hashes, time ordering oldest to newest
     # print(path)
+    print("sorting: %s" % path)
     hash_order = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
     section = None
     for section_name in ["wild", "zoos", "media", "pandas"]:
@@ -493,14 +494,20 @@ def sort_ig_hashes(path):
     # updated indices
     list_index = start_index
     photo_index = start_index
+    used_indices = []
     while photo_index <= stop_point:
-        if (list_index - 1 == len(ig_photos) + len(non_ig_indices)):
+        print("%s : %s" % (list_index, photo_index))
+        if list_index - 1 == len(ig_photos):
             # No more photos, for certain
             break
         [photo, old_index] = ig_photos[list_index - 1]
         photo_index = list_index
         while photo_index in non_ig_indices:
             photo_index = photo_index + 1   # Avoid indices for non-IG photos
+        while photo_index in used_indices:
+            photo_index = photo_index + 1   # Avoid indices we already used
+        used_indices.append(photo_index)
+        print("%s : %s" % (list_index, photo_index))
         current_option = "photo." + str(photo_index)
         old_option = "old.photo." + str(old_index)
         photo_list.move_field(current_option, old_option)
