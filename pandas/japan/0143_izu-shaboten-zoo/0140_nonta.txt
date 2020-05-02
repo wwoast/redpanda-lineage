@@ -14,7 +14,7 @@ language.order: jp, en
 litter: none
 location.1: 6, 2012/6/27
 location.2: 15, 2015/1/30
-location.3: 143, 2019/6/20
+location.3: 143, 2019/7/2
 photo.1: https://www.instagram.com/p/BNRGCVUFxaX/media/?size=m
 photo.1.author: i.satosato
 photo.1.link: https://www.instagram.com/i.satosato/
@@ -175,5 +175,9 @@ photo.40: https://www.instagram.com/p/B_KSCxlhOLJ/media/?size=m
 photo.40.author: kaoru_a358
 photo.40.link: https://www.instagram.com/kaoru_a358/
 photo.40.tags: itchy, paws, wave
+photo.41: https://www.instagram.com/p/BzZvQZlFDrH/media/?size=m
+photo.41.author: love_ikedazoo
+photo.41.link: https://www.instagram.com/love_ikedazoo/
+photo.41.tags: moving
 species: 2
 zoo: 143
