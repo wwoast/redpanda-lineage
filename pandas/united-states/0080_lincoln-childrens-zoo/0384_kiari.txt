@@ -162,7 +162,7 @@ photo.36.tags: bamboo, home, techitechi
 photo.37: https://www.codaworry.com/images/rpf/kiari-37-henryvilas.jpg
 photo.37.author: worldthathesees
 photo.37.link: https://www.instagram.com/worldthathesees/
-photo.37.tags: profile, snow
+photo.37.tags: snow
 photo.38: https://www.codaworry.com/images/rpf/kiari-38-henryvilas.jpg
 photo.38.author: worldthathesees
 photo.38.link: https://www.instagram.com/worldthathesees/
@@ -266,6 +266,6 @@ photo.62.tags: tail
 photo.63: https://www.instagram.com/p/B88_oulDnog/media/?size=m
 photo.63.author: lincolnchildrenszoo
 photo.63.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.63.tags: paws, peek, portrait, profile
+photo.63.tags: paws, peek, portrait
 species: 2
 zoo: 80

@@ -19,11 +19,11 @@ location.4: 77, 2015/1/23
 photo.1: https://www.instagram.com/p/BnxZChnB_h4/media/?size=m
 photo.1.author: rossifari
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: portrait, profile
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BAF8lrEykAt/media/?size=m
 photo.2.author: worldthathesees
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: portrait, snow, tree
+photo.2.tags: portrait, profile, snow, tree
 photo.3: https://www.codaworry.com/images/rpf/tarrei-1-henryvilas.jpg
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
@@ -63,7 +63,7 @@ photo.11.tags: snow, tail, tree
 photo.12: https://www.codaworry.com/images/rpf/tarrei-10-henryvilas.jpg
 photo.12.author: worldthathesees
 photo.12.link: https://www.instagram.com/worldthathesees/
-photo.12.tags: profile, snow, tree
+photo.12.tags: snow, tree
 photo.13: https://www.codaworry.com/images/rpf/tarrei-11-henryvilas.jpg
 photo.13.author: worldthathesees
 photo.13.link: https://www.instagram.com/worldthathesees/
