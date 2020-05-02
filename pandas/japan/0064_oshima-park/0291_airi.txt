@@ -14,30 +14,30 @@ language.order: jp, en
 litter: 54, 487
 location.1: 10, 2006/6/20
 location.2: 64, 2007/7/18
-photo.1: https://www.instagram.com/p/BlnN5ArFEbH/media/?size=m
-photo.1.author: craig_craig_craig
-photo.1.link: https://www.instagram.com/craig_craig_craig/
-photo.1.tags: bamboo, profile
-photo.2: https://www.instagram.com/p/BkP7vbjllZL/media/?size=m
+photo.1: https://www.instagram.com/p/BUyjgP1BUr3/media/?size=m
+photo.1.author: miis_98
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: bamboo, smile
+photo.2: https://www.instagram.com/p/BVht6nDAkz5/media/?size=m
 photo.2.author: panda.daisuki
 photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: lunch time
-photo.3: https://www.instagram.com/p/BVht6nDAkz5/media/?size=m
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/BkP7vbjllZL/media/?size=m
 photo.3.author: panda.daisuki
 photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/B7zWkoohdE9/media/?size=m
-photo.4.author: grskus_tk
-photo.4.link: https://www.instagram.com/grskus_tk/
-photo.4.tags: bamboo, dish, paws, portrait
-photo.5: https://www.instagram.com/p/B76ER0RBzJJ/media/?size=m
+photo.3.tags: lunch time
+photo.4: https://www.instagram.com/p/BlnN5ArFEbH/media/?size=m
+photo.4.author: craig_craig_craig
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: bamboo, profile
+photo.5: https://www.instagram.com/p/B7zWkoohdE9/media/?size=m
 photo.5.author: grskus_tk
 photo.5.link: https://www.instagram.com/grskus_tk/
-photo.5.tags: peek, portrait
-photo.6: https://www.instagram.com/p/BUyjgP1BUr3/media/?size=m
-photo.6.author: miis_98
-photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: bamboo, smile
+photo.5.tags: bamboo, dish, paws, portrait
+photo.6: https://www.instagram.com/p/B76ER0RBzJJ/media/?size=m
+photo.6.author: grskus_tk
+photo.6.link: https://www.instagram.com/grskus_tk/
+photo.6.tags: peek, portrait
 photo.7: https://www.instagram.com/p/B-8a9t_hqv3/media/?size=m
 photo.7.author: grskus_tk
 photo.7.link: https://www.instagram.com/grskus_tk/
