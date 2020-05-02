@@ -496,7 +496,6 @@ def sort_ig_hashes(path):
     photo_index = start_index
     used_indices = []
     while photo_index <= stop_point:
-        print("%s : %s" % (list_index, photo_index))
         if list_index - 1 == len(ig_photos):
             # No more photos, for certain
             break
@@ -507,7 +506,6 @@ def sort_ig_hashes(path):
         while photo_index in used_indices:
             photo_index = photo_index + 1   # Avoid indices we already used
         used_indices.append(photo_index)
-        print("%s : %s" % (list_index, photo_index))
         current_option = "photo." + str(photo_index)
         old_option = "old.photo." + str(old_index)
         photo_list.move_field(current_option, old_option)
