@@ -91,6 +91,16 @@ Gallery.G.displayPhotoNavigation = function() {
   // Clickable dogears when you have a carousel of more than one photo
   if (this.photoCount() < 2) {
       span.innerText = L.emoji.no_more;
+      // Consistent widget behavior on mouse clicks for non-functional
+      // navigators as well (disable normal right/middle click behavior)
+      span_link.addEventListener('contextmenu', function(e) {   // Right click event
+        e.preventDefault();   // Prevent normal context menu from firing
+      });
+      span_link.addEventListener('auxclick', function(e) {   // Middle click event
+        if (e.which == 2) {
+          e.preventDefault();   // Prevent middle click opening a new tab
+        }
+      });
   } else {
     span.innerText = that.index;
     span_link.addEventListener('click', function() {  // Left click event
