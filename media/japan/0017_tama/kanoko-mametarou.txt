@@ -1,15 +1,15 @@
 [media]
 _id: media.17.kanoko-mametarou
 panda.tags: 99, 100
-photo.1: https://www.instagram.com/p/BzFN4UQBV6Z/media/?size=m
-photo.1.author: kotata_513
-photo.1.link: https://www.instagram.com/kotata_513/
-photo.1.tags: bamboo, siblings, twins
-photo.1.tags.99.location: 210, 60
-photo.1.tags.100.location: 115, 80
-photo.2: https://www.instagram.com/p/BLnjhTUjF4C/media/?size=l
-photo.2.author: minatomirai215
-photo.2.link: https://www.instagram.com/minatomirai215/
-photo.2.tags: baby, siblings, twins
-photo.2.tags.99.location: 765, 640
-photo.2.tags.100.location: 280, 665
+photo.1: https://www.instagram.com/p/BLnjhTUjF4C/media/?size=l
+photo.1.author: minatomirai215
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: baby, siblings, twins
+photo.1.tags.99.location: 765, 640
+photo.1.tags.100.location: 280, 665
+photo.2: https://www.instagram.com/p/BzFN4UQBV6Z/media/?size=m
+photo.2.author: kotata_513
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: bamboo, siblings, twins
+photo.2.tags.99.location: 210, 60
+photo.2.tags.100.location: 115, 80
