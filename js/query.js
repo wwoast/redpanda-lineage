@@ -93,7 +93,7 @@ Query.resolver.group_one_set = function(set_node) {
       .map(keyword_node => Parse.searchTag(keyword_node.str));   // All keywords
     tag = tags.join(", ");   // For query output
     hits = Pandas.searchPhotoTags(
-      Pandas.searchPanda(search_word), 
+      Pandas.searchPandaMedia(search_word), 
       tags, mode="intersect", fallback="none"
     );
   }
