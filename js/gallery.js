@@ -995,6 +995,12 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (photo_count == 0) {
       return output_photos;
     }
+    all_zoo_panda_ids = all_zoo_pandas.map(x => x.id);
+    new_panda_photo_id = new_panda_photo.id;
+    if (all_zoo_panda_ids.indexOf(new_panda_photo_id) != -1) {
+      // Zoo pandas don't show in the new authors section
+      continue;
+    }
     // New panda added, so make sure it gets the heart icon
     new_panda_photo.name_icon = Language.L.emoji.profile;
     output_photos.push(new_panda_photo);
