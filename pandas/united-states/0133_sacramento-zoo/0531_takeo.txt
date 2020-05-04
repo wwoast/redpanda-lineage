@@ -37,7 +37,7 @@ photo.5.tags: portrait, paws
 photo.6: https://www.instagram.com/p/BZhOew7lDHG/media/?size=m
 photo.6.author: sacramentozoo
 photo.6.link: https://www.instagram.com/sacramentozoo/
-photo.6.tags: profile
+photo.6.tags: portrait, profile
 photo.7: https://www.instagram.com/p/BoXiofCl8JT/media/?size=m
 photo.7.author: sacramentozoo
 photo.7.link: https://www.instagram.com/sacramentozoo/
@@ -58,5 +58,9 @@ photo.11: https://www.instagram.com/p/B_NXk2lAJDR/media/?size=m
 photo.11.author: sacramentozoo
 photo.11.link: https://www.instagram.com/sacramentozoo/
 photo.11.tags: bamboo, tree
+photo.12: https://www.instagram.com/p/B_wCZlQg_TP/media/?size=m
+photo.12.author: ohmygoat1
+photo.12.link: https://www.instagram.com/ohmygoat1/
+photo.12.tags: portrait, profile, whiskers
 species: 1
 zoo: 133
