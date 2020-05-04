@@ -1,0 +1,14 @@
+[zoo]
+_id: 244
+en.address: Fange de Deigné 3, 4920 Aywaille, Belgium
+en.location: Aywaille, Belgium
+en.name: Wild World Safari Park
+flag: Belgium
+fr.address: Fange de Deigné 3, 4920 Aywaille, Belgium
+fr.location: Aywaille, Belgium
+fr.name: Monde Sauvage Safari Safari Parc d'Aywaille
+language.order: fr, en
+latitude: 50.4998471
+longitude: 5.7260037
+map: https://goo.gl/maps/RXN3MXiLpyY9YnRS9
+website: http://www.mondesauvage.be/
