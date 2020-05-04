@@ -873,8 +873,10 @@ class UpdateFromCommits:
             counting == True):
             if actual.entity_type == "panda":
                 self.updates["pandas"].append(locator)
+                self.updates["entities"].append(locator)
             if actual.entity_type == "zoo":
                 self.updates["zoos"].append(locator)
+                self.updates["entities"].append(locator)
             if actual.entity_type == "media":
                 self.updates["entities"].append(locator)
         if added == True:
