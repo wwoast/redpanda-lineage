@@ -978,7 +978,9 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (photo_count == 0) {
       return output_photos;
     }
-    if (all_zoo_pandas.indexOf(author_photo) != -1) {
+    var all_zoo_panda_ids = all_zoo_pandas.map(x => x.id);
+    var author_photo_id = author_photo.id;
+    if (all_zoo_panda_ids.indexOf(author_photo_id) != -1) {
       // Zoo pandas don't show in the new authors section
       continue;
     }
@@ -995,8 +997,8 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (photo_count == 0) {
       return output_photos;
     }
-    all_zoo_panda_ids = all_zoo_pandas.map(x => x.id);
-    new_panda_photo_id = new_panda_photo.id;
+    var all_zoo_panda_ids = all_zoo_pandas.map(x => x.id);
+    var new_panda_photo_id = new_panda_photo.id;
     if (all_zoo_panda_ids.indexOf(new_panda_photo_id) != -1) {
       // Zoo pandas don't show in the new authors section
       continue;
