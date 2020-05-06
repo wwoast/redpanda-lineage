@@ -7,6 +7,7 @@ flag: USA
 language.order: en
 latitude: 42.9353009
 longitude: -78.8619732
+map: https://goo.gl/maps/3pjPqJH5rJp
 photo.1: https://www.instagram.com/p/B9rfnlrngCv/media/?size=m
 photo.1.author: buffalo_zoo
 photo.1.link: https://www.instagram.com/buffalo_zoo/
@@ -17,5 +18,4 @@ photo.3: https://www.instagram.com/p/BrpuvnLnY_Z/media/?size=m
 photo.3.author: buffalo_zoo
 photo.3.link: https://www.instagram.com/buffalo_zoo/
 photo.3.tags: profile
-map: https://goo.gl/maps/3pjPqJH5rJp
 website: https://buffalozoo.org/
