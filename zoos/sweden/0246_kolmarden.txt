@@ -1,0 +1,14 @@
+[zoo]
+_id: 246
+en.address: Kvarsebovägen, 618 92 Kolmården, Sweden
+en.location: Bråviken Bay, Norrköping, Sweden
+en.name: Kolmården Wildlife Park
+flag: Sweden
+language.order: se, en
+latitude: 58.6640632
+longitude: 16.4471131
+map: https://goo.gl/maps/JNjPxjqkqf1qzzUR9
+se.address: Kvarsebovägen, 618 92 Kolmården, Sweden
+se.location: Bråviken Bay, Norrköping, Sweden
+se.name: Kolmårdens Djurpark
+website: https://www.kolmarden.com/
