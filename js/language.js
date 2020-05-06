@@ -48,7 +48,7 @@ Language.L.bias = {
 Language.alphabets = {
   "cjk": ["cn", "jp", "kr"],
   "cyrillic": ["ru"],
-  "latin": ["de", "dk", "en", "es", "fr", "nl", "pl"],
+  "latin": ["de", "dk", "en", "es", "fr", "nl", "pl", "se"],
 }
 
 
