@@ -145,8 +145,10 @@ Layout.shrinkNames = function() {
       width = span.offsetWidth;
     }
     if (width > ultraCondensed_width) {
+      span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("ultraCondensed");
     } else if (width > condensed_width) {
+      span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("condensed");
     }
     // Fix the spacing for strings that have mixed character sets.
