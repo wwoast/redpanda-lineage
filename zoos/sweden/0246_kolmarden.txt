@@ -8,6 +8,22 @@ language.order: se, en
 latitude: 58.6640632
 longitude: 16.4471131
 map: https://goo.gl/maps/JNjPxjqkqf1qzzUR9
+photo.1: https://www.instagram.com/p/BzOtKcLoQ4z/media/?size=m
+photo.1.author: irana_sweden
+photo.1.link: https://www.instagram.com/irana_sweden/
+photo.1.tags: profile
+photo.2: https://www.instagram.com/p/4eBeP0kG_4/media/?size=m
+photo.2.author: kolmardensdjurpark
+photo.2.link: https://www.instagram.com/kolmardensdjurpark/
+photo.3: https://www.instagram.com/p/BkkWY4lgzCV/media/?size=m
+photo.3.author: kolmardensdjurpark
+photo.3.link: https://www.instagram.com/kolmardensdjurpark/
+photo.4: https://www.instagram.com/p/BlmwlnfgY3H/media/?size=m
+photo.4.author: kolmardensdjurpark
+photo.4.link: https://www.instagram.com/kolmardensdjurpark/
+photo.5: https://www.instagram.com/p/B4mNdypHMe9/media/?size=m
+photo.5.author: kolmardensdjurpark
+photo.5.link: https://www.instagram.com/kolmardensdjurpark/
 se.address: Kvarsebovägen, 618 92 Kolmården, Sweden
 se.location: Bråviken Bay, Norrköping, Sweden
 se.name: Kolmårdens Djurpark

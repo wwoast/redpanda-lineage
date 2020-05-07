@@ -1,0 +1,19 @@
+[panda]
+_id: 1158
+birthday: unknown
+birthplace: unknown
+children: unknown
+en.name: Arjun
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: アルジュン
+jp.nicknames: none
+jp.othernames: none
+language.order: se, en, jp
+litter: unknown
+se.name: Arjun
+se.nicknames: none
+se.othernames: none
+species: 1
+zoo: 246
