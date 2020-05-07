@@ -952,6 +952,10 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (author_photos.map(photo => photo.credit).indexOf(zoo_photo.credit) != -1) {
       zoo_photo.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
     }
+    // Give it giftwrap if only one photo attributed to this author
+    if (P.db._photo.credit[zoo_photo.credit] == 1) {
+      zoo_photo.credit_icon = Language.L.emoji.giftwrap;
+    }
     var class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]];
     zoo_photo.classes = class_list;
     output_photos.push(zoo_photo);
@@ -963,7 +967,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
-      if (author_photos.indexOf(zoo_panda) != -1) {
+      if (author_photos.map(photo => photo.credit).indexOf(zoo_panda.credit) != -1) {
         zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
       }
       zoo_panda.classes = class_list;
