@@ -148,17 +148,14 @@ Layout.shrinkNames = function() {
   var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
     var span = element.childNodes[nth];
     var width = width_check(span, element, width_select);
-    if (width > ultraCondensed_width) {
-      span.classList.remove("condensed", "ultraCondensed");
-      span.classList.add("ultraCondensed");
-    } else if (width > condensed_width) {
-      span.classList.remove("condensed", "ultraCondensed");
+    if (width > condensed_width) {
       span.classList.add("condensed");
+      span.classList.remove("ultraCondensed");
       // Recalculate the width and see if we need to ultra-condense
       width = width_check(span, element, width_select);
       if (width > condensed_width) {
-        span.classList.remove("condensed", "ultraCondensed");
-        span.classList.add("ultraCondensed");
+        span.classList.add("ultraCondensed")
+        span.classList.remove("condensed");
       }
     }
     // Fix the spacing for strings that have mixed character sets.
