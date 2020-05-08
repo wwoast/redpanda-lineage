@@ -21,7 +21,7 @@ photo.1.tags: bamboo
 photo.2: https://www.instagram.com/p/BcUOLo5FQTW/media/?size=m
 photo.2.author: hanamaru_redpanda
 photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: profile
+photo.2.tags: portrait, profile
 photo.3: https://www.instagram.com/p/Br3huFhldHt/media/?size=m
 photo.3.author: re_ichimaru
 photo.3.link: https://www.instagram.com/re_ichimaru/
@@ -60,5 +60,13 @@ photo.12: https://www.instagram.com/p/B5Jc7qohLdb/media/?size=m
 photo.12.author: fetorus_mami
 photo.12.link: https://www.instagram.com/fetorus_mami/
 photo.12.tags: apple time, dish, eye, paws, tongue
+photo.13: https://www.instagram.com/p/BZqo1A_BIpO/media/?size=m
+photo.13.author: lespan33
+photo.13.link: https://www.instagram.com/lespan33/
+photo.13.tags: portrait
+photo.14: https://www.instagram.com/p/BX2vkxTB8tS/media/?size=m
+photo.14.author: lespan33
+photo.14.link: https://www.instagram.com/lespan33/
+photo.14.tags: portrait
 species: 2
 zoo: 42

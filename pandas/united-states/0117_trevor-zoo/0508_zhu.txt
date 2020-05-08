@@ -37,7 +37,6 @@ photo.4.tags: bamboo, techitechi
 photo.5: https://www.codaworry.com/images/rpf/zhu-5-trevorzoo.jpg
 photo.5.author: worldthathesees
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: profile
 photo.6: https://www.codaworry.com/images/rpf/zhu-6-trevorzoo.jpg
 photo.6.author: worldthathesees
 photo.6.link: https://www.instagram.com/worldthathesees/
@@ -46,5 +45,9 @@ photo.7: https://www.codaworry.com/images/rpf/zhu-7-trevorzoo.jpg
 photo.7.author: worldthathesees
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: bamboo
+photo.8: https://www.instagram.com/p/B-aJcw5AEpR/media/?size=m
+photo.8.author: trevorzoomillbrook
+photo.8.link: https://www.instagram.com/trevorzoomillbrook/
+photo.8.tags: portrait, profile
 species: 1
 zoo: 117
