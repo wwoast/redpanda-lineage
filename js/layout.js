@@ -142,7 +142,8 @@ Layout.shrinkNames = function() {
     var width = element.offsetWidth;   // Default to outer width
     if (width_select == "inner") {
       width = span.offsetWidth;
-    }    
+    }
+    return width; 
   }
   var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
     var span = element.childNodes[nth];
