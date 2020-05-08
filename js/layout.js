@@ -138,18 +138,27 @@ Layout.recomputeHeight = function(e) {
 // Look for span elements that are children of links, in the family bars.
 // Any of these that are displayed in the page larger than 100px, need to get shrunk.
 Layout.shrinkNames = function() {
-  var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
-    var span = element.childNodes[nth];
+  var width_check = function(span, element, width_select) {
     var width = element.offsetWidth;   // Default to outer width
     if (width_select == "inner") {
       width = span.offsetWidth;
-    }
+    }    
+  }
+  var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
+    var span = element.childNodes[nth];
+    var width = width_check(span, element, width_select);
     if (width > ultraCondensed_width) {
       span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("ultraCondensed");
     } else if (width > condensed_width) {
       span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("condensed");
+      // Recalculate the width and see if we need to ultra-condense
+      width = width_check(span, element, width_select);
+      if (width > condensed_width) {
+        span.classList.add("ultraCondensed");
+        span.classList.remove("condensed");
+      }
     }
     // Fix the spacing for strings that have mixed character sets.
     // Fixes long mixed-range strings like "Erin Curry博士"
