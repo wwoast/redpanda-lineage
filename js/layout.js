@@ -197,7 +197,7 @@ Layout.shrinkNames = function() {
   var author_nodes = document.getElementsByClassName("caption updateAuthor");
   var media_author_nodes = document.getElementsByClassName("caption groupMediaAuthor");
   for (let link of link_nodes) {
-    shrinker(link, 1, "outer", 120);
+    shrinker(link, 1, "outer", 125);
   }
   for (let caption of birthday_nodes) {
     action(caption, 0, "inner", 130);
