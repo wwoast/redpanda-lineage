@@ -184,7 +184,7 @@ Layout.shrinkNames = function() {
     var author_nodes = document.getElementsByClassName("caption updateAuthor");
     for (let caption of author_nodes) {
       // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth);
-      shrinker(caption, 0, "inner", 150, 160);
+      shrinker(caption, 0, "inner", 160, 170);
     }
   }
 
