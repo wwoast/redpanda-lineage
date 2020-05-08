@@ -376,6 +376,9 @@ Pandas.removeElementsWithMatchingField = function(list, removals, field) {
 // Generates a valid index to a link for a link entity, up to the
 // point that said entity doesn't have a defined link in its data.
 Pandas.linkGeneratorEntity = function*(entity, index=0) {
+  if (entity == undefined) {
+    return;
+  }
   while (index < index + 1) {
     index++;
     if (entity["link." + index] == undefined) {
@@ -388,6 +391,9 @@ Pandas.linkGeneratorEntity = function*(entity, index=0) {
 // Generates a valid index to a location for a panda entity, up to the
 // point that said entity doesn't have a defined historical location in its data
 Pandas.locationGeneratorEntity = function*(entity, index=0) {
+  if (entity == undefined) {
+    return;
+  }
   while (index < index + 1) {
     index++;
     if (entity["location." + index] == undefined) {
@@ -400,6 +406,9 @@ Pandas.locationGeneratorEntity = function*(entity, index=0) {
 // Generates a valid index to a photo for a panda entity, up to the
 // point that said entity doesn't have a defined photo in its data.
 Pandas.photoGeneratorEntity = function*(entity, index=0) {
+  if (entity == undefined) {
+    return;
+  }
   while (index < index + 1) {
     index++;
     if (entity["photo." + index] == undefined) {
