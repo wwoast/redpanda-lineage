@@ -174,6 +174,7 @@ Layout.shrinkNames = function() {
     // doesn't have super long names in the author boxes
     var author_nodes = document.getElementsByClassName("caption updateAuthor");
     for (let caption of author_nodes) {
+      // shrinker(caption, 0, "inner", caption.clientWidth - 10, caption.clientWidth);
       shrinker(caption, 0, "inner", 150, 160);
     }
   }
