@@ -149,15 +149,15 @@ Layout.shrinkNames = function() {
     var span = element.childNodes[nth];
     var width = width_check(span, element, width_select);
     if (width > ultraCondensed_width) {
-      span.classList.remove("condensed ultraCondensed");
+      span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("ultraCondensed");
     } else if (width > condensed_width) {
-      span.classList.remove("condensed ultraCondensed");
+      span.classList.remove("condensed", "ultraCondensed");
       span.classList.add("condensed");
       // Recalculate the width and see if we need to ultra-condense
       width = width_check(span, element, width_select);
       if (width > condensed_width) {
-        span.classList.remove("condensed ultraCondensed");
+        span.classList.remove("condensed", "ultraCondensed");
         span.classList.add("ultraCondensed");
       }
     }
