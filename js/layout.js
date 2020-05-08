@@ -145,7 +145,7 @@ Layout.shrinkNames = function() {
     }
     return width; 
   }
-  var shrinker = function(element, nth, width_select, condensed_width, ultraCondensed_width) {
+  var shrinker = function(element, nth, width_select, condensed_width) {
     var span = element.childNodes[nth];
     var width = width_check(span, element, width_select);
     if (width > condensed_width) {
@@ -197,19 +197,19 @@ Layout.shrinkNames = function() {
   var author_nodes = document.getElementsByClassName("caption updateAuthor");
   var media_author_nodes = document.getElementsByClassName("caption groupMediaAuthor");
   for (let link of link_nodes) {
-    shrinker(link, 1, "outer", 120, 138);
+    shrinker(link, 1, "outer", 120);
   }
   for (let caption of birthday_nodes) {
-    action(caption, 0, "inner", 130, 140);
+    action(caption, 0, "inner", 130);
   }
   for (let caption of memorial_nodes) {
-    action(caption, 0, "inner", 130, 140);
+    action(caption, 0, "inner", 130);
   }
   for (let caption of author_nodes) {
-    action(caption, 0, "inner", 130, 140);
+    action(caption, 0, "inner", 130);
   }
   for (let caption of media_author_nodes) {
-    action(caption, 0, "inner", 130, 140);
+    action(caption, 0, "inner", 130);
   }
 }
 
