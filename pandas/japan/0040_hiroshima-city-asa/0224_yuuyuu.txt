@@ -5,7 +5,7 @@ birthplace: 37
 children: 994, 995
 en.name: Yuu-Yuu
 en.nicknames: none
-en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuu-Yuu, You-You, Youyou
+en.othernames: Yū-Yū, Yu-Yu, Yuyu, Yuu-Yuu, You-You, Youyou, Yao-Yao, Yaoyao
 gender: f
 jp.name: 友友
 jp.nicknames: none
@@ -62,5 +62,21 @@ photo.12.link: https://www.instagram.com/kmasahon/
 photo.13: https://www.instagram.com/p/B8xJoy3BSLL/media/?size=m
 photo.13.author: kmasahon
 photo.13.link: https://www.instagram.com/kmasahon/
+photo.14: https://www.instagram.com/p/B5_Nj38BqsF/media/?size=m
+photo.14.author: craig_craig_craig
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: paws, portrait
+photo.15: https://www.instagram.com/p/B8FTNwBhiw1/media/?size=m
+photo.15.author: kipekaila
+photo.15.link: https://www.instagram.com/kipekaila/
+photo.15.tags: bite, portrait
+photo.16: https://www.instagram.com/p/BXFvX6agwDQ/media/?size=m
+photo.16.author: mifko55
+photo.16.link: https://www.instagram.com/mifko55/
+photo.16.tags: bear worm, bridge, laying down, paws, portrait
+photo.17: https://www.instagram.com/p/BcHtmKohKPy/media/?size=m
+photo.17.author: mifko55
+photo.17.link: https://www.instagram.com/mifko55/
+photo.17.tags: portrait, snow
 species: 2
 zoo: 40
