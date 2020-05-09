@@ -435,6 +435,9 @@ div.pandaPhoto, div.zooPhoto {
     background-color: black;
     position: relative;
     user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 div.pandaPhoto img, div.zooPhoto img {
@@ -443,12 +446,10 @@ div.pandaPhoto img, div.zooPhoto img {
     max-width: 340px;
     max-height: 340px;
     z-index: 1;
-    user-select: none;
 }
 
 a.navigatorLink {
     display: none;
-    user-select: none;
 }
 
 span.navigator {
@@ -466,7 +467,6 @@ span.navigator {
     text-align: center;
     padding-left: 6px;
     padding-right: 6px;
-    user-select: none;
     width: 36px;
 }
 
