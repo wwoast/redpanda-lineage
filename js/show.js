@@ -2217,7 +2217,7 @@ Show.results.zooAnimals = function(zoo, language) {
   // which of the input lists are non-empty
   var headers = {
     "arrivals": Message.arrivals(zoo, born, language),
-    "departures": Message.departures(zoo, deaths, language)
+    "departures": Message.departures(zoo, deaths, leaving, language)
   }
   // Spool it all out
   var content_divs = [];

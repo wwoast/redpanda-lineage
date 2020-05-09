@@ -138,7 +138,7 @@ Message.departed_to_zoo = function(zoo, date, language) {
   }
   return text; 
 }
-Message.departures = function(zoo, deaths, language) {
+Message.departures = function(zoo, deaths, leaving, language) {
   // Zoo search: display departing animals along with ones that died.
   // If any animals passed away, this message gets a rainbow icon suffix
   var link = document.createElement('a');
@@ -154,7 +154,7 @@ Message.departures = function(zoo, deaths, language) {
     var msg = document.createTextNode(field);
     p.appendChild(msg);
   }
-  if (deaths.length > 0) {
+  if ((deaths.length > 0) && (leaving.length == deaths.length)) {
     var suffix = document.createTextNode(" " + Language.L.emoji.died);
     p.appendChild(suffix);
   }
