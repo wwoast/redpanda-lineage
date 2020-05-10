@@ -36,6 +36,9 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
   F = Geo.init();
 
+  // When font has rednered, do a pass to properly calculate text shrinks
+  TypeSquareJS.onFontRendered = Layout.shrinkNames;
+
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state
