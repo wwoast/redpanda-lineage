@@ -36,9 +36,6 @@ document.addEventListener("DOMContentLoaded", function() {
   G = Dagoba.graph();
   F = Geo.init();
 
-  // When font has rednered, do a pass to properly calculate text shrinks
-  TypeSquareJS.onFontLoaded(Layout.shrinkNames);
-
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
   L.update();      // Update buttons, displayed results, and cookie state
@@ -79,6 +76,9 @@ document.addEventListener("DOMContentLoaded", function() {
   if ((last_seen != null) && (current_hash.length == 0)) {
     window.location.hash = last_seen;
   }
+  
+  // When all webfonts have rendered, recalculate text shrinks
+  TypeSquareJS.onFontLoaded(Layout.shrinkNames);
 });
 
 // When a hashlink is clicked from a non-links or non-about page, it should
