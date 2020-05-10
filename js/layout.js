@@ -217,7 +217,8 @@ Layout.shrinkNames = function() {
    on the initial page load. */
 Layout.media.addListener(Layout.shrinkNames);
 Layout.media.addListener(Layout.recomputeHeight);
-document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);   
+document.addEventListener("DOMContentLoaded", Layout.recomputeHeight);
+TypeSquareJS.onFontRendered = Layout.shrinkNames;
 
 /* Layout manager. Looks at counts of each element, and gives an arrangement */
 Layout.L.layout = function() {
