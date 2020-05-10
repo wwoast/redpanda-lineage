@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function() {
   F = Geo.init();
 
   // When font has rednered, do a pass to properly calculate text shrinks
-  TypeSquareJS.onFontRendered = Layout.shrinkNames;
+  TypeSquareJS.onFontLoaded(Layout.shrinkNames);
 
   L.defaultDisplayLanguage();   // Set default display language
   Page.routes.check();   // See if we started on the about page
