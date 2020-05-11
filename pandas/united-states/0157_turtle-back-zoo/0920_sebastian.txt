@@ -3,6 +3,7 @@ _id: 920
 birthday: 2002/7/9
 birthplace: 118
 children: none
+death: 2020/5/9
 en.name: Sebastian
 en.nicknames: none
 en.othernames: none
@@ -19,6 +20,6 @@ location.4: 157, 2009/12/23
 photo.1: https://www.instagram.com/p/BnhPrRNhEft/media/?size=m
 photo.1.author: officialturtlebackzoo
 photo.1.link: https://www.instagram.com/officialturtlebackzoo/
-photo.1.tags: bamboo, ice treat, portrait
+photo.1.tags: bamboo, ice treat, portrait, profile
 species: 1
 zoo: 157

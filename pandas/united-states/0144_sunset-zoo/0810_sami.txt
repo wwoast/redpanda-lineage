@@ -5,7 +5,7 @@ birthplace: 121
 children: 552, 1059
 en.name: Sami
 en.nicknames: none
-en.othernames: none
+en.othernames: Sammy
 gender: f
 jp.name: サミ
 jp.nicknames: none
@@ -14,5 +14,13 @@ language.order: en, jp
 litter: 811
 location.1: 121, 2014/6/6
 location.2: 144, 2015/4/15
+photo.1: https://www.instagram.com/p/BHstWegghyI/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: mofumofu, portrait, profile, wink
+photo.2: https://www.instagram.com/p/BHstFV6ga0s/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: whiskers
 species: 1
 zoo: 144

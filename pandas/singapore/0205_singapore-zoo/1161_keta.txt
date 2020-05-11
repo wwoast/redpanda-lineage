@@ -1,0 +1,21 @@
+[panda]
+_id: 1161
+birthday: 2015/12/10
+birthplace: 207
+children: none
+en.name: Keta
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケタ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: 1162
+location.1: 207, 2015/12/10
+location.2: 205, 2018/1/1
+np.name: केटा
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 205
