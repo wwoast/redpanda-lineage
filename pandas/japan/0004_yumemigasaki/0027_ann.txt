@@ -14,108 +14,128 @@ language.order: jp, en
 litter: 143
 location.1: 9, 2010/6/15
 location.2: 4, 2011/12/12
-photo.1: https://www.instagram.com/p/BjZcbAel8Cm/media/?size=m
-photo.1.author: hanamaru_redpanda
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: bamboo
-photo.2: https://www.instagram.com/p/BjCiubMFYVl/media/?size=m
-photo.2.author: miis_98
-photo.2.link: https://www.instagram.com/miis_98/
-photo.3: https://www.instagram.com/p/Bjo3AMwFuRR/media/?size=m
-photo.3.author: roko_mm
-photo.3.link: https://www.instagram.com/roko_mm/
-photo.3.tags: bamboo, tongue
-photo.4: https://www.instagram.com/p/BgFXsajFnLk/media/?size=m
-photo.4.author: tabechum
-photo.4.link: https://www.instagram.com/tabechum/
-photo.4.tags: tongue
-photo.5: https://www.instagram.com/p/BcNKJ25h43v/media/?size=m
+photo.1: https://www.instagram.com/p/BBm5Wy_tG5O/media/?size=m
+photo.1.author: mariten1119
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: itchy, portrait, white face
+photo.2: https://www.instagram.com/p/BGEi7uEKoGa/media/?size=m
+photo.2.author: minatomirai215
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: bamboo, paws, whiskers, white face
+photo.3: https://www.instagram.com/p/BGa7LVsKoFk/media/?size=m
+photo.3.author: minatomirai215
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: bamboo, portrait, white face
+photo.4: https://www.instagram.com/p/BGo_30ePizQ/media/?size=m
+photo.4.author: panda.daisuki
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: white face
+photo.5: https://www.instagram.com/p/BGrH_DmqoOI/media/?size=m
 photo.5.author: minatomirai215
 photo.5.link: https://www.instagram.com/minatomirai215/
-photo.5.tags: toys
-photo.6: https://www.instagram.com/p/BoP0ow1FKXm/media/?size=m
-photo.6.author: craig_craig_craig
-photo.6.link: https://www.instagram.com/craig_craig_craig/
-photo.6.tags: smile
-photo.7: https://www.instagram.com/p/Boyjt2Al-Vt/media/?size=m
-photo.7.author: craig_craig_craig
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: mofumofu
-photo.8: https://www.instagram.com/p/Bo4LiqEAr3m/media/?size=m
-photo.8.author: perie1027vivi
-photo.8.link: https://www.instagram.com/perie1027vivi/
-photo.8.tags: profile, smile
-photo.9: https://www.instagram.com/p/BhRPpTKn2DD/media/?size=m
-photo.9.author: rdpnzoo
-photo.9.link: https://www.instagram.com/rdpnzoo/
-photo.9.tags: bamboo, tongue
-photo.10: https://www.instagram.com/p/Bp24cW4AzIQ/media/?size=m
-photo.10.author: miis_98
-photo.10.link: https://www.instagram.com/miis_98/
-photo.10.tags: flowers, smile
-photo.11: https://www.instagram.com/p/Bp26zhWlPbZ/media/?size=m
-photo.11.author: rie_panda55
-photo.11.link: https://www.instagram.com/rie_panda55/
-photo.11.tags: techitechi
-photo.12: https://www.instagram.com/p/BwCUvGsAt0s/media/?size=m
-photo.12.author: miis_98
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: white face
-photo.13: https://www.instagram.com/p/BGo_30ePizQ/media/?size=m
-photo.13.author: panda.daisuki
-photo.13.link: https://www.instagram.com/panda.daisuki/
-photo.13.tags: white face
-photo.14: https://www.instagram.com/p/BmdnvrNF7SO/media/?size=m
-photo.14.author: mariten1119
-photo.14.link: https://www.instagram.com/mariten1119/
-photo.14.tags: itchy, tail, white face
-photo.15: https://www.instagram.com/p/BBm5Wy_tG5O/media/?size=m
-photo.15.author: mariten1119
-photo.15.link: https://www.instagram.com/mariten1119/
-photo.15.tags: itchy, portrait, white face
-photo.16: https://www.instagram.com/p/Bzz-LQlhxnk/media/?size=m
-photo.16.author: ssc6105
-photo.16.link: https://www.instagram.com/ssc6105/
-photo.16.tags: bridge, laying down, yawn
-photo.17: https://www.instagram.com/p/BXRRZvpDPD0/media/?size=m
-photo.17.author: _rifa_p
-photo.17.link: https://www.instagram.com/_rifa_p/
-photo.17.tags: paws, portrait
-photo.18: https://www.instagram.com/p/B233yXHBDA2/media/?size=m
-photo.18.author: ssc6105
-photo.18.link: https://www.instagram.com/ssc6105/
-photo.18.tags: bamboo, laying down, tongue
-photo.19: https://www.instagram.com/p/B5i9aqdB-zh/media/?size=m
-photo.19.author: ssc6105
-photo.19.link: https://www.instagram.com/ssc6105/
-photo.19.tags: paws, standing
-photo.20: https://www.instagram.com/p/B5_-uV_gjDO/media/?size=m
-photo.20.author: miis_98
-photo.20.link: https://www.instagram.com/miis_98/
-photo.20.tags: portrait, white face
-photo.21: https://www.instagram.com/p/B605_XThfpV/media/?size=m
-photo.21.author: minatomirai215
-photo.21.link: https://www.instagram.com/minatomirai215/
-photo.21.tags: laying down, portrait, tail
-photo.22: https://www.instagram.com/p/B6_xhXDBd-H/media/?size=m
-photo.22.author: miis_98
-photo.22.link: https://www.instagram.com/miis_98/
-photo.22.tags: paws, white face
-photo.23: https://www.instagram.com/p/B8FZP2OhYY4/media/?size=m
-photo.23.author: ssc6105
-photo.23.link: https://www.instagram.com/ssc6105/
-photo.23.tags: dish, white face
-photo.24: https://www.instagram.com/p/B8rrAYyhzXE/media/?size=m
-photo.24.author: kipekaila
-photo.24.link: https://www.instagram.com/kipekaila/
-photo.24.tags: bamboo, portrait, white face
-photo.25: https://www.instagram.com/p/BcijcSYhtWw/media/?size=m
-photo.25.author: miis_98
-photo.25.link: https://www.instagram.com/miis_98/
-photo.25.tags: bamboo, portrait, white face
-photo.26: https://www.instagram.com/p/BXgsbgwhh6A/media/?size=m
-photo.26.author: miis_98
-photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: paws, portrait, smile, whiskers
+photo.5.tags: paws, portrait, tail
+photo.6: https://www.instagram.com/p/BVXEmp9gpO3/media/?size=m
+photo.6.author: minatomirai215
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: portrait, smile, whiskers
+photo.7: https://www.instagram.com/p/BXRRZvpDPD0/media/?size=m
+photo.7.author: _rifa_p
+photo.7.link: https://www.instagram.com/_rifa_p/
+photo.7.tags: paws, portrait
+photo.8: https://www.instagram.com/p/BXgsbgwhh6A/media/?size=m
+photo.8.author: miis_98
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: paws, portrait, smile, whiskers
+photo.9: https://www.instagram.com/p/BZqRihvBMiB/media/?size=m
+photo.9.author: minatomirai215
+photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: door, paws, portrait, window
+photo.10: https://www.instagram.com/p/BcNKJ25h43v/media/?size=m
+photo.10.author: minatomirai215
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: toys
+photo.11: https://www.instagram.com/p/BcijcSYhtWw/media/?size=m
+photo.11.author: miis_98
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: bamboo, portrait, white face
+photo.12: https://www.instagram.com/p/BgFXsajFnLk/media/?size=m
+photo.12.author: tabechum
+photo.12.link: https://www.instagram.com/tabechum/
+photo.12.tags: tongue
+photo.13: https://www.instagram.com/p/BhRPpTKn2DD/media/?size=m
+photo.13.author: rdpnzoo
+photo.13.link: https://www.instagram.com/rdpnzoo/
+photo.13.tags: bamboo, tongue
+photo.14: https://www.instagram.com/p/BjCiubMFYVl/media/?size=m
+photo.14.author: miis_98
+photo.14.link: https://www.instagram.com/miis_98/
+photo.15: https://www.instagram.com/p/BjZcbAel8Cm/media/?size=m
+photo.15.author: hanamaru_redpanda
+photo.15.link: https://www.instagram.com/hanamaru_redpanda/
+photo.15.tags: bamboo
+photo.16: https://www.instagram.com/p/Bjo3AMwFuRR/media/?size=m
+photo.16.author: roko_mm
+photo.16.link: https://www.instagram.com/roko_mm/
+photo.16.tags: bamboo, tongue
+photo.17: https://www.instagram.com/p/BmdnvrNF7SO/media/?size=m
+photo.17.author: mariten1119
+photo.17.link: https://www.instagram.com/mariten1119/
+photo.17.tags: itchy, tail, white face
+photo.18: https://www.instagram.com/p/BoP0ow1FKXm/media/?size=m
+photo.18.author: craig_craig_craig
+photo.18.link: https://www.instagram.com/craig_craig_craig/
+photo.18.tags: smile
+photo.19: https://www.instagram.com/p/Boyjt2Al-Vt/media/?size=m
+photo.19.author: craig_craig_craig
+photo.19.link: https://www.instagram.com/craig_craig_craig/
+photo.19.tags: mofumofu
+photo.20: https://www.instagram.com/p/Bo4LiqEAr3m/media/?size=m
+photo.20.author: perie1027vivi
+photo.20.link: https://www.instagram.com/perie1027vivi/
+photo.20.tags: portrait, smile
+photo.21: https://www.instagram.com/p/Bp24cW4AzIQ/media/?size=m
+photo.21.author: miis_98
+photo.21.link: https://www.instagram.com/miis_98/
+photo.21.tags: flowers, smile
+photo.22: https://www.instagram.com/p/Bp26zhWlPbZ/media/?size=m
+photo.22.author: rie_panda55
+photo.22.link: https://www.instagram.com/rie_panda55/
+photo.22.tags: techitechi
+photo.23: https://www.instagram.com/p/BwCUvGsAt0s/media/?size=m
+photo.23.author: miis_98
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: white face
+photo.24: https://www.instagram.com/p/Bzz-LQlhxnk/media/?size=m
+photo.24.author: ssc6105
+photo.24.link: https://www.instagram.com/ssc6105/
+photo.24.tags: bridge, laying down, yawn
+photo.25: https://www.instagram.com/p/B233yXHBDA2/media/?size=m
+photo.25.author: ssc6105
+photo.25.link: https://www.instagram.com/ssc6105/
+photo.25.tags: bamboo, laying down, tongue
+photo.26: https://www.instagram.com/p/B5i9aqdB-zh/media/?size=m
+photo.26.author: ssc6105
+photo.26.link: https://www.instagram.com/ssc6105/
+photo.26.tags: paws, standing
+photo.27: https://www.instagram.com/p/B5_-uV_gjDO/media/?size=m
+photo.27.author: miis_98
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: portrait, profile, white face
+photo.28: https://www.instagram.com/p/B605_XThfpV/media/?size=m
+photo.28.author: minatomirai215
+photo.28.link: https://www.instagram.com/minatomirai215/
+photo.28.tags: laying down, portrait, tail
+photo.29: https://www.instagram.com/p/B6_xhXDBd-H/media/?size=m
+photo.29.author: miis_98
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: paws, white face
+photo.30: https://www.instagram.com/p/B8FZP2OhYY4/media/?size=m
+photo.30.author: ssc6105
+photo.30.link: https://www.instagram.com/ssc6105/
+photo.30.tags: dish, white face
+photo.31: https://www.instagram.com/p/B8rrAYyhzXE/media/?size=m
+photo.31.author: kipekaila
+photo.31.link: https://www.instagram.com/kipekaila/
+photo.31.tags: bamboo, portrait, white face
 species: 2
 zoo: 4
