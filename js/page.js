@@ -404,6 +404,7 @@ Page.media.render = function() {
     The profiles page display details for an individual panda
 */
 Page.profile = {};
+Page.profile.qr_update = new Event('qr_update');
 Page.profile.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);

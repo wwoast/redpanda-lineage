@@ -498,7 +498,7 @@ Show.qrcodeHashSafe = function() {
   return out_hash;
 }
 
-// Construct a QR code out of the current page URL.
+// Construct a QR code out of the current page URL
 Show.qrcodeImage = function() {
   var safe_hash = Show.qrcodeHashSafe();
   var safe_url = "https://" + window.location.host + "/" + safe_hash;
@@ -517,6 +517,10 @@ Show.qrcodeImage = function() {
   qrHashLink.className = "qrcodeText";
   qrHashLink.innerText = safe_hash;
   qrcode.appendChild(qrHashLink);
+  window.addEventListener('qr_update', function() {
+    // Swap qr_code with another one
+    console.log("qr_update");
+  });
   return qrcode;
 }
 
@@ -1414,7 +1418,7 @@ Show.profile.dossier = function(animal, info, language) {
   second_item.innerText = second_string;
   birthday.appendChild(first_item);
   birthday.appendChild(second_item);
-  // Display a QR code
+  // Display a QR code, and manage updates
   var qrcode = Show.qrcodeImage();
   // Lay it all out
   var dossier = document.createElement('div');
