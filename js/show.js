@@ -523,6 +523,8 @@ Show.qrcodeImage = function(photo_index=null) {
   qrHashLink.className = "qrcodeText";
   if (photo_index == null) {
     qrHashLink.innerText = safe_hash;
+  } else if (safe_hash.indexOf("/photo/") != -1) {
+    qrHashLink.innerText = safe_hash;
   } else {
     qrHashLink.innerText = safe_hash + "/photo/" + photo_index;
   }
