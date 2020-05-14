@@ -477,6 +477,7 @@ Show.qrcodeHashSafe = function() {
       panda_id = '1';
     }
     if ((parseInt(photo_id) <= 0) || 
+        (parseInt(photo_id) == NaN) ||
         (parseInt(photo_id) > parseInt(P.db["_photo"].entity_max))) {
       photo_id = '1'
     }
