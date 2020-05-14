@@ -545,7 +545,7 @@ Show.qrcodeImage = function(photo_index=null) {
 Show.qrcodeSwap = function() {
   var old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
   var gallery = document.getElementsByClassName('pandaPhoto')[0];
-  var index = gallery.childNodes[0].id.split("/photo/")[1]
+  var index = gallery.childNodes[0].id.split("/photo/").pop();
   var new_qrcode = Show.qrcodeImage(index);
   old_qrcode.parentNode.replaceChild(new_qrcode, old_qrcode);
 }
