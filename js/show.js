@@ -506,12 +506,12 @@ Show.qrcodeHashSafe = function(short=false) {
 }
 
 // Construct a QR code out of the current page URL
-Show.qrcodeImage = function(photo_index=null) {
+Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   // Shorten the hash if there's a photo index included
   var safe_hash = Show.qrcodeHashSafe(photo_index == null);
   var safe_url = "https://" + window.location.host + "/" + safe_hash;
-  if (photo_index != null) {
-    safe_url = "https://" + window.location.host + "/" + safe_hash + "/photo/" + photo_index;
+  if ((photo_index != null) && (animal_index != null)) {
+    safe_url = "https://" + window.location.host + "/#profile/" + animal_index + "/photo/" + photo_index;
   }
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
@@ -526,10 +526,10 @@ Show.qrcodeImage = function(photo_index=null) {
   qrcode.appendChild(qrimg);
   var qrHashLink = document.createElement('span');
   qrHashLink.className = "qrcodeText";
-  if (photo_index == null) {
+  if ((photo_index == null) && (animal_index == null)) {
     qrHashLink.innerText = safe_hash;
   } else {
-    qrHashLink.innerText = safe_hash + "/photo/" + photo_index;
+    qrHashLink.innerText = "/#profile/" + animal_index + "/photo/" + photo_index;
   }
   qrcode.appendChild(qrHashLink);
   return qrcode;
@@ -545,8 +545,10 @@ Show.qrcodeImage = function(photo_index=null) {
 Show.qrcodeSwap = function() {
   var old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
   var gallery = document.getElementsByClassName('pandaPhoto')[0];
-  var index = gallery.childNodes[0].id.split("/photo/").pop();
-  var new_qrcode = Show.qrcodeImage(index);
+  var gallery_id = gallery.childNodes[0].id;
+  var animal_id = gallery_id.split("/photo/")[0].split("_")[1];
+  var photo_index = gallery_id.split("/photo/").pop();
+  var new_qrcode = Show.qrcodeImage(animal_id, photo_index);
   old_qrcode.parentNode.replaceChild(new_qrcode, old_qrcode);
 }
 
