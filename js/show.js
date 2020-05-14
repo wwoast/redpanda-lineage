@@ -529,7 +529,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   if ((photo_index == null) && (animal_index == null)) {
     qrHashLink.innerText = safe_hash;
   } else {
-    qrHashLink.innerText = "/#profile/" + animal_index + "/photo/" + photo_index;
+    qrHashLink.innerText = "#profile/" + animal_index + "/photo/" + photo_index;
   }
   qrcode.appendChild(qrHashLink);
   return qrcode;
