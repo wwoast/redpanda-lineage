@@ -106,17 +106,20 @@ Gallery.G.displayPhotoNavigation = function() {
     span_link.addEventListener('click', function() {  // Left click event
       that.photoNext(that.info.id);
       Gallery.condenseDogEar(span);
+      window.dispatchEvent(Page.profile.qr_update);
     });
     span_link.addEventListener('contextmenu', function(e) {   // Right click event
       e.preventDefault();   // Prevent normal context menu from firing
       that.photoPrevious(that.info.id);
       Gallery.condenseDogEar(span);
+      window.dispatchEvent(Page.profile.qr_update);
     });
     span_link.addEventListener('auxclick', function(e) {   // Middle click event
       if (e.which == 2) {
         e.preventDefault();   // Prevent middle click opening a new tab
         that.photoRandom(that.info.id);
         Gallery.condenseDogEar(span);
+        window.dispatchEvent(Page.profile.qr_update);
       }
     });
   }

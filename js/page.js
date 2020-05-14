@@ -404,6 +404,7 @@ Page.media.render = function() {
     The profiles page display details for an individual panda
 */
 Page.profile = {};
+Page.profile.qr_update = new Event('qr_update');
 Page.profile.render = function() {
   // window.location.hash doesn't decode UTF-8. This does, fixing Japanese search
   var input = decodeURIComponent(window.location.hash);
@@ -439,6 +440,8 @@ Page.profile.render = function() {
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
   Show.profile.search.render();
+  // Update the QR code based on the displayed photo
+  window.dispatchEvent(Page.profile.qr_update);
 }
 
 /*
