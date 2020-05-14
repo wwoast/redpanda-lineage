@@ -154,14 +154,17 @@ Touch.T.process = function() {
     Gallery.G.photoRandom(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
+    window.dispatchEvent(Page.profile.qr_update);
   } else if (this.swipeDirection == 'right') {
     Gallery.G.photoPrevious(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
+    window.dispatchEvent(Page.profile.qr_update);
   } else if (this.swipeDirection == 'left') {
     Gallery.G.photoNext(animal_id);
     Gallery.condenseDogEar(span);
     Show.fade(navigator);
+    window.dispatchEvent(Page.profile.qr_update);
   }
 }
 
