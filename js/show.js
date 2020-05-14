@@ -1439,8 +1439,7 @@ Show.profile.dossier = function(animal, info, language) {
   // Display a QR code, and manage updates
   var qrcode = Show.qrcodeImage();
   window.addEventListener('qr_update', function() {
-    // Swap qr_code with another one
-    console.log("qr_update");
+    // Swap qr_code with one representing current profile page contents
     Show.qrcodeSwap();
   });
   // Lay it all out
