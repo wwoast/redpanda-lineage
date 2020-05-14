@@ -440,6 +440,8 @@ Page.profile.render = function() {
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
   Show.profile.search.render();
+  // Update the QR code based on the displayed photo
+  window.dispatchEvent(Page.profile.qr_update);
 }
 
 /*

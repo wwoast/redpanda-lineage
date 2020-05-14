@@ -499,9 +499,12 @@ Show.qrcodeHashSafe = function() {
 }
 
 // Construct a QR code out of the current page URL
-Show.qrcodeImage = function() {
+Show.qrcodeImage = function(photo_index=null) {
   var safe_hash = Show.qrcodeHashSafe();
   var safe_url = "https://" + window.location.host + "/" + safe_hash;
+  if (photo_index != null) {
+    safe_url = "https://" + window.location.host + "/" + safe_hash + "/photo/" + photo_index;
+  }
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
@@ -515,13 +518,28 @@ Show.qrcodeImage = function() {
   qrcode.appendChild(qrimg);
   var qrHashLink = document.createElement('span');
   qrHashLink.className = "qrcodeText";
-  qrHashLink.innerText = safe_hash;
+  if (photo_index == null) {
+    qrHashLink.innerText = safe_hash;
+  } else {
+    qrHashLink.innerText = safe_hash + "/photo/" + photo_index;
+  }
   qrcode.appendChild(qrHashLink);
-  window.addEventListener('qr_update', function() {
-    // Swap qr_code with another one
-    console.log("qr_update");
-  });
   return qrcode;
+}
+
+// When the gallery loads, swap the qrcode url so that it includes
+// info about the photo that's currently being displayed. This means
+// that the QRCode and the displayed page don't exactly match the
+// #hash_code, but the contents will be guaranteed consistent.
+// I didn't want back/forward browser buttons to ever modify the gallery
+// photos themselves, because for the results pages with multiple galleries
+// there is no sensible way to support this.
+Show.qrcodeSwap = function() {
+  var old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
+  var gallery = document.getElementsByClassName('pandaPhoto')[0];
+  var index = gallery.childNodes[0].id.split("/photo/")[1]
+  var new_qrcode = Show.qrcodeImage(index);
+  old_qrcode.parentNode.replaceChild(new_qrcode, old_qrcode);
 }
 
 // Construct a zoo divider, for when you search a place name and
@@ -1420,6 +1438,11 @@ Show.profile.dossier = function(animal, info, language) {
   birthday.appendChild(second_item);
   // Display a QR code, and manage updates
   var qrcode = Show.qrcodeImage();
+  window.addEventListener('qr_update', function() {
+    // Swap qr_code with another one
+    console.log("qr_update");
+    Show.qrcodeSwap();
+  });
   // Lay it all out
   var dossier = document.createElement('div');
   dossier.className = "profileDossier";
