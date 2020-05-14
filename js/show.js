@@ -471,6 +471,9 @@ Show.qrcodeHashSafe = function() {
     profile = parts[0];
     panda_id = parts[1];
     sub_hash = parts[2];
+    if (sub_hash != "photo") {
+      sub_hash = "photo";
+    }
     photo_id = parts[3];
     if ((parseInt(panda_id) <= 0) || 
         (parseInt(panda_id) > parseInt(P.db["_totals"].pandas))) {
