@@ -459,7 +459,7 @@ Show.update = function(new_contents, container=undefined, container_class, conta
 }
 
 // Make a safe URL (no reflection issues)
-Show.qrcodeHashSafe = function(short=False) {
+Show.qrcodeHashSafe = function(short=false) {
   var in_hash = window.location.hash;
   var out_hash = undefined;
   var parts = in_hash.split("/");
@@ -483,7 +483,7 @@ Show.qrcodeHashSafe = function(short=False) {
         (parseInt(photo_id) > parseInt(P.db["_photo"].entity_max))) {
       photo_id = '1'
     }
-    if (short == False) {
+    if (short == false) {
       out_hash = profile + "/" + panda_id + "/" + sub_hash + "/" + photo_id;
     } else {
       out_hash = profile + "/" + panda_id;
