@@ -505,7 +505,7 @@ Show.qrcodeHashSafe = function() {
 Show.qrcodeImage = function(photo_index=null) {
   var safe_hash = Show.qrcodeHashSafe();
   var safe_url = "https://" + window.location.host + "/" + safe_hash;
-  if (photo_index != null) {
+  if ((photo_index != null) && (safe_hash.indexOf("/photo/") == -1)) {
     safe_url = "https://" + window.location.host + "/" + safe_hash + "/photo/" + photo_index;
   }
   var img = showQRCode(safe_url);
