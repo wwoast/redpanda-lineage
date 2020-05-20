@@ -41,6 +41,7 @@ class RedPandaGraph:
         self.photo = {}
         self.photo["credit"] = {}
         self.photo["max"] = 0
+        self.photo["group"] = 0
         self.summary = {}
         self.summary["birthday"] = 1970
         self.summary["death"] = 1970
@@ -229,6 +230,7 @@ class RedPandaGraph:
         export['_photo'] = {}
         export['_photo']['credit'] = self.photo['credit']
         export['_photo']['entity_max'] = self.photo['max']
+        export['_photo']['group_max'] = self.photo['group']
         export['_totals'] = {}
         export['_totals']['credit'] = len(self.photo['credit'].keys())
         export['_totals']['last_born'] = self.summary['birthday']
@@ -326,6 +328,11 @@ class RedPandaGraph:
                     #    self.photo["max"] = test_count
                     # Accept the data and continue
                     media_vertex[field[0]] = field[1]
+            elif (field[0] == "panda.tags"):
+                # Track largest number of pandas in a single photo
+                id_list = field[1].split(", ")
+                if len(id_list) > self.photo["group"]:
+                    self.photo["group"] = len(id_list)
             # TODO: track video info for apple counting as well
             else:
                 # Accept the data and move along
