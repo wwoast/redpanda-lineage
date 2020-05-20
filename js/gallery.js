@@ -471,7 +471,7 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
 
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
-Gallery.groupPhotos = function(id_list, photo_count) {
+Gallery.groupPhotos = function(id_list) {
   var seen = {};
   var photo_list = [];
   for (let id of id_list) {
@@ -506,7 +506,7 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     // Refresh, but show more than just the normal photo_count
     photo_count = Query.env.paging.shown_pages * photo_count;
   }
-  var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
+  var photos = Gallery.groupPhotos(id_list);   // All photos
   var chosen = photos.slice(page * photo_count);   // Choose just this page
   if (chosen.length <= photo_count) {
     // Last page of content. Hide Next button

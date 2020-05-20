@@ -108,6 +108,12 @@ Query.resolver.group_one_set = function(set_node) {
       tags, mode="intersect", fallback="none"
     );
   }
+  if (set_node.type == "set_only_subjects") {
+    Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
+    var ids = set_node.str.split("\n");
+    hits = Pandas.searchPandaMediaIntersect(ids);
+  }
   return {
     "hits": hits,
     "parsed": set_node.type,
@@ -179,6 +185,12 @@ Query.resolver.pair = function(set_node) {
       Pandas.allAnimalsAndMedia(), 
       tags, mode="intersect", fallback="none"
     );
+  }
+  if (set_node.type == "set_only_subjects") {
+    Query.env.output_mode = "photos";
+    Query.env.paging.display_button = true;
+    var ids = set_node.str.split("\n");
+    hits = Pandas.searchPandaMediaIntersect(ids);
   }
   return {
     "hits": hits,

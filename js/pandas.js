@@ -336,6 +336,20 @@ Pandas.def.zoo = {
 /*
     Utility functions and generators for doing panda processing
 */
+Pandas.arrayContentsEqual = function(a, b) {
+  // Sort the input arrays so we get consistent comparisons
+  var arr1 = a.sort();
+  var arr2 = b.sort();
+  // Check if the arrays are the same length
+	if (arr1.length !== arr2.length) return false;
+	// Check if all items exist and are in the same order
+	for (var i = 0; i < arr1.length; i++) {
+		if (arr1[i] !== arr2[i]) return false;
+	}
+	// Otherwise, return true
+	return true;
+}
+
 // Valid panda IDs are numeric and non-zero
 Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
@@ -762,6 +776,23 @@ Pandas.searchPandaMedia = function(query, only_media=false) {
   } else {
     return animals.concat(media);
   }
+}
+
+// Find instances of panda media photos for a list of animals.
+// Only return entities that contain all of the animals
+// in the input list.
+Pandas.searchPandaMediaIntersect = function(id_list) {
+  // Search for graph nodes that have "panda.tags" values
+  // that match the ids of any animal in the original 
+  // searchPanda list.
+  var nodes = G.v().filter(function(vertex) {
+    if (Object.keys(vertex).indexOf("panda.tags") != -1) {
+      var panda_tags = vertex["panda.tags"].split(",")
+                         .map(x => x.trim());
+      return Pandas.arrayContentsEqual(id_list, panda_tags);
+    }
+  }).run();
+  return nodes; 
 }
 
 // Find a panda's mother
