@@ -18,18 +18,18 @@ location.3: 23, 2019/11/19
 photo.1: https://www.instagram.com/p/BTDZEnyASXv/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: profile, smile
+photo.1.tags: portrait, smile
 photo.2: https://www.instagram.com/p/BsPo5r1Fyjj/media/?size=m
 photo.2.author: re_ichimaru
 photo.2.link: https://www.instagram.com/re_ichimaru/
 photo.3: https://www.instagram.com/p/BvsKJiRAA09/media/?size=m
 photo.3.author: craig_craig_craig
 photo.3.link: https://www.instagram.com/craig_craig_craig/
-photo.3.tags: bamboo
+photo.3.tags: bamboo, portrait
 photo.4: https://www.instagram.com/p/BvWm4GkF32x/media/?size=m
 photo.4.author: craig_craig_craig
 photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.4.tags: paws
+photo.4.tags: door, paws, portrait
 photo.5: https://www.instagram.com/p/B3MW7b_hRn6/media/?size=m
 photo.5.author: miis_98
 photo.5.link: https://www.instagram.com/miis_98/
@@ -58,5 +58,33 @@ photo.11: https://www.instagram.com/p/B-uOD2LBBQB/media/?size=m
 photo.11.author: miis_98
 photo.11.link: https://www.instagram.com/miis_98/
 photo.11.tags: portrait, smile, tongue
+photo.12: https://www.instagram.com/p/B-B4TjNBcGv/media/?size=m
+photo.12.author: fuji_safari
+photo.12.link: https://www.instagram.com/fuji_safari/
+photo.12.tags: peek, portrait, tree
+photo.13: https://www.instagram.com/p/B9Y2w6dB85H/media/?size=m
+photo.13.author: fuji_safari
+photo.13.link: https://www.instagram.com/fuji_safari/
+photo.13.tags: portrait, tree
+photo.14: https://www.instagram.com/p/B9OTOXphd8i/media/?size=m
+photo.14.author: fuji_safari
+photo.14.link: https://www.instagram.com/fuji_safari/
+photo.14.tags: portrait, profile
+photo.15: https://www.instagram.com/p/B8Gi9RThbR-/media/?size=m
+photo.15.author: fuji_safari
+photo.15.link: https://www.instagram.com/fuji_safari/
+photo.15.tags: climb, home, portrait
+photo.16: https://www.instagram.com/p/B_yvYeup8O-/media/?size=m
+photo.16.author: fuji_safari
+photo.16.link: https://www.instagram.com/fuji_safari/
+photo.16.tags: bamboo, paws, videolink
+photo.17: https://www.instagram.com/p/B_jwshJnMRe/media/?size=m
+photo.17.author: fuji_safari
+photo.17.link: https://www.instagram.com/fuji_safari/
+photo.17.tags: portrait, tail
+photo.18: https://www.instagram.com/p/Bx8YnHhBtTl/media/?size=m
+photo.18.author: re_ichimaru
+photo.18.link: https://www.instagram.com/re_ichimaru/
+photo.18.tags: bamboo, paws
 species: 2
 zoo: 23
