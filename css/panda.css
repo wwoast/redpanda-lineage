@@ -359,6 +359,7 @@ div.pandaResult, div.zooResult, div.profileFrame {
     margin-bottom: 1ex;
     border: 1px solid #033605; /* Bamboo Green */
     background-color: #EEE8AA;
+    text-align: left;   /* In case gallery styles make contentFrame centered */
 }
 
 div.profileFrame.zoos {

@@ -619,7 +619,7 @@ Page.results.group = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // Push an error message
-    content_divs.append(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    content_divs.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
     return content_divs;
   }
   // Give a list of results for each individual animal
@@ -696,6 +696,7 @@ Page.results.render = function() {
       break;
     case "group":
       content_divs = Page.results.group(results);
+      new_content.style.textAlign = "center";   // Align photos centered in each row
       break;
     case "nearby":
       content_divs = Page.results.nearby(F.results);

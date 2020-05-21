@@ -110,9 +110,11 @@ Query.resolver.group_one_set = function(set_node) {
   }
   if (set_node.type == "set_only_subjects") {
     Query.env.output_mode = "group";
-    Query.env.paging.display_button = true;
     var ids = set_node.str.split("\n");
     hits = Pandas.searchPandaMediaIntersect(ids);
+    if (hits.length > 0) {
+      Query.env.paging.display_button = true;
+    }
   }
   return {
     "hits": hits,
@@ -188,9 +190,11 @@ Query.resolver.pair = function(set_node) {
   }
   if (set_node.type == "set_only_subjects") {
     Query.env.output_mode = "group";
-    Query.env.paging.display_button = true;
     var ids = set_node.str.split("\n");
     hits = Pandas.searchPandaMediaIntersect(ids);
+    if (hits.length > 0) {
+      Query.env.paging.display_button = true;
+    }
   }
   return {
     "hits": hits,
