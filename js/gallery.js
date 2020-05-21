@@ -571,7 +571,7 @@ Gallery.groupPhotosIntersectPage = function(page, id_list, photo_count) {
   } else {
     // Limit to just photo_count of the output
     chosen = chosen.slice(0, photo_count);
-    Query.env.paging.callback.function = Gallery.groupPhotosPage;
+    Query.env.paging.callback.function = Gallery.groupPhotosIntersectPage;
     Query.env.paging.callback.arguments = [
       page + 1,
       id_list,

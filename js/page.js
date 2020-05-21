@@ -623,7 +623,6 @@ Page.results.group = function(results) {
     return content_divs;
   }
   // Give a list of results for each individual animal
-  // TODO?: ignore after the first page
   var animal_ids = results["query"].split(" ");
   for (let id of animal_ids) {
     var entity = Pandas.searchPandaId(id)[0];
@@ -631,8 +630,9 @@ Page.results.group = function(results) {
   }
   // Then, start displaying a list of group photos paged out
   if (results["hits"].length > 0) {
-    // Show all photos with these animals, along with a message
-    content_divs.push(Show.results.groupGallery(animal_ids));
+    // Show all photos with these animals, along with a message.
+    // No container div here so just concat.
+    content_divs = content_divs.concat(Show.results.groupGallery(animal_ids));
   }
   return content_divs;  
 }
