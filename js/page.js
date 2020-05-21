@@ -592,7 +592,7 @@ Page.results.entities = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.no_result, L.display));
+    content_divs.push(Show.emptyResult(L.messages.no_result, L.display));
   }
   results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -619,17 +619,20 @@ Page.results.group = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // Push an error message
+    content_divs.append(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    return content_divs;
   }
   // Give a list of results for each individual animal
-  // TODO: ignore after the first page
+  // TODO?: ignore after the first page
   var animal_ids = results["query"].split(" ");
   for (let id of animal_ids) {
-    var entity = Pandas.searchPandaId(id);
+    var entity = Pandas.searchPandaId(id)[0];
     content_divs.push(Show.results.panda(entity, L.display));
   }
   // Then, start displaying a list of group photos paged out
   if (results["hits"].length > 0) {
     // Show all photos with these animals, along with a message
+    content_divs.push(Show.results.groupGallery(animal_ids));
   }
   return content_divs;  
 }
