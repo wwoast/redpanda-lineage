@@ -119,7 +119,7 @@ Query.resolver.group_one_set = function(set_node) {
   return {
     "hits": hits,
     "parsed": set_node.type,
-    "query": set_node.str.replace("\n", " "),
+    "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
     "tag": tag
   }
@@ -199,7 +199,7 @@ Query.resolver.pair = function(set_node) {
   return {
     "hits": hits,
     "parsed": set_node.type,
-    "query": set_node.str.replace("\n", " "),
+    "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
     "tag": tag
   }
@@ -255,6 +255,6 @@ Query.resolver.single = function(set_node, singular_node) {
   return {
     "hits": hits,
     "parsed": set_node.type,
-    "query": set_node.str.replace("\n", " ")
+    "query": set_node.str.replace(/\n/g, " ")
   }
 }
