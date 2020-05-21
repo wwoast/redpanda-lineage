@@ -866,6 +866,9 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
     caption.innerText = Pandas.groupMediaCaption(animal, "photo." + result["photo.index"]);
+    var panda_route = animal["panda.tags"].split(", ").join("/");
+    caption_link.href = "#group/" + panda_route;
+
   } else {
     caption.innerText = info.name;
   }
@@ -923,6 +926,9 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
     var updateName = undefined;
     if (item.id.indexOf("media.") == 0) {
       updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      var panda_route = animal["panda.tags"].split(", ").join("/");
+      caption_link.href = "#group/" + panda_route;
+  
     } else {
       var info = Show.acquirePandaInfo(animal, L.display);
       updateName = info.name;
