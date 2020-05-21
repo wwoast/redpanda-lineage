@@ -333,6 +333,8 @@ class RedPandaGraph:
                 id_list = field[1].split(", ")
                 if len(id_list) > self.photo["group"]:
                     self.photo["group"] = len(id_list)
+                # Accept data and continue
+                media_vertex[field[0]] = field[1]
             # TODO: track video info for apple counting as well
             else:
                 # Accept the data and move along

@@ -868,7 +868,6 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
     caption.innerText = Pandas.groupMediaCaption(animal, "photo." + result["photo.index"]);
     var panda_route = animal["panda.tags"].split(", ").join("/");
     caption_link.href = "#group/" + panda_route;
-
   } else {
     caption.innerText = info.name;
   }
