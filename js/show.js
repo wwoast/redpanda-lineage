@@ -1830,6 +1830,16 @@ Show.results.family = function(info) {
   family = layout.layout();
   return family;
 }
+Show.results.groupGallery = function(id_list) {
+  var gallery = Gallery.groupPhotosIntersectPage(0, id_list, 10)["output"];
+  var results = [];
+  if (gallery.length < 1) {
+    results.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
+  } else {
+    results = gallery;
+  }
+  return results;
+}
 Show.results.litter = function(info) {
   // Do the littermates info in the family section
   var language = info.language;

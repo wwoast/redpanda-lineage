@@ -469,10 +469,17 @@ Page.routes.behavior = function(input) {
     query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#panda/") == 0) &&
              (input.split("/").length == 2)) {
-    // link for a single panda result. TODO: maybe do a detailed page
+    // link for a single panda result.
     var panda = input.slice(7);
     Query.env.output_mode = "entities";
     query_string = "panda" + " " + panda;
+  } else if ((input.indexOf("#group") == 0) &&
+             (input.split("/").length >= 2) &&
+             (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
+    // group display modes (just searching multiple ids for now)
+    var id_list = input.slice(7).split("/");
+    Query.env.output_mode = "group";
+    query_string = id_list.join(" ");
   } else if ((input.indexOf("#profile/") == 0) &&
              (input.split("/").length == 4)) {
     // link for a panda profile result with a chosen photo.
@@ -586,7 +593,7 @@ Page.results.entities = function(results) {
   var content_divs = [];
   if (results["hits"].length == 0) {
     // No results? On desktop, bring up a sad panda
-    content_divs.push(Show.emptyResult(L.no_result, L.display));
+    content_divs.push(Show.emptyResult(L.messages.no_result, L.display));
   }
   results["hits"].forEach(function(entity) {
     if (entity["_id"] < 0) {
@@ -604,6 +611,31 @@ Page.results.entities = function(results) {
     content_divs.pop();
   }
   return content_divs;
+}
+// Given a search for N panda ids, return first the list of media photos all of them 
+// are in, or an error message saying they haven't been seen together. Then, display 
+// the results for each one. This doesn't work yet for names due to space/tokenizing 
+// and name resolution issues for duplicate names... that will be much more work!
+Page.results.group = function(results) {
+  var content_divs = [];
+  if (results["hits"].length == 0) {
+    // Push an error message
+    content_divs.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
+    return content_divs;
+  }
+  // Give a list of results for each individual animal
+  var animal_ids = results["query"].split(" ");
+  for (let id of animal_ids) {
+    var entity = Pandas.searchPandaId(id)[0];
+    content_divs.push(Show.results.panda(entity, L.display));
+  }
+  // Then, start displaying a list of group photos paged out
+  if (results["hits"].length > 0) {
+    // Show all photos with these animals, along with a message.
+    // No container div here so just concat.
+    content_divs = content_divs.concat(Show.results.groupGallery(animal_ids));
+  }
+  return content_divs;  
 }
 // Given a search for nearest zoos, add zoo divs and the pandas that live there,
 // along with a header message of the zoos by proximity.
@@ -651,7 +683,6 @@ Page.results.render = function() {
   var input = decodeURIComponent(window.location.hash);
   // Don't assume a paging button is necessary until shown otherwise
   Query.env.paging.display_button = false;
-  // Start by just displaying info for one panda by id search
   var results = Page.routes.behavior(input);
   var content_divs = [];
   var new_content = document.createElement('div');
@@ -662,6 +693,10 @@ Page.results.render = function() {
       break;
     case "photos":
       content_divs = Page.results.photos(results);
+      new_content.style.textAlign = "center";   // Align photos centered in each row
+      break;
+    case "group":
+      content_divs = Page.results.group(results);
       new_content.style.textAlign = "center";   // Align photos centered in each row
       break;
     case "nearby":

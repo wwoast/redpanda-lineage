@@ -471,7 +471,7 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
 
 // Get media photos (of two or more animals), which include a particular animal.
 // Return a set of divs that includes both images and the titles for each image.
-Gallery.groupPhotos = function(id_list, photo_count) {
+Gallery.groupPhotos = function(id_list) {
   var seen = {};
   var photo_list = [];
   for (let id of id_list) {
@@ -506,7 +506,7 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     // Refresh, but show more than just the normal photo_count
     photo_count = Query.env.paging.shown_pages * photo_count;
   }
-  var photos = Gallery.groupPhotos(id_list, undefined);   // All photos
+  var photos = Gallery.groupPhotos(id_list);   // All photos
   var chosen = photos.slice(page * photo_count);   // Choose just this page
   if (chosen.length <= photo_count) {
     // Last page of content. Hide Next button
@@ -515,6 +515,63 @@ Gallery.groupPhotosPage = function(page, id_list, photo_count) {
     // Limit to just photo_count of the output
     chosen = chosen.slice(0, photo_count);
     Query.env.paging.callback.function = Gallery.groupPhotosPage;
+    Query.env.paging.callback.arguments = [
+      page + 1,
+      id_list,
+      initial_photo_count
+    ];
+    Query.env.paging.callback.frame_id = "contentFrame";
+  }
+  // Now that photos are whittled down, make divs
+  var output = [];
+  for (let shot of chosen) {
+    var container = Gallery.groupPhotoSingle(shot["entity"], shot["photo_key"], shot["url"]);
+    output.push(container);        
+  }
+  // Redraw the footer menu to update the paging button
+  Page.footer.redraw("profile");
+  return {
+    "output": output
+  }
+}
+
+Gallery.groupPhotosIntersect = function(id_list) {
+  // Similar to groupPhotos, but each photo must have all animals
+  // represented in the input id list.
+  var output = [];
+  var entities = Pandas.searchPandaMediaIntersect(id_list);
+  for (let entity of entities) {
+    var photos = Pandas.photoManifest(entity);
+    for (let photo_key in photos) {
+      output.push({
+        "entity": entity,
+        "photo_key": photo_key,
+        "url": photos[photo_key]
+      });
+    }
+  }
+  return output;
+}
+
+Gallery.groupPhotosIntersectPage = function(page, id_list, photo_count) {
+  // Clone of groupPhotosPage, with the constraint that all photos must
+  // be of the entire list of animals in the id_list. Since this is a callback
+  // I had to conform to the existing arity of the other functions, rather than
+  // pass groupPhotosIntersect itself as a callback.
+  var initial_photo_count = photo_count;
+  if (page == 0 && Query.env.paging.shown_pages > 1) { 
+    // Refresh, but show more than just the normal photo_count
+    photo_count = Query.env.paging.shown_pages * photo_count;
+  }
+  var photos = Gallery.groupPhotosIntersect(id_list);   // All photos
+  var chosen = photos.slice(page * photo_count);   // Choose just this page
+  if (chosen.length <= photo_count) {
+    // Last page of content. Hide Next button
+    Query.env.paging.display_button = false;
+  } else {
+    // Limit to just photo_count of the output
+    chosen = chosen.slice(0, photo_count);
+    Query.env.paging.callback.function = Gallery.groupPhotosIntersectPage;
     Query.env.paging.callback.arguments = [
       page + 1,
       id_list,
@@ -674,6 +731,8 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   if (id.indexOf("media.") == 0) {
     var entity = Pandas.searchPandaId(id)[0];
     caption.innerText = Pandas.groupMediaCaption(entity, item.index);
+    var panda_route = entity["panda.tags"].split(", ").join("/");
+    caption_link.href = "#group/" + panda_route;
   } else {
     var animal = Pandas.searchPandaId(id)[0];
     var info = Show.acquirePandaInfo(animal, L.display);
@@ -807,6 +866,9 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   // TODO: support multiple tags
   if (animal._id.indexOf("media.") == 0) {
     caption.innerText = Pandas.groupMediaCaption(animal, "photo." + result["photo.index"]);
+    var panda_route = animal["panda.tags"].split(", ").join("/");
+    caption_link.href = "#group/" + panda_route;
+
   } else {
     caption.innerText = info.name;
   }
@@ -864,6 +926,9 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
     var updateName = undefined;
     if (item.id.indexOf("media.") == 0) {
       updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      var panda_route = animal["panda.tags"].split(", ").join("/");
+      caption_link.href = "#group/" + panda_route;
+  
     } else {
       var info = Show.acquirePandaInfo(animal, L.display);
       updateName = info.name;
