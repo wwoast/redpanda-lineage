@@ -474,8 +474,9 @@ Page.routes.behavior = function(input) {
     Query.env.output_mode = "entities";
     query_string = "panda" + " " + panda;
   } else if ((input.indexOf("#group") == 0) &&
+             (input.split("/").length >= 2) &&
              (input.split("/").length <= P.db["_photo"]["group_max"] + 1)) {
-    // TODO: group results may need a mixed output_mode
+    // group display modes (just searching multiple ids for now)
     var id_list = input.slice(7).split("/");
     Query.env.output_mode = "group";
     query_string = id_list.join(" ");

@@ -731,6 +731,8 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   if (id.indexOf("media.") == 0) {
     var entity = Pandas.searchPandaId(id)[0];
     caption.innerText = Pandas.groupMediaCaption(entity, item.index);
+    var panda_route = entity["panda.tags"].split(", ").join("/");
+    caption_link.href = "#group/" + panda_route;
   } else {
     var animal = Pandas.searchPandaId(id)[0];
     var info = Show.acquirePandaInfo(animal, L.display);
