@@ -541,6 +541,7 @@ Page.routes.check = function() {
 }
 Page.routes.dynamic = [
   "#credit",
+  "#group",
   "#links",
   "#media",
   "#panda",
@@ -566,6 +567,7 @@ Page.routes.profile = [
 Page.routes.results = [
   "#about",
   "#credit",
+  "#group",
   "#home",
   "#links",
   "#panda",
