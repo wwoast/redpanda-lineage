@@ -67,7 +67,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // When all webfonts have rendered, recalculate text shrinks
-    TypeSquareJS.onFontLoaded(Layout.shrinkNames);
+    // Couldn't get typesquare events working :(
+    setTimeout(Layout.shrinkNames, 1000);
   });
 
   // Fetch the about page contents for each language
