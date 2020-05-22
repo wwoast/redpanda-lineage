@@ -65,6 +65,9 @@ document.addEventListener("DOMContentLoaded", function() {
         (window.location.hash == "#home")) {
       Page.home.render();
     }
+
+    // When all webfonts have rendered, recalculate text shrinks
+    TypeSquareJS.onFontLoaded(Layout.shrinkNames);
   });
 
   // Fetch the about page contents for each language
@@ -75,10 +78,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var current_hash = window.location.hash;
   if ((last_seen != null) && (current_hash.length == 0)) {
     window.location.hash = last_seen;
-  }
-  
-  // When all webfonts have rendered, recalculate text shrinks
-  TypeSquareJS.onFontLoaded(Layout.shrinkNames);
+  }  
 });
 
 // When a hashlink is clicked from a non-links or non-about page, it should
