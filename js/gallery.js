@@ -607,6 +607,10 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   var caption_names_span = document.createElement('span');
   caption_names_span.innerText = Pandas.groupMediaCaption(entity, photo_key);
   caption_names.appendChild(caption_names_span);
+  var caption_names_link = document.createElement('a');
+  var panda_route = entity["panda.tags"].split(", ").join("/");
+  caption_names_link.href = "#group/" + panda_route;
+  caption_names_link.appendChild(caption_names);
   // Credit for the group photos
   var author = entity[photo_key + ".author"];
   var caption_credit_link = document.createElement('a');
@@ -632,7 +636,7 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
     container.classList.add("quarterPage");
   }
   container.appendChild(img_link);
-  container.appendChild(caption_names);
+  container.appendChild(caption_names_link);
   container.appendChild(caption_credit_link);
   return container; 
 }
