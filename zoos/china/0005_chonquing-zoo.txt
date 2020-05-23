@@ -1,14 +1,14 @@
 [zoo]
 _id: 5
-cn.address: unknown
+cn.address: 九龙坡区 中国 400080
 cn.location: 重庆市
 cn.name: 重慶市動物園
-en.address: Chongqing Zoo, Jiulongpo Qu, China, 400080
-en.location: Jiulongpo Qu
+en.address: Jiulongpo Qu, China, 400080
+en.location: Jiulongpo Qu, China
 en.name: Chonquing Zoo
 flag: China
-jp.address: unknown
-jp.location: unknown
+jp.address: Jiulongpo Qu, China, 400080
+jp.location: Jiulongpo Qu, China
 jp.name: unknown
 language.order: cn, jp, en
 latitude: 29.5035617

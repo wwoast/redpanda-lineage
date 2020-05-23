@@ -1,0 +1,18 @@
+[zoo]
+_id: 252
+en.address: Outer Cir, London NW1 4RY, United Kingdom
+en.location: The Regent's Park, London, UK
+en.name: ZSL London Zoo
+flag: UK
+language.order: en
+latitude: 51.5352875
+longitude: -0.155619
+map: https://goo.gl/maps/riaaX6Un3wArJpBe7
+photo.1: https://www.instagram.com/p/B9-Ir1GDvLo/media/?size=m
+photo.1.author: zsllondonzoo
+photo.1.link: https://www.instagram.com/zsllondonzoo/
+photo.2: https://www.instagram.com/p/B857VPSAR3b/media/?size=m
+photo.2.author: zsllondonzoo
+photo.2.link: https://www.instagram.com/zsllondonzoo/
+photo.2.tags: profile
+website: https://www.zsl.org
