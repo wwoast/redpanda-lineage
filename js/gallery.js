@@ -980,7 +980,8 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
-  var author_photos = Pandas.unique(Pandas.locatorsToPhotos(author_locators), "id");
+  var author_photos_all = Pandas.locatorsToPhotos(author_locators);
+  var author_photos = Pandas.unique(author_photos_all, "id");
   var author_chosen = author_photos.slice();
   author_chosen = author_chosen.filter(photo => photo.type != "zoo");
   author_chosen = Pandas.randomChoice(author_chosen, photo_count);
@@ -1020,7 +1021,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       return output_photos;
     }
     // New author added, so make sure it gets the giftwrap
-    if (author_photos.map(photo => photo.credit).indexOf(zoo_photo.credit) != -1) {
+    if (author_photos_all.map(photo => photo.credit).indexOf(zoo_photo.credit) != -1) {
       zoo_photo.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
     }
     // Give it giftwrap if only one photo attributed to this author
