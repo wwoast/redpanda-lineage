@@ -14,14 +14,14 @@ language.order: jp, en
 litter: 329
 location.1: 40, 2006/8/1
 location.2: 52, 2010/3/23
-photo.1: https://www.instagram.com/p/BqFHVDkny8N/media/?size=m
+photo.1: https://www.instagram.com/p/BpA1Q9_HrXr/media/?size=m
 photo.1.author: mochan8686
 photo.1.link: https://www.instagram.com/mochan8686/
-photo.1.tags: ear, portrait, tongue
-photo.2: https://www.instagram.com/p/BpA1Q9_HrXr/media/?size=m
+photo.1.tags: portrait, profile, smile
+photo.2: https://www.instagram.com/p/BqFHVDkny8N/media/?size=m
 photo.2.author: mochan8686
 photo.2.link: https://www.instagram.com/mochan8686/
-photo.2.tags: portrait, profile, smile
+photo.2.tags: ear, portrait, tongue
 photo.3: https://www.instagram.com/p/Br5Bb5tnLlM/media/?size=m
 photo.3.author: mochan8686
 photo.3.link: https://www.instagram.com/mochan8686/
@@ -30,14 +30,14 @@ photo.4: https://www.instagram.com/p/ByG9dUnhgPJ/media/?size=m
 photo.4.author: makimaru18
 photo.4.link: https://www.instagram.com/makimaru18/
 photo.4.tags: portrait
-photo.5: https://www.instagram.com/p/B0nszIxn-44/media/?size=m
-photo.5.author: mochan8686
-photo.5.link: https://www.instagram.com/mochan8686/
-photo.5.tags: portrait
-photo.6: https://www.instagram.com/p/ByMw_J-B7k4/media/?size=m
-photo.6.author: chankunvv
-photo.6.link: https://www.instagram.com/chankunvv/
-photo.6.tags: paws, portrait, tree
+photo.5: https://www.instagram.com/p/ByMw_J-B7k4/media/?size=m
+photo.5.author: chankunvv
+photo.5.link: https://www.instagram.com/chankunvv/
+photo.5.tags: paws, portrait, tree
+photo.6: https://www.instagram.com/p/B0nszIxn-44/media/?size=m
+photo.6.author: mochan8686
+photo.6.link: https://www.instagram.com/mochan8686/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/B7tFGSYBA_z/media/?size=m
 photo.7.author: nakacchi_desu
 photo.7.link: https://www.instagram.com/nakacchi_desu/
