@@ -738,25 +738,27 @@ Language.L.messages = {
            "族谱数据归属于",
            "<INSERTLINK_RPF>",
            "但相关媒介内容（如图片等）版权归属于原作者。",
-           "布局与设计©2019 Justin Fairchild"],
+           "布局与设计©2020 Justin Fairchild"],
     "en": ["If you love red pandas, please support ",
            "<INSERTLINK_RPN>",
            " as well as your local zoos. Lineage data courtesy of the ",
            "<INSERTLINK_RPF>",
            " project, but linked media remains property of its creators. ",
-           "Layout and design © 2019 Justin Fairchild."],
+           "Layout and design ©" +
+           "\xa0" +
+           "2020 Justin Fairchild."],
     "jp": ["レッサーパンダが好きな人は、地元の動物園だけでなく",
            "<INSERTLINK_RPN>",
            "もサポートしてください。系統データは",
            "<INSERTLINK_RPF>",
            "プロジェクトの好意により提供されていますが、リンクされたメディアは引き続き作成者の所有物です。",
-           "設計©2019 Justin Fairchild"],
+           "設計©2020 Justin Fairchild"],
     "np": ["यदि तपाईं निगल्य पोन्या मन पराउनुहुन्छ, कृपया ",
            "<INSERTLINK_RPN>",
            " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
            "<INSERTLINK_RPF>",
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०१९ Justin Fairchild द्वारा।"]
+           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२० Justin Fairchild द्वारा।"]
   },
   "goodbye": {
     "cn": ["后会有期, ",
