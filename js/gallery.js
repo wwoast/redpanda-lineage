@@ -1024,10 +1024,6 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     if (author_photos_all.map(photo => photo.credit).indexOf(zoo_photo.credit) != -1) {
       zoo_photo.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
     }
-    // Give it giftwrap if only one photo attributed to this author
-    if (P.db._photo.credit[zoo_photo.credit] == 1) {
-      zoo_photo.credit_icon = Language.L.emoji.giftwrap;
-    }
     var class_list = ["zoo", zoo_classes[zoo_class_index % zoo_classes.length]];
     zoo_photo.classes = class_list;
     output_photos.push(zoo_photo);
