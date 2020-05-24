@@ -1039,7 +1039,7 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of zoo_pandas) {
       zoo_panda.name_icon = Language.L.emoji.profile;   // heart_panel
-      if (author_photos.map(photo => photo.credit).indexOf(zoo_panda.credit) != -1) {
+      if (author_photos_all.map(photo => photo.credit).indexOf(zoo_panda.credit) != -1) {
         zoo_panda.credit_icon = Language.L.emoji.giftwrap;   // new panda and author!
       }
       zoo_panda.classes = class_list;
