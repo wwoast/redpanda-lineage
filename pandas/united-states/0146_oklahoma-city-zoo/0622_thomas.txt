@@ -14,26 +14,26 @@ language.order: en, jp
 litter: 621
 location.1: 145, 2013/6/20
 location.2: 146, 2017/12/12
-photo.1: https://www.instagram.com/p/B2qTf_mAmB4/media/?size=m
+photo.1: https://www.instagram.com/p/ByQwlfsnLzm/media/?size=m
 photo.1.author: okczoo
 photo.1.link: https://www.instagram.com/okczoo/
-photo.1.tags: bamboo
+photo.1.tags: portrait, profile
 photo.2: https://www.instagram.com/p/B2APpgcnKO2/media/?size=m
 photo.2.author: okczoo
 photo.2.link: https://www.instagram.com/okczoo/
 photo.2.tags: bamboo, paws
-photo.3: https://www.instagram.com/p/ByQwlfsnLzm/media/?size=m
+photo.3: https://www.instagram.com/p/B2qTf_mAmB4/media/?size=m
 photo.3.author: okczoo
 photo.3.link: https://www.instagram.com/okczoo/
-photo.3.tags: portrait, profile
-photo.4: https://www.instagram.com/p/B5Y3mYYBOEV/media/?size=m
-photo.4.author: worldthathesees
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: portrait, smile, tongue
-photo.5: https://www.instagram.com/p/B4D3EQFg3Sr/media/?size=m
-photo.5.author: esdeemphoto
-photo.5.link: https://www.instagram.com/esdeemphoto/
-photo.5.tags: portrait
+photo.3.tags: bamboo
+photo.4: https://www.instagram.com/p/B4D3EQFg3Sr/media/?size=m
+photo.4.author: esdeemphoto
+photo.4.link: https://www.instagram.com/esdeemphoto/
+photo.4.tags: portrait
+photo.5: https://www.instagram.com/p/B5Y3mYYBOEV/media/?size=m
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, smile, tongue
 photo.6: https://www.instagram.com/p/B9Pc038A1X0/media/?size=m
 photo.6.author: mandalaybay22
 photo.6.link: https://www.instagram.com/mandalaybay22/

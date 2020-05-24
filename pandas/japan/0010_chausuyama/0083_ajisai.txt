@@ -14,26 +14,26 @@ language.order: jp, en
 litter: 67
 location.1: 17, 2006/6/22
 location.2: 10, 2009/3/26
-photo.1: https://www.instagram.com/p/BkTbcbaFSYE/media/?size=m
-photo.1.author: craig_craig_craig
-photo.1.link: https://www.instagram.com/craig_craig_craig/
-photo.1.tags: portrait, whiskers, white face
-photo.2: https://www.instagram.com/p/BkTNQdnlbRN/media/?size=m
-photo.2.author: _rifa_p
-photo.2.link: https://www.instagram.com/_rifa_p/
-photo.2.tags: tail, techitechi
+photo.1: https://www.instagram.com/p/BgnqJs-lhg_/media/?size=m
+photo.1.author: hanamaru_redpanda
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: bamboo, portrait, white face
+photo.2: https://www.instagram.com/p/Bh1m40KlGll/media/?size=m
+photo.2.author: ifumoto88
+photo.2.link: https://www.instagram.com/ifumoto88/
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/Bh7qYEHlb2l/media/?size=m
 photo.3.author: panda.daisuki
 photo.3.link: https://www.instagram.com/panda.daisuki/
 photo.3.tags: portrait, profile, sleeping
-photo.4: https://www.instagram.com/p/BgnqJs-lhg_/media/?size=m
-photo.4.author: hanamaru_redpanda
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: bamboo, portrait, white face
-photo.5: https://www.instagram.com/p/Bh1m40KlGll/media/?size=m
-photo.5.author: ifumoto88
-photo.5.link: https://www.instagram.com/ifumoto88/
-photo.5.tags: portrait, smile
+photo.4: https://www.instagram.com/p/BkTNQdnlbRN/media/?size=m
+photo.4.author: _rifa_p
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.4.tags: tail, techitechi
+photo.5: https://www.instagram.com/p/BkTbcbaFSYE/media/?size=m
+photo.5.author: craig_craig_craig
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: portrait, whiskers, white face
 photo.6: https://www.instagram.com/p/BpQNiKPlIrR/media/?size=m
 photo.6.author: kipekaila
 photo.6.link: https://www.instagram.com/kipekaila/
@@ -41,14 +41,14 @@ photo.6.tags: sleeping, tail
 photo.7: https://www.instagram.com/p/BqQV4YbFaPE/media/?size=m
 photo.7.author: wumpwoast
 photo.7.link: https://www.instagram.com/wumpwoast/
-photo.8: https://www.instagram.com/p/Bqs4P3Vlnwo/media/?size=m
-photo.8.author: re_ichimaru
-photo.8.link: https://www.instagram.com/re_ichimaru/
-photo.8.tags: ear
-photo.9: https://www.instagram.com/p/BqpXR3rngtC/media/?size=m
-photo.9.author: yakko____
-photo.9.link: https://www.instagram.com/yakko____/
-photo.9.tags: portrait
+photo.8: https://www.instagram.com/p/BqpXR3rngtC/media/?size=m
+photo.8.author: yakko____
+photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: portrait
+photo.9: https://www.instagram.com/p/Bqs4P3Vlnwo/media/?size=m
+photo.9.author: re_ichimaru
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: ear
 photo.10: https://www.instagram.com/p/BrP6dkSF2EY/media/?size=m
 photo.10.author: fetorus_mami
 photo.10.link: https://www.instagram.com/fetorus_mami/
