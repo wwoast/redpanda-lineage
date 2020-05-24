@@ -12,293 +12,321 @@ jp.nicknames: none
 jp.othernames: ユーファ
 language.order: jp, en
 litter: 2, 7
-photo.1: https://www.instagram.com/p/BiguT54lhJx/media/?size=m
-photo.1.author: hanamaru_redpanda
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: portrait, sleeping
-photo.2: https://www.instagram.com/p/BiamHHCFL4t/media/?size=m
-photo.2.author: redpanda_nippon_takashi
-photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.2.tags: smile
-photo.3: https://www.instagram.com/p/Bh_Tz8EFGlz/media/?size=m
-photo.3.author: daniele.tokyo
-photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: portrait, tongue
-photo.4: https://www.instagram.com/p/BkXY9rtFN8L/media/?size=m
-photo.4.author: hanamaru_redpanda
-photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: air tasting, home, laying down, portrait, tongue
-photo.5: https://www.instagram.com/p/BitiuiIl7vr/media/?size=m
-photo.5.author: redpanda_nippon_takashi
-photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.6: https://www.instagram.com/p/Bo3UKoCllmi/media/?size=m
-photo.6.author: masa_polarbear
-photo.6.link: https://www.instagram.com/masa_polarbear/
-photo.7: https://www.instagram.com/p/Bo8M5XjlAi2/media/?size=m
-photo.7.author: na.mo.pan
-photo.7.link: https://www.instagram.com/na.mo.pan/
-photo.7.tags: tongue
-photo.8: https://www.instagram.com/p/Bk4Yvu0lxYl/media/?size=m
-photo.8.author: sulfa2
-photo.8.link: https://www.instagram.com/sulfa2/
-photo.8.tags: bamboo, portrait
-photo.9: https://www.instagram.com/p/BkP7YHJFDTA/media/?size=m
-photo.9.author: minatomirai215
-photo.9.link: https://www.instagram.com/minatomirai215/
+photo.1: https://www.instagram.com/p/-T5590OR0k/media/?size=m
+photo.1.author: masa_polarbear
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: autumn, portrait, tree
+photo.2: https://www.instagram.com/p/BKb9WLEjrKa/media/?size=m
+photo.2.author: masa_polarbear
+photo.2.link: https://www.instagram.com/masa_polarbear/
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/BLrx4H8jLE4/media/?size=m
+photo.3.author: masa_polarbear
+photo.3.link: https://www.instagram.com/masa_polarbear/
+photo.3.tags: paws, portrait, tree
+photo.4: https://www.instagram.com/p/BNHTejdjL83/media/?size=m
+photo.4.author: masa_polarbear
+photo.4.link: https://www.instagram.com/masa_polarbear/
+photo.4.tags: autumn, home, laying down, tail
+photo.5: https://www.instagram.com/p/BNZDKmNjVxD/media/?size=m
+photo.5.author: masa_polarbear
+photo.5.link: https://www.instagram.com/masa_polarbear/
+photo.5.tags: autumn, tree
+photo.6: https://www.instagram.com/p/BTONj6Ljj-g/media/?size=m
+photo.6.author: _rifa_p
+photo.6.link: https://www.instagram.com/_rifa_p/
+photo.6.tags: tree
+photo.7: https://www.instagram.com/p/BbtuY2UjW03/media/?size=m
+photo.7.author: panda.daisuki
+photo.7.link: https://www.instagram.com/panda.daisuki/
+photo.7.tags: autumn, portrait, tree
+photo.8: https://www.instagram.com/p/Bfaa4qQlmqk/media/?size=m
+photo.8.author: na.mo.pan
+photo.8.link: https://www.instagram.com/na.mo.pan/
+photo.8.tags: portrait
+photo.9: https://www.instagram.com/p/BfgLDYDFI9j/media/?size=m
+photo.9.author: takashi_8310iyo
+photo.9.link: https://www.instagram.com/takashi_8310iyo/
 photo.9.tags: portrait
-photo.10: https://www.instagram.com/p/BkO8RA8FxDj/media/?size=m
+photo.10: https://www.instagram.com/p/BgqWb7jAaW6/media/?size=m
 photo.10.author: wumpwoast
 photo.10.link: https://www.instagram.com/wumpwoast/
-photo.11: https://www.instagram.com/p/BjhG-bAFCix/media/?size=m
-photo.11.author: hanamaru_redpanda
-photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.11.tags: portrait
+photo.10.tags: portrait
+photo.11: https://www.instagram.com/p/Bh_Tz8EFGlz/media/?size=m
+photo.11.author: daniele.tokyo
+photo.11.link: https://www.instagram.com/daniele.tokyo/
+photo.11.tags: portrait, tongue
 photo.12: https://www.instagram.com/p/BiDTCB9lRlo/media/?size=m
 photo.12.author: rie_panda55
 photo.12.link: https://www.instagram.com/rie_panda55/
 photo.12.tags: bamboo
-photo.13: https://www.instagram.com/p/BgqWb7jAaW6/media/?size=m
-photo.13.author: wumpwoast
-photo.13.link: https://www.instagram.com/wumpwoast/
-photo.13.tags: portrait
-photo.14: https://www.instagram.com/p/BfgLDYDFI9j/media/?size=m
-photo.14.author: takashi_8310iyo
-photo.14.link: https://www.instagram.com/takashi_8310iyo/
-photo.14.tags: portrait
-photo.15: https://www.instagram.com/p/Bfaa4qQlmqk/media/?size=m
-photo.15.author: na.mo.pan
-photo.15.link: https://www.instagram.com/na.mo.pan/
-photo.15.tags: portrait
-photo.16: https://www.instagram.com/p/BTONj6Ljj-g/media/?size=m
-photo.16.author: _rifa_p
-photo.16.link: https://www.instagram.com/_rifa_p/
-photo.16.tags: tree
-photo.17: https://www.instagram.com/p/BbtuY2UjW03/media/?size=m
-photo.17.author: panda.daisuki
-photo.17.link: https://www.instagram.com/panda.daisuki/
-photo.17.tags: autumn, portrait, tree
-photo.18: https://www.instagram.com/p/BppwX6Kl9iN/media/?size=m
-photo.18.author: rie_panda55
-photo.18.link: https://www.instagram.com/rie_panda55/
-photo.18.tags: dish
-photo.19: https://www.instagram.com/p/BqMl5GpFeIK/media/?size=m
-photo.19.author: panda.daisuki
-photo.19.link: https://www.instagram.com/panda.daisuki/
-photo.19.tags: autumn, portrait, tree
-photo.20: https://www.instagram.com/p/Bq6vjfWF7BK/media/?size=m
-photo.20.author: na.mo.pan
-photo.20.link: https://www.instagram.com/na.mo.pan/
-photo.20.tags: autumn, tree
-photo.21: https://www.instagram.com/p/Bq-yq-nlDS0/media/?size=m
-photo.21.author: rie_panda55
-photo.21.link: https://www.instagram.com/rie_panda55/
-photo.21.tags: autumn, tree
-photo.22: https://www.instagram.com/p/Bq-6V4tFcZN/media/?size=m
-photo.22.author: panda.daisuki
-photo.22.link: https://www.instagram.com/panda.daisuki/
-photo.22.tags: autumn, portrait
-photo.23: https://www.instagram.com/p/BrKtc1ZlDsT/media/?size=m
-photo.23.author: mofu_pan
-photo.23.link: https://www.instagram.com/mofu_pan/
-photo.23.tags: autumn, tail
-photo.24: https://www.instagram.com/p/Br6Pd6olUHj/media/?size=m
-photo.24.author: rie_panda55
-photo.24.link: https://www.instagram.com/rie_panda55/
-photo.24.tags: dish, portrait
-photo.25: https://www.instagram.com/p/BwQxJUKFJo5/media/?size=m
-photo.25.author: resapan.suki
-photo.25.link: https://www.instagram.com/resapan.suki/
-photo.25.tags: portrait, smile, tree
-photo.26: https://www.instagram.com/p/Bwt_x9pFeSP/media/?size=m
-photo.26.author: ifumoto88
-photo.26.link: https://www.instagram.com/ifumoto88/
-photo.26.tags: paws, portrait
-photo.27: https://www.instagram.com/p/BxScGA-lTCY/media/?size=m
-photo.27.author: resapan.suki
-photo.27.link: https://www.instagram.com/resapan.suki/
-photo.27.tags: mofumofu, portrait, smile, tongue, tree
-photo.28: https://www.instagram.com/p/BxWYjr1Foct/media/?size=m
-photo.28.author: rie_panda55
-photo.28.link: https://www.instagram.com/rie_panda55/
-photo.28.tags: bamboo
-photo.29: https://www.instagram.com/p/Bx8qekYHqaq/media/?size=m
-photo.29.author: nana__pan
-photo.29.link: https://www.instagram.com/nana__pan/
-photo.29.tags: grooming, paws, portrait, tongue
-photo.30: https://www.instagram.com/p/Bx6eTWmAzjS/media/?size=m
-photo.30.author: sunnylettuce_2020
-photo.30.link: https://www.instagram.com/sunnylettuce_2020/
-photo.30.tags: laying down
-photo.31: https://www.instagram.com/p/ByXAxvYBCl_/media/?size=m
-photo.31.author: na.mo.pan
-photo.31.link: https://www.instagram.com/na.mo.pan/
-photo.31.tags: tree
-photo.32: https://www.instagram.com/p/ByWUhZsHaZw/media/?size=m
-photo.32.author: fetorus_mami
-photo.32.link: https://www.instagram.com/fetorus_mami/
-photo.32.tags: portrait, tail
-photo.33: https://www.instagram.com/p/By7kGbnBi3G/media/?size=m
-photo.33.author: na.mo.pan
-photo.33.link: https://www.instagram.com/na.mo.pan/
-photo.33.tags: paws, standing, tail, toys
-photo.34: https://www.instagram.com/p/BzfxK0bhy1w/media/?size=m
-photo.34.author: ifumoto88
-photo.34.link: https://www.instagram.com/ifumoto88/
-photo.34.tags: portrait, profile, tree
-photo.35: https://www.instagram.com/p/By6d1UWHucQ/media/?size=m
+photo.13: https://www.instagram.com/p/BiamHHCFL4t/media/?size=m
+photo.13.author: redpanda_nippon_takashi
+photo.13.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.13.tags: smile
+photo.14: https://www.instagram.com/p/BiguT54lhJx/media/?size=m
+photo.14.author: hanamaru_redpanda
+photo.14.link: https://www.instagram.com/hanamaru_redpanda/
+photo.14.tags: portrait, sleeping
+photo.15: https://www.instagram.com/p/BitiuiIl7vr/media/?size=m
+photo.15.author: redpanda_nippon_takashi
+photo.15.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.16: https://www.instagram.com/p/BjhG-bAFCix/media/?size=m
+photo.16.author: hanamaru_redpanda
+photo.16.link: https://www.instagram.com/hanamaru_redpanda/
+photo.16.tags: portrait
+photo.17: https://www.instagram.com/p/BkO8RA8FxDj/media/?size=m
+photo.17.author: wumpwoast
+photo.17.link: https://www.instagram.com/wumpwoast/
+photo.18: https://www.instagram.com/p/BkP7YHJFDTA/media/?size=m
+photo.18.author: minatomirai215
+photo.18.link: https://www.instagram.com/minatomirai215/
+photo.18.tags: portrait
+photo.19: https://www.instagram.com/p/BkXY9rtFN8L/media/?size=m
+photo.19.author: hanamaru_redpanda
+photo.19.link: https://www.instagram.com/hanamaru_redpanda/
+photo.19.tags: air tasting, home, laying down, portrait, tongue
+photo.20: https://www.instagram.com/p/Bk4Yvu0lxYl/media/?size=m
+photo.20.author: sulfa2
+photo.20.link: https://www.instagram.com/sulfa2/
+photo.20.tags: bamboo, portrait
+photo.21: https://www.instagram.com/p/Bo3UKoCllmi/media/?size=m
+photo.21.author: masa_polarbear
+photo.21.link: https://www.instagram.com/masa_polarbear/
+photo.22: https://www.instagram.com/p/Bo8M5XjlAi2/media/?size=m
+photo.22.author: na.mo.pan
+photo.22.link: https://www.instagram.com/na.mo.pan/
+photo.22.tags: tongue
+photo.23: https://www.instagram.com/p/BppwX6Kl9iN/media/?size=m
+photo.23.author: rie_panda55
+photo.23.link: https://www.instagram.com/rie_panda55/
+photo.23.tags: dish
+photo.24: https://www.instagram.com/p/BqMl5GpFeIK/media/?size=m
+photo.24.author: panda.daisuki
+photo.24.link: https://www.instagram.com/panda.daisuki/
+photo.24.tags: autumn, portrait, tree
+photo.25: https://www.instagram.com/p/Bq6vjfWF7BK/media/?size=m
+photo.25.author: na.mo.pan
+photo.25.link: https://www.instagram.com/na.mo.pan/
+photo.25.tags: autumn, tree
+photo.26: https://www.instagram.com/p/Bq-yq-nlDS0/media/?size=m
+photo.26.author: rie_panda55
+photo.26.link: https://www.instagram.com/rie_panda55/
+photo.26.tags: autumn, tree
+photo.27: https://www.instagram.com/p/Bq-6V4tFcZN/media/?size=m
+photo.27.author: panda.daisuki
+photo.27.link: https://www.instagram.com/panda.daisuki/
+photo.27.tags: autumn, portrait
+photo.28: https://www.instagram.com/p/BrKtc1ZlDsT/media/?size=m
+photo.28.author: mofu_pan
+photo.28.link: https://www.instagram.com/mofu_pan/
+photo.28.tags: autumn, tail
+photo.29: https://www.instagram.com/p/Br6Pd6olUHj/media/?size=m
+photo.29.author: rie_panda55
+photo.29.link: https://www.instagram.com/rie_panda55/
+photo.29.tags: dish, portrait
+photo.30: https://www.instagram.com/p/BwQxJUKFJo5/media/?size=m
+photo.30.author: resapan.suki
+photo.30.link: https://www.instagram.com/resapan.suki/
+photo.30.tags: portrait, smile, tree
+photo.31: https://www.instagram.com/p/Bwt_x9pFeSP/media/?size=m
+photo.31.author: ifumoto88
+photo.31.link: https://www.instagram.com/ifumoto88/
+photo.31.tags: paws, portrait
+photo.32: https://www.instagram.com/p/BxScGA-lTCY/media/?size=m
+photo.32.author: resapan.suki
+photo.32.link: https://www.instagram.com/resapan.suki/
+photo.32.tags: mofumofu, portrait, smile, tongue, tree
+photo.33: https://www.instagram.com/p/BxWYjr1Foct/media/?size=m
+photo.33.author: rie_panda55
+photo.33.link: https://www.instagram.com/rie_panda55/
+photo.33.tags: bamboo
+photo.34: https://www.instagram.com/p/Bx6eTWmAzjS/media/?size=m
+photo.34.author: sunnylettuce_2020
+photo.34.link: https://www.instagram.com/sunnylettuce_2020/
+photo.34.tags: laying down
+photo.35: https://www.instagram.com/p/Bx8qekYHqaq/media/?size=m
 photo.35.author: nana__pan
 photo.35.link: https://www.instagram.com/nana__pan/
-photo.35.tags: paws, portrait, smile, tongue
-photo.36: https://www.instagram.com/p/B0Dme7GB21N/media/?size=m
-photo.36.author: tama67photo
-photo.36.link: https://www.instagram.com/tama67photo/
-photo.36.tags: apple time, paws, standing
-photo.37: https://www.instagram.com/p/B06D1E4BxOJ/media/?size=m
-photo.37.author: ifumoto88
-photo.37.link: https://www.instagram.com/ifumoto88/
-photo.37.tags: grooming, paws, portrait, tongue
-photo.38: https://www.instagram.com/p/B1BVXt_BI7L/media/?size=m
-photo.38.author: masa_polarbear
-photo.38.link: https://www.instagram.com/masa_polarbear/
-photo.38.tags: home, itchy, smile, tail, tongue
-photo.39: https://www.instagram.com/p/B2EHpphhIrN/media/?size=m
-photo.39.author: ssc6105
-photo.39.link: https://www.instagram.com/ssc6105/
-photo.39.tags: grooming, paws, tail, tree
-photo.40: https://www.instagram.com/p/B2OWDt_BrdN/media/?size=m
-photo.40.author: ssc6105
-photo.40.link: https://www.instagram.com/ssc6105/
-photo.40.tags: portrait
-photo.41: https://www.instagram.com/p/B2Tdf-2h48T/media/?size=m
-photo.41.author: ssc6105
-photo.41.link: https://www.instagram.com/ssc6105/
-photo.41.tags: laying down, long-tongue, portrait, tongue
-photo.42: https://www.instagram.com/p/B2bxHopBEgH/media/?size=m
+photo.35.tags: grooming, paws, portrait, tongue
+photo.36: https://www.instagram.com/p/ByWUhZsHaZw/media/?size=m
+photo.36.author: fetorus_mami
+photo.36.link: https://www.instagram.com/fetorus_mami/
+photo.36.tags: portrait, tail
+photo.37: https://www.instagram.com/p/ByXAxvYBCl_/media/?size=m
+photo.37.author: na.mo.pan
+photo.37.link: https://www.instagram.com/na.mo.pan/
+photo.37.tags: tree
+photo.38: https://www.instagram.com/p/By6d1UWHucQ/media/?size=m
+photo.38.author: nana__pan
+photo.38.link: https://www.instagram.com/nana__pan/
+photo.38.tags: paws, portrait, smile, tongue
+photo.39: https://www.instagram.com/p/By7kGbnBi3G/media/?size=m
+photo.39.author: na.mo.pan
+photo.39.link: https://www.instagram.com/na.mo.pan/
+photo.39.tags: paws, standing, tail, toys
+photo.40: https://www.instagram.com/p/BzfxK0bhy1w/media/?size=m
+photo.40.author: ifumoto88
+photo.40.link: https://www.instagram.com/ifumoto88/
+photo.40.tags: portrait, profile, tree
+photo.41: https://www.instagram.com/p/B0Dme7GB21N/media/?size=m
+photo.41.author: tama67photo
+photo.41.link: https://www.instagram.com/tama67photo/
+photo.41.tags: apple time, paws, standing
+photo.42: https://www.instagram.com/p/B06D1E4BxOJ/media/?size=m
 photo.42.author: ifumoto88
 photo.42.link: https://www.instagram.com/ifumoto88/
-photo.42.tags: climb, paws, portrait, tail, tree
-photo.43: https://www.instagram.com/p/B2q--HUBxOr/media/?size=m
-photo.43.author: ck.chie
-photo.43.link: https://www.instagram.com/ck.chie/
-photo.43.tags: portrait, smile
-photo.44: https://www.instagram.com/p/B2pexAZBiX-/media/?size=m
+photo.42.tags: grooming, paws, portrait, tongue
+photo.43: https://www.instagram.com/p/B1BVXt_BI7L/media/?size=m
+photo.43.author: masa_polarbear
+photo.43.link: https://www.instagram.com/masa_polarbear/
+photo.43.tags: home, itchy, smile, tail, tongue
+photo.44: https://www.instagram.com/p/B2EHpphhIrN/media/?size=m
 photo.44.author: ssc6105
 photo.44.link: https://www.instagram.com/ssc6105/
-photo.44.tags: home, paws, smile
-photo.45: https://www.instagram.com/p/B2_M6ogBe9G/media/?size=m
-photo.45.author: panda.daisuki
-photo.45.link: https://www.instagram.com/panda.daisuki/
-photo.45.tags: paws, portrait, smile
-photo.46: https://www.instagram.com/p/B3bxQexnyAf/media/?size=m
+photo.44.tags: grooming, paws, tail, tree
+photo.45: https://www.instagram.com/p/B2OWDt_BrdN/media/?size=m
+photo.45.author: ssc6105
+photo.45.link: https://www.instagram.com/ssc6105/
+photo.45.tags: portrait
+photo.46: https://www.instagram.com/p/B2Tdf-2h48T/media/?size=m
 photo.46.author: ssc6105
 photo.46.link: https://www.instagram.com/ssc6105/
-photo.46.tags: grooming, laying down, paws, portrait, tree
-photo.47: https://www.instagram.com/p/B3_696Xh4gz/media/?size=m
-photo.47.author: ssc6105
-photo.47.link: https://www.instagram.com/ssc6105/
-photo.47.tags: bite, paws, tail, toys
-photo.48: https://www.instagram.com/p/B4QitObhv3-/media/?size=m
+photo.46.tags: laying down, long-tongue, portrait, tongue
+photo.47: https://www.instagram.com/p/B2bxHopBEgH/media/?size=m
+photo.47.author: ifumoto88
+photo.47.link: https://www.instagram.com/ifumoto88/
+photo.47.tags: climb, paws, portrait, tail, tree
+photo.48: https://www.instagram.com/p/B2pexAZBiX-/media/?size=m
 photo.48.author: ssc6105
 photo.48.link: https://www.instagram.com/ssc6105/
-photo.48.tags: portrait, whiskers
-photo.49: https://www.instagram.com/p/B4iqGqPn-aa/media/?size=m
-photo.49.author: masa_polarbear
-photo.49.link: https://www.instagram.com/masa_polarbear/
-photo.49.tags: grooming, paws, tree
-photo.50: https://www.instagram.com/p/B4jxx8OBaNv/media/?size=m
-photo.50.author: sasapan34
-photo.50.link: https://www.instagram.com/sasapan34/
-photo.51: https://www.instagram.com/p/B4nsE-dBPUv/media/?size=m
+photo.48.tags: home, paws, smile
+photo.49: https://www.instagram.com/p/B2q--HUBxOr/media/?size=m
+photo.49.author: ck.chie
+photo.49.link: https://www.instagram.com/ck.chie/
+photo.49.tags: portrait, smile
+photo.50: https://www.instagram.com/p/B2_M6ogBe9G/media/?size=m
+photo.50.author: panda.daisuki
+photo.50.link: https://www.instagram.com/panda.daisuki/
+photo.50.tags: paws, portrait, smile
+photo.51: https://www.instagram.com/p/B3bxQexnyAf/media/?size=m
 photo.51.author: ssc6105
 photo.51.link: https://www.instagram.com/ssc6105/
-photo.51.tags: bear worm, laying down, paws, portrait
-photo.52: https://www.instagram.com/p/B5UCT9NhDJ2/media/?size=m
-photo.52.author: grskus_tk
-photo.52.link: https://www.instagram.com/grskus_tk/
-photo.52.tags: autumn, portrait, tree
-photo.53: https://www.instagram.com/p/B5W8T6gBSYP/media/?size=m
+photo.51.tags: grooming, laying down, paws, portrait, tree
+photo.52: https://www.instagram.com/p/B3_696Xh4gz/media/?size=m
+photo.52.author: ssc6105
+photo.52.link: https://www.instagram.com/ssc6105/
+photo.52.tags: bite, paws, tail, toys
+photo.53: https://www.instagram.com/p/B4QitObhv3-/media/?size=m
 photo.53.author: ssc6105
 photo.53.link: https://www.instagram.com/ssc6105/
-photo.53.tags: climb, surprise, tail
-photo.54: https://www.instagram.com/p/B5XcNNNhbFo/media/?size=m
-photo.54.author: pink.b22
-photo.54.link: https://www.instagram.com/pink.b22/
-photo.54.tags: autumn, portrait, tree
-photo.55: https://www.instagram.com/p/B5ei3C5hiG5/media/?size=m
+photo.53.tags: portrait, whiskers
+photo.54: https://www.instagram.com/p/B4iqGqPn-aa/media/?size=m
+photo.54.author: masa_polarbear
+photo.54.link: https://www.instagram.com/masa_polarbear/
+photo.54.tags: grooming, paws, tree
+photo.55: https://www.instagram.com/p/B4jxx8OBaNv/media/?size=m
 photo.55.author: sasapan34
 photo.55.link: https://www.instagram.com/sasapan34/
-photo.55.tags: autumn, tree
-photo.56: https://www.instagram.com/p/B5ghtJPhkBU/media/?size=m
-photo.56.author: grskus_tk
-photo.56.link: https://www.instagram.com/grskus_tk/
-photo.56.tags: autumn, paws, portrait, tree
-photo.57: https://www.instagram.com/p/B5jheVIBGHe/media/?size=m
-photo.57.author: na.mo.pan
-photo.57.link: https://www.instagram.com/na.mo.pan/
-photo.57.tags: paws, whiskers
-photo.58: https://www.instagram.com/p/B5rrJm3hdSM/media/?size=m
-photo.58.author: tama67photo
-photo.58.link: https://www.instagram.com/tama67photo/
-photo.58.tags: autumn, laying down, portrait, tree
-photo.59: https://www.instagram.com/p/B5uoyYBh5U0/media/?size=m
-photo.59.author: tama67photo
-photo.59.link: https://www.instagram.com/tama67photo/
+photo.56: https://www.instagram.com/p/B4nsE-dBPUv/media/?size=m
+photo.56.author: ssc6105
+photo.56.link: https://www.instagram.com/ssc6105/
+photo.56.tags: bear worm, laying down, paws, portrait
+photo.57: https://www.instagram.com/p/B5UCT9NhDJ2/media/?size=m
+photo.57.author: grskus_tk
+photo.57.link: https://www.instagram.com/grskus_tk/
+photo.57.tags: autumn, portrait, tree
+photo.58: https://www.instagram.com/p/B5W8T6gBSYP/media/?size=m
+photo.58.author: ssc6105
+photo.58.link: https://www.instagram.com/ssc6105/
+photo.58.tags: climb, surprise, tail
+photo.59: https://www.instagram.com/p/B5XcNNNhbFo/media/?size=m
+photo.59.author: pink.b22
+photo.59.link: https://www.instagram.com/pink.b22/
 photo.59.tags: autumn, portrait, tree
-photo.60: https://www.instagram.com/p/B5yhGcKBY7U/media/?size=m
-photo.60.author: alto0908
-photo.60.link: https://www.instagram.com/alto0908/
-photo.60.tags: grooming, paws, portrait, tongue
-photo.61: https://www.instagram.com/p/B5xFktJhnvW/media/?size=m
-photo.61.author: alto0908
-photo.61.link: https://www.instagram.com/alto0908/
-photo.61.tags: home, portrait
-photo.62: https://www.instagram.com/p/B7N1nmQBYrN/media/?size=m
-photo.62.author: ssc6105
-photo.62.link: https://www.instagram.com/ssc6105/
-photo.62.tags: apple time, bite, keeper, portrait
-photo.63: https://www.instagram.com/p/B5-H0a0h-aN/media/?size=m
+photo.60: https://www.instagram.com/p/B5ei3C5hiG5/media/?size=m
+photo.60.author: sasapan34
+photo.60.link: https://www.instagram.com/sasapan34/
+photo.60.tags: autumn, tree
+photo.61: https://www.instagram.com/p/B5ghtJPhkBU/media/?size=m
+photo.61.author: grskus_tk
+photo.61.link: https://www.instagram.com/grskus_tk/
+photo.61.tags: autumn, paws, portrait, tree
+photo.62: https://www.instagram.com/p/B5jheVIBGHe/media/?size=m
+photo.62.author: na.mo.pan
+photo.62.link: https://www.instagram.com/na.mo.pan/
+photo.62.tags: paws, whiskers
+photo.63: https://www.instagram.com/p/B5rrJm3hdSM/media/?size=m
 photo.63.author: tama67photo
 photo.63.link: https://www.instagram.com/tama67photo/
-photo.63.tags: home, paws, portrait, tail
-photo.64: https://www.instagram.com/p/B7dtTdsBhGQ/media/?size=m
-photo.64.author: redpanda_tata
-photo.64.link: https://www.instagram.com/redpanda_tata/
-photo.64.tags: grooming, paws, portrait, tongue
-photo.65: https://www.instagram.com/p/B53mv8bhIDV/media/?size=m
-photo.65.author: ssc6105
-photo.65.link: https://www.instagram.com/ssc6105/
-photo.65.tags: autumn, paws, tree
-photo.66: https://www.instagram.com/p/B5-hLrmhCUm/media/?size=m
+photo.63.tags: autumn, laying down, portrait, tree
+photo.64: https://www.instagram.com/p/B5uoyYBh5U0/media/?size=m
+photo.64.author: tama67photo
+photo.64.link: https://www.instagram.com/tama67photo/
+photo.64.tags: autumn, portrait, tree
+photo.65: https://www.instagram.com/p/B5xFktJhnvW/media/?size=m
+photo.65.author: alto0908
+photo.65.link: https://www.instagram.com/alto0908/
+photo.65.tags: home, portrait
+photo.66: https://www.instagram.com/p/B5yhGcKBY7U/media/?size=m
 photo.66.author: alto0908
 photo.66.link: https://www.instagram.com/alto0908/
-photo.66.tags: ear, portrait
-photo.67: https://www.instagram.com/p/B7Nc0OBhcbJ/media/?size=m
-photo.67.author: alto0908
-photo.67.link: https://www.instagram.com/alto0908/
-photo.67.tags: laying down, peek, portrait, tree
-photo.68: https://www.instagram.com/p/B8QOVp-h6dA/media/?size=m
-photo.68.author: alto0908
-photo.68.link: https://www.instagram.com/alto0908/
-photo.68.tags: portrait, tail
-photo.69: https://www.instagram.com/p/B8Bn6WhB1-I/media/?size=m
-photo.69.author: ifumoto88
-photo.69.link: https://www.instagram.com/ifumoto88/
-photo.69.tags: peek, whiskers
+photo.66.tags: grooming, paws, portrait, tongue
+photo.67: https://www.instagram.com/p/B53mv8bhIDV/media/?size=m
+photo.67.author: ssc6105
+photo.67.link: https://www.instagram.com/ssc6105/
+photo.67.tags: autumn, paws, tree
+photo.68: https://www.instagram.com/p/B5-H0a0h-aN/media/?size=m
+photo.68.author: tama67photo
+photo.68.link: https://www.instagram.com/tama67photo/
+photo.68.tags: home, paws, portrait, tail
+photo.69: https://www.instagram.com/p/B5-hLrmhCUm/media/?size=m
+photo.69.author: alto0908
+photo.69.link: https://www.instagram.com/alto0908/
+photo.69.tags: ear, portrait
 photo.70: https://www.instagram.com/p/B6QJuGAB80R/media/?size=m
 photo.70.author: tama67photo
 photo.70.link: https://www.instagram.com/tama67photo/
 photo.70.tags: peek
-photo.71: https://www.instagram.com/p/B8yph1VBIrS/media/?size=m
-photo.71.author: ifumoto88
-photo.71.link: https://www.instagram.com/ifumoto88/
-photo.71.tags: blink, home, laying down
-photo.72: https://www.instagram.com/p/B8tOahBBZvp/media/?size=m
-photo.72.author: ifumoto88
-photo.72.link: https://www.instagram.com/ifumoto88/
-photo.72.tags: close-up, paws, whiskers
-photo.73: https://www.instagram.com/p/B88eBDlBmZB/media/?size=m
-photo.73.author: pink.b22
-photo.73.link: https://www.instagram.com/pink.b22/
-photo.73.tags: apple time, home, keeper, portrait
+photo.71: https://www.instagram.com/p/B7Nc0OBhcbJ/media/?size=m
+photo.71.author: alto0908
+photo.71.link: https://www.instagram.com/alto0908/
+photo.71.tags: laying down, peek, portrait, tree
+photo.72: https://www.instagram.com/p/B7N1nmQBYrN/media/?size=m
+photo.72.author: ssc6105
+photo.72.link: https://www.instagram.com/ssc6105/
+photo.72.tags: apple time, bite, keeper, portrait
+photo.73: https://www.instagram.com/p/B7dtTdsBhGQ/media/?size=m
+photo.73.author: redpanda_tata
+photo.73.link: https://www.instagram.com/redpanda_tata/
+photo.73.tags: grooming, paws, portrait, tongue
+photo.74: https://www.instagram.com/p/B8Bn6WhB1-I/media/?size=m
+photo.74.author: ifumoto88
+photo.74.link: https://www.instagram.com/ifumoto88/
+photo.74.tags: peek, whiskers
+photo.75: https://www.instagram.com/p/B8QOVp-h6dA/media/?size=m
+photo.75.author: alto0908
+photo.75.link: https://www.instagram.com/alto0908/
+photo.75.tags: portrait, tail
+photo.76: https://www.instagram.com/p/B8tOahBBZvp/media/?size=m
+photo.76.author: ifumoto88
+photo.76.link: https://www.instagram.com/ifumoto88/
+photo.76.tags: close-up, paws, whiskers
+photo.77: https://www.instagram.com/p/B8yph1VBIrS/media/?size=m
+photo.77.author: ifumoto88
+photo.77.link: https://www.instagram.com/ifumoto88/
+photo.77.tags: blink, home, laying down
+photo.78: https://www.instagram.com/p/B88eBDlBmZB/media/?size=m
+photo.78.author: pink.b22
+photo.78.link: https://www.instagram.com/pink.b22/
+photo.78.tags: apple time, home, keeper, portrait
+photo.79: https://www.instagram.com/p/B-ymRJhh5e9/media/?size=m
+photo.79.author: grskus_tk
+photo.79.link: https://www.instagram.com/grskus_tk/
+photo.79.tags: paws, portrait, tail, tree
+photo.80: https://www.instagram.com/p/B_HiJocBqJX/media/?size=m
+photo.80.author: pink.b22
+photo.80.link: https://www.instagram.com/pink.b22/
+photo.80.tags: door, paws, portrait
 species: 2
 zoo: 1
