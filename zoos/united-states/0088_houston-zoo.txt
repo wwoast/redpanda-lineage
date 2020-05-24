@@ -8,7 +8,11 @@ language.order: en
 latitude: 29.7226492
 longitude: -95.3884739
 map: https://goo.gl/maps/LKkAW38D8Pz
-photo.1: https://www.instagram.com/p/BrRN618AZ8p/media/?size=m
-photo.1.author: emily.jandasek
-photo.1.link: https://www.instagram.com/emily.jandasek/
+photo.1: https://www.instagram.com/p/CAJWywDF6lo/media/?size=m
+photo.1.author: houstonzoo
+photo.1.link: https://www.instagram.com/houstonzoo/
+photo.2: https://www.instagram.com/p/B_zwnSWlZx5/media/?size=m
+photo.2.author: houstonzoo
+photo.2.link: https://www.instagram.com/houstonzoo/
+photo.2.tags: profile
 website: https://www.houstonzoo.org/
