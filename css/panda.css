@@ -891,7 +891,7 @@ div.pandaAbout, div.pandaLinks {
 }
 
 div.pandaAbout.desktopOnly, div.pandaAbout.mobileOnly {
-    display: hidden;
+    display: none;
 }
 
 div.aboutTags {

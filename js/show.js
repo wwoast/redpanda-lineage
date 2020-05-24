@@ -851,13 +851,17 @@ Show.button.profile.render = function(class_name="profile", panda_id) {
 }
 Show.button.random = {};
 Show.button.random.action = function() {
-  // Show a random panda from the database when the dice is clicked
+  // Show a random panda or group set from the database when the dice is clicked
   Page.current = Page.results.render;
   var pandaIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
                               .filter(entity => entity["photo.1"] != undefined)
                               .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);
-  window.location = "#query/" + pandaIds[Math.floor(Math.random() * pandaIds.length)];
+  var groupIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
+                              .map(entity => entity["panda.tags"])
+                              .map(tags => tags.split(", ").join(" "));
+  var randomChoices = pandaIds.concat(groupIds);
+  window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
   Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
 }
