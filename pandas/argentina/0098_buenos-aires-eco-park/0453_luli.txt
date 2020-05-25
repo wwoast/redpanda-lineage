@@ -28,19 +28,12 @@ photo.2: https://www.instagram.com/p/BdtZSuiAHHG/media/?size=m
 photo.2.author: joseluis_hv_
 photo.2.link: https://www.instagram.com/joseluis_hv_/
 photo.2.tags: mofumofu
-photo.3: https://www.instagram.com/p/BxA-gO8hgNN/media/?size=m
-photo.3.author: niicoomedinaa1
-photo.3.link: https://www.instagram.com/niicoomedinaa1/
-photo.3.tags: profile
-photo.4: https://www.instagram.com/p/BraawIVHqHM/media/?size=m
-photo.4.author: niicoomedinaa1
-photo.4.link: https://www.instagram.com/niicoomedinaa1/
-photo.5: https://www.codaworry.com/images/rpf/luli-1-buenos-aires.jpg
-photo.5.author: Tomás Francisco Cuesta
-photo.5.link: https://www.forestanimalrescue.org/red-pandas/
-photo.5.tags: bamboo
-photo.6: https://www.codaworry.com/images/rpf/luli-2-buenos-aires.jpg
-photo.6.author: Tomás Francisco Cuesta
-photo.6.link: https://www.forestanimalrescue.org/red-pandas/
+photo.3: https://www.codaworry.com/images/rpf/luli-1-buenos-aires.jpg
+photo.3.author: Tomás Francisco Cuesta
+photo.3.link: https://www.forestanimalrescue.org/red-pandas/
+photo.3.tags: bamboo
+photo.4: https://www.codaworry.com/images/rpf/luli-2-buenos-aires.jpg
+photo.4.author: Tomás Francisco Cuesta
+photo.4.link: https://www.forestanimalrescue.org/red-pandas/
 species: 2
 zoo: 98
