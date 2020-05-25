@@ -625,17 +625,26 @@ Page.results.group = function(results) {
     content_divs.push(Show.emptyResult(L.messages.no_group_media_result, L.display));
     return content_divs;
   }
-  // Give a list of results for each individual animal
-  var animal_ids = results["query"].split(" ");
-  for (let id of animal_ids) {
-    var entity = Pandas.searchPandaId(id)[0];
-    content_divs.push(Show.results.panda(entity, L.display));
-  }
   // Then, start displaying a list of group photos paged out
+  var animal_ids = results["query"].split(" ");
   if (results["hits"].length > 0) {
     // Show all photos with these animals, along with a message.
     // No container div here so just concat.
     content_divs = content_divs.concat(Show.results.groupGallery(animal_ids));
+  }
+  // Give a list of results for each individual animal
+  var animal_results = [];
+  for (let id of animal_ids) {
+    var entity = Pandas.searchPandaId(id)[0];
+    animal_results.push(Show.results.panda(entity, L.display));
+  }
+  // Let some photos appear first, unless we don't have very many photos
+  var insert = 0;
+  if (content_divs.length > 4) {
+    insert = 2;
+  }
+  for (let result of animal_results) {
+    content_divs.splice(insert, 0, result);
   }
   return content_divs;  
 }
