@@ -853,14 +853,20 @@ Show.button.random = {};
 Show.button.random.action = function() {
   // Show a random panda or group set from the database when the dice is clicked
   Page.current = Page.results.render;
+  var zooIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
+                            .filter(entity => entity._id < 0)
+                            .filter(entity => entity["photo.1"] != undefined)
+                            .map(entity => entity._id)
+                            .filter(id => Pandas.searchPandaZooCurrent(id).length > 0)
   var pandaIds = P.db.vertices.filter(entity => isNaN(parseInt(entity._id)) == false)
+                              .filter(entity => entity._id > 0)
                               .filter(entity => entity["photo.1"] != undefined)
                               .filter(entity => entity.death == undefined)
                               .map(entity => entity._id);
   var groupIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                               .map(entity => entity["panda.tags"])
                               .map(tags => tags.split(", ").join(" "));
-  var randomChoices = pandaIds.concat(groupIds);
+  var randomChoices = pandaIds.concat(groupIds).concat(zooIds);
   window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
   Show.button.language.hide();   // If language menu open, hide it
   window.scrollTo(0, 0);   // Go to the top of the page
