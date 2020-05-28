@@ -14,52 +14,52 @@ language.order: jp, en
 litter: none
 location.1: 16, 2013/7/9
 location.2: 70, 2015/3/9
-photo.1: https://www.instagram.com/p/BkXTkr_lY2U/media/?size=m
-photo.1.author: rdpnzoo
-photo.1.link: https://www.instagram.com/rdpnzoo/
-photo.1.tags: apple time, bamboo, tongue
-photo.2: https://www.instagram.com/p/Bk-bfJCFeF7/media/?size=m
-photo.2.author: love__mitarashi
-photo.2.link: https://www.instagram.com/love__mitarashi/
-photo.2.tags: itchy
-photo.3: https://www.instagram.com/p/BQXgxQxA701/media/?size=m
-photo.3.author: peek_a_boo00
-photo.3.link: https://www.instagram.com/peek_a_boo00/
+photo.1: https://www.instagram.com/p/BQXgxQxA701/media/?size=m
+photo.1.author: peek_a_boo00
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.2: https://www.instagram.com/p/BWSEh8_jsxD/media/?size=m
+photo.2.author: _rifa_p
+photo.2.link: https://www.instagram.com/_rifa_p/
+photo.2.tags: bamboo, portrait
+photo.3: https://www.instagram.com/p/BYM7nQmAe8a/media/?size=m
+photo.3.author: polarbear_zoo
+photo.3.link: https://www.instagram.com/polarbear_zoo/
+photo.3.tags: laying down, profile
 photo.4: https://www.instagram.com/p/BZiF8scBqZa/media/?size=m
 photo.4.author: miis_98
 photo.4.link: https://www.instagram.com/miis_98/
 photo.4.tags: bamboo, hammock, paws
-photo.5: https://www.instagram.com/p/BYM7nQmAe8a/media/?size=m
-photo.5.author: polarbear_zoo
-photo.5.link: https://www.instagram.com/polarbear_zoo/
-photo.5.tags: laying down, profile
-photo.6: https://www.instagram.com/p/BvUGbXhFEze/media/?size=m
-photo.6.author: love__mitarashi
-photo.6.link: https://www.instagram.com/love__mitarashi/
-photo.6.tags: bamboo, paws
-photo.7: https://www.instagram.com/p/By1D7eoBXoj/media/?size=m
-photo.7.author: akiakiakiko18
-photo.7.link: https://www.instagram.com/akiakiakiko18/
-photo.7.tags: laying down, paws, tongue
-photo.8: https://www.instagram.com/p/B7cQgInBJ_W/media/?size=m
-photo.8.author: redpanda_nippon_takashi
-photo.8.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.8.tags: portrait, whiskers
-photo.9: https://www.instagram.com/p/B7inXathRJa/media/?size=m
-photo.9.author: lespan33
-photo.9.link: https://www.instagram.com/lespan33/
-photo.9.tags: peek
-photo.10: https://www.instagram.com/p/BfVV6J8FThl/media/?size=m
-photo.10.author: hanamaru_redpanda
-photo.10.link: https://www.instagram.com/hanamaru_redpanda/
-photo.10.tags: portrait, smile
-photo.11: https://www.instagram.com/p/B6SGhkphz-T/media/?size=m
-photo.11.author: love__mitarashi
-photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: paws, portrait, tail
-photo.12: https://www.instagram.com/p/BWSEh8_jsxD/media/?size=m
-photo.12.author: _rifa_p
-photo.12.link: https://www.instagram.com/_rifa_p/
-photo.12.tags: bamboo, portrait
+photo.5: https://www.instagram.com/p/BfVV6J8FThl/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: portrait, smile
+photo.6: https://www.instagram.com/p/BkXTkr_lY2U/media/?size=m
+photo.6.author: rdpnzoo
+photo.6.link: https://www.instagram.com/rdpnzoo/
+photo.6.tags: apple time, bamboo, tongue
+photo.7: https://www.instagram.com/p/Bk-bfJCFeF7/media/?size=m
+photo.7.author: love__mitarashi
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: itchy
+photo.8: https://www.instagram.com/p/BvUGbXhFEze/media/?size=m
+photo.8.author: love__mitarashi
+photo.8.link: https://www.instagram.com/love__mitarashi/
+photo.8.tags: bamboo, paws
+photo.9: https://www.instagram.com/p/By1D7eoBXoj/media/?size=m
+photo.9.author: akiakiakiko18
+photo.9.link: https://www.instagram.com/akiakiakiko18/
+photo.9.tags: laying down, paws, tongue
+photo.10: https://www.instagram.com/p/B6SGhkphz-T/media/?size=m
+photo.10.author: love__mitarashi
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: paws, portrait, tail
+photo.11: https://www.instagram.com/p/B7cQgInBJ_W/media/?size=m
+photo.11.author: redpanda_nippon_takashi
+photo.11.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.11.tags: portrait, whiskers
+photo.12: https://www.instagram.com/p/B7inXathRJa/media/?size=m
+photo.12.author: lespan33
+photo.12.link: https://www.instagram.com/lespan33/
+photo.12.tags: peek
 species: 2
 zoo: 70
