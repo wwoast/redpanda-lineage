@@ -17,7 +17,7 @@ location.3: 37, 2013/7/10
 photo.1: https://www.instagram.com/p/BOJOKMyjDQZ/media/?size=m
 photo.1.author: framereim
 photo.1.link: https://www.instagram.com/framereim/
-photo.1.tags: nose, snow, standing
+photo.1.tags: nose, portrait, snow, standing
 photo.2: https://www.instagram.com/p/BOZV4eajesq/media/?size=m
 photo.2.author: monmon_redpanda
 photo.2.link: https://www.instagram.com/monmon_redpanda/
@@ -25,7 +25,7 @@ photo.2.tags: snow, techitechi
 photo.3: https://www.instagram.com/p/Bb9GOq6loZD/media/?size=m
 photo.3.author: hanamaru_redpanda
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: profile, snow
+photo.3.tags: portrait, profile, snow
 photo.4: https://www.instagram.com/p/BfbxM6ShHrn/media/?size=m
 photo.4.author: rie_panda55
 photo.4.link: https://www.instagram.com/rie_panda55/
@@ -36,10 +36,11 @@ photo.5.tags: bamboo, smile, snow
 photo.6: https://www.instagram.com/p/BrIBsB5lh-b/media/?size=m
 photo.6.author: fetorus_mami
 photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: portrait
 photo.7: https://www.instagram.com/p/BuQBNhkl4fP/media/?size=m
 photo.7.author: kipekaila
 photo.7.link: https://www.instagram.com/kipekaila/
-photo.7.tags: bamboo, snow
+photo.7.tags: bamboo, portrait, snow
 photo.8: https://www.instagram.com/p/BzDYbAKBQ-7/media/?size=m
 photo.8.author: tama67photo
 photo.8.link: https://www.instagram.com/tama67photo/
