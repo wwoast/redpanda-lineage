@@ -665,7 +665,13 @@ Page.results.nearby = function(results) {
     animals.forEach(function(animal) {
       content_divs.push(Show.results.panda(animal, L.display));
     });
+    content_divs.push(Show.zooDivider("bear-bamboo"));
   });
+  // Remove the last element if it's a divider
+  var last_element = content_divs[content_divs.length - 1];
+  if (last_element.className == 'zooDivider') {
+    content_divs.pop();
+  }
   // HACK: return to entity mode
   Query.env.output_mode = "entities";
   return content_divs;
