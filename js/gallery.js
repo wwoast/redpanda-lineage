@@ -357,7 +357,7 @@ Gallery.condenseDogEar = function(nav) {
 
 // For a panda's birthday, grab a handful of photos (2 by default).
 // Display a birthday header above the photos and credit messages below each one.
-Gallery.birthdayPhotoCredits = function(language, photo_count=2) {
+Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
   var birthday_div = document.createElement('div');
   // Pandas must be alive, and have at least 20 photos
   var birthday_animals = Pandas.searchBirthday(true, 20);
