@@ -11,7 +11,11 @@ language.order: jp, en
 latitude: 34.8372111
 longitude: 134.6921642
 map: https://goo.gl/maps/Em6HbHWwLHC2
-photo.1: https://www.instagram.com/p/BJPOAO3hTkk/media/?size=m
-photo.1.author: toko_2424
-photo.1.link: https://www.instagram.com/toko_2424/
+photo.1: https://www.instagram.com/p/B6DnGs3guw2/media/?size=m
+photo.1.author: yasuda.seiji
+photo.1.link: https://www.instagram.com/yasuda.seiji/
+photo.2: https://www.instagram.com/p/B-TiFzVgCnH/media/?size=m
+photo.2.author: matsu7s
+photo.2.link: https://www.instagram.com/matsu7s/
+photo.2.tags: profile
 website: http://www.city.himeji.lg.jp/dobutuen/
