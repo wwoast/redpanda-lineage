@@ -661,7 +661,8 @@ class PhotoEntry:
                     self.entity_type = "panda"
                 elif self.filename.find(ZOO_PATH) != -1:
                     self.entity_type = "zoo"
-                self.entity_id = self.filename.split("_")[0]
+                # Consider whole path, and remove leading zeroes from id
+                self.entity_id = self.filename.split("/").pop().split("_")[0].lstrip("0")
                 return
             config.read(self.filename, encoding='utf-8')
             if self.filename.find(MEDIA_PATH) != -1:
