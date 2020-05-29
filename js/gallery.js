@@ -355,7 +355,7 @@ Gallery.condenseDogEar = function(nav) {
   }
 }
 
-// For a panda's birthday, grab a handful of photos (2 by default).
+// For a panda's birthday, grab a handful of photos (3 by default).
 // Display a birthday header above the photos and credit messages below each one.
 Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
   var birthday_div = document.createElement('div');
