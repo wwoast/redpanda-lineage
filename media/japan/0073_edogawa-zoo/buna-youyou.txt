@@ -1,15 +1,15 @@
 [media]
 _id: media.73.buna-youyou
 panda.tags: 336, 337
-photo.1: https://www.instagram.com/p/B2_jDvChbFv/media/?size=m
-photo.1.author: ck.chie
-photo.1.link: https://www.instagram.com/ck.chie/
-photo.1.tags: couple, home
-photo.1.tags.336.location: 55, 125
-photo.1.tags.337.location: 165, 105
-photo.2: https://www.instagram.com/p/3M-yLnPi8Q/media/?size=l
-photo.2.author: panda.daisuki
-photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: couple, tail
-photo.2.tags.336.location: 200, 260
-photo.2.tags.337.location: 465, 300
+photo.1: https://www.instagram.com/p/3M-yLnPi8Q/media/?size=l
+photo.1.author: panda.daisuki
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: couple, tail
+photo.1.tags.336.location: 200, 260
+photo.1.tags.337.location: 465, 300
+photo.2: https://www.instagram.com/p/B2_jDvChbFv/media/?size=m
+photo.2.author: ck.chie
+photo.2.link: https://www.instagram.com/ck.chie/
+photo.2.tags: couple, home
+photo.2.tags.336.location: 55, 125
+photo.2.tags.337.location: 165, 105
