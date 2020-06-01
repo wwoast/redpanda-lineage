@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Scroll restoration moves you to a specific point in a page. This breaks
   // the top and refresh buttons moving you to the top of the page.
-  if (history.scrollRestoration) {
-    history.scrollRestoration = 'manual';
-  }
+  // if (history.scrollRestoration) {
+  //  history.scrollRestoration = 'manual';
+  // }
 
   // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
