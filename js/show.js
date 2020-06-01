@@ -665,6 +665,7 @@ Show.button.home.action = function() {
   window.location = "#home";
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.home.render;
+  window.scrollTo(0, 0);   // Go to the top of the page
 };
 Show.button.home.render = function(class_name="results") {
   var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display], class_name);
