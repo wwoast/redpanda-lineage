@@ -918,7 +918,8 @@ Show.button.search.action = function() {
   var active = Show.searchBar.toggle("bottomSearch");
   var searchBar = document.getElementById("searchInput");
   if (active == true) {
-    window.scrollTo(0, document.getElementById("searchInput").offsetTop);
+    // window.scrollTo(0, document.getElementById("searchInput").offsetTop);
+    window.scrollTo(0, 0);   // Go to the top of the page, not the input box
     document.getElementById("searchInput").focus();
   }
 }
