@@ -918,10 +918,6 @@ Show.button.search.action = function() {
   var active = Show.searchBar.toggle("bottomSearch");
   if (active == true) {
     window.scrollTo(0, document.getElementById("searchInput").offsetTop);
-    // TODO: have bottom and top search bars behave differently.
-    // Top search bar will scroll to absolute top of page, while bottom
-    // should focus on the element itself.
-    // window.scrollTo(0, 0);   // Go to the top of the page, not the input box
     document.getElementById("searchInput").focus();
   }
 }
@@ -2566,6 +2562,7 @@ Show.searchBar.submit = function() {
     }, 0);
   }
   Show.button.language.hide();   // If language menu open, hide it
+  window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.searchBar.toggle = function(frame_id) {
   // Normally the search bar just appears at the top of the page.
