@@ -398,6 +398,8 @@ Page.media.render = function() {
   Page.color("profile");
   // Add a search bar but hide it until the bottomMenu search button is clicked
   Show.media.search.render();
+  // Move to the top of the page
+  window.scrollTo(0, 0);
 }
 
 /*
@@ -442,6 +444,8 @@ Page.profile.render = function() {
   Show.profile.search.render();
   // Update the QR code based on the displayed photo
   window.dispatchEvent(Page.profile.qr_update);
+  // Move to the top of the page
+  window.scrollTo(0, 0);
 }
 
 /*
@@ -737,6 +741,8 @@ Page.results.render = function() {
   Show["results"].menus.top();
   Page.footer.redraw("results");
   Page.color("results");
+  // Move to the top of the page
+  window.scrollTo(0, 0);
 }
 
 /*
