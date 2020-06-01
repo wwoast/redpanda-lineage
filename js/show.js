@@ -665,6 +665,7 @@ Show.button.home.action = function() {
   window.location = "#home";
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.home.render;
+  window.scrollTo(0, 0);   // Go to the top of the page
 };
 Show.button.home.render = function(class_name="results") {
   var home = Show.button.render("homeButton", L.emoji.home, L.gui.home[L.display], class_name);
@@ -915,7 +916,6 @@ Show.button.search = {};
 Show.button.search.action = function() {
   // Used on pages where the search bar normally doesn't appear
   var active = Show.searchBar.toggle("bottomSearch");
-  var searchBar = document.getElementById("searchInput");
   if (active == true) {
     window.scrollTo(0, document.getElementById("searchInput").offsetTop);
     document.getElementById("searchInput").focus();
@@ -2562,6 +2562,7 @@ Show.searchBar.submit = function() {
     }, 0);
   }
   Show.button.language.hide();   // If language menu open, hide it
+  window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.searchBar.toggle = function(frame_id) {
   // Normally the search bar just appears at the top of the page.
