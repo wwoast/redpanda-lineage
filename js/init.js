@@ -41,12 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
-  // Scroll restoration moves you to a specific point in a page. This breaks
-  // the top and refresh buttons moving you to the top of the page.
-  // if (history.scrollRestoration) {
-  //  history.scrollRestoration = 'manual';
-  // }
-
   // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
