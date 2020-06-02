@@ -880,12 +880,10 @@ Show.button.random.render = function(class_name="results") {
 Show.button.refresh = {};
 Show.button.refresh.action = function() {
   location.reload(false);   // Reload from cache
-  window.scrollTo(0, 0);
 }
 Show.button.refresh.altAction = function(e) {
   e.preventDefault();       // Prevent normal right-click menu from firing
   location.reload(true);    // Reload from server
-  window.scrollTo(0, 0);
 }
 Show.button.refresh.render = function(class_name="results") {
   var refresh = Show.button.render("refreshButton", L.emoji.refresh, L.gui.refresh[L.display], class_name);

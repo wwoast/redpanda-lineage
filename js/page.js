@@ -289,6 +289,7 @@ Page.home.render = function() {
   }
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+  window.scrollTo(0, 0);   // Scroll to the top of the page
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
