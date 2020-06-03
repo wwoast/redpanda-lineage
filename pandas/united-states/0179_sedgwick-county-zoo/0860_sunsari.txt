@@ -14,5 +14,9 @@ language.order: en, jp
 litter: 859
 location.1: 114, 2016/6/7
 location.2: 179, 2017/5/10
+photo.1: https://www.instagram.com/p/B_Ai2mLJ-ks/media/?size=m
+photo.1.author: sedgwickcountyzoo
+photo.1.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.1.tags: dish, smile, tail, tongue
 species: 1
 zoo: 179
