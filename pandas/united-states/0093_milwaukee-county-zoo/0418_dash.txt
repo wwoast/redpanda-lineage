@@ -17,14 +17,15 @@ location.2: 93, 2013/10/15
 photo.1: https://www.instagram.com/p/BocWFU5lp90/media/?size=m
 photo.1.author: worldthathesees
 photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BHvDV_Yg2FK/media/?size=m
 photo.2.author: worldthathesees
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: profile, wink
+photo.2.tags: portrait, profile, wink
 photo.3: https://www.instagram.com/p/BHvDOJbgcb9/media/?size=m
 photo.3.author: worldthathesees
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: blink, home
+photo.3.tags: blink, portrait, home
 photo.4: https://www.instagram.com/p/BHvDb9ngnJQ/media/?size=m
 photo.4.author: worldthathesees
 photo.4.link: https://www.instagram.com/worldthathesees/
@@ -33,5 +34,9 @@ photo.5: https://www.instagram.com/p/BwuMke-FemL/media/?size=m
 photo.5.author: milwaukeecozoo
 photo.5.link: https://www.instagram.com/milwaukeecozoo/
 photo.5.tags: home, portrait, tail, tree
+photo.6: https://www.instagram.com/p/B-E-TN5lykO/media/?size=m
+photo.6.author: milwaukeecozoo
+photo.6.link: https://www.instagram.com/milwaukeecozoo/
+photo.6.tags: close-up, whiskers
 species: 2
 zoo: 93
