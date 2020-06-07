@@ -591,13 +591,39 @@ def update_photo_commit_dates():
                             if (value in uri_to_commit_date):
                                 # Photo we've already seen
                                 continue
-                            if (value.find("https://") != 0):
+                            if (value.find("http") != 0):
                                 # Not a URI, so not a photo reference
                                 continue
                             dt = repo.commit(end).committed_datetime
                             date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
-                            uri_to_commit_date[value] = date
-    print(str(uri_to_commit_date))
+                            if value not in uri_to_commit_date:
+                                # Only insert a comit date once
+                                uri_to_commit_date[value] = date
+    # print(str(uri_to_commit_date))
+    # Now walk the repo, find all files with photo lines that have no commit dates,
+    # and add commitdate to each photo that needs one
+    for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
+        section = None
+        for section_name in ["media", "zoos", "pandas"]:
+            if section_name in file_path.split("/"):
+                section = section_name.split("s")[0]   # HACK
+        # Enter the pandas subdirectories
+        for root, dirs, files in os.walk(file_path):
+            for filename in files:
+                path = root + os.sep + filename
+                print(path)
+                photo_list = PhotoFile(section, path)
+                photo_count = photo_list.photo_count()
+                photo_index = 1
+                while (photo_index <= photo_count):
+                    photo_option = "photo." + str(photo_index)
+                    photo_uri = photo_list.get_field(photo_option)
+                    date_option = photo_option + ".commitdate"
+                    date_value = uri_to_commit_date[photo_uri]
+                    # PhotoFile.set_field(date_field, date_value)
+                    print(photo_uri + " ==> " + date_value)
+                    photo_index = photo_index + 1
+                # photo_list.update_file()
 
 if __name__ == '__main__':
     """Choose a utility funciton."""
