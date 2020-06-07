@@ -474,6 +474,7 @@ def sort_ig_hashes(path):
             # Rename all photo fields as "old_photo_field"
             photo_list.move_field("old." + photo_option, photo_option)
             photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
+            photo_list.move_field("old." + photo_option + ".commitdate", photo_option + ".commitdate")
             photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
             photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
             if section == "media":
@@ -515,6 +516,7 @@ def sort_ig_hashes(path):
         old_option = "old.photo." + str(old_index)
         photo_list.move_field(current_option, old_option)
         photo_list.move_field(current_option + ".author", old_option + ".author")
+        photo_list.move_field(current_option + ".commitdate", old_option + ".commitdate")
         photo_list.move_field(current_option + ".link", old_option + ".link")
         photo_list.move_field(current_option + ".tags", old_option + ".tags")
         if section == "media":
