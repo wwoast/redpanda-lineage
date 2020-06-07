@@ -154,12 +154,14 @@ class PhotoFile():
         if self.has_field(photo_option) == False:
             return False
         author_option = photo_option + ".author"
+        author_commitdate = photo_option + ".commitdate"
         author_link = photo_option + ".link"
         author_tags = photo_option + ".tags"
         panda_tags = "panda.tags"
         # print("DEBUG REMOVE: " + path + " -- " + photo_author + " -- " + photo_option)
         self.delete_field(photo_option)
         self.delete_field(author_option)
+        self.delete_field(author_commitdate)
         self.delete_field(author_link)
         self.delete_field(author_tags)
         # For location group-photo tag lines, look for the numbers in the tag section, 
@@ -220,6 +222,7 @@ class PhotoFile():
             # If a photo doesn't exist, find the next photo that exists and swap its value
             photo_option = "photo." + str(photo_index)
             photo_author = photo_option + ".author"
+            photo_commitdate = photo_option + ".commitdate"
             photo_link = photo_option + ".link"
             photo_tags = photo_option + ".tags"
             panda_tags = "panda.tags"
@@ -227,11 +230,13 @@ class PhotoFile():
                 next_index = self.__fetch_next_photo_index(photo_index, stop_point)
                 next_option = "photo." + str(next_index)
                 next_author = next_option + ".author"
+                next_commitdate = next_option + ".commitdate"
                 next_link = next_option + ".link"
                 next_tags = next_option + ".tags"
                 if self.has_field(next_option) == True:
                     self.move_field(photo_option, next_option)
                     self.move_field(photo_author, next_author)
+                    self.move_field(photo_commitdate, next_commitdate)
                     self.move_field(photo_link, next_link)
                     self.move_field(photo_tags, next_tags)
                     for panda_id in self.get_array(panda_tags):
