@@ -554,7 +554,7 @@ def update_photo_commit_dates():
     uri_to_commit_date = {}
     repo = git.Repo(".")
     # List of sha1-name commits from the repo, oldest to newest
-    commit_list = list(reversed(list(map(lambda x: x.hexsha, r.iter_commits()))))
+    commit_list = list(reversed(list(map(lambda x: x.hexsha, repo.iter_commits()))))
     for index, commitish in enumerate(commit_list):
         # End of the commit list? Call it a day
         if commitish == commit_list[len(commit_list) - 1]:
@@ -578,8 +578,14 @@ def update_photo_commit_dates():
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            if line.value.find("photo.") != 0:
+                            if re.match("photo.\d+:", line.value) == None:
                                 # Not a photo line
+                                continue
+                            if line.value.find(": ") == -1:
+                                # No correct delimiter, which we see in old commits
+                                continue
+                            if len(line.value.strip().split(": ")) != 2:
+                                # Probably bad linebreaks
                                 continue
                             [key, value] = line.value.strip().split(": ")
                             if (value in uri_to_commit_date):
@@ -588,8 +594,8 @@ def update_photo_commit_dates():
                             if (value.find("https://") != 0):
                                 # Not a URI, so not a photo reference
                                 continue
-                            dt = r.commit(end).committed_datetime
-                            date = dt.year + "/" + dt.month + "/" + dt.day
+                            dt = repo.commit(end).committed_datetime
+                            date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                             uri_to_commit_date[value] = date
     print(str(uri_to_commit_date))
 
