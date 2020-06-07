@@ -19,10 +19,12 @@ location.4: 164, 2017/11/4
 location.5: 165, 2018/3/12
 photo.1: https://www.instagram.com/p/KtfpsCxEbA/media/?size=m
 photo.1.author: sandiegozoo
+photo.1.commitdate: 2019/10/26
 photo.1.link: https://www.instagram.com/sandiegozoo/
 photo.1.tags: portrait, white face
 photo.2: https://www.instagram.com/p/BTCBf8KB4Ca/media/?size=m
 photo.2.author: millerparkzoo
+photo.2.commitdate: 2019/3/19
 photo.2.link: https://www.instagram.com/millerparkzoo/
 photo.2.tags: paws, profile, white face
 species: 1

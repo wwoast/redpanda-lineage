@@ -17,10 +17,12 @@ location.1: 37, 2001/7/9
 location.2: 1, 2012/11/28
 photo.1: https://www.codaworry.com/images/rpf/nyannyan-1-ichikawa.jpg
 photo.1.author: dai4i
+photo.1.commitdate: 2019/4/9
 photo.1.link: https://ameblo.jp/dai4i/entry-11501989286.html
 photo.1.tags: profile
 photo.2: https://www.codaworry.com/images/rpf/nyannyan-2-ichikawa.jpg
 photo.2.author: miyanomayu3
+photo.2.commitdate: 2019/4/9
 photo.2.link: http://blog.livedoor.jp/miyanomayu3/archives/5957247.html
 photo.2.tags: snow
 species: 2

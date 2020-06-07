@@ -14,76 +14,95 @@ language.order: jp, en
 litter: 995
 photo.1: https://www.instagram.com/p/B3l-RkAhM-s/media/?size=m
 photo.1.author: monmon_redpanda
+photo.1.commitdate: 2019/10/15
 photo.1.link: https://www.instagram.com/monmon_redpanda/
 photo.1.tags: baby, portrait, profile
 photo.2: https://www.instagram.com/p/B3rU-zjAV4-/media/?size=m
 photo.2.author: kmasahon
+photo.2.commitdate: 2019/10/17
 photo.2.link: https://www.instagram.com/kmasahon/
 photo.2.tags: baby, paws
 photo.3: https://www.instagram.com/p/B3tgrAKhIqJ/media/?size=m
 photo.3.author: kmasahon
+photo.3.commitdate: 2019/10/21
 photo.3.link: https://www.instagram.com/kmasahon/
 photo.3.tags: baby, paws
 photo.4: https://www.instagram.com/p/B4MiioABJK0/media/?size=m
 photo.4.author: kmasahon
+photo.4.commitdate: 2019/10/31
 photo.4.link: https://www.instagram.com/kmasahon/
 photo.4.tags: baby, mofumofu
 photo.5: https://www.instagram.com/p/B4Ppk6yhS5T/media/?size=m
 photo.5.author: mifko55
+photo.5.commitdate: 2019/10/31
 photo.5.link: https://www.instagram.com/mifko55/
 photo.5.tags: baby, home, paws, portrait, standing, tail
 photo.6: https://www.instagram.com/p/B5Oy30_hxIA/media/?size=m
 photo.6.author: redpanda_nippon_takashi
+photo.6.commitdate: 2019/11/24
 photo.6.link: baby, portrait
 photo.7: https://www.instagram.com/p/B5BvdbXBqje/media/?size=m
 photo.7.author: fetorus_mami
+photo.7.commitdate: 2019/11/26
 photo.7.link: https://www.instagram.com/fetorus_mami/
 photo.7.tags: baby, door, portrait
 photo.8: https://www.instagram.com/p/B5P80BUh6GM/media/?size=m
 photo.8.author: resapanlove
+photo.8.commitdate: 2019/11/26
 photo.8.link: https://www.instagram.com/resapanlove/
 photo.8.tags: baby, mofumofu, portrait, tail
 photo.9: https://www.instagram.com/p/B5WrpcVBkaE/media/?size=m
 photo.9.author: yossi929
+photo.9.commitdate: 2019/11/28
 photo.9.link: https://www.instagram.com/yossi929/
 photo.9.tags: baby, mofumofu, portrait, tail, tree, upside-down
 photo.10: https://www.instagram.com/p/B55JY4VBd-j/media/?size=m
 photo.10.author: kai.kuniko
+photo.10.commitdate: 2019/12/28
 photo.10.link: https://www.instagram.com/kai.kuniko/
 photo.10.tags: bamboo, laying down, mofumofu, portrait, tail
 photo.11: https://www.instagram.com/p/B5_zb1WBxc1/media/?size=m
 photo.11.author: mifko55
+photo.11.commitdate: 2020/1/17
 photo.11.link: https://www.instagram.com/mifko55/
 photo.11.tags: baby, climb, portrait, tree
 photo.12: https://www.instagram.com/p/B6A4Rbyhl5V/media/?size=m
 photo.12.author: re_ichimaru
+photo.12.commitdate: 2020/1/17
 photo.12.link: https://www.instagram.com/re_ichimaru/
 photo.12.tags: baby, climb, portrait, tree
 photo.13: https://www.instagram.com/p/B7A2I4jhfC_/media/?size=m
 photo.13.author: kmasahon
+photo.13.commitdate: 2020/1/11
 photo.13.link: https://www.instagram.com/kmasahon/
 photo.13.tags: dish, keeper, paws
 photo.14: https://www.instagram.com/p/B7DPdrABnHn/media/?size=m
 photo.14.author: kmasahon
+photo.14.commitdate: 2020/1/17
 photo.14.link: https://www.instagram.com/kmasahon/
 photo.14.tags: dish, keeper, paws
 photo.15: https://www.instagram.com/p/B7crPd8hCSn/media/?size=m
 photo.15.author: re_ichimaru
+photo.15.commitdate: 2020/1/19
 photo.15.link: https://www.instagram.com/re_ichimaru/
 photo.15.tags: autumn, laying down, portrait, smile, tail
 photo.16: https://www.instagram.com/p/B7iU5F-hIPg/media/?size=m
 photo.16.author: redpanda_nippon_takashi
+photo.16.commitdate: 2020/1/22
 photo.16.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.16.tags: baby, climb, tree
 photo.17: https://www.instagram.com/p/B8ddCSJFJd3/media/?size=m
 photo.17.author: kipekaila
+photo.17.commitdate: 2020/2/23
 photo.17.link: https://www.instagram.com/kipekaila/
 photo.17.tags: bamboo, mofumofu, portrait
 photo.18: https://www.instagram.com/p/B9qt9OOBaPi/media/?size=m
 photo.18.author: satoshi_jimny
+photo.18.commitdate: 2020/4/28
 photo.18.link: https://www.instagram.com/satoshi_jimny/
 photo.19: https://www.instagram.com/p/B9Jpfe1hgXe/media/?size=m
 photo.19.author: satoshi_jimny
+photo.19.commitdate: 2020/4/28
 photo.19.link: https://www.instagram.com/satoshi_jimny/
 photo.19.tags: paws, smile
 species: 2

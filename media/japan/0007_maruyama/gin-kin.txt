@@ -3,24 +3,28 @@ _id: media.7.gin-kin
 panda.tags: 17, 22
 photo.1: https://www.instagram.com/p/BldDhasHNn2/media/?size=l
 photo.1.author: cattail.sapporo
+photo.1.commitdate: 2019/7/20
 photo.1.link: https://www.instagram.com/cattail.sapporo/
 photo.1.tags: apple time, sisters, tail, twins
 photo.1.tags.17.location: 620, 435
 photo.1.tags.22.location: 205, 150
 photo.2: https://www.instagram.com/p/B55BKXHguMF/media/?size=l
 photo.2.author: cattail.sapporo
+photo.2.commitdate: 2020/1/7
 photo.2.link: https://www.instagram.com/cattail.sapporo/
 photo.2.tags: chase, playing, snow, sisters, twins
 photo.2.tags.17.location: 495, 130
 photo.2.tags.22.location: 385, 545
 photo.3: https://www.instagram.com/p/BGge00YqoCp/media/?size=l
 photo.3.author: minatomirai215
+photo.3.commitdate: 2020/4/18
 photo.3.link: https://www.instagram.com/minatomirai215/
 photo.3.tags: bamboo, sisters, twins
 photo.3.tags.17.location: 585, 1050
 photo.3.tags.22.location: 465, 200
 photo.4: https://www.instagram.com/p/BGsm3ioKoDT/media/?size=l
 photo.4.author: minatomirai215
+photo.4.commitdate: 2020/4/18
 photo.4.link: https://www.instagram.com/minatomirai215/
 photo.4.tags: sisters, twins
 photo.4.tags.17.location: 75, 470

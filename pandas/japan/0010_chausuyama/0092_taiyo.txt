@@ -14,110 +14,137 @@ language.order: jp, en
 litter: 93
 photo.1: https://www.instagram.com/p/BFxLJicvi2t/media/?size=m
 photo.1.author: panda.daisuki
+photo.1.commitdate: 2020/5/3
 photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.1.tags: air tasting, apple time, dish, portrait, tongue
 photo.2: https://www.instagram.com/p/BQ7pu5oFQi3/media/?size=m
 photo.2.author: rdpnzoo
+photo.2.commitdate: 2019/6/19
 photo.2.link: https://www.instagram.com/rdpnzoo/
 photo.2.tags: bridge, techitechi
 photo.3: https://www.instagram.com/p/BVlmV30AyII/media/?size=m
 photo.3.author: panda.daisuki
+photo.3.commitdate: 2019/6/21
 photo.3.link: https://www.instagram.com/panda.daisuki/
 photo.3.tags: laying down, portrait, tree
 photo.4: https://www.instagram.com/p/Bh3uNL8n3Af/media/?size=m
 photo.4.author: nashi.cp
+photo.4.commitdate: 2018/7/29
 photo.4.link: https://www.instagram.com/nashi.cp/
 photo.4.tags: portrait, tree
 photo.5: https://www.instagram.com/p/BkRCXD0F54J/media/?size=m
 photo.5.author: panda.daisuki
+photo.5.commitdate: 2018/7/19
 photo.5.link: https://www.instagram.com/panda.daisuki/
 photo.5.tags: tree, upside-down
 photo.6: https://www.instagram.com/p/B3rKJ-PBMXI/media/?size=m
 photo.6.author: shigeko0531
+photo.6.commitdate: 2019/10/17
 photo.6.link: https://www.instagram.com/shigeko0531/
 photo.6.tags: portrait, profile, tree
 photo.7: https://www.instagram.com/p/B32hveKBumZ/media/?size=m
 photo.7.author: yakko____
+photo.7.commitdate: 2019/10/22
 photo.7.link: https://www.instagram.com/yakko____/
 photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/B38E7X-hpVd/media/?size=m
 photo.8.author: miis_98
+photo.8.commitdate: 2019/10/22
 photo.8.link: https://www.instagram.com/miis_98/
 photo.8.tags: portrait, smile
 photo.9: https://www.instagram.com/p/B4BhsfahOdP/media/?size=m
 photo.9.author: shigeko0531
+photo.9.commitdate: 2019/10/25
 photo.9.link: https://www.instagram.com/shigeko0531/
 photo.9.tags: paws, tree, white face
 photo.10: https://www.instagram.com/p/B4Hi4P0hY_c/media/?size=m
 photo.10.author: resapan.suki
+photo.10.commitdate: 2019/10/28
 photo.10.link: https://www.instagram.com/resapan.suki/
 photo.10.tags: mofumofu, portrait
 photo.11: https://www.instagram.com/p/B4LuTx5hdgC/media/?size=m
 photo.11.author: shigeko0531
+photo.11.commitdate: 2019/10/28
 photo.11.link: https://www.instagram.com/shigeko0531/
 photo.11.tags: peek, portrait, tail, tree
 photo.12: https://www.instagram.com/p/B4isJ8cnFJm/media/?size=m
 photo.12.author: shigeko0531
+photo.12.commitdate: 2019/11/7
 photo.12.link: https://www.instagram.com/shigeko0531/
 photo.12.tags: paws, standing
 photo.13: https://www.instagram.com/p/B4rwKBQBjI_/media/?size=m
 photo.13.author: kaoru_a358
+photo.13.commitdate: 2019/11/12
 photo.13.link: https://www.instagram.com/kaoru_a358/
 photo.13.tags: peek, tongue, tree, white face
 photo.14: https://www.instagram.com/p/B4s2J1aB-9a/media/?size=m
 photo.14.author: shigeko0531
+photo.14.commitdate: 2019/11/17
 photo.14.link: https://www.instagram.com/shigeko0531/
 photo.14.tags: peek, tree
 photo.15: https://www.instagram.com/p/B6f-qjbh8VN/media/?size=m
 photo.15.author: shigeko0531
+photo.15.commitdate: 2019/12/30
 photo.15.link: https://www.instagram.com/shigeko0531/
 photo.15.tags: portrait
 photo.16: https://www.instagram.com/p/B70KNbKhNsR/media/?size=m
 photo.16.author: alto0908
+photo.16.commitdate: 2020/2/7
 photo.16.link: https://www.instagram.com/alto0908/
 photo.16.tags: peek, tree
 photo.17: https://www.instagram.com/p/B7006eUBxBd/media/?size=m
 photo.17.author: redpan22
+photo.17.commitdate: 2020/1/28
 photo.17.link: https://www.instagram.com/redpan22/
 photo.17.tags: bamboo, portrait, smile, white face
 photo.18: https://www.instagram.com/p/B8kKWpvh3z0/media/?size=m
 photo.18.author: sasapan34
+photo.18.commitdate: 2020/2/27
 photo.18.link: https://www.instagram.com/sasapan34/
 photo.18.tags: bamboo, whiskers
 photo.19: https://www.instagram.com/p/B8tOBsthAZZ/media/?size=m
 photo.19.author: shigeko0531
+photo.19.commitdate: 2020/2/26
 photo.19.link: https://www.instagram.com/shigeko0531/
 photo.19.tags: laying down, portrait, tree
 photo.20: https://www.instagram.com/p/B8u9dwoB8Wi/media/?size=m
 photo.20.author: kaoru_a358
+photo.20.commitdate: 2020/2/27
 photo.20.link: https://www.instagram.com/kaoru_a358/
 photo.20.tags: laying down, portrait, sleeping
 photo.21: https://www.instagram.com/p/B9FjTTNByN7/media/?size=m
 photo.21.author: kaoru_a358
+photo.21.commitdate: 2020/3/8
 photo.21.link: https://www.instagram.com/kaoru_a358/
 photo.21.tags: laying down, peek, portrait, tongue, tree
 photo.22: https://www.instagram.com/p/B9WaNOFBJu1/media/?size=m
 photo.22.author: kinkinkin0826
+photo.22.commitdate: 2020/3/8
 photo.22.link: https://www.instagram.com/kinkinkin0826/
 photo.22.tags: portrait, white face
 photo.23: https://www.instagram.com/p/B9Z-7tCBr97/media/?size=m
 photo.23.author: hamiiiii831_
+photo.23.commitdate: 2020/3/8
 photo.23.link: https://www.instagram.com/hamiiiii831_/
 photo.23.tags: laying down, portrait, tree, white face
 photo.24: https://www.instagram.com/p/B9-1rGgBf22/media/?size=m
 photo.24.author: craig_craig_craig
+photo.24.commitdate: 2020/3/22
 photo.24.link: https://www.instagram.com/craig_craig_craig/
 photo.24.tags: dish, portrait
 photo.25: https://www.instagram.com/p/B-D4Qethj6K/media/?size=m
 photo.25.author: craig_craig_craig
+photo.25.commitdate: 2020/3/24
 photo.25.link: https://www.instagram.com/craig_craig_craig/
 photo.25.tags: bear worm, laying down, sleeping
 photo.26: https://www.instagram.com/p/B-R5jdkBXjh/media/?size=m
 photo.26.author: kaoru_a358
+photo.26.commitdate: 2020/3/28
 photo.26.link: https://www.instagram.com/kaoru_a358/
 photo.26.tags: tail, tree
 photo.27: https://www.instagram.com/p/B_NFzmcBtTA/media/?size=m
 photo.27.author: hamiiiii831_
+photo.27.commitdate: 2020/5/3
 photo.27.link: https://www.instagram.com/hamiiiii831_/
 photo.27.tags: portrait, tail, tongue, tree, yawn
 species: 2

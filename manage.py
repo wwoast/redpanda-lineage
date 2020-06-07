@@ -154,12 +154,14 @@ class PhotoFile():
         if self.has_field(photo_option) == False:
             return False
         author_option = photo_option + ".author"
+        author_commitdate = photo_option + ".commitdate"
         author_link = photo_option + ".link"
         author_tags = photo_option + ".tags"
         panda_tags = "panda.tags"
         # print("DEBUG REMOVE: " + path + " -- " + photo_author + " -- " + photo_option)
         self.delete_field(photo_option)
         self.delete_field(author_option)
+        self.delete_field(author_commitdate)
         self.delete_field(author_link)
         self.delete_field(author_tags)
         # For location group-photo tag lines, look for the numbers in the tag section, 
@@ -220,6 +222,7 @@ class PhotoFile():
             # If a photo doesn't exist, find the next photo that exists and swap its value
             photo_option = "photo." + str(photo_index)
             photo_author = photo_option + ".author"
+            photo_commitdate = photo_option + ".commitdate"
             photo_link = photo_option + ".link"
             photo_tags = photo_option + ".tags"
             panda_tags = "panda.tags"
@@ -227,11 +230,13 @@ class PhotoFile():
                 next_index = self.__fetch_next_photo_index(photo_index, stop_point)
                 next_option = "photo." + str(next_index)
                 next_author = next_option + ".author"
+                next_commitdate = next_option + ".commitdate"
                 next_link = next_option + ".link"
                 next_tags = next_option + ".tags"
                 if self.has_field(next_option) == True:
                     self.move_field(photo_option, next_option)
                     self.move_field(photo_author, next_author)
+                    self.move_field(photo_commitdate, next_commitdate)
                     self.move_field(photo_link, next_link)
                     self.move_field(photo_tags, next_tags)
                     for panda_id in self.get_array(panda_tags):
@@ -469,6 +474,7 @@ def sort_ig_hashes(path):
             # Rename all photo fields as "old_photo_field"
             photo_list.move_field("old." + photo_option, photo_option)
             photo_list.move_field("old." + photo_option + ".author", photo_option + ".author")
+            photo_list.move_field("old." + photo_option + ".commitdate", photo_option + ".commitdate")
             photo_list.move_field("old." + photo_option + ".link", photo_option + ".link")
             photo_list.move_field("old." + photo_option + ".tags", photo_option + ".tags")
             if section == "media":
@@ -510,6 +516,7 @@ def sort_ig_hashes(path):
         old_option = "old.photo." + str(old_index)
         photo_list.move_field(current_option, old_option)
         photo_list.move_field(current_option + ".author", old_option + ".author")
+        photo_list.move_field(current_option + ".commitdate", old_option + ".commitdate")
         photo_list.move_field(current_option + ".link", old_option + ".link")
         photo_list.move_field(current_option + ".tags", old_option + ".tags")
         if section == "media":
@@ -543,12 +550,95 @@ def sort_ig_updates():
         elif change.added > 0:
             sort_ig_hashes(filename)
 
+def update_photo_commit_dates():
+    """
+    The old redpandafinder update logic only worked on the basis of commits
+    in the last week or so. When files are re-sorted, added, or removed for
+    periods of time, it becomes meaningful to search the entire git repo,
+    find when a photo URI first appeared, and then track it using its first
+    commit-date into redpandafinder.
+    """
+    uri_to_commit_date = {}
+    repo = git.Repo(".")
+    # List of sha1-name commits from the repo, oldest to newest
+    commit_list = list(reversed(list(map(lambda x: x.hexsha, repo.iter_commits()))))
+    for index, commitish in enumerate(commit_list):
+        # End of the commit list? Call it a day
+        if commitish == commit_list[len(commit_list) - 1]:
+            break
+        # Get the diff
+        start = commitish
+        end = commit_list[index + 1] 
+        diff_raw = repo.git.diff(start, end, 
+                                 ignore_blank_lines=True,
+                                 ignore_space_at_eol=True)
+        patch = PatchSet(diff_raw)
+        for change in patch:
+            filename = change.path
+            if filename.find(".txt") == -1:
+                # Don't care about non-data files
+                continue
+            elif change.added <= 0:
+                # No lines were added, so we don't care
+                continue
+            else:
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_added:
+                            if re.match("photo.\d+:", line.value) == None:
+                                # Not a photo line
+                                continue
+                            if line.value.find(": ") == -1:
+                                # No correct delimiter, which we see in old commits
+                                continue
+                            if len(line.value.strip().split(": ")) != 2:
+                                # Probably bad linebreaks
+                                continue
+                            [key, value] = line.value.strip().split(": ")
+                            if (value in uri_to_commit_date):
+                                # Photo we've already seen
+                                continue
+                            if (value.find("http") != 0):
+                                # Not a URI, so not a photo reference
+                                continue
+                            dt = repo.commit(end).committed_datetime
+                            date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
+                            if value not in uri_to_commit_date:
+                                # Only insert a comit date once
+                                uri_to_commit_date[value] = date
+    # print(str(uri_to_commit_date))
+    # Now walk the repo, find all files with photo lines that have no commit dates,
+    # and add commitdate to each photo that needs one
+    for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
+        section = None
+        for section_name in ["media", "zoos", "pandas"]:
+            if section_name in file_path.split("/"):
+                section = section_name.split("s")[0]   # HACK
+        # Enter the pandas subdirectories
+        for root, dirs, files in os.walk(file_path):
+            for filename in files:
+                path = root + os.sep + filename
+                # print(path)
+                photo_list = PhotoFile(section, path)
+                photo_count = photo_list.photo_count()
+                photo_index = 1
+                while (photo_index <= photo_count):
+                    photo_option = "photo." + str(photo_index)
+                    photo_uri = photo_list.get_field(photo_option)
+                    date_option = photo_option + ".commitdate"
+                    date_value = uri_to_commit_date[photo_uri]
+                    photo_list.set_field(date_option, date_value)
+                    # print(photo_uri + " ==> " + date_value)
+                    photo_index = photo_index + 1
+                photo_list.update_file()
 
 if __name__ == '__main__':
-    """Choose a utility funciton."""
+    """Choose a utility function."""
     if len(sys.argv) == 2:
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
+        if sys.argv[1] == "--update-photo-commit-dates":
+            update_photo_commit_dates()
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]

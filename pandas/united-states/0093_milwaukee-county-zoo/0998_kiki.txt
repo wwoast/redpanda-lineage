@@ -14,26 +14,32 @@ language.order: en, jp
 litter: none
 photo.1: https://www.instagram.com/p/B0YpEVEBP5R/media/?size=m
 photo.1.author: milwaukeecozoo
+photo.1.commitdate: 2019/12/7
 photo.1.link: https://www.instagram.com/milwaukeecozoo/
 photo.1.tags: baby
 photo.2: https://www.instagram.com/p/B1oVxznj1C-/media/?size=m
 photo.2.author: milwaukeecozoo
+photo.2.commitdate: 2019/10/17
 photo.2.link: https://www.instagram.com/milwaukeecozoo/
 photo.2.tags: baby, paws, portrait, smile
 photo.3: https://www.instagram.com/p/B2rJWy_FVG3/media/?size=m
 photo.3.author: milwaukeecozoo
+photo.3.commitdate: 2019/10/17
 photo.3.link: https://www.instagram.com/milwaukeecozoo/
 photo.3.tags: baby, bamboo, portrait
 photo.4: https://www.instagram.com/p/B2o1xkGlOgA/media/?size=m
 photo.4.author: milwaukeecozoo
+photo.4.commitdate: 2019/10/17
 photo.4.link: https://www.instagram.com/milwaukeecozoo/
 photo.4.tags: baby, portrait
 photo.5: https://www.instagram.com/p/B24BVpygpfc/media/?size=m
 photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2019/10/17
 photo.5.link: https://www.instagram.com/milwaukeecozoo/
 photo.5.tags: baby
 photo.6: https://www.instagram.com/p/B3cGRwlgoEi/media/?size=m
 photo.6.author: milwaukeecozoo
+photo.6.commitdate: 2019/10/17
 photo.6.link: https://www.instagram.com/milwaukeecozoo/
 photo.6.tags: baby, home, portrait, tree
 species: 2

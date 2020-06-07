@@ -14,42 +14,52 @@ language.order: jp, en
 litter: none
 photo.1: https://www.instagram.com/p/BhDV56XhN5c/media/?size=m
 photo.1.author: wonderfulzooken
+photo.1.commitdate: 2018/7/26
 photo.1.link: https://www.instagram.com/wonderfulzooken/
 photo.1.tags: portrait
 photo.2: https://www.instagram.com/p/BiS-FWpl90Y/media/?size=m
 photo.2.author: wonderfulzooken
+photo.2.commitdate: 2018/7/26
 photo.2.link: https://www.instagram.com/wonderfulzooken/
 photo.2.tags: grooming, portrait, profile, tail
 photo.3: https://www.instagram.com/p/BjgRFdLljIu/media/?size=m
 photo.3.author: wonderfulzooken
+photo.3.commitdate: 2018/7/26
 photo.3.link: https://www.instagram.com/wonderfulzooken/
 photo.3.tags: smile
 photo.4: https://www.instagram.com/p/BuGgoEel5F5/media/?size=m
 photo.4.author: o_deka_ke
+photo.4.commitdate: 2019/4/5
 photo.4.link: https://www.instagram.com/o_deka_ke/
 photo.4.tags: paws
 photo.5: https://www.instagram.com/p/Brd0tFtlcsG/media/?size=m
 photo.5.author: zoowfreedom299
+photo.5.commitdate: 2019/6/3
 photo.5.link: https://www.instagram.com/zoowfreedom299/
 photo.5.tags: bamboo, paws, smile
 photo.6: https://www.instagram.com/p/B1yRwRyh3xW/media/?size=m
 photo.6.author: o_deka_ke
+photo.6.commitdate: 2019/8/31
 photo.6.link: https://www.instagram.com/o_deka_ke/
 photo.6.tags: paws, portrait, smile
 photo.7: https://www.instagram.com/p/B10yXCGBGq5/media/?size=m
 photo.7.author: zoowfreedom299
+photo.7.commitdate: 2019/9/3
 photo.7.link: https://www.instagram.com/zoowfreedom299/
 photo.7.tags: portrait, smile
 photo.8: https://www.instagram.com/p/B7HRLQLBj_c/media/?size=m
 photo.8.author: kipekaila
+photo.8.commitdate: 2020/1/14
 photo.8.link: https://www.instagram.com/kipekaila/
 photo.8.tags: grooming, paws, portrait, whiskers
 photo.9: https://www.instagram.com/p/B7b8EFxBYdc/media/?size=m
 photo.9.author: ssc6105
+photo.9.commitdate: 2020/1/18
 photo.9.link: https://www.instagram.com/ssc6105/
 photo.9.tags: dish, smile, tongue, whiskers
 photo.10: https://www.instagram.com/p/B-lEkFRh1Z1/media/?size=m
 photo.10.author: zoowfreedom299
+photo.10.commitdate: 2020/4/9
 photo.10.link: https://www.instagram.com/zoowfreedom299/
 photo.10.tags: whiskers
 species: 2

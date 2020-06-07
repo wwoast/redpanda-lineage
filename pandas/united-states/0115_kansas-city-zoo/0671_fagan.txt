@@ -17,18 +17,22 @@ location.1: 108, 2000/6/21
 location.2: 115, 2001/4/12
 photo.1: https://www.codaworry.com/images/rpf/fagan-1-kansascity.jpg
 photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down, paws
 photo.2: https://www.codaworry.com/images/rpf/fagan-2-kansascity.jpg
 photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: laying down, tail, upside-down
 photo.3: https://www.codaworry.com/images/rpf/fagan-3-kansascity.jpg
 photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: paws, tail
 photo.4: https://www.codaworry.com/images/rpf/fagan-4-kansascity.jpg
 photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: paws, profile
 species: 1
