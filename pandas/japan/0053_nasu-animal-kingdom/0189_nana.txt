@@ -15,10 +15,12 @@ language.order: jp, en
 litter: 188
 photo.1: https://www.codaworry.com/images/rpf/nana-nasu-1.jpg
 photo.1.author: miis_98
+photo.1.commitdate: 2019/4/9
 photo.1.link: https://mihorinh.exblog.jp/
 photo.1.tags: profile
 photo.2: https://www.codaworry.com/images/rpf/nana-nasu-2.jpg
 photo.2.author: miis_98
+photo.2.commitdate: 2019/4/9
 photo.2.link: https://mihorinh.exblog.jp/
 photo.2.tags: laying down
 species: 2

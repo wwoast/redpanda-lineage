@@ -14,18 +14,22 @@ language.order: en, jp
 litter: 544
 photo.1: https://www.instagram.com/p/B9PFqrlBlBh/media/?size=m
 photo.1.author: wumpwoast
+photo.1.commitdate: 2020/3/2
 photo.1.link: https://www.instagram.com/wumpwoast/
 photo.1.tags: bamboo, portrait, profile
 photo.2: https://www.instagram.com/p/B9UNYC1BK7j/media/?size=m
 photo.2.author: wumpwoast
+photo.2.commitdate: 2020/3/8
 photo.2.link: https://www.instagram.com/wumpwoast/
 photo.2.tags: bamboo, portrait
 photo.3: https://www.instagram.com/p/B_gbdEOntFN/media/?size=m
 photo.3.author: wumpwoast
+photo.3.commitdate: 2020/5/1
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: bamboo, portrait
 photo.4: https://www.instagram.com/p/CALYeo9hAnh/media/?size=m
 photo.4.author: wumpwoast
+photo.4.commitdate: 2020/5/17
 photo.4.link: https://www.instagram.com/wumpwoast/
 photo.4.tags: bamboo, portrait
 species: 1

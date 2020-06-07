@@ -15,14 +15,17 @@ language.order: en, jp
 litter: 450
 photo.1: https://www.instagram.com/p/BXHHostjQXG/media/?size=m
 photo.1.author: binghamtonzoo
+photo.1.commitdate: 2018/11/25
 photo.1.link: https://www.instagram.com/binghamtonzoo/
 photo.1.tags: baby, keeper
 photo.2: https://www.instagram.com/p/BWuti9gj_3S/media/?size=m
 photo.2.author: binghamtonzoo
+photo.2.commitdate: 2018/11/25
 photo.2.link: https://www.instagram.com/binghamtonzoo/
 photo.2.tags: baby, keeper, profile
 photo.3: https://www.instagram.com/p/BXfwAR7jajn/media/?size=m
 photo.3.author: binghamtonzoo
+photo.3.commitdate: 2018/11/25
 photo.3.link: https://www.instagram.com/binghamtonzoo/
 photo.3.tags: baby, mofumofu
 species: 2

@@ -620,13 +620,13 @@ def update_photo_commit_dates():
                     photo_uri = photo_list.get_field(photo_option)
                     date_option = photo_option + ".commitdate"
                     date_value = uri_to_commit_date[photo_uri]
-                    PhotoFile.set_field(date_field, date_value)
+                    photo_list.set_field(date_option, date_value)
                     # print(photo_uri + " ==> " + date_value)
                     photo_index = photo_index + 1
                 photo_list.update_file()
 
 if __name__ == '__main__':
-    """Choose a utility funciton."""
+    """Choose a utility function."""
     if len(sys.argv) == 2:
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()

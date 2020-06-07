@@ -17,17 +17,21 @@ location.2: 90, 2012/5/14
 location.3: 191, 2019/11/17
 photo.1: https://www.instagram.com/p/BkP3hdAFo2A/media/?size=m
 photo.1.author: nashvillezoo
+photo.1.commitdate: 2018/11/30
 photo.1.link: https://www.instagram.com/nashvillezoo/
 photo.1.tags: smile
 photo.2: https://www.instagram.com/p/BgMlUomBkEN/media/?size=m
 photo.2.author: nashvillezoo
+photo.2.commitdate: 2018/12/12
 photo.2.link: https://www.instagram.com/nashvillezoo/
 photo.3: https://www.instagram.com/p/B5Bh94tnsgi/media/?size=m
 photo.3.author: oregonzoo
+photo.3.commitdate: 2019/11/22
 photo.3.link: https://www.instagram.com/oregonzoo/
 photo.3.tags: bamboo, portrait, profile
 photo.4: https://www.instagram.com/p/B5aPXjYhNMn/media/?size=m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2019/11/29
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: bamboo, portrait
 species: 2
