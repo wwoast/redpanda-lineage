@@ -543,12 +543,63 @@ def sort_ig_updates():
         elif change.added > 0:
             sort_ig_hashes(filename)
 
+def update_photo_commit_dates():
+    """
+    The old redpandafinder update logic only worked on the basis of commits
+    in the last week or so. When files are re-sorted, added, or removed for
+    periods of time, it becomes meaningful to search the entire git repo,
+    find when a photo URI first appeared, and then track it using its first
+    commit-date into redpandafinder.
+    """
+    uri_to_commit_date = {}
+    repo = git.Repo(".")
+    # List of sha1-name commits from the repo, oldest to newest
+    commit_list = list(reversed(list(map(lambda x: x.hexsha, r.iter_commits()))))
+    for index, commitish in enumerate(commit_list):
+        # End of the commit list? Call it a day
+        if commitish == commit_list[len(commit_list) - 1]:
+            break
+        # Get the diff
+        start = commitish
+        end = commit_list[index + 1] 
+        diff_raw = repo.git.diff(start, end, 
+                                 ignore_blank_lines=True,
+                                 ignore_space_at_eol=True)
+        patch = PatchSet(diff_raw)
+        for change in patch:
+            filename = change.path
+            if filename.find(".txt") == -1:
+                # Don't care about non-data files
+                continue
+            elif change.added <= 0:
+                # No lines were added, so we don't care
+                continue
+            else:
+                for hunk in change:
+                    for line in hunk:
+                        if line.is_added:
+                            if line.value.find("photo.") != 0:
+                                # Not a photo line
+                                continue
+                            [key, value] = line.value.strip().split(": ")
+                            if (value in uri_to_commit_date):
+                                # Photo we've already seen
+                                continue
+                            if (value.find("https://") != 0):
+                                # Not a URI, so not a photo reference
+                                continue
+                            dt = r.commit(end).committed_datetime
+                            date = dt.year + "/" + dt.month + "/" + dt.day
+                            uri_to_commit_date[value] = date
+    print(str(uri_to_commit_date))
 
 if __name__ == '__main__':
     """Choose a utility funciton."""
     if len(sys.argv) == 2:
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
+        if sys.argv[1] == "--update-photo-commit-dates":
+            update_photo_commit_dates()
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
