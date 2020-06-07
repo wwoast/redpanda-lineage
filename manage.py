@@ -611,7 +611,7 @@ def update_photo_commit_dates():
         for root, dirs, files in os.walk(file_path):
             for filename in files:
                 path = root + os.sep + filename
-                print(path)
+                # print(path)
                 photo_list = PhotoFile(section, path)
                 photo_count = photo_list.photo_count()
                 photo_index = 1
@@ -620,10 +620,10 @@ def update_photo_commit_dates():
                     photo_uri = photo_list.get_field(photo_option)
                     date_option = photo_option + ".commitdate"
                     date_value = uri_to_commit_date[photo_uri]
-                    # PhotoFile.set_field(date_field, date_value)
-                    print(photo_uri + " ==> " + date_value)
+                    PhotoFile.set_field(date_field, date_value)
+                    # print(photo_uri + " ==> " + date_value)
                     photo_index = photo_index + 1
-                # photo_list.update_file()
+                photo_list.update_file()
 
 if __name__ == '__main__':
     """Choose a utility funciton."""
