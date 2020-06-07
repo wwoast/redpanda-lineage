@@ -784,7 +784,7 @@ class UpdateFromCommits:
         self.updates["panda_count"] = len(self.updates["pandas"])
         self.updates["zoo_count"] = len(self.updates["zoos"])
         # Take locator_to_photo results, and de-duplicate based on whether
-        # the photo existed in multiple diffs/files or not.
+        # the photo existed in multiple diffs/files or not
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
             if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
