@@ -75,6 +75,10 @@ Page.about.render = function() {
   Show["results"].menus.top();
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
+  // Re-enable scroll restoration for just the about page
+  if (history.scrollRestoration) {
+    history.scrollRestoration = 'auto';
+  }
 }
 Page.about.routing = function() {
   // When someone clicks the about button, either show the about page,

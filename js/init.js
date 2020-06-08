@@ -41,6 +41,12 @@ document.addEventListener("DOMContentLoaded", function() {
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
+  // Most RPF pages won't save your place on the page on purpose.
+  // because refresh events don't work properly when this is enabled.
+  if ((history.scrollRestoration) && (window.location.hash.indexOf("#about") != -1)) {
+    history.scrollRestoration = 'manual';
+  }
+
   // Once the panda data is loaded, create the graph
   window.addEventListener('panda_data', function() {
     P.db.vertices.forEach(G.addVertex.bind(G));
@@ -110,6 +116,12 @@ window.addEventListener('hashchange', function() {
     Page.current = Page.media.render;
   }
   window.localStorage.setItem("last_seen", window.location.hash);
+
+  // Most RPF pages won't save your place on the page on purpose.
+  // because refresh events don't work properly when this is enabled.
+  if ((history.scrollRestoration) && (mode != "#about")) {
+    history.scrollRestoration = 'manual';
+  }
 });
 
 // Once the about-page content is loaded, decide whether to display the
