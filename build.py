@@ -601,7 +601,7 @@ class PhotoEntry:
         self.filename = filename
         self.cache = cache
         self.author_name = None
-        self.changes = []
+        self.commitdate = None
         self.entity_id = None
         self.entity_type = None
         self.photo_index = None
@@ -627,18 +627,14 @@ class PhotoEntry:
                 self._set_only_once("photo_uri", value)
             elif (len(splitkey) == 3 and splitkey[2] == "author"):
                 self._set_only_once("author_name", value)
+            elif (len(splitkey) == 3 and splitkey[2] == "commitdate"):
+                self._set_only_once("commitdate", value)
 
     def entity_locator(self):
         return self.entity_type + "." + self.entity_id
 
     def photo_locator(self):
         return self.entity_locator() + ".photo." + self.photo_index
-
-    def register_change(self, raw, change):
-        # List of booleans. False == removed, True == added
-        # Only register for the photo.X linkes
-        if (raw.find("photo." + self.photo_index + ":") == 0):
-            self.changes.append(change)
 
     def _read_update_entity_id(self):
         """
@@ -735,18 +731,14 @@ class UpdateFromCommits:
         # Get list of changes per photo locator
         for locator in self.locator_to_photo.keys():
             uri = self.locator_to_photo[locator].photo_uri
-            changes = self.locator_to_photo[locator].changes
+            datestring = self.locator_to_photo[locator].commitdate
             if (seen_uris.get(uri) == None):
-                seen_uris[uri] = changes
-            else:
-                seen_uris[uri].extend(changes)
+                seen_uris[uri] = datestring
         for uri in seen_uris.copy().keys():
-            if len(seen_uris[uri]) % 2 == 0:
-                # Filter out where changes have more equal removals (Fs) to additions (Ts)
-                # These images have likely just moved between files
-                seen_uris.pop(uri)
-            elif (len(seen_uris[uri]) == 1 and seen_uris[uri][0] == False):
-                # Filter out where only a removal has happened
+            commitdate = self.datetime_to_unixtime(seen_uris[uri])
+            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            if commitdate < lastweek:
+                # Filter out where commitdate of a photo is older than a week
                 seen_uris.pop(uri)
         return seen_uris
 
@@ -762,11 +754,8 @@ class UpdateFromCommits:
                 # Don't care about non-data files
                 continue
             elif change.added <= 0:
-                # We removed a photo or removed a file somewhere
-                for hunk in change:
-                    for line in hunk:
-                        if line.is_removed:
-                            self._process_raw_line(filename, line.value, added=False, counting=False)
+                # Don't care about lines we removed
+                continue
             elif change.is_added_file == True:
                 # New [media|panda|zoo]! Track change as representing a new entity
                 for hunk in change:
@@ -779,8 +768,6 @@ class UpdateFromCommits:
                     for line in hunk:
                         if line.is_added:
                             self._process_raw_line(filename, line.value, added=True, counting=False)
-                        elif line.is_removed:
-                            self._process_raw_line(filename, line.value, added=False, counting=False)
         self.updates["panda_count"] = len(self.updates["pandas"])
         self.updates["zoo_count"] = len(self.updates["zoos"])
         # Take locator_to_photo results, and de-duplicate based on whether
@@ -791,6 +778,23 @@ class UpdateFromCommits:
                 # Not in the counted new photo list, so remove it
                 self.locator_to_photo.pop(locator)
         self.updates["photos"] = list(self.locator_to_photo.keys())
+
+    def current_date_to_unixtime(self):
+        """
+        Find the unixtime for today's date, at 00:00 hours, for the sake of
+        doing one-week windows for new photo updates.
+        """
+        now = datetime.datetime.now()
+        datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
+        return self.datetime_to_unixtime(datestring)
+
+    def datetime_to_unixtime(self, commitdate):
+        """
+        Take an arbitrary YYYY/MM/DD string and convert it to unixtime, for
+        the purpose of determining if a photo was added to RPF during a specific
+        time window.
+        """
+        return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
              
     def new_contributors(self, author_set):
         """
@@ -806,9 +810,10 @@ class UpdateFromCommits:
         # just have "added" changes. Then compare against the number in
         # redpanda.json for how many photos theat
         for locator in self.locator_to_photo.keys():
-            changes = self.locator_to_photo[locator].changes
             author = self.locator_to_photo[locator].author_name
-            if (changes == [True]):
+            commitdate = self.datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
+            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            if commitdate >= lastweek:
                 # Just an addition
                 if (author_diffs.get(author) == None):
                     author_diffs[author] = 0
@@ -876,8 +881,6 @@ class UpdateFromCommits:
             actual = stub
             self.filename_to_entity[filename] = entity
             self.locator_to_photo[locator] = actual
-        # Track whether this was a removal or an addition.
-        actual.register_change(raw, added)
         # If this is a new entity, add it to our counts
         if (self.seen[actual.entity_type].get(actual.entity_id) != True and
             counting == True):
