@@ -532,7 +532,8 @@ def sort_ig_hashes(path):
 def sort_ig_updates():
     """
     Any data file that was updated in the last commit, do a sort operation for the
-    IG hashes, leaving non-IG files unchanged.
+    IG hashes, leaving non-IG files unchanged. Also add commit dates for any photos
+    that don't have them
     """
     repo = git.Repo(".")
     prior_commit = repo.commit("HEAD~1")
@@ -549,8 +550,10 @@ def sort_ig_updates():
             continue
         elif change.added > 0:
             sort_ig_hashes(filename)
+    # Finish by adding photo commit dates
+    update_photo_commit_dates(prior_commit.hexsha)
 
-def update_photo_commit_dates():
+def update_photo_commit_dates(starting_commit):
     """
     The old redpandafinder update logic only worked on the basis of commits
     in the last week or so. When files are re-sorted, added, or removed for
@@ -562,6 +565,12 @@ def update_photo_commit_dates():
     repo = git.Repo(".")
     # List of sha1-name commits from the repo, oldest to newest
     commit_list = list(reversed(list(map(lambda x: x.hexsha, repo.iter_commits()))))
+    if starting_commit != None:
+        try:
+            index = commit_list.index(starting_commit)
+        except IndexError as e:
+            raise CommitError("%s not a valid commit in this repo." % starting_commit)
+        commit_list = commit_list[index:]   # All after, and including the given commit
     for index, commitish in enumerate(commit_list):
         # End of the commit list? Call it a day
         if commitish == commit_list[len(commit_list) - 1]:
@@ -626,6 +635,9 @@ def update_photo_commit_dates():
                     photo_option = "photo." + str(photo_index)
                     photo_uri = photo_list.get_field(photo_option)
                     date_option = photo_option + ".commitdate"
+                    if photo_uri not in uri_to_commit_date:
+                        photo_index = photo_index + 1
+                        continue
                     date_value = uri_to_commit_date[photo_uri]
                     photo_list.set_field(date_option, date_value)
                     # print(photo_uri + " ==> " + date_value)
@@ -638,7 +650,7 @@ if __name__ == '__main__':
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
         if sys.argv[1] == "--update-photo-commit-dates":
-            update_photo_commit_dates()
+            update_photo_commit_dates(None)
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
@@ -649,6 +661,9 @@ if __name__ == '__main__':
         if sys.argv[1] == "--sort-instagram-hashes":
             file_path = sys.argv[2]
             sort_ig_hashes(file_path)
+        if sys.argv[1] == "--update-photo-commit-dates":
+            commitish = sys.argv[2]
+            update_photo_commit_dates(commitish)
     if len(sys.argv) == 4:
         if sys.argv[1] == "--remove-photo":
             file_path = sys.argv[2]

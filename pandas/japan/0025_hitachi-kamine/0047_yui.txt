@@ -14,100 +14,105 @@ language.order: jp, en
 litter: 40
 location.1: 8, 2015/6/28
 location.2: 25, 2018/1/29
-photo.1: https://www.instagram.com/p/BhQ-bRWlgmH/media/?size=m
-photo.1.author: hanamaru_redpanda
-photo.1.commitdate: 2018/7/22
-photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2: https://www.instagram.com/p/BiVP23_HCgk/media/?size=m
-photo.2.author: rie_panda55
-photo.2.commitdate: 2018/7/22
-photo.2.link: https://www.instagram.com/rie_panda55/
-photo.2.tags: tree
+photo.1: https://www.instagram.com/p/BCWSj4YQZy9/media/?size=m
+photo.1.author: rio_minron
+photo.1.commitdate: 2018/8/12
+photo.1.link: https://www.instagram.com/rio_minron/
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/BZimu02l4iK/media/?size=m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2020/3/12
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: air tasting, home, portrait, tongue
 photo.3: https://www.instagram.com/p/BcHkg4HhKv5/media/?size=m
 photo.3.author: 218_yu
 photo.3.commitdate: 2018/7/22
 photo.3.link: https://www.instagram.com/218_yu/
 photo.3.tags: grooming
-photo.4: https://www.instagram.com/p/BCWSj4YQZy9/media/?size=m
-photo.4.author: rio_minron
-photo.4.commitdate: 2018/8/12
-photo.4.link: https://www.instagram.com/rio_minron/
-photo.4.tags: bamboo
-photo.5: https://www.instagram.com/p/BinpnuPgYI6/media/?size=m
-photo.5.author: jwg13777
-photo.5.commitdate: 2018/8/12
-photo.5.link: https://www.instagram.com/jwg13777/
-photo.5.tags: baby, tree
-photo.6: https://www.instagram.com/p/BoFu-B8lGeH/media/?size=m
-photo.6.author: craig_craig_craig
-photo.6.commitdate: 2018/9/24
-photo.6.link: https://www.instagram.com/craig_craig_craig/
-photo.7: https://www.instagram.com/p/BoKmcy_liiX/media/?size=m
-photo.7.author: craig_craig_craig
-photo.7.commitdate: 2018/9/27
-photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.8: https://www.instagram.com/p/BoN_J85F_rO/media/?size=m
+photo.4: https://www.instagram.com/p/BdSY9MvlJRD/media/?size=m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2020/3/12
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: bamboo, paws, portrait, standing
+photo.5: https://www.instagram.com/p/BhQ-bRWlgmH/media/?size=m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2018/7/22
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.6: https://www.instagram.com/p/BiVP23_HCgk/media/?size=m
+photo.6.author: rie_panda55
+photo.6.commitdate: 2018/7/22
+photo.6.link: https://www.instagram.com/rie_panda55/
+photo.6.tags: tree
+photo.7: https://www.instagram.com/p/BinpnuPgYI6/media/?size=m
+photo.7.author: jwg13777
+photo.7.commitdate: 2018/8/12
+photo.7.link: https://www.instagram.com/jwg13777/
+photo.7.tags: baby, tree
+photo.8: https://www.instagram.com/p/BoFu-B8lGeH/media/?size=m
 photo.8.author: craig_craig_craig
-photo.8.commitdate: 2018/9/30
+photo.8.commitdate: 2018/9/24
 photo.8.link: https://www.instagram.com/craig_craig_craig/
-photo.8.tags: tail, tongue
-photo.9: https://www.instagram.com/p/BokjA--FmQj/media/?size=m
-photo.9.author: tabechum
-photo.9.commitdate: 2018/10/6
-photo.9.link: https://www.instagram.com/tabechum/
-photo.10: https://www.instagram.com/p/BoomxeblsQJ/media/?size=m
+photo.9: https://www.instagram.com/p/BoKmcy_liiX/media/?size=m
+photo.9.author: craig_craig_craig
+photo.9.commitdate: 2018/9/27
+photo.9.link: https://www.instagram.com/craig_craig_craig/
+photo.10: https://www.instagram.com/p/BoN_J85F_rO/media/?size=m
 photo.10.author: craig_craig_craig
-photo.10.commitdate: 2018/10/9
+photo.10.commitdate: 2018/9/30
 photo.10.link: https://www.instagram.com/craig_craig_craig/
-photo.10.tags: portrait, profile
-photo.11: https://www.instagram.com/p/BpomVoXleJo/media/?size=m
-photo.11.author: mariten1119
-photo.11.commitdate: 2018/11/2
-photo.11.link: https://www.instagram.com/mariten1119/
-photo.11.tags: lips
-photo.12: https://www.instagram.com/p/Bv_vZJJlDNa/media/?size=m
-photo.12.author: rie_panda55
-photo.12.commitdate: 2019/4/8
-photo.12.link: https://www.instagram.com/rie_panda55/
-photo.13: https://www.instagram.com/p/BzXw2XhBXBW/media/?size=m
-photo.13.author: miis_98
-photo.13.commitdate: 2019/7/2
-photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: portrait
-photo.14: https://www.instagram.com/p/B22cX20h1O3/media/?size=m
-photo.14.author: craig_craig_craig
-photo.14.commitdate: 2019/10/8
-photo.14.link: https://www.instagram.com/craig_craig_craig/
-photo.14.tags: itchy, portrait, smile, tongue
-photo.15: https://www.instagram.com/p/B5PFjfLhvKQ/media/?size=m
-photo.15.author: takahisakaneuchi
-photo.15.commitdate: 2019/11/24
-photo.15.link: https://www.instagram.com/takahisakaneuchi/
-photo.15.tags: paws, portrait
-photo.16: https://www.instagram.com/p/B65SqsXgrVr/media/?size=m
-photo.16.author: takahisakaneuchi
-photo.16.commitdate: 2020/1/11
-photo.16.link: https://www.instagram.com/takahisakaneuchi/
-photo.16.tags: laying down, paws, portrait, tongue
-photo.17: https://www.instagram.com/p/B7NZp-Vhq_e/media/?size=m
-photo.17.author: ssc6105
-photo.17.commitdate: 2020/1/24
-photo.17.link: https://www.instagram.com/ssc6105/
-photo.17.tags: paws, spider
-photo.18: https://www.instagram.com/p/B9bhgn5BLvS/media/?size=m
-photo.18.author: ssc6105
-photo.18.commitdate: 2020/3/8
-photo.18.link: https://www.instagram.com/ssc6105/
-photo.18.tags: paws, peek
-photo.19: https://www.instagram.com/p/BdSY9MvlJRD/media/?size=m
-photo.19.author: hanamaru_redpanda
-photo.19.commitdate: 2020/3/12
-photo.19.link: https://www.instagram.com/hanamaru_redpanda/
-photo.19.tags: bamboo, paws, portrait, standing
-photo.20: https://www.instagram.com/p/BZimu02l4iK/media/?size=m
-photo.20.author: hanamaru_redpanda
-photo.20.commitdate: 2020/3/12
-photo.20.link: https://www.instagram.com/hanamaru_redpanda/
-photo.20.tags: air tasting, home, portrait, tongue
+photo.10.tags: tail, tongue
+photo.11: https://www.instagram.com/p/BokjA--FmQj/media/?size=m
+photo.11.author: tabechum
+photo.11.commitdate: 2018/10/6
+photo.11.link: https://www.instagram.com/tabechum/
+photo.12: https://www.instagram.com/p/BoomxeblsQJ/media/?size=m
+photo.12.author: craig_craig_craig
+photo.12.commitdate: 2018/10/9
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: portrait, profile
+photo.13: https://www.instagram.com/p/BpomVoXleJo/media/?size=m
+photo.13.author: mariten1119
+photo.13.commitdate: 2018/11/2
+photo.13.link: https://www.instagram.com/mariten1119/
+photo.13.tags: lips
+photo.14: https://www.instagram.com/p/Bv_vZJJlDNa/media/?size=m
+photo.14.author: rie_panda55
+photo.14.commitdate: 2019/4/8
+photo.14.link: https://www.instagram.com/rie_panda55/
+photo.15: https://www.instagram.com/p/BzXw2XhBXBW/media/?size=m
+photo.15.author: miis_98
+photo.15.commitdate: 2019/7/2
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: portrait
+photo.16: https://www.instagram.com/p/B22cX20h1O3/media/?size=m
+photo.16.author: craig_craig_craig
+photo.16.commitdate: 2019/10/8
+photo.16.link: https://www.instagram.com/craig_craig_craig/
+photo.16.tags: itchy, portrait, smile, tongue
+photo.17: https://www.instagram.com/p/B5PFjfLhvKQ/media/?size=m
+photo.17.author: takahisakaneuchi
+photo.17.commitdate: 2019/11/24
+photo.17.link: https://www.instagram.com/takahisakaneuchi/
+photo.17.tags: paws, portrait
+photo.18: https://www.instagram.com/p/B65SqsXgrVr/media/?size=m
+photo.18.author: takahisakaneuchi
+photo.18.commitdate: 2020/1/11
+photo.18.link: https://www.instagram.com/takahisakaneuchi/
+photo.18.tags: laying down, paws, portrait, tongue
+photo.19: https://www.instagram.com/p/B7NZp-Vhq_e/media/?size=m
+photo.19.author: ssc6105
+photo.19.commitdate: 2020/1/24
+photo.19.link: https://www.instagram.com/ssc6105/
+photo.19.tags: paws, spider
+photo.20: https://www.instagram.com/p/B9bhgn5BLvS/media/?size=m
+photo.20.author: ssc6105
+photo.20.commitdate: 2020/3/8
+photo.20.link: https://www.instagram.com/ssc6105/
+photo.20.tags: paws, peek
+photo.21: https://www.instagram.com/p/B_tFTBGBGxG/media/?size=m
+photo.21.author: eos1089
+photo.21.commitdate: 2020/6/7
+photo.21.link: https://www.instagram.com/eos1089/
+photo.21.tags: peek, portrait, tongue
 species: 2
 zoo: 25

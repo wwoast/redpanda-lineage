@@ -17,6 +17,9 @@ HASH_ORDER = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_-"
 class AuthorError(ValueError):
     pass
 
+class CommitError(IndexError):
+    pass
+
 class DateConsistencyError(ValueError):
     pass
 

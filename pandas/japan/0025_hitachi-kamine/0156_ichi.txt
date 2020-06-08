@@ -48,15 +48,20 @@ photo.7.author: ssc6105
 photo.7.commitdate: 2020/1/16
 photo.7.link: https://www.instagram.com/ssc6105/
 photo.7.tags: ear, whiskers
-photo.8: https://www.instagram.com/p/B_TFNahBZhg/media/?size=m
-photo.8.author: ssc6105
-photo.8.commitdate: 2020/4/26
-photo.8.link: https://www.instagram.com/ssc6105/
-photo.8.tags: ear, paws
-photo.9: https://www.instagram.com/p/B-9qc00BJOD/media/?size=m
-photo.9.author: miis_98
-photo.9.commitdate: 2020/4/28
-photo.9.link: https://www.instagram.com/miis_98/
-photo.9.tags: climb, ear, paws, portrait, tongue
+photo.8: https://www.instagram.com/p/B-9qc00BJOD/media/?size=m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/4/28
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: climb, ear, paws, portrait, tongue
+photo.9: https://www.instagram.com/p/B_TFNahBZhg/media/?size=m
+photo.9.author: ssc6105
+photo.9.commitdate: 2020/4/26
+photo.9.link: https://www.instagram.com/ssc6105/
+photo.9.tags: ear, paws
+photo.10: https://www.instagram.com/p/B_21un4BoQT/media/?size=m
+photo.10.author: eos1089
+photo.10.commitdate: 2020/6/7
+photo.10.link: https://www.instagram.com/eos1089/
+photo.10.tags: apple time, ear, lips, paws, portrait, smile
 species: 2
 zoo: 25
