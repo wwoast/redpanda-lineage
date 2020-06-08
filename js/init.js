@@ -41,10 +41,15 @@ document.addEventListener("DOMContentLoaded", function() {
   L.update();      // Update buttons, displayed results, and cookie state
   Page.redraw(Page.current);   // Ready to redraw? Let's go.
 
-  // Most RPF pages won't save your place on the page on purpose.
-  // because refresh events don't work properly when this is enabled.
-  if ((history.scrollRestoration) && (window.location.hash.indexOf("#about") == -1)) {
-    history.scrollRestoration = 'manual';
+  // Most RPF pages won't save your place on the page on purpose,
+  // because refresh events don't put you at the top of page properly
+  // work properly when this is enabled. However, leave it on for the
+  // #about page.
+  if (history.scrollRestoration) {
+    history.scrollRestoration = 'auto';
+    if (window.location.hash.indexOf("#about") == -1) {
+      history.scrollRestoration = 'manual';
+    }
   }
 
   // Once the panda data is loaded, create the graph
