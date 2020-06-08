@@ -627,6 +627,8 @@ class PhotoEntry:
                 self._set_only_once("photo_uri", value)
             elif (len(splitkey) == 3 and splitkey[2] == "author"):
                 self._set_only_once("author_name", value)
+            elif (len(splitkey) == 3 and splitkey[2] == "commitdate"):
+                self._set_only_once("commitdate", value)
 
     def entity_locator(self):
         return self.entity_type + "." + self.entity_id
@@ -733,9 +735,9 @@ class UpdateFromCommits:
             if (seen_uris.get(uri) == None):
                 seen_uris[uri] = datestring
         for uri in seen_uris.copy().keys():
-            commitdate = datetime_to_unixtime(seen_uris[uri])
-            lastweek = datetime_to_unixtime() - 604800   # Seconds in a week
-            if commitdate < lastweek
+            commitdate = self.datetime_to_unixtime(seen_uris[uri])
+            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            if commitdate < lastweek:
                 # Filter out where commitdate of a photo is older than a week
                 seen_uris.pop(uri)
         return seen_uris
@@ -777,16 +779,14 @@ class UpdateFromCommits:
                 self.locator_to_photo.pop(locator)
         self.updates["photos"] = list(self.locator_to_photo.keys())
 
-    def datetime_to_unixtime(self):
+    def current_date_to_unixtime(self):
         """
         Find the unixtime for today's date, at 00:00 hours, for the sake of
         doing one-week windows for new photo updates.
         """
-        date_now = datetime.datetime.now()
-        date_string = str(date_now.year) + "/" + 
-                      str(date_now.month) + "/" + 
-                      str(date_now.day)
-        return self.datetime_to_unixtime(date_string)
+        now = datetime.datetime.now()
+        datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
+        return self.datetime_to_unixtime(datestring)
 
     def datetime_to_unixtime(self, commitdate):
         """
@@ -811,9 +811,9 @@ class UpdateFromCommits:
         # redpanda.json for how many photos theat
         for locator in self.locator_to_photo.keys():
             author = self.locator_to_photo[locator].author_name
-            commitdate = datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
-            lastweek = datetime_to_unixtime() - 604800   # Seconds in a week
-            if (commitdate >= lastweek):
+            commitdate = self.datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
+            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            if commitdate >= lastweek:
                 # Just an addition
                 if (author_diffs.get(author) == None):
                     author_diffs[author] = 0
