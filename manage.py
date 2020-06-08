@@ -551,7 +551,7 @@ def sort_ig_updates():
         elif change.added > 0:
             sort_ig_hashes(filename)
     # Finish by adding photo commit dates
-    update_photo_commit_dates(current_commit.hexsha)
+    update_photo_commit_dates(prior_commit.hexsha)
 
 def update_photo_commit_dates(starting_commit):
     """
@@ -635,6 +635,9 @@ def update_photo_commit_dates(starting_commit):
                     photo_option = "photo." + str(photo_index)
                     photo_uri = photo_list.get_field(photo_option)
                     date_option = photo_option + ".commitdate"
+                    if photo_uri not in uri_to_commit_date:
+                        photo_index = photo_index + 1
+                        continue
                     date_value = uri_to_commit_date[photo_uri]
                     photo_list.set_field(date_option, date_value)
                     # print(photo_uri + " ==> " + date_value)
