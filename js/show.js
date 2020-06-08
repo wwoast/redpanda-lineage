@@ -2503,7 +2503,7 @@ Show.searchBar.enable = function() {
   // Refocus text cursor once page loads, but only on non-touch devices
   if (!("ontouchstart" in window)) {
     setTimeout(function() {
-      document.getElementById('searchInput').focus();   // Set text cursor
+      document.getElementById('searchInput').focus({preventScroll: true});   // Set text cursor
     }, 0);
   }
 }
@@ -2558,7 +2558,7 @@ Show.searchBar.submit = function() {
   // Refocus text cursor after a search is performed, but only on non-touch devices
   if (!("ontouchstart" in window)) {
     setTimeout(function() {
-      document.getElementById('searchInput').focus();
+      document.getElementById('searchInput').focus({preventScroll: true});
     }, 0);
   }
   Show.button.language.hide();   // If language menu open, hide it
