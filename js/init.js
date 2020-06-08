@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Most RPF pages won't save your place on the page on purpose.
   // because refresh events don't work properly when this is enabled.
-  if ((history.scrollRestoration) && (window.location.hash.indexOf("#about") != -1)) {
+  if ((history.scrollRestoration) && (window.location.hash.indexOf("#about") == -1)) {
     history.scrollRestoration = 'manual';
   }
 
