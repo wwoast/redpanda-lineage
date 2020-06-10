@@ -12,56 +12,56 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 617
-photo.1: https://www.instagram.com/p/Blix3Rqlb4T/media/?size=m
-photo.1.author: animal_lifenyc
-photo.1.commitdate: 2018/10/7
-photo.1.link: https://www.instagram.com/animal_lifenyc/
-photo.1.tags: tree
-photo.2: https://www.instagram.com/p/BgeqAmTF64p/media/?size=m
+photo.1: https://www.instagram.com/p/BOVPeqCAV1U/media/?size=m
+photo.1.author: florianschwarz83
+photo.1.commitdate: 2020/3/25
+photo.1.link: https://www.instagram.com/florianschwarz83/
+photo.1.tags: close-up, portrait, whiskers
+photo.2: https://www.instagram.com/p/BXButWnFFTO/media/?size=m
 photo.2.author: animal_lifenyc
-photo.2.commitdate: 2018/10/7
+photo.2.commitdate: 2018/12/27
 photo.2.link: https://www.instagram.com/animal_lifenyc/
-photo.2.tags: profile, tree
-photo.3: https://www.instagram.com/p/BiHx1HulHWP/media/?size=m
+photo.2.tags: smile, tongue
+photo.3: https://www.instagram.com/p/BbDN22KH2nJ/media/?size=m
 photo.3.author: animal_lifenyc
 photo.3.commitdate: 2018/10/7
 photo.3.link: https://www.instagram.com/animal_lifenyc/
-photo.3.tags: laying down, tree
-photo.4: https://www.instagram.com/p/Bk-korClP75/media/?size=m
+photo.3.tags: smile, tongue
+photo.4: https://www.instagram.com/p/BdXa8Dgn7ZO/media/?size=m
 photo.4.author: animal_lifenyc
 photo.4.commitdate: 2018/10/7
 photo.4.link: https://www.instagram.com/animal_lifenyc/
-photo.4.tags: panda bowl
-photo.5: https://www.instagram.com/p/BbDN22KH2nJ/media/?size=m
+photo.4.tags: laying down, paws, snow, upside-down
+photo.5: https://www.instagram.com/p/BfYxN7xH1Q1/media/?size=m
 photo.5.author: animal_lifenyc
 photo.5.commitdate: 2018/10/7
 photo.5.link: https://www.instagram.com/animal_lifenyc/
-photo.5.tags: smile, tongue
-photo.6: https://www.instagram.com/p/BdXa8Dgn7ZO/media/?size=m
+photo.5.tags: tree
+photo.6: https://www.instagram.com/p/BfopnqxnNEx/media/?size=m
 photo.6.author: animal_lifenyc
 photo.6.commitdate: 2018/10/7
 photo.6.link: https://www.instagram.com/animal_lifenyc/
-photo.6.tags: laying down, paws, snow, upside-down
-photo.7: https://www.instagram.com/p/BfopnqxnNEx/media/?size=m
+photo.6.tags: carry, tree
+photo.7: https://www.instagram.com/p/BgeqAmTF64p/media/?size=m
 photo.7.author: animal_lifenyc
 photo.7.commitdate: 2018/10/7
 photo.7.link: https://www.instagram.com/animal_lifenyc/
-photo.7.tags: carry, tree
-photo.8: https://www.instagram.com/p/BfYxN7xH1Q1/media/?size=m
+photo.7.tags: profile, tree
+photo.8: https://www.instagram.com/p/BiHx1HulHWP/media/?size=m
 photo.8.author: animal_lifenyc
 photo.8.commitdate: 2018/10/7
 photo.8.link: https://www.instagram.com/animal_lifenyc/
-photo.8.tags: tree
-photo.9: https://www.instagram.com/p/BiHx1HulHWP/media/?size=m
+photo.8.tags: laying down, tree
+photo.9: https://www.instagram.com/p/Bk-korClP75/media/?size=m
 photo.9.author: animal_lifenyc
 photo.9.commitdate: 2018/10/7
 photo.9.link: https://www.instagram.com/animal_lifenyc/
-photo.9.tags: laying down, tree
-photo.10: https://www.instagram.com/p/BXButWnFFTO/media/?size=m
+photo.9.tags: panda bowl
+photo.10: https://www.instagram.com/p/Blix3Rqlb4T/media/?size=m
 photo.10.author: animal_lifenyc
-photo.10.commitdate: 2018/12/27
+photo.10.commitdate: 2018/10/7
 photo.10.link: https://www.instagram.com/animal_lifenyc/
-photo.10.tags: smile, tongue
+photo.10.tags: tree
 photo.11: https://www.instagram.com/p/Bt_hG2mlLa9/media/?size=m
 photo.11.author: animal_lifenyc
 photo.11.commitdate: 2019/2/19
@@ -87,10 +87,5 @@ photo.15.author: animal_lifenyc
 photo.15.commitdate: 2020/3/2
 photo.15.link: https://www.instagram.com/animal_lifenyc/
 photo.15.tags: bamboo, tail
-photo.16: https://www.instagram.com/p/BOVPeqCAV1U/media/?size=m
-photo.16.author: florianschwarz83
-photo.16.commitdate: 2020/3/25
-photo.16.link: https://www.instagram.com/florianschwarz83/
-photo.16.tags: close-up, portrait, whiskers
 species: 1
 zoo: 75
