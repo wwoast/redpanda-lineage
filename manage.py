@@ -477,7 +477,7 @@ def remove_duplicate_photo_uris_per_file():
                     print("deduplicated: %s (%s duplicated)" % (path, duplicate_count))
                     photo_list.renumber_photos(max)
                     photo_list.update_file()
-                    # sort_ig_hashes(path)
+                    sort_ig_hashes(path)
 
 def restore_author_to_lineage(author, prior_commit=None):
     """
