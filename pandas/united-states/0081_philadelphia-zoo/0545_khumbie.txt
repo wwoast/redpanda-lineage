@@ -14,52 +14,52 @@ language.order: en, jp
 litter: 641
 location.1: 141, 2014/6/14
 location.2: 81, 2015/11/23
-photo.1: https://www.instagram.com/p/BYYbKs4lWnc/media/?size=m
-photo.1.author: philadelphiazoo
-photo.1.commitdate: 2019/4/6
-photo.1.link: https://www.instagram.com/philadelphiazoo/
-photo.1.tags: bamboo, paws, profile, tail
-photo.2: https://www.instagram.com/p/BeZEpbxA74R/media/?size=m
+photo.1: https://www.instagram.com/p/BusBQMmBIDb/media/?size=m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/3/10
+photo.1.link: https://www.instagram.com/rossifari/
+photo.2: https://www.instagram.com/p/BtDwbZWFSHM/media/?size=m
 photo.2.author: philadelphiazoo
 photo.2.commitdate: 2019/4/6
 photo.2.link: https://www.instagram.com/philadelphiazoo/
-photo.3: https://www.instagram.com/p/Bru2chdjwbx/media/?size=m
+photo.2.tags: snow
+photo.3: https://www.instagram.com/p/BsDXfXqFqhv/media/?size=m
 photo.3.author: philadelphiazoo
-photo.3.commitdate: 2020/1/22
+photo.3.commitdate: 2019/4/6
 photo.3.link: https://www.instagram.com/philadelphiazoo/
-photo.3.tags: bamboo, portrait, smile
-photo.4: https://www.instagram.com/p/BsDXfXqFqhv/media/?size=m
+photo.4: https://www.instagram.com/p/BeZEpbxA74R/media/?size=m
 photo.4.author: philadelphiazoo
 photo.4.commitdate: 2019/4/6
 photo.4.link: https://www.instagram.com/philadelphiazoo/
-photo.5: https://www.instagram.com/p/BtDwbZWFSHM/media/?size=m
+photo.5: https://www.instagram.com/p/BYYbKs4lWnc/media/?size=m
 photo.5.author: philadelphiazoo
 photo.5.commitdate: 2019/4/6
 photo.5.link: https://www.instagram.com/philadelphiazoo/
-photo.5.tags: snow
-photo.6: https://www.instagram.com/p/BtDwbZWFSHM/media/?size=m
-photo.6.author: philadelphiazoo
-photo.6.commitdate: 2019/4/6
-photo.6.link: https://www.instagram.com/philadelphiazoo/
-photo.6.tags: portrait, snow, whiskers
-photo.7: https://www.instagram.com/p/BusBQMmBIDb/media/?size=m
+photo.5.tags: bamboo, paws, profile, tail
+photo.6: https://www.instagram.com/p/BxvU2D5jPNO/media/?size=m
+photo.6.author: rossifari
+photo.6.commitdate: 2019/5/22
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: sleeping
+photo.7: https://www.instagram.com/p/Byvp6BvJbbn/media/?size=m
 photo.7.author: rossifari
-photo.7.commitdate: 2019/3/10
+photo.7.commitdate: 2019/10/8
 photo.7.link: https://www.instagram.com/rossifari/
-photo.8: https://www.instagram.com/p/BxvU2D5jPNO/media/?size=m
-photo.8.author: rossifari
-photo.8.commitdate: 2019/5/22
-photo.8.link: https://www.instagram.com/rossifari/
-photo.8.tags: sleeping
-photo.9: https://www.instagram.com/p/ByulqZfoVXT/media/?size=m
+photo.7.tags: white face
+photo.8: https://www.instagram.com/p/ByulqZfoVXT/media/?size=m
+photo.8.author: philadelphiazoo
+photo.8.commitdate: 2020/1/22
+photo.8.link: https://www.instagram.com/philadelphiazoo/
+photo.8.tags: portrait, whiskers
+photo.9: https://www.instagram.com/p/Bru2chdjwbx/media/?size=m
 photo.9.author: philadelphiazoo
 photo.9.commitdate: 2020/1/22
 photo.9.link: https://www.instagram.com/philadelphiazoo/
-photo.9.tags: portrait, whiskers
-photo.10: https://www.instagram.com/p/Byvp6BvJbbn/media/?size=m
-photo.10.author: rossifari
-photo.10.commitdate: 2019/10/8
-photo.10.link: https://www.instagram.com/rossifari/
-photo.10.tags: white face
+photo.9.tags: bamboo, portrait, smile
+photo.10: https://www.instagram.com/p/BtDwbZWFSHM/media/?size=m
+photo.10.author: philadelphiazoo
+photo.10.commitdate: 2019/4/6
+photo.10.link: https://www.instagram.com/philadelphiazoo/
+photo.10.tags: portrait, snow, whiskers
 species: 1
 zoo: 81
