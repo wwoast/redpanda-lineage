@@ -428,6 +428,7 @@ def remove_duplicate_photo_uris_per_file():
                         duplicates[current_uri] = seen[current_uri]
                         # Remove from the photo list
                         photo_list.delete_photo(photo_index)
+                        photo_list.delete_photo(seen[current_uri]["old_index"])
                     elif current_uri in duplicates:
                         # We have something duplicated more than once
                         seen_date_value = photo_list.datetime_to_unixtime(duplicates[current_uri]["commitdate"])
@@ -446,6 +447,7 @@ def remove_duplicate_photo_uris_per_file():
                         photo_list.delete_photo(photo_index)
                     else:
                         seen[current_uri] = {}
+                        seen[current_uri]["oldindex"] = photo_index
                         seen[current_uri]["author"] = current_author
                         seen[current_uri]["commitdate"] = current_date
                         seen[current_uri]["link"] = current_link
