@@ -5,6 +5,7 @@
 # photos taken by a specific credited author.
 
 import configparser
+import datetime
 import git
 import json
 import os
@@ -58,6 +59,23 @@ class PhotoFile():
         self.config = ProperlyDelimitedConfigParser(default_section=self.section, delimiters=(':'))
         self.config.read(file_path, encoding="utf-8")
         self.file_path = file_path
+
+    def current_date_to_unixtime(self):
+        """
+        Find the unixtime for today's date, at 00:00 hours, for the sake of
+        doing one-week windows for new photo updates.
+        """
+        now = datetime.datetime.now()
+        datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
+        return self.datetime_to_unixtime(datestring)
+
+    def datetime_to_unixtime(self, commitdate):
+        """
+        Take an arbitrary YYYY/MM/DD string and convert it to unixtime, for
+        the purpose of determining if a photo was added to RPF during a specific
+        time window.
+        """
+        return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
         
     def has_field(self, field_name):
         return self.config.has_option(self.section, field_name)
@@ -358,6 +376,101 @@ def remove_photo_from_file(path, photo_id):
         photo_list.renumber_photos(max)
         photo_list.update_file()
 
+def remove_duplicate_photo_uris_per_file():
+    """
+    If a file has the same photo URI multiple times, make a new photo entry
+    with a union of the tags for each one, and the earlier commitdate.
+    TODO: support media duplicates
+    """
+    max = int(get_max_entity_count())
+    for file_path in [PANDA_PATH, ZOO_PATH]:
+        section = None
+        for section_name in ["zoos", "pandas"]:
+            if section_name in file_path.split("/"):
+                section = section_name.split("s")[0]   # HACK
+        # Enter the pandas subdirectories
+        for root, dirs, files in os.walk(file_path):
+            for filename in files:
+                path = root + os.sep + filename
+                # print(path)
+                photo_list = PhotoFile(section, path)
+                photo_count = photo_list.photo_count()
+                photo_index = 1
+                seen = {}
+                duplicates = {}
+                while (photo_index <= photo_count):
+                    current_option = "photo." + str(photo_index)
+                    current_uri = photo_list.get_field(current_option)
+                    current_author_option = current_option + ".author"
+                    current_author = photo_list.get_field(current_author_option)
+                    current_date_option = current_option + ".commitdate"
+                    current_date = photo_list.get_field(current_date_option)
+                    current_date_value = photo_list.datetime_to_unixtime(current_date)
+                    current_link_option = current_option + ".link"
+                    current_link = photo_list.get_field(current_link_option)
+                    current_tags_option = current_option + ".tags"
+                    current_tags = photo_list.get_field(current_tags_option)
+                    if current_uri in seen:
+                        # We have a duplicate
+                        seen_date_value = photo_list.datetime_to_unixtime(seen[current_uri]["commitdate"])
+                        seen_tags = seen[current_uri]["tags"]
+                        # Resolve dates and tags
+                        if (current_date_value < seen_date_value):
+                            seen[current_uri]["commitdate"] = current_date_value
+                        if seen_tags != None:
+                            tag_list = current_tags.split(", ") + seen_tags.split(", ")
+                            tag_list = sorted(list(dict.fromkeys(tag_list)))   # deduplicate tags
+                            seen[current_uri]["tags"] = ", ".join(tag_list)
+                        # Add to duplicates list in its current form
+                        duplicates[current_uri] = seen[current_uri]
+                        # Remove from the photo list
+                        photo_list.delete_photo(photo_index)
+                    elif current_uri in duplicates:
+                        # We have something duplicated more than once
+                        seen_date_value = photo_list.datetime_to_unixtime(duplicates[current_uri]["commitdate"])
+                        seen_tags = duplicates[current_uri]["tags"]
+                        # Resolve dates and tags
+                        if (current_date_value < seen_date_value):
+                            duplicates[current_uri]["commitdate"] = current_date_value
+                        if seen_tags != None:
+                            tag_list = current_tags.split(", ") + seen_tags.split(", ")
+                            tag_list = sorted(list(dict.fromkeys(tag_list)))   # deduplicate tags
+                            duplicates[current_uri]["tags"] = ", ".join(tag_list)
+                        # Remove from the photo list
+                        photo_list.delete_photo(photo_index)
+                    else:
+                        seen[current_uri] = {}
+                        seen[current_uri]["author"] = current_author
+                        seen[current_uri]["commitdate"] = current_date
+                        seen[current_uri]["link"] = current_link
+                        seen[current_uri]["tags"] = current_tags
+                    photo_index = photo_index + 1
+                for photo_uri in duplicates.keys():
+                    # Add duplicates back to photo file, starting at the newest index
+                    photo_option = "photo." + str(photo_index)
+                    author_option = photo_option + ".author"
+                    author = duplicates[photo_uri]["author"]
+                    date_option = photo_option + ".commitdate"
+                    date = duplicates[photo_uri]["commitdate"]
+                    link_option = photo_option + ".link"
+                    link = duplicates[photo_uri]["link"]
+                    tags_option = photo_option + ".tags"
+                    tags = duplicates[photo_uri]["tags"]
+                    photo_list.set_field(photo_option, photo_uri)
+                    photo_list.set_field(author_option, author)
+                    photo_list.set_field(date_option, date)
+                    photo_list.set_field(link_option, link)
+                    if (tags != None):
+                        photo_list.set_field(tags_option, tags)
+                    photo_index = photo_index + 1
+                # Update the file if there were any changes, and re-sort the hashes
+                duplicate_count = len(duplicates.keys())
+                if duplicate_count > 0:
+                    print("deduplicated: %s (%s duplicated)" % (path, duplicate_count))
+                    photo_list.renumber_photos(max)
+                    photo_list.update_file()
+                    sort_ig_hashes(path)
+
 def restore_author_to_lineage(author, prior_commit=None):
     """
     Find the most recent commit where photos by an author were removed.
@@ -651,6 +764,8 @@ if __name__ == '__main__':
             sort_ig_updates()
         if sys.argv[1] == "--update-photo-commit-dates":
             update_photo_commit_dates(None)
+        if sys.argv[1] == "--deduplicate-photo-uris":
+            remove_duplicate_photo_uris_per_file()
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
