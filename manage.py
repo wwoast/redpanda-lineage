@@ -447,7 +447,7 @@ def remove_duplicate_photo_uris_per_file():
                         photo_list.delete_photo(photo_index)
                     else:
                         seen[current_uri] = {}
-                        seen[current_uri]["oldindex"] = photo_index
+                        seen[current_uri]["old_index"] = photo_index
                         seen[current_uri]["author"] = current_author
                         seen[current_uri]["commitdate"] = current_date
                         seen[current_uri]["link"] = current_link
