@@ -417,7 +417,10 @@ def remove_duplicate_photo_uris_per_file():
                         # Resolve dates and tags
                         if (current_date_value < seen_date_value):
                             seen[current_uri]["commitdate"] = current_date_value
-                        if seen_tags != None:
+                        # Handle when either of the duplicates have no tags
+                        if seen_tags == None and current_tags != None:
+                            seen[current_uri]["tags"] = current_tags
+                        if seen_tags != None and current_tags != None: 
                             tag_list = current_tags.split(", ") + seen_tags.split(", ")
                             tag_list = sorted(list(dict.fromkeys(tag_list)))   # deduplicate tags
                             seen[current_uri]["tags"] = ", ".join(tag_list)
@@ -432,7 +435,10 @@ def remove_duplicate_photo_uris_per_file():
                         # Resolve dates and tags
                         if (current_date_value < seen_date_value):
                             duplicates[current_uri]["commitdate"] = current_date_value
-                        if seen_tags != None:
+                        # Handle when either of the duplicates have no tags
+                        if seen_tags == None and current_tags != None:
+                            seen[current_uri]["tags"] = current_tags
+                        if seen_tags != None and current_tags != None:
                             tag_list = current_tags.split(", ") + seen_tags.split(", ")
                             tag_list = sorted(list(dict.fromkeys(tag_list)))   # deduplicate tags
                             duplicates[current_uri]["tags"] = ", ".join(tag_list)
