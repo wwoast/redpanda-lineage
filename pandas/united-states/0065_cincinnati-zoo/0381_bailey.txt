@@ -26,24 +26,10 @@ photo.2.author: worldthathesees
 photo.2.commitdate: 2018/11/24
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: bamboo, snow, tail
-photo.3: https://www.instagram.com/p/Bp8PxGElGXq/media/?size=m
-photo.3.author: andersonkelleyphotography
-photo.3.commitdate: 2018/12/10
-photo.3.link: https://www.instagram.com/andersonkelleyphotography/
-photo.3.tags: profile, smile
-photo.4: https://www.instagram.com/p/BozDT2jnbK7/media/?size=m
-photo.4.author: andersonkelleyphotography
-photo.4.commitdate: 2018/12/10
-photo.4.link: https://www.instagram.com/andersonkelleyphotography/
-photo.5: https://www.instagram.com/p/BlPJbToHxFl/media/?size=m
-photo.5.author: andersonkelleyphotography
-photo.5.commitdate: 2018/12/10
-photo.5.link: https://www.instagram.com/andersonkelleyphotography/
-photo.5.tags: tongue
-photo.6: https://www.instagram.com/p/Bkv_eifnuoO/media/?size=m
-photo.6.author: andersonkelley
-photo.6.commitdate: 2019/7/28
-photo.6.link: https://www.instagram.com/andersonkelley/
-photo.6.tags: paws, tongue
+photo.3: https://www.instagram.com/p/Bkv_eifnuoO/media/?size=m
+photo.3.author: andersonkelley
+photo.3.commitdate: 2019/7/28
+photo.3.link: https://www.instagram.com/andersonkelley/
+photo.3.tags: paws, tongue
 species: 2
 zoo: 65

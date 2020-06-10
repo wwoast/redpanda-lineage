@@ -19,29 +19,25 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/23
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: profile, tree
-photo.2: https://www.instagram.com/p/Bqnt-26Ff6Y/media/?size=m
-photo.2.author: andersonkelleyphotography
-photo.2.commitdate: 2018/12/10
-photo.2.link: https://www.instagram.com/andersonkelleyphotography/
-photo.3: https://www.instagram.com/p/B2ckuipJO9v/media/?size=m
+photo.2: https://www.instagram.com/p/B2ckuipJO9v/media/?size=m
+photo.2.author: rossifari
+photo.2.commitdate: 2019/10/23
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: laying down, paws, tree
+photo.3: https://www.instagram.com/p/B2sCcEapZAn/media/?size=m
 photo.3.author: rossifari
-photo.3.commitdate: 2019/10/23
+photo.3.commitdate: 2019/12/5
 photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: laying down, paws, tree
-photo.4: https://www.instagram.com/p/B2sCcEapZAn/media/?size=m
-photo.4.author: rossifari
-photo.4.commitdate: 2019/12/5
-photo.4.link: https://www.instagram.com/rossifari/
-photo.4.tags: portrait, smile, whiskers
-photo.5: https://www.instagram.com/p/B6tXRbaB0s0/media/?size=m
+photo.3.tags: portrait, smile, whiskers
+photo.4: https://www.instagram.com/p/B6tXRbaB0s0/media/?size=m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/12/31
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: nose, portrait, whiskers
+photo.5: https://www.instagram.com/p/B6uI4kYhSeE/media/?size=m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/12/31
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: nose, portrait, whiskers
-photo.6: https://www.instagram.com/p/B6uI4kYhSeE/media/?size=m
-photo.6.author: worldthathesees
-photo.6.commitdate: 2019/12/31
-photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: bridge, peek, whiskers
+photo.5.tags: bridge, peek, whiskers
 species: 2
 zoo: 65
