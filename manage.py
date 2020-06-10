@@ -176,7 +176,7 @@ class PhotoFile():
         author_link = photo_option + ".link"
         author_tags = photo_option + ".tags"
         panda_tags = "panda.tags"
-        # print("DEBUG REMOVE: " + path + " -- " + photo_author + " -- " + photo_option)
+        print("deleting: " + self.file_path + " -- " + photo_option)
         self.delete_field(photo_option)
         self.delete_field(author_option)
         self.delete_field(author_commitdate)
@@ -475,7 +475,7 @@ def remove_duplicate_photo_uris_per_file():
                     print("deduplicated: %s (%s duplicated)" % (path, duplicate_count))
                     photo_list.renumber_photos(max)
                     photo_list.update_file()
-                    sort_ig_hashes(path)
+                    # sort_ig_hashes(path)
 
 def restore_author_to_lineage(author, prior_commit=None):
     """
