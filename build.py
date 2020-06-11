@@ -735,6 +735,7 @@ class UpdateFromCommits:
             if (seen_uris.get(uri) == None):
                 seen_uris[uri] = datestring
         for uri in seen_uris.copy().keys():
+            # print("DEBUG -- count -- %s" % uri)
             commitdate = self.datetime_to_unixtime(seen_uris[uri])
             lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
             if commitdate < lastweek:
@@ -794,6 +795,8 @@ class UpdateFromCommits:
         the purpose of determining if a photo was added to RPF during a specific
         time window.
         """
+        if commitdate == None:
+            return self.current_date_to_unixtime()
         return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
              
     def new_contributors(self, author_set):
