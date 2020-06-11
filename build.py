@@ -794,6 +794,8 @@ class UpdateFromCommits:
         the purpose of determining if a photo was added to RPF during a specific
         time window.
         """
+        if commitdate == None:
+            return self.current_date_to_unixtime()
         return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
              
     def new_contributors(self, author_set):
