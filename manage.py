@@ -711,7 +711,7 @@ def update_entity_commit_dates(starting_commit):
                 # Don't care about non-data files
                 continue
             elif change.is_added_file == True:
-                if ((path.find(PANDA_PATH) == -1) and (path.find(ZOO_PATH) == -1)):
+                if ((filename.find(PANDA_PATH) == -1) and (filename.find(ZOO_PATH) == -1)):
                     # Only dealing with panda and zoo files
                     continue
                 dt = repo.commit(end).committed_datetime
