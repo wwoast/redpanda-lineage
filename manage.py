@@ -726,6 +726,8 @@ def update_entity_commit_dates(starting_commit):
             else:
                 continue
     print(str(filename_to_commit_date))
+    print("---------")
+    print(str(type_id_to_commit_date))
     # Now walk the repo, find all panda files without commit dates,
     # and add commitdate to each photo that needs one
     for file_path in [PANDA_PATH, ZOO_PATH]:
@@ -737,7 +739,7 @@ def update_entity_commit_dates(starting_commit):
         for root, dirs, files in os.walk(file_path):
             for filename in files:
                 path = root + os.sep + filename
-                print(filename)
+                # print(filename)
                 photo_list = PhotoFile(section, path)
                 if photo_list.get_field("commitdate") == None:
                     if filename not in filename_to_commit_date:
