@@ -734,6 +734,7 @@ def update_entity_commit_dates(starting_commit):
                     if filename not in filename_to_commit_date:
                         # file's name was changed at some point
                         print("warning: %s may have been renamed, no commitdate added")
+                        continue
                     date = filename_to_commit_date[filename]
                     photo_list.set_field("commitdate", date)
                     photo_list.update_file()
