@@ -714,14 +714,14 @@ def update_entity_commit_dates(starting_commit):
                 date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                 just_file = filename.split("/").pop()
                 filename_to_commit_date[just_file] = date
-            else
+            else:
                 continue
     # print(str(filename_to_commit_date))
-    # Now walk the repo, find all files without commit dates,
+    # Now walk the repo, find all panda files without commit dates,
     # and add commitdate to each photo that needs one
-    for file_path in [PANDA_PATH, ZOO_PATH, MEDIA_PATH]:
+    for file_path in [PANDA_PATH, ZOO_PATH]:
         section = None
-        for section_name in ["media", "zoos", "pandas"]:
+        for section_name in ["zoos", "pandas"]:
             if section_name in file_path.split("/"):
                 section = section_name.split("s")[0]   # HACK
         # Enter the pandas subdirectories
@@ -731,6 +731,9 @@ def update_entity_commit_dates(starting_commit):
                 # print(path)
                 photo_list = PhotoFile(section, path)
                 if photo_list.get_field("commitdate") == None:
+                    if filename not in filename_to_commit_date:
+                        # file's name was changed at some point
+                        print("warning: %s may have been renamed, no commitdate added")
                     date = filename_to_commit_date[filename]
                     photo_list.set_field("commitdate", date)
                     photo_list.update_file()
