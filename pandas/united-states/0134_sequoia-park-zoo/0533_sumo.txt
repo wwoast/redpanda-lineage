@@ -19,17 +19,17 @@ photo.1: https://www.instagram.com/p/BryA6K-n72q/media/?size=m
 photo.1.author: ourrvtrip
 photo.1.commitdate: 2019/4/5
 photo.1.link: https://www.instagram.com/ourrvtrip/
-photo.1.tags: profile, white face
+photo.1.tags: portrait, profile, white face
 photo.2: https://www.instagram.com/p/BonREuRAiQL/media/?size=m
 photo.2.author: ninismells239
 photo.2.commitdate: 2019/4/5
 photo.2.link: https://www.instagram.com/ninismells239/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BjdnKQZHv4d/media/?size=m
 photo.3.author: ajlburke
 photo.3.commitdate: 2019/4/5
 photo.3.link: https://www.instagram.com/ajlburke/
-photo.3.tags: laying down
+photo.3.tags: laying down, portrait
 photo.4: https://www.instagram.com/p/BjDpZQhjPSn/media/?size=m
 photo.4.author: shittyasshole
 photo.4.commitdate: 2019/4/5
@@ -54,6 +54,7 @@ photo.8: https://www.instagram.com/p/BIGvR76gcMO/media/?size=m
 photo.8.author: jeanneknoch
 photo.8.commitdate: 2019/4/5
 photo.8.link: https://www.instagram.com/jeanneknoch/
+photo.8.tags: portrait
 photo.9: https://www.instagram.com/p/BJWqBqthkSc/media/?size=m
 photo.9.author: jaredfunk
 photo.9.commitdate: 2019/4/5

@@ -20,17 +20,17 @@ photo.1: https://www.instagram.com/p/Bh7O6YEn66Q/media/?size=m
 photo.1.author: millerparkzoo
 photo.1.commitdate: 2019/3/12
 photo.1.link: https://www.instagram.com/p/Bh7O6YEn66Q/media/?size=m
-photo.1.tags: tail, tree
+photo.1.tags: portrait, tail, tree
 photo.2: https://www.instagram.com/p/BHvEMOjAiwe/media/?size=m
 photo.2.author: worldthathesees
 photo.2.commitdate: 2019/3/17
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: bamboo
+photo.2.tags: bamboo, portrait
 photo.3: https://www.instagram.com/p/BHvEP2KAzWs/media/?size=m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2019/3/17
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: bamboo, profile, techitechi
+photo.3.tags: bamboo, portrait, profile, techitechi
 photo.4: https://www.instagram.com/p/BHvEVZxAYnG/media/?size=m
 photo.4.author: worldthathesees
 photo.4.commitdate: 2019/3/17
@@ -40,6 +40,7 @@ photo.5: https://www.instagram.com/p/BHvEcjIgT9w/media/?size=m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/3/17
 photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait
 photo.6: https://www.instagram.com/p/-p7LsKuWzq/media/?size=m
 photo.6.author: sequoiaparkzoo
 photo.6.commitdate: 2019/4/5
