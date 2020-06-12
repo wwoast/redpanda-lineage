@@ -3,6 +3,7 @@ _id: 123
 birthday: 2007/9/6
 birthplace: 18
 children: none
+commitdate: 2018/6/26
 death: 2019/7/29
 en.name: Kokoro
 en.nicknames: none

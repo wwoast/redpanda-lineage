@@ -3,6 +3,7 @@ _id: 303
 birthday: 2002/7/2
 birthplace: 17
 children: 11, 111, 265, 55, 56
+commitdate: 2018/8/12
 death: 2010/11/30
 en.name: Katsuo
 en.nicknames: none

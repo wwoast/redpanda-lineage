@@ -750,7 +750,7 @@ def update_entity_commit_dates(starting_commit):
                             just_type = "zoo"
                         just_key = just_type + "_" + just_id
                         if just_key not in type_id_to_commit_date:
-                            # print("warning: %s commitdate undetermined" % filename)
+                            print("warning: %s commitdate undetermined" % filename)
                             continue
                         else:
                             date = type_id_to_commit_date[just_key]
