@@ -754,7 +754,7 @@ def update_entity_commit_dates(starting_commit):
                             continue
                         else:
                             date = type_id_to_commit_date[just_key]
-                            photo_list.set_field("commitdate"), date
+                            photo_list.set_field("commitdate", date)
                     else:
                         date = filename_to_commit_date[filename]
                         photo_list.set_field("commitdate", date)
