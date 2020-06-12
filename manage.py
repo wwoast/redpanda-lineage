@@ -684,6 +684,7 @@ def update_entity_commit_dates(starting_commit):
     just for the hell of it.
     """
     filename_to_commit_date = {}
+    type_id_to_commit_date = {}
     repo = git.Repo(".")
     # List of sha1-name commits from the repo, oldest to newest
     commit_list = list(reversed(list(map(lambda x: x.hexsha, repo.iter_commits()))))
@@ -710,10 +711,18 @@ def update_entity_commit_dates(starting_commit):
                 # Don't care about non-data files
                 continue
             elif change.is_added_file == True:
+                if ((path.find(PANDA_PATH) == -1) and (path.find(ZOO_PATH) == -1)):
+                    # Only dealing with panda and zoo files
+                    continue
                 dt = repo.commit(end).committed_datetime
                 date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                 just_file = filename.split("/").pop()
+                just_type = "panda"
+                if (path.find(ZOO_PATH) == 0):
+                    just_type = "zoo"
+                just_id = just_file.split("_")[0]
                 filename_to_commit_date[just_file] = date
+                type_id_to_commit_date[just_panda + "_" + just_id] = date
             else:
                 continue
     # print(str(filename_to_commit_date))
@@ -733,10 +742,20 @@ def update_entity_commit_dates(starting_commit):
                 if photo_list.get_field("commitdate") == None:
                     if filename not in filename_to_commit_date:
                         # file's name was changed at some point
-                        print("warning: %s was likely renamed, so no commitdate added" % filename)
-                        continue
-                    date = filename_to_commit_date[filename]
-                    photo_list.set_field("commitdate", date)
+                        just_id = filename.split("_")[0]
+                        just_type = "panda"
+                        if path.find(ZOO_PATH) != -1:
+                            just_type = "zoo"
+                        just_key = just_type + "_" + just_id
+                        if just_key not in type_id_to_commit_date:
+                            print("warning: %s commitdate undetermined" % filename)
+                            continue
+                        else:
+                            date = type_id_to_commit_date[just_key]
+                            photo_list.set_field("commitdate"), date
+                    else:
+                        date = filename_to_commit_date[filename]
+                        photo_list.set_field("commitdate", date)
                     photo_list.update_file()
 
 def update_photo_commit_dates(starting_commit):
