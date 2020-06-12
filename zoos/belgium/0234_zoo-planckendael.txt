@@ -1,5 +1,6 @@
 [zoo]
 _id: 234
+commitdate: 2020/1/14
 en.address: Leuvensesteenweg 582, 2812 Mechelen, Belgium
 en.location: Mechelen, Belgium
 en.name: Zoo Planckendael

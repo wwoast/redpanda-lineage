@@ -671,8 +671,94 @@ def sort_ig_updates():
             continue
         elif change.added > 0:
             sort_ig_hashes(filename)
-    # Finish by adding photo commit dates
+    # Finish by adding entity and photo commit dates
+    update_entity_commit_dates(prior_commit.hexsha)
     update_photo_commit_dates(prior_commit.hexsha)
+
+def update_entity_commit_dates(starting_commit):
+    """
+    When moving pandas, the old redpandafinder updater logic considered "new" 
+    animals as anything that was a new file in a location. So when an animal
+    moved zoos, it became _new_ again. Rectify this by tracking when the
+    commitdate for each new animal is. Track commit dates for other files too,
+    just for the hell of it.
+    """
+    filename_to_commit_date = {}
+    type_id_to_commit_date = {}
+    repo = git.Repo(".")
+    # List of sha1-name commits from the repo, oldest to newest
+    commit_list = list(reversed(list(map(lambda x: x.hexsha, repo.iter_commits()))))
+    if starting_commit != None:
+        try:
+            index = commit_list.index(starting_commit)
+        except IndexError as e:
+            raise CommitError("%s not a valid commit in this repo." % starting_commit)
+        commit_list = commit_list[index:]   # All after, and including the given commit
+    for index, commitish in enumerate(commit_list):
+        # End of the commit list? Call it a day
+        if commitish == commit_list[len(commit_list) - 1]:
+            break
+        # Get the diff
+        start = commitish
+        end = commit_list[index + 1] 
+        diff_raw = repo.git.diff(start, end, 
+                                 ignore_blank_lines=True,
+                                 ignore_space_at_eol=True)
+        patch = PatchSet(diff_raw)
+        for change in patch:
+            filename = change.path
+            if filename.find(".txt") == -1:
+                # Don't care about non-data files
+                continue
+            elif change.is_added_file == True:
+                compare = "./" + filename
+                if ((compare.find(PANDA_PATH) == -1) and (compare.find(ZOO_PATH) == -1)):
+                    # Only dealing with panda and zoo files
+                    continue
+                dt = repo.commit(end).committed_datetime
+                date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
+                just_file = filename.split("/").pop()
+                just_type = "panda"
+                if (compare.find(ZOO_PATH) == 0):
+                    just_type = "zoo"
+                just_id = just_file.split("_")[0]
+                filename_to_commit_date[just_file] = date
+                type_id_to_commit_date[just_type + "_" + just_id] = date
+            else:
+                continue
+    # print(str(filename_to_commit_date))
+    # print(str(type_id_to_commit_date))
+    # Now walk the repo, find all panda files without commit dates,
+    # and add commitdate to each photo that needs one
+    for file_path in [PANDA_PATH, ZOO_PATH]:
+        section = None
+        for section_name in ["zoos", "pandas"]:
+            if section_name in file_path.split("/"):
+                section = section_name.split("s")[0]   # HACK
+        # Enter the pandas subdirectories
+        for root, dirs, files in os.walk(file_path):
+            for filename in files:
+                path = root + os.sep + filename
+                # print(filename)
+                photo_list = PhotoFile(section, path)
+                if photo_list.get_field("commitdate") == None:
+                    if filename not in filename_to_commit_date:
+                        # file's name was changed at some point
+                        just_id = filename.split("_")[0]
+                        just_type = "panda"
+                        if path.find(ZOO_PATH) != -1:
+                            just_type = "zoo"
+                        just_key = just_type + "_" + just_id
+                        if just_key not in type_id_to_commit_date:
+                            print("warning: %s commitdate undetermined" % filename)
+                            continue
+                        else:
+                            date = type_id_to_commit_date[just_key]
+                            photo_list.set_field("commitdate", date)
+                    else:
+                        date = filename_to_commit_date[filename]
+                        photo_list.set_field("commitdate", date)
+                    photo_list.update_file()
 
 def update_photo_commit_dates(starting_commit):
     """
@@ -770,7 +856,8 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
-        if sys.argv[1] == "--update-photo-commit-dates":
+        if sys.argv[1] == "--update-commit-dates":
+            update_entity_commit_dates(None)
             update_photo_commit_dates(None)
         if sys.argv[1] == "--deduplicate-photo-uris":
             remove_duplicate_photo_uris_per_file()
@@ -784,8 +871,9 @@ if __name__ == '__main__':
         if sys.argv[1] == "--sort-instagram-hashes":
             file_path = sys.argv[2]
             sort_ig_hashes(file_path)
-        if sys.argv[1] == "--update-photo-commit-dates":
+        if sys.argv[1] == "--update-commit-dates":
             commitish = sys.argv[2]
+            update_entity_commit_dates(commitish)
             update_photo_commit_dates(commitish)
     if len(sys.argv) == 4:
         if sys.argv[1] == "--remove-photo":
