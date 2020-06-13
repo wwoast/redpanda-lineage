@@ -695,16 +695,20 @@ def update_entity_commit_dates(starting_commit):
                 continue
             elif change.is_added_file == True:
                 compare = "./" + filename
-                if ((compare.find(PANDA_PATH) == -1) and (compare.find(ZOO_PATH) == -1)):
-                    # Only dealing with panda and zoo files
-                    continue
                 dt = repo.commit(end).committed_datetime
                 date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                 just_file = filename.split("/").pop()
-                just_type = "panda"
-                if (compare.find(ZOO_PATH) == 0):
+                just_type = None
+                just_id = None
+                if compare.find(PANDA_PATH) == 0:
+                    just_type = "panda"
+                    just_id = just_file.split("_")[0]
+                elif compare.find(ZOO_PATH) == 0:
                     just_type = "zoo"
-                just_id = just_file.split("_")[0]
+                    just_id = just_file.split("_")[0]
+                elif compare.find(MEDIA_PATH) == 0:
+                    just_type = "media"
+                    just_id = filename   # Need full path for media files
                 filename_to_commit_date[just_file] = date
                 type_id_to_commit_date[just_type + "_" + just_id] = date
             else:
@@ -713,24 +717,33 @@ def update_entity_commit_dates(starting_commit):
     # print(str(type_id_to_commit_date))
     # Now walk the repo, find all panda files without commit dates,
     # and add commitdate to each photo that needs one
-    for file_path in [PANDA_PATH, ZOO_PATH]:
+    for file_path in [MEDIA_PATH, PANDA_PATH, ZOO_PATH]:
         section = None
-        for section_name in ["zoos", "pandas"]:
+        for section_name in ["media", "zoos", "pandas"]:
             if section_name in file_path.split("/"):
                 section = section_name.split("s")[0]   # HACK
         # Enter the pandas subdirectories
         for root, dirs, files in os.walk(file_path):
             for filename in files:
                 path = root + os.sep + filename
+                compare = "./" + path
                 # print(filename)
                 photo_list = PhotoFile(section, path)
                 if photo_list.get_field("commitdate") == None:
                     if filename not in filename_to_commit_date:
                         # file's name was changed at some point
-                        just_id = filename.split("_")[0]
-                        just_type = "panda"
-                        if path.find(ZOO_PATH) != -1:
+                        just_file = filename.split("/").pop()
+                        just_type = None
+                        just_id = None
+                        if compare.find(PANDA_PATH) == 0:
+                            just_type = "panda"
+                            just_id = just_file.split("_")[0]
+                        elif compare.find(ZOO_PATH) == 0:
                             just_type = "zoo"
+                            just_id = just_file.split("_")[0]
+                        elif compare.find(MEDIA_PATH) == 0:
+                            just_type = "media"
+                            just_id = path   # Need full path for media files
                         just_key = just_type + "_" + just_id
                         if just_key not in type_id_to_commit_date:
                             print("warning: %s commitdate undetermined" % filename)
