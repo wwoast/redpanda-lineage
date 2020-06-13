@@ -727,7 +727,7 @@ def update_entity_commit_dates(starting_commit):
             for filename in files:
                 path = root + os.sep + filename
                 compare = "./" + path
-                # print(filename)
+                print(compare)
                 photo_list = PhotoFile(section, path)
                 if photo_list.get_field("commitdate") == None:
                     if filename not in filename_to_commit_date:
