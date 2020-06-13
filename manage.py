@@ -695,6 +695,7 @@ def update_entity_commit_dates(starting_commit):
                 continue
             elif change.is_added_file == True:
                 compare = "./" + filename
+                print(compare)
                 dt = repo.commit(end).committed_datetime
                 date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                 just_file = filename.split("/").pop()
@@ -709,6 +710,8 @@ def update_entity_commit_dates(starting_commit):
                 elif compare.find(MEDIA_PATH) == 0:
                     just_type = "media"
                     just_id = filename   # Need full path for media files
+                else:
+                    continue    # Not a file we're tracking commitdates for
                 filename_to_commit_date[just_file] = date
                 type_id_to_commit_date[just_type + "_" + just_id] = date
             else:
@@ -726,8 +729,6 @@ def update_entity_commit_dates(starting_commit):
         for root, dirs, files in os.walk(file_path):
             for filename in files:
                 path = root + os.sep + filename
-                compare = "./" + path
-                print(compare)
                 photo_list = PhotoFile(section, path)
                 if photo_list.get_field("commitdate") == None:
                     if filename not in filename_to_commit_date:
@@ -735,15 +736,17 @@ def update_entity_commit_dates(starting_commit):
                         just_file = filename.split("/").pop()
                         just_type = None
                         just_id = None
-                        if compare.find(PANDA_PATH) == 0:
+                        if path.find(PANDA_PATH) == 0:
                             just_type = "panda"
                             just_id = just_file.split("_")[0]
-                        elif compare.find(ZOO_PATH) == 0:
+                        elif path.find(ZOO_PATH) == 0:
                             just_type = "zoo"
                             just_id = just_file.split("_")[0]
-                        elif compare.find(MEDIA_PATH) == 0:
+                        elif path.find(MEDIA_PATH) == 0:
                             just_type = "media"
                             just_id = path   # Need full path for media files
+                        else:
+                            continue    # Not a file we're tracking commitdates for
                         just_key = just_type + "_" + just_id
                         if just_key not in type_id_to_commit_date:
                             print("warning: %s commitdate undetermined" % filename)
