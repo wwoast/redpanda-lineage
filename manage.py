@@ -13,7 +13,7 @@ import re
 import sys
 
 from collections import OrderedDict
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SectionNameError
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, SectionNameError, datetime_to_unixtime
 from unidiff import PatchSet
 
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
@@ -60,23 +60,6 @@ class PhotoFile():
         self.config.read(file_path, encoding="utf-8")
         self.file_path = file_path
 
-    def current_date_to_unixtime(self):
-        """
-        Find the unixtime for today's date, at 00:00 hours, for the sake of
-        doing one-week windows for new photo updates.
-        """
-        now = datetime.datetime.now()
-        datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
-        return self.datetime_to_unixtime(datestring)
-
-    def datetime_to_unixtime(self, commitdate):
-        """
-        Take an arbitrary YYYY/MM/DD string and convert it to unixtime, for
-        the purpose of determining if a photo was added to RPF during a specific
-        time window.
-        """
-        return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
-        
     def has_field(self, field_name):
         return self.config.has_option(self.section, field_name)
 
@@ -405,14 +388,14 @@ def remove_duplicate_photo_uris_per_file():
                     current_author = photo_list.get_field(current_author_option)
                     current_date_option = current_option + ".commitdate"
                     current_date = photo_list.get_field(current_date_option)
-                    current_date_value = photo_list.datetime_to_unixtime(current_date)
+                    current_date_value = datetime_to_unixtime(current_date)
                     current_link_option = current_option + ".link"
                     current_link = photo_list.get_field(current_link_option)
                     current_tags_option = current_option + ".tags"
                     current_tags = photo_list.get_field(current_tags_option)
                     if current_uri in seen:
                         # We have a duplicate
-                        seen_date_value = photo_list.datetime_to_unixtime(seen[current_uri]["commitdate"])
+                        seen_date_value = datetime_to_unixtime(seen[current_uri]["commitdate"])
                         seen_tags = seen[current_uri]["tags"]
                         # Resolve dates and tags
                         if (current_date_value < seen_date_value):
@@ -431,7 +414,7 @@ def remove_duplicate_photo_uris_per_file():
                         photo_list.delete_photo(seen[current_uri]["old_index"])
                     elif current_uri in duplicates:
                         # We have something duplicated more than once
-                        seen_date_value = photo_list.datetime_to_unixtime(duplicates[current_uri]["commitdate"])
+                        seen_date_value = datetime_to_unixtime(duplicates[current_uri]["commitdate"])
                         seen_tags = duplicates[current_uri]["tags"]
                         # Resolve dates and tags
                         if (current_date_value < seen_date_value):

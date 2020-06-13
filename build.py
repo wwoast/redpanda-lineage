@@ -735,8 +735,8 @@ class UpdateFromCommits:
             if (seen_uris.get(uri) == None):
                 seen_uris[uri] = datestring
         for uri in seen_uris.copy().keys():
-            commitdate = self.datetime_to_unixtime(seen_uris[uri])
-            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            commitdate = datetime_to_unixtime(seen_uris[uri])
+            lastweek = current_date_to_unixtime() - 604800   # Seconds in a week
             if commitdate < lastweek:
                 # Filter out where commitdate of a photo is older than a week
                 seen_uris.pop(uri)
@@ -778,25 +778,6 @@ class UpdateFromCommits:
                 # Not in the counted new photo list, so remove it
                 self.locator_to_photo.pop(locator)
         self.updates["photos"] = list(self.locator_to_photo.keys())
-
-    def current_date_to_unixtime(self):
-        """
-        Find the unixtime for today's date, at 00:00 hours, for the sake of
-        doing one-week windows for new photo updates.
-        """
-        now = datetime.datetime.now()
-        datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
-        return self.datetime_to_unixtime(datestring)
-
-    def datetime_to_unixtime(self, commitdate):
-        """
-        Take an arbitrary YYYY/MM/DD string and convert it to unixtime, for
-        the purpose of determining if a photo was added to RPF during a specific
-        time window.
-        """
-        if commitdate == None:
-            return self.current_date_to_unixtime()
-        return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
              
     def new_contributors(self, author_set):
         """
@@ -813,8 +794,8 @@ class UpdateFromCommits:
         # redpanda.json for how many photos theat
         for locator in self.locator_to_photo.keys():
             author = self.locator_to_photo[locator].author_name
-            commitdate = self.datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
-            lastweek = self.current_date_to_unixtime() - 604800   # Seconds in a week
+            commitdate = datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
+            lastweek = current_date_to_unixtime() - 604800   # Seconds in a week
             if commitdate >= lastweek:
                 # Just an addition
                 if (author_diffs.get(author) == None):
