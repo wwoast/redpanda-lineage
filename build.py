@@ -782,9 +782,9 @@ class UpdateFromCommits:
             if commitstamp > lastweek:
                 self.updates["zoos"] = self.updates["zoos"] + locators
                 self.updates["entities"] = self.updates["entities"] + locators
-        # Any media items that appear, consider them as new since these files
-        # should never relocate within the directory schema, and therefore
-        # don't track commitdates for the entities themselves.
+        # If this is a new media item, add it to our counts. Media items
+        # shouldn't move, but we give them commitdate fields anyways just
+        # to keep the logic for newness checks consistent with other files.
         for media_id in self.seen["media"]:
             locators = self.seen["media"][media_id]
             commitdate = self.entity_to_commit_date["media." + media_id]
