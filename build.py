@@ -602,6 +602,7 @@ class PhotoEntry:
         self.cache = cache
         self.author_name = None
         self.commitdate = None
+        self.entity_commitdate = None
         self.entity_id = None
         self.entity_type = None
         self.photo_index = None
@@ -665,12 +666,15 @@ class PhotoEntry:
                 entity = config.get("media", "_id")
                 self.entity_type = entity.split(".")[0]
                 self.entity_id = entity[len(self.entity_type) + 1:]
+                self.entity_commitdate = config.get("media", "commitdate")
             elif self.filename.find(PANDA_PATH) != -1:
                 self.entity_type = "panda"
                 self.entity_id = config.get("panda", "_id")
+                self.entity_commitdate = config.get("panda", "commitdate")
             elif self.filename.find(ZOO_PATH) != -1:
                 self.entity_type = "zoo"
                 self.entity_id = config.get("zoo", "_id")
+                self.entity_commitdate = config.get("zoo", "commitdate")
             else:
                 pass
 
@@ -703,6 +707,7 @@ class UpdateFromCommits:
         self.patch = PatchSet(self.diff_raw)
         self.locator_to_photo = {}
         self.filename_to_entity = {}
+        self.entity_to_commit_date = {}
         self.seen = {}
         self.seen["media"] = {}
         self.seen["panda"] = {}
@@ -722,10 +727,8 @@ class UpdateFromCommits:
 
     def count_new_photos(self):
         """
-        Given the locator_to_photo map, find all PhotoEntry photo_uri values
-        that are duplicated across PhotoEntry values. Record just the list
-        of changes on these values.
-        TODO: could hunt for photo duplicates here too.
+        Given the locator_to_photo map, check the commitdates of each photo.
+        If it's older than a week, ignore it.
         """
         seen_uris = {}
         # Get list of changes per photo locator
@@ -756,22 +759,41 @@ class UpdateFromCommits:
             elif change.added <= 0:
                 # Don't care about lines we removed
                 continue
-            elif change.is_added_file == True:
-                # New [media|panda|zoo]! Track change as representing a new entity
-                for hunk in change:
-                    for line in hunk:
-                        if line.is_added:
-                            self._process_raw_line(filename, line.value, added=True, counting=True)
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
                     for line in hunk:
                         if line.is_added:
-                            self._process_raw_line(filename, line.value, added=True, counting=False)
+                            self._process_raw_line(filename, line.value)
+        # If this is a new panda, add it to our counts
+        lastweek = current_date_to_unixtime() - 604800
+        for panda_id in self.seen["panda"].keys():
+            locators = self.seen["panda"][panda_id]
+            commitdate = self.entity_to_commit_date["panda." + panda_id]
+            commitstamp = datetime_to_unixtime(commitdate)
+            if commitstamp > lastweek:
+                self.updates["pandas"] = self.updates["pandas"] + locators
+                self.updates["entities"] = self.updates["entities"] + locators
+        # If this is a new zoo, add it to our counts
+        for zoo_id in self.seen["zoo"]:
+            locators = self.seen["zoo"][zoo_id]
+            commitdate = self.entity_to_commit_date["zoo." + zoo_id]
+            commitstamp = datetime_to_unixtime(commitdate)
+            if commitstamp > lastweek:
+                self.updates["zoos"] = self.updates["zoos"] + locators
+                self.updates["entities"] = self.updates["entities"] + locators
+        # Any media items that appear, consider them as new since these files
+        # should never relocate within the directory schema, and therefore
+        # don't track commitdates for the entities themselves.
+        for media_id in self.seen["media"]:
+            locators = self.seen["media"][media_id]
+            commitdate = self.entity_to_commit_date["media." + media_id]
+            commitstamp = datetime_to_unixtime(commitdate)
+            if commitstamp > lastweek:
+                self.updates["entities"] = self.updates["entities"] + locators
         self.updates["panda_count"] = len(self.updates["pandas"])
         self.updates["zoo_count"] = len(self.updates["zoos"])
-        # Take locator_to_photo results, and de-duplicate based on whether
-        # the photo existed in multiple diffs/files or not
+        # Calculate the commitdates of all the photo locators themselves
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
             if self.locator_to_photo[locator].photo_uri not in self.seen["photos"].keys():
@@ -828,7 +850,7 @@ class UpdateFromCommits:
             if author_diffs[author] > 0:
                 self.updates["author_count"] = self.updates["author_count"] + 1
 
-    def _process_raw_line(self, filename, raw, added=True, counting=False):
+    def _process_raw_line(self, filename, raw):
         """
         Annoying code where we use the PhotoEntry object to create locators
         for where an entity or a photo might already exist in our lookup
@@ -864,19 +886,11 @@ class UpdateFromCommits:
             actual = stub
             self.filename_to_entity[filename] = entity
             self.locator_to_photo[locator] = actual
-        # If this is a new entity, add it to our counts
-        if (self.seen[actual.entity_type].get(actual.entity_id) != True and
-            counting == True):
-            if actual.entity_type == "panda":
-                self.updates["pandas"].append(locator)
-                self.updates["entities"].append(locator)
-            if actual.entity_type == "zoo":
-                self.updates["zoos"].append(locator)
-                self.updates["entities"].append(locator)
-            if actual.entity_type == "media":
-                self.updates["entities"].append(locator)
-        if added == True:
-            self.seen[actual.entity_type][actual.entity_id] = True
+            self.entity_to_commit_date[entity] = actual.entity_commitdate
+            self.seen[actual.entity_type][actual.entity_id] = []
+        # The seen object tracks a list of locators for an id
+        if locator not in self.seen[actual.entity_type][actual.entity_id]:
+            self.seen[actual.entity_type][actual.entity_id].append(locator)
 
     def _starting_commit(self, time_delta):
         """
