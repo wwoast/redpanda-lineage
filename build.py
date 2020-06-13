@@ -666,6 +666,7 @@ class PhotoEntry:
                 entity = config.get("media", "_id")
                 self.entity_type = entity.split(".")[0]
                 self.entity_id = entity[len(self.entity_type) + 1:]
+                self.entity_commitdate = config.get("media", "commitdate")
             elif self.filename.find(PANDA_PATH) != -1:
                 self.entity_type = "panda"
                 self.entity_id = config.get("panda", "_id")
@@ -765,12 +766,12 @@ class UpdateFromCommits:
                         if line.is_added:
                             self._process_raw_line(filename, line.value)
         # If this is a new panda, add it to our counts
-        weekstamp = current_date_to_unixtime() - 604800
+        lastweek = current_date_to_unixtime() - 604800
         for panda_id in self.seen["panda"].keys():
             locators = self.seen["panda"][panda_id]
             commitdate = self.entity_to_commit_date["panda." + panda_id]
             commitstamp = datetime_to_unixtime(commitdate)
-            if commitstamp > weekstamp:
+            if commitstamp > lastweek:
                 self.updates["pandas"] = self.updates["pandas"] + locators
                 self.updates["entities"] = self.updates["entities"] + locators
         # If this is a new zoo, add it to our counts
@@ -778,7 +779,7 @@ class UpdateFromCommits:
             locators = self.seen["zoo"][zoo_id]
             commitdate = self.entity_to_commit_date["panda." + panda_id]
             commitstamp = datetime_to_unixtime(commitdate)
-            if commitstamp > weekstamp:
+            if commitstamp > lastweek:
                 self.updates["zoos"] = self.updates["zoos"] + locators
                 self.updates["entities"] = self.updates["entities"] + locators
         # Any media items that appear, consider them as new since these files
@@ -788,7 +789,7 @@ class UpdateFromCommits:
             locators = self.seen["media"][media_id]
             commitdate = self.entity_to_commit_date["media." + media_id]
             commitstamp = datetime_to_unixtime(commitdate)
-            if commitstamp > weekstamp:
+            if commitstamp > lastweek:
                 self.updates["entities"] = self.updates["entities"] + locators
         self.updates["panda_count"] = len(self.updates["pandas"])
         self.updates["zoo_count"] = len(self.updates["zoos"])
