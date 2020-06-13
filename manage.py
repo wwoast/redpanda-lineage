@@ -695,7 +695,6 @@ def update_entity_commit_dates(starting_commit):
                 continue
             elif change.is_added_file == True:
                 compare = "./" + filename
-                print(compare)
                 dt = repo.commit(end).committed_datetime
                 date = str(dt.year) + "/" + str(dt.month) + "/" + str(dt.day)
                 just_file = filename.split("/").pop()
