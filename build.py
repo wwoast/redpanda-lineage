@@ -786,7 +786,10 @@ class UpdateFromCommits:
         # don't track commitdates for the entities themselves.
         for media_id in self.seen["media"]:
             locators = self.seen["media"][media_id]
-            self.updates["entities"] = self.updates["entities"] + locators
+            commitdate = self.entity_to_commit_date["media." + media_id]
+            commitstamp = datetime_to_unixtime(commitdate)
+            if commitstamp > weekstamp:
+                self.updates["entities"] = self.updates["entities"] + locators
         self.updates["panda_count"] = len(self.updates["pandas"])
         self.updates["zoo_count"] = len(self.updates["zoos"])
         # Calculate the commitdates of all the photo locators themselves
