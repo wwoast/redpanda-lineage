@@ -777,7 +777,7 @@ class UpdateFromCommits:
         # If this is a new zoo, add it to our counts
         for zoo_id in self.seen["zoo"]:
             locators = self.seen["zoo"][zoo_id]
-            commitdate = self.entity_to_commit_date["panda." + panda_id]
+            commitdate = self.entity_to_commit_date["zoo." + zoo_id]
             commitstamp = datetime_to_unixtime(commitdate)
             if commitstamp > lastweek:
                 self.updates["zoos"] = self.updates["zoos"] + locators
