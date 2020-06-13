@@ -889,7 +889,8 @@ class UpdateFromCommits:
             self.entity_to_commit_date[entity] = actual.entity_commitdate
             self.seen[actual.entity_type][actual.entity_id] = []
         # The seen object tracks a list of locators for an id
-        self.seen[actual.entity_type][actual.entity_id].append(locator)
+        if locator not in self.seen[actual.entity_type][actual.entity_id]:
+            self.seen[actual.entity_type][actual.entity_id].append(locator)
 
     def _starting_commit(self, time_delta):
         """
