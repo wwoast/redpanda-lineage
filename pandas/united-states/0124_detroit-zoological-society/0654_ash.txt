@@ -19,12 +19,12 @@ photo.1: https://www.instagram.com/p/Bs6LOjFgTfV/media/?size=m
 photo.1.author: detroitzoo
 photo.1.commitdate: 2019/5/7
 photo.1.link: https://www.instagram.com/detroitzoo/
-photo.1.tags: tree
+photo.1.tags: portrait, profile, tree
 photo.2: https://www.instagram.com/p/BubnMI8lGZl/media/?size=m
 photo.2.author: detroitzoo
 photo.2.commitdate: 2019/5/7
 photo.2.link: https://www.instagram.com/detroitzoo/
-photo.2.tags: profile, snow, tree
+photo.2.tags: snow, tree
 photo.3: https://www.instagram.com/p/BwHpunFgHfZ/media/?size=m
 photo.3.author: detroitzoo
 photo.3.commitdate: 2019/5/7
@@ -58,7 +58,7 @@ photo.9: https://www.instagram.com/p/B2rMzqmAu1i/media/?size=m
 photo.9.author: detroitzoo
 photo.9.commitdate: 2019/12/2
 photo.9.link: https://www.instagram.com/detroitzoo/
-photo.9.tags: peek, whiskers
+photo.9.tags: peek, portrait, whiskers
 photo.10: https://www.instagram.com/p/B35JY_Cp8bC/media/?size=m
 photo.10.author: detroitzoo
 photo.10.commitdate: 2019/12/2

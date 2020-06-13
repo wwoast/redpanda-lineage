@@ -24,12 +24,12 @@ photo.2: https://www.instagram.com/p/BARFr1CR0ts/media/?size=m
 photo.2.author: ngsbiopark
 photo.2.commitdate: 2018/12/26
 photo.2.link: https://www.instagram.com/ngsbiopark/
-photo.2.tags: tail
+photo.2.tags: portrait, tail
 photo.3: https://www.instagram.com/p/Bd-MvcOnkfb/media/?size=m
 photo.3.author: sbskyy
 photo.3.commitdate: 2018/12/26
 photo.3.link: https://www.instagram.com/sbskyy/
-photo.3.tags: potrait, profile, tree
+photo.3.tags: portrait, profile, tree
 photo.4: https://www.instagram.com/p/BX-egkWAP3N/media/?size=m
 photo.4.author: sbskyy
 photo.4.commitdate: 2018/12/26
@@ -38,5 +38,6 @@ photo.5: https://www.instagram.com/p/BgxDSbtFje8/media/?size=m
 photo.5.author: mochi_pine1733
 photo.5.commitdate: 2018/12/26
 photo.5.link: https://www.instagram.com/mochi_pine1733/
+photo.5.tags: portrait
 species: 2
 zoo: 3
