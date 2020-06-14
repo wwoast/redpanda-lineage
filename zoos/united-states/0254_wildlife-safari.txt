@@ -1,0 +1,12 @@
+[zoo]
+_id: 254
+commitdate: 2020/6/14
+en.address: 1790 Safari Rd, Winston, OR 97496
+en.location: Winston, Oregon, USA
+en.name: Winston Wildlife Safari
+flag: USA
+language.order: en
+latitude: 43.1373478
+longitude: -123.4383512
+map: https://g.page/WildlifeSafariOregon?share
+website: https://wildlifesafari.net/
