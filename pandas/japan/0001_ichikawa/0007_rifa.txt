@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/10
 en.name: Rifa
 en.nicknames: none
-en.othernames: Li-hua, Ri-fa
+en.othernames: Li-hua, Ri-fa, Riifa
 gender: f
 jp.name: 梨花
 jp.nicknames: none
@@ -345,4 +345,6 @@ photo.67.commitdate: 2020/2/18
 photo.67.link: https://www.instagram.com/_rifa_p/
 photo.67.tags: bridge, tail
 species: 2
+studbook.id: 13147
+studbook.name: Riifa
 zoo: 1
