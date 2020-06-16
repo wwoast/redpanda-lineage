@@ -816,10 +816,12 @@ class UpdateFromCommits:
         # redpanda.json for how many photos theat
         for locator in self.locator_to_photo.keys():
             author = self.locator_to_photo[locator].author_name
-            commitdate = datetime_to_unixtime(self.locator_to_photo[locator].commitdate)
+            commitdate = self.locator_to_photo[locator].commitdate
+            commitstamp = datetime_to_unixtime(commitdate)
             lastweek = current_date_to_unixtime() - 604800   # Seconds in a week
-            if commitdate >= lastweek:
+            if commitstamp >= lastweek:
                 # Just an addition
+                print(locator + ": " + str(author) + ": " + str(commitdate))
                 if (author_diffs.get(author) == None):
                     author_diffs[author] = 0
                     author_entities[author] = []
