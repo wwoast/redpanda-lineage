@@ -775,8 +775,10 @@ class UpdateFromCommits:
             commitstamp = datetime_to_unixtime(commitdate)
             if commitstamp > lastweek:
                 self.updates["entities"] = self.updates["entities"] + locators
-        self.updates["panda_count"] = len(self.updates["pandas"])
-        self.updates["zoo_count"] = len(self.updates["zoos"])
+        panda_entities = [".".join(p.split(".")[0:2]) for p in self.updates["pandas"]]
+        self.updates["panda_count"] = len(list(set(panda_entities)))
+        zoo_entities = [".".join(z.split(".")[0:2]) for z in self.updates["zoos"]]
+        self.updates["zoo_count"] = len(list(set(zoo_entities)))
         # Calculate the commitdates of all the photo locators themselves
         self.seen["photos"] = self.count_new_photos()
         for locator in self.locator_to_photo.copy().keys():
