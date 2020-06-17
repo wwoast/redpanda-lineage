@@ -628,7 +628,6 @@ class PhotoEntry:
         key = raw.split(":")[0]
         photo_uri = raw[len(key) + 1:].strip()
         photo_index = key.split(".")[1]
-        print("index %s uri %s" % (photo_index, photo_uri))
         config = configparser.ConfigParser()
         self.filename = "./" + self.filename   # Standardize path
         if not os.path.exists(self.filename):
@@ -692,7 +691,6 @@ class UpdateFromCommits:
                                            ignore_space_at_eol=True)
         self.patch = PatchSet(self.diff_raw)
         self.locator_to_photo = {}
-        self.filename_to_entity = {}
         self.entity_to_commit_date = {}
         self.seen = {}
         self.seen["media"] = {}
@@ -808,7 +806,7 @@ class UpdateFromCommits:
             lastweek = current_date_to_unixtime() - 604800   # Seconds in a week
             if commitstamp >= lastweek:
                 # Just an addition
-                print(locator + ": " + str(author) + ": " + str(commitdate) + " <:> " + str(entity_commitdate))
+                # print(locator + ": " + str(author) + ": " + str(commitdate) + " <:> " + str(entity_commitdate))
                 if (author_diffs.get(author) == None):
                     author_diffs[author] = 0
                     author_entities[author] = []
@@ -857,12 +855,12 @@ class UpdateFromCommits:
         # read in an update from this file before
         photo = PhotoEntry(filename, raw)
         entity = photo.entity_locator()
-        print(entity + " ==> " + raw)
         locator = photo.photo_locator()
         self.locator_to_photo[locator] = photo
         # Track which entities we've seen, as lists of photo locators
         if photo.entity_id not in self.seen[photo.entity_type]:
             self.seen[photo.entity_type][photo.entity_id] = []
+            self.entity_to_commit_date[photo.entity_type + "." + photo.entity_id] = photo.entity_commitdate
         self.seen[photo.entity_type][photo.entity_id].append(locator)
 
     def _starting_commit(self, time_delta):
