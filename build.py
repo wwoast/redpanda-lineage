@@ -8,6 +8,7 @@ import datetime
 import git
 import json
 import os
+import re
 import sys
 import time
 
@@ -597,9 +598,8 @@ class PhotoEntry:
     Stores a reference to a filename cache, so we avoid rereading
     configuration files every time a new locator is validated.
     """
-    def __init__(self, filename, cache, raw):
+    def __init__(self, filename, raw):
         self.filename = filename
-        self.cache = cache
         self.author_name = None
         self.commitdate = None
         self.entity_commitdate = None
@@ -607,86 +607,72 @@ class PhotoEntry:
         self.entity_type = None
         self.photo_index = None
         self.photo_uri = None
-        self.was_cached = False
         # Read in the entity details from the backing file just once
-        self._read_update_entity_id()
-        # Add the raw line, so we know what the photo locator is
-        self.add_raw_line(raw)
+        self._read_update_entity_id(raw)
     
-    def add_raw_line(self, raw):
-        """
-        Read the raw line and return a corresponding entity ID to track
-        in one of the "media|panda|zoo" object tables. We're specifically
-        looking for updates matching the form: "photo.X: url".
-        """
-        key = raw.split(":")[0]
-        value = raw[len(key) + 1:].strip()
-        if key.find("photo.") == 0:
-            splitkey = key.split(".")
-            self._set_only_once("photo_index", splitkey[1])
-            if len(splitkey) == 2:
-                self._set_only_once("photo_uri", value)
-            elif (len(splitkey) == 3 and splitkey[2] == "author"):
-                self._set_only_once("author_name", value)
-            elif (len(splitkey) == 3 and splitkey[2] == "commitdate"):
-                self._set_only_once("commitdate", value)
-
     def entity_locator(self):
         return self.entity_type + "." + self.entity_id
 
     def photo_locator(self):
         return self.entity_locator() + ".photo." + self.photo_index
 
-    def _read_update_entity_id(self):
+    def _read_update_entity_id(self, raw):
         """
         Open the config file and read its _id value.
         Store the entity_type and entity_id for each photo.
+        
+        Read the raw line and return a corresponding entity ID to track
+        in one of the "media|panda|zoo" object tables. We're specifically
+        looking for updates matching the form: "photo.X: url".
         """
-        if self.filename in self.cache:
-            self.entity_type = self.cache[self.filename].split(".")[0]
-            self.entity_id = self.cache[self.filename][len(self.entity_type) + 1:]
-            self.was_cached = True
-        else:
-            config = configparser.ConfigParser()
-            self.filename = "./" + self.filename   # Standardize path
-            if not os.path.exists(self.filename):
-                # Fallback to filename number and path for entity
-                # This is a hack for when files are renamed
-                if self.filename.find(MEDIA_PATH) != -1:
-                    self.entity_type = "media"
-                elif self.filename.find(PANDA_PATH) != -1:
-                    self.entity_type = "panda"
-                elif self.filename.find(ZOO_PATH) != -1:
-                    self.entity_type = "zoo"
-                # Consider whole path, and remove leading zeroes from id
-                self.entity_id = self.filename.split("/").pop().split("_")[0].lstrip("0")
-                return
-            config.read(self.filename, encoding='utf-8')
+        key = raw.split(":")[0]
+        photo_uri = raw[len(key) + 1:].strip()
+        photo_index = key.split(".")[1]
+        print("index %s uri %s" % (photo_index, photo_uri))
+        config = configparser.ConfigParser()
+        self.filename = "./" + self.filename   # Standardize path
+        if not os.path.exists(self.filename):
+            # Fallback to filename number and path for entity
+            # This is a hack for when files are renamed
             if self.filename.find(MEDIA_PATH) != -1:
-                entity = config.get("media", "_id")
-                self.entity_type = entity.split(".")[0]
-                self.entity_id = entity[len(self.entity_type) + 1:]
-                self.entity_commitdate = config.get("media", "commitdate")
+                self.entity_type = "media"
             elif self.filename.find(PANDA_PATH) != -1:
                 self.entity_type = "panda"
-                self.entity_id = config.get("panda", "_id")
-                self.entity_commitdate = config.get("panda", "commitdate")
             elif self.filename.find(ZOO_PATH) != -1:
                 self.entity_type = "zoo"
-                self.entity_id = config.get("zoo", "_id")
-                self.entity_commitdate = config.get("zoo", "commitdate")
-            else:
-                pass
-
-    def _set_only_once(self, object_field, value):
-        """
-        If a non-None value already exists in the object,
-        don't update that field a second time.
-        """
-        existing = getattr(self, object_field)
-        if existing == None:
-            setattr(self, object_field, str(value))
-
+            # Consider whole path, and remove leading zeroes from id
+            self.entity_id = self.filename.split("/").pop().split("_")[0].lstrip("0")
+            # Other items will be entered as None
+            return
+        # Set all values based on entity and photo info        
+        config.read(self.filename, encoding='utf-8')
+        if self.filename.find(MEDIA_PATH) != -1:
+            entity = config.get("media", "_id")
+            self.entity_type = entity.split(".")[0]
+            self.entity_id = entity[len(self.entity_type) + 1:]
+            self.entity_commitdate = config.get("media", "commitdate")
+            self.author_name = config.get("media", key + ".author")
+            self.commitdate = config.get("media", key + ".commitdate")
+            self.photo_index = photo_index
+            self.photo_uri = photo_uri
+        elif self.filename.find(PANDA_PATH) != -1:
+            self.entity_type = "panda"
+            self.entity_id = config.get("panda", "_id")
+            self.entity_commitdate = config.get("panda", "commitdate")
+            self.author_name = config.get("panda", key + ".author")
+            self.commitdate = config.get("panda", key + ".commitdate")
+            self.photo_index = photo_index
+            self.photo_uri = photo_uri
+        elif self.filename.find(ZOO_PATH) != -1:
+            self.entity_type = "zoo"
+            self.entity_id = config.get("zoo", "_id")
+            self.entity_commitdate = config.get("zoo", "commitdate")
+            self.author_name = config.get("zoo", key + ".author")
+            self.commitdate = config.get("zoo", key + ".commitdate")
+            self.photo_index = photo_index
+            self.photo_uri = photo_uri
+        else:
+            pass
 
 class UpdateFromCommits:
     """
@@ -816,12 +802,13 @@ class UpdateFromCommits:
         # redpanda.json for how many photos theat
         for locator in self.locator_to_photo.keys():
             author = self.locator_to_photo[locator].author_name
+            entity_commitdate = self.locator_to_photo[locator].entity_commitdate
             commitdate = self.locator_to_photo[locator].commitdate
             commitstamp = datetime_to_unixtime(commitdate)
             lastweek = current_date_to_unixtime() - 604800   # Seconds in a week
             if commitstamp >= lastweek:
                 # Just an addition
-                print(locator + ": " + str(author) + ": " + str(commitdate))
+                print(locator + ": " + str(author) + ": " + str(commitdate) + " <:> " + str(entity_commitdate))
                 if (author_diffs.get(author) == None):
                     author_diffs[author] = 0
                     author_entities[author] = []
@@ -862,37 +849,21 @@ class UpdateFromCommits:
         the photo cache for lines representing a facet of a photo we haven't
         seen before.
         """
-        # Raw lines destined for photo objects need at least this
-        if (raw.find("photo.") != 0 or raw.find(":") == -1):
+        # Match the actual photo lines that were added
+        if re.match("photo.\d+:", raw) == None:
             return
         raw = raw.strip()
         # Create a stub photo entry to validate whether we've
         # read in an update from this file before
-        stub = PhotoEntry(filename, self.filename_to_entity, raw)
-        actual = None
-        entity = stub.entity_locator()
-        # print(entity + " ==> " + raw)
-        locator = stub.photo_locator()
-        if stub.was_cached == True:
-            # We read something from this file before
-            actual = self.locator_to_photo.get(locator)
-            if actual == None:
-                # New photo processed. Promote stub
-                actual = stub
-                self.locator_to_photo[locator] = actual
-            else:
-                # Add the raw line to an existing photo item
-                actual.add_raw_line(raw)
-        else:
-            # New filename read, and new photo object. Promote stub
-            actual = stub
-            self.filename_to_entity[filename] = entity
-            self.locator_to_photo[locator] = actual
-            self.entity_to_commit_date[entity] = actual.entity_commitdate
-            self.seen[actual.entity_type][actual.entity_id] = []
-        # The seen object tracks a list of locators for an id
-        if locator not in self.seen[actual.entity_type][actual.entity_id]:
-            self.seen[actual.entity_type][actual.entity_id].append(locator)
+        photo = PhotoEntry(filename, raw)
+        entity = photo.entity_locator()
+        print(entity + " ==> " + raw)
+        locator = photo.photo_locator()
+        self.locator_to_photo[locator] = photo
+        # Track which entities we've seen, as lists of photo locators
+        if photo.entity_id not in self.seen[photo.entity_type]:
+            self.seen[photo.entity_type][photo.entity_id] = []
+        self.seen[photo.entity_type][photo.entity_id].append(locator)
 
     def _starting_commit(self, time_delta):
         """
