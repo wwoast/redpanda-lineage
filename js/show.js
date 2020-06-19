@@ -15,14 +15,14 @@ Show.acquirePandaInfo = function(animal, language) {
      "birthplace": Pandas.myZoo(animal, "birthplace", language),
        "children": Pandas.searchPandaChildren(animal["_id"]),
           "death": Pandas.date(animal, "death", language),
-            "dad": Pandas.searchPandaDad(animal["_id"])[0],
+            "dad": Pandas.searchPandaDad(animal["_id"]),
          "gender": Pandas.gender(animal, language),
        "get_name": language + ".name",
              "id": animal["_id"],
        "language": language,
  "language_order": Pandas.language_order(animal),
          "litter": Pandas.searchLitter(animal["_id"]),
-            "mom": Pandas.searchPandaMom(animal["_id"])[0],
+            "mom": Pandas.searchPandaMom(animal["_id"]),
            "name": Pandas.myName(animal, language),
      "othernames": Pandas.othernames(animal, language),
           "photo": picture['photo'],
@@ -1520,22 +1520,33 @@ Show.profile.family = function(animal, language) {
   elements.push(message);
   var photos = Pandas.searchPhotoProfileImmediateFamily(animal["_id"]);
   // Start with mom and dad, and then a self photo, and then littermates.
-  var mom_photo = undefined;
-  if (info.mom != undefined) {
-    var mom_photo = photos.filter(x => x["id"] == info["mom"]["_id"])[0];
-    var mom = Gallery.familyProfilePhoto(info["mom"], mom_photo, language, L.gui.mother[language], "immediateFamily");
-    photo_divs.push(mom);
+  var mom_photos = [];
+  for (let mom of info.mom) {
+    if (mom != undefined) {
+      var mom_photo = photos.filter(x => x["id"] == mom["_id"])[0];
+      mom_photos = mom_photos.concat(mom_photo);
+      var mom_entry = Gallery.familyProfilePhoto(mom, mom_photo, language, L.gui.mother[language], "immediateFamily");
+      photo_divs.push(mom_entry);
+    }
   }
-  var dad_photo = undefined;
-  if (info.dad != undefined) {
-    var dad_photo = photos.filter(x => x["id"] == info["dad"]["_id"])[0];
-    var dad = Gallery.familyProfilePhoto(info["dad"], dad_photo, language, L.gui.father[language], "immediateFamily");
-    photo_divs.push(dad);
+  var dad_photos = [];
+  for (let dad of info.dad) {
+    if (dad != undefined) {
+      var dad_photo = photos.filter(x => x["id"] == dad["_id"])[0];
+      dad_photos = dad_photos.concat(dad_photo);
+      var dad_entry = Gallery.familyProfilePhoto(dad, dad_photo, language, L.gui.father[language], "immediateFamily");
+      photo_divs.push(dad_entry);
+    }
   }
   var me_photo = photos.filter(x => x["id"] == info["id"])[0];
   var me = Gallery.familyProfilePhoto(animal, me_photo, language, L.gui.me[language], "immediateFamily");
   photo_divs.push(me);
-  var litter_photos = photos.filter(x => (x != mom_photo && x != dad_photo && x != me_photo));
+  var other_family_ids = mom_photos.concat(dad_photos).concat(me_photo).map(x => x.id);
+  var litter_photos = photos.filter(function(photo) {
+    if (other_family_ids.indexOf(photo["id"]) == -1) {
+      return true;
+    }
+  });
   for (let litter_photo of litter_photos) {
     var subHeading = L.gui.twin[language];
     if (litter_photos.length == 2) {
@@ -2138,28 +2149,40 @@ Show.results.parents = function(info) {
   heading.innerText = L.gui.parents[info.language];
   var ul = document.createElement('ul');
   ul.className = "pandaList" + " " + info.language;
-  var mom_li = document.createElement('li');
-  var mom_link = "";
-  if (info.mom != undefined) {
-    mom_link = Show.animalLink(info.mom, info.mom[info.get_name],
-                               info.language, ["mom_icon", "live_icon"]);
+  var mom_links = [];
+  if (info.mom.length > 0) {
+    for (let mom of info.mom) {
+      mom_link = Show.animalLink(mom, mom[info.get_name],
+                                 info.language, ["mom_icon", "live_icon"]);
+      mom_links.push(mom_link)
+    }
   } else {
     mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
                                info.language, ["mom_icon"])
+    mom_links.push(mom_link);
   }
-  mom_li.appendChild(mom_link);
-  ul.appendChild(mom_li);
-  var dad_li = document.createElement('li');
-  var dad_link = "";
-  if (info.dad != undefined) {
-    dad_link = Show.animalLink(info.dad, info.dad[info.get_name], 
-                               info.language, ["dad_icon", "live_icon"]);
+  for (let mom_link of mom_links) {
+    var mom_li = document.createElement('li');
+    mom_li.appendChild(mom_link);
+    ul.appendChild(mom_li);
+  }
+  var dad_links = [];
+  if (info.dad.length > 0) {
+    for (let dad of dad_links) {
+      dad_link = Show.animalLink(dad, dad[info.get_name], 
+                                 info.language, ["dad_icon", "live_icon"]);
+      dad_links.push(dad_link);
+    }
   } else {
     dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
-                               info.language, ["dad_icon"])
+                               info.language, ["dad_icon"]);
+    dad_links.push(dad_link);
   }
-  dad_li.appendChild(dad_link);
-  ul.appendChild(dad_li);
+  for (let dad_link of dad_links) {
+    var dad_li = document.createElement('li');
+    dad_li.appendChild(dad_link);
+    ul.appendChild(dad_li);
+  }
   var parents = document.createElement('div');
   parents.className = 'parents';
   parents.appendChild(heading);

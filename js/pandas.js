@@ -1661,8 +1661,15 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
 }
 
 // If both animals don't share parents, and neither animal's parents
-// are in an undefined/unknown situation, they are half siblings
+// are in an undefined/unknown situation, they are half siblings.
+// Also, if a panda has multiple "possible" moms or dads, it's impossible
+// to truly say whether you have a haf sibling or not.
 Pandas.halfSiblings = function(animal, sibling) {
+  // Indeterminate mom/dad check means your half sibling calculations
+  // are impossible. You just can't know for sure.
+  if (Pandas.indeterminateSiblings(animal, sibling) == true) {
+    return false;
+  }
   var animal_mom = Pandas.searchPandaMom(animal["_id"])[0];
   var animal_dad = Pandas.searchPandaDad(animal["_id"])[0];
   var sibling_mom = Pandas.searchPandaMom(sibling["_id"])[0];
@@ -1682,6 +1689,8 @@ Pandas.halfSiblings = function(animal, sibling) {
   if (animal_dad != undefined) {
     mydad_year = parseInt(Pandas.formatYear(animal_dad["birthday"], L.display));
   }
+  // Conditions where you can defer half-sibling relationships based on whether
+  // your siblings are older than either your mom or dad
   if (((animal_mom == undefined) || (animal_dad == undefined) || 
        (sibling_mom == undefined) || (sibling_dad == undefined)) &&
       ((sibling_year <= mymom_year) || (sibling_year <= mydad_year))) {
@@ -1692,6 +1701,21 @@ Pandas.halfSiblings = function(animal, sibling) {
   return (!((animal_mom == sibling_mom) && (animal_dad == sibling_dad)) &&
            ((animal_mom != undefined) && (animal_dad != undefined)) &&
            ((sibling_mom != undefined) && (sibling_dad != undefined)));
+}
+
+// If an animal has more than one possible parent, it can make it hard
+// to determine parent or sibling relationships. 
+Pandas.indeterminateSiblings = function(animal, sibling) {
+  var animal_moms = Pandas.searchPandaMom(animal["_id"]);
+  var animal_dads = Pandas.searchPandaDad(animal["_id"]);
+  var sibling_moms = Pandas.searchPandaMom(sibling["_id"]);
+  var sibling_dads = Pandas.searchPandaDad(sibling["_id"]);
+
+  if ((animal_moms.length > 1) || (animal_dads.length > 1) ||
+      (sibling_moms.length > 1) || (sibling_dads.length > 1)) {
+    return true;
+  }
+  return false;
 }
 
 // Return the language order as an array

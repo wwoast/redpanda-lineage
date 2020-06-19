@@ -182,6 +182,7 @@ Language.L.emoji = {
           "pray": "🙏",
        "profile": "💟",
        "pumpkin": "🎃",
+      "question": "❓",
  "range_current": "⏳",
 "range_previous": "⌛",
         "random": "🎲",
@@ -2234,11 +2235,17 @@ Language.L.fallbackInfo = function(info, original) {
   if ((info.birthplace != undefined) && (info.birthplace != Pandas.def.zoo)) {
     bundle.birthplace = this.fallbackEntity(info.birthplace);
   }
-  if ((info.mom != undefined) && (info.mom != Pandas.def.animal)) {
-    bundle.mom = this.fallbackEntity(info.mom);
+  for (let index in info.mom) {
+    if ((info.mom[index] != undefined) && 
+        (info.mom[index] != Pandas.def.animal)) {
+      info.mom[index] = this.fallbackEntity(info.mom[index]);
+    }
   }
-  if ((info.dad != undefined) && (info.dad != Pandas.def.animal)) {
-    bundle.dad = this.fallbackEntity(info.dad);
+  for (let index in info.dad) {
+    if ((info.dad[index] != undefined) && 
+        (info.dad[index] != Pandas.def.animal)) {
+      info.dad[index] = this.fallbackEntity(info.dad[index]);
+    }      
   }
   for (let index in info.litter) {
     if ((info.litter[index] != undefined) && 
