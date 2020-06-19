@@ -334,7 +334,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
       emojis = "\u200A" + L.emoji.profile;
     }
     if (multiple == true) {
-      emojis = "\u200A" + L.emoji.question;
+      emojis = L.emoji.question;
     }
     if (animal["death"] != undefined) {
       emojis = emojis + "\u200A" + L.emoji.died;
