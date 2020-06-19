@@ -283,7 +283,7 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
 */
 // Create a profile page frame for a single animal, give it a nametag, and
 // additionally, give it a relationship value.
-Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationship, frame_class) {
+Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationship, frame_class, multiple=false) {
   var info = Show.acquirePandaInfo(animal, language);
   // The overall container
   var container = document.createElement('div');
@@ -332,6 +332,9 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     var emojis = "";
     if (relationship == L.gui.me[language]) {
       emojis = "\u200A" + L.emoji.profile;
+    }
+    if (multiple == true) {
+      emojis = L.emoji.question;
     }
     if (animal["death"] != undefined) {
       emojis = emojis + "\u200A" + L.emoji.died;
