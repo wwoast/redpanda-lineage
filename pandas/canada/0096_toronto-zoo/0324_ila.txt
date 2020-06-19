@@ -1,6 +1,6 @@
 [panda]
 _id: 324
-birthday: 2018/6/21
+birthday: 2018/6/19
 birthplace: 67
 children: none
 commitdate: 2018/8/31
@@ -14,7 +14,7 @@ jp.oldnames: none
 jp.othernames: none
 language.order: en, jp
 litter: 325
-location.1: 67, 2018/6/21
+location.1: 67, 2018/6/19
 location.2: 96, 2019/9/18
 photo.1: https://www.instagram.com/p/BqsNO_pF-Jt/media/?size=m
 photo.1.author: carsontheredpanda

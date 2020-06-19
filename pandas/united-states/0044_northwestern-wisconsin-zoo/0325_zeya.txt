@@ -1,6 +1,6 @@
 [panda]
 _id: 325
-birthday: 2018/6/21
+birthday: 2018/6/19
 birthplace: 67
 children: none
 commitdate: 2018/8/31
@@ -14,7 +14,7 @@ jp.oldnames: none
 jp.othernames: none
 language.order: en, jp
 litter: 324
-location.1: 67, 2018/6/21
+location.1: 67, 2018/6/19
 location.2: 44, 2019/4/14
 photo.1: https://www.instagram.com/p/BltrMMnnf4m/media/?size=m
 photo.1.author: woodlandparkzoo
