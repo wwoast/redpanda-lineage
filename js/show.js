@@ -1428,7 +1428,8 @@ Show.profile.children = function(animal, language) {
   for (let photo of photos) {
     var child = info.children.filter(x => x["_id"] == photo["id"])[0];
     var birth_year = Pandas.formatYear(child["birthday"]);
-    var div = Gallery.familyProfilePhoto(child, photo, language, birth_year);
+    var indeterminate = Pandas.indeterminateParent(animal["_id"], child["_id"])
+    var div = Gallery.familyProfilePhoto(child, photo, language, birth_year, undefined, indeterminate);
     photo_divs.push(div);
   }
   var container = document.createElement('div');
@@ -1695,7 +1696,8 @@ Show.profile.siblings = function(animal, language) {
     if (Pandas.halfSiblings(animal, sibling)) {
       subHeading = subHeading + "\u200A" + "(½)";
     }
-    var div = Gallery.familyProfilePhoto(sibling, photo, language, subHeading);
+    var indeterminate = Pandas.indeterminateSiblings(animal["_id"], sibling["_id"])
+    var div = Gallery.familyProfilePhoto(sibling, photo, language, subHeading, undefined, indeterminate);
     photo_divs.push(div);
   }
   var container = document.createElement('div');
@@ -1814,8 +1816,13 @@ Show.results.children = function(info) {
   ul.className = "pandaList" + " " + info.language;
   for (index in Pandas.sortOldestToYoungest(info.children)) {
     var animal = info.children[index];
+    // Check if animal has multiple possible moms/dads
+    var icon_list = ["child_icon", "live_icon"]
+    if (Pandas.indeterminateParent(info.id, animal["_id"]) == true) {
+      icon_list.push("question_icon");
+    }
     var children_link = Show.animalLink(animal, animal[info.get_name], 
-                                        info.language, ["child_icon", "live_icon"])
+                                        info.language, icon_list);
     var li = document.createElement('li');
     li.appendChild(children_link);
     ul.appendChild(li);
@@ -2226,12 +2233,15 @@ Show.results.siblings = function(info) {
   for (index in Pandas.sortOldestToYoungest(info.siblings)) {
     var myself = Pandas.searchPandaId(info.id)[0];
     var animal = info.siblings[index];
-    var options = ["child_icon", "live_icon"];
+    var icon_list = ["child_icon", "live_icon"];
     if (Pandas.halfSiblings(myself, animal)) {
-      options.push("half_icon");
+      icon_list.push("half_icon");
+    }
+    if (Pandas.indeterminateSiblings(info.id, animal["_id"]) == true) {
+      icon_list.push("question_icon");
     }
     var siblings_link = Show.animalLink(animal, animal[info.get_name], 
-                                        info.language, options);
+                                        info.language, icon_list);
     var li = document.createElement('li');
     li.appendChild(siblings_link);
     ul.appendChild(li);

@@ -1667,7 +1667,7 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
 Pandas.halfSiblings = function(animal, sibling) {
   // Indeterminate mom/dad check means your half sibling calculations
   // are impossible. You just can't know for sure.
-  if (Pandas.indeterminateSiblings(animal, sibling) == true) {
+  if (Pandas.indeterminateSiblings(animal["_id"], sibling["_id"]) == true) {
     return false;
   }
   var animal_mom = Pandas.searchPandaMom(animal["_id"])[0];
@@ -1703,13 +1703,24 @@ Pandas.halfSiblings = function(animal, sibling) {
            ((sibling_mom != undefined) && (sibling_dad != undefined)));
 }
 
+// Check whether this animal's child has more than one parent of the same
+// gender listed.
+Pandas.indeterminateParent = function(parent_id, child_id) {
+  var parent_gender = Pandas.searchPandaId(parent_id)[0].gender;
+  if (parent_gender = "m") {
+    return Pandas.searchPandaDad(child_id).length > 1;
+  } else {
+    return Pandas.searchPandaMom(child_id).length > 1;
+  }
+}
+
 // If an animal has more than one possible parent, it can make it hard
 // to determine parent or sibling relationships. 
-Pandas.indeterminateSiblings = function(animal, sibling) {
-  var animal_moms = Pandas.searchPandaMom(animal["_id"]);
-  var animal_dads = Pandas.searchPandaDad(animal["_id"]);
-  var sibling_moms = Pandas.searchPandaMom(sibling["_id"]);
-  var sibling_dads = Pandas.searchPandaDad(sibling["_id"]);
+Pandas.indeterminateSiblings = function(animal_id, sibling_id) {
+  var animal_moms = Pandas.searchPandaMom(animal_id);
+  var animal_dads = Pandas.searchPandaDad(animal_id);
+  var sibling_moms = Pandas.searchPandaMom(sibling_id);
+  var sibling_dads = Pandas.searchPandaDad(sibling_id);
 
   if ((animal_moms.length > 1) || (animal_dads.length > 1) ||
       (sibling_moms.length > 1) || (sibling_dads.length > 1)) {
