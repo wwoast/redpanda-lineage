@@ -407,15 +407,30 @@ class RedPandaGraph:
                     zoo_edge['_in'] = zoo_id
                     zoo_edge['_label'] = field[0]
                     panda_edges.append(zoo_edge)
-            elif field[0].find("children") != -1:   
+            elif field[0].find("children") != -1:
+                # Partial parentage info
+                if field[1].find("/") != -1:
+                    children = field[1].split(",")
+                    for child_possible in children:
+                        # keep inner whitespace
+                        child_possible = child_possible.strip()
+                        child_id = child_possible.split(" ")[0]
+                        child_percent = child_possible.split(" ")[-1]
+                        panda_edge = {}
+                        panda_edge['_out'] = panda_id
+                        panda_edge['_in'] = child_id
+                        panda_edge['_label'] = "family"
+                        panda_edge['probability'] = child_percent
+                        panda_edges.append(panda_edge)
                 # Process children IDs
-                children = field[1].replace(" ","").split(",")
-                for child_id in children:
-                    panda_edge = {}
-                    panda_edge['_out'] = panda_id
-                    panda_edge['_in'] = child_id
-                    panda_edge['_label'] = "family"
-                    panda_edges.append(panda_edge)
+                else:
+                    children = field[1].replace(" ","").split(",")
+                    for child_id in children:
+                        panda_edge = {}
+                        panda_edge['_out'] = panda_id
+                        panda_edge['_in'] = child_id
+                        panda_edge['_label'] = "family"
+                        panda_edges.append(panda_edge)
             elif field[0].find("litter") != -1:   
                 # Process whether pandas were in the same litter or not
                 litter = field[1].replace(" ","").split(",")
