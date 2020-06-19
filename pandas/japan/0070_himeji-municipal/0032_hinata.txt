@@ -48,44 +48,39 @@ photo.7: https://www.instagram.com/p/Bk78hVhl6AQ/media/?size=m
 photo.7.author: love__mitarashi
 photo.7.commitdate: 2018/7/20
 photo.7.link: https://www.instagram.com/love__mitarashi/
-photo.8: https://www.instagram.com/p/Bk-TxCZhHod/media/?size=m
-photo.8.author: capylife_
-photo.8.commitdate: 2020/5/27
-photo.8.link: https://www.instagram.com/capylife_/
-photo.8.tags: portrait
-photo.9: https://www.instagram.com/p/ByqCkKphAwP/media/?size=m
-photo.9.author: akiakiakiko18
-photo.9.commitdate: 2019/6/16
-photo.9.link: https://www.instagram.com/akiakiakiko18/
-photo.10: https://www.instagram.com/p/BzxpbIBB07n/media/?size=m
-photo.10.author: polarbear_zoo
-photo.10.commitdate: 2020/5/27
-photo.10.link: https://www.instagram.com/polarbear_zoo/
-photo.10.tags: laying down, mofumofu, portrait
-photo.11: https://www.instagram.com/p/B28jy6JhZtf/media/?size=m
+photo.8: https://www.instagram.com/p/ByqCkKphAwP/media/?size=m
+photo.8.author: akiakiakiko18
+photo.8.commitdate: 2019/6/16
+photo.8.link: https://www.instagram.com/akiakiakiko18/
+photo.9: https://www.instagram.com/p/BzxpbIBB07n/media/?size=m
+photo.9.author: polarbear_zoo
+photo.9.commitdate: 2020/5/27
+photo.9.link: https://www.instagram.com/polarbear_zoo/
+photo.9.tags: laying down, mofumofu, portrait
+photo.10: https://www.instagram.com/p/B28jy6JhZtf/media/?size=m
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2019/10/8
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: bamboo, tongue
+photo.11: https://www.instagram.com/p/B2_IiPCB-LZ/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.commitdate: 2019/10/8
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: bamboo, tongue
-photo.12: https://www.instagram.com/p/B2_IiPCB-LZ/media/?size=m
-photo.12.author: love__mitarashi
-photo.12.commitdate: 2019/10/8
-photo.12.link: https://www.instagram.com/love__mitarashi/
-photo.12.tags: laying down, portrait, smile
-photo.13: https://www.instagram.com/p/B4rouXWBG8k/media/?size=m
-photo.13.author: chankunvv
-photo.13.commitdate: 2019/11/12
-photo.13.link: https://www.instagram.com/chankunvv/
-photo.13.tags: portrait
-photo.14: https://www.instagram.com/p/B4vhvPlBKYg/media/?size=m
-photo.14.author: motohin
-photo.14.commitdate: 2019/11/15
-photo.14.link: https://www.instagram.com/motohin/
-photo.14.tags: laying down, portrait, smile
-photo.15: https://www.instagram.com/p/B585dMTh_zi/media/?size=m
-photo.15.author: yossi929
-photo.15.commitdate: 2020/1/25
-photo.15.link: https://www.instagram.com/yossi929/
-photo.15.tags: portrait
+photo.11.tags: laying down, portrait, smile
+photo.12: https://www.instagram.com/p/B4rouXWBG8k/media/?size=m
+photo.12.author: chankunvv
+photo.12.commitdate: 2019/11/12
+photo.12.link: https://www.instagram.com/chankunvv/
+photo.12.tags: portrait
+photo.13: https://www.instagram.com/p/B4vhvPlBKYg/media/?size=m
+photo.13.author: motohin
+photo.13.commitdate: 2019/11/15
+photo.13.link: https://www.instagram.com/motohin/
+photo.13.tags: laying down, portrait, smile
+photo.14: https://www.instagram.com/p/B585dMTh_zi/media/?size=m
+photo.14.author: yossi929
+photo.14.commitdate: 2020/1/25
+photo.14.link: https://www.instagram.com/yossi929/
+photo.14.tags: portrait
 species: 2
 zoo: 70
