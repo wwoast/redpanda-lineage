@@ -137,6 +137,10 @@ Show.animalLink = function(animal, link_text, language, options) {
   if (options.indexOf("dad_icon") != -1) {
     gender_text = L.emoji.father + "\xa0";
   }
+  // Multiple possible moms or dads?
+  if (options.indexOf("question_icon") != -1) {
+    gender_text = gender_text.replace("\xa0", "") + Language.L.emoji.question + "\xa0";
+  }
   // Half siblings indicator
   if (options.indexOf("half_icon") != -1) {
     trailing_text = trailing_text + "\u200A" + "½"
@@ -1525,7 +1529,9 @@ Show.profile.family = function(animal, language) {
     if (mom != undefined) {
       var mom_photo = photos.filter(x => x["id"] == mom["_id"])[0];
       mom_photos = mom_photos.concat(mom_photo);
-      var mom_entry = Gallery.familyProfilePhoto(mom, mom_photo, language, L.gui.mother[language], "immediateFamily");
+      var mom_entry = Gallery.familyProfilePhoto(
+        mom, mom_photo, language, L.gui.mother[language],
+        "immediateFamily", info.mom.length > 1);
       photo_divs.push(mom_entry);
     }
   }
@@ -1534,7 +1540,9 @@ Show.profile.family = function(animal, language) {
     if (dad != undefined) {
       var dad_photo = photos.filter(x => x["id"] == dad["_id"])[0];
       dad_photos = dad_photos.concat(dad_photo);
-      var dad_entry = Gallery.familyProfilePhoto(dad, dad_photo, language, L.gui.father[language], "immediateFamily");
+      var dad_entry = Gallery.familyProfilePhoto(
+        dad, dad_photo, language, L.gui.father[language],
+        "immediateFamily", info.dad.length > 1);
       photo_divs.push(dad_entry);
     }
   }
@@ -1825,7 +1833,7 @@ Show.results.family = function(info) {
   // at the bottom of a family dossier.
   var family = document.createElement('div');
   family.className = "family";
-  if ((info.dad == undefined && info.mom == undefined) &&
+  if ((info.dad.length == 0 && info.mom.length == 0) &&
       (info.litter.length == 0) &&
       (info.siblings.length == 0) &&
       (info.children.length == 0))  {
@@ -1835,7 +1843,7 @@ Show.results.family = function(info) {
   var litter = undefined;
   var siblings = undefined;
   var children = undefined;
-  if (info.dad != undefined || info.mom != undefined) {
+  if (info.dad.length > 0 || info.mom.length > 0) {
     parents = Show.results.parents(info);
   }
   if (info.litter.length > 0) {
@@ -2152,13 +2160,17 @@ Show.results.parents = function(info) {
   var mom_links = [];
   if (info.mom.length > 0) {
     for (let mom of info.mom) {
-      mom_link = Show.animalLink(mom, mom[info.get_name],
-                                 info.language, ["mom_icon", "live_icon"]);
+      var icon_list = ["mom_icon", "live_icon"];
+      if (info.mom.length > 1) {
+        icon_list.push("question_icon");
+      }
+      var mom_link = Show.animalLink(mom, mom[info.get_name],
+                                     info.language, icon_list);
       mom_links.push(mom_link)
     }
   } else {
-    mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
-                               info.language, ["mom_icon"])
+    var mom_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
+                                   info.language, ["mom_icon"])
     mom_links.push(mom_link);
   }
   for (let mom_link of mom_links) {
@@ -2168,14 +2180,18 @@ Show.results.parents = function(info) {
   }
   var dad_links = [];
   if (info.dad.length > 0) {
-    for (let dad of dad_links) {
-      dad_link = Show.animalLink(dad, dad[info.get_name], 
-                                 info.language, ["dad_icon", "live_icon"]);
+    for (let dad of info.dad) {
+      var icon_list = ["dad_icon", "live_icon"];
+      if (info.dad.length > 1) {
+        icon_list.push("question_icon");
+      }
+      var dad_link = Show.animalLink(dad, dad[info.get_name], 
+                                     info.language, icon_list);
       dad_links.push(dad_link);
     }
   } else {
-    dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
-                               info.language, ["dad_icon"]);
+    var dad_link = Show.animalLink(Pandas.def.animal, Pandas.def.no_name[info.language],
+                                   info.language, ["dad_icon"]);
     dad_links.push(dad_link);
   }
   for (let dad_link of dad_links) {

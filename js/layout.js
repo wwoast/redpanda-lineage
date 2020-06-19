@@ -16,7 +16,9 @@ Layout.init = function(family, info, parents, litter, siblings, children) {
   var layout = Object.create(Layout.L);
   // Set up item counts, since this is easier than pulling them from HTML.
   // Either both parents are displayed (one as undefined), or neither.
-  if ((info.dad != undefined) || (info.mom != undefined)) {
+  if ((info.dad.length > 1) || (info.mom.length > 1)) {
+    layout.num.parents = info.dad.length + info.mom.length;
+  } else if ((info.dad.length > 0) || (info.mom.length > 0)) {
     layout.num.parents = 2;
   } else {
     layout.num.parents = 0;
@@ -845,6 +847,7 @@ Layout.L.arrangement.div2_1_1_0_0 = function() { return this.columns() };
 Layout.L.arrangement.div3_2_1_0_0 = function() { return this.columns() };
 Layout.L.arrangement.div3_0_1_1_1 = function() { return this.columns() };
 Layout.L.arrangement.div3_0_0_3_0 = function() { return this.columns() };
+Layout.L.arrangement.div3_3_0_0_0 = function() { return this.columns() };
 // Four list items. Two parents and two in a second column. TEST: Shizuku
 Layout.L.arrangement.div4_2_2_0_0 = function() { return this.columns() };
 // Four list items. Two in one category and singles. TEST: Taiyo (Nishiyama)
@@ -853,6 +856,8 @@ Layout.L.arrangement.div4_2_1_1_0 = function() { return this.longRun("onlyMobile
 Layout.L.arrangement.div4_0_0_3_1 = function() { return this.columns() };
 // Four list items. Longer lists will get multiColumn'ed. Test: You-You (Noichi)
 Layout.L.arrangement.div4_0_0_4_0 = function() { return this.columns() };
+// Four list items. Possible parents
+Layout.L.arrangement.div4_4_0_0_0 = function() { return this.columns() };
 // Five list items. Two parents and three in a second column. TEST: Keti
 Layout.L.arrangement.div5_2_0_3_0 = function() { return this.columns() };
 // Five list items. Two parents and a two/one split.
