@@ -308,13 +308,15 @@ photo.60.author: resapan.suki
 photo.60.commitdate: 2020/6/3
 photo.60.link: https://www.instagram.com/resapan.suki/
 photo.60.tags: peek, portrait
-photo.61: https://www.instagram.com/p/CBKyKjRBdLc/media/?size=m
-photo.61.author: resapan.suki
-photo.61.link: https://www.instagram.com/resapan.suki/
-photo.61.tags: laying down, portrait, sleeping
-photo.62: https://www.instagram.com/p/CBIfZvjBsGO/media/?size=m
-photo.62.author: kaoru_a358
-photo.62.link: https://www.instagram.com/kaoru_a358/
-photo.62.tags: portrait
+photo.61: https://www.instagram.com/p/CBIfZvjBsGO/media/?size=m
+photo.61.author: kaoru_a358
+photo.61.commitdate: 2020/6/20
+photo.61.link: https://www.instagram.com/kaoru_a358/
+photo.61.tags: portrait
+photo.62: https://www.instagram.com/p/CBKyKjRBdLc/media/?size=m
+photo.62.author: resapan.suki
+photo.62.commitdate: 2020/6/20
+photo.62.link: https://www.instagram.com/resapan.suki/
+photo.62.tags: laying down, portrait, sleeping
 species: 2
 zoo: 57

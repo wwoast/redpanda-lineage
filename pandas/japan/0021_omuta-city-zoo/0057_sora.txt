@@ -215,13 +215,15 @@ photo.40.author: yossi929
 photo.40.commitdate: 2020/6/6
 photo.40.link: https://www.instagram.com/yossi929/
 photo.40.tags: portrait, smile, tongue
-photo.41: https://www.instagram.com/p/CBW0fGVhHFs/media/?size=m
+photo.41: https://www.instagram.com/p/CBF9EcFBWA9/media/?size=m
 photo.41.author: yossi929
+photo.41.commitdate: 2020/6/20
 photo.41.link: https://www.instagram.com/yossi929/
-photo.41.tags: portrait
-photo.42: https://www.instagram.com/p/CBF9EcFBWA9/media/?size=m
+photo.41.tags: mofumofu, portrait, smile
+photo.42: https://www.instagram.com/p/CBW0fGVhHFs/media/?size=m
 photo.42.author: yossi929
+photo.42.commitdate: 2020/6/20
 photo.42.link: https://www.instagram.com/yossi929/
-photo.42.tags: mofumofu, portrait, smile
+photo.42.tags: portrait
 species: 2
 zoo: 21

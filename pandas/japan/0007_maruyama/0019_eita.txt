@@ -1035,17 +1035,20 @@ photo.206.author: nishicotolo
 photo.206.commitdate: 2020/6/6
 photo.206.link: https://www.instagram.com/nishicotolo/
 photo.206.tags: tail
-photo.207: https://www.instagram.com/p/CBLBZJbBzBz/media/?size=m
-photo.207.author: nishicotolo
-photo.207.link: https://www.instagram.com/nishicotolo/
-photo.207.tags: peek, smile
+photo.207: https://www.instagram.com/p/CBA0qDQBYN8/media/?size=m
+photo.207.author: leonard_redmof
+photo.207.commitdate: 2020/6/20
+photo.207.link: https://www.instagram.com/leonard_redmof/
+photo.207.tags: flowers, portrait, smile, tongue, whiskers
 photo.208: https://www.instagram.com/p/CBFfU_NhT7v/media/?size=m
 photo.208.author: leonard_redmof
+photo.208.commitdate: 2020/6/20
 photo.208.link: https://www.instagram.com/leonard_redmof/
 photo.208.tags: paws, portrait, whiskers
-photo.209: https://www.instagram.com/p/CBA0qDQBYN8/media/?size=m
-photo.209.author: leonard_redmof
-photo.209.link: https://www.instagram.com/leonard_redmof/
-photo.209.tags: flowers, portrait, smile, tongue, whiskers
+photo.209: https://www.instagram.com/p/CBLBZJbBzBz/media/?size=m
+photo.209.author: nishicotolo
+photo.209.commitdate: 2020/6/20
+photo.209.link: https://www.instagram.com/nishicotolo/
+photo.209.tags: peek, smile
 species: 2
 zoo: 7
