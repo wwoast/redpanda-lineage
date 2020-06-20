@@ -228,26 +228,30 @@ photo.43.author: ssc6105
 photo.43.commitdate: 2020/5/17
 photo.43.link: https://www.instagram.com/ssc6105/
 photo.43.tags: mofumofu, portrait, tree
-photo.44: https://www.instagram.com/p/CBDG-ilhprz/media/?size=m
+photo.44: https://www.instagram.com/p/CAbR9F7h8Ii/media/?size=m
 photo.44.author: pink.b22
-photo.44.commitdate: 2020/6/13
+photo.44.commitdate: 2020/6/20
 photo.44.link: https://www.instagram.com/pink.b22/
-photo.44.tags: laying down, mofumofu, paws, tail
-photo.45: https://www.instagram.com/p/CAbR9F7h8Ii/media/?size=m
-photo.45.author: pink.b22
-photo.45.link: https://www.instagram.com/pink.b22/
-photo.45.tags: curly, portrait, tail
+photo.44.tags: curly, portrait, tail
+photo.45: https://www.instagram.com/p/CA7lr3xhE65/media/?size=m
+photo.45.author: kaoru_a358
+photo.45.commitdate: 2020/6/20
+photo.45.link: https://www.instagram.com/kaoru_a358/
+photo.45.tags: curly, tail
 photo.46: https://www.instagram.com/p/CA-JnOZh39F/media/?size=m
 photo.46.author: kaoru_a358
+photo.46.commitdate: 2020/6/20
 photo.46.link: https://www.instagram.com/kaoru_a358/
 photo.46.tags: smile
-photo.47: https://www.instagram.com/p/CBSvUPdBbrf/media/?size=m
-photo.47.author: kaoru_a358
-photo.47.link: https://www.instagram.com/kaoru_a358/
-photo.47.tags: portrait, tail
-photo.48: https://www.instagram.com/p/CA7lr3xhE65/media/?size=m
+photo.47: https://www.instagram.com/p/CBDG-ilhprz/media/?size=m
+photo.47.author: pink.b22
+photo.47.commitdate: 2020/6/13
+photo.47.link: https://www.instagram.com/pink.b22/
+photo.47.tags: laying down, mofumofu, paws, tail
+photo.48: https://www.instagram.com/p/CBSvUPdBbrf/media/?size=m
 photo.48.author: kaoru_a358
+photo.48.commitdate: 2020/6/20
 photo.48.link: https://www.instagram.com/kaoru_a358/
-photo.48.tags: curly, tail
+photo.48.tags: portrait, tail
 species: 2
 zoo: 69
