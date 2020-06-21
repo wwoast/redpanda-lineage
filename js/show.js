@@ -669,6 +669,8 @@ Show.button.home.action = function() {
   window.location = "#home";
   Show.button.language.hide();   // If language menu open, hide it
   Page.current = Page.home.render;
+  // If bottom search bar is showing, remove it
+  Show.searchBar.remove("bottomSearch");
   window.scrollTo(0, 0);   // Go to the top of the page
 };
 Show.button.home.render = function(class_name="results") {
