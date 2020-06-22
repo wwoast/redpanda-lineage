@@ -168,6 +168,11 @@ Show.animalLink = function(animal, link_text, language, options) {
 // See how many other panda photos this user has posted. 
 // Links to the credit page
 Show.appleLink = function(info, container_element) {
+  // Anonymous/uncredited photos get no apple link
+  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
+    return document.createElement(container_element);
+  }
+  // Otherwise make an apple link with # of photos contributed
   var other_photos = document.createElement(container_element);
   var credit_count_link = document.createElement('a');
   credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
@@ -207,11 +212,14 @@ Show.childIcon = function(gender) {
 Show.creditLink = function(info, container_element) {
   var credit_link = document.createElement('a');
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
-  credit_link.href = info.photo_link;
   credit_link.target = "_blank";   // Open in new tab
-  if (info.photo_credit != undefined) {
+  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
+    credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
+    credit_link.innerText = L.emoji.camera + " " + Pandas.def.authors[info.photo_credit][L.display];
+  } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
     credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
+    credit_link.href = info.photo_link;
   } else {
     // Ask users to submit through a Google Form
     credit_link.innerText = L.emoji.camera + " " + L.gui.contribute[L.display] + "\xa0";

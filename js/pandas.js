@@ -137,6 +137,22 @@ Pandas.def.no_name = {
   "np": "अज्ञात"
 }
 
+// Missing or undescribed authors
+Pandas.def.authors = {
+  "anonymous": {
+    "cn": "匿名",
+    "en": "anonymous",
+    "jp": "匿名",
+    "np": "बेनामी" 
+  },
+  "uncredited": {
+    "cn": "沒有信用",
+    "en": "uncredited",
+    "jp": "信用されていない",
+    "np": "अप्रत्याशित"
+  }
+}
+
 // Used for determining what languages are selectable. Don't add new languages
 // to this set until we're ready with panda data in that language. We look for
 // ISO-639-1 codes in the navigator.languages value, and map it to a language
