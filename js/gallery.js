@@ -978,12 +978,17 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
       var pandas = Pandas.searchPandaZoo(photo.id)
         .filter(panda => "photo.1" in panda);
       return pandas.length > 0;
+    }).filter(function(photo) {
+      return Object.keys(Pandas.def.authors).indexOf(photo.credit) == -1;
     });
   var zoo_chosen = Pandas.randomChoice(zoo_photos, photo_count);
   zoo_chosen = Pandas.sortPhotosByName(zoo_chosen, language + ".name");
   // Photos from new contributors just for pandas, not for zoos
   var author_locators = P.db["_updates"].authors;
-  var author_photos_all = Pandas.locatorsToPhotos(author_locators);
+  var author_photos_all = Pandas.locatorsToPhotos(author_locators)
+    .filter(function(photo) {
+      return Object.keys(Pandas.def.authors).indexOf(photo.credit) == -1;
+    });
   var author_photos = Pandas.unique(author_photos_all, "id");
   var author_chosen = author_photos.slice();
   author_chosen = author_chosen.filter(photo => photo.type != "zoo");
@@ -997,7 +1002,10 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   var new_panda_locators = P.db["_updates"].entities
     .filter(locator => locator.indexOf("panda.") == 0)
     .filter(locator => author_locators.indexOf(locator) == -1);
-  var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id");
+  var new_panda_photos = Pandas.unique(Pandas.locatorsToPhotos(new_panda_locators), "id")
+    .filter(function(photo) {
+      return Object.keys(Pandas.def.authors).indexOf(photo.credit) == -1;
+    });
   var new_panda_chosen = Pandas.randomChoice(new_panda_photos, photo_count);
   new_panda_chosen = Pandas.sortPhotosByName(new_panda_chosen, language + ".name");
   // New pandas, or new panda group photos
@@ -1010,7 +1018,10 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     .filter(locator => P.db["_updates"].entities.indexOf(locator) == -1)
     .filter(locator => P.db["_updates"].authors.indexOf(locator) == -1)
     .filter(locator => locator.indexOf("zoo.") == -1);
-  var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id");
+  var update_photos = Pandas.unique(Pandas.locatorsToPhotos(update_locators), "id")
+    .filter(function(photo) {
+      return Object.keys(Pandas.def.authors).indexOf(photo.credit) == -1;
+    });
   // Now construct the list of photos. For each zoo in alphabetical order, find any
   // pandas in the panda list for that zoo, with priority to photos from new contributors.
   // Then display those pandas in alphabetical order. Once we're out of zoos and pandas,
