@@ -13,24 +13,24 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 172
-photo.1: https://www.instagram.com/p/BhgHoC9F-Dr/media/?size=m
-photo.1.author: wonderfulzooken
+photo.1: https://www.instagram.com/p/Bc70_Atg6_Z/media/?size=m
+photo.1.author: tufopix
 photo.1.commitdate: 2018/7/26
-photo.1.link: https://www.instagram.com/wonderfulzooken/
-photo.1.tags: portrait
+photo.1.link: https://www.instagram.com/tufopix/
 photo.2: https://www.instagram.com/p/BgLndurFd79/media/?size=m
 photo.2.author: daniele.tokyo
 photo.2.commitdate: 2018/7/26
 photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.3: https://www.instagram.com/p/BjgRsBQltSY/media/?size=m
+photo.3: https://www.instagram.com/p/BhgHoC9F-Dr/media/?size=m
 photo.3.author: wonderfulzooken
 photo.3.commitdate: 2018/7/26
 photo.3.link: https://www.instagram.com/wonderfulzooken/
-photo.3.tags: laying down
-photo.4: https://www.instagram.com/p/Bc70_Atg6_Z/media/?size=m
-photo.4.author: tufopix
+photo.3.tags: portrait
+photo.4: https://www.instagram.com/p/BjgRsBQltSY/media/?size=m
+photo.4.author: wonderfulzooken
 photo.4.commitdate: 2018/7/26
-photo.4.link: https://www.instagram.com/tufopix/
+photo.4.link: https://www.instagram.com/wonderfulzooken/
+photo.4.tags: laying down
 photo.5: https://www.instagram.com/p/BobWtn2lMXT/media/?size=m
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2018/10/2
@@ -88,6 +88,7 @@ photo.15.link: https://www.instagram.com/pink.b22/
 photo.15.tags: bamboo, portrait
 photo.16: https://www.instagram.com/p/CBfh8M8Bz83/media/?size=m
 photo.16.author: daniele.tokyo
+photo.16.commitdate: 2020/6/24
 photo.16.link: https://www.instagram.com/daniele.tokyo/
 photo.16.tags: blink, paws, portrait
 species: 2

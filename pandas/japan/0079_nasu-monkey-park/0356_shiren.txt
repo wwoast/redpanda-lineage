@@ -15,20 +15,20 @@ language.order: jp, en
 litter: 355
 location.1: 34, 2004/6/29
 location.2: 79, 2008/9/29
-photo.1: https://www.instagram.com/p/BpalbkCBC9a/media/?size=m
-photo.1.author: onj_phot
+photo.1: https://www.instagram.com/p/BXz947blo29/media/?size=m
+photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/11
-photo.1.link: https://www.instagram.com/onj_phot/
-photo.1.tags: bamboo, tongue
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: profile, toys
 photo.2: https://www.instagram.com/p/Bk-UAoGlVSd/media/?size=m
 photo.2.author: tomonobu_yasoshima
 photo.2.commitdate: 2018/12/11
 photo.2.link: https://www.instagram.com/tomonobu_yasoshima/
-photo.3: https://www.instagram.com/p/BXz947blo29/media/?size=m
-photo.3.author: hanamaru_redpanda
+photo.3: https://www.instagram.com/p/BpalbkCBC9a/media/?size=m
+photo.3.author: onj_phot
 photo.3.commitdate: 2018/12/11
-photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: profile, toys
+photo.3.link: https://www.instagram.com/onj_phot/
+photo.3.tags: bamboo, tongue
 photo.4: https://www.instagram.com/p/Bt-zRwqlhp7/media/?size=m
 photo.4.author: daniele.tokyo
 photo.4.commitdate: 2019/2/19
@@ -44,16 +44,16 @@ photo.6.author: daniele.tokyo
 photo.6.commitdate: 2019/8/13
 photo.6.link: https://www.instagram.com/daniele.tokyo/
 photo.6.tags: mofumofu, paws, tail
-photo.7: https://www.instagram.com/p/B7cB5W4hKue/media/?size=m
+photo.7: https://www.instagram.com/p/B7b9nwEBRMv/media/?size=m
 photo.7.author: kisshan324
 photo.7.commitdate: 2020/1/18
 photo.7.link: https://www.instagram.com/kisshan324/
-photo.7.tags: bamboo, paws, portrait, smile, tongue
-photo.8: https://www.instagram.com/p/B7b9nwEBRMv/media/?size=m
+photo.7.tags: bamboo, portrait
+photo.8: https://www.instagram.com/p/B7cB5W4hKue/media/?size=m
 photo.8.author: kisshan324
 photo.8.commitdate: 2020/1/18
 photo.8.link: https://www.instagram.com/kisshan324/
-photo.8.tags: bamboo, portrait
+photo.8.tags: bamboo, paws, portrait, smile, tongue
 photo.9: https://www.instagram.com/p/B9iW6R6hXv9/media/?size=m
 photo.9.author: sasapan34
 photo.9.commitdate: 2020/3/13
@@ -71,6 +71,7 @@ photo.11.link: https://www.instagram.com/hamiiiii831_/
 photo.11.tags: apple time, paws, smile, tongue
 photo.12: https://www.instagram.com/p/CBsvLNzBNWw/media/?size=m
 photo.12.author: monmon_redpanda
+photo.12.commitdate: 2020/6/24
 photo.12.link: https://www.instagram.com/monmon_redpanda/
 photo.12.tags: bamboo, paws, portrait, smile, tongue
 species: 2

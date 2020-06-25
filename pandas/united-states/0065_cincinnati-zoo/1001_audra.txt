@@ -13,41 +13,41 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1002
-photo.1: https://www.instagram.com/p/B6zFS1qhXVm/media/?size=m
-photo.1.author: worldthathesees
-photo.1.commitdate: 2020/1/3
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: baby, nose, portrait, snow
-photo.2: https://www.instagram.com/p/B606_S9hlPA/media/?size=m
+photo.1: https://www.instagram.com/p/B56EjwyHiRX/media/?size=m
+photo.1.author: shaesavestheplanet
+photo.1.commitdate: 2020/2/23
+photo.1.link: https://www.instagram.com/shaesavestheplanet/
+photo.1.tags: keeper, portrait
+photo.2: https://www.instagram.com/p/B6zFS1qhXVm/media/?size=m
 photo.2.author: worldthathesees
-photo.2.commitdate: 2020/1/9
+photo.2.commitdate: 2020/1/3
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: baby, bamboo, whiskers, snow
-photo.3: https://www.instagram.com/p/B612OJTBvXc/media/?size=m
+photo.2.tags: baby, nose, portrait, snow
+photo.3: https://www.instagram.com/p/B606_S9hlPA/media/?size=m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2020/1/9
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: baby, mofumofu, portrait, snow
-photo.4: https://www.instagram.com/p/B66KHumB7NF/media/?size=m
+photo.3.tags: baby, bamboo, whiskers, snow
+photo.4: https://www.instagram.com/p/B612OJTBvXc/media/?size=m
 photo.4.author: worldthathesees
 photo.4.commitdate: 2020/1/9
 photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: bamboo, portrait, snow
+photo.4.tags: baby, mofumofu, portrait, snow
 photo.5: https://www.instagram.com/p/B621JdnAIIW/media/?size=m
 photo.5.author: cincinnatizoo
 photo.5.commitdate: 2020/1/9
 photo.5.link: https://www.instagram.com/cincinnatizoo/
 photo.5.tags: mofumofu, tail, wet
-photo.6: https://www.instagram.com/p/B56EjwyHiRX/media/?size=m
-photo.6.author: shaesavestheplanet
-photo.6.commitdate: 2020/2/23
-photo.6.link: https://www.instagram.com/shaesavestheplanet/
-photo.6.tags: keeper, portrait
-photo.7: https://www.instagram.com/p/B64btoHBix7/media/?size=m
+photo.6: https://www.instagram.com/p/B64btoHBix7/media/?size=m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/1/11
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: bamboo, snow, tail
+photo.7: https://www.instagram.com/p/B66KHumB7NF/media/?size=m
 photo.7.author: worldthathesees
-photo.7.commitdate: 2020/1/11
+photo.7.commitdate: 2020/1/9
 photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: bamboo, snow, tail
+photo.7.tags: bamboo, portrait, snow
 photo.8: https://www.instagram.com/p/B8SuLNqlwZe/media/?size=m
 photo.8.author: andersonkelley
 photo.8.commitdate: 2020/2/24
@@ -60,6 +60,7 @@ photo.9.link: https://www.instagram.com/jiayue_2015/
 photo.9.tags: mofumofu, portrait, tongue
 photo.10: https://www.instagram.com/p/CAFkcWMgDAn/media/?size=m
 photo.10.author: cincinnatizoo
+photo.10.commitdate: 2020/6/24
 photo.10.link: https://www.instagram.com/cincinnatizoo/
 photo.10.tags: mofumofu, videolink
 species: 2
