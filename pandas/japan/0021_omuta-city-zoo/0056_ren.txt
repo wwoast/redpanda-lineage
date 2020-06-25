@@ -29,7 +29,6 @@ photo.3: https://www.instagram.com/p/BQq-goxArTS/media/?size=m
 photo.3.author: monmon_redpanda
 photo.3.commitdate: 2018/7/22
 photo.3.link: https://www.instagram.com/monmon_redpanda/
-photo.3.tags: profile
 photo.4: https://www.instagram.com/p/BTYr34aFlEp/media/?size=m
 photo.4.author: yossi929
 photo.4.commitdate: 2020/5/17
@@ -59,7 +58,7 @@ photo.9: https://www.instagram.com/p/BaduoZ8HVOB/media/?size=m
 photo.9.author: yossi929
 photo.9.commitdate: 2020/5/17
 photo.9.link: https://www.instagram.com/yossi929/
-photo.9.tags: portrait, tree
+photo.9.tags: portrait, profile, tree
 photo.10: https://www.instagram.com/p/BgvtDsvAL7x/media/?size=m
 photo.10.author: kinkinkin0826
 photo.10.commitdate: 2018/7/22
