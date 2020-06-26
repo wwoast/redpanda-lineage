@@ -23,33 +23,38 @@ photo.3.link: https://www.instagram.com/mariten1119/
 photo.3.tags: bamboo, siblings, twins
 photo.3.tags.28.location: 85, 110
 photo.3.tags.29.location: 235, 175
-photo.4: https://www.instagram.com/p/BGrxJ3VqoD7/media/?size=l
-photo.4.author: minatomirai215
-photo.4.link: https://www.instagram.com/minatomirai215/
-photo.4.tags: laying down, siblings, twins
-photo.4.tags.28.location: 335, 405
-photo.4.tags.29.location: 845, 430
-photo.5: https://www.instagram.com/p/BDPf9s2qoPB/media/?size=l
-photo.5.author: minatomirai215
-photo.5.link: https://www.instagram.com/minatomirai215/
-photo.5.tags: mofumofu, playing, siblings, tail, twins
-photo.5.tags.28.location: 815, 500
-photo.5.tags.29.location: 425, 485
+photo.4: https://www.instagram.com/p/BB_wq7qNG01/media/?size=l
+photo.4.author: mariten1119
+photo.4.commitdate: 2020/6/25
+photo.4.link: https://www.instagram.com/mariten1119/
+photo.4.tags: playing, siblings, toys, twins
+photo.4.tags.28.location: 845, 265
+photo.4.tags.29.location: 675, 640
+photo.5: https://www.instagram.com/p/BCAqRE5NGwh/media/?size=m
+photo.5.author: mariten1119
+photo.5.commitdate: 2020/6/25
+photo.5.link: https://www.instagram.com/mariten1119/
+photo.5.tags: paws, siblings, standing, tail, twins
+photo.5.tags.28.location: 190, 100
+photo.5.tags.29.location: 115, 130
 photo.6: https://www.instagram.com/p/BDCpniiKoAw/media/?size=l
 photo.6.author: minatomirai215
+photo.6.commitdate: 2020/6/25
 photo.6.link: https://www.instagram.com/minatomirai215/
 photo.6.tags: laying down, siblings, twins
 photo.6.tags.28.location: 500, 500
 photo.6.tags.29.location: 895, 520
-photo.7: https://www.instagram.com/p/BB_wq7qNG01/media/?size=l
-photo.7.author: mariten1119
-photo.7.link: https://www.instagram.com/mariten1119/
-photo.7.tags: playing, siblings, toys, twins
-photo.7.tags.28.location: 845, 265
-photo.7.tags.29.location: 675, 640
-photo.8: https://www.instagram.com/p/BCAqRE5NGwh/media/?size=m
-photo.8.author: mariten1119
-photo.8.link: https://www.instagram.com/mariten1119/
-photo.8.tags: paws, siblings, standing, tail, twins
-photo.8.tags.28.location: 190, 100
-photo.8.tags.29.location: 115, 130
+photo.7: https://www.instagram.com/p/BDPf9s2qoPB/media/?size=l
+photo.7.author: minatomirai215
+photo.7.commitdate: 2020/6/25
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.7.tags: mofumofu, playing, siblings, tail, twins
+photo.7.tags.28.location: 815, 500
+photo.7.tags.29.location: 425, 485
+photo.8: https://www.instagram.com/p/BGrxJ3VqoD7/media/?size=l
+photo.8.author: minatomirai215
+photo.8.commitdate: 2020/6/25
+photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: laying down, siblings, twins
+photo.8.tags.28.location: 335, 405
+photo.8.tags.29.location: 845, 430
