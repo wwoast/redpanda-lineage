@@ -658,7 +658,7 @@ def sort_ig_updates():
     update_entity_commit_dates(prior_commit.hexsha)
     update_photo_commit_dates(prior_commit.hexsha)
 
-def update_entity_commit_dates(starting_commit):
+def update_entity_commit_dates(starting_commit, force=False):
     """
     When moving pandas, the old redpandafinder updater logic considered "new" 
     animals as anything that was a new file in a location. So when an animal
@@ -752,13 +752,17 @@ def update_entity_commit_dates(starting_commit):
                             continue
                         else:
                             date = type_id_to_commit_date[just_key]
-                            photo_list.set_field("commitdate", date)
+                            old_date = photo_list.get_field("commitdate")
+                            if ((old_date == None) or (force == True)):
+                                photo_list.set_field("commitdate", date)
                     else:
                         date = filename_to_commit_date[filename]
-                        photo_list.set_field("commitdate", date)
+                        old_date = photo_list.get_field("commitdate")
+                        if ((old_date == None) or (force == True)):
+                            photo_list.set_field("commitdate", date)
                     photo_list.update_file()
 
-def update_photo_commit_dates(starting_commit):
+def update_photo_commit_dates(starting_commit, force=False):
     """
     The old redpandafinder update logic only worked on the basis of commits
     in the last week or so. When files are re-sorted, added, or removed for
@@ -844,7 +848,9 @@ def update_photo_commit_dates(starting_commit):
                         photo_index = photo_index + 1
                         continue
                     date_value = uri_to_commit_date[photo_uri]
-                    photo_list.set_field(date_option, date_value)
+                    old_date_value = photo_list.get_field(date_option)
+                    if ((old_date_value == None) or (force == True)):
+                        photo_list.set_field(date_option, date_value)
                     # print(photo_uri + " ==> " + date_value)
                     photo_index = photo_index + 1
                 photo_list.update_file()
@@ -852,13 +858,13 @@ def update_photo_commit_dates(starting_commit):
 if __name__ == '__main__':
     """Choose a utility function."""
     if len(sys.argv) == 2:
-        if sys.argv[1] == "--sort-instagram-updates":
-            sort_ig_updates()
-        if sys.argv[1] == "--update-commit-dates":
-            update_entity_commit_dates(None)
-            update_photo_commit_dates(None)
         if sys.argv[1] == "--deduplicate-photo-uris":
             remove_duplicate_photo_uris_per_file()
+        if sys.argv[1] == "--rewrite-all-commit-dates":
+            update_entity_commit_dates(None, force=True)
+            update_photo_commit_dates(None, force=True)
+        if sys.argv[1] == "--sort-instagram-updates":
+            sort_ig_updates()
     if len(sys.argv) == 3:
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
