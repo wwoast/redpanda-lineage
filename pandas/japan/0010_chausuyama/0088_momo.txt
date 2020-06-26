@@ -129,15 +129,18 @@ photo.23.link: https://www.instagram.com/resapan.suki/
 photo.23.tags: portrait, smile, whiskers
 photo.24: https://www.instagram.com/p/CBzUMnfh0Ra/media/?size=m
 photo.24.author: shigeko0531
+photo.24.commitdate: 2020/6/26
 photo.24.link: https://www.instagram.com/shigeko0531/
 photo.24.tags: close-up, portrait, smile, white face
-photo.25: https://www.instagram.com/p/CBzeBntB-uw/media/?size=m
-photo.25.author: hamiiiii831_
-photo.25.link: https://www.instagram.com/hamiiiii831_/
-photo.25.tags: home, peek, whiskers
-photo.26: https://www.instagram.com/p/CBzc-ZDBlBP/media/?size=m
-photo.26.author: _saaaaaaah_
-photo.26.link: https://www.instagram.com/_saaaaaaah_/
-photo.26.tags: smile, tree
+photo.25: https://www.instagram.com/p/CBzc-ZDBlBP/media/?size=m
+photo.25.author: _saaaaaaah_
+photo.25.commitdate: 2020/6/26
+photo.25.link: https://www.instagram.com/_saaaaaaah_/
+photo.25.tags: smile, tree
+photo.26: https://www.instagram.com/p/CBzeBntB-uw/media/?size=m
+photo.26.author: hamiiiii831_
+photo.26.commitdate: 2020/6/26
+photo.26.link: https://www.instagram.com/hamiiiii831_/
+photo.26.tags: home, peek, whiskers
 species: 2
 zoo: 10
