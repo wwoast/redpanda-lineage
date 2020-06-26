@@ -556,6 +556,9 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
 // there is no sensible way to support this.
 Show.qrcodeSwap = function() {
   var old_qrcode = document.getElementsByClassName('qrcodeFrame')[0];
+  if (old_qrcode == undefined) {
+    return;
+  }
   var gallery = document.getElementsByClassName('pandaPhoto')[0];
   var gallery_id = gallery.childNodes[0].id;
   var animal_id = gallery_id.split("/photo/")[0].split("_")[1];
