@@ -7,7 +7,7 @@ commitdate: 2019/4/3
 death: 2013/5/14
 en.name: Shandy
 en.nicknames: none
-en.othernames: none
+en.othernames: Shandi
 gender: f
 jp.name: シャンディ
 jp.nicknames: none
@@ -98,5 +98,10 @@ photo.16.author: worldthathesees
 photo.16.commitdate: 2019/4/13
 photo.16.link: https://www.instagram.com/worldthathesees/
 photo.16.tags: smile, tree, white face
+photo.17: https://www.codaworry.com/images/rpf/shandy-17-atlanta.jpg
+photo.17.author: uncredited
+photo.17.commitdate: 2020/6/26
+photo.17.link: https://www.google.com
+photo.17.tags: laying down, tree, white face
 species: 1
 zoo: 85
