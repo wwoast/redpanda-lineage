@@ -168,16 +168,19 @@ Show.animalLink = function(animal, link_text, language, options) {
 // See how many other panda photos this user has posted. 
 // Links to the credit page
 Show.appleLink = function(info, container_element) {
-  // Anonymous/uncredited photos get no apple link
-  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
-    return document.createElement(container_element);
-  }
-  // Otherwise make an apple link with # of photos contributed
   var other_photos = document.createElement(container_element);
   var credit_count_link = document.createElement('a');
   credit_count_link.id = info.id + "/counts/" + info.photo_index;   // Carousel
   credit_count_link.href = "#credit/" + info.photo_credit;
-  credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+  if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
+    // Anonymous/uncredited photos get no apple link
+    credit_count_link.removeAttribute("href");
+    credit_count_link.innerText = "";
+  } else {
+    // Otherwise make an apple link with # of photos contributed
+    credit_count_link.href = "#credit/" + info.photo_credit;
+    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+  }
   other_photos.appendChild(credit_count_link);
   return other_photos;
 }
@@ -213,13 +216,14 @@ Show.creditLink = function(info, container_element) {
   var credit_link = document.createElement('a');
   credit_link.id = info.id + "/author/" + info.photo_index;   // Carousel
   credit_link.target = "_blank";   // Open in new tab
+  credit_link.href = info.photo_link;
   if (Object.keys(Pandas.def.authors).indexOf(info.photo_credit) != -1) {
     // Uncredited / anonymous photos get no href, and are not links
     credit_link.innerText = L.emoji.camera + " " + Pandas.def.authors[info.photo_credit][L.display];
+    credit_link.removeAttribute("href");
   } else if (info.photo_credit != undefined) {
     // Attribute photo to someone
     credit_link.innerText = L.emoji.camera + " " + info.photo_credit;
-    credit_link.href = info.photo_link;
   } else {
     // Ask users to submit through a Google Form
     credit_link.innerText = L.emoji.camera + " " + L.gui.contribute[L.display] + "\xa0";
