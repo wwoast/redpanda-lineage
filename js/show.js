@@ -178,7 +178,6 @@ Show.appleLink = function(info, container_element) {
     credit_count_link.innerText = "";
   } else {
     // Otherwise make an apple link with # of photos contributed
-    credit_count_link.href = "#credit/" + info.photo_credit;
     credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
   }
   other_photos.appendChild(credit_count_link);
