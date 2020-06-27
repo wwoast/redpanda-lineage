@@ -382,14 +382,16 @@ photo.74.author: alto0908
 photo.74.commitdate: 2020/6/21
 photo.74.link: https://www.instagram.com/alto0908/
 photo.74.tags: close-up, portrait, tongue
-photo.75: https://www.instagram.com/p/CB2IwS2BNZf/media/?size=m
-photo.75.author: alto0908
-photo.75.link: https://www.instagram.com/alto0908/
-photo.75.tags: nose, portrait
-photo.76: https://www.instagram.com/p/CBtrH63B8se/media/?size=m
-photo.76.author: craig_craig_craig
-photo.76.link: https://www.instagram.com/craig_craig_craig/
-photo.76.tags: bamboo, paws, smile
+photo.75: https://www.instagram.com/p/CBtrH63B8se/media/?size=m
+photo.75.author: craig_craig_craig
+photo.75.commitdate: 2020/6/27
+photo.75.link: https://www.instagram.com/craig_craig_craig/
+photo.75.tags: bamboo, paws, smile
+photo.76: https://www.instagram.com/p/CB2IwS2BNZf/media/?size=m
+photo.76.author: alto0908
+photo.76.commitdate: 2020/6/27
+photo.76.link: https://www.instagram.com/alto0908/
+photo.76.tags: nose, portrait
 species: 2
 studbook.id: 10112
 zoo: 1
