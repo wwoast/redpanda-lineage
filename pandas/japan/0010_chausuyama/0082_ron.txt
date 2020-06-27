@@ -10,7 +10,7 @@ en.othernames: none
 gender: m
 jp.name: ロン
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: 龍
 language.order: jp, en
 litter: 21, 31
 photo.1: https://www.instagram.com/p/BKdQAL4BxXy/media/?size=m
@@ -639,5 +639,9 @@ photo.126.author: shigeko0531
 photo.126.commitdate: 2020/3/5
 photo.126.link: https://www.instagram.com/shigeko0531/
 photo.126.tags: peek, portrait
+photo.127: https://www.instagram.com/p/CBwG7zZBvxU/media/?size=m
+photo.127.author: panda.daisuki
+photo.127.link: https://www.instagram.com/panda.daisuki/
+photo.127.tags: paws, portrait, smile, tail
 species: 2
 zoo: 10
