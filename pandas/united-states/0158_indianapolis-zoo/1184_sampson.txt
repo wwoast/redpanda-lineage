@@ -1,0 +1,20 @@
+[panda]
+_id: 1184
+birthday: 2014/7/11
+birthplace: 75
+children: none
+commitdate: 2020/6/28
+en.name: Sampson
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンプソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 75, 2014/7/11
+location.2: 122, 2014/11/8
+location.3: 158, 2015/11/6
+species: 1
+zoo: 158

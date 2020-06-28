@@ -17,7 +17,7 @@ photo.1: https://www.instagram.com/p/B3l-RkAhM-s/media/?size=m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2019/10/15
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: baby, portrait, profile
+photo.1.tags: baby, portrait
 photo.2: https://www.instagram.com/p/B3rU-zjAV4-/media/?size=m
 photo.2.author: kmasahon
 photo.2.commitdate: 2019/10/17
@@ -106,5 +106,9 @@ photo.19.author: satoshi_jimny
 photo.19.commitdate: 2020/4/28
 photo.19.link: https://www.instagram.com/satoshi_jimny/
 photo.19.tags: paws, smile
+photo.20: https://www.instagram.com/p/CBvD4PGBFCe/media/?size=m
+photo.20.author: sirpirka777
+photo.20.link: https://www.instagram.com/sirpirka777/
+photo.20.tags: portrait, profile, smile
 species: 2
 zoo: 40
