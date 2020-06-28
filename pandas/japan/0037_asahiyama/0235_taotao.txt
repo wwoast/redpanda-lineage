@@ -13,16 +13,16 @@ jp.nicknames: none
 jp.othernames: タオタオ
 language.order: jp, en
 litter: 236
-photo.1: https://www.instagram.com/p/BqeqTShFbYt/media/?size=m
-photo.1.author: fetorus_mami
-photo.1.commitdate: 2018/11/22
-photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: baby, bread, mofumofu, snow
-photo.2: https://www.instagram.com/p/BqcHRgAFYc3/media/?size=m
-photo.2.author: asahiyamazoo1
-photo.2.commitdate: 2018/11/28
-photo.2.link: https://www.instagram.com/asahiyamazoo1/
-photo.2.tags: baby, techitechi
+photo.1: https://www.instagram.com/p/BqcHRgAFYc3/media/?size=m
+photo.1.author: asahiyamazoo1
+photo.1.commitdate: 2018/11/28
+photo.1.link: https://www.instagram.com/asahiyamazoo1/
+photo.1.tags: baby, techitechi
+photo.2: https://www.instagram.com/p/BqeqTShFbYt/media/?size=m
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2018/11/22
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.tags: baby, bread, mofumofu, snow
 photo.3: https://www.instagram.com/p/BqvSjhPFYuW/media/?size=m
 photo.3.author: ho0oipo
 photo.3.commitdate: 2018/11/28
@@ -63,21 +63,21 @@ photo.10.author: asahiyamazoo1
 photo.10.commitdate: 2019/2/19
 photo.10.link: https://www.instagram.com/asahiyamazoo1/
 photo.10.tags: apple time, snow, tongue
-photo.11: https://www.instagram.com/p/BwlTe_TFW6P/media/?size=m
-photo.11.author: tabechum
-photo.11.commitdate: 2019/4/30
-photo.11.link: https://www.instagram.com/tabechum/
-photo.11.tags: snow
-photo.12: https://www.instagram.com/p/BxePGd-lAjk/media/?size=m
-photo.12.author: sasapan34
-photo.12.commitdate: 2019/5/16
-photo.12.link: https://www.instagram.com/sasapan34/
-photo.12.tags: nose, snow
-photo.13: https://www.instagram.com/p/BvSkod1lKH1/media/?size=m
-photo.13.author: asahiyamazoo1
-photo.13.commitdate: 2019/6/13
-photo.13.link: https://www.instagram.com/asahiyamazoo1/
-photo.13.tags: home
+photo.11: https://www.instagram.com/p/BvSkod1lKH1/media/?size=m
+photo.11.author: asahiyamazoo1
+photo.11.commitdate: 2019/6/13
+photo.11.link: https://www.instagram.com/asahiyamazoo1/
+photo.11.tags: home
+photo.12: https://www.instagram.com/p/BwlTe_TFW6P/media/?size=m
+photo.12.author: tabechum
+photo.12.commitdate: 2019/4/30
+photo.12.link: https://www.instagram.com/tabechum/
+photo.12.tags: snow
+photo.13: https://www.instagram.com/p/BxePGd-lAjk/media/?size=m
+photo.13.author: sasapan34
+photo.13.commitdate: 2019/5/16
+photo.13.link: https://www.instagram.com/sasapan34/
+photo.13.tags: nose, snow
 photo.14: https://www.instagram.com/p/Byu0JT0hYqX/media/?size=m
 photo.14.author: sasapan34
 photo.14.commitdate: 2019/6/19
@@ -108,21 +108,21 @@ photo.19.author: sasapan34
 photo.19.commitdate: 2019/9/18
 photo.19.link: https://www.instagram.com/sasapan34/
 photo.19.tags: ear, smile
-photo.20: https://www.instagram.com/p/B3MggleBuWU/media/?size=m
-photo.20.author: tama67photo
-photo.20.commitdate: 2019/10/8
-photo.20.link: https://www.instagram.com/tama67photo/
-photo.20.tags: bridge, ear, laying down, paws, portrait, upside-down
+photo.20: https://www.instagram.com/p/B3HAB7WBeRr/media/?size=m
+photo.20.author: sasapan34
+photo.20.commitdate: 2019/10/9
+photo.20.link: https://www.instagram.com/sasapan34/
+photo.20.tags: baby, bamboo, tail, snow
 photo.21: https://www.instagram.com/p/B3J5guEBAAD/media/?size=m
 photo.21.author: nishicotolo
 photo.21.commitdate: 2019/10/9
 photo.21.link: https://www.instagram.com/nishicotolo/
 photo.21.tags: paws, smile
-photo.22: https://www.instagram.com/p/B3HAB7WBeRr/media/?size=m
-photo.22.author: sasapan34
-photo.22.commitdate: 2019/10/9
-photo.22.link: https://www.instagram.com/sasapan34/
-photo.22.tags: baby, bamboo, tail, snow
+photo.22: https://www.instagram.com/p/B3MggleBuWU/media/?size=m
+photo.22.author: tama67photo
+photo.22.commitdate: 2019/10/8
+photo.22.link: https://www.instagram.com/tama67photo/
+photo.22.tags: bridge, ear, laying down, paws, portrait, upside-down
 photo.23: https://www.instagram.com/p/B3ozxSxB6nU/media/?size=m
 photo.23.author: tama67photo
 photo.23.commitdate: 2019/10/17
@@ -138,16 +138,16 @@ photo.25.author: sasapan34
 photo.25.commitdate: 2019/10/31
 photo.25.link: https://www.instagram.com/sasapan34/
 photo.25.tags: ear, laying down, paws, smile, tongue
-photo.26: https://www.instagram.com/p/B5VC6woh_4A/media/?size=m
+photo.26: https://www.instagram.com/p/B5Tf0Z2BQ8L/media/?size=m
 photo.26.author: sasapan34
 photo.26.commitdate: 2019/11/26
 photo.26.link: https://www.instagram.com/sasapan34/
-photo.26.tags: bamboo, tongue
-photo.27: https://www.instagram.com/p/B5Tf0Z2BQ8L/media/?size=m
+photo.26.tags: snow
+photo.27: https://www.instagram.com/p/B5VC6woh_4A/media/?size=m
 photo.27.author: sasapan34
 photo.27.commitdate: 2019/11/26
 photo.27.link: https://www.instagram.com/sasapan34/
-photo.27.tags: snow
+photo.27.tags: bamboo, tongue
 photo.28: https://www.instagram.com/p/B5pjZvkhvg-/media/?size=m
 photo.28.author: sasapan34
 photo.28.commitdate: 2019/12/11
@@ -180,6 +180,7 @@ photo.33.link: https://www.instagram.com/sasapan34/
 photo.33.tags: ear, peek
 photo.34: https://www.instagram.com/p/CBxqLg8hQqs/media/?size=m
 photo.34.author: nishicotolo
+photo.34.commitdate: 2020/6/28
 photo.34.link: https://www.instagram.com/nishicotolo/
 photo.34.tags: tail
 species: 2

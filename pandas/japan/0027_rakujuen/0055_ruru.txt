@@ -229,13 +229,14 @@ photo.43.author: kisshan324
 photo.43.commitdate: 2020/4/27
 photo.43.link: https://www.instagram.com/kisshan324/
 photo.43.tags: bamboo, dish, home, portrait, tail
-photo.44: https://www.instagram.com/p/CBskI3ihwxH/media/?size=m
-photo.44.author: minatomirai215
-photo.44.commitdate: 2020/6/24
-photo.44.link: https://www.instagram.com/minatomirai215/
-photo.44.tags: bamboo, close-up, home, portrait
-photo.45: https://www.instagram.com/p/CBsj3HDhrsG/media/?size=m
-photo.45.author: mugicha0312
-photo.45.link: ear, portrait, smile, whiskers
+photo.44: https://www.instagram.com/p/CBsj3HDhrsG/media/?size=m
+photo.44.author: mugicha0312
+photo.44.commitdate: 2020/6/28
+photo.44.link: ear, portrait, smile, whiskers
+photo.45: https://www.instagram.com/p/CBskI3ihwxH/media/?size=m
+photo.45.author: minatomirai215
+photo.45.commitdate: 2020/6/24
+photo.45.link: https://www.instagram.com/minatomirai215/
+photo.45.tags: bamboo, close-up, home, portrait
 species: 2
 zoo: 27

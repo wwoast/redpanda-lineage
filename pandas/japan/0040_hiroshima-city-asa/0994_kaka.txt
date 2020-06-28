@@ -38,15 +38,15 @@ photo.5.author: mifko55
 photo.5.commitdate: 2019/10/31
 photo.5.link: https://www.instagram.com/mifko55/
 photo.5.tags: baby, home, paws, portrait, standing, tail
-photo.6: https://www.instagram.com/p/B5Oy30_hxIA/media/?size=m
-photo.6.author: redpanda_nippon_takashi
-photo.6.commitdate: 2019/11/24
-photo.6.link: baby, portrait
-photo.7: https://www.instagram.com/p/B5BvdbXBqje/media/?size=m
-photo.7.author: fetorus_mami
-photo.7.commitdate: 2019/11/26
-photo.7.link: https://www.instagram.com/fetorus_mami/
-photo.7.tags: baby, door, portrait
+photo.6: https://www.instagram.com/p/B5BvdbXBqje/media/?size=m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2019/11/26
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: baby, door, portrait
+photo.7: https://www.instagram.com/p/B5Oy30_hxIA/media/?size=m
+photo.7.author: redpanda_nippon_takashi
+photo.7.commitdate: 2019/11/24
+photo.7.link: baby, portrait
 photo.8: https://www.instagram.com/p/B5P80BUh6GM/media/?size=m
 photo.8.author: resapanlove
 photo.8.commitdate: 2019/11/26
@@ -97,17 +97,18 @@ photo.17.author: kipekaila
 photo.17.commitdate: 2020/2/23
 photo.17.link: https://www.instagram.com/kipekaila/
 photo.17.tags: bamboo, mofumofu, portrait
-photo.18: https://www.instagram.com/p/B9qt9OOBaPi/media/?size=m
+photo.18: https://www.instagram.com/p/B9Jpfe1hgXe/media/?size=m
 photo.18.author: satoshi_jimny
 photo.18.commitdate: 2020/4/28
 photo.18.link: https://www.instagram.com/satoshi_jimny/
-photo.19: https://www.instagram.com/p/B9Jpfe1hgXe/media/?size=m
+photo.18.tags: paws, smile
+photo.19: https://www.instagram.com/p/B9qt9OOBaPi/media/?size=m
 photo.19.author: satoshi_jimny
 photo.19.commitdate: 2020/4/28
 photo.19.link: https://www.instagram.com/satoshi_jimny/
-photo.19.tags: paws, smile
 photo.20: https://www.instagram.com/p/CBvD4PGBFCe/media/?size=m
 photo.20.author: sirpirka777
+photo.20.commitdate: 2020/6/28
 photo.20.link: https://www.instagram.com/sirpirka777/
 photo.20.tags: portrait, profile, smile
 species: 2
