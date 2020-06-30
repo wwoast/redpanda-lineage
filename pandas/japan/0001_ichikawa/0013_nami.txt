@@ -319,31 +319,35 @@ photo.62.author: redpanda_tata
 photo.62.commitdate: 2020/3/28
 photo.62.link: https://www.instagram.com/redpanda_tata/
 photo.62.tags: dish, keeper, lunch time, paws, tail
-photo.63: https://www.instagram.com/p/CBEKHsLBHMm/media/?size=m
-photo.63.author: eos1089
-photo.63.commitdate: 2020/6/13
-photo.63.link: https://www.instagram.com/eos1089/
-photo.63.tags: home, portrait, smile
-photo.64: https://www.instagram.com/p/CBMPC2ZBCYV/media/?size=m
-photo.64.author: masa_polarbear
+photo.63: https://www.instagram.com/p/CA-FE1NBdAI/media/?size=m
+photo.63.author: kinkinkin0826
+photo.63.commitdate: 2020/6/30
+photo.63.link: https://www.instagram.com/kinkinkin0826/
+photo.63.tags: apple time, keeper, portrait, whiskers
+photo.64: https://www.instagram.com/p/CBEKHsLBHMm/media/?size=m
+photo.64.author: eos1089
 photo.64.commitdate: 2020/6/13
-photo.64.link: https://www.instagram.com/masa_polarbear/
-photo.64.tags: apple time, lips, tail
-photo.65: https://www.instagram.com/p/CB1P6Suh_Kt/media/?size=m
-photo.65.author: ssc6105
-photo.65.link: https://www.instagram.com/ssc6105/
-photo.65.tags: portrait
-photo.66: https://www.instagram.com/p/CBp0QrJBAoF/media/?size=m
-photo.66.author: grskus_tk
-photo.66.link: https://www.instagram.com/grskus_tk/
-photo.66.tags: paws, portrait
-photo.67: https://www.instagram.com/p/CA-FE1NBdAI/media/?size=m
-photo.67.author: kinkinkin0826
-photo.67.link: https://www.instagram.com/kinkinkin0826/
-photo.67.tags: apple time, keeper, portrait, whiskers
-photo.68: https://www.instagram.com/p/CBNnnnTh-my/media/?size=m
-photo.68.author: alto0908
-photo.68.link: https://www.instagram.com/alto0908/
-photo.68.tags: bamboo, laying down, mofumofu, paws
+photo.64.link: https://www.instagram.com/eos1089/
+photo.64.tags: home, portrait, smile
+photo.65: https://www.instagram.com/p/CBMPC2ZBCYV/media/?size=m
+photo.65.author: masa_polarbear
+photo.65.commitdate: 2020/6/13
+photo.65.link: https://www.instagram.com/masa_polarbear/
+photo.65.tags: apple time, lips, tail
+photo.66: https://www.instagram.com/p/CBNnnnTh-my/media/?size=m
+photo.66.author: alto0908
+photo.66.commitdate: 2020/6/30
+photo.66.link: https://www.instagram.com/alto0908/
+photo.66.tags: bamboo, laying down, mofumofu, paws
+photo.67: https://www.instagram.com/p/CBp0QrJBAoF/media/?size=m
+photo.67.author: grskus_tk
+photo.67.commitdate: 2020/6/30
+photo.67.link: https://www.instagram.com/grskus_tk/
+photo.67.tags: paws, portrait
+photo.68: https://www.instagram.com/p/CB1P6Suh_Kt/media/?size=m
+photo.68.author: ssc6105
+photo.68.commitdate: 2020/6/30
+photo.68.link: https://www.instagram.com/ssc6105/
+photo.68.tags: portrait
 species: 2
 zoo: 1

@@ -370,30 +370,36 @@ photo.71.author: pink.b22
 photo.71.commitdate: 2020/6/8
 photo.71.link: https://www.instagram.com/pink.b22/
 photo.71.tags: mofumofu, paws, portrait
-photo.72: https://www.instagram.com/p/CBRTtkRBCqC/media/?size=m
+photo.72: https://www.instagram.com/p/CBISabZB2MP/media/?size=m
 photo.72.author: ssc6105
+photo.72.commitdate: 2020/6/30
 photo.72.link: https://www.instagram.com/ssc6105/
-photo.72.tags: portrait, smile, whiskers
-photo.73: https://www.instagram.com/p/CBN_M-UBggG/media/?size=m
-photo.73.author: na.mo.pan
-photo.73.link: https://www.instagram.com/na.mo.pan/
-photo.73.tags: mofumofu, portrait, slobber, smile
-photo.74: https://www.instagram.com/p/CBQHUMjhlc7/media/?size=m
-photo.74.author: eos1089
-photo.74.link: https://www.instagram.com/eos1089/
-photo.74.tags: apple time, paws, portrait, standing, tail
-photo.75: https://www.instagram.com/p/CBNfZ8hB852/media/?size=m
-photo.75.author: ssc6105
-photo.75.link: https://www.instagram.com/ssc6105/
-photo.75.tags: paws, smile
-photo.76: https://www.instagram.com/p/CBKkcSUhTT0/media/?size=m
-photo.76.author: ssc6105
-photo.76.link: https://www.instagram.com/ssc6105/
-photo.76.tags: lips, techitechi
-photo.77: https://www.instagram.com/p/CBISabZB2MP/media/?size=m
+photo.72.tags: mofumofu, portrait
+photo.73: https://www.instagram.com/p/CBKkcSUhTT0/media/?size=m
+photo.73.author: ssc6105
+photo.73.commitdate: 2020/6/30
+photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.tags: lips, techitechi
+photo.74: https://www.instagram.com/p/CBNfZ8hB852/media/?size=m
+photo.74.author: ssc6105
+photo.74.commitdate: 2020/6/30
+photo.74.link: https://www.instagram.com/ssc6105/
+photo.74.tags: paws, smile
+photo.75: https://www.instagram.com/p/CBN_M-UBggG/media/?size=m
+photo.75.author: na.mo.pan
+photo.75.commitdate: 2020/6/30
+photo.75.link: https://www.instagram.com/na.mo.pan/
+photo.75.tags: mofumofu, portrait, slobber, smile
+photo.76: https://www.instagram.com/p/CBQHUMjhlc7/media/?size=m
+photo.76.author: eos1089
+photo.76.commitdate: 2020/6/30
+photo.76.link: https://www.instagram.com/eos1089/
+photo.76.tags: apple time, paws, portrait, standing, tail
+photo.77: https://www.instagram.com/p/CBRTtkRBCqC/media/?size=m
 photo.77.author: ssc6105
+photo.77.commitdate: 2020/6/30
 photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: mofumofu, portrait
+photo.77.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 1295
 zoo: 18
