@@ -308,44 +308,45 @@ photo.60.author: panda.daisuki
 photo.60.commitdate: 2019/10/28
 photo.60.link: https://www.instagram.com/panda.daisuki/
 photo.60.tags: laying down, portrait, white face
-photo.61: https://www.instagram.com/p/B4zWPsSBHCp/media/?size=m
-photo.61.author: daniele.tokyo
-photo.61.commitdate: 2019/11/22
-photo.61.link: https://www.instagram.com/daniele.tokyo/
-photo.61.tags: laying down, peek, paws, tail, tree
-photo.62: https://www.instagram.com/p/B43WV_hhaGY/media/?size=m
-photo.62.author: fetorus_mami
+photo.61: https://www.instagram.com/p/B4H66ZRBKVi/media/?size=m
+photo.61.author: panda.daisuki
+photo.61.commitdate: 2020/6/30
+photo.61.link: https://www.instagram.com/panda.daisuki/
+photo.61.tags: laying down, mofumofu, portrait, tail
+photo.62: https://www.instagram.com/p/B4zWPsSBHCp/media/?size=m
+photo.62.author: daniele.tokyo
 photo.62.commitdate: 2019/11/22
-photo.62.link: https://www.instagram.com/fetorus_mami/
-photo.62.tags: apple time, paws
-photo.63: https://www.instagram.com/p/B6aqX7hhcZH/media/?size=m
+photo.62.link: https://www.instagram.com/daniele.tokyo/
+photo.62.tags: laying down, peek, paws, tail, tree
+photo.63: https://www.instagram.com/p/B43WV_hhaGY/media/?size=m
 photo.63.author: fetorus_mami
-photo.63.commitdate: 2019/12/31
+photo.63.commitdate: 2019/11/22
 photo.63.link: https://www.instagram.com/fetorus_mami/
-photo.63.tags: autumn, portrait
-photo.64: https://www.instagram.com/p/B7Nu0wZhZII/media/?size=m
+photo.63.tags: apple time, paws
+photo.64: https://www.instagram.com/p/B6aqX7hhcZH/media/?size=m
 photo.64.author: fetorus_mami
-photo.64.commitdate: 2020/1/16
+photo.64.commitdate: 2019/12/31
 photo.64.link: https://www.instagram.com/fetorus_mami/
-photo.64.tags: apple time, dish, smile, window
-photo.65: https://www.instagram.com/p/B7Ps9kwhH8F/media/?size=m
+photo.64.tags: autumn, portrait
+photo.65: https://www.instagram.com/p/B7Nu0wZhZII/media/?size=m
 photo.65.author: fetorus_mami
-photo.65.commitdate: 2020/1/14
+photo.65.commitdate: 2020/1/16
 photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: tail, tree
-photo.66: https://www.instagram.com/p/B8EafqUBEfM/media/?size=m
+photo.65.tags: apple time, dish, smile, window
+photo.66: https://www.instagram.com/p/B7Ps9kwhH8F/media/?size=m
 photo.66.author: fetorus_mami
-photo.66.commitdate: 2020/2/23
+photo.66.commitdate: 2020/1/14
 photo.66.link: https://www.instagram.com/fetorus_mami/
-photo.66.tags: apple time, paws
-photo.67: https://www.instagram.com/p/B8lVYO3BBxp/media/?size=m
+photo.66.tags: tail, tree
+photo.67: https://www.instagram.com/p/B8EafqUBEfM/media/?size=m
 photo.67.author: fetorus_mami
-photo.67.commitdate: 2020/2/26
+photo.67.commitdate: 2020/2/23
 photo.67.link: https://www.instagram.com/fetorus_mami/
-photo.67.tags: apple time, tongue
-photo.68: https://www.instagram.com/p/B4H66ZRBKVi/media/?size=m
-photo.68.author: panda.daisuki
-photo.68.link: https://www.instagram.com/panda.daisuki/
-photo.68.tags: laying down, mofumofu, portrait, tail
+photo.67.tags: apple time, paws
+photo.68: https://www.instagram.com/p/B8lVYO3BBxp/media/?size=m
+photo.68.author: fetorus_mami
+photo.68.commitdate: 2020/2/26
+photo.68.link: https://www.instagram.com/fetorus_mami/
+photo.68.tags: apple time, tongue
 species: 2
 zoo: 9
