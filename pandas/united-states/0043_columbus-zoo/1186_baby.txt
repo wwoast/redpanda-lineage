@@ -1,0 +1,17 @@
+[panda]
+_id: 1186
+birthday: 2020/6/13
+birthplace: 43
+children: none
+commitdate: 2020/6/30
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1185
+species: 2
+zoo: 43
