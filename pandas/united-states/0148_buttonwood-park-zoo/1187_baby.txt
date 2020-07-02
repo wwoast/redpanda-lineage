@@ -4,7 +4,7 @@ birthday: 2020/6/9
 birthplace: 148
 children: none
 commitdate: 2020/6/30
-en.name: (no name)
+en.name: Buttonwood Park Zoo Baby
 en.nicknames: none
 en.othernames: none
 gender: unknown
@@ -13,5 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+photo.1: https://www.instagram.com/p/CCEeAm_jEWb/media/?size=m
+photo.1.author: buttonwoodparkzoo
+photo.1.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.1.tags: baby, mofumofu, newborn, portrait, profile
 species: 1
 zoo: 148
