@@ -339,13 +339,15 @@ photo.65.author: imagoto17
 photo.65.commitdate: 2020/6/1
 photo.65.link: https://www.instagram.com/imagoto17/
 photo.65.tags: paws, smile
-photo.66: https://www.instagram.com/p/CCDrMk1BdpJ/media/?size=m
-photo.66.author: kinkinkin0826
-photo.66.link: https://www.instagram.com/kinkinkin0826/
-photo.66.tags: bamboo, paws, portrait, whiskers
-photo.67: https://www.instagram.com/p/CB2uFseBWvT/media/?size=m
-photo.67.author: akiakiakiko18
-photo.67.link: https://www.instagram.com/akiakiakiko18/
-photo.67.tags: laying down, yawn
+photo.66: https://www.instagram.com/p/CB2uFseBWvT/media/?size=m
+photo.66.author: akiakiakiko18
+photo.66.commitdate: 2020/7/1
+photo.66.link: https://www.instagram.com/akiakiakiko18/
+photo.66.tags: laying down, yawn
+photo.67: https://www.instagram.com/p/CCDrMk1BdpJ/media/?size=m
+photo.67.author: kinkinkin0826
+photo.67.commitdate: 2020/7/1
+photo.67.link: https://www.instagram.com/kinkinkin0826/
+photo.67.tags: bamboo, paws, portrait, whiskers
 species: 2
 zoo: 58

@@ -85,13 +85,15 @@ photo.14.author: rie_panda55
 photo.14.commitdate: 2020/6/19
 photo.14.link: https://www.instagram.com/rie_panda55/
 photo.14.tags: paws, portrait, standing, window
-photo.15: https://www.instagram.com/p/CB_osE2BY68/media/?size=m
-photo.15.author: ssc6105
-photo.15.link: https://www.instagram.com/ssc6105/
-photo.15.tags: bridge, mofumofu, paws
-photo.16: https://www.instagram.com/p/CBlJhLdAJLX/media/?size=m
-photo.16.author: miis_98
-photo.16.link: https://www.instagram.com/miis_98/
-photo.16.tags: laying down, portrait
+photo.15: https://www.instagram.com/p/CBlJhLdAJLX/media/?size=m
+photo.15.author: miis_98
+photo.15.commitdate: 2020/7/1
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: laying down, portrait
+photo.16: https://www.instagram.com/p/CB_osE2BY68/media/?size=m
+photo.16.author: ssc6105
+photo.16.commitdate: 2020/7/1
+photo.16.link: https://www.instagram.com/ssc6105/
+photo.16.tags: bridge, mofumofu, paws
 species: 2
 zoo: 190

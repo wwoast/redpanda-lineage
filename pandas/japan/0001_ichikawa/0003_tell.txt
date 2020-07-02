@@ -392,14 +392,16 @@ photo.76.author: alto0908
 photo.76.commitdate: 2020/6/27
 photo.76.link: https://www.instagram.com/alto0908/
 photo.76.tags: nose, portrait
-photo.77: https://www.instagram.com/p/CCD0T2tBmVy/media/?size=m
-photo.77.author: pink.b22
-photo.77.link: https://www.instagram.com/pink.b22/
-photo.77.tags: door, nose, paws, portrait
-photo.78: https://www.instagram.com/p/CB-9fzvhod_/media/?size=m
-photo.78.author: rie_panda55
-photo.78.link: https://www.instagram.com/rie_panda55/
-photo.78.tags: laying down, paws, portrait
+photo.77: https://www.instagram.com/p/CB-9fzvhod_/media/?size=m
+photo.77.author: rie_panda55
+photo.77.commitdate: 2020/7/1
+photo.77.link: https://www.instagram.com/rie_panda55/
+photo.77.tags: laying down, paws, portrait
+photo.78: https://www.instagram.com/p/CCD0T2tBmVy/media/?size=m
+photo.78.author: pink.b22
+photo.78.commitdate: 2020/7/1
+photo.78.link: https://www.instagram.com/pink.b22/
+photo.78.tags: door, nose, paws, portrait
 species: 2
 studbook.id: 10112
 zoo: 1

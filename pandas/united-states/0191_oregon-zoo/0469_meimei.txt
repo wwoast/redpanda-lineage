@@ -16,30 +16,30 @@ litter: 470
 location.1: 84, 2015/7/1
 location.2: 90, 2016/5/27
 location.3: 191, 2019/5/10
-photo.1: https://www.instagram.com/p/BksR3_snL3y/media/?size=m
-photo.1.author: nashvillezoo
-photo.1.commitdate: 2018/11/30
-photo.1.link: https://www.instagram.com/nashvillezoo/
-photo.1.tags: bamboo
-photo.2: https://www.instagram.com/p/BY8vrsBDHJo/media/?size=m
-photo.2.author: nashvillezoo
-photo.2.commitdate: 2018/11/30
-photo.2.link: https://www.instagram.com/nashvillezoo/
-photo.3: https://www.instagram.com/p/BnwQ9lKB6g1/media/?size=m
-photo.3.author: theartistamanda
-photo.3.commitdate: 2018/12/12
-photo.3.link: https://www.instagram.com/theartistamanda/
-photo.3.tags: bamboo, smile
-photo.4: https://www.instagram.com/p/_mOTHFiBEg/media/?size=m
-photo.4.author: mickmicknyc
-photo.4.commitdate: 2018/12/19
-photo.4.link: https://www.instagram.com/mickmicknyc/
-photo.4.tags: profile
-photo.5: https://www.instagram.com/p/BDdN6rStG4B/media/?size=m
-photo.5.author: mariten1119
-photo.5.commitdate: 2018/12/19
-photo.5.link: https://www.instagram.com/mariten1119/
-photo.5.tags: mofumofu, tail
+photo.1: https://www.instagram.com/p/_mOTHFiBEg/media/?size=m
+photo.1.author: mickmicknyc
+photo.1.commitdate: 2018/12/19
+photo.1.link: https://www.instagram.com/mickmicknyc/
+photo.1.tags: profile
+photo.2: https://www.instagram.com/p/BDdN6rStG4B/media/?size=m
+photo.2.author: mariten1119
+photo.2.commitdate: 2018/12/19
+photo.2.link: https://www.instagram.com/mariten1119/
+photo.2.tags: mofumofu, tail
+photo.3: https://www.instagram.com/p/BY8vrsBDHJo/media/?size=m
+photo.3.author: nashvillezoo
+photo.3.commitdate: 2018/11/30
+photo.3.link: https://www.instagram.com/nashvillezoo/
+photo.4: https://www.instagram.com/p/BksR3_snL3y/media/?size=m
+photo.4.author: nashvillezoo
+photo.4.commitdate: 2018/11/30
+photo.4.link: https://www.instagram.com/nashvillezoo/
+photo.4.tags: bamboo
+photo.5: https://www.instagram.com/p/BnwQ9lKB6g1/media/?size=m
+photo.5.author: theartistamanda
+photo.5.commitdate: 2018/12/12
+photo.5.link: https://www.instagram.com/theartistamanda/
+photo.5.tags: bamboo, smile
 photo.6: https://www.instagram.com/p/BxSiC2Fjfxg/media/?size=m
 photo.6.author: oregonzoo
 photo.6.commitdate: 2019/5/15
