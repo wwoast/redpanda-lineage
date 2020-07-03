@@ -13,5 +13,21 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+photo.1: https://www.instagram.com/p/BhOo777nJLG/media/?size=m
+photo.1.author: laura.edwardphotography
+photo.1.link: https://www.instagram.com/laura.edwardphotography/
+photo.1.tags: portrait, whiskers, white face
+photo.2: https://www.instagram.com/p/BdMueVQlNJv/media/?size=m
+photo.2.author: laura.edwardphotography
+photo.2.link: https://www.instagram.com/laura.edwardphotography/
+photo.2.tags: paws, portrait, smile, white face
+photo.3: https://www.instagram.com/p/BjKL6G5njm6/media/?size=m
+photo.3.author: laura.edwardphotography
+photo.3.link: https://www.instagram.com/laura.edwardphotography/
+photo.3.tags: paws, portrait, white face
+photo.4: https://www.instagram.com/p/Bs4C_XeHOY3/media/?size=m
+photo.4.author: tasmania_zoo
+photo.4.link: https://www.instagram.com/tasmania_zoo/
+photo.4.tags: white face
 species: 1
 zoo: 206
