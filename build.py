@@ -758,6 +758,9 @@ class UpdateFromCommits:
             elif change.added <= 0:
                 # Don't care about lines we removed
                 continue
+            elif os.path.exists(filename) == False:
+                # Don't care about files removed
+                continue
             else:
                 # New photo. Track photo on its own
                 for hunk in change:
