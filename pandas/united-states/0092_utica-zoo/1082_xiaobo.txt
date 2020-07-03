@@ -4,11 +4,11 @@ birthday: 2019/7/6
 birthplace: 92
 children: none
 commitdate: 2019/12/29
-en.name: Xiabo
+en.name: Xiaobo
 en.nicknames: none
-en.othernames: Xia-Bo
+en.othernames: Xia-Bo, Xiabo, Xiao-Bo
 gender: m
-jp.name: シアボ
+jp.name: シャオボ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
@@ -38,5 +38,9 @@ photo.5.author: colleenhaley14
 photo.5.commitdate: 2020/2/23
 photo.5.link: https://www.instagram.com/colleenhaley14/
 photo.5.tags: baby, portrait, profile
+photo.6: https://www.instagram.com/p/CB8PMj6nVD5/media/?size=m
+photo.6.author: uticazoo
+photo.6.link: https://www.instagram.com/uticazoo/
+photo.6.tags: toys
 species: 2
 zoo: 92
