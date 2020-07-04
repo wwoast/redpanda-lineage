@@ -9,7 +9,7 @@ cn.othernames: none
 commitdate: 2018/6/10
 en.name: Oolong
 en.nicknames: Wu-Ron
-en.othernames: none
+en.othernames: Oolomg
 gender: m
 jp.name: ウーロン
 jp.nicknames: none
@@ -803,4 +803,5 @@ photo.159.commitdate: 2020/6/5
 photo.159.link: https://www.instagram.com/lespan33/
 photo.159.tags: portrait, window
 species: 2
+studbook.id: 11131
 zoo: 2

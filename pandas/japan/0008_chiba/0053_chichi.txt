@@ -7,7 +7,7 @@ commitdate: 2018/6/19
 death: 2015/7/18
 en.name: Chi-Chi
 en.nicknames: none
-en.othernames: Chii-Chii, Chichi, Chiichii
+en.othernames: Chii-Chii, Chichi, Chiichii, Tyi-Tyi, Tyityi
 gender: f
 jp.name: チィチィ
 jp.nicknames: none
@@ -27,4 +27,5 @@ photo.2.commitdate: 2018/7/19
 photo.2.link: https://www.instagram.com/jwg13777/
 photo.2.tags: profile
 species: 2
+studbook.id: 0361
 zoo: 8

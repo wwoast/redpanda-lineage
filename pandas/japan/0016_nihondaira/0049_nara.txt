@@ -17,4 +17,5 @@ litter: 336
 location.1: 40, 2000/7/17
 location.2: 16, 2001/12/18
 species: 2
+studbook.id: 00103
 zoo: 16
