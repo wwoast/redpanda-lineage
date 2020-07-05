@@ -6,7 +6,7 @@ children: 175, 174, 173
 commitdate: 2018/7/13
 en.name: Xianchi
 en.nicknames: none
-en.othernames: Shanzhi
+en.othernames: Shanzhi, Syanchi
 gender: m
 jp.name: シャンチー
 jp.nicknames: none
@@ -165,4 +165,5 @@ photo.30.commitdate: 2020/4/2
 photo.30.link: https://www.instagram.com/itsuak/
 photo.30.tags: peek, portrait, tree
 species: 2
+studbook.id: 0768
 zoo: 46

@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/7/14
 en.name: Luka
 en.nicknames: none
-en.othernames: Luca
+en.othernames: Luca, Ruka
 gender: f
 jp.name: ルカ
 jp.nicknames: none
@@ -484,4 +484,5 @@ photo.94.commitdate: 2020/6/21
 photo.94.link: https://www.instagram.com/kinkinkin0826/
 photo.94.tags: paws, smile, tail, tree
 species: 2
+studbook.id: 1677
 zoo: 50

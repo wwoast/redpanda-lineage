@@ -7,7 +7,7 @@ commitdate: 2018/7/13
 death: 2019/3/12
 en.name: Ryuunosuke
 en.nicknames: none
-en.othernames: none
+en.othernames: Ryunosuke
 gender: m
 jp.name: 緑之介
 jp.nicknames: none
@@ -37,4 +37,5 @@ photo.4.commitdate: 2018/9/22
 photo.4.link: https://www.instagram.com/kipekaila/
 photo.4.tags: ear, eye, old
 species: 2
+studbook.id: 9998
 zoo: 46

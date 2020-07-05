@@ -6,7 +6,7 @@ children: 181, 182, 183, 73
 commitdate: 2018/7/13
 en.name: Aqua
 en.nicknames: none
-en.othernames: none
+en.othernames: Akua
 gender: m
 jp.name: アクア
 jp.nicknames: none
@@ -125,4 +125,5 @@ photo.22.commitdate: 2020/6/20
 photo.22.link: https://www.instagram.com/tabechum/
 photo.22.tags: laying down, portrait, sleeping
 species: 2
+studbook.id: 10109
 zoo: 31
