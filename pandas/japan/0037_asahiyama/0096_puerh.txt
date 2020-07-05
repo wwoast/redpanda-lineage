@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/23
 en.name: Pu'erh
 en.nicknames: none
-en.othernames: Puerh, Pu-erh
+en.othernames: Puerh, Pu-erh, Puer
 gender: m
 jp.name: プーアル
 jp.nicknames: none
@@ -223,4 +223,5 @@ photo.42.commitdate: 2020/5/17
 photo.42.link: https://www.instagram.com/sasapan34/
 photo.42.tags: paws, snow
 species: 2
+studbook.id: 15134
 zoo: 37

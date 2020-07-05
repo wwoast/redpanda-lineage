@@ -7,7 +7,7 @@ commitdate: 2018/7/14
 death: 2019/11/24
 en.name: Boo-Boo
 en.nicknames: none
-en.othernames: Booboo, Bubu, Buu-Buu, Bu-Bu, Bubu, Bū-Bū
+en.othernames: Booboo, Bubu, Buu-Buu, Bu-Bu, Bū-Bū
 gender: m
 jp.name: ブーブー
 jp.nicknames: none
@@ -141,4 +141,5 @@ photo.25.commitdate: 2019/12/3
 photo.25.link: https://www.instagram.com/pantasanzoo1/
 photo.25.tags: mofumofu, old, paws
 species: 2
+studbook.id: 97111
 zoo: 17
