@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/25
 en.name: Milky
 en.nicknames: none
-en.othernames: Meruki
+en.othernames: Meruki, Miruki, Miruki-
 gender: f
 jp.name: ミルキー
 jp.nicknames: none
@@ -304,4 +304,5 @@ photo.58.commitdate: 2020/6/5
 photo.58.link: https://www.instagram.com/framereim/
 photo.58.tags: portrait
 species: 2
+studbook.id: 13163
 zoo: 29

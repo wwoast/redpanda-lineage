@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/25
 en.name: Taiyo
 en.nicknames: none
-en.othernames: none
+en.othernames: Taiyou
 gender: m
 jp.name: たいよう
 jp.nicknames: none
@@ -222,4 +222,5 @@ photo.42.commitdate: 2020/4/6
 photo.42.link: https://www.instagram.com/resapan.suki/
 photo.42.tags: home, peek, portrait
 species: 2
+studbook.id: 13143
 zoo: 13

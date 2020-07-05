@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/25
 en.name: Light
 en.nicknames: none
-en.othernames: Right
+en.othernames: Right, Raito
 gender: m
 jp.name: ライト
 jp.nicknames: none
@@ -306,4 +306,5 @@ photo.59.commitdate: 2020/2/22
 photo.59.link: https://www.instagram.com/tomo3700/
 photo.59.tags: home, portrait, snow, tail
 species: 2
+studbook.id: 13167
 zoo: 13

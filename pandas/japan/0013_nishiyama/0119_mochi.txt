@@ -6,7 +6,7 @@ children: 955, 956
 commitdate: 2018/6/25
 en.name: Mochi
 en.nicknames: none
-en.othernames: Moochie
+en.othernames: Moochie, Mocchii
 gender: m
 jp.name: モッチー
 jp.nicknames: none
@@ -372,4 +372,5 @@ photo.72.commitdate: 2020/6/20
 photo.72.link: https://www.instagram.com/minato.yokohama2130/
 photo.72.tags: portrait, tree, videolink
 species: 2
+studbook.id: 15132
 zoo: 13

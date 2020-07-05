@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/28
 en.name: Holy
 en.nicknames: none
-en.othernames: Holly
+en.othernames: Holly, Hory
 gender: f
 jp.name: ホーリー
 jp.nicknames: none
@@ -140,4 +140,5 @@ photo.26.commitdate: 2020/6/21
 photo.26.link: https://www.instagram.com/kisshan324/
 photo.26.tags: mofumofu, portrait
 species: 2
+studbook.id: 1675
 zoo: 16
