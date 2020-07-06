@@ -192,7 +192,7 @@ Parse.keyword.panda = {
 }
 Parse.keyword.tag = {
   "cn": ['TOWRITE'],
-  "en": ['tag', 'Tag', 'tags', 'Tags'],
+  "en": ['label', 'labels', 'Label', 'Labels', 'tag', 'Tag', 'tags', 'Tags'],
   "jp": ['TOWRITE']
 }
 Parse.keyword.zoo = {
