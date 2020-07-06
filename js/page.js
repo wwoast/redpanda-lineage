@@ -522,6 +522,7 @@ Page.routes.behavior = function(input) {
              (input.split("/").length == 2)) {
     // link for a single zoo result.
     var zoo = input.slice(5);
+    Query.env.output_mode = "entities";
     query_string = "zoo" + " " + zoo;
   } else {
     // Don't know how to process the hashlink, so do nothing
