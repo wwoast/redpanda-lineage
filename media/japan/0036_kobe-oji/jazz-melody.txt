@@ -7,6 +7,8 @@ photo.1.author: peek_a_boo00
 photo.1.commitdate: 2020/7/2
 photo.1.link: https://www.instagram.com/peek_a_boo00/
 photo.1.tags: laying down, paws, playing, upside-down
+photo.1.tags.166.location: 115, 200
+photo.1.tags.167.location: 200, 230
 photo.2: https://www.instagram.com/p/Brbbzb_ljGa/media/?size=m
 photo.2.author: wumpwoast
 photo.2.commitdate: 2019/11/24
@@ -75,8 +77,12 @@ photo.11.author: colette.jp
 photo.11.commitdate: 2020/7/2
 photo.11.link: https://www.instagram.com/colette.jp/
 photo.11.tags: fighting, paws, portrait, siblings, standing, tail, twins
+photo.11.tags.166.location: 120, 90
+photo.11.tags.167.location: 170, 65
 photo.12: https://www.instagram.com/p/B_HYpLth_09/media/?size=m
 photo.12.author: mifko55
 photo.12.commitdate: 2020/7/2
 photo.12.link: https://www.instagram.com/mifko55/
 photo.12.tags: siblings, twins
+photo.12.tags.166.location: 180, 50
+photo.12.tags.167.location: 175, 175
