@@ -83,6 +83,8 @@ class RedPandaGraph:
         This requires the entire children edge dataset to have been read.
         We make stacks of child -> parent -> grandparent ... paths,
         and look for any duplicate IDs in the stacks.
+
+        Only run this check on nodes just added to the dataset.
         """
         # Start with the set of pandas that have no children
         childless_ids = [p['_id'] for p in self.vertices
@@ -154,6 +156,32 @@ class RedPandaGraph:
         if ("http://" in author or "https://" in author):
             raise AuthorError("ERROR: %s: %s should not be a URL: %s"
                               % (sourcepath, field_name, author))
+
+    def check_imported_birthday_consistency(self, infile):
+        """
+        The birthday field and location.1 field dates should always match.
+        Animals that haven't moved don't need to worry about this consistency.
+        """
+        birthday = infile.get("panda", "birthday", fallback=None)
+        location = infile.get("panda", "location.1", fallback=None)
+        panda_id = infile.get("panda", "_id")
+        panda_name = infile.get("panda", "en.name")
+        if birthday == None:
+            return   # No birthday being tracked
+        if birthday == "unknown":
+            return   # Can't validate the birthday properly
+        if location == None:
+            return   # Animal hasn't ever moved, so no checks necessary
+        if location.find(", ") == -1:
+            return   # Location has no birthday to validate
+        if location.find(", ") == -1 and birthday != "unknown":
+            raise DateConsistencyError("Panda has valid birthday not mirrored in location.1 field: %s, %s"
+                                        % (panda_id, panda_name))
+        else:
+            location = location.split(", ")[1]   # Date after the comma-space
+            if birthday != location:
+                raise DateConsistencyError("location.1 and birthday don't match for panda: %s, %s"
+                                            % (panda_id, panda_name))
 
     def check_imported_date(self, date, date_type, sourcepath):
         """
@@ -481,6 +509,9 @@ class RedPandaGraph:
             else:
                 # Accept the data and move along
                 panda_vertex[field[0]] = field[1]
+        # Per entity checks
+        self.check_imported_birthday_consistency(infile)
+        # If everything went well, extend the graph
         self.edges.extend(panda_edges)
         self.vertices.append(panda_vertex)
         self.panda_files.append(path)
