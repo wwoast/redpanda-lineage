@@ -435,6 +435,10 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_name = Reversible(Choices(Parse.group.takes_subject_name), r_name);
   var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
+  // Unary keyword with two subjects
+  // Used to search for photo credits of a specific animal
+  var c_k_unary_credit_author_and_name = Reversible(Choices(Parse.group.takes_subject_author), r_name, r_name);
+  var c_k_unary_credit_author_and_id = Reversible(Choices(Parse.group.takes_subject_author), r_name, r_id);
   // Groups of tags or keywords or unary items
   var c_k_group_ids = Repeat(r_id);
   var c_k_group_tags = Repeat(Choices(Parse.group.tags, 2));
@@ -450,6 +454,8 @@ Parse.tree.build_grammar = function() {
     c_k_group_tags_name,  // Tags followed by a name-string
     c_k_group_tags_id,    // Tags followed by id-number
     c_k_group_ids,        // Sequence of panda IDs
+    c_k_unary_credit_author_and_name,   // credit <author> <panda-name>
+    c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
     c_k_unary_year,       // Unary keywords followed by year-number
     c_k_unary_number,     // Unary keywords followed by id-number
     c_k_unary_name,       // Unary keywords followed by a name-string
