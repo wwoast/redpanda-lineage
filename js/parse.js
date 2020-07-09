@@ -781,6 +781,13 @@ Parse.tree.types.subject = [
   "subject_year",
   "subject_zoo_id"
 ];
+Parse.tree.types.subject_author = [
+  "subject_author"
+];
+Parse.tree.types.subject_filter = [
+  "subject_id",
+  "subject_name"
+];
 Parse.tree.types.singular = Parse.tree.types.keyword
   .concat(Parse.tree.types.subject);
 Parse.tree.tests = {};
@@ -789,6 +796,8 @@ Parse.tree.tests.keyword = Parse.tree.types.keyword.map(t => ({"type": t}));
 Parse.tree.tests.sets = Parse.tree.types.sets.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
 Parse.tree.tests.subject = Parse.tree.types.subject.map(t => ({"type": t}));
+Parse.tree.tests.subject_author = Parse.tree.types.subject_author.map(t => ({"type": t}));
+Parse.tree.tests.subject_filter = Parse.tree.types.subject_filter.map(t => ({"type": t}));
 // Start with leaf nodes containing type: "subject_*" in the parse tree,
 // and then work your way up until you're looking at the parser's stanza
 // where it parsed that subject in context of another keyword. Re-classify
