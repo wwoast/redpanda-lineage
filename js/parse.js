@@ -437,8 +437,8 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
   // Unary keyword with two subjects
   // Used to search for photo credits of a specific animal
-  var c_k_unary_credit_author_and_name = Reversible(Choices(Parse.group.takes_subject_author), r_name, r_name);
-  var c_k_unary_credit_author_and_id = Reversible(Choices(Parse.group.takes_subject_author), r_name, r_id);
+  var c_k_unary_credit_author_and_name = Reversible(Sequence(Choices(Parse.group.takes_subject_author), r_name), r_name);
+  var c_k_unary_credit_author_and_id = Reversible(Sequence(Choices(Parse.group.takes_subject_author), r_name), r_id);
   // Groups of tags or keywords or unary items
   var c_k_group_ids = Repeat(r_id);
   var c_k_group_tags = Repeat(Choices(Parse.group.tags, 2));
