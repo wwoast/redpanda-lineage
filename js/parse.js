@@ -637,6 +637,15 @@ Parse.tree.node_type_composite_ids = function(node) {
       return "set_only_subjects";
     }
   }
+  // Handle the credit <author> <panda-name-or-id-filter> form
+  // TODO: if we have more of this "filter style form" change this logic
+  if (singulars.length == 3) {
+    if (singulars[0] == "keyword" &&
+        singulars[1].indexOf("subject") == 0 &&
+        singulars[2].indexOf("subject") == 0) {
+      return "set_credit_photos_filtered";
+    }
+  }
   // Handle binary parse structures
   if (singulars.length > 2) {
     if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag") {
@@ -736,6 +745,7 @@ Parse.tree.types.sets = [
   "set_babies_year_list",
   "set_baby_subject",  
   "set_credit_photos",
+  "set_credit_photos_filtered",
   "set_family_list",
   "set_keyword",
   "set_keywords",
