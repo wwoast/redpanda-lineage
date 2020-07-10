@@ -1204,7 +1204,8 @@ Pandas.searchPandaZooDied = function(idnum, months=6) {
 }
 
 // Find all nodes with a particular photo credit.
-Pandas.searchPhotoCredit = function(author) {
+// Optionally, filter by a list of panda ids.
+Pandas.searchPhotoCredit = function(author, filter_ids=[]) {
   var photo_fields = Pandas.photoGeneratorMax;
   var nodes = [];
   // Gets zoo photos
@@ -1223,9 +1224,16 @@ Pandas.searchPhotoCredit = function(author) {
       nodes = nodes.concat(search);
     }
   }
-  // Return any unique nodes that matched one of these searches
-  return nodes.filter(function(value, index, self) { 
+  return nodes.filter(function(value, index, self) {
+    // Return any unique nodes that matched one of these searches
     return self.indexOf(value) === index;
+  }).filter(function(value, index, self) {
+    // Filter by desired panda ids
+    if (filter_ids.length == 0) {
+      return true;
+    } else {
+      return filter_ids.indexOf(value["_id"]) != -1;
+    }
   });
 }
 

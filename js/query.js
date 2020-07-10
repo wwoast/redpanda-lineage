@@ -82,25 +82,29 @@ Query.resolver.begin = function(input_string) {
     return Query.resolver.filter_set(set_nodes[0]);
   }
 }
-// The parse tree found multiple sets. TODO: For now, assume that this
-// is a filter set.
+// The parse tree found multiple sets.
+// For now, assume that this is a filter set. TODO: generalize
 Query.resolver.filter_set = function(set_node) {
   var hits = [];
   var keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
   var search_word = undefined;
+  var filter_word = undefined;
   if (set_node.type == "set_credit_photos_filtered") {
     var author_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_author)[0];
     var filter_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_filter)[0];
+    search_word = author_node.str;
+    filter_word = filter_node.str;
     Query.env.output_mode = "photos";
     Query.env.paging.display_button = true;
-    hits = undefined // Pandas.searchPhotoCreditFilter(search_word); // WIP TODO
+    filter_ids = Pandas.searchPanda(filter_word).map(n => n["_id"]);
+    hits = Pandas.searchPhotoCredit(search_word, filter_ids);
   }
   return {
+    "filter": filter_word,
     "hits": hits,
     "parsed": set_node.type,
     "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
-    "tag": undefined
   }
 }
 // The parse tree found a group with one set, and many nodes
