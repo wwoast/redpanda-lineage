@@ -78,8 +78,15 @@ Query.resolver.begin = function(input_string) {
     return Query.resolver.group_one_set(set_nodes[0]);
   }
   // Filter search (set nodes inside another set)
+  // Start processing based on the outer set. Decide the outer
+  // set based on which "set node" is based on a larger portion
+  // of the input string
   if (set_nodes.length == 2 && singular_nodes.length > 2) {
-    return Query.resolver.filter_set(set_nodes[0]);
+    var start_node = set_nodes.reduce(function(prev, current) {
+      return (prev.end - prev.start > 
+              current.end - current.start) ? prev : current
+    });
+    return Query.resolver.filter_set(start_node);
   }
 }
 // The parse tree found multiple sets.

@@ -292,7 +292,7 @@ Parse.regex = {};
 // Any number, positive or negative
 Parse.regex.id = '(?:^[\-0-9][0-9]*)';
 // Any sequence of strings separated by spaces
-Parse.regex.name = '(?:^[^\n]*)';
+Parse.regex.name = '(?:^[^\n]+)';
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 
 /*
