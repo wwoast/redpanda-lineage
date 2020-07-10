@@ -103,7 +103,7 @@ Query.resolver.filter_set = function(set_node) {
     filter_word = filter_node.str;
     Query.env.output_mode = "photos";
     Query.env.paging.display_button = true;
-    filter_ids = Pandas.searchPanda(filter_word).map(n => n["_id"]);
+    var filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n["_id"]);
     hits = Pandas.searchPhotoCredit(search_word, filter_ids);
   }
   return {
