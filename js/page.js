@@ -462,7 +462,19 @@ Page.routes.behavior = function(input) {
   // Do a task based on what the route is.
   // TODO: add tag search URIs
   var query_string = undefined;
-  if (input.indexOf("#credit/") == 0) {
+  if ((input.indexOf("#credit/") == 0) && 
+  (input.split("/").length == 3)) {
+    // link for a page of photo credits for a specific author,
+    // including only a specific animal.
+    var uri_items = input.slice(8);
+    var [ author, filter ] = uri_items.split("/");
+    // Don't adjust case for author searches, but eventually we
+    // still need to do case-adjustment for the panda name itself
+    Query.env.preserve_case = true;
+    Query.env.output_mode = "photos";   // Set output mode for a photo list
+    query_string = "credit" + " " + author + " " + filter;
+  } else if ((input.indexOf("#credit/") == 0) && 
+      (input.split("/").length == 2)) {
     // link for a page of photo credits for a specific author
     var photo_author = input.slice(8);
     Query.env.preserve_case = true;     // Don't adjust case for author searches
@@ -698,7 +710,8 @@ Page.results.photos = function(results) {
   } else if (results["parsed"].indexOf("set_tag_intersection") == 0) {
     // Combo tag views, no emoji in the name field
     content_divs = Gallery.tagPhotos(results, L.display, max_hits, false);
-  } else if (results["parsed"] == "set_credit_photos") {
+  } else if ((results["parsed"] == "set_credit_photos") || 
+             (results["parsed"] == "set_credit_photos_filtered")) {
     content_divs = Gallery.creditPhotos(results, L.display, max_hits);
   }
   // HACK: revert to results mode
