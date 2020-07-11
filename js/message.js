@@ -121,6 +121,41 @@ Message.credit = function(credit, count, language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.creditSingleFilter = function(credit, filter, count, language) {
+  // Draw a header for crediting someone's photos contribution 
+  // with the correct language
+  filter = Language.capitalNames(filter);
+  var p = document.createElement('p');
+  for (var i in L.messages.credit_animal_filter_single[language]) {
+    var field = L.messages.credit_animal_filter_single[language][i];
+    if (field == "<INSERTUSER>") {
+      field = credit;
+      var msg = document.createElement('i');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else if (field == "<INSERTNUMBER>") {
+      field = count;
+      var msg = document.createElement('b');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else if (field == "<INSERTNAME>") {
+      field = filter;
+      var msg = document.createElement('b');
+      msg.innerText = field;
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "creditSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.departed_to_zoo = function(zoo, date, language) {
   // Text to go into the Show.zooLink function
   var text = "";

@@ -416,7 +416,12 @@ Gallery.creditPhotos = function(results, language, max_hits) {
   var content_divs = photo_results["output"];
   var photo_count = photo_results["hit_count"];
   // Write some HTML with summary information for the user and the number of photos
-  var header = Message.credit(results["subject"], photo_count, language);
+  var header = "";
+  if (results["filter"] != undefined) {
+    header = Message.creditSingleFilter(results["subject"], results["filter"], photo_count, language);
+  } else {
+    header = Message.credit(results["subject"], photo_count, language);
+  }
   content_divs.unshift(header);
   return content_divs;
 }

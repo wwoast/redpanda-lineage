@@ -292,7 +292,7 @@ Parse.regex = {};
 // Any number, positive or negative
 Parse.regex.id = '(?:^[\-0-9][0-9]*)';
 // Any sequence of strings separated by spaces
-Parse.regex.name = '(?:^[^\n]*)';
+Parse.regex.name = '(?:^[^\n]+)';
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 
 /*
@@ -435,6 +435,10 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_name = Reversible(Choices(Parse.group.takes_subject_name), r_name);
   var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
+  // Unary keyword with two subjects
+  // Used to search for photo credits of a specific animal
+  var c_k_unary_credit_author_and_name = Reversible(Sequence(Choices(Parse.group.takes_subject_author), r_name), r_name);
+  var c_k_unary_credit_author_and_id = Reversible(Sequence(Choices(Parse.group.takes_subject_author), r_name), r_id);
   // Groups of tags or keywords or unary items
   var c_k_group_ids = Repeat(r_id);
   var c_k_group_tags = Repeat(Choices(Parse.group.tags, 2));
@@ -450,6 +454,8 @@ Parse.tree.build_grammar = function() {
     c_k_group_tags_name,  // Tags followed by a name-string
     c_k_group_tags_id,    // Tags followed by id-number
     c_k_group_ids,        // Sequence of panda IDs
+    c_k_unary_credit_author_and_name,   // credit <author> <panda-name>
+    c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
     c_k_unary_year,       // Unary keywords followed by year-number
     c_k_unary_number,     // Unary keywords followed by id-number
     c_k_unary_name,       // Unary keywords followed by a name-string
@@ -631,6 +637,15 @@ Parse.tree.node_type_composite_ids = function(node) {
       return "set_only_subjects";
     }
   }
+  // Handle the credit <author> <panda-name-or-id-filter> form
+  // TODO: if we have more of this "filter style form" change this logic
+  if (singulars.length == 3) {
+    if (singulars[0] == "keyword" &&
+        singulars[1].indexOf("subject") == 0 &&
+        singulars[2].indexOf("subject") == 0) {
+      return "set_credit_photos_filtered";
+    }
+  }
   // Handle binary parse structures
   if (singulars.length > 2) {
     if (Pandas.distinct(singulars).length == 1 && singulars[0] == "tag") {
@@ -730,6 +745,7 @@ Parse.tree.types.sets = [
   "set_babies_year_list",
   "set_baby_subject",  
   "set_credit_photos",
+  "set_credit_photos_filtered",
   "set_family_list",
   "set_keyword",
   "set_keywords",
@@ -765,6 +781,13 @@ Parse.tree.types.subject = [
   "subject_year",
   "subject_zoo_id"
 ];
+Parse.tree.types.subject_author = [
+  "subject_author"
+];
+Parse.tree.types.subject_filter = [
+  "subject_id",
+  "subject_name"
+];
 Parse.tree.types.singular = Parse.tree.types.keyword
   .concat(Parse.tree.types.subject);
 Parse.tree.tests = {};
@@ -773,6 +796,8 @@ Parse.tree.tests.keyword = Parse.tree.types.keyword.map(t => ({"type": t}));
 Parse.tree.tests.sets = Parse.tree.types.sets.map(t => ({"type": t}));
 Parse.tree.tests.singular = Parse.tree.types.singular.map(t => ({"type": t}));
 Parse.tree.tests.subject = Parse.tree.types.subject.map(t => ({"type": t}));
+Parse.tree.tests.subject_author = Parse.tree.types.subject_author.map(t => ({"type": t}));
+Parse.tree.tests.subject_filter = Parse.tree.types.subject_filter.map(t => ({"type": t}));
 // Start with leaf nodes containing type: "subject_*" in the parse tree,
 // and then work your way up until you're looking at the parser's stanza
 // where it parsed that subject in context of another keyword. Re-classify
