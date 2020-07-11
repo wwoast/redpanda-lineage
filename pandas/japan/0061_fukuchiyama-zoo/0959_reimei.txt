@@ -1,6 +1,6 @@
 [panda]
 _id: 959
-birthday: 2019/7/18
+birthday: 2019/7/10
 birthplace: 61
 children: none
 commitdate: 2019/10/6
@@ -358,5 +358,33 @@ photo.69.author: kisshan324
 photo.69.commitdate: 2020/6/3
 photo.69.link: https://www.instagram.com/kisshan324/
 photo.69.tags: close-up, laying down, mofumofu, portrait, smile
+photo.70: https://www.instagram.com/p/CB779exhkRY/media/?size=m
+photo.70.author: kinkinkin0826
+photo.70.link: https://www.instagram.com/kinkinkin0826/
+photo.70.tags: home, paws, smile
+photo.71: https://www.instagram.com/p/CB7Y2PMBPKD/media/?size=m
+photo.71.author: kisshan324
+photo.71.link: https://www.instagram.com/kisshan324/
+photo.71.tags: door, paws, peek, portrait, smile
+photo.72: https://www.instagram.com/p/CA7mftYBrJe/media/?size=m
+photo.72.author: love__mitarashi
+photo.72.link: https://www.instagram.com/love__mitarashi/
+photo.72.tags: tail
+photo.73: https://www.instagram.com/p/CBxvmhDBOgC/media/?size=m
+photo.73.author: love__mitarashi
+photo.73.link: https://www.instagram.com/love__mitarashi/
+photo.73.tags: portrait, smile, tree
+photo.74: https://www.instagram.com/p/CCcMBiGBte9/media/?size=m
+photo.74.author: panda.daisuki
+photo.74.link: https://www.instagram.com/panda.daisuki/
+photo.74.tags: portrait, whiskers
+photo.75: https://www.instagram.com/p/CCTAY2EhNbw/media/?size=m
+photo.75.author: kisshan324
+photo.75.link: https://www.instagram.com/kisshan324/
+photo.75.tags: mofumofu, portrait
+photo.76: https://www.instagram.com/p/CAzYQaNBHR0/media/?size=m
+photo.76.author: love__mitarashi
+photo.76.link: https://www.instagram.com/love__mitarashi/
+photo.76.tags: mofumofu, tail
 species: 2
 zoo: 61
