@@ -1642,7 +1642,6 @@ Pandas.gender = function(animal, language) {
 // Given an animal from a media/ file with tag info that indicates
 // pixel location in a photo, generate a string describing which
 // pandas are in the photo.
-// TODO: handle other languages than English and Japanese with fallbacks
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
   var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
@@ -1653,13 +1652,14 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     var panda = Pandas.searchPandaId(id)[0];
     var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
     var info = {
-      "name": panda[L.display + ".name"],
+      "name": panda[L.display + ".name"],  // TODO: write a language function for proper name fallback
       "x": parseInt(x),
       "y": parseInt(y)
     }
     if (info["name"] == undefined) {
       // Override using the next best name (bias value)
       // TODO: use proper language ordering, and move this to language.js
+      // TODO: write a language function for proper name fallback
       info["name"] = panda[L.bias[L.display][0] + ".name"];
     }
     animals.push(info);

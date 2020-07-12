@@ -96,6 +96,7 @@ Query.resolver.filter_set = function(set_node) {
   var keyword_nodes = Parse.tree.filter(set_node, Parse.tree.tests.keyword);
   var search_word = undefined;
   var filter_word = undefined;
+  var parsed = set_node.type;
   if (set_node.type == "set_credit_photos_filtered") {
     var author_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_author)[0];
     var filter_node = Parse.tree.filter(set_node, Parse.tree.tests.subject_filter)[0];
@@ -104,12 +105,23 @@ Query.resolver.filter_set = function(set_node) {
     Query.env.output_mode = "photos";
     Query.env.paging.display_button = true;
     var filter_ids = Pandas.searchPandaMedia(filter_word).map(n => n["_id"]);
+    if (filter_ids.length == 0) {
+      // Fall back to normal credit photo search
+      parsed = "set_credit_photos";
+      filter_word = undefined;
+    } else {
+      // If idnum given, show name instead
+      if (parseInt(filter_word) > 0) {
+        // TODO: write a language function for proper name fallback
+        filter_word = Pandas.searchPanda(filter_word)[0][L.display + ".name"];
+      }
+    }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids);
   }
   return {
     "filter": filter_word,
     "hits": hits,
-    "parsed": set_node.type,
+    "parsed": parsed,
     "query": set_node.str.replace(/\n/g, " "),
     "subject": search_word,
   }
