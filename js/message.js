@@ -571,6 +571,7 @@ Message.tag_subject = function(num, name, emoji, tag, language) {
   if (Pandas.checkId(name) == true) {
     name = Pandas.searchPandaId(name)[0][language + ".name"];
   }
+  name = Language.capitalNames(name);
   // For translating a tag between languages, we need the first value in
   // the array of tags considered equivalent.
   // Need to look up "baby" info as well from the polyglot list of things
