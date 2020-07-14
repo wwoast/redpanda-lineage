@@ -220,7 +220,7 @@ class RedPandaGraph:
         This limitation applies to zoos, pandas, and other details, and is
         intended to make text formatting simpler.
         """
-        if len(name) > 80:
+        if len(name) > 100:
             raise NameFormatError("ERROR: %s: %s name too long: %s"
                                   % (sourcepath, field, name))
     
