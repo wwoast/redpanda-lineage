@@ -666,12 +666,12 @@ Gallery.actionPhotos = function(language, id_list, photo_count=10) {
 
 // Get lists of animals who died in the last two weeks.
 // Return a div with the exact desired output.
-Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5) {
+Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, message_function) {
   var memorial_div = document.createElement('div');
   for (let id of id_list) {
     var animal = Pandas.searchPandaId(id)[0];
     var info = Show.acquirePandaInfo(animal, language);
-    var message = Message.memorial(info.name, info.id, info.birthday, info.death, language);
+    var message = message_function(info.name, info.id, info.birthday, info.death, language);
     memorial_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
     for (let photo of Pandas.randomChoice(photos, photo_count)) {

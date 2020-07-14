@@ -268,6 +268,38 @@ Message.memorial = function(name, animal_id, birth, death, language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.missing_you = function(name, animal_id, birth, death, language) {
+  var link = document.createElement('a');
+  link.href = "#panda/" + animal_id;
+  var p = document.createElement('p');
+  for (var i in L.messages.missing_you[language]) {
+    var field = L.messages.missing_you[language][i];
+    if (field == "<INSERTNAME>") {
+      field = name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<INSERTBIRTH>") {
+      field = birth;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<INSERTDEATH>") {
+      field = death;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "memorialSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.new_photos = function(language) {
   // Grab update counts
   var counts = {
