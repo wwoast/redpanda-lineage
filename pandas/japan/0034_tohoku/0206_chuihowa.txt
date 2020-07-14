@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/7/26
 en.name: Chuihowa
 en.nicknames: none
-en.othernames: Chuy-How, Chuy-Fa, Chuihiwa, Chuyhowa, Chuy-Howa, Chuifa, Ju-Hua, Juhua
+en.othernames: Chuy-How, Chuy-Fa, Chuihiwa, Chuyhowa, Chuy-Howa, Chuifa, Ju-Hua, Juhua, Cheihowa
 gender: f
 jp.name: チュイホワ
 jp.nicknames: none
@@ -85,4 +85,5 @@ photo.15.commitdate: 2020/2/7
 photo.15.link: https://www.instagram.com/craig_craig_craig/
 photo.15.tags: paws, portrait
 species: 2
+studbook.id: 10113
 zoo: 34

@@ -6,7 +6,7 @@ children: 161, 205, 103
 commitdate: 2018/7/26
 en.name: Ron-Ron
 en.nicknames: none
-en.othernames: none
+en.othernames: Ron Ron
 gender: m
 jp.name: ロンロン
 jp.nicknames: none
@@ -40,4 +40,5 @@ photo.5.commitdate: 2019/10/17
 photo.5.link: https://www.instagram.com/fetorus_mami/
 photo.5.tags: paws, portrait
 species: 2
+studbook.id: 0269
 zoo: 34

@@ -6,7 +6,7 @@ children: 161, 205, 103
 commitdate: 2018/7/26
 en.name: Shiryu
 en.nicknames: none
-en.othernames: Sea-Ryu, Shiliu, Shi-Liu
+en.othernames: Sea-Ryu, Shiliu, Shi-Liu, Shiiriu
 gender: f
 jp.name: シーリィウ
 jp.nicknames: none
@@ -97,4 +97,5 @@ photo.17.commitdate: 2020/7/12
 photo.17.link: https://www.instagram.com/ssc6105/
 photo.17.tags: paws, portrait
 species: 2
+studbook.id: 0769
 zoo: 34
