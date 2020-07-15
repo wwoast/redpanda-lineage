@@ -90,16 +90,19 @@ photo.15.author: ifumoto88
 photo.15.commitdate: 2020/3/28
 photo.15.link: https://www.instagram.com/ifumoto88/
 photo.15.tags: old, mofumofu, smile, whiskers
-photo.16: https://www.instagram.com/p/CCawOpTB0Es/media/?size=m
-photo.16.author: daniele.tokyo
-photo.16.link: https://www.instagram.com/daniele.tokyo/
-photo.16.tags: mofumofu, old, portrait, techitechi, whiskers
-photo.17: https://www.instagram.com/p/CCapUoth1FN/media/?size=m
-photo.17.author: leonard_redmof
-photo.17.link: https://www.instagram.com/leonard_redmof/
-photo.17.tags: mofumofu, old, portrait
+photo.16: https://www.instagram.com/p/CCapUoth1FN/media/?size=m
+photo.16.author: leonard_redmof
+photo.16.commitdate: 2020/7/14
+photo.16.link: https://www.instagram.com/leonard_redmof/
+photo.16.tags: mofumofu, old, portrait
+photo.17: https://www.instagram.com/p/CCawOpTB0Es/media/?size=m
+photo.17.author: daniele.tokyo
+photo.17.commitdate: 2020/7/14
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: mofumofu, old, portrait, techitechi, whiskers
 photo.18: https://www.instagram.com/p/CCbD7IqBS0O/media/?size=m
 photo.18.author: mini_cochi
+photo.18.commitdate: 2020/7/14
 photo.18.link: https://www.instagram.com/mini_cochi/
 photo.18.tags: old, paws, portrait, smile
 species: 2
