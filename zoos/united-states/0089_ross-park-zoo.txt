@@ -3,14 +3,15 @@ _id: 89
 commitdate: 2018/11/23
 en.address: 60 Morgan Rd, Binghamton, NY 13903
 en.location: Binghamton, NY, USA
-en.name: Binghamton Zoo at Ross Park
+en.name: Ross Park Zoo
+en.othernames: Binghamton Zoo at Ross Park
 flag: USA
 language.order: en
 latitude: 42.0875777
 longitude: -75.9133327
 map: https://goo.gl/maps/BoeUeTysCJy
 photo.1: https://www.instagram.com/p/BoZZPJUluE1/media/?size=m
-photo.1.author: binghamtonzoo
+photo.1.author: rossparkzoo
 photo.1.commitdate: 2019/4/30
-photo.1.link: https://www.instagram.com/binghamtonzoo/
-website: https://rossparkzoo.com/
+photo.1.link: https://www.instagram.com/rossparkzoo/
+website: https://rossparkzoo.org/
