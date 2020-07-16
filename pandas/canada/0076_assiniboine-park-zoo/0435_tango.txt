@@ -15,18 +15,19 @@ language.order: en, jp
 litter: none
 location.1: 82, 2015/7/30
 location.2: 76, 2016/11/1
-photo.1: https://www.instagram.com/p/BSRcOr4gxdl/media/?size=m
-photo.1.author: edmontonvalleyzoo
-photo.1.commitdate: 2018/11/25
-photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
-photo.1.tags: hammock, profile
-photo.2: https://www.instagram.com/p/BR3HoTyj2HD/media/?size=m
-photo.2.author: buildingourzoo
-photo.2.commitdate: 2019/4/8
-photo.2.link: https://www.instagram.com/buildingourzoo/
-photo.2.tags: bamboo
+photo.1: https://www.instagram.com/p/BR3HoTyj2HD/media/?size=m
+photo.1.author: buildingourzoo
+photo.1.commitdate: 2019/4/8
+photo.1.link: https://www.instagram.com/buildingourzoo/
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/BSRcOr4gxdl/media/?size=m
+photo.2.author: edmontonvalleyzoo
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.2.tags: hammock, profile
 photo.3: https://www.instagram.com/p/CCJhPmXA8HC/media/?size=m
 photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2020/7/16
 photo.3.link: https://www.instagram.com/assiniboineparkzoo/
 photo.3.tags: lunch time, paws, smile
 species: 2
