@@ -113,7 +113,7 @@ Query.resolver.filter_set = function(set_node) {
       // If idnum given, show name instead
       if (parseInt(filter_word) > 0) {
         // TODO: write a language function for proper name fallback
-        filter_word = Pandas.searchPanda(filter_word)[0][L.display + ".name"];
+        filter_word = Language.fallback_name(Pandas.searchPanda(filter_word)[0]);
       }
     }
     hits = Pandas.searchPhotoCredit(search_word, filter_ids);
