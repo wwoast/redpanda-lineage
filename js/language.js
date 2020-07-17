@@ -644,13 +644,13 @@ Language.L.messages = {
     "cn": "和",
     "en": " & ",
     "jp": "と",
-    "np": "र"
+    "np": " र "
   },
   "and_words": {
     "cn": "和",
     "en": " and ",
     "jp": "と",
-    "np": "र"
+    "np": " र "
   },
   "arrived_from_zoo": {
     "cn": ["<INSERTDATE>",

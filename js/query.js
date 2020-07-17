@@ -112,7 +112,6 @@ Query.resolver.filter_set = function(set_node) {
     } else {
       // If idnum given, show name instead
       if (parseInt(filter_word) > 0) {
-        // TODO: write a language function for proper name fallback
         filter_word = Language.fallback_name(Pandas.searchPanda(filter_word)[0]);
       }
     }
