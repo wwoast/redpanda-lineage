@@ -1639,7 +1639,7 @@ Pandas.gender = function(animal, language) {
                              : Pandas.def.gender[gender][language];
 }
 
-// Given an animal from a media/ file with tag info that indicates
+// Given an animal from a media/file with tag info that indicates
 // pixel location in a photo, generate a string describing which
 // pandas are in the photo.
 Pandas.groupMediaCaption = function(entity, photo_index) {
@@ -1651,16 +1651,11 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     // Must be a numeric non-negative panda ID
     var panda = Pandas.searchPandaId(id)[0];
     var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
+    var name = Language.fallback_name(panda);
     var info = {
-      "name": panda[L.display + ".name"],  // TODO: write a language function for proper name fallback
+      "name": name,  // TODO: write a language function for proper name fallback
       "x": parseInt(x),
       "y": parseInt(y)
-    }
-    if (info["name"] == undefined) {
-      // Override using the next best name (bias value)
-      // TODO: use proper language ordering, and move this to language.js
-      // TODO: write a language function for proper name fallback
-      info["name"] = panda[L.bias[L.display][0] + ".name"];
     }
     animals.push(info);
   }

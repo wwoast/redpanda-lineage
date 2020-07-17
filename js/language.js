@@ -2493,6 +2493,20 @@ Language.editDistance = function(a, b){
 // For fallback functions, don't replace these fields
 Language.fallback_blacklist = ["othernames", "nicknames"];
 
+Language.fallback_name = function(entity) {
+  var entity_order = entity["language.order"].split(", ");
+  var order = Language.currentOrder(entity_order, L.display);
+  order.unshift(L.display);   // Display language always comes first
+  for (let language of order) {
+    var name = entity[language + ".name"]
+    if (name != undefined) {
+      return name; 
+    }
+  }
+  // Fallback default name
+  return Pandas.def.animal[L.display + ".name"];
+}
+
 Language.hiraganaToKatakana = function(input) {
   var source_range = Pandas.def.ranges['jp'][1];   // Hiragana range regex
   var test = source_range.test(input);
