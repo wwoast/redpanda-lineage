@@ -19,12 +19,12 @@ photo.1: https://www.instagram.com/p/Bp-y3CklnyZ/media/?size=m
 photo.1.author: tabechum
 photo.1.commitdate: 2018/11/11
 photo.1.link: https://www.instagram.com/tabechum/
-photo.1.tags: lunch time, profile, smile, tongue
+photo.1.tags: lunch time, portrait, profile, smile, tongue
 photo.2: https://www.instagram.com/p/Bj53fZvAxyM/media/?size=m
 photo.2.author: ngsbiopark
 photo.2.commitdate: 2018/12/26
 photo.2.link: https://www.instagram.com/ngsbiopark/
-photo.2.tags: smile
+photo.2.tags: portrait, smile
 photo.3: https://www.instagram.com/p/BT6Yj2fFSqn/media/?size=m
 photo.3.author: sbskyy
 photo.3.commitdate: 2018/12/26
@@ -34,6 +34,6 @@ photo.4: https://www.instagram.com/p/BxZq0pUFfGS/media/?size=m
 photo.4.author: daniele.tokyo
 photo.4.commitdate: 2019/5/16
 photo.4.link: https://www.instagram.com/daniele.tokyo/
-photo.4.tags: tongue, white face
+photo.4.tags: portrait, tongue, white face
 species: 2
 zoo: 3
