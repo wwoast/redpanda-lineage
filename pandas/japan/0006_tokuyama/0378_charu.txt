@@ -38,15 +38,15 @@ photo.5.author: daniele.tokyo
 photo.5.commitdate: 2019/5/15
 photo.5.link: https://www.instagram.com/daniele.tokyo/
 photo.5.tags: paws, portrait, profile
-photo.6: https://www.instagram.com/p/ByXoWDHhA9z/media/?size=m
-photo.6.author: animal_love_us
-photo.6.commitdate: 2020/2/16
-photo.6.link: https://www.instagram.com/animal_love_us/
-photo.6.tags: bamboo, peek
-photo.7: https://www.instagram.com/p/Bx-yo2oBwnO/media/?size=m
-photo.7.author: kipekaila
-photo.7.commitdate: 2019/5/29
-photo.7.link: https://www.instagram.com/kipekaila/
-photo.7.tags: portrait, smile
+photo.6: https://www.instagram.com/p/Bx-yo2oBwnO/media/?size=m
+photo.6.author: kipekaila
+photo.6.commitdate: 2019/5/29
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: portrait, smile
+photo.7: https://www.instagram.com/p/ByXoWDHhA9z/media/?size=m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/16
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: bamboo, peek
 species: 2
 zoo: 6
