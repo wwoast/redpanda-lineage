@@ -1424,7 +1424,7 @@ Language.L.messages = {
     "cn": ["组合搜索:",
            "<INSERTNUM>",
            "相片。"],
-    "en": [" Combo: ",
+    "en": [" combo: ",
            "<INSERTNUM>",
            " photos."],
     "jp": ["コンボ検索:",
