@@ -33,25 +33,20 @@ photo.4.author: animal_love_us
 photo.4.commitdate: 2020/2/16
 photo.4.link: https://www.instagram.com/animal_love_us/
 photo.4.tags: baby, peek, portrait
-photo.5: https://www.instagram.com/p/Bt1qE-7FPRQ/media/?size=m
-photo.5.author: craig_craig_craig
-photo.5.commitdate: 2020/2/17
-photo.5.link: https://www.instagram.com/craig_craig_craig/
-photo.5.tags: peek, portrait
-photo.6: https://www.instagram.com/p/BxXJds0lYT0/media/?size=m
-photo.6.author: daniele.tokyo
-photo.6.commitdate: 2019/5/15
-photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: paws, portrait, profile
-photo.7: https://www.instagram.com/p/ByXoWDHhA9z/media/?size=m
-photo.7.author: animal_love_us
-photo.7.commitdate: 2020/2/16
-photo.7.link: https://www.instagram.com/animal_love_us/
-photo.7.tags: bamboo, peek
-photo.8: https://www.instagram.com/p/Bx-yo2oBwnO/media/?size=m
-photo.8.author: kipekaila
-photo.8.commitdate: 2019/5/29
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: portrait, smile
+photo.5: https://www.instagram.com/p/BxXJds0lYT0/media/?size=m
+photo.5.author: daniele.tokyo
+photo.5.commitdate: 2019/5/15
+photo.5.link: https://www.instagram.com/daniele.tokyo/
+photo.5.tags: paws, portrait, profile
+photo.6: https://www.instagram.com/p/ByXoWDHhA9z/media/?size=m
+photo.6.author: animal_love_us
+photo.6.commitdate: 2020/2/16
+photo.6.link: https://www.instagram.com/animal_love_us/
+photo.6.tags: bamboo, peek
+photo.7: https://www.instagram.com/p/Bx-yo2oBwnO/media/?size=m
+photo.7.author: kipekaila
+photo.7.commitdate: 2019/5/29
+photo.7.link: https://www.instagram.com/kipekaila/
+photo.7.tags: portrait, smile
 species: 2
 zoo: 6
