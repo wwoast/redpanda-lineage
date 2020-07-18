@@ -1664,7 +1664,7 @@ Language.L.tags = {
   "bear worm": {
        "cn": ["蠕动"],
     "emoji": [Language.L.emoji.caterpillar],
-       "en": ["bear worm"],
+       "en": ["bear worm", "bear-worm"],
        "jp": ["のびのび"],
        "np": ["कीरा भालु"]
   },
