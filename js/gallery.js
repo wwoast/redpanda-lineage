@@ -768,8 +768,7 @@ Gallery.pandaPhotoCreditSingle = function(item) {
 
 // Display a gallery of photos with a given tag.
 Gallery.tagPhotos = function(results, language, max_hits, add_emoji) {
-  var page_results = results["hits"].slice();   // Working copy of photo set
-  var hit_count = page_results.length;
+  var hit_count = results["hits"].length;
   // Get the first page of content
   var paging_data = Gallery.tagPhotosPage(0, results, language, max_hits, add_emoji);
   var content_divs = paging_data["output"];
@@ -788,7 +787,7 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
   var starting_point = page * Query.env.paging.results_count;
   // Working copy of photo set, shuffled
   var page_results = results["hits"].slice();
-  page_results = Pandas.shuffleWithSeed(results["hits"], Query.env.paging.seed);
+  page_results = Pandas.shuffleWithSeed(page_results, Query.env.paging.seed);
   page_results = page_results.slice(starting_point);
   var hit_count = page_results.length;
   if (page == 0 && Query.env.paging.shown_pages > 1) {
