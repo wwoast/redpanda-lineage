@@ -274,7 +274,7 @@ Page.home.render = function() {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
     }
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["14"], 5, Message.missing_you)
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["14", "22"], 5, Message.missing_you)
     new_content.appendChild(memorial);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
