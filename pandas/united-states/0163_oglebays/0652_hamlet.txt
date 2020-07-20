@@ -20,7 +20,7 @@ photo.1: https://www.instagram.com/p/zK8pi3ykI7/media/?size=m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/5/7
 photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: profile, white face
+photo.1.tags: portrait, profile, white face
 photo.2: https://www.instagram.com/p/BvaOYm6hUVY/media/?size=m
 photo.2.author: deerjerk
 photo.2.commitdate: 2019/7/15
@@ -30,6 +30,6 @@ photo.3: https://www.instagram.com/p/zK8w4uykJK/media/?size=m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2020/1/22
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: white face
+photo.3.tags: portrait, white face
 species: 1
 zoo: 163
