@@ -460,11 +460,12 @@ Gallery.creditPhotosPage = function(page, results, language, max_hits) {
     content_photos = content_photos.slice(0, max_hits);
     // Set callbacks for next button, and redraw footer
     Query.env.paging.callback.function = Gallery.creditPhotosPage;
+    var pages_shown = initial_max_hits / Query.env.paging.results_count;
     Query.env.paging.callback.arguments = [
-      page + 1,
+      page + pages_shown,
       results,
       language,
-      initial_max_hits,
+      Query.env.paging.results_count
     ];
     Query.env.paging.callback.frame_id = "contentFrame";
   }
@@ -802,11 +803,12 @@ Gallery.tagPhotosPage = function(page, results, language, max_hits, add_emoji) {
     page_results = page_results.slice(0, max_hits);
     // Set callbacks for next button, and redraw footer
     Query.env.paging.callback.function = Gallery.tagPhotosPage;
+    var pages_shown = initial_max_hits / Query.env.paging.results_count;
     Query.env.paging.callback.arguments = [
-      page + 1,
+      page + pages_shown,
       results,
       language,
-      initial_max_hits,
+      Query.env.paging.results_count,
       add_emoji
     ];
     Query.env.paging.callback.frame_id = "contentFrame";

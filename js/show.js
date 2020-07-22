@@ -815,6 +815,26 @@ Show.button.paging.action = function(callback, parameters, frame_id, class_name)
   // after changing the shown language 
   Query.env.paging.shown_pages = Query.env.paging.shown_pages + 1;
 }
+Show.button.paging.altAction = function(callback, parameters, frame_id, class_name) {
+  Show.button.language.hide();   // If language menu open, hide it
+  parameters[3] = parameters[3] * 5;   // 5x the number of results
+  var paging_data = callback.apply(null, parameters);
+  var new_photos = paging_data["output"];
+  // Append content into the page. HACK: always the first child of the container frame
+  var frame = document.getElementById(frame_id).childNodes[0];
+  for (let new_photo of new_photos) {
+    frame.appendChild(new_photo);
+  }
+  // Update the page count for the next button to use
+  parameters[0] = parameters[0] + 5;
+  // Return paging back to default
+  parameters[3] = parameters[3] / 5;
+  // Redraw the footer with the next action, with the correct color (class_name)
+  Page.footer.redraw(class_name)
+  // Increment the shown page counter, in case we want to refresh
+  // after changing the shown language 
+  Query.env.paging.shown_pages = Query.env.paging.shown_pages + 5;
+}
 Show.button.paging.render = function(class_name) {
   var paging = Show.button.render("pagingButton", L.emoji.paging, L.gui.paging[L.display], class_name);
   // Get callback function and arguments from Query.env
@@ -823,6 +843,10 @@ Show.button.paging.render = function(class_name) {
   var frame_id = Query.env.paging.callback.frame_id;
   paging.addEventListener("click", function() {
     Show.button.paging.action(callback, parameters, frame_id, class_name);
+  });
+  paging.addEventListener("contextmenu", function(e) {
+    e.preventDefault();       // Prevent normal right-click menu from firing
+    Show.button.paging.altAction(callback, parameters, frame_id, class_name);
   });
   // English and Japanese text is too wide
   var text = paging.childNodes[0].childNodes[1];
