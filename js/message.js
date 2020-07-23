@@ -236,6 +236,38 @@ Message.geolocationStart = function(language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.lostAnimal = function(name, animal_id, zoo_name, zoo_contact, language) {
+  var link = document.createElement('a');
+  link.href = "#panda/" + animal_id;
+  var p = document.createElement('p');
+  for (var i in L.messages.lost_animal[language]) {
+    var field = L.messages.lost_animal[language][i];
+    if (field == "<INSERTNAME>") {
+      field = name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<ZOONAME>") {
+      field = zoo_name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else if (field == "<ZOOCONTACT>") {
+      field = zoo_contact;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "memorialSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.memorial = function(name, animal_id, birth, death, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;

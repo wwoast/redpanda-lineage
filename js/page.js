@@ -270,6 +270,17 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
+    var kora = Show.acquirePandaInfo(Pandas.searchPandaId("999")[0], L.display);
+    var kora_zoo = Show.acquireZooInfo(Pandas.searchZooId(kora["zoo"])[0], L.display);
+    var korabear_args = [
+      kora["name"],
+      kora["_id"],
+      kora_zoo["name"],
+      "614-582-1844",
+      L.display
+    ];
+    var korabear = Gallery.genericPhotoCredits(L.display, ["999"], 5, ["portrait"], Message.lostAnimal, korabear_args);
+    new_content.appendChild(korabear);
     var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)
     new_content.appendChild(ginbear);
     if (Pandas.searchBirthday().length > 0) {

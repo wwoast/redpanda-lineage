@@ -665,6 +665,46 @@ Gallery.actionPhotos = function(language, id_list, photo_count=10) {
   return;   // TOWRITE
 }
 
+// Generic version of the birthday / memorial logic
+Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list, message_function, message_params) {
+  var generic_div = document.createElement('div');
+  for (let id of id_list) {
+    var animal = Pandas.searchPandaId(id)[0];
+    var info = Show.acquirePandaInfo(animal, language);
+    var message = message_function.apply(null, message_params);
+    generic_div.appendChild(message);
+    var photos = Pandas.searchPhotoTags([animal], tag_list, "photos", "first");
+    for (let photo of Pandas.randomChoice(photos, photo_count)) {
+      var img_link = document.createElement('a');
+      // Link to the original instagram media
+      img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
+      var img = document.createElement('img');
+      img.src = photo["photo"];
+      img.src = img.src.replace('/?size=l', '/?size=m');
+      img_link.appendChild(img);
+      // Link to the original instagram media
+      var caption_link = document.createElement('a');
+      caption_link.href = photo["photo.link"];
+      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
+      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.target = "_blank";   // Open in new tab
+      var caption = document.createElement('h5');
+      caption.className = "caption memorialMessage";
+      var caption_span = document.createElement('span');
+      caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+      // TODO: condenser
+      caption.appendChild(caption_span);
+      caption_link.appendChild(caption);
+      var container = document.createElement('div');
+      container.className = "photoSample quarterPage";
+      container.appendChild(img_link);
+      container.appendChild(caption_link);
+      generic_div.appendChild(container);
+    }
+  }
+  return generic_div;  
+}
+
 // Get lists of animals who died in the last two weeks.
 // Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, message_function) {
