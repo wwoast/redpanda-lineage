@@ -221,6 +221,30 @@ Message.findNearbyZoo = function(language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.foundAnimal = function(name, animal_id, language) {
+  var link = document.createElement('a');
+  link.href = "#panda/" + animal_id;
+  var p = document.createElement('p');
+  for (var i in L.messages.found_animal[language]) {
+    var field = L.messages.found_animal[language][i];
+    if (field == "<INSERTNAME>") {
+      field = name;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "memorialSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.geolocationStart = function(language) {
   var p = document.createElement('p');
   for (var i in L.messages.nearby_zoos[language]) {
@@ -238,7 +262,7 @@ Message.geolocationStart = function(language) {
 }
 Message.lostAnimal = function(name, animal_id, zoo_name, zoo_contact, language) {
   var link = document.createElement('a');
-  link.href = "#panda/" + animal_id;
+  link.href = "#profile/" + animal_id;
   var p = document.createElement('p');
   for (var i in L.messages.lost_animal[language]) {
     var field = L.messages.lost_animal[language][i];

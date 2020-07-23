@@ -272,15 +272,12 @@ Page.home.render = function() {
     new_content.id = "contentFrame";
     // Kora is missing :(
     var kora = Show.acquirePandaInfo(Pandas.searchPandaId("999")[0], L.display);
-    var kora_zoo = Show.acquireZooInfo(Pandas.searchZooId(kora["zoo"])[0], L.display);
     var korabear_args = [
       kora["name"],
       kora["id"],
-      kora_zoo["name"],
-      "(614) 582-1844",
       L.display
     ];
-    var korabear = Gallery.genericPhotoCredits(L.display, ["999"], 5, ["portrait"], Message.lostAnimal, korabear_args);
+    var korabear = Gallery.genericPhotoCredits(L.display, ["999"], 3, ["portrait"], Message.foundAnimal, korabear_args);
     new_content.appendChild(korabear);
     // Current memorials
     var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)

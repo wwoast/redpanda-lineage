@@ -792,6 +792,28 @@ Language.L.messages = {
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
            " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२० Justin Fairchild द्वारा।"]
   },
+  "found_animal": {
+    "cn": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           " has been found and is safe!"],
+    "en": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           " has been found and is safe!"],
+    "jp": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           " has been found and is safe!"],
+    "np": [Language.L.emoji.flower, " ",
+           Language.L.emoji.see_and_say, 
+           " ",
+           "<INSERTNAME>",
+           " has been found and is safe!"]
+  },
   "goodbye": {
     "cn": ["后会有期, ",
            "<INSERTNAME>",
