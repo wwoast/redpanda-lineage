@@ -274,7 +274,7 @@ Page.home.render = function() {
     var kora_zoo = Show.acquireZooInfo(Pandas.searchZooId(kora["zoo"])[0], L.display);
     var korabear_args = [
       kora["name"],
-      kora["_id"],
+      kora["id"],
       kora_zoo["name"],
       "614-582-1844",
       L.display
