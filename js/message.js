@@ -252,8 +252,10 @@ Message.lostAnimal = function(name, animal_id, zoo_name, zoo_contact, language) 
       p.appendChild(msg);
     } else if (field == "<ZOOCONTACT>") {
       field = zoo_contact;
+      var b = document.createElement('b');
       var msg = document.createTextNode(field);
-      p.appendChild(msg);
+      b.appendChild(msg);
+      p.appendChild(b);
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);

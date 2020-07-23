@@ -265,28 +265,32 @@ Page.home.render = function() {
   var old_content = document.getElementById('contentFrame');
   Show["results"].menus.language();
   Show["results"].menus.top();
-  // Special birthday logic!
+  // Special homepage headers
   if (P.db != undefined) {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
+    // Kora is missing :(
     var kora = Show.acquirePandaInfo(Pandas.searchPandaId("999")[0], L.display);
     var kora_zoo = Show.acquireZooInfo(Pandas.searchZooId(kora["zoo"])[0], L.display);
     var korabear_args = [
       kora["name"],
       kora["id"],
       kora_zoo["name"],
-      "614-582-1844",
+      "(614) 582-1844",
       L.display
     ];
     var korabear = Gallery.genericPhotoCredits(L.display, ["999"], 5, ["portrait"], Message.lostAnimal, korabear_args);
     new_content.appendChild(korabear);
+    // Current memorials
     var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)
     new_content.appendChild(ginbear);
+    // Birthday logic
     if (Pandas.searchBirthday().length > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
     }
+    // Please remember these pandas
     var memorial = Gallery.memorialPhotoCredits(L.display, ["22", "14"], 5, Message.missing_you);
     new_content.appendChild(memorial);
     var nearby = Message.findNearbyZoo(L.display);
