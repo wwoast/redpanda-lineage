@@ -233,22 +233,21 @@ photo.44: https://www.instagram.com/p/CAmlZwCnl2N/media/?size=m
 photo.44.author: wumpwoast
 photo.44.commitdate: 2020/5/25
 photo.44.link: https://www.instagram.com/wumpwoast/
-photo.44.tags: paws, tongue, tail
-photo.45: https://www.instagram.com/p/CB3W9iUBB05/media/?size=m
-photo.45.author: akiakiakiko18
-photo.45.link: https://www.instagram.com/akiakiakiko18/
-photo.45.tags: grooming, laying down, paws, tongue
-photo.46: https://www.instagram.com/p/CAmlZwCnl2N/media/?size=m
-photo.46.author: wumpwoast
-photo.46.link: https://www.instagram.com/wumpwoast/
-photo.46.tags: itchy, paws, tail
-photo.47: https://www.instagram.com/p/CBVXz1whK-9/media/?size=m
-photo.47.author: kinkinkin0826
-photo.47.link: https://www.instagram.com/kinkinkin0826/
-photo.47.tags: bamboo, portrait, tongue
-photo.48: https://www.instagram.com/p/CBikbX8hYmI/media/?size=m
-photo.48.author: nakacchi_desu
-photo.48.link: https://www.instagram.com/nakacchi_desu/
-photo.48.tags: smile, tongue, whiskers
+photo.44.tags: itchy, paws, tail, tongue
+photo.45: https://www.instagram.com/p/CBVXz1whK-9/media/?size=m
+photo.45.author: kinkinkin0826
+photo.45.commitdate: 2020/7/24
+photo.45.link: https://www.instagram.com/kinkinkin0826/
+photo.45.tags: bamboo, portrait, tongue
+photo.46: https://www.instagram.com/p/CBikbX8hYmI/media/?size=m
+photo.46.author: nakacchi_desu
+photo.46.commitdate: 2020/7/24
+photo.46.link: https://www.instagram.com/nakacchi_desu/
+photo.46.tags: smile, tongue, whiskers
+photo.47: https://www.instagram.com/p/CB3W9iUBB05/media/?size=m
+photo.47.author: akiakiakiko18
+photo.47.commitdate: 2020/7/24
+photo.47.link: https://www.instagram.com/akiakiakiko18/
+photo.47.tags: grooming, laying down, paws, tongue
 species: 2
 zoo: 58

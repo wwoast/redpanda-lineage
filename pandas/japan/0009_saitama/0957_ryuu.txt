@@ -198,30 +198,35 @@ photo.37.author: wumpwoast
 photo.37.commitdate: 2020/5/29
 photo.37.link: https://www.instagram.com/wumpwoast/
 photo.37.tags: eye, portrait
-photo.38: https://www.instagram.com/p/CCEHFWAhZmQ/media/?size=m
-photo.38.author: fetorus_mami
-photo.38.commitdate: 2020/7/1
-photo.38.link: https://www.instagram.com/fetorus_mami/
-photo.38.tags: paws, peek, smile
-photo.39: https://www.instagram.com/p/CCtNe0LB-nN/media/?size=m
-photo.39.author: mini_cochi
-photo.39.link: https://www.instagram.com/mini_cochi/
-photo.39.tags: portrait
-photo.40: https://www.instagram.com/p/CCDd1yqh0nT/media/?size=m
-photo.40.author: ssc6105
-photo.40.link: https://www.instagram.com/ssc6105/
-photo.40.tags: bamboo, portrait
-photo.41: https://www.instagram.com/p/CCBFL1GBSDU/media/?size=m
-photo.41.author: kaoru_a358
-photo.41.link: https://www.instagram.com/kaoru_a358/
-photo.41.tags: grooming, paws, tongue
-photo.42: https://www.instagram.com/p/CC5wyTUBsGh/media/?size=m
+photo.38: https://www.instagram.com/p/CCBFL1GBSDU/media/?size=m
+photo.38.author: kaoru_a358
+photo.38.commitdate: 2020/7/24
+photo.38.link: https://www.instagram.com/kaoru_a358/
+photo.38.tags: grooming, paws, tongue
+photo.39: https://www.instagram.com/p/CCDd1yqh0nT/media/?size=m
+photo.39.author: ssc6105
+photo.39.commitdate: 2020/7/24
+photo.39.link: https://www.instagram.com/ssc6105/
+photo.39.tags: bamboo, portrait
+photo.40: https://www.instagram.com/p/CCEHFWAhZmQ/media/?size=m
+photo.40.author: fetorus_mami
+photo.40.commitdate: 2020/7/1
+photo.40.link: https://www.instagram.com/fetorus_mami/
+photo.40.tags: paws, peek, smile
+photo.41: https://www.instagram.com/p/CCtNe0LB-nN/media/?size=m
+photo.41.author: mini_cochi
+photo.41.commitdate: 2020/7/24
+photo.41.link: https://www.instagram.com/mini_cochi/
+photo.41.tags: portrait
+photo.42: https://www.instagram.com/p/CC2R3PrhIsx/media/?size=m
 photo.42.author: alto0908
+photo.42.commitdate: 2020/7/24
 photo.42.link: https://www.instagram.com/alto0908/
-photo.42.tags: laying down, portrait
-photo.43: https://www.instagram.com/p/CC2R3PrhIsx/media/?size=m
+photo.42.tags: bamboo, close-up, portrait
+photo.43: https://www.instagram.com/p/CC5wyTUBsGh/media/?size=m
 photo.43.author: alto0908
+photo.43.commitdate: 2020/7/24
 photo.43.link: https://www.instagram.com/alto0908/
-photo.43.tags: bamboo, close-up, portrait
+photo.43.tags: laying down, portrait
 species: 2
 zoo: 9
