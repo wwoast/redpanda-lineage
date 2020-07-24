@@ -270,7 +270,7 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Kora is missing :(
+    // Kora is found!
     var kora = Show.acquirePandaInfo(Pandas.searchPandaId("999")[0], L.display);
     var korabear_args = [
       kora["name"],
