@@ -1,17 +1,17 @@
 [panda]
-_id: 1172
+_id: 1171
 birthday: 2020/5/25
 birthplace: 67
 children: none
 commitdate: 2020/6/14
-en.name: Baby
+en.name: Zan
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: m
+jp.name: ザン
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 1171
+litter: 1172
 species: 2
 zoo: 67
