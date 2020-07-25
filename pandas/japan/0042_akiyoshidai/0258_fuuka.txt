@@ -6,7 +6,7 @@ children: 176, 177, 178
 commitdate: 2018/7/28
 en.name: Fuuka
 en.nicknames: none
-en.othernames: none
+en.othernames: Fuka
 gender: f
 jp.name: 風香
 jp.nicknames: none
@@ -34,4 +34,5 @@ photo.4.commitdate: 2020/5/14
 photo.4.link: https://www.instagram.com/yossi929/
 photo.4.tags: bamboo, ear, smile, whiskers
 species: 2
+studbook.id: 1198
 zoo: 42

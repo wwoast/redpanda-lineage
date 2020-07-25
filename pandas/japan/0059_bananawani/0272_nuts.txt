@@ -7,7 +7,7 @@ commitdate: 2018/7/29
 death: 2019/11/1
 en.name: Nuts
 en.nicknames: none
-en.othernames: Natsu
+en.othernames: Natsu, Natu
 gender: m
 jp.name: ナッツ
 jp.nicknames: none
@@ -66,4 +66,5 @@ photo.11.commitdate: 2019/10/8
 photo.11.link: https://www.instagram.com/fetorus_mami/
 photo.11.tags: bamboo
 species: 1
+studbook.id: 1092
 zoo: 59

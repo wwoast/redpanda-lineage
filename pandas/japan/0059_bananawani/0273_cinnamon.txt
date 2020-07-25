@@ -6,7 +6,7 @@ children: 275, 276, 277, 278, 279, 317, 318, 319
 commitdate: 2018/7/29
 en.name: Cinnamon
 en.nicknames: none
-en.othernames: none
+en.othernames: Sinamon
 gender: m
 jp.name: シナモン
 jp.nicknames: none
@@ -63,4 +63,5 @@ photo.10.commitdate: 2020/5/4
 photo.10.link: https://www.instagram.com/ayusuke56/
 photo.10.tags: laying down, portrait, tree
 species: 1
+studbook.id: 0999
 zoo: 59
