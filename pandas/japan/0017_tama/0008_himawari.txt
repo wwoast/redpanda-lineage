@@ -1617,30 +1617,36 @@ photo.321.author: rie_panda55
 photo.321.commitdate: 2020/7/1
 photo.321.link: https://www.instagram.com/rie_panda55/
 photo.321.tags: bamboo, portrait, window
-photo.322: https://www.instagram.com/p/CClIewABlBy/media/?size=m
-photo.322.author: masa_polarbear
-photo.322.link: https://www.instagram.com/masa_polarbear/
-photo.322.tags: nose, tree
-photo.323: https://www.instagram.com/p/CClh6K7BY5K/media/?size=m
-photo.323.author: craig_craig_craig
-photo.323.link: https://www.instagram.com/craig_craig_craig/
-photo.323.tags: close-up, mofumofu, portrait
-photo.324: https://www.instagram.com/p/CCldsT1ht7q/media/?size=m
-photo.324.author: panda.daisuki
-photo.324.link: https://www.instagram.com/panda.daisuki/
-photo.324.tags: baby, portrait, videolink
-photo.325: https://www.instagram.com/p/CCjNrmUheH0/media/?size=m
-photo.325.author: eos1089
-photo.325.link: https://www.instagram.com/eos1089/
-photo.325.tags: paws, standing, tail
-photo.326: https://www.instagram.com/p/CCj19NkB762/media/?size=m
-photo.326.author: alto0908
-photo.326.link: https://www.instagram.com/alto0908/
-photo.326.tags: laying down, paws, portrait, whiskers
-photo.327: https://www.instagram.com/p/CCk2OrOhGrd/media/?size=m
-photo.327.author: kotata_513
-photo.327.link: https://www.instagram.com/kotata_513/
-photo.327.tags: bamboo, whiskers
+photo.322: https://www.instagram.com/p/CCjNrmUheH0/media/?size=m
+photo.322.author: eos1089
+photo.322.commitdate: 2020/7/25
+photo.322.link: https://www.instagram.com/eos1089/
+photo.322.tags: paws, standing, tail
+photo.323: https://www.instagram.com/p/CCj19NkB762/media/?size=m
+photo.323.author: alto0908
+photo.323.commitdate: 2020/7/25
+photo.323.link: https://www.instagram.com/alto0908/
+photo.323.tags: laying down, paws, portrait, whiskers
+photo.324: https://www.instagram.com/p/CCk2OrOhGrd/media/?size=m
+photo.324.author: kotata_513
+photo.324.commitdate: 2020/7/25
+photo.324.link: https://www.instagram.com/kotata_513/
+photo.324.tags: bamboo, whiskers
+photo.325: https://www.instagram.com/p/CClIewABlBy/media/?size=m
+photo.325.author: masa_polarbear
+photo.325.commitdate: 2020/7/25
+photo.325.link: https://www.instagram.com/masa_polarbear/
+photo.325.tags: nose, tree
+photo.326: https://www.instagram.com/p/CCldsT1ht7q/media/?size=m
+photo.326.author: panda.daisuki
+photo.326.commitdate: 2020/7/25
+photo.326.link: https://www.instagram.com/panda.daisuki/
+photo.326.tags: baby, portrait, videolink
+photo.327: https://www.instagram.com/p/CClh6K7BY5K/media/?size=m
+photo.327.author: craig_craig_craig
+photo.327.commitdate: 2020/7/25
+photo.327.link: https://www.instagram.com/craig_craig_craig/
+photo.327.tags: close-up, mofumofu, portrait
 species: 2
 studbook.id: 1782
 zoo: 17
