@@ -238,18 +238,21 @@ photo.45.author: minatomirai215
 photo.45.commitdate: 2020/6/24
 photo.45.link: https://www.instagram.com/minatomirai215/
 photo.45.tags: bamboo, close-up, home, portrait
-photo.46: https://www.instagram.com/p/CC14K-NBNBm/media/?size=m
-photo.46.author: grskus_tk
-photo.46.link: https://www.instagram.com/grskus_tk/
-photo.46.tags: tail
-photo.47: https://www.instagram.com/p/CC2YT1NBQT_/media/?size=m
+photo.46: https://www.instagram.com/p/CCqP0mahrsi/media/?size=m
+photo.46.author: _saaaaaaah_
+photo.46.commitdate: 2020/7/24
+photo.46.link: https://www.instagram.com/_saaaaaaah_/
+photo.46.tags: smile
+photo.47: https://www.instagram.com/p/CC14K-NBNBm/media/?size=m
 photo.47.author: grskus_tk
+photo.47.commitdate: 2020/7/24
 photo.47.link: https://www.instagram.com/grskus_tk/
-photo.47.tags: apple time, bamboo, paws
-photo.48: https://www.instagram.com/p/CCqP0mahrsi/media/?size=m
-photo.48.author: _saaaaaaah_
-photo.48.link: https://www.instagram.com/_saaaaaaah_/
-photo.48.tags: smile
+photo.47.tags: tail
+photo.48: https://www.instagram.com/p/CC2YT1NBQT_/media/?size=m
+photo.48.author: grskus_tk
+photo.48.commitdate: 2020/7/24
+photo.48.link: https://www.instagram.com/grskus_tk/
+photo.48.tags: apple time, bamboo, paws
 species: 2
 studbook.id: 0874
 zoo: 27

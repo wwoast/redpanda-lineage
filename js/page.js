@@ -270,15 +270,6 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Kora is found!
-    var kora = Show.acquirePandaInfo(Pandas.searchPandaId("999")[0], L.display);
-    var korabear_args = [
-      kora["name"],
-      kora["id"],
-      L.display
-    ];
-    var korabear = Gallery.genericPhotoCredits(L.display, ["999"], 3, ["portrait"], Message.foundAnimal, korabear_args);
-    new_content.appendChild(korabear);
     // Current memorials
     var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)
     new_content.appendChild(ginbear);
