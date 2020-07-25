@@ -402,32 +402,39 @@ photo.78.author: pink.b22
 photo.78.commitdate: 2020/7/1
 photo.78.link: https://www.instagram.com/pink.b22/
 photo.78.tags: door, nose, paws, portrait
-photo.79: https://www.instagram.com/p/CCdgfomBViE/media/?size=m
-photo.79.author: craig_craig_craig
-photo.79.link: https://www.instagram.com/craig_craig_craig/
-photo.79.tags: bamboo, paws, portrait, smile, videolink
+photo.79: https://www.instagram.com/p/CCb7EsJhYKP/media/?size=m
+photo.79.author: panda.daisuki
+photo.79.commitdate: 2020/7/25
+photo.79.link: https://www.instagram.com/panda.daisuki/
+photo.79.tags: laying down, mofumofu, portrait, smile
 photo.80: https://www.instagram.com/p/CCcRTeoBXiH/media/?size=m
 photo.80.author: _rifa_p
+photo.80.commitdate: 2020/7/25
 photo.80.link: https://www.instagram.com/_rifa_p/
 photo.80.tags: laying down, portrait, white face
 photo.81: https://www.instagram.com/p/CCcfHQTBxjP/media/?size=m
 photo.81.author: eos1089
+photo.81.commitdate: 2020/7/25
 photo.81.link: https://www.instagram.com/eos1089/
 photo.81.tags: bamboo, bite, portrait, smile
 photo.82: https://www.instagram.com/p/CCdWUs6hoOm/media/?size=m
 photo.82.author: ssc6105
+photo.82.commitdate: 2020/7/25
 photo.82.link: https://www.instagram.com/ssc6105/
 photo.82.tags: close-up, mofumofu, portrait, tail
-photo.83: https://www.instagram.com/p/CCdwzbsBHL1/media/?size=m
-photo.83.author: na.mo.pan
-photo.83.link: https://www.instagram.com/na.mo.pan/
-photo.83.tags: climb, paws, smile, tree
-photo.84: https://www.instagram.com/p/CCb7EsJhYKP/media/?size=m
-photo.84.author: panda.daisuki
-photo.84.link: https://www.instagram.com/panda.daisuki/
-photo.84.tags: laying down, mofumofu, portrait, smile
+photo.83: https://www.instagram.com/p/CCdgfomBViE/media/?size=m
+photo.83.author: craig_craig_craig
+photo.83.commitdate: 2020/7/25
+photo.83.link: https://www.instagram.com/craig_craig_craig/
+photo.83.tags: bamboo, paws, portrait, smile, videolink
+photo.84: https://www.instagram.com/p/CCdwzbsBHL1/media/?size=m
+photo.84.author: na.mo.pan
+photo.84.commitdate: 2020/7/25
+photo.84.link: https://www.instagram.com/na.mo.pan/
+photo.84.tags: climb, paws, smile, tree
 photo.85: https://www.instagram.com/p/CC104knBpFc/media/?size=m
 photo.85.author: ck.chie
+photo.85.commitdate: 2020/7/25
 photo.85.link: https://www.instagram.com/ck.chie/
 photo.85.tags: mofumofu, portrait, whiskers
 species: 2

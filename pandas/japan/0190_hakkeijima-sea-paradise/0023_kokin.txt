@@ -837,38 +837,46 @@ photo.167.author: minatomirai215
 photo.167.commitdate: 2020/6/27
 photo.167.link: https://www.instagram.com/minatomirai215/
 photo.167.tags: paws, portrait, whiskers
-photo.168: https://www.instagram.com/p/CB-bgUrBIv-/media/?size=m
-photo.168.author: daniele.tokyo
-photo.168.link: https://www.instagram.com/daniele.tokyo/
-photo.168.tags: laying down, mofumofu, portrait
-photo.169: https://www.instagram.com/p/CB-4mR_B8h2/media/?size=m
-photo.169.author: minatomirai215
-photo.169.link: https://www.instagram.com/minatomirai215/
-photo.169.tags: bamboo, bite, portrait, whiskers
-photo.170: https://www.instagram.com/p/CCEKYB_BUyb/media/?size=m
+photo.168: https://www.instagram.com/p/CB-GJxcBGGI/media/?size=m
+photo.168.author: leonard_redmof
+photo.168.commitdate: 2020/7/25
+photo.168.link: https://www.instagram.com/leonard_redmof/
+photo.168.tags: paws, portrait, toys
+photo.169: https://www.instagram.com/p/CB-bgUrBIv-/media/?size=m
+photo.169.author: daniele.tokyo
+photo.169.commitdate: 2020/7/25
+photo.169.link: https://www.instagram.com/daniele.tokyo/
+photo.169.tags: laying down, mofumofu, portrait
+photo.170: https://www.instagram.com/p/CB-doRThBgp/media/?size=m
 photo.170.author: ssc6105
+photo.170.commitdate: 2020/7/25
 photo.170.link: https://www.instagram.com/ssc6105/
-photo.170.tags: bridge, laying down, paws, sleeping
-photo.171: https://www.instagram.com/p/CCAU5ichRFx/media/?size=m
-photo.171.author: wumpwoast
-photo.171.link: https://www.instagram.com/wumpwoast/
-photo.171.tags: portrait, tail
-photo.172: https://www.instagram.com/p/CB-doRThBgp/media/?size=m
-photo.172.author: ssc6105
-photo.172.link: https://www.instagram.com/ssc6105/
-photo.172.tags: bamboo, paws, portrait, tail
-photo.173: https://www.instagram.com/p/CB-GJxcBGGI/media/?size=m
-photo.173.author: leonard_redmof
-photo.173.link: https://www.instagram.com/leonard_redmof/
-photo.173.tags: paws, portrait, toys
-photo.174: https://www.instagram.com/p/CC6CT8LBbMr/media/?size=m
-photo.174.author: grskus_tk
-photo.174.link: https://www.instagram.com/grskus_tk/
-photo.174.tags: bamboo, laying down, paws
-photo.175: https://www.instagram.com/p/CCyDiPKBKml/media/?size=m
-photo.175.author: craig_craig_craig
-photo.175.link: https://www.instagram.com/craig_craig_craig/
-photo.175.tags: door, paws, portrait
+photo.170.tags: bamboo, paws, portrait, tail
+photo.171: https://www.instagram.com/p/CB-4mR_B8h2/media/?size=m
+photo.171.author: minatomirai215
+photo.171.commitdate: 2020/7/25
+photo.171.link: https://www.instagram.com/minatomirai215/
+photo.171.tags: bamboo, bite, portrait, whiskers
+photo.172: https://www.instagram.com/p/CCAU5ichRFx/media/?size=m
+photo.172.author: wumpwoast
+photo.172.commitdate: 2020/7/25
+photo.172.link: https://www.instagram.com/wumpwoast/
+photo.172.tags: portrait, tail
+photo.173: https://www.instagram.com/p/CCEKYB_BUyb/media/?size=m
+photo.173.author: ssc6105
+photo.173.commitdate: 2020/7/25
+photo.173.link: https://www.instagram.com/ssc6105/
+photo.173.tags: bridge, laying down, paws, sleeping
+photo.174: https://www.instagram.com/p/CCyDiPKBKml/media/?size=m
+photo.174.author: craig_craig_craig
+photo.174.commitdate: 2020/7/25
+photo.174.link: https://www.instagram.com/craig_craig_craig/
+photo.174.tags: door, paws, portrait
+photo.175: https://www.instagram.com/p/CC6CT8LBbMr/media/?size=m
+photo.175.author: grskus_tk
+photo.175.commitdate: 2020/7/25
+photo.175.link: https://www.instagram.com/grskus_tk/
+photo.175.tags: bamboo, laying down, paws
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
