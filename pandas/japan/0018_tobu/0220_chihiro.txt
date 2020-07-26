@@ -16,6 +16,7 @@ language.order: jp, en
 litter: 53, 374
 location.1: 10, 2003/6/16
 location.2: 18, 2005/12/18
+panda.tags: 0362
 photo.1: https://www.instagram.com/p/BiHL7f9F1cE/media/?size=m
 photo.1.author: mifko55
 photo.1.commitdate: 2018/8/21
@@ -66,5 +67,4 @@ photo.10.commitdate: 2020/3/11
 photo.10.link: https://www.instagram.com/hanamaru_redpanda/
 photo.10.tags: laying down, old, portrait, sleeping
 species: 2
-panda.tags: 0362
 zoo: 18

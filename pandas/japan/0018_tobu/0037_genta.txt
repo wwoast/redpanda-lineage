@@ -333,14 +333,16 @@ photo.64.author: miis_98
 photo.64.commitdate: 2020/7/10
 photo.64.link: https://www.instagram.com/miis_98/
 photo.64.tags: apple time, dish, lunch time, portrait, smile
-photo.65: https://www.instagram.com/p/CCvL_7zB3PU/media/?size=m
-photo.65.author: pink.b22
-photo.65.link: https://www.instagram.com/pink.b22/
-photo.65.tags: paws, smile, tail, tongue
-photo.66: https://www.instagram.com/p/CClMgdLhkR3/media/?size=m
-photo.66.author: fetorus_mami
-photo.66.link: https://www.instagram.com/fetorus_mami/
-photo.66.tags: apple time, smile, window
+photo.65: https://www.instagram.com/p/CClMgdLhkR3/media/?size=m
+photo.65.author: fetorus_mami
+photo.65.commitdate: 2020/7/26
+photo.65.link: https://www.instagram.com/fetorus_mami/
+photo.65.tags: apple time, smile, window
+photo.66: https://www.instagram.com/p/CCvL_7zB3PU/media/?size=m
+photo.66.author: pink.b22
+photo.66.commitdate: 2020/7/26
+photo.66.link: https://www.instagram.com/pink.b22/
+photo.66.tags: paws, smile, tail, tongue
 species: 2
 studbook.id: 12105
 zoo: 18

@@ -115,24 +115,25 @@ photo.20.author: ssc6105
 photo.20.commitdate: 2020/7/24
 photo.20.link: https://www.instagram.com/ssc6105/
 photo.20.tags: paws, portrait
-photo.21: https://www.instagram.com/p/CCyW2HjhIvM/media/?size=m
-photo.21.author: gloryeui
-photo.21.commitdate: 2020/7/24
-photo.21.link: https://www.instagram.com/gloryeui/
-photo.21.tags: apple time, portrait, videolink
-photo.22: https://www.instagram.com/p/CCyeEhwB9hG/media/?size=m
-photo.22.author: minatomirai215
+photo.21: https://www.instagram.com/p/CCx8aEOho1q/media/?size=m
+photo.21.author: craig_craig_craig
+photo.21.commitdate: 2020/7/26
+photo.21.link: https://www.instagram.com/craig_craig_craig/
+photo.21.tags: close-up, paws, portrait
+photo.22: https://www.instagram.com/p/CCyW2HjhIvM/media/?size=m
+photo.22.author: gloryeui
 photo.22.commitdate: 2020/7/24
-photo.22.link: https://www.instagram.com/minatomirai215/
-photo.22.tags: door, paws, portrait, smile
-photo.23: https://www.instagram.com/p/CCziO-5hD00/media/?size=m
-photo.23.author: craig_craig_craig
+photo.22.link: https://www.instagram.com/gloryeui/
+photo.22.tags: apple time, portrait, videolink
+photo.23: https://www.instagram.com/p/CCyeEhwB9hG/media/?size=m
+photo.23.author: minatomirai215
 photo.23.commitdate: 2020/7/24
-photo.23.link: https://www.instagram.com/craig_craig_craig/
-photo.23.tags: bridge, paws, portrait, tail
-photo.24: https://www.instagram.com/p/CCx8aEOho1q/media/?size=m
+photo.23.link: https://www.instagram.com/minatomirai215/
+photo.23.tags: door, paws, portrait, smile
+photo.24: https://www.instagram.com/p/CCziO-5hD00/media/?size=m
 photo.24.author: craig_craig_craig
+photo.24.commitdate: 2020/7/24
 photo.24.link: https://www.instagram.com/craig_craig_craig/
-photo.24.tags: close-up, paws, portrait
+photo.24.tags: bridge, paws, portrait, tail
 species: 2
 zoo: 190
