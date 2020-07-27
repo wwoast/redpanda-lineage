@@ -166,6 +166,7 @@ div.buttonContent {
     border: none;
     margin-left: auto;
     margin-right: auto;
+    user-select: none;
 }
 
 div.buttonIcon {
@@ -173,11 +174,13 @@ div.buttonIcon {
     font-size: 24pt;
     padding-right: 8px;
     text-align: left;
+    user-select: none;
 }
 
 div.buttonText {
     display: table-cell;
     text-align: left;
+    user-select: none;
 }
 
 div.buttonText.condensed {
