@@ -26,7 +26,7 @@ Touch.init = function() {
 }
 
 // The 4 Touch Event Handlers
-Touch.T.start = function(event, passedName) {
+Touch.T.start = function(event) {
   // get the total number of fingers touching the screen
   this.fingerCount = event.touches.length;
   // timer for long press events
@@ -178,7 +178,7 @@ Touch.T.processPhoto = function(element_id) {
 // function for when that touch element is finished.
 Touch.addHandler = function(input_elem, callback) {
   input_elem.addEventListener('touchstart', function(event) {
-    T.start(event, input_elem.id);
+    T.start(event);
   }, true);
   input_elem.addEventListener('touchend', function(event) {
     T.end(event, input_elem.id, callback);

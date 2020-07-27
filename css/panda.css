@@ -166,6 +166,7 @@ div.buttonContent {
     border: none;
     margin-left: auto;
     margin-right: auto;
+    /* Need to kill text highlighting so long-press events work */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -177,6 +178,7 @@ div.buttonIcon {
     font-size: 24pt;
     padding-right: 8px;
     text-align: left;
+    /* Need to kill text highlighting so long-press events work */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -186,6 +188,7 @@ div.buttonIcon {
 div.buttonText {
     display: table-cell;
     text-align: left;
+    /* Need to kill text highlighting so long-press events work */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
