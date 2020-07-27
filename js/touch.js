@@ -6,10 +6,11 @@ Touch.T = {};     // Prototype
 
 Touch.init = function() {
   var touch = Object.create(Touch.T);
-  touch.triggerElementID = null;    // Used to identity the triggering element
   touch.fingerCount = 0;
   touch.startX = 0;
   touch.startY = 0;
+  touch.startTime = 0;
+  touch.endTime = 0;
   touch.curX = 0;
   touch.curY = 0;
   touch.deltaX = 0;
@@ -28,14 +29,14 @@ Touch.init = function() {
 Touch.T.start = function(event, passedName) {
   // get the total number of fingers touching the screen
   this.fingerCount = event.touches.length;
+  // timer for long press events
+  this.startTime = new Date().getTime();
   // since we're looking for a swipe (single finger) and not a gesture (multiple fingers),
   // check that only one finger was used
   if (this.fingerCount == 1) {
     // get the coordinates of the touch
     this.startX = event.touches[0].pageX;
     this.startY = event.touches[0].pageY;
-    // store the triggering element ID
-    this.triggerElementID = passedName;
   } else {
     // more than one finger touched so cancel
     this.cancel();
@@ -75,8 +76,9 @@ Touch.T.move = function(event) {
   }
 }
 
-Touch.T.end = function(event) {
+Touch.T.end = function(event, element_id, callback) {
   event.preventDefault();
+  this.endTime = new Date().getTime();
   if (this.fingerCount == 1 && this.curX != 0) {
     // A swipe just happened. Use the distance formula
     // to determine the length of the swipe
@@ -88,7 +90,9 @@ Touch.T.end = function(event) {
         (this.horzDiff > 2*this.minLength)) {
       this.angle();
       this.determine();   // What the swipe direction and angle are
-      this.process();     // Do something in the RPF interface
+      // Do something in the RPF interface.
+      // Must be scoped to the touch handler
+      callback.apply(this, [element_id]);
       this.cancel();      // Reset the variables
     } else {
       this.cancel();
@@ -103,6 +107,8 @@ Touch.T.cancel = function() {
   this.fingerCount = 0;
   this.startX = 0;
   this.startY = 0;
+  this.startTime = 0;
+  this.endTime = 0;
   this.curX = 0;
   this.curY = 0;
   this.deltaX = 0;
@@ -113,7 +119,6 @@ Touch.T.cancel = function() {
   this.swipeLength = 0;
   this.swipeAngle = null;
   this.swipeDirection = null;
-  this.triggerElementID = null;
 }
 
 Touch.T.angle = function() {
@@ -142,8 +147,8 @@ Touch.T.determine = function() {
 }
 
 // Callback to change the photo based on where the touch event happened
-Touch.T.process = function() {
-  var animal_id = this.triggerElementID.split('/')[0];
+Touch.T.processPhoto = function(element_id) {
+  var animal_id = element_id.split('/')[0];
   var navigator_id = animal_id + "/navigator";
   var navigator = document.getElementById(navigator_id);
   var span = navigator.childNodes[0];
@@ -168,18 +173,20 @@ Touch.T.process = function() {
   }
 }
 
-// Touchable carousels for every loaded photo.
-Touch.addHandler = function(photo_element) {
-  photo_element.addEventListener('touchstart', function(event) {
-    T.start(event, photo_element.id);
+// Touch event handler. Adds a listener for touch events on
+// something like the photo carousels, and defines a callback
+// function for when that touch element is finished.
+Touch.addHandler = function(input_elem, callback) {
+  input_elem.addEventListener('touchstart', function(event) {
+    T.start(event, input_elem.id);
   }, true);
-  photo_element.addEventListener('touchend', function(event) {
-    T.end(event);
+  input_elem.addEventListener('touchend', function(event) {
+    T.end(event, input_elem.id, callback);
   }, true);
-  photo_element.addEventListener('touchmove', function(event) {
+  input_elem.addEventListener('touchmove', function(event) {
     T.move(event);
   }, true);
-  photo_element.addEventListener('touchcancel', function() {
+  input_elem.addEventListener('touchcancel', function() {
     T.cancel();
   }, true);
 }

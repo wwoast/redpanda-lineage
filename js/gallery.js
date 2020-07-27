@@ -74,7 +74,7 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
     }
   }
   // Return the new div
-  Touch.addHandler(image);
+  Touch.addHandler(image, T.processPhoto);
   return div;
 }
 
@@ -251,7 +251,7 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   photo.src = new_photo.src;
   photo.id = new_photo.id;
   photo.className = new_photo.className;
-  Touch.addHandler(new_photo);
+  Touch.addHandler(new_photo, T.processPhoto);
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
   this.singlePhotoCredit(photo_info, photo_id, new_index);
