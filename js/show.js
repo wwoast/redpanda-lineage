@@ -541,6 +541,8 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
       .join("");
     // Copy it into the clipboard
     navigator.clipboard.writeText(qrcode_url);
+    // Make the Copied toast appear
+    Show.fade(document.getElementById("copyToast"));
   });
   var tld = document.createElement('span');
   tld.className = "qrcodeText";
@@ -558,6 +560,11 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
     qrHashLink.innerText = "#profile/" + animal_index + "/photo/" + photo_index;
   }
   qrcode.appendChild(qrHashLink);
+  var copy_notice = document.createElement('span');
+  copy_notice.className = "notifier";
+  copy_notice.id = "copyToast";
+  copy_notice.innerText = L.gui.copied[L.display];
+  qrcode.appendChild(copy_notice);
   return qrcode;
 }
 

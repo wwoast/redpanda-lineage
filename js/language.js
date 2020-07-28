@@ -292,6 +292,12 @@ Language.L.gui = {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
     "jp": "https://docs.google.com/forms/d/1wEhwNieyonPNSk6q8fflUT3e4kyAsIlAFmeib1tW4Jk"
   },
+  "copied": {
+    "cn": "复制",
+    "en": "Copied",
+    "jp": "写す",
+    "np": "अनुकरण गनु"
+  },
   "fall": {
     "cn": "秋",   // Convenience duplicate of autumn
     "en": "Autumn",

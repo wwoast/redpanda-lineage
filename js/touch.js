@@ -217,14 +217,9 @@ Touch.addSwipeHandler = function(input_elem, callback) {
   }, true);
 }
 
-// Long touch event handler for button presses
-// Adds a listener for touch events on the photo carousels,
-// and defines a callback function for when that touch element is finished.
+// Long touch event handler for button presses. Doesn't work for images
+// or other things where there are default gestures to deal with.
 Touch.addLongTouchHandler = function(input_elem, callback) {
-  input_elem.addEventListener('contextmenu', function(event) {
-    event.preventDefault();
-    callback.apply(null, [input_elem]);
-  }, true);
   input_elem.addEventListener('touchstart', function(event) {
     T.start(event);
   }, true);
