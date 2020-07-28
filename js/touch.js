@@ -76,7 +76,7 @@ Touch.T.move = function(event) {
   }
 }
 
-Touch.T.longPressEnd = function(event, min_time, element_id, callback) {
+Touch.T.longPressEnd = function(event, element_id, callback) {
   event.preventDefault();
   this.endTime = new Date().getTime();
   if (this.fingerCount == 1 && this.curX != 0) {
@@ -87,7 +87,7 @@ Touch.T.longPressEnd = function(event, min_time, element_id, callback) {
     // If the swipe is less than some small amount, and the duration
     // of the touch was longer than 1500ms, do an interface task
     if ((this.swipeLength <= this.minLength) &&
-        (this.endTime - this.startTime > min_time)) {
+        (this.endTime - this.startTime > 1500)) {
       this.angle();
       this.determine();   // What the swipe direction and angle are
       // Do something in the RPF interface.
@@ -199,17 +199,6 @@ Touch.T.processPhoto = function(element_id) {
   }
 }
 
-// Callback to copy the text corresponding to a QRCode
-Touch.T.processQRCode = async function() {
-  const text_class = "qrcodeText";
-  // Join the text blocks above and below the QR Code image
-  const qrcode_url = Array.from(document.getElementsByClassName(text_class))
-    .map(span => span.innerText)
-    .join("");
-  // Copy it into the clipboard
-  await navigator.clipboard.writeText(qrcode_url);
-} 
-
 // Swipe/gesture event handler. 
 // Adds a listener for touch events on the photo carousels,
 // and defines a callback function for when that touch element is finished.
@@ -228,10 +217,10 @@ Touch.addSwipeHandler = function(input_elem, callback) {
   }, true);
 }
 
-// Long touch event handler. 
+// Long touch event handler for button presses
 // Adds a listener for touch events on the photo carousels,
 // and defines a callback function for when that touch element is finished.
-Touch.addLongTouchHandler = function(input_elem, min_time, callback) {
+Touch.addLongTouchHandler = function(input_elem, callback) {
   input_elem.addEventListener('contextmenu', function(event) {
     event.preventDefault();
     callback.apply(null, [input_elem]);
@@ -240,7 +229,7 @@ Touch.addLongTouchHandler = function(input_elem, min_time, callback) {
     T.start(event);
   }, true);
   input_elem.addEventListener('touchend', function(event) {
-    T.longPressEnd(event, min_time, input_elem.id, callback);
+    T.longPressEnd(event, input_elem.id, callback);
   }, true);
   input_elem.addEventListener('touchmove', function(event) {
     T.move(event);

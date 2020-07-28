@@ -531,8 +531,17 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
-  // 50ms short touch for copying qrcode
-  Touch.addLongTouchHandler(qrcode, 50, T.processQRCode);
+  // Click qrcode and copy its url
+  qrcode.addEventListener("click", function(event) {
+    event.preventDefault();
+    const text_class = "qrcodeText";
+    // Join the text blocks above and below the QR Code image
+    const qrcode_url = Array.from(document.getElementsByClassName(text_class))
+      .map(span => span.innerText)
+      .join("");
+    // Copy it into the clipboard
+    navigator.clipboard.writeText(qrcode_url);
+  });
   var tld = document.createElement('span');
   tld.className = "qrcodeText";
   tld.innerText = "https://" + window.location.host + "/";
