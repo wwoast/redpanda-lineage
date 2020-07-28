@@ -531,8 +531,16 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
+  var tld = document.createElement('span');
+  tld.className = "qrcodeText";
+  tld.innerText = "https://" + window.location.host + "/";
+  qrcode.appendChild(tld);
+  qrimg = document.createElement('img');
+  qrimg.id = "qrcodeUri";
+  qrimg.src = img.src;
+  qrcode.appendChild(qrimg);
   // Click qrcode and copy its url
-  qrcode.addEventListener("click", function(event) {
+  qrimg.addEventListener("click", function(event) {
     event.preventDefault();
     const text_class = "qrcodeText";
     // Join the text blocks above and below the QR Code image
@@ -544,14 +552,6 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
     // Make the Copied toast appear
     Show.fade(document.getElementById("copyToast"));
   });
-  var tld = document.createElement('span');
-  tld.className = "qrcodeText";
-  tld.innerText = "https://" + window.location.host + "/";
-  qrcode.appendChild(tld);
-  qrimg = document.createElement('img');
-  qrimg.id = "qrcodeUri";
-  qrimg.src = img.src;
-  qrcode.appendChild(qrimg);
   var qrHashLink = document.createElement('span');
   qrHashLink.className = "qrcodeText";
   if ((photo_index == null) && (animal_index == null)) {
