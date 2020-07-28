@@ -200,14 +200,14 @@ Touch.T.processPhoto = function(element_id) {
 }
 
 // Callback to copy the text corresponding to a QRCode
-Touch.T.processQRCode = function() {
+Touch.T.processQRCode = async function() {
   const text_class = "qrcodeText";
   // Join the text blocks above and below the QR Code image
   const qrcode_url = Array.from(document.getElementsByClassName(text_class))
     .map(span => span.innerText)
     .join("");
   // Copy it into the clipboard
-  navigator.clipboard.writeText(qrcode_url);
+  await navigator.clipboard.writeText(qrcode_url);
 } 
 
 // Swipe/gesture event handler. 

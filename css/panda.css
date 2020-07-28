@@ -392,6 +392,11 @@ div.qrcodeFrame {
 span.qrcodeText {
     font-weight: bold;
     font-size: 10pt;
+    /* Make long press touch events work*/
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 div.qrcodeFrame img {
@@ -400,12 +405,11 @@ div.qrcodeFrame img {
     height: 180px;
     border: 1px solid black;
     background-color: white;
-    /* Test */
+    /* Make long press touch events work*/
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    z-index: -1;
 }
 
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a, div.zooHistory a {
