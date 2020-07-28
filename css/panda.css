@@ -400,6 +400,12 @@ div.qrcodeFrame img {
     height: 180px;
     border: 1px solid black;
     background-color: white;
+    /* Test */
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: -1;
 }
 
 div.pandaTitle a, div.pandaDossier a, div.pandaFamily a, div.zooDossier a, div.profileDossier a, div.zooHistory a {
@@ -450,6 +456,7 @@ div.pandaPhoto, div.zooPhoto {
     vertical-align: middle;
     background-color: black;
     position: relative;
+    /* Prevents errant drags of these photos */
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;

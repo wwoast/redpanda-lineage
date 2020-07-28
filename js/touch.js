@@ -201,9 +201,9 @@ Touch.T.processPhoto = function(element_id) {
 
 // Callback to copy the text corresponding to a QRCode
 Touch.T.processQRCode = function() {
-  var text_class = "qrcodeText";
+  const text_class = "qrcodeText";
   // Join the text blocks above and below the QR Code image
-  var qrcode_url = Array.from(document.getElementsByClassName(text_class))
+  const qrcode_url = Array.from(document.getElementsByClassName(text_class))
     .map(span => span.innerText)
     .join("");
   // Copy it into the clipboard
@@ -232,11 +232,15 @@ Touch.addSwipeHandler = function(input_elem, callback) {
 // Adds a listener for touch events on the photo carousels,
 // and defines a callback function for when that touch element is finished.
 Touch.addLongTouchHandler = function(input_elem, callback) {
+  input_elem.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+    callback.apply(null, [input_elem]);
+  }, true);
   input_elem.addEventListener('touchstart', function(event) {
     T.start(event);
   }, true);
   input_elem.addEventListener('touchend', function(event) {
-    T.longTouchEnd(event, input_elem.id, callback);
+    T.longPressEnd(event, input_elem.id, callback);
   }, true);
   input_elem.addEventListener('touchmove', function(event) {
     T.move(event);
