@@ -76,7 +76,7 @@ Touch.T.move = function(event) {
   }
 }
 
-Touch.T.longPressEnd = function(event, element_id, callback) {
+Touch.T.longPressEnd = function(event, min_time, element_id, callback) {
   event.preventDefault();
   this.endTime = new Date().getTime();
   if (this.fingerCount == 1 && this.curX != 0) {
@@ -87,7 +87,7 @@ Touch.T.longPressEnd = function(event, element_id, callback) {
     // If the swipe is less than some small amount, and the duration
     // of the touch was longer than 1500ms, do an interface task
     if ((this.swipeLength <= this.minLength) &&
-        (this.endTime - this.startTime > 1500)) {
+        (this.endTime - this.startTime > min_time)) {
       this.angle();
       this.determine();   // What the swipe direction and angle are
       // Do something in the RPF interface.
@@ -231,7 +231,7 @@ Touch.addSwipeHandler = function(input_elem, callback) {
 // Long touch event handler. 
 // Adds a listener for touch events on the photo carousels,
 // and defines a callback function for when that touch element is finished.
-Touch.addLongTouchHandler = function(input_elem, callback) {
+Touch.addLongTouchHandler = function(input_elem, min_time, callback) {
   input_elem.addEventListener('contextmenu', function(event) {
     event.preventDefault();
     callback.apply(null, [input_elem]);
@@ -240,7 +240,7 @@ Touch.addLongTouchHandler = function(input_elem, callback) {
     T.start(event);
   }, true);
   input_elem.addEventListener('touchend', function(event) {
-    T.longPressEnd(event, input_elem.id, callback);
+    T.longPressEnd(event, min_time, input_elem.id, callback);
   }, true);
   input_elem.addEventListener('touchmove', function(event) {
     T.move(event);

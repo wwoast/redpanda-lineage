@@ -531,7 +531,8 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
   var img = showQRCode(safe_url);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
-  Touch.addLongTouchHandler(qrcode, T.processQRCode);
+  // 50ms short touch for copying qrcode
+  Touch.addTouchHandler(qrcode, 50, T.processQRCode);
   var tld = document.createElement('span');
   tld.className = "qrcodeText";
   tld.innerText = "https://" + window.location.host + "/";
