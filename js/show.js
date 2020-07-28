@@ -529,6 +529,7 @@ Show.qrcodeImage = function(animal_index=null, photo_index=null) {
     safe_url = "https://" + window.location.host + "/#profile/" + animal_index + "/photo/" + photo_index;
   }
   var img = showQRCode(safe_url);
+  Touch.addLongTouchHandler(img, T.processQRCode);
   var qrcode = document.createElement('div');
   qrcode.className = "qrcodeFrame";
   var tld = document.createElement('span');

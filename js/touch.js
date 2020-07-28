@@ -76,7 +76,33 @@ Touch.T.move = function(event) {
   }
 }
 
-Touch.T.end = function(event, element_id, callback) {
+Touch.T.longPressEnd = function(event, element_id, callback) {
+  event.preventDefault();
+  this.endTime = new Date().getTime();
+  if (this.fingerCount == 1 && this.curX != 0) {
+    // A gesture just happened. Use the distance formula
+    // to determine the length of the swipe
+    this.swipeLength = Math.round(Math.sqrt(Math.pow(this.curX - this.startX,2) + 
+                                            Math.pow(this.curY - this.startY,2)));
+    // If the swipe is less than some small amount, and the duration
+    // of the touch was longer than 1500ms, do an interface task
+    if ((this.swipeLength <= this.minLength) &&
+        (this.endTime - this.startTime > 1500)) {
+      this.angle();
+      this.determine();   // What the swipe direction and angle are
+      // Do something in the RPF interface.
+      // Must be scoped to the touch handler
+      callback.apply(this, [element_id]);
+      this.cancel();      // Reset the variables
+    } else {
+      this.cancel();
+    }
+  } else {
+    this.cancel();
+  }
+}
+
+Touch.T.swipeEnd = function(event, element_id, callback) {
   event.preventDefault();
   this.endTime = new Date().getTime();
   if (this.fingerCount == 1 && this.curX != 0) {
@@ -173,15 +199,44 @@ Touch.T.processPhoto = function(element_id) {
   }
 }
 
-// Touch event handler. Adds a listener for touch events on
-// something like the photo carousels, and defines a callback
-// function for when that touch element is finished.
-Touch.addHandler = function(input_elem, callback) {
+// Callback to copy the text corresponding to a QRCode
+Touch.T.processQRCode = function() {
+  var text_class = "qrcodeText";
+  // Join the text blocks above and below the QR Code image
+  var qrcode_url = Array.from(document.getElementsByClassName(text_class))
+    .map(span => span.innerText)
+    .join("");
+  // Copy it into the clipboard
+  navigator.clipboard.writeText(qrcode_url);
+} 
+
+// Swipe/gesture event handler. 
+// Adds a listener for touch events on the photo carousels,
+// and defines a callback function for when that touch element is finished.
+Touch.addSwipeHandler = function(input_elem, callback) {
   input_elem.addEventListener('touchstart', function(event) {
     T.start(event);
   }, true);
   input_elem.addEventListener('touchend', function(event) {
-    T.end(event, input_elem.id, callback);
+    T.swipeEnd(event, input_elem.id, callback);
+  }, true);
+  input_elem.addEventListener('touchmove', function(event) {
+    T.move(event);
+  }, true);
+  input_elem.addEventListener('touchcancel', function() {
+    T.cancel();
+  }, true);
+}
+
+// Long touch event handler. 
+// Adds a listener for touch events on the photo carousels,
+// and defines a callback function for when that touch element is finished.
+Touch.addLongTouchHandler = function(input_elem, callback) {
+  input_elem.addEventListener('touchstart', function(event) {
+    T.start(event);
+  }, true);
+  input_elem.addEventListener('touchend', function(event) {
+    T.longTouchEnd(event, input_elem.id, callback);
   }, true);
   input_elem.addEventListener('touchmove', function(event) {
     T.move(event);
