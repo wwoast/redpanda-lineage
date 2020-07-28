@@ -387,6 +387,11 @@ div.qrcodeFrame {
     margin-right: 30px;
     width: 180px;
     text-align: center;
+    /* Make long press touch events work*/
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;    
 }
 
 span.qrcodeText {
