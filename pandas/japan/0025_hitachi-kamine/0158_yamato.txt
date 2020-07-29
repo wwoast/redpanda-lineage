@@ -49,7 +49,7 @@ photo.7: https://www.instagram.com/p/BhOg6NylTvV/media/?size=m
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/7/22
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
-photo.7.tags: portrait, profile
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BiF3NwolxE9/media/?size=m
 photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2018/7/22
@@ -126,6 +126,14 @@ photo.23.author: eos1089
 photo.23.commitdate: 2020/6/7
 photo.23.link: https://www.instagram.com/eos1089/
 photo.23.tags: laying down, paws, tail
+photo.24: https://www.instagram.com/p/CDMgR7_BOYr/media/?size=m
+photo.24.author: eos1089
+photo.24.link: https://www.instagram.com/eos1089/
+photo.24.tags: flowers, portrait
+photo.25: https://www.instagram.com/p/CDM_XpFhsdy/media/?size=m
+photo.25.author: panda.daisuki
+photo.25.link: https://www.instagram.com/panda.daisuki/
+photo.25.tags: close-up, mofumofu, portrait, profile
 species: 2
 studbook.id: 15160
 zoo: 25
