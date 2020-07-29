@@ -2,7 +2,7 @@
 
 ## How to Contribute to the Red Panda Lineage
 
-[![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt)
+[![Get Ready, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-get-ready.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0001_ichikawa/0004_lychee.txt)
  
 To make contributions to this dataset, you'll be using tools similar to what software developers use. Don't be afraid -- we'll teach you how, even if you don't know how to write code at all!
 
@@ -27,7 +27,7 @@ To recap, you've downloaded GitHub Desktop, signed in with your account, and kno
 
 ## Creating A Branch to Work From
 
-[![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0004_lychee.txt)
+[![Time to Work, Lychee](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/lychee-start-working-now.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0001_ichikawa/0004_lychee.txt)
 
 GitHub repositories are managed like open projects. Any guest or contributor can clone the repository, giving them a full _working copy_ on their own computer. However, to contribute changes from your _working copy_ back to our `master` branch, you'll need to follow some guidelines.
 
@@ -126,7 +126,7 @@ Once the automated checks are done, you still need one of the dataset administra
 
 ## Troubleshooting
 
-[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0032_fukuoka/0001_harumaki.txt)
+[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/japan/0032_fukuoka/0001_harumaki.txt)
 
  * If you forget to make a branch...
  * If you need to refactor from the master branch
