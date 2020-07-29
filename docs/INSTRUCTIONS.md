@@ -83,7 +83,7 @@ We don't track parent relationships, because the family tree can be fully constr
 
 Pandas in our dataset have a birthplace and zoo/home recorded in their datasets. These are ID numbers as well, but for files in the `zoos/` folder. You'll notice that the subfolders of the `pandas/` directory reference both zoo names, as well as the zoo ID numbers.
 
-### `birthday` and `death`: ID Numbers for Zoos
+### `birthday` and `death`: YYYY/MM/DD date strings
 
 Dates in the Red Panda Lineage dataset are always in `YYYY`/`MM`/`DD` form. The `death` section can be omitted for pandas that are still alive, or be listed as `death: unknown` for a panda that passed away at an undetermined date.
 
@@ -115,7 +115,7 @@ Be aware that we may need to ask you follow-up questions or recommend changes, s
 
 We use a _Continuous Integration_ tool called *Travis CI* to run automated checks against every single piece of data pushed to the Red Panda Lineage dataset. If there are problems with your commit, the software will see the problem automatically and suggest what changes are necessary. This tool runs the `build.py` program at the top-level of our repository.
 
-Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the _Travis CI_ status. If you navigate through to see the details in _Travis CI_, you'll get to a screen where the text output of `build.py` describes what went wrong. 
+Occasionally your commit will have a problem with your commits after you try and submit your PR, with a red "X" near the _Travis CI_ status. If you navigate through to see the details in _Travis CI_, you'll get to a screen where the text output of `build.py` describes what went wrong.
 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/commit-problem.png" /> 
 <img src="https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/failed-ci.png" /> 
@@ -126,7 +126,7 @@ Once the automated checks are done, you still need one of the dataset administra
 
 ## Troubleshooting
 
-[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0001_ichikawa/0001_harumaki.txt)
+[![Harumaki, the Troublemaker](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/docs/images/instructions/harumaki-troubleshooter.jpg)](https://raw.githubusercontent.com/wwoast/redpanda-lineage/master/pandas/0032_fukuoka/0001_harumaki.txt)
 
  * If you forget to make a branch...
  * If you need to refactor from the master branch
