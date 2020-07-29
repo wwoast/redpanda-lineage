@@ -270,14 +270,14 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Current memorials
-    var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)
-    new_content.appendChild(ginbear);
     // Birthday logic
     if (Pandas.searchBirthday().length > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
     }
+    // Current memorials
+    var ginbear = Gallery.memorialPhotoCredits(L.display, ["17"], 5, Message.memorial)
+    new_content.appendChild(ginbear);    
     // Please remember these pandas
     var memorial = Gallery.memorialPhotoCredits(L.display, ["22", "14"], 5, Message.missing_you);
     new_content.appendChild(memorial);
