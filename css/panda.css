@@ -100,6 +100,10 @@ button.logo.profile {
     background-color: #693638;
 }
 
+button.disabled {
+    background-color: #696969
+}
+
 button.menu {
     display: inline-block;
     border: none;
