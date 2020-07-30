@@ -126,6 +126,7 @@ button.menu.flag {
 }
 
 button.menu.disabled {
+    /* TODO: Needs to grayscale all button contents */
     background-color: #696969
 }
 
