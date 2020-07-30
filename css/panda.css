@@ -100,10 +100,6 @@ button.logo.profile {
     background-color: #693638;
 }
 
-button.disabled {
-    background-color: #696969
-}
-
 button.menu {
     display: inline-block;
     border: none;
@@ -127,6 +123,10 @@ button.menu.flag {
     background-color: #366938;
     height: 64px;
     width: 106px;  /* Divide 320px by number of buttons you expect to have */
+}
+
+button.menu.disabled {
+    background-color: #696969
 }
 
 button.menu.hidden {
