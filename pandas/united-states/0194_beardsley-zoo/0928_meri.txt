@@ -4,6 +4,7 @@ birthday: 2013/6/27
 birthplace: 124
 children: none
 commitdate: 2019/7/2
+death: 2020/7/27
 en.name: Meri
 en.nicknames: none
 en.othernames: Merry
@@ -21,5 +22,9 @@ photo.1.author: rossifari
 photo.1.commitdate: 2020/3/3
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: bamboo, portrait, profile, tongue, white face
+photo.2: https://www.instagram.com/p/CDT2BvxpaWo/media/?size=m
+photo.2.author: ctbeardsleyzoo
+photo.2.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.2.tags: paws, portrait, white face
 species: 1
 zoo: 194
