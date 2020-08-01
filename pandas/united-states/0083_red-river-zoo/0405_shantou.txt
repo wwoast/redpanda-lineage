@@ -7,7 +7,7 @@ commitdate: 2018/11/23
 death: 2015/11/12
 en.name: Shan-Tou
 en.nicknames: none
-en.othernames: Shantou
+en.othernames: Shantou, Shan Tou
 gender: f
 jp.name: シャントゥ
 jp.nicknames: none
@@ -27,4 +27,5 @@ photo.2.commitdate: 2020/2/3
 photo.2.link: https://www.instagram.com/kardtrik/
 photo.2.tags: portrait, profile
 species: 2
+studbook.id: 0547
 zoo: 83

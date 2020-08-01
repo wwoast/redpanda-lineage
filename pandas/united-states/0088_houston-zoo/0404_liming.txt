@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/11/23
 en.name: Li-Ming
 en.nicknames: none
-en.othernames: Liming
+en.othernames: Liming, Li Ming
 gender: f
 jp.name: リミン
 jp.nicknames: none
@@ -38,4 +38,5 @@ photo.4.commitdate: 2019/12/3
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: portrait, profile
 species: 2
+studbook.id: 0810
 zoo: 88
