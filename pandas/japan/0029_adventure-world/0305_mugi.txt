@@ -5,7 +5,7 @@ birthplace: 29
 children: none
 commitdate: 2018/8/12
 en.name: Mugi
-en.nicknames: Babu, Yon, Mugiweeb, Weebles, Mugiweebles
+en.nicknames: Babu, Yon, Mugiweeb, Weebles, Mugiweeble, Mugiweebles
 en.othernames: none
 gender: m
 jp.name: 麦
@@ -700,6 +700,10 @@ photo.138.author: chankunvv
 photo.138.commitdate: 2020/7/18
 photo.138.link: https://www.instagram.com/chankunvv/
 photo.138.tags: close-up, portrait, videolink
+photo.139: https://www.instagram.com/p/CDAY35bBhnu/media/?size=m
+photo.139.author: chankunvv
+photo.139.link: https://www.instagram.com/chankunvv/
+photo.139.tags: portrait, smile, whiskers
 species: 2
 video.1: https://youtu.be/rYd6QptEbU0
 video.1.author: d_mover
