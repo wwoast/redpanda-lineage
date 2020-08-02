@@ -128,6 +128,9 @@ class RedPandaGraph:
 
     def check_dataset_litter_timeframes(self, date_one, date_two):
         """Valid litter dates are no more than two days apart."""
+        if (date_one == "unknown" or date_two == "unknown"):
+            # Assume wild-caught litters with unknown birthdays are documented ok
+            return True
         [ year_one, month_one, day_one ] = date_one.split("/")
         [ year_two, month_two, day_two ] = date_two.split("/")
         dt_one = datetime.datetime(int(year_one), int(month_one), int(day_one))

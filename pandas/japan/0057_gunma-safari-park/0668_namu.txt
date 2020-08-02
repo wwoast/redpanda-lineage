@@ -1,6 +1,6 @@
 [panda]
 _id: 668
-birthday: 1993/10/26
+birthday: unknown
 birthplace: 57
 children: 454, 456
 commitdate: 2019/3/24
@@ -14,5 +14,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 455
+location.1: wild.3
+location.2: 57, 1993/10/26
 species: 2
 zoo: 57

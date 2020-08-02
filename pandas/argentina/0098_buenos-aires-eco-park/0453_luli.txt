@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/11/26
 en.name: Luli
 en.nicknames: none
-en.oldnames: Pi-pa, Pipa,
+en.oldnames: Pi-pa, Pipa
 en.othernames: Luly
 es.name: Luli
 es.nicknames: none
@@ -41,4 +41,5 @@ photo.4.author: Tomás Francisco Cuesta
 photo.4.commitdate: 2019/5/7
 photo.4.link: https://www.forestanimalrescue.org/red-pandas/
 species: 2
+studbook.id: 0471
 zoo: 98

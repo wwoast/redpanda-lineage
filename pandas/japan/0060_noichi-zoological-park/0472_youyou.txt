@@ -17,4 +17,5 @@ litter: 50, 549
 location.1: 17, 1997/6/20
 location.2: 60, 1998/12/4
 species: 2
+studbook.id: 9792
 zoo: 60

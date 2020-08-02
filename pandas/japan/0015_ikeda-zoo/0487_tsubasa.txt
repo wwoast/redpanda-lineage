@@ -7,7 +7,7 @@ commitdate: 2018/12/11
 death: 2010/4/19
 en.name: Tsubasa
 en.nicknames: none
-en.othernames: none
+en.othernames: Tubasa
 gender: m
 jp.name: ツバサ
 jp.nicknames: none
@@ -26,4 +26,5 @@ photo.2.author: gachon_kudo
 photo.2.commitdate: 2019/4/9
 photo.2.link: https://gachon.exblog.jp/8760908/
 species: 2
+studbook.id: 1792
 zoo: 15

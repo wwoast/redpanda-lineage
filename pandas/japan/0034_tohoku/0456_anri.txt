@@ -7,7 +7,7 @@ commitdate: 2018/11/26
 death: 2007/12/12
 en.name: Anri
 en.nicknames: none
-en.othernames: Annapulina, Anna Pulina
+en.othernames: Annapulina, Anna Pulina, Annapuluna
 gender: f
 jp.name: アンリ
 jp.nicknames: none
@@ -17,4 +17,5 @@ litter: 454
 location.1: 57, 1994/6/19
 location.2: 34, 1995/12/26
 species: 2
+studbook.id: 9445
 zoo: 34
