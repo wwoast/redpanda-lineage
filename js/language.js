@@ -245,6 +245,8 @@ Language.L.flags = {
        "Hungary": "🇭🇺",
        "Ireland": "🇮🇪",
          "India": "🇮🇳",
+   "Isle of Man": "🇮🇲",
+         "Italy": "🇮🇹",
          "Japan": "🇯🇵",
         "Mexico": "🇲🇽",
          "Nepal": "🇳🇵",
