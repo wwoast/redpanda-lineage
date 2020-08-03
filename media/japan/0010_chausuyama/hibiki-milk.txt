@@ -1,0 +1,9 @@
+[media]
+_id: media.10.hibiki-milk
+panda.tags: 98, 247
+photo.1: https://www.instagram.com/p/CC03cawBd9S/media/?size=l
+photo.1.author: fetorus_mami
+photo.1.link: https://www.instagram.com/fetorus_mami/
+photo.1.tags: couple, peek
+photo.1.tags.98.location: 700, 550
+photo.1.tags.247.location: 225, 325
