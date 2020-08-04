@@ -231,15 +231,16 @@ photo.44.author: craig_craig_craig
 photo.44.commitdate: 2020/4/29
 photo.44.link: https://www.instagram.com/craig_craig_craig/
 photo.44.tags: mofumofu, paws, portrait, tail
-photo.45: https://www.instagram.com/p/CCLYk-GBd7n/media/?size=m
+photo.45: https://www.instagram.com/p/CAfNczWH4xh/media/?size=m
 photo.45.author: shigeko0531
-photo.45.commitdate: 2020/7/14
+photo.45.commitdate: 2020/8/3
 photo.45.link: https://www.instagram.com/shigeko0531/
-photo.45.tags: climb, paws, portrait, smile, tree
-photo.46: https://www.instagram.com/p/CAfNczWH4xh/media/?size=m
+photo.45.tags: paws, portrait
+photo.46: https://www.instagram.com/p/CCLYk-GBd7n/media/?size=m
 photo.46.author: shigeko0531
+photo.46.commitdate: 2020/7/14
 photo.46.link: https://www.instagram.com/shigeko0531/
-photo.46.tags: paws, portrait
+photo.46.tags: climb, paws, portrait, smile, tree
 species: 2
 studbook.id: 0988
 zoo: 10
