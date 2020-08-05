@@ -15,7 +15,7 @@ language.order: nl, en, jp
 litter: 1206, 1207
 nl.name: Ariel
 nl.nicknames: none
-nl.othernames: none 
+nl.othernames: none
 species: 1
 studbook.id: unknown
 zoo: 259
