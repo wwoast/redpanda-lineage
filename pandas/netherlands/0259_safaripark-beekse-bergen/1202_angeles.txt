@@ -1,0 +1,23 @@
+[panda]
+_id: 1202
+birthday: 2012/7/4
+birthplace: 260
+children: 1205, 1206, 1207, 1204
+commitdate: 2020/8/5
+en.name: Angeles
+en.nicknames: none
+en.othernames: none
+es.name: Angeles
+es.nicknames: none
+es.othernames: none
+gender: f
+jp.name: アンジェレス
+jp.nicknames: none
+jp.othernames: none
+language.order: es, en, jp
+litter: unknown
+location.1: 260, 2012/7/4
+location.2: 259, 2013/5/30
+species: 1
+studbook.id: 1271
+zoo: 259

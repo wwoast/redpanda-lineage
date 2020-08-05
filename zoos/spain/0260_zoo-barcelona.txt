@@ -1,0 +1,15 @@
+[zoo]
+_id: 260
+commitdate: 2020/8/5
+en.address: Parc de la Ciutadella, 08003 Barcelona, Spain
+en.location: Barcelona, Spain
+en.name: Barcelona Zoo
+es.address: Parc de la Ciutadella, 08003 Barcelona, Spain
+es.location: Barcelona, Spain
+es.name: Zoo Barcelona
+flag: Spain
+language.order: es, en
+latitude: 41.3863515
+longitude: 2.1875575
+map: https://g.page/zoo-de-barcelona-barcelona?share
+website: https://www.zoobarcelona.cat/
