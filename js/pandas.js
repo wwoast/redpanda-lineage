@@ -1678,7 +1678,7 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   }
   // Replace "baby, baby, baby" with group term
   if ((Parse.values(Language.L.polyglots["baby"]).indexOf(animals[0].name) != -1) &&
-      (Pandas.unique(animals.map(x => x.name)).length == 1)) {
+      (Pandas.unique(animals, "name").length == 1)) {
     output_string = Language.L.gui["babies"][L.display];
   }
   return output_string;
