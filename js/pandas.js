@@ -1653,7 +1653,7 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
     var name = Language.fallback_name(panda);
     var info = {
-      "name": name,  // TODO: write a language function for proper name fallback
+      "name": name,
       "x": parseInt(x),
       "y": parseInt(y)
     }
@@ -1675,6 +1675,11 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
     } else {  
       output_string = animals.map(x => x.name).join(connector);
     }
+  }
+  // Replace "baby, baby, baby" with group term
+  if ((Parse.values(Language.L.polyglots["baby"]).indexOf(animals[0].name) != -1) &&
+      (Pandas.unique(animals.map(x => x.name)).length == 1)) {
+    output_string = Language.L.gui["babies"][L.display];
   }
   return output_string;
 }

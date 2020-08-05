@@ -278,6 +278,12 @@ Language.L.gui = {
     "jp": "秋",
     "np": "शरद तु"
   },
+  "babies": {
+    "cn": "婴儿",
+    "en": "Babies",
+    "jp": "乳幼児",
+    "np": "बच्चाहरु"
+  },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
     "en": "Children",   // Capitalization
@@ -1684,7 +1690,7 @@ Language.L.polyglots = {
   "baby": {
     "cn": ["宝宝", "婴儿", "婴儿们"],
  "emoji": [Language.L.emoji.baby],
-    "en": ["baby", "babies"],
+    "en": ["baby", "babies", "Baby"],
     "jp": ["赤", "赤ちゃん"],
     "np": ["बच्चा"]
   }
