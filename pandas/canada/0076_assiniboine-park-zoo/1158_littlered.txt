@@ -13,15 +13,20 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CDW-hSwD3qR/media/?size=m
+photo.1: https://www.instagram.com/p/CPDM_CijcmJ/media/?size=m
 photo.1.author: assiniboineparkzoo
 photo.1.commitdate: 2020/8/6
 photo.1.link: https://www.instagram.com/assiniboineparkzoo/
-photo.1.tags: baby, keeper, newborn, profile
-photo.2: https://www.instagram.com/p/CDhAq0QFYov/media/?size=m
+photo.1.tags: baby, keeper, newborn, paws
+photo.2: https://www.instagram.com/p/CDW-hSwD3qR/media/?size=m
 photo.2.author: assiniboineparkzoo
 photo.2.commitdate: 2020/8/6
 photo.2.link: https://www.instagram.com/assiniboineparkzoo/
-photo.2.tags: laying down, newborn, sleeping
+photo.2.tags: baby, keeper, newborn
+photo.3: https://www.instagram.com/p/CDhAq0QFYov/media/?size=m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2020/8/6
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: laying down, newborn, sleeping
 species: 2
 zoo: 76
