@@ -143,13 +143,15 @@ photo.26.author: ssc6105
 photo.26.commitdate: 2020/7/31
 photo.26.link: https://www.instagram.com/ssc6105/
 photo.26.tags: window
-photo.27: https://www.instagram.com/p/CDbYRZoBV4p/media/?size=m
-photo.27.author: fetorus_mami
-photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.27.tags: bamboo, laying down, paws, portrait, upside-down
-photo.28: https://www.instagram.com/p/CDJCLCuhV_u/media/?size=m
-photo.28.author: ssc6105
-photo.28.link: https://www.instagram.com/ssc6105/
-photo.28.tags: laying down, paws, portrait
+photo.27: https://www.instagram.com/p/CDJCLCuhV_u/media/?size=m
+photo.27.author: ssc6105
+photo.27.commitdate: 2020/8/5
+photo.27.link: https://www.instagram.com/ssc6105/
+photo.27.tags: laying down, paws, portrait
+photo.28: https://www.instagram.com/p/CDbYRZoBV4p/media/?size=m
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2020/8/5
+photo.28.link: https://www.instagram.com/fetorus_mami/
+photo.28.tags: bamboo, laying down, paws, portrait, upside-down
 species: 2
 zoo: 9
