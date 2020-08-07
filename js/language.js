@@ -1492,11 +1492,14 @@ Language.L.messages = {
            " कहाँ बस्यो?"]
   },
   "remembering_you_together": {
-    "cn": ["TOWRITE"],
+    "cn": ["<INSERTNAMES>",
+           ": 我们永远不会忘记你。"],
     "en": ["<INSERTNAMES>",
            ": we will never forget you."],
-    "jp": ["TOWRITE"],
-    "np": ["TOWRITE"]
+    "jp": ["<INSERTNAMES>",
+           "〜私たちは君を決して忘れません。"],
+    "np": ["<INSERTNAMES>",
+           ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं"]
   },
   "tag_combo": {
     "cn": ["组合搜索:",
