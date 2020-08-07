@@ -670,7 +670,6 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
   var generic_div = document.createElement('div');
   for (let id of id_list) {
     var animal = Pandas.searchPandaId(id)[0];
-    var info = Show.acquirePandaInfo(animal, language);
     var message = message_function.apply(null, message_params);
     generic_div.appendChild(message);
     var photos = Pandas.searchPhotoTags([animal], tag_list, "photos", "first");
@@ -758,7 +757,16 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, photo_count=5) 
   var name_string = Language.commaPhraseBare(name_list);
   var message = Message.memorialGroup(name_string, id_link_string, language);
   memorial_div.appendChild(message);
+  // Group photos
   var photos = Pandas.searchPhotoTags([group], ["portrait"], "photos", "first");
+  // Individual photos
+  for (let id of id_list) {
+    var animal = Pandas.searchPandaId(id)[0];
+    var individual_all = Pandas.searchPhotoTags([animal], ["portrait"], "photos", "first");
+    var individual_sample = Pandas.randomChoice(individual_all, 2);
+    photos = photos.concat(individual_sample);
+  }
+  photos = Pandas.shuffle(photos);
   for (let photo of Pandas.randomChoice(photos, photo_count)) {
     var img_link = document.createElement('a');
     // Link to the original instagram media
