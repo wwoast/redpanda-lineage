@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 50, 2016/6/15
+location.2: 54, unknown
 photo.1: https://www.instagram.com/p/BKxlXWDDvP_/media/?size=m
 photo.1.author: shrimpieaqua
 photo.1.commitdate: 2020/5/23
@@ -485,4 +487,4 @@ photo.94.link: https://www.instagram.com/jas_forever_love/
 photo.94.tags: paws, smile, tail, tree
 species: 2
 studbook.id: 1677
-zoo: 50
+zoo: 54
