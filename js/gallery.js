@@ -705,7 +705,7 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
   return generic_div;  
 }
 
-// Get lists of animals who died in the last two weeks.
+// Give it manual-compiled lists of animals who died recently
 // Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, message_function) {
   var memorial_div = document.createElement('div');
@@ -742,6 +742,49 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       container.appendChild(caption_link);
       memorial_div.appendChild(container);
     }
+  }
+  return memorial_div;
+}
+
+// Give it manual-compiled lists of group animals who died recently
+// Return a div with the exact desired output.
+Gallery.memorialPhotoCreditsGroup = function(language, group_id, photo_count=5) {
+  var memorial_div = document.createElement('div');
+  var group = Pandas.searchPandaId(group_id)[0];
+  var id_list = group["panda.tags"].split(", ");
+  var id_link_string = id_list.join("/");
+  var name_list = id_list.map(x => Pandas.searchPandaId(x)[0])
+                     .map(x => Language.fallback_name(x));
+  var name_string = Language.commaPhraseBare(name_list);
+  var message = Message.memorialGroup(name_string, id_link_string, language);
+  memorial_div.appendChild(message);
+  var photos = Pandas.searchPhotoTags([group], ["portrait"], "photos", "first");
+  for (let photo of Pandas.randomChoice(photos, photo_count)) {
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = "#group/" + id_link_string;
+    var img = document.createElement('img');
+    img.src = photo["photo"];
+    img.src = img.src.replace('/?size=l', '/?size=m');
+    img_link.appendChild(img);
+    // Link to the original instagram media
+    var caption_link = document.createElement('a');
+    caption_link.href = photo["photo.link"];
+    caption_link.href = caption_link.href.replace("/media/?size=m", "/");
+    caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+    caption_link.target = "_blank";   // Open in new tab
+    var caption = document.createElement('h5');
+    caption.className = "caption memorialMessage";
+    var caption_span = document.createElement('span');
+    caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    // TODO: condenser
+    caption.appendChild(caption_span);
+    caption_link.appendChild(caption);
+    var container = document.createElement('div');
+    container.className = "photoSample quarterPage";
+    container.appendChild(img_link);
+    container.appendChild(caption_link);
+    memorial_div.appendChild(container);
   }
   return memorial_div;
 }

@@ -276,10 +276,11 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Current memorials
-    var ginbear = Gallery.memorialPhotoCredits(L.display, ["928", "17"], 5, Message.memorial)
-    new_content.appendChild(ginbear);    
+    // var departed = Gallery.memorialPhotoCredits(L.display, ["928"], 5, Message.memorial)
+    // new_content.appendChild(departed);
     // Please remember these pandas
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["22"], 5, Message.missing_you);
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["17", "22"], 5, Message.missing_you);
+    // var memorial = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", 5);
     new_content.appendChild(memorial);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);

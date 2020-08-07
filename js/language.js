@@ -1491,6 +1491,13 @@ Language.L.messages = {
     "np": ["<INSERTNAME>",
            " कहाँ बस्यो?"]
   },
+  "remembering_you_together": {
+    "cn": ["TOWRITE"],
+    "en": ["<INSERTNAMES>",
+           ": we will never forget you."],
+    "jp": ["TOWRITE"],
+    "np": ["TOWRITE"]
+  },
   "tag_combo": {
     "cn": ["组合搜索:",
            "<INSERTNUM>",
@@ -2515,6 +2522,33 @@ Language.commaPhrase = function(pieces) {
     }
   }
   return p;
+}
+
+// Same as above but for just raw text
+Language.commaPhraseBare = function(pieces) {
+  var o = "";
+  for (var i = 0; i < pieces.length; i++) {
+    var m = pieces[i];
+    var c = Language.L.messages.comma[L.display] + " ";
+    var a = Language.L.messages.and_words[L.display];
+    o = o.concat(m);
+    // Commas
+    if ((i < pieces.length - 2) && (pieces.length > 2)) {
+      o = o.concat(c);
+    }
+    // Comma and "and" for long phrases
+    if ((i == pieces.length - 2) && (pieces.length > 2)) {
+      o = o.concat(c);
+      o = o.concat(a);
+    }
+    // No commas, but just the "and"
+    if ((i == pieces.length - 2) && (pieces.length <= 2)) {
+      o = o.concat(a);
+    }
+  }
+  // The fragments may concatenate spaces together, so kill these
+  o = o.replace(/\s\s+/g, ' ');
+  return o;
 }
 
 // Calculate the current fallback language order for a given info block or entity.

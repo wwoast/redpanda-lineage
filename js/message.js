@@ -326,6 +326,30 @@ Message.memorial = function(name, animal_id, birth, death, language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.memorialGroup = function(name_string, id_string, language) {
+  var link = document.createElement('a');
+  link.href = "#group/" + id_string;
+  var p = document.createElement('p');
+  for (var i in L.messages.remembering_you_together[language]) {
+    var field = L.messages.remembering_you_together[language][i];
+    if (field == "<INSERTNAMES>") {
+      field = name_string;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  link.appendChild(p);
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(link);
+  var message = document.createElement('div');
+  message.className = "memorialSummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.missing_you = function(name, animal_id, birth, death, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;
