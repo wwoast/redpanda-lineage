@@ -1498,7 +1498,7 @@ Language.L.messages = {
            Language.L.emoji.paws],
     "en": [Language.L.emoji.hearts, " ",
            "<INSERTNAMES>",
-           ": we will never forget you. ",
+           ": We will never forget you. ",
            " ", Language.L.emoji.paws],
     "jp": [Language.L.emoji.hearts, " ",
            "<INSERTNAMES>",
