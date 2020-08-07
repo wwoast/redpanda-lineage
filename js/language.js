@@ -1492,14 +1492,22 @@ Language.L.messages = {
            " कहाँ बस्यो?"]
   },
   "remembering_you_together": {
-    "cn": ["<INSERTNAMES>",
-           ": 我们永远不会忘记你。"],
-    "en": ["<INSERTNAMES>",
-           ": we will never forget you."],
-    "jp": ["<INSERTNAMES>",
-           "〜私たちは君を決して忘れません。"],
-    "np": ["<INSERTNAMES>",
-           ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं"]
+    "cn": [Language.L.emoji.hearts, " ",
+           "<INSERTNAMES>",
+           ": 我们永远不会忘记你。",
+           Language.L.emoji.paws],
+    "en": [Language.L.emoji.hearts, " ",
+           "<INSERTNAMES>",
+           ": we will never forget you. ",
+           " ", Language.L.emoji.paws],
+    "jp": [Language.L.emoji.hearts, " ",
+           "<INSERTNAMES>",
+           "〜私たちは君を決して忘れません。",
+           Language.L.emoji.paws],
+    "np": [Language.L.emoji.hearts, " ",
+           "<INSERTNAMES>",
+           ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं। ",
+           Language.L.emoji.paws]
   },
   "tag_combo": {
     "cn": ["组合搜索:",
