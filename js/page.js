@@ -280,12 +280,13 @@ Page.home.render = function() {
     // new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["17", "22"], 5, Message.missing_you);
+    // new_content.appendChild(memorial);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
     // Group memorial for Kin and Gin
-    var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", 3);
+    var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
     new_content.appendChild(ginkin);    
     Page.swap(old_content, new_content);
     Layout.shrinkNames();

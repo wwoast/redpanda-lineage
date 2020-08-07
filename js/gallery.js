@@ -746,11 +746,11 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
 }
 
 // Give it manual-compiled lists of group animals who died recently
-// Return a div with the exact desired output.
-Gallery.memorialPhotoCreditsGroup = function(language, group_id, photo_count=5) {
+// Return a div with the exact desired output. Use manually defined
+// id_list to decide the proper aesthetic ordering of names.
+Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_count=5) {
   var memorial_div = document.createElement('div');
   var group = Pandas.searchPandaId(group_id)[0];
-  var id_list = group["panda.tags"].split(", ");
   var id_link_string = id_list.join("/");
   var name_list = id_list.map(x => Pandas.searchPandaId(x)[0])
                      .map(x => Language.fallback_name(x));
