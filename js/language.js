@@ -1021,6 +1021,7 @@ Language.L.messages = {
     },
     "pandas": {
       "cn": [Language.L.emoji.profile,
+             " ",
              "<INSERTCOUNT>",
              "只新小熊猫"],
       "en": [Language.L.emoji.profile,
@@ -1028,6 +1029,7 @@ Language.L.messages = {
              "<INSERTCOUNT>",
              " new red pandas"],
       "jp": [Language.L.emoji.profile,
+             " ",
              "<INSERTCOUNT>",
              "つの新しいレッサーパンダ"],
       "np": [Language.L.emoji.profile,
