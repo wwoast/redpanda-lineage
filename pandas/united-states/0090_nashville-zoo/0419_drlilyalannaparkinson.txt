@@ -15,68 +15,69 @@ language.order: en, jp
 litter: none
 location.1: 93, 2018/6/6
 location.2: 90, 2019/4/1
-photo.1: https://www.instagram.com/p/BqERxoYg7iH/media/?size=m
-photo.1.author: gambit2704
+photo.1: https://www.instagram.com/p/BoNSTAMAfeo/media/?size=m
+photo.1.author: dmwarnman
 photo.1.commitdate: 2018/11/23
-photo.1.link: https://www.instagram.com/gambit2704/
-photo.1.tags: profile
+photo.1.link: https://www.instagram.com/dmwarnman/
+photo.1.tags: baby, smile
 photo.2: https://www.instagram.com/p/BoNYYdqgaE2/media/?size=m
 photo.2.author: journalsentinel
 photo.2.commitdate: 2018/11/23
 photo.2.link: https://www.instagram.com/journalsentinel/
 photo.2.tags: baby, ear
-photo.3: https://www.instagram.com/p/BoNSTAMAfeo/media/?size=m
-photo.3.author: dmwarnman
+photo.3: https://www.instagram.com/p/BqERxoYg7iH/media/?size=m
+photo.3.author: gambit2704
 photo.3.commitdate: 2018/11/23
-photo.3.link: https://www.instagram.com/dmwarnman/
-photo.3.tags: baby, smile
+photo.3.link: https://www.instagram.com/gambit2704/
+photo.3.tags: profile
 photo.4: https://www.instagram.com/p/BrDOOmxBmYn/media/?size=m
 photo.4.author: milwaukeecozoo
 photo.4.commitdate: 2018/12/21
 photo.4.link: https://www.instagram.com/milwaukeecozoo/
 photo.4.tags: bamboo, snow
-photo.5: https://www.instagram.com/p/BwG20xdBelR/media/?size=m
-photo.5.author: golos_ameriki
-photo.5.commitdate: 2019/4/12
-photo.5.link: https://www.instagram.com/golos_ameriki/
-photo.5.tags: paws
-photo.6: https://www.instagram.com/p/BrxrClJDtWv/media/?size=m
+photo.5: https://www.instagram.com/p/BrxrClJDtWv/media/?size=m
+photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/milwaukeecozoo/
+photo.5.tags: baby, portrait, snow
+photo.6: https://www.instagram.com/p/Br72UReFdSw/media/?size=m
 photo.6.author: milwaukeecozoo
 photo.6.commitdate: 2019/10/17
 photo.6.link: https://www.instagram.com/milwaukeecozoo/
-photo.6.tags: baby, portrait, snow
-photo.7: https://www.instagram.com/p/Br72UReFdSw/media/?size=m
+photo.6.tags: baby, bridge, portrait, snow
+photo.7: https://www.instagram.com/p/BsJA-UiBAiA/media/?size=m
 photo.7.author: milwaukeecozoo
 photo.7.commitdate: 2019/10/17
 photo.7.link: https://www.instagram.com/milwaukeecozoo/
-photo.7.tags: baby, bridge, portrait, snow
-photo.8: https://www.instagram.com/p/BsJA-UiBAiA/media/?size=m
+photo.7.tags: nose, portrait, snow
+photo.8: https://www.instagram.com/p/Bs0mJ8vBsnm/media/?size=m
 photo.8.author: milwaukeecozoo
 photo.8.commitdate: 2019/10/17
 photo.8.link: https://www.instagram.com/milwaukeecozoo/
-photo.8.tags: nose, portrait, snow
-photo.9: https://www.instagram.com/p/Bs0mJ8vBsnm/media/?size=m
+photo.8.tags: portrait, smile, snow
+photo.9: https://www.instagram.com/p/BtV6S1JjNUs/media/?size=m
 photo.9.author: milwaukeecozoo
 photo.9.commitdate: 2019/10/17
 photo.9.link: https://www.instagram.com/milwaukeecozoo/
-photo.9.tags: portrait, smile, snow
+photo.9.tags: paws, portrait, snow
 photo.10: https://www.instagram.com/p/Bt_OSuCDcY-/media/?size=m
 photo.10.author: milwaukeecozoo
 photo.10.commitdate: 2019/10/17
 photo.10.link: https://www.instagram.com/milwaukeecozoo/
 photo.10.tags: laying down, mofumofu, portrait, snow, tail
-photo.11: https://www.instagram.com/p/BtV6S1JjNUs/media/?size=m
+photo.11: https://www.instagram.com/p/BvmvMKDhc2D/media/?size=m
 photo.11.author: milwaukeecozoo
 photo.11.commitdate: 2019/10/17
 photo.11.link: https://www.instagram.com/milwaukeecozoo/
-photo.11.tags: paws, portrait, snow
-photo.12: https://www.instagram.com/p/BvmvMKDhc2D/media/?size=m
-photo.12.author: milwaukeecozoo
-photo.12.commitdate: 2019/10/17
-photo.12.link: https://www.instagram.com/milwaukeecozoo/
-photo.12.tags: mofumofu, portrait, smile
+photo.11.tags: mofumofu, portrait, smile
+photo.12: https://www.instagram.com/p/BwG20xdBelR/media/?size=m
+photo.12.author: golos_ameriki
+photo.12.commitdate: 2019/4/12
+photo.12.link: https://www.instagram.com/golos_ameriki/
+photo.12.tags: paws
 photo.13: https://www.instagram.com/p/CDQ8YjHgarj/media/?size=m
 photo.13.author: rossifari
+photo.13.commitdate: 2020/8/9
 photo.13.link: https://www.instagram.com/rossifari/
 photo.13.tags: paws, portrait, smile, tongue
 species: 2

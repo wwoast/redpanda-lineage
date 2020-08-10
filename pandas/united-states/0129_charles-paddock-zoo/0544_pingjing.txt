@@ -23,14 +23,16 @@ photo.2.author: wumpwoast
 photo.2.commitdate: 2020/3/8
 photo.2.link: https://www.instagram.com/wumpwoast/
 photo.2.tags: mofumofu, peek, portrait
-photo.3: https://www.instagram.com/p/CDl00xNhZPq/media/?size=m
+photo.3: https://www.instagram.com/p/CDRl-61BnyS/media/?size=m
 photo.3.author: wumpwoast
+photo.3.commitdate: 2020/8/9
 photo.3.link: https://www.instagram.com/wumpwoast/
-photo.3.tags: paws, portrait, whiskers
-photo.4: https://www.instagram.com/p/CDRl-61BnyS/media/?size=m
+photo.3.tags: portrait, smile
+photo.4: https://www.instagram.com/p/CDl00xNhZPq/media/?size=m
 photo.4.author: wumpwoast
+photo.4.commitdate: 2020/8/9
 photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: portrait, smile
+photo.4.tags: paws, portrait, whiskers
 species: 1
 studbook.id: 1727
 zoo: 129
