@@ -307,11 +307,13 @@ input[type='text'] {
 }
 
 input.search[disabled] {
+    font-family: sans-serif;
     background-color: white;
     color: white;
 }
 
 input.search[disabled]::placeholder {
+    font-family: sans-serif;
     background-color: white;
     color: lightgray;
 }
