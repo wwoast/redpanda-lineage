@@ -73,29 +73,31 @@ photo.12.author: animal_lifenyc
 photo.12.commitdate: 2019/6/8
 photo.12.link: https://www.instagram.com/animal_lifenyc/
 photo.12.tags: bamboo, panda bowl, snow, tail
-photo.13: https://www.instagram.com/p/B2W_RpfB1MR/media/?size=m
-photo.13.author: animal_lifenyc
-photo.13.commitdate: 2019/9/14
-photo.13.link: https://www.instagram.com/animal_lifenyc/
-photo.13.tags: tail, whiskers
-photo.14: https://www.instagram.com/p/B3kQxgIBPZT/media/?size=m
-photo.14.author: animal_lifenyc
-photo.14.commitdate: 2019/10/16
-photo.14.link: https://www.instagram.com/animal_lifenyc/
-photo.14.tags: panda bowl, portrait
-photo.15: https://www.instagram.com/p/B6oHZ4whBN2/media/?size=m
+photo.13: https://www.instagram.com/p/BvAiB6Mha9O/media/?size=m
+photo.13.author: rossifari
+photo.13.commitdate: 2020/8/11
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: panda bowl, portrait, whiskers
+photo.14: https://www.instagram.com/p/Bvz_C7GBk8U/media/?size=m
+photo.14.author: rossifari
+photo.14.commitdate: 2020/8/11
+photo.14.link: https://www.instagram.com/rossifari/
+photo.14.tags: mofumofu, paws, portrait
+photo.15: https://www.instagram.com/p/B2W_RpfB1MR/media/?size=m
 photo.15.author: animal_lifenyc
-photo.15.commitdate: 2020/3/2
+photo.15.commitdate: 2019/9/14
 photo.15.link: https://www.instagram.com/animal_lifenyc/
-photo.15.tags: bamboo, tail
-photo.16: https://www.instagram.com/p/BvAiB6Mha9O/media/?size=m
-photo.16.author: rossifari
-photo.16.link: https://www.instagram.com/rossifari/
-photo.16.tags: panda bowl, portrait, whiskers
-photo.17: https://www.instagram.com/p/Bvz_C7GBk8U/media/?size=m
-photo.17.author: rossifari
-photo.17.link: https://www.instagram.com/rossifari/
-photo.17.tags: mofumofu, paws, portrait
+photo.15.tags: tail, whiskers
+photo.16: https://www.instagram.com/p/B3kQxgIBPZT/media/?size=m
+photo.16.author: animal_lifenyc
+photo.16.commitdate: 2019/10/16
+photo.16.link: https://www.instagram.com/animal_lifenyc/
+photo.16.tags: panda bowl, portrait
+photo.17: https://www.instagram.com/p/B6oHZ4whBN2/media/?size=m
+photo.17.author: animal_lifenyc
+photo.17.commitdate: 2020/3/2
+photo.17.link: https://www.instagram.com/animal_lifenyc/
+photo.17.tags: bamboo, tail
 species: 1
 studbook.id: 1529
 zoo: 75
