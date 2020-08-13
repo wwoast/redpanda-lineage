@@ -16,6 +16,7 @@ language.order: en, jp
 litter: none
 location.1: 108, 2011/6/20
 location.2: 121, 2012/5/7
+location.3: 166, 2020/1/1
 photo.1: https://www.instagram.com/p/Bkqh2Y8gF9T/media/?size=m
 photo.1.author: zooboise
 photo.1.commitdate: 2019/4/7
@@ -32,4 +33,4 @@ photo.3.commitdate: 2019/12/3
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: portrait, whiskers
 species: 1
-zoo: 121
+zoo: 166
