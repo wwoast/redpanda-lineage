@@ -13,16 +13,16 @@ jp.nicknames: none
 jp.othernames: 旭
 language.order: jp, en
 litter: 318, 319
-photo.1: https://www.instagram.com/p/BrPmWsOFcGa/media/?size=m
-photo.1.author: daniele.tokyo
+photo.1: https://www.instagram.com/p/BpRrWuQFiWI/media/?size=m
+photo.1.author: bananawani_official
 photo.1.commitdate: 2018/12/22
-photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: baby, tree
-photo.2: https://www.instagram.com/p/BpRrWuQFiWI/media/?size=m
-photo.2.author: bananawani_official
+photo.1.link: https://www.instagram.com/bananawani_official/
+photo.1.tags: baby
+photo.2: https://www.instagram.com/p/BrPmWsOFcGa/media/?size=m
+photo.2.author: daniele.tokyo
 photo.2.commitdate: 2018/12/22
-photo.2.link: https://www.instagram.com/bananawani_official/
-photo.2.tags: baby
+photo.2.link: https://www.instagram.com/daniele.tokyo/
+photo.2.tags: baby, tree
 photo.3: https://www.instagram.com/p/BrwqzpIFvyd/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2018/12/25
@@ -50,6 +50,7 @@ photo.7.link: https://www.instagram.com/mini_cochi/
 photo.7.tags: peek, portrait
 photo.8: https://www.instagram.com/p/CDw9DFoBYHh/media/?size=m
 photo.8.author: miis_98
+photo.8.commitdate: 2020/8/14
 photo.8.link: https://www.instagram.com/miis_98/
 photo.8.tags: portrait
 species: 1
