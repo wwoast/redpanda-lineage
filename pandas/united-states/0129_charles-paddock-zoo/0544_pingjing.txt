@@ -28,15 +28,16 @@ photo.3.author: wumpwoast
 photo.3.commitdate: 2020/8/9
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: portrait, smile
-photo.4: https://www.instagram.com/p/CDl00xNhZPq/media/?size=m
+photo.4: https://www.instagram.com/p/CDesrnohTDt/media/?size=m
 photo.4.author: wumpwoast
-photo.4.commitdate: 2020/8/9
+photo.4.commitdate: 2020/8/15
 photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: paws, portrait, whiskers
-photo.5: https://www.instagram.com/p/CDesrnohTDt/media/?size=m
+photo.4.tags: portrait, smile
+photo.5: https://www.instagram.com/p/CDl00xNhZPq/media/?size=m
 photo.5.author: wumpwoast
+photo.5.commitdate: 2020/8/9
 photo.5.link: https://www.instagram.com/wumpwoast/
-photo.5.tags: portrait, smile
+photo.5.tags: paws, portrait, whiskers
 species: 1
 studbook.id: 1727
 zoo: 129
