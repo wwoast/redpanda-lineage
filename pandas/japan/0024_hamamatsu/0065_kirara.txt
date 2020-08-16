@@ -49,7 +49,7 @@ photo.7: https://www.instagram.com/p/Bpt9FdlFEN4/media/?size=m
 photo.7.author: taka__3428
 photo.7.commitdate: 2018/11/5
 photo.7.link: https://www.instagram.com/taka__3428/
-photo.7.tags: portrait, profile
+photo.7.tags: portrait
 photo.8: https://www.instagram.com/p/BpvFcd7lVPN/media/?size=m
 photo.8.author: taka__3428
 photo.8.commitdate: 2018/11/5
@@ -513,6 +513,17 @@ photo.101.author: taka__3428
 photo.101.commitdate: 2020/6/20
 photo.101.link: https://www.instagram.com/taka__3428/
 photo.101.tags: bamboo, paws, techitechi
+photo.102: https://www.instagram.com/p/CDcNh6TB-UZ/media/?size=m
+photo.102.author: hamamatsu.chiita
+photo.102.link: https://www.instagram.com/hamamatsu.chiita/
+photo.102.tags: bamboo, bite, paws, portrait, tongue
+photo.103: https://www.instagram.com/p/CDUkdbaBCLJ/media/?size=m
+photo.103.author: hamamatsu.chiita
+photo.103.link: https://www.instagram.com/hamamatsu.chiita/
+photo.103.tags: mofumofu, portrait, profile, whiskers
+photo.104: https://www.instagram.com/p/CDHltOWB2BT/media/?size=m
+photo.104.author: hamamatsu.chiita
+photo.104.link: https://www.instagram.com/hamamatsu.chiita/
 species: 2
 studbook.id: 14135
 zoo: 24

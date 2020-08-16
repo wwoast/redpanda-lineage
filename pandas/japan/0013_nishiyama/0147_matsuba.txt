@@ -222,6 +222,14 @@ photo.42.author: panda.daisuki
 photo.42.commitdate: 2020/7/24
 photo.42.link: https://www.instagram.com/panda.daisuki/
 photo.42.tags: portrait, tail, whiskers
+photo.43: https://www.instagram.com/p/CCf8eb8hO0T/media/?size=m
+photo.43.author: hamamatsu.chiita
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: portrait, smile
+photo.44: https://www.instagram.com/p/CClCPkuhnGH/media/?size=m
+photo.44.author: hamamatsu.chiita
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: close-up, shake, whiskers
 species: 2
 studbook.id: 14166
 zoo: 13
