@@ -364,30 +364,31 @@ photo.70.author: alto0908
 photo.70.commitdate: 2020/5/12
 photo.70.link: https://www.instagram.com/alto0908/
 photo.70.tags: laying down, peek, portrait, tree
-photo.71: https://www.instagram.com/p/B_wmAm-Hypj/media/?size=m
-photo.71.author: panda.daisuki
-photo.71.commitdate: 2020/5/12
-photo.71.link: https://www.instagram.com/panda.daisuki/
-photo.71.tags: apple time, bamboo, paws, smile
-photo.72: https://www.instagram.com/p/CAKslo3nCRb/media/?size=m
-photo.72.author: pink.b22
-photo.72.commitdate: 2020/5/15
-photo.72.link: https://www.instagram.com/pink.b22/
-photo.72.tags: laying down, portrait, tree
-photo.73: https://www.instagram.com/p/CCTCuaZhDF6/media/?size=m
-photo.73.author: ck.chie
-photo.73.commitdate: 2020/7/13
-photo.73.link: https://www.instagram.com/ck.chie/
-photo.73.tags: bamboo, paws
-photo.74: https://www.instagram.com/p/CDgbkojh0Ke/media/?size=m
-photo.74.author: alto0908
-photo.74.commitdate: 2020/8/5
-photo.74.link: https://www.instagram.com/alto0908/
-photo.74.tags: door, portrait, smile, tongue, whiskers
-photo.75: https://www.instagram.com/p/B_uDoZ-Hzwg/media/?size=m
-photo.75.author: hamamatsu.chiita
-photo.75.link: https://www.instagram.com/hamamatsu.chiita/
-photo.75.tags: peek, portrait, smile, tongue
+photo.71: https://www.instagram.com/p/B_uDoZ-Hzwg/media/?size=m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2020/8/16
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: peek, portrait, smile, tongue
+photo.72: https://www.instagram.com/p/B_wmAm-Hypj/media/?size=m
+photo.72.author: panda.daisuki
+photo.72.commitdate: 2020/5/12
+photo.72.link: https://www.instagram.com/panda.daisuki/
+photo.72.tags: apple time, bamboo, paws, smile
+photo.73: https://www.instagram.com/p/CAKslo3nCRb/media/?size=m
+photo.73.author: pink.b22
+photo.73.commitdate: 2020/5/15
+photo.73.link: https://www.instagram.com/pink.b22/
+photo.73.tags: laying down, portrait, tree
+photo.74: https://www.instagram.com/p/CCTCuaZhDF6/media/?size=m
+photo.74.author: ck.chie
+photo.74.commitdate: 2020/7/13
+photo.74.link: https://www.instagram.com/ck.chie/
+photo.74.tags: bamboo, paws
+photo.75: https://www.instagram.com/p/CDgbkojh0Ke/media/?size=m
+photo.75.author: alto0908
+photo.75.commitdate: 2020/8/5
+photo.75.link: https://www.instagram.com/alto0908/
+photo.75.tags: door, portrait, smile, tongue, whiskers
 species: 2
 studbook.id: 14165
 zoo: 8

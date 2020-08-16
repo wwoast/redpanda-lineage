@@ -205,19 +205,21 @@ photo.39.author: jas_forever_love
 photo.39.commitdate: 2020/7/13
 photo.39.link: https://www.instagram.com/jas_forever_love/
 photo.39.tags: bamboo, home, lips, mofumofu, portrait, whiskers
-photo.40: https://www.instagram.com/p/CCqLvGUBC2p/media/?size=m
-photo.40.author: minato.yokohama2130
-photo.40.commitdate: 2020/7/23
-photo.40.link: https://www.instagram.com/minato.yokohama2130/
-photo.40.tags: home, videolink
-photo.41: https://www.instagram.com/p/CCwf1vJh7n9/media/?size=m
-photo.41.author: hamamatsu.chiita
-photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: whiskers
-photo.42: https://www.instagram.com/p/CCk_r5yhGAP/media/?size=m
+photo.40: https://www.instagram.com/p/CCk_r5yhGAP/media/?size=m
+photo.40.author: hamamatsu.chiita
+photo.40.commitdate: 2020/8/16
+photo.40.link: https://www.instagram.com/hamamatsu.chiita/
+photo.40.tags: close-up, lips, whiskers
+photo.41: https://www.instagram.com/p/CCqLvGUBC2p/media/?size=m
+photo.41.author: minato.yokohama2130
+photo.41.commitdate: 2020/7/23
+photo.41.link: https://www.instagram.com/minato.yokohama2130/
+photo.41.tags: home, videolink
+photo.42: https://www.instagram.com/p/CCwf1vJh7n9/media/?size=m
 photo.42.author: hamamatsu.chiita
+photo.42.commitdate: 2020/8/16
 photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: close-up, lips, whiskers
+photo.42.tags: whiskers
 species: 2
 studbook.id: 13168
 zoo: 13
