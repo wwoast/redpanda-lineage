@@ -1710,7 +1710,7 @@ Language.L.polyglots = {
   "baby": {
     "cn": ["宝宝", "婴儿", "婴儿们"],
  "emoji": [Language.L.emoji.baby],
-    "en": ["baby", "babies", "Baby"],
+    "en": ["baby", "babies", "Baby", "Aka-chan", "Akachan"],
     "jp": ["赤", "赤ちゃん"],
     "np": ["बच्चा"]
   }
