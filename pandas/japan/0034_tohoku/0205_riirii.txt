@@ -28,16 +28,16 @@ photo.3.author: wonderfulzooken
 photo.3.commitdate: 2018/7/26
 photo.3.link: https://www.instagram.com/wonderfulzooken/
 photo.3.tags: smile
-photo.4: https://www.instagram.com/p/BuGgoEel5F5/media/?size=m
-photo.4.author: o_deka_ke
-photo.4.commitdate: 2019/4/5
-photo.4.link: https://www.instagram.com/o_deka_ke/
-photo.4.tags: paws
-photo.5: https://www.instagram.com/p/Brd0tFtlcsG/media/?size=m
-photo.5.author: zoowfreedom299
-photo.5.commitdate: 2019/6/3
-photo.5.link: https://www.instagram.com/zoowfreedom299/
-photo.5.tags: bamboo, paws, smile
+photo.4: https://www.instagram.com/p/Brd0tFtlcsG/media/?size=m
+photo.4.author: zoowfreedom299
+photo.4.commitdate: 2019/6/3
+photo.4.link: https://www.instagram.com/zoowfreedom299/
+photo.4.tags: bamboo, paws, smile
+photo.5: https://www.instagram.com/p/BuGgoEel5F5/media/?size=m
+photo.5.author: o_deka_ke
+photo.5.commitdate: 2019/4/5
+photo.5.link: https://www.instagram.com/o_deka_ke/
+photo.5.tags: paws
 photo.6: https://www.instagram.com/p/B1yRwRyh3xW/media/?size=m
 photo.6.author: o_deka_ke
 photo.6.commitdate: 2019/8/31
@@ -65,6 +65,7 @@ photo.10.link: https://www.instagram.com/zoowfreedom299/
 photo.10.tags: whiskers
 photo.11: https://www.instagram.com/p/CD8mdfghmfl/media/?size=m
 photo.11.author: daniele.tokyo
+photo.11.commitdate: 2020/8/17
 photo.11.link: https://www.instagram.com/daniele.tokyo/
 photo.11.tags: flowers, paws, standing, tail
 species: 2
