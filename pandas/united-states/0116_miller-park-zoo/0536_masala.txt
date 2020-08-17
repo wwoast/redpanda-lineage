@@ -4,6 +4,7 @@ birthday: 2014/7/9
 birthplace: 134
 children: 1127, 1128, 1129
 commitdate: 2019/3/2
+death: 2019/12/1
 en.name: Masala
 en.nicknames: none
 en.othernames: none
@@ -30,7 +31,7 @@ photo.3: https://www.instagram.com/p/BHvEP2KAzWs/media/?size=m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2019/3/17
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: bamboo, portrait, profile, techitechi
+photo.3.tags: bamboo, portrait, techitechi
 photo.4: https://www.instagram.com/p/BHvEVZxAYnG/media/?size=m
 photo.4.author: worldthathesees
 photo.4.commitdate: 2019/3/17
@@ -40,7 +41,7 @@ photo.5: https://www.instagram.com/p/BHvEcjIgT9w/media/?size=m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/3/17
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: portrait
+photo.5.tags: portrait, profile
 photo.6: https://www.instagram.com/p/-p7LsKuWzq/media/?size=m
 photo.6.author: sequoiaparkzoo
 photo.6.commitdate: 2019/4/5
