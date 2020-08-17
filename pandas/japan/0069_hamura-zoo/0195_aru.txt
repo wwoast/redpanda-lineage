@@ -6,7 +6,7 @@ children: 194
 commitdate: 2018/7/14
 en.name: Aru
 en.nicknames: Pandazilla
-en.othernames: Aru, Love, Al
+en.othernames: Love, Al
 gender: m
 jp.name: アル
 jp.nicknames: none
@@ -388,6 +388,10 @@ photo.75.author: kaoru_a358
 photo.75.commitdate: 2020/6/25
 photo.75.link: https://www.instagram.com/kaoru_a358/
 photo.75.tags: portrait
+photo.76: https://www.instagram.com/p/CD6iSofhoeA/media/?size=m
+photo.76.author: minatomirai215
+photo.76.link: https://www.instagram.com/minatomirai215/
+photo.76.tags: portrait
 species: 2
 studbook.id: 13170
 zoo: 69
