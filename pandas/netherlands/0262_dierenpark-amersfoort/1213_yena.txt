@@ -25,26 +25,31 @@ nl.name: Yena
 nl.nicknames: none
 nl.oldnames: none
 nl.othernames: none
-photo.1: https://www.instagram.com/p/CBVv3fQnQ2p/media/?size=m
+photo.1: https://www.instagram.com/p/BwsCZeIhnrd/media/?size=m
 photo.1.author: dierenparkamersfoort
+photo.1.commitdate: 2020/8/19
 photo.1.link: https://www.instagram.com/dierenparkamersfoort/
-photo.1.tags: paws, portrait, tongue
-photo.2: https://www.instagram.com/p/B_XkTY8HOvD/media/?size=m
+photo.1.tags: paws, portrait, tail, whiskers
+photo.2: https://www.instagram.com/p/B2G2lYeo9fi/media/?size=m
 photo.2.author: dierenparkamersfoort
+photo.2.commitdate: 2020/8/19
 photo.2.link: https://www.instagram.com/dierenparkamersfoort/
-photo.2.tags: apple time, paws, smile
+photo.2.tags: paws, portrait, profile
 photo.3: https://www.instagram.com/p/B7ZVZEzHIfH/media/?size=m
 photo.3.author: dierenparkamersfoort
+photo.3.commitdate: 2020/8/19
 photo.3.link: https://www.instagram.com/dierenparkamersfoort/
 photo.3.tags: mofumofu, peek, whiskers
-photo.4: https://www.instagram.com/p/B2G2lYeo9fi/media/?size=m
+photo.4: https://www.instagram.com/p/B_XkTY8HOvD/media/?size=m
 photo.4.author: dierenparkamersfoort
+photo.4.commitdate: 2020/8/19
 photo.4.link: https://www.instagram.com/dierenparkamersfoort/
-photo.4.tags: paws, portrait, profile
-photo.5: https://www.instagram.com/p/BwsCZeIhnrd/media/?size=m
+photo.4.tags: apple time, paws, smile
+photo.5: https://www.instagram.com/p/CBVv3fQnQ2p/media/?size=m
 photo.5.author: dierenparkamersfoort
+photo.5.commitdate: 2020/8/19
 photo.5.link: https://www.instagram.com/dierenparkamersfoort/
-photo.5.tags: paws, portrait, tail, whiskers
+photo.5.tags: paws, portrait, tongue
 species: 1
 studbook.id: 1756
 zoo: 262
