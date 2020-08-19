@@ -1,0 +1,21 @@
+[panda]
+_id: 1214
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/8/19
+en.name: Ying
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イン
+jp.nicknames: none
+jp.othernames: none
+language.order: nl, en, jp
+litter: unknown
+nl.name: Ying
+nl.nicknames: none
+nl.othernames: none
+species: 1
+studbook.id: unknown
+zoo: 262
