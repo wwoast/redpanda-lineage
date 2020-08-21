@@ -76,32 +76,6 @@ Touch.T.move = function(event) {
   }
 }
 
-Touch.T.longPressEnd = function(event, element_id, callback) {
-  event.preventDefault();
-  this.endTime = new Date().getTime();
-  if (this.fingerCount == 1 && this.curX != 0) {
-    // A gesture just happened. Use the distance formula
-    // to determine the length of the swipe
-    this.swipeLength = Math.round(Math.sqrt(Math.pow(this.curX - this.startX,2) + 
-                                            Math.pow(this.curY - this.startY,2)));
-    // If the swipe is less than some small amount, and the duration
-    // of the touch was longer than 1500ms, do an interface task
-    if ((this.swipeLength <= this.minLength) &&
-        (this.endTime - this.startTime > 1500)) {
-      this.angle();
-      this.determine();   // What the swipe direction and angle are
-      // Do something in the RPF interface.
-      // Must be scoped to the touch handler
-      callback.apply(this, [element_id]);
-      this.cancel();      // Reset the variables
-    } else {
-      this.cancel();
-    }
-  } else {
-    this.cancel();
-  }
-}
-
 Touch.T.swipeEnd = function(event, element_id, callback) {
   event.preventDefault();
   this.endTime = new Date().getTime();
@@ -208,23 +182,6 @@ Touch.addSwipeHandler = function(input_elem, callback) {
   }, true);
   input_elem.addEventListener('touchend', function(event) {
     T.swipeEnd(event, input_elem.id, callback);
-  }, true);
-  input_elem.addEventListener('touchmove', function(event) {
-    T.move(event);
-  }, true);
-  input_elem.addEventListener('touchcancel', function() {
-    T.cancel();
-  }, true);
-}
-
-// Long touch event handler for button presses. Doesn't work for images
-// or other things where there are default gestures to deal with.
-Touch.addLongTouchHandler = function(input_elem, callback) {
-  input_elem.addEventListener('touchstart', function(event) {
-    T.start(event);
-  }, true);
-  input_elem.addEventListener('touchend', function(event) {
-    T.longPressEnd(event, input_elem.id, callback);
   }, true);
   input_elem.addEventListener('touchmove', function(event) {
     T.move(event);
