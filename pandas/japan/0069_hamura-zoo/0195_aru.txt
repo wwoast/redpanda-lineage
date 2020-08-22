@@ -388,15 +388,16 @@ photo.75.author: kaoru_a358
 photo.75.commitdate: 2020/6/25
 photo.75.link: https://www.instagram.com/kaoru_a358/
 photo.75.tags: portrait
-photo.76: https://www.instagram.com/p/CD6iSofhoeA/media/?size=m
-photo.76.author: minatomirai215
-photo.76.commitdate: 2020/8/17
-photo.76.link: https://www.instagram.com/minatomirai215/
-photo.76.tags: portrait
-photo.77: https://www.instagram.com/p/CD4-0GlnPVN/media/?size=m
-photo.77.author: mochan8686
-photo.77.link: https://www.instagram.com/mochan8686/
-photo.77.tags: apple time, portrait, smile
+photo.76: https://www.instagram.com/p/CD4-0GlnPVN/media/?size=m
+photo.76.author: mochan8686
+photo.76.commitdate: 2020/8/22
+photo.76.link: https://www.instagram.com/mochan8686/
+photo.76.tags: apple time, portrait, smile
+photo.77: https://www.instagram.com/p/CD6iSofhoeA/media/?size=m
+photo.77.author: minatomirai215
+photo.77.commitdate: 2020/8/17
+photo.77.link: https://www.instagram.com/minatomirai215/
+photo.77.tags: portrait
 species: 2
 studbook.id: 13170
 zoo: 69
