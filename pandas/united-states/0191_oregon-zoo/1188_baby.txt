@@ -5,7 +5,7 @@ birthplace: 191
 children: none
 commitdate: 2020/7/1
 en.name: Baby
-en.nicknames: Napsalot McFluffins
+en.nicknames: Napsalot McFluffins, Huggles McDrowsyface
 en.othernames: none
 gender: m
 jp.name: 赤ちゃん
@@ -28,5 +28,9 @@ photo.3.author: oregonzoo
 photo.3.commitdate: 2020/8/5
 photo.3.link: https://www.instagram.com/oregonzoo/
 photo.3.tags: baby, keeper, mofumofu, portrait
+photo.4: https://www.instagram.com/p/CDwc5e9H9c0/media/?size=m
+photo.4.author: oregonzoo
+photo.4.link: https://www.instagram.com/oregonzoo/
+photo.4.tags: baby, laying down, paws, portrait
 species: 2
 zoo: 191
