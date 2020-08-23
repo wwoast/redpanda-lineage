@@ -14,3 +14,6 @@ link.3.language.order: jp
 link.4: https://dylanmoriarty.github.io/red-panda-map/
 link.4.en.name: Red Pandas of the World (Map)
 link.4.language.order: en
+link.5: http://www.redpandalife.com/
+link.5.en.name: Red Panda Life
+link.5.language.order: en

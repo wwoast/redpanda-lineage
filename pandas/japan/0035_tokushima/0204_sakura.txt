@@ -32,12 +32,12 @@ photo.4: https://www.instagram.com/p/BhBs9Xbhwbh/media/?size=m
 photo.4.author: love__mitarashi
 photo.4.commitdate: 2018/7/25
 photo.4.link: https://www.instagram.com/love__mitarashi/
-photo.4.tags: bamboo, home, profile
+photo.4.tags: bamboo, home, portrait
 photo.5: https://www.instagram.com/p/BhN60xzhOwq/media/?size=m
 photo.5.author: love__mitarashi
 photo.5.commitdate: 2018/7/25
 photo.5.link: https://www.instagram.com/love__mitarashi/
-photo.5.tags: home
+photo.5.tags: home, portrait
 photo.6: https://www.instagram.com/p/Bhgp6y8lpZ8/media/?size=m
 photo.6.author: peek_a_boo00
 photo.6.commitdate: 2020/5/9
@@ -57,7 +57,7 @@ photo.9: https://www.instagram.com/p/BkhZLV8Fao1/media/?size=m
 photo.9.author: tabechum
 photo.9.commitdate: 2020/4/8
 photo.9.link: https://www.instagram.com/tabechum/
-photo.9.tags: home, paws, portrait
+photo.9.tags: home, paws
 photo.10: https://www.instagram.com/p/BkhqBuvlbds/media/?size=m
 photo.10.author: peek_a_boo00
 photo.10.commitdate: 2020/5/9
@@ -67,7 +67,7 @@ photo.11: https://www.instagram.com/p/Bk1nFlKlgis/media/?size=m
 photo.11.author: love__mitarashi
 photo.11.commitdate: 2018/7/25
 photo.11.link: https://www.instagram.com/love__mitarashi/
-photo.11.tags: bamboo, smile
+photo.11.tags: bamboo, portrait, smile
 photo.12: https://www.instagram.com/p/BlA384NlAXH/media/?size=m
 photo.12.author: peek_a_boo00
 photo.12.commitdate: 2020/5/9
@@ -77,7 +77,7 @@ photo.13: https://www.instagram.com/p/BoDnMK4lscV/media/?size=m
 photo.13.author: peek_a_boo00
 photo.13.commitdate: 2018/9/24
 photo.13.link: https://www.instagram.com/peek_a_boo00/
-photo.13.tags: home
+photo.13.tags: home, portrait, smile
 photo.14: https://www.instagram.com/p/BpQ8EwvFjaA/media/?size=m
 photo.14.author: love__mitarashi
 photo.14.commitdate: 2018/10/23
@@ -87,7 +87,7 @@ photo.15: https://www.instagram.com/p/Bq7HM2ul9N3/media/?size=m
 photo.15.author: love__mitarashi
 photo.15.commitdate: 2018/12/4
 photo.15.link: https://www.instagram.com/love__mitarashi/
-photo.15.tags: home
+photo.15.tags: home, portrait
 photo.16: https://www.instagram.com/p/BrPzQ-WFgrE/media/?size=m
 photo.16.author: love__mitarashi
 photo.16.commitdate: 2018/12/12
@@ -107,17 +107,17 @@ photo.19: https://www.instagram.com/p/ByKaqYhht3J/media/?size=m
 photo.19.author: love__mitarashi
 photo.19.commitdate: 2019/6/2
 photo.19.link: https://www.instagram.com/love__mitarashi/
-photo.19.tags: home
+photo.19.tags: home, portrait
 photo.20: https://www.instagram.com/p/ByaBRgthMvu/media/?size=m
 photo.20.author: love__mitarashi
 photo.20.commitdate: 2019/6/8
 photo.20.link: https://www.instagram.com/love__mitarashi/
-photo.20.tags: laying down, tail
+photo.20.tags: laying down, portrait, tail
 photo.21: https://www.instagram.com/p/BzalPhzB5ka/media/?size=m
 photo.21.author: love__mitarashi
 photo.21.commitdate: 2019/7/7
 photo.21.link: https://www.instagram.com/love__mitarashi/
-photo.21.tags: laying down, peek, portrait
+photo.21.tags: close-up, laying down, peek, portrait
 photo.22: https://www.instagram.com/p/B10ZnX_hxZl/media/?size=m
 photo.22.author: love__mitarashi
 photo.22.commitdate: 2019/9/3
@@ -183,6 +183,14 @@ photo.34.author: love__mitarashi
 photo.34.commitdate: 2020/5/11
 photo.34.link: https://www.instagram.com/love__mitarashi/
 photo.34.tags: laying down, tail, sleeping
+photo.35: https://www.instagram.com/p/CEB4EDKB9B6/media/?size=m
+photo.35.author: love__mitarashi
+photo.35.link: https://www.instagram.com/love__mitarashi/
+photo.35.tags: close-up, portrait, profile, smile
+photo.36: https://www.instagram.com/p/CEK2DcnhAwX/media/?size=m
+photo.36.author: love__mitarashi
+photo.36.link: https://www.instagram.com/love__mitarashi/
+photo.36.tags: bamboo, portrait, smile
 species: 2
 studbook.id: 15140
 zoo: 35
