@@ -649,6 +649,9 @@ def sort_ig_updates():
     patch = PatchSet(diff_raw)
     for change in patch:
         filename = change.path
+        if filename.find("links") == 0:
+            # Don't care about links files
+            continue
         if filename.find(".txt") == -1:
             # Don't care about non-data files
             continue
