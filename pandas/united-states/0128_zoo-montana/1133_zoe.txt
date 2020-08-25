@@ -16,5 +16,14 @@ litter: 1134
 location.1: 108, 2003/7/7
 location.2: 112, 2004/4/14
 location.3: 128, 2008/11/14
+photo.1: https://www.instagram.com/p/BxXVWMbFpso/media/?size=m
+photo.1.author: zoomontana
+photo.1.commitdate: 2020/3/21
+photo.1.link: https://www.instagram.com/zoomontana/
+photo.1.tags: laying down, paws, portrait
+photo.2: https://www.instagram.com/p/CBdFwgnpAV4/media/?size=m
+photo.2.author: grandescape3
+photo.2.link: https://www.instagram.com/grandescape3/
+photo.2.tags: paws, portrait
 species: 1
 zoo: 128
