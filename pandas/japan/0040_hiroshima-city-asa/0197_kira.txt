@@ -145,16 +145,11 @@ photo.26.author: re_ichimaru
 photo.26.commitdate: 2020/1/21
 photo.26.link: https://www.instagram.com/re_ichimaru/
 photo.26.tags: portrait, smile
-photo.27: https://www.instagram.com/p/CACG3dwhtDd/media/?size=m
-photo.27.author: sirpirka777
-photo.27.commitdate: 2020/5/17
-photo.27.link: https://www.instagram.com/sirpirka777/
-photo.27.tags: dish, keeper, paws, portrait, tail
-photo.28: https://www.instagram.com/p/CDzL7s3hb3s/media/?size=m
-photo.28.author: minatomirai215
-photo.28.commitdate: 2020/8/13
-photo.28.link: https://www.instagram.com/minatomirai215/
-photo.28.tags: apple time, paws, whiskers
+photo.27: https://www.instagram.com/p/CDzL7s3hb3s/media/?size=m
+photo.27.author: minatomirai215
+photo.27.commitdate: 2020/8/13
+photo.27.link: https://www.instagram.com/minatomirai215/
+photo.27.tags: apple time, paws, whiskers
 species: 2
 studbook.id: 14138
 zoo: 40

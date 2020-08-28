@@ -106,15 +106,10 @@ photo.19: https://www.instagram.com/p/B9qt9OOBaPi/media/?size=m
 photo.19.author: satoshi_jimny
 photo.19.commitdate: 2020/4/28
 photo.19.link: https://www.instagram.com/satoshi_jimny/
-photo.20: https://www.instagram.com/p/CBvD4PGBFCe/media/?size=m
-photo.20.author: sirpirka777
-photo.20.commitdate: 2020/6/28
-photo.20.link: https://www.instagram.com/sirpirka777/
-photo.20.tags: portrait, profile, smile
-photo.21: https://www.instagram.com/p/CCA688uhRt4/media/?size=m
-photo.21.author: leonard_redmof
-photo.21.commitdate: 2020/7/24
-photo.21.link: https://www.instagram.com/leonard_redmof/
-photo.21.tags: baby, mofumofu, portrait
+photo.20: https://www.instagram.com/p/CCA688uhRt4/media/?size=m
+photo.20.author: leonard_redmof
+photo.20.commitdate: 2020/7/24
+photo.20.link: https://www.instagram.com/leonard_redmof/
+photo.20.tags: baby, mofumofu, portrait
 species: 2
 zoo: 40
