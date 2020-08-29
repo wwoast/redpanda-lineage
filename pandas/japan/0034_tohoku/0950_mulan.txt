@@ -217,17 +217,19 @@ photo.41.author: ssc6105
 photo.41.commitdate: 2020/7/25
 photo.41.link: https://www.instagram.com/ssc6105/
 photo.41.tags: laying down, paws, playing, portrait
-photo.42: https://www.instagram.com/p/CEDpZVEB_tV/media/?size=m
-photo.42.author: hamiiiii831_
-photo.42.commitdate: 2020/8/23
-photo.42.link: https://www.instagram.com/hamiiiii831_/
-photo.42.tags: peek, portrait, whiskers
-photo.43: https://www.instagram.com/p/CEDW4pphqiP/media/?size=m
-photo.43.author: fetorus_mami
-photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: close-up, mofumofu
+photo.42: https://www.instagram.com/p/CEDW4pphqiP/media/?size=m
+photo.42.author: fetorus_mami
+photo.42.commitdate: 2020/8/28
+photo.42.link: https://www.instagram.com/fetorus_mami/
+photo.42.tags: close-up, mofumofu
+photo.43: https://www.instagram.com/p/CEDpZVEB_tV/media/?size=m
+photo.43.author: hamiiiii831_
+photo.43.commitdate: 2020/8/23
+photo.43.link: https://www.instagram.com/hamiiiii831_/
+photo.43.tags: peek, portrait, whiskers
 photo.44: https://www.instagram.com/p/CEEU0fJBHo4/media/?size=m
 photo.44.author: daniele.tokyo
+photo.44.commitdate: 2020/8/28
 photo.44.link: https://www.instagram.com/daniele.tokyo/
 photo.44.tags: grooming, mofumofu, tail
 species: 2
