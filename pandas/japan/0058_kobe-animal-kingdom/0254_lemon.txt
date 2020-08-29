@@ -379,15 +379,16 @@ photo.73.author: bubbles_octi
 photo.73.commitdate: 2020/8/14
 photo.73.link: https://www.instagram.com/bubbles_octi/
 photo.73.tags: apple time, portrait, smile, tongue
-photo.74: https://www.instagram.com/p/CETjjtFhp2p/media/?size=m
-photo.74.author: gloryeui
-photo.74.commitdate: 2020/8/28
-photo.74.link: https://www.instagram.com/gloryeui/
-photo.74.tags: bamboo, portrait, smile, whiskers
-photo.75: https://www.instagram.com/p/CD3Xjj6BrBo/media/?size=m
-photo.75.author: chankunvv
-photo.75.link: https://www.instagram.com/chankunvv/
-photo.75.tags: laying down, portrait, smile
+photo.74: https://www.instagram.com/p/CD3Xjj6BrBo/media/?size=m
+photo.74.author: chankunvv
+photo.74.commitdate: 2020/8/29
+photo.74.link: https://www.instagram.com/chankunvv/
+photo.74.tags: laying down, portrait, smile
+photo.75: https://www.instagram.com/p/CETjjtFhp2p/media/?size=m
+photo.75.author: gloryeui
+photo.75.commitdate: 2020/8/28
+photo.75.link: https://www.instagram.com/gloryeui/
+photo.75.tags: bamboo, portrait, smile, whiskers
 species: 2
 studbook.id: 14164
 zoo: 58
