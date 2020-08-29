@@ -327,7 +327,7 @@ photo.63: https://www.instagram.com/p/CBpk89xhQUs/media/?size=m
 photo.63.author: hamamatsu.chiita
 photo.63.commitdate: 2020/8/16
 photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: hammock, mofumofu, portrait, profile, smile
+photo.63.tags: hammock, mofumofu, portrait, smile
 photo.64: https://www.instagram.com/p/CBwEziYh7ss/media/?size=m
 photo.64.author: hamamatsu.chiita
 photo.64.commitdate: 2020/8/16
@@ -373,5 +373,13 @@ photo.72.author: gloryeui
 photo.72.commitdate: 2020/7/19
 photo.72.link: https://www.instagram.com/gloryeui/
 photo.72.tags: home, laying down, mofumofu, portrait
+photo.73: https://www.instagram.com/p/CEMMDV7hbsA/media/?size=m
+photo.73.author: taka__3428
+photo.73.link: https://www.instagram.com/taka__3428/
+photo.73.tags: apple time, paws, window
+photo.74: https://www.instagram.com/p/CD2EB16BGC7/media/?size=m
+photo.74.author: hamamatsu.chiita
+photo.74.link: https://www.instagram.com/hamamatsu.chiita/
+photo.74.tags: home, laying down, paws, portrait, profile, smile
 species: 2
 zoo: 24
