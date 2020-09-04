@@ -279,7 +279,7 @@ Page.home.render = function() {
     // var departed = Gallery.memorialPhotoCredits(L.display, ["1158"], 5, Message.memorial)
     // new_content.appendChild(departed);
     // Please remember these pandas
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["261"], 5, Message.memorial);
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["261"], 5, Message.missing_you);
     new_content.appendChild(memorial);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
