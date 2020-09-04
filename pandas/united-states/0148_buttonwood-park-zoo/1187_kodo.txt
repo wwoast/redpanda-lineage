@@ -4,11 +4,11 @@ birthday: 2020/6/9
 birthplace: 148
 children: none
 commitdate: 2020/6/30
-en.name: Baby
+en.name: Kodo
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: m
+jp.name: コド
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
@@ -43,5 +43,9 @@ photo.6.author: buttonwoodparkzoo
 photo.6.commitdate: 2020/8/13
 photo.6.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.6.tags: baby, bamboo, toys
+photo.7: https://www.instagram.com/p/CErtvlyDZG1/media/?size=m
+photo.7.author: buttonwoodparkzoo
+photo.7.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.7.tags: baby, mofumofu, paws, tail
 species: 1
 zoo: 148

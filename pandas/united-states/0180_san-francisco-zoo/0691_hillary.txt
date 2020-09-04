@@ -2,7 +2,8 @@
 _id: 691
 birthday: 2004/7/15
 birthplace: 108
-children: unkown
+children: 1125, 514
+death: 2020/8/1
 commitdate: 2019/3/25
 en.name: Hillary
 en.nicknames: none
@@ -26,5 +27,9 @@ photo.2.author: sanfranciscozoo
 photo.2.commitdate: 2019/9/18
 photo.2.link: https://www.instagram.com/sanfranciscozoo/
 photo.2.tags: white face
+photo.3: https://www.instagram.com/p/CCtaKSiHdQP/media/?size=m
+photo.3.author: sanfranciscozoo
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+photo.3.tags: bamboo, flower, home, nose, paws
 species: 1
 zoo: 180

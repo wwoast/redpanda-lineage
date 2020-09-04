@@ -1,0 +1,21 @@
+[panda]
+_id: 1216
+birthday: 2020/6/19
+birthplace: 138
+children: none
+commitdate: 2020/9/3
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CEWtf-MjreX/media/?size=m
+photo.1.author: zslwhipsnadezoo
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.1.tags: baby, newborn, portrait
+species: 2
+zoo: 135
