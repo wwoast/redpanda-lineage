@@ -20,7 +20,15 @@ photo.1: https://www.instagram.com/p/BAF8tTfSkA7/media/?size=m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24
 photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: profile, techitechi
+photo.1.tags: portrait, profile, techitechi
+photo.2: https://www.instagram.com/p/CCYsAOkDM1x/media/?size=m
+photo.2.author: henryvilaszoo
+photo.2.link: https://www.instagram.com/henryvilaszoo/
+photo.2.tags: close-up, mofumofu, portrait, whiskers
+photo.3: https://www.instagram.com/p/B-NlWsiDm1k/media/?size=m
+photo.3.author: henryvilaszoo
+photo.3.link: https://www.instagram.com/henryvilaszoo/
+photo.3.tags: mofumofu
 species: 2
 studbook.id: 0821
 zoo: 77

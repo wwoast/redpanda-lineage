@@ -26,7 +26,7 @@ photo.2: https://www.instagram.com/p/BAF8lrEykAt/media/?size=m
 photo.2.author: worldthathesees
 photo.2.commitdate: 2018/11/24
 photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: portrait, profile, snow, tree
+photo.2.tags: portrait, snow, tree
 photo.3: https://www.codaworry.com/images/rpf/tarrei-1-henryvilas.jpg
 photo.3.author: worldthathesees
 photo.3.commitdate: 2019/4/13
@@ -121,6 +121,14 @@ photo.21.author: worldthathesees
 photo.21.commitdate: 2019/4/13
 photo.21.link: https://www.instagram.com/worldthathesees/
 photo.21.tags: paws
+photo.22: https://www.instagram.com/p/CEj2UFBjEm6/media/?size=m
+photo.22.author: henryvilaszoo
+photo.22.link: https://www.instagram.com/henryvilaszoo/
+photo.22.tags: laying down, paws, sleeping, tail, tree
+photo.23: https://www.instagram.com/p/CDoK4jCjYcj/media/?size=m
+photo.23.author: henryvilaszoo
+photo.23.link: https://www.instagram.com/henryvilaszoo/
+photo.23.tags: paws, portrait, profile, tree
 species: 2
 studbook.id: 0275
 zoo: 77
