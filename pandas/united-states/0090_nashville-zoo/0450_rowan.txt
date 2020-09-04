@@ -15,41 +15,43 @@ language.order: en, jp
 litter: 451
 location.1: 89, 2017/7/7
 location.2: 90, 2019/5/7
-photo.1: https://www.instagram.com/p/BlskqhVFidO/media/?size=m
+photo.1: https://www.instagram.com/p/BaM4RR1nwID/media/?size=m
 photo.1.author: rossparkzoo
 photo.1.commitdate: 2018/11/25
 photo.1.link: https://www.instagram.com/rossparkzoo/
-photo.1.tags: baby, portrait
-photo.2: https://www.instagram.com/p/Bh4BTqtFFKJ/media/?size=m
+photo.1.tags: baby, bamboo, portrait
+photo.2: https://www.instagram.com/p/Bf-9UGwHI_z/media/?size=m
 photo.2.author: rossparkzoo
 photo.2.commitdate: 2018/11/25
 photo.2.link: https://www.instagram.com/rossparkzoo/
-photo.2.tags: close-up, portrait, whiskers
-photo.3: https://www.instagram.com/p/BiWxHhdlSKj/media/?size=m
+photo.3: https://www.instagram.com/p/Bh4BTqtFFKJ/media/?size=m
 photo.3.author: rossparkzoo
 photo.3.commitdate: 2018/11/25
 photo.3.link: https://www.instagram.com/rossparkzoo/
-photo.3.tags: ear, portrait, whiskers
-photo.4: https://www.instagram.com/p/BaM4RR1nwID/media/?size=m
+photo.3.tags: close-up, portrait, whiskers
+photo.4: https://www.instagram.com/p/BiWxHhdlSKj/media/?size=m
 photo.4.author: rossparkzoo
 photo.4.commitdate: 2018/11/25
 photo.4.link: https://www.instagram.com/rossparkzoo/
-photo.4.tags: baby, bamboo, portrait
+photo.4.tags: ear, portrait, whiskers
 photo.5: https://www.instagram.com/p/BiwibU6lBSU/media/?size=m
 photo.5.author: rossparkzoo
 photo.5.commitdate: 2018/11/25
 photo.5.link: https://www.instagram.com/rossparkzoo/
 photo.5.tags: laying down, portrait, profile
-photo.6: https://www.instagram.com/p/Bf-9UGwHI_z/media/?size=m
+photo.6: https://www.instagram.com/p/BlskqhVFidO/media/?size=m
 photo.6.author: rossparkzoo
 photo.6.commitdate: 2018/11/25
 photo.6.link: https://www.instagram.com/rossparkzoo/
+photo.6.tags: baby, portrait
 photo.7: https://www.instagram.com/p/CEfglaJhLbC/media/?size=m
 photo.7.author: worldthathesees
+photo.7.commitdate: 2020/9/4
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: lunch time, paws, portrait, whiskers
 photo.8: https://www.instagram.com/p/CEkctRSJsUu/media/?size=m
 photo.8.author: worldthathesees
+photo.8.commitdate: 2020/9/4
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: lunch time, paws, portrait, whiskers
 species: 2

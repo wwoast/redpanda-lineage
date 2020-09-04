@@ -106,18 +106,20 @@ photo.18.author: carsontheredpanda
 photo.18.commitdate: 2020/5/3
 photo.18.link: https://www.instagram.com/carsontheredpanda/
 photo.18.tags: paws, whiskers
-photo.19: https://www.instagram.com/p/CC6qn2lp3iK/media/?size=m
-photo.19.author: redpandanetwork
-photo.19.commitdate: 2020/8/2
-photo.19.link: https://www.instagram.com/redpandanetwork/
-photo.19.tags: paws, portrait, smile, whiskers
+photo.19: https://www.instagram.com/p/B_QDTDSHVVl/media/?size=m
+photo.19.author: sanfranciscozoo
+photo.19.commitdate: 2020/9/4
+photo.19.link: https://www.instagram.com/sanfranciscozoo/
+photo.19.tags: portrait
 photo.20: https://www.instagram.com/p/CBL0A0Hn1Fs/media/?size=m
 photo.20.author: sanfranciscozoo
+photo.20.commitdate: 2020/9/4
 photo.20.link: https://www.instagram.com/sanfranciscozoo/
 photo.20.tags: portrait, tail, whiskers
-photo.21: https://www.instagram.com/p/B_QDTDSHVVl/media/?size=m
-photo.21.author: sanfranciscozoo
-photo.21.link: https://www.instagram.com/sanfranciscozoo/
-photo.21.tags: portrait
+photo.21: https://www.instagram.com/p/CC6qn2lp3iK/media/?size=m
+photo.21.author: redpandanetwork
+photo.21.commitdate: 2020/8/2
+photo.21.link: https://www.instagram.com/redpandanetwork/
+photo.21.tags: paws, portrait, smile, whiskers
 species: 1
 zoo: 180
