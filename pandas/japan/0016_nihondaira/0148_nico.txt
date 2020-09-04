@@ -582,15 +582,16 @@ photo.115: https://www.instagram.com/p/CCvnZVwhbnH/media/?size=m
 photo.115.author: ayusuke56
 photo.115.commitdate: 2020/7/24
 photo.115.link: https://www.instagram.com/ayusuke56/
-photo.116: https://www.instagram.com/p/CEDkGvQhvvI/media/?size=m
-photo.116.author: lesserpanda_shizuokacity_cp
-photo.116.commitdate: 2020/8/28
-photo.116.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.116.tags: grooming, paws, portrait, tail
-photo.117: https://www.instagram.com/p/CDtH27pBI90/media/?size=m
-photo.117.author: grskus_tk
-photo.117.link: https://www.instagram.com/grskus_tk/
-photo.117.tags: laying down, portrait, tongue
+photo.116: https://www.instagram.com/p/CDtH27pBI90/media/?size=m
+photo.116.author: grskus_tk
+photo.116.commitdate: 2020/9/3
+photo.116.link: https://www.instagram.com/grskus_tk/
+photo.116.tags: laying down, portrait, tongue
+photo.117: https://www.instagram.com/p/CEDkGvQhvvI/media/?size=m
+photo.117.author: lesserpanda_shizuokacity_cp
+photo.117.commitdate: 2020/8/28
+photo.117.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.117.tags: grooming, paws, portrait, tail
 species: 2
 studbook.id: 1771
 zoo: 16
