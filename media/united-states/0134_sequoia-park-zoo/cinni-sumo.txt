@@ -9,16 +9,17 @@ photo.1.link: https://www.instagram.com/sequoiaparkzoo/
 photo.1.tags: white face
 photo.1.tags.533.location: 260, 70
 photo.1.tags.535.location: 60, 75
-photo.2: https://www.instagram.com/p/CEX48C7hy3n/media/?size=l
-photo.2.author: wumpwoast
-photo.2.commitdate: 2020/9/5
-photo.2.link: https://www.instagram.com/wumpwoast/
-photo.2.tags: bamboo, bite, father's day, paws, portrait, shoots
-photo.2.tags.533.location: 270, 630
-photo.2.tags.535.location: 905, 550
-photo.3: https://www.instagram.com/p/CCb1-r-lLaF/media/?size=l
-photo.3.author: sequoiaparkzoo
-photo.3.link: https://www.instagram.com/sequoiaparkzoo/
-photo.3.tags: father's day, smile
-photo.3.tags.533.location: 180, 185
-photo.3.tags.535.location: 855, 510
+photo.2: https://www.instagram.com/p/CCb1-r-lLaF/media/?size=l
+photo.2.author: sequoiaparkzoo
+photo.2.commitdate: 2020/9/6
+photo.2.link: https://www.instagram.com/sequoiaparkzoo/
+photo.2.tags: father's day, smile
+photo.2.tags.533.location: 180, 185
+photo.2.tags.535.location: 855, 510
+photo.3: https://www.instagram.com/p/CEX48C7hy3n/media/?size=l
+photo.3.author: wumpwoast
+photo.3.commitdate: 2020/9/5
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: bamboo, bite, father's day, paws, portrait, shoots
+photo.3.tags.533.location: 270, 630
+photo.3.tags.535.location: 905, 550
