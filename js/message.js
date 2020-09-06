@@ -634,6 +634,9 @@ Message.tag_combo = function(num, emojis, language) {
     if (field == "<INSERTNUM>") {
       output_text = output_text.concat(num);
     } else {
+      if (num == 1) {
+        field = Language.unpluralize([field]);
+      }
       output_text = output_text.concat(field);
     }
   }
@@ -688,6 +691,9 @@ Message.tag_subject = function(num, name, emoji, tag, language) {
       msg.appendChild(text);
       p.appendChild(msg);
     } else {
+      if (num == 1) {
+        field = Language.unpluralize([field]);
+      }
       var msg = document.createTextNode(field);
       if ((language == "jp") && (i == 1) && (name == undefined)) {
         msg = document.createTextNode("枚");
