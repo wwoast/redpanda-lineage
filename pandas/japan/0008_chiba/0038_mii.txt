@@ -57,7 +57,7 @@ photo.9: https://www.instagram.com/p/Bn3f6Xaln9F/media/?size=m
 photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2018/9/22
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.9.tags: profile
+photo.9.tags: mofumofu, peek
 photo.10: https://www.instagram.com/p/BoNgKqmF_Ky/media/?size=m
 photo.10.author: redpanda_nippon_takashi
 photo.10.commitdate: 2018/9/27
@@ -453,6 +453,18 @@ photo.88.author: panda.daisuki
 photo.88.commitdate: 2020/8/3
 photo.88.link: https://www.instagram.com/panda.daisuki/
 photo.88.tags: portrait, videolink
+photo.89: https://www.instagram.com/p/B_h0wIin4iA/media/?size=m
+photo.89.author: panda.daisuki
+photo.89.link: https://www.instagram.com/panda.daisuki/
+photo.89.tags: apple time, autumn, paws, portrait, standing, tail
+photo.90: https://www.instagram.com/p/B_rbFzVn0XY/media/?size=m
+photo.90.author: hamamatsu.chiita
+photo.90.link: https://www.instagram.com/hamamatsu.chiita/
+photo.90.tags: home, paws, whiskers
+photo.91: https://www.instagram.com/p/B_zd8BTH4zW/media/?size=m
+photo.91.author: takahisakaneuchi
+photo.91.link: https://www.instagram.com/takahisakaneuchi/
+photo.91.tags: bamboo, paws, portrait, profile, tongue
 species: 2
 studbook.id: 13155
 zoo: 8
