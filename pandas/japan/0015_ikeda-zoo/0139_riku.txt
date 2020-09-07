@@ -115,15 +115,16 @@ photo.20.author: panda.daisuki
 photo.20.commitdate: 2020/6/13
 photo.20.link: https://www.instagram.com/panda.daisuki/
 photo.20.tags: bamboo, mofumofu, portrait
-photo.21: https://www.instagram.com/p/CEjpPiHA22d/media/?size=m
-photo.21.author: itsuak
-photo.21.commitdate: 2020/9/4
-photo.21.link: https://www.instagram.com/itsuak/
-photo.21.tags: laying down, mofumofu, portrait
-photo.22: https://www.instagram.com/p/CEV4-x1BBK4/media/?size=m
-photo.22.author: grskus_tk
-photo.22.link: https://www.instagram.com/grskus_tk/
-photo.22.tags: bridge, peek, tail
+photo.21: https://www.instagram.com/p/CEV4-x1BBK4/media/?size=m
+photo.21.author: grskus_tk
+photo.21.commitdate: 2020/9/7
+photo.21.link: https://www.instagram.com/grskus_tk/
+photo.21.tags: bridge, peek, tail
+photo.22: https://www.instagram.com/p/CEjpPiHA22d/media/?size=m
+photo.22.author: itsuak
+photo.22.commitdate: 2020/9/4
+photo.22.link: https://www.instagram.com/itsuak/
+photo.22.tags: laying down, mofumofu, portrait
 species: 2
 studbook.id: 0664
 zoo: 15

@@ -272,14 +272,15 @@ photo.52.author: apple_jasmine33
 photo.52.commitdate: 2020/8/22
 photo.52.link: https://www.instagram.com/apple_jasmine33/
 photo.52.tags: laying down, smile, tree
-photo.53: https://www.instagram.com/p/CEI63d1h5LE/media/?size=m
-photo.53.author: framereim
-photo.53.commitdate: 2020/8/23
-photo.53.link: https://www.instagram.com/framereim/
-photo.53.tags: paws, portrait, standing, tail
-photo.54: https://www.instagram.com/p/CDtO-5Hh8_m/media/?size=m
-photo.54.author: redpanda_nippon_takashi
-photo.54.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.54.tags: climb, portrait, smile, tail, tree
+photo.53: https://www.instagram.com/p/CDtO-5Hh8_m/media/?size=m
+photo.53.author: redpanda_nippon_takashi
+photo.53.commitdate: 2020/9/7
+photo.53.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.53.tags: climb, portrait, smile, tail, tree
+photo.54: https://www.instagram.com/p/CEI63d1h5LE/media/?size=m
+photo.54.author: framereim
+photo.54.commitdate: 2020/8/23
+photo.54.link: https://www.instagram.com/framereim/
+photo.54.tags: paws, portrait, standing, tail
 species: 2
 zoo: 29

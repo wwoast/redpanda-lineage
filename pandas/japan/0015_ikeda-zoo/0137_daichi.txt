@@ -125,15 +125,16 @@ photo.22.author: kisshan324
 photo.22.commitdate: 2020/8/14
 photo.22.link: https://www.instagram.com/kisshan324/
 photo.22.tags: bamboo, mofumofu, portrait, smile
-photo.23: https://www.instagram.com/p/CEZFh_QgMPG/media/?size=m
-photo.23.author: itsuak
-photo.23.commitdate: 2020/9/3
-photo.23.link: https://www.instagram.com/itsuak/
-photo.23.tags: mofumofu, portrait, smile, tongue
-photo.24: https://www.instagram.com/p/CEWS82MhRym/media/?size=m
-photo.24.author: grskus_tk
-photo.24.link: https://www.instagram.com/grskus_tk/
-photo.24.tags: bamboo, smile, tail
+photo.23: https://www.instagram.com/p/CEWS82MhRym/media/?size=m
+photo.23.author: grskus_tk
+photo.23.commitdate: 2020/9/7
+photo.23.link: https://www.instagram.com/grskus_tk/
+photo.23.tags: bamboo, smile, tail
+photo.24: https://www.instagram.com/p/CEZFh_QgMPG/media/?size=m
+photo.24.author: itsuak
+photo.24.commitdate: 2020/9/3
+photo.24.link: https://www.instagram.com/itsuak/
+photo.24.tags: mofumofu, portrait, smile, tongue
 species: 2
 studbook.id: 0978
 zoo: 15

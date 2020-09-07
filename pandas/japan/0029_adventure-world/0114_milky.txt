@@ -303,15 +303,16 @@ photo.58.author: framereim
 photo.58.commitdate: 2020/6/5
 photo.58.link: https://www.instagram.com/framereim/
 photo.58.tags: portrait
-photo.59: https://www.instagram.com/p/CDWV610h8tE/media/?size=m
-photo.59.author: nakacchi_desu
-photo.59.commitdate: 2020/8/5
-photo.59.link: https://www.instagram.com/nakacchi_desu/
-photo.59.tags: paws, whiskers
-photo.60: https://www.instagram.com/p/CCUx5OAhK1f/media/?size=m
-photo.60.author: mugicha0312
-photo.60.link: https://www.instagram.com/mugicha0312/
-photo.60.tags: apple time, bite, dish, keeper, portrait
+photo.59: https://www.instagram.com/p/CCUx5OAhK1f/media/?size=m
+photo.59.author: mugicha0312
+photo.59.commitdate: 2020/9/7
+photo.59.link: https://www.instagram.com/mugicha0312/
+photo.59.tags: apple time, bite, dish, keeper, portrait
+photo.60: https://www.instagram.com/p/CDWV610h8tE/media/?size=m
+photo.60.author: nakacchi_desu
+photo.60.commitdate: 2020/8/5
+photo.60.link: https://www.instagram.com/nakacchi_desu/
+photo.60.tags: paws, whiskers
 species: 2
 studbook.id: 13163
 zoo: 29

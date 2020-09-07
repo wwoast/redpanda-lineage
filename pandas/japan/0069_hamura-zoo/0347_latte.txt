@@ -268,27 +268,31 @@ photo.51.author: ssc6105
 photo.51.commitdate: 2020/7/25
 photo.51.link: https://www.instagram.com/ssc6105/
 photo.51.tags: apple time, bite, dish, paws
-photo.52: https://www.instagram.com/p/CDnn1mThAoX/media/?size=m
-photo.52.author: ssc6105
-photo.52.commitdate: 2020/8/15
-photo.52.link: https://www.instagram.com/ssc6105/
-photo.52.tags: curly, mofumofu, smile, tail
-photo.53: https://www.instagram.com/p/CEWBgZbhLA2/media/?size=m
-photo.53.author: kaoru_a358
-photo.53.link: https://www.instagram.com/kaoru_a358/
-photo.53.tags: smile
-photo.54: https://www.instagram.com/p/CDYqxahBFKv/media/?size=m
-photo.54.author: kaoru_a358
-photo.54.link: https://www.instagram.com/kaoru_a358/
-photo.54.tags: mofumofu, smile
-photo.55: https://www.instagram.com/p/CEPe6MThPWA/media/?size=m
-photo.55.author: eos1089
-photo.55.link: https://www.instagram.com/eos1089/
-photo.55.tags: curly, flowers, tail
-photo.56: https://www.instagram.com/p/CEQbpRLhjaO/media/?size=m
+photo.52: https://www.instagram.com/p/CDYqxahBFKv/media/?size=m
+photo.52.author: kaoru_a358
+photo.52.commitdate: 2020/9/7
+photo.52.link: https://www.instagram.com/kaoru_a358/
+photo.52.tags: mofumofu, smile
+photo.53: https://www.instagram.com/p/CDnn1mThAoX/media/?size=m
+photo.53.author: ssc6105
+photo.53.commitdate: 2020/8/15
+photo.53.link: https://www.instagram.com/ssc6105/
+photo.53.tags: curly, mofumofu, smile, tail
+photo.54: https://www.instagram.com/p/CEPe6MThPWA/media/?size=m
+photo.54.author: eos1089
+photo.54.commitdate: 2020/9/7
+photo.54.link: https://www.instagram.com/eos1089/
+photo.54.tags: curly, flowers, tail
+photo.55: https://www.instagram.com/p/CEQbpRLhjaO/media/?size=m
+photo.55.author: kaoru_a358
+photo.55.commitdate: 2020/9/7
+photo.55.link: https://www.instagram.com/kaoru_a358/
+photo.55.tags: paws, smile
+photo.56: https://www.instagram.com/p/CEWBgZbhLA2/media/?size=m
 photo.56.author: kaoru_a358
+photo.56.commitdate: 2020/9/7
 photo.56.link: https://www.instagram.com/kaoru_a358/
-photo.56.tags: paws, smile
+photo.56.tags: smile
 species: 2
 studbook.id: 13140
 zoo: 69
