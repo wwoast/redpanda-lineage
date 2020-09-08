@@ -20,26 +20,29 @@ photo.1.author: curraghswildlifepark
 photo.1.commitdate: 2020/1/14
 photo.1.link: https://www.instagram.com/curraghswildlifepark/
 photo.1.tags: bamboo, portrait, smile, whiskers
-photo.2: https://www.instagram.com/p/B5IYBc1JUtp/media/?size=m
+photo.2: https://www.instagram.com/p/BnvSWt8BCZo/media/?size=m
 photo.2.author: curraghswildlifepark
-photo.2.commitdate: 2020/1/14
 photo.2.link: https://www.instagram.com/curraghswildlifepark/
-photo.2.tags: portrait, profile, white face, whiskers
-photo.3: https://www.instagram.com/p/CEWQFtrp2U3/media/?size=m
+photo.2.tags: portrait, smile
+photo.3: https://www.instagram.com/p/B5IYBc1JUtp/media/?size=m
 photo.3.author: curraghswildlifepark
+photo.3.commitdate: 2020/1/14
 photo.3.link: https://www.instagram.com/curraghswildlifepark/
-photo.3.tags: close-up, portrait, whiskers
+photo.3.tags: portrait, profile, white face, whiskers
 photo.4: https://www.instagram.com/p/B8tRYrsp0AG/media/?size=m
 photo.4.author: curraghswildlifepark
+photo.4.commitdate: 2020/9/7
 photo.4.link: https://www.instagram.com/curraghswildlifepark/
 photo.4.tags: portrait, whiskers
 photo.5: https://www.instagram.com/p/CAuXBCrJipH/media/?size=m
 photo.5.author: curraghswildlifepark
+photo.5.commitdate: 2020/9/7
 photo.5.link: https://www.instagram.com/curraghswildlifepark/
 photo.5.tags: dish, portrait, tail, whiskers
-photo.6 :https://www.instagram.com/p/BnvSWt8BCZo/media/?size=m
+photo.6: https://www.instagram.com/p/CEWQFtrp2U3/media/?size=m
 photo.6.author: curraghswildlifepark
+photo.6.commitdate: 2020/9/7
 photo.6.link: https://www.instagram.com/curraghswildlifepark/
-photo.6.tags: portrait, smile
+photo.6.tags: close-up, portrait, whiskers
 species: 1
 zoo: 198
