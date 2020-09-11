@@ -308,54 +308,55 @@ photo.59.author: minato.yokohama2130
 photo.59.commitdate: 2020/7/26
 photo.59.link: https://www.instagram.com/minato.yokohama2130/
 photo.59.tags: paws, portrait, tail, videolink
-photo.60: https://www.instagram.com/p/CDBJxdFh8T9/media/?size=m
+photo.60: https://www.instagram.com/p/CC27cdAh69m/media/?size=m
 photo.60.author: minato.yokohama2130
-photo.60.commitdate: 2020/7/31
+photo.60.commitdate: 2020/9/10
 photo.60.link: https://www.instagram.com/minato.yokohama2130/
-photo.60.tags: bear worm, paws, smile, white face
-photo.61: https://www.instagram.com/p/CDKLmtXBe-f/media/?size=m
-photo.61.author: hamamatsu.chiita
-photo.61.commitdate: 2020/8/16
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
-photo.61.tags: apple time, bamboo, dish, smile, tongue
-photo.62: https://www.instagram.com/p/CDR8uWhBLdM/media/?size=m
+photo.60.tags: laying down, mofumofu, portrait, white face
+photo.61: https://www.instagram.com/p/CDBJxdFh8T9/media/?size=m
+photo.61.author: minato.yokohama2130
+photo.61.commitdate: 2020/7/31
+photo.61.link: https://www.instagram.com/minato.yokohama2130/
+photo.61.tags: bear worm, paws, smile, white face
+photo.62: https://www.instagram.com/p/CDKLmtXBe-f/media/?size=m
 photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2020/8/16
 photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: mofumofu, portrait, white face
-photo.63: https://www.instagram.com/p/CDWMom2BW2E/media/?size=m
-photo.63.author: minato.yokohama2130
-photo.63.commitdate: 2020/8/11
-photo.63.link: https://www.instagram.com/minato.yokohama2130/
-photo.63.tags: portrait, videolink, white face
-photo.64: https://www.instagram.com/p/CDvV-ejBy19/media/?size=m
+photo.62.tags: apple time, bamboo, dish, smile, tongue
+photo.63: https://www.instagram.com/p/CDR8uWhBLdM/media/?size=m
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2020/8/16
+photo.63.link: https://www.instagram.com/hamamatsu.chiita/
+photo.63.tags: mofumofu, portrait, white face
+photo.64: https://www.instagram.com/p/CDWMom2BW2E/media/?size=m
 photo.64.author: minato.yokohama2130
-photo.64.commitdate: 2020/8/14
+photo.64.commitdate: 2020/8/11
 photo.64.link: https://www.instagram.com/minato.yokohama2130/
-photo.64.tags: bamboo, portrait, smile
-photo.65: https://www.instagram.com/p/CD2PLTvBkFn/media/?size=m
-photo.65.author: tomo3700
-photo.65.commitdate: 2020/8/29
-photo.65.link: https://www.instagram.com/tomo3700/
-photo.65.tags: paws, portrait, smile, tail, white face
-photo.66: https://www.instagram.com/p/CD8vfGWBeO2/media/?size=m
-photo.66.author: jas_forever_love
-photo.66.commitdate: 2020/8/25
-photo.66.link: https://www.instagram.com/jas_forever_love/
-photo.66.tags: laying down, mofumofu, portrait, profile, smile, tongue, white face
-photo.67: https://www.instagram.com/p/CEbuHSwBJnD/media/?size=m
-photo.67.author: redpanda_nippon_takashi
-photo.67.commitdate: 2020/9/4
-photo.67.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.67.tags: paws, portrait, smile, white face
-photo.68: https://www.instagram.com/p/CEpd84uh1h3/media/?size=m
-photo.68.author: hamamatsu.chiita
-photo.68.commitdate: 2020/9/7
-photo.68.link: https://www.instagram.com/hamamatsu.chiita/
-photo.68.tags: portrait, smile, white face
-photo.69: https://www.instagram.com/p/CC27cdAh69m/media/?size=m
-photo.69.author: minato.yokohama2130
-photo.69.link: https://www.instagram.com/minato.yokohama2130/
-photo.69.tags: laying down, mofumofu, portrait, white face
+photo.64.tags: portrait, videolink, white face
+photo.65: https://www.instagram.com/p/CDvV-ejBy19/media/?size=m
+photo.65.author: minato.yokohama2130
+photo.65.commitdate: 2020/8/14
+photo.65.link: https://www.instagram.com/minato.yokohama2130/
+photo.65.tags: bamboo, portrait, smile
+photo.66: https://www.instagram.com/p/CD2PLTvBkFn/media/?size=m
+photo.66.author: tomo3700
+photo.66.commitdate: 2020/8/29
+photo.66.link: https://www.instagram.com/tomo3700/
+photo.66.tags: paws, portrait, smile, tail, white face
+photo.67: https://www.instagram.com/p/CD8vfGWBeO2/media/?size=m
+photo.67.author: jas_forever_love
+photo.67.commitdate: 2020/8/25
+photo.67.link: https://www.instagram.com/jas_forever_love/
+photo.67.tags: laying down, mofumofu, portrait, profile, smile, tongue, white face
+photo.68: https://www.instagram.com/p/CEbuHSwBJnD/media/?size=m
+photo.68.author: redpanda_nippon_takashi
+photo.68.commitdate: 2020/9/4
+photo.68.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.68.tags: paws, portrait, smile, white face
+photo.69: https://www.instagram.com/p/CEpd84uh1h3/media/?size=m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2020/9/7
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: portrait, smile, white face
 species: 2
 zoo: 13

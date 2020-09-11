@@ -130,15 +130,16 @@ photo.23.author: newzoogb
 photo.23.commitdate: 2019/12/30
 photo.23.link: https://www.instagram.com/newzoogb/
 photo.23.tags: tongue, whiskers
-photo.24: https://www.instagram.com/p/CDWWl4cDU3h/media/?size=m
-photo.24.author: newzoogb
-photo.24.commitdate: 2020/8/25
-photo.24.link: https://www.instagram.com/newzoogb/
-photo.24.tags: laying down, paws, smile, tree
-photo.25: https://www.instagram.com/p/CBdwWRmpvp6/media/?size=m
-photo.25.author: happy_love2.15
-photo.25.link: https://www.instagram.com/happy_love2.15/
-photo.25.tags: laying down, mofumofu, portrait
+photo.24: https://www.instagram.com/p/CBdwWRmpvp6/media/?size=m
+photo.24.author: happy_love2.15
+photo.24.commitdate: 2020/9/10
+photo.24.link: https://www.instagram.com/happy_love2.15/
+photo.24.tags: laying down, mofumofu, portrait
+photo.25: https://www.instagram.com/p/CDWWl4cDU3h/media/?size=m
+photo.25.author: newzoogb
+photo.25.commitdate: 2020/8/25
+photo.25.link: https://www.instagram.com/newzoogb/
+photo.25.tags: laying down, paws, smile, tree
 species: 2
 studbook.id: 1810
 zoo: 44

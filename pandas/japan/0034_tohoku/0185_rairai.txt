@@ -129,15 +129,16 @@ photo.23.author: ssc6105
 photo.23.commitdate: 2020/6/30
 photo.23.link: https://www.instagram.com/ssc6105/
 photo.23.tags: bamboo, mofumofu, portrait
-photo.24: https://www.instagram.com/p/CDeMEm0Bhcf/media/?size=m
-photo.24.author: mariten1119
-photo.24.commitdate: 2020/8/6
-photo.24.link: https://www.instagram.com/mariten1119/
-photo.24.tags: peek
-photo.25: https://www.instagram.com/p/CCnqJr-Bv95/media/?size=m
-photo.25.author: ssc6105
-photo.25.link: https://www.instagram.com/ssc6105/
-photo.25.tags: peek, portrait, whiskers
+photo.24: https://www.instagram.com/p/CCnqJr-Bv95/media/?size=m
+photo.24.author: ssc6105
+photo.24.commitdate: 2020/9/10
+photo.24.link: https://www.instagram.com/ssc6105/
+photo.24.tags: peek, portrait, whiskers
+photo.25: https://www.instagram.com/p/CDeMEm0Bhcf/media/?size=m
+photo.25.author: mariten1119
+photo.25.commitdate: 2020/8/6
+photo.25.link: https://www.instagram.com/mariten1119/
+photo.25.tags: peek
 species: 2
 studbook.id: 14152
 zoo: 34

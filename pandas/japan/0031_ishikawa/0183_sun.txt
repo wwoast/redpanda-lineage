@@ -248,15 +248,16 @@ photo.47.author: bee_san.13
 photo.47.commitdate: 2020/8/14
 photo.47.link: https://www.instagram.com/bee_san.13/
 photo.47.tags: paws, portrait, smile
-photo.48: https://www.instagram.com/p/CElGOKLhniq/media/?size=m
-photo.48.author: na.mo.pan
-photo.48.commitdate: 2020/9/7
-photo.48.link: https://www.instagram.com/na.mo.pan/
-photo.48.tags: flowers, nose
-photo.49: https://www.instagram.com/p/CEd2aZyBZ5P/media/?size=m
-photo.49.author: bee_san.13
-photo.49.link: https://www.instagram.com/bee_san.13/
-photo.49.tags: portrait, smile, whiskers
+photo.48: https://www.instagram.com/p/CEd2aZyBZ5P/media/?size=m
+photo.48.author: bee_san.13
+photo.48.commitdate: 2020/9/10
+photo.48.link: https://www.instagram.com/bee_san.13/
+photo.48.tags: portrait, smile, whiskers
+photo.49: https://www.instagram.com/p/CElGOKLhniq/media/?size=m
+photo.49.author: na.mo.pan
+photo.49.commitdate: 2020/9/7
+photo.49.link: https://www.instagram.com/na.mo.pan/
+photo.49.tags: flowers, nose
 species: 2
 studbook.id: 15162
 zoo: 31
