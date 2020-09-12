@@ -158,15 +158,16 @@ photo.29.author: panda.daisuki
 photo.29.commitdate: 2020/6/24
 photo.29.link: https://www.instagram.com/panda.daisuki/
 photo.29.tags: portrait, tree, upside-down
-photo.30: https://www.instagram.com/p/CET8pvqhFVV/media/?size=m
-photo.30.author: resapan.suki
-photo.30.commitdate: 2020/8/28
-photo.30.link: https://www.instagram.com/resapan.suki/
-photo.30.tags: portrait, smile, tree, whiskers
-photo.31: https://www.instagram.com/p/CDJgzcBhSVl/media/?size=m
-photo.31.author: shigeko0531
-photo.31.link: https://www.instagram.com/shigeko0531/
-photo.31.tags: peek, tree
+photo.30: https://www.instagram.com/p/CDJgzcBhSVl/media/?size=m
+photo.30.author: shigeko0531
+photo.30.commitdate: 2020/9/12
+photo.30.link: https://www.instagram.com/shigeko0531/
+photo.30.tags: peek, tree
+photo.31: https://www.instagram.com/p/CET8pvqhFVV/media/?size=m
+photo.31.author: resapan.suki
+photo.31.commitdate: 2020/8/28
+photo.31.link: https://www.instagram.com/resapan.suki/
+photo.31.tags: portrait, smile, tree, whiskers
 species: 2
 studbook.id: 13150
 zoo: 10
