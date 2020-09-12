@@ -36,17 +36,17 @@ photo.4.commitdate: 2019/11/17
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: portrait, tail, tongue
 photo.5: https://www.instagram.com/p/B5dZTEYhjP_/media/?size=m
-photo.5.author: worldthatehesees
+photo.5.author: worldthathesees
 photo.5.commitdate: 2019/11/29
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: portrait, whiskers
 photo.6: https://www.instagram.com/p/B5dZXmHB9aK/media/?size=m
-photo.6.author: worldthatehesees
+photo.6.author: worldthathesees
 photo.6.commitdate: 2019/11/29
 photo.6.link: https://www.instagram.com/worldthathesees/
 photo.6.tags: air tasting, laying down, tail, tongue
 photo.7: https://www.instagram.com/p/B5dZdPEh-YT/media/?size=m
-photo.7.author: worldthatehesees
+photo.7.author: worldthathesees
 photo.7.commitdate: 2019/11/29
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: paws, peek, tail
@@ -61,14 +61,18 @@ photo.9.commitdate: 2020/1/16
 photo.9.link: https://www.instagram.com/worldthathesees/
 photo.9.tags: white face
 photo.10: https://www.instagram.com/p/B9NmQYgBLbo/media/?size=m
-photo.10.author: worldthatehesees
+photo.10.author: worldthathesees
 photo.10.commitdate: 2020/3/22
 photo.10.link: https://www.instagram.com/worldthathesees/
 photo.10.tags: portrait, profile, tail
 photo.11: https://www.instagram.com/p/B9MeiWzhu_X/media/?size=m
-photo.11.author: worldthatehesees
+photo.11.author: worldthathesees
 photo.11.commitdate: 2020/3/22
 photo.11.link: https://www.instagram.com/worldthathesees/
 photo.11.tags: portrait, tail
+photo.12: https://www.instagram.com/p/CC9YtQEBtmZ/media/?size=m
+photo.12.author: worldthathesees
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: portrait
 species: 1
 zoo: 108
