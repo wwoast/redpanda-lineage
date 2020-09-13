@@ -48,12 +48,14 @@ photo.6.link: https://www.instagram.com/fwkidszoo/
 photo.6.tags: pumpkin
 photo.7: https://www.instagram.com/p/B04ICXKJHN4/media/?size=m
 photo.7.author: rossifari
+photo.7.commitdate: 2020/9/12
 photo.7.link: https://www.instagram.com/rossifari/
 photo.7.tags: mofumofu, paws, portrait
 photo.8: https://www.instagram.com/p/B0Wtw5Pp2OC/media/?size=m
 photo.8.author: rossifari
+photo.8.commitdate: 2020/9/12
 photo.8.link: https://www.instagram.com/rossifari/
 photo.8.tags: laying down, portrait, wet
 species: 1
-uncertainty: location.3
+uncertainty: location.3 date
 zoo: 48
