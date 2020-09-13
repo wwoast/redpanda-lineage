@@ -203,15 +203,16 @@ photo.38.author: re_ichimaru
 photo.38.commitdate: 2020/9/7
 photo.38.link: https://www.instagram.com/re_ichimaru/
 photo.38.tags: laying down, paws, portrait
-photo.39: https://www.instagram.com/p/CD2LR7ahrKy/media/?size=m
-photo.39.author: yossi929
-photo.39.commitdate: 2020/8/21
-photo.39.link: https://www.instagram.com/yossi929/
-photo.39.tags: apple time, praying, standing, wink
-photo.40: https://www.instagram.com/p/CD1Htm_hDFD/media/?size=m
-photo.40.author: re_ichimaru
-photo.40.link: https://www.instagram.com/re_ichimaru/
-photo.40.tags: hammock, paws, standing
+photo.39: https://www.instagram.com/p/CD1Htm_hDFD/media/?size=m
+photo.39.author: re_ichimaru
+photo.39.commitdate: 2020/9/12
+photo.39.link: https://www.instagram.com/re_ichimaru/
+photo.39.tags: hammock, paws, standing
+photo.40: https://www.instagram.com/p/CD2LR7ahrKy/media/?size=m
+photo.40.author: yossi929
+photo.40.commitdate: 2020/8/21
+photo.40.link: https://www.instagram.com/yossi929/
+photo.40.tags: apple time, praying, standing, wink
 species: 2
 studbook.id: 1682
 zoo: 41
