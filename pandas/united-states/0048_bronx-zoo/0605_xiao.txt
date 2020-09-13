@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 498, 910
 location.1: 107, 2009/6/28
 location.2: 123, 2010/7/15
+location.3: 48, 2019/6/1
 photo.1: https://www.instagram.com/p/BoZo_W5DJr6/media/?size=m
 photo.1.author: fwkidszoo
 photo.1.commitdate: 2019/4/7
@@ -45,5 +46,14 @@ photo.6.author: fwkidszoo
 photo.6.commitdate: 2019/11/26
 photo.6.link: https://www.instagram.com/fwkidszoo/
 photo.6.tags: pumpkin
+photo.7: https://www.instagram.com/p/B04ICXKJHN4/media/?size=m
+photo.7.author: rossifari
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: mofumofu, paws, portrait
+photo.8: https://www.instagram.com/p/B0Wtw5Pp2OC/media/?size=m
+photo.8.author: rossifari
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: laying down, portrait, wet
 species: 1
-zoo: 123
+uncertainty: location.3
+zoo: 48
