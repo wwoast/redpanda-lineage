@@ -15,40 +15,35 @@ language.order: en, jp
 litter: 502
 location.1: 48, 2012/6/21
 location.2: 109, 2012/9/14
-photo.1: https://www.instagram.com/p/Bq05nn1leya/media/?size=m
-photo.1.author: nat.carraher
-photo.1.commitdate: 2019/3/7
-photo.1.link: https://www.instagram.com/nat.carraher/
-photo.1.tags: laying down, paws, profile
-photo.2: https://www.instagram.com/p/B5aOb9NBPTZ/media/?size=m
-photo.2.author: worldthathesees
+photo.1: https://www.instagram.com/p/B5aOb9NBPTZ/media/?size=m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: laying down, tree
+photo.2: https://www.instagram.com/p/B37aQcgF_1C/media/?size=m
+photo.2.author: memphiszoo
 photo.2.commitdate: 2019/11/29
-photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: laying down, tree
-photo.3: https://www.instagram.com/p/B37aQcgF_1C/media/?size=m
+photo.2.link: https://www.instagram.com/memphiszoo/
+photo.2.tags: close-up, portrait, profile, whiskers
+photo.3: https://www.instagram.com/p/BxDDBqQBZff/media/?size=m
 photo.3.author: memphiszoo
 photo.3.commitdate: 2019/11/29
 photo.3.link: https://www.instagram.com/memphiszoo/
-photo.3.tags: portrait, whiskers
-photo.4: https://www.instagram.com/p/BxDDBqQBZff/media/?size=m
-photo.4.author: memphiszoo
-photo.4.commitdate: 2019/11/29
-photo.4.link: https://www.instagram.com/memphiszoo/
-photo.4.tags: toys
-photo.5: https://www.instagram.com/p/B5eA6fPBfWB/media/?size=m
+photo.3.tags: toys
+photo.4: https://www.instagram.com/p/B5eA6fPBfWB/media/?size=m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/12/4
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tail
+photo.5: https://www.instagram.com/p/B5eA1LIhK0j/media/?size=m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/12/4
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: tail
-photo.6: https://www.instagram.com/p/B5eA1LIhK0j/media/?size=m
+photo.5.tags: bridge, laying down, paws, portrait, smile, tail
+photo.6: https://www.instagram.com/p/B9Wz9DhhrKC/media/?size=m
 photo.6.author: worldthathesees
-photo.6.commitdate: 2019/12/4
+photo.6.commitdate: 2020/3/10
 photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: bridge, laying down, paws, portrait, smile, tail
-photo.7: https://www.instagram.com/p/B9Wz9DhhrKC/media/?size=m
-photo.7.author: worldthathesees
-photo.7.commitdate: 2020/3/10
-photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: laying down, paws
+photo.6.tags: laying down, paws
 species: 1
 zoo: 109
