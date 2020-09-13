@@ -408,28 +408,31 @@ photo.79.author: kaoru_a358
 photo.79.commitdate: 2020/6/25
 photo.79.link: https://www.instagram.com/kaoru_a358/
 photo.79.tags: portrait
-photo.80: https://www.instagram.com/p/CD4-0GlnPVN/media/?size=m
-photo.80.author: mochan8686
-photo.80.commitdate: 2020/8/22
-photo.80.link: https://www.instagram.com/mochan8686/
-photo.80.tags: apple time, portrait, smile
-photo.81: https://www.instagram.com/p/CD6iSofhoeA/media/?size=m
-photo.81.author: minatomirai215
-photo.81.commitdate: 2020/8/17
-photo.81.link: https://www.instagram.com/minatomirai215/
-photo.81.tags: portrait
+photo.80: https://www.instagram.com/p/CC5mgZLBRw3/media/?size=m
+photo.80.author: ssc6105
+photo.80.commitdate: 2020/9/13
+photo.80.link: https://www.instagram.com/ssc6105/
+photo.80.tags: laying down, tail
+photo.81: https://www.instagram.com/p/CDBtqH7BeVs/media/?size=m
+photo.81.author: kaoru_a358
+photo.81.commitdate: 2020/9/13
+photo.81.link: https://www.instagram.com/kaoru_a358/
+photo.81.tags: apple time, close-up, tongue, window
 photo.82: https://www.instagram.com/p/CDlOXwTBPlJ/media/?size=m
 photo.82.author: ssc6105
+photo.82.commitdate: 2020/9/13
 photo.82.link: https://www.instagram.com/ssc6105/
 photo.82.tags: laying down, whiskers
-photo.83: https://www.instagram.com/p/CC5mgZLBRw3/media/?size=m
-photo.83.author: ssc6105
-photo.83.link: https://www.instagram.com/ssc6105/
-photo.83.tags: laying down, tail
-photo.84: https://www.instagram.com/p/CDBtqH7BeVs/media/?size=m
-photo.84.author: kaoru_a358
-photo.84.link: https://www.instagram.com/kaoru_a358/
-photo.84.tags: apple time, close-up, tongue, window
+photo.83: https://www.instagram.com/p/CD4-0GlnPVN/media/?size=m
+photo.83.author: mochan8686
+photo.83.commitdate: 2020/8/22
+photo.83.link: https://www.instagram.com/mochan8686/
+photo.83.tags: apple time, portrait, smile
+photo.84: https://www.instagram.com/p/CD6iSofhoeA/media/?size=m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2020/8/17
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: portrait
 species: 2
 studbook.id: 13170
 zoo: 69

@@ -165,14 +165,15 @@ photo.30.author: mifko55
 photo.30.commitdate: 2020/5/4
 photo.30.link: https://www.instagram.com/mifko55/
 photo.30.tags: nose, portrait, smile, whiskers
-photo.31: https://www.instagram.com/p/CC-7mmVB3Zx/media/?size=m
-photo.31.author: chankunvv
-photo.31.commitdate: 2020/9/10
-photo.31.link: https://www.instagram.com/chankunvv/
-photo.31.tags: mofumofu, portrait
-photo.32: https://www.instagram.com/p/CCI7v9gBT7d/media/?size=m
-photo.32.author: hamiiiii831_
-photo.32.link: https://www.instagram.com/hamiiiii831_/
-photo.32.tags: close-up, paws, whiskers
+photo.31: https://www.instagram.com/p/CCI7v9gBT7d/media/?size=m
+photo.31.author: hamiiiii831_
+photo.31.commitdate: 2020/9/13
+photo.31.link: https://www.instagram.com/hamiiiii831_/
+photo.31.tags: close-up, paws, whiskers
+photo.32: https://www.instagram.com/p/CC-7mmVB3Zx/media/?size=m
+photo.32.author: chankunvv
+photo.32.commitdate: 2020/9/10
+photo.32.link: https://www.instagram.com/chankunvv/
+photo.32.tags: mofumofu, portrait
 species: 2
 zoo: 29

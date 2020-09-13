@@ -129,19 +129,20 @@ photo.23.author: miis_98
 photo.23.commitdate: 2020/4/3
 photo.23.link: https://www.instagram.com/miis_98/
 photo.23.tags: apple time, lips, portrait, smile
-photo.24: https://www.instagram.com/p/CEYGjVJBOV5/media/?size=m
-photo.24.author: grskus_tk
-photo.24.commitdate: 2020/9/5
-photo.24.link: https://www.instagram.com/grskus_tk/
-photo.24.tags: paws, standing, tail, tongue
-photo.25: https://www.instagram.com/p/CEbUVsjBBkZ/media/?size=m
+photo.24: https://www.instagram.com/p/CEGRpxuhBil/media/?size=m
+photo.24.author: sasapan34
+photo.24.commitdate: 2020/9/13
+photo.24.link: https://www.instagram.com/sasapan34/
+photo.25: https://www.instagram.com/p/CEYGjVJBOV5/media/?size=m
 photo.25.author: grskus_tk
-photo.25.commitdate: 2020/9/10
+photo.25.commitdate: 2020/9/5
 photo.25.link: https://www.instagram.com/grskus_tk/
-photo.25.tags: bamboo
-photo.26: https://www.instagram.com/p/CEGRpxuhBil/media/?size=m
-photo.26.author: sasapan34
-photo.26.link: https://www.instagram.com/sasapan34/
+photo.25.tags: paws, standing, tail, tongue
+photo.26: https://www.instagram.com/p/CEbUVsjBBkZ/media/?size=m
+photo.26.author: grskus_tk
+photo.26.commitdate: 2020/9/10
+photo.26.link: https://www.instagram.com/grskus_tk/
+photo.26.tags: bamboo
 species: 2
 studbook.id: 11101
 video.1: https://youtu.be/Hup9mW7paUY
