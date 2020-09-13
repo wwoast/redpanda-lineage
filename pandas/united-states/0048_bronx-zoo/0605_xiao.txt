@@ -16,46 +16,46 @@ litter: 498, 910
 location.1: 107, 2009/6/28
 location.2: 123, 2010/7/15
 location.3: 48, 2019/6/1
-photo.1: https://www.instagram.com/p/BoZo_W5DJr6/media/?size=m
+photo.1: https://www.instagram.com/p/BZBoXpdD1gb/media/?size=m
 photo.1.author: fwkidszoo
 photo.1.commitdate: 2019/4/7
 photo.1.link: https://www.instagram.com/fwkidszoo/
-photo.1.tags: pumpkin
-photo.2: https://www.instagram.com/p/BlD2dYjjzWy/media/?size=m
+photo.1.tags: bamboo
+photo.2: https://www.instagram.com/p/BawUkpNjmM7/media/?size=m
 photo.2.author: fwkidszoo
 photo.2.commitdate: 2019/4/7
 photo.2.link: https://www.instagram.com/fwkidszoo/
-photo.2.tags: tongue
-photo.3: https://www.instagram.com/p/BpjyO4pDK3p/media/?size=m
+photo.2.tags: pumpkin
+photo.3: https://www.instagram.com/p/BlD2dYjjzWy/media/?size=m
 photo.3.author: fwkidszoo
 photo.3.commitdate: 2019/4/7
 photo.3.link: https://www.instagram.com/fwkidszoo/
-photo.3.tags: portrait, profile
-photo.4: https://www.instagram.com/p/BawUkpNjmM7/media/?size=m
+photo.3.tags: tongue
+photo.4: https://www.instagram.com/p/BoZo_W5DJr6/media/?size=m
 photo.4.author: fwkidszoo
 photo.4.commitdate: 2019/4/7
 photo.4.link: https://www.instagram.com/fwkidszoo/
 photo.4.tags: pumpkin
-photo.5: https://www.instagram.com/p/BZBoXpdD1gb/media/?size=m
+photo.5: https://www.instagram.com/p/BpjyO4pDK3p/media/?size=m
 photo.5.author: fwkidszoo
 photo.5.commitdate: 2019/4/7
 photo.5.link: https://www.instagram.com/fwkidszoo/
-photo.5.tags: bamboo
-photo.6: https://www.instagram.com/p/B4Cs7K5HPb9/media/?size=m
-photo.6.author: fwkidszoo
-photo.6.commitdate: 2019/11/26
-photo.6.link: https://www.instagram.com/fwkidszoo/
-photo.6.tags: pumpkin
+photo.5.tags: portrait, profile
+photo.6: https://www.instagram.com/p/B0Wtw5Pp2OC/media/?size=m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/9/12
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: laying down, portrait, wet
 photo.7: https://www.instagram.com/p/B04ICXKJHN4/media/?size=m
 photo.7.author: rossifari
 photo.7.commitdate: 2020/9/12
 photo.7.link: https://www.instagram.com/rossifari/
 photo.7.tags: mofumofu, paws, portrait
-photo.8: https://www.instagram.com/p/B0Wtw5Pp2OC/media/?size=m
-photo.8.author: rossifari
-photo.8.commitdate: 2020/9/12
-photo.8.link: https://www.instagram.com/rossifari/
-photo.8.tags: laying down, portrait, wet
+photo.8: https://www.instagram.com/p/B4Cs7K5HPb9/media/?size=m
+photo.8.author: fwkidszoo
+photo.8.commitdate: 2019/11/26
+photo.8.link: https://www.instagram.com/fwkidszoo/
+photo.8.tags: pumpkin
 species: 1
 uncertainty: location.3 date
 zoo: 48
