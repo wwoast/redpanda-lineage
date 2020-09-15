@@ -13,63 +13,64 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 574
-photo.1: https://www.instagram.com/p/BtJ6NrCHTH2/media/?size=m
+photo.1: https://www.instagram.com/p/BgRzTHAFN1T/media/?size=m
 photo.1.author: chattanoogazoo
 photo.1.commitdate: 2019/3/12
 photo.1.link: https://www.instagram.com/chattanoogazoo/
-photo.1.tags: profile
-photo.2: https://www.instagram.com/p/BrLNFmUnwAL/media/?size=m
+photo.1.tags: tongue
+photo.2: https://www.instagram.com/p/BhkRnw-ge4S/media/?size=m
 photo.2.author: chattanoogazoo
 photo.2.commitdate: 2019/3/12
 photo.2.link: https://www.instagram.com/chattanoogazoo/
-photo.2.tags: bamboo, portrait
-photo.3: https://www.instagram.com/p/BourYdhHQyO/media/?size=m
+photo.2.tags: home, hammock
+photo.3: https://www.instagram.com/p/Bi4XjIYgmxR/media/?size=m
 photo.3.author: chattanoogazoo
 photo.3.commitdate: 2019/3/12
 photo.3.link: https://www.instagram.com/chattanoogazoo/
-photo.3.tags: tongue
-photo.4: https://www.instagram.com/p/Bnwhw59H6Vp/media/?size=m
+photo.3.tags: baby
+photo.4: https://www.instagram.com/p/BjXYdB9BM4U/media/?size=m
 photo.4.author: chattanoogazoo
 photo.4.commitdate: 2019/3/12
 photo.4.link: https://www.instagram.com/chattanoogazoo/
-photo.4.tags: laying down
+photo.4.tags: bamboo, paws, portrait
 photo.5: https://www.instagram.com/p/BmqqaQHnLBn/media/?size=m
 photo.5.author: chattanoogazoo
 photo.5.commitdate: 2019/3/12
 photo.5.link: https://www.instagram.com/chattanoogazoo/
 photo.5.tags: peek, tree
-photo.6: https://www.instagram.com/p/BjXYdB9BM4U/media/?size=m
+photo.6: https://www.instagram.com/p/Bnwhw59H6Vp/media/?size=m
 photo.6.author: chattanoogazoo
 photo.6.commitdate: 2019/3/12
 photo.6.link: https://www.instagram.com/chattanoogazoo/
-photo.6.tags: bamboo, paws, portrait
-photo.7: https://www.instagram.com/p/Bi4XjIYgmxR/media/?size=m
+photo.6.tags: laying down
+photo.7: https://www.instagram.com/p/BourYdhHQyO/media/?size=m
 photo.7.author: chattanoogazoo
 photo.7.commitdate: 2019/3/12
 photo.7.link: https://www.instagram.com/chattanoogazoo/
-photo.7.tags: baby
-photo.8: https://www.instagram.com/p/BhkRnw-ge4S/media/?size=m
+photo.7.tags: tongue
+photo.8: https://www.instagram.com/p/BrLNFmUnwAL/media/?size=m
 photo.8.author: chattanoogazoo
 photo.8.commitdate: 2019/3/12
 photo.8.link: https://www.instagram.com/chattanoogazoo/
-photo.8.tags: home, hammock
-photo.9: https://www.instagram.com/p/BgRzTHAFN1T/media/?size=m
+photo.8.tags: bamboo, portrait
+photo.9: https://www.instagram.com/p/BtJ6NrCHTH2/media/?size=m
 photo.9.author: chattanoogazoo
 photo.9.commitdate: 2019/3/12
 photo.9.link: https://www.instagram.com/chattanoogazoo/
-photo.9.tags: tongue
-photo.10: https://www.instagram.com/p/B2r5yfMlzI-/media/?size=m
+photo.9.tags: profile
+photo.10: https://www.instagram.com/p/B1ROOETltao/media/?size=m
 photo.10.author: chattanoogazoo
 photo.10.commitdate: 2019/10/16
 photo.10.link: https://www.instagram.com/chattanoogazoo/
-photo.10.tags: bamboo, paws
-photo.11: https://www.instagram.com/p/B1ROOETltao/media/?size=m
+photo.10.tags: paws, whiskers
+photo.11: https://www.instagram.com/p/B2r5yfMlzI-/media/?size=m
 photo.11.author: chattanoogazoo
 photo.11.commitdate: 2019/10/16
 photo.11.link: https://www.instagram.com/chattanoogazoo/
-photo.11.tags: paws, whiskers
+photo.11.tags: bamboo, paws
 photo.12: https://www.instagram.com/p/CERTGtUjgpW/media/?size=m
 photo.12.author: rossifari
+photo.12.commitdate: 2020/9/15
 photo.12.link: https://www.instagram.com/rossifari/
 photo.12.tags: portrait, whiskers
 species: 1
