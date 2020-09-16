@@ -1,0 +1,21 @@
+[panda]
+_id: 1224
+birthday: 2018/6/21
+birthplace: 154
+children: none
+commitdate: 2020/9/16
+en.name: Doofah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ドゥーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1225
+location.1: 154, 2018/6/21
+location.2: 113, 2019/7/1
+species: 1
+studbook.id: 1816
+uncertainty: location.2 date
+zoo: 113

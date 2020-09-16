@@ -16,5 +16,9 @@ language.order: en, jp
 litter: none
 location.1: 121, 2008/7/3
 location.2: 141, 2009/5/7
+photo.1: https://www.codaworry.com/images/rpf/syringa-1-erie.jpg
+photo.1.author: Maya
+photo.1.link: https://www.google.com
+photo.1.tags: profile, tail, white face
 species: 1
 zoo: 141

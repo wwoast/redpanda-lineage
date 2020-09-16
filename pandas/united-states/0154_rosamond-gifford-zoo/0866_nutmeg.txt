@@ -16,10 +16,16 @@ litter: none
 location.1: 141, 2013/6/6
 location.2: 114, 2014/9/30
 location.3: 49, 2017/12/19
+location.4: 154, 2019/10/1
 photo.1: https://www.instagram.com/p/nbTVHUomVa/media/?size=m
 photo.1.author: eriezoo
 photo.1.commitdate: 2019/9/21
 photo.1.link: https://www.instagram.com/eriezoo/
 photo.1.tags: portrait, profile, white face
+photo.2: https://www.instagram.com/p/CFKMEXgsjV-/media/?size=m
+photo.2.author: syracusezoo
+photo.2.link: https://www.instagram.com/syracusezoo/
+photo.2.tags: white face
 species: 1
-zoo: 49
+uncertainty: location.4 date
+zoo: 154
