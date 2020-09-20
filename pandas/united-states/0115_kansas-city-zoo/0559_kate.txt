@@ -20,24 +20,25 @@ photo.1.author: kansascityzoo
 photo.1.commitdate: 2019/12/5
 photo.1.link: https://www.instagram.com/kansascityzoo/
 photo.1.tags: portrait, white face
-photo.2: https://www.instagram.com/p/BzoIb5ohML6/media/?size=m
-photo.2.author: worldthathesees
-photo.2.commitdate: 2019/7/9
-photo.2.link: https://www.instagram.com/worldthathesees/
-photo.2.tags: portrait, profile, white face
-photo.3: https://www.instagram.com/p/B3AVx1cBImG/media/?size=m
+photo.2: https://www.instagram.com/p/BqAHGiYB2QS/media/?size=m
+photo.2.author: kansascityzooaazk
+photo.2.commitdate: 2020/9/19
+photo.2.link: https://www.instagram.com/kansascityzooaazk/
+photo.2.tags: bamboo, tongue, videolink
+photo.3: https://www.instagram.com/p/BzoIb5ohML6/media/?size=m
 photo.3.author: worldthathesees
-photo.3.commitdate: 2019/10/12
+photo.3.commitdate: 2019/7/9
 photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: laying down, paws
-photo.4: https://www.instagram.com/p/B5bYZ7uBV1p/media/?size=m
+photo.3.tags: portrait, profile, white face
+photo.4: https://www.instagram.com/p/B3AVx1cBImG/media/?size=m
 photo.4.author: worldthathesees
-photo.4.commitdate: 2019/11/29
+photo.4.commitdate: 2019/10/12
 photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: dish, lunch time, portrait
-photo.5: https://www.instagram.com/p/BqAHGiYB2QS/media/?size=m
-photo.5.author: kansascityzooaazk
-photo.5.link: https://www.instagram.com/kansascityzooaazk/
-photo.5.tags: bamboo, tongue, videolink
+photo.4.tags: laying down, paws
+photo.5: https://www.instagram.com/p/B5bYZ7uBV1p/media/?size=m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/11/29
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: dish, lunch time, portrait
 species: 1
 zoo: 115

@@ -147,15 +147,16 @@ photo.27.author: ssc6105
 photo.27.commitdate: 2020/5/2
 photo.27.link: https://www.instagram.com/ssc6105/
 photo.27.tags: whiskers
-photo.28: https://www.instagram.com/p/CEXmXHzhRmz/media/?size=m
-photo.28.author: craig_craig_craig
-photo.28.commitdate: 2020/9/5
-photo.28.link: https://www.instagram.com/craig_craig_craig/
-photo.28.tags: peek, portrait
-photo.29: https://www.instagram.com/p/CB96RRch5xL/media/?size=m
-photo.29.author: panda.daisuki
-photo.29.link: https://www.instagram.com/panda.daisuki/
-photo.29.tags: mofumofu, portrait
+photo.28: https://www.instagram.com/p/CB96RRch5xL/media/?size=m
+photo.28.author: panda.daisuki
+photo.28.commitdate: 2020/9/19
+photo.28.link: https://www.instagram.com/panda.daisuki/
+photo.28.tags: mofumofu, portrait
+photo.29: https://www.instagram.com/p/CEXmXHzhRmz/media/?size=m
+photo.29.author: craig_craig_craig
+photo.29.commitdate: 2020/9/5
+photo.29.link: https://www.instagram.com/craig_craig_craig/
+photo.29.tags: peek, portrait
 species: 2
 studbook.id: 0771
 zoo: 8
