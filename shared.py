@@ -134,6 +134,7 @@ class PhotoEntry:
         self.entity_type = None
         self.photo_index = None
         self.photo_uri = None
+        self.species = None
         # Read in the entity details from the backing file just once
         self._read_update_entity_id(raw)
     
@@ -189,6 +190,7 @@ class PhotoEntry:
             self.commitdate = config.get("panda", key + ".commitdate")
             self.photo_index = photo_index
             self.photo_uri = photo_uri
+            self.species = config.get("species")
         elif self.filename.find(ZOO_PATH) != -1:
             self.entity_type = "zoo"
             self.entity_id = config.get("zoo", "_id")

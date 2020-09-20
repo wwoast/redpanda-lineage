@@ -3,25 +3,18 @@
 # Tools for making subsets / samples of Red Panda Lineage data
 
 import os
+import random
 import sys
 
 from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SpeciesError, PhotoEntry, PhotoFile, SectionNameError, get_max_entity_count
 
-def collect_photo_sample(animals, photos, size, species, taglist):
+def define_photo_sample(num_animals, num_photos, size, species, taglist):
     """
     Get a sample of the Red Panda Lineage project's linked photos.
     This was written to support a facial recognition study for red pandas.
-
-    Structure of the output:
-    ./sample-<utime>: output folder
-    ./sample/info.txt: Record and summary of the queried photo data
-        - RPF Git commit, sample.py command ran (including animal and photo counts) 
-    ./sample/a.f.fulgens OR ./sample/a.f.styani:
-        - Sample data arranged by subspecies
-    ./sample/<species>/images/<rpf-id>_photo.<photo.index>.jpg
-    ./sample/<species>/metadata/<rpf-id>_photo.<photo.index>.txt
-        - photo.url, author, commitdate, link, tags, uncertainty
     """
+    matched_photos = []
+    output_photos = []
     max = int(get_max_entity_count())
     for file_path in [PANDA_PATH]:
         section = None
@@ -46,15 +39,54 @@ def collect_photo_sample(animals, photos, size, species, taglist):
                         photo_index = photo_index + 1
                         continue
                     # Collect photos
-
+                    value = photo_list.get_field(current_tag)
+                    raw = current_tag + ": " + value
+                    photo = PhotoEntry(filename, raw)
+                    matched_photos.append(photo)
+    # Shuffle the list of photos that match our interest
+    random.shuffle(matched_photos)
     # Take entire photo set we've gathered, and whittle it down to
-    # the animal_count and photo_count set of phtos. TODO
+    # the animal_count and photo_count set of photos.
+    animal_id_list = []
+    for photo in matched_photos:
+        # Don't go over the photo count overall
+        if len(output_photos) == num_photos:
+            return photos
+        if photo.entity_id not in animal_id_list:
+            # Don't go over your animal count
+            if len(animal_id_list) < num_animals:
+                output_photos.append(photo)
+                animal_id_list.append(photo.entity_id)
+            else:
+                continue
+        else:
+            # Animal id seen previously, and we still need photos
+            output_photos.append(photo)
+    return output_photos
 
+def fetch_sample_photos(desired_photos):
+    """
+    Given a defined set of photos we selected from the dataset, grab them
+    from the Internet, and write them in an organized way.
 
-def write_sample_summary():
+    Structure of the output:
+    ./sample-<utime>: output folder 
+    ./sample/a.f.fulgens OR ./sample/a.f.styani:
+        - Sample data arranged by subspecies
+    ./sample/<species>/images/<rpf-id>_photo.<photo.index>.jpg
+    ./sample/<species>/metadata/<rpf-id>_photo.<photo.index>.txt
+        - photo.url, author, commitdate, link, tags, uncertainty
+    """
+    pass
+
+def write_sample_summary(desired_photos):
     """
     Write an informational summary of the sample, as well as all URLs gathered.
-    Make this similar to the 
+    
+    Structure of the output:
+    ./sample-<utime>: output folder
+    ./sample/info.txt: Record and summary of the queried photo data
+        - RPF Git commit, sample.py command ran (including animal and photo counts)
     """
     pass
 
