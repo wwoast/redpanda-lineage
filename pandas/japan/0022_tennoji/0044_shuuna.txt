@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/18
 en.name: Shuuna
 en.nicknames: none
-en.othernames: Syuna
+en.othernames: Syuna, Shoona, Shuna
 gender: f
 jp.name: シュウナ
 jp.nicknames: none
@@ -313,6 +313,10 @@ photo.60.author: mugicha0312
 photo.60.commitdate: 2020/8/5
 photo.60.link: https://www.instagram.com/mugicha0312/
 photo.60.tags: apple time, paws, portrait, standing, tail
+photo.61: https://www.instagram.com/p/CEtYbQPBN_9/media/?size=m
+photo.61.author: pink.b22
+photo.61.link: https://www.instagram.com/pink.b22/
+photo.61.tags: bear worm, laying down, portrait, tail
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo
