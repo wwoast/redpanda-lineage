@@ -719,6 +719,14 @@ class PhotoEntry:
             self.commitdate = config.get("zoo", key + ".commitdate")
             self.photo_index = photo_index
             self.photo_uri = photo_uri
+        elif self.filename.find(WILD_PATH) != -1:
+            self.entity_type = "wild"
+            self.entity_id = config.get("wild", "_id")
+            self.entity_commitdate = config.get("wild", "commitdate")
+            self.author_name = config.get("wild", key + ".author")
+            self.commitdate = config.get("wild", key + ".commitdate")
+            self.photo_index = photo_index
+            self.photo_uri = photo_uri
         else:
             pass
 
