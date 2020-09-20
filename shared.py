@@ -1,5 +1,7 @@
 import configparser
 import datetime
+import os
+import sys
 
 from collections import OrderedDict
 
@@ -36,6 +38,20 @@ def datetime_to_unixtime(commitdate):
     if commitdate == None:
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
+
+def get_max_entity_count():
+    """
+    Read the export/redpanda.json file. If it doesn't exist, ask one to
+    be built. Then read _photo.entity_max from this file, which is the
+    highest photo count for a single panda or zoo.
+    """
+    data = "export/redpanda.json"
+    if (os.path.exists(data)):
+        with open("export/redpanda.json", "r") as jfh:
+            return json.loads(jfh.read())["_photo"]["entity_max"]
+    else:
+        print("%s file not built yet with build.py -- please generate.")
+        sys.exit()
 
 # Exceptions
 class AuthorError(ValueError):

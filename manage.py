@@ -10,7 +10,7 @@ import os
 import re
 import sys
 
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, get_max_entity_count
 from unidiff import PatchSet
 
 def find_commit_of_removed_photos(author, repo):
@@ -51,20 +51,6 @@ def find_commit_of_removed_photos(author, repo):
         else:
             # Prepare for the next iteration
             compare = commit
-
-def get_max_entity_count():
-    """
-    Read the export/redpanda.json file. If it doesn't exist, ask one to
-    be built. Then read _photo.entity_max from this file, which is the
-    highest photo count for a single panda or zoo.
-    """
-    data = "export/redpanda.json"
-    if (os.path.exists(data)):
-        with open("export/redpanda.json", "r") as jfh:
-            return json.loads(jfh.read())["_photo"]["entity_max"]
-    else:
-        print("%s file not built yet with build.py -- please generate.")
-        sys.exit()    
 
 def remove_author_from_lineage(author):
     """
