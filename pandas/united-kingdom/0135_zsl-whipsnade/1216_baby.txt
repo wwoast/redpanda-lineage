@@ -4,15 +4,18 @@ birthday: 2020/6/19
 birthplace: 138
 children: none
 commitdate: 2020/9/3
-en.name: Baby
+en.name: Nilō
 en.nicknames: none
-en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+en.othernames: Nilo
+gender: m
+jp.name: ニロー
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+np.name: निलो
+np.nicknames: none
+np.othernames: none
 photo.1: https://www.instagram.com/p/CEWtf-MjreX/media/?size=m
 photo.1.author: zslwhipsnadezoo
 photo.1.commitdate: 2020/9/3
