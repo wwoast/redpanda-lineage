@@ -65,6 +65,9 @@ class NameFormatError(ValueError):
 class SectionNameError(ValueError):
     pass
 
+class SpeciesError(ValueError):
+    pass
+
 # Shared classes
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     """
