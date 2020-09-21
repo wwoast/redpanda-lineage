@@ -29,6 +29,9 @@ def define_photo_sample(num_animals, num_photos, species, taglist):
                 # print(path)
                 photo_list = PhotoFile(section, path)
                 photo_count = photo_list.photo_count()
+                if photo_count == 0:
+                    # Ignore if panda has no photos
+                    continue
                 # Ignore if it's not the species we want
                 if (photo_list.get_field("species") not in species):
                     continue
@@ -120,15 +123,15 @@ def write_sample_summary(folder, desired_photos):
     output_metadata = folder + "/info.txt"
     with open(output_metadata, 'wb') as wfh:
         # TODO: high-level data
-        wfh.write("panda.count: " + animal_count)
+        wfh.write("panda.count: " + str(animal_count))
         wfh.write(" ")
-        wfh.write("panda.fulgens.count: " + fulgens_count)
+        wfh.write("panda.fulgens.count: " + str(fulgens_count))
         for photo in fulgens:
             wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
             wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
             wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
         wfh.write(" ")
-        wfh.write("panda.styani.count: " + styani_count)
+        wfh.write("panda.styani.count: " + str(styani_count))
         wfh.write(" ")
         for photo in styani:
             wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
