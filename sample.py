@@ -141,7 +141,7 @@ if __name__ == '__main__':
     species = ["1", "2"]   # All Species
     taglist = "close-up, profile, portrait"
     # Parse arguments
-    if "--animals") in sys.argv:
+    if "--animals" in sys.argv:
         animals = int(sys.argv[sys.argv.index("--animals") + 1])
         if animals < 1:
             print("Animals count must be positive.")
