@@ -2,6 +2,8 @@ import configparser
 import datetime
 import os
 import sys
+import random
+import time
 
 from collections import OrderedDict
 
@@ -29,6 +31,9 @@ def current_date_to_unixtime():
     datestring = str(now.year) + "/" + str(now.month) + "/" + str(now.day)
     return datetime_to_unixtime(datestring)
 
+def current_time_to_unixtime():
+    return datetime.datetime.now().strftime("%s")
+
 def datetime_to_unixtime(commitdate):
     """
     Take an arbitrary YYYY/MM/DD string and convert it to unixtime, for
@@ -39,6 +44,7 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
+# Other utility functions
 def get_max_entity_count():
     """
     Read the export/redpanda.json file. If it doesn't exist, ask one to
@@ -52,6 +58,10 @@ def get_max_entity_count():
     else:
         print("%s file not built yet with build.py -- please generate.")
         sys.exit()
+
+def random_sleep():
+    random_seconds = random.randint(1, 10)
+    time.sleep(random_seconds)
 
 # Exceptions
 class AuthorError(ValueError):

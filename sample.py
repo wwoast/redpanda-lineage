@@ -5,10 +5,11 @@
 import os
 import random
 import sys
+import wget
 
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, SpeciesError, PhotoEntry, PhotoFile, SectionNameError, get_max_entity_count
+from shared import *
 
-def define_photo_sample(num_animals, num_photos, size, species, taglist):
+def define_photo_sample(num_animals, num_photos, species, taglist):
     """
     Get a sample of the Red Panda Lineage project's linked photos.
     This was written to support a facial recognition study for red pandas.
@@ -64,7 +65,7 @@ def define_photo_sample(num_animals, num_photos, size, species, taglist):
             output_photos.append(photo)
     return output_photos
 
-def fetch_sample_photos(desired_photos):
+def fetch_sample_photos(folder, desired_photos, species):
     """
     Given a defined set of photos we selected from the dataset, grab them
     from the Internet, and write them in an organized way.
@@ -72,23 +73,66 @@ def fetch_sample_photos(desired_photos):
     Structure of the output:
     ./sample-<utime>: output folder 
     ./sample/a.f.fulgens OR ./sample/a.f.styani:
-        - Sample data arranged by subspecies
-    ./sample/<species>/images/<rpf-id>_photo.<photo.index>.jpg
-    ./sample/<species>/metadata/<rpf-id>_photo.<photo.index>.txt
-        - photo.url, author, commitdate, link, tags, uncertainty
+        - images arranged by subspecies
+    ./sample/<species>/<rpf-id>_photo.<photo.index>.jpg
     """
-    pass
+    # Build the species output folders based on desired species values
+    for specie in species:
+        if (specie == 1):
+            os.makedirs(folder + "/a.f.fulgens")
+        if (specie == 2):
+            os.makedirs(folder + "/a.f.styani")
+    for photo in desired_photos:
+        output_species = None
+        if photo.species == 1:
+            ouptut_species = "a.f.fulgens"
+        if photo.species == 2:
+            output_species = "a.f.styani"
+        output_entity = photo.entity_id
+        output_photo_index = photo.photo_index
+        output_image = folder + "/" + output_species + "/" 
+                              + output_entity + "_photo." 
+                              + output_photo_index + ".jpg"
+        # Fetch an image
+        wget(photo.photo_uri, output_image)
+        random_sleep()
 
 def write_sample_summary(desired_photos):
     """
-    Write an informational summary of the sample, as well as all URLs gathered.
+    Write an informational summary of the sample, as well as all URLs gathered
+    and the ownership data/commit info for each one.
     
     Structure of the output:
     ./sample-<utime>: output folder
     ./sample/info.txt: Record and summary of the queried photo data
         - RPF Git commit, sample.py command ran (including animal and photo counts)
     """
-    pass
+    animal_count = len(set(map(lambda x: x.entity_id, desired_photos)))
+    fulgens = filter(lambda x: x.species == 1, desired_photos)
+    fulgens_count = len(set(map(lambda x: x.entity_id, fulgens)))
+    photo_count = len(desired_photos)
+    styani = filter(lambda x: x.species == 2, desired_photos)
+    styani_count = len(set(map(lambda x: x.entity_id, styani)))
+    # Write output metadata
+    # TODO: other metadata can be changing, so do we care?
+    # If we do, PhotoEntry needs to track more values from the source files
+    output_metadata = folder + "/info.txt"
+    with open(output_metadata, 'wb') as wfh:
+        # TODO: high-level data
+        wfh.write("panda.count: " + animal_count)
+        wfh.write(" ")
+        wfh.write("panda.fulgens.count: " + fulgens_count)
+        for photo in fulgens:
+            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri))
+            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name))
+            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate))
+        wfh.write(" ")
+        wfh.write("panda.styani.count: " + styani_count)
+        wfh.write(" ")
+        for photo in styani:
+            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri))
+            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name))
+            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate))
 
 if __name__ == '__main__':
     # Default settings
@@ -100,8 +144,14 @@ if __name__ == '__main__':
     # Parse arguments
     if (sys.argv.index("animals") != -1):
         animals = int(sys.argv[sys.argv.index("animals") + 1])
+        if animals < 1:
+            print("Animals count must be positive.")
+            sys.exit()
     if (sys.argv.index("photos") != -1):
         photos = int(sys.argv[sys.argv.index("photos") + 1])
+        if photos < 1:
+            print("Photo count must be positive.")
+            sys.exit()
     if (sys.argv.index("size") != -1):
         size = int(sys.argv[sys.argv.index("size") + 1])
         if ((size != "t") and (size != "m") and (size != "l")):
@@ -113,8 +163,20 @@ if __name__ == '__main__':
     if (sys.argv.index("taglist") != -1):
         taglist = sys.argv[sys.argv.index("taglist") + 1]
     taglist = taglist.split(", ")
-    # Build a sample 
-    collect_photo_sample(animals, photos, size, species, taglist)
-    # 
+    # Build a sample
+    photos = collect_photo_sample(animals, photos, species, taglist)
+    photo_count = str(len(photos))
+    if photo_count == 0:
+        print("Sample for your arguments contains no photos.")
+        sys.exit()
+    else:
+        print("Sample for your arguments contains %s photos. Fetching..." % photo_count)
+    # Unique directory name (with current unixtime)
+    folder = "sample_" + str(current_time_to_unixtime())
+    os.makedirs(folder)
+    # Start fetching photos
+    fetch_sample_photos(folder, photos, species)
+    # Write output information. TODO (photos, folder)
+
 
 
