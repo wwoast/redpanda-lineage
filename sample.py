@@ -141,26 +141,26 @@ if __name__ == '__main__':
     species = ["1", "2"]   # All Species
     taglist = "close-up, profile, portrait"
     # Parse arguments
-    if (sys.argv.index("--animals") != -1):
-        animals = int(sys.argv[sys.argv.index("animals") + 1])
+    if "--animals") in sys.argv:
+        animals = int(sys.argv[sys.argv.index("--animals") + 1])
         if animals < 1:
             print("Animals count must be positive.")
             sys.exit()
-    if (sys.argv.index("--photos") != -1):
-        photos = int(sys.argv[sys.argv.index("photos") + 1])
+    if "--photos" in sys.argv:
+        photos = int(sys.argv[sys.argv.index("--photos") + 1])
         if photos < 1:
             print("Photo count must be positive.")
             sys.exit()
-    if (sys.argv.index("--size") != -1):
-        size = int(sys.argv[sys.argv.index("size") + 1])
+    if "--size" in sys.argv:
+        size = int(sys.argv[sys.argv.index("--size") + 1])
         if ((size != "t") and (size != "m") and (size != "l")):
             raise SizeError("%s photo size is not one of: t m l" % size)
-    if (sys.argv.index("--species") != -1):
-        species = [int(sys.argv[sys.argv.index("species") + 1])]
+    if "--species" in sys.argv:
+        species = [int(sys.argv[sys.argv.index("--species") + 1])]
         if ((species < 1) or (species > 2)):
             raise SpeciesError("%s species value not 1 or 2 (1: fulgens, 2: styani)" % species)
-    if (sys.argv.index("--taglist") != -1):
-        taglist = sys.argv[sys.argv.index("taglist") + 1]
+    if "--taglist" in sys.argv:
+        taglist = sys.argv[sys.argv.index("--taglist") + 1]
     taglist = taglist.split(", ")
     # Build a sample
     photos = collect_photo_sample(animals, photos, species, taglist)
