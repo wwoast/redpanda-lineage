@@ -80,9 +80,9 @@ def fetch_sample_photos(folder, desired_photos, species):
     """
     # Build the species output folders based on desired species values
     for specie in species:
-        if (specie == 1):
+        if (specie == "1"):
             os.makedirs(folder + "/a.f.fulgens")
-        if (specie == 2):
+        if (specie == "2"):
             os.makedirs(folder + "/a.f.styani")
     for photo in desired_photos:
         output_species = None
