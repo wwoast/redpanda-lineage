@@ -98,7 +98,7 @@ def fetch_sample_photos(folder, desired_photos, species):
         wget(photo.photo_uri, output_image)
         random_sleep()
 
-def write_sample_summary(desired_photos):
+def write_sample_summary(folder, desired_photos):
     """
     Write an informational summary of the sample, as well as all URLs gathered
     and the ownership data/commit info for each one.
@@ -177,7 +177,5 @@ if __name__ == '__main__':
     os.makedirs(folder)
     # Start fetching photos
     fetch_sample_photos(folder, photos, species)
-    # Write output information. TODO (photos, folder)
-
-
-
+    # Write output information
+    write_sample_summary(folder, desired_photos)
