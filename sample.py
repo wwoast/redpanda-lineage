@@ -88,13 +88,12 @@ def fetch_sample_photos(folder, desired_photos, species):
         if (specie == "2"):
             os.makedirs(folder + "/a.f.styani")
     for photo in desired_photos:
-        output_species = None
-        if photo.species == "1":
-            ouptut_species = "a.f.fulgens"
+        output_species = "a.f.fulgens"
         if photo.species == "2":
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
+        print(photo.species)
         print(output_species)
         print(output_entity)
         print(output_photo_index)
@@ -115,10 +114,10 @@ def write_sample_summary(folder, desired_photos):
         - RPF Git commit, sample.py command ran (including animal and photo counts)
     """
     animal_count = str(len(set(map(lambda x: x.entity_id, desired_photos))))
-    fulgens = filter(lambda x: x.species == "1", desired_photos)
+    fulgens = list(filter(lambda x: x.species == "1", desired_photos))
     fulgens_count = str(len(set(map(lambda x: x.entity_id, fulgens))))
     photo_count = str(len(desired_photos))
-    styani = filter(lambda x: x.species == "2", desired_photos)
+    styani = list(filter(lambda x: x.species == "2", desired_photos))
     styani_count = str(len(set(map(lambda x: x.entity_id, styani))))
     # Write output metadata
     # TODO: other metadata can be changing, so do we care?
@@ -127,19 +126,16 @@ def write_sample_summary(folder, desired_photos):
     with open(output_metadata, 'w') as wfh:
         # TODO: high-level data
         wfh.write("panda.count: " + animal_count)
-        wfh.write(" ")
-        wfh.write("panda.fulgens.count: " + fulgens_count)
+        wfh.write("\npanda.fulgens.count: " + fulgens_count + "\n")
         for photo in fulgens:
-            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
-            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
-            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
-        wfh.write(" ")
-        wfh.write("panda.styani.count: " + styani_count)
-        wfh.write(" ")
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".commitdate: " + photo.commitdate + "\n")
+        wfh.write("\npanda.styani.count: " + styani_count + "\n")
         for photo in styani:
-            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
-            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
-            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".commitdate: " + photo.commitdate + "\n")
 
 if __name__ == '__main__':
     # Default settings
@@ -164,9 +160,10 @@ if __name__ == '__main__':
         if ((size != "t") and (size != "m") and (size != "l")):
             raise SizeError("%s photo size is not one of: t m l" % size)
     if "--species" in sys.argv:
-        species = [int(sys.argv[sys.argv.index("--species") + 1])]
+        species = int(sys.argv[sys.argv.index("--species") + 1])
         if ((species < 1) or (species > 2)):
             raise SpeciesError("%s species value not 1 or 2 (1: fulgens, 2: styani)" % species)
+        species = [str(species)]   # Treat like array of species values
     if "--taglist" in sys.argv:
         taglist = sys.argv[sys.argv.index("--taglist") + 1]
     taglist = taglist.split(", ")
