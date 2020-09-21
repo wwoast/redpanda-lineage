@@ -201,7 +201,7 @@ class PhotoEntry:
             self.commitdate = config.get("panda", key + ".commitdate")
             self.photo_index = photo_index
             self.photo_uri = photo_uri
-            self.species = config.get("species")
+            self.species = config.get("panda", "species")
         elif self.filename.find(ZOO_PATH) != -1:
             self.entity_type = "zoo"
             self.entity_id = config.get("zoo", "_id")

@@ -34,15 +34,16 @@ def define_photo_sample(num_animals, num_photos, species, taglist):
                     continue
                 photo_index = 1
                 while (photo_index <= photo_count):
+                    current_photo = "photo." + str(photo_index)
                     current_tag = "photo." + str(photo_index) + ".tags"
                     # Only collect photos in the tag list
                     if photo_list.array_has_value(current_tag, taglist) == False:
                         photo_index = photo_index + 1
                         continue
                     # Collect photos
-                    value = photo_list.get_field(current_tag)
-                    raw = current_tag + ": " + value
-                    photo = PhotoEntry(filename, raw)
+                    value = photo_list.get_field(current_photo)
+                    raw = current_photo + ": " + value
+                    photo = PhotoEntry(path, raw)
                     matched_photos.append(photo)
                     photo_index = photo_index + 1
     # Shuffle the list of photos that match our interest
@@ -91,6 +92,8 @@ def fetch_sample_photos(folder, desired_photos, species):
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
+        print(output_entity)
+        print(output_photo_index)
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
         # TODO: handle size
