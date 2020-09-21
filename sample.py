@@ -86,18 +86,16 @@ def fetch_sample_photos(folder, desired_photos, species):
             os.makedirs(folder + "/a.f.styani")
     for photo in desired_photos:
         output_species = None
-        if photo.species == 1:
+        if photo.species == "1":
             ouptut_species = "a.f.fulgens"
-        if photo.species == 2:
+        if photo.species == "2":
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
-        print(output_entity)
-        print(output_photo_index)
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
         # TODO: handle size
-        wget(photo.photo_uri, output_image)
+        wget.download(photo.photo_uri, output_image)
         random_sleep()
 
 def write_sample_summary(folder, desired_photos):
