@@ -53,7 +53,7 @@ def define_photo_sample(num_animals, num_photos, species, taglist):
     for photo in matched_photos:
         # Don't go over the photo count overall
         if len(output_photos) == num_photos:
-            return photos
+            break
         if photo.entity_id not in animal_id_list:
             # Don't go over your animal count
             if len(animal_id_list) < num_animals:
