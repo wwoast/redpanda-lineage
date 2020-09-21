@@ -163,7 +163,7 @@ if __name__ == '__main__':
         taglist = sys.argv[sys.argv.index("--taglist") + 1]
     taglist = taglist.split(", ")
     # Build a sample
-    photos = collect_photo_sample(animals, photos, species, taglist)
+    photos = define_photo_sample(animals, photos, species, taglist)
     photo_count = str(len(photos))
     if photo_count == 0:
         print("Sample for your arguments contains no photos.")
