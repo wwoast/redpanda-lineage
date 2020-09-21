@@ -95,6 +95,9 @@ def fetch_sample_photos(folder, desired_photos, species):
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
+        print(output_species)
+        print(output_entity)
+        print(output_photo_index)
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
         # TODO: handle size
@@ -111,27 +114,27 @@ def write_sample_summary(folder, desired_photos):
     ./sample/info.txt: Record and summary of the queried photo data
         - RPF Git commit, sample.py command ran (including animal and photo counts)
     """
-    animal_count = len(set(map(lambda x: x.entity_id, desired_photos)))
-    fulgens = filter(lambda x: x.species == 1, desired_photos)
-    fulgens_count = len(set(map(lambda x: x.entity_id, fulgens)))
-    photo_count = len(desired_photos)
-    styani = filter(lambda x: x.species == 2, desired_photos)
-    styani_count = len(set(map(lambda x: x.entity_id, styani)))
+    animal_count = str(len(set(map(lambda x: x.entity_id, desired_photos))))
+    fulgens = filter(lambda x: x.species == "1", desired_photos)
+    fulgens_count = str(len(set(map(lambda x: x.entity_id, fulgens))))
+    photo_count = str(len(desired_photos))
+    styani = filter(lambda x: x.species == "2", desired_photos)
+    styani_count = str(len(set(map(lambda x: x.entity_id, styani))))
     # Write output metadata
     # TODO: other metadata can be changing, so do we care?
     # If we do, PhotoEntry needs to track more values from the source files
     output_metadata = folder + "/info.txt"
-    with open(output_metadata, 'wb') as wfh:
+    with open(output_metadata, 'w') as wfh:
         # TODO: high-level data
-        wfh.write("panda.count: " + str(animal_count))
+        wfh.write("panda.count: " + animal_count)
         wfh.write(" ")
-        wfh.write("panda.fulgens.count: " + str(fulgens_count))
+        wfh.write("panda.fulgens.count: " + fulgens_count)
         for photo in fulgens:
             wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
             wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
             wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
         wfh.write(" ")
-        wfh.write("panda.styani.count: " + str(styani_count))
+        wfh.write("panda.styani.count: " + styani_count)
         wfh.write(" ")
         for photo in styani:
             wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
