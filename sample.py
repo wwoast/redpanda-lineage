@@ -90,9 +90,7 @@ def fetch_sample_photos(folder, desired_photos, species):
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
-        output_image = folder + "/" + output_species + "/" 
-                              + output_entity + "_photo." 
-                              + output_photo_index + ".jpg"
+        output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
         # TODO: handle size
         wget(photo.photo_uri, output_image)
@@ -124,16 +122,16 @@ def write_sample_summary(folder, desired_photos):
         wfh.write(" ")
         wfh.write("panda.fulgens.count: " + fulgens_count)
         for photo in fulgens:
-            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri))
-            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name))
-            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate))
+            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
+            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
+            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
         wfh.write(" ")
         wfh.write("panda.styani.count: " + styani_count)
         wfh.write(" ")
         for photo in styani:
-            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri))
-            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name))
-            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate))
+            wfh.write("photo." + output_photo_index + ": " + photo.photo_uri)
+            wfh.write("photo." + output_photo_index + ".author: " + photo.author_name)
+            wfh.write("photo." + output_photo_index + ".commitdate: " + photo.commitdate)
 
 if __name__ == '__main__':
     # Default settings
