@@ -44,6 +44,7 @@ def define_photo_sample(num_animals, num_photos, species, taglist):
                     raw = current_tag + ": " + value
                     photo = PhotoEntry(filename, raw)
                     matched_photos.append(photo)
+                    photo_index = photo_index + 1
     # Shuffle the list of photos that match our interest
     random.shuffle(matched_photos)
     # Take entire photo set we've gathered, and whittle it down to
