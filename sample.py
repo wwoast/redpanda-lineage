@@ -131,7 +131,7 @@ def write_sample_summary(folder, desired_photos):
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".commitdate: " + photo.commitdate + "\n")
-        wfh.write("\npanda.styani.count: " + styani_count + "\n")
+        wfh.write("panda.styani.count: " + styani_count + "\n")
         for photo in styani:
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
