@@ -178,4 +178,4 @@ if __name__ == '__main__':
     # Start fetching photos
     fetch_sample_photos(folder, photos, species)
     # Write output information
-    write_sample_summary(folder, desired_photos)
+    write_sample_summary(folder, photos)
