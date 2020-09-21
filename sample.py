@@ -93,13 +93,10 @@ def fetch_sample_photos(folder, desired_photos, species):
             output_species = "a.f.styani"
         output_entity = photo.entity_id
         output_photo_index = photo.photo_index
-        print(photo.species)
-        print(output_species)
-        print(output_entity)
-        print(output_photo_index)
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
         # TODO: handle size
+        print(output_image)
         wget.download(photo.photo_uri, output_image)
         random_sleep()
 
