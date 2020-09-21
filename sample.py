@@ -98,6 +98,7 @@ def fetch_sample_photos(folder, desired_photos, species):
         # TODO: handle size
         print(output_image)
         wget.download(photo.photo_uri, output_image)
+        print("\n")
         random_sleep()
 
 def write_sample_summary(folder, desired_photos):
