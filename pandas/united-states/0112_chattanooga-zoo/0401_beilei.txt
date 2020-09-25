@@ -64,14 +64,16 @@ photo.9.author: worldthathesees
 photo.9.commitdate: 2019/11/29
 photo.9.link: https://www.instagram.com/worldthathesees/
 photo.9.tags: portrait, smile
-photo.10: https://www.instagram.com/p/B5oS2iWH8WK/media/?size=m
+photo.10: https://www.instagram.com/p/B5dzDuCnPkl/media/?size=m
 photo.10.author: chattanoogazoo
+photo.10.commitdate: 2020/9/24
 photo.10.link: https://www.instagram.com/chattanoogazoo/
-photo.10.tags: laying down, paws, smile
-photo.11: https://www.instagram.com/p/B5dzDuCnPkl/media/?size=m
+photo.10.tags: peek, paws, smile
+photo.11: https://www.instagram.com/p/B5oS2iWH8WK/media/?size=m
 photo.11.author: chattanoogazoo
+photo.11.commitdate: 2020/9/24
 photo.11.link: https://www.instagram.com/chattanoogazoo/
-photo.11.tags: peek, paws, smile
+photo.11.tags: laying down, paws, smile
 species: 2
 studbook.id: 1006
 zoo: 112

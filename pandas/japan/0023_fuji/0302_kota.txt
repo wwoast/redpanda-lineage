@@ -140,15 +140,16 @@ photo.25.author: miis_98
 photo.25.commitdate: 2020/8/5
 photo.25.link: https://www.instagram.com/miis_98/
 photo.25.tags: portrait, smile, tail
-photo.26: https://www.instagram.com/p/CEU1-BEgkDx/media/?size=m
-photo.26.author: run.swim.shingo
-photo.26.commitdate: 2020/9/3
-photo.26.link: https://www.instagram.com/run.swim.shingo/
-photo.26.tags: smile, tongue, whiskers
-photo.27: https://www.instagram.com/p/CD8YGZehCa_/media/?size=m
-photo.27.author: fuji_safari
-photo.27.link: https://www.instagram.com/fuji_safari/
-photo.27.tags: paws, portrait, smile, tail
+photo.26: https://www.instagram.com/p/CD8YGZehCa_/media/?size=m
+photo.26.author: fuji_safari
+photo.26.commitdate: 2020/9/24
+photo.26.link: https://www.instagram.com/fuji_safari/
+photo.26.tags: paws, portrait, smile, tail
+photo.27: https://www.instagram.com/p/CEU1-BEgkDx/media/?size=m
+photo.27.author: run.swim.shingo
+photo.27.commitdate: 2020/9/3
+photo.27.link: https://www.instagram.com/run.swim.shingo/
+photo.27.tags: smile, tongue, whiskers
 species: 2
 studbook.id: 12119
 zoo: 23

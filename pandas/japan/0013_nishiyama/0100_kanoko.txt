@@ -299,14 +299,16 @@ photo.57.author: craig_craig_craig
 photo.57.commitdate: 2020/9/6
 photo.57.link: https://www.instagram.com/craig_craig_craig/
 photo.57.tags: paws, portrait, white face
-photo.58: https://www.instagram.com/p/CFWdAUsh5IB/media/?size=m
-photo.58.author: hamamatsu.chiita
-photo.58.link: https://www.instagram.com/hamamatsu.chiita/
-photo.58.tags: white face
-photo.59: https://www.instagram.com/p/CEIPH2VBa0G/media/?size=m
-photo.59.author: _natsu_panda_
-photo.59.link: https://www.instagram.com/_natsu_panda_/
-photo.59.tags: tail
+photo.58: https://www.instagram.com/p/CEIPH2VBa0G/media/?size=m
+photo.58.author: _natsu_panda_
+photo.58.commitdate: 2020/9/24
+photo.58.link: https://www.instagram.com/_natsu_panda_/
+photo.58.tags: tail
+photo.59: https://www.instagram.com/p/CFWdAUsh5IB/media/?size=m
+photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2020/9/24
+photo.59.link: https://www.instagram.com/hamamatsu.chiita/
+photo.59.tags: white face
 species: 2
 studbook.id: 1684
 zoo: 13
