@@ -7,7 +7,7 @@ commitdate: 2020/7/16
 en.name: Baby
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
@@ -18,5 +18,9 @@ photo.1.author: sacramentozoo
 photo.1.commitdate: 2020/7/15
 photo.1.link: https://www.instagram.com/sacramentozoo/
 photo.1.tags: baby, dish, newborn, panda bowl, portrait, profile, scale
+photo.2: https://www.instagram.com/p/CE4bW9UpLt7/media/?size=m
+photo.2.author: sacramentozoo
+photo.2.link: https://www.instagram.com/sacramentozoo/
+photo.2.tags: baby, dish, newborn
 species: 1
 zoo: 133
