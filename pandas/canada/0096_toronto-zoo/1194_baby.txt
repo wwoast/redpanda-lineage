@@ -7,7 +7,7 @@ commitdate: 2020/7/17
 en.name: Baby
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
@@ -53,5 +53,9 @@ photo.8.author: thetorontozoo
 photo.8.commitdate: 2020/9/15
 photo.8.link: https://www.instagram.com/thetorontozoo/
 photo.8.tags: baby, mofumofu, scale
+photo.9: https://www.instagram.com/p/CFUIfUUnzSt/media/?size=m
+photo.9.author: thetorontozoo
+photo.9.link: https://www.instagram.com/thetorontozoo/
+photo.9.tags: baby, close-up, newborn
 species: 2
 zoo: 96
