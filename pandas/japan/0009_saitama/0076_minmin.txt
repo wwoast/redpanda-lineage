@@ -154,18 +154,21 @@ photo.28.author: ssc6105
 photo.28.commitdate: 2020/7/26
 photo.28.link: https://www.instagram.com/ssc6105/
 photo.28.tags: paws, portrait, white face
-photo.29: https://www.instagram.com/p/CFUhdqfhV4u/media/?size=m
-photo.29.author: ifumoto88
-photo.29.link: https://www.instagram.com/ifumoto88/
-photo.29.tags: old, mofumofu, paws
-photo.30: https://www.instagram.com/p/CDOAUPpBWmN/media/?size=m
-photo.30.author: fetorus_mami
-photo.30.link: https://www.instagram.com/fetorus_mami/
-photo.30.tags: paws
-photo.31: https://www.instagram.com/p/CFTZayQBF0T/media/?size=m
-photo.31.author: panda.daisuki
-photo.31.link: https://www.instagram.com/panda.daisuki/
-photo.31.tags: old, paws, portrait, tongue
+photo.29: https://www.instagram.com/p/CDOAUPpBWmN/media/?size=m
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2020/9/24
+photo.29.link: https://www.instagram.com/fetorus_mami/
+photo.29.tags: paws
+photo.30: https://www.instagram.com/p/CFTZayQBF0T/media/?size=m
+photo.30.author: panda.daisuki
+photo.30.commitdate: 2020/9/24
+photo.30.link: https://www.instagram.com/panda.daisuki/
+photo.30.tags: old, paws, portrait, tongue
+photo.31: https://www.instagram.com/p/CFUhdqfhV4u/media/?size=m
+photo.31.author: ifumoto88
+photo.31.commitdate: 2020/9/24
+photo.31.link: https://www.instagram.com/ifumoto88/
+photo.31.tags: old, mofumofu, paws
 species: 2
 studbook.id: 0293
 zoo: 9
