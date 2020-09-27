@@ -67,7 +67,7 @@ photo.11: https://www.instagram.com/p/Bqnxti9APe-/media/?size=m
 photo.11.author: miis_98
 photo.11.commitdate: 2018/11/25
 photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: autumn, portrait, profile
+photo.11.tags: autumn, portrait
 photo.12: https://www.instagram.com/p/BrfUV7mBtLp/media/?size=m
 photo.12.author: take_421
 photo.12.commitdate: 2018/12/17
@@ -291,6 +291,10 @@ photo.56.author: minatomirai215
 photo.56.commitdate: 2020/9/26
 photo.56.link: https://www.instagram.com/minatomirai215/
 photo.56.tags: portrait, smile
+photo.57: https://www.instagram.com/p/CFIBroThSxC/media/?size=m
+photo.57.author: eos1089
+photo.57.link: https://www.instagram.com/eos1089/
+photo.57.tags: portrait, profile, smile, tree
 species: 2
 studbook.id: unknown
 zoo: 45

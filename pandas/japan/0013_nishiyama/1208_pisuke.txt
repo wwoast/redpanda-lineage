@@ -6,7 +6,7 @@ children: none
 commitdate: 2020/8/12
 en.name: Pīsuke
 en.nicknames: none
-en.othernames: Pisuke
+en.othernames: Pisuke, Pi-suke, Pi-Suke
 gender: m
 jp.name: ピースケ
 jp.nicknames: none
@@ -18,6 +18,10 @@ photo.1.author: mugicha0312
 photo.1.commitdate: 2020/9/26
 photo.1.link: https://www.instagram.com/mugicha0312/
 photo.1.tags: baby, mofumofu, paws, portrait, profile
+photo.2: https://www.instagram.com/p/CFpD22JhWRa/media/?size=m
+photo.2.author: mugicha0312
+photo.2.link: https://www.instagram.com/mugicha0312/
+photo.2.tags: baby, mofumofu, portrait, videolink
 species: 2
 studbook.id: unknown
 zoo: 13
