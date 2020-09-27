@@ -360,18 +360,22 @@ photo.70.link: https://www.instagram.com/itsuak/
 photo.70.tags: bamboo, ear, paws, portrait
 photo.71: https://www.instagram.com/p/CCqa_YbA71i/media/?size=m
 photo.71.author: itsuak
+photo.71.commitdate: 2020/9/26
 photo.71.link: https://www.instagram.com/itsuak/
 photo.71.tags: ear, laying down, paws, portrait
-photo.72: https://www.instagram.com/p/CDEFP_mB-SY/media/?size=m
-photo.72.author: itsuak
-photo.72.link: https://www.instagram.com/itsuak/
-photo.72.tags: home, laying down, peek, portrait
-photo.73: https://www.instagram.com/p/CDANsIzB_yA/media/?size=m
-photo.73.author: yossi929
-photo.73.link: https://www.instagram.com/yossi929/
-photo.73.tags: bamboo, laying down, nose, portrait
+photo.72: https://www.instagram.com/p/CDANsIzB_yA/media/?size=m
+photo.72.author: yossi929
+photo.72.commitdate: 2020/9/26
+photo.72.link: https://www.instagram.com/yossi929/
+photo.72.tags: bamboo, laying down, nose, portrait
+photo.73: https://www.instagram.com/p/CDEFP_mB-SY/media/?size=m
+photo.73.author: itsuak
+photo.73.commitdate: 2020/9/26
+photo.73.link: https://www.instagram.com/itsuak/
+photo.73.tags: home, laying down, peek, portrait
 photo.74: https://www.instagram.com/p/CD1Cs60hkGY/media/?size=m
 photo.74.author: itsuak
+photo.74.commitdate: 2020/9/26
 photo.74.link: https://www.instagram.com/itsuak/
 photo.74.tags: laying down, paws, portrait, smile
 species: 2
