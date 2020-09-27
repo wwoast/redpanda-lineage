@@ -26,20 +26,21 @@ photo.2.author: worldthathesees
 photo.2.commitdate: 2020/3/12
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: peek, portrait, profile
-photo.3: https://www.instagram.com/p/CC6xTrRh28L/media/?size=m
-photo.3.author: worldthathesees
-photo.3.commitdate: 2020/8/2
-photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: peek, portrait, tree
-photo.4: https://www.instagram.com/p/CFK7Gv2gJna/media/?size=m
-photo.4.author: memphiszoo
-photo.4.commitdate: 2020/9/16
-photo.4.link: https://www.instagram.com/memphiszoo/
-photo.4.tags: home, laying down, smile, tongue
-photo.5: https://www.instagram.com/p/B_uqswWg39f/media/?size=m
+photo.3: https://www.instagram.com/p/B_uqswWg39f/media/?size=m
+photo.3.author: memphiszoo
+photo.3.commitdate: 2020/9/26
+photo.3.link: https://www.instagram.com/memphiszoo/
+photo.3.tags: home, peek, portrait
+photo.4: https://www.instagram.com/p/CC6xTrRh28L/media/?size=m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/8/2
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: peek, portrait, tree
+photo.5: https://www.instagram.com/p/CFK7Gv2gJna/media/?size=m
 photo.5.author: memphiszoo
+photo.5.commitdate: 2020/9/16
 photo.5.link: https://www.instagram.com/memphiszoo/
-photo.5.tags: home, peek, portrait
+photo.5.tags: home, laying down, smile, tongue
 species: 2
 studbook.id: 1521
 zoo: 109
