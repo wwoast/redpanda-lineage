@@ -48,5 +48,16 @@ photo.7.author: oregonzoo
 photo.7.commitdate: 2020/9/24
 photo.7.link: https://www.instagram.com/oregonzoo/
 photo.7.tags: baby, paws, portrait, videolink
+photo.8: https://www.instagram.com/p/CDhaB8lJcIy/media/?size=m
+photo.8.author: oregonzoo
+photo.8.link: https://www.instagram.com/oregonzoo/
+photo.8.tags: baby, home, paws, portrait, videolink
+photo.9: https://www.instagram.com/p/CFIYV4-nNw4/media/?size=m
+photo.9.author: oregonzoo
+photo.9.link: https://www.instagram.com/oregonzoo/
+photo.9.tags: baby, mofumofu, portrait, videolink
 species: 2
+video.1: https://youtu.be/3WIOn_zQckc
+video.1.author: oregonzoo
+video.1.link: https://www.youtube.com/channel/UC3oWOleSolsVhal5krntOlg
 zoo: 191
