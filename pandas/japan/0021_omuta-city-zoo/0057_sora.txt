@@ -200,61 +200,56 @@ photo.37.author: omutacityzoo
 photo.37.commitdate: 2020/4/26
 photo.37.link: https://www.instagram.com/omutacityzoo/
 photo.37.tags: laying down, paws, portrait, smile, tongue, yawn
-photo.38: https://www.instagram.com/p/B75BeMHndYh/media/?size=m
+photo.38: https://www.instagram.com/p/B95T0iHHONQ/media/?size=m
 photo.38.author: omutacityzoo
-photo.38.commitdate: 2020/9/10
+photo.38.commitdate: 2020/4/26
 photo.38.link: https://www.instagram.com/omutacityzoo/
-photo.38.tags: laying down, paws, portrait, yawn
-photo.39: https://www.instagram.com/p/B95T0iHHONQ/media/?size=m
-photo.39.author: omutacityzoo
-photo.39.commitdate: 2020/4/26
-photo.39.link: https://www.instagram.com/omutacityzoo/
-photo.39.tags: close-up, paws, portrait, whiskers
-photo.40: https://www.instagram.com/p/B-iT5F9B9-E/media/?size=m
+photo.38.tags: close-up, paws, portrait, whiskers
+photo.39: https://www.instagram.com/p/B-iT5F9B9-E/media/?size=m
+photo.39.author: yossi929
+photo.39.commitdate: 2020/4/6
+photo.39.link: https://www.instagram.com/yossi929/
+photo.39.tags: paws, portrait, smile, tongue
+photo.40: https://www.instagram.com/p/CAooak7nlyR/media/?size=m
 photo.40.author: yossi929
-photo.40.commitdate: 2020/4/6
+photo.40.commitdate: 2020/6/6
 photo.40.link: https://www.instagram.com/yossi929/
-photo.40.tags: paws, portrait, smile, tongue
-photo.41: https://www.instagram.com/p/CAooak7nlyR/media/?size=m
+photo.40.tags: portrait, smile, tongue
+photo.41: https://www.instagram.com/p/CBF9EcFBWA9/media/?size=m
 photo.41.author: yossi929
-photo.41.commitdate: 2020/6/6
+photo.41.commitdate: 2020/6/20
 photo.41.link: https://www.instagram.com/yossi929/
-photo.41.tags: portrait, smile, tongue
-photo.42: https://www.instagram.com/p/CBF9EcFBWA9/media/?size=m
+photo.41.tags: mofumofu, portrait, smile
+photo.42: https://www.instagram.com/p/CBW0fGVhHFs/media/?size=m
 photo.42.author: yossi929
 photo.42.commitdate: 2020/6/20
 photo.42.link: https://www.instagram.com/yossi929/
-photo.42.tags: mofumofu, portrait, smile
-photo.43: https://www.instagram.com/p/CBW0fGVhHFs/media/?size=m
-photo.43.author: yossi929
-photo.43.commitdate: 2020/6/20
-photo.43.link: https://www.instagram.com/yossi929/
-photo.43.tags: portrait
-photo.44: https://www.instagram.com/p/CBbyLlGhHrp/media/?size=m
-photo.44.author: _rifa_p
+photo.42.tags: portrait
+photo.43: https://www.instagram.com/p/CBbyLlGhHrp/media/?size=m
+photo.43.author: _rifa_p
+photo.43.commitdate: 2020/7/24
+photo.43.link: https://www.instagram.com/_rifa_p/
+photo.43.tags: home, laying down, paws, smile, tail
+photo.44: https://www.instagram.com/p/CByzEuLB91X/media/?size=m
+photo.44.author: yossi929
 photo.44.commitdate: 2020/7/24
-photo.44.link: https://www.instagram.com/_rifa_p/
-photo.44.tags: home, laying down, paws, smile, tail
-photo.45: https://www.instagram.com/p/CByzEuLB91X/media/?size=m
-photo.45.author: yossi929
+photo.44.link: https://www.instagram.com/yossi929/
+photo.44.tags: portrait, smile, tongue
+photo.45: https://www.instagram.com/p/CB0WZc_hSbH/media/?size=m
+photo.45.author: panda.daisuki
 photo.45.commitdate: 2020/7/24
-photo.45.link: https://www.instagram.com/yossi929/
-photo.45.tags: portrait, smile, tongue
-photo.46: https://www.instagram.com/p/CB0WZc_hSbH/media/?size=m
-photo.46.author: panda.daisuki
-photo.46.commitdate: 2020/7/24
-photo.46.link: https://www.instagram.com/panda.daisuki/
-photo.46.tags: portrait, smile, tongue, whiskers
-photo.47: https://www.instagram.com/p/CB4DXqGhFsW/media/?size=m
-photo.47.author: omutacityzoo
-photo.47.commitdate: 2020/9/10
-photo.47.link: https://www.instagram.com/omutacityzoo/
-photo.47.tags: home, portrait, tongue
-photo.48: https://www.instagram.com/p/CCOEn8TBsy1/media/?size=m
-photo.48.author: yossi929
-photo.48.commitdate: 2020/7/24
-photo.48.link: https://www.instagram.com/yossi929/
-photo.48.tags: grooming, paws, portrait
+photo.45.link: https://www.instagram.com/panda.daisuki/
+photo.45.tags: portrait, smile, tongue, whiskers
+photo.46: https://www.instagram.com/p/CB4DXqGhFsW/media/?size=m
+photo.46.author: omutacityzoo
+photo.46.commitdate: 2020/9/10
+photo.46.link: https://www.instagram.com/omutacityzoo/
+photo.46.tags: home, portrait, tongue
+photo.47: https://www.instagram.com/p/CCOEn8TBsy1/media/?size=m
+photo.47.author: yossi929
+photo.47.commitdate: 2020/7/24
+photo.47.link: https://www.instagram.com/yossi929/
+photo.47.tags: grooming, paws, portrait
 species: 2
 studbook.id: 0264
 zoo: 21
