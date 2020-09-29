@@ -396,15 +396,16 @@ photo.77.author: re_ichimaru
 photo.77.commitdate: 2020/9/24
 photo.77.link: https://www.instagram.com/re_ichimaru/
 photo.77.tags: paws, portrait, smile, tail, tongue
-photo.78: https://www.instagram.com/p/CFTAYbQBdei/media/?size=m
-photo.78.author: re_ichimaru
-photo.78.commitdate: 2020/9/24
-photo.78.link: https://www.instagram.com/re_ichimaru/
-photo.78.tags: paws, portrait, smile, tongue
-photo.79: https://www.instagram.com/p/CE_hJtzBa8z/media/?size=m
-photo.79.author: grskus.tk
-photo.79.link: https://www.instagram.com/grskus_tk/
-photo.79.tags: paws, portrait, standing, tail
+photo.78: https://www.instagram.com/p/CE_hJtzBa8z/media/?size=m
+photo.78.author: grskus.tk
+photo.78.commitdate: 2020/9/28
+photo.78.link: https://www.instagram.com/grskus_tk/
+photo.78.tags: paws, portrait, standing, tail
+photo.79: https://www.instagram.com/p/CFTAYbQBdei/media/?size=m
+photo.79.author: re_ichimaru
+photo.79.commitdate: 2020/9/24
+photo.79.link: https://www.instagram.com/re_ichimaru/
+photo.79.tags: paws, portrait, smile, tongue
 species: 2
 studbook.id: 1695
 zoo: 42

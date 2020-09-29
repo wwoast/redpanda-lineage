@@ -199,15 +199,16 @@ photo.37.author: miis_98
 photo.37.commitdate: 2020/8/5
 photo.37.link: https://www.instagram.com/miis_98/
 photo.37.tags: paws, smile, whiskers, white face
-photo.38: https://www.instagram.com/p/CFnfSUbhc1a/media/?size=m
-photo.38.author: miis_98
-photo.38.commitdate: 2020/9/26
-photo.38.link: https://www.instagram.com/miis_98/
-photo.38.tags: portrait
-photo.39: https://www.instagram.com/p/CFEgRojhoIy/media/?size=m
-photo.39.author: ssc6105
-photo.39.link: https://www.instagram.com/ssc6105/
-photo.39.tags: mofumofu, paws, white face
+photo.38: https://www.instagram.com/p/CFEgRojhoIy/media/?size=m
+photo.38.author: ssc6105
+photo.38.commitdate: 2020/9/28
+photo.38.link: https://www.instagram.com/ssc6105/
+photo.38.tags: mofumofu, paws, white face
+photo.39: https://www.instagram.com/p/CFnfSUbhc1a/media/?size=m
+photo.39.author: miis_98
+photo.39.commitdate: 2020/9/26
+photo.39.link: https://www.instagram.com/miis_98/
+photo.39.tags: portrait
 species: 2
 studbook.id: 1094
 zoo: 4
