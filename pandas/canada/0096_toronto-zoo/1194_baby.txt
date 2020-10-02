@@ -48,28 +48,30 @@ photo.7.author: thetorontozoo
 photo.7.commitdate: 2020/9/3
 photo.7.link: https://www.instagram.com/thetorontozoo/
 photo.7.tags: baby, laying down, paws, smile
-photo.8: https://www.instagram.com/p/CE92sjXgGT4/media/?size=m
+photo.8: https://www.instagram.com/p/CErBzRPA4wn/media/?size=m
 photo.8.author: thetorontozoo
-photo.8.commitdate: 2020/9/15
+photo.8.commitdate: 2020/10/1
 photo.8.link: https://www.instagram.com/thetorontozoo/
-photo.8.tags: baby, mofumofu, scale
-photo.9: https://www.instagram.com/p/CFPP57vhjnP/media/?size=m
+photo.8.tags: baby, portrait, videolink
+photo.9: https://www.instagram.com/p/CE92sjXgGT4/media/?size=m
 photo.9.author: thetorontozoo
-photo.9.commitdate: 2020/9/27
+photo.9.commitdate: 2020/9/15
 photo.9.link: https://www.instagram.com/thetorontozoo/
-photo.9.tags: baby, paws, scale
-photo.10: https://www.instagram.com/p/CFUIfUUnzSt/media/?size=m
+photo.9.tags: baby, mofumofu, scale
+photo.10: https://www.instagram.com/p/CFFMzeTA6wJ/media/?size=m
 photo.10.author: thetorontozoo
-photo.10.commitdate: 2020/9/24
+photo.10.commitdate: 2020/10/1
 photo.10.link: https://www.instagram.com/thetorontozoo/
-photo.10.tags: baby, close-up, newborn
-photo.11: https://www.instagram.com/p/CFFMzeTA6wJ/media/?size=m
+photo.10.tags: baby, laying down, mofumofu, sleeping
+photo.11: https://www.instagram.com/p/CFPP57vhjnP/media/?size=m
 photo.11.author: thetorontozoo
+photo.11.commitdate: 2020/9/27
 photo.11.link: https://www.instagram.com/thetorontozoo/
-photo.11.tags: baby, laying down, mofumofu, sleeping
-photo.12: https://www.instagram.com/p/CErBzRPA4wn/media/?size=m
+photo.11.tags: baby, paws, scale
+photo.12: https://www.instagram.com/p/CFUIfUUnzSt/media/?size=m
 photo.12.author: thetorontozoo
+photo.12.commitdate: 2020/9/24
 photo.12.link: https://www.instagram.com/thetorontozoo/
-photo.12.tags: baby, portrait, videolink
+photo.12.tags: baby, close-up, newborn
 species: 2
 zoo: 96

@@ -363,15 +363,16 @@ photo.71.author: miis_98
 photo.71.commitdate: 2020/9/20
 photo.71.link: https://www.instagram.com/miis_98/
 photo.71.tags: apple time, mofumofu, peek, portrait
-photo.72: https://www.instagram.com/p/CFnaTUFBsca/media/?size=m
+photo.72: https://www.instagram.com/p/CFdECVVhIj1/media/?size=m
 photo.72.author: miis_98
-photo.72.commitdate: 2020/9/26
+photo.72.commitdate: 2020/10/1
 photo.72.link: https://www.instagram.com/miis_98/
-photo.72.tags: bamboo, portrait, smile, whiskers
-photo.73: https://www.instagram.com/p/CFdECVVhIj1/media/?size=m
+photo.72.tags: portrait, tail
+photo.73: https://www.instagram.com/p/CFnaTUFBsca/media/?size=m
 photo.73.author: miis_98
+photo.73.commitdate: 2020/9/26
 photo.73.link: https://www.instagram.com/miis_98/
-photo.73.tags: portrait, tail
+photo.73.tags: bamboo, portrait, smile, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

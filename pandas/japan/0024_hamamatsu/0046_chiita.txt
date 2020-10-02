@@ -774,32 +774,36 @@ photo.153.author: hamamatsu.chiita
 photo.153.commitdate: 2020/8/25
 photo.153.link: https://www.instagram.com/hamamatsu.chiita/
 photo.153.tags: home, laying down, portrait, smile
-photo.154: https://www.instagram.com/p/CFYRy4rBAHw/media/?size=m
-photo.154.author: makimaru18
-photo.154.commitdate: 2020/9/21
-photo.154.link: https://www.instagram.com/makimaru18/
-photo.154.tags: bamboo, portrait, smile
-photo.155: https://www.instagram.com/p/CFZaHlTBU0h/media/?size=m
+photo.154: https://www.instagram.com/p/CEzuv__BVyB/media/?size=m
+photo.154.author: hamamatsu.chiita
+photo.154.commitdate: 2020/10/1
+photo.154.link: https://www.instagram.com/hamamatsu.chiita/
+photo.154.tags: close-up, whiskers
+photo.155: https://www.instagram.com/p/CE6cgZ-BaQ_/media/?size=m
 photo.155.author: taka__3428
-photo.155.commitdate: 2020/9/21
+photo.155.commitdate: 2020/10/1
 photo.155.link: https://www.instagram.com/taka__3428/
-photo.155.tags: itchy, paws, portrait, wave
-photo.156: https://www.instagram.com/p/CFp13L_hZhG/media/?size=m
-photo.156.author: hamamatsu.chiita
-photo.156.link: https://www.instagram.com/hamamatsu.chiita/
-photo.156.tags: close-up, portrait, smile
-photo.157: https://www.instagram.com/p/CE6cgZ-BaQ_/media/?size=m
+photo.155.tags: blink, home, laying down, tongue
+photo.156: https://www.instagram.com/p/CFYRy4rBAHw/media/?size=m
+photo.156.author: makimaru18
+photo.156.commitdate: 2020/9/21
+photo.156.link: https://www.instagram.com/makimaru18/
+photo.156.tags: bamboo, portrait, smile
+photo.157: https://www.instagram.com/p/CFZaHlTBU0h/media/?size=m
 photo.157.author: taka__3428
+photo.157.commitdate: 2020/9/21
 photo.157.link: https://www.instagram.com/taka__3428/
-photo.157.tags: blink, home, laying down, tongue
-photo.158: https://www.instagram.com/p/CEzuv__BVyB/media/?size=m
+photo.157.tags: itchy, paws, portrait, wave
+photo.158: https://www.instagram.com/p/CFiEPXmBNum/media/?size=m
 photo.158.author: hamamatsu.chiita
+photo.158.commitdate: 2020/10/1
 photo.158.link: https://www.instagram.com/hamamatsu.chiita/
-photo.158.tags: close-up, whiskers
-photo.159: https://www.instagram.com/p/CFiEPXmBNum/media/?size=m
+photo.158.tags: portrait, whiskers
+photo.159: https://www.instagram.com/p/CFp13L_hZhG/media/?size=m
 photo.159.author: hamamatsu.chiita
+photo.159.commitdate: 2020/10/1
 photo.159.link: https://www.instagram.com/hamamatsu.chiita/
-photo.159.tags: portrait, whiskers
+photo.159.tags: close-up, portrait, smile
 species: 2
 studbook.id: 0869
 video.1: https://youtu.be/-WMjIqoEK1U
