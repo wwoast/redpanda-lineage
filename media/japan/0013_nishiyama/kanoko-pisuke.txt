@@ -1,8 +1,10 @@
 [media]
 _id: media.13.kanoko-pisuke
+commitdate: 2020/10/1
 panda.tags: 100, 1208
 photo.1: https://www.instagram.com/p/CF0LKp5Bzkf/media/?size=l
 photo.1.author: hamamatsu.chiita
+photo.1.commitdate: 2020/10/1
 photo.1.link: https://www.instagram.com/hamamatsu.chiita/
 photo.1.tags: baby, mother's day
 photo.1.tags.100.location: 620, 320
