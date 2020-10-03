@@ -19,4 +19,5 @@ litter: none
 location.1: 37, 2000/7/1
 location.2: 76, 2002/3/20
 species: 2
+studbook.id: 0095
 zoo: 76

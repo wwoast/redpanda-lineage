@@ -4,6 +4,7 @@ birthday: 2010/6/26
 birthplace: 135
 children: 647, 648, 650, 649, 1216
 commitdate: 2019/3/2
+death: 2020/5/1
 en.name: Blue
 en.nicknames: none
 en.othernames: none
@@ -94,4 +95,6 @@ photo.16.commitdate: 2020/9/3
 photo.16.link: https://www.instagram.com/zslwhipsnadezoo/
 photo.16.tags: bamboo, paws, portrait, tongue
 species: 2
+studbook.id: 1058
+uncertainty: death date
 zoo: 135

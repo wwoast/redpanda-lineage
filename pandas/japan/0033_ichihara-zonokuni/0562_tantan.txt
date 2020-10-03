@@ -14,5 +14,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 363
+location.1: 3, 2000/7/20
+location.2: 33, 2001/4/19
 species: 2
+studbook.id: 00106
 zoo: 33
