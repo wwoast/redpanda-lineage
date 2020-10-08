@@ -27,7 +27,7 @@ photo.3: https://www.instagram.com/p/BhB7bzwF_xx/media/?size=m
 photo.3.author: fetorus_mami
 photo.3.commitdate: 2018/7/19
 photo.3.link: https://www.instagram.com/fetorus_mami/
-photo.3.tags: portrait, profile
+photo.3.tags: portrait
 photo.4: https://www.instagram.com/p/BiOAMwFl38I/media/?size=m
 photo.4.author: ck.chie
 photo.4.commitdate: 2018/7/28
@@ -206,6 +206,10 @@ photo.39.author: fetorus_mami
 photo.39.commitdate: 2020/9/27
 photo.39.link: https://www.instagram.com/fetorus_mami/
 photo.39.tags: door, portrait
+photo.40: https://www.instagram.com/p/CF6CucgBdTi/media/?size=m
+photo.40.author: fetorus_mami
+photo.40.link: https://www.instagram.com/fetorus_mami/
+photo.40.tags: portrait, profile
 species: 2
 studbook.id: 11105
 zoo: 9
