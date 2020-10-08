@@ -152,7 +152,7 @@ photo.28: https://www.instagram.com/p/B3RTw5Ghq21/media/?size=m
 photo.28.author: panda.daisuki
 photo.28.commitdate: 2019/10/14
 photo.28.link: https://www.instagram.com/panda.daisuki/
-photo.28.tags: portrait, smile, tail, tongue, toys, white face
+photo.28.tags: peek, portrait, smile, tail, tongue, toys, white face
 photo.29: https://www.instagram.com/p/B3q-mupB6mD/media/?size=m
 photo.29.author: re_ichimaru
 photo.29.commitdate: 2019/10/17
@@ -228,10 +228,6 @@ photo.43.author: monmon_redpanda
 photo.43.commitdate: 2020/10/1
 photo.43.link: https://www.instagram.com/monmon_redpanda/
 photo.43.tags: portrait
-photo.44: https://www.instagram.com/p/B3RTw5Ghq21/media/?size=m
-photo.44.author: panda.daisuki
-photo.44.link: https://www.instagram.com/panda.daisuki/
-photo.44.tags: peek, portrait, smile, tail
 species: 2
 studbook.id: 1682
 zoo: 41
