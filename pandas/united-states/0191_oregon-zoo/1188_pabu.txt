@@ -4,11 +4,11 @@ birthday: 2020/6/18
 birthplace: 191
 children: none
 commitdate: 2020/7/1
-en.name: Baby
+en.name: Pabu
 en.nicknames: Napsalot McFluffins, Huggles McDrowsyface
 en.othernames: none
 gender: m
-jp.name: 赤ちゃん
+jp.name: パブ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
@@ -17,7 +17,7 @@ photo.1: https://www.instagram.com/p/CCGyf7jnxve/media/?size=m
 photo.1.author: oregonzoo
 photo.1.commitdate: 2020/7/1
 photo.1.link: https://www.instagram.com/oregonzoo/
-photo.1.tags: baby, newborn, portrait, profile
+photo.1.tags: baby, newborn, portrait
 photo.2: https://www.instagram.com/p/CC_dA50nSvZ/media/?size=m
 photo.2.author: oregonzoo
 photo.2.commitdate: 2020/7/31
@@ -53,6 +53,10 @@ photo.8.author: oregonzoo
 photo.8.commitdate: 2020/9/28
 photo.8.link: https://www.instagram.com/oregonzoo/
 photo.8.tags: baby, mofumofu, portrait, videolink
+photo.9: https://www.instagram.com/p/CGBEzZUpBZN/media/?size=m
+photo.9.author: oregonzoo
+photo.9.link: https://www.instagram.com/oregonzoo/
+photo.9.tags: mofumofu, portrait, profile
 species: 2
 video.1: https://youtu.be/3WIOn_zQckc
 video.1.author: oregonzoo

@@ -5,7 +5,7 @@ birthplace: 13
 children: none
 commitdate: 2020/8/12
 en.name: Pīsuke
-en.nicknames: none
+en.nicknames: Peace Kin
 en.othernames: Pisuke, Pi-suke, Pi-Suke
 gender: m
 jp.name: ピースケ
@@ -28,6 +28,10 @@ photo.3.author: minato.yokohama2130
 photo.3.commitdate: 2020/10/2
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
 photo.3.tags: baby, mofumofu, portrait, profile
+photo.4: https://www.instagram.com/p/CF1hbOaB3-L/media/?size=m
+photo.4.author: hamamatsu.chiita
+photo.4.link: https://www.instagram.com/hamamatsu.chiita/
+photo.4.tags: baby, door, portrait
 species: 2
 studbook.id: unknown
 zoo: 13
