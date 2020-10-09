@@ -43,14 +43,16 @@ photo.6.author: akiakiakiko18
 photo.6.commitdate: 2020/10/8
 photo.6.link: https://www.instagram.com/akiakiakiko18/
 photo.6.tags: baby, peek, tree
-photo.7: https://www.instagram.com/p/CGFkHa_hveB/media/?size=m
-photo.7.author: nakacchi_desu
-photo.7.link: https://www.instagram.com/nakacchi_desu/
-photo.7.tags: baby, paws, peek
-photo.8: https://www.instagram.com/p/CGENQ6hB5Yc/media/?size=m
-photo.8.author: mariten1119
-photo.8.link: https://www.instagram.com/mariten1119/
-photo.8.tags: baby, peek, tree
+photo.7: https://www.instagram.com/p/CGENQ6hB5Yc/media/?size=m
+photo.7.author: mariten1119
+photo.7.commitdate: 2020/10/9
+photo.7.link: https://www.instagram.com/mariten1119/
+photo.7.tags: baby, peek, tree
+photo.8: https://www.instagram.com/p/CGFkHa_hveB/media/?size=m
+photo.8.author: nakacchi_desu
+photo.8.commitdate: 2020/10/9
+photo.8.link: https://www.instagram.com/nakacchi_desu/
+photo.8.tags: baby, paws, peek
 species: 2
 studbook.id: unknown
 zoo: 13
