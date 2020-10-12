@@ -4,17 +4,21 @@ birthday: 2020/7/10
 birthplace: 219
 children: none
 commitdate: 2020/9/6
-en.name: Baby
+en.name: Miyuko
 en.nicknames: none
 en.othernames: none
-fr.name: Bébé
+fr.name: Miyuko
 fr.nicknames: none
 fr.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: f
+jp.name: ミユコ
 jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
 litter: 1217
+photo.1: https://www.instagram.com/p/CF1veFxA558/media/?size=m
+photo.1.author: nathalie.elliott
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: baby, door, portrait, profile
 species: 1
 zoo: 219
