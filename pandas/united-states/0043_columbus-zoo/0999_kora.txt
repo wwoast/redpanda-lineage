@@ -105,13 +105,15 @@ photo.18.author: rossifari
 photo.18.commitdate: 2020/9/15
 photo.18.link: https://www.instagram.com/rossifari/
 photo.18.tags: close-up, nose, paws
-photo.19: https://www.instagram.com/p/CGHvrAKAKwB/media/?size=m
+photo.19: https://www.instagram.com/p/CF9b66ggB8D/media/?size=m
 photo.19.author: rossifari
+photo.19.commitdate: 2020/10/11
 photo.19.link: https://www.instagram.com/rossifari/
-photo.19.tags: portrait, smile, whiskers
-photo.20: https://www.instagram.com/p/CF9b66ggB8D/media/?size=m
+photo.19.tags: close-up, portrait, whiskers
+photo.20: https://www.instagram.com/p/CGHvrAKAKwB/media/?size=m
 photo.20.author: rossifari
+photo.20.commitdate: 2020/10/11
 photo.20.link: https://www.instagram.com/rossifari/
-photo.20.tags: close-up, portrait, whiskers
+photo.20.tags: portrait, smile, whiskers
 species: 2
 zoo: 43
