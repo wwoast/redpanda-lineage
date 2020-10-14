@@ -209,22 +209,26 @@ photo.39.author: sasapan34
 photo.39.commitdate: 2020/3/15
 photo.39.link: https://www.instagram.com/sasapan34/
 photo.39.tags: smile, whiskers
-photo.40: https://www.instagram.com/p/CGTGZuIh3Sp/media/?size=m
-photo.40.author: ssc6105
-photo.40.link: https://www.instagram.com/ssc6105/
-photo.40.tags: portrait, smile, whiskers
-photo.41: https://www.instagram.com/p/CGM-_emBsP0/media/?size=m
-photo.41.author: fetorus_mami
-photo.41.link: https://www.instagram.com/fetorus_mami/
-photo.41.tags: door, mofumofu, paws, portrait
-photo.42: https://www.instagram.com/p/CC08zx7hH46/media/?size=m
-photo.42.author: eos1089
-photo.42.link: https://www.instagram.com/eos1089/
-photo.42.tags: mofumofu, smile, whiskers
-photo.43: https://www.instagram.com/p/CCzPfuaBqJh/media/?size=m
-photo.43.author: panda.daisuki
-photo.43.link: https://www.instagram.com/panda.daisuki/
-photo.43.tags: mofumofu, portrait, smile, whiskers
+photo.40: https://www.instagram.com/p/CCzPfuaBqJh/media/?size=m
+photo.40.author: panda.daisuki
+photo.40.commitdate: 2020/10/14
+photo.40.link: https://www.instagram.com/panda.daisuki/
+photo.40.tags: mofumofu, portrait, smile, whiskers
+photo.41: https://www.instagram.com/p/CC08zx7hH46/media/?size=m
+photo.41.author: eos1089
+photo.41.commitdate: 2020/10/14
+photo.41.link: https://www.instagram.com/eos1089/
+photo.41.tags: mofumofu, smile, whiskers
+photo.42: https://www.instagram.com/p/CGM-_emBsP0/media/?size=m
+photo.42.author: fetorus_mami
+photo.42.commitdate: 2020/10/14
+photo.42.link: https://www.instagram.com/fetorus_mami/
+photo.42.tags: door, mofumofu, paws, portrait
+photo.43: https://www.instagram.com/p/CGTGZuIh3Sp/media/?size=m
+photo.43.author: ssc6105
+photo.43.commitdate: 2020/10/14
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.43.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 13169
 video.1: https://youtu.be/HQ_OsRtj6T0
