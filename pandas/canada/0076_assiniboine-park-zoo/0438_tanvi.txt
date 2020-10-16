@@ -13,31 +13,34 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 437
-photo.1: https://www.instagram.com/p/CFUocMjh4OT/media/?size=m
+photo.1: https://www.instagram.com/p/B2kQp9zjhUG/media/?size=m
 photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2019/11/29
 photo.1.link: https://www.instagram.com/assiniboineparkzoo/
-photo.1.tags: paws, tail, whiskers
-photo.2: https://www.instagram.com/p/CFSkwMFg-5a/media/?size=m
+photo.1.tags: air tasting, tongue, whiskers
+photo.2: https://www.instagram.com/p/B2rXj6XDMLy/media/?size=m
 photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2019/11/29
 photo.2.link: https://www.instagram.com/assiniboineparkzoo/
-photo.2.tags: paws, portrait, profile, smile
-photo.3: https://www.instagram.com/p/B2kQp9zjhUG/media/?size=m
+photo.2.tags: paws, whiskers
+photo.3: https://www.instagram.com/p/CAN7q7ED8k9/media/?size=m
 photo.3.author: assiniboineparkzoo
-photo.3.commitdate: 2019/11/29
+photo.3.commitdate: 2020/6/15
 photo.3.link: https://www.instagram.com/assiniboineparkzoo/
-photo.3.tags: air tasting, tongue, whiskers
-photo.4: https://www.instagram.com/p/B2rXj6XDMLy/media/?size=m
+photo.3.tags: apple time, mofumofu
+photo.4: https://www.instagram.com/p/CFSkwMFg-5a/media/?size=m
 photo.4.author: assiniboineparkzoo
-photo.4.commitdate: 2019/11/29
+photo.4.commitdate: 2020/10/16
 photo.4.link: https://www.instagram.com/assiniboineparkzoo/
-photo.4.tags: paws, whiskers
-photo.5: https://www.instagram.com/p/CAN7q7ED8k9/media/?size=m
+photo.4.tags: paws, portrait, profile, smile
+photo.5: https://www.instagram.com/p/CFUocMjh4OT/media/?size=m
 photo.5.author: assiniboineparkzoo
-photo.5.commitdate: 2020/6/15
+photo.5.commitdate: 2020/10/16
 photo.5.link: https://www.instagram.com/assiniboineparkzoo/
-photo.5.tags: apple time, mofumofu
+photo.5.tags: paws, tail, whiskers
 photo.6: https://www.instagram.com/p/CGaFaUqnNUV/media/?size=m
 photo.6.author: assiniboineparkzoo
+photo.6.commitdate: 2020/10/16
 photo.6.link: https://www.instagram.com/assiniboineparkzoo/
 photo.6.tags: dish, lunch time, smile, tail, toys
 species: 2
