@@ -1269,10 +1269,11 @@ Gallery.url.instagram = function(image, input_uri) {
   window.addEventListener(ig_locator, function() {
     image.src = Gallery.url.paths[ig_locator];
   });
-  // Try and fetch the details to update the image
-  if (Gallery.url.paths[ig_locator].indexOf("https") == 0) {
+  if (ig_locator in Gallery.url.paths) {
+    // Do we already have the image details?
     image.src = Gallery.url.paths[ig_locator];
   } else {
+    // Try and fetch the details to update the image
     var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
     var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
