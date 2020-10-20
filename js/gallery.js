@@ -115,37 +115,6 @@ Gallery.G.displayPhotoNavigation = function() {
   return span_link;
 }
   
-// Preload one photo ahead, and one photo behind, into the page without displaying them. 
-// This makes it so that only a single page reflow occurs when navigating images.
-Gallery.G.displayPhotoPreload = function() {
-  var default_photo = Pandas.def.animal["photo.1"];
-  var prev_photo = "photo." + (parseInt(this.index) - 1).toString();
-  var prev_img = document.createElement('img');
-  prev_img.className = "pandaPhoto preload";
-  var next_photo = "photo." + (parseInt(this.index) + 1).toString();
-  var next_img = document.createElement('img');
-  next_img.className = "pandaPhoto preload";
-  var count = this.photoCount();
-  var last_photo = "photo." + count.toString();
-  var entity = this.photoEntity();
-  if (Pandas.field(entity, prev_photo, this.carousel_type) != default_photo) {
-    Gallery.url.process(prev_img, entity[prev_photo]);
-  } else {
-    Gallery.url.process(prev_img, entity[last_photo]);  // Before first item is the last photo in the list
-  }
-  if (Pandas.field(entity, next_photo, this.carousel_type) != default_photo) {
-    Gallery.url.process(next_img, entity[next_photo]);
-  } else {
-    Gallery.url.process(next_img, entity["photo.1"]);  // After last item is back to the first
-  }
-  // If any of the photos we tried to preload are undefined, remove them from the preload list
-  var imgs = [prev_img, next_img];
-  imgs = imgs.filter(function(element) {
-    return element.src !== Pandas.def.animal["photo.1"];
-  });
-  return imgs;
-}
-
 // Utility function to get the current number of photos.
 Gallery.G.photoCount = function() {
   var entity = this.photoEntity();
