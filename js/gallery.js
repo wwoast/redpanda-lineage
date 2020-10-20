@@ -64,12 +64,12 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
   div.className = this.element_class;
   div.appendChild(image);
   // Preload the next and previous images to avoid double-reflow problems
-  if (this.element_class == "pandaPhoto") {
-    var preloads = this.displayPhotoPreload();
-    for (var preload of preloads) {
-      div.appendChild(preload);
-    }
-  }
+  //if (this.element_class == "pandaPhoto") {
+  //  var preloads = this.displayPhotoPreload();
+  //  for (var preload of preloads) {
+  //    div.appendChild(preload);
+  //  }
+  //}
   // Return the new div
   Touch.addSwipeHandler(image, T.processPhoto);
   return div;
