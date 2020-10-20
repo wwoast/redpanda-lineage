@@ -1638,7 +1638,7 @@ Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
   var gallery = Gallery.init(info, 'animal');
   gallery.displayPhoto();
-  var photo = Gallery.image;
+  var photo = gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
@@ -2007,7 +2007,7 @@ Show.results.panda = function(animal, language) {
   var info = Show.acquirePandaInfo(animal, language);
   var gallery = Gallery.init(info, 'animal');
   gallery.displayPhoto();
-  var photo = Gallery.image;
+  var photo = gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
@@ -2317,7 +2317,7 @@ Show.results.zoo = function(zoo, language) {
   var info = Show.acquireZooInfo(zoo, language);
   var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
   gallery.displayPhoto();
-  var photo = Gallery.image;
+  var photo = gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
   photo.addEventListener('mouseover', function() {
