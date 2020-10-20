@@ -1637,6 +1637,7 @@ Show.profile.family = function(animal, language) {
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
   var gallery = Gallery.init(info, 'animal');
+  gallery.displayPhoto();
   var photo = Gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -2005,6 +2006,7 @@ Show.results.panda = function(animal, language) {
   // a few should be printed regardless (birthday / death)
   var info = Show.acquirePandaInfo(animal, language);
   var gallery = Gallery.init(info, 'animal');
+  gallery.displayPhoto();
   var photo = Gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);
@@ -2314,6 +2316,7 @@ Show.results.zoo = function(zoo, language) {
   // Display information for a zoo relevant to the red pandas
   var info = Show.acquireZooInfo(zoo, language);
   var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
+  gallery.displayPhoto();
   var photo = Gallery.image;
   var span = gallery.displayPhotoNavigation();
   photo.appendChild(span);

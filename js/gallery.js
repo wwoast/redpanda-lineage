@@ -41,7 +41,6 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // Gallery instance has a single photo frame that we attach event handlers to
   // for loading images from random sources
   gallery.image = document.createElement('img');
-  this.displayPhoto();   // Load the desired photo
   return gallery;
 }
 
