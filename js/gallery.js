@@ -38,8 +38,6 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // output results for a page.
   gallery.unique = Math.random().toString(36).slice(2);
   gallery.fallback_url = fallback_url;
-  // The main photo frame that images display on.
-  gallery.image = document.createElement('img');
   return gallery;
 }
 
@@ -47,7 +45,8 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
 // display a placeholder empty frame that takes up the same amount
 // of space on the page. Support using class variables by default, but
 // allow the photoSwap function to use unique parameters as it needs.
-Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this.info.id, index=this.index) {
+Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=this.index) {
+  var image = document.createElement('img');
   if (url == undefined) {
     image.src = this.fallback_url;
   } else if (id.indexOf("_") != -1) {
@@ -251,7 +250,7 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   // TODO: we can't move event listeners :( photo needs to consume src changes for
   // when we swap photos and do an IG image load. So display_photo needs to take
   // an existing image tag in as an option, instead of creating a new one.
-  var new_container = this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
+  var new_container = this.displayPhoto(new_choice, carousel_id, new_index.toString());
   var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
