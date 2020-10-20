@@ -1239,7 +1239,7 @@ Gallery.url = {};
 
 Gallery.url.api = {};
 
-Gallery.url.api.instagram = "EAAFSoIVAmQsBAJsNvhzNXgsn7kIGrH9MyKMUKHt9xhEzj8JK2P21cjmPZAqVGgCXByO80CZB6Dzr6ZBawDgD0q7JA7gYlj9EfS9VsusdBzpDK1nzuseZAXmB34Pe1psctZAhuTBlQB7ggcxBOkYZBXKkCZB2yFAGn2BiITcZCXednMTh5u89Orbkzi2YcyauiZBYN1aV22SmJ5oZCMv4ska2Vy";
+Gallery.url.api.instagram = "EAAFSoIVAmQsBALl7rwk4PRmmthZBGVaxav1GPEtnML3ZAEAuGKSoKn8jxpa23WL07MbX4mGiMG5eZCPZA8fLYuOY61SgRzFKexZA8jkMgn4WzLUXnsRZAnHoZCOCbnEVr56K9JW05u46vqySicsPxrTM3sTsrM1KlQkR1UQHGKp2ZBocuDjfkhXiSU4KYhrT7euUdbl752ceZC6xUmMcNFZCuu";
 
 // Store uris and paths from the fetch
 Gallery.url.events = {};
