@@ -9,7 +9,7 @@ language.order: en
 latitude: 34.8499627
 longitude: -82.3941174
 map: https://goo.gl/maps/yBWpJYm1Bvr
-photo.1: https://www.instagram.com/p/Bis7r65gI6x/media/?size=m
+photo.1: ig://Bis7r65gI6x/m
 photo.1.author: medabney
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/medabney/

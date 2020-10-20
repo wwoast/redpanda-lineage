@@ -16,12 +16,12 @@ litter: none
 location.1: 96, 2011/8/1
 location.2: 90, 2012/5/31
 location.3: 44, 2015/11/19
-photo.1: https://www.instagram.com/p/B2eYcRlHVEF/media/?size=m
+photo.1: ig://B2eYcRlHVEF/m
 photo.1.author: newzoogb
 photo.1.commitdate: 2019/12/7
 photo.1.link: https://www.instagram.com/newzoogb/
 photo.1.tags: paws, portrait, profile, upside-down
-photo.2: https://www.instagram.com/p/B6JKgG9g9HY/media/?size=m
+photo.2: ig://B6JKgG9g9HY/m
 photo.2.author: newzoogb
 photo.2.commitdate: 2020/2/27
 photo.2.link: https://www.instagram.com/newzoogb/

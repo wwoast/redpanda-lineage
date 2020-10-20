@@ -13,11 +13,11 @@ language.order: kr, en
 latitude: 37.4215021
 longitude: 127.017742
 map: https://goo.gl/maps/HU9yotcVBXQ2
-photo.1: https://www.instagram.com/p/BSxW3JIF0Kc/media/?size=m
+photo.1: ig://BSxW3JIF0Kc/m
 photo.1.author: anakjajan
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/anakjajan/
-photo.2: https://www.instagram.com/p/BKBjlBxBRGW/media/?size=m
+photo.2: ig://BKBjlBxBRGW/m
 photo.2.author: marineprescilla
 photo.2.commitdate: 2019/5/8
 photo.2.link: https://www.instagram.com/marineprescilla/

@@ -9,7 +9,7 @@ language.order: en
 latitude: 36.0917091
 longitude: -86.738922
 map: https://goo.gl/maps/6KdEKAFz5Sy
-photo.1: https://www.instagram.com/p/BfL_ztGBQtx/media/?size=m
+photo.1: ig://BfL_ztGBQtx/m
 photo.1.author: nashvillezoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/nashvillezoo/

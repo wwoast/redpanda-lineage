@@ -15,22 +15,22 @@ language.order: en, jp
 litter: 901
 location.1: 114, 2017/6/14
 location.2: 49, 2017/12/19
-photo.1: https://www.instagram.com/p/Byd3xFxpplw/media/?size=m
+photo.1: ig://Byd3xFxpplw/m
 photo.1.author: rossifari
 photo.1.commitdate: 2019/6/14
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/B8CGEZGprXo/media/?size=m
+photo.2: ig://B8CGEZGprXo/m
 photo.2.author: rossifari
 photo.2.commitdate: 2020/3/3
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: door, paws, peek, portrait, whiskers
-photo.3: https://www.instagram.com/p/B9ExksaJYv-/media/?size=m
+photo.3: ig://B9ExksaJYv-/m
 photo.3.author: rossifari
 photo.3.commitdate: 2020/3/3
 photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: peek, portrait, whiskers
-photo.4: https://www.instagram.com/p/B5gIZHnA96Z/media/?size=m
+photo.4: ig://B5gIZHnA96Z/m
 photo.4.author: tennesseetrailsphotography
 photo.4.commitdate: 2020/3/10
 photo.4.link: https://www.instagram.com/tennesseetrailsphotography/

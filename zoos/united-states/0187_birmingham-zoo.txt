@@ -9,11 +9,11 @@ language.order: en
 latitude: 33.4860087
 longitude: -86.7839188
 map: https://goo.gl/maps/zAQhPifo7Pm
-photo.1: https://www.instagram.com/p/BdvSSzHFuH3/media/?size=m
+photo.1: ig://BdvSSzHFuH3/m
 photo.1.author: bhamzoo
 photo.1.commitdate: 2019/10/27
 photo.1.link: https://www.instagram.com/bhamzoo/
-photo.2: https://www.instagram.com/p/BVkl5bWFm_M/media/?size=m
+photo.2: ig://BVkl5bWFm_M/m
 photo.2.author: bhamzoo
 photo.2.commitdate: 2019/10/27
 photo.2.link: https://www.instagram.com/bhamzoo/

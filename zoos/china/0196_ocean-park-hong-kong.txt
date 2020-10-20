@@ -12,7 +12,7 @@ language.order: cn, en
 latitude: 22.2466457
 longitude: 114.1056835
 map: https://goo.gl/maps/cyhJE1HGhYUayvBv7
-photo.1: https://www.instagram.com/p/ByAMx3UnQbt/media/?size=m
+photo.1: ig://ByAMx3UnQbt/m
 photo.1.author: hkoceanpark
 photo.1.commitdate: 2019/7/10
 photo.1.link: https://www.instagram.com/hkoceanpark/

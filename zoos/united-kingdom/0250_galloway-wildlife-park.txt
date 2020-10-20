@@ -10,12 +10,12 @@ language.order: en
 latitude: 54.840836
 longitude: -4.0421598
 map: https://goo.gl/maps/MqGgMpb8k8pourGK9
-photo.1: https://www.instagram.com/p/BGPMXjMn-sC/media/?size=m
+photo.1: ig://BGPMXjMn-sC/m
 photo.1.author: lowden1
 photo.1.commitdate: 2020/5/18
 photo.1.link: https://www.instagram.com/lowden1/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/Bkckkx6HUrQ/media/?size=m
+photo.2: ig://Bkckkx6HUrQ/m
 photo.2.author: beckylittle
 photo.2.commitdate: 2020/5/18
 photo.2.link: https://www.instagram.com/beckylitttle/

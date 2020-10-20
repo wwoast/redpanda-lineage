@@ -9,7 +9,7 @@ language.order: en
 latitude: 43.0441161
 longitude: -76.1914599
 map: https://goo.gl/maps/ghur2zM8qwp
-photo.1: https://www.instagram.com/p/CDRLPv0J6Jg/media/?size=m
+photo.1: ig://CDRLPv0J6Jg/m
 photo.1.author: syracusezoo
 photo.1.commitdate: 2020/9/21
 photo.1.link: https://www.instagram.com/syracusezoo/

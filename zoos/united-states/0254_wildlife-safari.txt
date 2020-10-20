@@ -9,12 +9,12 @@ language.order: en
 latitude: 43.1373478
 longitude: -123.4383512
 map: https://g.page/WildlifeSafariOregon?share
-photo.1: https://www.instagram.com/p/B36_Q4SBqkG/media/?size=m
+photo.1: ig://B36_Q4SBqkG/m
 photo.1.author: wildlife.safari
 photo.1.commitdate: 2020/7/1
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/B-CxSRRAguT/media/?size=m
+photo.2: ig://B-CxSRRAguT/m
 photo.2.author: wildlife.safari
 photo.2.commitdate: 2020/7/1
 photo.2.link: https://www.instagram.com/wildlife.safari/

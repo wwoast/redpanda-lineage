@@ -9,11 +9,11 @@ language.order: th, en
 latitude: 13.2148627
 longitude: 100.9866786
 map: https://goo.gl/maps/QRi8XP3ynNU2
-photo.1: https://www.instagram.com/p/BRAUtHuBncB/media/?size=m
+photo.1: ig://BRAUtHuBncB/m
 photo.1.author: nataly_sav
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/nataly_sav/
-photo.2: https://www.instagram.com/p/B_lndaRHjNl/media/?size=m
+photo.2: ig://B_lndaRHjNl/m
 photo.2.author: khaokheow.zoo
 photo.2.commitdate: 2020/5/27
 photo.2.link: https://www.instagram.com/khaokheow.zoo/

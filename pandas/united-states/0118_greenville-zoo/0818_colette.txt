@@ -15,12 +15,12 @@ language.order: en, jp
 litter: 911
 location.1: 119, 2012/6/11
 location.2: 118, 2013/3/15
-photo.1: https://www.instagram.com/p/BpfkjspF7G0/media/?size=m
+photo.1: ig://BpfkjspF7G0/m
 photo.1.author: patrickrossphotos
 photo.1.commitdate: 2019/4/7
 photo.1.link: https://www.instagram.com/patrickrossphotos/
 photo.1.tags: profile, smile
-photo.2: https://www.instagram.com/p/BpzXOMng35w/media/?size=m
+photo.2: ig://BpzXOMng35w/m
 photo.2.author: greenvillezoo
 photo.2.commitdate: 2020/1/25
 photo.2.link: https://www.instagram.com/greenvillezoo/

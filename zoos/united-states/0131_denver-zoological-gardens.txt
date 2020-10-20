@@ -9,7 +9,7 @@ language.order: en
 latitude: 39.7501641
 longitude: -104.9664625
 map: https://goo.gl/maps/hqG7y33Ttwj
-photo.1: https://www.instagram.com/p/BzVwJuVF-Zw/media/?size=m
+photo.1: ig://BzVwJuVF-Zw/m
 photo.1.author: denverzoo
 photo.1.commitdate: 2019/7/8
 photo.1.link: https://www.instagram.com/denverzoo/

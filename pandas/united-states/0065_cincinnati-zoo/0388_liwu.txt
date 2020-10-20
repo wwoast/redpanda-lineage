@@ -19,12 +19,12 @@ location.2: 104, 2002/2/8
 location.3: 43, 2002/10/28
 location.4: 105, 2003/10/23
 location.5: 65, 2007/10/24
-photo.1: https://www.instagram.com/p/BIf8tMzjI0O/media/?size=m
+photo.1: ig://BIf8tMzjI0O/m
 photo.1.author: degersm
 photo.1.commitdate: 2018/11/18
 photo.1.link: https://www.instagram.com/degersm/
 photo.1.tags: tongue
-photo.2: https://www.instagram.com/p/BAiE73uNx1J/media/?size=m
+photo.2: ig://BAiE73uNx1J/m
 photo.2.author: ericatlady
 photo.2.commitdate: 2018/11/18
 photo.2.link: https://www.instagram.com/ericatlady/

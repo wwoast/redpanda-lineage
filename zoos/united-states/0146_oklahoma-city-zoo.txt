@@ -9,7 +9,7 @@ language.order: en
 latitude: 35.5216262
 longitude: -97.4705582
 map: https://goo.gl/maps/C9iJrLceqQs
-photo.1: https://www.instagram.com/p/B3mzINTHBk4/media/?size=m
+photo.1: ig://B3mzINTHBk4/m
 photo.1.author: okczoo
 photo.1.commitdate: 2019/10/15
 photo.1.link: https://www.instagram.com/okczoo/

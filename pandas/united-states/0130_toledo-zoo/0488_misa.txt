@@ -15,22 +15,22 @@ language.order: en, jp
 litter: 489
 location.1: 90, 2017/6/16
 location.2: 130, 2018/9/19
-photo.1: https://www.instagram.com/p/BsmJhFlBjup/media/?size=m
+photo.1: ig://BsmJhFlBjup/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/3/3
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: blink, itchy, paws, portrait, whiskers
-photo.2: https://www.instagram.com/p/B2rDAeXF_Uv/media/?size=m
+photo.2: ig://B2rDAeXF_Uv/m
 photo.2.author: thetoledozoo
 photo.2.commitdate: 2019/12/1
 photo.2.link: https://www.instagram.com/thetoledozoo/
 photo.2.tags: smile
-photo.3: https://www.instagram.com/p/B3fyzYpFbs-/media/?size=m
+photo.3: ig://B3fyzYpFbs-/m
 photo.3.author: sethgeib
 photo.3.commitdate: 2019/12/7
 photo.3.link: https://www.instagram.com/sethgeib/
 photo.3.tags: paws, portrait, smile, whiskers
-photo.4: https://www.instagram.com/p/CDHYvqup12t/media/?size=m
+photo.4: ig://CDHYvqup12t/m
 photo.4.author: thetoledozoo
 photo.4.commitdate: 2020/8/2
 photo.4.link: https://www.instagram.com/thetoledozoo/

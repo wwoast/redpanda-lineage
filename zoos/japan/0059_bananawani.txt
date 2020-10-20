@@ -13,11 +13,11 @@ language.order: jp, en
 latitude: 34.8161636
 longitude: 139.0656855
 map: https://goo.gl/maps/H7nX1JM8hAv
-photo.1: https://www.instagram.com/p/BmUcSR6FNwQ/media/?size=m
+photo.1: ig://BmUcSR6FNwQ/m
 photo.1.author: bananawani_official
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/bananawani_official/
-photo.2: https://www.instagram.com/p/BqhAg_8ncWx/media/?size=m
+photo.2: ig://BqhAg_8ncWx/m
 photo.2.author: o.tetsu1229
 photo.2.commitdate: 2019/6/9
 photo.2.link: https://www.instagram.com/o.tetsu1229/

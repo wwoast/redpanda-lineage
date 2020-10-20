@@ -10,7 +10,7 @@ language.order: en
 latitude: 49.1238474
 longitude: -122.8687328
 map: https://goo.gl/maps/TxXkYjME52C2
-photo.1: https://www.instagram.com/p/Bki9rSMHJ0X/media/?size=m
+photo.1: ig://Bki9rSMHJ0X/m
 photo.1.author: gypsy_dreamz
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/gypsy_dreamz/

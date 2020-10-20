@@ -13,7 +13,7 @@ language.order: cn, en
 latitude: 24.9971631
 longitude: 121.5829622
 map: https://goo.gl/maps/9vr6Usew49x
-photo.1: https://www.instagram.com/p/BqjdtXdn7fs/media/?size=m
+photo.1: ig://BqjdtXdn7fs/m
 photo.1.author: yulixyang
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/yulixyang/

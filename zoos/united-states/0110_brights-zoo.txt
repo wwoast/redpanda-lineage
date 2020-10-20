@@ -9,7 +9,7 @@ language.order: en
 latitude: 36.2546187
 longitude: -82.6216489
 map: https://goo.gl/maps/o1JzMwgEGPw
-photo.1: https://www.instagram.com/p/BrjV8nlFSmv/media/?size=m
+photo.1: ig://BrjV8nlFSmv/m
 photo.1.author: brightszoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/brightszoo/

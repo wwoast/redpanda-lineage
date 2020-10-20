@@ -16,12 +16,12 @@ language.order: jp, en
 litter: none
 location.1: 6, 2010/7/14
 location.2: 33, 2012/3/15
-photo.1: https://www.instagram.com/p/BYVXPAYlY3f/media/?size=m
+photo.1: ig://BYVXPAYlY3f/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
 photo.1.tags: bamboo, profile
-photo.2: https://www.instagram.com/p/BlK_2deA-h7/media/?size=m
+photo.2: ig://BlK_2deA-h7/m
 photo.2.author: patraschtsuckey
 photo.2.commitdate: 2020/3/11
 photo.2.link: https://www.instagram.com/patraschtsuckey/

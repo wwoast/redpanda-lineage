@@ -12,11 +12,11 @@ language.order: fr, en
 latitude: 50.4998471
 longitude: 5.7260037
 map: https://goo.gl/maps/RXN3MXiLpyY9YnRS9
-photo.1: https://www.instagram.com/p/BwKJgKyAz6A/media/?size=m
+photo.1: ig://BwKJgKyAz6A/m
 photo.1.author: mondesauvage_officiel
 photo.1.commitdate: 2020/5/3
 photo.1.link: https://www.instagram.com/mondesauvage_officiel/
-photo.2: https://www.instagram.com/p/BwcL05gAITx/media/?size=m
+photo.2: ig://BwcL05gAITx/m
 photo.2.author: mondesauvage_officiel
 photo.2.commitdate: 2020/5/3
 photo.2.link: https://www.instagram.com/mondesauvage_officiel/

@@ -14,7 +14,7 @@ language.order: jp, en
 latitude: 35.8867828
 longitude: 139.701668
 map: https://goo.gl/maps/g6ZCMfTFdrw
-photo.1: https://www.instagram.com/p/BqCMddSHxzk/media/?size=m
+photo.1: ig://BqCMddSHxzk/m
 photo.1.author: lexus_hs
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/lexus_hs/

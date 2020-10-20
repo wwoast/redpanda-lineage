@@ -9,12 +9,12 @@ language.order: en
 latitude: 41.5207105
 longitude: -93.62561
 map: https://goo.gl/maps/KrqMWUznyA32
-photo.1: https://www.instagram.com/p/CCOyryAhfh1/media/?size=m
+photo.1: ig://CCOyryAhfh1/m
 photo.1.author: blankparkzoo
 photo.1.commitdate: 2020/8/17
 photo.1.link: https://www.instagram.com/blankparkzoo/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/CDUUIaZjJJ1/media/?size=m
+photo.2: ig://CDUUIaZjJJ1/m
 photo.2.author: blankparkzoo
 photo.2.commitdate: 2020/8/17
 photo.2.link: https://www.instagram.com/blankparkzoo/

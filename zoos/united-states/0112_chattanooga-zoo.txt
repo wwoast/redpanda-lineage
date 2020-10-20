@@ -9,7 +9,7 @@ language.order: en
 latitude: 35.0426328
 longitude: -85.2996084
 map: https://goo.gl/maps/1ZHVrRkvvs12
-photo.1: https://www.instagram.com/p/BkTvbxIBQRS/media/?size=m
+photo.1: ig://BkTvbxIBQRS/m
 photo.1.author: chattanoogazoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/chattanoogazoo/

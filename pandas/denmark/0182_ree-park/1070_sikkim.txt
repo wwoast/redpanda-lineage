@@ -15,12 +15,12 @@ language.order: en, jp
 litter: none
 location.1: 224, 2015/7/10
 location.2: 182, 2016/4/11
-photo.1: https://www.instagram.com/p/B22Qimknh5q/media/?size=m
+photo.1: ig://B22Qimknh5q/m
 photo.1.author: _mika_berlin_
 photo.1.commitdate: 2019/12/2
 photo.1.link: https://www.instagram.com/_mika_berlin_/
 photo.1.tags: portrait, smile, tree, whiskers
-photo.2: https://www.instagram.com/p/B3UyV0rBl_p/media/?size=m
+photo.2: ig://B3UyV0rBl_p/m
 photo.2.author: ma.ch.mo
 photo.2.commitdate: 2019/12/2
 photo.2.link: https://www.instagram.com/ma.ch.mo/

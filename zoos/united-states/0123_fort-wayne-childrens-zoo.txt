@@ -9,12 +9,12 @@ language.order: en
 latitude: 41.1096716
 longitude: -85.1571732
 map: https://goo.gl/maps/s6yrZhQmjR72
-photo.1: https://www.instagram.com/p/Brkp88eApCh/media/?size=m
+photo.1: ig://Brkp88eApCh/m
 photo.1.author: fwkidszoo
 photo.1.commitdate: 2019/5/7
 photo.1.link: https://www.instagram.com/fwkidszoo/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/Bs3NpTWA0b5/media/?size=m
+photo.2: ig://Bs3NpTWA0b5/m
 photo.2.author: fwkidszoo
 photo.2.commitdate: 2019/5/7
 photo.2.link: https://www.instagram.com/fwkidszoo/

@@ -12,7 +12,7 @@ language.order: en, jp
 latitude: 47.6681079
 longitude: -122.3526429
 map: https://goo.gl/maps/4WtXGc1ZGnp
-photo.1: https://www.instagram.com/p/BhVdwVDl3kO/media/?size=m
+photo.1: ig://BhVdwVDl3kO/m
 photo.1.author: liabrouillard
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/liabrouillard/

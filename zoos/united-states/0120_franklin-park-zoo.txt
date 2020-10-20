@@ -9,7 +9,7 @@ language.order: en
 latitude: 42.3054665
 longitude: -71.1075389
 map: https://goo.gl/maps/ge1HYzEu1qS2
-photo.1: https://www.instagram.com/p/8iq7F_Etmh/media/?size=m
+photo.1: ig://8iq7F_Etmh/m
 photo.1.author: zoonewengland
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/zoonewengland/

@@ -12,7 +12,7 @@ language.order: jp, en
 latitude: 33.1512305
 longitude: 129.6873023
 map: https://goo.gl/maps/1pRgFW9fo9v
-photo.1: https://www.instagram.com/p/ByCX26Hpveo/media/?size=m
+photo.1: ig://ByCX26Hpveo/m
 photo.1.author: morikirara
 photo.1.commitdate: 2020/4/18
 photo.1.link: https://www.instagram.com/morikirara/

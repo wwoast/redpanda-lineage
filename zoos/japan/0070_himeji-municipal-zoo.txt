@@ -12,7 +12,7 @@ language.order: jp, en
 latitude: 34.8372111
 longitude: 134.6921642
 map: https://goo.gl/maps/Em6HbHWwLHC2
-photo.1: https://www.instagram.com/p/B6DnGs3guw2/media/?size=m
+photo.1: ig://B6DnGs3guw2/m
 photo.1.author: yasuda.seiji
 photo.1.commitdate: 2020/5/27
 photo.1.link: https://www.instagram.com/yasuda.seiji/

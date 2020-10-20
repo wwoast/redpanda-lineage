@@ -16,32 +16,32 @@ language.order: jp, en
 litter: 585
 location.1: 40, 2000/7/13
 location.2: 3, 2004/1/7
-photo.1: https://www.instagram.com/p/BqBPSy2lpx8/media/?size=m
+photo.1: ig://BqBPSy2lpx8/m
 photo.1.author: tabechum
 photo.1.commitdate: 2018/11/11
 photo.1.link: https://www.instagram.com/tabechum/
 photo.1.tags: portrait, profile
-photo.2: https://www.instagram.com/p/BUmHK-JF0Oy/media/?size=m
+photo.2: ig://BUmHK-JF0Oy/m
 photo.2.author: sbskyy
 photo.2.commitdate: 2018/12/26
 photo.2.link: https://www.instagram.com/sbskyy/
 photo.2.tags: laying down, tail
-photo.3: https://www.instagram.com/p/BQ3A0gajOtF/media/?size=m
+photo.3: ig://BQ3A0gajOtF/m
 photo.3.author: gogomakoto
 photo.3.commitdate: 2018/12/26
 photo.3.link: https://www.instagram.com/gogomakoto/
 photo.3.tags: portrait
-photo.4: https://www.instagram.com/p/BRBRknRji69/media/?size=m
+photo.4: ig://BRBRknRji69/m
 photo.4.author: zednotzee
 photo.4.commitdate: 2018/12/26
 photo.4.link: https://www.instagram.com/zednotzee/
 photo.4.tags: portrait, smile
-photo.5: https://www.instagram.com/p/BvZKUXOly1c/media/?size=m
+photo.5: ig://BvZKUXOly1c/m
 photo.5.author: craig_craig_craig
 photo.5.commitdate: 2019/4/5
 photo.5.link: https://www.instagram.com/craig_craig_craig/
 photo.5.tags: laying down, portrait
-photo.6: https://www.instagram.com/p/BxesN0CgBKl/media/?size=m
+photo.6: ig://BxesN0CgBKl/m
 photo.6.author: sbskyy
 photo.6.commitdate: 2019/5/20
 photo.6.link: https://www.instagram.com/sbskyy/

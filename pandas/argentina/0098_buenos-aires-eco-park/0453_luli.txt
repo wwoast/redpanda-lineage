@@ -21,12 +21,12 @@ language.order: es, en, jp
 litter: none
 location.1: 34, 2004/6/29
 location.2: 98, 2005/7/8
-photo.1: https://www.instagram.com/p/BGiwPZylEcH/media/?size=m
+photo.1: ig://BGiwPZylEcH/m
 photo.1.author: everywhere.inbetween17
 photo.1.commitdate: 2018/12/12
 photo.1.link: https://www.instagram.com/everywhere.inbetween17/
 photo.1.tags: home, portrait, profile
-photo.2: https://www.instagram.com/p/BdtZSuiAHHG/media/?size=m
+photo.2: ig://BdtZSuiAHHG/m
 photo.2.author: joseluis_hv_
 photo.2.commitdate: 2019/5/7
 photo.2.link: https://www.instagram.com/joseluis_hv_/

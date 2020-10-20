@@ -15,12 +15,12 @@ language.order: en, jp
 litter: 488
 location.1: 90, 2017/6/16
 location.2: 130, 2018/7/19
-photo.1: https://www.instagram.com/p/B2r7F4HpkrI/media/?size=m
+photo.1: ig://B2r7F4HpkrI/m
 photo.1.author: thetoledozoo
 photo.1.commitdate: 2019/12/1
 photo.1.link: https://www.instagram.com/thetoledozoo/
 photo.1.tags: upside-down
-photo.2: https://www.instagram.com/p/B4F1Ofllhos/media/?size=m
+photo.2: ig://B4F1Ofllhos/m
 photo.2.author: sethgeib
 photo.2.commitdate: 2019/12/23
 photo.2.link: https://www.instagram.com/sethgeib/

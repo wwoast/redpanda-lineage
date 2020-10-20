@@ -12,12 +12,12 @@ language.order: jp, en
 latitude: 36.0196909
 longitude: 139.7174791
 map: https://goo.gl/maps/74vbDPHR5DK2
-photo.1: https://www.instagram.com/p/Bioo8kVhp4i/media/?size=m
+photo.1: ig://Bioo8kVhp4i/m
 photo.1.author: yurika_0212
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/yurika_0212/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/BysNYKuFbjL/media/?size=m
+photo.2: ig://BysNYKuFbjL/m
 photo.2.author: forest_jizo
 photo.2.commitdate: 2019/7/7
 photo.2.link: https://www.instagram.com/forest_jizo/

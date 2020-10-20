@@ -9,12 +9,12 @@ language.order: en
 latitude: 39.7582466
 longitude: -75.5517247
 map: https://goo.gl/maps/BbYuTcVJmVL2
-photo.1: https://www.instagram.com/p/Brh7cdKFqcc/media/?size=m
+photo.1: ig://Brh7cdKFqcc/m
 photo.1.author: brandywinezoo
 photo.1.commitdate: 2019/5/7
 photo.1.link: https://www.instagram.com/brandywinezoo/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/CDrBU2HFmfU/media/?size=m
+photo.2: ig://CDrBU2HFmfU/m
 photo.2.author: brandywinezoo
 photo.2.commitdate: 2020/8/17
 photo.2.link: https://www.instagram.com/brandywinezoo/

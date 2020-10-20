@@ -12,22 +12,22 @@ language.order: en
 litter: unknown
 location.1: 251, 2011/6/22
 location.2: 213, 2012/5/23
-photo.1: https://www.instagram.com/p/Bk-8gf1n5Vw/media/?size=m
+photo.1: ig://Bk-8gf1n5Vw/m
 photo.1.author: corinnepardey
 photo.1.commitdate: 2019/11/2
 photo.1.link: https://www.instagram.com/corinnepardey/
 photo.1.tags: portrait
-photo.2: https://www.instagram.com/p/BmRAmjFABLn/media/?size=m
+photo.2: ig://BmRAmjFABLn/m
 photo.2.author: highlandwpark
 photo.2.commitdate: 2019/11/2
 photo.2.link: https://www.instagram.com/highlandwpark/
 photo.2.tags: mother, paws, tree
-photo.3: https://www.instagram.com/p/Bs59mhrBzF0/media/?size=m
+photo.3: ig://Bs59mhrBzF0/m
 photo.3.author: bbateyphotography
 photo.3.commitdate: 2019/11/2
 photo.3.link: https://www.instagram.com/bbateyphotography/
 photo.3.tags: peek, techitechi, white face
-photo.4: https://www.instagram.com/p/BzVL_X_A_z1/media/?size=m
+photo.4: ig://BzVL_X_A_z1/m
 photo.4.author: alysonhouston
 photo.4.commitdate: 2019/11/2
 photo.4.link: https://www.instagram.com/alysonhouston/
@@ -37,17 +37,17 @@ photo.5.author: Cathie Louise Burgess
 photo.5.commitdate: 2019/11/1
 photo.5.link: https://www.facebook.com/media/set/?set=p.10219237543468572&type=3
 photo.5.tags: mother
-photo.6: https://www.instagram.com/p/Bz1I2mlAw5y/media/?size=m
+photo.6: ig://Bz1I2mlAw5y/m
 photo.6.author: hollie512
 photo.6.commitdate: 2019/11/2
 photo.6.link: https://www.instagram.com/hollie512/
 photo.6.tags: portrait, white face
-photo.7: https://www.instagram.com/p/B3RiRQAhAJV/media/?size=m
+photo.7: ig://B3RiRQAhAJV/m
 photo.7.author: v3rno50
 photo.7.commitdate: 2019/11/2
 photo.7.link: https://www.instagram.com/v3rno50/
 photo.7.tags: white face
-photo.8: https://www.instagram.com/p/B3j0X7JH_7_/media/?size=m
+photo.8: ig://B3j0X7JH_7_/m
 photo.8.author: siobhanpeace
 photo.8.commitdate: 2019/11/2
 photo.8.link: https://www.instagram.com/siobhanpeace/

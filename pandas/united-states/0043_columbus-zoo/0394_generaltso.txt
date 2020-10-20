@@ -15,22 +15,22 @@ language.order: en, jp
 litter: 493
 location.1: 84, 2013/6/22
 location.2: 43, 2014/6/5
-photo.1: https://www.instagram.com/p/BG84DY2ykEx/media/?size=m
+photo.1: ig://BG84DY2ykEx/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: smile, tongue
-photo.2: https://www.instagram.com/p/BnCCbdxDvnr/media/?size=m
+photo.2: ig://BnCCbdxDvnr/m
 photo.2.author: columbuszoo
 photo.2.commitdate: 2018/11/20
 photo.2.link: https://www.instagram.com/columbuszoo/
 photo.2.tags: profile
-photo.3: https://www.instagram.com/p/B1Mzk-tp1GD/media/?size=m
+photo.3: ig://B1Mzk-tp1GD/m
 photo.3.author: rossifari
 photo.3.commitdate: 2019/12/5
 photo.3.link: https://www.instagram.com/rossifari/
 photo.3.tags: portrait, tree, upside-down
-photo.4: https://www.instagram.com/p/CE1WO3YD-lS/media/?size=m
+photo.4: ig://CE1WO3YD-lS/m
 photo.4.author: rossifari
 photo.4.commitdate: 2020/9/15
 photo.4.link: https://www.instagram.com/rossifari/

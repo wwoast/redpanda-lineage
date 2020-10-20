@@ -9,11 +9,11 @@ language.order: en
 latitude: 36.1298984
 longitude: -79.8691369
 map: https://goo.gl/maps/8Ecg8V5hWMz
-photo.1: https://www.instagram.com/p/BVFZy4ml01_/media/?size=m
+photo.1: ig://BVFZy4ml01_/m
 photo.1.author: greensborosciencecenter
 photo.1.commitdate: 2020/8/9
 photo.1.link: https://www.instagram.com/greensborosciencecenter/
-photo.2: https://www.instagram.com/p/BtEfZIdAFj5/media/?size=m
+photo.2: ig://BtEfZIdAFj5/m
 photo.2.author: greensborosciencecenter
 photo.2.commitdate: 2020/8/9
 photo.2.link: https://www.instagram.com/greensborosciencecenter/

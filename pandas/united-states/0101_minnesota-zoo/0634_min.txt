@@ -17,12 +17,12 @@ language.order: en, jp
 litter: 635, 636
 location.1: 146, 2011/6/25
 location.2: 101, 2012/4/24
-photo.1: https://www.instagram.com/p/B5bZSJXhjOi/media/?size=m
+photo.1: ig://B5bZSJXhjOi/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/11/29
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down, portrait, profile, whiskers
-photo.2: https://www.instagram.com/p/BnwGDvUF69R/media/?size=m
+photo.2: ig://BnwGDvUF69R/m
 photo.2.author: worldthathesees
 photo.2.commitdate: 2020/1/17
 photo.2.link: https://www.instagram.com/worldthathesees/

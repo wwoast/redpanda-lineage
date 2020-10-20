@@ -15,223 +15,223 @@ language.order: en, jp
 litter: 862
 location.1: 177, 2018/6/25
 location.2: 47, 2019/5/15
-photo.1: https://www.instagram.com/p/By6cZwfn9Iq/media/?size=m
+photo.1: ig://By6cZwfn9Iq/m
 photo.1.author: hhpzoo
 photo.1.commitdate: 2019/6/20
 photo.1.link: https://www.instagram.com/hhpzoo/
 photo.1.tags: bamboo, white face
-photo.2: https://www.instagram.com/p/By_4wDFBDDi/media/?size=m
+photo.2: ig://By_4wDFBDDi/m
 photo.2.author: wumpwoast
 photo.2.commitdate: 2019/6/22
 photo.2.link: https://www.instagram.com/wumpwoast/
 photo.2.tags: white face
-photo.3: https://www.instagram.com/p/BzDV3pjhbMF/media/?size=m
+photo.3: ig://BzDV3pjhbMF/m
 photo.3.author: wumpwoast
 photo.3.commitdate: 2019/6/28
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: bamboo, bite, portrait
-photo.4: https://www.instagram.com/p/BzE4gMHBSQc/media/?size=m
+photo.4: ig://BzE4gMHBSQc/m
 photo.4.author: wumpwoast
 photo.4.commitdate: 2019/6/28
 photo.4.link: https://www.instagram.com/wumpwoast/
 photo.4.tags: portrait, smile, tongue
-photo.5: https://www.instagram.com/p/BzLdXTLBTHr/media/?size=m
+photo.5: ig://BzLdXTLBTHr/m
 photo.5.author: wumpwoast
 photo.5.commitdate: 2019/6/28
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.5.tags: bamboo, dish, mofumofu, tail, white face
-photo.6: https://www.instagram.com/p/Bzog42-BzEx/media/?size=m
+photo.6: ig://Bzog42-BzEx/m
 photo.6.author: wumpwoast
 photo.6.commitdate: 2019/7/9
 photo.6.link: https://www.instagram.com/wumpwoast/
 photo.6.tags: bamboo, white face
-photo.7: https://www.instagram.com/p/BzrvFilhv55/media/?size=m
+photo.7: ig://BzrvFilhv55/m
 photo.7.author: wumpwoast
 photo.7.commitdate: 2019/7/9
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: bamboo, door, white face
-photo.8: https://www.instagram.com/p/Bz2EaK-BbAr/media/?size=m
+photo.8: ig://Bz2EaK-BbAr/m
 photo.8.author: wumpwoast
 photo.8.commitdate: 2019/11/12
 photo.8.link: https://www.instagram.com/wumpwoast/
 photo.8.tags: portrait, white face
-photo.9: https://www.instagram.com/p/Bz9w8uWhJVA/media/?size=m
+photo.9: ig://Bz9w8uWhJVA/m
 photo.9.author: wumpwoast
 photo.9.commitdate: 2019/11/12
 photo.9.link: https://www.instagram.com/wumpwoast/
 photo.9.tags: paws, portrait, smile
-photo.10: https://www.instagram.com/p/B0fGUqbBwoz/media/?size=m
+photo.10: ig://B0fGUqbBwoz/m
 photo.10.author: wumpwoast
 photo.10.commitdate: 2019/7/30
 photo.10.link: https://www.instagram.com/wumpwoast/
 photo.10.tags: bamboo, mofumofu, portrait, tail
-photo.11: https://www.instagram.com/p/B1P6KqUgDKt/media/?size=m
+photo.11: ig://B1P6KqUgDKt/m
 photo.11.author: zookeeper_aj
 photo.11.commitdate: 2019/8/20
 photo.11.link: https://www.instagram.com/zookeeper_aj/
 photo.11.tags: laying down, paws, peek, tree
-photo.12: https://www.instagram.com/p/B2sYcN-ANTU/media/?size=m
+photo.12: ig://B2sYcN-ANTU/m
 photo.12.author: alyss_or_rose
 photo.12.commitdate: 2020/5/25
 photo.12.link: https://www.instagram.com/alyss_or_rose/
 photo.12.tags: lunch time, smile, toys
-photo.13: https://www.instagram.com/p/B3Vod77ICkQ/media/?size=m
+photo.13: ig://B3Vod77ICkQ/m
 photo.13.author: hhpzoo
 photo.13.commitdate: 2019/10/15
 photo.13.link: https://www.instagram.com/hhpzoo/
 photo.13.tags: portrait, tree
-photo.14: https://www.instagram.com/p/B4OcoxrhIEv/media/?size=m
+photo.14: ig://B4OcoxrhIEv/m
 photo.14.author: wumpwoast
 photo.14.commitdate: 2019/10/29
 photo.14.link: https://www.instagram.com/wumpwoast/
 photo.14.tags: pumpkin, white face
-photo.15: https://www.instagram.com/p/B4h3M0whyxW/media/?size=m
+photo.15: ig://B4h3M0whyxW/m
 photo.15.author: wumpwoast
 photo.15.commitdate: 2019/11/7
 photo.15.link: https://www.instagram.com/wumpwoast/
 photo.15.tags: peek, portrait, white face
-photo.16: https://www.instagram.com/p/B4qlFwyB6i0/media/?size=m
+photo.16: ig://B4qlFwyB6i0/m
 photo.16.author: wumpwoast
 photo.16.commitdate: 2019/11/12
 photo.16.link: https://www.instagram.com/wumpwoast/
 photo.16.tags: bamboo, peek, portrait, white face
-photo.17: https://www.instagram.com/p/B4wdGr_hWWN/media/?size=m
+photo.17: ig://B4wdGr_hWWN/m
 photo.17.author: wumpwoast
 photo.17.commitdate: 2019/11/17
 photo.17.link: https://www.instagram.com/wumpwoast/
 photo.17.tags: bamboo, paws, smile, standing
-photo.18: https://www.instagram.com/p/B5QxZSgBedO/media/?size=m
+photo.18: ig://B5QxZSgBedO/m
 photo.18.author: wumpwoast
 photo.18.commitdate: 2019/11/26
 photo.18.link: https://www.instagram.com/wumpwoast/
 photo.18.tags: portrait, profile, tree, whiskers, white face
-photo.19: https://www.instagram.com/p/B51x8ToB6RP/media/?size=m
+photo.19: ig://B51x8ToB6RP/m
 photo.19.author: wumpwoast
 photo.19.commitdate: 2019/12/16
 photo.19.link: https://www.instagram.com/wumpwoast/
 photo.19.tags: portrait, peek, white face
-photo.20: https://www.instagram.com/p/B87WyOaheUX/media/?size=m
+photo.20: ig://B87WyOaheUX/m
 photo.20.author: wumpwoast
 photo.20.commitdate: 2020/2/26
 photo.20.link: https://www.instagram.com/wumpwoast/
 photo.20.tags: portrait, white face
-photo.21: https://www.instagram.com/p/B89-uC5hg64/media/?size=m
+photo.21: ig://B89-uC5hg64/m
 photo.21.author: wumpwoast
 photo.21.commitdate: 2020/2/26
 photo.21.link: https://www.instagram.com/wumpwoast/
 photo.21.tags: bamboo, techitechi, white face
-photo.22: https://www.instagram.com/p/B9ax4Efh6nY/media/?size=m
+photo.22: ig://B9ax4Efh6nY/m
 photo.22.author: wumpwoast
 photo.22.commitdate: 2020/3/8
 photo.22.link: https://www.instagram.com/wumpwoast/
 photo.22.tags: portrait, white face
-photo.23: https://www.instagram.com/p/B9lCOvrhIaH/media/?size=m
+photo.23: ig://B9lCOvrhIaH/m
 photo.23.author: carsontheredpanda
 photo.23.commitdate: 2020/3/12
 photo.23.link: https://www.instagram.com/carsontheredpanda/
 photo.23.tags: peek, white face
-photo.24: https://www.instagram.com/p/B97-ugVBysH/media/?size=m
+photo.24: ig://B97-ugVBysH/m
 photo.24.author: wumpwoast
 photo.24.commitdate: 2020/3/26
 photo.24.link: https://www.instagram.com/wumpwoast/
 photo.24.tags: laying down, portrait, tail
-photo.25: https://www.instagram.com/p/B9973eoBoie/media/?size=m
+photo.25: ig://B9973eoBoie/m
 photo.25.author: wumpwoast
 photo.25.commitdate: 2020/3/26
 photo.25.link: https://www.instagram.com/wumpwoast/
 photo.25.tags: portrait, whiskers
-photo.26: https://www.instagram.com/p/B-Awj3wBD8D/media/?size=m
+photo.26: ig://B-Awj3wBD8D/m
 photo.26.author: wumpwoast
 photo.26.commitdate: 2020/3/26
 photo.26.link: https://www.instagram.com/wumpwoast/
 photo.26.tags: bamboo, portrait, standing, white face
-photo.27: https://www.instagram.com/p/B-ERr2lBanx/media/?size=m
+photo.27: ig://B-ERr2lBanx/m
 photo.27.author: wumpwoast
 photo.27.commitdate: 2020/3/26
 photo.27.link: https://www.instagram.com/wumpwoast/
 photo.27.tags: flowers, portrait, smile, whiskers
-photo.28: https://www.instagram.com/p/B-FPA6pHVTP/media/?size=m
+photo.28: ig://B-FPA6pHVTP/m
 photo.28.author: hhpzoo
 photo.28.commitdate: 2020/3/24
 photo.28.link: https://www.instagram.com/hhpzoo/
 photo.28.tags: laying down, peek, portrait, tree, white face
-photo.29: https://www.instagram.com/p/B-djoC-jBRy/media/?size=m
+photo.29: ig://B-djoC-jBRy/m
 photo.29.author: alyss_or_rose
 photo.29.commitdate: 2020/5/25
 photo.29.link: https://www.instagram.com/alyss_or_rose/
 photo.29.tags: paws, tree, videolink, white face
-photo.30: https://www.instagram.com/p/B_OxXTQHGhq/media/?size=m
+photo.30: ig://B_OxXTQHGhq/m
 photo.30.author: wumpwoast
 photo.30.commitdate: 2020/4/27
 photo.30.link: https://www.instagram.com/wumpwoast/
 photo.30.tags: laying down, tail, toys
-photo.31: https://www.instagram.com/p/B_iognWnbKJ/media/?size=m
+photo.31: ig://B_iognWnbKJ/m
 photo.31.auhtor: hhpzoo
 photo.31.author: wumpwoast
 photo.31.commitdate: 2020/5/1
 photo.31.link: https://www.instagram.com/wumpwoast/
 photo.31.tags: bamboo, bite, portrait, smile, tongue
-photo.32: https://www.instagram.com/p/B_28yrOgRrD/media/?size=m
+photo.32: ig://B_28yrOgRrD/m
 photo.32.author: djjohnbeaver
 photo.32.commitdate: 2020/5/11
 photo.32.link: https://www.instagram.com/djjohnbeaver/
 photo.32.tags: bamboo, paws, smile, tail, tongue, tree, white face
-photo.33: https://www.instagram.com/p/CAODD_ApJhC/media/?size=m
+photo.33: ig://CAODD_ApJhC/m
 photo.33.author: hhpzoo
 photo.33.commitdate: 2020/5/17
 photo.33.link: https://www.instagram.com/hhpzoo/
 photo.33.tags: bamboo, paws, tail, tree
-photo.34: https://www.instagram.com/p/CBOjCloBU9n/media/?size=m
+photo.34: ig://CBOjCloBU9n/m
 photo.34.author: wumpwoast
 photo.34.commitdate: 2020/6/10
 photo.34.link: https://www.instagram.com/wumpwoast/
 photo.34.tags: laying down, portrait, sleeping, white face
-photo.35: https://www.instagram.com/p/CBV_ZK-Brk0/media/?size=m
+photo.35: ig://CBV_ZK-Brk0/m
 photo.35.author: wumpwoast
 photo.35.commitdate: 2020/6/15
 photo.35.link: https://www.instagram.com/wumpwoast/
 photo.35.tags: laying down, portrait, white face
-photo.36: https://www.instagram.com/p/CB3TZ3nAXww/media/?size=m
+photo.36: ig://CB3TZ3nAXww/m
 photo.36.author: hhpzoo
 photo.36.commitdate: 2020/6/27
 photo.36.link: https://www.instagram.com/hhpzoo/
 photo.36.tags: white face
-photo.37: https://www.instagram.com/p/CB3fuRcDRnp/media/?size=m
+photo.37: ig://CB3fuRcDRnp/m
 photo.37.author: hhpzoo
 photo.37.commitdate: 2020/6/27
 photo.37.link: https://www.instagram.com/hhpzoo/
 photo.37.tags: dish, paws, portrait
-photo.38: https://www.instagram.com/p/CB3k5oqh15k/media/?size=m
+photo.38: ig://CB3k5oqh15k/m
 photo.38.author: wumpwoast
 photo.38.commitdate: 2020/6/27
 photo.38.link: https://www.instagram.com/wumpwoast/
 photo.38.tags: bamboo, paws, portrait
-photo.39: https://www.instagram.com/p/CCRMmNvDvlY/media/?size=m
+photo.39: ig://CCRMmNvDvlY/m
 photo.39.author: hhpzoo
 photo.39.commitdate: 2020/7/12
 photo.39.link: https://www.instagram.com/hhpzoo/
 photo.39.tags: laying down, peek, portrait, tree, white face
-photo.40: https://www.instagram.com/p/CDjXgGPgYlO/media/?size=m
+photo.40: ig://CDjXgGPgYlO/m
 photo.40.author: djjohnbeaver
 photo.40.commitdate: 2020/8/13
 photo.40.link: https://www.instagram.com/djjohnbeaver/
 photo.40.tags: close-up, nose, whiskers
-photo.41: https://www.instagram.com/p/CEK2NYMDmuW/media/?size=m
+photo.41: ig://CEK2NYMDmuW/m
 photo.41.author: hhpzoo
 photo.41.commitdate: 2020/8/23
 photo.41.link: https://www.instagram.com/hhpzoo/
 photo.41.tags: bamboo, videolink, wite face
-photo.42: https://www.instagram.com/p/CEPfCHIDuBf/media/?size=m
+photo.42: ig://CEPfCHIDuBf/m
 photo.42.author: hhpzoo
 photo.42.commitdate: 2020/8/28
 photo.42.link: https://www.instagram.com/hhpzoo/
 photo.42.tags: bamboo, paws, portrait, videolink
-photo.43: https://www.instagram.com/p/CFU6HNyjQgE/media/?size=m
+photo.43: ig://CFU6HNyjQgE/m
 photo.43.author: hhpzoo
 photo.43.commitdate: 2020/9/24
 photo.43.link: https://www.instagram.com/hhpzoo/
 photo.43.tags: portrait, white face
-photo.44: https://www.instagram.com/p/CFVFXWChgtM/media/?size=m
+photo.44: ig://CFVFXWChgtM/m
 photo.44.author: wumpwoast
 photo.44.commitdate: 2020/9/20
 photo.44.link: https://www.instagram.com/wumpwoast/

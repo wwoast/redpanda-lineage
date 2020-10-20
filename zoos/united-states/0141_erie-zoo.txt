@@ -9,7 +9,7 @@ language.order: en
 latitude: 42.0972671
 longitude: -80.0826931
 map: https://goo.gl/maps/2JCNCyxMFZ32
-photo.1: https://www.instagram.com/p/BmlR3j3gkft/media/?size=m
+photo.1: ig://BmlR3j3gkft/m
 photo.1.author: warlent
 photo.1.commitdate: 2019/9/22
 photo.1.link: https://www.instagram.com/warlent/
