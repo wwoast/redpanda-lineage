@@ -1236,7 +1236,7 @@ Gallery.url = {};
 
 Gallery.url.api = {};
 
-Gallery.url.api.instagram = "EAAFSoIVAmQsBANhJ9ahzsZChwsDVclOZBowpEChGFSMZCLrE3guhTkMblGK3KXcSrEZA2Shrw4kywpbzuhWzAUvRhHxMKf8qelt5uVu27KEiKELG9H45hz5qzwz2U1lPalsYfXmBuLYIOIZCZBaEt4jlZASZCpgU0hcDzOf6ZBZCvQoKEY0PXXH8ZByTwZBDa8l8Q2oVjvjJxWmqZBKF4DmSI9Jec";
+Gallery.url.api.instagram = "EAAFSoIVAmQsBAJsNvhzNXgsn7kIGrH9MyKMUKHt9xhEzj8JK2P21cjmPZAqVGgCXByO80CZB6Dzr6ZBawDgD0q7JA7gYlj9EfS9VsusdBzpDK1nzuseZAXmB34Pe1psctZAhuTBlQB7ggcxBOkYZBXKkCZB2yFAGn2BiITcZCXednMTh5u89Orbkzi2YcyauiZBYN1aV22SmJ5oZCMv4ska2Vy";
 
 // Store uris and paths from the fetch
 Gallery.url.events = {};
@@ -1296,7 +1296,6 @@ Gallery.url.process = function(image, uri) {
     image.src = Pandas.def.animal["photo.1"];   // Default image
   }
 }
-
 
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
