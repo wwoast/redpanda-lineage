@@ -1190,7 +1190,7 @@ Gallery.url = {};
 
 Gallery.url.api = {};
 
-Gallery.url.api.instagram = "EAAFSoIVAmQsBAGHmMi5wMn1gVIAwqZBvAdNMXemQJyQwdqYIptlUeh76OQ4wq5zRMBLa2nJLSSTCVbfWoVUtWhgxKeZBOp71awZAmKWxymDJ5jZC52cObhZCr9f2RAVvnFZBysTOf5OUueWddkMw6XIyeGapK48ayWGA2gZCZBzOLjJWF4WMATQJZCtEiZA55G8wGDQsCMPJMKMgZDZD";
+Gallery.url.api.instagram = "372324360558859|10549c086b903c4295c7c8d809365e56";
 
 // Store uris and paths from the fetch
 Gallery.url.events = {};
