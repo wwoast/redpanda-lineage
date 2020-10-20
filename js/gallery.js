@@ -1254,7 +1254,8 @@ Gallery.url.instagram = function(image, input_uri) {
     ig_width = uri_split.pop();
     ig_locator = uri_split.pop();
   } else {
-    return Pandas.def.animal["photo.1"];   // Default image
+    image.src = Pandas.def.animal["photo.1"];   // Default image
+    return;
   }
   // t/m/l were the old IG url sizes, and keep using them
   if (ig_width == "l") {
@@ -1279,11 +1280,11 @@ Gallery.url.instagram = function(image, input_uri) {
       var jsonResponse = ig_request.response;
       Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
       window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+    } else {
+      image.src = Pandas.def.animal["photo.1"];   // Default image
     }
   }
   ig_request.send();
-  // Replace this when ready
-  return Pandas.def.animal["photo.1"];   // Default image
 }
 
 // Support a colorful cast of formats for getting underlying image hrefs
