@@ -1264,16 +1264,16 @@ Gallery.url.instagram = function(image, input_uri) {
   var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
   var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
   var ig_request = new XMLHttpRequest();
-  ig_request.open('GET', ig_template);
+  ig_request.open('GET', ig_template, true);
   ig_request.responseType = 'json';
-  ig_request.send();
   ig_request.onload = function() {
     if (ig_request.status == 200) {
-      var responseJson = JSON.parse(req.responseText);
-      Gallery.url.paths[ig_locator] = responseJson.thumbnail_url;
+      var jsonResponse = ig_request.response;
+      Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
       window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
     }
   }
+  ig_request.send();
   // Replace this when ready
   return Pandas.def.animal["photo.1"];   // Default image
 }
