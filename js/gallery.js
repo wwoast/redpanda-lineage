@@ -1268,7 +1268,7 @@ Gallery.url.instagram = function(image, input_uri) {
   ig_request.responseType = 'json';
   ig_request.send();
   ig_request.onload = function() {
-    Gallery.url.paths[ig_locator] = request.response.thumbnail_url;
+    Gallery.url.paths[ig_locator] = ig_request.response.thumbnail_url;
     window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
   }
   // Replace this when ready
