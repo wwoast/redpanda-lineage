@@ -51,11 +51,11 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
     image.src = this.fallback_url;
   } else if (id.indexOf("_") != -1) {
     // HACK: passing carousel id from touch handlers
-    image.src = url;
+    Gallery.url.process(image, url);
     image.id = id + "/photo/" + index;
     image.className = id + "/photo";
   } else {
-    image.src = url;
+    Gallery.url.process(image, url);
     image.id = this.unique + "_" + id + "/photo/" + index;   // For carousel
     image.className = this.unique + "_" + id + "/photo";
   }
@@ -65,12 +65,9 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
   div.appendChild(image);
   // Preload the next and previous images to avoid double-reflow problems
   if (this.element_class == "pandaPhoto") {
-    var preloads = this.displayPhotoPreload(id, index);
+    var preloads = this.displayPhotoPreload();
     for (var preload of preloads) {
-      var pre_img = document.createElement('img');
-      pre_img.className = "pandaPhoto preload";
-      pre_img.src = preload;
-      div.appendChild(pre_img);
+      div.appendChild(preload);
     }
   }
   // Return the new div
@@ -131,27 +128,32 @@ Gallery.G.displayPhotoNavigation = function() {
 // Preload one photo ahead, and one photo behind, into the page without displaying them. 
 // This makes it so that only a single page reflow occurs when navigating images.
 Gallery.G.displayPhotoPreload = function() {
-  var imgs = [];
   var default_photo = Pandas.def.animal["photo.1"];
   var prev_photo = "photo." + (parseInt(this.index) - 1).toString();
+  var prev_img = document.createElement('img');
+  prev_img.className = "pandaPhoto preload";
   var next_photo = "photo." + (parseInt(this.index) + 1).toString();
+  var next_img = document.createElement('img');
+  next_img.className = "pandaPhoto preload";
   var count = this.photoCount();
   var last_photo = "photo." + count.toString();
   var entity = this.photoEntity();
   if (Pandas.field(entity, prev_photo, this.carousel_type) != default_photo) {
-    imgs.push(entity[prev_photo]);
+    Gallery.url.process(prev_img, entity[prev_photo]);
   } else {
-    imgs.push(entity[last_photo]);  // Before first item is the last photo in the list
+    Gallery.url.process(prev_img, entity[last_photo]);  // Before first item is the last photo in the list
   }
   if (Pandas.field(entity, next_photo, this.carousel_type) != default_photo) {
-    imgs.push(entity[next_photo]);
+    Gallery.url.process(next_img, entity[next_photo]);
   } else {
-    imgs.push(entity["photo.1"]);  // After last item is back to the first
+    Gallery.url.process(next_img, entity["photo.1"]);  // After last item is back to the first
   }
   // If any of the photos we tried to preload are undefined, remove them from the preload list
-  return imgs.filter(function(element) {
-    return element !== undefined;
+  var imgs = [prev_img, next_img];
+  imgs = imgs.filter(function(element) {
+    return element.src !== Pandas.def.animal["photo.1"];
   });
+  return imgs;
 }
 
 // Utility function to get the current number of photos.
@@ -1287,11 +1289,11 @@ Gallery.url.instagram = function(image, input_uri) {
 // Support a colorful cast of formats for getting underlying image hrefs
 Gallery.url.process = function(image, input_uri) {
   if (input.indexOf("http") == 0) {
-    return input_uri;   // Put that in an image frame
+    image.src = input_uri;
   } else if (input.indexOf("ig") == 0) {
-    return Gallery.url.instagram(image, input_uri);
+    Gallery.url.instagram(image, input_uri);
   } else {
-    return Pandas.def.animal["photo.1"];   // Default image
+    image.src = Pandas.def.animal["photo.1"];   // Default image
   }
 }
 
