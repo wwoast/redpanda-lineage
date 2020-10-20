@@ -1254,6 +1254,12 @@ Gallery.url.instagram = function(image, input_uri) {
   } else {
     return Pandas.def.animal["photo.1"];   // Default image
   }
+  // t/m/l were the old IG url sizes, and keep using them
+  if (ig_width == "l") {
+    ig_width = "640";
+  } else {
+    ig_width = "320";
+  }
   // Set an event listener to update the image, using the IG image locator
   // as a unique locator for the path and event
   Gallery.url.events[ig_locator] = new Event(ig_locator);
