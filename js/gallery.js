@@ -250,11 +250,9 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   var new_container = this.displayPhoto(new_choice, carousel_id, new_index.toString());
   var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
-  // photo.src = new_photo.src;
-  // photo.id = new_photo.id;
-  // photo.className = new_photo.className;
-  // TEST: why not just set photo to new_photo?
-  photo = new_photo;
+  photo.src = new_photo.src;
+  photo.id = new_photo.id;
+  photo.className = new_photo.className;
   Touch.addSwipeHandler(new_photo, T.processPhoto);
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
