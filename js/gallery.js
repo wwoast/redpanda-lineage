@@ -1268,8 +1268,11 @@ Gallery.url.instagram = function(image, input_uri) {
   ig_request.responseType = 'json';
   ig_request.send();
   ig_request.onload = function() {
-    Gallery.url.paths[ig_locator] = ig_request.response.thumbnail_url;
-    window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+    if (ig_request.status == 200) {
+      var responseJson = JSON.parse(req.responseText);
+      Gallery.url.paths[ig_locator] = responseJson.thumbnail_url;
+      window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+    }
   }
   // Replace this when ready
   return Pandas.def.animal["photo.1"];   // Default image
