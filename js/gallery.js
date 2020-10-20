@@ -51,25 +51,25 @@ Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=th
     image.src = this.fallback_url;
   } else if (id.indexOf("_") != -1) {
     // HACK: passing carousel id from touch handlers
-    Gallery.url.process(image, url);
     image.id = id + "/photo/" + index;
     image.className = id + "/photo";
-  } else {
     Gallery.url.process(image, url);
+  } else {
     image.id = this.unique + "_" + id + "/photo/" + index;   // For carousel
     image.className = this.unique + "_" + id + "/photo";
+    Gallery.url.process(image, url);
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
   var div = document.createElement('div');
   div.className = this.element_class;
   div.appendChild(image);
   // Preload the next and previous images to avoid double-reflow problems
-  //if (this.element_class == "pandaPhoto") {
-  //  var preloads = this.displayPhotoPreload();
-  //  for (var preload of preloads) {
-  //    div.appendChild(preload);
-  //  }
-  //}
+  if (this.element_class == "pandaPhoto") {
+    var preloads = this.displayPhotoPreload();
+    for (var preload of preloads) {
+      div.appendChild(preload);
+    }
+  }
   // Return the new div
   Touch.addSwipeHandler(image, T.processPhoto);
   return div;
@@ -250,9 +250,11 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   var new_container = this.displayPhoto(new_choice, carousel_id, new_index.toString());
   var new_photo = new_container.childNodes[0];
   // Update existing photo element with info from the frame we switched to
-  photo.src = new_photo.src;
-  photo.id = new_photo.id;
-  photo.className = new_photo.className;
+  // photo.src = new_photo.src;
+  // photo.id = new_photo.id;
+  // photo.className = new_photo.className;
+  // TEST: why not just set photo to new_photo?
+  photo = new_photo;
   Touch.addSwipeHandler(new_photo, T.processPhoto);
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
@@ -1267,6 +1269,8 @@ Gallery.url.instagram = function(image, input_uri) {
   // as a unique locator for the path and event
   Gallery.url.events[ig_locator] = new Event(ig_locator);
   window.addEventListener(ig_locator, function() {
+    // TODO: doesn't work when displayPhoto is called from the photoSwap
+    // function. Probably because the earlier image tag doesn't exist anymore
     image.src = Gallery.url.paths[ig_locator];
   });
   if (ig_locator in Gallery.url.paths) {
