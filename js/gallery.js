@@ -1287,11 +1287,11 @@ Gallery.url.instagram = function(image, input_uri) {
 }
 
 // Support a colorful cast of formats for getting underlying image hrefs
-Gallery.url.process = function(image, input_uri) {
-  if (input.indexOf("http") == 0) {
-    image.src = input_uri;
-  } else if (input.indexOf("ig") == 0) {
-    Gallery.url.instagram(image, input_uri);
+Gallery.url.process = function(image, uri) {
+  if (uri.indexOf("http") == 0) {
+    image.src = uri;
+  } else if (uri.indexOf("ig") == 0) {
+    Gallery.url.instagram(image, uri);
   } else {
     image.src = Pandas.def.animal["photo.1"];   // Default image
   }
