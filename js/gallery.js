@@ -41,6 +41,7 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // Gallery instance has a single photo frame that we attach event handlers to
   // for loading images from random sources
   gallery.image = document.createElement('img');
+  this.displayPhoto();   // Load the desired photo
   return gallery;
 }
 
@@ -62,9 +63,6 @@ Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this
     Gallery.url.process(image, url);
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
-  var div = document.createElement('div');
-  div.className = this.element_class;
-  div.appendChild(image);
   // Preload the next and previous images to avoid double-reflow problems
   if (this.element_class == "pandaPhoto") {
     var preloads = this.displayPhotoPreload();
@@ -74,7 +72,6 @@ Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this
   }
   // Return the new div
   Touch.addSwipeHandler(image, T.processPhoto);
-  return div;
 }
 
 // The hover over or swipe menu for photo navigation
@@ -252,8 +249,9 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   // TODO: we can't move event listeners :( photo needs to consume src changes for
   // when we swap photos and do an IG image load. So display_photo needs to take
   // an existing image tag in as an option, instead of creating a new one.
-  var new_container = this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
-  var new_photo = new_container.childNodes[0];
+  // Update displayed photo
+  this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
+  // TODO: need to swap preloads here possibly too.
   // Update existing photo element with info from the frame we switched to
   photo.src = new_photo.src;
   photo.id = new_photo.id;
