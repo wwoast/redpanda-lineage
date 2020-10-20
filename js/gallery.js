@@ -238,17 +238,9 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   }
   var chosen = "photo." + new_index.toString();
   var new_choice = photo_manifest[chosen];
-  // TODO: we can't move event listeners :( photo needs to consume src changes for
-  // when we swap photos and do an IG image load. So display_photo needs to take
-  // an existing image tag in as an option, instead of creating a new one.
   // Update displayed photo
   this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
-  // TODO: need to swap preloads here possibly too.
-  // Update existing photo element with info from the frame we switched to
-  photo.src = new_photo.src;
-  photo.id = new_photo.id;
-  photo.className = new_photo.className;
-  Touch.addSwipeHandler(new_photo, T.processPhoto);
+  // Touch.addSwipeHandler(new_photo, T.processPhoto);
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
   this.singlePhotoCredit(photo_info, photo_id, new_index);
