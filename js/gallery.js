@@ -41,6 +41,7 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // Gallery instance has a single photo frame that we attach event handlers to
   // for loading images from random sources
   gallery.image = document.createElement('img');
+  Touch.addSwipeHandler(gallery.image, T.processPhoto);
   return gallery;
 }
 
@@ -62,8 +63,6 @@ Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this
     Gallery.url.process(image, url);
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
-  // Return the new div
-  Touch.addSwipeHandler(image, T.processPhoto);
 }
 
 // The hover over or swipe menu for photo navigation
@@ -240,7 +239,6 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   var new_choice = photo_manifest[chosen];
   // Update displayed photo
   this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
-  // Touch.addSwipeHandler(new_photo, T.processPhoto);
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
   this.singlePhotoCredit(photo_info, photo_id, new_index);
