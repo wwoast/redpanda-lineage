@@ -704,6 +704,9 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
   return generic_div;  
 }
 
+// Given an instagram-format URI ig://<shortcode>/<size>, return
+// the correct GET request that can also fetch
+
 // Give it manual-compiled lists of animals who died recently
 // Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, message_function) {
@@ -1224,6 +1227,65 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   // If somehow we didn't exhaust the entire possible set of photos already
   return output_photos;
 }
+
+// Take a gallery photo. If it's a special URL format, process it into a final
+// photo URI.
+Gallery.url = {};
+
+Gallery.url.api = {};
+
+Gallery.url.api.instagram = "EAAFSoIVAmQsBANhJ9ahzsZChwsDVclOZBowpEChGFSMZCLrE3guhTkMblGK3KXcSrEZA2Shrw4kywpbzuhWzAUvRhHxMKf8qelt5uVu27KEiKELG9H45hz5qzwz2U1lPalsYfXmBuLYIOIZCZBaEt4jlZASZCpgU0hcDzOf6ZBZCvQoKEY0PXXH8ZByTwZBDa8l8Q2oVjvjJxWmqZBKF4DmSI9Jec";
+
+// Store uris and paths from the fetch
+Gallery.url.events = {};
+Gallery.url.paths = {};
+
+// Get the thumbnail uri from Instagram.
+Gallery.url.instagram = function(image, input_uri) {
+  var uri_split = input_uri.split("/");
+  var ig_locator = undefined;
+  var ig_width = undefined;
+  if (uri_split.length == 3) {
+    ig_locator = uri_split.pop();
+    ig_width = "320";
+  } else if (uri_split.length == 4) {
+    ig_width = uri_split.pop();
+    ig_locator = uri_split.pop();
+  } else {
+    return Pandas.def.animal["photo.1"];   // Default image
+  }
+  // Set an event listener to update the image, using the IG image locator
+  // as a unique locator for the path and event
+  Gallery.url.events[ig_locator] = new Event(ig_locator);
+  window.addEventListener(ig_locator, function() {
+    image.href = Gallery.url.paths[ig_locator];
+  });
+  // Try and fetch the details to update the image
+  var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
+  var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+  var ig_request = new XMLHttpRequest();
+  ig_request.open('GET', ig_template);
+  ig_request.responseType = 'json';
+  ig_request.send();
+  ig_request.onload = function() {
+    Gallery.url.paths[ig_locator] = request.response.thumbnail_url;
+    window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+  }
+  // Replace this when ready
+  return Pandas.def.animal["photo.1"];   // Default image
+}
+
+// Support a colorful cast of formats for getting underlying image hrefs
+Gallery.url.process = function(image, input_uri) {
+  if (input.indexOf("http") == 0) {
+    return input_uri;   // Put that in an image frame
+  } else if (input.indexOf("ig") == 0) {
+    return Gallery.url.instagram(image, input_uri);
+  } else {
+    return Pandas.def.animal["photo.1"];   // Default image
+  }
+}
+
 
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
