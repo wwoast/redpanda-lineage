@@ -62,13 +62,6 @@ Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this
     Gallery.url.process(image, url);
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
-  // Preload the next and previous images to avoid double-reflow problems
-  if (this.element_class == "pandaPhoto") {
-    var preloads = this.displayPhotoPreload();
-    for (var preload of preloads) {
-      div.appendChild(preload);
-    }
-  }
   // Return the new div
   Touch.addSwipeHandler(image, T.processPhoto);
 }
