@@ -1266,7 +1266,7 @@ Gallery.url.instagram = function(image, input_uri) {
   // as a unique locator for the path and event
   Gallery.url.events[ig_locator] = new Event(ig_locator);
   window.addEventListener(ig_locator, function() {
-    image.href = Gallery.url.paths[ig_locator];
+    image.src = Gallery.url.paths[ig_locator];
   });
   // Try and fetch the details to update the image
   var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
