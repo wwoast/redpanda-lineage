@@ -1270,21 +1270,25 @@ Gallery.url.instagram = function(image, input_uri) {
     image.src = Gallery.url.paths[ig_locator];
   });
   // Try and fetch the details to update the image
-  var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
-  var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
-  var ig_request = new XMLHttpRequest();
-  ig_request.open('GET', ig_template, true);
-  ig_request.responseType = 'json';
-  ig_request.onload = function() {
-    if (ig_request.status == 200) {
-      var jsonResponse = ig_request.response;
-      Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
-      window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
-    } else {
-      image.src = Pandas.def.animal["photo.1"];   // Default image
+  if (Gallery.url.paths[ig_locator].indexOf("https") == 0) {
+    image.src = Gallery.url.paths[ig_locator];
+  } else {
+    var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
+    var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+    var ig_request = new XMLHttpRequest();
+    ig_request.open('GET', ig_template, true);
+    ig_request.responseType = 'json';
+    ig_request.onload = function() {
+      if (ig_request.status == 200) {
+        var jsonResponse = ig_request.response;
+        Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
+        window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+      } else {
+        image.src = Pandas.def.animal["photo.1"];   // Default image
+      }
     }
+    ig_request.send();
   }
-  ig_request.send();
 }
 
 // Support a colorful cast of formats for getting underlying image hrefs
