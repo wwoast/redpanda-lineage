@@ -259,9 +259,10 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   var clickable_photo = document.createElement('a');
   clickable_photo.target = "_blank";
   if (chosen_photo != Pandas.def.animal["photo.1"]) {   // No link if no photo defined
-    clickable_photo.href = chosen_photo["photo"].replace("media/?size=m", "");   // Instagram hack
+    clickable_photo.href = Gallery.url.href(chosen_photo["photo"]);
   } 
   var image = document.createElement('img');
+  // TODO: Gallery.url.process tweaking.
   image.src = chosen_photo["photo"];
   clickable_photo.appendChild(image);
   container.appendChild(clickable_photo);
@@ -340,14 +341,13 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      // TODO: Gallery.url.process tweaking.
       img.src = photo["photo"];
       img.src = img.src.replace('/?size=l', '/?size=m');
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
@@ -568,10 +568,12 @@ Gallery.groupPhotosIntersectPage = function(page, id_list, photo_count) {
 Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // TOWRITE: image styles based on url being medium or large
   var img_link = document.createElement('a');
+  // TODO: Gallery.url.process tweaking. Need just the url
   img_link.href = url;
   img_link.href = img_link.href.replace("/media/?size=m", "/");
   img_link.href = img_link.href.replace("/media/?size=l", "/");
   var img = document.createElement('img');
+  // TODO: Gallery.url.process tweaking
   img.src = url;
   img_link.appendChild(img);
   // Names of the group photos
@@ -597,6 +599,7 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // Put it all in a frame
   var container = document.createElement('div');
   container.className = "photoSample";
+  // TODO: Gallery.url.process link logic change
   if ((url.indexOf("?size=l") != -1) && 
       (url.indexOf("instagram.com") != -1)) {
     container.classList.add("halfPage");
@@ -634,14 +637,13 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      // TODO: Gallery.url.process tweaking
       img.src = photo["photo"];
       img.src = img.src.replace('/?size=l', '/?size=m');
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
@@ -660,9 +662,6 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
   return generic_div;  
 }
 
-// Given an instagram-format URI ig://<shortcode>/<size>, return
-// the correct GET request that can also fetch
-
 // Give it manual-compiled lists of animals who died recently
 // Return a div with the exact desired output.
 Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, message_function) {
@@ -678,14 +677,13 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      // TODO: Gallery.url.process tweaking
       img.src = photo["photo"];
       img.src = img.src.replace('/?size=l', '/?size=m');
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
@@ -728,17 +726,15 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_
   photos = Pandas.shuffle(photos);
   for (let photo of Pandas.randomChoice(photos, photo_count)) {
     var img_link = document.createElement('a');
-    // Link to the original instagram media
     img_link.href = "#group/" + id_link_string;
     var img = document.createElement('img');
+    // TODO: Gallery.url.process tweaking
     img.src = photo["photo"];
     img.src = img.src.replace('/?size=l', '/?size=m');
     img_link.appendChild(img);
     // Link to the original instagram media
     var caption_link = document.createElement('a');
-    caption_link.href = photo["photo.link"];
-    caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-    caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+    caption_link.href = Gallery.url.href(photo["photo.link"]);
     caption_link.target = "_blank";   // Open in new tab
     var caption = document.createElement('h5');
     caption.className = "caption memorialMessage";
@@ -782,11 +778,10 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   var img_link = document.createElement('a');
   var id = item.id;
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  // TODO: Gallery.url.process tweaking
   img.src = photo;
   img.src = img.src.replace('/?size=m', '/?size=t');
   img.src = img.src.replace('/?size=l', '/?size=t');
@@ -917,11 +912,10 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   var photo = result["photo"];
   var img_link = document.createElement('a');
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  // TODO: Gallery.url.process tweaking
   img.src = photo;
   img.src = img.src.replace('/?size=m', '/?size=t');
   img.src = img.src.replace('/?size=l', '/?size=t');
@@ -970,11 +964,10 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
     var photo = item.photo;
     var img_link = document.createElement('a');
     // Link to the original instagram media
-    img_link.href = photo;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
+    img_link.href = Gallery.url.href(photo);
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
+    // TODO: Gallery.url.process tweaking
     img.src = photo;
     img.src = img.src.replace('/?size=m', '/?size=t');
     img.src = img.src.replace('/?size=l', '/?size=t');
@@ -1221,8 +1214,7 @@ Gallery.url.instagram = function(image, input_uri) {
   // as a unique locator for the path and event
   Gallery.url.events[ig_locator] = new Event(ig_locator);
   window.addEventListener(ig_locator, function() {
-    // TODO: doesn't work when displayPhoto is called from the photoSwap
-    // function. Probably because the earlier image tag doesn't exist anymore
+    // Second-stage. Fetch the image using the thumbnail_url
     image.src = Gallery.url.paths[ig_locator];
   });
   if (ig_locator in Gallery.url.paths) {
@@ -1239,7 +1231,8 @@ Gallery.url.instagram = function(image, input_uri) {
       if (ig_request.status == 200) {
         var jsonResponse = ig_request.response;
         Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
-        window.dispatchEvent(Gallery.url.events[ig_locator]);   // Report the data has loaded
+        // Report the data has loaded
+        window.dispatchEvent(Gallery.url.events[ig_locator]);
       } else {
         image.src = Pandas.def.animal["photo.1"];   // Default image
       }
@@ -1248,7 +1241,20 @@ Gallery.url.instagram = function(image, input_uri) {
   }
 }
 
-// Support a colorful cast of formats for getting underlying image hrefs
+// Unroll various custom link formats into things that work as href
+Gallery.url.href = function(uri) {
+  if (uri.indexOf("http") == 0) {
+    return uri;
+  } else if (uri.indexOf("ig") == 0) {
+    var ig_locator = uri.split("/")[3];
+    return `https://www.instagram.com/p/${ig_locator}`;
+  } else {
+    return Pandas.def.animal["photo.1"];
+  }
+}
+
+// Support a colorful cast of formats for getting underlying image hrefs.
+// The <img> element is processed and eventually its src is updated
 Gallery.url.process = function(image, uri) {
   if (uri.indexOf("http") == 0) {
     image.src = uri;
@@ -1285,11 +1291,10 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var entity = Pandas.searchZooId(id)[0];
   var info = Show.acquireZooInfo(entity, L.display);
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  // TODO: Gallery.url.process tweaking
   img.src = photo;
   img.src = img.src.replace('/?size=m', '/?size=t');
   img.src = img.src.replace('/?size=l', '/?size=t');
@@ -1456,15 +1461,14 @@ Gallery.special.mothersday.render = function() {
     var message = photo_info["photo." + counter + ".message"][L.display];
     // Create the image frame
     var img_link = document.createElement('a');
-    img_link.href = source;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
+    img_link.href = Gallery.url.href(source);
     var img = document.createElement('img');
-    // Instagram size change logic
+    // Instagram size change logic. TODO: change m/l before calling method
+    // TODO: Gallery.url.process tweaking.
     img.src = source;
-    if (format == "large") {
-      img.src = img.src.replace("/media/?size=m", "/media/?size=l");
-    }
+    // if (format == "large") {
+    //   img.src = img.src.replace("/media/?size=m", "/media/?size=l");
+    // }
     img_link.appendChild(img);
     // Create the message caption
     var caption_message = document.createElement('a');
