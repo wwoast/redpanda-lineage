@@ -262,8 +262,8 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     clickable_photo.href = Gallery.url.href(chosen_photo["photo"]);
   } 
   var image = document.createElement('img');
-  // TODO: Gallery.url.process tweaking.
-  image.src = chosen_photo["photo"];
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(image, chosen_photo["photo"]);
   clickable_photo.appendChild(image);
   container.appendChild(clickable_photo);
   // Family name caption
@@ -341,9 +341,8 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      // TODO: Gallery.url.process tweaking.
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
@@ -568,13 +567,10 @@ Gallery.groupPhotosIntersectPage = function(page, id_list, photo_count) {
 Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // TOWRITE: image styles based on url being medium or large
   var img_link = document.createElement('a');
-  // TODO: Gallery.url.process tweaking. Need just the url
-  img_link.href = url;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(url);
   var img = document.createElement('img');
-  // TODO: Gallery.url.process tweaking
-  img.src = url;
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, url);
   img_link.appendChild(img);
   // Names of the group photos
   var caption_names = document.createElement('h5');
@@ -599,14 +595,13 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // Put it all in a frame
   var container = document.createElement('div');
   container.className = "photoSample";
-  // TODO: Gallery.url.process link logic change
-  if ((url.indexOf("?size=l") != -1) && 
-      (url.indexOf("instagram.com") != -1)) {
+  if ((url.indexOf("/l") == url.length - 2) && 
+      (url.indexOf("ig://") == 0)) {
     container.classList.add("halfPage");
-  } else if ((url.indexOf("?size=m") != -1) &&
-              (url.indexOf("instagram.com") != -1)) {
+  } else if ((url.indexOf("/m") == url.length - 2) &&
+              (url.indexOf("ig://") == 0)) {
     container.classList.add("quarterPage");
-  } else if (url.indexOf("instagram.com") == -1) {
+  } else if (url.indexOf("ig://") == -1) {
     container.classList.add("fullPage");   // self-hosted images
   } else {
     container.classList.add("quarterPage");
@@ -637,9 +632,8 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      // TODO: Gallery.url.process tweaking
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
@@ -677,9 +671,8 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      // TODO: Gallery.url.process tweaking
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
@@ -728,9 +721,8 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_
     var img_link = document.createElement('a');
     img_link.href = "#group/" + id_link_string;
     var img = document.createElement('img');
-    // TODO: Gallery.url.process tweaking
-    img.src = photo["photo"];
-    img.src = img.src.replace('/?size=l', '/?size=m');
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo["photo"]);
     img_link.appendChild(img);
     // Link to the original instagram media
     var caption_link = document.createElement('a');
@@ -781,10 +773,8 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  // TODO: Gallery.url.process tweaking
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   // TODO: better handling of group photos
@@ -915,10 +905,8 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  // TODO: Gallery.url.process tweaking
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   // TODO: better handling of group photos
@@ -967,10 +955,8 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
     img_link.href = Gallery.url.href(photo);
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
-    // TODO: Gallery.url.process tweaking
-    img.src = photo;
-    img.src = img.src.replace('/?size=m', '/?size=t');
-    img.src = img.src.replace('/?size=l', '/?size=t');
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo);
     img_link.appendChild(img);
     var caption_link = document.createElement('a');
     // TODO: better handling of group photos
@@ -1294,10 +1280,8 @@ Gallery.zooPhotoCreditSingle = function(item) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  // TODO: Gallery.url.process tweaking
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   caption_link.href = "#zoo/" + id + "/photo/" + index;
@@ -1463,12 +1447,11 @@ Gallery.special.mothersday.render = function() {
     var img_link = document.createElement('a');
     img_link.href = Gallery.url.href(source);
     var img = document.createElement('img');
-    // Instagram size change logic. TODO: change m/l before calling method
-    // TODO: Gallery.url.process tweaking.
-    img.src = source;
-    // if (format == "large") {
-    //   img.src = img.src.replace("/media/?size=m", "/media/?size=l");
-    // }
+    // Instagram size change
+    if (format == "large") {
+      source = source.replace(/\/m$/, "/l");
+    }
+    Gallery.url.process(img, source);
     img_link.appendChild(img);
     // Create the message caption
     var caption_message = document.createElement('a');
