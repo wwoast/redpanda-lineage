@@ -16,12 +16,12 @@ litter: 505
 location.1: 114, 2008/6/19
 location.2: 123, 2009/4/27
 location.3: 163, 2014/11/24
-photo.1: https://www.instagram.com/p/BqQ0cPRB_xh/media/?size=m
+photo.1: ig://BqQ0cPRB_xh/m
 photo.1.author: jiayue_2015
 photo.1.commitdate: 2019/4/3
 photo.1.link: https://www.instagram.com/jiayue_2015/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/Bnvs6kNnImq/media/?size=m
+photo.2: ig://Bnvs6kNnImq/m
 photo.2.author: mauravarisco
 photo.2.commitdate: 2019/7/15
 photo.2.link: https://www.instagram.com/mauravarisco/

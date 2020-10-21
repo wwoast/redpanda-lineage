@@ -12,11 +12,11 @@ language.order: jp, en
 latitude: 35.2587801
 longitude: 138.8076475
 map: https://goo.gl/maps/PLj4TTrSWVN2
-photo.1: https://www.instagram.com/p/BdXoC6Pnrlt/media/?size=m
+photo.1: ig://BdXoC6Pnrlt/m
 photo.1.author: fuji_safari
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/fuji_safari/
-photo.2: https://www.instagram.com/p/B5Zriquh37z/media/?size=m
+photo.2: ig://B5Zriquh37z/m
 photo.2.author: fuji_safari
 photo.2.commitdate: 2020/1/14
 photo.2.link: https://www.instagram.com/fuji_safari/

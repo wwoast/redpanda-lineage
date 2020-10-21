@@ -18,32 +18,32 @@ language.order: cn, en, jp
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-photo.1: https://www.instagram.com/p/BzlBG2in8Nc/media/?size=m
+photo.1: ig://BzlBG2in8Nc/m
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/10
 photo.1.link: https://www.instagram.com/redpanda_tata/
 photo.1.tags: bamboo, eye, paws, portrait, profile
-photo.2: https://www.instagram.com/p/Bze04_tDTTa/media/?size=m
+photo.2: ig://Bze04_tDTTa/m
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
 photo.2.link: https://www.instagram.com/redpanda_tata/
 photo.2.tags: paws, portrait, tail
-photo.3: https://www.instagram.com/p/BzaSdqzH-jc/media/?size=m
+photo.3: ig://BzaSdqzH-jc/m
 photo.3.author: redpanda_tata
 photo.3.commitdate: 2019/7/10
 photo.3.link: https://www.instagram.com/redpanda_tata/
 photo.3.tags: nose, paws
-photo.4: https://www.instagram.com/p/B0OGIwFBCbn/media/?size=m
+photo.4: ig://B0OGIwFBCbn/m
 photo.4.author: redpanda_tata
 photo.4.commitdate: 2019/7/22
 photo.4.link: https://www.instagram.com/redpanda_tata/
 photo.4.tags: mofumofu, portrait
-photo.5: https://www.instagram.com/p/B393s8tBZLg/media/?size=m
+photo.5: ig://B393s8tBZLg/m
 photo.5.author: redpanda_tata
 photo.5.commitdate: 2019/10/25
 photo.5.link: https://www.instagram.com/redpanda_tata/
 photo.5.tags: keeper, paws
-photo.6: https://www.instagram.com/p/B9j763MhBB_/media/?size=m
+photo.6: ig://B9j763MhBB_/m
 photo.6.author: redpanda_tata
 photo.6.commitdate: 2020/3/12
 photo.6.link: https://www.instagram.com/redpanda_tata/

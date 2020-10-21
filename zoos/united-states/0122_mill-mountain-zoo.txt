@@ -9,7 +9,7 @@ language.order: en
 latitude: 37.2516404
 longitude: -79.9579239
 map: https://goo.gl/maps/npzDkr2388w
-photo.1: https://www.instagram.com/p/BmJogyJg4bf/media/?size=m
+photo.1: ig://BmJogyJg4bf/m
 photo.1.author: millmountainzoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/millmountainzoo/

@@ -12,7 +12,7 @@ language.order: jp, en
 latitude: 35.6710531
 longitude: 139.8562134
 map: https://goo.gl/maps/tDgbZr73HuQ2
-photo.1: https://www.instagram.com/p/Bpg_qSOFhT7/media/?size=m
+photo.1: ig://Bpg_qSOFhT7/m
 photo.1.author: shirokuma_jump
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/shirokuma_jump/

@@ -12,7 +12,7 @@ language.order: jp, en
 latitude: 35.9885019
 longitude: 134.5754522
 map: https://goo.gl/maps/AiYMttHQEdA2
-photo.1: https://www.instagram.com/p/Bnvxk_wFklP/media/?size=m
+photo.1: ig://Bnvxk_wFklP/m
 photo.1.author: kipekaila
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/kipekaila/

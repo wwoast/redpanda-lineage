@@ -12,7 +12,7 @@ language.order: jp, en
 latitude: 38.245601
 longitude: 140.8446113
 map: https://goo.gl/maps/S4dSPcsEcH62
-photo.1: https://www.instagram.com/p/BUN1bxyDizx/media/?size=m
+photo.1: ig://BUN1bxyDizx/m
 photo.1.author: zakujapan
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/zakujapan/

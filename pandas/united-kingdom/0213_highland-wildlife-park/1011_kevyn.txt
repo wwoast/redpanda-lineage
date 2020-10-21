@@ -12,17 +12,17 @@ language.order: en
 litter: unknown
 location.1: 184, 2011/7/14
 location.2: 213, 2012/7/24
-photo.1: https://www.instagram.com/p/BhYmQCAjZVD/media/?size=m
+photo.1: ig://BhYmQCAjZVD/m
 photo.1.author: jbhague
 photo.1.commitdate: 2019/11/2
 photo.1.link: https://www.instagram.com/jbhague/
 photo.1.tags: portrait
-photo.2: https://www.instagram.com/p/Bv1SjuNAOdI/media/?size=m
+photo.2: ig://Bv1SjuNAOdI/m
 photo.2.author: bbateyphotography
 photo.2.commitdate: 2019/11/2
 photo.2.link: https://www.instagram.com/bbateyphotography/
 photo.2.tags: paws, tree
-photo.3: https://www.instagram.com/p/B2phw_2H2fT/media/?size=m
+photo.3: ig://B2phw_2H2fT/m
 photo.3.author: photos_by_ciara_
 photo.3.commitdate: 2019/11/2
 photo.3.link: https://www.instagram.com/photos_by_ciara_/
@@ -32,7 +32,7 @@ photo.4.author: Jan Morse
 photo.4.commitdate: 2019/11/1
 photo.4.link: https://twitter.com/HighlandWPark
 photo.4.tags: birthday, cute
-photo.5: https://www.instagram.com/p/BzdD_ZKl5oz/media/?size=m
+photo.5: ig://BzdD_ZKl5oz/m
 photo.5.author: arronebden
 photo.5.commitdate: 2019/11/2
 photo.5.link: https://www.instagram.com/arronebden/

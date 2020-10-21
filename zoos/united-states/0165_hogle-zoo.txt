@@ -9,7 +9,7 @@ language.order: en
 latitude: 40.7501811
 longitude: -111.8162915
 map: https://goo.gl/maps/6rWGbpuKQap
-photo.1: https://www.instagram.com/p/BpHVqCPlRng/media/?size=m
+photo.1: ig://BpHVqCPlRng/m
 photo.1.author: mrs_r_mags
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/mrs_r_mags/

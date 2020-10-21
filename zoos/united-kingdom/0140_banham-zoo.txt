@@ -9,7 +9,7 @@ language.order: en
 latitude: 52.4503116
 longitude: 0.9828977
 map: https://goo.gl/maps/NUqMsUxC9u42
-photo.1: https://www.instagram.com/p/BqE35zHgIkV/media/?size=m
+photo.1: ig://BqE35zHgIkV/m
 photo.1.author: zseabanhamzoo
 photo.1.commitdate: 2019/7/15
 photo.1.link: https://www.instagram.com/zseabanhamzoo/

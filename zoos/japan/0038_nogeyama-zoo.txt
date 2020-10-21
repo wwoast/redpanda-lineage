@@ -12,11 +12,11 @@ language.order: jp, en
 latitude: 35.4472864
 longitude: 139.6205233
 map: https://goo.gl/maps/TbqkYpePr5P2
-photo.1: https://www.instagram.com/p/BJphz90B8rd/media/?size=m
+photo.1: ig://BJphz90B8rd/m
 photo.1.author: aqua_vanilla
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/aqua_vanilla/
-photo.2: https://www.instagram.com/p/B64qT3gBWMe/media/?size=m
+photo.2: ig://B64qT3gBWMe/m
 photo.2.author: kipekaila
 photo.2.commitdate: 2020/1/11
 photo.2.link: https://www.instagram.com/kipekaila/

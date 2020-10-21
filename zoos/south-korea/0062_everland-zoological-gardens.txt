@@ -13,12 +13,12 @@ language.order: kr, en
 latitude: 37.2939146
 longitude: 127.2003777
 map: https://goo.gl/maps/e4tvYMRSY7z
-photo.1: https://www.instagram.com/p/BpbxspAhJ8J/media/?size=m
+photo.1: ig://BpbxspAhJ8J/m
 photo.1.author: minvlely_sh31
 photo.1.commitdate: 2019/8/16
 photo.1.link: https://www.instagram.com/minvlely_sh31/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/Bvg-OZpAleh/media/?size=m
+photo.2: ig://Bvg-OZpAleh/m
 photo.2.author: ayoung.seraphina
 photo.2.commitdate: 2019/8/26
 photo.2.link: https://www.instagram.com/ayoung.seraphina/

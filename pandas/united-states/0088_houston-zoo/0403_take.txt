@@ -15,32 +15,32 @@ language.order: en, jp
 litter: 399, 402
 location.1: 83, 2009/6/11
 location.2: 88, 2010/5/26
-photo.1: https://www.instagram.com/p/BkiurCRn2_H/media/?size=m
+photo.1: ig://BkiurCRn2_H/m
 photo.1.author: zentrandi
 photo.1.commitdate: 2018/12/6
 photo.1.link: https://www.instagram.com/zentrandi/
 photo.1.tags: tree
-photo.2: https://www.instagram.com/p/BzoIpUXB8yz/media/?size=m
+photo.2: ig://BzoIpUXB8yz/m
 photo.2.author: worldthathesees
 photo.2.commitdate: 2019/7/9
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: portrait, profile
-photo.3: https://www.instagram.com/p/B5aQW9Phlde/media/?size=m
+photo.3: ig://B5aQW9Phlde/m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2019/11/29
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: bamboo, portrait
-photo.4: https://www.instagram.com/p/B5dZ6GkBCUy/media/?size=m
+photo.4: ig://B5dZ6GkBCUy/m
 photo.4.author: worldthathesees
 photo.4.commitdate: 2019/11/29
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: portrait, smile
-photo.5: https://www.instagram.com/p/B6FOj6ZJBHb/media/?size=m
+photo.5: ig://B6FOj6ZJBHb/m
 photo.5.author: ruiyan29
 photo.5.commitdate: 2020/2/29
 photo.5.link: https://www.instagram.com/ruiyan29/
 photo.5.tags: laying down, portrait, tail
-photo.6: https://www.instagram.com/p/CEcJMfhli4R/media/?size=m
+photo.6: ig://CEcJMfhli4R/m
 photo.6.author: houstonzoo
 photo.6.commitdate: 2020/9/4
 photo.6.link: https://www.instagram.com/houstonzoo/

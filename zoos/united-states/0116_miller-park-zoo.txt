@@ -9,11 +9,11 @@ language.order: en
 latitude: 40.4696537
 longitude: -89.0115789
 map: https://goo.gl/maps/k6zARq4schp
-photo.1: https://www.instagram.com/p/BLE33KTgYIT/media/?size=m
+photo.1: ig://BLE33KTgYIT/m
 photo.1.author: eilshermer
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/elishermer/
-photo.2: https://www.instagram.com/p/BgNNzvSgcli/media/?size=m
+photo.2: ig://BgNNzvSgcli/m
 photo.2.author: kdesmet_photography
 photo.2.commitdate: 2020/3/15
 photo.2.link: https://www.instagram.com/kdesmet_photography/

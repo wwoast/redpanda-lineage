@@ -15,7 +15,7 @@ language.order: cn, jp, en
 latitude: 29.5035617
 longitude: 106.5037493
 map: https://goo.gl/maps/rsck5UV8B552
-photo.1: https://www.instagram.com/p/Bq-FcXjAyNF/media/?size=m
+photo.1: ig://Bq-FcXjAyNF/m
 photo.1.author: alise_tifentale
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/alise_tifentale/

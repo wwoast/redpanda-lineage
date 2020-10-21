@@ -15,7 +15,7 @@ language.order: cn, jp, en
 latitude: 31.1902231
 longitude: 121.3590564
 map: https://goo.gl/maps/XGNrUzCRqB42
-photo.1: https://www.instagram.com/p/BiV8tnsFkdj/media/?size=m
+photo.1: ig://BiV8tnsFkdj/m
 photo.1.author: c_yulu_x
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/c_yulu_x/

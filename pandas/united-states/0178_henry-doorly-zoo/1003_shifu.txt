@@ -17,11 +17,11 @@ litter: 1004, 1005
 location.1: 114, 2009/6/29
 location.2: 187, 2010/4/22
 location.3: 178, 2017/11/20
-photo.1: https://www.instagram.com/p/BT9ybNyFv-W/media/?size=m
+photo.1: ig://BT9ybNyFv-W/m
 photo.1.author: bhamzoo
 photo.1.commitdate: 2019/10/27
 photo.1.link: https://www.instagram.com/bhamzoo/
-photo.2: https://www.instagram.com/p/2CAwS1Ctch/media/?size=m
+photo.2: ig://2CAwS1Ctch/m
 photo.2.author: bhamzoo
 photo.2.commitdate: 2019/10/27
 photo.2.link: https://www.instagram.com/bhamzoo/

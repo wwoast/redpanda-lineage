@@ -16,12 +16,12 @@ litter: 813
 location.1: 121, 2015/6/18
 location.2: 141, 2016/5/5
 location.3: 154, 2018/11/1
-photo.1: https://www.instagram.com/p/BmH9wBiADzt/media/?size=m
+photo.1: ig://BmH9wBiADzt/m
 photo.1.author: cohen_alex
 photo.1.commitdate: 2019/9/22
 photo.1.link: https://www.instagram.com/cohen_alex/
 photo.1.tags: profile, smile
-photo.2: https://www.instagram.com/p/CFP5cY5Jc3m/media/?size=m
+photo.2: ig://CFP5cY5Jc3m/m
 photo.2.author: syracusezoo
 photo.2.commitdate: 2020/10/11
 photo.2.link: https://www.instagram.com/syracusezoo/

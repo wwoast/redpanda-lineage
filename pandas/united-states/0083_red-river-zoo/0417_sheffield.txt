@@ -15,7 +15,7 @@ language.order: en, jp
 litter: 416
 location.1: 87, 2016/6/24
 location.2: 83, 2018/8/1
-photo.1: https://www.instagram.com/p/BIYDwW3gJOZ/media/?size=m
+photo.1: ig://BIYDwW3gJOZ/m
 photo.1.author: lincolnparkzoo
 photo.1.commitdate: 2019/5/19
 photo.1.link: https://www.instagram.com/lincolnparkzoo/
@@ -54,12 +54,12 @@ photo.8.author: worldthathesees
 photo.8.commitdate: 2019/5/17
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: air tasting, dish, tongue
-photo.9: https://www.instagram.com/p/BpH67XjnfJx/media/?size=m
+photo.9: ig://BpH67XjnfJx/m
 photo.9.author: gummysquee
 photo.9.commitdate: 2020/2/3
 photo.9.link: https://www.instagram.com/gummysquee/
 photo.9.tags: portrait, tail, tree
-photo.10: https://www.instagram.com/p/BkjaZG3AlmZ/media/?size=m
+photo.10: ig://BkjaZG3AlmZ/m
 photo.10.author: do_it_meow_
 photo.10.commitdate: 2020/2/3
 photo.10.link: https://www.instagram.com/do_it_meow_/

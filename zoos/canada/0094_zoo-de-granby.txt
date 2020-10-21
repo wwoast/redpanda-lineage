@@ -12,11 +12,11 @@ language.order: fr, en
 latitude: 45.4197484
 longitude: -72.7230226
 map: https://goo.gl/maps/E9eNEDvNPj72
-photo.1: https://www.instagram.com/p/BQQXyhuDWV6/media/?size=m
+photo.1: ig://BQQXyhuDWV6/m
 photo.1.author: zoodegranbyofficiel
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/zoodegranbyofficiel/
-photo.2: https://www.instagram.com/p/Bx7w_uLnyyv/media/?size=m
+photo.2: ig://Bx7w_uLnyyv/m
 photo.2.author: eliam2013
 photo.2.commitdate: 2020/2/16
 photo.2.link: https://www.instagram.com/eliam2013/

@@ -9,11 +9,11 @@ language.order: en
 latitude: 41.9211024
 longitude: -87.6509837
 map: https://goo.gl/maps/HadVPFE1zaq
-photo.1: https://www.instagram.com/p/BT5R0oGhH7M/media/?size=m
+photo.1: ig://BT5R0oGhH7M/m
 photo.1.author: cristina_chernysh
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/cristina_chernysh/
-photo.2: https://www.instagram.com/p/BiIOOkkBrkd/media/?size=m
+photo.2: ig://BiIOOkkBrkd/m
 photo.2.author: lincolnparkzoo
 photo.2.commitdate: 2019/5/18
 photo.2.link: https://www.instagram.com/lincolnparkzoo/

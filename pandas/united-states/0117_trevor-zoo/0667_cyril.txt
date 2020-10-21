@@ -17,32 +17,32 @@ location.1: 118, 2001/7/9
 location.2: 122, 2002/3/13
 location.3: 154, 2003/11/4
 location.4: 117, 2011/10/31
-photo.1: https://www.instagram.com/p/tqvKnXykBd/media/?size=m
+photo.1: ig://tqvKnXykBd/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/3/22
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: portrait, profile, smile, tongue
-photo.2: https://www.instagram.com/p/BnkMdHNBQBJ/media/?size=m
+photo.2: ig://BnkMdHNBQBJ/m
 photo.2.author: trevorzoomillbrook
 photo.2.commitdate: 2019/4/1
 photo.2.link: https://www.instagram.com/trevorzoomillbrook/
 photo.2.tags: portrait
-photo.3: https://www.instagram.com/p/Bnw9h2ohxPq/media/?size=m
+photo.3: ig://Bnw9h2ohxPq/m
 photo.3.author: trevorzoomillbrook
 photo.3.commitdate: 2019/4/1
 photo.3.link: https://www.instagram.com/trevorzoomillbrook/
 photo.3.tags: portrait, smile, tongue
-photo.4: https://www.instagram.com/p/CCo1KTpAV1F/media/?size=m
+photo.4: ig://CCo1KTpAV1F/m
 photo.4.author: trevorzoomillbrook
 photo.4.commitdate: 2020/7/16
 photo.4.link: https://www.instagram.com/trevorzoomillbrook/
 photo.4.tags: portrait, whiskers
-photo.5: https://www.instagram.com/p/CFP_ftGgMxY/media/?size=m
+photo.5: ig://CFP_ftGgMxY/m
 photo.5.author: trevorzoomillbrook
 photo.5.commitdate: 2020/9/24
 photo.5.link: https://www.instagram.com/trevorzoomillbrook/
 photo.5.tags: doctor, portrait, tail
-photo.6: https://www.instagram.com/p/CGJJZAsg7R0/media/?size=m
+photo.6: ig://CGJJZAsg7R0/m
 photo.6.author: trevorzoomillbrook
 photo.6.commitdate: 2020/10/11
 photo.6.link: https://www.instagram.com/trevorzoomillbrook/

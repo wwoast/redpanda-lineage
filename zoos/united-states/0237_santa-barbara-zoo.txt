@@ -9,7 +9,7 @@ language.order: en
 latitude: 34.420408
 longitude: -119.6707314
 map: https://g.page/santa-barbara-zoo-santa-barbara
-photo.1: https://www.instagram.com/p/B-Fi417lyQy/media/?size=m
+photo.1: ig://B-Fi417lyQy/m
 photo.1.author: santabarbarazoo
 photo.1.commitdate: 2020/4/25
 photo.1.link: https://www.instagram.com/santabarbarazoo/

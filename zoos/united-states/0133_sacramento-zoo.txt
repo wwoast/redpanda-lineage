@@ -9,11 +9,11 @@ language.order: en
 latitude: 38.5533686
 longitude: -121.5146257
 map: https://goo.gl/maps/GEYwh3eaDRF2
-photo.1: https://www.instagram.com/p/Bvkn-ZlHR_6/media/?size=m
+photo.1: ig://Bvkn-ZlHR_6/m
 photo.1.author: sacramentozoo
 photo.1.commitdate: 2019/6/16
 photo.1.link: https://www.instagram.com/sacramentozoo/
-photo.2: https://www.instagram.com/p/zipFgxDC9N/media/?size=m
+photo.2: ig://zipFgxDC9N/m
 photo.2.author: sacramentozoo
 photo.2.commitdate: 2019/6/16
 photo.2.link: https://www.instagram.com/sacramentozoo/

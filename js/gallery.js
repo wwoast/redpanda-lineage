@@ -38,6 +38,10 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // output results for a page.
   gallery.unique = Math.random().toString(36).slice(2);
   gallery.fallback_url = fallback_url;
+  // Gallery instance has a single photo frame that we attach event handlers to
+  // for loading images from random sources
+  gallery.image = document.createElement('img');
+  Touch.addSwipeHandler(gallery.image, T.processPhoto);
   return gallery;
 }
 
@@ -45,37 +49,20 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
 // display a placeholder empty frame that takes up the same amount
 // of space on the page. Support using class variables by default, but
 // allow the photoSwap function to use unique parameters as it needs.
-Gallery.G.displayPhoto = function(url=this.info.photo, id=this.info.id, index=this.index) {
-  var image = document.createElement('img');
+Gallery.G.displayPhoto = function(image=this.image, url=this.info.photo, id=this.info.id, index=this.index) {
   if (url == undefined) {
     image.src = this.fallback_url;
   } else if (id.indexOf("_") != -1) {
     // HACK: passing carousel id from touch handlers
-    image.src = url;
     image.id = id + "/photo/" + index;
     image.className = id + "/photo";
+    Gallery.url.process(image, url);
   } else {
-    image.src = url;
     image.id = this.unique + "_" + id + "/photo/" + index;   // For carousel
     image.className = this.unique + "_" + id + "/photo";
+    Gallery.url.process(image, url);
   }
   image.onerror = "this.src='" + this.fallback_url + "'";
-  var div = document.createElement('div');
-  div.className = this.element_class;
-  div.appendChild(image);
-  // Preload the next and previous images to avoid double-reflow problems
-  if (this.element_class == "pandaPhoto") {
-    var preloads = this.displayPhotoPreload(id, index);
-    for (var preload of preloads) {
-      var pre_img = document.createElement('img');
-      pre_img.className = "pandaPhoto preload";
-      pre_img.src = preload;
-      div.appendChild(pre_img);
-    }
-  }
-  // Return the new div
-  Touch.addSwipeHandler(image, T.processPhoto);
-  return div;
 }
 
 // The hover over or swipe menu for photo navigation
@@ -128,32 +115,6 @@ Gallery.G.displayPhotoNavigation = function() {
   return span_link;
 }
   
-// Preload one photo ahead, and one photo behind, into the page without displaying them. 
-// This makes it so that only a single page reflow occurs when navigating images.
-Gallery.G.displayPhotoPreload = function() {
-  var imgs = [];
-  var default_photo = Pandas.def.animal["photo.1"];
-  var prev_photo = "photo." + (parseInt(this.index) - 1).toString();
-  var next_photo = "photo." + (parseInt(this.index) + 1).toString();
-  var count = this.photoCount();
-  var last_photo = "photo." + count.toString();
-  var entity = this.photoEntity();
-  if (Pandas.field(entity, prev_photo, this.carousel_type) != default_photo) {
-    imgs.push(entity[prev_photo]);
-  } else {
-    imgs.push(entity[last_photo]);  // Before first item is the last photo in the list
-  }
-  if (Pandas.field(entity, next_photo, this.carousel_type) != default_photo) {
-    imgs.push(entity[next_photo]);
-  } else {
-    imgs.push(entity["photo.1"]);  // After last item is back to the first
-  }
-  // If any of the photos we tried to preload are undefined, remove them from the preload list
-  return imgs.filter(function(element) {
-    return element !== undefined;
-  });
-}
-
 // Utility function to get the current number of photos.
 Gallery.G.photoCount = function() {
   var entity = this.photoEntity();
@@ -245,13 +206,8 @@ Gallery.G.photoSwap = function(photo, desired_index) {
   }
   var chosen = "photo." + new_index.toString();
   var new_choice = photo_manifest[chosen];
-  var new_container = this.displayPhoto(new_choice, carousel_id, new_index.toString());
-  var new_photo = new_container.childNodes[0];
-  // Update existing photo element with info from the frame we switched to
-  photo.src = new_photo.src;
-  photo.id = new_photo.id;
-  photo.className = new_photo.className;
-  Touch.addSwipeHandler(new_photo, T.processPhoto);
+  // Update displayed photo
+  this.displayPhoto(photo, new_choice, carousel_id, new_index.toString());
   var photo_info = Pandas.profilePhoto(entity, new_index, this.carousel_type);
   // Replace the animal credit info
   this.singlePhotoCredit(photo_info, photo_id, new_index);
@@ -303,10 +259,11 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
   var clickable_photo = document.createElement('a');
   clickable_photo.target = "_blank";
   if (chosen_photo != Pandas.def.animal["photo.1"]) {   // No link if no photo defined
-    clickable_photo.href = chosen_photo["photo"].replace("media/?size=m", "");   // Instagram hack
+    clickable_photo.href = Gallery.url.href(chosen_photo["photo"]);
   } 
   var image = document.createElement('img');
-  image.src = chosen_photo["photo"];
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(image, chosen_photo["photo"]);
   clickable_photo.appendChild(image);
   container.appendChild(clickable_photo);
   // Family name caption
@@ -384,14 +341,12 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption birthdayMessage";
@@ -612,11 +567,10 @@ Gallery.groupPhotosIntersectPage = function(page, id_list, photo_count) {
 Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // TOWRITE: image styles based on url being medium or large
   var img_link = document.createElement('a');
-  img_link.href = url;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(url);
   var img = document.createElement('img');
-  img.src = url;
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, url);
   img_link.appendChild(img);
   // Names of the group photos
   var caption_names = document.createElement('h5');
@@ -641,13 +595,13 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   // Put it all in a frame
   var container = document.createElement('div');
   container.className = "photoSample";
-  if ((url.indexOf("?size=l") != -1) && 
-      (url.indexOf("instagram.com") != -1)) {
+  if ((url.indexOf("/l") == url.length - 2) && 
+      (url.indexOf("ig://") == 0)) {
     container.classList.add("halfPage");
-  } else if ((url.indexOf("?size=m") != -1) &&
-              (url.indexOf("instagram.com") != -1)) {
+  } else if ((url.indexOf("/m") == url.length - 2) &&
+              (url.indexOf("ig://") == 0)) {
     container.classList.add("quarterPage");
-  } else if (url.indexOf("instagram.com") == -1) {
+  } else if (url.indexOf("ig://") == -1) {
     container.classList.add("fullPage");   // self-hosted images
   } else {
     container.classList.add("quarterPage");
@@ -678,14 +632,12 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
@@ -719,14 +671,12 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
-      img.src = photo["photo"];
-      img.src = img.src.replace('/?size=l', '/?size=m');
+      // Set the photo, even if it takes an extra XHR
+      Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
       // Link to the original instagram media
       var caption_link = document.createElement('a');
-      caption_link.href = photo["photo.link"];
-      caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-      caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+      caption_link.href = Gallery.url.href(photo["photo.link"]);
       caption_link.target = "_blank";   // Open in new tab
       var caption = document.createElement('h5');
       caption.className = "caption memorialMessage";
@@ -769,17 +719,14 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_
   photos = Pandas.shuffle(photos);
   for (let photo of Pandas.randomChoice(photos, photo_count)) {
     var img_link = document.createElement('a');
-    // Link to the original instagram media
     img_link.href = "#group/" + id_link_string;
     var img = document.createElement('img');
-    img.src = photo["photo"];
-    img.src = img.src.replace('/?size=l', '/?size=m');
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo["photo"]);
     img_link.appendChild(img);
     // Link to the original instagram media
     var caption_link = document.createElement('a');
-    caption_link.href = photo["photo.link"];
-    caption_link.href = caption_link.href.replace("/media/?size=m", "/");
-    caption_link.href = caption_link.href.replace("/media/?size=l", "/");
+    caption_link.href = Gallery.url.href(photo["photo.link"]);
     caption_link.target = "_blank";   // Open in new tab
     var caption = document.createElement('h5');
     caption.className = "caption memorialMessage";
@@ -823,14 +770,11 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   var img_link = document.createElement('a');
   var id = item.id;
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   // TODO: better handling of group photos
@@ -958,14 +902,11 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   var photo = result["photo"];
   var img_link = document.createElement('a');
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   // TODO: better handling of group photos
@@ -1011,14 +952,11 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
     var photo = item.photo;
     var img_link = document.createElement('a');
     // Link to the original instagram media
-    img_link.href = photo;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
+    img_link.href = Gallery.url.href(photo);
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
-    img.src = photo;
-    img.src = img.src.replace('/?size=m', '/?size=t');
-    img.src = img.src.replace('/?size=l', '/?size=t');
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo);
     img_link.appendChild(img);
     var caption_link = document.createElement('a');
     // TODO: better handling of group photos
@@ -1225,6 +1163,94 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
   return output_photos;
 }
 
+// Take a gallery photo. If it's a special URL format, process it into a final
+// photo URI.
+Gallery.url = {};
+
+Gallery.url.api = {};
+
+Gallery.url.api.instagram = "372324360558859|10549c086b903c4295c7c8d809365e56";
+
+// Store uris and paths from the fetch
+Gallery.url.events = {};
+Gallery.url.paths = {};
+
+// Get the thumbnail uri from Instagram.
+Gallery.url.instagram = function(image, input_uri) {
+  var uri_split = input_uri.split("/");
+  var ig_locator = undefined;
+  var ig_width = undefined;
+  if (uri_split.length == 3) {
+    ig_locator = uri_split.pop();
+    ig_width = "320";
+  } else if (uri_split.length == 4) {
+    ig_width = uri_split.pop();
+    ig_locator = uri_split.pop();
+  } else {
+    image.src = Pandas.def.animal["photo.1"];   // Default image
+    return;
+  }
+  // t/m/l were the old IG url sizes, and keep using them
+  if (ig_width == "l") {
+    ig_width = "640";
+  } else {
+    ig_width = "320";
+  }
+  // Set an event listener to update the image, using the IG image locator
+  // as a unique locator for the path and event
+  Gallery.url.events[ig_locator] = new Event(ig_locator);
+  window.addEventListener(ig_locator, function() {
+    // Second-stage. Fetch the image using the thumbnail_url
+    image.src = Gallery.url.paths[ig_locator];
+  });
+  if (ig_locator in Gallery.url.paths) {
+    // Do we already have the image details?
+    image.src = Gallery.url.paths[ig_locator];
+  } else {
+    // Try and fetch the details to update the image
+    var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
+    var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+    var ig_request = new XMLHttpRequest();
+    ig_request.open('GET', ig_template, true);
+    ig_request.responseType = 'json';
+    ig_request.onload = function() {
+      if (ig_request.status == 200) {
+        var jsonResponse = ig_request.response;
+        Gallery.url.paths[ig_locator] = jsonResponse.thumbnail_url;
+        // Report the data has loaded
+        window.dispatchEvent(Gallery.url.events[ig_locator]);
+      } else {
+        image.src = Pandas.def.animal["photo.1"];   // Default image
+      }
+    }
+    ig_request.send();
+  }
+}
+
+// Unroll various custom link formats into things that work as href
+Gallery.url.href = function(uri) {
+  if (uri.indexOf("http") == 0) {
+    return uri;
+  } else if (uri.indexOf("ig") == 0) {
+    var ig_locator = uri.split("/")[3];
+    return `https://www.instagram.com/p/${ig_locator}`;
+  } else {
+    return Pandas.def.animal["photo.1"];
+  }
+}
+
+// Support a colorful cast of formats for getting underlying image hrefs.
+// The <img> element is processed and eventually its src is updated
+Gallery.url.process = function(image, uri) {
+  if (uri.indexOf("http") == 0) {
+    image.src = uri;
+  } else if (uri.indexOf("ig") == 0) {
+    Gallery.url.instagram(image, uri);
+  } else {
+    image.src = Pandas.def.animal["photo.1"];   // Default image
+  }
+}
+
 // Take a zoo, and return the photo. Assumes that you have a match
 // that match the username that was searched. Used for making reports of all
 // the photos in the website contributed by a single author.
@@ -1251,14 +1277,11 @@ Gallery.zooPhotoCreditSingle = function(item) {
   var entity = Pandas.searchZooId(id)[0];
   var info = Show.acquireZooInfo(entity, L.display);
   // Link to the original instagram media
-  img_link.href = photo;
-  img_link.href = img_link.href.replace("/media/?size=m", "/");
-  img_link.href = img_link.href.replace("/media/?size=l", "/");
+  img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
-  img.src = photo;
-  img.src = img.src.replace('/?size=m', '/?size=t');
-  img.src = img.src.replace('/?size=l', '/?size=t');
+  // Set the photo, even if it takes an extra XHR
+  Gallery.url.process(img, photo);
   img_link.appendChild(img);
   var caption_link = document.createElement('a');
   caption_link.href = "#zoo/" + id + "/photo/" + index;
@@ -1422,15 +1445,13 @@ Gallery.special.mothersday.render = function() {
     var message = photo_info["photo." + counter + ".message"][L.display];
     // Create the image frame
     var img_link = document.createElement('a');
-    img_link.href = source;
-    img_link.href = img_link.href.replace("/media/?size=m", "/");
-    img_link.href = img_link.href.replace("/media/?size=l", "/");
+    img_link.href = Gallery.url.href(source);
     var img = document.createElement('img');
-    // Instagram size change logic
-    img.src = source;
+    // Instagram size change
     if (format == "large") {
-      img.src = img.src.replace("/media/?size=m", "/media/?size=l");
+      source = source.replace(/\/m$/, "/l");
     }
+    Gallery.url.process(img, source);
     img_link.appendChild(img);
     // Create the message caption
     var caption_message = document.createElement('a');

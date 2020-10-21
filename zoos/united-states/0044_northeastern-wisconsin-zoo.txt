@@ -10,7 +10,7 @@ language.order: en
 latitude: 44.6603441
 longitude: -88.0915213
 map: https://goo.gl/maps/Wi6pMXofB6w
-photo.1: https://www.instagram.com/p/BklGCq_gm13/media/?size=m
+photo.1: ig://BklGCq_gm13/m
 photo.1.author: newzoogb
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/newzoogb/

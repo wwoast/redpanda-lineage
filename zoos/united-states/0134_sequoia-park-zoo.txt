@@ -9,11 +9,11 @@ language.order: en
 latitude: 40.7776108
 longitude: -124.184071
 map: https://goo.gl/maps/ryf6GPWAwL12
-photo.1: https://www.instagram.com/p/8YprTfuW2z/media/?size=m
+photo.1: ig://8YprTfuW2z/m
 photo.1.author: sequoiaparkzoo
 photo.1.commitdate: 2019/6/19
 photo.1.link: https://www.instagram.com/sequoiaparkzoo/
-photo.2: https://www.instagram.com/p/-hkdfFOW0h/media/?size=m
+photo.2: ig://-hkdfFOW0h/m
 photo.2.author: sequoiaparkzoo
 photo.2.commitdate: 2019/6/19
 photo.2.link: https://www.instagram.com/sequoiaparkzoo/

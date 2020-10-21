@@ -18,7 +18,7 @@ litter: 321
 location.1: 9, 2005/6/23
 location.2: 83, 2007/2/21
 location.3: 67, 2014/11/20
-photo.1: https://www.instagram.com/p/BKB4Q30B1Ek/media/?size=m
+photo.1: ig://BKB4Q30B1Ek/m
 photo.1.author: carsontheredpanda
 photo.1.commitdate: 2019/9/9
 photo.1.link: https://www.instagram.com/carsontheredpanda/
@@ -27,27 +27,27 @@ photo.2: https://www.codaworry.com/images/rpf/yukiko-1-wpz.jpg
 photo.2.author: geroppa55
 photo.2.commitdate: 2019/4/9
 photo.2.link: https://geroppa55.exblog.jp/i9/
-photo.3: https://www.instagram.com/p/BkZSIjpFB9x/media/?size=m
+photo.3: ig://BkZSIjpFB9x/m
 photo.3.author: carsontheredpanda
 photo.3.commitdate: 2018/8/21
 photo.3.link: https://www.instagram.com/carsontheredpanda/
 photo.3.tags: profile
-photo.4: https://www.instagram.com/p/BwZuEuSlqEN/media/?size=m
+photo.4: ig://BwZuEuSlqEN/m
 photo.4.author: carsontheredpanda
 photo.4.commitdate: 2019/4/23
 photo.4.link: https://www.instagram.com/carsontheredpanda/
 photo.4.tags: paws
-photo.5: https://www.instagram.com/p/B9hJVRLpdC-/media/?size=m
+photo.5: ig://B9hJVRLpdC-/m
 photo.5.author: rossifari
 photo.5.commitdate: 2020/3/12
 photo.5.link: https://www.instagram.com/rossifari/
 photo.5.tags: paws
-photo.6: https://www.instagram.com/p/B-hjUGsjM3E/media/?size=m
+photo.6: ig://B-hjUGsjM3E/m
 photo.6.author: rossifari
 photo.6.commitdate: 2020/5/4
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: portrait, tongue
-photo.7: https://www.instagram.com/p/B_GvO4NhcKL/media/?size=m
+photo.7: ig://B_GvO4NhcKL/m
 photo.7.author: wumpwoast
 photo.7.commitdate: 2020/5/1
 photo.7.link: https://www.instagram.com/wumpwoast/

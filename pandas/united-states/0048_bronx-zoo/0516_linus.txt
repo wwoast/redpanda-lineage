@@ -15,12 +15,12 @@ language.order: en, jp
 litter: none
 location.1: 104, 2013/6/6
 location.2: 48, 2014/4/10
-photo.1: https://www.instagram.com/p/B0ow5cDJbga/media/?size=m
+photo.1: ig://B0ow5cDJbga/m
 photo.1.author: rossifari
 photo.1.commitdate: 2019/10/27
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: mofumofu, portrait, profile, tree, white face
-photo.2: https://www.instagram.com/p/CD3jJ6dAUsg/media/?size=m
+photo.2: ig://CD3jJ6dAUsg/m
 photo.2.author: rossifari
 photo.2.commitdate: 2020/9/14
 photo.2.link: https://www.instagram.com/rossifari/

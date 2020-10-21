@@ -9,7 +9,7 @@ language.order: en
 latitude: 37.7170341
 longitude: -97.4173157
 map: https://goo.gl/maps/Po7n3tMmfBx
-photo.1: https://www.instagram.com/p/CD4JOwZMRlE/media/?size=m
+photo.1: ig://CD4JOwZMRlE/m
 photo.1.author: sedgwickcountyzoo
 photo.1.commitdate: 2020/8/25
 photo.1.link: https://www.instagram.com/sedgwickcountyzoo/

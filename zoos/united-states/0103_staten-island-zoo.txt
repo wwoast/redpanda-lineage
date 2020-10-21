@@ -9,7 +9,7 @@ language.order: en
 latitude: 40.6233661
 longitude: -74.1232649
 map: https://goo.gl/maps/1C5zcVNgMV72
-photo.1: https://www.instagram.com/p/Bl8e0mzgITc/media/?size=m
+photo.1: ig://Bl8e0mzgITc/m
 photo.1.author: statenislandzoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/statenislandzoo/

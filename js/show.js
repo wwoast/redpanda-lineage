@@ -1637,16 +1637,20 @@ Show.profile.family = function(animal, language) {
 Show.profile.gallery = function(info) {
   // Show a carousel of photos for this animal
   var gallery = Gallery.init(info, 'animal');
-  var photo = gallery.displayPhoto();
+  gallery.displayPhoto();
+  var frame = document.createElement('div');
+  frame.className = "pandaPhoto";
+  var image = gallery.image;
   var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
+  frame.appendChild(image);
+  frame.appendChild(span);
+  frame.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
-  photo.addEventListener('mouseout', function() {
+  frame.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
-  return photo;
+  return frame;
 }
 Show.profile.menus = {};
 Show.profile.menus.bottom = function() {
@@ -2005,13 +2009,17 @@ Show.results.panda = function(animal, language) {
   // a few should be printed regardless (birthday / death)
   var info = Show.acquirePandaInfo(animal, language);
   var gallery = Gallery.init(info, 'animal');
-  var photo = gallery.displayPhoto();
+  gallery.displayPhoto();
+  var frame = document.createElement('div');
+  frame.className = "pandaPhoto";
+  var image = gallery.image;
   var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
+  frame.appendChild(image);
+  frame.appendChild(span);
+  frame.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
-  photo.addEventListener('mouseout', function() {
+  frame.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
   var title = Show.results.pandaName(info);
@@ -2024,7 +2032,7 @@ Show.results.panda = function(animal, language) {
   dossier.appendChild(family);
   var result = document.createElement('div');
   result.className = "pandaResult";
-  result.appendChild(photo);
+  result.appendChild(frame);
   result.appendChild(dossier);
   // Ensure theres's a search bar
   Show.results.searchBar();
@@ -2314,13 +2322,17 @@ Show.results.zoo = function(zoo, language) {
   // Display information for a zoo relevant to the red pandas
   var info = Show.acquireZooInfo(zoo, language);
   var gallery = Gallery.init(info, 'zoo', 'images/no-zoo.jpg');
-  var photo = gallery.displayPhoto();
+  gallery.displayPhoto();
+  var frame = document.createElement('div');
+  frame.className = "zooPhoto";
+  var image = gallery.image;
   var span = gallery.displayPhotoNavigation();
-  photo.appendChild(span);
-  photo.addEventListener('mouseover', function() {
+  frame.appendChild(image);
+  frame.appendChild(span);
+  frame.addEventListener('mouseover', function() {
     span.style.display = "block";
   });
-  photo.addEventListener('mouseout', function() {
+  frame.addEventListener('mouseout', function() {
     span.style.display = "none";
   });
   title = Show.zooTitle(info);
@@ -2333,7 +2345,7 @@ Show.results.zoo = function(zoo, language) {
   dossier.appendChild(counts);
   var result = document.createElement('div');
   result.className = "zooResult";
-  result.appendChild(photo);
+  result.appendChild(frame);
   result.appendChild(dossier);
   // Ensure theres's a search bar
   Show.results.searchBar();

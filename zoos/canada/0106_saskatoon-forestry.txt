@@ -9,7 +9,7 @@ language.order: en
 latitude: 52.1584862
 longitude: -106.6062401
 map: https://goo.gl/maps/1YnG95vKmtj
-photo.1: https://www.instagram.com/p/qu9VqANtg4/media/?size=m
+photo.1: ig://qu9VqANtg4/m
 photo.1.author: bettychuong
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/bettychuong/

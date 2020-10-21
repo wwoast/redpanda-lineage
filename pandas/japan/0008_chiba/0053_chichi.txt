@@ -16,12 +16,12 @@ language.order: jp, en
 litter: 220, 374
 location.1: 10, 2003/6/16
 location.2: 8, 2005/3/7
-photo.1: https://www.instagram.com/p/xBCRTBQfDd/media/?size=m
+photo.1: ig://xBCRTBQfDd/m
 photo.1.author: jwg13777
 photo.1.commitdate: 2018/7/19
 photo.1.link: https://www.instagram.com/jwg13777/
 photo.1.tags: apple time
-photo.2: https://www.instagram.com/p/yobqEmQfAO/media/?size=m
+photo.2: ig://yobqEmQfAO/m
 photo.2.author: jwg13777
 photo.2.commitdate: 2018/7/19
 photo.2.link: https://www.instagram.com/jwg13777/

@@ -12,11 +12,11 @@ language.order: jp, en
 latitude: 34.710002
 longitude: 135.2126901
 map: https://goo.gl/maps/8P5cFSjECns
-photo.1: https://www.instagram.com/p/BYhQfxIFWau/media/?size=m
+photo.1: ig://BYhQfxIFWau/m
 photo.1.author: nekochan_in_japan
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/nekochan_in_japan/
-photo.2: https://www.instagram.com/p/BfDaHwUFTFR/media/?size=m
+photo.2: ig://BfDaHwUFTFR/m
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/5/16
 photo.2.link: https://www.instagram.com/fetorus_mami/

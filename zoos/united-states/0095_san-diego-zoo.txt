@@ -12,7 +12,7 @@ language.order: en, jp
 latitude: 32.7353209
 longitude: -117.1665609
 map: https://goo.gl/maps/GMmgWVbWDn82
-photo.1: https://www.instagram.com/p/Bm_S4eRHHrL/media/?size=m
+photo.1: ig://Bm_S4eRHHrL/m
 photo.1.author: sandiegozoo
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/sandiegozoo/

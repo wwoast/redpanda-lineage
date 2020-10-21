@@ -17,12 +17,12 @@ litter: 526
 location.1: 120, 2011/7/5
 location.2: 114, 2012/5/17
 location.3: 160, 2015/12/8
-photo.1: https://www.instagram.com/p/Bq3nDp6HXWz/media/?size=m
+photo.1: ig://Bq3nDp6HXWz/m
 photo.1.author: keepermerlo
 photo.1.commitdate: 2020/1/23
 photo.1.link: https://www.instagram.com/keepermerlo/
 photo.1.tags: dish, lunch time
-photo.2: https://www.instagram.com/p/B7JXHrzgix-/media/?size=m
+photo.2: ig://B7JXHrzgix-/m
 photo.2.author: pueblozoo
 photo.2.commitdate: 2020/1/22
 photo.2.link: https://www.instagram.com/pueblozoo/

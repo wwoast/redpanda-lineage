@@ -9,7 +9,7 @@ language.order: en
 latitude: 40.1328221
 longitude: -75.3452331
 map: https://goo.gl/maps/CknzKshwgbM2
-photo.1: https://www.instagram.com/p/BLOkc5GDaem/media/?size=m
+photo.1: ig://BLOkc5GDaem/m
 photo.1.author: elmwoodparkzoo
 photo.1.commitdate: 2019/6/16
 photo.1.link: https://www.instagram.com/elmwoodparkzoo/

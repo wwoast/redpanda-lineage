@@ -15,39 +15,39 @@ language.order: en, jp
 litter: 417
 location.1: 87, 2016/6/24
 location.2: 83, 2018/8/1
-photo.1: https://www.instagram.com/p/BIdiFDNAFyX/media/?size=m
+photo.1: ig://BIdiFDNAFyX/m
 photo.1.author: lincolnparkzoo
 photo.1.commitdate: 2019/5/19
-photo.1.link: https://www.instagram.com/p/BL1vwjeg9p5/media/?size=m
+photo.1.link: ig://BL1vwjeg9p5/m
 photo.1.tags: baby, keeper
-photo.2: https://www.instagram.com/p/BL1vwjeg9p5/media/?size=m
+photo.2: ig://BL1vwjeg9p5/m
 photo.2.author: lincolnparkzoo
 photo.2.commitdate: 2019/5/19
-photo.2.link: https://www.instagram.com/p/BL1vwjeg9p5/media/?size=m
+photo.2.link: ig://BL1vwjeg9p5/m
 photo.2.tags: baby
-photo.3: https://www.instagram.com/p/BpHwUxRFZc8/media/?size=m
+photo.3: ig://BpHwUxRFZc8/m
 photo.3.author: worldthathesees
 photo.3.commitdate: 2018/11/23
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: profile, tongue
-photo.4: https://www.instagram.com/p/BwZ_3T5lsul/media/?size=m
+photo.4: ig://BwZ_3T5lsul/m
 photo.4.author: worldthathesees
 photo.4.commitdate: 2019/4/23
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: paws, standing
-photo.5: https://www.instagram.com/p/BwZ_-D-lV-c/media/?size=m
+photo.5: ig://BwZ_-D-lV-c/m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/4/23
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.6: https://www.instagram.com/p/BRJqYQijVQS/media/?size=m
+photo.6: ig://BRJqYQijVQS/m
 photo.6.author: lincolnparkzoo
 photo.6.commitdate: 2019/5/18
 photo.6.link: https://www.instagram.com/lincolnparkzoo/
 photo.6.tags: portrait
-photo.7: https://www.instagram.com/p/BdfcKAcDlOh/media/?size=m
+photo.7: ig://BdfcKAcDlOh/m
 photo.7.author: lincolnparkzoo
 photo.7.commitdate: 2019/5/19
-photo.7.link: https://www.instagram.com/p/BdfcKAcDlOh/media/?size=m
+photo.7.link: ig://BdfcKAcDlOh/m
 photo.7.tags: bamboo, portrait, snow
 species: 2
 studbook.id: 1629
