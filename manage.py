@@ -307,6 +307,8 @@ def sort_ig_hashes(path):
             continue
         # Convert IG photo formats to use new event handler
         photo = update_ig_link(photo)
+        photo_list.set_field(photo_option, photo)
+        # If our updated photo link has an ig:// uri, do the moving
         if "ig://" in photo:
             # Track the photo and index as a tuple
             ig_photos.append([photo, photo_index])
@@ -509,7 +511,6 @@ def update_ig_link(photo_uri):
     RPF JS code to identify the IG links that it needs to use the FB oembed API for.
     """
     if "https://www.instagram.com/p/" in photo_uri:
-        print(photo_uri)
         photo_split = photo_uri.split("/")
         shortcode = photo_split[4]
         size = photo_split[6].split("=")[1]
