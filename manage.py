@@ -8,10 +8,54 @@ import git
 import json
 import os
 import re
+import requests
 import sys
 
 from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, get_max_entity_count
 from unidiff import PatchSet
+from urllib.parse import urlparse
+
+def fetch_photo(url):
+    """
+    For testing/validating photo dimensions and properties, grab a photo using
+    either the direct URI, or for IG uris, using their oEmbed API.
+    This function requires an Instagram URL of the form:
+        https://www.instagram.com/p/<shortcode>/media/?size=m
+    """
+    ig_url = update_ig_link(url)
+    target_img = url
+    output_file = os.path.basename(urlparse(url).path)
+    # Assume target_img is the original url unless IG
+    if "ig://" in ig_url:
+        shortcode = ig_url.split("/")[2]
+        # Remove extra info from the IG url so that oEmbed likes it
+        url = "https://www.instagram.com/p/" + shortcode
+        maxwidth = 320
+        if (ig_url.split("/")[3] == "l"):
+            maxwidth = 640
+        try:
+            token = os.environ['OE_TOKEN']
+        except KeyError:
+            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
+        query_params = {
+            "url": url,
+            "maxwidth": maxwidth,
+            "fields": "thumbnail_url,author_name",
+            "access_token": token
+        }
+        instagram_api = "https://graph.facebook.com/v8.0/instagram_oembed"
+        response = requests.get(instagram_api, params=query_params)
+        json = response.json()
+        target_img = json["thumbnail_url"]
+        author_name = json["author_name"]
+        output_file = shortcode + ".jpg"
+        print("(ig_credit: " + author_name + "): " + target_img)
+    else:
+        print("(web): " + target_img)
+    img = requests.get(target_img, allow_redirects=True)
+    with open(output_file, "wb") as ofh:
+        print ("(output): " + output_file)
+        ofh.write(img.content)
 
 def find_commit_of_removed_photos(author, repo):
     """
@@ -622,6 +666,9 @@ if __name__ == '__main__':
         if sys.argv[1] == "--sort-instagram-updates":
             sort_ig_updates()
     if len(sys.argv) == 3:
+        if sys.argv[1] == "--fetch-photo":
+            photo = sys.argv[2]
+            fetch_photo(photo)
         if sys.argv[1] == "--remove-author":
             author = sys.argv[2]
             remove_author_from_lineage(author)
