@@ -509,6 +509,7 @@ def update_ig_link(photo_uri):
     RPF JS code to identify the IG links that it needs to use the FB oembed API for.
     """
     if "https://www.instagram.com/p/" in photo_uri:
+        print(photo_uri)
         photo_split = photo_uri.split("/")
         shortcode = photo_split[4]
         size = photo_split[6].split("=")[1]
