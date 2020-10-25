@@ -34,7 +34,7 @@ photo.4.author: minatomirai215
 photo.4.commitdate: 2020/6/27
 photo.4.link: https://www.instagram.com/minatomirai215/
 photo.4.tags: baby, close-up, whiskers
-photo.5: https://www.instagram.com/p/BdRtMHChNGn/media?size=m
+photo.5: ig://BdRtMHChNGn/m
 photo.5.author: mifko55
 photo.5.commitdate: 2020/4/30
 photo.5.link: https://www.instagram.com/mifko55/
@@ -972,6 +972,26 @@ photo.194.author: rie_panda55
 photo.194.commitdate: 2020/9/21
 photo.194.link: https://www.instagram.com/rie_panda55/
 photo.194.tags: home, laying down, portrait
+photo.195: ig://CGdXvK0hZR6/m
+photo.195.author: ssc6105
+photo.195.commitdate: 2020/10/25
+photo.195.link: https://www.instagram.com/ssc6105/
+photo.195.tags: keeper, paws, standing, tail
+photo.196: ig://CGlwYhVhwUS/m
+photo.196.author: wumpwoast
+photo.196.commitdate: 2020/10/25
+photo.196.link: https://www.instagram.com/wumpwoast/
+photo.196.tags: portrait, whiskers
+photo.197: ig://CGme7nqh8q9/m
+photo.197.author: ssc6105
+photo.197.commitdate: 2020/10/25
+photo.197.link: https://www.instagram.com/ssc6105/
+photo.197.tags: keeper, paws, portrait
+photo.198: ig://CGuQq1Uh5mP/m
+photo.198.author: ssc6105
+photo.198.commitdate: 2020/10/25
+photo.198.link: https://www.instagram.com/ssc6105/
+photo.198.tags: door, paws, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
