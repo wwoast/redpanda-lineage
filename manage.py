@@ -305,7 +305,9 @@ def sort_ig_hashes(path):
             # Missing photo at this index, continue
             photo_index = photo_index + 1
             continue
-        elif "https://www.instagram.com" in photo:
+        # Convert IG photo formats to use new event handler
+        photo = update_ig_link(photo)
+        if "ig://" in photo:
             # Track the photo and index as a tuple
             ig_photos.append([photo, photo_index])
             # Rename all photo fields as "old_photo_field"
@@ -330,8 +332,8 @@ def sort_ig_hashes(path):
     ig_photos = sorted(
         ig_photos, 
         key=lambda x: 
-            [hash_order.index(char) for char in x[0].split("/")[4]])
-    ig_photos = sorted(ig_photos, key=lambda x: len(x[0].split("/")[4]))
+            [hash_order.index(char) for char in x[0].split("/")[2]])
+    ig_photos = sorted(ig_photos, key=lambda x: len(x[0].split("/")[2]))
     # Now, re-distribute the photos, iterating down the ig
     # photos, moving "old_photo_field" to "photo_field" but with
     # updated indices
@@ -498,6 +500,22 @@ def update_entity_commit_dates(starting_commit, force=False):
                             photo_list.set_field("commitdate", date)
                     photo_list.update_file()
 
+def update_ig_link(photo_uri):
+    """
+    Convert all IG links from format #1 to format #2:
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
+        ig://<shortcode>/<size>
+    This saves space in the redpanda.json epxorts, and makes it simpler for the 
+    RPF JS code to identify the IG links that it needs to use the FB oembed API for.
+    """
+    if "https://www.instagram.com/p/" in photo_uri:
+        photo_split = photo_uri.split("/")
+        shortcode = photo_split[4]
+        size = photo_split[6].split("=")[1]
+        return 'ig://' + shortcode + "/" + size
+    else:
+        return photo_uri
+
 def update_photo_commit_dates(starting_commit, force=False):
     """
     The old redpandafinder update logic only worked on the basis of commits
@@ -552,7 +570,7 @@ def update_photo_commit_dates(starting_commit, force=False):
                             if (value in uri_to_commit_date):
                                 # Photo we've already seen
                                 continue
-                            if (value.find("http") != 0):
+                            if (value.find("http") != 0) and (value.find("ig://") != 0):
                                 # Not a URI, so not a photo reference
                                 continue
                             dt = repo.commit(end).committed_datetime
