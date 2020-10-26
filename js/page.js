@@ -149,7 +149,7 @@ Page.about.sections.show = function(section_id) {
   desired_button.classList.add("selected");
   // Find all image links on instagram, and replace their URIs with fetches
   var replace_images = document.getElementsByClassName("replace");
-  for (let img of replace_images) {
+  for (var img of replace_images) {
     if (img.src.indexOf("https://www.instagram.com/p/") == 0) {
       var shortcode = img.src.split("/")[4];
       var size = img.src.split("/")[6].split("=")[1];
