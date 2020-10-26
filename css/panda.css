@@ -370,7 +370,7 @@ div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
 }
 
 /* Class to add to hidden sections on about/links page */
-div.hidden {
+div.hidden, img.hidden {
     display: none;
 }
 
