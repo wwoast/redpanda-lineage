@@ -370,7 +370,7 @@ div#contentFrame.mothersDay, div#contentFrame.birthdayPandas, div.mediaFrame {
 }
 
 /* Class to add to hidden sections on about/links page */
-div.hidden {
+div.hidden, img.hidden {
     display: none;
 }
 
@@ -524,6 +524,12 @@ span.notifier {
 }
 
 img.preload {
+    display: none;
+}
+
+img.aboutFocus.replace,
+img.twinFocus.replace {
+    /* JS needs to replace the src before displaying these */
     display: none;
 }
 
