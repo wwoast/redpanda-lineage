@@ -20,7 +20,7 @@ def fetch_photo(url):
     For testing/validating photo dimensions and properties, grab a photo using
     either the direct URI, or for IG uris, using their oEmbed API.
     This function requires an Instagram URL of the form:
-        https://www.instagram.com/p/<shortcode>/media/?size=m
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
     """
     ig_url = update_ig_link(url)
     target_img = url
