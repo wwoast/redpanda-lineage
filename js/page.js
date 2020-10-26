@@ -147,6 +147,16 @@ Page.about.sections.show = function(section_id) {
   // Remove the hidden class on the desired section, and "select" its button
   desired.classList.remove("hidden");
   desired_button.classList.add("selected");
+  // Find all image links on instagram, and replace their URIs with fetches
+  var replace_images = document.getElementsByClassName("replace");
+  for (let img of replace_images) {
+    if (img.src.indexOf("https://www.instagram.com/p/") == 0) {
+      var shortcode = img.src.split("/")[4];
+      var size = img.src.split("/")[6].split("=")[1];
+      var ig_url = "ig://" + shortcode + "/" + size;
+      Gallery.url.process(img, ig_url);
+    }
+  }
 }
 Page.about.tags = function() {
   // Take all available tags for this language, and draw an unordered list.
