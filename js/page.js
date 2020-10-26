@@ -87,7 +87,6 @@ Page.about.render = function() {
       var size = img.src.split("/")[6].split("=")[1];
       var ig_url = "ig://" + shortcode + "/" + size;
       Gallery.url.process(img, ig_url);
-      img.classList.remove("replace");
     }
   }  
 }

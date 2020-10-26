@@ -1202,6 +1202,7 @@ Gallery.url.instagram = function(image, input_uri) {
   window.addEventListener(ig_locator, function() {
     // Second-stage. Fetch the image using the thumbnail_url
     image.src = Gallery.url.paths[ig_locator];
+    img.classList.remove("replace");  /* For about page images */
   });
   if (ig_locator in Gallery.url.paths) {
     // Do we already have the image details?

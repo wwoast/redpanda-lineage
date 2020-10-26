@@ -527,6 +527,12 @@ img.preload {
     display: none;
 }
 
+img.aboutFocus.replace,
+img.twinFocus.replace {
+    /* JS needs to replace the src before displaying these */
+    display: none;
+}
+
 div.pandaDossier, div.zooDossier, div.profileDossier {
     display: table-cell;
     vertical-align: top;
