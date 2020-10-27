@@ -7,11 +7,19 @@ commitdate: 2020/7/20
 en.name: Aka-chan
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1195
+photo.1: https://www.instagram.com/p/CGuj9-aB112/media/?size=m
+photo.1.author: ifumoto88
+photo.1.link: https://www.instagram.com/ifumoto88/
+photo.1.tags: baby, portrait, standing
+photo.2: https://www.instagram.com/p/CGzsKESBW9D/media/?size=m
+photo.2.author: ifumoto88
+photo.2.link: https://www.instagram.com/ifumoto88/
+photo.2.tags: baby, laying down, portrait, profile, smile
 species: 2
 zoo: 45
