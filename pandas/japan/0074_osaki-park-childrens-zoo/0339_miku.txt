@@ -174,29 +174,29 @@ photo.32.author: ssc6105
 photo.32.commitdate: 2020/7/22
 photo.32.link: https://www.instagram.com/ssc6105/
 photo.32.tags: laying down, paws, sleeping, tail
-photo.33: ig://CC5uO00Bot7/m
-photo.33.author: ssc6105
-photo.33.commitdate: 2020/9/10
-photo.33.link: https://www.instagram.com/ssc6105/
-photo.33.tags: laying down, mofumofu, old, tail
-photo.34: ig://CFTFM9vB9uT/m
-photo.34.author: masa_polarbear
-photo.34.commitdate: 2020/9/27
-photo.34.link: https://www.instagram.com/masa_polarbear/
-photo.34.tags: itchy, old, paws, tail
-photo.35: ig://CFrMneTB4tS/m
-photo.35.author: ssc6105
-photo.35.commitdate: 2020/10/1
-photo.35.link: https://www.instagram.com/ssc6105/
-photo.35.tags: laying down, old, paws, portrait
-photo.36: https://www.instagram.com/p/CGqhc3ZhpKV/media/?size=m
-photo.36.author: park.osaki.zoo
-photo.36.link: https://www.instagram.com/park.osaki.zoo/
-photo.36.tags: apple time, eye, mofumofu, old, paws, portrait, smile
-photo.37: https://www.instagram.com/p/CC2zVpjh0XJ/media/?size=m
+photo.33: ig://CC2zVpjh0XJ/m
+photo.33.author: park.osaki.zoo
+photo.33.link: https://www.instagram.com/park.osaki.zoo/
+photo.33.tags: eye, mofumofu, old, portrait, smile
+photo.34: ig://CC5uO00Bot7/m
+photo.34.author: ssc6105
+photo.34.commitdate: 2020/9/10
+photo.34.link: https://www.instagram.com/ssc6105/
+photo.34.tags: laying down, mofumofu, old, tail
+photo.35: ig://CFTFM9vB9uT/m
+photo.35.author: masa_polarbear
+photo.35.commitdate: 2020/9/27
+photo.35.link: https://www.instagram.com/masa_polarbear/
+photo.35.tags: itchy, old, paws, tail
+photo.36: ig://CFrMneTB4tS/m
+photo.36.author: ssc6105
+photo.36.commitdate: 2020/10/1
+photo.36.link: https://www.instagram.com/ssc6105/
+photo.36.tags: laying down, old, paws, portrait
+photo.37: ig://CGqhc3ZhpKV/m
 photo.37.author: park.osaki.zoo
 photo.37.link: https://www.instagram.com/park.osaki.zoo/
-photo.37.tags: eye, mofumofu, old, portrait, smile
+photo.37.tags: apple time, eye, mofumofu, old, paws, portrait, smile
 species: 2
 studbook.id: 9996
 zoo: 74
