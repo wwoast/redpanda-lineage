@@ -4,11 +4,11 @@ birthday: 2020/6/23
 birthplace: 65
 children: none
 commitdate: 2020/7/14
-en.name: Baby
+en.name: Lucas
 en.nicknames: none
 en.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: m
+jp.name: ルーカス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
