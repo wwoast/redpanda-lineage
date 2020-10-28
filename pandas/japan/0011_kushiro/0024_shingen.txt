@@ -451,14 +451,14 @@ photo.88.author: minatomirai215
 photo.88.commitdate: 2020/10/25
 photo.88.link: https://www.instagram.com/minatomirai215/
 photo.88.tags: autumn, peek, portrait, tree
-photo.89: https://www.instagram.com/p/CG2otPTBAuJ/media/?size=m
-photo.89.author: minatomirai215
-photo.89.link: https://www.instagram.com/minatomirai215/
-photo.89.tags: autumn, paws, portrait, whiskers
-photo.90: https://www.instagram.com/p/CGzkfyqBqiQ/media/?size=m
-photo.90.author: nakacchi_desu
-photo.90.link: https://www.instagram.com/nakacchi_desu/
-photo.90.tags: home, paws, peek
+photo.89: ig://CGzkfyqBqiQ/m
+photo.89.author: nakacchi_desu
+photo.89.link: https://www.instagram.com/nakacchi_desu/
+photo.89.tags: home, paws, peek
+photo.90: ig://CG2otPTBAuJ/m
+photo.90.author: minatomirai215
+photo.90.link: https://www.instagram.com/minatomirai215/
+photo.90.tags: autumn, paws, portrait, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11
