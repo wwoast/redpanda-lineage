@@ -1,6 +1,6 @@
 [panda]
 _id: 1195
-birthday: 2020/7/13
+birthday: 2020/6/29
 birthplace: 45
 children: none
 commitdate: 2020/7/20
@@ -23,5 +23,9 @@ photo.2.author: ifumoto88
 photo.2.commitdate: 2020/10/27
 photo.2.link: https://www.instagram.com/ifumoto88/
 photo.2.tags: baby, mofumofu, portrait, tail
+photo.3: https://www.instagram.com/p/CG1zJxLh1TQ/media/?size=m
+photo.3.author: _saaaaaaah_
+photo.3.link: https://www.instagram.com/_saaaaaaah_/
+photo.3.tags: baby, bamboo, home
 species: 2
 zoo: 45
