@@ -395,15 +395,15 @@ photo.78.author: na.mo.pan
 photo.78.commitdate: 2020/9/26
 photo.78.link: https://www.instagram.com/na.mo.pan/
 photo.78.tags: climb, paws, peek, smile
-photo.79: ig://CG2Vmqph_Td/m
-photo.79.author: ifumoto88
-photo.79.commitdate: 2020/10/27
-photo.79.link: https://www.instagram.com/ifumoto88/
-photo.79.tags: patrol, paws, smile, whiskers
-photo.80: https://www.instagram.com/p/CGo_OTUhmrH/media/?size=m
-photo.80.author: ssc6105
-photo.80.link: https://www.instagram.com/ssc6105/
-photo.80.tags: laying down, mofumofu, whiskers
+photo.79: ig://CGo_OTUhmrH/m
+photo.79.author: ssc6105
+photo.79.link: https://www.instagram.com/ssc6105/
+photo.79.tags: laying down, mofumofu, whiskers
+photo.80: ig://CG2Vmqph_Td/m
+photo.80.author: ifumoto88
+photo.80.commitdate: 2020/10/27
+photo.80.link: https://www.instagram.com/ifumoto88/
+photo.80.tags: patrol, paws, smile, whiskers
 species: 2
 studbook.id: 13145
 zoo: 1

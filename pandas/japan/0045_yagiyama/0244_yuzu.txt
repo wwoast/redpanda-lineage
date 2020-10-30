@@ -301,15 +301,15 @@ photo.58.author: alto0908
 photo.58.commitdate: 2020/10/11
 photo.58.link: https://www.instagram.com/alto0908/
 photo.58.tags: mofumofu, portrait, techitechi
-photo.59: ig://CG3hxZkB8Tn/m
-photo.59.author: panda.daisuki
-photo.59.commitdate: 2020/10/27
-photo.59.link: https://www.instagram.com/panda.daisuki/
-photo.59.tags: peek, portrait, smile, tree
-photo.60: https://www.instagram.com/p/CGpjStSBaoV/media/?size=m
-photo.60.author: ifumoto88
-photo.60.link: https://www.instagram.com/ifumoto88/
-photo.60.tags: portrait, tail, tree
+photo.59: ig://CGpjStSBaoV/m
+photo.59.author: ifumoto88
+photo.59.link: https://www.instagram.com/ifumoto88/
+photo.59.tags: portrait, tail, tree
+photo.60: ig://CG3hxZkB8Tn/m
+photo.60.author: panda.daisuki
+photo.60.commitdate: 2020/10/27
+photo.60.link: https://www.instagram.com/panda.daisuki/
+photo.60.tags: peek, portrait, smile, tree
 species: 2
 studbook.id: unknown
 zoo: 45

@@ -206,14 +206,14 @@ photo.39.author: craig_craig_craig
 photo.39.commitdate: 2020/10/11
 photo.39.link: https://www.instagram.com/craig_craig_craig/
 photo.39.tags: paws, tail, videolink
-photo.40: https://www.instagram.com/p/CGxIVQnBo85/media/?size=m
-photo.40.author: ifumoto88
-photo.40.link: https://www.instagram.com/ifumoto88/
-photo.40.tags: apple time, paws, smile
-photo.41: https://www.instagram.com/p/CGusxTXBv2F/media/?size=m
-photo.41.author: na.mo.pan
-photo.41.link: https://www.instagram.com/na.mo.pan/
-photo.41.tags: apple time, peek
+photo.40: ig://CGusxTXBv2F/m
+photo.40.author: na.mo.pan
+photo.40.link: https://www.instagram.com/na.mo.pan/
+photo.40.tags: apple time, peek
+photo.41: ig://CGxIVQnBo85/m
+photo.41.author: ifumoto88
+photo.41.link: https://www.instagram.com/ifumoto88/
+photo.41.tags: apple time, paws, smile
 species: 2
 studbook.id: 0980
 zoo: 1

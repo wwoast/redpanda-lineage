@@ -943,19 +943,19 @@ photo.186.author: ssc6105
 photo.186.commitdate: 2020/10/16
 photo.186.link: https://www.instagram.com/ssc6105/
 photo.186.tags: paws, portrait, standing
-photo.187: ig://CGnDmsgB4b-/m
-photo.187.author: na.mo.pan
-photo.187.commitdate: 2020/10/26
-photo.187.link: https://www.instagram.com/na.mo.pan/
-photo.187.tags: home, laying down, portrait, whiskers
-photo.188: https://www.instagram.com/p/CGrRIe6hYKX/media/?size=m
+photo.187: ig://CGZmyTqhXML/m
+photo.187.author: masa_polarbear
+photo.187.link: https://www.instagram.com/masa_polarbear/
+photo.187.tags: bamboo, mofumofu
+photo.188: ig://CGnDmsgB4b-/m
 photo.188.author: na.mo.pan
+photo.188.commitdate: 2020/10/26
 photo.188.link: https://www.instagram.com/na.mo.pan/
-photo.188.tags: laying down, paws, smile
-photo.189: https://www.instagram.com/p/CGZmyTqhXML/media/?size=m
-photo.189.author: masa_polarbear
-photo.189.link: https://www.instagram.com/masa_polarbear/
-photo.189.tags: bamboo, mofumofu
+photo.188.tags: home, laying down, portrait, whiskers
+photo.189: ig://CGrRIe6hYKX/m
+photo.189.author: na.mo.pan
+photo.189.link: https://www.instagram.com/na.mo.pan/
+photo.189.tags: laying down, paws, smile
 species: 2
 studbook.id: unknown
 zoo: 1

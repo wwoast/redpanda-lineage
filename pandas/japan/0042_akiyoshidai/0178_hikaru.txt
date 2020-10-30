@@ -126,35 +126,35 @@ photo.23.author: _rifa_p
 photo.23.commitdate: 2020/5/23
 photo.23.link: https://www.instagram.com/_rifa_p/
 photo.23.tags: bamboo, bite, portrait
-photo.24: ig://CDw85JUhjvY/m
-photo.24.author: _rifa_p
-photo.24.commitdate: 2020/8/14
-photo.24.link: https://www.instagram.com/_rifa_p/
-photo.24.tags: laying down, paws, smile
-photo.25: https://www.instagram.com/p/CD5GACHhKXa/media/?size=m
-photo.25.author: re_ichimaru
-photo.25.link: https://www.instagram.com/re_ichimaru/
-photo.25.tags: laying down, mofumofu, paws, portrait
-photo.26: https://www.instagram.com/p/CFBb-oxB7Fu/media/?size=m
-photo.26.author: grskus_tk
-photo.26.link: https://www.instagram.com/grskus_tk/
-photo.26.tags: bear worm, smile, tail
-photo.27: https://www.instagram.com/p/CE703p4hI0F/media/?size=m
-photo.27.author: re_ichimaru
-photo.27.link: https://www.instagram.com/re_ichimaru/
-photo.27.tags: close-up, mofumofu, portrait, smile
-photo.28: https://www.instagram.com/p/CE1JT0kBRH0/media/?size=m
-photo.28.author: grskus_tk
-photo.28.link: https://www.instagram.com/grskus_tk/
-photo.28.tags: smile
-photo.29: https://www.instagram.com/p/CFeC55KB0LM/media/?size=m
-photo.29.author: re_ichimaru
-photo.29.link: https://www.instagram.com/re_ichimaru/
-photo.29.tags: hammock, portrait
-photo.30: https://www.instagram.com/p/CDc_htGhpQZ/media/?size=m
+photo.24: ig://CDc_htGhpQZ/m
+photo.24.author: re_ichimaru
+photo.24.link: https://www.instagram.com/re_ichimaru/
+photo.24.tags: apple time, mofumofu, portrait, window
+photo.25: ig://CDw85JUhjvY/m
+photo.25.author: _rifa_p
+photo.25.commitdate: 2020/8/14
+photo.25.link: https://www.instagram.com/_rifa_p/
+photo.25.tags: laying down, paws, smile
+photo.26: ig://CD5GACHhKXa/m
+photo.26.author: re_ichimaru
+photo.26.link: https://www.instagram.com/re_ichimaru/
+photo.26.tags: laying down, mofumofu, paws, portrait
+photo.27: ig://CE1JT0kBRH0/m
+photo.27.author: grskus_tk
+photo.27.link: https://www.instagram.com/grskus_tk/
+photo.27.tags: smile
+photo.28: ig://CE703p4hI0F/m
+photo.28.author: re_ichimaru
+photo.28.link: https://www.instagram.com/re_ichimaru/
+photo.28.tags: close-up, mofumofu, portrait, smile
+photo.29: ig://CFBb-oxB7Fu/m
+photo.29.author: grskus_tk
+photo.29.link: https://www.instagram.com/grskus_tk/
+photo.29.tags: bear worm, smile, tail
+photo.30: ig://CFeC55KB0LM/m
 photo.30.author: re_ichimaru
 photo.30.link: https://www.instagram.com/re_ichimaru/
-photo.30.tags: apple time, mofumofu, portrait, window
+photo.30.tags: hammock, portrait
 species: 2
 studbook.id: 1784
 zoo: 42
