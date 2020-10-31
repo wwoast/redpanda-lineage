@@ -1322,9 +1322,9 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
     var animal = Pandas.searchPandaId(photo.id)[0];
     var updateName = undefined;
     if (photo.id.indexOf("media.") == 0) {
-      updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      updateName = Pandas.groupMediaCaption(animal, "photo." + photo["photo.index"]);
       var panda_route = animal["panda.tags"].split(", ").join("/");
-      caption_link.href = "#group/" + panda_route;
+      name_caption_link.href = "#group/" + panda_route;
     } else {
       var info = Show.acquirePandaInfo(animal, L.display);
       updateName = info.name;
