@@ -41,6 +41,7 @@ Gallery.init = function(info, carousel_type, fallback_url='images/no-panda-portr
   // Gallery instance has a single photo frame that we attach event handlers to
   // for loading images from random sources
   gallery.image = document.createElement('img');
+  gallery.image.setAttribute("loading", "lazy");
   Touch.addSwipeHandler(gallery.image, T.processPhoto);
   return gallery;
 }
@@ -262,6 +263,7 @@ Gallery.familyProfilePhoto = function(animal, chosen_photo, language, relationsh
     clickable_photo.href = Gallery.url.href(chosen_photo["photo"]);
   } 
   var image = document.createElement('img');
+  image.setAttribute("loading", "lazy");
   // Set the photo, even if it takes an extra XHR
   Gallery.url.process(image, chosen_photo["photo"]);
   clickable_photo.appendChild(image);
@@ -341,6 +343,7 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      img.setAttribute("loading", "lazy");
       // Set the photo, even if it takes an extra XHR
       Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
@@ -569,6 +572,7 @@ Gallery.groupPhotoSingle = function(entity, photo_key, url) {
   var img_link = document.createElement('a');
   img_link.href = Gallery.url.href(url);
   var img = document.createElement('img');
+  img.setAttribute("loading", "lazy");
   // Set the photo, even if it takes an extra XHR
   Gallery.url.process(img, url);
   img_link.appendChild(img);
@@ -632,6 +636,7 @@ Gallery.genericPhotoCredits = function(language, id_list, photo_count, tag_list,
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      img.setAttribute("loading", "lazy");
       // Set the photo, even if it takes an extra XHR
       Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
@@ -671,6 +676,7 @@ Gallery.memorialPhotoCredits = function(language, id_list, photo_count=5, messag
       // Link to the original instagram media
       img_link.href = "#panda/" + animal._id + "/photo/" + photo["photo.index"];
       var img = document.createElement('img');
+      img.setAttribute("loading", "lazy");
       // Set the photo, even if it takes an extra XHR
       Gallery.url.process(img, photo["photo"]);
       img_link.appendChild(img);
@@ -721,6 +727,7 @@ Gallery.memorialPhotoCreditsGroup = function(language, group_id, id_list, photo_
     var img_link = document.createElement('a');
     img_link.href = "#group/" + id_link_string;
     var img = document.createElement('img');
+    img.setAttribute("loading", "lazy");
     // Set the photo, even if it takes an extra XHR
     Gallery.url.process(img, photo["photo"]);
     img_link.appendChild(img);
@@ -773,6 +780,7 @@ Gallery.pandaPhotoCreditSingle = function(item) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  img.setAttribute("loading", "lazy");
   // Set the photo, even if it takes an extra XHR
   Gallery.url.process(img, photo);
   img_link.appendChild(img);
@@ -905,6 +913,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  img.setAttribute("loading", "lazy");
   // Set the photo, even if it takes an extra XHR
   Gallery.url.process(img, photo);
   img_link.appendChild(img);
@@ -955,6 +964,7 @@ Gallery.updatedNewPhotoCredits = function(language, photo_count=7) {
     img_link.href = Gallery.url.href(photo);
     img_link.target = "_blank";   // Open in new tab
     var img = document.createElement('img');
+    img.setAttribute("loading", "lazy");
     // Set the photo, even if it takes an extra XHR
     Gallery.url.process(img, photo);
     img_link.appendChild(img);
@@ -1281,6 +1291,7 @@ Gallery.zooPhotoCreditSingle = function(item) {
   img_link.href = Gallery.url.href(photo);
   img_link.target = "_blank";   // Open in new tab
   var img = document.createElement('img');
+  img.setAttribute("loading", "lazy");
   // Set the photo, even if it takes an extra XHR
   Gallery.url.process(img, photo);
   img_link.appendChild(img);
@@ -1310,6 +1321,7 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
     // Link to the original instagram media
     img_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
     var img = document.createElement('img');
+    img.setAttribute("loading", "lazy");
     // Set the photo, even if it takes an extra XHR
     Gallery.url.process(img, photo["photo"]);
     img_link.appendChild(img);
