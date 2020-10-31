@@ -1556,6 +1556,20 @@ Language.L.messages = {
            "<INSERTTAG>",
            "।"]
   },
+  "trick_or_treat": {
+    "cn": [Language.L.emoji.pumpkin, " ",
+           "怪异的南瓜", " ",
+           Language.L.emoji.pumpkin],
+    "en": [Language.L.emoji.pumpkin, " ",
+           "Trick or Treat", " ",
+           Language.L.emoji.pumpkin],
+    "jp": [Language.L.emoji.pumpkin, " " ,
+           "不気味なカボチャ", " ",
+           Language.L.emoji.pumpkin],
+    "np": [Language.L.emoji.pumpkin, " " ,
+           "डरलाग्दो कद्दु", " ",
+           Language.L.emoji.pumpkin]
+  },
   "zoo_details_babies": {
     "cn": [Language.L.emoji.baby,
            " ",

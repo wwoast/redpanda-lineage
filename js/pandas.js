@@ -738,6 +738,15 @@ Pandas.searchPanda = function(input_string) {
   }
 }
 
+// Find any panda entry with photos
+Pandas.searchPandaAnyPhoto = function() {
+  var nodes = G.v().filter(function(vertex) {
+    return ((vertex["photo.1"] != undefined) && 
+            (vertex["gender"] != undefined))
+  }).run();
+  return nodes;
+}
+
 // Find a panda's children
 Pandas.searchPandaChildren = function(idnum) {
   var nodes = G.v(idnum).out("family").run();

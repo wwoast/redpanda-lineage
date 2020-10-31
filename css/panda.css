@@ -853,6 +853,7 @@ ul.pandaList > li > a > span.ultraCondensed.adjusted {
 
 h5.birthdayMessage > span.condensed,
 h5.groupMediaAuthor > span.condensed,
+h5.halloweenMessage > span.condensed,
 h5.memorialMessage > span.condensed,
 h5.updateAuthor > span.condensed {
     letter-spacing: -1px;
@@ -860,6 +861,7 @@ h5.updateAuthor > span.condensed {
 
 h5.birthdayMessage > span.ultraCondensed,
 h5.groupMediaAuthor > span.ultraCondensed,
+h5.halloweenMessage > span.ultraCondensed,
 h5.memorialMessage > span.ultraCondensed,
 h5.updateAuthor > span.ultraCondensed {
     letter-spacing: -2px;
@@ -867,12 +869,14 @@ h5.updateAuthor > span.ultraCondensed {
 }
 
 h5.birthdayMessage > span.condensed.adjusted,
+h5.halloweenMessage > span.condensed.adjusted,
 h5.memorialMessage > span.condensed.adjusted {
     letter-spacing: 0px;
 }
 
 h5.birthdayMessage > span.ultraCondensed.adjusted,
-h5.memorialMessage > span.condensed.adjusted {
+h5.halloweenMessage > span.ultraCondensed.adjusted,
+h5.memorialMessage > span.ultraCondensed.adjusted {
     letter-spacing: 0px;
     font-size: 11pt;
 }
@@ -1112,7 +1116,8 @@ div.arrivalsHeader,
 div.birthdaySummary,
 div.creditSummary,
 div.departuresHeader,
-div.frontPageSummary, 
+div.frontPageSummary,
+div.halloweenSummary,
 div.memorialSummary,
 div.profileSummary,
 div.residentsHeader,
@@ -1125,6 +1130,7 @@ div.birthdaySummary p,
 div.creditSummary p,
 div.departuresHeader p,
 div.frontPageSummary p,
+div.halloweenSummary p,
 div.memorialSummary p,
 div.profileSummary p,
 div.residentsHeader p,
@@ -1142,6 +1148,10 @@ div.departuresHeader p,
 div.residentsHeader p {
     background-color: lightsalmon;
     min-width: 226px;   /* 2/3 of the mobile min viewport width */
+}
+
+div.halloweenSummary p {
+    background-color: gray;
 }
 
 div.frontPageSummary p.summaryEmphasis {
@@ -1198,6 +1208,15 @@ div.photoSample h5 {
     width: 80%;
 }
 
+div.photoSample h5.updateName.halloweenMessage {
+    background-color: orangered;
+}
+
+div.photoSample h5.updateAuthor.halloweenMessage {
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+
 div.photoSample h5.caption.familyName,
 div.photoSample h5.caption.groupMediaName, 
 div.photoSample h5.caption.updateName {
@@ -1249,7 +1268,9 @@ div.photoSample h5.caption.shortMessage {
     line-height: 2.3ex;
 }
 
-div.photoSample h5.caption.birthdayMessage, div.photoSample h5.caption.memorialMessage {
+div.photoSample h5.caption.birthdayMessage, 
+div.photoSample h5.caption.halloweenMessage,
+div.photoSample h5.caption.memorialMessage {
     overflow-x: hidden;
 }
 
@@ -1619,7 +1640,9 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         width: 100%;
     }
 
-    div.photoSample h5.caption.birthdayMessage, div.photoSample h5.caption.memorialMessage {
+    div.photoSample h5.caption.birthdayMessage, 
+    div.photoSample h5.caption.halloweenMessage,
+    div.photoSample h5.caption.memorialMessage {
         width: 100%;
     }
     

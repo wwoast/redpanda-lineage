@@ -941,7 +941,7 @@ Gallery.tagPhotoSingle = function(result, language, add_emoji) {
 
 // Make a gallery out of newly added photos, for the front page.
 // Choose some pandas from the list of updated photos at random.
-Gallery.updatedNewPhotoCredits = function(language, photo_count=19) {
+Gallery.updatedNewPhotoCredits = function(language, photo_count=7) {
   var new_photos_div = document.createElement('div');
   var message = Message.new_photos(language);
   new_photos_div.appendChild(message);
@@ -1298,188 +1298,57 @@ Gallery.zooPhotoCreditSingle = function(item) {
 }
 
 Gallery.special = {};
-Gallery.special.mothersday = {};
-Gallery.special.mothersday.photos = [
-  {
-    "photo.1": ["media.7.gin-marumi", "photo.1"],
-    "photo.1.format": "medium",
-    "photo.1.message": {
-      "en": "Marumi & Gin " + Language.L.emoji.mother,
-      "jp": "円実, ギン" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.2": ["media.7.gin-marumi", "photo.2"],
-    "photo.2.format": "medium",
-    "photo.2.message": {
-      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
-      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
-    }
-  },
-  {
-    "photo.3": ["media.26.hinata-kanta-yuri", "photo.1"],
-    "photo.3.format": "large",
-    "photo.3.message": {
-      "en": "Yuri " + Language.L.emoji.mother + ", Kanta & Hinata",
-      "jp": "百合" + Language.L.emoji.mother + ", カンタ, ヒナタ"
-    }
-  },
-  {
-    "photo.4": ["media.29.akachan-laila", "photo.1"],
-    "photo.4.format": "medium",
-    "photo.4.message": {
-      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
-      "jp": "赤ちゃん, ライラ" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.5": ["media.29.akachan-laila", "photo.2"],
-    "photo.5.format": "medium",
-    "photo.5.message": {
-      "en": "Aka-chan & Laila " + Language.L.emoji.mother,
-      "jp": "赤ちゃん, ライラ" + Language.L.emoji.mother    
-    }
-  },
-  {
-    "photo.6": ["media.7.gin-marumi", "photo.3"],
-    "photo.6.format": "medium",
-    "photo.6.message": {
-      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
-      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
-    }
-  },
-  {
-    "photo.7": ["media.7.gin-marumi", "photo.4"],
-    "photo.7.format": "medium",
-    "photo.7.message": {
-      "en": "Marumi & Gin " + Language.L.emoji.mother,
-      "jp": "円実, ギン" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.8": ["media.36.jazz-minfa", "photo.1"],
-    "photo.8.format": "large",
-    "photo.8.message": {
-      "en": "Min-fa " + Language.L.emoji.mother + " & Jazz",
-      "jp": "ミンファ" + Language.L.emoji.mother + ", ジャズ"
-    }
-  },
-  {
-    "photo.9": ["media.41.nohana-nokaze", "photo.1"],
-    "photo.9.format": "medium",
-    "photo.9.message": {
-      "en": "Nokaze " + Language.L.emoji.mother + " & Nohana",
-      "jp": "野風" + Language.L.emoji.mother + ", 野花"
-    }
-  },
-  {
-    "photo.10": ["media.50.karin-luca", "photo.1"],
-    "photo.10.format": "medium",
-    "photo.10.message": {
-      "en": "Luca & Karin " + Language.L.emoji.mother,
-      "jp": "ルカ, カリン" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.11": ["media.17.rifa-taofa", "photo.1"],
-    "photo.11.format": "large",
-    "photo.11.message": {
-      "en": "Rifa & Taofa " + Language.L.emoji.mother,
-      "jp": "李花, タオファ" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.12": ["media.7.gin-marumi", "photo.5"],
-    "photo.12.format": "medium",
-    "photo.12.message": {
-      "en": "Gin " + Language.L.emoji.mother + " & Marumi",
-      "jp": "ギン" + Language.L.emoji.mother + ", 円実"
-    }
-  },
-  {
-    "photo.13": ["media.7.gin-marumi", "photo.6"],
-    "photo.13.format": "medium",
-    "photo.13.message": {
-      "en": "Marumi & Gin " + Language.L.emoji.mother,
-      "jp": "円実, ギン" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.14": ["media.1.cocoa-milk-yuufa", "photo.1"],
-    "photo.14.format": "medium",
-    "photo.14.message": {
-      "en": "Yuufa " + Language.L.emoji.mother + " & Milk & Cocoa",
-      "jp": "優花" + Language.L.emoji.mother + ", ミルク, ココア"
-    },
-  },
-  {
-    "photo.15": ["media.1.himawari-yuufa", "photo.1"],
-    "photo.15.format": "medium",
-    "photo.15.message": {
-      "en": "Himawari & Yuufa " + Language.L.emoji.mother,
-      "jp": "ひまわり, 優花" + Language.L.emoji.mother
-    }
-  },
-  {
-    "photo.16": ["media.7.gin-marumi", "photo.7"],
-    "photo.16.format": "large",
-    "photo.16.message": {
-      "en": "Marumi & Gin " + Language.L.emoji.mother,
-      "jp": "円実, ギン"+ Language.L.emoji.mother
-    }
-  }
-]
-Gallery.special.mothersday.render = function() {
-  // Iterate over Gallery.special.mothersday.photos.
-  // Make large format ones with a different URI and class
-  var counter = 0;
-  var mothers_div = document.createElement('div');
-  for (let photo_info of Gallery.special.mothersday.photos) {
-    counter = counter + 1;
-    var counter_string = "photo." + counter;
-    var [graph_id, desired_photo] = photo_info[counter_string];
-    var graph_node = Pandas.searchPandaId(graph_id)[0];
-    var source = graph_node[desired_photo];
-    var author = Language.L.emoji.camera + "\xa0" + graph_node[desired_photo + ".author"]
-    var format = photo_info[counter_string + ".format"]
-    var link = graph_node[desired_photo + ".link"]
-    var message = photo_info["photo." + counter + ".message"][L.display];
-    // Create the image frame
+
+Gallery.special.pumpkin = function(language, photo_count=5) {
+  var pumpkin_div  = document.createElement('div');
+  var message = Message.trick_or_treat(language);
+  pumpkin_div.appendChild(message);
+  var animals_photos = Pandas.searchPandaAnyPhoto();
+  var photos = Pandas.searchPhotoTags(animals_photos, ["pumpkin", "portrait"], "intersect", "none");
+  for (let photo of Pandas.randomChoice(photos, photo_count)) {
     var img_link = document.createElement('a');
-    img_link.href = Gallery.url.href(source);
+    // Link to the original instagram media
+    img_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
     var img = document.createElement('img');
-    // Instagram size change
-    if (format == "large") {
-      source = source.replace(/\/m$/, "/l");
-    }
-    Gallery.url.process(img, source);
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo["photo"]);
     img_link.appendChild(img);
-    // Create the message caption
-    var caption_message = document.createElement('a');
-    var caption_message_text = document.createElement('h5');
-    caption_message_text.className = "caption shortMessage";
-    caption_message_text.innerText = message;
-    caption_message.appendChild(caption_message_text);
-    // Create the secondary credit caption
-    var caption_author = document.createElement('a');
-    caption_author.href = link;
-    var caption_author_text = document.createElement('h5');
-    caption_author_text.className = "caption authorCredit";
-    caption_author_text.innerText = author;
-    caption_author.appendChild(caption_author_text);
-    // Create the entire photo frame
-    var photo_frame = document.createElement('div');
-    photo_frame.className = "photoSample";
-    photo_frame.appendChild(img_link);
-    photo_frame.appendChild(caption_message);
-    photo_frame.appendChild(caption_author);
-    if (format == "large") {
-      photo_frame.classList.add("fullPage");
+    // Animal name
+    var name_caption_link = document.createElement('a');
+    name_caption_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
+    var name_caption = document.createElement('h5');
+    name_caption.className = "caption updateName halloweenMessage";
+    var name_caption_span = document.createElement('span');
+    var animal = Pandas.searchPandaId(photo.id)[0];
+    var updateName = undefined;
+    if (photo.id.indexOf("media.") == 0) {
+      updateName = Pandas.groupMediaCaption(animal, "photo." + item.index);
+      var panda_route = animal["panda.tags"].split(", ").join("/");
+      caption_link.href = "#group/" + panda_route;
     } else {
-      photo_frame.classList.add("halfPage");
+      var info = Show.acquirePandaInfo(animal, L.display);
+      updateName = info.name;
     }
-    // Append this to the Mother's day frame
-    mothers_div.appendChild(photo_frame);
+    name_caption_span.innerText = updateName;
+    name_caption.appendChild(name_caption_span);
+    name_caption_link.appendChild(name_caption);
+    // Link to the original instagram media
+    var credit_caption_link = document.createElement('a');
+    credit_caption_link.href = Gallery.url.href(photo["photo"]);
+    credit_caption_link.target = "_blank";   // Open in new tab
+    var credit_caption = document.createElement('h5');
+    credit_caption.className = "caption updateAuthor halloweenMessage";
+    var credit_caption_span = document.createElement('span');
+    credit_caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    // TODO: condenser
+    credit_caption.appendChild(credit_caption_span);
+    credit_caption_link.appendChild(credit_caption);
+    var container = document.createElement('div');
+    container.className = "photoSample quarterPage";
+    container.appendChild(img_link);
+    container.appendChild(name_caption_link);
+    container.appendChild(credit_caption_link);
+    pumpkin_div.appendChild(container);
   }
-  return mothers_div;
+  return pumpkin_div;
 }

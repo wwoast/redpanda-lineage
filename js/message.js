@@ -620,7 +620,6 @@ Message.residents = function(zoo, language) {
   message.className = "residentsHeader";
   message.appendChild(shrinker);
   return message;
-
 }
 Message.tag_combo = function(num, emojis, language) {
   var p = document.createElement('p');
@@ -706,6 +705,21 @@ Message.tag_subject = function(num, name, emoji, tag, language) {
   shrinker.appendChild(p);
   var message = document.createElement('div');
   message.className = "tagSummary";
+  message.appendChild(shrinker);
+  return message;
+}
+Message.trick_or_treat = function(language) {
+  var p = document.createElement('p');
+  for (var i in L.messages.trick_or_treat[language]) {
+    var field = L.messages.trick_or_treat[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "halloweenSummary";
   message.appendChild(shrinker);
   return message;
 }
