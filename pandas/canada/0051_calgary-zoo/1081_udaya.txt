@@ -28,7 +28,7 @@ photo.2: ig://B6J5ZpkBmDk/m
 photo.2.author: garseeyaink
 photo.2.commitdate: 2020/2/15
 photo.2.link: https://www.instagram.com/garseeyaink/
-photo.2.tags: bamboo, portrait, profile, smile, tongue
+photo.2.tags: bamboo, portrait, smile, tongue
 photo.3: ig://B6WSfxGFIsH/m
 photo.3.author: thecalgaryzoo
 photo.3.commitdate: 2020/2/25
@@ -79,5 +79,17 @@ photo.12.author: westcoast_kathy
 photo.12.commitdate: 2020/6/30
 photo.12.link: https://www.instagram.com/westcoast_kathy/
 photo.12.tags: mofumofu, portrait, snow
+photo.13: https://www.instagram.com/p/CGSTnS7h5Bw/media/?size=m
+photo.13.author: garseeyaink
+photo.13.link: https://www.instagram.com/garseeyaink/
+photo.13.tags: bamboo, bite, portrait
+photo.14: https://www.instagram.com/p/CFSgOG5BRQ1/media/?size=m
+photo.14.author: garseeyaink
+photo.14.link: https://www.instagram.com/garseeyaink/
+photo.14.tags: portrait, profile
+photo.15: https://www.instagram.com/p/CElAHDIhzI1/media/?size=m
+photo.15.author: garseeyaink
+photo.15.link: https://www.instagram.com/garseeyaink/
+photo.15.tags: portrait, smile
 species: 2
 zoo: 51
