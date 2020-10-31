@@ -709,6 +709,8 @@ Message.tag_subject = function(num, name, emoji, tag, language) {
   return message;
 }
 Message.trick_or_treat = function(language) {
+  var link = document.createElement('a')
+  link.href = "#query/pumpkin";
   var p = document.createElement('p');
   for (var i in L.messages.trick_or_treat[language]) {
     var field = L.messages.trick_or_treat[language][i];
@@ -721,5 +723,6 @@ Message.trick_or_treat = function(language) {
   var message = document.createElement('div');
   message.className = "halloweenSummary";
   message.appendChild(shrinker);
-  return message;
+  link.appendChild(message);
+  return link;
 }
