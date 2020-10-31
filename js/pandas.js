@@ -747,6 +747,15 @@ Pandas.searchPandaAnyPhoto = function() {
   return nodes;
 }
 
+// Find any panda or media entry with photos
+Pandas.searchPandaAnyPhotoMedia = function() {
+  var nodes = G.v().filter(function(vertex) {
+    return ((vertex["photo.1"] != undefined) && 
+            (vertex["website"] == undefined))
+  }).run();
+  return nodes;
+}
+
 // Find a panda's children
 Pandas.searchPandaChildren = function(idnum) {
   var nodes = G.v(idnum).out("family").run();

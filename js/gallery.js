@@ -1303,7 +1303,7 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
   var pumpkin_div  = document.createElement('div');
   var message = Message.trick_or_treat(language);
   pumpkin_div.appendChild(message);
-  var animals_photos = Pandas.searchPandaAnyPhoto();
+  var animals_photos = Pandas.searchPandaAnyPhotoMedia();
   var photos = Pandas.searchPhotoTags(animals_photos, ["pumpkin", "portrait"], "intersect", "none");
   for (let photo of Pandas.randomChoice(photos, photo_count)) {
     var img_link = document.createElement('a');
