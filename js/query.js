@@ -30,7 +30,7 @@ Query.env.paging.callback.arguments = [];
 Query.env.paging.callback.function = undefined;
 Query.env.paging.callback.frame_id = undefined;
 Query.env.paging.media_count = 10;
-Query.env.paging.results_count = 30;
+Query.env.paging.results_count = 20;
 // Paging seed, set to when the page was last loaded
 Query.env.paging.seed = Date.now();
 // Shown counter, for page refreshes
