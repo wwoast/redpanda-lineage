@@ -1151,7 +1151,9 @@ div.residentsHeader p {
 }
 
 div.halloweenSummary p {
-    background-color: gray;
+    background-color: black;
+    border-color: 1px solid white;
+    color: white;
 }
 
 div.frontPageSummary p.summaryEmphasis {
