@@ -17,25 +17,20 @@ language.order: en, jp
 litter: 815
 location.1: 121, 2017/6/14
 location.2: 152, 2018/2/6
-photo.1: ig://BgRFtciAFpJ/m
-photo.1.author: perissodactyls
-photo.1.commitdate: 2020/2/22
-photo.1.link: https://www.instagram.com/perissodactyls/
-photo.1.tags: mofumofu, whiskers
-photo.2: ig://BvWi2iYDYkf/m
+photo.1: ig://BvWi2iYDYkf/m
+photo.1.author: brookfieldzoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/brookfieldzoo/
+photo.1.tags: profile
+photo.2: ig://Bk27A40gf4w/m
 photo.2.author: brookfieldzoo
 photo.2.commitdate: 2019/4/7
 photo.2.link: https://www.instagram.com/brookfieldzoo/
-photo.2.tags: profile
-photo.3: ig://Bk27A40gf4w/m
-photo.3.author: brookfieldzoo
-photo.3.commitdate: 2019/4/7
-photo.3.link: https://www.instagram.com/brookfieldzoo/
-photo.3.tags: bamboo
-photo.4: ig://B6bNj3OpRJH/m
-photo.4.author: rossifari
-photo.4.commitdate: 2019/12/29
-photo.4.link: https://www.instagram.com/rossifari/
-photo.4.tags: portrait, tail, whiskers
+photo.2.tags: bamboo
+photo.3: ig://B6bNj3OpRJH/m
+photo.3.author: rossifari
+photo.3.commitdate: 2019/12/29
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: portrait, tail, whiskers
 species: 1
 zoo: 152
