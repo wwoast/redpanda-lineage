@@ -1152,7 +1152,7 @@ div.residentsHeader p {
 
 div.halloweenSummary p {
     background-color: black;
-    border-color: 1px solid white;
+    border: 1px solid white;
     color: white;
 }
 
