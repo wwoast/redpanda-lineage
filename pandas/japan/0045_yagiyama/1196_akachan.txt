@@ -23,17 +23,17 @@ photo.2.author: ifumoto88
 photo.2.commitdate: 2020/10/27
 photo.2.link: https://www.instagram.com/ifumoto88/
 photo.2.tags: baby, laying down, portrait, profile, smile
-photo.3: https://www.instagram.com/p/CG7gHc3B4mc/media/?size=m
-photo.3.author: ifumoto88
-photo.3.link: https://www.instagram.com/ifumoto88/
-photo.3.tags: baby, close-up, home, portrait, smile, whiskers
-photo.4: https://www.instagram.com/p/CG4t96MBmp2/media/?size=m
+photo.3: ig://CG39j2-h6n2/m
+photo.3.author: hidehaya_biei
+photo.3.link: https://www.instagram.com/hidehaya_biei/
+photo.3.tags: baby, close-up, home
+photo.4: ig://CG4t96MBmp2/m
 photo.4.author: ifumoto88
 photo.4.link: https://www.instagram.com/ifumoto88/
 photo.4.tags: baby, mofumofu, portrait
-photo.5: https://www.instagram.com/p/CG39j2-h6n2/media/?size=m
-photo.5.author: hidehaya_biei
-photo.5.link: https://www.instagram.com/hidehaya_biei/
-photo.5.tags: baby, close-up, home
+photo.5: ig://CG7gHc3B4mc/m
+photo.5.author: ifumoto88
+photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: baby, close-up, home, portrait, smile, whiskers
 species: 2
 zoo: 45

@@ -125,15 +125,15 @@ photo.22.author: ifumoto88
 photo.22.commitdate: 2020/9/4
 photo.22.link: https://www.instagram.com/ifumoto88/
 photo.22.tags: bamboo, mofumofu, old, portrait
-photo.23: ig://CG2eDEzhX54/m
-photo.23.author: mini_cochi
-photo.23.commitdate: 2020/10/27
-photo.23.link: https://www.instagram.com/mini_cochi/
-photo.23.tags: laying down, mofumofu, old, tail
-photo.24: https://www.instagram.com/p/CG0zehqhiX3/media/?size=m
-photo.24.author: sunnylettuce_2020
-photo.24.link: https://www.instagram.com/sunnylettuce_2020/
-photo.24.tags: bamboo, mofumofu, old, smile
+photo.23: ig://CG0zehqhiX3/m
+photo.23.author: sunnylettuce_2020
+photo.23.link: https://www.instagram.com/sunnylettuce_2020/
+photo.23.tags: bamboo, mofumofu, old, smile
+photo.24: ig://CG2eDEzhX54/m
+photo.24.author: mini_cochi
+photo.24.commitdate: 2020/10/27
+photo.24.link: https://www.instagram.com/mini_cochi/
+photo.24.tags: laying down, mofumofu, old, tail
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw

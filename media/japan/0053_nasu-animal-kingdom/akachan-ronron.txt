@@ -1,7 +1,8 @@
 [media]
 _id: media.53.akachan-ronron
+commitdate: 2020/11/1
 panda.tags: 190, 1209
-photo.1: https://www.instagram.com/p/CGztqWdBxWJ/media/?size=l
+photo.1: ig://CGztqWdBxWJ/l
 photo.1.author: monmon_redpanda
 photo.1.link: https://www.instagram.com/monmon_redpanda/
 photo.1.tags: apple time, baby, bamboo, mother's day

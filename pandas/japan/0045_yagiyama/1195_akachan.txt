@@ -23,14 +23,14 @@ photo.2.author: ifumoto88
 photo.2.commitdate: 2020/10/27
 photo.2.link: https://www.instagram.com/ifumoto88/
 photo.2.tags: baby, mofumofu, portrait, tail
-photo.3: ig://CG1zJxLh1TQ/m
-photo.3.author: _saaaaaaah_
-photo.3.commitdate: 2020/10/27
-photo.3.link: https://www.instagram.com/_saaaaaaah_/
-photo.3.tags: baby, bamboo, home
-photo.4: https://www.instagram.com/p/CG1VJq2hIXM/media/?size=m
-photo.4.author: panda.daisuki
-photo.4.link: https://www.instagram.com/panda.daisuki/
-photo.4.tags: baby, mofumofu, portrait, tail
+photo.3: ig://CG1VJq2hIXM/m
+photo.3.author: panda.daisuki
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: baby, mofumofu, portrait, tail
+photo.4: ig://CG1zJxLh1TQ/m
+photo.4.author: _saaaaaaah_
+photo.4.commitdate: 2020/10/27
+photo.4.link: https://www.instagram.com/_saaaaaaah_/
+photo.4.tags: baby, bamboo, home
 species: 2
 zoo: 45

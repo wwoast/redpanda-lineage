@@ -460,15 +460,15 @@ photo.89.author: firefoxpanda88
 photo.89.commitdate: 2020/10/29
 photo.89.link: https://www.instagram.com/firefoxpanda88/
 photo.89.tags: mofumofu, paws, portrait, tongue, tree
-photo.90: ig://CG138b0Bos-/m
-photo.90.author: pink.b22
-photo.90.commitdate: 2020/10/27
-photo.90.link: https://www.instagram.com/pink.b22/
-photo.90.tags: portrait, smile, whiskers
-photo.91: https://www.instagram.com/p/CG00W-ZB-R6/media/?size=m
-photo.91.author: alto0908
-photo.91.link: https://www.instagram.com/alto0908/
-photo.91.tags: apple time, keeper, nose, smile
+photo.90: ig://CG00W-ZB-R6/m
+photo.90.author: alto0908
+photo.90.link: https://www.instagram.com/alto0908/
+photo.90.tags: apple time, keeper, nose, smile
+photo.91: ig://CG138b0Bos-/m
+photo.91.author: pink.b22
+photo.91.commitdate: 2020/10/27
+photo.91.link: https://www.instagram.com/pink.b22/
+photo.91.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 1295
 zoo: 18
