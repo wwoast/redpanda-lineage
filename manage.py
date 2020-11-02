@@ -427,6 +427,11 @@ def sort_ig_updates():
                              current_commit,
                              ignore_blank_lines=True,
                              ignore_space_at_eol=True)
+    # Start by adding entity and photo commit dates, since this process can
+    # change the URIs for doing tracking in the commits
+    update_entity_commit_dates(prior_commit.hexsha)
+    update_photo_commit_dates(prior_commit.hexsha)
+    # Now do the sorting and rewriting
     patch = PatchSet(diff_raw)
     for change in patch:
         filename = change.path
@@ -438,9 +443,6 @@ def sort_ig_updates():
             continue
         elif change.added > 0:
             sort_ig_hashes(filename)
-    # Finish by adding entity and photo commit dates
-    update_entity_commit_dates(prior_commit.hexsha)
-    update_photo_commit_dates(prior_commit.hexsha)
 
 def update_entity_commit_dates(starting_commit, force=False):
     """

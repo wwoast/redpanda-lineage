@@ -801,8 +801,9 @@ photo.160.author: miis_98
 photo.160.commitdate: 2020/10/16
 photo.160.link: https://www.instagram.com/miis_98/
 photo.160.tags: apple time, paws, portrait, smile, whiskers
-photo.161: https://www.instagram.com/p/CGb3PHRhhJH/media/?size=m
+photo.161: ig://CGb3PHRhhJH/m
 photo.161.author: hamamatsu.chiita
+photo.161.commitdate: 2020/11/2
 photo.161.link: https://www.instagram.com/hamamatsu.chiita/
 photo.161.tags: mofumofu, portrait, whiskers
 species: 2

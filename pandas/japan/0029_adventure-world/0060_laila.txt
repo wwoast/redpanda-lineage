@@ -170,8 +170,9 @@ photo.31.author: chankunvv
 photo.31.commitdate: 2020/9/10
 photo.31.link: https://www.instagram.com/chankunvv/
 photo.31.tags: mofumofu, portrait
-photo.32: https://www.instagram.com/p/CGb2QfoB85_/media/?size=m
+photo.32: ig://CGb2QfoB85_/m
 photo.32.author: chankunvv
+photo.32.commitdate: 2020/11/2
 photo.32.link: https://www.instagram.com/chankunvv/
 photo.32.tags: paws, portrait, smile
 species: 2

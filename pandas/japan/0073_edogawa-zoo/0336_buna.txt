@@ -320,8 +320,9 @@ photo.61.author: grskus_tk
 photo.61.commitdate: 2020/10/9
 photo.61.link: https://www.instagram.com/grskus_tk/
 photo.61.tags: tail, tongue
-photo.62: https://www.instagram.com/p/CGe3hONBVjV/media/?size=m
+photo.62: ig://CGe3hONBVjV/m
 photo.62.author: na.mo.pan
+photo.62.commitdate: 2020/11/2
 photo.62.link: https://www.instagram.com/na.mo.pan/
 photo.62.tags: dig, tail
 species: 2
