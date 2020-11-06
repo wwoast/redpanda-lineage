@@ -179,8 +179,9 @@ photo.33.author: kipekaila
 photo.33.commitdate: 2020/10/1
 photo.33.link: https://www.instagram.com/kipekaila/
 photo.33.tags: mofumofu, portrait
-photo.34: https://www.instagram.com/p/CHCAR8XhBtY/media/?size=m
+photo.34: ig://CHCAR8XhBtY/m
 photo.34.author: ifumoto88
+photo.34.commitdate: 2020/11/6
 photo.34.link: https://www.instagram.com/ifumoto88/
 photo.34.tags: peek, portrait, white face
 species: 2

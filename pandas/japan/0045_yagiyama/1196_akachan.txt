@@ -38,8 +38,9 @@ photo.5.author: ifumoto88
 photo.5.commitdate: 2020/11/1
 photo.5.link: https://www.instagram.com/ifumoto88/
 photo.5.tags: baby, close-up, home, portrait, smile, whiskers
-photo.6: https://www.instagram.com/p/CHBmk-ohXGB/media/?size=m
+photo.6: ig://CHBmk-ohXGB/m
 photo.6.author: hidehaya_biei
+photo.6.commitdate: 2020/11/6
 photo.6.link: https://www.instagram.com/hidehaya_biei/
 photo.6.tags: baby, close-up, mofumofu, nose
 species: 2

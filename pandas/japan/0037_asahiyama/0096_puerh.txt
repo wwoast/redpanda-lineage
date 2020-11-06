@@ -232,8 +232,9 @@ photo.44.author: leonard_redmof
 photo.44.commitdate: 2020/10/29
 photo.44.link: https://www.instagram.com/leonard_redmof/
 photo.44.tags: baby, mofumofu, portrait
-photo.45: https://www.instagram.com/p/CHC79eqhVOZ/media/?size=m
+photo.45: ig://CHC79eqhVOZ/m
 photo.45.author: jas_forever_love
+photo.45.commitdate: 2020/11/6
 photo.45.link: https://www.instagram.com/jas_forever_love/
 photo.45.tags: autumn, paws, portrait, tail
 species: 2

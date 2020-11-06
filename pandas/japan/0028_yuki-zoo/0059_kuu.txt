@@ -314,15 +314,16 @@ photo.60.author: pink.b22
 photo.60.commitdate: 2020/11/1
 photo.60.link: https://www.instagram.com/pink.b22/
 photo.60.tags: mofumofu, peek, paws, tail
-photo.61: ig://CHND0HTBm5g/m
+photo.61: ig://CHAJAdaBZXb/m
 photo.61.author: pink.b22
-photo.61.commitdate: 2020/11/5
+photo.61.commitdate: 2020/11/6
 photo.61.link: https://www.instagram.com/pink.b22/
-photo.61.tags: mofumofu, paws, portrait, tail
-photo.62: https://www.instagram.com/p/CHAJAdaBZXb/media/?size=m
+photo.61.tags: mofumofu, paws, tail
+photo.62: ig://CHND0HTBm5g/m
 photo.62.author: pink.b22
+photo.62.commitdate: 2020/11/5
 photo.62.link: https://www.instagram.com/pink.b22/
-photo.62.tags: mofumofu, paws, tail
+photo.62.tags: mofumofu, paws, portrait, tail
 species: 2
 studbook.id: 0865
 zoo: 28

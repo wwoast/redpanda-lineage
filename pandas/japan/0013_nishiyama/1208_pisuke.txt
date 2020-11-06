@@ -133,12 +133,14 @@ photo.24.author: kipekaila
 photo.24.commitdate: 2020/11/1
 photo.24.link: https://www.instagram.com/kipekaila/
 photo.24.tags: apple time, baby, bamboo, mofumofu, smile
-photo.25: https://www.instagram.com/p/CHC4inzBW2D/media/?size=m
+photo.25: ig://CHC4inzBW2D/m
 photo.25.author: redpanda_nippon_takashi
+photo.25.commitdate: 2020/11/6
 photo.25.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.25.tags: baby, climb, paws
-photo.26: https://www.instagram.com/p/CHC5QJBhdGw/media/?size=m
+photo.26: ig://CHC5QJBhdGw/m
 photo.26.author: redpanda_nippon_takashi
+photo.26.commitdate: 2020/11/6
 photo.26.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.26.tags: baby, close-up, mofumofu
 species: 2

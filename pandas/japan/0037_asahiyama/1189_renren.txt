@@ -28,8 +28,9 @@ photo.3.author: an920000
 photo.3.commitdate: 2020/10/16
 photo.3.link: https://www.instagram.com/an920000/
 photo.3.tags: baby, door, home, mofumofu, portrait
-photo.4: https://www.instagram.com/p/CHAZaz2BsL4/media/?size=m
+photo.4: ig://CHAZaz2BsL4/m
 photo.4.author: framereim
+photo.4.commitdate: 2020/11/6
 photo.4.link: https://www.instagram.com/framereim/
 photo.4.tags: baby, mofumofu, portrait, surprise, tail
 species: 2

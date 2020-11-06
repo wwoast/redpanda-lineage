@@ -988,8 +988,9 @@ photo.200.author: cattail.sapporo
 photo.200.commitdate: 2020/10/16
 photo.200.link: https://www.instagram.com/cattail.sapporo/
 photo.200.tags: portrait, tree
-photo.201: https://www.instagram.com/p/CG-2IDMgRyY/media/?size=m
+photo.201: ig://CG-2IDMgRyY/m
 photo.201.author: cattail.sapporo
+photo.201.commitdate: 2020/11/6
 photo.201.link: https://www.instagram.com/cattail.sapporo/
 photo.201.tags: portrait, tail
 species: 2

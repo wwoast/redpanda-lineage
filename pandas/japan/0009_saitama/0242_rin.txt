@@ -518,8 +518,9 @@ photo.101.author: kipekaila
 photo.101.commitdate: 2020/10/9
 photo.101.link: https://www.instagram.com/kipekaila/
 photo.101.tags: portrait, tree
-photo.102: https://www.instagram.com/p/CHCBGXhBBEA/media/?size=m
+photo.102: ig://CHCBGXhBBEA/m
 photo.102.author: panda.daisuki
+photo.102.commitdate: 2020/11/6
 photo.102.link: https://www.instagram.com/panda.daisuki/
 photo.102.tags: paws, portrait, standing, white face
 species: 2

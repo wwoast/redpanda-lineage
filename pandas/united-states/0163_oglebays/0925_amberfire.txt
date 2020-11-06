@@ -19,23 +19,24 @@ location.2: 109, 2004/11/12
 location.3: 116, 2006/4/5
 location.4: 123, 2007/3/5
 location.5: 163, 2009/9/18
-photo.1: ig://ByjZf7aB44G/m
-photo.1.author: worldthathesees
-photo.1.commitdate: 2019/7/7
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: profile
+photo.1: ig://Bb-X0dWj7Ik/m
+photo.1.author: squiddmeow
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/squiddmeow/
+photo.1.tags: home, peek
 photo.2: ig://Bisk7LfHFUQ/m
 photo.2.author: emmalemma19
 photo.2.commitdate: 2019/7/15
 photo.2.link: https://www.instagram.com/emmalemma19/
 photo.2.tags: tail
-photo.3: ig://Bb-X0dWj7Ik/m
-photo.3.author: squiddmeow
-photo.3.commitdate: 2019/7/15
-photo.3.link: https://www.instagram.com/squiddmeow/
-photo.3.tags: home, peek
-photo.4: https://www.instagram.com/p/CGzeXmrgmaN/media/?size=m
+photo.3: ig://ByjZf7aB44G/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/7/7
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: profile
+photo.4: ig://CGzeXmrgmaN/m
 photo.4.author: rossifari
+photo.4.commitdate: 2020/11/6
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: tail, white face
 species: 1

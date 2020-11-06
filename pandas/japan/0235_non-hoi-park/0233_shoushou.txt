@@ -355,15 +355,16 @@ photo.68.author: taka__3428
 photo.68.commitdate: 2020/10/11
 photo.68.link: https://www.instagram.com/taka__3428/
 photo.68.tags: peek, whiskers
-photo.69: ig://CHJmksYhK32/m
-photo.69.author: ayusuke56
-photo.69.commitdate: 2020/11/5
-photo.69.link: https://www.instagram.com/ayusuke56/
-photo.69.tags: ear, portrait, smile
-photo.70: https://www.instagram.com/p/CG-_HALh1lC/media/?size=m
-photo.70.author: hamamatsu.chiita
-photo.70.link: https://www.instagram.com/hamamatsu.chiita/
-photo.70.tags: smile
+photo.69: ig://CG-_HALh1lC/m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2020/11/6
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: smile
+photo.70: ig://CHJmksYhK32/m
+photo.70.author: ayusuke56
+photo.70.commitdate: 2020/11/5
+photo.70.link: https://www.instagram.com/ayusuke56/
+photo.70.tags: ear, portrait, smile
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
