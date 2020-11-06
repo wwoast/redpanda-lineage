@@ -943,19 +943,15 @@ Language.L.messages = {
   "lunch_time": {
     "cn": [Language.L.emoji.paws, " ",
            "午饭吃什么？", " ",
-           Language.L.emoji.bamboo + " " + 
            Language.L.emoji.greens],
     "en": [Language.L.emoji.paws, " ",
            "What's for lunch?", " ",
-           Language.L.emoji.bamboo + " " + 
            Language.L.emoji.greens],
     "jp": [Language.L.emoji.paws, " ",
            "昼食は何ですか？", " ",
-           Language.L.emoji.bamboo + " " + 
            Language.L.emoji.greens],
     "np": [Language.L.emoji.paws, " ",
            "खाजाको लागि के हो?", " ",
-           Language.L.emoji.bamboo + " " + 
            Language.L.emoji.greens],
   },
   "missing_you": {
