@@ -165,8 +165,9 @@ photo.30.author: miis_98
 photo.30.commitdate: 2020/9/24
 photo.30.link: https://www.instagram.com/miis_98/
 photo.30.tags: bite, lunch time
-photo.31: https://www.instagram.com/p/CHF4fkBhs_H/media/?size=m
+photo.31: ig://CHF4fkBhs_H/m
 photo.31.author: mini_cochi
+photo.31.commitdate: 2020/11/5
 photo.31.link: https://www.instagram.com/mini_cochi/
 photo.31.tags: bamboo, mofumofu, portrait
 species: 2

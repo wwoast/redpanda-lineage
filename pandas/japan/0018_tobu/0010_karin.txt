@@ -470,8 +470,9 @@ photo.91.author: pink.b22
 photo.91.commitdate: 2020/10/27
 photo.91.link: https://www.instagram.com/pink.b22/
 photo.91.tags: portrait, smile, whiskers
-photo.92: https://www.instagram.com/p/CHNnwoGBisE/media/?size=m
+photo.92: ig://CHNnwoGBisE/m
 photo.92.author: eos1089
+photo.92.commitdate: 2020/11/5
 photo.92.link: https://www.instagram.com/eos1089/
 photo.92.tags: mofumofu, portrait
 species: 2

@@ -408,24 +408,25 @@ photo.79.author: love__mitarashi
 photo.79.commitdate: 2020/10/9
 photo.79.link: https://www.instagram.com/love__mitarashi/
 photo.79.tags: laying down
-photo.80: ig://CGmWQ5vhWJO/m
-photo.80.author: apple_jasmine33
-photo.80.commitdate: 2020/10/29
-photo.80.link: https://www.instagram.com/apple_jasmine33/
-photo.80.tags: door
-photo.81: ig://CGwChF8hkdw/m
-photo.81.author: gloryeui
+photo.80: ig://CGeteNcBPqA/m
+photo.80.author: redpanda_nippon_takashi
+photo.80.commitdate: 2020/11/5
+photo.80.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.80.tags: grumpy, home, white face
+photo.81: ig://CGmWQ5vhWJO/m
+photo.81.author: apple_jasmine33
 photo.81.commitdate: 2020/10/29
-photo.81.link: https://www.instagram.com/gloryeui/
-photo.81.tags: home, laying down, peek, portrait, smile, tail
-photo.82: ig://CG4nmg2hJRU/m
+photo.81.link: https://www.instagram.com/apple_jasmine33/
+photo.81.tags: door
+photo.82: ig://CGwChF8hkdw/m
 photo.82.author: gloryeui
-photo.82.commitdate: 2020/11/1
+photo.82.commitdate: 2020/10/29
 photo.82.link: https://www.instagram.com/gloryeui/
-photo.82.tags: portrait, smile, tail
-photo.83: https://www.instagram.com/p/CGeteNcBPqA/media/?size=m
-photo.83.author: redpanda_nippon_takashi
-photo.83.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.83.tags: grumpy, home, white face
+photo.82.tags: home, laying down, peek, portrait, smile, tail
+photo.83: ig://CG4nmg2hJRU/m
+photo.83.author: gloryeui
+photo.83.commitdate: 2020/11/1
+photo.83.link: https://www.instagram.com/gloryeui/
+photo.83.tags: portrait, smile, tail
 species: 2
 zoo: 61

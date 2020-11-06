@@ -617,8 +617,9 @@ photo.121.author: colette.jp
 photo.121.commitdate: 2020/10/2
 photo.121.link: https://www.instagram.com/colette.jp/
 photo.121.tags: home, paws, portrait, tree
-photo.122: https://www.instagram.com/p/CHKmUcqh0yB/media/?size=m
+photo.122: ig://CHKmUcqh0yB/m
 photo.122.author: colette.jp
+photo.122.commitdate: 2020/11/5
 photo.122.link: https://www.instagram.com/colette.jp/
 photo.122.tags: paws, portrait, smile, standing
 species: 2

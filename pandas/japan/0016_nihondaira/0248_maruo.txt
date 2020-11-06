@@ -258,8 +258,9 @@ photo.49.author: monmon_redpanda
 photo.49.commitdate: 2020/10/2
 photo.49.link: https://www.instagram.com/monmon_redpanda/
 photo.49.tags: paws, portrait
-photo.50: https://www.instagram.com/p/CHH8X0zhqi5/media/?size=m
+photo.50: ig://CHH8X0zhqi5/m
 photo.50.author: fetorus_mami
+photo.50.commitdate: 2020/11/5
 photo.50.link: https://www.instagram.com/fetorus_mami/
 photo.50.tags: lips, portrait, smile
 species: 2

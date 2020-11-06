@@ -162,16 +162,19 @@ photo.30.author: osopanda551
 photo.30.commitdate: 2020/7/13
 photo.30.link: https://www.instagram.com/osopanda551/
 photo.30.tags: bamboo, lips, portrait
-photo.31: https://www.instagram.com/p/CHJFrz2AUU1/media/?size=m
-photo.31.author: run.swim.shingo
-photo.31.link: https://www.instagram.com/run.swim.shingo/
-photo.31.tags: air tasting, laying down, paws, tongue
-photo.32: https://www.instagram.com/p/CHIkj4ahhbf/media/?size=m
-photo.32.author: minatomirai215
-photo.32.link: https://www.instagram.com/minatomirai215/
-photo.32.tags: mofumofu, paws, portrait, tree
-photo.33: https://www.instagram.com/p/CHNdnaihrV9/media/?size=m
+photo.31: ig://CHIkj4ahhbf/m
+photo.31.author: minatomirai215
+photo.31.commitdate: 2020/11/5
+photo.31.link: https://www.instagram.com/minatomirai215/
+photo.31.tags: mofumofu, paws, portrait, tree
+photo.32: ig://CHJFrz2AUU1/m
+photo.32.author: run.swim.shingo
+photo.32.commitdate: 2020/11/5
+photo.32.link: https://www.instagram.com/run.swim.shingo/
+photo.32.tags: air tasting, laying down, paws, tongue
+photo.33: ig://CHNdnaihrV9/m
 photo.33.author: pantasanzoo1
+photo.33.commitdate: 2020/11/5
 photo.33.link: https://www.instagram.com/pantasanzoo1/
 photo.33.tags: air tasting, close-up, laying down, tongue
 species: 2

@@ -28,8 +28,9 @@ photo.3.author: tama67photo
 photo.3.commitdate: 2020/11/1
 photo.3.link: https://www.instagram.com/tama67photo/
 photo.3.tags: baby, paws, portrait
-photo.4: https://www.instagram.com/p/CHKrjzsBbd0/media/?size=m
+photo.4: ig://CHKrjzsBbd0/m
 photo.4.author: jas_forever_love
+photo.4.commitdate: 2020/11/5
 photo.4.link: https://www.instagram.com/jas_forever_love/
 photo.4.tags: baby, bamboo, home, paws, smile
 species: 2

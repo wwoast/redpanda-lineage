@@ -1140,8 +1140,9 @@ photo.227.author: mari_neko3
 photo.227.commitdate: 2020/10/29
 photo.227.link: https://www.instagram.com/mari_neko3/
 photo.227.tags: mofumofu, portrait
-photo.228: https://www.instagram.com/p/CHGrvXngFzZ/media/?size=m
+photo.228: ig://CHGrvXngFzZ/m
 photo.228.author: cattail.sapporo
+photo.228.commitdate: 2020/11/5
 photo.228.link: https://www.instagram.com/cattail.sapporo/
 photo.228.tags: close-up, mofumofu, portrait, whiskers
 species: 2
