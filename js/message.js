@@ -294,6 +294,24 @@ Message.lostAnimal = function(name, animal_id, zoo_name, zoo_contact, language) 
   message.appendChild(shrinker);
   return message;
 }
+Message.lunch_time = function(language) {
+  var link = document.createElement('a')
+  link.href = "#query/lunch time";
+  var p = document.createElement('p');
+  for (var i in L.messages.lunch_time[language]) {
+    var field = L.messages.lunch_time[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
+  message.appendChild(shrinker);
+  link.appendChild(message);
+  return link;
+}
 Message.memorial = function(name, animal_id, birth, death, language) {
   var link = document.createElement('a');
   link.href = "#panda/" + animal_id;
@@ -620,6 +638,24 @@ Message.residents = function(zoo, language) {
   message.className = "residentsHeader";
   message.appendChild(shrinker);
   return message;
+}
+Message.shovel_pandas = function(language) {
+  var link = document.createElement('a')
+  link.href = "#query/dig";
+  var p = document.createElement('p');
+  for (var i in L.messages.shovel_pandas[language]) {
+    var field = L.messages.shovel_pandas[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
+  message.appendChild(shrinker);
+  link.appendChild(message);
+  return link;
 }
 Message.tag_combo = function(num, emojis, language) {
   var p = document.createElement('p');

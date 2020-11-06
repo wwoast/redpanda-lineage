@@ -1364,3 +1364,62 @@ Gallery.special.pumpkin = function(language, photo_count=5) {
   }
   return pumpkin_div;
 }
+
+// Slightly more general than the pumpkin function, but doesn't take the special
+// message styles yet. Iterate on this until it can be a "front page gallery"
+// generator for anything I might want.
+Gallery.special.taglist = function(language, photo_count=5, taglist, message_function) {
+  var div  = document.createElement('div');
+  var message = message_function(language);
+  div.appendChild(message);
+  var animals_photos = Pandas.searchPandaAnyPhotoMedia();
+  var photos = Pandas.searchPhotoTags(animals_photos, taglist, "intersect", "none");
+  for (let photo of Pandas.randomChoice(photos, photo_count)) {
+    var img_link = document.createElement('a');
+    // Link to the original instagram media
+    img_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
+    var img = document.createElement('img');
+    img.setAttribute("loading", "lazy");
+    // Set the photo, even if it takes an extra XHR
+    Gallery.url.process(img, photo["photo"]);
+    img_link.appendChild(img);
+    // Animal name
+    var name_caption_link = document.createElement('a');
+    name_caption_link.href = "#panda/" + photo.id + "/photo/" + photo["photo.index"];
+    var name_caption = document.createElement('h5');
+    name_caption.className = "caption updateName";
+    var name_caption_span = document.createElement('span');
+    var animal = Pandas.searchPandaId(photo.id)[0];
+    var updateName = undefined;
+    if (photo.id.indexOf("media.") == 0) {
+      updateName = Pandas.groupMediaCaption(animal, "photo." + photo["photo.index"]);
+      var panda_route = animal["panda.tags"].split(", ").join("/");
+      name_caption_link.href = "#group/" + panda_route;
+    } else {
+      var info = Show.acquirePandaInfo(animal, L.display);
+      updateName = info.name;
+    }
+    name_caption_span.innerText = updateName;
+    name_caption.appendChild(name_caption_span);
+    name_caption_link.appendChild(name_caption);
+    // Link to the original instagram media
+    var credit_caption_link = document.createElement('a');
+    credit_caption_link.href = Gallery.url.href(photo["photo"]);
+    credit_caption_link.target = "_blank";   // Open in new tab
+    var credit_caption = document.createElement('h5');
+    credit_caption.className = "caption updateAuthor";
+    var credit_caption_span = document.createElement('span');
+    credit_caption_span.innerText = Language.L.emoji.camera + " " + photo["photo.author"];
+    // TODO: condenser
+    credit_caption.appendChild(credit_caption_span);
+    credit_caption_link.appendChild(credit_caption);
+    var container = document.createElement('div');
+    container.className = "photoSample quarterPage";
+    container.appendChild(img_link);
+    container.appendChild(name_caption_link);
+    container.appendChild(credit_caption_link);
+    div.appendChild(container);
+  }
+  return div;
+}
+

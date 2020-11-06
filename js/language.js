@@ -213,6 +213,7 @@ Language.L.emoji = {
         "tongue": "👅",
        "tornado": "🌪️",
         "travel": "✈️",
+      "treasure": "💎",
           "tree": "🌳",
          "truck": "🚚",
    "upside_down": "🙃",
@@ -938,6 +939,24 @@ Language.L.messages = {
            ": ",
            "<ZOOCONTACT>"],
   },
+  "lunch_time": {
+    "cn": [Language.L.emoji.paws, " ",
+           "午饭吃什么？", " ",
+           Language.L.emoji.bamboo + " " + 
+           Language.L.emoji.flower],
+    "en": [Language.L.emoji.paws, " ",
+           "What's for lunch?", " ",
+           Language.L.emoji.bamboo + " " + 
+           Language.L.emoji.flower],
+    "jp": [Language.L.emoji.paws, " ",
+           "昼食は何ですか？", " ",
+           Language.L.emoji.bamboo + " " + 
+           Language.L.emoji.flower],
+    "np": [Language.L.emoji.paws, " ",
+           "खाजाको लागि के हो?", " ",
+           Language.L.emoji.bamboo + " " + 
+           Language.L.emoji.flower],
+  },
   "missing_you": {
     "cn": ["我们想你, ",
            "<INSERTNAME>",
@@ -1510,6 +1529,20 @@ Language.L.messages = {
            "<INSERTNAMES>",
            ": हामी तिमीलाई कहिल्यै बिर्सिने छैनौं। ",
            Language.L.emoji.paws]
+  },
+  "shovel_pandas": {
+    "cn": [Language.L.emoji.dig, " ",
+           "寻找埋藏的宝藏", " ",
+           Language.L.emoji.treasure],
+    "en": [Language.L.emoji.dig, " ",
+           "Searching for buried treasure!", " ",
+           Language.L.emoji.treasure],
+    "jp": [Language.L.emoji.dig, " ",
+           "埋蔵金を探す", " ",
+           Language.L.emoji.treasure],
+    "np": [Language.L.emoji.dig, " ",
+           "गाडिएको खजाना खोजी गर्दै", " ",
+           Language.L.emoji.treasure]
   },
   "tag_combo": {
     "cn": ["组合搜索:",

@@ -295,8 +295,10 @@ Page.home.render = function() {
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["261"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
-    var halloween = Gallery.special.pumpkin(L.display);
-    new_content.appendChild(halloween);
+    // Special galleries
+    // var special = Gallery.special.taglist(L.display, 3, ["dig"], Message.shovel_pandas);
+    var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
+    new_content.appendChild(special);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
