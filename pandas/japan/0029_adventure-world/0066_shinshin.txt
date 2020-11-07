@@ -39,15 +39,15 @@ photo.5.author: kipekaila
 photo.5.commitdate: 2019/12/31
 photo.5.link: https://www.instagram.com/kipekaila/
 photo.5.tags: portrait, tree
-photo.6: ig://B7vRDsYh4j2/m
-photo.6.author: fetorus_mami
+photo.6: ig://B7miu9pBrEQ/m
+photo.6.author: sasapan34
 photo.6.commitdate: 2020/1/25
-photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: paws, smile
-photo.7: ig://B7miu9pBrEQ/m
-photo.7.author: sasapan34
+photo.6.link: https://www.instagram.com/sasapan34/
+photo.7: ig://B7vRDsYh4j2/m
+photo.7.author: fetorus_mami
 photo.7.commitdate: 2020/1/25
-photo.7.link: https://www.instagram.com/sasapan34/
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: paws, smile
 photo.8: ig://B8gNXWkBlQg/m
 photo.8.author: redpanda_nippon_takashi
 photo.8.commitdate: 2020/2/17
@@ -58,14 +58,16 @@ photo.9.author: miis_98
 photo.9.commitdate: 2020/2/28
 photo.9.link: https://www.instagram.com/miis_98/
 photo.9.tags: paws, portrait, smile
-photo.10: https://www.instagram.com/p/CExsF0eBxHP/media/?size=m
+photo.10: ig://CEttuixh89v/m
 photo.10.author: chankunvv
+photo.10.commitdate: 2020/11/6
 photo.10.link: https://www.instagram.com/chankunvv/
-photo.10.tags: mofumofu, portrait, smile, tail
-photo.11: https://www.instagram.com/p/CEttuixh89v/media/?size=m
+photo.10.tags: door, paws, portrait
+photo.11: ig://CExsF0eBxHP/m
 photo.11.author: chankunvv
+photo.11.commitdate: 2020/11/6
 photo.11.link: https://www.instagram.com/chankunvv/
-photo.11.tags: door, paws, portrait
+photo.11.tags: mofumofu, portrait, smile, tail
 species: 2
 studbook.id: 1099
 zoo: 29

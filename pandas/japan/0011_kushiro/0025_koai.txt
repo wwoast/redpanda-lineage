@@ -344,15 +344,16 @@ photo.67.author: takahisakaneuchi
 photo.67.commitdate: 2020/9/6
 photo.67.link: https://www.instagram.com/takahisakaneuchi/
 photo.67.tags: home, laying down, peek, portrait, tail, whiskers
-photo.68: ig://CG0LCMih_zT/m
-photo.68.author: minatomirai215
-photo.68.commitdate: 2020/10/27
-photo.68.link: https://www.instagram.com/minatomirai215/
-photo.68.tags: portrait, whiskers
-photo.69: https://www.instagram.com/p/CFPLf0RBp94/media/?size=m
-photo.69.author: leonard_redmof
-photo.69.link: https://www.instagram.com/leonard_redmof/
-photo.69.tags: paws, portrait
+photo.68: ig://CFPLf0RBp94/m
+photo.68.author: leonard_redmof
+photo.68.commitdate: 2020/11/6
+photo.68.link: https://www.instagram.com/leonard_redmof/
+photo.68.tags: paws, portrait
+photo.69: ig://CG0LCMih_zT/m
+photo.69.author: minatomirai215
+photo.69.commitdate: 2020/10/27
+photo.69.link: https://www.instagram.com/minatomirai215/
+photo.69.tags: portrait, whiskers
 species: 2
 studbook.id: 0458
 zoo: 11

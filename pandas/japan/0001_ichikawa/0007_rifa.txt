@@ -449,24 +449,26 @@ photo.88.author: grskus_tk
 photo.88.commitdate: 2020/8/5
 photo.88.link: https://www.instagram.com/grskus_tk/
 photo.88.tags: portrait
-photo.89: ig://CGMbJuPhOrF/m
-photo.89.author: ssc6105
-photo.89.commitdate: 2020/10/11
-photo.89.link: https://www.instagram.com/ssc6105/
-photo.89.tags: paws, surprise
-photo.90: ig://CG01lK-hAXx/m
-photo.90.author: _rifa_p
-photo.90.commitdate: 2020/11/1
-photo.90.link: https://www.instagram.com/_rifa_p/
-photo.90.tags: keeper, smile
-photo.91: https://www.instagram.com/p/CFcQ34ZBYvM/media/?size=m
-photo.91.author: ifumoto88
-photo.91.link: https://www.instagram.com/ifumoto88/
-photo.91.tags: playing, portrait, toys
-photo.92: https://www.instagram.com/p/CFPWe5sB9d_/media/?size=m
-photo.92.author: ifumoto88
-photo.92.link: https://www.instagram.com/ifumoto88/
-photo.92.tags: bite, playing, portrait, toys
+photo.89: ig://CFPWe5sB9d_/m
+photo.89.author: ifumoto88
+photo.89.commitdate: 2020/11/6
+photo.89.link: https://www.instagram.com/ifumoto88/
+photo.89.tags: bite, playing, portrait, toys
+photo.90: ig://CFcQ34ZBYvM/m
+photo.90.author: ifumoto88
+photo.90.commitdate: 2020/11/6
+photo.90.link: https://www.instagram.com/ifumoto88/
+photo.90.tags: playing, portrait, toys
+photo.91: ig://CGMbJuPhOrF/m
+photo.91.author: ssc6105
+photo.91.commitdate: 2020/10/11
+photo.91.link: https://www.instagram.com/ssc6105/
+photo.91.tags: paws, surprise
+photo.92: ig://CG01lK-hAXx/m
+photo.92.author: _rifa_p
+photo.92.commitdate: 2020/11/1
+photo.92.link: https://www.instagram.com/_rifa_p/
+photo.92.tags: keeper, smile
 species: 2
 studbook.id: 13147
 zoo: 1

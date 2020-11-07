@@ -116,14 +116,16 @@ photo.21.author: mini_cochi
 photo.21.commitdate: 2020/8/22
 photo.21.link: https://www.instagram.com/mini_cochi/
 photo.21.tags: mofumofu, portrait, smile
-photo.22: https://www.instagram.com/p/CFPOmD6BgcQ/media/?size=m
-photo.22.author: fetorus_mami
-photo.22.link: https://www.instagram.com/fetorus_mami/
-photo.22.tags: old, mofumofu, smile
-photo.23: https://www.instagram.com/p/CD8QAs1BvH0/media/?size=m
-photo.23.author: miis_98
-photo.23.link: https://www.instagram.com/miis_98/
-photo.23.tags: apple time, old, paws
+photo.22: ig://CD8QAs1BvH0/m
+photo.22.author: miis_98
+photo.22.commitdate: 2020/11/6
+photo.22.link: https://www.instagram.com/miis_98/
+photo.22.tags: apple time, old, paws
+photo.23: ig://CFPOmD6BgcQ/m
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2020/11/6
+photo.23.link: https://www.instagram.com/fetorus_mami/
+photo.23.tags: old, mofumofu, smile
 species: 1
 studbook.id: 0577
 uncertainty: death month/day

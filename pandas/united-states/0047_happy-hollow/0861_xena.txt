@@ -226,19 +226,20 @@ photo.42.author: hhpzoo
 photo.42.commitdate: 2020/8/28
 photo.42.link: https://www.instagram.com/hhpzoo/
 photo.42.tags: bamboo, paws, portrait, videolink
-photo.43: ig://CFU6HNyjQgE/m
+photo.43: ig://CFSIvTYnZ1k/m
 photo.43.author: hhpzoo
-photo.43.commitdate: 2020/9/24
+photo.43.commitdate: 2020/11/6
 photo.43.link: https://www.instagram.com/hhpzoo/
-photo.43.tags: portrait, white face
-photo.44: ig://CFVFXWChgtM/m
-photo.44.author: wumpwoast
-photo.44.commitdate: 2020/9/20
-photo.44.link: https://www.instagram.com/wumpwoast/
-photo.44.tags: bamboo, paws, portrait
-photo.45: https://www.instagram.com/p/CFSIvTYnZ1k/media/?size=m
-photo.45.author: hhpzoo
-photo.45.link: https://www.instagram.com/hhpzoo/
-photo.45.tags: smile, techitechi, white face
+photo.43.tags: smile, techitechi, white face
+photo.44: ig://CFU6HNyjQgE/m
+photo.44.author: hhpzoo
+photo.44.commitdate: 2020/9/24
+photo.44.link: https://www.instagram.com/hhpzoo/
+photo.44.tags: portrait, white face
+photo.45: ig://CFVFXWChgtM/m
+photo.45.author: wumpwoast
+photo.45.commitdate: 2020/9/20
+photo.45.link: https://www.instagram.com/wumpwoast/
+photo.45.tags: bamboo, paws, portrait
 species: 1
 zoo: 47

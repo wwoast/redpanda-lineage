@@ -32,33 +32,34 @@ photo.3.author: detroitzoo
 photo.3.commitdate: 2019/6/13
 photo.3.link: https://www.instagram.com/detroitzoo/
 photo.3.tags: smile
-photo.4: ig://Bz8DiJQgCl2/m
+photo.4: ig://BzqMD-ND0cw/m
 photo.4.author: detroitzoo
 photo.4.commitdate: 2019/12/2
 photo.4.link: https://www.instagram.com/detroitzoo/
-photo.4.tags: tail
-photo.5: ig://BzqMD-ND0cw/m
+photo.5: ig://Bz8DiJQgCl2/m
 photo.5.author: detroitzoo
 photo.5.commitdate: 2019/12/2
 photo.5.link: https://www.instagram.com/detroitzoo/
-photo.6: ig://B4NiCPMnQH5/m
-photo.6.author: detroitzoo
-photo.6.commitdate: 2020/3/18
-photo.6.link: https://www.instagram.com/detroitzoo/
-photo.6.tags: tail
-photo.7: ig://B4U2myNgXyi/m
-photo.7.author: b_aimz94
+photo.5.tags: tail
+photo.6: ig://B17beKelj0e/m
+photo.6.author: pippin455
+photo.6.commitdate: 2020/11/6
+photo.6.link: https://www.instagram.com/pippin455/
+photo.6.tags: peek, portrait, tail, tree
+photo.7: ig://B4NiCPMnQH5/m
+photo.7.author: detroitzoo
 photo.7.commitdate: 2020/3/18
-photo.7.link: https://www.instagram.com/b_aimz94/
-photo.7.tags: paws, portrait, profile, tree
-photo.8: ig://B5Dmj7fnj_r/m
-photo.8.author: detroitzoo
+photo.7.link: https://www.instagram.com/detroitzoo/
+photo.7.tags: tail
+photo.8: ig://B4U2myNgXyi/m
+photo.8.author: b_aimz94
 photo.8.commitdate: 2020/3/18
-photo.8.link: https://www.instagram.com/detroitzoo/
-photo.8.tags: snow
-photo.9: https://www.instagram.com/p/B17beKelj0e/media/?size=m
-photo.9.author: pippin455
-photo.9.link: https://www.instagram.com/pippin455/
-photo.9.tags: peek, portrait, tail, tree
+photo.8.link: https://www.instagram.com/b_aimz94/
+photo.8.tags: paws, portrait, profile, tree
+photo.9: ig://B5Dmj7fnj_r/m
+photo.9.author: detroitzoo
+photo.9.commitdate: 2020/3/18
+photo.9.link: https://www.instagram.com/detroitzoo/
+photo.9.tags: snow
 species: 1
 zoo: 124

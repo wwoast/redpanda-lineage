@@ -130,15 +130,16 @@ photo.24.author: ssc6105
 photo.24.commitdate: 2020/9/16
 photo.24.link: https://www.instagram.com/ssc6105/
 photo.24.tags: home, laying down, paws, portrait, smile, tongue
-photo.25: ig://CGpXE05hWWO/m
-photo.25.author: firefoxpanda88
-photo.25.commitdate: 2020/10/26
-photo.25.link: https://www.instagram.com/firefoxpanda88/
-photo.25.tags: climb, paws, portrait, tree, white face
-photo.26: https://www.instagram.com/p/CFPOODNhnjh/media/?size=m
-photo.26.author: fetorus_mami
-photo.26.link: https://www.instagram.com/fetorus_mami/
-photo.26.tags: mofumofu, smile, tree
+photo.25: ig://CFPOODNhnjh/m
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2020/11/6
+photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.tags: mofumofu, smile, tree
+photo.26: ig://CGpXE05hWWO/m
+photo.26.author: firefoxpanda88
+photo.26.commitdate: 2020/10/26
+photo.26.link: https://www.instagram.com/firefoxpanda88/
+photo.26.tags: climb, paws, portrait, tree, white face
 species: 1
 studbook.id: 16100
 zoo: 59
