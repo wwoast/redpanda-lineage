@@ -92,54 +92,56 @@ photo.16.author: mini_cochi
 photo.16.commitdate: 2020/2/22
 photo.16.link: https://www.instagram.com/mini_cochi/
 photo.16.tags: bamboo, paws, portrait
-photo.17: ig://B9o20HVhx2Z/m
-photo.17.author: wumpwoast
-photo.17.commitdate: 2020/3/26
-photo.17.link: https://www.instagram.com/wumpwoast/
-photo.17.tags: paws, portrait, whiskers
-photo.18: ig://B-KeIhOhc4Z/m
+photo.17: ig://B9gsuF4pYdm/m
+photo.17.author: mybrotherisdylan
+photo.17.commitdate: 2020/11/6
+photo.17.link: https://www.instagram.com/mybrotherisdylan/
+photo.17.tags: mofumofu, peek
+photo.18: ig://B9o20HVhx2Z/m
 photo.18.author: wumpwoast
 photo.18.commitdate: 2020/3/26
 photo.18.link: https://www.instagram.com/wumpwoast/
-photo.18.tags: portrait, whiskers
-photo.19: ig://CDpv98_BF8Y/m
-photo.19.author: miis_98
-photo.19.commitdate: 2020/8/22
-photo.19.link: https://www.instagram.com/miis_98/
-photo.19.tags: air tasting, mofumofu, portrait, tongue, whiskers
-photo.20: ig://CDzAyxqhRY8/m
-photo.20.author: wumpwoast
-photo.20.commitdate: 2020/8/13
-photo.20.link: https://www.instagram.com/wumpwoast/
-photo.20.tags: bamboo, mofumofu, portrait
-photo.21: ig://CD1Ym6XBzZC/m
-photo.21.author: mini_cochi
-photo.21.commitdate: 2020/8/21
-photo.21.link: https://www.instagram.com/mini_cochi/
-photo.21.tags: bamboo, bite, mofumofu, portrait, whiskers
-photo.22: ig://CD8ggO3hWp8/m
-photo.22.author: pink.b22
-photo.22.commitdate: 2020/8/22
-photo.22.link: https://www.instagram.com/pink.b22/
-photo.22.tags: laying down, paws, portrait
-photo.23: ig://CExOc2rBGc0/m
-photo.23.author: ssc6105
-photo.23.commitdate: 2020/9/14
-photo.23.link: https://www.instagram.com/ssc6105/
-photo.23.tags: close-up, mofumofu, paws, smile, whiskers
-photo.24: ig://CFEkTSbBwWd/m
+photo.18.tags: paws, portrait, whiskers
+photo.19: ig://B-KeIhOhc4Z/m
+photo.19.author: wumpwoast
+photo.19.commitdate: 2020/3/26
+photo.19.link: https://www.instagram.com/wumpwoast/
+photo.19.tags: portrait, whiskers
+photo.20: ig://CCYQbdsB36p/m
+photo.20.author: mybrotherisdylan
+photo.20.commitdate: 2020/11/6
+photo.20.link: https://www.instagram.com/mybrotherisdylan/
+photo.20.tags: mofumofu
+photo.21: ig://CDpv98_BF8Y/m
+photo.21.author: miis_98
+photo.21.commitdate: 2020/8/22
+photo.21.link: https://www.instagram.com/miis_98/
+photo.21.tags: air tasting, mofumofu, portrait, tongue, whiskers
+photo.22: ig://CDzAyxqhRY8/m
+photo.22.author: wumpwoast
+photo.22.commitdate: 2020/8/13
+photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.tags: bamboo, mofumofu, portrait
+photo.23: ig://CD1Ym6XBzZC/m
+photo.23.author: mini_cochi
+photo.23.commitdate: 2020/8/21
+photo.23.link: https://www.instagram.com/mini_cochi/
+photo.23.tags: bamboo, bite, mofumofu, portrait, whiskers
+photo.24: ig://CD8ggO3hWp8/m
 photo.24.author: pink.b22
-photo.24.commitdate: 2020/9/15
+photo.24.commitdate: 2020/8/22
 photo.24.link: https://www.instagram.com/pink.b22/
-photo.24.tags: laying down, paws, smile
-photo.25: https://www.instagram.com/p/B9gsuF4pYdm/media/?size=m
-photo.25.author: mybrotherisdylan
-photo.25.link: https://www.instagram.com/mybrotherisdylan/
-photo.25.tags: mofumofu, peek
-photo.26: https://www.instagram.com/p/CCYQbdsB36p/media/?size=m
-photo.26.author: mybrotherisdylan
-photo.26.link: https://www.instagram.com/mybrotherisdylan/
-photo.26.tags: mofumofu
+photo.24.tags: laying down, paws, portrait
+photo.25: ig://CExOc2rBGc0/m
+photo.25.author: ssc6105
+photo.25.commitdate: 2020/9/14
+photo.25.link: https://www.instagram.com/ssc6105/
+photo.25.tags: close-up, mofumofu, paws, smile, whiskers
+photo.26: ig://CFEkTSbBwWd/m
+photo.26.author: pink.b22
+photo.26.commitdate: 2020/9/15
+photo.26.link: https://www.instagram.com/pink.b22/
+photo.26.tags: laying down, paws, smile
 species: 1
 studbook.id: 1793
 zoo: 59

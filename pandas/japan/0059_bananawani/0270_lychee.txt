@@ -101,37 +101,39 @@ photo.18.author: wumpwoast
 photo.18.commitdate: 2020/5/15
 photo.18.link: https://www.instagram.com/wumpwoast/
 photo.18.tags: close-up, laying down, portrait, whiskers
-photo.19: ig://CCzpJMLhEUf/m
-photo.19.author: tetusara.ki_
-photo.19.commitdate: 2020/7/24
-photo.19.link: https://www.instagram.com/tetusara.ki_/
-photo.19.tags: bamboo, portrait
-photo.20: ig://CDwRlkMBb1r/m
-photo.20.author: wumpwoast
-photo.20.commitdate: 2020/8/11
-photo.20.link: https://www.instagram.com/wumpwoast/
-photo.20.tags: door, portrait
-photo.21: ig://CD1ZgW3hNVi/m
-photo.21.author: mini_cochi
-photo.21.commitdate: 2020/8/22
-photo.21.link: https://www.instagram.com/mini_cochi/
-photo.21.tags: mofumofu, portrait, smile
-photo.22: ig://CD8QAs1BvH0/m
-photo.22.author: miis_98
-photo.22.commitdate: 2020/11/6
-photo.22.link: https://www.instagram.com/miis_98/
-photo.22.tags: apple time, old, paws
-photo.23: ig://CFPOmD6BgcQ/m
-photo.23.author: fetorus_mami
+photo.19: ig://CCYaFPyhgo4/m
+photo.19.author: mybrotherisdylan
+photo.19.commitdate: 2020/11/6
+photo.19.link: https://www.instagram.com/mybrotherisdylan/
+photo.19.tags: mofumofu, old
+photo.20: ig://CCzpJMLhEUf/m
+photo.20.author: tetusara.ki_
+photo.20.commitdate: 2020/7/24
+photo.20.link: https://www.instagram.com/tetusara.ki_/
+photo.20.tags: bamboo, portrait
+photo.21: ig://CDwRlkMBb1r/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2020/8/11
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: door, portrait
+photo.22: ig://CD1ZgW3hNVi/m
+photo.22.author: mini_cochi
+photo.22.commitdate: 2020/8/22
+photo.22.link: https://www.instagram.com/mini_cochi/
+photo.22.tags: mofumofu, portrait, smile
+photo.23: ig://CD8QAs1BvH0/m
+photo.23.author: miis_98
 photo.23.commitdate: 2020/11/6
-photo.23.link: https://www.instagram.com/fetorus_mami/
-photo.23.tags: old, mofumofu, smile
-photo.24: https://www.instagram.com/p/CCYaFPyhgo4/media/?size=m
-photo.24.author: mybrotherisdylan
-photo.24.link: https://www.instagram.com/mybrotherisdylan/
-photo.24.tags: mofumofu, old
-photo.25: https://www.instagram.com/p/CG9gGixhX56/media/?size=m
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: apple time, old, paws
+photo.24: ig://CFPOmD6BgcQ/m
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2020/11/6
+photo.24.link: https://www.instagram.com/fetorus_mami/
+photo.24.tags: old, mofumofu, smile
+photo.25: ig://CG9gGixhX56/m
 photo.25.author: mybrotherisdylan
+photo.25.commitdate: 2020/11/6
 photo.25.link: https://www.instagram.com/mybrotherisdylan/
 photo.25.tags: eye, laying down, old, smile, tongue
 species: 1
