@@ -374,8 +374,9 @@ photo.72.author: tetusara.ki_
 photo.72.commitdate: 2020/10/27
 photo.72.link: https://www.instagram.com/tetusara.ki_/
 photo.72.tags: mofumofu, peek, portrait
-photo.73: https://www.instagram.com/p/CHJUAr0B0e5/media/?size=m
+photo.73: ig://CHJUAr0B0e5/m
 photo.73.author: tetusara.ki_
+photo.73.commitdate: 2020/11/7
 photo.73.link: https://www.instagram.com/tetusara.ki_/
 photo.73.tags: air tasting, paws, portrait, tongue
 species: 2

@@ -114,15 +114,17 @@ photo.16.link: https://www.instagram.com/jas_forever_love/
 photo.16.tags: siblings, sisters, twins
 photo.16.tags.955.location: 105, 160
 photo.16.tags.956.location: 245, 180
-photo.17: https://www.instagram.com/p/CHKoKUyhZ3z/media/?size=l
-photo.17.author: i.satosato
-photo.17.link: https://www.instagram.com/i.satosato/
-photo.17.tags: paws, portrait, siblings, sisters, standing, twins, white face
-photo.17.tags.955.location: 165, 235
-photo.17.tags.956.location: 255, 105
-photo.18: https://www.instagram.com/p/CHFmwINhuwp/media/?size=l
-photo.18.author: redpanda_nippon_takashi
-photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.18.tags: playing, siblings, sisters, standing, twins
-photo.18.tags.955.location: 155, 355
-photo.18.tags.956.location: 375, 180
+photo.17: ig://CHFmwINhuwp/l
+photo.17.author: redpanda_nippon_takashi
+photo.17.commitdate: 2020/11/7
+photo.17.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.17.tags: playing, siblings, sisters, standing, twins
+photo.17.tags.955.location: 155, 355
+photo.17.tags.956.location: 375, 180
+photo.18: ig://CHKoKUyhZ3z/l
+photo.18.author: i.satosato
+photo.18.commitdate: 2020/11/7
+photo.18.link: https://www.instagram.com/i.satosato/
+photo.18.tags: paws, portrait, siblings, sisters, standing, twins, white face
+photo.18.tags.955.location: 165, 235
+photo.18.tags.956.location: 255, 105

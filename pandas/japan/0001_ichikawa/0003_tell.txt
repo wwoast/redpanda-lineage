@@ -442,29 +442,31 @@ photo.86.author: ifumoto88
 photo.86.commitdate: 2020/7/31
 photo.86.link: https://www.instagram.com/ifumoto88/
 photo.86.tags: laying down, paws
-photo.87: ig://CEge7hPhYib/m
-photo.87.author: pink.b22
-photo.87.commitdate: 2020/9/4
-photo.87.link: https://www.instagram.com/pink.b22/
-photo.87.tags: close-up, smile
-photo.88: ig://CFar-eMhHDP/m
-photo.88.author: _rifa_p
-photo.88.commitdate: 2020/9/21
-photo.88.link: https://www.instagram.com/_rifa_p/
-photo.88.tags: laying down, mofumofu, paws, portrait
-photo.89: ig://CGzT4ExB7dE/m
-photo.89.author: pink.b22
-photo.89.commitdate: 2020/11/1
-photo.89.link: https://www.instagram.com/pink.b22/
-photo.89.tags: apple time, close-up, keeper, smile
-photo.90: https://www.instagram.com/p/CHFrL99hRDU/media/?size=m
+photo.87: ig://CETA3inhoZo/m
+photo.87.author: ifumoto88
+photo.87.commitdate: 2020/11/7
+photo.87.link: https://www.instagram.com/ifumoto88/
+photo.87.tags: mofumofu, whiskers
+photo.88: ig://CEge7hPhYib/m
+photo.88.author: pink.b22
+photo.88.commitdate: 2020/9/4
+photo.88.link: https://www.instagram.com/pink.b22/
+photo.88.tags: close-up, smile
+photo.89: ig://CFar-eMhHDP/m
+photo.89.author: _rifa_p
+photo.89.commitdate: 2020/9/21
+photo.89.link: https://www.instagram.com/_rifa_p/
+photo.89.tags: laying down, mofumofu, paws, portrait
+photo.90: ig://CGzT4ExB7dE/m
 photo.90.author: pink.b22
+photo.90.commitdate: 2020/11/1
 photo.90.link: https://www.instagram.com/pink.b22/
-photo.90.tags: laying down, paws, white face
-photo.91: https://www.instagram.com/p/CETA3inhoZo/media/?size=m
-photo.91.author: ifumoto88
-photo.91.link: https://www.instagram.com/ifumoto88/
-photo.91.tags: mofumofu, whiskers
+photo.90.tags: apple time, close-up, keeper, smile
+photo.91: ig://CHFrL99hRDU/m
+photo.91.author: pink.b22
+photo.91.commitdate: 2020/11/7
+photo.91.link: https://www.instagram.com/pink.b22/
+photo.91.tags: laying down, paws, white face
 species: 2
 studbook.id: 10112
 zoo: 1

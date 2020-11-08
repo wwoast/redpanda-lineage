@@ -1145,8 +1145,9 @@ photo.228.author: cattail.sapporo
 photo.228.commitdate: 2020/11/5
 photo.228.link: https://www.instagram.com/cattail.sapporo/
 photo.228.tags: close-up, mofumofu, portrait, whiskers
-photo.229: https://www.instagram.com/p/CHH-uZgBFfU/media/?size=m
+photo.229: ig://CHH-uZgBFfU/m
 photo.229.author: ho0oipo
+photo.229.commitdate: 2020/11/7
 photo.229.link: https://www.instagram.com/ho0oipo/
 photo.229.tags: dish, paws, smile, standing, tail
 species: 2
