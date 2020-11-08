@@ -1592,15 +1592,16 @@ photo.318.author: cattail.sapporo
 photo.318.commitdate: 2020/10/27
 photo.318.link: https://www.instagram.com/cattail.sapporo/
 photo.318.tags: bamboo, portrait, videolink
-photo.319: ig://CHFid6qBP7w/m
-photo.319.author: jas_forever_love
-photo.319.commitdate: 2020/11/6
-photo.319.link: https://www.instagram.com/jas_forever_love/
-photo.319.tags: mofumofu, portrait
-photo.320: https://www.instagram.com/p/CG8RiFtg1q1/media/?size=m
-photo.320.author: cattail.sapporo
-photo.320.link: https://www.instagram.com/cattail.sapporo/
-photo.320.tags: portrait, tail
+photo.319: ig://CG8RiFtg1q1/m
+photo.319.author: cattail.sapporo
+photo.319.commitdate: 2020/11/8
+photo.319.link: https://www.instagram.com/cattail.sapporo/
+photo.319.tags: portrait, tail
+photo.320: ig://CHFid6qBP7w/m
+photo.320.author: jas_forever_love
+photo.320.commitdate: 2020/11/6
+photo.320.link: https://www.instagram.com/jas_forever_love/
+photo.320.tags: mofumofu, portrait
 species: 2
 studbook.id: 1676
 zoo: 7

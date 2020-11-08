@@ -25,8 +25,9 @@ photo.2.author: newzoogb
 photo.2.commitdate: 2020/5/28
 photo.2.link: https://www.instagram.com/newzoogb/
 photo.2.tags: laying down, portrait, profile
-photo.3: https://www.instagram.com/p/CCbIWxwn8Qt/media/?size=m
+photo.3: ig://CCbIWxwn8Qt/m
 photo.3.author: newzoogb
+photo.3.commitdate: 2020/11/8
 photo.3.link: https://www.instagram.com/newzoogb/
 photo.3.tags: laying down, paws, portrait, nose
 species: 2

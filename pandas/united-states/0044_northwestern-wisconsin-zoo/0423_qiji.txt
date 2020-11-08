@@ -26,8 +26,9 @@ photo.2.author: newzoogb
 photo.2.commitdate: 2020/2/27
 photo.2.link: https://www.instagram.com/newzoogb/
 photo.2.tags: lunch time
-photo.3: https://www.instagram.com/p/CEKRKYYl9ND/media/?size=m
+photo.3: ig://CEKRKYYl9ND/m
 photo.3.author: newzoogb
+photo.3.commitdate: 2020/11/8
 photo.3.link: https://www.instagram.com/newzoogb/
 photo.3.tags: ice treat, laying down
 species: 2

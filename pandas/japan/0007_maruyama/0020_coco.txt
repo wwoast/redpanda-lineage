@@ -988,20 +988,21 @@ photo.200.author: cattail.sapporo
 photo.200.commitdate: 2020/10/16
 photo.200.link: https://www.instagram.com/cattail.sapporo/
 photo.200.tags: portrait, tree
-photo.201: ig://CG-2IDMgRyY/m
+photo.201: ig://CG7MkengC5W/m
 photo.201.author: cattail.sapporo
-photo.201.commitdate: 2020/11/6
+photo.201.commitdate: 2020/11/8
 photo.201.link: https://www.instagram.com/cattail.sapporo/
-photo.201.tags: portrait, tail
-photo.202: ig://CHJCpxhAUEC/m
+photo.201.tags: autumn, portrait
+photo.202: ig://CG-2IDMgRyY/m
 photo.202.author: cattail.sapporo
-photo.202.commitdate: 2020/11/7
+photo.202.commitdate: 2020/11/6
 photo.202.link: https://www.instagram.com/cattail.sapporo/
-photo.202.tags: laying down, mofumofu, portrait
-photo.203: https://www.instagram.com/p/CG7MkengC5W/media/?size=m
+photo.202.tags: portrait, tail
+photo.203: ig://CHJCpxhAUEC/m
 photo.203.author: cattail.sapporo
+photo.203.commitdate: 2020/11/7
 photo.203.link: https://www.instagram.com/cattail.sapporo/
-photo.203.tags: autumn, portrait
+photo.203.tags: laying down, mofumofu, portrait
 species: 2
 studbook.id: 0674
 zoo: 7

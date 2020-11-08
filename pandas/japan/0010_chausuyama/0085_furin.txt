@@ -215,8 +215,9 @@ photo.40.author: hamiiiii831_
 photo.40.commitdate: 2020/7/16
 photo.40.link: https://www.instagram.com/hamiiiii831_/
 photo.40.tags: dish, paws, whiskers
-photo.41: https://www.instagram.com/p/CFzHgeLBrmJ/media/?size=m
+photo.41: ig://CFzHgeLBrmJ/m
 photo.41.author: craig_craig_craig
+photo.41.commitdate: 2020/11/8
 photo.41.link: https://www.instagram.com/craig_craig_craig/
 photo.41.tags: apple time, dish, portrait, tail, videolink
 species: 2

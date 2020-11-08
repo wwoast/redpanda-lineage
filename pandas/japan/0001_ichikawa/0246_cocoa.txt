@@ -938,34 +938,36 @@ photo.185.author: na.mo.pan
 photo.185.commitdate: 2020/9/21
 photo.185.link: https://www.instagram.com/na.mo.pan/
 photo.185.tags: paws, peek, portrait
-photo.186: ig://CGWvgKXh-6y/m
-photo.186.author: ssc6105
-photo.186.commitdate: 2020/10/16
-photo.186.link: https://www.instagram.com/ssc6105/
-photo.186.tags: paws, portrait, standing
-photo.187: ig://CGZmyTqhXML/m
-photo.187.author: masa_polarbear
-photo.187.commitdate: 2020/10/29
-photo.187.link: https://www.instagram.com/masa_polarbear/
-photo.187.tags: bamboo, mofumofu
-photo.188: ig://CGnDmsgB4b-/m
-photo.188.author: na.mo.pan
-photo.188.commitdate: 2020/10/26
-photo.188.link: https://www.instagram.com/na.mo.pan/
-photo.188.tags: home, laying down, portrait, whiskers
-photo.189: ig://CGrRIe6hYKX/m
+photo.186: ig://CF4YPfahAHW/m
+photo.186.author: ifumoto88
+photo.186.commitdate: 2020/11/8
+photo.186.link: https://www.instagram.com/ifumoto88/
+photo.186.tags: mofumofu, tongue, whiskers
+photo.187: ig://CGWvgKXh-6y/m
+photo.187.author: ssc6105
+photo.187.commitdate: 2020/10/16
+photo.187.link: https://www.instagram.com/ssc6105/
+photo.187.tags: paws, portrait, standing
+photo.188: ig://CGZmyTqhXML/m
+photo.188.author: masa_polarbear
+photo.188.commitdate: 2020/10/29
+photo.188.link: https://www.instagram.com/masa_polarbear/
+photo.188.tags: bamboo, mofumofu
+photo.189: ig://CGnDmsgB4b-/m
 photo.189.author: na.mo.pan
-photo.189.commitdate: 2020/10/29
+photo.189.commitdate: 2020/10/26
 photo.189.link: https://www.instagram.com/na.mo.pan/
-photo.189.tags: laying down, paws, smile
-photo.190: https://www.instagram.com/p/CG7hcUGhOMg/media/?size=m
-photo.190.author: ifumoto88
-photo.190.link: https://www.instagram.com/ifumoto88/
-photo.190.tags: close-up, mofumofu, whiskers
-photo.191: https://www.instagram.com/p/CF4YPfahAHW/media/?size=m
+photo.189.tags: home, laying down, portrait, whiskers
+photo.190: ig://CGrRIe6hYKX/m
+photo.190.author: na.mo.pan
+photo.190.commitdate: 2020/10/29
+photo.190.link: https://www.instagram.com/na.mo.pan/
+photo.190.tags: laying down, paws, smile
+photo.191: ig://CG7hcUGhOMg/m
 photo.191.author: ifumoto88
+photo.191.commitdate: 2020/11/8
 photo.191.link: https://www.instagram.com/ifumoto88/
-photo.191.tags: mofumofu, tongue, whiskers
+photo.191.tags: close-up, mofumofu, whiskers
 species: 2
 studbook.id: unknown
 zoo: 1

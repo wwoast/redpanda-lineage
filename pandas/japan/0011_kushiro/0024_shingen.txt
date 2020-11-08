@@ -461,8 +461,9 @@ photo.90.author: minatomirai215
 photo.90.commitdate: 2020/10/27
 photo.90.link: https://www.instagram.com/minatomirai215/
 photo.90.tags: autumn, paws, portrait, whiskers
-photo.91: https://www.instagram.com/p/CG66Vbwh01o/media/?size=m
+photo.91: ig://CG66Vbwh01o/m
 photo.91.author: minatomirai215
+photo.91.commitdate: 2020/11/8
 photo.91.link: https://www.instagram.com/minatomirai215/
 photo.91.tags: autumn, paws
 species: 2

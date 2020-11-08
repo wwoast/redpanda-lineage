@@ -395,29 +395,31 @@ photo.78.author: na.mo.pan
 photo.78.commitdate: 2020/9/26
 photo.78.link: https://www.instagram.com/na.mo.pan/
 photo.78.tags: climb, paws, peek, smile
-photo.79: ig://CGo_OTUhmrH/m
-photo.79.author: ssc6105
-photo.79.commitdate: 2020/10/29
-photo.79.link: https://www.instagram.com/ssc6105/
-photo.79.tags: laying down, mofumofu, whiskers
-photo.80: ig://CG2Vmqph_Td/m
-photo.80.author: ifumoto88
-photo.80.commitdate: 2020/10/27
-photo.80.link: https://www.instagram.com/ifumoto88/
-photo.80.tags: patrol, paws, smile, whiskers
-photo.81: ig://CHG73cXBAen/m
-photo.81.author: alto0908
-photo.81.commitdate: 2020/11/5
-photo.81.link: https://www.instagram.com/alto0908/
-photo.81.tags: mofumofu, peek, portrait
-photo.82: https://www.instagram.com/p/CF16lvuh6Yc/media/?size=m
-photo.82.author: chibi_ras
-photo.82.link: https://www.instagram.com/chibi_ras/
-photo.82.tags: paws, peek, portrait, standing
-photo.83: https://www.instagram.com/p/CGU5nXJBWnX/media/?size=m
-photo.83.author: firefoxpanda88
-photo.83.link: https://www.instagram.com/firefoxpanda88/
-photo.83.tags: home, laying down, mofumofu, peek, portrait
+photo.79: ig://CF16lvuh6Yc/m
+photo.79.author: chibi_ras
+photo.79.commitdate: 2020/11/8
+photo.79.link: https://www.instagram.com/chibi_ras/
+photo.79.tags: paws, peek, portrait, standing
+photo.80: ig://CGU5nXJBWnX/m
+photo.80.author: firefoxpanda88
+photo.80.commitdate: 2020/11/8
+photo.80.link: https://www.instagram.com/firefoxpanda88/
+photo.80.tags: home, laying down, mofumofu, peek, portrait
+photo.81: ig://CGo_OTUhmrH/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2020/10/29
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: laying down, mofumofu, whiskers
+photo.82: ig://CG2Vmqph_Td/m
+photo.82.author: ifumoto88
+photo.82.commitdate: 2020/10/27
+photo.82.link: https://www.instagram.com/ifumoto88/
+photo.82.tags: patrol, paws, smile, whiskers
+photo.83: ig://CHG73cXBAen/m
+photo.83.author: alto0908
+photo.83.commitdate: 2020/11/5
+photo.83.link: https://www.instagram.com/alto0908/
+photo.83.tags: mofumofu, peek, portrait
 species: 2
 studbook.id: 13145
 zoo: 1

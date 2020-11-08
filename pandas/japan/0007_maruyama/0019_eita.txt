@@ -1115,53 +1115,56 @@ photo.222.author: cattail.sapporo
 photo.222.commitdate: 2020/9/21
 photo.222.link: https://www.instagram.com/cattail.sapporo/
 photo.222.tags: close-up, laying down, portrait, sleeping
-photo.223: ig://CGAX_dzAcAA/m
-photo.223.author: cattail.sapporo
-photo.223.commitdate: 2020/10/8
-photo.223.link: https://www.instagram.com/cattail.sapporo/
-photo.223.tags: close-up, portrait, smile, whiskers
-photo.224: ig://CGekkh7Bjzw/m
-photo.224.author: izu_108
-photo.224.commitdate: 2020/11/2
-photo.224.link: https://www.instagram.com/izu_108/
-photo.224.tags: portrait, tail, whiskers
-photo.225: ig://CGfMexqgTQn/m
+photo.223: ig://CFy7HnoBCSv/m
+photo.223.author: pink.b22
+photo.223.commitdate: 2020/11/8
+photo.223.link: https://www.instagram.com/pink.b22/
+photo.223.tags: mofumofu, paws, portrait
+photo.224: ig://CGAX_dzAcAA/m
+photo.224.author: cattail.sapporo
+photo.224.commitdate: 2020/10/8
+photo.224.link: https://www.instagram.com/cattail.sapporo/
+photo.224.tags: close-up, portrait, smile, whiskers
+photo.225: ig://CGHEW6_gTlx/m
 photo.225.author: cattail.sapporo
-photo.225.commitdate: 2020/11/2
+photo.225.commitdate: 2020/11/8
 photo.225.link: https://www.instagram.com/cattail.sapporo/
-photo.225.tags: air tasting, close-up, mofumofu, portrait, tongue, whiskers
-photo.226: ig://CGnA0-BAbkZ/m
-photo.226.author: cattail.sapporo
-photo.226.commitdate: 2020/10/29
-photo.226.link: https://www.instagram.com/cattail.sapporo/
-photo.226.tags: paws, portrait, standing, tail, walking
-photo.227: ig://CGodgs4BiWC/m
-photo.227.author: mari_neko3
-photo.227.commitdate: 2020/10/29
-photo.227.link: https://www.instagram.com/mari_neko3/
-photo.227.tags: mofumofu, portrait
-photo.228: ig://CHGrvXngFzZ/m
+photo.225.tags: close-up, grooming, mofumofu, paws, portrait, tongue
+photo.226: ig://CGekkh7Bjzw/m
+photo.226.author: izu_108
+photo.226.commitdate: 2020/11/2
+photo.226.link: https://www.instagram.com/izu_108/
+photo.226.tags: portrait, tail, whiskers
+photo.227: ig://CGfMexqgTQn/m
+photo.227.author: cattail.sapporo
+photo.227.commitdate: 2020/11/2
+photo.227.link: https://www.instagram.com/cattail.sapporo/
+photo.227.tags: air tasting, close-up, mofumofu, portrait, tongue, whiskers
+photo.228: ig://CGnA0-BAbkZ/m
 photo.228.author: cattail.sapporo
-photo.228.commitdate: 2020/11/5
+photo.228.commitdate: 2020/10/29
 photo.228.link: https://www.instagram.com/cattail.sapporo/
-photo.228.tags: close-up, mofumofu, portrait, whiskers
-photo.229: ig://CHH-uZgBFfU/m
-photo.229.author: ho0oipo
-photo.229.commitdate: 2020/11/7
-photo.229.link: https://www.instagram.com/ho0oipo/
-photo.229.tags: dish, paws, smile, standing, tail
-photo.230: https://www.instagram.com/p/CG7IShSgoAQ/media/?size=m
+photo.228.tags: paws, portrait, standing, tail, walking
+photo.229: ig://CGodgs4BiWC/m
+photo.229.author: mari_neko3
+photo.229.commitdate: 2020/10/29
+photo.229.link: https://www.instagram.com/mari_neko3/
+photo.229.tags: mofumofu, portrait
+photo.230: ig://CG7IShSgoAQ/m
 photo.230.author: cattail.sapporo
+photo.230.commitdate: 2020/11/8
 photo.230.link: https://www.instagram.com/cattail.sapporo/
 photo.230.tags: apple time, dish, keeper, paws, portrait, smile, standing, tail
-photo.231: https://www.instagram.com/p/CGHEW6_gTlx/media/?size=m
+photo.231: ig://CHGrvXngFzZ/m
 photo.231.author: cattail.sapporo
+photo.231.commitdate: 2020/11/5
 photo.231.link: https://www.instagram.com/cattail.sapporo/
-photo.231.tags: close-up, grooming, mofumofu, paws, portrait, tongue
-photo.232: https://www.instagram.com/p/CFy7HnoBCSv/media/?size=m
-photo.232.author: pink.b22
-photo.232.link: https://www.instagram.com/pink.b22/
-photo.232.tags: mofumofu, paws, portrait
+photo.231.tags: close-up, mofumofu, portrait, whiskers
+photo.232: ig://CHH-uZgBFfU/m
+photo.232.author: ho0oipo
+photo.232.commitdate: 2020/11/7
+photo.232.link: https://www.instagram.com/ho0oipo/
+photo.232.tags: dish, paws, smile, standing, tail
 species: 2
 studbook.id: 10108
 zoo: 7

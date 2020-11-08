@@ -820,27 +820,31 @@ photo.162.author: cattail.sapporo
 photo.162.commitdate: 2020/10/9
 photo.162.link: https://www.instagram.com/cattail.sapporo/
 photo.162.tags: apple time, paws, portrait, smile, tongue, window
-photo.163: ig://CGaIOjwAY1F/m
+photo.163: ig://CGVAgo4Ap_X/m
 photo.163.author: cattail.sapporo
-photo.163.commitdate: 2020/10/29
+photo.163.commitdate: 2020/11/8
 photo.163.link: https://www.instagram.com/cattail.sapporo/
-photo.163.tags: bamboo, portrait, tongue, videolink
-photo.164: https://www.instagram.com/p/CG7mW8YgR8H/media/?size=m
+photo.163.tags: bamboo, paws, portrait, videolink
+photo.164: ig://CGaIOjwAY1F/m
 photo.164.author: cattail.sapporo
+photo.164.commitdate: 2020/10/29
 photo.164.link: https://www.instagram.com/cattail.sapporo/
-photo.164.tags: close-up, laying down, mofumofu, portrait
-photo.165: https://www.instagram.com/p/CGVAgo4Ap_X/media/?size=m
-photo.165.author: cattail.sapporo
-photo.165.link: https://www.instagram.com/cattail.sapporo/
-photo.165.tags: bamboo, paws, portrait, videolink
-photo.166: https://www.instagram.com/p/CG2bF_tgJeL/media/?size=m
+photo.164.tags: bamboo, portrait, tongue, videolink
+photo.165: ig://CGld0CLBPnW/m
+photo.165.author: izu_108
+photo.165.commitdate: 2020/11/8
+photo.165.link: https://www.instagram.com/izu_108/
+photo.165.tags: laying down, portrait, sleeping
+photo.166: ig://CG2bF_tgJeL/m
 photo.166.author: cattail.sapporo
+photo.166.commitdate: 2020/11/8
 photo.166.link: https://www.instagram.com/cattail.sapporo/
 photo.166.tags: apple time, close-up, portrait, whiskers, window
-photo.167: https://www.instagram.com/p/CGld0CLBPnW/media/?size=m
-photo.167.author: izu_108
-photo.167.link: https://www.instagram.com/izu_108/
-photo.167.tags: laying down, portrait, sleeping
+photo.167: ig://CG7mW8YgR8H/m
+photo.167.author: cattail.sapporo
+photo.167.commitdate: 2020/11/8
+photo.167.link: https://www.instagram.com/cattail.sapporo/
+photo.167.tags: close-up, laying down, mofumofu, portrait
 species: 2
 studbook.id: 0554
 zoo: 7

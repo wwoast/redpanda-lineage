@@ -292,15 +292,16 @@ photo.56.author: happy_love2.15
 photo.56.commitdate: 2020/7/22
 photo.56.link: https://www.instagram.com/happy_love2.15/
 photo.56.tags: portrait, smile, whiskers
-photo.57: ig://CGzxjfmhoqI/m
-photo.57.author: panda.daisuki
-photo.57.commitdate: 2020/10/27
-photo.57.link: https://www.instagram.com/panda.daisuki/
-photo.57.tags: portrait, whiskers
-photo.58: https://www.instagram.com/p/CF2sls8B_z_/media/?size=m
-photo.58.author: alto0908
-photo.58.link: https://www.instagram.com/alto0908/
-photo.58.tags: bridge, laying down, peek, portrait, tail
+photo.57: ig://CF2sls8B_z_/m
+photo.57.author: alto0908
+photo.57.commitdate: 2020/11/8
+photo.57.link: https://www.instagram.com/alto0908/
+photo.57.tags: bridge, laying down, peek, portrait, tail
+photo.58: ig://CGzxjfmhoqI/m
+photo.58.author: panda.daisuki
+photo.58.commitdate: 2020/10/27
+photo.58.link: https://www.instagram.com/panda.daisuki/
+photo.58.tags: portrait, whiskers
 species: 2
 studbook.id: 14155
 video.1: https://youtu.be/GxFrwnJH4s8

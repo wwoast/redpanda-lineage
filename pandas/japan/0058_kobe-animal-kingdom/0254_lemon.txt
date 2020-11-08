@@ -414,8 +414,9 @@ photo.80.author: s24.star_load
 photo.80.commitdate: 2020/10/27
 photo.80.link: https://www.instagram.com/s24.star_load/
 photo.80.tags: smile, tongue, whiskers
-photo.81: https://www.instagram.com/p/CG8OyMihv9z/media/?size=m
+photo.81: ig://CG8OyMihv9z/m
 photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2020/11/8
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: smile, tongue, whiskers
 species: 2

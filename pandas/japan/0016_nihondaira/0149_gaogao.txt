@@ -223,20 +223,21 @@ photo.42.author: hamamatsu.chiita
 photo.42.commitdate: 2020/11/5
 photo.42.link: https://www.instagram.com/hamamatsu.chiita/
 photo.42.tags: bamboo, bite, portrait
-photo.43: ig://CHJrEyIhRcC/m
-photo.43.author: pantasanzoo1
-photo.43.commitdate: 2020/11/5
-photo.43.link: https://www.instagram.com/pantasanzoo1/
-photo.43.tags: bridge, close-up, whiskers
-photo.44: ig://CHKuLSjhjmu/m
-photo.44.author: fetorus_mami
+photo.43: ig://CGhNYbHhUaG/m
+photo.43.author: kijyo.zoo
+photo.43.commitdate: 2020/11/8
+photo.43.link: https://www.instagram.com/kijyo.zoo/
+photo.43.tags: portrait, standing, tree, videolink
+photo.44: ig://CHJrEyIhRcC/m
+photo.44.author: pantasanzoo1
 photo.44.commitdate: 2020/11/5
-photo.44.link: https://www.instagram.com/fetorus_mami/
-photo.44.tags: close-up, whiskers
-photo.45: https://www.instagram.com/p/CGhNYbHhUaG/media/?size=m
-photo.45.author: kijyo.zoo
-photo.45.link: https://www.instagram.com/kijyo.zoo/
-photo.45.tags: portrait, standing, tree, videolink
+photo.44.link: https://www.instagram.com/pantasanzoo1/
+photo.44.tags: bridge, close-up, whiskers
+photo.45: ig://CHKuLSjhjmu/m
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2020/11/5
+photo.45.link: https://www.instagram.com/fetorus_mami/
+photo.45.tags: close-up, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16
