@@ -126,15 +126,16 @@ photo.23.author: pink.b22
 photo.23.commitdate: 2020/8/23
 photo.23.link: https://www.instagram.com/pink.b22/
 photo.23.tags: laying down, paws, peek, tree
-photo.24: ig://CE-NOsmhSLF/m
-photo.24.author: tetusara.ki_
-photo.24.commitdate: 2020/9/15
-photo.24.link: https://www.instagram.com/tetusara.ki_/
-photo.24.tags: portrait, smile, tongue, whiskers
-photo.25: https://www.instagram.com/p/CE3pioIha9f/media/?size=m
-photo.25.author: ssc6105
-photo.25.link: https://www.instagram.com/ssc6105/
-photo.25.tags: bamboo, dish, home, keeper, paws, smile
+photo.24: ig://CE3pioIha9f/m
+photo.24.author: ssc6105
+photo.24.commitdate: 2020/11/10
+photo.24.link: https://www.instagram.com/ssc6105/
+photo.24.tags: bamboo, dish, home, keeper, paws, smile
+photo.25: ig://CE-NOsmhSLF/m
+photo.25.author: tetusara.ki_
+photo.25.commitdate: 2020/9/15
+photo.25.link: https://www.instagram.com/tetusara.ki_/
+photo.25.tags: portrait, smile, tongue, whiskers
 species: 1
 studbook.id: 1699
 zoo: 59

@@ -466,8 +466,9 @@ photo.91.author: minatomirai215
 photo.91.commitdate: 2020/11/8
 photo.91.link: https://www.instagram.com/minatomirai215/
 photo.91.tags: autumn, paws
-photo.92: https://www.instagram.com/p/CG_WFDkhyrp/media/?size=m
+photo.92: ig://CG_WFDkhyrp/m
 photo.92.author: an920000
+photo.92.commitdate: 2020/11/10
 photo.92.link: https://www.instagram.com/an920000/
 photo.92.tags: autumn, bridge, portrait, tail
 species: 2

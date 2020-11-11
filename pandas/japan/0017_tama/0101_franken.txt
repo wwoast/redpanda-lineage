@@ -338,15 +338,16 @@ photo.65.author: eos1089
 photo.65.commitdate: 2020/6/10
 photo.65.link: https://www.instagram.com/eos1089/
 photo.65.tags: bamboo, bite, portrait
-photo.66: ig://CF6j9RFhb-u/m
+photo.66: ig://CFEOkivh4-W/m
 photo.66.author: panda.daisuki
-photo.66.commitdate: 2020/11/8
+photo.66.commitdate: 2020/11/10
 photo.66.link: https://www.instagram.com/panda.daisuki/
-photo.66.tags: portrait, smile, tail
-photo.67: https://www.instagram.com/p/CFEOkivh4-W/media/?size=m
+photo.66.tags: paws, portrait, smile, tail
+photo.67: ig://CF6j9RFhb-u/m
 photo.67.author: panda.daisuki
+photo.67.commitdate: 2020/11/8
 photo.67.link: https://www.instagram.com/panda.daisuki/
-photo.67.tags: paws, portrait, smile, tail
+photo.67.tags: portrait, smile, tail
 species: 2
 studbook.id: 1224
 zoo: 17

@@ -56,8 +56,9 @@ photo.8.author: keepermerlo
 photo.8.commitdate: 2020/7/28
 photo.8.link: https://www.instagram.com/keepermerlo/
 photo.8.tags: laying down, paws, peek, whiskers
-photo.9: https://www.instagram.com/p/CEfZpQgn-T1/media/?size=m
+photo.9: ig://CEfZpQgn-T1/m
 photo.9.author: keepermerlo
+photo.9.commitdate: 2020/11/10
 photo.9.link: https://www.instagram.com/keepermerlo/
 photo.9.tags: bite, lunch time
 species: 1

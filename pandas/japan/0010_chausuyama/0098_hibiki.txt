@@ -311,15 +311,16 @@ photo.62.author: resapan.suki
 photo.62.commitdate: 2020/9/19
 photo.62.link: https://www.instagram.com/resapan.suki/
 photo.62.tags: mofumofu, portrait, smile
-photo.63: ig://CG4rTH2BQjv/m
-photo.63.author: fetorus_mami
-photo.63.commitdate: 2020/11/1
-photo.63.link: https://www.instagram.com/fetorus_mami/
-photo.63.tags: close-up, tongue, whiskers, window
-photo.64: https://www.instagram.com/p/CFHRfRshtP1/media/?size=m
-photo.64.author: daniele.tokyo
-photo.64.link: https://www.instagram.com/daniele.tokyo/
-photo.64.tags: mofumofu, peek, tail
+photo.63: ig://CFHRfRshtP1/m
+photo.63.author: daniele.tokyo
+photo.63.commitdate: 2020/11/10
+photo.63.link: https://www.instagram.com/daniele.tokyo/
+photo.63.tags: mofumofu, peek, tail
+photo.64: ig://CG4rTH2BQjv/m
+photo.64.author: fetorus_mami
+photo.64.commitdate: 2020/11/1
+photo.64.link: https://www.instagram.com/fetorus_mami/
+photo.64.tags: close-up, tongue, whiskers, window
 species: 2
 studbook.id: 15156
 zoo: 10

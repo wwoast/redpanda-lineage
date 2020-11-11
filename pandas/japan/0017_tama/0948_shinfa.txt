@@ -403,19 +403,20 @@ photo.78.author: miis_98
 photo.78.commitdate: 2020/9/12
 photo.78.link: https://www.instagram.com/miis_98/
 photo.78.tags: paws, portrait, standing, tail
-photo.79: ig://CFsr2ulh9Og/m
-photo.79.author: ck.chie
-photo.79.commitdate: 2020/10/2
-photo.79.link: https://www.instagram.com/ck.chie/
-photo.79.tags: bamboo, portrait, tongue
-photo.80: ig://CFvdTJdBorI/m
-photo.80.author: osopanda551
+photo.79: ig://CFUJzI9hh3f/m
+photo.79.author: roko_mm
+photo.79.commitdate: 2020/11/10
+photo.79.link: https://www.instagram.com/roko_mm/
+photo.79.tags: bamboo, nose, portrait
+photo.80: ig://CFsr2ulh9Og/m
+photo.80.author: ck.chie
 photo.80.commitdate: 2020/10/2
-photo.80.link: https://www.instagram.com/osopanda551/
-photo.80.tags: flowers, portrait, smile, tree
-photo.81: https://www.instagram.com/p/CFUJzI9hh3f/media/?size=m
-photo.81.author: roko_mm
-photo.81.link: https://www.instagram.com/roko_mm/
-photo.81.tags: bamboo, nose, portrait
+photo.80.link: https://www.instagram.com/ck.chie/
+photo.80.tags: bamboo, portrait, tongue
+photo.81: ig://CFvdTJdBorI/m
+photo.81.author: osopanda551
+photo.81.commitdate: 2020/10/2
+photo.81.link: https://www.instagram.com/osopanda551/
+photo.81.tags: flowers, portrait, smile, tree
 species: 2
 zoo: 17

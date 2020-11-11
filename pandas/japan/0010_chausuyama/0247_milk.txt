@@ -1201,25 +1201,26 @@ photo.238.author: kaoru_a358
 photo.238.commitdate: 2020/8/28
 photo.238.link: https://www.instagram.com/kaoru_a358/
 photo.238.tags: portrait, smile, whiskers
-photo.239: ig://CFToERNBwif/m
-photo.239.author: redpanda_tata
-photo.239.commitdate: 2020/9/24
-photo.239.link: https://www.instagram.com/redpanda_tata/
-photo.239.tags: bamboo, paws, standing, tail
-photo.240: ig://CFYUnIpBAhn/m
-photo.240.author: shigeko0531
+photo.239: ig://CEsambIBWw2/m
+photo.239.author: mari_neko3
+photo.239.commitdate: 2020/11/10
+photo.239.link: https://www.instagram.com/mari_neko3/
+photo.239.tags: bamboo, mofumofu, portrait
+photo.240: ig://CFToERNBwif/m
+photo.240.author: redpanda_tata
 photo.240.commitdate: 2020/9/24
-photo.240.link: https://www.instagram.com/shigeko0531/
-photo.240.tags: itchy, portrait, techitechi
-photo.241: ig://CGXu_WCBnPt/m
-photo.241.author: eos1089
-photo.241.commitdate: 2020/10/29
-photo.241.link: https://www.instagram.com/eos1089/
-photo.241.tags: bamboo, paws, standing, tail
-photo.242: https://www.instagram.com/p/CEsambIBWw2/media/?size=m
-photo.242.author: mari_neko3
-photo.242.link: https://www.instagram.com/mari_neko3/
-photo.242.tags: bamboo, mofumofu, portrait
+photo.240.link: https://www.instagram.com/redpanda_tata/
+photo.240.tags: bamboo, paws, standing, tail
+photo.241: ig://CFYUnIpBAhn/m
+photo.241.author: shigeko0531
+photo.241.commitdate: 2020/9/24
+photo.241.link: https://www.instagram.com/shigeko0531/
+photo.241.tags: itchy, portrait, techitechi
+photo.242: ig://CGXu_WCBnPt/m
+photo.242.author: eos1089
+photo.242.commitdate: 2020/10/29
+photo.242.link: https://www.instagram.com/eos1089/
+photo.242.tags: bamboo, paws, standing, tail
 species: 2
 studbook.id: unknown
 zoo: 10
