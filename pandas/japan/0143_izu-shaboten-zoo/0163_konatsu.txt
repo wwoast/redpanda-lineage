@@ -749,8 +749,9 @@ photo.149.author: tetusara.ki_
 photo.149.commitdate: 2020/11/5
 photo.149.link: https://www.instagram.com/tetusara.ki_/
 photo.149.tags: portrait, smile, techitechi
-photo.150: https://www.instagram.com/p/CHL3UNiBu8X/media/?size=m
+photo.150: ig://CHL3UNiBu8X/m
 photo.150.author: tetusara.ki_
+photo.150.commitdate: 2020/11/11
 photo.150.link: https://www.instagram.com/tetusara.ki_/
 photo.150.tags: bridge, paws, peek, portrait, techitechi
 species: 2

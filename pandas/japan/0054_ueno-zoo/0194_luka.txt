@@ -620,8 +620,9 @@ photo.121.author: eos1089
 photo.121.commitdate: 2020/11/7
 photo.121.link: https://www.instagram.com/eos1089/
 photo.121.tags: peek, portrait
-photo.122: https://www.instagram.com/p/CHM_Q0chJEU/media/?size=m
+photo.122: ig://CHM_Q0chJEU/m
 photo.122.author: alto0908
+photo.122.commitdate: 2020/11/11
 photo.122.link: https://www.instagram.com/alto0908/
 photo.122.tags: home, laying down, portrait
 species: 2

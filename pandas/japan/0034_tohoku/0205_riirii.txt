@@ -88,15 +88,16 @@ photo.15.author: alto0908
 photo.15.commitdate: 2020/9/15
 photo.15.link: https://www.instagram.com/alto0908/
 photo.15.tags: air tasting, laying down, portrait, tongue, whiskers
-photo.16: ig://CGIAPnIhV46/m
-photo.16.author: ifumoto88
-photo.16.commitdate: 2020/10/11
-photo.16.link: https://www.instagram.com/ifumoto88/
-photo.16.tags: mofumofu, paws, portrait
-photo.17: https://www.instagram.com/p/CGCfxSdBnNR/media/?size=m
-photo.17.author: daniele.tokyo
-photo.17.link: https://www.instagram.com/daniele.tokyo/
-photo.17.tags: laying down, paws, portrait, smile, tail
+photo.16: ig://CGCfxSdBnNR/m
+photo.16.author: daniele.tokyo
+photo.16.commitdate: 2020/11/11
+photo.16.link: https://www.instagram.com/daniele.tokyo/
+photo.16.tags: laying down, paws, portrait, smile, tail
+photo.17: ig://CGIAPnIhV46/m
+photo.17.author: ifumoto88
+photo.17.commitdate: 2020/10/11
+photo.17.link: https://www.instagram.com/ifumoto88/
+photo.17.tags: mofumofu, paws, portrait
 species: 2
 studbook.id: 13149
 zoo: 34

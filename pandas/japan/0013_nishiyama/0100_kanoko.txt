@@ -304,8 +304,9 @@ photo.58.author: jas_forever_love
 photo.58.commitdate: 2020/10/26
 photo.58.link: https://www.instagram.com/jas_forever_love/
 photo.58.tags: portrait, white face
-photo.59: https://www.instagram.com/p/CHNLmDOhgXd/media/?size=m
+photo.59: ig://CHNLmDOhgXd/m
 photo.59.author: tomo3700
+photo.59.commitdate: 2020/11/11
 photo.59.link: https://www.instagram.com/tomo3700/
 photo.59.tags: paws, portrait, wave
 species: 2

@@ -133,28 +133,31 @@ photo.24.author: kipekaila
 photo.24.commitdate: 2020/11/1
 photo.24.link: https://www.instagram.com/kipekaila/
 photo.24.tags: apple time, baby, bamboo, mofumofu, smile
-photo.25: ig://CHC4inzBW2D/m
-photo.25.author: redpanda_nippon_takashi
-photo.25.commitdate: 2020/11/6
-photo.25.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.25.tags: baby, climb, paws
-photo.26: ig://CHC5QJBhdGw/m
+photo.25: ig://CHC3pXCBkvt/m
+photo.25.author: daniele.tokyo
+photo.25.commitdate: 2020/11/11
+photo.25.link: https://www.instagram.com/daniele.tokyo/
+photo.25.tags: baby, peek, tree
+photo.26: ig://CHC4inzBW2D/m
 photo.26.author: redpanda_nippon_takashi
 photo.26.commitdate: 2020/11/6
 photo.26.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.26.tags: baby, close-up, mofumofu
-photo.27: https://www.instagram.com/p/CHNK0jkhn3t/media/?size=m
-photo.27.author: daniele.tokyo
-photo.27.link: https://www.instagram.com/daniele.tokyo/
-photo.27.tags: baby, keeper, paws, standing
-photo.28: https://www.instagram.com/p/CHC3pXCBkvt/media/?size=m
-photo.28.author: daniele.tokyo
-photo.28.link: https://www.instagram.com/daniele.tokyo/
-photo.28.tags: baby, peek, tree
-photo.29: https://www.instagram.com/p/CHIaj5uBPd2/media/?size=m
-photo.29.author: resapan.suki
-photo.29.link: https://www.instagram.com/resapan.suki/
-photo.29.tags: baby, climb, paws, portrait
+photo.26.tags: baby, climb, paws
+photo.27: ig://CHC5QJBhdGw/m
+photo.27.author: redpanda_nippon_takashi
+photo.27.commitdate: 2020/11/6
+photo.27.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.27.tags: baby, close-up, mofumofu
+photo.28: ig://CHIaj5uBPd2/m
+photo.28.author: resapan.suki
+photo.28.commitdate: 2020/11/11
+photo.28.link: https://www.instagram.com/resapan.suki/
+photo.28.tags: baby, climb, paws, portrait
+photo.29: ig://CHNK0jkhn3t/m
+photo.29.author: daniele.tokyo
+photo.29.commitdate: 2020/11/11
+photo.29.link: https://www.instagram.com/daniele.tokyo/
+photo.29.tags: baby, keeper, paws, standing
 species: 2
 studbook.id: unknown
 zoo: 13

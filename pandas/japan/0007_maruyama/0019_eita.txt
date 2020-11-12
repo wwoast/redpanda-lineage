@@ -1165,8 +1165,9 @@ photo.232.author: ho0oipo
 photo.232.commitdate: 2020/11/7
 photo.232.link: https://www.instagram.com/ho0oipo/
 photo.232.tags: dish, paws, smile, standing, tail
-photo.233: https://www.instagram.com/p/CHNmkBIgSkn/media/?size=m
+photo.233: ig://CHNmkBIgSkn/m
 photo.233.author: cattail.sapporo
+photo.233.commitdate: 2020/11/11
 photo.233.link: https://www.instagram.com/cattail.sapporo/
 photo.233.tags: bamboo, portrait, videolink
 species: 2

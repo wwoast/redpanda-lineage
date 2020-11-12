@@ -845,12 +845,14 @@ photo.167.author: cattail.sapporo
 photo.167.commitdate: 2020/11/8
 photo.167.link: https://www.instagram.com/cattail.sapporo/
 photo.167.tags: close-up, laying down, mofumofu, portrait
-photo.168: https://www.instagram.com/p/CHAIMCnBdBf/media/?size=m
+photo.168: ig://CHAIMCnBdBf/m
 photo.168.author: leonard_redmof
+photo.168.commitdate: 2020/11/11
 photo.168.link: https://www.instagram.com/leonard_redmof/
 photo.168.tags: portrait, tail
-photo.169: https://www.instagram.com/p/CHMZJhmA_ng/media/?size=m
+photo.169: ig://CHMZJhmA_ng/m
 photo.169.author: cattail.sapporo
+photo.169.commitdate: 2020/11/11
 photo.169.link: https://www.instagram.com/cattail.sapporo/
 photo.169.tags: close-up, portrait, smile
 species: 2

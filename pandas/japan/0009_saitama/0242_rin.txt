@@ -518,15 +518,16 @@ photo.101.author: kipekaila
 photo.101.commitdate: 2020/10/9
 photo.101.link: https://www.instagram.com/kipekaila/
 photo.101.tags: portrait, tree
-photo.102: ig://CHCBGXhBBEA/m
-photo.102.author: panda.daisuki
-photo.102.commitdate: 2020/11/6
-photo.102.link: https://www.instagram.com/panda.daisuki/
-photo.102.tags: paws, portrait, standing, white face
-photo.103: https://www.instagram.com/p/CGCjU7Vhshf/media/?size=m
-photo.103.author: ssc6105
-photo.103.link: https://www.instagram.com/ssc6105/
-photo.103.tags: laying down, portrait, sleeping
+photo.102: ig://CGCjU7Vhshf/m
+photo.102.author: ssc6105
+photo.102.commitdate: 2020/11/11
+photo.102.link: https://www.instagram.com/ssc6105/
+photo.102.tags: laying down, portrait, sleeping
+photo.103: ig://CHCBGXhBBEA/m
+photo.103.author: panda.daisuki
+photo.103.commitdate: 2020/11/6
+photo.103.link: https://www.instagram.com/panda.daisuki/
+photo.103.tags: paws, portrait, standing, white face
 species: 2
 studbook.id: unknown
 zoo: 9
