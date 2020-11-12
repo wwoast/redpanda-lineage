@@ -6,7 +6,7 @@ children: 230, 950
 commitdate: 2018/7/26
 en.name: Rii-Rii
 en.nicknames: none
-en.othernames: Lee-Lee, Rili, Riirii
+en.othernames: Lee-Lee, Rili, Riirii, Lily
 gender: f
 jp.name: リーリー
 jp.nicknames: none
@@ -93,6 +93,10 @@ photo.16.author: ifumoto88
 photo.16.commitdate: 2020/10/11
 photo.16.link: https://www.instagram.com/ifumoto88/
 photo.16.tags: mofumofu, paws, portrait
+photo.17: https://www.instagram.com/p/CGCfxSdBnNR/media/?size=m
+photo.17.author: daniele.tokyo
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: laying down, paws, portrait, smile, tail
 species: 2
 studbook.id: 13149
 zoo: 34
