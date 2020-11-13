@@ -85,16 +85,6 @@ photo.14.author: carsontheredpanda
 photo.14.commitdate: 2019/3/10
 photo.14.link: https://www.instagram.com/carsontheredpanda/
 photo.14.tags: laying down, tree
-photo.15: ig://Bu_mbY-lePu/m
-photo.15.author: carsontheredpanda
-photo.15.commitdate: 2019/3/17
-photo.15.link: https://www.instagram.com/carsontheredpanda/
-photo.15.tags: itchy, portrait, techitechi, tree
-photo.16: ig://BvHbv9Zlcnb/m
-photo.16.author: carsontheredpanda
-photo.16.commitdate: 2019/3/21
-photo.16.link: https://www.instagram.com/carsontheredpanda/
-photo.16.tags: bamboo, paws, portrait, standing
 photo.17: ig://BvMlS5fl-bK/m
 photo.17.author: carsontheredpanda
 photo.17.commitdate: 2019/3/21
@@ -105,16 +95,6 @@ photo.18.author: carsontheredpanda
 photo.18.commitdate: 2019/4/2
 photo.18.link: https://www.instagram.com/carsontheredpanda/
 photo.18.tags: laying down, portrait, tongue, tree
-photo.19: ig://Bx2dxwoltQS/m
-photo.19.author: carsontheredpanda
-photo.19.commitdate: 2019/5/30
-photo.19.link: https://www.instagram.com/carsontheredpanda/
-photo.19.tags: hammock, portrait
-photo.20: ig://BzQvX6chHXm/m
-photo.20.author: carsontheredpanda
-photo.20.commitdate: 2019/7/2
-photo.20.link: https://www.instagram.com/carsontheredpanda/
-photo.20.tags: portrait, profile, tree
 photo.21: ig://B21wRldBHYm/m
 photo.21.author: carsontheredpanda
 photo.21.commitdate: 2019/9/27
@@ -150,6 +130,11 @@ photo.27.author: newzoogb
 photo.27.commitdate: 2020/11/8
 photo.27.link: https://www.instagram.com/newzoogb/
 photo.27.tags: portrait, smile
+photo.28: ig://Bs3YjsYlxv1/m
+photo.28.author: carsontheredpanda
+photo.28.commitdate: 2019/1/20
+photo.28.link: https://www.instagram.com/carsontheredpanda/
+photo.28.tags: tree
 species: 2
 studbook.id: 1810
 zoo: 44

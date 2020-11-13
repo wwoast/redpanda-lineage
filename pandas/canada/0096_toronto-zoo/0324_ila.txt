@@ -26,11 +26,6 @@ photo.2.author: carsontheredpanda
 photo.2.commitdate: 2019/1/14
 photo.2.link: https://www.instagram.com/carsontheredpanda/
 photo.2.tags: bamboo, portrait, profile, smile, tree
-photo.3: ig://Bs3YjsYlxv1/m
-photo.3.author: carsontheredpanda
-photo.3.commitdate: 2019/1/20
-photo.3.link: https://www.instagram.com/carsontheredpanda/
-photo.3.tags: tree
 photo.4: ig://BtL0_mKlsnn/m
 photo.4.author: carsontheredpanda
 photo.4.commitdate: 2019/1/30
@@ -139,6 +134,21 @@ photo.25.author: thetorontozoo
 photo.25.commitdate: 2020/5/2
 photo.25.link: https://www.instagram.com/thetorontozoo/
 photo.25.tags: paws, standing, tail, training
+photo.26: ig://Bx2dxwoltQS/m
+photo.26.author: carsontheredpanda
+photo.26.commitdate: 2019/5/30
+photo.26.link: https://www.instagram.com/carsontheredpanda/
+photo.26.tags: hammock, portrait
+photo.27: ig://BzQvX6chHXm/m
+photo.27.author: carsontheredpanda
+photo.27.commitdate: 2019/7/2
+photo.27.link: https://www.instagram.com/carsontheredpanda/
+photo.27.tags: portrait, profile, tree
+photo.28: ig://Bu_mbY-lePu/m
+photo.28.author: carsontheredpanda
+photo.28.commitdate: 2019/3/17
+photo.28.link: https://www.instagram.com/carsontheredpanda/
+photo.28.tags: itchy, portrait, techitechi, tree
 species: 2
 studbook.id: 1809
 zoo: 96
