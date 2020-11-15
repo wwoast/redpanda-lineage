@@ -166,6 +166,14 @@ photo.31.author: re_ichimaru
 photo.31.commitdate: 2020/11/1
 photo.31.link: https://www.instagram.com/re_ichimaru/
 photo.31.tags: paws, portrait
+photo.32: https://www.instagram.com/p/CEEhRhFBP11/media/?size=m
+photo.32.author: animal_love_us
+photo.32.link: https://www.instagram.com/animal_love_us/
+photo.32.tags: hammock, paws, portrait, smile
+photo.33: https://www.instagram.com/p/CHSqfYgB3mU/media/?size=m
+photo.33.author: re_ichimaru
+photo.33.link: https://www.instagram.com/re_ichimaru/
+photo.33.tags: paws, portrait, smile
 species: 2
 studbook.id: 1784
 zoo: 42
