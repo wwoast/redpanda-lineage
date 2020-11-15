@@ -94,8 +94,9 @@ photo.16.author: kisshan324
 photo.16.commitdate: 2020/10/12
 photo.16.link: https://www.instagram.com/kisshan324/
 photo.16.tags: bamboo, mofumofu, paws, portrait, smile
-photo.17: https://www.instagram.com/p/CHX65LlBXUt/media/?size=m
+photo.17: ig://CHX65LlBXUt/m
 photo.17.author: kipekaila
+photo.17.commitdate: 2020/11/15
 photo.17.link: https://www.instagram.com/kipekaila/
 photo.17.tags: whiskers
 species: 2

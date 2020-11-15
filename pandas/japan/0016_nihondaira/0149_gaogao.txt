@@ -238,8 +238,9 @@ photo.45.author: fetorus_mami
 photo.45.commitdate: 2020/11/5
 photo.45.link: https://www.instagram.com/fetorus_mami/
 photo.45.tags: close-up, whiskers
-photo.46: https://www.instagram.com/p/CHO5vFoBfqP/media/?size=m
+photo.46: ig://CHO5vFoBfqP/m
 photo.46.author: lesserpanda_shizuokacity_cp
+photo.46.commitdate: 2020/11/15
 photo.46.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.46.tags: portrait
 species: 2

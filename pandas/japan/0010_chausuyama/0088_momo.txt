@@ -152,14 +152,16 @@ photo.28.author: fetorus_mami
 photo.28.commitdate: 2020/9/24
 photo.28.link: https://www.instagram.com/fetorus_mami/
 photo.28.tags: apple time, dish, smile
-photo.29: https://www.instagram.com/p/CHQDCqyh_nI/media/?size=m
-photo.29.author: rie_panda55
-photo.29.link: https://www.instagram.com/rie_panda55/
-photo.29.tags: paws, portrait, tree, white face
-photo.30: https://www.instagram.com/p/CF83qpDBmJs/media/?size=m
-photo.30.author: mybrotherisdylan
-photo.30.link: https://www.instagram.com/mybrotherisdylan/
-photo.30.tags: peek
+photo.29: ig://CF83qpDBmJs/m
+photo.29.author: mybrotherisdylan
+photo.29.commitdate: 2020/11/15
+photo.29.link: https://www.instagram.com/mybrotherisdylan/
+photo.29.tags: peek
+photo.30: ig://CHQDCqyh_nI/m
+photo.30.author: rie_panda55
+photo.30.commitdate: 2020/11/15
+photo.30.link: https://www.instagram.com/rie_panda55/
+photo.30.tags: paws, portrait, tree, white face
 species: 2
 studbook.id: 11100
 zoo: 10

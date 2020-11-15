@@ -380,14 +380,16 @@ photo.73.author: jas_forever_love
 photo.73.commitdate: 2020/10/27
 photo.73.link: https://www.instagram.com/jas_forever_love/
 photo.73.tags: apple time, portrait, tail, whiskers
-photo.74: https://www.instagram.com/p/CHSenmMBlAa/media/?size=m
-photo.74.author: akiakiakiko18
-photo.74.link: https://www.instagram.com/akiakiakiko18/
-photo.74.tags: itchy, paws, portrait, whiskers
-photo.75: https://www.instagram.com/p/CHQAM2Wh6Fg/media/?size=m
-photo.75.author: apple_jasmine33
-photo.75.link: https://www.instagram.com/apple_jasmine33/
-photo.75.tags: close-up, portriat, smile
+photo.74: ig://CHQAM2Wh6Fg/m
+photo.74.author: apple_jasmine33
+photo.74.commitdate: 2020/11/15
+photo.74.link: https://www.instagram.com/apple_jasmine33/
+photo.74.tags: close-up, portriat, smile
+photo.75: ig://CHSenmMBlAa/m
+photo.75.author: akiakiakiko18
+photo.75.commitdate: 2020/11/15
+photo.75.link: https://www.instagram.com/akiakiakiko18/
+photo.75.tags: itchy, paws, portrait, whiskers
 species: 2
 studbook.id: 1786
 zoo: 2

@@ -85,14 +85,16 @@ photo.14.author: miis_98
 photo.14.commitdate: 2020/11/5
 photo.14.link: https://www.instagram.com/miis_98/
 photo.14.tags: air tasting, portrait, tongue
-photo.15: https://www.instagram.com/p/CHSjuCMBrvs/media/?size=m
-photo.15.author: yossi929
-photo.15.link: https://www.instagram.com/yossi929/
-photo.15.tags: paws, portrait, tree
-photo.16: https://www.instagram.com/p/CHPJZJrhsfa/media/?size=m
-photo.16.author: miis_98
-photo.16.link: https://www.instagram.com/miis_98/
-photo.16.tags: door, portrait, smile
+photo.15: ig://CHPJZJrhsfa/m
+photo.15.author: miis_98
+photo.15.commitdate: 2020/11/15
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: door, portrait, smile
+photo.16: ig://CHSjuCMBrvs/m
+photo.16.author: yossi929
+photo.16.commitdate: 2020/11/15
+photo.16.link: https://www.instagram.com/yossi929/
+photo.16.tags: paws, portrait, tree
 species: 2
 studbook.id: 13157
 zoo: 30

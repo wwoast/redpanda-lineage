@@ -115,8 +115,9 @@ photo.20.author: miis_98
 photo.20.commitdate: 2020/11/6
 photo.20.link: https://www.instagram.com/miis_98/
 photo.20.tags: bamboo, bite, lips, paws, portrait, tree
-photo.21: https://www.instagram.com/p/CHRFmOZBFuY/media/?size=m
+photo.21: ig://CHRFmOZBFuY/m
 photo.21.author: yossi929
+photo.21.commitdate: 2020/11/15
 photo.21.link: https://www.instagram.com/yossi929/
 photo.21.tags: paws, portrait, smile, tail
 species: 2

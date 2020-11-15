@@ -23,8 +23,9 @@ photo.2.author: cincinnatizoo
 photo.2.commitdate: 2020/10/27
 photo.2.link: https://www.instagram.com/cincinnatizoo/
 photo.2.tags: baby, portrait, smile, tail, tree
-photo.3: https://www.instagram.com/p/CHQcRBYjH3W/media/?size=m
+photo.3: ig://CHQcRBYjH3W/m
 photo.3.author: cincinnatizoo
+photo.3.commitdate: 2020/11/15
 photo.3.link: https://www.instagram.com/cincinnatizoo/
 photo.3.tags: baby, bamboo, dish, paws, portrait, smile
 species: 2

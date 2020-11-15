@@ -821,8 +821,9 @@ photo.164.author: hamamatsu.chiita
 photo.164.commitdate: 2020/11/2
 photo.164.link: https://www.instagram.com/hamamatsu.chiita/
 photo.164.tags: mofumofu, portrait, whiskers
-photo.165: https://www.instagram.com/p/CHQ1RQGhppl/media/?size=m
+photo.165: ig://CHQ1RQGhppl/m
 photo.165.author: hamamatsu.chiita
+photo.165.commitdate: 2020/11/15
 photo.165.link: https://www.instagram.com/hamamatsu.chiita/
 photo.165.tags: portrait, smile, whiskers
 species: 2

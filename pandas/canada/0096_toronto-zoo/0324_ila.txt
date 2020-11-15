@@ -144,15 +144,16 @@ photo.26.author: thetorontozoo
 photo.26.commitdate: 2020/3/12
 photo.26.link: https://www.instagram.com/thetorontozoo/
 photo.26.tags: bamboo, paws, smile
-photo.27: ig://B_QX3c2g1uX/m
-photo.27.author: thetorontozoo
-photo.27.commitdate: 2020/5/2
-photo.27.link: https://www.instagram.com/thetorontozoo/
-photo.27.tags: paws, standing, tail, training
-photo.28: https://www.instagram.com/p/B_OmRfkAau_/media/?size=m
-photo.28.author: westcoast_kathy
-photo.28.link: https://www.instagram.com/westcoast_kathy/
-photo.28.tags: mofumofu, peek, tree
+photo.27: ig://B_OmRfkAau_/m
+photo.27.author: westcoast_kathy
+photo.27.commitdate: 2020/11/15
+photo.27.link: https://www.instagram.com/westcoast_kathy/
+photo.27.tags: mofumofu, peek, tree
+photo.28: ig://B_QX3c2g1uX/m
+photo.28.author: thetorontozoo
+photo.28.commitdate: 2020/5/2
+photo.28.link: https://www.instagram.com/thetorontozoo/
+photo.28.tags: paws, standing, tail, training
 species: 2
 studbook.id: 1809
 zoo: 96

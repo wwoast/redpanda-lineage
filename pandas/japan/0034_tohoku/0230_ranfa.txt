@@ -773,8 +773,9 @@ photo.153.author: kisshan324
 photo.153.commitdate: 2020/10/9
 photo.153.link: https://www.instagram.com/kisshan324/
 photo.153.tags: portrait, techitechi, white face
-photo.154: https://www.instagram.com/p/CHNXQjBBOts/media/?size=m
+photo.154: ig://CHNXQjBBOts/m
 photo.154.author: resapan.suki
+photo.154.commitdate: 2020/11/15
 photo.154.link: https://www.instagram.com/resapan.suki/
 photo.154.tags: portrait, tail
 species: 2
