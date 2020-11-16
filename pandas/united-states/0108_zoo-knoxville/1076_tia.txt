@@ -58,27 +58,31 @@ photo.9.author: worldthathesees
 photo.9.commitdate: 2020/1/14
 photo.9.link: https://www.instagram.com/worldthathesees/
 photo.9.tags: white face
-photo.10: ig://B9J5C8BBNJ8/m
+photo.10: ig://B7a5PQFBXbp/m
 photo.10.author: worldthathesees
-photo.10.commitdate: 2020/5/29
+photo.10.commitdate: 2020/11/16
 photo.10.link: https://www.instagram.com/worldthathesees/
-photo.10.tags: bamboo, white face
-photo.11: https://www.instagram.com/p/B7iqGWnBRKA/media/?size=m
+photo.10.tags: baby, bite, playing, portrait, white face
+photo.11: ig://B7iqGWnBRKA/m
 photo.11.author: worldthathesees
+photo.11.commitdate: 2020/11/16
 photo.11.link: https://www.instagram.com/worldthathesees/
 photo.11.tags: baby, peek, white face
-photo.12: https://www.instagram.com/p/CDOeNjehnNg/media/?size=m
+photo.12: ig://B9J5C8BBNJ8/m
 photo.12.author: worldthathesees
-photo.12.link: https://www.instagram.com/p/CDOeNjehnNg/media/?size=m
-photo.12.tags: white face
-photo.13: https://www.instagram.com/p/CDMlwBmhg1v/media/?size=m
+photo.12.commitdate: 2020/5/29
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: bamboo, white face
+photo.13: ig://CDMlwBmhg1v/m
 photo.13.author: worldthathesees
+photo.13.commitdate: 2020/11/16
 photo.13.link: https://www.instagram.com/worldthathesees/
 photo.13.tags: pooping, white face
-photo.14: https://www.instagram.com/p/B7a5PQFBXbp/media/?size=m
+photo.14: ig://CDOeNjehnNg/m
 photo.14.author: worldthathesees
-photo.14.link: https://www.instagram.com/worldthathesees/
-photo.14.tags: baby, bite, playing, portrait, white face
+photo.14.commitdate: 2020/11/16
+photo.14.link: https://www.instagram.com/p/CDOeNjehnNg/media/?size=m
+photo.14.tags: white face
 species: 1
 studbook.id: 1913
 zoo: 108

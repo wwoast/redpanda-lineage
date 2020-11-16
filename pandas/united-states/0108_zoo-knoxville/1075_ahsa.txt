@@ -57,14 +57,16 @@ photo.8.author: worldthathesees
 photo.8.commitdate: 2020/1/16
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: white face
-photo.9: https://www.instagram.com/p/CDE-1VIBFjw/media/?size=m
+photo.9: ig://B7R7nfYh7D4/m
 photo.9.author: worldthathesees
+photo.9.commitdate: 2020/11/16
 photo.9.link: https://www.instagram.com/worldthathesees/
-photo.9.tags: close-up, tongue, white face, window
-photo.10: https://www.instagram.com/p/B7R7nfYh7D4/media/?size=m
+photo.9.tags: baby, paws, portrait
+photo.10: ig://CDE-1VIBFjw/m
 photo.10.author: worldthathesees
+photo.10.commitdate: 2020/11/16
 photo.10.link: https://www.instagram.com/worldthathesees/
-photo.10.tags: baby, paws, portrait
+photo.10.tags: close-up, tongue, white face, window
 species: 1
 studbook.id: 1919
 zoo: 108
