@@ -114,8 +114,9 @@ photo.20.author: miis_98
 photo.20.commitdate: 2020/11/15
 photo.20.link: https://www.instagram.com/miis_98/
 photo.20.tags: paws, portrait, tree
-photo.21: https://www.instagram.com/p/CHmsxrkhNVH/media/?size=m
+photo.21: ig://CHmsxrkhNVH/m
 photo.21.author: miis_98
+photo.21.commitdate: 2020/11/17
 photo.21.link: https://www.instagram.com/miis_98/
 photo.21.tags: paws, peek, portrait, tail, tree
 species: 2

@@ -997,8 +997,9 @@ photo.199.author: wumpwoast
 photo.199.commitdate: 2020/10/27
 photo.199.link: https://www.instagram.com/wumpwoast/
 photo.199.tags: portrait, tail
-photo.200: https://www.instagram.com/p/CHpxuGDhvqO/media/?size=m
+photo.200: ig://CHpxuGDhvqO/m
 photo.200.author: gloryeui
+photo.200.commitdate: 2020/11/17
 photo.200.link: https://www.instagram.com/gloryeui/
 photo.200.tags: bamboo, portrait, smile, videolink
 species: 2

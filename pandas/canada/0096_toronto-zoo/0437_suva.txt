@@ -36,20 +36,21 @@ photo.4.author: rossifari
 photo.4.commitdate: 2019/12/3
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: autumn, portrait, tongue, whiskers
-photo.5: ig://B_pQZvPDBlj/m
-photo.5.author: rossifari
-photo.5.commitdate: 2020/5/4
-photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: autumn, paws, portrait
-photo.6: ig://CEM-PBDg5hx/m
-photo.6.author: thetorontozoo
-photo.6.commitdate: 2020/8/28
-photo.6.link: https://www.instagram.com/thetorontozoo/
-photo.6.tags: bridge, laying down, paws, portrait
-photo.7: https://www.instagram.com/p/B7GZ4gmJD8y/media/?size=m
-photo.7.author: thegrumpypenguin
-photo.7.link: https://www.instagram.com/thegrumpypenguin/
-photo.7.tags: smile
+photo.5: ig://B7GZ4gmJD8y/m
+photo.5.author: thegrumpypenguin
+photo.5.commitdate: 2020/11/17
+photo.5.link: https://www.instagram.com/thegrumpypenguin/
+photo.5.tags: smile
+photo.6: ig://B_pQZvPDBlj/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/5/4
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: autumn, paws, portrait
+photo.7: ig://CEM-PBDg5hx/m
+photo.7.author: thetorontozoo
+photo.7.commitdate: 2020/8/28
+photo.7.link: https://www.instagram.com/thetorontozoo/
+photo.7.tags: bridge, laying down, paws, portrait
 species: 2
 studbook.id: 1701
 zoo: 96

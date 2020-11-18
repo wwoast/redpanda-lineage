@@ -129,43 +129,46 @@ photo.23.author: thetorontozoo
 photo.23.commitdate: 2019/12/16
 photo.23.link: https://www.instagram.com/thetorontozoo/
 photo.23.tags: paws, snow, standing
-photo.24: ig://B6uOhgkBgtE/m
-photo.24.author: carsontheredpanda
-photo.24.commitdate: 2019/12/31
-photo.24.link: https://www.instagram.com/carsontheredpanda/
-photo.24.tags: mofumofu, portrait, tail
-photo.25: ig://B9VkP3EAuaH/m
-photo.25.author: westcoast_kathy
-photo.25.commitdate: 2020/3/9
-photo.25.link: https://www.instagram.com/westcoast_kathy/
-photo.25.tags: mofumofu, portrait
-photo.26: ig://B9kGA1IhQ47/m
-photo.26.author: thetorontozoo
-photo.26.commitdate: 2020/3/12
-photo.26.link: https://www.instagram.com/thetorontozoo/
-photo.26.tags: bamboo, paws, smile
-photo.27: ig://B_OmRfkAau_/m
-photo.27.author: westcoast_kathy
-photo.27.commitdate: 2020/11/15
-photo.27.link: https://www.instagram.com/westcoast_kathy/
-photo.27.tags: mofumofu, peek, tree
-photo.28: ig://B_QX3c2g1uX/m
-photo.28.author: thetorontozoo
-photo.28.commitdate: 2020/5/2
-photo.28.link: https://www.instagram.com/thetorontozoo/
-photo.28.tags: paws, standing, tail, training
-photo.29: https://www.instagram.com/p/B8JnnF3JwNn/media/?size=m
-photo.29.author: thegrumpypenguin
-photo.29.link: https://www.instagram.com/thegrumpypenguin/
-photo.29.tags: air tasting, bamboo, tongue
-photo.30: https://www.instagram.com/p/B7NMr-_AFvU/media/?size=m
+photo.24: ig://B56JdojJnBJ/m
+photo.24.author: thegrumpypenguin
+photo.24.commitdate: 2020/11/17
+photo.24.link: https://www.instagram.com/thegrumpypenguin/
+photo.24.tags: nose, peek, portrait, window
+photo.25: ig://B6uOhgkBgtE/m
+photo.25.author: carsontheredpanda
+photo.25.commitdate: 2019/12/31
+photo.25.link: https://www.instagram.com/carsontheredpanda/
+photo.25.tags: mofumofu, portrait, tail
+photo.26: ig://B7NMr-_AFvU/m
+photo.26.author: westcoast_kathy
+photo.26.commitdate: 2020/11/17
+photo.26.link: https://www.instagram.com/westcoast_kathy/
+photo.26.tags: mofumofu, portrait, smile, whiskers
+photo.27: ig://B8JnnF3JwNn/m
+photo.27.author: thegrumpypenguin
+photo.27.commitdate: 2020/11/17
+photo.27.link: https://www.instagram.com/thegrumpypenguin/
+photo.27.tags: air tasting, bamboo, tongue
+photo.28: ig://B9VkP3EAuaH/m
+photo.28.author: westcoast_kathy
+photo.28.commitdate: 2020/3/9
+photo.28.link: https://www.instagram.com/westcoast_kathy/
+photo.28.tags: mofumofu, portrait
+photo.29: ig://B9kGA1IhQ47/m
+photo.29.author: thetorontozoo
+photo.29.commitdate: 2020/3/12
+photo.29.link: https://www.instagram.com/thetorontozoo/
+photo.29.tags: bamboo, paws, smile
+photo.30: ig://B_OmRfkAau_/m
 photo.30.author: westcoast_kathy
+photo.30.commitdate: 2020/11/15
 photo.30.link: https://www.instagram.com/westcoast_kathy/
-photo.30.tags: mofumofu, portrait, smile, whiskers
-photo.31: https://www.instagram.com/p/B56JdojJnBJ/media/?size=m
-photo.31.author: thegrumpypenguin
-photo.31.link: https://www.instagram.com/thegrumpypenguin/
-photo.31.tags: nose, peek, portrait, window
+photo.30.tags: mofumofu, peek, tree
+photo.31: ig://B_QX3c2g1uX/m
+photo.31.author: thetorontozoo
+photo.31.commitdate: 2020/5/2
+photo.31.link: https://www.instagram.com/thetorontozoo/
+photo.31.tags: paws, standing, tail, training
 species: 2
 studbook.id: 1809
 zoo: 96

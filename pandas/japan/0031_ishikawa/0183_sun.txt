@@ -253,8 +253,9 @@ photo.48.author: bee_san.13
 photo.48.commitdate: 2020/10/8
 photo.48.link: https://www.instagram.com/bee_san.13/
 photo.48.tags: portrait, smile, whiskers
-photo.49: https://www.instagram.com/p/CHo31uqBNTG/media/?size=m
+photo.49: ig://CHo31uqBNTG/m
 photo.49.author: merumeru119
+photo.49.commitdate: 2020/11/17
 photo.49.link: https://www.instagram.com/merumeru119/
 photo.49.tags: apple time, dish, paws, peek, standing
 species: 2
