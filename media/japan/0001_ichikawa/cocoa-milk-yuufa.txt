@@ -18,19 +18,11 @@ photo.2.tags: autumn, siblings, tail, tree, twins
 photo.2.tags.6.location: 100, 85
 photo.2.tags.246.location: 820, 300
 photo.2.tags.247.location: 385, 495
-photo.3: ig://B6uejZuhv4o/l
-photo.3.author: na.mo.pan
-photo.3.commitdate: 2020/2/16
-photo.3.link: https://www.instagram.com/na.mo.pan/
-photo.3.tags: apple time, keeper, twins
-photo.3.tags.6.location: 425, 960
-photo.3.tags.246.location: 270, 375
-photo.3.tags.247.location: 770, 500
-photo.4: ig://B_tW4qhnFc3/m
-photo.4.author: ssc6105
-photo.4.commitdate: 2020/5/29
-photo.4.link: https://www.instagram.com/ssc6105/
-photo.4.tags: apple time, family, keeper, siblings, sisters, twins
-photo.4.tags.6.location: 150, 315
-photo.4.tags.246.location: 220, 90
-photo.4.tags.247.location: 110, 100
+photo.3: ig://B_tW4qhnFc3/m
+photo.3.author: ssc6105
+photo.3.commitdate: 2020/5/29
+photo.3.link: https://www.instagram.com/ssc6105/
+photo.3.tags: apple time, family, keeper, siblings, sisters, twins
+photo.3.tags.6.location: 150, 315
+photo.3.tags.246.location: 220, 90
+photo.3.tags.247.location: 110, 100

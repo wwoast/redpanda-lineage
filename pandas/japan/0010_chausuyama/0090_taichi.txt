@@ -101,55 +101,50 @@ photo.18.author: resapan.suki
 photo.18.commitdate: 2019/4/5
 photo.18.link: https://www.instagram.com/resapan.suki/
 photo.18.tags: portrait
-photo.19: ig://BwD4gW5lPbb/m
-photo.19.author: na.mo.pan
-photo.19.commitdate: 2019/4/11
-photo.19.link: https://www.instagram.com/na.mo.pan/
-photo.19.tags: portrait, tail
-photo.20: ig://BxrUWlwFyWV/m
-photo.20.author: sasapan34
-photo.20.commitdate: 2019/5/22
-photo.20.link: https://www.instagram.com/sasapan34/
-photo.20.tags: flowers, smile
-photo.21: ig://ByZ2K58hhGZ/m
-photo.21.author: shigeko0531
-photo.21.commitdate: 2019/6/8
-photo.21.link: https://www.instagram.com/shigeko0531/
-photo.21.tags: muzzle, portrait, smile
-photo.22: ig://B3HC-P6hY1F/m
-photo.22.author: tetusara.ki_
-photo.22.commitdate: 2019/10/12
-photo.22.link: https://www.instagram.com/tetusara.ki_/
-photo.22.tags: laying down, upside-down
-photo.23: ig://B3WiW-uhptq/m
-photo.23.author: resapan.suki
+photo.19: ig://BxrUWlwFyWV/m
+photo.19.author: sasapan34
+photo.19.commitdate: 2019/5/22
+photo.19.link: https://www.instagram.com/sasapan34/
+photo.19.tags: flowers, smile
+photo.20: ig://ByZ2K58hhGZ/m
+photo.20.author: shigeko0531
+photo.20.commitdate: 2019/6/8
+photo.20.link: https://www.instagram.com/shigeko0531/
+photo.20.tags: muzzle, portrait, smile
+photo.21: ig://B3HC-P6hY1F/m
+photo.21.author: tetusara.ki_
+photo.21.commitdate: 2019/10/12
+photo.21.link: https://www.instagram.com/tetusara.ki_/
+photo.21.tags: laying down, upside-down
+photo.22: ig://B3WiW-uhptq/m
+photo.22.author: resapan.suki
+photo.22.commitdate: 2019/10/14
+photo.22.link: https://www.instagram.com/resapan.suki/
+photo.22.tags: portrait, smile
+photo.23: ig://B3W4NyPhrKV/m
+photo.23.author: shigeko0531
 photo.23.commitdate: 2019/10/14
-photo.23.link: https://www.instagram.com/resapan.suki/
-photo.23.tags: portrait, smile
-photo.24: ig://B3W4NyPhrKV/m
-photo.24.author: shigeko0531
-photo.24.commitdate: 2019/10/14
-photo.24.link: https://www.instagram.com/shigeko0531/
-photo.24.tags: lips, portrait, whiskers
-photo.25: ig://B4AKOJrBFUP/m
-photo.25.author: nozo.mari
-photo.25.commitdate: 2019/10/25
-photo.25.link: https://www.instagram.com/nozo.mari/
-photo.26: ig://B4wvYK8B5DW/m
-photo.26.author: redpan22
-photo.26.commitdate: 2019/11/17
-photo.26.link: https://www.instagram.com/redpan22/
-photo.26.tags: tongue
-photo.27: ig://CCENIachxHC/m
-photo.27.author: panda.daisuki
-photo.27.commitdate: 2020/7/1
-photo.27.link: https://www.instagram.com/panda.daisuki/
-photo.27.tags: mofumofu, portrait, tail, whiskers
-photo.28: ig://CCFowPqBGtg/m
-photo.28.author: shigeko0531
-photo.28.commitdate: 2020/7/12
-photo.28.link: https://www.instagram.com/shigeko0531/
-photo.28.tags: portrait, smile, whiskers
+photo.23.link: https://www.instagram.com/shigeko0531/
+photo.23.tags: lips, portrait, whiskers
+photo.24: ig://B4AKOJrBFUP/m
+photo.24.author: nozo.mari
+photo.24.commitdate: 2019/10/25
+photo.24.link: https://www.instagram.com/nozo.mari/
+photo.25: ig://B4wvYK8B5DW/m
+photo.25.author: redpan22
+photo.25.commitdate: 2019/11/17
+photo.25.link: https://www.instagram.com/redpan22/
+photo.25.tags: tongue
+photo.26: ig://CCENIachxHC/m
+photo.26.author: panda.daisuki
+photo.26.commitdate: 2020/7/1
+photo.26.link: https://www.instagram.com/panda.daisuki/
+photo.26.tags: mofumofu, portrait, tail, whiskers
+photo.27: ig://CCFowPqBGtg/m
+photo.27.author: shigeko0531
+photo.27.commitdate: 2020/7/12
+photo.27.link: https://www.instagram.com/shigeko0531/
+photo.27.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 0559
 zoo: 10
