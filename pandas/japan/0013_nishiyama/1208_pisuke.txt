@@ -168,8 +168,9 @@ photo.31.author: hamamatsu.chiita
 photo.31.commitdate: 2020/11/15
 photo.31.link: https://www.instagram.com/hamamatsu.chiita/
 photo.31.tags: baby, paws, portrait, smile
-photo.32: https://www.instagram.com/p/CHsOOPbhzYg/media/?size=m
+photo.32: ig://CHsOOPbhzYg/m
 photo.32.author: resapan.suki
+photo.32.commitdate: 2020/11/18
 photo.32.link: https://www.instagram.com/resapan.suki/
 photo.32.tags: baby, mofumofu, peek, portrait, tree
 species: 2

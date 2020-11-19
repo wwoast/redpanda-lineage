@@ -115,8 +115,9 @@ photo.20.author: garseeyaink
 photo.20.commitdate: 2020/5/17
 photo.20.link: https://www.instagram.com/garseeyaink/
 photo.20.tags: portrait, whiskers
-photo.21: https://www.instagram.com/p/CGtoLzHB5xw/media/?size=m
+photo.21: ig://CGtoLzHB5xw/m
 photo.21.author: garseeyaink
+photo.21.commitdate: 2020/11/18
 photo.21.link: https://www.instagram.com/garseeyaink/
 photo.21.tags: paws, snow, whiskers
 species: 2

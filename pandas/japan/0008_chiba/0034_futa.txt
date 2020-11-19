@@ -295,8 +295,9 @@ photo.56.author: grskus_tk
 photo.56.commitdate: 2020/6/28
 photo.56.link: https://www.instagram.com/grskus_tk/
 photo.56.tags: grooming, paws, portrait, tail
-photo.57: https://www.instagram.com/p/CHoxTYRhfdd/media/?size=m
+photo.57: ig://CHoxTYRhfdd/m
 photo.57.author: ssc6105
+photo.57.commitdate: 2020/11/18
 photo.57.link: https://www.instagram.com/ssc6105/
 photo.57.tags: paws, tail
 species: 2

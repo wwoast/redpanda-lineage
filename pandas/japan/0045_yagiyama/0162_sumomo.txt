@@ -302,8 +302,9 @@ photo.58.author: panda.daisuki
 photo.58.commitdate: 2020/10/27
 photo.58.link: https://www.instagram.com/panda.daisuki/
 photo.58.tags: portrait, whiskers
-photo.59: https://www.instagram.com/p/CHuh6fMh3mN/media/?size=m
+photo.59: ig://CHuh6fMh3mN/m
 photo.59.author: pink.b22
+photo.59.commitdate: 2020/11/18
 photo.59.link: https://www.instagram.com/pink.b22/
 photo.59.tags: paws, portrait, smile, whiskers
 species: 2

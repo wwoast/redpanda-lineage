@@ -237,12 +237,14 @@ photo.45.author: jas_forever_love
 photo.45.commitdate: 2020/11/6
 photo.45.link: https://www.instagram.com/jas_forever_love/
 photo.45.tags: autumn, paws, portrait, tail
-photo.46: https://www.instagram.com/p/CHufxSHhigK/media/?size=m
+photo.46: ig://CHufxSHhigK/m
 photo.46.author: redpanda_nippon_takashi
+photo.46.commitdate: 2020/11/18
 photo.46.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.46.tags: portrait, whiskers
-photo.47: https://www.instagram.com/p/CHvAkXoHlnN/media/?size=m
+photo.47: ig://CHvAkXoHlnN/m
 photo.47.author: apple_jasmine33
+photo.47.commitdate: 2020/11/18
 photo.47.link: https://www.instagram.com/apple_jasmine33/
 photo.47.tags: portrait, tail
 species: 2

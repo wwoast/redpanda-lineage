@@ -168,8 +168,9 @@ photo.31.author: resapan.suki
 photo.31.commitdate: 2020/8/28
 photo.31.link: https://www.instagram.com/resapan.suki/
 photo.31.tags: portrait, smile, tree, whiskers
-photo.32: https://www.instagram.com/p/CHu5PEyhD5g/media/?size=m
+photo.32: ig://CHu5PEyhD5g/m
 photo.32.author: miis_98
+photo.32.commitdate: 2020/11/18
 photo.32.link: https://www.instagram.com/miis_98/
 photo.32.tags: portrait, tail
 species: 2

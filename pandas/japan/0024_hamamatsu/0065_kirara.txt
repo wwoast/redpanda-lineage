@@ -552,8 +552,9 @@ photo.109.author: taka__3428
 photo.109.commitdate: 2020/11/7
 photo.109.link: https://www.instagram.com/taka__3428/
 photo.109.tags: bamboo, paws, peek
-photo.110: https://www.instagram.com/p/CHkW7U_hgFc/media/?size=m
+photo.110: ig://CHkW7U_hgFc/m
 photo.110.author: hamamatsu.chiita
+photo.110.commitdate: 2020/11/18
 photo.110.link: https://www.instagram.com/hamamatsu.chiita/
 photo.110.tags: paws, whiskers
 species: 2

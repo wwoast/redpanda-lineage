@@ -433,12 +433,14 @@ photo.84.author: makimaru18
 photo.84.commitdate: 2020/11/6
 photo.84.link: https://www.instagram.com/makimaru18/
 photo.84.tags: home, laying down, portrait, smile, tongue
-photo.85: https://www.instagram.com/p/CHlWDWpg9i9/media/?size=m
+photo.85: ig://CHlWDWpg9i9/m
 photo.85.author: run.swim.shingo
+photo.85.commitdate: 2020/11/18
 photo.85.link: https://www.instagram.com/run.swim.shingo/
 photo.85.tags: autumn, paws, smile
-photo.86: https://www.instagram.com/p/CHql01ugIli/media/?size=m
+photo.86: ig://CHql01ugIli/m
 photo.86.author: run.swim.shingo
+photo.86.commitdate: 2020/11/18
 photo.86.link: https://www.instagram.com/run.swim.shingo/
 photo.86.tags: bridge, portrait, smile
 species: 2

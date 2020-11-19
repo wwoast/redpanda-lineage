@@ -418,8 +418,9 @@ photo.81.author: osopanda551
 photo.81.commitdate: 2020/10/2
 photo.81.link: https://www.instagram.com/osopanda551/
 photo.81.tags: flowers, portrait, smile, tree
-photo.82: https://www.instagram.com/p/CHlt_0Zhuzx/media/?size=m
+photo.82: ig://CHlt_0Zhuzx/m
 photo.82.author: kotata_513
+photo.82.commitdate: 2020/11/18
 photo.82.link: https://www.instagram.com/kotata_513/
 photo.82.tags: portrait, smile
 species: 2

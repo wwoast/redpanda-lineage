@@ -408,8 +408,9 @@ photo.79.author: taka__3428
 photo.79.commitdate: 2020/9/24
 photo.79.link: https://www.instagram.com/taka__3428/
 photo.79.tags: paws, smile, standing
-photo.80: https://www.instagram.com/p/CHkXdI3BZnH/media/?size=m
+photo.80: ig://CHkXdI3BZnH/m
 photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2020/11/18
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: smile
 species: 2

@@ -180,8 +180,9 @@ photo.33.author: bee_san.13
 photo.33.commitdate: 2020/8/22
 photo.33.link: https://www.instagram.com/bee_san.13/
 photo.33.tags: laying down, paws, portrait, smile, whiskers
-photo.34: https://www.instagram.com/p/CHsBAtBhBt8/media/?size=m
+photo.34: ig://CHsBAtBhBt8/m
 photo.34.author: hamamatsu.chiita
+photo.34.commitdate: 2020/11/18
 photo.34.link: https://www.instagram.com/hamamatsu.chiita/
 photo.34.tags: portrait, whiskers
 species: 2

@@ -70,8 +70,9 @@ photo.11.author: kisshan324
 photo.11.commitdate: 2020/8/5
 photo.11.link: https://www.instagram.com/kisshan324/
 photo.11.tags: paws, portrait, tail
-photo.12: https://www.instagram.com/p/CHu52AXhd3Q/media/?size=m
+photo.12: ig://CHu52AXhd3Q/m
 photo.12.author: makimaru18
+photo.12.commitdate: 2020/11/18
 photo.12.link: https://www.instagram.com/makimaru18/
 photo.12.tags: apple time, bamboo, paws, portrait, smile
 species: 2

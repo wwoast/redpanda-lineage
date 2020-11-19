@@ -114,19 +114,21 @@ photo.20.author: miis_98
 photo.20.commitdate: 2020/11/15
 photo.20.link: https://www.instagram.com/miis_98/
 photo.20.tags: paws, portrait, tree
-photo.21: ig://CHmsxrkhNVH/m
-photo.21.author: miis_98
-photo.21.commitdate: 2020/11/17
-photo.21.link: https://www.instagram.com/miis_98/
-photo.21.tags: paws, peek, portrait, tail, tree
-photo.22: https://www.instagram.com/p/CHlyitNhxaW/media/?size=m
+photo.21: ig://CHjJju4hCHr/m
+photo.21.author: yossi929
+photo.21.commitdate: 2020/11/18
+photo.21.link: https://www.instagram.com/yossi929/
+photo.21.tags: grooming, paws, tail, tree
+photo.22: ig://CHlyitNhxaW/m
 photo.22.author: yossi929
+photo.22.commitdate: 2020/11/18
 photo.22.link: https://www.instagram.com/yossi929/
 photo.22.tags: bamboo, paws
-photo.23: https://www.instagram.com/p/CHjJju4hCHr/media/?size=m
-photo.23.author: yossi929
-photo.23.link: https://www.instagram.com/yossi929/
-photo.23.tags: grooming, paws, tail, tree
+photo.23: ig://CHmsxrkhNVH/m
+photo.23.author: miis_98
+photo.23.commitdate: 2020/11/17
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: paws, peek, portrait, tail, tree
 species: 2
 studbook.id: 10101
 zoo: 20

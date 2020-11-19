@@ -638,8 +638,9 @@ photo.126.author: pink.b22
 photo.126.commitdate: 2020/11/6
 photo.126.link: https://www.instagram.com/pink.b22/
 photo.126.tags: paws, portrait, smile, tail
-photo.127: https://www.instagram.com/p/CHnLeLZh-Ox/media/?size=m
+photo.127: ig://CHnLeLZh-Ox/m
 photo.127.author: fetorus_mami
+photo.127.commitdate: 2020/11/18
 photo.127.link: https://www.instagram.com/fetorus_mami/
 photo.127.tags: paws, portrait, smile, tree
 species: 2
