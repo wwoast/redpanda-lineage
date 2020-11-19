@@ -15,5 +15,9 @@ language.order: en, jp
 litter: 805
 location.1: 104, 2004/6/16
 location.2: 158, 2005/3/18
+photo.1: https://www.instagram.com/p/CHsOuddLKpU/media/?size=m
+photo.1.author: rossifari
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: close-up, portrait, profile, whiskers, white face
 species: 1
 zoo: 158

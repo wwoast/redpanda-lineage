@@ -15,6 +15,10 @@ language.order: en, jp
 litter: 1225
 location.1: 154, 2018/6/21
 location.2: 113, 2019/7/1
+photo.1: https://www.instagram.com/p/CHq3J1Znw6Z/media/?size=m
+photo.1.author: potterparkzoo
+photo.1.link: https://www.instagram.com/potterparkzoo/
+photo.1.tags: door, paws, peek
 species: 1
 studbook.id: 1816
 uncertainty: location.2 date
