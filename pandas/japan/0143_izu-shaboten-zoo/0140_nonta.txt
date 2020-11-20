@@ -276,20 +276,21 @@ photo.52.author: miis_98
 photo.52.commitdate: 2020/9/24
 photo.52.link: https://www.instagram.com/miis_98/
 photo.52.tags: mofumofu, paws, portrait, tail
-photo.53: ig://CGWbYE2BR-b/m
-photo.53.author: craig_craig_craig
-photo.53.commitdate: 2020/10/16
-photo.53.link: https://www.instagram.com/craig_craig_craig/
-photo.53.tags: apple time, paws, portrait, videolink
-photo.54: ig://CHRYJ0MB25E/m
-photo.54.author: tetusara.ki_
-photo.54.commitdate: 2020/11/15
-photo.54.link: https://www.instagram.com/tetusara.ki_/
-photo.54.tags: lips, portrait, smile, techitechi
-photo.55: https://www.instagram.com/p/CFoB9j4hUYK/media/?size=m
+photo.53: ig://CFoB9j4hUYK/m
+photo.53.author: tetusara.ki_
+photo.53.commitdate: 2020/11/19
+photo.53.link: https://www.instagram.com/tetusara.ki_/
+photo.53.tags: laying down, paws, portrait
+photo.54: ig://CGWbYE2BR-b/m
+photo.54.author: craig_craig_craig
+photo.54.commitdate: 2020/10/16
+photo.54.link: https://www.instagram.com/craig_craig_craig/
+photo.54.tags: apple time, paws, portrait, videolink
+photo.55: ig://CHRYJ0MB25E/m
 photo.55.author: tetusara.ki_
+photo.55.commitdate: 2020/11/15
 photo.55.link: https://www.instagram.com/tetusara.ki_/
-photo.55.tags: laying down, paws, portrait
+photo.55.tags: lips, portrait, smile, techitechi
 species: 2
 studbook.id: 12102
 zoo: 143

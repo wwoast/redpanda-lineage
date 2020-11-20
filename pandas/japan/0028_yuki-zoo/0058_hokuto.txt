@@ -613,44 +613,46 @@ photo.121.author: ssc6105
 photo.121.commitdate: 2020/9/24
 photo.121.link: https://www.instagram.com/ssc6105/
 photo.121.tags: peek, tree
-photo.122: ig://CFy5n0QhuW-/m
-photo.122.author: ssc6105
-photo.122.commitdate: 2020/10/1
-photo.122.link: https://www.instagram.com/ssc6105/
-photo.122.tags: peek, portrait, tree
-photo.123: ig://CGKPO9BhikB/m
-photo.123.author: hamiiiii831_
-photo.123.commitdate: 2020/10/11
-photo.123.link: https://www.instagram.com/hamiiiii831_/
-photo.123.tags: paws, smile
-photo.124: ig://CGNSDn-hu1p/m
-photo.124.author: mini_cochi
-photo.124.commitdate: 2020/10/11
-photo.124.link: https://www.instagram.com/mini_cochi/
-photo.124.tags: portrait, smile, tree
-photo.125: ig://CG9kVufBcY8/m
-photo.125.author: pink.b22
-photo.125.commitdate: 2020/11/6
-photo.125.link: https://www.instagram.com/pink.b22/
-photo.125.tags: paws, standing
-photo.126: ig://CHBrt8DBQsH/m
-photo.126.author: pink.b22
-photo.126.commitdate: 2020/11/6
-photo.126.link: https://www.instagram.com/pink.b22/
-photo.126.tags: paws, portrait, smile, tail
-photo.127: ig://CHnLeLZh-Ox/m
-photo.127.author: fetorus_mami
-photo.127.commitdate: 2020/11/18
-photo.127.link: https://www.instagram.com/fetorus_mami/
-photo.127.tags: paws, portrait, smile, tree
-photo.128: https://www.instagram.com/p/CFkhD7fhoFq/media/?size=m
-photo.128.author: eos1089
-photo.128.link: https://www.instagram.com/eos1089/
-photo.128.tags: portrait, tail, tree
-photo.129: https://www.instagram.com/p/CFk-u_sh_Qd/media/?size=m
-photo.129.author: ssc6105
-photo.129.link: https://www.instagram.com/ssc6105/
-photo.129.tags: paws, peek, smile, tree
+photo.122: ig://CFkhD7fhoFq/m
+photo.122.author: eos1089
+photo.122.commitdate: 2020/11/19
+photo.122.link: https://www.instagram.com/eos1089/
+photo.122.tags: portrait, tail, tree
+photo.123: ig://CFk-u_sh_Qd/m
+photo.123.author: ssc6105
+photo.123.commitdate: 2020/11/19
+photo.123.link: https://www.instagram.com/ssc6105/
+photo.123.tags: paws, peek, smile, tree
+photo.124: ig://CFy5n0QhuW-/m
+photo.124.author: ssc6105
+photo.124.commitdate: 2020/10/1
+photo.124.link: https://www.instagram.com/ssc6105/
+photo.124.tags: peek, portrait, tree
+photo.125: ig://CGKPO9BhikB/m
+photo.125.author: hamiiiii831_
+photo.125.commitdate: 2020/10/11
+photo.125.link: https://www.instagram.com/hamiiiii831_/
+photo.125.tags: paws, smile
+photo.126: ig://CGNSDn-hu1p/m
+photo.126.author: mini_cochi
+photo.126.commitdate: 2020/10/11
+photo.126.link: https://www.instagram.com/mini_cochi/
+photo.126.tags: portrait, smile, tree
+photo.127: ig://CG9kVufBcY8/m
+photo.127.author: pink.b22
+photo.127.commitdate: 2020/11/6
+photo.127.link: https://www.instagram.com/pink.b22/
+photo.127.tags: paws, standing
+photo.128: ig://CHBrt8DBQsH/m
+photo.128.author: pink.b22
+photo.128.commitdate: 2020/11/6
+photo.128.link: https://www.instagram.com/pink.b22/
+photo.128.tags: paws, portrait, smile, tail
+photo.129: ig://CHnLeLZh-Ox/m
+photo.129.author: fetorus_mami
+photo.129.commitdate: 2020/11/18
+photo.129.link: https://www.instagram.com/fetorus_mami/
+photo.129.tags: paws, portrait, smile, tree
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

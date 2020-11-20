@@ -162,8 +162,9 @@ photo.30.author: ssc6105
 photo.30.commitdate: 2020/9/24
 photo.30.link: https://www.instagram.com/ssc6105/
 photo.30.tags: laying down, paws, sleeping
-photo.31: https://www.instagram.com/p/CFfAQJwBS7_/media/?size=m
+photo.31: ig://CFfAQJwBS7_/m
 photo.31.author: panda.daisuki
+photo.31.commitdate: 2020/11/19
 photo.31.link: https://www.instagram.com/panda.daisuki/
 photo.31.tags: paws, portrait
 species: 2

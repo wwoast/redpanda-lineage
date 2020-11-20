@@ -152,15 +152,16 @@ photo.28.author: tama67photo
 photo.28.commitdate: 2020/8/15
 photo.28.link: https://www.instagram.com/tama67photo/
 photo.28.tags: laying down, portrait, tongue
-photo.29: ig://CGXJEXABmRi/m
-photo.29.author: an920000
-photo.29.commitdate: 2020/11/8
-photo.29.link: https://www.instagram.com/an920000/
-photo.29.tags: bridge, laying down, peek
-photo.30: https://www.instagram.com/p/CFmOG0-Bdk7/media/?size=m
-photo.30.author: nishicotolo
-photo.30.link: https://www.instagram.com/nishicotolo/
-photo.30.tags: bear worm, bridge, laying down
+photo.29: ig://CFmOG0-Bdk7/m
+photo.29.author: nishicotolo
+photo.29.commitdate: 2020/11/19
+photo.29.link: https://www.instagram.com/nishicotolo/
+photo.29.tags: bear worm, bridge, laying down
+photo.30: ig://CGXJEXABmRi/m
+photo.30.author: an920000
+photo.30.commitdate: 2020/11/8
+photo.30.link: https://www.instagram.com/an920000/
+photo.30.tags: bridge, laying down, peek
 species: 2
 studbook.id: unknown
 zoo: 37

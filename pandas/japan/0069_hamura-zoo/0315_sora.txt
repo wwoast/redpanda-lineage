@@ -313,72 +313,76 @@ photo.60.author: ssc6105
 photo.60.commitdate: 2020/9/21
 photo.60.link: https://www.instagram.com/ssc6105/
 photo.60.tags: paws, smile, standing, tree
-photo.61: ig://CF7DHsTBPy6/m
-photo.61.author: resapan.suki
-photo.61.commitdate: 2020/10/8
-photo.61.link: https://www.instagram.com/resapan.suki/
-photo.61.tags: flowers, portrait, smile, tree, white face
-photo.62: ig://CF7Mu2QBnmp/m
-photo.62.author: mini_cochi
-photo.62.commitdate: 2020/10/8
-photo.62.link: https://www.instagram.com/mini_cochi/
-photo.62.tags: flowers, mofumofu, paws, portrait, smile
-photo.63: ig://CF92QGoBBq1/m
-photo.63.author: mini_cochi
-photo.63.commitdate: 2020/10/8
-photo.63.link: https://www.instagram.com/mini_cochi/
-photo.63.tags: apple time, bite, paws, portrait, smile
-photo.64: ig://CGAQviGByEH/m
+photo.61: ig://CFbzxiWBKDh/m
+photo.61.author: ssc6105
+photo.61.commitdate: 2020/11/19
+photo.61.link: https://www.instagram.com/ssc6105/
+photo.61.tags: bamboo, paws, smile, tongue
+photo.62: ig://CFfvZlGhGBR/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2020/11/19
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: ear, paws, whiskers
+photo.63: ig://CFt20WtB_DE/m
+photo.63.author: ssc6105
+photo.63.commitdate: 2020/11/19
+photo.63.link: https://www.instagram.com/ssc6105/
+photo.63.tags: laying down, sleeping, smile, tongue, tree
+photo.64: ig://CF7DHsTBPy6/m
 photo.64.author: resapan.suki
 photo.64.commitdate: 2020/10/8
 photo.64.link: https://www.instagram.com/resapan.suki/
-photo.64.tags: apple time, paws, portrait, smile, tongue
-photo.65: ig://CGCjzL9BNam/m
-photo.65.author: kaoru_a358
+photo.64.tags: flowers, portrait, smile, tree, white face
+photo.65: ig://CF7Mu2QBnmp/m
+photo.65.author: mini_cochi
 photo.65.commitdate: 2020/10/8
-photo.65.link: https://www.instagram.com/kaoru_a358/
-photo.65.tags: flowers, peek, tree
-photo.66: ig://CGRxO_HBWo9/m
-photo.66.author: pink.b22
-photo.66.commitdate: 2020/10/13
-photo.66.link: https://www.instagram.com/pink.b22/
-photo.66.tags: portrait, smile, tree
-photo.67: ig://CGU1BFsBXis/m
-photo.67.author: eos1089
-photo.67.commitdate: 2020/10/16
-photo.67.link: https://www.instagram.com/eos1089/
-photo.67.tags: flowers, paws, portrait, smile, tree
-photo.68: ig://CGepuQNB4D2/m
-photo.68.author: pink.b22
-photo.68.commitdate: 2020/11/5
-photo.68.link: https://www.instagram.com/pink.b22/
-photo.68.tags: laying down, tree, white face
-photo.69: ig://CGru0NnhNc_/m
-photo.69.author: ssc6105
-photo.69.commitdate: 2020/10/29
-photo.69.link: https://www.instagram.com/ssc6105/
-photo.69.tags: mofumofu, techitechi, tree, white face
-photo.70: ig://CHVTMTMBInw/m
-photo.70.author: mini_cochi
-photo.70.commitdate: 2020/11/15
-photo.70.link: https://www.instagram.com/mini_cochi/
-photo.70.tags: laying down, paws, playing, portrait, smile, tail, upside-down, white face
-photo.71: https://www.instagram.com/p/CFfvZlGhGBR/media/?size=m
-photo.71.author: ssc6105
-photo.71.link: https://www.instagram.com/ssc6105/
-photo.71.tags: ear, paws, whiskers
-photo.72: https://www.instagram.com/p/CFbzxiWBKDh/media/?size=m
-photo.72.author: ssc6105
-photo.72.link: https://www.instagram.com/ssc6105/
-photo.72.tags: bamboo, paws, smile, tongue
-photo.73: https://www.instagram.com/p/CFt20WtB_DE/media/?size=m
+photo.65.link: https://www.instagram.com/mini_cochi/
+photo.65.tags: flowers, mofumofu, paws, portrait, smile
+photo.66: ig://CF92QGoBBq1/m
+photo.66.author: mini_cochi
+photo.66.commitdate: 2020/10/8
+photo.66.link: https://www.instagram.com/mini_cochi/
+photo.66.tags: apple time, bite, paws, portrait, smile
+photo.67: ig://CGAQviGByEH/m
+photo.67.author: resapan.suki
+photo.67.commitdate: 2020/10/8
+photo.67.link: https://www.instagram.com/resapan.suki/
+photo.67.tags: apple time, paws, portrait, smile, tongue
+photo.68: ig://CGCjzL9BNam/m
+photo.68.author: kaoru_a358
+photo.68.commitdate: 2020/10/8
+photo.68.link: https://www.instagram.com/kaoru_a358/
+photo.68.tags: flowers, peek, tree
+photo.69: ig://CGEbim3hCx9/m
+photo.69.author: kaoru_a358
+photo.69.commitdate: 2020/11/19
+photo.69.link: https://www.instagram.com/kaoru_a358/
+photo.69.tags: apple time, paws, standing, tail
+photo.70: ig://CGRxO_HBWo9/m
+photo.70.author: pink.b22
+photo.70.commitdate: 2020/10/13
+photo.70.link: https://www.instagram.com/pink.b22/
+photo.70.tags: portrait, smile, tree
+photo.71: ig://CGU1BFsBXis/m
+photo.71.author: eos1089
+photo.71.commitdate: 2020/10/16
+photo.71.link: https://www.instagram.com/eos1089/
+photo.71.tags: flowers, paws, portrait, smile, tree
+photo.72: ig://CGepuQNB4D2/m
+photo.72.author: pink.b22
+photo.72.commitdate: 2020/11/5
+photo.72.link: https://www.instagram.com/pink.b22/
+photo.72.tags: laying down, tree, white face
+photo.73: ig://CGru0NnhNc_/m
 photo.73.author: ssc6105
+photo.73.commitdate: 2020/10/29
 photo.73.link: https://www.instagram.com/ssc6105/
-photo.73.tags: laying down, sleeping, smile, tongue, tree
-photo.74: https://www.instagram.com/p/CGEbim3hCx9/media/?size=m
-photo.74.author: kaoru_a358
-photo.74.link: https://www.instagram.com/kaoru_a358/
-photo.74.tags: apple time, paws, standing, tail
+photo.73.tags: mofumofu, techitechi, tree, white face
+photo.74: ig://CHVTMTMBInw/m
+photo.74.author: mini_cochi
+photo.74.commitdate: 2020/11/15
+photo.74.link: https://www.instagram.com/mini_cochi/
+photo.74.tags: laying down, paws, playing, portrait, smile, tail, upside-down, white face
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

@@ -734,30 +734,31 @@ photo.146.author: pink.b22
 photo.146.commitdate: 2020/8/29
 photo.146.link: https://www.instagram.com/pink.b22/
 photo.146.tags: blink, bridge, laying down, paws, yawn
-photo.147: ig://CF0XEhPhqDk/m
-photo.147.author: tetusara.ki_
-photo.147.commitdate: 2020/10/2
-photo.147.link: https://www.instagram.com/tetusara.ki_/
-photo.147.tags: laying down, mofumofu, portrait, tongue
-photo.148: ig://CHIFTeFBeCg/m
-photo.148.author: pink.b22
-photo.148.commitdate: 2020/11/7
-photo.148.link: https://www.instagram.com/pink.b22/
-photo.148.tags: bamboo, portrait, smile, whiskers
-photo.149: ig://CHJT892hv61/m
-photo.149.author: tetusara.ki_
-photo.149.commitdate: 2020/11/5
-photo.149.link: https://www.instagram.com/tetusara.ki_/
-photo.149.tags: portrait, smile, techitechi
-photo.150: ig://CHL3UNiBu8X/m
+photo.147: ig://CFrnR7hhTOp/m
+photo.147.author: resapan.suki
+photo.147.commitdate: 2020/11/19
+photo.147.link: https://www.instagram.com/resapan.suki/
+photo.147.tags: blink, bridge, laying down, paws, tongue
+photo.148: ig://CF0XEhPhqDk/m
+photo.148.author: tetusara.ki_
+photo.148.commitdate: 2020/10/2
+photo.148.link: https://www.instagram.com/tetusara.ki_/
+photo.148.tags: laying down, mofumofu, portrait, tongue
+photo.149: ig://CHIFTeFBeCg/m
+photo.149.author: pink.b22
+photo.149.commitdate: 2020/11/7
+photo.149.link: https://www.instagram.com/pink.b22/
+photo.149.tags: bamboo, portrait, smile, whiskers
+photo.150: ig://CHJT892hv61/m
 photo.150.author: tetusara.ki_
-photo.150.commitdate: 2020/11/11
+photo.150.commitdate: 2020/11/5
 photo.150.link: https://www.instagram.com/tetusara.ki_/
-photo.150.tags: bridge, paws, peek, portrait, techitechi
-photo.151: https://www.instagram.com/p/CFrnR7hhTOp/media/?size=m
-photo.151.author: resapan.suki
-photo.151.link: https://www.instagram.com/resapan.suki/
-photo.151.tags: blink, bridge, laying down, paws, tongue
+photo.150.tags: portrait, smile, techitechi
+photo.151: ig://CHL3UNiBu8X/m
+photo.151.author: tetusara.ki_
+photo.151.commitdate: 2020/11/11
+photo.151.link: https://www.instagram.com/tetusara.ki_/
+photo.151.tags: bridge, paws, peek, portrait, techitechi
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k
