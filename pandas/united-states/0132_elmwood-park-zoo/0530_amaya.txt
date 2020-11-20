@@ -34,36 +34,31 @@ photo.3.author: elmwoodparkzoo
 photo.3.commitdate: 2019/6/16
 photo.3.link: https://www.instagram.com/elmwoodparkzoo/
 photo.3.tags: paws, white face
-photo.4: ig://BbLHjS2nSGt/m
-photo.4.author: animal_lifenyc
-photo.4.commitdate: 2019/11/17
-photo.4.link: https://www.instagram.com/animal_lifenyc/
-photo.4.tags: paws, portrait, tail, white face
-photo.5: ig://BcBTsymA8ph/m
+photo.4: ig://BcBTsymA8ph/m
+photo.4.author: rossifari
+photo.4.commitdate: 2019/3/7
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: smile, tongue, white face
+photo.5: ig://BnwwE8EBDH3/m
 photo.5.author: rossifari
 photo.5.commitdate: 2019/3/7
 photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: smile, tongue, white face
-photo.6: ig://BnwwE8EBDH3/m
+photo.5.tags: profile, smile, white face
+photo.6: ig://BplfqNVhnfa/m
 photo.6.author: rossifari
-photo.6.commitdate: 2019/3/7
+photo.6.commitdate: 2019/11/17
 photo.6.link: https://www.instagram.com/rossifari/
-photo.6.tags: profile, smile, white face
-photo.7: ig://BplfqNVhnfa/m
-photo.7.author: rossifari
-photo.7.commitdate: 2019/11/17
-photo.7.link: https://www.instagram.com/rossifari/
-photo.7.tags: white face
-photo.8: ig://BqK4kEVjKrr/m
+photo.6.tags: white face
+photo.7: ig://BqK4kEVjKrr/m
+photo.7.author: elmwoodparkzoo
+photo.7.commitdate: 2019/6/16
+photo.7.link: https://www.instagram.com/elmwoodparkzoo/
+photo.7.tags: laying down, muzzle, white face
+photo.8: ig://BrX1bSMjFGf/m
 photo.8.author: elmwoodparkzoo
 photo.8.commitdate: 2019/6/16
 photo.8.link: https://www.instagram.com/elmwoodparkzoo/
-photo.8.tags: laying down, muzzle, white face
-photo.9: ig://BrX1bSMjFGf/m
-photo.9.author: elmwoodparkzoo
-photo.9.commitdate: 2019/6/16
-photo.9.link: https://www.instagram.com/elmwoodparkzoo/
-photo.9.tags: laying down, tail, white face
+photo.8.tags: laying down, tail, white face
 species: 1
 studbook.id: 0804
 zoo: 132

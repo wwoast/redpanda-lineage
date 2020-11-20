@@ -15,15 +15,10 @@ language.order: en, jp
 litter: 646
 location.1: 113, 2016/7/2
 location.2: 167, 2017/5/2
-photo.1: ig://BZN_c6PnaXX/m
-photo.1.author: animal_lifenyc
+photo.1: ig://B3hA21EptIg/m
+photo.1.author: judylobowolfe
 photo.1.commitdate: 2019/11/7
-photo.1.link: https://www.instagram.com/animal_lifenyc/
-photo.1.tags: portrait, tongue, white face
-photo.2: ig://B3hA21EptIg/m
-photo.2.author: judylobowolfe
-photo.2.commitdate: 2019/11/7
-photo.2.link: https://www.instagram.com/judylobowolfe/
-photo.2.tags: bamboo, peek, portrait, white face
+photo.1.link: https://www.instagram.com/judylobowolfe/
+photo.1.tags: bamboo, peek, portrait, white face
 species: 1
 zoo: 167

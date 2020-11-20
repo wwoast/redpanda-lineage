@@ -20,31 +20,21 @@ photo.1.author: edmontonvalleyzoo
 photo.1.commitdate: 2018/12/8
 photo.1.link: https://www.instagram.com/p/BZhUPhkF7fB/
 photo.1.tags: baby
-photo.2: ig://BczhWYtnVcw/m
-photo.2.author: animal_lifenyc
-photo.2.commitdate: 2018/12/8
-photo.2.link: https://www.instagram.com/animal_lifenyc/
-photo.2.tags: snow
-photo.3: ig://BdDgZKyHLq3/m
-photo.3.author: animal_lifenyc
-photo.3.commitdate: 2018/12/8
-photo.3.link: https://www.instagram.com/animal_lifenyc/
-photo.3.tags: profile, tree
-photo.4: ig://B2rF3YlgnMS/m
+photo.2: ig://B2rF3YlgnMS/m
+photo.2.author: prospectparkzoo
+photo.2.commitdate: 2020/1/17
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.2.tags: air tasting, bamboo, tongue, whiskers
+photo.3: ig://B45ZENnpxzv/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/1/17
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: autumn, bamboo, portrait, smile, tail, tongue
+photo.4: ig://B53BbGpBgxZ/m
 photo.4.author: prospectparkzoo
 photo.4.commitdate: 2020/1/17
 photo.4.link: https://www.instagram.com/prospectparkzoo/
-photo.4.tags: air tasting, bamboo, tongue, whiskers
-photo.5: ig://B45ZENnpxzv/m
-photo.5.author: rossifari
-photo.5.commitdate: 2020/1/17
-photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: autumn, bamboo, portrait, smile, tail, tongue
-photo.6: ig://B53BbGpBgxZ/m
-photo.6.author: prospectparkzoo
-photo.6.commitdate: 2020/1/17
-photo.6.link: https://www.instagram.com/prospectparkzoo/
-photo.6.tags: laying down, snow, tail, tree
+photo.4.tags: laying down, snow, tail, tree
 species: 2
 studbook.id: 15116
 video.1: https://youtu.be/Ddz3Cxghz6E
