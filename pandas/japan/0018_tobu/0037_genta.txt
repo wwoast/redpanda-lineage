@@ -54,7 +54,7 @@ photo.8: ig://BbodCOFlMFU/m
 photo.8.author: hanamaru_redpanda
 photo.8.commitdate: 2018/12/23
 photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: portrait, profile
+photo.8.tags: portrait
 photo.9: ig://BcHe1FpDcCO/m
 photo.9.author: s.okano521
 photo.9.commitdate: 2018/10/7
@@ -373,6 +373,14 @@ photo.72.author: eos1089
 photo.72.commitdate: 2020/11/8
 photo.72.link: https://www.instagram.com/eos1089/
 photo.72.tags: paws, portrait, smile, tail, tree
+photo.73: https://www.instagram.com/p/CHyPrn-Bbrq/media/?size=m
+photo.73.author: fetorus_mami
+photo.73.link: https://www.instagram.com/fetorus_mami/
+photo.73.tags: portrait, profile, smile, whiskers
+photo.74: https://www.instagram.com/p/CHyQQJ9BEYE/media/?size=m
+photo.74.author: fetorus_mami
+photo.74.link: https://www.instagram.com/fetorus_mami/
+photo.74.tags: apple time, bite, window
 species: 2
 studbook.id: 12105
 zoo: 18

@@ -7,7 +7,7 @@ commitdate: 2020/6/30
 en.name: Kodo
 en.nicknames: none
 en.othernames: none
-gender: m
+gender: f
 jp.name: コド
 jp.nicknames: none
 jp.othernames: none
@@ -53,5 +53,9 @@ photo.8.author: buttonwoodparkzoo
 photo.8.commitdate: 2020/10/8
 photo.8.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.8.tags: baby, laying down, mofumofu, tree
+photo.9: https://www.instagram.com/p/CHaeSMUhm00/media/?size=m
+photo.9.author: buttonwoodparkzoo
+photo.9.link: https://www.instagram.com/buttonwoodparkzoo/
+photo.9.tags: apple time, baby, videolink
 species: 1
 zoo: 148

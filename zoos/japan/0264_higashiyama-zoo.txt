@@ -1,0 +1,28 @@
+[zoo]
+_id: 264
+commitdate: 2020/11/20
+en.address: Japan, 〒464-0804 Aichi, Nagoya, Chikusa Ward, Higashiyama Motomachi, 3 Chome−７０
+en.location: Chikusa-ku, Nagoya, Japan
+en.name: Higashiyama Zoo and Botanical Gardens
+flag: Japan
+jp.address: 〒464-0804 愛知県名古屋市千種区東山元町３丁目７０
+jp.location: 千種区 名古屋市 日本
+jp.name: 東山動植物園
+language.order: jp, en
+latitude: 35.1554125
+longitude: 136.981182
+photo.1: https://www.instagram.com/p/CGs2EAFh_Pg/media/?size=m
+photo.1.author: miyu.aquarium
+photo.1.link: https://www.instagram.com/miyu.aquarium/
+photo.2: https://www.instagram.com/p/CGAVdjmBkMA/media/?size=m
+photo.2.author: azukimikan426
+photo.2.link: https://www.instagram.com/azukimikan426/
+photo.2.tags: profile
+photo.3: https://www.instagram.com/p/CEsjB3ihq6C/media/?size=m
+photo.3.author: milanostyle_zoo
+photo.3.link: https://www.instagram.com/milanostyle_zoo/
+photo.4: https://www.instagram.com/p/CHCsb2VAoNU/media/?size=m
+photo.4.author: hiroisarin
+photo.4.link: https://www.instagram.com/hirorisarin/
+map: https://goo.gl/maps/uGmgLy5w5PCy2Vzn6
+website: http://www.higashiyama.city.nagoya.jp/
