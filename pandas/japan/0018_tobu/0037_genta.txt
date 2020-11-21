@@ -373,12 +373,14 @@ photo.72.author: eos1089
 photo.72.commitdate: 2020/11/8
 photo.72.link: https://www.instagram.com/eos1089/
 photo.72.tags: paws, portrait, smile, tail, tree
-photo.73: https://www.instagram.com/p/CHyPrn-Bbrq/media/?size=m
+photo.73: ig://CHyPrn-Bbrq/m
 photo.73.author: fetorus_mami
+photo.73.commitdate: 2020/11/20
 photo.73.link: https://www.instagram.com/fetorus_mami/
 photo.73.tags: portrait, profile, smile, whiskers
-photo.74: https://www.instagram.com/p/CHyQQJ9BEYE/media/?size=m
+photo.74: ig://CHyQQJ9BEYE/m
 photo.74.author: fetorus_mami
+photo.74.commitdate: 2020/11/20
 photo.74.link: https://www.instagram.com/fetorus_mami/
 photo.74.tags: apple time, bite, window
 species: 2

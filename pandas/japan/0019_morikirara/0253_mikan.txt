@@ -68,25 +68,29 @@ photo.11.author: re_ichimaru
 photo.11.commitdate: 2019/7/30
 photo.11.link: https://www.instagram.com/re_ichimaru/
 photo.11.tags: smile, tongue
-photo.12: ig://CCxjzlZhalP/m
-photo.12.author: panda.daisuki
-photo.12.commitdate: 2020/7/24
-photo.12.link: https://www.instagram.com/panda.daisuki/
-photo.12.tags: apple time, keeper, paws, portrait, smile
-photo.13: https://www.instagram.com/p/CDlFg0epVrL/media/?size=m
-photo.13.author: morikirara
-photo.13.link: https://www.instagram.com/morikirara/
-photo.13.tags: bridge
-photo.14: https://www.instagram.com/p/CFEKBpnJgWI/media/?size=m
+photo.12: ig://CAO4zudJvD9/m
+photo.12.author: morikirara
+photo.12.commitdate: 2020/11/20
+photo.12.link: https://www.instagram.com/morikirara/
+photo.12.tags: bamboo, paws, tree
+photo.13: ig://CCxjzlZhalP/m
+photo.13.author: panda.daisuki
+photo.13.commitdate: 2020/7/24
+photo.13.link: https://www.instagram.com/panda.daisuki/
+photo.13.tags: apple time, keeper, paws, portrait, smile
+photo.14: ig://CDlFg0epVrL/m
 photo.14.author: morikirara
+photo.14.commitdate: 2020/11/20
 photo.14.link: https://www.instagram.com/morikirara/
-photo.14.tags: bamboo, portrait
-photo.15: https://www.instagram.com/p/CAO4zudJvD9/media/?size=m
+photo.14.tags: bridge
+photo.15: ig://CFEKBpnJgWI/m
 photo.15.author: morikirara
+photo.15.commitdate: 2020/11/20
 photo.15.link: https://www.instagram.com/morikirara/
-photo.15.tags: bamboo, paws, tree
-photo.16: https://www.instagram.com/p/CGMrge6p3Ny/media/?size=m
+photo.15.tags: bamboo, portrait
+photo.16: ig://CGMrge6p3Ny/m
 photo.16.author: morikirara
+photo.16.commitdate: 2020/11/20
 photo.16.link: https://www.instagram.com/morikirara/
 photo.16.tags: paws, peek, portrait, tree
 species: 2

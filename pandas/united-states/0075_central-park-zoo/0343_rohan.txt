@@ -18,20 +18,21 @@ photo.1.author: florianschwarz83
 photo.1.commitdate: 2020/3/25
 photo.1.link: https://www.instagram.com/florianschwarz83/
 photo.1.tags: close-up, portrait, whiskers
-photo.2: ig://BvAiB6Mha9O/m
-photo.2.author: rossifari
-photo.2.commitdate: 2020/8/11
-photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: panda bowl, portrait, whiskers
-photo.3: ig://Bvz_C7GBk8U/m
+photo.2: ig://BZmjjZ2gF5g/m
+photo.2.author: wumpwoast
+photo.2.commitdate: 2020/11/20
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: portrait, smile, tail, tongue
+photo.3: ig://BvAiB6Mha9O/m
 photo.3.author: rossifari
 photo.3.commitdate: 2020/8/11
 photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: mofumofu, paws, portrait
-photo.4: https://www.instagram.com/p/BZmjjZ2gF5g/media/?size=m
-photo.4.author: wumpwoast
-photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: portrait, smile, tail, tongue
+photo.3.tags: panda bowl, portrait, whiskers
+photo.4: ig://Bvz_C7GBk8U/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/8/11
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: mofumofu, paws, portrait
 species: 1
 studbook.id: 1529
 zoo: 75

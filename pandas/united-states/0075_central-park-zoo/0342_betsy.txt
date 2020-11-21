@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 616
-photo.1: https://www.instagram.com/p/BZdqnW5Ap60/media/?size=m
+photo.1: ig://BZdqnW5Ap60/m
 photo.1.author: wumpwoast
+photo.1.commitdate: 2020/11/20
 photo.1.link: https://www.instagram.com/wumpwoast/
 photo.1.tags: laying down, portrait, tail
 species: 1

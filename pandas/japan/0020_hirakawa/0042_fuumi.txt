@@ -140,8 +140,9 @@ photo.25.author: monmon_redpanda
 photo.25.commitdate: 2020/7/28
 photo.25.link: https://www.instagram.com/monmon_redpanda/
 photo.25.tags: portrait, whiskers
-photo.26: https://www.instagram.com/p/CHaAXSWh4dz/media/?size=m
+photo.26: ig://CHaAXSWh4dz/m
 photo.26.author: miis_98
+photo.26.commitdate: 2020/11/20
 photo.26.link: https://www.instagram.com/miis_98/
 photo.26.tags: paws, portrait, smile, tail
 species: 2

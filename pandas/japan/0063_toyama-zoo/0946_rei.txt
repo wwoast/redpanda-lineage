@@ -113,8 +113,9 @@ photo.20.author: merumeru119
 photo.20.commitdate: 2020/10/9
 photo.20.link: https://www.instagram.com/merumeru119/
 photo.20.tags: grooming, tail, tree
-photo.21: https://www.instagram.com/p/CHpaqCFBlCQ/media/?size=m
+photo.21: ig://CHpaqCFBlCQ/m
 photo.21.author: mikaamihara
+photo.21.commitdate: 2020/11/20
 photo.21.link: https://www.instagram.com/mikaamihara/
 photo.21.tags: air tasting, portrait, tongue
 species: 2

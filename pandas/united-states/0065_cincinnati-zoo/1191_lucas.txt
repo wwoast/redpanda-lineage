@@ -28,8 +28,9 @@ photo.3.author: cincinnatizoo
 photo.3.commitdate: 2020/11/15
 photo.3.link: https://www.instagram.com/cincinnatizoo/
 photo.3.tags: baby, bamboo, dish, paws, portrait, smile
-photo.4: https://www.instagram.com/p/CHw2CtFglHG/media/?size=m
+photo.4: ig://CHw2CtFglHG/m
 photo.4.author: rossifari
+photo.4.commitdate: 2020/11/20
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: baby, mofumofu, standing
 species: 2

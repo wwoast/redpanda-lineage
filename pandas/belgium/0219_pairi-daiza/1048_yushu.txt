@@ -229,8 +229,9 @@ photo.43.author: nathalie.elliott
 photo.43.commitdate: 2020/9/15
 photo.43.link: https://www.instagram.com/nathalie.elliott/
 photo.43.tags: bamboo, paws, portrait
-photo.44: https://www.instagram.com/p/CH0CO2kAakk/media/?size=m
+photo.44: ig://CH0CO2kAakk/m
 photo.44.author: nathalie.elliott
+photo.44.commitdate: 2020/11/20
 photo.44.link: https://www.instagram.com/nathalie.elliott/
 photo.44.tags: bamboo, paws, portrait, smile
 species: 1

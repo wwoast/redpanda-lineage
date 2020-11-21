@@ -248,18 +248,21 @@ photo.47.author: love__mitarashi
 photo.47.commitdate: 2020/8/23
 photo.47.link: https://www.instagram.com/love__mitarashi/
 photo.47.tags: bamboo, close-up, portrait, whiskers
-photo.48: https://www.instagram.com/p/CH0NEI1hime/media/?size=m
-photo.48.author: makimaru18
-photo.48.link: https://www.instagram.com/makimaru18/
-photo.48.tags: mofumofu, portrait, whiskers
-photo.49: https://www.instagram.com/p/CH0HVm7h57I/media/?size=m
+photo.48: ig://CHy8OBPhRNn/m
+photo.48.author: tomo3700
+photo.48.commitdate: 2020/11/20
+photo.48.link: https://www.instagram.com/tomo3700/
+photo.48.tags: portrait, smile, whiskers
+photo.49: ig://CH0HVm7h57I/m
 photo.49.author: love__mitarashi
+photo.49.commitdate: 2020/11/20
 photo.49.link: https://www.instagram.com/love__mitarashi/
 photo.49.tags: paws, portrait, tail
-photo.50: https://www.instagram.com/p/CHy8OBPhRNn/media/?size=m
-photo.50.author: tomo3700
-photo.50.link: https://www.instagram.com/tomo3700/
-photo.50.tags: portrait, smile, whiskers
+photo.50: ig://CH0NEI1hime/m
+photo.50.author: makimaru18
+photo.50.commitdate: 2020/11/20
+photo.50.link: https://www.instagram.com/makimaru18/
+photo.50.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 0863
 zoo: 35

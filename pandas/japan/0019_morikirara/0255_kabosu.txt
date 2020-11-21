@@ -155,8 +155,9 @@ photo.28.author: re_ichimaru
 photo.28.commitdate: 2020/7/23
 photo.28.link: https://www.instagram.com/re_ichimaru/
 photo.28.tags: bamboo, portrait, smile
-photo.29: https://www.instagram.com/p/CGe-265pNUY/media/?size=m
+photo.29: ig://CGe-265pNUY/m
 photo.29.author: morikirara
+photo.29.commitdate: 2020/11/20
 photo.29.link: https://www.instagram.com/morikirara/
 photo.29.tags: peek, whiskers
 species: 2

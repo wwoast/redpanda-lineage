@@ -117,15 +117,16 @@ photo.21.author: morikirara
 photo.21.commitdate: 2020/4/18
 photo.21.link: https://www.instagram.com/morikirara/
 photo.21.tags: bamboo, tail, tongue
-photo.22: ig://CHksuw-Bduu/m
-photo.22.author: firefoxpanda88
-photo.22.commitdate: 2020/11/18
-photo.22.link: https://www.instagram.com/firefoxpanda88/
-photo.22.tags: paws, portrait, smile
-photo.23: https://www.instagram.com/p/CB1_JwVpzLV/media/?size=m
-photo.23.author: morikirara
-photo.23.link: https://www.instagram.com/morikirara/
-photo.23.tags: peek
+photo.22: ig://CB1_JwVpzLV/m
+photo.22.author: morikirara
+photo.22.commitdate: 2020/11/20
+photo.22.link: https://www.instagram.com/morikirara/
+photo.22.tags: peek
+photo.23: ig://CHksuw-Bduu/m
+photo.23.author: firefoxpanda88
+photo.23.commitdate: 2020/11/18
+photo.23.link: https://www.instagram.com/firefoxpanda88/
+photo.23.tags: paws, portrait, smile
 species: 2
 studbook.id: 0760
 zoo: 19
