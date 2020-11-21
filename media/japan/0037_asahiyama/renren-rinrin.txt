@@ -27,14 +27,14 @@ photo.4: ig://CGZtN5zhMXs/l
 photo.4.author: tama67photo
 photo.4.commitdate: 2020/11/8
 photo.4.link: https://www.instagram.com/tama67photo/
-photo.4.tags: apple time, baby, keeper, portrait
+photo.4.tags: apple time, baby, keeper, portrait, siblings, twins
 photo.4.tags.1189.location: 285, 150
 photo.4.tags.1190.location: 220, 450
 photo.5: ig://CGe8DdOBxPq/l
 photo.5.author: leonard_redmof
 photo.5.commitdate: 2020/11/8
 photo.5.link: https://www.instagram.com/leonard_redmof/
-photo.5.tags: baby, keeper, portrait, tail
+photo.5.tags: baby, keeper, portrait, siblings, tail, twins
 photo.5.tags.1189.location: 245, 175
 photo.5.tags.1190.location: 130, 145
 photo.6: ig://CG93fHEhc5R/l
@@ -44,3 +44,9 @@ photo.6.link: https://www.instagram.com/jas_forever_love/
 photo.6.tags: baby, mofumofu, paws, portrait, siblings, tail, twins
 photo.6.tags.1189.location: 305, 215
 photo.6.tags.1190.location: 235, 185
+photo.7: https://www.instagram.com/p/CHiChF_hajm/media/?size=m
+photo.7.author: leonard_redmof
+photo.7.link: https://www.instagram.com/leonard_redmof/
+photo.7.tags: autumn, baby, mofumofu, portrait, siblings, tail, twins
+photo.7.tags.1189.location: 210, 90
+photo.7.tags.1190.location: 130, 130

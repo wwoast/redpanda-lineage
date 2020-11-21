@@ -31,6 +31,10 @@ photo.3.author: senecaparkzoo
 photo.3.commitdate: 2020/9/16
 photo.3.link: https://www.instagram.com/senecaparkzoo/
 photo.3.tags: whiskers, white face
+photo.4: https://www.instagram.com/p/CGiTdbbgGcl/media/?size=m
+photo.4.author: senecaparkzoo
+photo.4.link: https://www.instagram.com/senecaparkzoo/
+photo.4.tags: close-up, portrait, white face
 species: 1
 studbook.id: 1520
 uncertainty: location.3 date
