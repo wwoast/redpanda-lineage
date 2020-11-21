@@ -408,14 +408,15 @@ photo.79.author: taka__3428
 photo.79.commitdate: 2020/9/24
 photo.79.link: https://www.instagram.com/taka__3428/
 photo.79.tags: paws, smile, standing
-photo.80: ig://CHkXdI3BZnH/m
-photo.80.author: hamamatsu.chiita
-photo.80.commitdate: 2020/11/18
-photo.80.link: https://www.instagram.com/hamamatsu.chiita/
-photo.80.tags: smile
-photo.81: https://www.instagram.com/p/CHPWwiPBQHg/media/?size=m
-photo.81.author: minatomirai215
-photo.81.link: https://www.instagram.com/minatomirai215/
-photo.81.tags: portrait, whiskers
+photo.80: ig://CHPWwiPBQHg/m
+photo.80.author: minatomirai215
+photo.80.commitdate: 2020/11/21
+photo.80.link: https://www.instagram.com/minatomirai215/
+photo.80.tags: portrait, whiskers
+photo.81: ig://CHkXdI3BZnH/m
+photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2020/11/18
+photo.81.link: https://www.instagram.com/hamamatsu.chiita/
+photo.81.tags: smile
 species: 2
 zoo: 24
