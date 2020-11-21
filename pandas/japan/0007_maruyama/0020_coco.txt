@@ -1023,8 +1023,9 @@ photo.207.author: cattail.sapporo
 photo.207.commitdate: 2020/11/7
 photo.207.link: https://www.instagram.com/cattail.sapporo/
 photo.207.tags: laying down, mofumofu, portrait
-photo.208: https://www.instagram.com/p/CHcnCoEA6WC/media/?size=m
+photo.208: ig://CHcnCoEA6WC/m
 photo.208.author: cattail.sapporo
+photo.208.commitdate: 2020/11/21
 photo.208.link: https://www.instagram.com/cattail.sapporo/
 photo.208.tags: portrait, videolink
 species: 2

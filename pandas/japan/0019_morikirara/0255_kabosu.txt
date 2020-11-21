@@ -160,8 +160,9 @@ photo.29.author: morikirara
 photo.29.commitdate: 2020/11/20
 photo.29.link: https://www.instagram.com/morikirara/
 photo.29.tags: peek, whiskers
-photo.30: https://www.instagram.com/p/CHl9HdjBp1l/media/?size=m
+photo.30: ig://CHl9HdjBp1l/m
 photo.30.author: firefoxpanda88
+photo.30.commitdate: 2020/11/21
 photo.30.link: https://www.instagram.com/firefoxpanda88/
 photo.30.tags: smile, whiskers
 species: 2

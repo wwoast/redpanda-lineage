@@ -65,8 +65,9 @@ photo.9.link: https://www.instagram.com/tomo3700/
 photo.9.tags: apple time, baby, bamboo, dish, mother's day, paws, portrait
 photo.9.tags.100.location: 245, 150
 photo.9.tags.1208.location: 105, 180
-photo.10: https://www.instagram.com/p/CHwBjBwhDlg/media/?size=l
+photo.10: ig://CHwBjBwhDlg/l
 photo.10.author: tomo3700
+photo.10.commitdate: 2020/11/21
 photo.10.link: https://www.instagram.com/tomo3700/
 photo.10.tags: baby, mother's day, portrait, tree
 photo.10.tags.100.location: 350, 160

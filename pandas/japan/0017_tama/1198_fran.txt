@@ -13,25 +13,30 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1197
-photo.1: https://www.instagram.com/p/CHxN8vFBm1-/media/?size=m
-photo.1.author: daniele.tokyo
-photo.1.link: https://www.instagram.com/daniele.tokyo/
-photo.1.tags: baby, laying down, paws, portrait, tail
-photo.2: https://www.instagram.com/p/CHfOnucBfNS/media/?size=m
-photo.2.author: kotata_513
-photo.2.link: https://www.instagram.com/kotata_513/
-photo.2.tags: baby, hammock, paws
-photo.3: https://www.instagram.com/p/CHiB5VmBCe6/media/?size=m
-photo.3.author: alto0908
-photo.3.link: https://www.instagram.com/alto0908/
-photo.3.tags: baby, mofumofu, portrait
-photo.4: https://www.instagram.com/p/CHk2jEGhiat/media/?size=m
+photo.1: ig://CHfOnucBfNS/m
+photo.1.author: kotata_513
+photo.1.commitdate: 2020/11/21
+photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: baby, hammock, paws
+photo.2: ig://CHiB5VmBCe6/m
+photo.2.author: alto0908
+photo.2.commitdate: 2020/11/21
+photo.2.link: https://www.instagram.com/alto0908/
+photo.2.tags: baby, mofumofu, portrait
+photo.3: ig://CHk2jEGhiat/m
+photo.3.author: mini_cochi
+photo.3.commitdate: 2020/11/21
+photo.3.link: https://www.instagram.com/mini_cochi/
+photo.3.tags: baby, hammock, paws, portrait
+photo.4: ig://CHpw24eBCC1/m
 photo.4.author: mini_cochi
+photo.4.commitdate: 2020/11/21
 photo.4.link: https://www.instagram.com/mini_cochi/
-photo.4.tags: baby, hammock, paws, portrait
-photo.5: https://www.instagram.com/p/CHpw24eBCC1/media/?size=m
-photo.5.author: mini_cochi
-photo.5.link: https://www.instagram.com/mini_cochi/
-photo.5.tags: baby, hammock, portrait
+photo.4.tags: baby, hammock, portrait
+photo.5: ig://CHxN8vFBm1-/m
+photo.5.author: daniele.tokyo
+photo.5.commitdate: 2020/11/21
+photo.5.link: https://www.instagram.com/daniele.tokyo/
+photo.5.tags: baby, laying down, paws, portrait, tail
 species: 2
 zoo: 17

@@ -1612,8 +1612,9 @@ photo.322.author: cattail.sapporo
 photo.322.commitdate: 2020/11/15
 photo.322.link: https://www.instagram.com/cattail.sapporo/
 photo.322.tags: mofumofu, portrait, tail
-photo.323: https://www.instagram.com/p/CHxVMFGB6hq/media/?size=m
+photo.323: ig://CHxVMFGB6hq/m
 photo.323.author: tama67photo
+photo.323.commitdate: 2020/11/21
 photo.323.link: https://www.instagram.com/tama67photo/
 photo.323.tags: laying down, mofumofu, portrait
 species: 2

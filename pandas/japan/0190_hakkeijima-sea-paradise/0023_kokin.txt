@@ -997,15 +997,16 @@ photo.199.author: wumpwoast
 photo.199.commitdate: 2020/10/27
 photo.199.link: https://www.instagram.com/wumpwoast/
 photo.199.tags: portrait, tail
-photo.200: ig://CHpxuGDhvqO/m
-photo.200.author: gloryeui
-photo.200.commitdate: 2020/11/17
-photo.200.link: https://www.instagram.com/gloryeui/
-photo.200.tags: bamboo, portrait, smile, videolink
-photo.201: https://www.instagram.com/p/CHnXezvBoDS/media/?size=m
-photo.201.author: minatomirai215
-photo.201.link: https://www.instagram.com/minatomirai215/
-photo.201.tags: portrait, videolink
+photo.200: ig://CHnXezvBoDS/m
+photo.200.author: minatomirai215
+photo.200.commitdate: 2020/11/21
+photo.200.link: https://www.instagram.com/minatomirai215/
+photo.200.tags: portrait, videolink
+photo.201: ig://CHpxuGDhvqO/m
+photo.201.author: gloryeui
+photo.201.commitdate: 2020/11/17
+photo.201.link: https://www.instagram.com/gloryeui/
+photo.201.tags: bamboo, portrait, smile, videolink
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

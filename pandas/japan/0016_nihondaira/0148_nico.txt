@@ -607,8 +607,9 @@ photo.120.author: fetorus_mami
 photo.120.commitdate: 2020/11/5
 photo.120.link: https://www.instagram.com/fetorus_mami/
 photo.120.tags: keeper, paws, standing, tail
-photo.121: https://www.instagram.com/p/CHONUOthlQ2/media/?size=m
+photo.121: ig://CHONUOthlQ2/m
 photo.121.author: hamamatsu.chiita
+photo.121.commitdate: 2020/11/21
 photo.121.link: https://www.instagram.com/hamamatsu.chiita/
 photo.121.tags: whiskers
 species: 2
