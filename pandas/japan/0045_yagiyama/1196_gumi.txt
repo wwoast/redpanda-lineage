@@ -18,33 +18,35 @@ photo.1.author: ifumoto88
 photo.1.commitdate: 2020/10/27
 photo.1.link: https://www.instagram.com/ifumoto88/
 photo.1.tags: baby, laying down, portrait, profile, smile
-photo.2: ig://CG39j2-h6n2/m
-photo.2.author: hidehaya_biei
+photo.2: ig://CG1VJq2hIXM/m
+photo.2.author: panda.daisuki
 photo.2.commitdate: 2020/11/1
-photo.2.link: https://www.instagram.com/hidehaya_biei/
-photo.2.tags: baby, close-up, home
-photo.3: ig://CG4t96MBmp2/m
-photo.3.author: ifumoto88
+photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.2.tags: baby, mofumofu, portrait, tail
+photo.3: ig://CG39j2-h6n2/m
+photo.3.author: hidehaya_biei
 photo.3.commitdate: 2020/11/1
-photo.3.link: https://www.instagram.com/ifumoto88/
-photo.3.tags: baby, mofumofu, portrait
-photo.4: ig://CHBmk-ohXGB/m
-photo.4.author: hidehaya_biei
-photo.4.commitdate: 2020/11/6
-photo.4.link: https://www.instagram.com/hidehaya_biei/
-photo.4.tags: baby, close-up, mofumofu, nose
-photo.5: https://www.instagram.com/p/CHhFv5ABR3N/media/?size=m
+photo.3.link: https://www.instagram.com/hidehaya_biei/
+photo.3.tags: baby, close-up, home
+photo.4: ig://CG4t96MBmp2/m
+photo.4.author: ifumoto88
+photo.4.commitdate: 2020/11/1
+photo.4.link: https://www.instagram.com/ifumoto88/
+photo.4.tags: baby, mofumofu, portrait
+photo.5: ig://CHBmk-ohXGB/m
 photo.5.author: hidehaya_biei
+photo.5.commitdate: 2020/11/6
 photo.5.link: https://www.instagram.com/hidehaya_biei/
-photo.5.tags: baby, bamboo, bite
-photo.6: https://www.instagram.com/p/CHfpgtchtHh/media/?size=m
+photo.5.tags: baby, close-up, mofumofu, nose
+photo.6: ig://CHfpgtchtHh/m
 photo.6.author: redpan22
+photo.6.commitdate: 2020/11/22
 photo.6.link: https://www.instagram.com/redpan22/
 photo.6.tags: baby, bridge, portrait
-photo.7: ig://CG1VJq2hIXM/m
-photo.7.author: panda.daisuki
-photo.7.commitdate: 2020/11/1
-photo.7.link: https://www.instagram.com/panda.daisuki/
-photo.7.tags: baby, mofumofu, portrait, tail
+photo.7: ig://CHhFv5ABR3N/m
+photo.7.author: hidehaya_biei
+photo.7.commitdate: 2020/11/22
+photo.7.link: https://www.instagram.com/hidehaya_biei/
+photo.7.tags: baby, bamboo, bite
 species: 2
 zoo: 45
