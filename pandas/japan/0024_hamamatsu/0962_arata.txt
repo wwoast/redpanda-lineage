@@ -413,14 +413,15 @@ photo.80.author: minatomirai215
 photo.80.commitdate: 2020/11/21
 photo.80.link: https://www.instagram.com/minatomirai215/
 photo.80.tags: portrait, whiskers
-photo.81: ig://CHkXdI3BZnH/m
+photo.81: ig://CHduTfOhK6J/m
 photo.81.author: hamamatsu.chiita
-photo.81.commitdate: 2020/11/18
+photo.81.commitdate: 2020/11/21
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
-photo.81.tags: smile
-photo.82: https://www.instagram.com/p/CHduTfOhK6J/media/?size=m
+photo.81.tags: home, laying down, portrait
+photo.82: ig://CHkXdI3BZnH/m
 photo.82.author: hamamatsu.chiita
+photo.82.commitdate: 2020/11/18
 photo.82.link: https://www.instagram.com/hamamatsu.chiita/
-photo.82.tags: home, laying down, portrait
+photo.82.tags: smile
 species: 2
 zoo: 24

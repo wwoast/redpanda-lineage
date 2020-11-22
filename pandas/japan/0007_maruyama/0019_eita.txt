@@ -1170,8 +1170,9 @@ photo.233.author: cattail.sapporo
 photo.233.commitdate: 2020/11/11
 photo.233.link: https://www.instagram.com/cattail.sapporo/
 photo.233.tags: bamboo, portrait, videolink
-photo.234: https://www.instagram.com/p/CHbIN--g_oZ/media/?size=m
+photo.234: ig://CHbIN--g_oZ/m
 photo.234.author: cattail.sapporo
+photo.234.commitdate: 2020/11/21
 photo.234.link: https://www.instagram.com/cattail.sapporo/
 photo.234.tags: paws, peek, portrait, videolink
 species: 2

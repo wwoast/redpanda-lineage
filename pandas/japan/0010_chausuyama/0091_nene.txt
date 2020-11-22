@@ -332,15 +332,16 @@ photo.64.author: shigeko0531
 photo.64.commitdate: 2020/9/19
 photo.64.link: https://www.instagram.com/shigeko0531/
 photo.64.tags: home, tree, white face
-photo.65: ig://CHkjgyohpG5/m
-photo.65.author: shigeko0531
-photo.65.commitdate: 2020/11/18
-photo.65.link: https://www.instagram.com/shigeko0531/
-photo.65.tags: peek, portrait
-photo.66: https://www.instagram.com/p/CHgoEyfBaQG/media/?size=m
-photo.66.author: rie_panda55
-photo.66.link: https://www.instagram.com/rie_panda55/
-photo.66.tags: bamboo, portrait, smile, tail
+photo.65: ig://CHgoEyfBaQG/m
+photo.65.author: rie_panda55
+photo.65.commitdate: 2020/11/21
+photo.65.link: https://www.instagram.com/rie_panda55/
+photo.65.tags: bamboo, portrait, smile, tail
+photo.66: ig://CHkjgyohpG5/m
+photo.66.author: shigeko0531
+photo.66.commitdate: 2020/11/18
+photo.66.link: https://www.instagram.com/shigeko0531/
+photo.66.tags: peek, portrait
 species: 2
 studbook.id: 12109
 zoo: 10

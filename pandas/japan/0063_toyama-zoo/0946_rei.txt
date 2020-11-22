@@ -113,14 +113,15 @@ photo.20.author: merumeru119
 photo.20.commitdate: 2020/10/9
 photo.20.link: https://www.instagram.com/merumeru119/
 photo.20.tags: grooming, tail, tree
-photo.21: ig://CHpaqCFBlCQ/m
-photo.21.author: mikaamihara
-photo.21.commitdate: 2020/11/20
-photo.21.link: https://www.instagram.com/mikaamihara/
-photo.21.tags: air tasting, portrait, tongue
-photo.22: https://www.instagram.com/p/CHbWYFEH-pY/media/?size=m
-photo.22.author: mochan8686
-photo.22.link: https://www.instagram.com/mochan8686/
-photo.22.tags: bamboo, portrait, tail, techitechi
+photo.21: ig://CHbWYFEH-pY/m
+photo.21.author: mochan8686
+photo.21.commitdate: 2020/11/21
+photo.21.link: https://www.instagram.com/mochan8686/
+photo.21.tags: bamboo, portrait, tail, techitechi
+photo.22: ig://CHpaqCFBlCQ/m
+photo.22.author: mikaamihara
+photo.22.commitdate: 2020/11/20
+photo.22.link: https://www.instagram.com/mikaamihara/
+photo.22.tags: air tasting, portrait, tongue
 species: 2
 zoo: 63

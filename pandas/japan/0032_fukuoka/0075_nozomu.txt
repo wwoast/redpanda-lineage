@@ -765,8 +765,9 @@ photo.151.author: yossi929
 photo.151.commitdate: 2020/10/12
 photo.151.link: https://www.instagram.com/yossi929/
 photo.151.tags: portrait, tail
-photo.152: https://www.instagram.com/p/CHb8pVPB4jL/media/?size=m
+photo.152: ig://CHb8pVPB4jL/m
 photo.152.author: re_ichimaru
+photo.152.commitdate: 2020/11/21
 photo.152.link: https://www.instagram.com/re_ichimaru/
 photo.152.tags: paws, portrait
 species: 2
