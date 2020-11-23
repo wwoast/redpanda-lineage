@@ -1,0 +1,21 @@
+[panda]
+_id: 1231
+birthday: unknown
+birthplace: 124
+children: none
+commitdate: 2020/11/23
+en.name: Scarlet
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スカーレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CHyDiqElbO7/media/?size=m
+photo.1.author: detroitzoo
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: baby, profile, tree, white face
+species: 1
+zoo: 124
