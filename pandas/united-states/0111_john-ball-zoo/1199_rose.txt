@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1200, 1201
-photo.1: https://www.instagram.com/p/CHk5f5OD2zw/media/?size=m
+photo.1: ig://CHk5f5OD2zw/m
 photo.1.author: johnballzoogr
+photo.1.commitdate: 2020/11/23
 photo.1.link: https://www.instagram.com/johnballzoogr/
 photo.1.tags: baby, keeper, lunch time, portrait, white face
 species: 2

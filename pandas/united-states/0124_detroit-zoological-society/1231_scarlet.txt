@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CHyDiqElbO7/media/?size=m
+photo.1: ig://CHyDiqElbO7/m
 photo.1.author: detroitzoo
+photo.1.commitdate: 2020/11/23
 photo.1.link: https://www.instagram.com/detroitzoo/
 photo.1.tags: baby, profile, tree, white face
 species: 1
