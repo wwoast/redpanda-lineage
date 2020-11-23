@@ -548,8 +548,9 @@ photo.107.author: hamamatsu.chiita
 photo.107.commitdate: 2020/10/27
 photo.107.link: https://www.instagram.com/hamamatsu.chiita/
 photo.107.tags: close-up, mofumofu, whiskers
-photo.108: https://www.instagram.com/p/CHu1r1ch6N0/media/?size=m
+photo.108: ig://CHu1r1ch6N0/m
 photo.108.author: ayusuke56
+photo.108.commitdate: 2020/11/22
 photo.108.link: https://www.instagram.com/ayusuke56/
 photo.108.tags: air tasting, bridge, paws, portrait, tail, tongue
 species: 2

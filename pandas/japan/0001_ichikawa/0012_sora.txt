@@ -322,14 +322,16 @@ photo.62.author: alto0908
 photo.62.commitdate: 2020/11/6
 photo.62.link: https://www.instagram.com/alto0908/
 photo.62.tags: close-up, mofumofu, portrait, tree
-photo.63: https://www.instagram.com/p/CH0KEDIBvsl/media/?size=m
+photo.63: ig://CHz-TyNBsZ4/m
 photo.63.author: ifumoto88
+photo.63.commitdate: 2020/11/22
 photo.63.link: https://www.instagram.com/ifumoto88/
-photo.63.tags: autumn, peek, smile, tongue, tree
-photo.64: https://www.instagram.com/p/CHz-TyNBsZ4/media/?size=m
+photo.63.tags: autumn, portrait, tail, tree
+photo.64: ig://CH0KEDIBvsl/m
 photo.64.author: ifumoto88
+photo.64.commitdate: 2020/11/22
 photo.64.link: https://www.instagram.com/ifumoto88/
-photo.64.tags: autumn, portrait, tail, tree
+photo.64.tags: autumn, peek, smile, tongue, tree
 species: 2
 studbook.id: 0872
 zoo: 1

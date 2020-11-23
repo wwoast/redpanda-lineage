@@ -625,8 +625,9 @@ photo.122.author: alto0908
 photo.122.commitdate: 2020/11/11
 photo.122.link: https://www.instagram.com/alto0908/
 photo.122.tags: home, laying down, portrait
-photo.123: https://www.instagram.com/p/CHooW8nByfo/media/?size=m
+photo.123: ig://CHooW8nByfo/m
 photo.123.author: pantasanzoo1
+photo.123.commitdate: 2020/11/22
 photo.123.link: https://www.instagram.com/pantasanzoo1/
 photo.123.tags: peek, tail
 species: 2

@@ -440,8 +440,9 @@ photo.86.author: makimaru18
 photo.86.commitdate: 2020/11/18
 photo.86.link: https://www.instagram.com/makimaru18/
 photo.86.tags: mofumofu, portrait
-photo.87: https://www.instagram.com/p/CHlENR3hml7/media/?size=m
+photo.87: ig://CHlENR3hml7/m
 photo.87.author: happy_love2.15
+photo.87.commitdate: 2020/11/22
 photo.87.link: https://www.instagram.com/happy_love2.15/
 photo.87.tags: paws, smile
 species: 2

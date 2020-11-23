@@ -423,8 +423,9 @@ photo.82.author: kotata_513
 photo.82.commitdate: 2020/11/18
 photo.82.link: https://www.instagram.com/kotata_513/
 photo.82.tags: portrait, smile
-photo.83: https://www.instagram.com/p/CHnYfYXBIbd/media/?size=m
+photo.83: ig://CHnYfYXBIbd/m
 photo.83.author: mini_cochi
+photo.83.commitdate: 2020/11/22
 photo.83.link: https://www.instagram.com/mini_cochi/
 photo.83.tags: paws, portrait, tree
 species: 2

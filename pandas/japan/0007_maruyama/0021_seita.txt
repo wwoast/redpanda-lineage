@@ -855,8 +855,9 @@ photo.169.author: cattail.sapporo
 photo.169.commitdate: 2020/11/11
 photo.169.link: https://www.instagram.com/cattail.sapporo/
 photo.169.tags: close-up, portrait, smile
-photo.170: https://www.instagram.com/p/CHoASvSA5Mo/media/?size=m
+photo.170: ig://CHoASvSA5Mo/m
 photo.170.author: cattail.sapporo
+photo.170.commitdate: 2020/11/22
 photo.170.link: https://www.instagram.com/cattail.sapporo/
 photo.170.tags: portrait
 species: 2

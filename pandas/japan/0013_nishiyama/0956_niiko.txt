@@ -298,8 +298,9 @@ photo.57.author: hamamatsu.chiita
 photo.57.commitdate: 2020/11/21
 photo.57.link: https://www.instagram.com/hamamatsu.chiita/
 photo.57.tags: mofumofu, smile, whiskers
-photo.58: https://www.instagram.com/p/CHxTSobB8nW/media/?size=m
+photo.58: ig://CHxTSobB8nW/m
 photo.58.author: jas_forever_love
+photo.58.commitdate: 2020/11/22
 photo.58.link: https://www.instagram.com/jas_forever_love/
 photo.58.tags: home, portrait, smile, tongue
 species: 2
