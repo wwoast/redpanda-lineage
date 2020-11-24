@@ -5,6 +5,9 @@ en.address: Budapest, Állatkerti krt. 6-12, 1146 Hungary
 en.location: Budapest, Hungary
 en.name: Budapest Zoo
 flag: Hungary
+hu.address: Budapest, Állatkerti krt. 6-12, 1146 Hungary
+hu.location: Budapest, Hungary
+hu.name: Fővárosi Állat- és Növénykert
 language.order: hu, en
 latitude: 47.5189977
 longitude: 19.0754546

@@ -3,17 +3,20 @@ _id: 1052
 birthday: 2016/6/22
 birthplace: 219
 children: unknown
-commitdate: 2019/11/13
+commitdate: 2020/11/24
 en.name: Yoko
 en.nicknames: none
 en.othernames: none
 gender: m
+hu.name: Shifu
+hu.nicknames: none
+hu.othernames: none
 jp.name: ヨコ
 jp.nicknames: none
 jp.othernames: none
-language.order: en, jp
+language.order: hu, en, jp
 litter: 1053
 location.1: 219, 2016/6/22
-location.2: 220, 2016/7/17
+location.2: 220, 2017/7/17
 species: 1
 zoo: 220
