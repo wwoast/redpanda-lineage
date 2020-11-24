@@ -1,0 +1,44 @@
+[panda]
+_id: 1232
+birthday: 2011/6/24
+birthplace: unknown
+children: unknown
+commitdate: 2020/11/24
+en.name: Aurora
+en.nicknames: none
+en.othernames: none
+gender: f
+hu.name: Auróra
+hu.nicknames: none
+hu.othernames: none
+language.order: hu, en
+litter: unknown
+location.1: unknown
+location.2: 265, 2012/4/27
+photo.1: ig://CFrgAXwB4gH/m
+photo.1.author: balathruin
+photo.1.commitdate: 2020/11/24
+photo.1.link: https://www.instagram.com/balathruin/
+photo.1.tags: ear, nose, eye, snow
+photo.2: ig://CEmI-sOpnsj/m
+photo.2.author: balathruin
+photo.2.commitdate: 2020/11/24
+photo.2.link: https://www.instagram.com/balathruin/
+photo.2.tags: ear, nose, eye, bamboo, tail
+photo.3: ig://CErWQyQp177/m
+photo.3.author: balathruin
+photo.3.commitdate: 2020/11/24
+photo.3.link: https://www.instagram.com/balathruin/
+photo.3.tags: ear, nose, eye
+photo.4: ig://CEuMISYp9ge/m
+photo.4.author: balathruin
+photo.4.commitdate: 2020/11/24
+photo.4.link: https://www.instagram.com/balathruin/
+photo.4.tags: ear, nose, eye, tail
+photo.5: ig://CHnr_RKBkuj/m
+photo.5.author: balathruin
+photo.5.commitdate: 2020/11/24
+photo.5.link: https://www.instagram.com/balathruin/
+photo.5.tags: ear, eye, tail
+species: 2
+zoo: 265
