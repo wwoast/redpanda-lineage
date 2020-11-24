@@ -4,11 +4,14 @@ birthday: 2019/6/19
 birthplace: unknown
 children: none
 commitdate: 2020/11/24
+en.name: Bendegúz
+en.nicknames: none
+en.othernames: none
 gender: m
 hu.name: Bendegúz
 hu.nicknames: none
 hu.othernames: none
-language.order: hu
+language.order: hu, en
 litter: unknown
 location.1: unknown
 location.2: 265
