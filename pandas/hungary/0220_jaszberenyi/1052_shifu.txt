@@ -3,6 +3,9 @@ _id: 1052
 birthday: 2016/6/22
 birthplace: 219
 children: unknown
+cn.name: 师傅
+cn.nicknames: none
+cn.othernames: none
 commitdate: 2020/11/24
 en.name: Shifu
 en.nicknames: none
@@ -11,9 +14,6 @@ gender: m
 hu.name: Shifu
 hu.nicknames: none
 hu.othernames: none
-cn.name: 师傅
-cn.nicknames: none
-cn.othernames: none
 language.order: hu, en, cn
 litter: 1053
 location.1: 219, 2016/6/22
