@@ -12,4 +12,8 @@ language.order: hr, en
 latitude: 45.8218443
 longitude: 16.0172909
 map: https://goo.gl/maps/EMe4DxXuZkVmFXWN6
+photo.1: https://upload.wikimedia.org/wikipedia/commons/b/bc/Zoo_Zagreb%%2C_entrance.jpg
+photo.1.author: Perun
+photo.1.commitdate: 2020/11/26
+photo.1.link: https://commons.wikimedia.org/wiki/File:Zoo_Zagreb,_entrance.jpg
 website: https://zoo.hr/
