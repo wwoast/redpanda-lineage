@@ -15,15 +15,15 @@ language.order: hu, en
 litter: unknown
 location.1: 220
 location.2: 269, 2019/4/15
-photo.1: ig://B-OuiM8lF5n/m
+photo.1: ig://BwWFIvzFnyt/m
 photo.1.author: givskudzoo
 photo.1.commitdate: 2020/11/26
 photo.1.link: https://www.instagram.com/givskudzoo/
-photo.1.tags: ear, nose, eye, muzzle
-photo.2: ig://BwWFIvzFnyt/m
+photo.1.tags: ear, nose, eye, muzzle, tail
+photo.2: ig://B-OuiM8lF5n/m
 photo.2.author: givskudzoo
 photo.2.commitdate: 2020/11/26
 photo.2.link: https://www.instagram.com/givskudzoo/
-photo.2.tags: ear, nose, eye, muzzle, tail
+photo.2.tags: ear, nose, eye, muzzle
 species: 1
 zoo: 269
