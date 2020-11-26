@@ -42,21 +42,26 @@ photo.5.author: unknown
 photo.5.commitdate: 2020/11/26
 photo.5.link: https://web.archive.org/web/20181011125543/http://allatkertialapitvany.hu/orokbefogadhato-allatok/haiku
 photo.5.tags: ear, nose, eye, tongue, muzzle, profile
-photo.6: ig://BugL35_gs1b/m
-photo.6.author: allatkerti_alapitvany
+photo.6: ig://Boa1AWWglBI/m
+photo.6.author: zoobudapest
 photo.6.commitdate: 2020/11/26
-photo.6.link: https://www.instagram.com/allatkerti_alapitvany/
-photo.6.tags: ear, nose, eye, wink, muzzle, bamboo
-photo.7: ig://BupczJmheCk/m
-photo.7.author: nemeth_barbo
+photo.6.link: https://www.instagram.com/zoobudapest/
+photo.6.tags: ear, nose, eye, tree, muzzle, climb
+photo.7: ig://BugL35_gs1b/m
+photo.7.author: allatkerti_alapitvany
 photo.7.commitdate: 2020/11/26
-photo.7.link: https://www.instagram.com/nemeth_barbo/
-photo.7.tags: ear, nose, eye, bamboo
-photo.8: ig://ByijUlphurI/m
-photo.8.author: adam_pick_lucas
+photo.7.link: https://www.instagram.com/allatkerti_alapitvany/
+photo.7.tags: ear, nose, eye, wink, muzzle, bamboo
+photo.8: ig://BupczJmheCk/m
+photo.8.author: nemeth_barbo
 photo.8.commitdate: 2020/11/26
-photo.8.link: https://www.instagram.com/adam_pick_lucas/
+photo.8.link: https://www.instagram.com/nemeth_barbo/
 photo.8.tags: ear, nose, eye, bamboo
+photo.9: ig://ByijUlphurI/m
+photo.9.author: adam_pick_lucas
+photo.9.commitdate: 2020/11/26
+photo.9.link: https://www.instagram.com/adam_pick_lucas/
+photo.9.tags: ear, nose, eye, bamboo
 species: 1
 uncertainty: exact day of death (between 20-25)
 zoo: 265
