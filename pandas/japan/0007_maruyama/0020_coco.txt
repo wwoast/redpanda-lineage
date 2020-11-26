@@ -1028,8 +1028,9 @@ photo.208.author: cattail.sapporo
 photo.208.commitdate: 2020/11/21
 photo.208.link: https://www.instagram.com/cattail.sapporo/
 photo.208.tags: portrait, videolink
-photo.209: https://www.instagram.com/p/CHtVTeTAGwp/media/?size=m
+photo.209: ig://CHtVTeTAGwp/m
 photo.209.author: cattail.sapporo
+photo.209.commitdate: 2020/11/25
 photo.209.link: https://www.instagram.com/cattail.sapporo/
 photo.209.tags: paws, portrait, snow, techitechi
 species: 2

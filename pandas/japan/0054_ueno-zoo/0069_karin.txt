@@ -386,15 +386,16 @@ photo.74.author: eos1089
 photo.74.commitdate: 2020/11/5
 photo.74.link: https://www.instagram.com/eos1089/
 photo.74.tags: climb, paws, portrait, tree
-photo.75: ig://CHdYtPEBQnw/m
-photo.75.author: eos1089
-photo.75.commitdate: 2020/11/21
-photo.75.link: https://www.instagram.com/eos1089/
-photo.75.tags: apple time, bamboo, mofumofu, portrait, techitechi
-photo.76: https://www.instagram.com/p/CHT7JXGhf0i/media/?size=m
-photo.76.author: alto0908
-photo.76.link: https://www.instagram.com/alto0908/
-photo.76.tags: mofumofu, paws, portrait, white face
+photo.75: ig://CHT7JXGhf0i/m
+photo.75.author: alto0908
+photo.75.commitdate: 2020/11/25
+photo.75.link: https://www.instagram.com/alto0908/
+photo.75.tags: mofumofu, paws, portrait, white face
+photo.76: ig://CHdYtPEBQnw/m
+photo.76.author: eos1089
+photo.76.commitdate: 2020/11/21
+photo.76.link: https://www.instagram.com/eos1089/
+photo.76.tags: apple time, bamboo, mofumofu, portrait, techitechi
 species: 2
 studbook.id: 12118
 zoo: 54

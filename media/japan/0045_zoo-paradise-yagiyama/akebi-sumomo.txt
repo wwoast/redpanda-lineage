@@ -1,8 +1,10 @@
 [media]
 _id: media.45.akebi-sumomo
+commitdate: 2020/11/25
 panda.tags: 162, 1195
-photo.1: https://www.instagram.com/p/CHC7gecB5oc/media/?size=l
+photo.1: ig://CHC7gecB5oc/l
 photo.1.author: hidehaya_biei
+photo.1.commitdate: 2020/11/25
 photo.1.link: https://www.instagram.com/hidehaya_biei/
 photo.1.tags: bridge, mother's day
 photo.1.tags.162.location: 125, 130

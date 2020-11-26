@@ -373,20 +373,21 @@ photo.72.author: eos1089
 photo.72.commitdate: 2020/11/8
 photo.72.link: https://www.instagram.com/eos1089/
 photo.72.tags: paws, portrait, smile, tail, tree
-photo.73: ig://CHyPrn-Bbrq/m
-photo.73.author: fetorus_mami
-photo.73.commitdate: 2020/11/20
-photo.73.link: https://www.instagram.com/fetorus_mami/
-photo.73.tags: portrait, profile, smile, whiskers
-photo.74: ig://CHyQQJ9BEYE/m
+photo.73: ig://CHVkS6YhfAI/m
+photo.73.author: eos1089
+photo.73.commitdate: 2020/11/25
+photo.73.link: https://www.instagram.com/eos1089/
+photo.73.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
+photo.74: ig://CHyPrn-Bbrq/m
 photo.74.author: fetorus_mami
 photo.74.commitdate: 2020/11/20
 photo.74.link: https://www.instagram.com/fetorus_mami/
-photo.74.tags: apple time, bite, window
-photo.75: https://www.instagram.com/p/CHVkS6YhfAI/media/?size=m
-photo.75.author: eos1089
-photo.75.link: https://www.instagram.com/eos1089/
-photo.75.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
+photo.74.tags: portrait, profile, smile, whiskers
+photo.75: ig://CHyQQJ9BEYE/m
+photo.75.author: fetorus_mami
+photo.75.commitdate: 2020/11/20
+photo.75.link: https://www.instagram.com/fetorus_mami/
+photo.75.tags: apple time, bite, window
 species: 2
 studbook.id: 12105
 zoo: 18
