@@ -421,7 +421,7 @@ def sort_ig_updates():
     that don't have them
     """
     repo = git.Repo(".")
-    prior_commit = repo.commit("HEAD~20")
+    prior_commit = repo.commit("HEAD~1")
     current_commit = repo.commit("HEAD")
     diff_raw = repo.git.diff(prior_commit, 
                              current_commit,
