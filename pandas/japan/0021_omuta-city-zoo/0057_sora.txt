@@ -245,31 +245,26 @@ photo.46.author: omutacityzoo
 photo.46.commitdate: 2020/9/10
 photo.46.link: https://www.instagram.com/omutacityzoo/
 photo.46.tags: home, portrait, tongue
-photo.47: ig://CB4DXqGhFsW/m
-photo.47.author: omutacityzoo
-photo.47.commitdate: 2020/11/20
-photo.47.link: https://www.instagram.com/omutacityzoo/
-photo.47.tags: home, portrait, tongue
-photo.48: ig://CCOEn8TBsy1/m
-photo.48.author: yossi929
-photo.48.commitdate: 2020/7/24
-photo.48.link: https://www.instagram.com/yossi929/
-photo.48.tags: grooming, paws, portrait
-photo.49: ig://CD92qh1hk3P/m
-photo.49.author: craig_craig_craig
+photo.47: ig://CCOEn8TBsy1/m
+photo.47.author: yossi929
+photo.47.commitdate: 2020/7/24
+photo.47.link: https://www.instagram.com/yossi929/
+photo.47.tags: grooming, paws, portrait
+photo.48: ig://CD92qh1hk3P/m
+photo.48.author: craig_craig_craig
+photo.48.commitdate: 2020/10/26
+photo.48.link: https://www.instagram.com/craig_craig_craig/
+photo.48.tags: mofumofu
+photo.49: ig://CGldyxph2BZ/m
+photo.49.author: yossi929
 photo.49.commitdate: 2020/10/26
-photo.49.link: https://www.instagram.com/craig_craig_craig/
-photo.49.tags: mofumofu
-photo.50: ig://CGldyxph2BZ/m
-photo.50.author: yossi929
-photo.50.commitdate: 2020/10/26
-photo.50.link: https://www.instagram.com/yossi929/
-photo.50.tags: mofumofu, paws, portrait
-photo.51: ig://CG9e7O0hzAm/m
-photo.51.author: omutacityzoo
-photo.51.commitdate: 2020/11/20
-photo.51.link: https://www.instagram.com/omutacityzoo/
-photo.51.tags: home, paws, smile, tongue
+photo.49.link: https://www.instagram.com/yossi929/
+photo.49.tags: mofumofu, paws, portrait
+photo.50: ig://CG9e7O0hzAm/m
+photo.50.author: omutacityzoo
+photo.50.commitdate: 2020/11/20
+photo.50.link: https://www.instagram.com/omutacityzoo/
+photo.50.tags: home, paws, smile, tongue
 species: 2
 studbook.id: 0264
 zoo: 21
