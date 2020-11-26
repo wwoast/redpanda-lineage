@@ -1,0 +1,12 @@
+[zoo]
+_id: 266
+commitdate: 2020/11/24
+en.address: Åby säteri, 456 93 Hunnebostrand, Sweden
+en.location: Hunnebostrand, Sweden
+en.name: Nordens Ark Zoo
+flag: Sweden
+language.order: en
+latitude: 58.4416852
+longitude: 11.4344176
+map: https://goo.gl/maps/zhMg7XWZzRs9vsz96
+website: https://en.nordensark.se/
