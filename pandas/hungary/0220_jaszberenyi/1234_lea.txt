@@ -11,6 +11,9 @@ gender: f
 hu.name: Lea
 hu.nicknames: none
 hu.othernames: none
+jp.name: レア
+jp.nicknames: none
+jp.othernames: none
 language.order: hu, en
 litter: unknown
 location.1: 266, 2012/6/22

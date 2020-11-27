@@ -11,6 +11,9 @@ gender: f
 hu.name: Auróra
 hu.nicknames: none
 hu.othernames: none
+jp.name: オーロラ
+jp.nicknames: none
+jp.othernames: none
 language.order: hu, en
 litter: unknown
 location.1: unknown

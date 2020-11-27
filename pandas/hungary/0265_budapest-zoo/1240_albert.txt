@@ -2,7 +2,7 @@
 _id: 1240
 birthday: 2016/6/26
 birthplace: 265
-children: unknown
+children: none
 commitdate: 2020/11/26
 death: 2017/8/10
 en.name: Albert
@@ -12,6 +12,9 @@ gender: m
 hu.name: Albert
 hu.nicknames: none
 hu.othernames: none
+jp.name: アルバート
+jp.nicknames: none
+jp.othernames: none
 language.order: hu, en
 litter: unknown
 photo.1: ig://BKnl6yZBmsF/m

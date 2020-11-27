@@ -7,10 +7,13 @@ commitdate: 2020/11/26
 en.name: Svea
 en.nicknames: none
 en.othernames: none
+jp.name: サヴェア
+jp.nicknames: none
+jp.othernames: none
 gender: f
 language.order: en
 litter: unknown
-location.1: 266
+location.1: 266, 2013/7/4
 location.2: 220, 2014/7/4
 location.3: 268, 2017/7/13
 photo.1: https://media04.meinbezirk.at/event/2020/01/08/0/520170_XXL.jpg
