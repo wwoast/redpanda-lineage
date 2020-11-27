@@ -480,6 +480,8 @@ class RedPandaGraph:
                     self.photo["credit"][author] = self.photo["credit"][author] + 1
                 else:
                     self.photo["credit"][author] = 1
+                    # If author name has spacies in it, add to the lexer list
+                    self.process_lexer_names(author)
                 # Track what the max number of panda photos an object has is
                 test_count = int(field[0].split(".")[1])
                 if test_count > self.photo["max"]:
