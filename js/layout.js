@@ -821,7 +821,7 @@ Layout.L.arrangement.verticalBalanceTwoMultiColumns = function() {
   var between_list_pad = 3;
   // Estimated height of our lines, based on 14pt and padding. Also, necessary
   // values to calculate the final box-height.
-  var line_height = "35px";
+  var line_height = "36px";
   var list_count_height = "40px";
   var sibling_col_cnt = 2;   // TODO: better calculate this
   var children_col_cnt = 2;

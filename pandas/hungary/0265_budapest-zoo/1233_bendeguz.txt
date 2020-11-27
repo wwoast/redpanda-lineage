@@ -11,6 +11,9 @@ gender: m
 hu.name: Bendegúz
 hu.nicknames: none
 hu.othernames: none
+jp.name: ベンデグス
+jp.nicknames: none
+jp.othernames: none
 language.order: hu, en
 litter: unknown
 location.1: unknown

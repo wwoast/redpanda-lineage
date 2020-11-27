@@ -233,11 +233,13 @@ Language.L.emoji = {
 Language.L.flags = {
      "Argentina": "🇦🇷",
      "Australia": "🇦🇺",
+       "Austria": "🇦🇹",
        "Belgium": "🇧🇪",
         "Bhutan": "🇧🇹",
         "Canada": "🇨🇦",
          "Chile": "🇨🇱",
          "China": "🇨🇳",
+       "Croatia": "🇭🇷",
        "Czechia": "🇨🇿",
        "Default": "🐼",
        "Denmark": "🇩🇰",

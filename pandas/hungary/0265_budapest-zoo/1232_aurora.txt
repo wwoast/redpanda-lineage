@@ -2,7 +2,7 @@
 _id: 1232
 birthday: 2011/6/24
 birthplace: unknown
-children: unknown
+children: 1240
 commitdate: 2020/11/24
 en.name: Aurora
 en.nicknames: none
@@ -11,6 +11,9 @@ gender: f
 hu.name: Auróra
 hu.nicknames: none
 hu.othernames: none
+jp.name: オーロラ
+jp.nicknames: none
+jp.othernames: none
 language.order: hu, en
 litter: unknown
 location.1: unknown

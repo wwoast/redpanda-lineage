@@ -2,7 +2,7 @@
 _id: 1236
 birthday: 2011/6/24
 birthplace: 267
-children: unknown
+children: 1240
 cn.name: 凯
 cn.nicknames: none
 cn.othernames: none
@@ -10,11 +10,14 @@ commitdate: 2020/11/26
 death: 2017/7/12
 en.name: Ambrus
 en.nicknames: none
-en.othernames: Kai
+en.othernames: Kai, Ambruus
 gender: m
 hu.name: Ambrus
 hu.nicknames: none
 hu.othernames: none
+jp.name: アンブルス
+jp.nicknames: none
+jp.othernames: カイ
 language.order: hu, en, cn
 litter: unknown
 location.1: 267, 2011/6/24
