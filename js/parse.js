@@ -343,7 +343,7 @@ Parse.lexer.generate = function(input) {
   var space_tokens = this.process(input);
   for (let space_token of space_tokens) {
     // Search and replace it (case insensitively) in the input string
-    var newline_token = space_token.replace(" ", "\n");
+    var newline_token = space_token.replace(/ /g, "\n");
     var newline_regexp = new RegExp(newline_token, "i");
     delimited_input = delimited_input.replace(newline_regexp, space_token);
   }
