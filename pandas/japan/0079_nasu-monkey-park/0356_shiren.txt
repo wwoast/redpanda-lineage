@@ -99,14 +99,16 @@ photo.17.author: kipekaila
 photo.17.commitdate: 2020/11/15
 photo.17.link: https://www.instagram.com/kipekaila/
 photo.17.tags: whiskers
-photo.18: https://www.instagram.com/p/CH_bCK7BePq/media/?size=m
+photo.18: ig://CH-iY6BB77J/m
 photo.18.author: kipekaila
+photo.18.commitdate: 2020/11/28
 photo.18.link: https://www.instagram.com/kipekaila/
-photo.18.tags: lips, portrait, whiskers
-photo.19: https://www.instagram.com/p/CH-iY6BB77J/media/?size=m
+photo.18.tags: portrait, whiskers
+photo.19: ig://CH_bCK7BePq/m
 photo.19.author: kipekaila
+photo.19.commitdate: 2020/11/28
 photo.19.link: https://www.instagram.com/kipekaila/
-photo.19.tags: portrait, whiskers
+photo.19.tags: lips, portrait, whiskers
 species: 2
 studbook.id: 0469
 zoo: 79
