@@ -1176,8 +1176,9 @@ photo.233.author: redpanda_tata
 photo.233.commitdate: 2020/11/22
 photo.233.link: https://www.instagram.com/redpanda_tata/
 photo.233.tags: portrait
-photo.234: https://www.instagram.com/p/CH2u88PhMFu/media/?size=m
+photo.234: ig://CH2u88PhMFu/m
 photo.234.author: yakko____
+photo.234.commitdate: 2020/11/28
 photo.234.link: https://www.instagram.com/yakko____/
 photo.234.tags: portrait, smile, whiskers
 species: 2

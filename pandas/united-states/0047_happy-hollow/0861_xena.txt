@@ -241,8 +241,9 @@ photo.45.author: wumpwoast
 photo.45.commitdate: 2020/9/20
 photo.45.link: https://www.instagram.com/wumpwoast/
 photo.45.tags: bamboo, paws, portrait
-photo.46: https://www.instagram.com/p/CH1lS6ah2-h/media/?size=m
+photo.46: ig://CH1lS6ah2-h/m
 photo.46.author: wumpwoast
+photo.46.commitdate: 2020/11/28
 photo.46.link: https://www.instagram.com/wumpwoast/
 photo.46.tags: laying down, portrait, white face
 species: 1

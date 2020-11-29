@@ -653,8 +653,9 @@ photo.129.author: fetorus_mami
 photo.129.commitdate: 2020/11/18
 photo.129.link: https://www.instagram.com/fetorus_mami/
 photo.129.tags: paws, portrait, smile, tree
-photo.130: https://www.instagram.com/p/CH47qqJgFJt/media/?size=m
+photo.130: ig://CH47qqJgFJt/m
 photo.130.author: cattail.sapporo
+photo.130.commitdate: 2020/11/28
 photo.130.link: https://www.instagram.com/cattail.sapporo/
 photo.130.tags: close-up, lips, nose, portrait, whiskers
 species: 2

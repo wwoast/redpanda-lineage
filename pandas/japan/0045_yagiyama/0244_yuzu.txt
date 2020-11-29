@@ -326,8 +326,9 @@ photo.63.author: happy_love2.15
 photo.63.commitdate: 2020/11/21
 photo.63.link: https://www.instagram.com/happy_love2.15/
 photo.63.tags: baby, portrait, smile
-photo.64: https://www.instagram.com/p/CH6S0EwhXpk/media/?size=m
+photo.64: ig://CH6S0EwhXpk/m
 photo.64.author: ssc6105
+photo.64.commitdate: 2020/11/28
 photo.64.link: https://www.instagram.com/ssc6105/
 photo.64.tags: peek, tree
 species: 2

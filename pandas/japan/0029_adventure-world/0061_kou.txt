@@ -277,8 +277,9 @@ photo.54.author: framereim
 photo.54.commitdate: 2020/7/12
 photo.54.link: https://www.instagram.com/framereim/
 photo.54.tags: climb, paws, peek, portrait
-photo.55: https://www.instagram.com/p/CH2bRgzB99z/media/?size=m
+photo.55: ig://CH2bRgzB99z/m
 photo.55.author: chankunvv
+photo.55.commitdate: 2020/11/28
 photo.55.link: https://www.instagram.com/chankunvv/
 photo.55.tags: portrait, smile
 species: 2

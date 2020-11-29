@@ -1007,8 +1007,9 @@ photo.201.author: gloryeui
 photo.201.commitdate: 2020/11/17
 photo.201.link: https://www.instagram.com/gloryeui/
 photo.201.tags: bamboo, portrait, smile, videolink
-photo.202: https://www.instagram.com/p/CH1VRCcB42h/media/?size=m
+photo.202: ig://CH1VRCcB42h/m
 photo.202.author: gloryeui
+photo.202.commitdate: 2020/11/28
 photo.202.link: https://www.instagram.com/gloryeui/
 photo.202.tags: portrait, whiskers
 species: 2

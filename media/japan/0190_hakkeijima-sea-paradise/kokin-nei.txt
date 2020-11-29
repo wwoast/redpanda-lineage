@@ -9,8 +9,9 @@ photo.1.link: https://www.instagram.com/ssc6105/
 photo.1.tags: apple time, couple, keeper
 photo.1.tags.23.location: 175, 275
 photo.1.tags.376.location: 330, 215
-photo.2: https://www.instagram.com/p/CH4u3-RBy_f/media/?size=l
+photo.2: ig://CH4u3-RBy_f/l
 photo.2.author: seaparadise_official
+photo.2.commitdate: 2020/11/28
 photo.2.link: https://www.instagram.com/p/CH4u3-RBy_f/media/?size=m
 photo.2.tags: couple, whiskers
 photo.2.tags.23.location: 150, 85

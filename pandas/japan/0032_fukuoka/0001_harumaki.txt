@@ -1729,8 +1729,9 @@ photo.344.author: re_ichimaru
 photo.344.commitdate: 2020/11/18
 photo.344.link: https://www.instagram.com/re_ichimaru/
 photo.344.tags: peek, portrait, techitechi, window
-photo.345: https://www.instagram.com/p/CIHOGPwB839/media/?size=m
+photo.345: ig://CIHOGPwB839/m
 photo.345.author: yossi929
+photo.345.commitdate: 2020/11/28
 photo.345.link: https://www.instagram.com/yossi929/
 photo.345.tags: smile, tail
 species: 2
