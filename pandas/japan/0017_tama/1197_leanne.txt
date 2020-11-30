@@ -6,7 +6,7 @@ children: none
 commitdate: 2020/7/29
 en.name: Leanne
 en.nicknames: none
-en.othernames: Leeane, Lee-Anne, Leeanne, Leane, Rian
+en.othernames: Leeane, Lee-Anne, Leeanne, Leane, Rian, Rians
 gender: f
 jp.name: リアン
 jp.nicknames: none
@@ -23,5 +23,13 @@ photo.2.author: ck.chie
 photo.2.commitdate: 2020/11/21
 photo.2.link: https://www.instagram.com/ck.chie/
 photo.2.tags: baby, hammock
+photo.3: https://www.instagram.com/p/CH8x3knhffs/media/?size=m
+photo.3.author: craig_craig_craig
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.3.tags: baby, mofumofu, portrait
+photo.4: https://www.instagram.com/p/CH-ZeUGhMyS/media/?size=m
+photo.4.author: craig_craig_craig
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: baby
 species: 2
 zoo: 17
