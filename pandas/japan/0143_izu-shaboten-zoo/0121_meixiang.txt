@@ -384,8 +384,9 @@ photo.74.author: tetusara.ki_
 photo.74.commitdate: 2020/11/18
 photo.74.link: https://www.instagram.com/tetusara.ki_/
 photo.74.tags: laying down, portrait, tail
-photo.75: https://www.instagram.com/p/CHqxMQEBAbd/media/?size=m
+photo.75: ig://CHqxMQEBAbd/m
 photo.75.author: tetusara.ki_
+photo.75.commitdate: 2020/11/29
 photo.75.link: https://www.instagram.com/tetusara.ki_/
 photo.75.tags: paws, peek, portrait, whiskers
 species: 2

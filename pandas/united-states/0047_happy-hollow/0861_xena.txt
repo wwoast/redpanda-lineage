@@ -246,8 +246,9 @@ photo.46.author: wumpwoast
 photo.46.commitdate: 2020/11/28
 photo.46.link: https://www.instagram.com/wumpwoast/
 photo.46.tags: laying down, portrait, white face
-photo.47: https://www.instagram.com/p/CH9aSQPh57O/media/?size=m
+photo.47: ig://CH9aSQPh57O/m
 photo.47.author: carsontheredpanda
+photo.47.commitdate: 2020/11/29
 photo.47.link: https://www.instagram.com/carsontheredpanda/
 photo.47.tags: bamboo, portrait, smile
 species: 1

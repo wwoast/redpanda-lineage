@@ -274,8 +274,9 @@ photo.53.author: minato.yokohama2130
 photo.53.commitdate: 2020/11/22
 photo.53.link: https://www.instagram.com/minato.yokohama2130/
 photo.53.tags: portrait, tree
-photo.54: https://www.instagram.com/p/CH8m0RPhGe9/media/?size=m
+photo.54: ig://CH8m0RPhGe9/m
 photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2020/11/29
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: paws, portrait
 species: 2

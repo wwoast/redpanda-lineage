@@ -313,8 +313,9 @@ photo.60.author: eos1089
 photo.60.commitdate: 2020/11/21
 photo.60.link: https://www.instagram.com/eos1089/
 photo.60.tags: autumn, curly, portrait, tail
-photo.61: https://www.instagram.com/p/CHumX5qhs_9/media/?size=m
+photo.61: ig://CHumX5qhs_9/m
 photo.61.author: ssc6105
+photo.61.commitdate: 2020/11/29
 photo.61.link: https://www.instagram.com/ssc6105/
 photo.61.tags: curly, laying down, paws, portrait, tail, upside-down
 species: 2

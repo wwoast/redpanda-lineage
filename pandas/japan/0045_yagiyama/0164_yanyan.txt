@@ -445,8 +445,9 @@ photo.87.author: happy_love2.15
 photo.87.commitdate: 2020/11/22
 photo.87.link: https://www.instagram.com/happy_love2.15/
 photo.87.tags: paws, smile
-photo.88: https://www.instagram.com/p/CH7aOtMB9lY/media/?size=m
+photo.88: ig://CH7aOtMB9lY/m
 photo.88.author: pink.b22
+photo.88.commitdate: 2020/11/29
 photo.88.link: https://www.instagram.com/pink.b22/
 photo.88.tags: portrait, tail
 species: 2

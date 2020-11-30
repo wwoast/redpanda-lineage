@@ -296,8 +296,9 @@ photo.56.author: pink.b22
 photo.56.commitdate: 2020/11/22
 photo.56.link: https://www.instagram.com/pink.b22/
 photo.56.tags: itchy, mofumofu, paws, portrait
-photo.57: https://www.instagram.com/p/CHoOFBuB91Q/media/?size=m
+photo.57: ig://CHoOFBuB91Q/m
 photo.57.author: tetusara.ki_
+photo.57.commitdate: 2020/11/29
 photo.57.link: https://www.instagram.com/tetusara.ki_/
 photo.57.tags: apple time, lips, portrait, slobber
 species: 2

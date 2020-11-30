@@ -383,16 +383,19 @@ photo.75.author: itsuak
 photo.75.commitdate: 2020/11/11
 photo.75.link: https://www.instagram.com/itsuak/
 photo.75.tags: portrait, smile, tail, whiskers
-photo.76: https://www.instagram.com/p/CHp2af7hvGW/media/?size=m
+photo.76: ig://CHp2af7hvGW/m
 photo.76.author: itsuak
+photo.76.commitdate: 2020/11/29
 photo.76.link: https://www.instagram.com/itsuak/
 photo.76.tags: grooming, portrait, tail
-photo.77: https://www.instagram.com/p/CHy1OfmhKOs/media/?size=m
+photo.77: ig://CHy1OfmhKOs/m
 photo.77.author: akiakiakiko18
+photo.77.commitdate: 2020/11/29
 photo.77.link: https://www.instagram.com/akiakiakiko18/
 photo.77.tags: bamboo, close-up, smile
-photo.78: https://www.instagram.com/p/CIBLFhcA0aQ/media/?size=m
+photo.78: ig://CIBLFhcA0aQ/m
 photo.78.author: itsuak
+photo.78.commitdate: 2020/11/29
 photo.78.link: https://www.instagram.com/itsuak/
 photo.78.tags: laying down, portrait, sleeping
 species: 2

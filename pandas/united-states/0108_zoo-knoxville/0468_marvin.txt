@@ -90,8 +90,9 @@ photo.15.author: worldthathesees
 photo.15.commitdate: 2020/11/16
 photo.15.link: https://www.instagram.com/worldthathesees/
 photo.15.tags: bridge, paws, portrait, smile, tongue
-photo.16: https://www.instagram.com/p/CHna0HzhPfp/media/?size=m
+photo.16: ig://CHna0HzhPfp/m
 photo.16.author: worldthathesees
+photo.16.commitdate: 2020/11/29
 photo.16.link: https://www.instagram.com/worldthathesees/
 photo.16.tags: portrait, tail
 species: 1
