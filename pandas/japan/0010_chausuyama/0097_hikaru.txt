@@ -307,8 +307,9 @@ photo.59.author: shigeko0531
 photo.59.commitdate: 2020/11/8
 photo.59.link: https://www.instagram.com/shigeko0531/
 photo.59.tags: close-up, portrait, tongue, whiskers
-photo.60: https://www.instagram.com/p/CH7cXUShKaj/media/?size=m
+photo.60: ig://CH7cXUShKaj/m
 photo.60.author: miis_98
+photo.60.commitdate: 2020/12/2
 photo.60.link: https://www.instagram.com/miis_98/
 photo.60.tags: peek, portrait, tail
 species: 2

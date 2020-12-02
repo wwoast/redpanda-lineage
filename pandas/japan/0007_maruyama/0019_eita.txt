@@ -1175,8 +1175,9 @@ photo.234.author: cattail.sapporo
 photo.234.commitdate: 2020/11/21
 photo.234.link: https://www.instagram.com/cattail.sapporo/
 photo.234.tags: paws, peek, portrait, videolink
-photo.235: https://www.instagram.com/p/CH7foPXAt4o/media/?size=m
+photo.235: ig://CH7foPXAt4o/m
 photo.235.author: cattail.sapporo
+photo.235.commitdate: 2020/12/2
 photo.235.link: https://www.instagram.com/cattail.sapporo/
 photo.235.tags: portrait, videolink
 species: 2

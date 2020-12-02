@@ -127,8 +127,9 @@ photo.23.author: firefoxpanda88
 photo.23.commitdate: 2020/11/18
 photo.23.link: https://www.instagram.com/firefoxpanda88/
 photo.23.tags: paws, portrait, smile
-photo.24: https://www.instagram.com/p/CH7hyYvByNJ/media/?size=m
+photo.24: ig://CH7hyYvByNJ/m
 photo.24.author: re_ichimaru
+photo.24.commitdate: 2020/12/2
 photo.24.link: https://www.instagram.com/re_ichimaru/
 photo.24.tags: portrait, tail
 species: 2

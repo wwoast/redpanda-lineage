@@ -166,68 +166,69 @@ photo.31.author: ssc6105
 photo.31.commitdate: 2020/6/13
 photo.31.link: https://www.instagram.com/ssc6105/
 photo.31.tags: bamboo, paws, portrait
-photo.32: ig://CCa1BFTh69d/m
-photo.32.author: ssc6105
-photo.32.commitdate: 2020/7/19
-photo.32.link: https://www.instagram.com/ssc6105/
-photo.32.tags: laying down, portrait, tail
-photo.33: ig://CCbPFIFhiAX/m
-photo.33.author: panda.daisuki
+photo.32: ig://CBs4xQ2BVbV/m
+photo.32.author: ruru_maki
+photo.32.commitdate: 2020/12/2
+photo.32.link: https://www.instagram.com/ruru_maki/
+photo.33: ig://CCa1BFTh69d/m
+photo.33.author: ssc6105
 photo.33.commitdate: 2020/7/19
-photo.33.link: https://www.instagram.com/panda.daisuki/
-photo.33.tags: close-up, laying down, portrait, tail
-photo.34: ig://CCdhVw5BTKZ/m
-photo.34.author: fetorus_mami
+photo.33.link: https://www.instagram.com/ssc6105/
+photo.33.tags: laying down, portrait, tail
+photo.34: ig://CCbPFIFhiAX/m
+photo.34.author: panda.daisuki
 photo.34.commitdate: 2020/7/19
-photo.34.link: https://www.instagram.com/fetorus_mami/
-photo.34.tags: bamboo, paws, smile
-photo.35: ig://CCdhmDJBaM0/m
+photo.34.link: https://www.instagram.com/panda.daisuki/
+photo.34.tags: close-up, laying down, portrait, tail
+photo.35: ig://CCdhVw5BTKZ/m
 photo.35.author: fetorus_mami
 photo.35.commitdate: 2020/7/19
 photo.35.link: https://www.instagram.com/fetorus_mami/
-photo.35.tags: close-up, tail
-photo.36: ig://CDDsIgDBYb4/m
-photo.36.author: alto0908
-photo.36.commitdate: 2020/8/21
-photo.36.link: https://www.instagram.com/alto0908/
-photo.36.tags: paws, portrait
-photo.37: ig://CDHyNUTh0LI/m
-photo.37.author: ssc6105
+photo.35.tags: bamboo, paws, smile
+photo.36: ig://CCdhmDJBaM0/m
+photo.36.author: fetorus_mami
+photo.36.commitdate: 2020/7/19
+photo.36.link: https://www.instagram.com/fetorus_mami/
+photo.36.tags: close-up, tail
+photo.37: ig://CDDsIgDBYb4/m
+photo.37.author: alto0908
 photo.37.commitdate: 2020/8/21
-photo.37.link: https://www.instagram.com/ssc6105/
-photo.37.tags: peek
-photo.38: ig://CEojWMAHG9W/m
-photo.38.author: ifumoto88
-photo.38.commitdate: 2020/9/7
-photo.38.link: https://www.instagram.com/ifumoto88/
-photo.38.tags: laying down, portrait
-photo.39: ig://CFUO9HaB7HJ/m
-photo.39.author: fetorus_mami
-photo.39.commitdate: 2020/9/27
-photo.39.link: https://www.instagram.com/fetorus_mami/
-photo.39.tags: door, portrait
-photo.40: ig://CF6CucgBdTi/m
+photo.37.link: https://www.instagram.com/alto0908/
+photo.37.tags: paws, portrait
+photo.38: ig://CDHyNUTh0LI/m
+photo.38.author: ssc6105
+photo.38.commitdate: 2020/8/21
+photo.38.link: https://www.instagram.com/ssc6105/
+photo.38.tags: peek
+photo.39: ig://CEojWMAHG9W/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2020/9/7
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: laying down, portrait
+photo.40: ig://CFUO9HaB7HJ/m
 photo.40.author: fetorus_mami
-photo.40.commitdate: 2020/10/8
+photo.40.commitdate: 2020/9/27
 photo.40.link: https://www.instagram.com/fetorus_mami/
-photo.40.tags: portrait, profile
-photo.41: ig://CHH6YAHhS7k/m
-photo.41.author: ssc6105
-photo.41.commitdate: 2020/11/7
-photo.41.link: https://www.instagram.com/ssc6105/
-photo.41.tags: bamboo, paws, smile, standing
-photo.42: ig://CHP2UpthROn/m
+photo.40.tags: door, portrait
+photo.41: ig://CF6CucgBdTi/m
+photo.41.author: fetorus_mami
+photo.41.commitdate: 2020/10/8
+photo.41.link: https://www.instagram.com/fetorus_mami/
+photo.41.tags: portrait, profile
+photo.42: ig://CHH6YAHhS7k/m
 photo.42.author: ssc6105
-photo.42.commitdate: 2020/11/21
+photo.42.commitdate: 2020/11/7
 photo.42.link: https://www.instagram.com/ssc6105/
-photo.43: ig://CH426buhCib/m
-photo.43.author: fetorus_mami
-photo.43.commitdate: 2020/11/29
-photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: portrait, whiskers
-photo.44: https://www.instagram.com/p/CBs4xQ2BVbV/media/?size=m
-photo.44.author: ruru_maki
-photo.44.link: https://www.instagram.com/ruru_maki/
+photo.42.tags: bamboo, paws, smile, standing
+photo.43: ig://CHP2UpthROn/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2020/11/21
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.44: ig://CH426buhCib/m
+photo.44.author: fetorus_mami
+photo.44.commitdate: 2020/11/29
+photo.44.link: https://www.instagram.com/fetorus_mami/
+photo.44.tags: portrait, whiskers
 species: 2
 studbook.id: 11105
 zoo: 9
