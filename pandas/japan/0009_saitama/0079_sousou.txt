@@ -4,9 +4,10 @@ birthday: 2012/7/8
 birthplace: 13
 children: 80, 242, 957, 958
 commitdate: 2018/6/23
+death: 2020/12/1
 en.name: Sou-Sou
 en.nicknames: none
-en.othernames: Soo-Soo, Sousou, Soosoo
+en.othernames: Soo-Soo, Sousou, Soosoo, Sōsō, Sō-Sō
 gender: m
 jp.name: ソウソウ
 jp.nicknames: none
@@ -229,6 +230,34 @@ photo.44.author: ifumoto88
 photo.44.commitdate: 2020/11/7
 photo.44.link: https://www.instagram.com/ifumoto88/
 photo.44.tags: laying down, paws, smile, tail
+photo.45: https://www.instagram.com/p/CHQXw_wBm0U/media/?size=m
+photo.45.author: take_421
+photo.45.link: https://www.instagram.com/take_421/
+photo.45.tags: portrait
+photo.46: https://www.instagram.com/p/CITEIiiBwIi/media/?size=m
+photo.46.author: mini_cochi
+photo.46.link: https://www.instagram.com/mini_cochi/
+photo.46.tags: paws, peek, portrait
+photo.47: https://www.instagram.com/p/CIS2M3pBq0B/media/?size=m
+photo.47.author: ifumoto88
+photo.47.link: https://www.instagram.com/ifumoto88/
+photo.47.tags: paws, peek, portrait, tail, tree
+photo.48: https://www.instagram.com/p/CIS2iTZhw4M/media/?size=m
+photo.48.author: ifumoto88
+photo.48.link: https://www.instagram.com/ifumoto88/
+photo.48.tags: portrait
+photo.49: https://www.instagram.com/p/CIS2wZUhW19/media/?size=m
+photo.49.author: ifumoto88
+photo.49.link: https://www.instagram.com/ifumoto88/
+photo.49.tags: paws, portrait
+photo.50: https://www.instagram.com/p/CISr6bkBchj/media/?size=m
+photo.50.author: fetorus_mami
+photo.50.link: https://www.instagram.com/fetorus_mami/
+photo.50.tags: white face
+photo.51: https://www.instagram.com/p/CIS3hDGB8nl/media/?size=m
+photo.51.author: s.okano521
+photo.51.link: https://www.instagram.com/s.okano521/
+photo.51.tags: bamboo, smile, tongue
 species: 2
 studbook.id: 12112
 zoo: 9
