@@ -279,12 +279,14 @@ photo.54.author: hamamatsu.chiita
 photo.54.commitdate: 2020/11/29
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: paws, portrait
-photo.55: https://www.instagram.com/p/CIQs7njBYjE/media/?size=m
+photo.55: ig://CIQs7njBYjE/m
 photo.55.author: craig_craig_craig
+photo.55.commitdate: 2020/12/3
 photo.55.link: https://www.instagram.com/craig_craig_craig/
 photo.55.tags: portrait, videolink, whiskers
-photo.56: https://www.instagram.com/p/CIS4WVphZyb/media/?size=m
+photo.56: ig://CIS4WVphZyb/m
 photo.56.author: craig_craig_craig
+photo.56.commitdate: 2020/12/3
 photo.56.link: https://www.instagram.com/craig_craig_craig/
 photo.56.tags: keeper, paws, portrait, standing, tail, videolink
 species: 2

@@ -865,12 +865,14 @@ photo.171.author: cattail.sapporo
 photo.171.commitdate: 2020/11/22
 photo.171.link: https://www.instagram.com/cattail.sapporo/
 photo.171.tags: portrait
-photo.172: https://www.instagram.com/p/CIIPrSYBeX6/media/?size=m
+photo.172: ig://CIIPrSYBeX6/m
 photo.172.author: ho0oipo
+photo.172.commitdate: 2020/12/3
 photo.172.link: https://www.instagram.com/ho0oipo/
 photo.172.tags: climb, portrait, snow
-photo.173: https://www.instagram.com/p/CIOwT0hAiHp/media/?size=m
+photo.173: ig://CIOwT0hAiHp/m
 photo.173.author: cattail.sapporo
+photo.173.commitdate: 2020/12/3
 photo.173.link: https://www.instagram.com/cattail.sapporo/
 photo.173.tags: bamboo, portrait, tongue
 species: 2

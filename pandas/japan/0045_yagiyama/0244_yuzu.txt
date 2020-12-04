@@ -331,8 +331,9 @@ photo.64.author: ssc6105
 photo.64.commitdate: 2020/11/28
 photo.64.link: https://www.instagram.com/ssc6105/
 photo.64.tags: peek, tree
-photo.65: https://www.instagram.com/p/CIMUVE2h0jy/media/?size=m
+photo.65: ig://CIMUVE2h0jy/m
 photo.65.author: kipekaila
+photo.65.commitdate: 2020/12/3
 photo.65.link: https://www.instagram.com/kipekaila/
 photo.65.tags: bamboo, portrait, smile
 species: 2

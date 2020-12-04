@@ -1180,8 +1180,9 @@ photo.235.author: cattail.sapporo
 photo.235.commitdate: 2020/12/2
 photo.235.link: https://www.instagram.com/cattail.sapporo/
 photo.235.tags: portrait, videolink
-photo.236: https://www.instagram.com/p/CIMQcXcA7Ll/media/?size=m
+photo.236: ig://CIMQcXcA7Ll/m
 photo.236.author: cattail.sapporo
+photo.236.commitdate: 2020/12/3
 photo.236.link: https://www.instagram.com/cattail.sapporo/
 photo.236.tags: bamboo, close-up, nose, portrait, tongue
 species: 2

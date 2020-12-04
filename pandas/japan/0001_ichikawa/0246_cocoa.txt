@@ -913,8 +913,9 @@ photo.180.author: ifumoto88
 photo.180.commitdate: 2020/11/8
 photo.180.link: https://www.instagram.com/ifumoto88/
 photo.180.tags: close-up, mofumofu, whiskers
-photo.181: https://www.instagram.com/p/CIIiOAVhUH-/media/?size=m
+photo.181: ig://CIIiOAVhUH-/m
 photo.181.author: ifumoto88
+photo.181.commitdate: 2020/12/3
 photo.181.link: https://www.instagram.com/ifumoto88/
 photo.181.tags: dish, peek, portrait
 species: 2

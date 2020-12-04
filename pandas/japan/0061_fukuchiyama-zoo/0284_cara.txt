@@ -224,8 +224,9 @@ photo.42.author: love__mitarashi
 photo.42.commitdate: 2020/11/29
 photo.42.link: https://www.instagram.com/love__mitarashi/
 photo.42.tags: paws, standing, tail
-photo.43: https://www.instagram.com/p/CINf086BOu0/media/?size=m
+photo.43: ig://CINf086BOu0/m
 photo.43.author: love__mitarashi
+photo.43.commitdate: 2020/12/3
 photo.43.link: https://www.instagram.com/love__mitarashi/
 photo.43.tags: door, paws, portrait
 species: 2

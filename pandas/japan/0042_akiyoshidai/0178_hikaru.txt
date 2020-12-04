@@ -176,8 +176,9 @@ photo.33.author: re_ichimaru
 photo.33.commitdate: 2020/11/15
 photo.33.link: https://www.instagram.com/re_ichimaru/
 photo.33.tags: paws, portrait, smile
-photo.34: https://www.instagram.com/p/CIMzrcDhbDL/media/?size=m
+photo.34: ig://CIMzrcDhbDL/m
 photo.34.author: nakacchi_desu
+photo.34.commitdate: 2020/12/3
 photo.34.link: https://www.instagram.com/nakacchi_desu/
 photo.34.tags: paws, standing, whiskers
 species: 2

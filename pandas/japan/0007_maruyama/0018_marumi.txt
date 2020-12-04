@@ -1622,18 +1622,21 @@ photo.324.author: cattail.sapporo
 photo.324.commitdate: 2020/11/22
 photo.324.link: https://www.instagram.com/cattail.sapporo/
 photo.324.tags: mofumofu, peek, portrait, tail
-photo.325: https://www.instagram.com/p/CINpU4WBdyw/media/?size=m
+photo.325: ig://CINpU4WBdyw/m
 photo.325.author: tama67photo
+photo.325.commitdate: 2020/12/3
 photo.325.link: https://www.instagram.com/tama67photo/
 photo.325.tags: portrait, whiskers
-photo.326: https://www.instagram.com/p/CISygxkBkgN/media/?size=m
-photo.326.author: apple_jasmine33
-photo.326.link: https://www.instagram.com/apple_jasmine33/
-photo.326.tags: peek
-photo.327: https://www.instagram.com/p/CISybOhBMgd/media/?size=m
-photo.327.author: tama67photo
-photo.327.link: https://www.instagram.com/tama67photo/
-photo.327.tags: tail
+photo.326: ig://CISybOhBMgd/m
+photo.326.author: tama67photo
+photo.326.commitdate: 2020/12/3
+photo.326.link: https://www.instagram.com/tama67photo/
+photo.326.tags: tail
+photo.327: ig://CISygxkBkgN/m
+photo.327.author: apple_jasmine33
+photo.327.commitdate: 2020/12/3
+photo.327.link: https://www.instagram.com/apple_jasmine33/
+photo.327.tags: peek
 species: 2
 studbook.id: 1676
 zoo: 7

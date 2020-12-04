@@ -302,12 +302,14 @@ photo.58.author: redpanda_nippon_takashi
 photo.58.commitdate: 2020/9/13
 photo.58.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.58.tags: bear worm, laying down, paws, smile, tree
-photo.59: https://www.instagram.com/p/CIMK8D9hUAw/media/?size=m
+photo.59: ig://CIMK8D9hUAw/m
 photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2020/12/3
 photo.59.link: https://www.instagram.com/hamamatsu.chiita/
 photo.59.tags: lunch time, paws, portrait, tongue
-photo.60: https://www.instagram.com/p/CIP068YhyCv/media/?size=m
+photo.60: ig://CIP068YhyCv/m
 photo.60.author: minato.yokohama2130
+photo.60.commitdate: 2020/12/3
 photo.60.link: https://www.instagram.com/minato.yokohama2130/
 photo.60.tags: bamboo, home, portrait, whiskers
 species: 2
