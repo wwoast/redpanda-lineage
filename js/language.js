@@ -381,6 +381,7 @@ Language.L.gui = {
       "jp": "日语",
       "kr": "朝鮮语",
       "np": "尼泊尔语",
+      "pl": "波兰语",
       "ru": "俄语",
       "se": "瑞典"
     },
@@ -391,6 +392,7 @@ Language.L.gui = {
       "jp": "Japanese",
       "kr": "Korean",
       "np": "Nepalese",
+      "pl": "Polish",
       "ru": "Russian",
       "se": "Swedish"
     },
@@ -401,6 +403,7 @@ Language.L.gui = {
       "jp": "Japonés",
       "kr": "Coreano",
       "np": "Nepalés",
+      "pl": "Polaco",
       "ru": "Ruso",
       "se": "Sueco"
     },
@@ -411,6 +414,7 @@ Language.L.gui = {
       "jp": "日本語",
       "kr": "韓国語",
       "np": "ネパール語",
+      "pl": "ポーランド語",
       "ru": "ロシア語",
       "se": "スウェーデン"
     },
@@ -421,6 +425,7 @@ Language.L.gui = {
       "jp": "जापानी",
       "kr": "कोरियन",
       "np": "नेपाली",
+      "pl": "पोलिश",
       "ru": "रसियन",
       "se": "स्वीडिश"
     },
@@ -431,6 +436,7 @@ Language.L.gui = {
       "jp": "японский",
       "kr": "корейский",
       "np": "непальский",
+      "pl": "Польский",
       "ru": "русский",
       "se": "шведский"
     },
@@ -441,6 +447,7 @@ Language.L.gui = {
       "jp": "Japanska",
       "kr": "Koreanska",
       "np": "Nepali",
+      "pl": "Polska",
       "ru": "Ryska",
       "se": "Svenska"
     }

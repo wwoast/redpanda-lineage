@@ -471,6 +471,7 @@ photo.92: ig://CF-mdnqBgai/m
 photo.92.author: craig_craig_craig
 photo.92.commitdate: 2020/11/23
 photo.92.link: https://www.instagram.com/craig_craig_craig/
+photo.92.tags: dish, portrait, whiskers
 photo.93: ig://CGAFHbahFNk/m
 photo.93.author: alto0908
 photo.93.commitdate: 2020/11/23
@@ -561,7 +562,10 @@ photo.110.author: ifumoto88
 photo.110.commitdate: 2020/11/22
 photo.110.link: https://www.instagram.com/ifumoto88/
 photo.110.tags: autumn, peek, smile, tongue, tree
-phtoo.101.tags: dish, portrait, whiskers
+photo.111: https://www.instagram.com/p/CIMn1bkhv6s/media/?size=m
+photo.111.author: sunnylettuce_2020
+photo.111.link: https://www.instagram.com/sunnylettuce_2020/
+photo.111.tags: paws, portrait
 species: 2
 studbook.id: 0872
 zoo: 1
