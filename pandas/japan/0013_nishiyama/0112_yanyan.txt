@@ -142,8 +142,9 @@ photo.26.author: craig_craig_craig
 photo.26.commitdate: 2020/4/18
 photo.26.link: https://www.instagram.com/craig_craig_craig/
 photo.26.tags: autumn, close-up, portrait
-photo.27: https://www.instagram.com/p/CIDFa5_hH1H/media/?size=m
+photo.27: ig://CIDFa5_hH1H/m
 photo.27.author: minato.yokohama2130
+photo.27.commitdate: 2020/12/6
 photo.27.link: https://www.instagram.com/minato.yokohama2130/
 photo.27.tags: bamboo, home, portrait
 species: 2

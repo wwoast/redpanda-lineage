@@ -450,12 +450,14 @@ photo.88.author: pink.b22
 photo.88.commitdate: 2020/11/29
 photo.88.link: https://www.instagram.com/pink.b22/
 photo.88.tags: portrait, tail
-photo.89: https://www.instagram.com/p/CH_lkVKhDXC/media/?size=m
+photo.89: ig://CH_lkVKhDXC/m
 photo.89.author: firefoxpanda88
+photo.89.commitdate: 2020/12/6
 photo.89.link: https://www.instagram.com/firefoxpanda88/
 photo.89.tags: bamboo, bridge, portrait, whiskers
-photo.90: https://www.instagram.com/p/CIAoEvZhV-x/media/?size=m
+photo.90: ig://CIAoEvZhV-x/m
 photo.90.author: ssc6105
+photo.90.commitdate: 2020/12/6
 photo.90.link: https://www.instagram.com/ssc6105/
 photo.90.tags: paws, standing, tail
 species: 2

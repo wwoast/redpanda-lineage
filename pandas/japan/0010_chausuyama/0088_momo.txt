@@ -162,8 +162,9 @@ photo.30.author: rie_panda55
 photo.30.commitdate: 2020/11/15
 photo.30.link: https://www.instagram.com/rie_panda55/
 photo.30.tags: paws, portrait, tree, white face
-photo.31: https://www.instagram.com/p/CIKChb6hL2B/media/?size=m
+photo.31: ig://CIKChb6hL2B/m
 photo.31.author: grskus_tk
+photo.31.commitdate: 2020/12/6
 photo.31.link: https://www.instagram.com/grskus_tk/
 photo.31.tags: peek, tree
 species: 2

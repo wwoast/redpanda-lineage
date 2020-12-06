@@ -262,60 +262,61 @@ photo.50.author: ssc6105
 photo.50.commitdate: 2020/7/13
 photo.50.link: https://www.instagram.com/ssc6105/
 photo.50.tags: paws, smile
-photo.51: ig://CBC7xBkhVBJ/m
-photo.51.author: resapan.suki
-photo.51.commitdate: 2020/6/20
-photo.51.link: https://www.instagram.com/resapan.suki/
-photo.51.tags: close-up, mofumofu, portrait
-photo.52: ig://CCCoUXXBnLF/m
-photo.52.author: alto0908
-photo.52.commitdate: 2020/9/19
-photo.52.link: https://www.instagram.com/alto0908/
-photo.52.tags: portrait, smile
-photo.53: ig://CCDJjXQBiuY/m
-photo.53.author: resapan.suki
-photo.53.commitdate: 2020/7/1
-photo.53.link: https://www.instagram.com/resapan.suki/
-photo.53.tags: portrait, whiskers
-photo.54: ig://CCDdIwCBesi/m
-photo.54.author: chausuyamazoo
-photo.54.commitdate: 2020/9/19
-photo.54.link: https://www.instagram.com/chausuyamazoo/
-photo.54.tags: laying down, portrait
-photo.55: ig://CESoXPAhw7w/m
-photo.55.author: hamiiiii831_
+photo.51: ig://CA4gfzAhiph/m
+photo.51.author: shigeko0531
+photo.51.commitdate: 2020/12/6
+photo.51.link: https://www.instagram.com/shigeko0531/
+photo.51.tags: close-up, portrait, whiskers
+photo.52: ig://CBC7xBkhVBJ/m
+photo.52.author: resapan.suki
+photo.52.commitdate: 2020/6/20
+photo.52.link: https://www.instagram.com/resapan.suki/
+photo.52.tags: close-up, mofumofu, portrait
+photo.53: ig://CCCoUXXBnLF/m
+photo.53.author: alto0908
+photo.53.commitdate: 2020/9/19
+photo.53.link: https://www.instagram.com/alto0908/
+photo.53.tags: portrait, smile
+photo.54: ig://CCDJjXQBiuY/m
+photo.54.author: resapan.suki
+photo.54.commitdate: 2020/7/1
+photo.54.link: https://www.instagram.com/resapan.suki/
+photo.54.tags: portrait, whiskers
+photo.55: ig://CCDdIwCBesi/m
+photo.55.author: chausuyamazoo
 photo.55.commitdate: 2020/9/19
-photo.55.link: https://www.instagram.com/hamiiiii831_/
-photo.55.tags: portrait, smile, tongue
-photo.56: ig://CETVlhaBe_u/m
-photo.56.author: shigeko0531
-photo.56.commitdate: 2020/8/28
-photo.56.link: https://www.instagram.com/shigeko0531/
-photo.56.tags: paws, standing
-photo.57: ig://CEv-OrhBmNU/m
-photo.57.author: chausuyamazoo
-photo.57.commitdate: 2020/9/19
-photo.57.link: https://www.instagram.com/chausuyamazoo/
-photo.57.tags: mofumofu, portrait, whiskers
-photo.58: ig://CFN6LUaBd0Z/m
-photo.58.author: shigeko0531
-photo.58.commitdate: 2020/9/24
-photo.58.link: https://www.instagram.com/shigeko0531/
-photo.58.tags: close-up, smile, whiskers
-photo.59: ig://CG6IU3-BWtX/m
+photo.55.link: https://www.instagram.com/chausuyamazoo/
+photo.55.tags: laying down, portrait
+photo.56: ig://CESoXPAhw7w/m
+photo.56.author: hamiiiii831_
+photo.56.commitdate: 2020/9/19
+photo.56.link: https://www.instagram.com/hamiiiii831_/
+photo.56.tags: portrait, smile, tongue
+photo.57: ig://CETVlhaBe_u/m
+photo.57.author: shigeko0531
+photo.57.commitdate: 2020/8/28
+photo.57.link: https://www.instagram.com/shigeko0531/
+photo.57.tags: paws, standing
+photo.58: ig://CEv-OrhBmNU/m
+photo.58.author: chausuyamazoo
+photo.58.commitdate: 2020/9/19
+photo.58.link: https://www.instagram.com/chausuyamazoo/
+photo.58.tags: mofumofu, portrait, whiskers
+photo.59: ig://CFN6LUaBd0Z/m
 photo.59.author: shigeko0531
-photo.59.commitdate: 2020/11/8
+photo.59.commitdate: 2020/9/24
 photo.59.link: https://www.instagram.com/shigeko0531/
-photo.59.tags: close-up, portrait, tongue, whiskers
-photo.60: ig://CH7cXUShKaj/m
-photo.60.author: miis_98
-photo.60.commitdate: 2020/12/2
-photo.60.link: https://www.instagram.com/miis_98/
-photo.60.tags: peek, portrait, tail
-photo.61: https://www.instagram.com/p/CA4gfzAhiph/media/?size=m
-photo.61.author: shigeko0531
-photo.61.link: https://www.instagram.com/shigeko0531/
-photo.61.tags: close-up, portrait, whiskers
+photo.59.tags: close-up, smile, whiskers
+photo.60: ig://CG6IU3-BWtX/m
+photo.60.author: shigeko0531
+photo.60.commitdate: 2020/11/8
+photo.60.link: https://www.instagram.com/shigeko0531/
+photo.60.tags: close-up, portrait, tongue, whiskers
+photo.61: ig://CH7cXUShKaj/m
+photo.61.author: miis_98
+photo.61.commitdate: 2020/12/2
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: peek, portrait, tail
 species: 2
 studbook.id: 15155
 zoo: 10

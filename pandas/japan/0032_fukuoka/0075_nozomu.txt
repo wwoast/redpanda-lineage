@@ -770,8 +770,9 @@ photo.152.author: re_ichimaru
 photo.152.commitdate: 2020/11/21
 photo.152.link: https://www.instagram.com/re_ichimaru/
 photo.152.tags: paws, portrait
-photo.153: https://www.instagram.com/p/CIAB2DIhktU/media/?size=m
+photo.153: ig://CIAB2DIhktU/m
 photo.153.author: re_ichimaru
+photo.153.commitdate: 2020/12/6
 photo.153.link: https://www.instagram.com/re_ichimaru/
 photo.153.tags: laying down, portrait, sleeping
 species: 2
