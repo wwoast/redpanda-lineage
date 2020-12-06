@@ -251,56 +251,61 @@ photo.47.author: pink.b22
 photo.47.commitdate: 2020/7/10
 photo.47.link: https://www.instagram.com/pink.b22/
 photo.47.tags: bamboo, portrait, tongue
-photo.48: ig://CEjn6tqBhYM/m
-photo.48.author: redpan22
-photo.48.commitdate: 2020/9/4
-photo.48.link: https://www.instagram.com/redpan22/
-photo.48.tags: bamboo, close-up, lips, mofumofu
-photo.49: ig://CEzyBbfhS8k/m
-photo.49.author: ssc6105
-photo.49.commitdate: 2020/9/19
-photo.49.link: https://www.instagram.com/ssc6105/
-photo.49.tags: paws, smile, tongue, whiskers
-photo.50: ig://CE8yzpRBrSN/m
-photo.50.author: resapan.suki
+photo.48: ig://CD5tRVEhBfB/m
+photo.48.author: mini_cochi
+photo.48.commitdate: 2020/12/5
+photo.48.link: https://www.instagram.com/mini_cochi/
+photo.48.tags: paws, portrait, whiskers
+photo.49: ig://CEjn6tqBhYM/m
+photo.49.author: redpan22
+photo.49.commitdate: 2020/9/4
+photo.49.link: https://www.instagram.com/redpan22/
+photo.49.tags: bamboo, close-up, lips, mofumofu
+photo.50: ig://CEzyBbfhS8k/m
+photo.50.author: ssc6105
 photo.50.commitdate: 2020/9/19
-photo.50.link: https://www.instagram.com/resapan.suki/
-photo.50.tags: mofumofu, paws
-photo.51: ig://CFTmUBpBbd1/m
-photo.51.author: ssc6105
-photo.51.commitdate: 2020/9/24
-photo.51.link: https://www.instagram.com/ssc6105/
-photo.51.tags: grooming, mofumofu, paws
-photo.52: ig://CFUZInCBr_5/m
-photo.52.author: miis_98
+photo.50.link: https://www.instagram.com/ssc6105/
+photo.50.tags: paws, smile, tongue, whiskers
+photo.51: ig://CE8yzpRBrSN/m
+photo.51.author: resapan.suki
+photo.51.commitdate: 2020/9/19
+photo.51.link: https://www.instagram.com/resapan.suki/
+photo.51.tags: mofumofu, paws
+photo.52: ig://CFTmUBpBbd1/m
+photo.52.author: ssc6105
 photo.52.commitdate: 2020/9/24
-photo.52.link: https://www.instagram.com/miis_98/
-photo.52.tags: mofumofu, paws, portrait, tail
-photo.53: ig://CFoB9j4hUYK/m
-photo.53.author: tetusara.ki_
-photo.53.commitdate: 2020/11/19
-photo.53.link: https://www.instagram.com/tetusara.ki_/
-photo.53.tags: laying down, paws, portrait
-photo.54: ig://CGWbYE2BR-b/m
-photo.54.author: craig_craig_craig
-photo.54.commitdate: 2020/10/16
-photo.54.link: https://www.instagram.com/craig_craig_craig/
-photo.54.tags: apple time, paws, portrait, videolink
-photo.55: ig://CHRYJ0MB25E/m
-photo.55.author: tetusara.ki_
-photo.55.commitdate: 2020/11/15
-photo.55.link: https://www.instagram.com/tetusara.ki_/
-photo.55.tags: lips, portrait, smile, techitechi
-photo.56: ig://CHkLSkgh1Xx/m
-photo.56.author: pink.b22
-photo.56.commitdate: 2020/11/22
-photo.56.link: https://www.instagram.com/pink.b22/
-photo.56.tags: itchy, mofumofu, paws, portrait
-photo.57: ig://CHoOFBuB91Q/m
-photo.57.author: tetusara.ki_
-photo.57.commitdate: 2020/11/29
-photo.57.link: https://www.instagram.com/tetusara.ki_/
-photo.57.tags: apple time, lips, portrait, slobber
+photo.52.link: https://www.instagram.com/ssc6105/
+photo.52.tags: grooming, mofumofu, paws
+photo.53: ig://CFUZInCBr_5/m
+photo.53.author: miis_98
+photo.53.commitdate: 2020/9/24
+photo.53.link: https://www.instagram.com/miis_98/
+photo.53.tags: mofumofu, paws, portrait, tail
+photo.54: ig://CFoB9j4hUYK/m
+photo.54.author: tetusara.ki_
+photo.54.commitdate: 2020/11/19
+photo.54.link: https://www.instagram.com/tetusara.ki_/
+photo.54.tags: laying down, paws, portrait
+photo.55: ig://CGWbYE2BR-b/m
+photo.55.author: craig_craig_craig
+photo.55.commitdate: 2020/10/16
+photo.55.link: https://www.instagram.com/craig_craig_craig/
+photo.55.tags: apple time, paws, portrait, videolink
+photo.56: ig://CHRYJ0MB25E/m
+photo.56.author: tetusara.ki_
+photo.56.commitdate: 2020/11/15
+photo.56.link: https://www.instagram.com/tetusara.ki_/
+photo.56.tags: lips, portrait, smile, techitechi
+photo.57: ig://CHkLSkgh1Xx/m
+photo.57.author: pink.b22
+photo.57.commitdate: 2020/11/22
+photo.57.link: https://www.instagram.com/pink.b22/
+photo.57.tags: itchy, mofumofu, paws, portrait
+photo.58: ig://CHoOFBuB91Q/m
+photo.58.author: tetusara.ki_
+photo.58.commitdate: 2020/11/29
+photo.58.link: https://www.instagram.com/tetusara.ki_/
+photo.58.tags: apple time, lips, portrait, slobber
 species: 2
 studbook.id: 12102
 zoo: 143

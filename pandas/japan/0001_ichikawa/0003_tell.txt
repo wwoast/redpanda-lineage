@@ -397,46 +397,51 @@ photo.77.author: ck.chie
 photo.77.commitdate: 2020/7/25
 photo.77.link: https://www.instagram.com/ck.chie/
 photo.77.tags: mofumofu, portrait, whiskers
-photo.78: ig://CDOn8AvBIDk/m
-photo.78.author: ifumoto88
-photo.78.commitdate: 2020/7/31
-photo.78.link: https://www.instagram.com/ifumoto88/
-photo.78.tags: laying down, paws
-photo.79: ig://CDizdQLh7RH/m
-photo.79.author: pink.b22
-photo.79.commitdate: 2020/11/23
-photo.79.link: https://www.instagram.com/pink.b22/
-photo.79.tags: laying down, paws, tongue, white face
-photo.80: ig://CETA3inhoZo/m
-photo.80.author: ifumoto88
-photo.80.commitdate: 2020/11/7
-photo.80.link: https://www.instagram.com/ifumoto88/
-photo.80.tags: mofumofu, whiskers
-photo.81: ig://CEge7hPhYib/m
-photo.81.author: pink.b22
-photo.81.commitdate: 2020/9/4
-photo.81.link: https://www.instagram.com/pink.b22/
-photo.81.tags: close-up, smile
-photo.82: ig://CFar-eMhHDP/m
-photo.82.author: _rifa_p
-photo.82.commitdate: 2020/9/21
-photo.82.link: https://www.instagram.com/_rifa_p/
-photo.82.tags: laying down, mofumofu, paws, portrait
-photo.83: ig://CGzT4ExB7dE/m
-photo.83.author: pink.b22
-photo.83.commitdate: 2020/11/1
-photo.83.link: https://www.instagram.com/pink.b22/
-photo.83.tags: apple time, close-up, keeper, smile
-photo.84: ig://CHFrL99hRDU/m
+photo.78: ig://CDOJ4AdhXRq/m
+photo.78.author: pink.b22
+photo.78.commitdate: 2020/12/5
+photo.78.link: https://www.instagram.com/pink.b22/
+photo.78.tags: door, paws, smile
+photo.79: ig://CDOn8AvBIDk/m
+photo.79.author: ifumoto88
+photo.79.commitdate: 2020/7/31
+photo.79.link: https://www.instagram.com/ifumoto88/
+photo.79.tags: laying down, paws
+photo.80: ig://CDizdQLh7RH/m
+photo.80.author: pink.b22
+photo.80.commitdate: 2020/11/23
+photo.80.link: https://www.instagram.com/pink.b22/
+photo.80.tags: laying down, paws, tongue, white face
+photo.81: ig://CETA3inhoZo/m
+photo.81.author: ifumoto88
+photo.81.commitdate: 2020/11/7
+photo.81.link: https://www.instagram.com/ifumoto88/
+photo.81.tags: mofumofu, whiskers
+photo.82: ig://CEge7hPhYib/m
+photo.82.author: pink.b22
+photo.82.commitdate: 2020/9/4
+photo.82.link: https://www.instagram.com/pink.b22/
+photo.82.tags: close-up, smile
+photo.83: ig://CFar-eMhHDP/m
+photo.83.author: _rifa_p
+photo.83.commitdate: 2020/9/21
+photo.83.link: https://www.instagram.com/_rifa_p/
+photo.83.tags: laying down, mofumofu, paws, portrait
+photo.84: ig://CGzT4ExB7dE/m
 photo.84.author: pink.b22
-photo.84.commitdate: 2020/11/7
+photo.84.commitdate: 2020/11/1
 photo.84.link: https://www.instagram.com/pink.b22/
-photo.84.tags: laying down, paws, white face
-photo.85: ig://CIIiahhhn0J/m
-photo.85.author: ifumoto88
-photo.85.commitdate: 2020/12/3
-photo.85.link: https://www.instagram.com/ifumoto88/
-photo.85.tags: close-up, paws, peek
+photo.84.tags: apple time, close-up, keeper, smile
+photo.85: ig://CHFrL99hRDU/m
+photo.85.author: pink.b22
+photo.85.commitdate: 2020/11/7
+photo.85.link: https://www.instagram.com/pink.b22/
+photo.85.tags: laying down, paws, white face
+photo.86: ig://CIIiahhhn0J/m
+photo.86.author: ifumoto88
+photo.86.commitdate: 2020/12/3
+photo.86.link: https://www.instagram.com/ifumoto88/
+photo.86.tags: close-up, paws, peek
 species: 2
 studbook.id: 10112
 zoo: 1

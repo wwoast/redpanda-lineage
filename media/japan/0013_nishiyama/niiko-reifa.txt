@@ -114,17 +114,24 @@ photo.16.link: https://www.instagram.com/jas_forever_love/
 photo.16.tags: siblings, sisters, twins
 photo.16.tags.955.location: 105, 160
 photo.16.tags.956.location: 245, 180
-photo.17: ig://CHFmwINhuwp/l
-photo.17.author: redpanda_nippon_takashi
-photo.17.commitdate: 2020/11/7
-photo.17.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.17.tags: playing, siblings, sisters, standing, twins
-photo.17.tags.955.location: 155, 355
-photo.17.tags.956.location: 375, 180
-photo.18: ig://CHKoKUyhZ3z/l
-photo.18.author: i.satosato
+photo.17: ig://CEL18ODBcJ9/m
+photo.17.author: kisshan324
+photo.17.commitdate: 2020/12/5
+photo.17.link: https://www.instagram.com/kisshan324/
+photo.17.tags: mofumofu, paws, playing, portrait, siblings, sisters, tail, twins
+photo.17.tags.955.location: 235, 115
+photo.17.tags.956.location: 255, 220
+photo.18: ig://CHFmwINhuwp/l
+photo.18.author: redpanda_nippon_takashi
 photo.18.commitdate: 2020/11/7
-photo.18.link: https://www.instagram.com/i.satosato/
-photo.18.tags: paws, portrait, siblings, sisters, standing, twins, white face
-photo.18.tags.955.location: 165, 235
-photo.18.tags.956.location: 255, 105
+photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.18.tags: playing, siblings, sisters, standing, twins
+photo.18.tags.955.location: 155, 355
+photo.18.tags.956.location: 375, 180
+photo.19: ig://CHKoKUyhZ3z/l
+photo.19.author: i.satosato
+photo.19.commitdate: 2020/11/7
+photo.19.link: https://www.instagram.com/i.satosato/
+photo.19.tags: paws, portrait, siblings, sisters, standing, twins, white face
+photo.19.tags.955.location: 165, 235
+photo.19.tags.956.location: 255, 105
