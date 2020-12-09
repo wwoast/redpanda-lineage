@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: レイ
 language.order: jp, en
 litter: 947
+location.1: 63, 2019/7/1
+location.2: 264, 2020/12/7
 photo.1: ig://B3rVeA_h3wc/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2019/10/17
@@ -129,4 +131,4 @@ photo.23.commitdate: 2020/11/20
 photo.23.link: https://www.instagram.com/mikaamihara/
 photo.23.tags: air tasting, portrait, tongue
 species: 2
-zoo: 63
+zoo: 264

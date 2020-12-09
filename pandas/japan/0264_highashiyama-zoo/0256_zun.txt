@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 17, 2018/7/13
+location.2: 264, 2020/12/8
 photo.1: ig://Bp6f3PwlSc9/m
 photo.1.author: kotata_513
 photo.1.commitdate: 2018/11/8
@@ -683,4 +685,4 @@ photo.135.link: https://www.instagram.com/mini_cochi/
 photo.135.tags: peek, tongue
 species: 2
 studbook.id: unknown
-zoo: 17
+zoo: 264
