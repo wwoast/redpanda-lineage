@@ -41,6 +41,10 @@ photo.5.author: zooatl
 photo.5.commitdate: 2020/11/21
 photo.5.link: https://www.instagram.com/zooatl/
 photo.5.tags: portrait, whiskers
+photo.6: https://www.instagram.com/p/CIO7cixlJug/media/?size=m
+photo.6.author: zooatl
+photo.6.link: https://www.instagram.com/zooatl/
+photo.6.tags: close-up, laying down, whiskers
 species: 1
 uncertainty: location.3 date
 zoo: 85
