@@ -130,13 +130,15 @@ photo.23.author: mikaamihara
 photo.23.commitdate: 2020/11/20
 photo.23.link: https://www.instagram.com/mikaamihara/
 photo.23.tags: air tasting, portrait, tongue
-photo.24: https://www.instagram.com/p/CINyt9-BVWw/media/?size=m
-photo.24.author: merumeru119
-photo.24.link: https://www.instagram.com/merumeru119/
-photo.24.tags: home, paws, portrait
-photo.25: https://www.instagram.com/p/CH9EI7phLdO/media/?size=m
-photo.25.author: grskus_tk
-photo.25.link: https://www.instagram.com/grskus_tk/
-photo.25.tags: bamboo, smile, tail
+photo.24: ig://CH9EI7phLdO/m
+photo.24.author: grskus_tk
+photo.24.commitdate: 2020/12/8
+photo.24.link: https://www.instagram.com/grskus_tk/
+photo.24.tags: bamboo, smile, tail
+photo.25: ig://CINyt9-BVWw/m
+photo.25.author: merumeru119
+photo.25.commitdate: 2020/12/8
+photo.25.link: https://www.instagram.com/merumeru119/
+photo.25.tags: home, paws, portrait
 species: 2
 zoo: 264

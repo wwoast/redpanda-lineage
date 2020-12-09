@@ -150,25 +150,26 @@ photo.27.author: run.swim.shingo
 photo.27.commitdate: 2020/9/3
 photo.27.link: https://www.instagram.com/run.swim.shingo/
 photo.27.tags: smile, tongue, whiskers
-photo.28: ig://CG3WyUGhA3M/m
-photo.28.author: miis_98
-photo.28.commitdate: 2020/10/27
-photo.28.link: https://www.instagram.com/miis_98/
-photo.28.tags: dish, peek, tail
-photo.29: ig://CG7QS4JBJQd/m
+photo.28: ig://CGgH5lqBE0D/m
+photo.28.author: craig_craig_craig
+photo.28.commitdate: 2020/12/8
+photo.28.link: https://www.instagram.com/craig_craig_craig/
+photo.28.tags: portrait, tree, videolink
+photo.29: ig://CG3WyUGhA3M/m
 photo.29.author: miis_98
-photo.29.commitdate: 2020/11/1
+photo.29.commitdate: 2020/10/27
 photo.29.link: https://www.instagram.com/miis_98/
-photo.29.tags: bamboo, portrait, smile, standing, tongue
-photo.30: ig://CHK9EvXhpOy/m
-photo.30.author: craig_craig_craig
-photo.30.commitdate: 2020/11/5
-photo.30.link: https://www.instagram.com/craig_craig_craig/
-photo.30.tags: portrait, smile, tree, whiskers
-photo.31: https://www.instagram.com/p/CGgH5lqBE0D/media/?size=m
+photo.29.tags: dish, peek, tail
+photo.30: ig://CG7QS4JBJQd/m
+photo.30.author: miis_98
+photo.30.commitdate: 2020/11/1
+photo.30.link: https://www.instagram.com/miis_98/
+photo.30.tags: bamboo, portrait, smile, standing, tongue
+photo.31: ig://CHK9EvXhpOy/m
 photo.31.author: craig_craig_craig
+photo.31.commitdate: 2020/11/5
 photo.31.link: https://www.instagram.com/craig_craig_craig/
-photo.31.tags: portrait, tree, videolink
+photo.31.tags: portrait, smile, tree, whiskers
 species: 2
 studbook.id: 12119
 zoo: 23

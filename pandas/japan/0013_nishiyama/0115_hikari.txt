@@ -279,20 +279,21 @@ photo.54.author: hamamatsu.chiita
 photo.54.commitdate: 2020/11/29
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: paws, portrait
-photo.55: ig://CIQs7njBYjE/m
-photo.55.author: craig_craig_craig
-photo.55.commitdate: 2020/12/3
-photo.55.link: https://www.instagram.com/craig_craig_craig/
-photo.55.tags: portrait, videolink, whiskers
-photo.56: ig://CIS4WVphZyb/m
+photo.55: ig://CIHHhjtBKhU/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2020/12/8
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: apple time, close-up, paws, portrait, whiskers
+photo.56: ig://CIQs7njBYjE/m
 photo.56.author: craig_craig_craig
 photo.56.commitdate: 2020/12/3
 photo.56.link: https://www.instagram.com/craig_craig_craig/
-photo.56.tags: keeper, paws, portrait, standing, tail, videolink
-photo.57: https://www.instagram.com/p/CIHHhjtBKhU/media/?size=m
-photo.57.author: hamamatsu.chiita
-photo.57.link: https://www.instagram.com/hamamatsu.chiita/
-photo.57.tags: apple time, close-up, paws, portrait, whiskers
+photo.56.tags: portrait, videolink, whiskers
+photo.57: ig://CIS4WVphZyb/m
+photo.57.author: craig_craig_craig
+photo.57.commitdate: 2020/12/3
+photo.57.link: https://www.instagram.com/craig_craig_craig/
+photo.57.tags: keeper, paws, portrait, standing, tail, videolink
 species: 2
 studbook.id: 13168
 zoo: 13

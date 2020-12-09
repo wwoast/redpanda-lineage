@@ -149,8 +149,9 @@ photo.27.author: kisshan324
 photo.27.commitdate: 2020/9/24
 photo.27.link: https://www.instagram.com/kisshan324/
 photo.27.tags: portrait
-photo.28: https://www.instagram.com/p/CHpjABNBd2m/media/?size=m
+photo.28: ig://CHpjABNBd2m/m
 photo.28.author: daniele.tokyo
+photo.28.commitdate: 2020/12/8
 photo.28.link: https://www.instagram.com/daniele.tokyo/
 photo.28.tags: paws, whiskers
 species: 2

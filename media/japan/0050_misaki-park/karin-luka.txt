@@ -177,8 +177,9 @@ photo.25.link: https://www.instagram.com/eos1089/
 photo.25.tags: mother's day
 photo.25.tags.69.location: 375, 235
 photo.25.tags.194.location: 155, 225
-photo.26: https://www.instagram.com/p/CHQdNBphw7L/media/?size=l
+photo.26: ig://CHQdNBphw7L/l
 photo.26.author: eos1089
+photo.26.commitdate: 2020/12/8
 photo.26.link: https://www.instagram.com/eos1089/
 photo.26.tags: mother's day, paws, playing
 photo.26.tags.69.location: 465, 385

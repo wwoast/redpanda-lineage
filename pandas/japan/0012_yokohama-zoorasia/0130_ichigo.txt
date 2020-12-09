@@ -415,14 +415,15 @@ photo.80.author: minatomirai215
 photo.80.commitdate: 2020/12/3
 photo.80.link: https://www.instagram.com/minatomirai215/
 photo.80.tags: apple time, bamboo, paws, portrait, smile
-photo.81: ig://CITD4vDBhOn/m
-photo.81.author: minatomirai215
-photo.81.commitdate: 2020/12/3
-photo.81.link: https://www.instagram.com/minatomirai215/
-photo.81.tags: dish, portrait
-photo.82: https://www.instagram.com/p/CINx07zhOy5/media/?size=m
-photo.82.author: rie_panda55
-photo.82.tags: keeper, paws, portrait, standing, tail
+photo.81: ig://CINx07zhOy5/m
+photo.81.author: rie_panda55
+photo.81.commitdate: 2020/12/8
+photo.81.tags: keeper, paws, portrait, standing, tail
+photo.82: ig://CITD4vDBhOn/m
+photo.82.author: minatomirai215
+photo.82.commitdate: 2020/12/3
+photo.82.link: https://www.instagram.com/minatomirai215/
+photo.82.tags: dish, portrait
 species: 2
 studbook.id: 12117
 zoo: 12

@@ -262,14 +262,16 @@ photo.50.author: love__mitarashi
 photo.50.commitdate: 2020/11/7
 photo.50.link: https://www.instagram.com/love__mitarashi/
 photo.50.tags: portrait, tail, tongue
-photo.51: https://www.instagram.com/p/CIQLBddBFGo/media/?size=m
-photo.51.author: jas_forever_love
-photo.51.link: https://www.instagram.com/jas_forever_love/
-photo.51.tags: mofumofu, smile, whiskers
-photo.52: https://www.instagram.com/p/CHsSHlpBlRo/media/?size=m
-photo.52.author: love__mitarashi
-photo.52.link: https://www.instagram.com/love__mitarashi/
-photo.52.tags: door, paws, peek
+photo.51: ig://CHsSHlpBlRo/m
+photo.51.author: love__mitarashi
+photo.51.commitdate: 2020/12/8
+photo.51.link: https://www.instagram.com/love__mitarashi/
+photo.51.tags: door, paws, peek
+photo.52: ig://CIQLBddBFGo/m
+photo.52.author: jas_forever_love
+photo.52.commitdate: 2020/12/8
+photo.52.link: https://www.instagram.com/jas_forever_love/
+photo.52.tags: mofumofu, smile, whiskers
 species: 2
 studbook.id: 1679
 zoo: 61

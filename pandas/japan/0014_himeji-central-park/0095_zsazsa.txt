@@ -254,8 +254,9 @@ photo.48.author: love__mitarashi
 photo.48.commitdate: 2020/9/19
 photo.48.link: https://www.instagram.com/love__mitarashi/
 photo.48.tags: smile
-photo.49: https://www.instagram.com/p/CHsDThyBbah/media/?size=m
+photo.49: ig://CHsDThyBbah/m
 photo.49.author: colette.jp
+photo.49.commitdate: 2020/12/8
 photo.49.link: https://www.instagram.com/colette.jp/
 photo.49.tags: paws, portrait, standing, tail
 species: 2

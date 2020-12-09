@@ -829,12 +829,14 @@ photo.164.author: hamamatsu.chiita
 photo.164.commitdate: 2020/11/22
 photo.164.link: https://www.instagram.com/hamamatsu.chiita/
 photo.164.tags: apple time, close-up, portrait, window
-photo.165: https://www.instagram.com/p/CH2kBAZhWXw/media/?size=m
+photo.165: ig://CH2kBAZhWXw/m
 photo.165.author: hamamatsu.chiita
+photo.165.commitdate: 2020/12/8
 photo.165.link: https://www.instagram.com/hamamatsu.chiita/
 photo.165.tags: smile, whiskers
-photo.166: https://www.instagram.com/p/CIEh92UB2ua/media/?size=m
+photo.166: ig://CIEh92UB2ua/m
 photo.166.author: hamamatsu.chiita
+photo.166.commitdate: 2020/12/8
 photo.166.link: https://www.instagram.com/hamamatsu.chiita/
 photo.166.tags: portrait, whiskers
 species: 2
