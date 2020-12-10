@@ -377,16 +377,16 @@ photo.73.author: ssc6105
 photo.73.commitdate: 2020/10/16
 photo.73.link: https://www.instagram.com/ssc6105/
 photo.73.tags: bridge, laying down, peek, tail
-photo.74: https://www.instagram.com/p/CHshsaIBn0N/media/?size=m
-photo.74.author: panda.daisuki
+photo.74: ig://CHoFPLZBsou/m
+photo.74.author: kipekaila
 photo.74.commitdate: 2020/12/9
-photo.74.link: https://www.instagram.com/panda.daisuki/
-photo.74.tags: close-up, portrait, whiskers
-photo.75: https://www.instagram.com/p/CHoFPLZBsou/media/?size=m
-photo.75.author: kipekaila
+photo.74.link: https://www.instagram.com/kipekaila/
+photo.74.tags: laying down, tail
+photo.75: ig://CHshsaIBn0N/m
+photo.75.author: panda.daisuki
 photo.75.commitdate: 2020/12/9
-photo.75.link: https://www.instagram.com/kipekaila/
-photo.75.tags: laying down, tail
+photo.75.link: https://www.instagram.com/panda.daisuki/
+photo.75.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

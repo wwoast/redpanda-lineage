@@ -269,46 +269,41 @@ photo.52.author: chankunvv
 photo.52.commitdate: 2020/10/29
 photo.52.link: https://www.instagram.com/chankunvv/
 photo.52.tags: paws, portrait
-photo.53: ig://CHucZRkhvaC/m
-photo.53.author: minato.yokohama2130
-photo.53.commitdate: 2020/11/22
-photo.53.link: https://www.instagram.com/minato.yokohama2130/
-photo.53.tags: portrait, tree
-photo.54: ig://CH8m0RPhGe9/m
+photo.53: ig://CHXjG91hdp8/m
+photo.53.author: hamamatsu.chiita
+photo.53.commitdate: 2020/12/9
+photo.53.link: https://www.instagram.com/hamamatsu.chiita/
+photo.53.tags: paws, portrait
+photo.54: ig://CHoARBuhVAE/m
 photo.54.author: hamamatsu.chiita
-photo.54.commitdate: 2020/11/29
+photo.54.commitdate: 2020/12/9
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
-photo.54.tags: paws, portrait
-photo.55: ig://CIHHhjtBKhU/m
-photo.55.author: hamamatsu.chiita
-photo.55.commitdate: 2020/12/8
-photo.55.link: https://www.instagram.com/hamamatsu.chiita/
-photo.55.tags: apple time, close-up, paws, portrait, whiskers
-photo.56: ig://CIQs7njBYjE/m
-photo.56.author: craig_craig_craig
-photo.56.commitdate: 2020/12/3
-photo.56.link: https://www.instagram.com/craig_craig_craig/
-photo.56.tags: portrait, videolink, whiskers
-photo.57: ig://CIS4WVphZyb/m
-photo.57.author: craig_craig_craig
-photo.57.commitdate: 2020/12/3
-photo.57.link: https://www.instagram.com/craig_craig_craig/
-photo.57.tags: keeper, paws, portrait, standing, tail, videolink
-photo.58: https://www.instagram.com/p/BoT7wz9loLH/media/?size=m
-photo.58.author: mugicha0312
-photo.58.commitdate: 2020/12/9
-photo.58.link: https://www.instagram.com/mugicha0312/
-photo.58.tags: portrait, videolink
-photo.59: https://www.instagram.com/p/CHoARBuhVAE/media/?size=m
-photo.59.author: hamamatsu.chiita
-photo.59.commitdate: 2020/12/9
-photo.59.link: https://www.instagram.com/hamamatsu.chiita/
-photo.59.tags: close-up, whiskers
-photo.60: https://www.instagram.com/p/CHXjG91hdp8/media/?size=m
-photo.60.author: hamamatsu.chiita
-photo.60.commitdate: 2020/12/9
-photo.60.link: https://www.instagram.com/hamamatsu.chiita/
-photo.60.tags: paws, portrait
+photo.54.tags: close-up, whiskers
+photo.55: ig://CHucZRkhvaC/m
+photo.55.author: minato.yokohama2130
+photo.55.commitdate: 2020/11/22
+photo.55.link: https://www.instagram.com/minato.yokohama2130/
+photo.55.tags: portrait, tree
+photo.56: ig://CH8m0RPhGe9/m
+photo.56.author: hamamatsu.chiita
+photo.56.commitdate: 2020/11/29
+photo.56.link: https://www.instagram.com/hamamatsu.chiita/
+photo.56.tags: paws, portrait
+photo.57: ig://CIHHhjtBKhU/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2020/12/8
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
+photo.57.tags: apple time, close-up, paws, portrait, whiskers
+photo.58: ig://CIQs7njBYjE/m
+photo.58.author: craig_craig_craig
+photo.58.commitdate: 2020/12/3
+photo.58.link: https://www.instagram.com/craig_craig_craig/
+photo.58.tags: portrait, videolink, whiskers
+photo.59: ig://CIS4WVphZyb/m
+photo.59.author: craig_craig_craig
+photo.59.commitdate: 2020/12/3
+photo.59.link: https://www.instagram.com/craig_craig_craig/
+photo.59.tags: keeper, paws, portrait, standing, tail, videolink
 species: 2
 studbook.id: 13168
 zoo: 13
