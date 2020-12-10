@@ -1146,45 +1146,46 @@ photo.227.author: kaoru_a358
 photo.227.commitdate: 2020/8/28
 photo.227.link: https://www.instagram.com/kaoru_a358/
 photo.227.tags: portrait, smile, whiskers
-photo.228: ig://CEsambIBWw2/m
-photo.228.author: mari_neko3
-photo.228.commitdate: 2020/11/10
-photo.228.link: https://www.instagram.com/mari_neko3/
-photo.228.tags: bamboo, mofumofu, portrait
-photo.229: ig://CFToERNBwif/m
-photo.229.author: redpanda_tata
-photo.229.commitdate: 2020/9/24
-photo.229.link: https://www.instagram.com/redpanda_tata/
-photo.229.tags: bamboo, paws, standing, tail
-photo.230: ig://CFYUnIpBAhn/m
-photo.230.author: shigeko0531
+photo.228: ig://CEWbhHch3r1/m
+photo.228.author: ssc6105
+photo.228.commitdate: 2020/12/9
+photo.228.link: https://www.instagram.com/ssc6105/
+photo.228.tags: laying down, whiskers
+photo.229: ig://CEsambIBWw2/m
+photo.229.author: mari_neko3
+photo.229.commitdate: 2020/11/10
+photo.229.link: https://www.instagram.com/mari_neko3/
+photo.229.tags: bamboo, mofumofu, portrait
+photo.230: ig://CFToERNBwif/m
+photo.230.author: redpanda_tata
 photo.230.commitdate: 2020/9/24
-photo.230.link: https://www.instagram.com/shigeko0531/
-photo.230.tags: itchy, portrait, techitechi
-photo.231: ig://CGXu_WCBnPt/m
-photo.231.author: eos1089
-photo.231.commitdate: 2020/10/29
-photo.231.link: https://www.instagram.com/eos1089/
-photo.231.tags: bamboo, paws, standing, tail
-photo.232: ig://CHmgyalBQTA/m
-photo.232.author: rie_panda55
-photo.232.commitdate: 2020/11/22
-photo.232.link: https://www.instagram.com/rie_panda55/
-photo.232.tags: bamboo, portrait, tail
-photo.233: ig://CHmrK5ahhDe/m
-photo.233.author: redpanda_tata
+photo.230.link: https://www.instagram.com/redpanda_tata/
+photo.230.tags: bamboo, paws, standing, tail
+photo.231: ig://CFYUnIpBAhn/m
+photo.231.author: shigeko0531
+photo.231.commitdate: 2020/9/24
+photo.231.link: https://www.instagram.com/shigeko0531/
+photo.231.tags: itchy, portrait, techitechi
+photo.232: ig://CGXu_WCBnPt/m
+photo.232.author: eos1089
+photo.232.commitdate: 2020/10/29
+photo.232.link: https://www.instagram.com/eos1089/
+photo.232.tags: bamboo, paws, standing, tail
+photo.233: ig://CHmgyalBQTA/m
+photo.233.author: rie_panda55
 photo.233.commitdate: 2020/11/22
-photo.233.link: https://www.instagram.com/redpanda_tata/
-photo.233.tags: portrait
-photo.234: ig://CH2u88PhMFu/m
-photo.234.author: yakko____
-photo.234.commitdate: 2020/11/28
-photo.234.link: https://www.instagram.com/yakko____/
-photo.234.tags: portrait, smile, whiskers
-photo.235: https://www.instagram.com/p/CEWbhHch3r1/media/?size=m
-photo.235.author: ssc6105
-photo.235.link: https://www.instagram.com/ssc6105/
-photo.235.tags: laying down, whiskers
+photo.233.link: https://www.instagram.com/rie_panda55/
+photo.233.tags: bamboo, portrait, tail
+photo.234: ig://CHmrK5ahhDe/m
+photo.234.author: redpanda_tata
+photo.234.commitdate: 2020/11/22
+photo.234.link: https://www.instagram.com/redpanda_tata/
+photo.234.tags: portrait
+photo.235: ig://CH2u88PhMFu/m
+photo.235.author: yakko____
+photo.235.commitdate: 2020/11/28
+photo.235.link: https://www.instagram.com/yakko____/
+photo.235.tags: portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10

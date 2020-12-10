@@ -1647,20 +1647,21 @@ photo.327.author: eos1089
 photo.327.commitdate: 2020/9/7
 photo.327.link: https://www.instagram.com/eos1089/
 photo.327.tags: laying down, paws, portrait, tree
-photo.328: ig://CF0eMf7BLTe/m
-photo.328.author: _rifa_p
-photo.328.commitdate: 2020/10/1
-photo.328.link: https://www.instagram.com/_rifa_p/
-photo.328.tags: climb, paws, portrait, tail, tree
-photo.329: ig://CHhU8-oBKeo/m
-photo.329.author: alto0908
-photo.329.commitdate: 2020/11/21
-photo.329.link: https://www.instagram.com/alto0908/
-photo.329.tags: paws, portrait, smile, whiskers
-photo.330: https://www.instagram.com/p/CFON5KJBRgO/media/?size=m
-photo.330.author: kaoru_a358
-photo.330.link: https://www.instagram.com/kaoru_a358/
-photo.330.tags: autumn, paws, portrait, tree
+photo.328: ig://CFON5KJBRgO/m
+photo.328.author: kaoru_a358
+photo.328.commitdate: 2020/12/9
+photo.328.link: https://www.instagram.com/kaoru_a358/
+photo.328.tags: autumn, paws, portrait, tree
+photo.329: ig://CF0eMf7BLTe/m
+photo.329.author: _rifa_p
+photo.329.commitdate: 2020/10/1
+photo.329.link: https://www.instagram.com/_rifa_p/
+photo.329.tags: climb, paws, portrait, tail, tree
+photo.330: ig://CHhU8-oBKeo/m
+photo.330.author: alto0908
+photo.330.commitdate: 2020/11/21
+photo.330.link: https://www.instagram.com/alto0908/
+photo.330.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17
