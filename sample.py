@@ -95,10 +95,7 @@ def fetch_sample_photos(folder, desired_photos, species):
         output_photo_index = photo.photo_index
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
-        # TODO: handle size
-        print(output_image)
-        wget.download(photo.photo_uri, output_image)
-        print("\n")
+        fetch_photo(photo.photo_uri, output_image)
         random_sleep()
 
 def write_sample_summary(folder, desired_photos):
@@ -174,7 +171,7 @@ if __name__ == '__main__':
     else:
         print("Sample for your arguments contains %s photos. Fetching..." % photo_count)
     # Unique directory name (with current unixtime)
-    folder = "sample_" + str(current_time_to_unixtime())
+    folder = "export/sample_" + str(current_time_to_unixtime())
     os.makedirs(folder)
     # Start fetching photos
     fetch_sample_photos(folder, photos, species)

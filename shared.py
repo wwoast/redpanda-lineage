@@ -47,7 +47,7 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
-def fetch_photo(url):
+def fetch_photo(url, output_file=None):
     """
     For testing/validating photo dimensions and properties, grab a photo using
     either the direct URI, or for IG uris, using their oEmbed API.
@@ -56,7 +56,6 @@ def fetch_photo(url):
     """
     ig_url = update_ig_link(url)
     target_img = url
-    output_file = os.path.basename(urlparse(url).path)
     # Assume target_img is the original url unless IG
     if "ig://" in ig_url:
         shortcode = ig_url.split("/")[2]
@@ -80,9 +79,12 @@ def fetch_photo(url):
         json = response.json()
         target_img = json["thumbnail_url"]
         author_name = json["author_name"]
-        output_file = shortcode + ".jpg"
+        if (output_file == None):
+            output_file = shortcode + ".jpg"
         print("(ig_credit: " + author_name + "): " + target_img)
     else:
+        if (output_file == None):
+            output_file = os.path.basename(urlparse(url).path)
         print("(web): " + target_img)
     img = requests.get(target_img, allow_redirects=True)
     with open(output_file, "wb") as ofh:
