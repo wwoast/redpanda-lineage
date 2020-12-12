@@ -319,15 +319,16 @@ photo.61.author: firefoxpanda88
 photo.61.commitdate: 2020/11/29
 photo.61.link: https://www.instagram.com/firefoxpanda88/
 photo.61.tags: bridge, tail
-photo.62: ig://CIJl_G-BbHE/m
-photo.62.author: kipekaila
-photo.62.commitdate: 2020/12/3
-photo.62.link: https://www.instagram.com/kipekaila/
-photo.62.tags: portrait, smile
-photo.63: https://www.instagram.com/p/CH9kQVAhUzw/media/?size=m
-photo.63.author: s.okano521
-photo.63.link: https://www.instagram.com/s.okano521/
-photo.63.tags: bamboo, paws
+photo.62: ig://CH9kQVAhUzw/m
+photo.62.author: s.okano521
+photo.62.commitdate: 2020/12/12
+photo.62.link: https://www.instagram.com/s.okano521/
+photo.62.tags: bamboo, paws
+photo.63: ig://CIJl_G-BbHE/m
+photo.63.author: kipekaila
+photo.63.commitdate: 2020/12/3
+photo.63.link: https://www.instagram.com/kipekaila/
+photo.63.tags: portrait, smile
 species: 2
 studbook.id: 1191
 zoo: 45

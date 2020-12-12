@@ -332,36 +332,41 @@ photo.64.author: shigeko0531
 photo.64.commitdate: 2020/9/19
 photo.64.link: https://www.instagram.com/shigeko0531/
 photo.64.tags: home, tree, white face
-photo.65: ig://CHgoEyfBaQG/m
-photo.65.author: rie_panda55
-photo.65.commitdate: 2020/11/21
-photo.65.link: https://www.instagram.com/rie_panda55/
-photo.65.tags: bamboo, portrait, smile, tail
-photo.66: ig://CHkjgyohpG5/m
-photo.66.author: shigeko0531
-photo.66.commitdate: 2020/11/18
-photo.66.link: https://www.instagram.com/shigeko0531/
-photo.66.tags: peek, portrait
-photo.67: https://www.instagram.com/p/CIDLo0ahiIs/media/?size=m
-photo.67.author: miis_98
-photo.67.link: https://www.instagram.com/miis_98/
-photo.67.tags: portrait, tree, upside-down
-photo.68: https://www.instagram.com/p/CH7YU4rBz8R/media/?size=m
-photo.68.author: yakkooo24
-photo.68.link: https://www.instagram.com/yakkooo24/
-photo.68.tags: apple time, dish, mofumofu, portrait, smile, whiskers
-photo.69: https://www.instagram.com/p/CGcPNi4hXGa/media/?size=m
-photo.69.author: _saaaaaaah_
-photo.69.link: https://www.instagram.com/_saaaaaaah_/
-photo.69.tags: home, peek
-photo.70: https://www.instagram.com/p/CF45cdBBMPa/media/?size=m
-photo.70.author: hamiiiii831_
-photo.70.link: https://www.instagram.com/hamiiiii831_/
-photo.70.tags: home, white face
-photo.71: https://www.instagram.com/p/CFmBckgBESH/media/?size=m
-photo.71.author: resapan.suki
-photo.71.link: https://www.instagram.com/resapan.suki/
-photo.71.tags: mofumofu, portrait, white face
+photo.65: ig://CFmBckgBESH/m
+photo.65.author: resapan.suki
+photo.65.commitdate: 2020/12/12
+photo.65.link: https://www.instagram.com/resapan.suki/
+photo.65.tags: mofumofu, portrait, white face
+photo.66: ig://CF45cdBBMPa/m
+photo.66.author: hamiiiii831_
+photo.66.commitdate: 2020/12/12
+photo.66.link: https://www.instagram.com/hamiiiii831_/
+photo.66.tags: home, white face
+photo.67: ig://CGcPNi4hXGa/m
+photo.67.author: _saaaaaaah_
+photo.67.commitdate: 2020/12/12
+photo.67.link: https://www.instagram.com/_saaaaaaah_/
+photo.67.tags: home, peek
+photo.68: ig://CHgoEyfBaQG/m
+photo.68.author: rie_panda55
+photo.68.commitdate: 2020/11/21
+photo.68.link: https://www.instagram.com/rie_panda55/
+photo.68.tags: bamboo, portrait, smile, tail
+photo.69: ig://CHkjgyohpG5/m
+photo.69.author: shigeko0531
+photo.69.commitdate: 2020/11/18
+photo.69.link: https://www.instagram.com/shigeko0531/
+photo.69.tags: peek, portrait
+photo.70: ig://CH7YU4rBz8R/m
+photo.70.author: yakkooo24
+photo.70.commitdate: 2020/12/12
+photo.70.link: https://www.instagram.com/yakkooo24/
+photo.70.tags: apple time, dish, mofumofu, portrait, smile, whiskers
+photo.71: ig://CIDLo0ahiIs/m
+photo.71.author: miis_98
+photo.71.commitdate: 2020/12/12
+photo.71.link: https://www.instagram.com/miis_98/
+photo.71.tags: portrait, tree, upside-down
 species: 2
 studbook.id: 12109
 zoo: 10

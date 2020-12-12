@@ -1079,8 +1079,9 @@ photo.214.author: hamamatsu.chiita
 photo.214.commitdate: 2020/11/7
 photo.214.link: https://www.instagram.com/hamamatsu.chiita/
 photo.214.tags: muzzle, portrait, smile, wet
-photo.215: https://www.instagram.com/p/CIA_IzDhxV5/media/?size=m
+photo.215: ig://CIA_IzDhxV5/m
 photo.215.author: i.satosato
+photo.215.commitdate: 2020/12/12
 photo.215.link: https://www.instagram.com/i.satosato/
 photo.215.tags: paws, portrait, smile, tail, tree
 species: 2

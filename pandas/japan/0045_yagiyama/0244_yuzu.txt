@@ -336,15 +336,16 @@ photo.65.author: minatomirai215
 photo.65.commitdate: 2020/12/6
 photo.65.link: https://www.instagram.com/minatomirai215/
 photo.65.tags: peek, portrait, smile, tree
-photo.66: ig://CIMUVE2h0jy/m
-photo.66.author: kipekaila
-photo.66.commitdate: 2020/12/3
-photo.66.link: https://www.instagram.com/kipekaila/
-photo.66.tags: bamboo, portrait, smile
-photo.67: https://www.instagram.com/p/CIEspcaB6bj/media/?size=m
-photo.67.author: alto0908
-photo.67.link: https://www.instagram.com/alto0908/
-photo.67.tags: autumn, peek, tree
+photo.66: ig://CIEspcaB6bj/m
+photo.66.author: alto0908
+photo.66.commitdate: 2020/12/12
+photo.66.link: https://www.instagram.com/alto0908/
+photo.66.tags: autumn, peek, tree
+photo.67: ig://CIMUVE2h0jy/m
+photo.67.author: kipekaila
+photo.67.commitdate: 2020/12/3
+photo.67.link: https://www.instagram.com/kipekaila/
+photo.67.tags: bamboo, portrait, smile
 species: 2
 studbook.id: unknown
 zoo: 45

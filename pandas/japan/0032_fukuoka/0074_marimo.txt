@@ -528,8 +528,9 @@ photo.104.author: re_ichimaru
 photo.104.commitdate: 2020/11/29
 photo.104.link: https://www.instagram.com/re_ichimaru/
 photo.104.tags: portrait
-photo.105: https://www.instagram.com/p/CIB-NzMBgj7/media/?size=m
+photo.105: ig://CIB-NzMBgj7/m
 photo.105.author: yossi929
+photo.105.commitdate: 2020/12/12
 photo.105.link: https://www.instagram.com/yossi929/
 photo.105.tags: mofumofu, whiskers
 species: 2

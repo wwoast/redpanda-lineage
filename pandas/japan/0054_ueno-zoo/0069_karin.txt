@@ -366,45 +366,46 @@ photo.70.author: eos1089
 photo.70.commitdate: 2020/9/24
 photo.70.link: https://www.instagram.com/eos1089/
 photo.70.tags: itchy, paws, portrait
-photo.71: ig://CFzWTuXh6Pn/m
+photo.71: ig://CFggGTwhTB9/m
 photo.71.author: craig_craig_craig
-photo.71.commitdate: 2020/10/2
+photo.71.commitdate: 2020/12/12
 photo.71.link: https://www.instagram.com/craig_craig_craig/
-photo.71.tags: mofumofu, paws, portrait
-photo.72: ig://CGz7zyyhg1M/m
-photo.72.author: eos1089
-photo.72.commitdate: 2020/10/27
-photo.72.link: https://www.instagram.com/eos1089/
-photo.72.tags: bamboo, mofumofu, paws, portrait
-photo.73: ig://CHIPoF9BPT9/m
+photo.71.tags: close-up, mofumofu, paws, portrait, window
+photo.72: ig://CFzWTuXh6Pn/m
+photo.72.author: craig_craig_craig
+photo.72.commitdate: 2020/10/2
+photo.72.link: https://www.instagram.com/craig_craig_craig/
+photo.72.tags: mofumofu, paws, portrait
+photo.73: ig://CGz7zyyhg1M/m
 photo.73.author: eos1089
-photo.73.commitdate: 2020/11/6
+photo.73.commitdate: 2020/10/27
 photo.73.link: https://www.instagram.com/eos1089/
-photo.73.tags: paws, playing, portrait
-photo.74: ig://CHN3J_bhTIJ/m
+photo.73.tags: bamboo, mofumofu, paws, portrait
+photo.74: ig://CHIPoF9BPT9/m
 photo.74.author: eos1089
-photo.74.commitdate: 2020/11/5
+photo.74.commitdate: 2020/11/6
 photo.74.link: https://www.instagram.com/eos1089/
-photo.74.tags: climb, paws, portrait, tree
-photo.75: ig://CHT7JXGhf0i/m
-photo.75.author: alto0908
-photo.75.commitdate: 2020/11/25
-photo.75.link: https://www.instagram.com/alto0908/
-photo.75.tags: mofumofu, paws, portrait, white face
-photo.76: ig://CHdYtPEBQnw/m
-photo.76.author: eos1089
-photo.76.commitdate: 2020/11/21
-photo.76.link: https://www.instagram.com/eos1089/
-photo.76.tags: apple time, bamboo, mofumofu, portrait, techitechi
-photo.77: ig://CID5OgHhBSs/m
+photo.74.tags: paws, playing, portrait
+photo.75: ig://CHN3J_bhTIJ/m
+photo.75.author: eos1089
+photo.75.commitdate: 2020/11/5
+photo.75.link: https://www.instagram.com/eos1089/
+photo.75.tags: climb, paws, portrait, tree
+photo.76: ig://CHT7JXGhf0i/m
+photo.76.author: alto0908
+photo.76.commitdate: 2020/11/25
+photo.76.link: https://www.instagram.com/alto0908/
+photo.76.tags: mofumofu, paws, portrait, white face
+photo.77: ig://CHdYtPEBQnw/m
 photo.77.author: eos1089
-photo.77.commitdate: 2020/12/8
+photo.77.commitdate: 2020/11/21
 photo.77.link: https://www.instagram.com/eos1089/
-photo.77.tags: dish, keeper, paws, portrait, standing, tail
-photo.78: https://www.instagram.com/p/CFggGTwhTB9/media/?size=m
-photo.78.author: craig_craig_craig
-photo.78.link: https://www.instagram.com/craig_craig_craig/
-photo.78.tags: close-up, mofumofu, paws, portrait, window
+photo.77.tags: apple time, bamboo, mofumofu, portrait, techitechi
+photo.78: ig://CID5OgHhBSs/m
+photo.78.author: eos1089
+photo.78.commitdate: 2020/12/8
+photo.78.link: https://www.instagram.com/eos1089/
+photo.78.tags: dish, keeper, paws, portrait, standing, tail
 species: 2
 studbook.id: 12118
 zoo: 54

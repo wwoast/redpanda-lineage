@@ -437,15 +437,16 @@ photo.85.author: pink.b22
 photo.85.commitdate: 2020/11/7
 photo.85.link: https://www.instagram.com/pink.b22/
 photo.85.tags: laying down, paws, white face
-photo.86: ig://CIIiahhhn0J/m
-photo.86.author: ifumoto88
-photo.86.commitdate: 2020/12/3
-photo.86.link: https://www.instagram.com/ifumoto88/
-photo.86.tags: close-up, paws, peek
-photo.87: https://www.instagram.com/p/CIB5kv_BRTj/media/?size=m
-photo.87.author: ssc6105
-photo.87.link: https://www.instagram.com/ssc6105/
-photo.87.tags: laying down, paws, portrait, tongue
+photo.86: ig://CIB5kv_BRTj/m
+photo.86.author: ssc6105
+photo.86.commitdate: 2020/12/12
+photo.86.link: https://www.instagram.com/ssc6105/
+photo.86.tags: laying down, paws, portrait, tongue
+photo.87: ig://CIIiahhhn0J/m
+photo.87.author: ifumoto88
+photo.87.commitdate: 2020/12/3
+photo.87.link: https://www.instagram.com/ifumoto88/
+photo.87.tags: close-up, paws, peek
 species: 2
 studbook.id: 10112
 zoo: 1

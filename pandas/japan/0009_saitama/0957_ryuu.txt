@@ -303,28 +303,30 @@ photo.58.author: s.okano521
 photo.58.commitdate: 2020/12/2
 photo.58.link: https://www.instagram.com/s.okano521/
 photo.58.tags: bamboo, paws, smile, standing, tongue
-photo.59: ig://CHpv_3whb7k/m
-photo.59.author: s.okano521
-photo.59.commitdate: 2020/12/2
-photo.59.link: https://www.instagram.com/s.okano521/
-photo.59.tags: climb, paws, smile
-photo.60: ig://CHzvtIIhhHu/m
-photo.60.author: ssc6105
-photo.60.commitdate: 2020/11/22
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: grooming, laying down, paws, portrait
-photo.61: ig://CH1JDbShwkE/m
+photo.59: ig://CHkUZC-hwjP/m
+photo.59.author: fetorus_mami
+photo.59.commitdate: 2020/12/12
+photo.59.link: https://www.instagram.com/fetorus_mami/
+photo.59.tags: baby, mofumofu, portrait, tail
+photo.60: ig://CHkXBAohRWq/m
+photo.60.author: fetorus_mami
+photo.60.commitdate: 2020/12/12
+photo.60.link: https://www.instagram.com/fetorus_mami/
+photo.60.tags: baby, laying down, paws, portrait, tail, upside-down
+photo.61: ig://CHpv_3whb7k/m
 photo.61.author: s.okano521
 photo.61.commitdate: 2020/12/2
 photo.61.link: https://www.instagram.com/s.okano521/
-photo.61.tags: bamboo, paws, smile
-photo.62: https://www.instagram.com/p/CHkXBAohRWq/media/?size=m
-photo.62.author: fetorus_mami
-photo.62.link: https://www.instagram.com/fetorus_mami/
-photo.62.tags: baby, laying down, paws, portrait, tail, upside-down
-photo.63: https://www.instagram.com/p/CHkUZC-hwjP/media/?size=m
-photo.63.author: fetorus_mami
-photo.63.link: https://www.instagram.com/fetorus_mami/
-photo.63.tags: baby, mofumofu, portrait, tail
+photo.61.tags: climb, paws, smile
+photo.62: ig://CHzvtIIhhHu/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2020/11/22
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: grooming, laying down, paws, portrait
+photo.63: ig://CH1JDbShwkE/m
+photo.63.author: s.okano521
+photo.63.commitdate: 2020/12/2
+photo.63.link: https://www.instagram.com/s.okano521/
+photo.63.tags: bamboo, paws, smile
 species: 2
 zoo: 9

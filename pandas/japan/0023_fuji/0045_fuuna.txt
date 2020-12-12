@@ -262,20 +262,21 @@ photo.50.author: ssc6105
 photo.50.commitdate: 2020/7/10
 photo.50.link: https://www.instagram.com/ssc6105/
 photo.50.tags: paws, tail, tree
-photo.51: ig://CGpFDtQhL0I/m
-photo.51.author: miis_98
-photo.51.commitdate: 2020/10/26
-photo.51.link: https://www.instagram.com/miis_98/
-photo.51.tags: grooming, paws, portrait, tail, tongue
-photo.52: ig://CG51MBChF6M/m
-photo.52.author: craig_craig_craig
-photo.52.commitdate: 2020/11/1
-photo.52.link: https://www.instagram.com/craig_craig_craig/
-photo.52.tags: peek, whiskers
-photo.53: https://www.instagram.com/p/CFE8bWfh-YI/media/?size=m
-photo.53.author: fetorus_mami
-photo.53.link: https://www.instagram.com/fetorus_mami/
-photo.53.tags: grooming, laying down, paws, tail
+photo.51: ig://CFE8bWfh-YI/m
+photo.51.author: fetorus_mami
+photo.51.commitdate: 2020/12/12
+photo.51.link: https://www.instagram.com/fetorus_mami/
+photo.51.tags: grooming, laying down, paws, tail
+photo.52: ig://CGpFDtQhL0I/m
+photo.52.author: miis_98
+photo.52.commitdate: 2020/10/26
+photo.52.link: https://www.instagram.com/miis_98/
+photo.52.tags: grooming, paws, portrait, tail, tongue
+photo.53: ig://CG51MBChF6M/m
+photo.53.author: craig_craig_craig
+photo.53.commitdate: 2020/11/1
+photo.53.link: https://www.instagram.com/craig_craig_craig/
+photo.53.tags: peek, whiskers
 species: 2
 studbook.id: 12106
 zoo: 23
