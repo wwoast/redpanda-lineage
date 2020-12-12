@@ -8,54 +8,10 @@ import git
 import json
 import os
 import re
-import requests
 import sys
 
-from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, get_max_entity_count
+from shared import MEDIA_PATH, PANDA_PATH, ZOO_PATH, CommitError, PhotoFile, SectionNameError, datetime_to_unixtime, fetch_photo, get_max_entity_count, update_ig_link
 from unidiff import PatchSet
-from urllib.parse import urlparse
-
-def fetch_photo(url):
-    """
-    For testing/validating photo dimensions and properties, grab a photo using
-    either the direct URI, or for IG uris, using their oEmbed API.
-    This function requires an Instagram URL of the form:
-        https://www.instagram.com/p/<shortcode>/media/?size=<size>
-    """
-    ig_url = update_ig_link(url)
-    target_img = url
-    output_file = os.path.basename(urlparse(url).path)
-    # Assume target_img is the original url unless IG
-    if "ig://" in ig_url:
-        shortcode = ig_url.split("/")[2]
-        # Remove extra info from the IG url so that oEmbed likes it
-        url = "https://www.instagram.com/p/" + shortcode
-        maxwidth = 320
-        if (ig_url.split("/")[3] == "l"):
-            maxwidth = 640
-        try:
-            token = os.environ['OE_TOKEN']
-        except KeyError:
-            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
-        query_params = {
-            "url": url,
-            "maxwidth": maxwidth,
-            "fields": "thumbnail_url,author_name",
-            "access_token": token
-        }
-        instagram_api = "https://graph.facebook.com/v8.0/instagram_oembed"
-        response = requests.get(instagram_api, params=query_params)
-        json = response.json()
-        target_img = json["thumbnail_url"]
-        author_name = json["author_name"]
-        output_file = shortcode + ".jpg"
-        print("(ig_credit: " + author_name + "): " + target_img)
-    else:
-        print("(web): " + target_img)
-    img = requests.get(target_img, allow_redirects=True)
-    with open(output_file, "wb") as ofh:
-        print ("(output): " + output_file)
-        ofh.write(img.content)
 
 def find_commit_of_removed_photos(author, repo):
     """
@@ -547,22 +503,6 @@ def update_entity_commit_dates(starting_commit, force=False):
                         if ((old_date == None) or (force == True)):
                             photo_list.set_field("commitdate", date)
                     photo_list.update_file()
-
-def update_ig_link(photo_uri):
-    """
-    Convert all IG links from format #1 to format #2:
-        https://www.instagram.com/p/<shortcode>/media/?size=<size>
-        ig://<shortcode>/<size>
-    This saves space in the redpanda.json epxorts, and makes it simpler for the 
-    RPF JS code to identify the IG links that it needs to use the FB oembed API for.
-    """
-    if "https://www.instagram.com/p/" in photo_uri:
-        photo_split = photo_uri.split("/")
-        shortcode = photo_split[4]
-        size = photo_split[6].split("=")[1]
-        return 'ig://' + shortcode + "/" + size
-    else:
-        return photo_uri
 
 def update_photo_commit_dates(starting_commit, force=False):
     """

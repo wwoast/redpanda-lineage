@@ -4,9 +4,11 @@ import json
 import os
 import sys
 import random
+import requests
 import time
 
 from collections import OrderedDict
+from urllib.parse import urlparse
 
 # Shared Python information for the Red Panda Lineage scripts
 LINKS_PATH = "./links"
@@ -45,6 +47,48 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
+def fetch_photo(url):
+    """
+    For testing/validating photo dimensions and properties, grab a photo using
+    either the direct URI, or for IG uris, using their oEmbed API.
+    This function requires an Instagram URL of the form:
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
+    """
+    ig_url = update_ig_link(url)
+    target_img = url
+    output_file = os.path.basename(urlparse(url).path)
+    # Assume target_img is the original url unless IG
+    if "ig://" in ig_url:
+        shortcode = ig_url.split("/")[2]
+        # Remove extra info from the IG url so that oEmbed likes it
+        url = "https://www.instagram.com/p/" + shortcode
+        maxwidth = 320
+        if (ig_url.split("/")[3] == "l"):
+            maxwidth = 640
+        try:
+            token = os.environ['OE_TOKEN']
+        except KeyError:
+            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
+        query_params = {
+            "url": url,
+            "maxwidth": maxwidth,
+            "fields": "thumbnail_url,author_name",
+            "access_token": token
+        }
+        instagram_api = "https://graph.facebook.com/v8.0/instagram_oembed"
+        response = requests.get(instagram_api, params=query_params)
+        json = response.json()
+        target_img = json["thumbnail_url"]
+        author_name = json["author_name"]
+        output_file = shortcode + ".jpg"
+        print("(ig_credit: " + author_name + "): " + target_img)
+    else:
+        print("(web): " + target_img)
+    img = requests.get(target_img, allow_redirects=True)
+    with open(output_file, "wb") as ofh:
+        print ("(output): " + output_file)
+        ofh.write(img.content)
+
 # Other utility functions
 def get_max_entity_count():
     """
@@ -63,6 +107,22 @@ def get_max_entity_count():
 def random_sleep():
     random_seconds = random.randint(1, 10)
     time.sleep(random_seconds)
+
+def update_ig_link(photo_uri):
+    """
+    Convert all IG links from format #1 to format #2:
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
+        ig://<shortcode>/<size>
+    This saves space in the redpanda.json epxorts, and makes it simpler for the 
+    RPF JS code to identify the IG links that it needs to use the FB oembed API for.
+    """
+    if "https://www.instagram.com/p/" in photo_uri:
+        photo_split = photo_uri.split("/")
+        shortcode = photo_split[4]
+        size = photo_split[6].split("=")[1]
+        return 'ig://' + shortcode + "/" + size
+    else:
+        return photo_uri
 
 # Exceptions
 class AuthorError(ValueError):
