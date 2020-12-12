@@ -115,7 +115,7 @@ def unfurl_ig_link(photo_uri):
     Convert ig://<shortcode>/ back into a real URL
     """
     if "ig://" in photo_uri:
-        shortcode = photo_uri.split["/"][2]
+        shortcode = photo_uri.split("/")[2]
         return 'https://www.instagram.com/p/' + shortcode + "/"
     else:
         return photo_uri
