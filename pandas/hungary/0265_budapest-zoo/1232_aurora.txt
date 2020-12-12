@@ -43,5 +43,13 @@ photo.5.author: balathruin
 photo.5.commitdate: 2020/11/24
 photo.5.link: https://www.instagram.com/balathruin/
 photo.5.tags: ear, eye, tail
+photo.6: https://www.instagram.com/p/CFUIpmHB5s0/media/?size=m
+photo.6.author: zoobudapest
+photo.6.link: https://www.instagram.com/zoobudapest/
+photo.6.tags: bamboo, bridge, paws, portrait
+photo.7: https://www.instagram.com/p/BsYktJnAvhs/media/?size=m
+photo.7.author: zoobudapest
+photo.7.link: https://www.instagram.com/zoobudapest/
+photo.7.tags: bamboo, portrait, profile, snow
 species: 1
 zoo: 265
