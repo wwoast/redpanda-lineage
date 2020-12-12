@@ -110,6 +110,16 @@ def random_sleep():
     random_seconds = random.randint(1, 10)
     time.sleep(random_seconds)
 
+def unfurl_ig_link(photo_uri):
+    """
+    Convert ig://<shortcode>/ back into a real URL
+    """
+    if "ig://" in photo_uri:
+        shortcode = photo_uri.split["/"][2]
+        return 'https://www.instagram.com/p/' + shortcode + "/"
+    else:
+        return photo_uri
+
 def update_ig_link(photo_uri):
     """
     Convert all IG links from format #1 to format #2:

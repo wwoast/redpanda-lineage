@@ -123,12 +123,14 @@ def write_sample_summary(folder, desired_photos):
         wfh.write("panda.count: " + animal_count)
         wfh.write("\npanda.fulgens.count: " + fulgens_count + "\n")
         for photo in fulgens:
-            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
+            real_uri = unfurl_ig_link(photo.photo_uri)
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + real_uri + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".commitdate: " + photo.commitdate + "\n")
         wfh.write("panda.styani.count: " + styani_count + "\n")
         for photo in styani:
-            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + photo.photo_uri + "\n")
+            real_uri = unfurl_ig_link(photo.photo_uri)
+            wfh.write(photo.entity_id + ".photo." + photo.photo_index + ": " + real_uri + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".author: " + photo.author_name + "\n")
             wfh.write(photo.entity_id + ".photo." + photo.photo_index + ".commitdate: " + photo.commitdate + "\n")
 
@@ -151,7 +153,7 @@ if __name__ == '__main__':
             print("Photo count must be positive.")
             sys.exit()
     if "--size" in sys.argv:
-        size = int(sys.argv[sys.argv.index("--size") + 1])
+        size = sys.argv[sys.argv.index("--size") + 1]
         if ((size != "t") and (size != "m") and (size != "l")):
             raise SizeError("%s photo size is not one of: t m l" % size)
     if "--species" in sys.argv:
