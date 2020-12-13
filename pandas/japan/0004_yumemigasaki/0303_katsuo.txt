@@ -17,6 +17,14 @@ litter: 309
 location.1: 17, 2002/7/2
 location.2: 1, 2003/6/18
 location.3: 4, 2009/1/26
+photo.1: https://www.codaworry.com/images/rpf/katsuo-1-ichikawa.jpg
+photo.1.author: simasima_sippo
+photo.1.link: http://petitpan.blog.fc2.com/
+photo.1.tags: close-up, whiskers
+photo.2: https://www.codaworry.com/images/rpf/katsuo-1-yumemigasaki.jpg
+photo.2.author: simasima_sippo
+photo.2.link: http://petitpan.blog.fc2.com/
+photo.2.tags: dish, paws
 species: 2
 studbook.id: 0276
 zoo: 4
