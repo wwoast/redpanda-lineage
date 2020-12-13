@@ -18,8 +18,9 @@ location.2: 205, 2018/1/1
 np.name: केटा
 np.nicknames: none
 np.othernames: none
-photo.1: https://www.instagram.com/p/B_62BlpHkve/media/?size=m
+photo.1: ig://B_62BlpHkve/m
 photo.1.author: redpandasingapore
+photo.1.commitdate: 2020/12/13
 photo.1.link: https://www.instagram.com/redpandasingapore/
 photo.1.tags: portrait, profile
 species: 1
