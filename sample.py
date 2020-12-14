@@ -69,7 +69,7 @@ def define_photo_sample(num_animals, num_photos, species, taglist):
             output_photos.append(photo)
     return output_photos
 
-def fetch_sample_photos(folder, desired_photos, species):
+def fetch_sample_photos(folder, desired_photos, species, size):
     """
     Given a defined set of photos we selected from the dataset, grab them
     from the Internet, and write them in an organized way.
@@ -94,7 +94,7 @@ def fetch_sample_photos(folder, desired_photos, species):
         output_photo_index = photo.photo_index
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
-        fetch_photo(photo.photo_uri, output_image)
+        fetch_photo(photo.photo_uri, output_image, size)
         random_sleep()
 
 def write_sample_summary(folder, desired_photos):
@@ -163,6 +163,13 @@ if __name__ == '__main__':
     if "--taglist" in sys.argv:
         taglist = sys.argv[sys.argv.index("--taglist") + 1]
     taglist = taglist.split(", ")
+    # The token isn't used here (it's in the fetch function) but if we check here,
+    # we'll save time building a sample if we don't have all the necessary things to
+    # fetch remote images. 
+    try:
+        token = os.environ['OE_TOKEN']
+    except KeyError:
+        raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
     # Build a sample
     photos = define_photo_sample(animals, photos, species, taglist)
     photo_count = str(len(photos))
@@ -175,6 +182,6 @@ if __name__ == '__main__':
     folder = "export/sample_" + str(current_time_to_unixtime())
     os.makedirs(folder)
     # Start fetching photos
-    fetch_sample_photos(folder, photos, species)
+    fetch_sample_photos(folder, photos, species, size)
     # Write output information
     write_sample_summary(folder, photos)

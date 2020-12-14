@@ -47,14 +47,15 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
-def fetch_photo(url, output_file=None):
+def fetch_photo(url, output_file=None, size=None):
     """
     For testing/validating photo dimensions and properties, grab a photo using
     either the direct URI, or for IG uris, using their oEmbed API.
     This function requires an Instagram URL of the form:
         https://www.instagram.com/p/<shortcode>/media/?size=<size>
     """
-    ig_url = update_ig_link(url)
+    ig_url = update_ig_link(url)    # convert to ig:// if necessary
+    ig_url = resize_ig_link(ig_url, size)   # request biger size if necessary
     target_img = url
     # Assume target_img is the original url unless IG
     if "ig://" in ig_url:
@@ -109,6 +110,18 @@ def get_max_entity_count():
 def random_sleep():
     random_seconds = random.randint(1, 10)
     time.sleep(random_seconds)
+
+def resize_ig_link(photo_uri, size):
+    """
+    Convert ig://<shortcode>/<size> into the size you want
+    """
+    if size == None:
+        return photo_uri
+    elif "ig://" in photo_uri:
+        shortcode = photo_uri.split("/")[2]
+        return 'ig://' + shortcode + "/" + size
+    else:
+        return photo_uri
 
 def unfurl_ig_link(photo_uri):
     """
