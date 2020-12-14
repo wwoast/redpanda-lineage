@@ -65,9 +65,8 @@ def fetch_photo(url, output_file=None, size=None):
         maxwidth = 320
         if (ig_url.split("/")[3] == "l"):
             maxwidth = 640
-        try:
-            token = os.environ['OE_TOKEN']
-        except KeyError:
+        token = os.getenv('OE_TOKEN', None)
+        if token == None:
             raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
         query_params = {
             "url": url,

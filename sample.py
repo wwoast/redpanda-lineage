@@ -165,10 +165,9 @@ if __name__ == '__main__':
     taglist = taglist.split(", ")
     # The token isn't used here (it's in the fetch function) but if we check here,
     # we'll save time building a sample if we don't have all the necessary things to
-    # fetch remote images. 
-    try:
-        token = os.environ['OE_TOKEN']
-    except KeyError:
+    # fetch remote images.
+    token = os.getenv('OE_TOKEN', None)
+    if token == None:
         raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
     # Build a sample
     photos = define_photo_sample(animals, photos, species, taglist)
