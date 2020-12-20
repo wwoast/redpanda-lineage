@@ -165,8 +165,9 @@ photo.31.author: kisshan324
 photo.31.commitdate: 2020/11/15
 photo.31.link: https://www.instagram.com/kisshan324/
 photo.31.tags: portrait, tree
-photo.32: https://www.instagram.com/p/CIX13xvB6LF/media/?size=m
+photo.32: ig://CIX13xvB6LF/m
 photo.32.author: daniele.tokyo
+photo.32.commitdate: 2020/12/20
 photo.32.link: https://www.instagram.com/daniele.tokyo/
 photo.32.tags: bamboo, paws
 species: 2

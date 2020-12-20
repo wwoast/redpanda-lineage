@@ -526,8 +526,9 @@ photo.102.author: minato.yokohama2130
 photo.102.commitdate: 2020/12/3
 photo.102.link: https://www.instagram.com/minato.yokohama2130/
 photo.102.tags: dish, lunch time, portrait, videolink
-photo.103: https://www.instagram.com/p/CIiNmvFBPmB/media/?size=m
+photo.103: ig://CIiNmvFBPmB/m
 photo.103.author: hamamatsu.chiita
+photo.103.commitdate: 2020/12/20
 photo.103.link: https://www.instagram.com/hamamatsu.chiita/
 photo.103.tags: close-up, whiskers
 species: 2

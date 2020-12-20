@@ -159,16 +159,19 @@ photo.29.author: love__mitarashi
 photo.29.commitdate: 2020/12/6
 photo.29.link: https://www.instagram.com/love__mitarashi/
 photo.29.tags: apple time, bridge, old, videolink
-photo.30: https://www.instagram.com/p/CIZE9v9nh_D/media/?size=m
-photo.30.author: yakkooo24
-photo.30.link: https://www.instagram.com/yakkooo24/
-photo.30.tags: grooming, mofumofu, paws, portrait, smile
-photo.31: https://www.instagram.com/p/CIVXqc4BhFV/media/?size=m
-photo.31.author: colette.jp
-photo.31.link: https://www.instagram.com/colette.jp/
-photo.31.tags: door, portrait
-photo.32: https://www.instagram.com/p/CIiYaHWhpks/media/?size=m
+photo.30: ig://CIVXqc4BhFV/m
+photo.30.author: colette.jp
+photo.30.commitdate: 2020/12/20
+photo.30.link: https://www.instagram.com/colette.jp/
+photo.30.tags: door, portrait
+photo.31: ig://CIZE9v9nh_D/m
+photo.31.author: yakkooo24
+photo.31.commitdate: 2020/12/20
+photo.31.link: https://www.instagram.com/yakkooo24/
+photo.31.tags: grooming, mofumofu, paws, portrait, smile
+photo.32: ig://CIiYaHWhpks/m
 photo.32.author: fetorus_mami
+photo.32.commitdate: 2020/12/20
 photo.32.link: https://www.instagram.com/fetorus_mami/
 photo.32.tags: home, paws, smile, tongue
 species: 2

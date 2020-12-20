@@ -196,8 +196,9 @@ photo.37.author: yossi929
 photo.37.commitdate: 2020/11/8
 photo.37.link: https://www.instagram.com/yossi929/
 photo.37.tags: lips, peek, portrait
-photo.38: https://www.instagram.com/p/CIT_TkXBwiX/media/?size=m
+photo.38: ig://CIT_TkXBwiX/m
 photo.38.author: yossi929
+photo.38.commitdate: 2020/12/20
 photo.38.link: https://www.instagram.com/yossi929/
 photo.38.tags: peek
 species: 2

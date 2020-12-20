@@ -92,14 +92,16 @@ photo.16.author: love__mitarashi
 photo.16.commitdate: 2020/9/28
 photo.16.link: https://www.instagram.com/love__mitarashi/
 photo.16.tags: peek, videolink
-photo.17: https://www.instagram.com/p/CIYH23zhD6L/media/?size=m
+photo.17: ig://CIYE9VgBqm9/m
 photo.17.author: fetorus_mami
+photo.17.commitdate: 2020/12/20
 photo.17.link: https://www.instagram.com/fetorus_mami/
-photo.17.tags: keeper, lunch time, paws, techitechi
-photo.18: https://www.instagram.com/p/CIYE9VgBqm9/media/?size=m
+photo.17.tags: close-up, smile, tongue
+photo.18: ig://CIYH23zhD6L/m
 photo.18.author: fetorus_mami
+photo.18.commitdate: 2020/12/20
 photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: close-up, smile, tongue
+photo.18.tags: keeper, lunch time, paws, techitechi
 species: 2
 studbook.id: 0993
 zoo: 70

@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/seaparadise_official/
 photo.2.tags: couple, whiskers
 photo.2.tags.23.location: 150, 85
 photo.2.tags.376.location: 265, 235
-photo.3: https://www.instagram.com/p/CId4oK3hm6t/media/?size=l
+photo.3: ig://CId4oK3hm6t/l
 photo.3.author: minatomirai215
+photo.3.commitdate: 2020/12/20
 photo.3.link: https://www.instagram.com/minatomirai215/
 photo.3.tags: couple, keeper, lunch time
 photo.3.tags.23.location: 315, 215

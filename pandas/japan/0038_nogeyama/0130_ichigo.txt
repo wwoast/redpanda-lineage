@@ -425,8 +425,9 @@ photo.82.author: minatomirai215
 photo.82.commitdate: 2020/12/3
 photo.82.link: https://www.instagram.com/minatomirai215/
 photo.82.tags: dish, portrait
-photo.83: https://www.instagram.com/p/CIk4DuCBMzd/media/?size=m
+photo.83: ig://CIk4DuCBMzd/m
 photo.83.author: minatomirai215
+photo.83.commitdate: 2020/12/20
 photo.83.link: https://www.instagram.com/minatomirai215/
 photo.83.tags: bamboo, portrait, smile
 species: 2

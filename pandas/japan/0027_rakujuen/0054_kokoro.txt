@@ -197,8 +197,9 @@ photo.37.author: tetusara.ki_
 photo.37.commitdate: 2020/9/20
 photo.37.link: https://www.instagram.com/tetusara.ki_/
 photo.37.tags: mofumofu, portrait, tail
-photo.38: https://www.instagram.com/p/CIfT6w0h0bj/media/?size=m
+photo.38: ig://CIfT6w0h0bj/m
 photo.38.author: mybrotherisdylan
+photo.38.commitdate: 2020/12/20
 photo.38.link: https://www.instagram.com/mybrotherisdylan/
 photo.38.tags: dish, keeper, paws, portrait, standing, tail
 species: 2
