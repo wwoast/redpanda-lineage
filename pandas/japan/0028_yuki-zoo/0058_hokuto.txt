@@ -68,7 +68,7 @@ photo.11: ig://BSX96vMDWk5/m
 photo.11.author: cattail.sapporo
 photo.11.commitdate: 2018/7/17
 photo.11.link: https://www.instagram.com/cattail.sapporo/
-photo.11.tags: bamboo, blink, portrait, profile, snow
+photo.11.tags: bamboo, blink, portrait, snow
 photo.12: ig://BS52iN-j3en/m
 photo.12.author: _sealiz
 photo.12.commitdate: 2019/5/15
@@ -658,6 +658,14 @@ photo.130.author: cattail.sapporo
 photo.130.commitdate: 2020/11/28
 photo.130.link: https://www.instagram.com/cattail.sapporo/
 photo.130.tags: close-up, lips, nose, portrait, whiskers
+photo.131: https://www.instagram.com/p/CIwYmGsBq6v/media/?size=m
+photo.131.author: ck.chie
+photo.131.link: https://www.instagram.com/ck.chie/
+photo.131.tags: paws, portrait, profile, smile
+photo.132: https://www.instagram.com/p/CIndrGqhKtu/media/?size=m
+photo.132.author: leonard_redmof
+photo.132.link: https://www.instagram.com/leonard_redmof/
+photo.132.tags: bridge, peek, portrait
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8
