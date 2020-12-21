@@ -450,68 +450,76 @@ photo.88.author: grskus_tk
 photo.88.commitdate: 2020/8/5
 photo.88.link: https://www.instagram.com/grskus_tk/
 photo.88.tags: portrait
-photo.89: ig://CFPWe5sB9d_/m
-photo.89.author: ifumoto88
-photo.89.commitdate: 2020/11/6
-photo.89.link: https://www.instagram.com/ifumoto88/
-photo.89.tags: bite, playing, portrait, toys
-photo.90: ig://CFcQ34ZBYvM/m
-photo.90.author: ifumoto88
-photo.90.commitdate: 2020/11/6
-photo.90.link: https://www.instagram.com/ifumoto88/
-photo.90.tags: playing, portrait, toys
-photo.91: ig://CGMbJuPhOrF/m
-photo.91.author: ssc6105
-photo.91.commitdate: 2020/10/11
-photo.91.link: https://www.instagram.com/ssc6105/
-photo.91.tags: paws, surprise
-photo.92: ig://CG01lK-hAXx/m
-photo.92.author: _rifa_p
-photo.92.commitdate: 2020/11/1
-photo.92.link: https://www.instagram.com/_rifa_p/
-photo.92.tags: keeper, smile
-photo.93: ig://CHSvhyZBZ2o/m
-photo.93.author: ck.chie
-photo.93.commitdate: 2020/11/15
-photo.93.link: https://www.instagram.com/ck.chie/
-photo.93.tags: paws, portrait, smile
-photo.94: ig://CISkChZho-u/m
-photo.94.author: ssc6105
-photo.94.commitdate: 2020/12/2
-photo.94.link: https://www.instagram.com/ssc6105/
-photo.94.tags: home, laying down, portrait, sleeping
-photo.95: https://www.instagram.com/p/CI0XwEkBrAt/media/?size=m
+photo.89: ig://CD8hUZuh_XO/m
+photo.89.author: ssc6105
+photo.89.commitdate: 2020/12/21
+photo.89.link: https://www.instagram.com/ssc6105/
+photo.89.tags: paws, smile, whiskers
+photo.90: ig://CD_N-OKhGU9/m
+photo.90.author: ssc6105
+photo.90.commitdate: 2020/12/21
+photo.90.link: https://www.instagram.com/ssc6105/
+photo.90.tags: home, laying down, paws, portrait, upside-down
+photo.91: ig://CFNybrKBeJX/m
+photo.91.author: ck.chie
+photo.91.commitdate: 2020/12/21
+photo.91.link: https://www.instagram.com/ck.chie/
+photo.91.tags: bridge, laying down, paws, smile
+photo.92: ig://CFPWe5sB9d_/m
+photo.92.author: ifumoto88
+photo.92.commitdate: 2020/11/6
+photo.92.link: https://www.instagram.com/ifumoto88/
+photo.92.tags: bite, playing, portrait, toys
+photo.93: ig://CFcQ34ZBYvM/m
+photo.93.author: ifumoto88
+photo.93.commitdate: 2020/11/6
+photo.93.link: https://www.instagram.com/ifumoto88/
+photo.93.tags: playing, portrait, toys
+photo.94: ig://CFzRsE-B1bq/m
+photo.94.author: ifumoto88
+photo.94.commitdate: 2020/12/21
+photo.94.link: https://www.instagram.com/ifumoto88/
+photo.94.tags: playing, portrait, toys
+photo.95: ig://CGATUrLh7w2/m
 photo.95.author: ifumoto88
+photo.95.commitdate: 2020/12/21
 photo.95.link: https://www.instagram.com/ifumoto88/
-photo.95.tags: bamboo, peek, portrait
-photo.96: https://www.instagram.com/p/CHT023chFfT/media/?size=m
-photo.96.author: sunnylettuce_2020
-photo.96.link: https://www.instagram.com/sunnylettuce_2020/
-photo.96.tags: bamboo, peek
-photo.97: https://www.instagram.com/p/CGATUrLh7w2/media/?size=m
-photo.97.author: ifumoto88
-photo.97.link: https://www.instagram.com/ifumoto88/
-photo.97.tags: portrait, whiskers
-photo.98: https://www.instagram.com/p/CFzRsE-B1bq/media/?size=m
-photo.98.author: ifumoto88
-photo.98.link: https://www.instagram.com/ifumoto88/
-photo.98.tags: playing, portrait, toys
-photo.99: https://www.instagram.com/p/CFNybrKBeJX/media/?size=m
-photo.99.author: ck.chie
-photo.99.link: https://www.instagram.com/ck.chie/
-photo.99.tags: bridge, laying down, paws, smile
-photo.100: https://www.instagram.com/p/CD8hUZuh_XO/media/?size=m
+photo.95.tags: portrait, whiskers
+photo.96: ig://CGMbJuPhOrF/m
+photo.96.author: ssc6105
+photo.96.commitdate: 2020/10/11
+photo.96.link: https://www.instagram.com/ssc6105/
+photo.96.tags: paws, surprise
+photo.97: ig://CG01lK-hAXx/m
+photo.97.author: _rifa_p
+photo.97.commitdate: 2020/11/1
+photo.97.link: https://www.instagram.com/_rifa_p/
+photo.97.tags: keeper, smile
+photo.98: ig://CHSvhyZBZ2o/m
+photo.98.author: ck.chie
+photo.98.commitdate: 2020/11/15
+photo.98.link: https://www.instagram.com/ck.chie/
+photo.98.tags: paws, portrait, smile
+photo.99: ig://CHT023chFfT/m
+photo.99.author: sunnylettuce_2020
+photo.99.commitdate: 2020/12/21
+photo.99.link: https://www.instagram.com/sunnylettuce_2020/
+photo.99.tags: bamboo, peek
+photo.100: ig://CISkChZho-u/m
 photo.100.author: ssc6105
+photo.100.commitdate: 2020/12/2
 photo.100.link: https://www.instagram.com/ssc6105/
-photo.100.tags: paws, smile, whiskers
-photo.101: https://www.instagram.com/p/CD_N-OKhGU9/media/?size=m
-photo.101.author: ssc6105
-photo.101.link: https://www.instagram.com/ssc6105/
-photo.101.tags: home, laying down, paws, portrait, upside-down
-photo.102: https://www.instagram.com/p/CIn5GgjB6Wp/media/?size=m
-photo.102.author: craig_craig_craig
-photo.102.link: https://www.instagram.com/craig_craig_craig/
-photo.102.tags: peek
+photo.100.tags: home, laying down, portrait, sleeping
+photo.101: ig://CIn5GgjB6Wp/m
+photo.101.author: craig_craig_craig
+photo.101.commitdate: 2020/12/21
+photo.101.link: https://www.instagram.com/craig_craig_craig/
+photo.101.tags: peek
+photo.102: ig://CI0XwEkBrAt/m
+photo.102.author: ifumoto88
+photo.102.commitdate: 2020/12/21
+photo.102.link: https://www.instagram.com/ifumoto88/
+photo.102.tags: bamboo, peek, portrait
 species: 2
 studbook.id: 13147
 zoo: 1

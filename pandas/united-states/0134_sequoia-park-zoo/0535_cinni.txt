@@ -58,8 +58,9 @@ photo.9.author: wumpwoast
 photo.9.commitdate: 2020/9/7
 photo.9.link: https://www.instagram.com/wumpwoast/
 photo.9.tags: bamboo, paws, portrait, shoots, white face
-photo.10: https://www.instagram.com/p/CIvT_CbLtTH/media/?size=m
+photo.10: ig://CIvT_CbLtTH/m
 photo.10.author: sequoiaparkzoo
+photo.10.commitdate: 2020/12/21
 photo.10.link: https://www.instagram.com/sequoiaparkzoo/
 photo.10.tags: bamboo, portrait, tail
 species: 1

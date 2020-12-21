@@ -658,14 +658,16 @@ photo.130.author: cattail.sapporo
 photo.130.commitdate: 2020/11/28
 photo.130.link: https://www.instagram.com/cattail.sapporo/
 photo.130.tags: close-up, lips, nose, portrait, whiskers
-photo.131: https://www.instagram.com/p/CIwYmGsBq6v/media/?size=m
-photo.131.author: ck.chie
-photo.131.link: https://www.instagram.com/ck.chie/
-photo.131.tags: paws, portrait, profile, smile
-photo.132: https://www.instagram.com/p/CIndrGqhKtu/media/?size=m
-photo.132.author: leonard_redmof
-photo.132.link: https://www.instagram.com/leonard_redmof/
-photo.132.tags: bridge, peek, portrait
+photo.131: ig://CIndrGqhKtu/m
+photo.131.author: leonard_redmof
+photo.131.commitdate: 2020/12/21
+photo.131.link: https://www.instagram.com/leonard_redmof/
+photo.131.tags: bridge, peek, portrait
+photo.132: ig://CIwYmGsBq6v/m
+photo.132.author: ck.chie
+photo.132.commitdate: 2020/12/21
+photo.132.link: https://www.instagram.com/ck.chie/
+photo.132.tags: paws, portrait, profile, smile
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

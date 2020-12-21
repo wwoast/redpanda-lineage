@@ -60,20 +60,21 @@ photo.9.author: memphiszoo
 photo.9.commitdate: 2020/9/26
 photo.9.link: https://www.instagram.com/memphiszoo/
 photo.9.tags: close-up, portrait, whiskers
-photo.10: ig://CF0Xg6VBqEj/m
+photo.10: ig://CFx6ytVBUM7/m
 photo.10.author: worldthathesees
-photo.10.commitdate: 2020/11/19
+photo.10.commitdate: 2020/12/21
 photo.10.link: https://www.instagram.com/worldthathesees/
-photo.10.tags: whiskers, white face
-photo.11: ig://CF3BG9uBlqg/m
+photo.10.tags: peek, tree
+photo.11: ig://CF0Xg6VBqEj/m
 photo.11.author: worldthathesees
-photo.11.commitdate: 2020/10/9
+photo.11.commitdate: 2020/11/19
 photo.11.link: https://www.instagram.com/worldthathesees/
-photo.11.tags: whiskers
-photo.12: https://www.instagram.com/p/CFx6ytVBUM7/media/?size=m
+photo.11.tags: whiskers, white face
+photo.12: ig://CF3BG9uBlqg/m
 photo.12.author: worldthathesees
+photo.12.commitdate: 2020/10/9
 photo.12.link: https://www.instagram.com/worldthathesees/
-photo.12.tags: peek, tree
+photo.12.tags: whiskers
 species: 1
 studbook.id: 1215
 zoo: 109

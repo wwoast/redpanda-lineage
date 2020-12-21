@@ -485,8 +485,9 @@ photo.94.author: pink.b22
 photo.94.commitdate: 2020/12/6
 photo.94.link: https://www.instagram.com/pink.b22/
 photo.94.tags: bamboo, paws, smile
-photo.95: https://www.instagram.com/p/CIv5DuuhSEy/media/?size=m
+photo.95: ig://CIv5DuuhSEy/m
 photo.95.author: eos1089
+photo.95.commitdate: 2020/12/21
 photo.95.link: https://www.instagram.com/eos1089/
 photo.95.tags: ear, portrait, smile, whiskers
 species: 2
