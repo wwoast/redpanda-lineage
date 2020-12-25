@@ -190,15 +190,16 @@ photo.35.author: hamamatsu.chiita
 photo.35.commitdate: 2020/11/18
 photo.35.link: https://www.instagram.com/hamamatsu.chiita/
 photo.35.tags: portrait, whiskers
-photo.36: ig://CIyyBaMh2wv/m
+photo.36: ig://CIjOCjFhPss/m
 photo.36.author: hamamatsu.chiita
-photo.36.commitdate: 2020/12/21
+photo.36.commitdate: 2020/12/25
 photo.36.link: https://www.instagram.com/hamamatsu.chiita/
-photo.36.tags: close-up
-photo.37: https://www.instagram.com/p/CIjOCjFhPss/media/?size=m
+photo.36.tags: peek, portrait
+photo.37: ig://CIyyBaMh2wv/m
 photo.37.author: hamamatsu.chiita
+photo.37.commitdate: 2020/12/21
 photo.37.link: https://www.instagram.com/hamamatsu.chiita/
-photo.37.tags: peek, portrait
+photo.37.tags: close-up
 species: 2
 studbook.id: 13171
 zoo: 31

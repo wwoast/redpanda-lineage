@@ -43,24 +43,29 @@ photo.6.author: o_deka_ke
 photo.6.commitdate: 2020/11/1
 photo.6.link: https://www.instagram.com/o_deka_ke/
 photo.6.tags: baby, keeper, paws, standing, tail
-photo.7: https://www.instagram.com/p/CHaCtmJBogH/media/?size=m
-photo.7.author: daniele.tokyo
-photo.7.link: https://www.instagram.com/daniele.tokyo/
-photo.7.tags: baby, bridge, videolink
-photo.8: https://www.instagram.com/p/CHvzwcXhkzs/media/?size=m
-photo.8.author: kipekaila
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: baby, mofumofu, nose, portrait, whiskers
-photo.9: https://www.instagram.com/p/CHcyUGbBq6t/media/?size=m
+photo.7: ig://CHO-Vy9hh_i/m
+photo.7.author: kaoru_a358
+photo.7.commitdate: 2020/12/25
+photo.7.link: https://www.instagram.com/kaoru_a358/
+photo.7.tags: baby, close-up, portrait, smile
+photo.8: ig://CHaCtmJBogH/m
+photo.8.author: daniele.tokyo
+photo.8.commitdate: 2020/12/25
+photo.8.link: https://www.instagram.com/daniele.tokyo/
+photo.8.tags: baby, bridge, videolink
+photo.9: ig://CHcyUGbBq6t/m
 photo.9.author: resapan.suki
+photo.9.commitdate: 2020/12/25
 photo.9.link: https://www.instagram.com/resapan.suki/
 photo.9.tags: baby, bamboo, laying down, videolink
-photo.10: https://www.instagram.com/p/CHO-Vy9hh_i/media/?size=m
-photo.10.author: kaoru_a358
-photo.10.link: https://www.instagram.com/kaoru_a358/
-photo.10.tags: baby, close-up, portrait, smile
-photo.11: https://www.instagram.com/p/CIHCcx8B8fD/media/?size=m
+photo.10: ig://CHvzwcXhkzs/m
+photo.10.author: kipekaila
+photo.10.commitdate: 2020/12/25
+photo.10.link: https://www.instagram.com/kipekaila/
+photo.10.tags: baby, mofumofu, nose, portrait, whiskers
+photo.11: ig://CIHCcx8B8fD/m
 photo.11.author: panda.daisuki
+photo.11.commitdate: 2020/12/25
 photo.11.link: https://www.instagram.com/panda.daisuki/
 photo.11.tags: baby, keeper, laying down, paws, playing, portrait, tail, upside-down
 species: 2

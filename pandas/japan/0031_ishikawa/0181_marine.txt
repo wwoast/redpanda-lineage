@@ -111,8 +111,9 @@ photo.20.author: hamamatsu.chiita
 photo.20.commitdate: 2020/11/25
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: bridge, laying down, paws, sleeping
-photo.21: https://www.instagram.com/p/CItw29mB_uQ/media/?size=m
+photo.21: ig://CItw29mB_uQ/m
 photo.21.author: hamamatsu.chiita
+photo.21.commitdate: 2020/12/25
 photo.21.link: https://www.instagram.com/hamamatsu.chiita/
 photo.21.tags: bamboo, portrait
 species: 2

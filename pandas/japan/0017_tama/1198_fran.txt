@@ -38,25 +38,30 @@ photo.5.author: daniele.tokyo
 photo.5.commitdate: 2020/11/21
 photo.5.link: https://www.instagram.com/daniele.tokyo/
 photo.5.tags: baby, laying down, paws, portrait, tail
-photo.6: https://www.instagram.com/p/CIdC5fNBX42/media/?size=m
-photo.6.author: daniele.tokyo
-photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: baby, close-up, paws, portrait, smile
-photo.7: https://www.instagram.com/p/CIA2evAhiDk/media/?size=m
+photo.6: ig://CIA2TtZBPKC/m
+photo.6.author: ifumoto88
+photo.6.commitdate: 2020/12/25
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: baby, peek, portrait
+photo.7: ig://CIA2evAhiDk/m
 photo.7.author: ifumoto88
+photo.7.commitdate: 2020/12/25
 photo.7.link: https://www.instagram.com/ifumoto88/
 photo.7.tags: baby, hammock, paws, portrait, standing
-photo.8: https://www.instagram.com/p/CIA2TtZBPKC/media/?size=m
-photo.8.author: ifumoto88
-photo.8.link: https://www.instagram.com/ifumoto88/
-photo.8.tags: baby, peek, portrait
-photo.9: https://www.instagram.com/p/CIlGRsEhYkb/media/?size=m
-photo.9.author: mini_cochi
-photo.9.link: https://www.instagram.com/mini_cochi/
-photo.9.tags: baby, portrait
-photo.10: https://www.instagram.com/p/CINlqIghJjB/media/?size=m
-photo.10.author: kaoru_a358
-photo.10.link: https://www.instagram.com/kaoru_a358/
-photo.10.tags: baby, laying down, paws, portrait
+photo.8: ig://CINlqIghJjB/m
+photo.8.author: kaoru_a358
+photo.8.commitdate: 2020/12/25
+photo.8.link: https://www.instagram.com/kaoru_a358/
+photo.8.tags: baby, laying down, paws, portrait
+photo.9: ig://CIdC5fNBX42/m
+photo.9.author: daniele.tokyo
+photo.9.commitdate: 2020/12/25
+photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.tags: baby, close-up, paws, portrait, smile
+photo.10: ig://CIlGRsEhYkb/m
+photo.10.author: mini_cochi
+photo.10.commitdate: 2020/12/25
+photo.10.link: https://www.instagram.com/mini_cochi/
+photo.10.tags: baby, portrait
 species: 2
 zoo: 17
