@@ -13,120 +13,120 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1195
-photo.2: ig://CG1VJq2hIXM/m
-photo.2.author: panda.daisuki
+photo.1: ig://CG1VJq2hIXM/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2020/11/1
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: baby, mofumofu, portrait, tail
+photo.2: ig://CG4t96MBmp2/m
+photo.2.author: ifumoto88
 photo.2.commitdate: 2020/11/1
-photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: baby, mofumofu, portrait, tail
-photo.4: ig://CG4t96MBmp2/m
-photo.4.author: ifumoto88
-photo.4.commitdate: 2020/11/1
-photo.4.link: https://www.instagram.com/ifumoto88/
-photo.4.tags: baby, mofumofu, portrait
-photo.5: ig://CHBmk-ohXGB/m
-photo.5.author: hidehaya_biei
-photo.5.commitdate: 2020/11/6
-photo.5.link: https://www.instagram.com/hidehaya_biei/
-photo.5.tags: baby, close-up, mofumofu, nose
-photo.6: ig://CHXhnz4B54d/m
-photo.6.author: roko_mm
-photo.6.commitdate: 2020/12/25
-photo.6.link: https://www.instagram.com/roko_mm/
-photo.6.tags: baby, portrait, standing
-photo.7: ig://CHaAXeOhRP-/m
-photo.7.author: roko_mm
-photo.7.commitdate: 2020/12/25
-photo.7.link: https://www.instagram.com/roko_mm/
-photo.7.tags: baby, mofumofu, portrait, tail
-photo.8: ig://CHfpgtchtHh/m
+photo.2.link: https://www.instagram.com/ifumoto88/
+photo.2.tags: baby, mofumofu, portrait
+photo.3: ig://CHBmk-ohXGB/m
+photo.3.author: hidehaya_biei
+photo.3.commitdate: 2020/11/6
+photo.3.link: https://www.instagram.com/hidehaya_biei/
+photo.3.tags: baby, close-up, mofumofu, nose
+photo.4: ig://CHXhnz4B54d/m
+photo.4.author: roko_mm
+photo.4.commitdate: 2020/12/25
+photo.4.link: https://www.instagram.com/roko_mm/
+photo.4.tags: baby, portrait, standing
+photo.5: ig://CHaAXeOhRP-/m
+photo.5.author: roko_mm
+photo.5.commitdate: 2020/12/25
+photo.5.link: https://www.instagram.com/roko_mm/
+photo.5.tags: baby, mofumofu, portrait, tail
+photo.6: ig://CHfpgtchtHh/m
+photo.6.author: redpan22
+photo.6.commitdate: 2020/11/22
+photo.6.link: https://www.instagram.com/redpan22/
+photo.6.tags: baby, bridge, portrait
+photo.7: ig://CHhFv5ABR3N/m
+photo.7.author: hidehaya_biei
+photo.7.commitdate: 2020/11/22
+photo.7.link: https://www.instagram.com/hidehaya_biei/
+photo.7.tags: baby, bamboo, bite
+photo.8: ig://CHsNj2ABSik/m
 photo.8.author: redpan22
-photo.8.commitdate: 2020/11/22
+photo.8.commitdate: 2020/11/29
 photo.8.link: https://www.instagram.com/redpan22/
-photo.8.tags: baby, bridge, portrait
-photo.9: ig://CHhFv5ABR3N/m
-photo.9.author: hidehaya_biei
-photo.9.commitdate: 2020/11/22
-photo.9.link: https://www.instagram.com/hidehaya_biei/
-photo.9.tags: baby, bamboo, bite
-photo.10: ig://CHsNj2ABSik/m
-photo.10.author: redpan22
-photo.10.commitdate: 2020/11/29
-photo.10.link: https://www.instagram.com/redpan22/
-photo.10.tags: apple time, baby, bite, smile, techitechi
-photo.11: ig://CH7n9Chh_D-/m
-photo.11.author: alto0908
+photo.8.tags: apple time, baby, bite, smile, techitechi
+photo.9: ig://CH7n9Chh_D-/m
+photo.9.author: alto0908
+photo.9.commitdate: 2020/12/25
+photo.9.link: https://www.instagram.com/alto0908/
+photo.9.tags: baby, paws, portrait, standing, tree
+photo.10: ig://CH_aEhdBTZ6/m
+photo.10.author: s.okano521
+photo.10.commitdate: 2020/12/25
+photo.10.link: https://www.instagram.com/s.okano521/
+photo.10.tags: baby, paws, standing, tongue, tree
+photo.11: ig://CIA0_MUhO2f/m
+photo.11.author: kaoru_a358
 photo.11.commitdate: 2020/12/25
-photo.11.link: https://www.instagram.com/alto0908/
-photo.11.tags: baby, paws, portrait, standing, tree
-photo.12: ig://CH_aEhdBTZ6/m
-photo.12.author: s.okano521
+photo.11.link: https://www.instagram.com/kaoru_a358/
+photo.11.tags: baby, portrait
+photo.12: ig://CIA-Ma1BbAC/m
+photo.12.author: kaoru_a358
 photo.12.commitdate: 2020/12/25
-photo.12.link: https://www.instagram.com/s.okano521/
-photo.12.tags: baby, paws, standing, tongue, tree
-photo.13: ig://CIA0_MUhO2f/m
-photo.13.author: kaoru_a358
+photo.12.link: https://www.instagram.com/kaoru_a358/
+photo.12.tags: baby, bridge, grooming, paws, portrait, tail
+photo.13: ig://CIB9pHTBjfn/m
+photo.13.author: hidehaya_biei
 photo.13.commitdate: 2020/12/25
-photo.13.link: https://www.instagram.com/kaoru_a358/
-photo.13.tags: baby, portrait
-photo.14: ig://CIA-Ma1BbAC/m
-photo.14.author: kaoru_a358
+photo.13.link: https://www.instagram.com/hidehaya_biei/
+photo.13.tags: baby, bridge, laying down, tail
+photo.14: ig://CICmlc6hMBY/m
+photo.14.author: kipekaila
 photo.14.commitdate: 2020/12/25
-photo.14.link: https://www.instagram.com/kaoru_a358/
-photo.14.tags: baby, bridge, grooming, paws, portrait, tail
-photo.15: ig://CIB9pHTBjfn/m
-photo.15.author: hidehaya_biei
+photo.14.link: https://www.instagram.com/kipekaila/
+photo.14.tags: baby, bridge, mofumofu, portrait, tongue
+photo.15: ig://CIDIPFmBnWm/m
+photo.15.author: hamiiiii831_
 photo.15.commitdate: 2020/12/25
-photo.15.link: https://www.instagram.com/hidehaya_biei/
-photo.15.tags: baby, bridge, laying down, tail
-photo.16: ig://CICmlc6hMBY/m
-photo.16.author: kipekaila
+photo.15.link: https://www.instagram.com/hamiiiii831_/
+photo.15.tags: baby, mofumofu, portrait, standing
+photo.16: ig://CIDOa1uBcRv/m
+photo.16.author: resapan.suki
 photo.16.commitdate: 2020/12/25
-photo.16.link: https://www.instagram.com/kipekaila/
-photo.16.tags: baby, bridge, mofumofu, portrait, tongue
-photo.17: ig://CIDIPFmBnWm/m
-photo.17.author: hamiiiii831_
+photo.16.link: https://www.instagram.com/resapan.suki/
+photo.16.tags: baby, bamboo, home, mofumofu, portrait, smile
+photo.17: ig://CIDdaHihp-b/m
+photo.17.author: minatomirai215
 photo.17.commitdate: 2020/12/25
-photo.17.link: https://www.instagram.com/hamiiiii831_/
-photo.17.tags: baby, mofumofu, portrait, standing
-photo.18: ig://CIDOa1uBcRv/m
-photo.18.author: resapan.suki
+photo.17.link: https://www.instagram.com/minatomirai215/
+photo.17.tags: baby, home, paws, portrait, standing
+photo.18: ig://CIGIEzyB0Ys/m
+photo.18.author: hamiiiii831_
 photo.18.commitdate: 2020/12/25
-photo.18.link: https://www.instagram.com/resapan.suki/
-photo.18.tags: baby, bamboo, home, mofumofu, portrait, smile
-photo.19: ig://CIDdaHihp-b/m
-photo.19.author: minatomirai215
+photo.18.link: https://www.instagram.com/hamiiiii831_/
+photo.18.tags: baby, portrait, smile
+photo.19: ig://CIHCN71hDWn/m
+photo.19.author: pink.b22
 photo.19.commitdate: 2020/12/25
-photo.19.link: https://www.instagram.com/minatomirai215/
-photo.19.tags: baby, home, paws, portrait, standing
-photo.20: ig://CIGIEzyB0Ys/m
-photo.20.author: hamiiiii831_
-photo.20.commitdate: 2020/12/25
-photo.20.link: https://www.instagram.com/hamiiiii831_/
-photo.20.tags: baby, portrait, smile
-photo.21: ig://CIHCN71hDWn/m
-photo.21.author: pink.b22
+photo.19.link: https://www.instagram.com/pink.b22/
+photo.19.tags: baby, portrait, profile
+photo.20: ig://CIJfD1NBwd6/m
+photo.20.author: ssc6105
+photo.20.commitdate: 2020/12/3
+photo.20.link: https://www.instagram.com/ssc6105/
+photo.20.tags: laying down, paws, playing, portrait, tail, tree
+photo.21: ig://CINlencB2Kx/m
+photo.21.author: ssc6105
 photo.21.commitdate: 2020/12/25
-photo.21.link: https://www.instagram.com/pink.b22/
-photo.21.tags: baby, portrait, profile
-photo.23: ig://CIJfD1NBwd6/m
-photo.23.author: ssc6105
-photo.23.commitdate: 2020/12/3
-photo.23.link: https://www.instagram.com/ssc6105/
-photo.23.tags: laying down, paws, playing, portrait, tail, tree
-photo.24: ig://CINlencB2Kx/m
-photo.24.author: ssc6105
-photo.24.commitdate: 2020/12/25
-photo.24.link: https://www.instagram.com/ssc6105/
-photo.24.tags: baby, mofumofu, portrait, whiskers
-photo.25: ig://CIPAFe6B0au/m
-photo.25.author: panda.daisuki
-photo.25.commitdate: 2020/12/25
-photo.25.link: https://www.instagram.com/panda.daisuki/
-photo.25.tags: apple time, baby, nose, portrait
-photo.26: ig://CIjVlGMheoN/m
-photo.26.author: pink.b22
-photo.26.commitdate: 2020/12/25
-photo.26.link: https://www.instagram.com/pink.b22/
-photo.26.tags: baby, bridge, paws, portrait, smile
+photo.21.link: https://www.instagram.com/ssc6105/
+photo.21.tags: baby, mofumofu, portrait, whiskers
+photo.22: ig://CIPAFe6B0au/m
+photo.22.author: panda.daisuki
+photo.22.commitdate: 2020/12/25
+photo.22.link: https://www.instagram.com/panda.daisuki/
+photo.22.tags: apple time, baby, nose, portrait
+photo.23: ig://CIjVlGMheoN/m
+photo.23.author: pink.b22
+photo.23.commitdate: 2020/12/25
+photo.23.link: https://www.instagram.com/pink.b22/
+photo.23.tags: baby, bridge, paws, portrait, smile
 species: 2
 zoo: 45
