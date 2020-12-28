@@ -12,6 +12,8 @@ jp.name: ホーリー
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+location.1: 16, 2016/6/2
+location.2: 10, 2020/12/29
 photo.1: ig://BJpzTOJAB0-/m
 photo.1.author: tabechum
 photo.1.commitdate: 2020/4/12
@@ -156,4 +158,4 @@ photo.29.link: https://www.instagram.com/_saaaaaaah_/
 photo.29.tags: apple time, keeper, smile
 species: 2
 studbook.id: 1675
-zoo: 16
+zoo: 10
