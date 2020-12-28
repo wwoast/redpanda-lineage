@@ -21,52 +21,47 @@ photo.1: ig://BMD-7oyDfu2/m
 photo.1.author: zooantwerpen
 photo.1.commitdate: 2020/11/26
 photo.1.link: https://www.instagram.com/zooantwerpen/
-photo.1.tags: ear, nose, eye, tree, tail
-photo.2: ig://BMD-7oyDfu2/m
+photo.1.tags: autumn, ear, eye, laying down, nose, peek, portrait, tail, tree
+photo.2: ig://BPU3-j5hPmm/m
 photo.2.author: zooantwerpen
-photo.2.commitdate: 2020/12/12
+photo.2.commitdate: 2020/11/26
 photo.2.link: https://www.instagram.com/zooantwerpen/
-photo.2.tags: autumn, laying down, peek, portrait, tail, tree
-photo.3: ig://BPU3-j5hPmm/m
-photo.3.author: zooantwerpen
+photo.2.tags: ear, nose, eye, bamboo, muzzle, profile
+photo.3: https://www.codaworry.com/images/rpf/haiku-1-budapest.jpg
+photo.3.author: allatkerti_alapitvany
 photo.3.commitdate: 2020/11/26
-photo.3.link: https://www.instagram.com/zooantwerpen/
-photo.3.tags: ear, nose, eye, bamboo, muzzle, profile
+photo.3.link: https://www.instagram.com/allatkerti_alapitvany/
+photo.3.tags: ear, nose, eye, tongue, muzzle, profile
 photo.4: ig://BPxVCI4FYtS/m
 photo.4.author: zooantwerpen
 photo.4.commitdate: 2020/11/26
 photo.4.link: https://www.instagram.com/zooantwerpen/
 photo.4.tags: ear, nose, eye, home, tail
-photo.5: https://www.codaworry.com/images/rpf/haiku-1-budapest.jpg
-photo.5.author: allatkerti_alapitvany
+photo.5: ig://BeQRDGBjT_p/m
+photo.5.author: zooantwerpen
 photo.5.commitdate: 2020/11/26
-photo.5.link: https://www.instagram.com/allatkerti_alapitvany/
-photo.5.tags: ear, nose, eye, tongue, muzzle, profile
-photo.6: ig://BeQRDGBjT_p/m
-photo.6.author: zooantwerpen
+photo.5.link: https://www.instagram.com/zooantwerpen/
+photo.5.tags: ear, nose, blink, muzzle
+photo.6: ig://Boa1AWWglBI/m
+photo.6.author: zoobudapest
 photo.6.commitdate: 2020/11/26
-photo.6.link: https://www.instagram.com/zooantwerpen/
-photo.6.tags: ear, nose, blink, muzzle
-photo.7: ig://Boa1AWWglBI/m
-photo.7.author: zoobudapest
+photo.6.link: https://www.instagram.com/zoobudapest/
+photo.6.tags: ear, nose, eye, tree, muzzle, climb
+photo.7: ig://BugL35_gs1b/m
+photo.7.author: allatkerti_alapitvany
 photo.7.commitdate: 2020/11/26
-photo.7.link: https://www.instagram.com/zoobudapest/
-photo.7.tags: ear, nose, eye, tree, muzzle, climb
-photo.8: ig://BugL35_gs1b/m
-photo.8.author: allatkerti_alapitvany
+photo.7.link: https://www.instagram.com/allatkerti_alapitvany/
+photo.7.tags: ear, nose, eye, wink, muzzle, bamboo
+photo.8: ig://BupczJmheCk/m
+photo.8.author: nemeth_barbo
 photo.8.commitdate: 2020/11/26
-photo.8.link: https://www.instagram.com/allatkerti_alapitvany/
-photo.8.tags: ear, nose, eye, wink, muzzle, bamboo
-photo.9: ig://BupczJmheCk/m
-photo.9.author: nemeth_barbo
+photo.8.link: https://www.instagram.com/nemeth_barbo/
+photo.8.tags: ear, nose, eye, bamboo
+photo.9: ig://ByijUlphurI/m
+photo.9.author: adam_pick_lucas
 photo.9.commitdate: 2020/11/26
-photo.9.link: https://www.instagram.com/nemeth_barbo/
+photo.9.link: https://www.instagram.com/adam_pick_lucas/
 photo.9.tags: ear, nose, eye, bamboo
-photo.10: ig://ByijUlphurI/m
-photo.10.author: adam_pick_lucas
-photo.10.commitdate: 2020/11/26
-photo.10.link: https://www.instagram.com/adam_pick_lucas/
-photo.10.tags: ear, nose, eye, bamboo
 species: 1
 uncertainty: exact day of death (between 20-25)
 zoo: 265

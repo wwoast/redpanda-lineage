@@ -226,34 +226,35 @@ photo.42.author: hhpzoo
 photo.42.commitdate: 2020/8/28
 photo.42.link: https://www.instagram.com/hhpzoo/
 photo.42.tags: bamboo, paws, portrait, videolink
-photo.43: ig://CFSIvTYnZ1k/m
-photo.43.author: hhpzoo
-photo.43.commitdate: 2020/11/6
-photo.43.link: https://www.instagram.com/hhpzoo/
-photo.43.tags: smile, techitechi, white face
-photo.44: ig://CFU6HNyjQgE/m
+photo.43: ig://CErgtqygMXN/m
+photo.43.author: djjohnbeaver
+photo.43.commitdate: 2020/12/28
+photo.43.link: https://www.instagram.com/djjohnbeaver/
+photo.43.tags: bamboo, paws, portrait, videolink
+photo.44: ig://CFSIvTYnZ1k/m
 photo.44.author: hhpzoo
-photo.44.commitdate: 2020/9/24
+photo.44.commitdate: 2020/11/6
 photo.44.link: https://www.instagram.com/hhpzoo/
-photo.44.tags: portrait, white face
-photo.45: ig://CFVFXWChgtM/m
-photo.45.author: wumpwoast
-photo.45.commitdate: 2020/9/20
-photo.45.link: https://www.instagram.com/wumpwoast/
-photo.45.tags: bamboo, paws, portrait
-photo.46: ig://CH1lS6ah2-h/m
+photo.44.tags: smile, techitechi, white face
+photo.45: ig://CFU6HNyjQgE/m
+photo.45.author: hhpzoo
+photo.45.commitdate: 2020/9/24
+photo.45.link: https://www.instagram.com/hhpzoo/
+photo.45.tags: portrait, white face
+photo.46: ig://CFVFXWChgtM/m
 photo.46.author: wumpwoast
-photo.46.commitdate: 2020/11/28
+photo.46.commitdate: 2020/9/20
 photo.46.link: https://www.instagram.com/wumpwoast/
-photo.46.tags: laying down, portrait, white face
-photo.47: ig://CH9aSQPh57O/m
-photo.47.author: carsontheredpanda
-photo.47.commitdate: 2020/11/29
-photo.47.link: https://www.instagram.com/carsontheredpanda/
-photo.47.tags: bamboo, portrait, smile
-photo.48: https://www.instagram.com/p/CErgtqygMXN/media/?size=m
-photo.48.author: djjohnbeaver
-photo.48.link: https://www.instagram.com/djjohnbeaver/
-photo.48.tags: bamboo, paws, portrait, videolink
+photo.46.tags: bamboo, paws, portrait
+photo.47: ig://CH1lS6ah2-h/m
+photo.47.author: wumpwoast
+photo.47.commitdate: 2020/11/28
+photo.47.link: https://www.instagram.com/wumpwoast/
+photo.47.tags: laying down, portrait, white face
+photo.48: ig://CH9aSQPh57O/m
+photo.48.author: carsontheredpanda
+photo.48.commitdate: 2020/11/29
+photo.48.link: https://www.instagram.com/carsontheredpanda/
+photo.48.tags: bamboo, portrait, smile
 species: 1
 zoo: 47

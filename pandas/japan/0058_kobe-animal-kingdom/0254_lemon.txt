@@ -394,40 +394,41 @@ photo.76.author: gloryeui
 photo.76.commitdate: 2020/9/28
 photo.76.link: https://www.instagram.com/gloryeui/
 photo.76.tags: portrait, whiskers
-photo.77: ig://CGCVW3pBV-1/m
-photo.77.author: imagoto17
-photo.77.commitdate: 2020/10/8
-photo.77.link: https://www.instagram.com/imagoto17/
-photo.77.tags: mofumofu, portrait, smile, whiskers
-photo.78: ig://CGJBGNEBcvD/m
-photo.78.author: miis_98
-photo.78.commitdate: 2020/10/11
-photo.78.link: https://www.instagram.com/miis_98/
-photo.78.tags: portrait, smile, tongue, tail
-photo.79: ig://CGZvanPBkQt/m
-photo.79.author: hamamatsu.chiita
-photo.79.commitdate: 2020/10/29
-photo.79.link: https://www.instagram.com/hamamatsu.chiita/
-photo.79.tags: smile, whiskers
-photo.80: ig://CG0riuvAtIy/m
-photo.80.author: s24.star_load
-photo.80.commitdate: 2020/10/27
-photo.80.link: https://www.instagram.com/s24.star_load/
-photo.80.tags: smile, tongue, whiskers
-photo.81: ig://CG8OyMihv9z/m
-photo.81.author: hamamatsu.chiita
-photo.81.commitdate: 2020/11/8
-photo.81.link: https://www.instagram.com/hamamatsu.chiita/
+photo.77: ig://CFCJ8HNB9Ec/m
+photo.77.author: gloryeui
+photo.77.commitdate: 2020/12/28
+photo.77.link: https://www.instagram.com/gloryeui/
+photo.77.tags: portrait, smile, whiskers
+photo.78: ig://CGCVW3pBV-1/m
+photo.78.author: imagoto17
+photo.78.commitdate: 2020/10/8
+photo.78.link: https://www.instagram.com/imagoto17/
+photo.78.tags: mofumofu, portrait, smile, whiskers
+photo.79: ig://CGJBGNEBcvD/m
+photo.79.author: miis_98
+photo.79.commitdate: 2020/10/11
+photo.79.link: https://www.instagram.com/miis_98/
+photo.79.tags: portrait, smile, tongue, tail
+photo.80: ig://CGZvanPBkQt/m
+photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2020/10/29
+photo.80.link: https://www.instagram.com/hamamatsu.chiita/
+photo.80.tags: smile, whiskers
+photo.81: ig://CG0riuvAtIy/m
+photo.81.author: s24.star_load
+photo.81.commitdate: 2020/10/27
+photo.81.link: https://www.instagram.com/s24.star_load/
 photo.81.tags: smile, tongue, whiskers
-photo.82: ig://CHlgOIihfkH/m
+photo.82: ig://CG8OyMihv9z/m
 photo.82.author: hamamatsu.chiita
-photo.82.commitdate: 2020/11/29
+photo.82.commitdate: 2020/11/8
 photo.82.link: https://www.instagram.com/hamamatsu.chiita/
-photo.82.tags: close-up, portrait, smile, whiskers
-photo.83: https://www.instagram.com/p/CFCJ8HNB9Ec/media/?size=m
-photo.83.author: gloryeui
-photo.83.link: https://www.instagram.com/gloryeui/
-photo.83.tags: portrait, smile, whiskers
+photo.82.tags: smile, tongue, whiskers
+photo.83: ig://CHlgOIihfkH/m
+photo.83.author: hamamatsu.chiita
+photo.83.commitdate: 2020/11/29
+photo.83.link: https://www.instagram.com/hamamatsu.chiita/
+photo.83.tags: close-up, portrait, smile, whiskers
 species: 2
 studbook.id: 14164
 zoo: 58

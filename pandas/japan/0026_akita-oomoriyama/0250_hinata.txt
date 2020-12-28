@@ -267,35 +267,36 @@ photo.51.author: redpan22
 photo.51.commitdate: 2020/9/7
 photo.51.link: https://www.instagram.com/redpan22/
 photo.51.tags: paws, smile, snow
-photo.52: ig://CE0YR-ZhCYU/m
-photo.52.author: zoowfreedom299
-photo.52.commitdate: 2020/9/14
-photo.52.link: https://www.instagram.com/zoowfreedom299/
-photo.52.tags: close-up, mofumofu, smile
-photo.53: ig://CFMbk9EBV0S/m
-photo.53.author: resapan.suki
-photo.53.commitdate: 2020/9/20
-photo.53.link: https://www.instagram.com/resapan.suki/
-photo.53.tags: portrait, smile
-photo.54: ig://CFTYcnThub0/m
-photo.54.author: zoowfreedom299
-photo.54.commitdate: 2020/9/27
-photo.54.link: https://www.instagram.com/zoowfreedom299/
-photo.54.tags: apple time, paws, tree
-photo.55: ig://CGcuXydhfr7/m
+photo.52: ig://CDwD52chuO-/m
+photo.52.author: redpan22
+photo.52.commitdate: 2020/12/28
+photo.52.link: https://www.instagram.com/redpan22/
+photo.52.tags: portrait, snow
+photo.53: ig://CE0YR-ZhCYU/m
+photo.53.author: zoowfreedom299
+photo.53.commitdate: 2020/9/14
+photo.53.link: https://www.instagram.com/zoowfreedom299/
+photo.53.tags: close-up, mofumofu, smile
+photo.54: ig://CFMbk9EBV0S/m
+photo.54.author: resapan.suki
+photo.54.commitdate: 2020/9/20
+photo.54.link: https://www.instagram.com/resapan.suki/
+photo.54.tags: portrait, smile
+photo.55: ig://CFTYcnThub0/m
 photo.55.author: zoowfreedom299
-photo.55.commitdate: 2020/11/5
+photo.55.commitdate: 2020/9/27
 photo.55.link: https://www.instagram.com/zoowfreedom299/
-photo.55.tags: bamboo, bite, paws
-photo.56: ig://CHEM9u6BZiI/m
+photo.55.tags: apple time, paws, tree
+photo.56: ig://CGcuXydhfr7/m
 photo.56.author: zoowfreedom299
-photo.56.commitdate: 2020/11/7
+photo.56.commitdate: 2020/11/5
 photo.56.link: https://www.instagram.com/zoowfreedom299/
-photo.56.tags: bamboo, paws, smile, standing, tail
-photo.57: https://www.instagram.com/p/CDwD52chuO-/media/?size=m
-photo.57.author: redpan22
-photo.57.link: https://www.instagram.com/redpan22/
-photo.57.tags: portrait, snow
+photo.56.tags: bamboo, bite, paws
+photo.57: ig://CHEM9u6BZiI/m
+photo.57.author: zoowfreedom299
+photo.57.commitdate: 2020/11/7
+photo.57.link: https://www.instagram.com/zoowfreedom299/
+photo.57.tags: bamboo, paws, smile, standing, tail
 species: 2
 studbook.id: unknown
 zoo: 26
