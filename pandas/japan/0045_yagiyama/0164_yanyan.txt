@@ -460,12 +460,14 @@ photo.90.author: ssc6105
 photo.90.commitdate: 2020/12/6
 photo.90.link: https://www.instagram.com/ssc6105/
 photo.90.tags: paws, standing, tail
-photo.91: https://www.instagram.com/p/CJSjnupBKXt/media/?size=m
+photo.91: ig://CJSjnupBKXt/m
 photo.91.author: redpan22
+photo.91.commitdate: 2020/12/29
 photo.91.link: https://www.instagram.com/redpan22/
 photo.91.tags: bamboo, paws, techitechi
-photo.92: https://www.instagram.com/p/CJXX94sBCF-/media/?size=m
+photo.92: ig://CJXX94sBCF-/m
 photo.92.author: happy_love2.15
+photo.92.commitdate: 2020/12/29
 photo.92.link: https://www.instagram.com/happy_love2.15/
 photo.92.tags: bridge, portrait, snow, videolink
 species: 2
