@@ -3,10 +3,10 @@ _id: 1248
 birthday: 2019/6/1
 birthplace: 271
 children: none
-commitdate: 2020/12/29
 cn.name: 天堂
 cn.nicknames: none
 cn.othernames: none
+commitdate: 2020/12/29
 en.name: Tiang Tang
 en.nicknames: none
 en.othernames: Tiang-Tang
@@ -19,12 +19,14 @@ jp.nicknames: none
 jp.othernames: てんごく
 language.order: fr, cn, en, jp
 litter: 1247
-photo.1: https://www.instagram.com/p/B1ynbbDn_o_/media/?size=m
+photo.1: ig://B1ynbbDn_o_/m
 photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
 photo.1.link: https://www.instagram.com/chesterzoo/
 photo.1.tags: baby, keeper, paws
-photo.2: https://www.instagram.com/p/B4Pxq21H8Q1/media/?size=m
+photo.2: ig://B4Pxq21H8Q1/m
 photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
 photo.2.link: https://www.instagram.com/chesterzoo/
 photo.2.tags: baby, long-tongue, tongue, yawn
 species: 1
