@@ -29,8 +29,9 @@ photo.2.author: chesterzoo
 photo.2.commitdate: 2020/12/29
 photo.2.link: https://www.instagram.com/chesterzoo/
 photo.2.tags: baby, long-tongue, tongue, yawn
-photo.3: https://www.instagram.com/p/CJOBz4esreL/media/?size=m
+photo.3: ig://CJOBz4esreL/m
 photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
 photo.3.link: https://www.instagram.com/chesterzoo/
 photo.3.tags: baby, close-up, whiskers
 species: 1
