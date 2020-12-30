@@ -36,8 +36,9 @@ photo.3.author: chesterzoo
 photo.3.commitdate: 2020/12/29
 photo.3.link: https://www.instagram.com/chesterzoo/
 photo.3.tags: baby, paws, portrait
-photo.4: https://www.instagram.com/p/CJTM7vAKZDh/media/?size=m
+photo.4: ig://CJTM7vAKZDh/m
 photo.4.author: pairidaizaofficial
+photo.4.commitdate: 2020/12/30
 photo.4.link: https://www.instagram.com/pairidaizaofficial/
 photo.4.tags: portrait, profile, tail
 species: 1

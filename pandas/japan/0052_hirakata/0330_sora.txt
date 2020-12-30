@@ -65,12 +65,14 @@ photo.10.author: mochan8686
 photo.10.commitdate: 2020/7/31
 photo.10.link: https://www.instagram.com/mochan8686/
 photo.10.tags: mofumofu, portrait, profile
-photo.11: https://www.instagram.com/p/CJYu_UJhjPg/media/?size=m
+photo.11: ig://CJYu_UJhjPg/m
 photo.11.author: sakikukeco
+photo.11.commitdate: 2020/12/30
 photo.11.link: https://www.instagram.com/sakikukeco/
 photo.11.tags: paws, portrait, smile, tongue
-photo.12: https://www.instagram.com/p/CJalU12BX0U/media/?size=m
+photo.12: ig://CJalU12BX0U/m
 photo.12.author: bubbles_octi
+photo.12.commitdate: 2020/12/30
 photo.12.link: https://www.instagram.com/bubbles_octi/
 photo.12.tags: portrait, tail, yawn
 species: 2

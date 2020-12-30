@@ -441,8 +441,9 @@ photo.86.author: re_ichimaru
 photo.86.commitdate: 2020/12/2
 photo.86.link: https://www.instagram.com/re_ichimaru/
 photo.86.tags: paws, portrait, standing, tail
-photo.87: https://www.instagram.com/p/CI028Soh93i/media/?size=m
+photo.87: ig://CI028Soh93i/m
 photo.87.author: re_ichimaru
+photo.87.commitdate: 2020/12/30
 photo.87.link: https://www.instagram.com/hamiiiii831_/
 photo.87.tags: apple time, bite, paws, portrait, smile
 species: 2

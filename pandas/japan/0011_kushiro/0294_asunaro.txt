@@ -424,19 +424,21 @@ photo.82.author: nakacchi_desu
 photo.82.commitdate: 2020/11/1
 photo.82.link: https://www.instagram.com/nakacchi_desu/
 photo.82.tags: autumn, peek, tail, tree
-photo.83: ig://CHXrrtJhbyf/m
-photo.83.author: minatomirai215
-photo.83.commitdate: 2020/11/15
-photo.83.link: https://www.instagram.com/minatomirai215/
-photo.83.tags: autumn, peek, portrait, tail
-photo.84: https://www.instagram.com/p/CJbGYPNhdiv/media/?size=m
+photo.83: ig://CG9_QuBB5FU/m
+photo.83.author: an920000
+photo.83.commitdate: 2020/12/30
+photo.83.link: https://www.instagram.com/an920000/
+photo.83.tags: autumn, laying down, portrait, sleeping, tail, tree
+photo.84: ig://CHXrrtJhbyf/m
 photo.84.author: minatomirai215
+photo.84.commitdate: 2020/11/15
 photo.84.link: https://www.instagram.com/minatomirai215/
-photo.84.tags: autumn, portrait, whiskers
-photo.85: https://www.instagram.com/p/CG9_QuBB5FU/media/?size=m
-photo.85.author: an920000
-photo.85.link: https://www.instagram.com/an920000/
-photo.85.tags: autumn, laying down, portrait, sleeping, tail, tree
+photo.84.tags: autumn, peek, portrait, tail
+photo.85: ig://CJbGYPNhdiv/m
+photo.85.author: minatomirai215
+photo.85.commitdate: 2020/12/30
+photo.85.link: https://www.instagram.com/minatomirai215/
+photo.85.tags: autumn, portrait, whiskers
 species: 2
 studbook.id: 1681
 zoo: 11

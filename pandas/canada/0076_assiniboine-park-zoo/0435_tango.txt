@@ -36,12 +36,14 @@ photo.4.author: assiniboineparkzoo
 photo.4.commitdate: 2020/9/14
 photo.4.link: https://www.instagram.com/assiniboineparkzoo/
 photo.4.tags: close-up, lunch-time, mofumofu, paws
-photo.5: https://www.instagram.com/p/CI3sZEnAnil/media/?size=m
+photo.5: ig://CI3sZEnAnil/m
 photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2020/12/30
 photo.5.link: https://www.instagram.com/assiniboineparkzoo/
 photo.5.tags: lunch time, paws, smile
-photo.6: https://www.instagram.com/p/CI6RrkPAikO/media/?size=m
+photo.6: ig://CI6RrkPAikO/m
 photo.6.author: edmontonvalleyzoo
+photo.6.commitdate: 2020/12/30
 photo.6.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.6.tags: bamboo, paws
 species: 2
