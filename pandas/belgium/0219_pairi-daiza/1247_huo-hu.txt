@@ -9,7 +9,7 @@ cn.othernames: none
 commitdate: 2020/12/29
 en.name: Huo Hu
 en.nicknames: none
-en.othernames: Huo-Hu, Firefox
+en.othernames: Huo-Hu, Hui Hu, Hui-Hu, Firefox
 fr.name: Huo Hu
 fr.nicknames: none
 fr.othernames: none
@@ -36,6 +36,10 @@ photo.3.author: chesterzoo
 photo.3.commitdate: 2020/12/29
 photo.3.link: https://www.instagram.com/chesterzoo/
 photo.3.tags: baby, paws, portrait
+photo.4: https://www.instagram.com/p/CJTM7vAKZDh/media/?size=m
+photo.4.author: pairidaizaofficial
+photo.4.link: https://www.instagram.com/pairidaizaofficial/
+photo.4.tags: portrait, profile, tail
 species: 1
 uncertainty: birthday exact day, location.2 moving date
 zoo: 219
