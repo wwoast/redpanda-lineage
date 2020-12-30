@@ -278,8 +278,9 @@ photo.53.author: mybrotherisdylan
 photo.53.commitdate: 2020/12/20
 photo.53.link: https://www.instagram.com/mybrotherisdylan/
 photo.53.tags: bamboo, portrait, smile
-photo.54: https://www.instagram.com/p/CJN-Ws-hpdQ/media/?size=m
+photo.54: ig://CJN-Ws-hpdQ/m
 photo.54.author: mybrotherisdylan
+photo.54.commitdate: 2020/12/29
 photo.54.link: https://www.instagram.com/mybrotherisdylan/
 photo.54.tags: home, portrait, whiskers
 species: 2

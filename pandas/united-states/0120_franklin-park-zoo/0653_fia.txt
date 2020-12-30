@@ -25,8 +25,9 @@ photo.2.author: rossifari
 photo.2.commitdate: 2020/2/16
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: bamboo, portrait
-photo.3: https://www.instagram.com/p/CJOKDEFLlJ5/media/?size=m
+photo.3: ig://CJOKDEFLlJ5/m
 photo.3.author: zoonewengland
+photo.3.commitdate: 2020/12/29
 photo.3.link: https://www.instagram.com/zoonewengland/
 photo.3.tags: smile, snow
 species: 1

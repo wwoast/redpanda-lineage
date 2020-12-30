@@ -58,8 +58,9 @@ photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2020/12/3
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.9.tags: baby, bamboo, climb, home
-photo.10: https://www.instagram.com/p/CJVzJBeh3sA/media/?size=m
+photo.10: ig://CJVzJBeh3sA/m
 photo.10.author: tama67photo
+photo.10.commitdate: 2020/12/29
 photo.10.link: https://www.instagram.com/tama67photo/
 photo.10.tags: autumn, baby, paws, portrait
 species: 2
