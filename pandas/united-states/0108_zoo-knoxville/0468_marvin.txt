@@ -39,7 +39,7 @@ photo.5: ig://B5ikwTqBGEC/m
 photo.5.author: worldthathesees
 photo.5.commitdate: 2019/12/3
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: baby, portrait, profile, whiskers
+photo.5.tags: baby, portrait, whiskers
 photo.6: ig://B5ik3lVh88U/m
 photo.6.author: worldthathesees
 photo.6.commitdate: 2019/12/3
@@ -95,6 +95,10 @@ photo.16.author: worldthathesees
 photo.16.commitdate: 2020/11/29
 photo.16.link: https://www.instagram.com/worldthathesees/
 photo.16.tags: portrait, tail
+photo.17: https://www.instagram.com/p/CJNcgwwBuy7/media/?size=m
+photo.17.author: worldthathesees
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: portrait, profile, smile
 species: 1
 studbook.id: 1933
 zoo: 108
