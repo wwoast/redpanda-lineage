@@ -120,5 +120,17 @@ photo.21.author: sedgwickcountyzoo
 photo.21.commitdate: 2020/11/22
 photo.21.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.21.tags: pumpkin, paws, standing
+photo.22: https://www.instagram.com/p/CFU6oJrMqA2/media/?size=m
+photo.22.author: sedgwickcountyzoo
+photo.22.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.22.tags: paws, smile, standing, tail
+photo.23: https://www.instagram.com/p/CI3zxjpsUEB/media/?size=m
+photo.23.author: sedgwickcountyzoo
+photo.23.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.23.tags: paws, portrait, snow
+photo.24: https://www.instagram.com/p/CI4s2_jBoJ2/media/?size=m
+photo.24.author: sedgwickcountyzoo
+photo.24.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.24.tags: portrait, smile, snow
 species: 1
 zoo: 179

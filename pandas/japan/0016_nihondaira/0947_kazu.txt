@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: カズ
 language.order: jp, en
 litter: 946
+location.1: 63, 2019/7/2
+location.2: 16, 2020/12/29
 photo.1: ig://B4NDIZLhVIi/m
 photo.1.author: redpanda_nippon_takashi
 photo.1.commitdate: 2019/10/29
@@ -63,5 +65,13 @@ photo.10.author: mikaamihara
 photo.10.commitdate: 2020/12/29
 photo.10.link: https://www.instagram.com/mikaamihara/
 photo.10.tags: snow, tail
+photo.11: https://www.instagram.com/p/CJHxeW_ByVw/media/?size=m
+photo.11.author: merumeru119
+photo.11.link: https://www.instagram.com/merumeru119/
+photo.11.tags: bamboo, paws, standing
+photo.12: https://www.instagram.com/p/CJGRYXDBk49/media/?size=m
+photo.12.author: merumeru119
+photo.12.link: https://www.instagram.com/merumeru119/
+photo.12.tags: close-up
 species: 2
-zoo: 63
+zoo: 16
