@@ -317,8 +317,9 @@ photo.61.author: miis_98
 photo.61.commitdate: 2020/12/2
 photo.61.link: https://www.instagram.com/miis_98/
 photo.61.tags: peek, portrait, tail
-photo.62: https://www.instagram.com/p/CJBHsTHh12D/media/?size=m
+photo.62: ig://CJBHsTHh12D/m
 photo.62.author: shigeko0531
+photo.62.commitdate: 2020/12/30
 photo.62.link: https://www.instagram.com/shigeko0531/
 photo.62.tags: apple time, paws, portrait, smile
 species: 2

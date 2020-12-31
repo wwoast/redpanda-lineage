@@ -115,21 +115,24 @@ photo.20.author: okczoo
 photo.20.commitdate: 2020/6/6
 photo.20.link: https://www.instagram.com/okczoo/
 photo.20.tags: bamboo, smile, standing
-photo.21: ig://CHgJKhoMgPA/m
+photo.21: ig://CFU6oJrMqA2/m
 photo.21.author: sedgwickcountyzoo
-photo.21.commitdate: 2020/11/22
+photo.21.commitdate: 2020/12/30
 photo.21.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.21.tags: pumpkin, paws, standing
-photo.22: https://www.instagram.com/p/CFU6oJrMqA2/media/?size=m
+photo.21.tags: paws, smile, standing, tail
+photo.22: ig://CHgJKhoMgPA/m
 photo.22.author: sedgwickcountyzoo
+photo.22.commitdate: 2020/11/22
 photo.22.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.22.tags: paws, smile, standing, tail
-photo.23: https://www.instagram.com/p/CI3zxjpsUEB/media/?size=m
+photo.22.tags: pumpkin, paws, standing
+photo.23: ig://CI3zxjpsUEB/m
 photo.23.author: sedgwickcountyzoo
+photo.23.commitdate: 2020/12/30
 photo.23.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.23.tags: paws, portrait, snow
-photo.24: https://www.instagram.com/p/CI4s2_jBoJ2/media/?size=m
+photo.24: ig://CI4s2_jBoJ2/m
 photo.24.author: sedgwickcountyzoo
+photo.24.commitdate: 2020/12/30
 photo.24.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.24.tags: portrait, smile, snow
 species: 1

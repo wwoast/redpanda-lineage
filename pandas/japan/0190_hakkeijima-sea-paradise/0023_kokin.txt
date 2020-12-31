@@ -1012,20 +1012,21 @@ photo.202.author: gloryeui
 photo.202.commitdate: 2020/11/28
 photo.202.link: https://www.instagram.com/gloryeui/
 photo.202.tags: portrait, whiskers
-photo.203: ig://CJJQd9ThZIq/m
+photo.203: ig://CI-rQq4BJaB/m
 photo.203.author: minatomirai215
-photo.203.commitdate: 2020/12/29
+photo.203.commitdate: 2020/12/30
 photo.203.link: https://www.instagram.com/minatomirai215/
-photo.203.tags: paws, portrait, standing
-photo.204: ig://CJOoU-qBDDg/m
-photo.204.author: wumpwoast
+photo.203.tags: bamboo, portrait, smile
+photo.204: ig://CJJQd9ThZIq/m
+photo.204.author: minatomirai215
 photo.204.commitdate: 2020/12/29
-photo.204.link: https://www.instagram.com/wumpwoast/
-photo.204.tags: close-up, portrait, whiskers
-photo.205: https://www.instagram.com/p/CI-rQq4BJaB/media/?size=m
-photo.205.author: minatomirai215
-photo.205.link: https://www.instagram.com/minatomirai215/
-photo.205.tags: bamboo, portrait, smile
+photo.204.link: https://www.instagram.com/minatomirai215/
+photo.204.tags: paws, portrait, standing
+photo.205: ig://CJOoU-qBDDg/m
+photo.205.author: wumpwoast
+photo.205.commitdate: 2020/12/29
+photo.205.link: https://www.instagram.com/wumpwoast/
+photo.205.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

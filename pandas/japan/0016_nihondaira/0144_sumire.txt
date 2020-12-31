@@ -94,8 +94,9 @@ photo.16.author: lesserpanda_shizuokacity_cp
 photo.16.commitdate: 2020/11/28
 photo.16.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.16.tags: nose, portrait, tail
-photo.17: https://www.instagram.com/p/CI7DHCoB8EJ/media/?size=m
+photo.17: ig://CI7DHCoB8EJ/m
 photo.17.author: lesserpanda_shizuokacity_cp
+photo.17.commitdate: 2020/12/30
 photo.17.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.17.tags: itchy, portrait, tail
 species: 2

@@ -458,8 +458,9 @@ photo.89.author: kipekaila
 photo.89.commitdate: 2020/12/3
 photo.89.link: https://www.instagram.com/kipekaila/
 photo.89.tags: home, laying down, paws, techitechi
-photo.90: https://www.instagram.com/p/CJBhYxZhXjG/media/?size=m
+photo.90: ig://CJBhYxZhXjG/m
 photo.90.author: happy_love2.15
+photo.90.commitdate: 2020/12/30
 photo.90.link: https://www.instagram.com/happy_love2.15/
 photo.90.tags: portrait, smile, snow
 species: 2

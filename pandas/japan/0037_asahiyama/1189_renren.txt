@@ -58,14 +58,15 @@ photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2020/12/3
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.9.tags: baby, bamboo, climb, home
-photo.10: ig://CJVzJBeh3sA/m
+photo.10: ig://CJDnK81Bii2/m
 photo.10.author: tama67photo
-photo.10.commitdate: 2020/12/29
+photo.10.commitdate: 2020/12/30
 photo.10.link: https://www.instagram.com/tama67photo/
-photo.10.tags: autumn, baby, paws, portrait
-photo.11: https://www.instagram.com/p/CJDnK81Bii2/media/?size=m
+photo.10.tags: baby, mofumofu, portrait
+photo.11: ig://CJVzJBeh3sA/m
 photo.11.author: tama67photo
+photo.11.commitdate: 2020/12/29
 photo.11.link: https://www.instagram.com/tama67photo/
-photo.11.tags: baby, mofumofu, portrait
+photo.11.tags: autumn, baby, paws, portrait
 species: 2
 zoo: 37

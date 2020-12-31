@@ -312,15 +312,16 @@ photo.60.author: minato.yokohama2130
 photo.60.commitdate: 2020/12/3
 photo.60.link: https://www.instagram.com/minato.yokohama2130/
 photo.60.tags: bamboo, home, portrait, whiskers
-photo.61: ig://CJRn0_-hMoB/m
-photo.61.author: hamamatsu.chiita
-photo.61.commitdate: 2020/12/28
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
-photo.61.tags: portrait, whiskers
-photo.62: https://www.instagram.com/p/CI-3hnqhosv/media/?size=m
-photo.62.author: miis_98
-photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: mofumofu, portrait, tree, whiskers
+photo.61: ig://CI-3hnqhosv/m
+photo.61.author: miis_98
+photo.61.commitdate: 2020/12/30
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: mofumofu, portrait, tree, whiskers
+photo.62: ig://CJRn0_-hMoB/m
+photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2020/12/28
+photo.62.link: https://www.instagram.com/hamamatsu.chiita/
+photo.62.tags: portrait, whiskers
 species: 2
 studbook.id: 13167
 zoo: 13

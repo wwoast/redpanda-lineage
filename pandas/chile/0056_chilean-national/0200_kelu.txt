@@ -30,8 +30,9 @@ photo.3.author: monmon_redpanda
 photo.3.commitdate: 2019/5/9
 photo.3.link: https://www.instagram.com/monmon_redpanda/
 photo.3.tags: portrait, smile
-photo.4: https://www.instagram.com/p/CJB4_VVA-ET/media/?size=m
+photo.4: ig://CJB4_VVA-ET/m
 photo.4.author: zookeeperseba
+photo.4.commitdate: 2020/12/30
 photo.4.link: https://www.instagram.com/zookeeperseba/
 photo.4.tags: keeper, portrait
 species: 2

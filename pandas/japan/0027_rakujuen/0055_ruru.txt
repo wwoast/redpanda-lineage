@@ -278,15 +278,16 @@ photo.53.author: mybrotherisdylan
 photo.53.commitdate: 2020/12/20
 photo.53.link: https://www.instagram.com/mybrotherisdylan/
 photo.53.tags: bamboo, portrait, smile
-photo.54: ig://CJN-Ws-hpdQ/m
-photo.54.author: mybrotherisdylan
-photo.54.commitdate: 2020/12/29
-photo.54.link: https://www.instagram.com/mybrotherisdylan/
-photo.54.tags: home, portrait, whiskers
-photo.55: https://www.instagram.com/p/CI6yPhLBmdl/media/?size=m
-photo.55.author: firefoxpanda88
-photo.55.link: https://www.instagram.com/firefoxpanda88/
-photo.55.tags: bamboo, keeper, paws, standing, window
+photo.54: ig://CI6yPhLBmdl/m
+photo.54.author: firefoxpanda88
+photo.54.commitdate: 2020/12/30
+photo.54.link: https://www.instagram.com/firefoxpanda88/
+photo.54.tags: bamboo, keeper, paws, standing, window
+photo.55: ig://CJN-Ws-hpdQ/m
+photo.55.author: mybrotherisdylan
+photo.55.commitdate: 2020/12/29
+photo.55.link: https://www.instagram.com/mybrotherisdylan/
+photo.55.tags: home, portrait, whiskers
 species: 2
 studbook.id: 0874
 zoo: 27

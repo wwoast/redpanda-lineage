@@ -298,8 +298,9 @@ photo.57.author: craig_craig_craig
 photo.57.commitdate: 2020/12/28
 photo.57.link: https://www.instagram.com/craig_craig_craig/
 photo.57.tags: paws, portrait, toys, whiskers
-photo.58: https://www.instagram.com/p/CI6aY-2BqHy/media/?size=m
+photo.58: ig://CI6aY-2BqHy/m
 photo.58.author: hamamatsu.chiita
+photo.58.commitdate: 2020/12/30
 photo.58.link: https://www.instagram.com/hamamatsu.chiita/
 photo.58.tags: laying down, tail
 species: 2

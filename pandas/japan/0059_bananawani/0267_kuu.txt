@@ -106,8 +106,9 @@ photo.19.author: craig_craig_craig
 photo.19.commitdate: 2020/4/28
 photo.19.link: https://www.instagram.com/craig_craig_craig/
 photo.19.tags: portrait, tail
-photo.20: https://www.instagram.com/p/CJEETJRBVtd/media/?size=m
+photo.20: ig://CJEETJRBVtd/m
 photo.20.author: fetorus_mami
+photo.20.commitdate: 2020/12/30
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: close-up, whiskers
 species: 1
