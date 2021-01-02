@@ -408,8 +408,9 @@ photo.80.author: resapan.suki
 photo.80.commitdate: 2020/12/30
 photo.80.link: https://www.instagram.com/resapan.suki/
 photo.80.tags: mofumofu, paws, whiskers
-photo.81: https://www.instagram.com/p/CJVx9uDhbqJ/media/?size=m
+photo.81: ig://CJVx9uDhbqJ/m
 photo.81.author: miis_98
+photo.81.commitdate: 2021/1/2
 photo.81.link: https://www.instagram.com/miis_98/
 photo.81.tags: bamboo, portrait, smile
 species: 2

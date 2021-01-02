@@ -1617,19 +1617,21 @@ photo.322.author: eos1089
 photo.322.commitdate: 2020/11/18
 photo.322.link: https://www.instagram.com/eos1089/
 photo.322.tags: laying down, paws, whiskers
-photo.323: ig://CJYBi5cBfd-/m
-photo.323.author: ssc6105
-photo.323.commitdate: 2020/12/29
-photo.323.link: https://www.instagram.com/ssc6105/
-photo.323.tags: bamboo, smile, whiskers
-photo.324: https://www.instagram.com/p/CI_wYM9BH0z/media/?size=m
-photo.324.author: hamamatsu.chiita
-photo.324.link: https://www.instagram.com/hamamatsu.chiita/
-photo.324.tags: close-up, portrait, whiskers
-photo.325: https://www.instagram.com/p/CJXrtsuhEVI/media/?size=m
+photo.323: ig://CI_wYM9BH0z/m
+photo.323.author: hamamatsu.chiita
+photo.323.commitdate: 2021/1/2
+photo.323.link: https://www.instagram.com/hamamatsu.chiita/
+photo.323.tags: close-up, portrait, whiskers
+photo.324: ig://CJXrtsuhEVI/m
+photo.324.author: ssc6105
+photo.324.commitdate: 2021/1/2
+photo.324.link: https://www.instagram.com/ssc6105/
+photo.324.tags: paws, standing, whiskers
+photo.325: ig://CJYBi5cBfd-/m
 photo.325.author: ssc6105
+photo.325.commitdate: 2020/12/29
 photo.325.link: https://www.instagram.com/ssc6105/
-photo.325.tags: paws, standing, whiskers
+photo.325.tags: bamboo, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

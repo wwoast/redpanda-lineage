@@ -192,15 +192,16 @@ photo.36.author: minatomirai215
 photo.36.commitdate: 2020/11/21
 photo.36.link: https://www.instagram.com/minatomirai215/
 photo.36.tags: close-up, lips, portrait
-photo.37: ig://CJYkTiJBnbX/m
-photo.37.author: minatomirai215
-photo.37.commitdate: 2020/12/29
-photo.37.link: https://www.instagram.com/minatomirai215/
-photo.37.tags: mofumofu, portrait
-photo.38: https://www.instagram.com/p/CJUboE9hug0/media/?size=m
-photo.38.author: ck.chie
-photo.38.link: https://www.instagram.com/ck.chie/
-photo.38.tags: close-up, mofumofu, tongue, window
+photo.37: ig://CJUboE9hug0/m
+photo.37.author: ck.chie
+photo.37.commitdate: 2021/1/2
+photo.37.link: https://www.instagram.com/ck.chie/
+photo.37.tags: close-up, mofumofu, tongue, window
+photo.38: ig://CJYkTiJBnbX/m
+photo.38.author: minatomirai215
+photo.38.commitdate: 2020/12/29
+photo.38.link: https://www.instagram.com/minatomirai215/
+photo.38.tags: mofumofu, portrait
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y

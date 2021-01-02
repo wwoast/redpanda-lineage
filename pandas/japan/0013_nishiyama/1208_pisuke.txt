@@ -233,12 +233,14 @@ photo.44.author: jas_forever_love
 photo.44.commitdate: 2020/12/30
 photo.44.link: https://www.instagram.com/jas_forever_love/
 photo.44.tags: portrait, smile
-photo.45: https://www.instagram.com/p/CJTANJKhOOR/media/?size=m
+photo.45: ig://CJTANJKhOOR/m
 photo.45.author: makimaru18
+photo.45.commitdate: 2021/1/2
 photo.45.link: https://www.instagram.com/makimaru18/
 photo.45.tags: mofumofu, paws, portrait, tree
-photo.46: https://www.instagram.com/p/CJUvdb1BSY8/media/?size=m
+photo.46: ig://CJUvdb1BSY8/m
 photo.46.author: merumeru119
+photo.46.commitdate: 2021/1/2
 photo.46.link: https://www.instagram.com/merumeru119/
 photo.46.tags: mofumofu
 species: 2

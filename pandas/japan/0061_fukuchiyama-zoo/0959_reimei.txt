@@ -438,8 +438,9 @@ photo.85.author: gloryeui
 photo.85.commitdate: 2020/11/1
 photo.85.link: https://www.instagram.com/gloryeui/
 photo.85.tags: portrait, smile, tail
-photo.86: https://www.instagram.com/p/CJHeNyhhnNE/media/?size=m
+photo.86: ig://CJHeNyhhnNE/m
 photo.86.author: craig_craig_craig
+photo.86.commitdate: 2021/1/2
 photo.86.link: https://www.instagram.com/craig_craig_craig/
 photo.86.tags: mofumofu, portrait, tree
 species: 2

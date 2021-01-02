@@ -308,8 +308,9 @@ photo.59.author: hamamatsu.chiita
 photo.59.commitdate: 2020/12/3
 photo.59.link: https://www.instagram.com/hamamatsu.chiita/
 photo.59.tags: portrait, smile, whiskers
-photo.60: https://www.instagram.com/p/CJGr87bh4BE/media/?size=m
+photo.60: ig://CJGr87bh4BE/m
 photo.60.author: akiakiakiko18
+photo.60.commitdate: 2021/1/2
 photo.60.link: https://www.instagram.com/akiakiakiko18/
 photo.60.tags: close-up, portrait, smile, whiskers
 species: 2

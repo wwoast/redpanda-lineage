@@ -353,8 +353,9 @@ photo.68.author: panda.daisuki
 photo.68.commitdate: 2020/11/8
 photo.68.link: https://www.instagram.com/panda.daisuki/
 photo.68.tags: portrait, smile, tail
-photo.69: https://www.instagram.com/p/CJBchjnBm_s/media/?size=m
+photo.69: ig://CJBchjnBm_s/m
 photo.69.author: mini_cochi
+photo.69.commitdate: 2021/1/2
 photo.69.link: https://www.instagram.com/mini_cochi/
 photo.69.tags: portrait, slobber
 species: 2
