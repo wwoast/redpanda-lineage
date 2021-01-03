@@ -770,8 +770,9 @@ photo.152.author: resapan.suki
 photo.152.commitdate: 2020/11/1
 photo.152.link: https://www.instagram.com/resapan.suki/
 photo.152.tags: close-up, grooming, paws, portrait, tongue
-photo.153: https://www.instagram.com/p/CJiwH-ah5Oe/media/?size=m
+photo.153: ig://CJiwH-ah5Oe/m
 photo.153.author: chankunvv
+photo.153.commitdate: 2021/1/3
 photo.153.link: https://www.instagram.com/chankunvv/
 photo.153.tags: portrait, tail, yawn
 species: 2

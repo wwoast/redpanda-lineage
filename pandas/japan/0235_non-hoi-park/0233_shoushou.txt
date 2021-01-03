@@ -385,8 +385,9 @@ photo.74.author: kijyo.zoo
 photo.74.commitdate: 2020/11/29
 photo.74.link: https://www.instagram.com/kijyo.zoo/
 photo.74.tags: paws, portrait, smile
-photo.75: https://www.instagram.com/p/CJax4MEBsA3/media/?size=m
+photo.75: ig://CJax4MEBsA3/m
 photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2021/1/3
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
 photo.75.tags: portrait
 species: 2

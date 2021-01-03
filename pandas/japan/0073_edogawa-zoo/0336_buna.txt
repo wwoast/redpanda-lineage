@@ -340,8 +340,9 @@ photo.65.author: ssc6105
 photo.65.commitdate: 2020/12/21
 photo.65.link: https://www.instagram.com/ssc6105/
 photo.65.tags: laying down, nose
-photo.66: https://www.instagram.com/p/CJbEvANhou8/media/?size=m
+photo.66: ig://CJbEvANhou8/m
 photo.66.author: na.mo.pan
+photo.66.commitdate: 2021/1/3
 photo.66.link: https://www.instagram.com/na.mo.pan/
 photo.66.tags: home, laying down, nose, portrait
 species: 2

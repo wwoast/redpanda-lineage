@@ -282,8 +282,9 @@ photo.55.author: chankunvv
 photo.55.commitdate: 2020/11/28
 photo.55.link: https://www.instagram.com/chankunvv/
 photo.55.tags: portrait, smile
-photo.56: https://www.instagram.com/p/CJbCxunBDJE/media/?size=m
+photo.56: ig://CJbCxunBDJE/m
 photo.56.author: mifko55
+photo.56.commitdate: 2021/1/3
 photo.56.link: https://www.instagram.com/mifko55/
 photo.56.tags: peek, portrait
 species: 2

@@ -344,8 +344,9 @@ photo.66.author: ck.chie
 photo.66.commitdate: 2020/12/30
 photo.66.link: https://www.instagram.com/ck.chie/
 photo.66.tags: mofumofu
-photo.67: https://www.instagram.com/p/CJiZdq0BDRR/media/?size=m
+photo.67: ig://CJiZdq0BDRR/m
 photo.67.author: ssc6105
+photo.67.commitdate: 2021/1/3
 photo.67.link: https://www.instagram.com/ssc6105/
 photo.67.tags: mofumofu
 species: 2
