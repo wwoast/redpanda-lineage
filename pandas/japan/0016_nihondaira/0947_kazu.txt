@@ -75,5 +75,13 @@ photo.12.author: merumeru119
 photo.12.commitdate: 2020/12/30
 photo.12.link: https://www.instagram.com/merumeru119/
 photo.12.tags: close-up
+photo.13: https://www.instagram.com/p/CJioZKaB5B9/media/?size=m
+photo.13.author: kijyo.zoo
+photo.13.link: https://www.instagram.com/kijyo.zoo/
+photo.13.tags: portrait, videolink
+photo.14: https://www.instagram.com/p/CJimGZZhymu/media/?size=m
+photo.14.author: kijyo.zoo
+photo.14.link: https://www.instagram.com/kijyo.zoo/
+photo.14.tags: peek, portrait, profile
 species: 2
 zoo: 16
