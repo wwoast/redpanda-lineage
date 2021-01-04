@@ -1,6 +1,6 @@
 [panda]
 _id: 1248
-birthday: 2019/6/1
+birthday: 2019/6/22
 birthplace: 271
 children: none
 cn.name: 天堂
@@ -35,5 +35,5 @@ photo.3.commitdate: 2020/12/29
 photo.3.link: https://www.instagram.com/chesterzoo/
 photo.3.tags: baby, close-up, whiskers
 species: 1
-uncertainty: birthday exact day, current location
+uncertainty: current location
 zoo: 271
