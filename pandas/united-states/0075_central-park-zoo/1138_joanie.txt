@@ -13,10 +13,17 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1139
+location.1: 121, 2019/6/20
+location.2: 75, 2020/12/1
 photo.1: ig://B6Q5k_hn_3D/m
 photo.1.author: zooboise
 photo.1.commitdate: 2020/3/21
 photo.1.link: https://www.instagram.com/zooboise/
-photo.1.tags: baby, bamboo, mofumofu, portrait, snow
+photo.1.tags: baby, bamboo, mofumofu, portrait, profile, snow
+photo.2: https://www.instagram.com/p/CJY5yj_gzOh/media/?size=m
+photo.2.author: centralparkzoo
+photo.2.link: https://www.instagram.com/centralparkzoo/
+photo.2.tags: nose, snow
 species: 1
+uncertainty: location.2 move date
 zoo: 121
