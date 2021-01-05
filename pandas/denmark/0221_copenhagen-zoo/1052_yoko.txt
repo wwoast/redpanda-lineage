@@ -1,19 +1,19 @@
 [panda]
-_id: 1053
+_id: 1052
 birthday: 2016/6/22
 birthplace: 219
 children: unknown
 commitdate: 2019/11/13
-en.name: Tsuki
+en.name: Yoko
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: ツキ
+jp.name: ヨーコ
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: ヨコ
 language.order: en, jp
-litter: 1052
+litter: 1053
 location.1: 219, 2016/6/22
-location.2: 221, 2017/1/29
+location.2: 221, 2017/7/17
 species: 1
 zoo: 221
