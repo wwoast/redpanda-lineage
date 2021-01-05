@@ -1,0 +1,19 @@
+[panda]
+_id: 1251
+birthday: 2020/6/16
+birthplace: 108
+children: none
+commitdate: 2021/1/4
+en.name: Joe
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジョー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 108, 2020/6/16
+location.2: 141, 2020/9/17
+species: 1
+zoo: 141
