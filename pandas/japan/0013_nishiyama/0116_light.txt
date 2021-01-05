@@ -301,82 +301,95 @@ photo.58.author: hamamatsu.chiita
 photo.58.commitdate: 2020/8/16
 photo.58.link: https://www.instagram.com/hamamatsu.chiita/
 photo.58.tags: mofumofu, portrait, tongue, whiskers
-photo.59: ig://CEK9YVNhi4E/m
-photo.59.author: redpanda_nippon_takashi
-photo.59.commitdate: 2020/9/13
-photo.59.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.59.tags: bear worm, laying down, paws, smile, tree
-photo.60: ig://CIMK8D9hUAw/m
-photo.60.author: hamamatsu.chiita
-photo.60.commitdate: 2020/12/3
-photo.60.link: https://www.instagram.com/hamamatsu.chiita/
-photo.60.tags: lunch time, paws, portrait, tongue
-photo.61: ig://CIP068YhyCv/m
-photo.61.author: minato.yokohama2130
-photo.61.commitdate: 2020/12/3
-photo.61.link: https://www.instagram.com/minato.yokohama2130/
-photo.61.tags: bamboo, home, portrait, whiskers
-photo.62: ig://CI-3hnqhosv/m
-photo.62.author: miis_98
-photo.62.commitdate: 2020/12/30
-photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: mofumofu, portrait, tree, whiskers
-photo.63: ig://CJRn0_-hMoB/m
-photo.63.author: hamamatsu.chiita
-photo.63.commitdate: 2020/12/28
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: portrait, whiskers
-photo.64: https://www.instagram.com/p/CHYjL7zBRNj/media/?size=m
-photo.64.author: hamamatsu.chiita
-photo.64.link: https://www.instagram.com/hamamatsu.chiita/
-photo.64.tags: portrait, whiskers
-photo.65: https://www.instagram.com/p/CGO3zpMB242/media/?size=m
-photo.65.author: kotata_513
-photo.65.link: https://www.instagram.com/kotata_513/
-photo.65.tags: laying down, tail, tree
-photo.66: https://www.instagram.com/p/CGR0WMbBwCw/media/?size=m
-photo.66.author: akiakiakiko18
-photo.66.link: https://www.instagram.com/akiakiakiko18/
-photo.66.tags: laying down, paws, sleeping, tree
-photo.67: https://www.instagram.com/p/CGR0LlZhPEc/media/?size=m
+photo.59: ig://CEEc3lqBXVD/m
+photo.59.author: minato.yokohama2130
+photo.59.commitdate: 2021/1/4
+photo.59.link: https://www.instagram.com/minato.yokohama2130/
+photo.59.tags: laying down, portrait, smile, videolink
+photo.60: ig://CEK9YVNhi4E/m
+photo.60.author: redpanda_nippon_takashi
+photo.60.commitdate: 2020/9/13
+photo.60.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.60.tags: bear worm, laying down, paws, smile, tree
+photo.61: ig://CEYxJ6LhCCC/m
+photo.61.author: redpanda_nippon_takashi
+photo.61.commitdate: 2021/1/4
+photo.61.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.61.tags: portrait, smile, whiskers
+photo.62: ig://CEly6hWBomX/m
+photo.62.author: minato.yokohama2130
+photo.62.commitdate: 2021/1/4
+photo.62.link: https://www.instagram.com/minato.yokohama2130/
+photo.62.tags: laying down, portrait, smile, tail
+photo.63: ig://CEwLv4Hhzyy/m
+photo.63.author: minato.yokohama2130
+photo.63.commitdate: 2021/1/4
+photo.63.link: https://www.instagram.com/minato.yokohama2130/
+photo.63.tags: portrait, videolink
+photo.64: ig://CFOpV2-BoBG/m
+photo.64.author: minato.yokohama2130
+photo.64.commitdate: 2021/1/4
+photo.64.link: https://www.instagram.com/minato.yokohama2130/
+photo.64.tags: portrait, tree, whiskers
+photo.65: ig://CFaZBMpBkGr/m
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2021/1/4
+photo.65.link: https://www.instagram.com/hamamatsu.chiita/
+photo.65.tags: close-up, smile, whiskers
+photo.66: ig://CGO3zpMB242/m
+photo.66.author: kotata_513
+photo.66.commitdate: 2021/1/4
+photo.66.link: https://www.instagram.com/kotata_513/
+photo.66.tags: laying down, tail, tree
+photo.67: ig://CGR0LlZhPEc/m
 photo.67.author: akiakiakiko18
+photo.67.commitdate: 2021/1/4
 photo.67.link: https://www.instagram.com/akiakiakiko18/
 photo.67.tags: laying down, paws, portrait, tail, tree
-photo.68: https://www.instagram.com/p/CFaZBMpBkGr/media/?size=m
-photo.68.author: hamamatsu.chiita
-photo.68.link: https://www.instagram.com/hamamatsu.chiita/
-photo.68.tags: close-up, smile, whiskers
-photo.69: https://www.instagram.com/p/CFOpV2-BoBG/media/?size=m
-photo.69.author: minato.yokohama2130
-photo.69.link: https://www.instagram.com/minato.yokohama2130/
-photo.69.tags: portrait, tree, whiskers
-photo.70: https://www.instagram.com/p/CEwLv4Hhzyy/media/?size=m
-photo.70.author: minato.yokohama2130
-photo.70.link: https://www.instagram.com/minato.yokohama2130/
-photo.70.tags: portrait, videolink
-photo.71: https://www.instagram.com/p/CEYxJ6LhCCC/media/?size=m
-photo.71.author: redpanda_nippon_takashi
-photo.71.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.71.tags: portrait, smile, whiskers
-photo.72: https://www.instagram.com/p/CEly6hWBomX/media/?size=m
+photo.68: ig://CGR0WMbBwCw/m
+photo.68.author: akiakiakiko18
+photo.68.commitdate: 2021/1/4
+photo.68.link: https://www.instagram.com/akiakiakiko18/
+photo.68.tags: laying down, paws, sleeping, tree
+photo.69: ig://CHYjL7zBRNj/m
+photo.69.author: hamamatsu.chiita
+photo.69.commitdate: 2021/1/4
+photo.69.link: https://www.instagram.com/hamamatsu.chiita/
+photo.69.tags: portrait, whiskers
+photo.70: ig://CH-fj5nBM4m/m
+photo.70.author: bubbles_octi
+photo.70.commitdate: 2021/1/4
+photo.70.link: https://www.instagram.com/bubbles_octi/
+photo.71: ig://CIMK8D9hUAw/m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2020/12/3
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: lunch time, paws, portrait, tongue
+photo.72: ig://CIP068YhyCv/m
 photo.72.author: minato.yokohama2130
+photo.72.commitdate: 2020/12/3
 photo.72.link: https://www.instagram.com/minato.yokohama2130/
-photo.72.tags: laying down, portrait, smile, tail
-photo.73: https://www.instagram.com/p/CEEc3lqBXVD/media/?size=m
-photo.73.author: minato.yokohama2130
-photo.73.link: https://www.instagram.com/minato.yokohama2130/
-photo.73.tags: laying down, portrait, smile, videolink
-photo.74: https://www.instagram.com/p/CJDuREAhAlp/media/?size=m
-photo.74.author: jas_forever_love
-photo.74.link: https://www.instagram.com/jas_forever_love/
-photo.74.tags: portrait, snow, tree
-photo.75: https://www.instagram.com/p/CIYKmK0hkGW/media/?size=m
-photo.75.author: craig_craig_craig
-photo.75.link: https://www.instagram.com/craig_craig_craig/
-photo.75.tags: portrait, standing, videolink
-photo.76: https://www.instagram.com/p/CH-fj5nBM4m/media/?size=m
-photo.76.author: bubbles_octi
-photo.76.link: https://www.instagram.com/bubbles_octi/
+photo.72.tags: bamboo, home, portrait, whiskers
+photo.73: ig://CIYKmK0hkGW/m
+photo.73.author: craig_craig_craig
+photo.73.commitdate: 2021/1/4
+photo.73.link: https://www.instagram.com/craig_craig_craig/
+photo.73.tags: portrait, standing, videolink
+photo.74: ig://CI-3hnqhosv/m
+photo.74.author: miis_98
+photo.74.commitdate: 2020/12/30
+photo.74.link: https://www.instagram.com/miis_98/
+photo.74.tags: mofumofu, portrait, tree, whiskers
+photo.75: ig://CJDuREAhAlp/m
+photo.75.author: jas_forever_love
+photo.75.commitdate: 2021/1/4
+photo.75.link: https://www.instagram.com/jas_forever_love/
+photo.75.tags: portrait, snow, tree
+photo.76: ig://CJRn0_-hMoB/m
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2020/12/28
+photo.76.link: https://www.instagram.com/hamamatsu.chiita/
+photo.76.tags: portrait, whiskers
 species: 2
 studbook.id: 13167
 zoo: 13
