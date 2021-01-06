@@ -13,12 +13,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1212
-photo.1: https://www.instagram.com/p/CHc5NTyASs8/media/?size=m
+photo.1: ig://CHc5NTyASs8/m
 photo.1.author: pippin455
+photo.1.commitdate: 2021/1/5
 photo.1.link: https://www.instagram.com/pippin455/
 photo.1.tags: baby, portrait, profile, smile
-photo.2: https://www.instagram.com/p/CI1E_SihckZ/media/?size=m
+photo.2: ig://CI1E_SihckZ/m
 photo.2.author: eriezoo
+photo.2.commitdate: 2021/1/5
 photo.2.link: https://www.instagram.com/eriezoo/
 photo.2.tags: baby, close-up, lunch time, portrait, whiskers
 species: 1

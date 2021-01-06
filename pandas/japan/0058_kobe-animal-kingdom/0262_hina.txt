@@ -248,61 +248,71 @@ photo.47.author: kai.kuniko
 photo.47.commitdate: 2020/3/24
 photo.47.link: https://www.instagram.com/kai.kuniko/
 photo.47.tags: close-up, laying down, portrait, whiskers
-photo.48: ig://CEehzT4B_5R/m
-photo.48.author: i.satosato
-photo.48.commitdate: 2020/9/4
-photo.48.link: https://www.instagram.com/i.satosato/
-photo.48.tags: bridge, laying down, mofumofu, portrait, smile, tongue
-photo.49: ig://CF3ASKnBOSx/m
-photo.49.author: miis_98
-photo.49.commitdate: 2020/10/9
-photo.49.link: https://www.instagram.com/miis_98/
-photo.49.tags: paws, portrait, smile
-photo.50: ig://CHi6rSThSu7/m
-photo.50.author: hamamatsu.chiita
-photo.50.commitdate: 2020/12/9
-photo.50.link: https://www.instagram.com/hamamatsu.chiita/
-photo.50.tags: portrait, smile, whiskers, white face
-photo.51: https://www.instagram.com/p/CE9M36shoOf/media/?size=m
-photo.51.author: gloryeui
-photo.51.link: https://www.instagram.com/gloryeui/
-photo.51.tags: portrait, tail
-photo.52: https://www.instagram.com/p/CEWKo5BBYZ9/media/?size=m
-photo.52.author: gloryeui
-photo.52.link: https://www.instagram.com/gloryeui/
-photo.52.tags: laying down, mofumofu, paws, portrait, tail
-photo.53: https://www.instagram.com/p/CEjJoMcBEcb/media/?size=m
-photo.53.author: i.satosato
-photo.53.link: https://www.instagram.com/i.satosato/
-photo.53.tags: apple time, peek, portrait
-photo.54: https://www.instagram.com/p/CCBaYFLB3kI/media/?size=m
-photo.54.author: panda.daisuki
-photo.54.link: https://www.instagram.com/panda.daisuki/
-photo.54.tags: close-up, portrait, whiskers
-photo.55: https://www.instagram.com/p/CBNnXbfBY_s/media/?size=m
-photo.55.author: jas_forever_love
-photo.55.link: https://www.instagram.com/jas_forever_love/
-photo.55.tags: bamboo, portrait, tongue
-photo.56: https://www.instagram.com/p/CHPaGKBBX3Q/media/?size=m
-photo.56.author: mariten1119
-photo.56.link: https://www.instagram.com/mariten1119/
-photo.56.tags: paws, portrait, standing, tongue
-photo.57: https://www.instagram.com/p/CHNfiAfBZoH/media/?size=m
-photo.57.author: mariten1119
-photo.57.link: https://www.instagram.com/mariten1119/
-photo.57.tags: close-up, whiskers
-photo.58: https://www.instagram.com/p/CGbEo8Fh2Ca/media/?size=m
-photo.58.author: hamamatsu.chiita
-photo.58.link: https://www.instagram.com/hamamatsu.chiita/
-photo.58.tags: close-up, portrait, whiskers
-photo.59: https://www.instagram.com/p/CF_REGkhzSZ/media/?size=m
-photo.59.author: miis_98
-photo.59.link: https://www.instagram.com/miis_98/
-photo.59.tags: bamboo, portrait, smile, tongue
-photo.60: https://www.instagram.com/p/CEySS6jhzxu/media/?size=m
-photo.60.author: gloryeui
-photo.60.link: https://www.instagram.com/gloryeui/
-photo.60.tags: peek, portrait, smile, tongue
+photo.48: ig://CBNnXbfBY_s/m
+photo.48.author: jas_forever_love
+photo.48.commitdate: 2021/1/5
+photo.48.link: https://www.instagram.com/jas_forever_love/
+photo.48.tags: bamboo, portrait, tongue
+photo.49: ig://CCBaYFLB3kI/m
+photo.49.author: panda.daisuki
+photo.49.commitdate: 2021/1/5
+photo.49.link: https://www.instagram.com/panda.daisuki/
+photo.49.tags: close-up, portrait, whiskers
+photo.50: ig://CEWKo5BBYZ9/m
+photo.50.author: gloryeui
+photo.50.commitdate: 2021/1/5
+photo.50.link: https://www.instagram.com/gloryeui/
+photo.50.tags: laying down, mofumofu, paws, portrait, tail
+photo.51: ig://CEehzT4B_5R/m
+photo.51.author: i.satosato
+photo.51.commitdate: 2020/9/4
+photo.51.link: https://www.instagram.com/i.satosato/
+photo.51.tags: bridge, laying down, mofumofu, portrait, smile, tongue
+photo.52: ig://CEjJoMcBEcb/m
+photo.52.author: i.satosato
+photo.52.commitdate: 2021/1/5
+photo.52.link: https://www.instagram.com/i.satosato/
+photo.52.tags: apple time, peek, portrait
+photo.53: ig://CEySS6jhzxu/m
+photo.53.author: gloryeui
+photo.53.commitdate: 2021/1/5
+photo.53.link: https://www.instagram.com/gloryeui/
+photo.53.tags: peek, portrait, smile, tongue
+photo.54: ig://CE9M36shoOf/m
+photo.54.author: gloryeui
+photo.54.commitdate: 2021/1/5
+photo.54.link: https://www.instagram.com/gloryeui/
+photo.54.tags: portrait, tail
+photo.55: ig://CF3ASKnBOSx/m
+photo.55.author: miis_98
+photo.55.commitdate: 2020/10/9
+photo.55.link: https://www.instagram.com/miis_98/
+photo.55.tags: paws, portrait, smile
+photo.56: ig://CF_REGkhzSZ/m
+photo.56.author: miis_98
+photo.56.commitdate: 2021/1/5
+photo.56.link: https://www.instagram.com/miis_98/
+photo.56.tags: bamboo, portrait, smile, tongue
+photo.57: ig://CGbEo8Fh2Ca/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2021/1/5
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
+photo.57.tags: close-up, portrait, whiskers
+photo.58: ig://CHNfiAfBZoH/m
+photo.58.author: mariten1119
+photo.58.commitdate: 2021/1/5
+photo.58.link: https://www.instagram.com/mariten1119/
+photo.58.tags: close-up, whiskers
+photo.59: ig://CHPaGKBBX3Q/m
+photo.59.author: mariten1119
+photo.59.commitdate: 2021/1/5
+photo.59.link: https://www.instagram.com/mariten1119/
+photo.59.tags: paws, portrait, standing, tongue
+photo.60: ig://CHi6rSThSu7/m
+photo.60.author: hamamatsu.chiita
+photo.60.commitdate: 2020/12/9
+photo.60.link: https://www.instagram.com/hamamatsu.chiita/
+photo.60.tags: portrait, smile, whiskers, white face
 species: 2
 studbook.id: 15145
 zoo: 58
