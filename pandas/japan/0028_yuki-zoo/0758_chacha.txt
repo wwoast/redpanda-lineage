@@ -17,4 +17,5 @@ litter: none
 location.1: 1, 1995/7/2
 location.2: 28, 1998/12/7
 species: 2
+studbook.id: 95100
 zoo: 28

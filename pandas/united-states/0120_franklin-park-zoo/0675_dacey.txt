@@ -15,4 +15,5 @@ jp.othernames: none
 language.order: en, jp
 litter: 794, 795
 species: 1
+studbook.id: 0001
 zoo: 120
