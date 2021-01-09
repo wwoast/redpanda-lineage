@@ -404,8 +404,9 @@ photo.78.author: panda.daisuki
 photo.78.commitdate: 2020/10/16
 photo.78.link: https://www.instagram.com/panda.daisuki/
 photo.78.tags: portrait, smile, tail, whiskers
-photo.79: https://www.instagram.com/p/CJm6GSyBzpj/media/?size=m
+photo.79: ig://CJm6GSyBzpj/m
 photo.79.author: ssc6105
+photo.79.commitdate: 2021/1/8
 photo.79.link: https://www.instagram.com/ssc6105/
 photo.79.tags: bamboo, paws, smile
 species: 2

@@ -158,8 +158,9 @@ photo.30.author: mybrotherisdylan
 photo.30.commitdate: 2020/11/15
 photo.30.link: https://www.instagram.com/mybrotherisdylan/
 photo.30.tags: close-up, paws
-photo.31: https://www.instagram.com/p/CJmy1dGhhqm/media/?size=m
+photo.31: ig://CJmy1dGhhqm/m
 photo.31.author: mybrotherisdylan
+photo.31.commitdate: 2021/1/8
 photo.31.link: https://www.instagram.com/mybrotherisdylan/
 photo.31.tags: patrol, tail, whiskers
 species: 1

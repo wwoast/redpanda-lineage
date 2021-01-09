@@ -328,8 +328,9 @@ photo.63.author: s.okano521
 photo.63.commitdate: 2020/12/2
 photo.63.link: https://www.instagram.com/s.okano521/
 photo.63.tags: bamboo, paws, smile
-photo.64: https://www.instagram.com/p/CJilqO1hyC7/media/?size=m
+photo.64: ig://CJilqO1hyC7/m
 photo.64.author: fetorus_mami
+photo.64.commitdate: 2021/1/8
 photo.64.link: https://www.instagram.com/fetorus_mami/
 photo.64.tags: laying down, tail, tree
 species: 2

@@ -243,8 +243,9 @@ photo.46.author: hamamatsu.chiita
 photo.46.commitdate: 2020/11/21
 photo.46.link: https://www.instagram.com/hamamatsu.chiita/
 photo.46.tags: mofumofu, portrait
-photo.47: https://www.instagram.com/p/CJinNSMhbDO/media/?size=m
+photo.47: ig://CJinNSMhbDO/m
 photo.47.author: hamamatsu.chiita
+photo.47.commitdate: 2021/1/8
 photo.47.link: https://www.instagram.com/hamamatsu.chiita/
 photo.47.tags: portrait, tongue
 species: 2

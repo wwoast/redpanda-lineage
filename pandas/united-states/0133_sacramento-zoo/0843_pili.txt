@@ -35,8 +35,9 @@ photo.4.author: ohmygoat1
 photo.4.commitdate: 2020/3/29
 photo.4.link: https://www.instagram.com/ohmygoat1/
 photo.4.tags: paws, tree, whiskers
-photo.5: https://www.instagram.com/p/CJh1RqeAXIK/media/?size=m
+photo.5: ig://CJh1RqeAXIK/m
 photo.5.author: ohmygoat1
+photo.5.commitdate: 2021/1/8
 photo.5.link: https://www.instagram.com/ohmygoat1/
 photo.5.tags: mofumofu, tail, white face
 species: 1
