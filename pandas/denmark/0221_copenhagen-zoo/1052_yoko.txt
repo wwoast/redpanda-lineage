@@ -15,5 +15,8 @@ language.order: en, jp
 litter: 1053
 location.1: 219, 2016/6/22
 location.2: 221, 2017/7/17
+photo.1: https://www.instagram.com/p/CAXZFp1BffW/media/?size=m
+photo.1.author: copenhagenzoo
+photo.1.link: https://www.instagram.com/copenhagenzoo/
 species: 1
 zoo: 221
