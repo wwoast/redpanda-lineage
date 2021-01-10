@@ -135,23 +135,25 @@ photo.24.author: grskus_tk
 photo.24.commitdate: 2020/12/8
 photo.24.link: https://www.instagram.com/grskus_tk/
 photo.24.tags: bamboo, smile, tail
-photo.25: ig://CINyt9-BVWw/m
-photo.25.author: merumeru119
-photo.25.commitdate: 2020/12/8
-photo.25.link: https://www.instagram.com/merumeru119/
-photo.25.tags: home, paws, portrait
-photo.26: ig://CIVZ3e0h22H/m
+photo.25: ig://CH9j6-mh6Cx/m
+photo.25.author: grskus_tk
+photo.25.commitdate: 2021/1/9
+photo.25.link: https://www.instagram.com/grskus_tk/
+photo.25.tags: apple time, paws, smile
+photo.26: ig://CINyt9-BVWw/m
 photo.26.author: merumeru119
-photo.26.commitdate: 2020/12/25
+photo.26.commitdate: 2020/12/8
 photo.26.link: https://www.instagram.com/merumeru119/
-photo.26.tags: peek, snow
-photo.27: https://www.instagram.com/p/CISXr21ho62/media/?size=m
+photo.26.tags: home, paws, portrait
+photo.27: ig://CISXr21ho62/m
 photo.27.author: merumeru119
+photo.27.commitdate: 2021/1/9
 photo.27.link: https://www.instagram.com/merumeru119/
 photo.27.tags: tail
-photo.28: https://www.instagram.com/p/CH9j6-mh6Cx/media/?size=m
-photo.28.author: grskus_tk
-photo.28.link: https://www.instagram.com/grskus_tk/
-photo.28.tags: apple time, paws, smile
+photo.28: ig://CIVZ3e0h22H/m
+photo.28.author: merumeru119
+photo.28.commitdate: 2020/12/25
+photo.28.link: https://www.instagram.com/merumeru119/
+photo.28.tags: peek, snow
 species: 2
 zoo: 264

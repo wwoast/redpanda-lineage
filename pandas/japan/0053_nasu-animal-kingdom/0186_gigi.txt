@@ -208,8 +208,9 @@ photo.39.author: kisshan324
 photo.39.commitdate: 2020/11/1
 photo.39.link: https://www.instagram.com/kisshan324/
 photo.39.tags: portrait, whiskers
-photo.40: https://www.instagram.com/p/CH8CenuBViF/media/?size=m
+photo.40: ig://CH8CenuBViF/m
 photo.40.author: kipekaila
+photo.40.commitdate: 2021/1/9
 photo.40.link: https://www.instagram.com/kipekaila/
 photo.40.tags: itchy, portrait, white face
 species: 2

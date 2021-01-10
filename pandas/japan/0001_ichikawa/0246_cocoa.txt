@@ -968,19 +968,21 @@ photo.191.author: ifumoto88
 photo.191.commitdate: 2020/11/8
 photo.191.link: https://www.instagram.com/ifumoto88/
 photo.191.tags: close-up, mofumofu, whiskers
-photo.192: ig://CIIiOAVhUH-/m
-photo.192.author: ifumoto88
-photo.192.commitdate: 2020/12/3
-photo.192.link: https://www.instagram.com/ifumoto88/
-photo.192.tags: dish, peek, portrait
-photo.193: https://www.instagram.com/p/CJlNnRphYht/media/?size=m
+photo.192: ig://CH5wikwBpB6/m
+photo.192.author: eos1089
+photo.192.commitdate: 2021/1/9
+photo.192.link: https://www.instagram.com/eos1089/
+photo.192.tags: portrait, smile, upside-down
+photo.193: ig://CIIiOAVhUH-/m
 photo.193.author: ifumoto88
+photo.193.commitdate: 2020/12/3
 photo.193.link: https://www.instagram.com/ifumoto88/
-photo.193.tags: apple time, paws, smile
-photo.194: https://www.instagram.com/p/CH5wikwBpB6/media/?size=m
-photo.194.author: eos1089
-photo.194.link: https://www.instagram.com/eos1089/
-photo.194.tags: portrait, smile, upside-down
+photo.193.tags: dish, peek, portrait
+photo.194: ig://CJlNnRphYht/m
+photo.194.author: ifumoto88
+photo.194.commitdate: 2021/1/9
+photo.194.link: https://www.instagram.com/ifumoto88/
+photo.194.tags: apple time, paws, smile
 species: 2
 studbook.id: unknown
 zoo: 1

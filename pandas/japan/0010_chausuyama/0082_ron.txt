@@ -654,14 +654,15 @@ photo.129.author: rie_panda55
 photo.129.commitdate: 2020/11/18
 photo.129.link: https://www.instagram.com/rie_panda55/
 photo.129.tags: laying down, paws, portrait, tail
-photo.130: ig://CJUZYKqhlr-/m
-photo.130.author: kipekaila
-photo.130.commitdate: 2021/1/2
-photo.130.link: https://www.instagram.com/kipekaila/
-photo.130.tags: tail
-photo.131: https://www.instagram.com/p/CH2kbb8hqg-/media/?size=m
-photo.131.author: _saaaaaaah_
-photo.131.link: https://www.instagram.com/_saaaaaaah_/
+photo.130: ig://CH2kbb8hqg-/m
+photo.130.author: _saaaaaaah_
+photo.130.commitdate: 2021/1/9
+photo.130.link: https://www.instagram.com/_saaaaaaah_/
+photo.131: ig://CJUZYKqhlr-/m
+photo.131.author: kipekaila
+photo.131.commitdate: 2021/1/2
+photo.131.link: https://www.instagram.com/kipekaila/
+photo.131.tags: tail
 species: 2
 studbook.id: 0553
 zoo: 10

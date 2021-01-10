@@ -450,38 +450,41 @@ photo.88.author: pink.b22
 photo.88.commitdate: 2020/11/29
 photo.88.link: https://www.instagram.com/pink.b22/
 photo.88.tags: portrait, tail
-photo.89: ig://CH_lkVKhDXC/m
-photo.89.author: firefoxpanda88
-photo.89.commitdate: 2020/12/6
-photo.89.link: https://www.instagram.com/firefoxpanda88/
-photo.89.tags: bamboo, bridge, portrait, whiskers
-photo.90: ig://CIAoEvZhV-x/m
-photo.90.author: ssc6105
+photo.89: ig://CH-glp0hZqO/m
+photo.89.author: s.okano521
+photo.89.commitdate: 2021/1/9
+photo.89.link: https://www.instagram.com/s.okano521/
+photo.89.tags: peek, whiskers
+photo.90: ig://CH_lkVKhDXC/m
+photo.90.author: firefoxpanda88
 photo.90.commitdate: 2020/12/6
-photo.90.link: https://www.instagram.com/ssc6105/
-photo.90.tags: paws, standing, tail
-photo.91: ig://CJSjnupBKXt/m
-photo.91.author: redpan22
-photo.91.commitdate: 2020/12/29
-photo.91.link: https://www.instagram.com/redpan22/
-photo.91.tags: bamboo, paws, techitechi
-photo.92: ig://CJXX94sBCF-/m
-photo.92.author: happy_love2.15
-photo.92.commitdate: 2020/12/29
-photo.92.link: https://www.instagram.com/happy_love2.15/
-photo.92.tags: bridge, portrait, snow, videolink
-photo.93: https://www.instagram.com/p/CJGRUU0hP2B/media/?size=m
+photo.90.link: https://www.instagram.com/firefoxpanda88/
+photo.90.tags: bamboo, bridge, portrait, whiskers
+photo.91: ig://CIAoEvZhV-x/m
+photo.91.author: ssc6105
+photo.91.commitdate: 2020/12/6
+photo.91.link: https://www.instagram.com/ssc6105/
+photo.91.tags: paws, standing, tail
+photo.92: ig://CIQLlMXBumg/m
+photo.92.author: pink.b22
+photo.92.commitdate: 2021/1/9
+photo.92.link: https://www.instagram.com/pink.b22/
+photo.92.tags: blink, smile, tail, whiskers
+photo.93: ig://CJGRUU0hP2B/m
 photo.93.author: pink.b22
+photo.93.commitdate: 2021/1/9
 photo.93.link: https://www.instagram.com/pink.b22/
 photo.93.tags: bridge, peek, portrait
-photo.94: https://www.instagram.com/p/CIQLlMXBumg/media/?size=m
-photo.94.author: pink.b22
-photo.94.link: https://www.instagram.com/pink.b22/
-photo.94.tags: blink, smile, tail, whiskers
-photo.95: https://www.instagram.com/p/CH-glp0hZqO/media/?size=m
-photo.95.author: s.okano521
-photo.95.link: https://www.instagram.com/s.okano521/
-photo.95.tags: peek, whiskers
+photo.94: ig://CJSjnupBKXt/m
+photo.94.author: redpan22
+photo.94.commitdate: 2020/12/29
+photo.94.link: https://www.instagram.com/redpan22/
+photo.94.tags: bamboo, paws, techitechi
+photo.95: ig://CJXX94sBCF-/m
+photo.95.author: happy_love2.15
+photo.95.commitdate: 2020/12/29
+photo.95.link: https://www.instagram.com/happy_love2.15/
+photo.95.tags: bridge, portrait, snow, videolink
 species: 2
 studbook.id: 14142
 zoo: 45
