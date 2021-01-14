@@ -293,8 +293,9 @@ photo.56.author: mybrotherisdylan
 photo.56.commitdate: 2020/12/29
 photo.56.link: https://www.instagram.com/mybrotherisdylan/
 photo.56.tags: home, portrait, whiskers
-photo.57: https://www.instagram.com/p/CJlCDKzBCw5/media/?size=m
+photo.57: ig://CJlCDKzBCw5/m
 photo.57.author: _saaaaaaah_
+photo.57.commitdate: 2021/1/13
 photo.57.link: https://www.instagram.com/_saaaaaaah_/
 photo.57.tags: whiskers
 species: 2

@@ -339,26 +339,29 @@ photo.65.author: fetorus_mami
 photo.65.commitdate: 2020/11/18
 photo.65.link: https://www.instagram.com/fetorus_mami/
 photo.65.tags: laying down, mofumofu, portrait, sleeping
-photo.66: ig://CI1jHgkBPkc/m
-photo.66.author: ck.chie
-photo.66.commitdate: 2020/12/30
-photo.66.link: https://www.instagram.com/ck.chie/
-photo.66.tags: mofumofu
-photo.67: ig://CJiZdq0BDRR/m
-photo.67.author: ssc6105
-photo.67.commitdate: 2021/1/3
-photo.67.link: https://www.instagram.com/ssc6105/
+photo.66: ig://CIwRMrvBgrA/m
+photo.66.author: pink.b22
+photo.66.commitdate: 2021/1/13
+photo.66.link: https://www.instagram.com/pink.b22/
+photo.66.tags: bamboo, close-up, mofumofu, paws, portrait
+photo.67: ig://CI1jHgkBPkc/m
+photo.67.author: ck.chie
+photo.67.commitdate: 2020/12/30
+photo.67.link: https://www.instagram.com/ck.chie/
 photo.67.tags: mofumofu
-photo.68: https://www.instagram.com/p/CIwRMrvBgrA/media/?size=m
-photo.68.author: pink.b22
-photo.68.link: https://www.instagram.com/pink.b22/
-photo.68.tags: bamboo, close-up, mofumofu, paws, portrait
-photo.69: https://www.instagram.com/p/CJqSN55BWe8/media/?size=m
+photo.68: ig://CJiZdq0BDRR/m
+photo.68.author: ssc6105
+photo.68.commitdate: 2021/1/3
+photo.68.link: https://www.instagram.com/ssc6105/
+photo.68.tags: mofumofu
+photo.69: ig://CJqSN55BWe8/m
 photo.69.author: ssc6105
+photo.69.commitdate: 2021/1/13
 photo.69.link: https://www.instagram.com/ssc6105/
 photo.69.tags: peek, tree
-photo.70: https://www.instagram.com/p/CJrmdg9BQF4/media/?size=m
+photo.70: ig://CJrmdg9BQF4/m
 photo.70.author: ck.chie
+photo.70.commitdate: 2021/1/13
 photo.70.link: https://www.instagram.com/ck.chie/
 photo.70.tags: peek, tree
 species: 2

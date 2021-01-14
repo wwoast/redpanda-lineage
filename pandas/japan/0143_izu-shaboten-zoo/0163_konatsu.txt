@@ -764,12 +764,14 @@ photo.152.author: pink.b22
 photo.152.commitdate: 2020/11/25
 photo.152.link: https://www.instagram.com/pink.b22/
 photo.152.tags: lunch time, mofumofu, paws, portrait, tongue
-photo.153: https://www.instagram.com/p/CIx1CpHhkp5/media/?size=m
+photo.153: ig://CIx1CpHhkp5/m
 photo.153.author: pink.b22
+photo.153.commitdate: 2021/1/13
 photo.153.link: https://www.instagram.com/pink.b22/
 photo.153.tags: laying down, mofumofu, portrait
-photo.154: https://www.instagram.com/p/CJIOz7kB5Nx/media/?size=m
+photo.154: ig://CJIOz7kB5Nx/m
 photo.154.author: tetusara.ki_
+photo.154.commitdate: 2021/1/13
 photo.154.link: https://www.instagram.com/tetusara.ki_/
 photo.154.tags: air tasting, mofumofu, portrait, tongue
 species: 2

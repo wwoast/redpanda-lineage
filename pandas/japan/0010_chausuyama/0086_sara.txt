@@ -650,20 +650,21 @@ photo.128.author: redpan22
 photo.128.commitdate: 2020/9/28
 photo.128.link: https://www.instagram.com/redpan22/
 photo.128.tags: home, portrait
-photo.129: ig://CIp3cYfhBQe/m
-photo.129.author: daniele.tokyo
-photo.129.commitdate: 2020/12/30
-photo.129.link: https://www.instagram.com/daniele.tokyo/
-photo.129.tags: home, portrait, tail, techitechi, tree
-photo.130: ig://CJFrBLLhSEe/m
-photo.130.author: shigeko0531
+photo.129: ig://CIj5N0kB0A4/m
+photo.129.author: shigeko0531
+photo.129.commitdate: 2021/1/13
+photo.129.link: https://www.instagram.com/shigeko0531/
+photo.129.tags: portrait, techitechi
+photo.130: ig://CIp3cYfhBQe/m
+photo.130.author: daniele.tokyo
 photo.130.commitdate: 2020/12/30
-photo.130.link: https://www.instagram.com/shigeko0531/
-photo.130.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.131: https://www.instagram.com/p/CIj5N0kB0A4/media/?size=m
+photo.130.link: https://www.instagram.com/daniele.tokyo/
+photo.130.tags: home, portrait, tail, techitechi, tree
+photo.131: ig://CJFrBLLhSEe/m
 photo.131.author: shigeko0531
+photo.131.commitdate: 2020/12/30
 photo.131.link: https://www.instagram.com/shigeko0531/
-photo.131.tags: portrait, techitechi
+photo.131.tags: close-up, mofumofu, portrait, smile, whiskers
 species: 2
 studbook.id: 0987
 zoo: 10

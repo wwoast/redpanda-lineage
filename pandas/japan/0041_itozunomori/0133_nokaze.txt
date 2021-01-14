@@ -267,8 +267,9 @@ photo.51.author: yossi929
 photo.51.commitdate: 2020/12/20
 photo.51.link: https://www.instagram.com/yossi929/
 photo.51.tags: portrait, whiskers
-photo.52: https://www.instagram.com/p/CJTRf2ohttH/media/?size=m
+photo.52: ig://CJTRf2ohttH/m
 photo.52.author: tokkoo0524
+photo.52.commitdate: 2021/1/13
 photo.52.link: https://www.instagram.com/tokkoo0524/
 photo.52.tags: close-up, techitechi
 species: 2

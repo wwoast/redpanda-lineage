@@ -111,8 +111,9 @@ photo.20.author: fetorus_mami
 photo.20.commitdate: 2020/12/30
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: close-up, whiskers
-photo.21: https://www.instagram.com/p/CJnAcaohNGv/media/?size=m
+photo.21: ig://CJnAcaohNGv/m
 photo.21.author: mybrotherisdylan
+photo.21.commitdate: 2021/1/13
 photo.21.link: https://www.instagram.com/mybrotherisdylan/
 photo.21.tags: grooming, laying down, paws, portrait, tongue
 species: 1

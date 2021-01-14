@@ -367,8 +367,9 @@ photo.71.author: miis_98
 photo.71.commitdate: 2020/12/12
 photo.71.link: https://www.instagram.com/miis_98/
 photo.71.tags: portrait, tree, upside-down
-photo.72: https://www.instagram.com/p/CJlv6oyBt0z/media/?size=m
+photo.72: ig://CJlv6oyBt0z/m
 photo.72.author: minatomirai215
+photo.72.commitdate: 2021/1/13
 photo.72.link: https://www.instagram.com/minatomirai215/
 photo.72.tags: apple time, dish, paws, portrait
 species: 2

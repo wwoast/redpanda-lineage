@@ -75,37 +75,39 @@ photo.12.author: mikaamihara
 photo.12.commitdate: 2020/12/29
 photo.12.link: https://www.instagram.com/mikaamihara/
 photo.12.tags: snow, tail
-photo.13: ig://CJimGZZhymu/m
-photo.13.author: kijyo.zoo
-photo.13.commitdate: 2021/1/3
-photo.13.link: https://www.instagram.com/kijyo.zoo/
-photo.13.tags: peek, portrait, profile
-photo.14: ig://CJioZKaB5B9/m
+photo.13: ig://CJiZf74BhF_/m
+photo.13.author: _saaaaaaah_
+photo.13.commitdate: 2021/1/13
+photo.13.link: https://www.instagram.com/_saaaaaaah_/
+photo.13.tags: peek, tree
+photo.14: ig://CJimGZZhymu/m
 photo.14.author: kijyo.zoo
 photo.14.commitdate: 2021/1/3
 photo.14.link: https://www.instagram.com/kijyo.zoo/
-photo.14.tags: portrait, videolink
-photo.15: ig://CJmQyGyB_m2/m
+photo.14.tags: peek, portrait, profile
+photo.15: ig://CJioZKaB5B9/m
 photo.15.author: kijyo.zoo
-photo.15.commitdate: 2021/1/8
+photo.15.commitdate: 2021/1/3
 photo.15.link: https://www.instagram.com/kijyo.zoo/
 photo.15.tags: portrait, videolink
-photo.16: ig://CJm6rVkBRXv/m
-photo.16.author: lesserpanda_shizuokacity_cp
-photo.16.commitdate: 2021/1/8
-photo.16.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.16.tags: laying down, paws, portrait, tail
-photo.17: ig://CJqYgUchlPi/m
+photo.16: ig://CJlTvLOBYRk/m
+photo.16.author: sasapan34
+photo.16.commitdate: 2021/1/13
+photo.16.link: https://www.instagram.com/sasapan34/
+photo.17: ig://CJmQyGyB_m2/m
 photo.17.author: kijyo.zoo
 photo.17.commitdate: 2021/1/8
 photo.17.link: https://www.instagram.com/kijyo.zoo/
-photo.17.tags: keeper, portrait, window
-photo.18: https://www.instagram.com/p/CJlTvLOBYRk/media/?size=m
-photo.18.author: sasapan34
-photo.18.link: https://www.instagram.com/sasapan34/
-photo.19: https://www.instagram.com/p/CJiZf74BhF_/media/?size=m
-photo.19.author: _saaaaaaah_
-photo.19.link: https://www.instagram.com/_saaaaaaah_/
-photo.19.tags: peek, tree
+photo.17.tags: portrait, videolink
+photo.18: ig://CJm6rVkBRXv/m
+photo.18.author: lesserpanda_shizuokacity_cp
+photo.18.commitdate: 2021/1/8
+photo.18.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.18.tags: laying down, paws, portrait, tail
+photo.19: ig://CJqYgUchlPi/m
+photo.19.author: kijyo.zoo
+photo.19.commitdate: 2021/1/8
+photo.19.link: https://www.instagram.com/kijyo.zoo/
+photo.19.tags: keeper, portrait, window
 species: 2
 zoo: 16

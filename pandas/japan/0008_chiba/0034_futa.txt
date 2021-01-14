@@ -315,16 +315,19 @@ photo.60.author: ssc6105
 photo.60.commitdate: 2020/11/18
 photo.60.link: https://www.instagram.com/ssc6105/
 photo.60.tags: paws, tail
-photo.61: https://www.instagram.com/p/CIrv93Uh0VU/media/?size=m
+photo.61: ig://CIrv93Uh0VU/m
 photo.61.author: panda.daisuki
+photo.61.commitdate: 2021/1/13
 photo.61.link: https://www.instagram.com/panda.daisuki/
 photo.61.tags: door, portrait, tongue
-photo.62: https://www.instagram.com/p/CJnbL_GB9UH/media/?size=m
+photo.62: ig://CJnbL_GB9UH/m
 photo.62.author: ssc6105
+photo.62.commitdate: 2021/1/13
 photo.62.link: https://www.instagram.com/ssc6105/
 photo.62.tags: paws, tongue
-photo.63: https://www.instagram.com/p/CJqeLwOhR5-/media/?size=m
+photo.63: ig://CJqeLwOhR5-/m
 photo.63.author: grskus_tk
+photo.63.commitdate: 2021/1/13
 photo.63.link: https://www.instagram.com/grskus_tk/
 photo.63.tags: tail
 species: 2
