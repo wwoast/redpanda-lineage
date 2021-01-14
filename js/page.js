@@ -293,8 +293,8 @@ Page.home.render = function() {
     // var departed = Gallery.memorialPhotoCredits(L.display, ["35"], 5, Message.memorial)
     // new_content.appendChild(departed);
     // Please remember these pandas
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
-    new_content.appendChild(memorial);
+    // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
+    // new_content.appendChild(memorial);
     // Special galleries
     // var special = Gallery.special.taglist(L.display, 3, ["dig"], Message.shovel_pandas);
     // var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
