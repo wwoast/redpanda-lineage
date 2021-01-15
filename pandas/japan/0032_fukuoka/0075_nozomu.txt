@@ -775,12 +775,14 @@ photo.153.author: re_ichimaru
 photo.153.commitdate: 2020/12/6
 photo.153.link: https://www.instagram.com/re_ichimaru/
 photo.153.tags: laying down, portrait, sleeping
-photo.154: https://www.instagram.com/p/CJBPuUWhbMk/media/?size=m
+photo.154: ig://CJBPuUWhbMk/m
 photo.154.author: re_ichimaru
+photo.154.commitdate: 2021/1/14
 photo.154.link: https://www.instagram.com/re_ichimaru/
 photo.154.tags: apple time, bamboo, paws, portrait
-photo.155: https://www.instagram.com/p/CJCWT4vBbfR/media/?size=m
+photo.155: ig://CJCWT4vBbfR/m
 photo.155.author: yossi929
+photo.155.commitdate: 2021/1/14
 photo.155.link: https://www.instagram.com/yossi929/
 photo.155.tags: apple time, bamboo, bite, portrait
 species: 2

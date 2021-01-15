@@ -299,14 +299,16 @@ photo.57.author: tetusara.ki_
 photo.57.commitdate: 2020/11/11
 photo.57.link: https://www.instagram.com/tetusara.ki_/
 photo.57.tags: paws, portrait
-photo.58: https://www.instagram.com/p/CJE757whshZ/media/?size=m
+photo.58: ig://CI3-ZC-B3ll/m
 photo.58.author: tetusara.ki_
+photo.58.commitdate: 2021/1/14
 photo.58.link: https://www.instagram.com/tetusara.ki_/
-photo.58.tags: paws, portrait, smile
-photo.59: https://www.instagram.com/p/CI3-ZC-B3ll/media/?size=m
+photo.58.tags: portrait, smile
+photo.59: ig://CJE757whshZ/m
 photo.59.author: tetusara.ki_
+photo.59.commitdate: 2021/1/14
 photo.59.link: https://www.instagram.com/tetusara.ki_/
-photo.59.tags: portrait, smile
+photo.59.tags: paws, portrait, smile
 species: 2
 studbook.id: 15139
 zoo: 143

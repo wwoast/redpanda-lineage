@@ -263,18 +263,21 @@ photo.50.author: craig_craig_craig
 photo.50.commitdate: 2020/12/9
 photo.50.link: https://www.instagram.com/craig_craig_craig/
 photo.50.tags: portrait
-photo.51: https://www.instagram.com/p/CJo9nRQBp8j/media/?size=m
-photo.51.author: tomo3700
-photo.51.link: https://www.instagram.com/tomo3700/
-photo.51.tags: bamboo, portrait
-photo.52: https://www.instagram.com/p/CIgxZ2zBtMu/media/?size=m
+photo.51: ig://CIZNis3BNmz/m
+photo.51.author: rie_panda55
+photo.51.commitdate: 2021/1/14
+photo.51.link: https://www.instagram.com/rie_panda55/
+photo.51.tags: apple time, dish, paws, portrait
+photo.52: ig://CIgxZ2zBtMu/m
 photo.52.author: hamamatsu.chiita
+photo.52.commitdate: 2021/1/14
 photo.52.link: https://www.instagram.com/hamamatsu.chiita/
 photo.52.tags: close-up, mofumofu, portrait
-photo.53: https://www.instagram.com/p/CIZNis3BNmz/media/?size=m
-photo.53.author: rie_panda55
-photo.53.link: https://www.instagram.com/rie_panda55/
-photo.53.tags: apple time, dish, paws, portrait
+photo.53: ig://CJo9nRQBp8j/m
+photo.53.author: tomo3700
+photo.53.commitdate: 2021/1/14
+photo.53.link: https://www.instagram.com/tomo3700/
+photo.53.tags: bamboo, portrait
 species: 2
 studbook.id: 14141
 zoo: 13

@@ -1084,33 +1084,36 @@ photo.215.author: i.satosato
 photo.215.commitdate: 2020/12/12
 photo.215.link: https://www.instagram.com/i.satosato/
 photo.215.tags: paws, portrait, smile, tail, tree
-photo.216: ig://CJTk3srB4Ks/m
-photo.216.author: hamiiiii831_
-photo.216.commitdate: 2021/1/13
-photo.216.link: https://www.instagram.com/hamiiiii831_/
-photo.216.tags: portrait, smile, whiskers
-photo.217: ig://CJU1rRkBeGU/m
-photo.217.author: hamiiiii831_
-photo.217.commitdate: 2021/1/13
-photo.217.link: https://www.instagram.com/hamiiiii831_/
-photo.217.tags: paws, portrait
-photo.218: ig://CJVnImsBj90/m
-photo.218.author: falcon_tenor
-photo.218.commitdate: 2021/1/13
-photo.218.link: https://www.instagram.com/falcon_tenor/
-photo.218.tags: climb, paws, tail
-photo.219: https://www.instagram.com/p/CIjc5FfBMPc/media/?size=m
-photo.219.author: tomo3700
-photo.219.link: https://www.instagram.com/tomo3700/
-photo.219.tags: apple time, paws, portrait, standing
-photo.220: https://www.instagram.com/p/CIj8qoBhbG0/media/?size=m
-photo.220.author: falcon_tenor
-photo.220.link: https://www.instagram.com/falcon_tenor/
-photo.220.tags: portrait, smile, tongue
-photo.221: https://www.instagram.com/p/CIku553hvPG/media/?size=m
-photo.221.author: akiakiakiko18
-photo.221.link: https://www.instagram.com/colette.jp/
-photo.221.tags: portrait
+photo.216: ig://CIjc5FfBMPc/m
+photo.216.author: tomo3700
+photo.216.commitdate: 2021/1/14
+photo.216.link: https://www.instagram.com/tomo3700/
+photo.216.tags: apple time, paws, portrait, standing
+photo.217: ig://CIj8qoBhbG0/m
+photo.217.author: falcon_tenor
+photo.217.commitdate: 2021/1/14
+photo.217.link: https://www.instagram.com/falcon_tenor/
+photo.217.tags: portrait, smile, tongue
+photo.218: ig://CIku553hvPG/m
+photo.218.author: akiakiakiko18
+photo.218.commitdate: 2021/1/14
+photo.218.link: https://www.instagram.com/colette.jp/
+photo.218.tags: portrait
+photo.219: ig://CJTk3srB4Ks/m
+photo.219.author: hamiiiii831_
+photo.219.commitdate: 2021/1/13
+photo.219.link: https://www.instagram.com/hamiiiii831_/
+photo.219.tags: portrait, smile, whiskers
+photo.220: ig://CJU1rRkBeGU/m
+photo.220.author: hamiiiii831_
+photo.220.commitdate: 2021/1/13
+photo.220.link: https://www.instagram.com/hamiiiii831_/
+photo.220.tags: paws, portrait
+photo.221: ig://CJVnImsBj90/m
+photo.221.author: falcon_tenor
+photo.221.commitdate: 2021/1/13
+photo.221.link: https://www.instagram.com/falcon_tenor/
+photo.221.tags: climb, paws, tail
 species: 2
 studbook.id: 1778
 zoo: 36

@@ -406,25 +406,26 @@ photo.78.author: eos1089
 photo.78.commitdate: 2020/12/8
 photo.78.link: https://www.instagram.com/eos1089/
 photo.78.tags: dish, keeper, paws, portrait, standing, tail
-photo.79: ig://CJEV9IcBi4t/m
-photo.79.author: eos1089
-photo.79.commitdate: 2021/1/2
-photo.79.link: https://www.instagram.com/eos1089/
-photo.79.tags: bamboo, mofumofu, smile
-photo.80: ig://CJJfsLUBTR2/m
+photo.79: ig://CI0Bn3whXwO/m
+photo.79.author: pink.b22
+photo.79.commitdate: 2021/1/14
+photo.79.link: https://www.instagram.com/pink.b22/
+photo.79.tags: bamboo, mofumofu, portrait
+photo.80: ig://CJEV9IcBi4t/m
 photo.80.author: eos1089
 photo.80.commitdate: 2021/1/2
 photo.80.link: https://www.instagram.com/eos1089/
-photo.80.tags: bamboo, laying down, paws, portrait, sleeping
-photo.81: ig://CJRE3dwB7Ex/m
-photo.81.author: craig_craig_craig
+photo.80.tags: bamboo, mofumofu, smile
+photo.81: ig://CJJfsLUBTR2/m
+photo.81.author: eos1089
 photo.81.commitdate: 2021/1/2
-photo.81.link: https://www.instagram.com/craig_craig_craig/
-photo.81.tags: bamboo, peek, portrait, smile
-photo.82: https://www.instagram.com/p/CI0Bn3whXwO/media/?size=m
-photo.82.author: pink.b22
-photo.82.link: https://www.instagram.com/pink.b22/
-photo.82.tags: bamboo, mofumofu, portrait
+photo.81.link: https://www.instagram.com/eos1089/
+photo.81.tags: bamboo, laying down, paws, portrait, sleeping
+photo.82: ig://CJRE3dwB7Ex/m
+photo.82.author: craig_craig_craig
+photo.82.commitdate: 2021/1/2
+photo.82.link: https://www.instagram.com/craig_craig_craig/
+photo.82.tags: bamboo, peek, portrait, smile
 species: 2
 studbook.id: 12118
 zoo: 54

@@ -58,24 +58,25 @@ photo.9.author: redpanda_nippon_takashi
 photo.9.commitdate: 2020/12/3
 photo.9.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.9.tags: baby, bamboo, climb, home
-photo.10: ig://CJDnK81Bii2/m
+photo.10: ig://CI5aZPQBP7q/m
 photo.10.author: tama67photo
-photo.10.commitdate: 2020/12/30
+photo.10.commitdate: 2021/1/14
 photo.10.link: https://www.instagram.com/tama67photo/
-photo.10.tags: baby, mofumofu, portrait
-photo.11: ig://CJUsDV2hxQB/m
-photo.11.author: craig_craig_craig
-photo.11.commitdate: 2021/1/2
-photo.11.link: https://www.instagram.com/craig_craig_craig/
-photo.11.tags: baby, climb, mofumofu, paws
-photo.12: ig://CJVzJBeh3sA/m
-photo.12.author: tama67photo
-photo.12.commitdate: 2020/12/29
-photo.12.link: https://www.instagram.com/tama67photo/
-photo.12.tags: autumn, baby, paws, portrait
-photo.13: https://www.instagram.com/p/CI5aZPQBP7q/media/?size=m
+photo.10.tags: baby, keeper, mofumofu, tail
+photo.11: ig://CJDnK81Bii2/m
+photo.11.author: tama67photo
+photo.11.commitdate: 2020/12/30
+photo.11.link: https://www.instagram.com/tama67photo/
+photo.11.tags: baby, mofumofu, portrait
+photo.12: ig://CJUsDV2hxQB/m
+photo.12.author: craig_craig_craig
+photo.12.commitdate: 2021/1/2
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: baby, climb, mofumofu, paws
+photo.13: ig://CJVzJBeh3sA/m
 photo.13.author: tama67photo
+photo.13.commitdate: 2020/12/29
 photo.13.link: https://www.instagram.com/tama67photo/
-photo.13.tags: baby, keeper, mofumofu, tail
+photo.13.tags: autumn, baby, paws, portrait
 species: 2
 zoo: 37

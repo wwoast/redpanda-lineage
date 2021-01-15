@@ -831,8 +831,9 @@ photo.166.author: nishicotolo
 photo.166.commitdate: 2020/12/12
 photo.166.link: https://www.instagram.com/nishicotolo/
 photo.166.tags: whiskers
-photo.167: https://www.instagram.com/p/CI-yu0-BxnJ/media/?size=m
+photo.167: ig://CI-yu0-BxnJ/m
 photo.167.author: riri_panda616
+photo.167.commitdate: 2021/1/14
 photo.167.link: https://www.instagram.com/riri_panda616/
 photo.167.tags: portrait
 species: 2
