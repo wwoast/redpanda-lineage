@@ -420,14 +420,15 @@ photo.81.author: jas_forever_love
 photo.81.commitdate: 2020/12/20
 photo.81.link: https://www.instagram.com/jas_forever_love/
 photo.81.tags: apple time, paws, portrait, smile
-photo.82: ig://CJYQh19hzGp/m
-photo.82.author: jas_forever_love
-photo.82.commitdate: 2020/12/29
-photo.82.link: https://www.instagram.com/jas_forever_love/
-photo.82.tags: paws, standing
-photo.83: https://www.instagram.com/p/CIvN-2gBbSv/media/?size=m
-photo.83.author: _saaaaaaah_
-photo.83.link: https://www.instagram.com/_saaaaaaah_/
+photo.82: ig://CIvN-2gBbSv/m
+photo.82.author: _saaaaaaah_
+photo.82.commitdate: 2021/1/15
+photo.82.link: https://www.instagram.com/_saaaaaaah_/
+photo.83: ig://CJYQh19hzGp/m
+photo.83.author: jas_forever_love
+photo.83.commitdate: 2020/12/29
+photo.83.link: https://www.instagram.com/jas_forever_love/
+photo.83.tags: paws, standing
 species: 2
 studbook.id: 1786
 zoo: 2
