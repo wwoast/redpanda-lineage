@@ -110,66 +110,76 @@ photo.19.author: gloryeui
 photo.19.commitdate: 2019/10/6
 photo.19.link: https://www.instagram.com/gloryeui/
 photo.19.tags: bamboo, mofumofu, portrait
-photo.20: ig://B4_8ZE1BjBz/m
-photo.20.author: tabechum
-photo.20.commitdate: 2019/11/25
-photo.20.link: https://www.instagram.com/tabechum/
-photo.20.tags: flowers, portrait
-photo.21: ig://B5kPKTIBhxG/m
-photo.21.author: ssc6105
-photo.21.commitdate: 2019/12/5
-photo.21.link: https://www.instagram.com/ssc6105/
-photo.21.tags: bamboo, paws, smile, tongue
-photo.22: ig://B69MUYMBl1D/m
-photo.22.author: miis_98
-photo.22.commitdate: 2020/1/9
-photo.22.link: https://www.instagram.com/miis_98/
-photo.22.tags: dish, lunch time, portrait, tail, tongue
-photo.23: ig://B7EGIH3B29F/m
-photo.23.author: masa_polarbear
-photo.23.commitdate: 2020/1/12
-photo.23.link: https://www.instagram.com/masa_polarbear/
-photo.23.tags: bamboo, paws
-photo.24: ig://B-wmzMTgLN-/m
+photo.20: ig://B4FbSF7hcXI/m
+photo.20.author: mugicha0312
+photo.20.commitdate: 2019/10/27
+photo.20.link: https://www.instagram.com/mugicha0312/
+photo.20.tags: laying down, paws, portrait
+photo.21: ig://B4_8ZE1BjBz/m
+photo.21.author: tabechum
+photo.21.commitdate: 2019/11/25
+photo.21.link: https://www.instagram.com/tabechum/
+photo.21.tags: flowers, portrait
+photo.22: ig://B5kPKTIBhxG/m
+photo.22.author: ssc6105
+photo.22.commitdate: 2019/12/5
+photo.22.link: https://www.instagram.com/ssc6105/
+photo.22.tags: bamboo, paws, smile, tongue
+photo.23: ig://B6ueTefBGpI/m
+photo.23.author: mugicha0312
+photo.23.commitdate: 2020/1/3
+photo.23.link: https://www.instagram.com/mugicha0312/
+photo.23.tags: laying down, paws, portrait
+photo.24: ig://B69MUYMBl1D/m
 photo.24.author: miis_98
-photo.24.commitdate: 2020/4/26
+photo.24.commitdate: 2020/1/9
 photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: itchy, portrait
-photo.25: ig://B-3l_sVBV2A/m
-photo.25.author: tabechum
-photo.25.commitdate: 2020/4/15
-photo.25.link: https://www.instagram.com/tabechum/
-photo.25.tags: laying down, portrait, sleeping
-photo.26: ig://CBGFcUJBBmD/m
+photo.24.tags: dish, lunch time, portrait, tail, tongue
+photo.25: ig://B7EGIH3B29F/m
+photo.25.author: masa_polarbear
+photo.25.commitdate: 2020/1/12
+photo.25.link: https://www.instagram.com/masa_polarbear/
+photo.25.tags: bamboo, paws
+photo.26: ig://B-wmzMTgLN-/m
 photo.26.author: miis_98
-photo.26.commitdate: 2020/6/13
+photo.26.commitdate: 2020/4/26
 photo.26.link: https://www.instagram.com/miis_98/
-photo.26.tags: peek, whiskers
-photo.27: ig://CB9sHazhsiI/m
-photo.27.author: eos1089
-photo.27.commitdate: 2020/7/13
-photo.27.link: https://www.instagram.com/eos1089/
-photo.27.tags: paws, portrait, tail
-photo.28: ig://CDcfhashNEC/m
+photo.26.tags: itchy, portrait
+photo.27: ig://B-3l_sVBV2A/m
+photo.27.author: tabechum
+photo.27.commitdate: 2020/4/15
+photo.27.link: https://www.instagram.com/tabechum/
+photo.27.tags: laying down, portrait, sleeping
+photo.28: ig://CBGFcUJBBmD/m
 photo.28.author: miis_98
-photo.28.commitdate: 2020/8/5
+photo.28.commitdate: 2020/6/13
 photo.28.link: https://www.instagram.com/miis_98/
-photo.28.tags: bamboo, portrait, smile
-photo.29: ig://CFIdEFpBF_0/m
-photo.29.author: ssc6105
-photo.29.commitdate: 2020/9/16
-photo.29.link: https://www.instagram.com/ssc6105/
-photo.29.tags: bamboo, paws, portrait, smile, tongue
-photo.30: ig://CFhNTw5BWxT/m
+photo.28.tags: peek, whiskers
+photo.29: ig://CB9sHazhsiI/m
+photo.29.author: eos1089
+photo.29.commitdate: 2020/7/13
+photo.29.link: https://www.instagram.com/eos1089/
+photo.29.tags: paws, portrait, tail
+photo.30: ig://CDcfhashNEC/m
 photo.30.author: miis_98
-photo.30.commitdate: 2020/9/24
+photo.30.commitdate: 2020/8/5
 photo.30.link: https://www.instagram.com/miis_98/
-photo.30.tags: bite, lunch time
-photo.31: ig://CHF4fkBhs_H/m
-photo.31.author: mini_cochi
-photo.31.commitdate: 2020/11/5
-photo.31.link: https://www.instagram.com/mini_cochi/
-photo.31.tags: bamboo, mofumofu, portrait
+photo.30.tags: bamboo, portrait, smile
+photo.31: ig://CFIdEFpBF_0/m
+photo.31.author: ssc6105
+photo.31.commitdate: 2020/9/16
+photo.31.link: https://www.instagram.com/ssc6105/
+photo.31.tags: bamboo, paws, portrait, smile, tongue
+photo.32: ig://CFhNTw5BWxT/m
+photo.32.author: miis_98
+photo.32.commitdate: 2020/9/24
+photo.32.link: https://www.instagram.com/miis_98/
+photo.32.tags: bite, lunch time
+photo.33: ig://CHF4fkBhs_H/m
+photo.33.author: mini_cochi
+photo.33.commitdate: 2020/11/5
+photo.33.link: https://www.instagram.com/mini_cochi/
+photo.33.tags: bamboo, mofumofu, portrait
 species: 2
 studbook.id: 10103
 zoo: 4

@@ -13,261 +13,285 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
-photo.1: ig://CFwSobSh-6g/m
-photo.1.author: minato.yokohama2130
-photo.1.commitdate: 2020/10/2
-photo.1.link: https://www.instagram.com/minato.yokohama2130/
-photo.1.tags: baby, mofumofu, portrait, profile
-photo.2: ig://CF1hbOaB3-L/m
-photo.2.author: hamamatsu.chiita
-photo.2.commitdate: 2020/10/7
-photo.2.link: https://www.instagram.com/hamamatsu.chiita/
-photo.2.tags: baby, door, portrait
-photo.3: ig://CF9biemhGzR/m
+photo.1: ig://CFoMgLVhMPF/m
+photo.1.author: mugicha0312
+photo.1.commitdate: 2020/9/26
+photo.1.link: https://www.instagram.com/mugicha0312/
+photo.1.tags: baby, mofumofu, paws, portrait
+photo.2: ig://CFpD22JhWRa/m
+photo.2.author: mugicha0312
+photo.2.commitdate: 2020/9/27
+photo.2.link: https://www.instagram.com/mugicha0312/
+photo.2.tags: baby, mofumofu, portrait, videolink
+photo.3: ig://CFwSobSh-6g/m
 photo.3.author: minato.yokohama2130
-photo.3.commitdate: 2020/10/26
+photo.3.commitdate: 2020/10/2
 photo.3.link: https://www.instagram.com/minato.yokohama2130/
-photo.3.tags: baby, mofumofu, portrait, tail, tree
-photo.4: ig://CGBp_GVh5vr/m
-photo.4.author: mariten1119
-photo.4.commitdate: 2020/10/8
-photo.4.link: https://www.instagram.com/mariten1119/
-photo.4.tags: baby, mofumofu
-photo.5: ig://CGC5aa7BzQe/m
-photo.5.author: akiakiakiko18
-photo.5.commitdate: 2020/10/8
-photo.5.link: https://www.instagram.com/akiakiakiko18/
-photo.5.tags: baby, peek, tree
-photo.6: ig://CGENQ6hB5Yc/m
+photo.3.tags: baby, mofumofu, portrait, profile
+photo.4: ig://CF1hbOaB3-L/m
+photo.4.author: hamamatsu.chiita
+photo.4.commitdate: 2020/10/7
+photo.4.link: https://www.instagram.com/hamamatsu.chiita/
+photo.4.tags: baby, door, portrait
+photo.5: ig://CF9biemhGzR/m
+photo.5.author: minato.yokohama2130
+photo.5.commitdate: 2020/10/26
+photo.5.link: https://www.instagram.com/minato.yokohama2130/
+photo.5.tags: baby, mofumofu, portrait, tail, tree
+photo.6: ig://CGBp_GVh5vr/m
 photo.6.author: mariten1119
-photo.6.commitdate: 2020/10/9
+photo.6.commitdate: 2020/10/8
 photo.6.link: https://www.instagram.com/mariten1119/
-photo.6.tags: baby, peek, tree
-photo.7: ig://CGFkHa_hveB/m
-photo.7.author: nakacchi_desu
-photo.7.commitdate: 2020/10/9
-photo.7.link: https://www.instagram.com/nakacchi_desu/
-photo.7.tags: baby, paws, peek
-photo.8: ig://CGLihHHhtMa/m
-photo.8.author: makimaru18
-photo.8.commitdate: 2020/10/11
-photo.8.link: https://www.instagram.com/makimaru18/
-photo.8.tags: baby, close-up, peek, portrait, smile
-photo.9: ig://CGOCmzVhRB5/m
-photo.9.author: tetusara.ki_
-photo.9.commitdate: 2020/10/13
-photo.9.link: https://www.instagram.com/tetusara.ki_/
-photo.9.tags: apple time, baby, dish, keeper, portrait
-photo.10: ig://CGOCxa1BLNS/m
-photo.10.author: tetusara.ki_
+photo.6.tags: baby, mofumofu
+photo.7: ig://CGC5aa7BzQe/m
+photo.7.author: akiakiakiko18
+photo.7.commitdate: 2020/10/8
+photo.7.link: https://www.instagram.com/akiakiakiko18/
+photo.7.tags: baby, peek, tree
+photo.8: ig://CGENQ6hB5Yc/m
+photo.8.author: mariten1119
+photo.8.commitdate: 2020/10/9
+photo.8.link: https://www.instagram.com/mariten1119/
+photo.8.tags: baby, peek, tree
+photo.9: ig://CGFkHa_hveB/m
+photo.9.author: nakacchi_desu
+photo.9.commitdate: 2020/10/9
+photo.9.link: https://www.instagram.com/nakacchi_desu/
+photo.9.tags: baby, paws, peek
+photo.10: ig://CGLihHHhtMa/m
+photo.10.author: makimaru18
 photo.10.commitdate: 2020/10/11
-photo.10.link: https://www.instagram.com/tetusara.ki_/
-photo.10.tags: baby, home, portrait, smile
-photo.11: ig://CGOGuz7hmRa/m
-photo.11.author: tomo3700
-photo.11.commitdate: 2020/10/12
-photo.11.link: https://www.instagram.com/tomo3700/
-photo.11.tags: baby, close-up, bridge, paws, portrait, white face
-photo.12: ig://CGOKZFkhJYs/m
-photo.12.author: tomo3700
-photo.12.commitdate: 2020/10/12
-photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: baby, laying down, paws, portrait, tail, tree
-photo.13: ig://CGQr6iPB5-5/m
+photo.10.link: https://www.instagram.com/makimaru18/
+photo.10.tags: baby, close-up, peek, portrait, smile
+photo.11: ig://CGOCmzVhRB5/m
+photo.11.author: tetusara.ki_
+photo.11.commitdate: 2020/10/13
+photo.11.link: https://www.instagram.com/tetusara.ki_/
+photo.11.tags: apple time, baby, dish, keeper, portrait
+photo.12: ig://CGOCxa1BLNS/m
+photo.12.author: tetusara.ki_
+photo.12.commitdate: 2020/10/11
+photo.12.link: https://www.instagram.com/tetusara.ki_/
+photo.12.tags: baby, home, portrait, smile
+photo.13: ig://CGOGuz7hmRa/m
 photo.13.author: tomo3700
-photo.13.commitdate: 2020/10/13
+photo.13.commitdate: 2020/10/12
 photo.13.link: https://www.instagram.com/tomo3700/
-photo.13.tags: baby, laying down, mofumofu, portrait, tree
-photo.14: ig://CGQyAt_hVFu/m
-photo.14.author: tetusara.ki_
-photo.14.commitdate: 2020/10/13
-photo.14.link: https://www.instagram.com/tetusara.ki_/
-photo.14.tags: baby, close-up, portrait, smile, tree
-photo.15: ig://CGTIFRDhcrv/m
-photo.15.author: tetusara.ki_
+photo.13.tags: baby, close-up, bridge, paws, portrait, white face
+photo.14: ig://CGOKZFkhJYs/m
+photo.14.author: tomo3700
+photo.14.commitdate: 2020/10/12
+photo.14.link: https://www.instagram.com/tomo3700/
+photo.14.tags: baby, laying down, paws, portrait, tail, tree
+photo.15: ig://CGQr6iPB5-5/m
+photo.15.author: tomo3700
 photo.15.commitdate: 2020/10/13
-photo.15.link: https://www.instagram.com/tetusara.ki_/
-photo.15.tags: baby, laying down, portrait, tree
-photo.16: ig://CGVt0Hxh34p/m
+photo.15.link: https://www.instagram.com/tomo3700/
+photo.15.tags: baby, laying down, mofumofu, portrait, tree
+photo.16: ig://CGQyAt_hVFu/m
 photo.16.author: tetusara.ki_
-photo.16.commitdate: 2020/10/16
+photo.16.commitdate: 2020/10/13
 photo.16.link: https://www.instagram.com/tetusara.ki_/
-photo.16.tags: baby, mofumofu, portrait, tail
-photo.17: ig://CGVt_Fdh3Rb/m
+photo.16.tags: baby, close-up, portrait, smile, tree
+photo.17: ig://CGTIFRDhcrv/m
 photo.17.author: tetusara.ki_
-photo.17.commitdate: 2020/10/16
+photo.17.commitdate: 2020/10/13
 photo.17.link: https://www.instagram.com/tetusara.ki_/
-photo.17.tags: baby, mofumofu, portrait
-photo.18: ig://CGe0gruB7y7/m
-photo.18.author: daniele.tokyo
-photo.18.commitdate: 2020/10/26
-photo.18.link: https://www.instagram.com/daniele.tokyo/
-photo.18.tags: baby, peek, tree
-photo.19: ig://CGfO1Q8hfEm/m
-photo.19.author: kipekaila
-photo.19.commitdate: 2020/10/26
-photo.19.link: https://www.instagram.com/kipekaila/
-photo.19.tags: baby, tree
-photo.20: ig://CGpHsFSBd3z/m
-photo.20.author: daniele.tokyo
-photo.20.commitdate: 2020/10/26
-photo.20.link: https://www.instagram.com/daniele.tokyo/
-photo.20.tags: baby, climb, mofumofu, peek
-photo.21: ig://CGy8LiRhCsR/m
-photo.21.author: chankunvv
-photo.21.commitdate: 2020/10/29
-photo.21.link: https://www.instagram.com/chankunvv/
-photo.21.tags: baby, climb, paws, portrait, smile, tree
-photo.22: ig://CG1_qNkBot0/m
-photo.22.author: daniele.tokyo
-photo.22.commitdate: 2020/11/1
-photo.22.link: https://www.instagram.com/daniele.tokyo/
-photo.22.tags: peek, tree
-photo.23: ig://CG2BbHsBqj7/m
-photo.23.author: apple_jasmine33
-photo.23.commitdate: 2020/11/1
-photo.23.link: https://www.instagram.com/apple_jasmine33/
-photo.23.tags: baby, peek
-photo.24: ig://CG3HKBuhA1A/m
+photo.17.tags: baby, laying down, portrait, tree
+photo.18: ig://CGVt0Hxh34p/m
+photo.18.author: tetusara.ki_
+photo.18.commitdate: 2020/10/16
+photo.18.link: https://www.instagram.com/tetusara.ki_/
+photo.18.tags: baby, mofumofu, portrait, tail
+photo.19: ig://CGVt_Fdh3Rb/m
+photo.19.author: tetusara.ki_
+photo.19.commitdate: 2020/10/16
+photo.19.link: https://www.instagram.com/tetusara.ki_/
+photo.19.tags: baby, mofumofu, portrait
+photo.20: ig://CGZgAmRhr-3/m
+photo.20.author: mugicha0312
+photo.20.link: https://www.instagram.com/mugicha0312/
+photo.20.tags: baby, close-up, mofumofu, portrait
+photo.21: ig://CGbN2gohuaI/m
+photo.21.author: mugicha0312
+photo.21.commitdate: 2020/10/26
+photo.21.link: https://www.instagram.com/mugicha0312/
+photo.21.tags: baby, climb, portrait
+photo.22: ig://CGeBRFrBsNQ/m
+photo.22.author: mugicha0312
+photo.22.commitdate: 2020/10/26
+photo.22.link: https://www.instagram.com/mugicha0312/
+photo.22.tags: baby, mofumofu, portrait, videolink
+photo.23: ig://CGe0gruB7y7/m
+photo.23.author: daniele.tokyo
+photo.23.commitdate: 2020/10/26
+photo.23.link: https://www.instagram.com/daniele.tokyo/
+photo.23.tags: baby, peek, tree
+photo.24: ig://CGfO1Q8hfEm/m
 photo.24.author: kipekaila
-photo.24.commitdate: 2020/11/1
+photo.24.commitdate: 2020/10/26
 photo.24.link: https://www.instagram.com/kipekaila/
-photo.24.tags: apple time, baby, bamboo, mofumofu, smile
-photo.25: ig://CHC3pXCBkvt/m
+photo.24.tags: baby, tree
+photo.25: ig://CGpHsFSBd3z/m
 photo.25.author: daniele.tokyo
-photo.25.commitdate: 2020/11/11
+photo.25.commitdate: 2020/10/26
 photo.25.link: https://www.instagram.com/daniele.tokyo/
-photo.25.tags: baby, peek, tree
-photo.26: ig://CHC4inzBW2D/m
-photo.26.author: redpanda_nippon_takashi
-photo.26.commitdate: 2020/11/6
-photo.26.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.26.tags: baby, climb, paws
-photo.27: ig://CHC5QJBhdGw/m
-photo.27.author: redpanda_nippon_takashi
-photo.27.commitdate: 2020/11/6
-photo.27.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.27.tags: baby, close-up, mofumofu
-photo.28: ig://CHIaj5uBPd2/m
-photo.28.author: resapan.suki
-photo.28.commitdate: 2020/11/11
-photo.28.link: https://www.instagram.com/resapan.suki/
-photo.28.tags: baby, climb, paws, portrait
-photo.29: ig://CHNK0jkhn3t/m
-photo.29.author: daniele.tokyo
-photo.29.commitdate: 2020/11/11
-photo.29.link: https://www.instagram.com/daniele.tokyo/
-photo.29.tags: baby, keeper, paws, standing
-photo.30: ig://CHSfNnNh64V/m
-photo.30.author: minato.yokohama2130
-photo.30.commitdate: 2020/11/15
-photo.30.link: https://www.instagram.com/minato.yokohama2130/
-photo.30.tags: baby, climb, paws, peek, portrait
-photo.31: ig://CHV-_lKBZMM/m
-photo.31.author: hamamatsu.chiita
-photo.31.commitdate: 2020/11/15
-photo.31.link: https://www.instagram.com/hamamatsu.chiita/
-photo.31.tags: baby, paws, portrait, smile
-photo.32: ig://CHbWxtQBUOL/m
-photo.32.author: tomo3700
-photo.32.commitdate: 2020/12/9
-photo.32.link: https://www.instagram.com/tomo3700/
-photo.32.tags: baby, paws, portrait, standing, tail
-photo.33: ig://CHmI197BwkB/m
-photo.33.author: mariten1119
-photo.33.commitdate: 2020/11/29
-photo.33.link: https://www.instagram.com/mariten1119/
-photo.33.tags: baby, mofumofu
-photo.34: ig://CHmX-KABqrb/m
-photo.34.author: kisshan324
-photo.34.commitdate: 2020/11/29
-photo.34.link: https://www.instagram.com/kisshan324/
-photo.34.tags: baby, climb, portrait, tail
-photo.35: ig://CHsOOPbhzYg/m
-photo.35.author: resapan.suki
-photo.35.commitdate: 2020/11/18
-photo.35.link: https://www.instagram.com/resapan.suki/
-photo.35.tags: baby, mofumofu, peek, portrait, tree
-photo.36: ig://CHtJ5rZhvsL/m
+photo.25.tags: baby, climb, mofumofu, peek
+photo.26: ig://CGy8LiRhCsR/m
+photo.26.author: chankunvv
+photo.26.commitdate: 2020/10/29
+photo.26.link: https://www.instagram.com/chankunvv/
+photo.26.tags: baby, climb, paws, portrait, smile, tree
+photo.27: ig://CG1_qNkBot0/m
+photo.27.author: daniele.tokyo
+photo.27.commitdate: 2020/11/1
+photo.27.link: https://www.instagram.com/daniele.tokyo/
+photo.27.tags: peek, tree
+photo.28: ig://CG2BbHsBqj7/m
+photo.28.author: apple_jasmine33
+photo.28.commitdate: 2020/11/1
+photo.28.link: https://www.instagram.com/apple_jasmine33/
+photo.28.tags: baby, peek
+photo.29: ig://CG3HKBuhA1A/m
+photo.29.author: kipekaila
+photo.29.commitdate: 2020/11/1
+photo.29.link: https://www.instagram.com/kipekaila/
+photo.29.tags: apple time, baby, bamboo, mofumofu, smile
+photo.30: ig://CHC3pXCBkvt/m
+photo.30.author: daniele.tokyo
+photo.30.commitdate: 2020/11/11
+photo.30.link: https://www.instagram.com/daniele.tokyo/
+photo.30.tags: baby, peek, tree
+photo.31: ig://CHC4inzBW2D/m
+photo.31.author: redpanda_nippon_takashi
+photo.31.commitdate: 2020/11/6
+photo.31.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.31.tags: baby, climb, paws
+photo.32: ig://CHC5QJBhdGw/m
+photo.32.author: redpanda_nippon_takashi
+photo.32.commitdate: 2020/11/6
+photo.32.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.32.tags: baby, close-up, mofumofu
+photo.33: ig://CHIaj5uBPd2/m
+photo.33.author: resapan.suki
+photo.33.commitdate: 2020/11/11
+photo.33.link: https://www.instagram.com/resapan.suki/
+photo.33.tags: baby, climb, paws, portrait
+photo.34: ig://CHNK0jkhn3t/m
+photo.34.author: daniele.tokyo
+photo.34.commitdate: 2020/11/11
+photo.34.link: https://www.instagram.com/daniele.tokyo/
+photo.34.tags: baby, keeper, paws, standing
+photo.35: ig://CHSfNnNh64V/m
+photo.35.author: minato.yokohama2130
+photo.35.commitdate: 2020/11/15
+photo.35.link: https://www.instagram.com/minato.yokohama2130/
+photo.35.tags: baby, climb, paws, peek, portrait
+photo.36: ig://CHV-_lKBZMM/m
 photo.36.author: hamamatsu.chiita
-photo.36.commitdate: 2020/11/29
+photo.36.commitdate: 2020/11/15
 photo.36.link: https://www.instagram.com/hamamatsu.chiita/
-photo.36.tags: baby, paws, standing
-photo.37: ig://CHw_a1VhTh3/m
-photo.37.author: redpanda_nippon_takashi
-photo.37.commitdate: 2020/11/21
-photo.37.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.37.tags: baby, paws, spider
-photo.38: ig://CHxAE92BXXv/m
-photo.38.author: redpanda_nippon_takashi
-photo.38.commitdate: 2020/11/21
-photo.38.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.38.tags: baby, laying down, peek
-photo.39: ig://CHxAw7Ehr2p/m
-photo.39.author: redpanda_nippon_takashi
-photo.39.commitdate: 2020/11/21
-photo.39.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.39.tags: baby, close-up
-photo.40: ig://CHxBSYwhYIp/m
-photo.40.author: satoshi_jimny
-photo.40.commitdate: 2020/11/20
-photo.40.link: https://www.instagram.com/satoshi_jimny/
-photo.40.tags: baby, peek, tree
-photo.41: ig://CH-F6kghBl-/m
-photo.41.author: daniele.tokyo
+photo.36.tags: baby, paws, portrait, smile
+photo.37: ig://CHbWxtQBUOL/m
+photo.37.author: tomo3700
+photo.37.commitdate: 2020/12/9
+photo.37.link: https://www.instagram.com/tomo3700/
+photo.37.tags: baby, paws, portrait, standing, tail
+photo.38: ig://CHmI197BwkB/m
+photo.38.author: mariten1119
+photo.38.commitdate: 2020/11/29
+photo.38.link: https://www.instagram.com/mariten1119/
+photo.38.tags: baby, mofumofu
+photo.39: ig://CHmX-KABqrb/m
+photo.39.author: kisshan324
+photo.39.commitdate: 2020/11/29
+photo.39.link: https://www.instagram.com/kisshan324/
+photo.39.tags: baby, climb, portrait, tail
+photo.40: ig://CHsOOPbhzYg/m
+photo.40.author: resapan.suki
+photo.40.commitdate: 2020/11/18
+photo.40.link: https://www.instagram.com/resapan.suki/
+photo.40.tags: baby, mofumofu, peek, portrait, tree
+photo.41: ig://CHtJ5rZhvsL/m
+photo.41.author: hamamatsu.chiita
 photo.41.commitdate: 2020/11/29
-photo.41.link: https://www.instagram.com/daniele.tokyo/
-photo.41.tags: baby, bamboo, peek, tongue
-photo.42: ig://CIKsrU4hofE/m
-photo.42.author: minato.yokohama2130
-photo.42.commitdate: 2020/12/3
-photo.42.link: https://www.instagram.com/minato.yokohama2130/
-photo.42.tags: baby, laying down, mofumofu, portrait
-photo.43: ig://CIfj5WgBBPz/m
-photo.43.author: fetorus_mami
-photo.43.commitdate: 2020/12/25
-photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: baby, sign
-photo.44: ig://CImFcYBh03j/m
-photo.44.author: rie_panda55
-photo.44.commitdate: 2021/1/13
-photo.44.link: https://www.instagram.com/rie_panda55/
-photo.44.tags: baby, bear worm, laying down, mofumofu, portrait, tail
-photo.45: ig://CInSpHwBzfR/m
-photo.45.author: daniele.tokyo
-photo.45.commitdate: 2021/1/13
-photo.45.link: https://www.instagram.com/daniele.tokyo/
-photo.45.tags: peek
-photo.46: ig://CI-htrbhTlH/m
-photo.46.author: jas_forever_love
-photo.46.commitdate: 2020/12/30
-photo.46.link: https://www.instagram.com/jas_forever_love/
-photo.46.tags: portrait, smile
-photo.47: ig://CJTANJKhOOR/m
-photo.47.author: makimaru18
-photo.47.commitdate: 2021/1/2
-photo.47.link: https://www.instagram.com/makimaru18/
-photo.47.tags: mofumofu, paws, portrait, tree
-photo.48: ig://CJUvdb1BSY8/m
-photo.48.author: merumeru119
-photo.48.commitdate: 2021/1/2
-photo.48.link: https://www.instagram.com/merumeru119/
-photo.48.tags: mofumofu
-photo.49: ig://CJa3ZbOhPu1/m
-photo.49.author: kotata_513
-photo.49.commitdate: 2021/1/3
-photo.49.link: https://www.instagram.com/kotata_513/
-photo.49.tags: bamboo, peek, smile, tree
-photo.50: ig://CJivKKvhyjG/m
-photo.50.author: hamamatsu.chiita
-photo.50.commitdate: 2021/1/3
-photo.50.link: https://www.instagram.com/hamamatsu.chiita/
-photo.50.tags: portrait, snow
-photo.51: ig://CJmOHBjBz3q/m
-photo.51.author: hamamatsu.chiita
-photo.51.commitdate: 2021/1/9
-photo.51.link: https://www.instagram.com/hamamatsu.chiita/
-photo.51.tags: close-up, portrait, wet
+photo.41.link: https://www.instagram.com/hamamatsu.chiita/
+photo.41.tags: baby, paws, standing
+photo.42: ig://CHw_a1VhTh3/m
+photo.42.author: redpanda_nippon_takashi
+photo.42.commitdate: 2020/11/21
+photo.42.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.42.tags: baby, paws, spider
+photo.43: ig://CHxAE92BXXv/m
+photo.43.author: redpanda_nippon_takashi
+photo.43.commitdate: 2020/11/21
+photo.43.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.43.tags: baby, laying down, peek
+photo.44: ig://CHxAw7Ehr2p/m
+photo.44.author: redpanda_nippon_takashi
+photo.44.commitdate: 2020/11/21
+photo.44.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.44.tags: baby, close-up
+photo.45: ig://CHxBSYwhYIp/m
+photo.45.author: satoshi_jimny
+photo.45.commitdate: 2020/11/20
+photo.45.link: https://www.instagram.com/satoshi_jimny/
+photo.45.tags: baby, peek, tree
+photo.46: ig://CH-F6kghBl-/m
+photo.46.author: daniele.tokyo
+photo.46.commitdate: 2020/11/29
+photo.46.link: https://www.instagram.com/daniele.tokyo/
+photo.46.tags: baby, bamboo, peek, tongue
+photo.47: ig://CIKsrU4hofE/m
+photo.47.author: minato.yokohama2130
+photo.47.commitdate: 2020/12/3
+photo.47.link: https://www.instagram.com/minato.yokohama2130/
+photo.47.tags: baby, laying down, mofumofu, portrait
+photo.48: ig://CIfj5WgBBPz/m
+photo.48.author: fetorus_mami
+photo.48.commitdate: 2020/12/25
+photo.48.link: https://www.instagram.com/fetorus_mami/
+photo.48.tags: baby, sign
+photo.49: ig://CImFcYBh03j/m
+photo.49.author: rie_panda55
+photo.49.commitdate: 2021/1/13
+photo.49.link: https://www.instagram.com/rie_panda55/
+photo.49.tags: baby, bear worm, laying down, mofumofu, portrait, tail
+photo.50: ig://CInSpHwBzfR/m
+photo.50.author: daniele.tokyo
+photo.50.commitdate: 2021/1/13
+photo.50.link: https://www.instagram.com/daniele.tokyo/
+photo.50.tags: peek
+photo.51: ig://CI-htrbhTlH/m
+photo.51.author: jas_forever_love
+photo.51.commitdate: 2020/12/30
+photo.51.link: https://www.instagram.com/jas_forever_love/
+photo.51.tags: portrait, smile
+photo.52: ig://CJTANJKhOOR/m
+photo.52.author: makimaru18
+photo.52.commitdate: 2021/1/2
+photo.52.link: https://www.instagram.com/makimaru18/
+photo.52.tags: mofumofu, paws, portrait, tree
+photo.53: ig://CJUvdb1BSY8/m
+photo.53.author: merumeru119
+photo.53.commitdate: 2021/1/2
+photo.53.link: https://www.instagram.com/merumeru119/
+photo.53.tags: mofumofu
+photo.54: ig://CJa3ZbOhPu1/m
+photo.54.author: kotata_513
+photo.54.commitdate: 2021/1/3
+photo.54.link: https://www.instagram.com/kotata_513/
+photo.54.tags: bamboo, peek, smile, tree
+photo.55: ig://CJivKKvhyjG/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2021/1/3
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: portrait, snow
+photo.56: ig://CJmOHBjBz3q/m
+photo.56.author: hamamatsu.chiita
+photo.56.commitdate: 2021/1/9
+photo.56.link: https://www.instagram.com/hamamatsu.chiita/
+photo.56.tags: close-up, portrait, wet
 species: 2
 studbook.id: unknown
 zoo: 13

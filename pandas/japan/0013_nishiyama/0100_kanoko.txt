@@ -234,96 +234,111 @@ photo.44.author: craig_craig_craig
 photo.44.commitdate: 2019/11/8
 photo.44.link: https://www.instagram.com/craig_craig_craig/
 photo.44.tags: portrait
-photo.45: ig://B6kXPCUBffl/m
-photo.45.author: minato.yokohama2130
-photo.45.commitdate: 2019/12/30
-photo.45.link: https://www.instagram.com/minato.yokohama2130/
-photo.45.tags: portrait
-photo.46: ig://B7cLzugnT9k/m
-photo.46.author: tomo3700
-photo.46.commitdate: 2020/1/18
-photo.46.link: https://www.instagram.com/tomo3700/
-photo.46.tags: climb, paws, portrait
-photo.47: ig://B8I7HlHhKeL/m
-photo.47.author: minato.yokohama2130
-photo.47.commitdate: 2020/2/7
-photo.47.link: https://www.instagram.com/minato.yokohama2130/
-photo.47.tags: portrait, tail
-photo.48: ig://B8cc_7Uh2A3/m
-photo.48.author: tomo3700
-photo.48.commitdate: 2020/2/18
-photo.48.link: https://www.instagram.com/tomo3700/
-photo.48.tags: portrait, snow, tree
-photo.49: ig://B9G4mBcBVwQ/m
-photo.49.author: jas_forever_love
-photo.49.commitdate: 2020/3/19
-photo.49.link: https://www.instagram.com/jas_forever_love/
-photo.49.tags: peek, whiskers
-photo.50: ig://B-xSCEMh9QH/m
-photo.50.author: hamiiiii831_
-photo.50.commitdate: 2020/4/12
-photo.50.link: https://www.instagram.com/hamiiiii831_/
-photo.50.tags: portrait, white face
-photo.51: ig://CBEU60Oh5AN/m
-photo.51.author: run.swim.shingo
-photo.51.commitdate: 2020/6/22
-photo.51.link: https://www.instagram.com/run.swim.shingo/
-photo.51.tags: apple time, paws, white face
-photo.52: ig://CB0fwzmhkQ7/m
-photo.52.author: panda.daisuki
-photo.52.commitdate: 2020/6/27
-photo.52.link: https://www.instagram.com/panda.daisuki/
-photo.52.tags: flowers, portrait
-photo.53: ig://CDx-q63hePB/m
-photo.53.author: kotata_513
-photo.53.commitdate: 2020/8/16
-photo.53.link: https://www.instagram.com/kotata_513/
-photo.53.tags: bamboo, paws, portrait, smile
-photo.54: ig://CDzoWOPBkcX/m
-photo.54.author: tomo3700
-photo.54.commitdate: 2020/8/16
-photo.54.link: https://www.instagram.com/tomo3700/
-photo.54.tags: bamboo, paws, portrait
-photo.55: ig://CD9Air4hzN7/m
-photo.55.author: craig_craig_craig
-photo.55.commitdate: 2020/9/6
-photo.55.link: https://www.instagram.com/craig_craig_craig/
-photo.55.tags: paws, portrait, white face
-photo.56: ig://CEIPH2VBa0G/m
-photo.56.author: _natsu_panda_
-photo.56.commitdate: 2020/9/24
-photo.56.link: https://www.instagram.com/_natsu_panda_/
-photo.56.tags: tail
-photo.57: ig://CFWdAUsh5IB/m
-photo.57.author: hamamatsu.chiita
-photo.57.commitdate: 2020/9/24
-photo.57.link: https://www.instagram.com/hamamatsu.chiita/
-photo.57.tags: white face
-photo.58: ig://CGr5z5Ih1_5/m
-photo.58.author: jas_forever_love
-photo.58.commitdate: 2020/10/26
-photo.58.link: https://www.instagram.com/jas_forever_love/
-photo.58.tags: portrait, white face
-photo.59: ig://CHNLmDOhgXd/m
-photo.59.author: tomo3700
-photo.59.commitdate: 2020/11/11
-photo.59.link: https://www.instagram.com/tomo3700/
-photo.59.tags: paws, portrait, wave
-photo.60: ig://CHvVB7tHcHS/m
-photo.60.author: bubbles_octi
-photo.60.commitdate: 2020/11/21
-photo.60.link: https://www.instagram.com/bubbles_octi/
-photo.60.tags: portrait, tree, white face
-photo.61: ig://CIVdgFShA5q/m
-photo.61.author: craig_craig_craig
-photo.61.commitdate: 2020/12/20
-photo.61.link: https://www.instagram.com/craig_craig_craig/
-photo.61.tags: bamboo, portrait, videolink
-photo.62: ig://CIlFn8phOMg/m
-photo.62.author: miis_98
-photo.62.commitdate: 2020/12/20
-photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: bamboo, portrait, smile
+photo.45: ig://B459j43Be5o/m
+photo.45.author: mugicha0312
+photo.45.commitdate: 2019/11/21
+photo.45.link: https://www.instagram.com/mugicha0312/
+photo.45.tags: portrait, tree, white face
+photo.46: ig://B6kXPCUBffl/m
+photo.46.author: minato.yokohama2130
+photo.46.commitdate: 2019/12/30
+photo.46.link: https://www.instagram.com/minato.yokohama2130/
+photo.46.tags: portrait
+photo.47: ig://B7cLzugnT9k/m
+photo.47.author: tomo3700
+photo.47.commitdate: 2020/1/18
+photo.47.link: https://www.instagram.com/tomo3700/
+photo.47.tags: climb, paws, portrait
+photo.48: ig://B8I7HlHhKeL/m
+photo.48.author: minato.yokohama2130
+photo.48.commitdate: 2020/2/7
+photo.48.link: https://www.instagram.com/minato.yokohama2130/
+photo.48.tags: portrait, tail
+photo.49: ig://B8cc_7Uh2A3/m
+photo.49.author: tomo3700
+photo.49.commitdate: 2020/2/18
+photo.49.link: https://www.instagram.com/tomo3700/
+photo.49.tags: portrait, snow, tree
+photo.50: ig://B9G4mBcBVwQ/m
+photo.50.author: jas_forever_love
+photo.50.commitdate: 2020/3/19
+photo.50.link: https://www.instagram.com/jas_forever_love/
+photo.50.tags: peek, whiskers
+photo.51: ig://B-ToR3ZBBMd/m
+photo.51.author: mugicha0312
+photo.51.commitdate: 2020/4/1
+photo.51.link: https://www.instagram.com/mugicha0312/
+photo.51.tags: standing, tail
+photo.52: ig://B-xSCEMh9QH/m
+photo.52.author: hamiiiii831_
+photo.52.commitdate: 2020/4/12
+photo.52.link: https://www.instagram.com/hamiiiii831_/
+photo.52.tags: portrait, white face
+photo.53: ig://CBEU60Oh5AN/m
+photo.53.author: run.swim.shingo
+photo.53.commitdate: 2020/6/22
+photo.53.link: https://www.instagram.com/run.swim.shingo/
+photo.53.tags: apple time, paws, white face
+photo.54: ig://CBzDfhKBixE/m
+photo.54.author: mugicha0312
+photo.54.commitdate: 2020/6/27
+photo.54.link: https://www.instagram.com/mugicha0312/
+photo.54.tags: portrait, white face
+photo.55: ig://CB0fwzmhkQ7/m
+photo.55.author: panda.daisuki
+photo.55.commitdate: 2020/6/27
+photo.55.link: https://www.instagram.com/panda.daisuki/
+photo.55.tags: flowers, portrait
+photo.56: ig://CDx-q63hePB/m
+photo.56.author: kotata_513
+photo.56.commitdate: 2020/8/16
+photo.56.link: https://www.instagram.com/kotata_513/
+photo.56.tags: bamboo, paws, portrait, smile
+photo.57: ig://CDzoWOPBkcX/m
+photo.57.author: tomo3700
+photo.57.commitdate: 2020/8/16
+photo.57.link: https://www.instagram.com/tomo3700/
+photo.57.tags: bamboo, paws, portrait
+photo.58: ig://CD9Air4hzN7/m
+photo.58.author: craig_craig_craig
+photo.58.commitdate: 2020/9/6
+photo.58.link: https://www.instagram.com/craig_craig_craig/
+photo.58.tags: paws, portrait, white face
+photo.59: ig://CEIPH2VBa0G/m
+photo.59.author: _natsu_panda_
+photo.59.commitdate: 2020/9/24
+photo.59.link: https://www.instagram.com/_natsu_panda_/
+photo.59.tags: tail
+photo.60: ig://CFWdAUsh5IB/m
+photo.60.author: hamamatsu.chiita
+photo.60.commitdate: 2020/9/24
+photo.60.link: https://www.instagram.com/hamamatsu.chiita/
+photo.60.tags: white face
+photo.61: ig://CGr5z5Ih1_5/m
+photo.61.author: jas_forever_love
+photo.61.commitdate: 2020/10/26
+photo.61.link: https://www.instagram.com/jas_forever_love/
+photo.61.tags: portrait, white face
+photo.62: ig://CHNLmDOhgXd/m
+photo.62.author: tomo3700
+photo.62.commitdate: 2020/11/11
+photo.62.link: https://www.instagram.com/tomo3700/
+photo.62.tags: paws, portrait, wave
+photo.63: ig://CHvVB7tHcHS/m
+photo.63.author: bubbles_octi
+photo.63.commitdate: 2020/11/21
+photo.63.link: https://www.instagram.com/bubbles_octi/
+photo.63.tags: portrait, tree, white face
+photo.64: ig://CIVdgFShA5q/m
+photo.64.author: craig_craig_craig
+photo.64.commitdate: 2020/12/20
+photo.64.link: https://www.instagram.com/craig_craig_craig/
+photo.64.tags: bamboo, portrait, videolink
+photo.65: ig://CIlFn8phOMg/m
+photo.65.author: miis_98
+photo.65.commitdate: 2020/12/20
+photo.65.link: https://www.instagram.com/miis_98/
+photo.65.tags: bamboo, portrait, smile
 species: 2
 studbook.id: 1684
 zoo: 13
