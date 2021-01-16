@@ -460,14 +460,16 @@ photo.89.author: nakacchi_desu
 photo.89.commitdate: 2021/1/2
 photo.89.link: https://www.instagram.com/nakacchi_desu/
 photo.89.tags: laying down, tongue
-photo.90: https://www.instagram.com/p/CKDUw8fBAsP/media/?size=m
-photo.90.author: minatomirai215
-photo.90.link: https://www.instagram.com/minatomirai215/
-photo.90.tags: apple time, paws, portrait, smile, tail
-photo.91: https://www.instagram.com/p/CKBnRqchRJ1/media/?size=m
-photo.91.author: miis_98
-photo.91.link: https://www.instagram.com/miis_98/
-photo.91.tags: apple time, paws, portrait, smile, whiskers
+photo.90: ig://CKBnRqchRJ1/m
+photo.90.author: miis_98
+photo.90.commitdate: 2021/1/16
+photo.90.link: https://www.instagram.com/miis_98/
+photo.90.tags: apple time, paws, portrait, smile, whiskers
+photo.91: ig://CKDUw8fBAsP/m
+photo.91.author: minatomirai215
+photo.91.commitdate: 2021/1/16
+photo.91.link: https://www.instagram.com/minatomirai215/
+photo.91.tags: apple time, paws, portrait, smile, tail
 species: 2
 studbook.id: 12117
 zoo: 38

@@ -338,8 +338,9 @@ photo.65.author: tomo3700
 photo.65.commitdate: 2021/1/14
 photo.65.link: https://www.instagram.com/tomo3700/
 photo.65.tags: bamboo, portrait
-photo.66: https://www.instagram.com/p/CJ9kA2DhFQi/media/?size=m
+photo.66: ig://CJ9kA2DhFQi/m
 photo.66.author: tomo3700
+photo.66.commitdate: 2021/1/16
 photo.66.link: https://www.instagram.com/tomo3700/
 photo.66.tags: portrait, snow, tail
 species: 2

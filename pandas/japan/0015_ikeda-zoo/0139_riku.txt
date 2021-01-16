@@ -125,8 +125,9 @@ photo.22.author: itsuak
 photo.22.commitdate: 2020/9/4
 photo.22.link: https://www.instagram.com/itsuak/
 photo.22.tags: laying down, mofumofu, portrait
-photo.23: https://www.instagram.com/p/CKB3qYTBJgF/media/?size=m
+photo.23: ig://CKB3qYTBJgF/m
 photo.23.author: itsuak
+photo.23.commitdate: 2021/1/16
 photo.23.link: https://www.instagram.com/itsuak/
 photo.23.tags: lips, paws, portrait
 species: 2

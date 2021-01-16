@@ -229,14 +229,16 @@ photo.44.author: fetorus_mami
 photo.44.commitdate: 2020/11/29
 photo.44.link: https://www.instagram.com/fetorus_mami/
 photo.44.tags: portrait, whiskers
-photo.45: https://www.instagram.com/p/CKBXF4pBDWE/media/?size=m
-photo.45.author: ssc6105
-photo.45.link: https://www.instagram.com/ssc6105/
-photo.45.tags: paws, smile, tongue, tree
-photo.46: https://www.instagram.com/p/CJ9siVYhMe9/media/?size=m
-photo.46.author: rie_panda55
-photo.46.link: https://www.instagram.com/rie_panda55/
-photo.46.tags: bridge, portrait, tail
+photo.45: ig://CJ9siVYhMe9/m
+photo.45.author: rie_panda55
+photo.45.commitdate: 2021/1/16
+photo.45.link: https://www.instagram.com/rie_panda55/
+photo.45.tags: bridge, portrait, tail
+photo.46: ig://CKBXF4pBDWE/m
+photo.46.author: ssc6105
+photo.46.commitdate: 2021/1/16
+photo.46.link: https://www.instagram.com/ssc6105/
+photo.46.tags: paws, smile, tongue, tree
 species: 2
 studbook.id: 11105
 zoo: 9

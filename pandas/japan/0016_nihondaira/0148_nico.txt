@@ -622,8 +622,9 @@ photo.123.author: kijyo.zoo
 photo.123.commitdate: 2021/1/13
 photo.123.link: https://www.instagram.com/kijyo.zoo/
 photo.123.tags: climb, tree, videolink
-photo.124: https://www.instagram.com/p/CKDJeiDhbgw/media/?size=m
+photo.124: ig://CKDJeiDhbgw/m
 photo.124.author: lesserpanda_shizuokacity_cp
+photo.124.commitdate: 2021/1/16
 photo.124.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.124.tags: close-up, portrait, videolink
 species: 2
