@@ -1205,12 +1205,14 @@ photo.240.author: leonard_redmof
 photo.240.commitdate: 2021/1/2
 photo.240.link: https://www.instagram.com/leonard_redmof/
 photo.240.tags: bamboo, portrait, smile, snow
-photo.241: https://www.instagram.com/p/CJ8P2B3h1x3/media/?size=m
+photo.241: ig://CJ8P2B3h1x3/m
 photo.241.author: _rifa_p
+photo.241.commitdate: 2021/1/19
 photo.241.link: https://www.instagram.com/_rifa_p/
 photo.241.tags: portrait, whiskers
-photo.242: https://www.instagram.com/p/CJ8WvvjBlzu/media/?size=m
+photo.242: ig://CJ8WvvjBlzu/m
 photo.242.author: nishicotolo
+photo.242.commitdate: 2021/1/19
 photo.242.link: https://www.instagram.com/nishicotolo/
 photo.242.tags: snow
 species: 2

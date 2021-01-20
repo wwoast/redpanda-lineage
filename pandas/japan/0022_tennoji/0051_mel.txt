@@ -423,14 +423,16 @@ photo.82.author: makimaru18
 photo.82.commitdate: 2021/1/14
 photo.82.link: https://www.instagram.com/makimaru18/
 photo.82.tags: laying down, paws, playing, portrait, tail, upside-down
-photo.83: https://www.instagram.com/p/CKEWui7B30Q/media/?size=m
-photo.83.author: bubbles_octi
-photo.83.link: https://www.instagram.com/bubbles_octi/
-photo.83.tags: mofumofu, portrait, whiskers
-photo.84: https://www.instagram.com/p/CJpbZCehI4T/media/?size=m
-photo.84.author: chankunvv
-photo.84.link: https://www.instagram.com/chankunvv/
-photo.84.tags: laying down, paws, portrait, whiskers
+photo.83: ig://CJpbZCehI4T/m
+photo.83.author: chankunvv
+photo.83.commitdate: 2021/1/19
+photo.83.link: https://www.instagram.com/chankunvv/
+photo.83.tags: laying down, paws, portrait, whiskers
+photo.84: ig://CKEWui7B30Q/m
+photo.84.author: bubbles_octi
+photo.84.commitdate: 2021/1/19
+photo.84.link: https://www.instagram.com/bubbles_octi/
+photo.84.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

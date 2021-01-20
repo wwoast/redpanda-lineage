@@ -339,15 +339,16 @@ photo.65.author: miis_98
 photo.65.commitdate: 2020/12/20
 photo.65.link: https://www.instagram.com/miis_98/
 photo.65.tags: bamboo, portrait, smile
-photo.66: ig://CKCelZpBSBW/m
+photo.66: ig://CJovkUKBKx-/m
 photo.66.author: hamamatsu.chiita
-photo.66.commitdate: 2021/1/16
+photo.66.commitdate: 2021/1/19
 photo.66.link: https://www.instagram.com/hamamatsu.chiita/
-photo.66.tags: portrait, wet, white face
-photo.67: https://www.instagram.com/p/CJovkUKBKx-/media/?size=m
+photo.66.tags: bamboo, portrait, white face
+photo.67: ig://CKCelZpBSBW/m
 photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2021/1/16
 photo.67.link: https://www.instagram.com/hamamatsu.chiita/
-photo.67.tags: bamboo, portrait, white face
+photo.67.tags: portrait, wet, white face
 species: 2
 studbook.id: 1684
 zoo: 13

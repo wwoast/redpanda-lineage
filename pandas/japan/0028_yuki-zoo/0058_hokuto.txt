@@ -674,15 +674,16 @@ photo.133.author: ck.chie
 photo.133.commitdate: 2021/1/13
 photo.133.link: https://www.instagram.com/ck.chie/
 photo.133.tags: laying down, peek
-photo.134: ig://CJ8cU6zBOy8/m
-photo.134.author: minatomirai215
-photo.134.commitdate: 2021/1/16
-photo.134.link: https://www.instagram.com/minatomirai215/
-photo.134.tags: paws, portrait
-photo.135: https://www.instagram.com/p/CJsgfufhxVt/media/?size=m
-photo.135.author: ssc6105
-photo.135.link: https://www.instagram.com/ssc6105/
-photo.135.tags: peek, tail, tree
+photo.134: ig://CJsgfufhxVt/m
+photo.134.author: ssc6105
+photo.134.commitdate: 2021/1/19
+photo.134.link: https://www.instagram.com/ssc6105/
+photo.134.tags: peek, tail, tree
+photo.135: ig://CJ8cU6zBOy8/m
+photo.135.author: minatomirai215
+photo.135.commitdate: 2021/1/16
+photo.135.link: https://www.instagram.com/minatomirai215/
+photo.135.tags: paws, portrait
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

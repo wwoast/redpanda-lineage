@@ -83,8 +83,9 @@ photo.14.author: o_deka_ke
 photo.14.commitdate: 2020/12/25
 photo.14.link: https://www.instagram.com/o_deka_ke/
 photo.14.tags: baby, mofumofu, portrait, profile
-photo.15: https://www.instagram.com/p/CJ_ALSrhKY9/media/?size=m
+photo.15: ig://CJ_ALSrhKY9/m
 photo.15.author: kotata_513
+photo.15.commitdate: 2021/1/19
 photo.15.link: https://www.instagram.com/kotata_513/
 photo.15.tags: baby, dish, laying down, mofumofu, tail
 species: 2
