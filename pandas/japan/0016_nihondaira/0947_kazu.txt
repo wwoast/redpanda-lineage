@@ -109,5 +109,13 @@ photo.19.author: kijyo.zoo
 photo.19.commitdate: 2021/1/8
 photo.19.link: https://www.instagram.com/kijyo.zoo/
 photo.19.tags: keeper, portrait, window
+photo.20: https://www.instagram.com/p/CJ6wy7mhMLi/media/?size=m
+photo.20.author: hamamatsu.chiita
+photo.20.link: https://www.instagram.com/hamamatsu.chiita/
+photo.20.tags: portrait, whiskers
+photo.21: https://www.instagram.com/p/CJ7dYlLBn1i/media/?size=m
+photo.21.author: kijyo.zoo
+photo.21.link: https://www.instagram.com/kijyo.zoo/
+photo.21.tags: keeper, portrait
 species: 2
 zoo: 16
