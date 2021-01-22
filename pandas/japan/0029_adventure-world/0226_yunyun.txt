@@ -274,8 +274,9 @@ photo.52.author: redpanda_nippon_takashi
 photo.52.commitdate: 2020/8/22
 photo.52.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.52.tags: home, lips
-photo.53: https://www.instagram.com/p/CKUw3qiheEF/media/?size=m
+photo.53: ig://CKUw3qiheEF/m
 photo.53.author: craig_craig_craig
+photo.53.commitdate: 2021/1/22
 photo.53.link: https://www.instagram.com/craig_craig_craig/
 photo.53.tags: smile, tail
 species: 2
