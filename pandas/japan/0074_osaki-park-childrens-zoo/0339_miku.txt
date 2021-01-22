@@ -4,6 +4,7 @@ birthday: 1999/7/21
 birthplace: 42
 children: none
 commitdate: 2018/9/22
+death: 2020/1/22
 en.name: Miku
 en.nicknames: none
 en.othernames: none
@@ -194,6 +195,18 @@ photo.36.author: park.osaki.zoo
 photo.36.commitdate: 2020/10/27
 photo.36.link: https://www.instagram.com/park.osaki.zoo/
 photo.36.tags: apple time, eye, mofumofu, old, paws, portrait, smile
+photo.37: https://www.instagram.com/p/CKWJEBAhA1C/media/?size=m
+photo.37.author: ssc6105
+photo.37.link: https://www.instagram.com/ssc6105/
+photo.37.tags: mofumofu, old, tail
+photo.38: https://www.instagram.com/p/CJS60e0hWbH/media/?size=m
+photo.38.author: _saaaaaaah_
+photo.38.link: https://www.instagram.com/_saaaaaaah_/
+photo.38.tags: laying down, paws
+photo.39: https://www.instagram.com/p/CHseMC0hKQW/media/?size=m
+photo.39.author: kipekaila
+photo.39.link: https://www.instagram.com/kipekaila/
+photo.39.tags: laying down, paws, tail
 species: 2
 studbook.id: 9996
 zoo: 74

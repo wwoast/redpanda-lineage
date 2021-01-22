@@ -290,8 +290,8 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Current memorials
-    // var departed = Gallery.memorialPhotoCredits(L.display, ["35"], 5, Message.memorial)
-    // new_content.appendChild(departed);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["339"], 5, Message.memorial)
+    new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
