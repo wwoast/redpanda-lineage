@@ -641,26 +641,21 @@ photo.126.author: makimaru18
 photo.126.commitdate: 2020/7/24
 photo.126.link: https://www.instagram.com/makimaru18/
 photo.126.tags: apple time, dish, paws, portrait, smile
-photo.127: ig://CDDki6qB2GX/m
-photo.127.author: mugicha0312
+photo.127: ig://CDD6IcXhNgP/m
+photo.127.author: redpanda_nippon_takashi
 photo.127.commitdate: 2020/9/7
-photo.127.link: https://www.instagram.com/mugicha0312/
-photo.127.tags: portrait, tongue, whiskers
-photo.128: ig://CDD6IcXhNgP/m
-photo.128.author: redpanda_nippon_takashi
-photo.128.commitdate: 2020/9/7
-photo.128.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.128.tags: flowers, portrait, whiskers
-photo.129: ig://CDlnKmrh4ix/m
+photo.127.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.127.tags: flowers, portrait, whiskers
+photo.128: ig://CDlnKmrh4ix/m
+photo.128.author: akiakiakiko18
+photo.128.commitdate: 2021/1/15
+photo.128.link: https://www.instagram.com/akiakiakiko18/
+photo.128.tags: smile, whiskers
+photo.129: ig://CJleAELhn5y/m
 photo.129.author: akiakiakiko18
 photo.129.commitdate: 2021/1/15
 photo.129.link: https://www.instagram.com/akiakiakiko18/
-photo.129.tags: smile, whiskers
-photo.130: ig://CJleAELhn5y/m
-photo.130.author: akiakiakiko18
-photo.130.commitdate: 2021/1/15
-photo.130.link: https://www.instagram.com/akiakiakiko18/
-photo.130.tags: apple time, dish, paws
+photo.129.tags: apple time, dish, paws
 species: 2
 studbook.id: 10125
 zoo: 2
