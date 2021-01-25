@@ -7,6 +7,7 @@ commitdate: 2018/6/25
 en.name: Yan-Yan
 en.nicknames: none
 en.othernames: Jan-Jan, Yanyan
+death: 2020/1/23
 gender: m
 jp.name: ヤンヤン
 jp.nicknames: none
@@ -147,6 +148,10 @@ photo.27.author: minato.yokohama2130
 photo.27.commitdate: 2020/12/6
 photo.27.link: https://www.instagram.com/minato.yokohama2130/
 photo.27.tags: bamboo, home, portrait
+photo.28: https://www.instagram.com/p/CKRmvJABQJZ/media/?size=m
+photo.28.author: na.mo.pan
+photo.28.link: https://www.instagram.com/na.mo.pan/
+photo.28.tags: apple time, dish, portrait, whiskers
 species: 2
 studbook.id: 1098
 zoo: 13
