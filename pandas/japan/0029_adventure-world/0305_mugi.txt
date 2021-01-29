@@ -770,21 +770,24 @@ photo.152.author: resapan.suki
 photo.152.commitdate: 2020/11/1
 photo.152.link: https://www.instagram.com/resapan.suki/
 photo.152.tags: close-up, grooming, paws, portrait, tongue
-photo.153: ig://CJiwH-ah5Oe/m
-photo.153.author: chankunvv
-photo.153.commitdate: 2021/1/3
-photo.153.link: https://www.instagram.com/chankunvv/
-photo.153.tags: portrait, tail, yawn
-photo.154: https://www.instagram.com/p/CJ0j6dFhCwB/media/?size=m
-photo.154.author: craig_craig_craig
-photo.154.link: https://www.instagram.com/craig_craig_craig/
-photo.154.tags: dish, lunch time, portrait, videolink
-photo.155: https://www.instagram.com/p/CJ8lc8ABDWu/media/?size=m
+photo.153: ig://CJgaRPdh8F4/m
+photo.153.author: craig_craig_craig
+photo.153.commitdate: 2021/1/28
+photo.153.link: https://www.instagram.com/craig_craig_craig/
+photo.153.tags: peek, videolink
+photo.154: ig://CJiwH-ah5Oe/m
+photo.154.author: chankunvv
+photo.154.commitdate: 2021/1/3
+photo.154.link: https://www.instagram.com/chankunvv/
+photo.154.tags: portrait, tail, yawn
+photo.155: ig://CJ0j6dFhCwB/m
 photo.155.author: craig_craig_craig
+photo.155.commitdate: 2021/1/28
 photo.155.link: https://www.instagram.com/craig_craig_craig/
-photo.155.tags: peek, videolink
-photo.156: https://www.instagram.com/p/CJgaRPdh8F4/media/?size=m
+photo.155.tags: dish, lunch time, portrait, videolink
+photo.156: ig://CJ8lc8ABDWu/m
 photo.156.author: craig_craig_craig
+photo.156.commitdate: 2021/1/28
 photo.156.link: https://www.instagram.com/craig_craig_craig/
 photo.156.tags: peek, videolink
 species: 2

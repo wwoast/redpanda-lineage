@@ -393,28 +393,31 @@ photo.76.author: fetorus_mami
 photo.76.commitdate: 2020/11/20
 photo.76.link: https://www.instagram.com/fetorus_mami/
 photo.76.tags: apple time, bite, window
-photo.77: ig://CJdal0wBd7v/m
-photo.77.author: ssc6105
-photo.77.commitdate: 2021/1/3
-photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: mofumofu, whiskers
-photo.78: ig://CJiZ5PrBx0q/m
-photo.78.author: grskus_tk
+photo.77: ig://CJQ1FN_B_Jy/m
+photo.77.author: eos1089
+photo.77.commitdate: 2021/1/28
+photo.77.link: https://www.instagram.com/eos1089/
+photo.77.tags: paws, portrait, sign, standing, tail
+photo.78: ig://CJdal0wBd7v/m
+photo.78.author: ssc6105
 photo.78.commitdate: 2021/1/3
-photo.78.link: https://www.instagram.com/grskus_tk/
-photo.78.tags: bamboo, paws
-photo.79: https://www.instagram.com/p/CJmY9U6Bb9i/media/?size=m
-photo.79.author: rie_panda55
-photo.79.link: https://www.instagram.com/rie_panda55/
-photo.79.tags: apple time, paws, portrait, window
-photo.80: https://www.instagram.com/p/CJk4pSFhlWZ/media/?size=m
+photo.78.link: https://www.instagram.com/ssc6105/
+photo.78.tags: mofumofu, whiskers
+photo.79: ig://CJiZ5PrBx0q/m
+photo.79.author: grskus_tk
+photo.79.commitdate: 2021/1/3
+photo.79.link: https://www.instagram.com/grskus_tk/
+photo.79.tags: bamboo, paws
+photo.80: ig://CJk4pSFhlWZ/m
 photo.80.author: grskus_tk
+photo.80.commitdate: 2021/1/28
 photo.80.link: https://www.instagram.com/grskus_tk/
 photo.80.tags: paws, peek
-photo.81: https://www.instagram.com/p/CJQ1FN_B_Jy/media/?size=m
-photo.81.author: eos1089
-photo.81.link: https://www.instagram.com/eos1089/
-photo.81.tags: paws, portrait, sign, standing, tail
+photo.81: ig://CJmY9U6Bb9i/m
+photo.81.author: rie_panda55
+photo.81.commitdate: 2021/1/28
+photo.81.link: https://www.instagram.com/rie_panda55/
+photo.81.tags: apple time, paws, portrait, window
 species: 2
 studbook.id: 12105
 zoo: 18

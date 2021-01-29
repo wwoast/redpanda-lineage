@@ -38,47 +38,49 @@ photo.5.author: leonard_redmof
 photo.5.commitdate: 2020/11/21
 photo.5.link: https://www.instagram.com/leonard_redmof/
 photo.5.tags: baby, mofumofu, paws, playing, standing, tail
-photo.6: ig://CIB6ql8ha7E/m
-photo.6.author: redpanda_nippon_takashi
-photo.6.commitdate: 2020/12/12
-photo.6.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.6.tags: baby, door, mofumofu, portrait, standing, tail
-photo.7: ig://CIK95dVh4DS/m
-photo.7.author: daniele.tokyo
-photo.7.commitdate: 2020/12/3
-photo.7.link: https://www.instagram.com/daniele.tokyo/
-photo.7.tags: baby, home, laying down, paws
-photo.8: ig://CISsSBpBYTb/m
+photo.6: ig://CH-O9lyhl06/m
+photo.6.author: apple_jasmine33
+photo.6.commitdate: 2021/1/28
+photo.6.link: https://www.instagram.com/apple_jasmine33/
+photo.6.tags: baby, bamboo
+photo.7: ig://CIB6ql8ha7E/m
+photo.7.author: redpanda_nippon_takashi
+photo.7.commitdate: 2020/12/12
+photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.7.tags: baby, door, mofumofu, portrait, standing, tail
+photo.8: ig://CIK95dVh4DS/m
 photo.8.author: daniele.tokyo
 photo.8.commitdate: 2020/12/3
 photo.8.link: https://www.instagram.com/daniele.tokyo/
-photo.8.tags: baby, paws, smile, snow, tongue, whiskers
-photo.9: ig://CIf-4rIB2uy/m
-photo.9.author: kipekaila
-photo.9.commitdate: 2020/12/25
-photo.9.link: https://www.instagram.com/kipekaila/
-photo.9.tags: baby, bamboo, portrait, smile
-photo.10: ig://CImntHgBrz0/m
+photo.8.tags: baby, home, laying down, paws
+photo.9: ig://CISsSBpBYTb/m
+photo.9.author: daniele.tokyo
+photo.9.commitdate: 2020/12/3
+photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.tags: baby, paws, smile, snow, tongue, whiskers
+photo.10: ig://CIf-4rIB2uy/m
 photo.10.author: kipekaila
-photo.10.commitdate: 2021/1/13
+photo.10.commitdate: 2020/12/25
 photo.10.link: https://www.instagram.com/kipekaila/
-photo.10.tags: baby, bamboo, paws, portrait, snow
-photo.11: ig://CI-cYfrBYI_/m
-photo.11.author: tama67photo
-photo.11.commitdate: 2021/1/14
-photo.11.link: https://www.instagram.com/tama67photo/
-photo.11.tags: baby, keeper, mofumofu, portrait
-photo.12: ig://CJLYkkohXsc/m
+photo.10.tags: baby, bamboo, portrait, smile
+photo.11: ig://CImntHgBrz0/m
+photo.11.author: kipekaila
+photo.11.commitdate: 2021/1/13
+photo.11.link: https://www.instagram.com/kipekaila/
+photo.11.tags: baby, bamboo, paws, portrait, snow
+photo.12: ig://CI-cYfrBYI_/m
 photo.12.author: tama67photo
-photo.12.commitdate: 2020/12/29
+photo.12.commitdate: 2021/1/14
 photo.12.link: https://www.instagram.com/tama67photo/
-photo.12.tags: baby, mofumofu, portrait
-photo.13: https://www.instagram.com/p/CH-O9lyhl06/media/?size=m
-photo.13.author: apple_jasmine33
-photo.13.link: https://www.instagram.com/apple_jasmine33/
-photo.13.tags: baby, bamboo
-photo.14: https://www.instagram.com/p/CJvbV9jBiV9/media/?size=m
+photo.12.tags: baby, keeper, mofumofu, portrait
+photo.13: ig://CJLYkkohXsc/m
+photo.13.author: tama67photo
+photo.13.commitdate: 2020/12/29
+photo.13.link: https://www.instagram.com/tama67photo/
+photo.13.tags: baby, mofumofu, portrait
+photo.14: ig://CJvbV9jBiV9/m
 photo.14.author: tama67photo
+photo.14.commitdate: 2021/1/28
 photo.14.link: https://www.instagram.com/tama67photo/
 photo.14.tags: baby, portrait
 species: 2

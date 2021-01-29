@@ -67,8 +67,9 @@ photo.10.author: miis_98
 photo.10.commitdate: 2020/7/28
 photo.10.link: https://www.instagram.com/miis_98/
 photo.10.tags: paws, portrait, smile
-photo.11: https://www.instagram.com/p/CKlXEothvw-/media/?size=m
+photo.11: ig://CKlXEothvw-/m
 photo.11.author: fetorus_mami
+photo.11.commitdate: 2021/1/28
 photo.11.link: https://www.instagram.com/fetorus_mami/
 photo.11.tags: portrait, smile
 species: 2

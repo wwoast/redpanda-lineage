@@ -68,8 +68,9 @@ photo.11.author: chankunvv
 photo.11.commitdate: 2020/11/6
 photo.11.link: https://www.instagram.com/chankunvv/
 photo.11.tags: mofumofu, portrait, smile, tail
-photo.12: https://www.instagram.com/p/CJvng-PB2Rb/media/?size=m
+photo.12: ig://CJvng-PB2Rb/m
 photo.12.author: kisshan324
+photo.12.commitdate: 2021/1/28
 photo.12.link: https://www.instagram.com/kisshan324/
 photo.12.tags: paws, portrait, tail
 species: 2

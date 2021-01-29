@@ -378,8 +378,9 @@ photo.74.author: ssc6105
 photo.74.commitdate: 2021/1/16
 photo.74.link: https://www.instagram.com/ssc6105/
 photo.74.tags: mofumofu, paws, tail
-photo.75: https://www.instagram.com/p/CKlkCDTBFoN/media/?size=m
+photo.75: ig://CKlkCDTBFoN/m
 photo.75.author: miis_98
+photo.75.commitdate: 2021/1/28
 photo.75.link: https://www.instagram.com/miis_98/
 photo.75.tags: mofumofu, paws, portrait, whiskers
 species: 2
