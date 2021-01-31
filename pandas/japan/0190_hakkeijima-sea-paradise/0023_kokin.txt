@@ -1027,14 +1027,16 @@ photo.205.author: wumpwoast
 photo.205.commitdate: 2020/12/29
 photo.205.link: https://www.instagram.com/wumpwoast/
 photo.205.tags: close-up, portrait, whiskers
-photo.206: https://www.instagram.com/p/CKr7Se7hrrJ/media/?size=m
-photo.206.author: miis_98
-photo.206.link: https://www.instagram.com/miis_98/
-photo.206.tags: portrait, whiskers
-photo.207: https://www.instagram.com/p/CKqTjFBBzeo/media/?size=m
-photo.207.author: ssc6105
-photo.207.link: https://www.instagram.com/ssc6105/
-photo.207.tags: paws, portrait
+photo.206: ig://CKqTjFBBzeo/m
+photo.206.author: ssc6105
+photo.206.commitdate: 2021/1/30
+photo.206.link: https://www.instagram.com/ssc6105/
+photo.206.tags: paws, portrait
+photo.207: ig://CKr7Se7hrrJ/m
+photo.207.author: miis_98
+photo.207.commitdate: 2021/1/30
+photo.207.link: https://www.instagram.com/miis_98/
+photo.207.tags: portrait, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

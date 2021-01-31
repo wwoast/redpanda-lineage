@@ -205,14 +205,16 @@ photo.38.author: hamamatsu.chiita
 photo.38.commitdate: 2020/12/21
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: close-up
-photo.39: https://www.instagram.com/p/CKhZaaWhw-C/media/?size=m
-photo.39.author: hamamatsu.chiita
-photo.39.link: https://www.instagram.com/hamamatsu.chiita/
-photo.39.tags: portrait, whiskers
-photo.40: https://www.instagram.com/p/CKg4XWUBYry/media/?size=m
-photo.40.author: craig_craig_craig
-photo.40.link: https://www.instagram.com/craig_craig_craig/
-photo.40.tags: apple time, paws, smile
+photo.39: ig://CKg4XWUBYry/m
+photo.39.author: craig_craig_craig
+photo.39.commitdate: 2021/1/30
+photo.39.link: https://www.instagram.com/craig_craig_craig/
+photo.39.tags: apple time, paws, smile
+photo.40: ig://CKhZaaWhw-C/m
+photo.40.author: hamamatsu.chiita
+photo.40.commitdate: 2021/1/30
+photo.40.link: https://www.instagram.com/hamamatsu.chiita/
+photo.40.tags: portrait, whiskers
 species: 2
 studbook.id: 13171
 zoo: 31

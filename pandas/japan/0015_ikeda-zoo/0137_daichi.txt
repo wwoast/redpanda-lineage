@@ -145,8 +145,9 @@ photo.26.author: itsuak
 photo.26.commitdate: 2021/1/28
 photo.26.link: https://www.instagram.com/itsuak/
 photo.26.tags: bamboo, mofumofu, portrait, smile
-photo.27: https://www.instagram.com/p/CKoTF7_BByT/media/?size=m
+photo.27: ig://CKoTF7_BByT/m
 photo.27.author: itsuak
+photo.27.commitdate: 2021/1/30
 photo.27.link: https://www.instagram.com/itsuak/
 photo.27.tags: itchy, paws
 species: 2
