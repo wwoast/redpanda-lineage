@@ -15,5 +15,9 @@ language.order: en, jp
 litter: none
 location.1: 108, 2020/6/16
 location.2: 141, 2020/9/17
+photo.1: https://www.instagram.com/p/CGIw2OMAQ3d/media/?size=m
+photo.1.author: pippin455
+photo.1.link: https://www.instagram.com/pippin455/
+photo.1.tags: baby, peek, profile
 species: 1
 zoo: 141
