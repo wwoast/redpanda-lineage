@@ -487,8 +487,9 @@ photo.95.author: ifumoto88
 photo.95.commitdate: 2020/12/3
 photo.95.link: https://www.instagram.com/ifumoto88/
 photo.95.tags: close-up, paws, peek
-photo.96: https://www.instagram.com/p/CKdqIIGBLRZ/media/?size=m
+photo.96: ig://CKdqIIGBLRZ/m
 photo.96.author: pink.b22
+photo.96.commitdate: 2021/1/31
 photo.96.link: https://www.instagram.com/pink.b22/
 photo.96.tags: close-up, mofumofu, portrait, whiskers
 species: 2

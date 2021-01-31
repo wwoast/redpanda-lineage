@@ -294,8 +294,9 @@ photo.56.author: tomo3700
 photo.56.commitdate: 2021/1/30
 photo.56.link: https://www.instagram.com/tomo3700/
 photo.56.tags: grooming, home, paws, portrait
-photo.57: https://www.instagram.com/p/CKgFD8GhTHW/media/?size=m
+photo.57: ig://CKgFD8GhTHW/m
 photo.57.author: shigeko0531
+photo.57.commitdate: 2021/1/31
 photo.57.link: https://www.instagram.com/shigeko0531/
 photo.57.tags: mofumofu, portrait, techitechi
 species: 2

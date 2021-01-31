@@ -200,14 +200,16 @@ photo.37.author: craig_craig_craig
 photo.37.commitdate: 2021/1/25
 photo.37.link: https://www.instagram.com/craig_craig_craig/
 photo.37.tags: bear worm, laying down, portrait, videolink
-photo.38: https://www.instagram.com/p/CKgihtWhfQS/media/?size=m
-photo.38.author: makimaru18
-photo.38.link: https://www.instagram.com/makimaru18/
-photo.38.tags: portrait, smile
-photo.39: https://www.instagram.com/p/CKflghxhcX-/media/?size=m
-photo.39.author: leonard_redmof
-photo.39.link: https://www.instagram.com/leonard_redmof/
-photo.39.tags: laying down, paws
+photo.38: ig://CKflghxhcX-/m
+photo.38.author: leonard_redmof
+photo.38.commitdate: 2021/1/31
+photo.38.link: https://www.instagram.com/leonard_redmof/
+photo.38.tags: laying down, paws
+photo.39: ig://CKgihtWhfQS/m
+photo.39.author: makimaru18
+photo.39.commitdate: 2021/1/31
+photo.39.link: https://www.instagram.com/makimaru18/
+photo.39.tags: portrait, smile
 species: 2
 studbook.id: 10109
 zoo: 31
