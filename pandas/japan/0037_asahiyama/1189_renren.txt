@@ -78,18 +78,20 @@ photo.13.author: tama67photo
 photo.13.commitdate: 2020/12/29
 photo.13.link: https://www.instagram.com/tama67photo/
 photo.13.tags: autumn, baby, paws, portrait
-photo.14: ig://CKLxFNYBOQ1/m
-photo.14.author: daniele.tokyo
-photo.14.commitdate: 2021/1/28
-photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: baby, mofumofu, paws, techitechi
-photo.15: https://www.instagram.com/p/CJs8zTChTwb/media/?size=m
-photo.15.author: tama67photo
-photo.15.link: https://www.instagram.com/tama67photo/
-photo.15.tags: baby, bite, portrait
-photo.16: https://www.instagram.com/p/CJvo9aOBsaY/media/?size=m
-photo.16.author: redpan22
-photo.16.link: https://www.instagram.com/redpan22/
-photo.16.tags: baby, bridge, peek, portrait, techitechi
+photo.14: ig://CJs8zTChTwb/m
+photo.14.author: tama67photo
+photo.14.commitdate: 2021/1/30
+photo.14.link: https://www.instagram.com/tama67photo/
+photo.14.tags: baby, bite, portrait
+photo.15: ig://CJvo9aOBsaY/m
+photo.15.author: redpan22
+photo.15.commitdate: 2021/1/30
+photo.15.link: https://www.instagram.com/redpan22/
+photo.15.tags: baby, bridge, peek, portrait, techitechi
+photo.16: ig://CKLxFNYBOQ1/m
+photo.16.author: daniele.tokyo
+photo.16.commitdate: 2021/1/28
+photo.16.link: https://www.instagram.com/daniele.tokyo/
+photo.16.tags: baby, mofumofu, paws, techitechi
 species: 2
 zoo: 37

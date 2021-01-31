@@ -274,15 +274,16 @@ photo.52.author: redpanda_nippon_takashi
 photo.52.commitdate: 2020/8/22
 photo.52.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.52.tags: home, lips
-photo.53: ig://CKUw3qiheEF/m
-photo.53.author: craig_craig_craig
-photo.53.commitdate: 2021/1/22
-photo.53.link: https://www.instagram.com/craig_craig_craig/
-photo.53.tags: smile, tail
-photo.54: https://www.instagram.com/p/CF2CaSOhVvl/media/?size=m
-photo.54.author: sasapan34
-photo.54.link: https://www.instagram.com/sasapan34/
-photo.54.tags: peek, smile, tree
+photo.53: ig://CF2CaSOhVvl/m
+photo.53.author: sasapan34
+photo.53.commitdate: 2021/1/30
+photo.53.link: https://www.instagram.com/sasapan34/
+photo.53.tags: peek, smile, tree
+photo.54: ig://CKUw3qiheEF/m
+photo.54.author: craig_craig_craig
+photo.54.commitdate: 2021/1/22
+photo.54.link: https://www.instagram.com/craig_craig_craig/
+photo.54.tags: smile, tail
 species: 2
 studbook.id: 1687
 zoo: 29
