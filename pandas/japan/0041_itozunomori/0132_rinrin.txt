@@ -206,18 +206,21 @@ photo.39.author: re_ichimaru
 photo.39.commitdate: 2021/1/16
 photo.39.link: https://www.instagram.com/re_ichimaru/
 photo.39.tags: mofumofu, portrait, whiskers
-photo.40: https://www.instagram.com/p/CKXzrdQh3qr/media/?size=m
+photo.40: ig://CKSP9f3BYkY/m
 photo.40.author: yossi929
+photo.40.commitdate: 2021/2/2
 photo.40.link: https://www.instagram.com/yossi929/
-photo.40.tags: air tasting, close-up, mofumofu, tongue
-photo.41: https://www.instagram.com/p/CKlZ_BJBiOm/media/?size=m
+photo.40.tags: climb, paws
+photo.41: ig://CKXzrdQh3qr/m
 photo.41.author: yossi929
+photo.41.commitdate: 2021/2/2
 photo.41.link: https://www.instagram.com/yossi929/
-photo.41.tags: peek
-photo.42: https://www.instagram.com/p/CKSP9f3BYkY/media/?size=m
+photo.41.tags: air tasting, close-up, mofumofu, tongue
+photo.42: ig://CKlZ_BJBiOm/m
 photo.42.author: yossi929
+photo.42.commitdate: 2021/2/2
 photo.42.link: https://www.instagram.com/yossi929/
-photo.42.tags: climb, paws
+photo.42.tags: peek
 species: 2
 studbook.id: 0764
 zoo: 41
