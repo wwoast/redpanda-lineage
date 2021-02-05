@@ -568,22 +568,26 @@ photo.111.author: minatomirai215
 photo.111.commitdate: 2021/1/4
 photo.111.link: https://www.instagram.com/minatomirai215/
 photo.111.tags: paws, portrait, tree
-photo.112: https://www.instagram.com/p/CKU0KkBBf_k/media/?size=m
+photo.112: ig://CKU0KkBBf_k/m
 photo.112.author: miis_98
+photo.112.commitdate: 2021/2/4
 photo.112.link: https://www.instagram.com/miis_98/
 photo.112.tags: portrait, whiskers
-photo.113: https://www.instagram.com/p/CKo9yfqB2kt/media/?size=m
+photo.113: ig://CKYUKtkh2xX/m
 photo.113.author: minatomirai215
+photo.113.commitdate: 2021/2/4
 photo.113.link: https://www.instagram.com/minatomirai215/
-photo.113.tags: close-up, portrait, whiskers, window
-photo.114: https://www.instagram.com/p/CKYUKtkh2xX/media/?size=m
-photo.114.author: minatomirai215
-photo.114.link: https://www.instagram.com/minatomirai215/
-photo.114.tags: peek, portrait, whiskers
-photo.115: https://www.instagram.com/p/CKZC8F9hwF8/media/?size=m
-photo.115.author: sasapan34
-photo.115.link: https://www.instagram.com/sasapan34/
-photo.115.tags: whiskers
+photo.113.tags: peek, portrait, whiskers
+photo.114: ig://CKZC8F9hwF8/m
+photo.114.author: sasapan34
+photo.114.commitdate: 2021/2/4
+photo.114.link: https://www.instagram.com/sasapan34/
+photo.114.tags: whiskers
+photo.115: ig://CKo9yfqB2kt/m
+photo.115.author: minatomirai215
+photo.115.commitdate: 2021/2/4
+photo.115.link: https://www.instagram.com/minatomirai215/
+photo.115.tags: close-up, portrait, whiskers, window
 species: 2
 studbook.id: 15135
 zoo: 12

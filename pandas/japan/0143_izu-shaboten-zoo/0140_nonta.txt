@@ -251,113 +251,126 @@ photo.47.author: pink.b22
 photo.47.commitdate: 2020/7/10
 photo.47.link: https://www.instagram.com/pink.b22/
 photo.47.tags: bamboo, portrait, tongue
-photo.48: ig://CD5tRVEhBfB/m
-photo.48.author: mini_cochi
-photo.48.commitdate: 2020/12/5
-photo.48.link: https://www.instagram.com/mini_cochi/
-photo.48.tags: paws, portrait, whiskers
-photo.49: ig://CEjn6tqBhYM/m
-photo.49.author: redpan22
-photo.49.commitdate: 2020/9/4
-photo.49.link: https://www.instagram.com/redpan22/
-photo.49.tags: bamboo, close-up, lips, mofumofu
-photo.50: ig://CEzyBbfhS8k/m
-photo.50.author: ssc6105
-photo.50.commitdate: 2020/9/19
-photo.50.link: https://www.instagram.com/ssc6105/
-photo.50.tags: paws, smile, tongue, whiskers
-photo.51: ig://CE8yzpRBrSN/m
-photo.51.author: resapan.suki
-photo.51.commitdate: 2020/9/19
-photo.51.link: https://www.instagram.com/resapan.suki/
-photo.51.tags: mofumofu, paws
-photo.52: ig://CFTmUBpBbd1/m
-photo.52.author: ssc6105
-photo.52.commitdate: 2020/9/24
-photo.52.link: https://www.instagram.com/ssc6105/
-photo.52.tags: grooming, mofumofu, paws
-photo.53: ig://CFUZInCBr_5/m
-photo.53.author: miis_98
-photo.53.commitdate: 2020/9/24
-photo.53.link: https://www.instagram.com/miis_98/
-photo.53.tags: mofumofu, paws, portrait, tail
-photo.54: ig://CFoB9j4hUYK/m
-photo.54.author: tetusara.ki_
-photo.54.commitdate: 2020/11/19
-photo.54.link: https://www.instagram.com/tetusara.ki_/
-photo.54.tags: laying down, paws, portrait
-photo.55: ig://CGWbYE2BR-b/m
-photo.55.author: craig_craig_craig
-photo.55.commitdate: 2020/10/16
-photo.55.link: https://www.instagram.com/craig_craig_craig/
-photo.55.tags: apple time, paws, portrait, videolink
-photo.56: ig://CHRYJ0MB25E/m
-photo.56.author: tetusara.ki_
-photo.56.commitdate: 2020/11/15
-photo.56.link: https://www.instagram.com/tetusara.ki_/
-photo.56.tags: lips, portrait, smile, techitechi
-photo.57: ig://CHkLSkgh1Xx/m
-photo.57.author: pink.b22
-photo.57.commitdate: 2020/11/22
-photo.57.link: https://www.instagram.com/pink.b22/
-photo.57.tags: itchy, mofumofu, paws, portrait
-photo.58: ig://CHoOFBuB91Q/m
-photo.58.author: tetusara.ki_
-photo.58.commitdate: 2020/11/29
-photo.58.link: https://www.instagram.com/tetusara.ki_/
-photo.58.tags: apple time, lips, portrait, slobber
-photo.59: https://www.instagram.com/p/CKa8pObhtLl/media/?size=m
-photo.59.author: gloryeui
-photo.59.link: https://www.instagram.com/gloryeui/
-photo.59.tags: apple time, paws, portrait, smile
-photo.60: https://www.instagram.com/p/CJzyZ8lB0XK/media/?size=m
-photo.60.author: gloryeui
-photo.60.link: https://www.instagram.com/gloryeui/
-photo.60.tags: apple time, paws, portrait, techitechi
-photo.61: https://www.instagram.com/p/CJ-p83Shewp/media/?size=m
-photo.61.author: gloryeui
-photo.61.link: https://www.instagram.com/gloryeui/
-photo.61.tags: bamboo, paws, tail
-photo.62: https://www.instagram.com/p/CJIrX20h-r2/media/?size=m
-photo.62.author: pink.b22
-photo.62.link: https://www.instagram.com/pink.b22/
-photo.62.tags: lips, portrait, smile
-photo.63: https://www.instagram.com/p/CGUwhOahKlm/media/?size=m
+photo.48: ig://CCFmudbhgxE/m
+photo.48.author: tetusara.ki_
+photo.48.commitdate: 2021/2/4
+photo.48.link: https://www.instagram.com/tetusara.ki_/
+photo.48.tags: laying down, mofumofu, paws, portrait
+photo.49: ig://CCfj0ymhcpB/m
+photo.49.author: alto0908
+photo.49.commitdate: 2021/2/4
+photo.49.link: https://www.instagram.com/alto0908/
+photo.49.tags: grooming, paws, tongue, wave
+photo.50: ig://CDu8mqlhSzb/m
+photo.50.author: fetorus_mami
+photo.50.commitdate: 2021/2/4
+photo.50.link: https://www.instagram.com/fetorus_mami/
+photo.50.tags: smile
+photo.51: ig://CD5tRVEhBfB/m
+photo.51.author: mini_cochi
+photo.51.commitdate: 2020/12/5
+photo.51.link: https://www.instagram.com/mini_cochi/
+photo.51.tags: paws, portrait, whiskers
+photo.52: ig://CESYBEhhMVo/m
+photo.52.author: tetusara.ki_
+photo.52.commitdate: 2021/2/4
+photo.52.link: https://www.instagram.com/tetusara.ki_/
+photo.52.tags: mofumofu, portrait, whiskers
+photo.53: ig://CEXixulh7RD/m
+photo.53.author: tetusara.ki_
+photo.53.commitdate: 2021/2/4
+photo.53.link: https://www.instagram.com/tetusara.ki_/
+photo.53.tags: bamboo, close-up, paws, portrait, tongue
+photo.54: ig://CEjn6tqBhYM/m
+photo.54.author: redpan22
+photo.54.commitdate: 2020/9/4
+photo.54.link: https://www.instagram.com/redpan22/
+photo.54.tags: bamboo, close-up, lips, mofumofu
+photo.55: ig://CEzyBbfhS8k/m
+photo.55.author: ssc6105
+photo.55.commitdate: 2020/9/19
+photo.55.link: https://www.instagram.com/ssc6105/
+photo.55.tags: paws, smile, tongue, whiskers
+photo.56: ig://CE8yzpRBrSN/m
+photo.56.author: resapan.suki
+photo.56.commitdate: 2020/9/19
+photo.56.link: https://www.instagram.com/resapan.suki/
+photo.56.tags: mofumofu, paws
+photo.57: ig://CFJIQJAhI4n/m
+photo.57.author: ssc6105
+photo.57.commitdate: 2021/2/4
+photo.57.link: https://www.instagram.com/ssc6105/
+photo.57.tags: bamboo, bite, paws
+photo.58: ig://CFTmUBpBbd1/m
+photo.58.author: ssc6105
+photo.58.commitdate: 2020/9/24
+photo.58.link: https://www.instagram.com/ssc6105/
+photo.58.tags: grooming, mofumofu, paws
+photo.59: ig://CFUZInCBr_5/m
+photo.59.author: miis_98
+photo.59.commitdate: 2020/9/24
+photo.59.link: https://www.instagram.com/miis_98/
+photo.59.tags: mofumofu, paws, portrait, tail
+photo.60: ig://CFbq2iXBtNi/m
+photo.60.author: tetusara.ki_
+photo.60.commitdate: 2021/2/4
+photo.60.link: https://www.instagram.com/tetusara.ki_/
+photo.60.tags: mofumofu, portrait, techitechi
+photo.61: ig://CFdKnoOhQbJ/m
+photo.61.author: tetusara.ki_
+photo.61.commitdate: 2021/2/4
+photo.61.link: https://www.instagram.com/tetusara.ki_/
+photo.61.tags: paws, portrait, whiskers
+photo.62: ig://CFoB9j4hUYK/m
+photo.62.author: tetusara.ki_
+photo.62.commitdate: 2020/11/19
+photo.62.link: https://www.instagram.com/tetusara.ki_/
+photo.62.tags: laying down, paws, portrait
+photo.63: ig://CGUwhOahKlm/m
 photo.63.author: craig_craig_craig
+photo.63.commitdate: 2021/2/4
 photo.63.link: https://www.instagram.com/craig_craig_craig/
 photo.63.tags: mofumofu, portrait, smile
-photo.64: https://www.instagram.com/p/CFbq2iXBtNi/media/?size=m
-photo.64.author: tetusara.ki_
-photo.64.link: https://www.instagram.com/tetusara.ki_/
-photo.64.tags: mofumofu, portrait, techitechi
-photo.65: https://www.instagram.com/p/CFdKnoOhQbJ/media/?size=m
+photo.64: ig://CGWbYE2BR-b/m
+photo.64.author: craig_craig_craig
+photo.64.commitdate: 2020/10/16
+photo.64.link: https://www.instagram.com/craig_craig_craig/
+photo.64.tags: apple time, paws, portrait, videolink
+photo.65: ig://CHRYJ0MB25E/m
 photo.65.author: tetusara.ki_
+photo.65.commitdate: 2020/11/15
 photo.65.link: https://www.instagram.com/tetusara.ki_/
-photo.65.tags: paws, portrait, whiskers
-photo.66: https://www.instagram.com/p/CFJIQJAhI4n/media/?size=m
-photo.66.author: ssc6105
-photo.66.link: https://www.instagram.com/ssc6105/
-photo.66.tags: bamboo, bite, paws
-photo.67: https://www.instagram.com/p/CEXixulh7RD/media/?size=m
+photo.65.tags: lips, portrait, smile, techitechi
+photo.66: ig://CHkLSkgh1Xx/m
+photo.66.author: pink.b22
+photo.66.commitdate: 2020/11/22
+photo.66.link: https://www.instagram.com/pink.b22/
+photo.66.tags: itchy, mofumofu, paws, portrait
+photo.67: ig://CHoOFBuB91Q/m
 photo.67.author: tetusara.ki_
+photo.67.commitdate: 2020/11/29
 photo.67.link: https://www.instagram.com/tetusara.ki_/
-photo.67.tags: bamboo, close-up, paws, portrait, tongue
-photo.68: https://www.instagram.com/p/CESYBEhhMVo/media/?size=m
-photo.68.author: tetusara.ki_
-photo.68.link: https://www.instagram.com/tetusara.ki_/
-photo.68.tags: mofumofu, portrait, whiskers
-photo.69: https://www.instagram.com/p/CDu8mqlhSzb/media/?size=m
-photo.69.author: fetorus_mami
-photo.69.link: https://www.instagram.com/fetorus_mami/
-photo.69.tags: smile
-photo.70: https://www.instagram.com/p/CCfj0ymhcpB/media/?size=m
-photo.70.author: alto0908
-photo.70.link: https://www.instagram.com/alto0908/
-photo.70.tags: grooming, paws, tongue, wave
-photo.71: https://www.instagram.com/p/CCFmudbhgxE/media/?size=m
-photo.71.author: tetusara.ki_
-photo.71.link: https://www.instagram.com/tetusara.ki_/
-photo.71.tags: laying down, mofumofu, paws, portrait
+photo.67.tags: apple time, lips, portrait, slobber
+photo.68: ig://CJIrX20h-r2/m
+photo.68.author: pink.b22
+photo.68.commitdate: 2021/2/4
+photo.68.link: https://www.instagram.com/pink.b22/
+photo.68.tags: lips, portrait, smile
+photo.69: ig://CJzyZ8lB0XK/m
+photo.69.author: gloryeui
+photo.69.commitdate: 2021/2/4
+photo.69.link: https://www.instagram.com/gloryeui/
+photo.69.tags: apple time, paws, portrait, techitechi
+photo.70: ig://CJ-p83Shewp/m
+photo.70.author: gloryeui
+photo.70.commitdate: 2021/2/4
+photo.70.link: https://www.instagram.com/gloryeui/
+photo.70.tags: bamboo, paws, tail
+photo.71: ig://CKa8pObhtLl/m
+photo.71.author: gloryeui
+photo.71.commitdate: 2021/2/4
+photo.71.link: https://www.instagram.com/gloryeui/
+photo.71.tags: apple time, paws, portrait, smile
 species: 2
 studbook.id: 12102
 zoo: 143
