@@ -107,7 +107,7 @@ def get_max_entity_count():
         sys.exit()
 
 def random_sleep():
-    random_seconds = random.randint(10, 60)
+    random_seconds = random.randint(30, 90)
     time.sleep(random_seconds)
 
 def resize_ig_link(photo_uri, size):

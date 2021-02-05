@@ -221,10 +221,11 @@ Language.L.emoji = {
          "weary": "😩",
        "website": "🌐",
         "weight": "🏋️",
+      "whiskers": "🐭",
         "window": "🖼",
           "wink": "😉",
-         "worry": "😢",
            "wip": "🚧",
+         "worry": "😢",
           "yawn": "😪",
            "zoo": "🦁"
 }
@@ -2305,6 +2306,13 @@ Language.L.tags = {
         "en": ["yawn", "yawning"],
         "jp": ["あくび"],
         "np": ["जांभई"]
+  },
+  "whiskers": {
+        "cn": ["晶須"],
+     "emoji": [Language.L.emoji.whiskers],
+        "en": ["whiskers", "whisker"],
+        "jp": ["ひげ"],
+        "np": ["फुसफुस"]
   }
 }
 
