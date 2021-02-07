@@ -1,17 +1,18 @@
 [panda]
-_id: 1219
+_id: 1220
 birthday: 2020/7/1
 birthplace: 198
 children: none
 commitdate: 2020/9/7
-en.name: Baby
+death: 2020/11/06
+en.name: Kamal
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: m
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-litter: 1220
+litter: 1219
 species: 1
 zoo: 198
