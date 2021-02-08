@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1220
-photo.1: https://www.instagram.com/p/CJ8il2fp5ow/media/?size=m
+photo.1: ig://CJ8il2fp5ow/m
 photo.1.author: curraghswildlifepark
+photo.1.commitdate: 2021/2/8
 photo.1.link: https://www.instagram.com/curraghswildlifepark/
 photo.1.tags: portrait, profile, tail, tree
 species: 1
