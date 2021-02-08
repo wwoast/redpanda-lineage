@@ -290,8 +290,8 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["179", "112", "339"], 5, Message.memorial)
-    new_content.appendChild(departed);
+    // var departed = Gallery.memorialPhotoCredits(L.display, ["179"], 5, Message.memorial)
+    // new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
@@ -304,8 +304,8 @@ Page.home.render = function() {
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
     // Group memorial for Kin and Gin
-    // var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
-    // new_content.appendChild(ginkin);    
+    var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    new_content.appendChild(ginkin);    
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");
