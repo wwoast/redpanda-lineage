@@ -665,12 +665,14 @@ photo.131.author: shigeko0531
 photo.131.commitdate: 2020/12/30
 photo.131.link: https://www.instagram.com/shigeko0531/
 photo.131.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.132: https://www.instagram.com/p/CLO1jWwhcCX/media/?size=m
+photo.132: ig://CLO1jWwhcCX/m
 photo.132.author: redpan22
+photo.132.commitdate: 2021/2/15
 photo.132.link: https://www.instagram.com/redpan22/
 photo.132.tags: close-up, videolink
-photo.133: https://www.instagram.com/p/CLT7T8aBAzS/media/?size=m
+photo.133: ig://CLT7T8aBAzS/m
 photo.133.author: redpan22
+photo.133.commitdate: 2021/2/15
 photo.133.link: https://www.instagram.com/redpan22/
 photo.133.tags: bridge, laying down, portrait, videolink
 species: 2
