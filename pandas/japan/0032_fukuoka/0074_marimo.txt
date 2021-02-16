@@ -538,8 +538,9 @@ photo.106.author: yossi929
 photo.106.commitdate: 2020/12/30
 photo.106.link: https://www.instagram.com/yossi929/
 photo.106.tags: bamboo, kabe-don, paws, portrait, standing
-photo.107: https://www.instagram.com/p/CLIdf1_B29C/media/?size=m
+photo.107: ig://CLIdf1_B29C/m
 photo.107.author: yossi929
+photo.107.commitdate: 2021/2/16
 photo.107.link: https://www.instagram.com/yossi929/
 photo.107.tags: bamboo, paws, smile
 species: 2

@@ -416,8 +416,9 @@ photo.81.author: hamamatsu.chiita
 photo.81.commitdate: 2021/1/16
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: apple time, keeper, standing, tail
-photo.82: https://www.instagram.com/p/CKvIQ34h0TP/media/?size=m
+photo.82: ig://CKvIQ34h0TP/m
 photo.82.author: lesserpanda_shizuokacity_cp
+photo.82.commitdate: 2021/2/16
 photo.82.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.82.tags: apple time, portrait, smile
 species: 2

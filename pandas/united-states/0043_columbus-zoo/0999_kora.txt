@@ -115,8 +115,9 @@ photo.20.author: rossifari
 photo.20.commitdate: 2020/10/11
 photo.20.link: https://www.instagram.com/rossifari/
 photo.20.tags: portrait, smile, whiskers
-photo.21: https://www.instagram.com/p/CLFRjWdnqN-/media/?size=m
+photo.21: ig://CLFRjWdnqN-/m
 photo.21.author: columbuszoo
+photo.21.commitdate: 2021/2/16
 photo.21.link: https://www.instagram.com/columbuszoo/
 photo.21.tags: apple time, paws, snow, standing
 species: 2

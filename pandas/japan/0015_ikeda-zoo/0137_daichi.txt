@@ -155,8 +155,9 @@ photo.28.author: itsuak
 photo.28.commitdate: 2021/1/30
 photo.28.link: https://www.instagram.com/itsuak/
 photo.28.tags: itchy, paws
-photo.29: https://www.instagram.com/p/CLE9sYAhZTg/media/?size=m
+photo.29: ig://CLE9sYAhZTg/m
 photo.29.author: itsuak
+photo.29.commitdate: 2021/2/16
 photo.29.link: https://www.instagram.com/itsuak/
 photo.29.tags: laying down, paws, playing, portrait
 species: 2

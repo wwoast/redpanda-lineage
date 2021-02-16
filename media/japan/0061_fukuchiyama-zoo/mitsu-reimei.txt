@@ -23,8 +23,9 @@ photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.3.tags: brothers, siblings
 photo.3.tags.286.location: 425, 305
 photo.3.tags.959.location: 695, 305
-photo.4: https://www.instagram.com/p/CLI0mnqB32S/media/?size=l
+photo.4: ig://CLI0mnqB32S/l
 photo.4.author: kisshan324
+photo.4.commitdate: 2021/2/16
 photo.4.link: https://www.instagram.com/kisshan324/
 photo.4.tags: brothers, playing, siblings, tail
 photo.4.tags.286.location: 240, 95

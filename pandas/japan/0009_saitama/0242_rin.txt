@@ -563,20 +563,24 @@ photo.110.author: firefoxpanda88
 photo.110.commitdate: 2020/12/30
 photo.110.link: https://www.instagram.com/firefoxpanda88/
 photo.110.tags: portrait, white face
-photo.111: https://www.instagram.com/p/CLMPuGRBFlp/media/?size=m
-photo.111.author: ssc6105
-photo.111.link: https://www.instagram.com/ssc6105/
-photo.111.tags: grooming, laying down, peek, tail, tree
-photo.112: https://www.instagram.com/p/CKH3TcBhqAd/media/?size=m
-photo.112.author: rie_panda55
-photo.112.link: https://www.instagram.com/rie_panda55/
-photo.112.tags: paws, portrait, tail, upside-down
-photo.113: https://www.instagram.com/p/CKiwf0Hh5vP/media/?size=m
+photo.111: ig://CKH3TcBhqAd/m
+photo.111.author: rie_panda55
+photo.111.commitdate: 2021/2/16
+photo.111.link: https://www.instagram.com/rie_panda55/
+photo.111.tags: paws, portrait, tail, upside-down
+photo.112: ig://CKiwf0Hh5vP/m
+photo.112.author: ssc6105
+photo.112.commitdate: 2021/2/16
+photo.112.link: https://www.instagram.com/ssc6105/
+photo.112.tags: bamboo, paws, standing
+photo.113: ig://CLMPuGRBFlp/m
 photo.113.author: ssc6105
+photo.113.commitdate: 2021/2/16
 photo.113.link: https://www.instagram.com/ssc6105/
-photo.113.tags: bamboo, paws, standing
-photo.114: https://www.instagram.com/p/CLQhnqpBQQ4/media/?size=m
+photo.113.tags: grooming, laying down, peek, tail, tree
+photo.114: ig://CLQhnqpBQQ4/m
 photo.114.author: ssc6105
+photo.114.commitdate: 2021/2/16
 photo.114.link: https://www.instagram.com/ssc6105/
 photo.114.tags: whiskers, white face
 species: 2

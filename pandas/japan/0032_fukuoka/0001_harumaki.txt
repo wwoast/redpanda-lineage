@@ -1898,8 +1898,9 @@ photo.378.author: re_ichimaru
 photo.378.commitdate: 2021/2/4
 photo.378.link: https://www.instagram.com/re_ichimaru/
 photo.378.tags: portrait, whiskers
-photo.379: https://www.instagram.com/p/CKvHwyhBcJD/media/?size=m
+photo.379: ig://CKvHwyhBcJD/m
 photo.379.author: re_ichimaru
+photo.379.commitdate: 2021/2/16
 photo.379.link: https://www.instagram.com/re_ichimaru/
 photo.379.tags: paws, portrait, whiskers
 species: 2
