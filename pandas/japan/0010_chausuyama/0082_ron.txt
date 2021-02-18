@@ -8,6 +8,9 @@ death: 2021/2/16
 en.name: Ron
 en.nicknames: none
 en.othernames: none
+es.name: Ron
+es.nicknames: Mero Mero
+es.othernames: none
 gender: m
 jp.name: ロン
 jp.nicknames: none
@@ -664,6 +667,14 @@ photo.131.author: kipekaila
 photo.131.commitdate: 2021/1/2
 photo.131.link: https://www.instagram.com/kipekaila/
 photo.131.tags: tail
+photo.132: https://www.instagram.com/p/CJdgCEaBFVF/media/?size=m
+photo.132.author: redpan22
+photo.132.link: https://www.instagram.com/redpan22/
+photo.132.tags: keeper, paws, portrait, smile, whiskers
+photo.133: https://www.instagram.com/p/CHRDDb2B6Ud/media/?size=m
+photo.133.author: _rifa_p
+photo.133.link: https://www.instagram.com/_rifa_p/
+photo.133.tags: apple time, smile
 species: 2
 studbook.id: 0553
 zoo: 10
