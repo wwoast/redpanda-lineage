@@ -121,19 +121,21 @@ photo.21.author: redpandanetwork
 photo.21.commitdate: 2020/8/2
 photo.21.link: https://www.instagram.com/redpandanetwork/
 photo.21.tags: paws, portrait, smile, whiskers
-photo.22: ig://CIfENYPB28M/m
+photo.22: ig://CEf9oIaBUmy/m
 photo.22.author: carsontheredpanda
-photo.22.commitdate: 2020/12/20
+photo.22.commitdate: 2021/2/18
 photo.22.link: https://www.instagram.com/carsontheredpanda/
-photo.22.tags: laying down
-photo.23: https://www.instagram.com/p/CEf9oIaBUmy/media/?size=m
+photo.22.tags: paws, portrait, standing, toys
+photo.23: ig://CEqNzjbhNEn/m
 photo.23.author: carsontheredpanda
+photo.23.commitdate: 2021/2/18
 photo.23.link: https://www.instagram.com/carsontheredpanda/
-photo.23.tags: paws, portrait, standing, toys
-photo.24: https://www.instagram.com/p/CEqNzjbhNEn/media/?size=m
+photo.23.tags: paws, portrait, smile, tail, whiskers
+photo.24: ig://CIfENYPB28M/m
 photo.24.author: carsontheredpanda
+photo.24.commitdate: 2020/12/20
 photo.24.link: https://www.instagram.com/carsontheredpanda/
-photo.24.tags: paws, portrait, smile, tail, whiskers
+photo.24.tags: laying down
 species: 1
 studbook.id: 1309
 zoo: 180

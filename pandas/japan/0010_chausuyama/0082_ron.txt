@@ -653,28 +653,30 @@ photo.128.author: _rifa_p
 photo.128.commitdate: 2020/7/18
 photo.128.link: https://www.instagram.com/_rifa_p/
 photo.128.tags: smile, whiskers
-photo.129: ig://CHoRhQghhML/m
-photo.129.author: rie_panda55
-photo.129.commitdate: 2020/11/18
-photo.129.link: https://www.instagram.com/rie_panda55/
-photo.129.tags: laying down, paws, portrait, tail
-photo.130: ig://CH2kbb8hqg-/m
-photo.130.author: _saaaaaaah_
-photo.130.commitdate: 2021/1/9
-photo.130.link: https://www.instagram.com/_saaaaaaah_/
-photo.131: ig://CJUZYKqhlr-/m
-photo.131.author: kipekaila
-photo.131.commitdate: 2021/1/2
-photo.131.link: https://www.instagram.com/kipekaila/
-photo.131.tags: tail
-photo.132: https://www.instagram.com/p/CJdgCEaBFVF/media/?size=m
-photo.132.author: redpan22
-photo.132.link: https://www.instagram.com/redpan22/
-photo.132.tags: keeper, paws, portrait, smile, whiskers
-photo.133: https://www.instagram.com/p/CHRDDb2B6Ud/media/?size=m
-photo.133.author: _rifa_p
-photo.133.link: https://www.instagram.com/_rifa_p/
-photo.133.tags: apple time, smile
+photo.129: ig://CHRDDb2B6Ud/m
+photo.129.author: _rifa_p
+photo.129.commitdate: 2021/2/18
+photo.129.link: https://www.instagram.com/_rifa_p/
+photo.129.tags: apple time, smile
+photo.130: ig://CHoRhQghhML/m
+photo.130.author: rie_panda55
+photo.130.commitdate: 2020/11/18
+photo.130.link: https://www.instagram.com/rie_panda55/
+photo.130.tags: laying down, paws, portrait, tail
+photo.131: ig://CH2kbb8hqg-/m
+photo.131.author: _saaaaaaah_
+photo.131.commitdate: 2021/1/9
+photo.131.link: https://www.instagram.com/_saaaaaaah_/
+photo.132: ig://CJUZYKqhlr-/m
+photo.132.author: kipekaila
+photo.132.commitdate: 2021/1/2
+photo.132.link: https://www.instagram.com/kipekaila/
+photo.132.tags: tail
+photo.133: ig://CJdgCEaBFVF/m
+photo.133.author: redpan22
+photo.133.commitdate: 2021/2/18
+photo.133.link: https://www.instagram.com/redpan22/
+photo.133.tags: keeper, paws, portrait, smile, whiskers
 species: 2
 studbook.id: 0553
 zoo: 10

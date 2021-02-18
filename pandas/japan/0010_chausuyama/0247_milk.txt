@@ -1211,49 +1211,51 @@ photo.240.author: mari_neko3
 photo.240.commitdate: 2020/11/10
 photo.240.link: https://www.instagram.com/mari_neko3/
 photo.240.tags: bamboo, mofumofu, portrait
-photo.241: ig://CFToERNBwif/m
-photo.241.author: redpanda_tata
-photo.241.commitdate: 2020/9/24
-photo.241.link: https://www.instagram.com/redpanda_tata/
-photo.241.tags: bamboo, paws, standing, tail
-photo.242: ig://CFYUnIpBAhn/m
-photo.242.author: shigeko0531
-photo.242.commitdate: 2020/9/24
-photo.242.link: https://www.instagram.com/shigeko0531/
-photo.242.tags: itchy, portrait, techitechi
-photo.243: ig://CGXu_WCBnPt/m
-photo.243.author: eos1089
-photo.243.commitdate: 2020/10/29
-photo.243.link: https://www.instagram.com/eos1089/
+photo.241: ig://CEwDcxchOIY/m
+photo.241.author: shigeko0531
+photo.241.commitdate: 2021/2/18
+photo.241.link: https://www.instagram.com/shigeko0531/
+photo.241.tags: bamboo, paws, portrait, smile, white face
+photo.242: ig://CFMbEoPB9jm/m
+photo.242.author: daniele.tokyo
+photo.242.commitdate: 2021/2/18
+photo.242.link: https://www.instagram.com/daniele.tokyo/
+photo.242.tags: paws, standing, tongue, whiskers
+photo.243: ig://CFToERNBwif/m
+photo.243.author: redpanda_tata
+photo.243.commitdate: 2020/9/24
+photo.243.link: https://www.instagram.com/redpanda_tata/
 photo.243.tags: bamboo, paws, standing, tail
-photo.244: ig://CHT-Cprh3Tr/m
+photo.244: ig://CFYUnIpBAhn/m
 photo.244.author: shigeko0531
-photo.244.commitdate: 2020/12/9
+photo.244.commitdate: 2020/9/24
 photo.244.link: https://www.instagram.com/shigeko0531/
-photo.244.tags: bamboo, close-up, portrait, whiskers
-photo.245: ig://CHmgyalBQTA/m
-photo.245.author: rie_panda55
-photo.245.commitdate: 2020/11/22
-photo.245.link: https://www.instagram.com/rie_panda55/
-photo.245.tags: bamboo, portrait, tail
-photo.246: ig://CHmrK5ahhDe/m
-photo.246.author: redpanda_tata
-photo.246.commitdate: 2020/11/22
-photo.246.link: https://www.instagram.com/redpanda_tata/
-photo.246.tags: portrait
-photo.247: ig://CH2u88PhMFu/m
-photo.247.author: yakko____
-photo.247.commitdate: 2020/11/28
-photo.247.link: https://www.instagram.com/yakko____/
-photo.247.tags: portrait, smile, whiskers
-photo.248: https://www.instagram.com/p/CFMbEoPB9jm/media/?size=m
-photo.248.author: daniele.tokyo
-photo.248.link: https://www.instagram.com/daniele.tokyo/
-photo.248.tags: paws, standing, tongue, whiskers
-photo.249: https://www.instagram.com/p/CEwDcxchOIY/media/?size=m
-photo.249.author: shigeko0531
-photo.249.link: https://www.instagram.com/shigeko0531/
-photo.249.tags: bamboo, paws, portrait, smile, white face
+photo.244.tags: itchy, portrait, techitechi
+photo.245: ig://CGXu_WCBnPt/m
+photo.245.author: eos1089
+photo.245.commitdate: 2020/10/29
+photo.245.link: https://www.instagram.com/eos1089/
+photo.245.tags: bamboo, paws, standing, tail
+photo.246: ig://CHT-Cprh3Tr/m
+photo.246.author: shigeko0531
+photo.246.commitdate: 2020/12/9
+photo.246.link: https://www.instagram.com/shigeko0531/
+photo.246.tags: bamboo, close-up, portrait, whiskers
+photo.247: ig://CHmgyalBQTA/m
+photo.247.author: rie_panda55
+photo.247.commitdate: 2020/11/22
+photo.247.link: https://www.instagram.com/rie_panda55/
+photo.247.tags: bamboo, portrait, tail
+photo.248: ig://CHmrK5ahhDe/m
+photo.248.author: redpanda_tata
+photo.248.commitdate: 2020/11/22
+photo.248.link: https://www.instagram.com/redpanda_tata/
+photo.248.tags: portrait
+photo.249: ig://CH2u88PhMFu/m
+photo.249.author: yakko____
+photo.249.commitdate: 2020/11/28
+photo.249.link: https://www.instagram.com/yakko____/
+photo.249.tags: portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10

@@ -273,25 +273,26 @@ photo.52.author: eos1089
 photo.52.commitdate: 2020/9/8
 photo.52.link: https://www.instagram.com/eos1089/
 photo.52.tags: patrol, paws, portrait, smile
-photo.53: ig://CET_G1zhK8O/m
+photo.53: ig://CEB8M5OB1T2/m
 photo.53.author: ifumoto88
-photo.53.commitdate: 2020/8/28
+photo.53.commitdate: 2021/2/18
 photo.53.link: https://www.instagram.com/ifumoto88/
-photo.53.tags: close-up, patrol, whiskers
-photo.54: ig://CFQWBatBSli/m
-photo.54.author: na.mo.pan
-photo.54.commitdate: 2020/9/20
-photo.54.link: https://www.instagram.com/na.mo.pan/
-photo.54.tags: paws, portrait, smile, whiskers
-photo.55: ig://CG2iNc6BSsy/m
+photo.53.tags: close-up, paws, smile, tongue, whiskers
+photo.54: ig://CET_G1zhK8O/m
+photo.54.author: ifumoto88
+photo.54.commitdate: 2020/8/28
+photo.54.link: https://www.instagram.com/ifumoto88/
+photo.54.tags: close-up, patrol, whiskers
+photo.55: ig://CFQWBatBSli/m
 photo.55.author: na.mo.pan
-photo.55.commitdate: 2020/10/27
+photo.55.commitdate: 2020/9/20
 photo.55.link: https://www.instagram.com/na.mo.pan/
-photo.55.tags: portrait, smile
-photo.56: https://www.instagram.com/p/CEB8M5OB1T2/media/?size=m
-photo.56.author: ifumoto88
-photo.56.link: https://www.instagram.com/ifumoto88/
-photo.56.tags: close-up, paws, smile, tongue, whiskers
+photo.55.tags: paws, portrait, smile, whiskers
+photo.56: ig://CG2iNc6BSsy/m
+photo.56.author: na.mo.pan
+photo.56.commitdate: 2020/10/27
+photo.56.link: https://www.instagram.com/na.mo.pan/
+photo.56.tags: portrait, smile
 species: 2
 studbook.id: 0558
 zoo: 1
