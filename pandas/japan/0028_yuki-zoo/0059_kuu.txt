@@ -4,6 +4,7 @@ birthday: 2008/7/3
 birthplace: 16
 children: none
 commitdate: 2018/6/22
+death: 2021/2/20
 en.name: Kuu
 en.nicknames: none
 en.othernames: none
@@ -379,6 +380,18 @@ photo.73.author: eos1089
 photo.73.commitdate: 2021/2/15
 photo.73.link: https://www.instagram.com/eos1089/
 photo.73.tags: mofumofu, portrait
+photo.74: https://www.instagram.com/p/CJ-5diwhetA/media/?size=m
+photo.74.author: ssc6105
+photo.74.link: https://www.instagram.com/ssc6105/
+photo.74.tags: mofumofu
+photo.75: https://www.instagram.com/p/CKTcNk5B0Jk/media/?size=m
+photo.75.author: pink.b22
+photo.75.link: https://www.instagram.com/pink.b22/
+photo.75.tags: portrait, smile, tree, whiskers
+photo.76: https://www.instagram.com/p/CKvyhUpBhmn/media/?size=m
+photo.76.author: ck.chie
+photo.76.link: https://www.instagram.com/ck.chie/
+photo.76.tags: laying down, mofumofu, portrait, tail, videolink
 species: 2
 studbook.id: 0865
 zoo: 28

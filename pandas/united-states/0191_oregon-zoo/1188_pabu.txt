@@ -57,7 +57,7 @@ photo.9: ig://CGBEzZUpBZN/m
 photo.9.author: oregonzoo
 photo.9.commitdate: 2020/10/7
 photo.9.link: https://www.instagram.com/oregonzoo/
-photo.9.tags: mofumofu, portrait, profile
+photo.9.tags: mofumofu, portrait
 photo.10: ig://CGqa84Onphg/m
 photo.10.author: oregonzoo
 photo.10.commitdate: 2020/10/26
@@ -73,6 +73,10 @@ photo.12.author: oregonzoo
 photo.12.commitdate: 2021/1/13
 photo.12.link: https://www.instagram.com/oregonzoo/
 photo.12.tags: peek, portrait
+photo.13: https://www.instagram.com/p/CK7M7-xsdMr/media/?size=m
+photo.13.author: oregonzoo
+photo.13.link: https://www.instagram.com/oregonzoo/
+photo.13.tags: portrait, profile, whiskers
 species: 2
 video.1: https://youtu.be/3WIOn_zQckc
 video.1.author: oregonzoo
