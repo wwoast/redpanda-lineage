@@ -73,8 +73,9 @@ photo.12.author: oregonzoo
 photo.12.commitdate: 2021/1/13
 photo.12.link: https://www.instagram.com/oregonzoo/
 photo.12.tags: peek, portrait
-photo.13: https://www.instagram.com/p/CK7M7-xsdMr/media/?size=m
+photo.13: ig://CK7M7-xsdMr/m
 photo.13.author: oregonzoo
+photo.13.commitdate: 2021/2/19
 photo.13.link: https://www.instagram.com/oregonzoo/
 photo.13.tags: portrait, profile, whiskers
 species: 2

@@ -279,30 +279,31 @@ photo.53.author: tomo3700
 photo.53.commitdate: 2021/1/14
 photo.53.link: https://www.instagram.com/tomo3700/
 photo.53.tags: bamboo, portrait
-photo.54: ig://CJ3JnvDhES3/m
-photo.54.author: makimaru18
-photo.54.commitdate: 2021/1/19
-photo.54.link: https://www.instagram.com/makimaru18/
-photo.54.tags: laying down, mofumofu, paws, portrait
-photo.55: ig://CJ9kA2DhFQi/m
-photo.55.author: tomo3700
-photo.55.commitdate: 2021/1/16
-photo.55.link: https://www.instagram.com/tomo3700/
-photo.55.tags: portrait, snow, tail
-photo.56: ig://CKKddHQBI0B/m
+photo.54: ig://CJ0xtjVBZGb/m
+photo.54.author: minato.yh
+photo.54.commitdate: 2021/2/19
+photo.54.link: https://www.instagram.com/minato.yh/
+photo.54.tags: portrait, smile, whiskers
+photo.55: ig://CJ3JnvDhES3/m
+photo.55.author: makimaru18
+photo.55.commitdate: 2021/1/19
+photo.55.link: https://www.instagram.com/makimaru18/
+photo.55.tags: laying down, mofumofu, paws, portrait
+photo.56: ig://CJ9kA2DhFQi/m
 photo.56.author: tomo3700
-photo.56.commitdate: 2021/1/30
+photo.56.commitdate: 2021/1/16
 photo.56.link: https://www.instagram.com/tomo3700/
-photo.56.tags: grooming, home, paws, portrait
-photo.57: ig://CKgFD8GhTHW/m
-photo.57.author: shigeko0531
-photo.57.commitdate: 2021/1/31
-photo.57.link: https://www.instagram.com/shigeko0531/
-photo.57.tags: mofumofu, portrait, techitechi
-photo.58: https://www.instagram.com/p/CJ0xtjVBZGb/media/?size=m
-photo.58.author: minato.yh
-photo.58.link: https://www.instagram.com/minato.yh/
-photo.58.tags: portrait, smile, whiskers
+photo.56.tags: portrait, snow, tail
+photo.57: ig://CKKddHQBI0B/m
+photo.57.author: tomo3700
+photo.57.commitdate: 2021/1/30
+photo.57.link: https://www.instagram.com/tomo3700/
+photo.57.tags: grooming, home, paws, portrait
+photo.58: ig://CKgFD8GhTHW/m
+photo.58.author: shigeko0531
+photo.58.commitdate: 2021/1/31
+photo.58.link: https://www.instagram.com/shigeko0531/
+photo.58.tags: mofumofu, portrait, techitechi
 species: 2
 studbook.id: 14141
 zoo: 10

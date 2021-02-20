@@ -370,28 +370,31 @@ photo.71.author: pink.b22
 photo.71.commitdate: 2021/1/16
 photo.71.link: https://www.instagram.com/pink.b22/
 photo.71.tags: portrait, tail
-photo.72: ig://CKBM7yKhkvl/m
-photo.72.author: pink.b22
-photo.72.commitdate: 2021/1/16
-photo.72.link: https://www.instagram.com/pink.b22/
-photo.72.tags: close-up, mofumofu, paws, portrait, wink
-photo.73: ig://CLM9EMABGLH/m
-photo.73.author: eos1089
-photo.73.commitdate: 2021/2/15
-photo.73.link: https://www.instagram.com/eos1089/
-photo.73.tags: mofumofu, portrait
-photo.74: https://www.instagram.com/p/CJ-5diwhetA/media/?size=m
-photo.74.author: ssc6105
-photo.74.link: https://www.instagram.com/ssc6105/
-photo.74.tags: mofumofu
-photo.75: https://www.instagram.com/p/CKTcNk5B0Jk/media/?size=m
-photo.75.author: pink.b22
-photo.75.link: https://www.instagram.com/pink.b22/
-photo.75.tags: portrait, smile, tree, whiskers
-photo.76: https://www.instagram.com/p/CKvyhUpBhmn/media/?size=m
-photo.76.author: ck.chie
-photo.76.link: https://www.instagram.com/ck.chie/
-photo.76.tags: laying down, mofumofu, portrait, tail, videolink
+photo.72: ig://CJ-5diwhetA/m
+photo.72.author: ssc6105
+photo.72.commitdate: 2021/2/19
+photo.72.link: https://www.instagram.com/ssc6105/
+photo.72.tags: mofumofu
+photo.73: ig://CKBM7yKhkvl/m
+photo.73.author: pink.b22
+photo.73.commitdate: 2021/1/16
+photo.73.link: https://www.instagram.com/pink.b22/
+photo.73.tags: close-up, mofumofu, paws, portrait, wink
+photo.74: ig://CKTcNk5B0Jk/m
+photo.74.author: pink.b22
+photo.74.commitdate: 2021/2/19
+photo.74.link: https://www.instagram.com/pink.b22/
+photo.74.tags: portrait, smile, tree, whiskers
+photo.75: ig://CKvyhUpBhmn/m
+photo.75.author: ck.chie
+photo.75.commitdate: 2021/2/19
+photo.75.link: https://www.instagram.com/ck.chie/
+photo.75.tags: laying down, mofumofu, portrait, tail, videolink
+photo.76: ig://CLM9EMABGLH/m
+photo.76.author: eos1089
+photo.76.commitdate: 2021/2/15
+photo.76.link: https://www.instagram.com/eos1089/
+photo.76.tags: mofumofu, portrait
 species: 2
 studbook.id: 0865
 zoo: 28

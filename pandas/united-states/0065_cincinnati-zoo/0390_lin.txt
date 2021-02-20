@@ -73,8 +73,9 @@ photo.12.author: cincinnatizoo
 photo.12.commitdate: 2020/9/7
 photo.12.link: https://www.instagram.com/cincinnatizoo/
 photo.12.tags: paws, smile
-photo.13: https://www.instagram.com/p/CKqxiDULBRH/media/?size=m
+photo.13: ig://CKqxiDULBRH/m
 photo.13.author: rossifari
+photo.13.commitdate: 2021/2/19
 photo.13.link: https://www.instagram.com/rossifari/
 photo.13.tags: bamboo, paws, portrait, smile
 species: 2
