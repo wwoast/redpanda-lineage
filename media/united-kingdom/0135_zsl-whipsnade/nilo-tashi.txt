@@ -1,8 +1,10 @@
 [media]
 _id: media.135.nilo-tashi
+commitdate: 2021/2/20
 panda.tags: 538, 1216
-photo.1: https://www.instagram.com/p/CFHeMcAAkhT/media/?size=l
+photo.1: ig://CFHeMcAAkhT/l
 photo.1.author: jobrownphotography
+photo.1.commitdate: 2021/2/20
 photo.1.link: https://www.instagram.com/jobrownphotography/
 photo.1.tags: baby, carry, mother's day
 photo.1.tags.538.location: 290, 55
