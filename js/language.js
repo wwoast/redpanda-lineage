@@ -274,30 +274,35 @@ Language.L.gui = {
   "about": {
     "cn": "关于",
     "en": "About",
+    "es": "Acerca de",
     "jp": "概要",
     "np": "बारेमा"
   },
   "autumn": {
     "cn": "秋",
     "en": "Autumn",
+    "es": "Otoño",
     "jp": "秋",
     "np": "शरद तु"
   },
   "babies": {
     "cn": "婴儿",
     "en": "Babies",
+    "es": "Bebés",
     "jp": "乳幼児",
     "np": "बच्चाहरु"
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
     "en": "Children",   // Capitalization
+    "es": "Niños",
     "jp": Pandas.def.relations.children["jp"],
     "np": "बच्चाहरु"
   },
   "contribute": {
     "cn": "上传照片",
     "en": "Submit a Photo",
+    "es": "Enviar una foto",
     "jp": "写真を提出する",
     "np": "फोटो पेश गर्नुहोस्"
   },
@@ -308,24 +313,28 @@ Language.L.gui = {
   "copied": {
     "cn": "复制",
     "en": "Copied",
+    "es": "Copiado",
     "jp": "写す",
     "np": "अनुकरण गनु"
   },
   "fall": {
     "cn": "秋",   // Convenience duplicate of autumn
     "en": "Autumn",
+    "es": "Otoño",
     "jp": "秋",
     "np": "शरद तु"
   },
   "family": {
     "cn": "家族",
     "en": "Family",
+    "es": "Familia",
     "jp": "ファミリ",
     "np": "परिवार"
   },
   "father": {
     "cn": "父亲",
     "en": "Father",
+    "es": "Padre",
     "jp": "父",
     "np": "बुबा"
   },
@@ -339,12 +348,14 @@ Language.L.gui = {
   "footerLink_rpf": {
     "cn": "小熊猫族谱项目",
     "en": "Red Panda Lineage",
+    "es": "Red Panda Lineage",
     "jp": "Red Panda Lineage",
     "np": "Red Panda Lineage"
   },
   "footerLink_rpn": {
     "cn": "Red Panda Network",
     "en": "Red Panda Network",
+    "es": "Red Panda Network",
     "jp": "Red Panda Network",
     "np": "Red Panda Network"
   },
@@ -359,18 +370,21 @@ Language.L.gui = {
     "cn": "",
     "en": "Without all the dedicated and loving Instagram red panda fans I " +
           "know, this site would not exist. Thank you so much!",
+    "es": "",
     "jp": "",
     "np": ""
   },
   "instagramLinks_button": {
     "cn": "IG",
     "en": "Instagram",
+    "es": "Instagram",
     "jp": "インスタグラム",
     "np": "Instagram"
   },
   "instagramLinks_header": {
     "cn": "Instagram 小熊猫",
     "en": "Red Pandas on Instagram",
+    "es": "Pandas rojos en Instagram",
     "jp": "Instagram レッサーパンダ",
     "np": "Instagram निगल्य पोन्या"
   },
@@ -456,192 +470,224 @@ Language.L.gui = {
   "loading": {
     "cn": "加载中...",
     "en": "Loading...",
+    "es": "Cargando",
     "jp": "ローディング",
     "np": "लोड"
   },
   "litter": {
     "cn": Pandas.def.relations.litter["cn"],
     "en": "Litter",   // Capitalization
+    "es": "La Camada",
     "jp": Pandas.def.relations.litter["jp"],
     "np": "रोटी"
   },
   "links": {
     "cn": "链接",
     "en": "Links",
+    "es": "Enlaces",
     "jp": "リンク",
     "np": "लिंक"
   },
   "me": {
     "cn": "我",
     "en": "Me",
+    "es": "Me",
     "jp": "私",
     "np": "म"
   },
   "media": {
     "cn": "媒体",
     "en": "Media",
+    "es": "Imagenes",
     "jp": "メディア",
     "np": "मिडिया"
   },
   "mother": {
     "cn": "母亲",
     "en": "Mother",
+    "es": "Madre",
     "jp": "母",
     "np": "आमा"
   },
   "nicknames": {
     "cn": "昵称",
     "en": "Nicknames",
+    "es": "Apodos",
     "jp": "ニックネーム",
     "np": "उपनामहरू"
   },
   "othernames": {
     "cn": "其他名称",
     "en": "Other Names",
+    "es": "Otros nombres",
     "jp": "他の名前",
     "np": "अरु नामहरु"
   },
   "paging": {
     "cn": "更多",
     "en": "More",
+    "es": "Ver Más",
     "jp": "もっと",
     "np": "अधिक"
   },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
     "en": "Parents",   // Capitalization
+    "es": "Padres",
     "jp": Pandas.def.relations.parents["jp"],
     "np": "अभिभावक"
   },
   "profile": {
     "cn": "档案",
     "en": "Profile",
+    "es": "Perfil",
     "jp": "プロフィール",
     "np": "प्रोफाइल"
   },
   "quadruplet": {
     "cn": "四胞胎",
     "en": "Quadruplet",
+    "es": "Cuatrillizo",
     "jp": "四つ子",
     "np": "प्रोफाइल"
   },
   "random": {
     "cn": "随机",
     "en": "Random",
+    "es": "Aleatorio",
     "jp": "適当",
     "np": "अनियमित"
   },
   "redPandaCommunity_body": {
     "cn": "",
     "en": "",
+    "es": "",
     "jp": "",
     "np": ""
   },
   "redPandaCommunity_button": {
     "cn": "社区",
     "en": "Community",
+    "es": "Comunidad",
     "jp": "共同体",
     "np": "समुदाय"
   },
   "redPandaCommunity_header": {
     "cn": "小熊猫社区",
     "en": "Red Panda Community",
+    "es": "Comunidad del Panda Rojo",
     "jp": "レッサーパンダの共同体",
     "np": "निगल्य पोन्या समुदाय"
   },
   "refresh": {
     "cn": "刷新",
     "en": "Refresh",
+    "es": "Refrescar",
     "jp": "リロード",
     "np": "ताजा गर्नु"
   },
   "search": {
     "cn": "搜索...",
     "en": "Search...",
+    "es": "Buscar...",
     "jp": "サーチ...",
     "np": "खोज्नु"
   },
   "seen_date": {
     "cn": "目击日期 <INSERTDATE>",
     "en": "Seen <INSERTDATE>",
+    "es": "Visto <INSERTDATE>",
     "jp": "TOWRITE <INSERTDATE>",
     "np": "TOWRITE <INSERTDATE>"
   },
   "siblings": {
     "cn": Pandas.def.relations.siblings["cn"],
-    "en": "Siblings",   // Capitalization
+    "en": "Siblings",   // Capitalization,
+    "es": "Hermanos",
     "jp": Pandas.def.relations.siblings["jp"],
     "np": "भाइबहिनीहरू"
   },
   "since_date": {
     "cn": "自 <INSERTDATE>",
     "en": "Since <INSERTDATE>",
+    "es": "Ya que <INSERTDATE>",
     "jp": "<INSERTDATE>から",
     "np": "<INSERTDATE>देखि"
   },
   "specialThanksLinks_body": {
     "cn": "",
     "en": "",
+    "es": "",
     "jp": "",
     "np": ""
   },
   "specialThanksLinks_button": {
     "cn": "鸣谢",
     "en": "Special Thanks",
+    "es": "Gracias Especiales",
     "jp": "感佩",
     "np": "विशेष धन्यवाद"
   },
   "specialThanksLinks_header": {
     "cn": "鸣谢",
     "en": "Special Thanks",
+    "es": "Gracias Especiales",
     "jp": "感佩",
     "np": "विशेष धन्यवाद"
   },
   "spring": {
     "cn": "春",
     "en": "Spring",
+    "es": "Primavera",
     "jp": "春",
     "np": "वसन्त"
   },
   "summer": {
     "cn": "夏",
     "en": "Summer",
+    "es": "Verano",
     "jp": "夏",
     "np": "गर्मी"
   },
   "title": {
     "cn": "查找小熊猫",
     "en": "Red Panda Finder",
+    "es": "Buscador de Panda Rojo",
     "jp": "レッサーパンダのファインダー",
     "np": "निगल्या पोनिया मित्र"
   },
   "top": {
     "cn": "顶部",
     "en": "Top",
+    "es": "Cima",
     "jp": "上",
     "np": "माथि"
   },
   "tree": {
     "cn": "树",
     "en": "Tree",
+    "es": "Árbol",
     "jp": "木",
     "np": "रूख"
   },
   "twin": {
     "cn": "双胞胎",
     "en": "Twin",
+    "es": "Mellizo",
     "jp": "双子",
     "np": "जुम्ल्याहा"
   },
   "triplet": {
     "cn": "三胞胎",
     "en": "Triplet",
+    "es": "Trillizo",
     "jp": "三つ子",
     "np": "तीनवटा"
   },
   "winter": {
     "cn": "冬",
     "en": "Winter",
+    "es": "Invierno",
     "jp": "冬",
     "np": "जाडो"
   },
@@ -649,18 +695,21 @@ Language.L.gui = {
     "cn": "",
     "en": "While many zoos are represented in this dataset, some of them are " +
           "hotspots for seeing Red Pandas.",
+    "es": "",
     "jp": "",
     "np": ""
   },
   "zooLinks_button": {
     "cn": "动物园",
     "en": "Zoos",
+    "es": "Zoológicos",
     "jp": "動物園",
     "np": "चिडियाखाना"
   },
   "zooLinks_header": {
     "cn": "小熊猫动物园",
     "en": "Major Red Panda Zoos",
+    "es": "Principales Zoológicos de Pandas Rojos",
     "jp": "レッサーパンダの動物園",
     "np": "प्रमुख चिडियाखाना"
   }
