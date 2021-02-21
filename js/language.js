@@ -1191,7 +1191,7 @@ Language.L.messages = {
       "es": [Language.L.emoji.profile,
              " ",
              "<INSERTCOUNT>",
-             " nuevos pandas rojos"]
+             " nuevos pandas rojos"],
       "jp": [Language.L.emoji.profile,
              " ",
              "<INSERTCOUNT>",
