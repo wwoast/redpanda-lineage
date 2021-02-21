@@ -2031,7 +2031,7 @@ Language.L.tags = {
        "cn": ["挠痒", "抓痒"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
-       "es": ["picazón", "picazon", "chirriante"]
+       "es": ["picazón", "picazon", "chirriante"],
        "jp": ["カイカイ", "かゆい"],
        "np": ["खुजली"]
   },
@@ -2328,7 +2328,7 @@ Language.L.tags = {
         "cn": ["拉伸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
-        "es": ["extensión", "extension", "tramo"]
+        "es": ["extensión", "extension", "tramo"],
         "jp": ["ストレッチしている"],
         "np": ["तन्नु", "तान्न"]
   },
