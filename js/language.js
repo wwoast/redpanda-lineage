@@ -2380,12 +2380,12 @@ Language.L.tags = {
     "np": ["फुसफुस"]
   },
   "yawn": {
-        "cn": ["哈欠", "呵欠"],
-     "emoji": [Language.L.emoji.yawn],
-        "en": ["yawn", "yawning"],
-        "es": ["bostezo"],
-        "jp": ["あくび"],
-        "np": ["जांभई"]
+    "cn": ["哈欠", "呵欠"],
+ "emoji": [Language.L.emoji.yawn],
+    "en": ["yawn", "yawning"],
+    "es": ["bostezo"],
+    "jp": ["あくび"],
+    "np": ["जांभई"]
   }
 }
 
