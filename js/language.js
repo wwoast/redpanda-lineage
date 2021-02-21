@@ -1782,6 +1782,7 @@ Language.L.tags = {
               Language.L.emoji.butterfly],
        "en": ["air tasting", 
               "air taste"],
+       "es": ["sabor de aire"],
        "jp": ["舌ヒラヒラ"],
        "np": ["हावा चाख्ने"]
   },
@@ -1789,6 +1790,7 @@ Language.L.tags = {
        "cn": ["苹果时间", "苹果"],
     "emoji": [Language.L.emoji.apple],
        "en": ["apple time", "apple"],
+       "es": ["tiempo de manazana", "manzana"],
        "jp": ["りんごタイム", "りんご"],
        "np": ["स्याउ समय", "स्याउ"]
   },
@@ -1796,6 +1798,7 @@ Language.L.tags = {
        "cn": ["秋天"],
     "emoji": [Language.L.emoji.autumn],
        "en": ["autumn", "fall"],
+       "es": ["otoño"],
        "jp": ["秋"],
        "np": ["शरद तु"]
   },
@@ -1803,6 +1806,7 @@ Language.L.tags = {
        "cn": ["竹子", "竹"],
     "emoji": [Language.L.emoji.bamboo],
        "en": ["bamboo"],
+       "es": ["bambú", "bambu"],
        "jp": ["笹", "竹"],
        "np": ["बाँस"]
   },
@@ -1810,6 +1814,7 @@ Language.L.tags = {
        "cn": ["蠕动"],
     "emoji": [Language.L.emoji.caterpillar],
        "en": ["bear worm", "bear-worm"],
+       "es": ["gusano oso"],
        "jp": ["のびのび"],
        "np": ["कीरा भालु"]
   },
@@ -1817,6 +1822,7 @@ Language.L.tags = {
        "cn": ["咬", "吃"],
     "emoji": [Language.L.emoji.tooth],
        "en": ["bite"],
+       "es": ["morder"],
        "jp": ["一口"],
        "np": ["काट्नु"]
   },
@@ -1824,6 +1830,7 @@ Language.L.tags = {
        "cn": ["眨眼"],
     "emoji": [Language.L.emoji.blink],
        "en": ["blink", "blinking"],
+       "es": ["parpadear", "parpadeo"],
        "jp": ["まばたき"],
        "np": ["झिम्काइ"]
   },
@@ -1831,6 +1838,7 @@ Language.L.tags = {
        "cn": ["吊桥", "桥"],
     "emoji": [Language.L.emoji.bridge],
        "en": ["bridge"],
+       "es": ["puente"],
        "jp": ["吊り橋・渡し木", "架け橋"],
        "np": ["पुल"]
   },
@@ -1838,6 +1846,7 @@ Language.L.tags = {
        "cn": ["兄弟"],
     "emoji": [Language.L.emoji.brothers],
        "en": ["brothers", "bros"],
+       "es": ["hermanos"],
        "jp": ["男兄弟"],
        "np": ["भाइहरु"]
   },
@@ -1845,6 +1854,7 @@ Language.L.tags = {
        "cn": ["运", "拿"],
     "emoji": [Language.L.emoji.carry],
        "en": ["carry", "holding"],
+       "es": ["llevar", "tenencia"],
        "jp": ["笹運び", "枝運び", "運ぶ"],
        "np": ["बोक्नु", "समात्नु"]
   },
@@ -1852,6 +1862,7 @@ Language.L.tags = {
        "cn": ["樱花"],
     "emoji": [Language.L.emoji.cherry_blossom],
        "en": ["cherry blossoms", "cherry blossom"],
+       "es": ["flor de cerezo", "flores de cerezo"],
        "jp": ["桜"],
        "np": ["चेरी खिल"]
   },
@@ -1859,6 +1870,7 @@ Language.L.tags = {
        "cn": ["爬"],
     "emoji": [Language.L.emoji.climb],
        "en": ["climb", "climbing"],
+       "es": ["trepar", "escalada"],
        "jp": ["木登り", "登る"],
        "np": ["चढाई"]
   },
@@ -1866,6 +1878,7 @@ Language.L.tags = {
        "cn": ["夫妇", "情侣"],
     "emoji": [Language.L.emoji.couple],
        "en": ["couple", "partners"],
+       "es": ["pareja"],
        "jp": ["カップル", "夫婦", "ふうふ"],
        "np": ["जोडी"]
   },
@@ -1873,6 +1886,7 @@ Language.L.tags = {
        "cn": ["破坏"],
     "emoji": [Language.L.emoji.tornado],
        "en": ["chaos", "destruction", "mess"],
+       "es": ["caos", "destrucción", "destruccion", "desorden"],
        "jp": ["破壊"],
        "np": ["विनाश"]
   },
@@ -1880,6 +1894,7 @@ Language.L.tags = {
        "cn": ["挖"],
     "emoji": [Language.L.emoji.dig],
        "en": ["dig", "digging", "digs"],
+       "es": ["cavar", "excavación", "excavacion"],
        "jp": ["穴掘り"],
        "np": ["खन्नुहोस्"]
   },
@@ -1887,6 +1902,7 @@ Language.L.tags = {
        "cn": ["盘子"],
     "emoji": [Language.L.emoji.dish],
        "en": ["dish", "plate"],
+       "es": ["plato"],
        "jp": ["ごはん"],
        "np": ["थाल"]
   },
@@ -1894,6 +1910,7 @@ Language.L.tags = {
        "cn": ["门"],
     "emoji": [Language.L.emoji.door],
        "en": ["door"],
+       "es": ["puerta"],
        "jp": ["扉", "戸"],
        "np": ["ढोका"]
   },
@@ -1901,6 +1918,7 @@ Language.L.tags = {
        "cn": ["耳"],
     "emoji": [Language.L.emoji.ear],
        "en": ["ear", "ears"],
+       "es": ["oído", "oídos", "oido", "oidos"],
        "jp": ["耳"],
        "np": ["कान"]
   },
@@ -1908,6 +1926,7 @@ Language.L.tags = {
        "cn": ["眼睛", "眼"],
     "emoji": [Language.L.emoji.eye],
        "en": ["eye", "eyes"],
+       "es": ["ojo", "ojos"],
        "jp": ["目"],
        "np": ["कान"]
   },
@@ -1915,6 +1934,7 @@ Language.L.tags = {
        "cn": ["花"],
     "emoji": [Language.L.emoji.flower],
        "en": ["flower", "flowers"],
+       "es": ["flor", "flores"],
        "jp": ["花"],
        "np": ["फूल", "फूलहरू"]
   },
@@ -1922,6 +1942,7 @@ Language.L.tags = {
        "cn": ["梳毛"],
     "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
+       "es": ["cepillar", "preparar", "limpieza"],
        "jp": ["毛づくろい"],
        "np": ["फूलहरू"]
   },
@@ -1929,6 +1950,7 @@ Language.L.tags = {
        "cn": ["牢骚满腹"],
     "emoji": [Language.L.emoji.grumpy],
        "en": ["grumpy", "grouchy"],
+       "es": ["gruñona", "gruñón", "grunona", "grunon"],
        "jp": ["ご機嫌ナナメ"],
        "np": ["नराम्रो"]
   },
@@ -1936,6 +1958,7 @@ Language.L.tags = {
        "cn": ["吊床"],
     "emoji": [Language.L.emoji.camping],
        "en": ["hammock"],
+       "es": ["hamaca"],
        "jp": ["ハンモック"],
        "np": ["ह्यामॉक"]
   },
@@ -1943,6 +1966,7 @@ Language.L.tags = {
        "cn": ["家"],
     "emoji": [Language.L.emoji.home],
        "en": ["home"],
+       "es": ["casa", "en casa"],
        "jp": ["お家"],
        "np": ["घर"]
   },
@@ -1950,6 +1974,7 @@ Language.L.tags = {
        "cn": ["热恋", "恋爱"],
     "emoji": [Language.L.emoji.hearts],
        "en": ["in love", "love"],
+       "es": ["en amor", "enamorado"],
        "jp": ["恋"],
        "np": ["मायामा"]
   },
@@ -1957,6 +1982,7 @@ Language.L.tags = {
        "cn": ["挠痒", "抓痒"],
     "emoji": [Language.L.emoji.itch],
        "en": ["itchy", "scratchy"],
+       "es": ["picazón", "picazon", "chirriante"]
        "jp": ["カイカイ", "かゆい"],
        "np": ["खुजली"]
   },
@@ -1964,6 +1990,7 @@ Language.L.tags = {
        "cn": ["地藏菩萨"],
     "emoji": [Language.L.emoji.jizo],
        "en": ["jizo", "jizo statue", "statue"],
+       "es": ["estatua"],
        "jp": ["お地蔵さん"],
        "np": ["मूर्ति"]
   },
@@ -1971,6 +1998,7 @@ Language.L.tags = {
        "cn": ["饲养员"],
     "emoji": [Language.L.emoji.weary],
        "en": ["keeper", "zookeeper"],
+       "es": ["cuidador", "cuidadora"],
        "jp": ["飼育員"],
        "np": ["चिडियाखाना"]
   },
@@ -1978,6 +2006,7 @@ Language.L.tags = {
        "cn": ["接吻", "亲亲", "吻"],
     "emoji": [Language.L.emoji.kiss],
        "en": ["kissing", "kiss"],
+       "es": ["beso", "besos"],
        "jp": ["接吻", "せっぷん", "キス"],
        "np": ["चुम्बन"]
   },
@@ -1985,6 +2014,7 @@ Language.L.tags = {
        "cn": ["躺"],
     "emoji": [Language.L.emoji.bed],
        "en": ["lay down", "laying down"],
+       "es": ["sentado", "acostado"],
        "jp": ["寝そべっている"],
        "np": ["तल राख्नु"]
   },
@@ -1992,6 +2022,7 @@ Language.L.tags = {
        "cn": ["唇"],
     "emoji": [Language.L.emoji.lips],
        "en": ["lips"],
+       "es": ["labios"],
        "jp": ["くちびる"],
        "np": ["ओठ"]
   },
@@ -2000,6 +2031,7 @@ Language.L.tags = {
     "emoji": [Language.L.emoji.tongue +
               Language.L.emoji.tongue],
        "en": ["long tongue", "long-tongue"],
+       "es": ["sacando la lengua"],
        "jp": ["長い舌"],
        "np": ["लामो जीभ"]
   },
@@ -2007,6 +2039,7 @@ Language.L.tags = {
        "cn": ["午餐时间"],
     "emoji": [Language.L.emoji.bento],
        "en": ["lunch time", "lunch"],
+       "es": ["hora de comer", "almuerzo"],
        "jp": ["ランチの時間"],
        "np": ["खाजा समय", "भोजन"]
   },
@@ -2014,6 +2047,7 @@ Language.L.tags = {
         "cn": ["软软"],
      "emoji": [Language.L.emoji.teddybear],
         "en": ["mofumofu", "fluffy", "punchy"],
+        "es": ["esponjoso", "esponjosa"],
         "jp": ["モフモフ"],
         "np": ["रमाईलो"]
   },
@@ -2021,6 +2055,7 @@ Language.L.tags = {
         "cn": ["口鼻套"],
      "emoji": [Language.L.emoji.muzzle],
         "en": ["muzzle", "snout"],
+        "es": ["bozal", "hocico"],
         "jp": ["マズル"],
         "np": ["थूली", "थोरै"]
   },
@@ -2028,6 +2063,7 @@ Language.L.tags = {
         "cn": ["夜", "晚上"],
      "emoji": [Language.L.emoji.moon],
         "en": ["night"],
+        "es": ["noche"],
         "jp": ["夜"],
         "np": ["रात"]
   },
@@ -2035,6 +2071,7 @@ Language.L.tags = {
         "cn": ["鼻子"],
      "emoji": [Language.L.emoji.nose],
         "en": ["nose", "snout"],
+        "es": ["nariz"],
         "jp": ["鼻"],
         "np": ["नाक"]
   },
@@ -2042,6 +2079,7 @@ Language.L.tags = {
         "cn": ["老人"],
      "emoji": [Language.L.emoji.grandpa],
         "en": ["old"],
+        "es": ["viejo", "vieja"],
         "jp": ["シニアパンダさん", "年老いた"],
         "np": ["पुरानो"]
   },
@@ -2050,6 +2088,7 @@ Language.L.tags = {
      "emoji": [Language.L.emoji.panda + 
                Language.L.emoji.bowl],
         "en": ["panda bowl", "bowl"],
+        "es": ["cuenco de panda"],
         "jp": ["エサ鉢"],
         "np": ["पोनिया कटोरा"]
   },
@@ -2064,6 +2103,7 @@ Language.L.tags = {
         "cn": ["偷窥"],
      "emoji": [Language.L.emoji.monocle],
         "en": ["peek", "peeking"],
+        "es": ["ojeada"],
         "jp": ["チラ見"],
         "np": ["झिक्नु"]
   },
@@ -2071,6 +2111,7 @@ Language.L.tags = {
         "cn": ["玩耍"],
      "emoji": [Language.L.emoji.playing],
         "en": ["playing", "play"],
+        "es": ["jugando", "jugar"],
         "jp": ["拝み食い", "両手食い"],
         "np": ["खेलिरहेको", "खेल्नु"]
   },
@@ -2078,6 +2119,7 @@ Language.L.tags = {
         "cn": ["便便"],
      "emoji": [Language.L.emoji.poop],
         "en": ["poop"],
+        "es": ["mierda"],
         "jp": [Language.L.emoji.poop],
         "np": [Language.L.emoji.poop]
   },
@@ -2086,6 +2128,7 @@ Language.L.tags = {
      "emoji": [Language.L.emoji.panda +
                Language.L.emoji.poop],
         "en": ["pooping"],
+        "es": ["caca"],
         "jp": ["💩している"],
         "np": [Language.L.emoji.panda +
                Language.L.emoji.poop]
@@ -2093,7 +2136,8 @@ Language.L.tags = {
   "portrait": {
         "cn": ["肖像"],
      "emoji": [Language.L.emoji.portrait],
-        "en": ["portrait"],
+        "en": ["portrait", "square"],
+        "es": ["retrato", "cuadrado", "cuadrada"],
         "jp": ["顔写真"],
         "np": ["चित्र"]
   },
@@ -2101,6 +2145,7 @@ Language.L.tags = {
         "cn": ["祈祷"],
      "emoji": [Language.L.emoji.pray],
         "en": ["praying", "pray"],
+        "es": ["orando"],
         "jp": ["お祈りしている"],
         "np": ["प्रार्थना गर्दै", "प्रार्थना"]
   },
@@ -2108,6 +2153,7 @@ Language.L.tags = {
         "cn": ["资料"],
      "emoji": [Language.L.emoji.profile],
         "en": ["profile"],
+        "es": ["perfil"],
         "jp": ["プロフィール画像"],
         "np": ["प्रोफाइल"]
   },
@@ -2115,6 +2161,7 @@ Language.L.tags = {
         "cn": ["引体向上"],
      "emoji": [Language.L.emoji.weight],
         "en": ["pull-up", "pull-ups", "pullup"],
+        "es": ["la tracción", "la traccion", "tracción", "traccion"],
         "jp": ["鉄棒", "懸垂"],
         "np": ["तान्नु"]
   },
@@ -2122,6 +2169,7 @@ Language.L.tags = {
         "cn": ["南瓜"],
      "emoji": [Language.L.emoji.pumpkin],
         "en": ["pumpkin", "halloween"],
+        "es": ["calabaza"],
         "jp": ["かぼちゃ", "南瓜"],
         "np": ["कद्दू", "हेलोवीन"]
   },
@@ -2129,6 +2177,7 @@ Language.L.tags = {
         "cn": ["令和"],
      "emoji": [Language.L.emoji.reiwa],
         "en": ["reiwa"],
+        "es": ["reiwa"],
         "jp": ["令和"],
         "np": [Language.L.emoji.reiwa]
   },
@@ -2136,6 +2185,7 @@ Language.L.tags = {
         "cn": ["测体重"],
      "emoji": [Language.L.emoji.scale],
         "en": ["scale", "weigh-in", "weight"],
+        "es": ["balanca", "conseta", "pesa"],
         "jp": ["体重計", "たいじゅうけい"],
         "np": ["स्केल", "तौल"]
   },
@@ -2143,6 +2193,7 @@ Language.L.tags = {
         "cn": ["摇晃"],
      "emoji": [Language.L.emoji.cyclone],
         "en": ["shake", "shaking"],
+        "es": ["sacudida"],
         "jp": ["ドリパン", "ブルブル", "ゆらゆら"],
         "np": ["हल्लाउनु"]
   },
@@ -2157,6 +2208,7 @@ Language.L.tags = {
         "cn": ["竹笋"],
      "emoji": [Language.L.emoji.bamboo],
         "en": ["shoots", "shoot"],
+        "es": ["brotes"],
         "jp": ["竹の子", "たけのこ"],
         "np": ["बाँस को टुप्पो"]
   },
@@ -2164,6 +2216,7 @@ Language.L.tags = {
         "cn": ["同胞"],
      "emoji": [Language.L.emoji.siblings],
         "en": ["siblings"],
+        "es": ["parientes"],
         "jp": ["兄弟", "きょうだい"],
         "np": ["भाइबहिनीहरू"]
   },
@@ -2171,6 +2224,7 @@ Language.L.tags = {
         "cn": ["姐妹"],
      "emoji": [Language.L.emoji.sisters],
         "en": ["sisters"],
+        "es": ["hermanas"],
         "jp": ["姉妹"],
         "np": ["बहिनीहरू"]
   },
@@ -2178,6 +2232,7 @@ Language.L.tags = {
         "cn": ["睡觉"],
      "emoji": [Language.L.emoji.sleeping],
         "en": ["sleeping", "sleep", "asleep"],
+        "es": ["durmiendo", "dormir", "dormido", "dormida"],
         "jp": ["寝ている"],
         "np": ["सुत्नु", "निद्रा"]
   },
@@ -2192,6 +2247,7 @@ Language.L.tags = {
         "cn": ["笑", "微笑"],
      "emoji": [Language.L.emoji.smile],
         "en": ["smile", "smiling"],
+        "es": ["baba"],
         "jp": ["スマイル"],
         "np": ["हाँसो"]
   },
@@ -2199,6 +2255,7 @@ Language.L.tags = {
         "cn": ["雪"],
      "emoji": [Language.L.emoji.snow],
         "en": ["snow"],
+        "es": ["nieve"],
         "jp": ["雪"],
         "np": ["हिउँ"]
   },
@@ -2206,6 +2263,7 @@ Language.L.tags = {
         "cn": ["蜘蛛"],
      "emoji": [Language.L.emoji.spider],
         "en": ["spider", "spider-bear", "spider bear"],
+        "es": ["araña", "arana"],
         "jp": ["スパイダー"],
         "np": ["माकुरो", "माकुरो भालु"]
   },
@@ -2213,6 +2271,7 @@ Language.L.tags = {
         "cn": ["站立"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["standing", "stand"],
+        "es": ["de pie"],
         "jp": ["立っている"],
         "np": ["खडा"]
   },
@@ -2220,6 +2279,7 @@ Language.L.tags = {
         "cn": ["拉伸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["stretching", "stretch"],
+        "es": ["extensión", "extension", "tramo"]
         "jp": ["ストレッチしている"],
         "np": ["तन्नु", "तान्न"]
   },
@@ -2227,6 +2287,7 @@ Language.L.tags = {
         "cn": ["惊喜"],
      "emoji": [Language.L.emoji.fireworks],
         "en": ["surprise", "surprised"],
+        "es": ["sorpresa"],
         "jp": ["びっくり"],
         "np": ["अचम्म"]
   },
@@ -2234,6 +2295,7 @@ Language.L.tags = {
         "cn": ["尾巴"],
      "emoji": [Language.L.emoji.snake],
         "en": ["tail"],
+        "es": ["cola"],
         "jp": ["しっぽ"],
         "np": ["पुच्छर"]
   },
@@ -2241,6 +2303,7 @@ Language.L.tags = {
         "cn": ["目标"],
      "emoji": [Language.L.emoji.target],
         "en": ["techitechi", "spot", "cute spot"],
+        "es": ["lunares"],
         "jp": ["テチテチ"],
         "np": ["राम्रो स्थान"]
   },
@@ -2248,6 +2311,7 @@ Language.L.tags = {
         "cn": ["舌"],
      "emoji": [Language.L.emoji.tongue],
         "en": ["tongue"],
+        "es": ["lengua"],
         "jp": ["べろ"],
         "np": ["जिब्रो"]
   },
@@ -2255,6 +2319,7 @@ Language.L.tags = {
         "cn": ["玩具"],
      "emoji": [Language.L.emoji.football],
         "en": ["toy", "toys"],
+        "es": ["juguete", "juguetes"],
         "jp": ["遊具", "おもちゃ", "おもちゃ"],
         "np": ["खेलौना"]
   },
@@ -2262,6 +2327,7 @@ Language.L.tags = {
         "cn": ["树"],
      "emoji": [Language.L.emoji.tree],
         "en": ["tree", "trees"],
+        "es": ["árbol", "arbol", "árboles", "arboles"],
         "jp": ["木"],
         "np": ["रूख"]
   },
@@ -2269,6 +2335,7 @@ Language.L.tags = {
         "cn": ["翻转"],
      "emoji": [Language.L.emoji.upside_down],
         "en": ["upside-down", "upside down"],
+        "es": ["al revés", "al reves", "cabeza abajo"],
         "jp": ["逆さま"],
         "np": ["तलको माथि"]
   },
@@ -2276,6 +2343,7 @@ Language.L.tags = {
         "cn": ["眨眼"],
      "emoji": [Language.L.emoji.wink],
         "en": ["wink", "winking"],
+        "es": ["guiño", "guino"],
         "jp": ["ウィンク"],
         "np": ["आखा भ्किम्काउनु"]
   },
@@ -2283,6 +2351,7 @@ Language.L.tags = {
         "cn": ["湿"],
      "emoji": [Language.L.emoji.raincloud],
         "en": ["wet"],
+        "es": ["mojado", "mojada"],
         "jp": ["濡れた"],
         "np": ["भिजेको"]
   },
@@ -2290,6 +2359,7 @@ Language.L.tags = {
         "cn": ["浅色的脸"],
      "emoji": [Language.L.emoji.no_emoji],
         "en": ["white face", "light face"],
+        "es": ["cara blanca"],
         "jp": ["色白さん", "しろめん", "白面", "白めん"],
         "np": ["सेतो अनुहार"]
   },
@@ -2297,22 +2367,25 @@ Language.L.tags = {
         "cn": ["窗"],
      "emoji": [Language.L.emoji.window],
         "en": ["window"],
+        "es": ["ventana"],
         "jp": ["窓", "まど"],
         "np": ["विन्डो"]
+  },
+  "whiskers": {
+    "cn": ["晶須"],
+ "emoji": [Language.L.emoji.whiskers],
+    "en": ["whiskers", "whisker"],
+    "es": ["bigotes"],
+    "jp": ["ひげ"],
+    "np": ["फुसफुस"]
   },
   "yawn": {
         "cn": ["哈欠", "呵欠"],
      "emoji": [Language.L.emoji.yawn],
         "en": ["yawn", "yawning"],
+        "es": ["bostezo"],
         "jp": ["あくび"],
         "np": ["जांभई"]
-  },
-  "whiskers": {
-        "cn": ["晶須"],
-     "emoji": [Language.L.emoji.whiskers],
-        "en": ["whiskers", "whisker"],
-        "jp": ["ひげ"],
-        "np": ["फुसफुस"]
   }
 }
 
