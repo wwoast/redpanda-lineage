@@ -689,15 +689,16 @@ photo.136.author: minatomirai215
 photo.136.commitdate: 2021/1/16
 photo.136.link: https://www.instagram.com/minatomirai215/
 photo.136.tags: paws, portrait
-photo.137: ig://CLUaiVMhsfi/m
-photo.137.author: fetorus_mami
-photo.137.commitdate: 2021/2/15
-photo.137.link: https://www.instagram.com/fetorus_mami/
-photo.137.tags: close-up, whiskers
-photo.138: https://www.instagram.com/p/CK2UoloBa6K/media/?size=m
-photo.138.author: ck.chie
-photo.138.link: https://www.instagram.com/ck.chie/
-photo.138.tags: paws, portrait
+photo.137: ig://CK2UoloBa6K/m
+photo.137.author: ck.chie
+photo.137.commitdate: 2021/2/20
+photo.137.link: https://www.instagram.com/ck.chie/
+photo.137.tags: paws, portrait
+photo.138: ig://CLUaiVMhsfi/m
+photo.138.author: fetorus_mami
+photo.138.commitdate: 2021/2/15
+photo.138.link: https://www.instagram.com/fetorus_mami/
+photo.138.tags: close-up, whiskers
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

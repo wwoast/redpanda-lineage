@@ -228,8 +228,9 @@ photo.44.author: chankunvv
 photo.44.commitdate: 2020/12/30
 photo.44.link: https://www.instagram.com/chankunvv/
 photo.44.tags: paws, portrait, whiskers
-photo.45: https://www.instagram.com/p/CK-RmumB284/media/?size=m
+photo.45: ig://CK-RmumB284/m
 photo.45.author: chankunvv
+photo.45.commitdate: 2021/2/20
 photo.45.link: https://www.instagram.com/chankunvv/
 photo.45.tags: portrait, whiskers
 species: 2

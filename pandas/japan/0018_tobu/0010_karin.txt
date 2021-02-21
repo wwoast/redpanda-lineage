@@ -515,15 +515,16 @@ photo.100.author: alto0908
 photo.100.commitdate: 2021/1/30
 photo.100.link: https://www.instagram.com/alto0908/
 photo.100.tags: mofumofu, portrait
-photo.101: ig://CKgVSRIBXde/m
-photo.101.author: fetorus_mami
-photo.101.commitdate: 2021/1/31
-photo.101.link: https://www.instagram.com/fetorus_mami/
-photo.101.tags: bamboo, paws, portrait, wink
-photo.102: https://www.instagram.com/p/CJ2-YISBs28/media/?size=m
-photo.102.author: pink.b22
-photo.102.link: https://www.instagram.com/pink.b22/
-photo.102.tags: mofumofu, portrait
+photo.101: ig://CJ2-YISBs28/m
+photo.101.author: pink.b22
+photo.101.commitdate: 2021/2/20
+photo.101.link: https://www.instagram.com/pink.b22/
+photo.101.tags: mofumofu, portrait
+photo.102: ig://CKgVSRIBXde/m
+photo.102.author: fetorus_mami
+photo.102.commitdate: 2021/1/31
+photo.102.link: https://www.instagram.com/fetorus_mami/
+photo.102.tags: bamboo, paws, portrait, wink
 species: 2
 studbook.id: 1295
 zoo: 18

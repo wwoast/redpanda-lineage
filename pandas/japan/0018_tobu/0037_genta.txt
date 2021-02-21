@@ -423,8 +423,9 @@ photo.82.author: fetorus_mami
 photo.82.commitdate: 2021/1/31
 photo.82.link: https://www.instagram.com/fetorus_mami/
 photo.82.tags: dish, mofumofu, portrait, tongue, whiskers
-photo.83: https://www.instagram.com/p/CK0ynimB0wT/media/?size=m
+photo.83: ig://CK0ynimB0wT/m
 photo.83.author: pink.b22
+photo.83.commitdate: 2021/2/20
 photo.83.link: https://www.instagram.com/pink.b22/
 photo.83.tags: apple time, portrait, videolink
 species: 2

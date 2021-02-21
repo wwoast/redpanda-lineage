@@ -439,8 +439,9 @@ photo.85.author: minatomirai215
 photo.85.commitdate: 2020/12/30
 photo.85.link: https://www.instagram.com/minatomirai215/
 photo.85.tags: autumn, portrait, whiskers
-photo.86: https://www.instagram.com/p/CLIOxKmhZx_/media/?size=m
+photo.86: ig://CLIOxKmhZx_/m
 photo.86.author: an920000
+photo.86.commitdate: 2021/2/20
 photo.86.link: https://www.instagram.com/an920000/
 photo.86.tags: blink, peek, portrait, snow, tail, tree
 species: 2
