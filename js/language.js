@@ -860,7 +860,7 @@ Language.L.messages = {
   "find_a_nearby_zoo": {
     "cn": [Language.L.emoji.globe_asia, " 寻找附近的动物园"],
     "en": [Language.L.emoji.globe_americas, " Find a zoo nearby!"],
-    "es": [Language.L.emoji.globe_americas, " ¡Encuentra un zoológico cercano!"],
+    "es": [Language.L.emoji.globe_americas, " ¡Encuentra un zoológico cerca de ti!"],
     "jp": [Language.L.emoji.globe_asia, " 近くの動物園を見つける"],
     "np": [Language.L.emoji.globe_asia, " नजिकै चिडियाखाना खोज्नुहोस्"]
   },
@@ -882,7 +882,7 @@ Language.L.messages = {
            "2021 Justin Fairchild."],
     "es": ["Si te encantan los pandas rojos, apoya a ",
            "<INSERTLINK_RPN>",
-           " y a los zoológicos locales. Los datos de linaje son cortesía del proyecto ",
+           " y a los zoológicos locales. Los datos sobre el linaje son cortesía del proyecto ",
            "<INSERTLINK_RPF>",
            " pero los medios vinculados siguen siendo propiedad de sus creadores. ",
            " Maquetación y diseño ©" +
