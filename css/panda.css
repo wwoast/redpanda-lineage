@@ -1312,7 +1312,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     }
 
     button.menu.flag {
-        width: 80px;    /* Flags are smaller on mobile */
+        width: 64px;    /* Flags are smaller on mobile */
     }
 
     div.buttonIcon {

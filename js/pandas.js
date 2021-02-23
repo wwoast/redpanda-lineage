@@ -54,6 +54,14 @@ Pandas.def.age = {
     "day": "day",
     "days": "days"
   },
+  "es": {
+    "year": "año",
+    "years": "años",
+    "month": "mes",
+    "months": "meses",
+    "day": "día",
+    "days": "días"
+  },
   "jp": {
     "year": "歳",
     "years": "歳",
@@ -172,7 +180,8 @@ Pandas.def.languages = {
   "en": "en",
   "ja": "jp",
   "zh": "cn",
-  "ne": "np"
+  "ne": "np",
+  "es": "es"
 }
 
 // Character ranges
@@ -249,7 +258,7 @@ Pandas.def.relations = {
   "litter": {
     "cn": "轿子",
     "en": "litter",
-    "es": "la camada",
+    "es": "camada",
     "jp": "双子",   /* "同腹仔" */
     "np": "रोटी"
   },
