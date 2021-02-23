@@ -625,7 +625,7 @@ Language.L.gui = {
   "specialThanksLinks_button": {
     "cn": "鸣谢",
     "en": "Special Thanks",
-    "es": "Gracias Especiales",
+    "es": "Gracias",
     "jp": "感佩",
     "np": "विशेष धन्यवाद"
   },
