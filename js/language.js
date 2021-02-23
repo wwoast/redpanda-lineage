@@ -1934,7 +1934,7 @@ Language.L.messages = {
            " ",
            "<INSERTNUM>",
            " red pandas live here"],
-    "es": [Lanugage.L.emoji.panda,
+    "es": [Language.L.emoji.panda,
            " ",
            "<INSERTNUM>",
            " panda rojo vive aquí"],
