@@ -2237,7 +2237,7 @@ Language.L.tags = {
        "cn": ["梳毛"],
     "emoji": [Language.L.emoji.shower],
        "en": ["groom", "grooming", "cleaning"],
-       "es": ["limpiándose", "limpiandose", "lamiéndose", "lamiendose" "lavándose", "lavandose"],
+       "es": ["limpiándose", "limpiandose", "lamiéndose", "lamiendose", "lavándose", "lavandose"],
        "jp": ["毛づくろい"],
        "np": ["फूलहरू"]
   },
