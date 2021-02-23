@@ -947,7 +947,7 @@ Language.L.messages = {
            " — ",
            "<INSERTDEATH>",
            ")"],
-    "es": ["Adiós, ",
+    "es": ["Hasta siempre, ",
            "<INSERTNAME>",
            ". ",
            Language.L.emoji.died,
