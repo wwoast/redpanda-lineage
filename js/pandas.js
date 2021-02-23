@@ -172,7 +172,8 @@ Pandas.def.languages = {
   "en": "en",
   "ja": "jp",
   "zh": "cn",
-  "ne": "np"
+  "ne": "np",
+  "es": "es"
 }
 
 // Character ranges
