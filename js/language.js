@@ -2391,6 +2391,7 @@ Language.L.tags = {
         "cn": ["爪"],
      "emoji": [Language.L.emoji.paws],
         "en": ["paws", "feet"],
+        "es": ["patas", "pies"],
         "jp": ["足"],
         "np": ["पन्जा"]
   },
@@ -2496,6 +2497,7 @@ Language.L.tags = {
         "cn": ["换毛"],
      "emoji": [Language.L.emoji.worry],
         "en": ["shedding", "changing fur", "losing fur", "losing hair"],
+        "es": ["mudar", "muda"],
         "jp": ["換毛", "泣いている"],
         "np": ["सुस्त"]
   },
@@ -2535,6 +2537,7 @@ Language.L.tags = {
         "cn": ["口水", "流口水"],
      "emoji": [Language.L.emoji.slobber],
         "en": ["slobber", "slobbering"],
+        "es": ["baba"],
         "jp": ["よだれをたらしている"],
         "np": ["स्लोबर"]
   },
@@ -2542,7 +2545,7 @@ Language.L.tags = {
         "cn": ["笑", "微笑"],
      "emoji": [Language.L.emoji.smile],
         "en": ["smile", "smiling"],
-        "es": ["baba"],
+        "es": ["sonreír", "sonreir", "sonriente", "sonrisa"],
         "jp": ["スマイル"],
         "np": ["हाँसो"]
   },
@@ -2667,20 +2670,20 @@ Language.L.tags = {
         "np": ["विन्डो"]
   },
   "whiskers": {
-    "cn": ["晶須"],
- "emoji": [Language.L.emoji.whiskers],
-    "en": ["whiskers", "whisker"],
-    "es": ["bigotes"],
-    "jp": ["ひげ"],
-    "np": ["फुसफुस"]
+        "cn": ["晶須"],
+     "emoji": [Language.L.emoji.whiskers],
+        "en": ["whiskers", "whisker"],
+        "es": ["bigotes"],
+        "jp": ["ひげ"],
+        "np": ["फुसफुस"]
   },
   "yawn": {
-    "cn": ["哈欠", "呵欠"],
- "emoji": [Language.L.emoji.yawn],
-    "en": ["yawn", "yawning"],
-    "es": ["bostezo"],
-    "jp": ["あくび"],
-    "np": ["जांभई"]
+        "cn": ["哈欠", "呵欠"],
+     "emoji": [Language.L.emoji.yawn],
+        "en": ["yawn", "yawning"],
+        "es": ["bostezo"],
+        "jp": ["あくび"],
+        "np": ["जांभई"]
   }
 }
 
