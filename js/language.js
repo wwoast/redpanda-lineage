@@ -275,7 +275,7 @@ Language.L.gui = {
   "about": {
     "cn": "关于",
     "en": "About",
-    "es": "Acerca de",
+    "es": "Acerca\xa0de",
     "jp": "概要",
     "np": "बारेमा"
   },
