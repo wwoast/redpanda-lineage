@@ -660,7 +660,7 @@ Language.L.gui = {
   "top": {
     "cn": "顶部",
     "en": "Top",
-    "es": "Cima",
+    "es": "Arriba",
     "jp": "上",
     "np": "माथि"
   },
