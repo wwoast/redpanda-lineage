@@ -37,6 +37,7 @@ Language.init = function() {
 Language.L.bias = {
   "cn": ["latin"],
   "en": [],
+  "es": ["latin"],
   "jp": ["latin"],
   "np": ["latin"]
 }
@@ -477,7 +478,7 @@ Language.L.gui = {
   "litter": {
     "cn": Pandas.def.relations.litter["cn"],
     "en": "Litter",   // Capitalization
-    "es": "La Camada",
+    "es": "Camada",
     "jp": Pandas.def.relations.litter["jp"],
     "np": "रोटी"
   },
@@ -1981,7 +1982,7 @@ Language.L.messages = {
     "es": [Language.L.emoji.recordbook,
            " ",
            "<INSERTNUM>",
-           " egistrados en la base informativa desde ",
+           " registrados en la base informativa desde ",
            "<INSERTYEAR>"],
     "jp": [Language.L.emoji.recordbook,
            " ",
