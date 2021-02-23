@@ -84,6 +84,9 @@ Pandas.def.animal = {
   "en.name": "Panda Not Found",
   "en.nicknames": "No Nicknames Recorded",
   "en.othernames": "No Alternate Names Recorded",
+  "es.name": "Panda no encontrado",
+  "es.nicknames": "No se registraron apodos",
+  "es.othernames": "No se registraron nombres alternativos",
   "gender": "Unknown",
   "jp.name": "パンダが見つかりませんでした",
   "jp.nicknames": "ニックネームは記録されていません",
@@ -101,6 +104,7 @@ Pandas.def.animal = {
 Pandas.def.date = {
   "cn": "YYYY-MM-DD",
   "en": "MM/DD/YYYY",
+  "es": "DD/MM/YYYY",
   "jp": "YYYY年MM月DD日",
   "np": "YYYY-MM-DD",
   "earliest_year": "1970"
@@ -109,6 +113,7 @@ Pandas.def.date = {
 Pandas.def.date_season = {
   "cn": "SEASON YYYY",
   "en": "SEASON YYYY",
+  "es": "SEASON YYYY",
   "jp": "SEASON YYYY",
   "np": "SEASON YYYY",
   "earliest_year": "1970"
@@ -118,12 +123,14 @@ Pandas.def.gender = {
   "Female": {
     "cn": "女",
     "en": "female",
+    "es": "hembra",
     "jp": "メス",
     "np": "महिला"
   },
   "Male": {
     "cn": "男",
     "en": "male",
+    "es": "macho",
     "jp": "オス",
     "np": "नर"
   }
@@ -133,6 +140,7 @@ Pandas.def.gender = {
 Pandas.def.no_name = {
   "cn": "不明",
   "en": "Unknown",
+  "es": "Desconocido",
   "jp": "未詳",
   "np": "अज्ञात"
 }
@@ -142,12 +150,14 @@ Pandas.def.authors = {
   "anonymous": {
     "cn": "匿名",
     "en": "anonymous",
+    "es": "anónimo",
     "jp": "匿名",
     "np": "बेनामी" 
   },
   "uncredited": {
     "cn": "沒有信用",
     "en": "uncredited",
+    "es": "sin acreditar",
     "jp": "信用されていない",
     "np": "अप्रत्याशित"
   }
@@ -190,90 +200,105 @@ Pandas.def.relations = {
   "aunt": {
     "cn": "姑媽",
     "en": "aunt",
+    "es": "tía",
     "jp": "叔母",
     "np": "काकी"
   },
   "brother": {
     "cn": "兄",
     "en": "brother",
+    "es": "hermano",
     "jp": "兄",
     "np": "भाई"
   },
   "children": {
     "cn": "孩子",
     "en": "children",
+    "es": "niños",
     "jp": "子供",
     "np": "बच्चाहरु"
   },
   "cousin": {
     "cn": "表姐",
     "en": "cousin",
+    "es": "primo",
     "jp": "いとこ",
     "np": "भान्जा"
   },
   "father": {
     "cn": "父",
     "en": "father",
+    "es": "padre",
     "jp": "父",
     "np": "बुबा"
   },
   "grandfather": {
     "cn": "祖父",
     "en": "grandfather",
+    "es": "abuelo",
     "jp": "おじいちゃん",
     "np": "हजुरबुबा"
   },
   "grandmother": {
     "cn": "祖母",
     "en": "grandmother",
+    "es": "abuela",
     "jp": "おばあちゃん",
     "np": "हजुरआमा"
   },
   "litter": {
     "cn": "轿子",
     "en": "litter",
+    "es": "la camada",
     "jp": "双子",   /* "同腹仔" */
     "np": "रोटी"
   },
   "mother": {
     "cn": "母",
     "en": "mother",
+    "es": "madre",
     "jp": "母",
     "np": "आमा"
   },
   "nephew": {
     "cn": "外甥",
     "en": "nephew",
+    "es": "sobrino",
     "jp": "甥",
     "np": "भतिजा"
   },
   "niece": {
     "cn": "侄女",
     "en": "niece",
+    "es": "sobrina",
     "jp": "姪",
     "np": "भान्जी" 
   },
   "parents": {
     "cn": "父母",
     "en": "parents",
+    "es": "padres",
     "jp": "両親",
     "np": "अभिभावक"
   },
   "sister": {
     "cn": "妹妹",
     "en": "sister",
+    "es": "hermana",
     "jp": "姉",
     "np": "बहिनी"
   },
   "siblings": {
     "cn": "兄弟姐妹",
     "en": "siblings",
+    "es": "hermanos",
     "jp": "兄弟",
     "np": "भाइबहिनीहरू"
   },
   "uncle": {
     "cn": "叔叔",
     "en": "uncle",
+    "es": "tío",
     "jp": "叔父",
     "np": "काका"
   }
@@ -286,6 +311,11 @@ Pandas.def.species = {
     "Ailurus fulgens"
   ],
   "en": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
+  ],
+  "es": [
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
@@ -305,6 +335,7 @@ Pandas.def.species = {
 Pandas.def.unknown = {
   "cn": "不明",
   "en": "unknown",
+  "es": "desconocido",
   "jp": "未詳",
   "np": "अज्ञात"
 }
@@ -318,6 +349,9 @@ Pandas.def.wild = {
   "en.address": "Captured or Rescued Wild Animal",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
+  "es.address": "Animal Salvaje Capturado o Rescatado",
+  "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
+  "es.name": "Zoo No Encontrado",
   "jp.address": "TOWRITE",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
@@ -338,6 +372,9 @@ Pandas.def.zoo = {
   "en.address": "No Google Maps Address Recorded",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
+  "es.address": "No Se Registró Ninguna Dirección de Google Maps",
+  "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
+  "es.name": "Zoo No Encontrado",
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
