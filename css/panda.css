@@ -122,7 +122,11 @@ button.menu.flag {
     font-family: "Jun 201", sans-serif;
     background-color: #366938;
     height: 64px;
-    width: 106px;  /* Divide 320px by number of buttons you expect to have */
+    width: 80px;
+}
+
+button.menu.flag > div.buttonContent > div.buttonIcon {
+    padding-right: 0px;   /* No padding on the flag menu icons, since no text */
 }
 
 button.menu.disabled {
@@ -1312,6 +1316,7 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
     }
 
     button.menu.flag {
+        /* Divide 320px by number of buttons you expect to have */
         width: 64px;    /* Flags are smaller on mobile */
     }
 
