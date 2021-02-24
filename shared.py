@@ -83,6 +83,7 @@ def fetch_photo(url, output_file=None, size=None):
         except KeyError:
             timer = 600 + random_sleep_jitter()
             print("(error downloading " + shortcode + ".jpg, trying again in " + timer + "s")
+            time.sleep(timer)
             fetch_photo(url, ouptut_file, size)
             return
         if (output_file == None):
@@ -120,7 +121,7 @@ def random_sleep_jitter():
     return random.randint(30, 90)
 
 def random_sleep():
-    random_seconds = sleep_timer()
+    random_seconds = random_sleep_jitter()
     time.sleep(random_seconds)
 
 def resize_ig_link(photo_uri, size):
