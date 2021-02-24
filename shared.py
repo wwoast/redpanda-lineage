@@ -82,7 +82,7 @@ def fetch_photo(url, output_file=None, size=None):
             author_name = json["author_name"]
         except KeyError:
             timer = 600 + random_sleep_jitter()
-            print("(error downloading " + shortcode + ".jpg, trying again in " + timer + "s")
+            print("(error downloading " + shortcode + ".jpg, trying again in " + str(timer) + "s")
             time.sleep(timer)
             fetch_photo(url, ouptut_file, size)
             return
@@ -96,7 +96,7 @@ def fetch_photo(url, output_file=None, size=None):
     try:
         img = requests.get(target_img, allow_redirects=True)
     except RequestException:
-        print("(error downloading " + output_file + ", continuing on")
+        print("(error downloading " + output_file + ", continuing...")
         return
     with open(output_file, "wb") as ofh:
         print ("(output): " + output_file)
