@@ -76,9 +76,15 @@ def fetch_photo(url, output_file=None, size=None):
         }
         instagram_api = "https://graph.facebook.com/v8.0/instagram_oembed"
         response = requests.get(instagram_api, params=query_params)
-        json = response.json()
-        target_img = json["thumbnail_url"]
-        author_name = json["author_name"]
+        try:
+            json = response.json()
+            target_img = json["thumbnail_url"]
+            author_name = json["author_name"]
+        except KeyError:
+            timer = 600 + random_sleep_jitter()
+            print("(error downloading " + shortcode + ".jpg, trying again in " + timer + "s")
+            fetch_photo(url, ouptut_file, size)
+            return
         if (output_file == None):
             output_file = shortcode + ".jpg"
         print("(ig_credit: " + author_name + "): " + target_img)
@@ -86,7 +92,11 @@ def fetch_photo(url, output_file=None, size=None):
         if (output_file == None):
             output_file = os.path.basename(urlparse(url).path)
         print("(web): " + target_img)
-    img = requests.get(target_img, allow_redirects=True)
+    try:
+        img = requests.get(target_img, allow_redirects=True)
+    except RequestException:
+        print("(error downloading " + output_file + ", continuing on")
+        return
     with open(output_file, "wb") as ofh:
         print ("(output): " + output_file)
         ofh.write(img.content)
@@ -106,8 +116,11 @@ def get_max_entity_count():
         print("%s file not built yet with build.py -- please generate.")
         sys.exit()
 
+def random_sleep_jitter():
+    return random.randint(30, 90)
+
 def random_sleep():
-    random_seconds = random.randint(30, 90)
+    random_seconds = sleep_timer()
     time.sleep(random_seconds)
 
 def resize_ig_link(photo_uri, size):
