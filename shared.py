@@ -81,11 +81,8 @@ def fetch_photo(url, output_file=None, size=None):
             target_img = json["thumbnail_url"]
             author_name = json["author_name"]
         except KeyError:
-            timer = 600 + random_sleep_jitter()
-            print("(error downloading " + shortcode + ".jpg, trying again in " + str(timer) + "s")
-            time.sleep(timer)
-            fetch_photo(url, ouptut_file, size)
-            return
+            print("(error downloading " + shortcode + ".jpg, continuing...")
+            return False
         if (output_file == None):
             output_file = shortcode + ".jpg"
         print("(ig_credit: " + author_name + "): " + target_img)
@@ -97,10 +94,11 @@ def fetch_photo(url, output_file=None, size=None):
         img = requests.get(target_img, allow_redirects=True)
     except RequestException:
         print("(error downloading " + output_file + ", continuing...")
-        return
+        return False
     with open(output_file, "wb") as ofh:
         print ("(output): " + output_file)
         ofh.write(img.content)
+    return True
 
 # Other utility functions
 def get_max_entity_count():
@@ -119,6 +117,10 @@ def get_max_entity_count():
 
 def random_sleep_jitter():
     return random.randint(30, 90)
+
+def random_long_sleep():
+    random_seconds = random_sleep_jitter() + 300
+    time.sleep(random_seconds)
 
 def random_sleep():
     random_seconds = random_sleep_jitter()

@@ -131,8 +131,11 @@ def fetch_sample_photos(folder, desired_photos, species, size):
         output_photo_index = photo.photo_index
         output_image = folder + "/" + output_species + "/" + output_entity + "_photo." + output_photo_index + ".jpg"
         # Fetch an image
-        fetch_photo(photo.photo_uri, output_image, size)
-        random_sleep()
+        success = fetch_photo(photo.photo_uri, output_image, size)
+        if success:
+            random_sleep()
+        else:
+            random_long_sleep()
 
 def write_sample_summary(folder, desired_photos):
     """
