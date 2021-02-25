@@ -3230,6 +3230,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 cubs/, "one cub")
                    .replace(/\b1 cachorros nacidos/, "un cachorro nacido")
                    .replace(/\b1 recorded in the database/, "one record in the database")
+                   .replace(/\b1 registrados aquí/, "un registrado aquí")
                    .replace(/\b1 recent departures/, "one recent departure")
                    .replace(/\b1 partidas recientes/, "un partida reciente")
                    .replace(/\b1 new contributors/, "one new contributor")
@@ -3239,7 +3240,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/\bphotos tagged/, "photo tagged")
                    .replace(/\bfotos etiquetadas/, "foto etiquetada")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
-                   .replace(/^([^A-Za-z0-9]+)uno\s/, "$1 Un ")
+                   .replace(/^([^A-Za-z0-9]+)un\s/, "$1 Un ")
                    .replace(/^one\s/, "One ")
                    .replace(/^one\s/, "Un ");
       output.push(input);
