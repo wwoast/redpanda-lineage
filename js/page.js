@@ -171,7 +171,7 @@ Page.about.tags = function() {
   var tagList = document.createElement('ul');
   tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
-  var tagKeys = keys(Language.L.tags);
+  var tagKeys = Object.keys(Language.L.tags);
   var primaryTags = {};
   for (let key of tagKeys) {
     var primaryTag = Language.L.tags[key][Page.about.language][0];
