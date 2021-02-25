@@ -3207,7 +3207,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 fotos/, "una foto")
                    .replace(/\b1 new photos/, "one new photo")
                    .replace(/\b1 boys/, "one boy")
-                   .replace(/\b1 niñas/, "un niño")
+                   .replace(/\b1 niños/, "un niño")
                    .replace(/\b1 girls/, "one girl")
                    .replace(/\b1 niñas/, "una niña")
                    .replace(/\b1 brothers/, "one brother")
