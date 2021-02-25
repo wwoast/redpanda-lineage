@@ -3201,48 +3201,57 @@ Language.testString = function(input, test_name) {
 // Take specific english words and unpluralize them if necessary
 Language.unpluralize = function(pieces) {
   var output = [];
-  if ((L.display == "en") || (L.display == "es")) {
+  if (L.display == "en") {
     for (var input of pieces) {
       input = input.replace(/\b1 photos/, "one photo")
-                   .replace(/\b1 fotos/, "una foto")
                    .replace(/\b1 new photos/, "one new photo")
                    .replace(/\b1 boys/, "one boy")
-                   .replace(/\b1 niños/, "un niño")
                    .replace(/\b1 girls/, "one girl")
-                   .replace(/\b1 niñas/, "una niña")
                    .replace(/\b1 brothers/, "one brother")
-                   .replace(/\b1 hermanos/, "un hermano")
                    .replace(/\b1 sisters/, "one sister")
-                   .replace(/\b1 hermanas/, "una hermana")
                    .replace(/\b1 sons/, "one son")
-                   .replace(/\b1 hijos/, "un hijo")
                    .replace(/\b1 daughters/, "one daughter")
-                   .replace(/\b1 hijas/, "una hija")
                    .replace(/\b1 newborns/, "one newborn")
-                   .replace(/\b1 hermanitos/, "un hermanito")
                    .replace(/\b1 new red pandas/, "one new red panda")
-                   .replace(/\b1 nuevos pandas rojos/, "un nuevo panda rojo")
                    .replace(/\b1 baby siblings/, "one baby sibling")
-                   .replace(/\b1 hermanos pequeños/, "un hermano pequeño")
                    .replace(/\b1 current red pandas/, "one current red panda")
                    .replace(/\b1 red pandas live/, "one red panda lives")
-                   .replace(/\b1 panda rojos en/, "un panda rojo en")
                    .replace(/\b1 cubs/, "one cub")
-                   .replace(/\b1 cachorros nacidos/, "un cachorro nacido")
                    .replace(/\b1 recorded in the database/, "one record in the database")
-                   .replace(/\b1 registrados aquí/, "un registrado aquí")
                    .replace(/\b1 recent departures/, "one recent departure")
-                   .replace(/\b1 partidas recientes/, "un partida reciente")
                    .replace(/\b1 new contributors/, "one new contributor")
-                   .replace(/\b1 nuevos contribuyentes/, "uno nuevo contribuyente")
                    .replace(/\bcombo: 1 photos/, "combo: one photo")
-                   .replace(/\bcombo: 1 fotos/, "combo: una foto")
                    .replace(/\bphotos tagged/, "photo tagged")
-                   .replace(/\bfotos etiquetadas/, "foto etiquetada")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
+                   .replace(/^one\s/, "One ");
+      output.push(input);
+    }
+    return output;
+  } else if (L.display == "es") {
+    for (var input of pieces) {
+      input = input.replace(/\b1 fotos/, "una foto")
+                   .replace(/\b1 niños/, "un niño")
+                   .replace(/\b1 niñas/, "una niña")
+                   .replace(/\b1 hermanos/, "un hermano")
+                   .replace(/\b1 hermanas/, "una hermana")
+                   .replace(/\b1 hijos/, "un hijo")
+                   .replace(/\b1 hijas/, "una hija")
+                   .replace(/\b1 hermanitos/, "un hermanito")
+                   .replace(/\b1 machos/, "un macho")
+                   .replace(/\b1 hembras/, "una hembra")
+                   .replace(/\b1 nuevos pandas rojos/, "un nuevo panda rojo")
+                   .replace(/\b1 hermanos pequeños/, "un hermano pequeño")
+                   .replace(/\b1 panda rojos en/, "un panda rojo en")
+                   .replace(/\b1 cachorros nacidos/, "un cachorro nacido")
+                   .replace(/\b1 registrados aquí/, "un registrado aquí")
+                   .replace(/\b1 partidas recientes/, "un partida reciente")
+                   .replace(/\b1 nuevos contribuyentes/, "uno nuevo contribuyente")
+                   .replace(/\bcombo: 1 fotos/, "combo: una foto")
+                   .replace(/\bfotos etiquetadas/, "foto etiquetada")
                    .replace(/^([^A-Za-z0-9]+)un\s/, "$1 Un ")
-                   .replace(/^one\s/, "One ")
-                   .replace(/^one\s/, "Un ");
+                   .replace(/^([^A-Za-z0-9]+)una\s/, "$1 Una ")
+                   .replace(/^un\s/, "Un ")
+                   .replace(/^una\s/, "Una ");
       output.push(input);
     }
     return output;
