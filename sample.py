@@ -11,9 +11,9 @@ from shared import *
 def collect_photo_uris(min_photos=0, species=["1", "2"], taglist=None):
     """
     Collect all photo uris in the dataset that match:
-    - A minimum numbe rof photos for the animal
+    - A minimum number of photos for the animal
     - An array of possible species (defaults to ["1", "2"] which gets all)
-    - A list of photo tags (defaults to getting photos regarless of tag)
+    - A list of photo tags (defaults to getting photos regardless of tag)
     """
     matched_photos = []
     for file_path in [PANDA_PATH]:
@@ -54,7 +54,7 @@ def collect_photo_uris(min_photos=0, species=["1", "2"], taglist=None):
                     photo_index = photo_index + 1
     return matched_photos
 
-def define_min_photo_sample(min_count=40, photos=40, species=["1", "2"]):
+def define_min_photo_sample(min_count=40, photo_count=40, species=["1", "2"]):
     """
     Fetch a sample of all animals that have at least N photos in the dataset.
     Defaults to 40 photos.
@@ -66,17 +66,22 @@ def define_min_photo_sample(min_count=40, photos=40, species=["1", "2"]):
     # Take entire photo set we've gathered, and whittle it down to
     # the animal_count and photo_count set of photos.
     animal_id_dict = {}
+    #!!!! TODO why doesn't photo-count matter?
     for photo in matched_photos:
         # Count how many photos of each animal we've gone through
         if photo.entity_id not in animal_id_dict:
             animal_id_dict[photo.entity_id] = 1
         else:
             animal_id_dict[photo.entity_id] = animal_id_dict[photo.entity_id] + 1
-        if animal_id_dict[photo.entity_id] > photos:
+        if animal_id_dict[photo.entity_id] > photo_count:
             # We have enough photos of this animal
             continue
         else:
             output_photos.append(photo)
+    print(str(animal_id_dict))
+    print(str(sorted(list(animal_id_dict.keys()))))
+    print(len(matched_photos))
+    print(len(output_photos))
     return output_photos
 
 def define_random_tag_sample(num_animals, num_photos, species, taglist):
@@ -177,7 +182,7 @@ if __name__ == '__main__':
     # Default settings
     animals = 100
     min_photo_count = 0
-    photos = 5
+    photo_count = 5
     size = "m"
     species = ["1", "2"]   # All Species
     taglist = "close-up, profile, portrait"
@@ -187,14 +192,14 @@ if __name__ == '__main__':
         if animals < 1:
             print("Animals count must be positive.")
             sys.exit()
-    if "--min-photo-count" in sys.argv:
-        min_photo_count = int(sys.argv[sys.argv.index("--min-photo-count") + 1])
+    if "--animal-has-photos" in sys.argv:
+        min_photo_count = int(sys.argv[sys.argv.index("--animal-has-photos") + 1])
         if min_photo_count < 1:
-            print("Minimum photo count must be positive.")
+            print("Candindate animal photo count must be positive.")
             sys.exit()
-    if "--photos" in sys.argv:
-        photos = int(sys.argv[sys.argv.index("--photos") + 1])
-        if photos < 1:
+    if "--photo-count" in sys.argv:
+        photo_count = int(sys.argv[sys.argv.index("--photo-count") + 1])
+        if photo_count < 1:
             print("Photo count must be positive.")
             sys.exit()
     if "--size" in sys.argv:
@@ -218,9 +223,9 @@ if __name__ == '__main__':
     # Build a sample. If we do a min-photo-count sample set, then we ignore the
     # tag list to guarantee we have enough photos to work with.
     if (min_photo_count > 0):
-        photos = define_min_photo_sample(min_photo_count, photos, species)
+        photos = define_min_photo_sample(min_photo_count, photo_count, species)
     else:
-        photos = define_random_tag_sample(animals, photos, species, taglist)
+        photos = define_random_tag_sample(animals, photo_count, species, taglist)
     photo_count = str(len(photos))
     if photo_count == 0:
         print("Sample for your arguments contains no photos.")
