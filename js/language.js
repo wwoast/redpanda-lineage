@@ -3239,9 +3239,9 @@ Language.unpluralize = function(pieces) {
                    .replace(/\bphotos tagged/, "photo tagged")
                    .replace(/\bfotos etiquetadas/, "foto etiquetada")
                    .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
-                   .replace(/^([^A-Za-z0-9]+)uno\s/, "$1 Uno ")
+                   .replace(/^([^A-Za-z0-9]+)uno\s/, "$1 Un ")
                    .replace(/^one\s/, "One ")
-                   .replace(/^one\s/, "Uno ");
+                   .replace(/^one\s/, "Un ");
       output.push(input);
     }
     return output;
