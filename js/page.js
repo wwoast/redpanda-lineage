@@ -163,7 +163,8 @@ Page.about.sections.show = function(section_id) {
   Page.about.fetchImages();
 }
 Page.about.tags = function() {
-  // Take all available tags for this language, and draw an unordered list.
+  // Take all available tags for this language, and draw a sorted list of tags
+  // by the current Page.about.language
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
   if (container.hasChildNodes() == true) {
     return;
@@ -178,7 +179,7 @@ Page.about.tags = function() {
     // Index by primaryTag, while the value is the key to the tagList
     primaryTags[primaryTag] = key;
   }
-  var sortedTags = keys(primaryTags).sort();
+  var sortedTags = Object.keys(primaryTags).sort();
   for (let thisTag of sortedTags) {
     let lookup = sortedTags[thisTag]
     let thisEmoji = Language.L.tags[lookup]["emoji"];
