@@ -181,7 +181,7 @@ Page.about.tags = function() {
   }
   var sortedTags = Object.keys(primaryTags).sort();
   for (let thisTag of sortedTags) {
-    let lookup = sortedTags[thisTag]
+    let lookup = primaryTags[thisTag];
     let thisEmoji = Language.L.tags[lookup]["emoji"];
     var tagLi = document.createElement('li');
     var tagLink = document.createElement('a');
