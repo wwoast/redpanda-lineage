@@ -78,10 +78,6 @@ def define_min_photo_sample(min_count=40, photo_count=40, species=["1", "2"]):
             continue
         else:
             output_photos.append(photo)
-    print(str(animal_id_dict))
-    print(str(sorted(list(animal_id_dict.keys()))))
-    print(len(matched_photos))
-    print(len(output_photos))
     return output_photos
 
 def define_random_tag_sample(num_animals, num_photos, species, taglist):
