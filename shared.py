@@ -116,10 +116,10 @@ def get_max_entity_count():
         sys.exit()
 
 def random_sleep_jitter():
-    return random.randint(15, 45)
+    return random.randint(15, 90)
 
 def random_long_sleep():
-    random_seconds = random_sleep_jitter() + 300
+    random_seconds = random_sleep_jitter() + 180
     time.sleep(random_seconds)
 
 def random_sleep():
