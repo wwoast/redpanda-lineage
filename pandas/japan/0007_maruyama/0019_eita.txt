@@ -1190,40 +1190,41 @@ photo.237.author: cattail.sapporo
 photo.237.commitdate: 2020/12/3
 photo.237.link: https://www.instagram.com/cattail.sapporo/
 photo.237.tags: bamboo, close-up, nose, portrait, tongue
-photo.238: ig://CJLccYvBslP/m
-photo.238.author: izu_108
-photo.238.commitdate: 2021/1/2
-photo.238.link: https://www.instagram.com/izu_108/
-photo.238.tags: blink, close-up, portrait, smile, whiskers
-photo.239: ig://CJQWsekhK2x/m
-photo.239.author: leonard_redmof
-photo.239.commitdate: 2021/1/13
-photo.239.link: https://www.instagram.com/leonard_redmof/
-photo.239.tags: paws, ortrait, praying, standing, tail
-photo.240: ig://CJVKfy4h8y7/m
+photo.238: ig://CIYJSt1hQoK/m
+photo.238.author: apple_jasmine33
+photo.238.commitdate: 2021/2/24
+photo.238.link: https://www.instagram.com/apple_jasmine33/
+photo.238.tags: mofumofu, whiskers
+photo.239: ig://CJLccYvBslP/m
+photo.239.author: izu_108
+photo.239.commitdate: 2021/1/2
+photo.239.link: https://www.instagram.com/izu_108/
+photo.239.tags: blink, close-up, portrait, smile, whiskers
+photo.240: ig://CJQWsekhK2x/m
 photo.240.author: leonard_redmof
-photo.240.commitdate: 2021/1/2
+photo.240.commitdate: 2021/1/13
 photo.240.link: https://www.instagram.com/leonard_redmof/
-photo.240.tags: bamboo, portrait, smile, snow
-photo.241: ig://CJ8P2B3h1x3/m
-photo.241.author: _rifa_p
-photo.241.commitdate: 2021/1/19
-photo.241.link: https://www.instagram.com/_rifa_p/
-photo.241.tags: portrait, whiskers
-photo.242: ig://CJ8WvvjBlzu/m
-photo.242.author: nishicotolo
+photo.240.tags: paws, ortrait, praying, standing, tail
+photo.241: ig://CJVKfy4h8y7/m
+photo.241.author: leonard_redmof
+photo.241.commitdate: 2021/1/2
+photo.241.link: https://www.instagram.com/leonard_redmof/
+photo.241.tags: bamboo, portrait, smile, snow
+photo.242: ig://CJ8P2B3h1x3/m
+photo.242.author: _rifa_p
 photo.242.commitdate: 2021/1/19
-photo.242.link: https://www.instagram.com/nishicotolo/
-photo.242.tags: snow
-photo.243: ig://CKlVwgYh24D/m
-photo.243.author: pink.b22
-photo.243.commitdate: 2021/1/28
-photo.243.link: https://www.instagram.com/pink.b22/
-photo.243.tags: mofumofu, portrait, tail, whiskers
-photo.244: https://www.instagram.com/p/CIYJSt1hQoK/media/?size=m
-photo.244.author: apple_jasmine33
-photo.244.link: https://www.instagram.com/apple_jasmine33/
-photo.244.tags: mofumofu, whiskers
+photo.242.link: https://www.instagram.com/_rifa_p/
+photo.242.tags: portrait, whiskers
+photo.243: ig://CJ8WvvjBlzu/m
+photo.243.author: nishicotolo
+photo.243.commitdate: 2021/1/19
+photo.243.link: https://www.instagram.com/nishicotolo/
+photo.243.tags: snow
+photo.244: ig://CKlVwgYh24D/m
+photo.244.author: pink.b22
+photo.244.commitdate: 2021/1/28
+photo.244.link: https://www.instagram.com/pink.b22/
+photo.244.tags: mofumofu, portrait, tail, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

@@ -487,15 +487,16 @@ photo.95.author: ifumoto88
 photo.95.commitdate: 2020/12/3
 photo.95.link: https://www.instagram.com/ifumoto88/
 photo.95.tags: close-up, paws, peek
-photo.96: ig://CKdqIIGBLRZ/m
-photo.96.author: pink.b22
-photo.96.commitdate: 2021/1/31
-photo.96.link: https://www.instagram.com/pink.b22/
-photo.96.tags: close-up, mofumofu, portrait, whiskers
-photo.97: https://www.instagram.com/p/CJJFNeuha_A/media/?size=m
-photo.97.author: ifumoto88
-photo.97.link: https://www.instagram.com/ifumoto88/
-photo.97.tags: laying down, paws
+photo.96: ig://CJJFNeuha_A/m
+photo.96.author: ifumoto88
+photo.96.commitdate: 2021/2/24
+photo.96.link: https://www.instagram.com/ifumoto88/
+photo.96.tags: laying down, paws
+photo.97: ig://CKdqIIGBLRZ/m
+photo.97.author: pink.b22
+photo.97.commitdate: 2021/1/31
+photo.97.link: https://www.instagram.com/pink.b22/
+photo.97.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 10112
 zoo: 1

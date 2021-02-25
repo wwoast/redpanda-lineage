@@ -343,34 +343,36 @@ photo.66.author: eos1089
 photo.66.commitdate: 2020/6/10
 photo.66.link: https://www.instagram.com/eos1089/
 photo.66.tags: bamboo, bite, portrait
-photo.67: ig://CFEOkivh4-W/m
-photo.67.author: panda.daisuki
-photo.67.commitdate: 2020/11/10
-photo.67.link: https://www.instagram.com/panda.daisuki/
-photo.67.tags: paws, portrait, smile, tail
-photo.68: ig://CF6j9RFhb-u/m
+photo.67: ig://CEs4SFSBMWZ/m
+photo.67.author: ssc6105
+photo.67.commitdate: 2021/2/24
+photo.67.link: https://www.instagram.com/ssc6105/
+photo.67.tags: tail, whiskers
+photo.68: ig://CFEOkivh4-W/m
 photo.68.author: panda.daisuki
-photo.68.commitdate: 2020/11/8
+photo.68.commitdate: 2020/11/10
 photo.68.link: https://www.instagram.com/panda.daisuki/
-photo.68.tags: portrait, smile, tail
-photo.69: ig://CJBchjnBm_s/m
-photo.69.author: mini_cochi
-photo.69.commitdate: 2021/1/2
-photo.69.link: https://www.instagram.com/mini_cochi/
-photo.69.tags: portrait, slobber
-photo.70: ig://CKDVo6KBqzR/m
-photo.70.author: osopanda551
-photo.70.commitdate: 2021/1/16
-photo.70.link: https://www.instagram.com/osopanda551/
-photo.70.tags: portrait, smile
-photo.71: https://www.instagram.com/p/CFLNarshcIs/media/?size=m
-photo.71.author: ck.chie
-photo.71.link: https://www.instagram.com/ck.chie/
-photo.71.tags: bamboo, bite
-photo.72: https://www.instagram.com/p/CEs4SFSBMWZ/media/?size=m
-photo.72.author: ssc6105
-photo.72.link: https://www.instagram.com/ssc6105/
-photo.72.tags: tail, whiskers
+photo.68.tags: paws, portrait, smile, tail
+photo.69: ig://CFLNarshcIs/m
+photo.69.author: ck.chie
+photo.69.commitdate: 2021/2/24
+photo.69.link: https://www.instagram.com/ck.chie/
+photo.69.tags: bamboo, bite
+photo.70: ig://CF6j9RFhb-u/m
+photo.70.author: panda.daisuki
+photo.70.commitdate: 2020/11/8
+photo.70.link: https://www.instagram.com/panda.daisuki/
+photo.70.tags: portrait, smile, tail
+photo.71: ig://CJBchjnBm_s/m
+photo.71.author: mini_cochi
+photo.71.commitdate: 2021/1/2
+photo.71.link: https://www.instagram.com/mini_cochi/
+photo.71.tags: portrait, slobber
+photo.72: ig://CKDVo6KBqzR/m
+photo.72.author: osopanda551
+photo.72.commitdate: 2021/1/16
+photo.72.link: https://www.instagram.com/osopanda551/
+photo.72.tags: portrait, smile
 species: 2
 studbook.id: 1224
 zoo: 17
