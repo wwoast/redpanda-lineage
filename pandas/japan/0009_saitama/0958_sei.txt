@@ -22,7 +22,7 @@ photo.2: ig://B4BQGzbl_CD/m
 photo.2.author: yakkooo24
 photo.2.commitdate: 2019/10/25
 photo.2.link: https://www.instagram.com/yakkooo24/
-photo.2.tags: baby, portrait, profile, window
+photo.2.tags: baby, portrait, window
 photo.3: ig://B4GoaLKB9VV/m
 photo.3.author: ifumoto88
 photo.3.commitdate: 2019/10/28
@@ -183,5 +183,9 @@ photo.34.author: fetorus_mami
 photo.34.commitdate: 2021/2/19
 photo.34.link: https://www.instagram.com/fetorus_mami/
 photo.34.tags: apple time, smile
+photo.35: https://www.instagram.com/p/CKRSlrvhMiV/media/?size=m
+photo.35.author: mini_cochi
+photo.35.link: https://www.instagram.com/mini_cochi/
+photo.35.tags: mofumofu, portrait, profile, whiskers
 species: 2
 zoo: 9
