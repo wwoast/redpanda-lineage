@@ -3201,7 +3201,7 @@ Language.testString = function(input, test_name) {
 // Take specific english words and unpluralize them if necessary
 Language.unpluralize = function(pieces) {
   var output = [];
-  if (L.display == "en") {
+  if ((L.display == "en") || (L.display == "es")) {
     for (var input of pieces) {
       input = input.replace(/\b1 photos/, "one photo")
                    .replace(/\b1 fotos/, "una foto")
