@@ -138,7 +138,7 @@ def fetch_sample_photos(folder, desired_photos, species, size):
         else:
             while success == False:
                 print("Validate the URI/your Internet. Press ENTER to try again.")
-                choice = input("Or type \"continue\" to skip")
+                choice = input("Or type \"continue\" to skip: ")
                 if choice == "continue":
                     break
                 success = fetch_photo(photo.photo_uri, output_image, size)
