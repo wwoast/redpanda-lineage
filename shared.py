@@ -80,8 +80,8 @@ def fetch_photo(url, output_file=None, size=None):
             json = response.json()
             target_img = json["thumbnail_url"]
             author_name = json["author_name"]
-        except KeyError, IOError, OSError:
-            print("(error downloading " + shortcode + ".jpg, continuing...")
+        except:
+            print("(error downloading " + shortcode + ".jpg")
             return False
         if (output_file == None):
             output_file = shortcode + ".jpg"
@@ -92,8 +92,8 @@ def fetch_photo(url, output_file=None, size=None):
         print("(web): " + target_img)
     try:
         img = requests.get(target_img, allow_redirects=True)
-    except KeyError, IOError, OSError:
-        print("(error downloading " + output_file + ", continuing...")
+    except:
+        print("(error downloading " + output_file)
         return False
     with open(output_file, "wb") as ofh:
         print ("(output): " + output_file)
