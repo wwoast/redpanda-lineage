@@ -92,7 +92,7 @@ def fetch_photo(url, output_file=None, size=None):
         print("(web): " + target_img)
     try:
         img = requests.get(target_img, allow_redirects=True)
-    except KeyError, IOError, OSError
+    except KeyError, IOError, OSError:
         print("(error downloading " + output_file + ", continuing...")
         return False
     with open(output_file, "wb") as ofh:
