@@ -136,7 +136,9 @@ def fetch_sample_photos(folder, desired_photos, species, size):
         if success:
             random_sleep()
         else:
-            random_long_sleep()
+            while success == False:
+                input("Validate the URI/your Internet, and press ENTER to try again.")
+                success = fetch_photo(photo.photo_uri, output_image, size)
 
 def write_sample_summary(folder, desired_photos):
     """
