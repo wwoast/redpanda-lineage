@@ -58,38 +58,31 @@ photo.8.link: https://www.instagram.com/imagoto17/
 photo.8.tags: baby, siblings, tree, twins
 photo.8.tags.166.location: 270, 265
 photo.8.tags.167.location: 795, 350
-photo.9: ig://B7Qm_TwBcJy/m
-photo.9.author: imagoto17
-photo.9.commitdate: 2020/2/10
-photo.9.link: https://www.instagram.com/imagoto17/
-photo.9.tags: climb, keeper, siblings, twins
-photo.9.tags.166.location: 140, 305
-photo.9.tags.167.location: 150, 75
-photo.10: ig://B-jAE7dBDLo/l
-photo.10.author: i.satosato
-photo.10.commitdate: 2020/5/12
-photo.10.link: https://www.instagram.com/i.satosato/
-photo.10.tags: portrait, siblings, twins
-photo.10.tags.166.location: 840, 505
-photo.10.tags.167.location: 225, 325
-photo.11: ig://B_FAvyjhhrI/m
-photo.11.author: colette.jp
+photo.9: ig://B-jAE7dBDLo/l
+photo.9.author: i.satosato
+photo.9.commitdate: 2020/5/12
+photo.9.link: https://www.instagram.com/i.satosato/
+photo.9.tags: portrait, siblings, twins
+photo.9.tags.166.location: 840, 505
+photo.9.tags.167.location: 225, 325
+photo.10: ig://B_FAvyjhhrI/m
+photo.10.author: colette.jp
+photo.10.commitdate: 2020/7/2
+photo.10.link: https://www.instagram.com/colette.jp/
+photo.10.tags: fighting, paws, portrait, siblings, standing, tail, twins
+photo.10.tags.166.location: 120, 90
+photo.10.tags.167.location: 170, 65
+photo.11: ig://B_HYpLth_09/m
+photo.11.author: mifko55
 photo.11.commitdate: 2020/7/2
-photo.11.link: https://www.instagram.com/colette.jp/
-photo.11.tags: fighting, paws, portrait, siblings, standing, tail, twins
-photo.11.tags.166.location: 120, 90
-photo.11.tags.167.location: 170, 65
-photo.12: ig://B_HYpLth_09/m
-photo.12.author: mifko55
-photo.12.commitdate: 2020/7/2
-photo.12.link: https://www.instagram.com/mifko55/
-photo.12.tags: siblings, twins
-photo.12.tags.166.location: 180, 50
-photo.12.tags.167.location: 175, 175
-photo.13: ig://CCS3aN_HmcZ/m
-photo.13.author: mochan8686
-photo.13.commitdate: 2020/9/7
-photo.13.link: https://www.instagram.com/mochan8686/
-photo.13.tags: apple time, keeper, portrait, siblings, twins
-photo.13.tags.166.location: 260, 180
-photo.13.tags.167.location: 75, 130
+photo.11.link: https://www.instagram.com/mifko55/
+photo.11.tags: siblings, twins
+photo.11.tags.166.location: 180, 50
+photo.11.tags.167.location: 175, 175
+photo.12: ig://CCS3aN_HmcZ/m
+photo.12.author: mochan8686
+photo.12.commitdate: 2020/9/7
+photo.12.link: https://www.instagram.com/mochan8686/
+photo.12.tags: apple time, keeper, portrait, siblings, twins
+photo.12.tags.166.location: 260, 180
+photo.12.tags.167.location: 75, 130

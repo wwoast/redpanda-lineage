@@ -81,7 +81,7 @@ def fetch_photo(url, output_file=None, size=None):
             target_img = json["thumbnail_url"]
             author_name = json["author_name"]
         except:
-            print("(error downloading " + shortcode + ".jpg")
+            print("(error downloading " + shortcode + ".jpg)")
             return False
         if (output_file == None):
             output_file = shortcode + ".jpg"
@@ -93,7 +93,7 @@ def fetch_photo(url, output_file=None, size=None):
     try:
         img = requests.get(target_img, allow_redirects=True)
     except:
-        print("(error downloading " + output_file)
+        print("(error downloading " + output_file + ")")
         return False
     with open(output_file, "wb") as ofh:
         print ("(output): " + output_file)
