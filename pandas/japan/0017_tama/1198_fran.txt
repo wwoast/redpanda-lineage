@@ -63,8 +63,9 @@ photo.10.author: mini_cochi
 photo.10.commitdate: 2020/12/25
 photo.10.link: https://www.instagram.com/mini_cochi/
 photo.10.tags: baby, portrait
-photo.11: https://www.instagram.com/p/CLWp1bWhC0J/media/?size=m
+photo.11: ig://CLWp1bWhC0J/m
 photo.11.author: redpan22
+photo.11.commitdate: 2021/2/28
 photo.11.link: https://www.instagram.com/redpan22/
 photo.11.tags: baby, bamboo, bite, mofumofu, portrait
 species: 2

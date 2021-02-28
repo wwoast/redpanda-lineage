@@ -140,34 +140,36 @@ photo.25.author: itsuak
 photo.25.commitdate: 2020/9/27
 photo.25.link: https://www.instagram.com/itsuak/
 photo.25.tags: mofumofu, whiskers
-photo.26: ig://CKeGvKvsl9C/m
+photo.26: ig://CKGsMIFBaNs/m
 photo.26.author: itsuak
-photo.26.commitdate: 2021/2/2
+photo.26.commitdate: 2021/2/28
 photo.26.link: https://www.instagram.com/itsuak/
-photo.26.tags: laying down, mofumofu, paws, portrait, sleeping
-photo.27: ig://CKl-wVLBPBF/m
+photo.26.tags: mofumofu, portrait
+photo.27: ig://CKeGvKvsl9C/m
 photo.27.author: itsuak
-photo.27.commitdate: 2021/1/28
+photo.27.commitdate: 2021/2/2
 photo.27.link: https://www.instagram.com/itsuak/
-photo.27.tags: bamboo, mofumofu, portrait, smile
-photo.28: ig://CKoTF7_BByT/m
+photo.27.tags: laying down, mofumofu, paws, portrait, sleeping
+photo.28: ig://CKl-wVLBPBF/m
 photo.28.author: itsuak
-photo.28.commitdate: 2021/1/30
+photo.28.commitdate: 2021/1/28
 photo.28.link: https://www.instagram.com/itsuak/
-photo.28.tags: itchy, paws
-photo.29: ig://CLE9sYAhZTg/m
+photo.28.tags: bamboo, mofumofu, portrait, smile
+photo.29: ig://CKoTF7_BByT/m
 photo.29.author: itsuak
-photo.29.commitdate: 2021/2/16
+photo.29.commitdate: 2021/1/30
 photo.29.link: https://www.instagram.com/itsuak/
-photo.29.tags: laying down, paws, playing, portrait
-photo.30: https://www.instagram.com/p/CLeErfshY-y/media/?size=m
+photo.29.tags: itchy, paws
+photo.30: ig://CLE9sYAhZTg/m
 photo.30.author: itsuak
+photo.30.commitdate: 2021/2/16
 photo.30.link: https://www.instagram.com/itsuak/
-photo.30.tags: ear, mofumofu, portrait
-photo.31: https://www.instagram.com/p/CKGsMIFBaNs/media/?size=m
+photo.30.tags: laying down, paws, playing, portrait
+photo.31: ig://CLeErfshY-y/m
 photo.31.author: itsuak
+photo.31.commitdate: 2021/2/28
 photo.31.link: https://www.instagram.com/itsuak/
-photo.31.tags: mofumofu, portrait
+photo.31.tags: ear, mofumofu, portrait
 species: 2
 studbook.id: 0978
 zoo: 15

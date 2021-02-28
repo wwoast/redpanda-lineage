@@ -119,43 +119,49 @@ photo.21.author: kijyo.zoo
 photo.21.commitdate: 2021/1/19
 photo.21.link: https://www.instagram.com/kijyo.zoo/
 photo.21.tags: keeper, portrait
-photo.22: ig://CK6NSeThQmt/m
-photo.22.author: taka__3428
-photo.22.commitdate: 2021/2/15
-photo.22.link: https://www.instagram.com/taka__3428/
-photo.22.tags: laying down, tree, sleeping
-photo.23: ig://CLGH7E1h5YD/m
-photo.23.author: lesserpanda_shizuokacity_cp
-photo.23.commitdate: 2021/2/15
-photo.23.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.23.tags: portrait, smile
-photo.24: ig://CLNWXNCBf7o/m
-photo.24.author: hamamatsu.chiita
-photo.24.commitdate: 2021/2/15
-photo.24.link: https://www.instagram.com/hamamatsu.chiita/
-photo.24.tags: close-up, portrait
-photo.25: https://www.instagram.com/p/CKqzVmwhncV/media/?size=m
+photo.22: ig://CKR97qVB6PG/m
+photo.22.author: hamamatsu.chiita
+photo.22.commitdate: 2021/2/28
+photo.22.link: https://www.instagram.com/hamamatsu.chiita/
+photo.22.tags: nose, peek
+photo.23: ig://CKqzVmwhncV/m
+photo.23.author: taka__3428
+photo.23.commitdate: 2021/2/28
+photo.23.link: https://www.instagram.com/taka__3428/
+photo.23.tags: nose, snow
+photo.24: ig://CKtno7ChKW0/m
+photo.24.author: taka__3428
+photo.24.commitdate: 2021/2/28
+photo.24.link: https://www.instagram.com/taka__3428/
+photo.25: ig://CKv9gc8hsaY/m
 photo.25.author: taka__3428
+photo.25.commitdate: 2021/2/28
 photo.25.link: https://www.instagram.com/taka__3428/
-photo.25.tags: nose, snow
-photo.26: https://www.instagram.com/p/CKR97qVB6PG/media/?size=m
-photo.26.author: hamamatsu.chiita
-photo.26.link: https://www.instagram.com/hamamatsu.chiita/
-photo.26.tags: nose, peek
-photo.27: https://www.instagram.com/p/CK4gpFmheb6/media/?size=m
+photo.25.tags: peek, tree
+photo.26: ig://CKyketdhGZI/m
+photo.26.author: taka__3428
+photo.26.commitdate: 2021/2/28
+photo.26.link: https://www.instagram.com/taka__3428/
+photo.26.tags: bamboo, smile, wink
+photo.27: ig://CK4gpFmheb6/m
 photo.27.author: hamamatsu.chiita
+photo.27.commitdate: 2021/2/28
 photo.27.link: https://www.instagram.com/hamamatsu.chiita/
 photo.27.tags: portrait, whiskers
-photo.28: https://www.instagram.com/p/CKyketdhGZI/media/?size=m
+photo.28: ig://CK6NSeThQmt/m
 photo.28.author: taka__3428
+photo.28.commitdate: 2021/2/15
 photo.28.link: https://www.instagram.com/taka__3428/
-photo.28.tags: bamboo, smile, wink
-photo.29: https://www.instagram.com/p/CKtno7ChKW0/media/?size=m
-photo.29.author: taka__3428
-photo.29.link: https://www.instagram.com/taka__3428/
-photo.30: https://www.instagram.com/p/CKv9gc8hsaY/media/?size=m
-photo.30.author: taka__3428
-photo.30.link: https://www.instagram.com/taka__3428/
-photo.30.tags: peek, tree
+photo.28.tags: laying down, tree, sleeping
+photo.29: ig://CLGH7E1h5YD/m
+photo.29.author: lesserpanda_shizuokacity_cp
+photo.29.commitdate: 2021/2/15
+photo.29.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.29.tags: portrait, smile
+photo.30: ig://CLNWXNCBf7o/m
+photo.30.author: hamamatsu.chiita
+photo.30.commitdate: 2021/2/15
+photo.30.link: https://www.instagram.com/hamamatsu.chiita/
+photo.30.tags: close-up, portrait
 species: 2
 zoo: 16
