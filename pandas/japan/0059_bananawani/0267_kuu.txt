@@ -27,26 +27,27 @@ photo.3: ig://BbT8pE5lQip/m
 photo.3.author: hanamaru_redpanda
 photo.3.commitdate: 2018/12/23
 photo.3.link: https://www.instagram.com/hanamaru_redpanda/
-photo.3.tags: profile
+photo.3.tags: close-up, portrait, profile
 photo.4: ig://BcHClzkARFg/m
 photo.4.author: roko_mm
 photo.4.commitdate: 2018/7/30
 photo.4.link: https://www.instagram.com/roko_mm/
+photo.4.tags: portrait
 photo.5: ig://BcgXs5kHHUH/m
 photo.5.author: gorogorodou
 photo.5.commitdate: 2018/12/15
 photo.5.link: https://www.instagram.com/gorogorodou/
-photo.5.tags: tail
+photo.5.tags: portrait, tail
 photo.6: ig://BeOubMbBmV1/m
 photo.6.author: miis_98
 photo.6.commitdate: 2018/7/30
 photo.6.link: https://www.instagram.com/miis_98/
-photo.6.tags: bamboo
+photo.6.tags: bamboo, portrait
 photo.7: ig://BgdcxAMFfbq/m
 photo.7.author: craig_craig_craig
 photo.7.commitdate: 2018/7/30
 photo.7.link: https://www.instagram.com/craig_craig_craig/
-photo.7.tags: dish, lunch time
+photo.7.tags: dish, lunch time, portrait
 photo.8: ig://BjvakgXFAgD/m
 photo.8.author: craig_craig_craig
 photo.8.commitdate: 2019/10/8
@@ -56,21 +57,22 @@ photo.9: ig://Bk407sGltns/m
 photo.9.author: hanamaru_redpanda
 photo.9.commitdate: 2018/7/30
 photo.9.link: https://www.instagram.com/hanamaru_redpanda/
-photo.9.tags: bamboo
+photo.9.tags: bamboo, portrait
 photo.10: ig://Bl1XeV_loeD/m
 photo.10.author: miis_98
 photo.10.commitdate: 2018/7/30
 photo.10.link: https://www.instagram.com/miis_98/
-photo.10.tags: tail
+photo.10.tags: portrait, tail
 photo.11: ig://BqG_C9qFSzS/m
 photo.11.author: craig_craig_craig
 photo.11.commitdate: 2018/11/13
 photo.11.link: https://www.instagram.com/craig_craig_craig/
-photo.11.tags: bamboo
+photo.11.tags: bamboo, paws, portrait, tail
 photo.12: ig://BqpBOnLleK2/m
 photo.12.author: craig_craig_craig
 photo.12.commitdate: 2018/11/26
 photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: peek, portrait
 photo.13: ig://BsA1PEolYQd/m
 photo.13.author: fetorus_mami
 photo.13.commitdate: 2018/12/30
@@ -85,7 +87,7 @@ photo.15: ig://BtvK2Galk5m/m
 photo.15.author: craig_craig_craig
 photo.15.commitdate: 2019/4/5
 photo.15.link: https://www.instagram.com/craig_craig_craig/
-photo.15.tags: white face
+photo.15.tags: portrait, white face
 photo.16: ig://B7RVwdphir4/m
 photo.16.author: craig_craig_craig
 photo.16.commitdate: 2020/1/17
@@ -116,6 +118,10 @@ photo.21.author: mybrotherisdylan
 photo.21.commitdate: 2021/1/13
 photo.21.link: https://www.instagram.com/mybrotherisdylan/
 photo.21.tags: grooming, laying down, paws, portrait, tongue
+photo.22: https://www.instagram.com/p/B4eBIC6hhtC/media/?size=m
+photo.22.author: kotume4935
+photo.22.link: https://www.instagram.com/kotume4935/
+photo.22.tags: close-up, portrait, whiskers
 species: 1
 studbook.id: 14172
 zoo: 59
