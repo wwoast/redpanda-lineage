@@ -148,25 +148,26 @@ photo.28.author: pink.b22
 photo.28.commitdate: 2020/9/7
 photo.28.link: https://www.instagram.com/pink.b22/
 photo.28.tags: home, laying down, paws, portrait
-photo.29: ig://CE-NbkCBVED/m
-photo.29.author: tetusara.ki_
-photo.29.commitdate: 2020/9/15
-photo.29.link: https://www.instagram.com/tetusara.ki_/
-photo.29.tags: laying down, mofumofu, portrait
-photo.30: ig://CG9ZqbTBpev/m
-photo.30.author: mybrotherisdylan
-photo.30.commitdate: 2020/11/15
-photo.30.link: https://www.instagram.com/mybrotherisdylan/
-photo.30.tags: close-up, paws
-photo.31: ig://CJmy1dGhhqm/m
+photo.29: ig://CEaLjBphbXa/m
+photo.29.author: kotume4935
+photo.29.commitdate: 2021/2/28
+photo.29.link: https://www.instagram.com/kotume4935/
+photo.29.tags: portrait, smile, whiskers
+photo.30: ig://CE-NbkCBVED/m
+photo.30.author: tetusara.ki_
+photo.30.commitdate: 2020/9/15
+photo.30.link: https://www.instagram.com/tetusara.ki_/
+photo.30.tags: laying down, mofumofu, portrait
+photo.31: ig://CG9ZqbTBpev/m
 photo.31.author: mybrotherisdylan
-photo.31.commitdate: 2021/1/8
+photo.31.commitdate: 2020/11/15
 photo.31.link: https://www.instagram.com/mybrotherisdylan/
-photo.31.tags: patrol, tail, whiskers
-photo.32: https://www.instagram.com/p/CEaLjBphbXa/media/?size=m
-photo.32.author: kotume4935
-photo.32.link: https://www.instagram.com/kotume4935/
-photo.32.tags: portrait, smile, whiskers
+photo.31.tags: close-up, paws
+photo.32: ig://CJmy1dGhhqm/m
+photo.32.author: mybrotherisdylan
+photo.32.commitdate: 2021/1/8
+photo.32.link: https://www.instagram.com/mybrotherisdylan/
+photo.32.tags: patrol, tail, whiskers
 species: 1
 studbook.id: 1791
 zoo: 59

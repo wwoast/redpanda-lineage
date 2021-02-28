@@ -75,8 +75,9 @@ photo.12.author: wumpwoast
 photo.12.commitdate: 2020/9/26
 photo.12.link: https://www.instagram.com/wumpwoast/
 photo.12.tags: portrait, whiskers
-photo.13: https://www.instagram.com/p/CKmR27EnSLc/media/?size=m
+photo.13: ig://CKmR27EnSLc/m
 photo.13.author: sequoiaparkzoo
+photo.13.commitdate: 2021/2/28
 photo.13.link: https://www.instagram.com/sequoiaparkzoo/
 photo.13.tags: portrait, whiskers
 species: 1

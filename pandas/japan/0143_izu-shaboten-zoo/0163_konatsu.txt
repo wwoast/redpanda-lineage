@@ -694,59 +694,61 @@ photo.138.author: pink.b22
 photo.138.commitdate: 2020/8/29
 photo.138.link: https://www.instagram.com/pink.b22/
 photo.138.tags: blink, bridge, laying down, paws, yawn
-photo.139: ig://CFrnR7hhTOp/m
-photo.139.author: resapan.suki
-photo.139.commitdate: 2020/11/19
-photo.139.link: https://www.instagram.com/resapan.suki/
-photo.139.tags: blink, bridge, laying down, paws, tongue
-photo.140: ig://CF0XEhPhqDk/m
-photo.140.author: tetusara.ki_
-photo.140.commitdate: 2020/10/2
-photo.140.link: https://www.instagram.com/tetusara.ki_/
-photo.140.tags: laying down, mofumofu, portrait, tongue
-photo.141: ig://CHIFTeFBeCg/m
-photo.141.author: pink.b22
-photo.141.commitdate: 2020/11/7
-photo.141.link: https://www.instagram.com/pink.b22/
-photo.141.tags: bamboo, portrait, smile, whiskers
-photo.142: ig://CHJT892hv61/m
-photo.142.author: tetusara.ki_
-photo.142.commitdate: 2020/11/5
-photo.142.link: https://www.instagram.com/tetusara.ki_/
-photo.142.tags: portrait, smile, techitechi
-photo.143: ig://CHL3UNiBu8X/m
+photo.139: ig://CFUH0GghQ5N/m
+photo.139.author: kotume4935
+photo.139.commitdate: 2021/2/28
+photo.139.link: https://www.instagram.com/kotume4935/
+photo.139.tags: bridge, laying down, peek, portrait
+photo.140: ig://CFrnR7hhTOp/m
+photo.140.author: resapan.suki
+photo.140.commitdate: 2020/11/19
+photo.140.link: https://www.instagram.com/resapan.suki/
+photo.140.tags: blink, bridge, laying down, paws, tongue
+photo.141: ig://CF0XEhPhqDk/m
+photo.141.author: tetusara.ki_
+photo.141.commitdate: 2020/10/2
+photo.141.link: https://www.instagram.com/tetusara.ki_/
+photo.141.tags: laying down, mofumofu, portrait, tongue
+photo.142: ig://CHIFTeFBeCg/m
+photo.142.author: pink.b22
+photo.142.commitdate: 2020/11/7
+photo.142.link: https://www.instagram.com/pink.b22/
+photo.142.tags: bamboo, portrait, smile, whiskers
+photo.143: ig://CHJT892hv61/m
 photo.143.author: tetusara.ki_
-photo.143.commitdate: 2020/11/11
+photo.143.commitdate: 2020/11/5
 photo.143.link: https://www.instagram.com/tetusara.ki_/
-photo.143.tags: bridge, paws, peek, portrait, techitechi
-photo.144: ig://CHfKnrwBzSJ/m
-photo.144.author: pink.b22
-photo.144.commitdate: 2020/11/25
-photo.144.link: https://www.instagram.com/pink.b22/
-photo.144.tags: lunch time, mofumofu, paws, portrait, tongue
-photo.145: ig://CIx1CpHhkp5/m
+photo.143.tags: portrait, smile, techitechi
+photo.144: ig://CHL3UNiBu8X/m
+photo.144.author: tetusara.ki_
+photo.144.commitdate: 2020/11/11
+photo.144.link: https://www.instagram.com/tetusara.ki_/
+photo.144.tags: bridge, paws, peek, portrait, techitechi
+photo.145: ig://CHfKnrwBzSJ/m
 photo.145.author: pink.b22
-photo.145.commitdate: 2021/1/13
+photo.145.commitdate: 2020/11/25
 photo.145.link: https://www.instagram.com/pink.b22/
-photo.145.tags: laying down, mofumofu, portrait
-photo.146: ig://CJIOz7kB5Nx/m
-photo.146.author: tetusara.ki_
+photo.145.tags: lunch time, mofumofu, paws, portrait, tongue
+photo.146: ig://CIx1CpHhkp5/m
+photo.146.author: pink.b22
 photo.146.commitdate: 2021/1/13
-photo.146.link: https://www.instagram.com/tetusara.ki_/
-photo.146.tags: air tasting, mofumofu, portrait, tongue
-photo.147: ig://CKqbc6lBiUz/m
-photo.147.author: pink.b22
-photo.147.commitdate: 2021/1/30
-photo.147.link: https://www.instagram.com/pink.b22/
-photo.147.tags: paws, peek, portrait
-photo.148: https://www.instagram.com/p/CFUH0GghQ5N/media/?size=m
+photo.146.link: https://www.instagram.com/pink.b22/
+photo.146.tags: laying down, mofumofu, portrait
+photo.147: ig://CJIOz7kB5Nx/m
+photo.147.author: tetusara.ki_
+photo.147.commitdate: 2021/1/13
+photo.147.link: https://www.instagram.com/tetusara.ki_/
+photo.147.tags: air tasting, mofumofu, portrait, tongue
+photo.148: ig://CJo6Wq7BCKr/m
 photo.148.author: kotume4935
+photo.148.commitdate: 2021/2/28
 photo.148.link: https://www.instagram.com/kotume4935/
-photo.148.tags: bridge, laying down, peek, portrait
-photo.149: https://www.instagram.com/p/CJo6Wq7BCKr/media/?size=m
-photo.149.author: kotume4935
-photo.149.link: https://www.instagram.com/kotume4935/
-photo.149.tags: portrait, smile
+photo.148.tags: portrait, smile
+photo.149: ig://CKqbc6lBiUz/m
+photo.149.author: pink.b22
+photo.149.commitdate: 2021/1/30
+photo.149.link: https://www.instagram.com/pink.b22/
+photo.149.tags: paws, peek, portrait
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k

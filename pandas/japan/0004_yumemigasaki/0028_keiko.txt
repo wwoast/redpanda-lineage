@@ -368,25 +368,26 @@ photo.72.author: miis_98
 photo.72.commitdate: 2020/10/2
 photo.72.link: https://www.instagram.com/miis_98/
 photo.72.tags: climb, paws, smile
-photo.73: ig://CHbW8CMh426/m
-photo.73.author: pink.b22
-photo.73.commitdate: 2020/11/21
-photo.73.link: https://www.instagram.com/pink.b22/
-photo.73.tags: laying down, sleeping, tail
-photo.74: ig://CJ_9W18h64k/m
-photo.74.author: ssc6105
-photo.74.commitdate: 2021/1/16
-photo.74.link: https://www.instagram.com/ssc6105/
-photo.74.tags: mofumofu, paws, tail
-photo.75: ig://CKlkCDTBFoN/m
-photo.75.author: miis_98
-photo.75.commitdate: 2021/1/28
-photo.75.link: https://www.instagram.com/miis_98/
-photo.75.tags: mofumofu, paws, portrait, whiskers
-photo.76: https://www.instagram.com/p/CHbV1p3hGeu/media/?size=m
-photo.76.author: kotume4935
-photo.76.link: https://www.instagram.com/kotume4935/
-photo.76.tags: laying down, portrait, sleeping, tail
+photo.73: ig://CHbV1p3hGeu/m
+photo.73.author: kotume4935
+photo.73.commitdate: 2021/2/28
+photo.73.link: https://www.instagram.com/kotume4935/
+photo.73.tags: laying down, portrait, sleeping, tail
+photo.74: ig://CHbW8CMh426/m
+photo.74.author: pink.b22
+photo.74.commitdate: 2020/11/21
+photo.74.link: https://www.instagram.com/pink.b22/
+photo.74.tags: laying down, sleeping, tail
+photo.75: ig://CJ_9W18h64k/m
+photo.75.author: ssc6105
+photo.75.commitdate: 2021/1/16
+photo.75.link: https://www.instagram.com/ssc6105/
+photo.75.tags: mofumofu, paws, tail
+photo.76: ig://CKlkCDTBFoN/m
+photo.76.author: miis_98
+photo.76.commitdate: 2021/1/28
+photo.76.link: https://www.instagram.com/miis_98/
+photo.76.tags: mofumofu, paws, portrait, whiskers
 species: 2
 studbook.id: 15128
 zoo: 4

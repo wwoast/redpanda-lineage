@@ -297,8 +297,9 @@ photo.57.author: pink.b22
 photo.57.commitdate: 2020/11/18
 photo.57.link: https://www.instagram.com/pink.b22/
 photo.57.tags: paws, portrait, smile, whiskers
-photo.58: https://www.instagram.com/p/CJmWjdWBlCI/media/?size=m
+photo.58: ig://CJmWjdWBlCI/m
 photo.58.author: kotume4935
+photo.58.commitdate: 2021/2/28
 photo.58.link: https://www.instagram.com/kotume4935/
 photo.58.tags: air tasting, apple time, paws, portrait, tongue
 species: 2

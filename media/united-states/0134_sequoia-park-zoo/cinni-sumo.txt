@@ -30,8 +30,9 @@ photo.4.link: https://www.instagram.com/sequoiaparkzoo/
 photo.4.tags: father's day, white face
 photo.4.tags.533.location: 200, 265
 photo.4.tags.535.location: 515, 205
-photo.5: https://www.instagram.com/p/CKpC3fOhHYO/media/?size=l
+photo.5: ig://CKpC3fOhHYO/l
 photo.5.author: sequoiaparkzoo
+photo.5.commitdate: 2021/2/28
 photo.5.link: https://www.instagram.com/sequoiaparkzoo/
 photo.5.tags: fathers day, tail, white face
 photo.5.tags.533.location: 400, 155
