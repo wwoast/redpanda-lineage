@@ -44,7 +44,7 @@ photo.6: ig://B7j0PUJhSZR/m
 photo.6.author: tomo3700
 photo.6.commitdate: 2020/1/22
 photo.6.link: https://www.instagram.com/tomo3700/
-photo.6.tags: baby, portrait, profile, tail
+photo.6.tags: baby, portrait, tail
 photo.7: ig://B-Op5SRBvse/m
 photo.7.author: merumeru119
 photo.7.commitdate: 2020/5/5
@@ -134,5 +134,28 @@ photo.24.author: hamamatsu.chiita
 photo.24.commitdate: 2021/2/15
 photo.24.link: https://www.instagram.com/hamamatsu.chiita/
 photo.24.tags: close-up, portrait
+photo.25: https://www.instagram.com/p/CKqzVmwhncV/media/?size=m
+photo.25.author: taka__3428
+photo.25.link: https://www.instagram.com/taka__3428/
+photo.25.tags: nose, snow
+photo.26: https://www.instagram.com/p/CKR97qVB6PG/media/?size=m
+photo.26.author: hamamatsu.chiita
+photo.26.link: https://www.instagram.com/hamamatsu.chiita/
+photo.26.tags: nose, peek
+photo.27: https://www.instagram.com/p/CK4gpFmheb6/media/?size=m
+photo.27.author: hamamatsu.chiita
+photo.27.link: https://www.instagram.com/hamamatsu.chiita/
+photo.27.tags: portrait, whiskers
+photo.28: https://www.instagram.com/p/CKyketdhGZI/media/?size=m
+photo.28.author: taka__3428
+photo.28.link: https://www.instagram.com/taka__3428/
+photo.28.tags: bamboo, smile, wink
+photo.29: https://www.instagram.com/p/CKtno7ChKW0/media/?size=m
+photo.29.author: taka__3428
+photo.29.link: https://www.instagram.com/taka__3428/
+photo.30: https://www.instagram.com/p/CKv9gc8hsaY/media/?size=m
+photo.30.author: taka__3428
+photo.30.link: https://www.instagram.com/taka__3428/
+photo.30.tags: peek, tree
 species: 2
 zoo: 16
