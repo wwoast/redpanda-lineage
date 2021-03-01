@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 430, 431
 location.1: 94, 2013/7/1
 location.2: 51, 2014/10/15
+location.3: 86, 2021/2/1
 photo.1: ig://Bb7m6QdgqwM/m
 photo.1.author: smitshow
 photo.1.commitdate: 2018/11/27
@@ -50,6 +51,11 @@ photo.7.author: garseeyaink
 photo.7.commitdate: 2020/10/31
 photo.7.link: https://www.instagram.com/garseeyaink/
 photo.7.tags: home, paws, peek, portrait, whiskers
+photo.8: https://www.instagram.com/p/CL2-7SyAxzN/media/?size=m
+photo.8.author: westcoast_kathy
+photo.8.link: https://www.instagram.com/westcoast_kathy/
+photo.8.tags: peek, portrait
 species: 2
 studbook.id: 1348
-zoo: 51
+uncertainty: location.3 exact moving date
+zoo: 86
