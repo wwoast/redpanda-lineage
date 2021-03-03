@@ -3249,7 +3249,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/\bcombo: 1 fotos/, "combo: una foto")
                    .replace(/\bfotos etiquetadas/, "foto etiquetada")
                    .replace(/^([^A-Za-z0-9]+)un\s/, "$1 Un ")
-                   .replace(/^([^A-Za-z0-9]+)un\s/, "$1 Uno ")
+                   .replace(/^([^A-Za-z0-9]+)uno\s/, "$1 Uno ")
                    .replace(/^([^A-Za-z0-9]+)una\s/, "$1 Una ")
                    .replace(/^un\s/, "Un ")
                    .replace(/^uno\s/, "Uno ")
