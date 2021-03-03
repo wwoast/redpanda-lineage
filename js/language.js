@@ -1208,7 +1208,7 @@ Language.L.messages = {
       "en": ["<INSERTCOUNT>",
              " new photos"],
       "es": ["<INSERTCOUNT>",
-             " nuevas fotos"],
+             " fotos nuevas "],
       "jp": ["<INSERTCOUNT>",
              "枚の新しい写真"],
       "np": ["<INSERTCOUNT>",
