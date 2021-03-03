@@ -413,34 +413,41 @@ photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2021/1/3
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: portrait
-photo.81: https://www.instagram.com/p/CKGaszlht2E/media/?size=m
+photo.81: ig://CKGaszlht2E/m
 photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2021/3/2
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: grumpy, portrait, whiskers
-photo.82: https://www.instagram.com/p/CK1-m-UB217/media/?size=m
+photo.82: ig://CKMxjMbBnAN/m
 photo.82.author: hamamatsu.chiita
+photo.82.commitdate: 2021/3/2
 photo.82.link: https://www.instagram.com/hamamatsu.chiita/
-photo.82.tags: portrait, tree
-photo.83: https://www.instagram.com/p/CLC1hGXBRyU/media/?size=m
+photo.82.tags: bamboo, portrait, whiskers
+photo.83: ig://CKYku3vBGnS/m
 photo.83.author: hamamatsu.chiita
+photo.83.commitdate: 2021/3/2
 photo.83.link: https://www.instagram.com/hamamatsu.chiita/
-photo.83.tags: laying down, peek, tail
-photo.84: https://www.instagram.com/p/CKYku3vBGnS/media/?size=m
+photo.83.tags: close-up, portrait
+photo.84: ig://CKs3CpGBNqy/m
 photo.84.author: hamamatsu.chiita
+photo.84.commitdate: 2021/3/2
 photo.84.link: https://www.instagram.com/hamamatsu.chiita/
-photo.84.tags: close-up, portrait
-photo.85: https://www.instagram.com/p/CKs4H6fBHFM/media/?size=m
+photo.84.tags: portrait
+photo.85: ig://CKs4H6fBHFM/m
 photo.85.author: hamamatsu.chiita
+photo.85.commitdate: 2021/3/2
 photo.85.link: https://www.instagram.com/hamamatsu.chiita/
 photo.85.tags: apple time, keeper, portrait
-photo.86: https://www.instagram.com/p/CKs3CpGBNqy/media/?size=m
+photo.86: ig://CK1-m-UB217/m
 photo.86.author: hamamatsu.chiita
+photo.86.commitdate: 2021/3/2
 photo.86.link: https://www.instagram.com/hamamatsu.chiita/
-photo.86.tags: portrait
-photo.87: https://www.instagram.com/p/CKMxjMbBnAN/media/?size=m
+photo.86.tags: portrait, tree
+photo.87: ig://CLC1hGXBRyU/m
 photo.87.author: hamamatsu.chiita
+photo.87.commitdate: 2021/3/2
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
-photo.87.tags: bamboo, portrait, whiskers
+photo.87.tags: laying down, peek, tail
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

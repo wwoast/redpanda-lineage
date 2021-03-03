@@ -18,8 +18,9 @@ photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: baby, portrait, profile
-photo.2: https://www.instagram.com/p/CLT-UE2rQaO/media/?size=m
+photo.2: ig://CLT-UE2rQaO/m
 photo.2.author: rossifari
+photo.2.commitdate: 2021/3/2
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: baby, laying down, mofumofu, portrait, upside-down
 species: 2

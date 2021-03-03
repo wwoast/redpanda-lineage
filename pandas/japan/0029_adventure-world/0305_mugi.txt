@@ -790,27 +790,31 @@ photo.156.author: craig_craig_craig
 photo.156.commitdate: 2021/1/28
 photo.156.link: https://www.instagram.com/craig_craig_craig/
 photo.156.tags: peek, videolink
-photo.157: ig://CKYFqyAhf4t/m
-photo.157.author: craig_craig_craig
-photo.157.commitdate: 2021/2/28
-photo.157.link: https://www.instagram.com/craig_craig_craig/
-photo.157.tags: paws, portrait, standing, tail
-photo.158: https://www.instagram.com/p/CKIO1obhhGf/media/?size=m
-photo.158.author: kisshan324
-photo.158.link: https://www.instagram.com/kisshan324/
-photo.158.tags: portrait, smile, tail
-photo.159: https://www.instagram.com/p/CLB4idpBgHh/media/?size=m
-photo.159.author: framereim
-photo.159.link: https://www.instagram.com/framereim/
-photo.159.tags: dish, lunch time, portrait, tail
-photo.160: https://www.instagram.com/p/CKRXDGIBKFJ/media/?size=m
+photo.157: ig://CKIO1obhhGf/m
+photo.157.author: kisshan324
+photo.157.commitdate: 2021/3/2
+photo.157.link: https://www.instagram.com/kisshan324/
+photo.157.tags: portrait, smile, tail
+photo.158: ig://CKRXDGIBKFJ/m
+photo.158.author: craig_craig_craig
+photo.158.commitdate: 2021/3/2
+photo.158.link: https://www.instagram.com/craig_craig_craig/
+photo.158.tags: portrait, whiskers
+photo.159: ig://CKTg0OjB90u/m
+photo.159.author: craig_craig_craig
+photo.159.commitdate: 2021/3/2
+photo.159.link: https://www.instagram.com/craig_craig_craig/
+photo.159.tags: paws, standing
+photo.160: ig://CKYFqyAhf4t/m
 photo.160.author: craig_craig_craig
+photo.160.commitdate: 2021/2/28
 photo.160.link: https://www.instagram.com/craig_craig_craig/
-photo.160.tags: portrait, whiskers
-photo.161: https://www.instagram.com/p/CKTg0OjB90u/media/?size=m
-photo.161.author: craig_craig_craig
-photo.161.link: https://www.instagram.com/craig_craig_craig/
-photo.161.tags: paws, standing
+photo.160.tags: paws, portrait, standing, tail
+photo.161: ig://CLB4idpBgHh/m
+photo.161.author: framereim
+photo.161.commitdate: 2021/3/2
+photo.161.link: https://www.instagram.com/framereim/
+photo.161.tags: dish, lunch time, portrait, tail
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/rYd6QptEbU0

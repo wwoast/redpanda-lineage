@@ -448,14 +448,16 @@ photo.87.author: sunnylettuce_2021
 photo.87.commitdate: 2021/1/19
 photo.87.link: https://www.instagram.com/sunnylettuce_2021/
 photo.87.tags: paws, portrait, smile, tongue, tree
-photo.88: https://www.instagram.com/p/CKtdNDEBgLZ/media/?size=m
-photo.88.author: mini_cochi
-photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: ear, laying down, peek, portrait, tree
-photo.89: https://www.instagram.com/p/CKRI_D2hRcw/media/?size=m
-photo.89.author: fetorus_mami
-photo.89.link: https://www.instagram.com/fetorus_mami/
-photo.89.tags: bamboo, paws, tongue, white face
+photo.88: ig://CKRI_D2hRcw/m
+photo.88.author: fetorus_mami
+photo.88.commitdate: 2021/3/2
+photo.88.link: https://www.instagram.com/fetorus_mami/
+photo.88.tags: bamboo, paws, tongue, white face
+photo.89: ig://CKtdNDEBgLZ/m
+photo.89.author: mini_cochi
+photo.89.commitdate: 2021/3/2
+photo.89.link: https://www.instagram.com/mini_cochi/
+photo.89.tags: ear, laying down, peek, portrait, tree
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

@@ -689,25 +689,26 @@ photo.136.author: minatomirai215
 photo.136.commitdate: 2021/1/16
 photo.136.link: https://www.instagram.com/minatomirai215/
 photo.136.tags: paws, portrait
-photo.137: ig://CK2UoloBa6K/m
-photo.137.author: ck.chie
-photo.137.commitdate: 2021/2/20
-photo.137.link: https://www.instagram.com/ck.chie/
-photo.137.tags: paws, portrait
-photo.138: ig://CLUaiVMhsfi/m
-photo.138.author: fetorus_mami
-photo.138.commitdate: 2021/2/15
-photo.138.link: https://www.instagram.com/fetorus_mami/
-photo.138.tags: close-up, whiskers
-photo.139: ig://CLUqEeKhY4U/m
-photo.139.author: eos1089
-photo.139.commitdate: 2021/2/28
-photo.139.link: https://www.instagram.com/eos1089/
-photo.139.tags: portrait, smile, whiskers
-photo.140: https://www.instagram.com/p/CKQ15BaBSlj/media/?size=m
-photo.140.author: ssc6105
-photo.140.link: https://www.instagram.com/ssc6105/
-photo.140.tags: blink, paws
+photo.137: ig://CKQ15BaBSlj/m
+photo.137.author: ssc6105
+photo.137.commitdate: 2021/3/2
+photo.137.link: https://www.instagram.com/ssc6105/
+photo.137.tags: blink, paws
+photo.138: ig://CK2UoloBa6K/m
+photo.138.author: ck.chie
+photo.138.commitdate: 2021/2/20
+photo.138.link: https://www.instagram.com/ck.chie/
+photo.138.tags: paws, portrait
+photo.139: ig://CLUaiVMhsfi/m
+photo.139.author: fetorus_mami
+photo.139.commitdate: 2021/2/15
+photo.139.link: https://www.instagram.com/fetorus_mami/
+photo.139.tags: close-up, whiskers
+photo.140: ig://CLUqEeKhY4U/m
+photo.140.author: eos1089
+photo.140.commitdate: 2021/2/28
+photo.140.link: https://www.instagram.com/eos1089/
+photo.140.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

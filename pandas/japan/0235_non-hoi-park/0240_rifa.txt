@@ -1642,18 +1642,21 @@ photo.327.author: ssc6105
 photo.327.commitdate: 2020/12/29
 photo.327.link: https://www.instagram.com/ssc6105/
 photo.327.tags: bamboo, smile, whiskers
-photo.328: https://www.instagram.com/p/CKs1_o6hGgT/media/?size=m
-photo.328.author: hamamatsu.chiita
-photo.328.link: https://www.instagram.com/hamamatsu.chiita/
-photo.328.tags: portrait, smile
-photo.329: https://www.instagram.com/p/CJg-_-fBTsN/media/?size=m
+photo.328: ig://CJZ-p1Oh26o/m
+photo.328.author: ssc6105
+photo.328.commitdate: 2021/3/2
+photo.328.link: https://www.instagram.com/ssc6105/
+photo.328.tags: climb, paws, surprise
+photo.329: ig://CJg-_-fBTsN/m
 photo.329.author: hamamatsu.chiita
+photo.329.commitdate: 2021/3/2
 photo.329.link: https://www.instagram.com/hamamatsu.chiita/
 photo.329.tags: smile, tree, whiskers
-photo.330: https://www.instagram.com/p/CJZ-p1Oh26o/media/?size=m
-photo.330.author: ssc6105
-photo.330.link: https://www.instagram.com/ssc6105/
-photo.330.tags: climb, paws, surprise
+photo.330: ig://CKs1_o6hGgT/m
+photo.330.author: hamamatsu.chiita
+photo.330.commitdate: 2021/3/2
+photo.330.link: https://www.instagram.com/hamamatsu.chiita/
+photo.330.tags: portrait, smile
 species: 2
 studbook.id: unknown
 zoo: 235

@@ -1092,35 +1092,36 @@ photo.218.author: wumpwoast
 photo.218.commitdate: 2020/12/29
 photo.218.link: https://www.instagram.com/wumpwoast/
 photo.218.tags: close-up, portrait, whiskers
-photo.219: ig://CKgkhEIBIWy/m
+photo.219: ig://CJvhCt2hI_f/m
 photo.219.author: minatomirai215
-photo.219.commitdate: 2021/1/31
+photo.219.commitdate: 2021/3/2
 photo.219.link: https://www.instagram.com/minatomirai215/
-photo.219.tags: home, keeper, portrait, whiskers
-photo.220: ig://CKqTjFBBzeo/m
-photo.220.author: ssc6105
-photo.220.commitdate: 2021/1/30
-photo.220.link: https://www.instagram.com/ssc6105/
-photo.220.tags: paws, portrait
-photo.221: ig://CKr7Se7hrrJ/m
-photo.221.author: miis_98
+photo.219.tags: door, peek, portrait
+photo.220: ig://CKgkhEIBIWy/m
+photo.220.author: minatomirai215
+photo.220.commitdate: 2021/1/31
+photo.220.link: https://www.instagram.com/minatomirai215/
+photo.220.tags: home, keeper, portrait, whiskers
+photo.221: ig://CKqTjFBBzeo/m
+photo.221.author: ssc6105
 photo.221.commitdate: 2021/1/30
-photo.221.link: https://www.instagram.com/miis_98/
-photo.221.tags: portrait, whiskers
-photo.222: ig://CKttx12B6Kc/m
-photo.222.author: minatomirai215
-photo.222.commitdate: 2021/2/16
-photo.222.link: https://www.instagram.com/minatomirai215/
-photo.222.tags: bridge, peek, portrait, tongue
-photo.223: ig://CLXQcXKB2LX/m
+photo.221.link: https://www.instagram.com/ssc6105/
+photo.221.tags: paws, portrait
+photo.222: ig://CKr7Se7hrrJ/m
+photo.222.author: miis_98
+photo.222.commitdate: 2021/1/30
+photo.222.link: https://www.instagram.com/miis_98/
+photo.222.tags: portrait, whiskers
+photo.223: ig://CKttx12B6Kc/m
 photo.223.author: minatomirai215
-photo.223.commitdate: 2021/2/20
+photo.223.commitdate: 2021/2/16
 photo.223.link: https://www.instagram.com/minatomirai215/
-photo.223.tags: paws, portrait, tail, whiskers
-photo.224: https://www.instagram.com/p/CJvhCt2hI_f/media/?size=m
+photo.223.tags: bridge, peek, portrait, tongue
+photo.224: ig://CLXQcXKB2LX/m
 photo.224.author: minatomirai215
+photo.224.commitdate: 2021/2/20
 photo.224.link: https://www.instagram.com/minatomirai215/
-photo.224.tags: door, peek, portrait
+photo.224.tags: paws, portrait, tail, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
