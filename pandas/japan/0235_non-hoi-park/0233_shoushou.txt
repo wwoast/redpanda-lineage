@@ -34,7 +34,7 @@ photo.4: ig://Bll9kT7lEUE/m
 photo.4.author: framereim
 photo.4.commitdate: 2018/8/20
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: blink, bridge, portrait, profile
+photo.4.tags: blink, bridge, portrait
 photo.5: ig://BlpnnT4lLoA/m
 photo.5.author: hanamaru_redpanda
 photo.5.commitdate: 2018/8/20
@@ -214,7 +214,7 @@ photo.40: ig://B91V__shkE5/m
 photo.40.author: taka__3428
 photo.40.commitdate: 2020/4/13
 photo.40.link: https://www.instagram.com/taka__3428/
-photo.40.tags: laying down, paws, portrait
+photo.40.tags: laying down, paws, portrait, profile
 photo.41: ig://B91etOqhGxr/m
 photo.41.author: ayusuke56
 photo.41.commitdate: 2020/4/13
@@ -413,6 +413,34 @@ photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2021/1/3
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: portrait
+photo.81: https://www.instagram.com/p/CKGaszlht2E/media/?size=m
+photo.81.author: hamamatsu.chiita
+photo.81.link: https://www.instagram.com/hamamatsu.chiita/
+photo.81.tags: grumpy, portrait, whiskers
+photo.82: https://www.instagram.com/p/CK1-m-UB217/media/?size=m
+photo.82.author: hamamatsu.chiita
+photo.82.link: https://www.instagram.com/hamamatsu.chiita/
+photo.82.tags: portrait, tree
+photo.83: https://www.instagram.com/p/CLC1hGXBRyU/media/?size=m
+photo.83.author: hamamatsu.chiita
+photo.83.link: https://www.instagram.com/hamamatsu.chiita/
+photo.83.tags: laying down, peek, tail
+photo.84: https://www.instagram.com/p/CKYku3vBGnS/media/?size=m
+photo.84.author: hamamatsu.chiita
+photo.84.link: https://www.instagram.com/hamamatsu.chiita/
+photo.84.tags: close-up, portrait
+photo.85: https://www.instagram.com/p/CKs4H6fBHFM/media/?size=m
+photo.85.author: hamamatsu.chiita
+photo.85.link: https://www.instagram.com/hamamatsu.chiita/
+photo.85.tags: apple time, keeper, portrait
+photo.86: https://www.instagram.com/p/CKs3CpGBNqy/media/?size=m
+photo.86.author: hamamatsu.chiita
+photo.86.link: https://www.instagram.com/hamamatsu.chiita/
+photo.86.tags: portrait
+photo.87: https://www.instagram.com/p/CKMxjMbBnAN/media/?size=m
+photo.87.author: hamamatsu.chiita
+photo.87.link: https://www.instagram.com/hamamatsu.chiita/
+photo.87.tags: bamboo, portrait, whiskers
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
