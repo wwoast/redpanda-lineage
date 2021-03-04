@@ -298,7 +298,7 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["667", "59", "82"], 5, Message.memorial)
+    var departed = Gallery.memorialPhotoCredits(L.display, ["667", "59"], 5, Message.memorial)
     new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
