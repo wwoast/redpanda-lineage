@@ -201,8 +201,9 @@ photo.38.author: yossi929
 photo.38.commitdate: 2020/9/26
 photo.38.link: https://www.instagram.com/yossi929/
 photo.38.tags: peek, portrait
-photo.39: https://www.instagram.com/p/CKTKRfFBRGn/media/?size=m
+photo.39: ig://CKTKRfFBRGn/m
 photo.39.author: omutacityzoo
+photo.39.commitdate: 2021/3/4
 photo.39.link: https://www.instagram.com/omutacityzoo/
 photo.39.tags: videolink
 species: 2

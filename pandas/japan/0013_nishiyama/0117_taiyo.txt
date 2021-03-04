@@ -207,28 +207,31 @@ photo.39.author: minato.yh
 photo.39.commitdate: 2020/8/28
 photo.39.link: https://www.instagram.com/minato.yh/
 photo.39.tags: mofumofu, portrait, smile
-photo.40: ig://CFWcg9hhTfC/m
-photo.40.author: hamamatsu.chiita
-photo.40.commitdate: 2020/9/24
-photo.40.link: https://www.instagram.com/hamamatsu.chiita/
-photo.40.tags: smile
-photo.41: ig://CHYiyt3hvk5/m
+photo.40: ig://CEtyAj9h1uq/m
+photo.40.author: minato.yh
+photo.40.commitdate: 2021/3/4
+photo.40.link: https://www.instagram.com/minato.yh/
+photo.40.tags: portrait, smile, videolink
+photo.41: ig://CFWcg9hhTfC/m
 photo.41.author: hamamatsu.chiita
-photo.41.commitdate: 2020/11/25
+photo.41.commitdate: 2020/9/24
 photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: bamboo, close-up, portrait
-photo.42: https://www.instagram.com/p/CKV9SnDht6q/media/?size=m
-photo.42.author: minato.yh
-photo.42.link: https://www.instagram.com/minato.yh/
-photo.42.tags: paws, portrait, standing, tail
-photo.43: https://www.instagram.com/p/CGz5A-XhV6X/media/?size=m
-photo.43.author: merumeru119
-photo.43.link: https://www.instagram.com/merumeru119/
-photo.43.tags: peek, whiskers
-photo.44: https://www.instagram.com/p/CEtyAj9h1uq/media/?size=m
+photo.41.tags: smile
+photo.42: ig://CGz5A-XhV6X/m
+photo.42.author: merumeru119
+photo.42.commitdate: 2021/3/4
+photo.42.link: https://www.instagram.com/merumeru119/
+photo.42.tags: peek, whiskers
+photo.43: ig://CHYiyt3hvk5/m
+photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2020/11/25
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: bamboo, close-up, portrait
+photo.44: ig://CKV9SnDht6q/m
 photo.44.author: minato.yh
+photo.44.commitdate: 2021/3/4
 photo.44.link: https://www.instagram.com/minato.yh/
-photo.44.tags: portrait, smile, videolink
+photo.44.tags: paws, portrait, standing, tail
 species: 2
 studbook.id: 13143
 zoo: 13

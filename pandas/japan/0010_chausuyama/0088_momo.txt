@@ -182,36 +182,41 @@ photo.34.author: shigeko0531
 photo.34.commitdate: 2021/1/16
 photo.34.link: https://www.instagram.com/shigeko0531/
 photo.34.tags: portrait, snow, videolink
-photo.35: ig://CLXwUtsBcDm/m
-photo.35.author: miis_98
-photo.35.commitdate: 2021/2/19
-photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: portrait, tail, tongue
-photo.36: ig://CLd5bkgh-HF/m
-photo.36.author: _saaaaaaah_
-photo.36.commitdate: 2021/2/19
-photo.36.link: https://www.instagram.com/_saaaaaaah_/
-photo.36.tags: smile
-photo.37: https://www.instagram.com/p/CL8fPDcByFu/media/?size=m
-photo.37.author: shigeko0531
-photo.37.link: https://www.instagram.com/shigeko0531/
-photo.37.tags: apple time, dish, portrait, tail
-photo.38: https://www.instagram.com/p/CL9BID5h0JF/media/?size=m
-photo.38.author: jas_forever_love
-photo.38.link: https://www.instagram.com/jas_forever_love/
-photo.38.tags: laying down, portrait, tree, white face
-photo.39: https://www.instagram.com/p/CL9bad6Bhqh/media/?size=m
-photo.39.author: minatomirai215
-photo.39.link: https://www.instagram.com/minatomirai215/
-photo.39.tags: apple time, bamboo, portrait, snow
-photo.40: https://www.instagram.com/p/CKwBWEqByuE/media/?size=m
-photo.40.author: redpan22
-photo.40.link: https://www.instagram.com/redpan22/
-photo.40.tags: portrait, snow, tail, techitechi
-photo.41: https://www.instagram.com/p/CK3Z9Z_hnQK/media/?size=m
-photo.41.author: alto0908
-photo.41.link: https://www.instagram.com/alto0908/
-photo.41.tags: laying down, paws, portrait, snow, upside-down
+photo.35: ig://CKwBWEqByuE/m
+photo.35.author: redpan22
+photo.35.commitdate: 2021/3/4
+photo.35.link: https://www.instagram.com/redpan22/
+photo.35.tags: portrait, snow, tail, techitechi
+photo.36: ig://CK3Z9Z_hnQK/m
+photo.36.author: alto0908
+photo.36.commitdate: 2021/3/4
+photo.36.link: https://www.instagram.com/alto0908/
+photo.36.tags: laying down, paws, portrait, snow, upside-down
+photo.37: ig://CLXwUtsBcDm/m
+photo.37.author: miis_98
+photo.37.commitdate: 2021/2/19
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: portrait, tail, tongue
+photo.38: ig://CLd5bkgh-HF/m
+photo.38.author: _saaaaaaah_
+photo.38.commitdate: 2021/2/19
+photo.38.link: https://www.instagram.com/_saaaaaaah_/
+photo.38.tags: smile
+photo.39: ig://CL8fPDcByFu/m
+photo.39.author: shigeko0531
+photo.39.commitdate: 2021/3/4
+photo.39.link: https://www.instagram.com/shigeko0531/
+photo.39.tags: apple time, dish, portrait, tail
+photo.40: ig://CL9BID5h0JF/m
+photo.40.author: jas_forever_love
+photo.40.commitdate: 2021/3/4
+photo.40.link: https://www.instagram.com/jas_forever_love/
+photo.40.tags: laying down, portrait, tree, white face
+photo.41: ig://CL9bad6Bhqh/m
+photo.41.author: minatomirai215
+photo.41.commitdate: 2021/3/4
+photo.41.link: https://www.instagram.com/minatomirai215/
+photo.41.tags: apple time, bamboo, portrait, snow
 species: 2
 studbook.id: 11100
 zoo: 10
