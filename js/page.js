@@ -312,8 +312,8 @@ Page.home.render = function() {
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
     // Group memorial for Kin and Gin
-    // var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
-    // new_content.appendChild(ginkin);    
+    var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    new_content.appendChild(ginkin);    
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");
