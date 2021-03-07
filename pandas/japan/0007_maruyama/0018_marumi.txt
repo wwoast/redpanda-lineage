@@ -1631,43 +1631,51 @@ photo.325.author: ho0oipo
 photo.325.commitdate: 2020/12/30
 photo.325.link: https://www.instagram.com/ho0oipo/
 photo.325.tags: portrait, snow
-photo.326: ig://CKla7akhTFX/m
-photo.326.author: an920000
-photo.326.commitdate: 2021/1/28
-photo.326.link: https://www.instagram.com/an920000/
-photo.326.tags: bamboo, paws, portrait, snow
-photo.327: https://www.instagram.com/p/CL52U0dAIFv/media/?size=m
-photo.327.author: cattail.sapporo
-photo.327.link: https://www.instagram.com/cattail.sapporo/
-photo.327.tags: close-up, mofumofu, portrait, snow, whiskers
-photo.328: https://www.instagram.com/p/CL6X6g7BmLZ/media/?size=m
-photo.328.author: ho0oipo
-photo.328.link: https://www.instagram.com/ho0oipo/
-photo.328.tags: mofumofu, portrait, snow, tail
-photo.329: https://www.instagram.com/p/CL8iTcKgO1w/media/?size=m
-photo.329.author: cattail.sapporo
-photo.329.link: https://www.instagram.com/cattail.sapporo/
-photo.329.tags: paws, portrait, snow, surprise
-photo.330: https://www.instagram.com/p/CL--LB-ggZM/media/?size=m
-photo.330.author: cattail.sapporo
-photo.330.link: https://www.instagram.com/cattail.sapporo/
-photo.330.tags: portrait, snow, tail
-photo.331: https://www.instagram.com/p/CK8p1hvBscf/media/?size=m
-photo.331.author: leonard_redmof
-photo.331.link: https://www.instagram.com/leonard_redmof/
-photo.331.tags: laying down, paws, playing, portrait, smile, snow, tail
-photo.332: https://www.instagram.com/p/CK8o-xah6qS/media/?size=m
-photo.332.author: leonard_redmof
-photo.332.link: https://www.instagram.com/leonard_redmof/
-photo.332.tags: portrait, snow, surprise
-photo.333: https://www.instagram.com/p/CKla7akhTFX/media/?size=m
-photo.333.author: an920000
-photo.333.link: https://www.instagram.com/an920000/
-photo.333.tags: bamboo, paws, portrait, snow
-photo.334: https://www.instagram.com/p/CKOancyhlI-/media/?size=m
-photo.334.author: nishicotolo
-photo.334.link: https://www.instagram.com/nishicotolo/
-photo.334.tags: snow, tail
+photo.326: ig://CKOancyhlI-/m
+photo.326.author: nishicotolo
+photo.326.commitdate: 2021/3/7
+photo.326.link: https://www.instagram.com/nishicotolo/
+photo.326.tags: snow, tail
+photo.327: ig://CKla7akhTFX/m
+photo.327.author: an920000
+photo.327.commitdate: 2021/1/28
+photo.327.link: https://www.instagram.com/an920000/
+photo.327.tags: bamboo, paws, portrait, snow
+photo.328: ig://CKla7akhTFX/m
+photo.328.author: an920000
+photo.328.commitdate: 2021/3/7
+photo.328.link: https://www.instagram.com/an920000/
+photo.328.tags: bamboo, paws, portrait, snow
+photo.329: ig://CK8o-xah6qS/m
+photo.329.author: leonard_redmof
+photo.329.commitdate: 2021/3/7
+photo.329.link: https://www.instagram.com/leonard_redmof/
+photo.329.tags: portrait, snow, surprise
+photo.330: ig://CK8p1hvBscf/m
+photo.330.author: leonard_redmof
+photo.330.commitdate: 2021/3/7
+photo.330.link: https://www.instagram.com/leonard_redmof/
+photo.330.tags: laying down, paws, playing, portrait, smile, snow, tail
+photo.331: ig://CL52U0dAIFv/m
+photo.331.author: cattail.sapporo
+photo.331.commitdate: 2021/3/7
+photo.331.link: https://www.instagram.com/cattail.sapporo/
+photo.331.tags: close-up, mofumofu, portrait, snow, whiskers
+photo.332: ig://CL6X6g7BmLZ/m
+photo.332.author: ho0oipo
+photo.332.commitdate: 2021/3/7
+photo.332.link: https://www.instagram.com/ho0oipo/
+photo.332.tags: mofumofu, portrait, snow, tail
+photo.333: ig://CL8iTcKgO1w/m
+photo.333.author: cattail.sapporo
+photo.333.commitdate: 2021/3/7
+photo.333.link: https://www.instagram.com/cattail.sapporo/
+photo.333.tags: paws, portrait, snow, surprise
+photo.334: ig://CL--LB-ggZM/m
+photo.334.author: cattail.sapporo
+photo.334.commitdate: 2021/3/7
+photo.334.link: https://www.instagram.com/cattail.sapporo/
+photo.334.tags: portrait, snow, tail
 species: 2
 studbook.id: 1676
 zoo: 7

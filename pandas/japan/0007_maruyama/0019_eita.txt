@@ -1225,35 +1225,41 @@ photo.244.author: pink.b22
 photo.244.commitdate: 2021/1/28
 photo.244.link: https://www.instagram.com/pink.b22/
 photo.244.tags: mofumofu, portrait, tail, whiskers
-photo.245: ig://CLT3eYfhvjw/m
-photo.245.author: izu_108
-photo.245.commitdate: 2021/2/28
-photo.245.link: https://www.instagram.com/izu_108/
-photo.245.tags: blink, home, mofumofu, snow
-photo.246: https://www.instagram.com/p/CL6XvqEgMsQ/media/?size=m
-photo.246.author: cattail.sapporo
-photo.246.link: https://www.instagram.com/cattail.sapporo/
-photo.246.tags: close-up, grooming, mofumofu, portrait, tongue
-photo.247: https://www.instagram.com/p/CL8xI_RAGot/media/?size=m
-photo.247.author: cattail.sapporo
-photo.247.link: https://www.instagram.com/cattail.sapporo/
-photo.247.tags: mofumofu, portrait, snow
-photo.248: https://www.instagram.com/p/CL_PXq0gqe7/media/?size=m
+photo.245: ig://CK0-8i0hncJ/m
+photo.245.author: nishicotolo
+photo.245.commitdate: 2021/3/7
+photo.245.link: https://www.instagram.com/nishicotolo/
+photo.245.tags: snow, whiskers
+photo.246: ig://CK3k3b8hBe9/m
+photo.246.author: nishicotolo
+photo.246.commitdate: 2021/3/7
+photo.246.link: https://www.instagram.com/nishicotolo/
+photo.246.tags: peek, snow
+photo.247: ig://CLT3eYfhvjw/m
+photo.247.author: izu_108
+photo.247.commitdate: 2021/2/28
+photo.247.link: https://www.instagram.com/izu_108/
+photo.247.tags: blink, home, mofumofu, snow
+photo.248: ig://CL6XvqEgMsQ/m
 photo.248.author: cattail.sapporo
+photo.248.commitdate: 2021/3/7
 photo.248.link: https://www.instagram.com/cattail.sapporo/
-photo.248.tags: close-up, nose, portrait
-photo.249: https://www.instagram.com/p/CL9Nud-h3WQ/media/?size=m
-photo.249.author: ho0oipo
-photo.249.link: https://www.instagram.com/ho0oipo/
-photo.249.tags: apple time, paws, standing, tail
-photo.250: https://www.instagram.com/p/CK3k3b8hBe9/media/?size=m
-photo.250.author: nishicotolo
-photo.250.link: https://www.instagram.com/nishicotolo/
-photo.250.tags: peek, snow
-photo.251: https://www.instagram.com/p/CK0-8i0hncJ/media/?size=m
-photo.251.author: nishicotolo
-photo.251.link: https://www.instagram.com/nishicotolo/
-photo.251.tags: snow, whiskers
+photo.248.tags: close-up, grooming, mofumofu, portrait, tongue
+photo.249: ig://CL8xI_RAGot/m
+photo.249.author: cattail.sapporo
+photo.249.commitdate: 2021/3/7
+photo.249.link: https://www.instagram.com/cattail.sapporo/
+photo.249.tags: mofumofu, portrait, snow
+photo.250: ig://CL9Nud-h3WQ/m
+photo.250.author: ho0oipo
+photo.250.commitdate: 2021/3/7
+photo.250.link: https://www.instagram.com/ho0oipo/
+photo.250.tags: apple time, paws, standing, tail
+photo.251: ig://CL_PXq0gqe7/m
+photo.251.author: cattail.sapporo
+photo.251.commitdate: 2021/3/7
+photo.251.link: https://www.instagram.com/cattail.sapporo/
+photo.251.tags: close-up, nose, portrait
 species: 2
 studbook.id: 10108
 zoo: 7

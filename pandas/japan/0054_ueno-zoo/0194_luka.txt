@@ -635,14 +635,16 @@ photo.124.author: eos1089
 photo.124.commitdate: 2020/12/12
 photo.124.link: https://www.instagram.com/eos1089/
 photo.124.tags: laying down, portrait, tongue, whiskers
-photo.125: https://www.instagram.com/p/CL5wzdpBp7A/media/?size=m
-photo.125.author: kisshan324
-photo.125.link: https://www.instagram.com/kisshan324/
-photo.125.tags: nose, portrait, window
-photo.126: https://www.instagram.com/p/CKlCPmtBi4_/media/?size=m
-photo.126.author: eos1089
-photo.126.link: https://www.instagram.com/eos1089/
-photo.126.tags: portrait, whiskers
+photo.125: ig://CKlCPmtBi4_/m
+photo.125.author: eos1089
+photo.125.commitdate: 2021/3/7
+photo.125.link: https://www.instagram.com/eos1089/
+photo.125.tags: portrait, whiskers
+photo.126: ig://CL5wzdpBp7A/m
+photo.126.author: kisshan324
+photo.126.commitdate: 2021/3/7
+photo.126.link: https://www.instagram.com/kisshan324/
+photo.126.tags: nose, portrait, window
 species: 2
 studbook.id: 1677
 zoo: 54

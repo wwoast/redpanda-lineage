@@ -416,38 +416,41 @@ photo.81.author: hamamatsu.chiita
 photo.81.commitdate: 2021/1/16
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: apple time, keeper, standing, tail
-photo.82: ig://CKX1L7YB4DL/m
-photo.82.author: kotume4935
-photo.82.commitdate: 2021/2/28
-photo.82.link: https://www.instagram.com/kotume4935/
-photo.82.tags: portrait, tail
-photo.83: ig://CKaOGRpBgeu/m
+photo.82: ig://CKUiItjhQKh/m
+photo.82.author: hamamatsu.chiita
+photo.82.commitdate: 2021/3/7
+photo.82.link: https://www.instagram.com/hamamatsu.chiita/
+photo.82.tags: peek
+photo.83: ig://CKX1L7YB4DL/m
 photo.83.author: kotume4935
 photo.83.commitdate: 2021/2/28
 photo.83.link: https://www.instagram.com/kotume4935/
-photo.83.tags: bamboo, paws, portrait, tongue
-photo.84: ig://CKvIQ34h0TP/m
-photo.84.author: lesserpanda_shizuokacity_cp
-photo.84.commitdate: 2021/2/16
-photo.84.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.84.tags: apple time, portrait, smile
-photo.85: ig://CLfQCVTBbkl/m
+photo.83.tags: portrait, tail
+photo.84: ig://CKaOGRpBgeu/m
+photo.84.author: kotume4935
+photo.84.commitdate: 2021/2/28
+photo.84.link: https://www.instagram.com/kotume4935/
+photo.84.tags: bamboo, paws, portrait, tongue
+photo.85: ig://CKmh17IBeFa/m
 photo.85.author: hamamatsu.chiita
-photo.85.commitdate: 2021/2/19
+photo.85.commitdate: 2021/3/7
 photo.85.link: https://www.instagram.com/hamamatsu.chiita/
-photo.85.tags: portrait, whiskers
-photo.86: https://www.instagram.com/p/CL55MlOhVjX/media/?size=m
-photo.86.author: miis_98
-photo.86.link: https://www.instagram.com/miis_98/
-photo.86.tags: grooming, paws, portrait, standing
-photo.87: https://www.instagram.com/p/CKmh17IBeFa/media/?size=m
+photo.85.tags: mofumofu, peek
+photo.86: ig://CKvIQ34h0TP/m
+photo.86.author: lesserpanda_shizuokacity_cp
+photo.86.commitdate: 2021/2/16
+photo.86.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.86.tags: apple time, portrait, smile
+photo.87: ig://CLfQCVTBbkl/m
 photo.87.author: hamamatsu.chiita
+photo.87.commitdate: 2021/2/19
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
-photo.87.tags: mofumofu, peek
-photo.88: https://www.instagram.com/p/CKUiItjhQKh/media/?size=m
-photo.88.author: hamamatsu.chiita
-photo.88.link: https://www.instagram.com/hamamatsu.chiita/
-photo.88.tags: peek
+photo.87.tags: portrait, whiskers
+photo.88: ig://CL55MlOhVjX/m
+photo.88.author: miis_98
+photo.88.commitdate: 2021/3/7
+photo.88.link: https://www.instagram.com/miis_98/
+photo.88.tags: grooming, paws, portrait, standing
 species: 2
 studbook.id: unknown
 zoo: 16
