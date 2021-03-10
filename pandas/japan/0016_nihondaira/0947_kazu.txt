@@ -163,8 +163,9 @@ photo.30.author: hamamatsu.chiita
 photo.30.commitdate: 2021/2/15
 photo.30.link: https://www.instagram.com/hamamatsu.chiita/
 photo.30.tags: close-up, portrait
-photo.31: https://www.instagram.com/p/CLYG-Ibhti7/media/?size=m
+photo.31: ig://CLYG-Ibhti7/m
 photo.31.author: merumeru119
+photo.31.commitdate: 2021/3/10
 photo.31.link: https://www.instagram.com/merumeru119/
 photo.31.tags: close-up, window
 species: 2

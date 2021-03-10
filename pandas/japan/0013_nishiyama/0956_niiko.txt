@@ -313,8 +313,9 @@ photo.60.author: akiakiakiko18
 photo.60.commitdate: 2021/1/2
 photo.60.link: https://www.instagram.com/akiakiakiko18/
 photo.60.tags: close-up, portrait, smile, whiskers
-photo.61: https://www.instagram.com/p/CLWbOv-hvvJ/media/?size=m
+photo.61: ig://CLWbOv-hvvJ/m
 photo.61.author: jas_forever_love
+photo.61.commitdate: 2021/3/10
 photo.61.link: https://www.instagram.com/jas_forever_love/
 photo.61.tags: mofumofu, paws, snow
 species: 2

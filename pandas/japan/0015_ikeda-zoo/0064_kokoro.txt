@@ -182,18 +182,20 @@ photo.34.author: itsuak
 photo.34.commitdate: 2021/1/28
 photo.34.link: https://www.instagram.com/itsuak/
 photo.34.tags: peek, whiskers
-photo.35: ig://CK6t5ZbBJOZ/m
+photo.35: ig://CK1dotMhGD3/m
 photo.35.author: itsuak
-photo.35.commitdate: 2021/3/7
+photo.35.commitdate: 2021/3/10
 photo.35.link: https://www.instagram.com/itsuak/
-photo.35.tags: bamboo, paws, portrait, smile, upside-down, whiskers
-photo.36: https://www.instagram.com/p/CK1dotMhGD3/media/?size=m
+photo.35.tags: peek, portrait, whiskers
+photo.36: ig://CK36O2AhJda/m
 photo.36.author: itsuak
+photo.36.commitdate: 2021/3/10
 photo.36.link: https://www.instagram.com/itsuak/
-photo.36.tags: peek, portrait, whiskers
-photo.37: https://www.instagram.com/p/CK36O2AhJda/media/?size=m
+photo.36.tags: bamboo, paws, portrait
+photo.37: ig://CK6t5ZbBJOZ/m
 photo.37.author: itsuak
+photo.37.commitdate: 2021/3/7
 photo.37.link: https://www.instagram.com/itsuak/
-photo.37.tags: bamboo, paws, portrait
+photo.37.tags: bamboo, paws, portrait, smile, upside-down, whiskers
 species: 2
 zoo: 15

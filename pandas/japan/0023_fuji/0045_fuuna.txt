@@ -277,8 +277,9 @@ photo.53.author: craig_craig_craig
 photo.53.commitdate: 2020/11/1
 photo.53.link: https://www.instagram.com/craig_craig_craig/
 photo.53.tags: peek, whiskers
-photo.54: https://www.instagram.com/p/CKyjxFXB5wJ/media/?size=m
+photo.54: ig://CKyjxFXB5wJ/m
 photo.54.author: fetorus_mami
+photo.54.commitdate: 2021/3/10
 photo.54.link: https://www.instagram.com/fetorus_mami/
 photo.54.tags: grooming, laying down, paws, tail, upside-down
 species: 2

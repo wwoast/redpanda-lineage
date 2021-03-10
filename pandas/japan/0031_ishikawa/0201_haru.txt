@@ -215,8 +215,9 @@ photo.40.author: hamamatsu.chiita
 photo.40.commitdate: 2021/1/30
 photo.40.link: https://www.instagram.com/hamamatsu.chiita/
 photo.40.tags: portrait, whiskers
-photo.41: https://www.instagram.com/p/CK1EuB3hEWR/media/?size=m
+photo.41: ig://CK1EuB3hEWR/m
 photo.41.author: bee_san.13
+photo.41.commitdate: 2021/3/10
 photo.41.link: https://www.instagram.com/bee_san.13/
 photo.41.tags: peek, portrait, whiskers
 species: 2
