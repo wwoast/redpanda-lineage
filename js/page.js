@@ -305,8 +305,8 @@ Page.home.render = function() {
     // new_content.appendChild(memorial);
     // Special galleries
     // var special = Gallery.special.taglist(L.display, 3, ["dig"], Message.shovel_pandas);
-    // var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
-    // new_content.appendChild(special);
+    var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
+    new_content.appendChild(special);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
