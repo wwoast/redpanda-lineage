@@ -85,8 +85,9 @@ photo.14.author: sacramentozoo
 photo.14.commitdate: 2020/10/26
 photo.14.link: https://www.instagram.com/sacramentozoo/
 photo.14.tags: mofumofu, white face
-photo.15: https://www.instagram.com/p/CHQ0AyOnkwJ/media/?size=m
+photo.15: ig://CHQ0AyOnkwJ/m
 photo.15.author: sacramentozoo
+photo.15.commitdate: 2021/3/18
 photo.15.link: https://www.instagram.com/sacramentozoo/
 photo.15.tags: whiskers
 species: 1

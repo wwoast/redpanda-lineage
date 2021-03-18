@@ -390,8 +390,9 @@ photo.76.author: hamamatsu.chiita
 photo.76.commitdate: 2020/12/28
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: portrait, whiskers
-photo.77: https://www.instagram.com/p/CLh1P5VBNLf/media/?size=m
+photo.77: ig://CLh1P5VBNLf/m
 photo.77.author: hamamatsu.chiita
+photo.77.commitdate: 2021/3/18
 photo.77.link: https://www.instagram.com/hamamatsu.chiita/
 photo.77.tags: close-up, nose, whiskers
 species: 2

@@ -146,8 +146,9 @@ photo.27.author: mybrotherisdylan
 photo.27.commitdate: 2021/1/13
 photo.27.link: https://www.instagram.com/mybrotherisdylan/
 photo.27.tags: dish, tail
-photo.28: https://www.instagram.com/p/CKtDYLqhZVw/media/?size=m
+photo.28: ig://CKtDYLqhZVw/m
 photo.28.author: bananawani_official
+photo.28.commitdate: 2021/3/18
 photo.28.link: https://www.instagram.com/bananawani_official/
 photo.28.tags: paws, portrait, whiskers
 species: 1

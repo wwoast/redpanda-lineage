@@ -15,125 +15,126 @@ language.order: jp, en
 litter: 40
 location.1: 8, 2015/6/28
 location.2: 25, 2018/1/29
-photo.1: ig://BCWSj4YQZy9/m
-photo.1.author: rio_minron
-photo.1.commitdate: 2018/8/12
-photo.1.link: https://www.instagram.com/rio_minron/
-photo.1.tags: bamboo
-photo.2: ig://BZimu02l4iK/m
-photo.2.author: hanamaru_redpanda
-photo.2.commitdate: 2020/3/12
-photo.2.link: https://www.instagram.com/hanamaru_redpanda/
-photo.2.tags: air tasting, home, portrait, tongue
-photo.3: ig://BaKoQIWloST/m
-photo.3.author: tabechum
-photo.3.commitdate: 2020/9/25
-photo.3.link: https://www.instagram.com/tabechum/
-photo.3.tags: apple time, bite, keeper, smile
-photo.4: ig://BcHkg4HhKv5/m
-photo.4.author: 218_yu
-photo.4.commitdate: 2018/7/22
-photo.4.link: https://www.instagram.com/218_yu/
-photo.4.tags: grooming
-photo.5: ig://BdSY9MvlJRD/m
-photo.5.author: hanamaru_redpanda
-photo.5.commitdate: 2020/3/12
-photo.5.link: https://www.instagram.com/hanamaru_redpanda/
-photo.5.tags: bamboo, paws, portrait, standing
-photo.6: ig://BhQ-bRWlgmH/m
+photo.1: ig://BB_ZdRZPi6W/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2021/3/18
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: baby, mofumofu, portrait
+photo.2: ig://BCWSj4YQZy9/m
+photo.2.author: rio_minron
+photo.2.commitdate: 2018/8/12
+photo.2.link: https://www.instagram.com/rio_minron/
+photo.2.tags: bamboo
+photo.3: ig://BZimu02l4iK/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2020/3/12
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: air tasting, home, portrait, tongue
+photo.4: ig://BaKoQIWloST/m
+photo.4.author: tabechum
+photo.4.commitdate: 2020/9/25
+photo.4.link: https://www.instagram.com/tabechum/
+photo.4.tags: apple time, bite, keeper, smile
+photo.5: ig://BcHkg4HhKv5/m
+photo.5.author: 218_yu
+photo.5.commitdate: 2018/7/22
+photo.5.link: https://www.instagram.com/218_yu/
+photo.5.tags: grooming
+photo.6: ig://BdSY9MvlJRD/m
 photo.6.author: hanamaru_redpanda
-photo.6.commitdate: 2018/7/22
+photo.6.commitdate: 2020/3/12
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.7: ig://BiVP23_HCgk/m
-photo.7.author: rie_panda55
+photo.6.tags: bamboo, paws, portrait, standing
+photo.7: ig://BhQ-bRWlgmH/m
+photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/7/22
-photo.7.link: https://www.instagram.com/rie_panda55/
-photo.7.tags: tree
-photo.8: ig://BinpnuPgYI6/m
-photo.8.author: jwg13777
-photo.8.commitdate: 2018/8/12
-photo.8.link: https://www.instagram.com/jwg13777/
-photo.8.tags: baby, tree
-photo.9: ig://BoFu-B8lGeH/m
-photo.9.author: craig_craig_craig
-photo.9.commitdate: 2018/9/24
-photo.9.link: https://www.instagram.com/craig_craig_craig/
-photo.10: ig://BoKmcy_liiX/m
+photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.8: ig://BiVP23_HCgk/m
+photo.8.author: rie_panda55
+photo.8.commitdate: 2018/7/22
+photo.8.link: https://www.instagram.com/rie_panda55/
+photo.8.tags: tree
+photo.9: ig://BinpnuPgYI6/m
+photo.9.author: jwg13777
+photo.9.commitdate: 2018/8/12
+photo.9.link: https://www.instagram.com/jwg13777/
+photo.9.tags: baby, tree
+photo.10: ig://BoFu-B8lGeH/m
 photo.10.author: craig_craig_craig
-photo.10.commitdate: 2018/9/27
+photo.10.commitdate: 2018/9/24
 photo.10.link: https://www.instagram.com/craig_craig_craig/
-photo.11: ig://BoN_J85F_rO/m
+photo.11: ig://BoKmcy_liiX/m
 photo.11.author: craig_craig_craig
-photo.11.commitdate: 2018/9/30
+photo.11.commitdate: 2018/9/27
 photo.11.link: https://www.instagram.com/craig_craig_craig/
-photo.11.tags: tail, tongue
-photo.12: ig://BokjA--FmQj/m
-photo.12.author: tabechum
-photo.12.commitdate: 2018/10/6
-photo.12.link: https://www.instagram.com/tabechum/
-photo.13: ig://BoomxeblsQJ/m
-photo.13.author: craig_craig_craig
-photo.13.commitdate: 2018/10/9
-photo.13.link: https://www.instagram.com/craig_craig_craig/
-photo.13.tags: portrait, profile
-photo.14: ig://Bv_vZJJlDNa/m
-photo.14.author: rie_panda55
-photo.14.commitdate: 2019/4/8
-photo.14.link: https://www.instagram.com/rie_panda55/
-photo.15: ig://BzXw2XhBXBW/m
-photo.15.author: miis_98
-photo.15.commitdate: 2019/7/2
-photo.15.link: https://www.instagram.com/miis_98/
-photo.15.tags: portrait
-photo.16: ig://B22cX20h1O3/m
-photo.16.author: craig_craig_craig
-photo.16.commitdate: 2019/10/8
-photo.16.link: https://www.instagram.com/craig_craig_craig/
-photo.16.tags: itchy, portrait, smile, tongue
-photo.17: ig://B5PFjfLhvKQ/m
-photo.17.author: takahisakaneuchi
-photo.17.commitdate: 2019/11/24
-photo.17.link: https://www.instagram.com/takahisakaneuchi/
-photo.17.tags: paws, portrait
-photo.18: ig://B65SqsXgrVr/m
+photo.12: ig://BoN_J85F_rO/m
+photo.12.author: craig_craig_craig
+photo.12.commitdate: 2018/9/30
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: tail, tongue
+photo.13: ig://BokjA--FmQj/m
+photo.13.author: tabechum
+photo.13.commitdate: 2018/10/6
+photo.13.link: https://www.instagram.com/tabechum/
+photo.14: ig://BoomxeblsQJ/m
+photo.14.author: craig_craig_craig
+photo.14.commitdate: 2018/10/9
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: portrait, profile
+photo.15: ig://Bv_vZJJlDNa/m
+photo.15.author: rie_panda55
+photo.15.commitdate: 2019/4/8
+photo.15.link: https://www.instagram.com/rie_panda55/
+photo.16: ig://BzXw2XhBXBW/m
+photo.16.author: miis_98
+photo.16.commitdate: 2019/7/2
+photo.16.link: https://www.instagram.com/miis_98/
+photo.16.tags: portrait
+photo.17: ig://B22cX20h1O3/m
+photo.17.author: craig_craig_craig
+photo.17.commitdate: 2019/10/8
+photo.17.link: https://www.instagram.com/craig_craig_craig/
+photo.17.tags: itchy, portrait, smile, tongue
+photo.18: ig://B5PFjfLhvKQ/m
 photo.18.author: takahisakaneuchi
-photo.18.commitdate: 2020/1/11
+photo.18.commitdate: 2019/11/24
 photo.18.link: https://www.instagram.com/takahisakaneuchi/
-photo.18.tags: laying down, paws, portrait, tongue
-photo.19: ig://B7NZp-Vhq_e/m
-photo.19.author: ssc6105
-photo.19.commitdate: 2020/1/24
-photo.19.link: https://www.instagram.com/ssc6105/
-photo.19.tags: paws, spider
-photo.20: ig://B9bhgn5BLvS/m
+photo.18.tags: paws, portrait
+photo.19: ig://B65SqsXgrVr/m
+photo.19.author: takahisakaneuchi
+photo.19.commitdate: 2020/1/11
+photo.19.link: https://www.instagram.com/takahisakaneuchi/
+photo.19.tags: laying down, paws, portrait, tongue
+photo.20: ig://B7NZp-Vhq_e/m
 photo.20.author: ssc6105
-photo.20.commitdate: 2020/3/8
+photo.20.commitdate: 2020/1/24
 photo.20.link: https://www.instagram.com/ssc6105/
-photo.20.tags: paws, peek
-photo.21: ig://B_tFTBGBGxG/m
-photo.21.author: eos1089
-photo.21.commitdate: 2020/6/7
-photo.21.link: https://www.instagram.com/eos1089/
-photo.21.tags: peek, portrait, tongue
-photo.22: ig://CFZXfW4BIYP/m
-photo.22.author: takahisakaneuchi
-photo.22.commitdate: 2020/9/21
-photo.22.link: https://www.instagram.com/takahisakaneuchi/
-photo.22.tags: apple time, paws, portrait, spider, tail
-photo.23: ig://CFzchr6BW_r/m
-photo.23.author: kisshan324
-photo.23.commitdate: 2020/11/19
-photo.23.link: https://www.instagram.com/kisshan324/
-photo.23.tags: paws, peek, spider
-photo.24: ig://CH73hgJhY4x/m
-photo.24.author: takahisakaneuchi
-photo.24.commitdate: 2020/12/2
-photo.24.link: https://www.instagram.com/takahisakaneuchi/
-photo.24.tags: keeper, peek, portrait, techitechi
-photo.25: https://www.instagram.com/p/BB_ZdRZPi6W/media/?size=m
-photo.25.author: panda.daisuki
-photo.25.link: https://www.instagram.com/panda.daisuki/
-photo.25.tags: baby, mofumofu, portrait
+photo.20.tags: paws, spider
+photo.21: ig://B9bhgn5BLvS/m
+photo.21.author: ssc6105
+photo.21.commitdate: 2020/3/8
+photo.21.link: https://www.instagram.com/ssc6105/
+photo.21.tags: paws, peek
+photo.22: ig://B_tFTBGBGxG/m
+photo.22.author: eos1089
+photo.22.commitdate: 2020/6/7
+photo.22.link: https://www.instagram.com/eos1089/
+photo.22.tags: peek, portrait, tongue
+photo.23: ig://CFZXfW4BIYP/m
+photo.23.author: takahisakaneuchi
+photo.23.commitdate: 2020/9/21
+photo.23.link: https://www.instagram.com/takahisakaneuchi/
+photo.23.tags: apple time, paws, portrait, spider, tail
+photo.24: ig://CFzchr6BW_r/m
+photo.24.author: kisshan324
+photo.24.commitdate: 2020/11/19
+photo.24.link: https://www.instagram.com/kisshan324/
+photo.24.tags: paws, peek, spider
+photo.25: ig://CH73hgJhY4x/m
+photo.25.author: takahisakaneuchi
+photo.25.commitdate: 2020/12/2
+photo.25.link: https://www.instagram.com/takahisakaneuchi/
+photo.25.tags: keeper, peek, portrait, techitechi
 species: 2
 studbook.id: 15142
 zoo: 25

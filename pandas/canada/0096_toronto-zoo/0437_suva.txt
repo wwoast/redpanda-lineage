@@ -60,8 +60,9 @@ photo.9.author: thetorontozoo
 photo.9.commitdate: 2020/12/3
 photo.9.link: https://www.instagram.com/thetorontozoo/
 photo.9.tags: paws, smile, whiskers
-photo.10: https://www.instagram.com/p/CLhF0UAh_PP/media/?size=m
+photo.10: ig://CLhF0UAh_PP/m
 photo.10.author: thetorontozoo
+photo.10.commitdate: 2021/3/18
 photo.10.link: https://www.instagram.com/thetorontozoo/
 photo.10.tags: nose, paws, peek, whiskers
 species: 2

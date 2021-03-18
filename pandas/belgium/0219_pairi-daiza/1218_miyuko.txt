@@ -21,8 +21,9 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, door, portrait, profile
-photo.2: https://www.instagram.com/p/CLhAV7MAc1E/media/?size=m
+photo.2: ig://CLhAV7MAc1E/m
 photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/3/18
 photo.2.link: https://www.instagram.com/nathalie.elliott/
 photo.2.tags: baby, home, portrait, whiskers
 species: 1

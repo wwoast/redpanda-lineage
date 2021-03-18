@@ -35,15 +35,16 @@ photo.4.author: ohmygoat1
 photo.4.commitdate: 2020/3/29
 photo.4.link: https://www.instagram.com/ohmygoat1/
 photo.4.tags: paws, tree, whiskers
-photo.5: ig://CJh1RqeAXIK/m
-photo.5.author: ohmygoat1
-photo.5.commitdate: 2021/1/8
-photo.5.link: https://www.instagram.com/ohmygoat1/
-photo.5.tags: mofumofu, tail, white face
-photo.6: https://www.instagram.com/p/CHGducwFJme/media/?size=m
-photo.6.author: sacramentozoo
-photo.6.link: https://www.instagram.com/sacramentozoo/
-photo.6.tags: bridge, laying down, paws
+photo.5: ig://CHGducwFJme/m
+photo.5.author: sacramentozoo
+photo.5.commitdate: 2021/3/18
+photo.5.link: https://www.instagram.com/sacramentozoo/
+photo.5.tags: bridge, laying down, paws
+photo.6: ig://CJh1RqeAXIK/m
+photo.6.author: ohmygoat1
+photo.6.commitdate: 2021/1/8
+photo.6.link: https://www.instagram.com/ohmygoat1/
+photo.6.tags: mofumofu, tail, white face
 species: 1
 studbook.id: 1120
 zoo: 133
