@@ -309,47 +309,51 @@ photo.59.author: tomo3700
 photo.59.commitdate: 2020/11/11
 photo.59.link: https://www.instagram.com/tomo3700/
 photo.59.tags: paws, portrait, wave
-photo.60: ig://CHvVB7tHcHS/m
-photo.60.author: bubbles_octi
-photo.60.commitdate: 2020/11/21
-photo.60.link: https://www.instagram.com/bubbles_octi/
-photo.60.tags: portrait, tree, white face
-photo.61: ig://CIVdgFShA5q/m
-photo.61.author: craig_craig_craig
-photo.61.commitdate: 2020/12/20
-photo.61.link: https://www.instagram.com/craig_craig_craig/
-photo.61.tags: bamboo, portrait, videolink
-photo.62: ig://CIlFn8phOMg/m
-photo.62.author: miis_98
+photo.60: ig://CHfRFYWha2y/m
+photo.60.author: _saaaaaaah_
+photo.60.commitdate: 2021/3/21
+photo.60.link: https://www.instagram.com/_saaaaaaah_/
+photo.60.tags: peek, techitechi
+photo.61: ig://CHvVB7tHcHS/m
+photo.61.author: bubbles_octi
+photo.61.commitdate: 2020/11/21
+photo.61.link: https://www.instagram.com/bubbles_octi/
+photo.61.tags: portrait, tree, white face
+photo.62: ig://CIVdgFShA5q/m
+photo.62.author: craig_craig_craig
 photo.62.commitdate: 2020/12/20
-photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: bamboo, portrait, smile
-photo.63: ig://CJovkUKBKx-/m
-photo.63.author: hamamatsu.chiita
-photo.63.commitdate: 2021/1/19
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: bamboo, portrait, white face
-photo.64: ig://CKCelZpBSBW/m
-photo.64.author: hamamatsu.chiita
-photo.64.commitdate: 2021/1/16
-photo.64.link: https://www.instagram.com/hamamatsu.chiita/
-photo.64.tags: portrait, wet, white face
-photo.65: https://www.instagram.com/p/CJWypIeBRbN/media/?size=m
+photo.62.link: https://www.instagram.com/craig_craig_craig/
+photo.62.tags: bamboo, portrait, videolink
+photo.63: ig://CIlFn8phOMg/m
+photo.63.author: miis_98
+photo.63.commitdate: 2020/12/20
+photo.63.link: https://www.instagram.com/miis_98/
+photo.63.tags: bamboo, portrait, smile
+photo.64: ig://CImGY7lBpfN/m
+photo.64.author: rie_panda55
+photo.64.commitdate: 2021/3/21
+photo.64.link: https://www.instagram.com/rie_panda55/
+photo.64.tags: laying down, portrait, tree, white face
+photo.65: ig://CJWypIeBRbN/m
 photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2021/3/21
 photo.65.link: https://www.instagram.com/hamamatsu.chiita/
 photo.65.tags: portrait
-photo.66: https://www.instagram.com/p/CKYrICDh7uZ/media/?size=m
-photo.66.author: jas_forever_love
-photo.66.link: https://www.instagram.com/jas_forever_love/
-photo.66.tags: portrait, wet
-photo.67: https://www.instagram.com/p/CImGY7lBpfN/media/?size=m
-photo.67.author: rie_panda55
-photo.67.link: https://www.instagram.com/rie_panda55/
-photo.67.tags: laying down, portrait, tree, white face
-photo.68: https://www.instagram.com/p/CHfRFYWha2y/media/?size=m
-photo.68.author: _saaaaaaah_
-photo.68.link: https://www.instagram.com/_saaaaaaah_/
-photo.68.tags: peek, techitechi
+photo.66: ig://CJovkUKBKx-/m
+photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2021/1/19
+photo.66.link: https://www.instagram.com/hamamatsu.chiita/
+photo.66.tags: bamboo, portrait, white face
+photo.67: ig://CKCelZpBSBW/m
+photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2021/1/16
+photo.67.link: https://www.instagram.com/hamamatsu.chiita/
+photo.67.tags: portrait, wet, white face
+photo.68: ig://CKYrICDh7uZ/m
+photo.68.author: jas_forever_love
+photo.68.commitdate: 2021/3/21
+photo.68.link: https://www.instagram.com/jas_forever_love/
+photo.68.tags: portrait, wet
 species: 2
 studbook.id: 1684
 zoo: 13

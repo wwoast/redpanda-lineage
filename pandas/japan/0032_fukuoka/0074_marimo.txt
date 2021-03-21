@@ -494,14 +494,16 @@ photo.97.author: yossi929
 photo.97.commitdate: 2021/2/16
 photo.97.link: https://www.instagram.com/yossi929/
 photo.97.tags: bamboo, paws, smile
-photo.98: https://www.instagram.com/p/CLsTpgJh0wq/media/?size=m
-photo.98.author: yossi929
-photo.98.link: https://www.instagram.com/yossi929/
-photo.98.tags: peek, whiskers
-photo.99: https://www.instagram.com/p/CLlMOPAhm3S/media/?size=m
-photo.99.author: re_ichimaru
-photo.99.link: https://www.instagram.com/re_ichimaru/
-photo.99.tags: bamboo, mofumofu, paws, portrait, smile
+photo.98: ig://CLlMOPAhm3S/m
+photo.98.author: re_ichimaru
+photo.98.commitdate: 2021/3/21
+photo.98.link: https://www.instagram.com/re_ichimaru/
+photo.98.tags: bamboo, mofumofu, paws, portrait, smile
+photo.99: ig://CLsTpgJh0wq/m
+photo.99.author: yossi929
+photo.99.commitdate: 2021/3/21
+photo.99.link: https://www.instagram.com/yossi929/
+photo.99.tags: peek, whiskers
 species: 2
 studbook.id: 0862
 zoo: 32

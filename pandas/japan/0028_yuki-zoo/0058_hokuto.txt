@@ -759,20 +759,21 @@ photo.150.author: eos1089
 photo.150.commitdate: 2021/2/28
 photo.150.link: https://www.instagram.com/eos1089/
 photo.150.tags: portrait, smile, whiskers
-photo.151: ig://CLrXCG9BMx9/m
-photo.151.author: mini_cochi
+photo.151: ig://CLon8H7hdK0/m
+photo.151.author: fetorus_mami
 photo.151.commitdate: 2021/3/21
-photo.151.link: https://www.instagram.com/mini_cochi/
-photo.151.tags: peek, portrait
-photo.152: ig://CL7j2TSA9nA/m
-photo.152.author: cattail.sapporo
-photo.152.commitdate: 2021/3/7
-photo.152.link: https://www.instagram.com/cattail.sapporo/
+photo.151.link: https://www.instagram.com/fetorus_mami/
+photo.151.tags: portrait, smile, tree, whiskers
+photo.152: ig://CLrXCG9BMx9/m
+photo.152.author: mini_cochi
+photo.152.commitdate: 2021/3/21
+photo.152.link: https://www.instagram.com/mini_cochi/
 photo.152.tags: peek, portrait
-photo.153: https://www.instagram.com/p/CLon8H7hdK0/media/?size=m
-photo.153.author: fetorus_mami
-photo.153.link: https://www.instagram.com/fetorus_mami/
-photo.153.tags: portrait, smile, tree, whiskers
+photo.153: ig://CL7j2TSA9nA/m
+photo.153.author: cattail.sapporo
+photo.153.commitdate: 2021/3/7
+photo.153.link: https://www.instagram.com/cattail.sapporo/
+photo.153.tags: peek, portrait
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

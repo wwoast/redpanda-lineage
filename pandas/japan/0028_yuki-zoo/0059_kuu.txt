@@ -425,28 +425,31 @@ photo.82.author: pink.b22
 photo.82.commitdate: 2021/3/21
 photo.82.link: https://www.instagram.com/pink.b22/
 photo.82.tags: mofumofu, portrait, tail
-photo.83: ig://CLrMhChBNiO/m
-photo.83.author: pink.b22
+photo.83: ig://CLobhDkhD6J/m
+photo.83.author: minatomirai215
 photo.83.commitdate: 2021/3/21
-photo.83.link: https://www.instagram.com/pink.b22/
-photo.83.tags: laying down, paws, portrait, sleeping, tail
-photo.84: ig://CLtuffJB18k/m
-photo.84.author: resapan.suki
+photo.83.link: https://www.instagram.com/minatomirai215/
+photo.83.tags: portrait, whiskers
+photo.84: ig://CLocQsIBmIH/m
+photo.84.author: craig_craig_craig
 photo.84.commitdate: 2021/3/21
-photo.84.link: https://www.instagram.com/resapan.suki/
-photo.84.tags: close-up, portrait
-photo.85: https://www.instagram.com/p/CLobhDkhD6J/media/?size=m
-photo.85.author: minatomirai215
-photo.85.link: https://www.instagram.com/minatomirai215/
-photo.85.tags: portrait, whiskers
-photo.86: https://www.instagram.com/p/CLocQsIBmIH/media/?size=m
-photo.86.author: craig_craig_craig
-photo.86.link: https://www.instagram.com/craig_craig_craig/
-photo.86.tags: blink, paws, portrait
-photo.87: https://www.instagram.com/p/CLom-7DBW6n/media/?size=m
-photo.87.author: fetorus_mami
-photo.87.link: https://www.instagram.com/fetorus_mami/
-photo.87.tags: close-up, laying down, sleeping
+photo.84.link: https://www.instagram.com/craig_craig_craig/
+photo.84.tags: blink, paws, portrait
+photo.85: ig://CLom-7DBW6n/m
+photo.85.author: fetorus_mami
+photo.85.commitdate: 2021/3/21
+photo.85.link: https://www.instagram.com/fetorus_mami/
+photo.85.tags: close-up, laying down, sleeping
+photo.86: ig://CLrMhChBNiO/m
+photo.86.author: pink.b22
+photo.86.commitdate: 2021/3/21
+photo.86.link: https://www.instagram.com/pink.b22/
+photo.86.tags: laying down, paws, portrait, sleeping, tail
+photo.87: ig://CLtuffJB18k/m
+photo.87.author: resapan.suki
+photo.87.commitdate: 2021/3/21
+photo.87.link: https://www.instagram.com/resapan.suki/
+photo.87.tags: close-up, portrait
 species: 2
 studbook.id: 0865
 zoo: 28

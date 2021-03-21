@@ -278,15 +278,16 @@ photo.53.author: hamamatsu.chiita
 photo.53.commitdate: 2021/1/30
 photo.53.link: https://www.instagram.com/hamamatsu.chiita/
 photo.53.tags: baby, portrait, smile
-photo.54: ig://CL7gRCJBw9O/m
-photo.54.author: hamamatsu.chiita
-photo.54.commitdate: 2021/3/7
-photo.54.link: https://www.instagram.com/hamamatsu.chiita/
-photo.54.tags: mofumofu, portrait, tree
-photo.55: https://www.instagram.com/p/CLtpclRB-RG/media/?size=m
-photo.55.author: jas_forever_love
-photo.55.link: https://www.instagram.com/jas_forever_love/
-photo.55.tags: mofumofu, paws, peek, portrait
+photo.54: ig://CLtpclRB-RG/m
+photo.54.author: jas_forever_love
+photo.54.commitdate: 2021/3/21
+photo.54.link: https://www.instagram.com/jas_forever_love/
+photo.54.tags: mofumofu, paws, peek, portrait
+photo.55: ig://CL7gRCJBw9O/m
+photo.55.author: hamamatsu.chiita
+photo.55.commitdate: 2021/3/7
+photo.55.link: https://www.instagram.com/hamamatsu.chiita/
+photo.55.tags: mofumofu, portrait, tree
 species: 2
 studbook.id: unknown
 zoo: 13
