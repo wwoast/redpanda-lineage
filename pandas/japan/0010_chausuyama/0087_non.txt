@@ -285,8 +285,9 @@ photo.55.author: hamiiiii831_
 photo.55.commitdate: 2021/3/10
 photo.55.link: https://www.instagram.com/hamiiiii831_/
 photo.55.tags: portrait, videolink, white face
-photo.56: https://www.instagram.com/p/CLomTOsBAdP/media/?size=m
+photo.56: ig://CLomTOsBAdP/m
 photo.56.author: redpan22
+photo.56.commitdate: 2021/3/21
 photo.56.link: https://www.instagram.com/redpan22/
 photo.56.tags: bridge, close-up, nose, portrait
 species: 2

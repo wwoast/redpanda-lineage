@@ -38,8 +38,9 @@ photo.5.author: wumpwoast
 photo.5.commitdate: 2020/8/9
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.5.tags: paws, portrait, whiskers
-photo.6: https://www.instagram.com/p/CLsHtd7hy8s/media/?size=m
+photo.6: ig://CLsHtd7hy8s/m
 photo.6.author: wumpwoast
+photo.6.commitdate: 2021/3/21
 photo.6.link: https://www.instagram.com/wumpwoast/
 photo.6.tags: portrait
 species: 1

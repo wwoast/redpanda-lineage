@@ -759,14 +759,15 @@ photo.150.author: eos1089
 photo.150.commitdate: 2021/2/28
 photo.150.link: https://www.instagram.com/eos1089/
 photo.150.tags: portrait, smile, whiskers
-photo.151: ig://CL7j2TSA9nA/m
-photo.151.author: cattail.sapporo
-photo.151.commitdate: 2021/3/7
-photo.151.link: https://www.instagram.com/cattail.sapporo/
+photo.151: ig://CLrXCG9BMx9/m
+photo.151.author: mini_cochi
+photo.151.commitdate: 2021/3/21
+photo.151.link: https://www.instagram.com/mini_cochi/
 photo.151.tags: peek, portrait
-photo.152: https://www.instagram.com/p/CLrXCG9BMx9/media/?size=m
-photo.152.author: mini_cochi
-photo.152.link: https://www.instagram.com/mini_cochi/
+photo.152: ig://CL7j2TSA9nA/m
+photo.152.author: cattail.sapporo
+photo.152.commitdate: 2021/3/7
+photo.152.link: https://www.instagram.com/cattail.sapporo/
 photo.152.tags: peek, portrait
 species: 2
 studbook.id: 14161

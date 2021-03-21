@@ -332,8 +332,9 @@ photo.64.author: redpan22
 photo.64.commitdate: 2021/2/19
 photo.64.link: https://www.instagram.com/redpan22/
 photo.64.tags: bamboo, bite, close-up, portrait, snow
-photo.65: https://www.instagram.com/p/CLq-nRRB4ys/media/?size=m
+photo.65: ig://CLq-nRRB4ys/m
 photo.65.author: shigeko0531
+photo.65.commitdate: 2021/3/21
 photo.65.link: https://www.instagram.com/shigeko0531/
 photo.65.tags: close-up, peek, portrait
 species: 2

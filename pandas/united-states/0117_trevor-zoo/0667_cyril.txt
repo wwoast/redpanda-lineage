@@ -58,8 +58,9 @@ photo.8.author: trevorzoomillbrook
 photo.8.commitdate: 2020/10/11
 photo.8.link: https://www.instagram.com/trevorzoomillbrook/
 photo.8.tags: autumn, portrait, smile, tail
-photo.9: https://www.instagram.com/p/CLsBmDoHwYN/media/?size=m
+photo.9: ig://CLsBmDoHwYN/m
 photo.9.author: trevorzoomillbrook
+photo.9.commitdate: 2021/3/21
 photo.9.link: https://www.instagram.com/trevorzoomillbrook/
 photo.9.tags: portrait, whiskers
 species: 1
