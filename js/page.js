@@ -304,9 +304,8 @@ Page.home.render = function() {
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
     // Special galleries
-    // var special = Gallery.special.taglist(L.display, 3, ["dig"], Message.shovel_pandas);
-    var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
-    new_content.appendChild(special);
+    var tag_galleries = Page.home.special_galleries();
+    new_content.appendChild(tag_galleries);
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
@@ -328,6 +327,28 @@ Page.home.render = function() {
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
   window.scrollTo(0, 0);   // Scroll to the top of the page
+}
+
+Page.home.special_galleries = function() {
+  var special_galleries = [
+    {
+      "message": Message.lunch_time,
+      "photo_count": 3,
+      "taglist": ["bamboo", "bite", "portrait"],
+    },
+    {
+      "message": Message.shovel_pandas,
+      "photo_count": 3,
+      "taglist": ["dig"]
+    }
+  ];
+  var choice = Query.env.paging.seed % special_galleries.length;
+  var special = Gallery.special.taglist(
+    L.display, 
+    special_galleries[choice].photo_count,
+    special_galleries[choice].taglist,
+    special_galleries[choice].message);
+  return special;
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search
