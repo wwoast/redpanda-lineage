@@ -415,12 +415,14 @@ photo.80.author: mini_cochi
 photo.80.commitdate: 2021/3/18
 photo.80.link: https://www.instagram.com/mini_cochi/
 photo.80.tags: portrait
-photo.81: https://www.instagram.com/p/CLjQq38hsf2/media/?size=m
+photo.81: ig://CLjQq38hsf2/m
 photo.81.author: daniele.tokyo
+photo.81.commitdate: 2021/3/21
 photo.81.link: https://www.instagram.com/daniele.tokyo/
 photo.81.tags: dish, nose, whiskers
-photo.82: https://www.instagram.com/p/CLl2QRfhDXI/media/?size=m
+photo.82: ig://CLl2QRfhDXI/m
 photo.82.author: pink.b22
+photo.82.commitdate: 2021/3/21
 photo.82.link: https://www.instagram.com/pink.b22/
 photo.82.tags: mofumofu, portrait, tail
 species: 2

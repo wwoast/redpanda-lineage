@@ -446,15 +446,16 @@ photo.87.author: hamamatsu.chiita
 photo.87.commitdate: 2021/2/19
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
 photo.87.tags: portrait, whiskers
-photo.88: ig://CL55MlOhVjX/m
-photo.88.author: miis_98
-photo.88.commitdate: 2021/3/7
-photo.88.link: https://www.instagram.com/miis_98/
-photo.88.tags: grooming, paws, portrait, standing
-photo.89: https://www.instagram.com/p/CLlFprghShw/media/?size=m
-photo.89.author: lesserpanda_shizuokacity_cp
-photo.89.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.89.tags: portrait
+photo.88: ig://CLlFprghShw/m
+photo.88.author: lesserpanda_shizuokacity_cp
+photo.88.commitdate: 2021/3/21
+photo.88.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.88.tags: portrait
+photo.89: ig://CL55MlOhVjX/m
+photo.89.author: miis_98
+photo.89.commitdate: 2021/3/7
+photo.89.link: https://www.instagram.com/miis_98/
+photo.89.tags: grooming, paws, portrait, standing
 species: 2
 studbook.id: unknown
 zoo: 16
