@@ -16,6 +16,7 @@ litter: 470
 location.1: 84, 2015/7/1
 location.2: 90, 2016/5/27
 location.3: 191, 2019/5/10
+location.4: 128, 2021/3/7
 photo.1: ig://_mOTHFiBEg/m
 photo.1.author: mickmicknyc
 photo.1.commitdate: 2018/12/19
@@ -87,4 +88,4 @@ photo.14.link: https://www.instagram.com/oregonzoo/
 photo.14.tags: paws, portrait, pumpkin, smile, whiskers
 species: 2
 studbook.id: 1536
-zoo: 191
+zoo: 128

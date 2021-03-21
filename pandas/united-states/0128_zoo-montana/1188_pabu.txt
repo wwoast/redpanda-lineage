@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 191, 2020/6/18
+location.2: 128, 2021/3/7
 photo.1: ig://CCGyf7jnxve/m
 photo.1.author: oregonzoo
 photo.1.commitdate: 2020/7/1
@@ -82,4 +84,4 @@ species: 2
 video.1: https://youtu.be/3WIOn_zQckc
 video.1.author: oregonzoo
 video.1.link: https://www.youtube.com/channel/UC3oWOleSolsVhal5krntOlg
-zoo: 191
+zoo: 128
