@@ -346,8 +346,9 @@ photo.67.author: hamamatsu.chiita
 photo.67.commitdate: 2021/3/21
 photo.67.link: https://www.instagram.com/hamamatsu.chiita/
 photo.67.tags: close-up, mofumofu, portrait
-photo.68: https://www.instagram.com/p/CMIaTZJhMLA/media/?size=m
+photo.68: ig://CMIaTZJhMLA/m
 photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2021/3/28
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: mofumofu, portrait, techitechi, whiskers
 species: 2

@@ -233,8 +233,9 @@ photo.45.author: chankunvv
 photo.45.commitdate: 2021/2/20
 photo.45.link: https://www.instagram.com/chankunvv/
 photo.45.tags: portrait, whiskers
-photo.46: https://www.instagram.com/p/CMHPn4WBuEr/media/?size=m
+photo.46: ig://CMHPn4WBuEr/m
 photo.46.author: chankunvv
+photo.46.commitdate: 2021/3/28
 photo.46.link: https://www.instagram.com/chankunvv/
 photo.46.tags: laying down, portrait
 species: 2

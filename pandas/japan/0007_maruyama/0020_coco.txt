@@ -1038,12 +1038,14 @@ photo.210.author: tama67photo
 photo.210.commitdate: 2021/3/10
 photo.210.link: https://www.instagram.com/tama67photo/
 photo.210.tags: portrait, snow
-photo.211: https://www.instagram.com/p/CMEts2vgwke/media/?size=m
+photo.211: ig://CMEts2vgwke/m
 photo.211.author: cattail.sapporo
+photo.211.commitdate: 2021/3/28
 photo.211.link: https://www.instagram.com/cattail.sapporo/
 photo.211.tags: close-up, mofumofu, portrait, techitechi
-photo.212: https://www.instagram.com/p/CMKAvfhACOl/media/?size=m
+photo.212: ig://CMKAvfhACOl/m
 photo.212.author: cattail.sapporo
+photo.212.commitdate: 2021/3/28
 photo.212.link: https://www.instagram.com/cattail.sapporo/
 photo.212.tags: portrait, snow, tail
 species: 2
