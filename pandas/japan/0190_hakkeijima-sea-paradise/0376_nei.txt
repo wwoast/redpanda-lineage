@@ -225,8 +225,9 @@ photo.42.author: minatomirai215
 photo.42.commitdate: 2021/3/4
 photo.42.link: https://www.instagram.com/minatomirai215/
 photo.42.tags: portrait, smile, tail, techitechi
-photo.43: https://www.instagram.com/p/CMh2Z91B2Om/media/?size=m
+photo.43: ig://CMh2Z91B2Om/m
 photo.43.author: minatomirai215
+photo.43.commitdate: 2021/3/29
 photo.43.link: https://www.instagram.com/minatomirai215/
 photo.43.tags: portrait
 species: 2

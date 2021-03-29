@@ -363,8 +363,9 @@ photo.70.author: mini_cochi
 photo.70.commitdate: 2020/12/29
 photo.70.link: https://www.instagram.com/mini_cochi/
 photo.70.tags: paws, portrait, smile
-photo.71: https://www.instagram.com/p/CMhzB9UhF9j/media/?size=m
+photo.71: ig://CMhzB9UhF9j/m
 photo.71.author: eos1089
+photo.71.commitdate: 2021/3/29
 photo.71.link: https://www.instagram.com/eos1089/
 photo.71.tags: bamboo, close-up, paws, portrait, smile
 species: 2

@@ -504,8 +504,9 @@ photo.99.author: yossi929
 photo.99.commitdate: 2021/3/21
 photo.99.link: https://www.instagram.com/yossi929/
 photo.99.tags: peek, whiskers
-photo.100: https://www.instagram.com/p/CMgQVzBBz-g/media/?size=m
+photo.100: ig://CMgQVzBBz-g/m
 photo.100.author: fukuokazoo
+photo.100.commitdate: 2021/3/29
 photo.100.link: https://www.instagram.com/fukuokazoo/
 photo.100.tags: portrait, snow, tail
 species: 2

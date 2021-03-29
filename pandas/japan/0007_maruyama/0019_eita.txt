@@ -1270,8 +1270,9 @@ photo.253.author: cattail.sapporo
 photo.253.commitdate: 2021/3/28
 photo.253.link: https://www.instagram.com/cattail.sapporo/
 photo.253.tags: portrait, snow, tail
-photo.254: https://www.instagram.com/p/CMabkL-grh2/media/?size=m
+photo.254: ig://CMabkL-grh2/m
 photo.254.author: cattail.sapporo
+photo.254.commitdate: 2021/3/29
 photo.254.link: https://www.instagram.com/cattail.sapporo/
 photo.254.tags: close-up, laying down, mofumofu, sleeping
 species: 2

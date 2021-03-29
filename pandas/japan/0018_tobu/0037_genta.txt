@@ -428,8 +428,9 @@ photo.83.author: pink.b22
 photo.83.commitdate: 2021/2/20
 photo.83.link: https://www.instagram.com/pink.b22/
 photo.83.tags: apple time, portrait, videolink
-photo.84: https://www.instagram.com/p/CMfnlPQhsCw/media/?size=m
+photo.84: ig://CMfnlPQhsCw/m
 photo.84.author: miis_98
+photo.84.commitdate: 2021/3/29
 photo.84.link: https://www.instagram.com/miis_98/
 photo.84.tags: paws, portrait, whiskers
 species: 2
