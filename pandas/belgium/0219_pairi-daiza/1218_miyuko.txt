@@ -21,15 +21,23 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, door, portrait, profile
-photo.2: ig://CLhAV7MAc1E/m
+photo.2: https://www.codaworry.com/images/rpf/miyuko-1-pairidaiza.jpg
 photo.2.author: nathalie.elliott
-photo.2.commitdate: 2021/3/18
 photo.2.link: https://www.instagram.com/nathalie.elliott/
-photo.2.tags: baby, home, portrait, whiskers
-photo.3: ig://CMHS1CzAKM6/m
-photo.3.author: pairidaiza.pictures
-photo.3.commitdate: 2021/3/28
-photo.3.link: https://www.instagram.com/pairidaiza.pictures/
-photo.3.tags: baby, paws, portrait
+photo.2.tags: baby, laying down, whiskers
+photo.3: ig://CLhAV7MAc1E/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/3/18
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, home, portrait, whiskers
+photo.4: ig://CMHS1CzAKM6/m
+photo.4.author: pairidaiza.pictures
+photo.4.commitdate: 2021/3/28
+photo.4.link: https://www.instagram.com/pairidaiza.pictures/
+photo.4.tags: baby, paws, portrait
+photo.5: https://www.instagram.com/p/CGZWHadg1gx/media/?size=m
+photo.5.author: nathalie.elliott
+photo.5.link: https://www.instagram.com/nathalie.elliott/
+photo.5.tags: baby, door, home, paws, peek, portrait, whiskers
 species: 1
 zoo: 219
