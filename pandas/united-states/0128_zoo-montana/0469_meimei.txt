@@ -86,14 +86,16 @@ photo.14.author: oregonzoo
 photo.14.commitdate: 2020/11/7
 photo.14.link: https://www.instagram.com/oregonzoo/
 photo.14.tags: paws, portrait, pumpkin, smile, whiskers
-photo.15: https://www.instagram.com/p/CJ_53RqgQF6/media/?size=m
+photo.15: ig://CJOspxeA6Up/m
 photo.15.author: oregonzoo
+photo.15.commitdate: 2021/3/30
 photo.15.link: https://www.instagram.com/oregonzoo/
-photo.15.tags: dish, lunch time, paws, portrait, smile
-photo.16: https://www.instagram.com/p/CJOspxeA6Up/media/?size=m
+photo.15.tags: bamboo, portrait, smile, toys
+photo.16: ig://CJ_53RqgQF6/m
 photo.16.author: oregonzoo
+photo.16.commitdate: 2021/3/30
 photo.16.link: https://www.instagram.com/oregonzoo/
-photo.16.tags: bamboo, portrait, smile, toys
+photo.16.tags: dish, lunch time, paws, portrait, smile
 species: 2
 studbook.id: 1536
 zoo: 128
