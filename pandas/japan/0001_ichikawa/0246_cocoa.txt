@@ -918,22 +918,26 @@ photo.181.author: ifumoto88
 photo.181.commitdate: 2021/1/9
 photo.181.link: https://www.instagram.com/ifumoto88/
 photo.181.tags: apple time, paws, smile
-photo.182: https://www.instagram.com/p/CNJLg3KBAw8/media/?size=m
-photo.182.author: alto0908
-photo.182.link: https://www.instagram.com/alto0908/
-photo.182.tags: tree, whiskers
-photo.183: https://www.instagram.com/p/CMwuGjHBmRe/media/?size=m
-photo.183.author: ifumoto88
-photo.183.link: https://www.instagram.com/ifumoto88/
-photo.183.tags: paws, smile
-photo.184: https://www.instagram.com/p/CMxC0SKBqwG/media/?size=m
+photo.182: ig://CMwuGjHBmRe/m
+photo.182.author: ifumoto88
+photo.182.commitdate: 2021/4/2
+photo.182.link: https://www.instagram.com/ifumoto88/
+photo.182.tags: paws, smile
+photo.183: ig://CMxC0SKBqwG/m
+photo.183.author: alto0908
+photo.183.commitdate: 2021/4/2
+photo.183.link: https://www.instagram.com/alto0908/
+photo.183.tags: close-up, mofumofu, portrait, whiskers
+photo.184: ig://CMyJV6OBTFd/m
 photo.184.author: alto0908
+photo.184.commitdate: 2021/4/2
 photo.184.link: https://www.instagram.com/alto0908/
-photo.184.tags: close-up, mofumofu, portrait, whiskers
-photo.185: https://www.instagram.com/p/CMyJV6OBTFd/media/?size=m
+photo.184.tags: apple time, close-up, paws, portrait
+photo.185: ig://CNJLg3KBAw8/m
 photo.185.author: alto0908
+photo.185.commitdate: 2021/4/2
 photo.185.link: https://www.instagram.com/alto0908/
-photo.185.tags: apple time, close-up, paws, portrait
+photo.185.tags: tree, whiskers
 species: 2
 studbook.id: unknown
 zoo: 1

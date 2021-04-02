@@ -166,8 +166,9 @@ photo.31.author: re_ichimaru
 photo.31.commitdate: 2021/1/30
 photo.31.link: https://www.instagram.com/re_ichimaru/
 photo.31.tags: apple time, bite, portrait, tongue
-photo.32: https://www.instagram.com/p/CNAcG89BEGQ/media/?size=m
+photo.32: ig://CNAcG89BEGQ/m
 photo.32.author: miis_98
+photo.32.commitdate: 2021/4/2
 photo.32.link: https://www.instagram.com/miis_98/
 photo.32.tags: laying down, nose, portrait, whiskers
 species: 2
