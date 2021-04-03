@@ -41,8 +41,9 @@ photo.5.author: pairidaiza.pictures
 photo.5.commitdate: 2021/3/28
 photo.5.link: https://www.instagram.com/pairidaiza.pictures/
 photo.5.tags: baby, paws, portrait
-photo.6: https://www.instagram.com/p/CNLZUbRgkL2/media/?size=m
+photo.6: ig://CNLZUbRgkL2/m
 photo.6.author: nathalie.elliott
+photo.6.commitdate: 2021/4/3
 photo.6.link: https://www.instagram.com/nathalie.elliott/
 photo.6.tags: portrait, whiskers
 species: 1

@@ -160,13 +160,15 @@ photo.29.author: merumeru119
 photo.29.commitdate: 2021/3/7
 photo.29.link: https://www.instagram.com/merumeru119/
 photo.29.tags: laying down, portrait
-photo.30: https://www.instagram.com/p/CNLbp7-HabQ/media/?size=m
-photo.30.author: mochan8686
-photo.30.link: https://www.instagram.com/mochan8686/
-photo.30.tags: close-up, portrait, smile, window
-photo.31: https://www.instagram.com/p/CMQUpXThfV7/media/?size=m
-photo.31.author: tetusara.ki_
-photo.31.link: https://www.instagram.com/tetusara.ki_/
-photo.31.tags: bridge, paws, portrait, tail
+photo.30: ig://CMQUpXThfV7/m
+photo.30.author: tetusara.ki_
+photo.30.commitdate: 2021/4/3
+photo.30.link: https://www.instagram.com/tetusara.ki_/
+photo.30.tags: bridge, paws, portrait, tail
+photo.31: ig://CNLbp7-HabQ/m
+photo.31.author: mochan8686
+photo.31.commitdate: 2021/4/3
+photo.31.link: https://www.instagram.com/mochan8686/
+photo.31.tags: close-up, portrait, smile, window
 species: 2
 zoo: 264

@@ -319,8 +319,9 @@ photo.61.author: kipekaila
 photo.61.commitdate: 2020/12/3
 photo.61.link: https://www.instagram.com/kipekaila/
 photo.61.tags: portrait, smile
-photo.62: https://www.instagram.com/p/CMNTDzuhS2u/media/?size=m
+photo.62: ig://CMNTDzuhS2u/m
 photo.62.author: eos1089
+photo.62.commitdate: 2021/4/3
 photo.62.link: https://www.instagram.com/eos1089/
 photo.62.tags: bamboo, home, laying down, paws, portrait
 species: 2

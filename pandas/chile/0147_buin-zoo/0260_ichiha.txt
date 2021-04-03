@@ -15,132 +15,134 @@ language.order: jp, en
 litter: 259
 location.1: 42, 2014/8/18
 location.2: 147, 2020/3/9
-photo.1: ig://Bmnx5AblFnt/m
-photo.1.author: re_ichimaru
-photo.1.commitdate: 2018/9/8
-photo.1.link: https://www.instagram.com/re_ichimaru/
-photo.2: ig://BmCg9nsF8x7/m
-photo.2.author: _rifa_p
-photo.2.commitdate: 2018/9/8
-photo.2.link: https://www.instagram.com/_rifa_p/
-photo.2.tags: bamboo, laying down
-photo.3: ig://Bi6t6TYlgys/m
-photo.3.author: re_ichimaru
-photo.3.commitdate: 2018/9/8
-photo.3.link: https://www.instagram.com/re_ichimaru/
-photo.3.tags: bamboo, profile
-photo.4: ig://BnOtBBvl2LY/m
-photo.4.author: animal_love_us
-photo.4.commitdate: 2018/10/1
-photo.4.link: https://www.instagram.com/animal_love_us/
-photo.4.tags: tongue
-photo.5: ig://BnOgGqTFDkJ/m
-photo.5.author: animal_love_us
-photo.5.commitdate: 2018/10/1
-photo.5.link: https://www.instagram.com/animal_love_us/
-photo.5.tags: smile
-photo.6: ig://Bru0RSjFVfe/m
+photo.1: ig://BZJDksChCWN/m
+photo.1.author: miis_98
+photo.1.commitdate: 2019/6/23
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: portrait, tongue
+photo.2: ig://Bgrx_VyBsq9/m
+photo.2.author: kotata_513
+photo.2.commitdate: 2019/6/23
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: tongue
+photo.3: ig://BhPtHoyhg-8/m
+photo.3.author: miis_98
+photo.3.commitdate: 2019/6/23
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: air tasting, tongue
+photo.4: ig://Bi6t6TYlgys/m
+photo.4.author: re_ichimaru
+photo.4.commitdate: 2018/9/8
+photo.4.link: https://www.instagram.com/re_ichimaru/
+photo.4.tags: bamboo, profile
+photo.5: ig://BmCg9nsF8x7/m
+photo.5.author: _rifa_p
+photo.5.commitdate: 2018/9/8
+photo.5.link: https://www.instagram.com/_rifa_p/
+photo.5.tags: bamboo, laying down
+photo.6: ig://Bmnx5AblFnt/m
 photo.6.author: re_ichimaru
-photo.6.commitdate: 2018/12/23
+photo.6.commitdate: 2018/9/8
 photo.6.link: https://www.instagram.com/re_ichimaru/
-photo.6.tags: apple time
-photo.7: ig://BsVfxytFTdl/m
-photo.7.author: fetorus_mami
-photo.7.commitdate: 2019/1/9
-photo.7.link: https://www.instagram.com/fetorus_mami/
-photo.7.tags: bamboo
-photo.8: ig://BsnWJGOA2dG/m
-photo.8.author: resapanlove
-photo.8.commitdate: 2019/1/18
-photo.8.link: https://www.instagram.com/resapanlove/
-photo.8.tags: apple time, paws, standing
-photo.9: ig://Bv2fYIBlpDY/m
+photo.7: ig://BnOgGqTFDkJ/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2018/10/1
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: smile
+photo.8: ig://BnOtBBvl2LY/m
+photo.8.author: animal_love_us
+photo.8.commitdate: 2018/10/1
+photo.8.link: https://www.instagram.com/animal_love_us/
+photo.8.tags: tongue
+photo.9: ig://Bru0RSjFVfe/m
 photo.9.author: re_ichimaru
-photo.9.commitdate: 2019/4/5
+photo.9.commitdate: 2018/12/23
 photo.9.link: https://www.instagram.com/re_ichimaru/
-photo.10: ig://ByYuV_MBVpA/m
-photo.10.author: kipekaila
-photo.10.commitdate: 2019/6/6
-photo.10.link: https://www.instagram.com/kipekaila/
-photo.10.tags: apple time, smile
-photo.11: ig://BZJDksChCWN/m
-photo.11.author: miis_98
-photo.11.commitdate: 2019/6/23
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: portrait, tongue
-photo.12: ig://Bgrx_VyBsq9/m
-photo.12.author: kotata_513
+photo.9.tags: apple time
+photo.10: ig://BsVfxytFTdl/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2019/1/9
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: bamboo
+photo.11: ig://BsnWJGOA2dG/m
+photo.11.author: resapanlove
+photo.11.commitdate: 2019/1/18
+photo.11.link: https://www.instagram.com/resapanlove/
+photo.11.tags: apple time, paws, standing
+photo.12: ig://BsqVhfIlhK9/m
+photo.12.author: craig_craig_craig
 photo.12.commitdate: 2019/6/23
-photo.12.link: https://www.instagram.com/kotata_513/
-photo.12.tags: tongue
-photo.13: ig://BhPtHoyhg-8/m
-photo.13.author: miis_98
-photo.13.commitdate: 2019/6/23
-photo.13.link: https://www.instagram.com/miis_98/
-photo.13.tags: air tasting, tongue
-photo.14: ig://BsqVhfIlhK9/m
-photo.14.author: craig_craig_craig
-photo.14.commitdate: 2019/6/23
-photo.14.link: https://www.instagram.com/craig_craig_craig/
-photo.14.tags: apple time, dish, portrait
-photo.15: ig://B2t1blgBPeV/m
-photo.15.author: miis_98
-photo.15.commitdate: 2019/9/28
-photo.15.link: https://www.instagram.com/miis_98/
-photo.15.tags: laying down, long-tongue, tongue
-photo.16: ig://B24QtNJgmpL/m
-photo.16.author: kai.kuniko
-photo.16.commitdate: 2019/10/14
-photo.16.link: https://www.instagram.com/kai.kuniko/
-photo.16.tags: apple time, paws, portrait
-photo.17: ig://B49eWDrB6Gs/m
-photo.17.author: fetorus_mami
-photo.17.commitdate: 2019/11/26
-photo.17.link: https://www.instagram.com/fetorus_mami/
-photo.17.tags: air tasting, paws, tongue
-photo.18: ig://B7Z_ev9BpoR/m
-photo.18.author: re_ichimaru
-photo.18.commitdate: 2020/1/18
-photo.18.link: https://www.instagram.com/re_ichimaru/
-photo.18.tags: laying down, paws, portrait, tongue
-photo.19: ig://Bxzzf8-Fy_c/m
-photo.19.author: animal_love_us
-photo.19.commitdate: 2020/2/16
-photo.19.link: https://www.instagram.com/animal_love_us/
-photo.19.tags: portrait, whiskers
-photo.20: ig://B9jiFDxBhcU/m
-photo.20.author: fetorus_mami
-photo.20.commitdate: 2020/3/11
-photo.20.link: https://www.instagram.com/fetorus_mami/
-photo.20.tags: paws, portrait, whiskers
-photo.21: ig://B9mDPHUBgeZ/m
-photo.21.author: fetorus_mami
-photo.21.commitdate: 2020/3/12
-photo.21.link: https://www.instagram.com/fetorus_mami/
-photo.21.tags: portrait
-photo.22: ig://B9gz6knBVeC/m
-photo.22.author: mofu_pan
-photo.22.commitdate: 2020/3/17
-photo.22.link: https://www.instagram.com/mofu_pan/
-photo.22.tags: paws, portrait
-photo.23: ig://B9g7HKBhi6E/m
-photo.23.author: craig_craig_craig
-photo.23.commitdate: 2020/3/17
-photo.23.link: https://www.instagram.com/craig_craig_craig/
-photo.23.tags: portrait, tongue
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: apple time, dish, portrait
+photo.13: ig://Bv2fYIBlpDY/m
+photo.13.author: re_ichimaru
+photo.13.commitdate: 2019/4/5
+photo.13.link: https://www.instagram.com/re_ichimaru/
+photo.14: ig://Bxzzf8-Fy_c/m
+photo.14.author: animal_love_us
+photo.14.commitdate: 2020/2/16
+photo.14.link: https://www.instagram.com/animal_love_us/
+photo.14.tags: portrait, whiskers
+photo.15: ig://ByYuV_MBVpA/m
+photo.15.author: kipekaila
+photo.15.commitdate: 2019/6/6
+photo.15.link: https://www.instagram.com/kipekaila/
+photo.15.tags: apple time, smile
+photo.16: ig://B2t1blgBPeV/m
+photo.16.author: miis_98
+photo.16.commitdate: 2019/9/28
+photo.16.link: https://www.instagram.com/miis_98/
+photo.16.tags: laying down, long-tongue, tongue
+photo.17: ig://B24QtNJgmpL/m
+photo.17.author: kai.kuniko
+photo.17.commitdate: 2019/10/14
+photo.17.link: https://www.instagram.com/kai.kuniko/
+photo.17.tags: apple time, paws, portrait
+photo.18: ig://B49eWDrB6Gs/m
+photo.18.author: fetorus_mami
+photo.18.commitdate: 2019/11/26
+photo.18.link: https://www.instagram.com/fetorus_mami/
+photo.18.tags: air tasting, paws, tongue
+photo.19: ig://B7Z_ev9BpoR/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2020/1/18
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: laying down, paws, portrait, tongue
+photo.20: ig://B9gz6knBVeC/m
+photo.20.author: mofu_pan
+photo.20.commitdate: 2020/3/17
+photo.20.link: https://www.instagram.com/mofu_pan/
+photo.20.tags: paws, portrait
+photo.21: ig://B9g7HKBhi6E/m
+photo.21.author: craig_craig_craig
+photo.21.commitdate: 2020/3/17
+photo.21.link: https://www.instagram.com/craig_craig_craig/
+photo.21.tags: portrait, tongue
+photo.22: ig://B9jiFDxBhcU/m
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2020/3/11
+photo.22.link: https://www.instagram.com/fetorus_mami/
+photo.22.tags: paws, portrait, whiskers
+photo.23: ig://B9mDPHUBgeZ/m
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2020/3/12
+photo.23.link: https://www.instagram.com/fetorus_mami/
+photo.23.tags: portrait
 photo.24: ig://B-PdXJrhwoS/m
 photo.24.author: fetorus_mami
 photo.24.commitdate: 2020/3/28
 photo.24.link: https://www.instagram.com/fetorus_mami/
 photo.24.tags: autumn, portrait, whiskers
-photo.25: https://www.instagram.com/p/CMHeMOnL9du/media/?size=m
+photo.25: ig://CLeRdacMys8/m
 photo.25.author: buin_zoo
+photo.25.commitdate: 2021/4/3
 photo.25.link: https://www.instagram.com/buin_zoo/
-photo.25.tags: close-up, portrait
-photo.26: https://www.instagram.com/p/CLeRdacMys8/media/?size=m
+photo.25.tags: close-up, nose, peek, portrait
+photo.26: ig://CMHeMOnL9du/m
 photo.26.author: buin_zoo
+photo.26.commitdate: 2021/4/3
 photo.26.link: https://www.instagram.com/buin_zoo/
-photo.26.tags: close-up, nose, peek, portrait
+photo.26.tags: close-up, portrait
 species: 2
 studbook.id: 14171
 zoo: 147

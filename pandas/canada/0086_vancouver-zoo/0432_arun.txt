@@ -539,39 +539,44 @@ photo.106.author: westcoast_kathy
 photo.106.commitdate: 2020/8/22
 photo.106.link: https://www.instagram.com/westcoast_kathy/
 photo.106.tags: paws, portrait, tree
-photo.107: ig://CFQHyyxg1jd/m
-photo.107.author: westcoast_kathy
-photo.107.commitdate: 2020/9/27
-photo.107.link: https://www.instagram.com/westcoast_kathy/
-photo.107.tags: bamboo, close-up, smile, whiskers
-photo.108: ig://CFWEkH0g4tA/m
-photo.108.author: westcoast_kathy
-photo.108.commitdate: 2020/9/27
-photo.108.link: https://www.instagram.com/westcoast_kathy/
-photo.108.tags: bamboo, close-up, paws, smile
-photo.109: ig://CLVLdBFAajt/m
+photo.107: ig://CEUmXGkF0q9/m
+photo.107.author: greatervancouverzoo
+photo.107.commitdate: 2021/4/3
+photo.107.link: https://www.instagram.com/greatervancouverzoo/
+photo.107.tags: peek, smile, whiskers
+photo.108: ig://CFNITiHFaj6/m
+photo.108.author: greatervancouverzoo
+photo.108.commitdate: 2021/4/3
+photo.108.link: https://www.instagram.com/greatervancouverzoo/
+photo.108.tags: bamboo, portrait, whiskers
+photo.109: ig://CFQHyyxg1jd/m
 photo.109.author: westcoast_kathy
-photo.109.commitdate: 2021/2/28
+photo.109.commitdate: 2020/9/27
 photo.109.link: https://www.instagram.com/westcoast_kathy/
-photo.109.tags: paws, portrait, snow, tail
-photo.110: https://www.instagram.com/p/CIWLhtyFkdo/media/?size=m
-photo.110.author: greatervancouverzoo
-photo.110.link: https://www.instagram.com/greatervancouverzoo/
-photo.110.tags: friends, peek
-photo.111: https://www.instagram.com/p/CEUmXGkF0q9/media/?size=m
+photo.109.tags: bamboo, close-up, smile, whiskers
+photo.110: ig://CFWEkH0g4tA/m
+photo.110.author: westcoast_kathy
+photo.110.commitdate: 2020/9/27
+photo.110.link: https://www.instagram.com/westcoast_kathy/
+photo.110.tags: bamboo, close-up, paws, smile
+photo.111: ig://CIWLhtyFkdo/m
 photo.111.author: greatervancouverzoo
+photo.111.commitdate: 2021/4/3
 photo.111.link: https://www.instagram.com/greatervancouverzoo/
-photo.111.tags: peek, smile, whiskers
-photo.112: https://www.instagram.com/p/CFNITiHFaj6/media/?size=m
-photo.112.author: greatervancouverzoo
-photo.112.link: https://www.instagram.com/greatervancouverzoo/
-photo.112.tags: bamboo, portrait, whiskers
-photo.113: https://www.instagram.com/p/CMQlSemAVzJ/media/?size=m
+photo.111.tags: friends, peek
+photo.112: ig://CLVLdBFAajt/m
+photo.112.author: westcoast_kathy
+photo.112.commitdate: 2021/2/28
+photo.112.link: https://www.instagram.com/westcoast_kathy/
+photo.112.tags: paws, portrait, snow, tail
+photo.113: ig://CMQlSemAVzJ/m
 photo.113.author: westcoast_kathy
+photo.113.commitdate: 2021/4/3
 photo.113.link: https://www.instagram.com/westcoast_kathy/
 photo.113.tags: whiskers
-photo.114: https://www.instagram.com/p/CMTce4NAzRb/media/?size=m
+photo.114: ig://CMTce4NAzRb/m
 photo.114.author: westcoast_kathy
+photo.114.commitdate: 2021/4/3
 photo.114.link: https://www.instagram.com/westcoast_kathy/
 photo.114.tags: paws, playing, portrait, smile, snow, whiskers
 species: 2

@@ -51,43 +51,46 @@ photo.7.author: garseeyaink
 photo.7.commitdate: 2020/10/31
 photo.7.link: https://www.instagram.com/garseeyaink/
 photo.7.tags: home, paws, peek, portrait, whiskers
-photo.8: https://www.instagram.com/p/CL2-7SyAxzN/media/?size=m
-photo.8.author: westcoast_kathy
-photo.8.commitdate: 2021/2/28
-photo.8.link: https://www.instagram.com/westcoast_kathy/
-photo.8.tags: peek, portrait
-photo.9: https://www.instagram.com/p/CMgAnvuAqGb/media/?size=m
+photo.8: ig://CG-Ld6yBMFK/m
+photo.8.author: garseeyaink
+photo.8.commitdate: 2021/4/3
+photo.8.link: https://www.instagram.com/garseeyaink/
+photo.8.tags: peek, portrait, tree
+photo.9: ig://CL2-7SyAxzN/m
 photo.9.author: westcoast_kathy
+photo.9.commitdate: 2021/2/28
 photo.9.link: https://www.instagram.com/westcoast_kathy/
-photo.9.tags: bamboo, portrait
-photo.10: https://www.instagram.com/p/CMyF-qbguso/media/?size=m
+photo.9.tags: peek, portrait
+photo.10: ig://CL8QRiYgvbd/m
 photo.10.author: westcoast_kathy
+photo.10.commitdate: 2021/4/3
 photo.10.link: https://www.instagram.com/westcoast_kathy/
-photo.10.tags: bamboo, portrait, tongue
-photo.11: https://www.instagram.com/p/CL8QRiYgvbd/media/?size=m
+photo.10.tags: nose, peek
+photo.11: ig://CMgAnvuAqGb/m
 photo.11.author: westcoast_kathy
+photo.11.commitdate: 2021/4/3
 photo.11.link: https://www.instagram.com/westcoast_kathy/
-photo.11.tags: nose, peek
-photo.12: https://www.instagram.com/p/CG-Ld6yBMFK/media/?size=m
-photo.12.author: garseeyaink
-photo.12.link: https://www.instagram.com/garseeyaink/
-photo.12.tags: peek, portrait, tree
-photo.13: https://www.instagram.com/p/CNGxnuMgrUi/media/?size=m
+photo.11.tags: bamboo, portrait
+photo.12: ig://CMsM6YOgCya/m
+photo.12.author: westcoast_kathy
+photo.12.commitdate: 2021/4/3
+photo.12.link: https://www.instagram.com/westcoast_kathy/
+photo.12.tags: bamboo, bite, paws, portrait
+photo.13: ig://CMyF-qbguso/m
 photo.13.author: westcoast_kathy
+photo.13.commitdate: 2021/4/3
 photo.13.link: https://www.instagram.com/westcoast_kathy/
-photo.13.tags: bamboo, bite, paws
-photo.14: https://www.instagram.com/p/CNJiPp1AEME/media/?size=m
+photo.13.tags: bamboo, portrait, tongue
+photo.14: ig://CNGxnuMgrUi/m
 photo.14.author: westcoast_kathy
+photo.14.commitdate: 2021/4/3
 photo.14.link: https://www.instagram.com/westcoast_kathy/
-photo.14.tags: bamboo, bite, portrait, tongue
-photo.15: https://www.instagram.com/p/CMsM6YOgCya/media/?size=m
+photo.14.tags: bamboo, bite, paws
+photo.15: ig://CNJiPp1AEME/m
 photo.15.author: westcoast_kathy
+photo.15.commitdate: 2021/4/3
 photo.15.link: https://www.instagram.com/westcoast_kathy/
-photo.15.tags: bamboo, bite, paws, portrait
-photo.16: https://www.instagram.com/p/CL2-7SyAxzN/media/?size=m
-photo.16.author: westcoast_kathy
-photo.16.link: https://www.instagram.com/westcoast_kathy/
-photo.16.tags: peek, portrait
+photo.15.tags: bamboo, bite, portrait, tongue
 species: 2
 studbook.id: 1348
 uncertainty: location.3 exact moving date

@@ -180,8 +180,9 @@ photo.34.author: craig_craig_craig
 photo.34.commitdate: 2021/3/10
 photo.34.link: https://www.instagram.com/craig_craig_craig/
 photo.34.tags: bamboo, portrait, videolink
-photo.35: https://www.instagram.com/p/CNM7gtLB79e/media/?size=m
+photo.35: ig://CNM7gtLB79e/m
 photo.35.author: love__mitarashi
+photo.35.commitdate: 2021/4/3
 photo.35.link: https://www.instagram.com/love__mitarashi/
 photo.35.tags: home, itchy, portrait, tail
 species: 2

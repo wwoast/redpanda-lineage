@@ -197,8 +197,9 @@ photo.37.author: itsuak
 photo.37.commitdate: 2021/3/7
 photo.37.link: https://www.instagram.com/itsuak/
 photo.37.tags: bamboo, paws, portrait, smile, upside-down, whiskers
-photo.38: https://www.instagram.com/p/CNKS2qfB_qG/media/?size=m
+photo.38: ig://CNKS2qfB_qG/m
 photo.38.author: itsuak
+photo.38.commitdate: 2021/4/3
 photo.38.link: https://www.instagram.com/itsuak/
 photo.38.tags: bamboo, close-up, portrait, smile, whiskers
 species: 2

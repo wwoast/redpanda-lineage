@@ -800,64 +800,76 @@ photo.158.author: cattail.sapporo
 photo.158.commitdate: 2021/4/2
 photo.158.link: https://www.instagram.com/cattail.sapporo/
 photo.158.tags: blink, laying down, portrait, smile
-photo.159: ig://CNKkLhuhd5V/m
-photo.159.author: ssc6105
-photo.159.commitdate: 2021/4/2
-photo.159.link: https://www.instagram.com/ssc6105/
-photo.159.tags: portrait
-photo.160: ig://CNKxZ1shv7d/M
-photo.160.author: wumpwoast
-photo.160.commitdate: 2021/4/2
-photo.160.link: https://www.instagram.com/wumpwoast/
-photo.160.tags: peek, portrait, tail
-photo.161: https://www.instagram.com/p/CNKTBK0gq1u/media/?size=m
+photo.159: ig://CNKN8pWhceJ/m
+photo.159.author: izu_108
+photo.159.commitdate: 2021/4/3
+photo.159.link: https://www.instagram.com/izu_108/
+photo.159.tags: smile, tongue, whiskers
+photo.160: ig://CNKS4eIACkl/m
+photo.160.author: cattail.sapporo
+photo.160.commitdate: 2021/4/3
+photo.160.link: https://www.instagram.com/cattail.sapporo/
+photo.160.tags: close-up, portrait, smile, whiskers
+photo.161: ig://CNKS9RMAwfy/m
 photo.161.author: cattail.sapporo
+photo.161.commitdate: 2021/4/3
 photo.161.link: https://www.instagram.com/cattail.sapporo/
-photo.161.tags: paws, playing, portrait, snow
-photo.162: https://www.instagram.com/p/CNKsS6-hnMp/media/?size=m
-photo.162.author: mini_cochi
-photo.162.link: https://www.instagram.com/mini_cochi/
-photo.162.tags: portrait, whiskers
-photo.163: https://www.instagram.com/p/CNKS9RMAwfy/media/?size=m
-photo.163.author: cattail.sapporo
-photo.163.link: https://www.instagram.com/cattail.sapporo/
-photo.163.tags: nose, portrait, snow
-photo.164: https://www.instagram.com/p/CNKS4eIACkl/media/?size=m
-photo.164.author: cattail.sapporo
-photo.164.link: https://www.instagram.com/cattail.sapporo/
-photo.164.tags: close-up, portrait, smile, whiskers
-photo.165: https://www.instagram.com/p/CNL_GmmhXrp/media/?size=m
-photo.165.author: _rifa_p
-photo.165.link: https://www.instagram.com/_rifa_p/
-photo.165.tags: apple time, paws, standing, tail
-photo.166: https://www.instagram.com/p/CNLyCtihAgB/media/?size=m
-photo.166.author: resapan.suki
-photo.166.link: https://www.instagram.com/resapan.suki/
-photo.166.tags: bamboo, paws, videolink
-photo.167: https://www.instagram.com/p/CNKj4UYpASJ/media/?size=m
-photo.167.author: craig_craig_craig
-photo.167.link: https://www.instagram.com/craig_craig_craig/
-photo.167.tags: portrait, whiskers
-photo.168: https://www.instagram.com/p/CNKN8pWhceJ/media/?size=m
-photo.168.author: izu_108
-photo.168.link: https://www.instagram.com/izu_108/
-photo.168.tags: smile, tongue, whiskers
-photo.169: https://www.instagram.com/p/CNLtTkGhvId/media/?size=m
-photo.169.author: ho0oipo
-photo.169.link: https://www.instagram.com/ho0oipo/
-photo.169.tags: peek, smile
-photo.170: https://www.instagram.com/p/CNLbXBmBZNn/media/?size=m
-photo.170.author: pink.b22
-photo.170.link: https://www.instagram.com/pink.b22/
-photo.170.tags: paws, portrait, smile, tree
-photo.171: https://www.instagram.com/p/CNNDakihxN7/media/?size=m
-photo.171.author: craig_craig_craig
-photo.171.link: https://www.instagram.com/craig_craig_craig/
-photo.171.tags: laying down, portrait, sleeping, tail, tree
-photo.172: https://www.instagram.com/p/CNMweE_BkAv/media/?size=m
-photo.172.author: nishicotolo
-photo.172.link: https://www.instagram.com/nishicotolo/
-photo.172.tags: smile, tail
+photo.161.tags: nose, portrait, snow
+photo.162: ig://CNKTBK0gq1u/m
+photo.162.author: cattail.sapporo
+photo.162.commitdate: 2021/4/3
+photo.162.link: https://www.instagram.com/cattail.sapporo/
+photo.162.tags: paws, playing, portrait, snow
+photo.163: ig://CNKj4UYpASJ/m
+photo.163.author: craig_craig_craig
+photo.163.commitdate: 2021/4/3
+photo.163.link: https://www.instagram.com/craig_craig_craig/
+photo.163.tags: portrait, whiskers
+photo.164: ig://CNKkLhuhd5V/m
+photo.164.author: ssc6105
+photo.164.commitdate: 2021/4/2
+photo.164.link: https://www.instagram.com/ssc6105/
+photo.164.tags: portrait
+photo.165: ig://CNKsS6-hnMp/m
+photo.165.author: mini_cochi
+photo.165.commitdate: 2021/4/3
+photo.165.link: https://www.instagram.com/mini_cochi/
+photo.165.tags: portrait, whiskers
+photo.166: ig://CNKxZ1shv7d/M
+photo.166.author: wumpwoast
+photo.166.commitdate: 2021/4/2
+photo.166.link: https://www.instagram.com/wumpwoast/
+photo.166.tags: peek, portrait, tail
+photo.167: ig://CNLbXBmBZNn/m
+photo.167.author: pink.b22
+photo.167.commitdate: 2021/4/3
+photo.167.link: https://www.instagram.com/pink.b22/
+photo.167.tags: paws, portrait, smile, tree
+photo.168: ig://CNLtTkGhvId/m
+photo.168.author: ho0oipo
+photo.168.commitdate: 2021/4/3
+photo.168.link: https://www.instagram.com/ho0oipo/
+photo.168.tags: peek, smile
+photo.169: ig://CNLyCtihAgB/m
+photo.169.author: resapan.suki
+photo.169.commitdate: 2021/4/3
+photo.169.link: https://www.instagram.com/resapan.suki/
+photo.169.tags: bamboo, paws, videolink
+photo.170: ig://CNL_GmmhXrp/m
+photo.170.author: _rifa_p
+photo.170.commitdate: 2021/4/3
+photo.170.link: https://www.instagram.com/_rifa_p/
+photo.170.tags: apple time, paws, standing, tail
+photo.171: ig://CNMweE_BkAv/m
+photo.171.author: nishicotolo
+photo.171.commitdate: 2021/4/3
+photo.171.link: https://www.instagram.com/nishicotolo/
+photo.171.tags: smile, tail
+photo.172: ig://CNNDakihxN7/m
+photo.172.author: craig_craig_craig
+photo.172.commitdate: 2021/4/3
+photo.172.link: https://www.instagram.com/craig_craig_craig/
+photo.172.tags: laying down, portrait, sleeping, tail, tree
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8
