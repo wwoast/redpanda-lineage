@@ -15,6 +15,7 @@ language.order: en, jp
 litter: none
 location.1: 166, 2019/6/29
 location.2: 108, 2019/8/23
+location.3: 166, 2021/3/1
 photo.1: ig://B4yKRzWBJMU/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/12/3
@@ -102,4 +103,5 @@ photo.17.link: https://www.instagram.com/worldthathesees/
 photo.17.tags: portrait, profile, smile
 species: 1
 studbook.id: 1933
-zoo: 108
+uncertainty: location.3 exact date
+zoo: 166
