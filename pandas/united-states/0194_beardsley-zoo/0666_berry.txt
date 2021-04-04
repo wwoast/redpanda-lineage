@@ -16,6 +16,7 @@ litter: none
 location.1: 124, 2010/6/27
 location.2: 155, 2011/2/24
 location.3: 117, 2014/12/4
+location.4: 194, 2021/1/4
 photo.1: ig://xxSQQhgkFi/m
 photo.1.author: trevorzoomillbrook
 photo.1.commitdate: 2019/3/22
@@ -63,5 +64,5 @@ photo.9.link: https://www.instagram.com/trevorzoomillbrook/
 photo.9.tags: paws, white face
 species: 1
 studbook.id: 1011
-uncertainty: studbook lists two birthplaces, but Detroit seems more likely
-zoo: 117
+uncertainty: studbook has two birthplaces (likely Detroit). location.4 precise date
+zoo: 194
