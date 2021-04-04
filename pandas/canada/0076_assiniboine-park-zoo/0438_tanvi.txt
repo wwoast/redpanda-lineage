@@ -43,19 +43,21 @@ photo.6.author: assiniboineparkzoo
 photo.6.commitdate: 2020/10/16
 photo.6.link: https://www.instagram.com/assiniboineparkzoo/
 photo.6.tags: dish, lunch time, smile, tail, toys
-photo.7: ig://CLfPVhrjmJJ/m
+photo.7: ig://CJJ6oZjFITd/m
 photo.7.author: assiniboineparkzoo
-photo.7.commitdate: 2021/2/19
+photo.7.commitdate: 2021/4/4
 photo.7.link: https://www.instagram.com/assiniboineparkzoo/
-photo.7.tags: close-up, snow, whiskers
-photo.8: https://www.instagram.com/p/CJ1IU0hgxq7/media/?size=m
+photo.7.tags: smile, snow, toys
+photo.8: ig://CJ1IU0hgxq7/m
 photo.8.author: assiniboineparkzoo
+photo.8.commitdate: 2021/4/4
 photo.8.link: https://www.instagram.com/assiniboineparkzoo/
 photo.8.tags: paws, peek, portrait, snow, whiskers
-photo.9: https://www.instagram.com/p/CJJ6oZjFITd/media/?size=m
+photo.9: ig://CLfPVhrjmJJ/m
 photo.9.author: assiniboineparkzoo
+photo.9.commitdate: 2021/2/19
 photo.9.link: https://www.instagram.com/assiniboineparkzoo/
-photo.9.tags: smile, snow, toys
+photo.9.tags: close-up, snow, whiskers
 species: 2
 studbook.id: 1702
 zoo: 76

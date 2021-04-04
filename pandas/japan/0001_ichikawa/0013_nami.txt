@@ -379,8 +379,9 @@ photo.74.author: ifumoto88
 photo.74.commitdate: 2020/12/3
 photo.74.link: https://www.instagram.com/ifumoto88/
 photo.74.tags: portrait, whiskers
-photo.75: https://www.instagram.com/p/CNPdf3th1US/media/?size=m
+photo.75: ig://CNPdf3th1US/m
 photo.75.author: daniele.tokyo
+photo.75.commitdate: 2021/4/4
 photo.75.link: https://www.instagram.com/daniele.tokyo/
 photo.75.tags: dish, lunch time, old, smile, whiskers
 species: 2

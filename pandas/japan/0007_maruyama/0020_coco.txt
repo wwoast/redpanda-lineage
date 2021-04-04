@@ -1048,8 +1048,9 @@ photo.212.author: cattail.sapporo
 photo.212.commitdate: 2021/3/28
 photo.212.link: https://www.instagram.com/cattail.sapporo/
 photo.212.tags: portrait, snow, tail
-photo.213: https://www.instagram.com/p/CNN7c1qhdAt/media/?size=m
+photo.213: ig://CNN7c1qhdAt/m
 photo.213.author: monmon_redpanda
+photo.213.commitdate: 2021/4/4
 photo.213.link: https://www.instagram.com/monmon_redpanda/
 photo.213.tags: portrait, whiskers
 species: 2
