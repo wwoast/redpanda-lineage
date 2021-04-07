@@ -340,6 +340,11 @@ Page.home.special_galleries = function() {
       "message": Message.lunch_time,
       "photo_count": 3,
       "taglist": ["apple time", "dish", "portrait"]
+    },
+    {
+      "message": Message.lunch_time,
+      "photo_count": 3,
+      "tagslist": ["apple time", "portrait", "snow"]
     }
   ];
   var choice = Query.env.paging.seed % special_galleries.length;
