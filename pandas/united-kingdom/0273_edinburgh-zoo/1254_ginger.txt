@@ -1,0 +1,20 @@
+[panda]
+_id: 1254
+birthday: unknown
+birthplace: unknown
+children: 1256
+commitdate: 2021/04/07
+en.name: Ginger
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジンジャー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+photo.1:https://www.instagram.com/p/B_hURjWJVKK/
+photo.1.author:Edinburgh Zoo
+photo.1.commitdate:2021/04/07
+photo.1.link:https://www.instagram.com/edinburghzoo/
+zoo: 273

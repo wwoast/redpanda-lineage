@@ -1,0 +1,20 @@
+[panda]
+_id: 1263
+birthday: unknown
+birthplace: unknown
+children: none
+commitdate: 2021/04/07
+death:2020/02/13
+en.name: Pong
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ポング
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://scontent.fvix14-1.fna.fbcdn.net/v/t1.6435-9/86393105_2935420709854178_7145136885302558720_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=a26aad&_nc_ohc=ZXdAkXwRFcYAX-0Qbna&_nc_ht=scontent.fvix14-1.fna&oh=a040c192048c514f96ee72e99b3f9775&oe=60953A5A
+photo.1.author: Zoo de Lille
+photo.1.commitdate: 2021/04/07
+photo.1.link: https://www.facebook.com/zoolille/posts/2935421649854084
+zoo: 274
