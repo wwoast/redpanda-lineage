@@ -844,8 +844,9 @@ photo.167.author: hamamatsu.chiita
 photo.167.commitdate: 2020/12/9
 photo.167.link: https://www.instagram.com/hamamatsu.chiita/
 photo.167.tags: apple time, paws
-photo.168: https://www.instagram.com/p/CNMzqzyh_MW/media/?size=m
+photo.168: ig://CNMzqzyh_MW/m
 photo.168.author: hamamatsu.chiita
+photo.168.commitdate: 2021/4/7
 photo.168.link: https://www.instagram.com/hamamatsu.chiita/
 photo.168.tags: mofumofu, paws, portrait
 species: 2

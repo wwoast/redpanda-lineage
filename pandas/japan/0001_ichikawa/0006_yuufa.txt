@@ -498,14 +498,16 @@ photo.98.author: ifumoto88
 photo.98.commitdate: 2020/11/6
 photo.98.link: https://www.instagram.com/rie_panda55/
 photo.98.tags: portrait
-photo.99: https://www.instagram.com/p/CNMt5TXhlLm/media/?size=m
-photo.99.author: ssc6105
-photo.99.link: https://www.instagram.com/ssc6105/
-photo.99.tags: playing, tail, upside-down
-photo.100: https://www.instagram.com/p/CNLwGczBpgm/media/?size=m
-photo.100.author: alto0908
-photo.100.link: https://www.instagram.com/alto0908/
-photo.100.tags: close-up, laying down, peek, portrait
+photo.99: ig://CNLwGczBpgm/m
+photo.99.author: alto0908
+photo.99.commitdate: 2021/4/7
+photo.99.link: https://www.instagram.com/alto0908/
+photo.99.tags: close-up, laying down, peek, portrait
+photo.100: ig://CNMt5TXhlLm/m
+photo.100.author: ssc6105
+photo.100.commitdate: 2021/4/7
+photo.100.link: https://www.instagram.com/ssc6105/
+photo.100.tags: playing, tail, upside-down
 species: 2
 studbook.id: 13146
 zoo: 1

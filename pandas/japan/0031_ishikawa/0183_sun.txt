@@ -318,8 +318,9 @@ photo.61.author: hamamatsu.chiita
 photo.61.commitdate: 2021/3/28
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: bamboo, portrait, tail
-photo.62: https://www.instagram.com/p/CNIDwAih8ul/media/?size=m
+photo.62: ig://CNIDwAih8ul/m
 photo.62.author: bee_san.13
+photo.62.commitdate: 2021/4/7
 photo.62.link: https://www.instagram.com/bee_san.13/
 photo.62.tags: portrait, smile, tree
 species: 2

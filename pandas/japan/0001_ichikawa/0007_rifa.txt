@@ -539,8 +539,9 @@ photo.106.author: ifumoto88
 photo.106.commitdate: 2020/12/21
 photo.106.link: https://www.instagram.com/ifumoto88/
 photo.106.tags: bamboo, peek, portrait
-photo.107: https://www.instagram.com/p/CNKsac-BwBv/media/?size=m
+photo.107: ig://CNKsac-BwBv/m
 photo.107.author: ifumoto88
+photo.107.commitdate: 2021/4/7
 photo.107.link: https://www.instagram.com/ifumoto88/
 photo.107.tags: playing, portrait, whiskers
 species: 2

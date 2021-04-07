@@ -798,8 +798,9 @@ photo.159.author: daniele.tokyo
 photo.159.commitdate: 2021/3/29
 photo.159.link: https://www.instagram.com/daniele.tokyo/
 photo.159.tags: paws, whiskers
-photo.160: https://www.instagram.com/p/CNEm-g2h4gd/media/?size=m
+photo.160: ig://CNEm-g2h4gd/m
 photo.160.author: falcon_tenor
+photo.160.commitdate: 2021/4/7
 photo.160.link: https://www.instagram.com/falcon_tenor/
 photo.160.tags: portrait, smile, tail, whiskers
 species: 2

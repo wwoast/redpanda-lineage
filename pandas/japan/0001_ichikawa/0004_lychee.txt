@@ -293,8 +293,9 @@ photo.56.author: na.mo.pan
 photo.56.commitdate: 2020/10/27
 photo.56.link: https://www.instagram.com/na.mo.pan/
 photo.56.tags: portrait, smile
-photo.57: https://www.instagram.com/p/CNEDSxXhcnh/media/?size=m
+photo.57: ig://CNEDSxXhcnh/m
 photo.57.author: alto0908
+photo.57.commitdate: 2021/4/7
 photo.57.link: https://www.instagram.com/alto0908/
 photo.57.tags: close-up, lips, portrait
 species: 2

@@ -510,8 +510,9 @@ photo.100.author: craig_craig_craig
 photo.100.commitdate: 2021/2/28
 photo.100.link: https://www.instagram.com/craig_craig_craig/
 photo.100.tags: portrait, whiskers
-photo.101: https://www.instagram.com/p/CNH5NSqh0V9/media/?size=m
+photo.101: ig://CNH5NSqh0V9/m
 photo.101.author: redpan22
+photo.101.commitdate: 2021/4/7
 photo.101.link: https://www.instagram.com/redpan22/
 photo.101.tags: paws, whiskers
 species: 2
