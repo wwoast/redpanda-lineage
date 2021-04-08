@@ -1,6 +1,6 @@
 [panda]
 _id: 1258
-birthday: unknown
+birthday: 2011/6/19
 birthplace: 197
 children: 1257, 1260, 1261, 1262
 commitdate: 2021/4/7
@@ -13,6 +13,8 @@ jp.name: アンバ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 197, 2011/6/19
+location.2: 275, 2012/4/17
 photo.1: https://www.codaworry.com/images/rpf/amba-1-birmingham.jpg
 photo.1.author: Birmingham Wildlife Conservation Park
 photo.1.commitdate: 2021/4/7

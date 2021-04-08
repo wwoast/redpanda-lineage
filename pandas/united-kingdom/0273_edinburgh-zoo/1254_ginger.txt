@@ -1,6 +1,6 @@
 [panda]
 _id: 1254
-birthday: unknown
+birthday: 2015/7/27
 birthplace: unknown
 children: 1256
 commitdate: 2021/4/7
@@ -18,4 +18,5 @@ photo.1.commitdate: 2021/4/7
 photo.1.link: https://www.instagram.com/edinburghzoo/
 photo.1.tags: smile, videolink
 species: 1
+studbook.id: 1586
 zoo: 273

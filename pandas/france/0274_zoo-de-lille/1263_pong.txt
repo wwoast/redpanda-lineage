@@ -1,6 +1,6 @@
 [panda]
 _id: 1263
-birthday: unknown
+birthday: 2003/6/10
 birthplace: unknown
 children: none
 commitdate: 2021/4/7
@@ -19,4 +19,5 @@ photo.1.commitdate: 2021/4/7
 photo.1.link: https://www.facebook.com/zoolille/posts/2935421649854084
 photo.1.tags: mofumofu, portrait, profile, snow
 species: 1
+studbook.id: 0345
 zoo: 274

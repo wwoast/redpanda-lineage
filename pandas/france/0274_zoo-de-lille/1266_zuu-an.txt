@@ -1,6 +1,6 @@
 [panda]
 _id: 1266
-birthday: unknown
+birthday: 2000/6/27
 birthplace: unknown
 children: unknown
 commitdate: 2021/4/7
@@ -19,4 +19,5 @@ photo.1.commitdate: 2021/4/7
 photo.1.link: https://www.facebook.com/zoolille/posts/1594372417292354
 photo.1.tags: portrait, smile, whiskers, white face
 species: 1
+studbook.id: 0050
 zoo: 274

@@ -1,7 +1,7 @@
 [panda]
 _id: 1255
-birthday: unknown
-birthplace: unknown
+birthday: 2015/6/18
+birthplace: 259
 children: 1256
 commitdate: 2021/4/7
 en.name: Bruce
@@ -12,10 +12,13 @@ jp.name: ブルース
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 259, 2015/6/18
+location.2: 273, 2016/3/4
 photo.1: ig://BZGIqi4ANlP/
 photo.1.author: Edinburgh Zoo
 photo.1.commitdate: 2021/4/7
 photo.1.link: https://www.instagram.com/edinburghzoo/
 photo.1.tags: videolink
 species: 1
+studbook.id: 1558
 zoo: 273

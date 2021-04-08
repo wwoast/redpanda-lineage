@@ -6,7 +6,7 @@ children: none
 commitdate: 2021/4/7
 en.name: Mambo
 en.nicknames: none
-en.othernames: none
+en.othernames: Mabmo
 gender: f
 jp.name: マンボ
 jp.nicknames: none
@@ -14,7 +14,7 @@ jp.othernames: none
 language.order: en, jp
 location.1: 275, 2016/7/23
 location.2: 276, 2017/8/2
-location.3: 274, unknown
+location.3: 274, 2018/6/18
 photo.1: https://www.codaworry.com/images/rpf/mambo-1-birmingham.jpg
 photo.1.author: Birmingham Wildlife Conservation Park
 photo.1.commitdate: 2021/4/7
@@ -30,4 +30,5 @@ photo.3.author: Sergio Rosenstrauch
 photo.3.commitdate: 2021/4/7
 photo.3.link: https://www.facebook.com/zoolille/posts/1974321219297470
 species: 1
+studbook.id: 16103
 zoo: 274
