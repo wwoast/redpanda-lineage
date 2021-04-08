@@ -1,0 +1,20 @@
+[panda]
+_id: 1265
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/04/07
+en.name: Mali
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://scontent.fvix14-1.fna.fbcdn.net/v/t1.6435-9/106988838_10157759990848877_2130037661232974806_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=730e14&_nc_ohc=8MuoiBaQn1YAX8AcZfb&_nc_ht=scontent.fvix14-1.fna&oh=a18d8ecb9ca68f1a6fc08724d6e5dbeb&oe=60925120
+photo.1.author: Woburn Safari Park
+photo.1.commitdate: 2021/04/07
+photo.1.link: https://www.facebook.com/woburnsafaripark/posts/10157759990993877
+species: 1
+zoo: 276

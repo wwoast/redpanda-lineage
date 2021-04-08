@@ -4,6 +4,7 @@ birthday: 2003/6/29
 birthplace: 175
 children: unknown
 commitdate: 2020/8/19
+death:2021/03/24
 en.name: Frisco
 en.nicknames: none
 en.oldnames: Rusher
@@ -24,6 +25,10 @@ photo.1.author: curraghswildlifepark
 photo.1.commitdate: 2020/8/19
 photo.1.link: https://www.instagram.com/curraghswildlifepark/
 photo.1.tags: portrait, profile, whiskers, white face
+photo.2: ig://CMzyPc7pWJd/m
+photo.2.author: curraghswildlifepark
+photo.2.commitdate: 2021/04/2021
+photo.2.link: https://www.instagram.com/curraghswildlifepark/
 species: 1
 video.1: https://youtu.be/Ka6DvmX5uSk
 video.1.author: Isle of Man Government
