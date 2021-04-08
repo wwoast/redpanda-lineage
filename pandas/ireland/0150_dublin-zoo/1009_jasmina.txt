@@ -13,55 +13,50 @@ litter: 1022
 location.1: 72, 2008/7/21
 location.2: 215, 2009/7/13
 location.3: 150, 2015/8/13
-photo.1: https://scontent.fybz1-1.fna.fbcdn.net/v/t1.0-9/67488971_10158628889338136_3656600474229932032_n.png?_nc_cat=108&_nc_oc=AQlzISEJ1yZDfw8kWbWTng_NVPqBUsHAJf9R6BFnc-VwquDeqZZVnztyM_WNMTfn9mE&_nc_ht=scontent.fybz1-1.fna&oh=d89eeb5296b936ad55c978650ba3838f&oe=5E1E085E
-photo.1.author: Dublin Zoo
+photo.1: ig://B14S8pJFpe5/m
+photo.1.author: s.ofiaanna
 photo.1.commitdate: 2019/11/1
-photo.1.link: https://www.facebook.com/DublinZoo/
-photo.1.tags: birthday
-photo.2: ig://B14S8pJFpe5/m
-photo.2.author: s.ofiaanna
+photo.1.link: https://www.instagram.com/s.ofiaanna/
+photo.1.tags: paws, tree
+photo.2: ig://B1s5pwRo4hl/m
+photo.2.author: dublinzoo_official
 photo.2.commitdate: 2019/11/1
-photo.2.link: https://www.instagram.com/s.ofiaanna/
-photo.2.tags: paws, tree
-photo.3: ig://B1s5pwRo4hl/m
+photo.2.link: https://www.instagram.com/dublinzoo_official/
+photo.2.tags: paws, smile, wink
+photo.3: ig://BzP3WUZIKjj/m
 photo.3.author: dublinzoo_official
 photo.3.commitdate: 2019/11/1
 photo.3.link: https://www.instagram.com/dublinzoo_official/
-photo.3.tags: paws, smile, wink
-photo.4: ig://BzP3WUZIKjj/m
+photo.3.tags: tail
+photo.4: ig://BzILOlxoW7W/m
 photo.4.author: dublinzoo_official
 photo.4.commitdate: 2019/11/1
 photo.4.link: https://www.instagram.com/dublinzoo_official/
-photo.4.tags: tail
-photo.5: ig://BzILOlxoW7W/m
-photo.5.author: dublinzoo_official
+photo.4.tags: portrait, toys
+photo.5: ig://BxkP_QliOqM/m
+photo.5.author: paulabloggt
 photo.5.commitdate: 2019/11/1
-photo.5.link: https://www.instagram.com/dublinzoo_official/
-photo.5.tags: portrait, toys
-photo.6: ig://BxkP_QliOqM/m
-photo.6.author: paulabloggt
+photo.5.link: https://www.instagram.com/paulabloggt/
+photo.5.tags: autumn, portrait, tail, tree
+photo.6: ig://BmanPtLF_mq/m
+photo.6.author: dublinzoo_official
 photo.6.commitdate: 2019/11/1
-photo.6.link: https://www.instagram.com/paulabloggt/
-photo.6.tags: autumn, portrait, tail, tree
-photo.7: ig://BmanPtLF_mq/m
+photo.6.link: https://www.instagram.com/dublinzoo_official/
+photo.6.tags: blink, laying down, portrait, yawn
+photo.7: ig://Bkui5TGFy4H/m
 photo.7.author: dublinzoo_official
 photo.7.commitdate: 2019/11/1
 photo.7.link: https://www.instagram.com/dublinzoo_official/
-photo.7.tags: blink, laying down, portrait, yawn
-photo.8: ig://Bkui5TGFy4H/m
+photo.7.tags: ice treat, portrait, profile, tongue
+photo.8: ig://Bf0cII8jzyA/m
 photo.8.author: dublinzoo_official
 photo.8.commitdate: 2019/11/1
 photo.8.link: https://www.instagram.com/dublinzoo_official/
-photo.8.tags: ice treat, portrait, profile, tongue
-photo.9: ig://Bf0cII8jzyA/m
+photo.8.tags: laying down, snow, tail, tree
+photo.9: ig://BaZQRJjjXwx/m
 photo.9.author: dublinzoo_official
 photo.9.commitdate: 2019/11/1
 photo.9.link: https://www.instagram.com/dublinzoo_official/
-photo.9.tags: laying down, snow, tail, tree
-photo.10: ig://BaZQRJjjXwx/m
-photo.10.author: dublinzoo_official
-photo.10.commitdate: 2019/11/1
-photo.10.link: https://www.instagram.com/dublinzoo_official/
-photo.10.tags: portrait, tree
+photo.9.tags: portrait, tree
 species: 2
 zoo: 150
