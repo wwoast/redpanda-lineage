@@ -13,9 +13,15 @@ jp.name: アンバ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-photo.1: https://scontent.fvix14-1.fna.fbcdn.net/v/t1.6435-9/135472253_4056535774374842_1423304955129456933_n.jpg?_nc_cat=111&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=Vf0O0rN41mIAX8co2CJ&_nc_oc=AQmU5NvNEi8Umsg1bewI0t1vrNR2RC_gCugpCGd1v9msSix_43JB4-XataTd1pkVTJs&_nc_ht=scontent.fvix14-1.fna&oh=8f8f30fb3b0f5e65dec599210a5aba52&oe=6093A6E8
+photo.1: https://www.codaworry.com/images/rpf/amba-1-birmingham.jpg
 photo.1.author: Birmingham Wildlife Conservation Park
-photo.1.commitdate: 2021/04/07
+photo.1.commitdate: 2021/4/7
 photo.1.link: https://www.facebook.com/bhamwildlifeconservationpark/photos/a.909971245697993/4056535771041509/
+photo.1.tags: laying down, paws, portrait, smile, tail, white face
+photo.2: https://www.codaworry.com/images/rpf/amba-2-birmingham.jpg
+photo.2.author: Birmingham Wildlife Conservation Park
+photo.2.commitdate: 2021/4/7
+photo.2.link: https://www.facebook.com/bhamwildlifeconservationpark/photos/a.909971245697993/4056535771041509/
+photo.2.tags: portrait, snow, tail, white face, wink
 species: 1
 zoo: 275
