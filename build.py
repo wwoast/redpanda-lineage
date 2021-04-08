@@ -139,7 +139,7 @@ class RedPandaGraph:
         if abs(diff.days) > 2:
             return False
         else:
-            return True 
+            return True
 
     def check_dataset_duplicate_ids(self, dataset):
         """Check for duplicate IDs in any of the datasets."""

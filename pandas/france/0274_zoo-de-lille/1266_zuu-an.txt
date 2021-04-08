@@ -1,0 +1,22 @@
+[panda]
+_id: 1266
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/7
+death: 2017/8/19
+en.name: Zuu-An
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ズー・アン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://www.codaworry.com/images/rpf/zuuan-1-zoolille.jpg
+photo.1.author: Jérôme Boisard Photo
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.facebook.com/zoolille/posts/1594372417292354
+photo.1.tags: portrait, smile, whiskers, white face
+species: 1
+zoo: 274

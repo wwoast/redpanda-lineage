@@ -1,0 +1,33 @@
+[panda]
+_id: 1257
+birthday: 2016/7/23
+birthplace: 275
+children: none
+commitdate: 2021/4/7
+en.name: Mambo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マンボ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 275, 2016/7/23
+location.2: 276, 2017/8/2
+location.3: 274, unknown
+photo.1: https://www.codaworry.com/images/rpf/mambo-1-birmingham.jpg
+photo.1.author: Birmingham Wildlife Conservation Park
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.facebook.com/bhamwildlifeconservationpark/posts/1700699406625169
+photo.1.tags: paws, whiskers
+photo.2: https://www.codaworry.com/images/rpf/mambo-2-birmingham.jpg
+photo.2.author: Birmingham Wildlife Conservation Park
+photo.2.commitdate: 2021/4/7
+photo.2.link: https://www.facebook.com/bhamwildlifeconservationpark/posts/1712358638792579
+photo.2.tags: paws, portrait, profile
+photo.3: https://www.codaworry.com/images/rpf/mambo-3-birmingham.jpg
+photo.3.author: Sergio Rosenstrauch
+photo.3.commitdate: 2021/4/7
+photo.3.link: https://www.facebook.com/zoolille/posts/1974321219297470
+species: 1
+zoo: 274

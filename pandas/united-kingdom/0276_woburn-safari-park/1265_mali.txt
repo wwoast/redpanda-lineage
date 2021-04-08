@@ -1,0 +1,21 @@
+[panda]
+_id: 1265
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/7
+en.name: Mali
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://www.codaworry.com/images/rpf/mali-1-woburn.jpg
+photo.1.author: Woburn Safari Park
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.facebook.com/woburnsafaripark/posts/10157759990993877
+photo.1.tags: peek, tree, white face
+species: 1
+zoo: 276
