@@ -3,7 +3,7 @@ _id: 1255
 birthday: unknown
 birthplace: unknown
 children: 1256
-commitdate: 2021/04/07
+commitdate: 2021/4/7
 en.name: Bruce
 en.nicknames: none
 en.othernames: none
@@ -12,9 +12,10 @@ jp.name: ブルース
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+photo.1: ig://BZGIqi4ANlP/
+photo.1.author: Edinburgh Zoo
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.instagram.com/edinburghzoo/
+photo.1.tags: videolink
 species: 1
-photo.1:https://www.instagram.com/p/BZGIqi4ANlP/
-photo.1.author:Edinburgh Zoo
-photo.1.commitdate:2021/04/07
-photo.1.link:https://www.instagram.com/edinburghzoo/
 zoo: 273
