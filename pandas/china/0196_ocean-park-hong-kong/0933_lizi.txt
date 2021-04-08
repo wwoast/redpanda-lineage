@@ -19,5 +19,5 @@ language.order: cn, en, jp
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-species: -1
+species: 3
 zoo: 196
