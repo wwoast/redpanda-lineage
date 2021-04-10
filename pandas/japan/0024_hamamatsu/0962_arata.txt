@@ -453,8 +453,9 @@ photo.88.author: hamamatsu.chiita
 photo.88.commitdate: 2020/12/25
 photo.88.link: https://www.instagram.com/hamamatsu.chiita/
 photo.88.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.89: https://www.instagram.com/p/CNH0AxcBxVA/media/?size=m
+photo.89: ig://CNH0AxcBxVA/m
 photo.89.author: taka__3428
+photo.89.commitdate: 2021/4/10
 photo.89.link: https://www.instagram.com/taka__3428/
 photo.89.tags: apple time, bridge, paws
 species: 2

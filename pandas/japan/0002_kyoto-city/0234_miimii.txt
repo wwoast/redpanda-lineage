@@ -454,14 +454,16 @@ photo.88.author: hamamatsu.chiita
 photo.88.commitdate: 2021/3/21
 photo.88.link: https://www.instagram.com/hamamatsu.chiita/
 photo.88.tags: mofumofu, portrait, smile
-photo.89: https://www.instagram.com/p/CME42qhBAYy/media/?size=m
-photo.89.author: apple_jasmine33
-photo.89.link: https://www.instagram.com/apple_jasmine33/
-photo.89.tags: bamboo, paws, portrait, standing
-photo.90: https://www.instagram.com/p/CMEzf4QB_EC/media/?size=m
-photo.90.author: jas_forever_love
-photo.90.link: https://www.instagram.com/jas_forever_love/
-photo.90.tags: bamboo, bite, paws, portrait
+photo.89: ig://CMEzf4QB_EC/m
+photo.89.author: jas_forever_love
+photo.89.commitdate: 2021/4/10
+photo.89.link: https://www.instagram.com/jas_forever_love/
+photo.89.tags: bamboo, bite, paws, portrait
+photo.90: ig://CME42qhBAYy/m
+photo.90.author: apple_jasmine33
+photo.90.commitdate: 2021/4/10
+photo.90.link: https://www.instagram.com/apple_jasmine33/
+photo.90.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 1786
 zoo: 2

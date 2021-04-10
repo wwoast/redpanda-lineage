@@ -214,8 +214,9 @@ photo.40.author: itsuak
 photo.40.commitdate: 2021/3/4
 photo.40.link: https://www.instagram.com/itsuak/
 photo.40.tags: paws, portrait, whiskers
-photo.41: https://www.instagram.com/p/CME_yj2hmvM/media/?size=m
+photo.41: ig://CME_yj2hmvM/m
 photo.41.author: itsuak
+photo.41.commitdate: 2021/4/10
 photo.41.link: https://www.instagram.com/itsuak/
 photo.41.tags: portrait, tail, tree
 species: 2

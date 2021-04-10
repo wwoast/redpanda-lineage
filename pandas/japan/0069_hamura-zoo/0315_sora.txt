@@ -458,12 +458,14 @@ photo.89.author: mini_cochi
 photo.89.commitdate: 2021/3/2
 photo.89.link: https://www.instagram.com/mini_cochi/
 photo.89.tags: ear, laying down, peek, portrait, tree
-photo.90: https://www.instagram.com/p/CNAirbMhb85/media/?size=m
+photo.90: ig://CNAirbMhb85/m
 photo.90.author: mini_cochi
+photo.90.commitdate: 2021/4/10
 photo.90.link: https://www.instagram.com/mini_cochi/
 photo.90.tags: flowers, portrait, whiskers
-photo.91: https://www.instagram.com/p/CNE83mrBjSm/media/?size=m
+photo.91: ig://CNE83mrBjSm/m
 photo.91.author: pink.b22
+photo.91.commitdate: 2021/4/10
 photo.91.link: https://www.instagram.com/pink.b22/
 photo.91.tags: portrait, smile, tail
 species: 2

@@ -429,8 +429,9 @@ photo.83.author: kipekaila
 photo.83.commitdate: 2020/10/2
 photo.83.link: https://www.instagram.com/kipekaila/
 photo.83.tags: close-up, mofumofu, portrait
-photo.84: https://www.instagram.com/p/CNDsnJJBWQi/media/?size=m
+photo.84: ig://CNDsnJJBWQi/m
 photo.84.author: kipekaila
+photo.84.commitdate: 2021/4/10
 photo.84.link: https://www.instagram.com/kipekaila/
 photo.84.tags: bamboo, close-up, mofumofu, portrait
 species: 2
