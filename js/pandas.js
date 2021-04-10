@@ -77,6 +77,14 @@ Pandas.def.age = {
     "months": "महिना",
     "day": "दिन",
     "days": "दिनहरु"
+  },
+  "pt": {
+    "year": "ano",
+    "years": "anos",
+    "month": "mês",
+    "months": "meses",
+    "day": "dia",
+    "days": "dias"
   }
 }
 
@@ -104,6 +112,9 @@ Pandas.def.animal = {
   "np.nicknames": "उपनामहरू फेला परेन",
   "np.othernames": "अरु नामहरु फेला परेन",
   "photo.1": "images/no-panda-portrait.jpg",
+  "pt.name": "Panda não encontrado",
+  "pt.nicknames": "Nenhum apelido registrado",
+  "pt.othernames": "Nenhum nome alternativo registrado",
   "species": "-1",
   "video.1": "images/no-panda-portrait.jpg",
   "zoo": "0"
@@ -115,6 +126,7 @@ Pandas.def.date = {
   "es": "DD/MM/YYYY",
   "jp": "YYYY年MM月DD日",
   "np": "YYYY-MM-DD",
+  "pt": "DD/MM/YYYY",
   "earliest_year": "1970"
 }
 
@@ -124,6 +136,7 @@ Pandas.def.date_season = {
   "es": "SEASON YYYY",
   "jp": "SEASON YYYY",
   "np": "SEASON YYYY",
+  "pt": "SEASON YYYY",
   "earliest_year": "1970"
 }
 
@@ -133,14 +146,16 @@ Pandas.def.gender = {
     "en": "female",
     "es": "hembra",
     "jp": "メス",
-    "np": "महिला"
+    "np": "महिला",
+	"pt": "fêmea"
   },
   "Male": {
     "cn": "男",
     "en": "male",
     "es": "macho",
     "jp": "オス",
-    "np": "नर"
+    "np": "नर",
+	"pt": "macho"
   }
 }
 
@@ -150,7 +165,8 @@ Pandas.def.no_name = {
   "en": "Unknown",
   "es": "Desconocido",
   "jp": "未詳",
-  "np": "अज्ञात"
+  "np": "अज्ञात",
+  "pt": "Desconhecido(a)"
 }
 
 // Missing or undescribed authors
@@ -160,14 +176,16 @@ Pandas.def.authors = {
     "en": "anonymous",
     "es": "anónimo",
     "jp": "匿名",
-    "np": "बेनामी" 
+    "np": "बेनामी",
+	"pt": "anônimo"
   },
   "uncredited": {
     "cn": "沒有信用",
     "en": "uncredited",
     "es": "sin acreditar",
     "jp": "信用されていない",
-    "np": "अप्रत्याशित"
+    "np": "अप्रत्याशित",
+	"pt": "não creditado"
   }
 }
 
@@ -181,7 +199,8 @@ Pandas.def.languages = {
   "ja": "jp",
   "zh": "cn",
   "ne": "np",
-  "es": "es"
+  "es": "es"//,
+//"pt": "pt"
 }
 
 // Character ranges
@@ -211,105 +230,120 @@ Pandas.def.relations = {
     "en": "aunt",
     "es": "tía",
     "jp": "叔母",
-    "np": "काकी"
+    "np": "काकी",
+	"pt": "tia"
   },
   "brother": {
     "cn": "兄",
     "en": "brother",
     "es": "hermano",
     "jp": "兄",
-    "np": "भाई"
+    "np": "भाई",
+	"pt": "irmão"
   },
   "children": {
     "cn": "孩子",
     "en": "children",
     "es": "niños",
     "jp": "子供",
-    "np": "बच्चाहरु"
+    "np": "बच्चाहरु",
+	"pt": "filhos(as)"
   },
   "cousin": {
     "cn": "表姐",
     "en": "cousin",
     "es": "primo",
     "jp": "いとこ",
-    "np": "भान्जा"
+    "np": "भान्जा",
+	"pt": "primo(a)"
   },
   "father": {
     "cn": "父",
     "en": "father",
     "es": "padre",
     "jp": "父",
-    "np": "बुबा"
+    "np": "बुबा",
+	"pt": "pai"
   },
   "grandfather": {
     "cn": "祖父",
     "en": "grandfather",
     "es": "abuelo",
     "jp": "おじいちゃん",
-    "np": "हजुरबुबा"
+    "np": "हजुरबुबा",
+	"pt": "avô"
   },
   "grandmother": {
     "cn": "祖母",
     "en": "grandmother",
     "es": "abuela",
     "jp": "おばあちゃん",
-    "np": "हजुरआमा"
+    "np": "हजुरआमा",
+	"pt": "avó"
   },
   "litter": {
     "cn": "轿子",
     "en": "litter",
     "es": "camada",
     "jp": "双子",   /* "同腹仔" */
-    "np": "रोटी"
+    "np": "रोटी",
+	"pt": "ninhada"
   },
   "mother": {
     "cn": "母",
     "en": "mother",
     "es": "madre",
     "jp": "母",
-    "np": "आमा"
+    "np": "आमा",
+	"pt": "mãe"
   },
   "nephew": {
     "cn": "外甥",
     "en": "nephew",
     "es": "sobrino",
     "jp": "甥",
-    "np": "भतिजा"
+    "np": "भतिजा",
+	"pt": "sobrinho"
   },
   "niece": {
     "cn": "侄女",
     "en": "niece",
     "es": "sobrina",
     "jp": "姪",
-    "np": "भान्जी" 
+    "np": "भान्जी",
+	"pt": "sobrinha"
   },
   "parents": {
     "cn": "父母",
     "en": "parents",
     "es": "padres",
     "jp": "両親",
-    "np": "अभिभावक"
+    "np": "अभिभावक",
+	"pt": "pais"
   },
   "sister": {
     "cn": "妹妹",
     "en": "sister",
     "es": "hermana",
     "jp": "姉",
-    "np": "बहिनी"
+    "np": "बहिनी",
+	"pt": "irmã"
   },
   "siblings": {
     "cn": "兄弟姐妹",
     "en": "siblings",
     "es": "hermanos",
     "jp": "兄弟",
-    "np": "भाइबहिनीहरू"
+    "np": "भाइबहिनीहरू",
+	"pt": "irmãos(ãs)"
   },
   "uncle": {
     "cn": "叔叔",
     "en": "uncle",
     "es": "tío",
     "jp": "叔父",
-    "np": "काका"
+    "np": "काका",
+	"pt": "tio
   }
 }
 
@@ -338,6 +372,11 @@ Pandas.def.species = {
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
+  ],
+  "pt": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ]
 }
 
@@ -346,7 +385,8 @@ Pandas.def.unknown = {
   "en": "unknown",
   "es": "desconocido",
   "jp": "未詳",
-  "np": "अज्ञात"
+  "np": "अज्ञात",
+  "pt": "desconhecido"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals
@@ -368,6 +408,9 @@ Pandas.def.wild = {
   "np.location": "कुनै स्थान जानकारी छैन",
   "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
+  "pt.address": "Animal selvagem capturado ou resgatado",
+  "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
+  "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
@@ -391,6 +434,9 @@ Pandas.def.zoo = {
   "np.location": "कुनै स्थान जानकारी छैन",
   "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
+  "pt.address": "Nenhum endereço do Google Maps registrado",
+  "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
+  "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
