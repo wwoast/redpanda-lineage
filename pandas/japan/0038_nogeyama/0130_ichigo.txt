@@ -481,15 +481,16 @@ photo.93.author: minatomirai215
 photo.93.commitdate: 2021/3/21
 photo.93.link: https://www.instagram.com/minatomirai215/
 photo.93.tags: portrait, smile, tail, whiskers
-photo.94: ig://CNDIIT5hSsb/m
-photo.94.author: miis_98
-photo.94.commitdate: 2021/4/2
-photo.94.link: https://www.instagram.com/miis_98/
-photo.94.tags: home, portrait, tail, wet
-photo.95: https://www.instagram.com/p/CMWtJqrBPvB/media/?size=m
-photo.95.author: minatomirai215
-photo.95.link: https://www.instagram.com/minatomirai215/
-photo.95.tags: apple time, bamboo, paws, portrait, smile, tail, tongue
+photo.94: ig://CMWtJqrBPvB/m
+photo.94.author: minatomirai215
+photo.94.commitdate: 2021/4/11
+photo.94.link: https://www.instagram.com/minatomirai215/
+photo.94.tags: apple time, bamboo, paws, portrait, smile, tail, tongue
+photo.95: ig://CNDIIT5hSsb/m
+photo.95.author: miis_98
+photo.95.commitdate: 2021/4/2
+photo.95.link: https://www.instagram.com/miis_98/
+photo.95.tags: home, portrait, tail, wet
 species: 2
 studbook.id: 12117
 zoo: 38
