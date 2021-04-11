@@ -207,7 +207,8 @@ photo.38.tags: ear, laying down, paws, portrait, smile, tail, tongue, tree
 photo.39: ig://B-B-veRBhu6/m
 photo.39.author: pink.b22
 photo.39.commitdate: 2020/3/22
-photo.39.link: bamboo, paws, portrait, standing
+photo.39.link: https://www.instagram.com/pink.b22/
+photo.39.tags: bamboo, paws, portrait, standing
 photo.40: ig://B-Cka_7hvWP/m
 photo.40.author: mini_cochi
 photo.40.commitdate: 2020/3/24
@@ -458,20 +459,21 @@ photo.89.author: mini_cochi
 photo.89.commitdate: 2021/3/2
 photo.89.link: https://www.instagram.com/mini_cochi/
 photo.89.tags: ear, laying down, peek, portrait, tree
-photo.90: ig://CNAirbMhb85/m
-photo.90.author: mini_cochi
-photo.90.commitdate: 2021/4/10
-photo.90.link: https://www.instagram.com/mini_cochi/
-photo.90.tags: flowers, portrait, whiskers
-photo.91: ig://CNE83mrBjSm/m
-photo.91.author: pink.b22
+photo.90: ig://CMVVstdBrcy/m
+photo.90.author: eos1089
+photo.90.commitdate: 2021/4/11
+photo.90.link: https://www.instagram.com/eos1089/
+photo.90.tags: apple time, door, paws, standing, tail
+photo.91: ig://CNAirbMhb85/m
+photo.91.author: mini_cochi
 photo.91.commitdate: 2021/4/10
-photo.91.link: https://www.instagram.com/pink.b22/
-photo.91.tags: portrait, smile, tail
-photo.92: https://www.instagram.com/p/CMVVstdBrcy/media/?size=m
-photo.92.author: eos1089
-photo.92.link: https://www.instagram.com/eos1089/
-photo.92.tags: apple time, door, paws, standing, tail
+photo.91.link: https://www.instagram.com/mini_cochi/
+photo.91.tags: flowers, portrait, whiskers
+photo.92: ig://CNE83mrBjSm/m
+photo.92.author: pink.b22
+photo.92.commitdate: 2021/4/10
+photo.92.link: https://www.instagram.com/pink.b22/
+photo.92.tags: portrait, smile, tail
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

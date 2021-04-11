@@ -1068,14 +1068,16 @@ photo.211.author: akiakiakiko18
 photo.211.commitdate: 2021/1/16
 photo.211.link: https://www.instagram.com/akiakiakiko18/
 photo.211.tags: whiskers
-photo.212: https://www.instagram.com/p/CMSuDkeB2Xw/media/?size=m
-photo.212.author: hamamatsu.chiita
-photo.212.link: https://www.instagram.com/hamamatsu.chiita/
-photo.212.tags: close-up, portrait, whiskers
-photo.213: https://www.instagram.com/p/CMRVi2zB1qU/media/?size=m
-photo.213.author: akiakiakiko18
-photo.213.link: https://www.instagram.com/akiakiakiko18/
-photo.213.tags: paws, toys
+photo.212: ig://CMRVi2zB1qU/m
+photo.212.author: akiakiakiko18
+photo.212.commitdate: 2021/4/11
+photo.212.link: https://www.instagram.com/akiakiakiko18/
+photo.212.tags: paws, toys
+photo.213: ig://CMSuDkeB2Xw/m
+photo.213.author: hamamatsu.chiita
+photo.213.commitdate: 2021/4/11
+photo.213.link: https://www.instagram.com/hamamatsu.chiita/
+photo.213.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2

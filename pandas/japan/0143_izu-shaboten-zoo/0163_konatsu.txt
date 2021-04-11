@@ -332,7 +332,8 @@ photo.64.tags: laying down, portrait
 photo.65: ig://Bvv_UxxFcrF/m
 photo.65.author: rie_panda55
 photo.65.commitdate: 2019/4/3
-photo.65.link: apple time, keeper
+photo.65.link: https://www.instagram.com/rie_panda55/
+photo.65.tags: apple time, keeper
 photo.66: ig://Bvx3P30FFn2/m
 photo.66.author: hidehaya_biei
 photo.66.commitdate: 2019/4/5
@@ -523,7 +524,8 @@ photo.103.tags: bridge, mofumofu, techitechi, whiskers
 photo.104: ig://B4ZqmyyBp0r/m
 photo.104.author: pink.b22
 photo.104.commitdate: 2019/12/7
-photo.104.link: air tasting, laying down, portrait, tongue, whiskers
+photo.104.link: https://www.instagram.com/pink.b22/
+photo.104.tags: air tasting, laying down, portrait, tongue, whiskers
 photo.105: ig://B4b_TI2hojL/m
 photo.105.author: sasapan34
 photo.105.commitdate: 2019/11/5
@@ -754,8 +756,9 @@ photo.150.author: pink.b22
 photo.150.commitdate: 2021/3/28
 photo.150.link: https://www.instagram.com/pink.b22/
 photo.150.tags: mofumofu, portrait, whiskers
-photo.151: https://www.instagram.com/p/CMVeu3yhgty/media/?size=m
+photo.151: ig://CMVeu3yhgty/m
 photo.151.author: pink.b22
+photo.151.commitdate: 2021/4/11
 photo.151.link: https://www.instagram.com/pink.b22/
 photo.151.tags: air tasting, peek, portrait, tongue
 species: 2

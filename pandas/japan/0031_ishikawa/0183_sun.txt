@@ -318,15 +318,16 @@ photo.61.author: hamamatsu.chiita
 photo.61.commitdate: 2021/3/28
 photo.61.link: https://www.instagram.com/hamamatsu.chiita/
 photo.61.tags: bamboo, portrait, tail
-photo.62: ig://CNIDwAih8ul/m
-photo.62.author: bee_san.13
-photo.62.commitdate: 2021/4/7
-photo.62.link: https://www.instagram.com/bee_san.13/
-photo.62.tags: portrait, smile, tree
-photo.63: https://www.instagram.com/p/CMVdi2sBIeH/media/?size=m
-photo.63.author: hamamatsu.chiita
-photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: mofumofu, portrait, white face
+photo.62: ig://CMVdi2sBIeH/m
+photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2021/4/11
+photo.62.link: https://www.instagram.com/hamamatsu.chiita/
+photo.62.tags: mofumofu, portrait, white face
+photo.63: ig://CNIDwAih8ul/m
+photo.63.author: bee_san.13
+photo.63.commitdate: 2021/4/7
+photo.63.link: https://www.instagram.com/bee_san.13/
+photo.63.tags: portrait, smile, tree
 species: 2
 studbook.id: 15162
 zoo: 31

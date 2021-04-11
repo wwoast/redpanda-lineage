@@ -414,8 +414,9 @@ photo.80.author: mini_cochi
 photo.80.commitdate: 2021/3/10
 photo.80.link: https://www.instagram.com/mini_cochi/
 photo.80.tags: apple time, paws, portrait, standing
-photo.81: https://www.instagram.com/p/CMRuT_TheZ_/media/?size=m
+photo.81: ig://CMRuT_TheZ_/m
 photo.81.author: kotata_513
+photo.81.commitdate: 2021/4/11
 photo.81.link: https://www.instagram.com/kotata_513/
 photo.81.tags: paws, standing, window
 species: 2

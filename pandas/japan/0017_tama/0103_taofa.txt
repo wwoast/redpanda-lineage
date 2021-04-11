@@ -308,8 +308,9 @@ photo.59.author: redpan22
 photo.59.commitdate: 2021/1/31
 photo.59.link: https://www.instagram.com/redpan22/
 photo.59.tags: autumn, portrait, whiskers
-photo.60: https://www.instagram.com/p/CMUeT3uBHOe/media/?size=m
+photo.60: ig://CMUeT3uBHOe/m
 photo.60.author: redpan22
+photo.60.commitdate: 2021/4/11
 photo.60.link: https://www.instagram.com/redpan22/
 photo.60.tags: laying down, mofumofu, paws, portrait, smile, tongue
 species: 2
