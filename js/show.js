@@ -908,6 +908,7 @@ Show.button.random.action = function() {
   var randomChoices = pandaIds.concat(groupIds).concat(zooIds);
   window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
   Show.button.language.hide();   // If language menu open, hide it
+  Show.searchBar.toggle("bottomSearch");   // When clicked, kill this search bar
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
