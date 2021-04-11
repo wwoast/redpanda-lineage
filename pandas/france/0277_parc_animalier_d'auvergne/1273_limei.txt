@@ -1,0 +1,19 @@
+[panda]
+_id: 1273
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/10
+death:2018/10/27
+en.name: Limeï
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リメイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: unknown, unknown
+location.2: 277, unknown
+species: 1
+zoo: 277

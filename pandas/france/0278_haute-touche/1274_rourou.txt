@@ -1,0 +1,16 @@
+[panda]
+_id: 1274
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/11
+en.name: Rourou
+en.nicknames: none
+en.othernames: Rouroux
+gender: m
+jp.name: ルル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: unknown
+zoo: 278

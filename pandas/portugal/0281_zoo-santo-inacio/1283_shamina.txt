@@ -1,0 +1,18 @@
+[panda]
+_id: 1283
+birthday: 2018/7/1
+birthplace: 282
+children: unknown
+commitdate: 2021/4/11
+en.name: Shamina
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シャミナ
+jp.nicknames: none
+jp.othernames: none
+language.order:en, jp
+location.1: 282, 2018/7/1
+location.2: 281, 2019/7/3
+species: 1
+zoo: 281
