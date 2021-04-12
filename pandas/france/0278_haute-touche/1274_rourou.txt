@@ -12,5 +12,7 @@ jp.name: ルル
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.2: unknown, unknown
+location.2: 278, unknown
 species: unknown
 zoo: 278

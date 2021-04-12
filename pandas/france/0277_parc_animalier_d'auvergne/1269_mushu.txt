@@ -12,7 +12,8 @@ jp.name: ムシュ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
-location.1: 278, unknown
-location.2: 277, 2019/1/4
+location.1 unknown, 2016/6/7
+location.2: 278, unknown
+location.32: 277, 2019/1/4
 species: 1
 zoo: 277
