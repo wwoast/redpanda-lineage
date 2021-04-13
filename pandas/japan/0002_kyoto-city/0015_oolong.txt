@@ -666,7 +666,8 @@ photo.131.tags: apple time, smile, toys
 photo.132: ig://B9eHnjahg2J/m
 photo.132.author: redpanda_nippon_takashi
 photo.132.commitdate: 2020/6/5
-photo.132.link: paws, playing, portrait, toys
+photo.132.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.132.tags: paws, playing, portrait, toys
 photo.133: ig://B9jRJXFB0_4/m
 photo.133.author: jas_forever_love
 photo.133.commitdate: 2020/6/5
@@ -927,6 +928,11 @@ photo.184.author: hamamatsu.chiita
 photo.184.commitdate: 2021/4/3
 photo.184.link: https://www.instagram.com/hamamatsu.chiita/
 photo.184.tags: close-up, portrait, whiskers
+photo.185: ig://CM_9uerhI7z/m
+photo.185.author: apple_jasmine33
+photo.185.commitdate: 2021/4/10
+photo.185.link: https://www.instagram.com/apple_jasmine33/
+photo.185.tags: close-up, whiskers
 species: 2
 studbook.id: 11131
 zoo: 2

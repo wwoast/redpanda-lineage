@@ -15,7 +15,6 @@ language.order: jp, en
 litter: 233
 location.1: 37, 2017/7/15
 location.2: 2, 2020/3/6
-phoot.14.link: https://www.instagram.com/sasapan34/
 photo.1: ig://BbyxUv-F56-/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
@@ -89,6 +88,7 @@ photo.14.tags: bridge, paws, smile, tongue
 photo.15: ig://B56XAclhsmb/m
 photo.15.author: sasapan34
 photo.15.commitdate: 2019/12/16
+photo.15.link: https://www.instagram.com/sasapan34/
 photo.15.tags: bamboo, smile
 photo.16: ig://B9I_KUAhDT2/m
 photo.16.author: sasapan34
@@ -454,6 +454,16 @@ photo.88.author: hamamatsu.chiita
 photo.88.commitdate: 2021/3/21
 photo.88.link: https://www.instagram.com/hamamatsu.chiita/
 photo.88.tags: mofumofu, portrait, smile
+photo.89: ig://CMEzf4QB_EC/m
+photo.89.author: jas_forever_love
+photo.89.commitdate: 2021/4/10
+photo.89.link: https://www.instagram.com/jas_forever_love/
+photo.89.tags: bamboo, bite, paws, portrait
+photo.90: ig://CME42qhBAYy/m
+photo.90.author: apple_jasmine33
+photo.90.commitdate: 2021/4/10
+photo.90.link: https://www.instagram.com/apple_jasmine33/
+photo.90.tags: bamboo, paws, portrait, standing
 species: 2
 studbook.id: 1786
 zoo: 2

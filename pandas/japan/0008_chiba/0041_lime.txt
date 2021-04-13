@@ -419,11 +419,21 @@ photo.81.author: monmon_redpanda
 photo.81.commitdate: 2021/3/4
 photo.81.link: https://www.instagram.com/monmon_redpanda/
 photo.81.tags: bamboo, paws, portrait
-photo.82: ig://CMvWCRkhAyc/m
+photo.82: ig://CMN7LGOhjaK/m
 photo.82.author: alto0908
-photo.82.commitdate: 2021/4/2
+photo.82.commitdate: 2021/4/10
 photo.82.link: https://www.instagram.com/alto0908/
-photo.82.tags: bamboo, bite, paws, portrait
+photo.82.tags: peek, portrait, tree
+photo.83: ig://CMvWCRkhAyc/m
+photo.83.author: alto0908
+photo.83.commitdate: 2021/4/2
+photo.83.link: https://www.instagram.com/alto0908/
+photo.83.tags: bamboo, bite, paws, portrait
+photo.84: ig://CNEPFqFhP1s/m
+photo.84.author: ssc6105
+photo.84.commitdate: 2021/4/10
+photo.84.link: https://www.instagram.com/ssc6105/
+photo.84.tags: bamboo, paws, smile, standing
 species: 2
 studbook.id: 14165
 zoo: 8
