@@ -382,31 +382,36 @@ photo.74.author: colette.jp
 photo.74.commitdate: 2020/11/25
 photo.74.link: https://www.instagram.com/colette.jp/
 photo.74.tags: carry, paws, portrait
-photo.75: ig://CJDiCm8h5hR/m
-photo.75.author: love__mitarashi
-photo.75.commitdate: 2020/12/30
-photo.75.link: https://www.instagram.com/love__mitarashi/
-photo.75.tags: air tasting, bamboo, home, long-tongue, portrait, tongue
-photo.76: ig://CJqXg9yBBBI/m
+photo.75: ig://CI2diYDBkaI/m
+photo.75.author: yakkooo24
+photo.75.commitdate: 2021/4/10
+photo.75.link: https://www.instagram.com/yakkooo24/
+photo.75.tags: paws, portrait
+photo.76: ig://CJDiCm8h5hR/m
 photo.76.author: love__mitarashi
-photo.76.commitdate: 2021/1/8
+photo.76.commitdate: 2020/12/30
 photo.76.link: https://www.instagram.com/love__mitarashi/
-photo.76.tags: bamboo, laying down, portrait
-photo.77: ig://CLoTCOJBMEd/m
+photo.76.tags: air tasting, bamboo, home, long-tongue, portrait, tongue
+photo.77: ig://CJqXg9yBBBI/m
 photo.77.author: love__mitarashi
-photo.77.commitdate: 2021/3/21
+photo.77.commitdate: 2021/1/8
 photo.77.link: https://www.instagram.com/love__mitarashi/
-photo.77.tags: bamboo, laying down, peek, portrait
-photo.78: ig://CLtT8hJhSBZ/m
+photo.77.tags: bamboo, laying down, portrait
+photo.78: ig://CLoTCOJBMEd/m
 photo.78.author: love__mitarashi
-photo.78.commitdate: 2021/3/4
+photo.78.commitdate: 2021/3/21
 photo.78.link: https://www.instagram.com/love__mitarashi/
-photo.78.tags: home, portrait, techitechi
-photo.79: ig://CNKlJ9ZBd5K/m
+photo.78.tags: bamboo, laying down, peek, portrait
+photo.79: ig://CLtT8hJhSBZ/m
 photo.79.author: love__mitarashi
-photo.79.commitdate: 2021/4/4
+photo.79.commitdate: 2021/3/4
 photo.79.link: https://www.instagram.com/love__mitarashi/
-photo.79.tags: home, jizo, portrait
+photo.79.tags: home, portrait, techitechi
+photo.80: ig://CNKlJ9ZBd5K/m
+photo.80.author: love__mitarashi
+photo.80.commitdate: 2021/4/4
+photo.80.link: https://www.instagram.com/love__mitarashi/
+photo.80.tags: home, jizo, portrait
 species: 2
 studbook.id: 15129
 video.1: https://youtu.be/ByBVD2actpA

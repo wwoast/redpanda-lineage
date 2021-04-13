@@ -119,7 +119,7 @@ photo.20.tags: apple time, standing
 photo.21: ig://BwhHykkFCY9/m
 photo.21.author: ck.chie
 photo.21.commitdate: 2019/4/23
-photo.21.link: ig://BwhHykkFCY9/m
+photo.21.link: https://www.instagram.com/ck.chie/
 photo.21.tags: keeper, paws
 photo.22: ig://BxQ91sDF6NV/m
 photo.22.author: minatomirai215
@@ -424,6 +424,7 @@ photo.81.tags: apple time, bamboo, paws, portrait, smile
 photo.82: ig://CINx07zhOy5/m
 photo.82.author: rie_panda55
 photo.82.commitdate: 2020/12/8
+photo.82.link: https://www.instagram.com/rie_panda55/
 photo.82.tags: keeper, paws, portrait, standing, tail
 photo.83: ig://CITD4vDBhOn/m
 photo.83.author: minatomirai215
@@ -480,11 +481,16 @@ photo.93.author: minatomirai215
 photo.93.commitdate: 2021/3/21
 photo.93.link: https://www.instagram.com/minatomirai215/
 photo.93.tags: portrait, smile, tail, whiskers
-photo.94: ig://CNDIIT5hSsb/m
-photo.94.author: miis_98
-photo.94.commitdate: 2021/4/2
-photo.94.link: https://www.instagram.com/miis_98/
-photo.94.tags: home, portrait, tail, wet
+photo.94: ig://CMWtJqrBPvB/m
+photo.94.author: minatomirai215
+photo.94.commitdate: 2021/4/11
+photo.94.link: https://www.instagram.com/minatomirai215/
+photo.94.tags: apple time, bamboo, paws, portrait, smile, tail, tongue
+photo.95: ig://CNDIIT5hSsb/m
+photo.95.author: miis_98
+photo.95.commitdate: 2021/4/2
+photo.95.link: https://www.instagram.com/miis_98/
+photo.95.tags: home, portrait, tail, wet
 species: 2
 studbook.id: 12117
 zoo: 38

@@ -680,16 +680,21 @@ photo.134.author: redpan22
 photo.134.commitdate: 2021/3/21
 photo.134.link: https://www.instagram.com/redpan22/
 photo.134.tags: close-up, home, laying down, mofumofu, portrait, tree
-photo.135: ig://CNCzd9EBeE8/m
+photo.135: ig://CMMqJfrB5F2/m
 photo.135.author: redpan22
-photo.135.commitdate: 2021/4/2
+photo.135.commitdate: 2021/4/10
 photo.135.link: https://www.instagram.com/redpan22/
-photo.135.tags: portrait, whiskers
-photo.136: ig://CNLizvIBiyv/m
-photo.136.author: hamamatsu.chiita
-photo.136.commitdate: 2021/4/3
-photo.136.link: https://www.instagram.com/hamamatsu.chiita/
-photo.136.tags: close-up, mofumofu, nose, portrait
+photo.135.tags: grooming, tongue
+photo.136: ig://CNCzd9EBeE8/m
+photo.136.author: redpan22
+photo.136.commitdate: 2021/4/2
+photo.136.link: https://www.instagram.com/redpan22/
+photo.136.tags: portrait, whiskers
+photo.137: ig://CNLizvIBiyv/m
+photo.137.author: hamamatsu.chiita
+photo.137.commitdate: 2021/4/3
+photo.137.link: https://www.instagram.com/hamamatsu.chiita/
+photo.137.tags: close-up, mofumofu, nose, portrait
 species: 2
 studbook.id: 0987
 zoo: 10

@@ -1048,11 +1048,21 @@ photo.212.author: cattail.sapporo
 photo.212.commitdate: 2021/3/28
 photo.212.link: https://www.instagram.com/cattail.sapporo/
 photo.212.tags: portrait, snow, tail
-photo.213: ig://CNN7c1qhdAt/m
-photo.213.author: monmon_redpanda
-photo.213.commitdate: 2021/4/4
-photo.213.link: https://www.instagram.com/monmon_redpanda/
-photo.213.tags: portrait, whiskers
+photo.213: ig://CMXx7sTAO3x/m
+photo.213.author: cattail.sapporo
+photo.213.commitdate: 2021/4/11
+photo.213.link: https://www.instagram.com/cattail.sapporo/
+photo.213.tags: blink, portrait, smile
+photo.214: ig://CNChkMmgW-2/m
+photo.214.author: cattail.sapporo
+photo.214.commitdate: 2021/4/10
+photo.214.link: https://www.instagram.com/cattail.sapporo/
+photo.214.tags: dish, keeper, portrait, smile, whiskers
+photo.215: ig://CNN7c1qhdAt/m
+photo.215.author: monmon_redpanda
+photo.215.commitdate: 2021/4/4
+photo.215.link: https://www.instagram.com/monmon_redpanda/
+photo.215.tags: portrait, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7

@@ -195,6 +195,12 @@ class SectionNameError(ValueError):
 class SpeciesError(ValueError):
     pass
 
+class TagsError(ValueError):
+    pass
+    
+class UrlError(ValueError):
+    pass
+
 # Shared classes
 class ProperlyDelimitedConfigParser(configparser.ConfigParser):
     """

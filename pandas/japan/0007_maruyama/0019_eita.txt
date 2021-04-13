@@ -603,7 +603,7 @@ photo.118.tags: paws, portrait, standing, tree
 photo.119: ig://B2rHxM8h0OE/m
 photo.119.author: mifko55
 photo.119.commitdate: 2019/10/1
-photo.119.link: ig://B2rHxM8h0OE/m
+photo.119.link: https://www.instagram.com/mifko55/
 photo.119.tags: paws, portrait, smile, standing
 photo.120: ig://B2rSrkYh9PH/m
 photo.120.author: _rifa_p
@@ -1260,21 +1260,26 @@ photo.251.author: cattail.sapporo
 photo.251.commitdate: 2021/3/7
 photo.251.link: https://www.instagram.com/cattail.sapporo/
 photo.251.tags: close-up, nose, portrait
-photo.252: ig://CMJqLkKABy5/m
+photo.252: ig://CMCIdNAgPWX/m
 photo.252.author: cattail.sapporo
-photo.252.commitdate: 2021/3/28
+photo.252.commitdate: 2021/4/10
 photo.252.link: https://www.instagram.com/cattail.sapporo/
-photo.252.tags: portrait, snow, tail
-photo.253: ig://CMM4M_ggkDO/m
+photo.252.tags: bamboo, blink, portrait, smile, tongue
+photo.253: ig://CMJqLkKABy5/m
 photo.253.author: cattail.sapporo
 photo.253.commitdate: 2021/3/28
 photo.253.link: https://www.instagram.com/cattail.sapporo/
 photo.253.tags: portrait, snow, tail
-photo.254: ig://CMabkL-grh2/m
+photo.254: ig://CMM4M_ggkDO/m
 photo.254.author: cattail.sapporo
-photo.254.commitdate: 2021/3/29
+photo.254.commitdate: 2021/3/28
 photo.254.link: https://www.instagram.com/cattail.sapporo/
-photo.254.tags: close-up, laying down, mofumofu, sleeping
+photo.254.tags: portrait, snow, tail
+photo.255: ig://CMabkL-grh2/m
+photo.255.author: cattail.sapporo
+photo.255.commitdate: 2021/3/29
+photo.255.link: https://www.instagram.com/cattail.sapporo/
+photo.255.tags: close-up, laying down, mofumofu, sleeping
 species: 2
 studbook.id: 10108
 zoo: 7
