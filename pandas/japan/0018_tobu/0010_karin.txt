@@ -93,7 +93,7 @@ photo.15.tags: itchy
 photo.16: ig://Bxv7eA2hbZz/m
 photo.16.author: na.mo.pan
 photo.16.commitdate: 2019/5/29
-photo.16.link: ig://Bxv7eA2hbZz/m
+photo.16.link: https://www.instagram.com/na.mo.pan/
 photo.16.tags: paws, tongue
 photo.17: ig://B0BbAG9hAl5/m
 photo.17.author: panda.daisuki
@@ -530,6 +530,11 @@ photo.103.author: pink.b22
 photo.103.commitdate: 2021/3/28
 photo.103.link: https://www.instagram.com/pink.b22/
 photo.103.tags: bamboo, bite, mofumofu, portrait, tongue
+photo.104: ig://CMCOyafhlk2/m
+photo.104.author: ssc6105
+photo.104.commitdate: 2021/4/10
+photo.104.link: https://www.instagram.com/ssc6105/
+photo.104.tags: peek
 species: 2
 studbook.id: 1295
 zoo: 18

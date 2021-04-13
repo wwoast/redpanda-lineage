@@ -217,6 +217,12 @@ class RedPandaGraph:
             raise GenderFormatError("ERROR: %s: unsupported gender: %s" 
                                     % (sourcepath, gender))
 
+    def check_imported_link(self, link, field, sourcepath):
+        """Is the imported author link not a URL? Manual entry error..."""
+        if ("http://" not in link and "https://" not in link):
+            raise UrlError("ERROR: %s: %s: not a URL: %s"
+                           % (sourcepath, field, link))            
+
     def check_imported_name(self, name, field, sourcepath):
         """Ensure the name strings are not longer than 80 characters.
     
@@ -226,7 +232,13 @@ class RedPandaGraph:
         if len(name) > 100:
             raise NameFormatError("ERROR: %s: %s name too long: %s"
                                   % (sourcepath, field, name))
-    
+
+    def check_imported_tags(self, tags, field, sourcepath):
+        """Is the imported author link not a URL? Manual entry error..."""
+        if ("http://" in tags or "https://" in tags):
+            raise TagsError("ERROR: %s: %s: looks like URL: %s"
+                           % (sourcepath, field, tags))
+
     def check_imported_wild_id(self, wild_id, sourcepath):
         """Validate that the ID for a panda's zoo is valid."""
         if wild_id not in [wild['_id'] for wild in self.wilds]:
@@ -482,6 +494,12 @@ class RedPandaGraph:
                     self.photo["credit"][author] = 1
                     # If author name has spacies in it, add to the lexer list
                     self.process_lexer_names(author)
+                # Validate the URL of the author link
+                link = infile.get("panda", field[0] + ".link")
+                self.check_imported_link(link, field[0], path)
+                # Validate the tags aren't accidentally a URL
+                tags = infile.get("panda", field[0] + ".tags", fallback="empty")
+                self.check_imported_tags(tags, field[0], path)
                 # Track what the max number of panda photos an object has is
                 test_count = int(field[0].split(".")[1])
                 if test_count > self.photo["max"]:

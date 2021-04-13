@@ -335,7 +335,8 @@ photo.66.tags: peek, portrait
 photo.67: ig://B0-zMLeBIAj/m
 photo.67.author: falcon_tenor
 photo.67.commitdate: 2019/8/12
-photo.67.link: apple time, keeper, portrait, smile, window
+photo.67.link: https://www.instagram.com/falcon_tenor/
+photo.67.tags: apple time, keeper, portrait, smile, window
 photo.68: ig://B1Dt7I4hFM1/m
 photo.68.author: colette.jp
 photo.68.commitdate: 2019/8/13
@@ -846,6 +847,11 @@ photo.169.author: falcon_tenor
 photo.169.commitdate: 2021/3/28
 photo.169.link: https://www.instagram.com/falcon_tenor/
 photo.169.tags: peek, portrait, smile
+photo.170: ig://CNFG4fXhmMA/m
+photo.170.author: daniele.tokyo
+photo.170.commitdate: 2021/4/10
+photo.170.link: https://www.instagram.com/daniele.tokyo/
+photo.170.tags: baby, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

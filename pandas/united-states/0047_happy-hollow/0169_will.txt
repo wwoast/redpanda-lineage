@@ -222,7 +222,8 @@ photo.42.tags: peek, portrait
 photo.43: ig://B5yPioSAzao/m
 photo.43.author: zookeeper_aj
 photo.43.commitdate: 2019/12/11
-photo.43.link: bamboo, bite, paws
+photo.43.link: https://www.instagram.com/zookeeper_aj/
+photo.43.tags: bamboo, bite, paws
 photo.44: ig://B7WLogxBejV/m
 photo.44.author: wumpwoast
 photo.44.commitdate: 2020/1/16
