@@ -1,0 +1,15 @@
+[zoo]
+_id: 284
+commitdate: 2021/4/11
+de.address: Tiergartenstraße 1, 01219 Dresden, Deutschland
+de.location: Dresden, Deutschland
+de.name: Zoo Dresden
+en.address: Tiergartenstraße 1, 01219 Dresden, Germany
+en.location: Dresden, Germany
+en.name: Zoo Dresden
+flag: Germany
+language.order: de, en
+latitude: 51.0371826
+longitude: 13.7502553
+map: https://goo.gl/maps/K9DKbqvJvLuy19BK6
+website: https://www.zoo-dresden.de/

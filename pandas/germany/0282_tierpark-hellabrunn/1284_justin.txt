@@ -1,0 +1,18 @@
+[panda]
+_id: 1284
+birthday: 2016/6/22
+birthplace: 259
+children: 1283, 1287, 1288
+commitdate: 2021/4/11
+en.name: Justin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャスティン
+jp.nicknames: none
+jp.othernames: none
+language.order:en, jp
+location.1: 259, 2016/6/22
+location.2: 282, 2017/3/7
+species: 1
+zoo: 282

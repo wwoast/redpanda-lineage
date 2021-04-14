@@ -1,0 +1,18 @@
+[panda]
+_id: 1282
+birthday: unknown
+birthplace: 280
+children: unknown
+commitdate: 2021/4/11
+en.name: Khyana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キアナ
+jp.nicknames: none
+jp.othernames: none
+language.order:en, jp
+location.1: 280, unknown
+location.2: 281, 2019/7/23
+species: 1
+zoo: 281

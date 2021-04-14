@@ -1,0 +1,16 @@
+[panda]
+_id: 1288
+birthday: 2020/7/10
+birthplace: 282
+children: none
+commitdate: 2021/4/11
+en.name: Ulli
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウリ
+jp.nicknames: none
+jp.othernames: none
+language.order:en, jp
+species: 1
+zoo: 282

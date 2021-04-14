@@ -1,0 +1,19 @@
+[panda]
+_id: 1289
+birthday: unknown
+birthplace: 284
+children: unknown
+commitdate: 2021/4/11
+death: 2016/7/25
+en.name: Ying
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イン
+jp.nicknames: none
+jp.othernames: none
+language.order:en, jp
+location.1: 284, unknown
+location.2: 282, unknown
+species: 1
+zoo: 282
