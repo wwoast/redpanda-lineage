@@ -147,7 +147,7 @@ Pandas.def.gender = {
     "es": "hembra",
     "jp": "メス",
     "np": "महिला",
-	"pt": "fêmea"
+    "pt": "fêmea"
   },
   "Male": {
     "cn": "男",
@@ -155,7 +155,7 @@ Pandas.def.gender = {
     "es": "macho",
     "jp": "オス",
     "np": "नर",
-	"pt": "macho"
+    "pt": "macho"
   }
 }
 
@@ -177,7 +177,7 @@ Pandas.def.authors = {
     "es": "anónimo",
     "jp": "匿名",
     "np": "बेनामी",
-	"pt": "anônimo"
+    "pt": "anônimo"
   },
   "uncredited": {
     "cn": "沒有信用",
@@ -185,7 +185,7 @@ Pandas.def.authors = {
     "es": "sin acreditar",
     "jp": "信用されていない",
     "np": "अप्रत्याशित",
-	"pt": "não creditado"
+    "pt": "não creditado"
   }
 }
 
@@ -231,7 +231,7 @@ Pandas.def.relations = {
     "es": "tía",
     "jp": "叔母",
     "np": "काकी",
-	"pt": "tia"
+    "pt": "tia"
   },
   "brother": {
     "cn": "兄",
@@ -239,7 +239,7 @@ Pandas.def.relations = {
     "es": "hermano",
     "jp": "兄",
     "np": "भाई",
-	"pt": "irmão"
+    "pt": "irmão"
   },
   "children": {
     "cn": "孩子",
@@ -247,7 +247,7 @@ Pandas.def.relations = {
     "es": "niños",
     "jp": "子供",
     "np": "बच्चाहरु",
-	"pt": "filhos(as)"
+    "pt": "filhos(as)"
   },
   "cousin": {
     "cn": "表姐",
@@ -255,7 +255,7 @@ Pandas.def.relations = {
     "es": "primo",
     "jp": "いとこ",
     "np": "भान्जा",
-	"pt": "primo(a)"
+    "pt": "primo(a)"
   },
   "father": {
     "cn": "父",
@@ -263,7 +263,7 @@ Pandas.def.relations = {
     "es": "padre",
     "jp": "父",
     "np": "बुबा",
-	"pt": "pai"
+    "pt": "pai"
   },
   "grandfather": {
     "cn": "祖父",
@@ -271,7 +271,7 @@ Pandas.def.relations = {
     "es": "abuelo",
     "jp": "おじいちゃん",
     "np": "हजुरबुबा",
-	"pt": "avô"
+    "pt": "avô"
   },
   "grandmother": {
     "cn": "祖母",
@@ -279,7 +279,7 @@ Pandas.def.relations = {
     "es": "abuela",
     "jp": "おばあちゃん",
     "np": "हजुरआमा",
-	"pt": "avó"
+    "pt": "avó"
   },
   "litter": {
     "cn": "轿子",
@@ -287,7 +287,7 @@ Pandas.def.relations = {
     "es": "camada",
     "jp": "双子",   /* "同腹仔" */
     "np": "रोटी",
-	"pt": "ninhada"
+    "pt": "ninhada"
   },
   "mother": {
     "cn": "母",
@@ -295,7 +295,7 @@ Pandas.def.relations = {
     "es": "madre",
     "jp": "母",
     "np": "आमा",
-	"pt": "mãe"
+    "pt": "mãe"
   },
   "nephew": {
     "cn": "外甥",
@@ -303,7 +303,7 @@ Pandas.def.relations = {
     "es": "sobrino",
     "jp": "甥",
     "np": "भतिजा",
-	"pt": "sobrinho"
+    "pt": "sobrinho"
   },
   "niece": {
     "cn": "侄女",
@@ -311,7 +311,7 @@ Pandas.def.relations = {
     "es": "sobrina",
     "jp": "姪",
     "np": "भान्जी",
-	"pt": "sobrinha"
+    "pt": "sobrinha"
   },
   "parents": {
     "cn": "父母",
@@ -319,7 +319,7 @@ Pandas.def.relations = {
     "es": "padres",
     "jp": "両親",
     "np": "अभिभावक",
-	"pt": "pais"
+    "pt": "pais"
   },
   "sister": {
     "cn": "妹妹",
@@ -327,7 +327,7 @@ Pandas.def.relations = {
     "es": "hermana",
     "jp": "姉",
     "np": "बहिनी",
-	"pt": "irmã"
+    "pt": "irmã"
   },
   "siblings": {
     "cn": "兄弟姐妹",
@@ -335,7 +335,7 @@ Pandas.def.relations = {
     "es": "hermanos",
     "jp": "兄弟",
     "np": "भाइबहिनीहरू",
-	"pt": "irmãos(ãs)"
+    "pt": "irmãos(ãs)"
   },
   "uncle": {
     "cn": "叔叔",
@@ -343,7 +343,7 @@ Pandas.def.relations = {
     "es": "tío",
     "jp": "叔父",
     "np": "काका",
-	"pt": "tio
+    "pt": "tio"
   }
 }
 

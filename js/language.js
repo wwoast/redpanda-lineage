@@ -239,7 +239,7 @@ Language.L.flags = {
        "Austria": "🇦🇹",
        "Belgium": "🇧🇪",
         "Bhutan": "🇧🇹",
-		"Brazil": "🇧🇷",
+        "Brazil": "🇧🇷",
         "Canada": "🇨🇦",
          "Chile": "🇨🇱",
          "China": "🇨🇳",
@@ -261,7 +261,7 @@ Language.L.flags = {
    "Netherlands": "🇳🇱",
    "New Zealand": "🇳🇿",
         "Poland": "🇵🇱",
-	  "Portugal": "🇵🇹",
+      "Portugal": "🇵🇹",
         "Russia": "🇷🇺",
      "Singapore": "🇸🇬",
       "Slovakia": "🇸🇰",
@@ -281,7 +281,7 @@ Language.L.gui = {
     "es": "Acerca\xa0de",
     "jp": "概要",
     "np": "बारेमा",
-	"pt": "Sobre"
+    "pt": "Sobre"
   },
   "autumn": {
     "cn": "秋",
@@ -289,7 +289,7 @@ Language.L.gui = {
     "es": "Otoño",
     "jp": "秋",
     "np": "शरद तु",
-	"pt": "Outono"
+    "pt": "Outono"
   },
   "babies": {
     "cn": "婴儿",
@@ -297,7 +297,7 @@ Language.L.gui = {
     "es": "Bebés",
     "jp": "乳幼児",
     "np": "बच्चाहरु",
-	"pt": "Bebês"
+    "pt": "Bebês"
   },
   "children": {
     "cn": Pandas.def.relations.children["cn"],
@@ -305,7 +305,7 @@ Language.L.gui = {
     "es": "Niños",
     "jp": Pandas.def.relations.children["jp"],
     "np": "बच्चाहरु",
-	"pt": "Filhos(as)"
+    "pt": "Filhos(as)"
   },
   "contribute": {
     "cn": "上传照片",
@@ -313,7 +313,7 @@ Language.L.gui = {
     "es": "Enviar una foto",
     "jp": "写真を提出する",
     "np": "फोटो पेश गर्नुहोस्",
-	"pt": "Enviar uma foto"
+    "pt": "Enviar uma foto"
   },
   "contribute_link": {
     "en": "https://docs.google.com/forms/d/1kKBv92o09wFIBFcvooYLm2cG8XksGcVQQSiu9SpHGf0",
@@ -325,7 +325,7 @@ Language.L.gui = {
     "es": "Copiado",
     "jp": "写す",
     "np": "अनुकरण गनु",
-	"pt": "Copiado"
+    "pt": "Copiado"
   },
   "fall": {
     "cn": "秋",   // Convenience duplicate of autumn
@@ -333,7 +333,7 @@ Language.L.gui = {
     "es": "Otoño",
     "jp": "秋",
     "np": "शरद तु",
-	"pt": "Outono"
+    "pt": "Outono"
   },
   "family": {
     "cn": "家族",
@@ -341,7 +341,7 @@ Language.L.gui = {
     "es": "Familia",
     "jp": "ファミリ",
     "np": "परिवार",
-	"pt": "Família"
+    "pt": "Família"
   },
   "father": {
     "cn": "父亲",
@@ -349,7 +349,7 @@ Language.L.gui = {
     "es": "Padre",
     "jp": "父",
     "np": "बुबा",
-	"pt": "Pai"
+    "pt": "Pai"
   },
   "flag": {
     "cn": Language.L.flags["China"],
@@ -357,7 +357,7 @@ Language.L.gui = {
     "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"],
     "np": Language.L.flags["Nepal"],
-	"pt": Language.L.flags["Brazil"]
+    "pt": Language.L.flags["Brazil"]
   },
   "footerLink_rpf": {
     "cn": "小熊猫族谱项目",
@@ -381,7 +381,7 @@ Language.L.gui = {
     "es": "Home",
     "jp": "ホーム",
     "np": "होमपेज",
-	"pt:" "Início"
+    "pt": "Início"
   },
   "instagramLinks_body": {
     "cn": "",
@@ -407,7 +407,7 @@ Language.L.gui = {
     "es": "Pandas rojos en Instagram",
     "jp": "Instagram レッサーパンダ",
     "np": "Instagram निगल्य पोन्या",
-	"pt": "Pandas-vermelhos no Instagram"
+    "pt": "Pandas-vermelhos no Instagram"
   },
   "language": {
     "cn": {
@@ -418,7 +418,7 @@ Language.L.gui = {
       "kr": "朝鮮语",
       "np": "尼泊尔语",
       "pl": "波兰语",
-	  "pt": "葡萄牙语",
+      "pt": "葡萄牙语",
       "ru": "俄语",
       "se": "瑞典"
     },
@@ -430,7 +430,7 @@ Language.L.gui = {
       "kr": "Korean",
       "np": "Nepalese",
       "pl": "Polish",
-	  "pt": "Portuguese",
+      "pt": "Portuguese",
       "ru": "Russian",
       "se": "Swedish"
     },
@@ -442,7 +442,7 @@ Language.L.gui = {
       "kr": "Coreano",
       "np": "Nepalés",
       "pl": "Polaco",
-	  "pt": "Portugués",
+      "pt": "Portugués",
       "ru": "Ruso",
       "se": "Sueco"
     },
@@ -454,7 +454,7 @@ Language.L.gui = {
       "kr": "韓国語",
       "np": "ネパール語",
       "pl": "ポーランド語",
-	  "pt": "ポルトガル語",
+      "pt": "ポルトガル語",
       "ru": "ロシア語",
       "se": "スウェーデン"
     },
@@ -466,7 +466,7 @@ Language.L.gui = {
       "kr": "कोरियन",
       "np": "नेपाली",
       "pl": "पोलिश",
-	  "pt": "पोर्तुगाली",
+      "pt": "पोर्तुगाली",
       "ru": "रसियन",
       "se": "स्वीडिश"
     },
@@ -478,7 +478,7 @@ Language.L.gui = {
       "kr": "Coreano",
       "np": "Nepalês",
       "pl": "Polonês",
-	  "pt": "Português",
+      "pt": "Português",
       "ru": "Russo",
       "se": "Sueco"
     },
@@ -490,7 +490,7 @@ Language.L.gui = {
       "kr": "корейский",
       "np": "непальский",
       "pl": "польский",
-	  "pt": "португа́льский",
+      "pt": "португа́льский",
       "ru": "русский",
       "se": "шведский"
     },
@@ -502,7 +502,7 @@ Language.L.gui = {
       "kr": "Koreanska",
       "np": "Nepali",
       "pl": "Polska",
-	  "pt": "Portugisiska",
+      "pt": "Portugisiska",
       "ru": "Ryska",
       "se": "Svenska"
     }
@@ -513,7 +513,7 @@ Language.L.gui = {
     "es": "Cargando",
     "jp": "ローディング",
     "np": "लोड",
-	"pt": "Carregando..."
+    "pt": "Carregando..."
   },
   "litter": {
     "cn": Pandas.def.relations.litter["cn"],
@@ -521,7 +521,7 @@ Language.L.gui = {
     "es": "Camada",
     "jp": Pandas.def.relations.litter["jp"],
     "np": "रोटी",
-	"pt": "Ninhada"
+    "pt": "Ninhada"
   },
   "links": {
     "cn": "链接",
@@ -529,7 +529,7 @@ Language.L.gui = {
     "es": "Enlaces",
     "jp": "リンク",
     "np": "लिंक",
-	"pt": "Links"
+    "pt": "Links"
   },
   "me": {
     "cn": "我",
@@ -537,7 +537,7 @@ Language.L.gui = {
     "es": "Me",
     "jp": "私",
     "np": "म",
-	"pt": "Eu"
+    "pt": "Eu"
   },
   "media": {
     "cn": "媒体",
@@ -545,7 +545,7 @@ Language.L.gui = {
     "es": "Imagenes",
     "jp": "メディア",
     "np": "मिडिया",
-	"pt": "Imagens"
+    "pt": "Imagens"
   },
   "mother": {
     "cn": "母亲",
@@ -553,7 +553,7 @@ Language.L.gui = {
     "es": "Madre",
     "jp": "母",
     "np": "आमा",
-	"pt": "Mãe"
+    "pt": "Mãe"
   },
   "nicknames": {
     "cn": "昵称",
@@ -561,7 +561,7 @@ Language.L.gui = {
     "es": "Apodos",
     "jp": "ニックネーム",
     "np": "उपनामहरू",
-	"pt": "Apelidos"
+    "pt": "Apelidos"
   },
   "othernames": {
     "cn": "其他名称",
@@ -569,7 +569,7 @@ Language.L.gui = {
     "es": "Otros nombres",
     "jp": "他の名前",
     "np": "अरु नामहरु",
-	"pt": "Outros nomes"
+    "pt": "Outros nomes"
   },
   "paging": {
     "cn": "更多",
@@ -577,7 +577,7 @@ Language.L.gui = {
     "es": "Ver Más",
     "jp": "もっと",
     "np": "अधिक",
-	"pt": "Mais"
+    "pt": "Mais"
   },
   "parents": {
     "cn": Pandas.def.relations.parents["cn"],
@@ -585,7 +585,7 @@ Language.L.gui = {
     "es": "Padres",
     "jp": Pandas.def.relations.parents["jp"],
     "np": "अभिभावक",
-	"pt": "Pais"
+    "pt": "Pais"
   },
   "profile": {
     "cn": "档案",
@@ -593,7 +593,7 @@ Language.L.gui = {
     "es": "Perfil",
     "jp": "プロフィール",
     "np": "प्रोफाइल",
-	"pt": "Perfil"
+    "pt": "Perfil"
   },
   "quadruplet": {
     "cn": "四胞胎",
@@ -601,7 +601,7 @@ Language.L.gui = {
     "es": "Cuatrillizo",
     "jp": "四つ子",
     "np": "प्रोफाइल",
-	"pt": "Quadrigêmeos"
+    "pt": "Quadrigêmeos"
   },
   "random": {
     "cn": "随机",
@@ -609,7 +609,7 @@ Language.L.gui = {
     "es": "Aleatorio",
     "jp": "適当",
     "np": "अनियमित",
-	"pt": "Aleatório"
+    "pt": "Aleatório"
   },
   "redPandaCommunity_body": {
     "cn": "",
@@ -617,7 +617,7 @@ Language.L.gui = {
     "es": "",
     "jp": "",
     "np": "",
-	"pt": ""
+    "pt": ""
   },
   "redPandaCommunity_button": {
     "cn": "社区",
@@ -625,7 +625,7 @@ Language.L.gui = {
     "es": "Comunidad",
     "jp": "共同体",
     "np": "समुदाय",
-	"pt": "Comunidade"
+    "pt": "Comunidade"
   },
   "redPandaCommunity_header": {
     "cn": "小熊猫社区",
@@ -633,7 +633,7 @@ Language.L.gui = {
     "es": "Comunidad del Panda Rojo",
     "jp": "レッサーパンダの共同体",
     "np": "निगल्य पोन्या समुदाय",
-	"pt": "Comunidade do Panda-Vermelho"
+    "pt": "Comunidade do Panda-Vermelho"
   },
   "refresh": {
     "cn": "刷新",
@@ -641,7 +641,7 @@ Language.L.gui = {
     "es": "Refrescar",
     "jp": "リロード",
     "np": "ताजा गर्नु",
-	"pt": "Atualizar"
+    "pt": "Atualizar"
   },
   "search": {
     "cn": "搜索...",
@@ -649,7 +649,7 @@ Language.L.gui = {
     "es": "Buscar...",
     "jp": "サーチ...",
     "np": "खोज्नु",
-	"pt": "Pesquisar..."
+    "pt": "Pesquisar..."
   },
   "seen_date": {
     "cn": "目击日期 <INSERTDATE>",
@@ -657,7 +657,7 @@ Language.L.gui = {
     "es": "Visto <INSERTDATE>",
     "jp": "TOWRITE <INSERTDATE>",
     "np": "TOWRITE <INSERTDATE>",
-	"pt": "Visto em <INSERTDATE>"
+    "pt": "Visto em <INSERTDATE>"
   },
   "siblings": {
     "cn": Pandas.def.relations.siblings["cn"],
@@ -665,7 +665,7 @@ Language.L.gui = {
     "es": "Hermanos",
     "jp": Pandas.def.relations.siblings["jp"],
     "np": "भाइबहिनीहरू",
-	"pt": "Irmã(o)s"
+    "pt": "Irmã(o)s"
   },
   "since_date": {
     "cn": "自 <INSERTDATE>",
@@ -673,7 +673,7 @@ Language.L.gui = {
     "es": "Ya que <INSERTDATE>",
     "jp": "<INSERTDATE>から",
     "np": "<INSERTDATE>देखि",
-	"pt": "Desde <INSERTDATE>"
+    "pt": "Desde <INSERTDATE>"
   },
   "specialThanksLinks_body": {
     "cn": "",
@@ -681,7 +681,7 @@ Language.L.gui = {
     "es": "",
     "jp": "",
     "np": "",
-	"pt": ""
+    "pt": ""
   },
   "specialThanksLinks_button": {
     "cn": "鸣谢",
@@ -689,7 +689,7 @@ Language.L.gui = {
     "es": "Agradecimientos",
     "jp": "感佩",
     "np": "विशेष धन्यवाद",
-	"pt": "Agradecimentos Especiais"
+    "pt": "Agradecimentos Especiais"
   },
   "specialThanksLinks_header": {
     "cn": "鸣谢",
@@ -697,7 +697,7 @@ Language.L.gui = {
     "es": "Agradecimientos Especiales",
     "jp": "感佩",
     "np": "विशेष धन्यवाद",
-	"pt": "Agradecimentos Especiais"
+    "pt": "Agradecimentos Especiais"
   },
   "spring": {
     "cn": "春",
@@ -705,7 +705,7 @@ Language.L.gui = {
     "es": "Primavera",
     "jp": "春",
     "np": "वसन्त",
-	"pt": "Primavera"
+    "pt": "Primavera"
   },
   "summer": {
     "cn": "夏",
@@ -713,7 +713,7 @@ Language.L.gui = {
     "es": "Verano",
     "jp": "夏",
     "np": "गर्मी",
-	"pt": "Verão"
+    "pt": "Verão"
   },
   "title": {
     "cn": "查找小熊猫",
@@ -721,7 +721,7 @@ Language.L.gui = {
     "es": "Buscador de Panda Rojo",
     "jp": "レッサーパンダのファインダー",
     "np": "निगल्या पोनिया मित्र",
-	"pt": "Buscador de Pandas-Vermelhos"
+    "pt": "Buscador de Pandas-Vermelhos"
   },
   "top": {
     "cn": "顶部",
@@ -729,7 +729,7 @@ Language.L.gui = {
     "es": "Arriba",
     "jp": "上",
     "np": "माथि",
-	"pt": "Para cima"
+    "pt": "Para cima"
   },
   "tree": {
     "cn": "树",
@@ -737,7 +737,7 @@ Language.L.gui = {
     "es": "Árbol",
     "jp": "木",
     "np": "रूख",
-	"pt": "Árvore"
+    "pt": "Árvore"
   },
   "twin": {
     "cn": "双胞胎",
@@ -745,7 +745,7 @@ Language.L.gui = {
     "es": "Mellizo",
     "jp": "双子",
     "np": "जुम्ल्याहा",
-	"pt": "Gêmeo"
+    "pt": "Gêmeo"
   },
   "triplet": {
     "cn": "三胞胎",
@@ -753,7 +753,7 @@ Language.L.gui = {
     "es": "Trillizo",
     "jp": "三つ子",
     "np": "तीनवटा",
-	"pt": "Trigêmeo"
+    "pt": "Trigêmeo"
   },
   "winter": {
     "cn": "冬",
@@ -761,7 +761,7 @@ Language.L.gui = {
     "es": "Invierno",
     "jp": "冬",
     "np": "जाडो",
-	"pt": "Inverno"
+    "pt": "Inverno"
   },
   "zooLinks_body": {
     "cn": "",
@@ -777,7 +777,7 @@ Language.L.gui = {
     "es": "Zoológicos",
     "jp": "動物園",
     "np": "चिडियाखाना",
-	"pt": "Zoológicos"
+    "pt": "Zoológicos"
   },
   "zooLinks_header": {
     "cn": "小熊猫动物园",
@@ -785,7 +785,7 @@ Language.L.gui = {
     "es": "Principales Zoológicos de Pandas Rojos",
     "jp": "レッサーパンダの動物園",
     "np": "प्रमुख चिडियाखाना",
-	"pt": "Principais zoológicos com pandas-vermelhos".
+    "pt": "Principais zoológicos com pandas-vermelhos"
   }
 }
 
@@ -796,7 +796,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-	"pt": "e"
+    "pt": "e"
   },
   "and_words": {
     "cn": "和",
@@ -804,7 +804,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-	"pt": "e"
+    "pt": "e"
   },
   "arrived_from_zoo": {
     "cn": ["<INSERTDATE>",
@@ -1139,7 +1139,7 @@ Language.L.messages = {
     "es": ["¡Feliz Día de la Madre!"],
     "jp": ["母の日おめでとう"],
     "np": ["खुसी आमाको दिन!"],
-	"pt": ["Feliz Dia das Mães!"]
+    "pt": ["Feliz Dia das Mães!"]
   },
   "list_comma": {
     "cn": "、",
@@ -2156,7 +2156,8 @@ Language.L.messages = {
            "डरलाग्दो कद्दु", " ",
            Language.L.emoji.pumpkin],
     "pt": [Language.L.emoji.pumpkin, " ",
-           "Gostosuras ou travessuras", " "
+           "Gostosuras ou travessuras", " ",
+           Language.L.emoji.pumpkin],
   },
   "zoo_details_babies": {
     "cn": [Language.L.emoji.baby,
@@ -2378,7 +2379,7 @@ Language.L.polyglots = {
     "es": ["bebé", "bebe", "bebés", "bebes"],
     "jp": ["赤", "赤ちゃん"],
     "np": ["बच्चा"],
-	"pt": ["bebê", "bebês", "bebé", "bebés"]
+    "pt": ["bebê", "bebês", "bebé", "bebés"]
   }
 }
 
@@ -2397,7 +2398,7 @@ Language.L.tags = {
        "es": ["saboreando el aire"],
        "jp": ["舌ヒラヒラ"],
        "np": ["हावा चाख्ने"],
-	   "pt": ["degustando o ar", "gosto do ar"]
+       "pt": ["degustando o ar", "gosto do ar"]
   },
   "apple time": {
        "cn": ["苹果时间", "苹果"],
@@ -2406,7 +2407,7 @@ Language.L.tags = {
        "es": ["hora de la manazana", "manzana"],
        "jp": ["りんごタイム", "りんご"],
        "np": ["स्याउ समय", "स्याउ"],
-	   "pt": ["hora da maçã", "maçã"]
+       "pt": ["hora da maçã", "maçã"]
   },
   "autumn": {
        "cn": ["秋天"],
@@ -2415,7 +2416,7 @@ Language.L.tags = {
        "es": ["otoño"],
        "jp": ["秋"],
        "np": ["शरद तु"],
-	   "pt": ["outono"]
+       "pt": ["outono"]
   },
   "bamboo": {
        "cn": ["竹子", "竹"],
@@ -2424,7 +2425,7 @@ Language.L.tags = {
        "es": ["bambú", "bambu"],
        "jp": ["笹", "竹"],
        "np": ["बाँस"],
-	   "pt": ["bambu"]
+       "pt": ["bambu"]
   },
   "bear worm": {
        "cn": ["蠕动"],
@@ -2433,7 +2434,7 @@ Language.L.tags = {
        "es": ["gusan-oso", "gusanoso"],
        "jp": ["のびのび"],
        "np": ["कीरा भालु"],
-	   "pt": ["relaxado"]
+       "pt": ["relaxado"]
   },
   "bite": {
        "cn": ["咬", "吃"],
@@ -2442,7 +2443,7 @@ Language.L.tags = {
        "es": ["morder"],
        "jp": ["一口"],
        "np": ["काट्नु"],
-	   "pt": ["mordida"]
+       "pt": ["mordida"]
   },
   "blink": {
        "cn": ["眨眼"],
@@ -2451,7 +2452,7 @@ Language.L.tags = {
        "es": ["parpadear", "parpadeo"],
        "jp": ["まばたき"],
        "np": ["झिम्काइ"],
-	   "pt": ["pestanejando", "pestanejo"]
+       "pt": ["pestanejando", "pestanejo"]
   },
   "bridge": {
        "cn": ["吊桥", "桥"],
@@ -2460,7 +2461,7 @@ Language.L.tags = {
        "es": ["puente"],
        "jp": ["吊り橋・渡し木", "架け橋"],
        "np": ["पुल"],
-	   "pt": ["ponte"]
+       "pt": ["ponte"]
   },
   "brothers": {
        "cn": ["兄弟"],
@@ -2469,7 +2470,7 @@ Language.L.tags = {
        "es": ["hermanos"],
        "jp": ["男兄弟"],
        "np": ["भाइहरु"],
-	   "pt": ["irmãos"]
+       "pt": ["irmãos"]
   },
   "carry": {
        "cn": ["运", "拿"],
@@ -2478,7 +2479,7 @@ Language.L.tags = {
        "es": ["llevando", "sosteniendo"],
        "jp": ["笹運び", "枝運び", "運ぶ"],
        "np": ["बोक्नु", "समात्नु"],
-	   "pt": ["carregando", "levando", "segurando"]
+       "pt": ["carregando", "levando", "segurando"]
   },
   "cherry blossoms": {
        "cn": ["樱花"],
@@ -2487,7 +2488,7 @@ Language.L.tags = {
        "es": ["flor de cerezo", "flores de cerezo"],
        "jp": ["桜"],
        "np": ["चेरी खिल"],
-	   "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja", "sakura"]
+       "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja", "sakura"]
   },
   "climb": {
        "cn": ["爬"],
@@ -2496,7 +2497,7 @@ Language.L.tags = {
        "es": ["trepando", "escalando"],
        "jp": ["木登り", "登る"],
        "np": ["चढाई"],
-	   "pt": ["escalando", "subindo"]
+       "pt": ["escalando", "subindo"]
   },
   "couple": {
        "cn": ["夫妇", "情侣"],
@@ -2505,7 +2506,7 @@ Language.L.tags = {
        "es": ["pareja"],
        "jp": ["カップル", "夫婦", "ふうふ"],
        "np": ["जोडी"],
-	   "pt": ["casal", "par"]
+       "pt": ["casal", "par"]
   },
   "destruction": {
        "cn": ["破坏"],
@@ -2514,7 +2515,7 @@ Language.L.tags = {
        "es": ["caos", "destrucción", "destruccion", "desorden"],
        "jp": ["破壊"],
        "np": ["विनाश"],
-	   "pt": ["caos", "destruição", "bagunça"]
+       "pt": ["caos", "destruição", "bagunça"]
   },
   "dig": {
        "cn": ["挖"],
@@ -2523,7 +2524,7 @@ Language.L.tags = {
        "es": ["cavando", "excavando"],
        "jp": ["穴掘り"],
        "np": ["खन्नुहोस्"],
-	   "pt": ["cavando", "escavando"]
+       "pt": ["cavando", "escavando"]
   },
   "dish": {
        "cn": ["盘子"],
@@ -2532,7 +2533,7 @@ Language.L.tags = {
        "es": ["plato"],
        "jp": ["ごはん"],
        "np": ["थाल"],
-	   "pt": ["prato"]
+       "pt": ["prato"]
   },
   "door": {
        "cn": ["门"],
@@ -2541,7 +2542,7 @@ Language.L.tags = {
        "es": ["puerta"],
        "jp": ["扉", "戸"],
        "np": ["ढोका"],
-	   "pt": ["porta"]
+       "pt": ["porta"]
   },
   "ear": {
        "cn": ["耳"],
@@ -2550,7 +2551,7 @@ Language.L.tags = {
        "es": ["oreja", "orejas"],
        "jp": ["耳"],
        "np": ["कान"],
-	   "pt": ["orelha", "orelhas"]
+       "pt": ["orelha", "orelhas"]
   },
   "eye": {
        "cn": ["眼睛", "眼"],
@@ -2559,7 +2560,7 @@ Language.L.tags = {
        "es": ["ojo", "ojos"],
        "jp": ["目"],
        "np": ["कान"],
-	   "pt": ["olho", "olhos"]
+       "pt": ["olho", "olhos"]
   },
   "flowers": {
        "cn": ["花"],
@@ -2568,7 +2569,7 @@ Language.L.tags = {
        "es": ["flor", "flores"],
        "jp": ["花"],
        "np": ["फूल", "फूलहरू"],
-	   "pt": ["flor", "flores"]
+       "pt": ["flor", "flores"]
   },
   "grooming": {
        "cn": ["梳毛"],
@@ -2577,7 +2578,7 @@ Language.L.tags = {
        "es": ["limpiándose", "limpiandose", "lamiéndose", "lamiendose", "lavándose", "lavandose"],
        "jp": ["毛づくろい"],
        "np": ["फूलहरू"],
-	   "pt": ["limpando-se""]
+       "pt": ["limpando-se"]
   },
   "grumpy": {
        "cn": ["牢骚满腹"],
@@ -2586,7 +2587,7 @@ Language.L.tags = {
        "es": ["gruñona", "gruñón", "grunona", "grunon"],
        "jp": ["ご機嫌ナナメ"],
        "np": ["नराम्रो"],
-	   "pt": ["rabugento", "mal-humorado"]
+       "pt": ["rabugento", "mal-humorado"]
   },
   "hammock": {
        "cn": ["吊床"],
@@ -2595,7 +2596,7 @@ Language.L.tags = {
        "es": ["hamaca"],
        "jp": ["ハンモック"],
        "np": ["ह्यामॉक"],
-	   "pt": ["rede de dormir"]
+       "pt": ["rede de dormir"]
   },
   "home": {
        "cn": ["家"],
@@ -2604,7 +2605,7 @@ Language.L.tags = {
        "es": ["casa", "en casa"],
        "jp": ["お家"],
        "np": ["घर"],
-	   "pt": ["casa", "lar"]
+       "pt": ["casa", "lar"]
   },
   "in love": {
        "cn": ["热恋", "恋爱"],
@@ -2613,7 +2614,7 @@ Language.L.tags = {
        "es": ["enamorado"],
        "jp": ["恋"],
        "np": ["मायामा"],
-	   "pt": ["amor", "apaixonado"]
+       "pt": ["amor", "apaixonado"]
   },
   "itchy": {
        "cn": ["挠痒", "抓痒"],
@@ -2622,7 +2623,7 @@ Language.L.tags = {
        "es": ["rascándose", "rascandose"],
        "jp": ["カイカイ", "かゆい"],
        "np": ["खुजली"],
-	   "pt": ["coceira", "coçando"]
+       "pt": ["coceira", "coçando"]
   },
   "jizo": {
        "cn": ["地藏菩萨"],
@@ -2631,7 +2632,7 @@ Language.L.tags = {
        "es": ["estatua"],
        "jp": ["お地蔵さん"],
        "np": ["मूर्ति"],
-	   "pt": ["posição de estátua"]
+       "pt": ["posição de estátua"]
   },
   "keeper": {
        "cn": ["饲养员"],
@@ -2640,7 +2641,7 @@ Language.L.tags = {
        "es": ["cuidador", "cuidadora"],
        "jp": ["飼育員"],
        "np": ["चिडियाखाना"],
-	   "pt": ["cuidador", "cuidadora"]
+       "pt": ["cuidador", "cuidadora"]
   },
   "kiss": {
        "cn": ["接吻", "亲亲", "吻"],
@@ -2649,7 +2650,7 @@ Language.L.tags = {
        "es": ["beso", "besos"],
        "jp": ["接吻", "せっぷん", "キス"],
        "np": ["चुम्बन"],
-	   "pt": ["beijo", "beijos", "beijando"]
+       "pt": ["beijo", "beijos", "beijando"]
   },
   "laying down": {
        "cn": ["躺"],
@@ -2658,7 +2659,7 @@ Language.L.tags = {
        "es": ["acostado", "recostado"],
        "jp": ["寝そべっている"],
        "np": ["तल राख्नु"],
-	   "pt": ["deitado", "deitando-se"]
+       "pt": ["deitado", "deitando-se"]
   },
   "lips": {
        "cn": ["唇"],
@@ -2667,7 +2668,7 @@ Language.L.tags = {
        "es": ["labios"],
        "jp": ["くちびる"],
        "np": ["ओठ"],
-	   "pt": ["lábios"]
+       "pt": ["lábios"]
   },
   "long-tongue": {
        "cn": ["伸长舌头"],
@@ -2677,7 +2678,7 @@ Language.L.tags = {
        "es": ["sacando la lengua"],
        "jp": ["長い舌"],
        "np": ["लामो जीभ"],
-	   "pt": ["mostrando a língua"]
+       "pt": ["mostrando a língua"]
   },
   "lunch time": {
        "cn": ["午餐时间"],
@@ -2686,7 +2687,7 @@ Language.L.tags = {
        "es": ["hora de comer", "almuerzo"],
        "jp": ["ランチの時間"],
        "np": ["खाजा समय", "भोजन"],
-	   "pt": ["hora do almoço", "almoço"]
+       "pt": ["hora do almoço", "almoço"]
   },
   "mofumofu": {
         "cn": ["软软"],
@@ -2695,7 +2696,7 @@ Language.L.tags = {
         "es": ["rechoncho", "rechoncha", "esponjoso", "esponjosa"],
         "jp": ["モフモフ"],
         "np": ["रमाईलो"],
-		"pt": ["felpudo", "fofo", "gorducho", "rechonchudo"]
+        "pt": ["felpudo", "fofo", "gorducho", "rechonchudo"]
   },
   "muzzle": {
         "cn": ["口鼻套"],
@@ -2704,7 +2705,7 @@ Language.L.tags = {
         "es": ["hocico", "trompa"],
         "jp": ["マズル"],
         "np": ["थूली", "थोरै"],
-		"pt": ["focinho"]
+        "pt": ["focinho"]
   },
   "night": {
         "cn": ["夜", "晚上"],
@@ -2713,7 +2714,7 @@ Language.L.tags = {
         "es": ["noche"],
         "jp": ["夜"],
         "np": ["रात"],
-		"pt": ["noite"]
+        "pt": ["noite"]
   },
   "nose": {
         "cn": ["鼻子"],
@@ -2722,7 +2723,7 @@ Language.L.tags = {
         "es": ["nariz", "hocico"],
         "jp": ["鼻"],
         "np": ["नाक"],
-		"pt": ["nariz"]
+        "pt": ["nariz"]
   },
   "old": {
         "cn": ["老人"],
@@ -2731,7 +2732,7 @@ Language.L.tags = {
         "es": ["viejo", "vieja"],
         "jp": ["シニアパンダさん", "年老いた"],
         "np": ["पुरानो"],
-		"pt": ["idoso", "idosa"]
+        "pt": ["idoso", "idosa"]
   },
   "panda bowl": {
         "cn": ["碗"],
@@ -2741,7 +2742,7 @@ Language.L.tags = {
         "es": ["bola de panda", "bola"],
         "jp": ["エサ鉢"],
         "np": ["पोनिया कटोरा"],
-		"pt": ["tigela de panda", "tigela"]
+        "pt": ["tigela de panda", "tigela"]
   },
   "paws": {
         "cn": ["爪"],
@@ -2750,7 +2751,7 @@ Language.L.tags = {
         "es": ["patas", "pies"],
         "jp": ["足"],
         "np": ["पन्जा"],
-		"pt": ["patas", "pés"]
+        "pt": ["patas", "pés"]
   },
   "peek": {
         "cn": ["偷窥"],
@@ -2759,7 +2760,7 @@ Language.L.tags = {
         "es": ["ojeando", "mirando", "curioseando"],
         "jp": ["チラ見"],
         "np": ["झिक्नु"],
-		"pt": ["espiando"]
+        "pt": ["espiando"]
   },
   "playing": {
         "cn": ["玩耍"],
@@ -2768,7 +2769,7 @@ Language.L.tags = {
         "es": ["jugando", "jugar"],
         "jp": ["拝み食い", "両手食い"],
         "np": ["खेलिरहेको", "खेल्नु"],
-		"pt": ["brincando"]
+        "pt": ["brincando"]
   },
   "poop": {
         "cn": ["便便"],
@@ -2777,7 +2778,7 @@ Language.L.tags = {
         "es": ["heces", "caca", "mierda"],
         "jp": [Language.L.emoji.poop],
         "np": [Language.L.emoji.poop],
-		"pt": ["cocô", "cocó", "caca"]
+        "pt": ["cocô", "cocó", "caca"]
   },
   "pooping": {
         "cn": ["便便"],
@@ -2788,7 +2789,7 @@ Language.L.tags = {
         "jp": ["💩している"],
         "np": [Language.L.emoji.panda +
                Language.L.emoji.poop],
-		"pt": ["fazendo cocô", "fazendo caca"]
+        "pt": ["fazendo cocô", "fazendo caca"]
   },
   "portrait": {
         "cn": ["肖像"],
@@ -2797,7 +2798,7 @@ Language.L.tags = {
         "es": ["retrato", "cuadrada"],
         "jp": ["顔写真"],
         "np": ["चित्र"],
-		"pt": ["retrato"]
+        "pt": ["retrato"]
   },
   "praying": {
         "cn": ["祈祷"],
@@ -2806,7 +2807,7 @@ Language.L.tags = {
         "es": ["rezando", "orando"],
         "jp": ["お祈りしている"],
         "np": ["प्रार्थना गर्दै", "प्रार्थना"],
-		"pt": ["rezando", "orando", "mãos postas"]
+        "pt": ["rezando", "orando", "mãos postas"]
   },
   "profile": {
         "cn": ["资料"],
@@ -2815,7 +2816,7 @@ Language.L.tags = {
         "es": ["perfil"],
         "jp": ["プロフィール画像"],
         "np": ["प्रोफाइल"],
-		"pt": ["perfil"]
+        "pt": ["perfil"]
   },
   "pull-up": {
         "cn": ["引体向上"],
@@ -2824,7 +2825,7 @@ Language.L.tags = {
         "es": ["flexiones", "dominadas"],
         "jp": ["鉄棒", "懸垂"],
         "np": ["तान्नु"],
-		"pt": ["flexões"]
+        "pt": ["flexões"]
   },
   "pumpkin": {
         "cn": ["南瓜"],
@@ -2833,7 +2834,7 @@ Language.L.tags = {
         "es": ["calabaza"],
         "jp": ["かぼちゃ", "南瓜"],
         "np": ["कद्दू", "हेलोवीन"],
-		"pt": ["abóbora"]
+        "pt": ["abóbora"]
   },
   "reiwa": {
         "cn": ["令和"],
@@ -2842,7 +2843,7 @@ Language.L.tags = {
         "es": ["reiwa"],
         "jp": ["令和"],
         "np": [Language.L.emoji.reiwa],
-		"pt": ["reiwa"]
+        "pt": ["reiwa"]
   },
   "scale": {
         "cn": ["测体重"],
@@ -2851,7 +2852,7 @@ Language.L.tags = {
         "es": ["balanza", "pesa"],
         "jp": ["体重計", "たいじゅうけい"],
         "np": ["स्केल", "तौल"],
-		"pt": ["balança", "peso"]
+        "pt": ["balança", "peso"]
   },
   "shake": {
         "cn": ["摇晃"],
@@ -2860,7 +2861,7 @@ Language.L.tags = {
         "es": ["sacudiéndose", "sacudiendose"],
         "jp": ["ドリパン", "ブルブル", "ゆらゆら"],
         "np": ["हल्लाउनु"],
-		"pt": ["sacudindo-se"]
+        "pt": ["sacudindo-se"]
   },
   "shedding": {
         "cn": ["换毛"],
@@ -2869,7 +2870,7 @@ Language.L.tags = {
         "es": ["mudando", "mudando el pelo", "cambiando el pelo"],
         "jp": ["換毛", "泣いている"],
         "np": ["सुस्त"],
-		"pt": ["mudando o pelo", "perdendo pelo"]
+        "pt": ["mudando o pelo", "perdendo pelo"]
   },
   "shoots": {
         "cn": ["竹笋"],
@@ -2878,7 +2879,7 @@ Language.L.tags = {
         "es": ["brotes"],
         "jp": ["竹の子", "たけのこ"],
         "np": ["बाँस को टुप्पो"],
-		"pt": ["brotos". "broto"]
+        "pt": ["brotos", "broto"]
   },
   "siblings": {
         "cn": ["同胞"],
@@ -2887,7 +2888,7 @@ Language.L.tags = {
         "es": ["hermanos"],
         "jp": ["兄弟", "きょうだい"],
         "np": ["भाइबहिनीहरू"],
-		"pt": ["irmãos(ãs)"]
+        "pt": ["irmãos(ãs)"]
   },
   "sisters": {
         "cn": ["姐妹"],
@@ -2896,7 +2897,7 @@ Language.L.tags = {
         "es": ["hermanas"],
         "jp": ["姉妹"],
         "np": ["बहिनीहरू"],
-		"pt": ["irmãs"]
+        "pt": ["irmãs"]
   },
   "sleeping": {
         "cn": ["睡觉"],
@@ -2905,7 +2906,7 @@ Language.L.tags = {
         "es": ["durmiendo", "dormido", "dormida", "durmiéndose", "durmiendose", "dormir"],
         "jp": ["寝ている"],
         "np": ["सुत्नु", "निद्रा"],
-		"pt": ["dormindo"]
+        "pt": ["dormindo"]
   },
   "slobber": {
         "cn": ["口水", "流口水"],
@@ -2914,7 +2915,7 @@ Language.L.tags = {
         "es": ["babeándo", "babeando", "baba"],
         "jp": ["よだれをたらしている"],
         "np": ["स्लोबर"],
-		"pt": ["babando", "baba"]
+        "pt": ["babando", "baba"]
   },
   "smile": {
         "cn": ["笑", "微笑"],
@@ -2923,7 +2924,7 @@ Language.L.tags = {
         "es": ["sonriéndo", "sonriendo", "sonreír", "sonreir", "sonriente", "sonrisa"],
         "jp": ["スマイル"],
         "np": ["हाँसो"],
-		"pt": ["sorrindo", "sorriso", "sorridente"]
+        "pt": ["sorrindo", "sorriso", "sorridente"]
   },
   "snow": {
         "cn": ["雪"],
@@ -2932,7 +2933,7 @@ Language.L.tags = {
         "es": ["nieve"],
         "jp": ["雪"],
         "np": ["हिउँ"],
-		"pt": ["neve"]
+        "pt": ["neve"]
   },
   "spider": {
         "cn": ["蜘蛛"],
@@ -2941,7 +2942,7 @@ Language.L.tags = {
         "es": ["araña", "arana"],
         "jp": ["スパイダー"],
         "np": ["माकुरो", "माकुरो भालु"],
-		"pt": ["panda-aranha", "aranha"]
+        "pt": ["panda-aranha", "aranha"]
   },
   "standing": {
         "cn": ["站立"],
@@ -2950,7 +2951,7 @@ Language.L.tags = {
         "es": ["de pie", "parado"],
         "jp": ["立っている"],
         "np": ["खडा"],
-		"pt": ["de pé", "em pé"]
+        "pt": ["de pé", "em pé"]
   },
   "stretching": {
         "cn": ["拉伸"],
@@ -2959,7 +2960,7 @@ Language.L.tags = {
         "es": ["estirándose", "estirandose"],
         "jp": ["ストレッチしている"],
         "np": ["तन्नु", "तान्न"],
-		"pt": ["espreguiçando-se"]
+        "pt": ["espreguiçando-se"]
   },
   "surprise": {
         "cn": ["惊喜"],
@@ -2968,7 +2969,7 @@ Language.L.tags = {
         "es": ["sorpresa", "sorprendido", "sorprendida"],
         "jp": ["びっくり"],
         "np": ["अचम्म"],
-		"pt": ["surpreso", "surpresa", "surpreendido"]
+        "pt": ["surpreso", "surpresa", "surpreendido"]
   },
   "tail": {
         "cn": ["尾巴"],
@@ -2977,7 +2978,7 @@ Language.L.tags = {
         "es": ["cola"],
         "jp": ["しっぽ"],
         "np": ["पुच्छर"],
-		"pt": ["cauda", "rabo"]
+        "pt": ["cauda", "rabo"]
   },
   "techitechi": {
         "cn": ["目标"],
@@ -2986,7 +2987,7 @@ Language.L.tags = {
         "es": ["lunares", "lunar"],
         "jp": ["テチテチ"],
         "np": ["राम्रो स्थान"],
-		"pt": ["pinta", "pintinha"]
+        "pt": ["pinta", "pintinha"]
   },
   "tongue": {
         "cn": ["舌"],
@@ -2995,7 +2996,7 @@ Language.L.tags = {
         "es": ["lengua"],
         "jp": ["べろ"],
         "np": ["जिब्रो"],
-		"pt": ["língua"]
+        "pt": ["língua"]
   },
   "toys": {
         "cn": ["玩具"],
@@ -3004,7 +3005,7 @@ Language.L.tags = {
         "es": ["juguete", "juguetes"],
         "jp": ["遊具", "おもちゃ", "おもちゃ"],
         "np": ["खेलौना"],
-		"pt": ["brinquedo", "brinquedos"]
+        "pt": ["brinquedo", "brinquedos"]
   },
   "tree": {
         "cn": ["树"],
@@ -3013,7 +3014,7 @@ Language.L.tags = {
         "es": ["árbol", "arbol", "árboles", "arboles"],
         "jp": ["木"],
         "np": ["रूख"],
-		"pt": ["árvore", "árvores"]
+        "pt": ["árvore", "árvores"]
   },
   "upside-down": {
         "cn": ["翻转"],
@@ -3022,7 +3023,7 @@ Language.L.tags = {
         "es": ["al revés", "al reves", "cabeza abajo"],
         "jp": ["逆さま"],
         "np": ["तलको माथि"],
-		"pt": ["cabeça para baixo", "ponta-cabeça"]
+        "pt": ["cabeça para baixo", "ponta-cabeça"]
   },
   "wink": {
         "cn": ["眨眼"],
@@ -3031,7 +3032,7 @@ Language.L.tags = {
         "es": ["guiño", "guino"],
         "jp": ["ウィンク"],
         "np": ["आखा भ्किम्काउनु"],
-		"pt": ["piscando", "piscada", "piscadela", "piscar de olhos"]
+        "pt": ["piscando", "piscada", "piscadela", "piscar de olhos"]
   },
   "wet": {
         "cn": ["湿"],
@@ -3040,7 +3041,7 @@ Language.L.tags = {
         "es": ["mojado", "mojada"],
         "jp": ["濡れた"],
         "np": ["भिजेको"],
-		"pt": ["molhado", "molhada"]
+        "pt": ["molhado", "molhada"]
   },
   "white face": {
         "cn": ["浅色的脸"],
@@ -3049,7 +3050,7 @@ Language.L.tags = {
         "es": ["cara blanca"],
         "jp": ["色白さん", "しろめん", "白面", "白めん"],
         "np": ["सेतो अनुहार"],
-		"pt": ["face branca"]
+        "pt": ["face branca"]
   },
   "window": {
         "cn": ["窗"],
@@ -3058,7 +3059,7 @@ Language.L.tags = {
         "es": ["ventana"],
         "jp": ["窓", "まど"],
         "np": ["विन्डो"],
-		"pt": ["janela"]
+        "pt": ["janela"]
   },
   "whiskers": {
         "cn": ["晶須"],
@@ -3067,7 +3068,7 @@ Language.L.tags = {
         "es": ["bigotes", "bigote"],
         "jp": ["ひげ"],
         "np": ["फुसफुस"],
-		"pt": ["bigode", "bigodes"]
+        "pt": ["bigode", "bigodes"]
   },
   "yawn": {
         "cn": ["哈欠", "呵欠"],
@@ -3076,7 +3077,7 @@ Language.L.tags = {
         "es": ["bostezo", "bostezando"],
         "jp": ["あくび"],
         "np": ["जांभई"],
-		"pt": ["bocejo", "bocejando"]
+        "pt": ["bocejo", "bocejando"]
   }
 }
 
@@ -3175,6 +3176,7 @@ Language.L.fallbackFlags = function() {
       (navigator.languages.indexOf(taiwan) < navigator.languages.indexOf(china))) {
     Language.L.gui.flag["cn"] = Language.L.flags["Taiwan"];        
   }
+  // TODO: Portuguese vs. Brazil flags
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in an info block
@@ -3649,7 +3651,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/^una\s/, "Una ");
       output.push(input);
     }
-	 if (L.display == "pt") {
+  } else if (L.display == "pt") {
     for (var input of pieces) {
       input = input.replace(/\b1 fotos/, "uma foto")
                    .replace(/\b1 novas fotos/, "uma nova foto")
