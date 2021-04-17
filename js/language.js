@@ -729,7 +729,7 @@ Language.L.gui = {
     "es": "Arriba",
     "jp": "上",
     "np": "माथि",
-    "pt": "Para cima"
+    "pt": "Para\xa0cima"
   },
   "tree": {
     "cn": "树",
@@ -1001,7 +1001,7 @@ Language.L.messages = {
            " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२१ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
-           " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto",
+           " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
            "<INSERTLINK_RPF>",
            ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
            "Layout e design ©" +
@@ -3677,8 +3677,10 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 novos contribuintes/, "um novo contribuinte")
                    .replace(/\bcombo: 1 fotos/, "combo: uma foto")
                    .replace(/\bfotos etiquetadas/, "foto etiquetada")
-                   .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
-                   .replace(/^one\s/, "One ");
+                   .replace(/^([^A-Za-z0-9]+)um\s/, "$1 Um ")
+                   .replace(/^([^A-Za-z0-9]+)uma\s/, "$1 Uma ")
+                   .replace(/^um\s/, "Um ")
+                   .replace(/^uma\s/, "Uma ");
       output.push(input);
     }
     return output;
