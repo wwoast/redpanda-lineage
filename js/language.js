@@ -357,7 +357,7 @@ Language.L.gui = {
     "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"],
     "np": Language.L.flags["Nepal"],
-    "pt": Language.L.flags["Brazil"]
+    "pt": Language.L.flags["Portugal"]
   },
   "footerLink_rpf": {
     "cn": "小熊猫族谱项目",
@@ -3177,6 +3177,10 @@ Language.L.fallbackFlags = function() {
     Language.L.gui.flag["cn"] = Language.L.flags["Taiwan"];        
   }
   // TODO: Portuguese vs. Brazil flags
+  var brazil = "pt-BR";
+  if (navigator.languages.indexOf(brazil) != -1) {
+    Language.L.gui.flag["pt"] = Language.L.flags["Brazil"];
+  }
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in an info block
