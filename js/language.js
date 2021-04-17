@@ -689,7 +689,7 @@ Language.L.gui = {
     "es": "Agradecimientos",
     "jp": "感佩",
     "np": "विशेष धन्यवाद",
-    "pt": "Agradecimentos Especiais"
+    "pt": "Agradecimentos"
   },
   "specialThanksLinks_header": {
     "cn": "鸣谢",
@@ -769,7 +769,8 @@ Language.L.gui = {
           "hotspots for seeing Red Pandas.",
     "es": "",
     "jp": "",
-    "np": ""
+    "np": "",
+    "pt": ""
   },
   "zooLinks_button": {
     "cn": "动物园",
@@ -796,7 +797,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-    "pt": "e"
+    "pt": " e "
   },
   "and_words": {
     "cn": "和",
@@ -804,7 +805,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-    "pt": "e"
+    "pt": " e "
   },
   "arrived_from_zoo": {
     "cn": ["<INSERTDATE>",

@@ -2665,6 +2665,9 @@ Show.searchBar.toggle = function(frame_id) {
   // In panda-profile mode, it's hidden unless the user opts to search
   // for new pandas using the Search Button at the bottom of the page.
   var searchBar = document.getElementById(frame_id);
+  if (searchBar == null) {
+    return false;
+  }
   var display = searchBar.style.display;
   // Catch whether the search bar has no explicit display style (first click), or none
   if ((display == "none") || (display == "")) {
