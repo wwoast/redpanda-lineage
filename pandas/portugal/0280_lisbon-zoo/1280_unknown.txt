@@ -11,10 +11,10 @@ gender: m
 jp.name: (無名)
 jp.nicknames: none
 jp.othernames: none
-language.order:en, jp
+language.order: en, jp
 photo.1: ig://CNii-Svs_kP/m
-photo.1.author: Akapan
-photo.1.link: https://www.instagram.com/a_ka_pan/
+photo.1.author: a_ka_pan
 photo.1.commitdate: 2021/4/11
+photo.1.link: https://www.instagram.com/a_ka_pan/
 species: 1
 zoo: 280

@@ -357,7 +357,7 @@ Language.L.gui = {
     "es": Language.L.flags["Spain"],
     "jp": Language.L.flags["Japan"],
     "np": Language.L.flags["Nepal"],
-    "pt": Language.L.flags["Brazil"]
+    "pt": Language.L.flags["Portugal"]
   },
   "footerLink_rpf": {
     "cn": "小熊猫族谱项目",
@@ -689,7 +689,7 @@ Language.L.gui = {
     "es": "Agradecimientos",
     "jp": "感佩",
     "np": "विशेष धन्यवाद",
-    "pt": "Agradecimentos Especiais"
+    "pt": "Agradecimentos"
   },
   "specialThanksLinks_header": {
     "cn": "鸣谢",
@@ -729,7 +729,7 @@ Language.L.gui = {
     "es": "Arriba",
     "jp": "上",
     "np": "माथि",
-    "pt": "Para cima"
+    "pt": "Para\xa0cima"
   },
   "tree": {
     "cn": "树",
@@ -769,7 +769,8 @@ Language.L.gui = {
           "hotspots for seeing Red Pandas.",
     "es": "",
     "jp": "",
-    "np": ""
+    "np": "",
+    "pt": ""
   },
   "zooLinks_button": {
     "cn": "动物园",
@@ -796,7 +797,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-    "pt": "e"
+    "pt": " e "
   },
   "and_words": {
     "cn": "和",
@@ -804,7 +805,7 @@ Language.L.messages = {
     "es": " y ",
     "jp": "と",
     "np": " र ",
-    "pt": "e"
+    "pt": " e "
   },
   "arrived_from_zoo": {
     "cn": ["<INSERTDATE>",
@@ -1000,7 +1001,7 @@ Language.L.messages = {
            " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२१ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
-           " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto",
+           " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
            "<INSERTLINK_RPF>",
            ", mas as mídias linkadas seguem sendo propriedade de seus criadores. ",
            "Layout e design ©" +
@@ -3177,6 +3178,10 @@ Language.L.fallbackFlags = function() {
     Language.L.gui.flag["cn"] = Language.L.flags["Taiwan"];        
   }
   // TODO: Portuguese vs. Brazil flags
+  var brazil = "pt-BR";
+  if (navigator.languages.indexOf(brazil) != -1) {
+    Language.L.gui.flag["pt"] = Language.L.flags["Brazil"];
+  }
 }
 
 // Do language fallback for anything reporting as "unknown" or "empty" in an info block
@@ -3672,8 +3677,10 @@ Language.unpluralize = function(pieces) {
                    .replace(/\b1 novos contribuintes/, "um novo contribuinte")
                    .replace(/\bcombo: 1 fotos/, "combo: uma foto")
                    .replace(/\bfotos etiquetadas/, "foto etiquetada")
-                   .replace(/^([^A-Za-z0-9]+)one\s/, "$1 One ")
-                   .replace(/^one\s/, "One ");
+                   .replace(/^([^A-Za-z0-9]+)um\s/, "$1 Um ")
+                   .replace(/^([^A-Za-z0-9]+)uma\s/, "$1 Uma ")
+                   .replace(/^um\s/, "Um ")
+                   .replace(/^uma\s/, "Uma ");
       output.push(input);
     }
     return output;

@@ -11,7 +11,7 @@ gender: m
 jp.name: ジャスティン
 jp.nicknames: none
 jp.othernames: none
-language.order:en, jp
+language.order: en, jp
 location.1: 259, 2016/6/22
 location.2: 282, 2017/3/7
 species: 1
