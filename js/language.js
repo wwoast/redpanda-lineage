@@ -665,7 +665,7 @@ Language.L.gui = {
     "es": "Hermanos",
     "jp": Pandas.def.relations.siblings["jp"],
     "np": "भाइबहिनीहरू",
-    "pt": "Irmã(o)s"
+    "pt": "Irmão(ãs)"
   },
   "since_date": {
     "cn": "自 <INSERTDATE>",
@@ -1767,7 +1767,7 @@ Language.L.messages = {
            "の直近の家族"],
     "np": ["<INSERTNAME>",
            "को निकट परिवार"],
-    "pt": ["Família inmediata de ",
+    "pt": ["Família imediata de ",
            "<INSERTNAME>"]
   },
   "profile_sisters": {
@@ -2408,7 +2408,7 @@ Language.L.tags = {
        "es": ["hora de la manazana", "manzana"],
        "jp": ["りんごタイム", "りんご"],
        "np": ["स्याउ समय", "स्याउ"],
-       "pt": ["hora da maçã", "maçã"]
+       "pt": ["maçã", "hora da maçã"]
   },
   "autumn": {
        "cn": ["秋天"],
@@ -2480,7 +2480,7 @@ Language.L.tags = {
        "es": ["llevando", "sosteniendo"],
        "jp": ["笹運び", "枝運び", "運ぶ"],
        "np": ["बोक्नु", "समात्नु"],
-       "pt": ["carregando", "levando", "segurando"]
+       "pt": ["levando", "carregando", "segurando"]
   },
   "cherry blossoms": {
        "cn": ["樱花"],
@@ -2688,7 +2688,7 @@ Language.L.tags = {
        "es": ["hora de comer", "almuerzo"],
        "jp": ["ランチの時間"],
        "np": ["खाजा समय", "भोजन"],
-       "pt": ["hora do almoço", "almoço"]
+       "pt": ["almoço", "hora do almoço"]
   },
   "mofumofu": {
         "cn": ["软软"],
