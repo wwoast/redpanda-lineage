@@ -697,8 +697,9 @@ photo.137.author: colette.jp
 photo.137.commitdate: 2021/4/10
 photo.137.link: https://www.instagram.com/colette.jp/
 photo.137.tags: home, portrait, smile, tail
-photo.138: https://www.instagram.com/p/CNcR3CFhhLe/media/?size=m
+photo.138: ig://CNcR3CFhhLe/m
 photo.138.author: colette.jp
+photo.138.commitdate: 2021/4/17
 photo.138.link: https://www.instagram.com/colette.jp/
 photo.138.tags: mofumofu, portrait, tail
 species: 2

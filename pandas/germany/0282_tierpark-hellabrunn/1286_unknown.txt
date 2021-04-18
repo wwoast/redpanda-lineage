@@ -11,6 +11,6 @@ gender: m
 jp.name: (無名)
 jp.nicknames: none
 jp.othernames: none
-language.order:en, jp
+language.order: en, jp
 species: 1
 zoo: unknown

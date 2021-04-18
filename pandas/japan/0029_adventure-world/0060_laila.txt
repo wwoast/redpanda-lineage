@@ -185,8 +185,9 @@ photo.34.author: craig_craig_craig
 photo.34.commitdate: 2021/3/7
 photo.34.link: https://www.instagram.com/craig_craig_craig/
 photo.34.tags: dish, lunch time, portrait, videolink
-photo.35: https://www.instagram.com/p/CNgu7MFhKo1/media/?size=m
+photo.35: ig://CNgu7MFhKo1/m
 photo.35.author: chankunvv
+photo.35.commitdate: 2021/4/17
 photo.35.link: https://www.instagram.com/chankunvv/
 photo.35.tags: dish, nose, portrait
 species: 2

@@ -105,8 +105,9 @@ photo.19.author: grskus_tk
 photo.19.commitdate: 2020/9/7
 photo.19.link: https://www.instagram.com/grskus_tk/
 photo.19.tags: mofumofu, portrait, smile, tongue
-photo.20: https://www.instagram.com/p/CNpnZEqhleC/media/?size=m
+photo.20: ig://CNpnZEqhleC/m
 photo.20.author: miis_98
+photo.20.commitdate: 2021/4/17
 photo.20.link: https://www.instagram.com/miis_98/
 photo.20.tags: portrait, standing, tail
 species: 2
