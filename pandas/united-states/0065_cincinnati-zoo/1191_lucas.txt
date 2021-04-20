@@ -43,8 +43,9 @@ photo.6.author: cincinnatizoo
 photo.6.commitdate: 2021/2/19
 photo.6.link: https://www.instagram.com/cincinnatizoo/
 photo.6.tags: paws, portrait, snow, tail
-photo.7: https://www.instagram.com/p/CNj32x4g6VE/media/?size=m
+photo.7: ig://CNj32x4g6VE/m
 photo.7.author: rossifari
+photo.7.commitdate: 2021/4/20
 photo.7.link: https://www.instagram.com/rossifari/
 photo.7.tags: paws, portrait, profile, standing, tail
 species: 2

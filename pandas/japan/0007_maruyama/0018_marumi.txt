@@ -1706,8 +1706,9 @@ photo.340.author: leonard_redmof
 photo.340.commitdate: 2021/4/11
 photo.340.link: https://www.instagram.com/leonard_redmof/
 photo.340.tags: paws, portrait, snow
-photo.341: https://www.instagram.com/p/CNoOkMVBs7K/media/?size=m
+photo.341: ig://CNoOkMVBs7K/m
 photo.341.author: minatomirai215
+photo.341.commitdate: 2021/4/20
 photo.341.link: https://www.instagram.com/minatomirai215/
 photo.341.tags: portrait, whiskers
 species: 2

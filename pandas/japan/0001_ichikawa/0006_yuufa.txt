@@ -508,16 +508,19 @@ photo.100.author: ssc6105
 photo.100.commitdate: 2021/4/7
 photo.100.link: https://www.instagram.com/ssc6105/
 photo.100.tags: playing, tail, upside-down
-photo.101: https://www.instagram.com/p/CNmv8q0hmBX/media/?size=m
+photo.101: ig://CNmv8q0hmBX/m
 photo.101.author: ifumoto88
+photo.101.commitdate: 2021/4/20
 photo.101.link: https://www.instagram.com/ifumoto88/
 photo.101.tags: portrait, smile, whiskers
-photo.102: https://www.instagram.com/p/CNphoqKB5b_/media/?size=m
+photo.102: ig://CNphoqKB5b_/m
 photo.102.author: ifumoto88
+photo.102.commitdate: 2021/4/20
 photo.102.link: https://www.instagram.com/ifumoto88/
 photo.102.tags: portrait, smile, whiskers
-photo.103: https://www.instagram.com/p/CNpniAzhTbb/media/?size=m
+photo.103: ig://CNpniAzhTbb/m
 photo.103.author: alto0908
+photo.103.commitdate: 2021/4/20
 photo.103.link: https://www.instagram.com/alto0908/
 photo.103.tags: bamboo, close-up, portrait, shoots
 species: 2
