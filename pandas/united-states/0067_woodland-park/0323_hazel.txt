@@ -75,41 +75,45 @@ photo.12.author: wumpwoast
 photo.12.commitdate: 2020/5/1
 photo.12.link: https://www.instagram.com/wumpwoast/
 photo.12.tags: dish, lunch time, portrait
-photo.13: ig://CA7jmarDhPX/m
-photo.13.author: rossifari
-photo.13.commitdate: 2020/6/3
-photo.13.link: https://www.instagram.com/rossifari/
-photo.13.tags: portrait, smile, whiskers
-photo.14: ig://CB9vnj1h_ml/m
-photo.14.author: carsontheredpanda
-photo.14.commitdate: 2020/7/13
-photo.14.link: https://www.instagram.com/carsontheredpanda/
-photo.14.tags: home, portrait, tongue, whiskers
-photo.15: ig://CC6RSR5lw4-/m
-photo.15.author: woodlandparkzoo
-photo.15.commitdate: 2020/8/2
-photo.15.link: https://www.instagram.com/woodlandparkzoo/
-photo.15.tags: portrait, smile, tail
-photo.16: ig://CGDfrNzhtkH/m
+photo.13: ig://CAXEygEnUsn/m
+photo.13.author: happy_love2.15
+photo.13.commitdate: 2020/5/23
+photo.13.link: https://www.instagram.com/happy_love2.15/
+photo.14: ig://CA7jmarDhPX/m
+photo.14.author: rossifari
+photo.14.commitdate: 2020/6/3
+photo.14.link: https://www.instagram.com/rossifari/
+photo.14.tags: portrait, smile, whiskers
+photo.15: ig://CB9vnj1h_ml/m
+photo.15.author: carsontheredpanda
+photo.15.commitdate: 2020/7/13
+photo.15.link: https://www.instagram.com/carsontheredpanda/
+photo.15.tags: home, portrait, tongue, whiskers
+photo.16: ig://CC6RSR5lw4-/m
 photo.16.author: woodlandparkzoo
-photo.16.commitdate: 2020/10/7
+photo.16.commitdate: 2020/8/2
 photo.16.link: https://www.instagram.com/woodlandparkzoo/
-photo.16.tags: portrait, pumpkin, smile
-photo.17: ig://CIoOwc-FZ_m/m
+photo.16.tags: portrait, smile, tail
+photo.17: ig://CGDfrNzhtkH/m
 photo.17.author: woodlandparkzoo
-photo.17.commitdate: 2020/12/21
+photo.17.commitdate: 2020/10/7
 photo.17.link: https://www.instagram.com/woodlandparkzoo/
-photo.17.tags: smile
-photo.18: ig://CJuxR6nhDx0/m
-photo.18.author: carsontheredpanda
-photo.18.commitdate: 2021/1/28
-photo.18.link: https://www.instagram.com/carsontheredpanda/
-photo.18.tags: portrait, smile, tongue, whiskers
-photo.19: ig://CNpWCSlBhXm/m
-photo.19.author: happy_love2.15
-photo.19.commitdate: 2021/4/20
-photo.19.link: https://www.instagram.com/happy_love2.15/
-photo.19.tags: portrait, smile, whiskers
+photo.17.tags: portrait, pumpkin, smile
+photo.18: ig://CIoOwc-FZ_m/m
+photo.18.author: woodlandparkzoo
+photo.18.commitdate: 2020/12/21
+photo.18.link: https://www.instagram.com/woodlandparkzoo/
+photo.18.tags: smile
+photo.19: ig://CJuxR6nhDx0/m
+photo.19.author: carsontheredpanda
+photo.19.commitdate: 2021/1/28
+photo.19.link: https://www.instagram.com/carsontheredpanda/
+photo.19.tags: portrait, smile, tongue, whiskers
+photo.20: ig://CNpWCSlBhXm/m
+photo.20.author: happy_love2.15
+photo.20.commitdate: 2021/4/20
+photo.20.link: https://www.instagram.com/happy_love2.15/
+photo.20.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 1608
 zoo: 67
