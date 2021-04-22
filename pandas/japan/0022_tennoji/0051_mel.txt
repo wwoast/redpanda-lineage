@@ -433,15 +433,16 @@ photo.84.author: bubbles_octi
 photo.84.commitdate: 2021/1/19
 photo.84.link: https://www.instagram.com/bubbles_octi/
 photo.84.tags: mofumofu, portrait, whiskers
-photo.85: ig://CMZhVAvBW8k/m
-photo.85.author: hamamatsu.chiita
-photo.85.commitdate: 2021/4/11
-photo.85.link: https://www.instagram.com/hamamatsu.chiita/
-photo.85.tags: close-up, ear, mofumofu, portrait, whiskers
-photo.86: https://www.instagram.com/p/CK8eOd9h0i2/media/?size=m
-photo.86.author: makimaru18
-photo.86.link: https://www.instagram.com/makimaru18/
-photo.86.tags: apple time, paws, portrait, standing
+photo.85: ig://CK8eOd9h0i2/m
+photo.85.author: makimaru18
+photo.85.commitdate: 2021/4/22
+photo.85.link: https://www.instagram.com/makimaru18/
+photo.85.tags: apple time, paws, portrait, standing
+photo.86: ig://CMZhVAvBW8k/m
+photo.86.author: hamamatsu.chiita
+photo.86.commitdate: 2021/4/11
+photo.86.link: https://www.instagram.com/hamamatsu.chiita/
+photo.86.tags: close-up, ear, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

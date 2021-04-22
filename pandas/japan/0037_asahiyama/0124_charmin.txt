@@ -100,14 +100,16 @@ photo.17.author: asahiyamazoo1
 photo.17.commitdate: 2021/4/3
 photo.17.link: https://www.instagram.com/asahiyamazoo1/
 photo.17.tags: peek, snow, videolink
-photo.18: https://www.instagram.com/p/CLMTeGYhA8I/media/?size=m
+photo.18: ig://CKlJ9WRhzAU/m
 photo.18.author: sasapan34
+photo.18.commitdate: 2021/4/22
 photo.18.link: https://www.instagram.com/sasapan34/
-photo.18.tags: lunch time, mofumofu, snow
-photo.19: https://www.instagram.com/p/CKlJ9WRhzAU/media/?size=m
+photo.18.tags: lunch time, tongue
+photo.19: ig://CLMTeGYhA8I/m
 photo.19.author: sasapan34
+photo.19.commitdate: 2021/4/22
 photo.19.link: https://www.instagram.com/sasapan34/
-photo.19.tags: lunch time, tongue
+photo.19.tags: lunch time, mofumofu, snow
 species: 2
 studbook.id: 11108
 video.1: https://youtu.be/T0UIB96RKQI

@@ -687,28 +687,30 @@ photo.135.author: colette.jp
 photo.135.commitdate: 2021/1/19
 photo.135.link: https://www.instagram.com/colette.jp/
 photo.135.tags: mofumofu, portrait, white face
-photo.136: ig://CKL1sa3BhlM/m
-photo.136.author: love__mitarashi
-photo.136.commitdate: 2021/3/2
-photo.136.link: https://www.instagram.com/love__mitarashi/
-photo.136.tags: portrait, tail, white face
-photo.137: ig://CNHvwLXhRx7/m
-photo.137.author: colette.jp
-photo.137.commitdate: 2021/4/10
-photo.137.link: https://www.instagram.com/colette.jp/
-photo.137.tags: home, portrait, smile, tail
-photo.138: ig://CNcR3CFhhLe/m
+photo.136: ig://CKGUATbn3oi/m
+photo.136.author: mochan8686
+photo.136.commitdate: 2021/4/22
+photo.136.link: https://www.instagram.com/mochan8686/
+photo.136.tags: mofumofu, portrait, tail
+photo.137: ig://CKL1sa3BhlM/m
+photo.137.author: love__mitarashi
+photo.137.commitdate: 2021/3/2
+photo.137.link: https://www.instagram.com/love__mitarashi/
+photo.137.tags: portrait, tail, white face
+photo.138: ig://CK6HJeNBpy-/m
 photo.138.author: colette.jp
-photo.138.commitdate: 2021/4/17
+photo.138.commitdate: 2021/4/22
 photo.138.link: https://www.instagram.com/colette.jp/
 photo.138.tags: mofumofu, portrait, tail
-photo.139: https://www.instagram.com/p/CK6HJeNBpy-/media/?size=m
+photo.139: ig://CNHvwLXhRx7/m
 photo.139.author: colette.jp
+photo.139.commitdate: 2021/4/10
 photo.139.link: https://www.instagram.com/colette.jp/
-photo.139.tags: mofumofu, portrait, tail
-photo.140: https://www.instagram.com/p/CKGUATbn3oi/media/?size=m
-photo.140.author: mochan8686
-photo.140.link: https://www.instagram.com/mochan8686/
+photo.139.tags: home, portrait, smile, tail
+photo.140: ig://CNcR3CFhhLe/m
+photo.140.author: colette.jp
+photo.140.commitdate: 2021/4/17
+photo.140.link: https://www.instagram.com/colette.jp/
 photo.140.tags: mofumofu, portrait, tail
 species: 2
 studbook.id: unknown
