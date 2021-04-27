@@ -9,7 +9,7 @@ en.nicknames: none
 en.othernames: none
 gender: f
 jp.name: しらたま
-jp.nicknames: none
+jp.nicknames: 明智
 jp.othernames: none
 language.order: jp, en
 litter: 282
@@ -185,6 +185,30 @@ photo.35.author: love__mitarashi
 photo.35.commitdate: 2021/4/3
 photo.35.link: https://www.instagram.com/love__mitarashi/
 photo.35.tags: home, itchy, portrait, tail
+photo.36: https://www.instagram.com/p/CHUy-DMByhX/media/?size=m
+photo.36.author: love__mitarashi
+photo.36.link: https://www.instagram.com/love__mitarashi/
+photo.36.tags: tree
+photo.37: https://www.instagram.com/p/CH6qb1hhkco/media/?size=m
+photo.37.author: love__mitarashi
+photo.37.link: https://www.instagram.com/love__mitarashi/
+photo.37.tags: portrait, whiskers
+photo.38: https://www.instagram.com/p/CH5NBgbhQa5/media/?size=m
+photo.38.author: love__mitarashi
+photo.38.link: https://www.instagram.com/love__mitarashi/
+photo.38.tags: bamboo, paws
+photo.39: https://www.instagram.com/p/CC8TjP0B1M4/media/?size=m
+photo.39.author: jas_forever_love
+photo.39.link: https://www.instagram.com/jas_forever_love/
+photo.39.tags: home, laying down
+photo.40: https://www.instagram.com/p/CJI3aRtBUR0/media/?size=m
+photo.40.author: jas_forever_love
+photo.40.link: https://www.instagram.com/jas_forever_love/
+photo.40.tags: bamboo, paws, portrait, smile
+photo.41: https://www.instagram.com/p/CIvX7_lBSHP/media/?size=m
+photo.41.author: akiakiakiko18
+photo.41.link: https://www.instagram.com/akiakiakiko18/
+photo.41.tags: laying down, mofumofu, portrait, tail
 species: 2
 studbook.id: 13158
 zoo: 61
