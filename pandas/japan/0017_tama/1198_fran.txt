@@ -58,19 +58,20 @@ photo.9.author: daniele.tokyo
 photo.9.commitdate: 2020/12/25
 photo.9.link: https://www.instagram.com/daniele.tokyo/
 photo.9.tags: baby, close-up, paws, portrait, smile
-photo.10: ig://CIlGRsEhYkb/m
-photo.10.author: mini_cochi
-photo.10.commitdate: 2020/12/25
-photo.10.link: https://www.instagram.com/mini_cochi/
-photo.10.tags: baby, portrait
-photo.11: ig://CLWp1bWhC0J/m
-photo.11.author: redpan22
-photo.11.commitdate: 2021/2/28
-photo.11.link: https://www.instagram.com/redpan22/
-photo.11.tags: baby, bamboo, bite, mofumofu, portrait
-photo.12: https://www.instagram.com/p/CIj3wiaBRwB/media/?size=m
-photo.12.author: mariten1119
-photo.12.link: https://www.instagram.com/mariten1119/
-photo.12.tags: baby, hammock, peek, upside-down
+photo.10: ig://CIj3wiaBRwB/m
+photo.10.author: mariten1119
+photo.10.commitdate: 2021/4/27
+photo.10.link: https://www.instagram.com/mariten1119/
+photo.10.tags: baby, hammock, peek, upside-down
+photo.11: ig://CIlGRsEhYkb/m
+photo.11.author: mini_cochi
+photo.11.commitdate: 2020/12/25
+photo.11.link: https://www.instagram.com/mini_cochi/
+photo.11.tags: baby, portrait
+photo.12: ig://CLWp1bWhC0J/m
+photo.12.author: redpan22
+photo.12.commitdate: 2021/2/28
+photo.12.link: https://www.instagram.com/redpan22/
+photo.12.tags: baby, bamboo, bite, mofumofu, portrait
 species: 2
 zoo: 17

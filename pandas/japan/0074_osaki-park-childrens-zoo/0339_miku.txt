@@ -205,28 +205,31 @@ photo.38.author: _saaaaaaah_
 photo.38.commitdate: 2021/1/22
 photo.38.link: https://www.instagram.com/_saaaaaaah_/
 photo.38.tags: laying down, paws
-photo.39: ig://CKWJEBAhA1C/m
-photo.39.author: ssc6105
-photo.39.commitdate: 2021/1/22
-photo.39.link: https://www.instagram.com/ssc6105/
-photo.39.tags: mofumofu, old, tail
-photo.40: ig://CKdypIjhpAL/m
-photo.40.author: daniele.tokyo
-photo.40.commitdate: 2021/1/31
-photo.40.link: https://www.instagram.com/daniele.tokyo/
-photo.40.tags: blink, paws, smile
-photo.41: https://www.instagram.com/p/CKWVlM_hzHS/media/?size=m
+photo.39: ig://CKVqXpoBbaN/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2021/4/27
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: eye, mofumofu, portrait, whiskers
+photo.40: ig://CKWJEBAhA1C/m
+photo.40.author: ssc6105
+photo.40.commitdate: 2021/1/22
+photo.40.link: https://www.instagram.com/ssc6105/
+photo.40.tags: mofumofu, old, tail
+photo.41: ig://CKWVlM_hzHS/m
 photo.41.author: craig_craig_craig
+photo.41.commitdate: 2021/4/27
 photo.41.link: https://www.instagram.com/craig_craig_craig/
 photo.41.tags: apple time, keeper, portrait, videolink
-photo.42: https://www.instagram.com/p/CKVqXpoBbaN/media/?size=m
-photo.42.author: ifumoto88
-photo.42.link: https://www.instagram.com/ifumoto88/
-photo.42.tags: eye, mofumofu, portrait, whiskers
-photo.43: https://www.instagram.com/p/CKXTjCyBxlZ/media/?size=m
-photo.43.author: pink.b22
-photo.43.link: https://www.instagram.com/pink.b22/
-photo.43.tags: dish, old, portrait, sleeping
+photo.42: ig://CKXTjCyBxlZ/m
+photo.42.author: pink.b22
+photo.42.commitdate: 2021/4/27
+photo.42.link: https://www.instagram.com/pink.b22/
+photo.42.tags: dish, old, portrait, sleeping
+photo.43: ig://CKdypIjhpAL/m
+photo.43.author: daniele.tokyo
+photo.43.commitdate: 2021/1/31
+photo.43.link: https://www.instagram.com/daniele.tokyo/
+photo.43.tags: blink, paws, smile
 species: 2
 studbook.id: 9996
 zoo: 74
