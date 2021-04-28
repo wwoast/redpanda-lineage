@@ -279,15 +279,16 @@ photo.53.author: sasapan34
 photo.53.commitdate: 2021/1/30
 photo.53.link: https://www.instagram.com/sasapan34/
 photo.53.tags: peek, smile, tree
-photo.54: ig://CKUw3qiheEF/m
-photo.54.author: craig_craig_craig
-photo.54.commitdate: 2021/1/22
-photo.54.link: https://www.instagram.com/craig_craig_craig/
-photo.54.tags: smile, tail
-photo.55: https://www.instagram.com/p/CJ-N1YcBBaz/media/?size=m
-photo.55.author: kisshan324
-photo.55.link: https://www.instagram.com/kisshan324/
-photo.55.tags: portrait, whiskers
+photo.54: ig://CJ-N1YcBBaz/m
+photo.54.author: kisshan324
+photo.54.commitdate: 2021/4/28
+photo.54.link: https://www.instagram.com/kisshan324/
+photo.54.tags: portrait, whiskers
+photo.55: ig://CKUw3qiheEF/m
+photo.55.author: craig_craig_craig
+photo.55.commitdate: 2021/1/22
+photo.55.link: https://www.instagram.com/craig_craig_craig/
+photo.55.tags: smile, tail
 species: 2
 studbook.id: 1687
 zoo: 29

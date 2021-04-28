@@ -1,8 +1,10 @@
 [media]
 _id: media.7.coco-gin
+commitdate: 2021/4/28
 panda.tags: 17, 20
-photo.1: https://www.instagram.com/p/B7SU84Th7E5/media/?size=l
+photo.1: ig://B7SU84Th7E5/l
 photo.1.author: minatomirai215
+photo.1.commitdate: 2021/4/28
 photo.1.link: https://www.instagram.com/minatomirai215/
 photo.1.tags: mother's day, portrait, snow, tail, techitechi
 photo.1.tags.17.location: 360, 310

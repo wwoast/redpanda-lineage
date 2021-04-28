@@ -870,65 +870,66 @@ photo.172.author: cattail.sapporo
 photo.172.commitdate: 2020/12/3
 photo.172.link: https://www.instagram.com/cattail.sapporo/
 photo.172.tags: bamboo, portrait, tongue
-photo.173: ig://CKWPtg3hiVh/m
+photo.173: ig://CKBqUYEhMso/m
 photo.173.author: leonard_redmof
-photo.173.commitdate: 2021/3/7
+photo.173.commitdate: 2021/4/28
 photo.173.link: https://www.instagram.com/leonard_redmof/
-photo.173.tags: climb, paws, portrait, snow, tail, tree
-photo.174: ig://CKkMw-LBBQX/m
-photo.174.author: izu_108
+photo.173.tags: bamboo, portrait, smile, snow
+photo.174: ig://CKWPtg3hiVh/m
+photo.174.author: leonard_redmof
 photo.174.commitdate: 2021/3/7
-photo.174.link: https://www.instagram.com/izu_108/
-photo.174.tags: bamboo, mofumofu, portrait, tongue
+photo.174.link: https://www.instagram.com/leonard_redmof/
+photo.174.tags: climb, paws, portrait, snow, tail, tree
 photo.175: https://instagram.com/p/CL-FJlsgHy6/media/?size=m
 photo.175.author: cattail.sapporo
 photo.175.commitdate: 2021/3/7
 photo.175.link: https://www.instagram.com/cattail.sapporo/
 photo.175.tags: flowers, portrait
-photo.176: ig://CLImmbOhLYQ/m
+photo.176: ig://CKkMw-LBBQX/m
 photo.176.author: izu_108
 photo.176.commitdate: 2021/3/7
 photo.176.link: https://www.instagram.com/izu_108/
-photo.176.tags: bamboo, bite, close-up, mofumofu
-photo.177: ig://CL4Umc5ge_a/m
-photo.177.author: cattail.sapporo
+photo.176.tags: bamboo, mofumofu, portrait, tongue
+photo.177: ig://CLImmbOhLYQ/m
+photo.177.author: izu_108
 photo.177.commitdate: 2021/3/7
-photo.177.link: https://www.instagram.com/cattail.sapporo/
-photo.177.tags: bamboo, mofumofu, portrait, tongue
-photo.178: ig://CL61ZszgvEA/m
+photo.177.link: https://www.instagram.com/izu_108/
+photo.177.tags: bamboo, bite, close-up, mofumofu
+photo.178: ig://CL4Umc5ge_a/m
 photo.178.author: cattail.sapporo
 photo.178.commitdate: 2021/3/7
 photo.178.link: https://www.instagram.com/cattail.sapporo/
-photo.178.tags: bamboo, paws, portrait, snow
-photo.179: ig://CMLKjSAAWHL/m
+photo.178.tags: bamboo, mofumofu, portrait, tongue
+photo.179: ig://CL61ZszgvEA/m
 photo.179.author: cattail.sapporo
-photo.179.commitdate: 2021/4/10
+photo.179.commitdate: 2021/3/7
 photo.179.link: https://www.instagram.com/cattail.sapporo/
-photo.179.tags: close-up, laying down, portrait, sleeping, white face
-photo.180: ig://CMUlwxTA0o-/m
+photo.179.tags: bamboo, paws, portrait, snow
+photo.180: ig://CMLKjSAAWHL/m
 photo.180.author: cattail.sapporo
-photo.180.commitdate: 2021/4/11
+photo.180.commitdate: 2021/4/10
 photo.180.link: https://www.instagram.com/cattail.sapporo/
-photo.180.tags: paws, portrait, white face
-photo.181: ig://CMYiCLJALji/m
+photo.180.tags: close-up, laying down, portrait, sleeping, white face
+photo.181: ig://CMUlwxTA0o-/m
 photo.181.author: cattail.sapporo
 photo.181.commitdate: 2021/4/11
 photo.181.link: https://www.instagram.com/cattail.sapporo/
-photo.181.tags: close-up, laying down, portrait, sleeping
-photo.182: ig://CMl7HOMguXn/m
+photo.181.tags: paws, portrait, white face
+photo.182: ig://CMYiCLJALji/m
 photo.182.author: cattail.sapporo
-photo.182.commitdate: 2021/3/29
+photo.182.commitdate: 2021/4/11
 photo.182.link: https://www.instagram.com/cattail.sapporo/
-photo.182.tags: apple time, paws, portrait, snow, standing, tail
-photo.183: ig://CNFGPdkAAtZ/m
+photo.182.tags: close-up, laying down, portrait, sleeping
+photo.183: ig://CMl7HOMguXn/m
 photo.183.author: cattail.sapporo
-photo.183.commitdate: 2021/4/10
+photo.183.commitdate: 2021/3/29
 photo.183.link: https://www.instagram.com/cattail.sapporo/
-photo.183.tags: paws, portrait, tail
-photo.184: https://www.instagram.com/p/CKBqUYEhMso/media/?size=m
-photo.184.author: leonard_redmof
-photo.184.link: https://www.instagram.com/leonard_redmof/
-photo.184.tags: bamboo, portrait, smile, snow
+photo.183.tags: apple time, paws, portrait, snow, standing, tail
+photo.184: ig://CNFGPdkAAtZ/m
+photo.184.author: cattail.sapporo
+photo.184.commitdate: 2021/4/10
+photo.184.link: https://www.instagram.com/cattail.sapporo/
+photo.184.tags: paws, portrait, tail
 species: 2
 studbook.id: 0554
 zoo: 7
