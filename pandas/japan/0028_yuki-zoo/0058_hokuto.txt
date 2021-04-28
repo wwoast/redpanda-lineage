@@ -876,14 +876,16 @@ photo.173.author: craig_craig_craig
 photo.173.commitdate: 2021/4/3
 photo.173.link: https://www.instagram.com/craig_craig_craig/
 photo.173.tags: laying down, portrait, sleeping, tail, tree
-photo.174: https://www.instagram.com/p/CNSENv7BpL7/media/?size=m
-photo.174.author: nishicotolo
-photo.174.link: https://www.instagram.com/nishicotolo/
-photo.174.tags: close-up
-photo.175: https://www.instagram.com/p/CNQ3OByhPX8/media/?size=m
-photo.175.author: motohin
-photo.175.link: https://www.instagram.com/motohin/
-photo.175.tags: bamboo, portrait, snow
+photo.174: ig://CNQ3OByhPX8/m
+photo.174.author: motohin
+photo.174.commitdate: 2021/4/28
+photo.174.link: https://www.instagram.com/motohin/
+photo.174.tags: bamboo, portrait, snow
+photo.175: ig://CNSENv7BpL7/m
+photo.175.author: nishicotolo
+photo.175.commitdate: 2021/4/28
+photo.175.link: https://www.instagram.com/nishicotolo/
+photo.175.tags: close-up
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8

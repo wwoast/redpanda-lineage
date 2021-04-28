@@ -1008,15 +1008,16 @@ photo.199.author: alto0908
 photo.199.commitdate: 2021/4/2
 photo.199.link: https://www.instagram.com/alto0908/
 photo.199.tags: tree, whiskers
-photo.200: ig://CNphysJhIEh/m
-photo.200.author: ifumoto88
-photo.200.commitdate: 2021/4/20
-photo.200.link: https://www.instagram.com/ifumoto88/
-photo.200.tags: paws, portrait, standing
-photo.201: https://www.instagram.com/p/CNUqJVIhg72/media/?size=m
-photo.201.author: ssc6105
-photo.201.link: https://www.instagram.com/ssc6105/
-photo.201.tags: bamboo, mofumofu, paws
+photo.200: ig://CNUqJVIhg72/m
+photo.200.author: ssc6105
+photo.200.commitdate: 2021/4/28
+photo.200.link: https://www.instagram.com/ssc6105/
+photo.200.tags: bamboo, mofumofu, paws
+photo.201: ig://CNphysJhIEh/m
+photo.201.author: ifumoto88
+photo.201.commitdate: 2021/4/20
+photo.201.link: https://www.instagram.com/ifumoto88/
+photo.201.tags: paws, portrait, standing
 species: 2
 studbook.id: unknown
 zoo: 1
