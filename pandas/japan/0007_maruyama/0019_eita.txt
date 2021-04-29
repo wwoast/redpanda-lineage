@@ -1280,8 +1280,9 @@ photo.255.author: cattail.sapporo
 photo.255.commitdate: 2021/3/29
 photo.255.link: https://www.instagram.com/cattail.sapporo/
 photo.255.tags: close-up, laying down, mofumofu, sleeping
-photo.256: https://www.instagram.com/p/CNO0F8Ihzw1/media/?size=m
+photo.256: ig://CNO0F8Ihzw1/m
 photo.256.author: mari_neko3
+photo.256.commitdate: 2021/4/29
 photo.256.link: https://www.instagram.com/mari_neko3/
 photo.256.tags: mofumofu, portrait, wet, whiskers, window
 species: 2

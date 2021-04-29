@@ -26,8 +26,9 @@ photo.2.author: trevorzoomillbrook
 photo.2.commitdate: 2021/1/2
 photo.2.link: https://www.instagram.com/trevorzoomillbrook/
 photo.2.tags: portrait, profile
-photo.3: https://www.instagram.com/p/CLSdkMZAT9x/media/?size=m
+photo.3: ig://CLSdkMZAT9x/m
 photo.3.author: trevorzoomillbrook
+photo.3.commitdate: 2021/4/29
 photo.3.link: https://www.instagram.com/trevorzoomillbrook/
 photo.3.tags: bamboo, portrait, snow, videolink
 species: 1

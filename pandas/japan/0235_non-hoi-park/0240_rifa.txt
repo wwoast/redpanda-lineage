@@ -1657,8 +1657,9 @@ photo.330.author: hamamatsu.chiita
 photo.330.commitdate: 2021/3/2
 photo.330.link: https://www.instagram.com/hamamatsu.chiita/
 photo.330.tags: portrait, smile
-photo.331: https://www.instagram.com/p/CNSHLv7BNd-/media/?size=m
+photo.331: ig://CNSHLv7BNd-/m
 photo.331.author: hamamatsu.chiita
+photo.331.commitdate: 2021/4/29
 photo.331.link: https://www.instagram.com/hamamatsu.chiita/
 photo.331.tags: bamboo, paws, portrait, standing
 species: 2

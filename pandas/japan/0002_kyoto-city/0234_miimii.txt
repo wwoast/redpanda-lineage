@@ -464,15 +464,16 @@ photo.90.author: apple_jasmine33
 photo.90.commitdate: 2021/4/10
 photo.90.link: https://www.instagram.com/apple_jasmine33/
 photo.90.tags: bamboo, paws, portrait, standing
-photo.91: ig://CNcbl5AhlMY/m
-photo.91.author: apple_jasmine33
-photo.91.commitdate: 2021/4/17
-photo.91.link: https://www.instagram.com/apple_jasmine33/
-photo.91.tags: apple time, peek, portrait, tongue, whiskers
-photo.92: https://www.instagram.com/p/CNSEgZ0BXkW/media/?size=m
-photo.92.author: jas_forever_love
-photo.92.link: https://www.instagram.com/jas_forever_love/
-photo.92.tags: paws, smile, tree
+photo.91: ig://CNSEgZ0BXkW/m
+photo.91.author: jas_forever_love
+photo.91.commitdate: 2021/4/29
+photo.91.link: https://www.instagram.com/jas_forever_love/
+photo.91.tags: paws, smile, tree
+photo.92: ig://CNcbl5AhlMY/m
+photo.92.author: apple_jasmine33
+photo.92.commitdate: 2021/4/17
+photo.92.link: https://www.instagram.com/apple_jasmine33/
+photo.92.tags: apple time, peek, portrait, tongue, whiskers
 species: 2
 studbook.id: 1786
 zoo: 2

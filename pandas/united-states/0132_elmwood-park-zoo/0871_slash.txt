@@ -125,8 +125,9 @@ photo.22.author: rossifari
 photo.22.commitdate: 2020/9/7
 photo.22.link: https://www.instagram.com/rossifari/
 photo.22.tags: paws, whiskers
-photo.23: https://www.instagram.com/p/CNR4ArXgSeo/media/?size=m
+photo.23: ig://CNR4ArXgSeo/m
 photo.23.author: rossifari
+photo.23.commitdate: 2021/4/29
 photo.23.link: https://www.instagram.com/rossifari/
 photo.23.tags: portrait, whiskers, white face
 species: 1

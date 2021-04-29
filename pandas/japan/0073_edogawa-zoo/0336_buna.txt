@@ -365,27 +365,31 @@ photo.70.author: ssc6105
 photo.70.commitdate: 2021/4/2
 photo.70.link: https://www.instagram.com/ssc6105/
 photo.70.tags: keeper
-photo.71: ig://CNn2F0NhNeB/m
-photo.71.author: craig_craig_craig
-photo.71.commitdate: 2021/4/20
-photo.71.link: https://www.instagram.com/craig_craig_craig/
-photo.71.tags: home, old, paws, portrait, smile
-photo.72: https://www.instagram.com/p/CNRzQobBkHR/media/?size=m
-photo.72.author: na.mo.pan
-photo.72.link: https://www.instagram.com/na.mo.pan/
-photo.72.tags: home, grooming, laying down, paws, tongue
-photo.73: https://www.instagram.com/p/CNSYXJAhgXT/media/?size=m
+photo.71: ig://CNRzQobBkHR/m
+photo.71.author: na.mo.pan
+photo.71.commitdate: 2021/4/29
+photo.71.link: https://www.instagram.com/na.mo.pan/
+photo.71.tags: home, grooming, laying down, paws, tongue
+photo.72: ig://CNSIcCuhbCy/m
+photo.72.author: craig_craig_craig
+photo.72.commitdate: 2021/4/29
+photo.72.link: https://www.instagram.com/craig_craig_craig/
+photo.72.tags: home, laying down, paws, portrait, stretching
+photo.73: ig://CNSYXJAhgXT/m
 photo.73.author: craig_craig_craig
+photo.73.commitdate: 2021/4/29
 photo.73.link: https://www.instagram.com/craig_craig_craig/
 photo.73.tags: air tasting, home, laying down, mofumofu, old, tongue
-photo.74: https://www.instagram.com/p/CNUwUW1BR01/media/?size=m
+photo.74: ig://CNUwUW1BR01/m
 photo.74.author: craig_craig_craig
+photo.74.commitdate: 2021/4/29
 photo.74.link: https://www.instagram.com/craig_craig_craig/
 photo.74.tags: home, grooming, laying down, mofumofu, paws, tongue
-photo.75: https://www.instagram.com/p/CNSIcCuhbCy/media/?size=m
+photo.75: ig://CNn2F0NhNeB/m
 photo.75.author: craig_craig_craig
+photo.75.commitdate: 2021/4/20
 photo.75.link: https://www.instagram.com/craig_craig_craig/
-photo.75.tags: home, laying down, paws, portrait, stretching
+photo.75.tags: home, old, paws, portrait, smile
 species: 2
 studbook.id: 00102
 zoo: 73

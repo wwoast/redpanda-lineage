@@ -544,24 +544,26 @@ photo.107.author: ifumoto88
 photo.107.commitdate: 2021/4/7
 photo.107.link: https://www.instagram.com/ifumoto88/
 photo.107.tags: playing, portrait, whiskers
-photo.108: ig://CNmvwgvBDhE/m
+photo.108: ig://CNPgFUqhMQq/m
 photo.108.author: ifumoto88
-photo.108.commitdate: 2021/4/20
+photo.108.commitdate: 2021/4/29
 photo.108.link: https://www.instagram.com/ifumoto88/
-photo.108.tags: bamboo, close-up, portrait, shoots, whiskers
-photo.109: ig://CNutsXrB6S0/m
-photo.109.author: ifumoto88
-photo.109.commitdate: 2021/4/20
-photo.109.link: https://www.instagram.com/ifumoto88/
-photo.109.tags: bamboo, close-up, paws, shoots
-photo.110: https://www.instagram.com/p/CNPgFUqhMQq/media/?size=m
+photo.108.tags: bamboo, close-up, mofumofu, portrait, shoots, techitechi, whiskers
+photo.109: ig://CNUnFcXhaG2/m
+photo.109.author: daniele.tokyo
+photo.109.commitdate: 2021/4/29
+photo.109.link: https://www.instagram.com/daniele.tokyo/
+photo.109.tags: bear worm, home, laying down, paws, portrait, sleeping
+photo.110: ig://CNmvwgvBDhE/m
 photo.110.author: ifumoto88
+photo.110.commitdate: 2021/4/20
 photo.110.link: https://www.instagram.com/ifumoto88/
-photo.110.tags: bamboo, close-up, mofumofu, portrait, shoots, techitechi, whiskers
-photo.111: https://www.instagram.com/p/CNUnFcXhaG2/media/?size=m
-photo.111.author: daniele.tokyo
-photo.111.link: https://www.instagram.com/daniele.tokyo/
-photo.111.tags: bear worm, home, laying down, paws, portrait, sleeping
+photo.110.tags: bamboo, close-up, portrait, shoots, whiskers
+photo.111: ig://CNutsXrB6S0/m
+photo.111.author: ifumoto88
+photo.111.commitdate: 2021/4/20
+photo.111.link: https://www.instagram.com/ifumoto88/
+photo.111.tags: bamboo, close-up, paws, shoots
 species: 2
 studbook.id: 13147
 zoo: 1
