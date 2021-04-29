@@ -32,7 +32,7 @@ photo.4: ig://B3rKJ-PBMXI/m
 photo.4.author: shigeko0531
 photo.4.commitdate: 2019/10/17
 photo.4.link: https://www.instagram.com/shigeko0531/
-photo.4.tags: portrait, profile, tree
+photo.4.tags: portrait, tree
 photo.5: ig://B32hveKBumZ/m
 photo.5.author: yakko____
 photo.5.commitdate: 2019/10/22
@@ -208,6 +208,42 @@ photo.39.author: miis_98
 photo.39.commitdate: 2021/3/21
 photo.39.link: https://www.instagram.com/miis_98/
 photo.39.tags: peek, portrait, tree
+photo.40: https://www.instagram.com/p/CNR58znBwCs/media/?size=m
+photo.40.author: hamiiiii831_
+photo.40.link: https://www.instagram.com/hamiiiii831_/
+photo.40.tags: portrait, tree, white face
+photo.41: https://www.instagram.com/p/CIF8TrXBefp/media/?size=m
+photo.41.author: grskus_tk
+photo.41.link: https://www.instagram.com/grskus_tk/
+photo.41.tags: bamboo, smile
+photo.42: https://www.instagram.com/p/CJDsIL6hBwg/media/?size=m
+photo.42.author: _saaaaaaah_
+photo.42.link: https://www.instagram.com/_saaaaaaah_/
+photo.42.tags: bamboo, paws, snow, techitechi
+photo.43: https://www.instagram.com/p/CJ-1xP6hyVG/media/?size=m
+photo.43.author: minatomirai215
+photo.43.link: https://www.instagram.com/minatomirai215/
+photo.43.tags: portrait, snow, tail, tongue, tree
+photo.44: https://www.instagram.com/p/CM7-E-JBtT4/media/?size=m
+photo.44.author: hamamatsu.chiita
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: portrait, profile, whiskers
+photo.45: https://www.instagram.com/p/CMifh9nhmxM/media/?size=m
+photo.45.author: firefoxpanda88
+photo.45.link: https://www.instagram.com/firefoxpanda88/
+photo.45.tags: tail, techitechi, tree
+photo.46: https://www.instagram.com/p/CGFhqGwB7_z/media/?size=m
+photo.46.author: craig_craig_craig
+photo.46.link: https://www.instagram.com/craig_craig_craig/
+photo.46.tags: air tasting, portrait, tongue, whiskers
+photo.47: https://www.instagram.com/p/CBr3IQGh6BE/media/?size=m
+photo.47.author: shigeko0531
+photo.47.link: https://www.instagram.com/shigeko0531/
+photo.47.tags: peek, portrait, smile, tree
+photo.48: https://www.instagram.com/p/CBfsTgdB1V-/media/?size=m
+photo.48.author: shigeko0531
+photo.48.link: https://www.instagram.com/shigeko0531/
+photo.48.tags: laying down, portrait, sleeping, tail
 species: 2
 studbook.id: 13150
 zoo: 10
