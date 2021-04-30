@@ -196,8 +196,9 @@ photo.37.author: itsuak
 photo.37.commitdate: 2021/2/16
 photo.37.link: https://www.instagram.com/itsuak/
 photo.37.tags: bamboo, bite, paws, portrait, smile, tongue
-photo.38: https://www.instagram.com/p/CNcgAqjh8dk/media/?size=m
+photo.38: ig://CNcgAqjh8dk/m
 photo.38.author: itsuak
+photo.38.commitdate: 2021/4/29
 photo.38.link: https://www.instagram.com/itsuak/
 photo.38.tags: bridge, laying down, paws, portrait
 species: 2

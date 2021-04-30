@@ -385,19 +385,21 @@ photo.74.author: craig_craig_craig
 photo.74.commitdate: 2021/4/29
 photo.74.link: https://www.instagram.com/craig_craig_craig/
 photo.74.tags: home, grooming, laying down, mofumofu, paws, tongue
-photo.75: ig://CNn2F0NhNeB/m
-photo.75.author: craig_craig_craig
-photo.75.commitdate: 2021/4/20
-photo.75.link: https://www.instagram.com/craig_craig_craig/
-photo.75.tags: home, old, paws, portrait, smile
-photo.76: https://www.instagram.com/p/CNZ1vLZBapl/media/?size=m
-photo.76.author: ifumoto88
-photo.76.link: https://www.instagram.com/ifumoto88/
-photo.76.tags: home, laying down, old, paws, portrait
-photo.77: https://www.instagram.com/p/CNZ62OcBKQF/media/?size=m
+photo.75: ig://CNZ1vLZBapl/m
+photo.75.author: ifumoto88
+photo.75.commitdate: 2021/4/29
+photo.75.link: https://www.instagram.com/ifumoto88/
+photo.75.tags: home, laying down, old, paws, portrait
+photo.76: ig://CNZ62OcBKQF/m
+photo.76.author: craig_craig_craig
+photo.76.commitdate: 2021/4/29
+photo.76.link: https://www.instagram.com/craig_craig_craig/
+photo.76.tags: home, laying down, nose, old, paws, portrait, sleeping
+photo.77: ig://CNn2F0NhNeB/m
 photo.77.author: craig_craig_craig
+photo.77.commitdate: 2021/4/20
 photo.77.link: https://www.instagram.com/craig_craig_craig/
-photo.77.tags: home, laying down, nose, old, paws, portrait, sleeping
+photo.77.tags: home, old, paws, portrait, smile
 species: 2
 studbook.id: 00102
 zoo: 73

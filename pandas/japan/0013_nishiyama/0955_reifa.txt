@@ -458,8 +458,9 @@ photo.89.author: hamamatsu.chiita
 photo.89.commitdate: 2021/4/22
 photo.89.link: https://www.instagram.com/hamamatsu.chiita/
 photo.89.tags: portrait, white face
-photo.90: https://www.instagram.com/p/CNheJUVhH9y/media/?size=m
+photo.90: ig://CNheJUVhH9y/m
 photo.90.author: fetorus_mami
+photo.90.commitdate: 2021/4/29
 photo.90.link: https://www.instagram.com/fetorus_mami/
 photo.90.tags: close-up, mofumofu, white face
 species: 2

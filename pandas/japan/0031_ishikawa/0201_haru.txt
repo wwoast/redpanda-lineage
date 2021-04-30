@@ -230,15 +230,16 @@ photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2021/4/2
 photo.43.link: https://www.instagram.com/hamamatsu.chiita/
 photo.43.tags: mofumofu, portrait
-photo.44: ig://CNig-YXBW82/m
-photo.44.author: hamamatsu.chiita
-photo.44.commitdate: 2021/4/20
-photo.44.link: https://www.instagram.com/hamamatsu.chiita/
-photo.44.tags: close-up, portrait, whiskers
-photo.45: https://www.instagram.com/p/CNaFcDJhTz9/media/?size=m
-photo.45.author: bee_san.13
-photo.45.link: https://www.instagram.com/bee_san.13/
-photo.45.tags: mofumofu, paws, peek, portrait
+photo.44: ig://CNaFcDJhTz9/m
+photo.44.author: bee_san.13
+photo.44.commitdate: 2021/4/29
+photo.44.link: https://www.instagram.com/bee_san.13/
+photo.44.tags: mofumofu, paws, peek, portrait
+photo.45: ig://CNig-YXBW82/m
+photo.45.author: hamamatsu.chiita
+photo.45.commitdate: 2021/4/20
+photo.45.link: https://www.instagram.com/hamamatsu.chiita/
+photo.45.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 13171
 zoo: 31

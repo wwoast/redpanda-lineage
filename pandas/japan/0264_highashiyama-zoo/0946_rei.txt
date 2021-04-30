@@ -170,12 +170,14 @@ photo.31.author: mochan8686
 photo.31.commitdate: 2021/4/3
 photo.31.link: https://www.instagram.com/mochan8686/
 photo.31.tags: close-up, portrait, smile, window
-photo.32: https://www.instagram.com/p/CNZ3EtYB2ag/media/?size=m
+photo.32: ig://CNZ3EtYB2ag/m
 photo.32.author: hamamatsu.chiita
+photo.32.commitdate: 2021/4/29
 photo.32.link: https://www.instagram.com/hamamatsu.chiita/
 photo.32.tags: peek, portrait, whiskers
-photo.33: https://www.instagram.com/p/CNhY4lRBPZj/media/?size=m
+photo.33: ig://CNhY4lRBPZj/m
 photo.33.author: hamamatsu.chiita
+photo.33.commitdate: 2021/4/29
 photo.33.link: https://www.instagram.com/hamamatsu.chiita/
 photo.33.tags: peek, portrait, whiskers
 species: 2

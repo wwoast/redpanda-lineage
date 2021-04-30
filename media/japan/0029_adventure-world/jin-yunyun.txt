@@ -1,8 +1,10 @@
 [media]
 _id: media.29.jin-yunyun
+commitdate: 2021/4/29
 panda.tags: 63, 226
-photo.1: https://www.instagram.com/p/CNfIabUBSOh/media/?size=l
+photo.1: ig://CNfIabUBSOh/l
 photo.1.author: chankunvv
+photo.1.commitdate: 2021/4/29
 photo.1.link: https://www.instagram.com/chankunvv/
 photo.1.tags: apple time, couple, portrait
 photo.1.tags.63.location: 340, 170
