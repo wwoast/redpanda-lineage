@@ -438,8 +438,9 @@ photo.86.author: panda.daisuki
 photo.86.commitdate: 2021/4/3
 photo.86.link: https://www.instagram.com/panda.daisuki/
 photo.86.tags: bamboo, eye, paws
-photo.87: https://www.instagram.com/p/COZLnduBrUa/media/?size=m
+photo.87: ig://COZLnduBrUa/m
 photo.87.author: sunnylettuce_2021
+photo.87.commitdate: 2021/5/3
 photo.87.link: https://www.instagram.com/sunnylettuce_2021/
 photo.87.tags: paws, standing, whiskers
 species: 2

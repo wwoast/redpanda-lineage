@@ -208,14 +208,16 @@ photo.39.author: mybrotherisdylan
 photo.39.commitdate: 2020/12/20
 photo.39.link: https://www.instagram.com/mybrotherisdylan/
 photo.39.tags: dish, keeper, paws, portrait, standing, tail
-photo.40: https://www.instagram.com/p/COPnqz6BAy7/media/?size=m
-photo.40.author: pink.b22
-photo.40.link: https://www.instagram.com/pink.b22/
-photo.40.tags: home, laying down, mofumofu, paws, tail
-photo.41: https://www.instagram.com/p/CN8bTPTBMpz/media/?size=m
-photo.41.author: kotume4935
-photo.41.link: https://www.instagram.com/kotume4935/
-photo.41.tags: air tasting, home, laying down, mofumofu, portrait, tongue
+photo.40: ig://CN8bTPTBMpz/m
+photo.40.author: kotume4935
+photo.40.commitdate: 2021/5/3
+photo.40.link: https://www.instagram.com/kotume4935/
+photo.40.tags: air tasting, home, laying down, mofumofu, portrait, tongue
+photo.41: ig://COPnqz6BAy7/m
+photo.41.author: pink.b22
+photo.41.commitdate: 2021/5/3
+photo.41.link: https://www.instagram.com/pink.b22/
+photo.41.tags: home, laying down, mofumofu, paws, tail
 species: 2
 studbook.id: 0668
 zoo: 27

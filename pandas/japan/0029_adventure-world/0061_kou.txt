@@ -312,8 +312,9 @@ photo.61.author: mifko55
 photo.61.commitdate: 2021/4/17
 photo.61.link: https://www.instagram.com/mifko55/
 photo.61.tags: mofumofu, portrait, whiskers
-photo.62: https://www.instagram.com/p/CN9QfR5hdgv/media/?size=m
+photo.62: ig://CN9QfR5hdgv/m
 photo.62.author: framereim
+photo.62.commitdate: 2021/5/3
 photo.62.link: https://www.instagram.com/framereim/
 photo.62.tags: blink, laying down, mofumofu, paws, portrait, smile, whiskers
 species: 2

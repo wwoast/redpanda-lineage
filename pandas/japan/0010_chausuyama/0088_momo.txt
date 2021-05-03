@@ -222,8 +222,9 @@ photo.42.author: shigeko0531
 photo.42.commitdate: 2021/3/28
 photo.42.link: https://www.instagram.com/shigeko0531/
 photo.42.tags: dish, paws, portrait
-photo.43: https://www.instagram.com/p/COWFsqDBME5/media/?size=m
+photo.43: ig://COWFsqDBME5/m
 photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2021/5/3
 photo.43.link: https://www.instagram.com/hamamatsu.chiita/
 photo.43.tags: mofumofu, portrait
 species: 2

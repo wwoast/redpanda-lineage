@@ -474,8 +474,9 @@ photo.92.author: pink.b22
 photo.92.commitdate: 2021/4/10
 photo.92.link: https://www.instagram.com/pink.b22/
 photo.92.tags: portrait, smile, tail
-photo.93: https://www.instagram.com/p/COSRwi5BFet/media/?size=m
+photo.93: ig://COSRwi5BFet/m
 photo.93.author: pink.b22
+photo.93.commitdate: 2021/5/3
 photo.93.link: https://www.instagram.com/pink.b22/
 photo.93.tags: bamboo, paws, portrait, smile
 species: 2

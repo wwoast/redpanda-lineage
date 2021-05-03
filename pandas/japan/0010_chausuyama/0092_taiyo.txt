@@ -253,22 +253,26 @@ photo.48.author: hamiiiii831_
 photo.48.commitdate: 2021/4/29
 photo.48.link: https://www.instagram.com/hamiiiii831_/
 photo.48.tags: portrait, tree, white face
-photo.49: https://www.instagram.com/p/CORGkCphNEV/media/?size=m
-photo.49.author: shigeko0531
-photo.49.link: https://www.instagram.com/shigeko0531/
-photo.49.tags: paws, standing, tail
-photo.50: https://www.instagram.com/p/COPihz8Bcvt/media/?size=m
+photo.49: ig://CONcEOHhgAu/m
+photo.49.author: ifumoto88
+photo.49.commitdate: 2021/5/3
+photo.49.link: https://www.instagram.com/ifumoto88/
+photo.49.tags: laying down, paws, portrait, whiskers
+photo.50: ig://COPihz8Bcvt/m
 photo.50.author: shigeko0531
+photo.50.commitdate: 2021/5/3
 photo.50.link: https://www.instagram.com/shigeko0531/
 photo.50.tags: peek, portrait, tree
-photo.51: https://www.instagram.com/p/COP4tKfh3tG/media/?size=m
+photo.51: ig://COP4tKfh3tG/m
 photo.51.author: miis_98
+photo.51.commitdate: 2021/5/3
 photo.51.link: https://www.instagram.com/miis_98/
 photo.51.tags: portrait, white face
-photo.52: https://www.instagram.com/p/CONcEOHhgAu/media/?size=m
-photo.52.author: ifumoto88
-photo.52.link: https://www.instagram.com/ifumoto88/
-photo.52.tags: laying down, paws, portrait, whiskers
+photo.52: ig://CORGkCphNEV/m
+photo.52.author: shigeko0531
+photo.52.commitdate: 2021/5/3
+photo.52.link: https://www.instagram.com/shigeko0531/
+photo.52.tags: paws, standing, tail
 species: 2
 studbook.id: 13150
 zoo: 10

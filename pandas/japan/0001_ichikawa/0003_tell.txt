@@ -522,18 +522,21 @@ photo.102.author: ifumoto88
 photo.102.commitdate: 2021/4/29
 photo.102.link: https://www.instagram.com/ifumoto88/
 photo.102.tags: mofumofu, peek, portrait
-photo.103: https://www.instagram.com/p/COKw2eYhfFf/media/?size=m
+photo.103: ig://CN7e5wNBgmf/m
 photo.103.author: ifumoto88
+photo.103.commitdate: 2021/5/3
 photo.103.link: https://www.instagram.com/ifumoto88/
-photo.103.tags: portrait
-photo.104: https://www.instagram.com/p/CN7e5wNBgmf/media/?size=m
-photo.104.author: ifumoto88
-photo.104.link: https://www.instagram.com/ifumoto88/
-photo.104.tags: laying down, portrait, tree
-photo.105: https://www.instagram.com/p/CN79-aeB8co/media/?size=m
-photo.105.author: na.mo.pan
-photo.105.link: https://www.instagram.com/na.mo.pan/
-photo.105.tags: apple time, bamboo, close-up, keeper, smile
+photo.103.tags: laying down, portrait, tree
+photo.104: ig://CN79-aeB8co/m
+photo.104.author: na.mo.pan
+photo.104.commitdate: 2021/5/3
+photo.104.link: https://www.instagram.com/na.mo.pan/
+photo.104.tags: apple time, bamboo, close-up, keeper, smile
+photo.105: ig://COKw2eYhfFf/m
+photo.105.author: ifumoto88
+photo.105.commitdate: 2021/5/3
+photo.105.link: https://www.instagram.com/ifumoto88/
+photo.105.tags: portrait
 species: 2
 studbook.id: 10112
 zoo: 1

@@ -408,8 +408,9 @@ photo.80.author: itsuak
 photo.80.commitdate: 2021/4/28
 photo.80.link: https://www.instagram.com/itsuak/
 photo.80.tags: itchy, portrait, smile
-photo.81: https://www.instagram.com/p/COXgUJSB36s/media/?size=m
+photo.81: ig://COXgUJSB36s/m
 photo.81.author: daniele.tokyo
+photo.81.commitdate: 2021/5/3
 photo.81.link: https://www.instagram.com/daniele.tokyo/
 photo.81.tags: bamboo, portrait
 species: 2

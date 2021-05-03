@@ -361,8 +361,9 @@ photo.70.author: kipekaila
 photo.70.commitdate: 2020/12/3
 photo.70.link: https://www.instagram.com/kipekaila/
 photo.70.tags: bamboo, portrait, smile
-photo.71: https://www.instagram.com/p/COPKcRfhjsa/media/?size=m
+photo.71: ig://COPKcRfhjsa/m
 photo.71.author: hidehaya_biei
+photo.71.commitdate: 2021/5/3
 photo.71.link: https://www.instagram.com/hidehaya_biei/
 photo.71.tags: mofumofu, techitechi, whiskers
 species: 2

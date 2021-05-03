@@ -803,8 +803,9 @@ photo.160.author: falcon_tenor
 photo.160.commitdate: 2021/4/7
 photo.160.link: https://www.instagram.com/falcon_tenor/
 photo.160.tags: portrait, smile, tail, whiskers
-photo.161: https://www.instagram.com/p/COK19EPh-9o/media/?size=m
+photo.161: ig://COK19EPh-9o/m
 photo.161.author: i.satosato
+photo.161.commitdate: 2021/5/3
 photo.161.link: https://www.instagram.com/i.satosato/
 photo.161.tags: flowers, mofumofu, portrait
 species: 2

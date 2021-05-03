@@ -354,8 +354,9 @@ photo.70.author: re_ichimaru
 photo.70.commitdate: 2021/2/2
 photo.70.link: https://www.instagram.com/re_ichimaru/
 photo.70.tags: climb, keeper, paws
-photo.71: https://www.instagram.com/p/CNvxB-FhROL/media/?size=m
+photo.71: ig://CNvxB-FhROL/m
 photo.71.author: yossi929
+photo.71.commitdate: 2021/5/3
 photo.71.link: https://www.instagram.com/yossi929/
 photo.71.tags: laying down, portrait, sleeping
 species: 2
