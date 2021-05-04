@@ -319,8 +319,9 @@ photo.61.author: kotume4935
 photo.61.commitdate: 2021/2/28
 photo.61.link: https://www.instagram.com/kotume4935/
 photo.61.tags: paws, portrait
-photo.62: https://www.instagram.com/p/CN2CVtcB4jC/media/?size=m
+photo.62: ig://CN2CVtcB4jC/m
 photo.62.author: kaoru_a358
+photo.62.commitdate: 2021/5/3
 photo.62.link: https://www.instagram.com/kaoru_a358/
 photo.62.tags: smile, whiskers
 species: 2

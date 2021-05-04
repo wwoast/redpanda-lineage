@@ -180,14 +180,15 @@ photo.33.author: hamamatsu.chiita
 photo.33.commitdate: 2021/4/29
 photo.33.link: https://www.instagram.com/hamamatsu.chiita/
 photo.33.tags: peek, portrait, whiskers
-photo.34: ig://COKlSj9BG4l/m
-photo.34.author: miis_98
+photo.34: ig://CNzWDkHBikR/m
+photo.34.author: yakko____
 photo.34.commitdate: 2021/5/3
-photo.34.link: https://www.instagram.com/miis_98/
-photo.34.tags: paws, portrait
-photo.35: https://www.instagram.com/p/CNzWDkHBikR/media/?size=m
-photo.35.author: yakko____
-photo.35.link: https://www.instagram.com/yakko____/
-photo.35.tags: portrait, profile
+photo.34.link: https://www.instagram.com/yakko____/
+photo.34.tags: portrait, profile
+photo.35: ig://COKlSj9BG4l/m
+photo.35.author: miis_98
+photo.35.commitdate: 2021/5/3
+photo.35.link: https://www.instagram.com/miis_98/
+photo.35.tags: paws, portrait
 species: 2
 zoo: 264

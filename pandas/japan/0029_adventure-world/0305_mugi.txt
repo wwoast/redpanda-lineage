@@ -820,12 +820,14 @@ photo.162.author: craig_craig_craig
 photo.162.commitdate: 2021/3/4
 photo.162.link: https://www.instagram.com/craig_craig_craig/
 photo.162.tags: dish, portrait, videolink
-photo.163: https://www.instagram.com/p/CNxNjiYhRkL/media/?size=m
+photo.163: ig://CNxNjiYhRkL/m
 photo.163.author: chankunvv
+photo.163.commitdate: 2021/5/3
 photo.163.link: https://www.instagram.com/chankunvv/
 photo.163.tags: paws, portrait, standing
-photo.164: https://www.instagram.com/p/COPCHOvBuOx/media/?size=m
+photo.164: ig://COPCHOvBuOx/m
 photo.164.author: framereim
+photo.164.commitdate: 2021/5/3
 photo.164.link: https://www.instagram.com/framereim/
 photo.164.tags: dish, laying down, lunch time, smile, whiskers
 species: 2

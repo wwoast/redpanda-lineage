@@ -128,8 +128,9 @@ photo.23.author: thetorontozoo
 photo.23.commitdate: 2021/2/19
 photo.23.link: https://www.instagram.com/thetorontozoo/
 photo.23.tags: close-up, mofumofu, whiskers
-photo.24: https://www.instagram.com/p/CN2XpFOhkIK/media/?size=m
+photo.24: ig://CN2XpFOhkIK/m
 photo.24.author: thetorontozoo
+photo.24.commitdate: 2021/5/3
 photo.24.link: https://www.instagram.com/thetorontozoo/
 photo.24.tags: close-up, mofumofu, paws, smile, whiskers
 species: 2
