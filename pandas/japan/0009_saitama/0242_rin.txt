@@ -623,8 +623,9 @@ photo.122.author: ssc6105
 photo.122.commitdate: 2021/5/3
 photo.122.link: https://www.instagram.com/ssc6105/
 photo.122.tags: peek, tail, tree
-photo.123: https://www.instagram.com/p/CN5GW24BHZY/media/?size=m
+photo.123: ig://CN5GW24BHZY/m
 photo.123.author: panda.daisuki
+photo.123.commitdate: 2021/5/3
 photo.123.link: https://www.instagram.com/panda.daisuki/
 photo.123.tags: bamboo, portrait, smile, white face
 species: 2

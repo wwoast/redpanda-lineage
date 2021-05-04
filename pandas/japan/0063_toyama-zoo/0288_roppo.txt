@@ -185,8 +185,9 @@ photo.34.author: mikaamihara
 photo.34.commitdate: 2021/4/3
 photo.34.link: https://www.instagram.com/mikaamihara/
 photo.34.tags: portrait, white face
-photo.35: https://www.instagram.com/p/CN19q0ABVfe/media/?size=m
+photo.35: ig://CN19q0ABVfe/m
 photo.35.author: mikaamihara
+photo.35.commitdate: 2021/5/3
 photo.35.link: https://www.instagram.com/mikaamihara/
 photo.35.tags: home, peek, portrait, techitechi, wink
 species: 2

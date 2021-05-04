@@ -440,8 +440,9 @@ photo.87.author: craig_craig_craig
 photo.87.commitdate: 2021/5/3
 photo.87.link: https://www.instagram.com/craig_craig_craig/
 photo.87.tags: close-up, smile, whiskers
-photo.88: https://www.instagram.com/p/COLS2lfh4pZ/media/?size=m
+photo.88: ig://COLS2lfh4pZ/m
 photo.88.author: alto0908
+photo.88.commitdate: 2021/5/3
 photo.88.link: https://www.instagram.com/alto0908/
 photo.88.tags: apple time, close-up, portrait, whiskers
 species: 2
