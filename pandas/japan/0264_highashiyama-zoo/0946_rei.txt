@@ -19,7 +19,7 @@ photo.1: ig://B3rVeA_h3wc/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2019/10/17
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: baby, portrait, profile
+photo.1.tags: baby, portrait
 photo.2: ig://B37Ehmoh-Gh/m
 photo.2.author: hamiiiii831_
 photo.2.commitdate: 2019/10/23
@@ -185,5 +185,9 @@ photo.34.author: miis_98
 photo.34.commitdate: 2021/5/3
 photo.34.link: https://www.instagram.com/miis_98/
 photo.34.tags: paws, portrait
+photo.35: https://www.instagram.com/p/CNzWDkHBikR/media/?size=m
+photo.35.author: yakko____
+photo.35.link: https://www.instagram.com/yakko____/
+photo.35.tags: portrait, profile
 species: 2
 zoo: 264
