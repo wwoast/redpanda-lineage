@@ -1063,8 +1063,9 @@ photo.215.author: monmon_redpanda
 photo.215.commitdate: 2021/4/4
 photo.215.link: https://www.instagram.com/monmon_redpanda/
 photo.215.tags: portrait, whiskers
-photo.216: https://www.instagram.com/p/COU8La_AOQX/media/?size=m
+photo.216: ig://COU8La_AOQX/m
 photo.216.author: cattail.sapporo
+photo.216.commitdate: 2021/5/4
 photo.216.link: https://www.instagram.com/cattail.sapporo/
 photo.216.tags: paws, portrait, snow
 species: 2

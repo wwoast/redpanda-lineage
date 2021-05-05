@@ -123,8 +123,9 @@ photo.22.author: redpan22
 photo.22.commitdate: 2021/4/17
 photo.22.link: https://www.instagram.com/redpan22/
 photo.22.tags: laying down, mofumofu, portrait, profile
-photo.23: https://www.instagram.com/p/COVB_YfBP0U/media/?size=m
+photo.23: ig://COVB_YfBP0U/m
 photo.23.author: kaoru_a358
+photo.23.commitdate: 2021/5/4
 photo.23.link: https://www.instagram.com/kaoru_a358/
 photo.23.tags: paws, portrait
 species: 2

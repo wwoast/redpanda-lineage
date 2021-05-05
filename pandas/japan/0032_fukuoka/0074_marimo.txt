@@ -509,8 +509,9 @@ photo.100.author: fukuokazoo
 photo.100.commitdate: 2021/3/29
 photo.100.link: https://www.instagram.com/fukuokazoo/
 photo.100.tags: portrait, snow, tail
-photo.101: https://www.instagram.com/p/COPvm59hAqZ/media/?size=m
+photo.101: ig://COPvm59hAqZ/m
 photo.101.author: re_ichimaru
+photo.101.commitdate: 2021/5/4
 photo.101.link: https://www.instagram.com/re_ichimaru/
 photo.101.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
 species: 2
