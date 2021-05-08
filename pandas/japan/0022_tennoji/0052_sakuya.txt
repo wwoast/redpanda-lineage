@@ -570,14 +570,16 @@ photo.114.author: hamiiiii831_
 photo.114.commitdate: 2021/4/17
 photo.114.link: https://www.instagram.com/hamiiiii831_/
 photo.114.tags: bamboo, mofumofu, paws, portrait
-photo.115: https://www.instagram.com/p/COOuz27B0SI/media/?size=m
-photo.115.author: sakikukeco
-photo.115.link: https://www.instagram.com/sakikukeco/
-photo.115.tags: laying down, paws, playing, portrait, smile, tail, upside-down
-photo.116: https://www.instagram.com/p/CNzN2fOBq9A/media/?size=m
-photo.116.author: makimaru18
-photo.116.link: https://www.instagram.com/makimaru18/
-photo.116.tags: air tasting, portrait, tongue
+photo.115: ig://CNzN2fOBq9A/m
+photo.115.author: makimaru18
+photo.115.commitdate: 2021/5/8
+photo.115.link: https://www.instagram.com/makimaru18/
+photo.115.tags: air tasting, portrait, tongue
+photo.116: ig://COOuz27B0SI/m
+photo.116.author: sakikukeco
+photo.116.commitdate: 2021/5/8
+photo.116.link: https://www.instagram.com/sakikukeco/
+photo.116.tags: laying down, paws, playing, portrait, smile, tail, upside-down
 species: 2
 studbook.id: 13166
 zoo: 22

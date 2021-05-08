@@ -41,8 +41,9 @@ photo.5.author: rossifari
 photo.5.commitdate: 2020/11/6
 photo.5.link: https://www.instagram.com/rossifari/
 photo.5.tags: close-up, tongue, whiskers
-photo.6: https://www.instagram.com/p/CKBk1cGLJhZ/media/?size=m
+photo.6: ig://CKBk1cGLJhZ/m
 photo.6.author: rossifari
+photo.6.commitdate: 2021/5/8
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: portrait, smile, standing, tail, whiskers
 species: 2

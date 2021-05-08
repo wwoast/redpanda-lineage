@@ -854,15 +854,16 @@ photo.169.author: hamamatsu.chiita
 photo.169.commitdate: 2021/5/3
 photo.169.link: https://www.instagram.com/hamamatsu.chiita/
 photo.169.tags: close-up, peek, portrait, techitechi, whiskers
-photo.170: ig://COXcn7MBHLj/m
-photo.170.author: hamamatsu.chiita
-photo.170.commitdate: 2021/5/3
-photo.170.link: https://www.instagram.com/hamamatsu.chiita/
-photo.170.tags: apple time, close-up, paws, portrait, smile
-photo.171: https://www.instagram.com/p/COK59cyBO3O/media/?size=m
-photo.171.author: taka__3428
-photo.171.link: https://www.instagram.com/taka__3428/
-photo.171.tags: climb, paws, portrait
+photo.170: ig://COK59cyBO3O/m
+photo.170.author: taka__3428
+photo.170.commitdate: 2021/5/8
+photo.170.link: https://www.instagram.com/taka__3428/
+photo.170.tags: climb, paws, portrait
+photo.171: ig://COXcn7MBHLj/m
+photo.171.author: hamamatsu.chiita
+photo.171.commitdate: 2021/5/3
+photo.171.link: https://www.instagram.com/hamamatsu.chiita/
+photo.171.tags: apple time, close-up, paws, portrait, smile
 species: 2
 studbook.id: 0869
 video.1: https://youtu.be/-WMjIqoEK1U

@@ -337,8 +337,9 @@ photo.65.author: shigeko0531
 photo.65.commitdate: 2021/3/21
 photo.65.link: https://www.instagram.com/shigeko0531/
 photo.65.tags: close-up, peek, portrait
-photo.66: https://www.instagram.com/p/CN4heR1hHZc/media/?size=m
+photo.66: ig://CN4heR1hHZc/m
 photo.66.author: shigeko0531
+photo.66.commitdate: 2021/5/8
 photo.66.link: https://www.instagram.com/shigeko0531/
 photo.66.tags: peek, portrait, tree, techitechi
 species: 2

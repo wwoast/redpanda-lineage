@@ -258,29 +258,31 @@ photo.49.author: ifumoto88
 photo.49.commitdate: 2021/5/3
 photo.49.link: https://www.instagram.com/ifumoto88/
 photo.49.tags: laying down, paws, portrait, whiskers
-photo.50: ig://COPihz8Bcvt/m
-photo.50.author: shigeko0531
-photo.50.commitdate: 2021/5/3
-photo.50.link: https://www.instagram.com/shigeko0531/
-photo.50.tags: peek, portrait, tree
-photo.51: ig://COP4tKfh3tG/m
-photo.51.author: miis_98
-photo.51.commitdate: 2021/5/3
-photo.51.link: https://www.instagram.com/miis_98/
-photo.51.tags: portrait, white face
-photo.52: ig://CORGkCphNEV/m
+photo.50: ig://COOTCKlhStl/m
+photo.50.author: hamamatsu.chiita
+photo.50.commitdate: 2021/5/8
+photo.50.link: https://www.instagram.com/hamamatsu.chiita/
+photo.50.tags: laying down, peek, portriat, white face
+photo.51: ig://COOdyxhhWJ8/m
+photo.51.author: alto0908
+photo.51.commitdate: 2021/5/8
+photo.51.link: https://www.instagram.com/alto0908/
+photo.51.tags: bamboo, laying down, portrait, snow, tongue, white face
+photo.52: ig://COPihz8Bcvt/m
 photo.52.author: shigeko0531
 photo.52.commitdate: 2021/5/3
 photo.52.link: https://www.instagram.com/shigeko0531/
-photo.52.tags: paws, standing, tail
-photo.53: https://www.instagram.com/p/COOTCKlhStl/media/?size=m
-photo.53.author: hamamatsu.chiita
-photo.53.link: https://www.instagram.com/hamamatsu.chiita/
-photo.53.tags: laying down, peek, portriat, white face
-photo.54: https://www.instagram.com/p/COOdyxhhWJ8/media/?size=m
-photo.54.author: alto0908
-photo.54.link: https://www.instagram.com/alto0908/
-photo.54.tags: bamboo, laying down, portrait, snow, tongue, white face
+photo.52.tags: peek, portrait, tree
+photo.53: ig://COP4tKfh3tG/m
+photo.53.author: miis_98
+photo.53.commitdate: 2021/5/3
+photo.53.link: https://www.instagram.com/miis_98/
+photo.53.tags: portrait, white face
+photo.54: ig://CORGkCphNEV/m
+photo.54.author: shigeko0531
+photo.54.commitdate: 2021/5/3
+photo.54.link: https://www.instagram.com/shigeko0531/
+photo.54.tags: paws, standing, tail
 species: 2
 studbook.id: 13150
 zoo: 10
