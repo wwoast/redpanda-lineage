@@ -1,0 +1,18 @@
+[panda]
+_id: 904
+birthday: 1997/6/3
+birthplace: 95
+children: 671, 915, 503, 897, 902, 903
+commitdate: 2019/7/2
+death: 2007/12/19
+en.name: Maya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 905
+species: 1
+zoo: 95

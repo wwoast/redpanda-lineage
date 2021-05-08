@@ -1,0 +1,20 @@
+[media]
+_id: media.42.hikaru-yao-yuuka
+commitdate: 2019/7/20
+panda.tags: 176, 177, 178
+photo.1: ig://BlP3_K1FDcB/l
+photo.1.author: colette.jp
+photo.1.commitdate: 2019/7/20
+photo.1.link: https://www.instagram.com/colette.jp/
+photo.1.tags: apple time, siblings, twins
+photo.1.tags.176.location: 95, 370
+photo.1.tags.177.location: 825, 320
+photo.1.tags.178.location: 385, 475
+photo.2: ig://B-T2GkSBFib/l
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2020/5/9
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.tags: lunch time, siblings, twins
+photo.2.tags.176.location: 220, 550
+photo.2.tags.177.location: 815, 830
+photo.2.tags.178.location: 615, 370

@@ -1,0 +1,19 @@
+[panda]
+_id: 824
+birthday: 1995/7/17
+birthplace: 15
+children: none
+commitdate: 2019/4/7
+death: 1995/12/7
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 823
+species: 2
+studbook.id: 95120
+zoo: 15

@@ -1,0 +1,30 @@
+[panda]
+_id: 515
+birthday: 2013/6/21
+birthplace: 107
+children: 581, 833, 1074, 1075
+cn.name: 薛礼
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/2/23
+death: 2019/8/20
+en.name: Xue Li
+en.nicknames: none
+en.othernames: Xueli, Xue-Li
+gender: f
+jp.name: 薛礼
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 107, 2013/6/21
+location.2: 108, 2013/10/13
+location.3: 107, 2014/4/4
+photo.1: ig://CFaziC0Aw_1/m
+photo.1.author: pippin455
+photo.1.commitdate: 2020/9/24
+photo.1.link: https://www.instagram.com/pippin455/
+photo.1.tags: snow, tail
+species: 1
+studbook.id: 1334
+zoo: 107

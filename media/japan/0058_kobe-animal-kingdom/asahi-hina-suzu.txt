@@ -1,0 +1,52 @@
+[media]
+_id: media.58.asahi-hina-suzu
+commitdate: 2019/9/5
+panda.tags: 261, 262, 263
+photo.1: ig://BHH2HYqDJVs/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/5/25
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: bridge, siblings, tail, triplets
+photo.1.tags.261.location: 95, 130
+photo.1.tags.262.location: 35, 195
+photo.1.tags.263.location: 235, 60
+photo.2: ig://BHOFNwCjzXU/l
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/5/25
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: bamboo, paws, siblings, triplets
+photo.2.tags.261.location: 490, 295
+photo.2.tags.262.location: 330, 390
+photo.2.tags.263.location: 805, 345
+photo.3: ig://BKIrtZZDPqF/l
+photo.3.author: panda.daisuki
+photo.3.commitdate: 2020/5/2
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: keeper, lunch time, siblings, triplets
+photo.3.tags.261.location: 880, 360
+photo.3.tags.262.location: 505, 560
+photo.3.tags.263.location: 275, 320
+photo.4: ig://BOJ1WAXjVE0/l
+photo.4.author: minatomirai215
+photo.4.commitdate: 2020/5/25
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: clockwise, keeper, siblings, triplets
+photo.4.tags.261.location: 520, 900
+photo.4.tags.262.location: 560, 205
+photo.4.tags.263.location: 265, 665
+photo.5: ig://B2CDcSdBqwt/l
+photo.5.author: leonard_redmof
+photo.5.commitdate: 2019/9/5
+photo.5.link: https://www.instagram.com/leonard_redmof/
+photo.5.tags: bridge, siblings, triplets
+photo.5.tags.261.location: 465, 215
+photo.5.tags.262.location: 165, 280
+photo.5.tags.263.location: 740, 225
+photo.6: ig://B8V4mqxhJVJ/l
+photo.6.author: imagoto17
+photo.6.commitdate: 2020/2/17
+photo.6.link: https://www.instagram.com/imagoto17/
+photo.6.tags: lunch time, siblings, triplets
+photo.6.tags.261.location: 750, 310
+photo.6.tags.262.location: 540, 315
+photo.6.tags.263.location: 375, 375

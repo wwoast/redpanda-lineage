@@ -1,0 +1,28 @@
+[zoo]
+_id: 6
+commitdate: 2018/6/10
+en.address: 5846 Tokuyama, Shunan, Yamaguchi Prefecture 745-0851, Japan
+en.location: Shūnan, Yamaguchi Prefecture, Japan
+en.name: Tokuyama Zoo
+flag: Japan
+jp.address: 〒745-0851 山口県周南市徳山5846
+jp.location: 周南市  山口県
+jp.name: 周南市徳山動物園
+language.order: jp, en
+latitude: 34.061274
+longitude: 131.8129122
+map: https://goo.gl/maps/bMAGo54PQxq
+photo.1: ig://BV1AYNKgZOU/m
+photo.1.author: yuji_uz_hagoromo
+photo.1.commitdate: 2020/10/9
+photo.1.link: https://www.instagram.com/yuji_uz_hagoromo/
+photo.2: ig://BXnKrU9hI20/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2020/1/26
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: profile
+photo.3: ig://BYSVMrkFkoo/m
+photo.3.author: satoshijimnikki
+photo.3.commitdate: 2019/4/30
+photo.3.link: https://www.instagram.com/satoshijimnikki/
+website: http://www.city.shunan.lg.jp/site/zoo/

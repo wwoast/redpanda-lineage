@@ -1,0 +1,70 @@
+[panda]
+_id: 200
+birthday: 2015/12/25
+birthplace: 56
+children: none
+commitdate: 2018/7/22
+en.name: Kelu
+en.nicknames: none
+en.othernames: none
+es.name: Kelu
+es.nicknames: none
+es.othernames: none
+gender: m
+jp.name: ケルー
+jp.nicknames: none
+jp.othernames: ケル
+language.order: es, jp, en
+photo.1: ig://BinZVNvnfqR/m
+photo.1.author: zookeeperseba
+photo.1.commitdate: 2018/10/6
+photo.1.link: https://www.instagram.com/zookeeperseba/
+photo.1.tags: portrait, profile, whiskers
+photo.2: ig://Bl9VsnPnrDJ/m
+photo.2.author: alexisbanares.cl
+photo.2.commitdate: 2018/12/26
+photo.2.link: https://www.instagram.com/alexisbanares.cl/
+photo.2.tags: bamboo, tail
+photo.3: ig://BugX4IvDD1m/m
+photo.3.author: josmeca
+photo.3.commitdate: 2019/10/31
+photo.3.link: https://www.instagram.com/josmeca/
+photo.3.tags: laying down
+photo.4: ig://BxFm7vKBYob/m
+photo.4.author: parquemetminvu
+photo.4.commitdate: 2021/1/5
+photo.4.link: https://www.instagram.com/parquemetminvu/
+photo.4.tags: hammock, portrait, tail
+photo.5: ig://BxPV3PVlRmH/m
+photo.5.author: monmon_redpanda
+photo.5.commitdate: 2019/5/9
+photo.5.link: https://www.instagram.com/monmon_redpanda/
+photo.5.tags: portrait, smile
+photo.6: ig://B0ErUVuB3Mf/m
+photo.6.author: ciu_dadano
+photo.6.commitdate: 2021/1/5
+photo.6.link: https://www.instagram.com/ciu_dadano/
+photo.6.tags: laying down
+photo.7: ig://B7l0L9XAePP/m
+photo.7.author: zookeeperseba
+photo.7.commitdate: 2020/1/24
+photo.7.link: https://www.instagram.com/zookeeperseba/
+photo.7.tags: laying down, peek
+photo.8: ig://CAMHZtKAz5I/m
+photo.8.author: zookeeperseba
+photo.8.commitdate: 2020/5/14
+photo.8.link: https://www.instagram.com/zookeeperseba/
+photo.8.tags: bridge, tail
+photo.9: ig://CBMachcga-r/m
+photo.9.author: zookeeperseba
+photo.9.commitdate: 2020/6/10
+photo.9.link: https://www.instagram.com/zookeeperseba/
+photo.9.tags: mofumofu, portrait, whiskers
+photo.10: ig://CJB4_VVA-ET/m
+photo.10.author: zookeeperseba
+photo.10.commitdate: 2020/12/30
+photo.10.link: https://www.instagram.com/zookeeperseba/
+photo.10.tags: keeper, portrait
+species: 2
+studbook.id: 15169
+zoo: 56

@@ -1,0 +1,15 @@
+[zoo]
+_id: 195
+cn.address: 四川省成都市成华区熊猫大道1375号 邮政编码: 610016
+cn.location: 成都市 四川省 中华人民共和国
+cn.name: 成都大熊猫繁育研究基地
+commitdate: 2019/7/10
+en.address: 1375 Xiongmao Ave, Chenghua Qu, Chengdu Shi, Sichuan Sheng, China, 610016
+en.location: Chengdu, Sichuan, China
+en.name: Chengdu Research Base of Giant Panda Breeding
+flag: China
+language.order: cn, en
+latitude: 30.7329687
+longitude: 104.1370553
+map: https://goo.gl/maps/DYBfNPLa9KAdbDtg7
+website: http://www.panda.org.cn/

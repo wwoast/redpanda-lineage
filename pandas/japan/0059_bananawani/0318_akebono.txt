@@ -1,0 +1,54 @@
+[panda]
+_id: 318
+birthday: 2018/7/25
+birthplace: 59
+children: none
+commitdate: 2018/8/22
+death: 2019/8/1
+en.name: Akebono
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: あけぼの
+jp.nicknames: none
+jp.othernames: 曙
+language.order: jp, en
+litter: 317, 319
+photo.1: ig://BrVBwKQFHlG/m
+photo.1.author: roko_mm
+photo.1.commitdate: 2018/12/22
+photo.1.link: https://www.instagram.com/roko_mm/
+photo.1.tags: baby, bamboo
+photo.2: ig://BronAOjAPHn/m
+photo.2.author: resapanlove
+photo.2.commitdate: 2018/12/25
+photo.2.link: https://www.instagram.com/resapanlove/
+photo.2.tags: baby, tree
+photo.3: ig://BrwqL_ulsTH/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/12/25
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: baby, wet
+photo.4: ig://BsWo1V0FF9P/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2019/1/9
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: baby, bamboo, paws
+photo.5: ig://BshxC3jFz3L/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/1/18
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: baby, tree
+photo.6: ig://BtGA0WMFdgl/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2019/1/27
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: tree, white face
+photo.7: ig://ByiKXlphOKj/m
+photo.7.author: miis_98
+photo.7.commitdate: 2019/6/10
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: portrait, profile
+species: 1
+studbook.id: unknown
+zoo: 59

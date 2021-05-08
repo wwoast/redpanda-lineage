@@ -1,0 +1,453 @@
+[panda]
+_id: 195
+birthday: 2013/8/15
+birthplace: 42
+children: 194
+commitdate: 2018/7/14
+en.name: Aru
+en.nicknames: Pandazilla
+en.othernames: Love, Al
+gender: m
+jp.name: アル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 201
+location.1: 42, 2013/8/15
+location.2: 50, 2015/12/1
+location.3: 69, 2020/2/17
+photo.1: ig://BVKUFWKBSGM/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2020/8/23
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: bamboo, portrait, tail
+photo.2: ig://BYQ7CHfhi-i/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2020/8/23
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: laying down, portrait, smile, tail
+photo.3: ig://BYSotJ8BJBv/m
+photo.3.author: apple_jasmine33
+photo.3.commitdate: 2020/8/23
+photo.3.link: https://www.instagram.com/apple_jasmine33/
+photo.3.tags: apple time, paws, portrait, whiskers
+photo.4: ig://BjDz5OdFlHL/m
+photo.4.author: framereim
+photo.4.commitdate: 2018/7/26
+photo.4.link: https://www.instagram.com/framereim/
+photo.4.tags: paws, standing
+photo.5: ig://Bj6JWSzlw4b/m
+photo.5.author: framereim
+photo.5.commitdate: 2018/7/26
+photo.5.link: https://www.instagram.com/framereim/
+photo.5.tags: smile
+photo.6: ig://Bkunc6rF3QE/m
+photo.6.author: framereim
+photo.6.commitdate: 2018/7/26
+photo.6.link: https://www.instagram.com/framereim/
+photo.6.tags: bear worm, portrait
+photo.7: ig://Bk6YWXglhvq/m
+photo.7.author: framereim
+photo.7.commitdate: 2018/7/26
+photo.7.link: https://www.instagram.com/framereim/
+photo.7.tags: apple time, bamboo
+photo.8: ig://BldHdZOFYY8/m
+photo.8.author: framereim
+photo.8.commitdate: 2018/7/26
+photo.8.link: https://www.instagram.com/framereim/
+photo.8.tags: itchy, paws, portrait
+photo.9: ig://BoVBjpiFq_H/m
+photo.9.author: framereim
+photo.9.commitdate: 2018/9/30
+photo.9.link: https://www.instagram.com/framereim/
+photo.9.tags: bear worm, smile
+photo.10: ig://BoYiXTulLyX/m
+photo.10.author: yossi929
+photo.10.commitdate: 2018/10/1
+photo.10.link: https://www.instagram.com/yossi929/
+photo.10.tags: smile
+photo.11: ig://BoiWx7ilIvq/m
+photo.11.author: makimaru18
+photo.11.commitdate: 2018/10/5
+photo.11.link: https://www.instagram.com/makimaru18/
+photo.11.tags: apple time, keeper, portrait
+photo.12: ig://BotWbcYldiM/m
+photo.12.author: framereim
+photo.12.commitdate: 2018/10/9
+photo.12.link: https://www.instagram.com/framereim/
+photo.12.tags: keeper, standing
+photo.13: ig://BpZUrGzlBrt/m
+photo.13.author: jas_forever_love
+photo.13.commitdate: 2018/10/27
+photo.13.link: https://www.instagram.com/jas_forever_love/
+photo.13.tags: portrait
+photo.14: ig://BphQrIOFg2U/m
+photo.14.author: nakacchi_desu
+photo.14.commitdate: 2018/10/30
+photo.14.link: https://www.instagram.com/nakacchi_desu/
+photo.14.tags: pumpkin
+photo.15: ig://BqAJXYqF1f9/m
+photo.15.author: makimaru18
+photo.15.commitdate: 2018/11/11
+photo.15.link: https://www.instagram.com/makimaru18/
+photo.15.tags: portrait
+photo.16: ig://BqPHAIEltyj/m
+photo.16.author: framereim
+photo.16.commitdate: 2018/11/16
+photo.16.link: https://www.instagram.com/framereim/
+photo.17: ig://BqWPWIblxrq/m
+photo.17.author: dmover_a
+photo.17.commitdate: 2018/11/19
+photo.17.link: https://www.instagram.com/dmover_a/
+photo.18: ig://BqoOIiNFh3k/m
+photo.18.author: framereim
+photo.18.commitdate: 2018/11/26
+photo.18.link: https://www.instagram.com/framereim/
+photo.18.tags: portrait, standing
+photo.19: ig://BrSpyDPlLDJ/m
+photo.19.author: makimaru18
+photo.19.commitdate: 2018/12/12
+photo.19.link: https://www.instagram.com/makimaru18/
+photo.19.tags: portrait, tongue
+photo.20: ig://Brq7FD1FTjQ/m
+photo.20.author: redpanda_nippon_takashi
+photo.20.commitdate: 2018/12/22
+photo.20.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.20.tags: portrait
+photo.21: ig://Br9KHdFFejF/m
+photo.21.author: makimaru18
+photo.21.commitdate: 2018/12/30
+photo.21.link: https://www.instagram.com/makimaru18/
+photo.21.tags: portrait, standing
+photo.22: ig://BsXVmkJltqQ/m
+photo.22.author: makimaru18
+photo.22.commitdate: 2019/1/9
+photo.22.link: https://www.instagram.com/makimaru18/
+photo.22.tags: portrait, standing
+photo.23: ig://BsXnC-kldHD/m
+photo.23.author: framereim
+photo.23.commitdate: 2019/1/9
+photo.23.link: https://www.instagram.com/framereim/
+photo.24: ig://BsfX2Hgljx9/m
+photo.24.author: framereim
+photo.24.commitdate: 2019/1/18
+photo.24.link: https://www.instagram.com/framereim/
+photo.24.tags: bamboo, climb, home
+photo.25: ig://BsnmcsblWVs/m
+photo.25.author: sakikukeco
+photo.25.commitdate: 2019/1/18
+photo.25.link: https://www.instagram.com/sakikukeco/
+photo.25.tags: portrait, standing
+photo.26: ig://BuL_4oeFmHz/m
+photo.26.author: yakko____
+photo.26.commitdate: 2019/3/2
+photo.26.link: https://www.instagram.com/yakko____/
+photo.26.tags: home, portrait, smile
+photo.27: ig://BuOStNUFAnX/m
+photo.27.author: makimaru18
+photo.27.commitdate: 2019/3/3
+photo.27.link: https://www.instagram.com/makimaru18/
+photo.27.tags: portrait, standing
+photo.28: ig://BxjzbT7l1si/m
+photo.28.author: framereim
+photo.28.commitdate: 2019/5/18
+photo.28.link: https://www.instagram.com/framereim/
+photo.28.tags: climb, paws, portrait
+photo.29: ig://Bxr-xRYFUKf/m
+photo.29.author: sakikukeco
+photo.29.commitdate: 2019/5/22
+photo.29.link: https://www.instagram.com/sakikukeco/
+photo.29.tags: portrait
+photo.30: ig://Bx0uPs2FTwl/m
+photo.30.author: framereim
+photo.30.commitdate: 2019/5/31
+photo.30.link: https://www.instagram.com/framereim/
+photo.30.tags: apple time, portrait
+photo.31: ig://ByAVKAOBhlU/m
+photo.31.author: sakikukeco
+photo.31.commitdate: 2019/5/31
+photo.31.link: https://www.instagram.com/sakikukeco/
+photo.31.tags: paws, portrait
+photo.32: ig://Bz8KbJVhQW7/m
+photo.32.author: bubbles_octi
+photo.32.commitdate: 2019/7/15
+photo.32.link: https://www.instagram.com/bubbles_octi/
+photo.32.tags: bridge, paws, portrait, tail
+photo.33: ig://Bz-qacyg6mM/m
+photo.33.author: nakacchi_desu
+photo.33.commitdate: 2019/7/18
+photo.33.link: https://www.instagram.com/nakacchi_desu/
+photo.33.tags: apple time, flowers, toys
+photo.34: ig://B0kHrSanGfk/m
+photo.34.author: framereim
+photo.34.commitdate: 2019/8/2
+photo.34.link: https://www.instagram.com/framereim/
+photo.34.tags: apple time, peek, portrait
+photo.35: ig://B1K0WuUhy6z/m
+photo.35.author: pantasanzoo1
+photo.35.commitdate: 2019/8/15
+photo.35.link: https://www.instagram.com/pantasanzoo1/
+photo.35.tags: flowers
+photo.36: ig://B1K1ph1HUfs/m
+photo.36.author: mochan8686
+photo.36.commitdate: 2019/10/1
+photo.36.link: https://www.instagram.com/mochan8686/
+photo.36.tags: portrait, profile
+photo.37: ig://B1jM-0AhaU7/m
+photo.37.author: redpanda_nippon_takashi
+photo.37.commitdate: 2019/8/26
+photo.37.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.37.tags: apple time, birthday, tail
+photo.38: ig://B1khXUABmX-/m
+photo.38.author: tomo3700
+photo.38.commitdate: 2019/8/27
+photo.38.link: https://www.instagram.com/tomo3700/
+photo.38.tags: apple time, birthday, long-tongue, portrait, tongue
+photo.39: ig://B2sZU2QB8CK/m
+photo.39.author: chankunvv
+photo.39.commitdate: 2019/10/28
+photo.39.link: https://www.instagram.com/chankunvv/
+photo.39.tags: mofumofu, paws, portrait
+photo.40: ig://B2t0f8MhFL_/m
+photo.40.author: framereim
+photo.40.commitdate: 2019/10/1
+photo.40.link: https://www.instagram.com/framereim/
+photo.40.tags: climb
+photo.41: ig://B2ypOEFBF1d/m
+photo.41.author: framereim
+photo.41.commitdate: 2019/10/1
+photo.41.link: https://www.instagram.com/framereim/
+photo.41.tags: portrait
+photo.42: ig://B20axZwhQIM/m
+photo.42.author: makimaru18
+photo.42.commitdate: 2019/10/1
+photo.42.link: https://www.instagram.com/makimaru18/
+photo.42.tags: apple time, paws, portrait, standing
+photo.43: ig://B3MfPb2BHr8/m
+photo.43.author: sakikukeco
+photo.43.commitdate: 2019/10/12
+photo.43.link: https://www.instagram.com/sakikukeco/
+photo.43.tags: apple time, bamboo, paws, peek, portrait
+photo.44: ig://B3b605xns42/m
+photo.44.author: framereim
+photo.44.commitdate: 2019/10/19
+photo.44.link: https://www.instagram.com/framereim/
+photo.44.tags: paws, portrait, standing, toys
+photo.45: ig://B3zR9PuhzPb/m
+photo.45.author: makimaru18
+photo.45.commitdate: 2019/10/22
+photo.45.link: https://www.instagram.com/makimaru18/
+photo.45.tags: paws, standing, toys
+photo.46: ig://B31qOgeB7PZ/m
+photo.46.author: yossi929
+photo.46.commitdate: 2019/10/22
+photo.46.link: https://www.instagram.com/yossi929/
+photo.46.tags: apple time, paws, portrait, toys
+photo.47: ig://B4JzXNQBfU6/m
+photo.47.author: chankunvv
+photo.47.commitdate: 2019/12/7
+photo.47.link: https://www.instagram.com/chankunvv/
+photo.47.tags: portrait, smile, tail, tongue
+photo.48: ig://B4QrksHBO8k/m
+photo.48.author: yossi929
+photo.48.commitdate: 2019/11/5
+photo.48.link: https://www.instagram.com/yossi929/
+photo.48.tags: paws, portrait, pumpkin, standing
+photo.49: ig://B4R5h--hZyQ/m
+photo.49.author: jas_forever_love
+photo.49.commitdate: 2019/11/2
+photo.49.link: https://www.instagram.com/jas_forever_love/
+photo.49.tags: paws, portrait, pumpkin, standing
+photo.50: ig://B4i76cFBK45/m
+photo.50.author: minatomirai215
+photo.50.commitdate: 2019/11/12
+photo.50.link: https://www.instagram.com/minatomirai215/
+photo.50.tags: peek, portrait
+photo.51: ig://B4ry-UGh7Nb/m
+photo.51.author: makimaru18
+photo.51.commitdate: 2019/11/18
+photo.51.link: https://www.instagram.com/makimaru18/
+photo.51.tags: portrait, smile, techitechi
+photo.52: ig://B4tAcywhZvF/m
+photo.52.author: kotata_513
+photo.52.commitdate: 2019/11/17
+photo.52.link: https://www.instagram.com/kotata_513/
+photo.52.tags: whiskers
+photo.53: ig://B6spzjJHowE/m
+photo.53.author: tomo3700
+photo.53.commitdate: 2019/12/31
+photo.53.link: https://www.instagram.com/tomo3700/
+photo.53.tags: portrait
+photo.54: ig://B7Vfcsmhz49/m
+photo.54.author: framereim
+photo.54.commitdate: 2020/1/24
+photo.54.link: https://www.instagram.com/framereim/
+photo.54.tags: apple time, peek
+photo.55: ig://B7mtapgBRCl/m
+photo.55.author: sasapan34
+photo.55.commitdate: 2020/2/11
+photo.55.link: https://www.instagram.com/sasapan34/
+photo.55.tags: tongue
+photo.56: ig://B8bEYcnBjmW/m
+photo.56.author: chankunvv
+photo.56.commitdate: 2020/2/18
+photo.56.link: https://www.instagram.com/chankunvv/
+photo.56.tags: portrait
+photo.57: ig://B8ghaC4BeO_/m
+photo.57.author: sakikukeco
+photo.57.commitdate: 2020/3/17
+photo.57.link: https://www.instagram.com/sakikukeco/
+photo.57.tags: paws, portrait, toys
+photo.58: ig://B8mpqSFBCQl/m
+photo.58.author: makimaru18
+photo.58.commitdate: 2020/2/26
+photo.58.link: https://www.instagram.com/makimaru18/
+photo.58.tags: apple time, mofumofu, portrait
+photo.59: ig://B8nHHlUheQP/m
+photo.59.author: motohin
+photo.59.commitdate: 2020/3/17
+photo.59.link: https://www.instagram.com/motohin/
+photo.59.tags: portrait, whiskers
+photo.60: ig://B8vNs0ihsBR/m
+photo.60.author: framereim
+photo.60.commitdate: 2020/3/17
+photo.60.link: https://www.instagram.com/framereim/
+photo.60.tags: paws, smile, tail
+photo.61: ig://B8vugvIBvzk/m
+photo.61.author: jas_forever_love
+photo.61.commitdate: 2020/3/17
+photo.61.link: https://www.instagram.com/jas_forever_love/
+photo.61.tags: portrait, tail
+photo.62: ig://B8v6xEbBexS/m
+photo.62.author: yossi929
+photo.62.commitdate: 2020/3/17
+photo.62.link: https://www.instagram.com/yossi929/
+photo.62.tags: smile
+photo.63: ig://B85zokilvN7/m
+photo.63.author: ssc6105
+photo.63.commitdate: 2020/3/17
+photo.63.link: https://www.instagram.com/ssc6105/
+photo.63.tags: dish, whiskers
+photo.64: ig://B86UOrZhgv0/m
+photo.64.author: grskus_tk
+photo.64.commitdate: 2020/3/17
+photo.64.link: https://www.instagram.com/grskus_tk/
+photo.64.tags: laying down, portrait
+photo.65: ig://B9Ty1MMh3-o/m
+photo.65.author: framereim
+photo.65.commitdate: 2020/3/17
+photo.65.link: https://www.instagram.com/framereim/
+photo.65.tags: close-up, laying down, paws, portrait
+photo.66: ig://B9okJ6lBH88/m
+photo.66.author: ifumoto88
+photo.66.commitdate: 2020/3/17
+photo.66.link: https://www.instagram.com/ifumoto88/
+photo.66.tags: cloes-up, paws, portrait, whiskers
+photo.67: ig://B9qnDIXBMFP/m
+photo.67.author: ifumoto88
+photo.67.commitdate: 2020/3/17
+photo.67.link: https://www.instagram.com/ifumoto88/
+photo.67.tags: apple time, paws, portrait
+photo.68: ig://B9wgRwjBAly/m
+photo.68.author: mini_cochi
+photo.68.commitdate: 2020/3/18
+photo.68.link: https://www.instagram.com/mini_cochi/
+photo.68.tags: laying down, portrait
+photo.69: ig://B97k2VhBuEd/m
+photo.69.author: kaoru_a358
+photo.69.commitdate: 2020/3/20
+photo.69.link: https://www.instagram.com/kaoru_a358/
+photo.69.tags: laying down, portrait
+photo.70: ig://B9_yVjlhHvY/m
+photo.70.author: minatomirai215
+photo.70.commitdate: 2020/3/25
+photo.70.link: https://www.instagram.com/minatomirai215/
+photo.70.tags: portrait
+photo.71: ig://B-Ci1JVBzDc/m
+photo.71.author: mini_cochi
+photo.71.commitdate: 2020/3/24
+photo.71.link: https://www.instagram.com/mini_cochi/
+photo.71.tags: portrait, whiskers
+photo.72: ig://B-GtFtUByMA/m
+photo.72.author: craig_craig_craig
+photo.72.commitdate: 2020/3/24
+photo.72.link: https://www.instagram.com/craig_craig_craig/
+photo.72.tags: laying down, portrait
+photo.73: ig://B-KZa9thO_J/m
+photo.73.author: mini_cochi
+photo.73.commitdate: 2020/3/29
+photo.73.link: https://www.instagram.com/mini_cochi/
+photo.73.tags: laying down, portrait
+photo.74: ig://B-L62akBmwf/m
+photo.74.author: craig_craig_craig
+photo.74.commitdate: 2020/3/29
+photo.74.link: https://www.instagram.com/craig_craig_craig/
+photo.74.tags: laying down, portrait
+photo.75: ig://B-dKwc0B_9Q/m
+photo.75.author: firefoxpanda88
+photo.75.commitdate: 2020/4/29
+photo.75.link: https://www.instagram.com/firefoxpanda88/
+photo.75.tags: portrait, whiskers
+photo.76: ig://B_PbZjLHlAX/m
+photo.76.author: framereim
+photo.76.commitdate: 2020/8/23
+photo.76.link: https://www.instagram.com/framereim/
+photo.76.tags: laying down, paws, peek, portrait
+photo.77: ig://B_7MEgYHbCV/m
+photo.77.author: jas_forever_love
+photo.77.commitdate: 2020/5/11
+photo.77.link: https://www.instagram.com/jas_forever_love/
+photo.77.tags: laying down, paws, portrait, smile, tongue
+photo.78: ig://CA-T0ATpXif/m
+photo.78.author: fetorus_mami
+photo.78.commitdate: 2020/6/3
+photo.78.link: https://www.instagram.com/fetorus_mami/
+photo.78.tags: itchy, smile
+photo.79: ig://CBZTMcUBcZg/m
+photo.79.author: kaoru_a358
+photo.79.commitdate: 2020/6/25
+photo.79.link: https://www.instagram.com/kaoru_a358/
+photo.79.tags: portrait
+photo.80: ig://CC5mgZLBRw3/m
+photo.80.author: ssc6105
+photo.80.commitdate: 2020/9/13
+photo.80.link: https://www.instagram.com/ssc6105/
+photo.80.tags: laying down, tail
+photo.81: ig://CDBtqH7BeVs/m
+photo.81.author: kaoru_a358
+photo.81.commitdate: 2020/9/13
+photo.81.link: https://www.instagram.com/kaoru_a358/
+photo.81.tags: apple time, close-up, tongue, window
+photo.82: ig://CDlOXwTBPlJ/m
+photo.82.author: ssc6105
+photo.82.commitdate: 2020/9/13
+photo.82.link: https://www.instagram.com/ssc6105/
+photo.82.tags: laying down, whiskers
+photo.83: ig://CD4-0GlnPVN/m
+photo.83.author: mochan8686
+photo.83.commitdate: 2020/8/22
+photo.83.link: https://www.instagram.com/mochan8686/
+photo.83.tags: apple time, portrait, smile
+photo.84: ig://CD6iSofhoeA/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2020/8/17
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: portrait
+photo.85: ig://CGTN8njHU-d/m
+photo.85.author: mochan8686
+photo.85.commitdate: 2020/10/13
+photo.85.link: https://www.instagram.com/mochan8686/
+photo.85.tags: portrait, pumpkin
+photo.86: ig://CHRJP9knOMu/m
+photo.86.author: mochan8686
+photo.86.commitdate: 2020/11/25
+photo.86.link: https://www.instagram.com/mochan8686/
+photo.86.tags: bamboo, peek, portrait
+photo.87: ig://CHkLENWhzvz/m
+photo.87.author: ssc6105
+photo.87.commitdate: 2020/11/22
+photo.87.link: https://www.instagram.com/ssc6105/
+photo.87.tags: dish, whiskers
+species: 2
+studbook.id: 13170
+zoo: 69

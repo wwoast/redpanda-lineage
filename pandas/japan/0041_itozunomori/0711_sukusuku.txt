@@ -1,0 +1,19 @@
+[panda]
+_id: 711
+birthday: 1991/7/18
+birthplace: 41
+children: none
+commitdate: 2019/3/27
+death: 2009/3/16
+en.name: Suku-Suku
+en.nicknames: none
+en.othernames: Sukusuku
+gender: f
+jp.name: スくスく
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+species: 2
+studbook.id: 9186
+zoo: 41

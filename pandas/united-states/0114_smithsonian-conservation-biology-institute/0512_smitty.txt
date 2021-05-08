@@ -1,0 +1,19 @@
+[panda]
+_id: 512
+birthday: 2015/5/31
+birthplace: 114
+children: none
+commitdate: 2019/2/23
+death: 2016/7/24
+en.name: Smitty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スミッティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 511, 513
+species: 1
+studbook.id: 1502
+zoo: 114

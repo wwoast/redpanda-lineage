@@ -1,0 +1,23 @@
+[panda]
+_id: 1228
+birthday: 2018/6/25
+birthplace: 133
+children: none
+commitdate: 2020/9/25
+death: 2018/7/16
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://Bkk_8VRnWJe/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2020/9/25
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: baby, keeper, newborn
+species: 1
+zoo: 133

@@ -1,0 +1,38 @@
+[panda]
+_id: 743
+birthday: unknown
+commitdate: 2019/3/28
+en.name: Boki
+en.nicknames: none
+en.othernames: none
+jp.name: ボキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: wild.6, 2019/Spring
+photo.1: ig://Bv47iCpjf3x/m
+photo.1.author: redpandanetwork
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/redpandanetwork/
+photo.1.tags: profile
+photo.2: ig://BwkGSFWDO9v/m
+photo.2.author: kai.kuniko
+photo.2.commitdate: 2019/4/23
+photo.2.link: https://www.instagram.com/redpandanetwork/
+photo.3: ig://BwkLUkclp1R/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2019/4/23
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: peek, tree
+photo.4: ig://BwpHzo9gbTZ/m
+photo.4.author: kai.kuniko
+photo.4.commitdate: 2019/8/15
+photo.4.link: https://www.instagram.com/kai.kuniko/
+photo.4.tags: peek, portrait, tree
+photo.5: ig://CJ69cJth2Ng/m
+photo.5.author: redpandanetwork
+photo.5.commitdate: 2021/1/19
+photo.5.link: https://www.instagram.com/redpandanetwork/
+photo.5.tags: laying down, sleeping
+species: 3
+wild: wild.6

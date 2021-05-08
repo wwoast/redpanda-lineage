@@ -1,0 +1,78 @@
+[panda]
+_id: 156
+birthday: 2004/7/23
+birthplace: 40
+children: none
+commitdate: 2018/6/29
+en.name: Ichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イチ
+jp.nicknames: none
+jp.othernames: 市
+language.order: jp, en
+litter: 369
+location.1: 40, 2004/7/23
+location.2: 25, 2009/2/25
+photo.1: ig://BbRi54HFfpU/m
+photo.1.author: muhutianzhuoye
+photo.1.commitdate: 2018/7/22
+photo.1.link: https://www.instagram.com/muhutianzhuoye/
+photo.1.tags: ear
+photo.2: ig://Bepo65TFsbS/m
+photo.2.author: muhutianzhuoye
+photo.2.commitdate: 2018/7/22
+photo.2.link: https://www.instagram.com/muhutianzhuoye/
+photo.3: ig://BoNLv-lFFqm/m
+photo.3.author: craig_craig_craig
+photo.3.commitdate: 2018/9/27
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.3.tags: ear
+photo.4: ig://Bogmla0FNx3/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2018/10/4
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: ear
+photo.5: ig://BzRarb_hNNM/m
+photo.5.author: miis_98
+photo.5.commitdate: 2019/7/2
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: paws, portrait, profile
+photo.6: ig://B2syAqjBzG_/m
+photo.6.author: takahisakaneuchi
+photo.6.commitdate: 2019/9/23
+photo.6.link: https://www.instagram.com/takahisakaneuchi/
+photo.6.tags: long-tongue, portrait, tongue
+photo.7: ig://B7PQrVdBJhW/m
+photo.7.author: ssc6105
+photo.7.commitdate: 2020/1/16
+photo.7.link: https://www.instagram.com/ssc6105/
+photo.7.tags: ear, whiskers
+photo.8: ig://B-9qc00BJOD/m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/4/28
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: climb, ear, paws, portrait, tongue
+photo.9: ig://B_TFNahBZhg/m
+photo.9.author: ssc6105
+photo.9.commitdate: 2020/4/26
+photo.9.link: https://www.instagram.com/ssc6105/
+photo.9.tags: ear, paws
+photo.10: ig://B_21un4BoQT/m
+photo.10.author: eos1089
+photo.10.commitdate: 2020/6/7
+photo.10.link: https://www.instagram.com/eos1089/
+photo.10.tags: apple time, ear, lips, paws, portrait, smile
+photo.11: ig://CC-hM8Jh0kd/m
+photo.11.author: eos1089
+photo.11.commitdate: 2020/7/23
+photo.11.link: https://www.instagram.com/eos1089/
+photo.11.tags: ear, portrait, whiskers
+photo.12: ig://CInwy1XBPV0/m
+photo.12.author: sasapan34
+photo.12.commitdate: 2020/12/21
+photo.12.link: https://www.instagram.com/sasapan34/
+species: 2
+studbook.id: 0482
+zoo: 25

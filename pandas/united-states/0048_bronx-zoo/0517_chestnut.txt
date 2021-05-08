@@ -1,0 +1,19 @@
+[panda]
+_id: 517
+birthday: 2016/6/24
+birthplace: 48
+children: none
+commitdate: 2019/2/24
+death: 2018/6/10
+en.name: Chestnut
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 栗
+jp.nicknames: none
+jp.othernames: マロン
+language.order: en, jp
+litter: 606
+species: 1
+studbook.id: 1613
+zoo: 48

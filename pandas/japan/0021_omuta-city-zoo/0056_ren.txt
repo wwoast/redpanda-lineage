@@ -1,0 +1,198 @@
+[panda]
+_id: 56
+birthday: 2008/6/21
+birthplace: 1
+children: 243
+commitdate: 2018/6/21
+en.name: Ren
+en.nicknames: Heartbreaker
+en.othernames: none
+gender: m
+jp.name: レン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 55
+location.1: 1, 2008/6/21
+location.2: 21, 2010/11/18
+photo.1: ig://BPhqyPyDOWh/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: bamboo, door, portrait
+photo.2: ig://BPsH0rqDKFE/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2020/5/17
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: door, portrait
+photo.3: ig://BQq-goxArTS/m
+photo.3.author: monmon_redpanda
+photo.3.commitdate: 2018/7/22
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.4: ig://BTYr34aFlEp/m
+photo.4.author: yossi929
+photo.4.commitdate: 2020/5/17
+photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: smile, whiskers
+photo.5: ig://BVmkaNHhMTg/m
+photo.5.author: miis_98
+photo.5.commitdate: 2020/4/3
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: mofumofu, portrait, whiskers
+photo.6: ig://BVmmYjGFJF7/m
+photo.6.author: yossi929
+photo.6.commitdate: 2020/5/17
+photo.6.link: https://www.instagram.com/yossi929/
+photo.6.tags: portrait
+photo.7: ig://BVnudfwhQ1F/m
+photo.7.author: miis_98
+photo.7.commitdate: 2020/4/3
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: paws, smile, whiskers
+photo.8: ig://BYktDZeBZS1/m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/4/3
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: paws, portrait, smile, whiskers
+photo.9: ig://BaduoZ8HVOB/m
+photo.9.author: yossi929
+photo.9.commitdate: 2020/5/17
+photo.9.link: https://www.instagram.com/yossi929/
+photo.9.tags: portrait, profile, tree
+photo.10: ig://BgvtDsvAL7x/m
+photo.10.author: jas_forever_love
+photo.10.commitdate: 2018/7/22
+photo.10.link: https://www.instagram.com/jas_forever_love/
+photo.10.tags: portrait, tongue
+photo.11: ig://BiiJwYPlT1m/m
+photo.11.author: yossi929
+photo.11.commitdate: 2018/7/22
+photo.11.link: https://www.instagram.com/yossi929/
+photo.11.tags: portrait
+photo.12: ig://Bk2eEJcAPDW/m
+photo.12.author: sbskyy
+photo.12.commitdate: 2018/7/22
+photo.12.link: https://www.instagram.com/sbskyy/
+photo.12.tags: smile
+photo.13: ig://Bk2zt7Rltvw/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2018/7/22
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: snow
+photo.14: ig://BoC7bbflQ72/m
+photo.14.author: re_ichimaru
+photo.14.commitdate: 2018/9/24
+photo.14.link: https://www.instagram.com/re_ichimaru/
+photo.14.tags: portrait, tree
+photo.15: ig://Boh4ZtBlxLb/m
+photo.15.author: re_ichimaru
+photo.15.commitdate: 2018/10/6
+photo.15.link: https://www.instagram.com/re_ichimaru/
+photo.15.tags: portrait
+photo.16: ig://Bo2gK6SF96j/m
+photo.16.author: re_ichimaru
+photo.16.commitdate: 2018/10/12
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.16.tags: sign
+photo.17: ig://BpNrrEgFcg5/m
+photo.17.author: _rifa_p
+photo.17.commitdate: 2018/10/21
+photo.17.link: https://www.instagram.com/_rifa_p/
+photo.17.tags: tree
+photo.18: ig://BpRnu1tFY9n/m
+photo.18.author: yossi929
+photo.18.commitdate: 2018/10/23
+photo.18.link: https://www.instagram.com/yossi929/
+photo.18.tags: portrait
+photo.19: ig://BqUxW38FNab/m
+photo.19.author: tokkoo0524
+photo.19.commitdate: 2018/11/18
+photo.19.link: https://www.instagram.com/tokkoo0524/
+photo.19.tags: tree
+photo.20: ig://BqUzIAmlksL/m
+photo.20.author: tokkoo0524
+photo.20.commitdate: 2018/11/18
+photo.20.link: https://www.instagram.com/tokkoo0524/
+photo.20.tags: portrait
+photo.21: ig://BrGsh0UH5h_/m
+photo.21.author: yakko____
+photo.21.commitdate: 2018/12/8
+photo.21.link: https://www.instagram.com/yakko____/
+photo.21.tags: laying down, portrait, toys, yawn
+photo.22: ig://BrnH5eSF9yG/m
+photo.22.author: panda.daisuki
+photo.22.commitdate: 2018/12/21
+photo.22.link: https://www.instagram.com/panda.daisuki/
+photo.22.tags: laying down, portrait
+photo.23: ig://BsYVvVEFf50/m
+photo.23.author: nakacchi_desu
+photo.23.commitdate: 2019/1/9
+photo.23.link: https://www.instagram.com/nakacchi_desu/
+photo.24: ig://BtezdLxFC9c/m
+photo.24.author: yossi929
+photo.24.commitdate: 2020/5/17
+photo.24.link: https://www.instagram.com/yossi929/
+photo.24.tags: portrait, tail, toys
+photo.25: ig://BwKDRkoFkeK/m
+photo.25.author: miis_98
+photo.25.commitdate: 2019/4/15
+photo.25.link: https://www.instagram.com/miis_98/
+photo.25.tags: home, paws, portrait
+photo.26: ig://BwLg2g1l2Jn/m
+photo.26.author: yossi929
+photo.26.commitdate: 2019/4/17
+photo.26.link: https://www.instagram.com/yossi929/
+photo.26.tags: portrait, smile, tongue
+photo.27: ig://BxBOrgYA2fV/m
+photo.27.author: miis_98
+photo.27.commitdate: 2019/6/23
+photo.27.link: https://www.instagram.com/miis_98/
+photo.27.tags: autumn, portrait, tree
+photo.28: ig://B09hLXtBPAE/m
+photo.28.author: yossi929
+photo.28.commitdate: 2019/8/12
+photo.28.link: https://www.instagram.com/yossi929/
+photo.28.tags: mofumofu, portrait
+photo.29: ig://B2BYoGZhXgK/m
+photo.29.author: yossi929
+photo.29.commitdate: 2019/9/5
+photo.29.link: https://www.instagram.com/yossi929/
+photo.29.tags: night, portrait
+photo.30: ig://B2O1X-LhXJf/m
+photo.30.author: yossi929
+photo.30.commitdate: 2019/9/14
+photo.30.link: https://www.instagram.com/yossi929/
+photo.30.tags: portrait, smile
+photo.31: ig://B2piDlIhX5X/m
+photo.31.author: yossi929
+photo.31.commitdate: 2019/9/21
+photo.31.link: https://www.instagram.com/yossi929/
+photo.31.tags: portrait
+photo.32: ig://B3E6o-VBIoA/m
+photo.32.author: yossi929
+photo.32.commitdate: 2019/10/12
+photo.32.link: https://www.instagram.com/yossi929/
+photo.32.tags: smile, tongue, toys
+photo.33: ig://B-7DSanhHgO/m
+photo.33.author: yossi929
+photo.33.commitdate: 2020/4/26
+photo.33.link: https://www.instagram.com/yossi929/
+photo.33.tags: mofumofu, muzzle, portrait
+photo.34: ig://B_kT1SMhlW1/m
+photo.34.author: miis_98
+photo.34.commitdate: 2020/5/1
+photo.34.link: https://www.instagram.com/miis_98/
+photo.34.tags: paws, portrait, smile, whiskers
+photo.35: ig://CCGRPpRBoIB/m
+photo.35.author: yossi929
+photo.35.commitdate: 2020/7/1
+photo.35.link: https://www.instagram.com/yossi929/
+photo.35.tags: muzzle, portrait
+photo.36: ig://CFfxjSFBUGY/m
+photo.36.author: yossi929
+photo.36.commitdate: 2020/10/9
+photo.36.link: https://www.instagram.com/yossi929/
+photo.36.tags: muzzle, portrait, smile, whiskers
+species: 2
+studbook.id: 0873
+zoo: 21

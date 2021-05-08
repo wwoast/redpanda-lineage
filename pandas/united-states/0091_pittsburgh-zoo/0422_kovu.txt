@@ -1,0 +1,39 @@
+[panda]
+_id: 422
+birthday: 2014/6/20
+birthplace: 43
+children: none
+commitdate: 2018/11/23
+en.name: Kovu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コヴュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 384, 411
+location.1: 43, 2014/6/20
+location.2: 91, 2015/3/31
+photo.1: ig://BBtY2W9ykLV/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: lunch time, profile
+photo.2: ig://BBtY8ukSkLf/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/12/8
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.3: ig://BhGo-IDhSyu/m
+photo.3.author: kt2709
+photo.3.commitdate: 2018/11/23
+photo.3.link: https://www.instagram.com/kt2709/
+photo.3.tags: grooming, tail
+photo.4: ig://B0oSYClBQb0/m
+photo.4.author: snapcrackleangela
+photo.4.commitdate: 2020/10/1
+photo.4.link: https://www.instagram.com/snapcrackleangela/
+photo.4.tags: apple time, portrait
+species: 2
+studbook.id: 1426
+zoo: 91

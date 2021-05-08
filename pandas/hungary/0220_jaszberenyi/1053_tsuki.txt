@@ -1,0 +1,31 @@
+[panda]
+_id: 1053
+birthday: 2016/6/22
+birthplace: 219
+children: 1238, 1235
+cn.name: 師父
+cn.nicknames: none
+cn.oldnames: 月
+cn.othernames: none
+commitdate: 2019/11/13
+en.name: Shifu
+en.nicknames: none
+en.oldnames: Tsuki
+en.othernames: none
+gender: m
+hu.name: Shifu
+hu.nicknames: none
+hu.oldnames: Tsuki
+hu.othernames: none
+jp.name: 師父
+jp.nicknames: none
+jp.oldnames: つき
+jp.othernames: しふ
+language.order: en, jp
+litter: 1052
+location.1: 219, 2016/6/22
+location.2: 221, 2017/1/29
+location.3: 220, 2018/1/1
+species: 1
+uncertainty: location.3 date
+zoo: 220

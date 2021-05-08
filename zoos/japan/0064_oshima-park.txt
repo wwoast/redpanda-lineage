@@ -1,0 +1,19 @@
+[zoo]
+_id: 64
+commitdate: 2018/8/3
+en.address: 2 泉津字福重 Oshima, Tokyo 100-0103, Japan
+en.location: Ōshima, Tokyo, Japan
+en.name: Tokyo Toritsu Oshima Park
+flag: Japan
+jp.address: 〒100-0103 東京都大島町泉津字福重２
+jp.location: 伊豆大島 東京都
+jp.name: 東京都立大島公園
+language.order: jp, en
+latitude: 34.7607382
+longitude: 139.4311267
+map: https://goo.gl/maps/ygjtnJ59iXw
+photo.1: ig://Bg00Bl9hYZs/m
+photo.1.author: dacrag
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/dacrag/
+website: http://www.soumu.metro.tokyo.jp/11osima/park/www/htdocs/parkindex.html

@@ -1,0 +1,41 @@
+[panda]
+_id: 441
+birthday: 2009/6/13
+birthplace: 82
+children: none
+commitdate: 2018/11/24
+en.name: Sha-Lei
+en.nicknames: none
+en.othernames: Shalei, Shaley
+gender: f
+jp.name: シェリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 82, 2009/6/13
+location.2: 77, 2010/12/1
+location.3: 97, 2013/1/15
+photo.1: ig://B3FmYaWnRoD/m
+photo.1.author: rwpzoo
+photo.1.commitdate: 2020/1/18
+photo.1.link: https://www.instagram.com/rwpzoo/
+photo.1.tags: pumpkin
+photo.2: ig://B4-xnX9HU5H/m
+photo.2.author: rwpzoo
+photo.2.commitdate: 2020/1/18
+photo.2.link: https://www.instagram.com/rwpzoo/
+photo.2.tags: whiskers
+photo.3: ig://B5kz_sfjSmQ/m
+photo.3.author: rwpzoo
+photo.3.commitdate: 2020/1/18
+photo.3.link: https://www.instagram.com/rwpzoo/
+photo.3.tags: bridge, laying down, paws
+photo.4: ig://B7Zq6e1HAFk/m
+photo.4.author: rwpzoo
+photo.4.commitdate: 2020/1/18
+photo.4.link: https://www.instagram.com/rwpzoo/
+photo.4.tags: portrait, profile
+species: 2
+studbook.id: 0934
+zoo: 97

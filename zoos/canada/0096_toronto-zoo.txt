@@ -1,0 +1,16 @@
+[zoo]
+_id: 96
+commitdate: 2018/11/23
+en.address: 2000 Meadowvale Rd, Toronto, ON M1B 5K7, Canada
+en.location: Toronto, Ontario, Canada
+en.name: Toronto Zoo
+flag: Canada
+language.order: en
+latitude: 43.8125009
+longitude: -79.2037486
+map: https://goo.gl/maps/65RpCZ7DA5T2
+photo.1: ig://BmHYr5yld1C/m
+photo.1.author: mcw_crawford
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/mcw_crawford/
+website: http://www.torontozoo.com/

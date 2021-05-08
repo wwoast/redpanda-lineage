@@ -1,0 +1,20 @@
+[panda]
+_id: 833
+birthday: 2017/6/20
+birthplace: 107
+children: none
+commitdate: 2019/4/8
+en.name: Wilhelm
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウィルヘルム
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 581
+location.1: 107, 2017/6/20
+location.2: 155, 2018/4/26
+species: 1
+studbook.id: 1719
+zoo: 155

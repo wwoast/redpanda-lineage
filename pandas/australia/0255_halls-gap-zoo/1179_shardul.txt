@@ -1,0 +1,57 @@
+[panda]
+_id: 1179
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/6/15
+en.name: Shardul
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シャードゥル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: ig://BgP8RZ2l8aF/m
+photo.1.author: hallsgapzoo
+photo.1.commitdate: 2020/6/15
+photo.1.link: https://www.instagram.com/hallsgapzoo/
+photo.1.tags: portrait, smile, whiskers
+photo.2: ig://B2pdUaih0F_/m
+photo.2.author: hallsgapzoo
+photo.2.commitdate: 2020/6/15
+photo.2.link: https://www.instagram.com/hallsgapzoo/
+photo.2.tags: apple time, lunch time, portrait
+photo.3: ig://B3J8iHdF2L7/m
+photo.3.author: peter_roberts
+photo.3.commitdate: 2020/6/15
+photo.3.link: https://www.instagram.com/peter_roberts/
+photo.3.tags: laying down, smile
+photo.4: ig://B3tw0_3gFbK/m
+photo.4.author: mel777rob
+photo.4.commitdate: 2020/6/15
+photo.4.link: https://www.instagram.com/mel77rob/
+photo.4.tags: paws, portrait, profile, smile, whiskers
+photo.5: ig://B4EpsL1ATGL/m
+photo.5.author: mel777rob
+photo.5.commitdate: 2020/6/15
+photo.5.link: https://www.instagram.com/mel77rob/
+photo.5.tags: laying down, portrait, tree
+photo.6: ig://B4vppuBBT-n/m
+photo.6.author: sallyd1971
+photo.6.commitdate: 2020/6/15
+photo.6.link: https://www.instagram.com/sallyd1971/
+photo.6.tags: laying down, portrait
+photo.7: ig://B43S60WAcfQ/m
+photo.7.author: zookeeper_laura
+photo.7.commitdate: 2020/6/15
+photo.7.link: https://www.instagram.com/zookeeper_laura/
+photo.7.tags: paws
+photo.8: ig://B5XGrM8A3hs/m
+photo.8.author: zookeeper_laura
+photo.8.commitdate: 2020/6/15
+photo.8.link: https://www.instagram.com/zookeeper_laura/
+photo.8.tags: bamboo, peek, tree
+species: 1
+zoo: 255

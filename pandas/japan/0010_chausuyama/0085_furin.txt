@@ -1,0 +1,245 @@
+[panda]
+_id: 85
+birthday: 2007/7/11
+birthplace: 8
+children: none
+commitdate: 2018/6/23
+en.name: Furin
+en.nicknames: Wind Chimes
+en.othernames: Fuurin
+gender: f
+jp.name: 風鈴
+jp.nicknames: none
+jp.othernames: フウリン
+language.order: jp, en
+litter: 42
+location.1: 8, 2007/7/11
+location.2: 10, 2008/6/30
+photo.1: ig://8u2nbGq93t/m
+photo.1.author: miyukitchen38
+photo.1.commitdate: 2018/7/29
+photo.1.link: https://www.instagram.com/miyukitchen38/
+photo.1.tags: laying down, tail
+photo.2: ig://BTkSbFEguSl/m
+photo.2.author: _natsu_panda_
+photo.2.commitdate: 2018/7/29
+photo.2.link: https://www.instagram.com/_natsu_panda_/
+photo.2.tags: air tasting, portrait, tongue
+photo.3: ig://BgM9YH7FMOK/m
+photo.3.author: rie_panda55
+photo.3.commitdate: 2018/7/29
+photo.3.link: https://www.instagram.com/rie_panda55/
+photo.3.tags: portrait, tree
+photo.4: ig://Bg_DFBIFJPw/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/7/19
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: apple time, dish, portrait, tongue
+photo.5: ig://Bm9myucFvvz/m
+photo.5.author: 218_yu
+photo.5.commitdate: 2018/8/30
+photo.5.link: https://www.instagram.com/218_yu/
+photo.5.tags: portrait, smile, tree
+photo.6: ig://Bo9-bvdlgbk/m
+photo.6.author: kipekaila
+photo.6.commitdate: 2018/10/15
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: portrait, tree
+photo.7: ig://BqNzfZ4FF7h/m
+photo.7.author: _natsu_panda_
+photo.7.commitdate: 2018/11/17
+photo.7.link: https://www.instagram.com/_natsu_panda_/
+photo.7.tags: peek, tree
+photo.8: ig://Bqq7iGcnAyW/m
+photo.8.author: yakko____
+photo.8.commitdate: 2018/12/6
+photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: portrait
+photo.9: ig://BqvZsmVF5yo/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2018/11/28
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: apple time, dish
+photo.10: ig://BrP5Mu8lk4q/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2018/12/12
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: dish, tongue
+photo.11: ig://BreV9KDlVfd/m
+photo.11.author: ayusuke56
+photo.11.commitdate: 2018/12/17
+photo.11.link: https://www.instagram.com/ayusuke56/
+photo.11.tags: dish, lunch time, portrait, profile
+photo.12: ig://Bry95SpFRLp/m
+photo.12.author: ayusuke56
+photo.12.commitdate: 2018/12/25
+photo.12.link: https://www.instagram.com/ayusuke56/
+photo.12.tags: portrait, tree
+photo.13: ig://BsDZgKLFlU3/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/1/3
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: tree
+photo.14: ig://BunL1HBFbJV/m
+photo.14.author: kipekaila
+photo.14.commitdate: 2019/3/10
+photo.14.link: https://www.instagram.com/kipekaila/
+photo.14.tags: grumpy, mofumofu, portrait
+photo.15: ig://BupxeQOlRRs/m
+photo.15.author: ayusuke56
+photo.15.commitdate: 2019/3/10
+photo.15.link: https://www.instagram.com/ayusuke56/
+photo.15.tags: grumpy, mofumofu, portrait
+photo.16: ig://Bu5NstyFq48/m
+photo.16.author: ayusuke56
+photo.16.commitdate: 2019/3/15
+photo.16.link: https://www.instagram.com/ayusuke56/
+photo.16.tags: grumpy, portrait, tree
+photo.17: ig://BvIqx39l6Zr/m
+photo.17.author: ayusuke56
+photo.17.commitdate: 2019/3/21
+photo.17.link: https://www.instagram.com/ayusuke56/
+photo.17.tags: sleeping
+photo.18: ig://BvS9jw4lkEC/m
+photo.18.author: ayusuke56
+photo.18.commitdate: 2019/3/22
+photo.18.link: https://www.instagram.com/ayusuke56/
+photo.18.tags: portrait, techitechi, tongue
+photo.19: ig://BvWlQ7elWqS/m
+photo.19.author: fetorus_mami
+photo.19.commitdate: 2019/4/5
+photo.19.link: https://www.instagram.com/fetorus_mami/
+photo.19.tags: dish, paws
+photo.20: ig://Bwo_CWclpmo/m
+photo.20.author: tomoki_redpanda
+photo.20.commitdate: 2019/4/30
+photo.20.link: https://www.instagram.com/tomoki_redpanda/
+photo.20.tags: apple time, dish, smile
+photo.21: ig://BzsZXgrBabF/m
+photo.21.author: framereim
+photo.21.commitdate: 2019/7/10
+photo.21.link: https://www.instagram.com/framereim/
+photo.21.tags: apple time, portrait, smile
+photo.22: ig://B2D9z1ABET8/m
+photo.22.author: tetusara.ki_
+photo.22.commitdate: 2019/9/6
+photo.22.link: https://www.instagram.com/tetusara.ki_/
+photo.22.tags: portrait, tree
+photo.23: ig://B2g56zXBp9a/m
+photo.23.author: ayusuke56
+photo.23.commitdate: 2019/9/18
+photo.23.link: https://www.instagram.com/ayusuke56/
+photo.23.tags: portrait, smile
+photo.24: ig://B21EU_fBEYc/m
+photo.24.author: redpan22
+photo.24.commitdate: 2019/9/27
+photo.24.link: https://www.instagram.com/redpan22/
+photo.24.tags: air tasting, portrait, tongue
+photo.25: ig://B4B3jXnhitd/m
+photo.25.author: tetusara.ki_
+photo.25.commitdate: 2019/10/25
+photo.25.link: https://www.instagram.com/tetusara.ki_/
+photo.25.tags: air tasting, portrait, tongue
+photo.26: ig://B4zd9o7h2G-/m
+photo.26.author: ssc6105
+photo.26.commitdate: 2019/11/17
+photo.26.link: https://www.instagram.com/ssc6105/
+photo.26.tags: apple time, dish, portrait, smile
+photo.27: ig://B49kGq7B54W/m
+photo.27.author: ssc6105
+photo.27.commitdate: 2019/11/24
+photo.27.link: https://www.instagram.com/ssc6105/
+photo.27.tags: paws, smile
+photo.28: ig://B5HilQVhGa0/m
+photo.28.author: resapan.suki
+photo.28.commitdate: 2019/11/21
+photo.28.link: https://www.instagram.com/resapan.suki/
+photo.28.tags: apple time, portrait, tree
+photo.29: ig://B7A_AJOBTDL/m
+photo.29.author: sasapan34
+photo.29.commitdate: 2020/1/9
+photo.29.link: https://www.instagram.com/sasapan34/
+photo.29.tags: apple time, paws, smile, snow
+photo.30: ig://B7x5YfdB5Gx/m
+photo.30.author: kaoru_a358
+photo.30.commitdate: 2020/1/28
+photo.30.link: https://www.instagram.com/kaoru_a358/
+photo.30.tags: apple time, peek, portrait
+photo.31: ig://B8Xq1AVhsVy/m
+photo.31.author: shigeko0531
+photo.31.commitdate: 2020/2/18
+photo.31.link: https://www.instagram.com/shigeko0531/
+photo.31.tags: paws, portrait, snow, tree
+photo.32: ig://B8mm5xwBxjW/m
+photo.32.author: sasapan34
+photo.32.commitdate: 2020/2/26
+photo.32.link: https://www.instagram.com/sasapan34/
+photo.32.tags: apple time, smile, tail
+photo.33: ig://B9WUETyhvm8/m
+photo.33.author: daniele.tokyo
+photo.33.commitdate: 2020/3/8
+photo.33.link: https://www.instagram.com/daniele.tokyo/
+photo.33.tags: apple time, dish, paws, smile
+photo.34: ig://B9e4k1BhKMW/m
+photo.34.author: minatomirai215
+photo.34.commitdate: 2020/3/8
+photo.34.link: https://www.instagram.com/minatomirai215/
+photo.34.tags: portrait, snow
+photo.35: ig://B90qcjFhx5b/m
+photo.35.author: craig_craig_craig
+photo.35.commitdate: 2020/3/18
+photo.35.link: https://www.instagram.com/craig_craig_craig/
+photo.35.tags: apple time, dish, paws, portrait, tail
+photo.36: ig://B99bn1KB20Y/m
+photo.36.author: craig_craig_craig
+photo.36.commitdate: 2020/3/22
+photo.36.link: https://www.instagram.com/craig_craig_craig/
+photo.36.tags: portrait, tree
+photo.37: ig://B-pn0BDhdV9/m
+photo.37.author: minatomirai215
+photo.37.commitdate: 2020/4/6
+photo.37.link: https://www.instagram.com/minatomirai215/
+photo.37.tags: apple time, dish, portrait, snow
+photo.38: ig://B_DtMr4B2jn/m
+photo.38.author: craig_craig_craig
+photo.38.commitdate: 2020/4/18
+photo.38.link: https://www.instagram.com/craig_craig_craig/
+photo.38.tags: portrait, tail, tree
+photo.39: ig://CCe3imoBotM/m
+photo.39.author: panda.daisuki
+photo.39.commitdate: 2020/7/16
+photo.39.link: https://www.instagram.com/panda.daisuki/
+photo.39.tags: dish, flowers, portrait, smile
+photo.40: ig://CCe5x_8hUU5/m
+photo.40.author: hamiiiii831_
+photo.40.commitdate: 2020/7/16
+photo.40.link: https://www.instagram.com/hamiiiii831_/
+photo.40.tags: dish, paws, whiskers
+photo.41: ig://CFzHgeLBrmJ/m
+photo.41.author: craig_craig_craig
+photo.41.commitdate: 2020/11/8
+photo.41.link: https://www.instagram.com/craig_craig_craig/
+photo.41.tags: apple time, dish, portrait, tail, videolink
+photo.42: ig://CHbYy_wBsPC/m
+photo.42.author: rie_panda55
+photo.42.commitdate: 2020/11/21
+photo.42.link: https://www.instagram.com/rie_panda55/
+photo.42.tags: bamboo, portrait, smile, tail
+photo.43: ig://CH-DVUPh5SN/m
+photo.43.author: yakkooo24
+photo.43.commitdate: 2020/12/2
+photo.43.link: https://www.instagram.com/yakkooo24/
+photo.43.tags: apple time, dish, paws, portrait, smile
+photo.44: ig://CIAts3ShBoa/m
+photo.44.author: _saaaaaaah_
+photo.44.commitdate: 2020/12/12
+photo.44.link: https://www.instagram.com/_saaaaaaah_/
+photo.44.tags: apple time, paws, smile
+photo.45: ig://CIK4RRGBHKB/m
+photo.45.author: grskus_tk
+photo.45.commitdate: 2020/12/6
+photo.45.link: https://www.instagram.com/grskus_tk/
+photo.45.tags: bamboo, paws, tail
+species: 2
+studbook.id: 0775
+zoo: 10

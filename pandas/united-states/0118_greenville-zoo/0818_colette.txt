@@ -1,0 +1,30 @@
+[panda]
+_id: 818
+birthday: 2012/6/11
+birthplace: 119
+children: 555, 991, 992, 993
+commitdate: 2019/4/7
+en.name: Colette
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: コレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 911
+location.1: 119, 2012/6/11
+location.2: 118, 2013/3/15
+photo.1: ig://BpfkjspF7G0/m
+photo.1.author: patrickrossphotos
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/patrickrossphotos/
+photo.1.tags: profile, smile
+photo.2: ig://BpzXOMng35w/m
+photo.2.author: greenvillezoo
+photo.2.commitdate: 2020/1/25
+photo.2.link: https://www.instagram.com/greenvillezoo/
+photo.2.tags: laying down, sleeping, whiskers
+species: 1
+studbook.id: 1221
+zoo: 118

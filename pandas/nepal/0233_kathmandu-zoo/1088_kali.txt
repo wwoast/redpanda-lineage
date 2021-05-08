@@ -1,0 +1,20 @@
+[panda]
+_id: 1088
+birthday: 2016/6/1
+birthplace: wild.6
+children: unknown
+commitdate: 2019/12/31
+en.name: Kali
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: カーリー
+jp.nicknames: none
+jp.othernames: none
+language.order: np, en, jp
+litter: 1089
+np.name: काली
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 233

@@ -1,0 +1,19 @@
+[zoo]
+_id: 265
+commitdate: 2020/11/24
+en.address: Budapest, Állatkerti krt. 6-12, 1146 Hungary
+en.location: Budapest, Hungary
+en.name: Budapest Zoo
+flag: Hungary
+hu.address: Budapest, Állatkerti krt. 6-12, 1146 Hungary
+hu.location: Budapest, Hungary
+hu.name: Fővárosi Állat- és Növénykert
+language.order: hu, en
+latitude: 47.5189977
+longitude: 19.0754546
+map: https://goo.gl/maps/ZsFHZfHRNnEqZESq6
+photo.1: https://steemitimages.com/DQmVVZS8BRksH4cnSKMzxLmwHV6fXoSZ9yubw5SwkdkMzkC/dierentuin.jpg
+photo.1.author: anouk.nox
+photo.1.commitdate: 2020/11/24
+photo.1.link: https://steemit.com/travel/@anouk.nox/budapest-zoo-entrance-or-streetphotography
+website: https://zoobudapest.com/

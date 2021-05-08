@@ -1,0 +1,49 @@
+[panda]
+_id: 331
+birthday: 2007/7/25
+birthplace: 46
+children: none
+commitdate: 2018/9/8
+en.name: Kiki
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: 喜喜
+language.order: jp, en
+litter: none
+location.1: 46, 2007/7/25
+location.2: 3, 2009/11/25
+photo.1: ig://BARFr1CR0ts/m
+photo.1.author: ngsbiopark
+photo.1.commitdate: 2018/12/26
+photo.1.link: https://www.instagram.com/ngsbiopark/
+photo.1.tags: portrait, tail
+photo.2: ig://BX-egkWAP3N/m
+photo.2.author: sbskyy
+photo.2.commitdate: 2018/12/26
+photo.2.link: https://www.instagram.com/sbskyy/
+photo.3: ig://Bd-MvcOnkfb/m
+photo.3.author: sbskyy
+photo.3.commitdate: 2018/12/26
+photo.3.link: https://www.instagram.com/sbskyy/
+photo.3.tags: portrait, profile, tree
+photo.4: ig://BgxDSbtFje8/m
+photo.4.author: mochi_pine1733
+photo.4.commitdate: 2018/12/26
+photo.4.link: https://www.instagram.com/mochi_pine1733/
+photo.4.tags: portrait
+photo.5: ig://Bm8cw3ZgOWV/m
+photo.5.author: sbskyy
+photo.5.commitdate: 2018/9/10
+photo.5.link: https://www.instagram.com/sbskyy/
+photo.5.tags: tongue
+photo.6: ig://CE_gfHhBwaP/m
+photo.6.author: ngsbiopark
+photo.6.commitdate: 2020/11/1
+photo.6.link: https://www.instagram.com/ngsbiopark/
+photo.6.tags: laying down, peek, paws, portrait
+species: 2
+studbook.id: 0780
+zoo: 3

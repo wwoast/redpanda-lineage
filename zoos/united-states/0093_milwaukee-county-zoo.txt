@@ -1,0 +1,16 @@
+[zoo]
+_id: 93
+commitdate: 2018/11/23
+en.address: 10001 W Bluemound Rd, Milwaukee, WI 53226
+en.location: Milwaukee, Wisconsin, USA
+en.name: Milwaukee County Zoo
+flag: USA
+language.order: en
+latitude: 43.026838
+longitude: -88.0504021
+map: https://goo.gl/maps/pagD2rWWvY12
+photo.1: ig://BrLDWB2Atk7/m
+photo.1.author: milwaukeecozoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/milwaukeecozoo/
+website: http://www.milwaukeezoo.org/

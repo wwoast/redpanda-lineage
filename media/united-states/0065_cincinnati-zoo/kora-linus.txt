@@ -1,0 +1,11 @@
+[media]
+_id: media.65.kora-linus
+commitdate: 2020/2/28
+panda.tags: 999, 1000
+photo.1: ig://BpwtCuKAMow/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2020/2/28
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: playing, siblings, twins
+photo.1.tags.999.location: 40, 180
+photo.1.tags.1000.location: 150, 65

@@ -1,0 +1,21 @@
+[panda]
+_id: 1264
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/7
+en.name: Sanka
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: https://www.codaworry.com/images/rpf/sanka-1-woburn.jpg
+photo.1.author: Woburn Safari Park
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.facebook.com/woburnsafaripark/posts/10156521743063877
+photo.1.tags: flowers, portrait, tree
+species: 1
+zoo: 276

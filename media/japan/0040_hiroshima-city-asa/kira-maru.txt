@@ -1,0 +1,25 @@
+[media]
+_id: media.40.kira-maru
+commitdate: 2019/10/29
+panda.tags: 197, 237
+photo.1: ig://B4La_1FBvbw/m
+photo.1.author: resapanlove
+photo.1.commitdate: 2019/10/29
+photo.1.link: https://www.instagram.com/resapanlove/
+photo.1.tags: apple time, couple, paws, standing, tail
+photo.1.tags.197.location: 220, 105
+photo.1.tags.237.location: 65, 75
+photo.2: ig://B5K_P1CBSPU/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2019/11/26
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: couple, eeper, paws, standing
+photo.2.tags.197.location: 200, 50
+photo.2.tags.237.location: 125, 90
+photo.3: ig://CD4R8UcBVKQ/l
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/8/29
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: apple time, couple, keeper, portrait
+photo.3.tags.197.location: 430, 440
+photo.3.tags.237.location: 880, 540

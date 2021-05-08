@@ -1,0 +1,27 @@
+[panda]
+_id: 540
+birthday: 2010/6/22
+birthplace: 139
+children: none
+commitdate: 2019/3/2
+death: 2017/7/28
+en.name: Raymundo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ライムンド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 686
+location.1: 139, 2010/6/22
+location.2: 140, 2011/3/22
+location.3: 136, 2015/5/22
+photo.1: ig://BWgu542AKJt/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2020/7/12
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: laying down, portrait, tail
+species: 1
+studbook.id: 1048
+zoo: 136

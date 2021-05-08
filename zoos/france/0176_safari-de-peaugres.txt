@@ -1,0 +1,15 @@
+[zoo]
+_id: 176
+commitdate: 2019/3/24
+en.address: D821, 07340 Peaugres, France
+en.location: Peaugres, Ardeche, France
+en.name: Peaugres Safari
+flag: France
+fr.address: D821, 07340 Peaugres, France
+fr.location: Peaugres, Ardeche, France
+fr.name: Safari de Peaugres
+language.order: fr, en
+latitude: 45.2662271
+longitude: 4.715139
+map: https://goo.gl/maps/to47igrwiqs
+website: https://www.safari-peaugres.com/

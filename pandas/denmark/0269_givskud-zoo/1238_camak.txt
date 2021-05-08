@@ -1,0 +1,32 @@
+[panda]
+_id: 1238
+birthday: 2018/6/25
+birthplace: 220
+children: unknown
+commitdate: 2020/11/26
+en.name: Camak
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Camak
+hu.nicknames: none
+hu.othernames: none
+jp.name: カマック
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en
+litter: unknown
+location.1: 220, 2018/6/25
+location.2: 269, 2019/4/15
+photo.1: ig://BwWFIvzFnyt/m
+photo.1.author: givskudzoo
+photo.1.commitdate: 2020/11/26
+photo.1.link: https://www.instagram.com/givskudzoo/
+photo.1.tags: ear, nose, eye, muzzle, tail
+photo.2: ig://B-OuiM8lF5n/m
+photo.2.author: givskudzoo
+photo.2.commitdate: 2020/11/26
+photo.2.link: https://www.instagram.com/givskudzoo/
+photo.2.tags: ear, nose, eye, muzzle
+species: 1
+zoo: 269

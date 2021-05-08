@@ -1,0 +1,21 @@
+[panda]
+_id: 1132
+birthday: 1998/6/7
+birthplace: 114
+children: none
+commitdate: 2020/3/20
+death: 2008/8/1
+en.name: William
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウィリアム
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1131
+location.1: 114, 1998/6/7
+location.2: 141, 2000/4/26
+location.3: 128, 2000/11/20
+species: 1
+zoo: 128

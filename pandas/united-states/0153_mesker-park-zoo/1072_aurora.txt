@@ -1,0 +1,32 @@
+[panda]
+_id: 1072
+birthday: 2019/6/8
+birthplace: 153
+children: none
+commitdate: 2019/12/2
+en.name: Aurora
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: オーロラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1073
+photo.1: ig://B0zKMxLB3-p/m
+photo.1.author: meskerzoo
+photo.1.commitdate: 2019/12/2
+photo.1.link: https://www.instagram.com/meskerzoo/
+photo.1.tags: baby, panda bowl, scale
+photo.2: ig://B5cwhuGBzJy/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/12/2
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, door, home, portrait, profile, white face
+photo.3: ig://B6p9mVkhlHL/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/1/1
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: white face
+species: 1
+zoo: 153

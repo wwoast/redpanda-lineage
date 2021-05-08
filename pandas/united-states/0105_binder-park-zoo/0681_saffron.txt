@@ -1,0 +1,19 @@
+[panda]
+_id: 681
+birthday: 2016/7/6
+birthplace: 105
+children: none
+commitdate: 2019/3/24
+death: 2016/12/21
+en.name: Saffron
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サフラン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+studbook.id: 1625
+zoo: 105

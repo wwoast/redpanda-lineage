@@ -1,0 +1,79 @@
+[panda]
+_id: 401
+birthday: 2010/6/14
+birthplace: 76
+children: 394, 493, 469, 470
+commitdate: 2018/11/22
+en.name: Beilei
+en.nicknames: none
+en.oldnames: Roby
+en.othernames: none
+gender: f
+jp.name: バイリー
+jp.nicknames: none
+jp.oldnames: ロビー
+jp.othernames: none
+language.order: en, jp
+litter: 895
+location.1: 76, 2010/6/14
+location.2: 43, 2011/6/21
+location.3: 84, 2011/7/25
+location.4: 65, 2016/5/26
+location.5: 112, 2019/1/1
+photo.1: ig://7YCs5blXPN/m
+photo.1.author: prospectparkzoo
+photo.1.commitdate: 2018/12/12
+photo.1.link: https://www.instagram.com/prospectparkzoo/
+photo.1.tags: bamboo, close-up, portrait, tongue
+photo.2: ig://BCf92hSFXEJ/m
+photo.2.author: prospectparkzoo
+photo.2.commitdate: 2018/12/12
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.2.tags: bamboo
+photo.3: ig://BEObcqVtG2_/m
+photo.3.author: mariten1119
+photo.3.commitdate: 2020/7/2
+photo.3.link: https://www.instagram.com/mariten1119/
+photo.3.tags: portrait, whiskers
+photo.4: ig://BEObmPctG3V/m
+photo.4.author: mariten1119
+photo.4.commitdate: 2018/12/17
+photo.4.link: https://www.instagram.com/mariten1119/
+photo.4.tags: laying down, portrait
+photo.5: ig://BEgYkUXFXA6/m
+photo.5.author: prospectparkzoo
+photo.5.commitdate: 2018/12/12
+photo.5.link: https://www.instagram.com/prospectparkzoo/
+photo.5.tags: portrait, profile
+photo.6: ig://BucY2_FHyec/m
+photo.6.author: chattanoogazoo
+photo.6.commitdate: 2019/3/12
+photo.6.link: https://www.instagram.com/chattanoogazoo/
+photo.7: ig://BxN5APoHvqY/m
+photo.7.author: chattanoogazoo
+photo.7.commitdate: 2019/10/16
+photo.7.link: https://www.instagram.com/chattanoogazoo/
+photo.7.tags: hammock
+photo.8: ig://BxlIsOYB_1E/m
+photo.8.author: chattanoogazoo
+photo.8.commitdate: 2019/10/16
+photo.8.link: https://www.instagram.com/chattanoogazoo/
+photo.8.tags: peek
+photo.9: ig://B5dZ1bDBkVP/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/11/29
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: portrait, smile
+photo.10: ig://B5dzDuCnPkl/m
+photo.10.author: chattanoogazoo
+photo.10.commitdate: 2020/9/24
+photo.10.link: https://www.instagram.com/chattanoogazoo/
+photo.10.tags: peek, paws, smile
+photo.11: ig://B5oS2iWH8WK/m
+photo.11.author: chattanoogazoo
+photo.11.commitdate: 2020/9/24
+photo.11.link: https://www.instagram.com/chattanoogazoo/
+photo.11.tags: laying down, paws, smile
+species: 2
+studbook.id: 1006
+zoo: 112

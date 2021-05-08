@@ -1,0 +1,50 @@
+[panda]
+_id: 392
+birthday: 2015/6/19
+birthplace: 65
+children: 419, 998
+commitdate: 2018/11/18
+en.name: Dr. Erin Curry
+en.nicknames: none
+en.othernames: Dr. Curry
+gender: f
+jp.name: Erin Curry博士
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2015/6/19
+location.2: 93, 2016/3/15
+photo.1: ig://BA-LKhNSkL9/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: tail, tree
+photo.2: ig://BBNPpygtq4M/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2018/11/18
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: mofumofu, portrait, profile, tail
+photo.3: ig://BpfB0_klhXn/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2018/11/23
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tail
+photo.4: ig://BsbAINvFALj/m
+photo.4.author: carsontheredpanda
+photo.4.commitdate: 2019/1/14
+photo.4.link: https://www.instagram.com/carsontheredpanda/
+photo.4.tags: portrait
+photo.5: ig://B-sIGWfFk3W/m
+photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2020/6/7
+photo.5.link: https://www.instagram.com/milwaukeecozoo/
+photo.5.tags: lunch time, nose, smile, whiskers
+photo.6: ig://CALhSvWFgSY/m
+photo.6.author: milwaukeecozoo
+photo.6.commitdate: 2020/6/7
+photo.6.link: https://www.instagram.com/milwaukeecozoo/
+photo.6.tags: paws, smile, whiskers
+species: 2
+studbook.id: 1518
+zoo: 93

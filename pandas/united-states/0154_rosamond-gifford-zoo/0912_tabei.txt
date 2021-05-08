@@ -1,0 +1,24 @@
+[panda]
+_id: 912
+birthday: 2013/6/1
+birthplace: 108
+children: 343, 617, 854, 855, 1224, 1225
+commitdate: 2019/7/2
+en.name: Tabei
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: たべい
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 524
+location.1: 108, 2013/6/1
+location.2: 154, 2014/5/13
+photo.1: ig://CFMuBxDhn1c/m
+photo.1.author: syracusezoo
+photo.1.commitdate: 2020/9/16
+photo.1.link: https://www.instagram.com/syracusezoo/
+photo.1.tags: paws, profile, tree, white face
+species: 1
+zoo: 154

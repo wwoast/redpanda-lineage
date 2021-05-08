@@ -1,0 +1,16 @@
+[zoo]
+_id: 234
+commitdate: 2020/1/14
+en.address: Leuvensesteenweg 582, 2812 Mechelen, Belgium
+en.location: Mechelen, Belgium
+en.name: Zoo Planckendael
+en.othernames: Wild Animal Park Mechelen Planckendael
+flag: Belgium
+fr.address: Leuvensesteenweg 582, 2812 Mechelen, Belgium
+fr.location: Mechelen, Belgium
+fr.name: Zoo Planckendael
+language.order: fr, en
+latitude: 51.0017409
+longitude: 4.5137072
+map: https://goo.gl/maps/p46BZpsiKhJLDdkz7
+website: https://www.zooplanckendael.be/

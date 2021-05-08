@@ -1,0 +1,21 @@
+[panda]
+_id: 779
+birthday: 1991/7/14
+birthplace: 6
+children: none
+commitdate: 2019/4/2
+death: 2012/6/26
+en.name: Pao
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: パオ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 778
+location.1: 6, 1991/7/14
+location.2: 42, 1993/3/19
+species: 2
+studbook.id: 9184
+zoo: 42

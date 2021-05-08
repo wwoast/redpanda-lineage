@@ -1,0 +1,24 @@
+[zoo]
+_id: 15
+commitdate: 2018/6/18
+en.address: Japan, 〒700-0015 Okayama Prefecture, Okayama, Kita, 京山２丁目５番１号
+en.location: Okayama, Okayama Prefecture, Chugoku Region, Japan
+en.name: Ikeda Zoo
+flag: Japan
+jp.address: 〒700-0015 岡山県岡山市北区 京山２丁目５番１号
+jp.location: 岡山市 岡山県 中国地方
+jp.name: 池田動物園
+language.order: jp, en
+latitude: 34.6746507
+longitude: 133.9040114
+map: https://goo.gl/maps/2bjmzYUBiqk
+photo.1: ig://Bm65Nn_FKhb/m
+photo.1.author: y_ka.10
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/y_ka.10/
+photo.2: ig://Bpj1O9LFeaQ/m
+photo.2.author: ecco.days
+photo.2.commitdate: 2019/6/1
+photo.2.link: https://www.instagram.com/ecco.days/
+photo.2.tags: profile
+website: http://www.urban.ne.jp/home/ikedazoo/

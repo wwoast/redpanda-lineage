@@ -1,0 +1,105 @@
+[panda]
+_id: 419
+birthday: 2018/6/6
+birthplace: 93
+children: none
+commitdate: 2018/11/23
+en.name: Dr. Lily
+en.nicknames: none
+en.othernames: Lily, Dr. Parkinson, Dr. Lily Alanna Parkinson
+gender: f
+jp.name: Lily博士
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 93, 2018/6/6
+location.2: 90, 2019/4/1
+photo.1: ig://BoNSTAMAfeo/m
+photo.1.author: dmwarnman
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/dmwarnman/
+photo.1.tags: baby, smile
+photo.2: ig://BoNYYdqgaE2/m
+photo.2.author: journalsentinel
+photo.2.commitdate: 2018/11/23
+photo.2.link: https://www.instagram.com/journalsentinel/
+photo.2.tags: baby, ear
+photo.3: ig://BqERxoYg7iH/m
+photo.3.author: gambit2704
+photo.3.commitdate: 2018/11/23
+photo.3.link: https://www.instagram.com/gambit2704/
+photo.3.tags: portrait, whiskers
+photo.4: ig://BrDOOmxBmYn/m
+photo.4.author: milwaukeecozoo
+photo.4.commitdate: 2018/12/21
+photo.4.link: https://www.instagram.com/milwaukeecozoo/
+photo.4.tags: bamboo, snow
+photo.5: ig://BrxrClJDtWv/m
+photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/milwaukeecozoo/
+photo.5.tags: baby, portrait, snow
+photo.6: ig://Br72UReFdSw/m
+photo.6.author: milwaukeecozoo
+photo.6.commitdate: 2019/10/17
+photo.6.link: https://www.instagram.com/milwaukeecozoo/
+photo.6.tags: baby, bridge, portrait, snow
+photo.7: ig://BsJA-UiBAiA/m
+photo.7.author: milwaukeecozoo
+photo.7.commitdate: 2019/10/17
+photo.7.link: https://www.instagram.com/milwaukeecozoo/
+photo.7.tags: nose, portrait, snow
+photo.8: ig://Bs0mJ8vBsnm/m
+photo.8.author: milwaukeecozoo
+photo.8.commitdate: 2019/10/17
+photo.8.link: https://www.instagram.com/milwaukeecozoo/
+photo.8.tags: portrait, smile, snow
+photo.9: ig://BtV6S1JjNUs/m
+photo.9.author: milwaukeecozoo
+photo.9.commitdate: 2019/10/17
+photo.9.link: https://www.instagram.com/milwaukeecozoo/
+photo.9.tags: paws, portrait, snow
+photo.10: ig://Bt_OSuCDcY-/m
+photo.10.author: milwaukeecozoo
+photo.10.commitdate: 2019/10/17
+photo.10.link: https://www.instagram.com/milwaukeecozoo/
+photo.10.tags: laying down, mofumofu, portrait, snow, tail
+photo.11: ig://BvmvMKDhc2D/m
+photo.11.author: milwaukeecozoo
+photo.11.commitdate: 2019/10/17
+photo.11.link: https://www.instagram.com/milwaukeecozoo/
+photo.11.tags: mofumofu, portrait, smile
+photo.12: ig://BwG20xdBelR/m
+photo.12.author: golos_ameriki
+photo.12.commitdate: 2019/4/12
+photo.12.link: https://www.instagram.com/golos_ameriki/
+photo.12.tags: paws
+photo.13: ig://CDQ8YjHgarj/m
+photo.13.author: rossifari
+photo.13.commitdate: 2020/8/9
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: paws, portrait, smile, tongue
+photo.14: ig://CEdBAtdBASd/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2020/9/4
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: bamboo, paws, peek, portrait
+photo.15: ig://CEh5-Y_hmCQ/m
+photo.15.author: worldthathesees
+photo.15.commitdate: 2020/9/4
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: portrait, smile, tongue, whiskers
+photo.16: ig://CEphv1DpqzR/m
+photo.16.author: worldthathesees
+photo.16.commitdate: 2020/9/7
+photo.16.link: https://www.instagram.com/worldthathesees/
+photo.16.tags: portrait, tail
+photo.17: ig://CExj4OSJL0O/m
+photo.17.author: worldthathesees
+photo.17.commitdate: 2020/9/14
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: paws, portrait, profile
+species: 2
+studbook.id: 1801
+zoo: 90

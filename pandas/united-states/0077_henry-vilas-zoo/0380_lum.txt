@@ -1,0 +1,57 @@
+[panda]
+_id: 380
+birthday: 2000/6/4
+birthplace: 43
+children: 381
+commitdate: 2018/11/13
+en.name: Lum
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラム
+jp.nicknames: ルーム
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 43, 2000/6/4
+location.2: 107, 2001/10/17
+location.3: 84, 2002/12/12
+location.4: 65, 2007/12/5
+location.5: 77, 2011/11/7
+photo.1: https://www.codaworry.com/images/rpf/lum-1-henryvilas.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/worldthathesees
+photo.1.tags: tree
+photo.2: https://www.codaworry.com/images/rpf/lum-2-henryvilas.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees
+photo.2.tags: tree
+photo.3: https://www.codaworry.com/images/rpf/lum-3-henryvilas.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees
+photo.3.tags: tree
+photo.4: https://www.codaworry.com/images/rpf/lum-4-henryvilas.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/worldthathesees
+photo.5: https://www.codaworry.com/images/rpf/lum-5-henryvilas.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/9
+photo.5.link: https://www.instagram.com/worldthathesees
+photo.5.tags: hammock, smile
+photo.6: https://www.codaworry.com/images/rpf/lum-6-henryvilas.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://www.instagram.com/worldthathesees
+photo.6.tags: profile
+photo.7: https://www.codaworry.com/images/rpf/lum-7-henryvilas.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/9
+photo.7.link: https://www.instagram.com/worldthathesees
+photo.7.tags: laying down
+species: 2
+studbook.id: 0008
+zoo: 77

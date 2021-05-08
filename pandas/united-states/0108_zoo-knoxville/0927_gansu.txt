@@ -1,0 +1,50 @@
+[panda]
+_id: 927
+birthday: 2013/6/27
+birthplace: 124
+children: 1076, 1251
+commitdate: 2019/7/2
+en.name: Gansu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ガンス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 928
+location.1: 124, 2013/6/27
+location.2: 125, 2014/5/21
+location.3: 108, 2018/2/23
+photo.1: https://www.codaworry.com/images/rpf/gansu-1-knoxville.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/12/3
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: white face
+photo.2: ig://B0zmDaIhBjd/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/12/5
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, portrait, white face
+photo.3: ig://B5fOziMhH1b/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/3
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, profile, whiskers, white face
+photo.4: ig://B7dohh-hXQR/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2021/1/5
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: nose, portrait, profile
+photo.5: ig://CDCm8lEBuZQ/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2020/12/5
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: laying down, smile, white face
+photo.6: ig://CDUlaVAB8Ip/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/11/16
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: peek, white face
+species: 1
+zoo: 108

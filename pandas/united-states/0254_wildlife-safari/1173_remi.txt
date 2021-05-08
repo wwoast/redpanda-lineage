@@ -1,0 +1,19 @@
+[panda]
+_id: 1173
+birthday: 2018/6/20
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Remi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: レミ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1174
+location.1: 145, 2018/6/20
+location.2: 254, 2020/6/10
+species: 1
+zoo: 254

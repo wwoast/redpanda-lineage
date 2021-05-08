@@ -1,0 +1,18 @@
+[media]
+_id: media.82.paprika-pepper
+commitdate: 2020/1/3
+panda.tags: 485, 486
+photo.1: ig://Bc-079zgSA1/l
+photo.1.author: buildingourzoo
+photo.1.commitdate: 2020/1/3
+photo.1.link: https://www.instagram.com/buildingourzoo/
+photo.1.tags: baby, siblings, sisters, twins
+photo.1.tags.485.location: 195, 300
+photo.1.tags.486.location: 525, 380
+photo.2: ig://BcnaCGSFb90/m
+photo.2.author: edmontonvalleyzoo
+photo.2.commitdate: 2020/1/19
+photo.2.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.2.tags: baby, dish, portrait, siblings, sisters, twins
+photo.2.tags.485.location: 230, 180
+photo.2.tags.486.location: 120, 150

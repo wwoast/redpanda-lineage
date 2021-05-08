@@ -1,0 +1,140 @@
+[panda]
+_id: 878
+birthday: 2019/6/2
+birthplace: 146
+children: none
+commitdate: 2020/6/3
+en.name: Ravi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラビ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 877
+location.1: 146, 2019/6/2
+location.2: 179, 2020/5/1
+photo.1: ig://B2_59HAHkJ2/m
+photo.1.author: okczoo
+photo.1.commitdate: 2019/10/15
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: baby
+photo.2: ig://B4z9qIkAbIN/m
+photo.2.author: esdeemphoto
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/esdeemphoto/
+photo.2.tags: baby, bamboo, portrait
+photo.3: ig://B5QwUmNBHY6/m
+photo.3.author: darkmetalestrella
+photo.3.commitdate: 2020/5/30
+photo.3.link: https://www.instagram.com/darkmetalestrella/
+photo.3.tags: baby, mofumofu, portrait
+photo.4: ig://B5YHgZFA_76/m
+photo.4.author: esdeemphoto
+photo.4.commitdate: 2020/3/3
+photo.4.link: https://www.instagram.com/esdeemphoto/
+photo.4.tags: baby, bamboo, lunch time, smile
+photo.5: ig://B5Y3u0_h2yS/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/11/29
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: baby, bamboo, portrait, profile, tongue
+photo.6: ig://B5k4nPdlFb7/m
+photo.6.author: okczoo
+photo.6.commitdate: 2020/2/24
+photo.6.link: https://www.instagram.com/okczoo/
+photo.6.tags: baby, bamboo, bite, paws, smile
+photo.7: ig://B6BPeAJA4xE/m
+photo.7.author: esdeemphoto
+photo.7.commitdate: 2020/3/3
+photo.7.link: https://www.instagram.com/esdeemphoto/
+photo.7.tags: aby, bamboo, smile, tongue
+photo.8: ig://B6mLtn1AQKw/m
+photo.8.author: esdeemphoto
+photo.8.commitdate: 2020/3/3
+photo.8.link: https://www.instagram.com/esdeemphoto/
+photo.8.tags: baby, tail
+photo.9: ig://B6y9PckAT9b/m
+photo.9.author: esdeemphoto
+photo.9.commitdate: 2020/3/3
+photo.9.link: https://www.instagram.com/esdeemphoto/
+photo.9.tags: bamboo, portrait, smile
+photo.10: ig://B7XHHq-ALit/m
+photo.10.author: esdeemphoto
+photo.10.commitdate: 2020/3/3
+photo.10.link: https://www.instagram.com/esdeemphoto/
+photo.10.tags: baby, techitechi
+photo.11: ig://B8wGX_hDMU1/m
+photo.11.author: okczoo
+photo.11.commitdate: 2020/5/19
+photo.11.link: https://www.instagram.com/okczoo/
+photo.11.tags: bamboo, mofumofu, smile, techitechi
+photo.12: ig://B_YfGwIHs5n/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2020/5/17
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: door, paws, portrait
+photo.13: ig://B_bBv8RHJaK/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2020/5/17
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: bamboo, paws, smile
+photo.14: ig://B_dZ-cnB4P1/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2020/5/19
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: bamboo, bite, portrait
+photo.15: ig://B_gLNohnQJa/m
+photo.15.author: worldthathesees
+photo.15.commitdate: 2020/5/19
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: smile, tongue, whiskers
+photo.16: ig://B_nkgAkBxTn/m
+photo.16.author: worldthathesees
+photo.16.commitdate: 2020/5/19
+photo.16.link: https://www.instagram.com/worldthathesees/
+photo.16.tags: bamboo, portrait, techitechi
+photo.17: ig://B_qI_g4Bnh3/m
+photo.17.author: worldthathesees
+photo.17.commitdate: 2020/5/19
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: bamboo, paws
+photo.18: ig://B_tEuY3hsdj/m
+photo.18.author: worldthathesees
+photo.18.commitdate: 2020/5/19
+photo.18.link: https://www.instagram.com/worldthathesees/
+photo.18.tags: paws, portrait, smile, whiskers
+photo.19: ig://B_yLvvmpyqC/m
+photo.19.author: worldthathesees
+photo.19.commitdate: 2020/5/19
+photo.19.link: https://www.instagram.com/worldthathesees/
+photo.19.tags: bamboo, peek, portrait, smile, tongue
+photo.20: ig://CA5tWQMnBA9/m
+photo.20.author: okczoo
+photo.20.commitdate: 2020/6/6
+photo.20.link: https://www.instagram.com/okczoo/
+photo.20.tags: bamboo, smile, standing
+photo.21: ig://CFU6oJrMqA2/m
+photo.21.author: sedgwickcountyzoo
+photo.21.commitdate: 2020/12/30
+photo.21.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.21.tags: paws, smile, standing, tail
+photo.22: ig://CHgJKhoMgPA/m
+photo.22.author: sedgwickcountyzoo
+photo.22.commitdate: 2020/11/22
+photo.22.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.22.tags: pumpkin, paws, standing
+photo.23: ig://CI3zxjpsUEB/m
+photo.23.author: sedgwickcountyzoo
+photo.23.commitdate: 2020/12/30
+photo.23.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.23.tags: paws, portrait, snow
+photo.24: ig://CI4s2_jBoJ2/m
+photo.24.author: sedgwickcountyzoo
+photo.24.commitdate: 2020/12/30
+photo.24.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.24.tags: portrait, smile, snow
+species: 1
+studbook.id: 1904
+zoo: 179

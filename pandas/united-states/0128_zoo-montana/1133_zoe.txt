@@ -1,0 +1,45 @@
+[panda]
+_id: 1133
+birthday: 2003/7/7
+birthplace: 108
+children: none
+commitdate: 2020/3/20
+en.name: Zoe
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ゾーイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1134
+location.1: 108, 2003/7/7
+location.2: 112, 2004/4/14
+location.3: 128, 2008/11/14
+photo.1: ig://BxXVWMbFpso/m
+photo.1.author: zoomontana
+photo.1.commitdate: 2020/3/21
+photo.1.link: https://www.instagram.com/zoomontana/
+photo.1.tags: laying down, paws, portrait
+photo.2: ig://CBdFwgnpAV4/m
+photo.2.author: grandescape3
+photo.2.commitdate: 2020/8/25
+photo.2.link: https://www.instagram.com/grandescape3/
+photo.2.tags: paws, portrait
+photo.3: ig://CCoxZ5Jjeso/m
+photo.3.author: krs_wildlife_photography
+photo.3.commitdate: 2020/9/10
+photo.3.link: https://www.instagram.com/krs_wildlife_photography/
+photo.3.tags: bamboo, mofumofu, portrait, white face
+photo.4: ig://CDzyoNCAPTf/m
+photo.4.author: krs_wildlife_photography
+photo.4.commitdate: 2020/9/10
+photo.4.link: https://www.instagram.com/krs_wildlife_photography/
+photo.4.tags: portrait, profile, whiskers
+photo.5: ig://CDzy2k1Ayj4/m
+photo.5.author: krs_wildlife_photography
+photo.5.commitdate: 2020/9/10
+photo.5.link: https://www.instagram.com/krs_wildlife_photography/
+photo.5.tags: bamboo, paws, portrait
+species: 1
+zoo: 128

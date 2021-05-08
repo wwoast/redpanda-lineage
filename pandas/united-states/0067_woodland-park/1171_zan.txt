@@ -1,0 +1,37 @@
+[panda]
+_id: 1171
+birthday: 2020/5/25
+birthplace: 67
+children: none
+commitdate: 2020/6/14
+en.name: Zan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ザン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1172
+photo.1: ig://CGDgFV-hliK/m
+photo.1.author: woodlandparkzoo
+photo.1.commitdate: 2020/10/7
+photo.1.link: https://www.instagram.com/woodlandparkzoo/
+photo.1.tags: baby, portrait, white face
+photo.2: ig://CGDgT1kh2wf/m
+photo.2.author: woodlandparkzoo
+photo.2.commitdate: 2020/10/7
+photo.2.link: https://www.instagram.com/woodlandparkzoo/
+photo.2.tags: baby, portrait, profile, pumpkin, smile, white face
+photo.3: ig://CGEQM62hfWu/m
+photo.3.author: woodlandparkzoo
+photo.3.commitdate: 2020/10/9
+photo.3.link: https://www.instagram.com/woodlandparkzoo/
+photo.3.tags: portrait, pumpkin, white face
+photo.4: ig://CMTejTpB2sK/m
+photo.4.author: woodlandparkzoo
+photo.4.commitdate: 2021/4/3
+photo.4.link: https://www.instagram.com/woodlandparkzoo/
+photo.4.tags: baby, portrait, tree, videolink, white face
+species: 2
+zoo: 67

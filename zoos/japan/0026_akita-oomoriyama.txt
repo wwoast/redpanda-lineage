@@ -1,0 +1,24 @@
+[zoo]
+_id: 26
+commitdate: 2018/6/19
+en.address: 字潟端-154 Hamada, Akita, Akita Prefecture 010-1654, Japan
+en.location: Akita City, Akita Prefecture, Japan
+en.name: Akita Oomoriyama Zoo "Milve"
+flag: Japan
+jp.address: 〒010-1654 秋田県秋田市浜田字潟端１５４
+jp.location: 秋田市 秋田県
+jp.name: 秋田市大森山動物園ミルヴェ
+language.order: jp, en
+latitude: 39.671723
+longitude: 140.0741066
+map: https://goo.gl/maps/6xoxQ1KCS3Q2
+photo.1: ig://BqOgJkMAZp3/m
+photo.1.author: saki_kitayama
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/saki_kitayama/
+photo.2: ig://B_CdZTwBPPj/m
+photo.2.author: zoowfreedom299
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/zoowfreedom299/
+photo.2.tags: profile
+website: https://www.city.akita.lg.jp/zoo/

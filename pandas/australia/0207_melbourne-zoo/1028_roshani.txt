@@ -1,0 +1,19 @@
+[panda]
+_id: 1028
+birthday: 2007/12/21
+birthplace: 217
+children: 1161, 1162
+commitdate: 2019/11/9
+en.name: Roshani
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ロシャーニ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 217, 2007/12/21
+location.2: 207, 2009/4/24
+species: 1
+zoo: 207

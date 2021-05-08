@@ -1,0 +1,184 @@
+[panda]
+_id: 30
+birthday: 2004/6/29
+birthplace: 9
+children: 113, 239
+commitdate: 2018/6/18
+en.name: Toro
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 129
+location.1: 9, 2004/6/29
+location.2: 12, 2006/7/11
+location.3: 14, 2010/4/22
+photo.1: ig://BPFfUzKAhFC/m
+photo.1.author: motohin
+photo.1.commitdate: 2018/12/27
+photo.1.link: https://www.instagram.com/motohin/
+photo.2: ig://BUogCuljWHU/m
+photo.2.author: colette.jp
+photo.2.commitdate: 2019/5/15
+photo.2.link: https://www.instagram.com/colette.jp/
+photo.2.tags: lips, lunch time, tongue
+photo.3: ig://BfQH1VSlVPU/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2020/3/12
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait, whiskers
+photo.4: ig://Bh3dNECFbpU/m
+photo.4.author: love__mitarashi
+photo.4.commitdate: 2018/7/20
+photo.4.link: https://www.instagram.com/love__mitarashi/
+photo.4.tags: grumpy, profile, tongue
+photo.5: ig://BjTJIMtFhrZ/m
+photo.5.author: miis_98
+photo.5.commitdate: 2018/7/20
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: tongue
+photo.6: ig://Bjb_P-BldNl/m
+photo.6.author: miis_98
+photo.6.commitdate: 2018/7/20
+photo.6.link: https://www.instagram.com/miis_98/
+photo.7: ig://Bkkpa4VlOp3/m
+photo.7.author: love__mitarashi
+photo.7.commitdate: 2018/7/20
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: smile
+photo.8: ig://BkrCSjrFi4j/m
+photo.8.author: tomo3700
+photo.8.commitdate: 2018/7/20
+photo.8.link: https://www.instagram.com/tomo3700/
+photo.8.tags: smile, tongue
+photo.9: ig://BoRTxMXlz_j/m
+photo.9.author: love__mitarashi
+photo.9.commitdate: 2018/9/30
+photo.9.link: https://www.instagram.com/love__mitarashi/
+photo.9.tags: grooming, laying down
+photo.10: ig://BpLH_VJF03M/m
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2018/10/21
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: laying down, tail
+photo.11: ig://Brz2hI1lSPg/m
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2018/12/25
+photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: bamboo
+photo.12: ig://BsMwR_slttI/m
+photo.12.author: miis_98
+photo.12.commitdate: 2019/1/4
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: jizo, mofumofu, tail
+photo.13: ig://BsZtnGulaf2/m
+photo.13.author: miis_98
+photo.13.commitdate: 2019/1/9
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: nose
+photo.14: ig://BspnG8vFKrq/m
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2019/1/19
+photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: bamboo
+photo.15: ig://BvQdzifFUlj/m
+photo.15.author: love__mitarashi
+photo.15.commitdate: 2019/3/21
+photo.15.link: https://www.instagram.com/love__mitarashi/
+photo.15.tags: laying down, tail
+photo.16: ig://Bvth_O4FQ2a/m
+photo.16.author: love__mitarashi
+photo.16.commitdate: 2019/4/2
+photo.16.link: https://www.instagram.com/love__mitarashi/
+photo.16.tags: grooming, shedding
+photo.17: ig://Bv0xuqmlwNj/m
+photo.17.author: love__mitarashi
+photo.17.commitdate: 2019/4/5
+photo.17.link: https://www.instagram.com/love__mitarashi/
+photo.17.tags: bamboo, paws, smile
+photo.18: ig://Bxwv1axltq-/m
+photo.18.author: colette.jp
+photo.18.commitdate: 2019/5/29
+photo.18.link: https://www.instagram.com/colette.jp/
+photo.18.tags: apple time, bamboo, home, paws, wink
+photo.19: ig://Bx3-Hn_hWlL/m
+photo.19.author: love__mitarashi
+photo.19.commitdate: 2019/5/31
+photo.19.link: https://www.instagram.com/love__mitarashi/
+photo.19.tags: lips, smile
+photo.20: ig://BzSLehkhRgO/m
+photo.20.author: love__mitarashi
+photo.20.commitdate: 2019/11/2
+photo.20.link: https://www.instagram.com/love__mitarashi/
+photo.20.tags: bamboo, home, mofumofu, portrait, tongue
+photo.21: ig://B0DLJuPBW66/m
+photo.21.author: love__mitarashi
+photo.21.commitdate: 2019/7/18
+photo.21.link: https://www.instagram.com/love__mitarashi/
+photo.21.tags: grumpy, paws, portrait
+photo.22: ig://B03IOZIhp32/m
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2019/8/13
+photo.22.link: https://www.instagram.com/love__mitarashi/
+photo.22.tags: bamboo, grumpy, home, paws, smile
+photo.23: ig://B2h-puUhgFo/m
+photo.23.author: akiakiakiko18
+photo.23.commitdate: 2019/9/18
+photo.23.link: https://www.instagram.com/akiakiakiko18/
+photo.23.tags: bamboo, grooming, home, paws
+photo.24: ig://CBHaSaCh_6y/m
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2020/6/20
+photo.24.link: https://www.instagram.com/love__mitarashi/
+photo.24.tags: portrait
+photo.25: ig://CCBI3E2Bqtp/m
+photo.25.author: love__mitarashi
+photo.25.commitdate: 2020/7/1
+photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.25.tags: itchy, portrait, tail, videolink
+photo.26: ig://CCBMinxhior/m
+photo.26.author: i.satosato
+photo.26.commitdate: 2020/7/1
+photo.26.link: https://www.instagram.com/i.satosato/
+photo.26.tags: paws, portrait, tail
+photo.27: ig://CC8V9MWh_E3/m
+photo.27.author: love__mitarashi
+photo.27.commitdate: 2020/8/5
+photo.27.link: https://www.instagram.com/love__mitarashi/
+photo.27.tags: door, grumpy, mofumofu
+photo.28: ig://CDVcrxvB3DP/m
+photo.28.author: nakacchi_desu
+photo.28.commitdate: 2020/8/5
+photo.28.link: https://www.instagram.com/nakacchi_desu/
+photo.28.tags: close-up, whiskers
+photo.29: ig://CIDIocXhiz2/m
+photo.29.author: love__mitarashi
+photo.29.commitdate: 2020/12/6
+photo.29.link: https://www.instagram.com/love__mitarashi/
+photo.29.tags: apple time, bridge, old, videolink
+photo.30: ig://CIVXqc4BhFV/m
+photo.30.author: colette.jp
+photo.30.commitdate: 2020/12/20
+photo.30.link: https://www.instagram.com/colette.jp/
+photo.30.tags: door, portrait
+photo.31: ig://CIZE9v9nh_D/m
+photo.31.author: yakkooo24
+photo.31.commitdate: 2020/12/20
+photo.31.link: https://www.instagram.com/yakkooo24/
+photo.31.tags: grooming, mofumofu, paws, portrait, smile
+photo.32: ig://CIiYaHWhpks/m
+photo.32.author: fetorus_mami
+photo.32.commitdate: 2020/12/20
+photo.32.link: https://www.instagram.com/fetorus_mami/
+photo.32.tags: home, paws, smile, tongue
+photo.33: ig://CMFJis3hKuq/m
+photo.33.author: hamiiiii831_
+photo.33.commitdate: 2021/4/10
+photo.33.link: https://www.instagram.com/hamiiiii831_/
+photo.33.tags: home, mofumofu, paws, portrait, tail
+species: 2
+studbook.id: 0467
+zoo: 14

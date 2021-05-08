@@ -1,0 +1,16 @@
+[zoo]
+_id: 173
+commitdate: 2019/3/24
+en.address: Mlynská dolina 1A, 842 27 Bratislava, Slovakia
+en.location: Bratislava, Slovakia
+en.name: Zoo Bratislava
+en.othernames: Bratislava Zoo
+flag: Slovakia
+language.order: sk, en
+latitude: 48.1569797
+longitude: 17.0667756
+map: https://goo.gl/maps/5rEwkFf3K5R2
+sk.address: Mlynská dolina 1A, 842 27 Bratislava, Slovakia
+sk.location: Bratislava, Bratislava Kraj, Slovakia
+sk.name: Zoologicka Zahrada Bratislava
+website: https://www.zoobratislava.sk/

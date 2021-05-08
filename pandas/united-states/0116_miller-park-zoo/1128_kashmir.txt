@@ -1,0 +1,25 @@
+[panda]
+_id: 1128
+birthday: 2019/6/16
+birthplace: 116
+children: none
+commitdate: 2020/3/13
+en.name: Kashmir
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: カシミール
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1127, 1129
+np.name: काश्मीर
+np.nicknames: none
+np.othernames: none
+photo.1: ig://B2rWGYRF0FY/m
+photo.1.author: millerparkzoo
+photo.1.commitdate: 2020/3/13
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: baby, paws, portrait, smile, whiskers
+species: 1
+zoo: 116

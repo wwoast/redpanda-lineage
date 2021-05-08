@@ -1,0 +1,68 @@
+[panda]
+_id: 450
+birthday: 2017/7/7
+birthplace: 89
+children: none
+commitdate: 2018/11/25
+en.name: Rowan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ローヌン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 451
+location.1: 89, 2017/7/7
+location.2: 90, 2019/5/7
+photo.1: ig://BaM4RR1nwID/m
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.1.tags: baby, bamboo, portrait
+photo.2: ig://Bf-9UGwHI_z/m
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.3: ig://Bh4BTqtFFKJ/m
+photo.3.author: rossparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.tags: close-up, portrait, whiskers
+photo.4: ig://BiWxHhdlSKj/m
+photo.4.author: rossparkzoo
+photo.4.commitdate: 2018/11/25
+photo.4.link: https://www.instagram.com/rossparkzoo/
+photo.4.tags: ear, portrait, whiskers
+photo.5: ig://BiwibU6lBSU/m
+photo.5.author: rossparkzoo
+photo.5.commitdate: 2018/11/25
+photo.5.link: https://www.instagram.com/rossparkzoo/
+photo.5.tags: laying down, portrait, profile
+photo.6: ig://BlskqhVFidO/m
+photo.6.author: rossparkzoo
+photo.6.commitdate: 2018/11/25
+photo.6.link: https://www.instagram.com/rossparkzoo/
+photo.6.tags: baby, portrait
+photo.7: ig://CEfglaJhLbC/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/9/4
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: lunch time, paws, portrait, whiskers
+photo.8: ig://CEkctRSJsUu/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2020/9/4
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: lunch time, paws, portrait, whiskers
+photo.9: ig://CEr-ulYpR-H/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2020/9/12
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: peek, portrait, tail
+photo.10: ig://CEz-eF_pzQo/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2020/9/19
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: portrait
+species: 2
+zoo: 90

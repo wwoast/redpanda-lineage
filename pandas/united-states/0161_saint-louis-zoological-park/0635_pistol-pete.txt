@@ -1,0 +1,36 @@
+[panda]
+_id: 635
+birthday: 2011/6/25
+birthplace: 146
+children: none
+commitdate: 2019/3/19
+en.name: Pistol Pete
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピストルピート
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 634, 636
+location.1: 146, 2011/6/25
+location.2: 109, 2012/4/24
+location.3: 161, 2014/3/27
+photo.1: ig://B2fJGprpP3E/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/10/8
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: lunch time, portrait, profile, tongue
+photo.2: ig://B995E49hMJV/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2020/3/20
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: mofumofu, paws, tree
+photo.3: ig://B-ugydCjEH5/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/5/4
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: apple time, paws, portrait
+species: 1
+studbook.id: 1107
+zoo: 161

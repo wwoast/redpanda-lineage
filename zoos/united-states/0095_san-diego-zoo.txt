@@ -1,0 +1,19 @@
+[zoo]
+_id: 95
+commitdate: 2018/11/23
+en.address: 2920 Zoo Dr, San Diego, CA 92101
+en.location: San Diego, California, USA
+en.name: San Diego Zoo
+flag: USA
+jp.address: 2920 Zoo Dr, San Diego, CA 92101
+jp.location: サンディエゴ カリフォルニア
+jp.name: サンディエゴ動物園
+language.order: en, jp
+latitude: 32.7353209
+longitude: -117.1665609
+map: https://goo.gl/maps/GMmgWVbWDn82
+photo.1: ig://Bm_S4eRHHrL/m
+photo.1.author: sandiegozoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/sandiegozoo/
+website: https://zoo.sandiegozoo.org/

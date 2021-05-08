@@ -1,0 +1,32 @@
+[zoo]
+_id: 72
+commitdate: 2018/8/22
+en.address: Blijdorplaan 8, 3041 JG Rotterdam, Netherlands
+en.location: Rotterdam, Netherlands
+en.name: Rotterdam Zoo
+flag: Netherlands
+language.order: nl, en
+latitude: 51.9281613
+longitude: 4.4418373
+map: https://goo.gl/maps/yFbttoQZrP82
+nl.address: Blijdorplaan 8, 3041 JG Rotterdam, Netherlands
+nl.location: Rotterdam, Netherlands
+nl.name: Diergaarde Blijdorp
+photo.1: ig://BrNDlAelKeZ/m
+photo.1.author: knitwit010
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/knitwit010/
+photo.1.tags: profile
+photo.2: ig://0KVtaHAyw_/m
+photo.2.author: rotterdamzooblijdorp
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/rotterdamzooblijdorp/
+photo.3: ig://0LhhWfAy4z/m
+photo.3.author: rotterdamzooblijdorp
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/rotterdamzooblijdorp/
+photo.4: ig://By8FsuwFOOt/m
+photo.4.author: rotterdamzooblijdorp
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/diergaardeblijdorp/
+website: https://www.diergaardeblijdorp.nl/

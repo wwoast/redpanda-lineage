@@ -1,0 +1,25 @@
+[panda]
+_id: 308
+birthday: 2001/7/13
+birthplace: 17
+children: none
+commitdate: 2018/8/18
+death: unknown
+en.name: Hana
+en.nicknames: none
+en.othernames: none
+es.name: Hana
+es.nicknames: none
+es.othernames: none
+gender: f
+jp.name: ハナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, es, en
+litter: 216
+location.1: 17, 2001/7/13
+location.2: 54, 2002/12/3
+location.3: 66, 2003/1/27
+species: 2
+studbook.id: 01110
+zoo: 66

@@ -1,0 +1,39 @@
+[panda]
+_id: 353
+birthday: 2002/6/20
+birthplace: 34
+children: 424, 401, 400, 448, 393, 432, 449
+commitdate: 2018/10/18
+en.name: Rouge
+en.nicknames: none
+en.othernames: Chya-Fa, Chafa
+gender: f
+jp.name: チャーファ
+jp.nicknames: ルージュ
+jp.othernames: none
+language.order: jp, en
+litter: 858
+location.1: 34, 2002/6/20
+location.2: 76, 2004/12/13
+photo.1: ig://5ZktIGuGyI/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2018/12/14
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: profile, sleeping
+photo.2: https://www.codaworry.com/images/rpf/rouge-1-assiniboine.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: smile, tongue
+photo.3: https://www.codaworry.com/images/rpf/rouge-2-assiniboine.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.4: https://www.codaworry.com/images/rpf/rouge-3-assiniboine.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: smile
+species: 2
+studbook.id: 0259
+zoo: 76

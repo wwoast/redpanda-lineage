@@ -1,0 +1,16 @@
+[zoo]
+_id: 169
+commitdate: 2019/3/19
+en.address: Base de loisirs, Butte de la Capoulade CD 110, 27100 Val-de-Reuil, France
+en.location: Val De Reuil, France
+en.name: Biotropica Zoological Conservancy
+en.othernames: Biotropica Animal Gardens
+flag: France
+fr.address: Base de loisirs, Butte de la Capoulade CD 110, 27100 Val-de-Reuil, France
+fr.location: Val De Reuil, France
+fr.name: Les Jardines Animalers Biotropica
+language.order: fr, en
+latitude: 49.2963564
+longitude: 1.2038327
+map: https://goo.gl/maps/9QVzLLC1yd12
+website: https://biotropica.fr/

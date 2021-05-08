@@ -1,0 +1,28 @@
+[zoo]
+_id: 69
+commitdate: 2018/8/20
+en.address: 4122番地 Hane, Hamura-shi, Tōkyō-to 205-0012, Japan
+en.location: Hamura, Tokyo, Japan
+en.name: Hamura Zoo
+flag: Japan
+jp.address: 〒205-0012 東京都羽村市羽4122番地
+jp.location: 羽村市 東京都
+jp.name: 羽村市動物公園
+language.order: jp, en
+latitude: 35.7673958
+longitude: 139.3266258
+map: https://goo.gl/maps/EwC6VTy9MEp
+photo.1: ig://BhK4t9fnfyH/m
+photo.1.author: soarahinata7
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/soarahinata7/
+photo.2: ig://1eX72br7vM/m
+photo.2.author: tm8wolf_zoo
+photo.2.commitdate: 2019/10/27
+photo.2.link: https://www.instagram.com/tm8wolf_zoo/
+photo.2.tags: profile
+photo.3: ig://BhDFKIilY-5/m
+photo.3.author: jun105104
+photo.3.commitdate: 2019/10/27
+photo.3.link: https://www.instagram.com/jun105104/
+website: http://www.t-net.ne.jp/~hamura-z/

@@ -1,0 +1,45 @@
+[panda]
+_id: 793
+birthday: 1998/6/19
+birthplace: 124
+children: 675, 794, 795, 796, 797, 530, 531, 532, 533, 798, 799
+commitdate: 2019/4/3
+death: 2011/12/15
+en.name: He-Ping
+en.nicknames: none
+en.othernames: Heping
+gender: m
+jp.name: 和平
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 800
+location.1: 124, 1998/6/19
+location.2: 108, 1999/12/17
+location.3: 133, 2001/3/30
+location.4: 93, 2001/11/8
+location.5: unknown, 2003/1/20
+location.6: 131, 2007/11/28
+photo.1: https://www.codaworry.com/images/rpf/heping-1-denver.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/12
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: paws, white face
+photo.2: https://www.codaworry.com/images/rpf/heping-2-denver.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/12
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: paws, white face
+photo.3: https://www.codaworry.com/images/rpf/heping-3-denver.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/12
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: paws, profile, white face
+photo.4: https://www.codaworry.com/images/rpf/heping-4-denver.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/12
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: white face
+species: 1
+studbook.id: 9803
+zoo: 131

@@ -1,0 +1,22 @@
+[panda]
+_id: 991
+birthday: 2018/6/12
+birthplace: 118
+children: none
+commitdate: 2019/10/12
+en.name: Anne
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 992, 993
+photo.1: ig://Bw0RCcVg_u7/m
+photo.1.author: greenvillezoo
+photo.1.commitdate: 2020/1/25
+photo.1.link: https://www.instagram.com/greenvillezoo/
+photo.1.tags: hammock, peek, white face
+species: 1
+zoo: 118

@@ -1,0 +1,46 @@
+[panda]
+_id: 348
+birthday: 2000/6/19
+birthplace: 29
+children: none
+commitdate: 2018/10/9
+death: 2018/4/29
+en.name: Gou
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 剛
+jp.nicknames: none
+jp.othernames: ごう
+language.order: jp, en
+litter: none
+location.1: 29, 2000/6/19
+location.2: 11, 2004/4/8
+location.3: 69, 2012/3/4
+photo.1: ig://BiVZnUMHYLf/m
+photo.1.author: _rifa_p
+photo.1.commitdate: 2018/10/9
+photo.1.link: https://www.instagram.com/_rifa_p/
+photo.1.tags: dish, lunch time
+photo.2: ig://BgzjtqphJbi/m
+photo.2.author: _rifa_p
+photo.2.commitdate: 2018/10/9
+photo.2.link: https://www.instagram.com/_rifa_p/
+photo.2.tags: apple time, dish, keeper, portrait, smile
+photo.3: ig://Bgw78fdhejP/m
+photo.3.author: _rifa_p
+photo.3.commitdate: 2018/10/9
+photo.3.link: https://www.instagram.com/_rifa_p/
+photo.3.tags: apple time, portrait, smile
+photo.4: ig://BdgcBMIjNXv/m
+photo.4.author: _rifa_p
+photo.4.commitdate: 2018/10/9
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.5: ig://BgBFUcZBxA7/m
+photo.5.author: miis_98
+photo.5.commitdate: 2020/4/1
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: close-up, portrait, profile, whiskers
+species: 2
+studbook.id: 00109
+zoo: 69

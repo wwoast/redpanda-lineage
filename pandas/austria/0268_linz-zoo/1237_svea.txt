@@ -1,0 +1,30 @@
+[panda]
+_id: 1237
+birthday: 2013/7/4
+birthplace: 266
+children: unknown
+commitdate: 2020/11/26
+en.name: Svea
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サヴェア
+jp.nicknames: none
+jp.othernames: none
+language.order: en
+litter: unknown
+location.1: 266, 2013/7/4
+location.2: 220, 2014/7/4
+location.3: 268, 2017/7/13
+photo.1: https://media04.meinbezirk.at/event/2020/01/08/0/520170_XXL.jpg
+photo.1.author: Linz Zoo
+photo.1.commitdate: 2020/11/26
+photo.1.link: https://www.meinbezirk.at/event/linz/c-kinder-jugend/fuehrung-im-linzer-zoo-die-tiere-im-winter_e554673
+photo.1.tags: ear, nose, eye, bamboo, bite, couple, lunch time
+photo.2: https://jaszberenyzoo.hu/sites/default/files/images/6_1.jpg
+photo.2.author: unknown
+photo.2.commitdate: 2020/11/26
+photo.2.link: https://jaszberenyzoo.hu/?q=node/1053
+photo.2.tags: ear, nose, eye, tail, tongue, muzzle, smile
+species: 1
+zoo: 268

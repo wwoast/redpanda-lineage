@@ -1,0 +1,26 @@
+[panda]
+_id: 498
+birthday: 2009/6/28
+birthplace: 107
+children: 500, 501, 502, 499, 169
+commitdate: 2019/2/23
+death: 2017/2/20
+en.name: Mei-Mei
+en.nicknames: none
+en.othernames: Meimei
+gender: f
+jp.name: メイメイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 605, 910
+location.1: 107, 2009/6/28
+location.2: 48, 2010/3/10
+photo.1: ig://BO-I_ztFpU4/m
+photo.1.author: bronxzoo
+photo.1.commitdate: 2020/9/12
+photo.1.link: https://www.instagram.com/bronxzoo/
+photo.1.tags: profile, snow, whiskers
+species: 1
+studbook.id: 0908
+zoo: 48

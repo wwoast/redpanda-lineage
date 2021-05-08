@@ -1,0 +1,53 @@
+[panda]
+_id: 543
+birthday: 2017/6/22
+birthplace: 81
+children: none
+commitdate: 2019/3/2
+en.name: Yeren
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イェレン
+jp.nicknames: none
+jp.othernames: イエレン
+language.order: en, jp
+litter: 544
+photo.1: ig://B9PFqrlBlBh/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2020/3/2
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: bamboo, portrait, profile
+photo.2: ig://B9UNYC1BK7j/m
+photo.2.author: wumpwoast
+photo.2.commitdate: 2020/3/8
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: bamboo, portrait
+photo.3: ig://B_gbdEOntFN/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2020/5/1
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: bamboo, portrait
+photo.4: ig://CALYeo9hAnh/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2020/5/17
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: bamboo, portrait
+photo.5: ig://CDOyCkohTlF/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2020/7/31
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: portrait, smile, tongue, whiskers
+photo.6: ig://CDgqn4yhjII/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2020/8/9
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: portrait, smile, tongue
+photo.7: ig://CD_ho3iFa3T/m
+photo.7.author: charlespaddockzoo
+photo.7.commitdate: 2020/8/23
+photo.7.link: https://www.instagram.com/charlespaddockzoo/
+photo.7.tags: laying down, paws, peek, smile
+species: 1
+studbook.id: 1721
+zoo: 129

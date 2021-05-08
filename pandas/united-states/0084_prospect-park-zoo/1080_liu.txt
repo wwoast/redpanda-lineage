@@ -1,0 +1,17 @@
+[panda]
+_id: 1080
+birthday: 2019/6/28
+birthplace: 84
+children: none
+commitdate: 2019/12/29
+en.name: Liu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: リュウ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1079
+species: 2
+zoo: 84

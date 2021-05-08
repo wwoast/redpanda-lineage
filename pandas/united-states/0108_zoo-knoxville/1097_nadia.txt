@@ -1,0 +1,18 @@
+[panda]
+_id: 1097
+birthday: 2008/6/14
+birthplace: 108
+children: none
+commitdate: 2020/1/25
+death: 2008/7/14
+en.name: Nadia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナディア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1098
+species: 1
+zoo: 108

@@ -1,0 +1,45 @@
+[panda]
+_id: 1108
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 小五
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/2/5
+en.name: Xiao-Wu
+en.nicknames: none
+en.othernames: Xiaowu, Five
+gender: m
+jp.name: 小五
+jp.nicknames: none
+jp.othernames: シャウー
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://B7SvyohHCrW/m
+photo.1.author: mkr0369
+photo.1.commitdate: 2020/2/5
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: autumn, itchy, paws, portrait
+photo.2: ig://B7skuP7hgee/m
+photo.2.author: mkr0369
+photo.2.commitdate: 2020/2/5
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: portrait, profile, whiskers
+photo.3: ig://B8qz6j2hxCq/m
+photo.3.author: mkr0369
+photo.3.commitdate: 2020/2/28
+photo.3.link: https://www.instagram.com/mkr0369/
+photo.3.tags: air tasting, tongue
+photo.4: ig://B9n4CvlhAs2/m
+photo.4.author: mkr0369
+photo.4.commitdate: 2020/3/15
+photo.4.link: https://www.instagram.com/mkr0369/
+photo.4.tags: tail, whiskers
+photo.5: ig://B9qcWcWB0oT/m
+photo.5.author: mkr0369
+photo.5.commitdate: 2020/3/15
+photo.5.link: https://www.instagram.com/mkr0369/
+photo.5.tags: laying down, paws, portrait, tail
+species: 2
+zoo: 236

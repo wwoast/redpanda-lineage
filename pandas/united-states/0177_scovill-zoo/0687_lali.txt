@@ -1,0 +1,25 @@
+[panda]
+_id: 687
+birthday: 2016/6/6
+birthplace: 131
+children: 861, 862
+commitdate: 2019/3/25
+en.name: Lali
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ラリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 579
+location.1: 131, 2016/6/6
+location.2: 177, 2017/4/19
+photo.1: ig://BnFhAnvAsL9/m
+photo.1.author: campergirl98
+photo.1.commitdate: 2019/12/7
+photo.1.link: https://www.instagram.com/campergirl98/
+photo.1.tags: paws, peek, profile
+species: 1
+studbook.id: 1606
+zoo: 177

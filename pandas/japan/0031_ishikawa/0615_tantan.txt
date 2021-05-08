@@ -1,0 +1,19 @@
+[panda]
+_id: 615
+birthday: 2001/6/19
+birthplace: 31
+children: none
+commitdate: 2019/3/19
+death: 2015/7/22
+en.name: Tan-Tan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タンタン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 349
+species: 2
+studbook.id: 01114
+zoo: 31

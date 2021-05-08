@@ -1,0 +1,25 @@
+[media]
+_id: media.1.himawari-milk
+commitdate: 2020/1/17
+panda.tags: 8, 247
+photo.1: ig://BrMOcH_ljDH/m
+photo.1.author: ck.chie
+photo.1.commitdate: 2020/1/17
+photo.1.link: https://www.instagram.com/ck.chie/
+photo.1.tags: autumn, door, sisters
+photo.1.tags.8.location: 140, 125
+photo.1.tags.247.location: 180, 125
+photo.2: ig://B7j4tgZh3iF/l
+photo.2.author: _rifa_p
+photo.2.commitdate: 2020/1/27
+photo.2.link: https://www.instagram.com/_rifa_p/
+photo.2.tags: bamboo, sisters
+photo.2.tags.8.location: 830, 410
+photo.2.tags.247.location: 140, 440
+photo.3: ig://B-WPOLohhxK/m
+photo.3.author: ssc6105
+photo.3.commitdate: 2020/5/29
+photo.3.link: https://www.instagram.com/ssc6105/
+photo.3.tags: sisters, standing
+photo.3.tags.8.location: 220, 190
+photo.3.tags.247.location: 170, 120

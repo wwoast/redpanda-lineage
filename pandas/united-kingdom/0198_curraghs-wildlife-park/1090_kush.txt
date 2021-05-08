@@ -1,0 +1,49 @@
+[panda]
+_id: 1090
+birthday: 2013/6/6
+birthplace: 213
+children: 1219, 1220
+commitdate: 2020/1/14
+en.name: Kush
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クッシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 213, 2013/6/6
+location.2: 198, 2014/6/22
+photo.1: ig://BaWh9bphNKM/m
+photo.1.author: curraghswildlifepark
+photo.1.commitdate: 2020/1/14
+photo.1.link: https://www.instagram.com/curraghswildlifepark/
+photo.1.tags: bamboo, portrait, smile, whiskers
+photo.2: ig://BnvSWt8BCZo/m
+photo.2.author: curraghswildlifepark
+photo.2.commitdate: 2020/9/7
+photo.2.link: https://www.instagram.com/curraghswildlifepark/
+photo.2.tags: portrait, smile
+photo.3: ig://B5IYBc1JUtp/m
+photo.3.author: curraghswildlifepark
+photo.3.commitdate: 2020/1/14
+photo.3.link: https://www.instagram.com/curraghswildlifepark/
+photo.3.tags: portrait, profile, white face, whiskers
+photo.4: ig://B8tRYrsp0AG/m
+photo.4.author: curraghswildlifepark
+photo.4.commitdate: 2020/9/7
+photo.4.link: https://www.instagram.com/curraghswildlifepark/
+photo.4.tags: portrait, whiskers
+photo.5: ig://CAuXBCrJipH/m
+photo.5.author: curraghswildlifepark
+photo.5.commitdate: 2020/9/7
+photo.5.link: https://www.instagram.com/curraghswildlifepark/
+photo.5.tags: dish, portrait, tail, whiskers
+photo.6: ig://CEWQFtrp2U3/m
+photo.6.author: curraghswildlifepark
+photo.6.commitdate: 2020/9/7
+photo.6.link: https://www.instagram.com/curraghswildlifepark/
+photo.6.tags: close-up, portrait, whiskers
+species: 1
+zoo: 198

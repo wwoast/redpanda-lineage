@@ -1,0 +1,33 @@
+[panda]
+_id: 503
+birthday: 2004/6/27
+birthplace: 95
+children: 504, 500, 501, 502
+commitdate: 2019/2/23
+death: 2015/7/24
+en.name: Walter
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウォルター
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 897
+location.1: 95, 2004/6/27
+location.2: 48, 2005/8/11
+location.3: 113, 2012/12/5
+location.4: 110, 2014/11/21
+photo.1: ig://4eSOpDkY9s/m
+photo.1.author: brightszoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/brightszoo/
+photo.1.tags: profile
+photo.2: ig://1a94a3EY8Z/m
+photo.2.author: brightszoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/brightszoo/
+photo.2.tags: eye, white face
+species: 1
+studbook.id: 0426
+zoo: 110

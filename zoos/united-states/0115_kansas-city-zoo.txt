@@ -1,0 +1,16 @@
+[zoo]
+_id: 115
+commitdate: 2019/2/23
+en.address: 6800 Zoo Dr, Kansas City, MO 64132, USA
+en.location: Kansas City, Missouri, USA
+en.name: Kansas City Zoo
+flag: USA
+language.order: en
+latitude: 39.0107198
+longitude: -94.5420088
+map: https://goo.gl/maps/4NYWrwy6CpT2
+photo.1: ig://BfzamlinlOb/m
+photo.1.author: kansascityzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/kansascityzoo/
+website: https://www.kansascityzoo.org/

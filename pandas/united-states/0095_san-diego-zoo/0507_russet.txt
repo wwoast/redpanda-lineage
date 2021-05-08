@@ -1,0 +1,56 @@
+[panda]
+_id: 507
+birthday: 2011/6/5
+birthplace: 114
+children: none
+commitdate: 2019/2/23
+death: 2015/6/18
+en.name: Russet
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 朽ち葉色
+jp.nicknames: none
+jp.othernames: くばいろ
+language.order: en, jp
+litter: 170
+location.1: 114, 2011/6/5
+location.2: 116, 2012/5/21
+location.3: 95, 2015/3/12
+photo.1: https://www.codaworry.com/images/rpf/russet-1-sandiego.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: smile
+photo.2: https://www.codaworry.com/images/rpf/russet-2-sandiego.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.3: https://www.codaworry.com/images/rpf/russet-3-sandiego.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile, tree
+photo.4: https://www.codaworry.com/images/rpf/russet-4-sandiego.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: smile. tongue
+photo.5: https://www.codaworry.com/images/rpf/russet-5-sandiego.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: smile
+photo.6: https://www.codaworry.com/images/rpf/russet-6-sandiego.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: profile, smile, tree
+photo.7: https://www.codaworry.com/images/rpf/russet-7-sandiego.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/9
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: smile, tongue, tree
+species: 1
+studbook.id: 1110
+zoo: 95

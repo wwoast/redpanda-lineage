@@ -1,0 +1,32 @@
+[panda]
+_id: 634
+birthday: 2011/6/25
+birthplace: 146
+children: unknown
+commitdate: 2019/3/19
+en.name: Min
+en.nicknames: none
+en.oldnames: Cha-Cha, Chacha
+en.othernames: none
+gender: f
+jp.name: ミン
+jp.nicknames: none
+jp.oldnames: チャチャ
+jp.othernames: none
+language.order: en, jp
+litter: 635, 636
+location.1: 146, 2011/6/25
+location.2: 101, 2012/4/24
+photo.1: ig://B5bZSJXhjOi/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: laying down, portrait, profile, whiskers
+photo.2: ig://BnwGDvUF69R/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2020/1/17
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down, paws, portrait, tree
+species: 1
+studbook.id: 1106
+zoo: 101

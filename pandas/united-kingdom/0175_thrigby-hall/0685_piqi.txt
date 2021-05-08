@@ -1,0 +1,21 @@
+[panda]
+_id: 685
+birthday: 2013/6/20
+birthplace: 137
+children: unknown
+commitdate: 2019/3/24
+death: 2017/6/21
+en.name: Piqi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピチ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 539
+location.1: 137, 2013/6/20
+location.2: 175, 2014/5/8
+species: 2
+studbook.id: 13124
+zoo: 175

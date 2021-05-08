@@ -1,0 +1,24 @@
+[panda]
+_id: 1112
+birthday: 1997/6/9
+birthplace: 108
+children: unknown
+commitdate: 2020/2/29
+death: 2013/11/25
+en.name: Nigalya
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: にがりや
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: 1111
+location.1: 108, 1997/6/9
+location.2: 112, 1998/7/15
+location.3: unknown, 2000/3/14
+np.name: निगल्या
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 112

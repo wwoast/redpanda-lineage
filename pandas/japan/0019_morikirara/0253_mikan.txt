@@ -1,0 +1,98 @@
+[panda]
+_id: 253
+birthday: 2011/7/18
+birthplace: 6
+children: 254, 41, 255
+commitdate: 2018/7/28
+en.name: Mikan
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: みかん
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 160
+location.1: 6, 2011/7/18
+location.2: 19, 2013/2/13
+photo.1: ig://Bcb-iTlF6CN/m
+photo.1.author: hanamaru_redpanda
+photo.1.commitdate: 2018/10/6
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: profile
+photo.2: ig://Bo9Wy1bFBD-/m
+photo.2.author: nakacchi_desu
+photo.2.commitdate: 2018/10/15
+photo.2.link: https://www.instagram.com/nakacchi_desu/
+photo.3: ig://BpK-vK_FRr8/m
+photo.3.author: yossi929
+photo.3.commitdate: 2018/10/21
+photo.3.link: https://www.instagram.com/yossi929/
+photo.4: ig://BpvLIeLF2HP/m
+photo.4.author: yossi929
+photo.4.commitdate: 2018/11/5
+photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: apple time, keeper
+photo.5: ig://BraWeIhlsfF/m
+photo.5.author: ifumoto88
+photo.5.commitdate: 2018/12/16
+photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: apple time, tongue
+photo.6: ig://Brgh1PRlokD/m
+photo.6.author: panda.daisuki
+photo.6.commitdate: 2018/12/19
+photo.6.link: https://www.instagram.com/panda.daisuki/
+photo.6.tags: keeper
+photo.7: ig://BsZ4ckdlUyj/m
+photo.7.author: yamaneko5628
+photo.7.commitdate: 2019/4/1
+photo.7.link: https://www.instagram.com/yamaneko5628/
+photo.7.tags: portrait
+photo.8: ig://BuU4uoTlySe/m
+photo.8.author: yossi929
+photo.8.commitdate: 2020/5/14
+photo.8.link: https://www.instagram.com/yossi929/
+photo.8.tags: portrait, techitechi
+photo.9: ig://Bvkl4hvldI6/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2019/6/28
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: techitechi
+photo.10: ig://B0CX8TrnrZ9/m
+photo.10.author: panda.daisuki
+photo.10.commitdate: 2019/7/18
+photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.10.tags: portrait
+photo.11: ig://B0gDCdsBnlE/m
+photo.11.author: re_ichimaru
+photo.11.commitdate: 2019/7/30
+photo.11.link: https://www.instagram.com/re_ichimaru/
+photo.11.tags: smile, tongue
+photo.12: ig://CAO4zudJvD9/m
+photo.12.author: morikirara
+photo.12.commitdate: 2020/11/20
+photo.12.link: https://www.instagram.com/morikirara/
+photo.12.tags: bamboo, paws, tree
+photo.13: ig://CCxjzlZhalP/m
+photo.13.author: panda.daisuki
+photo.13.commitdate: 2020/7/24
+photo.13.link: https://www.instagram.com/panda.daisuki/
+photo.13.tags: apple time, keeper, paws, portrait, smile
+photo.14: ig://CDlFg0epVrL/m
+photo.14.author: morikirara
+photo.14.commitdate: 2020/11/20
+photo.14.link: https://www.instagram.com/morikirara/
+photo.14.tags: bridge
+photo.15: ig://CFEKBpnJgWI/m
+photo.15.author: morikirara
+photo.15.commitdate: 2020/11/20
+photo.15.link: https://www.instagram.com/morikirara/
+photo.15.tags: bamboo, portrait
+photo.16: ig://CGMrge6p3Ny/m
+photo.16.author: morikirara
+photo.16.commitdate: 2020/11/20
+photo.16.link: https://www.instagram.com/morikirara/
+photo.16.tags: paws, peek, portrait, tree
+species: 2
+studbook.id: 11111
+zoo: 19

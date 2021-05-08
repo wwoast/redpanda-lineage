@@ -1,0 +1,21 @@
+[panda]
+_id: 694
+birthday: 2012/6/17
+birthplace: 179
+children: unkown
+commitdate: 2019/3/25
+death: 2016/4/17
+en.name: Pai
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: パイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 693
+location.1: 179, 2012/6/17
+location.2: 162, 2013/5/1
+species: 1
+studbook.id: 1209
+zoo: 162

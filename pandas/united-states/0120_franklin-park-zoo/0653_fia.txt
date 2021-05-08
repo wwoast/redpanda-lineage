@@ -1,0 +1,35 @@
+[panda]
+_id: 653
+birthday: 2015/7/2
+birthplace: 126
+children: 936, 1092
+commitdate: 2019/3/19
+en.name: Fia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: フィア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 654
+location.1: 126, 2015/7/2
+location.2: 120, 2016/5/19
+photo.1: ig://BY_D12VnBDH/m
+photo.1.author: zoonewengland
+photo.1.commitdate: 2019/7/14
+photo.1.link: https://www.instagram.com/zoonewengland/
+photo.1.tags: portrait, profile
+photo.2: ig://B7oVTT9pA9p/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/2/16
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: bamboo, portrait
+photo.3: ig://CJOKDEFLlJ5/m
+photo.3.author: zoonewengland
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/zoonewengland/
+photo.3.tags: smile, snow
+species: 1
+studbook.id: 1539
+zoo: 120

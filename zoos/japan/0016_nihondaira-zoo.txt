@@ -1,0 +1,28 @@
+[zoo]
+_id: 16
+commitdate: 2018/6/18
+en.address: 1767−６ Ikeda, Suruga Ward, Shizuoka, Shizuoka Prefecture 422-8005, Japan
+en.location: Shizuoka, Shizuoka Prefecture, Japan
+en.name: Shizuoka Municipal Nihondaira Zoo
+flag: Japan
+jp.address: 〒422-8005 静岡県静岡市駿河区池田1767−６
+jp.location: 静岡市 静岡県
+jp.name: 静岡市立日本平動物園
+language.order: jp, en
+latitude: 34.9796519
+longitude: 138.4373118
+map: https://goo.gl/maps/wFRiaNci3Qu
+photo.1: ig://BkFJEeRH28h/m
+photo.1.author: omoide_no_kosaten_ouendan
+photo.1.commitdate: 2020/6/27
+photo.1.link: https://www.instagram.com/omoide_no_kosaten_ouendan/
+photo.2: ig://B564zT3HLu1/m
+photo.2.author: shizuoka_city
+photo.2.commitdate: 2020/6/27
+photo.2.link: https://www.instagram.com/shizuoka_city/
+photo.3: ig://B_PzYwvnbWG/m
+photo.3.author: yossi929
+photo.3.commitdate: 2020/6/27
+photo.3.link: https://www.instagram.com/yossi929/
+photo.3.tags: profile
+website: http://www.nhdzoo.jp/

@@ -1,0 +1,62 @@
+[panda]
+_id: 447
+birthday: 2004/6/2
+birthplace: 76
+children: 418, 460, 458, 459, 462, 1081
+commitdate: 2018/11/24
+en.name: Dusk
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ドゥシュコ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 603
+location.1: 76, 2004/6/2
+location.2: 94, 2005/8/25
+location.3: 76, 2012/12/5
+location.4: 51, 2013/10/30
+photo.1: ig://B2cWg5XBxCq/m
+photo.1.author: alisanova_photography
+photo.1.commitdate: 2019/10/25
+photo.1.link: https://www.instagram.com/alisanova_photography/
+photo.1.tags: bridge
+photo.2: ig://B2sGHeSAVTL/m
+photo.2.author: otterscotter
+photo.2.commitdate: 2019/10/25
+photo.2.link: https://www.instagram.com/otterscotter/
+photo.2.tags: portrait, profile, tail
+photo.3: ig://B2sVUv0nVBC/m
+photo.3.author: zoodegranbyofficiel
+photo.3.commitdate: 2020/2/25
+photo.3.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.3.tags: paws, portrait, smile, tongue
+photo.4: ig://B3LNt9-B2Y4/m
+photo.4.author: m.l.hphotography
+photo.4.commitdate: 2019/10/25
+photo.4.link: https://www.instagram.com/m.l.hphotography/
+photo.4.tags: bridge, ear, portrait
+photo.5: ig://B3r7AFcHlES/m
+photo.5.author: dferryonline
+photo.5.commitdate: 2019/10/25
+photo.5.link: https://www.instagram.com/dferryonline/
+photo.5.tags: blink, dish, portrait
+photo.6: ig://B32DjNghNwV/m
+photo.6.author: garseeyaink
+photo.6.commitdate: 2019/10/25
+photo.6.link: https://www.instagram.com/garseeyaink/
+photo.6.tags: bridge, whiskers
+photo.7: ig://B99m0PUpzXq/m
+photo.7.author: garseeyaink
+photo.7.commitdate: 2020/5/11
+photo.7.link: https://www.instagram.com/garseeyaink/
+photo.7.tags: blink, ear, tail
+photo.8: ig://CD9UA7ppWQl/m
+photo.8.author: garseeyaink
+photo.8.commitdate: 2020/10/31
+photo.8.link: https://www.instagram.com/garseeyaink/
+photo.8.tags: mofumofu, portrait, whiskers
+species: 2
+studbook.id: 0437
+zoo: 51

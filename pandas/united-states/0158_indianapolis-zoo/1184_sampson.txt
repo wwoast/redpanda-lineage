@@ -1,0 +1,45 @@
+[panda]
+_id: 1184
+birthday: 2014/7/11
+birthplace: 75
+children: none
+commitdate: 2020/6/28
+en.name: Sampson
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: サンプソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 75, 2014/7/11
+location.2: 122, 2014/11/8
+location.3: 158, 2015/11/6
+photo.1: ig://BLy3X7Rl6xN/m
+photo.1.author: indianapoliszoo
+photo.1.commitdate: 2020/7/1
+photo.1.link: https://www.instagram.com/indianapoliszoo/
+photo.1.tags: apple time, paws
+photo.2: ig://BWsMvS-jWv5/m
+photo.2.author: indianapoliszoo
+photo.2.commitdate: 2020/7/1
+photo.2.link: https://www.instagram.com/indianapoliszoo/
+photo.2.tags: apple time, paws, standing, videolink
+photo.3: ig://Bo11eJFHciU/m
+photo.3.author: indianapoliszoo
+photo.3.commitdate: 2020/7/1
+photo.3.link: https://www.instagram.com/indianapoliszoo/
+photo.3.tags: portrait, profile, smile, standing
+photo.4: ig://BsI71FkHeWn/m
+photo.4.author: indianapoliszoo
+photo.4.commitdate: 2020/7/1
+photo.4.link: https://www.instagram.com/indianapoliszoo/
+photo.4.tags: bamboo, videolink
+photo.5: ig://By0x9ezFt9i/m
+photo.5.author: indianapoliszoo
+photo.5.commitdate: 2020/7/1
+photo.5.link: https://www.instagram.com/indianapoliszoo/
+photo.5.tags: keeper, paws
+species: 1
+zoo: 158

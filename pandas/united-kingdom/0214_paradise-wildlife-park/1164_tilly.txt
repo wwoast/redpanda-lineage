@@ -1,0 +1,54 @@
+[panda]
+_id: 1164
+birthday: 2011/6/22
+birthplace: 199
+children: 1166, 1167, 1153, 1154
+commitdate: 2020/5/15
+en.name: Tilly
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ティリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 951
+location.1: 199, 2011/6/22
+location.2: 214, 2012/5/25
+photo.1: ig://B1lEG0lgSFv/m
+photo.1.author: paradisewildlifepark
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/paradisewildlifepark/
+photo.1.tags: paws, tree
+photo.2: ig://B4PfX6SBNZx/m
+photo.2.author: paradisewildlifepark
+photo.2.commitdate: 2020/5/15
+photo.2.link: https://www.instagram.com/paradisewildlifepark/
+photo.2.tags: portrait, pumpkin
+photo.3: ig://B9RV8z4gMQG/m
+photo.3.author: paradisewildlifepark
+photo.3.commitdate: 2020/5/15
+photo.3.link: https://www.instagram.com/paradisewildlifepark/
+photo.3.tags: portrait, smile, tongue, whiskers
+photo.4: ig://B-SROHhg1G7/m
+photo.4.author: paradisewildlifepark
+photo.4.commitdate: 2020/5/15
+photo.4.link: https://www.instagram.com/paradisewildlifepark/
+photo.4.tags: paws, portrait, smile, tongue, white face
+photo.5: ig://B-rW-t9A4aw/m
+photo.5.author: paradisewildlifepark
+photo.5.commitdate: 2020/5/15
+photo.5.link: https://www.instagram.com/paradisewildlifepark/
+photo.5.tags: bamboo, bite, paws, portrait, tongue
+photo.6: ig://CCnXHm-oaK5/m
+photo.6.author: paradisewildlifepark
+photo.6.commitdate: 2020/7/16
+photo.6.link: https://www.instagram.com/paradisewildlifepark/
+photo.6.tags: bamboo, lips, portrait, smile
+photo.7: ig://CG2VpVfAo3S/m
+photo.7.author: jobrownphotography
+photo.7.commitdate: 2020/10/27
+photo.7.link: https://www.instagram.com/jobrownphotography/
+photo.7.tags: paws, peek, portrait, tail
+species: 1
+zoo: 214

@@ -1,0 +1,17 @@
+[zoo]
+_id: 151
+commitdate: 2019/3/16
+en.address: Norbertanska 2, 09-402 Płock, Poland
+en.location: Płock, Poland
+en.name: Zoo Płock
+en.othernames: Płock Municipal Zoological Garden
+flag: Poland
+language.order: pl, en
+latitude: 52.5398539
+longitude: 19.7040869
+map: https://goo.gl/maps/U6HucY8t5gw
+pl.address: Norbertanska 2, 09-402 Płock, Poland
+pl.location: Płock, Poland
+pl.name: Zoo Płock
+pl.othernames: Miejski Ogród Zoologiczny
+website: http://www.zoo.plock.pl/

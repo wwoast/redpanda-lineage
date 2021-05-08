@@ -1,0 +1,70 @@
+[panda]
+_id: 220
+birthday: 2003/6/16
+birthplace: 10
+children: 139, 217, 123, 137, 567
+commitdate: 2018/8/21
+death: 2019/10/24
+en.name: Chihiro
+en.nicknames: none
+en.othernames: Tihiro
+gender: f
+jp.name: チヒロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 53, 374
+location.1: 10, 2003/6/16
+location.2: 18, 2005/12/18
+panda.tags: 0362
+photo.1: ig://BiHL7f9F1cE/m
+photo.1.author: mifko55
+photo.1.commitdate: 2018/8/21
+photo.1.link: https://www.instagram.com/mifko55/
+photo.1.tags: dish, old, portrait
+photo.2: ig://BeIjk5SlBFr/m
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2018/8/21
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.3: ig://BMQrb9sjOUR/m
+photo.3.author: rdpnzoo
+photo.3.commitdate: 2018/8/21
+photo.3.link: https://www.instagram.com/rdpnzoo/
+photo.3.tags: old
+photo.4: ig://BcHvtnPh5zW/m
+photo.4.author: miis_98
+photo.4.commitdate: 2018/8/21
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: old, portrait, profile
+photo.5: ig://BS0_x0ZDK7k/m
+photo.5.author: s.okano521
+photo.5.commitdate: 2018/8/21
+photo.5.link: https://www.instagram.com/s.okano521/
+photo.5.tags: old, smile
+photo.6: ig://BZR2HINDVyp/m
+photo.6.author: _rifa_p
+photo.6.commitdate: 2018/8/21
+photo.6.link: https://www.instagram.com/_rifa_p/
+photo.6.tags: apple time, old, portrait
+photo.7: ig://BgyqzHEA6jB/m
+photo.7.author: s.okano521
+photo.7.commitdate: 2018/10/7
+photo.7.link: https://www.instagram.com/s.okano521/
+photo.7.tags: old
+photo.8: ig://BbmDON9FrDT/m
+photo.8.author: hanamaru_redpanda
+photo.8.commitdate: 2018/12/23
+photo.8.link: https://www.instagram.com/hanamaru_redpanda/
+photo.8.tags: old, portrait
+photo.9: ig://BZKat6-lx6w/m
+photo.9.author: _rifa_p
+photo.9.commitdate: 2019/5/15
+photo.9.link: https://www.instagram.com/_rifa_p/
+photo.9.tags: portrait, smile
+photo.10: ig://BcuAPq_FKLh/m
+photo.10.author: hanamaru_redpanda
+photo.10.commitdate: 2020/3/11
+photo.10.link: https://www.instagram.com/hanamaru_redpanda/
+photo.10.tags: laying down, old, portrait, sleeping
+species: 2
+zoo: 18

@@ -1,0 +1,123 @@
+[panda]
+_id: 68
+birthday: 2006/5/30
+birthplace: 30
+children: 140, 70, 301
+commitdate: 2018/6/22
+en.name: Ribbon
+en.nicknames: none
+en.othernames: Ribon
+gender: f
+jp.name: リボン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+location.1: 30, 2006/5/30
+location.2: 6, 2011/6/17
+photo.1: ig://BYs9KaMA_w1/m
+photo.1.author: nakacchi_desu
+photo.1.commitdate: 2020/2/16
+photo.1.link: https://www.instagram.com/nakacchi_desu/
+photo.1.tags: bamboo, tongue
+photo.2: ig://BaNPuBiDTTN/m
+photo.2.author: polarbear_zoo
+photo.2.commitdate: 2020/5/19
+photo.2.link: https://www.instagram.com/polarbear_zoo/
+photo.2.tags: laying down, tongue, yawn
+photo.3: ig://Bit0xLTl8eH/m
+photo.3.author: re_ichimaru
+photo.3.commitdate: 2018/7/19
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: bamboo, smile, tongue
+photo.4: ig://Bm8VaJLlPbg/m
+photo.4.author: animal_love_us
+photo.4.commitdate: 2020/2/16
+photo.4.link: https://www.instagram.com/animal_love_us/
+photo.4.tags: apple time, portrait, window
+photo.5: ig://BnKzbXIlV2Y/m
+photo.5.author: animal_love_us
+photo.5.commitdate: 2018/10/1
+photo.5.link: https://www.instagram.com/animal_love_us/
+photo.5.tags: laying down
+photo.6: ig://BpltSmDnrVl/m
+photo.6.author: animal_love_us
+photo.6.commitdate: 2020/2/16
+photo.6.link: https://www.instagram.com/animal_love_us/
+photo.6.tags: laying down, paws, portrait
+photo.7: ig://Bqwy5o7HDn7/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/16
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: bamboo, mofumofu, portrait
+photo.8: ig://Bq91n0RFWbi/m
+photo.8.author: perie1027vivi
+photo.8.commitdate: 2018/12/6
+photo.8.link: https://www.instagram.com/perie1027vivi/
+photo.8.tags: laying down
+photo.9: ig://BrNiVoqFLw0/m
+photo.9.author: perie1027vivi
+photo.9.commitdate: 2018/12/10
+photo.9.link: https://www.instagram.com/perie1027vivi/
+photo.9.tags: bamboo, smile
+photo.10: ig://BsSiJX4FXQp/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2019/1/9
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: apple time, paws
+photo.11: ig://BtBT-mKFsuO/m
+photo.11.author: craig_craig_craig
+photo.11.commitdate: 2019/1/27
+photo.11.link: https://www.instagram.com/craig_craig_craig/
+photo.11.tags: bamboo, paws
+photo.12: ig://BtPwLtglvKt/m
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2019/2/4
+photo.12.link: https://www.instagram.com/fetorus_mami/
+photo.12.tags: bamboo, profile
+photo.13: ig://BtiwkiVFxls/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2020/10/8
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: portrait
+photo.14: ig://Bxs8RoYFalY/m
+photo.14.author: kipekaila
+photo.14.commitdate: 2019/5/29
+photo.14.link: https://www.instagram.com/kipekaila/
+photo.15: ig://ByFqcTBBo7q/m
+photo.15.author: animal_love_us
+photo.15.commitdate: 2020/2/16
+photo.15.link: https://www.instagram.com/animal_love_us/
+photo.15.tags: apple time, portrait
+photo.16: ig://B0YN36ohCHi/m
+photo.16.author: itsuak
+photo.16.commitdate: 2019/7/28
+photo.16.link: https://www.instagram.com/itsuak/
+photo.16.tags: laying down, smile
+photo.17: ig://B0i20grhZYC/m
+photo.17.author: itsuak
+photo.17.commitdate: 2019/7/31
+photo.17.link: https://www.instagram.com/itsuak/
+photo.17.tags: bamboo, portrait
+photo.18: ig://B0oJo7yh2yy/m
+photo.18.author: itsuak
+photo.18.commitdate: 2019/8/2
+photo.18.link: https://www.instagram.com/itsuak/
+photo.18.tags: itchy, paws
+photo.19: ig://B1WA_UNh-zK/m
+photo.19.author: itsuak
+photo.19.commitdate: 2019/8/23
+photo.19.link: https://www.instagram.com/itsuak/
+photo.19.tags: laying down, paws, portrait, upside-down
+photo.20: ig://B1WBDmRhVMC/m
+photo.20.author: itsuak
+photo.20.commitdate: 2019/8/23
+photo.20.link: https://www.instagram.com/itsuak/
+photo.20.tags: laying down, paws, portrait, tongue
+photo.21: ig://CAzrTF5BKbx/m
+photo.21.author: minatomirai215
+photo.21.commitdate: 2020/5/30
+photo.21.link: https://www.instagram.com/minatomirai215/
+photo.21.tags: apple time, paws, portrait
+species: 2
+studbook.id: 0660
+zoo: 6

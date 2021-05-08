@@ -1,0 +1,26 @@
+[panda]
+_id: 683
+birthday: 2013/6/23
+birthplace: 173
+children: none
+commitdate: 2019/3/24
+en.name: Ting-Ting
+en.nicknames: none
+en.othernames: none
+gender: f
+hu.name: Ting-Ting
+hu.nicknames: none
+hu.othernames: none
+jp.name: ティンティン
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, sk, en, jp
+litter: none
+location.1: 173, 2013/6/23
+location.2: 172, 2014/5/30
+sk.name: Ting-Ting
+sk.nicknames: none
+sk.othernames: none
+species: 1
+studbook.id: 1376
+zoo: 172

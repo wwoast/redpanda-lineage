@@ -1,0 +1,72 @@
+[panda]
+_id: 273
+birthday: 2009/7/12
+birthplace: 59
+children: 275, 276, 277, 278, 279, 317, 318, 319
+commitdate: 2018/7/29
+en.name: Cinnamon
+en.nicknames: none
+en.othernames: Sinamon
+gender: m
+jp.name: シナモン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: ig://BdUlcmUgJI6/m
+photo.1.author: peek_a_boo00
+photo.1.commitdate: 2019/6/9
+photo.1.link: https://www.instagram.com/peek_a_boo00/
+photo.2: ig://BdmoPfSlVfb/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: bamboo, portrait
+photo.3: ig://BhycoOEl7H1/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2018/8/23
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: portrait
+photo.4: ig://BlII8KklzQu/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/8/23
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: bamboo, portrait
+photo.5: ig://Bl-fnqDlEl4/m
+photo.5.author: miis_98
+photo.5.commitdate: 2018/8/23
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: dish, lunch time, portrait
+photo.6: ig://ByVDtw1A2wQ/m
+photo.6.author: miis_98
+photo.6.commitdate: 2019/6/6
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: dish, portrait, profile
+photo.7: ig://B3p_y_sBuY-/m
+photo.7.author: _natsu_panda_
+photo.7.commitdate: 2020/1/18
+photo.7.link: https://www.instagram.com/_natsu_panda_/
+photo.7.tags: long-tongue, portrait, tail, tongue, tree, yawn
+photo.8: ig://B96gHDFBx8v/m
+photo.8.author: _saaaaaaah_
+photo.8.commitdate: 2020/3/20
+photo.8.link: https://www.instagram.com/_saaaaaaah_/
+photo.8.tags: paws, tree
+photo.9: ig://B-I8AamBoSZ/m
+photo.9.author: wumpwoast
+photo.9.commitdate: 2020/3/26
+photo.9.link: https://www.instagram.com/wumpwoast/
+photo.9.tags: portrait, tail
+photo.10: ig://B_r7lKGhrgG/m
+photo.10.author: ayusuke56
+photo.10.commitdate: 2020/5/4
+photo.10.link: https://www.instagram.com/ayusuke56/
+photo.10.tags: laying down, portrait, tree
+photo.11: ig://CE7pKdTB3yL/m
+photo.11.author: ssc6105
+photo.11.commitdate: 2020/11/10
+photo.11.link: https://www.instagram.com/ssc6105/
+photo.11.tags: blink, dish, portrait
+species: 1
+studbook.id: 0999
+zoo: 59

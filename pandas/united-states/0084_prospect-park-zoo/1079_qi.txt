@@ -1,0 +1,17 @@
+[panda]
+_id: 1079
+birthday: 2019/6/28
+birthplace: 84
+children: none
+commitdate: 2019/12/29
+en.name: Qi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1080
+species: 2
+zoo: 84

@@ -1,0 +1,100 @@
+[panda]
+_id: 408
+birthday: 2010/5/30
+birthplace: 51
+children: 409, 439
+commitdate: 2018/11/23
+en.name: Mei-Li
+en.nicknames: none
+en.othernames: Meili
+gender: f
+jp.name: メイリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 51, 2010/5/30
+location.2: 89, 2010/6/9
+photo.1: ig://BZGuWohHgT7/m
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.1.tags: portrait
+photo.2: ig://BZWb5mjne03/m
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.2.tags: portrait, profile, smile
+photo.3: ig://BeROTGsHQcP/m
+photo.3.author: rossparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.tags: apple time, portrait, snow
+photo.4: ig://BhG-KJNHG2I/m
+photo.4.author: rossparkzoo
+photo.4.commitdate: 2018/11/25
+photo.4.link: https://www.instagram.com/rossparkzoo/
+photo.4.tags: bamboo, lunch time, toys
+photo.5: ig://Boy5jv9lkPo/m
+photo.5.author: rossparkzoo
+photo.5.commitdate: 2018/11/25
+photo.5.link: https://www.instagram.com/rossparkzoo/
+photo.5.tags: portrait
+photo.6: ig://B5sV7C6HCUi/m
+photo.6.author: rossparkzoo
+photo.6.commitdate: 2020/7/15
+photo.6.link: https://www.instagram.com/rossparkzoo/
+photo.6.tags: portrait, snow
+photo.7: ig://B5-WZgMHRgk/m
+photo.7.author: rossparkzoo
+photo.7.commitdate: 2020/7/15
+photo.7.link: https://www.instagram.com/rossparkzoo/
+photo.7.tags: paws, portrait, whiskers
+photo.8: ig://B8O_XrgnSo6/m
+photo.8.author: rossparkzoo
+photo.8.commitdate: 2020/7/15
+photo.8.link: https://www.instagram.com/rossparkzoo/
+photo.8.tags: close-up, portrait
+photo.9: ig://B8b2PnEnnvU/m
+photo.9.author: rossparkzoo
+photo.9.commitdate: 2020/7/15
+photo.9.link: https://www.instagram.com/rossparkzoo/
+photo.9.tags: paws, portrait, snow
+photo.10: ig://B-HarANnw75/m
+photo.10.author: rossparkzoo
+photo.10.commitdate: 2020/7/15
+photo.10.link: https://www.instagram.com/rossparkzoo/
+photo.10.tags: bamboo, paws, portrait, tongue
+photo.11: ig://B-pz-OAHP0G/m
+photo.11.author: rossparkzoo
+photo.11.commitdate: 2020/7/15
+photo.11.link: https://www.instagram.com/rossparkzoo/
+photo.11.tags: bamboo, paws, portrait, smile
+photo.12: ig://CBn6AtbnHS1/m
+photo.12.author: rossparkzoo
+photo.12.commitdate: 2020/7/15
+photo.12.link: https://www.instagram.com/rossparkzoo/
+photo.12.tags: laying down, portrait
+photo.13: ig://CCN4hmjsf76/m
+photo.13.author: rossparkzoo
+photo.13.commitdate: 2020/7/15
+photo.13.link: https://www.instagram.com/rossparkzoo/
+photo.13.tags: laying down, portrait, smile
+photo.14: ig://CCbEFcJsgNy/m
+photo.14.author: rossparkzoo
+photo.14.commitdate: 2020/7/15
+photo.14.link: https://www.instagram.com/rossparkzoo/
+photo.14.tags: portrait, smile
+photo.15: ig://CH735G-M4ur/m
+photo.15.author: rossparkzoo
+photo.15.commitdate: 2020/12/2
+photo.15.link: https://www.instagram.com/rossparkzoo/
+photo.15.tags: apple time, paws, portrait
+photo.16: ig://CJbG6gAMj_4/m
+photo.16.author: rossparkzoo
+photo.16.commitdate: 2021/1/3
+photo.16.link: https://www.instagram.com/rossparkzoo/
+photo.16.tags: portrait, whiskers
+species: 2
+studbook.id: 1001
+zoo: 89

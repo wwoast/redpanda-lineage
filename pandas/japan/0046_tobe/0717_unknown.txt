@@ -1,0 +1,21 @@
+[panda]
+_id: 717
+birthday: unknown
+birthplace: wild.3
+children: none
+commitdate: 2019/3/27
+death: 1998/7/20
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: unknown
+location.1: wild.3
+location.2: 46, 1987/11/17
+species: 2
+studbook.id: 8770
+zoo: 46

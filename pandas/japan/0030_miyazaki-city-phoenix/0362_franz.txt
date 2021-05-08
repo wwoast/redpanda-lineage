@@ -1,0 +1,21 @@
+[panda]
+_id: 362
+birthday: 2000/6/23
+birthplace: 12
+children: 68, 252
+commitdate: 2018/10/26
+death: 2016/3/8
+en.name: Franz
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: フランツ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 361
+location.1: 12, 2000/6/23
+location.2: 30, 2005/3/10
+species: 2
+studbook.id: 0084
+zoo: 30

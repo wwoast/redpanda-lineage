@@ -1,0 +1,28 @@
+[panda]
+_id: 816
+birthday: unknown
+birthplace: 121
+children: none
+commitdate: 2019/4/7
+en.name: Spring
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ハル
+jp.nicknames: none
+jp.othernames: 春
+language.order: en, jp
+litter: none
+photo.1: ig://BnJk7FTA9Rv/m
+photo.1.author: zooboise
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: baby
+photo.2: ig://BrYogH5g3YB/m
+photo.2.author: lilythecrazycatlady
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/lilythecrazycatlady/
+photo.2.tags: baby, profile
+species: 1
+studbook.id: unknown
+zoo: 121

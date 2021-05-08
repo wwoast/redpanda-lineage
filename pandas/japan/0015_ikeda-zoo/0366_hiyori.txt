@@ -1,0 +1,34 @@
+[panda]
+_id: 366
+birthday: 2009/7/8
+birthplace: 15
+children: 138, 117, 219
+commitdate: 2018/10/27
+death: 2013/10/20
+en.name: Hiyori
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ひより
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 32
+photo.1: https://www.codaworry.com/images/rpf/hiyori-1-ikeda.jpg
+photo.1.author: jilllucaさん
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://4travel.jp/travelogue/10665033
+photo.1.tags: laying down, sleeping
+photo.2: https://www.codaworry.com/images/rpf/hiyori-2-ikeda.jpg
+photo.2.author: shin
+photo.2.commitdate: 2019/4/9
+photo.2.link: http://shinshin.cocolog-nifty.com/redpanda/2013/10/post-9b5c.html
+photo.2.tags: profile, techitechi
+photo.3: https://www.codaworry.com/images/rpf/hiyori-3-ikeda.jpg
+photo.3.author: shin
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://shinshin.cocolog-nifty.com/redpanda/2013/10/post-9b5c.html
+photo.3.tags: tongue
+species: 2
+studbook.id: 0994
+zoo: 15

@@ -1,0 +1,18 @@
+[media]
+_id: media.4.ann-fafa
+commitdate: 2019/9/3
+panda.tags: 26, 27
+photo.1: ig://_20fTbtG7r/m
+photo.1.author: mariten1119
+photo.1.commitdate: 2019/9/3
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: couple
+photo.1.tags.26.location: 265, 65
+photo.1.tags.27.location: 135, 150
+photo.2: ig://B7LnzTah8vH/m
+photo.2.author: grskus_tk
+photo.2.commitdate: 2020/1/14
+photo.2.link: https://www.instagram.com/grskus_tk/
+photo.2.tags: couple
+photo.2.tags.26.location: 100, 130
+photo.2.tags.27.location: 85, 170

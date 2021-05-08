@@ -1,0 +1,36 @@
+[panda]
+_id: 383
+birthday: 2008/5/26
+birthplace: 82
+children: none
+commitdate: 2018/11/13
+en.name: Tai
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: タイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 443
+location.1: 82, 2008/5/26
+location.2: 97, 2009/6/11
+location.3: 77, 2012/12/19
+photo.1: ig://BAF8tTfSkA7/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, techitechi
+photo.2: ig://B-NlWsiDm1k/m
+photo.2.author: henryvilaszoo
+photo.2.commitdate: 2020/9/4
+photo.2.link: https://www.instagram.com/henryvilaszoo/
+photo.2.tags: mofumofu
+photo.3: ig://CCYsAOkDM1x/m
+photo.3.author: henryvilaszoo
+photo.3.commitdate: 2020/9/4
+photo.3.link: https://www.instagram.com/henryvilaszoo/
+photo.3.tags: close-up, mofumofu, portrait, whiskers
+species: 2
+studbook.id: 0821
+zoo: 77

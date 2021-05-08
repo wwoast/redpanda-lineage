@@ -1,0 +1,21 @@
+[panda]
+_id: 988
+birthday: 2002/12/7
+birthplace: 181
+children: 987
+commitdate: 2019/8/24
+death: 2017/1/14
+en.name: Ishah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: イシャ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 181, 2002/12/7
+location.2: 210, 2004/3/22
+location.3: 204, 2006/10/19
+species: 1
+zoo: 204

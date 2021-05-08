@@ -1,0 +1,65 @@
+[panda]
+_id: 520
+birthday: 2014/6/9
+birthplace: 123
+children: 645, 646
+commitdate: 2019/2/24
+en.name: Maliha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マリハ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 123, 2014/6/9
+location.2: 113, 2015/4/10
+photo.1: ig://Buhu6dhlwX4/m
+photo.1.author: potterparkzoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/potterparkzoo/
+photo.1.tags: toys
+photo.2: ig://Br9FNTolCKM/m
+photo.2.author: potterparkzoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/potterparkzoo/
+photo.2.tags: portrait, profile, snow, white face
+photo.3: ig://Bq7ro6jBLNC/m
+photo.3.author: potterparkzoo
+photo.3.commitdate: 2019/3/12
+photo.3.link: https://www.instagram.com/potterparkzoo/
+photo.3.tags: portrait, snow, white face
+photo.4: ig://BqDsYNeHmMo/m
+photo.4.author: potterparkzoo
+photo.4.commitdate: 2019/3/12
+photo.4.link: https://www.instagram.com/potterparkzoo/
+photo.4.tags: portrait, white face
+photo.5: ig://Bnv4qg9DZbr/m
+photo.5.author: potterparkzoo
+photo.5.commitdate: 2019/3/12
+photo.5.link: https://www.instagram.com/potterparkzoo/
+photo.5.tags: bamboo, tongue
+photo.6: ig://Bkh6am_B2b3/m
+photo.6.author: potterparkzoo
+photo.6.commitdate: 2019/3/12
+photo.6.link: https://www.instagram.com/potterparkzoo/
+photo.6.tags: laying down, portrait, tail, tree
+photo.7: ig://BjI3494BzS1/m
+photo.7.author: potterparkzoo
+photo.7.commitdate: 2019/3/12
+photo.7.link: https://www.instagram.com/potterparkzoo/
+photo.7.tags: bamboo, portrait, white face
+photo.8: ig://Bi7YVVHhdfc/m
+photo.8.author: potterparkzoo
+photo.8.commitdate: 2019/3/12
+photo.8.link: https://www.instagram.com/potterparkzoo/
+photo.8.tags: bamboo, portrait, white face
+photo.9: ig://BiQQUHwh47l/m
+photo.9.author: potterparkzoo
+photo.9.commitdate: 2019/3/12
+photo.9.link: https://www.instagram.com/potterparkzoo/
+photo.9.tags: bamboo, portrait, tongue
+species: 1
+studbook.id: 1404
+zoo: 113

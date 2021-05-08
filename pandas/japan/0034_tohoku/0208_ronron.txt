@@ -1,0 +1,54 @@
+[panda]
+_id: 208
+birthday: 2002/6/28
+birthplace: 46
+children: 161, 205, 103
+commitdate: 2018/7/26
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ron Ron
+gender: m
+jp.name: ロンロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 46, 2002/6/28
+location.2: 34, 2010/11/28
+photo.1: ig://BjSJwD0Ft2v/m
+photo.1.author: rie_panda55
+photo.1.commitdate: 2018/7/26
+photo.1.link: https://www.instagram.com/rie_panda55/
+photo.1.tags: apple time, profile
+photo.2: ig://BpZidVDFqPz/m
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2018/10/27
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.tags: portrait
+photo.3: ig://BpgVRVzFNcE/m
+photo.3.author: craig_craig_craig
+photo.3.commitdate: 2018/10/29
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.4: ig://BqWdLbklIuj/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2019/1/3
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: apple time, blink, portrait, smile
+photo.5: ig://B3qNnvzBdQj/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: paws, portrait
+photo.6: ig://CHKpbFmhr5-/m
+photo.6.author: ssc6105
+photo.6.commitdate: 2020/11/7
+photo.6.link: https://www.instagram.com/ssc6105/
+photo.6.tags: blink
+photo.7: ig://CHKrB5HhLLC/m
+photo.7.author: ssc6105
+photo.7.commitdate: 2020/11/7
+photo.7.link: https://www.instagram.com/ssc6105/
+photo.7.tags: blink, paws, smile
+species: 2
+studbook.id: 0269
+zoo: 34

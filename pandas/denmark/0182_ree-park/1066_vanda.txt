@@ -1,0 +1,19 @@
+[panda]
+_id: 1066
+birthday: 2017/6/12
+birthplace: 72
+children: unknown
+commitdate: 2019/11/29
+en.name: Vanda
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: バンダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1065
+location.1: 72, 2017/6/12
+location.2: 182, 2018/4/8
+species: 1
+zoo: 182

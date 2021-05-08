@@ -1,0 +1,51 @@
+[panda]
+_id: 553
+birthday: 2014/6/26
+birthplace: 129
+children: none
+commitdate: 2019/3/9
+en.name: Maiya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マイヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 847
+location.1: 129, 2014/6/26
+location.2: 130, 2015/5/16
+location.3: 104, 2018/11/20
+photo.1: ig://BqawhX6nXMr/m
+photo.1.author: potawatomizoo
+photo.1.commitdate: 2019/3/9
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: profile, tree
+photo.2: ig://BwcSVSwnxsT/m
+photo.2.author: potawatomizoo
+photo.2.commitdate: 2020/2/28
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: white face
+photo.3: ig://BxcsjOMlCQb/m
+photo.3.author: potawatomizoo
+photo.3.commitdate: 2020/2/28
+photo.3.link: https://www.instagram.com/potawatomizoo/
+photo.3.tags: white face
+photo.4: ig://By5sQiwHNNL/m
+photo.4.author: potawatomizoo
+photo.4.commitdate: 2020/2/28
+photo.4.link: https://www.instagram.com/potawatomizoo/
+photo.4.tags: bridge, portrait, tail
+photo.5: ig://BzYTlGOnPyI/m
+photo.5.author: potawatomizoo
+photo.5.commitdate: 2020/2/28
+photo.5.link: https://www.instagram.com/potawatomizoo/
+photo.5.tags: door, smile, tongue, white face
+photo.6: ig://B3zUXzMnrDJ/m
+photo.6.author: potawatomizoo
+photo.6.commitdate: 2020/2/28
+photo.6.link: https://www.instagram.com/potawatomizoo/
+photo.6.tags: tail, white face
+species: 1
+studbook.id: 1455
+zoo: 104

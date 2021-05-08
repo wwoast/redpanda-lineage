@@ -1,0 +1,80 @@
+[panda]
+_id: 439
+birthday: 2018/7/7
+birthplace: 89
+children: none
+commitdate: 2018/11/23
+en.name: Adzuki
+en.nicknames: none
+en.othernames: Azuki
+gender: f
+jp.name: アズキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 89, 2018/7/7
+location.2: 84, 2019/5/12
+photo.1: ig://BmN-qQfFa71/m
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.1.tags: baby, portrait
+photo.2: ig://BnJMsgZFt-N/m
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2018/11/23
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.2.tags: baby, portrait
+photo.3: ig://BnbpqiLF_m6/m
+photo.3.author: rossparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.tags: baby, bamboo, portrait
+photo.4: ig://BnmrzyEF_DN/m
+photo.4.author: rossparkzoo
+photo.4.commitdate: 2018/11/25
+photo.4.link: https://www.instagram.com/rossparkzoo/
+photo.4.tags: baby, nose, portrait
+photo.5: ig://Bnv1qgqljAA/m
+photo.5.author: rossparkzoo
+photo.5.commitdate: 2018/11/25
+photo.5.link: https://www.instagram.com/rossparkzoo/
+photo.5.tags: baby, ear, portrait
+photo.6: ig://Bny-nOOFTsT/m
+photo.6.author: rossparkzoo
+photo.6.commitdate: 2018/11/25
+photo.6.link: https://www.instagram.com/rossparkzoo/
+photo.6.tags: baby, portrait, tail
+photo.7: ig://Bn63uqxlEsC/m
+photo.7.author: rossparkzoo
+photo.7.commitdate: 2018/11/25
+photo.7.link: https://www.instagram.com/rossparkzoo/
+photo.7.tags: baby, portrait
+photo.8: ig://BoPVF5LFEUa/m
+photo.8.author: rossparkzoo
+photo.8.commitdate: 2018/11/25
+photo.8.link: https://www.instagram.com/rossparkzoo/
+photo.8.tags: baby, portrait
+photo.9: ig://BoRdC0LlD3X/m
+photo.9.author: rossparkzoo
+photo.9.commitdate: 2018/11/25
+photo.9.link: https://www.instagram.com/rossparkzoo/
+photo.9.tags: climb, portrait, pull-up
+photo.10: ig://BqXTPwHFYnA/m
+photo.10.author: rossparkzoo
+photo.10.commitdate: 2018/11/25
+photo.10.link: https://www.instagram.com/rossparkzoo/
+photo.10.tags: portrait, toys
+photo.11: ig://Bqc2Pbil3MK/m
+photo.11.author: rossparkzoo
+photo.11.commitdate: 2018/11/25
+photo.11.link: https://www.instagram.com/rossparkzoo/
+photo.11.tags: portrait, techitechi
+photo.12: ig://BxBPADgBeaz/m
+photo.12.author: rossifari
+photo.12.commitdate: 2020/3/3
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: portrait, profile, whiskers
+species: 2
+studbook.id: 1833
+zoo: 84

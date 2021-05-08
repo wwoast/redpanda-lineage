@@ -1,0 +1,46 @@
+[panda]
+_id: 1247
+birthday: 2019/6/22
+birthplace: 271
+children: none
+cn.name: 火狐
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/12/29
+en.name: Hui Hu
+en.nicknames: none
+en.othernames: Huo-Hu, Huo Hu, Hui-Hu, Firefox
+fr.name: Huo Hu
+fr.nicknames: none
+fr.othernames: none
+gender: m
+jp.name: 火狐
+jp.nicknames: none
+jp.othernames: ひきつね
+language.order: fr, cn, en, jp
+litter: 1248
+location.1: 271, 2019/6/22
+location.2: 219, 2020/10/1
+photo.1: ig://B1tCWbmHkPV/m
+photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
+photo.1.link: https://www.instagram.com/chesterzoo/
+photo.1.tags: baby, keeper, portrait, videolink
+photo.2: ig://B4R8hVkHQrQ/m
+photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
+photo.2.link: https://www.instagram.com/chesterzoo/
+photo.2.tags: baby, paws, tree
+photo.3: ig://B45sYhRHnQH/m
+photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/chesterzoo/
+photo.3.tags: baby, paws, portrait
+photo.4: ig://CJTM7vAKZDh/m
+photo.4.author: pairidaizaofficial
+photo.4.commitdate: 2020/12/30
+photo.4.link: https://www.instagram.com/pairidaizaofficial/
+photo.4.tags: portrait, profile, tail
+species: 1
+uncertainty: location.2 moving date
+zoo: 219

@@ -1,0 +1,19 @@
+[panda]
+_id: 1244
+birthday: 2004/6/17
+birthplace: 10
+children: none
+commitdate: 2020/12/13
+death: 2008/11/27
+en.name: Nana
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1242, 1243
+species: 2
+studbook.id: 0463
+zoo: 10

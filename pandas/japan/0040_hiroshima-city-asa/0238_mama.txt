@@ -1,0 +1,80 @@
+[panda]
+_id: 238
+birthday: 2005/7/7
+birthplace: 26
+children: none
+commitdate: 2018/7/27
+en.name: Ma-Ma
+en.nicknames: none
+en.othernames: Maa-Maa, Mahmah, Mah-Mah
+gender: f
+jp.name: 麻麻
+jp.nicknames: none
+jp.othernames: マーマー
+language.order: jp, en
+litter: 340
+location.1: 26, 2005/7/7
+location.2: 25, 2008/12/26
+location.3: 40, 2013/2/18
+photo.1: ig://BW2L9kolSJS/m
+photo.1.author: rdpnzoo
+photo.1.commitdate: 2018/7/28
+photo.1.link: https://www.instagram.com/rdpnzoo/
+photo.2: ig://BYvFgGiB0pa/m
+photo.2.author: miis_98
+photo.2.commitdate: 2018/7/28
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: profile
+photo.3: ig://BZcvo2gAtVA/m
+photo.3.author: peek_a_boo00
+photo.3.commitdate: 2020/4/26
+photo.3.link: https://www.instagram.com/peek_a_boo00/
+photo.3.tags: peek, portrait, tree
+photo.4: ig://Bd7F1rfFVDX/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/7/28
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: bridge, paws
+photo.5: ig://B4H9b_WhhnC/m
+photo.5.author: mifko55
+photo.5.commitdate: 2019/10/28
+photo.5.link: https://www.instagram.com/mifko55/
+photo.5.tags: grooming, paws, portrait
+photo.6: ig://B443sd2hfPm/m
+photo.6.author: leonard_redmof
+photo.6.commitdate: 2019/11/26
+photo.6.link: https://www.instagram.com/leonard_redmof/
+photo.6.tags: grooming, paws, portrait
+photo.7: ig://B5BxxiohpMv/m
+photo.7.author: fetorus_mami
+photo.7.commitdate: 2019/11/26
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: itchy
+photo.8: ig://B5pr4qoBi6j/m
+photo.8.author: craig_craig_craig
+photo.8.commitdate: 2019/12/7
+photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: bamboo, portrait, smile
+photo.9: ig://B52Q6GgBYKd/m
+photo.9.author: mifko55
+photo.9.commitdate: 2019/12/16
+photo.9.link: https://www.instagram.com/mifko55/
+photo.9.tags: bamboo, bite, portrait, tongue
+photo.10: ig://B7ak92EDRuq/m
+photo.10.author: apple_jasmine33
+photo.10.commitdate: 2020/1/23
+photo.10.link: https://www.instagram.com/apple_jasmine33/
+photo.10.tags: tail, wink
+photo.11: ig://CDbhb9rBo8B/m
+photo.11.author: kisshan324
+photo.11.commitdate: 2020/8/5
+photo.11.link: https://www.instagram.com/kisshan324/
+photo.11.tags: paws, portrait, tail
+photo.12: ig://CHu52AXhd3Q/m
+photo.12.author: makimaru18
+photo.12.commitdate: 2020/11/18
+photo.12.link: https://www.instagram.com/makimaru18/
+photo.12.tags: apple time, bamboo, paws, portrait, smile
+species: 2
+studbook.id: 0571
+zoo: 40

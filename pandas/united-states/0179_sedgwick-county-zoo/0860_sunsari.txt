@@ -1,0 +1,25 @@
+[panda]
+_id: 860
+birthday: 2016/6/7
+birthplace: 114
+children: none
+commitdate: 2019/6/9
+en.name: Sunsari
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サンサリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 859
+location.1: 114, 2016/6/7
+location.2: 179, 2017/5/10
+photo.1: ig://B_Ai2mLJ-ks/m
+photo.1.author: sedgwickcountyzoo
+photo.1.commitdate: 2020/6/3
+photo.1.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.1.tags: dish, smile, tail, tongue
+species: 1
+studbook.id: 1603
+zoo: 179

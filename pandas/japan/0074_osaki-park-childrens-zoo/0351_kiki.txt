@@ -1,0 +1,119 @@
+[panda]
+_id: 351
+birthday: 1997/6/18
+birthplace: 10
+children: none
+commitdate: 2018/10/16
+death: 2019/11/20
+en.name: Kiki
+en.nicknames: none
+gender: m
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 352
+location.1: 10, 1997/6/18
+location.2: 74, 1999/4/21
+photo.1: ig://6HN5COuR0o/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/7/22
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: laying down, paws, portrait, tail
+photo.2: ig://-5uBw-ORwp/m
+photo.2.author: masa_polarbear
+photo.2.commitdate: 2020/7/22
+photo.2.link: https://www.instagram.com/masa_polarbear/
+photo.2.tags: portrait, smile, whiskers
+photo.3: ig://BX8323EBzmf/m
+photo.3.author: miis_98
+photo.3.commitdate: 2020/9/28
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: bamboo, mofumofu, old, portrait
+photo.4: ig://BYEnF2RhFBW/m
+photo.4.author: miis_98
+photo.4.commitdate: 2018/12/11
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: apple time, keeper, old, portrait
+photo.5: ig://BZ8L9mplGwO/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2020/3/11
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: old, portrait, whiskers
+photo.6: ig://BkLyH0Jli2h/m
+photo.6.author: kipekaila
+photo.6.commitdate: 2018/7/19
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: old, profile
+photo.7: ig://BkQ4kbbFNUV/m
+photo.7.author: kipekaila
+photo.7.commitdate: 2018/7/19
+photo.7.link: https://www.instagram.com/kipekaila/
+photo.7.tags: dish, old, portrait
+photo.8: ig://BkubAnvFuxo/m
+photo.8.author: hanamaru_redpanda
+photo.8.commitdate: 2020/3/13
+photo.8.link: https://www.instagram.com/hanamaru_redpanda/
+photo.8.tags: laying down, paws, portrait, sleeping
+photo.9: ig://BnkF9SdFunD/m
+photo.9.author: rie_panda55
+photo.9.commitdate: 2018/12/11
+photo.9.link: https://www.instagram.com/rie_panda55/
+photo.9.tags: old, portrait, sleeping
+photo.10: ig://BpZYmR_FhXG/m
+photo.10.author: masa_polarbear
+photo.10.commitdate: 2018/10/27
+photo.10.link: https://www.instagram.com/masa_polarbear/
+photo.10.tags: old, sleeping
+photo.11: ig://BqlDFF9FIoM/m
+photo.11.author: kipekaila
+photo.11.commitdate: 2018/11/24
+photo.11.link: https://www.instagram.com/kipekaila/
+photo.11.tags: old, portrait, sleeping
+photo.12: ig://BwTMXn9lGhA/m
+photo.12.author: ifumoto88
+photo.12.commitdate: 2019/4/22
+photo.12.link: https://www.instagram.com/ifumoto88/
+photo.12.tags: old, portrait
+photo.13: ig://BwUBkqMFBXt/m
+photo.13.author: ifumoto88
+photo.13.commitdate: 2019/4/22
+photo.13.link: https://www.instagram.com/ifumoto88/
+photo.13.tags: dish, lunch time, portrait, tongue
+photo.14: ig://By2HeqyhfMa/m
+photo.14.author: kipekaila
+photo.14.commitdate: 2019/6/20
+photo.14.link: https://www.instagram.com/kipekaila/
+photo.14.tags: old, portrait, smile
+photo.15: ig://BzEXDqeh4j1/m
+photo.15.author: kipekaila
+photo.15.commitdate: 2019/6/28
+photo.15.link: https://www.instagram.com/kipekaila/
+photo.15.tags: laying down, old, paws, yawn
+photo.16: ig://BzGDqmrhJdW/m
+photo.16.author: kipekaila
+photo.16.commitdate: 2019/6/28
+photo.16.link: https://www.instagram.com/kipekaila/
+photo.16.tags: laying down, old
+photo.17: ig://B1Nl_6HhOWs/m
+photo.17.author: ssc6105
+photo.17.commitdate: 2019/8/20
+photo.17.link: https://www.instagram.com/ssc6105/
+photo.17.tags: dish, lunch time, paws, portrait
+photo.18: ig://B2G9euVBdG6/m
+photo.18.author: ifumoto88
+photo.18.commitdate: 2019/9/9
+photo.18.link: https://www.instagram.com/ifumoto88/
+photo.18.tags: old, paws, portrait
+photo.19: ig://B5JKnWIBo0o/m
+photo.19.author: kaoru_a358
+photo.19.commitdate: 2019/11/21
+photo.19.link: https://www.instagram.com/kaoru_a358/
+photo.19.tags: bamboo, old, portrait
+photo.20: ig://B5MCbTHhCis/m
+photo.20.author: craig_craig_craig
+photo.20.commitdate: 2019/11/25
+photo.20.link: https://www.instagram.com/craig_craig_craig/
+species: 2
+studbook.id: 9790
+zoo: 74

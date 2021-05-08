@@ -1,0 +1,21 @@
+[panda]
+_id: 651
+birthday: 2011/7/3
+birthplace: 124
+children: 525, 652
+commitdate: 2019/3/19
+death: 2013/7/21
+en.name: Hammy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ハミー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 521
+location.1: 124, 2011/7/3
+location.2: 126, 2012/5/31
+species: 1
+studbook.id: 1101
+zoo: 126

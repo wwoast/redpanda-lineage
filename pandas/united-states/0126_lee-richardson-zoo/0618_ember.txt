@@ -1,0 +1,39 @@
+[panda]
+_id: 618
+birthday: 2010/6/14
+birthplace: 108
+children: 525, 652, 653, 654, 655, 619, 620, 1093, 1094
+commitdate: 2019/3/19
+en.name: Ember
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 烬
+jp.nicknames: none
+jp.othernames: ジン
+language.order: en, jp
+litter: 546
+location.1: 108, 2010/6/14
+location.2: 126, 2011/8/31
+photo.1: ig://BHrhRqRgnqr/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: paws, smile
+photo.2: ig://BHrga4GgvVM/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: dish, lunch time, smile, tongue
+photo.3: ig://BHrgTVxgCSA/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo, profile
+photo.4: ig://zAQjFhSkJx/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/1/22
+photo.4.link: https://www.instagram.com/worldthathesees/
+species: 1
+studbook.id: 1017
+zoo: 126

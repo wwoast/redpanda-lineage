@@ -1,0 +1,21 @@
+[panda]
+_id: 1134
+birthday: 2003/7/7
+birthplace: 108
+children: 1135, 575, 666, 521, 651
+commitdate: 2020/3/20
+death: 2011/7/22
+en.name: Rupert
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルパート
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1133
+location.1: 108, 2003/7/7
+location.2: 113, 2004/4/11
+location.3: 124, 2005/12/7
+species: 1
+zoo: 124

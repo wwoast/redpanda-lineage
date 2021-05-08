@@ -1,0 +1,21 @@
+[panda]
+_id: 638
+birthday: 2013/6/26
+birthplace: 115
+children: none
+commitdate: 2019/3/19
+death: 2018/7/18
+en.name: Junjie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: じゅんじ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 604
+location.1: 115, 2013/6/26
+location.2: 153, 2014/7/15
+species: 1
+studbook.id: 1344
+zoo: 153

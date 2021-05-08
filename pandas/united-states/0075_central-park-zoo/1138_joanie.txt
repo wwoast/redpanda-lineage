@@ -1,0 +1,30 @@
+[panda]
+_id: 1138
+birthday: 2019/6/20
+birthplace: 121
+children: none
+commitdate: 2020/3/21
+en.name: Joanie
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジョアニー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1139
+location.1: 121, 2019/6/20
+location.2: 75, 2020/12/1
+photo.1: ig://B6Q5k_hn_3D/m
+photo.1.author: zooboise
+photo.1.commitdate: 2020/3/21
+photo.1.link: https://www.instagram.com/zooboise/
+photo.1.tags: baby, bamboo, mofumofu, portrait, profile, snow
+photo.2: ig://CJY5yj_gzOh/m
+photo.2.author: centralparkzoo
+photo.2.commitdate: 2021/1/3
+photo.2.link: https://www.instagram.com/centralparkzoo/
+photo.2.tags: nose, snow
+species: 1
+uncertainty: location.2 move date
+zoo: 75

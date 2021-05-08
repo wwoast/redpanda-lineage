@@ -1,0 +1,46 @@
+[panda]
+_id: 497
+birthday: 2012/7/11
+birthplace: 80
+children: 499, 169
+commitdate: 2019/2/23
+en.name: Wayne
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ウェイン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 523
+location.1: 80, 2012/7/11
+location.2: 48, 2013/4/16
+location.3: 110, 2015/11/9
+photo.1: ig://-y1f9TkY7V/m
+photo.1.author: brightszoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/brightszoo/
+photo.1.tags: portrait, smile, white face
+photo.2: ig://BNnfhjqh0Ao/m
+photo.2.author: brightszoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/brightszoo/
+photo.2.tags: portrait, profile
+photo.3: ig://BoJnN9nljoh/m
+photo.3.author: brightszoo
+photo.3.commitdate: 2019/3/12
+photo.3.link: https://www.instagram.com/brightszoo/
+photo.3.tags: apple time, pumpkin, smile, white face
+photo.4: ig://Bud_mPylVGm/m
+photo.4.author: brightszoo
+photo.4.commitdate: 2019/3/12
+photo.4.link: https://www.instagram.com/brightszoo/
+photo.4.tags: portrait, white face
+photo.5: ig://CFHXzWYHE-R/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/9/16
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: apple time, paws, portrait, smile, white face
+species: 1
+studbook.id: 1234
+zoo: 110

@@ -1,0 +1,36 @@
+[panda]
+_id: 423
+birthday: 2011/8/1
+birthplace: 96
+children: 412
+commitdate: 2018/11/23
+en.name: Qiji
+en.nicknames: Kee-Gee
+en.othernames: none
+gender: f
+jp.name: クィジ
+jp.nicknames: キーゲー
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 96, 2011/8/1
+location.2: 90, 2012/5/31
+location.3: 44, 2015/11/19
+photo.1: ig://B2eYcRlHVEF/m
+photo.1.author: newzoogb
+photo.1.commitdate: 2019/12/7
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: paws, portrait, profile, upside-down
+photo.2: ig://B6JKgG9g9HY/m
+photo.2.author: newzoogb
+photo.2.commitdate: 2020/2/27
+photo.2.link: https://www.instagram.com/newzoogb/
+photo.2.tags: lunch time
+photo.3: ig://CEKRKYYl9ND/m
+photo.3.author: newzoogb
+photo.3.commitdate: 2020/11/8
+photo.3.link: https://www.instagram.com/newzoogb/
+photo.3.tags: ice treat, laying down
+species: 2
+studbook.id: 1121
+zoo: 44

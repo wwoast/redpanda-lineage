@@ -1,0 +1,46 @@
+[panda]
+_id: 621
+birthday: 2013/6/20
+birthplace: 145
+children: 653, 654, 655, 619, 620, 1093, 1094
+commitdate: 2019/3/19
+death: 2020/5/28
+en.name: Charlie
+en.nicknames: none
+en.othernames: Charles
+gender: m
+jp.name: チャーリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 622
+location.1: 145, 2013/6/20
+location.2: 126, 2014/9/11
+photo.1: ig://zK8gckSkIi/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile
+photo.2: ig://BHrhpwNg2n4/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait
+photo.3: ig://BHrhx39gf3t/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: dish, lunch time, portrait, smile
+photo.4: ig://Bwdcnf9A9LE/m
+photo.4.author: h.blood1
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.instagram.com/h.blood1/
+photo.4.tags: paws
+photo.5: ig://B_QKjJgJDDJ/m
+photo.5.author: leerichardsonzoo
+photo.5.commitdate: 2020/6/3
+photo.5.link: https://www.instagram.com/leerichardsonzoo/
+photo.5.tags: bamboo, tongue
+species: 1
+studbook.id: 1333
+zoo: 126

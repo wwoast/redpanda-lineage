@@ -1,0 +1,22 @@
+[panda]
+_id: 193
+birthday: 2003/7/25
+birthplace: 17
+children: none
+commitdate: 2018/7/14
+en.name: Non
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ノン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 17, 2003/7/25
+location.2: 69, 2004/3/10
+location.3: 17, 2010/11/22
+location.4: 55, 2014/1/17
+species: 2
+studbook.id: 0375
+zoo: 55

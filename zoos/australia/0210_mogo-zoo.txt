@@ -1,0 +1,12 @@
+[zoo]
+_id: 210
+commitdate: 2019/8/24
+en.address: 222 Tomakin Rd, Mogo NSW 2536, Australia
+en.location: Mogo, New South Wales, Australia
+en.name: Mogo Zoo
+flag: Australia
+language.order: en
+latitude: -35.7953737
+longitude: 150.1571899
+map: https://goo.gl/maps/73JeSnC4UNabbXTT7
+website: https://mogozoo.com.au/

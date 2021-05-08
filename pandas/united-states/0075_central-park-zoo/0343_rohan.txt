@@ -1,0 +1,43 @@
+[panda]
+_id: 343
+birthday: 2015/6/25
+birthplace: 154
+children: none
+commitdate: 2018/10/7
+en.name: Rohan
+en.nicknames: none
+en.othernames: Señor Whiskers
+gender: m
+jp.name: ローハン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 617
+photo.1: ig://BOVPeqCAV1U/m
+photo.1.author: florianschwarz83
+photo.1.commitdate: 2020/3/25
+photo.1.link: https://www.instagram.com/florianschwarz83/
+photo.1.tags: close-up, portrait, whiskers
+photo.2: ig://BZmjjZ2gF5g/m
+photo.2.author: wumpwoast
+photo.2.commitdate: 2020/11/20
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: portrait, smile, tail, tongue
+photo.3: ig://BvAiB6Mha9O/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/8/11
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: panda bowl, portrait, whiskers
+photo.4: ig://Bvz_C7GBk8U/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/8/11
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: mofumofu, paws, portrait
+photo.5: ig://CJOWn8-rFO9/m
+photo.5.author: centralparkzoo
+photo.5.commitdate: 2020/12/30
+photo.5.link: https://www.instagram.com/centralparkzoo/
+photo.5.tags: mofumofu, portrait, tail, whiskers
+species: 1
+studbook.id: 1529
+zoo: 75

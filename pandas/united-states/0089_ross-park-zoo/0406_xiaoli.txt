@@ -1,0 +1,44 @@
+[panda]
+_id: 406
+birthday: 2008/6/10
+birthplace: 83
+children: 409
+commitdate: 2018/11/23
+death: 2014/1/8
+en.name: Xiao-Li
+en.nicknames: none
+en.othernames: Xiaoli
+gender: m
+jp.name: シャオリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 404
+photo.1: https://www.codaworry.com/images/rpf/xiaoli-1-binghamton.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/11
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bridge
+photo.2: https://www.codaworry.com/images/rpf/xiaoli-2-binghamton.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/11
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down, smile, tongue
+photo.3: https://www.codaworry.com/images/rpf/xiaoli-3-binghamton.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/11
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tree
+photo.4: https://www.codaworry.com/images/rpf/xiaoli-4-binghamton.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/11
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: smile, tongue, tree
+photo.5: https://www.codaworry.com/images/rpf/xiaoli-5-binghamton.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/11
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: profile, techitechi, tree
+species: 2
+studbook.id: 0811
+zoo: 89

@@ -1,0 +1,20 @@
+[panda]
+_id: 644
+birthday: 2010/6/27
+birthplace: 104
+children: 1138, 1139
+commitdate: 2019/3/19
+en.name: Spud
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スパッド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 642, 643
+location.1: 104, 2010/6/27
+location.2: 166, 2011/5/12
+species: 1
+studbook.id: 1024
+zoo: 166

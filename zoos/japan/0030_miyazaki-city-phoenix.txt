@@ -1,0 +1,24 @@
+[zoo]
+_id: 30
+commitdate: 2018/6/22
+en.address: Japan, 〒880-0122 Miyazaki Prefecture, Miyazaki, 塩路浜山3083-42
+en.location: Miyazaki City, Miyazaki Prefecture, Japan
+en.name: Miyazaki City Phoenix Zoo
+flag: Japan
+jp.address: 〒880-0122 宮崎県宮崎市塩路浜山3083-42
+jp.location: 宮崎市 宮崎県
+jp.name: 宮崎市フェニックス自然動物園
+language.order: jp, en
+latitude: 31.9828945
+longitude: 131.4739183
+map: https://goo.gl/maps/Gm2Rjx3mpP72
+photo.1: ig://BX94xg2FnUN/m
+photo.1.author: stylusesmac
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/stylusesmac/
+photo.2: ig://B2rPXDthmk4/m
+photo.2.author: mishimarugo
+photo.2.commitdate: 2019/9/28
+photo.2.link: https://www.instagram.com/mishimarugo/
+photo.2.tags: profile
+website: http://www.miyazaki-city-zoo.jp/index.html

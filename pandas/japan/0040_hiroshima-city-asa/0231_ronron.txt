@@ -1,0 +1,21 @@
+[panda]
+_id: 231
+birthday: 1995/6/30
+birthplace: 3
+children: 564, 565, 49, 336, 327, 585, 228, 332, 156, 369, 329, 330
+commitdate: 2018/7/27
+death: 2011/1/16
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ronron
+gender: m
+jp.name: ロンロン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 563
+location.1: 3, 1995/6/30
+location.2: 40, 1998/2/13
+species: 2
+studbook.id: 9598
+zoo: 40

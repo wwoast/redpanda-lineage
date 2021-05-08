@@ -1,0 +1,46 @@
+[panda]
+_id: 386
+birthday: 2005/6/23
+birthplace: 65
+children: 394, 493, 469, 470, 484, 1079, 1080
+commitdate: 2018/11/13
+death: 2019/4/15
+en.name: Qin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クィン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2005/6/23
+location.2: 83, 2007/4/20
+location.3: 84, 2008/11/6
+photo.1: ig://BPNamSpBmNo/m
+photo.1.author: prospectparkzoo
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/prospectparkzoo/
+photo.1.tags: portrait, profile, smile, snow, tail, tongue
+photo.2: ig://70Zg2TlXNM/m
+photo.2.author: prospectparkzoo
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.2.tags: portrait, paws, smile
+photo.3: ig://BrLN365AT3e/m
+photo.3.author: byteforbyte
+photo.3.commitdate: 2018/12/12
+photo.3.link: https://www.instagram.com/byteforbyte/
+photo.3.tags: autumn, tree
+photo.4: ig://BD1U-QiFXOB/m
+photo.4.author: prospectparkzoo
+photo.4.commitdate: 2018/12/12
+photo.4.link: https://www.instagram.com/prospectparkzoo/
+photo.4.tags: portrait, tree
+photo.5: ig://BPymQ1Vj5nj/m
+photo.5.author: _wild.photos.by.peter_
+photo.5.commitdate: 2018/12/17
+photo.5.link: https://www.instagram.com/_wild.photos.by.peter_/
+species: 2
+studbook.id: 0502
+zoo: 84

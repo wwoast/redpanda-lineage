@@ -1,0 +1,20 @@
+[panda]
+_id: 1020
+birthday: 2008/7/2
+birthplace: 114
+children: 541, 680
+commitdate: 2019/11/6
+death: 2016/8/14
+en.name: Hope
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 希望
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 114, 2008/7/2
+location.2: 117, 2009/4/7
+species: 1
+zoo: 117

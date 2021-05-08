@@ -1,0 +1,25 @@
+[media]
+_id: media.6.charu-nei
+commitdate: 2020/2/16
+panda.tags: 376, 378
+photo.1: ig://BpPMXrXlSwl/m
+photo.1.author: animal_love_us
+photo.1.commitdate: 2020/2/16
+photo.1.link: https://www.instagram.com/animal_love_us/
+photo.1.tags: baby, brothers, mofumofu, playing, siblings, twins
+photo.1.tags.376.location: 85, 100
+photo.1.tags.378.location: 190, 125
+photo.2: ig://Bp9ugJelFLa/m
+photo.2.author: animal_love_us
+photo.2.commitdate: 2018/11/14
+photo.2.link: https://www.instagram.com/animal_love_us/
+photo.2.tags: baby, brothers, siblings, twins
+photo.2.tags.376.location: 290, 15
+photo.2.tags.378.location: 160, 165
+photo.3: ig://Bqjxuj3lRyH/m
+photo.3.author: perie1027vivi
+photo.3.commitdate: 2020/6/13
+photo.3.link: https://www.instagram.com/perie1027vivi/
+photo.3.tags: baby, brothers, siblings, tail, twins
+photo.3.tags.376.location: 155, 140
+photo.3.tags.378.location: 235, 190

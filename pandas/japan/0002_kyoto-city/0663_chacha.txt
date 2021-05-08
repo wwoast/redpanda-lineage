@@ -1,0 +1,46 @@
+[panda]
+_id: 663
+birthday: 1993/6/27
+birthplace: 10
+children: none
+commitdate: 2019/3/20
+death: 2016/2/17
+en.name: Cha-Cha
+en.nicknames: none
+en.othernames: Chacha
+gender: f
+jp.name: 茶々
+jp.nicknames: none
+jp.othernames: チャチャ
+language.order: jp, en
+litter: 664
+location.1: 10, 1993/6/27
+location.2: 2, 1995/6/17
+photo.1: https://www.codaworry.com/images/rpf/chacha-1-kyoto.jpg
+photo.1.author: kinkurohajiro
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://red-panda-mania.tumblr.com/post/101926550240/
+photo.1.tags: laying down, old
+photo.2: https://www.codaworry.com/images/rpf/chacha-2-kyoto.jpg
+photo.2.author: kinkurohajiro
+photo.2.commitdate: 2019/4/9
+photo.2.link: http://red-panda-mania.tumblr.com/post/101926550240/
+photo.2.tags: laying down, old, profile
+photo.3: https://www.codaworry.com/images/rpf/chacha-3-kyoto.jpg
+photo.3.author: kinkurohajiro
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://red-panda-mania.tumblr.com/post/101926550240/
+photo.3.tags: old
+photo.4: https://www.codaworry.com/images/rpf/chacha-4-kyoto.jpg
+photo.4.author: kinkurohajiro
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://red-panda-mania.tumblr.com/post/101926550240/
+photo.4.tags: old
+photo.5: https://www.codaworry.com/images/rpf/chacha-5-kyoto.jpg
+photo.5.author: kinkurohajiro
+photo.5.commitdate: 2019/4/9
+photo.5.link: http://red-panda-mania.tumblr.com/post/101926550240/
+photo.5.tags: laying down, old
+species: 2
+studbook.id: 9393
+zoo: 2

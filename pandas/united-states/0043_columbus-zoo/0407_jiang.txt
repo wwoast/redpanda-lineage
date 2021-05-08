@@ -1,0 +1,34 @@
+[panda]
+_id: 407
+birthday: 2002/6/26
+birthplace: 83
+children: none
+commitdate: 2018/11/23
+en.name: Jiang
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: チヤン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 385
+location.1: 83, 2002/6/26
+location.2: 103, 2003/6/11
+location.3: 43, 2003/9/26
+location.4: 97, 2008/4/3
+location.5: 89, 2014/11/21
+location.6: 43, 2016/6/29
+photo.1: ig://BnB-9cijn9r/m
+photo.1.author: columbuszoo
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/columbuszoo/
+photo.1.tags: whiskers
+photo.2: ig://CEjUGrxgs2z/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/9/15
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait, profile
+species: 2
+studbook.id: 0220
+zoo: 43

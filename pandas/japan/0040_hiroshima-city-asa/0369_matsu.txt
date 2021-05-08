@@ -1,0 +1,19 @@
+[panda]
+_id: 369
+birthday: 2004/7/23
+birthplace: 40
+children: none
+commitdate: 2018/10/27
+death: 2016/11/27
+en.name: Matsu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マツ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 156
+species: 2
+studbook.id: 0483
+zoo: 40

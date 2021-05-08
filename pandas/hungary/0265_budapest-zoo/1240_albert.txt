@@ -1,0 +1,52 @@
+[panda]
+_id: 1240
+birthday: 2016/6/26
+birthplace: 265
+children: none
+commitdate: 2020/11/26
+death: 2017/8/10
+en.name: Albert
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Albert
+hu.nicknames: none
+hu.othernames: none
+jp.name: アルバート
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en
+litter: unknown
+photo.1: ig://BKnl6yZBmsF/m
+photo.1.author: zoobudapest
+photo.1.commitdate: 2020/11/26
+photo.1.link: https://www.instagram.com/zoobudapest/
+photo.1.tags: ear, nose, eye
+photo.2: https://zoobudapest.com/uploads/collection/1/image/pandakolyok11%%20foto%%20Bagosi%%20Zoltan.JPG
+photo.2.author: Zoltán Bagosi
+photo.2.commitdate: 2020/11/26
+photo.2.link: https://zoobudapest.com/ezt-latnod-kell/hirek/kepek-a-pandakolyokrol
+photo.2.tags: ear, nose, eye, tail
+photo.3: https://zoobudapest.com/uploads/collection/1/image/pandakolyok06%%20foto%%20Bagosi%%20Zoltan.JPG
+photo.3.author: Zoltán Bagosi
+photo.3.commitdate: 2020/11/26
+photo.3.link: https://zoobudapest.com/ezt-latnod-kell/hirek/kepek-a-pandakolyokrol
+photo.3.tags: ear, nose, eye, tail
+photo.4: https://zoobudapest.com/uploads/collection/1/image/pandakolyok05%%20foto%%20Bagosi%%20Zoltan.JPG
+photo.4.author: Zoltán Bagosi
+photo.4.commitdate: 2020/11/26
+photo.4.link: https://zoobudapest.com/ezt-latnod-kell/hirek/kepek-a-pandakolyokrol
+photo.4.tags: ear, nose, eye, tail
+photo.5: https://zoobudapest.com/uploads/collection/1/image/pandakolyok%%20csipezese02%%20foto%%20Bagosi%%20Zoltan.JPG
+photo.5.author: Zoltán Bagosi
+photo.5.commitdate: 2020/11/26
+photo.5.link: https://zoobudapest.com/ezt-latnod-kell/hirek/kezbe-vett-pandakolyok
+photo.5.tags: ear, nose, eye, tail, paw, keeper
+photo.6: https://zoobudapest.com/uploads/collection/1/image/pandakolyok%%20csipezese09%%20foto%%20Bagosi%%20Zoltan.JPG
+photo.6.author: Zoltán Bagosi
+photo.6.commitdate: 2020/11/26
+photo.6.link: https://zoobudapest.com/ezt-latnod-kell/hirek/kezbe-vett-pandakolyok
+photo.6.tags: ear, nose, eye, paw, keeper
+species: 1
+uncertainty: exact day of death (between 28th of July and 26th of August)
+zoo: 265

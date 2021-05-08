@@ -1,0 +1,25 @@
+[zoo]
+_id: 128
+commitdate: 2019/2/24
+en.address: 2100 Shiloh Road, Billings, MT 59106
+en.location: Billings, Montana, USA
+en.name: Zoo Montana
+flag: USA
+language.order: en
+latitude: 45.7322514
+longitude: -108.6298244
+map: https://goo.gl/maps/RaRj3LmEif82
+photo.1: ig://BqLbrJ7gzDf/m
+photo.1.author: photography_felicity11
+photo.1.commitdate: 2019/6/16
+photo.1.link: https://www.instagram.com/photography_felicity11/
+photo.2: ig://BxTfWChlAVZ/m
+photo.2.author: zoomontana
+photo.2.commitdate: 2019/6/16
+photo.2.link: https://www.instagram.com/zoomontana/
+photo.2.tags: profile
+photo.3: ig://By9UaBVpzpv/m
+photo.3.author: zoomontana
+photo.3.commitdate: 2020/3/20
+photo.3.link: https://www.instagram.com/zoomontana/
+website: http://www.zoomontana.org/

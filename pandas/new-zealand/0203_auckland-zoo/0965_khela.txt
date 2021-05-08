@@ -1,0 +1,34 @@
+[panda]
+_id: 965
+birthday: 2014/1/12
+birthplace: 201
+children: 974, 1130
+commitdate: 2019/8/16
+en.name: Khela
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 966
+location.1: 201, 2014/1/12
+location.2: 203, 2017/9/4
+photo.1: ig://BZ60C8ZjMpE/m
+photo.1.author: aucklandzoo
+photo.1.commitdate: 2019/8/23
+photo.1.link: https://www.instagram.com/aucklandzoo/
+photo.1.tags: smile, white face
+photo.2: ig://BYm28lvDyOw/m
+photo.2.author: aucklandzoo
+photo.2.commitdate: 2019/8/23
+photo.2.link: https://www.instagram.com/aucklandzoo/
+photo.2.tags: white face
+photo.3: ig://BcwaZr-hady/m
+photo.3.author: melissajadephotography
+photo.3.commitdate: 2019/8/23
+photo.3.link: https://www.instagram.com/melissajadephotography/
+photo.3.tags: portrait, smile, tree
+species: 1
+zoo: 203

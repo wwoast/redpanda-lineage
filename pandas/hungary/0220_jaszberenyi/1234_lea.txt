@@ -1,0 +1,32 @@
+[panda]
+_id: 1234
+birthday: 2012/6/22
+birthplace: unknown
+children: 1238, 1235
+commitdate: 2020/11/24
+en.name: Lea
+en.nicknames: none
+en.othernames: none
+gender: f
+hu.name: Lea
+hu.nicknames: none
+hu.othernames: none
+jp.name: レア
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en
+litter: unknown
+location.1: 266, 2012/6/22
+location.2: 220, 2014/6/6
+photo.1: ig://BuMvFoqAV5E/m
+photo.1.author: brigittabartakovics
+photo.1.commitdate: 2020/11/24
+photo.1.link: https://www.instagram.com/brigittabartakovics/
+photo.1.tags: ear, nose, eye, bamboo
+photo.2: ig://CDltk0JHoR5/m
+photo.2.author: levaikitti.photography
+photo.2.commitdate: 2020/11/24
+photo.2.link: https://www.instagram.com/levaikitti.photography/
+photo.2.tags: ear, nose, eye, tail
+species: 1
+zoo: 220

@@ -1,0 +1,31 @@
+[panda]
+_id: 53
+birthday: 2003/6/16
+birthplace: 10
+children: 48, 72, 42, 85, 35, 46, 19, 199
+commitdate: 2018/6/19
+death: 2015/7/18
+en.name: Chi-Chi
+en.nicknames: none
+en.othernames: Chii-Chii, Chichi, Chiichii, Tyi-Tyi, Tyityi
+gender: f
+jp.name: チィチィ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 220, 374
+location.1: 10, 2003/6/16
+location.2: 8, 2005/3/7
+photo.1: ig://xBCRTBQfDd/m
+photo.1.author: jwg13777
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/jwg13777/
+photo.1.tags: apple time
+photo.2: ig://yobqEmQfAO/m
+photo.2.author: jwg13777
+photo.2.commitdate: 2018/7/19
+photo.2.link: https://www.instagram.com/jwg13777/
+photo.2.tags: profile
+species: 2
+studbook.id: 0361
+zoo: 8

@@ -1,0 +1,56 @@
+[panda]
+_id: 519
+birthday: 2013/6/15
+birthplace: 121
+children: none
+commitdate: 2019/2/24
+en.name: Mars
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: マルス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 121, 2013/6/15
+location.2: 123, 2014/11/5
+location.3: 109, 2017/12/20
+photo.1: ig://BrsnNwEB4AH/m
+photo.1.author: memphiszoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/memphiszoo/
+photo.1.tags: bamboo
+photo.2: ig://BtB6QWchWKh/m
+photo.2.author: memphiszoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/memphiszoo/
+photo.2.tags: smile, standing
+photo.3: ig://Bz4RUZ7h84l/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/7/14
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile, tongue, tree
+photo.4: ig://B1g6sCNgAqJ/m
+photo.4.author: memphiszoo
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/memphiszoo/
+photo.4.tags: portrait, whiskers
+photo.5: ig://B3XHKzahn5F/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/10/16
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: laying down, portrait, profile, sleeping, tree
+photo.6: ig://CCwlyKnBqap/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/9/12
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: paws, portrait, smile, tree
+photo.7: ig://CDulf7dhBCR/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/9/7
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: climb, paws, portrait, tree, whiskers
+species: 1
+studbook.id: 1318
+zoo: 109

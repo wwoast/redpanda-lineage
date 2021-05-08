@@ -1,0 +1,81 @@
+[panda]
+_id: 470
+birthday: 2015/7/1
+birthplace: 84
+children: none
+commitdate: 2018/12/12
+en.name: Bo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ボー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 469
+location.1: 84, 2015/7/1
+location.2: 102, 2017/5/1
+location.3: 83, 2020/12/22
+photo.1: ig://BhzMMTznq4M/m
+photo.1.author: tulsazoo
+photo.1.commitdate: 2018/12/12
+photo.1.link: https://www.instagram.com/tulsazoo/
+photo.1.tags: pull-up, tail
+photo.2: ig://Bhrd3CiDbZ6/m
+photo.2.author: tulsazoo
+photo.2.commitdate: 2018/12/12
+photo.2.link: https://www.instagram.com/tulsazoo/
+photo.2.tags: tongue
+photo.3: ig://BhkU3sQleOv/m
+photo.3.author: tulsazoo
+photo.3.commitdate: 2018/12/12
+photo.3.link: https://www.instagram.com/tulsazoo/
+photo.3.tags: bamboo, smile
+photo.4: ig://BhcO7-HBOSu/m
+photo.4.author: tulsazoo
+photo.4.commitdate: 2018/12/12
+photo.4.link: https://www.instagram.com/tulsazoo/
+photo.4.tags: bamboo
+photo.5: ig://BgZoymUh6Pf/m
+photo.5.author: tulsazoo
+photo.5.commitdate: 2018/12/12
+photo.5.link: https://www.instagram.com/tulsazoo/
+photo.5.tags: smile
+photo.6: ig://BgCDeHNBphW/m
+photo.6.author: tulsazoo
+photo.6.commitdate: 2018/12/12
+photo.6.link: https://www.instagram.com/tulsazoo/
+photo.6.tags: smile
+photo.7: ig://Bdu4MKDF2D6/m
+photo.7.author: tulsazoo
+photo.7.commitdate: 2018/12/12
+photo.7.link: https://www.instagram.com/tulsazoo/
+photo.7.tags: laying down, paws, smile, tongue, tree
+photo.8: ig://BdNgDWplSLu/m
+photo.8.author: tulsazoo
+photo.8.commitdate: 2018/12/12
+photo.8.link: https://www.instagram.com/tulsazoo/
+photo.8.tags: tree
+photo.9: ig://Bb4W7ryF3LQ/m
+photo.9.author: tulsazoo
+photo.9.commitdate: 2018/12/12
+photo.9.link: https://www.instagram.com/tulsazoo/
+photo.9.tags: tree
+photo.10: ig://BbcL2FJlLub/m
+photo.10.author: tulsazoo
+photo.10.commitdate: 2018/12/12
+photo.10.link: https://www.instagram.com/tulsazoo/
+photo.10.tags: profile, smile
+photo.11: ig://B4pm0o9A2OE/m
+photo.11.author: tulsazoo
+photo.11.commitdate: 2019/12/29
+photo.11.link: https://www.instagram.com/tulsazoo/
+photo.11.tags: portrait
+photo.12: ig://BOc0AHOgyt9/m
+photo.12.author: florianschwarz83
+photo.12.commitdate: 2020/3/25
+photo.12.link: https://www.instagram.com/florianschwarz83/
+photo.12.tags: close-up, portrait
+species: 2
+studbook.id: 1537
+zoo: 83

@@ -1,0 +1,16 @@
+[zoo]
+_id: 113
+commitdate: 2019/2/23
+en.address: 1301 S Pennsylvania Ave, Lansing, MI 48912, USA
+en.location: Lansing, Michigan, USA
+en.name: Potter Park Zoological Gardens
+flag: USA
+language.order: en
+latitude: 42.71787
+longitude: -84.5451808
+map: https://goo.gl/maps/kqsiiZNsTK72
+photo.1: ig://BuWmgQ6ggHI/m
+photo.1.author: potterparkzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/potterparkzoo/
+website: https://potterparkzoo.org/

@@ -1,0 +1,35 @@
+[panda]
+_id: 1049
+birthday: 2012/6/19
+birthplace: 59
+children: 1064, 1065, 1066
+commitdate: 2019/11/13
+death: 2019/10/20
+en.name: Yukiko
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ユキコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1048
+location.1: 59, 2012/6/19
+location.2: 72, 2014/3/27
+photo.1: ig://0nSGGjAy0V/m
+photo.1.author: rotterdamzooblijdorp
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/rotterdamzooblijdorp/
+photo.1.tags: bamboo, portrait, profile
+photo.2: ig://BmcTOlVhaqI/m
+photo.2.author: ira_ima64
+photo.2.commitdate: 2019/12/9
+photo.2.link: https://www.instagram.com/ira_ima64/
+photo.2.tags: smile
+photo.3: ig://B5cSj0FF9NH/m
+photo.3.author: liesouwerkerk
+photo.3.commitdate: 2019/12/9
+photo.3.link: https://www.instagram.com/liesouwerkerk/
+photo.3.tags: bridge
+species: 1
+zoo: 72

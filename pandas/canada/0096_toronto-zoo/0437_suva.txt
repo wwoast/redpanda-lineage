@@ -1,0 +1,70 @@
+[panda]
+_id: 437
+birthday: 2017/6/13
+birthplace: 82
+children: 1193, 1194
+commitdate: 2019/9/18
+en.name: Suva
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 438
+location.1: 76, 2017/6/13
+location.2: 96, 2019/7/1
+photo.1: ig://B0ikw5Yg-17/m
+photo.1.author: b_aimz94
+photo.1.commitdate: 2020/3/18
+photo.1.link: https://www.instagram.com/b_aimz94/
+photo.1.tags: paws, smile
+photo.2: ig://B2EkzLqgCta/m
+photo.2.author: thetorontozoo
+photo.2.commitdate: 2019/9/18
+photo.2.link: https://www.instagram.com/thetorontozoo/
+photo.2.tags: climb
+photo.3: ig://B4F6FS2pBF3/m
+photo.3.author: rossifari
+photo.3.commitdate: 2019/10/27
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: autumn, portrait, profile, whiskers
+photo.4: ig://B5VzHe7p0dB/m
+photo.4.author: rossifari
+photo.4.commitdate: 2019/12/3
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: autumn, portrait, tongue, whiskers
+photo.5: ig://B7GZ4gmJD8y/m
+photo.5.author: thegrumpypenguin
+photo.5.commitdate: 2020/11/17
+photo.5.link: https://www.instagram.com/thegrumpypenguin/
+photo.5.tags: smile
+photo.6: ig://B_pQZvPDBlj/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/5/4
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: autumn, paws, portrait
+photo.7: ig://CEM-PBDg5hx/m
+photo.7.author: thetorontozoo
+photo.7.commitdate: 2020/8/28
+photo.7.link: https://www.instagram.com/thetorontozoo/
+photo.7.tags: bridge, laying down, paws, portrait
+photo.8: ig://CGKuy-JggZ2/m
+photo.8.author: thetorontozoo
+photo.8.commitdate: 2020/12/6
+photo.8.link: https://www.instagram.com/thetorontozoo/
+photo.8.tags: close-up, nose
+photo.9: ig://CII90sABjka/m
+photo.9.author: thetorontozoo
+photo.9.commitdate: 2020/12/3
+photo.9.link: https://www.instagram.com/thetorontozoo/
+photo.9.tags: paws, smile, whiskers
+photo.10: ig://CLhF0UAh_PP/m
+photo.10.author: thetorontozoo
+photo.10.commitdate: 2021/3/18
+photo.10.link: https://www.instagram.com/thetorontozoo/
+photo.10.tags: nose, paws, peek, whiskers
+species: 2
+studbook.id: 1701
+zoo: 96

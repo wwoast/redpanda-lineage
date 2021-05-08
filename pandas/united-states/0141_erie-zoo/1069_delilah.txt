@@ -1,0 +1,36 @@
+[panda]
+_id: 1069
+birthday: 2013/7/21
+birthplace: 75
+children: 468, 1211, 1212
+commitdate: 2019/12/1
+en.name: Delilah
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: デリラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 75, 2013/7/21
+location.2: 108, 2013/9/29
+location.3: 166, 2014/4/22
+location.4: 141, 2019/12/1
+photo.1: ig://BwpuO10lXMs/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/worldthathesees/media/?size=m
+photo.1.tags: portrait, profile, white face
+photo.2: ig://B06yNlRhT2s/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/12/3
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, white face
+photo.3: ig://B5eBKYBhs0A/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/3
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, white face
+species: 1
+zoo: 141

@@ -1,0 +1,21 @@
+[zoo]
+_id: 74
+commitdate: 2018/9/22
+en.address: Osaki, Midori-ku, Saitama, Saitama Prefecture 336-0974, Japan
+en.location: Saitama, Saitama Prefecture, Japan
+en.name: Osaki Park Children's Zoo
+en.othernames: Osaki Park, Kodomo Zoo, Urawa Children's Zoo
+flag: Japan
+jp.address: 〒336-0974 埼玉県さいたま市緑区大崎
+jp.location: さいたま市 埼玉県
+jp.name: 大崎公園
+jp.othernames: 子供動物園
+language.order: jp, en
+latitude: 35.8867828
+longitude: 139.701668
+map: https://goo.gl/maps/g6ZCMfTFdrw
+photo.1: ig://BqCMddSHxzk/m
+photo.1.author: lexus_hs
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/lexus_hs/
+website: http://www.city.saitama.jp/004/001/003/001/p002130.html

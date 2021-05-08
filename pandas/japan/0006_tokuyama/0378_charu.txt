@@ -1,0 +1,58 @@
+[panda]
+_id: 378
+birthday: 2018/7/18
+birthplace: 6
+children: none
+commitdate: 2018/10/28
+en.name: Charu
+en.nicknames: none
+en.othernames: Chal, Char
+gender: m
+jp.name: チャル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 376
+photo.1: ig://BqC8HLuF-sI/m
+photo.1.author: makimaru18
+photo.1.commitdate: 2018/11/12
+photo.1.link: https://www.instagram.com/makimaru18/
+photo.1.tags: baby, portrait
+photo.2: ig://Bq7GWnblTxj/m
+photo.2.author: monmon_redpanda
+photo.2.commitdate: 2018/12/4
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: apple time, portrait
+photo.3: ig://BrPqRd5lDrD/m
+photo.3.author: colette.jp
+photo.3.commitdate: 2020/2/16
+photo.3.link: https://www.instagram.com/colette.jp/
+photo.3.tags: baby, mofumofu, portrait
+photo.4: ig://BrnDwMQlyC4/m
+photo.4.author: animal_love_us
+photo.4.commitdate: 2020/2/16
+photo.4.link: https://www.instagram.com/animal_love_us/
+photo.4.tags: baby, peek, portrait
+photo.5: ig://BxXJds0lYT0/m
+photo.5.author: daniele.tokyo
+photo.5.commitdate: 2019/5/15
+photo.5.link: https://www.instagram.com/daniele.tokyo/
+photo.5.tags: paws, portrait, profile
+photo.6: ig://Bx-yo2oBwnO/m
+photo.6.author: kipekaila
+photo.6.commitdate: 2019/5/29
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: portrait, smile
+photo.7: ig://ByXoWDHhA9z/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/16
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: bamboo, peek
+photo.8: ig://CEnaP6ohI8Y/m
+photo.8.author: grskus_tk
+photo.8.commitdate: 2020/9/7
+photo.8.link: https://www.instagram.com/grskus_tk/
+photo.8.tags: bamboo, paws, portrait
+species: 2
+studbook.id: unknown
+zoo: 6

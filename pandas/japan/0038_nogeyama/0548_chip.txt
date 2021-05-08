@@ -1,0 +1,26 @@
+[panda]
+_id: 548
+birthday: 2001/6/19
+birthplace: 12
+children: none
+commitdate: 2019/3/2
+death: 2009/9/10
+en.name: Chip
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: チップ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 196
+location.1: 12, 2001/6/19
+location.2: 38, 2006/1/30
+photo.1: ig://B8-1TG0BAZk/m
+photo.1.author: pantasanzoo1
+photo.1.commitdate: 2020/2/26
+photo.1.link: https://www.instagram.com/pantasanzoo1/
+photo.1.tags: profile, whiskers
+species: 2
+studbook.id: 01100
+zoo: 38

@@ -1,0 +1,39 @@
+[panda]
+_id: 304
+birthday: 2002/6/29
+birthplace: 34
+children: 11, 111, 265, 55, 56
+commitdate: 2018/8/12
+death: 2008/10/5
+en.name: Shin-Fa
+en.nicknames: none
+en.othernames: Xinghua, Shinfa, Shi-nhowa, Shin-howa, Shinhowa
+gender: f
+jp.name: シーンファ
+jp.nicknames: none
+jp.othernames: 杏花
+language.order: jp, en
+litter: none
+photo.1: https://minesan.c.blog.so-net.ne.jp/blog/_images/blog/_712/minesan/4588148.jpg
+photo.1.author: みねさん
+photo.1.commitdate: 2018/9/1
+photo.1.link: https://minesan.blog.so-net.ne.jp/
+photo.1.tags: laying down, smile
+photo.2: https://minesan.c.blog.so-net.ne.jp/blog/_images/blog/_712/minesan/7986972.jpg
+photo.2.author: みねさん
+photo.2.commitdate: 2018/9/1
+photo.2.link: https://minesan.blog.so-net.ne.jp/
+photo.2.tags: blink
+photo.3: https://minesan.c.blog.so-net.ne.jp/_images/blog/_712/minesan/063IMG_5782-3c689.jpg
+photo.3.author: みねさん
+photo.3.commitdate: 2018/9/2
+photo.3.link: https://minesan.blog.so-net.ne.jp/
+photo.3.tags: smile
+photo.4: https://minesan.c.blog.so-net.ne.jp/_images/blog/_712/minesan/063IMG_5712-dab39.jpg
+photo.4.author: みねさん
+photo.4.commitdate: 2018/9/2
+photo.4.link: https://minesan.blog.so-net.ne.jp/
+photo.4.tags: profile, tree
+species: 2
+studbook.id: 0271
+zoo: 1

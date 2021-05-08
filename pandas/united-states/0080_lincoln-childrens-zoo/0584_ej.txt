@@ -1,0 +1,31 @@
+[panda]
+_id: 584
+birthday: 2013/6/17
+birthplace: 48
+children: none
+commitdate: 2019/3/17
+en.name: EJ
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: エーヘ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 698
+location.1: 48, 2013/6/17
+location.2: 107, 2014/3/27
+location.3: 80, 2016/11/29
+photo.1: ig://BbUTHL8DNLV/m
+photo.1.author: lincolnchildrenszoo
+photo.1.commitdate: 2019/3/17
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1.tags: paws, profile, white face
+photo.2: ig://Bz-vFNHgA__/m
+photo.2.author: lincolnchildrenszoo
+photo.2.commitdate: 2020/3/8
+photo.2.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.2.tags: laying down, portrait, white face
+species: 1
+studbook.id: 1324
+zoo: 80

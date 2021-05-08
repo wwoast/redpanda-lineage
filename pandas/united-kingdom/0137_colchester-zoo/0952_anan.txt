@@ -1,0 +1,27 @@
+[panda]
+_id: 952
+birthday: 2009/6/23
+birthplace: 200
+children: 539, 685, 953, 996, 997
+cn.name: 安安
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/7/22
+en.name: An-An
+en.nicknames: none
+en.othernames: Anan
+gender: m
+jp.name: アンアン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 200, 2009/6/23
+location.2: 137, 2010/5/6
+photo.1: ig://B359OU5Bk5n/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2019/10/22
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: bamboo, paws, portrait, profile
+species: 1
+zoo: 137

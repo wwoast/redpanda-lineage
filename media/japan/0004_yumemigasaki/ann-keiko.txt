@@ -1,0 +1,53 @@
+[media]
+_id: media.4.ann-keiko
+commitdate: 2019/9/3
+panda.tags: 27, 28
+photo.1: ig://BBmxSlrtG5c/l
+photo.1.author: mariten1119
+photo.1.commitdate: 2019/9/3
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: grooming, mother's day
+photo.1.tags.27.location: 230, 335
+photo.1.tags.28.location: 660, 260
+photo.2: ig://BHLtTvNAfKe/l
+photo.2.author: tabechum
+photo.2.commitdate: 2020/5/12
+photo.2.link: https://www.instagram.com/tabechum/
+photo.2.tags: grooming, mother's day, portrait, tail
+photo.2.tags.27.location: 220, 180
+photo.2.tags.28.location: 440, 130
+photo.3: ig://BJ6pHx3jqb7/m
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/5/17
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: mother's day
+photo.3.tags.27.location: 250, 215
+photo.3.tags.28.location: 70, 100
+photo.4: ig://B64DRWWhcWT/m
+photo.4.author: mini_cochi
+photo.4.commitdate: 2020/1/30
+photo.4.link: https://www.instagram.com/mini_cochi/
+photo.4.tags: mother's day, paws
+photo.4.tags.27.location: 165, 225
+photo.4.tags.28.location: 115, 75
+photo.5: ig://B8HxpTshzh5/m
+photo.5.author: ssc6105
+photo.5.commitdate: 2020/2/7
+photo.5.link: https://www.instagram.com/ssc6105/
+photo.5.tags: bamboo, mother's day
+photo.5.tags.27.location: 220, 165
+photo.5.tags.28.location: 70, 160
+photo.6: ig://B8udUuxBhX5/l
+photo.6.author: kipekaila
+photo.6.commitdate: 2020/3/9
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: mother's day, white face
+photo.6.tags.27.location: 775, 230
+photo.6.tags.28.location: 65, 265
+photo.7: ig://CBjWLD-A2EF/m
+photo.7.author: miis_98
+photo.7.commitdate: 2020/6/25
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: laying down, mother's day, tail
+photo.7.tags.27.location: 160, 50
+photo.7.tags.28.location: 180, 265

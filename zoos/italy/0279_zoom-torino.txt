@@ -1,0 +1,15 @@
+[zoo]
+_id: 279
+commitdate: 2021/4/11
+en.address: Strada Piscina 36 10040 Cumiana, Piedmont, Italy
+en.location: Piedmont, Italy
+en.name: Zoom Torino
+flag: Italy
+it.address: Strada Piscina 36 10040 Cumiana, Piemonte, Italia
+it.location: Provincia di Verona
+it.name: Zoom Torino
+language.order: it, en
+latitude: 44.9335053
+longitude: 7.415765
+map: https://goo.gl/maps/48z2YUygKikbt1Vj9
+website: https://www.zoomtorino.it/

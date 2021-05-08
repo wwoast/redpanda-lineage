@@ -1,0 +1,55 @@
+[panda]
+_id: 413
+birthday: 2011/6/20
+birthplace: 83
+children: 412, 488, 489, 1188
+commitdate: 2018/11/23
+en.name: Moshu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 414, 415
+location.1: 83, 2011/6/20
+location.2: 90, 2012/5/14
+location.3: 191, 2019/11/17
+photo.1: ig://BgMlUomBkEN/m
+photo.1.author: nashvillezoo
+photo.1.commitdate: 2018/12/12
+photo.1.link: https://www.instagram.com/nashvillezoo/
+photo.2: ig://BkP3hdAFo2A/m
+photo.2.author: nashvillezoo
+photo.2.commitdate: 2018/11/30
+photo.2.link: https://www.instagram.com/nashvillezoo/
+photo.2.tags: smile
+photo.3: ig://B5Bh94tnsgi/m
+photo.3.author: oregonzoo
+photo.3.commitdate: 2019/11/22
+photo.3.link: https://www.instagram.com/oregonzoo/
+photo.3.tags: bamboo, portrait, profile
+photo.4: ig://B5aPXjYhNMn/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: bamboo, portrait
+photo.5: ig://CAYD1vqnH2g/m
+photo.5.author: oregonzoo
+photo.5.commitdate: 2020/6/9
+photo.5.link: https://www.instagram.com/oregonzoo/
+photo.5.tags: keeper, portrait, videolink
+photo.6: ig://CBLm8wOHbUA/m
+photo.6.author: oregonzoo
+photo.6.commitdate: 2020/6/13
+photo.6.link: https://www.instagram.com/oregonzoo/
+photo.6.tags: paws, portrait, smile, tongue
+photo.7: ig://CH1eOz7FYa2/m
+photo.7.author: oregonzoo
+photo.7.commitdate: 2020/11/28
+photo.7.link: https://www.instagram.com/oregonzoo/
+photo.7.tags: bamboo, portrait, tongue
+species: 2
+studbook.id: 1115
+zoo: 191

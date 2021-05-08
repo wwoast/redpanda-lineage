@@ -1,0 +1,31 @@
+[panda]
+_id: 928
+birthday: 2013/6/27
+birthplace: 124
+children: none
+commitdate: 2019/7/2
+death: 2020/7/27
+en.name: Meri
+en.nicknames: none
+en.othernames: Merry
+gender: f
+jp.name: メリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 927
+location.1: 124, 2013/6/27
+location.2: 125, 2014/5/21
+location.3: 194, 2018/1/11
+photo.1: ig://BtUiOk3hMKw/m
+photo.1.author: rossifari
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: bamboo, portrait, profile, tongue, white face
+photo.2: ig://CDT2BvxpaWo/m
+photo.2.author: ctbeardsleyzoo
+photo.2.commitdate: 2020/7/31
+photo.2.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.2.tags: paws, portrait, white face
+species: 1
+zoo: 194

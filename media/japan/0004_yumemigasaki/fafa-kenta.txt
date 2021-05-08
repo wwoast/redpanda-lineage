@@ -1,0 +1,18 @@
+[media]
+_id: media.4.fafa-kenta
+commitdate: 2019/9/3
+panda.tags: 26, 29
+photo.1: ig://BIbazF1AhIx/l
+photo.1.author: mariten1119
+photo.1.commitdate: 2019/9/3
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: father's day
+photo.1.tags.26.location: 140, 115
+photo.1.tags.29.location: 65, 110
+photo.2: ig://BgkNmGbFFvu/l
+photo.2.author: leonard_redmof
+photo.2.commitdate: 2021/3/21
+photo.2.link: https://www.instagram.com/leonard_redmof/
+photo.2.tags: father's day, portrait
+photo.2.tags.26.location: 310, 200
+photo.2.tags.29.location: 135, 320

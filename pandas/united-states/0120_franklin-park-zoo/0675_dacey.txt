@@ -1,0 +1,19 @@
+[panda]
+_id: 675
+birthday: 2000/6/9
+birthplace: 108
+children: 674
+commitdate: 2019/3/24
+death: 2004/9/16
+en.name: Dacey
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: デイシー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 794, 795
+species: 1
+studbook.id: 0001
+zoo: 120

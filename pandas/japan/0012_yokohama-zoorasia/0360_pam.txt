@@ -1,0 +1,21 @@
+[panda]
+_id: 360
+birthday: 1997/6/26
+birthplace: 31
+children: 361, 362, 196, 548, 310, 382, 25, 165
+commitdate: 2018/10/26
+death: 2006/3/11
+en.name: Pam
+en.nicknames: none
+en.othernames: Pamu
+gender: f
+jp.name: パム
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 589
+location.1: 31, 1997/6/26
+location.2: 12, 1999/1/22
+species: 2
+studbook.id: 97100
+zoo: 12

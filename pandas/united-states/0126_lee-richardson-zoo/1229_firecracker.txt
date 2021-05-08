@@ -1,0 +1,28 @@
+[panda]
+_id: 1229
+birthday: 1991/7/3
+birthplace: 122
+children: unknown
+commitdate: 2020/9/25
+death: 2014/11/18
+en.name: Firecracker
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 爆竹
+jp.nicknames: none
+jp.othernames: ばくちく
+language.order: en, jp
+litter: 1230
+location.1: 122, 1991/7/3
+location.2: 81, 1992/4/2
+location.3: 114, 1992/11/18
+location.4: 126, 2000/5/11
+photo.1: ig://VCt6KqykC-/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/9/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, whiskers
+species: 1
+studbook.id: 9145
+zoo: 126

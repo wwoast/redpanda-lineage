@@ -1,0 +1,25 @@
+[zoo]
+_id: 153
+commitdate: 2019/3/19
+en.address: 1545 Mesker Park Dr, Evansville, IN 47720, USA
+en.location: Evansville, Indiana, USA
+en.name: Mesker Park Zoo
+flag: USA
+language.order: en
+latitude: 37.9960526
+longitude: -87.6160525
+map: https://goo.gl/maps/PXc9L33BQgS2
+photo.1: ig://BwAmPg_BCbg/m
+photo.1.author: meskerzoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/meskerzoo/
+photo.2: ig://6qPQZmxZvb/m
+photo.2.author: meskerzoo
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/meskerzoo/
+photo.2.tags: profile
+photo.3: ig://Bm1LasPHzyo/m
+photo.3.author: kentucky_nature_wildlife_pics
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/kentucky_nature_wildlife_pics/
+website: https://www.meskerparkzoo.com/

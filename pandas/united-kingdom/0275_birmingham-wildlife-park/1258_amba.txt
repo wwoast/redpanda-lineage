@@ -1,0 +1,29 @@
+[panda]
+_id: 1258
+birthday: 2011/6/19
+birthplace: 197
+children: 1257, 1260, 1261, 1262
+commitdate: 2021/4/7
+death: 2021/1/3
+en.name: Amba
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アンバ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 197, 2011/6/19
+location.2: 275, 2012/4/17
+photo.1: https://www.codaworry.com/images/rpf/amba-1-birmingham.jpg
+photo.1.author: Birmingham Wildlife Conservation Park
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.facebook.com/bhamwildlifeconservationpark/photos/a.909971245697993/4056535771041509/
+photo.1.tags: laying down, paws, portrait, smile, tail, white face
+photo.2: https://www.codaworry.com/images/rpf/amba-2-birmingham.jpg
+photo.2.author: Birmingham Wildlife Conservation Park
+photo.2.commitdate: 2021/4/7
+photo.2.link: https://www.facebook.com/bhamwildlifeconservationpark/photos/a.909971245697993/4056535771041509/
+photo.2.tags: portrait, snow, tail, white face, wink
+species: 1
+zoo: 275

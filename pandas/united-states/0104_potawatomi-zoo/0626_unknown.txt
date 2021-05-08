@@ -1,0 +1,21 @@
+[panda]
+_id: 626
+birthday: 2013/6/19
+birthplace: 122
+children: none
+commitdate: 2019/3/19
+death: 2014/1/6
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 122, 2013/6/19
+location.2: 104, 2014/1/6
+species: 1
+studbook.id: 1331
+zoo: 104

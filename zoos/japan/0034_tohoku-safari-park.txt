@@ -1,0 +1,24 @@
+[zoo]
+_id: 34
+commitdate: 2018/6/23
+en.address: 1 Sawamatsukura, Nihonmatsu-shi, Fukushima-ken 964-0088, Japan
+en.location: Nihonmatsu, Fukushima Prefecture, Japan
+en.name: Tohoku Safari Park
+flag: Japan
+jp.address: 〒964-0088 福島県二本松市沢松倉1
+jp.location: 二本松市 福島県
+jp.name: 東北サファリパーク
+language.order: jp, en
+latitude: 37.6410782
+longitude: 140.3484296
+map: https://goo.gl/maps/TQwcwc8PpyL2
+photo.1: ig://BiSxzP1A9I0/m
+photo.1.author: mayubato
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/mayubato/
+photo.2: ig://B7SXDUWBbEw/m
+photo.2.author: miis_98
+photo.2.commitdate: 2020/4/1
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: profile
+website: http://tohoku-safaripark.co.jp/

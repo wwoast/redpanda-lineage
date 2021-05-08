@@ -1,0 +1,48 @@
+[panda]
+_id: 414
+birthday: 2011/6/20
+birthplace: 83
+children: none
+commitdate: 2018/11/23
+en.name: Xia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 413, 415
+location.1: 83, 2011/6/20
+location.2: 91, 2012/8/6
+photo.1: ig://BoN0PUVBY9v/m
+photo.1.author: rossifari
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: sleeping
+photo.2: ig://BUvM4B5BNI7/m
+photo.2.author: bakajsab
+photo.2.commitdate: 2018/11/23
+photo.2.link: https://www.instagram.com/bakajsab/
+photo.2.tags: bamboo, portrait
+photo.3: ig://BUvM_RxhB-3/m
+photo.3.author: bakajsab
+photo.3.commitdate: 2018/11/23
+photo.3.link: https://www.instagram.com/bakajsab/
+photo.3.tags: laying down, portrait, smile
+photo.4: ig://BBtX6XsykJM/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2018/11/24
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: portrait, smile
+photo.5: ig://BBtYBW6ykJX/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2018/11/24
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, profile
+species: 2
+studbook.id: 1117
+video.1: https://www.youtube.com/watch?v=xHwUOUE-xEU
+video.1.author: CBS Pittsburgh
+video.1.link: https://www.youtube.com/channel/UCOEvClYLRZcT5bNCCI5eMKg
+zoo: 91

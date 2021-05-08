@@ -1,0 +1,26 @@
+[panda]
+_id: 682
+birthday: 2013/7/14
+birthplace: 150
+children: none
+cn.name: 宝
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/3/24
+en.name: Bao
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Bao
+hu.nicknames: none
+hu.othernames: none
+jp.name: バオ
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en, jp
+litter: 582
+location.1: 150, 2013/7/14
+location.2: 172, 2014/7/30
+species: 1
+studbook.id: 13127
+zoo: 172

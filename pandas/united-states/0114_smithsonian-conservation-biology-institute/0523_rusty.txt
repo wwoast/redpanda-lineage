@@ -1,0 +1,26 @@
+[panda]
+_id: 523
+birthday: 2012/7/11
+birthplace: 80
+children: 871, 872, 873
+commitdate: 2019/2/24
+en.name: Rusty
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラスティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 497
+location.1: 80, 2012/7/11
+location.2: 49, 2013/4/29
+location.3: 114, 2014/1/29
+photo.1: ig://Bonn_lzhNCx/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/3/3
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: home, profile, tail
+species: 1
+studbook.id: 1235
+zoo: 114

@@ -1,0 +1,25 @@
+[zoo]
+_id: 51
+commitdate: 2018/7/13
+en.address: 210 St. George's Drive NE, Calgary, AB T2E 7V6, Canada
+en.location: Calgary, Alberta, Canada
+en.name: Calgary Zoo
+flag: Canada
+language.order: en
+latitude: 51.0459038
+longitude: -114.0258625
+map: https://goo.gl/maps/gXaumYRHucJ2
+photo.1: ig://7q3sBBGtnG/m
+photo.1.author: thecalgaryzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/thecalgaryzoo/
+photo.2: ig://B2xrtqCpUEX/m
+photo.2.author: saikrisnow
+photo.2.commitdate: 2019/10/25
+photo.2.link: https://www.instagram.com/saikrisnow/
+photo.2.tags: profile
+photo.3: ig://B5gBH4DJgom/m
+photo.3.author: xsaikomaikox
+photo.3.commitdate: 2020/1/17
+photo.3.link: https://www.instagram.com/xsaikomaikox/
+website: https://www.calgaryzoo.com/

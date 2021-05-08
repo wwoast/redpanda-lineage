@@ -1,0 +1,106 @@
+[panda]
+_id: 287
+birthday: 2005/6/21
+birthplace: 17
+children: none
+commitdate: 2018/8/3
+en.name: Hana
+en.nicknames: none
+en.oldnames: Himawari
+en.othernames: none
+gender: f
+jp.name: ハナ
+jp.nicknames: none
+jp.oldnames: ヒマワリ
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 17, 2005/6/21
+location.2: 63, 2007/4/24
+photo.1: ig://BjrntuzglWv/m
+photo.1.author: mikaamihara
+photo.1.commitdate: 2018/9/2
+photo.1.link: https://www.instagram.com/mikaamihara/
+photo.1.tags: smile
+photo.2: ig://BkQ2EYalXB_/m
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2018/9/2
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.3: ig://BkSEe8PAn5W/m
+photo.3.author: mikaamihara
+photo.3.commitdate: 2018/9/2
+photo.3.link: https://www.instagram.com/mikaamihara/
+photo.3.tags: portrait
+photo.4: ig://BliEO6fFyAT/m
+photo.4.author: mikaamihara
+photo.4.commitdate: 2018/9/2
+photo.4.link: https://www.instagram.com/mikaamihara/
+photo.4.tags: blink, laying down
+photo.5: ig://BnLwTXFFO6N/m
+photo.5.author: mikaamihara
+photo.5.commitdate: 2018/9/2
+photo.5.link: https://www.instagram.com/mikaamihara/
+photo.5.tags: profile, sleeping
+photo.6: ig://ByAYJe4Bw6e/m
+photo.6.author: mikaamihara
+photo.6.commitdate: 2019/5/31
+photo.6.link: https://www.instagram.com/mikaamihara/
+photo.6.tags: portrait, tree
+photo.7: ig://ByL0eKLh0UW/m
+photo.7.author: rie_panda55
+photo.7.commitdate: 2019/6/2
+photo.7.link: https://www.instagram.com/rie_panda55/
+photo.7.tags: home, keeper
+photo.8: ig://BzMklioho00/m
+photo.8.author: mikaamihara
+photo.8.commitdate: 2019/6/28
+photo.8.link: https://www.instagram.com/mikaamihara/
+photo.8.tags: laying down, portrait, sleeping, tree
+photo.9: ig://B2tmfSBB_L_/m
+photo.9.author: jas_forever_love
+photo.9.commitdate: 2019/9/23
+photo.9.link: https://www.instagram.com/jas_forever_love/
+photo.9.tags: home, laying down, portrait
+photo.10: ig://B2wQgCPBapC/m
+photo.10.author: apple_jasmine33
+photo.10.commitdate: 2019/9/26
+photo.10.link: https://www.instagram.com/apple_jasmine33/
+photo.10.tags: home, itchy
+photo.11: ig://B4uTZT7hITX/m
+photo.11.author: framereim
+photo.11.commitdate: 2019/12/5
+photo.11.link: https://www.instagram.com/framereim/
+photo.11.tags: blink, dish, home, keeper, lunch time, portrait
+photo.12: ig://B4ufDFJBiue/m
+photo.12.author: hamiiiii831_
+photo.12.commitdate: 2019/11/15
+photo.12.link: https://www.instagram.com/hamiiiii831_/
+photo.12.tags: home, paws, portrait, whiskers
+photo.13: ig://B53vHIeBC6M/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/12/31
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: keeper, lunch time, techitechi
+photo.14: ig://B7WAishpcER/m
+photo.14.author: mochan8686
+photo.14.commitdate: 2020/1/16
+photo.14.link: https://www.instagram.com/mochan8686/
+photo.14.tags: home, lunch time, paws, portrait, tongue
+photo.15: ig://B8bTuIrhX1i/m
+photo.15.author: merumeru119
+photo.15.commitdate: 2020/5/5
+photo.15.link: https://www.instagram.com/merumeru119/
+photo.15.tags: laying down, sleeping, tail
+photo.16: ig://CB8BCvRnNpL/m
+photo.16.author: mochan8686
+photo.16.commitdate: 2020/7/2
+photo.16.link: https://www.instagram.com/mochan8686/
+photo.16.tags: portrait, techitechi, whiskers
+photo.17: ig://CG6WvFsBo4p/m
+photo.17.author: merumeru119
+photo.17.commitdate: 2020/11/1
+photo.17.link: https://www.instagram.com/merumeru119/
+photo.17.tags: bamboo, blink, home, portrait
+species: 2
+studbook.id: 0551
+zoo: 63

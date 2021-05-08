@@ -1,0 +1,21 @@
+[panda]
+_id: 476
+birthday: 2000/7/4
+birthplace: 6
+children: 312, 442, 383, 443, 441
+commitdate: 2018/12/4
+death: 2013/12/3
+en.name: Lala
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ララ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 81
+location.1: 6, 2000/7/4
+location.2: 82, 2004/6/21
+species: 2
+studbook.id: 0097
+zoo: 82

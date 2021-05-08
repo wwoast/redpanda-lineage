@@ -1,0 +1,65 @@
+[panda]
+_id: 291
+birthday: 2006/6/20
+birthplace: 10
+children: 292, 289
+commitdate: 2018/8/3
+en.name: Airi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アイリ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 54, 487
+location.1: 10, 2006/6/20
+location.2: 64, 2007/7/18
+photo.1: ig://BUyjgP1BUr3/m
+photo.1.author: miis_98
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: bamboo, smile
+photo.2: ig://BVht6nDAkz5/m
+photo.2.author: panda.daisuki
+photo.2.commitdate: 2019/6/21
+photo.2.link: https://www.instagram.com/panda.daisuki/
+photo.2.tags: portrait
+photo.3: ig://BkP7vbjllZL/m
+photo.3.author: panda.daisuki
+photo.3.commitdate: 2018/9/8
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: lunch time
+photo.4: ig://BlnN5ArFEbH/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2018/9/8
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: bamboo, profile
+photo.5: ig://B7zWkoohdE9/m
+photo.5.author: grskus_tk
+photo.5.commitdate: 2020/1/28
+photo.5.link: https://www.instagram.com/grskus_tk/
+photo.5.tags: bamboo, dish, paws, portrait
+photo.6: ig://B76ER0RBzJJ/m
+photo.6.author: grskus_tk
+photo.6.commitdate: 2020/2/3
+photo.6.link: https://www.instagram.com/grskus_tk/
+photo.6.tags: peek, portrait
+photo.7: ig://B-8a9t_hqv3/m
+photo.7.author: grskus_tk
+photo.7.commitdate: 2020/5/2
+photo.7.link: https://www.instagram.com/grskus_tk/
+photo.7.tags: lunch time, portrait
+photo.8: ig://B_ybN-Lp4VJ/m
+photo.8.author: kipekaila
+photo.8.commitdate: 2020/5/5
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: bamboo, bite, portrait
+photo.9: ig://CBn5fMMBv1X/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2020/6/24
+photo.9.link: https://www.instagram.com/panda.daisuki
+photo.9.tags: portrait
+species: 2
+studbook.id: 0669
+zoo: 64

@@ -1,0 +1,29 @@
+[panda]
+_id: 1017
+birthday: 2017/6/27
+birthplace: 174
+children: none
+commitdate: 2019/11/4
+en.name: Koda
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1018
+location.1: 174, 2017/6/27
+location.2: 211, 2018/9/14
+photo.1: ig://B4AiMZEF7UD/m
+photo.1.author: longleatofficial
+photo.1.commitdate: 2019/11/4
+photo.1.link: https://www.instagram.com/longleatofficial/
+photo.1.tags: smile, tongue, whiskers
+photo.2: ig://B1l7vIjl8Ap/m
+photo.2.author: longleatofficial
+photo.2.commitdate: 2019/11/4
+photo.2.link: https://www.instagram.com/longleatofficial/
+photo.2.tags: portrait, profile, whiskers
+species: 1
+zoo: 211

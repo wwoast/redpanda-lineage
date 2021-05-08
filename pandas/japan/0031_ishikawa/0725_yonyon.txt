@@ -1,0 +1,21 @@
+[panda]
+_id: 725
+birthday: 1994/7/13
+birthplace: 6
+children: 349, 615, 360, 589
+commitdate: 2019/3/27
+death: 2007/4/19
+en.name: Yon-Yon
+en.nicknames: none
+en.othernames: Yonyon
+gender: m
+jp.name: ヨニヨン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 6, 1994/7/13
+location.2: 31, 1995/7/8
+species: 2
+studbook.id: 9498
+zoo: 31

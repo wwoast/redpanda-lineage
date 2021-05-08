@@ -1,0 +1,193 @@
+[panda]
+_id: 110
+birthday: 2014/6/26
+birthplace: 35
+children: none
+commitdate: 2018/6/24
+en.name: Anko
+en.nicknames: Red-Bean
+en.othernames: none
+gender: f
+jp.name: あんこ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 141
+photo.1: ig://Bidf7MxgAm7/m
+photo.1.author: tabechum
+photo.1.commitdate: 2020/4/9
+photo.1.link: https://www.instagram.com/tabechum/
+photo.1.tags: paws, portrait, smile, tail
+photo.2: ig://BidiAGXHVVu/m
+photo.2.author: tabechum
+photo.2.commitdate: 2020/4/9
+photo.2.link: https://www.instagram.com/tabechum/
+photo.2.tags: paws, portrait, smile
+photo.3: ig://BigG1UHlgsd/m
+photo.3.author: tabechum
+photo.3.commitdate: 2020/4/9
+photo.3.link: https://www.instagram.com/tabechum/
+photo.3.tags: bite, lunch time, portrait
+photo.4: ig://Biii6mSlNfs/m
+photo.4.author: tabechum
+photo.4.commitdate: 2020/4/9
+photo.4.link: https://www.instagram.com/tabechum/
+photo.4.tags: lunch time, paws, tail
+photo.5: ig://BjD4Iv6lwj4/m
+photo.5.author: tabechum
+photo.5.commitdate: 2020/4/9
+photo.5.link: https://www.instagram.com/tabechum/
+photo.5.tags: nose, paws, portrait, whiskers
+photo.6: ig://BjJRROsFWHV/m
+photo.6.author: tabechum
+photo.6.commitdate: 2018/7/25
+photo.6.link: https://www.instagram.com/tabechum/
+photo.6.tags: apple time, bamboo, peek, smile, whiskers
+photo.7: ig://BkPqyzzlNsV/m
+photo.7.author: love__mitarashi
+photo.7.commitdate: 2018/7/25
+photo.7.link: https://www.instagram.com/love__mitarashi/
+photo.7.tags: bamboo
+photo.8: ig://BkyPphzlksW/m
+photo.8.author: love__mitarashi
+photo.8.commitdate: 2018/7/25
+photo.8.link: https://www.instagram.com/love__mitarashi/
+photo.8.tags: bamboo, tail
+photo.9: ig://BnpIFRxlJxg/m
+photo.9.author: kisshan324
+photo.9.commitdate: 2018/9/13
+photo.9.link: https://www.instagram.com/kisshan324/
+photo.9.tags: home
+photo.10: ig://BpAqzBUlEGD/m
+photo.10.author: love__mitarashi
+photo.10.commitdate: 2018/10/16
+photo.10.link: https://www.instagram.com/love__mitarashi/
+photo.10.tags: profile
+photo.11: ig://BqJj3ASF1AW/m
+photo.11.author: love__mitarashi
+photo.11.commitdate: 2018/11/14
+photo.11.link: https://www.instagram.com/love__mitarashi/
+photo.11.tags: smile
+photo.12: ig://BrNOH0JlPw7/m
+photo.12.author: love__mitarashi
+photo.12.commitdate: 2018/12/10
+photo.12.link: https://www.instagram.com/love__mitarashi/
+photo.12.tags: laying down
+photo.13: ig://BsLe-WeFC4O/m
+photo.13.author: cabbage_biyori
+photo.13.commitdate: 2019/1/3
+photo.13.link: https://www.instagram.com/cabbage_biyori/
+photo.13.tags: smile
+photo.14: ig://Bs-bZNDl0gJ/m
+photo.14.author: love__mitarashi
+photo.14.commitdate: 2019/1/26
+photo.14.link: https://www.instagram.com/love__mitarashi/
+photo.14.tags: paws
+photo.15: ig://BtNRL0blsnG/m
+photo.15.author: love__mitarashi
+photo.15.commitdate: 2019/1/30
+photo.15.link: https://www.instagram.com/love__mitarashi/
+photo.15.tags: bamboo, smile
+photo.16: ig://Bu8sVekFo9q/m
+photo.16.author: peek_a_boo00
+photo.16.commitdate: 2019/3/17
+photo.16.link: https://www.instagram.com/peek_a_boo00/
+photo.16.tags: home, paws, portrait, standing, tail
+photo.17: ig://BxFH5Ztl4bd/m
+photo.17.author: daniele.tokyo
+photo.17.commitdate: 2019/5/5
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: smile, tongue
+photo.18: ig://By2Xa6OhzLA/m
+photo.18.author: daniele.tokyo
+photo.18.commitdate: 2019/6/19
+photo.18.link: https://www.instagram.com/daniele.tokyo/
+photo.18.tags: ear, home, laying down, portrait, tail
+photo.19: ig://B0qIXMfh-UT/m
+photo.19.author: daniele.tokyo
+photo.19.commitdate: 2019/8/10
+photo.19.link: https://www.instagram.com/daniele.tokyo/
+photo.19.tags: paws, smile
+photo.20: ig://B1DneCFB_9v/m
+photo.20.author: redpanda_nippon_takashi
+photo.20.commitdate: 2019/8/13
+photo.20.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.20.tags: climb, paws, standing
+photo.21: ig://B1vxdLJBUBt/m
+photo.21.author: apple_jasmine33
+photo.21.commitdate: 2019/8/29
+photo.21.link: https://www.instagram.com/apple_jasmine33/
+photo.21.tags: climb, paws
+photo.22: ig://B1226TRBDz5/m
+photo.22.author: love__mitarashi
+photo.22.commitdate: 2019/9/2
+photo.22.link: https://www.instagram.com/love__mitarashi/
+photo.22.tags: bamboo, paws
+photo.23: ig://B2WivSZhN1j/m
+photo.23.author: love__mitarashi
+photo.23.commitdate: 2019/9/14
+photo.23.link: https://www.instagram.com/love__mitarashi/
+photo.23.tags: smile, standing
+photo.24: ig://B2Y264Ah7_P/m
+photo.24.author: love__mitarashi
+photo.24.commitdate: 2019/9/16
+photo.24.link: https://www.instagram.com/love__mitarashi/
+photo.24.tags: portrait
+photo.25: ig://B39ZbcUBDZ1/m
+photo.25.author: love__mitarashi
+photo.25.commitdate: 2019/10/23
+photo.25.link: https://www.instagram.com/love__mitarashi/
+photo.25.tags: home, portrait
+photo.26: ig://B7nF7yqhJDb/m
+photo.26.author: love__mitarashi
+photo.26.commitdate: 2020/1/23
+photo.26.link: https://www.instagram.com/love__mitarashi/
+photo.26.tags: apple time, bamboo, home, smile, tail, whiskers
+photo.27: ig://B8f4kexh6IX/m
+photo.27.author: love__mitarashi
+photo.27.commitdate: 2020/2/17
+photo.27.link: https://www.instagram.com/love__mitarashi/
+photo.27.tags: whiskers
+photo.28: ig://B8tVKDjBhj9/m
+photo.28.author: love__mitarashi
+photo.28.commitdate: 2020/2/28
+photo.28.link: https://www.instagram.com/love__mitarashi/
+photo.28.tags: portrait, tongue
+photo.29: ig://B9dhUPnBkju/m
+photo.29.author: love__mitarashi
+photo.29.commitdate: 2020/3/12
+photo.29.link: https://www.instagram.com/love__mitarashi/
+photo.29.tags: portrait, tail
+photo.30: ig://B9l5MNrh2fN/m
+photo.30.author: love__mitarashi
+photo.30.commitdate: 2020/3/12
+photo.30.link: https://www.instagram.com/love__mitarashi/
+photo.30.tags: peek, portrait, whiskers
+photo.31: ig://B92mYBZhIqK/m
+photo.31.author: miis_98
+photo.31.commitdate: 2020/3/18
+photo.31.link: https://www.instagram.com/miis_98/
+photo.31.tags: paws, portrait, tail
+photo.32: ig://B_GPUDFB2WE/m
+photo.32.author: love__mitarashi
+photo.32.commitdate: 2020/4/19
+photo.32.link: https://www.instagram.com/love__mitarashi/
+photo.32.tags: bamboo, home, paws, portrait
+photo.33: ig://B_9V-LtHTpo/m
+photo.33.author: love__mitarashi
+photo.33.commitdate: 2020/5/17
+photo.33.link: https://www.instagram.com/love__mitarashi/
+photo.33.tags: home, paws
+photo.34: ig://CEGfGvMB6U0/m
+photo.34.author: love__mitarashi
+photo.34.commitdate: 2020/8/23
+photo.34.link: https://www.instagram.com/love__mitarashi/
+photo.34.tags: home, laying down, paws
+photo.35: ig://CERZYRkBH5U/m
+photo.35.author: love__mitarashi
+photo.35.commitdate: 2020/9/7
+photo.35.link: https://www.instagram.com/love__mitarashi/
+photo.35.tags: home, paws, peek, portrait
+species: 2
+studbook.id: 14146
+zoo: 35

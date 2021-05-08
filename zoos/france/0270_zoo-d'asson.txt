@@ -1,0 +1,15 @@
+[zoo]
+_id: 270
+commitdate: 2020/8/2
+en.address: 6 Chemin de Brouquet, 64800 Asson, France
+en.location: Asson, France
+en.name: Zoo d'Asson
+flag: France
+fr.address: 6 Chemin de Brouquet, 64800 Asson, France
+fr.location: Asson, France
+fr.name: Zoo d'Asson
+language.order: fr, en
+latitude: 43.1287655
+longitude: -0.2706655
+map: https://goo.gl/maps/dtB6t6qmWf1e8Hid8
+website: http://www.zoo-asson.org/

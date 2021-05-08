@@ -1,0 +1,20 @@
+[panda]
+_id: 431
+birthday: 2013/7/1
+birthplace: 94
+children: 1252, 1253
+commitdate: 2018/11/23
+en.name: Zorro
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ゾロ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 430, 445
+location.1: 94, 2013/7/1
+location.2: 76, 2014/10/15
+species: 2
+studbook.id: 11129
+zoo: 76

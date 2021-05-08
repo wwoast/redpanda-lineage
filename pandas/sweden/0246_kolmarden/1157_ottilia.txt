@@ -1,0 +1,25 @@
+[panda]
+_id: 1157
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/5/6
+en.name: Ottilia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: オッティリア
+jp.nicknames: none
+jp.othernames: none
+language.order: se, en, jp
+litter: unknown
+photo.1: ig://B9RL-06J7Hz/m
+photo.1.author: kolmardensdjurpark
+photo.1.commitdate: 2020/5/6
+photo.1.link: https://www.instagram.com/kolmardensdjurpark/
+photo.1.tags: profile
+se.name: Ottilia
+se.nicknames: none
+se.othernames: none
+species: 1
+zoo: 246

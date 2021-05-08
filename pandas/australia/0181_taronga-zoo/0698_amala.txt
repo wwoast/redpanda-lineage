@@ -1,0 +1,22 @@
+[panda]
+_id: 698
+birthday: 2013/6/17
+birthplace: 48
+children: 699, 982, 983, 984
+commitdate: 2019/3/25
+en.name: Amala
+en.nicknames: none
+en.oldnames: Ellie
+en.othernames: none
+gender: f
+jp.name: アマラ
+jp.nicknames: none
+jp.oldnames: エリー
+jp.othernames: none
+language.order: en, jp
+litter: 584
+location.1: 48, 2013/6/17
+location.2: 181, 2014/9/23
+species: 1
+studbook.id: 1323
+zoo: 181

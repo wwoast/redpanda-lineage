@@ -1,0 +1,25 @@
+[media]
+_id: media.8.lime-mii
+commitdate: 2019/11/24
+panda.tags: 38, 41
+photo.1: ig://B454D4Ih0ms/m
+photo.1.author: ifumoto88
+photo.1.commitdate: 2019/11/24
+photo.1.link: https://www.instagram.com/ifumoto88/
+photo.1.tags: apple time, couple, keeper
+photo.1.tags.38.location: 150, 155
+photo.1.tags.41.location: 240, 60
+photo.2: ig://B7Xh7juBuTl/m
+photo.2.author: alto0908
+photo.2.commitdate: 2020/1/17
+photo.2.link: https://www.instagram.com/alto0908/
+photo.2.tags: couple
+photo.2.tags.38.location: 180, 170
+photo.2.tags.41.location: 55, 140
+photo.3: ig://CJizXfzBFww/l
+photo.3.author: alto0908
+photo.3.commitdate: 2021/1/8
+photo.3.link: https://www.instagram.com/alto0908/
+photo.3.tags: couple, portrait, whiskers
+photo.3.tags.38.location: 155, 215
+photo.3.tags.41.location: 325, 170

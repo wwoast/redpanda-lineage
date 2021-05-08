@@ -1,0 +1,21 @@
+[panda]
+_id: 1136
+birthday: 2006/6/15
+birthplace: 141
+children: none
+commitdate: 2020/3/20
+death: 2013/1/26
+en.name: Cayanne
+en.nicknames: none
+en.othernames: Cayenne
+gender: f
+jp.name: カイエン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1137
+location.1: 141, 2006/6/15
+location.2: 186, 2007/4/18
+location.3: 166, 2008/5/22
+species: 1
+zoo: 166

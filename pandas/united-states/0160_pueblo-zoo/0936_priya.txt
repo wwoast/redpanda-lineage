@@ -1,0 +1,57 @@
+[panda]
+_id: 936
+birthday: 2018/6/29
+birthplace: 120
+children: none
+commitdate: 2019/7/14
+en.name: Priya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: プリヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 120, 2018/6/29
+location.2: 160, 2019/7/1
+photo.1: ig://BomlkzWhC3Y/m
+photo.1.author: toxicsoul666
+photo.1.commitdate: 2019/8/2
+photo.1.link: https://www.instagram.com/toxicsoul666/
+photo.1.tags: baby, laying down, portrait, sleeping
+photo.2: ig://BvrkOKTAl1C/m
+photo.2.author: zoonewengland
+photo.2.commitdate: 2020/1/25
+photo.2.link: https://www.instagram.com/zoonewengland/
+photo.2.tags: portrait, whiskers
+photo.3: ig://B1RpOW5HzVc/m
+photo.3.author: keepermerlo
+photo.3.commitdate: 2020/1/23
+photo.3.link: https://www.instagram.com/keepermerlo/
+photo.3.tags: bamboo, paws, portrait, white face
+photo.4: ig://B5i_mOEA3im/m
+photo.4.author: keepermerlo
+photo.4.commitdate: 2020/1/23
+photo.4.link: https://www.instagram.com/pueblozoo/
+photo.4.tags: portrait, profile, smile, tongue
+photo.5: ig://B6JV3heHr5m/m
+photo.5.author: keepermerlo
+photo.5.commitdate: 2020/2/11
+photo.5.link: https://www.instagram.com/keepermerlo/
+photo.5.tags: art, keeper, portrait
+photo.6: ig://B-gEBQCHkxf/m
+photo.6.author: keepermerlo
+photo.6.commitdate: 2020/5/9
+photo.6.link: https://www.instagram.com/keepermerlo/
+photo.6.tags: art, standing
+photo.7: ig://CBEon7UHHO1/m
+photo.7.author: keepermerlo
+photo.7.commitdate: 2020/6/22
+photo.7.link: https://www.instagram.com/keepermerlo/
+photo.7.tags: paws, toys
+species: 1
+video.1: https://youtu.be/SJLzs0xck_Y
+video.1.author: Zoo New England
+video.1.link: https://www.youtube.com/channel/UCdfgDIchbgzZ0cgxZek7ijw
+zoo: 160

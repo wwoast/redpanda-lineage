@@ -1,0 +1,38 @@
+[panda]
+_id: 481
+birthday: 2015/8/24
+birthplace: 82
+children: 484, 1079, 1080
+commitdate: 2018/12/8
+en.name: Willow
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ウィロー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 434
+location.1: 82, 2015/8/24
+location.2: 84, 2016/9/22
+photo.1: ig://B2rF3YlgnMS/m
+photo.1.author: prospectparkzoo
+photo.1.commitdate: 2020/1/17
+photo.1.link: https://www.instagram.com/prospectparkzoo/
+photo.1.tags: air tasting, bamboo, tongue, whiskers
+photo.2: ig://B45ZENnpxzv/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/1/17
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: autumn, bamboo, portrait, smile, tail, tongue
+photo.3: ig://B53BbGpBgxZ/m
+photo.3.author: prospectparkzoo
+photo.3.commitdate: 2020/1/17
+photo.3.link: https://www.instagram.com/prospectparkzoo/
+photo.3.tags: laying down, snow, tail, tree
+species: 2
+studbook.id: 15116
+video.1: https://youtu.be/Ddz3Cxghz6E
+video.1.author: Animal Planet
+video.1.link: https://www.youtube.com/channel/UCkEBDbzLyH-LbB2FgMoSMaQ
+zoo: 84

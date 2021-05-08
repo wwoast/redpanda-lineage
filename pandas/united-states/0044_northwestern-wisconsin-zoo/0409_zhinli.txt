@@ -1,0 +1,31 @@
+[panda]
+_id: 409
+birthday: 2013/6/18
+birthplace: 89
+children: none
+commitdate: 2018/11/23
+death: 2016/1/20
+en.name: Zhin-Li
+en.nicknames: none
+en.othernames: Zhinli
+gender: m
+jp.name: ジンリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 89, 2013/6/18
+location.2: 44, 2014/11/12
+photo.1: https://www.codaworry.com/images/rpf/zhin-li-binghamton.jpg
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.1.tags: baby
+photo.2: https://www.codaworry.com/images/rpf/zhin-li-binghamton-2.jpg
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.2.tags: baby, profile
+species: 2
+studbook.id: 1327
+zoo: 44

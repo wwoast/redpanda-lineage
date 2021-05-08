@@ -1,0 +1,21 @@
+[panda]
+_id: 217
+birthday: 2006/6/5
+birthplace: 18
+children: 61
+commitdate: 2018/7/26
+death: 2016/10/6
+en.name: Aya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 彩
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 139
+location.1: 18, 2006/6/5
+location.2: 57, 2007/12/11
+species: 2
+studbook.id: 0665
+zoo: 57

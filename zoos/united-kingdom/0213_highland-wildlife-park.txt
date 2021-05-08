@@ -1,0 +1,26 @@
+[zoo]
+_id: 213
+commitdate: 2019/11/1
+en.address: Kingussie PH21 1NL, United Kingdom
+en.location: Kincraig, Kingussie, UK
+en.name: Highland Wildlife Park
+en.othernames: RZSS Highland Wildlife Park
+flag: UK
+language.order: en
+latitude: 57.107387
+longitude: -3.975564
+map: https://goo.gl/maps/KvuR8LteYU21mHPj6
+photo.1: ig://B1J5Ay-An05/m
+photo.1.author: alysonhouston
+photo.1.commitdate: 2019/11/1
+photo.1.link: https://www.instagram.com/alysonhouston/
+photo.1.tags: profile
+photo.2: ig://B0BhbcdDo7M/m
+photo.2.author: rzssofficial
+photo.2.commitdate: 2019/11/1
+photo.2.link: https://www.instagram.com/rzssofficial/
+photo.3: ig://Bxc4d_cn-u3/m
+photo.3.author: alysonhouston
+photo.3.commitdate: 2019/11/1
+photo.3.link: https://www.instagram.com/alysonhouston/
+website: https://www.highlandwildlifepark.org.uk/animals-attractions/animals/red-panda/

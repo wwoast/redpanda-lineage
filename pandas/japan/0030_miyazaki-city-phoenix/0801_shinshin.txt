@@ -1,0 +1,23 @@
+[panda]
+_id: 801
+birthday: 2003/7/15
+birthplace: 6
+children: none
+commitdate: 2019/4/5
+death: 2013/4/7
+en.name: Shin-Shin
+en.nicknames: none
+en.othernames: Shinshin
+gender: m
+jp.name: シンシン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 202, 452
+location.1: 6, 2003/7/15
+location.2: 17, 2008/5/28
+location.3: 52, 2009/10/20
+location.4: 30, 2012/12/11
+species: 2
+studbook.id: 0372
+zoo: 30

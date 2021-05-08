@@ -1,0 +1,100 @@
+[panda]
+_id: 300
+birthday: 2014/7/6
+birthplace: 33
+children: none
+commitdate: 2018/8/3
+en.name: Ichiro
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 一路
+jp.nicknames: none
+jp.othernames: イチロウ
+language.order: jp, en
+litter: 587
+photo.1: ig://BUEca41AoaZ/m
+photo.1.author: monmon_redpanda
+photo.1.commitdate: 2020/3/11
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: smile, whiskers
+photo.2: ig://BYQcTfOFfFO/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: smile, tail
+photo.3: ig://BoTsPNuFeVX/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/9/30
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.4: ig://BoWTu4zF8cJ/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/9/30
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: profile
+photo.5: ig://BpGAC8rlSFb/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2018/10/19
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: tail
+photo.6: ig://BpGAMbNFuv3/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2018/10/19
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.7: ig://BthySMll7Z2/m
+photo.7.author: nakayamanoboru6981
+photo.7.commitdate: 2019/2/19
+photo.7.link: https://www.instagram.com/nakayamanoboru6981/
+photo.7.tags: tongue
+photo.8: ig://BweVvxAF3zv/m
+photo.8.author: craig_craig_craig
+photo.8.commitdate: 2019/5/10
+photo.8.link: https://www.instagram.com/craig_craig_craig/
+photo.8.tags: paws
+photo.9: ig://BwmeMvwl46f/m
+photo.9.author: craig_craig_craig
+photo.9.commitdate: 2019/5/10
+photo.9.link: https://www.instagram.com/craig_craig_craig/
+photo.10: ig://B1_B5apBflH/m
+photo.10.author: ssc6105
+photo.10.commitdate: 2019/9/5
+photo.10.link: https://www.instagram.com/ssc6105/
+photo.10.tags: air tasting, portrait, tongue
+photo.11: ig://B2GtUmDBhUD/m
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2019/9/9
+photo.11.link: https://www.instagram.com/fetorus_mami/
+photo.11.tags: paws, smile
+photo.12: ig://B2T9RtJHyw1/m
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2019/9/13
+photo.12.link: https://www.instagram.com/fetorus_mami/
+photo.12.tags: portrait, smile
+photo.13: ig://B3zJa5RBOd_/m
+photo.13.author: ssc6105
+photo.13.commitdate: 2019/10/22
+photo.13.link: https://www.instagram.com/ssc6105/
+photo.13.tags: portrait, smile
+photo.14: ig://B8R9O8khxzd/m
+photo.14.author: ssc6105
+photo.14.commitdate: 2020/2/11
+photo.14.link: https://www.instagram.com/ssc6105/
+photo.14.tags: paws, smile
+photo.15: ig://B_W7Sj6HbbB/m
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2020/5/2
+photo.15.link: https://www.instagram.com/fetorus_mami/
+photo.15.tags: grooming
+photo.16: ig://CGw2oNkhbwi/m
+photo.16.author: ssc6105
+photo.16.commitdate: 2020/10/25
+photo.16.link: https://www.instagram.com/ssc6105/
+photo.16.tags: laying down, paws, whiskers
+photo.17: ig://CG2dHwdhYJE/m
+photo.17.author: rie_panda55
+photo.17.commitdate: 2020/10/27
+photo.17.link: https://www.instagram.com/rie_panda55/
+photo.17.tags: bamboo, paws, portrait
+species: 2
+studbook.id: 14156
+zoo: 33

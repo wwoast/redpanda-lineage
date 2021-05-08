@@ -1,0 +1,30 @@
+[panda]
+_id: 487
+birthday: 2006/6/20
+birthplace: 10
+children: 133, 32, 366
+commitdate: 2018/12/11
+death: 2010/4/19
+en.name: Tsubasa
+en.nicknames: none
+en.othernames: Tubasa
+gender: m
+jp.name: ツバサ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 54, 291
+location.1: 10, 2006/6/20
+location.2: 15, 2009/1/30
+photo.1: https://www.codaworry.com/images/rpf/tsubasa-1-ikeda.jpg
+photo.1.author: gachon_kudo
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://gachon.exblog.jp/8760908/
+photo.1.tags: profile
+photo.2: https://www.codaworry.com/images/rpf/tsubasa-2-ikeda.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://gachon.exblog.jp/8760908/
+species: 2
+studbook.id: 1792
+zoo: 15

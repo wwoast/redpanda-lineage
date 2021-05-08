@@ -1,0 +1,66 @@
+[panda]
+_id: 494
+birthday: 2015/7/14
+birthplace: 92
+children: none
+commitdate: 2018/12/27
+en.name: Malina
+en.nicknames: none
+en.othernames: Melina
+gender: f
+jp.name: マリーナ
+jp.nicknames: メリーナ
+jp.othernames: none
+language.order: en, jp
+litter: 496
+location.1: 92, 2015/7/14
+location.2: 96, 2017/11/18
+location.3: 229, 2019/6/1
+photo.1: ig://BClXux2uSmj/m
+photo.1.author: uticazoo
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/uticazoo/
+photo.1.tags: dish, portrait, profile
+photo.2: ig://BV9rdjzhELa/m
+photo.2.author: trisarahtops137
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/trisarahtops137/
+photo.2.tags: smile, tongue, whiskers
+photo.3: ig://BWkrhr7hr6v/m
+photo.3.author: trisarahtops137
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/trisarahtops137/
+photo.3.tags: paws, smile, tongue
+photo.4: ig://Bbm7AY3jFGn/m
+photo.4.author: thetorontozoo
+photo.4.commitdate: 2019/11/4
+photo.4.link: https://www.instagram.com/thetorontozoo/
+photo.4.tags: paws, portrait, whiskers
+photo.5: ig://ByVzJELDmIW/m
+photo.5.author: zoosauvageofficiel
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.instagram.com/zoosauvageofficiel/
+photo.5.tags: portrait, smile, whiskers
+photo.6: ig://B2NTpaTDzgp/m
+photo.6.author: zoosauvageofficiel
+photo.6.commitdate: 2019/12/31
+photo.6.link: https://www.instagram.com/zoosauvageofficiel/
+photo.6.tags: whiskers
+photo.7: ig://B9XaEMwDSkP/m
+photo.7.author: zoosauvageofficiel
+photo.7.commitdate: 2021/5/3
+photo.7.link: https://www.instagram.com/zoosauvageofficiel/
+photo.7.tags: portrait, snow, whiskers
+photo.8: ig://CAQTGxGHe-e/m
+photo.8.author: zoosauvageofficiel
+photo.8.commitdate: 2021/5/3
+photo.8.link: https://www.instagram.com/zoosauvageofficiel/
+photo.8.tags: portrait, whiskers
+photo.9: ig://CIjRStzDkIB/m
+photo.9.author: zoosauvageofficiel
+photo.9.commitdate: 2021/5/3
+photo.9.link: https://www.instagram.com/zoosauvageofficiel/
+photo.9.tags: laying down, tail, whiskers
+species: 2
+studbook.id: 1545
+zoo: 229

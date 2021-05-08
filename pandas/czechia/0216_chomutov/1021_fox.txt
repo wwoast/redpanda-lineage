@@ -1,0 +1,24 @@
+[panda]
+_id: 1021
+birthday: 2012/7/28
+birthplace: 184
+children: unknown
+commitdate: 2019/11/7
+en.name: Fox
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 狐
+jp.nicknames: none
+jp.othernames: きつね
+language.order: en, jp
+litter: 701
+location.1: 184, 2012/7/28
+location.2: 216, 2013/10/17
+photo.1: ig://BajqZTMAqj1/m
+photo.1.author: drownedcz
+photo.1.commitdate: 2019/11/10
+photo.1.link: https://www.instagram.com/drownedcz/
+photo.1.tags: portrait, profile, white face
+species: 1
+zoo: 216

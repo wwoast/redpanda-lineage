@@ -1,0 +1,18 @@
+[panda]
+_id: 1142
+birthday: 2003/7/9
+birthplace: 59
+children: none
+commitdate: 2020/3/25
+death: 2017/2/13
+en.name: Pepper
+en.nicknames: none
+en.othernames: Pepa
+gender: m
+jp.name: ペッパー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1143
+species: 1
+zoo: 59

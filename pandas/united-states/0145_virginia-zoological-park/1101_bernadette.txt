@@ -1,0 +1,20 @@
+[panda]
+_id: 1101
+birthday: 2011/6/8
+birthplace: 108
+children: 621, 622, 542, 906
+commitdate: 2020/1/25
+death: 2016/6/28
+en.name: Bernadette
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベルナデット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 819
+location.1: 108, 2011/6/8
+location.2: 145, 2012/4/27
+species: 1
+zoo: 145

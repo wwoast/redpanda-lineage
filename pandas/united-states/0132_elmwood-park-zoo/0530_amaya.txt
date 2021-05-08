@@ -1,0 +1,64 @@
+[panda]
+_id: 530
+birthday: 2008/6/29
+birthplace: 131
+children: 1069, 1184
+commitdate: 2019/2/24
+death: 2018/12/14
+en.name: Amaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アマヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 531
+location.1: 131, 2008/6/29
+location.2: 75, 2009/3/18
+location.3: 84, 2016/10/24
+location.4: 75, 2017/1/4
+location.5: 132, 2017/3/29
+photo.1: ig://BNH4JAYAwlY/m
+photo.1.author: florianschwarz83
+photo.1.commitdate: 2020/2/23
+photo.1.link: https://www.instagram.com/florianschwarz83/
+photo.1.tags: paws, portrait, white face
+photo.2: ig://BTC12Gfg0ye/m
+photo.2.author: elmwoodparkzoo
+photo.2.commitdate: 2019/6/16
+photo.2.link: https://www.instagram.com/elmwoodparkzoo/
+photo.2.tags: laying down, paws, white face
+photo.3: ig://BZGsHlOAR4T/m
+photo.3.author: elmwoodparkzoo
+photo.3.commitdate: 2019/6/16
+photo.3.link: https://www.instagram.com/elmwoodparkzoo/
+photo.3.tags: paws, white face
+photo.4: ig://BcBTsymA8ph/m
+photo.4.author: rossifari
+photo.4.commitdate: 2019/3/7
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: smile, tongue, white face
+photo.5: ig://BnwwE8EBDH3/m
+photo.5.author: rossifari
+photo.5.commitdate: 2019/3/7
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: profile, smile, white face
+photo.6: ig://BplfqNVhnfa/m
+photo.6.author: rossifari
+photo.6.commitdate: 2019/11/17
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: white face
+photo.7: ig://BqK4kEVjKrr/m
+photo.7.author: elmwoodparkzoo
+photo.7.commitdate: 2019/6/16
+photo.7.link: https://www.instagram.com/elmwoodparkzoo/
+photo.7.tags: laying down, muzzle, white face
+photo.8: ig://BrX1bSMjFGf/m
+photo.8.author: elmwoodparkzoo
+photo.8.commitdate: 2019/6/16
+photo.8.link: https://www.instagram.com/elmwoodparkzoo/
+photo.8.tags: laying down, tail, white face
+species: 1
+studbook.id: 0804
+zoo: 132

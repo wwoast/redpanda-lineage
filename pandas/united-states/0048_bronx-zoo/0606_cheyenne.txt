@@ -1,0 +1,19 @@
+[panda]
+_id: 606
+birthday: 2016/6/24
+birthplace: 48
+children: none
+commitdate: 2019/3/19
+death: 2017/11/14
+en.name: Cheyenne
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シャイアン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 517
+species: 1
+studbook.id: 1614
+zoo: 48

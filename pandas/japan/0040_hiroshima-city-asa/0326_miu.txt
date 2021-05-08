@@ -1,0 +1,21 @@
+[panda]
+_id: 326
+birthday: 2010/7/19
+birthplace: 16
+children: 127, 237
+commitdate: 2018/9/2
+death: 2016/1/24
+en.name: Miu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ミウ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 142
+location.1: 16, 2010/7/19
+location.2: 40, 2013/6/24
+species: 2
+studbook.id: 10117
+zoo: 40

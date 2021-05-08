@@ -1,0 +1,73 @@
+[panda]
+_id: 972
+birthday: 2015/1/1
+birthplace: 201
+children: none
+commitdate: 2019/8/16
+en.name: Tenzing
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: テンジン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 971
+location.1: 201, 2015/1/1
+location.2: 206, 2019/3/1
+photo.1: ig://35re6UR2VO/m
+photo.1.author: antcoventry
+photo.1.commitdate: 2019/8/16
+photo.1.link: https://www.instagram.com/antcoventry/
+photo.1.tags: baby, portrait
+photo.2: ig://7o9UfRx2ea/m
+photo.2.author: antcoventry
+photo.2.commitdate: 2019/8/16
+photo.2.link: https://www.instagram.com/antcoventry/
+photo.2.tags: baby, bamboo, lunch time
+photo.3: ig://BGIPP6YR2WB/m
+photo.3.author: antcoventry
+photo.3.commitdate: 2019/8/16
+photo.3.link: https://www.instagram.com/antcoventry/
+photo.3.tags: portrait
+photo.4: ig://BpvOhlNAQFK/m
+photo.4.author: natmck75
+photo.4.commitdate: 2019/8/16
+photo.4.link: https://www.instagram.com/natmck75/
+photo.5: ig://BvGlPj6HS3i/m
+photo.5.author: tasmania_zoo
+photo.5.commitdate: 2020/7/3
+photo.5.link: https://www.instagram.com/tasmania_zoo/
+photo.5.tags: ear, flowers, paws, portrait, profile, standing
+photo.6: ig://BwblqjmndMQ/m
+photo.6.author: tasmania_zoo
+photo.6.commitdate: 2020/7/3
+photo.6.link: https://www.instagram.com/tasmania_zoo/
+photo.6.tags: ear, long-tongue, portrait, tongue, whiskers
+photo.7: ig://Byuq6wOgLxz/m
+photo.7.author: nickmartinphotography
+photo.7.commitdate: 2020/7/3
+photo.7.link: https://www.instagram.com/nickmartinphotography/
+photo.7.tags: ear, paws, portrait
+photo.8: ig://B2jAdDtHPMd/m
+photo.8.author: tasmania_zoo
+photo.8.commitdate: 2020/7/3
+photo.8.link: https://www.instagram.com/tasmania_zoo/
+photo.8.tags: art, paws, portrait, standing, tail
+photo.9: ig://B2qqz7bHEOC/m
+photo.9.author: tasmania_zoo
+photo.9.commitdate: 2020/7/3
+photo.9.link: https://www.instagram.com/tasmania_zoo/
+photo.9.tags: close-up, paws, peek, tree
+photo.10: ig://B4joFJGHvnt/m
+photo.10.author: tasmania_zoo
+photo.10.commitdate: 2020/7/3
+photo.10.link: https://www.instagram.com/tasmania_zoo/
+photo.10.tags: close-up, techitechi, whiskers
+photo.11: ig://B9sXZX6n2x1/m
+photo.11.author: tasmania_zoo
+photo.11.commitdate: 2020/7/3
+photo.11.link: https://www.instagram.com/tasmania_zoo/
+photo.11.tags: laying down, paws, portrait, sleeping, tail
+species: 1
+zoo: 206

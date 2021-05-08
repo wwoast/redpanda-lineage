@@ -1,0 +1,78 @@
+[panda]
+_id: 400
+birthday: 2011/6/13
+birthplace: 76
+children: 420, 421, 416, 417
+commitdate: 2018/11/22
+en.name: Phoenix
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フェニックス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 448
+location.1: 76, 2011/6/13
+location.2: 95, 2012/10/30
+location.3: 88, 2013/11/20
+location.4: 87, 2014/12/22
+location.5: 193, 2019/5/1
+photo.1: ig://BAF9jHiykCl/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile
+photo.2: ig://Bj-j9M5hHyT/m
+photo.2.author: lincolnparkzoo
+photo.2.commitdate: 2019/5/18
+photo.2.link: https://www.instagram.com/lincolnparkzoo/
+photo.2.tags: lips, paws
+photo.3: ig://Bt3WAMlFWP_/m
+photo.3.author: visitasheville
+photo.3.commitdate: 2020/4/28
+photo.3.link: https://www.instagram.com/visitasheville/
+photo.3.tags: peek, portrait
+photo.4: ig://BuuhzwVAr1j/m
+photo.4.author: wncnaturecenter
+photo.4.commitdate: 2020/4/28
+photo.4.link: https://www.instagram.com/wncnaturecenter/
+photo.4.tags: whiskers
+photo.5: ig://B5QFbqhDAj5/m
+photo.5.author: wncnaturecenter
+photo.5.commitdate: 2020/4/28
+photo.5.link: https://www.instagram.com/wncnaturecenter/
+photo.5.tags: laying down, peek, whiskers
+photo.6: ig://B5kwV1HjPT6/m
+photo.6.author: wncnaturecenter
+photo.6.commitdate: 2021/1/3
+photo.6.link: https://www.instagram.com/wncnaturecenter/
+photo.6.tags: peek, whiskers
+photo.7: ig://B58x_48FR63/m
+photo.7.author: wncnaturecenter
+photo.7.commitdate: 2020/4/28
+photo.7.link: https://www.instagram.com/wncnaturecenter/
+photo.7.tags: apple time, keeper, paws, portrait, standing
+photo.8: ig://B81mKJ1nN0F/m
+photo.8.author: wncnaturecenter
+photo.8.commitdate: 2020/4/28
+photo.8.link: https://www.instagram.com/wncnaturecenter/
+photo.8.tags: bamboo, paws, smile
+photo.9: ig://B97OX1GBiu8/m
+photo.9.author: wncnaturecenter
+photo.9.commitdate: 2020/4/28
+photo.9.link: https://www.instagram.com/wncnaturecenter/
+photo.9.tags: portrait, tongue
+photo.10: ig://CFUt3jTJ8Me/m
+photo.10.author: wncnaturecenter
+photo.10.commitdate: 2021/1/3
+photo.10.link: https://www.instagram.com/wncnaturecenter/
+photo.10.tags: bamboo, bite, close-up, portrait, whiskers
+photo.11: ig://CILgQfoL6wz/m
+photo.11.author: wncnaturecenter
+photo.11.commitdate: 2021/1/3
+photo.11.link: https://www.instagram.com/wncnaturecenter/
+photo.11.tags: apple time, portrait, pumpkin, tongue, whiskers
+species: 2
+studbook.id: 1135
+zoo: 193

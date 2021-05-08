@@ -1,0 +1,31 @@
+[panda]
+_id: 136
+birthday: 2002/6/20
+birthplace: 17
+children: 597, 133
+commitdate: 2018/6/27
+death: 2018/2/6
+en.name: Fin-Fin
+en.nicknames: none
+en.oldnames: Tanpopo
+en.othernames: Finfin
+gender: f
+jp.name: フィンフィン
+jp.nicknames: none
+jp.oldnames: タンポポ
+jp.othernames: none
+language.order: jp, en
+location.1: 17, 2002/6/20
+location.2: 15, 2003/2/7
+photo.1: https://www.codaworry.com/images/rpf/finfin-1-ikeda.jpg
+photo.1.author: shin
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://shinshin.cocolog-nifty.com/redpanda/2013/02/post-b158.html
+photo.2: https://www.codaworry.com/images/rpf/finfin-2-ikeda.jpg
+photo.2.author: shin
+photo.2.commitdate: 2019/4/9
+photo.2.link: http://shinshin.cocolog-nifty.com/redpanda/2013/02/post-b158.html
+photo.2.tags: profile
+species: 2
+studbook.id: 0262
+zoo: 15

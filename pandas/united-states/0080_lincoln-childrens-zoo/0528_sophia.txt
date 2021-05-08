@@ -1,0 +1,78 @@
+[panda]
+_id: 528
+birthday: 2002/6/20
+birthplace: 108
+children: 530, 531, 532, 533, 798, 799, 497, 523, 529, 311, 527
+commitdate: 2019/2/24
+death: 2019/10/1
+en.name: Sophia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ソフィア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 690
+location.1: 108, 2002/6/20
+location.2: 122, 2003/4/29
+location.3: 131, 2007/12/13
+location.4: 80, 2011/11/16
+photo.1: ig://BJOFWzPAv-W/m
+photo.1.author: lincolnchildrenszoo
+photo.1.commitdate: 2019/3/17
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1.tags: climb
+photo.2: https://www.codaworry.com/images/rpf/sophia-1-lczoo.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/11
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: sleeping
+photo.3: https://www.codaworry.com/images/rpf/sophia-2-lczoo.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/11
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: profile, tail, white face
+photo.4: https://www.codaworry.com/images/rpf/sophia-3-lczoo.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/11
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: white face
+photo.5: https://www.codaworry.com/images/rpf/sophia-4-lczoo.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/11
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: white face
+photo.6: https://www.codaworry.com/images/rpf/sophia-5-lczoo.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/11
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: tail, white face
+photo.7: https://www.codaworry.com/images/rpf/sophia-6-lczoo.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/11
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: blink, white face
+photo.8: https://www.codaworry.com/images/rpf/sophia-7-lczoo.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/4/11
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: smile, tongue, white face
+photo.9: https://www.codaworry.com/images/rpf/sophia-8-lczoo.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/4/11
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: tail, white face
+photo.10: https://www.codaworry.com/images/rpf/sophia-9-lczoo.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/4/11
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: smile, tongue, white face
+photo.11: https://www.codaworry.com/images/rpf/sophia-10-lczoo.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2019/4/11
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: laying down, tail, white face
+species: 1
+studbook.id: 0204
+zoo: 80

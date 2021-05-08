@@ -1,0 +1,15 @@
+[zoo]
+_id: 283
+commitdate: 2021/4/11
+de.address: Uerdinger Str. 377, 47800, Krefeld, Deutschland
+de.location: Krefeld, Deutschland
+de.name: Zoo Krefeld
+en.address: Uerdinger Str. 377, 47800, Krefeld, Germany
+en.location: Krefeld, Germany
+en.name: Zoo Krefeld
+flag: Germany
+language.order: de, en
+latitude: 51.3403909
+longitude: 6.5993516
+map: https://goo.gl/maps/x4Y4EsZvPwKGbN7b8
+website: https://www.zookrefeld.de/

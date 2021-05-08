@@ -1,0 +1,61 @@
+[panda]
+_id: 434
+birthday: 2015/8/24
+birthplace: 82
+children: 999, 1000, 1001, 1002
+commitdate: 2018/11/23
+en.name: Kola
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 481
+location.1: 82, 2015/8/24
+location.2: 65, 2016/10/27
+location.3: 95, 2019/5/1
+photo.1: ig://BZi_WPchFTN/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2020/1/2
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: portrait, whiskers
+photo.2: ig://BaMyGadhRs7/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2020/1/2
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: smile, whiskers
+photo.3: ig://Ban6skRBfnW/m
+photo.3.author: cincinnatizoo
+photo.3.commitdate: 2020/1/2
+photo.3.link: https://www.instagram.com/cincinnatizoo/
+photo.3.tags: smile, toys
+photo.4: ig://BoMLMZ7DQLt/m
+photo.4.author: cincinnatizoo
+photo.4.commitdate: 2018/11/23
+photo.4.link: https://www.instagram.com/cincinnatizoo/
+photo.4.tags: smile
+photo.5: ig://Boy_v41lNhd/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2018/11/23
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, profile, tree
+photo.6: ig://Bp7FIZnB0EA/m
+photo.6.author: cincinnatizoo
+photo.6.commitdate: 2019/10/25
+photo.6.link: https://www.instagram.com/cincinnatizoo/
+photo.6.tags: hammock
+photo.7: ig://ByPF8IUAQWL/m
+photo.7.author: zoogirlsd
+photo.7.commitdate: 2019/6/3
+photo.7.link: https://www.instagram.com/zoogirlsd/
+photo.7.tags: laying down, tree
+photo.8: ig://B71RiXZHNJS/m
+photo.8.author: sandiegozoo
+photo.8.commitdate: 2020/11/18
+photo.8.link: https://www.instagram.com/sandiegozoo/
+photo.8.tags: paws, portrait, smile
+species: 2
+studbook.id: 15115
+zoo: 95

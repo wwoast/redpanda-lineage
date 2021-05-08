@@ -1,0 +1,19 @@
+[zoo]
+_id: 73
+commitdate: 2018/9/9
+en.address: 3 Chome-2-１ Kitakasai, Edogawa-ku, Tōkyō-to 134-0081, Japan
+en.location: Edogawa, Tokyo Prefecture, Japan
+en.name: Edogawa City Natural Zoo
+flag: Japan
+jp.address: 〒134-0081 東京都江戸川区北葛西３丁目２−１
+jp.location: 江戸川区 東京府
+jp.name: 江戸川区自然動物園
+language.order: jp, en
+latitude: 35.6710531
+longitude: 139.8562134
+map: https://goo.gl/maps/tDgbZr73HuQ2
+photo.1: ig://Bpg_qSOFhT7/m
+photo.1.author: shirokuma_jump
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/shirokuma_jump/
+website: http://edogawa-kankyozaidan.jp/zoo/

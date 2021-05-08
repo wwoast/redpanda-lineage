@@ -1,0 +1,25 @@
+[zoo]
+_id: 191
+commitdate: 2019/5/15
+en.address: 4001 Southwest Canyon Road, Portland, OR 97221
+en.location: Portland, Oregon, USA
+en.name: Oregon Zoo
+flag: USA
+language.order: en
+latitude: 45.513208
+longitude: -122.7186569
+map: https://goo.gl/maps/seUShhuCwpSSk8uTA
+photo.1: ig://Buchx3aBLkB/m
+photo.1.author: oregonzoo
+photo.1.commitdate: 2019/9/22
+photo.1.link: https://www.instagram.com/oregonzoo/
+photo.2: ig://BtT7YXahnTw/m
+photo.2.author: oregonzoo
+photo.2.commitdate: 2019/9/22
+photo.2.link: https://www.instagram.com/oregonzoo/
+photo.2.tags: profile
+photo.3: ig://B2mfVMZnjgL/m
+photo.3.author: oregonzoo
+photo.3.commitdate: 2019/9/22
+photo.3.link: https://www.instagram.com/oregonzoo/
+website: https://www.oregonzoo.org/

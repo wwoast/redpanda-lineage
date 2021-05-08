@@ -1,0 +1,64 @@
+[panda]
+_id: 182
+birthday: 2014/7/11
+birthplace: 31
+children: none
+commitdate: 2018/7/13
+en.name: Sumire
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スミレ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 181
+location.1: 31, 2014/7/11
+location.2: 6, 2018/5/9
+photo.1: ig://BVhkFXMBJEE/m
+photo.1.author: meiki.0331km
+photo.1.commitdate: 2018/7/24
+photo.1.link: https://www.instagram.com/meiki.0331km/
+photo.1.tags: tail
+photo.2: ig://BbLq29ajVOP/m
+photo.2.author: okuma96
+photo.2.commitdate: 2018/7/24
+photo.2.link: https://www.instagram.com/okuma96/
+photo.2.tags: itchy
+photo.3: ig://Bfa_AYVj1La/m
+photo.3.author: tak_grouses
+photo.3.commitdate: 2018/7/24
+photo.3.link: https://www.instagram.com/tak_grouses/
+photo.3.tags: tree
+photo.4: ig://BkUsFqnhbLk/m
+photo.4.author: mana.sendo
+photo.4.commitdate: 2018/7/24
+photo.4.link: https://www.instagram.com/mana.sendo/
+photo.4.tags: profile, smile, tongue
+photo.5: ig://BqcQJ8plA9F/m
+photo.5.author: makimaru18
+photo.5.commitdate: 2018/11/21
+photo.5.link: https://www.instagram.com/makimaru18/
+photo.6: ig://BqoMadHlC64/m
+photo.6.author: perie1027vivi
+photo.6.commitdate: 2020/5/23
+photo.6.link: https://www.instagram.com/perie1027vivi/
+photo.6.tags: apple time, paws, portrait
+photo.7: ig://BsI14xhls45/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/3
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: bamboo, portrait, tongue
+photo.8: ig://Bxx6wczlDOS/m
+photo.8.author: kipekaila
+photo.8.commitdate: 2019/5/29
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: apple time
+photo.9: ig://B3luQunhunI/m
+photo.9.author: kmasahon
+photo.9.commitdate: 2019/10/15
+photo.9.link: https://www.instagram.com/kmasahon/
+photo.9.tags: paws, smile
+species: 2
+studbook.id: 14163
+zoo: 6

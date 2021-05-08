@@ -1,0 +1,15 @@
+[zoo]
+_id: 281
+commitdate: 2021/4/11
+en.address: Rua 5 de Outubro 4503, 4430-809, Avintes, Vila Nova de Gaia, Portugal
+en.location: Vila Nova de Gaia, Portugal
+en.name: Zoo Santo Inácio
+flag: Portugal
+language.order: pt, en
+latitude: 41.0927201
+longitude: -8.5394872
+map: https://goo.gl/maps/B2QxDwprtcYbPdNj7
+pt.address: Rua 5 de Outubro 4503, 4430-809, Avintes, Vila Nova de Gaia, Portugal
+pt.location: Vila Nova de Gaia, Portugal
+pt.name: Zoo Santo Inácio
+website: https://zoosantoinacio.com/

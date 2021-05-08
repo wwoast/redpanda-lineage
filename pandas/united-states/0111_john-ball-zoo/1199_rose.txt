@@ -1,0 +1,22 @@
+[panda]
+_id: 1199
+birthday: 2020/6/25
+birthplace: 111
+children: none
+commitdate: 2020/7/31
+en.name: Rose
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ローズ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1200, 1201
+photo.1: ig://CHk5f5OD2zw/m
+photo.1.author: johnballzoogr
+photo.1.commitdate: 2020/11/23
+photo.1.link: https://www.instagram.com/johnballzoogr/
+photo.1.tags: baby, keeper, lunch time, portrait, white face
+species: 2
+zoo: 111

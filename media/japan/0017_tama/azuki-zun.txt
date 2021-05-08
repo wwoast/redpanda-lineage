@@ -1,0 +1,60 @@
+[media]
+_id: media.17.azuki-zun
+commitdate: 2019/5/21
+panda.tags: 102, 256
+photo.1: ig://ByHau9qBWzY/m
+photo.1.author: kotata_513
+photo.1.commitdate: 2019/6/2
+photo.1.link: https://www.instagram.com/kotata_513/
+photo.1.tags: paws
+photo.1.tags.102.location: 200, 115
+photo.1.tags.256.location: 250, 115
+photo.2: ig://ByTXt91BvHO/m
+photo.2.author: rie_panda55
+photo.2.commitdate: 2019/6/6
+photo.2.link: https://www.instagram.com/rie_panda55/
+photo.2.tags: flowers
+photo.2.tags.102.location: 90, 130
+photo.2.tags.256.location: 210, 200
+photo.3: ig://B3rWfS2g052/m
+photo.3.author: sunnylettuce_2021
+photo.3.commitdate: 2019/10/17
+photo.3.link: https://www.instagram.com/sunnylettuce_2021/
+photo.3.tags: mother's day
+photo.3.tags.102.location: 235, 235
+photo.3.tags.256.location: 135, 145
+photo.4: ig://B3TELJrBs3t/m
+photo.4.author: sasapan34
+photo.4.commitdate: 2019/10/19
+photo.4.link: https://www.instagram.com/sasapan34/
+photo.4.tags: mother's day, playing
+photo.4.tags.102.location: 110, 60
+photo.4.tags.256.location: 200, 60
+photo.5: ig://B3jrP3Ihoj9/m
+photo.5.author: ssc6105
+photo.5.commitdate: 2019/10/19
+photo.5.link: https://www.instagram.com/ssc6105/
+photo.5.tags: laying down, playing
+photo.5.tags.102.location: 95, 180
+photo.5.tags.256.location: 185, 170
+photo.6: ig://B5KCqofB5qw/m
+photo.6.author: kotata_513
+photo.6.commitdate: 2019/11/26
+photo.6.link: https://www.instagram.com/kotata_513/
+photo.6.tags: bridge, kiss, mother's day
+photo.6.tags.102.location: 200, 85
+photo.6.tags.256.location: 145, 80
+photo.7: ig://B4wxcLthr-j/m
+photo.7.author: daniele.tokyo
+photo.7.commitdate: 2019/12/5
+photo.7.link: https://www.instagram.com/daniele.tokyo/
+photo.7.tags: mother's day, paw-up, tail
+photo.7.tags.102.location: 185, 120
+photo.7.tags.256.location: 130, 125
+photo.8: ig://B3cL5o6BVQB/m
+photo.8.author: mini_cochi
+photo.8.commitdate: 2020/2/23
+photo.8.link: https://www.instagram.com/mini_cochi/
+photo.8.tags: bamboo, mother's day
+photo.8.tags.102.location: 60, 135
+photo.8.tags.256.location: 225, 185

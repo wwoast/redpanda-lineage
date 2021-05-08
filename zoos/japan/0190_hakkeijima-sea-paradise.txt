@@ -1,0 +1,24 @@
+[zoo]
+_id: 190
+commitdate: 2019/4/23
+en.address: Hakkeijima, Kanazawa Ward, Yokohama, Kanagawa 〒236-0006, Japan
+en.location: Hakkeijima, Yokohama, Kanagawa Prefecture, Japan
+en.name: Hakkeijima Sea Paradise
+flag: Japan
+jp.address: 〒236-0006 神奈川県横浜市金沢区八景島
+jp.location: 八景島 横浜 神奈川県
+jp.name: 横浜・八景島シーパラダイス
+language.order: jp, en
+latitude: 35.3364318
+longitude: 139.6440622
+map: https://goo.gl/maps/xFgBvqMLqdrmcvSp7
+photo.1: ig://Bvn3y3ng3K9/m
+photo.1.author: luna__soleil
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/luna__soleil
+photo.1.tags: profile
+photo.2: ig://BuIH-sunbLc/m
+photo.2.author: kousiknandi
+photo.2.commitdate: 2019/5/15
+photo.2.link: https://www.instagram.com/kousiknandi/
+website: http://www.seaparadise.co.jp/event/redpanda.html

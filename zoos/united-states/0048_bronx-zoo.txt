@@ -1,0 +1,16 @@
+[zoo]
+_id: 48
+commitdate: 2018/7/13
+en.address: 2300 Southern Blvd, Bronx, NY 10460
+en.location: Bronx, NY, USA
+en.name: Bronx Zoo
+flag: USA
+language.order: en
+latitude: 40.8505989
+longitude: -73.8791869
+map: https://goo.gl/maps/YZZd8WbFQrA2
+photo.1: ig://4C0IAHr4QO/m
+photo.1.author: bronxzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/bronxzoo/
+website: https://bronxzoo.com/

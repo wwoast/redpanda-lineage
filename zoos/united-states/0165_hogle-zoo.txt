@@ -1,0 +1,16 @@
+[zoo]
+_id: 165
+commitdate: 2019/3/19
+en.address: 2600 Sunnyside Ave S, Salt Lake City, UT 84108, USA
+en.location: Salt Lake City, Utah, USA
+en.name: Hogle Zoo
+flag: USA
+language.order: en
+latitude: 40.7501811
+longitude: -111.8162915
+map: https://goo.gl/maps/6rWGbpuKQap
+photo.1: ig://BpHVqCPlRng/m
+photo.1.author: mrs_r_mags
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/mrs_r_mags/
+website: https://www.hoglezoo.org

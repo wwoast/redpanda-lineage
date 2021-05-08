@@ -1,0 +1,22 @@
+[panda]
+_id: 1114
+birthday: 2003/6/25
+birthplace: 75
+children: 1008, 1114, 556, 559, 577
+commitdate: 2020/3/2
+death: 2015/3/28
+en.name: Rocco
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ロッコ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 75, 2003/6/25
+location.2: 80, 2004/10/19
+location.3: 162, 2006/12/19
+location.4: 114, 2008/10/30
+species: 1
+zoo: 114

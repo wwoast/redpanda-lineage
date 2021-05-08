@@ -1,0 +1,36 @@
+[zoo]
+_id: 7
+commitdate: 2018/6/10
+en.address: Japan, 〒064-0959 Hokkaido, Sapporo, Chuo Ward, 宮ケ丘3番地１
+en.location: Sapporo, Hokkaido, Japan
+en.name: Sapporo Maruyama Zoo
+flag: Japan
+jp.address: 〒064-0959 北海道札幌市中央区 宮ケ丘3番地１
+jp.location: 中央区 札幌市 北海道
+jp.name: 札幌市円山動物園
+language.order: jp, en
+latitude: 43.051468
+longitude: 141.3056561
+map: https://goo.gl/maps/EY3uZRXNWNr
+photo.1: https://www.codaworry.com/images/rpf/maruyama-zoo-winter-small.jpg
+photo.1.author: wumpwoast
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.2: ig://BwfTk9aBqyt/m
+photo.2.author: sat.simizu
+photo.2.commitdate: 2019/10/27
+photo.2.link: https://www.instagram.com/sat.simizu/
+photo.3: ig://BwwmjKfFMrt/m
+photo.3.author: marimolovesl
+photo.3.commitdate: 2019/10/27
+photo.3.link: https://www.instagram.com/marimolovesl/
+photo.4: ig://CDbptiHBjxj/m
+photo.4.author: ho0oipo
+photo.4.commitdate: 2020/8/5
+photo.4.link: https://www.instagram.com/ho0oipo/
+photo.4.tags: profile
+photo.5: ig://CFyuWIqBzn7/m
+photo.5.author: mari_neko3
+photo.5.commitdate: 2020/10/1
+photo.5.link: https://www.instagram.com/mari_neko3/
+website: http://www.city.sapporo.jp/zoo/index.html

@@ -1,0 +1,32 @@
+[zoo]
+_id: 233
+commitdate: 2019/12/31
+en.address: Jawalakhel Rd, Lalitpur 44600, Nepal
+en.location: Lalitpur, Nepal
+en.name: Central Zoo
+en.othernames: Kathmandu Zoo, Patan Zoo
+flag: Nepal
+language.order: np, en
+latitude: 27.672704
+longitude: 85.307452
+map: https://goo.gl/maps/gV2HHswq4LED2b7g9
+np.address: Jawalakhel Rd, ललितपुर 44600
+np.location: ललितपुर, नेपाल,
+np.name: सदर चिडियाखाना
+photo.1: ig://BnSvCoZAs3L/m
+photo.1.author: abinashsahofficial
+photo.1.commitdate: 2020/1/1
+photo.1.link: https://www.instagram.com/abinashsahofficial/
+photo.2: ig://Bm8cWNFh1xi/m
+photo.2.author: trek_guide
+photo.2.commitdate: 2020/1/1
+photo.2.link: https://www.instagram.com/trek_guide/
+photo.3: ig://BlXaKyRnRad/m
+photo.3.author: explore_nepal_travel
+photo.3.commitdate: 2020/1/1
+photo.3.link: https://www.instagram.com/explore_nepal_travel/
+photo.4: ig://BiJ-7kpAW53/m
+photo.4.author: mike_eassa
+photo.4.commitdate: 2020/1/1
+photo.4.link: https://www.instagram.com/mike_eassa/
+website: https://ntnc.org.np/project/central-zoo

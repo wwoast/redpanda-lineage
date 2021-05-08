@@ -1,0 +1,57 @@
+[panda]
+_id: 865
+birthday: 2014/6/27
+birthplace: 177
+children: none
+commitdate: 2019/6/10
+death: 2020/1/13
+en.name: Tusa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トゥサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 177, 2014/6/27
+location.2: 49, 2015/12/1
+location.3: 160, 2017/12/7
+photo.1: ig://36iM54Dr6J/m
+photo.1.author: anticlimacticjeromy
+photo.1.commitdate: 2020/2/22
+photo.1.link: https://www.instagram.com/anticlimacticjeromy/
+photo.1.tags: dish, portrait
+photo.2: ig://-M3vrGinqi/m
+photo.2.author: heraldandreview
+photo.2.commitdate: 2019/11/7
+photo.2.link: https://www.instagram.com/heraldandreview/
+photo.2.tags: portrait, profile
+photo.3: ig://BeqbVICBKcr/m
+photo.3.author: pueblozoo
+photo.3.commitdate: 2019/6/13
+photo.3.link: https://www.instagram.com/pueblozoo/
+photo.3.tags: dish, lunch time
+photo.4: ig://BoOw5-1gTIQ/m
+photo.4.author: itchypoint
+photo.4.commitdate: 2019/6/13
+photo.4.link: https://www.instagram.com/itchypoint/
+photo.4.tags: portrait
+photo.5: ig://Bq3m6rWnRL8/m
+photo.5.author: keepermerlo
+photo.5.commitdate: 2020/1/23
+photo.5.link: https://www.instagram.com/keepermerlo/
+photo.5.tags: dish, smile, whiskers
+photo.6: ig://BwhznScnMpP/m
+photo.6.author: keepermerlo
+photo.6.commitdate: 2020/1/23
+photo.6.link: https://www.instagram.com/keepermerlo/
+photo.6.tags: hammock, peek
+photo.7: ig://BwhzxP1ndiL/m
+photo.7.author: keepermerlo
+photo.7.commitdate: 2020/1/23
+photo.7.link: https://www.instagram.com/keepermerlo/
+photo.7.tags: hammock, tail, whiskers
+species: 1
+studbook.id: 1437
+zoo: 160

@@ -1,0 +1,37 @@
+[zoo]
+_id: 1
+commitdate: 2018/6/10
+en.address: Ichikawa City Zoo, Japan, 〒272-0801 Chiba Prefecture, Ichikawa, 大町284番１ 外
+en.location: Ichikawa, Chiba Prefecture, Japan
+en.name: Ichikawa Zoological & Botanical Gardens
+flag: Japan
+jp.address: 〒272-0801 千葉県市川市大町２８４番１外
+jp.location: 市川市千葉県
+jp.name: 市川市動植物園
+language.order: jp, en
+latitude: 35.7642063
+longitude: 139.9638014
+map: https://goo.gl/maps/WSyNu7HFhH42
+opened: 1987/8/21
+photo.1: https://blackcabbit.files.wordpress.com/2013/08/ichikawashi-dousyokubutsuen.jpg
+photo.1.author: Blackcabbit's World
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://blackcabbit.wordpress.com/2013/08/19/an-enjoyable-day-at-ichikawa-city-zoo/
+photo.1.tags: profile
+photo.2: ig://BuN5aUfj2Ll/m
+photo.2.author: aojiru.kazuyo
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/aojiru.kazuyo/
+photo.3: ig://Bw08s_EpB0k/m
+photo.3.author: junkoguitar
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/junkoguitar/
+photo.4: ig://BxAFlRxA-aC/m
+photo.4.author: suzuriki1234
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.instagram.com/suzuriki1234/
+photo.5: ig://CCU0eXbhQI1/m
+photo.5.author: alto0908
+photo.5.commitdate: 2020/7/13
+photo.5.link: https://www.instagram.com/alto0908/
+website: http://www.city.ichikawa.lg.jp/zoo/index.html

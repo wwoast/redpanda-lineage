@@ -1,0 +1,41 @@
+[zoo]
+_id: 137
+commitdate: 2019/3/2
+en.address: Maldon Rd, Colchester CO3 0SL, UK
+en.location: Colchester, UK
+en.name: Colchester Zoo
+flag: UK
+language.order: en
+latitude: 51.8680513
+longitude: 0.8314388
+map: https://goo.gl/maps/JWJySzYiXeu
+photo.1: ig://Be-w0mqn7kw/m
+photo.1.author: colchester_zoo
+photo.1.commitdate: 2019/7/20
+photo.1.link: https://www.instagram.com/colchester_zoo/
+photo.2: ig://BvqtZopltDO/m
+photo.2.author: colchester_zoo
+photo.2.commitdate: 2019/7/20
+photo.2.link: https://www.instagram.com/colchester_zoo/
+photo.2.tags: profile
+photo.3: ig://BwPhUFRFjUi/m
+photo.3.author: colchester_zoo
+photo.3.commitdate: 2019/7/20
+photo.3.link: https://www.instagram.com/colchester_zoo/
+photo.4: ig://B2HJpRLnj8f/m
+photo.4.author: colchester_zoo
+photo.4.commitdate: 2019/10/17
+photo.4.link: https://www.instagram.com/colchester_zoo/
+photo.5: ig://BAPlbg2E0IR/m
+photo.5.author: colchester_zoo
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/colchester_zoo/
+photo.6: ig://pltD7jE0BM/m
+photo.6.author: colchester_zoo
+photo.6.commitdate: 2019/10/17
+photo.6.link: https://www.instagram.com/colchester_zoo/
+photo.7: ig://p6RXpoE0GR/m
+photo.7.author: colchester_zoo
+photo.7.commitdate: 2019/10/17
+photo.7.link: https://www.instagram.com/colchester_zoo/
+website: https://www.colchester-zoo.com/

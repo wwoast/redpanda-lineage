@@ -1,0 +1,17 @@
+[panda]
+_id: 1176
+birthday: 2019/6/18
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Lino
+en.nicknames: none
+en.othernames: Leeno
+gender: m
+jp.name: リーノ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1175, 1177
+species: 1
+zoo: 145

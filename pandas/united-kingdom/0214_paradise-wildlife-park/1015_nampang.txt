@@ -1,0 +1,49 @@
+[panda]
+_id: 1015
+birthday: 2017/6/14
+birthplace: 213
+children: unknown
+commitdate: 2019/11/1
+en.name: Nam Pang
+en.nicknames: none
+en.othernames: Nam'pang, Nampang, Nam'Pang
+gender: m
+jp.name: ナンパン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1010
+location.1: 213, 2017/6/14
+location.2: 214, 2018/2/24
+photo.1: ig://BgTDCmJHsEJ/m
+photo.1.author: theknittingredpanda
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/theknittingredpanda/
+photo.1.tags: portrait, snow
+photo.2: ig://BlYTQ8LgF3D/m
+photo.2.author: highlandwpark
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/highlandwpark/
+photo.2.tags: snow, tree, white face
+photo.3: ig://Bz5uD1qACkW/m
+photo.3.author: paradisewildlifepark
+photo.3.commitdate: 2019/11/1
+photo.3.link: https://www.instagram.com/paradisewildlifepark/
+photo.3.tags: portrait, profile, smile, tongue, white face
+photo.4: ig://B6IgJVeA_RX/m
+photo.4.author: paradisewildlifepark
+photo.4.commitdate: 2020/5/15
+photo.4.link: https://www.instagram.com/paradisewildlifepark/
+photo.4.tags: bamboo, paws, portrait, smile
+photo.5: ig://B7a6W2Og9nd/m
+photo.5.author: paradisewildlifepark
+photo.5.commitdate: 2020/5/15
+photo.5.link: https://www.instagram.com/paradisewildlifepark/
+photo.5.tags: mofumofu, portrait
+photo.6: ig://B8_TqxmAeOT/m
+photo.6.author: paradisewildlifepark
+photo.6.commitdate: 2020/5/15
+photo.6.link: https://www.instagram.com/paradisewildlifepark/
+photo.6.tags: bamboo, portrait
+species: 1
+zoo: 214

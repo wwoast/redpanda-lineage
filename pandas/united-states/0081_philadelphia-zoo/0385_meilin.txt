@@ -1,0 +1,49 @@
+[panda]
+_id: 385
+birthday: 2002/6/26
+birthplace: 83
+children: none
+commitdate: 2018/11/13
+death: 2017/4/5
+en.name: Mei-Lin
+en.nicknames: none
+en.othernames: Meilin, Mei Lin
+gender: f
+jp.name: メイリン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 407
+location.1: 83, 2002/6/26
+location.2: 103, 2003/6/11
+location.3: 84, 2003/10/14
+location.4: 105, 2007/11/14
+location.5: 84, 2008/11/13
+location.6: 81, 2011/7/26
+photo.1: ig://BPA0F87DIxN/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: profile, snow
+photo.2: ig://BiTZkaEjilh/m
+photo.2.author: rossifari
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: bamboo, snow
+photo.3: ig://BYEVDYeh6Zb/m
+photo.3.author: timothy__lawrence
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/timothy__lawrence/
+photo.3.tags: laying down
+photo.4: ig://BIqXxnkjRpf/m
+photo.4.author: prospectparkzoo
+photo.4.commitdate: 2018/12/12
+photo.4.link: https://www.instagram.com/prospectparkzoo/
+photo.4.tags: tree
+photo.5: ig://BP223vTjtu8/m
+photo.5.author: 30tproductions
+photo.5.commitdate: 2018/12/12
+photo.5.link: https://www.instagram.com/30tproductions/
+species: 2
+studbook.id: 0221
+zoo: 81

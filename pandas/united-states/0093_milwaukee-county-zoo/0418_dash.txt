@@ -1,0 +1,50 @@
+[panda]
+_id: 418
+birthday: 2012/6/6
+birthplace: 94
+children: 419, 998
+commitdate: 2018/11/23
+en.name: Dash
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ダッシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 94, 2012/6/6
+location.2: 93, 2013/10/15
+photo.1: ig://BHvDOJbgcb9/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: blink, portrait, home
+photo.2: ig://BHvDV_Yg2FK/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, profile, wink
+photo.3: ig://BHvDb9ngnJQ/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2018/11/24
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, paws
+photo.4: ig://BocWFU5lp90/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2018/11/24
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: portrait
+photo.5: ig://BwuMke-FemL/m
+photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/milwaukeecozoo/
+photo.5.tags: home, portrait, tail, tree
+photo.6: ig://B-E-TN5lykO/m
+photo.6.author: milwaukeecozoo
+photo.6.commitdate: 2020/6/6
+photo.6.link: https://www.instagram.com/milwaukeecozoo/
+photo.6.tags: close-up, whiskers
+species: 2
+studbook.id: 1211
+zoo: 93

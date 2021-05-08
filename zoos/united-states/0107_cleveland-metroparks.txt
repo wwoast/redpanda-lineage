@@ -1,0 +1,16 @@
+[zoo]
+_id: 107
+commitdate: 2018/12/27
+en.address: 3900 Wildlife Way, Cleveland, OH 44109
+en.location: Cleveland, Ohio, USA
+en.name: Cleveland Metroparks Zoo
+flag: USA
+language.order: en
+latitude: 41.4499591
+longitude: -81.7133054
+map: https://goo.gl/maps/H1Beh6XdftG2
+photo.1: ig://BbFu0YBlGua/m
+photo.1.author: michael__bean
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/michael__bean/
+website: https://www.clevelandmetroparks.com/zoo

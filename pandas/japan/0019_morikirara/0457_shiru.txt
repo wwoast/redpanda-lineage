@@ -1,0 +1,21 @@
+[panda]
+_id: 457
+birthday: 2004/7/7
+birthplace: 34
+children: none
+commitdate: 2018/11/26
+death: 2012/8/20
+en.name: Shiru
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シール
+jp.nicknames: none
+jp.othernames: 杏
+language.order: jp, en
+litter: none
+location.1: 34, 2004/7/7
+location.2: 19, 2012/5/22
+species: 2
+studbook.id: 0475
+zoo: 19

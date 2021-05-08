@@ -1,0 +1,39 @@
+[panda]
+_id: 973
+birthday: 2009/12/10
+birthplace: 207
+children: 981, 979, 980, 975, 976, 977
+commitdate: 2019/8/23
+en.name: Bo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ボー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1027
+location.1: 207, 2009/12/10
+location.2: 203, 2012/7/5
+photo.1: ig://BvvXaN5gZSV/m
+photo.1.author: aucklandzoo
+photo.1.commitdate: 2019/8/23
+photo.1.link: https://www.instagram.com/aucklandzoo/
+photo.1.tags: bamboo, paws, portrait, profile, tree
+photo.2: ig://By9gEnPg_vV/m
+photo.2.author: todd_grace
+photo.2.commitdate: 2019/8/23
+photo.2.link: https://www.instagram.com/todd_grace/
+photo.2.tags: peek, portrait
+photo.3: ig://BzznXE9pP2W/m
+photo.3.author: zhenyap2
+photo.3.commitdate: 2019/8/23
+photo.3.link: https://www.instagram.com/zhenyap2/
+photo.3.tags: lunch time, paws, portrait
+photo.4: ig://CENLWv0hKDk/m
+photo.4.author: aucklandzoo
+photo.4.commitdate: 2020/8/28
+photo.4.link: https://www.instagram.com/aucklandzoo/
+photo.4.tags: paws, portrait, smile
+species: 1
+zoo: 203

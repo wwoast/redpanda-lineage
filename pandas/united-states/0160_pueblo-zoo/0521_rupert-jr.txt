@@ -1,0 +1,67 @@
+[panda]
+_id: 521
+birthday: 2011/7/3
+birthplace: 124
+children: 645, 646
+commitdate: 2019/2/24
+en.name: Rupert Jr.
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルパート ジュニア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 651
+location.1: 124, 2011/7/3
+location.2: 101, 2012/5/23
+location.3: 113, 2014/11/14
+location.4: 160, 2019/7/1
+photo.1: ig://Bf88z3UHJO6/m
+photo.1.author: potterparkzoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/potterparkzoo/
+photo.1.tags: portrait, snow
+photo.2: ig://Bg3jYKLnrcn/m
+photo.2.author: potterparkzoo
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/potterparkzoo/
+photo.2.tags: portrait, snow
+photo.3: ig://Bkup9f0hUfj/m
+photo.3.author: potterparkzoo
+photo.3.commitdate: 2019/3/12
+photo.3.link: https://www.instagram.com/potterparkzoo/
+photo.3.tags: climb, portrait, profile
+photo.4: ig://BlLZ07yhAmf/m
+photo.4.author: potterparkzoo
+photo.4.commitdate: 2019/3/12
+photo.4.link: https://www.instagram.com/potterparkzoo/
+photo.4.tags: bamboo, portrait
+photo.5: ig://BmhMJnHgkE1/m
+photo.5.author: potterparkzoo
+photo.5.commitdate: 2019/3/12
+photo.5.link: https://www.instagram.com/potterparkzoo/
+photo.6: ig://B7ePRmKHrH9/m
+photo.6.author: keepermerlo
+photo.6.commitdate: 2020/1/23
+photo.6.link: https://www.instagram.com/keepermerlo/
+photo.6.tags: close-up, whiskers
+photo.7: ig://CAdPmjoHHKY/m
+photo.7.author: keepermerlo
+photo.7.commitdate: 2020/8/3
+photo.7.link: https://www.instagram.com/keepermerlo/
+photo.7.tags: paws, peek, whiskers
+photo.8: ig://CDJ2HzqHUeW/m
+photo.8.author: keepermerlo
+photo.8.commitdate: 2020/7/28
+photo.8.link: https://www.instagram.com/keepermerlo/
+photo.8.tags: laying down, paws, peek, whiskers
+photo.9: ig://CEfZpQgn-T1/m
+photo.9.author: keepermerlo
+photo.9.commitdate: 2020/11/10
+photo.9.link: https://www.instagram.com/keepermerlo/
+photo.9.tags: bite, lunch time
+species: 1
+studbook.id: 1102
+uncertainty: location.4 date
+zoo: 160

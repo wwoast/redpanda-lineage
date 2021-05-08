@@ -1,0 +1,137 @@
+[panda]
+_id: 252
+birthday: 2007/6/14
+birthplace: 30
+children: 254, 41, 255
+commitdate: 2018/7/28
+en.name: Ren
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: レン
+jp.nicknames: none
+jp.othernames: 蓮
+language.order: jp, en
+litter: none
+location.1: 30, 2007/6/14
+location.2: 19, 2010/2/18
+photo.1: ig://BcZdo1NFzYF/m
+photo.1.author: hanamaru_redpanda
+photo.1.commitdate: 2020/3/11
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: lips, portrait, whiskers
+photo.2: ig://BlZGGsRFC-z/m
+photo.2.author: re_ichimaru
+photo.2.commitdate: 2018/10/12
+photo.2.link: https://www.instagram.com/re_ichimaru/
+photo.2.tags: standing, techitechi
+photo.3: ig://BlcwDexldSJ/m
+photo.3.author: re_ichimaru
+photo.3.commitdate: 2018/10/12
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: paws
+photo.4: ig://BopkGUVlTrk/m
+photo.4.author: re_ichimaru
+photo.4.commitdate: 2018/10/9
+photo.4.link: https://www.instagram.com/re_ichimaru/
+photo.4.tags: profile, smile
+photo.5: ig://Bo3kNkbl7gt/m
+photo.5.author: monmon_redpanda
+photo.5.commitdate: 2018/10/13
+photo.5.link: https://www.instagram.com/monmon_redpanda/
+photo.5.tags: smile
+photo.6: ig://BpE904flimM/m
+photo.6.author: nakacchi_desu
+photo.6.commitdate: 2018/10/18
+photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: tree
+photo.7: ig://BpF1X8CFlQN/m
+photo.7.author: re_ichimaru
+photo.7.commitdate: 2018/10/18
+photo.7.link: https://www.instagram.com/re_ichimaru/
+photo.7.tags: smile
+photo.8: ig://Bps9LRmFdci/m
+photo.8.author: yossi929
+photo.8.commitdate: 2018/11/6
+photo.8.link: https://www.instagram.com/yossi929/
+photo.8.tags: bamboo, peek
+photo.9: ig://BqwgR4uFSoX/m
+photo.9.author: yama_pix
+photo.9.commitdate: 2018/12/1
+photo.9.link: https://www.instagram.com/yama_pix/
+photo.10: ig://BraVrQtldkm/m
+photo.10.author: ifumoto88
+photo.10.commitdate: 2018/12/16
+photo.10.link: https://www.instagram.com/ifumoto88/
+photo.10.tags: tail
+photo.11: ig://BrnLE1alK60/m
+photo.11.author: yossi929
+photo.11.commitdate: 2018/12/21
+photo.11.link: https://www.instagram.com/yossi929/
+photo.11.tags: paws, smile
+photo.12: ig://BrrVzmkF3om/m
+photo.12.author: panda.daisuki
+photo.12.commitdate: 2018/12/22
+photo.12.link: https://www.instagram.com/panda.daisuki/
+photo.13: ig://BtUUJFZgOrM/m
+photo.13.author: miis_98
+photo.13.commitdate: 2019/2/17
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: bamboo, smile
+photo.14: ig://BuCxeW2Fsot/m
+photo.14.author: yossi929
+photo.14.commitdate: 2020/5/14
+photo.14.link: https://www.instagram.com/yossi929/
+photo.14.tags: portrait
+photo.15: ig://BuOPlOLFBfj/m
+photo.15.author: fetorus_mami
+photo.15.commitdate: 2019/3/3
+photo.15.link: https://www.instagram.com/fetorus_mami/
+photo.15.tags: bamboo
+photo.16: ig://BvROJYfFGy3/m
+photo.16.author: re_ichimaru
+photo.16.commitdate: 2019/3/22
+photo.16.link: https://www.instagram.com/re_ichimaru/
+photo.17: ig://Byy-D2ElXsU/m
+photo.17.author: v_kiki_v
+photo.17.commitdate: 2019/6/28
+photo.17.link: https://www.instagram.com/v_kiki_v/
+photo.17.tags: paws, smile
+photo.18: ig://B0a7DX2hShq/m
+photo.18.author: re_ichimaru
+photo.18.commitdate: 2019/7/28
+photo.18.link: https://www.instagram.com/re_ichimaru/
+photo.18.tags: paws, wave
+photo.19: ig://B0qX4cFBKyx/m
+photo.19.author: re_ichimaru
+photo.19.commitdate: 2019/8/10
+photo.19.link: https://www.instagram.com/re_ichimaru/
+photo.19.tags: paws, smile
+photo.20: ig://B9TAExNp71D/m
+photo.20.author: morikirara
+photo.20.commitdate: 2020/4/18
+photo.20.link: https://www.instagram.com/morikirara/
+photo.20.tags: close-up, portrait, whiskers
+photo.21: ig://B-6GFTQJcxh/m
+photo.21.author: morikirara
+photo.21.commitdate: 2020/4/18
+photo.21.link: https://www.instagram.com/morikirara/
+photo.21.tags: bamboo, tail, tongue
+photo.22: ig://CB1_JwVpzLV/m
+photo.22.author: morikirara
+photo.22.commitdate: 2020/11/20
+photo.22.link: https://www.instagram.com/morikirara/
+photo.22.tags: peek
+photo.23: ig://CHksuw-Bduu/m
+photo.23.author: firefoxpanda88
+photo.23.commitdate: 2020/11/18
+photo.23.link: https://www.instagram.com/firefoxpanda88/
+photo.23.tags: paws, portrait, smile
+photo.24: ig://CH7hyYvByNJ/m
+photo.24.author: re_ichimaru
+photo.24.commitdate: 2020/12/2
+photo.24.link: https://www.instagram.com/re_ichimaru/
+photo.24.tags: portrait, tail
+species: 2
+studbook.id: 0760
+zoo: 19

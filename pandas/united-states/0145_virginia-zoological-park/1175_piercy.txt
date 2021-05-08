@@ -1,0 +1,17 @@
+[panda]
+_id: 1175
+birthday: 2019/6/18
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Piercy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ピアシー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1176, 1177
+species: 1
+zoo: 145

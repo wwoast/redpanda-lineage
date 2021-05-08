@@ -1,0 +1,12 @@
+[zoo]
+_id: 217
+commitdate: 2019/11/9
+en.address: 20 Labouchere Rd, South Perth WA 6151, Australia
+en.location: Perth, Australia
+en.name: Perth Zoo
+flag: Australia
+language.order: en
+latitude: -31.9755308
+longitude: 115.8500678
+map: https://g.page/perth-zoo-south-perth?share
+website: https://perthzoo.wa.gov.au/

@@ -1,0 +1,22 @@
+[panda]
+_id: 1219
+birthday: 2020/7/1
+birthplace: 198
+children: none
+commitdate: 2020/9/7
+en.name: Aria
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アリア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1220
+photo.1: ig://CJ8il2fp5ow/m
+photo.1.author: curraghswildlifepark
+photo.1.commitdate: 2021/2/8
+photo.1.link: https://www.instagram.com/curraghswildlifepark/
+photo.1.tags: portrait, profile, tail, tree
+species: 1
+zoo: 198

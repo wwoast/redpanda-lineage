@@ -1,0 +1,87 @@
+[panda]
+_id: 202
+birthday: 2003/7/15
+birthplace: 6
+children: 257, 258, 302, 483, 195, 201, 259, 260
+commitdate: 2018/7/22
+en.name: Kō-Kō
+en.nicknames: none
+en.othernames: Kou-Kou, Ko-Ko, Koko, Koukou
+gender: m
+jp.name: 航航
+jp.nicknames: none
+jp.othernames: コウコウ
+language.order: jp, en
+litter: 452, 801
+location.1: 6, 2003/7/15
+location.2: 42, 2009/1/19
+photo.1: ig://BX2vkxTB8tS/m
+photo.1.author: apple_jasmine33
+photo.1.commitdate: 2020/5/7
+photo.1.link: https://www.instagram.com/apple_jasmine33/
+photo.1.tags: portrait
+photo.2: ig://BZNbXWQhAkD/m
+photo.2.author: miis_98
+photo.2.commitdate: 2019/6/23
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: portrait
+photo.3: ig://BZqo1A_BIpO/m
+photo.3.author: apple_jasmine33
+photo.3.commitdate: 2020/5/7
+photo.3.link: https://www.instagram.com/apple_jasmine33/
+photo.3.tags: portrait
+photo.4: ig://BcUOLo5FQTW/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/12/23
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: portrait, profile
+photo.5: ig://Bg4-IX7Bv5w/m
+photo.5.author: kotata_513
+photo.5.commitdate: 2019/6/23
+photo.5.link: https://www.instagram.com/kotata_513/
+photo.5.tags: paws, portrait
+photo.6: ig://BqmjNjjnv2n/m
+photo.6.author: yakko____
+photo.6.commitdate: 2018/12/6
+photo.6.link: https://www.instagram.com/yakko____/
+photo.6.tags: bamboo
+photo.7: ig://Br3huFhldHt/m
+photo.7.author: re_ichimaru
+photo.7.commitdate: 2018/12/26
+photo.7.link: https://www.instagram.com/re_ichimaru/
+photo.8: ig://BsVd-BBlIxG/m
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2019/1/9
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.9: ig://Btuv5B2lsEy/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2019/6/23
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: paws
+photo.10: ig://BtvdlWGF2lS/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2019/6/23
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.10.tags: portrait
+photo.11: ig://ByEl0N9hQC7/m
+photo.11.author: kipekaila
+photo.11.commitdate: 2019/6/1
+photo.11.link: https://www.instagram.com/kipekaila/
+photo.11.tags: itchy, wink
+photo.12: ig://B2eZtrQB_7p/m
+photo.12.author: mifko55
+photo.12.commitdate: 2019/9/18
+photo.12.link: https://www.instagram.com/mifko55/
+photo.12.tags: itchy, paws, portrait
+photo.13: ig://B5Jc7qohLdb/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/11/21
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: apple time, dish, eye, paws, tongue
+photo.14: ig://CE5NMyvBz45/m
+photo.14.author: grskus_tk
+photo.14.commitdate: 2020/9/24
+photo.14.link: https://www.instagram.com/grskus_tk/
+species: 2
+studbook.id: 0370
+zoo: 42

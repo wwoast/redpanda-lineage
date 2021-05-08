@@ -1,0 +1,25 @@
+[panda]
+_id: 459
+birthday: 2016/6/21
+birthplace: 51
+children: none
+commitdate: 2018/11/27
+en.name: Khairo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: カイロ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 458
+location.1: 51, 2016/6/21
+location.2: 44, 2017/10/26
+photo.1: ig://B4fPYV_FqTs/m
+photo.1.author: newzoogb
+photo.1.commitdate: 2019/12/7
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: portrait, profile, smile, tongue
+species: 2
+studbook.id: 1612
+zoo: 44

@@ -1,0 +1,155 @@
+[panda]
+_id: 170
+birthday: 2011/6/5
+birthplace: 114
+children: 604, 638, 639
+commitdate: 2018/7/12
+death: 2019/4/16
+en.name: Gaila
+en.nicknames: LadyBoss
+en.othernames: Gailabear
+gender: f
+jp.name: ガイラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 507
+location.1: 114, 2011/6/5
+location.2: 115, 2012/8/15
+location.3: 47, 2016/1/13
+location.4: 152, 2019/3/28
+photo.1: https://www.codaworry.com/images/rpf/gaila-1-kansascity.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bamboo
+photo.2: https://www.codaworry.com/images/rpf/gaila-2-kansascity.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: smile
+photo.3: https://www.codaworry.com/images/rpf/gaila-3-kansascity.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo
+photo.4: ig://BD31zwVPKMY/m
+photo.4.author: djjohnbeaver
+photo.4.commitdate: 2018/12/9
+photo.4.link: https://www.instagram.com/djjohnbeaver/
+photo.4.tags: air tasting, bamboo, tongue
+photo.5: ig://BSSOWqIBrqV/m
+photo.5.author: zookeeper_aj
+photo.5.commitdate: 2018/7/26
+photo.5.link: https://www.instagram.com/zookeeper_aj/
+photo.5.tags: techitechi
+photo.6: ig://BS9dGkOhoHI/m
+photo.6.author: zookeeper_aj
+photo.6.commitdate: 2020/4/1
+photo.6.link: https://www.instagram.com/zookeeper_aj/
+photo.6.tags: toys
+photo.7: ig://BU5NCkCAldF/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2018/7/26
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: portrait, tail
+photo.8: ig://BYBdl2wDuDA/m
+photo.8.author: hhpzoo
+photo.8.commitdate: 2020/4/1
+photo.8.link: https://www.instagram.com/hhpzoo/
+photo.8.tags: whiskers
+photo.9: ig://BYEICkzgYNm/m
+photo.9.author: wumpwoast
+photo.9.commitdate: 2018/12/9
+photo.9.link: https://www.instagram.com/wumpwoast/
+photo.10: ig://BaAauORg6ti/m
+photo.10.author: wumpwoast
+photo.10.commitdate: 2018/7/26
+photo.10.link: https://www.instagram.com/wumpwoast/
+photo.11: ig://Bb7bQJyl8fI/m
+photo.11.author: wumpwoast
+photo.11.commitdate: 2020/6/18
+photo.11.link: https://www.instagram.com/wumpwoast/
+photo.11.tags: close-up, door, mofumofu, paws, whiskers
+photo.12: ig://BiZ8xxclfy9/m
+photo.12.author: wumpwoast
+photo.12.commitdate: 2018/7/26
+photo.12.link: https://www.instagram.com/wumpwoast/
+photo.12.tags: pull-up
+photo.13: ig://BidjdaAn32S/m
+photo.13.author: zookeeper_aj
+photo.13.commitdate: 2020/4/1
+photo.13.link: https://www.instagram.com/zookeeper_aj/
+photo.13.tags: close-up, nose
+photo.14: ig://Bi-QZV0FUYm/m
+photo.14.author: wumpwoast
+photo.14.commitdate: 2020/6/18
+photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.tags: laying down, paws, portrait
+photo.15: ig://Bjz40EFHH-Q/m
+photo.15.author: zookeeper_aj
+photo.15.commitdate: 2018/7/26
+photo.15.link: https://www.instagram.com/zookeeper_aj/
+photo.16: ig://Bk1cgUilTzY/m
+photo.16.author: wumpwoast
+photo.16.commitdate: 2018/7/26
+photo.16.link: https://www.instagram.com/wumpwoast/
+photo.16.tags: laying down
+photo.17: ig://BmUrNnyntyO/m
+photo.17.author: zookeeper_aj
+photo.17.commitdate: 2018/9/13
+photo.17.link: https://www.instagram.com/zookeeper_aj/
+photo.17.tags: profile
+photo.18: ig://Bm1fxbeHjgx/m
+photo.18.author: zookeeper_aj
+photo.18.commitdate: 2020/4/1
+photo.18.link: https://www.instagram.com/zookeeper_aj/
+photo.18.tags: paws, peek
+photo.19: ig://BnxSyIbHky1/m
+photo.19.author: zookeeper_aj
+photo.19.commitdate: 2018/9/16
+photo.19.link: https://www.instagram.com/zookeeper_aj/
+photo.19.tags: paws
+photo.20: ig://BoLgH_RFljz/m
+photo.20.author: wumpwoast
+photo.20.commitdate: 2019/11/1
+photo.20.link: https://www.instagram.com/wumpwoast/
+photo.20.tags: laying down, portrait, sleeping
+photo.21: ig://BpfEjwxhnBn/m
+photo.21.author: alyss_or_rose
+photo.21.commitdate: 2020/5/25
+photo.21.link: https://www.instagram.com/alyss_or_rose/
+photo.21.tags: paws, pumpkin
+photo.22: ig://Bqd7qoHBLKx/m
+photo.22.author: zookeeper_aj
+photo.22.commitdate: 2018/11/21
+photo.22.link: https://www.instagram.com/zookeeper_aj/
+photo.22.tags: lunch time
+photo.23: ig://BsBx1kWhGqM/m
+photo.23.author: zookeeper_aj
+photo.23.commitdate: 2020/4/1
+photo.23.link: https://www.instagram.com/zookeeper_aj/
+photo.23.tags: laying down, peek
+photo.24: ig://BuWUmmigcw5/m
+photo.24.author: zookeeper_aj
+photo.24.commitdate: 2019/3/9
+photo.24.link: https://www.instagram.com/zookeeper_aj/
+photo.24.tags: bamboo
+photo.25: ig://BvFz66pAsdE/m
+photo.25.author: zookeeper_aj
+photo.25.commitdate: 2019/3/21
+photo.25.link: https://www.instagram.com/zookeeper_aj/
+photo.25.tags: paws
+photo.26: ig://BxZLlhxFlut/m
+photo.26.author: wumpwoast
+photo.26.commitdate: 2020/6/18
+photo.26.link: https://www.instagram.com/wumpwoast/
+photo.26.tags: bamboo, lunch time, paws, portrait
+photo.27: ig://B2PgDJll_wa/m
+photo.27.author: hhpzoo
+photo.27.commitdate: 2019/9/14
+photo.27.link: https://www.instagram.com/hhpzoo/
+photo.27.tags: lunchtime, portrait, white face
+species: 1
+studbook.id: 1109
+zoo: 152

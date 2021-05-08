@@ -1,0 +1,40 @@
+[panda]
+_id: 552
+birthday: 2017/6/20
+birthplace: 144
+children: none
+cn.name: 星星
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/3/9
+death: 2019/1/1
+en.name: Xing-Xing
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 星星
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 144, 2017/6/20
+location.2: 104, 2018/5/18
+photo.1: ig://BllEZ23FAA9/m
+photo.1.author: potawatomizoo
+photo.1.commitdate: 2020/2/28
+photo.1.link: https://www.instagram.com/potawatomizoo/
+photo.1.tags: portrait, profile, whiskers
+photo.2: ig://BnwD9QoFnUn/m
+photo.2.author: potawatomizoo
+photo.2.commitdate: 2020/2/28
+photo.2.link: https://www.instagram.com/potawatomizoo/
+photo.2.tags: smile, tail, tongue
+photo.3: ig://BorvbFIlaV9/m
+photo.3.author: potawatomizoo
+photo.3.commitdate: 2020/2/28
+photo.3.link: https://www.instagram.com/potawatomizoo/
+photo.3.tags: bamboo, portrait, tail
+species: 1
+studbook.id: 1735
+uncertainty: death date
+zoo: 104

@@ -1,0 +1,159 @@
+[panda]
+_id: 420
+birthday: 2015/6/26
+birthplace: 87
+children: none
+commitdate: 2018/11/23
+en.name: Clark
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: クラーク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 421
+location.1: 87, 2015/6/26
+location.2: 95, 2016/3/9
+photo.1: ig://BXQ5qhOj5Za/m
+photo.1.author: sandiegozoo
+photo.1.commitdate: 2019/10/26
+photo.1.link: https://www.instagram.com/sandiegozoo/
+photo.1.tags: laying down, portrait, tree
+photo.2: ig://BeER7czjCp5/m
+photo.2.author: sandiegozoo
+photo.2.commitdate: 2019/10/26
+photo.2.link: https://www.instagram.com/sandiegozoo/
+photo.2.tags: paws, smile, tongue
+photo.3: ig://BfG8638BFnZ/m
+photo.3.author: sandiegozoo
+photo.3.commitdate: 2019/10/26
+photo.3.link: https://www.instagram.com/sandiegozoo/
+photo.3.tags: laying down, paws, portrait, tree, tongue
+photo.4: ig://Bgg7_mXDASj/m
+photo.4.author: sandiegozoo
+photo.4.commitdate: 2019/10/26
+photo.4.link: https://www.instagram.com/sandiegozoo/
+photo.4.tags: portrait, smile, whiskers
+photo.5: ig://Bk4iimajRfa/m
+photo.5.author: rossifari
+photo.5.commitdate: 2018/11/23
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: bamboo, profile, smile
+photo.6: ig://BlhhRuOD9Xz/m
+photo.6.author: rossifari
+photo.6.commitdate: 2018/11/23
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: tongue, tree
+photo.7: ig://Bl0rFpXhnZc/m
+photo.7.author: rossifari
+photo.7.commitdate: 2018/11/23
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: sleeping, tree
+photo.8: ig://Bl3q_fgFORb/m
+photo.8.author: carsontheredpanda
+photo.8.commitdate: 2018/11/23
+photo.8.link: https://www.instagram.com/carsontheredpanda/
+photo.8.tags: laying down, tree
+photo.9: ig://BnwYD2uhrkM/m
+photo.9.author: rossifari
+photo.9.commitdate: 2018/11/23
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: air tasting, laying down, tongue, tree
+photo.10: ig://BoR6j5fABTJ/m
+photo.10.author: sandiegozoo
+photo.10.commitdate: 2019/10/26
+photo.10.link: https://www.instagram.com/sandiegozoo/
+photo.10.tags: portrait, smile
+photo.11: ig://Bp2VyiCHZu-/m
+photo.11.author: sandiegozoo
+photo.11.commitdate: 2019/10/26
+photo.11.link: https://www.instagram.com/sandiegozoo/
+photo.11.tags: portrait, tail
+photo.12: ig://BqOoQxShbEX/m
+photo.12.author: westcoast_kathy
+photo.12.commitdate: 2018/11/25
+photo.12.link: https://www.instagram.com/westcoast_kathy/
+photo.12.tags: tree
+photo.13: ig://BqRHOKVAuSs/m
+photo.13.author: westcoast_kathy
+photo.13.commitdate: 2018/11/25
+photo.13.link: https://www.instagram.com/westcoast_kathy/
+photo.13.tags: dish
+photo.14: ig://BqfhjkOHwwZ/m
+photo.14.author: sandiegozoo
+photo.14.commitdate: 2019/10/26
+photo.14.link: https://www.instagram.com/sandiegozoo/
+photo.14.tags: pumpkin
+photo.15: ig://BteBoS2hH99/m
+photo.15.author: sandiegozoo
+photo.15.commitdate: 2019/10/26
+photo.15.link: https://www.instagram.com/sandiegozoo/
+photo.15.tags: laying down, portrait
+photo.16: ig://BtyoJxqnlFs/m
+photo.16.author: sandiegozoo
+photo.16.commitdate: 2019/10/26
+photo.16.link: https://www.instagram.com/sandiegozoo/
+photo.16.tags: paws, smile, tongue
+photo.17: ig://BuFYRnynowR/m
+photo.17.author: sandiegozoo
+photo.17.commitdate: 2019/10/26
+photo.17.link: https://www.instagram.com/sandiegozoo/
+photo.17.tags: long-tongue, portrait, tongue
+photo.18: ig://BuJxj4UnzvY/m
+photo.18.author: sandiegozoo
+photo.18.commitdate: 2019/10/26
+photo.18.link: https://www.instagram.com/sandiegozoo/
+photo.18.tags: paws, tree, wet
+photo.19: ig://Bup8vuhlDBA/m
+photo.19.author: carsontheredpanda
+photo.19.commitdate: 2019/3/10
+photo.19.link: https://www.instagram.com/carsontheredpanda/
+photo.19.tags: paws, tongue, tree
+photo.20: ig://BxdndmvFZP2/m
+photo.20.author: sandiegozoo
+photo.20.commitdate: 2019/10/26
+photo.20.link: https://www.instagram.com/sandiegozoo/
+photo.20.tags: mofumofu, paws, smile
+photo.21: ig://ByQq6HgA_Sd/m
+photo.21.author: zoogirlsd
+photo.21.commitdate: 2019/6/3
+photo.21.link: https://www.instagram.com/zoogirlsd/
+photo.22: ig://BzvmPh9hOGH/m
+photo.22.author: carsontheredpanda
+photo.22.commitdate: 2019/7/11
+photo.22.link: https://www.instagram.com/carsontheredpanda/
+photo.22.tags: portrait, smile, tail, tongue
+photo.23: ig://B1ZewrqnEe9/m
+photo.23.author: naturalcuriosityphotography
+photo.23.commitdate: 2019/8/22
+photo.23.link: https://www.instagram.com/naturalcuriosityphotography/
+photo.23.tags: tongue
+photo.24: ig://B3qBUo7Atkh/m
+photo.24.author: sandiegozoo
+photo.24.commitdate: 2019/10/26
+photo.24.link: https://www.instagram.com/sandiegozoo/
+photo.24.tags: paws, portrait, tongue
+photo.25: ig://CAG28p7lB_U/m
+photo.25.author: sandiegozoo
+photo.25.commitdate: 2020/5/23
+photo.25.link: https://www.instagram.com/sandiegozoo/
+photo.25.tags: mofumofu, paws, portrait, tree
+photo.26: ig://CAXehyFjwRJ/m
+photo.26.author: rossifari
+photo.26.commitdate: 2020/9/10
+photo.26.link: https://www.instagram.com/rossifari/
+photo.26.tags: lunch time, paws, tongue
+photo.27: ig://CEHAjaNgdfq/m
+photo.27.author: rossifari
+photo.27.commitdate: 2020/9/15
+photo.27.link: https://www.instagram.com/rossifari/
+photo.27.tags: mofumofu, paws, portrait, tongue, whiskers
+photo.28: ig://CFi8qc0BaNe/m
+photo.28.author: carsontheredpanda
+photo.28.commitdate: 2020/9/26
+photo.28.link: https://www.instagram.com/carsontheredpanda/
+photo.28.tags: portrait, smile, tongue, whiskers
+species: 2
+studbook.id: 1534
+zoo: 95

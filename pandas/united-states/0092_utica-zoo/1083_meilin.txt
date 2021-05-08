@@ -1,0 +1,27 @@
+[panda]
+_id: 1083
+birthday: 2019/7/6
+birthplace: 92
+children: none
+commitdate: 2019/12/29
+en.name: Mei-Lin
+en.nicknames: none
+en.othernames: Meilin
+gender: f
+jp.name: メイリン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1082
+photo.1: ig://B7tOmffHsn9/m
+photo.1.author: uticazoo
+photo.1.commitdate: 2020/2/23
+photo.1.link: https://www.instagram.com/uticazoo/
+photo.1.tags: baby, techitechi
+photo.2: ig://B8RY12tnzBk/m
+photo.2.author: uticazoo
+photo.2.commitdate: 2020/2/23
+photo.2.link: https://www.instagram.com/uticazoo/
+photo.2.tags: baby, paws, whiskers
+species: 2
+zoo: 92

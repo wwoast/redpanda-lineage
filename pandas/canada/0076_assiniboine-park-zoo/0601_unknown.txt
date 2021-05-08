@@ -1,0 +1,23 @@
+[panda]
+_id: 601
+birthday: 2000/7/1
+birthplace: 37
+children: 426, 447, 603, 473, 590, 479
+commitdate: 2019/3/19
+death: 2011/9/14
+en.name: (no name)
+en.nicknames: none
+en.oldnames: Six
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.oldnames: 六
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 37, 2000/7/1
+location.2: 76, 2002/3/20
+species: 2
+studbook.id: 0095
+zoo: 76

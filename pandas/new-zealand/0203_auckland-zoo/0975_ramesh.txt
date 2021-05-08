@@ -1,0 +1,37 @@
+[panda]
+_id: 975
+birthday: 2015/1/15
+birthplace: 203
+children: 974, 1130
+commitdate: 2019/8/23
+en.name: Ramesh
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラメシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: ig://BAwOJM5B9zZ/m
+photo.1.author: fredvanterra
+photo.1.commitdate: 2019/8/23
+photo.1.link: https://www.instagram.com/fredvanterra/
+photo.1.tags: climb, portrait, smile, tree
+photo.2: ig://B02fChWpPgX/m
+photo.2.author: leelee8999
+photo.2.commitdate: 2019/8/23
+photo.2.link: https://www.instagram.com/leelee8999/
+photo.2.tags: peek, tree
+photo.3: ig://B1QSHYDp3Dk/m
+photo.3.author: julie_chandelier
+photo.3.commitdate: 2019/8/23
+photo.3.link: https://www.instagram.com/julie_chandelier/
+photo.3.tags: peek, tree
+photo.4: ig://BeUmt8kl1Nu/m
+photo.4.author: zookeepersd
+photo.4.commitdate: 2020/3/20
+photo.4.link: https://www.instagram.com/zookeepersd/
+photo.4.tags: lunch time, techitechi
+species: 1
+zoo: 203

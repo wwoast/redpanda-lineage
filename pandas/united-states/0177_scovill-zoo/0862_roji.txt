@@ -1,0 +1,18 @@
+[panda]
+_id: 862
+birthday: 2018/6/25
+birthplace: 177
+children: none
+commitdate: 2019/6/9
+en.name: Roji
+en.nicknames: none
+en.othernames: Rosie
+gender: f
+jp.name: ロジ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 861
+species: 1
+studbook.id: 1820
+zoo: 177

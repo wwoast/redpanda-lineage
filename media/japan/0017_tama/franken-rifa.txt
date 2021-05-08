@@ -1,0 +1,25 @@
+[media]
+_id: media.17.franken-rifa
+commitdate: 2019/8/21
+panda.tags: 101, 240
+photo.1: ig://B05yId2hSh0/l
+photo.1.author: ssc6105
+photo.1.commitdate: 2019/8/21
+photo.1.link: https://www.instagram.com/ssc6105/
+photo.1.tags: father's day
+photo.1.tags.101.location: 285, 460
+photo.1.tags.240.location: 945, 520
+photo.2: ig://B0DITl9hTVZ/m
+photo.2.author: osopanda551
+photo.2.commitdate: 2019/12/5
+photo.2.link: https://www.instagram.com/osopanda551/
+photo.2.tags: door, father's day, smile
+photo.2.tags.101.location: 180, 245
+photo.2.tags.240.location: 125, 90
+photo.3: ig://B4b-YOKFuaz/l
+photo.3.author: ssc6105
+photo.3.commitdate: 2019/12/5
+photo.3.link: https://www.instagram.com/ssc6105/
+photo.3.tags: father's day
+photo.3.tags.101.location: 605, 350
+photo.3.tags.240.location: 585, 590

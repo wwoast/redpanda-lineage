@@ -1,0 +1,26 @@
+[panda]
+_id: 844
+birthday: 2011/6/17
+birthplace: 49
+children: 845, 846, 553, 847
+commitdate: 2019/4/15
+death: 2016/11/14
+en.name: Damini
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 843
+location.1: 49, 2011/6/17
+location.2: 129, 2012/4/11
+photo.1: ig://bXVot7ykLB/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/9/28
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, white face
+species: 1
+studbook.id: 1119
+zoo: 129

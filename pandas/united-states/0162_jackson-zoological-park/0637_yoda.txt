@@ -1,0 +1,28 @@
+[panda]
+_id: 637
+birthday: 2006/7/3
+birthplace: 114
+children: 630, 631, 632, 633, 634, 635, 636, 864, 580, 807, 808
+commitdate: 2019/3/19
+death: 2020/6/1
+en.name: Yoda
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヨーダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 114, 2006/7/3
+location.2: 146, 2007/5/8
+location.3: 162, 2014/2/24
+photo.1: ig://B6E2UdrAsi7/m
+photo.1.author: esdeemphoto
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/esdeemphoto/
+photo.1.tags: portrait, tongue, whiskers
+species: 1
+studbook.id: 0626
+uncertainty: death exact date
+zoo: 162

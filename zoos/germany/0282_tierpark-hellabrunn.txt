@@ -1,0 +1,15 @@
+[zoo]
+_id: 282
+commitdate: 2021/4/11
+de.address: Tierparkstraße 30, 81543, München, Deutschland
+de.location: München, Deutschland
+de.name: Münchener Tierpark Hellabrunn
+en.address: Tierparkstraße 30, 81543, Munich, Germany
+en.location: Munich, Germany
+en.name: Hellabrunn Zoo
+flag: Germany
+language.order: de, en
+latitude: 48.0969444
+longitude: 11.5517002
+map: https://goo.gl/maps/iwfuHzr2sLkYR7ZX6
+website: https://www.hellabrunn.de/

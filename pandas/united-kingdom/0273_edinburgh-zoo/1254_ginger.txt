@@ -1,0 +1,22 @@
+[panda]
+_id: 1254
+birthday: 2015/7/27
+birthplace: unknown
+children: 1256
+commitdate: 2021/4/7
+en.name: Ginger
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジンジャー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+photo.1: ig://B_hURjWJVKK/m
+photo.1.author: Edinburgh Zoo
+photo.1.commitdate: 2021/4/7
+photo.1.link: https://www.instagram.com/edinburghzoo/
+photo.1.tags: smile, videolink
+species: 1
+studbook.id: 1586
+zoo: 273

@@ -1,0 +1,91 @@
+[panda]
+_id: 198
+birthday: 2010/7/10
+birthplace: 7
+children: 51, 284, 200
+commitdate: 2018/7/22
+en.name: Lily
+en.nicknames: none
+en.othernames: none
+es.name: Lily
+es.nicknames: none
+es.othernames: Lili
+gender: f
+jp.name: リリィ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, es, en
+litter: 60
+location.1: 7, 2010/7/10
+location.2: 9, 2012/4/23
+location.3: 56, 2015/5/1
+photo.1: ig://txdURnOPkj/m
+photo.1.author: kota795
+photo.1.commitdate: 2018/12/26
+photo.1.link: https://www.instagram.com/kota795/
+photo.1.tags: profile, tree
+photo.2: ig://woKmonEg7I/m
+photo.2.author: cristobal.osorio2019
+photo.2.commitdate: 2020/3/25
+photo.2.link: https://www.instagram.com/cristobal.osorio2019/
+photo.2.tags: close-up
+photo.3: https://www.codaworry.com/images/rpf/lily-1-santiago.jpg
+photo.3.author: shin-lachitina
+photo.3.commitdate: 2019/4/11
+photo.3.link: https://shinlachi.exblog.jp/20199319/
+photo.3.tags: bamboo, snow
+photo.4: ig://yFtIewRWKb/m
+photo.4.author: barbaraabarza
+photo.4.commitdate: 2018/12/26
+photo.4.link: https://www.instagram.com/barbaraabarza/
+photo.4.tags: bamboo, portrait, tongue
+photo.5: ig://1RhbqzBVo_/m
+photo.5.author: zookeeperseba
+photo.5.commitdate: 2018/8/20
+photo.5.link: https://www.instagram.com/zookeeperseba/
+photo.5.tags: portrait
+photo.6: ig://8I749lIXNe/m
+photo.6.author: buse_cnv
+photo.6.commitdate: 2018/12/26
+photo.6.link: https://www.instagram.com/buse_cnv/
+photo.7: ig://_1ihyaMTVq/m
+photo.7.author: alucena71
+photo.7.commitdate: 2019/10/31
+photo.7.link: https://www.instagram.com/alucena71/
+photo.7.tags: laying down, portrait, whiskers
+photo.8: ig://BSuN4dmlWh2/m
+photo.8.author: pili_santelices
+photo.8.commitdate: 2019/10/31
+photo.8.link: https://www.instagram.com/pili_santelices/
+photo.8.tags: portrait, tree
+photo.9: ig://BZxH8c5BJzQ/m
+photo.9.author: sophierockshots
+photo.9.commitdate: 2019/5/22
+photo.9.link: https://www.instagram.com/sophierockshots/
+photo.9.tags: sleeping, tail
+photo.10: ig://BZxILLXBdJS/m
+photo.10.author: sophierockshots
+photo.10.commitdate: 2019/10/31
+photo.10.link: https://www.instagram.com/sophierockshots/
+photo.11: ig://BZxIeFgByWE/m
+photo.11.author: sophierockshots
+photo.11.commitdate: 2019/5/22
+photo.11.link: https://www.instagram.com/sophierockshots/
+photo.11.tags: blink, mofumofu, portrait, tail
+photo.12: ig://BaM4jSpBdiO/m
+photo.12.author: sophierockshots
+photo.12.commitdate: 2019/5/22
+photo.12.link: https://www.instagram.com/sophierockshots/
+photo.13: ig://BjLsL3mAfPQ/m
+photo.13.author: from_chile
+photo.13.commitdate: 2019/10/31
+photo.13.link: https://www.instagram.com/from_chile/
+photo.13.tags: paws, tail
+photo.14: ig://BjLsR8uAbO8/m
+photo.14.author: from_chile
+photo.14.commitdate: 2019/10/31
+photo.14.link: https://www.instagram.com/from_chile/
+photo.14.tags: mofumofu
+species: 2
+studbook.id: 10110
+zoo: 56

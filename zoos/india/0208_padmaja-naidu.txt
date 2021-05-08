@@ -1,0 +1,15 @@
+[zoo]
+_id: 208
+commitdate: 2019/8/24
+en.address: Jorethang Rd, Jawahar Parbat, Darjeeling, West Bengal 734101
+en.location: Darjeeling, West Bengal, India
+en.name: Padmaja Naidu Himalayan Zoological Park
+flag: India
+in.address: Jorethang Rd, Jawahar Parbat, Darjeeling, West Bengal 734101
+in.location: Darjeeling, West Bengal, India
+in.name: पद्मजा नायडू हिमालयन जुलोजिकल पार्क
+language.order: in, en
+latitude: 27.0559755
+longitude: 88.2539962
+map: https://goo.gl/maps/C9avzzkuLqMsUiui8
+website: http://pnhzp.gov.in/

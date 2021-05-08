@@ -1,0 +1,100 @@
+[panda]
+_id: 301
+birthday: 2013/6/25
+birthplace: 6
+children: none
+commitdate: 2018/8/3
+en.name: Riko
+en.nicknames: none
+en.othernames: Rico
+gender: f
+jp.name: リコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 6, 2013/6/25
+location.2: 30, 2015/1/15
+photo.1: ig://BTDwxn5gi70/m
+photo.1.author: monmon_redpanda
+photo.1.commitdate: 2018/8/23
+photo.1.link: https://www.instagram.com/monmon_redpanda/
+photo.1.tags: bamboo, muzzle, techitechi, tongue
+photo.2: ig://BsG-en1F72s/m
+photo.2.author: monmon_redpanda
+photo.2.commitdate: 2019/1/3
+photo.2.link: https://www.instagram.com/monmon_redpanda/
+photo.2.tags: bamboo, smile
+photo.3: ig://BsKVDQgF305/m
+photo.3.author: re_ichimaru
+photo.3.commitdate: 2019/1/3
+photo.3.link: https://www.instagram.com/re_ichimaru/
+photo.3.tags: smile, techitechi
+photo.4: ig://BvX5arelqaQ/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/4/5
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: bamboo, tongue
+photo.5: ig://BvaJltDlUXl/m
+photo.5.author: craig_craig_craig
+photo.5.commitdate: 2019/4/5
+photo.5.link: https://www.instagram.com/craig_craig_craig/
+photo.5.tags: laying down, lips
+photo.6: ig://Bw_64kal2be/m
+photo.6.author: daniele.tokyo
+photo.6.commitdate: 2019/5/5
+photo.6.link: https://www.instagram.com/daniele.tokyo/
+photo.6.tags: bamboo, tongue
+photo.7: ig://BxQ5-0dlEV0/m
+photo.7.author: tabechum
+photo.7.commitdate: 2019/5/10
+photo.7.link: https://www.instagram.com/tabechum/
+photo.7.tags: blink, laying down, techitechi, tree
+photo.8: ig://Bxj3JvXlj8J/m
+photo.8.author: daniele.tokyo
+photo.8.commitdate: 2019/5/18
+photo.8.link: https://www.instagram.com/daniele.tokyo/
+photo.8.tags: bamboo, paws
+photo.9: ig://ByWK0yIhxQj/m
+photo.9.author: re_ichimaru
+photo.9.commitdate: 2019/6/6
+photo.9.link: https://www.instagram.com/re_ichimaru/
+photo.9.tags: lips
+photo.10: ig://B06DYJkhnh_/m
+photo.10.author: mishimarugo
+photo.10.commitdate: 2019/8/27
+photo.10.link: https://www.instagram.com/mishimarugo/
+photo.10.tags: mofumofu, portrait
+photo.11: ig://B2ZLo4MhH9h/m
+photo.11.author: miis_98
+photo.11.commitdate: 2019/9/16
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: apple time, dish, portrait, profile, smile
+photo.12: ig://B6z7Oc-BBlE/m
+photo.12.author: re_ichimaru
+photo.12.commitdate: 2020/1/9
+photo.12.link: https://www.instagram.com/re_ichimaru/
+photo.12.tags: bamboo, muzzle, portrait, smile
+photo.13: ig://B-d5ggABdHT/m
+photo.13.author: craig_craig_craig
+photo.13.commitdate: 2020/4/3
+photo.13.link: https://www.instagram.com/craig_craig_craig/
+photo.13.tags: portrait, whiskers
+photo.14: ig://CHF8tIZh1_w/m
+photo.14.author: miis_98
+photo.14.commitdate: 2020/11/5
+photo.14.link: https://www.instagram.com/miis_98/
+photo.14.tags: air tasting, portrait, tongue
+photo.15: ig://CHPJZJrhsfa/m
+photo.15.author: miis_98
+photo.15.commitdate: 2020/11/15
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: door, portrait, smile
+photo.16: ig://CHSjuCMBrvs/m
+photo.16.author: yossi929
+photo.16.commitdate: 2020/11/15
+photo.16.link: https://www.instagram.com/yossi929/
+photo.16.tags: paws, portrait, tree
+species: 2
+studbook.id: 13157
+zoo: 30

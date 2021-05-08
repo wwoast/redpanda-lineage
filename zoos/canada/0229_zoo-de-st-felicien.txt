@@ -1,0 +1,21 @@
+[zoo]
+_id: 229
+commitdate: 2019/12/31
+en.address: 2230 Boulevard du Jardin, Saint-Félicien, QC G8K 0H1, Canada
+en.location: Saint-Félicien, Quebec, Canada
+en.name: Wild Zoo of Saint-Félicien
+en.othernames: Zoo Sauvage, Saint-Felicien Zoo
+flag: Canada
+fr.address: 2230 Boulevard du Jardin, Saint-Félicien, QC G8K 0H1, Canada
+fr.location: Saint-Félicien, Quebec, Canada
+fr.name: Zoo Sauvage de Saint-Félicien
+language.order: fr, en
+latitude: 48.6854468
+longitude: -72.516756
+map: https://goo.gl/maps/GuhAEuYcB6w8UNHD8
+photo.1: ig://B5TYvJejJJB/m
+photo.1.author: zoosauvageofficiel
+photo.1.commitdate: 2019/12/31
+photo.1.link: https://www.instagram.com/zoosauvageofficiel/
+photo.1.tags: profile
+website: https://zoosauvage.org/

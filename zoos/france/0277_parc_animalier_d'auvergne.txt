@@ -1,0 +1,12 @@
+[zoo]
+_id: 277
+commitdate: 2021/4/10
+en.address: Route d'Anzat Le Luguet 63420, Ardes-sur-Couze, France
+en.location: Ardes-sur-Couze, France
+en.name: Parc Animalier d'Auvergne
+flag: France
+language.order: en
+latitude: 45.393251
+longitude: 3.1137653
+map: https://goo.gl/maps/RHQiB2w89SeU695AA
+website: http://www.parcanimalierdauvergne.fr/

@@ -1,0 +1,25 @@
+[panda]
+_id: 1095
+birthday: 2013/6/16
+birthplace: 134
+children: none
+commitdate: 2020/1/25
+en.name: Móhú
+en.nicknames: none
+en.othernames: Mohu
+gender: f
+jp.name: モフ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 134, 2013/6/16
+location.2: 155, 2014/5/16
+location.3: 125, 2018/4/12
+photo.1: ig://BqMDqqoBGMu/m
+photo.1.author: rossifari
+photo.1.commitdate: 2020/8/17
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: portrait, profile, whiskers, white face
+species: 1
+zoo: 125

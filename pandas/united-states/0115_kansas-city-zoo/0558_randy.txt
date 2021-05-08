@@ -1,0 +1,60 @@
+[panda]
+_id: 558
+birthday: 2014/6/23
+birthplace: 108
+children: 1221, 1222, 1223
+commitdate: 2019/3/10
+en.name: Randy
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ランディ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 914
+location.1: 108, 2014/6/23
+location.2: 115, 2016/2/5
+photo.1: ig://BgJj0ktD3hp/m
+photo.1.author: kansascityzoo
+photo.1.commitdate: 2019/12/5
+photo.1.link: https://www.instagram.com/kansascityzoo/
+photo.1.tags: mozzle, portrait, smile, tongue
+photo.2: ig://BzoIh1xB_bq/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/7/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, profile
+photo.3: ig://B3AA4Ssh0Sr/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/10/10
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, paws, portrait, upside-down
+photo.4: ig://B39poWmnqLT/m
+photo.4.author: kansascityzoo
+photo.4.commitdate: 2019/12/5
+photo.4.link: https://www.instagram.com/kansascityzoo/
+photo.4.tags: paws, portrait, pumpkin, smile, standing
+photo.5: ig://B5az5CRhdi_/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/11/29
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: bamboo, portrait
+photo.6: ig://B5az-qzB_--/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/11/29
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: laying down, tongue
+photo.7: ig://B5a0G7ehIGl/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/11/29
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: itchy, portrait, surprise
+photo.8: ig://B5a0VBgh6MA/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/11/29
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: portrait, target training
+species: 1
+studbook.id: 1432
+zoo: 115

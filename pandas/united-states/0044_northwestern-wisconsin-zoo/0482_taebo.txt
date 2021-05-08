@@ -1,0 +1,23 @@
+[panda]
+_id: 482
+birthday: 1998/6/27
+birthplace: 65
+children: 150, 480
+commitdate: 2018/12/4
+death: 2015/9/22
+en.name: Tae-Bo
+en.nicknames: none
+en.othernames: Taebo
+gender: m
+jp.name: タエポー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 1998/6/27
+location.2: 105, 1999/6/17
+location.3: 90, 2002/7/9
+location.4: 44, 2003/5/28
+species: 2
+studbook.id: 9823
+zoo: 44

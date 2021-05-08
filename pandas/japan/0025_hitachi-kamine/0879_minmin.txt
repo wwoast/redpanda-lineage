@@ -1,0 +1,21 @@
+[panda]
+_id: 879
+birthday: 1993/6/30
+birthplace: 45
+children: none
+commitdate: 2019/6/23
+death: 2007/7/24
+en.name: Min-Min
+en.nicknames: none
+en.othernames: Minmin
+gender: m
+jp.name: ミンミン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 880, 881
+location.1: 45, 1993/6/30
+location.2: 25, 1994/11/25
+species: 2
+studbook.id: 9398
+zoo: 25

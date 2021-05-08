@@ -1,0 +1,17 @@
+[zoo]
+_id: 197
+commitdate: 2019/7/15
+en.address: Castle Hill, Dudley DY1 4QF, UK
+en.location: Dudley, UK
+en.name: Dudley Zoological Gardens
+flag: UK
+language.order: en
+latitude: 52.5136579
+longitude: -2.0809638
+map: https://goo.gl/maps/9zbBT4pE4bifKV4p6
+photo.1: ig://B47pamUAcue/m
+photo.1.author: dudley.zoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/dudley.zoo/
+photo.1.tags: profile
+website: https://www.dudleyzoo.org.uk/

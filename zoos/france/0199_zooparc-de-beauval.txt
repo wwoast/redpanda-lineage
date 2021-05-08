@@ -1,0 +1,15 @@
+[zoo]
+_id: 199
+commitdate: 2019/7/22
+en.address: Avenue du Blanc, 41110 St Aignan, France
+en.location: Saint-Aignan, France
+en.name: ZooParc de Beauval
+flag: France
+fr.address: Avenue du Blanc, 41110 St Aignan, France
+fr.location: Saint-Aignan, France
+fr.name: ZooParc de Beauval
+language.order: fr, en
+latitude: 47.249116
+longitude: 1.3478437
+map: https://goo.gl/maps/azTGW8JiEnw7QpEu8
+website: https://www.zoobeauval.com/

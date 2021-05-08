@@ -1,0 +1,44 @@
+[panda]
+_id: 908
+birthday: 2007/6/19
+birthplace: 107
+children: 552, 1059
+cn.name: 天通
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/7/2
+death: 2018/7/14
+en.name: Gary
+en.nicknames: none
+en.oldnames: Tian Tong, Tian-Tong, Tiantong
+en.othernames: none
+gender: m
+jp.name: ゲイリー
+jp.nicknames: none
+jp.oldnames: ティエン・トン, 天通
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 107, 2007/6/19
+location.2: 144, 2008/7/25
+photo.1: ig://d6-BKPykHx/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/5/11
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, profile, smile, tongue
+photo.2: ig://yfi4JyFalu/m
+photo.2.author: sunsetzoomhk
+photo.2.commitdate: 2020/5/11
+photo.2.link: https://www.instagram.com/sunsetzoomhk/
+photo.2.tags: portrait
+photo.3: ig://BHss2C1gBIi/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/5/11
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo, mofumofu, portrait, smile
+photo.4: ig://BHss7vRgzaR/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/5/11
+photo.4.link: https://www.instagram.com/worldthathesees/
+species: 1
+zoo: 144

@@ -1,0 +1,15 @@
+[zoo]
+_id: 251
+commitdate: 2020/5/23
+de.address: Am Tierpark 125, 10319 Berlin, Germany
+de.location: Berlin, Germany
+de.name: Tierpark Berlin
+en.address: Am Tierpark 125, 10319 Berlin, Germany
+en.location: Berlin, Germany
+en.name: Tierpark Berlin
+flag: Germany
+language.order: de, en
+latitude: 52.502307
+longitude: 13.5226012
+map: https://goo.gl/maps/qRRDZXnkQJiXarRN9
+website: https://www.tierpark-berlin.de/

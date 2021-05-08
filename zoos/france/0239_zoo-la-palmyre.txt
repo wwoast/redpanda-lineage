@@ -1,0 +1,25 @@
+[zoo]
+_id: 239
+commitdate: 2020/3/27
+en.address: 6 Avenue de Royan, 17570 Les Mathes, France
+en.location: Les Mathes, Charente-Maritime, France
+en.name: Zoo La Palmyre
+flag: France
+fr.address: 6 Avenue de Royan, 17570 Les Mathes, France
+fr.location: Les Mathes, Charente-Maritime, France
+fr.name: Zoo La Palmyre
+fr.othernames: Parc Zoologique De La Palmyre
+language.order: fr, en
+latitude: 45.6883992
+longitude: -1.1750126
+map: https://g.page/zoolapalmyre_officiel?share
+photo.1: ig://B34dM1TCnnG/m
+photo.1.author: zoolapalmyre_officiel
+photo.1.commitdate: 2020/8/23
+photo.1.link: https://www.instagram.com/zoolapalmyre_officiel/
+photo.2: ig://B_kI7HnJtwq/m
+photo.2.author: zoolapalmyre_officiel
+photo.2.commitdate: 2020/8/23
+photo.2.link: https://www.instagram.com/zoolapalmyre_officiel/
+photo.2.tags: profile
+website: https://www.zoo-palmyre.fr/

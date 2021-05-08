@@ -1,0 +1,20 @@
+[panda]
+_id: 192
+birthday: 2004/6/17
+birthplace: 17
+children: none
+commitdate: 2018/7/14
+en.name: Sumire
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スミレ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 157
+location.1: 17, 2004/6/17
+location.2: 55, 2005/12/15
+species: 2
+studbook.id: 0460
+zoo: 55

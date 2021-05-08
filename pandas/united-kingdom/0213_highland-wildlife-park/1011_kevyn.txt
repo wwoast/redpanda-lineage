@@ -1,0 +1,41 @@
+[panda]
+_id: 1011
+birthday: 2011/7/14
+birthplace: 184
+children: 1155, 1013, 1014, 1010, 1015
+commitdate: 2019/11/1
+en.name: Kevyn
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: unknown
+location.1: 184, 2011/7/14
+location.2: 213, 2012/7/24
+photo.1: ig://BhYmQCAjZVD/m
+photo.1.author: jbhague
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/jbhague/
+photo.1.tags: portrait
+photo.2: ig://Bv1SjuNAOdI/m
+photo.2.author: bbateyphotography
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/bbateyphotography/
+photo.2.tags: paws, tree
+photo.3: ig://B2phw_2H2fT/m
+photo.3.author: photos_by_ciara_
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/photos_by_ciara_/
+photo.3.tags: portrait, profile
+photo.4: https://pbs.twimg.com/media/D_bbX-eXkAAkNJ0.jpg
+photo.4.author: Jan Morse
+photo.4.commitdate: 2019/11/1
+photo.4.link: https://twitter.com/HighlandWPark
+photo.4.tags: birthday, cute
+photo.5: ig://BzdD_ZKl5oz/m
+photo.5.author: arronebden
+photo.5.commitdate: 2019/11/2
+photo.5.link: https://www.instagram.com/arronebden/
+photo.5.tags: paws, tail, tree
+species: 1
+zoo: 213

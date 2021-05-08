@@ -1,0 +1,20 @@
+[zoo]
+_id: 87
+commitdate: 2018/11/22
+en.address: 2001 N Clark St, Chicago, IL 60614
+en.location: Chicago, Illinois, USA
+en.name: Lincoln Park Zoo
+flag: USA
+language.order: en
+latitude: 41.9211024
+longitude: -87.6509837
+map: https://goo.gl/maps/HadVPFE1zaq
+photo.1: ig://BT5R0oGhH7M/m
+photo.1.author: cristina_chernysh
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/cristina_chernysh/
+photo.2: ig://BiIOOkkBrkd/m
+photo.2.author: lincolnparkzoo
+photo.2.commitdate: 2019/5/18
+photo.2.link: https://www.instagram.com/lincolnparkzoo/
+website: https://www.lpzoo.org/

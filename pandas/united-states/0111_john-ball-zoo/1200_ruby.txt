@@ -1,0 +1,27 @@
+[panda]
+_id: 1200
+birthday: 2020/6/25
+birthplace: 111
+children: none
+commitdate: 2020/7/31
+en.name: Ruby
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ルビー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1199, 1201
+photo.1: ig://CG0ENapD4UW/m
+photo.1.author: johnballzoogr
+photo.1.commitdate: 2020/11/23
+photo.1.link: https://www.instagram.com/johnballzoogr/
+photo.1.tags: baby, keeper, portrait, profile, white face
+photo.2: ig://CH3NMLFDy17/m
+photo.2.author: johnballzoogr
+photo.2.commitdate: 2020/11/28
+photo.2.link: https://www.instagram.com/johnballzoogr/
+photo.2.tags: baby, mofumofu, portrait, white face
+species: 2
+zoo: 111

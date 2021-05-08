@@ -1,0 +1,50 @@
+[panda]
+_id: 526
+birthday: 2011/7/5
+birthplace: 120
+children: 529, 311, 527
+commitdate: 2019/2/24
+en.name: Duli
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ドゥリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 870
+location.1: 120, 2011/7/5
+location.2: 80, 2012/5/22
+location.3: 128, 2014/11/28
+photo.1: ig://q5XlSASkC7/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/3/17
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile, smile
+photo.2: ig://1TMPTDJYfa/m
+photo.2.author: zoomontana
+photo.2.commitdate: 2019/3/17
+photo.2.link: https://www.instagram.com/zoomontana/
+photo.3: ig://BvPYsdkFd38/m
+photo.3.author: zoomontana
+photo.3.commitdate: 2020/3/21
+photo.3.link: https://www.instagram.com/zoomontana/
+photo.3.tags: mofumofu, portrait
+photo.4: ig://B6JppnNJA9Z/m
+photo.4.author: zoomontana
+photo.4.commitdate: 2020/3/21
+photo.4.link: https://www.instagram.com/zoomontana/
+photo.4.tags: snow, tail
+photo.5: ig://CCoxQD-DfGE/m
+photo.5.author: krs_wildlife_photography
+photo.5.commitdate: 2020/9/10
+photo.5.link: https://www.instagram.com/krs_wildlife_photography/
+photo.5.tags: portrait, tail
+photo.6: ig://CCoxkFHD9pc/m
+photo.6.author: krs_wildlife_photography
+photo.6.commitdate: 2020/9/10
+photo.6.link: https://www.instagram.com/krs_wildlife_photography/
+photo.6.tags: laying down, portrait, tail
+species: 1
+studbook.id: 1129
+zoo: 128

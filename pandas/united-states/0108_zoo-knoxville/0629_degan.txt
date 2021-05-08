@@ -1,0 +1,51 @@
+[panda]
+_id: 629
+birthday: 2011/6/17
+birthplace: 105
+children: 626, 627, 628, 1076, 1251
+commitdate: 2019/3/19
+en.name: Degan Reid
+en.nicknames: none
+en.othernames: Degan
+gender: m
+jp.name: デガンリード
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 105, 2011/6/17
+location.2: 122, 2012/4/12
+location.3: 108, 2018/2/15
+photo.1: https://www.codaworry.com/images/rpf/deganreid-1-knoxville.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/12
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bridge, white face
+photo.2: https://www.codaworry.com/images/rpf/deganreid-2-knoxville.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/12
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: white face
+photo.3: ig://B5fO6j5h8C4/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/3
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: laying down, portrait, profile, white face
+photo.4: ig://B7dohh-hXQR/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/11/16
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: nose, portrait
+photo.5: ig://B89-eKABun2/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2021/1/5
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: laying down, tail
+photo.6: ig://B9AD3JtB6cV/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/2/29
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: laying down, tail
+species: 1
+studbook.id: 1105
+zoo: 108

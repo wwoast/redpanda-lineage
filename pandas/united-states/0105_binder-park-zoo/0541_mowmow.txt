@@ -1,0 +1,20 @@
+[panda]
+_id: 541
+birthday: 2014/6/11
+birthplace: 117
+children: 681, 576, 554
+commitdate: 2019/3/2
+en.name: Mow-Mow
+en.nicknames: none
+en.othernames: Mowmow
+gender: m
+jp.name: モウモウ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 680
+location.1: 117, 2014/6/11
+location.2: 105, 2015/11/10
+species: 1
+studbook.id: 1408
+zoo: 105

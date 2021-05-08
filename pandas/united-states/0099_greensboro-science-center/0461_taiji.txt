@@ -1,0 +1,55 @@
+[panda]
+_id: 461
+birthday: 2012/5/21
+birthplace: 83
+children: none
+commitdate: 2018/11/27
+en.name: Taiji
+en.nicknames: none
+en.othernames: Tai
+gender: m
+jp.name: たいじ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 83, 2012/5/21
+location.2: 99, 2013/3/27
+photo.1: ig://BA2gsinGv8i/m
+photo.1.author: greensborosciencecenter
+photo.1.commitdate: 2018/11/27
+photo.1.link: https://www.instagram.com/greensborosciencecenter/
+photo.1.tags: portrait, snow, tongue
+photo.2: ig://BUXHygrFvBn/m
+photo.2.author: greensborosciencecenter
+photo.2.commitdate: 2018/11/27
+photo.2.link: https://www.instagram.com/greensborosciencecenter/
+photo.2.tags: portrait, profile, standing
+photo.3: ig://Bpr4H-mndwt/m
+photo.3.author: greensborosciencecenter
+photo.3.commitdate: 2020/8/9
+photo.3.link: https://www.instagram.com/greensborosciencecenter/
+photo.3.tags: keeper, portrait, smile
+photo.4: ig://B1gVf8bjlbP/m
+photo.4.author: greensborosciencecenter
+photo.4.commitdate: 2020/8/9
+photo.4.link: https://www.instagram.com/greensborosciencecenter/
+photo.4.tags: portrait, tail, tongue, whiskers
+photo.5: ig://B2B2K4kDY7Z/m
+photo.5.author: greensborosciencecenter
+photo.5.commitdate: 2020/8/9
+photo.5.link: https://www.instagram.com/greensborosciencecenter/
+photo.5.tags: door, portrait, tail, whiskers
+photo.6: ig://CADiCcmDZk7/m
+photo.6.author: greensborosciencecenter
+photo.6.commitdate: 2020/5/14
+photo.6.link: https://www.instagram.com/greensborosciencecenter/
+photo.6.tags: bamboo, bite, paws, portrait
+photo.7: ig://CByCg4HDepS/m
+photo.7.author: greensborosciencecenter
+photo.7.commitdate: 2020/8/9
+photo.7.link: https://www.instagram.com/greensborosciencecenter/
+photo.7.tags: portrait, tongue
+species: 2
+studbook.id: 1233
+zoo: 99

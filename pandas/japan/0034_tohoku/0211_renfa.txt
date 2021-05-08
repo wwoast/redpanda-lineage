@@ -1,0 +1,19 @@
+[panda]
+_id: 211
+birthday: 1996/7/10
+birthplace: 34
+children: none
+commitdate: 2018/7/26
+death: 2014/2/2
+en.name: Ren-Fa
+en.nicknames: none
+en.othernames: Renfa
+gender: f
+jp.name: 蓮花
+jp.nicknames: none
+jp.othernames: レンファ
+language.order: jp, en
+litter: none
+species: 2
+studbook.id: 9699
+zoo: 34

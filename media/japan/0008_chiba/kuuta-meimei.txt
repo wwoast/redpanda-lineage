@@ -1,0 +1,18 @@
+[media]
+_id: media.8.kuuta-meimei
+commitdate: 2020/5/2
+panda.tags: 35, 36
+photo.1: ig://-XkdmsPizq/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2020/5/2
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: apple time, couple, paws, portrait, prayer, standing
+photo.1.tags.35.location: 100, 65
+photo.1.tags.36.location: 240, 100
+photo.2: ig://B_cke0_nN3J/m
+photo.2.author: miis_98
+photo.2.commitdate: 2020/5/2
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: apple time, couple, paws, portrait, prayer, standing
+photo.2.tags.35.location: 100, 75
+photo.2.tags.36.location: 210, 80

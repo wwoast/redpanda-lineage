@@ -1,0 +1,55 @@
+[panda]
+_id: 622
+birthday: 2013/6/20
+birthplace: 145
+children: 877, 878
+commitdate: 2019/3/19
+en.name: Thomas
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トーマス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 621
+location.1: 145, 2013/6/20
+location.2: 146, 2017/12/12
+photo.1: ig://ByQwlfsnLzm/m
+photo.1.author: okczoo
+photo.1.commitdate: 2019/10/15
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: portrait, profile
+photo.2: ig://B2APpgcnKO2/m
+photo.2.author: okczoo
+photo.2.commitdate: 2019/10/15
+photo.2.link: https://www.instagram.com/okczoo/
+photo.2.tags: bamboo, paws
+photo.3: ig://B2qTf_mAmB4/m
+photo.3.author: okczoo
+photo.3.commitdate: 2019/10/15
+photo.3.link: https://www.instagram.com/okczoo/
+photo.3.tags: bamboo
+photo.4: ig://B4D3EQFg3Sr/m
+photo.4.author: esdeemphoto
+photo.4.commitdate: 2020/3/3
+photo.4.link: https://www.instagram.com/esdeemphoto/
+photo.4.tags: portrait
+photo.5: ig://B5Y3mYYBOEV/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/11/29
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, smile, tongue
+photo.6: ig://B9Pc038A1X0/m
+photo.6.author: mandalaybay22
+photo.6.commitdate: 2020/5/23
+photo.6.link: https://www.instagram.com/mandalaybay22/
+photo.6.tags: bamboo, portrait, smile
+photo.7: ig://B_JCqriBeWx/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/5/23
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: portrait, tail
+species: 1
+studbook.id: 1332
+zoo: 146

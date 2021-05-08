@@ -1,0 +1,27 @@
+[zoo]
+_id: 33
+commitdate: 2018/6/23
+en.address: Japan, 〒290-0521 Chiba Prefecture, Ichihara, Yamakogawa, ９３７
+en.location: Ichihara, Chiba Prefecture, Japan
+en.name: Ichihara Elephant Kingdom
+flag: Japan
+jp.address: 〒290-0521 千葉県市原市山小川９３７
+jp.location: 市原市 千葉県
+jp.name: 市原ぞうの国
+language.order: jp, en
+latitude: 35.3547971
+longitude: 140.1801333
+map: https://goo.gl/maps/t6TwYSxU2dT2
+photo.1: ig://BM3ILmHjtLl/m
+photo.1.author: s.okano521
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/s.okano521/
+photo.2: ig://BpOo3bdns1l/m
+photo.2.author: yu_na_4696
+photo.2.commitdate: 2020/3/11
+photo.2.link: https://www.instagram.com/yu_na_4696/
+photo.3: ig://BjRcUzLloGN/m
+photo.3.author: mi__ki__0211
+photo.3.commitdate: 2020/3/11
+photo.3.link: https://www.instagram.com/mi__ki__0211/
+website: http://www.zounokuni.com/

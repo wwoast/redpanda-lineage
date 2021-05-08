@@ -1,0 +1,33 @@
+[zoo]
+_id: 63
+commitdate: 2018/8/3
+en.address: ２５４ Furusawa, Toyama, Toyama Prefecture 930-0151, Japan
+en.location: Toyama, Toyama Prefecture, Japan
+en.name: Toyama Municipal Family Park Zoo
+flag: Japan
+jp.address: 〒930-0151 富山県富山市古沢２５４
+jp.location: 富山市 富山県
+jp.name: 富山市ファミリーパーク
+language.order: jp, en
+latitude: 36.6909023
+longitude: 137.1460493
+map: https://goo.gl/maps/v3zCNrq2igs
+photo.1: ig://BmuiSvKBgGI/m
+photo.1.author: armsnet
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/armsnet/
+photo.2: ig://B9xzpM9hTKG/m
+photo.2.author: merumeru119
+photo.2.commitdate: 2020/5/5
+photo.2.link: https://www.instagram.com/merumeru119/
+photo.2.tags: profile
+photo.3: ig://B_JXP31jgVx/m
+photo.3.author: toyama_corolla_toyota
+photo.3.commitdate: 2020/6/6
+photo.3.link: https://www.instagram.com/toyama_corolla_toyota/
+photo.3.tags: profile
+photo.4: ig://CGH28X4BRo_/m
+photo.4.author: merumeru119
+photo.4.commitdate: 2020/11/11
+photo.4.link: https://www.instagram.com/merumeru119/
+website: http://www.toyama-familypark.jp/

@@ -1,0 +1,27 @@
+[panda]
+_id: 1161
+birthday: 2015/12/10
+birthplace: 207
+children: none
+commitdate: 2020/5/11
+en.name: Keta
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ケタ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: 1162
+location.1: 207, 2015/12/10
+location.2: 205, 2018/1/1
+np.name: केटा
+np.nicknames: none
+np.othernames: none
+photo.1: ig://B_62BlpHkve/m
+photo.1.author: redpandasingapore
+photo.1.commitdate: 2020/12/13
+photo.1.link: https://www.instagram.com/redpandasingapore/
+photo.1.tags: portrait, profile
+species: 1
+zoo: 205

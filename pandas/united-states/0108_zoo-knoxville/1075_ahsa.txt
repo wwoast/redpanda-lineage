@@ -1,0 +1,72 @@
+[panda]
+_id: 1075
+birthday: 2019/6/20
+birthplace: 107
+children: none
+commitdate: 2019/12/3
+en.name: Ahsa
+en.nicknames: none
+en.oldnames: Asa, Asha
+en.othernames: none
+gender: m
+jp.name: アーサ
+jp.nicknames: none
+jp.oldnames: アサ, アシャ
+jp.othernames: none
+language.order: en, jp
+litter: 1074
+location.1: 107, 2019/6/20
+location.2: 108, 2019/8/21
+photo.1: ig://B3x459ahabu/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/12/3
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: baby, keeper, paws, portrait
+photo.2: ig://B5ke9zchSzm/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/12/3
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, hammock, peek, white face
+photo.3: ig://B5kgLAsBpb8/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/3
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: baby, toys, white face
+photo.4: ig://B5mFcl3hgAC/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/12/7
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: peek
+photo.5: ig://B5mFfY6hfM2/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/12/7
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: peek
+photo.6: ig://B6v4OnMhmPh/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/1/3
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: portrait, white face, window
+photo.7: ig://B7I3l_Vh98a/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/1/14
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: white face, window
+photo.8: ig://B7QmdC7hd5v/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2020/1/16
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: white face
+photo.9: ig://B7R7nfYh7D4/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2020/11/16
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: baby, paws, portrait
+photo.10: ig://CDE-1VIBFjw/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2020/11/16
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: close-up, tongue, white face, window
+species: 1
+studbook.id: 1919
+zoo: 108

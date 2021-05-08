@@ -1,0 +1,21 @@
+[panda]
+_id: 758
+birthday: 1995/7/2
+birthplace: 1
+children: none
+commitdate: 2019/3/29
+death: 2011/8/25
+en.name: Cha-Cha
+en.nicknames: none
+en.othernames: Chacha
+gender: f
+jp.name: 茶茶
+jp.nicknames: none
+jp.othernames: チャチャ
+language.order: jp, en
+litter: none
+location.1: 1, 1995/7/2
+location.2: 28, 1998/12/7
+species: 2
+studbook.id: 95100
+zoo: 28

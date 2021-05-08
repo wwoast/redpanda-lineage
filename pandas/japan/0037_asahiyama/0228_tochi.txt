@@ -1,0 +1,67 @@
+[panda]
+_id: 228
+birthday: 2001/7/24
+birthplace: 3
+children: 16, 298, 160, 253, 190, 224
+commitdate: 2018/7/27
+death: 2019/4/5
+en.name: Tochi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 栃
+jp.nicknames: none
+jp.othernames: トチ
+language.order: jp, en
+litter: none
+location.1: 3, 2001/7/24
+location.2: 6, 2007/1/31
+location.3: 37, 2012/3/8
+photo.1: ig://BlndgLpncPP/m
+photo.1.author: craig_craig_craig
+photo.1.commitdate: 2018/9/8
+photo.1.link: https://www.instagram.com/craig_craig_craig/
+photo.1.tags: old
+photo.2: ig://BoZAtm2lHTo/m
+photo.2.author: miis_98
+photo.2.commitdate: 2018/10/1
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: old, profile
+photo.3: ig://Bq_Y9x6Fnv4/m
+photo.3.author: mifko55
+photo.3.commitdate: 2018/12/6
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: bamboo, old
+photo.4: ig://Bb1pg4hFRGS/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/12/23
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: bamboo, old
+photo.5: ig://BtAwAXOlDnk/m
+photo.5.author: framereim
+photo.5.commitdate: 2019/1/26
+photo.5.link: https://www.instagram.com/framereim/
+photo.5.tags: paws, snow
+photo.6: ig://BtF69ufFz5q/m
+photo.6.author: asahiyamazoo1
+photo.6.commitdate: 2019/1/27
+photo.6.link: https://www.instagram.com/asahiyamazoo1/
+photo.6.tags: old
+photo.7: ig://BwMa6X9FJWS/m
+photo.7.author: firefoxpanda88
+photo.7.commitdate: 2019/4/15
+photo.7.link: https://www.instagram.com/firefoxpanda88/
+photo.7.tags: bamboo, laying down, old, paws, snow
+photo.8: ig://BwMGuuJlYYv/m
+photo.8.author: leonard_redmof
+photo.8.commitdate: 2019/4/15
+photo.8.link: https://www.instagram.com/leonard_redmof/
+photo.8.tags: dish, home, old, paws
+photo.9: ig://BwMkzKDlHgN/m
+photo.9.author: nakacchi_desu
+photo.9.commitdate: 2019/4/15
+photo.9.link: https://www.instagram.com/nakacchi_desu/
+photo.9.tags: bamboo, old, paws, wink
+species: 2
+studbook.id: 01113
+zoo: 37

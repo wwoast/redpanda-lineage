@@ -1,0 +1,20 @@
+[panda]
+_id: 577
+birthday: 2015/6/7
+birthplace: 114
+children: 1173, 1174, 1175, 1176, 1177
+commitdate: 2019/3/12
+en.name: Timur
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ティムール
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 559
+location.1: 114, 2015/6/7
+location.2: 145, 2016/4/5
+species: 1
+studbook.id: 1506
+zoo: 145

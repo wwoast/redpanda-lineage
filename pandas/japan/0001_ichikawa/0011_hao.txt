@@ -1,0 +1,320 @@
+[panda]
+_id: 11
+birthday: 2005/6/14
+birthplace: 1
+children: none
+commitdate: 2018/6/10
+death: 2019/12/30
+en.name: Hao
+en.nicknames: Square-chin
+en.othernames: none
+gender: m
+jp.name: ハオ
+jp.nicknames: none
+jp.othernames: 好
+language.order: jp, en
+litter: none
+photo.1: ig://_WwdkIOR-y/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/7/21
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: laying down, paws, tail, tongue
+photo.2: ig://BBYsNt9wZ91/m
+photo.2.author: rio_minron
+photo.2.commitdate: 2018/10/15
+photo.2.link: https://www.instagram.com/rio_minron/
+photo.3: ig://BPRqVwIjLQU/m
+photo.3.author: masa_polarbear
+photo.3.commitdate: 2020/7/21
+photo.3.link: https://www.instagram.com/masa_polarbear/
+photo.3.tags: laying down, tail
+photo.4: ig://BPSrsdmA4H9/m
+photo.4.author: panda.daisuki
+photo.4.commitdate: 2020/7/21
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: apple time
+photo.5: ig://BPrGbSWgcYT/m
+photo.5.author: panda.daisuki
+photo.5.commitdate: 2020/7/21
+photo.5.link: https://www.instagram.com/panda.daisuki/
+photo.5.tags: laying down, portrait, tail
+photo.6: ig://BQNiBMdgjad/m
+photo.6.author: tabechum
+photo.6.commitdate: 2020/7/21
+photo.6.link: https://www.instagram.com/tabechum/
+photo.6.tags: bamboo, paws, tail
+photo.7: ig://BSmqmbhAew1/m
+photo.7.author: masa_polarbear
+photo.7.commitdate: 2020/7/21
+photo.7.link: https://www.instagram.com/masa_polarbear/
+photo.7.tags: bite, climb, tree
+photo.8: ig://BVLNAjvhAJU/m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/7/21
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: portrait, tree
+photo.9: ig://BVSP-qgABMI/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2020/7/21
+photo.9.link: https://www.instagram.com/panda.daisuki/
+photo.9.tags: paws, portrait
+photo.10: ig://BVTP1UwgoHW/m
+photo.10.author: masa_polarbear
+photo.10.commitdate: 2020/7/21
+photo.10.link: https://www.instagram.com/masa_polarbear/
+photo.10.tags: laying down, smile, tail, tree
+photo.11: ig://BY79d-WFtZ9/m
+photo.11.author: hanamaru_redpanda
+photo.11.commitdate: 2020/3/11
+photo.11.link: https://www.instagram.com/hanamaru_redpanda/
+photo.11.tags: home, laying down, portrait
+photo.12: ig://Baq4e4ZhTIp/m
+photo.12.author: mifko55
+photo.12.commitdate: 2020/7/21
+photo.12.link: https://www.instagram.com/mifko55/
+photo.12.tags: portrait, tail, tree
+photo.13: ig://BbSvRavBDPn/m
+photo.13.author: miis_98
+photo.13.commitdate: 2018/7/28
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: portrait, tree
+photo.14: ig://BblIa8NDbVc/m
+photo.14.author: ck.chie
+photo.14.commitdate: 2019/11/29
+photo.14.link: https://www.instagram.com/ck.chie/
+photo.14.tags: autumn, laying down, portrait, tongue, tree
+photo.15: ig://BcOJbz7DuCT/m
+photo.15.author: _rifa_p
+photo.15.commitdate: 2018/10/15
+photo.15.link: https://www.instagram.com/_rifa_p/
+photo.15.tags: laying down, tree, yawn
+photo.16: ig://Bc6s_VBjqnt/m
+photo.16.author: ck.chie
+photo.16.commitdate: 2018/7/16
+photo.16.link: https://www.instagram.com/ck.chie/
+photo.16.tags: portrait, profile, tree
+photo.17: ig://BdcATTLgSQG/m
+photo.17.author: masa_polarbear
+photo.17.commitdate: 2020/7/21
+photo.17.link: https://www.instagram.com/masa_polarbear/
+photo.17.tags: lips, smile, tail
+photo.18: ig://BfSfhKpANEi/m
+photo.18.author: masa_polarbear
+photo.18.commitdate: 2020/2/11
+photo.18.link: https://www.instagram.com/masa_polarbear/
+photo.18.tags: apple time, lips
+photo.19: ig://BfeadQEhroK/m
+photo.19.author: _rifa_p
+photo.19.commitdate: 2018/7/28
+photo.19.link: https://www.instagram.com/_rifa_p/
+photo.19.tags: laying down, tongue, tree
+photo.20: ig://Bhbx5awlTsL/m
+photo.20.author: masa_polarbear
+photo.20.commitdate: 2020/2/11
+photo.20.link: https://www.instagram.com/masa_polarbear/
+photo.20.tags: apple time, smile, tail, tongue
+photo.21: ig://BhvqxfGFOds/m
+photo.21.author: ck.chie
+photo.21.commitdate: 2020/7/21
+photo.21.link: https://www.instagram.com/ck.chie/
+photo.21.tags: portrait, tree
+photo.22: ig://BiDhAyslkDV/m
+photo.22.author: minatomirai215
+photo.22.commitdate: 2018/10/15
+photo.22.link: https://www.instagram.com/minatomirai215/
+photo.22.tags: door, portrait
+photo.23: ig://BiSuxZKFAZb/m
+photo.23.author: masa_polarbear
+photo.23.commitdate: 2020/2/11
+photo.23.link: https://www.instagram.com/masa_polarbear/
+photo.23.tags: smile, whiskers
+photo.24: ig://BihkCaAFxTP/m
+photo.24.author: bubbles_octi
+photo.24.commitdate: 2018/7/16
+photo.24.link: https://www.instagram.com/bubbles_octi/
+photo.24.tags: portrait, tongue
+photo.25: ig://Bi1TYKZFuCa/m
+photo.25.author: hanamaru_redpanda
+photo.25.commitdate: 2018/10/15
+photo.25.link: https://www.instagram.com/hanamaru_redpanda/
+photo.25.tags: portrait
+photo.26: ig://Bjq1C_1FTM4/m
+photo.26.author: na.mo.pan
+photo.26.commitdate: 2018/10/15
+photo.26.link: https://www.instagram.com/na.mo.pan/
+photo.26.tags: portrait, smile
+photo.27: ig://Bj65k1Dlxxb/m
+photo.27.author: hanamaru_redpanda
+photo.27.commitdate: 2020/3/12
+photo.27.link: https://www.instagram.com/hanamaru_redpanda/
+photo.27.tags: lips, portrait
+photo.28: ig://Bj--H6bFzfC/m
+photo.28.author: _rifa_p
+photo.28.commitdate: 2018/10/15
+photo.28.link: https://www.instagram.com/_rifa_p/
+photo.28.tags: tongue, tree
+photo.29: ig://Bj_sbrpl5th/m
+photo.29.author: masa_polarbear
+photo.29.commitdate: 2020/2/11
+photo.29.link: https://www.instagram.com/masa_polarbear/
+photo.29.tags: laying down, paws, tail
+photo.30: ig://BlcymKKFytm/m
+photo.30.author: hanamaru_redpanda
+photo.30.commitdate: 2020/3/13
+photo.30.link: https://www.instagram.com/hanamaru_redpanda/
+photo.30.tags: paws, portrait, smile
+photo.31: ig://BmzjZTflcIZ/m
+photo.31.author: ck.chie
+photo.31.commitdate: 2018/10/15
+photo.31.link: https://www.instagram.com/ck.chie/
+photo.31.tags: portrait, smile, tongue
+photo.32: ig://Bo-PIVHlcaX/m
+photo.32.author: _rifa_p
+photo.32.commitdate: 2018/10/15
+photo.32.link: https://www.instagram.com/_rifa_p/
+photo.33: ig://BpKX14kFGzF/m
+photo.33.author: na.mo.pan
+photo.33.commitdate: 2018/10/21
+photo.33.link: https://www.instagram.com/na.mo.pan/
+photo.33.tags: tree
+photo.34: ig://Bp9p3-3llk8/m
+photo.34.author: 218_yu
+photo.34.commitdate: 2018/11/11
+photo.34.link: https://www.instagram.com/218_yu/
+photo.35: ig://Bp9387HlsLh/m
+photo.35.author: na.mo.pan
+photo.35.commitdate: 2018/11/11
+photo.35.link: https://www.instagram.com/na.mo.pan/
+photo.35.tags: smile
+photo.36: ig://BqfALcuFbLT/m
+photo.36.author: na.mo.pan
+photo.36.commitdate: 2018/11/22
+photo.36.link: https://www.instagram.com/na.mo.pan/
+photo.37: ig://BrTlxO6gqvt/m
+photo.37.author: _rifa_p
+photo.37.commitdate: 2018/12/12
+photo.37.link: https://www.instagram.com/_rifa_p/
+photo.37.tags: lunch time
+photo.38: ig://Br2B6WZluVT/m
+photo.38.author: yakko____
+photo.38.commitdate: 2018/12/26
+photo.38.link: https://www.instagram.com/yakko____/
+photo.38.tags: home, portrait, smile
+photo.39: ig://BsQdxenFCzD/m
+photo.39.author: craig_craig_craig
+photo.39.commitdate: 2019/1/7
+photo.39.link: https://www.instagram.com/craig_craig_craig/
+photo.39.tags: lips
+photo.40: ig://Bt3GYQCFMLM/m
+photo.40.author: ifumoto88
+photo.40.commitdate: 2019/2/19
+photo.40.link: https://www.instagram.com/ifumoto88/
+photo.40.tags: lips, portrait, smile
+photo.41: ig://Bwy3yMolgdT/m
+photo.41.author: firefoxpanda88
+photo.41.commitdate: 2019/5/5
+photo.41.link: https://www.instagram.com/firefoxpanda88/
+photo.41.tags: paws, portrait
+photo.42: ig://ByWTsPnn2yQ/m
+photo.42.author: fetorus_mami
+photo.42.commitdate: 2019/6/6
+photo.42.link: https://www.instagram.com/fetorus_mami/
+photo.42.tags: laying down, tail
+photo.43: ig://BysC5pHB_Dq/m
+photo.43.author: na.mo.pan
+photo.43.commitdate: 2020/7/21
+photo.43.link: https://www.instagram.com/na.mo.pan/
+photo.43.tags: paws, portrait, smile, tail
+photo.44: ig://BzPEBMBB1YQ/m
+photo.44.author: masa_polarbear
+photo.44.commitdate: 2019/7/2
+photo.44.link: https://www.instagram.com/masa_polarbear/
+photo.44.tags: smile
+photo.45: ig://B54W5LfhO0n/m
+photo.45.author: masa_polarbear
+photo.45.commitdate: 2019/12/16
+photo.45.link: https://www.instagram.com/masa_polarbear/
+photo.45.tags: paws
+photo.46: ig://B6vDudKh0wN/m
+photo.46.author: leonard_redmof
+photo.46.commitdate: 2020/1/2
+photo.46.link: https://www.instagram.com/leonard_redmof/
+photo.46.tags: portrait, smile, tail
+photo.47: ig://B6vD6ngBCeg/m
+photo.47.author: grskus_tk
+photo.47.commitdate: 2020/1/2
+photo.47.link: https://www.instagram.com/grskus_tk/
+photo.47.tags: paws, peek, portrait
+photo.48: ig://B6vFr5QB7ZJ/m
+photo.48.author: ifumoto88
+photo.48.commitdate: 2020/1/2
+photo.48.link: https://www.instagram.com/ifumoto88/
+photo.48.tags: laying down, portrait, tail
+photo.49: ig://B6vNHq6hOOZ/m
+photo.49.author: redpanda_nippon_takashi
+photo.49.commitdate: 2020/1/2
+photo.49.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.49.tags: whiskers
+photo.50: ig://B6vO9_SBao_/m
+photo.50.author: nakacchi_desu
+photo.50.commitdate: 2020/1/2
+photo.50.link: https://www.instagram.com/nakacchi_desu/
+photo.50.tags: autumn, peek
+photo.51: ig://B6vuwbyhQwS/m
+photo.51.author: take_421
+photo.51.commitdate: 2020/1/2
+photo.51.link: https://www.instagram.com/take_421/
+photo.51.tags: portrait, smile, whiskers
+photo.52: ig://B6wdbwkBQNl/m
+photo.52.author: _rifa_p
+photo.52.commitdate: 2020/1/2
+photo.52.link: https://www.instagram.com/_rifa_p/
+photo.52.tags: autumn, tree
+photo.53: ig://B7iPS89h_hJ/m
+photo.53.author: na.mo.pan
+photo.53.commitdate: 2020/1/22
+photo.53.link: https://www.instagram.com/na.mo.pan/
+photo.53.tags: smile
+photo.54: ig://B_BhrzEB9P5/m
+photo.54.author: tomo3700
+photo.54.commitdate: 2020/7/21
+photo.54.link: https://www.instagram.com/tomo3700/
+photo.54.tags: home, portrait, smile, tail
+photo.55: ig://B_HVJONBr9R/m
+photo.55.author: run.swim.shingo
+photo.55.commitdate: 2020/7/21
+photo.55.link: https://www.instagram.com/run.swim.shingo/
+photo.55.tags: air tasting, home, laying down, portrait, tail, tongue
+photo.56: ig://B_haUtgn7Ku/m
+photo.56.author: ssc6105
+photo.56.commitdate: 2020/7/21
+photo.56.link: https://www.instagram.com/ssc6105/
+photo.56.tags: laying down, paws
+photo.57: ig://B_iHJUynYUO/m
+photo.57.author: na.mo.pan
+photo.57.commitdate: 2020/7/21
+photo.57.link: https://www.instagram.com/na.mo.pan/
+photo.57.tags: smile, tongue
+photo.58: ig://CGPyRtzhcnK/m
+photo.58.author: firefoxpanda88
+photo.58.commitdate: 2020/10/12
+photo.58.link: https://www.instagram.com/firefoxpanda88/
+photo.58.tags: home, portrait, tail
+photo.59: ig://CHPwGtahCTe/m
+photo.59.author: firefoxpanda88
+photo.59.commitdate: 2020/11/21
+photo.59.link: https://www.instagram.com/firefoxpanda88/
+photo.59.tags: air tasting, autumn, peek, tongue, tree
+photo.60: ig://CJbREh7BDaR/m
+photo.60.author: firefoxpanda88
+photo.60.commitdate: 2020/12/30
+photo.60.link: https://www.instagram.com/firefoxpanda88/
+photo.60.tags: air tasting, mofumofu, tongue
+photo.61: ig://CJcMVHBB-P6/m
+photo.61.author: _rifa_p
+photo.61.commitdate: 2021/1/3
+photo.61.link: https://www.instagram.com/_rifa_p/
+photo.61.tags: portrait, smile, whiskers
+species: 2
+studbook.id: 0550
+zoo: 1

@@ -1,0 +1,55 @@
+[panda]
+_id: 820
+birthday: 2012/7/1
+birthplace: 109
+children: 821
+commitdate: 2019/4/7
+en.name: Justin
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャスティン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 109, 2012/7/1
+location.2: 123, 2017/12/20
+location.3: 104, 2019/10/1
+photo.1: ig://BvwuU0HF7iX/m
+photo.1.author: fwkidszoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/fwkidszoo/
+photo.1.tags: smile
+photo.2: ig://BsGNYVyADNp/m
+photo.2.author: fwkidszoo
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/fwkidszoo/
+photo.3: ig://BqQOYbWgQqN/m
+photo.3.author: fwkidszoo
+photo.3.commitdate: 2019/4/7
+photo.3.link: https://www.instagram.com/fwkidszoo/
+photo.3.tags: bamboo, profile
+photo.4: ig://BnmNqgKD7AF/m
+photo.4.author: fwkidszoo
+photo.4.commitdate: 2019/4/7
+photo.4.link: https://www.instagram.com/fwkidszoo/
+photo.4.tags: bamboo
+photo.5: ig://BzayvAMDrzv/m
+photo.5.author: fwkidszoo
+photo.5.commitdate: 2019/7/7
+photo.5.link: https://www.instagram.com/fwkidszoo/
+photo.5.tags: bamboo, lunch time
+photo.6: ig://BzA8B8dDKvS/m
+photo.6.author: fwkidszoo
+photo.6.commitdate: 2019/11/26
+photo.6.link: https://www.instagram.com/fwkidszoo/
+photo.6.tags: paws, yawn
+photo.7: ig://B9b9NMaH4dL/m
+photo.7.author: potawatomizoo
+photo.7.commitdate: 2020/3/15
+photo.7.link: https://www.instagram.com/potawatomizoo/
+photo.7.tags: bamboo, paws, portrait
+species: 1
+studbook.id: 1219
+zoo: 104

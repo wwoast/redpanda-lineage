@@ -1,0 +1,21 @@
+[panda]
+_id: 49
+birthday: 2000/7/17
+birthplace: 40
+children: 34, 44, 59, 142, 326
+commitdate: 2018/6/19
+death: 2012/3/18
+en.name: Nara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 楢
+jp.nicknames: none
+jp.othernames: ナラ
+language.order: jp, en
+litter: 336
+location.1: 40, 2000/7/17
+location.2: 16, 2001/12/18
+species: 2
+studbook.id: 00103
+zoo: 16

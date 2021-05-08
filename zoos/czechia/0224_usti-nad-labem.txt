@@ -1,0 +1,15 @@
+[zoo]
+_id: 224
+commitdate: 2019/11/23
+cz.address: Drážďanská 454/23, 400 07 Ústí nad Labem-Neštěmice, Czechia
+cz.location: Ústí nad Labem, Czechia
+cz.name: Zoo Ústí nad Labem
+en.address: Drážďanská 454/23, 400 07 Ústí nad Labem-Neštěmice, Czechia
+en.location: Usti nad Labem, Czechia
+en.name: Ústí nad Labem Zoo
+flag: Czechia
+language.order: cz, en
+latitude: 50.6641324
+longitude: 14.059059
+map: https://goo.gl/maps/DAPqEVP5iqVhHfyQ8
+website: https://www.zoousti.cz/

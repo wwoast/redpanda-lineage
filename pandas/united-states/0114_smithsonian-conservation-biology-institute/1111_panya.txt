@@ -1,0 +1,24 @@
+[panda]
+_id: 1111
+birthday: 1997/6/9
+birthplace: 108
+children: 637, 874, 913, 1020, 1113
+commitdate: 2020/2/29
+death: 2015/4/16
+en.name: Panya
+en.nicknames: none
+en.othernames: Ponya
+gender: f
+jp.name: パンヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: 1112
+location.1: 108, 1997/6/9
+location.2: unknown, 2000/2/2
+location.3: 114, 2006/1/19
+np.name: पोनिया
+np.nicknames: none
+np.othernames: none
+species: 1
+zoo: 114

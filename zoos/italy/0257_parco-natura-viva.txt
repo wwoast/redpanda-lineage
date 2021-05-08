@@ -1,0 +1,15 @@
+[zoo]
+_id: 257
+commitdate: 2020/8/2
+en.address: Località Quercia, 37012 Bussolengo VR, Italy
+en.location: Province of Verona, Italy
+en.name: Natura Viva Zoo
+flag: Italy
+it.address: Località Quercia, 37012 Bussolengo VR, Italy
+it.location: Provincia di Verona
+it.name: Parco Natura Viva
+language.order: it, en
+latitude: 45.4798393
+longitude: 10.7962922
+map: https://g.page/parco-natura-viva-bussolengo?share
+website: https://www.parconaturaviva.it/

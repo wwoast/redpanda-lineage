@@ -1,0 +1,57 @@
+[panda]
+_id: 867
+birthday: 2017/6/14
+birthplace: 114
+children: none
+commitdate: 2019/6/10
+en.name: Jackie
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ジャッキー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 901
+location.1: 114, 2017/6/14
+location.2: 49, 2017/12/19
+location.3: 85, 2020/11/1
+photo.1: ig://Byd3xFxpplw/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/6/14
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: profile
+photo.2: ig://B5gIZHnA96Z/m
+photo.2.author: tennesseetrailsphotography
+photo.2.commitdate: 2020/3/10
+photo.2.link: https://www.instagram.com/tennesseetrailsphotography/
+photo.2.tags: tail, whiskers
+photo.3: ig://B8CGEZGprXo/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/3/3
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: door, paws, peek, portrait, whiskers
+photo.4: ig://B9ExksaJYv-/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/3/3
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: peek, portrait, whiskers
+photo.5: ig://CH0Y51ZlXgA/m
+photo.5.author: zooatl
+photo.5.commitdate: 2020/11/21
+photo.5.link: https://www.instagram.com/zooatl/
+photo.5.tags: portrait, whiskers
+photo.6: ig://CIO7cixlJug/m
+photo.6.author: zooatl
+photo.6.commitdate: 2020/12/8
+photo.6.link: https://www.instagram.com/zooatl/
+photo.6.tags: close-up, laying down, whiskers
+photo.7: ig://CJHxKc_FsVG/m
+photo.7.author: zooatl
+photo.7.commitdate: 2020/12/29
+photo.7.link: https://www.instagram.com/zooatl/
+photo.7.tags: peek, portrait, tail
+species: 1
+studbook.id: 1705
+uncertainty: location.3 date
+zoo: 85

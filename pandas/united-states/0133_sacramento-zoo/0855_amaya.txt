@@ -1,0 +1,44 @@
+[panda]
+_id: 855
+birthday: 2016/6/27
+birthplace: 154
+children: 990, 1192
+commitdate: 2019/5/16
+en.name: Amaya
+en.nicknames: none
+en.othernames: Amiya
+gender: f
+jp.name: アマヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 854
+location.1: 154, 2016/6/27
+location.2: 133, 2017/10/26
+photo.1: ig://BiFsF4lFczA/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2019/6/16
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: lips, portrait, whiskers
+photo.2: ig://Bk031jdlFk9/m
+photo.2.author: sacramentozoo
+photo.2.commitdate: 2019/12/7
+photo.2.link: https://www.instagram.com/sacramentozoo/
+photo.2.tags: bamboo, lunch time, paws, smile
+photo.3: ig://Bn9Tb4Lnjrz/m
+photo.3.author: sacramentozoo
+photo.3.commitdate: 2019/12/7
+photo.3.link: https://www.instagram.com/sacramentozoo/
+photo.3.tags: whiskers
+photo.4: ig://B42vzpggDJn/m
+photo.4.author: ohmygoat1
+photo.4.commitdate: 2019/11/26
+photo.4.link: https://www.instagram.com/ohmygoat1/
+photo.4.tags: portrait, profile
+photo.5: ig://B5PHHvOgAZw/m
+photo.5.author: ohmygoat1
+photo.5.commitdate: 2019/11/26
+photo.5.link: https://www.instagram.com/ohmygoat1/
+species: 1
+studbook.id: 1616
+zoo: 133

@@ -1,0 +1,18 @@
+[media]
+_id: media.68.cassie-phoenix
+commitdate: 2020/6/25
+panda.tags: 442, 448
+photo.1: ig://Bf_EHoYFGYc/m
+photo.1.author: safariniagara
+photo.1.commitdate: 2020/6/25
+photo.1.link: https://www.instagram.com/safariniagara/
+photo.1.tags: couple, playing, snow, tail
+photo.1.tags.442.location: 145, 165
+photo.1.tags.448.location: 195, 165
+photo.2: ig://Bt3WWjTFyJE/m
+photo.2.author: safariniagra
+photo.2.commitdate: 2020/6/25
+photo.2.link: https://www.instagram.com/safariniagara/
+photo.2.tags: couple, playing, tail
+photo.2.tags.442.location: 185, 155
+photo.2.tags.448.location: 125, 145

@@ -1,0 +1,85 @@
+[panda]
+_id: 838
+birthday: 2001/7/15
+birthplace: 65
+children: 390
+commitdate: 2019/4/10
+death: 2014/8/7
+en.name: Toby
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: トビー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 65, 2001/7/15
+location.2: 192, 2002/5/9
+location.3: 105, 2002/11/11
+location.4: 146, 2004/12/8
+location.5: 87, 2007/7/17
+location.6: 88, 2009/1/20
+location.7: 65, 2011/11/9
+photo.1: https://www.codaworry.com/images/rpf/toby-1-cincinnati.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/5/17
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bamboo, profile
+photo.2: https://www.codaworry.com/images/rpf/toby-2-cincinnati.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/5/17
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, tail
+photo.3: https://www.codaworry.com/images/rpf/toby-3-cincinnati.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/5/17
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tree
+photo.4: https://www.codaworry.com/images/rpf/toby-4-cincinnati.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/5/17
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tree
+photo.5: https://www.codaworry.com/images/rpf/toby-5-cincinnati.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/5/17
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: autumn
+photo.6: https://www.codaworry.com/images/rpf/toby-6-cincinnati.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/5/17
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: autumn, bamboo
+photo.7: https://www.codaworry.com/images/rpf/toby-7-cincinnati.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/5/17
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: autumn, bamboo
+photo.8: https://www.codaworry.com/images/rpf/toby-8-cincinnati.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/5/17
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: bamboo
+photo.9: https://www.codaworry.com/images/rpf/toby-9-cincinnati.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/5/17
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: autumn, bamboo
+photo.10: https://www.codaworry.com/images/rpf/toby-10-cincinnati.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/5/17
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: paws, tongue
+photo.11: https://www.codaworry.com/images/rpf/toby-11-cincinnati.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2019/5/17
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: standing
+photo.12: https://www.codaworry.com/images/rpf/toby-12-cincinnati.jpg
+photo.12.author: worldthathesees
+photo.12.commitdate: 2019/5/17
+photo.12.link: https://www.instagram.com/worldthathesees/
+species: 2
+studbook.id: 0116
+zoo: 65

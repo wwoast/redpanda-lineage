@@ -1,0 +1,438 @@
+[panda]
+_id: 35
+birthday: 2008/6/27
+birthplace: 8
+children: 37, 45, 38, 43, 39, 40, 47
+commitdate: 2018/6/18
+death: 2020/12/12
+en.name: Kuuta
+en.nicknames: none
+en.othernames: Qoota
+gender: m
+jp.name: クウタ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 46
+photo.1: ig://BV1zLLzg6Pv/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/12/12
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: mofumofu, peek, portrait
+photo.2: ig://BeyxHBplPDo/m
+photo.2.author: kipekaila
+photo.2.commitdate: 2018/7/17
+photo.2.link: https://www.instagram.com/kipekaila/
+photo.2.tags: portrait, praying, tongue
+photo.3: ig://BgN_R44FmZT/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/7/28
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: apple time, praying, standing
+photo.4: ig://BgODvqUFtqR/m
+photo.4.author: 218_yu
+photo.4.commitdate: 2018/7/17
+photo.4.link: https://www.instagram.com/218_yu/
+photo.4.tags: keeper
+photo.5: ig://BglSktMFX_l/m
+photo.5.author: rdpnzoo
+photo.5.commitdate: 2018/7/17
+photo.5.link: https://www.instagram.com/rdpnzoo/
+photo.5.tags: smile, tree
+photo.6: ig://Bk43Ub5lRDk/m
+photo.6.author: monmon_redpanda
+photo.6.commitdate: 2018/7/28
+photo.6.link: https://www.instagram.com/monmon_redpanda/
+photo.6.tags: apple time, keeper, portrait, praying, standing
+photo.7: ig://Bm8Qc5AFhc3/m
+photo.7.author: craig_craig_craig
+photo.7.commitdate: 2018/8/30
+photo.7.link: https://www.instagram.com/craig_craig_craig/
+photo.7.tags: keeper, portrait, smile
+photo.8: ig://BngWA6_lTf1/m
+photo.8.author: ifumoto88
+photo.8.commitdate: 2018/9/10
+photo.8.link: https://www.instagram.com/ifumoto88/
+photo.8.tags: laying down, tail
+photo.9: ig://Bnvq3hMlw5B/m
+photo.9.author: 218_yu
+photo.9.commitdate: 2018/9/16
+photo.9.link: https://www.instagram.com/218_yu/
+photo.9.tags: bridge, portrait, smile
+photo.10: ig://BnvzSI_FU5T/m
+photo.10.author: ifumoto88
+photo.10.commitdate: 2018/9/16
+photo.10.link: https://www.instagram.com/ifumoto88/
+photo.10.tags: laying down, portrait, wet
+photo.11: ig://BnxQq_VFqKA/m
+photo.11.author: _rifa_p
+photo.11.commitdate: 2018/9/16
+photo.11.link: https://www.instagram.com/_rifa_p/
+photo.11.tags: apple time
+photo.12: ig://Bn3fXjxlRYG/m
+photo.12.author: redpanda_nippon_takashi
+photo.12.commitdate: 2018/9/22
+photo.12.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.12.tags: apple time, keeper, paws, standing
+photo.13: ig://BoT4hBuldFE/m
+photo.13.author: ifumoto88
+photo.13.commitdate: 2018/9/30
+photo.13.link: https://www.instagram.com/ifumoto88/
+photo.13.tags: praying
+photo.14: ig://BoynC6tlTPL/m
+photo.14.author: mari_neko3
+photo.14.commitdate: 2018/10/11
+photo.14.link: https://www.instagram.com/mari_neko3/
+photo.14.tags: apple time, portrait, praying, standing
+photo.15: ig://BpGU29uFs75/m
+photo.15.author: ck.chie
+photo.15.commitdate: 2018/10/19
+photo.15.link: https://www.instagram.com/ck.chie/
+photo.15.tags: portrait, smile
+photo.16: ig://BpGmwbqlQeG/m
+photo.16.author: 218_yu
+photo.16.commitdate: 2018/10/19
+photo.16.link: https://www.instagram.com/218_yu/
+photo.16.tags: portrait
+photo.17: ig://Bpecm_uFGRE/m
+photo.17.author: ifumoto88
+photo.17.commitdate: 2018/10/28
+photo.17.link: https://www.instagram.com/ifumoto88/
+photo.17.tags: portrait, praying, standing
+photo.18: ig://Bp_9QmBlZL6/m
+photo.18.author: ifumoto88
+photo.18.commitdate: 2018/11/11
+photo.18.link: https://www.instagram.com/ifumoto88/
+photo.18.tags: portrait
+photo.19: ig://Bq6iWUalWMq/m
+photo.19.author: mari_neko3
+photo.19.commitdate: 2018/12/4
+photo.19.link: https://www.instagram.com/mari_neko3/
+photo.19.tags: portrait, smile
+photo.20: ig://BrumfH3F3ec/m
+photo.20.author: ifumoto88
+photo.20.commitdate: 2018/12/23
+photo.20.link: https://www.instagram.com/ifumoto88/
+photo.20.tags: apple time, portrait, praying, standing
+photo.21: ig://BruyO5ClKvD/m
+photo.21.author: panda.daisuki
+photo.21.commitdate: 2018/12/23
+photo.21.link: https://www.instagram.com/panda.daisuki/
+photo.21.tags: laying down, portrait, tail
+photo.22: ig://Br7jsgpFoXA/m
+photo.22.author: ifumoto88
+photo.22.commitdate: 2018/12/28
+photo.22.link: https://www.instagram.com/ifumoto88/
+photo.22.tags: portrait, praying, profile, tongue
+photo.23: ig://BsQJCfMlEtn/m
+photo.23.author: firefoxpanda88
+photo.23.commitdate: 2019/1/6
+photo.23.link: https://www.instagram.com/firefoxpanda88/
+photo.23.tags: apple time, paws, portrait, praying
+photo.24: ig://BsQJykilVc-/m
+photo.24.author: monmon_redpanda
+photo.24.commitdate: 2019/1/6
+photo.24.link: https://www.instagram.com/monmon_redpanda/
+photo.24.tags: apple time, keeper, portrait, praying
+photo.25: ig://BtqbJAql8FE/m
+photo.25.author: ifumoto88
+photo.25.commitdate: 2019/2/19
+photo.25.link: https://www.instagram.com/ifumoto88/
+photo.25.tags: portrait, snow, tongue
+photo.26: ig://BuGq2fjFDtP/m
+photo.26.author: ifumoto88
+photo.26.commitdate: 2019/3/2
+photo.26.link: https://www.instagram.com/ifumoto88/
+photo.26.tags: lunch time, portrait, praying
+photo.27: ig://BubEjquFPbG/m
+photo.27.author: panda.daisuki
+photo.27.commitdate: 2019/3/9
+photo.27.link: https://www.instagram.com/panda.daisuki/
+photo.27.tags: keeper, smile, tongue
+photo.28: ig://Bu5HNLPFM61/m
+photo.28.author: ck.chie
+photo.28.commitdate: 2019/3/16
+photo.28.link: https://www.instagram.com/ck.chie/
+photo.28.tags: bamboo, paws, portrait, tongue
+photo.29: ig://BvCJBQIFq5i/m
+photo.29.author: mari_neko3
+photo.29.commitdate: 2019/3/17
+photo.29.link: https://www.instagram.com/mari_neko3/
+photo.29.tags: keeper, nose, paws
+photo.30: ig://BvqAxhLl4yX/m
+photo.30.author: na.mo.pan
+photo.30.commitdate: 2019/4/1
+photo.30.link: https://www.instagram.com/na.mo.pan/
+photo.30.tags: apple time, praying
+photo.31: ig://Bv5Nu7fF7Rt/m
+photo.31.author: mari_neko3
+photo.31.commitdate: 2019/4/5
+photo.31.link: https://www.instagram.com/mari_neko3/
+photo.31.tags: keeper, paws, standing
+photo.32: ig://Bv_kcnFlEjm/m
+photo.32.author: ifumoto88
+photo.32.commitdate: 2019/4/8
+photo.32.link: https://www.instagram.com/ifumoto88/
+photo.32.tags: apple time, portrait, praying, smile, standing
+photo.33: ig://BwOEDnYFFCH/m
+photo.33.author: na.mo.pan
+photo.33.commitdate: 2019/4/17
+photo.33.link: https://www.instagram.com/na.mo.pan/
+photo.33.tags: apple time, keeper, lips, shedding, standing
+photo.34: ig://BwUIkHKls9F/m
+photo.34.author: mari_neko3
+photo.34.commitdate: 2019/4/22
+photo.34.link: https://www.instagram.com/mari_neko3/
+photo.34.tags: apple time, portrait, praying, standing
+photo.35: ig://B0NsAy4hkCM/m
+photo.35.author: hamiiiii831_
+photo.35.commitdate: 2019/7/22
+photo.35.link: https://www.instagram.com/hamiiiii831_/
+photo.35.tags: mofumofu, portrait
+photo.36: ig://B0b8xTYBaCc/m
+photo.36.author: ssc6105
+photo.36.commitdate: 2019/7/30
+photo.36.link: https://www.instagram.com/ssc6105/
+photo.36.tags: bamboo, portrait, smile
+photo.37: ig://B1Z3vm4hbXy/m
+photo.37.author: miis_98
+photo.37.commitdate: 2019/8/27
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: portrait, smile
+photo.38: ig://B1nMGSrB8Gl/m
+photo.38.author: ssc6105
+photo.38.commitdate: 2019/8/27
+photo.38.link: https://www.instagram.com/ssc6105/
+photo.38.tags: bamboo, mofumofu
+photo.39: ig://B2B8_-FBuqW/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2019/9/5
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: paws, portrait, smile, tail
+photo.40: ig://B2wPc7MhZou/m
+photo.40.author: grskus_tk
+photo.40.commitdate: 2019/9/23
+photo.40.link: https://www.instagram.com/grskus_tk/
+photo.40.tags: apple time, keeper, portrait
+photo.41: ig://B29DmCkBN0L/m
+photo.41.author: ssc6105
+photo.41.commitdate: 2019/10/8
+photo.41.link: https://www.instagram.com/ssc6105/
+photo.41.tags: laying down, portrait, sleeping
+photo.42: ig://B3vqmJ6BGs_/m
+photo.42.author: grskus_tk
+photo.42.commitdate: 2019/10/21
+photo.42.link: https://www.instagram.com/grskus_tk/
+photo.42.tags: bamboo, mofumofu, portrait, smile
+photo.43: ig://B4XS6WBhbYU/m
+photo.43.author: ifumoto88
+photo.43.commitdate: 2019/11/17
+photo.43.link: https://www.instagram.com/ifumoto88/
+photo.43.tags: paws, portrait, tail
+photo.44: ig://B4ckQwlBbtf/m
+photo.44.author: ifumoto88
+photo.44.commitdate: 2019/11/18
+photo.44.link: https://www.instagram.com/ifumoto88/
+photo.44.tags: bamboo, mofumofu, paws, portrait
+photo.45: ig://B4mne6GhC6s/m
+photo.45.author: ssc6105
+photo.45.commitdate: 2019/11/8
+photo.45.link: https://www.instagram.com/ssc6105/
+photo.45.tags: paws, portrait, smile
+photo.46: ig://B5iAMSBB24z/m
+photo.46.author: grskus_tk
+photo.46.commitdate: 2019/12/3
+photo.46.link: https://www.instagram.com/grskus_tk/
+photo.46.tags: paws, portrait, praying, standing, tail, tongue
+photo.47: ig://B53sve-BzSZ/m
+photo.47.author: sasapan34
+photo.47.commitdate: 2019/12/28
+photo.47.link: https://www.instagram.com/sasapan34/
+photo.47.tags: praying, smile
+photo.48: ig://B55LbE-hHbW/m
+photo.48.author: ifumoto88
+photo.48.commitdate: 2019/12/29
+photo.48.link: https://www.instagram.com/ifumoto88/
+photo.48.tags: paws, portrait, standing
+photo.49: ig://B6x6tCuBxpb/m
+photo.49.author: mifko55
+photo.49.commitdate: 2020/1/3
+photo.49.link: https://www.instagram.com/mifko55/
+photo.49.tags: apple time, praying, portrait, tongue
+photo.50: ig://B7A833GBbH8/m
+photo.50.author: sasapan34
+photo.50.commitdate: 2020/1/19
+photo.50.link: https://www.instagram.com/sasapan34/
+photo.50.tags: apple time, paws
+photo.51: ig://B7BO0fhhAuB/m
+photo.51.author: alto0908
+photo.51.commitdate: 2020/1/25
+photo.51.link: https://www.instagram.com/alto0908/
+photo.51.tags: apple time, portrait, tree
+photo.52: ig://B7MieFQhv7x/m
+photo.52.author: alto0908
+photo.52.commitdate: 2020/1/14
+photo.52.link: https://www.instagram.com/alto0908/
+photo.52.tags: paws, praying, standing, tail
+photo.53: ig://B8PZH0gBld7/m
+photo.53.author: ssc6105
+photo.53.commitdate: 2020/2/11
+photo.53.link: https://www.instagram.com/ssc6105/
+photo.53.tags: keeper, mofumofu, paws, peek
+photo.54: ig://B8k5lncBGb_/m
+photo.54.author: mari_neko3
+photo.54.commitdate: 2020/2/22
+photo.54.link: https://www.instagram.com/mari_neko3/
+photo.54.tags: apple time, paws, portrait, praying
+photo.55: ig://B86ZcRZhXTU/m
+photo.55.author: ifumoto88
+photo.55.commitdate: 2020/12/12
+photo.55.link: https://www.instagram.com/ifumoto88/
+photo.55.tags: paws, praying, standing
+photo.56: ig://B9T-kVBBJ5f/m
+photo.56.author: craig_craig_craig
+photo.56.commitdate: 2020/12/12
+photo.56.link: https://www.instagram.com/craig_craig_craig/
+photo.56.tags: apple time, prayer, standing, tail, videolink
+photo.57: ig://B9b3KgnhpU2/m
+photo.57.author: alto0908
+photo.57.commitdate: 2020/12/12
+photo.57.link: https://www.instagram.com/alto0908/
+photo.57.tags: itchy, tail
+photo.58: ig://B9tW015hmgW/m
+photo.58.author: grskus_tk
+photo.58.commitdate: 2020/12/12
+photo.58.link: https://www.instagram.com/grskus_tk/
+photo.58.tags: paws, whiskers
+photo.59: ig://B-idK0vhCo7/m
+photo.59.author: alto0908
+photo.59.commitdate: 2020/12/12
+photo.59.link: https://www.instagram.com/alto0908/
+photo.59.tags: mofumofu, peek
+photo.60: ig://B-38OukhtY1/m
+photo.60.author: _saaaaaaah_
+photo.60.commitdate: 2020/12/12
+photo.60.link: https://www.instagram.com/_saaaaaaah_/
+photo.61: ig://B-64GghB-Ul/m
+photo.61.author: craig_craig_craig
+photo.61.commitdate: 2020/12/12
+photo.61.link: https://www.instagram.com/craig_craig_craig/
+photo.61.tags: apple time, paws, praying, standing, tail
+photo.62: ig://B_Yjzzenem6/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2020/12/12
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: grooming, paws, tail
+photo.63: ig://B_cmzF7nFyM/m
+photo.63.author: panda.daisuki
+photo.63.commitdate: 2020/12/12
+photo.63.link: https://www.instagram.com/panda.daisuki/
+photo.63.tags: apple time, paws, portrait, praying, standing
+photo.64: ig://B_j1knJnygg/m
+photo.64.author: hamamatsu.chiita
+photo.64.commitdate: 2020/8/16
+photo.64.link: https://www.instagram.com/hamamatsu.chiita/
+photo.64.tags: mofumofu, portrait
+photo.65: ig://B_mo96lBpY3/m
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2020/12/12
+photo.65.link: https://www.instagram.com/hamamatsu.chiita/
+photo.65.tags: mofumofu, paws, peek, tail
+photo.66: ig://CAzmj-yBed5/m
+photo.66.author: ssc6105
+photo.66.commitdate: 2020/12/12
+photo.66.link: https://www.instagram.com/ssc6105/
+photo.66.tags: dish
+photo.67: ig://CBeL4YshSEi/m
+photo.67.author: craig_craig_craig
+photo.67.commitdate: 2020/12/12
+photo.67.link: https://www.instagram.com/craig_craig_craig/
+photo.67.tags: bridge, climb, paws, portrait, standing, tail
+photo.68: ig://CB585-KhAr6/m
+photo.68.author: panda.daisuki
+photo.68.commitdate: 2020/12/12
+photo.68.link: https://www.instagram.com/panda.daisuki/
+photo.68.tags: paws, portrait
+photo.69: ig://CB7LwesByqZ/m
+photo.69.author: leonard_redmof
+photo.69.commitdate: 2020/12/12
+photo.69.link: https://www.instagram.com/leonard_redmof/
+photo.69.tags: portrait
+photo.70: ig://CCjqesZBcWl/m
+photo.70.author: miis_98
+photo.70.commitdate: 2020/12/12
+photo.70.link: https://www.instagram.com/miis_98/
+photo.70.tags: laying down, paws, portrait
+photo.71: ig://CEUSNvNB3Bi/m
+photo.71.author: craig_craig_craig
+photo.71.commitdate: 2020/8/28
+photo.71.link: https://www.instagram.com/craig_craig_craig/
+photo.71.tags: laying down, mofumofu, paws, smile, tongue
+photo.72: ig://CEy3B24hP90/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2020/12/12
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: peek
+photo.73: ig://CEy3OE8BwJM/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2020/12/12
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: paws
+photo.74: ig://CFg7-sIBN8G/m
+photo.74.author: pink.b22
+photo.74.commitdate: 2020/11/11
+photo.74.link: https://www.instagram.com/pink.b22/
+photo.74.tags: bamboo, bite, mofumofu, portrait
+photo.75: ig://CFvwnXYhl3j/m
+photo.75.author: ssc6105
+photo.75.commitdate: 2020/12/12
+photo.75.link: https://www.instagram.com/ssc6105/
+photo.75.tags: bridge, climb, paws, tail
+photo.76: ig://CHxOJtBhqvm/m
+photo.76.author: ssc6105
+photo.76.commitdate: 2020/12/12
+photo.76.link: https://www.instagram.com/ssc6105/
+photo.76.tags: laying down, portrait, yawn
+photo.77: ig://CIsmkmTh4nB/m
+photo.77.author: mini_cochi
+photo.77.commitdate: 2020/12/21
+photo.77.link: https://www.instagram.com/mini_cochi/
+photo.77.tags: grooming, paws, portrait
+photo.78: ig://CIs16-mB72h/m
+photo.78.author: ifumoto88
+photo.78.commitdate: 2020/12/21
+photo.78.link: https://www.instagram.com/ifumoto88/
+photo.78.tags: aple time, paws, portrait, praying, standing, tail
+photo.79: ig://CItsB7HBJ_v/m
+photo.79.author: ssc6105
+photo.79.commitdate: 2020/12/21
+photo.79.link: https://www.instagram.com/ssc6105/
+photo.79.tags: itchy, paws, smile
+photo.80: ig://CItxuFhBPxO/m
+photo.80.author: alto0908
+photo.80.commitdate: 2020/12/21
+photo.80.link: https://www.instagram.com/alto0908/
+photo.80.tags: portrait
+photo.81: ig://CIvEd1MBqxm/m
+photo.81.author: daniele.tokyo
+photo.81.commitdate: 2020/12/21
+photo.81.link: https://www.instagram.com/daniele.tokyo/
+photo.81.tags: paws, praying, smile, standing
+photo.82: ig://CIvJws9BuId/m
+photo.82.author: minatomirai215
+photo.82.commitdate: 2020/12/21
+photo.82.link: https://www.instagram.com/minatomirai215/
+photo.82.tags: peek, portrait, smile
+photo.83: ig://CIwmQ0HBCUg/m
+photo.83.author: sunnylettuce_2021
+photo.83.commitdate: 2020/12/21
+photo.83.link: https://www.instagram.com/sunnylettuce_2021/
+photo.83.tags: laying down, portrait
+photo.84: ig://CI-kmjxBLEj/m
+photo.84.author: fetorus_mami
+photo.84.commitdate: 2020/12/30
+photo.84.link: https://www.instagram.com/fetorus_mami/
+photo.84.tags: bamboo, mofumofu, portrait, smile
+species: 2
+studbook.id: 0870
+zoo: 8

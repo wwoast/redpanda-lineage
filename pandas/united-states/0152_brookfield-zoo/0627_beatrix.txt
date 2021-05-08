@@ -1,0 +1,56 @@
+[panda]
+_id: 627
+birthday: 2014/6/15
+birthplace: 122
+children: none
+commitdate: 2019/3/19
+death: 2018/4/27
+en.name: Beatrix
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベアトリクス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 628
+location.1: 122, 2014/6/15
+location.2: 152, 2015/6/8
+photo.1: ig://BZG_a-1AQQr/m
+photo.1.author: brookfieldzoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/brookfieldzoo/
+photo.1.tags: nose, white face
+photo.2: ig://BVPqPy-FBkh/m
+photo.2.author: brookfieldzoo
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/brookfieldzoo/
+photo.2.tags: bamboo, paws, nose, smile, white face
+photo.3: ig://BKdjJAZDMji/m
+photo.3.author: brookfieldzoo
+photo.3.commitdate: 2019/4/7
+photo.3.link: https://www.instagram.com/brookfieldzoo/
+photo.3.tags: profile, white face
+photo.4: ig://BIh7iCNjU6u/m
+photo.4.author: brookfieldzoo
+photo.4.commitdate: 2019/4/7
+photo.4.link: https://www.instagram.com/brookfieldzoo/
+photo.4.tags: sleeping, white face
+photo.5: ig://BBDtOxusfRv/m
+photo.5.author: brookfieldzoo
+photo.5.commitdate: 2019/4/7
+photo.5.link: https://www.instagram.com/brookfieldzoo/
+photo.5.tags: nose, snow, white face, tail
+photo.6: ig://BAF9LcgSkB_/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/12
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: nose, snow, white face
+photo.7: ig://BAF9RcdSkCH/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/12
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: paws, snow, target training
+species: 1
+studbook.id: 1410
+zoo: 152

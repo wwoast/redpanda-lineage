@@ -1,0 +1,37 @@
+[panda]
+_id: 321
+birthday: 2005/6/23
+birthplace: 9
+children: none
+commitdate: 2018/8/24
+death: 2010/12/25
+en.name: Noko
+en.nicknames: none
+en.oldnames: none
+en.othernames: none
+gender: m
+jp.name: ノコ
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: jp, en
+litter: 313
+location.1: 9, 2005/6/23
+location.2: 33, 2009/2/10
+photo.1: https://www.codaworry.com/images/rpf/noko-1-saitama.jpg
+photo.1.author: geroppa55
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://geroppa55.exblog.jp/i9/
+photo.1.tags: profile, techitechi
+photo.2: https://www.codaworry.com/images/rpf/noko-2-saitama.jpg
+photo.2.author: geroppa55
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://geroppa55.exblog.jp/i9/
+photo.3: https://www.codaworry.com/images/rpf/noko-3-saitama.jpg
+photo.3.author: gachon_kudo
+photo.3.commitdate: 2019/4/11
+photo.3.link: https://gachon.exblog.jp/5406325/
+photo.3.tags: smile
+species: 2
+studbook.id: 0556
+zoo: 33

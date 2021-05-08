@@ -1,0 +1,37 @@
+[panda]
+_id: 381
+birthday: 2008/6/1
+birthplace: 65
+children: 145, 390, 391
+commitdate: 2018/11/13
+death: 2019/1/1
+en.name: Bailey
+en.nicknames: none
+en.othernames: Beilei
+gender: f
+jp.name: ベイリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2008/6/1
+location.2: 87, 2009/4/20
+location.3: 65, 2011/11/7
+photo.1: ig://BZMl9Z6BLJH/m
+photo.1.author: charlesboisnyc
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/charleboisnyc/
+photo.1.tags: apple time, keeper
+photo.2: ig://BA-KbCrykKz/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, snow, tail
+photo.3: ig://Bkv_eifnuoO/m
+photo.3.author: andersonkelley
+photo.3.commitdate: 2019/7/28
+photo.3.link: https://www.instagram.com/andersonkelley/
+photo.3.tags: paws, tongue
+species: 2
+studbook.id: 0806
+zoo: 65

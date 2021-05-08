@@ -1,0 +1,40 @@
+[panda]
+_id: 464
+birthday: 2009/7/1
+birthplace: 33
+children: none
+commitdate: 2018/11/28
+en.name: Kurumi
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: クルミ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1183
+location.1: 31, 2009/7/1
+location.2: 100, 2014/11/28
+photo.1: ig://BOYiNisDYRa/m
+photo.1.author: kisukas
+photo.1.commitdate: 2018/11/29
+photo.1.link: https://www.instagram.com/kisukas/
+photo.1.tags: profile
+photo.2: ig://BQhyfJIgZTe/m
+photo.2.author: iampann
+photo.2.commitdate: 2018/11/29
+photo.2.link: https://www.instagram.com/iampann/
+photo.2.tags: laying down
+photo.3: ig://BSLNV6JDlC3/m
+photo.3.author: drozdmarya
+photo.3.commitdate: 2018/11/29
+photo.3.link: https://www.instagram.com/drozdmarya/
+photo.3.tags: paws
+photo.4: ig://B9D3_iBnoiv/m
+photo.4.author: khaokheow.zoo
+photo.4.commitdate: 2020/5/27
+photo.4.link: https://www.instagram.com/khaokheow.zoo/
+photo.4.tags: paws, portrait, tail
+species: 2
+studbook.id: 0981
+zoo: 100

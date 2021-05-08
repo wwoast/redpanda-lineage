@@ -1,0 +1,66 @@
+[panda]
+_id: 310
+birthday: 2002/6/15
+birthplace: 12
+children: 129, 30, 20, 77, 313, 321, 314, 322
+commitdate: 2018/8/19
+death: 2016/8/24
+en.name: Porin
+en.nicknames: Polin, Poline
+en.othernames: none
+gender: f
+jp.name: ポリン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 382
+location.1: 12, 2002/6/15
+location.2: 9, 2003/11/21
+location.3: 29, 2009/12/21
+photo.1: https://www.codaworry.com/images/rpf/porin-1-adventureworld.jpg
+photo.1.author: shin
+photo.1.commitdate: 2019/4/9
+photo.1.link: http://shinshin.cocolog-nifty.com/redpanda/2013/09/post-d14b.html
+photo.1.tags: profile, smile
+photo.2: https://www.codaworry.com/images/rpf/porin-2-adventureworld.jpg
+photo.2.author: shin
+photo.2.commitdate: 2019/4/13
+photo.2.link: http://shinshin.cocolog-nifty.com/redpanda/2013/09/post-d14b.html
+photo.2.tags: dish, home, lunch time
+photo.3: https://www.codaworry.com/images/rpf/porin-3-adventureworld.jpg
+photo.3.author: shin
+photo.3.commitdate: 2019/4/9
+photo.3.link: http://shinshin.cocolog-nifty.com/redpanda/2013/09/post-d14b.html
+photo.3.tags: air tasting, bridge, tongue
+photo.4: https://www.codaworry.com/images/rpf/porin-4-adventureworld.jpg
+photo.4.author: shin
+photo.4.commitdate: 2019/4/9
+photo.4.link: http://shinshin.cocolog-nifty.com/redpanda/2013/09/post-d14b.html
+photo.4.tags: techitechi
+photo.5: https://www.codaworry.com/images/rpf/porin-5-adventureworld.jpg
+photo.5.author: shin
+photo.5.commitdate: 2019/4/9
+photo.5.link: http://shinshin.cocolog-nifty.com/redpanda/2013/09/post-d14b.html
+photo.5.tags: smile
+photo.6: https://www.codaworry.com/images/rpf/porin-6-adventureworld.jpg
+photo.6.author: shin-lachitina
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://shinlachi.exblog.jp/21736519/
+photo.6.tags: tail
+photo.7: https://www.codaworry.com/images/rpf/porin-7-adventureworld.jpg
+photo.7.author: shin-lachitina
+photo.7.commitdate: 2019/4/9
+photo.7.link: https://shinlachi.exblog.jp/21736519/
+photo.8: https://www.codaworry.com/images/rpf/porin-8-adventureworld.jpg
+photo.8.author: shin-lachitina
+photo.8.commitdate: 2019/4/9
+photo.8.link: https://shinlachi.exblog.jp/21736519/
+photo.8.tags: apple time
+photo.9: ig://Bz-eJ7wBrVE/m
+photo.9.author: nishicotolo
+photo.9.commitdate: 2019/7/18
+photo.9.link: https://www.instagram.com/nishicotolo/
+photo.9.tags: peek
+species: 2
+studbook.id: 0256
+zoo: 29

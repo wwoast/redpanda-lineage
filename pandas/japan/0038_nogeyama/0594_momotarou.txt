@@ -1,0 +1,21 @@
+[panda]
+_id: 594
+birthday: 1997/7/17
+birthplace: 14
+children: none
+commitdate: 2019/3/19
+death: 2007/10/14
+en.name: Momotarou
+en.nicknames: none
+en.othernames: Momotaro
+gender: m
+jp.name: 桃太郎
+jp.nicknames: none
+jp.othernames: モモタロウ
+language.order: jp, en
+litter: 152
+location.1: 14, 1997/7/17
+location.2: 38, 1999/10/18
+species: 2
+studbook.id: 97112
+zoo: 38

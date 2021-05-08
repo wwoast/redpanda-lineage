@@ -1,0 +1,78 @@
+[panda]
+_id: 395
+birthday: 2015/6/22
+birthplace: 43
+children: 439
+commitdate: 2018/11/20
+en.name: Ferguson
+en.nicknames: none
+en.othernames: 
+gender: m
+jp.name: ファーガソン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 43, 2015/6/22
+location.2: 89, 2016/6/28
+photo.1: ig://BVj8RjujfSi/m
+photo.1.author: rossparkzoo
+photo.1.commitdate: 2018/11/25
+photo.1.link: https://www.instagram.com/rossparkzoo/
+photo.2: ig://BX8AKKhDeFT/m
+photo.2.author: rossparkzoo
+photo.2.commitdate: 2018/11/25
+photo.2.link: https://www.instagram.com/rossparkzoo/
+photo.3: ig://BZ39U0JH9gy/m
+photo.3.author: rossparkzoo
+photo.3.commitdate: 2018/11/25
+photo.3.link: https://www.instagram.com/rossparkzoo/
+photo.3.tags: close-up, portrait
+photo.4: ig://BqZ4grdFVj6/m
+photo.4.author: rossparkzoo
+photo.4.commitdate: 2018/11/25
+photo.4.link: https://www.instagram.com/rossparkzoo/
+photo.4.tags: bamboo, snow, standing, tongue
+photo.5: ig://B5T0yIUn7Ja/m
+photo.5.author: rossparkzoo
+photo.5.commitdate: 2020/7/15
+photo.5.link: https://www.instagram.com/rossparkzoo/
+photo.5.tags: paws, portrait
+photo.6: ig://B6_Qu9MHm_T/m
+photo.6.author: rossparkzoo
+photo.6.commitdate: 2020/7/15
+photo.6.link: https://www.instagram.com/rossparkzoo/
+photo.6.tags: bamboo, portrait, tail
+photo.7: ig://B73x80TnnzA/m
+photo.7.author: rossparkzoo
+photo.7.commitdate: 2020/7/15
+photo.7.link: https://www.instagram.com/rossparkzoo/
+photo.7.tags: close-up, portrait, profile, tongue, whiskers
+photo.8: ig://B79R5cHnikK/m
+photo.8.author: rossparkzoo
+photo.8.commitdate: 2020/7/15
+photo.8.link: https://www.instagram.com/rossparkzoo/
+photo.8.tags: portrait, whiskers
+photo.9: ig://B7_BVy3H8x-/m
+photo.9.author: rossparkzoo
+photo.9.commitdate: 2020/7/15
+photo.9.link: https://www.instagram.com/rossparkzoo/
+photo.9.tags: portrait, whiskers
+photo.10: ig://B-CYBQzH_J5/m
+photo.10.author: rossparkzoo
+photo.10.commitdate: 2020/7/15
+photo.10.link: https://www.instagram.com/rossparkzoo/
+photo.10.tags: bamboo, close-up, videolink
+photo.11: ig://CCQn1FvjWjd/m
+photo.11.author: rossifari
+photo.11.commitdate: 2020/12/5
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: laying down, smile, tongue
+photo.12: ig://CC0fGTJjI4R/m
+photo.12.author: rossifari
+photo.12.commitdate: 2020/12/5
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: mofumofu, peek, portrait
+species: 2
+studbook.id: 1527
+zoo: 89

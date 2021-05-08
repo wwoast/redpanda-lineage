@@ -1,0 +1,62 @@
+[panda]
+_id: 605
+birthday: 2009/6/28
+birthplace: 107
+children: 520
+commitdate: 2019/3/19
+en.name: Xiao
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: シャオ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 498, 910
+location.1: 107, 2009/6/28
+location.2: 123, 2010/7/15
+location.3: 48, 2019/6/1
+photo.1: ig://BZBoXpdD1gb/m
+photo.1.author: fwkidszoo
+photo.1.commitdate: 2019/4/7
+photo.1.link: https://www.instagram.com/fwkidszoo/
+photo.1.tags: bamboo
+photo.2: ig://BawUkpNjmM7/m
+photo.2.author: fwkidszoo
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/fwkidszoo/
+photo.2.tags: pumpkin
+photo.3: ig://BlD2dYjjzWy/m
+photo.3.author: fwkidszoo
+photo.3.commitdate: 2019/4/7
+photo.3.link: https://www.instagram.com/fwkidszoo/
+photo.3.tags: tongue
+photo.4: ig://BoZo_W5DJr6/m
+photo.4.author: fwkidszoo
+photo.4.commitdate: 2019/4/7
+photo.4.link: https://www.instagram.com/fwkidszoo/
+photo.4.tags: pumpkin
+photo.5: ig://BpjyO4pDK3p/m
+photo.5.author: fwkidszoo
+photo.5.commitdate: 2019/4/7
+photo.5.link: https://www.instagram.com/fwkidszoo/
+photo.5.tags: portrait, profile
+photo.6: ig://B0Wtw5Pp2OC/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/9/12
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: laying down, portrait, wet
+photo.7: ig://B04ICXKJHN4/m
+photo.7.author: rossifari
+photo.7.commitdate: 2020/9/12
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: mofumofu, paws, portrait
+photo.8: ig://B4Cs7K5HPb9/m
+photo.8.author: fwkidszoo
+photo.8.commitdate: 2019/11/26
+photo.8.link: https://www.instagram.com/fwkidszoo/
+photo.8.tags: pumpkin
+species: 1
+studbook.id: 0907
+uncertainty: location.3 date
+zoo: 48

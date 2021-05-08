@@ -1,0 +1,21 @@
+[panda]
+_id: 1225
+birthday: 2018/6/21
+birthplace: 154
+children: none
+commitdate: 2020/9/16
+en.name: Loofah
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1224
+location.1: 154, 2018/6/21
+location.2: 144, 2019/7/1
+species: 1
+studbook.id: 1815
+uncertainty: location.2 date
+zoo: 144

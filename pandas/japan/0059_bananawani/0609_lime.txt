@@ -1,0 +1,19 @@
+[panda]
+_id: 609
+birthday: 2005/8/11
+birthplace: 59
+children: none
+commitdate: 2019/3/19
+death: 2016/9/16
+en.name: Lime
+en.nicknames: none
+en.othernames: Raimu
+gender: m
+jp.name: ライム
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 270
+species: 1
+studbook.id: 0576
+zoo: 59

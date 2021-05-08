@@ -1,0 +1,33 @@
+[panda]
+_id: 866
+birthday: 2013/6/6
+birthplace: 141
+children: 859, 860, 867
+commitdate: 2019/6/10
+en.name: Nutmeg
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナツメグ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 141, 2013/6/6
+location.2: 114, 2014/9/30
+location.3: 49, 2017/12/19
+location.4: 154, 2019/10/1
+photo.1: ig://nbTVHUomVa/m
+photo.1.author: eriezoo
+photo.1.commitdate: 2019/9/21
+photo.1.link: https://www.instagram.com/eriezoo/
+photo.1.tags: portrait, profile, white face
+photo.2: ig://CFKMEXgsjV-/m
+photo.2.author: syracusezoo
+photo.2.commitdate: 2020/9/16
+photo.2.link: https://www.instagram.com/syracusezoo/
+photo.2.tags: white face
+species: 1
+studbook.id: 1310
+uncertainty: location.4 date
+zoo: 154

@@ -1,0 +1,60 @@
+[panda]
+_id: 1054
+birthday: 2005/6/24
+birthplace: 222
+children: unknown
+commitdate: 2019/11/23
+en.name: Gwen
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: グウェン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1055
+location.1: 222, 2005/6/24
+location.2: 223, 2006/5/12
+location.3: 219, 2016/1/22
+photo.1: ig://BobT8agng7T/m
+photo.1.author: pairidaizaofficial
+photo.1.commitdate: 2019/11/23
+photo.1.link: https://www.instagram.com/pairidaizaofficial/
+photo.1.tags: white face
+photo.2: ig://Byn-ugyoN29/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2019/11/24
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: paws, portrait, white face
+photo.3: ig://BzEdsXaC2FH/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2019/11/24
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: paws, portrait, white face
+photo.4: ig://BzpwQLVIjOW/m
+photo.4.author: nathalie.elliott
+photo.4.commitdate: 2019/11/24
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: paws, portrait, white face
+photo.5: ig://BzGk-bCCope/m
+photo.5.author: pairidaizaofficial
+photo.5.commitdate: 2019/11/23
+photo.5.link: https://www.instagram.com/pairidaizaofficial/
+photo.5.tags: portrait, profile, white face
+photo.6: ig://B0VCB5gj5OX/m
+photo.6.author: pairidaizaofficial
+photo.6.commitdate: 2019/11/23
+photo.6.link: https://www.instagram.com/pairidaizaofficial/
+photo.6.tags: ice treat, portrait, white face
+photo.7: ig://B3_dTQkALvw/m
+photo.7.author: pairidaizaofficial
+photo.7.commitdate: 2019/11/23
+photo.7.link: https://www.instagram.com/pairidaizaofficial/
+photo.7.tags: bridge, portrait, tail, white face
+photo.8: ig://B0_vvvSgIYG/m
+photo.8.author: nikosan59
+photo.8.commitdate: 2019/12/9
+photo.8.link: https://www.instagram.com/nikosan59/
+photo.8.tags: paws, portrait, white face
+species: 1
+zoo: 219

@@ -1,0 +1,17 @@
+[zoo]
+_id: 141
+commitdate: 2019/3/2
+en.address: 2701, 423 W 38th St, Erie, PA 16508, United States
+en.location: Erie, Pennsylvania, USA
+en.name: Erie Zoological Gardens
+flag: USA
+language.order: en
+latitude: 42.0972671
+longitude: -80.0826931
+map: https://goo.gl/maps/2JCNCyxMFZ32
+photo.1: ig://BmlR3j3gkft/m
+photo.1.author: warlent
+photo.1.commitdate: 2019/9/22
+photo.1.link: https://www.instagram.com/warlent/
+photo.1.tags: profile
+website: https://www.eriezoo.org/

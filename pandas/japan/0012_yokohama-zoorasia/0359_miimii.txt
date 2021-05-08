@@ -1,0 +1,21 @@
+[panda]
+_id: 359
+birthday: 1994/6/26
+birthplace: 4
+children: 361, 362, 196, 548, 310, 382, 25, 165
+commitdate: 2018/10/26
+death: 2015/3/31
+en.name: Mii-Mii
+en.nicknames: none
+en.othernames: Miimii, Mi-mi, Mimi
+gender: m
+jp.name: 美美
+jp.nicknames: none
+jp.othernames: ミーミー
+language.order: jp, en
+location.1: 4, 1994/6/26
+location.2: 38, 1997/12/17
+location.3: 12, 1998/11/24
+species: 2
+studbook.id: 9446
+zoo: 12

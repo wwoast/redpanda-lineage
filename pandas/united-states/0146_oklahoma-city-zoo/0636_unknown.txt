@@ -1,0 +1,19 @@
+[panda]
+_id: 636
+birthday: 2011/6/25
+birthplace: 146
+children: none
+commitdate: 2019/3/19
+death: 2011/12/9
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 634, 635
+species: 1
+studbook.id: 1108
+zoo: 146

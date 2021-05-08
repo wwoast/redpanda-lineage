@@ -1,0 +1,53 @@
+[panda]
+_id: 536
+birthday: 2014/7/9
+birthplace: 134
+children: 1127, 1128, 1129
+commitdate: 2019/3/2
+death: 2019/12/1
+en.name: Masala
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マサラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 535
+location.1: 134, 2014/7/9
+location.2: 108, 2016/2/3
+location.3: 116, 2018/2/22
+photo.1: ig://Bh7O6YEn66Q/m
+photo.1.author: millerparkzoo
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: portrait, tail, tree
+photo.2: ig://BHvEMOjAiwe/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/3/17
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo, portrait
+photo.3: ig://BHvEP2KAzWs/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/3/17
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo, portrait, techitechi
+photo.4: ig://BHvEVZxAYnG/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/3/17
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: flowers
+photo.5: ig://BHvEcjIgT9w/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/3/17
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, profile
+photo.6: ig://-p7LsKuWzq/m
+photo.6.author: sequoiaparkzoo
+photo.6.commitdate: 2019/4/5
+photo.6.link: https://www.instagram.com/sequoiaparkzoo/
+photo.6.tags: bamboo, paws, standing
+species: 1
+studbook.id: 1450
+uncertainty: death date
+zoo: 116

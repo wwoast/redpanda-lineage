@@ -1,0 +1,20 @@
+[panda]
+_id: 1113
+birthday: 2009/7/10
+birthplace: 114
+children: none
+commitdate: 2020/3/2
+death: 2010/2/20
+en.name: Rohan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ローハン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 114, 2009/7/10
+location.2: 107, 2009/10/6
+species: 1
+zoo: 107

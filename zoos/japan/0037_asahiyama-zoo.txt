@@ -1,0 +1,32 @@
+[zoo]
+_id: 37
+commitdate: 2018/6/26
+en.address: Japan, 〒078-8205 Hokkaido, 旭川市東旭川町倉沼
+en.location: Asahikawa, Hokkaido, Japan
+en.name: Asahiyama Zoo
+flag: Japan
+jp.address: 〒078-8205 北海道 旭川市東旭川町倉沼
+jp.location: 旭川市 北海道
+jp.name: 旭川市旭山動物園
+language.order: jp, en
+latitude: 43.7684289
+longitude: 142.4778913
+map: https://goo.gl/maps/pRRcmyyfEUF2
+photo.1: ig://BqJqigEHRvF/m
+photo.1.author: poledancer_kayo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/poledancer_kayo/
+photo.2: ig://B3LrU4Uhmuu/m
+photo.2.author: asahiyamazoo1
+photo.2.commitdate: 2019/11/26
+photo.2.link: https://www.instagram.com/asahiyamazoo1/
+photo.3: ig://B5ENVJHB_PR/m
+photo.3.author: asahiyamazoo1
+photo.3.commitdate: 2019/11/26
+photo.3.link: https://www.instagram.com/asahiyamazoo1/
+photo.3.tags: profile
+photo.4: ig://CCGaDYmBMc1/m
+photo.4.author: asahiyamazoo1
+photo.4.commitdate: 2020/7/16
+photo.4.link: https://www.instagram.com/asahiyamazoo1/
+website: http://www.city.asahikawa.hokkaido.jp/asahiyamazoo/

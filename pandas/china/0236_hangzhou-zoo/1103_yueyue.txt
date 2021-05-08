@@ -1,0 +1,30 @@
+[panda]
+_id: 1103
+birthday: unknown
+birthplace: unknown
+children: 1104, 1071
+cn.name: 悦悦
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/2/5
+en.name: Yue-Yue
+en.nicknames: none
+en.othernames: Yueyue, Moon
+gender: m
+jp.name: 悦悦
+jp.nicknames: none
+jp.othernames: ユェユェ
+language.order: cn, en, jp
+litter: unknown
+photo.1: ig://B7SwwfgnCW2/m
+photo.1.author: mkr0369
+photo.1.commitdate: 2020/2/5
+photo.1.link: https://www.instagram.com/mkr0369/
+photo.1.tags: ear, nose, tail
+photo.2: ig://B8ebFPchodP/m
+photo.2.author: mkr0369
+photo.2.commitdate: 2020/2/28
+photo.2.link: https://www.instagram.com/mkr0369/
+photo.2.tags: portrait, tail
+species: 2
+zoo: 236

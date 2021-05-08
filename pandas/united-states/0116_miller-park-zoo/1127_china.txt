@@ -1,0 +1,30 @@
+[panda]
+_id: 1127
+birthday: 2019/6/16
+birthplace: 116
+children: none
+cn.name: 中國
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/3/13
+en.name: China
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 中国
+jp.nicknames: none
+jp.othernames: none
+language.order: en, cn, jp
+litter: 1128, 1129
+photo.1: ig://B4aVoillSzC/m
+photo.1.author: millerparkzoo
+photo.1.commitdate: 2020/3/13
+photo.1.link: https://www.instagram.com/millerparkzoo/
+photo.1.tags: portrait, whiskers
+photo.2: ig://B2mydmDFa2F/m
+photo.2.author: millerparkzoo
+photo.2.commitdate: 2020/3/15
+photo.2.link: https://www.instagram.com/millerparkzoo/
+photo.2.tags: peek, portrait, tree
+species: 1
+zoo: 116

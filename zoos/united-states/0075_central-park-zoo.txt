@@ -1,0 +1,19 @@
+[zoo]
+_id: 75
+commitdate: 2018/10/7
+en.address: E 64th St, New York, NY 10021
+en.location: New York City, NY, USA
+en.name: Central Park Zoo
+flag: USA
+jp.address: E 64th St、ニューヨーク、ニューヨーク10021
+jp.location: ニューヨーク ニューヨーク
+jp.name: セントラルパーク動物園
+language.order: en, jp
+latitude: 40.767782
+longitude: -73.9740222
+map: https://goo.gl/maps/Jj2bHyYZhZ92
+photo.1: ig://Bj80DM7gxj6/m
+photo.1.author: _pixie_dust_86
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/_pixie_dust_86/
+website: https://centralparkzoo.com/

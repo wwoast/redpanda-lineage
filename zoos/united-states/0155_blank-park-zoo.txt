@@ -1,0 +1,21 @@
+[zoo]
+_id: 155
+commitdate: 2019/3/19
+en.address: 7401 SW 9th St, Des Moines, IA 50315, USA
+en.location: Des Moines, Iowa, USA
+en.name: Blank Park Zoo
+flag: USA
+language.order: en
+latitude: 41.5207105
+longitude: -93.62561
+map: https://goo.gl/maps/KrqMWUznyA32
+photo.1: ig://CCOyryAhfh1/m
+photo.1.author: blankparkzoo
+photo.1.commitdate: 2020/8/17
+photo.1.link: https://www.instagram.com/blankparkzoo/
+photo.1.tags: profile
+photo.2: ig://CDUUIaZjJJ1/m
+photo.2.author: blankparkzoo
+photo.2.commitdate: 2020/8/17
+photo.2.link: https://www.instagram.com/blankparkzoo/
+website: https://www.blankparkzoo.com/

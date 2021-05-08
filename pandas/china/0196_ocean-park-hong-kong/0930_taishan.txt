@@ -1,0 +1,81 @@
+[panda]
+_id: 930
+birthday: unknown
+birthplace: 195
+children: unknown
+cn.name: 泰山
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2019/7/10
+en.name: Tai-Shan
+en.nicknames: none
+en.othernames: Taishan, Tarzan, Taixiang
+gender: m
+jp.name: タイシャン
+jp.nicknames: none
+jp.othernames: 泰山
+language.order: cn, en, jp
+litter: unknown
+location.1: 195, unknown
+location.2: 196, 2009/3/22
+photo.1: ig://BdHXqOuFBCM/m
+photo.1.author: hkoceanpark
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/hkoceanpark/
+photo.2: ig://BzaUA51HHW3/m
+photo.2.author: redpanda_tata
+photo.2.commitdate: 2019/7/10
+photo.2.link: https://www.instagram.com/redpanda_tata/
+photo.2.tags: smile
+photo.3: ig://Bzb6rEjH3eg/m
+photo.3.author: redpanda_tata
+photo.3.commitdate: 2019/7/10
+photo.3.link: https://www.instagram.com/redpanda_tata/
+photo.3.tags: whiskers
+photo.4: ig://BziqeI-HBCs/m
+photo.4.author: redpanda_tata
+photo.4.commitdate: 2019/7/10
+photo.4.link: https://www.instagram.com/redpanda_tata/
+photo.4.tags: lunch time, paws, portrait, profile
+photo.5: ig://BzqN-NoHRhP/m
+photo.5.author: redpanda_tata
+photo.5.commitdate: 2019/7/10
+photo.5.link: https://www.instagram.com/redpanda_tata/
+photo.5.tags: keeper, paws, portrait, smile, standing
+photo.6: ig://Bzsq-gVntUO/m
+photo.6.author: redpanda_tata
+photo.6.commitdate: 2019/7/10
+photo.6.link: https://www.instagram.com/redpanda_tata/
+photo.6.tags: laying down, surprise, upside-down
+photo.7: ig://B0X7Y0HhWPH/m
+photo.7.author: redpanda_tata
+photo.7.commitdate: 2019/7/28
+photo.7.link: https://www.instagram.com/redpanda_tata/
+photo.7.tags: laying down, paws
+photo.8: ig://B2hIPP0h7XS/m
+photo.8.author: redpanda_tata
+photo.8.commitdate: 2019/9/18
+photo.8.link: https://www.instagram.com/redpanda_tata/
+photo.8.tags: portrait, tongue
+photo.9: ig://B59vRpXh5rO/m
+photo.9.author: redpanda_tata
+photo.9.commitdate: 2020/2/16
+photo.9.link: https://www.instagram.com/redpanda_tata/
+photo.9.tags: apple time, dish, keeper, smile, standing, tail
+photo.10: ig://B65Sw5KhzX9/m
+photo.10.author: redpanda_tata
+photo.10.commitdate: 2020/1/11
+photo.10.link: https://www.instagram.com/redpanda_tata/
+photo.10.tags: smile, whiskers
+photo.11: ig://B8YWzuJhs2O/m
+photo.11.author: redpanda_tata
+photo.11.commitdate: 2020/2/23
+photo.11.link: https://www.instagram.com/redpanda_tata/
+photo.11.tags: bamboo, paws, portrait, whiskers
+photo.12: ig://CFKTAYVhoUQ/m
+photo.12.author: redpanda_tata
+photo.12.commitdate: 2020/9/20
+photo.12.link: https://www.instagram.com/redpanda_tata/
+photo.12.tags: portrait, smile, whiskers
+species: 2
+zoo: 196

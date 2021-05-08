@@ -1,0 +1,242 @@
+[panda]
+_id: 190
+birthday: 2013/7/19
+birthplace: 37
+children: 344, 345, 1209, 1210
+commitdate: 2018/7/27
+en.name: Ron-Ron
+en.nicknames: none
+en.othernames: Ronron
+gender: f
+jp.name: 栄栄
+jp.nicknames: none
+jp.othernames: ロンロン
+language.order: jp, en
+litter: none
+location.1: 37, 2013/7/19
+location.2: 53, 2016/3/9
+photo.1: ig://BLiyhdxACc7/m
+photo.1.author: rnrirhrh
+photo.1.commitdate: 2019/10/28
+photo.1.link: https://www.instagram.com/rnrirhrh/
+photo.1.tags: laying down, paws, portrait
+photo.2: ig://BX5HdYBlHmJ/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: laying down, portrait
+photo.3: ig://BjmXzhyFDxu/m
+photo.3.author: monmon_redpanda
+photo.3.commitdate: 2018/7/28
+photo.3.link: https://www.instagram.com/monmon_redpanda/
+photo.3.tags: ear, portrait
+photo.4: ig://BkH161fF7_2/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/7/28
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: paws, keeper
+photo.5: ig://BkH2UxJlDFA/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2018/7/28
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: portrait
+photo.6: ig://BkRGdnMFiYD/m
+photo.6.author: fetorus_mami
+photo.6.commitdate: 2018/7/28
+photo.6.link: https://www.instagram.com/fetorus_mami/
+photo.6.tags: paws, standing
+photo.7: ig://BkydaQHlMGz/m
+photo.7.author: rie_panda55
+photo.7.commitdate: 2018/7/28
+photo.7.link: https://www.instagram.com/rie_panda55/
+photo.7.tags: portrait, profile
+photo.8: ig://BnADK4OFqko/m
+photo.8.author: miis_98
+photo.8.commitdate: 2018/8/31
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: mofumofu, portrait, smile
+photo.9: ig://Bo7mmgblQ3m/m
+photo.9.author: kipekaila
+photo.9.commitdate: 2018/10/15
+photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: dish, lunch time, smile
+photo.10: ig://BpqkyXsl7JS/m
+photo.10.author: miis_98
+photo.10.commitdate: 2018/11/2
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: dish, portrait, tongue
+photo.11: ig://Bq9k0m6HHCB/m
+photo.11.author: yakko____
+photo.11.commitdate: 2018/12/6
+photo.11.link: https://www.instagram.com/yakko____/
+photo.11.tags: portrait, standing
+photo.12: ig://BrAlYDBFujA/m
+photo.12.author: craig_craig_craig
+photo.12.commitdate: 2018/12/6
+photo.12.link: https://www.instagram.com/craig_craig_craig/
+photo.12.tags: paws, standing
+photo.13: ig://BxQoKf9lXg0/m
+photo.13.author: re_ichimaru
+photo.13.commitdate: 2019/5/10
+photo.13.link: https://www.instagram.com/re_ichimaru/
+photo.13.tags: laying down
+photo.14: ig://Bz6oxRahJPS/m
+photo.14.author: grskus_tk
+photo.14.commitdate: 2019/7/15
+photo.14.link: https://www.instagram.com/grskus_tk/
+photo.14.tags: portrait, smile
+photo.15: ig://B0EJ03cBYIv/m
+photo.15.author: hamiiiii831_
+photo.15.commitdate: 2019/7/18
+photo.15.link: https://www.instagram.com/hamiiiii831_/
+photo.16: ig://B0GBze8hxar/m
+photo.16.author: ifumoto88
+photo.16.commitdate: 2019/7/20
+photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: laying down, portrait
+photo.17: ig://B0GVw7WhZZ5/m
+photo.17.author: leonard_redmof
+photo.17.commitdate: 2019/7/20
+photo.17.link: https://www.instagram.com/leonard_redmof/
+photo.17.tags: portrait, smile
+photo.18: ig://B0GkCg2BrJg/m
+photo.18.author: panda.daisuki
+photo.18.commitdate: 2019/7/20
+photo.18.link: https://www.instagram.com/panda.daisuki/
+photo.18.tags: paws, portrait
+photo.19: ig://B0I999sByIj/m
+photo.19.author: ifumoto88
+photo.19.commitdate: 2019/7/22
+photo.19.link: https://www.instagram.com/ifumoto88/
+photo.19.tags: bridge, portrait, smile, tail
+photo.20: ig://B0-2a_hhi4E/m
+photo.20.author: panda.daisuki
+photo.20.commitdate: 2019/8/11
+photo.20.link: https://www.instagram.com/panda.daisuki/
+photo.20.tags: paws, peek, portrait, smile
+photo.21: ig://B1BCMmpBdYS/m
+photo.21.author: ifumoto88
+photo.21.commitdate: 2019/8/11
+photo.21.link: https://www.instagram.com/ifumoto88/
+photo.21.tags: mofumofu, portrait
+photo.22: ig://B1BFLQqBrnt/m
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2019/8/14
+photo.22.link: https://www.instagram.com/fetorus_mami/
+photo.22.tags: bridge, mofumofu, tongue
+photo.23: ig://B1BoNzXhLxL/m
+photo.23.author: panda.daisuki
+photo.23.commitdate: 2019/8/11
+photo.23.link: https://www.instagram.com/panda.daisuki/
+photo.23.tags: bamboo, portrait, smile
+photo.24: ig://B1BrQSqhNBK/m
+photo.24.author: ifumoto88
+photo.24.commitdate: 2019/8/11
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: bamboo, paws, standing
+photo.25: ig://B1GYGDehx8W/m
+photo.25.author: miis_98
+photo.25.commitdate: 2019/8/29
+photo.25.link: https://www.instagram.com/miis_98/
+photo.25.tags: portrait, shake
+photo.26: ig://B1GjcS3Bymh/m
+photo.26.author: panda.daisuki
+photo.26.commitdate: 2019/8/15
+photo.26.link: https://www.instagram.com/panda.daisuki/
+photo.26.tags: bridge, paws, portrait, smile, tongue
+photo.27: ig://B1Oev0mhFC5/m
+photo.27.author: leonard_redmof
+photo.27.commitdate: 2019/8/20
+photo.27.link: https://www.instagram.com/leonard_redmof/
+photo.27.tags: laying down, portrait
+photo.28: ig://B1cZzHSBPOx/m
+photo.28.author: rie_panda55
+photo.28.commitdate: 2019/8/23
+photo.28.link: https://www.instagram.com/rie_panda55/
+photo.28.tags: smile, tail
+photo.29: ig://B1hxg_NhqFi/m
+photo.29.author: panda.daisuki
+photo.29.commitdate: 2019/8/26
+photo.29.link: https://www.instagram.com/panda.daisuki/
+photo.29.tags: laying down, portrait
+photo.30: ig://B1z-PISgsb3/m
+photo.30.author: sunnylettuce_2021
+photo.30.commitdate: 2019/8/31
+photo.30.link: https://www.instagram.com/sunnylettuce_2021/
+photo.30.tags: portrait, smile
+photo.31: ig://B17YQszBaWR/m
+photo.31.author: panda.daisuki
+photo.31.commitdate: 2019/9/3
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: bridge, laying down, portrait, smile
+photo.32: ig://B2GfNRWh6oa/m
+photo.32.author: spla_calamari
+photo.32.commitdate: 2019/9/9
+photo.32.link: https://www.instagram.com/spla_calamari/
+photo.32.tags: laying down, portrait, sleeping
+photo.33: ig://B2GrYjTBqpz/m
+photo.33.author: spla_calamari
+photo.33.commitdate: 2019/9/9
+photo.33.link: https://www.instagram.com/spla_calamari/
+photo.33.tags: blink, laying down, paws, portrait, smile
+photo.34: ig://B2Ypg7FBmJH/m
+photo.34.author: panda.daisuki
+photo.34.commitdate: 2019/9/16
+photo.34.link: https://www.instagram.com/panda.daisuki/
+photo.34.tags: laying down, portrait
+photo.35: ig://B3x8rZah5Mm/m
+photo.35.author: zoowfreedom299
+photo.35.commitdate: 2019/10/22
+photo.35.link: https://www.instagram.com/zoowfreedom299/
+photo.35.tags: paws, smile
+photo.36: ig://B4G-0iYhj9w/m
+photo.36.author: zoowfreedom299
+photo.36.commitdate: 2019/10/28
+photo.36.link: https://www.instagram.com/zoowfreedom299/
+photo.36.tags: bamboo, paws, smile
+photo.37: ig://B6ewbJEB-_P/m
+photo.37.author: zoowfreedom299
+photo.37.commitdate: 2019/12/30
+photo.37.link: https://www.instagram.com/zoowfreedom299/
+photo.37.tags: portrait, tail, tongue
+photo.38: ig://B9lvsCJB6a8/m
+photo.38.author: panda.daisuki
+photo.38.commitdate: 2020/3/18
+photo.38.link: https://www.instagram.com/panda.daisuki/
+photo.38.tags: paws, standing, tail
+photo.39: ig://B9oM0eChpLv/m
+photo.39.author: sasapan34
+photo.39.commitdate: 2020/3/15
+photo.39.link: https://www.instagram.com/sasapan34/
+photo.39.tags: smile, whiskers
+photo.40: ig://CCzPfuaBqJh/m
+photo.40.author: panda.daisuki
+photo.40.commitdate: 2020/10/14
+photo.40.link: https://www.instagram.com/panda.daisuki/
+photo.40.tags: mofumofu, portrait, smile, whiskers
+photo.41: ig://CC08zx7hH46/m
+photo.41.author: eos1089
+photo.41.commitdate: 2020/10/14
+photo.41.link: https://www.instagram.com/eos1089/
+photo.41.tags: mofumofu, smile, whiskers
+photo.42: ig://CGM-_emBsP0/m
+photo.42.author: fetorus_mami
+photo.42.commitdate: 2020/10/14
+photo.42.link: https://www.instagram.com/fetorus_mami/
+photo.42.tags: door, mofumofu, paws, portrait
+photo.43: ig://CGTGZuIh3Sp/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2020/10/14
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.43.tags: portrait, smile, whiskers
+photo.44: ig://CGn5BfrBsmy/m
+photo.44.author: alto0908
+photo.44.commitdate: 2020/10/29
+photo.44.link: https://www.instagram.com/alto0908/
+photo.44.tags: mofumofu, portrait, tongue, whiskers
+species: 2
+studbook.id: 13169
+video.1: https://youtu.be/HQ_OsRtj6T0
+video.1.author: mmovies21
+video.1.link: https://www.youtube.com/user/Mmovies21
+zoo: 53

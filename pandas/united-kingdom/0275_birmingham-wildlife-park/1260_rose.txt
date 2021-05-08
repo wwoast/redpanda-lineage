@@ -1,0 +1,16 @@
+[panda]
+_id: 1260
+birthday: unknown
+birthplace: 275
+children: none
+commitdate: 2021/4/7
+en.name: Rose
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: ローズ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 275

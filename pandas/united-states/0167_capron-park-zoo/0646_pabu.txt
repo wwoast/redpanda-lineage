@@ -1,0 +1,30 @@
+[panda]
+_id: 646
+birthday: 2016/7/2
+birthplace: 113
+children: none
+commitdate: 2019/3/19
+en.name: Pabu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: パブ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 645
+location.1: 113, 2016/7/2
+location.2: 167, 2017/5/10
+photo.1: ig://B4fVkDQBtK8/m
+photo.1.author: capronparkzoo
+photo.1.commitdate: 2019/11/7
+photo.1.link: https://www.instagram.com/capronparkzoo/
+photo.1.tags: hammock, portrait, profile
+photo.2: ig://CCa3yGWja-l/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/8/29
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: bamboo, paws, portrait, window
+species: 1
+studbook.id: 1618
+zoo: 167

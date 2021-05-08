@@ -1,0 +1,20 @@
+[panda]
+_id: 1126
+birthday: 2011/6/10
+birthplace: 141
+children: 524, 912, 558, 914
+commitdate: 2020/3/8
+death: 2014/12/3
+en.name: Scarlett
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スカーレット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 141, 2011/6/10
+location.2: 108, 2012/11/8
+species: 1
+zoo: 108

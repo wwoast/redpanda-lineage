@@ -1,0 +1,19 @@
+[panda]
+_id: 1068
+birthday: 2005/6/25
+birthplace: 135
+children: unknown
+commitdate: 2019/11/29
+en.name: Chestnut
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: チェストナット
+jp.nicknames: none
+jp.othernames: 栗, クリ, マロン
+language.order: en, jp
+litter: 1067
+location.1: 135, 2005/6/25
+location.2: 228, 2007/12/6
+species: 1
+zoo: 228

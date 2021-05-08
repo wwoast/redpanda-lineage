@@ -1,0 +1,28 @@
+[panda]
+_id: 486
+birthday: 2017/7/23
+birthplace: 82
+children: none
+commitdate: 2018/12/8
+en.name: Paprika
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: パプリカ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 485
+photo.1: ig://B0RSdcIg0A5/m
+photo.1.author: edmontonvalleyzoo
+photo.1.commitdate: 2020/1/13
+photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.1.tags: smile
+photo.2: ig://B8j97IvgG8B/m
+photo.2.author: edmontonvalleyzoo
+photo.2.commitdate: 2020/5/17
+photo.2.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.2.tags: bamboo, portrait, profile
+species: 2
+studbook.id: 1731
+zoo: 82

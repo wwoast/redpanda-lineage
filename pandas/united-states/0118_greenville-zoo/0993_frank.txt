@@ -1,0 +1,22 @@
+[panda]
+_id: 993
+birthday: 2018/6/12
+birthplace: 118
+children: none
+commitdate: 2019/10/12
+en.name: Frank
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フランク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 991, 992
+photo.1: ig://BxsUQtiFqtk/m
+photo.1.author: greenvilleaazk
+photo.1.commitdate: 2019/10/20
+photo.1.link: https://www.instagram.com/greenvilleaazk/
+photo.1.tags: peek, portrait, profile, white face
+species: 1
+zoo: 118

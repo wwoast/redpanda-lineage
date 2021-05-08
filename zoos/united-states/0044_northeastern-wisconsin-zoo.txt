@@ -1,0 +1,17 @@
+[zoo]
+_id: 44
+commitdate: 2018/6/28
+en.address: 4378 Reforestation Rd, Green Bay, WI 54313
+en.location: Green Bay, Wisconsin, USA
+en.name: Northeastern Wisconsin Zoo
+en.othernames: NEW Zoo
+flag: USA
+language.order: en
+latitude: 44.6603441
+longitude: -88.0915213
+map: https://goo.gl/maps/Wi6pMXofB6w
+photo.1: ig://BklGCq_gm13/m
+photo.1.author: newzoogb
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/newzoogb/
+website: https://newzoo.org

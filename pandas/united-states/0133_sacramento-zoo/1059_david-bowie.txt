@@ -1,0 +1,27 @@
+[panda]
+_id: 1059
+birthday: unknown
+birthplace: 144
+children: 1192
+commitdate: 2019/11/27
+en.name: David Bowie
+en.nicknames: none
+en.othernames: Bowie, Young Chi, Young-Chi, Yung Chi, Yung-Chi, Yungchi
+gender: m
+jp.name: デビッド・ボウイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: ig://BxlAQE6npN5/m
+photo.1.author: sunsetzoomhk
+photo.1.commitdate: 2020/5/11
+photo.1.link: https://www.instagram.com/sunsetzoomhk/
+photo.1.tags: smile
+photo.2: ig://B42tRS7AeuK/m
+photo.2.author: ohmygoat1
+photo.2.commitdate: 2019/11/27
+photo.2.link: https://www.instagram.com/ohmygoat1/
+photo.2.tags: portrait, profile
+species: 1
+zoo: 133

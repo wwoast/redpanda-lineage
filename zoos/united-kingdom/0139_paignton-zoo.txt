@@ -1,0 +1,25 @@
+[zoo]
+_id: 139
+commitdate: 2019/3/2
+en.address: Totnes Rd, Paignton TQ4 7EU, UK
+en.location: Paignton, UK
+en.name: Paignton Zoo Environmental Park
+flag: UK
+language.order: en
+latitude: 50.4326122
+longitude: -3.5974683
+map: https://goo.gl/maps/Jigbo16RLDP2
+photo.1: ig://B6Q2t8dpHU5/m
+photo.1.author: paigntonzoo
+photo.1.commitdate: 2019/12/31
+photo.1.link: https://www.instagram.com/paigntonzoo/
+photo.1.tags: profile
+photo.2: ig://B5nbKDLnRSh/m
+photo.2.author: paigntonzoo
+photo.2.commitdate: 2019/12/31
+photo.2.link: https://www.instagram.com/paigntonzoo/
+photo.3: ig://BzbFo-anZCi/m
+photo.3.author: paigntonzoo
+photo.3.commitdate: 2019/12/31
+photo.3.link: https://www.instagram.com/paigntonzoo/
+website: https://www.paigntonzoo.org.uk/

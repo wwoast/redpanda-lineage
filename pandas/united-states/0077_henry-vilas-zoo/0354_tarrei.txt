@@ -1,0 +1,136 @@
+[panda]
+_id: 354
+birthday: 2002/7/1
+birthplace: 34
+children: 386, 387
+commitdate: 2018/10/18
+en.name: Tarrei
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ターレイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 209
+location.1: 34, 2002/7/1
+location.2: 65, 2004/4/27
+location.3: 87, 2011/11/7
+location.4: 77, 2015/1/23
+photo.1: ig://BAF8lrEykAt/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, snow, tree
+photo.2: ig://BnxZChnB_h4/m
+photo.2.author: rossifari
+photo.2.commitdate: 2018/11/14
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait
+photo.3: https://www.codaworry.com/images/rpf/tarrei-1-henryvilas.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/13
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: autumn, mofumofu, smile, tail
+photo.4: https://www.codaworry.com/images/rpf/tarrei-2-henryvilas.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/13
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: autumn, bamboo, tail
+photo.5: https://www.codaworry.com/images/rpf/tarrei-3-henryvilas.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/13
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: tail, tree
+photo.6: https://www.codaworry.com/images/rpf/tarrei-4-henryvilas.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/13
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: smile, tree
+photo.7: https://www.codaworry.com/images/rpf/tarrei-5-henryvilas.jpg
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/4/13
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: smile, tree
+photo.8: https://www.codaworry.com/images/rpf/tarrei-6-henryvilas.jpg
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/4/13
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: paws, snow
+photo.9: https://www.codaworry.com/images/rpf/tarrei-7-henryvilas.jpg
+photo.9.author: worldthathesees
+photo.9.commitdate: 2019/4/13
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: paws, snow
+photo.10: https://www.codaworry.com/images/rpf/tarrei-8-henryvilas.jpg
+photo.10.author: worldthathesees
+photo.10.commitdate: 2019/4/13
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: paws, snow, tree
+photo.11: https://www.codaworry.com/images/rpf/tarrei-9-henryvilas.jpg
+photo.11.author: worldthathesees
+photo.11.commitdate: 2019/4/13
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: snow, tail, tree
+photo.12: https://www.codaworry.com/images/rpf/tarrei-10-henryvilas.jpg
+photo.12.author: worldthathesees
+photo.12.commitdate: 2019/4/13
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: snow, tree
+photo.13: https://www.codaworry.com/images/rpf/tarrei-11-henryvilas.jpg
+photo.13.author: worldthathesees
+photo.13.commitdate: 2019/4/13
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: tree
+photo.14: https://www.codaworry.com/images/rpf/tarrei-12-henryvilas.jpg
+photo.14.author: worldthathesees
+photo.14.commitdate: 2019/4/13
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: snow
+photo.15: https://www.codaworry.com/images/rpf/tarrei-13-henryvilas.jpg
+photo.15.author: worldthathesees
+photo.15.commitdate: 2019/4/13
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: bamboo
+photo.16: https://www.codaworry.com/images/rpf/tarrei-14-henryvilas.jpg
+photo.16.author: worldthathesees
+photo.16.commitdate: 2019/4/13
+photo.16.link: https://www.instagram.com/worldthathesees/
+photo.16.tags: laying down, tree
+photo.17: https://www.codaworry.com/images/rpf/tarrei-15-henryvilas.jpg
+photo.17.author: worldthathesees
+photo.17.commitdate: 2019/4/13
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: tree
+photo.18: https://www.codaworry.com/images/rpf/tarrei-16-henryvilas.jpg
+photo.18.author: worldthathesees
+photo.18.commitdate: 2019/4/13
+photo.18.link: https://www.instagram.com/worldthathesees/
+photo.18.tags: bridge, snow, tree
+photo.19: https://www.codaworry.com/images/rpf/tarrei-17-henryvilas.jpg
+photo.19.author: worldthathesees
+photo.19.commitdate: 2019/4/13
+photo.19.link: https://www.instagram.com/worldthathesees/
+photo.19.tags: bamboo
+photo.20: https://www.codaworry.com/images/rpf/tarrei-18-henryvilas.jpg
+photo.20.author: worldthathesees
+photo.20.commitdate: 2019/4/13
+photo.20.link: https://www.instagram.com/worldthathesees/
+photo.21: https://www.codaworry.com/images/rpf/tarrei-19-henryvilas.jpg
+photo.21.author: worldthathesees
+photo.21.commitdate: 2019/4/13
+photo.21.link: https://www.instagram.com/worldthathesees/
+photo.21.tags: paws
+photo.22: ig://CDoK4jCjYcj/m
+photo.22.author: henryvilaszoo
+photo.22.commitdate: 2020/9/4
+photo.22.link: https://www.instagram.com/henryvilaszoo/
+photo.22.tags: paws, portrait, profile, tree
+photo.23: ig://CEj2UFBjEm6/m
+photo.23.author: henryvilaszoo
+photo.23.commitdate: 2020/9/4
+photo.23.link: https://www.instagram.com/henryvilaszoo/
+photo.23.tags: laying down, paws, sleeping, tail, tree
+species: 2
+studbook.id: 0275
+zoo: 77

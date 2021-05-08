@@ -1,0 +1,155 @@
+[panda]
+_id: 197
+birthday: 2014/6/12
+birthplace: 20
+children: none
+commitdate: 2018/7/21
+en.name: Kira
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: キラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 315
+location.1: 20, 2014/6/12
+location.2: 40, 2017/5/19
+photo.1: ig://BHtzs7wDEM1/m
+photo.1.author: mito_photo
+photo.1.commitdate: 2018/7/21
+photo.1.link: https://www.instagram.com/mito_photo/
+photo.1.tags: bamboo
+photo.2: ig://BNBlZdmDk7T/m
+photo.2.author: mito_photo
+photo.2.commitdate: 2018/7/21
+photo.2.link: https://www.instagram.com/mito_photo/
+photo.2.tags: dish, grumpy, lunch time
+photo.3: ig://BPw-t-4jKjA/m
+photo.3.author: lilla_tiara
+photo.3.commitdate: 2018/7/21
+photo.3.link: https://www.instagram.com/lilla_tiara/
+photo.3.tags: profile, tree
+photo.4: ig://BYwjDGNh1Ww/m
+photo.4.author: miis_98
+photo.4.commitdate: 2020/4/1
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: home, paws, portrait, whiskers
+photo.5: ig://BZay7oCgGsH/m
+photo.5.author: peek_a_boo00
+photo.5.commitdate: 2020/5/7
+photo.5.link: https://www.instagram.com/peek_a_boo00/
+photo.5.tags: apple time, paws, portrait
+photo.6: ig://BZgIsbVAf3N/m
+photo.6.author: peek_a_boo00
+photo.6.commitdate: 2020/5/7
+photo.6.link: https://www.instagram.com/peek_a_boo00/
+photo.6.tags: portrait, whiskers
+photo.7: ig://Bd85-7Pl7B6/m
+photo.7.author: fetorus_mami
+photo.7.commitdate: 2018/7/28
+photo.7.link: https://www.instagram.com/fetorus_mami/
+photo.7.tags: bamboo
+photo.8: ig://Bgvs-OpnPcW/m
+photo.8.author: rx_kaito8
+photo.8.commitdate: 2018/7/28
+photo.8.link: https://www.instagram.com/rx_kaito8/
+photo.8.tags: apple time
+photo.9: ig://BjyC0pJlHC4/m
+photo.9.author: miis_98
+photo.9.commitdate: 2018/7/21
+photo.9.link: https://www.instagram.com/miis_98/
+photo.9.tags: ear
+photo.10: ig://Bn5t8ZslJb0/m
+photo.10.author: kmasahon
+photo.10.commitdate: 2018/9/22
+photo.10.link: https://www.instagram.com/kmasahon/
+photo.10.tags: standing
+photo.11: ig://Bp0slqJF3d3/m
+photo.11.author: kmasahon
+photo.11.commitdate: 2018/11/6
+photo.11.link: https://www.instagram.com/kmasahon/
+photo.11.tags: bamboo, tongue
+photo.12: ig://Bp22Cx0F2-Y/m
+photo.12.author: kmasahon
+photo.12.commitdate: 2018/11/6
+photo.12.link: https://www.instagram.com/kmasahon/
+photo.12.tags: apple time, keeper, standing
+photo.13: ig://Bp52iZjlDgg/m
+photo.13.author: kmasahon
+photo.13.commitdate: 2018/11/8
+photo.13.link: https://www.instagram.com/kmasahon/
+photo.13.tags: apple time, smile, standing
+photo.14: ig://Bp_p56zFrJA/m
+photo.14.author: kmasahon
+photo.14.commitdate: 2018/11/11
+photo.14.link: https://www.instagram.com/kmasahon/
+photo.14.tags: smile
+photo.15: ig://BqWr50mFdKb/m
+photo.15.author: kmasahon
+photo.15.commitdate: 2018/11/19
+photo.15.link: https://www.instagram.com/kmasahon/
+photo.15.tags: smile
+photo.16: ig://BtK-LbKFLg8/m
+photo.16.author: kmasahon
+photo.16.commitdate: 2019/1/30
+photo.16.link: https://www.instagram.com/kmasahon/
+photo.16.tags: paws, smile, standing
+photo.17: ig://BwQpKNVh7i7/m
+photo.17.author: kmasahon
+photo.17.commitdate: 2019/8/23
+photo.17.link: https://www.instagram.com/kmasahon/
+photo.17.tags: bamboo, smile, tongue
+photo.18: ig://BxPKXheFMFq/m
+photo.18.author: kmasahon
+photo.18.commitdate: 2019/5/10
+photo.18.link: https://www.instagram.com/kmasahon/
+photo.18.tags: snow
+photo.19: ig://By4ozJ8hSbJ/m
+photo.19.author: kmasahon
+photo.19.commitdate: 2019/6/21
+photo.19.link: https://www.instagram.com/kmasahon/
+photo.19.tags: tree
+photo.20: ig://B4bMI35hQuH/m
+photo.20.author: tabechum
+photo.20.commitdate: 2019/11/5
+photo.20.link: https://www.instagram.com/tabechum/
+photo.20.tags: apple time, dish, keeper, standing, tail
+photo.21: ig://B5DcHilBr7x/m
+photo.21.author: minatomirai215
+photo.21.commitdate: 2019/12/1
+photo.21.link: https://www.instagram.com/minatomirai215/
+photo.21.tags: apple time, bridge, portrait
+photo.22: ig://B5VFfbAhqH9/m
+photo.22.author: apple_jasmine33
+photo.22.commitdate: 2020/5/23
+photo.22.link: https://www.instagram.com/apple_jasmine33/
+photo.22.tags: portrait
+photo.23: ig://B5WJpdkBzfU/m
+photo.23.author: resapanlove
+photo.23.commitdate: 2019/11/28
+photo.23.link: https://www.instagram.com/resapanlove/
+photo.23.tags: keeper, paws, standing
+photo.24: ig://B6C8slIhuxb/m
+photo.24.author: fetorus_mami
+photo.24.commitdate: 2019/12/29
+photo.24.link: https://www.instagram.com/fetorus_mami/
+photo.24.tags: bamboo, portrait, whiskers, white face
+photo.25: ig://B6IaxioB9RI/m
+photo.25.author: jas_forever_love
+photo.25.commitdate: 2019/12/30
+photo.25.link: https://www.instagram.com/jas_forever_love/
+photo.25.tags: home, paws, portrait, smile, whiskers
+photo.26: ig://B7ex_2wB7Yb/m
+photo.26.author: re_ichimaru
+photo.26.commitdate: 2020/1/21
+photo.26.link: https://www.instagram.com/re_ichimaru/
+photo.26.tags: portrait, smile
+photo.27: ig://CDzL7s3hb3s/m
+photo.27.author: minatomirai215
+photo.27.commitdate: 2020/8/13
+photo.27.link: https://www.instagram.com/minatomirai215/
+photo.27.tags: apple time, paws, whiskers
+species: 2
+studbook.id: 14138
+zoo: 40

@@ -1,0 +1,19 @@
+[panda]
+_id: 832
+birthday: 1998/6/20
+birthplace: 3
+children: none
+commitdate: 2019/4/8
+death: 1999/3/2
+en.name: Wakaba
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: わかば
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+species: 2
+studbook.id: 98023
+zoo: 3

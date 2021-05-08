@@ -1,0 +1,32 @@
+[media]
+_id: media.11.kin-shingen
+commitdate: 2020/4/18
+panda.tags: 22, 24
+photo.1: ig://BMga2wDjLIY/l
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/4/18
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: itchy, couple
+photo.1.tags.22.location: 295, 305
+photo.1.tags.24.location: 695, 450
+photo.2: ig://BNGlSAeD66g/l
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: bridge, couple, tail
+photo.2.tags.22.location: 775, 300
+photo.2.tags.24.location: 475, 270
+photo.3: ig://BNsnr-2DrAM/l
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/4/18
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: bridge, couple, tail
+photo.3.tags.22.location: 630, 630
+photo.3.tags.24.location: 800, 340
+photo.4: ig://BkG4jVknthu/l
+photo.4.author: cattail.sapporo
+photo.4.commitdate: 2021/2/19
+photo.4.link: https://www.instagram.com/cattail.sapporo/
+photo.4.tags: couple, home, paws, portrait, whiskers
+photo.4.tags.22.location: 485, 185
+photo.4.tags.24.location: 200, 195

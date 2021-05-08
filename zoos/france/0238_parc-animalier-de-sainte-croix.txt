@@ -1,0 +1,36 @@
+[zoo]
+_id: 238
+commitdate: 2020/3/27
+en.address: Route de Sainte-Croix, 57810 Rhodes, France
+en.location: Rhodes, France
+en.name: Parc Animalier de Sainte-Croix
+flag: France
+fr.address: Route de Sainte-Croix, 57810 Rhodes, France
+fr.location: Rhodes, France
+fr.name: Parc Animalier de Sainte-Croix
+language.order: fr, en
+latitude: 48.7722776
+longitude: 6.8939855
+map: https://goo.gl/maps/sUYh39hUVRgB3UYD9
+photo.1: ig://B734QS4Cl33/m
+photo.1.author: parcsaintecroix
+photo.1.commitdate: 2020/3/27
+photo.1.link: https://www.instagram.com/parcsaintecroix/
+photo.2: ig://B6_X9itCHPq/m
+photo.2.author: parcsaintecroix
+photo.2.commitdate: 2020/3/27
+photo.2.link: https://www.instagram.com/parcsaintecroix/
+photo.3: ig://2GtCnXjwcg/m
+photo.3.author: parcsaintecroix
+photo.3.commitdate: 2020/3/31
+photo.3.link: https://www.instagram.com/parcsaintecroix/
+photo.4: ig://BBg-IlRDwar/m
+photo.4.author: parcsaintecroix
+photo.4.commitdate: 2020/3/31
+photo.4.link: https://www.instagram.com/parcsaintecroix/
+photo.5: ig://BKH_Y6KgjkY/m
+photo.5.author: parcsaintecroix
+photo.5.commitdate: 2020/3/31
+photo.5.link: https://www.instagram.com/parcsaintecroix/
+photo.5.tags: profile
+website: https://parcsaintecroix.com/

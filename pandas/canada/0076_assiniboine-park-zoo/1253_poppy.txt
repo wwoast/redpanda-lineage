@@ -1,0 +1,17 @@
+[panda]
+_id: 1253
+birthday: 2019/5/17
+birthplace: 76
+children: none
+commitdate: 2021/4/4
+en.name: Poppy
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ポッピー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1252
+species: 2
+zoo: 76

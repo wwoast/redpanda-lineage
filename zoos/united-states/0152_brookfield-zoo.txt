@@ -1,0 +1,17 @@
+[zoo]
+_id: 152
+commitdate: 2019/3/19
+en.address: 8400 W 31st St, Brookfield, IL 60513, USA
+en.location: Brookfield, Chicago, Illinois, USA
+en.name: Brookfield Zoo
+en.othernames: Chicago Zoological Park
+flag: USA
+language.order: en
+latitude: 41.8337869
+longitude: -87.8380204
+map: https://goo.gl/maps/Hek8arJZBUT2
+photo.1: ig://4kBa_cMfd3/m
+photo.1.author: brookfieldzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/brookfieldzoo/
+website: https://www.czs.org/Brookfield-ZOO/Home

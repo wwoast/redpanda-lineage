@@ -1,0 +1,16 @@
+[zoo]
+_id: 101
+commitdate: 2018/11/28
+en.address: 13000 Zoo Blvd, Apple Valley, MN 55124
+en.location: Apple Valley, Minnesota, USA
+en.name: Minnesota Zoological Garden
+flag: USA
+language.order: en
+latitude: 44.7678109
+longitude: -93.2054319
+map: https://goo.gl/maps/ZdJu1mLMXFu
+photo.1: ig://Bj6GxUxnTlo/m
+photo.1.author: bbart724
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/bbart724/
+website: http://www.mnzoo.org/

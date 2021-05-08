@@ -1,0 +1,24 @@
+[zoo]
+_id: 13
+commitdate: 2018/6/15
+en.address: 3-8-9 Sakuramachi, Sabae, Fukui Prefecture 916-0027, Japan
+en.location: Sabae, Fukui Prefecture, Japan
+en.name: Nishiyama Zoo
+flag: Japan
+jp.address: 〒916-0027 福井県鯖江市桜町３−8-9
+jp.location: 鯖江市 福井県
+jp.name: 鯖江市西山動物園
+language.order: jp, en
+latitude: 35.9506249
+longitude: 136.1787345
+map: https://goo.gl/maps/vVxLDci5HeE2
+photo.1: ig://BnTk0l-F9Hl/m
+photo.1.author: yoneyone52
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/yoneyone52/
+photo.2: ig://BszpPW-lJer/m
+photo.2.author: merumeru119
+photo.2.commitdate: 2020/5/5
+photo.2.link: https://www.instagram.com/merumeru119/
+photo.2.tags: profile
+website: https://www.city.sabae.fukui.jp/nishiyama_zoo/

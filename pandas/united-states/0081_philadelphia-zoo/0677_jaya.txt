@@ -1,0 +1,47 @@
+[panda]
+_id: 677
+birthday: 2007/7/4
+birthplace: 154
+children: 864, 580, 807, 808, 926
+commitdate: 2019/3/24
+en.name: Jaya
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ジャヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 154, 2007/7/4
+location.2: 186, 2008/6/25
+location.3: 146, 2011/12/5
+location.4: 81, 2019/3/18
+photo.1: ig://B2pUSDkpuij/m
+photo.1.author: rossifari
+photo.1.commitdate: 2019/10/8
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: apple time, portrait, profile
+photo.2: ig://B7Y9vF6JRe7/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/1/19
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait
+photo.3: ig://ByPy-4CoNrm/m
+photo.3.author: philadelphiazoo
+photo.3.commitdate: 2020/1/23
+photo.3.link: https://www.instagram.com/philadelphiazoo/
+photo.3.tags: tongue, whiskers
+photo.4: ig://B5GHU68g3ZA/m
+photo.4.author: esdeemphoto
+photo.4.commitdate: 2020/3/3
+photo.4.link: https://www.instagram.com/esdeemphoto/
+photo.4.tags: paws, standing, tongue
+photo.5: ig://B94SX-xpmod/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/3/22
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: close-up, whiskers, white face
+species: 1
+studbook.id: 0705
+zoo: 81

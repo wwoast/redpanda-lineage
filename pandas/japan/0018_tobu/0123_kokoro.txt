@@ -1,0 +1,127 @@
+[panda]
+_id: 123
+birthday: 2007/9/6
+birthplace: 18
+children: none
+commitdate: 2018/6/26
+death: 2019/7/29
+en.name: Kokoro
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ココロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+photo.1: ig://qeYzO3OR46/m
+photo.1.author: masa_polarbear
+photo.1.commitdate: 2020/4/25
+photo.1.link: https://www.instagram.com/masa_polarbear/
+photo.1.tags: peek, portrait, tail
+photo.2: ig://BOOlpwWA6sj/m
+photo.2.author: rnrirhrh
+photo.2.commitdate: 2019/8/2
+photo.2.link: https://www.instagram.com/rnrirhrh/
+photo.2.tags: dish, paws, portrait, smile, tongue
+photo.3: ig://BOYhdKCgn-I/m
+photo.3.author: rnrirhrh
+photo.3.commitdate: 2019/8/2
+photo.3.link: https://www.instagram.com/rnrirhrh/
+photo.3.tags: blink, portrait, smile, tongue
+photo.4: ig://BZKbWoJFm9H/m
+photo.4.author: _rifa_p
+photo.4.commitdate: 2019/5/15
+photo.4.link: https://www.instagram.com/_rifa_p/
+photo.4.tags: mofumofu, portrait, smile
+photo.5: ig://BbjSjPGFfwW/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2018/12/23
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: portrait
+photo.6: ig://BcG7VT7BSiR/m
+photo.6.author: miis_98
+photo.6.commitdate: 2020/4/10
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: climb, portrait, tongue, tree
+photo.7: ig://BcrkUu6lnaN/m
+photo.7.author: hanamaru_redpanda
+photo.7.commitdate: 2018/12/23
+photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.7.tags: lips, lunch time, portrait
+photo.8: ig://Bd99JvHFBbo/m
+photo.8.author: hanamaru_redpanda
+photo.8.commitdate: 2018/12/23
+photo.8.link: https://www.instagram.com/hanamaru_redpanda/
+photo.8.tags: portrait, tongue
+photo.9: ig://BhshqJeF6fg/m
+photo.9.author: tabechum
+photo.9.commitdate: 2018/7/21
+photo.9.link: https://www.instagram.com/tabechum/
+photo.10: ig://Bhvzz--lR0M/m
+photo.10.author: tabechum
+photo.10.commitdate: 2018/7/21
+photo.10.link: https://www.instagram.com/tabechum/
+photo.10.tags: portrait
+photo.11: ig://Bhxf4yqlhfG/m
+photo.11.author: tabechum
+photo.11.commitdate: 2018/7/21
+photo.11.link: https://www.instagram.com/tabechum/
+photo.11.tags: portrait, smile
+photo.12: ig://Bh1X6HeF7Kd/m
+photo.12.author: mifko55
+photo.12.commitdate: 2018/7/21
+photo.12.link: https://www.instagram.com/mifko55/
+photo.12.tags: portrait, profile, smile
+photo.13: ig://BjcbhtflPr-/m
+photo.13.author: sobu9529
+photo.13.commitdate: 2018/7/21
+photo.13.link: https://www.instagram.com/sobu9529/
+photo.14: ig://BzbfawohX8C/m
+photo.14.author: ssc6105
+photo.14.commitdate: 2019/7/9
+photo.14.link: https://www.instagram.com/ssc6105/
+photo.14.tags: portrait
+photo.15: ig://B0icrk-BYMa/m
+photo.15.author: ifumoto88
+photo.15.commitdate: 2019/7/30
+photo.15.link: https://www.instagram.com/ifumoto88/
+photo.15.tags: air tasting, portrait, tongue
+photo.16: ig://B0ipkpEheeR/m
+photo.16.author: firefoxpanda88
+photo.16.commitdate: 2019/7/30
+photo.16.link: https://www.instagram.com/firefoxpanda88/
+photo.16.tags: paws, standing, tail
+photo.17: ig://B0j2rd6nffx/m
+photo.17.author: _rifa_p
+photo.17.commitdate: 2019/7/30
+photo.17.link: https://www.instagram.com/_rifa_p/
+photo.17.tags: paws, standing
+photo.18: ig://B0kMKb1HLaS/m
+photo.18.author: tabechum
+photo.18.commitdate: 2019/7/30
+photo.18.link: https://www.instagram.com/tabechum/
+photo.18.tags: flowers, peek, portrait
+photo.19: ig://B0n36tgBwzl/m
+photo.19.author: rie_panda55
+photo.19.commitdate: 2019/8/2
+photo.19.link: https://www.instagram.com/rie_panda55/
+photo.19.tags: air tasting, portrait, tongue
+photo.20: ig://B0pLTsNB3iq/m
+photo.20.author: rnrirhrh
+photo.20.commitdate: 2019/8/2
+photo.20.link: https://www.instagram.com/rnrirhrh/
+photo.20.tags: portrait, tail, tongue
+photo.21: ig://4opc5PuR5f/m
+photo.21.author: masa_polarbear
+photo.21.commitdate: 2020/4/25
+photo.21.link: https://www.instagram.com/masa_polarbear/
+photo.21.tags: bamboo, paws, portrait, standing
+photo.22: ig://BCStSZ5uRxG/m
+photo.22.author: masa_polarbear
+photo.22.commitdate: 2020/4/25
+photo.22.link: https://www.instagram.com/masa_polarbear/
+photo.22.tags: dish, portrait
+species: 2
+studbook.id: 0782
+zoo: 18

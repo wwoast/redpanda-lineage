@@ -1,0 +1,20 @@
+[panda]
+_id: 819
+birthday: 2011/6/8
+birthplace: 108
+children: 519, 810, 811, 812, 813, 814, 815, 816, 1138, 1139
+commitdate: 2019/4/7
+en.name: Dolly
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ドリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1101
+location.1: 108, 2011/6/8
+location.2: 121, 2012/5/7
+species: 1
+studbook.id: 1122
+zoo: 121

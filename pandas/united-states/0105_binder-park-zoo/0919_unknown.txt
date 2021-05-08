@@ -1,0 +1,18 @@
+[panda]
+_id: 919
+birthday: 2000/7/14
+birthplace: 105
+children: none
+commitdate: 2019/7/2
+death: 2000/9/9
+en.name: (no-name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 1
+zoo: 105

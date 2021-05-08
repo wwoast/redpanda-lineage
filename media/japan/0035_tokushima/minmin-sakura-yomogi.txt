@@ -1,0 +1,20 @@
+[media]
+_id: media.35.minmin-sakura-yomogi
+commitdate: 2019/7/7
+panda.tags: 109, 203, 204
+photo.1: ig://BzNuUFFhZAW/m
+photo.1.author: leonard_redmof
+photo.1.commitdate: 2019/7/7
+photo.1.link: https://www.instagram.com/leonard_redmof/
+photo.1.tags: baby, mother's day, siblings, twins
+photo.1.tags.109.location: 40, 65
+photo.1.tags.203.location: 60, 145
+photo.1.tags.204.location: 240, 80
+photo.2: ig://CB7oEsDBhYQ/l
+photo.2.author: leonard_redmof
+photo.2.commitdate: 2020/7/3
+photo.2.link: https://www.instagram.com/leonard_redmof/
+photo.2.tags: baby, mother's day, siblings, twins
+photo.2.tags.109.location: 840, 230
+photo.2.tags.203.location: 380, 350
+photo.2.tags.204.location: 580, 420

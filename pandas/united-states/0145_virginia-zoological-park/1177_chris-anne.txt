@@ -1,0 +1,22 @@
+[panda]
+_id: 1177
+birthday: 2019/6/18
+birthplace: 145
+children: none
+commitdate: 2020/6/14
+en.name: Chris-Anne
+en.nicknames: none
+en.othernames: Leeno
+gender: f
+jp.name: クリスアン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1175, 1176
+photo.1: ig://B2r_E99lfxb/m
+photo.1.author: virginiazoo
+photo.1.commitdate: 2020/9/10
+photo.1.link: https://www.instagram.com/virginiazoo/
+photo.1.tags: baby, panda bowl, scale
+species: 1
+zoo: 145

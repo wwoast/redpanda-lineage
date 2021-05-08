@@ -1,0 +1,67 @@
+[panda]
+_id: 1002
+birthday: 2019/7/5
+birthplace: 65
+children: none
+commitdate: 2019/10/25
+en.name: Lenore
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: レノレ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1001
+photo.1: ig://B01BYuMgrPJ/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2020/1/3
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: baby
+photo.2: ig://B3ErlbbHarv/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2020/1/3
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: baby, portrait, profile, whiskers
+photo.3: ig://B6yeFoDBDoX/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/1/3
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo, snow
+photo.4: ig://B60Lyr-hjeT/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/1/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tail, whiskers
+photo.5: ig://B621txJhFux/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2020/1/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, tree, techitechi
+photo.6: ig://B63jFUTh-zM/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/1/9
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: mofumofu, tail, tree
+photo.7: ig://B67_JwXh1h2/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/1/9
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: paws, portrait, snow, techitechi
+photo.8: ig://B67AqelBSGJ/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2020/1/9
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: bamboo, portrait, standing, tail, tree
+photo.9: ig://B65aYW7BIOj/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2020/1/9
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: portrait, snow, whiskers
+photo.10: ig://B56E9J3H0qZ/m
+photo.10.author: shaesavestheplanet
+photo.10.commitdate: 2020/2/23
+photo.10.link: https://www.instagram.com/shaesavestheplanet/
+photo.10.tags: keeper, portrait, whiskers
+species: 2
+zoo: 65

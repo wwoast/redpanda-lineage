@@ -1,0 +1,64 @@
+[panda]
+_id: 632
+birthday: 2010/6/24
+birthplace: 146
+children: 1069, 1184
+commitdate: 2020/3/15
+death: 2020/1/1
+en.name: Biru
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ビル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 633
+location.1: 146, 2010/6/24
+location.2: 75, 2011/4/12
+location.3: 154, 2016/6/22
+location.4: 159, 2016/10/25
+location.5: 186, 2018/11/1
+photo.1: ig://BaJ-9ScAXD9/m
+photo.1.author: clevbuck86
+photo.1.commitdate: 2020/3/15
+photo.1.link: https://www.instagram.com/clevbuck86/
+photo.1.tags: laying down, paws
+photo.2: ig://Bh6wM4bBMQH/m
+photo.2.author: kopperheadpix
+photo.2.commitdate: 2020/3/15
+photo.2.link: https://www.instagram.com/kopperheadpix/
+photo.2.tags: paws, portrait, profile, smile
+photo.3: ig://Bicf38BhA9l/m
+photo.3.author: akronzoo
+photo.3.commitdate: 2020/3/15
+photo.3.link: https://www.instagram.com/akronzoo/
+photo.4: ig://Bl6D0j5haB2/m
+photo.4.author: kopperheadpix
+photo.4.commitdate: 2020/3/15
+photo.4.link: https://www.instagram.com/kopperheadpix/
+photo.4.tags: peek, portrait, whiskers
+photo.5: ig://BmB5a2cnDyh/m
+photo.5.author: kopperheadpix
+photo.5.commitdate: 2020/3/15
+photo.5.link: https://www.instagram.com/kopperheadpix/
+photo.5.tags: bridge, paws, portrait, tail
+photo.6: ig://BpCW5kcAdSq/m
+photo.6.author: kopperheadpix
+photo.6.commitdate: 2020/3/15
+photo.6.link: https://www.instagram.com/kopperheadpix/
+photo.6.tags: paws, portrait, tongue
+photo.7: https://www.codaworry.com/images/rpf/biru-1-capemay.jpg
+photo.7.author: aimless_amos
+photo.7.commitdate: 2020/5/27
+photo.7.link: https://www.instagram.com/aimless_amos/
+photo.7.tags: portrait, tail
+photo.8: ig://Bqmp2kynBfs/m
+photo.8.author: pippin455
+photo.8.commitdate: 2020/9/26
+photo.8.link: https://www.instagram.com/pippin455/
+photo.8.tags: paws, peek
+species: 1
+studbook.id: 1022
+uncertainty: death exact date
+zoo: 186

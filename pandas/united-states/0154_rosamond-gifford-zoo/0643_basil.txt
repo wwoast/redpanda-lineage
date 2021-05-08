@@ -1,0 +1,22 @@
+[panda]
+_id: 643
+birthday: 2010/6/27
+birthplace: 104
+children: 342, 616
+commitdate: 2019/3/19
+en.name: Basil
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: バジル
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 642, 644
+location.1: 104, 2010/6/27
+location.2: 81, 2011/3/18
+location.3: 141, 2015/11/24
+location.4: 154, 2016/11/28
+species: 1
+studbook.id: 1025
+zoo: 154

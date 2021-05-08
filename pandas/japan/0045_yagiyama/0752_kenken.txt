@@ -1,0 +1,21 @@
+[panda]
+_id: 752
+birthday: 1991/6/30
+birthplace: 1
+children: 879, 880, 881
+commitdate: 2019/3/29
+death: 2010/6/22
+en.name: Ken-Ken
+en.nicknames: none
+en.othernames: Kenken
+gender: m
+jp.name: 健健
+jp.nicknames: none
+jp.othernames: ケンケン
+language.order: jp, en
+litter: none
+location.1: 1, 1991/6/30
+location.2: 45, 1992/3/19
+species: 2
+studbook.id: 9182
+zoo: 45

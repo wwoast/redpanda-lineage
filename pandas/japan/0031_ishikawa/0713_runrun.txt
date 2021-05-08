@@ -1,0 +1,21 @@
+[panda]
+_id: 713
+birthday: 1995/7/19
+birthplace: 30
+children: 360, 589, 349, 615
+commitdate: 2019/3/27
+death: 2007/6/18
+en.name: Run-Run
+en.nicknames: none
+en.othernames: Runrun
+gender: f
+jp.name: ルンルン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 30, 1995/7/19
+location.2: 31, 1996/3/21
+species: 2
+studbook.id: 95123
+zoo: 31

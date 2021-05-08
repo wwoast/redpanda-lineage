@@ -1,0 +1,12 @@
+[zoo]
+_id: 163
+commitdate: 2019/3/19
+en.address: 465 Lodge Dr, Wheeling, WV 26003, USA
+en.location: Wheeling, West Virginia, USA
+en.name: Oglebay's Good Children's Zoo
+flag: USA
+language.order: en
+latitude: 40.0978967
+longitude: -80.684688
+map: https://goo.gl/maps/ukUtxiWC6CR2
+website: https://oglebay.com/good-zoo/

@@ -1,0 +1,29 @@
+[panda]
+_id: 1064
+birthday: 2015/6/17
+birthplace: 72
+children: unknown
+commitdate: 2019/11/29
+en.name: Gawa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ガワ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 72, 2015/6/17
+location.2: 197, 2016/7/8
+photo.1: ig://B2UmvU-glK0/m
+photo.1.author: laurenbilboe
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/laurenbilboe/
+photo.1.tags: paws, portrait
+photo.2: ig://B5XNkc7lsZF/m
+photo.2.author: laurenbilboe
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/laurenbilboe/
+photo.2.tags: portrait, smile, whiskers
+species: 1
+zoo: 197

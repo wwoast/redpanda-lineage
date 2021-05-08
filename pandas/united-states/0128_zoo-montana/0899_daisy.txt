@@ -1,0 +1,23 @@
+[panda]
+_id: 899
+birthday: 2006/6/6
+birthplace: 118
+children: none
+commitdate: 2019/7/2
+en.name: Daisy
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ヒナギク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 509, 898
+location.1: 118, 2006/6/6
+location.2: 112, 2006/12/22
+location.3: 113, 2008/11/12
+location.4: 131, 2011/11/30
+location.5: 128, 2015/4/15
+species: 1
+studbook.id: 0603
+zoo: 128

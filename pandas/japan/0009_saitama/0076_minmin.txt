@@ -1,0 +1,199 @@
+[panda]
+_id: 76
+birthday: 2002/7/17
+birthplace: 6
+children: 299, 1182, 357, 27, 143, 78, 153, 347
+commitdate: 2018/6/23
+en.name: Min-Min
+en.nicknames: none
+en.othernames: Minmin
+gender: m
+jp.name: 明明
+jp.nicknames: none
+jp.othernames: ミンミン
+language.order: jp, en
+litter: 328
+location.1: 6, 2002/7/17
+location.2: 33, 2004/5/13
+location.3: 9, 2009/2/10
+photo.1: ig://BhordilFctr/m
+photo.1.author: fetorus_mami
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/fetorus_mami/
+photo.1.tags: lips
+photo.2: ig://BkFUYhkFuRD/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/7/19
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: portrait
+photo.3: ig://BkZXwEvluhd/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/7/28
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: portrait
+photo.4: ig://BlVXf5SFR12/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2018/7/28
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: portrait, profile
+photo.5: ig://BnyJA5qFyDI/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2018/9/16
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: tongue
+photo.6: ig://BpLHGcuFsqz/m
+photo.6.author: rie_panda55
+photo.6.commitdate: 2018/10/21
+photo.6.link: https://www.instagram.com/rie_panda55/
+photo.7: ig://Bql9VuaFtdz/m
+photo.7.author: kipekaila
+photo.7.commitdate: 2018/11/25
+photo.7.link: https://www.instagram.com/kipekaila/
+photo.7.tags: lips
+photo.8: ig://BrNOxQMl8L4/m
+photo.8.author: monmon_redpanda
+photo.8.commitdate: 2018/12/10
+photo.8.link: https://www.instagram.com/monmon_redpanda/
+photo.8.tags: portrait
+photo.9: ig://Brfef47FILb/m
+photo.9.author: fetorus_mami
+photo.9.commitdate: 2018/12/17
+photo.9.link: https://www.instagram.com/fetorus_mami/
+photo.9.tags: smile
+photo.10: ig://BrkjQbDlkIk/m
+photo.10.author: fetorus_mami
+photo.10.commitdate: 2018/12/19
+photo.10.link: https://www.instagram.com/fetorus_mami/
+photo.11: ig://BsVkb6mFkVJ/m
+photo.11.author: ifumoto88
+photo.11.commitdate: 2019/1/9
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: portrait
+photo.12: ig://BskcaiIFhZ1/m
+photo.12.author: fetorus_mami
+photo.12.commitdate: 2019/1/18
+photo.12.link: https://www.instagram.com/fetorus_mami/
+photo.12.tags: portrait, sleeping
+photo.13: ig://Bs0d7MDFdrQ/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/1/20
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: ear
+photo.14: ig://BvHFXqWFWNb/m
+photo.14.author: craig_craig_craig
+photo.14.commitdate: 2019/4/5
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: paws, portrait
+photo.15: ig://BvSRsvXlw40/m
+photo.15.author: kipekaila
+photo.15.commitdate: 2019/3/22
+photo.15.link: https://www.instagram.com/kipekaila/
+photo.15.tags: grooming, portrait, white face
+photo.16: ig://BvxcfsGFeL6/m
+photo.16.author: fetorus_mami
+photo.16.commitdate: 2019/4/5
+photo.16.link: https://www.instagram.com/fetorus_mami/
+photo.16.tags: paws, portrait, white face
+photo.17: ig://BxloWc6FJ5q/m
+photo.17.author: craig_craig_craig
+photo.17.commitdate: 2019/5/20
+photo.17.link: https://www.instagram.com/craig_craig_craig/
+photo.17.tags: paws, portrait, white face
+photo.18: ig://ByJdxz8hcDU/m
+photo.18.author: sasapan34
+photo.18.commitdate: 2019/6/1
+photo.18.link: https://www.instagram.com/sasapan34/
+photo.18.tags: white face
+photo.19: ig://By8yr2CBBZj/m
+photo.19.author: miis_98
+photo.19.commitdate: 2019/6/21
+photo.19.link: https://www.instagram.com/miis_98/
+photo.19.tags: paws, portrait
+photo.20: ig://B0BX8h3hgms/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2019/7/18
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: portrait, tongue, white face
+photo.21: ig://B3iY6GiBtXv/m
+photo.21.author: ssc6105
+photo.21.commitdate: 2019/10/16
+photo.21.link: https://www.instagram.com/ssc6105/
+photo.21.tags: autumn, bamboo
+photo.22: ig://B4gKtlZBvyi/m
+photo.22.author: panda.daisuki
+photo.22.commitdate: 2019/11/7
+photo.22.link: https://www.instagram.com/panda.daisuki/
+photo.22.tags: door, paws, portrait
+photo.23: ig://B5BWm-EB0nT/m
+photo.23.author: kipekaila
+photo.23.commitdate: 2019/11/25
+photo.23.link: https://www.instagram.com/kipekaila/
+photo.23.tags: tongue, whiskers
+photo.24: ig://B6QbRBJBzTR/m
+photo.24.author: ifumoto88
+photo.24.commitdate: 2019/12/31
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: nose, paws, portrait
+photo.25: ig://B7Hms4hBFsX/m
+photo.25.author: wumpwoast
+photo.25.commitdate: 2020/1/11
+photo.25.link: https://www.instagram.com/wumpwoast/
+photo.25.tags: autumn, portrait, white face
+photo.26: ig://B7OS091jSzR/m
+photo.26.author: mini_cochi
+photo.26.commitdate: 2020/1/30
+photo.26.link: https://www.instagram.com/mini_cochi/
+photo.26.tags: grooming, paws, portrait
+photo.27: ig://B7nXlHtBTvh/m
+photo.27.author: ssc6105
+photo.27.commitdate: 2020/1/26
+photo.27.link: https://www.instagram.com/ssc6105/
+photo.27.tags: blink, paws, smile
+photo.28: ig://CCt41BTBEpC/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2020/7/26
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: paws, portrait, white face
+photo.29: ig://CDOAUPpBWmN/m
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2020/9/24
+photo.29.link: https://www.instagram.com/fetorus_mami/
+photo.29.tags: paws
+photo.30: ig://CFTZayQBF0T/m
+photo.30.author: panda.daisuki
+photo.30.commitdate: 2020/9/24
+photo.30.link: https://www.instagram.com/panda.daisuki/
+photo.30.tags: old, paws, portrait, tongue
+photo.31: ig://CFUhdqfhV4u/m
+photo.31.author: ifumoto88
+photo.31.commitdate: 2020/9/24
+photo.31.link: https://www.instagram.com/ifumoto88/
+photo.31.tags: old, mofumofu, paws
+photo.32: ig://CFrFHM1h59G/m
+photo.32.author: ssc6105
+photo.32.commitdate: 2020/10/1
+photo.32.link: https://www.instagram.com/ssc6105/
+photo.32.tags: bamboo, paws, white face
+photo.33: ig://CFrdQ4AhMA9/m
+photo.33.author: kipekaila
+photo.33.commitdate: 2020/10/1
+photo.33.link: https://www.instagram.com/kipekaila/
+photo.33.tags: mofumofu, portrait
+photo.34: ig://CHCAR8XhBtY/m
+photo.34.author: ifumoto88
+photo.34.commitdate: 2020/11/6
+photo.34.link: https://www.instagram.com/ifumoto88/
+photo.34.tags: peek, portrait, white face
+photo.35: ig://CHKzrssBztS/m
+photo.35.author: s.okano521
+photo.35.commitdate: 2020/12/2
+photo.35.link: https://www.instagram.com/s.okano521/
+photo.35.tags: smile, tongue
+photo.36: ig://CJ_VlFBBau-/m
+photo.36.author: mini_cochi
+photo.36.commitdate: 2021/1/16
+photo.36.link: https://www.instagram.com/mini_cochi/
+photo.36.tags: lips, mofumofu, old, portrait, white face
+species: 2
+studbook.id: 0293
+zoo: 9

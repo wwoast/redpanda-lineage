@@ -1,0 +1,55 @@
+[panda]
+_id: 864
+birthday: 2012/6/6
+birthplace: 146
+children: 865
+commitdate: 2019/6/10
+death: 2017/9/28
+en.name: Kaydee
+en.nicknames: none
+en.othernames: Kay-Dee, KayDee, Katie
+gender: f
+jp.name: カイディー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 146, 2012/6/6
+location.2: 177, 2013/4/24
+photo.1: ig://fQuiAComYc/m
+photo.1.author: mdmartinez77
+photo.1.commitdate: 2020/2/22
+photo.1.link: https://www.instagram.com/mdmartinez77/
+photo.1.tags: whiskers, white face
+photo.2: ig://BHstmsggLcR/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/6/10
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: profile
+photo.3: ig://BHsuNh6gD7p/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/6/10
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: tongue
+photo.4: ig://BHsuH1wgnw2/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/6/10
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: tongue
+photo.5: ig://BHsuC5hAFfR/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/6/10
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: tongue
+photo.6: ig://BHst1GUAoc0/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/6/10
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: carry
+photo.7: ig://BEj_2-HD_97/m
+photo.7.author: rainpebble79
+photo.7.commitdate: 2020/2/22
+photo.7.link: https://www.instagram.com/rainpebble79/
+species: 1
+studbook.id: 1214
+zoo: 177

@@ -1,0 +1,12 @@
+[zoo]
+_id: 274
+commitdate: 2021/04/07
+en.address: Avenue Mathias Delobel, 59000, Lille, France
+en.location: Lille, France
+en.name: Zoo de Lille
+flag: France
+language.order: en
+latitude: 50.63822
+longitude: 3.044408
+map: https://goo.gl/maps/f27gQNULHBk5ko3fA
+website: https://www.lille.fr/Zoo-de-Lille

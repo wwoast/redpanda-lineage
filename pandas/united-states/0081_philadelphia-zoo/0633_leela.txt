@@ -1,0 +1,32 @@
+[panda]
+_id: 633
+birthday: 2010/6/24
+birthplace: 146
+children: none
+commitdate: 2019/3/19
+en.name: Leela
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 632
+location.1: 146, 2010/6/24
+location.2: 158, 2011/4/12
+location.3: 160, 2013/3/5
+location.4: 81, 2019/3/18
+photo.1: ig://Bvh1GRPD3Og/m
+photo.1.author: rossifari
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/rossifari/
+photo.1.tags: portrait, smile, tongue
+photo.2: ig://B2qMFQMJ9Qg/m
+photo.2.author: rossifari
+photo.2.commitdate: 2019/10/8
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: bamboo, portrait
+species: 1
+studbook.id: 1023
+zoo: 81

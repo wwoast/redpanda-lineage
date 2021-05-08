@@ -1,0 +1,248 @@
+[panda]
+_id: 1048
+birthday: 2012/6/19
+birthplace: 59
+children: 1052, 1053, 1217, 1218
+commitdate: 2019/11/13
+en.name: Yushu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ユシュ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1049
+location.1: 59, 2012/6/19
+location.2: 219, 2014/6/11
+photo.1: ig://Babax8ogtQu/m
+photo.1.author: pairidaizaofficial
+photo.1.commitdate: 2019/11/21
+photo.1.link: https://www.instagram.com/pairidaizaofficial/
+photo.1.tags: portrait
+photo.2: ig://BipFEDRAMSu/m
+photo.2.author: pairidaizaofficial
+photo.2.commitdate: 2019/11/21
+photo.2.link: https://www.instagram.com/pairidaizaofficial/
+photo.2.tags: flowers, portrait, tail
+photo.3: ig://Bl5V05fgFjq/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2019/11/24
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: laying down
+photo.4: ig://BnWNORWHRL8/m
+photo.4.author: pairidaizaofficial
+photo.4.commitdate: 2019/11/21
+photo.4.link: https://www.instagram.com/pairidaizaofficial/
+photo.4.tags: smile, tree
+photo.5: ig://BsTOWwpHdqX/m
+photo.5.author: pairidaizaofficial
+photo.5.commitdate: 2019/11/21
+photo.5.link: https://www.instagram.com/pairidaizaofficial/
+photo.5.tags: portrait, profile, whiskers
+photo.6: ig://BtFrIsxHl26/m
+photo.6.author: pairidaizaofficial
+photo.6.commitdate: 2019/11/21
+photo.6.link: https://www.instagram.com/pairidaizaofficial/
+photo.6.tags: portrait, snow
+photo.7: ig://BwF0WsmlkyU/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2019/11/24
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: paws, portrait
+photo.8: ig://Bwg4TOnH1_a/m
+photo.8.author: nathalie.elliott
+photo.8.commitdate: 2019/11/24
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: air tasting, paws, portrait, tongue
+photo.9: ig://BxblJQYIV0A/m
+photo.9.author: nathalie.elliott
+photo.9.commitdate: 2019/11/24
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: portrait, whiskers
+photo.10: ig://ByJJWb3osFr/m
+photo.10.author: nathalie.elliott
+photo.10.commitdate: 2019/11/24
+photo.10.link: https://www.instagram.com/nathalie.elliott/
+photo.10.tags: portrait
+photo.11: ig://By4bclEIWzd/m
+photo.11.author: nathalie.elliott
+photo.11.commitdate: 2019/11/24
+photo.11.link: https://www.instagram.com/nathalie.elliott/
+photo.11.tags: portrait
+photo.12: ig://By9b48BIIYB/m
+photo.12.author: nathalie.elliott
+photo.12.commitdate: 2019/11/24
+photo.12.link: https://www.instagram.com/nathalie.elliott/
+photo.12.tags: dish, portrait, whiskers
+photo.13: ig://BzScOPFIjO5/m
+photo.13.author: nathalie.elliott
+photo.13.commitdate: 2019/11/24
+photo.13.link: https://www.instagram.com/nathalie.elliott/
+photo.13.tags: laying down, portrait, sleeping, tree
+photo.14: ig://B0DGGrHINST/m
+photo.14.author: nathalie.elliott
+photo.14.commitdate: 2019/11/24
+photo.14.link: https://www.instagram.com/nathalie.elliott/
+photo.14.tags: itchy, portrait
+photo.15: ig://B0aSRxkooEk/m
+photo.15.author: nathalie.elliott
+photo.15.commitdate: 2019/11/24
+photo.15.link: https://www.instagram.com/nathalie.elliott/
+photo.15.tags: tail
+photo.16: ig://B1LYwN7oiRJ/m
+photo.16.author: nathalie.elliott
+photo.16.commitdate: 2019/11/24
+photo.16.link: https://www.instagram.com/nathalie.elliott/
+photo.16.tags: portrait
+photo.17: ig://B1qLEqVIhz2/m
+photo.17.author: nathalie.elliott
+photo.17.commitdate: 2019/11/24
+photo.17.link: https://www.instagram.com/nathalie.elliott/
+photo.17.tags: bamboo, portrait, whiskers
+photo.18: ig://B33wJmMnlgK/m
+photo.18.author: nathalie.elliott
+photo.18.commitdate: 2019/11/24
+photo.18.link: https://www.instagram.com/nathalie.elliott/
+photo.18.tags: portrait, tail
+photo.19: ig://B3_gK91nskx/m
+photo.19.author: nathalie.elliott
+photo.19.commitdate: 2019/11/24
+photo.19.link: https://www.instagram.com/nathalie.elliott/
+photo.20: ig://B4na1_-n20n/m
+photo.20.author: nathalie.elliott
+photo.20.commitdate: 2019/11/24
+photo.20.link: https://www.instagram.com/nathalie.elliott/
+photo.20.tags: portrait
+photo.21: ig://B50C8dmnA-i/m
+photo.21.author: nathalie.elliott
+photo.21.commitdate: 2019/12/27
+photo.21.link: https://www.instagram.com/nathalie.elliott/
+photo.21.tags: bamboo, portrait, tree
+photo.22: ig://B6T15zZHRYO/m
+photo.22.author: nathalie.elliott
+photo.22.commitdate: 2019/12/30
+photo.22.link: https://www.instagram.com/nathalie.elliott/
+photo.22.tags: bamboo
+photo.23: ig://B6bqdn_Hgyh/m
+photo.23.author: nathalie.elliott
+photo.23.commitdate: 2020/1/20
+photo.23.link: https://www.instagram.com/nathalie.elliott/
+photo.23.tags: door, portrait, smile, tongue
+photo.24: ig://B6gsX5-n4pz/m
+photo.24.author: nathalie.elliott
+photo.24.commitdate: 2019/12/30
+photo.24.link: https://www.instagram.com/nathalie.elliott/
+photo.24.tags: portrait, tail
+photo.25: ig://B6nGkdUn6Ta/m
+photo.25.author: nathalie.elliott
+photo.25.commitdate: 2019/12/30
+photo.25.link: https://www.instagram.com/nathalie.elliott/
+photo.25.tags: laying down, portrait, whiskers
+photo.26: ig://B6wPZqZHw70/m
+photo.26.author: nathalie.elliott
+photo.26.commitdate: 2020/1/6
+photo.26.link: https://www.instagram.com/nathalie.elliott/
+photo.26.tags: climb, portrait, tail, tree
+photo.27: ig://B7K2eCknZm3/m
+photo.27.author: nathalie.elliott
+photo.27.commitdate: 2020/1/14
+photo.27.link: https://www.instagram.com/nathalie.elliott/
+photo.27.tags: portrait, smile, tree, whiskers
+photo.28: ig://B7iPh3Envan/m
+photo.28.author: nathalie.elliott
+photo.28.commitdate: 2020/2/16
+photo.28.link: https://www.instagram.com/nathalie.elliott/
+photo.28.tags: bamboo, portrait, whiskers
+photo.29: ig://B701Z-BH-6j/m
+photo.29.author: nathalie.elliott
+photo.29.commitdate: 2020/1/28
+photo.29.link: https://www.instagram.com/nathalie.elliott/
+photo.29.tags: bridge, portrait, tail, whiskers
+photo.30: ig://B8Hn-DjnAWV/m
+photo.30.author: nathalie.elliott
+photo.30.commitdate: 2020/2/7
+photo.30.link: https://www.instagram.com/nathalie.elliott/
+photo.30.tags: bamboo, portrait, tongue
+photo.31: ig://B8XAlSCHWju/m
+photo.31.author: nathalie.elliott
+photo.31.commitdate: 2020/2/20
+photo.31.link: https://www.instagram.com/nathalie.elliott/
+photo.31.tags: bamboo, portrait
+photo.32: ig://B8eiJcQnhqD/m
+photo.32.author: nathalie.elliott
+photo.32.commitdate: 2020/3/9
+photo.32.link: https://www.instagram.com/nathalie.elliott/
+photo.32.tags: portrait, whiskers
+photo.33: ig://B8zXwGAnd41/m
+photo.33.author: nathalie.elliott
+photo.33.commitdate: 2020/3/9
+photo.33.link: https://www.instagram.com/nathalie.elliott/
+photo.33.tags: portrait
+photo.34: ig://B84ZFW8FFH7/m
+photo.34.author: nathalie.elliott
+photo.34.commitdate: 2020/3/9
+photo.34.link: https://www.instagram.com/nathalie.elliott/
+photo.34.tags: tail, whiskers
+photo.35: ig://B9SP8erHVjz/m
+photo.35.author: nathalie.elliott
+photo.35.commitdate: 2020/3/9
+photo.35.link: https://www.instagram.com/nathalie.elliott/
+photo.35.tags: bamboo, paws
+photo.36: ig://B9WTK8xnyP3/m
+photo.36.author: nathalie.elliott
+photo.36.commitdate: 2020/3/9
+photo.36.link: https://www.instagram.com/nathalie.elliott/
+photo.36.tags: bamboo, portrait, whiskers
+photo.37: ig://B9aB3TFnHSy/m
+photo.37.author: nathalie.elliott
+photo.37.commitdate: 2020/3/9
+photo.37.link: https://www.instagram.com/nathalie.elliott/
+photo.37.tags: paws, portrait
+photo.38: ig://B-CDFCKnDJQ/m
+photo.38.author: nathalie.elliott
+photo.38.commitdate: 2020/3/25
+photo.38.link: https://www.instagram.com/nathalie.elliott/
+photo.38.tags: paws, portrait, tail
+photo.39: ig://B-phuKEHhO8/m
+photo.39.author: nathalie.elliott
+photo.39.commitdate: 2020/9/12
+photo.39.link: https://www.instagram.com/nathalie.elliott/
+photo.39.tags: door, portrait, smile, tongue
+photo.40: ig://B_w7T46HGZZ/m
+photo.40.author: nathalie.elliott
+photo.40.commitdate: 2020/9/12
+photo.40.link: https://www.instagram.com/nathalie.elliott/
+photo.40.tags: portrait, whiskers
+photo.41: ig://CAXC39fH0RX/m
+photo.41.author: nathalie.elliott
+photo.41.commitdate: 2020/9/12
+photo.41.link: https://www.instagram.com/nathalie.elliott/
+photo.41.tags: laying down
+photo.42: ig://CAxT8QjgbJo/m
+photo.42.author: nathalie.elliott
+photo.42.commitdate: 2020/12/6
+photo.42.link: https://www.instagram.com/nathalie.elliott/
+photo.42.tags: laying down, peek
+photo.43: ig://CBXcn7bAau5/m
+photo.43.author: nathalie.elliott
+photo.43.commitdate: 2020/6/14
+photo.43.link: https://www.instagram.com/nathalie.elliott/
+photo.43.tags: portrait
+photo.44: ig://CE9vUSuAxNn/m
+photo.44.author: nathalie.elliott
+photo.44.commitdate: 2020/9/15
+photo.44.link: https://www.instagram.com/nathalie.elliott/
+photo.44.tags: bamboo, paws, portrait
+photo.45: ig://CH0CO2kAakk/m
+photo.45.author: nathalie.elliott
+photo.45.commitdate: 2020/11/20
+photo.45.link: https://www.instagram.com/nathalie.elliott/
+photo.45.tags: bamboo, paws, portrait, smile
+photo.46: ig://CIEe7VZglT9/m
+photo.46.author: nathalie.elliott
+photo.46.commitdate: 2020/11/28
+photo.46.link: https://www.instagram.com/nathalie.elliott/
+photo.46.tags: paws, portrait, tongue
+species: 1
+zoo: 219

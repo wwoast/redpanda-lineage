@@ -1,0 +1,45 @@
+[panda]
+_id: 453
+birthday: 2004/6/29
+birthplace: 34
+children: none
+commitdate: 2018/11/26
+en.name: Luli
+en.nicknames: none
+en.oldnames: Pi-pa, Pipa
+en.othernames: Luly
+es.name: Luli
+es.nicknames: none
+es.oldnames: Pi-Pa, Pipa
+es.othernames: none
+gender: f
+jp.name: ルリ
+jp.nicknames: none
+jp.oldnames: ピーパ, ピパ
+jp.othernames: none
+language.order: es, en, jp
+litter: none
+location.1: 34, 2004/6/29
+location.2: 98, 2005/7/8
+photo.1: ig://BGiwPZylEcH/m
+photo.1.author: everywhere.inbetween17
+photo.1.commitdate: 2018/12/12
+photo.1.link: https://www.instagram.com/everywhere.inbetween17/
+photo.1.tags: home, portrait, profile
+photo.2: ig://BdtZSuiAHHG/m
+photo.2.author: joseluis_hv_
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/joseluis_hv_/
+photo.2.tags: mofumofu
+photo.3: https://www.codaworry.com/images/rpf/luli-1-buenos-aires.jpg
+photo.3.author: Tomás Francisco Cuesta
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.forestanimalrescue.org/red-pandas/
+photo.3.tags: bamboo
+photo.4: https://www.codaworry.com/images/rpf/luli-2-buenos-aires.jpg
+photo.4.author: Tomás Francisco Cuesta
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.forestanimalrescue.org/red-pandas/
+species: 2
+studbook.id: 0471
+zoo: 98

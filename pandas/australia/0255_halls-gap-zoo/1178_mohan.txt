@@ -1,0 +1,47 @@
+[panda]
+_id: 1178
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2020/6/15
+en.name: Mohan
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モハン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+photo.1: ig://Bz4osOFBYg6/m
+photo.1.author: katievanstan
+photo.1.commitdate: 2020/6/15
+photo.1.link: https://www.instagram.com/katievanstan/
+photo.1.tags: mofumofu, portrait, smile, tail
+photo.2: ig://B1jGoyxHTNE/m
+photo.2.author: hayden__bennett
+photo.2.commitdate: 2020/6/15
+photo.2.link: https://www.instagram.com/hayden__bennett/
+photo.2.tags: bamboo, portrait
+photo.3: ig://B3JF9YdnLUj/m
+photo.3.author: evielala_handmade
+photo.3.commitdate: 2020/6/15
+photo.3.link: https://www.instagram.com/evielala_handmade/
+photo.3.tags: blink, portrait, smile, tongue
+photo.4: ig://B3mcEK3AJcF/m
+photo.4.author: _amy_maher
+photo.4.commitdate: 2020/6/15
+photo.4.link: https://www.instagram.com/_amy_maher/
+photo.4.tags: laying down, mofumofu, sleeping
+photo.5: ig://B6UDA-egI6c/m
+photo.5.author: zookeeper_laura
+photo.5.commitdate: 2020/6/15
+photo.5.link: https://www.instagram.com/zookeeper_laura/
+photo.5.tags: peek, tree
+photo.6: ig://B78CR_YgqID/m
+photo.6.author: galacticexplorerfamily
+photo.6.commitdate: 2020/6/15
+photo.6.link: https://www.instagram.com/galacticexplorerfamily/
+photo.6.tags: paws, portrait, profile, tail
+species: 1
+zoo: 255

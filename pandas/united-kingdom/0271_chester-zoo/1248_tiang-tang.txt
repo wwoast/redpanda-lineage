@@ -1,0 +1,39 @@
+[panda]
+_id: 1248
+birthday: 2019/6/22
+birthplace: 271
+children: none
+cn.name: 天堂
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/12/29
+en.name: Tiang Tang
+en.nicknames: none
+en.othernames: Tiang-Tang
+fr.name: Tiang Tang
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: 天国
+jp.nicknames: none
+jp.othernames: てんごく
+language.order: fr, cn, en, jp
+litter: 1247
+photo.1: ig://B1ynbbDn_o_/m
+photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
+photo.1.link: https://www.instagram.com/chesterzoo/
+photo.1.tags: baby, keeper, paws
+photo.2: ig://B4Pxq21H8Q1/m
+photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
+photo.2.link: https://www.instagram.com/chesterzoo/
+photo.2.tags: baby, long-tongue, tongue, yawn
+photo.3: ig://CJOBz4esreL/m
+photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/chesterzoo/
+photo.3.tags: baby, close-up, whiskers
+species: 1
+uncertainty: current location
+zoo: 271

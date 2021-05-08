@@ -1,0 +1,39 @@
+[media]
+_id: media.7.gin-kin
+commitdate: 2019/7/20
+panda.tags: 17, 22
+photo.1: ig://BGge00YqoCp/l
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/4/18
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: bamboo, siblings, sisters, twins
+photo.1.tags.17.location: 585, 1050
+photo.1.tags.22.location: 465, 200
+photo.2: ig://BGsm3ioKoDT/l
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: siblings, sisters, twins
+photo.2.tags.17.location: 75, 470
+photo.2.tags.22.location: 865, 80
+photo.3: ig://BldDhasHNn2/l
+photo.3.author: cattail.sapporo
+photo.3.commitdate: 2019/7/20
+photo.3.link: https://www.instagram.com/cattail.sapporo/
+photo.3.tags: apple time, portrait, siblings, sisters, tail, twins
+photo.3.tags.17.location: 620, 435
+photo.3.tags.22.location: 205, 150
+photo.4: ig://B55BKXHguMF/l
+photo.4.author: cattail.sapporo
+photo.4.commitdate: 2020/1/7
+photo.4.link: https://www.instagram.com/cattail.sapporo/
+photo.4.tags: chase, playing, portrait, snow, siblings, sisters, twins
+photo.4.tags.17.location: 495, 130
+photo.4.tags.22.location: 385, 545
+photo.5: ig://CC3LxMChU3I/l
+photo.5.author: nishicotolo
+photo.5.commitdate: 2020/7/23
+photo.5.link: https://www.instagram.com/nishicotolo/
+photo.5.tags: siblings, sisters, twins
+photo.5.tags.17.location: 235, 250
+photo.5.tags.22.location: 385, 350

@@ -1,0 +1,33 @@
+[zoo]
+_id: 159
+commitdate: 2019/3/19
+en.address: 500 Edgewood Ave, Akron, OH 44307, USA
+en.location: Akron, Ohio, USA
+en.name: Akron Zoological Park
+flag: USA
+language.order: en
+latitude: 41.0760585
+longitude: -81.5445777
+map: https://goo.gl/maps/DpXRUGpKrz22
+photo.1: ig://B74aPBRBZem/m
+photo.1.author: akronzoo
+photo.1.commitdate: 2020/3/15
+photo.1.link: https://www.instagram.com/akronzoo/
+photo.2: ig://B6Qg_s2AvWb/m
+photo.2.author: akronzoo
+photo.2.commitdate: 2020/3/15
+photo.2.link: https://www.instagram.com/akronzoo/
+photo.3: ig://B4Nt4xuCCqy/m
+photo.3.author: akronzoo
+photo.3.commitdate: 2020/3/15
+photo.3.link: https://www.instagram.com/akronzoo/
+photo.4: ig://BlvzXK3F6Rg/m
+photo.4.author: akronzoo
+photo.4.commitdate: 2020/3/15
+photo.4.link: https://www.instagram.com/akronzoo/
+photo.4.tags: profile
+photo.5: ig://BjM8CfYF1Vc/m
+photo.5.author: akronzoo
+photo.5.commitdate: 2020/3/15
+photo.5.link: https://www.instagram.com/akronzoo/
+website: https://www.akronzoo.org

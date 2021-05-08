@@ -1,0 +1,57 @@
+[panda]
+_id: 257
+birthday: 2011/6/23
+birthplace: 42
+children: none
+commitdate: 2018/7/28
+en.name: Nonoka
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 野乃香
+jp.nicknames: none
+jp.othernames: ノノカ
+language.order: jp, en
+litter: 258
+photo.1: ig://BZLXwdeBCB6/m
+photo.1.author: miis_98
+photo.1.commitdate: 2018/8/22
+photo.1.link: https://www.instagram.com/miis_98/
+photo.1.tags: profile, smile
+photo.2: ig://BZi7gXXBJ4X/m
+photo.2.author: apple_jasmine33
+photo.2.commitdate: 2020/5/4
+photo.2.link: https://www.instagram.com/apple_jasmine33/
+photo.2.tags: portrait, smile, tail
+photo.3: ig://BaAVfcmhJz4/m
+photo.3.author: resapanlove
+photo.3.commitdate: 2019/6/23
+photo.3.link: https://www.instagram.com/resapanlove/
+photo.3.tags: smile
+photo.4: ig://BaAgxKDl2L8/m
+photo.4.author: nakacchi_desu
+photo.4.commitdate: 2018/8/22
+photo.4.link: https://www.instagram.com/nakacchi_desu/
+photo.5: ig://BcO9RmyFWU6/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2020/3/11
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: apple time, portrait, smile, tail
+photo.6: ig://BhYz6i7BdrH/m
+photo.6.author: miis_98
+photo.6.commitdate: 2018/8/22
+photo.6.link: https://www.instagram.com/miis_98/
+photo.6.tags: apple time, smile
+photo.7: ig://B3o9hKwhoqi/m
+photo.7.author: miis_98
+photo.7.commitdate: 2019/10/17
+photo.7.link: https://www.instagram.com/miis_98/
+photo.7.tags: door, long-tongue, portrait, tongue
+photo.8: ig://CE_FxqxhujU/m
+photo.8.author: grskus_tk
+photo.8.commitdate: 2020/9/14
+photo.8.link: https://www.instagram.com/grskus_tk/
+photo.8.tags: tail
+species: 2
+studbook.id: 1197
+zoo: 42

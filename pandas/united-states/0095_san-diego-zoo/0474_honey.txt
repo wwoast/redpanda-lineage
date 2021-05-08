@@ -1,0 +1,45 @@
+[panda]
+_id: 474
+birthday: 2003/6/18
+birthplace: 65
+children: none
+commitdate: 2018/12/4
+en.name: Honey
+en.nicknames: none
+en.othernames: Hun-E
+gender: f
+jp.name: ハニー
+jp.nicknames: none
+jp.othernames: 蜂蜜
+language.order: en, jp
+litter: none
+location.1: 65, 2003/6/18
+location.2: 109, 2004/6/2
+location.3: 43, 2007/11/20
+location.4: 65, 2009/9/11
+location.5: 103, 2011/11/15
+location.6: 90, 2013/5/2
+location.7: 95, 2013/12/17
+photo.1: ig://_PftGyxETt/m
+photo.1.author: sandiegozoo
+photo.1.commitdate: 2019/10/26
+photo.1.link: https://www.instagram.com/sandiegozoo/
+photo.1.tags: dark face, laying down
+photo.2: ig://BB1FSppREbg/m
+photo.2.author: sandiegozoo
+photo.2.commitdate: 2019/10/26
+photo.2.link: https://www.instagram.com/sandiegozoo/
+photo.2.tags: dark face, laying down, paws, portrait
+photo.3: ig://BFzM_oGREVI/m
+photo.3.author: sandiegozoo
+photo.3.commitdate: 2019/10/26
+photo.3.link: https://www.instagram.com/sandiegozoo/
+photo.3.tags: laying down, portrait, profile, smile, tongue
+photo.4: ig://BG5Mk0HREV2/m
+photo.4.author: sandiegozoo
+photo.4.commitdate: 2019/10/26
+photo.4.link: https://www.instagram.com/sandiegozoo/
+photo.4.tags: dark face, laying down
+species: 2
+studbook.id: 0302
+zoo: 95

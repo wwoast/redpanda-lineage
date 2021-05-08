@@ -1,0 +1,57 @@
+[panda]
+_id: 998
+birthday: 2019/6/7
+birthplace: 93
+children: none
+commitdate: 2019/10/17
+en.name: Kiki
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://B0YpEVEBP5R/m
+photo.1.author: milwaukeecozoo
+photo.1.commitdate: 2019/12/7
+photo.1.link: https://www.instagram.com/milwaukeecozoo/
+photo.1.tags: baby
+photo.2: ig://B1oVxznj1C-/m
+photo.2.author: milwaukeecozoo
+photo.2.commitdate: 2019/10/17
+photo.2.link: https://www.instagram.com/milwaukeecozoo/
+photo.2.tags: baby, paws, portrait, smile
+photo.3: ig://B2o1xkGlOgA/m
+photo.3.author: milwaukeecozoo
+photo.3.commitdate: 2019/10/17
+photo.3.link: https://www.instagram.com/milwaukeecozoo/
+photo.3.tags: baby, portrait
+photo.4: ig://B2rJWy_FVG3/m
+photo.4.author: milwaukeecozoo
+photo.4.commitdate: 2019/10/17
+photo.4.link: https://www.instagram.com/milwaukeecozoo/
+photo.4.tags: baby, bamboo, portrait
+photo.5: ig://B24BVpygpfc/m
+photo.5.author: milwaukeecozoo
+photo.5.commitdate: 2019/10/17
+photo.5.link: https://www.instagram.com/milwaukeecozoo/
+photo.5.tags: baby
+photo.6: ig://B3cGRwlgoEi/m
+photo.6.author: milwaukeecozoo
+photo.6.commitdate: 2019/10/17
+photo.6.link: https://www.instagram.com/milwaukeecozoo/
+photo.6.tags: baby, home, portrait, tree
+photo.7: ig://B-7yQxIBJMo/m
+photo.7.author: milwaukeecozoo
+photo.7.commitdate: 2020/6/7
+photo.7.link: https://www.instagram.com/milwaukeecozoo/
+photo.7.tags: mofumofu, paws, portrait, whiskers
+photo.8: ig://CBvQeB3FmVL/m
+photo.8.author: milwaukeecozoo
+photo.8.commitdate: 2020/6/28
+photo.8.link: https://www.instagram.com/milwaukeecozoo/
+photo.8.tags: laying down
+species: 2
+zoo: 93

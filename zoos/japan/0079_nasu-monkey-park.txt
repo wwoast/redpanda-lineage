@@ -1,0 +1,19 @@
+[zoo]
+_id: 79
+commitdate: 2018/10/18
+en.address: ６１４６ Takakuko, Nasu, Nasu District, Tochigi Prefecture 325-0001, Japan
+en.location: Nasu, Tochigi Prefecture, Japan
+en.name: Nasu World Monkey Park
+flag: Japan
+jp.address: 〒325-0001 栃木県那須郡那須町高久甲６１４６
+jp.location: 那須町 栃木県
+jp.name: 那須ワールドモンキーパーク
+language.order: jp, en
+latitude: 37.0353086
+longitude: 140.0307087
+map: https://goo.gl/maps/wXxiP9TZrQG2
+photo.1: ig://Bk-TVBcl8ad/m
+photo.1.author: tomonobu_yasoshima
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/tomonobu_yasoshima/
+website: http://www.nasumonkey.com/

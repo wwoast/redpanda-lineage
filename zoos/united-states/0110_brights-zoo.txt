@@ -1,0 +1,16 @@
+[zoo]
+_id: 110
+commitdate: 2019/2/23
+en.address: 3425 US-11E, Limestone, TN 37681, USA
+en.location: Limestone, Tennessee, USA
+en.name: Brights Zoo
+flag: USA
+language.order: en
+latitude: 36.2546187
+longitude: -82.6216489
+map: https://goo.gl/maps/o1JzMwgEGPw
+photo.1: ig://BrjV8nlFSmv/m
+photo.1.author: brightszoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/brightszoo/
+website: http://www.brightszoo.com/

@@ -1,0 +1,66 @@
+[panda]
+_id: 696
+birthday: 2005/6/12
+birthplace: 109
+children: 575, 666, 521, 651, 522, 922, 927, 928, 929
+commitdate: 2019/3/25
+en.name: Tashi
+en.nicknames: none
+en.othernames: Ta-Shi
+gender: f
+jp.name: タシ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 695
+location.1: 109, 2005/6/12
+location.2: 116, 2006/4/6
+location.3: 119, 2006/12/19
+location.4: 124, 2008/11/20
+photo.1: ig://BvmLZCJgOSM/m
+photo.1.author: detroitzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: snow
+photo.2: ig://Bxm7EJvHc0D/m
+photo.2.author: detroitzoo
+photo.2.commitdate: 2019/12/2
+photo.2.link: https://www.instagram.com/detroitzoo/
+photo.2.tags: smile, tree
+photo.3: ig://BynFWRpFNwt/m
+photo.3.author: detroitzoo
+photo.3.commitdate: 2019/6/13
+photo.3.link: https://www.instagram.com/detroitzoo/
+photo.3.tags: smile
+photo.4: ig://BzqMD-ND0cw/m
+photo.4.author: detroitzoo
+photo.4.commitdate: 2019/12/2
+photo.4.link: https://www.instagram.com/detroitzoo/
+photo.5: ig://Bz8DiJQgCl2/m
+photo.5.author: detroitzoo
+photo.5.commitdate: 2019/12/2
+photo.5.link: https://www.instagram.com/detroitzoo/
+photo.5.tags: tail
+photo.6: ig://B17beKelj0e/m
+photo.6.author: pippin455
+photo.6.commitdate: 2020/11/6
+photo.6.link: https://www.instagram.com/pippin455/
+photo.6.tags: peek, portrait, tail, tree
+photo.7: ig://B4NiCPMnQH5/m
+photo.7.author: detroitzoo
+photo.7.commitdate: 2020/3/18
+photo.7.link: https://www.instagram.com/detroitzoo/
+photo.7.tags: tail
+photo.8: ig://B4U2myNgXyi/m
+photo.8.author: b_aimz94
+photo.8.commitdate: 2020/3/18
+photo.8.link: https://www.instagram.com/b_aimz94/
+photo.8.tags: paws, portrait, profile, tree
+photo.9: ig://B5Dmj7fnj_r/m
+photo.9.author: detroitzoo
+photo.9.commitdate: 2020/3/18
+photo.9.link: https://www.instagram.com/detroitzoo/
+photo.9.tags: snow
+species: 1
+studbook.id: 0506
+zoo: 124

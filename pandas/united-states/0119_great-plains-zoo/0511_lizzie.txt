@@ -1,0 +1,21 @@
+[panda]
+_id: 511
+birthday: 2015/5/31
+birthplace: 114
+children: none
+commitdate: 2019/2/23
+death: 2017/9/8
+en.name: Lizzie
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リジー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 512, 513
+location.1: 114, 2015/5/31
+location.2: 119, 2016/4/14
+species: 1
+studbook.id: 1501
+zoo: 119

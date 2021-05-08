@@ -1,0 +1,19 @@
+[zoo]
+_id: 25
+commitdate: 2018/6/19
+en.address: 5 Chome-2-22 Miyatacho, Hitachi, Ibaraki Prefecture 317-0055, Japan
+en.location: Hitachi, Ibaraki Prefecture, Japan
+en.name: Hitachi Kamine Zoo
+flag: Japan
+jp.address: 〒317-0055 茨城県日立市宮田町５丁目２−22
+jp.location: 日立市 茨城県
+jp.name: 日立市かみね動物園
+language.order: jp, en
+latitude: 36.6067412
+longitude: 140.6559983
+map: https://goo.gl/maps/tBaGy6Ap8DP2
+photo.1: ig://BjUhrKxHR9D/m
+photo.1.author: relaxia_sokuatsu
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/relaxia_sokuatsu/
+website: http://www.city.hitachi.lg.jp/zoo/

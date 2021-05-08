@@ -1,0 +1,19 @@
+[panda]
+_id: 363
+birthday: 2000/7/20
+birthplace: 3
+children: 299, 1182, 357
+commitdate: 2018/10/26
+death: 2013/12/18
+en.name: Choco-Choco
+en.nicknames: none
+en.othernames: Chocochoco, Cyoko-Cyoko, Cyokocyoko
+gender: f
+jp.name: チョコチョコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 562
+species: 2
+studbook.id: 00107
+zoo: 33

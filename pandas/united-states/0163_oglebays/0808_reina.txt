@@ -1,0 +1,20 @@
+[panda]
+_id: 808
+birthday: 2013/7/20
+birthplace: 146
+children: none
+commitdate: 2019/4/6
+en.name: Reina
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: レイナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 580, 807
+location.1: 146, 2013/7/20
+location.2: 163, 2014/4/22
+species: 1
+studbook.id: 1356
+zoo: 163

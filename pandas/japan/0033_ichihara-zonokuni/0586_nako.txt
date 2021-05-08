@@ -1,0 +1,19 @@
+[panda]
+_id: 586
+birthday: 2012/7/7
+birthplace: 31
+children: none
+commitdate: 2019/3/19
+death: 2014/9/25
+en.name: Nako
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナコ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 465
+species: 2
+studbook.id: 12111
+zoo: 33

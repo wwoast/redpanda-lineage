@@ -1,0 +1,44 @@
+[panda]
+_id: 1006
+birthday: 2013/5/30
+birthplace: 187
+children: none
+commitdate: 2019/10/27
+en.name: Fred
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: フレッド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1007
+location.1: 187, 2013/5/30
+location.2: 212, 2014/10/14
+photo.1: ig://BydAF2zhood/m
+photo.1.author: rpzoominot
+photo.1.commitdate: 2019/10/28
+photo.1.link: https://www.instagram.com/rpzoominot/
+photo.1.tags: door, home, portrait
+photo.2: ig://B1NOq_-BrC-/m
+photo.2.author: rpzoominot
+photo.2.commitdate: 2019/10/28
+photo.2.link: https://www.instagram.com/rpzoominot/
+photo.2.tags: laying down, portrait
+photo.3: ig://B2r_52uBwRq/m
+photo.3.author: rpzoominot
+photo.3.commitdate: 2019/10/28
+photo.3.link: https://www.instagram.com/rpzoominot/
+photo.3.tags: bamboo, door, portrait, tongue
+photo.4: ig://B2rhoeWBDYG/m
+photo.4.author: rpzoominot
+photo.4.commitdate: 2019/10/28
+photo.4.link: https://www.instagram.com/rpzoominot/
+photo.4.tags: laying down, peek, portrait, profile
+photo.5: ig://B2rkcorBSrS/m
+photo.5.author: rpzoominot
+photo.5.commitdate: 2019/10/28
+photo.5.link: https://www.instagram.com/rpzoominot/
+photo.5.tags: laying down, portrait, whiskers
+species: 1
+zoo: 212

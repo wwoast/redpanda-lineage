@@ -1,0 +1,18 @@
+[media]
+_id: media.26.kanta-sayuri
+commitdate: 2019/6/6
+panda.tags: 213, 251
+photo.1: ig://BySflAOhT8e/m
+photo.1.author: craig_craig_craig
+photo.1.commitdate: 2019/6/6
+photo.1.link: https://www.instagram.com/craig_craig_craig/
+photo.1.tags: apple time, siblings
+photo.1.tags.213.location: 100, 135
+photo.1.tags.251.location: 215, 130
+photo.2: ig://B_QFfxPhzjq/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/5/9
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: apple time, portrait, siblings
+photo.2.tags.213.location: 100, 190
+photo.2.tags.251.location: 225, 110

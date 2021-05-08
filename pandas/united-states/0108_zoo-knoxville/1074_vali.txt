@@ -1,0 +1,54 @@
+[panda]
+_id: 1074
+birthday: 2019/6/20
+birthplace: 107
+children: none
+commitdate: 2019/12/3
+death: 2020/10/1
+en.name: Vali
+en.nicknames: none
+en.oldnames: Bali
+en.othernames: none
+gender: m
+jp.name: バリ
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1075
+location.1: 107, 2019/6/20
+location.2: 108, 2019/8/21
+photo.1: ig://B5gCxGKhP4S/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/12/3
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: baby, keeper, portrait, profile
+photo.2: ig://B5lJFycBjPU/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/12/3
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, portrait, pumpkin
+photo.3: ig://B5nHqM1BD8F/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/7
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: baby, lips, portrait
+photo.4: ig://B7XGSBth265/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/11/16
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: baby, close-up, white face, window
+photo.5: ig://B7hTZMDB7J2/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2020/11/16
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: baby, close-up, tongue, white face, window
+photo.6: ig://CDIB32jBczB/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/11/16
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: bridge, portrait, tail
+species: 1
+studbook.id: 1918
+uncertainty: death date
+zoo: 108

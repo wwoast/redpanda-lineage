@@ -1,0 +1,155 @@
+[panda]
+_id: 90
+birthday: 2005/7/1
+birthplace: 60
+children: none
+commitdate: 2018/6/23
+en.name: Taichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タイチ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 280
+location.1: 60, 2005/7/1
+location.2: 22, 2008/3/24
+location.3: 10, 2012/5/23
+photo.1: ig://BJT4GOFgkpO/m
+photo.1.author: mariten1119
+photo.1.commitdate: 2018/7/29
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.2: ig://BYhPP0yF2mI/m
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2018/7/29
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.2.tags: itchy, portrait
+photo.3: ig://Bfjf8xZBLMN/m
+photo.3.author: no_life_no_zoo
+photo.3.commitdate: 2018/7/19
+photo.3.link: https://www.instagram.com/no_life_no_zoo/
+photo.3.tags: portrait, snow
+photo.4: ig://BglJ7F7llva/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2018/12/23
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: portrait
+photo.5: ig://BhJB-S1FwsR/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2018/7/19
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: portrait
+photo.6: ig://Bh0hFwQlsPg/m
+photo.6.author: ifumoto88
+photo.6.commitdate: 2018/7/19
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: itchy, portrait
+photo.7: ig://BiKQXrfFzNS/m
+photo.7.author: panda.daisuki
+photo.7.commitdate: 2019/7/2
+photo.7.link: https://www.instagram.com/panda.daisuki/
+photo.7.tags: mofumofu, portrait
+photo.8: ig://BqOWB-xlp6F/m
+photo.8.author: wumpwoast
+photo.8.commitdate: 2018/11/16
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.9: ig://BqqyeAwHgFI/m
+photo.9.author: yakko____
+photo.9.commitdate: 2018/12/6
+photo.9.link: https://www.instagram.com/yakko____/
+photo.9.tags: portrait, tree
+photo.10: ig://BqvBS0VF5m0/m
+photo.10.author: taka__3428
+photo.10.commitdate: 2018/11/28
+photo.10.link: https://www.instagram.com/taka__3428/
+photo.11: ig://BrP5pO3Fj15/m
+photo.11.author: fetorus_mami
+photo.11.commitdate: 2018/12/12
+photo.11.link: https://www.instagram.com/fetorus_mami/
+photo.11.tags: tongue
+photo.12: ig://Bru7ikgnQo0/m
+photo.12.author: tomoki_redpanda
+photo.12.commitdate: 2018/12/26
+photo.12.link: https://www.instagram.com/tomoki_redpanda/
+photo.12.tags: profile
+photo.13: ig://BsevEC_l0Yz/m
+photo.13.author: perie1027vivi
+photo.13.commitdate: 2019/1/18
+photo.13.link: https://www.instagram.com/perie1027vivi/
+photo.13.tags: portrait
+photo.14: ig://BsfjqC_lmp5/m
+photo.14.author: jas_forever_love
+photo.14.commitdate: 2019/1/18
+photo.14.link: https://www.instagram.com/jas_forever_love/
+photo.15: ig://BtA0EuWlgMw/m
+photo.15.author: rie_panda55
+photo.15.commitdate: 2019/1/26
+photo.15.link: https://www.instagram.com/rie_panda55/
+photo.15.tags: portrait, snow
+photo.16: ig://BulYRYcl9HT/m
+photo.16.author: tomoki_redpanda
+photo.16.commitdate: 2019/3/9
+photo.16.link: https://www.instagram.com/tomoki_redpanda/
+photo.16.tags: smile
+photo.17: ig://BvpxhQolq4P/m
+photo.17.author: kotata_513
+photo.17.commitdate: 2019/4/2
+photo.17.link: https://www.instagram.com/kotata_513/
+photo.18: ig://Bv34CNHFSrV/m
+photo.18.author: resapan.suki
+photo.18.commitdate: 2019/4/5
+photo.18.link: https://www.instagram.com/resapan.suki/
+photo.18.tags: portrait
+photo.19: ig://BwD4gW5lPbb/m
+photo.19.author: na.mo.pan
+photo.19.commitdate: 2019/4/11
+photo.19.link: https://www.instagram.com/na.mo.pan/
+photo.19.tags: portrait, tail
+photo.20: ig://BxrUWlwFyWV/m
+photo.20.author: sasapan34
+photo.20.commitdate: 2019/5/22
+photo.20.link: https://www.instagram.com/sasapan34/
+photo.20.tags: flowers, smile
+photo.21: ig://ByZ2K58hhGZ/m
+photo.21.author: shigeko0531
+photo.21.commitdate: 2019/6/8
+photo.21.link: https://www.instagram.com/shigeko0531/
+photo.21.tags: muzzle, portrait, smile
+photo.22: ig://B3HC-P6hY1F/m
+photo.22.author: tetusara.ki_
+photo.22.commitdate: 2019/10/12
+photo.22.link: https://www.instagram.com/tetusara.ki_/
+photo.22.tags: laying down, upside-down
+photo.23: ig://B3WiW-uhptq/m
+photo.23.author: resapan.suki
+photo.23.commitdate: 2019/10/14
+photo.23.link: https://www.instagram.com/resapan.suki/
+photo.23.tags: portrait, smile
+photo.24: ig://B3W4NyPhrKV/m
+photo.24.author: shigeko0531
+photo.24.commitdate: 2019/10/14
+photo.24.link: https://www.instagram.com/shigeko0531/
+photo.24.tags: lips, portrait, whiskers
+photo.25: ig://B4AKOJrBFUP/m
+photo.25.author: nozo.mari
+photo.25.commitdate: 2019/10/25
+photo.25.link: https://www.instagram.com/nozo.mari/
+photo.26: ig://B4wvYK8B5DW/m
+photo.26.author: redpan22
+photo.26.commitdate: 2019/11/17
+photo.26.link: https://www.instagram.com/redpan22/
+photo.26.tags: tongue
+photo.27: ig://CCENIachxHC/m
+photo.27.author: panda.daisuki
+photo.27.commitdate: 2020/7/1
+photo.27.link: https://www.instagram.com/panda.daisuki/
+photo.27.tags: mofumofu, portrait, tail, whiskers
+photo.28: ig://CCFowPqBGtg/m
+photo.28.author: shigeko0531
+photo.28.commitdate: 2020/7/12
+photo.28.link: https://www.instagram.com/shigeko0531/
+photo.28.tags: portrait, smile, whiskers
+species: 2
+studbook.id: 0559
+zoo: 10

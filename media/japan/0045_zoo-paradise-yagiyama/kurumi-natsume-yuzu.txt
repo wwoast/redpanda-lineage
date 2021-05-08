@@ -1,0 +1,28 @@
+[media]
+_id: media.45.kurumi-natsume-yuzu
+commitdate: 2019/10/20
+panda.tags: 160, 244, 245
+photo.1: ig://Bw7DEH8l_nt/l
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/5/1
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: family, home, portrait
+photo.1.tags.160.location: 665, 510
+photo.1.tags.244.location: 460, 470
+photo.1.tags.245.location: 285, 745
+photo.2: ig://B3jz6vbh9I2/l
+photo.2.author: resapan.suki
+photo.2.commitdate: 2019/10/20
+photo.2.link: https://www.instagram.com/resapan.suki/
+photo.2.tags: family, patrol, siblings, twins
+photo.2.tags.160.location: 960, 705
+photo.2.tags.244.location: 585, 575
+photo.2.tags.245.location: 320, 535
+photo.3: ig://CB8SZ3nhtZT/l
+photo.3.author: eos1089
+photo.3.commitdate: 2020/7/2
+photo.3.link: https://www.instagram.com/eos1089/
+photo.3.tags: family, home, siblings, twins
+photo.3.tags.160.location: 435, 475
+photo.3.tags.244.location: 320, 715
+photo.3.tags.245.location: 145, 605

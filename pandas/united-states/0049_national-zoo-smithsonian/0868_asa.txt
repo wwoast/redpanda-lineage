@@ -1,0 +1,20 @@
+[panda]
+_id: 868
+birthday: 2014/5/27
+birthplace: 114
+children: none
+commitdate: 2019/6/10
+en.name: Asa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: アサ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 869
+location.1: 114, 2014/5/27
+location.2: 49, 2015/12/8
+species: 1
+studbook.id: 1407
+zoo: 49

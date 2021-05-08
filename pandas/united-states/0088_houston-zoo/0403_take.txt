@@ -1,0 +1,50 @@
+[panda]
+_id: 403
+birthday: 2009/6/11
+birthplace: 83
+children: none
+commitdate: 2018/11/23
+en.name: Take
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: タケ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 399, 402
+location.1: 83, 2009/6/11
+location.2: 88, 2010/5/26
+photo.1: ig://BkiurCRn2_H/m
+photo.1.author: zentrandi
+photo.1.commitdate: 2018/12/6
+photo.1.link: https://www.instagram.com/zentrandi/
+photo.1.tags: tree
+photo.2: ig://BzoIpUXB8yz/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/7/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, profile
+photo.3: ig://B5aQW9Phlde/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bamboo, portrait
+photo.4: ig://B5dZ6GkBCUy/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/11/29
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: portrait, smile
+photo.5: ig://B6FOj6ZJBHb/m
+photo.5.author: ruiyan29
+photo.5.commitdate: 2020/2/29
+photo.5.link: https://www.instagram.com/ruiyan29/
+photo.5.tags: laying down, portrait, tail
+photo.6: ig://CEcJMfhli4R/m
+photo.6.author: houstonzoo
+photo.6.commitdate: 2020/9/4
+photo.6.link: https://www.instagram.com/houstonzoo/
+photo.6.tags: laying down, peek
+species: 2
+studbook.id: 0931
+zoo: 88

@@ -1,0 +1,93 @@
+[panda]
+_id: 1076
+birthday: 2019/6/14
+birthplace: 108
+children: none
+commitdate: 2019/12/3
+en.name: Linda
+en.nicknames: none
+en.oldnames: Tia
+en.othernames: none
+gender: f
+jp.name: リンダ
+jp.nicknames: none
+jp.oldnames: ティア
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 108, 2019/6/14
+location.2: 166, 2021/3/1
+photo.1: ig://B0waQJEAvul/m
+photo.1.author: tennesseetrailsphotography
+photo.1.commitdate: 2019/12/5
+photo.1.link: https://www.instagram.com/tennesseetrailsphotography/
+photo.1.tags: baby, keeper, paws
+photo.2: ig://B0wa3o-Ast8/m
+photo.2.author: tennesseetrailsphotography
+photo.2.commitdate: 2019/12/5
+photo.2.link: https://www.instagram.com/tennesseetrailsphotography/
+photo.2.tags: baby, keeper, paws, smile
+photo.3: ig://B0zmNykhJ-h/m
+photo.3.author: tennesseetrailsphotography
+photo.3.commitdate: 2019/12/5
+photo.3.link: https://www.instagram.com/tennesseetrailsphotography/
+photo.3.tags: baby, bottle, keeper, laying down
+photo.4: ig://B4ppvQSAC-2/m
+photo.4.author: youreasttnrealtor
+photo.4.commitdate: 2019/12/3
+photo.4.link: https://www.instagram.com/youreasttnrealtor/
+photo.4.tags: portrait, profile
+photo.5: ig://B4-811IgvRO/m
+photo.5.author: tennesseetrailsphotography
+photo.5.commitdate: 2019/12/11
+photo.5.link: https://www.instagram.com/tennesseetrailsphotography/
+photo.5.tags: hammock, paws, portrait, white face
+photo.6: ig://B5fQrhEBqxJ/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/12/3
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: baby, mofumofu, portrait, tail, white face
+photo.7: ig://B5gCKvJB0JQ/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/12/3
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: baby, bottle, keeper, laying down
+photo.8: ig://B5h3tQABYhT/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2019/12/3
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: baby, whiskers, white face
+photo.9: ig://B7MVv0NhSnp/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2020/1/14
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: white face
+photo.10: ig://B7a5PQFBXbp/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2020/11/16
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: baby, bite, playing, portrait, white face
+photo.11: ig://B7iqGWnBRKA/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2020/11/16
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: baby, peek, white face
+photo.12: ig://B9J5C8BBNJ8/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2020/5/29
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: bamboo, white face
+photo.13: ig://CDMlwBmhg1v/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2020/11/16
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: pooping, white face
+photo.14: ig://CDOeNjehnNg/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2020/11/16
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: white face
+species: 1
+studbook.id: 1913
+uncertainty: location.2 exact date
+zoo: 166

@@ -1,0 +1,65 @@
+[panda]
+_id: 1213
+birthday: 2017/6/19
+birthplace: 239
+children: unknown
+commitdate: 2020/8/19
+en.name: Yena
+en.nicknames: none
+en.oldnames: none
+en.othernames: none
+fr.name: Yena
+fr.nicknames: none
+fr.oldnames: none
+fr.othernames: none
+gender: f
+jp.name: イェナ
+jp.nicknames: none
+jp.oldnames: none
+jp.othernames: none
+language.order: nl, fr, en, jp
+litter: none
+location.1: 239, 2017/6/19
+location.2: 262, 2018/11/9
+nl.name: Yena
+nl.nicknames: none
+nl.oldnames: none
+nl.othernames: none
+photo.1: ig://BwsCZeIhnrd/m
+photo.1.author: dierenparkamersfoort
+photo.1.commitdate: 2020/8/19
+photo.1.link: https://www.instagram.com/dierenparkamersfoort/
+photo.1.tags: paws, portrait, tail, whiskers
+photo.2: ig://BxsaNjjot65/m
+photo.2.author: dierenparkamersfoort
+photo.2.commitdate: 2020/8/19
+photo.2.link: https://www.instagram.com/dierenparkamersfoort/
+photo.2.tags: bamboo, paws, smile
+photo.3: ig://B2G2lYeo9fi/m
+photo.3.author: dierenparkamersfoort
+photo.3.commitdate: 2020/8/19
+photo.3.link: https://www.instagram.com/dierenparkamersfoort/
+photo.3.tags: paws, portrait, profile
+photo.4: ig://B4pvtIjH365/m
+photo.4.author: dierenparkamersfoort
+photo.4.commitdate: 2020/8/19
+photo.4.link: https://www.instagram.com/dierenparkamersfoort/
+photo.4.tags: paws, portrait, whiskers
+photo.5: ig://B7ZVZEzHIfH/m
+photo.5.author: dierenparkamersfoort
+photo.5.commitdate: 2020/8/19
+photo.5.link: https://www.instagram.com/dierenparkamersfoort/
+photo.5.tags: mofumofu, peek, whiskers
+photo.6: ig://B_XkTY8HOvD/m
+photo.6.author: dierenparkamersfoort
+photo.6.commitdate: 2020/8/19
+photo.6.link: https://www.instagram.com/dierenparkamersfoort/
+photo.6.tags: apple time, paws, smile
+photo.7: ig://CBVv3fQnQ2p/m
+photo.7.author: dierenparkamersfoort
+photo.7.commitdate: 2020/8/19
+photo.7.link: https://www.instagram.com/dierenparkamersfoort/
+photo.7.tags: paws, portrait, tongue
+species: 1
+studbook.id: 1756
+zoo: 262

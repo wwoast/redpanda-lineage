@@ -1,0 +1,162 @@
+[panda]
+_id: 22
+birthday: 2012/7/20
+birthplace: 7
+children: 23
+commitdate: 2018/6/14
+death: 2017/8/17
+en.name: Kin
+en.nicknames: Kin-bear, Gold, Love-bear, Lovebear, Kinbear
+en.othernames: none
+gender: f
+jp.name: キン
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 17
+location.1: 7, 2012/7/20
+location.2: 11, 2016/6/17
+photo.1: ig://BGkDHN3KoPP/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/4/18
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: whiskers
+photo.2: ig://BGu9zAEKoHM/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: peek, whiskers
+photo.3: ig://BGv2dTsqoOv/m
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/4/18
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: peek, whiskers
+photo.4: ig://BHTM1fGD6GI/m
+photo.4.author: minatomirai215
+photo.4.commitdate: 2020/4/18
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.5: ig://BIXeM3ZjxG8/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2020/4/18
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: bamboo, bite
+photo.6: ig://BK55Cc-D-2f/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2020/4/18
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: peek
+photo.7: ig://BMdoq9KDknH/m
+photo.7.author: minatomirai215
+photo.7.commitdate: 2020/4/18
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.7.tags: bamboo, paws
+photo.8: ig://BMlj2GLDcNj/m
+photo.8.author: minatomirai215
+photo.8.commitdate: 2018/12/6
+photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: portrait, whiskers
+photo.9: ig://BMuvkrDjNLs/m
+photo.9.author: minatomirai215
+photo.9.commitdate: 2020/4/18
+photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: autumn, paws, peek, tree
+photo.10: ig://BM-gpxbji3w/m
+photo.10.author: minatomirai215
+photo.10.commitdate: 2020/4/18
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: autumn, tree
+photo.11: ig://BNdLVSuDkzG/m
+photo.11.author: minatomirai215
+photo.11.commitdate: 2018/12/6
+photo.11.link: https://www.instagram.com/minatomirai215/
+photo.11.tags: bamboo, home
+photo.12: ig://BN-pKKWjVmF/m
+photo.12.author: minatomirai215
+photo.12.commitdate: 2020/4/18
+photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: bamboo, home, paws, tongue
+photo.13: ig://BRf8YIZjq55/m
+photo.13.author: framereim
+photo.13.commitdate: 2018/12/6
+photo.13.link: https://www.instagram.com/framereim/
+photo.13.tags: snow
+photo.14: ig://BTtt4BpgPm6/m
+photo.14.author: minatomirai215
+photo.14.commitdate: 2019/6/6
+photo.14.link: https://www.instagram.com/minatomirai215/
+photo.14.tags: bamboo, portrait
+photo.15: ig://BUT1ldwgtxy/m
+photo.15.author: minatomirai215
+photo.15.commitdate: 2019/5/21
+photo.15.link: https://www.instagram.com/minatomirai215/
+photo.16: ig://BU8YxPfAjAu/m
+photo.16.author: cattail.sapporo
+photo.16.commitdate: 2018/7/20
+photo.16.link: https://www.instagram.com/cattail.sapporo/
+photo.16.tags: profile, snow
+photo.17: ig://BVPjE7zAtqw/m
+photo.17.author: polarbear_zoo
+photo.17.commitdate: 2018/12/6
+photo.17.link: https://www.instagram.com/polarbear_zoo/
+photo.17.tags: tree
+photo.18: ig://BWbC7cKgvjs/m
+photo.18.author: cattail.sapporo
+photo.18.commitdate: 2018/12/6
+photo.18.link: https://www.instagram.com/cattail.sapporo/
+photo.19: ig://BXnTXNHAhmA/m
+photo.19.author: minatomirai215
+photo.19.commitdate: 2020/4/18
+photo.19.link: https://www.instagram.com/minatomirai215/
+photo.19.tags: portrait, whiskers
+photo.20: ig://BX7ASoAgLqQ/m
+photo.20.author: cattail.sapporo
+photo.20.commitdate: 2018/12/6
+photo.20.link: https://www.instagram.com/cattail.sapporo/
+photo.20.tags: lips, snow
+photo.21: ig://BYBEW__Hywb/m
+photo.21.author: choco401
+photo.21.commitdate: 2018/12/6
+photo.21.link: https://www.instagram.com/choco401/
+photo.22: ig://Bit2f9sl7fq/m
+photo.22.author: craig_craig_craig
+photo.22.commitdate: 2018/12/6
+photo.22.link: https://www.instagram.com/craig_craig_craig/
+photo.22.tags: tail
+photo.23: ig://BloXb4jH1jr/m
+photo.23.author: cattail.sapporo
+photo.23.commitdate: 2018/12/6
+photo.23.link: https://www.instagram.com/cattail.sapporo/
+photo.23.tags: snow
+photo.24: ig://BxXTa-Ogv3T/m
+photo.24.author: cattail.sapporo
+photo.24.commitdate: 2019/5/15
+photo.24.link: https://www.instagram.com/cattail.sapporo/
+photo.24.tags: apple time, lips
+photo.25: ig://B0jiSTJAb8V/m
+photo.25.author: cattail.sapporo
+photo.25.commitdate: 2019/7/30
+photo.25.link: https://www.instagram.com/cattail.sapporo/
+photo.25.tags: portrait, snow, techitechi
+photo.26: ig://B0lgC0QAjm4/m
+photo.26.author: cattail.sapporo
+photo.26.commitdate: 2019/8/2
+photo.26.link: https://www.instagram.com/cattail.sapporo/
+photo.26.tags: apple time, climb, paws, portrait, tongue
+photo.27: ig://B1Q-v1Whvgj/m
+photo.27.author: leonard_redmof
+photo.27.commitdate: 2019/8/19
+photo.27.link: https://www.instagram.com/leonard_redmof/
+photo.27.tags: paws, portrait
+photo.28: ig://B9fX9CdBa-7/m
+photo.28.author: kipekaila
+photo.28.commitdate: 2020/3/12
+photo.28.link: https://www.instagram.com/kipekaila/
+photo.28.tags: bamboo, paws, portrait
+photo.29: ig://CDbTiwzho5p/m
+photo.29.author: minatomirai215
+photo.29.commitdate: 2020/9/8
+photo.29.link: https://www.instagram.com/minatomirai215/
+photo.29.tags: laying down, paws, tail, tree
+species: 2
+studbook.id: 12115
+zoo: 11

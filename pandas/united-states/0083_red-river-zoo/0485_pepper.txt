@@ -1,0 +1,35 @@
+[panda]
+_id: 485
+birthday: 2017/7/23
+birthplace: 82
+children: none
+commitdate: 2018/12/8
+en.name: Pepper
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ペッパー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 486
+location.1: 82, 2017/7/23
+location.2: 83, 2019/3/29
+photo.1: ig://BgWazXyhgba/m
+photo.1.author: edmontonvalleyzoo
+photo.1.commitdate: 2020/1/13
+photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.1.tags: baby, portrait
+photo.2: ig://Bvmggi0gCVx/m
+photo.2.author: sheenalgross
+photo.2.commitdate: 2020/2/7
+photo.2.link: https://www.instagram.com/sheenalgross/
+photo.2.tags: paws, whiskers
+photo.3: ig://B1OacpWDnbH/m
+photo.3.author: mitchellreineke
+photo.3.commitdate: 2020/1/2
+photo.3.link: https://www.instagram.com/mitchellreineke/
+photo.3.tags: peek, profile, tree
+species: 2
+studbook.id: 1730
+zoo: 83

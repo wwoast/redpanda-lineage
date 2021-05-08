@@ -1,0 +1,178 @@
+[panda]
+_id: 237
+birthday: 2015/6/26
+birthplace: 40
+children: none
+commitdate: 2018/7/27
+en.name: Maru
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マル
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 127
+photo.1: ig://BUMyVOUA0ft/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2018/7/28
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: bamboo
+photo.2: ig://BZr0IusgToz/m
+photo.2.author: peek_a_boo00
+photo.2.commitdate: 2020/5/7
+photo.2.link: https://www.instagram.com/peek_a_boo00/
+photo.2.tags: apple time, climb, keeper, paws, portrait
+photo.3: ig://BbCUNSIjT9-/m
+photo.3.author: panda.daisuki
+photo.3.commitdate: 2018/7/28
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: portrait, profile, smile
+photo.4: ig://BbUa74ojqeQ/m
+photo.4.author: panda.daisuki
+photo.4.commitdate: 2020/6/27
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: apple time, keeper, paws, standing
+photo.5: ig://Bh0xPLihfPq/m
+photo.5.author: mana.sendo
+photo.5.commitdate: 2018/7/28
+photo.5.link: https://www.instagram.com/mana.sendo/
+photo.5.tags: apple time, standing
+photo.6: ig://BiszTQ0l6NW/m
+photo.6.author: re_ichimaru
+photo.6.commitdate: 2018/7/28
+photo.6.link: https://www.instagram.com/re_ichimaru/
+photo.6.tags: grumpy, portrait, tail
+photo.7: ig://BoF8AFnllPH/m
+photo.7.author: kmasahon
+photo.7.commitdate: 2018/9/24
+photo.7.link: https://www.instagram.com/kmasahon/
+photo.7.tags: apple time, paws, standing
+photo.8: ig://BpMCE_eF6LA/m
+photo.8.author: kmasahon
+photo.8.commitdate: 2018/10/21
+photo.8.link: https://www.instagram.com/kmasahon/
+photo.8.tags: smile
+photo.9: ig://Bp77NthFp2K/m
+photo.9.author: kmasahon
+photo.9.commitdate: 2018/11/11
+photo.9.link: https://www.instagram.com/kmasahon/
+photo.9.tags: bamboo, nose, tongue
+photo.10: ig://BqO_muzlYBG/m
+photo.10.author: kmasahon
+photo.10.commitdate: 2018/11/16
+photo.10.link: https://www.instagram.com/kmasahon/
+photo.10.tags: apple time, keeper, techitechi
+photo.11: ig://BvQ9E1lljQR/m
+photo.11.author: kmasahon
+photo.11.commitdate: 2019/3/22
+photo.11.link: https://www.instagram.com/kmasahon/
+photo.11.tags: paws, tongue
+photo.12: ig://BvTbcvLFmU0/m
+photo.12.author: kmasahon
+photo.12.commitdate: 2019/3/22
+photo.12.link: https://www.instagram.com/kmasahon/
+photo.12.tags: tree
+photo.13: ig://BzAcQRBhuIA/m
+photo.13.author: kmasahon
+photo.13.commitdate: 2019/6/23
+photo.13.link: https://www.instagram.com/kmasahon/
+photo.13.tags: paws, smile, tail
+photo.14: ig://B0P3oAQhQte/m
+photo.14.author: kmasahon
+photo.14.commitdate: 2019/7/28
+photo.14.link: https://www.instagram.com/kmasahon/
+photo.14.tags: ice treat, paws
+photo.15: ig://B0QTBwLBQpI/m
+photo.15.author: kmasahon
+photo.15.commitdate: 2019/7/28
+photo.15.link: https://www.instagram.com/kmasahon/
+photo.15.tags: apple time, ice treat, paws
+photo.16: ig://B0xlFhPgUc-/m
+photo.16.author: kmasahon
+photo.16.commitdate: 2019/8/23
+photo.16.link: https://www.instagram.com/kmasahon/
+photo.16.tags: apple time, smile
+photo.17: ig://B00L5d-gy6E/m
+photo.17.author: kmasahon
+photo.17.commitdate: 2019/8/23
+photo.17.link: https://www.instagram.com/kmasahon/
+photo.17.tags: peek
+photo.18: ig://B1X3iPJhvbR/m
+photo.18.author: kmasahon
+photo.18.commitdate: 2019/8/23
+photo.18.link: https://www.instagram.com/kmasahon/
+photo.18.tags: smile, tree
+photo.19: ig://B1YTcqNB5j-/m
+photo.19.author: kmasahon
+photo.19.commitdate: 2019/8/23
+photo.19.link: https://www.instagram.com/kmasahon/
+photo.19.tags: laying down, peek, tree, tongue
+photo.20: ig://B3wRniWhLHK/m
+photo.20.author: kmasahon
+photo.20.commitdate: 2019/10/20
+photo.20.link: https://www.instagram.com/kmasahon/
+photo.20.tags: portrait, smile, tongue
+photo.21: ig://B4PRNCoBUzk/m
+photo.21.author: kmasahon
+photo.21.commitdate: 2019/10/31
+photo.21.link: https://www.instagram.com/kmasahon/
+photo.21.tags: paws, tongue, whiskers
+photo.22: ig://B4WGq6wh4vT/m
+photo.22.author: tabechum
+photo.22.commitdate: 2019/11/4
+photo.22.link: https://www.instagram.com/tabechum/
+photo.22.tags: paws, portrait, smile
+photo.23: ig://B4imk1gHbyl/m
+photo.23.author: motohin
+photo.23.commitdate: 2019/11/9
+photo.23.link: https://www.instagram.com/motohin/
+photo.23.tags: mofumofu, portrait, whiskers
+photo.24: ig://B5Xjzhuhiam/m
+photo.24.author: apple_jasmine33
+photo.24.commitdate: 2020/5/23
+photo.24.link: https://www.instagram.com/apple_jasmine33/
+photo.24.tags: portrait
+photo.25: ig://B5pvhhEhyh5/m
+photo.25.author: re_ichimaru
+photo.25.commitdate: 2019/12/9
+photo.25.link: https://www.instagram.com/re_ichimaru/
+photo.25.tags: mofumofu, tail, whiskers
+photo.26: ig://B5sEsiahuUE/m
+photo.26.author: jas_forever_love
+photo.26.commitdate: 2019/12/11
+photo.26.link: https://www.instagram.com/jas_forever_love/
+photo.26.tags: portrait, whiskers
+photo.27: ig://B6YFBjRBPs_/m
+photo.27.author: tabechum
+photo.27.commitdate: 2019/12/29
+photo.27.link: https://www.instagram.com/tabechum/
+photo.27.tags: air tasting, paws, tongue
+photo.28: ig://B6365PJh1xu/m
+photo.28.author: kmasahon
+photo.28.commitdate: 2020/1/11
+photo.28.link: https://www.instagram.com/kmasahon/
+photo.28.tags: tongue, whiskers
+photo.29: ig://B7yEdBthCDf/m
+photo.29.author: apple_jasmine33
+photo.29.commitdate: 2020/2/14
+photo.29.link: https://www.instagram.com/apple_jasmine33/
+photo.29.tags: bamboo, tongue
+photo.30: ig://B70aUgjBNLL/m
+photo.30.author: redpanda_nippon_takashi
+photo.30.commitdate: 2020/2/3
+photo.30.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.30.tags: whiskers
+photo.31: ig://B9IjAgIBESS/m
+photo.31.author: mifko55
+photo.31.commitdate: 2020/3/5
+photo.31.link: https://www.instagram.com/mifko55/
+photo.31.tags: portrait, tail, whiskers
+photo.32: ig://CIupF3AhiPQ/m
+photo.32.author: makimaru18
+photo.32.commitdate: 2021/1/5
+photo.32.link: https://www.instagram.com/makimaru18/
+photo.32.tags: paws, portrait, whiskers
+species: 2
+studbook.id: 15136
+zoo: 40

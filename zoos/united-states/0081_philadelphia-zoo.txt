@@ -1,0 +1,20 @@
+[zoo]
+_id: 81
+commitdate: 2018/11/13
+en.address: 3400 W Girard Ave, Philadelphia, PA 19104
+en.location: Philadelphia, Pennsylvania, USA
+en.name: Philadelphia Zoo
+flag: USA
+language.order: en
+latitude: 39.9734158
+longitude: -75.2334743
+map: https://goo.gl/maps/wE2icXwnpcN2
+photo.1: ig://BRlxIGUlVaT/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.2: ig://B3MpEzoJCno/m
+photo.2.author: philadelphiazoo
+photo.2.commitdate: 2020/1/23
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+website: https://www.philadelphiazoo.org/

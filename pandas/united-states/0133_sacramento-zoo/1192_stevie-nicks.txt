@@ -1,0 +1,32 @@
+[panda]
+_id: 1192
+birthday: 2020/6/24
+birthplace: 133
+children: none
+commitdate: 2020/7/16
+en.name: Stevie Nicks
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: スティーヴィー・ニックス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://CClsKkIHLnv/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2020/7/15
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: baby, dish, newborn, panda bowl, portrait, profile, scale
+photo.2: ig://CE4bW9UpLt7/m
+photo.2.author: sacramentozoo
+photo.2.commitdate: 2020/9/24
+photo.2.link: https://www.instagram.com/sacramentozoo/
+photo.2.tags: baby, dish, newborn
+photo.3: ig://CF2MRPYpw-p/m
+photo.3.author: sacramentozoo
+photo.3.commitdate: 2020/11/8
+photo.3.link: https://www.instagram.com/sacramentozoo/
+photo.3.tags: baby, pumpkin
+species: 1
+zoo: 133

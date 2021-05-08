@@ -1,0 +1,335 @@
+[panda]
+_id: 34
+birthday: 2003/7/5
+birthplace: 16
+children: 48, 72, 42, 85, 35, 46, 19, 199
+commitdate: 2018/6/18
+en.name: Futa
+en.nicknames: Wind
+en.othernames: Fuuta
+gender: m
+jp.name: 風太
+jp.nicknames: none
+jp.othernames: フータ
+language.order: jp, en
+litter: none
+location.1: 16, 2003/7/5
+location.2: 8, 2004/3/30
+photo.1: ig://BFNLryCPix9/m
+photo.1.author: panda.daisuki
+photo.1.commitdate: 2019/5/10
+photo.1.link: https://www.instagram.com/panda.daisuki/
+photo.1.tags: bamboo, keeper, shoots
+photo.2: ig://BWKlnbhAkNN/m
+photo.2.author: mari_neko3
+photo.2.commitdate: 2018/12/22
+photo.2.link: https://www.instagram.com/mari_neko3/
+photo.2.tags: bamboo, portrait
+photo.3: ig://BZs6tC2lR5x/m
+photo.3.author: hanamaru_redpanda
+photo.3.commitdate: 2020/3/13
+photo.3.link: https://www.instagram.com/hanamaru_redpanda/
+photo.3.tags: laying down, portrait, whiskers
+photo.4: ig://Bemg7_DBAm-/m
+photo.4.author: minatomirai215
+photo.4.commitdate: 2018/7/28
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: apple time, portrait, tongue
+photo.5: ig://BfJ4l3AFfFS/m
+photo.5.author: kipekaila
+photo.5.commitdate: 2018/7/17
+photo.5.link: https://www.instagram.com/kipekaila/
+photo.5.tags: portrait
+photo.6: ig://BkJ-HdUAd_E/m
+photo.6.author: s.okano521
+photo.6.commitdate: 2018/10/7
+photo.6.link: https://www.instagram.com/s.okano521/
+photo.6.tags: dish, keeper
+photo.7: ig://Bk09ip8lNSL/m
+photo.7.author: panda.daisuki
+photo.7.commitdate: 2018/7/17
+photo.7.link: https://www.instagram.com/panda.daisuki/
+photo.7.tags: laying down
+photo.8: ig://Bk3VRyDFk-i/m
+photo.8.author: kipekaila
+photo.8.commitdate: 2018/7/28
+photo.8.link: https://www.instagram.com/kipekaila/
+photo.8.tags: sleeping
+photo.9: ig://Bk462fuF-fA/m
+photo.9.author: ck.chie
+photo.9.commitdate: 2018/7/28
+photo.9.link: https://www.instagram.com/ck.chie/
+photo.9.tags: bamboo, eye, portrait
+photo.10: ig://BlAbMerlgh7/m
+photo.10.author: miis_98
+photo.10.commitdate: 2018/7/28
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: eye, peek, portrait
+photo.11: ig://BmgLVarlIPW/m
+photo.11.author: panda.daisuki
+photo.11.commitdate: 2020/12/5
+photo.11.link: https://www.instagram.com/panda.daisuki/
+photo.11.tags: laying down, paws, portrait, sleeping
+photo.12: ig://BnOCrttFtGc/m
+photo.12.author: panda.daisuki
+photo.12.commitdate: 2018/9/5
+photo.12.link: https://www.instagram.com/panda.daisuki/
+photo.12.tags: eye, portrait, tail
+photo.13: ig://BngjJr3lSwp/m
+photo.13.author: ifumoto88
+photo.13.commitdate: 2018/9/10
+photo.13.link: https://www.instagram.com/ifumoto88/
+photo.13.tags: eye, portrait
+photo.14: ig://Bn3LGCsFNGf/m
+photo.14.author: redpanda_nippon_takashi
+photo.14.commitdate: 2018/9/22
+photo.14.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.14.tags: bamboo
+photo.15: ig://BoPvXdjlYze/m
+photo.15.author: rie_panda55
+photo.15.commitdate: 2018/9/30
+photo.15.link: https://www.instagram.com/rie_panda55/
+photo.15.tags: carry, portrait, tail
+photo.16: ig://BpMhaDYFrIs/m
+photo.16.author: ifumoto88
+photo.16.commitdate: 2018/10/21
+photo.16.link: https://www.instagram.com/ifumoto88/
+photo.16.tags: eye, portrait, profile
+photo.17: ig://BpbNz6XFD9j/m
+photo.17.author: ifumoto88
+photo.17.commitdate: 2018/10/27
+photo.17.link: https://www.instagram.com/ifumoto88/
+photo.17.tags: eye, portrait, tongue
+photo.18: ig://BqAB6W6Fpli/m
+photo.18.author: ifumoto88
+photo.18.commitdate: 2018/11/11
+photo.18.link: https://www.instagram.com/ifumoto88/
+photo.18.tags: eye, portrait
+photo.19: ig://BqoQeZBlcE0/m
+photo.19.author: leonard_redmof
+photo.19.commitdate: 2018/11/26
+photo.19.link: https://www.instagram.com/leonard_redmof/
+photo.19.tags: eye, portrait
+photo.20: ig://Bq4lJktlCT5/m
+photo.20.author: ifumoto88
+photo.20.commitdate: 2018/12/4
+photo.20.link: https://www.instagram.com/ifumoto88/
+photo.20.tags: eye, portrait
+photo.21: ig://BrwtdqElcYj/m
+photo.21.author: monmon_redpanda
+photo.21.commitdate: 2018/12/25
+photo.21.link: https://www.instagram.com/monmon_redpanda/
+photo.21.tags: eye, portrait
+photo.22: ig://BsxoIT3FYeK/m
+photo.22.author: ifumoto88
+photo.22.commitdate: 2019/1/19
+photo.22.link: https://www.instagram.com/ifumoto88/
+photo.22.tags: paws, portrait
+photo.23: ig://BtFxFV9l2ei/m
+photo.23.author: ifumoto88
+photo.23.commitdate: 2019/1/27
+photo.23.link: https://www.instagram.com/ifumoto88/
+photo.23.tags: eye, portrait
+photo.24: ig://BtdflyFFz2k/m
+photo.24.author: ifumoto88
+photo.24.commitdate: 2019/2/17
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: apple time, eye, keeper, portrait
+photo.25: ig://BtqbYsHld_E/m
+photo.25.author: ifumoto88
+photo.25.commitdate: 2019/2/19
+photo.25.link: https://www.instagram.com/ifumoto88/
+photo.25.tags: eye, snow
+photo.26: ig://Btqbwgol0aK/m
+photo.26.author: ifumoto88
+photo.26.commitdate: 2019/2/19
+photo.26.link: https://www.instagram.com/ifumoto88/
+photo.26.tags: eye, paws, portrait, snow
+photo.27: ig://BvrGZmjFr4H/m
+photo.27.author: ifumoto88
+photo.27.commitdate: 2019/4/2
+photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: bamboo, portrait, tongue
+photo.28: ig://Bvx5AsYFcXL/m
+photo.28.author: mari_neko3
+photo.28.commitdate: 2019/4/3
+photo.28.link: https://www.instagram.com/mari_neko3/
+photo.28.tags: eye, portrait, tail
+photo.29: ig://Bvy_CH2l_tH/m
+photo.29.author: ifumoto88
+photo.29.commitdate: 2019/4/5
+photo.29.link: https://www.instagram.com/ifumoto88/
+photo.29.tags: eye, portrait, slobber
+photo.30: ig://Bv0W2C5FqZb/m
+photo.30.author: na.mo.pan
+photo.30.commitdate: 2019/4/5
+photo.30.link: https://www.instagram.com/na.mo.pan/
+photo.30.tags: smile
+photo.31: ig://Bv80QKSFyXd/m
+photo.31.author: panda.daisuki
+photo.31.commitdate: 2019/4/7
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: apple time, eye, portrait
+photo.32: ig://Bw6wA3eFATj/m
+photo.32.author: panda.daisuki
+photo.32.commitdate: 2019/7/7
+photo.32.link: https://www.instagram.com/panda.daisuki/
+photo.32.tags: apple time, eye, keeper, portrait
+photo.33: ig://BxKji8wFqJ4/m
+photo.33.author: ifumoto88
+photo.33.commitdate: 2019/5/8
+photo.33.link: https://www.instagram.com/ifumoto88/
+photo.33.tags: eye, portrait
+photo.34: ig://Bzg3krShxkJ/m
+photo.34.author: makimaru18
+photo.34.commitdate: 2019/7/7
+photo.34.link: https://www.instagram.com/makimaru18/
+photo.34.tags: eye, home, portrait
+photo.35: ig://B0nX82DBtHe/m
+photo.35.author: ssc6105
+photo.35.commitdate: 2019/8/2
+photo.35.link: https://www.instagram.com/ssc6105/
+photo.35.tags: eye, mofumofu, paws, smile
+photo.36: ig://B1dqSlaB5AY/m
+photo.36.author: ssc6105
+photo.36.commitdate: 2019/8/24
+photo.36.link: https://www.instagram.com/ssc6105/
+photo.36.tags: eye, portrait
+photo.37: ig://B1fBDJqByOH/m
+photo.37.author: miis_98
+photo.37.commitdate: 2019/8/24
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: eye, laying down, paws, portrait
+photo.38: ig://B2JxXw-BlQF/m
+photo.38.author: ifumoto88
+photo.38.commitdate: 2019/9/9
+photo.38.link: https://www.instagram.com/ifumoto88/
+photo.38.tags: portrait, smile, tongue
+photo.39: ig://B2p0mH_B5UR/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2019/9/27
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: eye, grooming, paws, tail
+photo.40: ig://B2wNlsbhQTb/m
+photo.40.author: grskus_tk
+photo.40.commitdate: 2019/9/27
+photo.40.link: https://www.instagram.com/grskus_tk/
+photo.40.tags: eye, portrait
+photo.41: ig://B3CYMcwhCMP/m
+photo.41.author: ifumoto88
+photo.41.commitdate: 2019/10/10
+photo.41.link: https://www.instagram.com/ifumoto88/
+photo.41.tags: eye, paws, portrait, laying down
+photo.42: ig://B3KE_3OhN8Q/m
+photo.42.author: ifumoto88
+photo.42.commitdate: 2019/10/10
+photo.42.link: https://www.instagram.com/ifumoto88/
+photo.42.tags: laying down, paws, portrait
+photo.43: ig://B3mMvlLBkqM/m
+photo.43.author: sasapan34
+photo.43.commitdate: 2019/10/16
+photo.43.link: https://www.instagram.com/sasapan34/
+photo.43.tags: paws
+photo.44: ig://B4fLjAWB6L3/m
+photo.44.author: ifumoto88
+photo.44.commitdate: 2019/11/18
+photo.44.link: https://www.instagram.com/ifumoto88/
+photo.44.tags: bamboo, eye, paws, portrait
+photo.45: ig://B51nNNnBKXp/m
+photo.45.author: sasapan34
+photo.45.commitdate: 2019/12/27
+photo.45.link: https://www.instagram.com/sasapan34/
+photo.45.tags: smile
+photo.46: ig://B6nS8LoBsWl/m
+photo.46.author: ifumoto88
+photo.46.commitdate: 2019/12/30
+photo.46.link: https://www.instagram.com/ifumoto88/
+photo.46.tags: apple time, paws, portrait
+photo.47: ig://B60SvO5htBc/m
+photo.47.author: ifumoto88
+photo.47.commitdate: 2020/1/10
+photo.47.link: https://www.instagram.com/ifumoto88/
+photo.47.tags: apple time, bamboo, bite, eye, paws, portrait, tail
+photo.48: ig://B7CgIQch9c0/m
+photo.48.author: alto0908
+photo.48.commitdate: 2020/1/23
+photo.48.link: https://www.instagram.com/alto0908/
+photo.48.tags: apple time, keeper, paws, smile
+photo.49: ig://B7Qaes8h0Fn/m
+photo.49.author: kaoru_a358
+photo.49.commitdate: 2020/1/16
+photo.49.link: https://www.instagram.com/kaoru_a358/
+photo.49.tags: eye, paws, whiskers
+photo.50: ig://B7i0XJjBnip/m
+photo.50.author: ifumoto88
+photo.50.commitdate: 2020/2/27
+photo.50.link: https://www.instagram.com/ifumoto88/
+photo.50.tags: itchy, paws, tail
+photo.51: ig://B8Yq8klh_AL/m
+photo.51.author: ifumoto88
+photo.51.commitdate: 2020/2/18
+photo.51.link: https://www.instagram.com/ifumoto88/
+photo.51.tags: portrait
+photo.52: ig://B8YrDvPBEyx/m
+photo.52.author: ifumoto88
+photo.52.commitdate: 2020/2/18
+photo.52.link: https://www.instagram.com/ifumoto88/
+photo.52.tags: apple time, bamboo, mofumofu, paws, portrait, smile, tongue
+photo.53: ig://B9JkM4jBFmo/m
+photo.53.author: alto0908
+photo.53.commitdate: 2020/3/5
+photo.53.link: https://www.instagram.com/alto0908/
+photo.53.tags: grooming, home, paws, tail
+photo.54: ig://B9b3pfMhlrl/m
+photo.54.author: alto0908
+photo.54.commitdate: 2020/3/21
+photo.54.link: https://www.instagram.com/alto0908/
+photo.54.tags: bamboo, flowers
+photo.55: ig://B9v28lchcB-/m
+photo.55.author: ssc6105
+photo.55.commitdate: 2020/3/21
+photo.55.link: https://www.instagram.com/ssc6105/
+photo.55.tags: climb, standing, tail
+photo.56: ig://B-FtbyxBdVl/m
+photo.56.author: kipekaila
+photo.56.commitdate: 2020/3/24
+photo.56.link: https://www.instagram.com/kipekaila/
+photo.56.tags: bamboo, mofumofu, portrait
+photo.57: ig://B_f9Je4n0zI/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2020/8/16
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
+photo.57.tags: close-up, mofumofu
+photo.58: ig://CBsh-aLB-U5/m
+photo.58.author: grskus_tk
+photo.58.commitdate: 2020/6/28
+photo.58.link: https://www.instagram.com/grskus_tk/
+photo.58.tags: grooming, paws, portrait, tail
+photo.59: ig://CD5FknVBZcY/m
+photo.59.author: alto0908
+photo.59.commitdate: 2020/12/5
+photo.59.link: https://www.instagram.com/alto0908/
+photo.59.tags: laying down, paws
+photo.60: ig://CHoxTYRhfdd/m
+photo.60.author: ssc6105
+photo.60.commitdate: 2020/11/18
+photo.60.link: https://www.instagram.com/ssc6105/
+photo.60.tags: paws, tail
+photo.61: ig://CIrv93Uh0VU/m
+photo.61.author: panda.daisuki
+photo.61.commitdate: 2021/1/13
+photo.61.link: https://www.instagram.com/panda.daisuki/
+photo.61.tags: door, portrait, tongue
+photo.62: ig://CJnbL_GB9UH/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2021/1/13
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: paws, tongue
+photo.63: ig://CJqeLwOhR5-/m
+photo.63.author: grskus_tk
+photo.63.commitdate: 2021/1/13
+photo.63.link: https://www.instagram.com/grskus_tk/
+photo.63.tags: tail
+species: 2
+studbook.id: 0366
+zoo: 8

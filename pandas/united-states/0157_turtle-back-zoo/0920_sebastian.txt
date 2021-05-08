@@ -1,0 +1,27 @@
+[panda]
+_id: 920
+birthday: 2002/7/9
+birthplace: 118
+children: none
+commitdate: 2019/7/2
+death: 2020/5/9
+en.name: Sebastian
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: セバスチャン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 118, 2002/7/9
+location.2: 114, 2003/3/24
+location.3: 108, 2006/11/29
+location.4: 157, 2009/12/23
+photo.1: ig://BnhPrRNhEft/m
+photo.1.author: officialturtlebackzoo
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/officialturtlebackzoo/
+photo.1.tags: bamboo, ice treat, portrait, profile
+species: 1
+zoo: 157

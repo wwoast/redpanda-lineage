@@ -1,0 +1,24 @@
+[panda]
+_id: 1067
+birthday: 2005/6/25
+birthplace: 135
+children: unknown
+commitdate: 2019/11/29
+en.name: Yasmin
+en.nicknames: none
+en.othernames: Yasmine
+gender: f
+jp.name: ヤスミン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1068
+location.1: 135, 2005/6/25
+location.2: 197, 2008/3/18
+photo.1: ig://B2JeVUJglmo/m
+photo.1.author: laurenbilboe
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/laurenbilboe/
+photo.1.tags: paws, portrait
+species: 1
+zoo: 197

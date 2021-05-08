@@ -1,0 +1,36 @@
+[panda]
+_id: 496
+birthday: 2015/7/14
+birthplace: 92
+children: none
+commitdate: 2019/11/2
+death: 2017/5/29
+en.name: Roshani
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ロシャーニ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 494
+location.1: 92, 2015/7/14
+location.2: 76, 2017/5/29
+photo.1: ig://BelckFPBXUQ/m
+photo.1.author: trisarahtops137
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/trisarahtops137/
+photo.1.tags: keeper, lunch time, paws
+photo.2: ig://Bf3610zh5Ys/m
+photo.2.author: trisarahtops137
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/trisarahtops137/
+photo.2.tags: laying down, portrait
+photo.3: ig://BsPEhwegvz8/m
+photo.3.author: trisarahtops137
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/trisarahtops137/
+photo.3.tags: portrait, profile, whiskers
+species: 2
+studbook.id: 1546
+zoo: 76

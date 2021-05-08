@@ -1,0 +1,33 @@
+[panda]
+_id: 314
+birthday: 2007/6/14
+birthplace: 9
+children: none
+commitdate: 2018/8/19
+death: 2017/5/16
+en.name: Maki
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 322
+location.1: 9, 2007/6/14
+location.2: 17, 2011/2/3
+location.3: 96, 2011/2/4
+location.4: 68, 2014/7/31
+photo.1: ig://BRT77mLjjtE/m
+photo.1.author: safariniagara
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/safariniagara/
+photo.1.tags: profile, tongue
+photo.2: https://www.codaworry.com/images/rpf/maki-1-safariniagra.jpg
+photo.2.author: gachon_kudo
+photo.2.commitdate: 2019/4/11
+photo.2.link: https://gachon.exblog.jp/10906446/
+photo.2.tags: smile
+species: 2
+studbook.id: 0762
+zoo: 68

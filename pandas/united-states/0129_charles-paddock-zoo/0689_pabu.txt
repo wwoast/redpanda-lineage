@@ -1,0 +1,55 @@
+[panda]
+_id: 689
+birthday: 2017/8/27
+birthplace: 131
+children: none
+commitdate: 2019/3/25
+en.name: Pabu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: パブ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 688
+location.1: 131, 2017/8/27
+location.2: 129, 2018/6/5
+photo.1: ig://B9RzGPwBL9H/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: portrait, whiskers
+photo.2: ig://B9Sy8smh8mB/m
+photo.2.author: wumpwoast
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: laying down, sleeping
+photo.3: ig://B_k0hVzBKt3/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2020/5/1
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: portrait, tongue
+photo.4: ig://CDJgcHSBNNf/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2020/8/15
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: portrait, whiskers
+photo.5: ig://CDW8Q6KhSpm/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2020/8/9
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: portrait, smile, tail
+photo.6: ig://CDjS8rvhCMz/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2020/8/9
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: laying down, tail
+photo.7: ig://CHOZysfFphQ/m
+photo.7.author: charlespaddockzoo
+photo.7.commitdate: 2020/11/5
+photo.7.link: https://www.instagram.com/charlespaddockzoo/
+photo.7.tags: close-up, portrait
+species: 1
+studbook.id: 1736
+zoo: 129

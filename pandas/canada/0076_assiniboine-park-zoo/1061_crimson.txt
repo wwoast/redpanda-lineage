@@ -1,0 +1,32 @@
+[panda]
+_id: 1061
+birthday: 2019/6/16
+birthplace: 76
+children: none
+commitdate: 2019/11/29
+en.name: Crimson
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: クリムゾン
+jp.nicknames: 真紅
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://B2FReGAjQBe/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2019/11/29
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: baby
+photo.2: ig://B2ZWGxZDvam/m
+photo.2.author: assiniboineparkzoo
+photo.2.commitdate: 2019/11/29
+photo.2.link: https://www.instagram.com/assiniboineparkzoo/
+photo.2.tags: baby, laying down, paws
+photo.3: ig://B5JJQ_FD_mo/m
+photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2019/11/29
+photo.3.link: https://www.instagram.com/assiniboineparkzoo/
+photo.3.tags: baby, snow, tail
+species: 2
+zoo: 76

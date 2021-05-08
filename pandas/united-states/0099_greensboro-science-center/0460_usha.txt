@@ -1,0 +1,25 @@
+[panda]
+_id: 460
+birthday: 2015/7/15
+birthplace: 51
+children: none
+commitdate: 2018/11/27
+en.name: Usha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ウシャ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 51, 2015/7/15
+location.2: 99, 2016/4/5
+photo.1: ig://B6dS94tDvnA/m
+photo.1.author: greensborosciencecenter
+photo.1.commitdate: 2020/8/9
+photo.1.link: https://www.instagram.com/greensborosciencecenter/
+photo.1.tags: profile, whiskers
+species: 2
+studbook.id: 1544
+zoo: 99

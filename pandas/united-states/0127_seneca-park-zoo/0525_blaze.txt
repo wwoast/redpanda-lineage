@@ -1,0 +1,72 @@
+[panda]
+_id: 525
+birthday: 2013/7/20
+birthplace: 126
+children: 557, 578
+commitdate: 2019/2/24
+death: 2019/9/16
+en.name: Blaze
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: 炎
+jp.nicknames: none
+jp.othernames: ほのお
+language.order: en, jp
+litter: 652
+location.1: 126, 2013/7/20
+location.2: 114, 2014/10/30
+location.3: 127, 2018/3/15
+photo.1: ig://BrVK_-HFMQt/m
+photo.1.author: senecaparkzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: laying down, paws, smile
+photo.2: ig://BwmXjehF7yh/m
+photo.2.author: senecaparkzoo
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/senecaparkzoo/
+photo.2.tags: bridge, sleeping
+photo.3: ig://BsqH9R_AjbN/m
+photo.3.author: senecaparkzoo
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/senecaparkzoo/
+photo.3.tags: bamboo, tongue
+photo.4: ig://BvwTAiRj5fE/m
+photo.4.author: senecaparkzoo
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.instagram.com/senecaparkzoo/
+photo.4.tags: bamboo, tongue, tree
+photo.5: ig://BqcldxQAmeo/m
+photo.5.author: senecaparkzoo
+photo.5.commitdate: 2019/5/7
+photo.5.link: https://www.instagram.com/senecaparkzoo/
+photo.5.tags: hammock, peek, tail
+photo.6: ig://Bo1pE9wDLwl/m
+photo.6.author: senecaparkzoo
+photo.6.commitdate: 2019/5/7
+photo.6.link: https://www.instagram.com/senecaparkzoo/
+photo.6.tags: bamboo, paws
+photo.7: ig://Bog_TYAgAh0/m
+photo.7.author: senecaparkzoo
+photo.7.commitdate: 2019/5/7
+photo.7.link: https://www.instagram.com/senecaparkzoo/
+photo.7.tags: laying down, paws
+photo.8: ig://BnRAXYsjK-c/m
+photo.8.author: senecaparkzoo
+photo.8.commitdate: 2019/5/7
+photo.8.link: https://www.instagram.com/senecaparkzoo/
+photo.8.tags: hammock, profile
+photo.9: ig://BmyNlt4j0YU/m
+photo.9.author: senecaparkzoo
+photo.9.commitdate: 2019/5/7
+photo.9.link: https://www.instagram.com/senecaparkzoo/
+photo.9.tags: laying down, tail
+photo.10: ig://BzbnJMegpeQ/m
+photo.10.author: b_aimz94
+photo.10.commitdate: 2020/3/18
+photo.10.link: https://www.instagram.com/b_aimz94/
+photo.10.tags: mofumofu, portrait, tongue, yawn
+species: 1
+studbook.id: 1353
+zoo: 127

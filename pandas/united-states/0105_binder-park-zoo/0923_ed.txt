@@ -1,0 +1,20 @@
+[panda]
+_id: 923
+birthday: 1997/6/15
+birthplace: 108
+children: none
+commitdate: 2019/7/2
+death: 2000/1/8
+en.name: Ed
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: エド
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 875
+location.1: 108, 1997/6/15
+location.2: 105, 1998/5/28
+species: 1
+zoo: 105

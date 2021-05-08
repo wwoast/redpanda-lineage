@@ -1,0 +1,30 @@
+[panda]
+_id: 944
+birthday: 2007/7/1
+birthplace: 198
+children: 945
+commitdate: 2019/7/15
+en.name: Maggie
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マギー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 198, 2007/7/1
+location.2: 135, 2009/6/2
+location.3: 140, 2009/11/3
+photo.1: ig://BssZ2OJlETx/m
+photo.1.author: zseabanhamzoo
+photo.1.commitdate: 2019/7/15
+photo.1.link: https://www.instagram.com/zseabanhamzoo/
+photo.1.tags: bamboo, profile
+photo.2: ig://BxuFMiulFIf/m
+photo.2.author: zseabanhamzoo
+photo.2.commitdate: 2019/7/15
+photo.2.link: https://www.instagram.com/zseabanhamzoo/
+photo.2.tags: bamboo, tongue
+species: 1
+zoo: 140

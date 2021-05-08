@@ -1,0 +1,18 @@
+[media]
+_id: media.1.himawari-rifa
+commitdate: 2020/1/17
+panda.tags: 7, 8
+photo.1: ig://B7W99BkhjTz/l
+photo.1.author: _rifa_p
+photo.1.commitdate: 2020/1/17
+photo.1.link: https://www.instagram.com/_rifa_p/
+photo.1.tags: auntie, baby, home
+photo.1.tags.7.location: 880, 380
+photo.1.tags.8.location: 415, 370
+photo.2: ig://B7R_QKphCLZ/l
+photo.2.author: masa_polarbear
+photo.2.commitdate: 2020/1/17
+photo.2.link: https://www.instagram.com/masa_polarbear/
+photo.2.tags: auntie, baby
+photo.2.tags.7.location: 710, 300
+photo.2.tags.8.location: 365, 350

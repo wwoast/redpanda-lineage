@@ -1,0 +1,50 @@
+[panda]
+_id: 1216
+birthday: 2020/6/19
+birthplace: 138
+children: none
+commitdate: 2020/9/3
+en.name: Nilō
+en.nicknames: none
+en.othernames: Nilo
+gender: m
+jp.name: ニロー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+np.name: निलो
+np.nicknames: none
+np.othernames: none
+photo.1: ig://CEWtf-MjreX/m
+photo.1.author: zslwhipsnadezoo
+photo.1.commitdate: 2020/9/3
+photo.1.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.1.tags: baby, newborn, portrait
+photo.2: ig://CEeCgj2Dy3x/m
+photo.2.author: zslwhipsnadezoo
+photo.2.commitdate: 2020/9/4
+photo.2.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.2.tags: baby, portrait
+photo.3: ig://CFKzZBFgUmy/m
+photo.3.author: jobrownphotography
+photo.3.commitdate: 2021/2/20
+photo.3.link: https://www.instagram.com/jobrownphotography/
+photo.3.tags: baby, home, portrait, white face
+photo.4: ig://CFmEv1tAaW_/m
+photo.4.author: zslwhipsnadezoo
+photo.4.commitdate: 2020/10/1
+photo.4.link: https://www.instagram.com/zslwhipsnadezoo/
+photo.4.tags: baby, home, portrait
+photo.5: ig://CFnA5utglC9/m
+photo.5.author: jobrownphotography
+photo.5.commitdate: 2020/10/2
+photo.5.link: https://www.instagram.com/jobrownphotography/
+photo.5.tags: baby, home, laying down, portrait
+photo.6: ig://CGVJCsTAQGx/m
+photo.6.author: jobrownphotography
+photo.6.commitdate: 2020/10/16
+photo.6.link: https://www.instagram.com/jobrownphotography/
+photo.6.tags: baby, close-up, door, home, paws, peek, portrait
+species: 2
+zoo: 135

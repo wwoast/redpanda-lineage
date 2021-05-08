@@ -1,0 +1,53 @@
+[panda]
+_id: 695
+birthday: 2005/6/12
+birthplace: 109
+children: 820
+commitdate: 2019/9/18
+en.name: Hunter
+en.nicknames: none
+en.oldnames: Pele
+en.othernames: none
+gender: f
+jp.name: ハンター
+jp.nicknames: none
+jp.oldnames: ペレ
+jp.othernames: none
+language.order: en, jp
+litter: 696
+location.1: 109, 2005/6/12
+location.2: 144, 2012/11/28
+location.3: 180, 2014/12/4
+photo.1: ig://d69rBkykHZ/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/5/11
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: laying down, paws, white face
+photo.2: ig://BVQg_etl2_3/m
+photo.2.author: sanfranciscozoo
+photo.2.commitdate: 2019/9/18
+photo.2.link: https://www.instagram.com/sanfranciscozoo/
+photo.2.tags: flowers, white face
+photo.3: ig://Bj8EXoajpvK/m
+photo.3.author: sanfranciscozoo
+photo.3.commitdate: 2019/9/18
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+photo.3.tags: paws, white face
+photo.4: ig://Bur90kkgC9N/m
+photo.4.author: sanfranciscozoo
+photo.4.commitdate: 2019/9/18
+photo.4.link: https://www.instagram.com/sanfranciscozoo/
+photo.4.tags: laying down, mofumofu, tail
+photo.5: ig://B2rcBoeB9Yh/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2019/9/28
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: bamboo, portrait, profile, white face
+photo.6: ig://CA8IZ5FBnRz/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2020/6/5
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: portrait, white face
+species: 1
+studbook.id: 0507
+zoo: 180

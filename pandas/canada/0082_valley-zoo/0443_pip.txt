@@ -1,0 +1,49 @@
+[panda]
+_id: 443
+birthday: 2008/5/26
+birthplace: 82
+children: 423, 434, 481, 485, 486
+commitdate: 2018/11/24
+death: 2020/1/8
+en.name: Pip
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ピップ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 383
+photo.1: ig://Bi7L-TqDlQJ/m
+photo.1.author: edmontonvalleyzoo
+photo.1.commitdate: 2018/12/8
+photo.1.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.1.tags: portrait
+photo.2: ig://BZHaifDApAe/m
+photo.2.author: buildingourzoo
+photo.2.commitdate: 2019/4/8
+photo.2.link: https://www.instagram.com/buildingourzoo/
+photo.2.tags: portrait, smile, tongue
+photo.3: ig://BqulPf2D-XO/m
+photo.3.author: buildingourzoo
+photo.3.commitdate: 2019/4/8
+photo.3.link: https://www.instagram.com/buildingourzoo/
+photo.3.tags: laying down
+photo.4: ig://BRKHmiFD1GJ/m
+photo.4.author: buildingourzoo
+photo.4.commitdate: 2019/4/8
+photo.4.link: https://www.instagram.com/buildingourzoo/
+photo.4.tags: portrait, whiskers
+photo.5: ig://B7RCZi8g1Ek/m
+photo.5.author: edmontonvalleyzoo
+photo.5.commitdate: 2020/1/16
+photo.5.link: https://www.instagram.com/edmontonvalleyzoo/
+photo.5.tags: portrait, snow, tongue, whiskers
+photo.6: ig://B7RIqTnAvdT/m
+photo.6.author: sheenalgross
+photo.6.commitdate: 2020/2/7
+photo.6.link: https://www.instagram.com/sheenalgross/
+photo.6.tags: portrait, smile, tongue, whiskers
+species: 2
+studbook.id: 0822
+zoo: 82

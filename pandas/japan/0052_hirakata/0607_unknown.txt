@@ -1,0 +1,19 @@
+[panda]
+_id: 607
+birthday: 2000/6/30
+birthplace: 52
+children: none
+commitdate: 2019/3/19
+death: 2001/5/31
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 334
+species: 2
+studbook.id: 0092
+zoo: 52

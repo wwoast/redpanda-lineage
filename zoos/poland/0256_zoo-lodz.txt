@@ -1,0 +1,15 @@
+[zoo]
+_id: 256
+commitdate: 2020/8/2
+en.address: Konstantynowska 8/10, 94-303 Lodz, Poland
+en.location: Lodz, Poland
+en.name: Lodz Zoo
+flag: Poland
+language.order: pl, en
+latitude: 51.7637468
+longitude: 19.4058675
+map: https://goo.gl/maps/9fb7HorSUqth5w5L7
+pl.address: Konstantynowska 8/10, 94-303 Łódź, Poland
+pl.location: Łódź, Poland
+pl.name: Zoo Łódź
+website: https://www.zoo.lodz.pl/

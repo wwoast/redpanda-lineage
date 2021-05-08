@@ -1,0 +1,21 @@
+[zoo]
+_id: 158
+commitdate: 2019/3/19
+en.address: 1200 W Washington St, Indianapolis, IN 46222, USA
+en.location: Indianapolis, Indiana, USA
+en.name: Indianapolis Zoo
+flag: USA
+language.order: en
+latitude: 39.767442
+longitude: -86.1829187
+map: https://goo.gl/maps/XzhaiFMGTE42
+photo.1: ig://BUHp8RUDTY-/m
+photo.1.author: indianapoliszoo
+photo.1.commitdate: 2020/7/1
+photo.1.link: https://www.instagram.com/indianapoliszoo/
+photo.2: ig://B-cyi0KJ4pw/m
+photo.2.author: indianapoliszoo
+photo.2.commitdate: 2020/7/1
+photo.2.link: https://www.instagram.com/indianapoliszoo/
+photo.2.tags: profile
+website: https://www.indianapoliszoo.com

@@ -1,0 +1,19 @@
+[panda]
+_id: 773
+birthday: 1993/6/30
+birthplace: 13
+children: 333
+commitdate: 2019/3/31
+death: 2011/8/28
+en.name: Hisashi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヒサシー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+species: 2
+studbook.id: 93115
+zoo: 13

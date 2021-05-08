@@ -1,0 +1,30 @@
+[panda]
+_id: 444
+birthday: 2015/6/22
+birthplace: 94
+children: none
+commitdate: 2018/11/24
+en.name: Madeline
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マッドライン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 433
+location.1: 94, 2015/6/22
+location.2: 43, 2016/4/28
+photo.1: ig://BTmJT9FhucS/m
+photo.1.author: columbuszoo
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/columbuszoo/
+photo.1.tags: profile, smile
+photo.2: ig://BxncIDjhLwJ/m
+photo.2.author: yanliang_24
+photo.2.commitdate: 2020/11/6
+photo.2.link: https://www.instagram.com/yanliang_24/
+photo.2.tags: portrait
+species: 2
+studbook.id: 1524
+zoo: 43

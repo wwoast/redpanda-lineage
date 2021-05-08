@@ -1,0 +1,22 @@
+[panda]
+_id: 934
+birthday: 1997/6/26
+birthplace: 48
+children: 908, 909, 498, 605, 910
+commitdate: 2019/7/14
+death: 2011/4/17
+en.name: Gordi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ゴルディ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 935
+location.1: 48, 1997/6/26
+location.2: 124, 2002/2/28
+location.3: 92, 2003/11/20
+location.4: 2006/10/7
+species: 1
+zoo: 107

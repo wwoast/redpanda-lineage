@@ -1,0 +1,21 @@
+[panda]
+_id: 81
+birthday: 2000/7/4
+birthplace: 6
+children: 1245, 1242, 1243, 1244, 21, 31, 82, 54, 291, 487, 104, 108, 86, 87, 186, 1246, 88
+commitdate: 2018/6/23
+death: 2019/6/25
+en.name: Kiki
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: キキ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 476
+location.1: 6, 2000/7/4
+location.2: 10, 2002/1/15
+species: 2
+studbook.id: 0096
+zoo: 10

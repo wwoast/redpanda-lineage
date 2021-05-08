@@ -1,0 +1,45 @@
+[panda]
+_id: 477
+birthday: 2004/6/28
+birthplace: 46
+children: none
+commitdate: 2018/12/4
+en.name: Aporo
+en.nicknames: none
+en.othernames: 
+gender: m
+jp.name: アポロ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 135
+location.1: 46, 2004/6/28
+location.2: 78, 2005/4/25
+photo.1: ig://BxNHclZlXKt/m
+photo.1.author: redpanda_pstommy
+photo.1.commitdate: 2019/5/8
+photo.1.link: https://www.instagram.com/redpanda_pstommy/
+photo.1.tags: portrait
+photo.2: ig://Bt0qXvql6ja/m
+photo.2.author: chefneko
+photo.2.commitdate: 2019/5/8
+photo.2.link: https://www.instagram.com/chefneko/
+photo.2.tags: tongue
+photo.3: ig://8wrAPrvl2c/m
+photo.3.author: seoulgrandpark
+photo.3.commitdate: 2019/5/8
+photo.3.link: https://www.instagram.com/seoulgrandpark/
+photo.3.tags: apple time, portrait
+photo.4: ig://BvTKpuOnYCD/m
+photo.4.author: seoulgrandpark
+photo.4.commitdate: 2019/5/8
+photo.4.link: https://www.instagram.com/seoulgrandpark/
+photo.4.tags: portrait, profile
+photo.5: ig://vl6dqhiJ_0/m
+photo.5.author: gmy_color_of_life
+photo.5.commitdate: 2019/5/9
+photo.5.link: https://www.instagram.com/gmy_color_of_life/
+photo.5.tags: portrait
+species: 2
+studbook.id: 0464
+zoo: 78

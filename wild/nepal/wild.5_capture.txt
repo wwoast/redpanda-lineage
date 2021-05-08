@@ -1,0 +1,11 @@
+[wild]
+_id: wild.5
+commitdate: 2019/1/1
+en.address: unknown
+en.location: Nepal
+en.name: Captured Wild Animal
+flag: Nepal
+jp.address: unknown
+jp.location: ネパール
+jp.name: 捕獲された野生動物
+language.order: en

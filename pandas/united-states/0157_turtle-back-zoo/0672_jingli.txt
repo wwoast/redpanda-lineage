@@ -1,0 +1,60 @@
+[panda]
+_id: 672
+birthday: 2006/6/21
+birthplace: 115
+children: none
+commitdate: 2019/3/24
+en.name: Jing-Li
+en.nicknames: none
+en.othernames: Jing Li, Jingli, Xing-Li, Xingli
+gender: f
+jp.name: ジンリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 115, 2006/6/21
+location.2: 81, 2007/11/27
+location.3: 157, 2013/11/13
+photo.1: ig://0qk5dWq0Ti/m
+photo.1.author: officialturtlebackzoo
+photo.1.commitdate: 2020/3/3
+photo.1.link: https://www.instagram.com/officialturtlebackzoo/
+photo.1.tags: bamboo, smile
+photo.2: ig://BiEpKxMhS93/m
+photo.2.author: officialturtlebackzoo
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/officialturtlebackzoo/
+photo.2.tags: bamboo, laying down, portrait
+photo.3: ig://Brq5ZbshRMq/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/3/3
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: laying down, portrait, white face
+photo.4: ig://BxlOl6tD0et/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/3/3
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: nose, portrait, white face
+photo.5: ig://B2rjdHzHEdc/m
+photo.5.author: officialturtlebackzoo
+photo.5.commitdate: 2020/3/3
+photo.5.link: https://www.instagram.com/officialturtlebackzoo/
+photo.5.tags: nose, peek
+photo.6: ig://B2rwBrOHwEH/m
+photo.6.author: officialturtlebackzoo
+photo.6.commitdate: 2020/3/3
+photo.6.link: https://www.instagram.com/officialturtlebackzoo/
+photo.6.tags: peek, tree
+photo.7: ig://B2r7pSkHuo6/m
+photo.7.author: officialturtlebackzoo
+photo.7.commitdate: 2020/3/3
+photo.7.link: https://www.instagram.com/officialturtlebackzoo/
+photo.8: ig://B8bznYEpj5E/m
+photo.8.author: rossifari
+photo.8.commitdate: 2020/3/3
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: portrait, profile, whiskers
+species: 1
+studbook.id: 0611
+zoo: 157

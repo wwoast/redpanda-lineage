@@ -1,0 +1,36 @@
+[panda]
+_id: 522
+birthday: 2012/6/22
+birthplace: 124
+children: 868, 869
+commitdate: 2019/2/24
+en.name: Sherman
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: シャーマン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 922
+location.1: 124, 2012/6/22
+location.2: 114, 2013/5/6
+location.3: 125, 2018/1/6
+photo.1: ig://BkgE6ugj2BF/m
+photo.1.author: brandywinezoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/brandywinezoo/
+photo.1.tags: profile
+photo.2: ig://B6eV_AkFEwD/m
+photo.2.author: brandywinezoo
+photo.2.commitdate: 2020/1/25
+photo.2.link: https://www.instagram.com/brandywinezoo/
+photo.2.tags: bamboo, paws, whiskers
+photo.3: ig://CAOnGu9F6lH/m
+photo.3.author: brandywinezoo
+photo.3.commitdate: 2020/9/6
+photo.3.link: https://www.instagram.com/brandywinezoo/
+photo.3.tags: itchy, paws, tail, whiskers
+species: 1
+studbook.id: 1203
+zoo: 125

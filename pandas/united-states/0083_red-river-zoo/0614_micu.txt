@@ -1,0 +1,30 @@
+[panda]
+_id: 614
+birthday: 2017/6/25
+birthplace: 65
+children: none
+commitdate: 2019/3/19
+en.name: Micu
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ミク
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2017/6/25
+location.2: 83, 2018/5/10
+photo.1: ig://BYLbjikhAAO/m
+photo.1.author: cincinnatizoo
+photo.1.commitdate: 2020/1/2
+photo.1.link: https://www.instagram.com/cincinnatizoo/
+photo.1.tags: baby, portrait, tail
+photo.2: ig://BZ1E544B5hR/m
+photo.2.author: cincinnatizoo
+photo.2.commitdate: 2020/1/2
+photo.2.link: https://www.instagram.com/cincinnatizoo/
+photo.2.tags: baby, portrait, profile, whiskers
+species: 2
+studbook.id: 1722
+zoo: 83

@@ -1,0 +1,27 @@
+[panda]
+_id: 1167
+birthday: 2013/7/2
+birthplace: 214
+children: unknown
+commitdate: 2020/5/18
+en.name: Soi-Nyi
+en.nicknames: none
+en.othernames: Soi Nyi, Soinyi
+gender: m
+jp.name: ソイニー
+jp.nicknames: none
+jp.othernames: none
+language.order: pl, en, jp
+litter: 1166
+location.1: 214, 2013/7/2
+location.2: 250, 2014/9/10
+photo.1: ig://BWpeP_BhBZZ/m
+photo.1.author: e_r_a_photography
+photo.1.commitdate: 2020/5/18
+photo.1.link: https://www.instagram.com/e_r_a_photography/
+photo.1.tags: portrait, profile, tree
+species: 1
+video.1: https://youtu.be/R0-Zv6tuoII
+video.1.author: RedPandaVision
+video.1.link: https://www.youtube.com/channel/UCZKY-7nUKSQe_Ftbic-yzjQ
+zoo: 250

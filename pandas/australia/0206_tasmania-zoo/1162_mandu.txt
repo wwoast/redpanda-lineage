@@ -1,0 +1,52 @@
+[panda]
+_id: 1162
+birthday: 2015/12/10
+birthplace: 207
+children: unknown
+commitdate: 2020/5/11
+en.name: Mandu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: マヌドゥ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: 1161
+location.1: 207, 2015/12/10
+location.2: 206, 2017/7/4
+np.name: माण्डु
+np.nicknames: none
+np.othernames: none
+photo.1: ig://BdexIoVl5-7/m
+photo.1.author: laura.edwardphotography
+photo.1.commitdate: 2020/7/3
+photo.1.link: https://www.instagram.com/laura.edwardphotography/
+photo.1.tags: portrait, smile
+photo.2: ig://Bdrxj2Ql0Du/m
+photo.2.author: laura.edwardphotography
+photo.2.commitdate: 2020/7/3
+photo.2.link: https://www.instagram.com/laura.edwardphotography/
+photo.2.tags: close-up, portrait, smile, whiskers
+photo.3: ig://Ber-HYAFA9n/m
+photo.3.author: laura.edwardphotography
+photo.3.commitdate: 2020/7/3
+photo.3.link: https://www.instagram.com/laura.edwardphotography/
+photo.3.tags: portrait
+photo.4: ig://BnvSY_enV57/m
+photo.4.author: tasmania_zoo
+photo.4.commitdate: 2020/7/3
+photo.4.link: https://www.instagram.com/tasmania_zoo/
+photo.4.tags: paws, peek, portrait, tree
+photo.5: ig://Bzwmu3iDS7O/m
+photo.5.author: moseslim.pics
+photo.5.commitdate: 2020/7/3
+photo.5.link: https://www.instagram.com/moseslim.pics/
+photo.5.tags: portrait, profile, tree
+photo.6: ig://B9GbOJcH8Qv/m
+photo.6.author: snaptoitphotographyy
+photo.6.commitdate: 2020/7/3
+photo.6.link: https://www.instagram.com/snaptoitphotographyy/
+photo.6.tags: portrait, whiskers
+species: 1
+zoo: 206

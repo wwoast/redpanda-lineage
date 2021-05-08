@@ -1,0 +1,52 @@
+[panda]
+_id: 1082
+birthday: 2019/7/6
+birthplace: 92
+children: none
+commitdate: 2019/12/29
+en.name: Xiaobo
+en.nicknames: none
+en.othernames: Xia-Bo, Xiabo, Xiao-Bo
+gender: m
+jp.name: シャオボ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1083
+photo.1: ig://B3Zm2HansLU/m
+photo.1.author: uticazoo
+photo.1.commitdate: 2020/2/23
+photo.1.link: https://www.instagram.com/uticazoo/
+photo.1.tags: baby, bamboo
+photo.2: ig://B4Gu3XWhxhe/m
+photo.2.author: uticazoo
+photo.2.commitdate: 2020/2/23
+photo.2.link: https://www.instagram.com/uticazoo/
+photo.2.tags: baby, portrait, pumpkin
+photo.3: ig://B4OgBZlhvAG/m
+photo.3.author: uticazoo
+photo.3.commitdate: 2020/2/23
+photo.3.link: https://www.instagram.com/carsontheredpanda/
+photo.3.tags: baby, paws, portrait
+photo.4: ig://B6bq2XFHrQw/m
+photo.4.author: uticazoo
+photo.4.commitdate: 2020/2/23
+photo.4.link: https://www.instagram.com/uticazoo/
+photo.4.tags: baby, toys
+photo.5: ig://B6zKQtpgWQy/m
+photo.5.author: colleenhaley14
+photo.5.commitdate: 2020/2/23
+photo.5.link: https://www.instagram.com/colleenhaley14/
+photo.5.tags: baby, portrait, profile
+photo.6: ig://CB8PMj6nVD5/m
+photo.6.author: uticazoo
+photo.6.commitdate: 2020/7/3
+photo.6.link: https://www.instagram.com/uticazoo/
+photo.6.tags: toys
+photo.7: ig://CDjs7rAnq2A/m
+photo.7.author: uticazoo
+photo.7.commitdate: 2020/8/15
+photo.7.link: https://www.instagram.com/uticazoo/
+photo.7.tags: paws, smile
+species: 2
+zoo: 92

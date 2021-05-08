@@ -1,0 +1,15 @@
+[zoo]
+_id: 247
+commitdate: 2020/5/6
+en.address: 57 Rue Cuvier, 75005 Paris, France
+en.location: Paris, France
+en.name: Ménagerie, le zoo du Jardin des Plantes
+flag: France
+fr.address: 57 Rue Cuvier, 75005 Paris, France
+fr.location: Paris, France
+fr.name: Ménagerie, the zoo of the Jardin des Plantes
+language.order: fr, en
+latitude: 48.8453312
+longitude: 2.3554294
+map: https://goo.gl/maps/staFU88NvAL45syj6
+website: https://www.jardindesplantesdeparis.fr/fr/programme/galeries-jardins-zoo-bibliotheques/menagerie-zoo-jardin-plantes-2765

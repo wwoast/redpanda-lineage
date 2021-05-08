@@ -1,0 +1,18 @@
+[panda]
+_id: 1278
+birthday: unknown
+birthplace: unknown
+children: unknown
+commitdate: 2021/4/11
+en.name: Nepal
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ネパール
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 184, unknown
+location.2: 279, 2017/3/21
+species: 1
+zoo: 279

@@ -1,0 +1,22 @@
+[panda]
+_id: 898
+birthday: 2006/6/6
+birthplace: 118
+children: none
+commitdate: 2019/7/2
+death: 2016/12/5
+en.name: Damien
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ダミア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 509, 899
+location.1: 118, 2006/6/6
+location.2: 112, 2006/12/22
+location.3: 160, 2008/1/10
+species: 1
+studbook.id: 0602
+zoo: 160

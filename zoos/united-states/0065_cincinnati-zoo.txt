@@ -1,0 +1,16 @@
+[zoo]
+_id: 65
+commitdate: 2018/8/18
+en.address: 3400 Vine St, Cincinnati, OH 45220
+en.location: Cincinnati, OH, USA
+en.name: Cincinnati Zoo and Botanical Garden
+flag: USA
+language.order: en
+latitude: 39.1445771
+longitude: -84.5108057
+map: https://goo.gl/maps/N3XtwSMHnx22
+photo.1: ig://BrJw4pvloHb/m
+photo.1.author: sarriej3199
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/sarriej3199/
+website: http://cincinnatizoo.org/

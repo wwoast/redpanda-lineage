@@ -1,0 +1,53 @@
+[panda]
+_id: 642
+birthday: 2010/6/27
+birthplace: 104
+children: none
+commitdate: 2019/3/19
+en.name: Princess Lily
+en.nicknames: none
+en.othernames: Lily, Princess
+gender: f
+jp.name: リリィ姫
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 643, 644
+location.1: 104, 2010/6/27
+location.2: 95, 2011/4/27
+location.3: 116, 2014/12/16
+location.4: 164, 2017/11/4
+location.5: 165, 2018/3/12
+photo.1: ig://KtfpsCxEbA/m
+photo.1.author: sandiegozoo
+photo.1.commitdate: 2019/10/26
+photo.1.link: https://www.instagram.com/sandiegozoo/
+photo.1.tags: portrait, white face
+photo.2: ig://BTCBf8KB4Ca/m
+photo.2.author: millerparkzoo
+photo.2.commitdate: 2019/3/19
+photo.2.link: https://www.instagram.com/millerparkzoo/
+photo.2.tags: paws, profile, white face
+photo.3: ig://Btjpi85HCeg/m
+photo.3.author: hoglezoo
+photo.3.commitdate: 2020/9/26
+photo.3.link: https://www.instagram.com/hoglezoo/
+photo.3.tags: snow, tail, white face
+photo.4: ig://Btpk_wunh2G/m
+photo.4.author: hoglezoo
+photo.4.commitdate: 2020/9/26
+photo.4.link: https://www.instagram.com/hoglezoo/
+photo.4.tags: bamboo, portrait, snow, vidoelink, white face
+photo.5: ig://BxaQFnQn_x0/m
+photo.5.author: hoglezoo
+photo.5.commitdate: 2020/9/26
+photo.5.link: https://www.instagram.com/hoglezoo/
+photo.5.tags: laying down, portrait, white face
+photo.6: ig://ByS1ZzAJ8N8/m
+photo.6.author: hoglezoo
+photo.6.commitdate: 2020/9/26
+photo.6.link: https://www.instagram.com/hoglezoo/
+photo.6.tags: paws, tongue
+species: 1
+studbook.id: 1026
+zoo: 165

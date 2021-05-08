@@ -1,0 +1,16 @@
+[zoo]
+_id: 97
+commitdate: 2018/11/24
+en.address: 1000 Elmwood Ave, Providence, RI 02907
+en.location: Providence, Rhode Island, USA
+en.name: Roger Williams Park Zoo
+flag: USA
+language.order: en
+latitude: 41.7903783
+longitude: -71.4235683
+map: https://goo.gl/maps/5Nw7c3CJH4r
+photo.1: ig://ubojzMKZVd/m
+photo.1.author: rwpzoo
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/rwpzoo/
+website: http://www.rwpzoo.org/

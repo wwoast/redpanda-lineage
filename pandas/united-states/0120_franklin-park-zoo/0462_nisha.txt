@@ -1,0 +1,40 @@
+[panda]
+_id: 462
+birthday: 2017/6/13
+birthplace: 51
+children: none
+commitdate: 2018/11/27
+en.name: Nisha
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ニシヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 51, 2017/6/13
+location.2: 120, 2018/10/1
+photo.1: ig://BpsV4qSBlQL/m
+photo.1.author: martyna.chomiuk
+photo.1.commitdate: 2018/11/27
+photo.1.link: https://www.instagram.com/martyna.chomiuk/
+photo.1.tags: apple time, bamboo, snow
+photo.2: ig://B2rIfb8AIBe/m
+photo.2.author: artistic_zebra_photography
+photo.2.commitdate: 2019/10/25
+photo.2.link: https://www.instagram.com/artistic_zebra_photography/
+photo.2.tags: laying down, sleeping
+photo.3: ig://B5gDDs2p-z1/m
+photo.3.author: rossifari
+photo.3.commitdate: 2020/1/16
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: bamboo, portrait, profile
+photo.4: ig://B5x8-XspJS9/m
+photo.4.author: rossifari
+photo.4.commitdate: 2020/1/16
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: grumpy, whiskers
+species: 2
+studbook.id: 1703
+zoo: 120

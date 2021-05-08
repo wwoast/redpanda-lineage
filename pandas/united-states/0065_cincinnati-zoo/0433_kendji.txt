@@ -1,0 +1,55 @@
+[panda]
+_id: 433
+birthday: 2015/6/22
+birthplace: 94
+children: 614, 1191
+commitdate: 2018/11/23
+en.name: Kendji
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ケンジ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 444
+location.1: 94, 2015/6/22
+location.2: 65, 2016/10/27
+photo.1: ig://Boy_nShlwFW/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile, tree
+photo.2: ig://B2ckuipJO9v/m
+photo.2.author: rossifari
+photo.2.commitdate: 2019/10/23
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: laying down, paws, tree
+photo.3: ig://B2sCcEapZAn/m
+photo.3.author: rossifari
+photo.3.commitdate: 2019/12/5
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: portrait, smile, whiskers
+photo.4: ig://B6tXRbaB0s0/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/12/31
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: nose, portrait, whiskers
+photo.5: ig://B6uI4kYhSeE/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: bridge, peek, whiskers
+photo.6: ig://B-GAPwfD82L/m
+photo.6.author: cincinnatizoo
+photo.6.commitdate: 2020/7/14
+photo.6.link: https://www.instagram.com/cincinnatizoo/
+photo.6.tags: standing, whiskers
+photo.7: ig://CFs4P6-H_de/m
+photo.7.author: cincinnatizoo
+photo.7.commitdate: 2020/11/8
+photo.7.link: https://www.instagram.com/cincinnatizoo/
+photo.7.tags: laying down, paws, portrait, sleeping, tree
+species: 2
+studbook.id: 1525
+zoo: 65

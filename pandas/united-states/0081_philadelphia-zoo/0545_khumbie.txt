@@ -1,0 +1,97 @@
+[panda]
+_id: 545
+birthday: 2014/6/14
+birthplace: 141
+children: 543, 544
+commitdate: 2019/3/2
+en.name: Khumbie
+en.nicknames: none
+en.othernames: Khumbi
+gender: m
+jp.name: クンビー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 641
+location.1: 141, 2014/6/14
+location.2: 81, 2015/11/23
+photo.1: ig://BYYbKs4lWnc/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2019/4/6
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: bamboo, paws, profile, tail
+photo.2: ig://BeZEpbxA74R/m
+photo.2.author: philadelphiazoo
+photo.2.commitdate: 2019/4/6
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.3: ig://Bru2chdjwbx/m
+photo.3.author: philadelphiazoo
+photo.3.commitdate: 2020/1/22
+photo.3.link: https://www.instagram.com/philadelphiazoo/
+photo.3.tags: bamboo, portrait, smile
+photo.4: ig://BsDXfXqFqhv/m
+photo.4.author: philadelphiazoo
+photo.4.commitdate: 2019/4/6
+photo.4.link: https://www.instagram.com/philadelphiazoo/
+photo.5: ig://BtDwbZWFSHM/m
+photo.5.author: philadelphiazoo
+photo.5.commitdate: 2019/4/6
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: portrait, snow, whiskers
+photo.6: ig://Btj6NfZhIJS/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/8/9
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: portrait, whiskers
+photo.7: ig://BuFiLMhhSnG/m
+photo.7.author: rossifari
+photo.7.commitdate: 2020/8/9
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: air tasting, bamboo, portrait, tongue
+photo.8: ig://BusBQMmBIDb/m
+photo.8.author: rossifari
+photo.8.commitdate: 2019/3/10
+photo.8.link: https://www.instagram.com/rossifari/
+photo.9: ig://BwDPT2WBnXs/m
+photo.9.author: rossifari
+photo.9.commitdate: 2020/8/9
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: apple time, paws, portrait
+photo.10: ig://BxvU2D5jPNO/m
+photo.10.author: rossifari
+photo.10.commitdate: 2019/5/22
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: sleeping
+photo.11: ig://ByulqZfoVXT/m
+photo.11.author: philadelphiazoo
+photo.11.commitdate: 2020/1/22
+photo.11.link: https://www.instagram.com/philadelphiazoo/
+photo.11.tags: portrait, whiskers
+photo.12: ig://Byvp6BvJbbn/m
+photo.12.author: rossifari
+photo.12.commitdate: 2019/10/8
+photo.12.link: https://www.instagram.com/rossifari/
+photo.12.tags: white face
+photo.13: ig://B8txkz4JYln/m
+photo.13.author: rossifari
+photo.13.commitdate: 2020/8/9
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: white face
+photo.14: ig://B_Xbn1fjKVn/m
+photo.14.author: rossifari
+photo.14.commitdate: 2020/8/9
+photo.14.link: https://www.instagram.com/rossifari/
+photo.14.tags: climb, close-up, portrait, white face
+photo.15: ig://CDGpMgbgEL5/m
+photo.15.author: rossifari
+photo.15.commitdate: 2020/8/9
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: close-up, portrait, smile, whiskers
+photo.16: ig://CDbPj1KgxG1/m
+photo.16.author: rossifari
+photo.16.commitdate: 2020/8/5
+photo.16.link: https://www.instagram.com/rossifari/
+photo.16.tags: portrait, whiskers
+species: 1
+studbook.id: 1415
+zoo: 81

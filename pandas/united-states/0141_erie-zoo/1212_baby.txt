@@ -1,0 +1,19 @@
+[panda]
+_id: 1212
+birthday: 2020/7/8
+birthplace: 141
+children: none
+commitdate: 2020/8/12
+death: 2020/8/1
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1211
+species: 1
+uncertainty: death exact date
+zoo: 141

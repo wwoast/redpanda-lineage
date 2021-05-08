@@ -1,0 +1,71 @@
+[panda]
+_id: 316
+birthday: 2011/7/6
+birthplace: 71
+children: none
+commitdate: 2018/8/22
+en.name: Perry
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ペリー
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 700
+location.1: 71, 2011/7/6
+location.2: 72, 2012/2/21
+location.3: 59, 2014/5/28
+photo.1: ig://Bbbl3U0FKT1/m
+photo.1.author: hanamaru_redpanda
+photo.1.commitdate: 2018/12/23
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: laying down, profile, smile
+photo.2: ig://BdkaaCWFfgk/m
+photo.2.author: hanamaru_redpanda
+photo.2.commitdate: 2018/12/23
+photo.2.link: https://www.instagram.com/hanamaru_redpanda/
+photo.2.tags: bamboo
+photo.3: ig://BeT2bhdhaGj/m
+photo.3.author: miis_98
+photo.3.commitdate: 2019/10/8
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: paws, portrait, tail, tree
+photo.4: ig://BhlWwtiFuvg/m
+photo.4.author: hanamaru_redpanda
+photo.4.commitdate: 2020/3/12
+photo.4.link: https://www.instagram.com/hanamaru_redpanda/
+photo.4.tags: paws, portrait, tail
+photo.5: ig://BlPrL4QlSEV/m
+photo.5.author: peek_a_boo00
+photo.5.commitdate: 2019/10/31
+photo.5.link: https://www.instagram.com/peek_a_boo00/
+photo.5.tags: itchy, portrait, tongue, tree
+photo.6: ig://BskqMjVF1wf/m
+photo.6.author: perie1027vivi
+photo.6.commitdate: 2019/1/18
+photo.6.link: https://www.instagram.com/perie1027vivi/
+photo.6.tags: bamboo, tree
+photo.7: ig://Bsr168ylibv/m
+photo.7.author: yoshiyokohama
+photo.7.commitdate: 2019/1/30
+photo.7.link: https://www.instagram.com/yoshiyokohama/
+photo.7.tags: techitechi, tree
+photo.8: ig://BtGB3s4l7wL/m
+photo.8.author: fetorus_mami
+photo.8.commitdate: 2019/1/27
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.8.tags: grumpy, tree, wet
+photo.9: ig://B7tCGHzhWwb/m
+photo.9.author: shrimpieaqua
+photo.9.commitdate: 2020/2/3
+photo.9.link: https://www.instagram.com/shrimpieaqua/
+photo.9.tags: bamboo, paws, portrait
+photo.10: ig://CJlXvvZhotO/m
+photo.10.author: mybrotherisdylan
+photo.10.commitdate: 2021/1/8
+photo.10.link: https://www.instagram.com/mybrotherisdylan/
+photo.10.tags: bamboo, smile
+species: 1
+studbook.id: 1173
+zoo: 59

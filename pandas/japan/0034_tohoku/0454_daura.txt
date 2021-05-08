@@ -1,0 +1,21 @@
+[panda]
+_id: 454
+birthday: 1994/6/19
+birthplace: 57
+children: 478, 453
+commitdate: 2018/11/26
+death: 2012/6/11
+en.name: Daura
+en.nicknames: none
+en.othernames: Dauragiri, Daura Giri
+gender: f
+jp.name: ダウラ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 456
+location.1: 57, 1994/6/19
+location.2: 34, 1995/12/26
+species: 2
+studbook.id: 9444
+zoo: 34

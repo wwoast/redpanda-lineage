@@ -1,0 +1,45 @@
+[panda]
+_id: 493
+birthday: 2013/6/22
+birthplace: 84
+children: 494, 496, 1082, 1083
+commitdate: 2018/12/18
+en.name: Ming-Yue
+en.nicknames: none
+en.othernames: Mingyue
+gender: f
+jp.name: ミンユエ
+jp.nicknames: none
+jp.othernames: 明越
+language.order: en, jp
+litter: 394
+location.1: 84, 2013/6/22
+location.2: 92, 2014/8/11
+photo.1: ig://BW3fWm8hgY7/m
+photo.1.author: trisarahtops137
+photo.1.commitdate: 2019/11/2
+photo.1.link: https://www.instagram.com/trisarahtops137/
+photo.1.tags: laying down, paws
+photo.2: ig://BW0QvyhBnMm/m
+photo.2.author: trisarahtops137
+photo.2.commitdate: 2019/11/2
+photo.2.link: https://www.instagram.com/trisarahtops137/
+photo.2.tags: laying down, paws, whiskers
+photo.3: ig://BV98IMjhsXV/m
+photo.3.author: trisarahtops137
+photo.3.commitdate: 2019/11/2
+photo.3.link: https://www.instagram.com/trisarahtops137/
+photo.3.tags: laying down, paws, portrait, profile
+photo.4: ig://B30OD3tnw_L/m
+photo.4.author: uticazoo
+photo.4.commitdate: 2019/11/5
+photo.4.link: https://www.instagram.com/uticazoo/
+photo.4.tags: bamboo, lunch time, pumpkin, smile
+photo.5: ig://B50svbcA8bt/m
+photo.5.author: colleenhaley14
+photo.5.commitdate: 2020/2/27
+photo.5.link: https://www.instagram.com/colleenhaley14/
+photo.5.tags: portrait, smile, snow
+species: 2
+studbook.id: 1337
+zoo: 92

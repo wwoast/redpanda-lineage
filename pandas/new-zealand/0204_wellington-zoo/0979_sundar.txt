@@ -1,0 +1,64 @@
+[panda]
+_id: 979
+birthday: 2014/1/3
+birthplace: 203
+children: 985
+commitdate: 2019/8/24
+en.name: Sundar
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スンダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 980
+location.1: 203, 2014/1/3
+location.2: 204, 2015/11/1
+photo.1: ig://BScvP9WAMA8/m
+photo.1.author: wellington.zoo
+photo.1.commitdate: 2019/8/24
+photo.1.link: https://www.instagram.com/wellington.zoo/
+photo.1.tags: portrait, profile
+photo.2: ig://Bo3E5QglUzv/m
+photo.2.author: ash.attempts.photos
+photo.2.commitdate: 2019/8/25
+photo.2.link: https://www.instagram.com/ash.attempts.photos/
+photo.2.tags: mofumofu, muzzle
+photo.3: ig://BpdvlU2DoII/m
+photo.3.author: hummingart_
+photo.3.commitdate: 2019/8/25
+photo.3.link: https://www.instagram.com/hummingart_/
+photo.3.tags: mofumofu, portrait, tail
+photo.4: ig://Bpv747xHa2D/m
+photo.4.author: katielouisetalbot
+photo.4.commitdate: 2019/8/25
+photo.4.link: https://www.instagram.com/katielouisetalbot/
+photo.4.tags: portrait, whiskers
+photo.5: ig://BxCGAldgpQh/m
+photo.5.author: wild.alice.ellen
+photo.5.commitdate: 2019/8/24
+photo.5.link: https://www.instagram.com/wild.alice.ellen/
+photo.5.tags: bamboo, portrait
+photo.6: ig://Bzco_wkAhQa/m
+photo.6.author: kiwizookeeper
+photo.6.commitdate: 2019/8/24
+photo.6.link: https://www.instagram.com/kiwizookeeper/
+photo.6.tags: paws, portrait, tree
+photo.7: ig://B1FDQp5J2hF/m
+photo.7.author: wellington.zoo
+photo.7.commitdate: 2019/8/24
+photo.7.link: https://www.instagram.com/wellington.zoo/
+photo.7.tags: paws, portrait, tongue
+photo.8: ig://B1c7uz7DmMG/m
+photo.8.author: fattie_livingstone
+photo.8.commitdate: 2019/8/25
+photo.8.link: https://www.instagram.com/fattie_livingstone/
+photo.8.tags: portrait, tree
+photo.9: ig://CEYSbW8MP4Z/m
+photo.9.author: wellington.zoo
+photo.9.commitdate: 2020/9/4
+photo.9.link: https://www.instagram.com/wellington.zoo/
+photo.9.tags: doctor, laying down
+species: 1
+zoo: 204

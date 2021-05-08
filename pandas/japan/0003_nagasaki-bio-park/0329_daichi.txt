@@ -1,0 +1,54 @@
+[panda]
+_id: 329
+birthday: 2006/8/1
+birthplace: 40
+children: none
+commitdate: 2018/9/8
+en.name: Daichi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ダイチ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 330
+location.1: 40, 2006/8/1
+location.2: 3, 2009/11/19
+photo.1: ig://np3Vr0HuOn/m
+photo.1.author: neco_lion
+photo.1.commitdate: 2018/12/26
+photo.1.link: https://www.instagram.com/neco_lion/
+photo.1.tags: tail
+photo.2: ig://oALvsUnuEv/m
+photo.2.author: neco_lion
+photo.2.commitdate: 2018/12/26
+photo.2.link: https://www.instagram.com/neco_lion/
+photo.2.tags: laying down
+photo.3: ig://orsfFxHuCd/m
+photo.3.author: neco_lion
+photo.3.commitdate: 2018/12/26
+photo.3.link: https://www.instagram.com/neco_lion/
+photo.3.tags: air tasting, portrait, profile, tail, tongue
+photo.4: ig://BrPXkEnFHFL/m
+photo.4.author: tk_ani_photo
+photo.4.commitdate: 2018/12/26
+photo.4.link: https://www.instagram.com/tk_ani_photo/
+photo.4.tags: close-up, portrait
+photo.5: ig://B8yhpVChChk/m
+photo.5.author: kisshan324
+photo.5.commitdate: 2020/2/29
+photo.5.link: https://www.instagram.com/kisshan324/
+photo.5.tags: paws, portrait, tongue, yawn
+photo.6: ig://B_YtV18hyhR/m
+photo.6.author: ngsbiopark
+photo.6.commitdate: 2020/11/1
+photo.6.link: https://www.instagram.com/ngsbiopark/
+photo.6.tags: close-up, laying down, paws
+photo.7: ig://CG1FR9aBy3V/m
+photo.7.author: ngsbiopark
+photo.7.commitdate: 2020/11/1
+photo.7.link: https://www.instagram.com/ngsbiopark/
+species: 2
+studbook.id: 0686
+zoo: 3

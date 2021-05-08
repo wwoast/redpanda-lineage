@@ -1,0 +1,74 @@
+[panda]
+_id: 654
+birthday: 2015/7/2
+birthplace: 126
+children: 1060, 1231
+commitdate: 2019/3/19
+en.name: Ash
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 灰
+jp.nicknames: none
+jp.othernames: はい
+language.order: en, jp
+litter: 653
+location.1: 126, 2015/7/2
+location.2: 124, 2017/5/11
+photo.1: ig://Bs6LOjFgTfV/m
+photo.1.author: detroitzoo
+photo.1.commitdate: 2019/5/7
+photo.1.link: https://www.instagram.com/detroitzoo/
+photo.1.tags: portrait, profile, tree
+photo.2: ig://BubnMI8lGZl/m
+photo.2.author: detroitzoo
+photo.2.commitdate: 2019/5/7
+photo.2.link: https://www.instagram.com/detroitzoo/
+photo.2.tags: snow, tree
+photo.3: ig://BwHpunFgHfZ/m
+photo.3.author: detroitzoo
+photo.3.commitdate: 2019/5/7
+photo.3.link: https://www.instagram.com/detroitzoo/
+photo.4: ig://BwhZmrNIOp8/m
+photo.4.author: detroitzoo
+photo.4.commitdate: 2019/5/7
+photo.4.link: https://www.instagram.com/detroitzoo/
+photo.4.tags: bamboo
+photo.5: ig://B0jiQWQAne0/m
+photo.5.author: detroitzoo
+photo.5.commitdate: 2019/12/2
+photo.5.link: https://www.instagram.com/detroitzoo/
+photo.5.tags: autumn, tail, tree
+photo.6: ig://B04kBy7g-WJ/m
+photo.6.author: detroitzoo
+photo.6.commitdate: 2019/12/2
+photo.6.link: https://www.instagram.com/detroitzoo/
+photo.6.tags: tail, tree
+photo.7: ig://B133SDWFJsU/m
+photo.7.author: detroitzoo
+photo.7.commitdate: 2019/12/2
+photo.7.link: https://www.instagram.com/detroitzoo/
+photo.7.tags: tongue, tree
+photo.8: ig://B2mpI_RH8CY/m
+photo.8.author: detroitzoo
+photo.8.commitdate: 2019/12/2
+photo.8.link: https://www.instagram.com/detroitzoo/
+photo.8.tags: paws, tree
+photo.9: ig://B2rMzqmAu1i/m
+photo.9.author: detroitzoo
+photo.9.commitdate: 2019/12/2
+photo.9.link: https://www.instagram.com/detroitzoo/
+photo.9.tags: peek, portrait, whiskers
+photo.10: ig://B3fSc6CHO3M/m
+photo.10.author: detroitzoo
+photo.10.commitdate: 2019/12/2
+photo.10.link: https://www.instagram.com/detroitzoo/
+photo.10.tags: bamboo, smile
+photo.11: ig://B35JY_Cp8bC/m
+photo.11.author: detroitzoo
+photo.11.commitdate: 2019/12/2
+photo.11.link: https://www.instagram.com/detroitzoo/
+photo.11.tags: tree
+species: 1
+studbook.id: 1540
+zoo: 124

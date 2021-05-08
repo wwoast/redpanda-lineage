@@ -1,0 +1,46 @@
+[panda]
+_id: 209
+birthday: 2002/7/1
+birthplace: 34
+children: none
+commitdate: 2018/7/26
+en.name: Ta-Xiang
+en.nicknames: none
+en.othernames: Taxiang, Tasyan, Tai-Syan, Tashan, Daoguang
+gender: m
+jp.name: ターシャン
+jp.nicknames: none
+jp.othernames: 稲光
+language.order: jp, en
+litter: 354
+photo.1: ig://BC-vpJStG5V/m
+photo.1.author: mariten1119
+photo.1.commitdate: 2020/5/17
+photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: whiskers
+photo.2: ig://BfYhuLpBlIW/m
+photo.2.author: craig_craig_craig
+photo.2.commitdate: 2018/7/26
+photo.2.link: https://www.instagram.com/craig_craig_craig/
+photo.2.tags: sleeping
+photo.3: ig://BofjiT8l-v2/m
+photo.3.author: tabechum
+photo.3.commitdate: 2018/10/3
+photo.3.link: https://www.instagram.com/tabechum/
+photo.3.tags: portrait, profile
+photo.4: ig://BpfjmqMl-8k/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2018/10/28
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.5: ig://BqY1qE0FGgB/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2018/11/20
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.6: ig://CE1Te6FhR2G/m
+photo.6.author: ifumoto88
+photo.6.commitdate: 2020/9/14
+photo.6.link: https://www.instagram.com/ifumoto88/
+photo.6.tags: whiskers
+species: 2
+studbook.id: 0274
+zoo: 34

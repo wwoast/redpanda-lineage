@@ -1,0 +1,25 @@
+[media]
+_id: media.19.kabosu-mikan
+commitdate: 2019/7/1
+panda.tags: 253, 255
+photo.1: ig://Bw39wcsFi6u/m
+photo.1.author: re_ichimaru
+photo.1.commitdate: 2019/7/1
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.1.tags: wet
+photo.1.tags.253.location: 70, 150
+photo.1.tags.255.location: 170, 85
+photo.2: ig://Bt2XAVbnDpf/m
+photo.2.author: morikirara
+photo.2.commitdate: 2020/4/18
+photo.2.link: https://www.instagram.com/morikirara/
+photo.2.tags: keeper, mother's day, standing, tail
+photo.2.tags.253.location: 75, 185
+photo.2.tags.255.location: 300, 135
+photo.3: ig://BsUoV69AoJu/m
+photo.3.author: morikirara
+photo.3.commitdate: 2020/4/18
+photo.3.link: https://www.instagram.com/morikirara/
+photo.3.tags: mofumofu, mother's day
+photo.3.tags.253.location: 80, 135
+photo.3.tags.255.location: 245, 155

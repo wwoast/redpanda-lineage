@@ -1,0 +1,16 @@
+[zoo]
+_id: 172
+commitdate: 2019/3/24
+en.address: Nyíregyháza, Sóstói út, 4431 Hungary
+en.location: Sóstó, Nyíregyháza, Hungary
+en.name: Nyiregyhaza Animal Park
+en.othernames: Nyiregyhaza Zoo, Sosto Zoo
+flag: Hungary
+hu.address: Nyíregyháza, Sóstói út, 4431 Hungary
+hu.location: Sóstó, Nyíregyháza, Hungary
+hu.name: Nyíregyházi Állatpark - Sóstó Zoo
+language.order: hu, en
+latitude: 48.0015172
+longitude: 21.7210297
+map: https://goo.gl/maps/tkNhRWbQbuK2
+website: https://www.sostozoo.hu/

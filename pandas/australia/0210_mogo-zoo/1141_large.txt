@@ -1,0 +1,20 @@
+[panda]
+_id: 1141
+birthday: 1997/12/11
+birthplace: 217
+children: none
+commitdate: 2020/3/25
+death: 1998/12/12
+en.name: Large
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 大
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1140
+location.1: 217, 1997/12/11
+location.2: 210, 1998/9/8
+species: 1
+zoo: 210

@@ -1,0 +1,39 @@
+[media]
+_id: media.12.ichigo-mametarou
+commitdate: 2019/7/28
+panda.tags: 99, 130
+photo.1: ig://BvHNcnxlmjm/m
+photo.1.author: kipekaila
+photo.1.commitdate: 2019/7/28
+photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.tags: apple time, couple
+photo.1.tags.99.location: 275, 95
+photo.1.tags.130.location: 95, 160
+photo.2: ig://B7cmTWRBjTr/m
+photo.2.author: pantasanzoo1
+photo.2.commitdate: 2020/2/16
+photo.2.link: https://www.instagram.com/pantasanzoo1/
+photo.2.tags: apple time, couple
+photo.2.tags.99.location: 60, 270
+photo.2.tags.130.location: 245, 50
+photo.3: ig://B75hbuMhBsh/m
+photo.3.author: pantasanzoo1
+photo.3.commitdate: 2020/5/3
+photo.3.link: https://www.instagram.com/pantasanzoo1/
+photo.3.tags: apple time, couple, keeper
+photo.3.tags.99.location: 220, 140
+photo.3.tags.130.location: 130, 240
+photo.4: ig://B8WYBcHBkm8/m
+photo.4.author: miis_98
+photo.4.commitdate: 2020/2/18
+photo.4.link: https://www.instagram.com/miis_98/
+photo.4.tags: apple time, couple, standing
+photo.4.tags.99.location: 165, 210
+photo.4.tags.130.location: 130, 40
+photo.5: ig://CAFYj1NBczA/l
+photo.5.author: pantasanzoo1
+photo.5.commitdate: 2021/1/5
+photo.5.link: https://www.instagram.com/pantasanzoo1/
+photo.5.tags: apple time, couple, paws
+photo.5.tags.99.location: 210, 410
+photo.5.tags.130.location: 165, 95

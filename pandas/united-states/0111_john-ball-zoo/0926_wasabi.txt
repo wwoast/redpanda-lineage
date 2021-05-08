@@ -1,0 +1,55 @@
+[panda]
+_id: 926
+birthday: 2016/7/3
+birthplace: 146
+children: 1199, 1200, 1201
+commitdate: 2019/7/2
+en.name: Wasabi
+en.nicknames: none
+en.othernames: Sabi
+gender: f
+jp.name: わさび
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 146, 2016/7/3
+location.2: 178, 2018/2/27
+location.3: 111, 2019/4/1
+photo.1: ig://BT-ZKslgOfx/m
+photo.1.author: esdeemphoto
+photo.1.commitdate: 2020/10/1
+photo.1.link: https://www.instagram.com/esdeemphoto/
+photo.1.tags: tail, white face
+photo.2: ig://BWC_XUvFOZn/m
+photo.2.author: esdeemphoto
+photo.2.commitdate: 2020/10/1
+photo.2.link: https://www.instagram.com/esdeemphoto/
+photo.2.tags: climb, paws, tree
+photo.3: ig://BWXp14Rl1q0/m
+photo.3.author: esdeemphoto
+photo.3.commitdate: 2020/10/1
+photo.3.link: https://www.instagram.com/esdeemphoto/
+photo.3.tags: baby, paws, white face
+photo.4: ig://BWi9K18lNQS/m
+photo.4.author: esdeemphoto
+photo.4.commitdate: 2020/10/1
+photo.4.link: https://www.instagram.com/esdeemphoto/
+photo.4.tags: laying down, tail, tree
+photo.5: ig://BWi9aj5FZXv/m
+photo.5.author: esdeemphoto
+photo.5.commitdate: 2020/10/1
+photo.5.link: https://www.instagram.com/esdeemphoto/
+photo.5.tags: white face
+photo.6: ig://BynmyCVgin4/m
+photo.6.author: johnballzoogr
+photo.6.commitdate: 2019/7/30
+photo.6.link: https://www.instagram.com/johnballzoogr/
+photo.6.tags: bridge, profile
+photo.7: ig://CFc6agFDNup/m
+photo.7.author: johnballzoogr
+photo.7.commitdate: 2020/9/24
+photo.7.link: https://www.instagram.com/johnballzoogr/
+photo.7.tags: laying down, paws, tongue, yawn
+species: 1
+zoo: 111

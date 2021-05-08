@@ -1,0 +1,24 @@
+[panda]
+_id: 967
+birthday: 2002/12/18
+birthplace: 203
+children: 954, 968, 969, 970, 965, 966, 971, 972
+commitdate: 2019/8/16
+en.name: Chito
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: チト
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 203, 2002/12/18
+location.2: 201, 2006/8/11
+photo.1: ig://Bw1bOGhH5M0/m
+photo.1.author: rayclarkephotography
+photo.1.commitdate: 2019/8/16
+photo.1.link: https://www.instagram.com/rayclarkephotography/
+photo.1.tags: profile, tree
+species: 1
+zoo: 201

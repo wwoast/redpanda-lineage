@@ -1,0 +1,57 @@
+[panda]
+_id: 641
+birthday: 2014/6/14
+birthplace: 141
+children: 926
+commitdate: 2019/3/19
+en.name: Lhotse
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ローツェ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 545
+location.1: 141, 2014/6/14
+location.2: 146, 2015/11/23
+location.3: 164, 2017/12/13
+location.4: 165, 2018/3/12
+photo.1: ig://BAYHHKDtuLc/m
+photo.1.author: okczoo
+photo.1.commitdate: 2020/10/13
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: portrait, tree, white face
+photo.2: ig://BAdis64NuLD/m
+photo.2.author: okczoo
+photo.2.commitdate: 2020/10/13
+photo.2.link: https://www.instagram.com/okczoo/
+photo.2.tags: portrait, white face
+photo.3: ig://BAqQX8qNuLJ/m
+photo.3.author: okczoo
+photo.3.commitdate: 2020/10/13
+photo.3.link: https://www.instagram.com/okczoo/
+photo.3.tags: portrait, profile
+photo.4: ig://BA3C7eytuAU/m
+photo.4.author: okczoo
+photo.4.commitdate: 2020/10/13
+photo.4.link: https://www.instagram.com/okczoo/
+photo.4.tags: bridge, portrait
+photo.5: ig://BKdbXs4ADor/m
+photo.5.author: okczoo
+photo.5.commitdate: 2020/10/13
+photo.5.link: https://www.instagram.com/okczoo/
+photo.5.tags: close-up, portrait, white face
+photo.6: ig://BVX-q_AA9mu/m
+photo.6.author: okczoo
+photo.6.commitdate: 2020/10/13
+photo.6.link: https://www.instagram.com/okczoo/
+photo.6.tags: ice treat, portrait, videolink
+photo.7: ig://BfRggl1BxHr/m
+photo.7.author: reidparkzoo
+photo.7.commitdate: 2020/10/13
+photo.7.link: https://www.instagram.com/reidparkzoo/
+photo.7.tags: laying down, paws, portrait
+species: 1
+studbook.id: 1416
+zoo: 165

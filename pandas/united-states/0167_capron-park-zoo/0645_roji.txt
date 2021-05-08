@@ -1,0 +1,25 @@
+[panda]
+_id: 645
+birthday: 2016/7/2
+birthplace: 113
+children: none
+commitdate: 2019/3/19
+en.name: Roji
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ロジ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 646
+location.1: 113, 2016/7/2
+location.2: 167, 2017/5/2
+photo.1: ig://B3hA21EptIg/m
+photo.1.author: judylobowolfe
+photo.1.commitdate: 2019/11/7
+photo.1.link: https://www.instagram.com/judylobowolfe/
+photo.1.tags: bamboo, peek, portrait, white face
+species: 1
+studbook.id: 1617
+zoo: 167

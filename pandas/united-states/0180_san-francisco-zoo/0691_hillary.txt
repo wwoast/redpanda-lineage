@@ -1,0 +1,37 @@
+[panda]
+_id: 691
+birthday: 2004/7/15
+birthplace: 108
+children: 1125, 514
+commitdate: 2019/3/25
+death: 2020/8/1
+en.name: Hillary
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ヒラリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 692
+location.1: 108, 2004/7/15
+location.2: 121, 2006/12/18
+location.3: 180, 2014/5/1
+photo.1: ig://BMiC7GXFBTg/m
+photo.1.author: sanfranciscozoo
+photo.1.commitdate: 2019/9/18
+photo.1.link: https://www.instagram.com/sanfranciscozoo/
+photo.1.tags: bamboo, portrait, profile
+photo.2: ig://BlQx0iWgVeu/m
+photo.2.author: sanfranciscozoo
+photo.2.commitdate: 2019/9/18
+photo.2.link: https://www.instagram.com/sanfranciscozoo/
+photo.2.tags: white face
+photo.3: ig://CCtaKSiHdQP/m
+photo.3.author: sanfranciscozoo
+photo.3.commitdate: 2020/9/3
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+photo.3.tags: bamboo, flowers, home, nose, paws
+species: 1
+studbook.id: 0432
+zoo: 180

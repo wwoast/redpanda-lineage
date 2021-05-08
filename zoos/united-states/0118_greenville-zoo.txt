@@ -1,0 +1,16 @@
+[zoo]
+_id: 118
+commitdate: 2019/2/23
+en.address: 150 Cleveland Park Dr, Greenville, SC 29601, USA
+en.location: Greenville, South Carolina, USA
+en.name: Greenville Zoo
+flag: USA
+language.order: en
+latitude: 34.8499627
+longitude: -82.3941174
+map: https://goo.gl/maps/yBWpJYm1Bvr
+photo.1: ig://Bis7r65gI6x/m
+photo.1.author: medabney
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/medabney/
+website: https://greenvillezoo.com/

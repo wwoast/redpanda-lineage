@@ -1,0 +1,21 @@
+[panda]
+_id: 678
+birthday: 2009/6/13
+birthplace: 154
+children: none
+commitdate: 2019/3/24
+death: 2009/7/29
+en.name: Loki
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ロキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 679
+location.1: 154, 2009/6/13
+location.2: 144, 2009/7/29
+species: 1
+studbook.id: 0925
+zoo: 144

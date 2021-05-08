@@ -1,0 +1,74 @@
+[panda]
+_id: 821
+birthday: 2015/6/3
+birthplace: 109
+children: none
+commitdate: 2019/4/7
+en.name: Scout
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: スカウト
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 109, 2015/6/3
+location.2: 188, 2016/11/8
+photo.1: ig://Bnv-GYjluj1/m
+photo.1.author: buffalo_zoo
+photo.1.commitdate: 2020/4/25
+photo.1.link: https://www.instagram.com/buffalo_zoo/
+photo.1.tags: peek, snow
+photo.2: ig://BoUdDhFAWNF/m
+photo.2.author: buffalo_zoo
+photo.2.commitdate: 2020/4/25
+photo.2.link: https://www.instagram.com/buffalo_zoo/
+photo.2.tags: laying down, tree
+photo.3: ig://Bo_77--gyQz/m
+photo.3.author: buffalo_zoo
+photo.3.commitdate: 2020/4/25
+photo.3.link: https://www.instagram.com/buffalo_zoo/
+photo.3.tags: portrait, pumpkin
+photo.4: ig://Br-3aiKnQDq/m
+photo.4.author: buffalo_zoo
+photo.4.commitdate: 2020/4/25
+photo.4.link: https://www.instagram.com/buffalo_zoo/
+photo.4.tags: snow, whiskers
+photo.5: ig://BsVzMefnRav/m
+photo.5.author: buffalo_zoo
+photo.5.commitdate: 2020/4/25
+photo.5.link: https://www.instagram.com/buffalo_zoo/
+photo.6: ig://BuHRc4-Hg-v/m
+photo.6.author: buffalo_zoo
+photo.6.commitdate: 2020/4/25
+photo.6.link: https://www.instagram.com/buffalo_zoo/
+photo.6.tags: smile
+photo.7: ig://Bw2VAk8FlVI/m
+photo.7.author: buffalo_zoo
+photo.7.commitdate: 2020/4/25
+photo.7.link: https://www.instagram.com/buffalo_zoo/
+photo.7.tags: bamboo, blink
+photo.8: ig://B0tXKkfndwE/m
+photo.8.author: buffalo_zoo
+photo.8.commitdate: 2020/4/25
+photo.8.link: https://www.instagram.com/buffalo_zoo/
+photo.8.tags: paws, portrait, profile, smile, whiskers
+photo.9: ig://B2rk_RhHdFN/m
+photo.9.author: buffalo_zoo
+photo.9.commitdate: 2020/4/25
+photo.9.link: https://www.instagram.com/buffalo_zoo/
+photo.9.tags: paws, portrait, whiskers
+photo.10: ig://B3uNzt_HeIC/m
+photo.10.author: buffalo_zoo
+photo.10.commitdate: 2020/4/25
+photo.10.link: https://www.instagram.com/buffalo_zoo/
+photo.10.tags: paws, whiskers
+photo.11: ig://B37dhzGnuej/m
+photo.11.author: buffalo_zoo
+photo.11.commitdate: 2020/4/25
+photo.11.link: https://www.instagram.com/buffalo_zoo/
+photo.11.tags: portrait, smile, whiskers
+species: 1
+studbook.id: 1504
+zoo: 188

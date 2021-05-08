@@ -1,0 +1,32 @@
+[media]
+_id: media.1.hao-sora
+commitdate: 2019/7/14
+panda.tags: 11, 12
+photo.1: ig://Bwpury9F_op/m
+photo.1.author: run.swim.shingo
+photo.1.commitdate: 2019/7/14
+photo.1.link: https://www.instagram.com/run.swim.shingo/
+photo.1.tags: couple, kiss, nose, portrait
+photo.1.tags.11.location: 90, 120
+photo.1.tags.12.location: 215, 150
+photo.2: ig://BjtmoE9FYYj/m
+photo.2.author: redpanda_nippon_takashi
+photo.2.commitdate: 2019/7/20
+photo.2.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.2.tags: couple, keeper, standing
+photo.2.tags.11.location: 175, 95
+photo.2.tags.12.location: 115, 115
+photo.3: ig://Bq9GseHFQH0/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2019/11/24
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: couple, tail
+photo.3.tags.11.location: 35, 60
+photo.3.tags.12.location: 165, 150
+photo.4: ig://B47VIX_BWQz/m
+photo.4.author: ifumoto88
+photo.4.commitdate: 2019/11/27
+photo.4.link: https://www.instagram.com/ifumoto88/
+photo.4.tags: couple, kiss, nose, tongue
+photo.4.tags.11.location: 245, 130
+photo.4.tags.12.location: 115, 140

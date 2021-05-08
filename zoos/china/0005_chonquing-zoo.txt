@@ -1,0 +1,22 @@
+[zoo]
+_id: 5
+cn.address: 九龙坡区 中国 400080
+cn.location: 重庆市
+cn.name: 重慶市動物園
+commitdate: 2018/6/10
+en.address: Jiulongpo Qu, China, 400080
+en.location: Jiulongpo Qu, China
+en.name: Chonquing Zoo
+flag: China
+jp.address: Jiulongpo Qu, China, 400080
+jp.location: Jiulongpo Qu, China
+jp.name: unknown
+language.order: cn, jp, en
+latitude: 29.5035617
+longitude: 106.5037493
+map: https://goo.gl/maps/rsck5UV8B552
+photo.1: ig://Bq-FcXjAyNF/m
+photo.1.author: alise_tifentale
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/alise_tifentale/
+website: http://www.cqzoo.com

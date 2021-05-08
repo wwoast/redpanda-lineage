@@ -1,0 +1,112 @@
+[panda]
+_id: 150
+birthday: 2011/6/12
+birthplace: 44
+children: 384, 411, 422, 395, 146
+commitdate: 2018/6/28
+en.name: Rinzen
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: リンゼン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 44, 2011/6/12
+location.2: 43, 2012/6/10
+photo.1: ig://tEZGsvykP3/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/6/28
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, smile, whiskers
+photo.2: ig://8vbq9qSkM4/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/11/19
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, techitechi
+photo.3: ig://9g588AykMR/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2018/11/19
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, smile
+photo.4: ig://9wKSysSkG7/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2018/11/19
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: laying down, portrait, profile, smile, tongue, whiskers
+photo.5: ig://9wKbzCSkHL/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2018/11/19
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: portrait, tail
+photo.6: ig://_PXb4ASkF7/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2018/11/19
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: smile, tail
+photo.7: ig://_VKcw-ykOD/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2018/11/19
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: portrait, techitechi, whiskers
+photo.8: ig://BAgFpdESkKq/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2018/11/19
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: sleeping, tail, tree
+photo.9: ig://BAgF1zzSkK-/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2018/11/19
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: lunch time, portrait, smile, techitechi
+photo.10: ig://BA-0aZzSkNE/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2018/11/19
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: portrait, smile
+photo.11: ig://BEQ1bnTykHD/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2018/11/19
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: slobber, techitechi, whiskers
+photo.12: ig://BEy9x46ykDp/m
+photo.12.author: worldthathesees
+photo.12.commitdate: 2018/11/19
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: tail, tree
+photo.13: ig://BFBkneWykNm/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2018/11/19
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: laying down, portrait, tongue, tree
+photo.14: ig://BGjaFDzSkGQ/m
+photo.14.author: worldthathesees
+photo.14.commitdate: 2018/11/19
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: flowers, smile
+photo.15: ig://BHwYjN5AnFQ/m
+photo.15.author: worldthathesees
+photo.15.commitdate: 2018/11/19
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: portrait, sleeping, tongue
+photo.16: ig://Bj6_wGpFX7k/m
+photo.16.author: worldthathesees
+photo.16.commitdate: 2018/11/18
+photo.16.link: https://www.instagram.com/worldthathesees/
+photo.16.tags: portrait, smile, whiskers
+photo.17: ig://B_V0-K_hCXm/m
+photo.17.author: worldthathesees
+photo.17.commitdate: 2020/5/2
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: smile, tail
+photo.18: ig://CIx3HKML5Tm/m
+photo.18.author: rossifari
+photo.18.commitdate: 2020/12/30
+photo.18.link: https://www.instagram.com/rossifari/
+photo.18.tags: portrait, whiskers
+species: 2
+studbook.id: 1112
+video.1: https://www.youtube.com/watch?v=jQsb-8uMhAE
+video.1.author: worldthathesees
+video.1.link: https://www.youtube.com/channel/UCNV4J53SlMAgZZI6EDvxdPQ
+zoo: 43

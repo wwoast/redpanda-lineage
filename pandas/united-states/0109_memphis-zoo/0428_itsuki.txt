@@ -1,0 +1,40 @@
+[panda]
+_id: 428
+birthday: 2015/6/22
+birthplace: 76
+children: none
+commitdate: 2018/11/23
+en.name: Itsuki
+en.nicknames: none
+en.othernames: Isuki
+gender: m
+jp.name: イスキ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 427, 429
+location.1: 76, 2015/6/22
+location.2: 109, 2017/11/9
+photo.1: ig://CF-ikFEBJlr/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2020/12/2
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, tail
+photo.2: ig://CGBV2BUhxdk/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2020/12/2
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bridge, paws, portrait, smile
+photo.3: ig://CGEA_JphKxb/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/12/2
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: bridge, paws, portrait, smile, whiskers
+photo.4: ig://CGGeSPFhl-L/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/12/2
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: portrait, profile, smile, tree
+species: 2
+studbook.id: 1522
+zoo: 109

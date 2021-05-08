@@ -1,0 +1,23 @@
+[panda]
+_id: 1032
+birthday: 2000/6/25
+birthplace: 59
+children: none
+commitdate: 2019/11/9
+death: 2017/11/26
+en.name: Mint
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ミント
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1033
+photo.1: ig://BMLGwr5gR_w/m
+photo.1.author: tabechum
+photo.1.commitdate: 2020/4/1
+photo.1.link: https://www.instagram.com/tabechum/
+photo.1.tags: bamboo, paws, portrait, profile
+species: 1
+zoo: 59

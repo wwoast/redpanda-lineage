@@ -1,0 +1,28 @@
+[panda]
+_id: 467
+birthday: 2004/6/27
+birthplace: 65
+children: none
+commitdate: 2018/11/28
+death: 2018/4/30
+en.name: Ellyanna
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: エリアンナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 65, 2004/6/27
+location.2: 94, 2005/11/4
+location.3: 96, 2009/1/29
+location.4: 101, 2013/3/14
+photo.1: ig://Bgv7HqvnnsX/m
+photo.1.author: mnzoo
+photo.1.commitdate: 2018/11/28
+photo.1.link: https://www.instagram.com/mnzoo/
+photo.1.tags: bamboo, profile, smile
+species: 2
+studbook.id: 0424
+zoo: 101

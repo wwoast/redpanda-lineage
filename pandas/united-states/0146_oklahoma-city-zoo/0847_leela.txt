@@ -1,0 +1,46 @@
+[panda]
+_id: 847
+birthday: 2014/6/26
+birthplace: 129
+children: 877, 878
+commitdate: 2019/4/15
+en.name: Leela
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 553
+location.1: 129, 2014/6/26
+location.2: 130, 2015/5/15
+location.3: 146, 2018/1/30
+photo.1: ig://BwP9mb2lGng/m
+photo.1.author: okczoo
+photo.1.commitdate: 2019/10/15
+photo.1.link: https://www.instagram.com/okczoo/
+photo.1.tags: bite
+photo.2: ig://B4cpZ68AfeP/m
+photo.2.author: esdeemphoto
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/esdeemphoto/
+photo.2.tags: techitechi, whiskers, white face
+photo.3: ig://B5eAme0BXa2/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/12/4
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: portrait, profile, smile, whiskers
+photo.4: ig://B_N92qpBitm/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/5/23
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: bamboo
+photo.5: ig://B_QfdnmhwyO/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2020/4/28
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: bamboo, portrait
+species: 1
+studbook.id: 1457
+zoo: 146

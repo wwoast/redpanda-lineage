@@ -1,0 +1,35 @@
+[panda]
+_id: 484
+birthday: 2017/6/30
+birthplace: 84
+children: none
+commitdate: 2018/12/8
+en.name: Ban-Li
+en.nicknames: none
+en.othernames: Banli
+gender: f
+jp.name: バンリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 84, 2017/6/30
+location.2: 120, 2018/10/1
+photo.1: ig://Btet3B0gXJX/m
+photo.1.author: zoonewengland
+photo.1.commitdate: 2020/1/16
+photo.1.link: https://www.instagram.com/zoonewengland/
+photo.1.tags: bamboo
+photo.2: ig://BwxyOTzhTr_/m
+photo.2.author: rossifari
+photo.2.commitdate: 2020/3/3
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: mofumofu, portrait, profile
+photo.3: ig://B2mz8iWJFG4/m
+photo.3.author: zoonewengland
+photo.3.commitdate: 2020/2/16
+photo.3.link: https://www.instagram.com/zoonewengland/
+photo.3.tags: mofumofu, portrait, whiskers
+species: 2
+studbook.id: 1726
+zoo: 120

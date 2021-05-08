@@ -1,0 +1,45 @@
+[panda]
+_id: 355
+birthday: 2004/6/29
+birthplace: 34
+children: none
+commitdate: 2018/10/18
+en.name: Foa-Foa
+en.nicknames: none
+en.othernames: Foafoa, Fa-Fa
+gender: f
+jp.name: ファーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 356
+location.1: 34, 2004/6/29
+location.2: 78, 2008/9/29
+photo.1: ig://Bwi7FVcngKv/m
+photo.1.author: seoulgrandpark
+photo.1.commitdate: 2019/5/8
+photo.1.link: https://www.instagram.com/seoulgrandpark/
+photo.1.tags: bamboo, portrait, tongue
+photo.2: ig://7u9sn1SffQ/m
+photo.2.author: fillette_verte
+photo.2.commitdate: 2019/5/8
+photo.2.link: https://www.instagram.com/fillette_verte/
+photo.2.tags: bamboo, portrait
+photo.3: ig://BLuPMI4hNJy/m
+photo.3.author: seoulgrandpark
+photo.3.commitdate: 2019/5/8
+photo.3.link: https://www.instagram.com/seoulgrandpark/
+photo.3.tags: portrait, profile
+photo.4: ig://BFcovt6Pl2l/m
+photo.4.author: seoulgrandpark
+photo.4.commitdate: 2019/5/8
+photo.4.link: https://www.instagram.com/seoulgrandpark/
+photo.4.tags: paws, portrait, tongue
+photo.5: ig://BxSNz2VFLvi/m
+photo.5.author: redpanda_pstommy
+photo.5.commitdate: 2019/5/15
+photo.5.link: https://www.instagram.com/redpanda_pstommy/
+photo.5.tags: portrait
+species: 2
+studbook.id: 0470
+zoo: 78

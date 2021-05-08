@@ -1,0 +1,70 @@
+[panda]
+_id: 502
+birthday: 2012/6/21
+birthplace: 48
+children: 573, 574, 1199, 1200, 1201
+commitdate: 2019/2/23
+en.name: Wyatt
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ワット
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 501
+location.1: 48, 2012/6/21
+location.2: 112, 2013/5/7
+location.3: 111, 2017/6/28
+photo.1: ig://Bnv2c2aDGrd/m
+photo.1.author: johnballzoogr
+photo.1.commitdate: 2019/3/12
+photo.1.link: https://www.instagram.com/johnballzoogr/
+photo.1.tags: tail
+photo.2: ig://BoenS_PAvPU/m
+photo.2.author: johnballzoogr
+photo.2.commitdate: 2019/3/12
+photo.2.link: https://www.instagram.com/johnballzoogr/
+photo.2.tags: tongue
+photo.3: ig://BpKIhURFFr_/m
+photo.3.author: johnballzoogr
+photo.3.commitdate: 2019/3/12
+photo.3.link: https://www.instagram.com/johnballzoogr/
+photo.3.tags: sleeping, tail
+photo.4: ig://Bp12VuSgcCf/m
+photo.4.author: johnballzoogr
+photo.4.commitdate: 2019/3/12
+photo.4.link: https://www.instagram.com/johnballzoogr/
+photo.4.tags: paws, smile
+photo.5: ig://BqfoWqUgmV1/m
+photo.5.author: johnballzoogr
+photo.5.commitdate: 2019/3/12
+photo.5.link: https://www.instagram.com/johnballzoogr/
+photo.5.tags: dish, lunch time, smile
+photo.6: ig://BrNc3C-gjWP/m
+photo.6.author: johnballzoogr
+photo.6.commitdate: 2019/3/12
+photo.6.link: https://www.instagram.com/johnballzoogr/
+photo.6.tags: laying down, snow
+photo.7: ig://Br5M_3Eg3HN/m
+photo.7.author: johnballzoogr
+photo.7.commitdate: 2019/3/12
+photo.7.link: https://www.instagram.com/johnballzoogr/
+photo.7.tags: paws, techitechi
+photo.8: ig://Btq7R9wgg8S/m
+photo.8.author: johnballzoogr
+photo.8.commitdate: 2019/3/12
+photo.8.link: https://www.instagram.com/johnballzoogr/
+photo.9: ig://BuyrW7ugkN-/m
+photo.9.author: johnballzoogr
+photo.9.commitdate: 2019/3/10
+photo.9.link: https://www.instagram.com/johnballzoogr/
+photo.9.tags: smile
+photo.10: ig://By-extBgpF1/m
+photo.10.author: johnballzoogr
+photo.10.commitdate: 2019/6/22
+photo.10.link: https://www.instagram.com/johnballzoogr/
+photo.10.tags: toys
+species: 1
+studbook.id: 1216
+zoo: 111

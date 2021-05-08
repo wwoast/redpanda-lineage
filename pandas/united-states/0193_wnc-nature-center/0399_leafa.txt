@@ -1,0 +1,111 @@
+[panda]
+_id: 399
+birthday: 2009/6/11
+birthplace: 83
+children: 150, 480, 420, 421, 416, 417
+commitdate: 2018/11/23
+en.name: Leafa
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: リーファ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 402, 403
+location.1: 83, 2009/6/11
+location.2: 44, 2010/6/8
+location.3: 88, 2013/11/20
+location.4: 87, 2014/12/22
+location.5: 193, 2019/5/1
+photo.1: https://www.codaworry.com/images/rpf/leafa-1-lincolnpark.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/11
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: smile
+photo.2: https://www.codaworry.com/images/rpf/leafa-2-lincolnpark.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/11
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: bamboo
+photo.3: https://www.codaworry.com/images/rpf/leafa-3-lincolnpark.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/11
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: smile
+photo.4: https://www.codaworry.com/images/rpf/leafa-4-lincolnpark.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/11
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: laying down
+photo.5: https://www.codaworry.com/images/rpf/leafa-5-lincolnpark.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/11
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.6: ig://BaUyedwj9Pi/m
+photo.6.author: lincolnparkzoo
+photo.6.commitdate: 2019/5/18
+photo.6.link: https://www.instagram.com/lincolnparkzoo/
+photo.6.tags: portrait, pumpkin
+photo.7: ig://BnwRfpWB4Pb/m
+photo.7.author: lincolnparkzoo
+photo.7.commitdate: 2019/5/18
+photo.7.link: https://www.instagram.com/lincolnparkzoo/
+photo.7.tags: close-up, portrait, whiskers
+photo.8: ig://BqIrO5LhsIr/m
+photo.8.author: lincolnparkzoo
+photo.8.commitdate: 2019/5/18
+photo.8.link: https://www.instagram.com/lincolnparkzoo/
+photo.8.tags: lips, portrait
+photo.9: ig://BvjkJPRAI7-/m
+photo.9.author: wncnaturecenter
+photo.9.commitdate: 2020/4/28
+photo.9.link: https://www.instagram.com/wncnaturecenter/
+photo.9.tags: bamboo
+photo.10: ig://By0KXQ1l5t0/m
+photo.10.author: wncnaturecenter
+photo.10.commitdate: 2020/4/28
+photo.10.link: https://www.instagram.com/wncnaturecenter/
+photo.10.tags: bamboo, bite, portrait
+photo.11: ig://B1Bv6Kcg9NE/m
+photo.11.author: wncnaturecenter
+photo.11.commitdate: 2020/4/28
+photo.11.link: https://www.instagram.com/wncnaturecenter/
+photo.11.tags: bamboo, smile
+photo.12: ig://B1Rycj_HJHm/m
+photo.12.author: wncnaturecenter
+photo.12.commitdate: 2020/4/28
+photo.12.link: https://www.instagram.com/wncnaturecenter/
+photo.13: ig://B1mdRNhFrKG/m
+photo.13.author: wncnaturecenter
+photo.13.commitdate: 2020/4/28
+photo.13.link: https://www.instagram.com/wncnaturecenter/
+photo.13.tags: portrait, tongue
+photo.14: ig://B2Uw8c0HDo1/m
+photo.14.author: wncnaturecenter
+photo.14.commitdate: 2020/4/28
+photo.14.link: https://www.instagram.com/wncnaturecenter/
+photo.14.tags: bamboo, paws
+photo.15: ig://B3j8RfLg-gb/m
+photo.15.author: wncnaturecenter
+photo.15.commitdate: 2020/4/28
+photo.15.link: https://www.instagram.com/wncnaturecenter/
+photo.15.tags: grumpy, laying down, tail
+photo.16: ig://B4lH4BDg1O5/m
+photo.16.author: wncnaturecenter
+photo.16.commitdate: 2020/4/28
+photo.16.link: https://www.instagram.com/wncnaturecenter/
+photo.16.tags: bamboo, smile
+photo.17: ig://B6gCBgKnL9R/m
+photo.17.author: wncnaturecenter
+photo.17.commitdate: 2021/1/3
+photo.17.link: https://www.instagram.com/wncnaturecenter/
+photo.17.tags: lips, smile
+photo.18: ig://CCypjurhLXv/m
+photo.18.author: wncnaturecenter
+photo.18.commitdate: 2021/1/3
+photo.18.link: https://www.instagram.com/wncnaturecenter/
+photo.18.tags: close-up, paws, profile, whiskers
+species: 2
+studbook.id: 0933
+zoo: 193

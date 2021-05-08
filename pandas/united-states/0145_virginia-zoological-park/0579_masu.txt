@@ -1,0 +1,20 @@
+[panda]
+_id: 579
+birthday: 2016/6/6
+birthplace: 131
+children: 1173, 1174, 1175, 1176, 1177
+commitdate: 2019/3/12
+en.name: Masu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ます
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 687
+location.1: 131, 2016/6/6
+location.2: 145, 2017/4/19
+species: 1
+studbook.id: 1605
+zoo: 145

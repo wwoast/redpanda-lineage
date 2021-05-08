@@ -1,0 +1,27 @@
+[zoo]
+_id: 9
+commitdate: 2018/6/10
+en.address: 554 Iwadono, Higashimatsuyama, Saitama Prefecture 355-0065, Japan
+en.location: Highashimatsuyama, Saitama Prefecture, Japan
+en.name: Saitama Children's Zoo
+flag: Japan
+jp.address: 〒355-0065 埼玉県東松山市岩殿554
+jp.location: 東松山市 埼玉県
+jp.name: 埼玉県こども動物自然公園
+language.order: jp, en
+latitude: 35.9993587
+longitude: 139.3728133
+map: https://goo.gl/maps/C8F9LtGktcH2
+photo.1: ig://BmgEeiolqP-/m
+photo.1.author: pikahonogram_3110
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/pikahonogram_3110/
+photo.2: ig://B0dndEXhSGs/m
+photo.2.author: fetorus_mami
+photo.2.commitdate: 2019/7/30
+photo.2.link: https://www.instagram.com/fetorus_mami/
+photo.3: ig://CHFL7TaB-0m/m
+photo.3.author: ssc6105
+photo.3.commitdate: 2020/11/25
+photo.3.link: https://www.instagram.com/ssc6105/
+website: http://www.parks.or.jp/sczoo/

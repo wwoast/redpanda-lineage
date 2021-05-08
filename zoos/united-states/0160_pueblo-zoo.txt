@@ -1,0 +1,21 @@
+[zoo]
+_id: 160
+commitdate: 2019/3/19
+en.address: 3455 Nuckolls Ave, Pueblo, CO 81005, USA
+en.location: Pueblo, Colorado, USA
+en.name: Pueblo Zoo
+flag: USA
+language.order: en
+latitude: 38.262699
+longitude: -104.6614709
+map: https://goo.gl/maps/sAm9JQGw7HG2
+photo.1: ig://B4Yg12wHclq/m
+photo.1.author: keepermerlo
+photo.1.commitdate: 2020/1/23
+photo.1.link: https://www.instagram.com/keepermerlo/
+photo.2: ig://B1UwqJDhG8X/m
+photo.2.author: keepermerlo
+photo.2.commitdate: 2020/1/23
+photo.2.link: https://www.instagram.com/keepermerlo/
+photo.2.tags: profile
+website: https://www.pueblozoo.org

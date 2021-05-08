@@ -1,0 +1,85 @@
+[panda]
+_id: 1149
+birthday: 2014/6/13
+birthplace: 239
+children: unknown
+cn.name: 茶花
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2020/3/27
+en.name: Chahua
+en.nicknames: none
+en.othernames: Cha Hua, Cha-Hua
+fr.name: Chahua
+fr.nicknames: none
+fr.othernames: Cha Hua, Cha-Hua
+gender: f
+jp.name: 茶花
+jp.nicknames: none
+jp.othernames: チャファ
+language.order: fr, cn, en, jp
+litter: 1148
+location.1: 239, 2014/6/13
+location.2: 238, 2015/3/6
+photo.1: ig://z7k0axDwcB/m
+photo.1.author: parcsaintecroix
+photo.1.commitdate: 2020/3/31
+photo.1.link: https://www.instagram.com/parcsaintecroix/
+photo.1.tags: portrait, white face
+photo.2: ig://0P4kagDwWC/m
+photo.2.author: parcsaintecroix
+photo.2.commitdate: 2020/3/31
+photo.2.link: https://www.instagram.com/parcsaintecroix/
+photo.2.tags: laying down, mofumofu, portrait
+photo.3: ig://1cZn7eDwev/m
+photo.3.author: parcsaintecroix
+photo.3.commitdate: 2020/3/31
+photo.3.link: https://www.instagram.com/parcsaintecroix/
+photo.3.tags: bridge, paws, portrait, white face
+photo.4: ig://1yWKncDwd8/m
+photo.4.author: parcsaintecroix
+photo.4.commitdate: 2020/3/31
+photo.4.link: https://www.instagram.com/parcsaintecroix/
+photo.4.tags: climb, paws, portrait, tail, tree
+photo.5: ig://4gHDcpDweQ/m
+photo.5.author: parcsaintecroix
+photo.5.commitdate: 2020/3/31
+photo.5.link: https://www.instagram.com/parcsaintecroix/
+photo.5.tags: laying down, mofumofu, portrait, tail
+photo.6: ig://43Q0jADwRT/m
+photo.6.author: parcsaintecroix
+photo.6.commitdate: 2020/3/31
+photo.6.link: https://www.instagram.com/parcsaintecroix/
+photo.6.tags: paws, peek, whiskers
+photo.7: ig://BA0DFpTDwc-/m
+photo.7.author: parcsaintecroix
+photo.7.commitdate: 2020/3/31
+photo.7.link: https://www.instagram.com/parcsaintecroix/
+photo.7.tags: laying down, mofumofu, portrait, profile, snow, tail
+photo.8: ig://BPKEdgVAAVy/m
+photo.8.author: parcsaintecroix
+photo.8.commitdate: 2020/3/31
+photo.8.link: https://www.instagram.com/parcsaintecroix/
+photo.8.tags: portrait, snow, white face
+photo.9: ig://BcT-KTBn9TO/m
+photo.9.author: parcsaintecroix
+photo.9.commitdate: 2020/3/31
+photo.9.link: https://www.instagram.com/parcsaintecroix/
+photo.9.tags: snow, tail, tongue
+photo.10: ig://BsU0-waHRfn/m
+photo.10.author: parcsaintecroix
+photo.10.commitdate: 2020/3/31
+photo.10.link: https://www.instagram.com/parcsaintecroix/
+photo.10.tags: portrait, snow, tail
+photo.11: ig://B9eTDS1HbTV/m
+photo.11.author: nathalie.elliott
+photo.11.commitdate: 2020/3/27
+photo.11.link: https://www.instagram.com/nathalie.elliott/
+photo.11.tags: bamboo, paws, portrait, tongue
+photo.12: ig://B-KwGUjHKWq/m
+photo.12.author: nathalie.elliott
+photo.12.commitdate: 2020/3/27
+photo.12.link: https://www.instagram.com/nathalie.elliott/
+photo.12.tags: peek, portrait
+species: 2
+zoo: 238

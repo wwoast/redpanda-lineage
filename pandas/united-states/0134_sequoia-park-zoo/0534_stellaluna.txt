@@ -1,0 +1,56 @@
+[panda]
+_id: 534
+birthday: 2005/6/24
+birthplace: 104
+children: 505, 640, 1003, 1004, 1005, 526, 870, 1095, 535, 536
+commitdate: 2019/3/2
+death: 2018/8/8
+en.name: Stella Luna
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ステラルーナ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 104, 2005/6/24
+location.2: 114, 2006/11/27
+location.3: 120, 2010/12/16
+location.4: 134, 2013/1/15
+photo.1: https://www.codaworry.com/images/rpf/stellaluna-1-sequoia.jpg
+photo.1.author: worldthathesees
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: profile
+photo.2: https://www.codaworry.com/images/rpf/stellaluna-2-sequoia.jpg
+photo.2.author: worldthathesees
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: home
+photo.3: https://www.codaworry.com/images/rpf/stellaluna-3-sequoia.jpg
+photo.3.author: worldthathesees
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: home, smile
+photo.4: https://www.codaworry.com/images/rpf/stellaluna-4-sequoia.jpg
+photo.4.author: worldthathesees
+photo.4.commitdate: 2019/4/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: home, paws
+photo.5: https://www.codaworry.com/images/rpf/stellaluna-5-sequoia.jpg
+photo.5.author: worldthathesees
+photo.5.commitdate: 2019/4/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: bamboo, smile, tongue
+photo.6: https://www.codaworry.com/images/rpf/stellaluna-6-sequoia.jpg
+photo.6.author: worldthathesees
+photo.6.commitdate: 2019/4/9
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: bamboo
+species: 1
+studbook.id: 0514
+video.1: https://youtu.be/A6KuktkHLuM
+video.1.author: Greg Nyquist
+video.1.link: https://www.youtube.com/channel/UCkXgXx_XMTgYpNggm3P9y9Q
+zoo: 134

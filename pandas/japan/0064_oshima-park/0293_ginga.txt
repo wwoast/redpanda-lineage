@@ -1,0 +1,95 @@
+[panda]
+_id: 293
+birthday: 2013/7/1
+birthplace: 4
+children: 294, 295, 296, 297
+commitdate: 2018/8/3
+en.name: Ginga
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ギンガ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 4, 2013/7/1
+location.2: 64, 2015/2/18
+photo.1: ig://BR0FDo5jv2z/m
+photo.1.author: huku.mum
+photo.1.commitdate: 2018/10/19
+photo.1.link: https://www.instagram.com/huku.mum/
+photo.1.tags: lunch time, portrait
+photo.2: ig://BUwTTe2hMs3/m
+photo.2.author: miis_98
+photo.2.commitdate: 2020/4/1
+photo.2.link: https://www.instagram.com/miis_98/
+photo.2.tags: paws, portrait, tree
+photo.3: ig://BV-yLush5eB/m
+photo.3.author: miis_98
+photo.3.commitdate: 2020/4/1
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: peek, portrait, tree
+photo.4: ig://BV_lQY-gzp-/m
+photo.4.author: panda.daisuki
+photo.4.commitdate: 2020/4/6
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: paws, portrait
+photo.5: ig://BXQfBh2Ba0Q/m
+photo.5.author: miis_98
+photo.5.commitdate: 2020/4/1
+photo.5.link: https://www.instagram.com/miis_98/
+photo.5.tags: paws, portrait, smile, tongue, whiskers
+photo.6: ig://BboitFJHvf6/m
+photo.6.author: monmon_redpanda
+photo.6.commitdate: 2018/10/19
+photo.6.link: https://www.instagram.com/monmon_redpanda/
+photo.6.tags: bamboo, portrait, profile, smile
+photo.7: ig://BdpFLrgFDJB/m
+photo.7.author: hanamaru_redpanda
+photo.7.commitdate: 2019/8/2
+photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.7.tags: mofumofu, portrait
+photo.8: ig://BfJ8u14hLgw/m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/4/1
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: bamboo, mofumofu, portrait
+photo.9: ig://BkrIeW4FbXf/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2018/10/6
+photo.9.link: https://www.instagram.com/panda.daisuki/
+photo.9.tags: portrait
+photo.10: ig://BzYIYBdBEFI/m
+photo.10.author: panda.daisuki
+photo.10.commitdate: 2019/7/2
+photo.10.link: https://www.instagram.com/panda.daisuki/
+photo.10.tags: portrait, tree
+photo.11: ig://B7zs84JBZ9r/m
+photo.11.author: grskus_tk
+photo.11.commitdate: 2020/1/28
+photo.11.link: https://www.instagram.com/grskus_tk/
+photo.11.tags: bamboo, portrait
+photo.12: ig://B9ff-ZdBniz/m
+photo.12.author: grskus_tk
+photo.12.commitdate: 2020/3/12
+photo.12.link: https://www.instagram.com/grskus_tk/
+photo.12.tags: mofumofu, portrait, whiskers
+photo.13: ig://B_w14r-nIZC/m
+photo.13.author: kipekaila
+photo.13.commitdate: 2020/5/5
+photo.13.link: https://www.instagram.com/kipekaila/
+photo.13.tags: portrait
+photo.14: ig://CCE-O3LhjMe/m
+photo.14.author: panda.daisuki
+photo.14.commitdate: 2020/7/1
+photo.14.link: https://www.instagram.com/panda.daisuki/
+photo.14.tags: laying down, paws, portrait, tree
+photo.15: ig://CFUVEK6hpbQ/m
+photo.15.author: grskus_tk
+photo.15.commitdate: 2020/9/24
+photo.15.link: https://www.instagram.com/grskus_tk/
+photo.15.tags: dish, portrait, videolink
+species: 2
+studbook.id: 13161
+zoo: 64

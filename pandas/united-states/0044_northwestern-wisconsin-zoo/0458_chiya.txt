@@ -1,0 +1,40 @@
+[panda]
+_id: 458
+birthday: 2016/6/21
+birthplace: 51
+children: none
+commitdate: 2020/5/28
+en.name: Chiya
+en.nicknames: none
+en.othernames: Chiyo
+gender: m
+jp.name: チヤ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 459
+location.1: 51, 2016/6/21
+location.2: 44, 2017/10/26
+photo.1: ig://B713XTXgZ51/m
+photo.1.author: newzoogb
+photo.1.commitdate: 2020/2/28
+photo.1.link: https://www.instagram.com/newzoogb/
+photo.1.tags: doctor, laying down
+photo.2: ig://CAu-7MoA3Ci/m
+photo.2.author: newzoogb
+photo.2.commitdate: 2020/5/28
+photo.2.link: https://www.instagram.com/newzoogb/
+photo.2.tags: laying down, portrait, profile
+photo.3: ig://CCbIWxwn8Qt/m
+photo.3.author: newzoogb
+photo.3.commitdate: 2020/11/8
+photo.3.link: https://www.instagram.com/newzoogb/
+photo.3.tags: laying down, paws, portrait, nose
+photo.4: ig://CHtjBM5HDBD/m
+photo.4.author: newzoogb
+photo.4.commitdate: 2021/1/8
+photo.4.link: https://www.instagram.com/newzoogb/
+photo.4.tags: whiskers
+species: 2
+studbook.id: 1611
+zoo: 44

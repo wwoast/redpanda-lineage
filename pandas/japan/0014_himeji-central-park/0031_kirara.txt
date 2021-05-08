@@ -1,0 +1,37 @@
+[panda]
+_id: 31
+birthday: 2005/6/23
+birthplace: 10
+children: 113, 239
+commitdate: 2018/6/18
+death: 2016/2/1
+en.name: Kirara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キララ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 21, 82
+location.1: 10, 2005/6/23
+location.2: 14, 2006/11/29
+photo.1: https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/33/92/07/650x_33920761.jpg?updated_at=1403353864
+photo.1.author: jilllucaさん
+photo.1.commitdate: 2018/8/31
+photo.1.link: http://4travel.jp/traveler/jillluka?lid=user_nickname_from_travelogue
+photo.2: https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/33/92/07/650x_33920766.jpg?updated_at=1403357095
+photo.2.author: jilllucaさん
+photo.2.commitdate: 2018/8/31
+photo.2.link: http://4travel.jp/traveler/jillluka?lid=user_nickname_from_travelogue
+photo.3: https://cdn.4travel.jp/img/thumbnails/imk/travelogue_pict/33/92/07/650x_33920771.jpg?updated_at=1403358155
+photo.3.author: jilllucaさん
+photo.3.commitdate: 2018/8/31
+photo.3.link: http://4travel.jp/traveler/jillluka?lid=user_nickname_from_travelogue
+photo.3.tags: apple time, profile
+species: 2
+studbook.id: 0552
+video.1: https://www.youtube.com/watch?v=IgrXCMGJlZk
+video.1.author: okoanMEW0504
+video.1.link: https://www.youtube.com/channel/UCOJ8l1xydKKP0jw70d4T7-Q
+zoo: 14

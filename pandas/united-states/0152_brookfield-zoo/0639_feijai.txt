@@ -1,0 +1,21 @@
+[panda]
+_id: 639
+birthday: 2014/6/17
+birthplace: 115
+children: none
+commitdate: 2019/3/19
+death: 2017/5/5
+en.name: Fei Jai
+en.nicknames: none
+en.othernames: Fei-Jai, Feijai
+gender: m
+jp.name: フェイジャイ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 115, 2014/6/17
+location.2: 152, 2017/2/28
+species: 1
+studbook.id: 1422
+zoo: 152

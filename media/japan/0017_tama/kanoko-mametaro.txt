@@ -1,0 +1,18 @@
+[media]
+_id: media.17.kanoko-mametarou
+commitdate: 2019/7/1
+panda.tags: 99, 100
+photo.1: ig://BLnjhTUjF4C/l
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/5/3
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: baby, siblings, twins
+photo.1.tags.99.location: 765, 640
+photo.1.tags.100.location: 280, 665
+photo.2: ig://BzFN4UQBV6Z/m
+photo.2.author: kotata_513
+photo.2.commitdate: 2019/7/1
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: bamboo, siblings, twins
+photo.2.tags.99.location: 210, 60
+photo.2.tags.100.location: 115, 80

@@ -1,0 +1,56 @@
+[panda]
+_id: 1010
+birthday: 2017/6/14
+birthplace: 213
+children: unknown
+commitdate: 2019/11/1
+en.name: N'mai
+en.nicknames: none
+en.othernames: none
+gender: m
+language.order: en
+litter: 1015
+location.1: 213, 2017/6/14
+location.2: 150, 2018/5/17
+photo.1: ig://Bi351WaFZqd/m
+photo.1.author: dublinzoo_official
+photo.1.commitdate: 2019/11/1
+photo.1.link: https://www.instagram.com/dublinzoo_official/
+photo.1.tags: tree
+photo.2: ig://BoORew8lNsl/m
+photo.2.author: dublinzoo_official
+photo.2.commitdate: 2019/11/1
+photo.2.link: https://www.instagram.com/dublinzoo_official/
+photo.2.tags: portrait, tail, tree
+photo.3: ig://Boi6mX5FVmg/m
+photo.3.author: dublinzoo_official
+photo.3.commitdate: 2019/11/1
+photo.3.link: https://www.instagram.com/dublinzoo_official/
+photo.3.tags: tail, tree
+photo.4: ig://Bq7DjX1FI1o/m
+photo.4.author: dublinzoo_official
+photo.4.commitdate: 2019/11/1
+photo.4.link: https://www.instagram.com/dublinzoo_official/
+photo.4.tags: mofumofu, portrait, tail, tree
+photo.5: ig://Brfiso6Fkmx/m
+photo.5.author: dublinzoo_official
+photo.5.commitdate: 2019/11/1
+photo.5.link: https://www.instagram.com/dublinzoo_official/
+photo.5.tags: climb, portrait, tree
+photo.6: ig://BjaP5hUB_f4/m
+photo.6.author: cian_s03
+photo.6.commitdate: 2019/11/1
+photo.6.link: https://www.instagram.com/cian_s03/
+photo.6.tags: portrait
+photo.7: ig://BjaPrhhh3M_/m
+photo.7.author: cian_s03
+photo.7.commitdate: 2019/11/1
+photo.7.link: https://www.instagram.com/cian_s03/
+photo.7.tags: portrait, tree
+photo.8: ig://BuD7ubvlSwP/m
+photo.8.author: dublinzoo_official
+photo.8.commitdate: 2019/11/1
+photo.8.link: https://www.instagram.com/dublinzoo_official/
+photo.8.tags: portrait, profile
+species: 1
+zoo: 150

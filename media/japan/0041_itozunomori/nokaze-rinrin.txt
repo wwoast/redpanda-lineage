@@ -1,0 +1,32 @@
+[media]
+_id: media.41.nokaze-rinrin
+commitdate: 2019/10/16
+panda.tags: 132, 133
+photo.1: ig://B3mLZssBo_R/m
+photo.1.author: re_ichimaru
+photo.1.commitdate: 2019/10/16
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.1.tags: couple, lunch time, window
+photo.1.tags.132.location: 200, 185
+photo.1.tags.133.location: 110, 185
+photo.2: ig://B5Ji_0jBK38/m
+photo.2.author: itozu_zoo
+photo.2.commitdate: 2020/5/7
+photo.2.link: https://www.instagram.com/itozu_zoo/
+photo.2.tags: couple, portrait
+photo.2.tags.132.location: 75, 115
+photo.2.tags.133.location: 205, 130
+photo.3: ig://B5J4EnvBlLt/m
+photo.3.author: yossi929
+photo.3.commitdate: 2019/11/24
+photo.3.link: https://www.instagram.com/yossi929/
+photo.3.tags: couple, playing
+photo.3.tags.132.location: 235, 150
+photo.3.tags.133.location: 135, 185
+photo.4: ig://CE7xXpmhb30/m
+photo.4.author: yossi929
+photo.4.commitdate: 2020/10/9
+photo.4.link: https://www.instagram.com/yossi929/
+photo.4.tags: couple, portrait, smile, whiskers
+photo.4.tags.132.location: 250, 110
+photo.4.tags.133.location: 80, 155

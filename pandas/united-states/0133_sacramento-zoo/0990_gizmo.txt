@@ -1,0 +1,82 @@
+[panda]
+_id: 990
+birthday: 2019/6/7
+birthplace: 133
+children: none
+commitdate: 2019/9/16
+en.name: Gizmo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ギズモ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://B0jC2f2Hv5R/m
+photo.1.author: sacramentozoo
+photo.1.commitdate: 2019/9/16
+photo.1.link: https://www.instagram.com/sacramentozoo/
+photo.1.tags: baby, keeper
+photo.2: ig://B2RxemAgNB3/m
+photo.2.author: sacramentozoo
+photo.2.commitdate: 2019/9/16
+photo.2.link: https://www.instagram.com/sacramentozoo/
+photo.2.tags: baby, mofumofu, smile
+photo.3: ig://B2o8WurHXSg/m
+photo.3.author: sacramentozoo
+photo.3.commitdate: 2019/10/16
+photo.3.link: https://www.instagram.com/sacramentozoo/
+photo.3.tags: baby
+photo.4: ig://B40RD07hFwG/m
+photo.4.author: sacramentozoo
+photo.4.commitdate: 2019/12/3
+photo.4.link: https://www.instagram.com/sacramentozoo/
+photo.4.tags: paws, smile
+photo.5: ig://B46kVOPgOFL/m
+photo.5.author: ohmygoat1
+photo.5.commitdate: 2019/11/26
+photo.5.link: https://www.instagram.com/ohmygoat1/
+photo.5.tags: baby, bamboo, mofumofu, tongue
+photo.6: ig://B488teagN7_/m
+photo.6.author: ohmygoat1
+photo.6.commitdate: 2019/11/26
+photo.6.link: https://www.instagram.com/ohmygoat1/
+photo.6.tags: baby, portrait, profile, whiskers
+photo.7: ig://B5G6yHkAX62/m
+photo.7.author: ohmygoat1
+photo.7.commitdate: 2019/11/26
+photo.7.link: https://www.instagram.com/ohmygoat1/
+photo.7.tags: baby, portrait, whiskers
+photo.8: ig://B5KB69lAhhl/m
+photo.8.author: ohmygoat1
+photo.8.commitdate: 2019/11/26
+photo.8.link: https://www.instagram.com/ohmygoat1/
+photo.8.tags: baby, portrait, whiskers
+photo.9: ig://B5LGNKagE7B/m
+photo.9.author: ohmygoat1
+photo.9.commitdate: 2019/11/26
+photo.9.link: https://www.instagram.com/ohmygoat1/
+photo.9.tags: baby
+photo.10: ig://B5RzEVdAveJ/m
+photo.10.author: ohmygoat1
+photo.10.commitdate: 2019/11/26
+photo.10.link: https://www.instagram.com/ohmygoat1/
+photo.10.tags: baby, laying down
+photo.11: ig://B88KGXkAL7v/m
+photo.11.author: ohmygoat1
+photo.11.commitdate: 2020/3/18
+photo.11.link: https://www.instagram.com/ohmygoat1/
+photo.11.tags: nose, white face
+photo.12: ig://B9iFYYqgwuA/m
+photo.12.author: ohmygoat1
+photo.12.commitdate: 2020/3/18
+photo.12.link: https://www.instagram.com/ohmygoat1/
+photo.12.tags: whiskers, white face
+photo.13: ig://CAExhnxhRyU/m
+photo.13.author: carsontheredpanda
+photo.13.commitdate: 2020/7/2
+photo.13.link: https://www.instagram.com/carsontheredpanda/
+photo.13.tags: paws, standing
+species: 1
+zoo: 133

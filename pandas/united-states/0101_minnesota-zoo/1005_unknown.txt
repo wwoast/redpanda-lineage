@@ -1,0 +1,20 @@
+[panda]
+_id: 1005
+birthday: 2009/6/29
+birthplace: 114
+children: none
+commitdate: 2019/10/27
+death: 2010/12/27
+en.name: (no name)
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1003, 1004
+location.1: 114, 2009/6/29
+location.2: 101, 2010/4/13
+species: 1
+zoo: 101

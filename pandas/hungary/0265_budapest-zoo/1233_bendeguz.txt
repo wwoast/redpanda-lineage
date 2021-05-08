@@ -1,0 +1,27 @@
+[panda]
+_id: 1233
+birthday: 2019/6/19
+birthplace: unknown
+children: none
+commitdate: 2020/11/24
+en.name: Bendegúz
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Bendegúz
+hu.nicknames: none
+hu.othernames: none
+jp.name: ベンデグス
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en
+litter: unknown
+location.1: unknown
+location.2: 265
+photo.1: ig://CCdkzR5qzUl/m
+photo.1.author: zoobudapest
+photo.1.commitdate: 2020/11/24
+photo.1.link: https://www.instagram.com/zoobudapest/
+photo.1.tags: ear, nose, eye, tongue
+species: 1
+zoo: 265

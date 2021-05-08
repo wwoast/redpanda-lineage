@@ -1,0 +1,26 @@
+[panda]
+_id: 377
+birthday: 2010/6/20
+birthplace: 6
+children: 175, 174, 173
+commitdate: 2018/10/28
+death: 2016/8/16
+en.name: Yuuka
+en.nicknames: none
+en.othernames: Yuka, Yūka
+gender: f
+jp.name: 優花
+jp.nicknames: none
+jp.othernames: ユウカ
+language.order: jp, en
+litter: none
+location.1: 6, 2010/6/20
+location.2: 46, 2012/3/23
+photo.1: https://www.codaworry.com/images/rpf/yuuka-tobe.jpg
+photo.1.author: gachon_kudo
+photo.1.commitdate: 2019/4/9
+photo.1.link: https://gachon.exblog.jp/
+photo.1.tags: profile, tree
+species: 2
+studbook.id: 1095
+zoo: 46

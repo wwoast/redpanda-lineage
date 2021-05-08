@@ -1,0 +1,53 @@
+[panda]
+_id: 1249
+birthday: 2012/7/4
+birthplace: 150
+children: 1247, 1248
+commitdate: 2020/12/29
+en.name: Nima
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ニマ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, np, jp
+litter: unknown
+location.1: 150, 2012/7/4
+location.2: 271, 2013/4/24
+np.name: निमा
+np.nicknames: none
+np.othernames: none
+photo.1: ig://Ykat7uQbL4/m
+photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
+photo.1.link: https://www.instagram.com/chesterzoo/
+photo.1.tags: close-up, portrait, whiskers
+photo.2: ig://1IpvvPQbHF/m
+photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
+photo.2.link: https://www.instagram.com/chesterzoo/
+photo.2.tags: peek, portrait, tree
+photo.3: ig://BBUs5sZwbId/m
+photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/chesterzoo/
+photo.3.tags: portrait, profile
+photo.4: ig://BFT2DniwbMJ/m
+photo.4.author: chesterzoo
+photo.4.commitdate: 2020/12/29
+photo.4.link: https://www.instagram.com/chesterzoo/
+photo.4.tags: ice treat, portrait, tongue
+photo.5: ig://BcskyHphxCe/m
+photo.5.author: chesterzoo
+photo.5.commitdate: 2020/12/29
+photo.5.link: https://www.instagram.com/chesterzoo/
+photo.5.tags: close-up, tongue, videolink
+photo.6: ig://BdHmmDVhQJ3/m
+photo.6.author: chesterzoo
+photo.6.commitdate: 2020/12/29
+photo.6.link: https://www.instagram.com/chesterzoo/
+photo.6.tags: close-up, portrait, whiskers
+species: 1
+studbook.id: 1290
+zoo: 271

@@ -1,0 +1,20 @@
+[zoo]
+_id: 55
+cn.address: unknown
+cn.location: 臺北市 中華民國
+cn.name: 臺北市立動物園
+commitdate: 2018/7/14
+en.address: No. 30, Section 2, Xinguang Road, Wenshan District, Taipei City, Taiwan 116
+en.location: Taipei City, Taiwan
+en.name: Taipei Zoo
+en.othernames: Muzha Zoo
+flag: Taiwan
+language.order: cn, en
+latitude: 24.9971631
+longitude: 121.5829622
+map: https://goo.gl/maps/9vr6Usew49x
+photo.1: ig://BqjdtXdn7fs/m
+photo.1.author: yulixyang
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/yulixyang/
+website: https://www.zoo.gov.taipei/Default.aspx

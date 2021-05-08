@@ -1,0 +1,20 @@
+[panda]
+_id: 902
+birthday: 2006/6/21
+birthplace: 95
+children: none
+commitdate: 2019/7/2
+death: 2011/3/5
+en.name: Yin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: イン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 903
+location.1: 95, 2006/6/21
+location.2: 145, 2007/5/7
+species: 1
+zoo: 145

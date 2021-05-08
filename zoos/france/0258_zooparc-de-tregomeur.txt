@@ -1,0 +1,15 @@
+[zoo]
+_id: 258
+commitdate: 2020/8/2
+en.address: 1 Moulin de Richard, 22590 Trégomeur, France
+en.location: Trégomeur, France
+en.name: Zooparc de Trégomeur
+flag: France
+fr.address: 1 Moulin de Richard, 22590 Trégomeur, France
+fr.location: Trégomeur, France
+fr.name: Zooparc de Trégomeur
+language.order: fr, en
+latitude: 48.5767794
+longitude: -2.894822
+map: https://goo.gl/maps/ARp1LbJDr619K86Z7
+website: https://www.zoo-tregomeur.com/

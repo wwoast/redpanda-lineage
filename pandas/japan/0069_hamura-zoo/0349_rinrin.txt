@@ -1,0 +1,54 @@
+[panda]
+_id: 349
+birthday: 2001/6/19
+birthplace: 31
+children: none
+commitdate: 2018/10/9
+en.name: Rin-Rin
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 玲玲
+jp.nicknames: none
+jp.othernames: リンリン
+language.order: jp, en
+litter: 615
+location.1: 31, 2001/6/19
+location.2: 69, 2005/2/23
+photo.1: ig://BdjDGpgDoGO/m
+photo.1.author: _rifa_p
+photo.1.commitdate: 2018/10/9
+photo.1.link: https://www.instagram.com/_rifa_p/
+photo.2: ig://BdqpsaFD4-2/m
+photo.2.author: _rifa_p
+photo.2.commitdate: 2019/10/27
+photo.2.link: https://www.instagram.com/_rifa_p/
+photo.2.tags: apple time, paws, window
+photo.3: ig://BgI2vu2FYiu/m
+photo.3.author: miis_98
+photo.3.commitdate: 2018/11/13
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: portrait, profile
+photo.4: ig://BmLPPPtFIZ1/m
+photo.4.author: rdpnzoo
+photo.4.commitdate: 2019/6/8
+photo.4.link: https://www.instagram.com/rdpnzoo/
+photo.4.tags: standing, tree
+photo.5: ig://B86CRHOh2o-/m
+photo.5.author: grskus_tk
+photo.5.commitdate: 2020/2/27
+photo.5.link: https://www.instagram.com/grskus_tk/
+photo.5.tags: portrait
+photo.6: ig://B-CodlIhVz2/m
+photo.6.author: mini_cochi
+photo.6.commitdate: 2020/3/24
+photo.6.link: https://www.instagram.com/mini_cochi/
+photo.6.tags: air tasting, paws, portrait, tongue
+photo.7: ig://CBnvwuUBICq/m
+photo.7.author: mini_cochi
+photo.7.commitdate: 2020/6/24
+photo.7.link: https://www.instagram.com/mini_cochi/
+photo.7.tags: apple time, keeper, paws, portrait
+species: 2
+studbook.id: 01115
+zoo: 69

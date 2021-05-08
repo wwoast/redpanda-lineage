@@ -1,0 +1,25 @@
+[panda]
+_id: 1123
+birthday: 1999/6/28
+birthplace: 118
+children: 1008, 791, 792
+commitdate: 2020/3/8
+death: 2016/1/19
+en.name: Wendee
+en.nicknames: none
+en.othernames: Wen-dee
+gender: f
+jp.name: ウェンディー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 118, 1999/6/28
+location.2: unknown, 2001/2/13
+location.3: 129, 2003/11/4
+location.4: 158, 2004/6/16
+location.5: 80, 2004/11/11
+location.6: 115, 2009/12/3
+location.7: 112, 2013/4/3
+species: 1
+zoo: 112

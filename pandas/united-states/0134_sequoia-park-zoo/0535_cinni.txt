@@ -1,0 +1,68 @@
+[panda]
+_id: 535
+birthday: 2014/7/9
+birthplace: 134
+children: none
+commitdate: 2019/3/2
+en.name: Cinni
+en.nicknames: none
+en.othernames: Cini
+gender: f
+jp.name: チニ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 536
+photo.1: ig://BAyXeobyf5u/m
+photo.1.author: sketchpoet
+photo.1.commitdate: 2019/3/17
+photo.1.link: https://www.instagram.com/sketchpoet/
+photo.1.tags: white face
+photo.2: ig://BBcF3UMyf_C/m
+photo.2.author: sketchpoet
+photo.2.commitdate: 2019/3/17
+photo.2.link: https://www.instagram.com/sketchpoet/
+photo.2.tags: bamboo, white face
+photo.3: ig://BPJ9mbTDQLA/m
+photo.3.author: sketchpoet
+photo.3.commitdate: 2019/3/17
+photo.3.link: https://www.instagram.com/sketchpoet/
+photo.3.tags: portrait, white face
+photo.4: ig://BPKDmUfD23f/m
+photo.4.author: sketchpoet
+photo.4.commitdate: 2019/3/17
+photo.4.link: https://www.instagram.com/sketchpoet/
+photo.4.tags: portrait, profile, white face
+photo.5: ig://BkWHV4QAEid/m
+photo.5.author: sweet_spot_photography
+photo.5.commitdate: 2019/4/5
+photo.5.link: https://www.instagram.com/sweet_spot_photography/
+photo.5.tags: bamboo, portrait, tongue
+photo.6: ig://Bl0vDCzj8z2/m
+photo.6.author: shittyasshole
+photo.6.commitdate: 2019/4/5
+photo.6.link: https://www.instagram.com/shittyasshole/
+photo.6.tags: bamboo
+photo.7: ig://B6s3HkEIcw3/m
+photo.7.author: sequoiaparkzoo
+photo.7.commitdate: 2020/8/17
+photo.7.link: https://www.instagram.com/sequoiaparkzoo/
+photo.7.tags: bamboo, portrait
+photo.8: ig://CEA1enFh85c/m
+photo.8.author: wumpwoast
+photo.8.commitdate: 2020/9/7
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.tags: portrait, white face
+photo.9: ig://CEPqlBLhdbC/m
+photo.9.author: wumpwoast
+photo.9.commitdate: 2020/9/7
+photo.9.link: https://www.instagram.com/wumpwoast/
+photo.9.tags: bamboo, paws, portrait, shoots, white face
+photo.10: ig://CIvT_CbLtTH/m
+photo.10.author: sequoiaparkzoo
+photo.10.commitdate: 2020/12/21
+photo.10.link: https://www.instagram.com/sequoiaparkzoo/
+photo.10.tags: bamboo, portrait, tail
+species: 1
+studbook.id: 1449
+zoo: 134

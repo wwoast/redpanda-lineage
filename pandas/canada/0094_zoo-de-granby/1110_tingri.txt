@@ -1,0 +1,20 @@
+[panda]
+_id: 1110
+birthday: 1995/7/14
+birthplace: 96
+children: none
+commitdate: 2020/2/29
+death: 2007/12/8
+en.name: Tingri
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: チングリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1109
+location.1: 96, 1995/7/14
+location.2: 94, 2002/10/27
+species: 1
+zoo: 94

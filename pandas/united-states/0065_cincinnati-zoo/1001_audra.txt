@@ -1,0 +1,72 @@
+[panda]
+_id: 1001
+birthday: 2019/7/5
+birthplace: 65
+children: none
+commitdate: 2019/10/25
+en.name: Audra
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: オードラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1002
+photo.1: ig://B56EjwyHiRX/m
+photo.1.author: shaesavestheplanet
+photo.1.commitdate: 2020/2/23
+photo.1.link: https://www.instagram.com/shaesavestheplanet/
+photo.1.tags: keeper, portrait
+photo.2: ig://B6zFS1qhXVm/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2020/1/3
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: baby, nose, portrait, snow
+photo.3: ig://B606_S9hlPA/m
+photo.3.author: worldthathesees
+photo.3.commitdate: 2020/1/9
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: baby, bamboo, whiskers, snow
+photo.4: ig://B612OJTBvXc/m
+photo.4.author: worldthathesees
+photo.4.commitdate: 2020/1/9
+photo.4.link: https://www.instagram.com/worldthathesees/
+photo.4.tags: baby, mofumofu, portrait, snow
+photo.5: ig://B621JdnAIIW/m
+photo.5.author: cincinnatizoo
+photo.5.commitdate: 2020/1/9
+photo.5.link: https://www.instagram.com/cincinnatizoo/
+photo.5.tags: mofumofu, tail, wet
+photo.6: ig://B64btoHBix7/m
+photo.6.author: worldthathesees
+photo.6.commitdate: 2020/1/11
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: bamboo, snow, tail
+photo.7: ig://B66KHumB7NF/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2020/1/9
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: bamboo, portrait, snow
+photo.8: ig://B8SuLNqlwZe/m
+photo.8.author: andersonkelley
+photo.8.commitdate: 2020/2/24
+photo.8.link: https://www.instagram.com/andersonkelley/
+photo.8.tags: peek
+photo.9: ig://B8mVW3gFwc5/m
+photo.9.author: jiayue_2015
+photo.9.commitdate: 2020/2/29
+photo.9.link: https://www.instagram.com/jiayue_2015/
+photo.9.tags: mofumofu, portrait, tongue
+photo.10: ig://CAFkcWMgDAn/m
+photo.10.author: cincinnatizoo
+photo.10.commitdate: 2020/6/24
+photo.10.link: https://www.instagram.com/cincinnatizoo/
+photo.10.tags: mofumofu, videolink
+photo.11: ig://CH7smEgL_yz/m
+photo.11.author: rossifari
+photo.11.commitdate: 2020/12/6
+photo.11.link: https://www.instagram.com/rossifari/
+photo.11.tags: portrait, whiskers
+species: 2
+zoo: 65

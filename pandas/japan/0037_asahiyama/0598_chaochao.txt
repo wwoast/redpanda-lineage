@@ -1,0 +1,21 @@
+[panda]
+_id: 598
+birthday: 1991/6/18
+birthplace: 13
+children: 599, 466, 588, 601, 600
+commitdate: 2019/3/19
+death: 2013/7/30
+en.name: Chao-Chao
+en.nicknames: none
+en.othernames: Chaochao
+gender: f
+jp.name: チャオチャオ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 495
+location.1: 13, 1991/6/18
+location.2: 37, 1993/4/22
+species: 2
+studbook.id: 9171
+zoo: 37

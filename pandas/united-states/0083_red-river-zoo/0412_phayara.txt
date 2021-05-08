@@ -1,0 +1,79 @@
+[panda]
+_id: 412
+birthday: 2014/7/3
+birthplace: 90
+children: none
+commitdate: 2018/11/23
+en.name: Phayara
+en.nicknames: none
+en.othernames: Faye
+gender: f
+jp.name: ファヤラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 90, 2014/7/3
+location.2: 83, 2015/4/16
+photo.1: ig://5ZhlmHSkF8/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/23
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: bamboo, profile, smile, tongue
+photo.2: ig://BBhAOrpSf5W/m
+photo.2.author: sketchpoet
+photo.2.commitdate: 2019/4/9
+photo.2.link: https://www.instagram.com/sketchpoet/
+photo.2.tags: paws
+photo.3: ig://BBjYzgTyf5M/m
+photo.3.author: sketchpoet
+photo.3.commitdate: 2019/4/9
+photo.3.link: https://www.instagram.com/sketchpoet/
+photo.3.tags: tongue
+photo.4: ig://BLox_25Ah9S/m
+photo.4.author: shadefenix
+photo.4.commitdate: 2020/2/3
+photo.4.link: https://www.instagram.com/shadefenix/
+photo.4.tags: portrait
+photo.5: ig://BUzyYzaAZJr/m
+photo.5.author: not_a_racoon
+photo.5.commitdate: 2020/2/3
+photo.5.link: https://www.instagram.com/not_a_racoon/
+photo.5.tags: portrait, snow
+photo.6: ig://BaFRqlCFrlg/m
+photo.6.author: oliviaclennon
+photo.6.commitdate: 2020/2/3
+photo.6.link: https://www.instagram.com/oliviaclennon/
+photo.6.tags: portrait
+photo.7: ig://BerGzGVhMj4/m
+photo.7.author: redriverzoo
+photo.7.commitdate: 2020/2/3
+photo.7.link: https://www.instagram.com/redriverzoo/
+photo.7.tags: portrait
+photo.8: ig://BesdsbcB-Gz/m
+photo.8.author: redriverzoo
+photo.8.commitdate: 2020/2/3
+photo.8.link: https://www.instagram.com/redriverzoo/
+photo.8.tags: paws, smile, tree
+photo.9: ig://Be8kzWlBa0D/m
+photo.9.author: redriverzoo
+photo.9.commitdate: 2020/2/3
+photo.9.link: https://www.instagram.com/redriverzoo/
+photo.9.tags: paws, whiskers
+photo.10: ig://Bt9BZdIgtFu/m
+photo.10.author: sketchpoet
+photo.10.commitdate: 2019/4/9
+photo.10.link: https://www.instagram.com/sketchpoet/
+photo.10.tags: paws
+photo.11: ig://BwaAEZWFXa6/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2019/4/23
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.12: ig://B4_R9LRlRGW/m
+photo.12.author: ughserena
+photo.12.commitdate: 2020/2/3
+photo.12.link: https://www.instagram.com/ughserena/
+photo.12.tags: peek, tree
+species: 2
+studbook.id: 1442
+zoo: 83

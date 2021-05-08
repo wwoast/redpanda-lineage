@@ -1,0 +1,44 @@
+[panda]
+_id: 1091
+birthday: 2017/7/27
+birthplace: 234
+children: 1219, 1220
+commitdate: 2020/1/14
+en.name: Sara
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: サラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 234, 2017/7/27
+location.2: 198, 2014/6/22
+photo.1: ig://BsyWTKTl7xA/m
+photo.1.author: curraghswildlifepark
+photo.1.commitdate: 2020/1/14
+photo.1.link: https://www.instagram.com/curraghswildlifepark/
+photo.1.tags: blink, portrait, profile, tail, techitechi
+photo.2: ig://Bza8kEtpPV1/m
+photo.2.author: curraghswildlifepark
+photo.2.commitdate: 2020/9/7
+photo.2.link: https://www.instagram.com/curraghswildlifepark/
+photo.2.tags: portrait, smile
+photo.3: ig://B0dufE4JPp5/m
+photo.3.author: curraghswildlifepark
+photo.3.commitdate: 2020/1/14
+photo.3.link: https://www.instagram.com/curraghswildlifepark/
+photo.3.tags: dish, portrait, wet
+photo.4: ig://B6Y3JhJJ49b/m
+photo.4.author: curraghswildlifepark
+photo.4.commitdate: 2020/1/14
+photo.4.link: https://www.instagram.com/curraghswildlifepark/
+photo.4.tags: portrait, white face
+photo.5: ig://CA5qweIpw7q/m
+photo.5.author: curraghswildlifepark
+photo.5.commitdate: 2020/9/7
+photo.5.link: https://www.instagram.com/curraghswildlifepark/
+photo.5.tags: bridge, portrait, white face
+species: 1
+zoo: 198

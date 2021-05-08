@@ -1,0 +1,15 @@
+[zoo]
+_id: 262
+commitdate: 2020/8/19
+en.address: Barchman Wuytierslaan 224, 3819 AC Amersfoort, Netherlands
+en.location: Amersfoort, Netherlands
+en.name: DierenPark Amersfoort
+flag: Netherlands
+language.order: nl, en
+latitude: 52.1518484
+longitude: 5.33946
+map: https://goo.gl/maps/cnSsGqhg5cmqMATg8
+nl.address: Barchman Wuytierslaan 224, 3819 AC Amersfoort, Netherlands
+nl.location: Amersfoort, Netherlands
+nl.name: DierenPark Amersfoort
+website: https://dierenparkamersfoort.nl/

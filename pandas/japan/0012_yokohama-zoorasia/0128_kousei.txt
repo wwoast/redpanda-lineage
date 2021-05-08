@@ -1,0 +1,80 @@
+[panda]
+_id: 128
+birthday: 2000/6/27
+birthplace: 13
+children: none
+commitdate: 2018/6/27
+death: 2018/4/3
+en.name: Kousei
+en.nicknames: Stork
+en.othernames: none
+gender: m
+jp.name: コウセイ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 341
+location.1: 13, 2000/6/27
+location.2: 12, 2003/12/26
+photo.1: ig://BD-gLg8KoAM/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/4/19
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.2: ig://BIPkPJLj4-t/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/4/19
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: apple time, lips, paws
+photo.3: ig://BKidFrUjtVm/m
+photo.3.author: minatomirai215
+photo.3.commitdate: 2020/4/19
+photo.3.link: https://www.instagram.com/minatomirai215/
+photo.3.tags: apple time, smile
+photo.4: ig://BO2AOX7DEUL/m
+photo.4.author: minatomirai215
+photo.4.commitdate: 2020/4/19
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: peek
+photo.5: ig://BPjbjVaD2fm/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2018/7/20
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: grooming, tail
+photo.6: ig://BRQSFrsAvsm/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2020/4/19
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: door, home, portrait, tail
+photo.7: ig://BStURMGBGLV/m
+photo.7.author: 218_yu
+photo.7.commitdate: 2019/8/2
+photo.7.link: https://www.instagram.com/218_yu/
+photo.7.tags: laying down
+photo.8: ig://BVbZ9jmB2WY/m
+photo.8.author: miis_98
+photo.8.commitdate: 2020/4/1
+photo.8.link: https://www.instagram.com/miis_98/
+photo.8.tags: apple time, keeper, paws, smile
+photo.9: ig://BXejN-TBPSA/m
+photo.9.author: tabechum
+photo.9.commitdate: 2020/4/1
+photo.9.link: https://www.instagram.com/tabechum/
+photo.9.tags: apple time, keeper, paws, portrait
+photo.10: ig://BhVjgY2BSVX/m
+photo.10.author: minatomirai215
+photo.10.commitdate: 2018/7/20
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: grooming
+photo.11: ig://BhasYq0lbiw/m
+photo.11.author: miis_98
+photo.11.commitdate: 2018/7/20
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: profile
+photo.12: ig://B_Ef_qLB_Cj/m
+photo.12.author: ifumoto88
+photo.12.commitdate: 2021/1/5
+photo.12.link: https://www.instagram.com/ifumoto88/
+photo.12.tags: paws, portrait
+species: 2
+studbook.id: 0087
+zoo: 12

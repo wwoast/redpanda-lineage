@@ -1,0 +1,25 @@
+[zoo]
+_id: 180
+commitdate: 2019/3/25
+en.address: Sloat Blvd & Great Highway, San Francisco, CA 94132, United States
+en.location: San Francisco, California, USA
+en.name: San Francisco Zoo
+flag: USA
+language.order: en
+latitude: 37.7332206
+longitude: -122.5075049
+map: https://goo.gl/maps/H7Dy1JJ2Mtt
+photo.1: ig://B2cQkodHRAF/m
+photo.1.author: sanfranciscozoo
+photo.1.commitdate: 2019/9/18
+photo.1.link: https://www.instagram.com/sanfranciscozoo/
+photo.1.tags: profile
+photo.2: ig://BuFTJaknNbN/m
+photo.2.author: sanfranciscozoo
+photo.2.commitdate: 2019/9/18
+photo.2.link: https://www.instagram.com/sanfranciscozoo/
+photo.3: ig://BdN7lWnlh7p/m
+photo.3.author: sanfranciscozoo
+photo.3.commitdate: 2019/9/18
+photo.3.link: https://www.instagram.com/sanfranciscozoo/
+website: http://www.sfzoo.org/

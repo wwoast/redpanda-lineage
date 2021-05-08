@@ -1,0 +1,80 @@
+[panda]
+_id: 72
+birthday: 2006/6/2
+birthplace: 8
+children: 377, 180, 144, 130, 69
+commitdate: 2018/6/22
+en.name: Fuuka
+en.nicknames: none
+en.othernames: Fuka, Fūka
+gender: f
+jp.name: 風花
+jp.nicknames: none
+jp.othernames: フウカ
+language.order: jp, en
+litter: 48
+location.1: 8, 2006/6/2
+location.2: 6, 2008/6/30
+location.3: 41, 2014/4/9
+location.4: 6, 2015/11/17
+photo.1: ig://Bi_r9TilMax/m
+photo.1.author: re_ichimaru
+photo.1.commitdate: 2018/7/19
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.2: ig://BoKHRavllc5/m
+photo.2.author: animal_love_us
+photo.2.commitdate: 2018/10/1
+photo.2.link: https://www.instagram.com/animal_love_us/
+photo.2.tags: bear worm, sleeping
+photo.3: ig://BpSAERXFii9/m
+photo.3.author: makimaru18
+photo.3.commitdate: 2018/10/23
+photo.3.link: https://www.instagram.com/makimaru18/
+photo.3.tags: profile
+photo.4: ig://Bq_aO4GlJoD/m
+photo.4.author: perie1027vivi
+photo.4.commitdate: 2018/12/6
+photo.4.link: https://www.instagram.com/perie1027vivi/
+photo.5: ig://BtSOlGYltPN/m
+photo.5.author: fetorus_mami
+photo.5.commitdate: 2019/10/14
+photo.5.link: https://www.instagram.com/fetorus_mami/
+photo.5.tags: bamboo, smile
+photo.6: ig://Bu7wOdIF3-e/m
+photo.6.author: nakacchi_desu
+photo.6.commitdate: 2019/10/14
+photo.6.link: https://www.instagram.com/nakacchi_desu/
+photo.6.tags: peek
+photo.7: ig://Bu_nfYPlRXo/m
+photo.7.author: animal_love_us
+photo.7.commitdate: 2020/2/3
+photo.7.link: https://www.instagram.com/animal_love_us/
+photo.7.tags: grooming, paws, portrait, tongue
+photo.8: ig://BwLPifAFjjg/m
+photo.8.author: animal_love_us
+photo.8.commitdate: 2020/2/3
+photo.8.link: https://www.instagram.com/animal_love_us/
+photo.8.tags: blink, nose, portrait, whiskers
+photo.9: ig://Bxk-soyFyx8/m
+photo.9.author: kipekaila
+photo.9.commitdate: 2019/5/20
+photo.9.link: https://www.instagram.com/kipekaila/
+photo.9.tags: mofumofu
+photo.10: ig://B2uzs0lhq_i/m
+photo.10.author: rie_panda55
+photo.10.commitdate: 2019/9/26
+photo.10.link: https://www.instagram.com/rie_panda55/
+photo.10.tags: laying down, portrait
+photo.11: ig://B5m1Ln6B5mZ/m
+photo.11.author: craig_craig_craig
+photo.11.commitdate: 2019/12/7
+photo.11.link: https://www.instagram.com/craig_craig_craig/
+photo.11.tags: apple time, window
+photo.12: ig://CA74nRHh8LZ/m
+photo.12.author: minatomirai215
+photo.12.commitdate: 2020/6/3
+photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: bamboo, paws, portrait, smile, tail
+species: 2
+studbook.id: 0663
+zoo: 6

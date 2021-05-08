@@ -1,0 +1,44 @@
+[panda]
+_id: 278
+birthday: 2017/7/8
+birthplace: 59
+children: none
+commitdate: 2018/7/29
+death: 2018/2/1
+en.name: Tsubasa
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: つばさ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 277, 279
+photo.1: ig://BdcSMqJla9T/m
+photo.1.author: hanamaru_redpanda
+photo.1.commitdate: 2018/12/23
+photo.1.link: https://www.instagram.com/hanamaru_redpanda/
+photo.1.tags: baby, dish
+photo.2: ig://Bdq5AVxn3HL/m
+photo.2.author: kotata_513
+photo.2.commitdate: 2018/7/30
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: baby, tree
+photo.3: ig://BeKJCfmBkjC/m
+photo.3.author: miis_98
+photo.3.commitdate: 2018/7/30
+photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: baby, profile, tree
+photo.4: ig://Be87VufBLiZ/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2018/7/30
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: baby, tree
+photo.5: ig://BpwyKDIAxyM/m
+photo.5.author: happy_love2.15
+photo.5.commitdate: 2020/8/13
+photo.5.link: https://www.instagram.com/happy_love2.15/
+photo.5.tags: baby, bamboo, mofumofu, paws, portrait, tail, tree
+species: 1
+studbook.id: 1792
+zoo: 59

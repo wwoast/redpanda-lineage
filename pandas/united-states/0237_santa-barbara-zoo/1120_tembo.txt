@@ -1,0 +1,21 @@
+[panda]
+_id: 1120
+birthday: 1996/6/14
+birthplace: 118
+children: none
+commitdate: 2020/3/8
+death: 2002/12/3
+en.name: Tembo
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: テンボ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1119
+location.1: 118, 1996/6/14
+location.2: 85, 1997/2/20
+location.3: 237, 2000/2/28
+species: 1
+zoo: 237

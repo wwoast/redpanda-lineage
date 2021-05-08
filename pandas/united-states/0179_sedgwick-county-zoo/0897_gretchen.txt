@@ -1,0 +1,22 @@
+[panda]
+_id: 897
+birthday: 2004/6/27
+birthplace: 95
+children: 1136, 1137, 836, 837, 817, 863, 693, 694
+commitdate: 2019/7/2
+death: 2017/2/28
+en.name: Gretchen
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: グレートヒェン
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 503
+location.1: 95, 2004/6/27
+location.2: 141, 2005/11/2
+location.3: 179, 2009/4/9
+species: 1
+studbook.id: 0425
+zoo: 179

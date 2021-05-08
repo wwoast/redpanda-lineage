@@ -1,0 +1,23 @@
+[panda]
+_id: 426
+birthday: 2003/6/18
+birthplace: 76
+children: 424, 401, 400, 448, 393, 432, 449, 427, 428, 429
+commitdate: 2018/11/23
+en.name: Rufus
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ルフス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: ig://CFITeyrjwNl/m
+photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2020/9/16
+photo.1.link: https://www.instagram.com/assiniboineparkzoo/
+photo.1.tags: peek, profile, nose
+species: 2
+studbook.id: 0304
+zoo: 76

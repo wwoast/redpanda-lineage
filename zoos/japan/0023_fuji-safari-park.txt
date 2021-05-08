@@ -1,0 +1,27 @@
+[zoo]
+_id: 23
+commitdate: 2018/6/18
+en.address: Japan, 〒410-1231 Shizuoka Prefecture, Susono, Suyama, 字藤原2255−27
+en.location: Susuno, Shizuoka Prefecture, Japan
+en.name: Fuji Safari Park
+flag: Japan
+jp.address: 〒410-1231 静岡県裾野市須山字藤原2255−27
+jp.location: 裾野市 静岡県
+jp.name: 富士サファリパーク 公式サイト
+language.order: jp, en
+latitude: 35.2587801
+longitude: 138.8076475
+map: https://goo.gl/maps/PLj4TTrSWVN2
+photo.1: ig://BdXoC6Pnrlt/m
+photo.1.author: fuji_safari
+photo.1.commitdate: 2019/4/30
+photo.1.link: https://www.instagram.com/fuji_safari/
+photo.2: ig://B5Zriquh37z/m
+photo.2.author: fuji_safari
+photo.2.commitdate: 2020/1/14
+photo.2.link: https://www.instagram.com/fuji_safari/
+photo.3: ig://CEdNi96BeaM/m
+photo.3.author: fuji_safari
+photo.3.commitdate: 2020/12/12
+photo.3.link: https://www.instagram.com/fuji_safari/
+website: https://www.fujisafari.co.jp/

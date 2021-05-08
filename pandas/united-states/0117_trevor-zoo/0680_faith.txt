@@ -1,0 +1,32 @@
+[panda]
+_id: 680
+birthday: 2014/6/11
+birthplace: 117
+children: 579, 687, 688, 689
+commitdate: 2019/3/24
+death: 2019/5/31
+en.name: Faith
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: フェイス
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 541
+location.1: 117, 2014/6/11
+location.2: 131, 2015/5/11
+location.3: 117, 2018/5/29
+photo.1: ig://Bn4q1gwFtPw/m
+photo.1.author: trevorzoomillbrook
+photo.1.commitdate: 2019/4/1
+photo.1.link: https://www.instagram.com/trevorzoomillbrook/
+photo.1.tags: paws, tongue
+photo.2: ig://Bv6oYSZlwi9/m
+photo.2.author: millbrooklove
+photo.2.commitdate: 2019/4/7
+photo.2.link: https://www.instagram.com/millbrooklove/
+photo.2.tags: profile, smile
+species: 1
+studbook.id: 1409
+zoo: 117
