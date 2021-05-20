@@ -579,8 +579,9 @@ photo.114.author: westcoast_kathy
 photo.114.commitdate: 2021/4/3
 photo.114.link: https://www.instagram.com/westcoast_kathy/
 photo.114.tags: paws, playing, portrait, smile, snow, whiskers
-photo.115: https://www.instagram.com/p/CN8v1z1A6le/media/?size=m
+photo.115: ig://CN8v1z1A6le/m
 photo.115.author: westcoast_kathy
+photo.115.commitdate: 2021/5/19
 photo.115.link: https://www.instagram.com/westcoast_kathy/
 photo.115.tags: portrait, smile, whiskers
 species: 2

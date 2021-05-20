@@ -1928,15 +1928,16 @@ photo.384.author: miis_98
 photo.384.commitdate: 2021/4/29
 photo.384.link: https://www.instagram.com/miis_98/
 photo.384.tags: portrait, whiskers
-photo.385: ig://CORNBDOhZiY/m
-photo.385.author: yossi929
-photo.385.commitdate: 2021/5/3
-photo.385.link: https://www.instagram.com/yossi929/
-photo.385.tags: bamboo, mofumofu, portrait
-photo.386: https://www.instagram.com/p/CN37_dkBiAL/media/?size=m
-photo.386.author: re_ichimaru
-photo.386.link: https://www.instagram.com/re_ichimaru/
-photo.386.tags: bite, paws, portrait, toys
+photo.385: ig://CN37_dkBiAL/m
+photo.385.author: re_ichimaru
+photo.385.commitdate: 2021/5/19
+photo.385.link: https://www.instagram.com/re_ichimaru/
+photo.385.tags: bite, paws, portrait, toys
+photo.386: ig://CORNBDOhZiY/m
+photo.386.author: yossi929
+photo.386.commitdate: 2021/5/3
+photo.386.link: https://www.instagram.com/yossi929/
+photo.386.tags: bamboo, mofumofu, portrait
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44

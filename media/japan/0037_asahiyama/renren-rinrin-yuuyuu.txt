@@ -1,8 +1,10 @@
 [media]
 _id: media.37.renren-rinrin-yuuyuu
+commitdate: 2021/5/19
 panda.tags: 227, 1189, 1190
-photo.1: https://www.instagram.com/p/CIpT1_KBJMf/media/?size=l
+photo.1: ig://CIpT1_KBJMf/l
 photo.1.author: kotata_513
+photo.1.commitdate: 2021/5/19
 photo.1.link: https://www.instagram.com/kotata_513/
 photo.1.tags: apple time, mother's day, siblings, snow, twins
 photo.1.tags.227.location: 315, 200
