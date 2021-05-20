@@ -218,15 +218,16 @@ photo.41.author: alto0908
 photo.41.commitdate: 2021/5/3
 photo.41.link: https://www.instagram.com/alto0908/
 photo.41.tags: portrait, whiskers
-photo.42: ig://COAoGIoBqq1/m
-photo.42.author: hamiiiii831_
-photo.42.commitdate: 2021/5/19
-photo.42.link: https://www.instagram.com/hamiiiii831_/
-photo.42.tags: paws, whiskers
-photo.43: https://www.instagram.com/p/CN_dFfDBiUP/media/?size=m
-photo.43.author: o_deka_ke
-photo.43.link: https://www.instagram.com/o_deka_ke/
-photo.43.tags: close-up, portrait, smile, tongue, videolink
+photo.42: ig://CN_dFfDBiUP/m
+photo.42.author: o_deka_ke
+photo.42.commitdate: 2021/5/20
+photo.42.link: https://www.instagram.com/o_deka_ke/
+photo.42.tags: close-up, portrait, smile, tongue, videolink
+photo.43: ig://COAoGIoBqq1/m
+photo.43.author: hamiiiii831_
+photo.43.commitdate: 2021/5/19
+photo.43.link: https://www.instagram.com/hamiiiii831_/
+photo.43.tags: paws, whiskers
 species: 2
 studbook.id: 0986
 zoo: 53

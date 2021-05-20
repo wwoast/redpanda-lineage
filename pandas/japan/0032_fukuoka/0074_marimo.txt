@@ -509,15 +509,16 @@ photo.100.author: fukuokazoo
 photo.100.commitdate: 2021/3/29
 photo.100.link: https://www.instagram.com/fukuokazoo/
 photo.100.tags: portrait, snow, tail
-photo.101: ig://COPvm59hAqZ/m
+photo.101: ig://CN9BuhIB1Ch/m
 photo.101.author: re_ichimaru
-photo.101.commitdate: 2021/5/4
+photo.101.commitdate: 2021/5/20
 photo.101.link: https://www.instagram.com/re_ichimaru/
-photo.101.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
-photo.102: https://www.instagram.com/p/CN9BuhIB1Ch/media/?size=m
+photo.101.tags: paws, portrait, smile, standing
+photo.102: ig://COPvm59hAqZ/m
 photo.102.author: re_ichimaru
+photo.102.commitdate: 2021/5/4
 photo.102.link: https://www.instagram.com/re_ichimaru/
-photo.102.tags: paws, portrait, smile, standing
+photo.102.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
 species: 2
 studbook.id: 0862
 zoo: 32

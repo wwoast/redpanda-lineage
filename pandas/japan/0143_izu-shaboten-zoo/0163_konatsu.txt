@@ -806,14 +806,16 @@ photo.160.author: pink.b22
 photo.160.commitdate: 2021/5/19
 photo.160.link: https://www.instagram.com/pink.b22/
 photo.160.tags: paws, peek, portrait, whiskers
-photo.161: https://www.instagram.com/p/COBoftCBdf-/media/?size=m
-photo.161.author: pink.b22
-photo.161.link: https://www.instagram.com/pink.b22/
-photo.161.tags: mofumofu, portrait, smile, whiskers
-photo.162: https://www.instagram.com/p/CN-BBRQB0Wz/media/?size=m
-photo.162.author: redpan22
-photo.162.link: https://www.instagram.com/redpan22/
-photo.162.tags: peek, tongue, whiskers
+photo.161: ig://CN-BBRQB0Wz/m
+photo.161.author: redpan22
+photo.161.commitdate: 2021/5/20
+photo.161.link: https://www.instagram.com/redpan22/
+photo.161.tags: peek, tongue, whiskers
+photo.162: ig://COBoftCBdf-/m
+photo.162.author: pink.b22
+photo.162.commitdate: 2021/5/20
+photo.162.link: https://www.instagram.com/pink.b22/
+photo.162.tags: mofumofu, portrait, smile, whiskers
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k

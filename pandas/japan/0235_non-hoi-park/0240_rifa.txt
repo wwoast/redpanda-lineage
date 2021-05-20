@@ -1662,8 +1662,9 @@ photo.331.author: hamamatsu.chiita
 photo.331.commitdate: 2021/4/29
 photo.331.link: https://www.instagram.com/hamamatsu.chiita/
 photo.331.tags: bamboo, paws, portrait, standing
-photo.332: https://www.instagram.com/p/CN-gv_NBdlT/media/?size=m
+photo.332: ig://CN-gv_NBdlT/m
 photo.332.author: eos1089
+photo.332.commitdate: 2021/5/20
 photo.332.link: https://www.instagram.com/eos1089/
 photo.332.tags: paws, portrait, smile, whiskers
 species: 2
