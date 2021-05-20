@@ -293,8 +293,9 @@ photo.56.author: miis_98
 photo.56.commitdate: 2021/3/4
 photo.56.link: https://www.instagram.com/miis_98/
 photo.56.tags: bamboo, portrait
-photo.57: https://www.instagram.com/p/CN_jjLPhJFm/media/?size=m
+photo.57: ig://CN_jjLPhJFm/m
 photo.57.author: lesserpanda_shizuokacity_cp
+photo.57.commitdate: 2021/5/19
 photo.57.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.57.tags: portrait, whiskers
 species: 2

@@ -361,15 +361,16 @@ photo.70.author: kipekaila
 photo.70.commitdate: 2020/12/3
 photo.70.link: https://www.instagram.com/kipekaila/
 photo.70.tags: bamboo, portrait, smile
-photo.71: ig://COPKcRfhjsa/m
-photo.71.author: hidehaya_biei
-photo.71.commitdate: 2021/5/3
-photo.71.link: https://www.instagram.com/hidehaya_biei/
-photo.71.tags: mofumofu, techitechi, whiskers
-photo.72: https://www.instagram.com/p/CN7JxKaByl3/media/?size=m
-photo.72.author: happy_love2.15
-photo.72.link: https://www.instagram.com/happy_love2.15/
-photo.72.tags: paws, portrait, smile
+photo.71: ig://CN7JxKaByl3/m
+photo.71.author: happy_love2.15
+photo.71.commitdate: 2021/5/19
+photo.71.link: https://www.instagram.com/happy_love2.15/
+photo.71.tags: paws, portrait, smile
+photo.72: ig://COPKcRfhjsa/m
+photo.72.author: hidehaya_biei
+photo.72.commitdate: 2021/5/3
+photo.72.link: https://www.instagram.com/hidehaya_biei/
+photo.72.tags: mofumofu, techitechi, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45

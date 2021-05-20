@@ -215,8 +215,9 @@ photo.41.author: love__mitarashi
 photo.41.commitdate: 2021/4/3
 photo.41.link: https://www.instagram.com/love__mitarashi/
 photo.41.tags: home, itchy, portrait, tail
-photo.42: https://www.instagram.com/p/CN7aDUkBOBa/media/?size=m
+photo.42: ig://CN7aDUkBOBa/m
 photo.42.author: love__mitarashi
+photo.42.commitdate: 2021/5/19
 photo.42.link: https://www.instagram.com/love__mitarashi/
 photo.42.tags: itchy, paws, portrait
 species: 2

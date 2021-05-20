@@ -453,8 +453,9 @@ photo.89.author: miis_98
 photo.89.commitdate: 2021/5/3
 photo.89.link: https://www.instagram.com/miis_98/
 photo.89.tags: portrait, tail, whiskers
-photo.90: https://www.instagram.com/p/COAYjP5hJ-9/media/?size=m
+photo.90: ig://COAYjP5hJ-9/m
 photo.90.author: resapan.suki
+photo.90.commitdate: 2021/5/19
 photo.90.link: https://www.instagram.com/resapan.suki/
 photo.90.tags: portrait, tongue, whiskers
 species: 2

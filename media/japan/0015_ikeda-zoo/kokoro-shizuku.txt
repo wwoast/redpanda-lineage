@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/itsuak/
 photo.2.tags: couple, portrait, tail
 photo.2.tags.64.location: 85, 245
 photo.2.tags.138.location: 565, 335
-photo.3: https://www.instagram.com/p/CN5IorVLB-m/media/?size=l
+photo.3: ig://CN5IorVLB-m/l
 photo.3.author: itsuak
+photo.3.commitdate: 2021/5/19
 photo.3.link: https://www.instagram.com/itsuak/
 photo.3.tags: couple, peek
 photo.3.tags.64.location: 380, 225

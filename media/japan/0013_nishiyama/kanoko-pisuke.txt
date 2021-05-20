@@ -72,14 +72,16 @@ photo.10.link: https://www.instagram.com/tomo3700/
 photo.10.tags: baby, mother's day, portrait, tree
 photo.10.tags.100.location: 350, 160
 photo.10.tags.1208.location: 215, 175
-photo.11: https://www.instagram.com/p/CN9wXSFh3jI/media/?size=m
+photo.11: ig://CN9wXSFh3jI/m
 photo.11.author: daniele.tokyo
+photo.11.commitdate: 2021/5/19
 photo.11.link: https://www.instagram.com/daniele.tokyo/
 photo.11.tags: apple time, dish, mother's day, paws, portrait
 photo.11.tags.100.location: 225, 75
 photo.11.tags.1208.location: 130, 175
-photo.12: https://www.instagram.com/p/COAZrISheP7/media/?size=l
+photo.12: ig://COAZrISheP7/l
 photo.12.author: kotata_513
+photo.12.commitdate: 2021/5/19
 photo.12.link: https://www.instagram.com/kotata_513/
 photo.12.tags: laying down, portrait, tail, tree
 photo.12.tags.100.location: 375, 385

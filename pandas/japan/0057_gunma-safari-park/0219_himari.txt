@@ -279,8 +279,9 @@ photo.53.author: miis_98
 photo.53.commitdate: 2021/3/28
 photo.53.link: https://www.instagram.com/miis_98/
 photo.53.tags: portrait
-photo.54: https://www.instagram.com/p/COAXE9zBnNi/media/?size=m
+photo.54: ig://COAXE9zBnNi/m
 photo.54.author: resapan.suki
+photo.54.commitdate: 2021/5/19
 photo.54.link: https://www.instagram.com/resapan.suki/
 photo.54.tags: paws, peek
 species: 2

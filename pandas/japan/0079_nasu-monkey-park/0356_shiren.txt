@@ -114,8 +114,9 @@ photo.20.author: daniele.tokyo
 photo.20.commitdate: 2021/2/28
 photo.20.link: https://www.instagram.com/daniele.tokyo/
 photo.20.tags: apple time, paws, smile, tongue, whiskers
-photo.21: https://www.instagram.com/p/CN_q2w9gnoS/media/?size=m
+photo.21: ig://CN_q2w9gnoS/m
 photo.21.author: nasu_monkey_park
+photo.21.commitdate: 2021/5/19
 photo.21.link: https://www.instagram.com/nasu_monkey_park/
 photo.21.tags: apple time, paws, portrait, videolink
 species: 2

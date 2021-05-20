@@ -128,15 +128,16 @@ photo.23.author: hamiiiii831_
 photo.23.commitdate: 2021/5/19
 photo.23.link: https://www.instagram.com/hamiiiii831_/
 photo.23.tags: standing, videolink
-photo.24: ig://COVB_YfBP0U/m
-photo.24.author: kaoru_a358
-photo.24.commitdate: 2021/5/4
-photo.24.link: https://www.instagram.com/kaoru_a358/
-photo.24.tags: paws, portrait
-photo.25: https://www.instagram.com/p/CN5AM8VhUSL/media/?size=m
-photo.25.author: redpan22
-photo.25.link: https://www.instagram.com/redpan22/
-photo.25.tags: mofumofu, paws, tongue
+photo.24: ig://CN5AM8VhUSL/m
+photo.24.author: redpan22
+photo.24.commitdate: 2021/5/19
+photo.24.link: https://www.instagram.com/redpan22/
+photo.24.tags: mofumofu, paws, tongue
+photo.25: ig://COVB_YfBP0U/m
+photo.25.author: kaoru_a358
+photo.25.commitdate: 2021/5/4
+photo.25.link: https://www.instagram.com/kaoru_a358/
+photo.25.tags: paws, portrait
 species: 2
 studbook.id: unknown
 zoo: 53
