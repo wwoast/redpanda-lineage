@@ -397,25 +397,26 @@ photo.77.author: love__mitarashi
 photo.77.commitdate: 2021/1/8
 photo.77.link: https://www.instagram.com/love__mitarashi/
 photo.77.tags: bamboo, laying down, portrait
-photo.78: ig://CLoTCOJBMEd/m
-photo.78.author: love__mitarashi
-photo.78.commitdate: 2021/3/21
-photo.78.link: https://www.instagram.com/love__mitarashi/
-photo.78.tags: bamboo, laying down, peek, portrait
-photo.79: ig://CLtT8hJhSBZ/m
+photo.78: ig://CKbOVsvBDIS/m
+photo.78.author: colette.jp
+photo.78.commitdate: 2021/5/21
+photo.78.link: https://www.instagram.com/colette.jp/
+photo.78.tags: apple time, keeper, portrait, standing
+photo.79: ig://CLoTCOJBMEd/m
 photo.79.author: love__mitarashi
-photo.79.commitdate: 2021/3/4
+photo.79.commitdate: 2021/3/21
 photo.79.link: https://www.instagram.com/love__mitarashi/
-photo.79.tags: home, portrait, techitechi
-photo.80: ig://CNKlJ9ZBd5K/m
+photo.79.tags: bamboo, laying down, peek, portrait
+photo.80: ig://CLtT8hJhSBZ/m
 photo.80.author: love__mitarashi
-photo.80.commitdate: 2021/4/4
+photo.80.commitdate: 2021/3/4
 photo.80.link: https://www.instagram.com/love__mitarashi/
-photo.80.tags: home, jizo, portrait
-photo.81: https://www.instagram.com/p/CKbOVsvBDIS/media/?size=m
-photo.81.author: colette.jp
-photo.81.link: https://www.instagram.com/colette.jp/
-photo.81.tags: apple time, keeper, portrait, standing
+photo.80.tags: home, portrait, techitechi
+photo.81: ig://CNKlJ9ZBd5K/m
+photo.81.author: love__mitarashi
+photo.81.commitdate: 2021/4/4
+photo.81.link: https://www.instagram.com/love__mitarashi/
+photo.81.tags: home, jizo, portrait
 species: 2
 studbook.id: 15129
 video.1: https://youtu.be/ByBVD2actpA

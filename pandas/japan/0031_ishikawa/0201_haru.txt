@@ -220,30 +220,31 @@ photo.41.author: bee_san.13
 photo.41.commitdate: 2021/3/10
 photo.41.link: https://www.instagram.com/bee_san.13/
 photo.41.tags: peek, portrait, whiskers
-photo.42: ig://CMXxYCoBKbX/m
-photo.42.author: hamamatsu.chiita
-photo.42.commitdate: 2021/4/11
-photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: close-up, portrait, whiskers
-photo.43: ig://CNDu8syBSvr/m
+photo.42: ig://CLP51liheYq/m
+photo.42.author: merumeru119
+photo.42.commitdate: 2021/5/21
+photo.42.link: https://www.instagram.com/merumeru119/
+photo.42.tags: close-up, whiskers
+photo.43: ig://CMXxYCoBKbX/m
 photo.43.author: hamamatsu.chiita
-photo.43.commitdate: 2021/4/2
+photo.43.commitdate: 2021/4/11
 photo.43.link: https://www.instagram.com/hamamatsu.chiita/
-photo.43.tags: mofumofu, portrait
-photo.44: ig://CNaFcDJhTz9/m
-photo.44.author: bee_san.13
-photo.44.commitdate: 2021/4/29
-photo.44.link: https://www.instagram.com/bee_san.13/
-photo.44.tags: mofumofu, paws, peek, portrait
-photo.45: ig://CNig-YXBW82/m
-photo.45.author: hamamatsu.chiita
-photo.45.commitdate: 2021/4/20
-photo.45.link: https://www.instagram.com/hamamatsu.chiita/
-photo.45.tags: close-up, portrait, whiskers
-photo.46: https://www.instagram.com/p/CLP51liheYq/media/?size=m
-photo.46.author: merumeru119
-photo.46.link: https://www.instagram.com/merumeru119/
-photo.46.tags: close-up, whiskers
+photo.43.tags: close-up, portrait, whiskers
+photo.44: ig://CNDu8syBSvr/m
+photo.44.author: hamamatsu.chiita
+photo.44.commitdate: 2021/4/2
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: mofumofu, portrait
+photo.45: ig://CNaFcDJhTz9/m
+photo.45.author: bee_san.13
+photo.45.commitdate: 2021/4/29
+photo.45.link: https://www.instagram.com/bee_san.13/
+photo.45.tags: mofumofu, paws, peek, portrait
+photo.46: ig://CNig-YXBW82/m
+photo.46.author: hamamatsu.chiita
+photo.46.commitdate: 2021/4/20
+photo.46.link: https://www.instagram.com/hamamatsu.chiita/
+photo.46.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 13171
 zoo: 31
