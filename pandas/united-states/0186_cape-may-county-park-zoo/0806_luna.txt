@@ -94,15 +94,16 @@ photo.15.author: capemaycountyzoo
 photo.15.commitdate: 2020/8/23
 photo.15.link: https://www.instagram.com/capemaycountyzoo/
 photo.15.tags: lunch time, paws, portrait
-photo.16: ig://CN17JTmA-CW/m
-photo.16.author: rossifari
-photo.16.commitdate: 2021/5/3
-photo.16.link: https://www.instagram.com/rossifari/
-photo.16.tags: paws, portrait, white face
-photo.17: https://www.instagram.com/p/CNmxTlXLIpz/media/?size=m
-photo.17.author: capemaycountyzoo
-photo.17.link: https://www.instagram.com/capemaycountyzoo/
-photo.17.tags: paws, tongue, whiskers, white face
+photo.16: ig://CNmxTlXLIpz/m
+photo.16.author: capemaycountyzoo
+photo.16.commitdate: 2021/5/26
+photo.16.link: https://www.instagram.com/capemaycountyzoo/
+photo.16.tags: paws, tongue, whiskers, white face
+photo.17: ig://CN17JTmA-CW/m
+photo.17.author: rossifari
+photo.17.commitdate: 2021/5/3
+photo.17.link: https://www.instagram.com/rossifari/
+photo.17.tags: paws, portrait, white face
 species: 1
 studbook.id: 0105
 zoo: 186

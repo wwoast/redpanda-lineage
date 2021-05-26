@@ -325,8 +325,9 @@ photo.63.author: gloryeui
 photo.63.commitdate: 2021/4/11
 photo.63.link: https://www.instagram.com/gloryeui/
 photo.63.tags: apple time, bamboo, dish, home, paws, portrait, smile
-photo.64: https://www.instagram.com/p/CNs3kMdhihV/media/?size=m
+photo.64: ig://CNs3kMdhihV/m
 photo.64.author: hamamatsu.chiita
+photo.64.commitdate: 2021/5/26
 photo.64.link: https://www.instagram.com/hamamatsu.chiita/
 photo.64.tags: apple time, paws, portrait
 species: 2

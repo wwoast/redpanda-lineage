@@ -46,8 +46,9 @@ photo.6.author: nathalie.elliott
 photo.6.commitdate: 2021/4/3
 photo.6.link: https://www.instagram.com/nathalie.elliott/
 photo.6.tags: portrait, whiskers
-photo.7: https://www.instagram.com/p/CNrx6VwAQZ2/media/?size=m
+photo.7: ig://CNrx6VwAQZ2/m
 photo.7.author: nathalie.elliott
+photo.7.commitdate: 2021/5/26
 photo.7.link: https://www.instagram.com/nathalie.elliott/
 photo.7.tags: bamboo, paws, portrait, standing, tail
 species: 1
