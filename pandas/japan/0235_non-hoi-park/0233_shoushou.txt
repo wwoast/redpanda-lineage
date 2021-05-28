@@ -413,62 +413,66 @@ photo.80.author: hamamatsu.chiita
 photo.80.commitdate: 2021/1/3
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: portrait
-photo.81: ig://CKGaszlht2E/m
+photo.81: ig://CJniQ0Shn1V/m
 photo.81.author: hamamatsu.chiita
-photo.81.commitdate: 2021/3/2
+photo.81.commitdate: 2021/5/28
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
-photo.81.tags: grumpy, portrait, whiskers
-photo.82: ig://CKMxjMbBnAN/m
+photo.81.tags: apple time, paws, portrait, smile
+photo.82: ig://CJnjSeGBKHx/m
 photo.82.author: hamamatsu.chiita
-photo.82.commitdate: 2021/3/2
+photo.82.commitdate: 2021/5/28
 photo.82.link: https://www.instagram.com/hamamatsu.chiita/
-photo.82.tags: bamboo, portrait, whiskers
-photo.83: ig://CKYku3vBGnS/m
+photo.82.tags: peek, portrait
+photo.83: ig://CJqKiJDBWZx/m
 photo.83.author: hamamatsu.chiita
-photo.83.commitdate: 2021/3/2
+photo.83.commitdate: 2021/5/28
 photo.83.link: https://www.instagram.com/hamamatsu.chiita/
-photo.83.tags: close-up, portrait
-photo.84: ig://CKs3CpGBNqy/m
+photo.83.tags: laying down, tree
+photo.84: ig://CKGaszlht2E/m
 photo.84.author: hamamatsu.chiita
 photo.84.commitdate: 2021/3/2
 photo.84.link: https://www.instagram.com/hamamatsu.chiita/
-photo.84.tags: portrait
-photo.85: ig://CKs4H6fBHFM/m
+photo.84.tags: grumpy, portrait, whiskers
+photo.85: ig://CKMxjMbBnAN/m
 photo.85.author: hamamatsu.chiita
 photo.85.commitdate: 2021/3/2
 photo.85.link: https://www.instagram.com/hamamatsu.chiita/
-photo.85.tags: apple time, keeper, portrait
-photo.86: ig://CK1-m-UB217/m
+photo.85.tags: bamboo, portrait, whiskers
+photo.86: ig://CKYku3vBGnS/m
 photo.86.author: hamamatsu.chiita
 photo.86.commitdate: 2021/3/2
 photo.86.link: https://www.instagram.com/hamamatsu.chiita/
-photo.86.tags: portrait, tree
-photo.87: ig://CLC1hGXBRyU/m
+photo.86.tags: close-up, portrait
+photo.87: ig://CKs3CpGBNqy/m
 photo.87.author: hamamatsu.chiita
 photo.87.commitdate: 2021/3/2
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
-photo.87.tags: laying down, peek, tail
-photo.88: ig://CMV030Zh22a/m
-photo.88.author: tomo3700
-photo.88.commitdate: 2021/4/11
-photo.88.link: https://www.instagram.com/tomo3700/
-photo.88.tags: keeper, paws, portrait, smile, standing
-photo.89: https://www.instagram.com/p/CNayl5zhsxC/media/?size=m
+photo.87.tags: portrait
+photo.88: ig://CKs4H6fBHFM/m
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2021/3/2
+photo.88.link: https://www.instagram.com/hamamatsu.chiita/
+photo.88.tags: apple time, keeper, portrait
+photo.89: ig://CK1-m-UB217/m
 photo.89.author: hamamatsu.chiita
+photo.89.commitdate: 2021/3/2
 photo.89.link: https://www.instagram.com/hamamatsu.chiita/
-photo.89.tags: close-up, portrait, whiskers
-photo.90: https://www.instagram.com/p/CJqKiJDBWZx/media/?size=m
+photo.89.tags: portrait, tree
+photo.90: ig://CLC1hGXBRyU/m
 photo.90.author: hamamatsu.chiita
+photo.90.commitdate: 2021/3/2
 photo.90.link: https://www.instagram.com/hamamatsu.chiita/
-photo.90.tags: laying down, tree
-photo.91: https://www.instagram.com/p/CJnjSeGBKHx/media/?size=m
-photo.91.author: hamamatsu.chiita
-photo.91.link: https://www.instagram.com/hamamatsu.chiita/
-photo.91.tags: peek, portrait
-photo.92: https://www.instagram.com/p/CJniQ0Shn1V/media/?size=m
+photo.90.tags: laying down, peek, tail
+photo.91: ig://CMV030Zh22a/m
+photo.91.author: tomo3700
+photo.91.commitdate: 2021/4/11
+photo.91.link: https://www.instagram.com/tomo3700/
+photo.91.tags: keeper, paws, portrait, smile, standing
+photo.92: ig://CNayl5zhsxC/m
 photo.92.author: hamamatsu.chiita
+photo.92.commitdate: 2021/5/28
 photo.92.link: https://www.instagram.com/hamamatsu.chiita/
-photo.92.tags: apple time, paws, portrait, smile
+photo.92.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

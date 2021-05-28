@@ -1662,19 +1662,21 @@ photo.331.author: hamamatsu.chiita
 photo.331.commitdate: 2021/4/29
 photo.331.link: https://www.instagram.com/hamamatsu.chiita/
 photo.331.tags: bamboo, paws, portrait, standing
-photo.332: ig://CN-gv_NBdlT/m
-photo.332.author: eos1089
-photo.332.commitdate: 2021/5/20
-photo.332.link: https://www.instagram.com/eos1089/
-photo.332.tags: paws, portrait, smile, whiskers
-photo.333: https://www.instagram.com/p/CNZ6irWh11i/media/?size=m
+photo.332: ig://CNYi0XLBw71/m
+photo.332.author: osopanda551
+photo.332.commitdate: 2021/5/28
+photo.332.link: https://www.instagram.com/osopanda551/
+photo.332.tags: bamboo, peek, portrait, smile
+photo.333: ig://CNZ6irWh11i/m
 photo.333.author: kotata_513
+photo.333.commitdate: 2021/5/28
 photo.333.link: https://www.instagram.com/kotata_513/
 photo.333.tags: laying down, portrait, sleeping, smile, tail
-photo.334: https://www.instagram.com/p/CNYi0XLBw71/media/?size=m
-photo.334.author: osopanda551
-photo.334.link: https://www.instagram.com/osopanda551/
-photo.334.tags: bamboo, peek, portrait, smile
+photo.334: ig://CN-gv_NBdlT/m
+photo.334.author: eos1089
+photo.334.commitdate: 2021/5/20
+photo.334.link: https://www.instagram.com/eos1089/
+photo.334.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

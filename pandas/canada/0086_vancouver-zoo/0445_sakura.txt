@@ -96,24 +96,26 @@ photo.16.author: westcoast_kathy
 photo.16.commitdate: 2021/4/29
 photo.16.link: https://www.instagram.com/westcoast_kathy/
 photo.16.tags: portrait, toys
-photo.17: ig://COWbVvyAjWO/m
+photo.17: ig://CNiKFAHAkKx/m
 photo.17.author: westcoast_kathy
-photo.17.commitdate: 2021/5/3
+photo.17.commitdate: 2021/5/28
 photo.17.link: https://www.instagram.com/westcoast_kathy/
-photo.17.tags: peek, smile, tree
-photo.18: ig://COY10h5gP4e/m
+photo.17.tags: peek
+photo.18: ig://COGvxvHgivk/m
 photo.18.author: westcoast_kathy
-photo.18.commitdate: 2021/5/3
+photo.18.commitdate: 2021/5/28
 photo.18.link: https://www.instagram.com/westcoast_kathy/
-photo.18.tags: bamboo, paws
-photo.19: https://www.instagram.com/p/COGvxvHgivk/media/?size=m
+photo.18.tags: bamboo, portrait, tongue
+photo.19: ig://COWbVvyAjWO/m
 photo.19.author: westcoast_kathy
+photo.19.commitdate: 2021/5/3
 photo.19.link: https://www.instagram.com/westcoast_kathy/
-photo.19.tags: bamboo, portrait, tongue
-photo.20: https://www.instagram.com/p/CNiKFAHAkKx/media/?size=m
+photo.19.tags: peek, smile, tree
+photo.20: ig://COY10h5gP4e/m
 photo.20.author: westcoast_kathy
+photo.20.commitdate: 2021/5/3
 photo.20.link: https://www.instagram.com/westcoast_kathy/
-photo.20.tags: peek
+photo.20.tags: bamboo, paws
 species: 2
 studbook.id: 1348
 uncertainty: location.3 exact moving date

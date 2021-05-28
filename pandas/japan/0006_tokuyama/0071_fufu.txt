@@ -235,8 +235,9 @@ photo.45.author: panda.daisuki
 photo.45.commitdate: 2021/4/22
 photo.45.link: https://www.instagram.com/panda.daisuki/
 photo.45.tags: apple time, portrait, snow
-photo.46: https://www.instagram.com/p/CNizVKlB8oY/media/?size=m
+photo.46: ig://CNizVKlB8oY/m
 photo.46.author: miis_98
+photo.46.commitdate: 2021/5/28
 photo.46.link: https://www.instagram.com/miis_98/
 photo.46.tags: apple time, paws, whiskers
 species: 2

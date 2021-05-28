@@ -9,8 +9,9 @@ photo.1.link: https://www.instagram.com/monmon_redpanda/
 photo.1.tags: apple time, baby, bamboo, mother's day
 photo.1.tags.190.location: 320, 200
 photo.1.tags.1210.location: 170, 170
-photo.2: https://www.instagram.com/p/CJf8NeYBHNt/media/?size=m
+photo.2: ig://CJf8NeYBHNt/m
 photo.2.author: o_deka_ke
+photo.2.commitdate: 2021/5/28
 photo.2.link: https://www.instagram.com/o_deka_ke/
 photo.2.tags: mofumofu, mother's day, portrait
 photo.2.tags.190.location: 100, 150
