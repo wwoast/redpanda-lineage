@@ -162,8 +162,9 @@ photo.30.author: an920000
 photo.30.commitdate: 2020/11/8
 photo.30.link: https://www.instagram.com/an920000/
 photo.30.tags: bridge, laying down, peek
-photo.31: https://www.instagram.com/p/CLgwh1ghmgI/media/?size=m
+photo.31: ig://CLgwh1ghmgI/m
 photo.31.author: nishicotolo
+photo.31.commitdate: 2021/5/29
 photo.31.link: https://www.instagram.com/nishicotolo/
 photo.31.tags: grumpy, techitechi
 species: 2

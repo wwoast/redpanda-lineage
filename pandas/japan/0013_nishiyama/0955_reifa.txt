@@ -458,19 +458,20 @@ photo.89.author: hamamatsu.chiita
 photo.89.commitdate: 2021/4/22
 photo.89.link: https://www.instagram.com/hamamatsu.chiita/
 photo.89.tags: portrait, white face
-photo.90: ig://CNheJUVhH9y/m
-photo.90.author: fetorus_mami
-photo.90.commitdate: 2021/4/29
-photo.90.link: https://www.instagram.com/fetorus_mami/
-photo.90.tags: close-up, mofumofu, white face
-photo.91: ig://COAVKVsBxH_/m
-photo.91.author: daniele.tokyo
-photo.91.commitdate: 2021/5/19
-photo.91.link: https://www.instagram.com/daniele.tokyo/
-photo.91.tags: laying down, mofumofu, peek, portrait, tail, white face
-photo.92: https://www.instagram.com/p/CLoPmeNBWC3/media/?size=m
-photo.92.author: kai.kuniko
-photo.92.link: https://www.instagram.com/kai.kuniko/
-photo.92.tags: climb, peek, portrait, snow, tail, white face
+photo.90: ig://CLoPmeNBWC3/m
+photo.90.author: kai.kuniko
+photo.90.commitdate: 2021/5/29
+photo.90.link: https://www.instagram.com/kai.kuniko/
+photo.90.tags: climb, peek, portrait, snow, tail, white face
+photo.91: ig://CNheJUVhH9y/m
+photo.91.author: fetorus_mami
+photo.91.commitdate: 2021/4/29
+photo.91.link: https://www.instagram.com/fetorus_mami/
+photo.91.tags: close-up, mofumofu, white face
+photo.92: ig://COAVKVsBxH_/m
+photo.92.author: daniele.tokyo
+photo.92.commitdate: 2021/5/19
+photo.92.link: https://www.instagram.com/daniele.tokyo/
+photo.92.tags: laying down, mofumofu, peek, portrait, tail, white face
 species: 2
 zoo: 13

@@ -353,35 +353,36 @@ photo.68.author: fetorus_mami
 photo.68.commitdate: 2021/1/31
 photo.68.link: https://www.instagram.com/fetorus_mami/
 photo.68.tags: bamboo, close-up, mofumofu
-photo.69: ig://CLxjPsGBs9h/m
-photo.69.author: s.okano521
-photo.69.commitdate: 2021/3/21
-photo.69.link: https://www.instagram.com/s.okano521/
-photo.69.tags: bamboo, bite, mofumofu
-photo.70: ig://CNBe71Fh3_y/m
-photo.70.author: ssc6105
-photo.70.commitdate: 2021/4/2
-photo.70.link: https://www.instagram.com/ssc6105/
-photo.70.tags: laying down, sleeping
-photo.71: ig://CNbE66IFblf/m
-photo.71.author: redpandanetwork
-photo.71.commitdate: 2021/4/29
-photo.71.link: https://www.instagram.com/redpandanetwork/
-photo.71.tags: bamboo, peek, portrait
-photo.72: ig://CNhssdcBBb5/m
-photo.72.author: panda.daisuki
+photo.69: ig://CLg1pIRBMDj/m
+photo.69.author: fetorus_mami
+photo.69.commitdate: 2021/5/29
+photo.69.link: https://www.instagram.com/fetorus_mami/
+photo.69.tags: peek, tree
+photo.70: ig://CLxjPsGBs9h/m
+photo.70.author: s.okano521
+photo.70.commitdate: 2021/3/21
+photo.70.link: https://www.instagram.com/s.okano521/
+photo.70.tags: bamboo, bite, mofumofu
+photo.71: ig://CNBe71Fh3_y/m
+photo.71.author: ssc6105
+photo.71.commitdate: 2021/4/2
+photo.71.link: https://www.instagram.com/ssc6105/
+photo.71.tags: laying down, sleeping
+photo.72: ig://CNbE66IFblf/m
+photo.72.author: redpandanetwork
 photo.72.commitdate: 2021/4/29
-photo.72.link: https://www.instagram.com/panda.daisuki/
-photo.72.tags: climb, mofumofu, paws, portrait, tree, upside-down
-photo.73: ig://CODdPluBSXH/m
+photo.72.link: https://www.instagram.com/redpandanetwork/
+photo.72.tags: bamboo, peek, portrait
+photo.73: ig://CNhssdcBBb5/m
 photo.73.author: panda.daisuki
-photo.73.commitdate: 2021/5/20
+photo.73.commitdate: 2021/4/29
 photo.73.link: https://www.instagram.com/panda.daisuki/
-photo.73.tags: mofumofu, paws, portrait, whiskers
-photo.74: https://www.instagram.com/p/CLg1pIRBMDj/media/?size=m
-photo.74.author: fetorus_mami
-photo.74.link: https://www.instagram.com/fetorus_mami/
-photo.74.tags: peek, tree
+photo.73.tags: climb, mofumofu, paws, portrait, tree, upside-down
+photo.74: ig://CODdPluBSXH/m
+photo.74.author: panda.daisuki
+photo.74.commitdate: 2021/5/20
+photo.74.link: https://www.instagram.com/panda.daisuki/
+photo.74.tags: mofumofu, paws, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 9

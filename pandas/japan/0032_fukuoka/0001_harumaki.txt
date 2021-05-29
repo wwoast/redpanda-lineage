@@ -1908,45 +1908,46 @@ photo.380.author: re_ichimaru
 photo.380.commitdate: 2021/4/22
 photo.380.link: https://www.instagram.com/re_ichimaru/
 photo.380.tags: bamboo, paws, portrait, smile
-photo.381: ig://CLu195oBeVm/m
-photo.381.author: yossi929
-photo.381.commitdate: 2021/3/4
-photo.381.link: https://www.instagram.com/yossi929/
-photo.381.tags: bamboo, smile, whiskers
-photo.382: ig://CMS4qprBc-a/m
+photo.381: ig://CLoWnprhd5I/m
+photo.381.author: re_ichimaru
+photo.381.commitdate: 2021/5/29
+photo.381.link: https://www.instagram.com/re_ichimaru/
+photo.381.tags: laying down, mofumofu, paws, portrait, whiskers
+photo.382: ig://CLu195oBeVm/m
 photo.382.author: yossi929
-photo.382.commitdate: 2021/4/11
+photo.382.commitdate: 2021/3/4
 photo.382.link: https://www.instagram.com/yossi929/
-photo.382.tags: paws, playing, portrait, toys
-photo.383: ig://CNI9w0vhOHs/m
+photo.382.tags: bamboo, smile, whiskers
+photo.383: ig://CMS4qprBc-a/m
 photo.383.author: yossi929
-photo.383.commitdate: 2021/4/10
+photo.383.commitdate: 2021/4/11
 photo.383.link: https://www.instagram.com/yossi929/
-photo.383.tags: portrait, window
-photo.384: ig://CNPov8vBEgf/m
-photo.384.author: miis_98
-photo.384.commitdate: 2021/4/29
-photo.384.link: https://www.instagram.com/miis_98/
-photo.384.tags: portrait, whiskers
-photo.385: ig://CN37_dkBiAL/m
-photo.385.author: re_ichimaru
-photo.385.commitdate: 2021/5/19
-photo.385.link: https://www.instagram.com/re_ichimaru/
-photo.385.tags: bite, paws, portrait, toys
-photo.386: ig://CN_BZ-PhFwP/m
-photo.386.author: yossi929
+photo.383.tags: paws, playing, portrait, toys
+photo.384: ig://CNI9w0vhOHs/m
+photo.384.author: yossi929
+photo.384.commitdate: 2021/4/10
+photo.384.link: https://www.instagram.com/yossi929/
+photo.384.tags: portrait, window
+photo.385: ig://CNPov8vBEgf/m
+photo.385.author: miis_98
+photo.385.commitdate: 2021/4/29
+photo.385.link: https://www.instagram.com/miis_98/
+photo.385.tags: portrait, whiskers
+photo.386: ig://CN37_dkBiAL/m
+photo.386.author: re_ichimaru
 photo.386.commitdate: 2021/5/19
-photo.386.link: https://www.instagram.com/yossi929/
-photo.386.tags: flowers, paws, portrait, whiskers
-photo.387: ig://CORNBDOhZiY/m
+photo.386.link: https://www.instagram.com/re_ichimaru/
+photo.386.tags: bite, paws, portrait, toys
+photo.387: ig://CN_BZ-PhFwP/m
 photo.387.author: yossi929
-photo.387.commitdate: 2021/5/3
+photo.387.commitdate: 2021/5/19
 photo.387.link: https://www.instagram.com/yossi929/
-photo.387.tags: bamboo, mofumofu, portrait
-photo.388: https://www.instagram.com/p/CLoWnprhd5I/media/?size=m
-photo.388.author: re_ichimaru
-photo.388.link: https://www.instagram.com/re_ichimaru/
-photo.388.tags: laying down, mofumofu, paws, portrait, whiskers
+photo.387.tags: flowers, paws, portrait, whiskers
+photo.388: ig://CORNBDOhZiY/m
+photo.388.author: yossi929
+photo.388.commitdate: 2021/5/3
+photo.388.link: https://www.instagram.com/yossi929/
+photo.388.tags: bamboo, mofumofu, portrait
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44

@@ -593,45 +593,46 @@ photo.116.author: ck.chie
 photo.116.commitdate: 2021/2/19
 photo.116.link: https://www.instagram.com/ck.chie/
 photo.116.tags: bamboo, paws, smile
-photo.117: ig://CLpxM9lBkDG/m
-photo.117.author: ck.chie
-photo.117.commitdate: 2021/3/21
-photo.117.link: https://www.instagram.com/ck.chie/
-photo.117.tags: bamboo, paws, white face
-photo.118: ig://CL6UsithaJG/m
+photo.117: ig://CLg0qrphRhP/m
+photo.117.author: fetorus_mami
+photo.117.commitdate: 2021/5/29
+photo.117.link: https://www.instagram.com/fetorus_mami/
+photo.117.tags: bamboo, peek, white face
+photo.118: ig://CLpxM9lBkDG/m
 photo.118.author: ck.chie
-photo.118.commitdate: 2021/3/7
+photo.118.commitdate: 2021/3/21
 photo.118.link: https://www.instagram.com/ck.chie/
-photo.118.tags: smile, white face
-photo.119: ig://CNCE9pJh-EB/m
+photo.118.tags: bamboo, paws, white face
+photo.119: ig://CL6UsithaJG/m
 photo.119.author: ck.chie
-photo.119.commitdate: 2021/4/2
+photo.119.commitdate: 2021/3/7
 photo.119.link: https://www.instagram.com/ck.chie/
-photo.119.tags: bamboo, smile, white face
-photo.120: ig://CNJEvVvBKHt/m
+photo.119.tags: smile, white face
+photo.120: ig://CNCE9pJh-EB/m
 photo.120.author: ck.chie
 photo.120.commitdate: 2021/4/2
 photo.120.link: https://www.instagram.com/ck.chie/
-photo.120.tags: bamboo, bite, close-up, white face
-photo.121: ig://CNTY3PGhlJN/m
+photo.120.tags: bamboo, smile, white face
+photo.121: ig://CNJEvVvBKHt/m
 photo.121.author: ck.chie
-photo.121.commitdate: 2021/4/29
+photo.121.commitdate: 2021/4/2
 photo.121.link: https://www.instagram.com/ck.chie/
-photo.121.tags: bamboo, smile, white face
-photo.122: ig://CN2DNQLhR7c/m
-photo.122.author: ssc6105
-photo.122.commitdate: 2021/5/3
-photo.122.link: https://www.instagram.com/ssc6105/
-photo.122.tags: peek, tail, tree
-photo.123: ig://CN5GW24BHZY/m
-photo.123.author: panda.daisuki
+photo.121.tags: bamboo, bite, close-up, white face
+photo.122: ig://CNTY3PGhlJN/m
+photo.122.author: ck.chie
+photo.122.commitdate: 2021/4/29
+photo.122.link: https://www.instagram.com/ck.chie/
+photo.122.tags: bamboo, smile, white face
+photo.123: ig://CN2DNQLhR7c/m
+photo.123.author: ssc6105
 photo.123.commitdate: 2021/5/3
-photo.123.link: https://www.instagram.com/panda.daisuki/
-photo.123.tags: bamboo, portrait, smile, white face
-photo.124: https://www.instagram.com/p/CLg0qrphRhP/media/?size=m
-photo.124.author: fetorus_mami
-photo.124.link: https://www.instagram.com/fetorus_mami/
-photo.124.tags: bamboo, peek, white face
+photo.123.link: https://www.instagram.com/ssc6105/
+photo.123.tags: peek, tail, tree
+photo.124: ig://CN5GW24BHZY/m
+photo.124.author: panda.daisuki
+photo.124.commitdate: 2021/5/3
+photo.124.link: https://www.instagram.com/panda.daisuki/
+photo.124.tags: bamboo, portrait, smile, white face
 species: 2
 studbook.id: unknown
 zoo: 9

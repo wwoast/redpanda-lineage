@@ -66,8 +66,9 @@ photo.8.tags: apple time, family, keeper, siblings, sisters, twins
 photo.8.tags.147.location: 110, 175
 photo.8.tags.955.location: 340, 170
 photo.8.tags.956.location: 210, 150
-photo.9: https://www.instagram.com/p/CLoPvrOhLxt/media/?size=l
+photo.9: ig://CLoPvrOhLxt/l
 photo.9.author: kai.kuniko
+photo.9.commitdate: 2021/5/29
 photo.9.link: https://www.instagram.com/kai.kuniko/
 photo.9.tags: family, home, portrait, snow
 photo.9.tags.147.location: 325, 325
