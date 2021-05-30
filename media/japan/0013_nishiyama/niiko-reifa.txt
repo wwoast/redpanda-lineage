@@ -132,7 +132,7 @@ photo.19: ig://CHFmwINhuwp/l
 photo.19.author: redpanda_nippon_takashi
 photo.19.commitdate: 2020/11/7
 photo.19.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.19.tags: playing, siblings, sisters, standing, twins
+photo.19.tags: playing, siblings, sign, sisters, standing, twins
 photo.19.tags.955.location: 155, 355
 photo.19.tags.956.location: 375, 180
 photo.20: ig://CHKoKUyhZ3z/l
@@ -142,3 +142,9 @@ photo.20.link: https://www.instagram.com/i.satosato/
 photo.20.tags: paws, portrait, siblings, sisters, standing, twins, white face
 photo.20.tags.955.location: 165, 235
 photo.20.tags.956.location: 255, 105
+photo.21: https://www.instagram.com/p/CHFmfLBB6UL/media/?size=l
+photo.21.author: redpanda_nippon_takashi
+photo.21.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.21.tags: bamboo, siblings, sisters, twins, white face
+photo.21.tags.955.location: 410, 170
+photo.21.tags.956.location: 165, 205
