@@ -378,20 +378,21 @@ photo.73.author: redpan22
 photo.73.commitdate: 2021/4/29
 photo.73.link: https://www.instagram.com/redpan22/
 photo.73.tags: flowers, paws, tail
-photo.74: ig://COAk5t2BgST/m
-photo.74.author: redpan22
-photo.74.commitdate: 2021/5/19
-photo.74.link: https://www.instagram.com/redpan22/
-photo.74.tags: apple time, lips, paws, smile
-photo.75: ig://COVEiP6B786/m
-photo.75.author: mini_cochi
-photo.75.commitdate: 2021/5/4
-photo.75.link: https://www.instagram.com/mini_cochi/
-photo.75.tags: apple time, paws, portrait, smile
-photo.76: https://www.instagram.com/p/CNpZ91dhyUX/media/?size=m
-photo.76.author: hamiiiii831_
-photo.76.link: https://www.instagram.com/hamiiiii831_/
-photo.76.tags: paws, portrait, smile
+photo.74: ig://CNpZ91dhyUX/m
+photo.74.author: hamiiiii831_
+photo.74.commitdate: 2021/5/30
+photo.74.link: https://www.instagram.com/hamiiiii831_/
+photo.74.tags: paws, portrait, smile
+photo.75: ig://COAk5t2BgST/m
+photo.75.author: redpan22
+photo.75.commitdate: 2021/5/19
+photo.75.link: https://www.instagram.com/redpan22/
+photo.75.tags: apple time, lips, paws, smile
+photo.76: ig://COVEiP6B786/m
+photo.76.author: mini_cochi
+photo.76.commitdate: 2021/5/4
+photo.76.link: https://www.instagram.com/mini_cochi/
+photo.76.tags: apple time, paws, portrait, smile
 species: 2
 studbook.id: 13140
 zoo: 69
