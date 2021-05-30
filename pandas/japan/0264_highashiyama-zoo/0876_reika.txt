@@ -12,6 +12,8 @@ jp.name: れいか
 jp.nicknames: わさび, 山葵
 jp.othernames: none
 language.order: jp, en
+location.1: 16, 2019/6/2
+location.2: 264, 2021/5/31
 litter: none
 photo.1: ig://By7EPZohRSO/m
 photo.1.author: lesserpanda_shizuokacity_cp
@@ -468,4 +470,4 @@ photo.91.link: https://www.instagram.com/miis_98/
 photo.91.tags: grooming, paws, portrait, standing
 species: 2
 studbook.id: unknown
-zoo: 16
+zoo: 264
