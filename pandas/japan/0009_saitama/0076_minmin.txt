@@ -194,15 +194,16 @@ photo.36.author: mini_cochi
 photo.36.commitdate: 2021/1/16
 photo.36.link: https://www.instagram.com/mini_cochi/
 photo.36.tags: lips, mofumofu, old, portrait, white face
-photo.37: ig://CLPF3flhdoL/m
-photo.37.author: fetorus_mami
-photo.37.commitdate: 2021/5/21
-photo.37.link: https://www.instagram.com/fetorus_mami/
-photo.37.tags: door, portrait, white face
-photo.38: https://www.instagram.com/p/CKOwjKcBnh5/media/?size=m
-photo.38.author: rie_panda55
-photo.38.link: https://www.instagram.com/rie_panda55/
-photo.38.tags: door, old, paws, portrait, white face
+photo.37: ig://CKOwjKcBnh5/m
+photo.37.author: rie_panda55
+photo.37.commitdate: 2021/5/30
+photo.37.link: https://www.instagram.com/rie_panda55/
+photo.37.tags: door, old, paws, portrait, white face
+photo.38: ig://CLPF3flhdoL/m
+photo.38.author: fetorus_mami
+photo.38.commitdate: 2021/5/21
+photo.38.link: https://www.instagram.com/fetorus_mami/
+photo.38.tags: door, portrait, white face
 species: 2
 studbook.id: 0293
 zoo: 9

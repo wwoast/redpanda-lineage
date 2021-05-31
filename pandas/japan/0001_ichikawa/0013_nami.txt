@@ -359,65 +359,71 @@ photo.70.author: ssc6105
 photo.70.commitdate: 2020/10/12
 photo.70.link: https://www.instagram.com/ssc6105/
 photo.70.tags: mofumofu, paws
-photo.71: ig://CHFcxdOB6Xf/m
-photo.71.author: eos1089
-photo.71.commitdate: 2020/11/7
-photo.71.link: https://www.instagram.com/eos1089/
-photo.71.tags: mofumofu, portrait, whiskers
-photo.72: ig://CHJS1jphTPa/m
-photo.72.author: craig_craig_craig
-photo.72.commitdate: 2020/11/7
-photo.72.link: https://www.instagram.com/craig_craig_craig/
-photo.72.tags: paws, peek, portrait
-photo.73: ig://CIIhnEeBF7V/m
-photo.73.author: ifumoto88
-photo.73.commitdate: 2020/12/3
-photo.73.link: https://www.instagram.com/ifumoto88/
-photo.73.tags: dish, portrait, smile
-photo.74: ig://CIIh3OoBOqr/m
-photo.74.author: ifumoto88
-photo.74.commitdate: 2020/12/3
-photo.74.link: https://www.instagram.com/ifumoto88/
-photo.74.tags: portrait, whiskers
-photo.75: ig://CNPdf3th1US/m
-photo.75.author: daniele.tokyo
-photo.75.commitdate: 2021/4/4
-photo.75.link: https://www.instagram.com/daniele.tokyo/
-photo.75.tags: dish, lunch time, old, smile, whiskers
-photo.76: ig://CNc85I6hQDC/m
-photo.76.author: na.mo.pan
-photo.76.commitdate: 2021/5/28
-photo.76.link: https://www.instagram.com/na.mo.pan/
-photo.76.tags: peek
-photo.77: ig://CNhjxsfhQCn/m
+photo.71: ig://CG2V0HoBkVm/m
+photo.71.author: ifumoto88
+photo.71.commitdate: 2021/5/30
+photo.71.link: https://www.instagram.com/ifumoto88/
+photo.71.tags: dish, mofumofu, paws, portrait, whiskers
+photo.72: ig://CHAqvUbBsaq/m
+photo.72.author: ifumoto88
+photo.72.commitdate: 2021/5/30
+photo.72.link: https://www.instagram.com/ifumoto88/
+photo.72.tags: close-up, paws
+photo.73: ig://CHE_AcFheC_/m
+photo.73.author: alto0908
+photo.73.commitdate: 2021/5/30
+photo.73.link: https://www.instagram.com/alto0908/
+photo.73.tags: portrait, whiskers
+photo.74: ig://CHFcxdOB6Xf/m
+photo.74.author: eos1089
+photo.74.commitdate: 2020/11/7
+photo.74.link: https://www.instagram.com/eos1089/
+photo.74.tags: mofumofu, portrait, whiskers
+photo.75: ig://CHJS1jphTPa/m
+photo.75.author: craig_craig_craig
+photo.75.commitdate: 2020/11/7
+photo.75.link: https://www.instagram.com/craig_craig_craig/
+photo.75.tags: paws, peek, portrait
+photo.76: ig://CH3DdxlhNmZ/m
+photo.76.author: eos1089
+photo.76.commitdate: 2021/5/30
+photo.76.link: https://www.instagram.com/eos1089/
+photo.76.tags: autumn, paws, peek, portrait
+photo.77: ig://CIIhnEeBF7V/m
 photo.77.author: ifumoto88
-photo.77.commitdate: 2021/5/28
+photo.77.commitdate: 2020/12/3
 photo.77.link: https://www.instagram.com/ifumoto88/
-photo.77.tags: paws, peek, portrait, whiskers
-photo.78: https://www.instagram.com/p/CNfHV45hl3N/media/?size=m
+photo.77.tags: dish, portrait, smile
+photo.78: ig://CIIh3OoBOqr/m
 photo.78.author: ifumoto88
+photo.78.commitdate: 2020/12/3
 photo.78.link: https://www.instagram.com/ifumoto88/
-photo.78.tags: mofumofu, portrait
-photo.79: https://www.instagram.com/p/CMzXzQJhIag/media/?size=m
+photo.78.tags: portrait, whiskers
+photo.79: ig://CMzXzQJhIag/m
 photo.79.author: ifumoto88
+photo.79.commitdate: 2021/5/30
 photo.79.link: https://www.instagram.com/ifumoto88/
 photo.79.tags: blink, door, portrait, tail
-photo.80: https://www.instagram.com/p/CH3DdxlhNmZ/media/?size=m
-photo.80.author: eos1089
-photo.80.link: https://www.instagram.com/eos1089/
-photo.80.tags: autumn, paws, peek, portrait
-photo.81: https://www.instagram.com/p/CHAqvUbBsaq/media/?size=m
-photo.81.author: ifumoto88
-photo.81.link: https://www.instagram.com/ifumoto88/
-photo.81.tags: close-up, paws
-photo.82: https://www.instagram.com/p/CHE_AcFheC_/media/?size=m
-photo.82.author: alto0908
-photo.82.link: https://www.instagram.com/alto0908/
-photo.82.tags: portrait, whiskers
-photo.83: https://www.instagram.com/p/CG2V0HoBkVm/media/?size=m
+photo.80: ig://CNPdf3th1US/m
+photo.80.author: daniele.tokyo
+photo.80.commitdate: 2021/4/4
+photo.80.link: https://www.instagram.com/daniele.tokyo/
+photo.80.tags: dish, lunch time, old, smile, whiskers
+photo.81: ig://CNc85I6hQDC/m
+photo.81.author: na.mo.pan
+photo.81.commitdate: 2021/5/28
+photo.81.link: https://www.instagram.com/na.mo.pan/
+photo.81.tags: peek
+photo.82: ig://CNfHV45hl3N/m
+photo.82.author: ifumoto88
+photo.82.commitdate: 2021/5/30
+photo.82.link: https://www.instagram.com/ifumoto88/
+photo.82.tags: mofumofu, portrait
+photo.83: ig://CNhjxsfhQCn/m
 photo.83.author: ifumoto88
+photo.83.commitdate: 2021/5/28
 photo.83.link: https://www.instagram.com/ifumoto88/
-photo.83.tags: dish, mofumofu, paws, portrait, whiskers
+photo.83.tags: paws, peek, portrait, whiskers
 species: 2
 studbook.id: 0280
 zoo: 1

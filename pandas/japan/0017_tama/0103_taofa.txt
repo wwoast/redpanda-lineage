@@ -303,24 +303,26 @@ photo.58.author: ssc6105
 photo.58.commitdate: 2021/1/13
 photo.58.link: https://www.instagram.com/ssc6105/
 photo.58.tags: bamboo, smile
-photo.59: ig://CKbNEHUBXTu/m
-photo.59.author: redpan22
-photo.59.commitdate: 2021/1/31
-photo.59.link: https://www.instagram.com/redpan22/
-photo.59.tags: autumn, portrait, whiskers
-photo.60: ig://CMUeT3uBHOe/m
-photo.60.author: redpan22
-photo.60.commitdate: 2021/4/11
-photo.60.link: https://www.instagram.com/redpan22/
-photo.60.tags: laying down, mofumofu, paws, portrait, smile, tongue
-photo.61: https://www.instagram.com/p/CKNDYOCBxVk/media/?size=m
-photo.61.author: ck.chie
-photo.61.link: https://www.instagram.com/ck.chie/
-photo.61.tags: portrait, smile, whiskers
-photo.62: https://www.instagram.com/p/CKOuNCjBeT3/media/?size=m
-photo.62.author: miis_98
-photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: grumpy, paws, portrait, tail, whiskers
+photo.59: ig://CKNDYOCBxVk/m
+photo.59.author: ck.chie
+photo.59.commitdate: 2021/5/30
+photo.59.link: https://www.instagram.com/ck.chie/
+photo.59.tags: portrait, smile, whiskers
+photo.60: ig://CKOuNCjBeT3/m
+photo.60.author: miis_98
+photo.60.commitdate: 2021/5/30
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: grumpy, paws, portrait, tail, whiskers
+photo.61: ig://CKbNEHUBXTu/m
+photo.61.author: redpan22
+photo.61.commitdate: 2021/1/31
+photo.61.link: https://www.instagram.com/redpan22/
+photo.61.tags: autumn, portrait, whiskers
+photo.62: ig://CMUeT3uBHOe/m
+photo.62.author: redpan22
+photo.62.commitdate: 2021/4/11
+photo.62.link: https://www.instagram.com/redpan22/
+photo.62.tags: laying down, mofumofu, paws, portrait, smile, tongue
 species: 2
 studbook.id: 15127
 zoo: 17

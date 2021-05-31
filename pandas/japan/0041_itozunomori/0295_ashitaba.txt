@@ -243,14 +243,16 @@ photo.46.author: re_ichimaru
 photo.46.commitdate: 2020/12/30
 photo.46.link: https://www.instagram.com/re_ichimaru/
 photo.46.tags: portrait, tongue, whiskers
-photo.47: https://www.instagram.com/p/CMzBow7hK7b/media/?size=m
+photo.47: ig://CK2OQiuBN7H/m
 photo.47.author: yossi929
+photo.47.commitdate: 2021/5/30
 photo.47.link: https://www.instagram.com/yossi929/
-photo.47.tags: close-up, laying down, portrait, sleeping
-photo.48: https://www.instagram.com/p/CK2OQiuBN7H/media/?size=m
+photo.47.tags: apple time, climb, whiskers
+photo.48: ig://CMzBow7hK7b/m
 photo.48.author: yossi929
+photo.48.commitdate: 2021/5/30
 photo.48.link: https://www.instagram.com/yossi929/
-photo.48.tags: apple time, climb, whiskers
+photo.48.tags: close-up, laying down, portrait, sleeping
 species: 2
 studbook.id: 1682
 zoo: 41

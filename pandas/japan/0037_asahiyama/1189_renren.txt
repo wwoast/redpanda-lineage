@@ -93,14 +93,15 @@ photo.16.author: daniele.tokyo
 photo.16.commitdate: 2021/1/28
 photo.16.link: https://www.instagram.com/daniele.tokyo/
 photo.16.tags: baby, mofumofu, paws, techitechi
-photo.17: ig://CNSe-sph60N/m
-photo.17.author: monmon_redpanda
-photo.17.commitdate: 2021/4/29
-photo.17.link: https://www.instagram.com/monmon_redpanda/
-photo.17.tags: bridge, climb, paws, portrait, tail, upside-down
-photo.18: https://www.instagram.com/p/CK07UY2BewQ/media/?size=m
-photo.18.author: kotata_513
-photo.18.link: https://www.instagram.com/kotata_513/
-photo.18.tags: bamboo, paws, portrait, profile, smile
+photo.17: ig://CK07UY2BewQ/m
+photo.17.author: kotata_513
+photo.17.commitdate: 2021/5/30
+photo.17.link: https://www.instagram.com/kotata_513/
+photo.17.tags: bamboo, paws, portrait, profile, smile
+photo.18: ig://CNSe-sph60N/m
+photo.18.author: monmon_redpanda
+photo.18.commitdate: 2021/4/29
+photo.18.link: https://www.instagram.com/monmon_redpanda/
+photo.18.tags: bridge, climb, paws, portrait, tail, upside-down
 species: 2
 zoo: 37

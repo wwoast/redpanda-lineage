@@ -181,20 +181,21 @@ photo.34.author: nakacchi_desu
 photo.34.commitdate: 2020/12/3
 photo.34.link: https://www.instagram.com/nakacchi_desu/
 photo.34.tags: paws, standing, whiskers
-photo.35: ig://CNFnOihBFte/m
-photo.35.author: miis_98
-photo.35.commitdate: 2021/4/2
-photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: apple time, portrait, smile
-photo.36: ig://CNZswbrhq_h/m
+photo.35: ig://CKY0647Br1H/m
+photo.35.author: re_ichimaru
+photo.35.commitdate: 2021/5/30
+photo.35.link: https://www.instagram.com/re_ichimaru/
+photo.35.tags: hammock, laying down, portrait, smile, upside-down
+photo.36: ig://CNFnOihBFte/m
 photo.36.author: miis_98
-photo.36.commitdate: 2021/4/29
+photo.36.commitdate: 2021/4/2
 photo.36.link: https://www.instagram.com/miis_98/
-photo.36.tags: apple time, paws, portrait, smile, standing, tail
-photo.37: https://www.instagram.com/p/CKY0647Br1H/media/?size=m
-photo.37.author: re_ichimaru
-photo.37.link: https://www.instagram.com/re_ichimaru/
-photo.37.tags: hammock, laying down, portrait, smile, upside-down
+photo.36.tags: apple time, portrait, smile
+photo.37: ig://CNZswbrhq_h/m
+photo.37.author: miis_98
+photo.37.commitdate: 2021/4/29
+photo.37.link: https://www.instagram.com/miis_98/
+photo.37.tags: apple time, paws, portrait, smile, standing, tail
 species: 2
 studbook.id: 1784
 zoo: 42
