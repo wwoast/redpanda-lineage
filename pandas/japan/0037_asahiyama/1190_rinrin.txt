@@ -22,7 +22,7 @@ photo.2: ig://CGPt6sFhgaL/m
 photo.2.author: an920000
 photo.2.commitdate: 2020/10/12
 photo.2.link: https://www.instagram.com/an920000/
-photo.2.tags: baby, mofumofu, portrait, profile
+photo.2.tags: baby, mofumofu, portrait
 photo.3: ig://CGcQ1-wBvTD/m
 photo.3.author: tama67photo
 photo.3.commitdate: 2021/1/30
@@ -98,5 +98,13 @@ photo.17.author: tama67photo
 photo.17.commitdate: 2021/1/28
 photo.17.link: https://www.instagram.com/tama67photo/
 photo.17.tags: baby, portrait
+photo.18: https://www.instagram.com/p/CLJkeiWBbv0/media/?size=m
+photo.18.author: kotata_513
+photo.18.link: https://www.instagram.com/kotata_513/
+photo.18.tags: portrait, profile
+photo.19: https://www.instagram.com/p/CKOScgxhmNR/media/?size=m
+photo.19.author: daniele.tokyo
+photo.19.link: https://www.instagram.com/daniele.tokyo/
+photo.19.tags: home, laying down, mofumofu
 species: 2
 zoo: 37

@@ -17,7 +17,7 @@ photo.1: ig://CGKcvg9B-wb/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: baby, home, laying down, mofumofu, paws, portrait, profile
+photo.1.tags: baby, home, laying down, mofumofu, paws, portrait
 photo.2: ig://CGMorkkhN-r/m
 photo.2.author: an920000
 photo.2.commitdate: 2020/10/11
@@ -98,5 +98,9 @@ photo.17.author: monmon_redpanda
 photo.17.commitdate: 2021/4/29
 photo.17.link: https://www.instagram.com/monmon_redpanda/
 photo.17.tags: bridge, climb, paws, portrait, tail, upside-down
+photo.18: https://www.instagram.com/p/CK07UY2BewQ/media/?size=m
+photo.18.author: kotata_513
+photo.18.link: https://www.instagram.com/kotata_513/
+photo.18.tags: bamboo, paws, portrait, profile, smile
 species: 2
 zoo: 37
