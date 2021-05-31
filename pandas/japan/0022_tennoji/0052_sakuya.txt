@@ -580,15 +580,16 @@ photo.116.author: makimaru18
 photo.116.commitdate: 2021/5/8
 photo.116.link: https://www.instagram.com/makimaru18/
 photo.116.tags: air tasting, portrait, tongue
-photo.117: ig://COOuz27B0SI/m
-photo.117.author: sakikukeco
-photo.117.commitdate: 2021/5/8
-photo.117.link: https://www.instagram.com/sakikukeco/
-photo.117.tags: laying down, paws, playing, portrait, smile, tail, upside-down
-photo.118: https://www.instagram.com/p/COKvp5Oh_aS/media/?size=m
-photo.118.author: jas_forever_love
-photo.118.link: https://www.instagram.com/jas_forever_love/
-photo.118.tags: door, mofumofu, paws, peek
+photo.117: ig://COKvp5Oh_aS/m
+photo.117.author: jas_forever_love
+photo.117.commitdate: 2021/5/31
+photo.117.link: https://www.instagram.com/jas_forever_love/
+photo.117.tags: door, mofumofu, paws, peek
+photo.118: ig://COOuz27B0SI/m
+photo.118.author: sakikukeco
+photo.118.commitdate: 2021/5/8
+photo.118.link: https://www.instagram.com/sakikukeco/
+photo.118.tags: laying down, paws, playing, portrait, smile, tail, upside-down
 species: 2
 studbook.id: 13166
 zoo: 22

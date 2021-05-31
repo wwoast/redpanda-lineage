@@ -211,15 +211,17 @@ photo.30.link: https://www.instagram.com/rie_panda55/
 photo.30.tags: brothers, portrait, smile, siblings, twins
 photo.30.tags.344.location: 230, 145
 photo.30.tags.345.location: 100, 80
-photo.31: https://www.instagram.com/p/COYSD7zhiNB/media/?size=m
-photo.31.author: resapan.suki
-photo.31.link: https://www.instagram.com/resapan.suki/
-photo.31.tags: brothers, portrait, smile, siblings, twins
-photo.31.tags.344.location: 90, 100
-photo.31.tags.345.location: 215, 205
-photo.32: https://www.instagram.com/p/COXwzxyB-6Z/media/?size=m
-photo.32.author: redpan22
-photo.32.link: https://www.instagram.com/redpan22/
-photo.32.tags: brothers, mofumofu, portrait, siblings, twins
-photo.32.tags.344.location: 210, 230
-photo.32.tags.345.location: 110, 95
+photo.31: ig://COXwzxyB-6Z/m
+photo.31.author: redpan22
+photo.31.commitdate: 2021/5/31
+photo.31.link: https://www.instagram.com/redpan22/
+photo.31.tags: brothers, mofumofu, portrait, siblings, twins
+photo.31.tags.344.location: 210, 230
+photo.31.tags.345.location: 110, 95
+photo.32: ig://COYSD7zhiNB/m
+photo.32.author: resapan.suki
+photo.32.commitdate: 2021/5/31
+photo.32.link: https://www.instagram.com/resapan.suki/
+photo.32.tags: brothers, portrait, smile, siblings, twins
+photo.32.tags.344.location: 90, 100
+photo.32.tags.345.location: 215, 205

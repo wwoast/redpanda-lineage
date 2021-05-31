@@ -10,8 +10,9 @@ photo.1.tags: brothers, father's day, siblings
 photo.1.tags.284.location: 375, 175
 photo.1.tags.286.location: 325, 80
 photo.1.tags.959.location: 150, 185
-photo.2: https://www.instagram.com/p/CNfIe-wBX07/media/?size=l
+photo.2: ig://CNfIe-wBX07/l
 photo.2.author: fetorus_mami
+photo.2.commitdate: 2021/5/31
 photo.2.link: https://www.instagram.com/fetorus_mami/
 photo.2.tags: family, father's day, playing
 photo.2.tags.284.location: 80, 150

@@ -361,15 +361,16 @@ photo.70.author: hamamatsu.chiita
 photo.70.commitdate: 2021/5/30
 photo.70.link: https://www.instagram.com/hamamatsu.chiita/
 photo.70.tags: grumpy, mofumofu, portrait, whiskers
-photo.71: ig://COLuoM0Bx0G/m
-photo.71.author: hamamatsu.chiita
-photo.71.commitdate: 2021/5/3
-photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: mofumofu, portrait, whiskers
-photo.72: https://www.instagram.com/p/CN7LlIuhCAP/media/?size=m
-photo.72.author: daniele.tokyo
-photo.72.link: https://www.instagram.com/daniele.tokyo/
-photo.72.tags: apple time, paws, standing
+photo.71: ig://CN7LlIuhCAP/m
+photo.71.author: daniele.tokyo
+photo.71.commitdate: 2021/5/31
+photo.71.link: https://www.instagram.com/daniele.tokyo/
+photo.71.tags: apple time, paws, standing
+photo.72: ig://COLuoM0Bx0G/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2021/5/3
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 15132
 zoo: 13

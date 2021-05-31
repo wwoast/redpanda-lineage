@@ -73,8 +73,9 @@ photo.12.author: kisshan324
 photo.12.commitdate: 2021/1/28
 photo.12.link: https://www.instagram.com/kisshan324/
 photo.12.tags: paws, portrait, tail
-photo.13: https://www.instagram.com/p/COL_FWwBSzo/media/?size=m
+photo.13: ig://COL_FWwBSzo/m
 photo.13.author: sasapan34
+photo.13.commitdate: 2021/5/31
 photo.13.link: https://www.instagram.com/sasapan34/
 photo.13.tags: paws, smile
 species: 2

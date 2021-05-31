@@ -72,8 +72,9 @@ photo.10.link: https://www.instagram.com/mifko55/
 photo.10.tags: apple time, portrait, siblings, smile, snow, twins
 photo.10.tags.1189.location: 125, 250
 photo.10.tags.1190.location: 450, 250
-photo.11: https://www.instagram.com/p/COK2RANhoZ8/media/?size=l
+photo.11: ig://COK2RANhoZ8/l
 photo.11.author: mifko55
+photo.11.commitdate: 2021/5/31
 photo.11.link: https://www.instagram.com/mifko55/
 photo.11.tags: bamboo, portrait, siblings, twins
 photo.11.tags.1189.location: 155, 230

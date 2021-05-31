@@ -1,8 +1,10 @@
 [media]
 _id: media.7.gin-hokuto-kin
+commitdate: 2021/5/31
 panda.tags: 17, 22, 58
-photo.1: https://www.instagram.com/p/CNUn2d_gxIA/media/?size=l
+photo.1: ig://CNUn2d_gxIA/l
 photo.1.author: cattail.sapporo
+photo.1.commitdate: 2021/5/31
 photo.1.link: https://www.instagram.com/cattail.sapporo/
 photo.1.tags: siblings, snow
 photo.1.tags.17.location: 390, 300

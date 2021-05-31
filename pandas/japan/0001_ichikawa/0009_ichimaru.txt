@@ -231,24 +231,26 @@ photo.44.author: ifumoto88
 photo.44.commitdate: 2020/12/29
 photo.44.link: https://www.instagram.com/ifumoto88/
 photo.44.tags: apple time, paws, smile
-photo.45: ig://CNfKjsaBdWq/m
-photo.45.author: ifumoto88
-photo.45.commitdate: 2021/4/17
-photo.45.link: https://www.instagram.com/ifumoto88/
-photo.45.tags: nose, patrol, paws, portrait
-photo.46: ig://CN7mBxjB1eW/m
-photo.46.author: miis_98
-photo.46.commitdate: 2021/5/3
-photo.46.link: https://www.instagram.com/miis_98/
-photo.46.tags: dish, lunch time, whiskers
-photo.47: https://www.instagram.com/p/CN5-jpcB8w8/media/?size=m
+photo.45: ig://CNXW2jqhgHy/m
+photo.45.author: craig_craig_craig
+photo.45.commitdate: 2021/5/31
+photo.45.link: https://www.instagram.com/craig_craig_craig/
+photo.45.tags: grooming, portrait, tail, videolink
+photo.46: ig://CNfKjsaBdWq/m
+photo.46.author: ifumoto88
+photo.46.commitdate: 2021/4/17
+photo.46.link: https://www.instagram.com/ifumoto88/
+photo.46.tags: nose, patrol, paws, portrait
+photo.47: ig://CN5-jpcB8w8/m
 photo.47.author: ck.chie
+photo.47.commitdate: 2021/5/31
 photo.47.link: https://www.instagram.com/ck.chie/
 photo.47.tags: peek
-photo.48: https://www.instagram.com/p/CNXW2jqhgHy/media/?size=m
-photo.48.author: craig_craig_craig
-photo.48.link: https://www.instagram.com/craig_craig_craig/
-photo.48.tags: grooming, portrait, tail, videolink
+photo.48: ig://CN7mBxjB1eW/m
+photo.48.author: miis_98
+photo.48.commitdate: 2021/5/3
+photo.48.link: https://www.instagram.com/miis_98/
+photo.48.tags: dish, lunch time, whiskers
 species: 2
 studbook.id: 0980
 zoo: 1

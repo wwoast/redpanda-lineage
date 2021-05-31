@@ -133,15 +133,16 @@ photo.24.author: redpan22
 photo.24.commitdate: 2021/5/19
 photo.24.link: https://www.instagram.com/redpan22/
 photo.24.tags: mofumofu, paws, tongue
-photo.25: ig://COVB_YfBP0U/m
-photo.25.author: kaoru_a358
-photo.25.commitdate: 2021/5/4
-photo.25.link: https://www.instagram.com/kaoru_a358/
-photo.25.tags: paws, portrait
-photo.26: https://www.instagram.com/p/COIp6PNBxON/media/?size=m
-photo.26.author: fetorus_mami
-photo.26.link: https://www.instagram.com/fetorus_mami/
-photo.26.tags: paws, standing
+photo.25: ig://COIp6PNBxON/m
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2021/5/31
+photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.tags: paws, standing
+photo.26: ig://COVB_YfBP0U/m
+photo.26.author: kaoru_a358
+photo.26.commitdate: 2021/5/4
+photo.26.link: https://www.instagram.com/kaoru_a358/
+photo.26.tags: paws, portrait
 species: 2
 studbook.id: unknown
 zoo: 53
