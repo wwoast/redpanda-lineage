@@ -197,16 +197,17 @@ photo.28.link: https://www.instagram.com/redpan22/
 photo.28.tags: brothers, mofumofu, portrait, siblings, twins
 photo.28.tags.344.location: 215, 450
 photo.28.tags.345.location: 465, 235
-photo.29: ig://COP9hdWhMK0/m
-photo.29.author: rie_panda55
-photo.29.commitdate: 2021/5/4
-photo.29.link: https://www.instagram.com/rie_panda55/
-photo.29.tags: brothers, portrait, smile, siblings, twins
-photo.29.tags.344.location: 230, 145
-photo.29.tags.345.location: 100, 80
-photo.30: https://www.instagram.com/p/COFCD9DB43C/media/?size=l
-photo.30.author: fetorus_mami
-photo.30.link: https://www.instagram.com/fetorus_mami/
-photo.30.tags: brothers, mofumofu, siblings, tongue, twins
-photo.30.tags.344.location: 305, 135
-photo.30.tags.345.location: 130, 290
+photo.29: ig://COFCD9DB43C/l
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2021/5/31
+photo.29.link: https://www.instagram.com/fetorus_mami/
+photo.29.tags: brothers, mofumofu, siblings, tongue, twins
+photo.29.tags.344.location: 305, 135
+photo.29.tags.345.location: 130, 290
+photo.30: ig://COP9hdWhMK0/m
+photo.30.author: rie_panda55
+photo.30.commitdate: 2021/5/4
+photo.30.link: https://www.instagram.com/rie_panda55/
+photo.30.tags: brothers, portrait, smile, siblings, twins
+photo.30.tags.344.location: 230, 145
+photo.30.tags.345.location: 100, 80

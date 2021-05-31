@@ -514,15 +514,16 @@ photo.101.author: re_ichimaru
 photo.101.commitdate: 2021/5/20
 photo.101.link: https://www.instagram.com/re_ichimaru/
 photo.101.tags: paws, portrait, smile, standing
-photo.102: ig://COPvm59hAqZ/m
+photo.102: ig://COHXO8BhoOu/m
 photo.102.author: re_ichimaru
-photo.102.commitdate: 2021/5/4
+photo.102.commitdate: 2021/5/31
 photo.102.link: https://www.instagram.com/re_ichimaru/
-photo.102.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
-photo.103: https://www.instagram.com/p/COHXO8BhoOu/media/?size=m
+photo.102.tags: apple time, keeper, paws, portrait, standing
+photo.103: ig://COPvm59hAqZ/m
 photo.103.author: re_ichimaru
+photo.103.commitdate: 2021/5/4
 photo.103.link: https://www.instagram.com/re_ichimaru/
-photo.103.tags: apple time, keeper, paws, portrait, standing
+photo.103.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
 species: 2
 studbook.id: 0862
 zoo: 32

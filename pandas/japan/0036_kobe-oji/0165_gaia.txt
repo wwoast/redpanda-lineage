@@ -808,19 +808,21 @@ photo.161.author: i.satosato
 photo.161.commitdate: 2021/5/30
 photo.161.link: https://www.instagram.com/i.satosato/
 photo.161.tags: bamboo, grumpy, lips, mofumofu, paws, portrait
-photo.162: ig://COK19EPh-9o/m
+photo.162: ig://COFl2BxBmyL/m
 photo.162.author: i.satosato
-photo.162.commitdate: 2021/5/3
+photo.162.commitdate: 2021/5/31
 photo.162.link: https://www.instagram.com/i.satosato/
-photo.162.tags: flowers, mofumofu, portrait
-photo.163: https://www.instagram.com/p/COHSRhihjLB/media/?size=m
+photo.162.tags: portrait, tail, whiskers
+photo.163: ig://COHSRhihjLB/m
 photo.163.author: falcon_tenor
+photo.163.commitdate: 2021/5/31
 photo.163.link: https://www.instagram.com/falcon_tenor/
 photo.163.tags: mofumofu, portrait
-photo.164: https://www.instagram.com/p/COFl2BxBmyL/media/?size=m
+photo.164: ig://COK19EPh-9o/m
 photo.164.author: i.satosato
+photo.164.commitdate: 2021/5/3
 photo.164.link: https://www.instagram.com/i.satosato/
-photo.164.tags: portrait, tail, whiskers
+photo.164.tags: flowers, mofumofu, portrait
 species: 2
 studbook.id: 0457
 zoo: 36

@@ -438,8 +438,9 @@ photo.85.author: ssc6105
 photo.85.commitdate: 2021/5/28
 photo.85.link: https://www.instagram.com/ssc6105/
 photo.85.tags: bamboo, portrait, videolink
-photo.86: https://www.instagram.com/p/COImxwghq0N/media/?size=m
+photo.86: ig://COImxwghq0N/m
 photo.86.author: na.mo.pan
+photo.86.commitdate: 2021/5/31
 photo.86.link: https://www.instagram.com/na.mo.pan/
 photo.86.tags: paws, portrait
 species: 2

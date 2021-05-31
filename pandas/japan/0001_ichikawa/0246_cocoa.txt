@@ -1028,15 +1028,16 @@ photo.203.author: miis_98
 photo.203.commitdate: 2021/5/19
 photo.203.link: https://www.instagram.com/miis_98/
 photo.203.tags: paws, portrait, smile
-photo.204: ig://COUwRp5h5Rv/m
-photo.204.author: ifumoto88
-photo.204.commitdate: 2021/5/4
-photo.204.link: https://www.instagram.com/ifumoto88/
-photo.204.tags: close-up, laying down, paws, portrait, sleeping
-photo.205: https://www.instagram.com/p/COHI2oMhLYq/media/?size=m
-photo.205.author: alto0908
-photo.205.link: https://www.instagram.com/alto0908/
-photo.205.tags: grooming, mofumofu, paws, portrait
+photo.204: ig://COHI2oMhLYq/m
+photo.204.author: alto0908
+photo.204.commitdate: 2021/5/31
+photo.204.link: https://www.instagram.com/alto0908/
+photo.204.tags: grooming, mofumofu, paws, portrait
+photo.205: ig://COUwRp5h5Rv/m
+photo.205.author: ifumoto88
+photo.205.commitdate: 2021/5/4
+photo.205.link: https://www.instagram.com/ifumoto88/
+photo.205.tags: close-up, laying down, paws, portrait, sleeping
 species: 2
 studbook.id: unknown
 zoo: 1

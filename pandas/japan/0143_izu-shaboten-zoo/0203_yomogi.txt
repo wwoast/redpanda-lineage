@@ -324,8 +324,9 @@ photo.62.author: kaoru_a358
 photo.62.commitdate: 2021/5/3
 photo.62.link: https://www.instagram.com/kaoru_a358/
 photo.62.tags: smile, whiskers
-photo.63: https://www.instagram.com/p/COJY10fBG6i/media/?size=m
+photo.63: ig://COJY10fBG6i/m
 photo.63.author: pink.b22
+photo.63.commitdate: 2021/5/31
 photo.63.link: https://www.instagram.com/pink.b22/
 photo.63.tags: portrait, smile, tail, whiskers
 species: 2

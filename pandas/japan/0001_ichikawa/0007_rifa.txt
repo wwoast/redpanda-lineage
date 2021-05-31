@@ -574,15 +574,16 @@ photo.113.author: na.mo.pan
 photo.113.commitdate: 2021/5/3
 photo.113.link: https://www.instagram.com/na.mo.pan/
 photo.113.tags: apple time, nose
-photo.114: ig://COOx8qxhwwo/m
-photo.114.author: miis_98
-photo.114.commitdate: 2021/5/3
-photo.114.link: https://www.instagram.com/miis_98/
-photo.114.tags: paws, portrait, tail
-photo.115: https://www.instagram.com/p/COG4-3dBz8V/media/?size=m
-photo.115.author: ck.chie
-photo.115.link: https://www.instagram.com/ck.chie/
-photo.115.tags: bamboo, paws, shoots
+photo.114: ig://COG4-3dBz8V/m
+photo.114.author: ck.chie
+photo.114.commitdate: 2021/5/31
+photo.114.link: https://www.instagram.com/ck.chie/
+photo.114.tags: bamboo, paws, shoots
+photo.115: ig://COOx8qxhwwo/m
+photo.115.author: miis_98
+photo.115.commitdate: 2021/5/3
+photo.115.link: https://www.instagram.com/miis_98/
+photo.115.tags: paws, portrait, tail
 species: 2
 studbook.id: 13147
 zoo: 1
