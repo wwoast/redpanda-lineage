@@ -6,7 +6,7 @@ children: none
 commitdate: 2018/6/18
 en.name: Meita
 en.nicknames: none
-en.othernames: none
+en.othernames: Mayta
 gender: f
 jp.name: メイタ
 jp.nicknames: none
@@ -708,6 +708,10 @@ photo.139.author: ssc6105
 photo.139.commitdate: 2021/5/3
 photo.139.link: https://www.instagram.com/ssc6105/
 photo.139.tags: laying down, peek
+photo.140: https://www.instagram.com/p/COGwDELh49m/media/?size=m
+photo.140.author: craig_craig_craig
+photo.140.link: https://www.instagram.com/craig_craig_craig/
+photo.140.tags: bamboo, home, peek, portrait
 species: 2
 studbook.id: 14148
 zoo: 8
