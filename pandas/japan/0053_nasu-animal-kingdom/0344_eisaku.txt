@@ -397,20 +397,21 @@ photo.77.author: redpan22
 photo.77.commitdate: 2021/3/28
 photo.77.link: https://www.instagram.com/redpan22/
 photo.77.tags: bamboo, smile
-photo.78: ig://CNpMGMuBRTQ/m
-photo.78.author: kaoru_a358
-photo.78.commitdate: 2021/5/26
-photo.78.link: https://www.instagram.com/kaoru_a358/
-photo.78.tags: close-up, portrait, whiskers
-photo.79: ig://COIWbA5BG5K/m
-photo.79.author: redpan22
-photo.79.commitdate: 2021/5/28
-photo.79.link: https://www.instagram.com/redpan22/
-photo.79.tags: bamboo, paws, standing
-photo.80: https://www.instagram.com/p/CNluAt4Bkay/media/?size=m
-photo.80.author: yakkooo24
-photo.80.link: https://www.instagram.com/yakkooo24/
-photo.80.tags: bamboo, laying down, mofumofu, paws, playing, portrait, upside-down
+photo.78: ig://CNluAt4Bkay/m
+photo.78.author: yakkooo24
+photo.78.commitdate: 2021/6/1
+photo.78.link: https://www.instagram.com/yakkooo24/
+photo.78.tags: bamboo, laying down, mofumofu, paws, playing, portrait, upside-down
+photo.79: ig://CNpMGMuBRTQ/m
+photo.79.author: kaoru_a358
+photo.79.commitdate: 2021/5/26
+photo.79.link: https://www.instagram.com/kaoru_a358/
+photo.79.tags: close-up, portrait, whiskers
+photo.80: ig://COIWbA5BG5K/m
+photo.80.author: redpan22
+photo.80.commitdate: 2021/5/28
+photo.80.link: https://www.instagram.com/redpan22/
+photo.80.tags: bamboo, paws, standing
 species: 2
 studbook.id: unknown
 zoo: 53

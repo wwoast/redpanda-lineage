@@ -852,15 +852,16 @@ photo.170.author: daniele.tokyo
 photo.170.commitdate: 2021/4/10
 photo.170.link: https://www.instagram.com/daniele.tokyo/
 photo.170.tags: baby, mofumofu, portrait, whiskers
-photo.171: ig://COFmyXxBg1_/m
-photo.171.author: craig_craig_craig
-photo.171.commitdate: 2021/5/31
-photo.171.link: https://www.instagram.com/craig_craig_craig/
-photo.171.tags: apple time, long-tongue, tongue, videolink
-photo.172: https://www.instagram.com/p/CNj-bxnhOzq/media/?size=m
-photo.172.author: imagoto17
-photo.172.link: https://www.instagram.com/imagoto17/
-photo.172.tags: paws, portrait, tongue, whiskers
+photo.171: ig://CNj-bxnhOzq/m
+photo.171.author: imagoto17
+photo.171.commitdate: 2021/6/1
+photo.171.link: https://www.instagram.com/imagoto17/
+photo.171.tags: paws, portrait, tongue, whiskers
+photo.172: ig://COFmyXxBg1_/m
+photo.172.author: craig_craig_craig
+photo.172.commitdate: 2021/5/31
+photo.172.link: https://www.instagram.com/craig_craig_craig/
+photo.172.tags: apple time, long-tongue, tongue, videolink
 species: 2
 studbook.id: 1789
 zoo: 36

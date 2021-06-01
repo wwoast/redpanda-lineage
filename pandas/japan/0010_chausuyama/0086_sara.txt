@@ -700,15 +700,16 @@ photo.138.author: hamamatsu.chiita
 photo.138.commitdate: 2021/5/31
 photo.138.link: https://www.instagram.com/hamamatsu.chiita/
 photo.138.tags: mofumofu, peek, portrait, techitechi
-photo.139: ig://COJR1ePBqq7/m
-photo.139.author: hamamatsu.chiita
-photo.139.commitdate: 2021/5/31
-photo.139.link: https://www.instagram.com/hamamatsu.chiita/
-photo.139.tags: peek, smile
-photo.140: https://www.instagram.com/p/CNjLKh4he3f/media/?size=m
-photo.140.author: shigeko0531
-photo.140.link: https://www.instagram.com/shigeko0531/
-photo.140.tags: paws, standing, tail
+photo.139: ig://CNjLKh4he3f/m
+photo.139.author: shigeko0531
+photo.139.commitdate: 2021/6/1
+photo.139.link: https://www.instagram.com/shigeko0531/
+photo.139.tags: paws, standing, tail
+photo.140: ig://COJR1ePBqq7/m
+photo.140.author: hamamatsu.chiita
+photo.140.commitdate: 2021/5/31
+photo.140.link: https://www.instagram.com/hamamatsu.chiita/
+photo.140.tags: peek, smile
 species: 2
 studbook.id: 0987
 zoo: 10

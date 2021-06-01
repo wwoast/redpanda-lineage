@@ -740,20 +740,21 @@ photo.146.author: re_ichimaru
 photo.146.commitdate: 2021/1/19
 photo.146.link: https://www.instagram.com/re_ichimaru/
 photo.146.tags: portrait, white face
-photo.147: ig://CNtkwKlBeFa/m
-photo.147.author: re_ichimaru
-photo.147.commitdate: 2021/5/26
-photo.147.link: https://www.instagram.com/re_ichimaru/
-photo.147.tags: paws, portrait
-photo.148: ig://COGxDjer4wF/m
-photo.148.author: yossi929
-photo.148.commitdate: 2021/5/31
-photo.148.link: https://www.instagram.com/yossi929/
-photo.148.tags: portrait, whiskers
-photo.149: https://www.instagram.com/p/CNiyw8mhFnr/media/?size=m
+photo.147: ig://CNiyw8mhFnr/m
+photo.147.author: yossi929
+photo.147.commitdate: 2021/6/1
+photo.147.link: https://www.instagram.com/yossi929/
+photo.147.tags: apple time, nose, portrait, whiskers
+photo.148: ig://CNtkwKlBeFa/m
+photo.148.author: re_ichimaru
+photo.148.commitdate: 2021/5/26
+photo.148.link: https://www.instagram.com/re_ichimaru/
+photo.148.tags: paws, portrait
+photo.149: ig://COGxDjer4wF/m
 photo.149.author: yossi929
+photo.149.commitdate: 2021/5/31
 photo.149.link: https://www.instagram.com/yossi929/
-photo.149.tags: apple time, nose, portrait, whiskers
+photo.149.tags: portrait, whiskers
 species: 2
 studbook.id: 12108
 zoo: 32

@@ -453,20 +453,21 @@ photo.89.author: miis_98
 photo.89.commitdate: 2021/3/2
 photo.89.link: https://www.instagram.com/miis_98/
 photo.89.tags: bamboo, bridge, poop, portrait
-photo.90: ig://CNyzeucM-_m/m
-photo.90.author: miis_98
-photo.90.commitdate: 2021/5/3
-photo.90.link: https://www.instagram.com/miis_98/
-photo.90.tags: portrait, tail, whiskers
-photo.91: ig://COAYjP5hJ-9/m
-photo.91.author: resapan.suki
-photo.91.commitdate: 2021/5/19
-photo.91.link: https://www.instagram.com/resapan.suki/
-photo.91.tags: portrait, tongue, whiskers
-photo.92: https://www.instagram.com/p/CNomDxwh8Eg/media/?size=m
-photo.92.author: hamiiiii831_
-photo.92.link: https://www.instagram.com/hamiiiii831_/
-photo.92.tags: paws, videolink
+photo.90: ig://CNomDxwh8Eg/m
+photo.90.author: hamiiiii831_
+photo.90.commitdate: 2021/6/1
+photo.90.link: https://www.instagram.com/hamiiiii831_/
+photo.90.tags: paws, videolink
+photo.91: ig://CNyzeucM-_m/m
+photo.91.author: miis_98
+photo.91.commitdate: 2021/5/3
+photo.91.link: https://www.instagram.com/miis_98/
+photo.91.tags: portrait, tail, whiskers
+photo.92: ig://COAYjP5hJ-9/m
+photo.92.author: resapan.suki
+photo.92.commitdate: 2021/5/19
+photo.92.link: https://www.instagram.com/resapan.suki/
+photo.92.tags: portrait, tongue, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

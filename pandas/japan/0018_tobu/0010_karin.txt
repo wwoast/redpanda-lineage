@@ -550,34 +550,36 @@ photo.107.author: ssc6105
 photo.107.commitdate: 2021/5/4
 photo.107.link: https://www.instagram.com/ssc6105/
 photo.107.tags: dish, laying down, portrait, sleeping
-photo.108: ig://CN2v3HpBsoH/m
-photo.108.author: eos1089
-photo.108.commitdate: 2021/5/31
-photo.108.link: https://www.instagram.com/eos1089/
-photo.108.tags: bamboo, dish, paws, portrait, tongue, yawn
-photo.109: ig://CODNe32B-yS/m
-photo.109.author: redpan22
-photo.109.commitdate: 2021/5/31
-photo.109.link: https://www.instagram.com/redpan22/
-photo.109.tags: mofumofu, paws, portrait, tail
-photo.110: ig://COMS0mrBkzF/m
-photo.110.author: na.mo.pan
+photo.108: ig://CNnKdpVBMjB/m
+photo.108.author: na.mo.pan
+photo.108.commitdate: 2021/6/1
+photo.108.link: https://www.instagram.com/na.mo.pan/
+photo.108.tags: flowers, mofumofu, smile
+photo.109: ig://CNnNVO3hiEK/m
+photo.109.author: eos1089
+photo.109.commitdate: 2021/6/1
+photo.109.link: https://www.instagram.com/eos1089/
+photo.109.tags: flowers, mofumofu, paws, portrait, smile
+photo.110: ig://CN2v3HpBsoH/m
+photo.110.author: eos1089
 photo.110.commitdate: 2021/5/31
-photo.110.link: https://www.instagram.com/na.mo.pan/
-photo.110.tags: bamboo, mofumofu, portrait, smile
-photo.111: ig://COVIlBoBsL6/m
+photo.110.link: https://www.instagram.com/eos1089/
+photo.110.tags: bamboo, dish, paws, portrait, tongue, yawn
+photo.111: ig://CODNe32B-yS/m
 photo.111.author: redpan22
-photo.111.commitdate: 2021/5/4
+photo.111.commitdate: 2021/5/31
 photo.111.link: https://www.instagram.com/redpan22/
-photo.111.tags: mofumofu, portrait
-photo.112: https://www.instagram.com/p/CNnNVO3hiEK/media/?size=m
-photo.112.author: eos1089
-photo.112.link: https://www.instagram.com/eos1089/
-photo.112.tags: flowers, mofumofu, paws, portrait, smile
-photo.113: https://www.instagram.com/p/CNnKdpVBMjB/media/?size=m
-photo.113.author: na.mo.pan
-photo.113.link: https://www.instagram.com/na.mo.pan/
-photo.113.tags: flowers, mofumofu, smile
+photo.111.tags: mofumofu, paws, portrait, tail
+photo.112: ig://COMS0mrBkzF/m
+photo.112.author: na.mo.pan
+photo.112.commitdate: 2021/5/31
+photo.112.link: https://www.instagram.com/na.mo.pan/
+photo.112.tags: bamboo, mofumofu, portrait, smile
+photo.113: ig://COVIlBoBsL6/m
+photo.113.author: redpan22
+photo.113.commitdate: 2021/5/4
+photo.113.link: https://www.instagram.com/redpan22/
+photo.113.tags: mofumofu, portrait
 species: 2
 studbook.id: 1295
 zoo: 18
