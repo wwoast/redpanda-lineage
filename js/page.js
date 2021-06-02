@@ -293,7 +293,8 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Birthday logic
-    if (Pandas.searchBirthday(true, photo_count=10).length > 0) {
+    var birthday_count = Pandas.searchBirthday(true, photo_count=10).length;
+    if (birthday_count > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
     }
@@ -304,8 +305,10 @@ Page.home.render = function() {
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
     // Special galleries
-    var special_galleries = Page.home.special_galleries();
-    new_content.appendChild(special_galleries);
+    if (birthday_count <= 2) {
+      var special_galleries = Page.home.special_galleries();
+      new_content.appendChild(special_galleries);
+    }
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
