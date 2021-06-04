@@ -51,8 +51,9 @@ photo.7.author: re_ichimaru
 photo.7.commitdate: 2020/11/18
 photo.7.link: https://www.instagram.com/re_ichimaru/
 photo.7.tags: air tasting, blink, paws, portrait, tail, tongue
-photo.8: https://www.instagram.com/p/COoXhjpBLPb/media/?size=m
+photo.8: ig://COoXhjpBLPb/m
 photo.8.author: re_ichimaru
+photo.8.commitdate: 2021/6/4
 photo.8.link: https://www.instagram.com/re_ichimaru/
 photo.8.tags: eye, paws, portrait
 species: 2

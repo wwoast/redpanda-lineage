@@ -633,8 +633,9 @@ photo.124.author: panda.daisuki
 photo.124.commitdate: 2021/5/3
 photo.124.link: https://www.instagram.com/panda.daisuki/
 photo.124.tags: bamboo, portrait, smile, white face
-photo.125: https://www.instagram.com/p/COaJaX3Bjtn/media/?size=m
+photo.125: ig://COaJaX3Bjtn/m
 photo.125.author: fetorus_mami
+photo.125.commitdate: 2021/6/4
 photo.125.link: https://www.instagram.com/fetorus_mami/
 photo.125.tags: portrait, tree, white face
 species: 2

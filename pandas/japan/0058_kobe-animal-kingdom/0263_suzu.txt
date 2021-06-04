@@ -319,8 +319,9 @@ photo.61.author: gloryeui
 photo.61.commitdate: 2021/4/20
 photo.61.link: https://www.instagram.com/gloryeui/
 photo.61.tags: air tasting, portrait, tongue, whiskers
-photo.62: https://www.instagram.com/p/COnF9NoBAAw/media/?size=m
+photo.62: ig://COnF9NoBAAw/m
 photo.62.author: jas_forever_love
+photo.62.commitdate: 2021/6/4
 photo.62.link: https://www.instagram.com/jas_forever_love/
 photo.62.tags: paws, portrait, smile
 species: 2
