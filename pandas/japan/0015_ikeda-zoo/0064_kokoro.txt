@@ -203,8 +203,9 @@ photo.38.author: itsuak
 photo.38.commitdate: 2021/4/3
 photo.38.link: https://www.instagram.com/itsuak/
 photo.38.tags: bamboo, close-up, portrait, smile, whiskers
-photo.39: https://www.instagram.com/p/CO5Ww_nhV2n/media/?size=m
+photo.39: ig://CO5Ww_nhV2n/m
 photo.39.author: itsuak
+photo.39.commitdate: 2021/6/6
 photo.39.link: https://www.instagram.com/itsuak/
 photo.39.tags: paws, portrait, tongue
 species: 2

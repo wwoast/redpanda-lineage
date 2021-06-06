@@ -1084,20 +1084,21 @@ photo.215.author: tama67photo
 photo.215.commitdate: 2020/8/13
 photo.215.link: https://www.instagram.com/tama67photo/
 photo.215.tags: climb, portrait, snow, tree
-photo.216: ig://CE9GBEJJbYl/m
-photo.216.author: nishicotolo
-photo.216.commitdate: 2020/11/10
-photo.216.link: https://www.instagram.com/nishicotolo/
-photo.216.tags: paws, peek
-photo.217: ig://CHCV_iih1kl/m
-photo.217.author: wumpwoast
-photo.217.commitdate: 2020/11/6
-photo.217.link: https://www.instagram.com/wumpwoast/
-photo.217.tags: peek, portrait
-photo.218: https://www.instagram.com/p/CDno5y1BcH0/media/?size=m
+photo.216: ig://CDno5y1BcH0/m
+photo.216.author: wumpwoast
+photo.216.commitdate: 2021/6/6
+photo.216.link: https://www.instagram.com/wumpwoast/
+photo.216.tags: autumn, bridge, paws, portrait
+photo.217: ig://CE9GBEJJbYl/m
+photo.217.author: nishicotolo
+photo.217.commitdate: 2020/11/10
+photo.217.link: https://www.instagram.com/nishicotolo/
+photo.217.tags: paws, peek
+photo.218: ig://CHCV_iih1kl/m
 photo.218.author: wumpwoast
+photo.218.commitdate: 2020/11/6
 photo.218.link: https://www.instagram.com/wumpwoast/
-photo.218.tags: autumn, bridge, paws, portrait
+photo.218.tags: peek, portrait
 species: 2
 studbook.id: 12116
 zoo: 7

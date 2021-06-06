@@ -113,20 +113,21 @@ photo.20.author: craig_craig_craig
 photo.20.commitdate: 2020/4/28
 photo.20.link: https://www.instagram.com/craig_craig_craig/
 photo.20.tags: portrait, tail
-photo.21: ig://CJEETJRBVtd/m
-photo.21.author: fetorus_mami
-photo.21.commitdate: 2020/12/30
-photo.21.link: https://www.instagram.com/fetorus_mami/
-photo.21.tags: close-up, whiskers
-photo.22: ig://CJnAcaohNGv/m
-photo.22.author: mybrotherisdylan
-photo.22.commitdate: 2021/1/13
-photo.22.link: https://www.instagram.com/mybrotherisdylan/
-photo.22.tags: grooming, laying down, paws, portrait, tongue
-photo.23: https://www.instagram.com/p/CCzArc1Bryz/media/?size=m
-photo.23.author: wumpwoast
-photo.23.link: https://www.instagram.com/wumpwoast/
-photo.23.tags: climb, paws, portrait
+photo.21: ig://CCzArc1Bryz/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2021/6/6
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: climb, paws, portrait
+photo.22: ig://CJEETJRBVtd/m
+photo.22.author: fetorus_mami
+photo.22.commitdate: 2020/12/30
+photo.22.link: https://www.instagram.com/fetorus_mami/
+photo.22.tags: close-up, whiskers
+photo.23: ig://CJnAcaohNGv/m
+photo.23.author: mybrotherisdylan
+photo.23.commitdate: 2021/1/13
+photo.23.link: https://www.instagram.com/mybrotherisdylan/
+photo.23.tags: grooming, laying down, paws, portrait, tongue
 species: 1
 studbook.id: 14172
 zoo: 59

@@ -529,8 +529,9 @@ photo.104.author: re_ichimaru
 photo.104.commitdate: 2021/5/4
 photo.104.link: https://www.instagram.com/re_ichimaru/
 photo.104.tags: bamboo, mofumofu, portrait, shoots, smile, tongue
-photo.105: https://www.instagram.com/p/COwFTNlBUMB/media/?size=m
+photo.105: ig://COwFTNlBUMB/m
 photo.105.author: re_ichimaru
+photo.105.commitdate: 2021/6/6
 photo.105.link: https://www.instagram.com/re_ichimaru/
 photo.105.tags: climb, paws, portrait, window
 species: 2

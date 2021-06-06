@@ -63,8 +63,9 @@ photo.10.author: miis_98
 photo.10.commitdate: 2020/8/15
 photo.10.link: https://www.instagram.com/miis_98/
 photo.10.tags: laying down, portrait
-photo.11: https://www.instagram.com/p/CO6z6uQhEsD/media/?size=m
+photo.11: ig://CO6z6uQhEsD/m
 photo.11.author: miis_98
+photo.11.commitdate: 2021/6/6
 photo.11.link: https://www.instagram.com/miis_98/
 photo.11.tags: portrait, whiskers
 species: 1

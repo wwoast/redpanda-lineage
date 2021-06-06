@@ -305,39 +305,41 @@ photo.58.author: grskus_tk
 photo.58.commitdate: 2020/6/28
 photo.58.link: https://www.instagram.com/grskus_tk/
 photo.58.tags: grooming, paws, portrait, tail
-photo.59: ig://CD5FknVBZcY/m
-photo.59.author: alto0908
-photo.59.commitdate: 2020/12/5
-photo.59.link: https://www.instagram.com/alto0908/
-photo.59.tags: laying down, paws
-photo.60: ig://CHoxTYRhfdd/m
-photo.60.author: ssc6105
-photo.60.commitdate: 2020/11/18
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: paws, tail
-photo.61: ig://CIrv93Uh0VU/m
-photo.61.author: panda.daisuki
-photo.61.commitdate: 2021/1/13
-photo.61.link: https://www.instagram.com/panda.daisuki/
-photo.61.tags: door, portrait, tongue
-photo.62: ig://CJnbL_GB9UH/m
-photo.62.author: ssc6105
+photo.59: ig://CCxQfzvhX79/m
+photo.59.author: wumpwoast
+photo.59.commitdate: 2021/6/6
+photo.59.link: https://www.instagram.com/wumpwoast/
+photo.59.tags: bamboo, portrait, tail
+photo.60: ig://CD5FknVBZcY/m
+photo.60.author: alto0908
+photo.60.commitdate: 2020/12/5
+photo.60.link: https://www.instagram.com/alto0908/
+photo.60.tags: laying down, paws
+photo.61: ig://CHoxTYRhfdd/m
+photo.61.author: ssc6105
+photo.61.commitdate: 2020/11/18
+photo.61.link: https://www.instagram.com/ssc6105/
+photo.61.tags: paws, tail
+photo.62: ig://CIrv93Uh0VU/m
+photo.62.author: panda.daisuki
 photo.62.commitdate: 2021/1/13
-photo.62.link: https://www.instagram.com/ssc6105/
-photo.62.tags: paws, tongue
-photo.63: ig://CJqeLwOhR5-/m
-photo.63.author: grskus_tk
+photo.62.link: https://www.instagram.com/panda.daisuki/
+photo.62.tags: door, portrait, tongue
+photo.63: ig://CJnbL_GB9UH/m
+photo.63.author: ssc6105
 photo.63.commitdate: 2021/1/13
-photo.63.link: https://www.instagram.com/grskus_tk/
-photo.63.tags: tail
-photo.64: https://www.instagram.com/p/CO0huoKBU0X/media/?size=m
-photo.64.author: alto0908
-photo.64.link: https://www.instagram.com/alto0908/
-photo.64.tags: eye, peek, portrait
-photo.65: https://www.instagram.com/p/CCxQfzvhX79/media/?size=m
-photo.65.author: wumpwoast
-photo.65.link: https://www.instagram.com/wumpwoast/
-photo.65.tags: bamboo, portrait, tail
+photo.63.link: https://www.instagram.com/ssc6105/
+photo.63.tags: paws, tongue
+photo.64: ig://CJqeLwOhR5-/m
+photo.64.author: grskus_tk
+photo.64.commitdate: 2021/1/13
+photo.64.link: https://www.instagram.com/grskus_tk/
+photo.64.tags: tail
+photo.65: ig://CO0huoKBU0X/m
+photo.65.author: alto0908
+photo.65.commitdate: 2021/6/6
+photo.65.link: https://www.instagram.com/alto0908/
+photo.65.tags: eye, peek, portrait
 species: 2
 studbook.id: 0366
 zoo: 8

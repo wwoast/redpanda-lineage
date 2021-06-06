@@ -70,30 +70,31 @@ photo.11.author: wumpwoast
 photo.11.commitdate: 2020/9/4
 photo.11.link: https://www.instagram.com/wumpwoast/
 photo.11.tags: bamboo, shoots, tree
-photo.12: ig://CFnQO9rBPvV/m
+photo.12: ig://CEri3uBBvbO/m
 photo.12.author: wumpwoast
-photo.12.commitdate: 2020/9/26
+photo.12.commitdate: 2021/6/6
 photo.12.link: https://www.instagram.com/wumpwoast/
-photo.12.tags: portrait, whiskers
-photo.13: ig://CKmR27EnSLc/m
-photo.13.author: sequoiaparkzoo
-photo.13.commitdate: 2021/2/28
-photo.13.link: https://www.instagram.com/sequoiaparkzoo/
+photo.12.tags: flowers, portrait, white face
+photo.13: ig://CFnQO9rBPvV/m
+photo.13.author: wumpwoast
+photo.13.commitdate: 2020/9/26
+photo.13.link: https://www.instagram.com/wumpwoast/
 photo.13.tags: portrait, whiskers
-photo.14: ig://CK_geovLWa_/m
+photo.14: ig://CKmR27EnSLc/m
 photo.14.author: sequoiaparkzoo
-photo.14.commitdate: 2021/4/11
+photo.14.commitdate: 2021/2/28
 photo.14.link: https://www.instagram.com/sequoiaparkzoo/
-photo.14.tags: bamboo, peek, tail
-photo.15: ig://CMCdMioFFf7/m
+photo.14.tags: portrait, whiskers
+photo.15: ig://CK_geovLWa_/m
 photo.15.author: sequoiaparkzoo
 photo.15.commitdate: 2021/4/11
 photo.15.link: https://www.instagram.com/sequoiaparkzoo/
-photo.15.tags: close-up, peek, portrait, standing, tail, whiskers
-photo.16: https://www.instagram.com/p/CEri3uBBvbO/media/?size=m
-photo.16.author: wumpwoast
-photo.16.link: https://www.instagram.com/wumpwoast/
-photo.16.tags: flowers, portrait, white face
+photo.15.tags: bamboo, peek, tail
+photo.16: ig://CMCdMioFFf7/m
+photo.16.author: sequoiaparkzoo
+photo.16.commitdate: 2021/4/11
+photo.16.link: https://www.instagram.com/sequoiaparkzoo/
+photo.16.tags: close-up, peek, portrait, standing, tail, whiskers
 species: 1
 studbook.id: 0912
 zoo: 134
