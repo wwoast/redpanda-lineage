@@ -38,14 +38,16 @@ photo.5.author: re_ichimaru
 photo.5.commitdate: 2020/7/28
 photo.5.link: https://www.instagram.com/re_ichimaru/
 photo.5.tags: bamboo, laying down, portrait
-photo.6: https://www.instagram.com/p/COX4jbRB8E3/media/?size=m
+photo.6: ig://CKMI-HEho-L/m
 photo.6.author: kojikoji2011
+photo.6.commitdate: 2021/6/7
 photo.6.link: https://www.instagram.com/kojikoji2011/
-photo.6.tags: bamboo, paws, smile
-photo.7: https://www.instagram.com/p/CKMI-HEho-L/media/?size=m
+photo.6.tags: bamboo, portrait
+photo.7: ig://COX4jbRB8E3/m
 photo.7.author: kojikoji2011
+photo.7.commitdate: 2021/6/7
 photo.7.link: https://www.instagram.com/kojikoji2011/
-photo.7.tags: bamboo, portrait
+photo.7.tags: bamboo, paws, smile
 species: 2
 studbook.id: 1198
 zoo: 42

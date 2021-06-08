@@ -59,24 +59,29 @@ photo.9.author: kmasahon
 photo.9.commitdate: 2019/10/15
 photo.9.link: https://www.instagram.com/kmasahon/
 photo.9.tags: paws, smile
-photo.10: https://www.instagram.com/p/CMEdEp6BKfM/media/?size=m
+photo.10: ig://CJfpYOaByT-/m
 photo.10.author: kojikoji2011
+photo.10.commitdate: 2021/6/7
 photo.10.link: https://www.instagram.com/kojikoji2011/
-photo.10.tags: peek
-photo.11: https://www.instagram.com/p/CMWzWNehhe5/media/?size=m
+photo.10.tags: close-up, portrait, tongue
+photo.11: ig://CKwRtjNBHnW/m
 photo.11.author: kojikoji2011
+photo.11.commitdate: 2021/6/7
 photo.11.link: https://www.instagram.com/kojikoji2011/
-photo.11.tags: lips, portrait, smile, tongue
-photo.12: https://www.instagram.com/p/CKwRtjNBHnW/media/?size=m
+photo.11.tags: bamboo, paws, portrait, profile, smile
+photo.12: ig://CMEdEp6BKfM/m
 photo.12.author: kojikoji2011
+photo.12.commitdate: 2021/6/7
 photo.12.link: https://www.instagram.com/kojikoji2011/
-photo.12.tags: bamboo, paws, portrait, profile, smile
-photo.13: https://www.instagram.com/p/CJfpYOaByT-/media/?size=m
+photo.12.tags: peek
+photo.13: ig://CMWzWNehhe5/m
 photo.13.author: kojikoji2011
+photo.13.commitdate: 2021/6/7
 photo.13.link: https://www.instagram.com/kojikoji2011/
-photo.13.tags: close-up, portrait, tongue
-photo.14: https://www.instagram.com/p/CPSszoghXK7/media/?size=m
+photo.13.tags: lips, portrait, smile, tongue
+photo.14: ig://CPSszoghXK7/m
 photo.14.author: kojikoji2011
+photo.14.commitdate: 2021/6/7
 photo.14.link: https://www.instagram.com/kojikoji2011/
 photo.14.tags: peek
 species: 2

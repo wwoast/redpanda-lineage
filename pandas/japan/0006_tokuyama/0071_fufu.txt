@@ -220,60 +220,69 @@ photo.42.author: minatomirai215
 photo.42.commitdate: 2020/6/6
 photo.42.link: https://www.instagram.com/minatomirai215/
 photo.42.tags: portrait, smile
-photo.43: ig://CEjpl6GB-MB/m
-photo.43.author: grskus_tk
-photo.43.commitdate: 2020/9/4
-photo.43.link: https://www.instagram.com/grskus_tk/
-photo.43.tags: smile, tail
-photo.44: ig://CEmDxxQBlWc/m
-photo.44.author: grskus_tk
-photo.44.commitdate: 2020/9/28
-photo.44.link: https://www.instagram.com/grskus_tk/
-photo.44.tags: laying down, paws, tongue
-photo.45: ig://CKYS0fLhR2w/m
-photo.45.author: panda.daisuki
-photo.45.commitdate: 2021/4/22
-photo.45.link: https://www.instagram.com/panda.daisuki/
-photo.45.tags: apple time, portrait, snow
-photo.46: ig://CNizVKlB8oY/m
-photo.46.author: miis_98
-photo.46.commitdate: 2021/5/28
-photo.46.link: https://www.instagram.com/miis_98/
-photo.46.tags: apple time, paws, whiskers
-photo.47: https://www.instagram.com/p/CEEPBjQlInN/media/?size=m
-photo.47.author: kojikoji2011
-photo.47.link: https://www.instagram.com/kojikoji2011/
-photo.47.tags: mofumofu, smile
-photo.48: https://www.instagram.com/p/CDQ7pvxFsZc/media/?size=m
+photo.43: ig://CCjCKN6FFss/m
+photo.43.author: kojikoji2011
+photo.43.commitdate: 2021/6/7
+photo.43.link: https://www.instagram.com/kojikoji2011/
+photo.43.tags: portrait
+photo.44: ig://CDQ7pvxFsZc/m
+photo.44.author: kojikoji2011
+photo.44.commitdate: 2021/6/7
+photo.44.link: https://www.instagram.com/kojikoji2011/
+photo.44.tags: paws, portrait, smile, tongue, whiskers
+photo.45: ig://CEEPBjQlInN/m
+photo.45.author: kojikoji2011
+photo.45.commitdate: 2021/6/7
+photo.45.link: https://www.instagram.com/kojikoji2011/
+photo.45.tags: mofumofu, smile
+photo.46: ig://CEjpl6GB-MB/m
+photo.46.author: grskus_tk
+photo.46.commitdate: 2020/9/4
+photo.46.link: https://www.instagram.com/grskus_tk/
+photo.46.tags: smile, tail
+photo.47: ig://CEmDxxQBlWc/m
+photo.47.author: grskus_tk
+photo.47.commitdate: 2020/9/28
+photo.47.link: https://www.instagram.com/grskus_tk/
+photo.47.tags: laying down, paws, tongue
+photo.48: ig://CJ3V0mHB6Tz/m
 photo.48.author: kojikoji2011
+photo.48.commitdate: 2021/6/7
 photo.48.link: https://www.instagram.com/kojikoji2011/
-photo.48.tags: paws, portrait, smile, tongue, whiskers
-photo.49: https://www.instagram.com/p/CCjCKN6FFss/media/?size=m
-photo.49.author: kojikoji2011
-photo.49.link: https://www.instagram.com/kojikoji2011/
-photo.49.tags: portrait
-photo.50: https://www.instagram.com/p/CJ3V0mHB6Tz/media/?size=m
+photo.48.tags: bamboo, paws, standing, tail, tongue
+photo.49: ig://CKYS0fLhR2w/m
+photo.49.author: panda.daisuki
+photo.49.commitdate: 2021/4/22
+photo.49.link: https://www.instagram.com/panda.daisuki/
+photo.49.tags: apple time, portrait, snow
+photo.50: ig://CKomVoXB-OX/m
 photo.50.author: kojikoji2011
+photo.50.commitdate: 2021/6/7
 photo.50.link: https://www.instagram.com/kojikoji2011/
-photo.50.tags: bamboo, paws, standing, tail, tongue
-photo.51: https://www.instagram.com/p/CM7WgPhBBku/media/?size=m
+photo.50.tags: bamboo, paws, tail
+photo.51: ig://CL1V1ChBbPg/m
 photo.51.author: kojikoji2011
+photo.51.commitdate: 2021/6/7
 photo.51.link: https://www.instagram.com/kojikoji2011/
-photo.51.tags: bamboo, portrait, whiskers
-photo.52: https://www.instagram.com/p/CL1V1ChBbPg/media/?size=m
+photo.51.tags: bamboo, paws, portrait, smile
+photo.52: ig://CM7WgPhBBku/m
 photo.52.author: kojikoji2011
+photo.52.commitdate: 2021/6/7
 photo.52.link: https://www.instagram.com/kojikoji2011/
-photo.52.tags: bamboo, paws, portrait, smile
-photo.53: https://www.instagram.com/p/CKomVoXB-OX/media/?size=m
+photo.52.tags: bamboo, portrait, whiskers
+photo.53: ig://CNXEQaehlSZ/m
 photo.53.author: kojikoji2011
+photo.53.commitdate: 2021/6/7
 photo.53.link: https://www.instagram.com/kojikoji2011/
-photo.53.tags: bamboo, paws, tail
-photo.54: https://www.instagram.com/p/CNXEQaehlSZ/media/?size=m
-photo.54.author: kojikoji2011
-photo.54.link: https://www.instagram.com/kojikoji2011/
-photo.54.tags: laying down, sleeping
-photo.55: https://www.instagram.com/p/COdM2LQh1ku/media/?size=m
+photo.53.tags: laying down, sleeping
+photo.54: ig://CNizVKlB8oY/m
+photo.54.author: miis_98
+photo.54.commitdate: 2021/5/28
+photo.54.link: https://www.instagram.com/miis_98/
+photo.54.tags: apple time, paws, whiskers
+photo.55: ig://COdM2LQh1ku/m
 photo.55.author: kojikoji2011
+photo.55.commitdate: 2021/6/7
 photo.55.link: https://www.instagram.com/kojikoji2011/
 photo.55.tags: bamboo, paws, smile
 species: 2

@@ -284,8 +284,9 @@ photo.54.author: resapan.suki
 photo.54.commitdate: 2021/5/19
 photo.54.link: https://www.instagram.com/resapan.suki/
 photo.54.tags: paws, peek
-photo.55: https://www.instagram.com/p/CPndnPsBZiq/media/?size=m
+photo.55: ig://CPndnPsBZiq/m
 photo.55.author: fetorus_mami
+photo.55.commitdate: 2021/6/7
 photo.55.link: https://www.instagram.com/fetorus_mami/
 photo.55.tags: door, paws
 species: 2

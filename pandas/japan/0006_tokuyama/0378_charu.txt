@@ -53,8 +53,9 @@ photo.8.author: grskus_tk
 photo.8.commitdate: 2020/9/7
 photo.8.link: https://www.instagram.com/grskus_tk/
 photo.8.tags: bamboo, paws, portrait
-photo.9: https://www.instagram.com/p/CLWFTvtBN3N/media/?size=m
+photo.9: ig://CLWFTvtBN3N/m
 photo.9.author: kojikoji2011
+photo.9.commitdate: 2021/6/7
 photo.9.link: https://www.instagram.com/kojikoji2011/
 photo.9.tags: peek, portrait
 species: 2

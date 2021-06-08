@@ -1,20 +1,24 @@
 [media]
 _id: media.6.fufu-luna
+commitdate: 2021/6/7
 panda.tags: 71, 73
-photo.1: https://www.instagram.com/p/CMzaj_XBXaM/media/?size=l
+photo.1: ig://CJ8uIB0h6Y9/l
 photo.1.author: kojikoji2011
+photo.1.commitdate: 2021/6/7
 photo.1.link: https://www.instagram.com/kojikoji2011/
-photo.1.tags: couple, home, paws, smile, tail
-photo.1.tags.71.location: 140, 195
-photo.1.tags.73.location: 515, 310
-photo.2: https://www.instagram.com/p/CJ8uIB0h6Y9/media/?size=l
+photo.1.tags: bamboo, couple
+photo.1.tags.71.location: 190, 160
+photo.1.tags.73.location: 510, 230
+photo.2: ig://CMzaj_XBXaM/l
 photo.2.author: kojikoji2011
+photo.2.commitdate: 2021/6/7
 photo.2.link: https://www.instagram.com/kojikoji2011/
-photo.2.tags: bamboo, couple
-photo.2.tags.71.location: 190, 160
-photo.2.tags.73.location: 510, 230
-photo.3: https://www.instagram.com/p/CO20WQPh-y_/media/?size=l
+photo.2.tags: couple, home, paws, smile, tail
+photo.2.tags.71.location: 140, 195
+photo.2.tags.73.location: 515, 310
+photo.3: ig://CO20WQPh-y_/l
 photo.3.author: kojikoji2011
+photo.3.commitdate: 2021/6/7
 photo.3.link: https://www.instagram.com/kojikoji2011/
 photo.3.tags: bamboo, couple, home, paws, portrait
 photo.3.tags.71.location: 530, 235

@@ -75,8 +75,9 @@ photo.12.author: miis_98
 photo.12.commitdate: 2021/4/3
 photo.12.link: https://www.instagram.com/miis_98/
 photo.12.tags: apple time, portrait, smile, whiskers
-photo.13: https://www.instagram.com/p/CN9axp5hBLB/media/?size=m
+photo.13: ig://CN9axp5hBLB/m
 photo.13.author: kojikoji2011
+photo.13.commitdate: 2021/6/7
 photo.13.link: https://www.instagram.com/kojikoji2011/
 photo.13.tags: portrait, whiskers, white face
 species: 2

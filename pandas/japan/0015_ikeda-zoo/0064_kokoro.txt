@@ -208,8 +208,9 @@ photo.39.author: itsuak
 photo.39.commitdate: 2021/6/6
 photo.39.link: https://www.instagram.com/itsuak/
 photo.39.tags: paws, portrait, tongue
-photo.40: https://www.instagram.com/p/CPdX4pCBJxJ/media/?size=m
+photo.40: ig://CPdX4pCBJxJ/m
 photo.40.author: itsuak
+photo.40.commitdate: 2021/6/7
 photo.40.link: https://www.instagram.com/itsuak/
 photo.40.tags: bamboo, smile
 species: 2

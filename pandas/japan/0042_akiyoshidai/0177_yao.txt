@@ -176,8 +176,9 @@ photo.33.author: miis_98
 photo.33.commitdate: 2021/5/26
 photo.33.link: https://www.instagram.com/miis_98/
 photo.33.tags: portrait, tail
-photo.34: https://www.instagram.com/p/COS-LqCBIvY/media/?size=m
+photo.34: ig://COS-LqCBIvY/m
 photo.34.author: kojikoji2011
+photo.34.commitdate: 2021/6/7
 photo.34.link: https://www.instagram.com/kojikoji2011/
 photo.34.tags: peek
 species: 2
