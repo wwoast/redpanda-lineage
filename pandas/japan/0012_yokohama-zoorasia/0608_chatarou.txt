@@ -17,7 +17,6 @@ litter: 191
 location.1: 17, 2003/6/26
 location.2: 28, 2004/4/14
 location.3: 12, 2014/10/27
-phoot.8.tags: paws, peek, smile
 photo.1: ig://BCsmZ6PqoJg/m
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/4/19
@@ -62,6 +61,7 @@ photo.9: ig://BLDm8AxDjKr/m
 photo.9.author: minatomirai215
 photo.9.commitdate: 2020/4/18
 photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: paws, peek, smile
 photo.10: ig://BLGUzBZjRaJ/m
 photo.10.author: minatomirai215
 photo.10.commitdate: 2020/4/18

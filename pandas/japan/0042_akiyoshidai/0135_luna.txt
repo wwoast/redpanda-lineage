@@ -56,6 +56,14 @@ photo.8.author: re_ichimaru
 photo.8.commitdate: 2021/6/4
 photo.8.link: https://www.instagram.com/re_ichimaru/
 photo.8.tags: eye, paws, portrait
+photo.9: https://www.instagram.com/p/CLoaNtAh6eX/media/?size=m
+photo.9.author: kojikoji2011
+photo.9.link: https://www.instagram.com/kojikoji2011/
+photo.9.tags: mofumofu, portrait, videolink
+photo.10: https://www.instagram.com/p/CMmnDykhCmT/media/?size=m
+photo.10.author: kojikoji2011
+photo.10.link: https://www.instagram.com/kojikoji2011/
+photo.10.tags: eye, peek, techitechi
 species: 2
 studbook.id: 0465
 zoo: 42

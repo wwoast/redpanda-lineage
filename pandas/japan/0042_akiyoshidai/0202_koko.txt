@@ -34,7 +34,7 @@ photo.4: ig://BcUOLo5FQTW/m
 photo.4.author: hanamaru_redpanda
 photo.4.commitdate: 2018/12/23
 photo.4.link: https://www.instagram.com/hanamaru_redpanda/
-photo.4.tags: portrait, profile
+photo.4.tags: portrait
 photo.5: ig://Bg4-IX7Bv5w/m
 photo.5.author: kotata_513
 photo.5.commitdate: 2019/6/23
@@ -82,6 +82,26 @@ photo.14: ig://CE5NMyvBz45/m
 photo.14.author: grskus_tk
 photo.14.commitdate: 2020/9/24
 photo.14.link: https://www.instagram.com/grskus_tk/
+photo.15: https://www.instagram.com/p/CKI2F4xhRI_/media/?size=m
+photo.15.author: kojikoji2011
+photo.15.link: https://www.instagram.com/kojikoji2011/
+photo.15.tags: eye, paws
+photo.16: https://www.instagram.com/p/CJYu8pxhPGZ/media/?size=m
+photo.16.author: kojikoji2011
+photo.16.link: https://www.instagram.com/kojikoji2011/
+photo.16.tags: eye, grooming, paws, portrait, profile, tail
+photo.17: https://www.instagram.com/p/CLNn7dqhmTm/media/?size=m
+photo.17.author: kojikoji2011
+photo.17.link: https://www.instagram.com/kojikoji2011/
+photo.17.tags: eye, laying down, paws, peek, portrait
+photo.18: https://www.instagram.com/p/CNulDlzBoKi/media/?size=m
+photo.18.author: kojikoji2011
+photo.18.link: https://www.instagram.com/kojikoji2011/
+photo.18.tags: eye, paws, portrait, tail, tongue
+photo.19: https://www.instagram.com/p/COKtPTlBPkZ/media/?size=m
+photo.19.author: kojikoji2011
+photo.19.link: https://www.instagram.com/kojikoji2011/
+photo.19.tags: laying down, tail
 species: 2
 studbook.id: 0370
 zoo: 42

@@ -25,21 +25,22 @@ photo.2: ig://BoKHRavllc5/m
 photo.2.author: animal_love_us
 photo.2.commitdate: 2018/10/1
 photo.2.link: https://www.instagram.com/animal_love_us/
-photo.2.tags: bear worm, sleeping
+photo.2.tags: bear worm, portrait, sleeping
 photo.3: ig://BpSAERXFii9/m
 photo.3.author: makimaru18
 photo.3.commitdate: 2018/10/23
 photo.3.link: https://www.instagram.com/makimaru18/
-photo.3.tags: profile
+photo.3.tags: portrait
 photo.4: ig://Bq_aO4GlJoD/m
 photo.4.author: perie1027vivi
 photo.4.commitdate: 2018/12/6
 photo.4.link: https://www.instagram.com/perie1027vivi/
+photo.4.tags: climb, paws, portrait
 photo.5: ig://BtSOlGYltPN/m
 photo.5.author: fetorus_mami
 photo.5.commitdate: 2019/10/14
 photo.5.link: https://www.instagram.com/fetorus_mami/
-photo.5.tags: bamboo, smile
+photo.5.tags: bamboo, close-up, smile
 photo.6: ig://Bu7wOdIF3-e/m
 photo.6.author: nakacchi_desu
 photo.6.commitdate: 2019/10/14
@@ -59,12 +60,12 @@ photo.9: ig://Bxk-soyFyx8/m
 photo.9.author: kipekaila
 photo.9.commitdate: 2019/5/20
 photo.9.link: https://www.instagram.com/kipekaila/
-photo.9.tags: mofumofu
+photo.9.tags: mofumofu, portrait
 photo.10: ig://B2uzs0lhq_i/m
 photo.10.author: rie_panda55
 photo.10.commitdate: 2019/9/26
 photo.10.link: https://www.instagram.com/rie_panda55/
-photo.10.tags: laying down, portrait
+photo.10.tags: laying down, portrait, smile
 photo.11: ig://B5m1Ln6B5mZ/m
 photo.11.author: craig_craig_craig
 photo.11.commitdate: 2019/12/7
@@ -75,6 +76,34 @@ photo.12.author: minatomirai215
 photo.12.commitdate: 2020/6/3
 photo.12.link: https://www.instagram.com/minatomirai215/
 photo.12.tags: bamboo, paws, portrait, smile, tail
+photo.13: https://www.instagram.com/p/CJP5CYMh28F/media/?size=m
+photo.13.author: kojikoji2011
+photo.13.link: https://www.instagram.com/kojikoji2011/
+photo.13.tags: apple time, paws, portrait, smile, tail, tongue
+photo.14: https://www.instagram.com/p/CCbSnCelBpB/media/?size=m
+photo.14.author: kojikoji2011
+photo.14.link: https://www.instagram.com/kojikoji2011/
+photo.14.tags: laying down, sleeping
+photo.15: https://www.instagram.com/p/CK4BGYGhlzp/media/?size=m
+photo.15.author: kojikoji2011
+photo.15.link: https://www.instagram.com/kojikoji2011/
+photo.15.tags: portrait
+photo.16: https://www.instagram.com/p/CNMrhU3hawe/media/?size=m
+photo.16.author: kojikoji2011
+photo.16.link: https://www.instagram.com/kojikoji2011/
+photo.16.tags: bamboo, smile
+photo.17: https://www.instagram.com/p/CPYWNR5Biiu/media/?size=m
+photo.17.author: kojikoji2011
+photo.17.link: https://www.instagram.com/kojikoji2011/
+photo.17.tags: bear worm, home, laying down, paws, portrait, sleeping
+photo.18: https://www.instagram.com/p/CPneCR7hblo/media/?size=m
+photo.18.author: kojikoji2011
+photo.18.link: https://www.instagram.com/kojikoji2011/
+photo.18.tags: bamboo, mofumofu, portrait, profile
+photo.19: https://www.instagram.com/p/COpxuVMhN3Y/media/?size=m
+photo.19.author: kojikoji2011
+photo.19.link: https://www.instagram.com/kojikoji2011/
+photo.19.tags: peek, paws, tail
 species: 2
 studbook.id: 0663
 zoo: 6

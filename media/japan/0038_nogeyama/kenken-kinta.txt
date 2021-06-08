@@ -2,7 +2,6 @@
 _id: media.38.kenken-kinta
 commitdate: 2020/4/12
 panda.tags: 125, 126
-phoot.3.tags: couple, home, paws, playing, portrait
 photo.1: ig://BPoAEL7grhN/l
 photo.1.author: tabechum
 photo.1.commitdate: 2020/4/12
@@ -21,6 +20,7 @@ photo.3: ig://BatfL53BeJk/m
 photo.3.author: miis_98
 photo.3.commitdate: 2020/7/17
 photo.3.link: https://www.instagram.com/miis_98/
+photo.3.tags: couple, home, paws, playing, portrait
 photo.3.tags.125.location: 140, 75
 photo.3.tags.126.location: 165, 230
 photo.4: ig://BavShj0BbOy/m
