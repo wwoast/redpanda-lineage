@@ -16,7 +16,6 @@ litter: none
 location.1: 4, 2012/6/9
 location.2: 1, 2014/5/12
 location.3: 18, 2019/12/16
-phoot.136.link: https://www.instagram.com/pink.b22/
 photo.1: ig://BMY3SBXjY0M/m
 photo.1.author: masa_polarbear
 photo.1.commitdate: 2020/6/8
@@ -579,6 +578,7 @@ photo.112.tags: mofumofu, portrait
 photo.113: ig://CJvSek7h1YJ/m
 photo.113.author: pink.b22
 photo.113.commitdate: 2021/6/9
+photo.113.link: https://www.instagram.com/pink.b22/
 photo.113.tags: apple time, keeper, paws, portrait, sign
 photo.114: ig://CJ2-YISBs28/m
 photo.114.author: pink.b22
