@@ -37,7 +37,7 @@ photo.5: ig://BxXJds0lYT0/m
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2019/5/15
 photo.5.link: https://www.instagram.com/daniele.tokyo/
-photo.5.tags: paws, portrait, profile
+photo.5.tags: paws, portrait
 photo.6: ig://Bx-yo2oBwnO/m
 photo.6.author: kipekaila
 photo.6.commitdate: 2019/5/29
@@ -58,6 +58,10 @@ photo.9.author: kojikoji2011
 photo.9.commitdate: 2021/6/7
 photo.9.link: https://www.instagram.com/kojikoji2011/
 photo.9.tags: peek, portrait
+photo.10: https://www.instagram.com/p/CPGeezxBp1X/media/?size=m
+photo.10.author: kojikoji2011
+photo.10.link: https://www.instagram.com/kojikoji2011/
+photo.10.tags: bamboo, portrait, profile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 6

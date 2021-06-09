@@ -74,7 +74,7 @@ def fetch_photo(url, output_file=None, size=None):
             "fields": "thumbnail_url,author_name",
             "access_token": token
         }
-        instagram_api = "https://graph.facebook.com/v8.0/instagram_oembed"
+        instagram_api = "https://graph.facebook.com/v11.0/instagram_oembed"
         try:
             response = requests.get(instagram_api, params=query_params)
             json = response.json()
