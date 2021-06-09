@@ -6,12 +6,20 @@ children: none
 commitdate: 2019/12/29
 en.name: Qi
 en.nicknames: none
-en.othernames: none
+en.othernames: Chi
 gender: m
 jp.name: クィ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1080
+photo.1: https://www.instagram.com/p/COdLuMFjRaB/media/?size=m
+photo.1.author: prospectparkzoo
+photo.1.link: https://www.instagram.com/prospectparkzoo/
+photo.1.tags: paws, portrait, profile, whiskers
+photo.2: https://www.instagram.com/p/CHvyWyfLb-r/media/?size=m
+photo.2.author: prospectparkzoo
+photo.2.link: https://www.instagram.com/prospectparkzoo/
+photo.2.tags: mofumofu, portrait, tongue, whiskers
 species: 2
 zoo: 84
