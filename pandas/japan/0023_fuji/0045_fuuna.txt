@@ -287,15 +287,16 @@ photo.55.author: miis_98
 photo.55.commitdate: 2021/5/3
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: peek, portrait, tree, whiskers
-photo.56: ig://CPQqPsHBGiW/m
+photo.56: ig://COh9Uq-hrdl/m
 photo.56.author: miis_98
-photo.56.commitdate: 2021/6/8
+photo.56.commitdate: 2021/6/9
 photo.56.link: https://www.instagram.com/miis_98/
-photo.56.tags: apple time, paws, peek, portrait, whiskers
-photo.57: https://www.instagram.com/p/COh9Uq-hrdl/media/?size=m
+photo.56.tags: paws, portrait, standing, tail
+photo.57: ig://CPQqPsHBGiW/m
 photo.57.author: miis_98
+photo.57.commitdate: 2021/6/8
 photo.57.link: https://www.instagram.com/miis_98/
-photo.57.tags: paws, portrait, standing, tail
+photo.57.tags: apple time, paws, peek, portrait, whiskers
 species: 2
 studbook.id: 12106
 zoo: 23

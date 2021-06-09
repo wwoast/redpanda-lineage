@@ -177,14 +177,16 @@ photo.33.author: alto0908
 photo.33.commitdate: 2021/4/11
 photo.33.link: https://www.instagram.com/alto0908/
 photo.33.tags: apple time, keeper
-photo.34: https://www.instagram.com/p/CPYlGuah0n8/media/?size=m
-photo.34.author: eos1089
-photo.34.link: https://www.instagram.com/eos1089/
-photo.34.tags: home, paws, portrait, whiskers
-photo.35: https://www.instagram.com/p/CMeU4AxB5Rg/media/?size=m
-photo.35.author: alto0908
-photo.35.link: https://www.instagram.com/alto0908/
-photo.35.tags: peek, portrait, smile
+photo.34: ig://CMeU4AxB5Rg/m
+photo.34.author: alto0908
+photo.34.commitdate: 2021/6/9
+photo.34.link: https://www.instagram.com/alto0908/
+photo.34.tags: peek, portrait, smile
+photo.35: ig://CPYlGuah0n8/m
+photo.35.author: eos1089
+photo.35.commitdate: 2021/6/9
+photo.35.link: https://www.instagram.com/eos1089/
+photo.35.tags: home, paws, portrait, whiskers
 species: 2
 studbook.id: 0771
 zoo: 8
