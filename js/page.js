@@ -293,7 +293,7 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Birthday logic
-    var birthday_count = Pandas.searchBirthday(true, photo_count=10).length;
+    var birthday_count = Pandas.searchBirthday(true, photo_count=3).length;
     if (birthday_count > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display);
       new_content.appendChild(birthday);
