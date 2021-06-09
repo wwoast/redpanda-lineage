@@ -128,8 +128,9 @@ photo.23.author: mybrotherisdylan
 photo.23.commitdate: 2021/1/13
 photo.23.link: https://www.instagram.com/mybrotherisdylan/
 photo.23.tags: grooming, laying down, paws, portrait, tongue
-photo.24: https://www.instagram.com/p/CPGLvfpB6UL/media/?size=m
+photo.24: ig://CPGLvfpB6UL/m
 photo.24.author: miis_98
+photo.24.commitdate: 2021/6/8
 photo.24.link: https://www.instagram.com/miis_98/
 photo.24.tags: portrait, smile, whiskers
 species: 1

@@ -514,8 +514,9 @@ photo.100.author: buin_zoo
 photo.100.commitdate: 2021/4/3
 photo.100.link: https://www.instagram.com/buin_zoo/
 photo.100.tags: nose, portrait, tongue, whiskers
-photo.101: https://www.instagram.com/p/CPVuUrpBMe6/media/?size=m
+photo.101: ig://CPVuUrpBMe6/m
 photo.101.author: buin_zoo
+photo.101.commitdate: 2021/6/8
 photo.101.link: https://www.instagram.com/buin_zoo/
 photo.101.tags: paws, portrait, whiskers
 species: 2

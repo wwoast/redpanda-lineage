@@ -287,8 +287,9 @@ photo.55.author: miis_98
 photo.55.commitdate: 2021/5/3
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: peek, portrait, tree, whiskers
-photo.56: https://www.instagram.com/p/CPQqPsHBGiW/media/?size=m
+photo.56: ig://CPQqPsHBGiW/m
 photo.56.author: miis_98
+photo.56.commitdate: 2021/6/8
 photo.56.link: https://www.instagram.com/miis_98/
 photo.56.tags: apple time, paws, peek, portrait, whiskers
 species: 2

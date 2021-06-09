@@ -484,8 +484,9 @@ photo.94.author: apple_jasmine33
 photo.94.commitdate: 2021/4/17
 photo.94.link: https://www.instagram.com/apple_jasmine33/
 photo.94.tags: apple time, peek, portrait, tongue, whiskers
-photo.95: https://www.instagram.com/p/CPQN86yBlHW/media/?size=m
+photo.95: ig://CPQN86yBlHW/m
 photo.95.author: jas_forever_love
+photo.95.commitdate: 2021/6/8
 photo.95.link: https://www.instagram.com/jas_forever_love/
 photo.95.tags: peek, portrait, tree, whiskers
 species: 2

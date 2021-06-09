@@ -58,8 +58,9 @@ photo.9.author: kojikoji2011
 photo.9.commitdate: 2021/6/7
 photo.9.link: https://www.instagram.com/kojikoji2011/
 photo.9.tags: peek, portrait
-photo.10: https://www.instagram.com/p/CPGeezxBp1X/media/?size=m
+photo.10: ig://CPGeezxBp1X/m
 photo.10.author: kojikoji2011
+photo.10.commitdate: 2021/6/8
 photo.10.link: https://www.instagram.com/kojikoji2011/
 photo.10.tags: bamboo, portrait, profile, whiskers
 species: 2

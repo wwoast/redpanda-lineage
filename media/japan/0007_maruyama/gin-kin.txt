@@ -37,8 +37,9 @@ photo.5.link: https://www.instagram.com/nishicotolo/
 photo.5.tags: siblings, sisters, twins
 photo.5.tags.17.location: 235, 250
 photo.5.tags.22.location: 385, 350
-photo.6: https://www.instagram.com/p/CPQLihZADAN/media/?size=l
+photo.6: ig://CPQLihZADAN/l
 photo.6.author: cattail.sapporo
+photo.6.commitdate: 2021/6/8
 photo.6.link: https://www.instagram.com/cattail.sapporo/
 photo.6.tags: paws, playing, portrait, siblings, sisters, tail, twins
 photo.6.tags.17.location: 280, 250

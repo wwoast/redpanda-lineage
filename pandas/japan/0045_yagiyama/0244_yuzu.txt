@@ -376,8 +376,9 @@ photo.73.author: hidehaya_biei
 photo.73.commitdate: 2021/5/3
 photo.73.link: https://www.instagram.com/hidehaya_biei/
 photo.73.tags: mofumofu, techitechi, whiskers
-photo.74: https://www.instagram.com/p/CPDj7FJBceZ/media/?size=m
+photo.74: ig://CPDj7FJBceZ/m
 photo.74.author: happy_love2.15
+photo.74.commitdate: 2021/6/8
 photo.74.link: https://www.instagram.com/happy_love2.15/
 photo.74.tags: peek, portrait
 species: 2

@@ -342,8 +342,9 @@ photo.65.author: hamamatsu.chiita
 photo.65.commitdate: 2021/4/29
 photo.65.link: https://www.instagram.com/hamamatsu.chiita/
 photo.65.tags: bamboo, peek, portrait, techitechi
-photo.66: https://www.instagram.com/p/CPLE8XvhV6Y/media/?size=m
+photo.66: ig://CPLE8XvhV6Y/m
 photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2021/6/8
 photo.66.link: https://www.instagram.com/hamamatsu.chiita/
 photo.66.tags: bamboo, close-up, paws, portrait
 species: 2

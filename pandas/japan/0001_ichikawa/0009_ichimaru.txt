@@ -251,14 +251,16 @@ photo.48.author: miis_98
 photo.48.commitdate: 2021/5/3
 photo.48.link: https://www.instagram.com/miis_98/
 photo.48.tags: dish, lunch time, whiskers
-photo.49: https://www.instagram.com/p/CPLNqIOBtqy/media/?size=m
-photo.49.author: ifumoto88
-photo.49.link: https://www.instagram.com/ifumoto88/
-photo.49.tags: apple time, paws, peek, portrait, techitechi
-photo.50: https://www.instagram.com/p/CPDxFcKBVM-/media/?size=m
-photo.50.author: rie_panda55
-photo.50.link: https://www.instagram.com/rie_panda55/
-photo.50.tags: apple time, peek, portrait
+photo.49: ig://CPDxFcKBVM-/m
+photo.49.author: rie_panda55
+photo.49.commitdate: 2021/6/8
+photo.49.link: https://www.instagram.com/rie_panda55/
+photo.49.tags: apple time, peek, portrait
+photo.50: ig://CPLNqIOBtqy/m
+photo.50.author: ifumoto88
+photo.50.commitdate: 2021/6/8
+photo.50.link: https://www.instagram.com/ifumoto88/
+photo.50.tags: apple time, paws, peek, portrait, techitechi
 species: 2
 studbook.id: 0980
 zoo: 1
