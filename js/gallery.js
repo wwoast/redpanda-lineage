@@ -1220,7 +1220,7 @@ Gallery.url.instagram = function(image, input_uri) {
   } else {
     // Try and fetch the details to update the image
     var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
-    var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+    var ig_template = `https://graph.facebook.com/v11.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
     ig_request.open('GET', ig_template, true);
     ig_request.responseType = 'json';
