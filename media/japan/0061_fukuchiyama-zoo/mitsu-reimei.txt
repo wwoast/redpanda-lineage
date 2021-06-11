@@ -23,16 +23,17 @@ photo.3.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.3.tags: brothers, siblings
 photo.3.tags.286.location: 425, 305
 photo.3.tags.959.location: 695, 305
-photo.4: ig://CLI0mnqB32S/l
-photo.4.author: kisshan324
-photo.4.commitdate: 2021/2/16
-photo.4.link: https://www.instagram.com/kisshan324/
-photo.4.tags: brothers, playing, siblings, tail
-photo.4.tags.286.location: 240, 95
-photo.4.tags.959.location: 190, 155
-photo.5: https://www.instagram.com/p/CD8oFschwqv/media/?size=m
-photo.5.author: redpanda_nippon_takashi
-photo.5.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.5.tags: brothers, portrait, siblings
-photo.5.tags.286.location: 110, 130
-photo.5.tags.959.location: 215, 135
+photo.4: ig://CD8oFschwqv/m
+photo.4.author: redpanda_nippon_takashi
+photo.4.commitdate: 2021/6/11
+photo.4.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.4.tags: brothers, portrait, siblings
+photo.4.tags.286.location: 110, 130
+photo.4.tags.959.location: 215, 135
+photo.5: ig://CLI0mnqB32S/l
+photo.5.author: kisshan324
+photo.5.commitdate: 2021/2/16
+photo.5.link: https://www.instagram.com/kisshan324/
+photo.5.tags: brothers, playing, siblings, tail
+photo.5.tags.286.location: 240, 95
+photo.5.tags.959.location: 190, 155
