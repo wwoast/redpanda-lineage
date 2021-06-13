@@ -18,8 +18,9 @@ photo.1.author: rossifari
 photo.1.commitdate: 2020/10/1
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: baby, mofumofu, paws
-photo.2: https://www.instagram.com/p/CJ4fl9ahmF5/media/?size=m
+photo.2: ig://CJ4fl9ahmF5/m
 photo.2.author: snapcrackleangela
+photo.2.commitdate: 2021/6/13
 photo.2.link: https://www.instagram.com/snapcrackleangela/
 photo.2.tags: mofumofu, playing, portrait, tail
 species: 2
