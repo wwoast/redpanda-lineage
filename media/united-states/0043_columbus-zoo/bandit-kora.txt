@@ -1,15 +1,18 @@
 [media]
 _id: media.43.bandit-kora
+commitdate: 2021/6/13
 panda.tags: 999, 1186
-photo.1: https://www.instagram.com/p/CJVzTqbrBgG/media/?size=l
+photo.1: ig://CHXoaEereLN/m
 photo.1.author: rossifari
+photo.1.commitdate: 2021/6/13
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: bamboo, mother's day, portrait, snow
-photo.1.tags.999.location: 350, 50
-photo.1.tags.1186.location: 155, 215
-photo.2: https://www.instagram.com/p/CHXoaEereLN/media/?size=m
+photo.1.tags: bamboo, mother's day, portrait, sleeping
+photo.1.tags.999.location: 155, 245
+photo.1.tags.1186.location: 135, 85
+photo.2: ig://CJVzTqbrBgG/l
 photo.2.author: rossifari
+photo.2.commitdate: 2021/6/13
 photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: bamboo, mother's day, portrait, sleeping
-photo.2.tags.999.location: 155, 245
-photo.2.tags.1186.location: 135, 85
+photo.2.tags: bamboo, mother's day, portrait, snow
+photo.2.tags.999.location: 350, 50
+photo.2.tags.1186.location: 155, 215

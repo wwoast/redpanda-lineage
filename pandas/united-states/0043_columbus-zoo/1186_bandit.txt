@@ -18,31 +18,35 @@ photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20
 photo.1.link: https://www.instagram.com/rossifari/
 photo.1.tags: baby, portrait, profile
-photo.2: ig://CKL4BdwrJG9/m
+photo.2: ig://CJ52cOurooF/m
 photo.2.author: rossifari
-photo.2.commitdate: 2021/5/30
+photo.2.commitdate: 2021/6/13
 photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: laying down, tongue
-photo.3: ig://CLT-UE2rQaO/m
+photo.2.tags: laying down
+photo.3: ig://CKL4BdwrJG9/m
 photo.3.author: rossifari
-photo.3.commitdate: 2021/3/2
+photo.3.commitdate: 2021/5/30
 photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: baby, laying down, mofumofu, portrait, upside-down
-photo.4: https://www.instagram.com/p/CJ52cOurooF/media/?size=m
+photo.3.tags: laying down, tongue
+photo.4: ig://CLT-UE2rQaO/m
 photo.4.author: rossifari
+photo.4.commitdate: 2021/3/2
 photo.4.link: https://www.instagram.com/rossifari/
-photo.4.tags: laying down
-photo.5: https://www.instagram.com/p/CNaFZQDrpmL/media/?size=m
+photo.4.tags: baby, laying down, mofumofu, portrait, upside-down
+photo.5: ig://CLaXC7NM4Y0/m
 photo.5.author: columbuszoo
+photo.5.commitdate: 2021/6/13
 photo.5.link: https://www.instagram.com/columbuszoo/
-photo.5.tags: nose, portrait, toys, whiskers
-photo.6: https://www.instagram.com/p/CNI3UoxjZtI/media/?size=m
+photo.5.tags: bamboo, bridge, paws, snow, tail
+photo.6: ig://CNI3UoxjZtI/m
 photo.6.author: columbuszoo
+photo.6.commitdate: 2021/6/13
 photo.6.link: https://www.instagram.com/columbuszoo/
 photo.6.tags: laying down
-photo.7: https://www.instagram.com/p/CLaXC7NM4Y0/media/?size=m
+photo.7: ig://CNaFZQDrpmL/m
 photo.7.author: columbuszoo
+photo.7.commitdate: 2021/6/13
 photo.7.link: https://www.instagram.com/columbuszoo/
-photo.7.tags: bamboo, bridge, paws, snow, tail
+photo.7.tags: nose, portrait, toys, whiskers
 species: 2
 zoo: 43

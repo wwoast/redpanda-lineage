@@ -130,8 +130,9 @@ photo.23.author: rossifari
 photo.23.commitdate: 2021/3/28
 photo.23.link: https://www.instagram.com/rossifari/
 photo.23.tags: air tasting, portrait, tongue, whiskers
-photo.24: https://www.instagram.com/p/CMb9qBirUqr/media/?size=m
+photo.24: ig://CMb9qBirUqr/m
 photo.24.author: rossifari
+photo.24.commitdate: 2021/6/13
 photo.24.link: https://www.instagram.com/rossifari/
 photo.24.tags: lips, peek, portrait, smile, tail, techitechi, whiskers
 species: 2
