@@ -15,7 +15,7 @@ language.order: en, jp
 litter: 493
 location.1: 84, 2013/6/22
 location.2: 43, 2014/6/5
-location.3: 44, 2021/1/28
+location.3: 44, 2021/1/1
 photo.1: ig://BG84DY2ykEx/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2018/11/24
@@ -46,7 +46,10 @@ photo.6.author: rossifari
 photo.6.commitdate: 2021/5/8
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: portrait, smile, standing, tail, whiskers
+photo.7: https://www.instagram.com/p/CKUIrT7Fa4L/media/?size=m
+photo.7.author: columbuszoo
+photo.7.link: https://www.instagram.com/columbuszoo/
+photo.7.tags: close-up, portrait, snow, window
 species: 2
 studbook.id: 1338
-uncertainty: location.3 exact date
 zoo: 44
