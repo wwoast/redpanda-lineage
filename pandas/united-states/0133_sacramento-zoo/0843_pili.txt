@@ -19,12 +19,12 @@ photo.1: ig://B3lSYCRgeEP/m
 photo.1.author: mikezots
 photo.1.commitdate: 2019/11/1
 photo.1.link: https://www.instagram.com/mikezots/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: ig://B4Q8sJzgj9I/m
 photo.2.author: edcaspersen
 photo.2.commitdate: 2019/11/1
 photo.2.link: https://www.instagram.com/edcaspersen/
-photo.2.tags: paws, tree, white face
+photo.2.tags: paws, portrait, tree, white face
 photo.3: ig://B80QX_yAeNH/m
 photo.3.author: ohmygoat1
 photo.3.commitdate: 2020/3/18
@@ -34,7 +34,7 @@ photo.4: ig://B-LnWbwghfR/m
 photo.4.author: ohmygoat1
 photo.4.commitdate: 2020/3/29
 photo.4.link: https://www.instagram.com/ohmygoat1/
-photo.4.tags: paws, tree, whiskers
+photo.4.tags: paws, portrait, tree, whiskers
 photo.5: ig://CHGducwFJme/m
 photo.5.author: sacramentozoo
 photo.5.commitdate: 2021/3/18
