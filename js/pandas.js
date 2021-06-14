@@ -593,6 +593,14 @@ Pandas.prngHash = n=>
 // Get random items from the array, trying our best not to 
 // select the same item more than once.
 Pandas.randomChoice = function(array, count) {
+  // Logic to handle small arrays
+  if (array.length <= 1) {
+    return array;
+  }
+  // Logic to handle when asking for too many items
+  if (array.length < count) {
+    count = array.length;
+  }
   return Pandas.randomChoiceSeed(array, undefined, count);
 }
 
