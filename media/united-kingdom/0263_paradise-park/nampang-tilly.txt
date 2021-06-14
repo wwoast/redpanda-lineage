@@ -1,8 +1,10 @@
 [media]
 _id: media.263.nampang-tilly
+commitdate: 2021/6/14
 panda.tags: 1015, 1164
-photo.1: https://www.instagram.com/p/CEpWcChAiCI/media/?size=l
+photo.1: ig://CEpWcChAiCI/l
 photo.1.author: jobrownphotography
+photo.1.commitdate: 2021/6/14
 photo.1.link: https://www.instagram.com/jobrownphotography/
 photo.1.tags: couple, laying down, paws, portrait, tree
 photo.1.tags.1015.location: 400, 135

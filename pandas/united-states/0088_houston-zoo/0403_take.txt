@@ -45,8 +45,9 @@ photo.6.author: houstonzoo
 photo.6.commitdate: 2020/9/4
 photo.6.link: https://www.instagram.com/houstonzoo/
 photo.6.tags: laying down, peek
-photo.7: https://www.instagram.com/p/CFukbUNMR9i/media/?size=m
+photo.7: ig://CFukbUNMR9i/m
 photo.7.author: houstonzoo
+photo.7.commitdate: 2021/6/14
 photo.7.link: https://www.instagram.com/houstonzoo/
 photo.7.tags: close-up, smile, whiskers
 species: 2

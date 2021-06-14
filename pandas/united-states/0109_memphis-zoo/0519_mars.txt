@@ -41,20 +41,21 @@ photo.5.author: worldthathesees
 photo.5.commitdate: 2019/10/16
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: laying down, portrait, profile, sleeping, tree
-photo.6: ig://CCwlyKnBqap/m
-photo.6.author: worldthathesees
-photo.6.commitdate: 2020/9/12
-photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: paws, portrait, smile, tree
-photo.7: ig://CDulf7dhBCR/m
+photo.6: ig://B-XZ_10gg3y/m
+photo.6.author: memphiszoo
+photo.6.commitdate: 2021/6/14
+photo.6.link: https://www.instagram.com/memphiszoo/
+photo.6.tags: bamboo, peek, portrait
+photo.7: ig://CCwlyKnBqap/m
 photo.7.author: worldthathesees
-photo.7.commitdate: 2020/9/7
+photo.7.commitdate: 2020/9/12
 photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: climb, paws, portrait, tree, whiskers
-photo.8: https://www.instagram.com/p/B-XZ_10gg3y/media/?size=m
-photo.8.author: memphiszoo
-photo.8.link: https://www.instagram.com/memphiszoo/
-photo.8.tags: bamboo, peek, portrait
+photo.7.tags: paws, portrait, smile, tree
+photo.8: ig://CDulf7dhBCR/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2020/9/7
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: climb, paws, portrait, tree, whiskers
 species: 1
 studbook.id: 1318
 zoo: 109

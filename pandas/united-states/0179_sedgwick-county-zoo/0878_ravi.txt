@@ -54,7 +54,7 @@ photo.8: ig://B6y9PckAT9b/m
 photo.8.author: esdeemphoto
 photo.8.commitdate: 2020/3/3
 photo.8.link: https://www.instagram.com/esdeemphoto/
-photo.8.tags: bamboo, portrait, smile
+photo.8.tags: bamboo, portrait, smile, whiskers
 photo.9: ig://B7XHHq-ALit/m
 photo.9.author: esdeemphoto
 photo.9.commitdate: 2020/3/3
@@ -135,10 +135,6 @@ photo.24.author: sedgwickcountyzoo
 photo.24.commitdate: 2021/5/30
 photo.24.link: https://www.instagram.com/carsontheredpanda/
 photo.24.tags: bamboo, paws, standing, tail
-photo.25: https://www.instagram.com/p/B6y9PckAT9b/media/?size=m
-photo.25.author: esdeemphoto
-photo.25.link: https://www.instagram.com/esdeemphoto/
-photo.25.tags: bamboo, smile, whiskers
 species: 1
 studbook.id: 1904
 zoo: 179
