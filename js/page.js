@@ -293,9 +293,10 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Birthday logic
-    var birthday_count = Pandas.searchBirthday(true, photo_count=3).length;
+    var min_photo_count = 3;
+    var birthday_count = Pandas.searchBirthday(true, min_photo_count).length;
     if (birthday_count > 0) {
-      var birthday = Gallery.birthdayPhotoCredits(L.display);
+      var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count);
       new_content.appendChild(birthday);
     }
     // Current memorials
