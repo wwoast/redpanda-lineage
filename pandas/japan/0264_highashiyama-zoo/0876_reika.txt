@@ -468,8 +468,9 @@ photo.91.author: miis_98
 photo.91.commitdate: 2021/3/7
 photo.91.link: https://www.instagram.com/miis_98/
 photo.91.tags: grooming, paws, portrait, standing
-photo.92: https://www.instagram.com/p/COrX9FxBbCC/media/?size=m
+photo.92: ig://COrX9FxBbCC/m
 photo.92.author: lesserpanda_shizuokacity_cp
+photo.92.commitdate: 2021/6/15
 photo.92.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.92.tags: mofumofu, peek, portrait
 species: 2

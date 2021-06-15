@@ -476,15 +476,16 @@ photo.93.author: kojikoji2011
 photo.93.commitdate: 2021/6/7
 photo.93.link: https://www.instagram.com/kojikoji2011/
 photo.93.tags: curly, paws, portrait, tail
-photo.94: ig://CPiYYEkhMVH/m
-photo.94.author: kojikoji2011
-photo.94.commitdate: 2021/6/7
-photo.94.link: https://www.instagram.com/kojikoji2011/
-photo.94.tags: tree
-photo.95: https://www.instagram.com/p/COrbor6BVvG/media/?size=m
-photo.95.author: re_ichimaru
-photo.95.link: https://www.instagram.com/re_ichimaru/
-photo.95.tags: paws, portrait, smile
+photo.94: ig://COrbor6BVvG/m
+photo.94.author: re_ichimaru
+photo.94.commitdate: 2021/6/15
+photo.94.link: https://www.instagram.com/re_ichimaru/
+photo.94.tags: paws, portrait, smile
+photo.95: ig://CPiYYEkhMVH/m
+photo.95.author: kojikoji2011
+photo.95.commitdate: 2021/6/7
+photo.95.link: https://www.instagram.com/kojikoji2011/
+photo.95.tags: tree
 species: 2
 studbook.id: 1695
 zoo: 42

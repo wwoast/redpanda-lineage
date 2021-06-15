@@ -1746,28 +1746,31 @@ photo.348.author: tama67photo
 photo.348.commitdate: 2021/5/31
 photo.348.link: https://www.instagram.com/tama67photo/
 photo.348.tags: bamboo, paws, portrait, snow, tongue
-photo.349: ig://CPSzPHpA3qC/m
-photo.349.author: cattail.sapporo
-photo.349.commitdate: 2021/6/8
-photo.349.link: https://www.instagram.com/cattail.sapporo/
-photo.349.tags: bamboo, paws, portrait, smile, tongue
-photo.350: ig://CPk2P-uBxjR/m
+photo.349: ig://COuvVuAhnj_/m
+photo.349.author: nishicotolo
+photo.349.commitdate: 2021/6/15
+photo.349.link: https://www.instagram.com/nishicotolo/
+photo.349.tags: laying down
+photo.350: ig://COxU1XYBICY/m
 photo.350.author: nishicotolo
-photo.350.commitdate: 2021/6/8
+photo.350.commitdate: 2021/6/15
 photo.350.link: https://www.instagram.com/nishicotolo/
-photo.350.tags: peek, whiskers
-photo.351: https://www.instagram.com/p/COuvVuAhnj_/media/?size=m
-photo.351.author: nishicotolo
-photo.351.link: https://www.instagram.com/nishicotolo/
-photo.351.tags: laying down
-photo.352: https://www.instagram.com/p/COxU1XYBICY/media/?size=m
-photo.352.author: nishicotolo
-photo.352.link: https://www.instagram.com/nishicotolo/
-photo.352.tags: peek
-photo.353: https://www.instagram.com/p/CO8x2dJgfV1/media/?size=m
-photo.353.author: cattail.sapporo
-photo.353.link: https://www.instagram.com/cattail.sapporo/
-photo.353.tags: paws, playing, portrait, smile, snow, tail, upside-down
+photo.350.tags: peek
+photo.351: ig://CO8x2dJgfV1/m
+photo.351.author: cattail.sapporo
+photo.351.commitdate: 2021/6/15
+photo.351.link: https://www.instagram.com/cattail.sapporo/
+photo.351.tags: paws, playing, portrait, smile, snow, tail, upside-down
+photo.352: ig://CPSzPHpA3qC/m
+photo.352.author: cattail.sapporo
+photo.352.commitdate: 2021/6/8
+photo.352.link: https://www.instagram.com/cattail.sapporo/
+photo.352.tags: bamboo, paws, portrait, smile, tongue
+photo.353: ig://CPk2P-uBxjR/m
+photo.353.author: nishicotolo
+photo.353.commitdate: 2021/6/8
+photo.353.link: https://www.instagram.com/nishicotolo/
+photo.353.tags: peek, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

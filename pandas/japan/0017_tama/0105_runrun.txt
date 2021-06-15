@@ -236,8 +236,9 @@ photo.45.author: mochan8686
 photo.45.commitdate: 2020/11/29
 photo.45.link: https://www.instagram.com/mochan8686/
 photo.45.tags: portrait, tail, whiskers
-photo.46: https://www.instagram.com/p/CO4toOrhERS/media/?size=m
+photo.46: ig://CO4toOrhERS/m
 photo.46.author: ck.chie
+photo.46.commitdate: 2021/6/15
 photo.46.link: https://www.instagram.com/ck.chie/
 photo.46.tags: bamboo, paws, portrait, smile, wink
 species: 2

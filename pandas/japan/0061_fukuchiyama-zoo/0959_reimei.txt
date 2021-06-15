@@ -453,12 +453,14 @@ photo.88.author: jas_forever_love
 photo.88.commitdate: 2021/5/3
 photo.88.link: https://www.instagram.com/jas_forever_love/
 photo.88.tags: grumpy, whiskers, white face
-photo.89: https://www.instagram.com/p/COkgxQYBR3E/media/?size=m
+photo.89: ig://COkgxQYBR3E/m
 photo.89.author: love__mitarashi
+photo.89.commitdate: 2021/6/15
 photo.89.link: https://www.instagram.com/love__mitarashi/
 photo.89.tags: laying down, paws, peek, tail
-photo.90: https://www.instagram.com/p/COm149whytR/media/?size=m
+photo.90: ig://COm149whytR/m
 photo.90.author: love__mitarashi
+photo.90.commitdate: 2021/6/15
 photo.90.link: https://www.instagram.com/love__mitarashi/
 photo.90.tags: tail
 species: 2
