@@ -292,19 +292,20 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Birthday logic
-    var min_photo_count = 3;
-    var birthday_count = Pandas.searchBirthday(true, min_photo_count).length;
-    if (birthday_count > 0) {
-      var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count);
-      new_content.appendChild(birthday);
-    }
     // Current memorials
-    // var departed = Gallery.memorialPhotoCredits(L.display, ["58"], 5, Message.memorial);
-    // new_content.appendChild(departed);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["54"], 5, Message.memorial);
+    new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
+    // Birthday logic
+    var min_photo_count = 3;
+    var max_birthday_animals = 4;
+    var birthday_count = Pandas.searchBirthday(true, min_photo_count).length;
+    if (birthday_count > 0) {
+      var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, 4);
+      new_content.appendChild(birthday);
+    }
     // Special galleries
     if (birthday_count <= 2) {
       var special_galleries = Page.home.special_galleries();
