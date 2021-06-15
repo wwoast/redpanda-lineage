@@ -331,9 +331,9 @@ Gallery.birthdayPhotoCredits = function(language, photo_count=3, max_animals=5) 
   var birthday_div = document.createElement('div');
   // Pandas must be alive, and have at least photo_count photos
   var birthday_animals = Pandas.searchBirthday(true, photo_count);
-  var birthday_count = birthday_animals.length
-  if (birthday_animals.length > max_animals) {
-    birthday_animals = Pandas.randomChoice(birthday_animals, max_animals);
+  var birthday_count = birthday_animals.length;
+  if (birthday_count > max_animals) {
+    birthday_animals = Pandas.searchBirthdayLitterBias(true, photo_count, max_animals);
     var overflow = Message.birthday_overflow(birthday_count, language);
     birthday_div.appendChild(overflow);
   }

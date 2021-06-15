@@ -721,6 +721,96 @@ Pandas.searchBirthday = function(keep_living=true, photo_count=20) {
   return Pandas.sortOldestToYoungest(nodes);
 }
 
+// Return ids for any panda that has photos, whose birthday it is,
+// and who has litter mates with the exact same birthday.
+Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
+  var today = new Date();
+  var litter_ids = G.v().filter(function(vertex) {
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == today.getDate()) &&
+            (birthday.getMonth() == today.getMonth()));
+  }).filter(function(vertex) {
+    if (keep_living == true) {
+      return (vertex.death == undefined);
+    } else {
+      return true;   // Get everyone
+    }
+  }).filter(function(vertex) {
+    if (photo_count > 0) {
+      return vertex["photo." + photo_count] != undefined;
+    }
+  }).in("litter").filter(function(vertex) {
+    // Litter mates for this search must have the exact same
+    // birthday as today.
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == today.getDate()) &&
+            (birthday.getMonth() == today.getMonth()));
+  }).run().map(x => x._id);
+  litter_ids = Pandas.distinct(litter_ids);
+  return litter_ids;
+}
+
+// Find all pandas born today, given parameters:
+//   keep_living: panda must still be alive
+//   photo_count: panda must have at least this many photos
+//   max_count: get a random sample of birthdays
+// Bias towards pandas with littermates in this random sample,
+// so if a panda appears in the set, so will its littermates.
+Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max_count=5) {
+  var initial_set = Pandas.searchBirthday(keep_living, photo_count);
+  var initial_ids = Pandas.shuffle(initial_set.map(x => x._id));
+  var litter_ids = Pandas.searchBirthdayLitterIds(keep_living, photo_count);
+  // Find all pandas we can remove from the random sample,
+  // for not having any litter mates
+  var has_litters = initial_ids.filter(function(x) {
+    return litter_ids.indexOf(x) !== -1;
+  });
+  var no_litters = initial_ids.filter(function(x) {
+    return litter_ids.indexOf(x) == -1;
+  });
+  has_litters = Pandas.distinct(has_litters);
+  // Get the id of a single animal that has a litter born on
+  // this date, and include them all in the output.
+  var chosen_id = Pandas.randomChoice(has_litters, 1)[0];
+  var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
+  var chosen_litter_ids = Pandas.searchLitter(chosen_id)
+    .filter(function(x) {
+      return x.birthday = chosen_animal.birthday;
+    }).map(x => x._id);
+  chosen_litter_ids.unshift(chosen_id);
+  var chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
+  // Insert the litter mate into the list next to their sibling
+  var s2_ids = [];
+  var after_litter = [];
+  var remaining_count = max_count - chosen_litter_ids.length;
+  // Add animals from the no-litter list
+  for (var i = 0; i < remaining_count; i++) {
+    var current_id = no_litters[i];
+    var current_year = parseInt(Pandas.searchPandaId(current_id)[0].birthday.split("/")[0]);
+    if (current_year <= chosen_year) {
+      s2_ids.unshift(current_id);      
+    } else if ((current_year == chosen_year) && 
+         s2_ids.indexOf(chosen_id) == -1) {
+      s2_ids = s2_ids.concat(chosen_litter_ids);
+      s2_ids.unshift(current_id);
+    } else {
+      after_litter.unshift(current_id);      
+    }
+  }
+  // Add back the litter members if they're not there
+  if (s2_ids.indexOf(chosen_id) == -1) {
+    s2_ids = s2_ids.concat(chosen_litter_ids);
+  }
+  if (after_litter.length > 0) {
+    s2_ids = s2_ids.concat(after_litter);
+  }
+  var final_animals = s2_ids.map(x => Pandas.searchPandaId(x)[0]);
+  // Good enough for year sort
+  final_animals = Pandas.sortByName(final_animals, "birthday");
+  return final_animals;
+}
+
+
 // Find all pandas that died within a calendar year.
 Pandas.searchDead = function(year) {
   // Default search is for the most recent year we recorded a birth in
