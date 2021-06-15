@@ -770,15 +770,22 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
   });
   has_litters = Pandas.distinct(has_litters);
   // Get the id of a single animal that has a litter born on
-  // this date, and include them all in the output.
-  var chosen_id = Pandas.randomChoice(has_litters, 1)[0];
-  var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
-  var chosen_litter_ids = Pandas.searchLitter(chosen_id)
-    .filter(function(x) {
-      return x.birthday = chosen_animal.birthday;
-    }).map(x => x._id);
-  chosen_litter_ids.unshift(chosen_id);
-  var chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
+  // this date, and include them all in the output. Have fallbacks
+  // in case we don't have any litter birthdays
+  var chosen_litter_length = 0;
+  var chosen_year = -1;
+  var chosen_id = -1;
+  if (has_litters.length > 0) {
+    chosen_id = Pandas.randomChoice(has_litters, 1)[0];
+    var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
+    var chosen_litter_ids = Pandas.searchLitter(chosen_id)
+      .filter(function(x) {
+        return x.birthday = chosen_animal.birthday;
+      }).map(x => x._id);
+    chosen_litter_ids.unshift(chosen_id);
+    var chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
+    chosen_litter_length = chosen_litter_ids.length;
+  }
   // Insert the litter mate into the list next to their sibling
   var s2_ids = [];
   var after_litter = [];
@@ -794,13 +801,14 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
       s2_ids = s2_ids.concat(chosen_litter_ids);
       s2_ids.unshift(current_id);
     } else {
-      after_litter.unshift(current_id);      
+      after_litter.unshift(current_id);
     }
   }
   // Add back the litter members if they're not there
   if (s2_ids.indexOf(chosen_id) == -1) {
     s2_ids = s2_ids.concat(chosen_litter_ids);
   }
+  // Add back animals younger than the displayed litter
   if (after_litter.length > 0) {
     s2_ids = s2_ids.concat(after_litter);
   }
