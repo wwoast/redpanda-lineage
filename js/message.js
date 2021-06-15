@@ -79,6 +79,7 @@ Message.birthday = function(name, animal_id, years, language) {
 }
 Message.birthday_overflow = function(count, language) {
   var p = document.createElement('p');
+  p.className = "summaryEmphasis";
   for (var i in L.messages.birthday_overflow[language]) {
     var field = L.messages.birthday_overflow[language][i];
     if (field == "<INSERTCOUNT>") {

@@ -1160,6 +1160,15 @@ div.halloweenSummary p {
     color: white;
 }
 
+div.birthdaySummary p.summaryEmphasis {
+    background-image: radial-gradient(#9771A7 0%, #693638 150%);   /* Panda Gold */
+    margin-top: 0.7ex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0ex;
+    padding: 1ex;
+}
+
 div.frontPageSummary p.summaryEmphasis {
     background-image: radial-gradient(gold 0%, #693638 150%);   /* Panda Gold */
     font-size: 19.5pt;
