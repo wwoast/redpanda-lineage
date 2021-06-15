@@ -823,8 +823,9 @@ photo.164.author: i.satosato
 photo.164.commitdate: 2021/5/3
 photo.164.link: https://www.instagram.com/i.satosato/
 photo.164.tags: flowers, mofumofu, portrait
-photo.165: https://www.instagram.com/p/COj-IMcBAyd/media/?size=m
+photo.165: ig://COj-IMcBAyd/m
 photo.165.author: falcon_tenor
+photo.165.commitdate: 2021/6/15
 photo.165.link: https://www.instagram.com/falcon_tenor/
 photo.165.tags: close-up, mofumofu, whiskers
 species: 2
