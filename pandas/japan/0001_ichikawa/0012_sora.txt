@@ -630,8 +630,9 @@ photo.124.author: craig_craig_craig
 photo.124.commitdate: 2021/6/1
 photo.124.link: https://www.instagram.com/craig_craig_craig/
 photo.124.tags: smile
-photo.125: https://www.instagram.com/p/CO7y9iEBBMg/media/?size=m
+photo.125: ig://CO7y9iEBBMg/m
 photo.125.author: ifumoto88
+photo.125.commitdate: 2021/6/16
 photo.125.link: https://www.instagram.com/ifumoto88/
 photo.125.tags: close-up, mofumofu, whiskers
 species: 2

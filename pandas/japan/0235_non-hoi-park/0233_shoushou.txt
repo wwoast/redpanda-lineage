@@ -478,8 +478,9 @@ photo.93.author: hamamatsu.chiita
 photo.93.commitdate: 2021/5/28
 photo.93.link: https://www.instagram.com/hamamatsu.chiita/
 photo.93.tags: close-up, portrait, whiskers
-photo.94: https://www.instagram.com/p/CPA8HRRBnGx/media/?size=m
+photo.94: ig://CPA8HRRBnGx/m
 photo.94.author: ayusuke56
+photo.94.commitdate: 2021/6/16
 photo.94.link: https://www.instagram.com/ayusuke56/
 photo.94.tags: bridge, laying down, portrait
 species: 2

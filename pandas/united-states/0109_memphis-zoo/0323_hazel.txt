@@ -115,8 +115,9 @@ photo.20.author: happy_love2.15
 photo.20.commitdate: 2021/4/20
 photo.20.link: https://www.instagram.com/happy_love2.15/
 photo.20.tags: portrait, smile, whiskers
-photo.21: https://www.instagram.com/p/CPBMEZqA2he/media/?size=m
+photo.21: ig://CPBMEZqA2he/m
 photo.21.author: memphiszoo
+photo.21.commitdate: 2021/6/16
 photo.21.link: https://www.instagram.com/memphiszoo/
 photo.21.tags: smile
 species: 2

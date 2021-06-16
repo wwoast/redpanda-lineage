@@ -833,8 +833,9 @@ photo.165.author: hamamatsu.chiita
 photo.165.commitdate: 2021/5/3
 photo.165.link: https://www.instagram.com/hamamatsu.chiita/
 photo.165.tags: portrait, smile, whiskers
-photo.166: https://www.instagram.com/p/CO8JhQkBgoS/media/?size=m
+photo.166: ig://CO8JhQkBgoS/m
 photo.166.author: fetorus_mami
+photo.166.commitdate: 2021/6/16
 photo.166.link: https://www.instagram.com/fetorus_mami/
 photo.166.tags: climb, paws, smile
 species: 2

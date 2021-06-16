@@ -46,8 +46,9 @@ photo.6.author: edmontonvalleyzoo
 photo.6.commitdate: 2020/12/30
 photo.6.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.6.tags: bamboo, paws
-photo.7: https://www.instagram.com/p/CPBPw1ZAIzm/media/?size=m
+photo.7: ig://CPBPw1ZAIzm/m
 photo.7.author: edmontonvalleyzoo
+photo.7.commitdate: 2021/6/16
 photo.7.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.7.tags: laying down, portrait, whiskers
 species: 2

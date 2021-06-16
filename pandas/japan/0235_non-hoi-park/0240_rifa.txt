@@ -1682,8 +1682,9 @@ photo.335.author: hamamatsu.chiita
 photo.335.commitdate: 2021/6/15
 photo.335.link: https://www.instagram.com/accounts/activity/
 photo.335.tags: close-up, peek, portrait, whiskers
-photo.336: https://www.instagram.com/p/CO7mSRMhgEa/media/?size=m
+photo.336: ig://CO7mSRMhgEa/m
 photo.336.author: ayusuke56
+photo.336.commitdate: 2021/6/16
 photo.336.link: https://www.instagram.com/ayusuke56/
 photo.336.tags: portrait, smile
 species: 2
