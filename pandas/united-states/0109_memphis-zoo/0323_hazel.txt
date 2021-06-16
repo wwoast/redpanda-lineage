@@ -15,7 +15,7 @@ language.order: en, jp
 litter: 425
 location.1: 65, 2016/6/14
 location.2: 67, 2017/3/1
-location.3: 109, 2021/5/1
+location.3: 109, 2021/4/13
 photo.1: ig://Bek-hwZB3eS/m
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2018/12/11
@@ -115,6 +115,10 @@ photo.20.author: happy_love2.15
 photo.20.commitdate: 2021/4/20
 photo.20.link: https://www.instagram.com/happy_love2.15/
 photo.20.tags: portrait, smile, whiskers
+photo.21: https://www.instagram.com/p/CPBMEZqA2he/media/?size=m
+photo.21.author: memphiszoo
+photo.21.link: https://www.instagram.com/memphiszoo/
+photo.21.tags: smile
 species: 2
 studbook.id: 1608
 uncertainty: location.2 exact date, location.3 exact date
