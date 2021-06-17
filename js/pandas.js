@@ -775,15 +775,16 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
   var chosen_litter_length = 0;
   var chosen_year = -1;
   var chosen_id = -1;
+  var chosen_litter_ids = [];
   if (has_litters.length > 0) {
     chosen_id = Pandas.randomChoice(has_litters, 1)[0];
     var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
-    var chosen_litter_ids = Pandas.searchLitter(chosen_id)
+    chosen_litter_ids = Pandas.searchLitter(chosen_id)
       .filter(function(x) {
         return x.birthday = chosen_animal.birthday;
       }).map(x => x._id);
     chosen_litter_ids.unshift(chosen_id);
-    var chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
+    chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
     chosen_litter_length = chosen_litter_ids.length;
   }
   // Insert the litter mate into the list next to their sibling
