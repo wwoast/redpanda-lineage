@@ -77,8 +77,9 @@ photo.12.author: miis_98
 photo.12.commitdate: 2021/6/4
 photo.12.link: https://www.instagram.com/miis_98/
 photo.12.tags: peek, paws, portrait, tongue
-photo.13: https://www.instagram.com/p/CPYQtNXhQvz/media/?size=m
+photo.13: ig://CPYQtNXhQvz/m
 photo.13.author: miis_98
+photo.13.commitdate: 2021/6/18
 photo.13.link: https://www.instagram.com/miis_98/
 photo.13.tags: home, mofumofu, portrait
 species: 2
