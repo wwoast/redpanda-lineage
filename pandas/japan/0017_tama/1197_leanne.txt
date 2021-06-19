@@ -17,7 +17,7 @@ photo.1: ig://CHiS4ZPB7hf/m
 photo.1.author: alto0908
 photo.1.commitdate: 2020/11/21
 photo.1.link: https://www.instagram.com/alto0908/
-photo.1.tags: baby, mofumofu, portrait, profile
+photo.1.tags: baby, mofumofu, portrait
 photo.2: ig://CHkmhogh0LN/m
 photo.2.author: ck.chie
 photo.2.commitdate: 2020/11/21
@@ -98,5 +98,21 @@ photo.17.author: alto0908
 photo.17.commitdate: 2021/6/18
 photo.17.link: https://www.instagram.com/alto0908/
 photo.17.tags: paws, playing, portrait, tail, tree
+photo.18: https://www.instagram.com/p/CQGyTjOBf7c/media/?size=m
+photo.18.author: alto0908
+photo.18.link: https://www.instagram.com/alto0908/
+photo.18.tags: portrait, tail, tree, upside-down
+photo.19: https://www.instagram.com/p/CQEGBZtBSQJ/media/?size=m
+photo.19.author: mini_cochi
+photo.19.link: https://www.instagram.com/mini_cochi/
+photo.19.tags: paws, portrait, tail, tree, upside-down
+photo.20: https://www.instagram.com/p/CQBFU4nh1wi/media/?size=m
+photo.20.author: kotata_513
+photo.20.link: https://www.instagram.com/kotata_513/
+photo.20.tags: paws, portrait, profile, smile, tree
+photo.21: https://www.instagram.com/p/CQA-Z2jBpwo/media/?size=m
+photo.21.author: pink.b22
+photo.21.link: https://www.instagram.com/pink.b22/
+photo.21.tags: laying down, paws, portrait, tail, tree
 species: 2
 zoo: 17

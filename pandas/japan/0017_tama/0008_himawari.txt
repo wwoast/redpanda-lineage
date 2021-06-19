@@ -79,7 +79,7 @@ photo.13: ig://BdAD4ASlSEq/m
 photo.13.author: hanamaru_redpanda
 photo.13.commitdate: 2018/7/16
 photo.13.link: https://www.instagram.com/hanamaru_redpanda/
-photo.13.tags: home, laying down, portrait, profile
+photo.13.tags: home, laying down, portrait
 photo.14: ig://BiQwgFnlME9/m
 photo.14.author: re_ichimaru
 photo.14.commitdate: 2018/7/28
@@ -1741,6 +1741,38 @@ photo.346.author: osopanda551
 photo.346.commitdate: 2021/6/18
 photo.346.link: https://www.instagram.com/osopanda551/
 photo.346.tags: laying down, paws, portrait, smile, tree
+photo.347: https://www.instagram.com/p/CQHrapIhoM6/media/?size=m
+photo.347.author: ifumoto88
+photo.347.link: https://www.instagram.com/ifumoto88/
+photo.347.tags: portrait, whiskers
+photo.348: https://www.instagram.com/p/CQP_uGchO5N/media/?size=m
+photo.348.author: alto0908
+photo.348.link: https://www.instagram.com/alto0908/
+photo.348.tags: laying down, paws, portrait, tree
+photo.349: https://www.instagram.com/p/CQNtmBUhJP4/media/?size=m
+photo.349.author: pink.b22
+photo.349.link: https://www.instagram.com/pink.b22/
+photo.349.tags: portrait, profile
+photo.350: https://www.instagram.com/p/CQPTVxDBDkf/media/?size=m
+photo.350.author: alto0908
+photo.350.link: https://www.instagram.com/alto0908/
+photo.350.tags: laying down, paws, portrait, tree
+photo.351: https://www.instagram.com/p/CP9PWuPBOLq/media/?size=m
+photo.351.author: alto0908
+photo.351.link: https://www.instagram.com/alto0908/
+photo.351.tags: laying down, paws, peek, portrait, tree
+photo.352: https://www.instagram.com/p/CPzEymzBgpH/media/?size=m
+photo.352.author: alto0908
+photo.352.link: https://www.instagram.com/alto0908/
+photo.352.tags: laying down, tree
+photo.353: https://www.instagram.com/p/CPvLzElBhH0/media/?size=m
+photo.353.author: ifumoto88
+photo.353.link: https://www.instagram.com/ifumoto88/
+photo.353.tags: portrait, standing, tree, wet
+photo.354: https://www.instagram.com/p/CPwbYEfBtx4/media/?size=m
+photo.354.author: alto0908
+photo.354.link: https://www.instagram.com/alto0908/
+photo.354.tags: peek, portrait, tree
 species: 2
 studbook.id: 1782
 zoo: 17

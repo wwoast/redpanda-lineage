@@ -22,7 +22,7 @@ photo.2: ig://CHiB5VmBCe6/m
 photo.2.author: alto0908
 photo.2.commitdate: 2020/11/21
 photo.2.link: https://www.instagram.com/alto0908/
-photo.2.tags: baby, mofumofu, portrait, profile
+photo.2.tags: baby, mofumofu, portrait
 photo.3: ig://CHk2jEGhiat/m
 photo.3.author: mini_cochi
 photo.3.commitdate: 2020/11/21
@@ -82,7 +82,7 @@ photo.14: ig://CPyH0qkhUon/m
 photo.14.author: mini_cochi
 photo.14.commitdate: 2021/6/18
 photo.14.link: https://www.instagram.com/mini_cochi/
-photo.14.tags: portrait, tail, wet
+photo.14.tags: portrait, profile, tail, wet
 photo.15: ig://CP1cwQ-hT9D/m
 photo.15.author: alto0908
 photo.15.commitdate: 2021/6/18
@@ -108,5 +108,37 @@ photo.19.author: kotata_513
 photo.19.commitdate: 2021/6/18
 photo.19.link: https://www.instagram.com/kotata_513/
 photo.19.tags: bridge, laying down, paws, peek, playing, tail, tree
+photo.20: https://www.instagram.com/p/CQOEb1MhlPR/media/?size=m
+photo.20.author: osopanda551
+photo.20.link: https://www.instagram.com/osopanda551/
+photo.20.tags: door, laying down, playing, paws, portrait, smile, upside-down
+photo.21: https://www.instagram.com/p/CQE-IO8hHWt/media/?size=m
+photo.21.author: resapan.suki
+photo.21.link: https://www.instagram.com/resapan.suki/
+photo.21.tags: door, laying down, paws, playing, portrait
+photo.22: https://www.instagram.com/p/CQKJnYkhqtI/media/?size=m
+photo.22.author: alto0908
+photo.22.link: https://www.instagram.com/alto0908/
+photo.22.tags: bridge, climb, paws, smile
+photo.23: https://www.instagram.com/p/CQI01BTBBbQ/media/?size=m
+photo.23.author: ifumoto88
+photo.23.link: https://www.instagram.com/ifumoto88/
+photo.23.tags: paws, standing, tree
+photo.24: https://www.instagram.com/p/CQQ0Kn6Bn61/media/?size=m
+photo.24.author: ifumoto88
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: paws, portrait, tail, tree
+photo.25: https://www.instagram.com/p/CQQnDHIhRKa/media/?size=m
+photo.25.author: kotata_513
+photo.25.link: https://www.instagram.com/kotata_513/
+photo.25.tags: blink, bite, bridge, laying down, tree
+photo.26: https://www.instagram.com/p/CQQX8PMBpRT/media/?size=m
+photo.26.author: pink.b22
+photo.26.link: https://www.instagram.com/pink.b22/
+photo.26.tags: bite, portrait
+photo.27: https://www.instagram.com/p/CQN7-0qB6pC/media/?size=m
+photo.27.author: kotata_513
+photo.27.link: https://www.instagram.com/kotata_513/
+photo.27.tags: paws, smile, tree
 species: 2
 zoo: 17
