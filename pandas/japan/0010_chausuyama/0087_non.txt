@@ -305,8 +305,9 @@ photo.59.author: redpan22
 photo.59.commitdate: 2021/6/15
 photo.59.link: https://www.instagram.com/redpan22/
 photo.59.tags: flowers, portrait, tongue, whiskers
-photo.60: https://www.instagram.com/p/CP5qTOQBVAe/media/?size=m
+photo.60: ig://CP5qTOQBVAe/m
 photo.60.author: redpan22
+photo.60.commitdate: 2021/6/19
 photo.60.link: https://www.instagram.com/redpan22/
 photo.60.tags: mofumofu, peek, portrait
 species: 2

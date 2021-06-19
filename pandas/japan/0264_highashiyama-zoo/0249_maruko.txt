@@ -352,8 +352,9 @@ photo.67.author: hamamatsu.chiita
 photo.67.commitdate: 2021/6/8
 photo.67.link: https://www.instagram.com/hamamatsu.chiita/
 photo.67.tags: bamboo, close-up, paws, portrait
-photo.68: https://www.instagram.com/p/CP6dEi1BL4h/media/?size=m
+photo.68: ig://CP6dEi1BL4h/m
 photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2021/6/19
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: close-up, mofumofu, portrait, tail, whiskers
 species: 2

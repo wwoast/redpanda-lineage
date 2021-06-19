@@ -489,8 +489,9 @@ photo.95.author: jas_forever_love
 photo.95.commitdate: 2021/6/8
 photo.95.link: https://www.instagram.com/jas_forever_love/
 photo.95.tags: peek, portrait, tree, whiskers
-photo.96: https://www.instagram.com/p/CP232HmhTob/media/?size=m
+photo.96: ig://CP232HmhTob/m
 photo.96.author: jas_forever_love
+photo.96.commitdate: 2021/6/19
 photo.96.link: https://www.instagram.com/jas_forever_love/
 photo.96.tags: laying down, portrait, smile, tongue, tree
 species: 2

@@ -393,19 +393,21 @@ photo.77.author: miis_98
 photo.77.commitdate: 2021/6/15
 photo.77.link: https://www.instagram.com/miis_98/
 photo.77.tags: lips, paws, portrait
-photo.78: ig://CQLnPQShK_q/m
+photo.78: ig://CPLQrbCh1hP/m
 photo.78.author: minatomirai215
-photo.78.commitdate: 2021/6/18
+photo.78.commitdate: 2021/6/19
 photo.78.link: https://www.instagram.com/minatomirai215/
-photo.78.tags: lips, mofumofu, portrait
-photo.79: https://www.instagram.com/p/CP4sb0ghnPy/media/?size=m
+photo.78.tags: mofumofu, portrait, techitechi
+photo.79: ig://CP4sb0ghnPy/m
 photo.79.author: miis_98
+photo.79.commitdate: 2021/6/19
 photo.79.link: https://www.instagram.com/miis_98/
 photo.79.tags: mofumofu, paws, portrait, spider, tail
-photo.80: https://www.instagram.com/p/CPLQrbCh1hP/media/?size=m
+photo.80: ig://CQLnPQShK_q/m
 photo.80.author: minatomirai215
+photo.80.commitdate: 2021/6/18
 photo.80.link: https://www.instagram.com/minatomirai215/
-photo.80.tags: mofumofu, portrait, techitechi
+photo.80.tags: lips, mofumofu, portrait
 species: 2
 studbook.id: 15128
 zoo: 4

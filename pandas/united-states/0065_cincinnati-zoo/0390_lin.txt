@@ -83,8 +83,9 @@ photo.14.author: rossifari
 photo.14.commitdate: 2021/6/13
 photo.14.link: https://www.instagram.com/rossifari/
 photo.14.tags: peek, portrait, whiskers
-photo.15: https://www.instagram.com/p/CP7yLx4ganY/media/?size=m
+photo.15: ig://CP7yLx4ganY/m
 photo.15.author: rossifari
+photo.15.commitdate: 2021/6/19
 photo.15.link: https://www.instagram.com/rossifari/
 photo.15.tags: peek, portrait, tongue, whiskers
 species: 2
