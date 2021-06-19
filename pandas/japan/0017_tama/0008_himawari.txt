@@ -1731,48 +1731,56 @@ photo.344.author: eos1089
 photo.344.commitdate: 2021/6/4
 photo.344.link: https://www.instagram.com/eos1089/
 photo.344.tags: portrait, whiskers
-photo.345: ig://CP5qWJ6h1Gv/m
+photo.345: ig://CPvLzElBhH0/m
 photo.345.author: ifumoto88
 photo.345.commitdate: 2021/6/18
 photo.345.link: https://www.instagram.com/ifumoto88/
-photo.345.tags: laying down, peek, portrait, tail, tree, wet
-photo.346: ig://CP_31LwhHSW/m
-photo.346.author: osopanda551
+photo.345.tags: portrait, standing, tree, wet
+photo.346: ig://CPwbYEfBtx4/m
+photo.346.author: alto0908
 photo.346.commitdate: 2021/6/18
-photo.346.link: https://www.instagram.com/osopanda551/
-photo.346.tags: laying down, paws, portrait, smile, tree
-photo.347: https://www.instagram.com/p/CQHrapIhoM6/media/?size=m
-photo.347.author: ifumoto88
-photo.347.link: https://www.instagram.com/ifumoto88/
-photo.347.tags: portrait, whiskers
-photo.348: https://www.instagram.com/p/CQP_uGchO5N/media/?size=m
-photo.348.author: alto0908
-photo.348.link: https://www.instagram.com/alto0908/
-photo.348.tags: laying down, paws, portrait, tree
-photo.349: https://www.instagram.com/p/CQNtmBUhJP4/media/?size=m
-photo.349.author: pink.b22
-photo.349.link: https://www.instagram.com/pink.b22/
-photo.349.tags: portrait, profile
-photo.350: https://www.instagram.com/p/CQPTVxDBDkf/media/?size=m
-photo.350.author: alto0908
-photo.350.link: https://www.instagram.com/alto0908/
-photo.350.tags: laying down, paws, portrait, tree
-photo.351: https://www.instagram.com/p/CP9PWuPBOLq/media/?size=m
-photo.351.author: alto0908
-photo.351.link: https://www.instagram.com/alto0908/
-photo.351.tags: laying down, paws, peek, portrait, tree
-photo.352: https://www.instagram.com/p/CPzEymzBgpH/media/?size=m
-photo.352.author: alto0908
-photo.352.link: https://www.instagram.com/alto0908/
-photo.352.tags: laying down, tree
-photo.353: https://www.instagram.com/p/CPvLzElBhH0/media/?size=m
-photo.353.author: ifumoto88
-photo.353.link: https://www.instagram.com/ifumoto88/
-photo.353.tags: portrait, standing, tree, wet
-photo.354: https://www.instagram.com/p/CPwbYEfBtx4/media/?size=m
+photo.346.link: https://www.instagram.com/alto0908/
+photo.346.tags: peek, portrait, tree
+photo.347: ig://CPzEymzBgpH/m
+photo.347.author: alto0908
+photo.347.commitdate: 2021/6/18
+photo.347.link: https://www.instagram.com/alto0908/
+photo.347.tags: laying down, tree
+photo.348: ig://CP5qWJ6h1Gv/m
+photo.348.author: ifumoto88
+photo.348.commitdate: 2021/6/18
+photo.348.link: https://www.instagram.com/ifumoto88/
+photo.348.tags: laying down, peek, portrait, tail, tree, wet
+photo.349: ig://CP9PWuPBOLq/m
+photo.349.author: alto0908
+photo.349.commitdate: 2021/6/18
+photo.349.link: https://www.instagram.com/alto0908/
+photo.349.tags: laying down, paws, peek, portrait, tree
+photo.350: ig://CP_31LwhHSW/m
+photo.350.author: osopanda551
+photo.350.commitdate: 2021/6/18
+photo.350.link: https://www.instagram.com/osopanda551/
+photo.350.tags: laying down, paws, portrait, smile, tree
+photo.351: ig://CQHrapIhoM6/m
+photo.351.author: ifumoto88
+photo.351.commitdate: 2021/6/18
+photo.351.link: https://www.instagram.com/ifumoto88/
+photo.351.tags: portrait, whiskers
+photo.352: ig://CQNtmBUhJP4/m
+photo.352.author: pink.b22
+photo.352.commitdate: 2021/6/18
+photo.352.link: https://www.instagram.com/pink.b22/
+photo.352.tags: portrait, profile
+photo.353: ig://CQPTVxDBDkf/m
+photo.353.author: alto0908
+photo.353.commitdate: 2021/6/18
+photo.353.link: https://www.instagram.com/alto0908/
+photo.353.tags: laying down, paws, portrait, tree
+photo.354: ig://CQP_uGchO5N/m
 photo.354.author: alto0908
+photo.354.commitdate: 2021/6/18
 photo.354.link: https://www.instagram.com/alto0908/
-photo.354.tags: peek, portrait, tree
+photo.354.tags: laying down, paws, portrait, tree
 species: 2
 studbook.id: 1782
 zoo: 17

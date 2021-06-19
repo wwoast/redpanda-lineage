@@ -108,37 +108,45 @@ photo.19.author: kotata_513
 photo.19.commitdate: 2021/6/18
 photo.19.link: https://www.instagram.com/kotata_513/
 photo.19.tags: bridge, laying down, paws, peek, playing, tail, tree
-photo.20: https://www.instagram.com/p/CQOEb1MhlPR/media/?size=m
-photo.20.author: osopanda551
-photo.20.link: https://www.instagram.com/osopanda551/
-photo.20.tags: door, laying down, playing, paws, portrait, smile, upside-down
-photo.21: https://www.instagram.com/p/CQE-IO8hHWt/media/?size=m
-photo.21.author: resapan.suki
-photo.21.link: https://www.instagram.com/resapan.suki/
-photo.21.tags: door, laying down, paws, playing, portrait
-photo.22: https://www.instagram.com/p/CQKJnYkhqtI/media/?size=m
+photo.20: ig://CQE-IO8hHWt/m
+photo.20.author: resapan.suki
+photo.20.commitdate: 2021/6/18
+photo.20.link: https://www.instagram.com/resapan.suki/
+photo.20.tags: door, laying down, paws, playing, portrait
+photo.21: ig://CQI01BTBBbQ/m
+photo.21.author: ifumoto88
+photo.21.commitdate: 2021/6/18
+photo.21.link: https://www.instagram.com/ifumoto88/
+photo.21.tags: paws, standing, tree
+photo.22: ig://CQKJnYkhqtI/m
 photo.22.author: alto0908
+photo.22.commitdate: 2021/6/18
 photo.22.link: https://www.instagram.com/alto0908/
 photo.22.tags: bridge, climb, paws, smile
-photo.23: https://www.instagram.com/p/CQI01BTBBbQ/media/?size=m
-photo.23.author: ifumoto88
-photo.23.link: https://www.instagram.com/ifumoto88/
-photo.23.tags: paws, standing, tree
-photo.24: https://www.instagram.com/p/CQQ0Kn6Bn61/media/?size=m
-photo.24.author: ifumoto88
-photo.24.link: https://www.instagram.com/ifumoto88/
-photo.24.tags: paws, portrait, tail, tree
-photo.25: https://www.instagram.com/p/CQQnDHIhRKa/media/?size=m
-photo.25.author: kotata_513
-photo.25.link: https://www.instagram.com/kotata_513/
-photo.25.tags: blink, bite, bridge, laying down, tree
-photo.26: https://www.instagram.com/p/CQQX8PMBpRT/media/?size=m
-photo.26.author: pink.b22
-photo.26.link: https://www.instagram.com/pink.b22/
-photo.26.tags: bite, portrait
-photo.27: https://www.instagram.com/p/CQN7-0qB6pC/media/?size=m
-photo.27.author: kotata_513
-photo.27.link: https://www.instagram.com/kotata_513/
-photo.27.tags: paws, smile, tree
+photo.23: ig://CQN7-0qB6pC/m
+photo.23.author: kotata_513
+photo.23.commitdate: 2021/6/18
+photo.23.link: https://www.instagram.com/kotata_513/
+photo.23.tags: paws, smile, tree
+photo.24: ig://CQOEb1MhlPR/m
+photo.24.author: osopanda551
+photo.24.commitdate: 2021/6/18
+photo.24.link: https://www.instagram.com/osopanda551/
+photo.24.tags: door, laying down, playing, paws, portrait, smile, upside-down
+photo.25: ig://CQQX8PMBpRT/m
+photo.25.author: pink.b22
+photo.25.commitdate: 2021/6/18
+photo.25.link: https://www.instagram.com/pink.b22/
+photo.25.tags: bite, portrait
+photo.26: ig://CQQnDHIhRKa/m
+photo.26.author: kotata_513
+photo.26.commitdate: 2021/6/18
+photo.26.link: https://www.instagram.com/kotata_513/
+photo.26.tags: blink, bite, bridge, laying down, tree
+photo.27: ig://CQQ0Kn6Bn61/m
+photo.27.author: ifumoto88
+photo.27.commitdate: 2021/6/18
+photo.27.link: https://www.instagram.com/ifumoto88/
+photo.27.tags: paws, portrait, tail, tree
 species: 2
 zoo: 17

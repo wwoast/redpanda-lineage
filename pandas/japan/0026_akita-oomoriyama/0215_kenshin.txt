@@ -170,12 +170,14 @@ photo.31.author: zoowfreedom299
 photo.31.commitdate: 2021/2/15
 photo.31.link: https://www.instagram.com/zoowfreedom299/
 photo.31.tags: muzzle, paws, whiskers
-photo.32: https://www.instagram.com/p/CQPOoS7h-ZA/media/?size=m
+photo.32: ig://CQPOoS7h-ZA/m
 photo.32.author: panda.daisuki
+photo.32.commitdate: 2021/6/18
 photo.32.link: https://www.instagram.com/panda.daisuki/
 photo.32.tags: muzzle, paws, portrait, whiskers
-photo.33: https://www.instagram.com/p/CQQHs8sB74_/media/?size=m
+photo.33: ig://CQQHs8sB74_/m
 photo.33.author: grskus_tk
+photo.33.commitdate: 2021/6/18
 photo.33.link: https://www.instagram.com/grskus_tk/
 photo.33.tags: muzzle, paws, window
 species: 2

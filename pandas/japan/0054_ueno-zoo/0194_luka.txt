@@ -700,14 +700,16 @@ photo.137.author: eos1089
 photo.137.commitdate: 2021/6/6
 photo.137.link: https://www.instagram.com/eos1089/
 photo.137.tags: paws, smile, standing, tail
-photo.138: https://www.instagram.com/p/CQH01Rzhrsn/media/?size=m
-photo.138.author: framereim
-photo.138.link: https://www.instagram.com/framereim/
-photo.138.tags: paws, portrait, smile, tree
-photo.139: https://www.instagram.com/p/CQG3BxYhVhk/media/?size=m
-photo.139.author: eos1089
-photo.139.link: https://www.instagram.com/eos1089/
-photo.139.tags: laying down, paws, playing, portrait, upside-down
+photo.138: ig://CQG3BxYhVhk/m
+photo.138.author: eos1089
+photo.138.commitdate: 2021/6/18
+photo.138.link: https://www.instagram.com/eos1089/
+photo.138.tags: laying down, paws, playing, portrait, upside-down
+photo.139: ig://CQH01Rzhrsn/m
+photo.139.author: framereim
+photo.139.commitdate: 2021/6/18
+photo.139.link: https://www.instagram.com/framereim/
+photo.139.tags: paws, portrait, smile, tree
 species: 2
 studbook.id: 1677
 zoo: 54

@@ -755,8 +755,9 @@ photo.149.author: yossi929
 photo.149.commitdate: 2021/5/31
 photo.149.link: https://www.instagram.com/yossi929/
 photo.149.tags: portrait, whiskers
-photo.150: https://www.instagram.com/p/CQPwSxOhcUh/media/?size=m
+photo.150: ig://CQPwSxOhcUh/m
 photo.150.author: re_ichimaru
+photo.150.commitdate: 2021/6/18
 photo.150.link: https://www.instagram.com/re_ichimaru/
 photo.150.tags: bamboo, mofumofu, portrait, whiskers, white face
 species: 2

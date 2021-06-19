@@ -51,8 +51,9 @@ photo.7.author: zooatl
 photo.7.commitdate: 2020/12/29
 photo.7.link: https://www.instagram.com/zooatl/
 photo.7.tags: peek, portrait, tail
-photo.8: https://www.instagram.com/p/CQGF75JA_qd/media/?size=m
+photo.8: ig://CQGF75JA_qd/m
 photo.8.author: rossifari
+photo.8.commitdate: 2021/6/18
 photo.8.link: https://www.instagram.com/rossifari/
 photo.8.tags: portrait, smile, whiskers
 species: 1
