@@ -701,7 +701,7 @@ Pandas.searchBabies = function(year) {
 // Find all pandas born today, given parameters:
 //   keep_living: panda must still be alive
 //   photo_count: panda must have at least this many photos
-Pandas.searchBirthday = function(keep_living=true, photo_count=20) {
+Pandas.searchBirthdayToday = function(keep_living=true, photo_count=20) {
   var today = new Date();
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
@@ -730,14 +730,16 @@ Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()));
   }).filter(function(vertex) {
+    if (photo_count > 0) {
+      return vertex["photo." + photo_count] != undefined;
+    }
+  }).filter(function(vertex) {
+    // Filter out any starting nodes for animals that have
+    // passed away. 
     if (keep_living == true) {
       return (vertex.death == undefined);
     } else {
       return true;   // Get everyone
-    }
-  }).filter(function(vertex) {
-    if (photo_count > 0) {
-      return vertex["photo." + photo_count] != undefined;
     }
   }).in("litter").filter(function(vertex) {
     // Litter mates for this search must have the exact same
@@ -745,6 +747,13 @@ Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
     var birthday = new Date(vertex.birthday);
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()));
+  }).filter(function(vertex) {
+    // Filter out any animals in litters are passed away
+    if (keep_living == true) {
+      return (vertex.death == undefined);
+    } else {
+      return true;   // Get everyone
+    }        
   }).run().map(x => x._id);
   litter_ids = Pandas.distinct(litter_ids);
   return litter_ids;
@@ -757,7 +766,7 @@ Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
 // Bias towards pandas with littermates in this random sample,
 // so if a panda appears in the set, so will its littermates.
 Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max_count=5) {
-  var initial_set = Pandas.searchBirthday(keep_living, photo_count);
+  var initial_set = Pandas.searchBirthdayToday(keep_living, photo_count);
   var initial_ids = Pandas.shuffle(initial_set.map(x => x._id));
   var litter_ids = Pandas.searchBirthdayLitterIds(keep_living, photo_count);
   // Find all pandas we can remove from the random sample,

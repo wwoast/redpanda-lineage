@@ -301,7 +301,7 @@ Page.home.render = function() {
     // Birthday logic
     var min_photo_count = 3;
     var max_birthday_animals = 4;
-    var birthday_count = Pandas.searchBirthday(true, min_photo_count).length;
+    var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
     if (birthday_count > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, 4);
       new_content.appendChild(birthday);
