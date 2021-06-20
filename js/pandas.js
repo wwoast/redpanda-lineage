@@ -733,17 +733,9 @@ Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
     if (photo_count > 0) {
       return vertex["photo." + photo_count] != undefined;
     }
-  }).filter(function(vertex) {
-    // Filter out any starting nodes for animals that have
-    // passed away. 
-    if (keep_living == true) {
-      return (vertex.death == undefined);
-    } else {
-      return true;   // Get everyone
-    }
   }).in("litter").filter(function(vertex) {
     // Litter mates for this search must have the exact same
-    // birthday as today.
+    // birthday as today. Sometimes they're born a day apart
     var birthday = new Date(vertex.birthday);
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()));
@@ -781,7 +773,6 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
   // Get the id of a single animal that has a litter born on
   // this date, and include them all in the output. Have fallbacks
   // in case we don't have any litter birthdays
-  var chosen_litter_length = 0;
   var chosen_year = -1;
   var chosen_id = -1;
   var chosen_litter_ids = [];
@@ -791,10 +782,16 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
     chosen_litter_ids = Pandas.searchLitter(chosen_id)
       .filter(function(x) {
         return x.birthday = chosen_animal.birthday;
+      }).filter(function(vertex) {
+        // Filter out any animals in litters are passed away
+        if (keep_living == true) {
+          return (vertex.death == undefined);
+        } else {
+          return true;   // Get everyone
+        }        
       }).map(x => x._id);
     chosen_litter_ids.unshift(chosen_id);
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
-    chosen_litter_length = chosen_litter_ids.length;
   }
   // Insert the litter mate into the list next to their sibling
   var s2_ids = [];
