@@ -484,8 +484,9 @@ photo.94.author: pink.b22
 photo.94.commitdate: 2021/5/3
 photo.94.link: https://www.instagram.com/pink.b22/
 photo.94.tags: bamboo, paws, portrait, smile
-photo.95: https://www.instagram.com/p/CQOD9NshpTj/media/?size=m
+photo.95: ig://CQOD9NshpTj/m
 photo.95.author: kaoru_a358
+photo.95.commitdate: 2021/6/19
 photo.95.link: https://www.instagram.com/kaoru_a358/
 photo.95.tags: portrait, smile, tongue, whiskers
 species: 2

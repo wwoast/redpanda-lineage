@@ -260,65 +260,66 @@ photo.50.author: nakacchi_desu
 photo.50.commitdate: 2020/1/2
 photo.50.link: https://www.instagram.com/nakacchi_desu/
 photo.50.tags: autumn, peek
-photo.51: ig://B6vuwbyhQwS/m
-photo.51.author: take_421
-photo.51.commitdate: 2020/1/2
-photo.51.link: https://www.instagram.com/take_421/
-photo.51.tags: portrait, smile, whiskers
-photo.52: ig://B6wdbwkBQNl/m
-photo.52.author: _rifa_p
+photo.51: ig://B6vmDR0B26Q/m
+photo.51.author: wumpwoast
+photo.51.commitdate: 2021/6/19
+photo.51.link: https://www.instagram.com/wumpwoast/
+photo.51.tags: paws, portrait, tree
+photo.52: ig://B6vuwbyhQwS/m
+photo.52.author: take_421
 photo.52.commitdate: 2020/1/2
-photo.52.link: https://www.instagram.com/_rifa_p/
-photo.52.tags: autumn, tree
-photo.53: ig://B7iPS89h_hJ/m
-photo.53.author: na.mo.pan
-photo.53.commitdate: 2020/1/22
-photo.53.link: https://www.instagram.com/na.mo.pan/
-photo.53.tags: smile
-photo.54: ig://B_BhrzEB9P5/m
-photo.54.author: tomo3700
-photo.54.commitdate: 2020/7/21
-photo.54.link: https://www.instagram.com/tomo3700/
-photo.54.tags: home, portrait, smile, tail
-photo.55: ig://B_HVJONBr9R/m
-photo.55.author: run.swim.shingo
+photo.52.link: https://www.instagram.com/take_421/
+photo.52.tags: portrait, smile, whiskers
+photo.53: ig://B6wdbwkBQNl/m
+photo.53.author: _rifa_p
+photo.53.commitdate: 2020/1/2
+photo.53.link: https://www.instagram.com/_rifa_p/
+photo.53.tags: autumn, tree
+photo.54: ig://B7iPS89h_hJ/m
+photo.54.author: na.mo.pan
+photo.54.commitdate: 2020/1/22
+photo.54.link: https://www.instagram.com/na.mo.pan/
+photo.54.tags: smile
+photo.55: ig://B_BhrzEB9P5/m
+photo.55.author: tomo3700
 photo.55.commitdate: 2020/7/21
-photo.55.link: https://www.instagram.com/run.swim.shingo/
-photo.55.tags: air tasting, home, laying down, portrait, tail, tongue
-photo.56: ig://B_haUtgn7Ku/m
-photo.56.author: ssc6105
+photo.55.link: https://www.instagram.com/tomo3700/
+photo.55.tags: home, portrait, smile, tail
+photo.56: ig://B_HVJONBr9R/m
+photo.56.author: run.swim.shingo
 photo.56.commitdate: 2020/7/21
-photo.56.link: https://www.instagram.com/ssc6105/
-photo.56.tags: laying down, paws
-photo.57: ig://B_iHJUynYUO/m
-photo.57.author: na.mo.pan
+photo.56.link: https://www.instagram.com/run.swim.shingo/
+photo.56.tags: air tasting, home, laying down, portrait, tail, tongue
+photo.57: ig://B_haUtgn7Ku/m
+photo.57.author: ssc6105
 photo.57.commitdate: 2020/7/21
-photo.57.link: https://www.instagram.com/na.mo.pan/
-photo.57.tags: smile, tongue
-photo.58: ig://CGPyRtzhcnK/m
-photo.58.author: firefoxpanda88
-photo.58.commitdate: 2020/10/12
-photo.58.link: https://www.instagram.com/firefoxpanda88/
-photo.58.tags: home, portrait, tail
-photo.59: ig://CHPwGtahCTe/m
+photo.57.link: https://www.instagram.com/ssc6105/
+photo.57.tags: laying down, paws
+photo.58: ig://B_iHJUynYUO/m
+photo.58.author: na.mo.pan
+photo.58.commitdate: 2020/7/21
+photo.58.link: https://www.instagram.com/na.mo.pan/
+photo.58.tags: smile, tongue
+photo.59: ig://CGPyRtzhcnK/m
 photo.59.author: firefoxpanda88
-photo.59.commitdate: 2020/11/21
+photo.59.commitdate: 2020/10/12
 photo.59.link: https://www.instagram.com/firefoxpanda88/
-photo.59.tags: air tasting, autumn, peek, tongue, tree
-photo.60: ig://CJbREh7BDaR/m
+photo.59.tags: home, portrait, tail
+photo.60: ig://CHPwGtahCTe/m
 photo.60.author: firefoxpanda88
-photo.60.commitdate: 2020/12/30
+photo.60.commitdate: 2020/11/21
 photo.60.link: https://www.instagram.com/firefoxpanda88/
-photo.60.tags: air tasting, mofumofu, tongue
-photo.61: ig://CJcMVHBB-P6/m
-photo.61.author: _rifa_p
-photo.61.commitdate: 2021/1/3
-photo.61.link: https://www.instagram.com/_rifa_p/
-photo.61.tags: portrait, smile, whiskers
-photo.62: https://www.instagram.com/p/B6vmDR0B26Q/media/?size=m
-photo.62.author: wumpwoast
-photo.62.link: https://www.instagram.com/wumpwoast/
-photo.62.tags: paws, portrait, tree
+photo.60.tags: air tasting, autumn, peek, tongue, tree
+photo.61: ig://CJbREh7BDaR/m
+photo.61.author: firefoxpanda88
+photo.61.commitdate: 2020/12/30
+photo.61.link: https://www.instagram.com/firefoxpanda88/
+photo.61.tags: air tasting, mofumofu, tongue
+photo.62: ig://CJcMVHBB-P6/m
+photo.62.author: _rifa_p
+photo.62.commitdate: 2021/1/3
+photo.62.link: https://www.instagram.com/_rifa_p/
+photo.62.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 0550
 zoo: 1

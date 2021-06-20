@@ -160,8 +160,9 @@ photo.29.author: craig_craig_craig
 photo.29.commitdate: 2021/6/6
 photo.29.link: https://www.instagram.com/craig_craig_craig/
 photo.29.tags: itchy, paws, tail, videolink
-photo.30: https://www.instagram.com/p/CP93IdIBplG/media/?size=m
+photo.30: ig://CP93IdIBplG/m
 photo.30.author: lesserpanda_shizuokacity_cp
+photo.30.commitdate: 2021/6/19
 photo.30.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.30.tags: home, paws, portrait
 species: 2

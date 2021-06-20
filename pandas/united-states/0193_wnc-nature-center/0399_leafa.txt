@@ -106,8 +106,9 @@ photo.18.author: wncnaturecenter
 photo.18.commitdate: 2021/1/3
 photo.18.link: https://www.instagram.com/wncnaturecenter/
 photo.18.tags: close-up, paws, profile, whiskers
-photo.19: https://www.instagram.com/p/CJyaa3-hUyx/media/?size=m
+photo.19: ig://CJyaa3-hUyx/m
 photo.19.author: wncnaturecenter
+photo.19.commitdate: 2021/6/19
 photo.19.link: https://www.instagram.com/wncnaturecenter/
 photo.19.tags: bamboo, portrait, snow
 species: 2

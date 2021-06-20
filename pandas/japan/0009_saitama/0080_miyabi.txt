@@ -468,8 +468,9 @@ photo.92.author: fetorus_mami
 photo.92.commitdate: 2021/6/6
 photo.92.link: https://www.instagram.com/fetorus_mami/
 photo.92.tags: portrait, whiskers
-photo.93: https://www.instagram.com/p/CQKLA1OB1Gh/media/?size=m
+photo.93: ig://CQKLA1OB1Gh/m
 photo.93.author: miis_98
+photo.93.commitdate: 2021/6/19
 photo.93.link: https://www.instagram.com/miis_98/
 photo.93.tags: bamboo, paws, portrait, standing
 species: 2

@@ -713,8 +713,9 @@ photo.140.author: craig_craig_craig
 photo.140.commitdate: 2021/5/31
 photo.140.link: https://www.instagram.com/craig_craig_craig/
 photo.140.tags: bamboo, home, peek, portrait
-photo.141: https://www.instagram.com/p/CQQhraRBkI_/media/?size=m
+photo.141: ig://CQQhraRBkI_/m
 photo.141.author: daniele.tokyo
+photo.141.commitdate: 2021/6/19
 photo.141.link: https://www.instagram.com/daniele.tokyo/
 photo.141.tags: paws, peek
 species: 2

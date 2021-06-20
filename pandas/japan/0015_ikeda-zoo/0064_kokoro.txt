@@ -218,8 +218,9 @@ photo.41.author: itsuak
 photo.41.commitdate: 2021/6/7
 photo.41.link: https://www.instagram.com/itsuak/
 photo.41.tags: bamboo, smile
-photo.42: https://www.instagram.com/p/CP-zcgRLF4X/media/?size=m
+photo.42: ig://CP-zcgRLF4X/m
 photo.42.author: itsuak
+photo.42.commitdate: 2021/6/19
 photo.42.link: https://www.instagram.com/itsuak/
 photo.42.tags: portrait, whiskers
 species: 2
