@@ -925,7 +925,7 @@ Pandas.searchPandaNameFields = function(input, name_fields=undefined) {
     }
     for (let field of collected_fields) {
       if (animal[field] != undefined) {
-        name_list = animal[field].split(',').map(x => x.trim());
+        name_list = animal[field].split(", ");
         for (let wanted of inputs) {
           if (name_list.indexOf(wanted) != -1) {
             return animal;
@@ -1005,9 +1005,7 @@ Pandas.searchPandaMedia = function(query, only_media=false) {
       // searchPanda list.
       var nodes = G.v().filter(function(vertex) {
         if (Object.keys(vertex).indexOf("panda.tags") != -1) {
-          return vertex["panda.tags"].split(",")
-                     .map(x => x.trim())
-                     .indexOf(id) != -1;
+          return vertex["panda.tags"].split(", ").indexOf(id) != -1;
         }
       }).run();
       return nodes;
@@ -1029,8 +1027,7 @@ Pandas.searchPandaMediaIntersect = function(id_list) {
   // searchPanda list.
   var nodes = G.v().filter(function(vertex) {
     if (Object.keys(vertex).indexOf("panda.tags") != -1) {
-      var panda_tags = vertex["panda.tags"].split(",")
-                         .map(x => x.trim());
+      var panda_tags = vertex["panda.tags"].split(", ");
       return Pandas.arrayContentsEqual(id_list, panda_tags);
     }
   }).run();
@@ -1070,7 +1067,7 @@ Pandas.searchPandaPhotoTagsIntersect = function(animal, tags) {
     if (animal[photo_tags] == undefined) {
       continue;
     }
-    var photo_tag_list = animal[photo_tags].split(",").map(x => x.trim());
+    var photo_tag_list = animal[photo_tags].split(", ");
     // Is the search tag list a subset of the photo_tag_list
     var contains = !(tags.some(val => photo_tag_list.indexOf(val) === -1));
     if (contains == true) {
@@ -1107,7 +1104,7 @@ Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
       if (animal[photo_tags] == undefined) {
         continue;
       }
-      if (animal[photo_tags].split(",").map(x => x.trim()).indexOf(tag) != -1) {
+      if (animal[photo_tags].split(", ").indexOf(tag) != -1) {
         if (mode == "animal") {
           return [animal];
         } else {
@@ -1870,13 +1867,13 @@ Pandas.gender = function(animal, language) {
 // pandas are in the photo.
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
-  var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
+  var pandaTags = entity["panda.tags"].split(", ");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
     // Must be a numeric non-negative panda ID
     var panda = Pandas.searchPandaId(id)[0];
-    var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
+    var [x, y] = entity[tag_index + "." + id + ".location"].split(", ");
     var name = Language.fallback_name(panda);
     var info = {
       "name": name,
@@ -1985,7 +1982,7 @@ Pandas.language_order = function(entity) {
   if (ordering == undefined) {
     return Language.L.default.order;
   } else {
-    return ordering.replace(/ /g, "").split(',');
+    return ordering.split(", ");
   }
 }
 
@@ -1999,14 +1996,14 @@ Pandas.locationList = function(animal) {
     var next_field = field_name + "." + (parseInt(index) + 1).toString();
     var end_date = undefined;
     if (animal[next_field] != undefined) {
-      var [_, next_start] = animal[next_field].split(",").map(x => x.trim());
+      var [_, next_start] = animal[next_field].split(", ");
       end_date = next_start;
     } else {
       if (animal["death"] != undefined) {
         end_date = animal["death"];
       }
     }
-    var [zoo_index, start_date]= animal[location_field].split(",").map(x => x.trim());
+    var [zoo_index, start_date]= animal[location_field].split(", ");
     // If there was a wild animal, fill in defaults for the dates
     if (zoo_index == 0) {
       start_date = Pandas.def.animal["birthday"];
