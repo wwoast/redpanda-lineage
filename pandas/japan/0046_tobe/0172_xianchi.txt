@@ -219,8 +219,9 @@ photo.41.author: itsuak
 photo.41.commitdate: 2021/4/10
 photo.41.link: https://www.instagram.com/itsuak/
 photo.41.tags: portrait, tail, tree
-photo.42: https://www.instagram.com/p/CMmgKKJBmbE/media/?size=m
+photo.42: ig://CMmgKKJBmbE/m
 photo.42.author: itsuak
+photo.42.commitdate: 2021/6/20
 photo.42.link: https://www.instagram.com/itsuak/
 photo.42.tags: paws, portrait, tree
 species: 2

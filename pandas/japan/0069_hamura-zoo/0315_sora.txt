@@ -484,15 +484,16 @@ photo.94.author: pink.b22
 photo.94.commitdate: 2021/5/3
 photo.94.link: https://www.instagram.com/pink.b22/
 photo.94.tags: bamboo, paws, portrait, smile
-photo.95: ig://CQOD9NshpTj/m
-photo.95.author: kaoru_a358
-photo.95.commitdate: 2021/6/19
-photo.95.link: https://www.instagram.com/kaoru_a358/
-photo.95.tags: portrait, smile, tongue, whiskers
-photo.96: https://www.instagram.com/p/CPnMg7ahovz/media/?size=m
-photo.96.author: pink.b22
-photo.96.link: https://www.instagram.com/pink.b22/
-photo.96.tags: smile, tongue, tree
+photo.95: ig://CPnMg7ahovz/m
+photo.95.author: pink.b22
+photo.95.commitdate: 2021/6/20
+photo.95.link: https://www.instagram.com/pink.b22/
+photo.95.tags: smile, tongue, tree
+photo.96: ig://CQOD9NshpTj/m
+photo.96.author: kaoru_a358
+photo.96.commitdate: 2021/6/19
+photo.96.link: https://www.instagram.com/kaoru_a358/
+photo.96.tags: portrait, smile, tongue, whiskers
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

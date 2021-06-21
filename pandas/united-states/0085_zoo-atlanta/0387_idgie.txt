@@ -91,8 +91,9 @@ photo.15.author: redpandanetwork
 photo.15.commitdate: 2021/5/3
 photo.15.link: https://www.instagram.com/redpandanetwork/
 photo.15.tags: portrait
-photo.16: https://www.instagram.com/p/CObXfuDhVnk/media/?size=m
+photo.16: ig://CObXfuDhVnk/m
 photo.16.author: zooatl
+photo.16.commitdate: 2021/6/20
 photo.16.link: https://www.instagram.com/zooatl/
 photo.16.tags: mofumofu, portrait, techitechi, whiskers
 species: 2

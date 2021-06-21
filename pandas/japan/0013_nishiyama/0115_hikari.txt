@@ -335,8 +335,9 @@ photo.65.author: minato.yh
 photo.65.commitdate: 2021/6/15
 photo.65.link: https://www.instagram.com/minato.yh/
 photo.65.tags: bear worm, laying down, paws, smile, tail
-photo.66: https://www.instagram.com/p/CPl9jMZhABf/media/?size=m
+photo.66: ig://CPl9jMZhABf/m
 photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2021/6/20
 photo.66.link: https://www.instagram.com/hamamatsu.chiita/
 photo.66.tags: close-up, whiskers
 species: 2

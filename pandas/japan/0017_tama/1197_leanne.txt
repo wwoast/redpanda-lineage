@@ -83,48 +83,50 @@ photo.14.author: fetorus_mami
 photo.14.commitdate: 2021/6/18
 photo.14.link: https://www.instagram.com/fetorus_mami/
 photo.14.tags: baby, bamboo, portrait
-photo.15: ig://CP0ufNFhJwe/m
-photo.15.author: mini_cochi
-photo.15.commitdate: 2021/6/18
-photo.15.link: https://www.instagram.com/mini_cochi/
-photo.15.tags: door, paws, portrait
-photo.16: ig://CP2-SwLBjlq/m
-photo.16.author: ifumoto88
-photo.16.commitdate: 2021/6/18
-photo.16.link: https://www.instagram.com/ifumoto88/
-photo.16.tags: portrait, tree, wet
-photo.17: ig://CP_6TuAhtG5/m
-photo.17.author: alto0908
+photo.15: ig://CPwkh9ehmLX/m
+photo.15.author: ck.chie
+photo.15.commitdate: 2021/6/20
+photo.15.link: https://www.instagram.com/ck.chie/
+photo.15.tags: laying down, paws, tail, tree
+photo.16: ig://CPwvKfVB2-w/m
+photo.16.author: alto0908
+photo.16.commitdate: 2021/6/20
+photo.16.link: https://www.instagram.com/alto0908/
+photo.16.tags: paws, tail, tree
+photo.17: ig://CP0ufNFhJwe/m
+photo.17.author: mini_cochi
 photo.17.commitdate: 2021/6/18
-photo.17.link: https://www.instagram.com/alto0908/
-photo.17.tags: paws, playing, portrait, tail, tree
-photo.18: ig://CQA-Z2jBpwo/m
-photo.18.author: pink.b22
+photo.17.link: https://www.instagram.com/mini_cochi/
+photo.17.tags: door, paws, portrait
+photo.18: ig://CP2-SwLBjlq/m
+photo.18.author: ifumoto88
 photo.18.commitdate: 2021/6/18
-photo.18.link: https://www.instagram.com/pink.b22/
-photo.18.tags: laying down, paws, portrait, tail, tree
-photo.19: ig://CQBFU4nh1wi/m
-photo.19.author: kotata_513
+photo.18.link: https://www.instagram.com/ifumoto88/
+photo.18.tags: portrait, tree, wet
+photo.19: ig://CP_6TuAhtG5/m
+photo.19.author: alto0908
 photo.19.commitdate: 2021/6/18
-photo.19.link: https://www.instagram.com/kotata_513/
-photo.19.tags: paws, portrait, profile, smile, tree
-photo.20: ig://CQEGBZtBSQJ/m
-photo.20.author: mini_cochi
+photo.19.link: https://www.instagram.com/alto0908/
+photo.19.tags: paws, playing, portrait, tail, tree
+photo.20: ig://CQA-Z2jBpwo/m
+photo.20.author: pink.b22
 photo.20.commitdate: 2021/6/18
-photo.20.link: https://www.instagram.com/mini_cochi/
-photo.20.tags: paws, portrait, tail, tree, upside-down
-photo.21: ig://CQGyTjOBf7c/m
-photo.21.author: alto0908
+photo.20.link: https://www.instagram.com/pink.b22/
+photo.20.tags: laying down, paws, portrait, tail, tree
+photo.21: ig://CQBFU4nh1wi/m
+photo.21.author: kotata_513
 photo.21.commitdate: 2021/6/18
-photo.21.link: https://www.instagram.com/alto0908/
-photo.21.tags: portrait, tail, tree, upside-down
-photo.22: https://www.instagram.com/p/CPwkh9ehmLX/media/?size=m
-photo.22.author: ck.chie
-photo.22.link: https://www.instagram.com/ck.chie/
-photo.22.tags: laying down, paws, tail, tree
-photo.23: https://www.instagram.com/p/CPwvKfVB2-w/media/?size=m
+photo.21.link: https://www.instagram.com/kotata_513/
+photo.21.tags: paws, portrait, profile, smile, tree
+photo.22: ig://CQEGBZtBSQJ/m
+photo.22.author: mini_cochi
+photo.22.commitdate: 2021/6/18
+photo.22.link: https://www.instagram.com/mini_cochi/
+photo.22.tags: paws, portrait, tail, tree, upside-down
+photo.23: ig://CQGyTjOBf7c/m
 photo.23.author: alto0908
+photo.23.commitdate: 2021/6/18
 photo.23.link: https://www.instagram.com/alto0908/
-photo.23.tags: paws, tail, tree
+photo.23.tags: portrait, tail, tree, upside-down
 species: 2
 zoo: 17

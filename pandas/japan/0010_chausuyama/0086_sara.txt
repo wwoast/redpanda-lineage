@@ -710,20 +710,21 @@ photo.140.author: hamamatsu.chiita
 photo.140.commitdate: 2021/5/31
 photo.140.link: https://www.instagram.com/hamamatsu.chiita/
 photo.140.tags: peek, smile
-photo.141: ig://CO7npNLB2uv/m
+photo.141: ig://COcxHQ6BmWo/m
 photo.141.author: shigeko0531
-photo.141.commitdate: 2021/6/16
+photo.141.commitdate: 2021/6/20
 photo.141.link: https://www.instagram.com/shigeko0531/
-photo.141.tags: dish, paws, portrait, smile
-photo.142: ig://CPBKkxqhsJ7/m
-photo.142.author: na.mo.pan
+photo.141.tags: laying down, mofumofu, peek, portrait
+photo.142: ig://CO7npNLB2uv/m
+photo.142.author: shigeko0531
 photo.142.commitdate: 2021/6/16
-photo.142.link: https://www.instagram.com/na.mo.pan/
-photo.142.tags: paws, techitechi, tree
-photo.143: https://www.instagram.com/p/COcxHQ6BmWo/media/?size=m
-photo.143.author: shigeko0531
-photo.143.link: https://www.instagram.com/shigeko0531/
-photo.143.tags: laying down, mofumofu, peek, portrait
+photo.142.link: https://www.instagram.com/shigeko0531/
+photo.142.tags: dish, paws, portrait, smile
+photo.143: ig://CPBKkxqhsJ7/m
+photo.143.author: na.mo.pan
+photo.143.commitdate: 2021/6/16
+photo.143.link: https://www.instagram.com/na.mo.pan/
+photo.143.tags: paws, techitechi, tree
 species: 2
 studbook.id: 0987
 zoo: 10

@@ -463,14 +463,15 @@ photo.90.author: love__mitarashi
 photo.90.commitdate: 2021/6/15
 photo.90.link: https://www.instagram.com/love__mitarashi/
 photo.90.tags: tail
-photo.91: ig://CP-mIkABORG/m
-photo.91.author: jas_forever_love
-photo.91.commitdate: 2021/6/19
-photo.91.link: https://www.instagram.com/jas_forever_love/
-photo.91.tags: portrait, smile, whiskers
-photo.92: https://www.instagram.com/p/CPx5plTh1Ie/media/?size=m
-photo.92.author: sakikukeco
-photo.92.link: https://www.instagram.com/sakikukeco/
-photo.92.tags: paws, portrait, smile, whiskers
+photo.91: ig://CPx5plTh1Ie/m
+photo.91.author: sakikukeco
+photo.91.commitdate: 2021/6/20
+photo.91.link: https://www.instagram.com/sakikukeco/
+photo.91.tags: paws, portrait, smile, whiskers
+photo.92: ig://CP-mIkABORG/m
+photo.92.author: jas_forever_love
+photo.92.commitdate: 2021/6/19
+photo.92.link: https://www.instagram.com/jas_forever_love/
+photo.92.tags: portrait, smile, whiskers
 species: 2
 zoo: 61

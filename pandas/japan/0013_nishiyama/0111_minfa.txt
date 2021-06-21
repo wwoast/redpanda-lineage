@@ -560,35 +560,40 @@ photo.109.author: hamamatsu.chiita
 photo.109.commitdate: 2021/4/10
 photo.109.link: https://www.instagram.com/hamamatsu.chiita/
 photo.109.tags: portrait, whiskers
-photo.110: ig://CNn4wf6HtoI/m
-photo.110.author: tomo3700
-photo.110.commitdate: 2021/6/1
-photo.110.link: https://www.instagram.com/tomo3700/
-photo.110.tags: paws, peek, portrait
-photo.111: ig://COCVeMfB9Yh/m
-photo.111.author: minato.yh
-photo.111.commitdate: 2021/5/20
-photo.111.link: https://www.instagram.com/minato.yh/
-photo.111.tags: apple time, portrait, videolink
-photo.112: https://www.instagram.com/p/COeS4X1Bo9I/media/?size=m
+photo.110: ig://CNYPu5QB1B-/m
+photo.110.author: hamamatsu.chiita
+photo.110.commitdate: 2021/6/20
+photo.110.link: https://www.instagram.com/hamamatsu.chiita/
+photo.110.tags: portrait, whiskers
+photo.111: ig://CNn4wf6HtoI/m
+photo.111.author: tomo3700
+photo.111.commitdate: 2021/6/1
+photo.111.link: https://www.instagram.com/tomo3700/
+photo.111.tags: paws, peek, portrait
+photo.112: ig://COCVeMfB9Yh/m
 photo.112.author: minato.yh
+photo.112.commitdate: 2021/5/20
 photo.112.link: https://www.instagram.com/minato.yh/
-photo.112.tags: laying down, mofumofu, portrait, whiskers
-photo.113: https://www.instagram.com/p/COl10GzBn-W/media/?size=m
-photo.113.author: mifko55
-photo.113.link: https://www.instagram.com/mifko55/
-photo.113.tags: apple time, dish, keeper, portrait, standing, tail
-photo.114: https://www.instagram.com/p/COtLSBIhRgH/media/?size=m
-photo.114.author: hamamatsu.chiita
-photo.114.link: https://www.instagram.com/hamamatsu.chiita/
-photo.114.tags: close-up, mofumofu, portrait, whiskers
-photo.115: https://www.instagram.com/p/CPmw0l9BOfa/media/?size=m
-photo.115.author: falcon_tenor
-photo.115.link: https://www.instagram.com/falcon_tenor/
-photo.115.tags: portrait, whiskers
-photo.116: https://www.instagram.com/p/CNYPu5QB1B-/media/?size=m
-photo.116.author: hamamatsu.chiita
-photo.116.link: https://www.instagram.com/hamamatsu.chiita/
+photo.112.tags: apple time, portrait, videolink
+photo.113: ig://COeS4X1Bo9I/m
+photo.113.author: minato.yh
+photo.113.commitdate: 2021/6/20
+photo.113.link: https://www.instagram.com/minato.yh/
+photo.113.tags: laying down, mofumofu, portrait, whiskers
+photo.114: ig://COl10GzBn-W/m
+photo.114.author: mifko55
+photo.114.commitdate: 2021/6/20
+photo.114.link: https://www.instagram.com/mifko55/
+photo.114.tags: apple time, dish, keeper, portrait, standing, tail
+photo.115: ig://COtLSBIhRgH/m
+photo.115.author: hamamatsu.chiita
+photo.115.commitdate: 2021/6/20
+photo.115.link: https://www.instagram.com/hamamatsu.chiita/
+photo.115.tags: close-up, mofumofu, portrait, whiskers
+photo.116: ig://CPmw0l9BOfa/m
+photo.116.author: falcon_tenor
+photo.116.commitdate: 2021/6/20
+photo.116.link: https://www.instagram.com/falcon_tenor/
 photo.116.tags: portrait, whiskers
 species: 2
 studbook.id: 0672
