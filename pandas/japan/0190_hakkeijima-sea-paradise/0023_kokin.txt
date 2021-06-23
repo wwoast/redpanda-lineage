@@ -716,7 +716,7 @@ photo.143: ig://B4UhIithRWA/m
 photo.143.author: craig_craig_craig
 photo.143.commitdate: 2019/11/5
 photo.143.link: https://www.instagram.com/craig_craig_craig/
-photo.143.tags: paws, portrait, profile, tail
+photo.143.tags: paws, portrait, tail
 photo.144: ig://B4o4EFhBagX/m
 photo.144.author: craig_craig_craig
 photo.144.commitdate: 2019/11/12
@@ -1242,6 +1242,10 @@ photo.248.author: daniele.tokyo
 photo.248.commitdate: 2021/6/8
 photo.248.link: https://www.instagram.com/daniele.tokyo/
 photo.248.tags: close-up, mofumofu, portrait, tongue
+photo.249: https://www.instagram.com/p/CQY3ku3BuBy/media/?size=m
+photo.249.author: minatomirai215
+photo.249.link: https://www.instagram.com/minatomirai215/
+photo.249.tags: paws, portrait, profile, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

@@ -59,12 +59,16 @@ photo.9: ig://BuyrW7ugkN-/m
 photo.9.author: johnballzoogr
 photo.9.commitdate: 2019/3/10
 photo.9.link: https://www.instagram.com/johnballzoogr/
-photo.9.tags: portrait, smile
+photo.9.tags: smile
 photo.10: ig://By-extBgpF1/m
 photo.10.author: johnballzoogr
 photo.10.commitdate: 2019/6/22
 photo.10.link: https://www.instagram.com/johnballzoogr/
 photo.10.tags: toys
+photo.11: https://www.instagram.com/p/CQY6hPKDPuB/media/?size=m
+photo.11.author: johnballzoogr
+photo.11.link: https://www.instagram.com/johnballzoogr/
+photo.11.tags: portrait, profile
 species: 1
 studbook.id: 1216
 zoo: 111

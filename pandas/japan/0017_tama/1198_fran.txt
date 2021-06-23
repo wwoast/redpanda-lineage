@@ -82,7 +82,7 @@ photo.14: ig://CPyH0qkhUon/m
 photo.14.author: mini_cochi
 photo.14.commitdate: 2021/6/18
 photo.14.link: https://www.instagram.com/mini_cochi/
-photo.14.tags: portrait, profile, tail, wet
+photo.14.tags: portrait, tail, wet
 photo.15: ig://CP1cwQ-hT9D/m
 photo.15.author: alto0908
 photo.15.commitdate: 2021/6/18
@@ -148,5 +148,9 @@ photo.27.author: ifumoto88
 photo.27.commitdate: 2021/6/18
 photo.27.link: https://www.instagram.com/ifumoto88/
 photo.27.tags: paws, portrait, tail, tree
+photo.28: https://www.instagram.com/p/CQbnwbGBHik/media/?size=m
+photo.28.author: nakacchi_desu
+photo.28.link: https://www.instagram.com/nakacchi_desu/
+photo.28.tags: butterfly, portrait, profile
 species: 2
 zoo: 17
