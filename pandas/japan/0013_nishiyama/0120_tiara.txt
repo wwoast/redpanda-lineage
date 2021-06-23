@@ -326,8 +326,9 @@ photo.62.author: jas_forever_love
 photo.62.commitdate: 2021/6/4
 photo.62.link: https://www.instagram.com/jas_forever_love/
 photo.62.tags: portrait, smile, tree
-photo.63: https://www.instagram.com/p/CQWvt08B0J5/media/?size=m
+photo.63: ig://CQWvt08B0J5/m
 photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2021/6/23
 photo.63.link: https://www.instagram.com/hamamatsu.chiita/
 photo.63.tags: close-up, lips, portrait, whiskers
 species: 2

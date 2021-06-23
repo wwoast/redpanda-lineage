@@ -196,30 +196,31 @@ photo.37.author: jas_forever_love
 photo.37.commitdate: 2021/3/4
 photo.37.link: https://www.instagram.com/jas_forever_love/
 photo.37.tags: close-up, portrait, whiskers
-photo.38: ig://CNC4x7GhFs5/m
-photo.38.author: taka__3428
-photo.38.commitdate: 2021/4/10
-photo.38.link: https://www.instagram.com/taka__3428/
-photo.38.tags: peek
-photo.39: ig://CNYi4OeBC_J/m
-photo.39.author: rie_panda55
-photo.39.commitdate: 2021/5/4
-photo.39.link: https://www.instagram.com/rie_panda55/
-photo.39.tags: itchy, paws, portrait, tail
-photo.40: ig://CN_yh_ih6B4/m
-photo.40.author: shigeko0531
-photo.40.commitdate: 2021/5/19
-photo.40.link: https://www.instagram.com/shigeko0531/
-photo.40.tags: bamboo, paws, whiskers
-photo.41: ig://CPnre5gBDsr/m
-photo.41.author: minatomirai215
-photo.41.commitdate: 2021/6/20
-photo.41.link: https://www.instagram.com/minatomirai215/
-photo.41.tags: portrait, techitechi, whiskers
-photo.42: https://www.instagram.com/p/CM0MHyBh8sW/media/?size=m
-photo.42.author: hamamatsu.chiita
-photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: close-up, techitechi, whiskers
+photo.38: ig://CM0MHyBh8sW/m
+photo.38.author: hamamatsu.chiita
+photo.38.commitdate: 2021/6/23
+photo.38.link: https://www.instagram.com/hamamatsu.chiita/
+photo.38.tags: close-up, techitechi, whiskers
+photo.39: ig://CNC4x7GhFs5/m
+photo.39.author: taka__3428
+photo.39.commitdate: 2021/4/10
+photo.39.link: https://www.instagram.com/taka__3428/
+photo.39.tags: peek
+photo.40: ig://CNYi4OeBC_J/m
+photo.40.author: rie_panda55
+photo.40.commitdate: 2021/5/4
+photo.40.link: https://www.instagram.com/rie_panda55/
+photo.40.tags: itchy, paws, portrait, tail
+photo.41: ig://CN_yh_ih6B4/m
+photo.41.author: shigeko0531
+photo.41.commitdate: 2021/5/19
+photo.41.link: https://www.instagram.com/shigeko0531/
+photo.41.tags: bamboo, paws, whiskers
+photo.42: ig://CPnre5gBDsr/m
+photo.42.author: minatomirai215
+photo.42.commitdate: 2021/6/20
+photo.42.link: https://www.instagram.com/minatomirai215/
+photo.42.tags: portrait, techitechi, whiskers
 species: 2
 studbook.id: 1675
 zoo: 10

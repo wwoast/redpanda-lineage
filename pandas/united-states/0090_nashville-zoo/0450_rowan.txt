@@ -69,8 +69,9 @@ photo.11.author: rossifari
 photo.11.commitdate: 2021/5/21
 photo.11.link: https://www.instagram.com/rossifari/
 photo.11.tags: portrait, tongue, whiskers
-photo.12: https://www.instagram.com/p/CMtjLaDgpNc/media/?size=m
+photo.12: ig://CMtjLaDgpNc/m
 photo.12.author: rossifari
+photo.12.commitdate: 2021/6/23
 photo.12.link: https://www.instagram.com/rossifari/
 photo.12.tags: lunch time, portrait, tongue
 species: 2

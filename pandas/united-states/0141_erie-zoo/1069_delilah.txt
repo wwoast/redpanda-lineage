@@ -32,8 +32,9 @@ photo.3.author: worldthathesees
 photo.3.commitdate: 2019/12/3
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: portrait, white face
-photo.4: https://www.instagram.com/p/CMwSz6SgtPz/media/?size=m
+photo.4: ig://CMwSz6SgtPz/m
 photo.4.author: rossifari
+photo.4.commitdate: 2021/6/23
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: portrait, white face
 species: 1

@@ -443,8 +443,9 @@ photo.86.author: resapan.suki
 photo.86.commitdate: 2021/6/20
 photo.86.link: https://www.instagram.com/resapan.suki/
 photo.86.tags: home, laying down, portrait, sleeping, tail
-photo.87: https://www.instagram.com/p/CQVYItxB47O/media/?size=m
+photo.87: ig://CQVYItxB47O/m
 photo.87.author: hamamatsu.chiita
+photo.87.commitdate: 2021/6/23
 photo.87.link: https://www.instagram.com/hamamatsu.chiita/
 photo.87.tags: close-up, mofumofu, portrait
 species: 2

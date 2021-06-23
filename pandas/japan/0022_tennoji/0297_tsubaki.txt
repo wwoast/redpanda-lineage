@@ -12,9 +12,9 @@ jp.name: ツバキ
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
+litter: 296
 location.1: 64, 2018/8/22
 location.2: 22, 2021/3/22
-litter: 296
 photo.1: ig://BfNKVHRBO6G/m
 photo.1.author: miis_98
 photo.1.commitdate: 2020/4/3
@@ -80,18 +80,19 @@ photo.13.author: grskus_tk
 photo.13.commitdate: 2020/10/31
 photo.13.link: https://www.instagram.com/grskus_tk/
 photo.13.tags: bite, paws, tree
-photo.14: https://www.instagram.com/p/CQcjrUUBKKi/media/?size=m
-photo.14.author: makimaru18
-photo.14.link: https://www.instagram.com/makimaru18/
-photo.14.tags: paws, portrait, smile, whiskers
-photo.15: https://www.instagram.com/p/CMwlI6TB1zU/media/?size=m
+photo.14: ig://CMwlI6TB1zU/m
+photo.14.author: grskus_tk
+photo.14.link: https://www.instagram.com/grskus_tk/
+photo.14.tags: smile
+photo.15: ig://CQYYQrMBFcH/m
 photo.15.author: grskus_tk
+photo.15.commitdate: 2021/6/23
 photo.15.link: https://www.instagram.com/grskus_tk/
-photo.15.tags: smile
-photo.16: https://www.instagram.com/p/CQYYQrMBFcH/media/?size=m
-photo.16.author: grskus_tk
-photo.16.link: https://www.instagram.com/grskus_tk/
-photo.16.tags: peek, tree
+photo.15.tags: peek, tree
+photo.16: ig://CQcjrUUBKKi/m
+photo.16.author: makimaru18
+photo.16.link: https://www.instagram.com/makimaru18/
+photo.16.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 1780
 zoo: 22

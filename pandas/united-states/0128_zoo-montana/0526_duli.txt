@@ -46,8 +46,9 @@ photo.6.author: krs_wildlife_photography
 photo.6.commitdate: 2020/9/10
 photo.6.link: https://www.instagram.com/krs_wildlife_photography/
 photo.6.tags: laying down, portrait, tail
-photo.7: https://www.instagram.com/p/CMmzOCEDCPs/media/?size=m
+photo.7: ig://CMmzOCEDCPs/m
 photo.7.author: zoomontana
+photo.7.commitdate: 2021/6/23
 photo.7.link: https://www.instagram.com/zoomontana/
 photo.7.tags: portrait, profile, white face
 species: 1
