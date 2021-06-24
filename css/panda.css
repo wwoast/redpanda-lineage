@@ -1074,6 +1074,7 @@ h2 {
 h4.privacy {
     color: white;
     padding-bottom: 1em;
+    font-style: normal;
 }
 
 h4.privacy > a {
