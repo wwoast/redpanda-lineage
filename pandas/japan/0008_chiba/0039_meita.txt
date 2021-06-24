@@ -683,45 +683,46 @@ photo.134.author: mari_neko3
 photo.134.commitdate: 2020/2/17
 photo.134.link: https://www.instagram.com/mari_neko3/
 photo.134.tags: portrait, smile, whiskers
-photo.135: ig://CFop-m0hRob/m
-photo.135.author: pink.b22
-photo.135.commitdate: 2020/9/27
-photo.135.link: https://www.instagram.com/pink.b22/
-photo.135.tags: laying down, whiskers
-photo.136: ig://CHXSaXSBf6g/m
-photo.136.author: alto0908
-photo.136.commitdate: 2020/11/15
-photo.136.link: https://www.instagram.com/alto0908/
-photo.136.tags: bamboo, mofumofu, portrait
-photo.137: ig://CHi_fKmhVro/m
-photo.137.author: panda.daisuki
-photo.137.commitdate: 2020/11/22
-photo.137.link: https://www.instagram.com/panda.daisuki/
-photo.137.tags: home, paws, portrait
-photo.138: ig://CMUNISthf9s/m
-photo.138.author: alto0908
-photo.138.commitdate: 2021/4/11
-photo.138.link: https://www.instagram.com/alto0908/
-photo.138.tags: apple time, keeper, portrait
-photo.139: ig://CN4dmPKBQ0f/m
-photo.139.author: ssc6105
-photo.139.commitdate: 2021/5/3
-photo.139.link: https://www.instagram.com/ssc6105/
-photo.139.tags: laying down, peek
-photo.140: ig://COGwDELh49m/m
-photo.140.author: craig_craig_craig
-photo.140.commitdate: 2021/5/31
-photo.140.link: https://www.instagram.com/craig_craig_craig/
-photo.140.tags: bamboo, home, peek, portrait
-photo.141: ig://CQQhraRBkI_/m
-photo.141.author: daniele.tokyo
-photo.141.commitdate: 2021/6/19
-photo.141.link: https://www.instagram.com/daniele.tokyo/
-photo.141.tags: paws, peek
-photo.142: https://www.instagram.com/p/CBJw5e9hd9Z/media/?size=m
-photo.142.author: panda.daisuki
-photo.142.link: https://www.instagram.com/panda.daisuki/
-photo.142.tags: bamboo, peek, portrait, smile
+photo.135: ig://CBJw5e9hd9Z/m
+photo.135.author: panda.daisuki
+photo.135.commitdate: 2021/6/24
+photo.135.link: https://www.instagram.com/panda.daisuki/
+photo.135.tags: bamboo, peek, portrait, smile
+photo.136: ig://CFop-m0hRob/m
+photo.136.author: pink.b22
+photo.136.commitdate: 2020/9/27
+photo.136.link: https://www.instagram.com/pink.b22/
+photo.136.tags: laying down, whiskers
+photo.137: ig://CHXSaXSBf6g/m
+photo.137.author: alto0908
+photo.137.commitdate: 2020/11/15
+photo.137.link: https://www.instagram.com/alto0908/
+photo.137.tags: bamboo, mofumofu, portrait
+photo.138: ig://CHi_fKmhVro/m
+photo.138.author: panda.daisuki
+photo.138.commitdate: 2020/11/22
+photo.138.link: https://www.instagram.com/panda.daisuki/
+photo.138.tags: home, paws, portrait
+photo.139: ig://CMUNISthf9s/m
+photo.139.author: alto0908
+photo.139.commitdate: 2021/4/11
+photo.139.link: https://www.instagram.com/alto0908/
+photo.139.tags: apple time, keeper, portrait
+photo.140: ig://CN4dmPKBQ0f/m
+photo.140.author: ssc6105
+photo.140.commitdate: 2021/5/3
+photo.140.link: https://www.instagram.com/ssc6105/
+photo.140.tags: laying down, peek
+photo.141: ig://COGwDELh49m/m
+photo.141.author: craig_craig_craig
+photo.141.commitdate: 2021/5/31
+photo.141.link: https://www.instagram.com/craig_craig_craig/
+photo.141.tags: bamboo, home, peek, portrait
+photo.142: ig://CQQhraRBkI_/m
+photo.142.author: daniele.tokyo
+photo.142.commitdate: 2021/6/19
+photo.142.link: https://www.instagram.com/daniele.tokyo/
+photo.142.tags: paws, peek
 species: 2
 studbook.id: 14148
 zoo: 8

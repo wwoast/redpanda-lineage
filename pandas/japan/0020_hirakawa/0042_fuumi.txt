@@ -180,15 +180,16 @@ photo.33.author: yossi929
 photo.33.commitdate: 2021/6/8
 photo.33.link: https://www.instagram.com/yossi929/
 photo.33.tags: bamboo, laying down
-photo.34: ig://CQLcSSaLuu_/m
-photo.34.author: yossi929
-photo.34.commitdate: 2021/6/19
-photo.34.link: https://www.instagram.com/yossi929/
-photo.34.tags: mofumofu, paws, smile
-photo.35: https://www.instagram.com/p/CP4coWNhJLY/media/?size=m
-photo.35.author: sasapan34
-photo.35.link: https://www.instagram.com/sasapan34/
-photo.35.tags: mofumofu, smile
+photo.34: ig://CP4coWNhJLY/m
+photo.34.author: sasapan34
+photo.34.commitdate: 2021/6/24
+photo.34.link: https://www.instagram.com/sasapan34/
+photo.34.tags: mofumofu, smile
+photo.35: ig://CQLcSSaLuu_/m
+photo.35.author: yossi929
+photo.35.commitdate: 2021/6/19
+photo.35.link: https://www.instagram.com/yossi929/
+photo.35.tags: mofumofu, paws, smile
 species: 2
 studbook.id: 0774
 zoo: 20

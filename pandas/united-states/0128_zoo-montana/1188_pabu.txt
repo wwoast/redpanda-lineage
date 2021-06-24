@@ -90,8 +90,9 @@ photo.15.author: zoomontana
 photo.15.commitdate: 2021/6/23
 photo.15.link: https://www.instagram.com/zoomontana/
 photo.15.tags: bamboo, peek
-photo.16: https://www.instagram.com/p/CP09GHStDrn/media/?size=m
+photo.16: ig://CP09GHStDrn/m
 photo.16.author: zoomontana
+photo.16.commitdate: 2021/6/24
 photo.16.link: https://www.instagram.com/zoomontana/
 photo.16.tags: bamboo, standing, tail
 species: 2
