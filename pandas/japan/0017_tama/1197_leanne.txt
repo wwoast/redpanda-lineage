@@ -117,7 +117,7 @@ photo.21: ig://CQBFU4nh1wi/m
 photo.21.author: kotata_513
 photo.21.commitdate: 2021/6/18
 photo.21.link: https://www.instagram.com/kotata_513/
-photo.21.tags: paws, portrait, profile, smile, tree
+photo.21.tags: paws, portrait, smile, tree
 photo.22: ig://CQEGBZtBSQJ/m
 photo.22.author: mini_cochi
 photo.22.commitdate: 2021/6/18
@@ -143,5 +143,7 @@ photo.26.author: daniele.tokyo
 photo.26.commitdate: 2021/6/23
 photo.26.link: https://www.instagram.com/daniele.tokyo/
 photo.26.tags: baby, paws, window
+photo.27: https://www.instagram.com/p/CQRuyemB0eu/media/?size=m
+photo.27.author: mofumofu, peek, portrait, profile, tail
 species: 2
 zoo: 17
