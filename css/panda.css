@@ -1071,8 +1071,9 @@ h2 {
     margin-bottom: 0ex;
 }
 
-h4 > a {
+h4.privacy > a {
     color: white;
+    margin-left: 0px;
     padding-bottom: 1em;
 }
 
