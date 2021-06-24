@@ -1000,14 +1000,14 @@ div.pandaAbout h4 > a {
 
 div.pandaAbout h4.privacy {
     color: white;
+    margin-left: 0px;
     padding-bottom: 1em;
+    text-decoration: underline;
 }
 
 div.pandaAbout h4.privacy > a {
     color: white;
-    margin-left: 0px;
     font-style: normal;
-    text-decoration: underline !important;
 }
 
 div.photoSample a {
