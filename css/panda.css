@@ -998,6 +998,18 @@ div.pandaAbout h4 > a {
     font-style: italic;
 }
 
+div.pandaAbout h4.privacy {
+    color: white;
+    padding-bottom: 1em;
+}
+
+div.pandaAbout h4.privacy > a {
+    color: white;
+    margin-left: 0px;
+    font-style: normal;
+    text-decoration: underline;
+}
+
 div.photoSample a {
     color: black;
     text-decoration: none !important;
@@ -1069,17 +1081,6 @@ h2 {
     margin-left: 0px;
     margin-top: 1ex;
     margin-bottom: 0ex;
-}
-
-h4.privacy {
-    color: white;
-    padding-bottom: 1em;
-}
-
-h4.privacy > a {
-    color: white;
-    margin-left: 0px;
-    font-style: normal;
 }
 
 /* Making youtube center and scale with the viewport requires hacks */
