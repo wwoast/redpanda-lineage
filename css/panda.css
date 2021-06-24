@@ -994,20 +994,20 @@ div.pandaAbout h4 {
 
 div.pandaAbout h4 > a {
     color: white;
-    text-decoration: none !important;
     font-style: italic;
+    text-decoration: none !important;
 }
 
 div.pandaAbout h4.privacy {
     color: white;
     margin-left: 0px;
     padding-bottom: 1em;
-    text-decoration: underline;
 }
 
 div.pandaAbout h4.privacy > a {
     color: white;
     font-style: normal;
+    text-decoration: underline !important;
 }
 
 div.photoSample a {
