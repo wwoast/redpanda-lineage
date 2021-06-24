@@ -1539,7 +1539,8 @@ div.photoSample h5.caption.familyTitle > span.ultraCondensed {
         margin-left: 4px;    /* Panda family headings */
     }
 
-    div.pandaAbout h4 {
+    div.pandaAbout h4,
+    div.pandaAbout h4.privacy {
         margin-left: 14px;   /* Author/about headings */
     }
 
