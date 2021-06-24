@@ -23,5 +23,9 @@ photo.1.author: redpandasingapore
 photo.1.commitdate: 2020/12/13
 photo.1.link: https://www.instagram.com/redpandasingapore/
 photo.1.tags: portrait, profile
+photo.2: https://www.instagram.com/p/CPy8sb1hpaC/media/?size=m
+photo.2.author: redpandasingapore
+photo.2.link: https://www.instagram.com/redpandasingapore/
+photo.2.tags: bridge, portrait
 species: 1
 zoo: 205
