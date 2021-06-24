@@ -1071,6 +1071,11 @@ h2 {
     margin-bottom: 0ex;
 }
 
+h2 > a {
+    color: white;
+    padding-bottom: 1em;
+}
+
 /* Making youtube center and scale with the viewport requires hacks */
 div.youtube {
     position: relative;
