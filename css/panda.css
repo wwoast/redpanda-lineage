@@ -1071,10 +1071,14 @@ h2 {
     margin-bottom: 0ex;
 }
 
+h4.privacy {
+    color: white;
+    padding-bottom: 1em;
+}
+
 h4.privacy > a {
     color: white;
     margin-left: 0px;
-    padding-bottom: 1em;
 }
 
 /* Making youtube center and scale with the viewport requires hacks */
