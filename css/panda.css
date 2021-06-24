@@ -1007,7 +1007,7 @@ div.pandaAbout h4.privacy > a {
     color: white;
     margin-left: 0px;
     font-style: normal;
-    text-decoration: underline;
+    text-decoration: underline !important;
 }
 
 div.photoSample a {
