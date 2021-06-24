@@ -85,8 +85,9 @@ photo.14.author: oregonzoo
 photo.14.commitdate: 2021/3/30
 photo.14.link: https://www.instagram.com/oregonzoo/
 photo.14.tags: portrait, snow
-photo.15: https://www.instagram.com/p/COlIaGur09R/media/?size=m
+photo.15: ig://COlIaGur09R/m
 photo.15.author: zoomontana
+photo.15.commitdate: 2021/6/23
 photo.15.link: https://www.instagram.com/zoomontana/
 photo.15.tags: bamboo, peek
 species: 2

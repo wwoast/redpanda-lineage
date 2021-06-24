@@ -14,8 +14,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 349
-photo.1: https://www.instagram.com/p/CQTdjRahu11/media/?size=m
+photo.1: ig://CQTdjRahu11/m
 photo.1.author: bee_san.13
+photo.1.commitdate: 2021/6/23
 photo.1.link: https://www.instagram.com/bee_san.13/
 photo.1.tags: whiskers
 species: 2

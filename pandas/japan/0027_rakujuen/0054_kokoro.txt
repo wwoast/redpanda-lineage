@@ -289,12 +289,14 @@ photo.55.author: craig_craig_craig
 photo.55.commitdate: 2021/6/18
 photo.55.link: https://www.instagram.com/craig_craig_craig/
 photo.55.tags: portrait, techitechi, videolink
-photo.56: https://www.instagram.com/p/CQTUH5qBpaF/media/?size=m
+photo.56: ig://CQTUH5qBpaF/m
 photo.56.author: fetorus_mami
+photo.56.commitdate: 2021/6/23
 photo.56.link: https://www.instagram.com/fetorus_mami/
 photo.56.tags: apple time, dish, home, mofumofu, whiskers
-photo.57: https://www.instagram.com/p/CQV_aNSBfkY/media/?size=m
+photo.57: ig://CQV_aNSBfkY/m
 photo.57.author: minatomirai215
+photo.57.commitdate: 2021/6/23
 photo.57.link: https://www.instagram.com/minatomirai215/
 photo.57.tags: home, portrait, smile, tail
 species: 2

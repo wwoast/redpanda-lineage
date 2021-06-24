@@ -245,8 +245,9 @@ photo.46.author: hamamatsu.chiita
 photo.46.commitdate: 2021/4/20
 photo.46.link: https://www.instagram.com/hamamatsu.chiita/
 photo.46.tags: close-up, portrait, whiskers
-photo.47: https://www.instagram.com/p/CQTNMkIh_P5/media/?size=m
+photo.47: ig://CQTNMkIh_P5/m
 photo.47.author: hamamatsu.chiita
+photo.47.commitdate: 2021/6/23
 photo.47.link: https://www.instagram.com/hamamatsu.chiita/
 photo.47.tags: close-up, laying down, portrait, whiskers
 species: 2
