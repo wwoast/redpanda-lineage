@@ -1071,7 +1071,7 @@ h2 {
     margin-bottom: 0ex;
 }
 
-h2 > a {
+h4 > a {
     color: white;
     padding-bottom: 1em;
 }
