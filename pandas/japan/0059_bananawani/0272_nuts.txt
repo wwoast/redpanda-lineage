@@ -17,7 +17,7 @@ photo.1: ig://BbMOw0lFpp0/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/11/14
 photo.1.link: https://www.instagram.com/hanamaru_redpanda/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: ig://BdOZvGOlaZQ/m
 photo.2.author: fetorus_mami
 photo.2.commitdate: 2019/10/8
@@ -32,6 +32,7 @@ photo.4: ig://Be5Io1FgDfQ/m
 photo.4.author: daniele.tokyo
 photo.4.commitdate: 2018/12/15
 photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: portrait
 photo.5: ig://Be7nul8Hv06/m
 photo.5.author: hideking1228
 photo.5.commitdate: 2018/11/14
@@ -41,25 +42,27 @@ photo.6: ig://BfSrn13n3ki/m
 photo.6.author: monmon_redpanda
 photo.6.commitdate: 2018/11/14
 photo.6.link: https://www.instagram.com/monmon_redpanda/
+photo.6.tags: portrait
 photo.7: ig://BhtQgTgFw-7/m
 photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2018/12/23
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
+photo.7.tags: close-up, portrait, whiskers
 photo.8: ig://Bkdsuq3lHDd/m
 photo.8.author: craig_craig_craig
 photo.8.commitdate: 2018/11/14
 photo.8.link: https://www.instagram.com/craig_craig_craig/
-photo.8.tags: tail, tongue
+photo.8.tags: portrait, tail, tongue
 photo.9: ig://BlwOQQjlajE/m
 photo.9.author: miis_98
 photo.9.commitdate: 2018/11/14
 photo.9.link: https://www.instagram.com/miis_98/
-photo.9.tags: smile
+photo.9.tags: portrait, smile
 photo.10: ig://BqI0BcNll1_/m
 photo.10.author: craig_craig_craig
 photo.10.commitdate: 2018/11/14
 photo.10.link: https://www.instagram.com/craig_craig_craig/
-photo.10.tags: sleeping, tail
+photo.10.tags: portrait, sleeping, tail
 photo.11: ig://BtBXF4klcue/m
 photo.11.author: fetorus_mami
 photo.11.commitdate: 2019/1/27
