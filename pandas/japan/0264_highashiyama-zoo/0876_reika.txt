@@ -473,16 +473,19 @@ photo.92.author: lesserpanda_shizuokacity_cp
 photo.92.commitdate: 2021/6/15
 photo.92.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.92.tags: mofumofu, peek, portrait
-photo.93: https://www.instagram.com/p/CPhdTlLhxdJ/media/?size=m
-photo.93.author: lesserpanda_shizuokacity_cp
-photo.93.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.93.tags: mofumofu, paws, standing
-photo.94: https://www.instagram.com/p/CPfvovSh79O/media/?size=m
-photo.94.author: taka__3428
-photo.94.link: https://www.instagram.com/taka__3428/
-photo.94.tags: apple time, ice treat, paws
-photo.95: https://www.instagram.com/p/CPiWi0eBYQ6/media/?size=m
+photo.93: ig://CPfvovSh79O/m
+photo.93.author: taka__3428
+photo.93.commitdate: 2021/6/27
+photo.93.link: https://www.instagram.com/taka__3428/
+photo.93.tags: apple time, ice treat, paws
+photo.94: ig://CPhdTlLhxdJ/m
+photo.94.author: lesserpanda_shizuokacity_cp
+photo.94.commitdate: 2021/6/27
+photo.94.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.94.tags: mofumofu, paws, standing
+photo.95: ig://CPiWi0eBYQ6/m
 photo.95.author: taka__3428
+photo.95.commitdate: 2021/6/27
 photo.95.link: https://www.instagram.com/taka__3428/
 photo.95.tags: bamboo, ice treat, paws
 species: 2

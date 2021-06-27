@@ -438,20 +438,21 @@ photo.85.author: hamamatsu.chiita
 photo.85.commitdate: 2021/6/6
 photo.85.link: https://www.instagram.com/hamamatsu.chiita/
 photo.85.tags: portrait, whiskers
-photo.86: ig://CPmDqilBLWX/m
-photo.86.author: resapan.suki
-photo.86.commitdate: 2021/6/20
-photo.86.link: https://www.instagram.com/resapan.suki/
-photo.86.tags: home, laying down, portrait, sleeping, tail
-photo.87: ig://CQVYItxB47O/m
-photo.87.author: hamamatsu.chiita
-photo.87.commitdate: 2021/6/23
-photo.87.link: https://www.instagram.com/hamamatsu.chiita/
-photo.87.tags: close-up, mofumofu, portrait
-photo.88: https://www.instagram.com/p/CPfoIn-BWjq/media/?size=m
-photo.88.author: kotata_513
-photo.88.link: https://www.instagram.com/kotata_513/
-photo.88.tags: portrait, profile, smile
+photo.86: ig://CPfoIn-BWjq/m
+photo.86.author: kotata_513
+photo.86.commitdate: 2021/6/27
+photo.86.link: https://www.instagram.com/kotata_513/
+photo.86.tags: portrait, profile, smile
+photo.87: ig://CPmDqilBLWX/m
+photo.87.author: resapan.suki
+photo.87.commitdate: 2021/6/20
+photo.87.link: https://www.instagram.com/resapan.suki/
+photo.87.tags: home, laying down, portrait, sleeping, tail
+photo.88: ig://CQVYItxB47O/m
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2021/6/23
+photo.88.link: https://www.instagram.com/hamamatsu.chiita/
+photo.88.tags: close-up, mofumofu, portrait
 species: 2
 studbook.id: unknown
 zoo: 13
