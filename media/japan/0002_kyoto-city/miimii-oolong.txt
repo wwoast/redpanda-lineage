@@ -1,0 +1,9 @@
+[media]
+_id: media.2.miimii-oolong
+panda.tags: 15, 234
+photo.1: https://www.instagram.com/p/CLeLTe8hUwh/media/?size=l
+photo.1.author: jas_forever_love
+photo.1.link: https://www.instagram.com/jas_forever_love/
+photo.1.tags: couple, home
+photo.1.tags.15.location: 140, 330
+photo.1.tags.234.location: 255, 140
