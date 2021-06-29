@@ -573,15 +573,16 @@ photo.112.author: craig_craig_craig
 photo.112.commitdate: 2021/5/3
 photo.112.link: https://www.instagram.com/craig_craig_craig/
 photo.112.tags: blink, laying down, mofumofu, portrait, tongue, tree
-photo.113: ig://CP8FoTQh9KC/m
-photo.113.author: rie_panda55
-photo.113.commitdate: 2021/6/19
-photo.113.link: https://www.instagram.com/rie_panda55/
-photo.113.tags: paws, portrait, smile, whiskers
-photo.114: https://www.instagram.com/p/COkN6rxhoOQ/media/?size=m
-photo.114.author: pink.b22
-photo.114.link: https://www.instagram.com/pink.b22/
-photo.114.tags: peek, portrait, tree
+photo.113: ig://COkN6rxhoOQ/m
+photo.113.author: pink.b22
+photo.113.commitdate: 2021/6/28
+photo.113.link: https://www.instagram.com/pink.b22/
+photo.113.tags: peek, portrait, tree
+photo.114: ig://CP8FoTQh9KC/m
+photo.114.author: rie_panda55
+photo.114.commitdate: 2021/6/19
+photo.114.link: https://www.instagram.com/rie_panda55/
+photo.114.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 13155
 zoo: 8

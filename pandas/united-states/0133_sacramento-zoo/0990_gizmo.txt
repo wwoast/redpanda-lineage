@@ -78,8 +78,9 @@ photo.13.author: carsontheredpanda
 photo.13.commitdate: 2020/7/2
 photo.13.link: https://www.instagram.com/carsontheredpanda/
 photo.13.tags: paws, standing
-photo.14: https://www.instagram.com/p/CPRuC5JhIPP/media/?size=m
+photo.14: ig://CPRuC5JhIPP/m
 photo.14.author: redpandanetwork
+photo.14.commitdate: 2021/6/28
 photo.14.link: https://www.instagram.com/redpandanetwork/
 photo.14.tags: whiskers, white face
 species: 1

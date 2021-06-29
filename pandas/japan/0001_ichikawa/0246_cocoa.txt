@@ -1038,32 +1038,36 @@ photo.205.author: ifumoto88
 photo.205.commitdate: 2021/5/4
 photo.205.link: https://www.instagram.com/ifumoto88/
 photo.205.tags: close-up, laying down, paws, portrait, sleeping
-photo.206: ig://COxnTsNBV2e/m
-photo.206.author: ifumoto88
-photo.206.commitdate: 2021/6/6
-photo.206.link: https://www.instagram.com/ifumoto88/
-photo.206.tags: close-up, peek, whiskers
-photo.207: ig://CPS9uHlhrUM/m
+photo.206: ig://COaq6oFh7ex/m
+photo.206.author: na.mo.pan
+photo.206.commitdate: 2021/6/28
+photo.206.link: https://www.instagram.com/na.mo.pan/
+photo.206.tags: mofumofu, portrait, techitechi
+photo.207: ig://COxnTsNBV2e/m
 photo.207.author: ifumoto88
-photo.207.commitdate: 2021/6/7
+photo.207.commitdate: 2021/6/6
 photo.207.link: https://www.instagram.com/ifumoto88/
-photo.207.tags: apple time, close-up, whiskers
-photo.208: https://www.instagram.com/p/COaq6oFh7ex/media/?size=m
-photo.208.author: na.mo.pan
-photo.208.link: https://www.instagram.com/na.mo.pan/
-photo.208.tags: mofumofu, portrait, techitechi
-photo.209: https://www.instagram.com/p/CPt2HMQB-iD/media/?size=m
-photo.209.author: ck.chie
-photo.209.link: https://www.instagram.com/ck.chie/
-photo.209.tags: bridge, laying down, videolink
-photo.210: https://www.instagram.com/p/CPLNNg4BUZM/media/?size=m
+photo.207.tags: close-up, peek, whiskers
+photo.208: ig://CPLNNg4BUZM/m
+photo.208.author: ifumoto88
+photo.208.commitdate: 2021/6/28
+photo.208.link: https://www.instagram.com/ifumoto88/
+photo.208.tags: close-up, nose, portrait
+photo.209: ig://CPNvr8IB04X/m
+photo.209.author: ifumoto88
+photo.209.commitdate: 2021/6/28
+photo.209.link: https://www.instagram.com/ifumoto88/
+photo.209.tags: apple time, paws, portrait, whiskers
+photo.210: ig://CPS9uHlhrUM/m
 photo.210.author: ifumoto88
+photo.210.commitdate: 2021/6/7
 photo.210.link: https://www.instagram.com/ifumoto88/
-photo.210.tags: close-up, nose, portrait
-photo.211: https://www.instagram.com/p/CPNvr8IB04X/media/?size=m
-photo.211.author: ifumoto88
-photo.211.link: https://www.instagram.com/ifumoto88/
-photo.211.tags: apple time, paws, portrait, whiskers
+photo.210.tags: apple time, close-up, whiskers
+photo.211: ig://CPt2HMQB-iD/m
+photo.211.author: ck.chie
+photo.211.commitdate: 2021/6/28
+photo.211.link: https://www.instagram.com/ck.chie/
+photo.211.tags: bridge, laying down, videolink
 species: 2
 studbook.id: unknown
 zoo: 1

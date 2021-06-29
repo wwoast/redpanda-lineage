@@ -339,15 +339,16 @@ photo.65.author: eos1089
 photo.65.commitdate: 2021/4/3
 photo.65.link: https://www.instagram.com/eos1089/
 photo.65.tags: bamboo, home, laying down, paws, portrait
-photo.66: ig://CQD5znVBC0V/m
-photo.66.author: happy_love2.15
-photo.66.commitdate: 2021/6/18
-photo.66.link: https://www.instagram.com/happy_love2.15/
-photo.66.tags: portrait, whiskers
-photo.67: https://www.instagram.com/p/COksoQDBFxu/media/?size=m
-photo.67.author: redpan22
-photo.67.link: https://www.instagram.com/redpan22/
-photo.67.tags: bamboo, home, snow
+photo.66: ig://COksoQDBFxu/m
+photo.66.author: redpan22
+photo.66.commitdate: 2021/6/28
+photo.66.link: https://www.instagram.com/redpan22/
+photo.66.tags: bamboo, home, snow
+photo.67: ig://CQD5znVBC0V/m
+photo.67.author: happy_love2.15
+photo.67.commitdate: 2021/6/18
+photo.67.link: https://www.instagram.com/happy_love2.15/
+photo.67.tags: portrait, whiskers
 species: 2
 studbook.id: 1191
 zoo: 45

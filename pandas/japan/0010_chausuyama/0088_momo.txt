@@ -232,25 +232,26 @@ photo.44.author: hamamatsu.chiita
 photo.44.commitdate: 2021/5/3
 photo.44.link: https://www.instagram.com/hamamatsu.chiita/
 photo.44.tags: mofumofu, portrait
-photo.45: ig://CPDcjkdh-Yd/m
-photo.45.author: fetorus_mami
-photo.45.commitdate: 2021/6/8
-photo.45.link: https://www.instagram.com/fetorus_mami/
-photo.45.tags: peek, portrait
-photo.46: ig://CPLSg6WB16i/m
-photo.46.author: redpan22
+photo.45: ig://COmVSOeBldF/m
+photo.45.author: shigeko0531
+photo.45.commitdate: 2021/6/28
+photo.45.link: https://www.instagram.com/shigeko0531/
+photo.45.tags: climb, paws, tree
+photo.46: ig://CPDcjkdh-Yd/m
+photo.46.author: fetorus_mami
 photo.46.commitdate: 2021/6/8
-photo.46.link: https://www.instagram.com/redpan22/
-photo.46.tags: close-up, smile, tongue, whiskers
-photo.47: ig://CPMKJSfhNvf/m
-photo.47.author: hamamatsu.chiita
+photo.46.link: https://www.instagram.com/fetorus_mami/
+photo.46.tags: peek, portrait
+photo.47: ig://CPLSg6WB16i/m
+photo.47.author: redpan22
 photo.47.commitdate: 2021/6/8
-photo.47.link: https://www.instagram.com/hamamatsu.chiita/
-photo.47.tags: paws, portrait, smile, whiskers
-photo.48: https://www.instagram.com/p/COmVSOeBldF/media/?size=m
-photo.48.author: shigeko0531
-photo.48.link: https://www.instagram.com/shigeko0531/
-photo.48.tags: climb, paws, tree
+photo.47.link: https://www.instagram.com/redpan22/
+photo.47.tags: close-up, smile, tongue, whiskers
+photo.48: ig://CPMKJSfhNvf/m
+photo.48.author: hamamatsu.chiita
+photo.48.commitdate: 2021/6/8
+photo.48.link: https://www.instagram.com/hamamatsu.chiita/
+photo.48.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 11100
 zoo: 10

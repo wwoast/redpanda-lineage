@@ -652,19 +652,21 @@ photo.129.author: sasapan34
 photo.129.commitdate: 2021/5/31
 photo.129.link: https://www.instagram.com/sasapan34/
 photo.129.tags: bamboo, tail, whiskers
-photo.130: ig://CQcy9RoBWB1/m
+photo.130: ig://COjw0VBhCQF/m
 photo.130.author: lesserpanda_shizuokacity_cp
-photo.130.commitdate: 2021/6/23
+photo.130.commitdate: 2021/6/28
 photo.130.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.130.tags: apple time, paws, portrait, profile, whiskers
-photo.131: https://www.instagram.com/p/COjw0VBhCQF/media/?size=m
-photo.131.author: lesserpanda_shizuokacity_cp
-photo.131.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.131.tags: close-up, paws, portrait, whiskers
-photo.132: https://www.instagram.com/p/CPGcQsAhcU6/media/?size=m
-photo.132.author: mini_cochi
-photo.132.link: https://www.instagram.com/mini_cochi/
-photo.132.tags: keeper, portrait, smile, tail
+photo.130.tags: close-up, paws, portrait, whiskers
+photo.131: ig://CPGcQsAhcU6/m
+photo.131.author: mini_cochi
+photo.131.commitdate: 2021/6/28
+photo.131.link: https://www.instagram.com/mini_cochi/
+photo.131.tags: keeper, portrait, smile, tail
+photo.132: ig://CQcy9RoBWB1/m
+photo.132.author: lesserpanda_shizuokacity_cp
+photo.132.commitdate: 2021/6/23
+photo.132.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.132.tags: apple time, paws, portrait, profile, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

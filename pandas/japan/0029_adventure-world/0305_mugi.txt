@@ -845,15 +845,16 @@ photo.167.author: chankunvv
 photo.167.commitdate: 2021/5/3
 photo.167.link: https://www.instagram.com/chankunvv/
 photo.167.tags: bamboo, paws, portrait, smile, standing, tail
-photo.168: ig://CPxwLhGB4KM/m
-photo.168.author: chankunvv
-photo.168.commitdate: 2021/6/20
-photo.168.link: https://www.instagram.com/chankunvv/
-photo.168.tags: paws, portrait, smile
-photo.169: https://www.instagram.com/p/COxhYKxhr-k/media/?size=m
-photo.169.author: sasapan34
-photo.169.link: https://www.instagram.com/sasapan34/
-photo.169.tags: dish, nose
+photo.168: ig://COxhYKxhr-k/m
+photo.168.author: sasapan34
+photo.168.commitdate: 2021/6/28
+photo.168.link: https://www.instagram.com/sasapan34/
+photo.168.tags: dish, nose
+photo.169: ig://CPxwLhGB4KM/m
+photo.169.author: chankunvv
+photo.169.commitdate: 2021/6/20
+photo.169.link: https://www.instagram.com/chankunvv/
+photo.169.tags: paws, portrait, smile
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/rYd6QptEbU0
