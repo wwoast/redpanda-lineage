@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 133, 2019/6/7
+location.2: 187, 2020/12/1
 photo.1: ig://B0jC2f2Hv5R/m
 photo.1.author: sacramentozoo
 photo.1.commitdate: 2019/9/16
@@ -84,4 +86,5 @@ photo.14.commitdate: 2021/6/28
 photo.14.link: https://www.instagram.com/redpandanetwork/
 photo.14.tags: whiskers, white face
 species: 1
-zoo: 133
+uncertainty: location.2 exact date
+zoo: 187
