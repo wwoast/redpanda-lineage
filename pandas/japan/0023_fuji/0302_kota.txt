@@ -185,35 +185,36 @@ photo.34.author: miis_98
 photo.34.commitdate: 2021/1/28
 photo.34.link: https://www.instagram.com/miis_98/
 photo.34.tags: paws, tongue, whiskers
-photo.35: ig://CL1AoYBh3Sc/m
-photo.35.author: miis_98
-photo.35.commitdate: 2021/3/4
-photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: paws, standing
-photo.36: ig://COVZURHhnFr/m
+photo.35: ig://CLIaBL3hXbn/m
+photo.35.author: fuji_safari
+photo.35.commitdate: 2021/6/29
+photo.35.link: https://www.instagram.com/fuji_safari/
+photo.35.tags: bamboo, paws, peek, portrait
+photo.36: ig://CL1AoYBh3Sc/m
 photo.36.author: miis_98
-photo.36.commitdate: 2021/5/8
+photo.36.commitdate: 2021/3/4
 photo.36.link: https://www.instagram.com/miis_98/
-photo.36.tags: air tasting, bamboo, portrait, tail, tongue
-photo.37: ig://COfWnCRhlQe/m
+photo.36.tags: paws, standing
+photo.37: ig://COVZURHhnFr/m
 photo.37.author: miis_98
-photo.37.commitdate: 2021/6/9
+photo.37.commitdate: 2021/5/8
 photo.37.link: https://www.instagram.com/miis_98/
-photo.37.tags: portrait, tree
-photo.38: ig://CPf0jcoBVVn/m
+photo.37.tags: air tasting, bamboo, portrait, tail, tongue
+photo.38: ig://COfWnCRhlQe/m
 photo.38.author: miis_98
-photo.38.commitdate: 2021/6/27
+photo.38.commitdate: 2021/6/9
 photo.38.link: https://www.instagram.com/miis_98/
-photo.38.tags: laying down, portrait, tree
-photo.39: ig://CPjjgqGh4lg/m
+photo.38.tags: portrait, tree
+photo.39: ig://CPf0jcoBVVn/m
 photo.39.author: miis_98
-photo.39.commitdate: 2021/6/20
+photo.39.commitdate: 2021/6/27
 photo.39.link: https://www.instagram.com/miis_98/
-photo.39.tags: bamboo, paws, portrait, tongue
-photo.40: https://www.instagram.com/p/CLIaBL3hXbn/media/?size=m
-photo.40.author: fuji_safari
-photo.40.link: https://www.instagram.com/fuji_safari/
-photo.40.tags: bamboo, paws, peek, portrait
+photo.39.tags: laying down, portrait, tree
+photo.40: ig://CPjjgqGh4lg/m
+photo.40.author: miis_98
+photo.40.commitdate: 2021/6/20
+photo.40.link: https://www.instagram.com/miis_98/
+photo.40.tags: bamboo, paws, portrait, tongue
 species: 2
 studbook.id: 12119
 zoo: 23

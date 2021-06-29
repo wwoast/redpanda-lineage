@@ -363,62 +363,66 @@ photo.70.author: mini_cochi
 photo.70.commitdate: 2020/12/29
 photo.70.link: https://www.instagram.com/mini_cochi/
 photo.70.tags: paws, portrait, smile
-photo.71: ig://CMhzB9UhF9j/m
-photo.71.author: eos1089
-photo.71.commitdate: 2021/3/29
-photo.71.link: https://www.instagram.com/eos1089/
-photo.71.tags: bamboo, close-up, paws, portrait, smile
-photo.72: ig://CNSBNvMBCJc/m
-photo.72.author: kaoru_a358
-photo.72.commitdate: 2021/4/29
-photo.72.link: https://www.instagram.com/kaoru_a358/
-photo.72.tags: flowers, nose, paws, portrait
-photo.73: ig://CNSHbCHBLJ7/m
+photo.71: ig://CJn7ynuBGyX/m
+photo.71.author: fetorus_mami
+photo.71.commitdate: 2021/6/29
+photo.71.link: https://www.instagram.com/fetorus_mami/
+photo.71.tags: apple time, mofumofu, paws, smile
+photo.72: ig://CMhzB9UhF9j/m
+photo.72.author: eos1089
+photo.72.commitdate: 2021/3/29
+photo.72.link: https://www.instagram.com/eos1089/
+photo.72.tags: bamboo, close-up, paws, portrait, smile
+photo.73: ig://CNPg-g6BQUw/m
 photo.73.author: redpan22
-photo.73.commitdate: 2021/4/29
+photo.73.commitdate: 2021/6/29
 photo.73.link: https://www.instagram.com/redpan22/
-photo.73.tags: flowers, paws, tail
-photo.74: ig://CNpZ91dhyUX/m
-photo.74.author: hamiiiii831_
-photo.74.commitdate: 2021/5/30
-photo.74.link: https://www.instagram.com/hamiiiii831_/
-photo.74.tags: paws, portrait, smile
-photo.75: ig://COAk5t2BgST/m
+photo.73.tags: laying down, tree
+photo.74: ig://CNSBNvMBCJc/m
+photo.74.author: kaoru_a358
+photo.74.commitdate: 2021/4/29
+photo.74.link: https://www.instagram.com/kaoru_a358/
+photo.74.tags: flowers, nose, paws, portrait
+photo.75: ig://CNSHbCHBLJ7/m
 photo.75.author: redpan22
-photo.75.commitdate: 2021/5/19
+photo.75.commitdate: 2021/4/29
 photo.75.link: https://www.instagram.com/redpan22/
-photo.75.tags: apple time, lips, paws, smile
-photo.76: ig://COVEiP6B786/m
-photo.76.author: mini_cochi
-photo.76.commitdate: 2021/5/4
-photo.76.link: https://www.instagram.com/mini_cochi/
-photo.76.tags: apple time, paws, portrait, smile
-photo.77: ig://CPxjch1BoaP/m
-photo.77.author: ssc6105
-photo.77.commitdate: 2021/6/24
-photo.77.link: https://www.instagram.com/ssc6105/
-photo.77.tags: curly, mofumofu, smile, tail
-photo.78: ig://CP-eGUbBh8m/m
-photo.78.author: ssc6105
-photo.78.commitdate: 2021/6/24
-photo.78.link: https://www.instagram.com/ssc6105/
-photo.78.tags: home, paws, peek, smile
-photo.79: https://www.instagram.com/p/CJn7ynuBGyX/media/?size=m
-photo.79.author: fetorus_mami
-photo.79.link: https://www.instagram.com/fetorus_mami/
-photo.79.tags: apple time, mofumofu, paws, smile
-photo.80: https://www.instagram.com/p/CQYyJOdByp2/media/?size=m
-photo.80.author: mini_cochi
-photo.80.link: https://www.instagram.com/mini_cochi/
-photo.80.tags: apple time, home, paws, peek, portrait
-photo.81: https://www.instagram.com/p/CNPg-g6BQUw/media/?size=m
-photo.81.author: redpan22
-photo.81.link: https://www.instagram.com/redpan22/
-photo.81.tags: laying down, tree
-photo.82: https://www.instagram.com/p/CNl3ennh3vv/media/?size=m
-photo.82.author: kaoru_a358
-photo.82.link: https://www.instagram.com/kaoru_a358/
-photo.82.tags: curly, dish, lunch time, paws, portrait, tail
+photo.75.tags: flowers, paws, tail
+photo.76: ig://CNl3ennh3vv/m
+photo.76.author: kaoru_a358
+photo.76.commitdate: 2021/6/29
+photo.76.link: https://www.instagram.com/kaoru_a358/
+photo.76.tags: curly, dish, lunch time, paws, portrait, tail
+photo.77: ig://CNpZ91dhyUX/m
+photo.77.author: hamiiiii831_
+photo.77.commitdate: 2021/5/30
+photo.77.link: https://www.instagram.com/hamiiiii831_/
+photo.77.tags: paws, portrait, smile
+photo.78: ig://COAk5t2BgST/m
+photo.78.author: redpan22
+photo.78.commitdate: 2021/5/19
+photo.78.link: https://www.instagram.com/redpan22/
+photo.78.tags: apple time, lips, paws, smile
+photo.79: ig://COVEiP6B786/m
+photo.79.author: mini_cochi
+photo.79.commitdate: 2021/5/4
+photo.79.link: https://www.instagram.com/mini_cochi/
+photo.79.tags: apple time, paws, portrait, smile
+photo.80: ig://CPxjch1BoaP/m
+photo.80.author: ssc6105
+photo.80.commitdate: 2021/6/24
+photo.80.link: https://www.instagram.com/ssc6105/
+photo.80.tags: curly, mofumofu, smile, tail
+photo.81: ig://CP-eGUbBh8m/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2021/6/24
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: home, paws, peek, smile
+photo.82: ig://CQYyJOdByp2/m
+photo.82.author: mini_cochi
+photo.82.commitdate: 2021/6/29
+photo.82.link: https://www.instagram.com/mini_cochi/
+photo.82.tags: apple time, home, paws, peek, portrait
 species: 2
 studbook.id: 13140
 zoo: 69
