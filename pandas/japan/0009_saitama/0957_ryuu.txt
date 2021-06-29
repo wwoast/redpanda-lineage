@@ -373,50 +373,51 @@ photo.72.author: s.okano521
 photo.72.commitdate: 2021/3/21
 photo.72.link: https://www.instagram.com/s.okano521/
 photo.72.tags: bamboo, bite, mofumofu
-photo.73: ig://CNBe71Fh3_y/m
-photo.73.author: ssc6105
-photo.73.commitdate: 2021/4/2
-photo.73.link: https://www.instagram.com/ssc6105/
-photo.73.tags: laying down, sleeping
-photo.74: ig://CNbE66IFblf/m
-photo.74.author: redpandanetwork
-photo.74.commitdate: 2021/4/29
-photo.74.link: https://www.instagram.com/redpandanetwork/
-photo.74.tags: bamboo, peek, portrait
-photo.75: ig://CNhssdcBBb5/m
-photo.75.author: panda.daisuki
+photo.73: ig://CMpHk_NhavT/m
+photo.73.author: ifumoto88
+photo.73.commitdate: 2021/6/29
+photo.73.link: https://www.instagram.com/ifumoto88/
+photo.73.tags: bite, paws, portrait, tongue, tree
+photo.74: ig://CNBe71Fh3_y/m
+photo.74.author: ssc6105
+photo.74.commitdate: 2021/4/2
+photo.74.link: https://www.instagram.com/ssc6105/
+photo.74.tags: laying down, sleeping
+photo.75: ig://CNbE66IFblf/m
+photo.75.author: redpandanetwork
 photo.75.commitdate: 2021/4/29
-photo.75.link: https://www.instagram.com/panda.daisuki/
-photo.75.tags: climb, mofumofu, paws, portrait, tree, upside-down
-photo.76: ig://CODdPluBSXH/m
+photo.75.link: https://www.instagram.com/redpandanetwork/
+photo.75.tags: bamboo, peek, portrait
+photo.76: ig://CNhssdcBBb5/m
 photo.76.author: panda.daisuki
-photo.76.commitdate: 2021/5/20
+photo.76.commitdate: 2021/4/29
 photo.76.link: https://www.instagram.com/panda.daisuki/
-photo.76.tags: mofumofu, paws, portrait, whiskers
-photo.77: ig://COdJ7cvhkd0/m
-photo.77.author: fetorus_mami
-photo.77.commitdate: 2021/6/19
-photo.77.link: https://www.instagram.com/fetorus_mami/
-photo.77.tags: bamboo, close-up, paws
-photo.78: ig://COqy8nSB9Cb/m
-photo.78.author: alto0908
-photo.78.commitdate: 2021/6/4
-photo.78.link: https://www.instagram.com/alto0908/
-photo.78.tags: peek, portrait
-photo.79: ig://COsN218BnqM/m
-photo.79.author: ssc6105
+photo.76.tags: climb, mofumofu, paws, portrait, tree, upside-down
+photo.77: ig://CODdPluBSXH/m
+photo.77.author: panda.daisuki
+photo.77.commitdate: 2021/5/20
+photo.77.link: https://www.instagram.com/panda.daisuki/
+photo.77.tags: mofumofu, paws, portrait, whiskers
+photo.78: ig://COdJ7cvhkd0/m
+photo.78.author: fetorus_mami
+photo.78.commitdate: 2021/6/19
+photo.78.link: https://www.instagram.com/fetorus_mami/
+photo.78.tags: bamboo, close-up, paws
+photo.79: ig://COqy8nSB9Cb/m
+photo.79.author: alto0908
 photo.79.commitdate: 2021/6/4
-photo.79.link: https://www.instagram.com/ssc6105/
-photo.79.tags: mofumofu, peek
-photo.80: ig://COzoQsPhUBD/m
+photo.79.link: https://www.instagram.com/alto0908/
+photo.79.tags: peek, portrait
+photo.80: ig://COsN218BnqM/m
 photo.80.author: ssc6105
-photo.80.commitdate: 2021/6/6
+photo.80.commitdate: 2021/6/4
 photo.80.link: https://www.instagram.com/ssc6105/
-photo.80.tags: climb, paws, tree
-photo.81: https://www.instagram.com/p/CMpHk_NhavT/media/?size=m
-photo.81.author: ifumoto88
-photo.81.link: https://www.instagram.com/ifumoto88/
-photo.81.tags: bite, paws, portrait, tongue, tree
+photo.80.tags: mofumofu, peek
+photo.81: ig://COzoQsPhUBD/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2021/6/6
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: climb, paws, tree
 species: 2
 studbook.id: unknown
 zoo: 9

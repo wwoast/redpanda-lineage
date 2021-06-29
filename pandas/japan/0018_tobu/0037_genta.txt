@@ -423,40 +423,41 @@ photo.82.author: fetorus_mami
 photo.82.commitdate: 2021/1/31
 photo.82.link: https://www.instagram.com/fetorus_mami/
 photo.82.tags: dish, mofumofu, portrait, tongue, whiskers
-photo.83: ig://CK0ynimB0wT/m
-photo.83.author: pink.b22
-photo.83.commitdate: 2021/2/20
-photo.83.link: https://www.instagram.com/pink.b22/
-photo.83.tags: apple time, portrait, videolink
-photo.84: ig://CMRpRfcBuza/m
-photo.84.author: ssc6105
-photo.84.commitdate: 2021/6/9
-photo.84.link: https://www.instagram.com/ssc6105/
-photo.84.tags: paws, smile, whiskers
-photo.85: ig://CMfnlPQhsCw/m
-photo.85.author: miis_98
-photo.85.commitdate: 2021/3/29
-photo.85.link: https://www.instagram.com/miis_98/
-photo.85.tags: paws, portrait, whiskers
-photo.86: ig://CNgiv2Ah5rG/m
-photo.86.author: ssc6105
-photo.86.commitdate: 2021/5/28
-photo.86.link: https://www.instagram.com/ssc6105/
-photo.86.tags: bamboo, portrait, videolink
-photo.87: ig://CNj_nSSBTUS/m
+photo.83: ig://CKyRjhGBxQZ/m
+photo.83.author: ssc6105
+photo.83.commitdate: 2021/6/29
+photo.83.link: https://www.instagram.com/ssc6105/
+photo.83.tags: paws, peek, tree
+photo.84: ig://CK0ynimB0wT/m
+photo.84.author: pink.b22
+photo.84.commitdate: 2021/2/20
+photo.84.link: https://www.instagram.com/pink.b22/
+photo.84.tags: apple time, portrait, videolink
+photo.85: ig://CMRpRfcBuza/m
+photo.85.author: ssc6105
+photo.85.commitdate: 2021/6/9
+photo.85.link: https://www.instagram.com/ssc6105/
+photo.85.tags: paws, smile, whiskers
+photo.86: ig://CMfnlPQhsCw/m
+photo.86.author: miis_98
+photo.86.commitdate: 2021/3/29
+photo.86.link: https://www.instagram.com/miis_98/
+photo.86.tags: paws, portrait, whiskers
+photo.87: ig://CNgiv2Ah5rG/m
 photo.87.author: ssc6105
-photo.87.commitdate: 2021/6/1
+photo.87.commitdate: 2021/5/28
 photo.87.link: https://www.instagram.com/ssc6105/
-photo.87.tags: paws, peek
-photo.88: ig://COImxwghq0N/m
-photo.88.author: na.mo.pan
-photo.88.commitdate: 2021/5/31
-photo.88.link: https://www.instagram.com/na.mo.pan/
-photo.88.tags: paws, portrait
-photo.89: https://www.instagram.com/p/CKyRjhGBxQZ/media/?size=m
-photo.89.author: ssc6105
-photo.89.link: https://www.instagram.com/ssc6105/
-photo.89.tags: paws, peek, tree
+photo.87.tags: bamboo, portrait, videolink
+photo.88: ig://CNj_nSSBTUS/m
+photo.88.author: ssc6105
+photo.88.commitdate: 2021/6/1
+photo.88.link: https://www.instagram.com/ssc6105/
+photo.88.tags: paws, peek
+photo.89: ig://COImxwghq0N/m
+photo.89.author: na.mo.pan
+photo.89.commitdate: 2021/5/31
+photo.89.link: https://www.instagram.com/na.mo.pan/
+photo.89.tags: paws, portrait
 species: 2
 studbook.id: 12105
 zoo: 18

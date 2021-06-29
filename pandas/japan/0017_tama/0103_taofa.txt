@@ -333,25 +333,26 @@ photo.64.author: redpan22
 photo.64.commitdate: 2021/1/31
 photo.64.link: https://www.instagram.com/redpan22/
 photo.64.tags: autumn, portrait, whiskers
-photo.65: ig://CMUeT3uBHOe/m
-photo.65.author: redpan22
-photo.65.commitdate: 2021/4/11
-photo.65.link: https://www.instagram.com/redpan22/
-photo.65.tags: laying down, mofumofu, paws, portrait, smile, tongue
-photo.66: ig://COANXSsBocM/m
-photo.66.author: osopanda551
-photo.66.commitdate: 2021/5/31
-photo.66.link: https://www.instagram.com/osopanda551/
-photo.66.tags: bamboo, portrait, tongue
-photo.67: ig://COJdJVLB8oV/m
-photo.67.author: ck.chie
+photo.65: ig://CKsrEK2BDtJ/m
+photo.65.author: panda.daisuki
+photo.65.commitdate: 2021/6/29
+photo.65.link: https://www.instagram.com/panda.daisuki/
+photo.65.tags: portrait, snow, tail
+photo.66: ig://CMUeT3uBHOe/m
+photo.66.author: redpan22
+photo.66.commitdate: 2021/4/11
+photo.66.link: https://www.instagram.com/redpan22/
+photo.66.tags: laying down, mofumofu, paws, portrait, smile, tongue
+photo.67: ig://COANXSsBocM/m
+photo.67.author: osopanda551
 photo.67.commitdate: 2021/5/31
-photo.67.link: https://www.instagram.com/ck.chie/
-photo.67.tags: smile, tongue, wink
-photo.68: https://www.instagram.com/p/CKsrEK2BDtJ/media/?size=m
-photo.68.author: panda.daisuki
-photo.68.link: https://www.instagram.com/panda.daisuki/
-photo.68.tags: portrait, snow, tail
+photo.67.link: https://www.instagram.com/osopanda551/
+photo.67.tags: bamboo, portrait, tongue
+photo.68: ig://COJdJVLB8oV/m
+photo.68.author: ck.chie
+photo.68.commitdate: 2021/5/31
+photo.68.link: https://www.instagram.com/ck.chie/
+photo.68.tags: smile, tongue, wink
 species: 2
 studbook.id: 15127
 zoo: 17

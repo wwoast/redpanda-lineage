@@ -45,8 +45,9 @@ photo.6.author: paradisewildlifepark
 photo.6.commitdate: 2020/5/15
 photo.6.link: https://www.instagram.com/paradisewildlifepark/
 photo.6.tags: bamboo, portrait
-photo.7: https://www.instagram.com/p/CLmo3kKgFIR/media/?size=m
+photo.7: ig://CLmo3kKgFIR/m
 photo.7.author: jobrownphotography
+photo.7.commitdate: 2021/6/29
 photo.7.link: https://www.instagram.com/jobrownphotography/
 photo.7.tags: portrait, wet, whiskers
 species: 1

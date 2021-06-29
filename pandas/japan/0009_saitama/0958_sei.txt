@@ -193,19 +193,20 @@ photo.36.author: mini_cochi
 photo.36.commitdate: 2021/2/24
 photo.36.link: https://www.instagram.com/mini_cochi/
 photo.36.tags: mofumofu, portrait, profile, whiskers
-photo.37: ig://COr4XIgBng2/m
-photo.37.author: ssc6105
-photo.37.commitdate: 2021/6/4
-photo.37.link: https://www.instagram.com/ssc6105/
-photo.37.tags: paws, peek, tree
-photo.38: ig://COyd8qHBev7/m
+photo.37: ig://CMpG58XBT4d/m
+photo.37.author: ifumoto88
+photo.37.commitdate: 2021/6/29
+photo.37.link: https://www.instagram.com/ifumoto88/
+photo.37.tags: bamboo, paws, portrait
+photo.38: ig://COr4XIgBng2/m
 photo.38.author: ssc6105
-photo.38.commitdate: 2021/6/6
+photo.38.commitdate: 2021/6/4
 photo.38.link: https://www.instagram.com/ssc6105/
-photo.38.tags: paws, smile
-photo.39: https://www.instagram.com/p/CMpG58XBT4d/media/?size=m
-photo.39.author: ifumoto88
-photo.39.link: https://www.instagram.com/ifumoto88/
-photo.39.tags: bamboo, paws, portrait
+photo.38.tags: paws, peek, tree
+photo.39: ig://COyd8qHBev7/m
+photo.39.author: ssc6105
+photo.39.commitdate: 2021/6/6
+photo.39.link: https://www.instagram.com/ssc6105/
+photo.39.tags: paws, smile
 species: 2
 zoo: 9

@@ -313,19 +313,20 @@ photo.60.author: akiakiakiko18
 photo.60.commitdate: 2021/1/2
 photo.60.link: https://www.instagram.com/akiakiakiko18/
 photo.60.tags: close-up, portrait, smile, whiskers
-photo.61: ig://CLWbOv-hvvJ/m
-photo.61.author: jas_forever_love
-photo.61.commitdate: 2021/3/10
-photo.61.link: https://www.instagram.com/jas_forever_love/
-photo.61.tags: mofumofu, paws, snow
-photo.62: ig://CP35SXRhIpe/m
-photo.62.author: hamamatsu.chiita
-photo.62.commitdate: 2021/6/19
-photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: mofumofu, portrait, whiskers
-photo.63: https://www.instagram.com/p/CKuQOVkBFEl/media/?size=m
+photo.61: ig://CKuQOVkBFEl/m
+photo.61.author: hamamatsu.chiita
+photo.61.commitdate: 2021/6/29
+photo.61.link: https://www.instagram.com/hamamatsu.chiita/
+photo.61.tags: mofumofu, portrait, snow
+photo.62: ig://CLWbOv-hvvJ/m
+photo.62.author: jas_forever_love
+photo.62.commitdate: 2021/3/10
+photo.62.link: https://www.instagram.com/jas_forever_love/
+photo.62.tags: mofumofu, paws, snow
+photo.63: ig://CP35SXRhIpe/m
 photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2021/6/19
 photo.63.link: https://www.instagram.com/hamamatsu.chiita/
-photo.63.tags: mofumofu, portrait, snow
+photo.63.tags: mofumofu, portrait, whiskers
 species: 2
 zoo: 13
