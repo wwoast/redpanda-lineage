@@ -223,5 +223,13 @@ photo.42.author: itsuak
 photo.42.commitdate: 2021/6/19
 photo.42.link: https://www.instagram.com/itsuak/
 photo.42.tags: portrait, whiskers
+photo.43: https://www.instagram.com/p/CQlWqp2BC_c/media/?size=m
+photo.43.author: makimaru18
+photo.43.link: https://www.instagram.com/makimaru18/
+photo.43.tags: bridge, paws, portrait, whiskers
+photo.44: https://www.instagram.com/p/CLG21POhEiC/media/?size=m
+photo.44.author: itsuak
+photo.44.link: https://www.instagram.com/itsuak/
+photo.44.tags: paws, portrait, whiskers
 species: 2
 zoo: 15
