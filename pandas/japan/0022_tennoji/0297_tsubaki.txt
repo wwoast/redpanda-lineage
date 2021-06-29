@@ -93,18 +93,21 @@ photo.16: ig://CQcjrUUBKKi/m
 photo.16.author: makimaru18
 photo.16.link: https://www.instagram.com/makimaru18/
 photo.16.tags: paws, portrait, smile, whiskers
-photo.17: https://www.instagram.com/p/CQoaqHghaIU/media/?size=m
+photo.17: ig://CQoaqHghaIU/m
 photo.17.author: bubbles_octi
+photo.17.commitdate: 2021/6/28
 photo.17.link: https://www.instagram.com/bubbles_octi/
 photo.17.tags: mofumofu, portrait, techitechi
-photo.18: https://www.instagram.com/p/CQq5-SrhuTR/media/?size=m
-photo.18.author: sakikukeco
-photo.18.link: https://www.instagram.com/sakikukeco/
-photo.18.tags: portrait, smile
-photo.19: https://www.instagram.com/p/CQqEyD8BBJM/media/?size=m
-photo.19.author: framereim
-photo.19.link: https://www.instagram.com/framereim/
-photo.19.tags: portrait, smile, tongue
+photo.18: ig://CQqEyD8BBJM/m
+photo.18.author: framereim
+photo.18.commitdate: 2021/6/28
+photo.18.link: https://www.instagram.com/framereim/
+photo.18.tags: portrait, smile, tongue
+photo.19: ig://CQq5-SrhuTR/m
+photo.19.author: sakikukeco
+photo.19.commitdate: 2021/6/28
+photo.19.link: https://www.instagram.com/sakikukeco/
+photo.19.tags: portrait, smile
 species: 2
 studbook.id: 1780
 zoo: 22

@@ -1252,18 +1252,21 @@ photo.250.author: minatomirai215
 photo.250.commitdate: 2021/6/23
 photo.250.link: https://www.instagram.com/minatomirai215/
 photo.250.tags: paws, portrait, profile, whiskers
-photo.251: https://www.instagram.com/p/CQrFUXGsRH3/media/?size=m
-photo.251.author: wumpwoast
-photo.251.link: https://www.instagram.com/wumpwoast/
-photo.251.tags: close-up, itchy, portrait, whiskers
-photo.252: https://www.instagram.com/p/CQqPoszB5sx/media/?size=m
+photo.251: ig://CQosIbugOg3/m
+photo.251.author: cattail.sapporo
+photo.251.commitdate: 2021/6/28
+photo.251.link: https://www.instagram.com/cattail.sapporo/
+photo.251.tags: baby, keeper, paws, playing, portrait, smile, tail
+photo.252: ig://CQqPoszB5sx/m
 photo.252.author: minatomirai215
+photo.252.commitdate: 2021/6/28
 photo.252.link: https://www.instagram.com/minatomirai215/
 photo.252.tags: portrait, smile, whiskers
-photo.253: https://www.instagram.com/p/CQosIbugOg3/media/?size=m
-photo.253.author: cattail.sapporo
-photo.253.link: https://www.instagram.com/cattail.sapporo/
-photo.253.tags: baby, keeper, paws, playing, portrait, smile, tail
+photo.253: ig://CQrFUXGsRH3/m
+photo.253.author: wumpwoast
+photo.253.commitdate: 2021/6/28
+photo.253.link: https://www.instagram.com/wumpwoast/
+photo.253.tags: close-up, itchy, portrait, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

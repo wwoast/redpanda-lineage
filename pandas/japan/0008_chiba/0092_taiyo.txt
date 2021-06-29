@@ -285,38 +285,45 @@ photo.54.author: shigeko0531
 photo.54.commitdate: 2021/5/3
 photo.54.link: https://www.instagram.com/shigeko0531/
 photo.54.tags: paws, standing, tail
-photo.55: ig://CPAvWVIh-sq/m
+photo.55: ig://COcqAPLhyjY/m
 photo.55.author: shigeko0531
-photo.55.commitdate: 2021/6/16
+photo.55.commitdate: 2021/6/28
 photo.55.link: https://www.instagram.com/shigeko0531/
-photo.55.tags: close-up, laying down, portrait, sleeping, tree
-photo.56: https://www.instagram.com/p/CQqPz0UhWEX/media/?size=m
-photo.56.author: ssc6105
-photo.56.link: https://www.instagram.com/ssc6105/
-photo.56.tags: grooming, tongue, videolink
-photo.57: https://www.instagram.com/p/CQmeiDCBwH_/media/?size=m
-photo.57.author: monmon_redpanda
-photo.57.link: https://www.instagram.com/monmon_redpanda/
-photo.57.tags: portrait, whiskers
-photo.58: https://www.instagram.com/p/CQm-w4qBTC-/media/?size=m
-photo.58.author: panda.daisuki
-photo.58.link: https://www.instagram.com/panda.daisuki/
-photo.58.tags: laying down, portrait
-photo.59: https://www.instagram.com/p/CQYep0khXKa/media/?size=m
+photo.55.tags: bamboo, portrait
+photo.56: ig://CPAvWVIh-sq/m
+photo.56.author: shigeko0531
+photo.56.commitdate: 2021/6/16
+photo.56.link: https://www.instagram.com/shigeko0531/
+photo.56.tags: close-up, laying down, portrait, sleeping, tree
+photo.57: ig://CPS2W9oBmBN/m
+photo.57.author: redpan22
+photo.57.commitdate: 2021/6/28
+photo.57.link: https://www.instagram.com/redpan22/
+photo.57.tags: blink, close-up, tongue, tree
+photo.58: ig://CQYM8lFBL1S/m
+photo.58.author: _saaaaaaah_
+photo.58.commitdate: 2021/6/28
+photo.58.link: https://www.instagram.com/_saaaaaaah_/
+photo.59: ig://CQYep0khXKa/m
 photo.59.author: alto0908
+photo.59.commitdate: 2021/6/28
 photo.59.link: https://www.instagram.com/alto0908/
 photo.59.tags: mofumofu, peek, portrait
-photo.60: https://www.instagram.com/p/CQYM8lFBL1S/media/?size=m
-photo.60.author: _saaaaaaah_
-photo.60.link: https://www.instagram.com/_saaaaaaah_/
-photo.61: https://www.instagram.com/p/CPS2W9oBmBN/media/?size=m
-photo.61.author: redpan22
-photo.61.link: https://www.instagram.com/redpan22/
-photo.61.tags: blink, close-up, tongue, tree
-photo.62: https://www.instagram.com/p/COcqAPLhyjY/media/?size=m
-photo.62.author: shigeko0531
-photo.62.link: https://www.instagram.com/shigeko0531/
-photo.62.tags: bamboo, portrait
+photo.60: ig://CQmeiDCBwH_/m
+photo.60.author: monmon_redpanda
+photo.60.commitdate: 2021/6/28
+photo.60.link: https://www.instagram.com/monmon_redpanda/
+photo.60.tags: portrait, whiskers
+photo.61: ig://CQm-w4qBTC-/m
+photo.61.author: panda.daisuki
+photo.61.commitdate: 2021/6/28
+photo.61.link: https://www.instagram.com/panda.daisuki/
+photo.61.tags: laying down, portrait
+photo.62: ig://CQqPz0UhWEX/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2021/6/28
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: grooming, tongue, videolink
 species: 2
 studbook.id: 13150
 zoo: 8
