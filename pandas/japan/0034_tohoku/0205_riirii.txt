@@ -33,96 +33,86 @@ photo.4.author: zoowfreedom299
 photo.4.commitdate: 2019/6/3
 photo.4.link: https://www.instagram.com/zoowfreedom299/
 photo.4.tags: bamboo, paws, smile
-photo.5: ig://BuGgoEel5F5/m
-photo.5.author: o_deka_ke
-photo.5.commitdate: 2019/4/5
-photo.5.link: https://www.instagram.com/o_deka_ke/
-photo.5.tags: paws
-photo.6: ig://B1yRwRyh3xW/m
-photo.6.author: o_deka_ke
-photo.6.commitdate: 2019/8/31
-photo.6.link: https://www.instagram.com/o_deka_ke/
-photo.6.tags: paws, portrait, smile
-photo.7: ig://B10yXCGBGq5/m
-photo.7.author: zoowfreedom299
-photo.7.commitdate: 2019/9/3
-photo.7.link: https://www.instagram.com/zoowfreedom299/
-photo.7.tags: portrait, smile
-photo.8: ig://B7HRLQLBj_c/m
-photo.8.author: kipekaila
-photo.8.commitdate: 2020/1/14
-photo.8.link: https://www.instagram.com/kipekaila/
-photo.8.tags: grooming, paws, portrait, whiskers
-photo.9: ig://B7b8EFxBYdc/m
+photo.5: ig://B10yXCGBGq5/m
+photo.5.author: zoowfreedom299
+photo.5.commitdate: 2019/9/3
+photo.5.link: https://www.instagram.com/zoowfreedom299/
+photo.5.tags: portrait, smile
+photo.6: ig://B7HRLQLBj_c/m
+photo.6.author: kipekaila
+photo.6.commitdate: 2020/1/14
+photo.6.link: https://www.instagram.com/kipekaila/
+photo.6.tags: grooming, paws, portrait, whiskers
+photo.7: ig://B7b8EFxBYdc/m
+photo.7.author: ssc6105
+photo.7.commitdate: 2020/1/18
+photo.7.link: https://www.instagram.com/ssc6105/
+photo.7.tags: dish, smile, tongue, whiskers
+photo.8: ig://B-lEkFRh1Z1/m
+photo.8.author: zoowfreedom299
+photo.8.commitdate: 2020/4/9
+photo.8.link: https://www.instagram.com/zoowfreedom299/
+photo.8.tags: whiskers
+photo.9: ig://CCZUiD3BVfj/m
 photo.9.author: ssc6105
-photo.9.commitdate: 2020/1/18
+photo.9.commitdate: 2020/9/7
 photo.9.link: https://www.instagram.com/ssc6105/
-photo.9.tags: dish, smile, tongue, whiskers
-photo.10: ig://B-lEkFRh1Z1/m
-photo.10.author: zoowfreedom299
-photo.10.commitdate: 2020/4/9
-photo.10.link: https://www.instagram.com/zoowfreedom299/
-photo.10.tags: whiskers
-photo.11: ig://CCZUiD3BVfj/m
-photo.11.author: ssc6105
-photo.11.commitdate: 2020/9/7
-photo.11.link: https://www.instagram.com/ssc6105/
-photo.11.tags: laying down, paws, peek
-photo.12: ig://CD8mdfghmfl/m
-photo.12.author: daniele.tokyo
-photo.12.commitdate: 2020/8/17
-photo.12.link: https://www.instagram.com/daniele.tokyo/
-photo.12.tags: flowers, paws, standing, tail
-photo.13: ig://CEXsOmBhPvl/m
-photo.13.author: zoowfreedom299
-photo.13.commitdate: 2020/9/3
-photo.13.link: https://www.instagram.com/zoowfreedom299/
-photo.13.tags: peek, tail, whiskers
-photo.14: ig://CE9QwPGho3P/m
-photo.14.author: ifumoto88
-photo.14.commitdate: 2020/9/15
-photo.14.link: https://www.instagram.com/ifumoto88/
-photo.14.tags: portrait, smile
-photo.15: ig://CFDahxaBo1k/m
-photo.15.author: alto0908
-photo.15.commitdate: 2020/9/15
-photo.15.link: https://www.instagram.com/alto0908/
-photo.15.tags: air tasting, laying down, portrait, tongue, whiskers
-photo.16: ig://CGCfxSdBnNR/m
-photo.16.author: daniele.tokyo
-photo.16.commitdate: 2020/11/11
-photo.16.link: https://www.instagram.com/daniele.tokyo/
-photo.16.tags: laying down, paws, portrait, smile, tail
-photo.17: ig://CGIAPnIhV46/m
-photo.17.author: ifumoto88
-photo.17.commitdate: 2020/10/11
-photo.17.link: https://www.instagram.com/ifumoto88/
-photo.17.tags: mofumofu, paws, portrait
-photo.18: ig://CJUToo-hApE/m
-photo.18.author: hidehaya_biei
-photo.18.commitdate: 2021/6/13
-photo.18.link: https://www.instagram.com/hidehaya_biei/
-photo.18.tags: close-up, whiskers
-photo.19: ig://CJsLzpqh6UH/m
+photo.9.tags: laying down, paws, peek
+photo.10: ig://CD8mdfghmfl/m
+photo.10.author: daniele.tokyo
+photo.10.commitdate: 2020/8/17
+photo.10.link: https://www.instagram.com/daniele.tokyo/
+photo.10.tags: flowers, paws, standing, tail
+photo.11: ig://CEXsOmBhPvl/m
+photo.11.author: zoowfreedom299
+photo.11.commitdate: 2020/9/3
+photo.11.link: https://www.instagram.com/zoowfreedom299/
+photo.11.tags: peek, tail, whiskers
+photo.12: ig://CE9QwPGho3P/m
+photo.12.author: ifumoto88
+photo.12.commitdate: 2020/9/15
+photo.12.link: https://www.instagram.com/ifumoto88/
+photo.12.tags: portrait, smile
+photo.13: ig://CFDahxaBo1k/m
+photo.13.author: alto0908
+photo.13.commitdate: 2020/9/15
+photo.13.link: https://www.instagram.com/alto0908/
+photo.13.tags: air tasting, laying down, portrait, tongue, whiskers
+photo.14: ig://CGCfxSdBnNR/m
+photo.14.author: daniele.tokyo
+photo.14.commitdate: 2020/11/11
+photo.14.link: https://www.instagram.com/daniele.tokyo/
+photo.14.tags: laying down, paws, portrait, smile, tail
+photo.15: ig://CGIAPnIhV46/m
+photo.15.author: ifumoto88
+photo.15.commitdate: 2020/10/11
+photo.15.link: https://www.instagram.com/ifumoto88/
+photo.15.tags: mofumofu, paws, portrait
+photo.16: ig://CJUToo-hApE/m
+photo.16.author: hidehaya_biei
+photo.16.commitdate: 2021/6/13
+photo.16.link: https://www.instagram.com/hidehaya_biei/
+photo.16.tags: close-up, whiskers
+photo.17: ig://CJsLzpqh6UH/m
+photo.17.author: hidehaya_biei
+photo.17.commitdate: 2021/1/30
+photo.17.link: https://www.instagram.com/hidehaya_biei/
+photo.17.tags: paws, snow
+photo.18: ig://CKWA08Jhsop/m
+photo.18.author: daniele.tokyo
+photo.18.commitdate: 2021/5/30
+photo.18.link: https://www.instagram.com/daniele.tokyo/
+photo.18.tags: mofumofu, paws, snow, tail
+photo.19: ig://CKiRXDRhErx/m
 photo.19.author: hidehaya_biei
-photo.19.commitdate: 2021/1/30
+photo.19.commitdate: 2021/5/30
 photo.19.link: https://www.instagram.com/hidehaya_biei/
-photo.19.tags: paws, snow
-photo.20: ig://CKWA08Jhsop/m
+photo.19.tags: grooming, paws, tongue
+photo.20: ig://COxQQ_ThFY7/m
 photo.20.author: daniele.tokyo
-photo.20.commitdate: 2021/5/30
+photo.20.commitdate: 2021/6/15
 photo.20.link: https://www.instagram.com/daniele.tokyo/
-photo.20.tags: mofumofu, paws, snow, tail
-photo.21: ig://CKiRXDRhErx/m
-photo.21.author: hidehaya_biei
-photo.21.commitdate: 2021/5/30
-photo.21.link: https://www.instagram.com/hidehaya_biei/
-photo.21.tags: grooming, paws, tongue
-photo.22: ig://COxQQ_ThFY7/m
-photo.22.author: daniele.tokyo
-photo.22.commitdate: 2021/6/15
-photo.22.link: https://www.instagram.com/daniele.tokyo/
-photo.22.tags: nose, peek
+photo.20.tags: nose, peek
 species: 2
 studbook.id: 13149
 zoo: 34
