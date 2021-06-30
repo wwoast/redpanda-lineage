@@ -121,20 +121,21 @@ photo.22.author: bee_san.13
 photo.22.commitdate: 2021/3/4
 photo.22.link: https://www.instagram.com/bee_san.13/
 photo.22.tags: bridge, ear, portrait
-photo.23: ig://CNKnZgLhls4/m
+photo.23: ig://CNFeTn4hTgY/m
 photo.23.author: bee_san.13
-photo.23.commitdate: 2021/4/7
+photo.23.commitdate: 2021/6/29
 photo.23.link: https://www.instagram.com/bee_san.13/
-photo.23.tags: portrait, smile, whiskers
-photo.24: ig://CQUVUaRh_EV/m
-photo.24.author: hamamatsu.chiita
-photo.24.commitdate: 2021/6/23
-photo.24.link: https://www.instagram.com/hamamatsu.chiita/
-photo.24.tags: bamboo, mofumofu, portrait, smile
-photo.25: https://www.instagram.com/p/CNFeTn4hTgY/media/?size=m
-photo.25.author: bee_san.13
-photo.25.link: https://www.instagram.com/bee_san.13/
-photo.25.tags: mofumofu, portrait, smile, whiskers
+photo.23.tags: mofumofu, portrait, smile, whiskers
+photo.24: ig://CNKnZgLhls4/m
+photo.24.author: bee_san.13
+photo.24.commitdate: 2021/4/7
+photo.24.link: https://www.instagram.com/bee_san.13/
+photo.24.tags: portrait, smile, whiskers
+photo.25: ig://CQUVUaRh_EV/m
+photo.25.author: hamamatsu.chiita
+photo.25.commitdate: 2021/6/23
+photo.25.link: https://www.instagram.com/hamamatsu.chiita/
+photo.25.tags: bamboo, mofumofu, portrait, smile
 species: 2
 studbook.id: 14162
 zoo: 31

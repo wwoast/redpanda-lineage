@@ -403,25 +403,26 @@ photo.78.author: fetorus_mami
 photo.78.commitdate: 2021/6/19
 photo.78.link: https://www.instagram.com/fetorus_mami/
 photo.78.tags: bamboo, close-up, paws
-photo.79: ig://COqy8nSB9Cb/m
-photo.79.author: alto0908
-photo.79.commitdate: 2021/6/4
-photo.79.link: https://www.instagram.com/alto0908/
-photo.79.tags: peek, portrait
-photo.80: ig://COsN218BnqM/m
-photo.80.author: ssc6105
+photo.79: ig://COdPnw4h4xB/m
+photo.79.author: sasapan34
+photo.79.commitdate: 2021/6/29
+photo.79.link: https://www.instagram.com/sasapan34/
+photo.79.tags: peek
+photo.80: ig://COqy8nSB9Cb/m
+photo.80.author: alto0908
 photo.80.commitdate: 2021/6/4
-photo.80.link: https://www.instagram.com/ssc6105/
-photo.80.tags: mofumofu, peek
-photo.81: ig://COzoQsPhUBD/m
+photo.80.link: https://www.instagram.com/alto0908/
+photo.80.tags: peek, portrait
+photo.81: ig://COsN218BnqM/m
 photo.81.author: ssc6105
-photo.81.commitdate: 2021/6/6
+photo.81.commitdate: 2021/6/4
 photo.81.link: https://www.instagram.com/ssc6105/
-photo.81.tags: climb, paws, tree
-photo.82: https://www.instagram.com/p/COdPnw4h4xB/media/?size=m
-photo.82.author: sasapan34
-photo.82.link: https://www.instagram.com/sasapan34/
-photo.82.tags: peek
+photo.81.tags: mofumofu, peek
+photo.82: ig://COzoQsPhUBD/m
+photo.82.author: ssc6105
+photo.82.commitdate: 2021/6/6
+photo.82.link: https://www.instagram.com/ssc6105/
+photo.82.tags: climb, paws, tree
 species: 2
 studbook.id: unknown
 zoo: 9

@@ -98,19 +98,21 @@ photo.17.author: ssc6105
 photo.17.commitdate: 2021/5/3
 photo.17.link: https://www.instagram.com/ssc6105/
 photo.17.tags: climb
-photo.18: ig://CQJQtQNBsP5/m
-photo.18.author: fetorus_mami
-photo.18.commitdate: 2021/6/18
-photo.18.link: https://www.instagram.com/fetorus_mami/
-photo.18.tags: laying down, tongue
-photo.19: https://www.instagram.com/p/COeRnyZBOXf/media/?size=m
-photo.19.author: rie_panda55
-photo.19.link: https://www.instagram.com/rie_panda55/
-photo.19.tags: laying down, portrait, smile
-photo.20: https://www.instagram.com/p/COk26ABhTgv/media/?size=m
+photo.18: ig://COeRnyZBOXf/m
+photo.18.author: rie_panda55
+photo.18.commitdate: 2021/6/29
+photo.18.link: https://www.instagram.com/rie_panda55/
+photo.18.tags: laying down, portrait, smile
+photo.19: ig://COk26ABhTgv/m
+photo.19.author: fetorus_mami
+photo.19.commitdate: 2021/6/29
+photo.19.link: https://www.instagram.com/fetorus_mami/
+photo.19.tags: baby, mofumofu, standing, tail
+photo.20: ig://CQJQtQNBsP5/m
 photo.20.author: fetorus_mami
+photo.20.commitdate: 2021/6/18
 photo.20.link: https://www.instagram.com/fetorus_mami/
-photo.20.tags: baby, mofumofu, standing, tail
+photo.20.tags: laying down, tongue
 species: 2
 studbook.id: unknown
 zoo: 53
