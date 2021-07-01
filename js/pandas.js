@@ -1505,8 +1505,13 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
       set = Pandas.searchPandaPhotoTagsIntersect(animal, tags);
     }
     if (fallback == "first") {
+      // Fallback to profile photo if possible
       if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
         set = [Pandas.profilePhoto(animal, "1")];
+      }
+      // If no profile photo either, return empty set
+      if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
+        set = [];
       }
     }
     output = output.concat(set);
