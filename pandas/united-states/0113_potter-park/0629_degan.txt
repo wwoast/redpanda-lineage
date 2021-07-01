@@ -16,7 +16,7 @@ litter: none
 location.1: 105, 2011/6/17
 location.2: 122, 2012/4/12
 location.3: 108, 2018/2/15
-location.4: 113, unknown
+location.4: 113, 2021/1/1
 photo.1: https://www.codaworry.com/images/rpf/deganreid-1-knoxville.jpg
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/4/12
@@ -49,4 +49,5 @@ photo.6.link: https://www.instagram.com/worldthathesees/
 photo.6.tags: laying down, tail
 species: 1
 studbook.id: 1105
+uncertainty: location.4 exact date (pre mating season)
 zoo: 113
