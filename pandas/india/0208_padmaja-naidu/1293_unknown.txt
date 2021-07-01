@@ -1,0 +1,21 @@
+[panda]
+_id: 1293
+birthday: unknown
+birthplace: unknown
+children: 1294
+commitdate: 2021/7/1
+en.name:(no name)
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: (無名)
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: unknown, unknown
+location.2: 208, unknown
+species: 2
+video.1: https://twitter.com/ANI/status/1401223907730853888
+video.1.author: ANI
+video.1.link: https://twitter.com/ANI
+zoo: 208
