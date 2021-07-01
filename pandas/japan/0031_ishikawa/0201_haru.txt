@@ -225,35 +225,36 @@ photo.42.author: merumeru119
 photo.42.commitdate: 2021/5/21
 photo.42.link: https://www.instagram.com/merumeru119/
 photo.42.tags: close-up, whiskers
-photo.43: ig://CMXxYCoBKbX/m
-photo.43.author: hamamatsu.chiita
-photo.43.commitdate: 2021/4/11
-photo.43.link: https://www.instagram.com/hamamatsu.chiita/
-photo.43.tags: close-up, portrait, whiskers
-photo.44: ig://CNDu8syBSvr/m
+photo.43: ig://CMR1O3ghTCm/m
+photo.43.author: bee_san.13
+photo.43.commitdate: 2021/6/30
+photo.43.link: https://www.instagram.com/bee_san.13/
+photo.43.tags: paws, portrait, stretch
+photo.44: ig://CMXxYCoBKbX/m
 photo.44.author: hamamatsu.chiita
-photo.44.commitdate: 2021/4/2
+photo.44.commitdate: 2021/4/11
 photo.44.link: https://www.instagram.com/hamamatsu.chiita/
-photo.44.tags: mofumofu, portrait
-photo.45: ig://CNaFcDJhTz9/m
-photo.45.author: bee_san.13
-photo.45.commitdate: 2021/4/29
-photo.45.link: https://www.instagram.com/bee_san.13/
-photo.45.tags: mofumofu, paws, peek, portrait
-photo.46: ig://CNig-YXBW82/m
-photo.46.author: hamamatsu.chiita
-photo.46.commitdate: 2021/4/20
-photo.46.link: https://www.instagram.com/hamamatsu.chiita/
-photo.46.tags: close-up, portrait, whiskers
-photo.47: ig://CQTNMkIh_P5/m
+photo.44.tags: close-up, portrait, whiskers
+photo.45: ig://CNDu8syBSvr/m
+photo.45.author: hamamatsu.chiita
+photo.45.commitdate: 2021/4/2
+photo.45.link: https://www.instagram.com/hamamatsu.chiita/
+photo.45.tags: mofumofu, portrait
+photo.46: ig://CNaFcDJhTz9/m
+photo.46.author: bee_san.13
+photo.46.commitdate: 2021/4/29
+photo.46.link: https://www.instagram.com/bee_san.13/
+photo.46.tags: mofumofu, paws, peek, portrait
+photo.47: ig://CNig-YXBW82/m
 photo.47.author: hamamatsu.chiita
-photo.47.commitdate: 2021/6/23
+photo.47.commitdate: 2021/4/20
 photo.47.link: https://www.instagram.com/hamamatsu.chiita/
-photo.47.tags: close-up, laying down, portrait, whiskers
-photo.48: https://www.instagram.com/p/CMR1O3ghTCm/media/?size=m
-photo.48.author: bee_san.13
-photo.48.link: https://www.instagram.com/bee_san.13/
-photo.48.tags: paws, portrait, stretch
+photo.47.tags: close-up, portrait, whiskers
+photo.48: ig://CQTNMkIh_P5/m
+photo.48.author: hamamatsu.chiita
+photo.48.commitdate: 2021/6/23
+photo.48.link: https://www.instagram.com/hamamatsu.chiita/
+photo.48.tags: close-up, laying down, portrait, whiskers
 species: 2
 studbook.id: 13171
 zoo: 31

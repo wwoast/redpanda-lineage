@@ -63,60 +63,61 @@ photo.10.author: panda.daisuki
 photo.10.commitdate: 2020/12/25
 photo.10.link: https://www.instagram.com/panda.daisuki/
 photo.10.tags: baby, keeper, laying down, paws, playing, portrait, tail, upside-down
-photo.11: ig://CJyJPNiBGnY/m
+photo.11: ig://CJEF7d3BCoo/m
 photo.11.author: redpan22
-photo.11.commitdate: 2021/3/29
+photo.11.commitdate: 2021/6/30
 photo.11.link: https://www.instagram.com/redpan22/
-photo.11.tags: baby, mofumofu, portrait
-photo.12: ig://CL65nLPhI_e/m
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2021/3/10
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: baby, bamboo, mofumofu, portrait
-photo.13: ig://CMb9mKBhcE9/m
-photo.13.author: daniele.tokyo
-photo.13.commitdate: 2021/3/29
-photo.13.link: https://www.instagram.com/daniele.tokyo/
-photo.13.tags: baby, bite, mofumofu, portrait, tail
-photo.14: ig://CM1M2QahGV3/m
-photo.14.author: resapan.suki
+photo.11.tags: baby, laying down, mofumofu, portrait
+photo.12: ig://CJyJPNiBGnY/m
+photo.12.author: redpan22
+photo.12.commitdate: 2021/3/29
+photo.12.link: https://www.instagram.com/redpan22/
+photo.12.tags: baby, mofumofu, portrait
+photo.13: ig://CL65nLPhI_e/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2021/3/10
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: baby, bamboo, mofumofu, portrait
+photo.14: ig://CMb9mKBhcE9/m
+photo.14.author: daniele.tokyo
 photo.14.commitdate: 2021/3/29
-photo.14.link: https://www.instagram.com/resapan.suki/
-photo.14.tags: paws, portrait, smile, tongue
-photo.15: ig://CM61Dgrh32O/m
-photo.15.author: ssc6105
+photo.14.link: https://www.instagram.com/daniele.tokyo/
+photo.14.tags: baby, bite, mofumofu, portrait, tail
+photo.15: ig://CM1M2QahGV3/m
+photo.15.author: resapan.suki
 photo.15.commitdate: 2021/3/29
-photo.15.link: https://www.instagram.com/ssc6105/
-photo.15.tags: keeper, paws, standing
-photo.16: ig://CNhhmBaBs1q/m
-photo.16.author: redpan22
-photo.16.commitdate: 2021/4/17
-photo.16.link: https://www.instagram.com/redpan22/
-photo.16.tags: close-up, portrait, profile
-photo.17: ig://CN3UgA4hxFW/m
-photo.17.author: ssc6105
-photo.17.commitdate: 2021/5/3
-photo.17.link: https://www.instagram.com/ssc6105/
-photo.17.tags: climb
-photo.18: ig://COeRnyZBOXf/m
-photo.18.author: rie_panda55
-photo.18.commitdate: 2021/6/29
-photo.18.link: https://www.instagram.com/rie_panda55/
-photo.18.tags: laying down, portrait, smile
-photo.19: ig://COk26ABhTgv/m
-photo.19.author: fetorus_mami
+photo.15.link: https://www.instagram.com/resapan.suki/
+photo.15.tags: paws, portrait, smile, tongue
+photo.16: ig://CM61Dgrh32O/m
+photo.16.author: ssc6105
+photo.16.commitdate: 2021/3/29
+photo.16.link: https://www.instagram.com/ssc6105/
+photo.16.tags: keeper, paws, standing
+photo.17: ig://CNhhmBaBs1q/m
+photo.17.author: redpan22
+photo.17.commitdate: 2021/4/17
+photo.17.link: https://www.instagram.com/redpan22/
+photo.17.tags: close-up, portrait, profile
+photo.18: ig://CN3UgA4hxFW/m
+photo.18.author: ssc6105
+photo.18.commitdate: 2021/5/3
+photo.18.link: https://www.instagram.com/ssc6105/
+photo.18.tags: climb
+photo.19: ig://COeRnyZBOXf/m
+photo.19.author: rie_panda55
 photo.19.commitdate: 2021/6/29
-photo.19.link: https://www.instagram.com/fetorus_mami/
-photo.19.tags: baby, mofumofu, standing, tail
-photo.20: ig://CQJQtQNBsP5/m
+photo.19.link: https://www.instagram.com/rie_panda55/
+photo.19.tags: laying down, portrait, smile
+photo.20: ig://COk26ABhTgv/m
 photo.20.author: fetorus_mami
-photo.20.commitdate: 2021/6/18
+photo.20.commitdate: 2021/6/29
 photo.20.link: https://www.instagram.com/fetorus_mami/
-photo.20.tags: laying down, tongue
-photo.21: https://www.instagram.com/p/CJEF7d3BCoo/media/?size=m
-photo.21.author: redpan22
-photo.21.link: https://www.instagram.com/redpan22/
-photo.21.tags: baby, laying down, mofumofu, portrait
+photo.20.tags: baby, mofumofu, standing, tail
+photo.21: ig://CQJQtQNBsP5/m
+photo.21.author: fetorus_mami
+photo.21.commitdate: 2021/6/18
+photo.21.link: https://www.instagram.com/fetorus_mami/
+photo.21.tags: laying down, tongue
 species: 2
 studbook.id: unknown
 zoo: 53
