@@ -148,8 +148,9 @@ photo.27.author: daniele.tokyo
 photo.27.commitdate: 2021/6/23
 photo.27.link: https://www.instagram.com/daniele.tokyo/
 photo.27.tags: baby, paws, window
-photo.28: https://www.instagram.com/p/CQuJaIshSRB/media/?size=m
+photo.28: ig://CQuJaIshSRB/m
 photo.28.author: panda.daisuki
+photo.28.commitdate: 2021/7/1
 photo.28.link: https://www.instagram.com/panda.daisuki/
 photo.28.tags: peek, portrait, tail
 species: 2

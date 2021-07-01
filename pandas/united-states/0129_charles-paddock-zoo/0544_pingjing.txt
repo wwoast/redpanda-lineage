@@ -48,8 +48,9 @@ photo.7.author: wumpwoast
 photo.7.commitdate: 2021/6/30
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: bamboo, bite, portrait, tail
-photo.8: https://www.instagram.com/p/CQtLimOljVN/media/?size=m
+photo.8: ig://CQtLimOljVN/m
 photo.8.author: charlespaddockzoo
+photo.8.commitdate: 2021/7/1
 photo.8.link: https://www.instagram.com/charlespaddockzoo/
 photo.8.tags: bamboo, laying down, paws, portrait, tail
 species: 1
