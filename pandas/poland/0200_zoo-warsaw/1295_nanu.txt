@@ -1,0 +1,17 @@
+[panda]
+_id: 1295
+birthday: unknown
+birthplace: 266
+commitdate: 2021/7/1
+en.name: Nanu
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ナヌ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 266, unknown
+location.2: 200, 2020/6/13
+species: 1
+zoo: 200
