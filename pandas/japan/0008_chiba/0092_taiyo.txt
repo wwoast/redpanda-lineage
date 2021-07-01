@@ -324,17 +324,20 @@ photo.62.author: ssc6105
 photo.62.commitdate: 2021/6/28
 photo.62.link: https://www.instagram.com/ssc6105/
 photo.62.tags: grooming, tongue, videolink
-photo.63: https://www.instagram.com/p/CQuW6Vmhm0N/media/?size=m
+photo.63: ig://CQuW6Vmhm0N/m
 photo.63.author: alto0908
+photo.63.commitdate: 2021/7/1
 photo.63.link: https://www.instagram.com/alto0908/
 photo.63.tags: close-up, nose, portrait, whiskers
-photo.64: https://www.instagram.com/p/CQvwJsKBu2M/media/?size=m
-photo.64.author: panda.daisuki
-photo.64.link: https://www.instagram.com/panda.daisuki/
-photo.64.tags: mofumofu, portrait, tail
-photo.65: https://www.instagram.com/p/CQu11hNhIiA/media/?size=m
-photo.65.author: miis_98
-photo.65.link: https://www.instagram.com/miis_98/
+photo.64: ig://CQu11hNhIiA/m
+photo.64.author: miis_98
+photo.64.commitdate: 2021/7/1
+photo.64.link: https://www.instagram.com/miis_98/
+photo.65: ig://CQvwJsKBu2M/m
+photo.65.author: panda.daisuki
+photo.65.commitdate: 2021/7/1
+photo.65.link: https://www.instagram.com/panda.daisuki/
+photo.65.tags: mofumofu, portrait, tail
 species: 2
 studbook.id: 13150
 zoo: 8

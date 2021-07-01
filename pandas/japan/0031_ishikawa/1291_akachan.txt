@@ -1,4 +1,4 @@
-[media]
+[panda]
 _id: 1291
 birthday: 2021/6/21
 birthplace: 31
@@ -11,8 +11,7 @@ gender: unknown
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
-language.order: jp, en
+language.order: en, jp
 litter: none
 species: 2
-studbook.id: unknown
 zoo: 31

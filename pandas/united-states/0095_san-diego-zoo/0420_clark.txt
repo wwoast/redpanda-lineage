@@ -154,8 +154,9 @@ photo.28.author: carsontheredpanda
 photo.28.commitdate: 2020/9/26
 photo.28.link: https://www.instagram.com/carsontheredpanda/
 photo.28.tags: portrait, smile, tongue, whiskers
-photo.29: https://www.instagram.com/p/CQutpGBB-pe/media/?size=m
+photo.29: ig://CQutpGBB-pe/m
 photo.29.author: carsontheredpanda
+photo.29.commitdate: 2021/7/1
 photo.29.link: https://www.instagram.com/carsontheredpanda/
 photo.29.tags: portrait, smile, tongue
 species: 2

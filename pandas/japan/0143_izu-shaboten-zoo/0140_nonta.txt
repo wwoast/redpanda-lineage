@@ -386,8 +386,9 @@ photo.74.author: pink.b22
 photo.74.commitdate: 2021/5/31
 photo.74.link: https://www.instagram.com/pink.b22/
 photo.74.tags: apple time, portrait, videolink
-photo.75: https://www.instagram.com/p/CQxYY5gBs_7/media/?size=m
+photo.75: ig://CQxYY5gBs_7/m
 photo.75.author: miis_98
+photo.75.commitdate: 2021/7/1
 photo.75.link: https://www.instagram.com/miis_98/
 photo.75.tags: apple time, paws, portrait, slobber
 species: 2
