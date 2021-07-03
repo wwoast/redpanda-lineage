@@ -2515,7 +2515,7 @@ Language.L.tags = {
        "es": ["flor de cerezo", "flores de cerezo"],
        "jp": ["桜"],
        "np": ["चेरी खिल"],
-       "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja", "sakura"]
+       "pt": ["flor de cerejeira", "flores de cerejeira", "flor de cereja", "flores de cereja"]
   },
   "climb": {
        "cn": ["爬"],
