@@ -386,19 +386,21 @@ photo.74.author: pink.b22
 photo.74.commitdate: 2021/5/31
 photo.74.link: https://www.instagram.com/pink.b22/
 photo.74.tags: apple time, portrait, videolink
-photo.75: ig://CQxYY5gBs_7/m
+photo.75: ig://CQj7MdzBE9d/m
 photo.75.author: miis_98
-photo.75.commitdate: 2021/7/1
+photo.75.commitdate: 2021/7/3
 photo.75.link: https://www.instagram.com/miis_98/
-photo.75.tags: apple time, paws, portrait, slobber
-photo.76: https://www.instagram.com/p/CQpjqqsB6MC/media/?size=m
+photo.75.tags: itchy, mofumofu, paws, portrait, smile
+photo.76: ig://CQpjqqsB6MC/m
 photo.76.author: kaoru_a358
+photo.76.commitdate: 2021/7/3
 photo.76.link: https://www.instagram.com/kaoru_a358/
 photo.76.tags: apple time, paws, smile
-photo.77: https://www.instagram.com/p/CQj7MdzBE9d/media/?size=m
+photo.77: ig://CQxYY5gBs_7/m
 photo.77.author: miis_98
+photo.77.commitdate: 2021/7/1
 photo.77.link: https://www.instagram.com/miis_98/
-photo.77.tags: itchy, mofumofu, paws, portrait, smile
+photo.77.tags: apple time, paws, portrait, slobber
 species: 2
 studbook.id: 12102
 zoo: 143

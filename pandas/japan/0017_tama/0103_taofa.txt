@@ -428,22 +428,26 @@ photo.83.author: ck.chie
 photo.83.commitdate: 2021/5/31
 photo.83.link: https://www.instagram.com/ck.chie/
 photo.83.tags: smile, tongue, wink
-photo.84: https://www.instagram.com/p/CQio1Rnh2Um/media/?size=m
-photo.84.author: fetorus_mami
-photo.84.link: https://www.instagram.com/fetorus_mami/
-photo.84.tags: portrait, smile, whiskers
-photo.85: https://www.instagram.com/p/CP7yhuAhKR5/media/?size=m
+photo.84: ig://CP6tNhNhA9U/m
+photo.84.author: ck.chie
+photo.84.commitdate: 2021/7/3
+photo.84.link: https://www.instagram.com/ck.chie/
+photo.84.tags: paws, portrait, smile, whiskers
+photo.85: ig://CP7yhuAhKR5/m
 photo.85.author: pink.b22
+photo.85.commitdate: 2021/7/3
 photo.85.link: https://www.instagram.com/pink.b22/
 photo.85.tags: laying down, paws, portrait, smile, tail, tongue
-photo.86: https://www.instagram.com/p/CP8HXOgBOvv/media/?size=m
+photo.86: ig://CP8HXOgBOvv/m
 photo.86.author: hamiiiii831_
+photo.86.commitdate: 2021/7/3
 photo.86.link: https://www.instagram.com/hamiiiii831_/
 photo.86.tags: paws, smile, whiskers
-photo.87: https://www.instagram.com/p/CP6tNhNhA9U/media/?size=m
-photo.87.author: ck.chie
-photo.87.link: https://www.instagram.com/ck.chie/
-photo.87.tags: paws, portrait, smile, whiskers
+photo.87: ig://CQio1Rnh2Um/m
+photo.87.author: fetorus_mami
+photo.87.commitdate: 2021/7/3
+photo.87.link: https://www.instagram.com/fetorus_mami/
+photo.87.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

@@ -723,8 +723,9 @@ photo.142.author: daniele.tokyo
 photo.142.commitdate: 2021/6/19
 photo.142.link: https://www.instagram.com/daniele.tokyo/
 photo.142.tags: paws, peek
-photo.143: https://www.instagram.com/p/CQjzrbCBhOU/media/?size=m
+photo.143: ig://CQjzrbCBhOU/m
 photo.143.author: panda.daisuki
+photo.143.commitdate: 2021/7/3
 photo.143.link: https://www.instagram.com/panda.daisuki/
 photo.143.tags: paws, peek, portrait, tail, upside-down
 species: 2

@@ -23,8 +23,9 @@ photo.2.author: johnballzoogr
 photo.2.commitdate: 2020/11/28
 photo.2.link: https://www.instagram.com/johnballzoogr/
 photo.2.tags: baby, mofumofu, portrait, white face
-photo.3: https://www.instagram.com/p/CQhJapajiIy/media/?size=m
+photo.3: ig://CQhJapajiIy/m
 photo.3.author: johnballzoogr
+photo.3.commitdate: 2021/7/3
 photo.3.link: https://www.instagram.com/johnballzoogr/
 photo.3.tags: bamboo, portrait, white face
 species: 1

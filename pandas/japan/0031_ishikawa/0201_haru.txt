@@ -255,8 +255,9 @@ photo.48.author: hamamatsu.chiita
 photo.48.commitdate: 2021/6/23
 photo.48.link: https://www.instagram.com/hamamatsu.chiita/
 photo.48.tags: close-up, laying down, portrait, whiskers
-photo.49: https://www.instagram.com/p/CQikxrDBfQb/media/?size=m
+photo.49: ig://CQikxrDBfQb/m
 photo.49.author: bee_san.13
+photo.49.commitdate: 2021/7/3
 photo.49.link: https://www.instagram.com/bee_san.13/
 photo.49.tags: portrait, tree
 species: 2
