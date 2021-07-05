@@ -1267,8 +1267,9 @@ photo.253.author: wumpwoast
 photo.253.commitdate: 2021/6/28
 photo.253.link: https://www.instagram.com/wumpwoast/
 photo.253.tags: close-up, itchy, portrait, whiskers
-photo.254: https://www.instagram.com/p/CQ5mXZxhTBz/media/?size=m
+photo.254: ig://CQ5mXZxhTBz/m
 photo.254.author: gloryeui
+photo.254.commitdate: 2021/7/5
 photo.254.link: https://www.instagram.com/gloryeui/
 photo.254.tags: portrait, tail
 species: 2

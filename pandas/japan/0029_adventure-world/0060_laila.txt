@@ -196,14 +196,16 @@ photo.36.author: chankunvv
 photo.36.commitdate: 2021/4/17
 photo.36.link: https://www.instagram.com/chankunvv/
 photo.36.tags: dish, nose, portrait
-photo.37: https://www.instagram.com/p/CQ8bvmeBLH5/media/?size=m
+photo.37: ig://CP278yIhF44/m
 photo.37.author: craig_craig_craig
+photo.37.commitdate: 2021/7/5
 photo.37.link: https://www.instagram.com/craig_craig_craig/
-photo.37.tags: dish, nose, portrait, videolink
-photo.38: https://www.instagram.com/p/CP278yIhF44/media/?size=m
+photo.37.tags: dish, lunch, nose, portrait, videolink
+photo.38: ig://CQ8bvmeBLH5/m
 photo.38.author: craig_craig_craig
+photo.38.commitdate: 2021/7/5
 photo.38.link: https://www.instagram.com/craig_craig_craig/
-photo.38.tags: dish, lunch, nose, portrait, videolink
+photo.38.tags: dish, nose, portrait, videolink
 species: 2
 studbook.id: 10111
 uncertainty: death exact date

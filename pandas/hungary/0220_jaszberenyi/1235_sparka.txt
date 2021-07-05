@@ -31,8 +31,9 @@ photo.3.author: Balázs Gémesi
 photo.3.commitdate: 2020/11/24
 photo.3.link: https://www.szoljon.hu/galeria/bemutattak-sparkat-a-voros-pandakolykot/
 photo.3.tags: ear, nose, eye, tail, portrait, keeper, paws
-photo.4: https://www.instagram.com/p/CQ8Q2BCBnfg/media/?size=m
+photo.4: ig://CQ8Q2BCBnfg/m
 photo.4.author: balathruin
+photo.4.commitdate: 2021/7/5
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: paws, portrait, profile, whiskers
 species: 1
