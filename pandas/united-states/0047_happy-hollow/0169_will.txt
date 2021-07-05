@@ -294,8 +294,9 @@ photo.57.author: wumpwoast
 photo.57.commitdate: 2021/6/16
 photo.57.link: https://www.instagram.com/wumpwoast/
 photo.57.tags: bamboo, paws, portrait, smile
-photo.58: https://www.instagram.com/p/CQ6UZ3erLbs/media/?size=m
+photo.58: ig://CQ6UZ3erLbs/m
 photo.58.author: hhpzoo
+photo.58.commitdate: 2021/7/4
 photo.58.link: https://www.instagram.com/hhpzoo/
 photo.58.tags: bamboo, paws, tongue
 species: 1

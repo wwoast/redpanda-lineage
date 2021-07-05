@@ -268,8 +268,9 @@ photo.51.author: mariten1119
 photo.51.commitdate: 2021/4/20
 photo.51.link: https://www.instagram.com/mariten1119/
 photo.51.tags: apple time, keeper, paws, portrait, standing
-photo.52: https://www.instagram.com/p/CQ4aL9nhkA9/media/?size=m
+photo.52: ig://CQ4aL9nhkA9/m
 photo.52.author: hamamatsu.chiita
+photo.52.commitdate: 2021/7/4
 photo.52.link: portrait, whiskers
 species: 2
 studbook.id: 14166

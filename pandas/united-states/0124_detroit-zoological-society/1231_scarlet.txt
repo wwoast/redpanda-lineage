@@ -23,8 +23,9 @@ photo.2.author: panakk
 photo.2.commitdate: 2020/12/6
 photo.2.link: https://www.instagram.com/panakk/
 photo.2.tags: baby, peek, portrait
-photo.3: https://www.instagram.com/p/CQyfhJBLLeH/media/?size=m
+photo.3: ig://CQyfhJBLLeH/m
 photo.3.author: detroitzoo
+photo.3.commitdate: 2021/7/4
 photo.3.link: https://www.instagram.com/detroitzoo/
 photo.3.tags: bamboo, paws, white face
 species: 1

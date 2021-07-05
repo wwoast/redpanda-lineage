@@ -216,8 +216,9 @@ photo.41.author: omutacityzoo
 photo.41.commitdate: 2021/6/29
 photo.41.link: https://www.instagram.com/omutacityzoo/
 photo.41.tags: bamboo, climb, paws, portrait, tree
-photo.42: https://www.instagram.com/p/CQ3UAlpBLZD/media/?size=m
+photo.42: ig://CQ3UAlpBLZD/m
 photo.42.author: yossi929
+photo.42.commitdate: 2021/7/4
 photo.42.link: https://www.instagram.com/yossi929/
 photo.42.tags: bamboo, mofumofu, paws, whiskers
 species: 2

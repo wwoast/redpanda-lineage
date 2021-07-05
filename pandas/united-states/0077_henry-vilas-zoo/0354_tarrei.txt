@@ -131,8 +131,9 @@ photo.23.author: henryvilaszoo
 photo.23.commitdate: 2020/9/4
 photo.23.link: https://www.instagram.com/henryvilaszoo/
 photo.23.tags: laying down, paws, sleeping, tail, tree
-photo.24: https://www.instagram.com/p/CQyZQcdNAXG/media/?size=m
+photo.24: ig://CQyZQcdNAXG/m
 photo.24.author: henryvilaszoo
+photo.24.commitdate: 2021/7/4
 photo.24.link: https://www.instagram.com/henryvilaszoo/
 photo.24.tags: paws, portrait, whiskers
 species: 2

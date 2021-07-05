@@ -107,8 +107,9 @@ photo.19.author: kisshan324
 photo.19.commitdate: 2021/6/27
 photo.19.link: https://www.instagram.com/kisshan324/
 photo.19.tags: portrait
-photo.20: https://www.instagram.com/p/CQ3Z-gzhzWa/media/?size=m
+photo.20: ig://CQ3Z-gzhzWa/m
 photo.20.author: fetorus_mami
+photo.20.commitdate: 2021/7/4
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: close-up, whiskers
 species: 2
