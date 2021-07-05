@@ -4,6 +4,7 @@ birthday: 2010/7/10
 birthplace: 7
 children: 62, 65, 64, 63, 305
 commitdate: 2018/6/22
+death: 2021/7/1
 en.name: Laila
 en.nicknames: none
 en.othernames: Lila, Lyra, Lyla, Raira, Rira
@@ -195,5 +196,15 @@ photo.36.author: chankunvv
 photo.36.commitdate: 2021/4/17
 photo.36.link: https://www.instagram.com/chankunvv/
 photo.36.tags: dish, nose, portrait
+photo.37: https://www.instagram.com/p/CQ8bvmeBLH5/media/?size=m
+photo.37.author: craig_craig_craig
+photo.37.link: https://www.instagram.com/craig_craig_craig/
+photo.37.tags: dish, nose, portrait, videolink
+photo.38: https://www.instagram.com/p/CP278yIhF44/media/?size=m
+photo.38.author: craig_craig_craig
+photo.38.link: https://www.instagram.com/craig_craig_craig/
+photo.38.tags: dish, lunch, nose, portrait, videolink
 species: 2
+studbook.id: 10111
+uncertainty: death exact date
 zoo: 29

@@ -4,6 +4,7 @@ birthday: 2010/7/10
 birthplace: 7
 children: 51, 284, 200
 commitdate: 2018/7/22
+death: 2018/6/1
 en.name: Lily
 en.nicknames: none
 en.othernames: none
@@ -88,4 +89,5 @@ photo.14.link: https://www.instagram.com/from_chile/
 photo.14.tags: mofumofu
 species: 2
 studbook.id: 10110
+uncertainty: death date
 zoo: 56
