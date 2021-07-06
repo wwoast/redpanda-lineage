@@ -63,8 +63,9 @@ photo.10.author: kojikoji2011
 photo.10.commitdate: 2021/6/8
 photo.10.link: https://www.instagram.com/kojikoji2011/
 photo.10.tags: bamboo, portrait, profile, whiskers
-photo.11: https://www.instagram.com/p/CQ8cAgWhEZP/media/?size=m
+photo.11: ig://CQ8cAgWhEZP/m
 photo.11.author: kojikoji2011
+photo.11.commitdate: 2021/7/6
 photo.11.link: https://www.instagram.com/kojikoji2011/
 photo.11.tags: bamboo, tongue
 species: 2

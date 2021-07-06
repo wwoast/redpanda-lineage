@@ -484,25 +484,26 @@ photo.94.author: apple_jasmine33
 photo.94.commitdate: 2021/4/17
 photo.94.link: https://www.instagram.com/apple_jasmine33/
 photo.94.tags: apple time, peek, portrait, tongue, whiskers
-photo.95: ig://CPQN86yBlHW/m
-photo.95.author: jas_forever_love
-photo.95.commitdate: 2021/6/8
-photo.95.link: https://www.instagram.com/jas_forever_love/
-photo.95.tags: peek, portrait, tree, whiskers
-photo.96: ig://CP232HmhTob/m
+photo.95: ig://COAsFpDh8Ts/m
+photo.95.author: kisshan324
+photo.95.commitdate: 2021/7/6
+photo.95.link: https://www.instagram.com/kisshan324/
+photo.95.tags: smile, tail
+photo.96: ig://CPQN86yBlHW/m
 photo.96.author: jas_forever_love
-photo.96.commitdate: 2021/6/19
+photo.96.commitdate: 2021/6/8
 photo.96.link: https://www.instagram.com/jas_forever_love/
-photo.96.tags: laying down, portrait, smile, tongue, tree
-photo.97: ig://CQn-DwrhgJu/m
-photo.97.author: apple_jasmine33
-photo.97.commitdate: 2021/7/3
-photo.97.link: https://www.instagram.com/apple_jasmine33/
-photo.97.tags: laying down, smile, tail, tree
-photo.98: https://www.instagram.com/p/COAsFpDh8Ts/media/?size=m
-photo.98.author: kisshan324
-photo.98.link: https://www.instagram.com/kisshan324/
-photo.98.tags: smile, tail
+photo.96.tags: peek, portrait, tree, whiskers
+photo.97: ig://CP232HmhTob/m
+photo.97.author: jas_forever_love
+photo.97.commitdate: 2021/6/19
+photo.97.link: https://www.instagram.com/jas_forever_love/
+photo.97.tags: laying down, portrait, smile, tongue, tree
+photo.98: ig://CQn-DwrhgJu/m
+photo.98.author: apple_jasmine33
+photo.98.commitdate: 2021/7/3
+photo.98.link: https://www.instagram.com/apple_jasmine33/
+photo.98.tags: laying down, smile, tail, tree
 species: 2
 studbook.id: 1786
 zoo: 2
