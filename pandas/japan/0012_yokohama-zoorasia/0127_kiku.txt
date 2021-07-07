@@ -603,19 +603,21 @@ photo.118.author: miis_98
 photo.118.commitdate: 2021/6/16
 photo.118.link: https://www.instagram.com/miis_98/
 photo.118.tags: apple time, keeper, paws, smile, whiskers
-photo.119: ig://CPlN_WtBZjI/m
-photo.119.author: minatomirai215
-photo.119.commitdate: 2021/6/20
-photo.119.link: https://www.instagram.com/minatomirai215/
-photo.119.tags: apple time, portrait, smile
-photo.120: https://www.instagram.com/p/CPOw6rMhDw7/media/?size=m
+photo.119: ig://CPNhgS-B4lM/m
+photo.119.author: ssc6105
+photo.119.commitdate: 2021/7/7
+photo.119.link: https://www.instagram.com/ssc6105/
+photo.119.tags: peek, tail, tree
+photo.120: ig://CPOw6rMhDw7/m
 photo.120.author: ssc6105
+photo.120.commitdate: 2021/7/7
 photo.120.link: https://www.instagram.com/ssc6105/
 photo.120.tags: keeper, whiskers
-photo.121: https://www.instagram.com/p/CPNhgS-B4lM/media/?size=m
-photo.121.author: ssc6105
-photo.121.link: https://www.instagram.com/ssc6105/
-photo.121.tags: peek, tail, tree
+photo.121: ig://CPlN_WtBZjI/m
+photo.121.author: minatomirai215
+photo.121.commitdate: 2021/6/20
+photo.121.link: https://www.instagram.com/minatomirai215/
+photo.121.tags: apple time, portrait, smile
 species: 2
 studbook.id: 15135
 zoo: 12

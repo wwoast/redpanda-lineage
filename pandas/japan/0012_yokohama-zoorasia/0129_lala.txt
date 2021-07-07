@@ -222,8 +222,9 @@ photo.42.author: miis_98
 photo.42.commitdate: 2021/6/16
 photo.42.link: https://www.instagram.com/miis_98/
 photo.42.tags: apple time, mofumofu, paws, portrait, tongue
-photo.43: https://www.instagram.com/p/CPQoutUBT2B/media/?size=m
+photo.43: ig://CPQoutUBT2B/m
 photo.43.author: minatomirai215
+photo.43.commitdate: 2021/7/7
 photo.43.link: https://www.instagram.com/minatomirai215/
 photo.43.tags: mofumofu, portrait, whiskers
 species: 2

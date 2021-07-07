@@ -638,15 +638,16 @@ photo.125.author: fetorus_mami
 photo.125.commitdate: 2021/6/4
 photo.125.link: https://www.instagram.com/fetorus_mami/
 photo.125.tags: portrait, tree, white face
-photo.126: ig://CQNLJZELhox/m
-photo.126.author: miis_98
-photo.126.commitdate: 2021/6/19
-photo.126.link: https://www.instagram.com/miis_98/
-photo.126.tags: bamboo, paws, portrait
-photo.127: https://www.instagram.com/p/CPLHnPbBVVM/media/?size=m
-photo.127.author: fetorus_mami
-photo.127.link: https://www.instagram.com/fetorus_mami/
-photo.127.tags: portrait, white face
+photo.126: ig://CPLHnPbBVVM/m
+photo.126.author: fetorus_mami
+photo.126.commitdate: 2021/7/7
+photo.126.link: https://www.instagram.com/fetorus_mami/
+photo.126.tags: portrait, white face
+photo.127: ig://CQNLJZELhox/m
+photo.127.author: miis_98
+photo.127.commitdate: 2021/6/19
+photo.127.link: https://www.instagram.com/miis_98/
+photo.127.tags: bamboo, paws, portrait
 species: 2
 studbook.id: unknown
 zoo: 9

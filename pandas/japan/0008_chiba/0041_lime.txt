@@ -434,8 +434,9 @@ photo.84.author: ssc6105
 photo.84.commitdate: 2021/4/10
 photo.84.link: https://www.instagram.com/ssc6105/
 photo.84.tags: bamboo, paws, smile, standing
-photo.85: https://www.instagram.com/p/CPLN8z1hyKI/media/?size=m
+photo.85: ig://CPLN8z1hyKI/m
 photo.85.author: mini_cochi
+photo.85.commitdate: 2021/7/7
 photo.85.link: https://www.instagram.com/mini_cochi/
 photo.85.tags: portrait, whiskers
 species: 2

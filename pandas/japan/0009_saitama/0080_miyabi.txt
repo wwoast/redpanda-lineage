@@ -468,20 +468,21 @@ photo.92.author: fetorus_mami
 photo.92.commitdate: 2021/6/6
 photo.92.link: https://www.instagram.com/fetorus_mami/
 photo.92.tags: portrait, whiskers
-photo.93: ig://CQKLA1OB1Gh/m
-photo.93.author: miis_98
-photo.93.commitdate: 2021/6/19
-photo.93.link: https://www.instagram.com/miis_98/
-photo.93.tags: bamboo, paws, portrait, standing
-photo.94: ig://CQiY7Z6BYTX/m
-photo.94.author: ssc6105
-photo.94.commitdate: 2021/7/3
-photo.94.link: https://www.instagram.com/ssc6105/
-photo.94.tags: bamboo, paws, whiskers, wink
-photo.95: https://www.instagram.com/p/CPLGSqXhlf-/media/?size=m
-photo.95.author: fetorus_mami
-photo.95.link: https://www.instagram.com/fetorus_mami/
-photo.95.tags: bridge, laying down, tree
+photo.93: ig://CPLGSqXhlf-/m
+photo.93.author: fetorus_mami
+photo.93.commitdate: 2021/7/7
+photo.93.link: https://www.instagram.com/fetorus_mami/
+photo.93.tags: bridge, laying down, tree
+photo.94: ig://CQKLA1OB1Gh/m
+photo.94.author: miis_98
+photo.94.commitdate: 2021/6/19
+photo.94.link: https://www.instagram.com/miis_98/
+photo.94.tags: bamboo, paws, portrait, standing
+photo.95: ig://CQiY7Z6BYTX/m
+photo.95.author: ssc6105
+photo.95.commitdate: 2021/7/3
+photo.95.link: https://www.instagram.com/ssc6105/
+photo.95.tags: bamboo, paws, whiskers, wink
 species: 2
 studbook.id: 1772
 zoo: 9

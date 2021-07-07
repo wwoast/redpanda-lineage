@@ -600,15 +600,16 @@ photo.120.author: sakikukeco
 photo.120.commitdate: 2021/5/8
 photo.120.link: https://www.instagram.com/sakikukeco/
 photo.120.tags: laying down, paws, playing, portrait, smile, tail, upside-down
-photo.121: ig://CQtTrgahxxm/m
-photo.121.author: sakikukeco
-photo.121.commitdate: 2021/7/1
-photo.121.link: https://www.instagram.com/sakikukeco/
-photo.121.tags: paws, portrait, tail
-photo.122: https://www.instagram.com/p/CPQKgsuh92k/media/?size=m
-photo.122.author: makimaru18
-photo.122.link: https://www.instagram.com/makimaru18/
-photo.122.tags: portrait, whiskers
+photo.121: ig://CPQKgsuh92k/m
+photo.121.author: makimaru18
+photo.121.commitdate: 2021/7/7
+photo.121.link: https://www.instagram.com/makimaru18/
+photo.121.tags: portrait, whiskers
+photo.122: ig://CQtTrgahxxm/m
+photo.122.author: sakikukeco
+photo.122.commitdate: 2021/7/1
+photo.122.link: https://www.instagram.com/sakikukeco/
+photo.122.tags: paws, portrait, tail
 species: 2
 studbook.id: 13166
 zoo: 22

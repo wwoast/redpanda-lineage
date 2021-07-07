@@ -195,8 +195,9 @@ photo.36.author: itsuak
 photo.36.commitdate: 2021/6/6
 photo.36.link: https://www.instagram.com/itsuak/
 photo.36.tags: grooming, mofumofu, paws, portrait
-photo.37: https://www.instagram.com/p/CPN-aq4LCVn/media/?size=m
+photo.37: ig://CPN-aq4LCVn/m
 photo.37.author: itsuak
+photo.37.commitdate: 2021/7/7
 photo.37.link: https://www.instagram.com/itsuak/
 photo.37.tags: laying down, sleeping
 species: 2

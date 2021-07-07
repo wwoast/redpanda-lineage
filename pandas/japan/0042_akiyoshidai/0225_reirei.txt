@@ -115,20 +115,21 @@ photo.20.author: re_ichimaru
 photo.20.commitdate: 2021/6/16
 photo.20.link: https://www.instagram.com/re_ichimaru/
 photo.20.tags: laying down, portrait, tail, wet
-photo.21: ig://CPc3BrqBqAv/m
-photo.21.author: kojikoji2011
-photo.21.commitdate: 2021/6/7
-photo.21.link: https://www.instagram.com/kojikoji2011/
-photo.21.tags: peek, portrait, tree, whiskers
-photo.22: ig://CPqDQ1IB5Ve/m
+photo.21: ig://CPPamZ4hIJa/m
+photo.21.author: sasapan34
+photo.21.commitdate: 2021/7/7
+photo.21.link: https://www.instagram.com/sasapan34/
+photo.21.tags: apple time
+photo.22: ig://CPc3BrqBqAv/m
 photo.22.author: kojikoji2011
 photo.22.commitdate: 2021/6/7
 photo.22.link: https://www.instagram.com/kojikoji2011/
-photo.22.tags: bamboo, paws, smile
-photo.23: https://www.instagram.com/p/CPPamZ4hIJa/media/?size=m
-photo.23.author: sasapan34
-photo.23.link: https://www.instagram.com/sasapan34/
-photo.23.tags: apple time
+photo.22.tags: peek, portrait, tree, whiskers
+photo.23: ig://CPqDQ1IB5Ve/m
+photo.23.author: kojikoji2011
+photo.23.commitdate: 2021/6/7
+photo.23.link: https://www.instagram.com/kojikoji2011/
+photo.23.tags: bamboo, paws, smile
 species: 2
 studbook.id: 1686
 zoo: 42
