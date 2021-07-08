@@ -793,10 +793,16 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
     chosen_litter_ids.unshift(chosen_id);
     chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
   }
-  // Insert the litter mate into the list next to their sibling
+  // Insert the litter mate into the list next to their sibling.
   var s2_ids = [];
   var after_litter = [];
   var remaining_count = max_count - chosen_litter_ids.length;
+  if (no_litters.length < remaining_count) {
+    // Don't display a birthday panda unless it can be with their
+    // litter-mate. We could backfill the no_litters with litter 
+    // pandas, but it means litter mates wouldn't be shown
+    remaining_count = no_litters.length;
+  }
   // Add animals from the no-litter list
   for (var i = 0; i < remaining_count; i++) {
     var current_id = no_litters[i];
