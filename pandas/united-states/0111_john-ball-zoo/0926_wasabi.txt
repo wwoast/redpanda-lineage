@@ -51,8 +51,9 @@ photo.7.author: johnballzoogr
 photo.7.commitdate: 2020/9/24
 photo.7.link: https://www.instagram.com/johnballzoogr/
 photo.7.tags: laying down, paws, portrait, tongue, yawn
-photo.8: https://www.instagram.com/p/CQ4A2mvrbzD/media/?size=m
+photo.8: ig://CQ4A2mvrbzD/m
 photo.8.author: johnballzoogr
+photo.8.commitdate: 2021/7/8
 photo.8.link: https://www.instagram.com/johnballzoogr/
 photo.8.tags: laying down, portrait, profile, white face
 species: 1

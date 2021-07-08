@@ -26,8 +26,9 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2021/7/6
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: flowers, mofumofu, peek, portrait, profile
-photo.2: https://www.instagram.com/p/CQ9VgadhWjO/media/?size=m
+photo.2: ig://CQ9VgadhWjO/m
 photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/7/8
 photo.2.link: https://www.instagram.com/nathalie.elliott/
 photo.2.tags: dish, home, portrait, tail
 species: 1

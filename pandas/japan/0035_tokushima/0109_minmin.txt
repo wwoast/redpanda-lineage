@@ -223,8 +223,9 @@ photo.42.author: love__mitarashi
 photo.42.commitdate: 2021/1/19
 photo.42.link: https://www.instagram.com/love__mitarashi/
 photo.42.tags: bamboo, portrait, videolink
-photo.43: https://www.instagram.com/p/CQ8Xh2phzow/media/?size=m
+photo.43: ig://CQ8Xh2phzow/m
 photo.43.author: love__mitarashi
+photo.43.commitdate: 2021/7/8
 photo.43.link: https://www.instagram.com/love__mitarashi/
 photo.43.tags: laying down, paws, tail
 species: 2

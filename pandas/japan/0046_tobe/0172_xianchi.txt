@@ -229,8 +229,9 @@ photo.43.author: itsuak
 photo.43.commitdate: 2021/7/1
 photo.43.link: https://www.instagram.com/itsuak/
 photo.43.tags: portrait, smile, whiskers
-photo.44: https://www.instagram.com/p/CQ_Icuyjyyp/media/?size=m
+photo.44: ig://CQ_Icuyjyyp/m
 photo.44.author: itsuak
+photo.44.commitdate: 2021/7/8
 photo.44.link: https://www.instagram.com/itsuak/
 photo.44.tags: portrait, whiskers
 species: 2

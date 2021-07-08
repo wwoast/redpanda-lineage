@@ -260,8 +260,9 @@ photo.49.author: bee_san.13
 photo.49.commitdate: 2021/7/3
 photo.49.link: https://www.instagram.com/bee_san.13/
 photo.49.tags: portrait, tree
-photo.50: https://www.instagram.com/p/CQ8xrWxBAgh/media/?size=m
+photo.50: ig://CQ8xrWxBAgh/m
 photo.50.author: bee_san.13
+photo.50.commitdate: 2021/7/8
 photo.50.link: https://www.instagram.com/bee_san.13/
 photo.50.tags: portrait, tree, whiskers
 species: 2
