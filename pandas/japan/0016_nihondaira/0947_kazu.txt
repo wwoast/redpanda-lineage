@@ -84,7 +84,7 @@ photo.14: ig://CJimGZZhymu/m
 photo.14.author: kijyo.zoo
 photo.14.commitdate: 2021/1/3
 photo.14.link: https://www.instagram.com/kijyo.zoo/
-photo.14.tags: peek, portrait, profile
+photo.14.tags: peek, portrait
 photo.15: ig://CJioZKaB5B9/m
 photo.15.author: kijyo.zoo
 photo.15.commitdate: 2021/1/3
@@ -217,6 +217,6 @@ photo.41: ig://CQzFj8hhecd/m
 photo.41.author: hamamatsu.chiita
 photo.41.commitdate: 2021/7/4
 photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: portrait, whiskers
+photo.41.tags: portrait, profile, whiskers
 species: 2
 zoo: 16

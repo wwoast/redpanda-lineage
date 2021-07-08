@@ -4,7 +4,7 @@ birthday: 2010/7/10
 birthplace: 7
 children: 62, 65, 64, 63, 305
 commitdate: 2018/6/22
-death: 2021/7/1
+death: 2021/7/3
 en.name: Laila
 en.nicknames: none
 en.othernames: Lila, Lyra, Lyla, Raira, Rira
@@ -206,7 +206,14 @@ photo.38.author: craig_craig_craig
 photo.38.commitdate: 2021/7/5
 photo.38.link: https://www.instagram.com/craig_craig_craig/
 photo.38.tags: dish, nose, portrait, videolink
+photo.39: https://www.instagram.com/p/CRDA9FKBSVW/media/?size=m
+photo.39.author: sasapan34
+photo.39.link: https://www.instagram.com/sasapan34/
+photo.39.tags: paws, smile
+photo.40: https://www.instagram.com/p/CQ8xqJqB8bV/media/?size=m
+photo.40.author: craig_craig_craig
+photo.40.link: https://www.instagram.com/craig_craig_craig/
+photo.40.tags: close-up, mofumofu, nose, portrait, whiskers
 species: 2
 studbook.id: 10111
-uncertainty: death exact date
 zoo: 29
