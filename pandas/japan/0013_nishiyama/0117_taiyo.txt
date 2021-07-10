@@ -272,8 +272,9 @@ photo.52.author: hamamatsu.chiita
 photo.52.commitdate: 2021/6/19
 photo.52.link: https://www.instagram.com/hamamatsu.chiita/
 photo.52.tags: portrait, whiskers
-photo.53: https://www.instagram.com/p/CQvUS3qhCDy/media/?size=m
+photo.53: ig://CQvUS3qhCDy/m
 photo.53.author: minato.yokohama4416
+photo.53.commitdate: 2021/7/9
 photo.53.link: https://www.instagram.com/minato.yokohama4416/
 photo.53.tags: portrait, tree, videolink
 species: 2
