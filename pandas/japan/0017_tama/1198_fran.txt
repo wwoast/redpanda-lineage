@@ -152,7 +152,7 @@ photo.28: ig://CQUVUdwrB45/m
 photo.28.author: alto0908
 photo.28.commitdate: 2021/7/3
 photo.28.link: https://www.instagram.com/alto0908/
-photo.28.tags: portrait, profile, smile, tree
+photo.28.tags: portrait, smile, tree
 photo.29: ig://CQUZjd-BqWy/m
 photo.29.author: panda.daisuki
 photo.29.commitdate: 2021/7/3
@@ -198,5 +198,17 @@ photo.37.author: redpan22
 photo.37.commitdate: 2021/7/8
 photo.37.link: https://www.instagram.com/redpan22/
 photo.37.tags: bamboo, bite, portrait
+photo.38: https://www.instagram.com/p/CQvSv7GhIKx/media/?size=m
+photo.38.author: ck.chie
+photo.38.link: https://www.instagram.com/ck.chie/
+photo.38.tags: bamboo, laying down, paws, tongue
+photo.39: https://www.instagram.com/p/CQ51tgchVrg/media/?size=m
+photo.39.author: kotata_513
+photo.39.link: https://www.instagram.com/kotata_513/
+photo.39.tags: portrait, profile, smile
+photo.40: https://www.instagram.com/p/CRC2AKWBJpO/media/?size=m
+photo.40.author: osopanda551
+photo.40.link: https://www.instagram.com/osopanda551/
+photo.40.tags: door, portrait
 species: 2
 zoo: 17
