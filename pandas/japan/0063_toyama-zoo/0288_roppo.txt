@@ -190,12 +190,14 @@ photo.35.author: mikaamihara
 photo.35.commitdate: 2021/5/3
 photo.35.link: https://www.instagram.com/mikaamihara/
 photo.35.tags: home, peek, portrait, techitechi, wink
-photo.36: https://www.instagram.com/p/CRDawH9B1yY/media/?size=m
+photo.36: ig://CRDawH9B1yY/m
 photo.36.author: merumeru119
+photo.36.commitdate: 2021/7/9
 photo.36.link: https://www.instagram.com/merumeru119/
 photo.36.tags: home, laying down, paws, portrait, tail
-photo.37: https://www.instagram.com/p/CRDzSLjhHY3/media/?size=m
+photo.37: ig://CRDzSLjhHY3/m
 photo.37.author: merumeru119
+photo.37.commitdate: 2021/7/9
 photo.37.link: https://www.instagram.com/merumeru119/
 photo.37.tags: bamboo, paws, standing
 species: 2

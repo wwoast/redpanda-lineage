@@ -428,8 +428,9 @@ photo.83.author: ssc6105
 photo.83.commitdate: 2021/7/7
 photo.83.link: https://www.instagram.com/ssc6105/
 photo.83.tags: peek, techitechi
-photo.84: https://www.instagram.com/p/CQyRiFrhbN-/media/?size=m
+photo.84: ig://CQyRiFrhbN-/m
 photo.84.author: fetorus_mami
+photo.84.commitdate: 2021/7/9
 photo.84.link: https://www.instagram.com/fetorus_mami/
 photo.84.tags: dish, lunch time, peek, smile
 species: 2

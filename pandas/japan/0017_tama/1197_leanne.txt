@@ -153,24 +153,25 @@ photo.28.author: panda.daisuki
 photo.28.commitdate: 2021/7/1
 photo.28.link: https://www.instagram.com/panda.daisuki/
 photo.28.tags: peek, portrait, tail
-photo.29: ig://CQ17twShQLx/m
-photo.29.author: alto0908
-photo.29.commitdate: 2021/7/4
-photo.29.link: https://www.instagram.com/alto0908/
-photo.29.tags: portrait, tail, tree, whiskers
-photo.30: ig://CQ8SXBgB2UK/m
+photo.29: ig://CQyGMtrBKRy/m
+photo.29.author: kotata_513
+photo.29.commitdate: 2021/7/9
+photo.29.link: https://www.instagram.com/kotata_513/
+photo.29.tags: peek, portrait, tail, tree, upside-down
+photo.30: ig://CQ17twShQLx/m
 photo.30.author: alto0908
-photo.30.commitdate: 2021/7/5
+photo.30.commitdate: 2021/7/4
 photo.30.link: https://www.instagram.com/alto0908/
-photo.30.tags: peek, portrait, tree, upside-down
-photo.31: ig://CQ8U8__h7Hc/m
-photo.31.author: osopanda551
+photo.30.tags: portrait, tail, tree, whiskers
+photo.31: ig://CQ8SXBgB2UK/m
+photo.31.author: alto0908
 photo.31.commitdate: 2021/7/5
-photo.31.link: https://www.instagram.com/osopanda551/
-photo.31.tags: laying down, paws, playing, portrait
-photo.32: https://www.instagram.com/p/CQyGMtrBKRy/media/?size=m
-photo.32.author: kotata_513
-photo.32.link: https://www.instagram.com/kotata_513/
-photo.32.tags: peek, portrait, tail, tree, upside-down
+photo.31.link: https://www.instagram.com/alto0908/
+photo.31.tags: peek, portrait, tree, upside-down
+photo.32: ig://CQ8U8__h7Hc/m
+photo.32.author: osopanda551
+photo.32.commitdate: 2021/7/5
+photo.32.link: https://www.instagram.com/osopanda551/
+photo.32.tags: laying down, paws, playing, portrait
 species: 2
 zoo: 17

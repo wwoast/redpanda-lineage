@@ -1055,8 +1055,9 @@ photo.210.author: ifumoto88
 photo.210.commitdate: 2021/6/18
 photo.210.link: https://www.instagram.com/ifumoto88/
 photo.210.tags: portrait, tail, whiskers
-photo.211: https://www.instagram.com/p/CQzERiKBZT9/media/?size=m
+photo.211: ig://CQzERiKBZT9/m
 photo.211.author: firefoxpanda88
+photo.211.commitdate: 2021/7/9
 photo.211.link: https://www.instagram.com/firefoxpanda88/
 photo.211.tags: close-up, portrait, whiskers
 species: 2
