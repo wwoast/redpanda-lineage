@@ -110,11 +110,13 @@ photo.19.author: sakikukeco
 photo.19.commitdate: 2021/6/28
 photo.19.link: https://www.instagram.com/sakikukeco/
 photo.19.tags: portrait, smile
-photo.20: https://www.instagram.com/p/CRFxNvKh6MJ/media/?size=m
+photo.20: ig://CRFxNvKh6MJ/m
 photo.20.author: sasapan34
+photo.20.commitdate: 2021/7/11
 photo.20.link: https://www.instagram.com/sasapan34/
-photo.21: https://www.instagram.com/p/CRLIJEsh64_/media/?size=m
+photo.21: ig://CRLIJEsh64_/m
 photo.21.author: sakikukeco
+photo.21.commitdate: 2021/7/11
 photo.21.link: https://www.instagram.com/sakikukeco/
 photo.21.tags: climb, paws, portrait, smile
 species: 2

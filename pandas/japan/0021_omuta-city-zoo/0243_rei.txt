@@ -221,8 +221,9 @@ photo.42.author: yossi929
 photo.42.commitdate: 2021/7/4
 photo.42.link: https://www.instagram.com/yossi929/
 photo.42.tags: bamboo, mofumofu, paws, whiskers
-photo.43: https://www.instagram.com/p/CRH8zM0BCxv/media/?size=m
+photo.43: ig://CRH8zM0BCxv/m
 photo.43.author: yossi929
+photo.43.commitdate: 2021/7/11
 photo.43.link: https://www.instagram.com/yossi929/
 photo.43.tags: portrait, profile, whiskers
 species: 2

@@ -203,28 +203,30 @@ photo.38.author: taka__3428
 photo.38.commitdate: 2021/5/31
 photo.38.link: https://www.instagram.com/taka__3428/
 photo.38.tags: nose, peek
-photo.39: ig://CO6rSeqBegF/m
-photo.39.author: kijyo.zoo
-photo.39.commitdate: 2021/6/9
-photo.39.link: https://www.instagram.com/kijyo.zoo/
-photo.39.tags: laying down, portrait, tree, videolink
-photo.40: ig://CPieA0YBz8S/m
-photo.40.author: taka__3428
-photo.40.commitdate: 2021/6/27
-photo.40.link: https://www.instagram.com/taka__3428/
-photo.40.tags: peek, whiskers
-photo.41: ig://CQzFj8hhecd/m
-photo.41.author: hamamatsu.chiita
-photo.41.commitdate: 2021/7/4
-photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: portrait, profile, whiskers
-photo.42: https://www.instagram.com/p/CN38JskAcSn/media/?size=m
-photo.42.author: nihondairazoo_szga
-photo.42.link: https://www.instagram.com/nihondairazoo_szga/
-photo.42.tags: close-up, laying down, portrait, tree
-photo.43: https://www.instagram.com/p/CN6WAJiATjt/media/?size=m
-photo.43.author: nihondairazoo_szga
-photo.43.link: https://www.instagram.com/nihondairazoo_szga/
-photo.43.tags: peek, portrait, techitechi
+photo.39: ig://CN38JskAcSn/m
+photo.39.author: nihondairazoo_szga
+photo.39.commitdate: 2021/7/11
+photo.39.link: https://www.instagram.com/nihondairazoo_szga/
+photo.39.tags: close-up, laying down, portrait, tree
+photo.40: ig://CN6WAJiATjt/m
+photo.40.author: nihondairazoo_szga
+photo.40.commitdate: 2021/7/11
+photo.40.link: https://www.instagram.com/nihondairazoo_szga/
+photo.40.tags: peek, portrait, techitechi
+photo.41: ig://CO6rSeqBegF/m
+photo.41.author: kijyo.zoo
+photo.41.commitdate: 2021/6/9
+photo.41.link: https://www.instagram.com/kijyo.zoo/
+photo.41.tags: laying down, portrait, tree, videolink
+photo.42: ig://CPieA0YBz8S/m
+photo.42.author: taka__3428
+photo.42.commitdate: 2021/6/27
+photo.42.link: https://www.instagram.com/taka__3428/
+photo.42.tags: peek, whiskers
+photo.43: ig://CQzFj8hhecd/m
+photo.43.author: hamamatsu.chiita
+photo.43.commitdate: 2021/7/4
+photo.43.link: https://www.instagram.com/hamamatsu.chiita/
+photo.43.tags: portrait, profile, whiskers
 species: 2
 zoo: 16

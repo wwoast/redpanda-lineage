@@ -141,16 +141,19 @@ photo.26.author: hamamatsu.chiita
 photo.26.commitdate: 2021/6/23
 photo.26.link: https://www.instagram.com/hamamatsu.chiita/
 photo.26.tags: bamboo, mofumofu, portrait, smile
-photo.27: https://www.instagram.com/p/CRKUG88hWG-/media/?size=m
-photo.27.author: hamamatsu.chiita
-photo.27.link: https://www.instagram.com/hamamatsu.chiita/
-photo.27.tags: close-up, mofumofu, portrait, techitechi
-photo.28: https://www.instagram.com/p/CRJ0l4chSDg/media/?size=m
-photo.28.author: bee_san.13
-photo.28.link: https://www.instagram.com/bee_san.13/
-photo.28.tags: mofumofu, portrait, wink
-photo.29: https://www.instagram.com/p/CRMD-A8hCpv/media/?size=m
+photo.27: ig://CRJ0l4chSDg/m
+photo.27.author: bee_san.13
+photo.27.commitdate: 2021/7/11
+photo.27.link: https://www.instagram.com/bee_san.13/
+photo.27.tags: mofumofu, portrait, wink
+photo.28: ig://CRKUG88hWG-/m
+photo.28.author: hamamatsu.chiita
+photo.28.commitdate: 2021/7/11
+photo.28.link: https://www.instagram.com/hamamatsu.chiita/
+photo.28.tags: close-up, mofumofu, portrait, techitechi
+photo.29: ig://CRMD-A8hCpv/m
 photo.29.author: eos1089
+photo.29.commitdate: 2021/7/11
 photo.29.link: https://www.instagram.com/eos1089/
 photo.29.tags: ear, peek, portrait, tail
 species: 2

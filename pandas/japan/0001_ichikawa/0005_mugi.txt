@@ -1060,8 +1060,9 @@ photo.211.author: firefoxpanda88
 photo.211.commitdate: 2021/7/9
 photo.211.link: https://www.instagram.com/firefoxpanda88/
 photo.211.tags: close-up, portrait, whiskers
-photo.212: https://www.instagram.com/p/CRFHWaOhwpz/media/?size=m
+photo.212: ig://CRFHWaOhwpz/m
 photo.212.author: wumpwoast
+photo.212.commitdate: 2021/7/11
 photo.212.link: https://www.instagram.com/wumpwoast/
 photo.212.tags: close-up, itchy, portrait, techitechi
 species: 2
