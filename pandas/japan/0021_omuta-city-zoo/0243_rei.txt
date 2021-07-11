@@ -132,7 +132,7 @@ photo.24: ig://B0mk9cihJXT/m
 photo.24.author: yossi929
 photo.24.commitdate: 2019/8/2
 photo.24.link: https://www.instagram.com/yossi929/
-photo.24.tags: portrait, profile
+photo.24.tags: portrait
 photo.25: ig://B1Lnk5Jh5Yq/m
 photo.25.author: yossi929
 photo.25.commitdate: 2019/8/19
@@ -221,6 +221,10 @@ photo.42.author: yossi929
 photo.42.commitdate: 2021/7/4
 photo.42.link: https://www.instagram.com/yossi929/
 photo.42.tags: bamboo, mofumofu, paws, whiskers
+photo.43: https://www.instagram.com/p/CRH8zM0BCxv/media/?size=m
+photo.43.author: yossi929
+photo.43.link: https://www.instagram.com/yossi929/
+photo.43.tags: portrait, profile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 21
