@@ -170,50 +170,56 @@ photo.32.author: mini_cochi
 photo.32.commitdate: 2020/6/18
 photo.32.link: https://www.instagram.com/mini_cochi/
 photo.32.tags: apple time, keeper
-photo.33: ig://CFrZL1RBwbg/m
-photo.33.author: ifumoto88
-photo.33.commitdate: 2020/10/1
-photo.33.link: https://www.instagram.com/ifumoto88/
-photo.33.tags: apple time, bite, portrait
-photo.34: ig://CHENNNjBgWi/m
+photo.33: ig://CCFsedHB8VH/m
+photo.33.author: zoowfreedom299
+photo.33.commitdate: 2021/7/12
+photo.33.link: https://www.instagram.com/zoowfreedom299/
+photo.33.tags: bamboo, paws
+photo.34: ig://CCuQj_4hlxh/m
 photo.34.author: zoowfreedom299
-photo.34.commitdate: 2020/11/7
+photo.34.commitdate: 2021/7/12
 photo.34.link: https://www.instagram.com/zoowfreedom299/
-photo.34.tags: apple time, paws, peek
-photo.35: ig://CJ8JkUIhkzo/m
-photo.35.author: miis_98
-photo.35.commitdate: 2021/1/19
-photo.35.link: https://www.instagram.com/miis_98/
-photo.35.tags: apple time, paws, standing
-photo.36: ig://CMeyUo4hjCi/m
+photo.34.tags: smile
+photo.35: ig://CDOL730h6uh/m
+photo.35.author: zoowfreedom299
+photo.35.commitdate: 2021/7/12
+photo.35.link: https://www.instagram.com/zoowfreedom299/
+photo.35.tags: paws, peek
+photo.36: ig://CDRI_69BzmB/m
 photo.36.author: redpan22
-photo.36.commitdate: 2021/3/29
+photo.36.commitdate: 2021/7/12
 photo.36.link: https://www.instagram.com/redpan22/
-photo.36.tags: paws, portrait, smile, snow
-photo.37: https://www.instagram.com/p/CCuQj_4hlxh/media/?size=m
+photo.36.tags: mofumofu, portrait
+photo.37: ig://CFTVtRBBpSF/m
 photo.37.author: zoowfreedom299
+photo.37.commitdate: 2021/7/12
 photo.37.link: https://www.instagram.com/zoowfreedom299/
-photo.37.tags: smile
-photo.38: https://www.instagram.com/p/CCFsedHB8VH/media/?size=m
+photo.37.tags: paws, portrait, smile
+photo.38: ig://CFipT_OBgAE/m
 photo.38.author: zoowfreedom299
+photo.38.commitdate: 2021/7/12
 photo.38.link: https://www.instagram.com/zoowfreedom299/
-photo.38.tags: bamboo, paws
-photo.39: https://www.instagram.com/p/CDOL730h6uh/media/?size=m
-photo.39.author: zoowfreedom299
-photo.39.link: https://www.instagram.com/zoowfreedom299/
-photo.39.tags: paws, peek
-photo.40: https://www.instagram.com/p/CFTVtRBBpSF/media/?size=m
+photo.38.tags: paws, smile, tongue, whiskers
+photo.39: ig://CFrZL1RBwbg/m
+photo.39.author: ifumoto88
+photo.39.commitdate: 2020/10/1
+photo.39.link: https://www.instagram.com/ifumoto88/
+photo.39.tags: apple time, bite, portrait
+photo.40: ig://CHENNNjBgWi/m
 photo.40.author: zoowfreedom299
+photo.40.commitdate: 2020/11/7
 photo.40.link: https://www.instagram.com/zoowfreedom299/
-photo.40.tags: paws, portrait, smile
-photo.41: https://www.instagram.com/p/CFipT_OBgAE/media/?size=m
-photo.41.author: zoowfreedom299
-photo.41.link: https://www.instagram.com/zoowfreedom299/
-photo.41.tags: paws, smile, tongue, whiskers
-photo.42: https://www.instagram.com/p/CDRI_69BzmB/media/?size=m
+photo.40.tags: apple time, paws, peek
+photo.41: ig://CJ8JkUIhkzo/m
+photo.41.author: miis_98
+photo.41.commitdate: 2021/1/19
+photo.41.link: https://www.instagram.com/miis_98/
+photo.41.tags: apple time, paws, standing
+photo.42: ig://CMeyUo4hjCi/m
 photo.42.author: redpan22
+photo.42.commitdate: 2021/3/29
 photo.42.link: https://www.instagram.com/redpan22/
-photo.42.tags: mofumofu, portrait
+photo.42.tags: paws, portrait, smile, snow
 species: 2
 studbook.id: 13160
 zoo: 26
