@@ -2,170 +2,178 @@
 _id: media.26.hinata-kanta
 commitdate: 2019/6/9
 panda.tags: 250, 251
-photo.1: ig://Byc2QrrhRTn/m
-photo.1.author: fetorus_mami
-photo.1.commitdate: 2019/6/9
-photo.1.link: https://www.instagram.com/fetorus_mami/
-photo.1.tags: brothers, siblings, tongue, twins
-photo.1.tags.250.location: 120, 95
-photo.1.tags.251.location: 235, 75
-photo.2: ig://ByfRd6mh-Uv/m
-photo.2.author: fetorus_mami
-photo.2.commitdate: 2019/6/9
-photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: brothers, playing, siblings, twins
-photo.2.tags.250.location: 250, 95
-photo.2.tags.251.location: 85, 125
-photo.3: ig://BzzluaQBa6P/m
-photo.3.author: minatomirai215
-photo.3.commitdate: 2019/7/14
-photo.3.link: ig://BzzluaQBa6P/m
-photo.3.tags: brothers, playing, siblings, twins
-photo.3.tags.250.location: 140, 120
-photo.3.tags.251.location: 225, 180
-photo.4: ig://Bz0ScsABGB-/m
-photo.4.author: leonard_redmof
-photo.4.commitdate: 2019/7/14
-photo.4.link: https://www.instagram.com/leonard_redmof/
-photo.4.tags: bamboo, brothers, siblings, twins
-photo.4.tags.250.location: 90, 95
-photo.4.tags.251.location: 250, 230
-photo.5: ig://B4hV2YbBQgU/m
-photo.5.author: hamiiiii831_
-photo.5.commitdate: 2019/12/5
-photo.5.link: https://www.instagram.com/hamiiiii831_/
-photo.5.tags: apple time, brothers, siblings, smile, twins
-photo.5.tags.250.location: 95, 180
-photo.5.tags.251.location: 175, 105
-photo.6: ig://B5KoZPCh10z/m
-photo.6.author: mifko55
-photo.6.commitdate: 2019/11/26
-photo.6.link: https://www.instagram.com/mifko55/
-photo.6.tags: brothers, laying down, paws, playing, siblings, twins
-photo.6.tags.250.location: 150, 150
-photo.6.tags.251.location: 75, 205
-photo.7: ig://B5rBeGRhpAi/m
-photo.7.author: minatomirai215
-photo.7.commitdate: 2020/3/6
-photo.7.link: https://www.instagram.com/minatomirai215/
-photo.7.tags: apple time, brothers, siblings, twins
-photo.7.tags.250.location: 95, 125
-photo.7.tags.251.location: 160, 170
-photo.8: ig://B6IxRQZBaG4/m
-photo.8.author: zoowfreedom299
-photo.8.commitdate: 2020/2/16
-photo.8.link: https://www.instagram.com/zoowfreedom299/
-photo.8.tags: apple time, baby, brothers, siblings, twins
-photo.8.tags.250.location: 200, 125
-photo.8.tags.251.location: 115, 95
-photo.9: ig://B7E3RYyBFp1/m
-photo.9.author: redpan22
-photo.9.commitdate: 2020/2/16
-photo.9.link: https://www.instagram.com/redpan22/
-photo.9.tags: brothers, techitechi, top-to-bottom
-photo.9.tags.250.location: 135, 275
-photo.9.tags.251.location: 180, 105
-photo.10: ig://B7nqCr7hYkU/m
-photo.10.author: resapan.suki
-photo.10.commitdate: 2020/2/16
-photo.10.link: https://www.instagram.com/resapan.suki/
-photo.10.tags: apple time, brothers, siblings, snow, tree, twins
-photo.10.tags.250.location: 140, 155
-photo.10.tags.251.location: 225, 155
-photo.11: ig://B8AIGAqBUsw/l
-photo.11.author: sasapan34
+photo.1: ig://Bqhsk1ZFu14/l
+photo.1.author: zoowfreedom299
+photo.1.commitdate: 2021/7/12
+photo.1.link: https://www.instagram.com/zoowfreedom299/
+photo.1.tags: baby, bamboo, brothers, mofumofu, portrait, siblings, twins
+photo.1.tags.250.location: 375, 310
+photo.1.tags.251.location: 250, 280
+photo.2: ig://BtGCpuZlpNf/l
+photo.2.author: zoowfreedom299
+photo.2.commitdate: 2021/7/12
+photo.2.link: https://www.instagram.com/zoowfreedom299/
+photo.2.tags: apple time, brothers, siblings, twins
+photo.2.tags.250.location: 195, 245
+photo.2.tags.251.location: 165, 375
+photo.3: ig://Byc2QrrhRTn/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2019/6/9
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: brothers, siblings, tongue, twins
+photo.3.tags.250.location: 120, 95
+photo.3.tags.251.location: 235, 75
+photo.4: ig://ByfRd6mh-Uv/m
+photo.4.author: fetorus_mami
+photo.4.commitdate: 2019/6/9
+photo.4.link: https://www.instagram.com/fetorus_mami/
+photo.4.tags: brothers, playing, siblings, twins
+photo.4.tags.250.location: 250, 95
+photo.4.tags.251.location: 85, 125
+photo.5: ig://BzzluaQBa6P/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2019/7/14
+photo.5.link: ig://BzzluaQBa6P/m
+photo.5.tags: brothers, playing, siblings, twins
+photo.5.tags.250.location: 140, 120
+photo.5.tags.251.location: 225, 180
+photo.6: ig://BzzluaQBa6P/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2021/7/12
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: brothers, playing, portrait, siblings, twins
+photo.6.tags.250.location: 130, 115
+photo.6.tags.251.location: 220, 180
+photo.7: ig://Bz0ScsABGB-/m
+photo.7.author: leonard_redmof
+photo.7.commitdate: 2019/7/14
+photo.7.link: https://www.instagram.com/leonard_redmof/
+photo.7.tags: bamboo, brothers, siblings, twins
+photo.7.tags.250.location: 90, 95
+photo.7.tags.251.location: 250, 230
+photo.8: ig://B4SJJ9MhFT7/m
+photo.8.author: mini_cochi
+photo.8.commitdate: 2021/7/12
+photo.8.link: https://www.instagram.com/mini_cochi/
+photo.8.tags: apple time, brothers, close-up, portrait, siblings, twins
+photo.8.tags.250.location: 65, 160
+photo.8.tags.251.location: 220, 110
+photo.9: ig://B4hV2YbBQgU/m
+photo.9.author: hamiiiii831_
+photo.9.commitdate: 2019/12/5
+photo.9.link: https://www.instagram.com/hamiiiii831_/
+photo.9.tags: apple time, brothers, siblings, smile, twins
+photo.9.tags.250.location: 95, 180
+photo.9.tags.251.location: 175, 105
+photo.10: ig://B5KoZPCh10z/m
+photo.10.author: mifko55
+photo.10.commitdate: 2019/11/26
+photo.10.link: https://www.instagram.com/mifko55/
+photo.10.tags: brothers, laying down, paws, playing, siblings, twins
+photo.10.tags.250.location: 150, 150
+photo.10.tags.251.location: 75, 205
+photo.11: ig://B5rBeGRhpAi/m
+photo.11.author: minatomirai215
 photo.11.commitdate: 2020/3/6
-photo.11.link: https://www.instagram.com/sasapan34/
-photo.11.tags: brothers, siblings, tree, twins
-photo.11.tags.250.location: 490, 180
-photo.11.tags.251.location: 750, 365
-photo.12: ig://B8o4FPmBqrt/m
-photo.12.author: minatomirai215
-photo.12.commitdate: 2020/3/6
-photo.12.link: https://www.instagram.com/minatomirai215/
-photo.12.tags: brothers, siblings, twins
-photo.12.tags.250.location: 150, 120
-photo.12.tags.251.location: 235, 120
-photo.13: ig://B9O5s61BMgF/m
+photo.11.link: https://www.instagram.com/minatomirai215/
+photo.11.tags: apple time, brothers, siblings, twins
+photo.11.tags.250.location: 95, 125
+photo.11.tags.251.location: 160, 170
+photo.12: ig://B6IxRQZBaG4/m
+photo.12.author: zoowfreedom299
+photo.12.commitdate: 2020/2/16
+photo.12.link: https://www.instagram.com/zoowfreedom299/
+photo.12.tags: apple time, baby, brothers, siblings, twins
+photo.12.tags.250.location: 200, 125
+photo.12.tags.251.location: 115, 95
+photo.13: ig://B7E3RYyBFp1/m
 photo.13.author: redpan22
-photo.13.commitdate: 2020/3/6
+photo.13.commitdate: 2020/2/16
 photo.13.link: https://www.instagram.com/redpan22/
-photo.13.tags: brothers, paws, siblings, snow, twins
-photo.13.tags.250.location: 190, 110
-photo.13.tags.251.location: 65, 40
-photo.14: ig://B9T9_R3BZiP/m
-photo.14.author: grskus_tk
-photo.14.commitdate: 2020/5/23
-photo.14.link: https://www.instagram.com/grskus_tk/
-photo.14.tags: brothers, paws, siblings, standing, twins
-photo.14.tags.250.location: 180, 70
-photo.14.tags.251.location: 70, 285
-photo.15: ig://B9WsjOthbU9/m
-photo.15.author: redpan22
-photo.15.commitdate: 2020/5/23
-photo.15.link: https://www.instagram.com/redpan22/
-photo.15.tags: brothers, playing, portrait, siblings, snow, twins
-photo.15.tags.250.location: 65, 80
-photo.15.tags.251.location: 265, 80
-photo.16: ig://CHENoa4hPC7/l
-photo.16.author: zoowfreedom299
-photo.16.commitdate: 2020/11/7
-photo.16.link: https://www.instagram.com/zoowfreedom299/
-photo.16.tags: apple time, brothers, siblings, twins
-photo.16.tags.250.location: 165, 380
-photo.16.tags.251.location: 325, 265
-photo.17: ig://CH-DD6vhbjz/l
-photo.17.author: miis_98
-photo.17.commitdate: 2021/1/4
-photo.17.link: https://www.instagram.com/miis_98/
-photo.17.tags: brothers, portrait, siblings, twins
-photo.17.tags.250.location: 385, 165
-photo.17.tags.251.location: 145, 360
-photo.18: https://www.instagram.com/p/CMmimgRB-jE/media/?size=m
-photo.18.author: redpan22
-photo.18.link: https://www.instagram.com/redpan22/
-photo.18.tags: brothers, lunch time, siblings, twins
-photo.18.tags.250.location: 220, 135
-photo.18.tags.251.location: 145, 165
-photo.19: https://www.instagram.com/p/BtGCpuZlpNf/media/?size=l
-photo.19.author: zoowfreedom299
-photo.19.link: https://www.instagram.com/zoowfreedom299/
-photo.19.tags: apple time, brothers, siblings, twins
-photo.19.tags.250.location: 195, 245
-photo.19.tags.251.location: 165, 375
-photo.20: https://www.instagram.com/p/CFjiwFphdSs/media/?size=l
-photo.20.author: zoowfreedom299
-photo.20.link: https://www.instagram.com/zoowfreedom299/
-photo.20.tags: apple time, brothers, keeper, siblings, tail, twins
-photo.20.tags.250.location: 480, 300
-photo.20.tags.251.location: 250, 345
-photo.21: https://www.instagram.com/p/CCiZdaQhVUO/media/?size=m
-photo.21.author: minatomirai215
-photo.21.link: https://www.instagram.com/minatomirai215/
-photo.21.tags: brothers, portrait, siblings, twins
-photo.21.tags.250.location: 265, 210
-photo.21.tags.251.location: 65, 100
-photo.22: https://www.instagram.com/p/BzzluaQBa6P/media/?size=m
-photo.22.author: minatomirai215
-photo.22.link: https://www.instagram.com/minatomirai215/
-photo.22.tags: brothers, playing, portrait, siblings, twins
-photo.22.tags.250.location: 130, 115
-photo.22.tags.251.location: 220, 180
-photo.23: https://www.instagram.com/p/B4SJJ9MhFT7/media/?size=m
-photo.23.author: mini_cochi
-photo.23.link: https://www.instagram.com/mini_cochi/
-photo.23.tags: apple time, brothers, close-up, portrait, siblings, twins
-photo.23.tags.250.location: 65, 160
-photo.23.tags.251.location: 220, 110
-photo.24: https://www.instagram.com/p/CMhbzxDBtyD/media/?size=l
+photo.13.tags: brothers, techitechi, top-to-bottom
+photo.13.tags.250.location: 135, 275
+photo.13.tags.251.location: 180, 105
+photo.14: ig://B7nqCr7hYkU/m
+photo.14.author: resapan.suki
+photo.14.commitdate: 2020/2/16
+photo.14.link: https://www.instagram.com/resapan.suki/
+photo.14.tags: apple time, brothers, siblings, snow, tree, twins
+photo.14.tags.250.location: 140, 155
+photo.14.tags.251.location: 225, 155
+photo.15: ig://B8AIGAqBUsw/l
+photo.15.author: sasapan34
+photo.15.commitdate: 2020/3/6
+photo.15.link: https://www.instagram.com/sasapan34/
+photo.15.tags: brothers, siblings, tree, twins
+photo.15.tags.250.location: 490, 180
+photo.15.tags.251.location: 750, 365
+photo.16: ig://B8o4FPmBqrt/m
+photo.16.author: minatomirai215
+photo.16.commitdate: 2020/3/6
+photo.16.link: https://www.instagram.com/minatomirai215/
+photo.16.tags: brothers, siblings, twins
+photo.16.tags.250.location: 150, 120
+photo.16.tags.251.location: 235, 120
+photo.17: ig://B9O5s61BMgF/m
+photo.17.author: redpan22
+photo.17.commitdate: 2020/3/6
+photo.17.link: https://www.instagram.com/redpan22/
+photo.17.tags: brothers, paws, siblings, snow, twins
+photo.17.tags.250.location: 190, 110
+photo.17.tags.251.location: 65, 40
+photo.18: ig://B9T9_R3BZiP/m
+photo.18.author: grskus_tk
+photo.18.commitdate: 2020/5/23
+photo.18.link: https://www.instagram.com/grskus_tk/
+photo.18.tags: brothers, paws, siblings, standing, twins
+photo.18.tags.250.location: 180, 70
+photo.18.tags.251.location: 70, 285
+photo.19: ig://B9WsjOthbU9/m
+photo.19.author: redpan22
+photo.19.commitdate: 2020/5/23
+photo.19.link: https://www.instagram.com/redpan22/
+photo.19.tags: brothers, playing, portrait, siblings, snow, twins
+photo.19.tags.250.location: 65, 80
+photo.19.tags.251.location: 265, 80
+photo.20: ig://CCiZdaQhVUO/m
+photo.20.author: minatomirai215
+photo.20.commitdate: 2021/7/12
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: brothers, portrait, siblings, twins
+photo.20.tags.250.location: 265, 210
+photo.20.tags.251.location: 65, 100
+photo.21: ig://CFjiwFphdSs/l
+photo.21.author: zoowfreedom299
+photo.21.commitdate: 2021/7/12
+photo.21.link: https://www.instagram.com/zoowfreedom299/
+photo.21.tags: apple time, brothers, keeper, siblings, tail, twins
+photo.21.tags.250.location: 480, 300
+photo.21.tags.251.location: 250, 345
+photo.22: ig://CHENoa4hPC7/l
+photo.22.author: zoowfreedom299
+photo.22.commitdate: 2020/11/7
+photo.22.link: https://www.instagram.com/zoowfreedom299/
+photo.22.tags: apple time, brothers, siblings, twins
+photo.22.tags.250.location: 165, 380
+photo.22.tags.251.location: 325, 265
+photo.23: ig://CH-DD6vhbjz/l
+photo.23.author: miis_98
+photo.23.commitdate: 2021/1/4
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: brothers, portrait, siblings, twins
+photo.23.tags.250.location: 385, 165
+photo.23.tags.251.location: 145, 360
+photo.24: ig://CMhbzxDBtyD/l
 photo.24.author: craig_craig_craig
+photo.24.commitdate: 2021/7/12
 photo.24.link: https://www.instagram.com/craig_craig_craig/
 photo.24.tags: baby, bamboo, brothers, portrait, siblings, twins, videolink
 photo.24.tags.250.location: 160, 250
 photo.24.tags.251.location: 510, 320
-photo.25: https://www.instagram.com/p/Bqhsk1ZFu14/media/?size=l
-photo.25.author: zoowfreedom299
-photo.25.link: https://www.instagram.com/zoowfreedom299/
-photo.25.tags: baby, bamboo, brothers, mofumofu, portrait, siblings, twins
-photo.25.tags.250.location: 375, 310
-photo.25.tags.251.location: 250, 280
+photo.25: ig://CMmimgRB-jE/m
+photo.25.author: redpan22
+photo.25.commitdate: 2021/7/12
+photo.25.link: https://www.instagram.com/redpan22/
+photo.25.tags: brothers, lunch time, siblings, twins
+photo.25.tags.250.location: 220, 135
+photo.25.tags.251.location: 145, 165

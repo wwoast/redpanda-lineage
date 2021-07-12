@@ -18,17 +18,19 @@ photo.2.tags: apple time, brothers, siblings, twins
 photo.2.tags.214.location: 255, 140
 photo.2.tags.250.location: 185, 185
 photo.2.tags.251.location: 85, 215
-photo.3: https://www.instagram.com/p/CGJXP3uBbk0/media/?size=l
+photo.3: ig://CF3yJp9B3gl/m
 photo.3.author: panda.daisuki
+photo.3.commitdate: 2021/7/12
 photo.3.link: https://www.instagram.com/panda.daisuki/
-photo.3.tags: brothers, family, mother's day, portrait, siblings, twins
-photo.3.tags.214.location: 40, 215
-photo.3.tags.250.location: 250, 205
-photo.3.tags.251.location: 380, 185
-photo.4: https://www.instagram.com/p/CF3yJp9B3gl/media/?size=m
+photo.3.tags: apple time, brothers, family, mother's day, paws, portrait, siblings, twins
+photo.3.tags.214.location: 40, 120
+photo.3.tags.250.location: 185, 80
+photo.3.tags.251.location: 260, 155
+photo.4: ig://CGJXP3uBbk0/l
 photo.4.author: panda.daisuki
+photo.4.commitdate: 2021/7/12
 photo.4.link: https://www.instagram.com/panda.daisuki/
-photo.4.tags: apple time, brothers, family, mother's day, paws, portrait, siblings, twins
-photo.4.tags.214.location: 40, 120
-photo.4.tags.250.location: 185, 80
-photo.4.tags.251.location: 260, 155
+photo.4.tags: brothers, family, mother's day, portrait, siblings, twins
+photo.4.tags.214.location: 40, 215
+photo.4.tags.250.location: 250, 205
+photo.4.tags.251.location: 380, 185
