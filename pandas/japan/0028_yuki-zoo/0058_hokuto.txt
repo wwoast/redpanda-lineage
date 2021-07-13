@@ -1,6 +1,6 @@
 [panda]
 _id: 58
-birthday: 2014/7/11
+birthday: 2014/7/10
 birthplace: 7
 children: none
 commitdate: 2018/6/22
@@ -906,6 +906,10 @@ photo.179.author: minatomirai215
 photo.179.commitdate: 2021/7/11
 photo.179.link: https://www.instagram.com/minatomirai215/
 photo.179.tags: close-up, portrait, whiskers, window
+photo.180: https://www.instagram.com/p/CRL21WWBE4s/media/?size=m
+photo.180.author: nishicotolo
+photo.180.link: https://www.instagram.com/nishicotolo/
+photo.180.tags: bamboo, peek, portrait
 species: 2
 studbook.id: 14161
 video.1: https://youtu.be/t1SITm45Rc8
@@ -914,4 +918,5 @@ video.1.link: https://www.youtube.com/user/Mmovies21
 video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
 video.2.author: cattail.sapporo
 video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
+uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
 zoo: 28
