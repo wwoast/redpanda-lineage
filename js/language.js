@@ -133,6 +133,7 @@ Language.L.emoji = {
    "caterpillar": "🐛",
          "climb": "🧗",
         "closed": "🔒",
+      "close_up": "😁",
         "couple": "💑",
        "cyclone": "🌀",
           "died": "🌈",
@@ -2525,6 +2526,15 @@ Language.L.tags = {
        "jp": ["木登り", "登る"],
        "np": ["चढाई"],
        "pt": ["escalando", "subindo"]
+  },
+  "close-up": {
+       "cn": ["特写"],
+    "emoji": [Language.L.emoji.close_up],
+       "en": ["close-up", "closeup", "close"],
+       "es": ["de cerca", "cerca"],
+       "jp": ["閉じる"],
+       "np": ["क्लोज-अप", "नजिक"],
+       "pt": ["fechar-se", "perto"]
   },
   "couple": {
        "cn": ["夫妇", "情侣"],
