@@ -415,8 +415,9 @@ photo.81.author: hamamatsu.chiita
 photo.81.commitdate: 2021/6/18
 photo.81.link: https://www.instagram.com/hamamatsu.chiita/
 photo.81.tags: portrait, smile, whiskers
-photo.82: https://www.instagram.com/p/CROQ4sshbJb/media/?size=m
+photo.82: ig://CROQ4sshbJb/m
 photo.82.author: minato.yokohama4416
+photo.82.commitdate: 2021/7/13
 photo.82.link: https://www.instagram.com/accounts/activity/
 photo.82.tags: laying down, paws, portrait
 species: 2

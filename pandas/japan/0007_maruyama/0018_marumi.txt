@@ -1791,8 +1791,9 @@ photo.357.author: cattail.sapporo
 photo.357.commitdate: 2021/7/4
 photo.357.link: https://www.instagram.com/cattail.sapporo/
 photo.357.tags: close-up, mofumofu, portrait, whiskers
-photo.358: https://www.instagram.com/p/CROaR5qhuf9/media/?size=m
+photo.358: ig://CROaR5qhuf9/m
 photo.358.author: nishicotolo
+photo.358.commitdate: 2021/7/13
 photo.358.link: https://www.instagram.com/nishicotolo/
 photo.358.tags: peek, portrait
 species: 2

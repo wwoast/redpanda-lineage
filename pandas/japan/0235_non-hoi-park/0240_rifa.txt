@@ -1687,8 +1687,9 @@ photo.336.author: ayusuke56
 photo.336.commitdate: 2021/6/16
 photo.336.link: https://www.instagram.com/ayusuke56/
 photo.336.tags: portrait, smile
-photo.337: https://www.instagram.com/p/CRPacAnB8vZ/media/?size=m
+photo.337: ig://CRPacAnB8vZ/m
 photo.337.author: hamamatsu.chiita
+photo.337.commitdate: 2021/7/13
 photo.337.link: https://www.instagram.com/hamamatsu.chiita/
 photo.337.tags: portrait, whiskers
 species: 2

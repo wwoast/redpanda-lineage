@@ -483,8 +483,9 @@ photo.94.author: hamamatsu.chiita
 photo.94.commitdate: 2021/7/9
 photo.94.link: https://www.instagram.com/hamamatsu.chiita/
 photo.94.tags: close-up, laying down, portrait, whiskers, white face
-photo.95: https://www.instagram.com/p/CRNAFRHBkOI/media/?size=m
+photo.95: ig://CRNAFRHBkOI/m
 photo.95.author: hamamatsu.chiita
+photo.95.commitdate: 2021/7/13
 photo.95.link: https://www.instagram.com/hamamatsu.chiita/
 photo.95.tags: portrait, white face
 species: 2

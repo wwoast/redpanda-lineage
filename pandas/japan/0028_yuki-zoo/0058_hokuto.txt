@@ -901,22 +901,23 @@ photo.178.author: eos1089
 photo.178.commitdate: 2021/7/11
 photo.178.link: https://www.instagram.com/eos1089/
 photo.178.tags: laying down, portrait, whiskers
-photo.179: ig://CRMMX4OhKqu/m
-photo.179.author: minatomirai215
-photo.179.commitdate: 2021/7/11
-photo.179.link: https://www.instagram.com/minatomirai215/
-photo.179.tags: close-up, portrait, whiskers, window
-photo.180: https://www.instagram.com/p/CRL21WWBE4s/media/?size=m
-photo.180.author: nishicotolo
-photo.180.link: https://www.instagram.com/nishicotolo/
-photo.180.tags: bamboo, peek, portrait
+photo.179: ig://CRL21WWBE4s/m
+photo.179.author: nishicotolo
+photo.179.commitdate: 2021/7/13
+photo.179.link: https://www.instagram.com/nishicotolo/
+photo.179.tags: bamboo, peek, portrait
+photo.180: ig://CRMMX4OhKqu/m
+photo.180.author: minatomirai215
+photo.180.commitdate: 2021/7/11
+photo.180.link: https://www.instagram.com/minatomirai215/
+photo.180.tags: close-up, portrait, whiskers, window
 species: 2
 studbook.id: 14161
+uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
 video.1: https://youtu.be/t1SITm45Rc8
 video.1.author: mmovies21
 video.1.link: https://www.youtube.com/user/Mmovies21
 video.2: https://m.youtube.com/watch?v=E-bY1RmqmGo
 video.2.author: cattail.sapporo
 video.2.link: https://www.youtube.com/channel/UCDRrZNBJ7K2lRue8FwoVZMQ
-uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
 zoo: 28
