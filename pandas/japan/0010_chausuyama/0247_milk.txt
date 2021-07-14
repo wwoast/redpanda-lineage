@@ -1276,8 +1276,9 @@ photo.253.author: jas_forever_love
 photo.253.commitdate: 2021/6/6
 photo.253.link: https://www.instagram.com/jas_forever_love/
 photo.253.tags: home, paws, whiskers
-photo.254: https://www.instagram.com/p/CPDwXOiBgjf/media/?size=m
+photo.254: ig://CPDwXOiBgjf/m
 photo.254.author: redpan22
+photo.254.commitdate: 2021/7/14
 photo.254.link: https://www.instagram.com/redpan22/
 photo.254.tags: flowers, portrait, whiskers
 species: 2

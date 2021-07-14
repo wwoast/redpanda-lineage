@@ -221,14 +221,15 @@ photo.42.author: yossi929
 photo.42.commitdate: 2021/2/2
 photo.42.link: https://www.instagram.com/yossi929/
 photo.42.tags: peek
-photo.43: ig://CQXcNU6BK2e/m
-photo.43.author: re_ichimaru
-photo.43.commitdate: 2021/6/23
-photo.43.link: https://www.instagram.com/re_ichimaru/
-photo.43.tags: mofumofu, portrait, smile
-photo.44: https://www.instagram.com/p/CPRfUypBX6p/media/?size=m
-photo.44.author: sasapan34
-photo.44.link: https://www.instagram.com/sasapan34/
+photo.43: ig://CPRfUypBX6p/m
+photo.43.author: sasapan34
+photo.43.commitdate: 2021/7/14
+photo.43.link: https://www.instagram.com/sasapan34/
+photo.44: ig://CQXcNU6BK2e/m
+photo.44.author: re_ichimaru
+photo.44.commitdate: 2021/6/23
+photo.44.link: https://www.instagram.com/re_ichimaru/
+photo.44.tags: mofumofu, portrait, smile
 species: 2
 studbook.id: 0764
 zoo: 41

@@ -408,30 +408,31 @@ photo.79.author: mini_cochi
 photo.79.commitdate: 2021/5/4
 photo.79.link: https://www.instagram.com/mini_cochi/
 photo.79.tags: apple time, paws, portrait, smile
-photo.80: ig://CPab6eSBeFa/m
-photo.80.author: ssc6105
-photo.80.commitdate: 2021/6/29
-photo.80.link: https://www.instagram.com/ssc6105/
-photo.80.tags: curly, tail, tongue
-photo.81: ig://CPxjch1BoaP/m
+photo.80: ig://CPTQS8yBtPm/m
+photo.80.author: eos1089
+photo.80.commitdate: 2021/7/14
+photo.80.link: https://www.instagram.com/eos1089/
+photo.80.tags: curly, portrait, smile, tail
+photo.81: ig://CPab6eSBeFa/m
 photo.81.author: ssc6105
-photo.81.commitdate: 2021/6/24
+photo.81.commitdate: 2021/6/29
 photo.81.link: https://www.instagram.com/ssc6105/
-photo.81.tags: curly, mofumofu, smile, tail
-photo.82: ig://CP-eGUbBh8m/m
+photo.81.tags: curly, tail, tongue
+photo.82: ig://CPxjch1BoaP/m
 photo.82.author: ssc6105
 photo.82.commitdate: 2021/6/24
 photo.82.link: https://www.instagram.com/ssc6105/
-photo.82.tags: home, paws, peek, smile
-photo.83: ig://CQYyJOdByp2/m
-photo.83.author: mini_cochi
-photo.83.commitdate: 2021/6/29
-photo.83.link: https://www.instagram.com/mini_cochi/
-photo.83.tags: apple time, home, paws, peek, portrait
-photo.84: https://www.instagram.com/p/CPTQS8yBtPm/media/?size=m
-photo.84.author: eos1089
-photo.84.link: https://www.instagram.com/eos1089/
-photo.84.tags: curly, portrait, smile, tail
+photo.82.tags: curly, mofumofu, smile, tail
+photo.83: ig://CP-eGUbBh8m/m
+photo.83.author: ssc6105
+photo.83.commitdate: 2021/6/24
+photo.83.link: https://www.instagram.com/ssc6105/
+photo.83.tags: home, paws, peek, smile
+photo.84: ig://CQYyJOdByp2/m
+photo.84.author: mini_cochi
+photo.84.commitdate: 2021/6/29
+photo.84.link: https://www.instagram.com/mini_cochi/
+photo.84.tags: apple time, home, paws, peek, portrait
 species: 2
 studbook.id: 13140
 zoo: 69
