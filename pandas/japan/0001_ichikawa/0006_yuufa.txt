@@ -588,15 +588,16 @@ photo.116.author: alto0908
 photo.116.commitdate: 2021/6/19
 photo.116.link: https://www.instagram.com/alto0908/
 photo.116.tags: portrait, smile, tongue, whiskers
-photo.117: ig://CQ7tXwlBQWU/m
-photo.117.author: na.mo.pan
-photo.117.commitdate: 2021/7/13
-photo.117.link: https://www.instagram.com/na.mo.pan/
-photo.117.tags: portrait, smile
-photo.118: https://www.instagram.com/p/CQU6UqGB37Y/media/?size=m
-photo.118.author: eos1089
-photo.118.link: https://www.instagram.com/eos1089/
-photo.118.tags: paws, portrait, whiskers
+photo.117: ig://CQU6UqGB37Y/m
+photo.117.author: eos1089
+photo.117.commitdate: 2021/7/14
+photo.117.link: https://www.instagram.com/eos1089/
+photo.117.tags: paws, portrait, whiskers
+photo.118: ig://CQ7tXwlBQWU/m
+photo.118.author: na.mo.pan
+photo.118.commitdate: 2021/7/13
+photo.118.link: https://www.instagram.com/na.mo.pan/
+photo.118.tags: portrait, smile
 species: 2
 studbook.id: 13146
 zoo: 1

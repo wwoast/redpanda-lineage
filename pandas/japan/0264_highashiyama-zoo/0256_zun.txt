@@ -833,25 +833,26 @@ photo.165.author: hamamatsu.chiita
 photo.165.commitdate: 2021/5/3
 photo.165.link: https://www.instagram.com/hamamatsu.chiita/
 photo.165.tags: portrait, smile, whiskers
-photo.166: ig://CO8JhQkBgoS/m
+photo.166: ig://CO2uwWBBb_r/m
 photo.166.author: fetorus_mami
-photo.166.commitdate: 2021/6/16
+photo.166.commitdate: 2021/7/14
 photo.166.link: https://www.instagram.com/fetorus_mami/
-photo.166.tags: climb, paws, smile
-photo.167: ig://CPtpoqchfrh/m
-photo.167.author: hamamatsu.chiita
-photo.167.commitdate: 2021/7/9
-photo.167.link: https://www.instagram.com/hamamatsu.chiita/
-photo.167.tags: peek, portrait, profile, whiskers
-photo.168: ig://CRPAD2VBC5S/m
-photo.168.author: eos1089
-photo.168.commitdate: 2021/7/13
-photo.168.link: https://www.instagram.com/eos1089/
-photo.168.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.169: https://www.instagram.com/p/CO2uwWBBb_r/media/?size=m
-photo.169.author: fetorus_mami
-photo.169.link: https://www.instagram.com/fetorus_mami/
-photo.169.tags: smile, tail
+photo.166.tags: smile, tail
+photo.167: ig://CO8JhQkBgoS/m
+photo.167.author: fetorus_mami
+photo.167.commitdate: 2021/6/16
+photo.167.link: https://www.instagram.com/fetorus_mami/
+photo.167.tags: climb, paws, smile
+photo.168: ig://CPtpoqchfrh/m
+photo.168.author: hamamatsu.chiita
+photo.168.commitdate: 2021/7/9
+photo.168.link: https://www.instagram.com/hamamatsu.chiita/
+photo.168.tags: peek, portrait, profile, whiskers
+photo.169: ig://CRPAD2VBC5S/m
+photo.169.author: eos1089
+photo.169.commitdate: 2021/7/13
+photo.169.link: https://www.instagram.com/eos1089/
+photo.169.tags: close-up, mofumofu, portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

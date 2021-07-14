@@ -234,20 +234,24 @@ photo.44.author: panda.daisuki
 photo.44.commitdate: 2021/2/24
 photo.44.link: https://www.instagram.com/panda.daisuki/
 photo.44.tags: door, portrait, whiskers
-photo.45: https://www.instagram.com/p/CQYMBFNhrvt/media/?size=m
-photo.45.author: ssc6105
-photo.45.link: https://www.instagram.com/ssc6105/
-photo.45.tags: blink, door, paws, portrait, smile, whiskers
-photo.46: https://www.instagram.com/p/CQYCBtJhVtT/media/?size=m
+photo.45: ig://CQXe7xvh0kA/m
+photo.45.author: grskus_tk
+photo.45.commitdate: 2021/7/14
+photo.45.link: https://www.instagram.com/grskus_tk/
+photo.45.tags: bamboo
+photo.46: ig://CQYCBtJhVtT/m
 photo.46.author: edogawa.kankyozaida
+photo.46.commitdate: 2021/7/14
 photo.46.link: https://www.instagram.com/edogawa.kankyozaidan/
 photo.46.tags: bamboo, videolink
-photo.47: https://www.instagram.com/p/CQXe7xvh0kA/media/?size=m
-photo.47.author: grskus_tk
-photo.47.link: https://www.instagram.com/grskus_tk/
-photo.47.tags: bamboo
-photo.48: https://www.instagram.com/p/CQYnRbrBtXR/media/?size=m
+photo.47: ig://CQYMBFNhrvt/m
+photo.47.author: ssc6105
+photo.47.commitdate: 2021/7/14
+photo.47.link: https://www.instagram.com/ssc6105/
+photo.47.tags: blink, door, paws, portrait, smile, whiskers
+photo.48: ig://CQYnRbrBtXR/m
 photo.48.author: na.mo.pan
+photo.48.commitdate: 2021/7/14
 photo.48.link: https://www.instagram.com/na.mo.pan/
 photo.48.tags: keeper, paws, smile, standing, tail
 species: 2
