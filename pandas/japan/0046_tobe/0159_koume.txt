@@ -238,8 +238,9 @@ photo.45.author: itsuak
 photo.45.commitdate: 2021/2/20
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: bamboo, bite, close-up, paws, portrait, profile
-photo.46: https://www.instagram.com/p/CRMPkUzDsQn/media/?size=m
+photo.46: ig://CRMPkUzDsQn/m
 photo.46.author: itsuak
+photo.46.commitdate: 2021/7/13
 photo.46.link: https://www.instagram.com/itsuak/
 photo.46.tags: close-up, mofumofu, portrait, whiskers
 species: 2

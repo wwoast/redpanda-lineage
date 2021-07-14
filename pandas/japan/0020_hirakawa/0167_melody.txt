@@ -972,8 +972,9 @@ photo.192.author: eos1089
 photo.192.commitdate: 2021/7/8
 photo.192.link: https://www.instagram.com/eos1089/
 photo.192.tags: portrait, smile, whiskers
-photo.193: https://www.instagram.com/p/CRAPcithCq7/media/?size=m
+photo.193: ig://CRAPcithCq7/m
 photo.193.author: yossi929
+photo.193.commitdate: 2021/7/13
 photo.193.link: https://www.instagram.com/yossi929/
 photo.193.tags: paws, peek, tree
 species: 2
