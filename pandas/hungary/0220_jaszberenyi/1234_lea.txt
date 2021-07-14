@@ -22,11 +22,19 @@ photo.1: ig://BuMvFoqAV5E/m
 photo.1.author: brigittabartakovics
 photo.1.commitdate: 2020/11/24
 photo.1.link: https://www.instagram.com/brigittabartakovics/
-photo.1.tags: ear, nose, eye, bamboo
+photo.1.tags: bamboo
 photo.2: ig://CDltk0JHoR5/m
 photo.2.author: levaikitti.photography
 photo.2.commitdate: 2020/11/24
 photo.2.link: https://www.instagram.com/levaikitti.photography/
-photo.2.tags: ear, nose, eye, tail
+photo.2.tags: bamboo, tail
+photo.3: https://www.instagram.com/p/CQt_OqhhaLD/media/?size=m
+photo.3.author: balathruin
+photo.3.link: https://www.instagram.com/balathruin/
+photo.3.tags: peek, white face
+photo.4: https://www.instagram.com/p/CQyHgxihPqe/media/?size=m
+photo.4.author: balathruin
+photo.4.link: https://www.instagram.com/balathruin/
+photo.4.tags: portrait, profile, whiskers
 species: 1
 zoo: 220
