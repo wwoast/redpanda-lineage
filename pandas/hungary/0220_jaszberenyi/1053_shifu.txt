@@ -2,7 +2,7 @@
 _id: 1053
 birthday: 2016/6/22
 birthplace: 219
-children: 1238, 1235
+children: 1299, 1238, 1235
 cn.name: 師父
 cn.nicknames: none
 cn.oldnames: 月
@@ -16,7 +16,7 @@ gender: m
 hu.name: Shifu
 hu.nicknames: none
 hu.oldnames: Tsuki
-hu.othernames: none
+hu.othernames: Sifu
 jp.name: 師父
 jp.nicknames: none
 jp.oldnames: つき
@@ -25,7 +25,7 @@ language.order: en, jp
 litter: 1052
 location.1: 219, 2016/6/22
 location.2: 221, 2017/1/29
-location.3: 220, 2018/1/1
+location.3: 220, 2017/07/18
 photo.1: ig://CRHELtXBOGr/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/7/14
@@ -37,5 +37,4 @@ photo.2.commitdate: 2021/7/14
 photo.2.link: https://www.instagram.com/balathruin/
 photo.2.tags: bamboo, paws, portrait, profile
 species: 1
-uncertainty: location.3 date
 zoo: 220
