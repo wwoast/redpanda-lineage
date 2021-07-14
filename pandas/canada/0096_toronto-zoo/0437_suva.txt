@@ -13,9 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 438
-location.1: 82, 2017/6/13
-location.2: 76, 2018/1/1
-location.3: 96, 2019/7/1
+location.1: 76, 2017/6/13
+location.2: 96, 2019/7/1
 photo.1: ig://B0ikw5Yg-17/m
 photo.1.author: b_aimz94
 photo.1.commitdate: 2020/3/18
@@ -51,6 +50,21 @@ photo.7.author: thetorontozoo
 photo.7.commitdate: 2020/8/28
 photo.7.link: https://www.instagram.com/thetorontozoo/
 photo.7.tags: bridge, laying down, paws, portrait
+photo.8: ig://CGKuy-JggZ2/m
+photo.8.author: thetorontozoo
+photo.8.commitdate: 2020/12/6
+photo.8.link: https://www.instagram.com/thetorontozoo/
+photo.8.tags: close-up, nose
+photo.9: ig://CII90sABjka/m
+photo.9.author: thetorontozoo
+photo.9.commitdate: 2020/12/3
+photo.9.link: https://www.instagram.com/thetorontozoo/
+photo.9.tags: paws, smile, whiskers
+photo.10: ig://CLhF0UAh_PP/m
+photo.10.author: thetorontozoo
+photo.10.commitdate: 2021/3/18
+photo.10.link: https://www.instagram.com/thetorontozoo/
+photo.10.tags: nose, paws, peek, whiskers
 species: 2
 studbook.id: 1701
 zoo: 96

@@ -114,7 +114,7 @@ photo.20: ig://CBQx6UmH4oR/m
 photo.20.author: elmwoodparkzoo
 photo.20.commitdate: 2020/8/11
 photo.20.link: https://www.instagram.com/elmwoodparkzoo/
-photo.20.tags: laying down, paws, portrait, sleeping
+photo.20.tags: close-up, laying down, paws, portrait, sleeping
 photo.21: ig://CCD9MRhg5tg/m
 photo.21.author: elmwoodparkzoo
 photo.21.commitdate: 2020/8/11
@@ -125,5 +125,16 @@ photo.22.author: rossifari
 photo.22.commitdate: 2020/9/7
 photo.22.link: https://www.instagram.com/rossifari/
 photo.22.tags: paws, whiskers
+photo.23: ig://CLJdWCrrDfF/m
+photo.23.author: rossifari
+photo.23.commitdate: 2021/6/29
+photo.23.link: https://www.instagram.com/rossifari/
+photo.23.tags: bamboo, paws, portrait, snow
+photo.24: ig://CNR4ArXgSeo/m
+photo.24.author: rossifari
+photo.24.commitdate: 2021/4/29
+photo.24.link: https://www.instagram.com/rossifari/
+photo.24.tags: portrait, whiskers, white face
 species: 1
+studbook.id: 1435
 zoo: 132

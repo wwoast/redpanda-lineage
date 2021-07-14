@@ -21,12 +21,17 @@ photo.1: ig://BN6wRckjqz3/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2019/4/7
 photo.1.link: https://www.instagram.com/philadelphiazoo/
-photo.1.tags: bamboo
+photo.1.tags: bamboo, portrait
 photo.2: ig://BsDXfXqFqhv/m
 photo.2.author: philadelphiazoo
 photo.2.commitdate: 2019/4/6
 photo.2.link: https://www.instagram.com/philadelphiazoo/
 photo.2.tags: white face
+photo.3: ig://CF9e3xxglQz/m
+photo.3.author: pippin455
+photo.3.commitdate: 2021/1/30
+photo.3.link: https://www.instagram.com/pippin455/
+photo.3.tags: peek, portrait
 species: 1
 studbook.id: 1016
 zoo: 105

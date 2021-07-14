@@ -18,5 +18,15 @@ photo.1.author: johnballzoogr
 photo.1.commitdate: 2020/11/23
 photo.1.link: https://www.instagram.com/johnballzoogr/
 photo.1.tags: baby, keeper, portrait, profile, white face
-species: 2
+photo.2: ig://CH3NMLFDy17/m
+photo.2.author: johnballzoogr
+photo.2.commitdate: 2020/11/28
+photo.2.link: https://www.instagram.com/johnballzoogr/
+photo.2.tags: baby, mofumofu, portrait, white face
+photo.3: ig://CQhJapajiIy/m
+photo.3.author: johnballzoogr
+photo.3.commitdate: 2021/7/3
+photo.3.link: https://www.instagram.com/johnballzoogr/
+photo.3.tags: bamboo, portrait, white face
+species: 1
 zoo: 111

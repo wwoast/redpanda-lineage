@@ -1,0 +1,36 @@
+[panda]
+_id: 342
+birthday: 2015/6/26
+birthplace: 81
+children: none
+commitdate: 2018/10/7
+en.name: Betsy
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベッツィ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 616
+location.1: 81, 2015/6/26
+location.2: 75, 2016/6/21
+location.3: 117, 2020/1/1
+photo.1: ig://BZdqnW5Ap60/m
+photo.1.author: wumpwoast
+photo.1.commitdate: 2020/11/20
+photo.1.link: https://www.instagram.com/wumpwoast/
+photo.1.tags: laying down, portrait, tail
+photo.2: ig://CJhHM1drNCT/m
+photo.2.author: trevorzoomillbrook
+photo.2.commitdate: 2021/1/2
+photo.2.link: https://www.instagram.com/trevorzoomillbrook/
+photo.2.tags: portrait, profile
+photo.3: ig://CLSdkMZAT9x/m
+photo.3.author: trevorzoomillbrook
+photo.3.commitdate: 2021/4/29
+photo.3.link: https://www.instagram.com/trevorzoomillbrook/
+photo.3.tags: bamboo, portrait, snow, videolink
+species: 1
+studbook.id: 1547
+zoo: 117

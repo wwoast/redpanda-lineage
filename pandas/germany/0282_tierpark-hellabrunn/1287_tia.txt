@@ -1,0 +1,16 @@
+[panda]
+_id: 1287
+birthday: 2019/7/2
+birthplace: 282
+children: none
+commitdate: 2021/4/11
+en.name: Tia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ティア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 282

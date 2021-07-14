@@ -209,9 +209,9 @@ photo.39.author: yossi929
 photo.39.commitdate: 2019/10/28
 photo.39.link: https://www.instagram.com/yossi929/
 photo.40: ig://B4cHX1kgsnM/m
-photo.40.author: sunnylettuce_2020
+photo.40.author: sunnylettuce_2021
 photo.40.commitdate: 2019/11/5
-photo.40.link: https://www.instagram.com/sunnylettuce_2020/
+photo.40.link: https://www.instagram.com/sunnylettuce_2021/
 photo.40.tags: bridge, paws
 photo.41: ig://B5i-WZahhjn/m
 photo.41.author: motohin
@@ -333,6 +333,61 @@ photo.64.author: makimaru18
 photo.64.commitdate: 2020/11/8
 photo.64.link: https://www.instagram.com/makimaru18/
 photo.64.tags: bridge, paws, portrait
+photo.65: ig://CI-8eYNhMfP/m
+photo.65.author: sakikukeco
+photo.65.commitdate: 2021/1/2
+photo.65.link: https://www.instagram.com/sakikukeco/
+photo.65.tags: mofumofu, nose, paws
+photo.66: ig://CKGqxtYhtFT/m
+photo.66.author: bubbles_octi
+photo.66.commitdate: 2021/1/28
+photo.66.link: https://www.instagram.com/bubbles_octi/
+photo.66.tags: apple time, paws, portrait, standing, toys
+photo.67: ig://CKQ9YKaBsyH/m
+photo.67.author: makimaru18
+photo.67.commitdate: 2021/3/2
+photo.67.link: https://www.instagram.com/makimaru18/
+photo.67.tags: keeper, lunch time, paws, portrait
+photo.68: ig://CLMHyG5Bs4B/m
+photo.68.author: makimaru18
+photo.68.commitdate: 2021/2/16
+photo.68.link: https://www.instagram.com/makimaru18/
+photo.68.tags: apple time, mofumofu, paws, portrait, smile
+photo.69: ig://CLlr3RYhxSe/m
+photo.69.author: makimaru18
+photo.69.commitdate: 2021/3/21
+photo.69.link: https://www.instagram.com/makimaru18/
+photo.69.tags: apple time, paws, portrait, tongue
+photo.70: ig://CLnqJLcB52G/m
+photo.70.author: sakikukeco
+photo.70.commitdate: 2021/3/21
+photo.70.link: https://www.instagram.com/sakikukeco/
+photo.70.tags: paws, portrait, smile, standing
+photo.71: ig://CMZiD-jhm5R/m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2021/3/29
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: mofumofu, paws, portrait
+photo.72: ig://CMe_J0fBlqe/m
+photo.72.author: bubbles_octi
+photo.72.commitdate: 2021/3/29
+photo.72.link: https://www.instagram.com/bubbles_octi/
+photo.72.tags: paws, portrait
+photo.73: ig://CNL6zOCBxM6/m
+photo.73.author: makimaru18
+photo.73.commitdate: 2021/4/3
+photo.73.link: https://www.instagram.com/makimaru18/
+photo.73.tags: paws, playing, portrait
+photo.74: ig://CNXMxM8hEpI/m
+photo.74.author: jas_forever_love
+photo.74.commitdate: 2021/4/29
+photo.74.link: https://www.instagram.com/jas_forever_love/
+photo.74.tags: paws, playing, portrait, tail, upside-down
+photo.75: ig://CPQJl9Fh6MX/m
+photo.75.author: bubbles_octi
+photo.75.commitdate: 2021/7/7
+photo.75.link: https://www.instagram.com/bubbles_octi/
+photo.75.tags: portrait, smile, tongue, toys
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

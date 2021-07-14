@@ -1,0 +1,36 @@
+[panda]
+_id: 1298
+birthday: 2020/6/6
+birthplace: 251
+children: none
+commitdate: 2021/7/6
+de.name: Loha
+de.nicknames: none
+de.othernames: none
+en.name: Loha
+en.nicknames: none
+en.othernames: none
+fr.name: Loha
+fr.nicknames: none
+fr.othernames: none
+gender: f
+jp.name: ロハ
+jp.nicknames: none
+jp.othernames: none
+language.order: fr, de, en, jp
+litter: unknown
+location.1: 251, 2020/6/6
+location.2: 219, 2021/3/1
+photo.1: ig://CPyownchKPe/m
+photo.1.author: nathalie.elliott
+photo.1.commitdate: 2021/7/6
+photo.1.link: https://www.instagram.com/nathalie.elliott/
+photo.1.tags: flowers, mofumofu, peek, portrait, profile
+photo.2: ig://CQ9VgadhWjO/m
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/7/8
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: dish, home, portrait, tail
+species: 1
+uncertainty: location.2 moving date
+zoo: 219

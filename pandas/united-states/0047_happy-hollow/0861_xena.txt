@@ -221,10 +221,10 @@ photo.41.author: hhpzoo
 photo.41.commitdate: 2020/8/23
 photo.41.link: https://www.instagram.com/hhpzoo/
 photo.41.tags: bamboo, videolink, wite face
-photo.42: ig://CEPfCHIDuBf/m
-photo.42.author: hhpzoo
-photo.42.commitdate: 2020/8/28
-photo.42.link: https://www.instagram.com/hhpzoo/
+photo.42: ig://CErgtqygMXN/m
+photo.42.author: djjohnbeaver
+photo.42.commitdate: 2020/12/28
+photo.42.link: https://www.instagram.com/djjohnbeaver/
 photo.42.tags: bamboo, paws, portrait, videolink
 photo.43: ig://CFSIvTYnZ1k/m
 photo.43.author: hhpzoo
@@ -241,5 +241,36 @@ photo.45.author: wumpwoast
 photo.45.commitdate: 2020/9/20
 photo.45.link: https://www.instagram.com/wumpwoast/
 photo.45.tags: bamboo, paws, portrait
+photo.46: ig://CH1lS6ah2-h/m
+photo.46.author: wumpwoast
+photo.46.commitdate: 2020/11/28
+photo.46.link: https://www.instagram.com/wumpwoast/
+photo.46.tags: laying down, portrait, white face
+photo.47: ig://CH9aSQPh57O/m
+photo.47.author: carsontheredpanda
+photo.47.commitdate: 2020/11/29
+photo.47.link: https://www.instagram.com/carsontheredpanda/
+photo.47.tags: bamboo, portrait, smile
+photo.48: ig://CKNlwdVBEGd/m
+photo.48.author: wumpwoast
+photo.48.commitdate: 2021/2/28
+photo.48.link: https://www.instagram.com/wumpwoast/
+photo.48.tags: laying down, portrait, white face
+photo.49: ig://CNDb5ongfAg/m
+photo.49.author: hhpzoo
+photo.49.commitdate: 2021/4/2
+photo.49.link: https://www.instagram.com/hhpzoo/
+photo.49.tags: bamboo, close-up, paws, white face
+photo.50: ig://CNGWXG5hId7/m
+photo.50.author: wumpwoast
+photo.50.commitdate: 2021/4/2
+photo.50.link: https://www.instagram.com/wumpwoast/
+photo.50.tags: laying down, tail, tree
+photo.51: ig://CQjJVDvLxYv/m
+photo.51.author: hhpzoo
+photo.51.commitdate: 2021/7/3
+photo.51.link: https://www.instagram.com/hhpzoo/
+photo.51.tags: laying down, mofumofu, tail, tree, white face
 species: 1
+studbook.id: 1821
 zoo: 47

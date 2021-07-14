@@ -31,25 +31,31 @@ photo.3.author: dr_wildlife
 photo.3.commitdate: 2018/12/14
 photo.3.link: https://www.instagram.com/dr_wildlife/
 photo.3.tags: tree
-photo.4: ig://BqXVsQ2Aa5X/m
-photo.4.author: heatherkalka
+photo.4: ig://BqvCOI9FBmR/m
+photo.4.author: markbernards3
 photo.4.commitdate: 2018/12/17
-photo.4.link: https://www.instagram.com/heatherkalka/
-photo.5: ig://BqvCOI9FBmR/m
-photo.5.author: markbernards3
-photo.5.commitdate: 2018/12/17
-photo.5.link: https://www.instagram.com/markbernards3/
-photo.5.tags: bamboo
-photo.6: https://www.codaworry.com/images/rpf/ralphie-1-saint-felicien.jpg
-photo.6.author: Gimmy Desbiens
-photo.6.commitdate: 2019/12/31
-photo.6.link: https://www.lequotidien.com/actualites/le-pere-noel-visite-le-zoo-sauvage-de-saint-felicien-e846a1b32e5636482a5317643a7a26fb
-photo.6.tags: apple time, snow
-photo.7: ig://B_e-kCMjvMv/m
-photo.7.author: rossifari
-photo.7.commitdate: 2020/5/4
-photo.7.link: https://www.instagram.com/rossifari/
-photo.7.tags: apple time, paws, portrait
+photo.4.link: https://www.instagram.com/markbernards3/
+photo.4.tags: bamboo
+photo.5: https://www.codaworry.com/images/rpf/ralphie-1-saint-felicien.jpg
+photo.5.author: Gimmy Desbiens
+photo.5.commitdate: 2019/12/31
+photo.5.link: https://www.lequotidien.com/actualites/le-pere-noel-visite-le-zoo-sauvage-de-saint-felicien-e846a1b32e5636482a5317643a7a26fb
+photo.5.tags: apple time, snow
+photo.6: ig://B_e-kCMjvMv/m
+photo.6.author: rossifari
+photo.6.commitdate: 2020/5/4
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: apple time, paws, portrait
+photo.7: ig://CC6rHtHHUG-/m
+photo.7.author: zoosauvageofficiel
+photo.7.commitdate: 2021/5/3
+photo.7.link: https://www.instagram.com/zoosauvageofficiel/
+photo.7.tags: bridge, portrait, whiskers
+photo.8: ig://CFaZfXoHwq1/m
+photo.8.author: zoosauvageofficiel
+photo.8.commitdate: 2021/5/3
+photo.8.link: https://www.instagram.com/zoosauvageofficiel/
+photo.8.tags: portrait, whiskers
 species: 2
 studbook.id: 0826
 zoo: 229

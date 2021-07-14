@@ -298,7 +298,7 @@ photo.57: ig://B8bc54Rh6Wg/m
 photo.57.author: gloryeui
 photo.57.commitdate: 2020/2/16
 photo.57.link: https://www.instagram.com/gloryeui/
-photo.57.tags: portrait
+photo.57.tags: peek, portrait
 photo.58: ig://B8kS6duBc_U/m
 photo.58.author: riri_panda616
 photo.58.commitdate: 2020/2/16
@@ -369,56 +369,126 @@ photo.71.author: jas_forever_love
 photo.71.commitdate: 2020/7/26
 photo.71.link: https://www.instagram.com/jas_forever_love/
 photo.71.tags: laying down, paws, smile, tongue
-photo.72: ig://CDykr4nBoIZ/m
-photo.72.author: bubbles_octi
-photo.72.commitdate: 2020/8/14
-photo.72.link: https://www.instagram.com/bubbles_octi/
-photo.72.tags: apple time, portrait, smile, tongue
-photo.73: ig://CD3Xjj6BrBo/m
-photo.73.author: chankunvv
-photo.73.commitdate: 2020/8/29
-photo.73.link: https://www.instagram.com/chankunvv/
-photo.73.tags: laying down, portrait, smile
-photo.74: ig://CETjjtFhp2p/m
-photo.74.author: gloryeui
-photo.74.commitdate: 2020/8/28
-photo.74.link: https://www.instagram.com/gloryeui/
-photo.74.tags: bamboo, portrait, smile, whiskers
-photo.75: ig://CEdCRNrhBNd/m
-photo.75.author: riri_panda616
-photo.75.commitdate: 2020/9/28
-photo.75.link: https://www.instagram.com/riri_panda616/
-photo.75.tags: portrait, smile, tongue
-photo.76: ig://CErOb6KBG1_/m
-photo.76.author: gloryeui
+photo.72: ig://CDnVIa-B8og/m
+photo.72.author: riri_panda616
+photo.72.commitdate: 2021/1/5
+photo.72.link: https://www.instagram.com/riri_panda616/
+photo.72.tags: laying down, portrait, tongue, whiskers
+photo.73: ig://CDykr4nBoIZ/m
+photo.73.author: bubbles_octi
+photo.73.commitdate: 2020/8/14
+photo.73.link: https://www.instagram.com/bubbles_octi/
+photo.73.tags: apple time, portrait, smile, tongue
+photo.74: ig://CD3Xjj6BrBo/m
+photo.74.author: chankunvv
+photo.74.commitdate: 2020/8/29
+photo.74.link: https://www.instagram.com/chankunvv/
+photo.74.tags: laying down, portrait, smile
+photo.75: ig://CETjjtFhp2p/m
+photo.75.author: gloryeui
+photo.75.commitdate: 2020/8/28
+photo.75.link: https://www.instagram.com/gloryeui/
+photo.75.tags: bamboo, portrait, smile, whiskers
+photo.76: ig://CEdCRNrhBNd/m
+photo.76.author: riri_panda616
 photo.76.commitdate: 2020/9/28
-photo.76.link: https://www.instagram.com/gloryeui/
-photo.76.tags: portrait, whiskers
-photo.77: ig://CGCVW3pBV-1/m
-photo.77.author: imagoto17
-photo.77.commitdate: 2020/10/8
-photo.77.link: https://www.instagram.com/imagoto17/
-photo.77.tags: mofumofu, portrait, smile, whiskers
-photo.78: ig://CGJBGNEBcvD/m
-photo.78.author: miis_98
-photo.78.commitdate: 2020/10/11
-photo.78.link: https://www.instagram.com/miis_98/
-photo.78.tags: portrait, smile, tongue, tail
-photo.79: ig://CGZvanPBkQt/m
-photo.79.author: hamamatsu.chiita
-photo.79.commitdate: 2020/10/29
-photo.79.link: https://www.instagram.com/hamamatsu.chiita/
-photo.79.tags: smile, whiskers
-photo.80: ig://CG0riuvAtIy/m
-photo.80.author: s24.star_load
-photo.80.commitdate: 2020/10/27
-photo.80.link: https://www.instagram.com/s24.star_load/
-photo.80.tags: smile, tongue, whiskers
-photo.81: ig://CG8OyMihv9z/m
-photo.81.author: hamamatsu.chiita
-photo.81.commitdate: 2020/11/8
-photo.81.link: https://www.instagram.com/hamamatsu.chiita/
-photo.81.tags: smile, tongue, whiskers
+photo.76.link: https://www.instagram.com/riri_panda616/
+photo.76.tags: portrait, smile, tongue
+photo.77: ig://CErOb6KBG1_/m
+photo.77.author: gloryeui
+photo.77.commitdate: 2020/9/28
+photo.77.link: https://www.instagram.com/gloryeui/
+photo.77.tags: portrait, whiskers
+photo.78: ig://CE6cJcNBk1W/m
+photo.78.author: gloryeui
+photo.78.commitdate: 2021/1/5
+photo.78.link: https://www.instagram.com/gloryeui/
+photo.78.tags: laying down, portrait, tail
+photo.79: ig://CFCJ8HNB9Ec/m
+photo.79.author: gloryeui
+photo.79.commitdate: 2020/12/28
+photo.79.link: https://www.instagram.com/gloryeui/
+photo.79.tags: portrait, smile, whiskers
+photo.80: ig://CF2wrcQA96m/m
+photo.80.author: run.swim.shingo
+photo.80.commitdate: 2021/1/5
+photo.80.link: https://www.instagram.com/run.swim.shingo/
+photo.80.tags: paws, smile, tongue, whiskers
+photo.81: ig://CF5hVgfh9_U/m
+photo.81.author: miis_98
+photo.81.commitdate: 2021/1/5
+photo.81.link: https://www.instagram.com/miis_98/
+photo.81.tags: portrait, smile, tongue
+photo.82: ig://CGCVW3pBV-1/m
+photo.82.author: imagoto17
+photo.82.commitdate: 2020/10/8
+photo.82.link: https://www.instagram.com/imagoto17/
+photo.82.tags: mofumofu, portrait, smile, whiskers
+photo.83: ig://CGJBGNEBcvD/m
+photo.83.author: miis_98
+photo.83.commitdate: 2020/10/11
+photo.83.link: https://www.instagram.com/miis_98/
+photo.83.tags: portrait, smile, tongue, tail
+photo.84: ig://CGZvanPBkQt/m
+photo.84.author: hamamatsu.chiita
+photo.84.commitdate: 2020/10/29
+photo.84.link: https://www.instagram.com/hamamatsu.chiita/
+photo.84.tags: smile, whiskers
+photo.85: ig://CG0riuvAtIy/m
+photo.85.author: s24.star_load
+photo.85.commitdate: 2020/10/27
+photo.85.link: https://www.instagram.com/s24.star_load/
+photo.85.tags: smile, tongue, whiskers
+photo.86: ig://CG8OyMihv9z/m
+photo.86.author: hamamatsu.chiita
+photo.86.commitdate: 2020/11/8
+photo.86.link: https://www.instagram.com/hamamatsu.chiita/
+photo.86.tags: smile, tongue, whiskers
+photo.87: ig://CHMMtZghk9f/m
+photo.87.author: mariten1119
+photo.87.commitdate: 2021/1/5
+photo.87.link: https://www.instagram.com/mariten1119/
+photo.87.tags: smile, whiskers
+photo.88: ig://CHlgOIihfkH/m
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2020/11/29
+photo.88.link: https://www.instagram.com/hamamatsu.chiita/
+photo.88.tags: close-up, portrait, smile, whiskers
+photo.89: ig://CJMjTtGgWfC/m
+photo.89.author: s24.star_load
+photo.89.commitdate: 2021/1/5
+photo.89.link: https://www.instagram.com/s24.star_load/
+photo.89.tags: paws, peek, portrait, tongue, whiskers
+photo.90: ig://CKUrSAkgu3R/m
+photo.90.author: s24.star_load
+photo.90.commitdate: 2021/6/29
+photo.90.link: https://www.instagram.com/s24.star_load/
+photo.90.tags: laying down, paws, smile, tongue, whiskers
+photo.91: ig://CMS9BCPATiM/m
+photo.91.author: s24.star_load
+photo.91.commitdate: 2021/4/3
+photo.91.link: https://www.instagram.com/s24.star_load/
+photo.91.tags: laying down, paws, portrait, tongue, whiskers
+photo.92: ig://CNnGhCLhrkg/m
+photo.92.author: hamiiiii831_
+photo.92.commitdate: 2021/4/20
+photo.92.link: https://www.instagram.com/hamiiiii831_/
+photo.92.tags: bamboo, paws, portrait, smile
+photo.93: ig://CN954KwBjJT/m
+photo.93.author: jas_forever_love
+photo.93.commitdate: 2021/5/19
+photo.93.link: https://www.instagram.com/jas_forever_love/
+photo.93.tags: smile, whiskers
+photo.94: ig://CO2TjhwhxyO/m
+photo.94.author: imagoto17
+photo.94.commitdate: 2021/6/16
+photo.94.link: https://www.instagram.com/imagoto17/
+photo.94.tags: bamboo, paws, portrait, whiskers
+photo.95: ig://CRQ8f0zB5vC/m
+photo.95.author: leonard_redmof
+photo.95.commitdate: 2021/7/14
+photo.95.link: https://www.instagram.com/leonard_redmof/
+photo.95.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 14164
 zoo: 58

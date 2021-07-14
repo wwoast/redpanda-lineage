@@ -1,0 +1,35 @@
+[panda]
+_id: 1250
+birthday: 2016/7/11
+birthplace: 263
+children: 1247, 1248
+commitdate: 2020/12/29
+en.name: Koda
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: コダ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: unknown
+location.1: 263, 2016/7/11
+location.2: 271, 2018/6/6
+photo.1: ig://Bkc_FhdHuTe/m
+photo.1.author: chesterzoo
+photo.1.commitdate: 2020/12/29
+photo.1.link: https://www.instagram.com/chesterzoo/
+photo.1.tags: bamboo, mofumofu, portrait, profile, videolink
+photo.2: ig://B9RkU9fn4of/m
+photo.2.author: chesterzoo
+photo.2.commitdate: 2020/12/29
+photo.2.link: https://www.instagram.com/chesterzoo/
+photo.2.tags: portrait, videolink
+photo.3: ig://CBTqhpZDVYV/m
+photo.3.author: chesterzoo
+photo.3.commitdate: 2020/12/29
+photo.3.link: https://www.instagram.com/chesterzoo/
+photo.3.tags: paws, peek, tree
+species: 1
+studbook.id: 1647
+zoo: 271

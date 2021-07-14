@@ -15,19 +15,19 @@ language.order: ru, en, jp
 litter: none
 location.1: 151, 2014/6/14
 location.2: 149, 2015/9/30
-photo.1: ig://Brm8ih-gayK/m
+photo.1: ig://BOwzdHqBtWW/m
 photo.1.author: moscow_zoo_official
-photo.1.commitdate: 2019/3/16
+photo.1.commitdate: 2019/3/17
 photo.1.link: https://www.instagram.com/moscow_zoo_official/
-photo.1.tags: climb, portrait, smile
-photo.2: ig://Br4tpO_g41g/m
+photo.1.tags: laying down, paws, tongue
+photo.2: ig://BVT7OjGB49J/m
 photo.2.author: moscow_zoo_official
-photo.2.commitdate: 2019/3/16
+photo.2.commitdate: 2019/3/17
 photo.2.link: https://www.instagram.com/moscow_zoo_official/
-photo.2.tags: bamboo, portrait, smile
-photo.3: ig://BqzYc8xAR8Z/m
+photo.2.tags: portrait, profile
+photo.3: ig://BqKkKB5AfL0/m
 photo.3.author: moscow_zoo_official
-photo.3.commitdate: 2019/3/16
+photo.3.commitdate: 2019/3/17
 photo.3.link: https://www.instagram.com/moscow_zoo_official/
 photo.3.tags: portrait, tree
 photo.4: ig://BqhASoogc8F/m
@@ -35,26 +35,31 @@ photo.4.author: moscow_zoo_official
 photo.4.commitdate: 2019/3/16
 photo.4.link: https://www.instagram.com/moscow_zoo_official/
 photo.4.tags: portrait, snow, tree
-photo.5: ig://BqKkKB5AfL0/m
+photo.5: ig://BqzYc8xAR8Z/m
 photo.5.author: moscow_zoo_official
-photo.5.commitdate: 2019/3/17
+photo.5.commitdate: 2019/3/16
 photo.5.link: https://www.instagram.com/moscow_zoo_official/
 photo.5.tags: portrait, tree
-photo.6: ig://BVT7OjGB49J/m
+photo.6: ig://Brm8ih-gayK/m
 photo.6.author: moscow_zoo_official
-photo.6.commitdate: 2019/3/17
+photo.6.commitdate: 2019/3/16
 photo.6.link: https://www.instagram.com/moscow_zoo_official/
-photo.6.tags: portrait, profile
-photo.7: ig://BOwzdHqBtWW/m
+photo.6.tags: climb, portrait, smile
+photo.7: ig://Br4tpO_g41g/m
 photo.7.author: moscow_zoo_official
-photo.7.commitdate: 2019/3/17
+photo.7.commitdate: 2019/3/16
 photo.7.link: https://www.instagram.com/moscow_zoo_official/
-photo.7.tags: laying down, paws, tongue
+photo.7.tags: bamboo, portrait, smile
 photo.8: ig://B8ZGDYciyFH/m
 photo.8.author: moscow_zoo_official
 photo.8.commitdate: 2020/3/15
 photo.8.link: https://www.instagram.com/moscow_zoo_official/
 photo.8.tags: bamboo, paws, portrait, tongue
+photo.9: ig://CG-snDzBbSW/m
+photo.9.author: druidessgem
+photo.9.commitdate: 2021/2/24
+photo.9.link: https://www.instagram.com/druidessgem/
+photo.9.tags: portrait
 ru.name: Чхэн
 ru.nicknames: none
 ru.othernames: none

@@ -18,30 +18,35 @@ language.order: en, jp
 litter: unknown
 location.1: 199, 2011/6/22
 location.2: 137, 2012/5/26
-photo.1: ig://5bm7UoE0Kn/m
+photo.1: ig://xwfFdgE0Co/m
 photo.1.author: colchester_zoo
 photo.1.commitdate: 2019/7/22
 photo.1.link: https://www.instagram.com/colchester_zoo/
-photo.1.tags: portrait
-photo.2: ig://BkfCmm2nAYy/m
+photo.1.tags: portrait, smile, whiskers
+photo.2: ig://5bm7UoE0Kn/m
 photo.2.author: colchester_zoo
 photo.2.commitdate: 2019/7/22
 photo.2.link: https://www.instagram.com/colchester_zoo/
-photo.2.tags: portrait, profile, smile, tongue
-photo.3: ig://BuRL1NSlY42/m
+photo.2.tags: portrait
+photo.3: ig://BkfCmm2nAYy/m
 photo.3.author: colchester_zoo
 photo.3.commitdate: 2019/7/22
 photo.3.link: https://www.instagram.com/colchester_zoo/
-photo.3.tags: laying down, portrait, yawn
-photo.4: ig://xwfFdgE0Co/m
+photo.3.tags: portrait, profile, smile, tongue
+photo.4: ig://BuRL1NSlY42/m
 photo.4.author: colchester_zoo
 photo.4.commitdate: 2019/7/22
 photo.4.link: https://www.instagram.com/colchester_zoo/
-photo.4.tags: portrait, smile, whiskers
+photo.4.tags: laying down, portrait, yawn
 photo.5: ig://B39pKv-hsdE/m
 photo.5.author: wumpwoast
 photo.5.commitdate: 2019/10/23
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.5.tags: paws, portrait
+photo.6: ig://CBDTdasloj8/m
+photo.6.author: colchester_zoo
+photo.6.commitdate: 2021/6/14
+photo.6.link: https://www.instagram.com/colchester_zoo/
+photo.6.tags: apple time, close-up, portrait, smile
 species: 1
 zoo: 137

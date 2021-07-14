@@ -15,31 +15,31 @@ language.order: ru, en, jp
 litter: 682
 location.1: 150, 2013/7/14
 location.2: 149, 2014/10/4
-photo.1: ig://BrUHlnmAt5P/m
+photo.1: ig://vn9wbcGF-_/m
 photo.1.author: moscow_zoo_official
-photo.1.commitdate: 2019/3/15
+photo.1.commitdate: 2019/3/17
 photo.1.link: https://www.instagram.com/moscow_zoo_official/
-photo.1.tags: profile, white face
-photo.2: ig://BOzH5IVhPNU/m
+photo.1.tags: tongue, white face
+photo.2: ig://6CG2LNGFwa/m
 photo.2.author: moscow_zoo_official
 photo.2.commitdate: 2019/3/17
 photo.2.link: https://www.instagram.com/moscow_zoo_official/
-photo.2.tags: lunch time, keeper
+photo.2.tags: tree, white face
 photo.3: ig://BBjqF2GGF9F/m
 photo.3.author: moscow_zoo_official
 photo.3.commitdate: 2019/3/17
 photo.3.link: https://www.instagram.com/moscow_zoo_official/
 photo.3.tags: snow, white face
-photo.4: ig://6CG2LNGFwa/m
+photo.4: ig://BOzH5IVhPNU/m
 photo.4.author: moscow_zoo_official
 photo.4.commitdate: 2019/3/17
 photo.4.link: https://www.instagram.com/moscow_zoo_official/
-photo.4.tags: tree, white face
-photo.5: ig://vn9wbcGF-_/m
+photo.4.tags: lunch time, keeper
+photo.5: ig://BrUHlnmAt5P/m
 photo.5.author: moscow_zoo_official
-photo.5.commitdate: 2019/3/17
+photo.5.commitdate: 2019/3/15
 photo.5.link: https://www.instagram.com/moscow_zoo_official/
-photo.5.tags: tongue, white face
+photo.5.tags: profile, white face
 photo.6: ig://BzxKW6aBjVT/m
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2019/7/11
@@ -55,6 +55,16 @@ photo.8.author: fetorus_mami
 photo.8.commitdate: 2019/7/28
 photo.8.link: https://www.instagram.com/fetorus_mami/
 photo.8.tags: home, portrait, tail, white face
+photo.9: ig://CG9hIORhfBd/m
+photo.9.author: druidessgem
+photo.9.commitdate: 2021/2/24
+photo.9.link: https://www.instagram.com/druidessgem/
+photo.9.tags: tail, white face
+photo.10: ig://CH20EMDBxfK/m
+photo.10.author: druidessgem
+photo.10.commitdate: 2021/2/24
+photo.10.link: https://www.instagram.com/druidessgem/
+photo.10.tags: lunch time, tail
 ru.name: Зейн
 ru.nicknames: none
 ru.othernames: none

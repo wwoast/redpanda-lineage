@@ -20,11 +20,12 @@ photo.1: ig://q5XlSASkC7/m
 photo.1.author: worldthathesees
 photo.1.commitdate: 2019/3/17
 photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: profile, smile
+photo.1.tags: portrait, smile
 photo.2: ig://1TMPTDJYfa/m
 photo.2.author: zoomontana
 photo.2.commitdate: 2019/3/17
 photo.2.link: https://www.instagram.com/zoomontana/
+photo.2.tags: portrait
 photo.3: ig://BvPYsdkFd38/m
 photo.3.author: zoomontana
 photo.3.commitdate: 2020/3/21
@@ -45,6 +46,11 @@ photo.6.author: krs_wildlife_photography
 photo.6.commitdate: 2020/9/10
 photo.6.link: https://www.instagram.com/krs_wildlife_photography/
 photo.6.tags: laying down, portrait, tail
+photo.7: ig://CMmzOCEDCPs/m
+photo.7.author: zoomontana
+photo.7.commitdate: 2021/6/23
+photo.7.link: https://www.instagram.com/zoomontana/
+photo.7.tags: portrait, profile, white face
 species: 1
 studbook.id: 1129
 zoo: 128

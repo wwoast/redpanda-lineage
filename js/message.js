@@ -77,6 +77,28 @@ Message.birthday = function(name, animal_id, years, language) {
   message.appendChild(shrinker);
   return message;
 }
+Message.birthday_overflow = function(count, language) {
+  var p = document.createElement('p');
+  p.className = "summaryEmphasis";
+  for (var i in L.messages.birthday_overflow[language]) {
+    var field = L.messages.birthday_overflow[language][i];
+    if (field == "<INSERTCOUNT>") {
+      field = count;
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    } else {
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
+    }
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "birthdaySummary";
+  message.appendChild(shrinker);
+  return message;
+}
 Message.closed = function(date, language) {
   var p = document.createElement('p');
   for (var i in L.messages.closed[language]) {

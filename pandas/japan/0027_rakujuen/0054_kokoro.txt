@@ -4,6 +4,7 @@ birthday: 2006/6/20
 birthplace: 10
 children: none
 commitdate: 2018/6/20
+death: 2021/6/14
 en.name: Kokoro
 en.nicknames: Mofumofu
 en.othernames: none
@@ -33,7 +34,8 @@ photo.3.tags: portrait, sleeping, tongue
 photo.4: ig://Bf9ZZbghBQf/m
 photo.4.author: apple_jasmine33
 photo.4.commitdate: 2020/5/15
-photo.4.link: portrait
+photo.4.link: https://www.instagram.com/apple_jasmine33/
+photo.4.tags: portrait
 photo.5: ig://BguYQ-FgsVy/m
 photo.5.author: wumpwoast
 photo.5.commitdate: 2019/6/20
@@ -83,120 +85,220 @@ photo.14.author: yuki_cat_panda
 photo.14.commitdate: 2018/11/18
 photo.14.link: https://www.instagram.com/yuki_cat_panda/
 photo.14.tags: laying down
-photo.15: ig://BvR0eeWluoZ/m
-photo.15.author: take_421
-photo.15.commitdate: 2019/3/22
-photo.15.link: https://www.instagram.com/take_421/
-photo.15.tags: mofumofu, paws, portrait
-photo.16: ig://BxeHEMplwQN/m
-photo.16.author: miis_98
-photo.16.commitdate: 2019/5/16
-photo.16.link: https://www.instagram.com/miis_98/
-photo.16.tags: paws, portrait, white face
-photo.17: ig://BxpCyR2FqVc/m
+photo.15: ig://BqvTl5HlmFc/m
+photo.15.author: na.mo.pan
+photo.15.commitdate: 2018/11/28
+photo.15.link: https://www.instagram.com/na.mo.pan/
+photo.15.tags: nose
+photo.16: ig://BvR0eeWluoZ/m
+photo.16.author: take_421
+photo.16.commitdate: 2019/3/22
+photo.16.link: https://www.instagram.com/take_421/
+photo.16.tags: mofumofu, paws, portrait
+photo.17: ig://BxeHEMplwQN/m
 photo.17.author: miis_98
-photo.17.commitdate: 2019/5/21
+photo.17.commitdate: 2019/5/16
 photo.17.link: https://www.instagram.com/miis_98/
-photo.17.tags: bamboo, portrait, smile
-photo.18: ig://Bxt7Wr5FYSx/m
-photo.18.author: pantasanzoo1
-photo.18.commitdate: 2019/5/22
-photo.18.link: https://www.instagram.com/pantasanzoo1/
-photo.18.tags: techitechi
-photo.19: ig://ByEToasB4Q0/m
+photo.17.tags: paws, portrait, white face
+photo.18: ig://BxpCyR2FqVc/m
+photo.18.author: miis_98
+photo.18.commitdate: 2019/5/21
+photo.18.link: https://www.instagram.com/miis_98/
+photo.18.tags: bamboo, portrait, smile
+photo.19: ig://Bxt7Wr5FYSx/m
 photo.19.author: pantasanzoo1
-photo.19.commitdate: 2019/6/1
+photo.19.commitdate: 2019/5/22
 photo.19.link: https://www.instagram.com/pantasanzoo1/
-photo.19.tags: apple time, dish
-photo.20: ig://ByrY3ftBsPS/m
+photo.19.tags: techitechi
+photo.20: ig://ByEToasB4Q0/m
 photo.20.author: pantasanzoo1
-photo.20.commitdate: 2019/6/16
+photo.20.commitdate: 2019/6/1
 photo.20.link: https://www.instagram.com/pantasanzoo1/
-photo.20.tags: mofumofu, paws, portrait
-photo.21: ig://By6oiOqBaUN/m
+photo.20.tags: apple time, dish
+photo.21: ig://ByrY3ftBsPS/m
 photo.21.author: pantasanzoo1
-photo.21.commitdate: 2019/6/21
+photo.21.commitdate: 2019/6/16
 photo.21.link: https://www.instagram.com/pantasanzoo1/
-photo.21.tags: paws, smile
-photo.22: ig://By7ASCphgs0/m
-photo.22.author: rakujyu_mishima
-photo.22.commitdate: 2019/6/22
-photo.22.link: https://www.instagram.com/rakujyu_mishima/
-photo.22.tags: apple time, home, lunch time
-photo.23: ig://B4dolxPB5ja/m
-photo.23.author: sasapan34
-photo.23.commitdate: 2019/11/6
-photo.23.link: https://www.instagram.com/sasapan34/
-photo.24: ig://B5_0iJOhJVl/m
+photo.21.tags: mofumofu, paws, portrait
+photo.22: ig://By6oiOqBaUN/m
+photo.22.author: pantasanzoo1
+photo.22.commitdate: 2019/6/21
+photo.22.link: https://www.instagram.com/pantasanzoo1/
+photo.22.tags: paws, smile
+photo.23: ig://By7ASCphgs0/m
+photo.23.author: rakujyu_mishima
+photo.23.commitdate: 2019/6/22
+photo.23.link: https://www.instagram.com/rakujyu_mishima/
+photo.23.tags: apple time, home, lunch time
+photo.24: ig://B4dolxPB5ja/m
 photo.24.author: sasapan34
-photo.24.commitdate: 2019/12/16
+photo.24.commitdate: 2019/11/6
 photo.24.link: https://www.instagram.com/sasapan34/
-photo.24.tags: home, laying down, paws
-photo.25: ig://B6IS5g2h5kp/m
-photo.25.author: ssc6105
-photo.25.commitdate: 2019/12/30
-photo.25.link: https://www.instagram.com/ssc6105/
-photo.25.tags: portrait, tail
-photo.26: ig://B7LMc8Rh9ge/m
+photo.25: ig://B5_0iJOhJVl/m
+photo.25.author: sasapan34
+photo.25.commitdate: 2019/12/16
+photo.25.link: https://www.instagram.com/sasapan34/
+photo.25.tags: home, laying down, paws
+photo.26: ig://B6IS5g2h5kp/m
 photo.26.author: ssc6105
-photo.26.commitdate: 2020/1/14
+photo.26.commitdate: 2019/12/30
 photo.26.link: https://www.instagram.com/ssc6105/
-photo.26.tags: bamboo, portrait, techitechi
-photo.27: ig://B88FQrGJHaD/m
-photo.27.author: mybrotherisdylan
-photo.27.commitdate: 2020/11/6
-photo.27.link: https://www.instagram.com/mybrotherisdylan/
-photo.27.tags: apple time, home, lips, paws, smile, techitechi
-photo.28: ig://B897ABNh02_/m
-photo.28.author: firefoxpanda88
-photo.28.commitdate: 2020/2/27
-photo.28.link: https://www.instagram.com/firefoxpanda88/
-photo.28.tags: portrait, smile, whiskers
-photo.29: ig://B-CIinlhMwC/m
-photo.29.author: minatomirai215
-photo.29.commitdate: 2020/3/22
-photo.29.link: https://www.instagram.com/minatomirai215/
-photo.29.tags: home, mofumofu, portrait, techitechi
-photo.30: ig://B-lkbY7Bzd1/m
-photo.30.author: minatomirai215
-photo.30.commitdate: 2020/4/9
-photo.30.link: https://www.instagram.com/minatomirai215/
-photo.30.tags: dish, mofumofu, portrait, tongue
-photo.31: ig://B_NDHUAhh35/m
-photo.31.author: kisshan324
-photo.31.commitdate: 2020/4/25
-photo.31.link: https://www.instagram.com/kisshan324/
-photo.31.tags: bamboo, home, mofumofu, paws, portrait, techitechi
-photo.32: ig://CBp6VCPBCYf/m
-photo.32.author: ssc6105
-photo.32.commitdate: 2020/6/24
-photo.32.link: https://www.instagram.com/ssc6105/
-photo.32.tags: mofumofu, tail, whiskers
-photo.33: ig://CBqTcTjh1Aj/m
-photo.33.author: minatomirai215
-photo.33.commitdate: 2020/6/24
-photo.33.link: https://www.instagram.com/minatomirai215/
-photo.33.tags: apple time, dish, paws, smile, techitechi
-photo.34: ig://CC2cexRhV7N/m
-photo.34.author: grskus_tk
-photo.34.commitdate: 2020/7/24
-photo.34.link: https://www.instagram.com/grskus_tk/
-photo.34.tags: home, laying down, paws, portrait, smile
-photo.35: ig://CC5-nODhtEB/m
-photo.35.author: grskus_tk
-photo.35.commitdate: 2020/7/24
-photo.35.link: https://www.instagram.com/grskus_tk/
-photo.35.tags: laying down, paws, tongue
-photo.36: ig://CDI5PbfBJwd/m
-photo.36.author: grskus_tk
-photo.36.commitdate: 2020/8/21
-photo.36.link: https://www.instagram.com/grskus_tk/
-photo.36.tags: mofumofu, portrait, tail
-photo.37: ig://CFVSoiZBwS_/m
-photo.37.author: tetusara.ki_
-photo.37.commitdate: 2020/9/20
-photo.37.link: https://www.instagram.com/tetusara.ki_/
-photo.37.tags: mofumofu, portrait, tail
+photo.26.tags: portrait, tail
+photo.27: ig://B6ft1hwh-vp/m
+photo.27.author: rakujyu_mishima
+photo.27.commitdate: 2021/6/15
+photo.27.link: https://www.instagram.com/rakujyu_mishima/
+photo.27.tags: apple time, close-up, keeper, whiskers
+photo.28: ig://B7LMc8Rh9ge/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2020/1/14
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: bamboo, portrait, techitechi
+photo.29: ig://B88FQrGJHaD/m
+photo.29.author: mybrotherisdylan
+photo.29.commitdate: 2020/11/6
+photo.29.link: https://www.instagram.com/mybrotherisdylan/
+photo.29.tags: apple time, home, lips, paws, smile, techitechi
+photo.30: ig://B897ABNh02_/m
+photo.30.author: firefoxpanda88
+photo.30.commitdate: 2020/2/27
+photo.30.link: https://www.instagram.com/firefoxpanda88/
+photo.30.tags: portrait, smile, whiskers
+photo.31: ig://B-CIinlhMwC/m
+photo.31.author: minatomirai215
+photo.31.commitdate: 2020/3/22
+photo.31.link: https://www.instagram.com/minatomirai215/
+photo.31.tags: home, mofumofu, portrait, techitechi
+photo.32: ig://B-lkbY7Bzd1/m
+photo.32.author: minatomirai215
+photo.32.commitdate: 2020/4/9
+photo.32.link: https://www.instagram.com/minatomirai215/
+photo.32.tags: dish, mofumofu, portrait, tongue
+photo.33: ig://B_NDHUAhh35/m
+photo.33.author: kisshan324
+photo.33.commitdate: 2020/4/25
+photo.33.link: https://www.instagram.com/kisshan324/
+photo.33.tags: bamboo, home, mofumofu, paws, portrait, techitechi
+photo.34: ig://CBpsoPfhH8s/m
+photo.34.author: rakujyu_mishima
+photo.34.commitdate: 2021/6/15
+photo.34.link: https://www.instagram.com/rakujyu_mishima/
+photo.34.tags: apple time, dish, portrait
+photo.35: ig://CBp6VCPBCYf/m
+photo.35.author: ssc6105
+photo.35.commitdate: 2020/6/24
+photo.35.link: https://www.instagram.com/ssc6105/
+photo.35.tags: mofumofu, tail, whiskers
+photo.36: ig://CBqTcTjh1Aj/m
+photo.36.author: minatomirai215
+photo.36.commitdate: 2020/6/24
+photo.36.link: https://www.instagram.com/minatomirai215/
+photo.36.tags: apple time, dish, paws, smile, techitechi
+photo.37: ig://CC2cexRhV7N/m
+photo.37.author: grskus_tk
+photo.37.commitdate: 2020/7/24
+photo.37.link: https://www.instagram.com/grskus_tk/
+photo.37.tags: home, laying down, paws, portrait, smile
+photo.38: ig://CC5-nODhtEB/m
+photo.38.author: grskus_tk
+photo.38.commitdate: 2020/7/24
+photo.38.link: https://www.instagram.com/grskus_tk/
+photo.38.tags: laying down, paws, tongue
+photo.39: ig://CDI5PbfBJwd/m
+photo.39.author: grskus_tk
+photo.39.commitdate: 2020/8/21
+photo.39.link: https://www.instagram.com/grskus_tk/
+photo.39.tags: mofumofu, portrait, tail
+photo.40: ig://CFVSoiZBwS_/m
+photo.40.author: tetusara.ki_
+photo.40.commitdate: 2020/9/20
+photo.40.link: https://www.instagram.com/tetusara.ki_/
+photo.40.tags: mofumofu, portrait, tail
+photo.41: ig://CIfT6w0h0bj/m
+photo.41.author: mybrotherisdylan
+photo.41.commitdate: 2020/12/20
+photo.41.link: https://www.instagram.com/mybrotherisdylan/
+photo.41.tags: dish, keeper, paws, portrait, standing, tail
+photo.42: ig://CNMwOZFhUCp/m
+photo.42.author: mybrotherisdylan
+photo.42.commitdate: 2021/6/15
+photo.42.link: https://www.instagram.com/mybrotherisdylan/
+photo.42.tags: bamboo, blink, smile
+photo.43: ig://CN4i0lchJvK/m
+photo.43.author: pink.b22
+photo.43.commitdate: 2021/5/8
+photo.43.link: https://www.instagram.com/pink.b22/
+photo.43.tags: apple time, bamboo, home, keeper, paws, portrait, smile, tail
+photo.44: ig://CN8bTPTBMpz/m
+photo.44.author: kotume4935
+photo.44.commitdate: 2021/5/3
+photo.44.link: https://www.instagram.com/kotume4935/
+photo.44.tags: air tasting, home, laying down, mofumofu, portrait, tongue
+photo.45: ig://COPnqz6BAy7/m
+photo.45.author: pink.b22
+photo.45.commitdate: 2021/5/3
+photo.45.link: https://www.instagram.com/pink.b22/
+photo.45.tags: home, laying down, mofumofu, paws, tail
+photo.46: ig://COlqZWyhYbB/m
+photo.46.author: kotume4935
+photo.46.commitdate: 2021/6/4
+photo.46.link: https://www.instagram.com/kotume4935/
+photo.46.tags: mofumofu, paws, portrait, smile, tongue
+photo.47: ig://CO88QkJhUz_/m
+photo.47.author: rie_panda55
+photo.47.commitdate: 2021/6/9
+photo.47.link: https://www.instagram.com/rie_panda55/
+photo.47.tags: portrait, smile, whiskers
+photo.48: ig://CPSplzkhyK4/m
+photo.48.author: pink.b22
+photo.48.commitdate: 2021/6/8
+photo.48.link: https://www.instagram.com/pink.b22/
+photo.48.tags: home, laying down, portrait, smile, tongue
+photo.49: ig://CQI249tBjYj/m
+photo.49.author: rakujyu_mishima
+photo.49.commitdate: 2021/6/15
+photo.49.link: https://www.instagram.com/rakujyu_mishima/
+photo.49.tags: paws, portrait, standing, techitechi
+photo.50: ig://CQJRQwmhcPg/m
+photo.50.author: pantasanzoo1
+photo.50.commitdate: 2021/6/18
+photo.50.link: https://www.instagram.com/pantasanzoo1/
+photo.50.tags: grooming, paws, tongue, window
+photo.51: ig://CQJbVCyh05b/m
+photo.51.author: firefoxpanda88
+photo.51.commitdate: 2021/6/18
+photo.51.link: https://www.instagram.com/firefoxpanda88/
+photo.51.tags: mofumofu, portrait
+photo.52: ig://CQLTFWNBI9R/m
+photo.52.author: ssc6105
+photo.52.commitdate: 2021/6/18
+photo.52.link: https://www.instagram.com/ssc6105/
+photo.52.tags: mofumofu, wihskers
+photo.53: ig://CQLYJDWBkb_/m
+photo.53.author: daniele.tokyo
+photo.53.commitdate: 2021/6/18
+photo.53.link: https://www.instagram.com/daniele.tokyo/
+photo.53.tags: home, laying down, portrait, sleeping, whiskers
+photo.54: ig://CQL4ilnhJr-/m
+photo.54.author: alto0908
+photo.54.commitdate: 2021/6/18
+photo.54.link: https://www.instagram.com/alto0908/
+photo.54.tags: apple time, close-up, mofumofu, portrait, smile, tongue, whiskers
+photo.55: ig://CQOZAVnBnTz/m
+photo.55.author: craig_craig_craig
+photo.55.commitdate: 2021/6/18
+photo.55.link: https://www.instagram.com/craig_craig_craig/
+photo.55.tags: portrait, techitechi, videolink
+photo.56: ig://CQTUH5qBpaF/m
+photo.56.author: fetorus_mami
+photo.56.commitdate: 2021/6/23
+photo.56.link: https://www.instagram.com/fetorus_mami/
+photo.56.tags: apple time, dish, home, mofumofu, whiskers
+photo.57: ig://CQV_aNSBfkY/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2021/6/23
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.57.tags: home, portrait, smile, tail
 species: 2
 studbook.id: 0668
 zoo: 27

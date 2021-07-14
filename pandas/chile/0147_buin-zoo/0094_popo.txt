@@ -402,7 +402,8 @@ photo.77.tags: portrait, tongue, whiskers
 photo.78: ig://B8G9pU8BzBO/m
 photo.78.author: redpan22
 photo.78.commitdate: 2020/2/7
-photo.78.link: laying down, portrait, whiskers
+photo.78.link: https://www.instagram.com/redpan22/
+photo.78.tags: laying down, portrait, whiskers
 photo.79: ig://B8Hon9chRbr/m
 photo.79.author: alto0908
 photo.79.commitdate: 2020/2/5
@@ -488,6 +489,36 @@ photo.95.author: merumeru119
 photo.95.commitdate: 2020/8/2
 photo.95.link: https://www.instagram.com/merumeru119/
 photo.95.tags: portrait
+photo.96: ig://CIXS6ZThAga/m
+photo.96.author: shigeko0531
+photo.96.commitdate: 2020/12/20
+photo.96.link: https://www.instagram.com/shigeko0531/
+photo.96.tags: laying down, paws, portrait, smile, tree
+photo.97: ig://CKEFec-sUjQ/m
+photo.97.author: buin_zoo
+photo.97.commitdate: 2021/4/3
+photo.97.link: https://www.instagram.com/buin_zoo/
+photo.97.tags: close-up, portrait, smile, tongue, whiskers
+photo.98: ig://CKbKaldBOvi/m
+photo.98.author: daniele.tokyo
+photo.98.commitdate: 2021/1/28
+photo.98.link: https://www.instagram.com/daniele.tokyo/
+photo.98.tags: tail, whiskers
+photo.99: ig://CKjJxV6sJrE/m
+photo.99.author: buin_zoo
+photo.99.commitdate: 2021/4/3
+photo.99.link: https://www.instagram.com/buin_zoo/
+photo.99.tags: peek, portrait
+photo.100: ig://CK3myfJsE9R/m
+photo.100.author: buin_zoo
+photo.100.commitdate: 2021/4/3
+photo.100.link: https://www.instagram.com/buin_zoo/
+photo.100.tags: nose, portrait, tongue, whiskers
+photo.101: ig://CPVuUrpBMe6/m
+photo.101.author: buin_zoo
+photo.101.commitdate: 2021/6/8
+photo.101.link: https://www.instagram.com/buin_zoo/
+photo.101.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 14150
 zoo: 147

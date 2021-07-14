@@ -60,7 +60,7 @@ photo.10: ig://BiajIb7lFPK/m
 photo.10.author: makimaru18
 photo.10.commitdate: 2018/7/21
 photo.10.link: https://www.instagram.com/makimaru18/
-photo.10.tags: portrait, profile, smile
+photo.10.tags: portrait, smile
 photo.11: ig://BjO1HCTFnJi/m
 photo.11.author: monmon_redpanda
 photo.11.commitdate: 2020/6/28
@@ -602,16 +602,81 @@ photo.119.author: kijyo.zoo
 photo.119.commitdate: 2020/9/12
 photo.119.link: https://www.instagram.com/kijyo.zoo/
 photo.119.tags: lunch time, nose, portrait, videolink
-photo.120: ig://CHH7XnpBAtX/m
-photo.120.author: fetorus_mami
-photo.120.commitdate: 2020/11/5
-photo.120.link: https://www.instagram.com/fetorus_mami/
-photo.120.tags: keeper, paws, standing, tail
-photo.121: ig://CHONUOthlQ2/m
-photo.121.author: hamamatsu.chiita
-photo.121.commitdate: 2020/11/21
-photo.121.link: https://www.instagram.com/hamamatsu.chiita/
-photo.121.tags: whiskers
+photo.120: ig://CGlHJcNB1Kq/m
+photo.120.author: hamamatsu.chiita
+photo.120.commitdate: 2021/3/4
+photo.120.link: https://www.instagram.com/hamamatsu.chiita/
+photo.120.tags: close-up, portrait, smile, whiskers
+photo.121: ig://CHH7XnpBAtX/m
+photo.121.author: fetorus_mami
+photo.121.commitdate: 2020/11/5
+photo.121.link: https://www.instagram.com/fetorus_mami/
+photo.121.tags: keeper, paws, standing, tail
+photo.122: ig://CHONUOthlQ2/m
+photo.122.author: hamamatsu.chiita
+photo.122.commitdate: 2020/11/21
+photo.122.link: https://www.instagram.com/hamamatsu.chiita/
+photo.122.tags: whiskers
+photo.123: ig://CH9XGaJBijW/m
+photo.123.author: lesserpanda_shizuokacity_cp
+photo.123.commitdate: 2020/12/2
+photo.123.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.123.tags: bamboo, paws, portrait, standing, tail, videolink
+photo.124: ig://CIwWh0ih3P8/m
+photo.124.author: kijyo.zoo
+photo.124.commitdate: 2021/1/13
+photo.124.link: https://www.instagram.com/kijyo.zoo/
+photo.124.tags: climb, tree, videolink
+photo.125: ig://CKDJeiDhbgw/m
+photo.125.author: lesserpanda_shizuokacity_cp
+photo.125.commitdate: 2021/1/16
+photo.125.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.125.tags: close-up, portrait, videolink
+photo.126: ig://CKm90nihpky/m
+photo.126.author: kotume4935
+photo.126.commitdate: 2021/2/28
+photo.126.link: https://www.instagram.com/kotume4935/
+photo.126.tags: bamboo, bite, portrait
+photo.127: ig://CKq143VBRCp/m
+photo.127.author: taka__3428
+photo.127.commitdate: 2021/2/28
+photo.127.link: https://www.instagram.com/taka__3428/
+photo.127.tags: bamboo, peek, snow
+photo.128: ig://CNPVaM2h_9Y/m
+photo.128.author: shirokuma_jump
+photo.128.commitdate: 2021/4/29
+photo.128.link: https://www.instagram.com/shirokuma_jump/
+photo.128.tags: peek, portrait, whiskers
+photo.129: ig://COBwxswB38M/m
+photo.129.author: sasapan34
+photo.129.commitdate: 2021/5/31
+photo.129.link: https://www.instagram.com/sasapan34/
+photo.129.tags: bamboo, tail, whiskers
+photo.130: ig://COjw0VBhCQF/m
+photo.130.author: lesserpanda_shizuokacity_cp
+photo.130.commitdate: 2021/6/28
+photo.130.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.130.tags: close-up, paws, portrait, whiskers
+photo.131: ig://CPGcQsAhcU6/m
+photo.131.author: mini_cochi
+photo.131.commitdate: 2021/6/28
+photo.131.link: https://www.instagram.com/mini_cochi/
+photo.131.tags: keeper, portrait, smile, tail
+photo.132: ig://CQcy9RoBWB1/m
+photo.132.author: lesserpanda_shizuokacity_cp
+photo.132.commitdate: 2021/6/23
+photo.132.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.132.tags: apple time, paws, portrait, profile, whiskers
+photo.133: ig://CQuoHdBsPT5/m
+photo.133.author: lesserpanda_shizuokacity_cp
+photo.133.commitdate: 2021/7/1
+photo.133.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.133.tags: bamboo, lunch time, portrait, tail
+photo.134: ig://CQ7nmQBsjV7/m
+photo.134.author: lesserpanda_shizuokacity_cp
+photo.134.commitdate: 2021/7/5
+photo.134.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.134.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

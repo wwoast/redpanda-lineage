@@ -137,7 +137,7 @@ photo.24.tags: paws, portrait, whiskers
 photo.25: ig://BkUIX3oFqJX/m
 photo.25.author: kotata_513
 photo.25.commitdate: 2018/7/19
-photo.25.link: ig://BkUIX3oFqJX/m
+photo.25.link: https://www.instagram.com/kotata_513/
 photo.25.tags: smile
 photo.26: ig://Bmb_LfelF0M/m
 photo.26.author: kotata_513
@@ -220,16 +220,81 @@ photo.42.author: minatomirai215
 photo.42.commitdate: 2020/6/6
 photo.42.link: https://www.instagram.com/minatomirai215/
 photo.42.tags: portrait, smile
-photo.43: ig://CEjpl6GB-MB/m
-photo.43.author: grskus_tk
-photo.43.commitdate: 2020/9/4
-photo.43.link: https://www.instagram.com/grskus_tk/
-photo.43.tags: smile, tail
-photo.44: ig://CEmDxxQBlWc/m
-photo.44.author: grskus_tk
-photo.44.commitdate: 2020/9/28
-photo.44.link: https://www.instagram.com/grskus_tk/
-photo.44.tags: laying down, paws, tongue
+photo.43: ig://CCjCKN6FFss/m
+photo.43.author: kojikoji2011
+photo.43.commitdate: 2021/6/7
+photo.43.link: https://www.instagram.com/kojikoji2011/
+photo.43.tags: portrait
+photo.44: ig://CDQ7pvxFsZc/m
+photo.44.author: kojikoji2011
+photo.44.commitdate: 2021/6/7
+photo.44.link: https://www.instagram.com/kojikoji2011/
+photo.44.tags: paws, portrait, smile, tongue, whiskers
+photo.45: ig://CEEPBjQlInN/m
+photo.45.author: kojikoji2011
+photo.45.commitdate: 2021/6/7
+photo.45.link: https://www.instagram.com/kojikoji2011/
+photo.45.tags: mofumofu, smile
+photo.46: ig://CEjpl6GB-MB/m
+photo.46.author: grskus_tk
+photo.46.commitdate: 2020/9/4
+photo.46.link: https://www.instagram.com/grskus_tk/
+photo.46.tags: smile, tail
+photo.47: ig://CEmDxxQBlWc/m
+photo.47.author: grskus_tk
+photo.47.commitdate: 2020/9/28
+photo.47.link: https://www.instagram.com/grskus_tk/
+photo.47.tags: laying down, paws, tongue
+photo.48: ig://CJ3V0mHB6Tz/m
+photo.48.author: kojikoji2011
+photo.48.commitdate: 2021/6/7
+photo.48.link: https://www.instagram.com/kojikoji2011/
+photo.48.tags: bamboo, paws, standing, tail, tongue
+photo.49: ig://CKYS0fLhR2w/m
+photo.49.author: panda.daisuki
+photo.49.commitdate: 2021/4/22
+photo.49.link: https://www.instagram.com/panda.daisuki/
+photo.49.tags: apple time, portrait, snow
+photo.50: ig://CKomVoXB-OX/m
+photo.50.author: kojikoji2011
+photo.50.commitdate: 2021/6/7
+photo.50.link: https://www.instagram.com/kojikoji2011/
+photo.50.tags: bamboo, paws, tail
+photo.51: ig://CL1V1ChBbPg/m
+photo.51.author: kojikoji2011
+photo.51.commitdate: 2021/6/7
+photo.51.link: https://www.instagram.com/kojikoji2011/
+photo.51.tags: bamboo, paws, portrait, smile
+photo.52: ig://CM7WgPhBBku/m
+photo.52.author: kojikoji2011
+photo.52.commitdate: 2021/6/7
+photo.52.link: https://www.instagram.com/kojikoji2011/
+photo.52.tags: bamboo, portrait, whiskers
+photo.53: ig://CNXEQaehlSZ/m
+photo.53.author: kojikoji2011
+photo.53.commitdate: 2021/6/7
+photo.53.link: https://www.instagram.com/kojikoji2011/
+photo.53.tags: laying down, sleeping
+photo.54: ig://CNizVKlB8oY/m
+photo.54.author: miis_98
+photo.54.commitdate: 2021/5/28
+photo.54.link: https://www.instagram.com/miis_98/
+photo.54.tags: apple time, paws, whiskers
+photo.55: ig://COdM2LQh1ku/m
+photo.55.author: kojikoji2011
+photo.55.commitdate: 2021/6/7
+photo.55.link: https://www.instagram.com/kojikoji2011/
+photo.55.tags: bamboo, paws, smile
+photo.56: ig://CP5l6xphpfv/m
+photo.56.author: kojikoji2011
+photo.56.commitdate: 2021/6/24
+photo.56.link: https://www.instagram.com/kojikoji2011/
+photo.56.tags: smile, tail, whiskers
+photo.57: ig://CRHPcEZBRss/m
+photo.57.author: kojikoji2011
+photo.57.commitdate: 2021/7/11
+photo.57.link: https://www.instagram.com/kojikoji2011/
+photo.57.tags: close-up, mofumofu, portrait, smile, whiskers
 species: 2
 studbook.id: 14143
 zoo: 6

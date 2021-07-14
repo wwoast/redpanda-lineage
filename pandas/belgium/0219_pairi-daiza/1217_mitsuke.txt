@@ -10,7 +10,7 @@ en.othernames: none
 fr.name: Mitsuke
 fr.nicknames: none
 fr.othernames: none
-gender: f
+gender: m
 jp.name: ミスケ
 jp.nicknames: none
 jp.othernames: none
@@ -21,5 +21,15 @@ photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/nathalie.elliott/
 photo.1.tags: baby, door, peek, portrait, profile
+photo.2: https://www.codaworry.com/images/rpf/mitsuke-1-pairidaiza.jpg
+photo.2.author: nathalie.elliott
+photo.2.commitdate: 2021/3/29
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: baby, whiskers
+photo.3: ig://CG0k6NWA-IL/m
+photo.3.author: nathalie.elliott
+photo.3.commitdate: 2021/3/29
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, bridge, tail
 species: 1
 zoo: 219

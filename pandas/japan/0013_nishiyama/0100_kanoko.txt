@@ -235,9 +235,9 @@ photo.44.commitdate: 2019/11/8
 photo.44.link: https://www.instagram.com/craig_craig_craig/
 photo.44.tags: portrait
 photo.45: ig://B6kXPCUBffl/m
-photo.45.author: minato.yokohama2130
+photo.45.author: minato.yokohama4416
 photo.45.commitdate: 2019/12/30
-photo.45.link: https://www.instagram.com/minato.yokohama2130/
+photo.45.link: https://www.instagram.com/minato.yokohama4416/
 photo.45.tags: portrait
 photo.46: ig://B7cLzugnT9k/m
 photo.46.author: tomo3700
@@ -245,9 +245,9 @@ photo.46.commitdate: 2020/1/18
 photo.46.link: https://www.instagram.com/tomo3700/
 photo.46.tags: climb, paws, portrait
 photo.47: ig://B8I7HlHhKeL/m
-photo.47.author: minato.yokohama2130
+photo.47.author: minato.yokohama4416
 photo.47.commitdate: 2020/2/7
-photo.47.link: https://www.instagram.com/minato.yokohama2130/
+photo.47.link: https://www.instagram.com/minato.yokohama4416/
 photo.47.tags: portrait, tail
 photo.48: ig://B8cc_7Uh2A3/m
 photo.48.author: tomo3700
@@ -309,11 +309,81 @@ photo.59.author: tomo3700
 photo.59.commitdate: 2020/11/11
 photo.59.link: https://www.instagram.com/tomo3700/
 photo.59.tags: paws, portrait, wave
-photo.60: ig://CHvVB7tHcHS/m
-photo.60.author: bubbles_octi
-photo.60.commitdate: 2020/11/21
-photo.60.link: https://www.instagram.com/bubbles_octi/
-photo.60.tags: portrait, tree, white face
+photo.60: ig://CHfRFYWha2y/m
+photo.60.author: _saaaaaaah_
+photo.60.commitdate: 2021/3/21
+photo.60.link: https://www.instagram.com/_saaaaaaah_/
+photo.60.tags: peek, techitechi
+photo.61: ig://CHvVB7tHcHS/m
+photo.61.author: bubbles_octi
+photo.61.commitdate: 2020/11/21
+photo.61.link: https://www.instagram.com/bubbles_octi/
+photo.61.tags: portrait, tree, white face
+photo.62: ig://CIVdgFShA5q/m
+photo.62.author: craig_craig_craig
+photo.62.commitdate: 2020/12/20
+photo.62.link: https://www.instagram.com/craig_craig_craig/
+photo.62.tags: bamboo, portrait, videolink
+photo.63: ig://CIlFn8phOMg/m
+photo.63.author: miis_98
+photo.63.commitdate: 2020/12/20
+photo.63.link: https://www.instagram.com/miis_98/
+photo.63.tags: bamboo, portrait, smile
+photo.64: ig://CImGY7lBpfN/m
+photo.64.author: rie_panda55
+photo.64.commitdate: 2021/3/21
+photo.64.link: https://www.instagram.com/rie_panda55/
+photo.64.tags: laying down, portrait, tree, white face
+photo.65: ig://CJWypIeBRbN/m
+photo.65.author: hamamatsu.chiita
+photo.65.commitdate: 2021/3/21
+photo.65.link: https://www.instagram.com/hamamatsu.chiita/
+photo.65.tags: portrait
+photo.66: ig://CJovkUKBKx-/m
+photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2021/1/19
+photo.66.link: https://www.instagram.com/hamamatsu.chiita/
+photo.66.tags: bamboo, portrait, white face
+photo.67: ig://CKCelZpBSBW/m
+photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2021/1/16
+photo.67.link: https://www.instagram.com/hamamatsu.chiita/
+photo.67.tags: portrait, wet, white face
+photo.68: ig://CKYrICDh7uZ/m
+photo.68.author: jas_forever_love
+photo.68.commitdate: 2021/3/21
+photo.68.link: https://www.instagram.com/jas_forever_love/
+photo.68.tags: portrait, wet
+photo.69: ig://CMGy7Johh6C/m
+photo.69.author: gloryeui
+photo.69.commitdate: 2021/4/10
+photo.69.link: https://www.instagram.com/gloryeui/
+photo.69.tags: home, laying down, portrait, sleeping
+photo.70: ig://CND14xTBsKl/m
+photo.70.author: tomo3700
+photo.70.commitdate: 2021/4/7
+photo.70.link: https://www.instagram.com/tomo3700/
+photo.70.tags: bear worm, home, laying down, paws, portrait, sleeping, tail
+photo.71: ig://CNZpIa_hlJE/m
+photo.71.author: minato.yokohama4416
+photo.71.commitdate: 2021/4/29
+photo.71.link: https://www.instagram.com/minato.yokohama4416/
+photo.71.tags: peek, portrait
+photo.72: ig://CNebj6kBEg5/m
+photo.72.author: gloryeui
+photo.72.commitdate: 2021/4/29
+photo.72.link: https://www.instagram.com/gloryeui/
+photo.72.tags: bamboo, paws, portrait, smile, standing
+photo.73: ig://COqqxUPBxK8/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2021/6/13
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: close-up, portrait, whiskers
+photo.74: ig://CQRoo2_h-e0/m
+photo.74.author: hamamatsu.chiita
+photo.74.commitdate: 2021/6/23
+photo.74.link: https://www.instagram.com/hamamatsu.chiita/
+photo.74.tags: portrait, whiskers
 species: 2
 studbook.id: 1684
 zoo: 13

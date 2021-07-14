@@ -1,0 +1,16 @@
+[panda]
+_id: 1259
+birthday: unknown
+birthplace: unknown
+children: 1257, 1260, 1261, 1262
+commitdate: 2021/4/7
+en.name: Mo
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: モー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+species: 1
+zoo: 275

@@ -1,0 +1,102 @@
+[panda]
+_id: 1188
+birthday: 2020/6/18
+birthplace: 191
+children: none
+commitdate: 2020/7/1
+en.name: Pabu
+en.nicknames: Napsalot McFluffins, Huggles McDrowsyface, Prince of Pounce, Rascality
+en.othernames: none
+gender: m
+jp.name: パブ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+location.1: 191, 2020/6/18
+location.2: 128, 2021/3/7
+photo.1: ig://CCGyf7jnxve/m
+photo.1.author: oregonzoo
+photo.1.commitdate: 2020/7/1
+photo.1.link: https://www.instagram.com/oregonzoo/
+photo.1.tags: baby, newborn, portrait
+photo.2: ig://CC_dA50nSvZ/m
+photo.2.author: oregonzoo
+photo.2.commitdate: 2020/7/31
+photo.2.link: https://www.instagram.com/oregonzoo/
+photo.2.tags: baby, laying down, newborn, sleeping
+photo.3: ig://CDcKWyFphg4/m
+photo.3.author: oregonzoo
+photo.3.commitdate: 2020/8/5
+photo.3.link: https://www.instagram.com/oregonzoo/
+photo.3.tags: baby, keeper, mofumofu, portrait
+photo.4: ig://CDhaB8lJcIy/m
+photo.4.author: oregonzoo
+photo.4.commitdate: 2020/9/10
+photo.4.link: https://www.instagram.com/oregonzoo/
+photo.4.tags: baby, home, paws, portrait, videolink
+photo.5: ig://CDwc5e9H9c0/m
+photo.5.author: oregonzoo
+photo.5.commitdate: 2020/8/22
+photo.5.link: https://www.instagram.com/oregonzoo/
+photo.5.tags: baby, laying down, paws, portrait
+photo.6: ig://CEUakMmpgCH/m
+photo.6.author: oregonzoo
+photo.6.commitdate: 2020/9/7
+photo.6.link: https://www.instagram.com/oregonzoo/
+photo.6.tags: baby, portrait, videolink
+photo.7: ig://CE94O7EHyko/m
+photo.7.author: oregonzoo
+photo.7.commitdate: 2020/9/24
+photo.7.link: https://www.instagram.com/oregonzoo/
+photo.7.tags: baby, paws, portrait, videolink
+photo.8: ig://CFIYV4-nNw4/m
+photo.8.author: oregonzoo
+photo.8.commitdate: 2020/9/28
+photo.8.link: https://www.instagram.com/oregonzoo/
+photo.8.tags: baby, mofumofu, portrait, videolink
+photo.9: ig://CGBEzZUpBZN/m
+photo.9.author: oregonzoo
+photo.9.commitdate: 2020/10/7
+photo.9.link: https://www.instagram.com/oregonzoo/
+photo.9.tags: mofumofu, portrait
+photo.10: ig://CGqa84Onphg/m
+photo.10.author: oregonzoo
+photo.10.commitdate: 2020/10/26
+photo.10.link: https://www.instagram.com/oregonzoo/
+photo.10.tags: baby, bamboo, mofumofu, portrait, tail, tongue
+photo.11: ig://CHJGrXIB7Bb/m
+photo.11.author: oregonzoo
+photo.11.commitdate: 2020/11/5
+photo.11.link: https://www.instagram.com/oregonzoo/
+photo.11.tags: baby, bamboo, mofumofu, portrait
+photo.12: ig://CJoqRIbhsR5/m
+photo.12.author: oregonzoo
+photo.12.commitdate: 2021/1/13
+photo.12.link: https://www.instagram.com/oregonzoo/
+photo.12.tags: peek, portrait
+photo.13: ig://CK7M7-xsdMr/m
+photo.13.author: oregonzoo
+photo.13.commitdate: 2021/2/19
+photo.13.link: https://www.instagram.com/oregonzoo/
+photo.13.tags: portrait, profile, whiskers
+photo.14: ig://CLPaOIoD5M0/m
+photo.14.author: oregonzoo
+photo.14.commitdate: 2021/3/30
+photo.14.link: https://www.instagram.com/oregonzoo/
+photo.14.tags: portrait, snow
+photo.15: ig://COlIaGur09R/m
+photo.15.author: zoomontana
+photo.15.commitdate: 2021/6/23
+photo.15.link: https://www.instagram.com/zoomontana/
+photo.15.tags: bamboo, peek
+photo.16: ig://CP09GHStDrn/m
+photo.16.author: zoomontana
+photo.16.commitdate: 2021/6/24
+photo.16.link: https://www.instagram.com/zoomontana/
+photo.16.tags: bamboo, standing, tail
+species: 2
+video.1: https://youtu.be/3WIOn_zQckc
+video.1.author: oregonzoo
+video.1.link: https://www.youtube.com/channel/UC3oWOleSolsVhal5krntOlg
+zoo: 128

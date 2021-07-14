@@ -41,6 +41,22 @@ photo.5.author: zooatl
 photo.5.commitdate: 2020/11/21
 photo.5.link: https://www.instagram.com/zooatl/
 photo.5.tags: portrait, whiskers
+photo.6: ig://CIO7cixlJug/m
+photo.6.author: zooatl
+photo.6.commitdate: 2020/12/8
+photo.6.link: https://www.instagram.com/zooatl/
+photo.6.tags: close-up, laying down, whiskers
+photo.7: ig://CJHxKc_FsVG/m
+photo.7.author: zooatl
+photo.7.commitdate: 2020/12/29
+photo.7.link: https://www.instagram.com/zooatl/
+photo.7.tags: peek, portrait, tail
+photo.8: ig://CQGF75JA_qd/m
+photo.8.author: rossifari
+photo.8.commitdate: 2021/6/18
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: portrait, smile, whiskers
 species: 1
+studbook.id: 1705
 uncertainty: location.3 date
 zoo: 85

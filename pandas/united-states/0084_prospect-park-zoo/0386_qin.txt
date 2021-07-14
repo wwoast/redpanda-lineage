@@ -17,30 +17,35 @@ litter: none
 location.1: 65, 2005/6/23
 location.2: 83, 2007/4/20
 location.3: 84, 2008/11/6
-photo.1: ig://BPNamSpBmNo/m
+photo.1: ig://70Zg2TlXNM/m
 photo.1.author: prospectparkzoo
 photo.1.commitdate: 2018/11/24
 photo.1.link: https://www.instagram.com/prospectparkzoo/
-photo.1.tags: portrait, profile, smile, snow, tail, tongue
-photo.2: ig://70Zg2TlXNM/m
+photo.1.tags: portrait, paws, smile
+photo.2: ig://BD1U-QiFXOB/m
 photo.2.author: prospectparkzoo
-photo.2.commitdate: 2018/11/24
+photo.2.commitdate: 2018/12/12
 photo.2.link: https://www.instagram.com/prospectparkzoo/
-photo.2.tags: portrait, paws, smile
-photo.3: ig://BrLN365AT3e/m
-photo.3.author: byteforbyte
-photo.3.commitdate: 2018/12/12
-photo.3.link: https://www.instagram.com/byteforbyte/
-photo.3.tags: autumn, tree
-photo.4: ig://BD1U-QiFXOB/m
-photo.4.author: prospectparkzoo
-photo.4.commitdate: 2018/12/12
-photo.4.link: https://www.instagram.com/prospectparkzoo/
-photo.4.tags: portrait, tree
-photo.5: ig://BPymQ1Vj5nj/m
-photo.5.author: _wild.photos.by.peter_
-photo.5.commitdate: 2018/12/17
-photo.5.link: https://www.instagram.com/_wild.photos.by.peter_/
+photo.2.tags: portrait, tree
+photo.3: ig://BPNamSpBmNo/m
+photo.3.author: prospectparkzoo
+photo.3.commitdate: 2018/11/24
+photo.3.link: https://www.instagram.com/prospectparkzoo/
+photo.3.tags: portrait, profile, smile, snow, tail, tongue
+photo.4: ig://BPymQ1Vj5nj/m
+photo.4.author: _wild.photos.by.peter_
+photo.4.commitdate: 2018/12/17
+photo.4.link: https://www.instagram.com/_wild.photos.by.peter_/
+photo.5: ig://BrLN365AT3e/m
+photo.5.author: byteforbyte
+photo.5.commitdate: 2018/12/12
+photo.5.link: https://www.instagram.com/byteforbyte/
+photo.5.tags: autumn, tree
+photo.6: ig://CI3wBPtFXtH/m
+photo.6.author: prospectparkzoo
+photo.6.commitdate: 2021/6/9
+photo.6.link: https://www.instagram.com/prospectparkzoo/
+photo.6.tags: paws, portrait, snow, tail
 species: 2
 studbook.id: 0502
 zoo: 84

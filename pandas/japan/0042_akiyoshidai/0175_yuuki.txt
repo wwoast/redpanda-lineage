@@ -15,51 +15,71 @@ language.order: jp, en
 litter: none
 location.1: 46, 2013/7/4
 location.2: 42, 2015/4/2
-photo.1: ig://Bql99THHzOF/m
-photo.1.author: yakko____
-photo.1.commitdate: 2018/12/6
-photo.1.link: https://www.instagram.com/yakko____/
-photo.1.tags: portrait, smile
-photo.2: ig://Bt91BhpFkWa/m
-photo.2.author: re_ichimaru
-photo.2.commitdate: 2019/6/23
-photo.2.link: https://www.instagram.com/re_ichimaru/
-photo.2.tags: portrait
-photo.3: ig://BbnV9ScHchv/m
+photo.1: ig://BbnV9ScHchv/m
+photo.1.author: re_ichimaru
+photo.1.commitdate: 2019/6/23
+photo.1.link: https://www.instagram.com/re_ichimaru/
+photo.1.tags: laying down, sleeping
+photo.2: ig://Bql99THHzOF/m
+photo.2.author: yakko____
+photo.2.commitdate: 2018/12/6
+photo.2.link: https://www.instagram.com/yakko____/
+photo.2.tags: portrait, smile
+photo.3: ig://Bt91BhpFkWa/m
 photo.3.author: re_ichimaru
 photo.3.commitdate: 2019/6/23
 photo.3.link: https://www.instagram.com/re_ichimaru/
-photo.3.tags: laying down, sleeping
+photo.3.tags: portrait
 photo.4: ig://B2czGkZBcoc/m
 photo.4.author: miis_98
 photo.4.commitdate: 2019/9/16
 photo.4.link: https://www.instagram.com/miis_98/
 photo.4.tags: portrait, profile, smile
-photo.5: ig://B24QRl5AYXy/m
+photo.5: ig://B24QHVfgxmo/m
 photo.5.author: kai.kuniko
 photo.5.commitdate: 2019/10/16
 photo.5.link: https://www.instagram.com/kai.kuniko/
-photo.5.tags: portrait
-photo.6: ig://B24QeZwgQ8P/m
+photo.5.tags: laying down, portrait, tongue
+photo.6: ig://B24QRl5AYXy/m
 photo.6.author: kai.kuniko
 photo.6.commitdate: 2019/10/16
 photo.6.link: https://www.instagram.com/kai.kuniko/
-photo.6.tags: laying down, portrait
-photo.7: ig://B24QHVfgxmo/m
+photo.6.tags: portrait
+photo.7: ig://B24QeZwgQ8P/m
 photo.7.author: kai.kuniko
 photo.7.commitdate: 2019/10/16
 photo.7.link: https://www.instagram.com/kai.kuniko/
-photo.7.tags: laying down, portrait, tongue
+photo.7.tags: laying down, portrait
 photo.8: ig://B6DPmBOBq41/m
 photo.8.author: kisshan324
 photo.8.commitdate: 2019/12/29
 photo.8.link: https://www.instagram.com/kisshan324/
 photo.8.tags: bamboo, bridge, portrait
 photo.9: ig://B6pxsNVgjUv/m
-photo.9.author: sunnylettuce_2020
+photo.9.author: sunnylettuce_2021
 photo.9.commitdate: 2019/12/31
-photo.9.link: https://www.instagram.com/sunnylettuce_2020/
+photo.9.link: https://www.instagram.com/sunnylettuce_2021/
 photo.9.tags: paws, smile
+photo.10: ig://CI7W7Q0B92c/m
+photo.10.author: hamiiiii831_
+photo.10.commitdate: 2020/12/30
+photo.10.link: https://www.instagram.com/hamiiiii831_/
+photo.10.tags: mofumofu, portrait, whiskers
+photo.11: ig://CL3SkMNh_KX/m
+photo.11.author: sasapan34
+photo.11.commitdate: 2021/3/10
+photo.11.link: https://www.instagram.com/sasapan34/
+photo.11.tags: whiskers
+photo.12: ig://CNKso0TBtmc/m
+photo.12.author: miis_98
+photo.12.commitdate: 2021/4/3
+photo.12.link: https://www.instagram.com/miis_98/
+photo.12.tags: apple time, portrait, smile, whiskers
+photo.13: ig://CN9axp5hBLB/m
+photo.13.author: kojikoji2011
+photo.13.commitdate: 2021/6/7
+photo.13.link: https://www.instagram.com/kojikoji2011/
+photo.13.tags: portrait, whiskers, white face
 species: 2
 studbook.id: 13162
 zoo: 42

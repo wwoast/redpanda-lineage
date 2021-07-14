@@ -1,0 +1,15 @@
+[zoo]
+_id: 280
+commitdate: 2021/4/11
+en.address: Praça Marechal Humberto Delgado, 1549-004, Lisbon, Portugal
+en.location: Lisbon, Portugal
+en.name: Lisbon Zoo
+flag: Portugal
+language.order: pt, en
+latitude: 38.7443615
+longitude: -9.1729059
+map: https://goo.gl/maps/T7DBfWDyEdNGSpQ27
+pt.address: Praça Marechal Humberto Delgado, 1549-004, Lisboa, Portugal
+pt.location: Lisboa, Portugal
+pt.name: Jardim Zoológico de Lisboa
+website: https://www.zoo.pt/

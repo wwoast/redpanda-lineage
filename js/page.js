@@ -163,7 +163,8 @@ Page.about.sections.show = function(section_id) {
   Page.about.fetchImages();
 }
 Page.about.tags = function() {
-  // Take all available tags for this language, and draw an unordered list.
+  // Take all available tags for this language, and draw a sorted list of tags
+  // by the current Page.about.language
   var container = document.getElementsByClassName("pandaAbout aboutTags")[0];
   if (container.hasChildNodes() == true) {
     return;
@@ -171,10 +172,17 @@ Page.about.tags = function() {
   var tagList = document.createElement('ul');
   tagList.classList.add("tagList");
   tagList.classList.add("multiColumn");
-  for (let key in Language.L.tags) {
-    let tag = Language.L.tags[key];
-    let thisEmoji = tag["emoji"];
-    let thisTag = tag[Page.about.language][0];
+  var tagKeys = Object.keys(Language.L.tags);
+  var primaryTags = {};
+  for (let key of tagKeys) {
+    var primaryTag = Language.L.tags[key][Page.about.language][0];
+    // Index by primaryTag, while the value is the key to the tagList
+    primaryTags[primaryTag] = key;
+  }
+  var sortedTags = Object.keys(primaryTags).sort();
+  for (let thisTag of sortedTags) {
+    let lookup = primaryTags[thisTag];
+    let thisEmoji = Language.L.tags[lookup]["emoji"];
     var tagLi = document.createElement('li');
     var tagLink = document.createElement('a');
     tagLink.href = "#query/" + thisTag;
@@ -284,28 +292,29 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Birthday logic
-    if (Pandas.searchBirthday(true, photo_count=10).length > 0) {
-      var birthday = Gallery.birthdayPhotoCredits(L.display);
-      new_content.appendChild(birthday);
-    }
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["108"], 5, Message.memorial)
+    var departed = Gallery.memorialPhotoCredits(L.display, ["60"], 5, Message.memorial);
     new_content.appendChild(departed);
     // Please remember these pandas
-    // var memorial = Gallery.memorialPhotoCredits(L.display, ["261"], 5, Message.missing_you);
+    // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
+    // Birthday logic
+    var min_photo_count = 3;
+    var max_birthday_animals = 4;
+    var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
+    if (birthday_count > 0) {
+      var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, max_birthday_animals);
+      new_content.appendChild(birthday);
+    }
     // Special galleries
-    // var special = Gallery.special.taglist(L.display, 3, ["dig"], Message.shovel_pandas);
-    // var special = Gallery.special.taglist(L.display, 3, ["bamboo", "bite", "portrait"], Message.lunch_time);
-    // new_content.appendChild(special);
+    if (birthday_count <= 2) {
+      var special_galleries = Page.home.special_galleries();
+      new_content.appendChild(special_galleries);
+    }
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
     new_content.appendChild(new_photos);
-    // Group memorial for Kin and Gin
-    var ginkin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
-    new_content.appendChild(ginkin);    
     Page.swap(old_content, new_content);
     Layout.shrinkNames();
     Page.footer.redraw("landing");
@@ -320,6 +329,57 @@ Page.home.render = function() {
   Show["results"].searchBar();   // Ensure the search bar comes back
   Page.color("results");
   window.scrollTo(0, 0);   // Scroll to the top of the page
+}
+Page.home.special_galleries = function() {
+  // Front page galleries to use whenever there are not lots of other
+  // content to display.
+  var date = new Date();
+  var choice = Query.env.paging.seed;
+  if (date.getDay() == choice % 7) {
+    // Sunday has a special memorial
+    return Page.home.special_memorial();
+  } else {
+    return Page.home.special_tag_galleries();
+  }
+}
+Page.home.special_tag_galleries = function() {
+  // Tag-based special galleries
+  var special_galleries = [
+    {
+      "message": Message.lunch_time,
+      "photo_count": 3,
+      "taglist": ["bamboo", "bite", "portrait"],
+    },
+    {
+      "message": Message.lunch_time,
+      "photo_count": 3,
+      "taglist": ["apple time", "dish", "portrait"]
+    },
+    {
+      "message": Message.lunch_time,
+      "photo_count": 3,
+      "taglist": ["apple time", "portrait", "snow"]
+    }
+  ];
+  var choice = Query.env.paging.seed % special_galleries.length;
+  var special = Gallery.special.taglist(
+    L.display, 
+    special_galleries[choice].photo_count,
+    special_galleries[choice].taglist,
+    special_galleries[choice].message);
+  return special;
+}
+Page.home.special_memorial = function() {
+  // Special memorials that are important to redpandafinder
+  var choice = Query.env.paging.seed;
+  if (choice % 3 == 0) {
+    var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
+    return hokuto;
+  } else {
+    // Group memorial for Kin and Gin
+    var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    return kingin;
+  }
 }
 
 Page.lastSearch = '#home';      // When un-clicking Links/About, go back to the last panda search

@@ -27,41 +27,51 @@ photo.2.author: lincolnchildrenszoo
 photo.2.commitdate: 2019/3/17
 photo.2.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.2.tags: bridge, paws
-photo.3: ig://BXfsMI_Duru/m
-photo.3.author: lincolnchildrenszoo
-photo.3.commitdate: 2019/3/17
-photo.3.link: https://www.instagram.com/lincolnchildrenszoo/
-photo.3.tags: laying down, paws
-photo.4: ig://BWf3DWCHyxB/m
-photo.4.author: phancydotcom
-photo.4.commitdate: 2019/10/13
-photo.4.link: https://www.instagram.com/phancydotcom/
-photo.4.tags: portrait
+photo.3: ig://BWf3DWCHyxB/m
+photo.3.author: phancydotcom
+photo.3.commitdate: 2019/10/13
+photo.3.link: https://www.instagram.com/phancydotcom/
+photo.3.tags: portrait
+photo.4: ig://BXfsMI_Duru/m
+photo.4.author: lincolnchildrenszoo
+photo.4.commitdate: 2019/3/17
+photo.4.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.4.tags: laying down, paws
 photo.5: ig://ByGlFOwFVhK/m
 photo.5.author: chattanoogazoo
 photo.5.commitdate: 2019/6/9
 photo.5.link: https://www.instagram.com/chattanoogazoo/
 photo.5.tags: tongue, yawn
-photo.6: ig://B2PXqxrlQ1n/m
+photo.6: ig://By3dII5lnR2/m
 photo.6.author: chattanoogazoo
 photo.6.commitdate: 2019/10/16
 photo.6.link: https://www.instagram.com/chattanoogazoo/
-photo.6.tags: tongue, white face
+photo.6.tags: laying down, tongue, white face
 photo.7: ig://B2Aa8moFc8g/m
 photo.7.author: chattanoogazoo
 photo.7.commitdate: 2019/10/16
 photo.7.link: https://www.instagram.com/chattanoogazoo/
 photo.7.tags: white face
-photo.8: ig://By3dII5lnR2/m
+photo.8: ig://B2PXqxrlQ1n/m
 photo.8.author: chattanoogazoo
 photo.8.commitdate: 2019/10/16
 photo.8.link: https://www.instagram.com/chattanoogazoo/
-photo.8.tags: laying down, tongue, white face
+photo.8.tags: tongue, white face
 photo.9: ig://B5bY6ngB41J/m
 photo.9.author: worldthathesees
 photo.9.commitdate: 2019/11/29
 photo.9.link: https://www.instagram.com/worldthathesees/
 photo.9.tags: paws, portrait, white face
+photo.10: ig://CH_HO8wJIaF/m
+photo.10.author: chattanoogazoo
+photo.10.commitdate: 2020/12/2
+photo.10.link: https://www.instagram.com/chattanoogazoo/
+photo.10.tags: close-up, peek, portrait, whiskers, white face
+photo.11: ig://CQJi66JF-_q/m
+photo.11.author: charlespaddockzoo
+photo.11.commitdate: 2021/6/18
+photo.11.link: https://www.instagram.com/charlespaddockzoo/
+photo.11.tags: bamboo, close-up, portrait, techitechi, white face
 species: 1
 studbook.id: 1439
 uncertainty: location.4 date

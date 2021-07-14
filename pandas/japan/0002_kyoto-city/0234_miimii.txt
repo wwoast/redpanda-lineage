@@ -15,7 +15,6 @@ language.order: jp, en
 litter: 233
 location.1: 37, 2017/7/15
 location.2: 2, 2020/3/6
-phoot.14.link: https://www.instagram.com/sasapan34/
 photo.1: ig://BbyxUv-F56-/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
@@ -89,6 +88,7 @@ photo.14.tags: bridge, paws, smile, tongue
 photo.15: ig://B56XAclhsmb/m
 photo.15.author: sasapan34
 photo.15.commitdate: 2019/12/16
+photo.15.link: https://www.instagram.com/sasapan34/
 photo.15.tags: bamboo, smile
 photo.16: ig://B9I_KUAhDT2/m
 photo.16.author: sasapan34
@@ -385,21 +385,125 @@ photo.74.author: apple_jasmine33
 photo.74.commitdate: 2020/11/15
 photo.74.link: https://www.instagram.com/apple_jasmine33/
 photo.74.tags: close-up, portriat, smile
-photo.75: ig://CHSenmMBlAa/m
+photo.75: ig://CHSdnioBZFU/m
 photo.75.author: akiakiakiko18
-photo.75.commitdate: 2020/11/15
+photo.75.commitdate: 2020/12/12
 photo.75.link: https://www.instagram.com/akiakiakiko18/
-photo.75.tags: itchy, paws, portrait, whiskers
-photo.76: ig://CHeJRSrhdZw/m
-photo.76.author: apple_jasmine33
-photo.76.commitdate: 2020/11/20
-photo.76.link: https://www.instagram.com/apple_jasmine33/
-photo.76.tags: apple time, lips
-photo.77: ig://CHsOA2wBCdL/m
-photo.77.author: chankunvv
-photo.77.commitdate: 2020/11/25
-photo.77.link: https://www.instagram.com/chankunvv/
-photo.77.tags: autumn, grooming, paws, portrait, tail, tree
+photo.75.tags: climb, paws, tail
+photo.76: ig://CHSenmMBlAa/m
+photo.76.author: akiakiakiko18
+photo.76.commitdate: 2020/11/15
+photo.76.link: https://www.instagram.com/akiakiakiko18/
+photo.76.tags: itchy, paws, portrait, whiskers
+photo.77: ig://CHeJRSrhdZw/m
+photo.77.author: apple_jasmine33
+photo.77.commitdate: 2020/11/20
+photo.77.link: https://www.instagram.com/apple_jasmine33/
+photo.77.tags: apple time, lips
+photo.78: ig://CHmPGY7hu0y/m
+photo.78.author: akiakiakiko18
+photo.78.commitdate: 2020/11/29
+photo.78.link: https://www.instagram.com/akiakiakiko18/
+photo.78.tags: paws, portrait, tail, whiskers
+photo.79: ig://CHsOA2wBCdL/m
+photo.79.author: chankunvv
+photo.79.commitdate: 2020/11/25
+photo.79.link: https://www.instagram.com/chankunvv/
+photo.79.tags: autumn, grooming, paws, portrait, tail, tree
+photo.80: ig://CICfJrkBlHF/m
+photo.80.author: makimaru18
+photo.80.commitdate: 2020/12/12
+photo.80.link: https://www.instagram.com/makimaru18/
+photo.80.tags: air tasting, portrait, tongue, tree
+photo.81: ig://CIiSNf8hAJN/m
+photo.81.author: jas_forever_love
+photo.81.commitdate: 2020/12/20
+photo.81.link: https://www.instagram.com/jas_forever_love/
+photo.81.tags: apple time, paws, portrait, smile
+photo.82: ig://CIvN-2gBbSv/m
+photo.82.author: _saaaaaaah_
+photo.82.commitdate: 2021/1/15
+photo.82.link: https://www.instagram.com/_saaaaaaah_/
+photo.83: ig://CJYQh19hzGp/m
+photo.83.author: jas_forever_love
+photo.83.commitdate: 2020/12/29
+photo.83.link: https://www.instagram.com/jas_forever_love/
+photo.83.tags: paws, standing
+photo.84: ig://CKtSK0RhBGv/m
+photo.84.author: jas_forever_love
+photo.84.commitdate: 2021/2/16
+photo.84.link: https://www.instagram.com/jas_forever_love/
+photo.84.tags: peek, portrait, tree
+photo.85: ig://CKzsyt-B95y/m
+photo.85.author: akiakiakiko18
+photo.85.commitdate: 2021/5/30
+photo.85.link: https://www.instagram.com/akiakiakiko18/
+photo.85.tags: portrait, tree
+photo.86: ig://CK0_Y2fhKgx/m
+photo.86.author: jas_forever_love
+photo.86.commitdate: 2021/5/30
+photo.86.link: https://www.instagram.com/jas_forever_love/
+photo.86.tags: bamboo, bite, smile
+photo.87: ig://CLEcF3IhsN_/m
+photo.87.author: jas_forever_love
+photo.87.commitdate: 2021/2/16
+photo.87.link: https://www.instagram.com/jas_forever_love/
+photo.87.tags: mofumofu, peek, tail
+photo.88: ig://CLJd8QZBKaR/m
+photo.88.author: hamamatsu.chiita
+photo.88.commitdate: 2021/2/16
+photo.88.link: https://www.instagram.com/hamamatsu.chiita/
+photo.88.tags: portrait, tongue
+photo.89: ig://CLK4hFhh2hF/m
+photo.89.author: akiakiakiko18
+photo.89.commitdate: 2021/2/15
+photo.89.link: https://www.instagram.com/akiakiakiko18/
+photo.89.tags: grooming, paws, whiskers
+photo.90: ig://CLm74i5Bfvw/m
+photo.90.author: hamamatsu.chiita
+photo.90.commitdate: 2021/3/21
+photo.90.link: https://www.instagram.com/hamamatsu.chiita/
+photo.90.tags: mofumofu, portrait, smile
+photo.91: ig://CMEzf4QB_EC/m
+photo.91.author: jas_forever_love
+photo.91.commitdate: 2021/4/10
+photo.91.link: https://www.instagram.com/jas_forever_love/
+photo.91.tags: bamboo, bite, paws, portrait
+photo.92: ig://CME42qhBAYy/m
+photo.92.author: apple_jasmine33
+photo.92.commitdate: 2021/4/10
+photo.92.link: https://www.instagram.com/apple_jasmine33/
+photo.92.tags: bamboo, paws, portrait, standing
+photo.93: ig://CNSEgZ0BXkW/m
+photo.93.author: jas_forever_love
+photo.93.commitdate: 2021/4/29
+photo.93.link: https://www.instagram.com/jas_forever_love/
+photo.93.tags: paws, smile, tree
+photo.94: ig://CNcbl5AhlMY/m
+photo.94.author: apple_jasmine33
+photo.94.commitdate: 2021/4/17
+photo.94.link: https://www.instagram.com/apple_jasmine33/
+photo.94.tags: apple time, peek, portrait, tongue, whiskers
+photo.95: ig://COAsFpDh8Ts/m
+photo.95.author: kisshan324
+photo.95.commitdate: 2021/7/6
+photo.95.link: https://www.instagram.com/kisshan324/
+photo.95.tags: smile, tail
+photo.96: ig://CPQN86yBlHW/m
+photo.96.author: jas_forever_love
+photo.96.commitdate: 2021/6/8
+photo.96.link: https://www.instagram.com/jas_forever_love/
+photo.96.tags: peek, portrait, tree, whiskers
+photo.97: ig://CP232HmhTob/m
+photo.97.author: jas_forever_love
+photo.97.commitdate: 2021/6/19
+photo.97.link: https://www.instagram.com/jas_forever_love/
+photo.97.tags: laying down, portrait, smile, tongue, tree
+photo.98: ig://CQn-DwrhgJu/m
+photo.98.author: apple_jasmine33
+photo.98.commitdate: 2021/7/3
+photo.98.link: https://www.instagram.com/apple_jasmine33/
+photo.98.tags: laying down, smile, tail, tree
 species: 2
 studbook.id: 1786
 zoo: 2

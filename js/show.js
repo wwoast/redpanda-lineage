@@ -285,7 +285,7 @@ Show.furigana = function(name, othernames) {
   if (othernames == Pandas.def.animal["jp.othernames"]) {
     return false;
   }
-  othernames = othernames.split(',');   // Guarantee array
+  othernames = othernames.split(", ");   // Guarantee array
   othernames = othernames.filter(function(option) {
     if (Language.editDistance(name, option) > 1) {
       return option;
@@ -395,7 +395,7 @@ Show.locationLink = function(zoo, language, mode="icons_only") {
 Show.nicknames = function(animal) {
   var container = document.createElement('ul');
   container.className = "nicknameList";
-  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
+  for (let language of animal["language.order"].split(", ")) {
     var nicknames = animal[language + ".nicknames"];
     if (nicknames == undefined) {
       continue;
@@ -404,7 +404,7 @@ Show.nicknames = function(animal) {
     var nicknames_li = document.createElement('li');
     nicknames_li.innerText = L.gui.language[L.display][language] + ": ";
     // Nicknames for this animal
-    for (let name of nicknames.split(",").map(x => x.trim())) {
+    for (let name of nicknames.split(", ")) {
       nicknames_list.push(name);
     }
     // Did we have any extra names? If so, add them
@@ -424,7 +424,7 @@ Show.othernames = function(animal, current_language) {
   container.className = "nicknameList";  
   // Cycle through other languages to get their names and other
   // spellings for their names
-  for (let language of animal["language.order"].split(",").map(x => x.trim())) {
+  for (let language of animal["language.order"].split(", ")) {
     var othername_list = [];
     var othername_li = document.createElement('li');
     othername_li.innerText = L.gui.language[L.display][language] + ": ";
@@ -438,14 +438,14 @@ Show.othernames = function(animal, current_language) {
     // Othernames / spellings for this animal
     var othernames = animal[language + ".othernames"];
     if (othernames != undefined) {
-      for (let name of othernames.split(",").map(x => x.trim())) {
+      for (let name of othernames.split(", ")) {
         othername_list.push(name);
       }
     }
     // Old names that were previously valid for this animal
     var oldnames = animal[language + ".oldnames"];
     if (oldnames != undefined) {
-      for (let name of oldnames.split(",").map(x => x.trim())) {
+      for (let name of oldnames.split(", ")) {
         othername_list.push(name);
       }
     }
@@ -908,6 +908,7 @@ Show.button.random.action = function() {
   var randomChoices = pandaIds.concat(groupIds).concat(zooIds);
   window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
   Show.button.language.hide();   // If language menu open, hide it
+  Show.searchBar.remove("bottomSearch");   // When clicked, kill this search bar
   window.scrollTo(0, 0);   // Go to the top of the page
 }
 Show.button.random.render = function(class_name="results") {
@@ -1153,7 +1154,7 @@ Show.links.order.given = function(links) {
     if (links[field_name + ".language.order"] == undefined) {
       language_order = Language.L.default.order;
     } else {
-      language_order = language_order.replace(/ /g, "").split(",");
+      language_order = language_order.split(", ");
     }
     // Fallback name selection, if (like the instagram names) we don't
     // have language-specific names. Start with a generic name field if
@@ -2664,6 +2665,9 @@ Show.searchBar.toggle = function(frame_id) {
   // In panda-profile mode, it's hidden unless the user opts to search
   // for new pandas using the Search Button at the bottom of the page.
   var searchBar = document.getElementById(frame_id);
+  if (searchBar == null) {
+    return false;
+  }
   var display = searchBar.style.display;
   // Catch whether the search bar has no explicit display style (first click), or none
   if ((display == "none") || (display == "")) {

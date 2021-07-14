@@ -327,10 +327,16 @@ Gallery.condenseDogEar = function(nav) {
 
 // For a panda's birthday, grab a handful of photos (3 by default).
 // Display a birthday header above the photos and credit messages below each one.
-Gallery.birthdayPhotoCredits = function(language, photo_count=3) {
+Gallery.birthdayPhotoCredits = function(language, photo_count=3, max_animals=5) {
   var birthday_div = document.createElement('div');
-  // Pandas must be alive, and have at least 5 photos
-  var birthday_animals = Pandas.searchBirthday(true, 3);
+  // Pandas must be alive, and have at least photo_count photos
+  var birthday_animals = Pandas.searchBirthdayToday(true, photo_count);
+  var birthday_count = birthday_animals.length;
+  if (birthday_count > max_animals) {
+    birthday_animals = Pandas.searchBirthdayLitterBias(true, photo_count, max_animals);
+    var overflow = Message.birthday_overflow(birthday_count, language);
+    birthday_div.appendChild(overflow);
+  }
   for (let animal of birthday_animals) {
     var info = Show.acquirePandaInfo(animal, language);
     var years_old = Pandas.ageYears(animal);
@@ -1220,7 +1226,7 @@ Gallery.url.instagram = function(image, input_uri) {
   } else {
     // Try and fetch the details to update the image
     var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
-    var ig_template = `https://graph.facebook.com/v8.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
+    var ig_template = `https://graph.facebook.com/v11.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
     ig_request.open('GET', ig_template, true);
     ig_request.responseType = 'json';

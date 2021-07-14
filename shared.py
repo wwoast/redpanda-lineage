@@ -4,9 +4,11 @@ import json
 import os
 import sys
 import random
+import requests
 import time
 
 from collections import OrderedDict
+from urllib.parse import urlparse
 
 # Shared Python information for the Red Panda Lineage scripts
 LINKS_PATH = "./links"
@@ -45,6 +47,59 @@ def datetime_to_unixtime(commitdate):
         return current_date_to_unixtime()
     return int(datetime.datetime.strptime(commitdate, '%Y/%m/%d').strftime("%s"))
 
+def fetch_photo(url, output_file=None, size=None):
+    """
+    For testing/validating photo dimensions and properties, grab a photo using
+    either the direct URI, or for IG uris, using their oEmbed API.
+    This function requires an Instagram URL of the form:
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
+    """
+    ig_url = update_ig_link(url)    # convert to ig:// if necessary
+    ig_url = resize_ig_link(ig_url, size)   # request biger size if necessary
+    target_img = url
+    # Assume target_img is the original url unless IG
+    if "ig://" in ig_url:
+        shortcode = ig_url.split("/")[2]
+        # Remove extra info from the IG url so that oEmbed likes it
+        url = "https://www.instagram.com/p/" + shortcode
+        maxwidth = 320
+        if (ig_url.split("/")[3] == "l"):
+            maxwidth = 640
+        token = os.getenv('OE_TOKEN', None)
+        if token == None:
+            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
+        query_params = {
+            "url": url,
+            "maxwidth": maxwidth,
+            "fields": "thumbnail_url,author_name",
+            "access_token": token
+        }
+        instagram_api = "https://graph.facebook.com/v11.0/instagram_oembed"
+        try:
+            response = requests.get(instagram_api, params=query_params)
+            json = response.json()
+            target_img = json["thumbnail_url"]
+            author_name = json["author_name"]
+        except:
+            print("(error downloading " + shortcode + ".jpg)")
+            return False
+        if (output_file == None):
+            output_file = shortcode + ".jpg"
+        print("(ig_credit: " + author_name + "): " + target_img)
+    else:
+        if (output_file == None):
+            output_file = os.path.basename(urlparse(url).path)
+        print("(web): " + target_img)
+    try:
+        img = requests.get(target_img, allow_redirects=True)
+    except:
+        print("(error downloading " + output_file + ")")
+        return False
+    with open(output_file, "wb") as ofh:
+        print ("(output): " + output_file)
+        ofh.write(img.content)
+    return True
+
 # Other utility functions
 def get_max_entity_count():
     """
@@ -60,9 +115,54 @@ def get_max_entity_count():
         print("%s file not built yet with build.py -- please generate.")
         sys.exit()
 
-def random_sleep():
-    random_seconds = random.randint(1, 10)
+def random_sleep_jitter():
+    return random.randint(15, 30)
+
+def random_long_sleep():
+    random_seconds = random_sleep_jitter() + 180
     time.sleep(random_seconds)
+
+def random_sleep():
+    random_seconds = random_sleep_jitter()
+    time.sleep(random_seconds)
+
+def resize_ig_link(photo_uri, size):
+    """
+    Convert ig://<shortcode>/<size> into the size you want
+    """
+    if size == None:
+        return photo_uri
+    elif "ig://" in photo_uri:
+        shortcode = photo_uri.split("/")[2]
+        return 'ig://' + shortcode + "/" + size
+    else:
+        return photo_uri
+
+def unfurl_ig_link(photo_uri):
+    """
+    Convert ig://<shortcode>/ back into a real URL
+    """
+    if "ig://" in photo_uri:
+        shortcode = photo_uri.split("/")[2]
+        return 'https://www.instagram.com/p/' + shortcode + "/"
+    else:
+        return photo_uri
+
+def update_ig_link(photo_uri):
+    """
+    Convert all IG links from format #1 to format #2:
+        https://www.instagram.com/p/<shortcode>/media/?size=<size>
+        ig://<shortcode>/<size>
+    This saves space in the redpanda.json epxorts, and makes it simpler for the 
+    RPF JS code to identify the IG links that it needs to use the FB oembed API for.
+    """
+    if "https://www.instagram.com/p/" in photo_uri:
+        photo_split = photo_uri.split("/")
+        shortcode = photo_split[4]
+        size = photo_split[6].split("=")[1]
+        return 'ig://' + shortcode + "/" + size
+    else:
+        return photo_uri
 
 # Exceptions
 class AuthorError(ValueError):
@@ -93,6 +193,12 @@ class SectionNameError(ValueError):
     pass
 
 class SpeciesError(ValueError):
+    pass
+
+class TagsError(ValueError):
+    pass
+    
+class UrlError(ValueError):
     pass
 
 # Shared classes

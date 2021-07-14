@@ -1,0 +1,23 @@
+[panda]
+_id: 1052
+birthday: 2016/6/22
+birthplace: 219
+children: unknown
+commitdate: 2019/11/13
+en.name: Yoko
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ヨーコ
+jp.nicknames: none
+jp.othernames: ヨコ
+language.order: en, jp
+litter: 1053
+location.1: 219, 2016/6/22
+location.2: 221, 2017/7/17
+photo.1: ig://CAXZFp1BffW/m
+photo.1.author: copenhagenzoo
+photo.1.commitdate: 2021/1/8
+photo.1.link: https://www.instagram.com/copenhagenzoo/
+species: 1
+zoo: 221

@@ -20,216 +20,226 @@ photo.1.author: panda.daisuki
 photo.1.commitdate: 2020/4/26
 photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.1.tags: autumn, peek, portrait
-photo.2: ig://BC2_gnsvixq/m
+photo.2: ig://BCREJl_Pi0Y/m
 photo.2.author: panda.daisuki
-photo.2.commitdate: 2020/4/26
+photo.2.commitdate: 2021/3/4
 photo.2.link: https://www.instagram.com/panda.daisuki/
-photo.2.tags: autumn, peek, portrait, smile, whiskers
-photo.3: ig://BPsOGzODDnc/m
-photo.3.author: apple_jasmine33
-photo.3.commitdate: 2020/5/14
-photo.3.link: https://www.instagram.com/apple_jasmine33/
-photo.3.tags: lunch time, paws, portrait, smile
-photo.4: ig://BRy7wlaFJOd/m
-photo.4.author: yossi929
-photo.4.commitdate: 2019/6/23
-photo.4.link: https://www.instagram.com/yossi929/
-photo.4.tags: bamboo, paws, smile, tongue
-photo.5: ig://BR5SLcAlGBa/m
-photo.5.author: yossi929
-photo.5.commitdate: 2019/6/23
-photo.5.link: https://www.instagram.com/yossi929/
-photo.5.tags: nose, tongue
-photo.6: ig://BUt2HAsA4VU/m
-photo.6.author: mifko55
-photo.6.commitdate: 2020/4/26
-photo.6.link: https://www.instagram.com/mifko55/
-photo.6.tags: laying down, portrait, tail
-photo.7: ig://BVqEjILgxCc/m
-photo.7.author: panda.daisuki
-photo.7.commitdate: 2018/7/22
-photo.7.link: https://www.instagram.com/panda.daisuki/
-photo.7.tags: portrait, profile
-photo.8: ig://BVrmALjg9kl/m
-photo.8.author: minatomirai215
+photo.2.tags: mofumofu, peek, portrait
+photo.3: ig://BC2_gnsvixq/m
+photo.3.author: panda.daisuki
+photo.3.commitdate: 2020/4/26
+photo.3.link: https://www.instagram.com/panda.daisuki/
+photo.3.tags: autumn, peek, portrait, smile, whiskers
+photo.4: ig://BKHLBRLDfAr/m
+photo.4.author: rdpnzoo
+photo.4.commitdate: 2021/7/9
+photo.4.link: https://www.instagram.com/rdpnzoo/
+photo.4.tags: laying down, paws, playing, upside-down
+photo.5: ig://BPsOGzODDnc/m
+photo.5.author: apple_jasmine33
+photo.5.commitdate: 2020/5/14
+photo.5.link: https://www.instagram.com/apple_jasmine33/
+photo.5.tags: lunch time, paws, portrait, smile
+photo.6: ig://BRy7wlaFJOd/m
+photo.6.author: yossi929
+photo.6.commitdate: 2019/6/23
+photo.6.link: https://www.instagram.com/yossi929/
+photo.6.tags: bamboo, paws, smile, tongue
+photo.7: ig://BR5SLcAlGBa/m
+photo.7.author: yossi929
+photo.7.commitdate: 2019/6/23
+photo.7.link: https://www.instagram.com/yossi929/
+photo.7.tags: nose, tongue
+photo.8: ig://BUt2HAsA4VU/m
+photo.8.author: mifko55
 photo.8.commitdate: 2020/4/26
-photo.8.link: https://www.instagram.com/minatomirai215/
-photo.8.tags: bamboo, home, paws, portrait
-photo.9: ig://BV8nrAXgL9I/m
-photo.9.author: omutacityzoo
-photo.9.commitdate: 2019/6/23
-photo.9.link: https://www.instagram.com/omutacityzoo/
-photo.9.tags: laying down, portrait, sleeping
-photo.10: ig://BXB2BTUA82H/m
-photo.10.author: omutacityzoo
-photo.10.commitdate: 2019/6/23
-photo.10.link: https://www.instagram.com/omutacityzoo/
-photo.10.tags: home, laying down, paws
-photo.11: ig://BYo_wobhKiV/m
-photo.11.author: miis_98
-photo.11.commitdate: 2020/4/3
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: paws, portrait, smile, tree
-photo.12: ig://BZ5rDlYn6_w/m
-photo.12.author: yossi929
-photo.12.commitdate: 2020/5/14
-photo.12.link: https://www.instagram.com/yossi929/
-photo.12.tags: portrait, smile, tongue, whiskers
-photo.13: ig://Bf1qkCzHtVO/m
-photo.13.author: yossi929
-photo.13.commitdate: 2020/5/14
-photo.13.link: https://www.instagram.com/yossi929/
-photo.13.tags: portrait, whiskers
-photo.14: ig://BhY-wNHljzf/m
-photo.14.author: panda.daisuki
-photo.14.commitdate: 2018/7/22
-photo.14.link: https://www.instagram.com/panda.daisuki/
-photo.14.tags: air tasting, tongue
-photo.15: ig://BinXQZHl7b3/m
+photo.8.link: https://www.instagram.com/mifko55/
+photo.8.tags: laying down, portrait, tail
+photo.9: ig://BVqEjILgxCc/m
+photo.9.author: panda.daisuki
+photo.9.commitdate: 2018/7/22
+photo.9.link: https://www.instagram.com/panda.daisuki/
+photo.9.tags: portrait, profile
+photo.10: ig://BVrmALjg9kl/m
+photo.10.author: minatomirai215
+photo.10.commitdate: 2020/4/26
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: bamboo, home, paws, portrait
+photo.11: ig://BV8nrAXgL9I/m
+photo.11.author: omutacityzoo
+photo.11.commitdate: 2019/6/23
+photo.11.link: https://www.instagram.com/omutacityzoo/
+photo.11.tags: laying down, portrait, sleeping
+photo.12: ig://BXB2BTUA82H/m
+photo.12.author: omutacityzoo
+photo.12.commitdate: 2019/6/23
+photo.12.link: https://www.instagram.com/omutacityzoo/
+photo.12.tags: home, laying down, paws
+photo.13: ig://BYo_wobhKiV/m
+photo.13.author: miis_98
+photo.13.commitdate: 2020/4/3
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: paws, portrait, smile, tree
+photo.14: ig://BZ5rDlYn6_w/m
+photo.14.author: yossi929
+photo.14.commitdate: 2020/5/14
+photo.14.link: https://www.instagram.com/yossi929/
+photo.14.tags: portrait, smile, tongue, whiskers
+photo.15: ig://Bf1qkCzHtVO/m
 photo.15.author: yossi929
-photo.15.commitdate: 2018/7/22
+photo.15.commitdate: 2020/5/14
 photo.15.link: https://www.instagram.com/yossi929/
-photo.15.tags: bamboo, portrait
-photo.16: ig://Biw5U0SFNku/m
+photo.15.tags: portrait, whiskers
+photo.16: ig://BhY-wNHljzf/m
 photo.16.author: panda.daisuki
-photo.16.commitdate: 2019/6/23
+photo.16.commitdate: 2018/7/22
 photo.16.link: https://www.instagram.com/panda.daisuki/
-photo.16.tags: apple time, keeper, paws, portrait, standing, tail
-photo.17: ig://BixwcaJlQ4Y/m
+photo.16.tags: air tasting, tongue
+photo.17: ig://BinXQZHl7b3/m
 photo.17.author: yossi929
 photo.17.commitdate: 2018/7/22
 photo.17.link: https://www.instagram.com/yossi929/
-photo.17.tags: portrait, smile
-photo.18: ig://BjmREN0lpf6/m
-photo.18.author: yossi929
-photo.18.commitdate: 2018/7/22
-photo.18.link: https://www.instagram.com/yossi929/
-photo.18.tags: portrait, tree
-photo.19: ig://BmkzWvVFYVZ/m
-photo.19.author: re_ichimaru
-photo.19.commitdate: 2019/6/23
-photo.19.link: https://www.instagram.com/re_ichimaru/
-photo.19.tags: bamboo, tongue
-photo.20: ig://BnuVvmkFSDo/m
+photo.17.tags: bamboo, portrait
+photo.18: ig://Biw5U0SFNku/m
+photo.18.author: panda.daisuki
+photo.18.commitdate: 2019/6/23
+photo.18.link: https://www.instagram.com/panda.daisuki/
+photo.18.tags: apple time, keeper, paws, portrait, standing, tail
+photo.19: ig://BixwcaJlQ4Y/m
+photo.19.author: yossi929
+photo.19.commitdate: 2018/7/22
+photo.19.link: https://www.instagram.com/yossi929/
+photo.19.tags: portrait, smile
+photo.20: ig://BjmREN0lpf6/m
 photo.20.author: yossi929
-photo.20.commitdate: 2018/9/22
+photo.20.commitdate: 2018/7/22
 photo.20.link: https://www.instagram.com/yossi929/
-photo.20.tags: paws, portrait
-photo.21: ig://Bsl1OzlFnh1/m
-photo.21.author: rie_panda55
-photo.21.commitdate: 2019/1/18
-photo.21.link: https://www.instagram.com/rie_panda55/
-photo.21.tags: bamboo
-photo.22: ig://BwOibAzF7I3/m
-photo.22.author: miis_98
-photo.22.commitdate: 2019/4/17
-photo.22.link: https://www.instagram.com/miis_98/
-photo.22.tags: portrait, tree
-photo.23: ig://BwS7b4-lDjr/m
-photo.23.author: yossi929
-photo.23.commitdate: 2019/4/17
-photo.23.link: https://www.instagram.com/yossi929/
-photo.23.tags: bamboo, portrait, smile
-photo.24: ig://BxI-l1fFE_y/m
-photo.24.author: yossi929
-photo.24.commitdate: 2019/5/7
-photo.24.link: https://www.instagram.com/yossi929/
-photo.24.tags: bamboo, smile
-photo.25: ig://Bx6bz4jBz24/m
-photo.25.author: mishimarugo
-photo.25.commitdate: 2019/6/23
-photo.25.link: https://www.instagram.com/mishimarugo/
-photo.25.tags: home, paws, portrait, smile
-photo.26: ig://BzB_LfkhXKk/m
-photo.26.author: panda.daisuki
-photo.26.commitdate: 2020/4/26
-photo.26.link: https://www.instagram.com/panda.daisuki/
-photo.26.tags: portrait, smile, whiskers
-photo.27: ig://B047545BAEf/m
-photo.27.author: yossi929
-photo.27.commitdate: 2019/8/12
-photo.27.link: https://www.instagram.com/yossi929/
-photo.27.tags: portrait, tongue
-photo.28: ig://B1NNHGJh-7A/m
-photo.28.author: yossi929
-photo.28.commitdate: 2019/8/20
-photo.28.link: https://www.instagram.com/yossi929/
-photo.28.tags: bamboo, smile, tongue
-photo.29: ig://B1xv_iehUoX/m
-photo.29.author: omutacityzoo
-photo.29.commitdate: 2020/4/26
-photo.29.link: https://www.instagram.com/omutacityzoo/
-photo.29.tags: air tasting, laying down, paws, portrait, tongue
-photo.30: ig://B2qqqiBhR2Y/m
-photo.30.author: omutacityzoo
-photo.30.commitdate: 2020/4/26
-photo.30.link: https://www.instagram.com/omutacityzoo/
-photo.30.tags: portrait, smile, tongue, tree
-photo.31: ig://B2rWnWQB3FR/m
-photo.31.author: panda.daisuki
-photo.31.commitdate: 2019/9/28
-photo.31.link: https://www.instagram.com/panda.daisuki/
-photo.31.tags: peek, portrait
-photo.32: ig://B2zDXAlhPwE/m
-photo.32.author: ifumoto88
-photo.32.commitdate: 2019/9/26
-photo.32.link: https://www.instagram.com/ifumoto88/
-photo.32.tags: paws, portrait, tongue
-photo.33: ig://B27tz6zBP0Z/m
-photo.33.author: yossi929
-photo.33.commitdate: 2019/10/13
-photo.33.link: https://www.instagram.com/yossi929/
-photo.33.tags: portrait, smile, tongue, tree
-photo.34: ig://B329RAgBd0u/m
-photo.34.author: panda.daisuki
-photo.34.commitdate: 2019/10/22
-photo.34.link: https://www.instagram.com/panda.daisuki/
-photo.34.tags: mofumofu, portrait
-photo.35: ig://B6PAwNrH10D/m
-photo.35.author: omutacityzoo
-photo.35.commitdate: 2020/4/26
-photo.35.link: https://www.instagram.com/omutacityzoo/
-photo.35.tags: paws, smile, tail, whiskers
-photo.36: ig://B6RVjwZB9k_/m
-photo.36.author: yossi929
-photo.36.commitdate: 2019/12/30
-photo.36.link: https://www.instagram.com/yossi929/
-photo.36.tags: bamboo, portrait, whiskers
-photo.37: ig://B-dLZhqBaFA/m
-photo.37.author: yossi929
-photo.37.commitdate: 2020/4/3
-photo.37.link: https://www.instagram.com/yossi929/
-photo.37.tags: paws, smile, tongue, toys
-photo.38: ig://B-zGOpRh0Ba/m
+photo.20.tags: portrait, tree
+photo.21: ig://BmkzWvVFYVZ/m
+photo.21.author: re_ichimaru
+photo.21.commitdate: 2019/6/23
+photo.21.link: https://www.instagram.com/re_ichimaru/
+photo.21.tags: bamboo, tongue
+photo.22: ig://BnuVvmkFSDo/m
+photo.22.author: yossi929
+photo.22.commitdate: 2018/9/22
+photo.22.link: https://www.instagram.com/yossi929/
+photo.22.tags: paws, portrait
+photo.23: ig://Bsl1OzlFnh1/m
+photo.23.author: rie_panda55
+photo.23.commitdate: 2019/1/18
+photo.23.link: https://www.instagram.com/rie_panda55/
+photo.23.tags: bamboo
+photo.24: ig://BwOibAzF7I3/m
+photo.24.author: miis_98
+photo.24.commitdate: 2019/4/17
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: portrait, tree
+photo.25: ig://BwS7b4-lDjr/m
+photo.25.author: yossi929
+photo.25.commitdate: 2019/4/17
+photo.25.link: https://www.instagram.com/yossi929/
+photo.25.tags: bamboo, portrait, smile
+photo.26: ig://BxI-l1fFE_y/m
+photo.26.author: yossi929
+photo.26.commitdate: 2019/5/7
+photo.26.link: https://www.instagram.com/yossi929/
+photo.26.tags: bamboo, smile
+photo.27: ig://Bx6bz4jBz24/m
+photo.27.author: mishimarugo
+photo.27.commitdate: 2019/6/23
+photo.27.link: https://www.instagram.com/mishimarugo/
+photo.27.tags: home, paws, portrait, smile
+photo.28: ig://BzB_LfkhXKk/m
+photo.28.author: panda.daisuki
+photo.28.commitdate: 2020/4/26
+photo.28.link: https://www.instagram.com/panda.daisuki/
+photo.28.tags: portrait, smile, whiskers
+photo.29: ig://B047545BAEf/m
+photo.29.author: yossi929
+photo.29.commitdate: 2019/8/12
+photo.29.link: https://www.instagram.com/yossi929/
+photo.29.tags: portrait, tongue
+photo.30: ig://B1NNHGJh-7A/m
+photo.30.author: yossi929
+photo.30.commitdate: 2019/8/20
+photo.30.link: https://www.instagram.com/yossi929/
+photo.30.tags: bamboo, smile, tongue
+photo.31: ig://B1xv_iehUoX/m
+photo.31.author: omutacityzoo
+photo.31.commitdate: 2020/4/26
+photo.31.link: https://www.instagram.com/omutacityzoo/
+photo.31.tags: air tasting, laying down, paws, portrait, tongue
+photo.32: ig://B2qqqiBhR2Y/m
+photo.32.author: omutacityzoo
+photo.32.commitdate: 2020/4/26
+photo.32.link: https://www.instagram.com/omutacityzoo/
+photo.32.tags: portrait, smile, tongue, tree
+photo.33: ig://B2rWnWQB3FR/m
+photo.33.author: panda.daisuki
+photo.33.commitdate: 2019/9/28
+photo.33.link: https://www.instagram.com/panda.daisuki/
+photo.33.tags: peek, portrait
+photo.34: ig://B2zDXAlhPwE/m
+photo.34.author: ifumoto88
+photo.34.commitdate: 2019/9/26
+photo.34.link: https://www.instagram.com/ifumoto88/
+photo.34.tags: paws, portrait, tongue
+photo.35: ig://B27tz6zBP0Z/m
+photo.35.author: yossi929
+photo.35.commitdate: 2019/10/13
+photo.35.link: https://www.instagram.com/yossi929/
+photo.35.tags: portrait, smile, tongue, tree
+photo.36: ig://B329RAgBd0u/m
+photo.36.author: panda.daisuki
+photo.36.commitdate: 2019/10/22
+photo.36.link: https://www.instagram.com/panda.daisuki/
+photo.36.tags: mofumofu, portrait
+photo.37: ig://B6PAwNrH10D/m
+photo.37.author: omutacityzoo
+photo.37.commitdate: 2020/4/26
+photo.37.link: https://www.instagram.com/omutacityzoo/
+photo.37.tags: paws, smile, tail, whiskers
+photo.38: ig://B6RVjwZB9k_/m
 photo.38.author: yossi929
-photo.38.commitdate: 2020/4/26
+photo.38.commitdate: 2019/12/30
 photo.38.link: https://www.instagram.com/yossi929/
-photo.38.tags: portrait, smile, tongue, whiskers
-photo.39: ig://B-5tGjnBi__/m
-photo.39.author: ifumoto88
-photo.39.commitdate: 2020/4/26
-photo.39.link: https://www.instagram.com/ifumoto88/
-photo.39.tags: laying down, mofumofu, paws, portrait, tree
-photo.40: ig://CAIE_8xB4p6/m
-photo.40.author: jas_forever_love
-photo.40.commitdate: 2020/5/14
-photo.40.link: https://www.instagram.com/jas_forever_love/
-photo.40.tags: bamboo, bite, paws, portrait, smile, tongue
-photo.41: ig://CBx8vYChpWX/m
-photo.41.author: panda.daisuki
-photo.41.commitdate: 2020/8/3
-photo.41.link: https://www.instagram.com/panda.daisuki/
-photo.41.tags: portrait, videolink
-photo.42: ig://CF0b0fBpZ6F/m
-photo.42.author: redpandanetwork
-photo.42.commitdate: 2020/10/1
-photo.42.link: https://www.instagram.com/redpandanetwork/
-photo.42.tags: bamboo, paws, portrait
-photo.43: ig://CGDxcWjhbFL/m
-photo.43.author: yossi929
-photo.43.commitdate: 2020/10/9
-photo.43.link: https://www.instagram.com/yossi929/
-photo.43.tags: portrait, whiskers
+photo.38.tags: bamboo, portrait, whiskers
+photo.39: ig://B-dLZhqBaFA/m
+photo.39.author: yossi929
+photo.39.commitdate: 2020/4/3
+photo.39.link: https://www.instagram.com/yossi929/
+photo.39.tags: paws, smile, tongue, toys
+photo.40: ig://B-zGOpRh0Ba/m
+photo.40.author: yossi929
+photo.40.commitdate: 2020/4/26
+photo.40.link: https://www.instagram.com/yossi929/
+photo.40.tags: portrait, smile, tongue, whiskers
+photo.41: ig://B-5tGjnBi__/m
+photo.41.author: ifumoto88
+photo.41.commitdate: 2020/4/26
+photo.41.link: https://www.instagram.com/ifumoto88/
+photo.41.tags: laying down, mofumofu, paws, portrait, tree
+photo.42: ig://CAIE_8xB4p6/m
+photo.42.author: jas_forever_love
+photo.42.commitdate: 2020/5/14
+photo.42.link: https://www.instagram.com/jas_forever_love/
+photo.42.tags: bamboo, bite, paws, portrait, smile, tongue
+photo.43: ig://CBx8vYChpWX/m
+photo.43.author: panda.daisuki
+photo.43.commitdate: 2020/8/3
+photo.43.link: https://www.instagram.com/panda.daisuki/
+photo.43.tags: portrait, videolink
+photo.44: ig://CF0b0fBpZ6F/m
+photo.44.author: redpandanetwork
+photo.44.commitdate: 2020/10/1
+photo.44.link: https://www.instagram.com/redpandanetwork/
+photo.44.tags: bamboo, paws, portrait
+photo.45: ig://CGDxcWjhbFL/m
+photo.45.author: yossi929
+photo.45.commitdate: 2020/10/9
+photo.45.link: https://www.instagram.com/yossi929/
+photo.45.tags: portrait, whiskers
 species: 2
 studbook.id: 13154
 zoo: 21

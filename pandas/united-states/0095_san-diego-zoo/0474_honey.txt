@@ -4,6 +4,7 @@ birthday: 2003/6/18
 birthplace: 65
 children: none
 commitdate: 2018/12/4
+death: 2020/1/1
 en.name: Honey
 en.nicknames: none
 en.othernames: Hun-E
@@ -42,4 +43,5 @@ photo.4.link: https://www.instagram.com/sandiegozoo/
 photo.4.tags: dark face, laying down
 species: 2
 studbook.id: 0302
+uncertainty: death date
 zoo: 95

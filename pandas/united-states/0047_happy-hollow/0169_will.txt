@@ -21,7 +21,7 @@ photo.1.commitdate: 2020/4/1
 photo.1.link: https://www.instagram.com/hhpzoo/
 photo.1.tags: peek, whiskers
 photo.2: ig://BMrmltmBo33/m
-photo.2.author: hhpzoo
+photo.2.author: zookeeper_aj
 photo.2.commitdate: 2020/4/1
 photo.2.link: https://www.instagram.com/hhpzoo/
 photo.2.tags: bamboo, laying down, peek
@@ -175,94 +175,135 @@ photo.33.author: zookeeper_aj
 photo.33.commitdate: 2019/9/26
 photo.33.link: https://www.instagram.com/zookeeper_aj/
 photo.33.tags: lunch time, paws
-photo.34: ig://B3iui9Ihff8/m
+photo.34: ig://B3SRN_ihjtM/m
 photo.34.author: wumpwoast
-photo.34.commitdate: 2019/10/15
+photo.34.commitdate: 2021/6/19
 photo.34.link: https://www.instagram.com/wumpwoast/
-photo.34.tags: portrait, smile, tail
-photo.35: ig://B3ojCeRhUP7/m
+photo.34.tags: peek, portrait, tail
+photo.35: ig://B3iui9Ihff8/m
 photo.35.author: wumpwoast
 photo.35.commitdate: 2019/10/15
 photo.35.link: https://www.instagram.com/wumpwoast/
-photo.35.tags: bamboo, bridge
-photo.36: ig://B4SMkKgDQr-/m
-photo.36.author: hhpzoo
-photo.36.commitdate: 2019/11/1
-photo.36.link: https://www.instagram.com/hhpzoo/
-photo.36.tags: pumpkin, smile, tongue
-photo.37: ig://B4TxWDXhUJl/m
-photo.37.author: wumpwoast
+photo.35.tags: portrait, smile, tail
+photo.36: ig://B3ojCeRhUP7/m
+photo.36.author: wumpwoast
+photo.36.commitdate: 2019/10/15
+photo.36.link: https://www.instagram.com/wumpwoast/
+photo.36.tags: bamboo, bridge
+photo.37: ig://B4SMkKgDQr-/m
+photo.37.author: hhpzoo
 photo.37.commitdate: 2019/11/1
-photo.37.link: https://www.instagram.com/wumpwoast/
-photo.37.tags: portrait, whiskers
-photo.38: ig://B4t1CCQh6Ms/m
+photo.37.link: https://www.instagram.com/hhpzoo/
+photo.37.tags: pumpkin, smile, tongue
+photo.38: ig://B4TxWDXhUJl/m
 photo.38.author: wumpwoast
-photo.38.commitdate: 2019/11/17
+photo.38.commitdate: 2019/11/1
 photo.38.link: https://www.instagram.com/wumpwoast/
-photo.38.tags: portrait, techitechi
-photo.39: ig://B4x29vAAnys/m
-photo.39.author: zookeeper_aj
+photo.38.tags: portrait, whiskers
+photo.39: ig://B4t1CCQh6Ms/m
+photo.39.author: wumpwoast
 photo.39.commitdate: 2019/11/17
-photo.39.link: https://www.instagram.com/zookeeper_aj/
-photo.39.tags: smile
-photo.40: ig://B46cmx6BeVZ/m
-photo.40.author: wumpwoast
-photo.40.commitdate: 2019/11/27
-photo.40.link: https://www.instagram.com/wumpwoast/
-photo.40.tags: laying down, portrait, tail
-photo.41: ig://B5bMmNfgxRi/m
-photo.41.author: zookeeper_aj
-photo.41.commitdate: 2019/11/29
-photo.41.link: https://www.instagram.com/zookeeper_aj/
-photo.42: ig://B5nj9UghzU_/m
-photo.42.author: wumpwoast
-photo.42.commitdate: 2019/12/7
-photo.42.link: https://www.instagram.com/wumpwoast/
-photo.42.tags: peek, portrait
-photo.43: ig://B5yPioSAzao/m
-photo.43.author: zookeeper_aj
-photo.43.commitdate: 2019/12/11
-photo.43.link: bamboo, bite, paws
-photo.44: ig://B7WLogxBejV/m
-photo.44.author: wumpwoast
-photo.44.commitdate: 2020/1/16
-photo.44.link: https://www.instagram.com/wumpwoast/
-photo.44.tags: bamboo, bite, portrait, whiskers, white face
-photo.45: ig://B8J0A1uBt_c/m
+photo.39.link: https://www.instagram.com/wumpwoast/
+photo.39.tags: portrait, techitechi
+photo.40: ig://B4x29vAAnys/m
+photo.40.author: zookeeper_aj
+photo.40.commitdate: 2019/11/17
+photo.40.link: https://www.instagram.com/zookeeper_aj/
+photo.40.tags: smile
+photo.41: ig://B46cmx6BeVZ/m
+photo.41.author: wumpwoast
+photo.41.commitdate: 2019/11/27
+photo.41.link: https://www.instagram.com/wumpwoast/
+photo.41.tags: laying down, portrait, tail
+photo.42: ig://B5bMmNfgxRi/m
+photo.42.author: zookeeper_aj
+photo.42.commitdate: 2019/11/29
+photo.42.link: https://www.instagram.com/zookeeper_aj/
+photo.43: ig://B5nj9UghzU_/m
+photo.43.author: wumpwoast
+photo.43.commitdate: 2019/12/7
+photo.43.link: https://www.instagram.com/wumpwoast/
+photo.43.tags: peek, portrait
+photo.44: ig://B5yPioSAzao/m
+photo.44.author: zookeeper_aj
+photo.44.commitdate: 2019/12/11
+photo.44.link: https://www.instagram.com/zookeeper_aj/
+photo.44.tags: bamboo, bite, paws
+photo.45: ig://B6BJAn5h4ke/m
 photo.45.author: wumpwoast
-photo.45.commitdate: 2020/2/7
+photo.45.commitdate: 2021/6/19
 photo.45.link: https://www.instagram.com/wumpwoast/
 photo.45.tags: bamboo, portrait, tongue
-photo.46: ig://B8VLMFtgZai/m
-photo.46.author: zookeeper_aj
-photo.46.commitdate: 2020/2/16
-photo.46.link: https://www.instagram.com/zookeeper_aj/
-photo.46.tags: bamboo
-photo.47: ig://B92Qch5hx1f/m
+photo.46: ig://B7WLogxBejV/m
+photo.46.author: wumpwoast
+photo.46.commitdate: 2020/1/16
+photo.46.link: https://www.instagram.com/wumpwoast/
+photo.46.tags: bamboo, bite, portrait, whiskers, white face
+photo.47: ig://B8J0A1uBt_c/m
 photo.47.author: wumpwoast
-photo.47.commitdate: 2020/3/26
+photo.47.commitdate: 2020/2/7
 photo.47.link: https://www.instagram.com/wumpwoast/
-photo.47.tags: portrait, whiskers
-photo.48: ig://B94X-XLnRC6/m
-photo.48.author: wumpwoast
-photo.48.commitdate: 2020/3/26
-photo.48.link: https://www.instagram.com/wumpwoast/
-photo.48.tags: blink, portrait
-photo.49: ig://CAtRkjHDs3g/m
-photo.49.author: hhpzoo
-photo.49.commitdate: 2020/9/3
-photo.49.link: https://www.instagram.com/hhpzoo/
-photo.49.tags: lunch time, paws, portrait, whiskers
-photo.50: ig://CEzQVlgF2uZ/m
-photo.50.author: hhpzoo
-photo.50.commitdate: 2020/9/14
-photo.50.link: https://www.instagram.com/hhpzoo/
-photo.50.tags: close-up, keeper, lunch time, whiskers
-photo.51: ig://CG2k5XZL5Ri/m
+photo.47.tags: bamboo, portrait, tongue
+photo.48: ig://B8VLMFtgZai/m
+photo.48.author: zookeeper_aj
+photo.48.commitdate: 2020/2/16
+photo.48.link: https://www.instagram.com/zookeeper_aj/
+photo.48.tags: bamboo
+photo.49: ig://B92Qch5hx1f/m
+photo.49.author: wumpwoast
+photo.49.commitdate: 2020/3/26
+photo.49.link: https://www.instagram.com/wumpwoast/
+photo.49.tags: portrait, whiskers
+photo.50: ig://B94X-XLnRC6/m
+photo.50.author: wumpwoast
+photo.50.commitdate: 2020/3/26
+photo.50.link: https://www.instagram.com/wumpwoast/
+photo.50.tags: blink, portrait
+photo.51: ig://CAtRkjHDs3g/m
 photo.51.author: hhpzoo
-photo.51.commitdate: 2020/10/27
+photo.51.commitdate: 2020/9/3
 photo.51.link: https://www.instagram.com/hhpzoo/
-photo.51.tags: bamboo, close-up, tongue
+photo.51.tags: lunch time, paws, portrait, whiskers
+photo.52: ig://CEzQVlgF2uZ/m
+photo.52.author: hhpzoo
+photo.52.commitdate: 2020/9/14
+photo.52.link: https://www.instagram.com/hhpzoo/
+photo.52.tags: close-up, keeper, lunch time, whiskers
+photo.53: ig://CFTRlk7BdEw/m
+photo.53.author: wumpwoast
+photo.53.commitdate: 2021/6/6
+photo.53.link: https://www.instagram.com/wumpwoast/
+photo.53.tags: bamboo, bite, portrait
+photo.54: ig://CG2k5XZL5Ri/m
+photo.54.author: hhpzoo
+photo.54.commitdate: 2020/10/27
+photo.54.link: https://www.instagram.com/hhpzoo/
+photo.54.tags: bamboo, close-up, tongue
+photo.55: ig://CMfYM8An3aG/m
+photo.55.author: hhpzoo
+photo.55.commitdate: 2021/3/29
+photo.55.link: https://www.instagram.com/hhpzoo/
+photo.55.tags: close-up, mofumofu, portrait, whiskers
+photo.56: ig://CO8oQzogW46/m
+photo.56.author: bayareaaazk
+photo.56.commitdate: 2021/6/16
+photo.56.link: https://www.instagram.com/bayareaaazk/
+photo.56.tags: close-up, dish, white face
+photo.57: ig://CQFQMV6hGLi/m
+photo.57.author: wumpwoast
+photo.57.commitdate: 2021/6/16
+photo.57.link: https://www.instagram.com/wumpwoast/
+photo.57.tags: bamboo, paws, portrait, smile
+photo.58: ig://CQ6UZ3erLbs/m
+photo.58.author: hhpzoo
+photo.58.commitdate: 2021/7/4
+photo.58.link: https://www.instagram.com/hhpzoo/
+photo.58.tags: bamboo, paws, tongue
+photo.59: ig://CRKmOz2BAef/m
+photo.59.author: wumpwoast
+photo.59.commitdate: 2021/7/11
+photo.59.link: https://www.instagram.com/wumpwoast/
+photo.59.tags: close-up, dish, lunch time, smile, tail
 species: 1
 studbook.id: 1542
 zoo: 47

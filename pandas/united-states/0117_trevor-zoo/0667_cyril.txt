@@ -4,6 +4,7 @@ birthday: 2001/7/9
 birthplace: 118
 children: 676, 677, 678, 679, 541, 680
 commitdate: 2019/3/22
+death: 2021/2/24
 en.name: Cyril
 en.nicknames: none
 en.othernames: none
@@ -32,20 +33,36 @@ photo.3.author: trevorzoomillbrook
 photo.3.commitdate: 2019/4/1
 photo.3.link: https://www.instagram.com/trevorzoomillbrook/
 photo.3.tags: portrait, smile, tongue
-photo.4: ig://CCo1KTpAV1F/m
+photo.4: ig://B2h2aYSAano/m
 photo.4.author: trevorzoomillbrook
-photo.4.commitdate: 2020/7/16
+photo.4.commitdate: 2021/1/8
 photo.4.link: https://www.instagram.com/trevorzoomillbrook/
-photo.4.tags: portrait, whiskers
-photo.5: ig://CFP_ftGgMxY/m
+photo.4.tags: close-up, lunch time, paws, tongue
+photo.5: ig://CCMxbeUg6Y4/m
 photo.5.author: trevorzoomillbrook
-photo.5.commitdate: 2020/9/24
+photo.5.commitdate: 2021/2/28
 photo.5.link: https://www.instagram.com/trevorzoomillbrook/
-photo.5.tags: doctor, portrait, tail
-photo.6: ig://CGJJZAsg7R0/m
+photo.5.tags: close-up, laying down, portrait, whiskers
+photo.6: ig://CCo1KTpAV1F/m
 photo.6.author: trevorzoomillbrook
-photo.6.commitdate: 2020/10/11
+photo.6.commitdate: 2020/7/16
 photo.6.link: https://www.instagram.com/trevorzoomillbrook/
-photo.6.tags: autumn, portrait, smile, tail
+photo.6.tags: portrait, whiskers
+photo.7: ig://CFP_ftGgMxY/m
+photo.7.author: trevorzoomillbrook
+photo.7.commitdate: 2020/9/24
+photo.7.link: https://www.instagram.com/trevorzoomillbrook/
+photo.7.tags: doctor, portrait, tail
+photo.8: ig://CGJJZAsg7R0/m
+photo.8.author: trevorzoomillbrook
+photo.8.commitdate: 2020/10/11
+photo.8.link: https://www.instagram.com/trevorzoomillbrook/
+photo.8.tags: autumn, portrait, smile, tail
+photo.9: ig://CLsBmDoHwYN/m
+photo.9.author: trevorzoomillbrook
+photo.9.commitdate: 2021/3/21
+photo.9.link: https://www.instagram.com/trevorzoomillbrook/
+photo.9.tags: portrait, whiskers
 species: 1
+studbook.id: 0111
 zoo: 117

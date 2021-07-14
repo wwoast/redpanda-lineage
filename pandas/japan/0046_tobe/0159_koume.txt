@@ -122,7 +122,7 @@ photo.22: ig://B1ZL4zIBDhT/m
 photo.22.author: itsuak
 photo.22.commitdate: 2019/8/23
 photo.22.link: https://www.instagram.com/itsuak/
-photo.22.tags: laying down, portrait, profile
+photo.22.tags: laying down, portrait
 photo.23: ig://B1tURlWBJDo/m
 photo.23.author: itsuak
 photo.23.commitdate: 2019/8/29
@@ -228,6 +228,21 @@ photo.43.author: itsuak
 photo.43.commitdate: 2020/11/11
 photo.43.link: https://www.instagram.com/itsuak/
 photo.43.tags: laying down, tail
+photo.44: ig://CJvs1dAsWhT/m
+photo.44.author: itsuak
+photo.44.commitdate: 2021/3/2
+photo.44.link: https://www.instagram.com/itsuak/
+photo.44.tags: paws, portrait, whiskers
+photo.45: ig://CLZoxZzB3bj/m
+photo.45.author: itsuak
+photo.45.commitdate: 2021/2/20
+photo.45.link: https://www.instagram.com/itsuak/
+photo.45.tags: bamboo, bite, close-up, paws, portrait, profile
+photo.46: ig://CRMPkUzDsQn/m
+photo.46.author: itsuak
+photo.46.commitdate: 2021/7/13
+photo.46.link: https://www.instagram.com/itsuak/
+photo.46.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 14154
 zoo: 46

@@ -119,9 +119,9 @@ photo.21.commitdate: 2019/5/18
 photo.21.link: https://www.instagram.com/kotata_513/
 photo.21.tags: bamboo, tongue
 photo.22: ig://ByefDs2gRIr/m
-photo.22.author: sunnylettuce_2020
+photo.22.author: sunnylettuce_2021
 photo.22.commitdate: 2019/6/9
-photo.22.link: https://www.instagram.com/sunnylettuce_2020/
+photo.22.link: https://www.instagram.com/sunnylettuce_2021/
 photo.22.tags: apple time, keeper, mofumofu
 photo.23: ig://BykHE4mBIJy/m
 photo.23.author: rie_panda55
@@ -258,21 +258,46 @@ photo.49.author: kotata_513
 photo.49.commitdate: 2020/3/18
 photo.49.link: https://www.instagram.com/kotata_513/
 photo.49.tags: hammock, portrait
-photo.50: ig://CEJbAjDBUhh/m
-photo.50.author: ssc6105
-photo.50.commitdate: 2020/8/29
-photo.50.link: https://www.instagram.com/ssc6105/
-photo.50.tags: paws, peek, portrait
-photo.51: ig://CGyP6B_hHGy/m
-photo.51.author: sunnylettuce_2020
-photo.51.commitdate: 2020/10/27
-photo.51.link: https://www.instagram.com/sunnylettuce_2020/
-photo.51.tags: mofumofu, portrait, tail
-photo.52: ig://CHB-Ud7BNY1/m
-photo.52.author: mariten1119
-photo.52.commitdate: 2020/11/11
-photo.52.link: https://www.instagram.com/mariten1119/
-photo.52.tags: laying down, paws, wave, yawn
+photo.50: ig://CEG81j_hDk_/m
+photo.50.author: kotata_513
+photo.50.commitdate: 2021/6/11
+photo.50.link: https://www.instagram.com/kotata_513/
+photo.50.tags: bamboo, smile
+photo.51: ig://CEJbAjDBUhh/m
+photo.51.author: ssc6105
+photo.51.commitdate: 2020/8/29
+photo.51.link: https://www.instagram.com/ssc6105/
+photo.51.tags: paws, peek, portrait
+photo.52: ig://CGyP6B_hHGy/m
+photo.52.author: sunnylettuce_2021
+photo.52.commitdate: 2020/10/27
+photo.52.link: https://www.instagram.com/sunnylettuce_2021/
+photo.52.tags: mofumofu, portrait, tail
+photo.53: ig://CHB-Ud7BNY1/m
+photo.53.author: mariten1119
+photo.53.commitdate: 2020/11/11
+photo.53.link: https://www.instagram.com/mariten1119/
+photo.53.tags: laying down, paws, wave, yawn
+photo.54: ig://CJA5JCBBZzn/m
+photo.54.author: ssc6105
+photo.54.commitdate: 2021/1/2
+photo.54.link: https://www.instagram.com/ssc6105/
+photo.54.tags: paws, techitechi
+photo.55: ig://CJk06cjHnGB/m
+photo.55.author: mochan8686
+photo.55.commitdate: 2021/1/8
+photo.55.link: https://www.instagram.com/mochan8686/
+photo.55.tags: bamboo, mofumofu, portrait
+photo.56: ig://CKsno6pB6Q3/m
+photo.56.author: panda.daisuki
+photo.56.commitdate: 2021/3/10
+photo.56.link: https://www.instagram.com/panda.daisuki/
+photo.56.tags: paws, portrait, tongue, wave, yawn
+photo.57: ig://CQrpVdCB3HT/m
+photo.57.author: ck.chie
+photo.57.commitdate: 2021/6/28
+photo.57.link: https://www.instagram.com/ck.chie/
+photo.57.tags: bamboo, mofumofu, portrait, smile
 species: 2
 studbook.id: 0864
 zoo: 17

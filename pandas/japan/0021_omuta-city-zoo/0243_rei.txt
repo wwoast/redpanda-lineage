@@ -132,7 +132,7 @@ photo.24: ig://B0mk9cihJXT/m
 photo.24.author: yossi929
 photo.24.commitdate: 2019/8/2
 photo.24.link: https://www.instagram.com/yossi929/
-photo.24.tags: portrait, profile
+photo.24.tags: portrait
 photo.25: ig://B1Lnk5Jh5Yq/m
 photo.25.author: yossi929
 photo.25.commitdate: 2019/8/19
@@ -201,6 +201,31 @@ photo.38.author: yossi929
 photo.38.commitdate: 2020/9/26
 photo.38.link: https://www.instagram.com/yossi929/
 photo.38.tags: peek, portrait
+photo.39: ig://CKTKRfFBRGn/m
+photo.39.author: omutacityzoo
+photo.39.commitdate: 2021/3/4
+photo.39.link: https://www.instagram.com/omutacityzoo/
+photo.39.tags: videolink
+photo.40: ig://CNLxrCZhXYZ/m
+photo.40.author: omutacityzoo
+photo.40.commitdate: 2021/6/29
+photo.40.link: https://www.instagram.com/omutacityzoo/
+photo.40.tags: bamboo, bridge, portrait, tail, tree
+photo.41: ig://COG-B1fhCBB/m
+photo.41.author: omutacityzoo
+photo.41.commitdate: 2021/6/29
+photo.41.link: https://www.instagram.com/omutacityzoo/
+photo.41.tags: bamboo, climb, paws, portrait, tree
+photo.42: ig://CQ3UAlpBLZD/m
+photo.42.author: yossi929
+photo.42.commitdate: 2021/7/4
+photo.42.link: https://www.instagram.com/yossi929/
+photo.42.tags: bamboo, mofumofu, paws, whiskers
+photo.43: ig://CRH8zM0BCxv/m
+photo.43.author: yossi929
+photo.43.commitdate: 2021/7/11
+photo.43.link: https://www.instagram.com/yossi929/
+photo.43.tags: portrait, profile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 21

@@ -106,7 +106,8 @@ photo.18.tags: paws
 photo.19: ig://B5761_shN0X/m
 photo.19.author: itsuak
 photo.19.commitdate: 2019/12/16
-photo.19.link: apple time, paws, praying, standing
+photo.19.link: https://www.instagram.com/itsuak/
+photo.19.tags: apple time, paws, praying, standing
 photo.20: ig://B8eVcjahNY1/m
 photo.20.author: itsuak
 photo.20.commitdate: 2020/2/17
@@ -167,5 +168,65 @@ photo.31.author: itsuak
 photo.31.commitdate: 2020/10/13
 photo.31.link: https://www.instagram.com/itsuak/
 photo.31.tags: paws, peek, portrait, tongue, upside-down
+photo.32: ig://CGU3ZH6hWIV/m
+photo.32.author: itsuak
+photo.32.commitdate: 2021/2/2
+photo.32.link: https://www.instagram.com/itsuak/
+photo.32.tags: paws, portrait, whiskers
+photo.33: ig://CKL4Rq3A5RT/m
+photo.33.author: itsuak
+photo.33.commitdate: 2021/1/28
+photo.33.link: https://www.instagram.com/itsuak/
+photo.33.tags: bamboo, paws, peek
+photo.34: ig://CKbdXaYgtAR/m
+photo.34.author: itsuak
+photo.34.commitdate: 2021/1/28
+photo.34.link: https://www.instagram.com/itsuak/
+photo.34.tags: peek, whiskers
+photo.35: ig://CK1dotMhGD3/m
+photo.35.author: itsuak
+photo.35.commitdate: 2021/3/10
+photo.35.link: https://www.instagram.com/itsuak/
+photo.35.tags: peek, portrait, whiskers
+photo.36: ig://CK36O2AhJda/m
+photo.36.author: itsuak
+photo.36.commitdate: 2021/3/10
+photo.36.link: https://www.instagram.com/itsuak/
+photo.36.tags: bamboo, paws, portrait
+photo.37: ig://CK6t5ZbBJOZ/m
+photo.37.author: itsuak
+photo.37.commitdate: 2021/3/7
+photo.37.link: https://www.instagram.com/itsuak/
+photo.37.tags: bamboo, paws, portrait, smile, upside-down, whiskers
+photo.38: ig://CLG21POhEiC/m
+photo.38.author: itsuak
+photo.38.commitdate: 2021/6/28
+photo.38.link: https://www.instagram.com/itsuak/
+photo.38.tags: paws, portrait, whiskers
+photo.39: ig://CNKS2qfB_qG/m
+photo.39.author: itsuak
+photo.39.commitdate: 2021/4/3
+photo.39.link: https://www.instagram.com/itsuak/
+photo.39.tags: bamboo, close-up, portrait, smile, whiskers
+photo.40: ig://CO5Ww_nhV2n/m
+photo.40.author: itsuak
+photo.40.commitdate: 2021/6/6
+photo.40.link: https://www.instagram.com/itsuak/
+photo.40.tags: paws, portrait, tongue
+photo.41: ig://CO7yKFkBZd8/m
+photo.41.author: itsuak
+photo.41.commitdate: 2021/6/16
+photo.41.link: https://www.instagram.com/itsuak/
+photo.41.tags: mofumofu, portrait, tail, whiskers
+photo.42: ig://CP-zcgRLF4X/m
+photo.42.author: itsuak
+photo.42.commitdate: 2021/6/19
+photo.42.link: https://www.instagram.com/itsuak/
+photo.42.tags: portrait, whiskers
+photo.43: ig://CQlWqp2BC_c/m
+photo.43.author: makimaru18
+photo.43.commitdate: 2021/6/28
+photo.43.link: https://www.instagram.com/makimaru18/
+photo.43.tags: bridge, paws, portrait, whiskers
 species: 2
 zoo: 15

@@ -4,6 +4,7 @@ birthday: 2011/8/10
 birthplace: 72
 children: 267, 275, 276, 277, 278, 279, 317, 318, 319
 commitdate: 2018/7/29
+death: 2021/2/1
 en.name: Olivia
 en.nicknames: none
 en.othernames: none
@@ -102,4 +103,5 @@ photo.17.link: https://www.instagram.com/fetorus_mami/
 photo.17.tags: bamboo, bite, tongue
 species: 1
 studbook.id: 1187
+uncertainty: death exact date
 zoo: 59

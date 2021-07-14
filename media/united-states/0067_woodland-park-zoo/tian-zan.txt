@@ -2,6 +2,7 @@
 _id: media.67.tian-zan
 commitdate: 2020/7/28
 panda.tags: 1171, 1172
+phofo.3.tags: mofumofu, paws, portrait, siblings, tree, twins
 photo.1: ig://CDCMw1khuRv/l
 photo.1.author: woodlandparkzoo
 photo.1.commitdate: 2020/7/28
@@ -16,3 +17,9 @@ photo.2.link: https://www.instagram.com/woodlandparkzoo/
 photo.2.tags: bridge, brothers, siblings, twins
 photo.2.tags.1171.location: 135, 155
 photo.2.tags.1172.location: 400, 150
+photo.3: ig://CLD1TJIhWtG/l
+photo.3.author: zookaren
+photo.3.commitdate: 2021/4/22
+photo.3.link: https://www.instagram.com/p/CLD1TJIhWtG/
+photo.3.tags.1171.location: 305, 140
+photo.3.tags.1172.location: 155, 190

@@ -1,0 +1,21 @@
+[panda]
+_id: 1246
+birthday: 2010/6/26
+birthplace: 10
+children: none
+commitdate: 2020/12/13
+death: 2015/1/1
+en.name: Luna
+en.nicknames: none
+en.othernames: Runa
+gender: f
+jp.name: ルナ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: none
+location.1: 10, 2010/6/26
+location.2: 27, 2014/1/7
+species: 2
+studbook.id: 10102
+zoo: 27

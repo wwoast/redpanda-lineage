@@ -79,7 +79,7 @@ Parse.keyword.born_at = {
 /* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
   "cn": ['TOWRITE'],
-  "en": ['author', 'Author', 'credit', 'Credit'],
+  "en": ['author', 'Author', 'credit', 'Credit', 'ask', 'Ask'],
   "jp": ['著者']
 }
 Parse.keyword.dead = {

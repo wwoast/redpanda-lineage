@@ -89,9 +89,9 @@ photo.15.commitdate: 2019/8/22
 photo.15.link: https://www.instagram.com/panda.daisuki/
 photo.15.tags: laying down, paws, portrait, smile, tongue
 photo.16: ig://B1jCgkXARc7/m
-photo.16.author: sunnylettuce_2020
+photo.16.author: sunnylettuce_2021
 photo.16.commitdate: 2019/8/26
-photo.16.link: https://www.instagram.com/sunnylettuce_2020/
+photo.16.link: https://www.instagram.com/sunnylettuce_2021/
 photo.16.tags: laying down, mofumofu, paws, smile
 photo.17: ig://B2ESCOkBDKl/m
 photo.17.author: mifko55
@@ -243,26 +243,66 @@ photo.46.author: eos1089
 photo.46.commitdate: 2020/6/7
 photo.46.link: https://www.instagram.com/eos1089/
 photo.46.tags: laying down, portrait, tongue
-photo.47: ig://CDbTiBPBZML/m
-photo.47.author: ssc6105
-photo.47.commitdate: 2020/11/8
-photo.47.link: https://www.instagram.com/ssc6105/
-photo.47.tags: blink, mofumofu, tail
-photo.48: ig://CFCHUOQBhvC/m
-photo.48.author: fetorus_mami
-photo.48.commitdate: 2020/9/15
-photo.48.link: https://www.instagram.com/fetorus_mami/
-photo.48.tags: dish, paws, smile, whiskers
-photo.49: ig://CGRB3oWBWvy/m
-photo.49.author: ssc6105
-photo.49.commitdate: 2020/10/14
-photo.49.link: https://www.instagram.com/ssc6105/
-photo.49.tags: apple time, paws, smile
-photo.50: ig://CGXWUb6BAvD/m
-photo.50.author: fetorus_mami
-photo.50.commitdate: 2020/11/8
-photo.50.link: https://www.instagram.com/fetorus_mami/
-photo.50.tags: bamboo, bite, portrait, tongue
+photo.47: ig://CDKiMaxBW5y/m
+photo.47.author: panda.daisuki
+photo.47.commitdate: 2020/12/9
+photo.47.link: https://www.instagram.com/panda.daisuki/
+photo.47.tags: climb, paws, portrait, tree
+photo.48: ig://CDbTiBPBZML/m
+photo.48.author: ssc6105
+photo.48.commitdate: 2020/11/8
+photo.48.link: https://www.instagram.com/ssc6105/
+photo.48.tags: blink, mofumofu, tail
+photo.49: ig://CFCHUOQBhvC/m
+photo.49.author: fetorus_mami
+photo.49.commitdate: 2020/9/15
+photo.49.link: https://www.instagram.com/fetorus_mami/
+photo.49.tags: dish, paws, smile, whiskers
+photo.50: ig://CGRB3oWBWvy/m
+photo.50.author: ssc6105
+photo.50.commitdate: 2020/10/14
+photo.50.link: https://www.instagram.com/ssc6105/
+photo.50.tags: apple time, paws, smile
+photo.51: ig://CGXWUb6BAvD/m
+photo.51.author: fetorus_mami
+photo.51.commitdate: 2020/11/8
+photo.51.link: https://www.instagram.com/fetorus_mami/
+photo.51.tags: bamboo, bite, portrait, tongue
+photo.52: ig://CHr0lAVBPsC/m
+photo.52.author: kipekaila
+photo.52.commitdate: 2020/12/9
+photo.52.link: https://www.instagram.com/kipekaila/
+photo.52.tags: paws, peek, portrait
+photo.53: ig://CIQIr6GBT6U/m
+photo.53.author: ssc6105
+photo.53.commitdate: 2020/12/9
+photo.53.link: https://www.instagram.com/ssc6105/
+photo.53.tags: bite, portrait
+photo.54: ig://CIX5UzahshK/m
+photo.54.author: ssc6105
+photo.54.commitdate: 2020/12/25
+photo.54.link: https://www.instagram.com/ssc6105/
+photo.54.tags: mofumofu, tail, tongue
+photo.55: ig://CJ-7B4XBU9g/m
+photo.55.author: redpan22
+photo.55.commitdate: 2021/1/16
+photo.55.link: https://www.instagram.com/redpan22/
+photo.55.tags: laying down, mofumofu, portrait
+photo.56: ig://CNXMctuBelV/m
+photo.56.author: ssc6105
+photo.56.commitdate: 2021/4/29
+photo.56.link: https://www.instagram.com/ssc6105/
+photo.56.tags: paws, smile, whiskers
+photo.57: ig://CN1OjLLhct4/m
+photo.57.author: yakkooo24
+photo.57.commitdate: 2021/5/19
+photo.57.link: https://www.instagram.com/yakkooo24/
+photo.57.tags: nose, portrait, techitechi
+photo.58: ig://CPAcDb4ho2Y/m
+photo.58.author: hamiiiii831_
+photo.58.commitdate: 2021/6/16
+photo.58.link: https://www.instagram.com/hamiiiii831_/
+photo.58.tags: mofumofu, portrait, tongue, whiskers
 species: 2
 studbook.id: unknown
 zoo: 53

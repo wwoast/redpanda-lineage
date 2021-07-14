@@ -1,0 +1,17 @@
+[panda]
+_id: 1292
+birthday: 2021/6/23
+birthplace: 64
+children: none
+commitdate: 2021/7/1
+en.name: Baby
+en.nicknames: none
+en.othernames: Aka-chan
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+zoo: 64

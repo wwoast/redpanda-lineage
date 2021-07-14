@@ -46,7 +46,8 @@ photo.6.tags: baby, door, portrait
 photo.7: ig://B5Oy30_hxIA/m
 photo.7.author: redpanda_nippon_takashi
 photo.7.commitdate: 2019/11/24
-photo.7.link: baby, portrait
+photo.7.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.7.tags: baby, portrait
 photo.8: ig://B5P80BUh6GM/m
 photo.8.author: resapanlove
 photo.8.commitdate: 2019/11/26
@@ -57,74 +58,84 @@ photo.9.author: yossi929
 photo.9.commitdate: 2019/11/28
 photo.9.link: https://www.instagram.com/yossi929/
 photo.9.tags: baby, mofumofu, portrait, tail, tree, upside-down
-photo.10: ig://B5b3ax9h-Sx/m
-photo.10.author: re_ichimaru
-photo.10.commitdate: 2020/9/28
-photo.10.link: https://www.instagram.com/re_ichimaru/
-photo.10.tags: baby, mofumofu, portrait, whiskers
-photo.11: ig://B55JY4VBd-j/m
-photo.11.author: kai.kuniko
-photo.11.commitdate: 2019/12/28
-photo.11.link: https://www.instagram.com/kai.kuniko/
-photo.11.tags: bamboo, laying down, mofumofu, portrait, tail
-photo.12: ig://B5_zb1WBxc1/m
-photo.12.author: mifko55
-photo.12.commitdate: 2020/1/17
-photo.12.link: https://www.instagram.com/mifko55/
-photo.12.tags: baby, climb, portrait, tree
-photo.13: ig://B6A4Rbyhl5V/m
-photo.13.author: re_ichimaru
+photo.10: ig://B5Z-va_BaqQ/m
+photo.10.author: colette.jp
+photo.10.commitdate: 2021/6/13
+photo.10.link: https://www.instagram.com/colette.jp/
+photo.10.tags: baby, home, mofumofu, portrait, standing, tail
+photo.11: ig://B5b3ax9h-Sx/m
+photo.11.author: re_ichimaru
+photo.11.commitdate: 2020/9/28
+photo.11.link: https://www.instagram.com/re_ichimaru/
+photo.11.tags: baby, mofumofu, portrait, whiskers
+photo.12: ig://B55JY4VBd-j/m
+photo.12.author: kai.kuniko
+photo.12.commitdate: 2019/12/28
+photo.12.link: https://www.instagram.com/kai.kuniko/
+photo.12.tags: bamboo, laying down, mofumofu, portrait, tail
+photo.13: ig://B5_zb1WBxc1/m
+photo.13.author: mifko55
 photo.13.commitdate: 2020/1/17
-photo.13.link: https://www.instagram.com/re_ichimaru/
+photo.13.link: https://www.instagram.com/mifko55/
 photo.13.tags: baby, climb, portrait, tree
-photo.14: ig://B7A2I4jhfC_/m
-photo.14.author: kmasahon
-photo.14.commitdate: 2020/1/11
-photo.14.link: https://www.instagram.com/kmasahon/
-photo.14.tags: dish, keeper, paws
-photo.15: ig://B7DPdrABnHn/m
+photo.14: ig://B6A4Rbyhl5V/m
+photo.14.author: re_ichimaru
+photo.14.commitdate: 2020/1/17
+photo.14.link: https://www.instagram.com/re_ichimaru/
+photo.14.tags: baby, climb, portrait, tree
+photo.15: ig://B7A2I4jhfC_/m
 photo.15.author: kmasahon
-photo.15.commitdate: 2020/1/17
+photo.15.commitdate: 2020/1/11
 photo.15.link: https://www.instagram.com/kmasahon/
 photo.15.tags: dish, keeper, paws
-photo.16: ig://B7crPd8hCSn/m
-photo.16.author: re_ichimaru
-photo.16.commitdate: 2020/1/19
-photo.16.link: https://www.instagram.com/re_ichimaru/
-photo.16.tags: autumn, laying down, portrait, smile, tail
-photo.17: ig://B7iU5F-hIPg/m
-photo.17.author: redpanda_nippon_takashi
-photo.17.commitdate: 2020/1/22
-photo.17.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.17.tags: baby, climb, tree
-photo.18: ig://B8ddCSJFJd3/m
-photo.18.author: kipekaila
-photo.18.commitdate: 2020/2/23
-photo.18.link: https://www.instagram.com/kipekaila/
-photo.18.tags: bamboo, mofumofu, portrait
-photo.19: ig://B9Jpfe1hgXe/m
-photo.19.author: satoshi_jimny
-photo.19.commitdate: 2020/4/28
-photo.19.link: https://www.instagram.com/satoshi_jimny/
-photo.19.tags: paws, smile
-photo.20: ig://B9qt9OOBaPi/m
+photo.16: ig://B7DPdrABnHn/m
+photo.16.author: kmasahon
+photo.16.commitdate: 2020/1/17
+photo.16.link: https://www.instagram.com/kmasahon/
+photo.16.tags: dish, keeper, paws
+photo.17: ig://B7crPd8hCSn/m
+photo.17.author: re_ichimaru
+photo.17.commitdate: 2020/1/19
+photo.17.link: https://www.instagram.com/re_ichimaru/
+photo.17.tags: autumn, laying down, portrait, smile, tail
+photo.18: ig://B7iU5F-hIPg/m
+photo.18.author: redpanda_nippon_takashi
+photo.18.commitdate: 2020/1/22
+photo.18.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.18.tags: baby, climb, tree
+photo.19: ig://B8ddCSJFJd3/m
+photo.19.author: kipekaila
+photo.19.commitdate: 2020/2/23
+photo.19.link: https://www.instagram.com/kipekaila/
+photo.19.tags: bamboo, mofumofu, portrait
+photo.20: ig://B9Jpfe1hgXe/m
 photo.20.author: satoshi_jimny
 photo.20.commitdate: 2020/4/28
 photo.20.link: https://www.instagram.com/satoshi_jimny/
-photo.21: ig://CCA688uhRt4/m
-photo.21.author: leonard_redmof
-photo.21.commitdate: 2020/7/24
-photo.21.link: https://www.instagram.com/leonard_redmof/
-photo.21.tags: baby, mofumofu, portrait
-photo.22: ig://CEYQSioBqSb/m
-photo.22.author: grskus_tk
-photo.22.commitdate: 2020/9/3
-photo.22.link: https://www.instagram.com/grskus_tk/
-photo.22.tags: mofumofu, peek, tail, tree
-photo.23: ig://CEfnrVGBH0Y/m
+photo.20.tags: paws, smile
+photo.21: ig://B9qt9OOBaPi/m
+photo.21.author: satoshi_jimny
+photo.21.commitdate: 2020/4/28
+photo.21.link: https://www.instagram.com/satoshi_jimny/
+photo.22: ig://CCA688uhRt4/m
+photo.22.author: leonard_redmof
+photo.22.commitdate: 2020/7/24
+photo.22.link: https://www.instagram.com/leonard_redmof/
+photo.22.tags: baby, mofumofu, portrait
+photo.23: ig://CEYQSioBqSb/m
 photo.23.author: grskus_tk
-photo.23.commitdate: 2020/9/4
+photo.23.commitdate: 2020/9/3
 photo.23.link: https://www.instagram.com/grskus_tk/
-photo.23.tags: apple time, paws, portrait, smile, tail
+photo.23.tags: mofumofu, peek, tail, tree
+photo.24: ig://CEfnrVGBH0Y/m
+photo.24.author: grskus_tk
+photo.24.commitdate: 2020/9/4
+photo.24.link: https://www.instagram.com/grskus_tk/
+photo.24.tags: apple time, paws, portrait, smile, tail
+photo.25: ig://CL-2eKbhp5c/m
+photo.25.author: grskus_tk
+photo.25.commitdate: 2021/3/21
+photo.25.link: https://www.instagram.com/grskus_tk/
+photo.25.tags: smile
 species: 2
 zoo: 40

@@ -17,4 +17,5 @@ litter: none
 location.1: 10, 1990/7/6
 location.2: 1, 1991/10/18
 species: 2
+studbook.id: 9059
 zoo: 1

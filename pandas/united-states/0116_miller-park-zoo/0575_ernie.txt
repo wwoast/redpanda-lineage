@@ -4,6 +4,7 @@ birthday: 2009/7/7
 birthplace: 124
 children: 1127, 1128, 1129
 commitdate: 2019/3/12
+death: 2020/9/1
 en.name: Ernie
 en.nicknames: none
 en.othernames: none
@@ -52,4 +53,5 @@ photo.7.link: https://www.instagram.com/millerparkzoo/
 photo.7.tags: climb, paws, portrait
 species: 1
 studbook.id: 0913
+uncertainty: death exact date (google form info from 9/28/20)
 zoo: 116

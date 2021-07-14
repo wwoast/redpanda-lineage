@@ -54,6 +54,14 @@ Pandas.def.age = {
     "day": "day",
     "days": "days"
   },
+  "es": {
+    "year": "año",
+    "years": "años",
+    "month": "mes",
+    "months": "meses",
+    "day": "día",
+    "days": "días"
+  },
   "jp": {
     "year": "歳",
     "years": "歳",
@@ -69,6 +77,14 @@ Pandas.def.age = {
     "months": "महिना",
     "day": "दिन",
     "days": "दिनहरु"
+  },
+  "pt": {
+    "year": "ano",
+    "years": "anos",
+    "month": "mês",
+    "months": "meses",
+    "day": "dia",
+    "days": "dias"
   }
 }
 
@@ -84,6 +100,9 @@ Pandas.def.animal = {
   "en.name": "Panda Not Found",
   "en.nicknames": "No Nicknames Recorded",
   "en.othernames": "No Alternate Names Recorded",
+  "es.name": "Panda no encontrado",
+  "es.nicknames": "No se registraron apodos",
+  "es.othernames": "No se registraron nombres alternativos",
   "gender": "Unknown",
   "jp.name": "パンダが見つかりませんでした",
   "jp.nicknames": "ニックネームは記録されていません",
@@ -93,6 +112,9 @@ Pandas.def.animal = {
   "np.nicknames": "उपनामहरू फेला परेन",
   "np.othernames": "अरु नामहरु फेला परेन",
   "photo.1": "images/no-panda-portrait.jpg",
+  "pt.name": "Panda não encontrado",
+  "pt.nicknames": "Nenhum apelido registrado",
+  "pt.othernames": "Nenhum nome alternativo registrado",
   "species": "-1",
   "video.1": "images/no-panda-portrait.jpg",
   "zoo": "0"
@@ -101,16 +123,20 @@ Pandas.def.animal = {
 Pandas.def.date = {
   "cn": "YYYY-MM-DD",
   "en": "MM/DD/YYYY",
+  "es": "DD/MM/YYYY",
   "jp": "YYYY年MM月DD日",
   "np": "YYYY-MM-DD",
+  "pt": "DD/MM/YYYY",
   "earliest_year": "1970"
 }
 
 Pandas.def.date_season = {
   "cn": "SEASON YYYY",
   "en": "SEASON YYYY",
+  "es": "SEASON YYYY",
   "jp": "SEASON YYYY",
   "np": "SEASON YYYY",
+  "pt": "SEASON YYYY",
   "earliest_year": "1970"
 }
 
@@ -118,14 +144,18 @@ Pandas.def.gender = {
   "Female": {
     "cn": "女",
     "en": "female",
+    "es": "hembra",
     "jp": "メス",
-    "np": "महिला"
+    "np": "महिला",
+    "pt": "fêmea"
   },
   "Male": {
     "cn": "男",
     "en": "male",
+    "es": "macho",
     "jp": "オス",
-    "np": "नर"
+    "np": "नर",
+    "pt": "macho"
   }
 }
 
@@ -133,8 +163,10 @@ Pandas.def.gender = {
 Pandas.def.no_name = {
   "cn": "不明",
   "en": "Unknown",
+  "es": "Desconocido",
   "jp": "未詳",
-  "np": "अज्ञात"
+  "np": "अज्ञात",
+  "pt": "Desconhecido(a)"
 }
 
 // Missing or undescribed authors
@@ -142,14 +174,18 @@ Pandas.def.authors = {
   "anonymous": {
     "cn": "匿名",
     "en": "anonymous",
+    "es": "anónimo",
     "jp": "匿名",
-    "np": "बेनामी" 
+    "np": "बेनामी",
+    "pt": "anônimo"
   },
   "uncredited": {
     "cn": "沒有信用",
     "en": "uncredited",
+    "es": "sin acreditar",
     "jp": "信用されていない",
-    "np": "अप्रत्याशित"
+    "np": "अप्रत्याशित",
+    "pt": "não creditado"
   }
 }
 
@@ -162,7 +198,9 @@ Pandas.def.languages = {
   "en": "en",
   "ja": "jp",
   "zh": "cn",
-  "ne": "np"
+  "ne": "np",
+  "es": "es",
+  "pt": "pt"
 }
 
 // Character ranges
@@ -190,92 +228,122 @@ Pandas.def.relations = {
   "aunt": {
     "cn": "姑媽",
     "en": "aunt",
+    "es": "tía",
     "jp": "叔母",
-    "np": "काकी"
+    "np": "काकी",
+    "pt": "tia"
   },
   "brother": {
     "cn": "兄",
     "en": "brother",
+    "es": "hermano",
     "jp": "兄",
-    "np": "भाई"
+    "np": "भाई",
+    "pt": "irmão"
   },
   "children": {
     "cn": "孩子",
     "en": "children",
+    "es": "niños",
     "jp": "子供",
-    "np": "बच्चाहरु"
+    "np": "बच्चाहरु",
+    "pt": "filhos(as)"
   },
   "cousin": {
     "cn": "表姐",
     "en": "cousin",
+    "es": "primo",
     "jp": "いとこ",
-    "np": "भान्जा"
+    "np": "भान्जा",
+    "pt": "primo(a)"
   },
   "father": {
     "cn": "父",
     "en": "father",
+    "es": "padre",
     "jp": "父",
-    "np": "बुबा"
+    "np": "बुबा",
+    "pt": "pai"
   },
   "grandfather": {
     "cn": "祖父",
     "en": "grandfather",
+    "es": "abuelo",
     "jp": "おじいちゃん",
-    "np": "हजुरबुबा"
+    "np": "हजुरबुबा",
+    "pt": "avô"
   },
   "grandmother": {
     "cn": "祖母",
     "en": "grandmother",
+    "es": "abuela",
     "jp": "おばあちゃん",
-    "np": "हजुरआमा"
+    "np": "हजुरआमा",
+    "pt": "avó"
   },
   "litter": {
     "cn": "轿子",
     "en": "litter",
+    "es": "camada",
     "jp": "双子",   /* "同腹仔" */
-    "np": "रोटी"
+    "np": "रोटी",
+    "pt": "ninhada"
   },
   "mother": {
     "cn": "母",
     "en": "mother",
+    "es": "madre",
     "jp": "母",
-    "np": "आमा"
+    "np": "आमा",
+    "pt": "mãe"
   },
   "nephew": {
     "cn": "外甥",
     "en": "nephew",
+    "es": "sobrino",
     "jp": "甥",
-    "np": "भतिजा"
+    "np": "भतिजा",
+    "pt": "sobrinho"
   },
   "niece": {
     "cn": "侄女",
     "en": "niece",
+    "es": "sobrina",
     "jp": "姪",
-    "np": "भान्जी" 
+    "np": "भान्जी",
+    "pt": "sobrinha"
   },
   "parents": {
     "cn": "父母",
     "en": "parents",
+    "es": "padres",
     "jp": "両親",
-    "np": "अभिभावक"
+    "np": "अभिभावक",
+    "pt": "pais"
   },
   "sister": {
     "cn": "妹妹",
     "en": "sister",
+    "es": "hermana",
     "jp": "姉",
-    "np": "बहिनी"
+    "np": "बहिनी",
+    "pt": "irmã"
   },
   "siblings": {
     "cn": "兄弟姐妹",
     "en": "siblings",
+    "es": "hermanos",
     "jp": "兄弟",
-    "np": "भाइबहिनीहरू"
+    "np": "भाइबहिनीहरू",
+    "pt": "irmãos(ãs)"
   },
   "uncle": {
     "cn": "叔叔",
     "en": "uncle",
+    "es": "tío",
     "jp": "叔父",
-    "np": "काका"
+    "np": "काका",
+    "pt": "tio"
   }
 }
 
@@ -290,6 +358,11 @@ Pandas.def.species = {
     "Ailurus fulgens styani",
     "Ailurus fulgens"
   ],
+  "es": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
+  ],
   "jp": [
     "西レッサーパンダ",
     "シセンレッサーパンダ",
@@ -299,14 +372,21 @@ Pandas.def.species = {
     "Ailurus fulgens fulgens",
     "Ailurus fulgens styani",
     "Ailurus fulgens"
+  ],
+  "pt": [
+    "Ailurus fulgens fulgens",
+    "Ailurus fulgens styani",
+    "Ailurus fulgens"
   ]
 }
 
 Pandas.def.unknown = {
   "cn": "不明",
   "en": "unknown",
+  "es": "desconocido",
   "jp": "未詳",
-  "np": "अज्ञात"
+  "np": "अज्ञात",
+  "pt": "desconhecido"
 }
 
 // Slightly different default zoo listing, to account for wild-born animals
@@ -318,6 +398,9 @@ Pandas.def.wild = {
   "en.address": "Captured or Rescued Wild Animal",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
+  "es.address": "Animal Salvaje Capturado o Rescatado",
+  "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
+  "es.name": "Zoo No Encontrado",
   "jp.address": "TOWRITE",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
@@ -325,6 +408,9 @@ Pandas.def.wild = {
   "np.location": "कुनै स्थान जानकारी छैन",
   "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
+  "pt.address": "Animal selvagem capturado ou resgatado",
+  "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
+  "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
@@ -338,6 +424,9 @@ Pandas.def.zoo = {
   "en.address": "No Google Maps Address Recorded",
   "en.location": "No City, District, or State Info Listed",
   "en.name": "Zoo Not Found",
+  "es.address": "No Se Registró Ninguna Dirección de Google Maps",
+  "es.location": "No Se Incluye Información de Ciudad, Distrito o Estado",
+  "es.name": "Zoo No Encontrado",
   "jp.address": "Googleマップのアドレスが記録されていません",
   "jp.location": "市区町村の情報が表示されていない",
   "jp.name": "動物園が見つかりません",
@@ -345,6 +434,9 @@ Pandas.def.zoo = {
   "np.location": "कुनै स्थान जानकारी छैन",
   "np.name": "चिडियाखाना फेला परेन",
   "photo.1": "images/no-zoo.jpg",
+  "pt.address": "Nenhum endereço do Google Maps registrado",
+  "pt.location": "Nenhuma informação de cidade, distrito ou estado listada",
+  "pt.name": "Zoológico não encontrado",
   "video.1": "images/no-zoo.jpg",
   "website": "https://www.worldwildlife.org/"
 }
@@ -501,6 +593,14 @@ Pandas.prngHash = n=>
 // Get random items from the array, trying our best not to 
 // select the same item more than once.
 Pandas.randomChoice = function(array, count) {
+  // Logic to handle small arrays
+  if (array.length <= 1) {
+    return array;
+  }
+  // Logic to handle when asking for too many items
+  if (array.length < count) {
+    count = array.length;
+  }
   return Pandas.randomChoiceSeed(array, undefined, count);
 }
 
@@ -601,7 +701,7 @@ Pandas.searchBabies = function(year) {
 // Find all pandas born today, given parameters:
 //   keep_living: panda must still be alive
 //   photo_count: panda must have at least this many photos
-Pandas.searchBirthday = function(keep_living=true, photo_count=20) {
+Pandas.searchBirthdayToday = function(keep_living=true, photo_count=20) {
   var today = new Date();
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
@@ -620,6 +720,117 @@ Pandas.searchBirthday = function(keep_living=true, photo_count=20) {
   }).run();
   return Pandas.sortOldestToYoungest(nodes);
 }
+
+// Return ids for any panda that has photos, whose birthday it is,
+// and who has litter mates with the exact same birthday.
+Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
+  var today = new Date();
+  var litter_ids = G.v().filter(function(vertex) {
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == today.getDate()) &&
+            (birthday.getMonth() == today.getMonth()));
+  }).filter(function(vertex) {
+    if (photo_count > 0) {
+      return vertex["photo." + photo_count] != undefined;
+    }
+  }).in("litter").filter(function(vertex) {
+    // Litter mates for this search must have the exact same
+    // birthday as today. Sometimes they're born a day apart
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == today.getDate()) &&
+            (birthday.getMonth() == today.getMonth()));
+  }).filter(function(vertex) {
+    // Filter out any animals in litters are passed away
+    if (keep_living == true) {
+      return (vertex.death == undefined);
+    } else {
+      return true;   // Get everyone
+    }        
+  }).run().map(x => x._id);
+  litter_ids = Pandas.distinct(litter_ids);
+  return litter_ids;
+}
+
+// Find all pandas born today, given parameters:
+//   keep_living: panda must still be alive
+//   photo_count: panda must have at least this many photos
+//   max_count: get a random sample of birthdays
+// Bias towards pandas with littermates in this random sample,
+// so if a panda appears in the set, so will its littermates.
+Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max_count=5) {
+  var initial_set = Pandas.searchBirthdayToday(keep_living, photo_count);
+  var initial_ids = Pandas.shuffle(initial_set.map(x => x._id));
+  var litter_ids = Pandas.searchBirthdayLitterIds(keep_living, photo_count);
+  // Find all pandas we can remove from the random sample,
+  // for not having any litter mates
+  var has_litters = initial_ids.filter(function(x) {
+    return litter_ids.indexOf(x) !== -1;
+  });
+  var no_litters = initial_ids.filter(function(x) {
+    return litter_ids.indexOf(x) == -1;
+  });
+  has_litters = Pandas.distinct(has_litters);
+  // Get the id of a single animal that has a litter born on
+  // this date, and include them all in the output. Have fallbacks
+  // in case we don't have any litter birthdays
+  var chosen_year = -1;
+  var chosen_id = -1;
+  var chosen_litter_ids = [];
+  if (has_litters.length > 0) {
+    chosen_id = Pandas.randomChoice(has_litters, 1)[0];
+    var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
+    chosen_litter_ids = Pandas.searchLitter(chosen_id)
+      .filter(function(x) {
+        return x.birthday = chosen_animal.birthday;
+      }).filter(function(vertex) {
+        // Filter out any animals in litters are passed away
+        if (keep_living == true) {
+          return (vertex.death == undefined);
+        } else {
+          return true;   // Get everyone
+        }        
+      }).map(x => x._id);
+    chosen_litter_ids.unshift(chosen_id);
+    chosen_year = parseInt(chosen_animal.birthday.split("/")[0]);
+  }
+  // Insert the litter mate into the list next to their sibling.
+  var s2_ids = [];
+  var after_litter = [];
+  var remaining_count = max_count - chosen_litter_ids.length;
+  if (no_litters.length < remaining_count) {
+    // Don't display a birthday panda unless it can be with their
+    // litter-mate. We could backfill the no_litters with litter 
+    // pandas, but it means litter mates wouldn't be shown
+    remaining_count = no_litters.length;
+  }
+  // Add animals from the no-litter list
+  for (var i = 0; i < remaining_count; i++) {
+    var current_id = no_litters[i];
+    var current_year = parseInt(Pandas.searchPandaId(current_id)[0].birthday.split("/")[0]);
+    if (current_year <= chosen_year) {
+      s2_ids.unshift(current_id);      
+    } else if ((current_year == chosen_year) && 
+         s2_ids.indexOf(chosen_id) == -1) {
+      s2_ids = s2_ids.concat(chosen_litter_ids);
+      s2_ids.unshift(current_id);
+    } else {
+      after_litter.unshift(current_id);
+    }
+  }
+  // Add back the litter members if they're not there
+  if (s2_ids.indexOf(chosen_id) == -1) {
+    s2_ids = s2_ids.concat(chosen_litter_ids);
+  }
+  // Add back animals younger than the displayed litter
+  if (after_litter.length > 0) {
+    s2_ids = s2_ids.concat(after_litter);
+  }
+  var final_animals = s2_ids.map(x => Pandas.searchPandaId(x)[0]);
+  // Good enough for year sort
+  final_animals = Pandas.sortByName(final_animals, "birthday");
+  return final_animals;
+}
+
 
 // Find all pandas that died within a calendar year.
 Pandas.searchDead = function(year) {
@@ -717,7 +928,7 @@ Pandas.searchPandaNameFields = function(input, name_fields=undefined) {
     }
     for (let field of collected_fields) {
       if (animal[field] != undefined) {
-        name_list = animal[field].split(',').map(x => x.trim());
+        name_list = animal[field].split(", ");
         for (let wanted of inputs) {
           if (name_list.indexOf(wanted) != -1) {
             return animal;
@@ -797,9 +1008,7 @@ Pandas.searchPandaMedia = function(query, only_media=false) {
       // searchPanda list.
       var nodes = G.v().filter(function(vertex) {
         if (Object.keys(vertex).indexOf("panda.tags") != -1) {
-          return vertex["panda.tags"].split(",")
-                     .map(x => x.trim())
-                     .indexOf(id) != -1;
+          return vertex["panda.tags"].split(", ").indexOf(id) != -1;
         }
       }).run();
       return nodes;
@@ -821,8 +1030,7 @@ Pandas.searchPandaMediaIntersect = function(id_list) {
   // searchPanda list.
   var nodes = G.v().filter(function(vertex) {
     if (Object.keys(vertex).indexOf("panda.tags") != -1) {
-      var panda_tags = vertex["panda.tags"].split(",")
-                         .map(x => x.trim());
+      var panda_tags = vertex["panda.tags"].split(", ");
       return Pandas.arrayContentsEqual(id_list, panda_tags);
     }
   }).run();
@@ -862,7 +1070,7 @@ Pandas.searchPandaPhotoTagsIntersect = function(animal, tags) {
     if (animal[photo_tags] == undefined) {
       continue;
     }
-    var photo_tag_list = animal[photo_tags].split(",").map(x => x.trim());
+    var photo_tag_list = animal[photo_tags].split(", ");
     // Is the search tag list a subset of the photo_tag_list
     var contains = !(tags.some(val => photo_tag_list.indexOf(val) === -1));
     if (contains == true) {
@@ -899,7 +1107,7 @@ Pandas.searchPandaPhotoTagsUnion = function(animal, tags, mode) {
       if (animal[photo_tags] == undefined) {
         continue;
       }
-      if (animal[photo_tags].split(",").map(x => x.trim()).indexOf(tag) != -1) {
+      if (animal[photo_tags].split(", ").indexOf(tag) != -1) {
         if (mode == "animal") {
           return [animal];
         } else {
@@ -1303,8 +1511,13 @@ Pandas.searchPhotoTags = function(animal_list, tags, mode, fallback) {
       set = Pandas.searchPandaPhotoTagsIntersect(animal, tags);
     }
     if (fallback == "first") {
+      // Fallback to profile photo if possible
       if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
         set = [Pandas.profilePhoto(animal, "1")];
+      }
+      // If no profile photo either, return empty set
+      if ((set.length == 1) && (Object.values(Pandas.def.unknown).indexOf(set[0]["photo.author"]) != -1)) {
+        set = [];
       }
     }
     output = output.concat(set);
@@ -1662,13 +1875,13 @@ Pandas.gender = function(animal, language) {
 // pandas are in the photo.
 Pandas.groupMediaCaption = function(entity, photo_index) {
   var tag_index = photo_index + ".tags";
-  var pandaTags = entity["panda.tags"].replace(/ /g, "").split(",");
+  var pandaTags = entity["panda.tags"].split(", ");
   var output_string = Pandas.def.animal[L.display + ".name"];
   var animals = [];
   for (let id of pandaTags) {
     // Must be a numeric non-negative panda ID
     var panda = Pandas.searchPandaId(id)[0];
-    var [x, y] = entity[tag_index + "." + id + ".location"].replace(/ /g, "").split(",");
+    var [x, y] = entity[tag_index + "." + id + ".location"].split(", ");
     var name = Language.fallback_name(panda);
     var info = {
       "name": name,
@@ -1777,7 +1990,7 @@ Pandas.language_order = function(entity) {
   if (ordering == undefined) {
     return Language.L.default.order;
   } else {
-    return ordering.replace(/ /g, "").split(',');
+    return ordering.split(", ");
   }
 }
 
@@ -1791,14 +2004,14 @@ Pandas.locationList = function(animal) {
     var next_field = field_name + "." + (parseInt(index) + 1).toString();
     var end_date = undefined;
     if (animal[next_field] != undefined) {
-      var [_, next_start] = animal[next_field].split(",").map(x => x.trim());
+      var [_, next_start] = animal[next_field].split(", ");
       end_date = next_start;
     } else {
       if (animal["death"] != undefined) {
         end_date = animal["death"];
       }
     }
-    var [zoo_index, start_date]= animal[location_field].split(",").map(x => x.trim());
+    var [zoo_index, start_date]= animal[location_field].split(", ");
     // If there was a wild animal, fill in defaults for the dates
     if (zoo_index == 0) {
       start_date = Pandas.def.animal["birthday"];

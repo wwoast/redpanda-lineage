@@ -76,7 +76,7 @@ photo.12.commitdate: 2018/11/25
 photo.12.link: https://www.instagram.com/ifumoto88/
 photo.12.tags: laying down
 photo.13: ig://Bw1rZ5nl6Hq/m
-photo.13.author: sakikukeko
+photo.13.author: sakikukeco
 photo.13.commitdate: 2019/6/1
 photo.13.link: https://www.instagram.com/sakikukeco/
 photo.13.tags: tongue
@@ -125,6 +125,36 @@ photo.22.author: itsuak
 photo.22.commitdate: 2020/9/4
 photo.22.link: https://www.instagram.com/itsuak/
 photo.22.tags: laying down, mofumofu, portrait
+photo.23: ig://CKB3qYTBJgF/m
+photo.23.author: itsuak
+photo.23.commitdate: 2021/1/16
+photo.23.link: https://www.instagram.com/itsuak/
+photo.23.tags: lips, paws, portrait
+photo.24: ig://CKDydRuBuH-/m
+photo.24.author: na.mo.pan
+photo.24.commitdate: 2021/1/22
+photo.24.link: https://www.instagram.com/na.mo.pan/
+photo.24.tags: apple time, mofumofu, paws, portrait, smile
+photo.25: ig://CKOuzCFg6Vy/m
+photo.25.author: itsuak
+photo.25.commitdate: 2021/2/2
+photo.25.link: https://www.instagram.com/itsuak/
+photo.25.tags: bamboo, mofumofu, peek, portrait
+photo.26: ig://CKWaC4thL6a/m
+photo.26.author: itsuak
+photo.26.commitdate: 2021/2/2
+photo.26.link: https://www.instagram.com/itsuak/
+photo.26.tags: mofumofu, portrait
+photo.27: ig://CLJxsqyB_Cg/m
+photo.27.author: itsuak
+photo.27.commitdate: 2021/2/16
+photo.27.link: https://www.instagram.com/itsuak/
+photo.27.tags: mofumofu, portrait
+photo.28: ig://CQ3wFpKhL70/m
+photo.28.author: itsuak
+photo.28.commitdate: 2021/7/13
+photo.28.link: https://www.instagram.com/itsuak/
+photo.28.tags: climb, paws, portrait, smile
 species: 2
 studbook.id: 0664
 zoo: 15

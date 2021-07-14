@@ -372,7 +372,8 @@ photo.72.tags: laying down, portrait
 photo.73: ig://Bvv_UxxFcrF/m
 photo.73.author: rie_panda55
 photo.73.commitdate: 2019/4/3
-photo.73.link: apple time, keeper
+photo.73.link: https://www.instagram.com/rie_panda55/
+photo.73.tags: apple time, keeper
 photo.74: ig://Bvx3P30FFn2/m
 photo.74.author: hidehaya_biei
 photo.74.commitdate: 2019/4/5
@@ -546,9 +547,9 @@ photo.108.commitdate: 2019/10/12
 photo.108.link: https://www.instagram.com/resapan.suki/
 photo.108.tags: portrait, smile
 photo.109: ig://B3R0ywLgE0l/m
-photo.109.author: sunnylettuce_2020
+photo.109.author: sunnylettuce_2021
 photo.109.commitdate: 2019/10/6
-photo.109.link: https://www.instagram.com/sunnylettuce_2020/
+photo.109.link: https://www.instagram.com/sunnylettuce_2021/
 photo.109.tags: bridge, laying down, mofumofu
 photo.110: ig://B3UEuJ6gBMJ/m
 photo.110.author: miis_98
@@ -563,7 +564,8 @@ photo.111.tags: bridge, mofumofu, techitechi, whiskers
 photo.112: ig://B4ZqmyyBp0r/m
 photo.112.author: pink.b22
 photo.112.commitdate: 2019/12/7
-photo.112.link: air tasting, laying down, portrait, tongue, whiskers
+photo.112.link: https://www.instagram.com/pink.b22/
+photo.112.tags: air tasting, laying down, portrait, tongue, whiskers
 photo.113: ig://B4b_TI2hojL/m
 photo.113.author: sasapan34
 photo.113.commitdate: 2019/11/5
@@ -734,36 +736,91 @@ photo.146.author: pink.b22
 photo.146.commitdate: 2020/8/29
 photo.146.link: https://www.instagram.com/pink.b22/
 photo.146.tags: blink, bridge, laying down, paws, yawn
-photo.147: ig://CFrnR7hhTOp/m
-photo.147.author: resapan.suki
-photo.147.commitdate: 2020/11/19
-photo.147.link: https://www.instagram.com/resapan.suki/
-photo.147.tags: blink, bridge, laying down, paws, tongue
-photo.148: ig://CF0XEhPhqDk/m
-photo.148.author: tetusara.ki_
-photo.148.commitdate: 2020/10/2
-photo.148.link: https://www.instagram.com/tetusara.ki_/
-photo.148.tags: laying down, mofumofu, portrait, tongue
-photo.149: ig://CHIFTeFBeCg/m
-photo.149.author: pink.b22
-photo.149.commitdate: 2020/11/7
-photo.149.link: https://www.instagram.com/pink.b22/
-photo.149.tags: bamboo, portrait, smile, whiskers
-photo.150: ig://CHJT892hv61/m
-photo.150.author: tetusara.ki_
-photo.150.commitdate: 2020/11/5
-photo.150.link: https://www.instagram.com/tetusara.ki_/
-photo.150.tags: portrait, smile, techitechi
-photo.151: ig://CHL3UNiBu8X/m
+photo.147: ig://CFUH0GghQ5N/m
+photo.147.author: kotume4935
+photo.147.commitdate: 2021/2/28
+photo.147.link: https://www.instagram.com/kotume4935/
+photo.147.tags: bridge, laying down, peek, portrait
+photo.148: ig://CFrnR7hhTOp/m
+photo.148.author: resapan.suki
+photo.148.commitdate: 2020/11/19
+photo.148.link: https://www.instagram.com/resapan.suki/
+photo.148.tags: blink, bridge, laying down, paws, tongue
+photo.149: ig://CF0XEhPhqDk/m
+photo.149.author: tetusara.ki_
+photo.149.commitdate: 2020/10/2
+photo.149.link: https://www.instagram.com/tetusara.ki_/
+photo.149.tags: laying down, mofumofu, portrait, tongue
+photo.150: ig://CHIFTeFBeCg/m
+photo.150.author: pink.b22
+photo.150.commitdate: 2020/11/7
+photo.150.link: https://www.instagram.com/pink.b22/
+photo.150.tags: bamboo, portrait, smile, whiskers
+photo.151: ig://CHJT892hv61/m
 photo.151.author: tetusara.ki_
-photo.151.commitdate: 2020/11/11
+photo.151.commitdate: 2020/11/5
 photo.151.link: https://www.instagram.com/tetusara.ki_/
-photo.151.tags: bridge, paws, peek, portrait, techitechi
-photo.152: ig://CHfKnrwBzSJ/m
-photo.152.author: pink.b22
-photo.152.commitdate: 2020/11/25
-photo.152.link: https://www.instagram.com/pink.b22/
-photo.152.tags: lunch time, mofumofu, paws, portrait, tongue
+photo.151.tags: portrait, smile, techitechi
+photo.152: ig://CHL3UNiBu8X/m
+photo.152.author: tetusara.ki_
+photo.152.commitdate: 2020/11/11
+photo.152.link: https://www.instagram.com/tetusara.ki_/
+photo.152.tags: bridge, paws, peek, portrait, techitechi
+photo.153: ig://CHfKnrwBzSJ/m
+photo.153.author: pink.b22
+photo.153.commitdate: 2020/11/25
+photo.153.link: https://www.instagram.com/pink.b22/
+photo.153.tags: lunch time, mofumofu, paws, portrait, tongue
+photo.154: ig://CIx1CpHhkp5/m
+photo.154.author: pink.b22
+photo.154.commitdate: 2021/1/13
+photo.154.link: https://www.instagram.com/pink.b22/
+photo.154.tags: laying down, mofumofu, portrait
+photo.155: ig://CJIOz7kB5Nx/m
+photo.155.author: tetusara.ki_
+photo.155.commitdate: 2021/1/13
+photo.155.link: https://www.instagram.com/tetusara.ki_/
+photo.155.tags: air tasting, mofumofu, portrait, tongue
+photo.156: ig://CJo6Wq7BCKr/m
+photo.156.author: kotume4935
+photo.156.commitdate: 2021/2/28
+photo.156.link: https://www.instagram.com/kotume4935/
+photo.156.tags: portrait, smile
+photo.157: ig://CKqbc6lBiUz/m
+photo.157.author: pink.b22
+photo.157.commitdate: 2021/1/30
+photo.157.link: https://www.instagram.com/pink.b22/
+photo.157.tags: paws, peek, portrait
+photo.158: ig://CMDdMLVBh2e/m
+photo.158.author: pink.b22
+photo.158.commitdate: 2021/3/28
+photo.158.link: https://www.instagram.com/pink.b22/
+photo.158.tags: mofumofu, portrait, whiskers
+photo.159: ig://CMVeu3yhgty/m
+photo.159.author: pink.b22
+photo.159.commitdate: 2021/4/11
+photo.159.link: https://www.instagram.com/pink.b22/
+photo.159.tags: air tasting, peek, portrait, tongue
+photo.160: ig://CN9opg9hqAf/m
+photo.160.author: pink.b22
+photo.160.commitdate: 2021/5/19
+photo.160.link: https://www.instagram.com/pink.b22/
+photo.160.tags: paws, peek, portrait, whiskers
+photo.161: ig://CN-BBRQB0Wz/m
+photo.161.author: redpan22
+photo.161.commitdate: 2021/5/20
+photo.161.link: https://www.instagram.com/redpan22/
+photo.161.tags: peek, tongue, whiskers
+photo.162: ig://COBoftCBdf-/m
+photo.162.author: pink.b22
+photo.162.commitdate: 2021/5/20
+photo.162.link: https://www.instagram.com/pink.b22/
+photo.162.tags: mofumofu, portrait, smile, whiskers
+photo.163: ig://CPN3kj3B5pd/m
+photo.163.author: happy_love2.15
+photo.163.commitdate: 2021/7/7
+photo.163.link: https://www.instagram.com/happy_love2.15/
+photo.163.tags: baby, bamboo, mofumofu, portrait
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k

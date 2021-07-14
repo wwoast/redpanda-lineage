@@ -1,0 +1,531 @@
+[panda]
+_id: 130
+birthday: 2012/7/28
+birthplace: 6
+children: none
+commitdate: 2018/6/27
+en.name: Ichigo
+en.nicknames: Strawberry-chan
+en.othernames: none
+gender: f
+jp.name: イチゴ
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 69
+location.1: 6, 2012/7/28
+location.2: 12, 2015/12/17
+location.3: 38, 2020/12/8
+photo.1: ig://BN1XY65DkMD/m
+photo.1.author: minatomirai215
+photo.1.commitdate: 2020/11/28
+photo.1.link: https://www.instagram.com/minatomirai215/
+photo.1.tags: paws, window
+photo.2: ig://BVKUvegAlcv/m
+photo.2.author: mifko55
+photo.2.commitdate: 2020/11/28
+photo.2.link: https://www.instagram.com/mifko55/
+photo.2.tags: laying down, long-tongue, portrait, tongue
+photo.3: ig://BVR8f2egELB/m
+photo.3.author: mifko55
+photo.3.commitdate: 2020/11/28
+photo.3.link: https://www.instagram.com/mifko55/
+photo.3.tags: close-up, itchy, paws, portrait
+photo.4: ig://BW12_XVAXp7/m
+photo.4.author: minatomirai215
+photo.4.commitdate: 2020/11/28
+photo.4.link: https://www.instagram.com/minatomirai215/
+photo.4.tags: keeper, paws, portrait, standing
+photo.5: ig://Bf3E5zwheIQ/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2020/3/9
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: apple time, keeper, paws, portrait
+photo.6: ig://BgqhT22BVKM/m
+photo.6.author: minatomirai215
+photo.6.commitdate: 2019/7/28
+photo.6.link: https://www.instagram.com/minatomirai215/
+photo.6.tags: bamboo, home, paws, standing, wet
+photo.7: ig://Bg-MfDqhDCA/m
+photo.7.author: minatomirai215
+photo.7.commitdate: 2018/7/20
+photo.7.link: https://www.instagram.com/minatomirai215/
+photo.7.tags: keeper
+photo.8: ig://Bi6Qy5RlXN2/m
+photo.8.author: minatomirai215
+photo.8.commitdate: 2018/7/20
+photo.8.link: https://www.instagram.com/minatomirai215/
+photo.8.tags: air tasting, portrait, tongue, tree
+photo.9: ig://BjRujrJlgSl/m
+photo.9.author: hanamaru_redpanda
+photo.9.commitdate: 2019/7/28
+photo.9.link: https://www.instagram.com/hanamaru_redpanda/
+photo.9.tags: apple time, portrait, shedding
+photo.10: ig://Bk7kNlPFK5V/m
+photo.10.author: minatomirai215
+photo.10.commitdate: 2019/7/28
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: apple time, bamboo, portrait, tanabata
+photo.11: ig://BmJ-tELl69p/m
+photo.11.author: kotata_513
+photo.11.commitdate: 2019/7/28
+photo.11.link: https://www.instagram.com/kotata_513/
+photo.11.tags: apple time, paws
+photo.12: ig://Bmm1StOlkjn/m
+photo.12.author: minatomirai215
+photo.12.commitdate: 2019/7/28
+photo.12.link: https://www.instagram.com/minatomirai215/
+photo.12.tags: door, paws, portrait
+photo.13: ig://BpKOiwGlewj/m
+photo.13.author: minatomirai215
+photo.13.commitdate: 2018/10/21
+photo.13.link: https://www.instagram.com/minatomirai215/
+photo.13.tags: apple time, paws, standing
+photo.14: ig://BqoAQ5Xl_yK/m
+photo.14.author: minatomirai215
+photo.14.commitdate: 2018/11/26
+photo.14.link: https://www.instagram.com/minatomirai215/
+photo.14.tags: apple time, standing
+photo.15: ig://BrVEVGRlyxG/m
+photo.15.author: framereim
+photo.15.commitdate: 2018/12/14
+photo.15.link: https://www.instagram.com/framereim/
+photo.15.tags: tongue
+photo.16: ig://BsK1EUUFkCR/m
+photo.16.author: minatomirai215
+photo.16.commitdate: 2019/1/3
+photo.16.link: https://www.instagram.com/minatomirai215/
+photo.16.tags: tail, tree, wet
+photo.17: ig://Bs4eLNklHF-/m
+photo.17.author: kipekaila
+photo.17.commitdate: 2019/1/24
+photo.17.link: https://www.instagram.com/kipekaila/
+photo.17.tags: bamboo, tail
+photo.18: ig://BuIMou0liPh/m
+photo.18.author: tabechum
+photo.18.commitdate: 2019/3/2
+photo.18.link: https://www.instagram.com/tabechum/
+photo.18.tags: paws, standing
+photo.19: ig://BuPFInkFjAv/m
+photo.19.author: minatomirai215
+photo.19.commitdate: 2021/3/21
+photo.19.link: https://www.instagram.com/minatomirai215/
+photo.19.tags: paws, standing
+photo.20: ig://BudH_5mFA0I/m
+photo.20.author: tabechum
+photo.20.commitdate: 2019/3/9
+photo.20.link: https://www.instagram.com/tabechum/
+photo.20.tags: apple time, standing
+photo.21: ig://BwhHykkFCY9/m
+photo.21.author: ck.chie
+photo.21.commitdate: 2019/4/23
+photo.21.link: https://www.instagram.com/ck.chie/
+photo.21.tags: keeper, paws
+photo.22: ig://BxQ91sDF6NV/m
+photo.22.author: minatomirai215
+photo.22.commitdate: 2019/5/10
+photo.22.link: https://www.instagram.com/minatomirai215/
+photo.22.tags: laying down, tree
+photo.23: ig://Bxqop35lxyO/m
+photo.23.author: minatomirai215
+photo.23.commitdate: 2019/5/21
+photo.23.link: https://www.instagram.com/minatomirai215/
+photo.23.tags: sleeping
+photo.24: ig://Bx1iHz5FWFP/m
+photo.24.author: pantasanzoo1
+photo.24.commitdate: 2019/5/30
+photo.24.link: https://www.instagram.com/pantasanzoo1/
+photo.24.tags: bamboo, paws, standing
+photo.25: ig://ByJXYOtBIlb/m
+photo.25.author: tabechum
+photo.25.commitdate: 2019/6/1
+photo.25.link: https://www.instagram.com/tabechum/
+photo.25.tags: keeper, paws
+photo.26: ig://Bz2k2xrBbsz/m
+photo.26.author: minatomirai215
+photo.26.commitdate: 2019/7/14
+photo.26.link: https://www.instagram.com/minatomirai215/
+photo.26.tags: laying down, mofumofu, tail
+photo.27: ig://B0daB9ZByhY/m
+photo.27.author: pantasanzoo1
+photo.27.commitdate: 2019/7/28
+photo.27.link: https://www.instagram.com/pantasanzoo1/
+photo.27.tags: apple time, keeper
+photo.28: ig://B0gCf2OBdk7/m
+photo.28.author: minatomirai215
+photo.28.commitdate: 2020/11/28
+photo.28.link: https://www.instagram.com/minatomirai215/
+photo.28.tags: air tasting, laying down, paws, portrait, tongue
+photo.29: ig://B0gN1oMhFdo/m
+photo.29.author: pantasanzoo1
+photo.29.commitdate: 2019/7/31
+photo.29.link: https://www.instagram.com/pantasanzoo1/
+photo.29.tags: laying down, sleeping, tongue
+photo.30: ig://B0hFrHSBcLj/m
+photo.30.author: pantasanzoo1
+photo.30.commitdate: 2019/7/31
+photo.30.link: https://www.instagram.com/pantasanzoo1/
+photo.30.tags: laying down, paws, wink
+photo.31: ig://B0ieVTJBimn/m
+photo.31.author: minatomirai215
+photo.31.commitdate: 2019/7/31
+photo.31.link: https://www.instagram.com/minatomirai215/
+photo.31.tags: apple time, portrait, standing
+photo.32: ig://B0koW35BFoI/m
+photo.32.author: pantasanzoo1
+photo.32.commitdate: 2019/8/2
+photo.32.link: https://www.instagram.com/pantasanzoo1/
+photo.32.tags: laying down, paws
+photo.33: ig://B02XwRIBp9P/m
+photo.33.author: minatomirai215
+photo.33.commitdate: 2020/11/28
+photo.33.link: https://www.instagram.com/minatomirai215/
+photo.33.tags: bamboo, portrait, smile, tail, tongue, window
+photo.34: ig://B0_UThqhmkb/m
+photo.34.author: minatomirai215
+photo.34.commitdate: 2019/8/12
+photo.34.link: https://www.instagram.com/minatomirai215/
+photo.34.tags: bamboo, portrait, smile, tongue
+photo.35: ig://B1G1f8ohx84/m
+photo.35.author: minatomirai215
+photo.35.commitdate: 2019/8/15
+photo.35.link: https://www.instagram.com/minatomirai215/
+photo.35.tags: paws, portrait, smile, tongue
+photo.36: ig://B1dsdwyhDWb/m
+photo.36.author: minatomirai215
+photo.36.commitdate: 2019/8/25
+photo.36.link: https://www.instagram.com/minatomirai215/
+photo.36.tags: apple time, bamboo, portrait, standing
+photo.37: ig://B1p5BzEBxOe/m
+photo.37.author: minatomirai215
+photo.37.commitdate: 2019/8/29
+photo.37.link: https://www.instagram.com/minatomirai215/
+photo.37.tags: laying down, sleeping
+photo.38: ig://B1qX9k_Bole/m
+photo.38.author: pantasanzoo1
+photo.38.commitdate: 2019/8/29
+photo.38.link: https://www.instagram.com/pantasanzoo1/
+photo.38.tags: bamboo, paws
+photo.39: ig://B2rcAsnhFEB/m
+photo.39.author: minatomirai215
+photo.39.commitdate: 2020/11/28
+photo.39.link: https://www.instagram.com/minatomirai215/
+photo.39.tags: keeper, paws, portrait, smile, standing, tail
+photo.40: ig://B2ul-htBckq/m
+photo.40.author: run.swim.shingo
+photo.40.commitdate: 2019/10/12
+photo.40.link: https://www.instagram.com/run.swim.shingo/
+photo.40.tags: paws, standing, wave
+photo.41: ig://B2ygBAVBWEX/m
+photo.41.author: ck.chie
+photo.41.commitdate: 2019/10/12
+photo.41.link: https://www.instagram.com/ck.chie/
+photo.41.tags: keeper, paws, standing, wave
+photo.42: ig://B25sK-QBQUP/m
+photo.42.author: minatomirai215
+photo.42.commitdate: 2019/10/12
+photo.42.link: https://www.instagram.com/minatomirai215/
+photo.42.tags: paws, portrait
+photo.43: ig://B3b2jkhHkZ_/m
+photo.43.author: osopanda551
+photo.43.commitdate: 2019/12/5
+photo.43.link: https://www.instagram.com/osopanda551/
+photo.43.tags: paws, portrait, smile, standing
+photo.44: ig://B3jkpSgBbSy/m
+photo.44.author: osopanda551
+photo.44.commitdate: 2019/12/5
+photo.44.link: https://www.instagram.com/osopanda551/
+photo.44.tags: apple time, blink, portrait, smile, standing
+photo.45: ig://B36_tq3BFwH/m
+photo.45.author: yakko____
+photo.45.commitdate: 2019/10/23
+photo.45.link: https://www.instagram.com/yakko____/
+photo.45.tags: apple time, keeper, paws, portrait, techitechi
+photo.46: ig://B37IeUghHJJ/m
+photo.46.author: grskus_tk
+photo.46.commitdate: 2019/10/23
+photo.46.link: https://www.instagram.com/grskus_tk/
+photo.46.tags: climb, head-first, tree
+photo.47: ig://B4VuDsdB0_h/m
+photo.47.author: ssc6105
+photo.47.commitdate: 2019/11/2
+photo.47.link: https://www.instagram.com/ssc6105/
+photo.47.tags: portrait, tail
+photo.48: ig://B47ybfWB5rx/m
+photo.48.author: minatomirai215
+photo.48.commitdate: 2019/11/24
+photo.48.link: https://www.instagram.com/minatomirai215/
+photo.48.tags: scale, whiskers
+photo.49: ig://B495axFh_Ry/m
+photo.49.author: pantasanzoo1
+photo.49.commitdate: 2019/11/30
+photo.49.link: https://www.instagram.com/pantasanzoo1/
+photo.49.tags: apple time, paws, scale, standing
+photo.50: ig://B5EXr-ZBJIp/m
+photo.50.author: pantasanzoo1
+photo.50.commitdate: 2019/12/1
+photo.50.link: https://www.instagram.com/pantasanzoo1/
+photo.50.tags: apple time, keeper, mofumofu
+photo.51: ig://B5JxaaThjRz/m
+photo.51.author: pantasanzoo1
+photo.51.commitdate: 2019/11/24
+photo.51.link: https://www.instagram.com/pantasanzoo1/
+photo.51.tags: apple time, bridge, portrait
+photo.52: ig://B5zsiF5B3du/m
+photo.52.author: ck.chie
+photo.52.commitdate: 2019/12/27
+photo.52.link: https://www.instagram.com/ck.chie/
+photo.52.tags: apple time, keeper, paws, standing
+photo.53: ig://B6oMnFnBFa-/m
+photo.53.author: minatomirai215
+photo.53.commitdate: 2019/12/30
+photo.53.link: https://www.instagram.com/minatomirai215/
+photo.53.tags: apple time, paws, portrait, standing
+photo.54: ig://B66iTrNhplN/m
+photo.54.author: wumpwoast
+photo.54.commitdate: 2020/1/11
+photo.54.link: https://www.instagram.com/wumpwoast/
+photo.54.tags: apple time, keeper, paws, techitechi
+photo.55: ig://B67nkuyhqat/m
+photo.55.author: wumpwoast
+photo.55.commitdate: 2020/1/11
+photo.55.link: https://www.instagram.com/wumpwoast/
+photo.55.tags: paws, portrait, profile, smile, tree
+photo.56: ig://B7KtLLHh-6X/m
+photo.56.author: pantasanzoo1
+photo.56.commitdate: 2020/1/24
+photo.56.link: https://www.instagram.com/pantasanzoo1/
+photo.56.tags: grooming, paws, window
+photo.57: ig://B7dp8enBwrP/m
+photo.57.author: minatomirai215
+photo.57.commitdate: 2020/1/25
+photo.57.link: https://www.instagram.com/minatomirai215/
+photo.57.tags: apple time, keeper, portrait, tree, wet
+photo.58: ig://B7lhDSSBr89/m
+photo.58.author: miis_98
+photo.58.commitdate: 2020/1/24
+photo.58.link: https://www.instagram.com/miis_98/
+photo.58.tags: portrait, tail
+photo.59: ig://B7oMMqshPrj/m
+photo.59.author: minatomirai215
+photo.59.commitdate: 2020/2/11
+photo.59.link: https://www.instagram.com/minatomirai215/
+photo.59.tags: portrait, wet
+photo.60: ig://B70c1nkhJZF/m
+photo.60.author: tetusara.ki_
+photo.60.commitdate: 2020/2/21
+photo.60.link: https://www.instagram.com/tetusara.ki_/
+photo.60.tags: paws, portrait, smile, standing, whiskers
+photo.61: ig://B8qLE58hLtx/m
+photo.61.author: wumpwoast
+photo.61.commitdate: 2020/3/9
+photo.61.link: https://www.instagram.com/wumpwoast/
+photo.61.tags: apple time, keeper, portrait, smile, tree
+photo.62: ig://B95qy7ZhVpp/m
+photo.62.author: minatomirai215
+photo.62.commitdate: 2020/3/20
+photo.62.link: https://www.instagram.com/minatomirai215/
+photo.62.tags: paws, portrait, tree
+photo.63: ig://B-I1ejhhZeg/m
+photo.63.author: minatomirai215
+photo.63.commitdate: 2020/3/29
+photo.63.link: https://www.instagram.com/minatomirai215/
+photo.63.tags: apple time, paws, portrait, smile
+photo.64: ig://B_Xtx96HiWo/m
+photo.64.author: minatomirai215
+photo.64.commitdate: 2020/11/28
+photo.64.link: https://www.instagram.com/minatomirai215/
+photo.64.tags: paws, smile
+photo.65: ig://CAG7vk3BzgD/m
+photo.65.author: wumpwoast
+photo.65.commitdate: 2021/6/6
+photo.65.link: https://www.instagram.com/wumpwoast/
+photo.65.tags: peek, portrait, whiskers
+photo.66: ig://CAHtKMbB-Gy/m
+photo.66.author: pantasanzoo1
+photo.66.commitdate: 2020/11/28
+photo.66.link: https://www.instagram.com/pantasanzoo1/
+photo.66.tags: apple time, paws, standing
+photo.67: ig://CALCTpkBiP5/m
+photo.67.author: pantasanzoo1
+photo.67.commitdate: 2020/11/28
+photo.67.link: https://www.instagram.com/pantasanzoo1/
+photo.67.tags: peek, tree
+photo.68: ig://CAM0dQRBnPH/m
+photo.68.author: pantasanzoo1
+photo.68.commitdate: 2020/11/28
+photo.68.link: https://www.instagram.com/pantasanzoo1/
+photo.68.tags: bridge, paws
+photo.69: ig://CBavvRLBFbF/m
+photo.69.author: minatomirai215
+photo.69.commitdate: 2020/11/28
+photo.69.link: https://www.instagram.com/minatomirai215/
+photo.69.tags: apple time, keeper, paws, portrait
+photo.70: ig://CBiNPGshuXD/m
+photo.70.author: minatomirai215
+photo.70.commitdate: 2020/11/28
+photo.70.link: https://www.instagram.com/minatomirai215/
+photo.70.tags: bamboo, home, peek, portrait
+photo.71: ig://CDMNA9FhGr_/m
+photo.71.author: minatomirai215
+photo.71.commitdate: 2020/11/28
+photo.71.link: https://www.instagram.com/minatomirai215/
+photo.71.tags: portrait, smile, tongue
+photo.72: ig://CDT5zNeBVLp/m
+photo.72.author: minatomirai215
+photo.72.commitdate: 2020/8/2
+photo.72.link: https://www.instagram.com/minatomirai215/
+photo.72.tags: apple time, keeper, paws, standing
+photo.73: ig://CDjqne5hUxm/m
+photo.73.author: minatomirai215
+photo.73.commitdate: 2020/11/28
+photo.73.link: https://www.instagram.com/minatomirai215/
+photo.73.tags: bamboo, peek, portrait
+photo.74: ig://CE9HZ3OB9Xw/m
+photo.74.author: pantasanzoo1
+photo.74.commitdate: 2020/11/10
+photo.74.link: https://www.instagram.com/pantasanzoo1/
+photo.74.tags: bamboo, itchy
+photo.75: ig://CFEQGqvBp-b/m
+photo.75.author: pantasanzoo1
+photo.75.commitdate: 2020/11/28
+photo.75.link: https://www.instagram.com/pantasanzoo1/
+photo.75.tags: paws, peek, tree
+photo.76: ig://CFGnYswh_VN/m
+photo.76.author: pantasanzoo1
+photo.76.commitdate: 2020/11/28
+photo.76.link: https://www.instagram.com/pantasanzoo1/
+photo.76.tags: paws, smile, standing
+photo.77: ig://CF7ddPihc37/m
+photo.77.author: minatomirai215
+photo.77.commitdate: 2020/11/28
+photo.77.link: https://www.instagram.com/minatomirai215/
+photo.77.tags: nose, paws, portrait
+photo.78: ig://CHNLoWaBE02/m
+photo.78.author: minatomirai215
+photo.78.commitdate: 2020/11/28
+photo.78.link: https://www.instagram.com/minatomirai215/
+photo.78.tags: apple time, bamboo, paws, portrait, standing
+photo.79: ig://CHVOxlChsTC/m
+photo.79.author: minatomirai215
+photo.79.commitdate: 2020/11/28
+photo.79.link: https://www.instagram.com/minatomirai215/
+photo.79.tags: laying down, tail, tree
+photo.80: ig://CHvLGTeHgv3/m
+photo.80.author: minatomirai215
+photo.80.commitdate: 2020/11/28
+photo.80.link: https://www.instagram.com/minatomirai215/
+photo.80.tags: laying down, mofumofu, tail
+photo.81: ig://CIFx6MYBQ5p/m
+photo.81.author: pantasanzoo1
+photo.81.commitdate: 2020/11/28
+photo.81.link: https://www.instagram.com/pantasanzoo1/
+photo.81.tags: apple time, paws, standing, tail
+photo.82: ig://CIJ5JgpBYqc/m
+photo.82.author: minatomirai215
+photo.82.commitdate: 2020/12/3
+photo.82.link: https://www.instagram.com/minatomirai215/
+photo.82.tags: apple time, bamboo, paws, portrait, smile
+photo.83: ig://CINx07zhOy5/m
+photo.83.author: rie_panda55
+photo.83.commitdate: 2020/12/8
+photo.83.link: https://www.instagram.com/rie_panda55/
+photo.83.tags: keeper, paws, portrait, standing, tail
+photo.84: ig://CITD4vDBhOn/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2020/12/3
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: dish, portrait
+photo.85: ig://CIk4DuCBMzd/m
+photo.85.author: minatomirai215
+photo.85.commitdate: 2020/12/20
+photo.85.link: https://www.instagram.com/minatomirai215/
+photo.85.tags: bamboo, portrait, smile
+photo.86: ig://CJDjw9ah-aZ/m
+photo.86.author: kipekaila
+photo.86.commitdate: 2021/1/2
+photo.86.link: https://www.instagram.com/kipekaila/
+photo.86.tags: bamboo, portrait, tail
+photo.87: ig://CJFIQGehIAX/m
+photo.87.author: kipekaila
+photo.87.commitdate: 2021/1/2
+photo.87.link: https://www.instagram.com/kipekaila/
+photo.87.tags: portrait, whiskers
+photo.88: ig://CJS7_UehuHf/m
+photo.88.author: pantasanzoo1
+photo.88.commitdate: 2021/1/2
+photo.88.link: https://www.instagram.com/pantasanzoo1/
+photo.88.tags: apple time, home, paws
+photo.89: ig://CJTQXUshdWf/m
+photo.89.author: minatomirai215
+photo.89.commitdate: 2021/1/2
+photo.89.link: https://www.instagram.com/minatomirai215/
+photo.89.tags: paws, peek
+photo.90: ig://CJVr9JthHc7/m
+photo.90.author: mini_cochi
+photo.90.commitdate: 2021/1/2
+photo.90.link: https://www.instagram.com/mini_cochi/
+photo.90.tags: close-up, portrait, whiskers
+photo.91: ig://CJWj9n8h0AX/m
+photo.91.author: nakacchi_desu
+photo.91.commitdate: 2021/1/2
+photo.91.link: https://www.instagram.com/nakacchi_desu/
+photo.91.tags: laying down, tongue
+photo.92: ig://CKBnRqchRJ1/m
+photo.92.author: miis_98
+photo.92.commitdate: 2021/1/16
+photo.92.link: https://www.instagram.com/miis_98/
+photo.92.tags: apple time, paws, portrait, smile, whiskers
+photo.93: ig://CKDUw8fBAsP/m
+photo.93.author: minatomirai215
+photo.93.commitdate: 2021/1/16
+photo.93.link: https://www.instagram.com/minatomirai215/
+photo.93.tags: apple time, paws, portrait, smile, tail
+photo.94: ig://CLJ7bmZhz7z/m
+photo.94.author: pantasanzoo1
+photo.94.commitdate: 2021/6/29
+photo.94.link: https://www.instagram.com/pantasanzoo1/
+photo.94.tags: bamboo, close-up, paws
+photo.95: ig://CLrQ5CXBzuj/m
+photo.95.author: minatomirai215
+photo.95.commitdate: 2021/3/21
+photo.95.link: https://www.instagram.com/minatomirai215/
+photo.95.tags: portrait, smile, tail, whiskers
+photo.96: ig://CMWtJqrBPvB/m
+photo.96.author: minatomirai215
+photo.96.commitdate: 2021/4/11
+photo.96.link: https://www.instagram.com/minatomirai215/
+photo.96.tags: apple time, bamboo, paws, portrait, smile, tail, tongue
+photo.97: ig://CNDIIT5hSsb/m
+photo.97.author: miis_98
+photo.97.commitdate: 2021/4/2
+photo.97.link: https://www.instagram.com/miis_98/
+photo.97.tags: home, portrait, tail, wet
+photo.98: ig://COdOZp3B8e9/m
+photo.98.author: minatomirai215
+photo.98.commitdate: 2021/6/24
+photo.98.link: https://www.instagram.com/minatomirai215/
+photo.98.tags: peek, portrait
+photo.99: ig://CPN0V36hAgP/m
+photo.99.author: redpan22
+photo.99.commitdate: 2021/7/7
+photo.99.link: https://www.instagram.com/redpan22/
+photo.99.tags: laying down, mofumofu, portrait, tree
+photo.100: ig://CPn0X6lhupd/m
+photo.100.author: miis_98
+photo.100.commitdate: 2021/6/20
+photo.100.link: https://www.instagram.com/miis_98/
+photo.100.tags: mofumofu, portrait, tongue, tree
+photo.101: ig://CPw19jahQWd/m
+photo.101.author: minatomirai215
+photo.101.commitdate: 2021/6/24
+photo.101.link: https://www.instagram.com/minatomirai215/
+photo.101.tags: home, paws, peek, portrait
+photo.102: ig://CQS86ZvBjgJ/m
+photo.102.author: pantasanzoo1
+photo.102.commitdate: 2021/6/24
+photo.102.link: https://www.instagram.com/pantasanzoo1/
+photo.102.tags: apple time, paws, portrait, smile, whiskers
+species: 2
+studbook.id: 12117
+zoo: 38

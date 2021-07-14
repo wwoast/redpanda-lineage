@@ -1,0 +1,15 @@
+[zoo]
+_id: 278
+commitdate: 2021/4/10
+en.address: D975, 36290, Obterre, France
+en.location: Obterre, France
+en.name: Haute Touche Zoological Park
+flag: France
+fr.address: D975, 36290, Obterre, France
+fr.location: Obterre, France
+fr.name: Réserve zoologique de la Haute-Touche
+language.order: fr,en
+latitude: 46.8769973
+longitude: 1.0916611
+map: https://goo.gl/maps/2w7V2XMGzmUokoAbA
+website: http://www.zoodelahautetouche.fr/
