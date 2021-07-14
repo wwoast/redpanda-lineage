@@ -463,8 +463,9 @@ photo.90.author: mini_cochi
 photo.90.commitdate: 2021/7/11
 photo.90.link: https://www.instagram.com/mini_cochi/
 photo.90.tags: jizo, paws, portrait, smile, tail, tongue
-photo.91: https://www.instagram.com/p/CRRI814h-dG/media/?size=m
+photo.91: ig://CRRI814h-dG/m
 photo.91.author: redpan22
+photo.91.commitdate: 2021/7/14
 photo.91.link: https://www.instagram.com/redpan22/
 photo.91.tags: bridge, laying down, paws, tongue
 species: 2

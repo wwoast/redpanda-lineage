@@ -608,8 +608,9 @@ photo.119.author: hamamatsu.chiita
 photo.119.commitdate: 2021/6/28
 photo.119.link: https://www.instagram.com/hamamatsu.chiita/
 photo.119.tags: close-up, portrait, whiskers
-photo.120: https://www.instagram.com/p/CRTgxJpBMNM/media/?size=m
+photo.120: ig://CRTgxJpBMNM/m
 photo.120.author: kijyo.zoo
+photo.120.commitdate: 2021/7/14
 photo.120.link: https://www.instagram.com/kijyo.zoo/
 photo.120.tags: bamboo, portrait, videolink
 species: 2

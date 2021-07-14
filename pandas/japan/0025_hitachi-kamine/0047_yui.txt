@@ -140,8 +140,9 @@ photo.26.author: takahisakaneuchi
 photo.26.commitdate: 2020/12/2
 photo.26.link: https://www.instagram.com/takahisakaneuchi/
 photo.26.tags: keeper, peek, portrait, techitechi
-photo.27: https://www.instagram.com/p/CRTdWaShS7r/media/?size=m
+photo.27: ig://CRTdWaShS7r/m
 photo.27.author: ssc6105
+photo.27.commitdate: 2021/7/14
 photo.27.link: https://www.instagram.com/ssc6105/
 photo.27.tags: bamboo, paws, portrait, whiskers
 species: 2
