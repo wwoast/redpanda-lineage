@@ -30,7 +30,11 @@ photo.1: ig://CRHELtXBOGr/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/7/14
 photo.1.link: https://www.instagram.com/balathruin/
-photo.1.tags: ear, portrait, profile, smile, tree
+photo.1.tags: ear, portrait, smile, tree
+photo.2: https://www.instagram.com/p/CRQ8LZRB81F/media/?size=m
+photo.2.author: balathruin
+photo.2.link: https://www.instagram.com/balathruin/
+photo.2.tags: bamboo, paws, portrait, profile
 species: 1
 uncertainty: location.3 date
 zoo: 220
