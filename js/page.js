@@ -300,7 +300,7 @@ Page.home.render = function() {
     // new_content.appendChild(memorial);
     // Birthday logic
     var min_photo_count = 3;
-    var max_birthday_animals = 4;
+    var max_birthday_animals = 5;
     var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
     if (birthday_count > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, max_birthday_animals);
