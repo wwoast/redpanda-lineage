@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 376
+location.1: 6, 2018/7/18
+location.2: 292, 2021/7/17
 photo.1: ig://BqC8HLuF-sI/m
 photo.1.author: makimaru18
 photo.1.commitdate: 2018/11/12
@@ -70,4 +72,4 @@ photo.11.link: https://www.instagram.com/kojikoji2011/
 photo.11.tags: bamboo, tongue
 species: 2
 studbook.id: unknown
-zoo: 6
+zoo: 292
