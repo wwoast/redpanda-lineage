@@ -293,8 +293,8 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["60"], 5, Message.memorial);
-    new_content.appendChild(departed);
+    // var departed = Gallery.memorialPhotoCredits(L.display, ["60"], 5, Message.memorial);
+    // new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
@@ -372,7 +372,10 @@ Page.home.special_tag_galleries = function() {
 Page.home.special_memorial = function() {
   // Special memorials that are important to redpandafinder
   var choice = Query.env.paging.seed;
-  if (choice % 3 == 0) {
+  if (choice % 7 == 0) {
+    var laila = Gallery.memorialPhotoCredits(L.display, ["60"], 3, Message.missing_you);
+    return laila;
+  } else if (choice % 3 == 0) {
     var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
     return hokuto;
   } else {
