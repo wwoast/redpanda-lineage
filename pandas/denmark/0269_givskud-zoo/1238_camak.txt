@@ -4,6 +4,7 @@ birthday: 2018/6/25
 birthplace: 220
 children: unknown
 commitdate: 2020/11/26
+death: 2021/1/1
 en.name: Camak
 en.nicknames: none
 en.othernames: none
@@ -22,11 +23,12 @@ photo.1: ig://BwWFIvzFnyt/m
 photo.1.author: givskudzoo
 photo.1.commitdate: 2020/11/26
 photo.1.link: https://www.instagram.com/givskudzoo/
-photo.1.tags: ear, nose, eye, muzzle, tail
+photo.1.tags: portrait, tail
 photo.2: ig://B-OuiM8lF5n/m
 photo.2.author: givskudzoo
 photo.2.commitdate: 2020/11/26
 photo.2.link: https://www.instagram.com/givskudzoo/
-photo.2.tags: ear, nose, eye, muzzle
+photo.2.tags: portrait, profile, whiskers
 species: 1
+uncertainty: death exact date
 zoo: 269

@@ -1,9 +1,9 @@
 [panda]
-_id: 1291
-birthday: 2021/6/21
-birthplace: 31
+_id: 1301
+birthday: 2021/7/1
+birthplace: 10
 children: none
-commitdate: 2021/7/1
+commitdate: 2021/7/18
 en.name: Baby
 en.nicknames: none
 en.othernames: Aka-chan
@@ -12,6 +12,6 @@ jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
-litter: none
+litter: 1300
 species: 2
-zoo: 31
+zoo: 10
