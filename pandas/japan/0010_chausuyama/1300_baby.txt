@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1301
-photo.1: https://www.instagram.com/p/CRV3J9cBdBy/media/?size=m
+photo.1: ig://CRV3J9cBdBy/m
 photo.1.author: chausuyamazoo
+photo.1.commitdate: 2021/7/18
 photo.1.link: https://www.instagram.com/chausuyamazoo/
 photo.1.tags: baby, bamboo, laying down, newborn, portrait, sleeping, tail
 species: 2

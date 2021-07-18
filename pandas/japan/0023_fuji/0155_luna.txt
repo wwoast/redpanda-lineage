@@ -82,8 +82,9 @@ photo.13.author: miis_98
 photo.13.commitdate: 2021/6/18
 photo.13.link: https://www.instagram.com/miis_98/
 photo.13.tags: home, mofumofu, portrait
-photo.14: https://www.instagram.com/p/CRXc5b7BNPz/media/?size=m
+photo.14: ig://CRXc5b7BNPz/m
 photo.14.author: miis_98
+photo.14.commitdate: 2021/7/18
 photo.14.link: https://www.instagram.com/miis_98/
 photo.14.tags: bamboo, home, portrait, smile, techitechi
 species: 2

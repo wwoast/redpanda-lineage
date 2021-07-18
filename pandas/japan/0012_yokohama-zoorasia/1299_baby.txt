@@ -13,13 +13,15 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
-photo.1: https://www.instagram.com/p/CRYXh58DubH/media/?size=m
+photo.1: ig://CRYXh58DubH/m
 photo.1.author: yokohama.zoo
+photo.1.commitdate: 2021/7/18
 photo.1.link: https://www.instagram.com/yokohama.zoo/
 photo.1.tags: baby, newborn, paws, tail
-photo.2: https://www.instagram.com/p/CRdfGrejrsM/media/?size=m
+photo.2: ig://CRdfGrejrsM/m
 photo.2.author: yokohama.zoo
+photo.2.commitdate: 2021/7/18
 photo.2.link: https://www.instagram.com/yokohama.zoo/
 photo.2.tags: baby, newborn, paws, smile
 species: 2
-zoo: 31
+zoo: 12
