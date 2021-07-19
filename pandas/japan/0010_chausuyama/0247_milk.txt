@@ -757,7 +757,7 @@ photo.149: ig://B3_iCFpBQBk/m
 photo.149.author: ssc6105
 photo.149.commitdate: 2019/10/25
 photo.149.link: https://www.instagram.com/ssc6105/
-photo.149.tags: bamboo, portrait, profile, tongue
+photo.149.tags: bamboo, portrait, tongue
 photo.150: ig://B4JeVrzBt9u/m
 photo.150.author: na.mo.pan
 photo.150.commitdate: 2019/10/28
@@ -1282,6 +1282,14 @@ photo.254.author: redpan22
 photo.254.commitdate: 2021/7/14
 photo.254.link: https://www.instagram.com/redpan22/
 photo.254.tags: flowers, portrait, whiskers
+photo.255: https://www.instagram.com/p/CQp2mGMBkCq/media/?size=m
+photo.255.author: shigeko0531
+photo.255.link: https://www.instagram.com/shigeko0531/
+photo.255.tags: portrait, profile, smile, whiskers
+photo.256: https://www.instagram.com/p/CRVgbphBT_z/media/?size=m
+photo.256.author: alto0908
+photo.256.link: https://www.instagram.com/alto0908/
+photo.256.tags: mofumofu, portrait, techitechi, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10

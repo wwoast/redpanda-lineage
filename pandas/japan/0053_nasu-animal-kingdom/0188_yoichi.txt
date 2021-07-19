@@ -230,21 +230,16 @@ photo.44.author: kipekaila
 photo.44.commitdate: 2020/11/25
 photo.44.link: https://www.instagram.com/kipekaila/
 photo.44.tags: blink, portrait
-photo.45: ig://CHtZ5O6hBBO/m
-photo.45.author: kipekaila
-photo.45.commitdate: 2020/12/9
-photo.45.link: https://www.instagram.com/kipekaila/
-photo.45.tags: portrait
-photo.46: ig://CMCje0uBFYz/m
+photo.45: ig://CMCje0uBFYz/m
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2021/6/29
+photo.45.link: https://www.instagram.com/fetorus_mami/
+photo.45.tags: bamboo, portrait, whiskers
+photo.46: ig://CQ1AxIah3RN/m
 photo.46.author: fetorus_mami
-photo.46.commitdate: 2021/6/29
+photo.46.commitdate: 2021/7/9
 photo.46.link: https://www.instagram.com/fetorus_mami/
-photo.46.tags: bamboo, portrait, whiskers
-photo.47: ig://CQ1AxIah3RN/m
-photo.47.author: fetorus_mami
-photo.47.commitdate: 2021/7/9
-photo.47.link: https://www.instagram.com/fetorus_mami/
-photo.47.tags: bamboo, paws, standing, tail
+photo.46.tags: bamboo, paws, standing, tail
 species: 2
 studbook.id: 13141
 video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
