@@ -41,8 +41,9 @@ photo.5.author: balathruin
 photo.5.commitdate: 2021/7/11
 photo.5.link: https://www.instagram.com/balathruin/
 photo.5.tags: paws, peek, portrait, tail
-photo.6: https://www.instagram.com/p/CRbLDXkBbYC/media/?size=m
+photo.6: ig://CRbLDXkBbYC/m
 photo.6.author: balathruin
+photo.6.commitdate: 2021/7/18
 photo.6.link: https://www.instagram.com/balathruin/
 photo.6.tags: bridge, portrait, tail
 species: 1

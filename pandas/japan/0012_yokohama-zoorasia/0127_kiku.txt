@@ -628,8 +628,9 @@ photo.123.author: minatomirai215
 photo.123.commitdate: 2021/6/20
 photo.123.link: https://www.instagram.com/minatomirai215/
 photo.123.tags: apple time, portrait, smile
-photo.124: https://www.instagram.com/p/CRX8-ZrB1h8/media/?size=m
+photo.124: ig://CRX8-ZrB1h8/m
 photo.124.author: eos1089
+photo.124.commitdate: 2021/7/18
 photo.124.link: https://www.instagram.com/eos1089/
 photo.124.tags: portrait, smile, whiskers
 species: 2

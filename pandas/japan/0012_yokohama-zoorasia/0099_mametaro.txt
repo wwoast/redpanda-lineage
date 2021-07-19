@@ -429,24 +429,26 @@ photo.83.author: kotata_513
 photo.83.commitdate: 2021/4/11
 photo.83.link: https://www.instagram.com/kotata_513/
 photo.83.tags: paws, standing, window
-photo.84: ig://CPxrfRkBqgJ/m
-photo.84.author: kotata_513
-photo.84.commitdate: 2021/6/18
-photo.84.link: https://www.instagram.com/kotata_513/
-photo.84.tags: apple time, blink, paws, portrait, smile, whiskers
-photo.85: ig://CQ3NqTyhosw/m
+photo.84: ig://CMpXgLhhqcJ/m
+photo.84.author: rie_panda55
+photo.84.commitdate: 2021/7/18
+photo.84.link: https://www.instagram.com/rie_panda55/
+photo.84.tags: apple time, keeper, paws, portrait, standing, tail
+photo.85: ig://CPxrfRkBqgJ/m
 photo.85.author: kotata_513
-photo.85.commitdate: 2021/7/5
+photo.85.commitdate: 2021/6/18
 photo.85.link: https://www.instagram.com/kotata_513/
-photo.85.tags: bamboo, paws, peek, portrait, whiskers
-photo.86: https://www.instagram.com/p/CRYx8BsBbsC/media/?size=m
+photo.85.tags: apple time, blink, paws, portrait, smile, whiskers
+photo.86: ig://CQ3NqTyhosw/m
 photo.86.author: kotata_513
+photo.86.commitdate: 2021/7/5
 photo.86.link: https://www.instagram.com/kotata_513/
-photo.86.tags: apple time, paws, smile, standing
-photo.87: https://www.instagram.com/p/CMpXgLhhqcJ/media/?size=m
-photo.87.author: rie_panda55
-photo.87.link: https://www.instagram.com/rie_panda55/
-photo.87.tags: apple time, keeper, paws, portrait, standing, tail
+photo.86.tags: bamboo, paws, peek, portrait, whiskers
+photo.87: ig://CRYx8BsBbsC/m
+photo.87.author: kotata_513
+photo.87.commitdate: 2021/7/18
+photo.87.link: https://www.instagram.com/kotata_513/
+photo.87.tags: apple time, paws, smile, standing
 species: 2
 studbook.id: 1683
 zoo: 12

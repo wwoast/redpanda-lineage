@@ -208,8 +208,9 @@ photo.39.author: ssc6105
 photo.39.commitdate: 2021/6/6
 photo.39.link: https://www.instagram.com/ssc6105/
 photo.39.tags: paws, smile
-photo.40: https://www.instagram.com/p/CRbvpV7BrEF/media/?size=m
+photo.40: ig://CRbvpV7BrEF/m
 photo.40.author: fetorus_mami
+photo.40.commitdate: 2021/7/18
 photo.40.link: https://www.instagram.com/fetorus_mami/
 photo.40.tags: tail, wink
 species: 2
