@@ -216,8 +216,9 @@ photo.40.author: sasapan34
 photo.40.commitdate: 2021/7/8
 photo.40.link: https://www.instagram.com/sasapan34/
 photo.40.tags: paws, smile
-photo.41: https://www.instagram.com/p/CRJixDhBW-V/media/?size=m
+photo.41: ig://CRJixDhBW-V/m
 photo.41.author: mifko55
+photo.41.commitdate: 2021/7/19
 photo.41.link: https://www.instagram.com/mifko55/
 photo.41.tags: portrait, whiskers
 species: 2

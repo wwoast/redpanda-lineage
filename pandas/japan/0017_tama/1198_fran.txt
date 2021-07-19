@@ -213,18 +213,20 @@ photo.40.author: osopanda551
 photo.40.commitdate: 2021/7/9
 photo.40.link: https://www.instagram.com/osopanda551/
 photo.40.tags: door, portrait
-photo.41: ig://CRKzKaOhBGh/m
-photo.41.author: mariten1119
-photo.41.commitdate: 2021/7/13
-photo.41.link: https://www.instagram.com/mariten1119/
-photo.41.tags: smile, tree
-photo.42: https://www.instagram.com/p/CRZCTVtBu63/media/?size=m
-photo.42.author: redpan22
-photo.42.link: https://www.instagram.com/redpan22/
-photo.42.tags: bridge, laying down, paws, portrait
-photo.43: https://www.instagram.com/p/CRJht62hnkK/media/?size=m
-photo.43.author: mini_cochi
-photo.43.link: https://www.instagram.com/mini_cochi/
-photo.43.tags: pooping, portrait, smile, tail
+photo.41: ig://CRJht62hnkK/m
+photo.41.author: mini_cochi
+photo.41.commitdate: 2021/7/19
+photo.41.link: https://www.instagram.com/mini_cochi/
+photo.41.tags: pooping, portrait, smile, tail
+photo.42: ig://CRKzKaOhBGh/m
+photo.42.author: mariten1119
+photo.42.commitdate: 2021/7/13
+photo.42.link: https://www.instagram.com/mariten1119/
+photo.42.tags: smile, tree
+photo.43: ig://CRZCTVtBu63/m
+photo.43.author: redpan22
+photo.43.commitdate: 2021/7/19
+photo.43.link: https://www.instagram.com/redpan22/
+photo.43.tags: bridge, laying down, paws, portrait
 species: 2
 zoo: 17

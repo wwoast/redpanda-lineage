@@ -475,8 +475,9 @@ photo.94.author: craig_craig_craig
 photo.94.commitdate: 2021/7/8
 photo.94.link: https://www.instagram.com/craig_craig_craig/
 photo.94.tags: paws, portrait
-photo.95: https://www.instagram.com/p/CRXZ7G-hjcI/media/?size=m
+photo.95: ig://CRXZ7G-hjcI/m
 photo.95.author: ifumoto88
+photo.95.commitdate: 2021/7/19
 photo.95.link: https://www.instagram.com/ifumoto88/
 photo.95.tags: climb, close-up, paws, peek, portrait, smile
 species: 2

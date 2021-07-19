@@ -13,6 +13,7 @@ jp.nicknames: none
 jp.othernames: ゆうか, 優花
 language.order: jp, en
 litter: none
+phoot.101.link: https://www.instagram.com/_rifa_p/
 photo.1: ig://BYDaea2FJel/m
 photo.1.author: yossi929
 photo.1.commitdate: 2019/6/23
@@ -511,9 +512,9 @@ photo.100.author: colette.jp
 photo.100.commitdate: 2021/7/14
 photo.100.link: https://www.instagram.com/colette.jp/
 photo.100.tags: apple time, bite, curly, paws, portrait, tail
-photo.101: https://www.instagram.com/p/CRU32TPBoWP/media/?size=m
+photo.101: ig://CRU32TPBoWP/m
 photo.101.author: _rifa_p
-phoot.101.link: https://www.instagram.com/_rifa_p/
+photo.101.commitdate: 2021/7/19
 photo.101.tags: paws, portrait, smile, tree
 species: 2
 studbook.id: 1695

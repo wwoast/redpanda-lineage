@@ -444,8 +444,9 @@ photo.87.author: ifumoto88
 photo.87.commitdate: 2021/6/27
 photo.87.link: https://www.instagram.com/ifumoto88/
 photo.87.tags: portrait
-photo.88: https://www.instagram.com/p/CRWDJDWBjTP/media/?size=m
+photo.88: ig://CRWDJDWBjTP/m
 photo.88.author: daniele.tokyo
+photo.88.commitdate: 2021/7/19
 photo.88.link: https://www.instagram.com/daniele.tokyo/
 photo.88.tags: door, paws, whiskers
 species: 2
