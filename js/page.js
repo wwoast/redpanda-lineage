@@ -293,6 +293,8 @@ Page.home.render = function() {
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
     // Current memorials
+    var kg = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    new_content.appendChild(kg);
     // var departed = Gallery.memorialPhotoCredits(L.display, ["60"], 5, Message.memorial);
     // new_content.appendChild(departed);
     // Please remember these pandas
