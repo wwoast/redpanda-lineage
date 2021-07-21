@@ -48,14 +48,15 @@ photo.7.author: cincinnatizoo
 photo.7.commitdate: 2021/2/19
 photo.7.link: https://www.instagram.com/cincinnatizoo/
 photo.7.tags: paws, portrait, snow, tail
-photo.8: ig://CNj32x4g6VE/m
+photo.8: ig://CL4BZdvgv3f/m
 photo.8.author: rossifari
-photo.8.commitdate: 2021/4/20
+photo.8.commitdate: 2021/7/21
 photo.8.link: https://www.instagram.com/rossifari/
-photo.8.tags: paws, portrait, profile, standing, tail
-photo.9: https://www.instagram.com/p/CL4BZdvgv3f/media/?size=m
+photo.8.tags: paws, portrait, standing, tail
+photo.9: ig://CNj32x4g6VE/m
 photo.9.author: rossifari
+photo.9.commitdate: 2021/4/20
 photo.9.link: https://www.instagram.com/rossifari/
-photo.9.tags: paws, portrait, standing, tail
+photo.9.tags: paws, portrait, profile, standing, tail
 species: 2
 zoo: 65

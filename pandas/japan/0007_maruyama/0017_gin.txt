@@ -1104,8 +1104,9 @@ photo.219.author: cattail.sapporo
 photo.219.commitdate: 2021/7/13
 photo.219.link: https://www.instagram.com/cattail.sapporo/
 photo.219.tags: close-up, keeper, lunch time, portrait
-photo.220: https://www.instagram.com/p/CRk6yjlB1Xy/media/?size=m
+photo.220: ig://CRk6yjlB1Xy/m
 photo.220.author: wumpwoast
+photo.220.commitdate: 2021/7/21
 photo.220.link: https://www.instagram.com/wumpwoast/
 photo.220.tags: close-up, portrait, whiskers
 species: 2

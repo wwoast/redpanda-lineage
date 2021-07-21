@@ -85,20 +85,21 @@ photo.14.author: oregonzoo
 photo.14.commitdate: 2021/3/30
 photo.14.link: https://www.instagram.com/oregonzoo/
 photo.14.tags: portrait, snow
-photo.15: ig://COlIaGur09R/m
-photo.15.author: zoomontana
-photo.15.commitdate: 2021/6/23
-photo.15.link: https://www.instagram.com/zoomontana/
-photo.15.tags: bamboo, peek
-photo.16: ig://CP09GHStDrn/m
+photo.15: ig://CLw2QzVhH92/m
+photo.15.author: oregonzoo
+photo.15.commitdate: 2021/7/21
+photo.15.link: https://www.instagram.com/oregonzo/
+photo.15.tags: close-up, peek, whiskers
+photo.16: ig://COlIaGur09R/m
 photo.16.author: zoomontana
-photo.16.commitdate: 2021/6/24
+photo.16.commitdate: 2021/6/23
 photo.16.link: https://www.instagram.com/zoomontana/
-photo.16.tags: bamboo, standing, tail
-photo.17: https://www.instagram.com/p/CLw2QzVhH92/media/?size=m
-photo.17.author: oregonzoo
-photo.17.link: https://www.instagram.com/oregonzo/
-photo.17.tags: close-up, peek, whiskers
+photo.16.tags: bamboo, peek
+photo.17: ig://CP09GHStDrn/m
+photo.17.author: zoomontana
+photo.17.commitdate: 2021/6/24
+photo.17.link: https://www.instagram.com/zoomontana/
+photo.17.tags: bamboo, standing, tail
 species: 2
 video.1: https://youtu.be/3WIOn_zQckc
 video.1.author: oregonzoo
