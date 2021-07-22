@@ -273,20 +273,21 @@ photo.52.author: ssc6105
 photo.52.commitdate: 2021/6/29
 photo.52.link: https://www.instagram.com/ssc6105/
 photo.52.tags: grooming, home, mofumofu, paws, tail
-photo.53: ig://CQDp5ZPBAGf/m
-photo.53.author: daniele.tokyo
-photo.53.commitdate: 2021/6/18
-photo.53.link: https://www.instagram.com/daniele.tokyo/
-photo.53.tags: paws, portrait, tongue, tree
-photo.54: ig://CQcKk8HhXOQ/m
-photo.54.author: alto0908
-photo.54.commitdate: 2021/6/23
-photo.54.link: https://www.instagram.com/alto0908/
-photo.54.tags: home, laying down, portrait, whiskers
-photo.55: https://www.instagram.com/p/CPWCKR1hL-6/media/?size=m
-photo.55.author: eos1089
-photo.55.link: https://www.instagram.com/eos1089/
-photo.55.tags: peek, portrait, tree
+photo.53: ig://CPWCKR1hL-6/m
+photo.53.author: eos1089
+photo.53.commitdate: 2021/7/21
+photo.53.link: https://www.instagram.com/eos1089/
+photo.53.tags: peek, portrait, tree
+photo.54: ig://CQDp5ZPBAGf/m
+photo.54.author: daniele.tokyo
+photo.54.commitdate: 2021/6/18
+photo.54.link: https://www.instagram.com/daniele.tokyo/
+photo.54.tags: paws, portrait, tongue, tree
+photo.55: ig://CQcKk8HhXOQ/m
+photo.55.author: alto0908
+photo.55.commitdate: 2021/6/23
+photo.55.link: https://www.instagram.com/alto0908/
+photo.55.tags: home, laying down, portrait, whiskers
 species: 2
 studbook.id: 15141
 zoo: 8

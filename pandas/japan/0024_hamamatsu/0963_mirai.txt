@@ -608,18 +608,20 @@ photo.119.author: hamamatsu.chiita
 photo.119.commitdate: 2021/6/28
 photo.119.link: https://www.instagram.com/hamamatsu.chiita/
 photo.119.tags: close-up, portrait, whiskers
-photo.120: ig://CRTgxJpBMNM/m
-photo.120.author: kijyo.zoo
-photo.120.commitdate: 2021/7/14
-photo.120.link: https://www.instagram.com/kijyo.zoo/
-photo.120.tags: bamboo, portrait, videolink
-photo.121: https://www.instagram.com/p/CPA5smpBHEA/media/?size=m
+photo.120: ig://CPA5smpBHEA/m
+photo.120.author: taka__3428
+photo.120.commitdate: 2021/7/21
+photo.120.link: https://www.instagram.com/taka__3428/
+photo.120.tags: close-up, peek, whiskers
+photo.121: ig://CPA70EwhIF-/m
 photo.121.author: taka__3428
+photo.121.commitdate: 2021/7/21
 photo.121.link: https://www.instagram.com/taka__3428/
-photo.121.tags: close-up, peek, whiskers
-photo.122: https://www.instagram.com/p/CPA70EwhIF-/media/?size=m
-photo.122.author: taka__3428
-photo.122.link: https://www.instagram.com/taka__3428/
-photo.122.tags: standing
+photo.121.tags: standing
+photo.122: ig://CRTgxJpBMNM/m
+photo.122.author: kijyo.zoo
+photo.122.commitdate: 2021/7/14
+photo.122.link: https://www.instagram.com/kijyo.zoo/
+photo.122.tags: bamboo, portrait, videolink
 species: 2
 zoo: 24

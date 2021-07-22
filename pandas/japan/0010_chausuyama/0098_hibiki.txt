@@ -331,39 +331,41 @@ photo.66.author: shigeko0531
 photo.66.commitdate: 2021/1/9
 photo.66.link: https://www.instagram.com/shigeko0531/
 photo.66.tags: peek, tail, whiskers
-photo.67: ig://CMTESi1BJjc/m
-photo.67.author: firefoxpanda88
-photo.67.commitdate: 2021/4/11
-photo.67.link: https://www.instagram.com/firefoxpanda88/
-photo.67.tags: paws, portrait, standing, white face
-photo.68: ig://CNn6OG4hpSs/m
-photo.68.author: resapan.suki
-photo.68.commitdate: 2021/5/30
-photo.68.link: https://www.instagram.com/resapan.suki/
-photo.68.tags: close-up, mofumofu, portrait, snow, white face
-photo.69: ig://COsQuGUhWh4/m
+photo.67: ig://CKR1R3mBV71/m
+photo.67.author: resapan.suki
+photo.67.commitdate: 2021/7/21
+photo.67.link: https://www.instagram.com/resapan.suki/
+photo.67.tags: mofumofu, paws, standing, tail
+photo.68: ig://CMTESi1BJjc/m
+photo.68.author: firefoxpanda88
+photo.68.commitdate: 2021/4/11
+photo.68.link: https://www.instagram.com/firefoxpanda88/
+photo.68.tags: paws, portrait, standing, white face
+photo.69: ig://CNn6OG4hpSs/m
 photo.69.author: resapan.suki
-photo.69.commitdate: 2021/6/6
+photo.69.commitdate: 2021/5/30
 photo.69.link: https://www.instagram.com/resapan.suki/
-photo.69.tags: paws, portrait, tongue, window
-photo.70: ig://COv1EXiBToE/m
-photo.70.author: hamamatsu.chiita
+photo.69.tags: close-up, mofumofu, portrait, snow, white face
+photo.70: ig://COsQuGUhWh4/m
+photo.70.author: resapan.suki
 photo.70.commitdate: 2021/6/6
-photo.70.link: https://www.instagram.com/hamamatsu.chiita/
-photo.70.tags: portrait, whiskers
-photo.71: ig://CPPJwsBhfeP/m
-photo.71.author: shigeko0531
-photo.71.commitdate: 2021/7/7
-photo.71.link: https://www.instagram.com/shigeko0531/
-photo.71.tags: bamboo, blink, portrait, tongue
-photo.72: https://www.instagram.com/p/CO-Q1Z1BFVm/media/?size=m
+photo.70.link: https://www.instagram.com/resapan.suki/
+photo.70.tags: paws, portrait, tongue, window
+photo.71: ig://COv1EXiBToE/m
+photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2021/6/6
+photo.71.link: https://www.instagram.com/hamamatsu.chiita/
+photo.71.tags: portrait, whiskers
+photo.72: ig://CO-Q1Z1BFVm/m
 photo.72.author: kaoru_a358
+photo.72.commitdate: 2021/7/21
 photo.72.link: https://www.instagram.com/kaoru_a358/
 photo.72.tags: flowers, portrait
-photo.73: https://www.instagram.com/p/CKR1R3mBV71/media/?size=m
-photo.73.author: resapan.suki
-photo.73.link: https://www.instagram.com/resapan.suki/
-photo.73.tags: mofumofu, paws, standing, tail
+photo.73: ig://CPPJwsBhfeP/m
+photo.73.author: shigeko0531
+photo.73.commitdate: 2021/7/7
+photo.73.link: https://www.instagram.com/shigeko0531/
+photo.73.tags: bamboo, blink, portrait, tongue
 species: 2
 studbook.id: 15156
 zoo: 10

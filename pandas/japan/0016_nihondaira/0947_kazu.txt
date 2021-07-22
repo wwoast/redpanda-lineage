@@ -218,19 +218,20 @@ photo.41.author: kijyo.zoo
 photo.41.commitdate: 2021/6/9
 photo.41.link: https://www.instagram.com/kijyo.zoo/
 photo.41.tags: laying down, portrait, tree, videolink
-photo.42: ig://CPieA0YBz8S/m
-photo.42.author: taka__3428
-photo.42.commitdate: 2021/6/27
-photo.42.link: https://www.instagram.com/taka__3428/
-photo.42.tags: peek, whiskers
-photo.43: ig://CQzFj8hhecd/m
-photo.43.author: hamamatsu.chiita
-photo.43.commitdate: 2021/7/4
-photo.43.link: https://www.instagram.com/hamamatsu.chiita/
-photo.43.tags: portrait, profile, whiskers
-photo.44: https://www.instagram.com/p/CPUgWdIhjXR/media/?size=m
-photo.44.author: lesserpanda_shizuokacity_cp
-photo.44.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.44.tags: portrait, smile, tree
+photo.42: ig://CPUgWdIhjXR/m
+photo.42.author: lesserpanda_shizuokacity_cp
+photo.42.commitdate: 2021/7/21
+photo.42.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.42.tags: portrait, smile, tree
+photo.43: ig://CPieA0YBz8S/m
+photo.43.author: taka__3428
+photo.43.commitdate: 2021/6/27
+photo.43.link: https://www.instagram.com/taka__3428/
+photo.43.tags: peek, whiskers
+photo.44: ig://CQzFj8hhecd/m
+photo.44.author: hamamatsu.chiita
+photo.44.commitdate: 2021/7/4
+photo.44.link: https://www.instagram.com/hamamatsu.chiita/
+photo.44.tags: portrait, profile, whiskers
 species: 2
 zoo: 16

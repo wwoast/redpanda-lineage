@@ -299,35 +299,36 @@ photo.57.author: tomo3700
 photo.57.commitdate: 2021/1/30
 photo.57.link: https://www.instagram.com/tomo3700/
 photo.57.tags: grooming, home, paws, portrait
-photo.58: ig://CKgFD8GhTHW/m
-photo.58.author: shigeko0531
-photo.58.commitdate: 2021/1/31
-photo.58.link: https://www.instagram.com/shigeko0531/
-photo.58.tags: mofumofu, portrait, techitechi
-photo.59: ig://CN6WfXphzTp/m
+photo.58: ig://CKQywZShmDC/m
+photo.58.author: kaoru_a358
+photo.58.commitdate: 2021/7/21
+photo.58.link: https://www.instagram.com/kaoru_a358/
+photo.58.tags: close-up, paws, techitechi
+photo.59: ig://CKgFD8GhTHW/m
 photo.59.author: shigeko0531
-photo.59.commitdate: 2021/5/3
+photo.59.commitdate: 2021/1/31
 photo.59.link: https://www.instagram.com/shigeko0531/
-photo.59.tags: paws, portrait, white face
-photo.60: ig://COMgymUhqpG/m
+photo.59.tags: mofumofu, portrait, techitechi
+photo.60: ig://CN6WfXphzTp/m
 photo.60.author: shigeko0531
 photo.60.commitdate: 2021/5/3
 photo.60.link: https://www.instagram.com/shigeko0531/
-photo.60.tags: close-up, laying down, mofumofu, portrait
-photo.61: ig://CPx6l09hkLx/m
+photo.60.tags: paws, portrait, white face
+photo.61: ig://COMgymUhqpG/m
 photo.61.author: shigeko0531
-photo.61.commitdate: 2021/6/20
+photo.61.commitdate: 2021/5/3
 photo.61.link: https://www.instagram.com/shigeko0531/
-photo.61.tags: grooming, laying down, paws, portrait, tail
-photo.62: ig://CQTTaJ0BUhP/m
-photo.62.author: leonard_redmof
-photo.62.commitdate: 2021/6/23
-photo.62.link: https://www.instagram.com/leonard_redmof/
-photo.62.tags: baby, bamboo, mofumofu
-photo.63: https://www.instagram.com/p/CKQywZShmDC/media/?size=m
-photo.63.author: kaoru_a358
-photo.63.link: https://www.instagram.com/kaoru_a358/
-photo.63.tags: close-up, paws, techitechi
+photo.61.tags: close-up, laying down, mofumofu, portrait
+photo.62: ig://CPx6l09hkLx/m
+photo.62.author: shigeko0531
+photo.62.commitdate: 2021/6/20
+photo.62.link: https://www.instagram.com/shigeko0531/
+photo.62.tags: grooming, laying down, paws, portrait, tail
+photo.63: ig://CQTTaJ0BUhP/m
+photo.63.author: leonard_redmof
+photo.63.commitdate: 2021/6/23
+photo.63.link: https://www.instagram.com/leonard_redmof/
+photo.63.tags: baby, bamboo, mofumofu
 species: 2
 studbook.id: 14141
 zoo: 10

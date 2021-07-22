@@ -508,20 +508,21 @@ photo.99.author: ayusuke56
 photo.99.commitdate: 2021/6/29
 photo.99.link: https://www.instagram.com/ayusuke56/
 photo.99.tags: bamboo, bite, paws, portrait
-photo.100: ig://CPnhYk1B8E-/m
-photo.100.author: ayusuke56
-photo.100.commitdate: 2021/6/29
-photo.100.link: https://www.instagram.com/ayusuke56/
-photo.100.tags: bamboo, close-up, paws
-photo.101: ig://CPqCHlkBsYS/m
+photo.100: ig://CPgsRVUBBT7/m
+photo.100.author: hamamatsu.chiita
+photo.100.commitdate: 2021/7/21
+photo.100.link: https://www.instagram.com/hamamatsu.chiita/
+photo.100.tags: close-up, laying down, paws, portrait, smile, tongue
+photo.101: ig://CPnhYk1B8E-/m
 photo.101.author: ayusuke56
 photo.101.commitdate: 2021/6/29
 photo.101.link: https://www.instagram.com/ayusuke56/
-photo.101.tags: portrait
-photo.102: https://www.instagram.com/p/CPgsRVUBBT7/media/?size=m
-photo.102.author: hamamatsu.chiita
-photo.102.link: https://www.instagram.com/hamamatsu.chiita/
-photo.102.tags: close-up, laying down, paws, portrait, smile, tongue
+photo.101.tags: bamboo, close-up, paws
+photo.102: ig://CPqCHlkBsYS/m
+photo.102.author: ayusuke56
+photo.102.commitdate: 2021/6/29
+photo.102.link: https://www.instagram.com/ayusuke56/
+photo.102.tags: portrait
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

@@ -110,35 +110,36 @@ photo.19.author: okczoo
 photo.19.commitdate: 2020/6/6
 photo.19.link: https://www.instagram.com/okczoo/
 photo.19.tags: bamboo, smile, standing
-photo.20: ig://CFU6oJrMqA2/m
+photo.20: ig://CA_U2jksqdt/m
 photo.20.author: sedgwickcountyzoo
-photo.20.commitdate: 2020/12/30
+photo.20.commitdate: 2021/7/21
 photo.20.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.20.tags: paws, smile, standing, tail
-photo.21: ig://CHgJKhoMgPA/m
+photo.20.tags: bamboo, dish, paws, portrait
+photo.21: ig://CFU6oJrMqA2/m
 photo.21.author: sedgwickcountyzoo
-photo.21.commitdate: 2020/11/22
+photo.21.commitdate: 2020/12/30
 photo.21.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.21.tags: pumpkin, paws, standing
-photo.22: ig://CI3zxjpsUEB/m
+photo.21.tags: paws, smile, standing, tail
+photo.22: ig://CHgJKhoMgPA/m
 photo.22.author: sedgwickcountyzoo
-photo.22.commitdate: 2020/12/30
+photo.22.commitdate: 2020/11/22
 photo.22.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.22.tags: paws, portrait, snow
-photo.23: ig://CI4s2_jBoJ2/m
+photo.22.tags: pumpkin, paws, standing
+photo.23: ig://CI3zxjpsUEB/m
 photo.23.author: sedgwickcountyzoo
 photo.23.commitdate: 2020/12/30
 photo.23.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.23.tags: portrait, smile, snow
-photo.24: ig://CJz8fPlhylT/m
+photo.23.tags: paws, portrait, snow
+photo.24: ig://CI4s2_jBoJ2/m
 photo.24.author: sedgwickcountyzoo
-photo.24.commitdate: 2021/5/30
-photo.24.link: https://www.instagram.com/carsontheredpanda/
-photo.24.tags: bamboo, paws, standing, tail
-photo.25: https://www.instagram.com/p/CA_U2jksqdt/media/?size=m
+photo.24.commitdate: 2020/12/30
+photo.24.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.24.tags: portrait, smile, snow
+photo.25: ig://CJz8fPlhylT/m
 photo.25.author: sedgwickcountyzoo
-photo.25.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.25.tags: bamboo, dish, paws, portrait
+photo.25.commitdate: 2021/5/30
+photo.25.link: https://www.instagram.com/carsontheredpanda/
+photo.25.tags: bamboo, paws, standing, tail
 species: 1
 studbook.id: 1904
 zoo: 179

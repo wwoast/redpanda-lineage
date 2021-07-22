@@ -843,20 +843,21 @@ photo.167.author: fetorus_mami
 photo.167.commitdate: 2021/6/16
 photo.167.link: https://www.instagram.com/fetorus_mami/
 photo.167.tags: climb, paws, smile
-photo.168: ig://CPtpoqchfrh/m
+photo.168: ig://CPbm1uaBBz4/m
 photo.168.author: hamamatsu.chiita
-photo.168.commitdate: 2021/7/9
+photo.168.commitdate: 2021/7/21
 photo.168.link: https://www.instagram.com/hamamatsu.chiita/
-photo.168.tags: peek, portrait, profile, whiskers
-photo.169: ig://CRPAD2VBC5S/m
-photo.169.author: eos1089
-photo.169.commitdate: 2021/7/13
-photo.169.link: https://www.instagram.com/eos1089/
-photo.169.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.170: https://www.instagram.com/p/CPbm1uaBBz4/media/?size=m
-photo.170.author: hamamatsu.chiita
-photo.170.link: https://www.instagram.com/hamamatsu.chiita/
-photo.170.tags: close-up, portrait, smile, whiskers
+photo.168.tags: close-up, portrait, smile, whiskers
+photo.169: ig://CPtpoqchfrh/m
+photo.169.author: hamamatsu.chiita
+photo.169.commitdate: 2021/7/9
+photo.169.link: https://www.instagram.com/hamamatsu.chiita/
+photo.169.tags: peek, portrait, profile, whiskers
+photo.170: ig://CRPAD2VBC5S/m
+photo.170.author: eos1089
+photo.170.commitdate: 2021/7/13
+photo.170.link: https://www.instagram.com/eos1089/
+photo.170.tags: close-up, mofumofu, portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264
