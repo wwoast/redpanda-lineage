@@ -1103,20 +1103,21 @@ photo.223.author: cattail.sapporo
 photo.223.commitdate: 2021/6/28
 photo.223.link: https://www.instagram.com/cattail.sapporo/
 photo.223.tags: close-up, paws, portrait, whiskers
-photo.224: ig://CP-nkr3hptA/m
+photo.224: ig://CP0UxpLh_UM/m
 photo.224.author: tama67photo
-photo.224.commitdate: 2021/6/24
+photo.224.commitdate: 2021/7/22
 photo.224.link: https://www.instagram.com/tama67photo/
-photo.224.tags: peek, portrait
-photo.225: ig://CQVrGSFgS59/m
-photo.225.author: cattail.sapporo
-photo.225.commitdate: 2021/6/23
-photo.225.link: https://www.instagram.com/cattail.sapporo/
-photo.225.tags: close-up, portrait, whiskers
-photo.226: https://www.instagram.com/p/CP0UxpLh_UM/media/?size=m
-photo.226.author: tama67photo
-photo.226.link: https://www.instagram.com/tama67photo/
-photo.226.tags: paws, portrait, snow, whiskers
+photo.224.tags: paws, portrait, snow, whiskers
+photo.225: ig://CP-nkr3hptA/m
+photo.225.author: tama67photo
+photo.225.commitdate: 2021/6/24
+photo.225.link: https://www.instagram.com/tama67photo/
+photo.225.tags: peek, portrait
+photo.226: ig://CQVrGSFgS59/m
+photo.226.author: cattail.sapporo
+photo.226.commitdate: 2021/6/23
+photo.226.link: https://www.instagram.com/cattail.sapporo/
+photo.226.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7
