@@ -383,10 +383,8 @@ Page.home.special_memorial = function() {
     return hokuto;
   } else {
     // Group memorial for Kin and Gin, temporarily Hokuto
-    // var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
-    // return kingin;
-    var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
-    return hokuto;
+    var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    return kingin;
   }
 }
 
