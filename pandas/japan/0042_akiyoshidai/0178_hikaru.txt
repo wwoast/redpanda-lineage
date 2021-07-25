@@ -201,15 +201,16 @@ photo.38.author: miis_98
 photo.38.commitdate: 2021/4/29
 photo.38.link: https://www.instagram.com/miis_98/
 photo.38.tags: apple time, paws, portrait, smile, standing, tail
-photo.39: ig://CRSuBFyBGQn/m
-photo.39.author: re_ichimaru
-photo.39.commitdate: 2021/7/14
-photo.39.link: https://www.instagram.com/re_ichimaru/
-photo.39.tags: mofumofu, portrait, whiskers
-photo.40: https://www.instagram.com/p/CQBU-S6Bh38/media/?size=m
-photo.40.author: kojikoji2011
-photo.40.link: https://www.instagram.com/kojikoji2011/
-photo.40.tags: peek, smile, whiskers
+photo.39: ig://CQBU-S6Bh38/m
+photo.39.author: kojikoji2011
+photo.39.commitdate: 2021/7/25
+photo.39.link: https://www.instagram.com/kojikoji2011/
+photo.39.tags: peek, smile, whiskers
+photo.40: ig://CRSuBFyBGQn/m
+photo.40.author: re_ichimaru
+photo.40.commitdate: 2021/7/14
+photo.40.link: https://www.instagram.com/re_ichimaru/
+photo.40.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1784
 zoo: 42
