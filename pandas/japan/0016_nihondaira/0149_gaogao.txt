@@ -298,35 +298,36 @@ photo.57.author: lesserpanda_shizuokacity_cp
 photo.57.commitdate: 2021/5/19
 photo.57.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.57.tags: portrait, whiskers
-photo.58: ig://CPlB6WJB_6f/m
-photo.58.author: taka__3428
-photo.58.commitdate: 2021/6/29
-photo.58.link: https://www.instagram.com/taka__3428/
-photo.58.tags: bamboo, close-up, paws
-photo.59: ig://CPmhzQlBAvL/m
-photo.59.author: lesserpanda_shizuokacity_cp
+photo.58: ig://COhBS_9Bu9k/m
+photo.58.author: lesserpanda_shizuokacity_cp
+photo.58.commitdate: 2021/7/27
+photo.58.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.58.tags: door, laying down, paws, tail
+photo.59: ig://CPlB6WJB_6f/m
+photo.59.author: taka__3428
 photo.59.commitdate: 2021/6/29
-photo.59.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.59.tags: bamboo, paws, portrait, standing, tail
-photo.60: ig://CQpageYMHXs/m
+photo.59.link: https://www.instagram.com/taka__3428/
+photo.59.tags: bamboo, close-up, paws
+photo.60: ig://CPmhzQlBAvL/m
 photo.60.author: lesserpanda_shizuokacity_cp
-photo.60.commitdate: 2021/6/28
+photo.60.commitdate: 2021/6/29
 photo.60.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.60.tags: apple time, paws, portrait, tail
-photo.61: ig://CRAoq5iMsxa/m
+photo.60.tags: bamboo, paws, portrait, standing, tail
+photo.61: ig://CQpageYMHXs/m
 photo.61.author: lesserpanda_shizuokacity_cp
-photo.61.commitdate: 2021/7/19
+photo.61.commitdate: 2021/6/28
 photo.61.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.61.tags: bamboo, paws, standing, tail
-photo.62: ig://CRSrSnjsTvR/m
+photo.61.tags: apple time, paws, portrait, tail
+photo.62: ig://CRAoq5iMsxa/m
 photo.62.author: lesserpanda_shizuokacity_cp
-photo.62.commitdate: 2021/7/14
+photo.62.commitdate: 2021/7/19
 photo.62.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.62.tags: close-up, portrait, whiskers
-photo.63: https://www.instagram.com/p/COhBS_9Bu9k/media/?size=m
+photo.62.tags: bamboo, paws, standing, tail
+photo.63: ig://CRSrSnjsTvR/m
 photo.63.author: lesserpanda_shizuokacity_cp
+photo.63.commitdate: 2021/7/14
 photo.63.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.63.tags: door, laying down, paws, tail
+photo.63.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

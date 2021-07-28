@@ -287,26 +287,29 @@ photo.55.author: yossi929
 photo.55.commitdate: 2021/2/2
 photo.55.link: https://www.instagram.com/yossi929/
 photo.55.tags: peek, portrait, whiskers
-photo.56: ig://CM5fIegBSxk/m
-photo.56.author: yossi929
-photo.56.commitdate: 2021/7/8
-photo.56.link: https://www.instagram.com/yossi929/
-photo.56.tags: tail, tongue
-photo.57: ig://CQhz0KohKNJ/m
-photo.57.author: re_ichimaru
+photo.56: ig://CLuy27zhYAK/m
+photo.56.author: sasapan34
+photo.56.commitdate: 2021/7/27
+photo.56.link: https://www.instagram.com/sasapan34/
+photo.56.tags: tail, whiskers
+photo.57: ig://CM5fIegBSxk/m
+photo.57.author: yossi929
 photo.57.commitdate: 2021/7/8
-photo.57.link: https://www.instagram.com/re_ichimaru/
-photo.57.tags: mofumofu, portrait, smile, tongue, whiskers
-photo.58: https://www.instagram.com/p/CObmLzOhZFN/media/?size=m
+photo.57.link: https://www.instagram.com/yossi929/
+photo.57.tags: tail, tongue
+photo.58: ig://CObmLzOhZFN/m
 photo.58.author: yossi929
+photo.58.commitdate: 2021/7/27
 photo.58.link: https://www.instagram.com/yossi929/
 photo.58.tags: home, portrait, smile, whiskers
-photo.59: https://www.instagram.com/p/CLuy27zhYAK/media/?size=m
-photo.59.author: sasapan34
-photo.59.link: https://www.instagram.com/sasapan34/
-photo.59.tags: tail, whiskers
-photo.60: https://www.instagram.com/p/CQh1MHPLiqE/media/?size=m
+photo.59: ig://CQhz0KohKNJ/m
+photo.59.author: re_ichimaru
+photo.59.commitdate: 2021/7/8
+photo.59.link: https://www.instagram.com/re_ichimaru/
+photo.59.tags: mofumofu, portrait, smile, tongue, whiskers
+photo.60: ig://CQh1MHPLiqE/m
 photo.60.author: itozu_zoo
+photo.60.commitdate: 2021/7/27
 photo.60.link: https://www.instagram.com/itozu_zoo/
 photo.60.tags: apple time, birthday, keeper, portrait
 species: 2

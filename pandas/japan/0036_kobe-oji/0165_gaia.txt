@@ -823,20 +823,21 @@ photo.164.author: i.satosato
 photo.164.commitdate: 2021/5/3
 photo.164.link: https://www.instagram.com/i.satosato/
 photo.164.tags: flowers, mofumofu, portrait
-photo.165: ig://COj-IMcBAyd/m
-photo.165.author: falcon_tenor
-photo.165.commitdate: 2021/6/15
-photo.165.link: https://www.instagram.com/falcon_tenor/
-photo.165.tags: close-up, mofumofu, whiskers
-photo.166: ig://CQU-wJehPoL/m
+photo.165: ig://COc-xUmBK95/m
+photo.165.author: craig_craig_craig
+photo.165.commitdate: 2021/7/27
+photo.165.link: https://www.instagram.com/craig_craig_craig/
+photo.165.tags: mofumofu, portrait, whiskers
+photo.166: ig://COj-IMcBAyd/m
 photo.166.author: falcon_tenor
-photo.166.commitdate: 2021/6/23
+photo.166.commitdate: 2021/6/15
 photo.166.link: https://www.instagram.com/falcon_tenor/
-photo.166.tags: bamboo, paws, portrait, smile
-photo.167: https://www.instagram.com/p/COc-xUmBK95/media/?size=m
-photo.167.author: craig_craig_craig
-photo.167.link: https://www.instagram.com/craig_craig_craig/
-photo.167.tags: mofumofu, portrait, whiskers
+photo.166.tags: close-up, mofumofu, whiskers
+photo.167: ig://CQU-wJehPoL/m
+photo.167.author: falcon_tenor
+photo.167.commitdate: 2021/6/23
+photo.167.link: https://www.instagram.com/falcon_tenor/
+photo.167.tags: bamboo, paws, portrait, smile
 species: 2
 studbook.id: 0457
 zoo: 36
