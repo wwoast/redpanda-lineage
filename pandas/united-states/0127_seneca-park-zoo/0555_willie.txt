@@ -36,6 +36,10 @@ photo.4.author: senecaparkzoo
 photo.4.commitdate: 2020/11/21
 photo.4.link: https://www.instagram.com/senecaparkzoo/
 photo.4.tags: close-up, portrait, white face
+photo.5: https://www.instagram.com/p/CNIhywhLZCj/media/?size=m
+photo.5.author: senecaparkzoo
+photo.5.link: https://www.instagram.com/senecaparkzoo/
+photo.5.tags: hammock, white face
 species: 1
 studbook.id: 1520
 uncertainty: location.3 date
