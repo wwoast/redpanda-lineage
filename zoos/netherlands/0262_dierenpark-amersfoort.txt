@@ -12,12 +12,14 @@ map: https://goo.gl/maps/cnSsGqhg5cmqMATg8
 nl.address: Barchman Wuytierslaan 224, 3819 AC Amersfoort, Netherlands
 nl.location: Amersfoort, Netherlands
 nl.name: DierenPark Amersfoort
-photo.1: https://www.instagram.com/p/CRrP04psEDY/media/?size=m
+photo.1: ig://CRbATIvssXq/m
 photo.1.author: dierenparkamersfoort
+photo.1.commitdate: 2021/7/29
 photo.1.link: https://www.instagram.com/dierenparkamersfoort/
-photo.1.tags: profile
-photo.2: https://www.instagram.com/p/CRbATIvssXq/media/?size=m
+photo.1.tags: videolink
+photo.2: ig://CRrP04psEDY/m
 photo.2.author: dierenparkamersfoort
+photo.2.commitdate: 2021/7/29
 photo.2.link: https://www.instagram.com/dierenparkamersfoort/
-photo.2.tags: videolink
+photo.2.tags: profile
 website: https://dierenparkamersfoort.nl/
