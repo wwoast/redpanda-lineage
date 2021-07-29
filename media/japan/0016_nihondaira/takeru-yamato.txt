@@ -1,8 +1,10 @@
 [media]
 _id: media.16.takeru-yamato
+commitdate: 2021/7/29
 panda.tags: 158, 896
-photo.1: https://www.instagram.com/p/BSn4SoLlz8c/media/?size=l
+photo.1: ig://BSn4SoLlz8c/l
 photo.1.author: rdpnzoo
+photo.1.commitdate: 2021/7/29
 photo.1.link: https://www.instagram.com/rdpnzoo/
 photo.1.tags: baby, brothers, siblings, twins
 photo.1.tags.158.location: 415, 230
