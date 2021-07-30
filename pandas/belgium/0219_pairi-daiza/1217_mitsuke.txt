@@ -31,8 +31,9 @@ photo.3.author: nathalie.elliott
 photo.3.commitdate: 2021/3/29
 photo.3.link: https://www.instagram.com/nathalie.elliott/
 photo.3.tags: baby, bridge, tail
-photo.4: https://www.instagram.com/p/CLpQZBzH4f3/media/?size=m
+photo.4: ig://CLpQZBzH4f3/m
 photo.4.author: mirellad03
+photo.4.commitdate: 2021/7/30
 photo.4.link: https://www.instagram.com/mirellad03/
 photo.4.tags: bamboo, mofumofu, portrait, profile, wihskers
 species: 1

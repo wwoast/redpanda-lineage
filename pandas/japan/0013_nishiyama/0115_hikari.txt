@@ -345,12 +345,14 @@ photo.67.author: redpanda77f
 photo.67.commitdate: 2021/7/13
 photo.67.link: https://www.instagram.com/redpanda77f/
 photo.67.tags: mofumofu, tree, videolink
-photo.68: https://www.instagram.com/p/CRw5eBvhhkh/media/?size=m
+photo.68: ig://CRw5eBvhhkh/m
 photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2021/7/30
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: close-up, portrait, smile, whiskers
-photo.69: https://www.instagram.com/p/CRxzF4pBJpx/media/?size=m
+photo.69: ig://CRxzF4pBJpx/m
 photo.69.author: minato.yokohama4416
+photo.69.commitdate: 2021/7/30
 photo.69.link: https://www.instagram.com/minato.yokohama4416/
 photo.69.tags: laying down, paws, peek, portrait, tree, whiskers
 species: 2

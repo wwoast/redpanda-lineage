@@ -423,8 +423,9 @@ photo.83.author: itsuak
 photo.83.commitdate: 2021/7/14
 photo.83.link: https://www.instagram.com/itsuak/
 photo.83.tags: ear, laying down, paws, portrait, smile
-photo.84: https://www.instagram.com/p/CR1MvGUDDq3/media/?size=m
+photo.84: ig://CR1MvGUDDq3/m
 photo.84.author: itsuak
+photo.84.commitdate: 2021/7/30
 photo.84.link: https://www.instagram.com/itsuak/
 photo.84.tags: ear, laying down, paws, portrait, smile, tongue
 species: 2

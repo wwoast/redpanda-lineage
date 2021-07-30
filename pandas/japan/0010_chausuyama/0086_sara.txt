@@ -755,15 +755,16 @@ photo.149.author: na.mo.pan
 photo.149.commitdate: 2021/6/16
 photo.149.link: https://www.instagram.com/na.mo.pan/
 photo.149.tags: paws, techitechi, tree
-photo.150: ig://CQTftCthDCP/m
-photo.150.author: redpan22
-photo.150.commitdate: 2021/7/18
-photo.150.link: https://www.instagram.com/redpan22/
-photo.150.tags: close-up, portrait, whiskers
-photo.151: https://www.instagram.com/p/CPmm0G4BUC1/media/?size=m
-photo.151.author: shigeko0531
-photo.151.link: https://www.instagram.com/shigeko0531/
-photo.151.tags: close-up, mofumofu, portrait, whiskers
+photo.150: ig://CPmm0G4BUC1/m
+photo.150.author: shigeko0531
+photo.150.commitdate: 2021/7/30
+photo.150.link: https://www.instagram.com/shigeko0531/
+photo.150.tags: close-up, mofumofu, portrait, whiskers
+photo.151: ig://CQTftCthDCP/m
+photo.151.author: redpan22
+photo.151.commitdate: 2021/7/18
+photo.151.link: https://www.instagram.com/redpan22/
+photo.151.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 0987
 zoo: 10

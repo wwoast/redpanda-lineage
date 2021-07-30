@@ -396,8 +396,9 @@ photo.77.author: eos1089
 photo.77.commitdate: 2021/7/3
 photo.77.link: https://www.instagram.com/eos1089/
 photo.77.tags: portrait, smile, tree, whiskers
-photo.78: https://www.instagram.com/p/CRxuponhxea/media/?size=m
+photo.78: ig://CRxuponhxea/m
 photo.78.author: hidehaya_biei
+photo.78.commitdate: 2021/7/30
 photo.78.link: https://www.instagram.com/hidehaya_biei/
 photo.78.tags: mofumofu, whiskers
 species: 2
