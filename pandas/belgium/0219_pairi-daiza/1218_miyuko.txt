@@ -20,7 +20,7 @@ photo.1: ig://CF1veFxA558/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/nathalie.elliott/
-photo.1.tags: baby, door, portrait, profile
+photo.1.tags: baby, door, portrait
 photo.2: https://www.codaworry.com/images/rpf/miyuko-1-pairidaiza.jpg
 photo.2.author: nathalie.elliott
 photo.2.commitdate: 2021/3/29
@@ -51,5 +51,9 @@ photo.7.author: nathalie.elliott
 photo.7.commitdate: 2021/5/26
 photo.7.link: https://www.instagram.com/nathalie.elliott/
 photo.7.tags: bamboo, paws, portrait, standing, tail
+photo.8: https://www.instagram.com/p/CLpQR3nnF_c/media/?size=m
+photo.8.author: mirellad03
+photo.8.link: https://www.instagram.com/mirellad03/
+photo.8.tags: bamboo, peek, portrait, profile, whiskers
 species: 1
 zoo: 219
