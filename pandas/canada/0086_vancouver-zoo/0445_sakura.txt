@@ -121,8 +121,9 @@ photo.21.author: westcoast_kathy
 photo.21.commitdate: 2021/7/7
 photo.21.link: https://www.instagram.com/westcoast_kathy/
 photo.21.tags: bamboo, paws, portrait
-photo.22: https://www.instagram.com/p/CReuJFTACV6/media/?size=m
+photo.22: ig://CReuJFTACV6/m
 photo.22.author: westcoast_kathy
+photo.22.commitdate: 2021/8/2
 photo.22.link: https://www.instagram.com/westcoast_kathy/
 photo.22.tags: bamboo, close-up, mofumofu
 species: 2

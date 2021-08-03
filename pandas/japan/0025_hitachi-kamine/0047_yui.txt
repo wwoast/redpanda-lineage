@@ -145,8 +145,9 @@ photo.27.author: ssc6105
 photo.27.commitdate: 2021/7/14
 photo.27.link: https://www.instagram.com/ssc6105/
 photo.27.tags: bamboo, paws, portrait, whiskers
-photo.28: https://www.instagram.com/p/CRi_NyNBjhM/media/?size=m
+photo.28: ig://CRi_NyNBjhM/m
 photo.28.author: rie_panda55
+photo.28.commitdate: 2021/8/2
 photo.28.link: https://www.instagram.com/rie_panda55/
 photo.28.tags: portrait, whiskers
 species: 2

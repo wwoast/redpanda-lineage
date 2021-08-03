@@ -76,8 +76,9 @@ photo.12.author: miis_98
 photo.12.commitdate: 2021/6/6
 photo.12.link: https://www.instagram.com/miis_98/
 photo.12.tags: portrait, whiskers
-photo.13: https://www.instagram.com/p/CReynTQBG0b/media/?size=m
+photo.13: ig://CReynTQBG0b/m
 photo.13.author: fetorus_mami
+photo.13.commitdate: 2021/8/2
 photo.13.link: https://www.instagram.com/fetorus_mami/
 photo.13.tags: close-up, techitechi, whiskers
 species: 1

@@ -117,8 +117,9 @@ photo.21.author: fetorus_mami
 photo.21.commitdate: 2021/7/4
 photo.21.link: https://www.instagram.com/fetorus_mami/
 photo.21.tags: close-up, whiskers
-photo.22: https://www.instagram.com/p/CRdnJWIh3Lg/media/?size=m
+photo.22: ig://CRdnJWIh3Lg/m
 photo.22.author: colette.jp
+photo.22.commitdate: 2021/8/2
 photo.22.link: https://www.instagram.com/colette.jp/
 photo.22.tags: close-up, portrait, smile, tongue
 species: 2

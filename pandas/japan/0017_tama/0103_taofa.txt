@@ -488,8 +488,9 @@ photo.95.author: redpan22
 photo.95.commitdate: 2021/7/14
 photo.95.link: https://www.instagram.com/redpan22/
 photo.95.tags: bridge, laying down, paws, tongue
-photo.96: https://www.instagram.com/p/CRkPSY4Bfqa/media/?size=m
+photo.96: ig://CRkPSY4Bfqa/m
 photo.96.author: ck.chie
+photo.96.commitdate: 2021/8/2
 photo.96.link: https://www.instagram.com/ck.chie/
 photo.96.tags: paws, portrait, smile, tongue, whiskers
 species: 2

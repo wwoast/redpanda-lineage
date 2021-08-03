@@ -73,15 +73,16 @@ photo.12: ig://CInwy1XBPV0/m
 photo.12.author: sasapan34
 photo.12.commitdate: 2020/12/21
 photo.12.link: https://www.instagram.com/sasapan34/
-photo.13: ig://CRolY5QhzJt/m
-photo.13.author: eos1089
-photo.13.commitdate: 2021/7/30
-photo.13.link: https://www.instagram.com/eos1089/
-photo.13.tags: door, peek, portrait, whiskers
-photo.14: https://www.instagram.com/p/CRgzo-ThFZq/media/?size=m
-photo.14.author: rie_panda55
-photo.14.link: https://www.instagram.com/rie_panda55/
-photo.14.tags: peek, portrait
+photo.13: ig://CRgzo-ThFZq/m
+photo.13.author: rie_panda55
+photo.13.commitdate: 2021/8/2
+photo.13.link: https://www.instagram.com/rie_panda55/
+photo.13.tags: peek, portrait
+photo.14: ig://CRolY5QhzJt/m
+photo.14.author: eos1089
+photo.14.commitdate: 2021/7/30
+photo.14.link: https://www.instagram.com/eos1089/
+photo.14.tags: door, peek, portrait, whiskers
 species: 2
 studbook.id: 0482
 zoo: 25
