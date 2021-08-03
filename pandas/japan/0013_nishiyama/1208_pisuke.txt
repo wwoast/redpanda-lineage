@@ -17,7 +17,7 @@ photo.1: ig://CFwSobSh-6g/m
 photo.1.author: minato.yokohama4416
 photo.1.commitdate: 2020/10/2
 photo.1.link: https://www.instagram.com/minato.yokohama4416/
-photo.1.tags: baby, mofumofu, portrait, profile
+photo.1.tags: baby, mofumofu, portrait
 photo.2: ig://CF1hbOaB3-L/m
 photo.2.author: hamamatsu.chiita
 photo.2.commitdate: 2020/10/7
@@ -473,6 +473,10 @@ photo.92.author: jas_forever_love
 photo.92.commitdate: 2021/7/18
 photo.92.link: https://www.instagram.com/jas_forever_love/
 photo.92.tags: paws, smile, tongue
+photo.93: https://www.instagram.com/p/CRmhPS0hSAt/media/?size=m
+photo.93.author: hamamatsu.chiita
+photo.93.link: https://www.instagram.com/hamamatsu.chiita/
+photo.93.tags: mofumofu, portrait, profile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13
