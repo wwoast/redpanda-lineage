@@ -1272,39 +1272,41 @@ photo.252.author: shigeko0531
 photo.252.commitdate: 2021/4/10
 photo.252.link: https://www.instagram.com/shigeko0531/
 photo.252.tags: home, laying down, portrait, tail
-photo.253: ig://COuvIPGh_b3/m
-photo.253.author: jas_forever_love
-photo.253.commitdate: 2021/6/6
-photo.253.link: https://www.instagram.com/jas_forever_love/
-photo.253.tags: home, paws, whiskers
-photo.254: ig://CPDwXOiBgjf/m
-photo.254.author: redpan22
-photo.254.commitdate: 2021/7/14
-photo.254.link: https://www.instagram.com/redpan22/
-photo.254.tags: flowers, portrait, whiskers
-photo.255: ig://CQp2mGMBkCq/m
-photo.255.author: shigeko0531
-photo.255.commitdate: 2021/7/19
-photo.255.link: https://www.instagram.com/shigeko0531/
-photo.255.tags: portrait, profile, smile, whiskers
-photo.256: ig://CRVgbphBT_z/m
-photo.256.author: alto0908
-photo.256.commitdate: 2021/7/19
-photo.256.link: https://www.instagram.com/alto0908/
-photo.256.tags: mofumofu, portrait, techitechi, whiskers
-photo.257: ig://CRlllfFhwip/m
-photo.257.author: eos1089
-photo.257.commitdate: 2021/8/2
-photo.257.link: https://www.instagram.com/eos1089/
-photo.257.tags: laying down, paws, tail, toys, upside-down
-photo.258: https://www.instagram.com/p/CM2xLslBvIg/media/?size=m
-photo.258.author: hamamatsu.chiita
-photo.258.link: https://www.instagram.com/hamamatsu.chiita/
-photo.258.tags: close-up, portrait, whiskers
-photo.259: https://www.instagram.com/p/CMzdxs4hPIH/media/?size=m
-photo.259.author: shigeko0531
-photo.259.link: https://www.instagram.com/shigeko0531/
-photo.259.tags: portrait, whiskers
+photo.253: ig://CMzdxs4hPIH/m
+photo.253.author: shigeko0531
+photo.253.commitdate: 2021/8/6
+photo.253.link: https://www.instagram.com/shigeko0531/
+photo.253.tags: portrait, whiskers
+photo.254: ig://CM2xLslBvIg/m
+photo.254.author: hamamatsu.chiita
+photo.254.commitdate: 2021/8/6
+photo.254.link: https://www.instagram.com/hamamatsu.chiita/
+photo.254.tags: close-up, portrait, whiskers
+photo.255: ig://COuvIPGh_b3/m
+photo.255.author: jas_forever_love
+photo.255.commitdate: 2021/6/6
+photo.255.link: https://www.instagram.com/jas_forever_love/
+photo.255.tags: home, paws, whiskers
+photo.256: ig://CPDwXOiBgjf/m
+photo.256.author: redpan22
+photo.256.commitdate: 2021/7/14
+photo.256.link: https://www.instagram.com/redpan22/
+photo.256.tags: flowers, portrait, whiskers
+photo.257: ig://CQp2mGMBkCq/m
+photo.257.author: shigeko0531
+photo.257.commitdate: 2021/7/19
+photo.257.link: https://www.instagram.com/shigeko0531/
+photo.257.tags: portrait, profile, smile, whiskers
+photo.258: ig://CRVgbphBT_z/m
+photo.258.author: alto0908
+photo.258.commitdate: 2021/7/19
+photo.258.link: https://www.instagram.com/alto0908/
+photo.258.tags: mofumofu, portrait, techitechi, whiskers
+photo.259: ig://CRlllfFhwip/m
+photo.259.author: eos1089
+photo.259.commitdate: 2021/8/2
+photo.259.link: https://www.instagram.com/eos1089/
+photo.259.tags: laying down, paws, tail, toys, upside-down
 species: 2
 studbook.id: unknown
 zoo: 10

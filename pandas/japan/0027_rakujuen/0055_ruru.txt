@@ -328,8 +328,9 @@ photo.63.author: fetorus_mami
 photo.63.commitdate: 2021/6/23
 photo.63.link: https://www.instagram.com/fetorus_mami/
 photo.63.tags: paws, whiskers
-photo.64: https://www.instagram.com/p/CQYNh5aB2My/media/?size=m
+photo.64: ig://CQYNh5aB2My/m
 photo.64.author: mybrotherisdylan
+photo.64.commitdate: 2021/8/6
 photo.64.link: https://www.instagram.com/mybrotherisdylan/
 photo.64.tags: apple time, birthday, keeper
 species: 2

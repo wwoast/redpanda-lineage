@@ -23,8 +23,9 @@ photo.2.author: uticazoo
 photo.2.commitdate: 2020/2/23
 photo.2.link: https://www.instagram.com/uticazoo/
 photo.2.tags: baby, paws, whiskers
-photo.3: https://www.instagram.com/p/CJ-PFQvh8fV/media/?size=m
+photo.3: ig://CJ-PFQvh8fV/m
 photo.3.author: uticazoo
+photo.3.commitdate: 2021/8/6
 photo.3.link: https://www.instagram.com/uticazoo/
 photo.3.tags: portrait, snow, toys, whiskers
 species: 2

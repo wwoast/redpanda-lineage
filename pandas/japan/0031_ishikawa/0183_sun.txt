@@ -313,40 +313,41 @@ photo.60.author: hamamatsu.chiita
 photo.60.commitdate: 2020/12/30
 photo.60.link: https://www.instagram.com/hamamatsu.chiita/
 photo.60.tags: laying down, tail
-photo.61: ig://CMEzaSuB5S5/m
-photo.61.author: hamamatsu.chiita
-photo.61.commitdate: 2021/3/28
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
-photo.61.tags: bamboo, portrait, tail
-photo.62: ig://CMVdi2sBIeH/m
+photo.61: ig://CJ5fkNXB2w_/m
+photo.61.author: craig_craig_craig
+photo.61.commitdate: 2021/8/6
+photo.61.link: https://www.instagram.com/craig_craig_craig/
+photo.61.tags: carry, portrait, surprise, tail
+photo.62: ig://CMEzaSuB5S5/m
 photo.62.author: hamamatsu.chiita
-photo.62.commitdate: 2021/4/11
+photo.62.commitdate: 2021/3/28
 photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: mofumofu, portrait, white face
-photo.63: ig://CNIDwAih8ul/m
-photo.63.author: bee_san.13
-photo.63.commitdate: 2021/4/7
-photo.63.link: https://www.instagram.com/bee_san.13/
-photo.63.tags: portrait, smile, tree
-photo.64: ig://CNU1R4AB15m/m
+photo.62.tags: bamboo, portrait, tail
+photo.63: ig://CMVdi2sBIeH/m
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2021/4/11
+photo.63.link: https://www.instagram.com/hamamatsu.chiita/
+photo.63.tags: mofumofu, portrait, white face
+photo.64: ig://CNIDwAih8ul/m
 photo.64.author: bee_san.13
-photo.64.commitdate: 2021/5/4
+photo.64.commitdate: 2021/4/7
 photo.64.link: https://www.instagram.com/bee_san.13/
-photo.64.tags: paws, portrait, smile, whiskers
-photo.65: ig://CNtbZdLBcgG/m
-photo.65.author: makimaru18
-photo.65.commitdate: 2021/5/26
-photo.65.link: https://www.instagram.com/makimaru18/
-photo.65.tags: laying down, portrait, sleeping
-photo.66: ig://CQzFnHOBG5j/m
-photo.66.author: hamamatsu.chiita
-photo.66.commitdate: 2021/7/4
-photo.66.link: https://www.instagram.com/hamamatsu.chiita/
-photo.66.tags: mofumofu, portrait, whiskers
-photo.67: https://www.instagram.com/p/CJ5fkNXB2w_/media/?size=m
-photo.67.author: craig_craig_craig
-photo.67.link: https://www.instagram.com/craig_craig_craig/
-photo.67.tags: carry, portrait, surprise, tail
+photo.64.tags: portrait, smile, tree
+photo.65: ig://CNU1R4AB15m/m
+photo.65.author: bee_san.13
+photo.65.commitdate: 2021/5/4
+photo.65.link: https://www.instagram.com/bee_san.13/
+photo.65.tags: paws, portrait, smile, whiskers
+photo.66: ig://CNtbZdLBcgG/m
+photo.66.author: makimaru18
+photo.66.commitdate: 2021/5/26
+photo.66.link: https://www.instagram.com/makimaru18/
+photo.66.tags: laying down, portrait, sleeping
+photo.67: ig://CQzFnHOBG5j/m
+photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2021/7/4
+photo.67.link: https://www.instagram.com/hamamatsu.chiita/
+photo.67.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 15162
 zoo: 31

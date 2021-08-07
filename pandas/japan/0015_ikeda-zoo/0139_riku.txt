@@ -150,15 +150,16 @@ photo.27.author: itsuak
 photo.27.commitdate: 2021/2/16
 photo.27.link: https://www.instagram.com/itsuak/
 photo.27.tags: mofumofu, portrait
-photo.28: ig://CQ3wFpKhL70/m
-photo.28.author: itsuak
-photo.28.commitdate: 2021/7/13
-photo.28.link: https://www.instagram.com/itsuak/
-photo.28.tags: climb, paws, portrait, smile
-photo.29: https://www.instagram.com/p/CQYqkPCBEOR/media/?size=m
-photo.29.author: makimaru18
-photo.29.link: https://www.instagram.com/makimaru18/
-photo.29.tags: bridge, mofumofu, muzzle, paws, portrait, smile, tongue
+photo.28: ig://CQYqkPCBEOR/m
+photo.28.author: makimaru18
+photo.28.commitdate: 2021/8/6
+photo.28.link: https://www.instagram.com/makimaru18/
+photo.28.tags: bridge, mofumofu, muzzle, paws, portrait, smile, tongue
+photo.29: ig://CQ3wFpKhL70/m
+photo.29.author: itsuak
+photo.29.commitdate: 2021/7/13
+photo.29.link: https://www.instagram.com/itsuak/
+photo.29.tags: climb, paws, portrait, smile
 species: 2
 studbook.id: 0664
 zoo: 15
