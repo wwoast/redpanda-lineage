@@ -228,19 +228,20 @@ photo.43.author: redpan22
 photo.43.commitdate: 2021/7/19
 photo.43.link: https://www.instagram.com/redpan22/
 photo.43.tags: bridge, laying down, paws, portrait
-photo.44: ig://CR6FrmTBztp/m
-photo.44.author: kotata_513
-photo.44.commitdate: 2021/7/29
-photo.44.link: https://www.instagram.com/kotata_513/
-photo.44.tags: peek, whiskers
-photo.45: ig://CR6YA7XhYlq/m
-photo.45.author: mini_cochi
+photo.44: ig://CRwMkCvB5qP/m
+photo.44.author: alto0908
+photo.44.commitdate: 2021/8/7
+photo.44.link: https://www.instagram.com/alto0908/
+photo.44.tags: crow, portrait, toys
+photo.45: ig://CR6FrmTBztp/m
+photo.45.author: kotata_513
 photo.45.commitdate: 2021/7/29
-photo.45.link: https://www.instagram.com/mini_cochi/
-photo.45.tags: paws, portrait, smile, tree
-photo.46: https://www.instagram.com/p/CRwMkCvB5qP/media/?size=m
-photo.46.author: alto0908
-photo.46.link: https://www.instagram.com/alto0908/
-photo.46.tags: crow, portrait, toys
+photo.45.link: https://www.instagram.com/kotata_513/
+photo.45.tags: peek, whiskers
+photo.46: ig://CR6YA7XhYlq/m
+photo.46.author: mini_cochi
+photo.46.commitdate: 2021/7/29
+photo.46.link: https://www.instagram.com/mini_cochi/
+photo.46.tags: paws, portrait, smile, tree
 species: 2
 zoo: 17

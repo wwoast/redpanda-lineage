@@ -120,8 +120,9 @@ photo.21.author: memphiszoo
 photo.21.commitdate: 2021/6/16
 photo.21.link: https://www.instagram.com/memphiszoo/
 photo.21.tags: smile
-photo.22: https://www.instagram.com/p/CSDCYl7BprG/media/?size=m
+photo.22: ig://CSDCYl7BprG/m
 photo.22.author: memphiszoo
+photo.22.commitdate: 2021/8/7
 photo.22.link: https://www.instagram.com/memphiszoo/
 photo.22.tags: apple time, close-up, portrait, videolink
 species: 2
