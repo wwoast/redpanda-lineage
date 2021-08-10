@@ -1,21 +1,2 @@
-[media]
-_id: 1304
-birthday: 2021/7/16
-birthplace: 65
-children: none
+[panda]
 commitdate: 2021/8/9
-en.name: Baby
-en.nicknames: none
-en.othernames: Aka-chan
-gender: unknown
-jp.name: 赤ちゃん
-jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
-litter: none
-photo.1: https://www.instagram.com/p/CSMLTIDtFgf/media/?size=m
-photo.1.author: cincinnatizoo
-photo.1.link: https://www.instagram.com/cincinnatizoo/
-photo.1.tags: baby, newborn, portrait, profile
-species: 2
-zoo: 65

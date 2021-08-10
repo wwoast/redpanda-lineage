@@ -1865,14 +1865,16 @@ photo.371.author: alto0908
 photo.371.commitdate: 2021/7/19
 photo.371.link: https://www.instagram.com/alto0908/
 photo.371.tags: butterfly, door, peek, portrait, tail
-photo.372: https://www.instagram.com/p/CSRhfILh7xZ/media/?size=m
-photo.372.author: ck.chie
-photo.372.link: https://www.instagram.com/ck.chie/
-photo.372.tags: door, paws, peek, portrait, whiskers
-photo.373: https://www.instagram.com/p/CSP8I_RBRk_/media/?size=m
-photo.373.author: pink.b22
-photo.373.link: https://www.instagram.com/pink.b22/
-photo.373.tags: laying down, paws, portrait, tail, tree
+photo.372: ig://CSP8I_RBRk_/m
+photo.372.author: pink.b22
+photo.372.commitdate: 2021/8/9
+photo.372.link: https://www.instagram.com/pink.b22/
+photo.372.tags: laying down, paws, portrait, tail, tree
+photo.373: ig://CSRhfILh7xZ/m
+photo.373.author: ck.chie
+photo.373.commitdate: 2021/8/9
+photo.373.link: https://www.instagram.com/ck.chie/
+photo.373.tags: door, paws, peek, portrait, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

@@ -610,8 +610,9 @@ photo.122.author: sakikukeco
 photo.122.commitdate: 2021/7/1
 photo.122.link: https://www.instagram.com/sakikukeco/
 photo.122.tags: paws, portrait, tail
-photo.123: https://www.instagram.com/p/CSRRm8zBVxr/media/?size=m
+photo.123: ig://CSRRm8zBVxr/m
 photo.123.author: osaka_tennoji_zoo
+photo.123.commitdate: 2021/8/9
 photo.123.link: https://www.instagram.com/osaka_tennoji_zoo/
 photo.123.tags: laying down, portrait, whiskers
 species: 2

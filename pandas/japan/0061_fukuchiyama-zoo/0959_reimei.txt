@@ -488,8 +488,9 @@ photo.95.author: jas_forever_love
 photo.95.commitdate: 2021/7/8
 photo.95.link: https://www.instagram.com/jas_forever_love/
 photo.95.tags: bamboo, bite, close-up, peek, white face
-photo.96: https://www.instagram.com/p/CSQWcLrhHMd/media/?size=m
+photo.96: ig://CSQWcLrhHMd/m
 photo.96.author: apple_jasmine33
+photo.96.commitdate: 2021/8/9
 photo.96.link: https://www.instagram.com/apple_jasmine33/
 photo.96.tags: close-up, portrait, profile, whiskers
 species: 2

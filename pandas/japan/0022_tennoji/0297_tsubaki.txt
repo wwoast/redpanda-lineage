@@ -124,8 +124,9 @@ photo.22.author: motohin
 photo.22.commitdate: 2021/8/2
 photo.22.link: https://www.instagram.com/motohin/
 photo.22.tags: peek, portrait, smile, tongue, tree, whiskers
-photo.23: https://www.instagram.com/p/CSOx7qvhMBm/media/?size=m
+photo.23: ig://CSOx7qvhMBm/m
 photo.23.author: makimaru18
+photo.23.commitdate: 2021/8/9
 photo.23.link: https://www.instagram.com/makimaru18/
 photo.23.tags: portrait, smile, tongue, whiskers
 species: 2
