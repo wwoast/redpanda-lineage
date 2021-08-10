@@ -82,7 +82,7 @@ photo.14: ig://B3_NDCBBZwN/m
 photo.14.author: kisshan324
 photo.14.commitdate: 2019/10/25
 photo.14.link: https://www.instagram.com/kisshan324/
-photo.14.tags: baby, portrait, profile, white face
+photo.14.tags: baby, portrait, white face
 photo.15: ig://B4HV9ZvBO3J/m
 photo.15.author: love__mitarashi
 photo.15.commitdate: 2019/10/28
@@ -488,5 +488,9 @@ photo.95.author: jas_forever_love
 photo.95.commitdate: 2021/7/8
 photo.95.link: https://www.instagram.com/jas_forever_love/
 photo.95.tags: bamboo, bite, close-up, peek, white face
+photo.96: https://www.instagram.com/p/CSQWcLrhHMd/media/?size=m
+photo.96.author: apple_jasmine33
+photo.96.link: https://www.instagram.com/apple_jasmine33/
+photo.96.tags: close-up, portrait, profile, whiskers
 species: 2
 zoo: 61
