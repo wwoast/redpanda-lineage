@@ -833,24 +833,26 @@ photo.166.author: falcon_tenor
 photo.166.commitdate: 2021/6/15
 photo.166.link: https://www.instagram.com/falcon_tenor/
 photo.166.tags: close-up, mofumofu, whiskers
-photo.167: ig://CQU-wJehPoL/m
-photo.167.author: falcon_tenor
-photo.167.commitdate: 2021/6/23
-photo.167.link: https://www.instagram.com/falcon_tenor/
-photo.167.tags: bamboo, paws, portrait, smile
-photo.168: ig://CSUDXKzBrjx/m
+photo.167: ig://COkpNPzBaNb/m
+photo.167.author: i.satosato
+photo.167.commitdate: 2021/8/11
+photo.167.link: https://www.instagram.com/i.satosato/
+photo.167.tags: apple time, paws, portrait, smile, tail, whiskers
+photo.168: ig://CPibSZYBUAV/m
 photo.168.author: i.satosato
-photo.168.commitdate: 2021/8/10
+photo.168.commitdate: 2021/8/11
 photo.168.link: https://www.instagram.com/i.satosato/
-photo.168.tags: paws, portrait, whiskers
-photo.169: https://www.instagram.com/p/COkpNPzBaNb/media/?size=m
-photo.169.author: i.satosato
-photo.169.link: https://www.instagram.com/i.satosato/
-photo.169.tags: apple time, paws, portrait, smile, tail, whiskers
-photo.170: https://www.instagram.com/p/CPibSZYBUAV/media/?size=m
+photo.168.tags: keeper, paws, portrait, standing, tail
+photo.169: ig://CQU-wJehPoL/m
+photo.169.author: falcon_tenor
+photo.169.commitdate: 2021/6/23
+photo.169.link: https://www.instagram.com/falcon_tenor/
+photo.169.tags: bamboo, paws, portrait, smile
+photo.170: ig://CSUDXKzBrjx/m
 photo.170.author: i.satosato
+photo.170.commitdate: 2021/8/10
 photo.170.link: https://www.instagram.com/i.satosato/
-photo.170.tags: keeper, paws, portrait, standing, tail
+photo.170.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

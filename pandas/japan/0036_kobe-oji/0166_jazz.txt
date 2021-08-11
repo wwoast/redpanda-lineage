@@ -1099,33 +1099,36 @@ photo.218.author: resapan.suki
 photo.218.commitdate: 2021/4/29
 photo.218.link: https://www.instagram.com/resapan.suki/
 photo.218.tags: mofumofu, portrait, tongue, whiskers
-photo.219: ig://COfOnb7hqIX/m
-photo.219.author: i.satosato
-photo.219.commitdate: 2021/6/15
-photo.219.link: https://www.instagram.com/i.satosato/
-photo.219.tags: apple time, portrait, smile, tail
-photo.220: ig://CPdEfN9hE-B/m
-photo.220.author: falcon_tenor
-photo.220.commitdate: 2021/6/20
-photo.220.link: https://www.instagram.com/falcon_tenor/
-photo.220.tags: portrait, smile, whiskers
-photo.221: ig://CSIVKK7hZ62/m
-photo.221.author: tomo3700
-photo.221.commitdate: 2021/8/9
-photo.221.link: https://www.instagram.com/tomo3700/
-photo.221.tags: apple time, portrait, smile, whiskers
-photo.222: https://www.instagram.com/p/COcoxKahyaH/media/?size=m
-photo.222.author: falcon_tenor
-photo.222.link: https://www.instagram.com/falcon_tenor/
-photo.222.tags: blink, paws, portrait, smile
-photo.223: https://www.instagram.com/p/CPp11MjBylU/media/?size=m
+photo.219: ig://COcoxKahyaH/m
+photo.219.author: falcon_tenor
+photo.219.commitdate: 2021/8/11
+photo.219.link: https://www.instagram.com/falcon_tenor/
+photo.219.tags: blink, paws, portrait, smile
+photo.220: ig://COfOnb7hqIX/m
+photo.220.author: i.satosato
+photo.220.commitdate: 2021/6/15
+photo.220.link: https://www.instagram.com/i.satosato/
+photo.220.tags: apple time, portrait, smile, tail
+photo.221: ig://CPdEfN9hE-B/m
+photo.221.author: falcon_tenor
+photo.221.commitdate: 2021/6/20
+photo.221.link: https://www.instagram.com/falcon_tenor/
+photo.221.tags: portrait, smile, whiskers
+photo.222: ig://CPiLXg2hKWQ/m
+photo.222.author: daniele.tokyo
+photo.222.commitdate: 2021/8/11
+photo.222.link: https://www.instagram.com/daniele.tokyo/
+photo.222.tags: bamboo, mofumofu, paws, portrait, smile, tail
+photo.223: ig://CPp11MjBylU/m
 photo.223.author: falcon_tenor
+photo.223.commitdate: 2021/8/11
 photo.223.link: https://www.instagram.com/falcon_tenor/
 photo.223.tags: close-up, mofumofu, portrait, whiskers
-photo.224: https://www.instagram.com/p/CPiLXg2hKWQ/media/?size=m
-photo.224.author: daniele.tokyo
-photo.224.link: https://www.instagram.com/daniele.tokyo/
-photo.224.tags: bamboo, mofumofu, paws, portrait, smile, tail
+photo.224: ig://CSIVKK7hZ62/m
+photo.224.author: tomo3700
+photo.224.commitdate: 2021/8/9
+photo.224.link: https://www.instagram.com/tomo3700/
+photo.224.tags: apple time, portrait, smile, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

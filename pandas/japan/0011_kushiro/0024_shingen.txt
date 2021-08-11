@@ -481,15 +481,16 @@ photo.94.author: an920000
 photo.94.commitdate: 2021/4/22
 photo.94.link: https://www.instagram.com/an920000/
 photo.94.tags: bamboo, close-up, portrait, snow
-photo.95: ig://CQTYxZ3hT-c/m
-photo.95.author: minatomirai215
-photo.95.commitdate: 2021/6/23
-photo.95.link: https://www.instagram.com/minatomirai215/
-photo.95.tags: portrait, whiskers
-photo.96: https://www.instagram.com/p/CPp5DcKBUGc/media/?size=m
-photo.96.author: an920000
-photo.96.link: https://www.instagram.com/an920000/
-photo.96.tags: laying down, peek, portrait, whiskers
+photo.95: ig://CPp5DcKBUGc/m
+photo.95.author: an920000
+photo.95.commitdate: 2021/8/11
+photo.95.link: https://www.instagram.com/an920000/
+photo.95.tags: laying down, peek, portrait, whiskers
+photo.96: ig://CQTYxZ3hT-c/m
+photo.96.author: minatomirai215
+photo.96.commitdate: 2021/6/23
+photo.96.link: https://www.instagram.com/minatomirai215/
+photo.96.tags: portrait, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11

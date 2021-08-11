@@ -1073,20 +1073,21 @@ photo.212.author: hamiiiii831_
 photo.212.commitdate: 2021/7/21
 photo.212.link: https://www.instagram.com/hamiiiii831_/
 photo.212.tags: apple time, paws, smile, whiskers
-photo.213: ig://CPt2HMQB-iD/m
-photo.213.author: ck.chie
-photo.213.commitdate: 2021/6/28
-photo.213.link: https://www.instagram.com/ck.chie/
-photo.213.tags: bridge, laying down, videolink
-photo.214: ig://CQV7PKVhKUU/m
-photo.214.author: ifumoto88
-photo.214.commitdate: 2021/7/14
-photo.214.link: https://www.instagram.com/ifumoto88/
-photo.214.tags: laying down, paws, portrait, smile
-photo.215: https://www.instagram.com/p/CPf6SSZhRZO/media/?size=m
+photo.213: ig://CPf6SSZhRZO/m
+photo.213.author: ifumoto88
+photo.213.commitdate: 2021/8/11
+photo.213.link: https://www.instagram.com/ifumoto88/
+photo.213.tags: peek, portrait
+photo.214: ig://CPt2HMQB-iD/m
+photo.214.author: ck.chie
+photo.214.commitdate: 2021/6/28
+photo.214.link: https://www.instagram.com/ck.chie/
+photo.214.tags: bridge, laying down, videolink
+photo.215: ig://CQV7PKVhKUU/m
 photo.215.author: ifumoto88
+photo.215.commitdate: 2021/7/14
 photo.215.link: https://www.instagram.com/ifumoto88/
-photo.215.tags: peek, portrait
+photo.215.tags: laying down, paws, portrait, smile
 species: 2
 studbook.id: unknown
 zoo: 1

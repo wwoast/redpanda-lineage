@@ -478,8 +478,9 @@ photo.94.author: miis_98
 photo.94.commitdate: 2021/7/7
 photo.94.link: https://www.instagram.com/miis_98/
 photo.94.tags: peek, portrait
-photo.95: https://www.instagram.com/p/CPna9oABFhq/media/?size=m
+photo.95: ig://CPna9oABFhq/m
 photo.95.author: fetorus_mami
+photo.95.commitdate: 2021/8/11
 photo.95.link: https://www.instagram.com/fetorus_mami/
 photo.95.tags: apple time, close-up
 species: 2

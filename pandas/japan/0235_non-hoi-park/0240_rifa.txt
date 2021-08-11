@@ -1677,44 +1677,46 @@ photo.334.author: eos1089
 photo.334.commitdate: 2021/5/20
 photo.334.link: https://www.instagram.com/eos1089/
 photo.334.tags: paws, portrait, smile, whiskers
-photo.335: ig://COpGdslhk92/m
+photo.335: ig://COfDGShhd-n/m
 photo.335.author: hamamatsu.chiita
-photo.335.commitdate: 2021/6/15
+photo.335.commitdate: 2021/8/11
 photo.335.link: https://www.instagram.com/hamamatsu.chiita/
-photo.335.tags: close-up, peek, portrait, whiskers
-photo.336: ig://CO7mSRMhgEa/m
+photo.335.tags: bamboo, close-up, portrait, whiskers
+photo.336: ig://COiBMC8BbmE/m
 photo.336.author: ayusuke56
-photo.336.commitdate: 2021/6/16
+photo.336.commitdate: 2021/8/11
 photo.336.link: https://www.instagram.com/ayusuke56/
-photo.336.tags: portrait, smile
-photo.337: ig://CPxfoDshGGa/m
+photo.336.tags: laying down, paws, portrait, smile, tail, tree
+photo.337: ig://COpGdslhk92/m
 photo.337.author: hamamatsu.chiita
-photo.337.commitdate: 2021/7/22
+photo.337.commitdate: 2021/6/15
 photo.337.link: https://www.instagram.com/hamamatsu.chiita/
-photo.337.tags: close-up, portrait, whiskers
-photo.338: ig://CP0GapSBplz/m
-photo.338.author: ssc6105
-photo.338.commitdate: 2021/7/22
-photo.338.link: https://www.instagram.com/ssc6105/
-photo.338.tags: climb, peek, tail, whiskers
-photo.339: ig://CP0q-7TBp6i/m
-photo.339.author: minatomirai215
+photo.337.tags: close-up, peek, portrait, whiskers
+photo.338: ig://CO7mSRMhgEa/m
+photo.338.author: ayusuke56
+photo.338.commitdate: 2021/6/16
+photo.338.link: https://www.instagram.com/ayusuke56/
+photo.338.tags: portrait, smile
+photo.339: ig://CPxfoDshGGa/m
+photo.339.author: hamamatsu.chiita
 photo.339.commitdate: 2021/7/22
-photo.339.link: https://www.instagram.com/minatomirai215/
-photo.339.tags: paws, portrait, smile, whiskers
-photo.340: ig://CRPacAnB8vZ/m
-photo.340.author: hamamatsu.chiita
-photo.340.commitdate: 2021/7/13
-photo.340.link: https://www.instagram.com/hamamatsu.chiita/
-photo.340.tags: portrait, whiskers
-photo.341: https://www.instagram.com/p/COfDGShhd-n/media/?size=m
-photo.341.author: hamamatsu.chiita
-photo.341.link: https://www.instagram.com/hamamatsu.chiita/
-photo.341.tags: bamboo, close-up, portrait, whiskers
-photo.342: https://www.instagram.com/p/COiBMC8BbmE/media/?size=m
-photo.342.author: ayusuke56
-photo.342.link: https://www.instagram.com/ayusuke56/
-photo.342.tags: laying down, paws, portrait, smile, tail, tree
+photo.339.link: https://www.instagram.com/hamamatsu.chiita/
+photo.339.tags: close-up, portrait, whiskers
+photo.340: ig://CP0GapSBplz/m
+photo.340.author: ssc6105
+photo.340.commitdate: 2021/7/22
+photo.340.link: https://www.instagram.com/ssc6105/
+photo.340.tags: climb, peek, tail, whiskers
+photo.341: ig://CP0q-7TBp6i/m
+photo.341.author: minatomirai215
+photo.341.commitdate: 2021/7/22
+photo.341.link: https://www.instagram.com/minatomirai215/
+photo.341.tags: paws, portrait, smile, whiskers
+photo.342: ig://CRPacAnB8vZ/m
+photo.342.author: hamamatsu.chiita
+photo.342.commitdate: 2021/7/13
+photo.342.link: https://www.instagram.com/hamamatsu.chiita/
+photo.342.tags: portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

@@ -600,34 +600,36 @@ photo.120.author: sakikukeco
 photo.120.commitdate: 2021/5/8
 photo.120.link: https://www.instagram.com/sakikukeco/
 photo.120.tags: laying down, paws, playing, portrait, smile, tail, upside-down
-photo.121: ig://CPQKgsuh92k/m
+photo.121: ig://COaCwfaBGxI/m
 photo.121.author: makimaru18
-photo.121.commitdate: 2021/7/7
+photo.121.commitdate: 2021/8/11
 photo.121.link: https://www.instagram.com/makimaru18/
-photo.121.tags: portrait, whiskers
-photo.122: ig://CQtTrgahxxm/m
-photo.122.author: sakikukeco
-photo.122.commitdate: 2021/7/1
-photo.122.link: https://www.instagram.com/sakikukeco/
-photo.122.tags: paws, portrait, tail
-photo.123: ig://CSRRm8zBVxr/m
-photo.123.author: osaka_tennoji_zoo
-photo.123.commitdate: 2021/8/9
-photo.123.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.123.tags: laying down, portrait, whiskers
-photo.124: ig://CSW7dP0hpOP/m
-photo.124.author: bubbles_octi
-photo.124.commitdate: 2021/8/10
-photo.124.link: https://www.instagram.com/bubbles_octi/
-photo.124.tags: apple time, paws, portrait, smile, standing, whiskers
-photo.125: https://www.instagram.com/p/COaCwfaBGxI/media/?size=m
-photo.125.author: makimaru18
-photo.125.link: https://www.instagram.com/makimaru18/
-photo.125.tags: paws, peek, standing
-photo.126: https://www.instagram.com/p/COiNoBWBPp5/media/?size=m
-photo.126.author: redpanda77f
-photo.126.link: https://www.instagram.com/redpanda77f/
-photo.126.tags: close-up, dish, portrait, whiskers
+photo.121.tags: paws, peek, standing
+photo.122: ig://COiNoBWBPp5/m
+photo.122.author: redpanda77f
+photo.122.commitdate: 2021/8/11
+photo.122.link: https://www.instagram.com/redpanda77f/
+photo.122.tags: close-up, dish, portrait, whiskers
+photo.123: ig://CPQKgsuh92k/m
+photo.123.author: makimaru18
+photo.123.commitdate: 2021/7/7
+photo.123.link: https://www.instagram.com/makimaru18/
+photo.123.tags: portrait, whiskers
+photo.124: ig://CQtTrgahxxm/m
+photo.124.author: sakikukeco
+photo.124.commitdate: 2021/7/1
+photo.124.link: https://www.instagram.com/sakikukeco/
+photo.124.tags: paws, portrait, tail
+photo.125: ig://CSRRm8zBVxr/m
+photo.125.author: osaka_tennoji_zoo
+photo.125.commitdate: 2021/8/9
+photo.125.link: https://www.instagram.com/osaka_tennoji_zoo/
+photo.125.tags: laying down, portrait, whiskers
+photo.126: ig://CSW7dP0hpOP/m
+photo.126.author: bubbles_octi
+photo.126.commitdate: 2021/8/10
+photo.126.link: https://www.instagram.com/bubbles_octi/
+photo.126.tags: apple time, paws, portrait, smile, standing, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

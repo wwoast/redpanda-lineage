@@ -422,15 +422,16 @@ photo.82.author: hamamatsu.chiita
 photo.82.commitdate: 2021/7/14
 photo.82.link: https://www.instagram.com/hamamatsu.chiita/
 photo.82.tags: peek, portrait, whiskers
-photo.83: ig://CQOE4d_BL3B/m
-photo.83.author: jas_forever_love
-photo.83.commitdate: 2021/6/19
-photo.83.link: https://www.instagram.com/jas_forever_love/
-photo.83.tags: flowers, mofumofu, portrait, tail, tongue
-photo.84: https://www.instagram.com/p/CPqNkz1Bk3w/media/?size=m
-photo.84.author: redpanda77f
-photo.84.link: https://www.instagram.com/redpanda77f/
-photo.84.tags: close-up, whiskers
+photo.83: ig://CPqNkz1Bk3w/m
+photo.83.author: redpanda77f
+photo.83.commitdate: 2021/8/11
+photo.83.link: https://www.instagram.com/redpanda77f/
+photo.83.tags: close-up, whiskers
+photo.84: ig://CQOE4d_BL3B/m
+photo.84.author: jas_forever_love
+photo.84.commitdate: 2021/6/19
+photo.84.link: https://www.instagram.com/jas_forever_love/
+photo.84.tags: flowers, mofumofu, portrait, tail, tongue
 species: 2
 studbook.id: 15132
 zoo: 13
