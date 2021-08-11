@@ -478,8 +478,9 @@ photo.93.author: hamamatsu.chiita
 photo.93.commitdate: 2021/8/2
 photo.93.link: https://www.instagram.com/hamamatsu.chiita/
 photo.93.tags: mofumofu, portrait, profile, whiskers
-photo.94: https://www.instagram.com/p/CSU7D-ehlaR/media/?size=m
+photo.94: ig://CSU7D-ehlaR/m
 photo.94.author: hamamatsu.chiita
+photo.94.commitdate: 2021/8/10
 photo.94.link: https://www.instagram.com/hamamatsu.chiita/
 photo.94.tags: portrait, smile, tongue, whiskers
 species: 2

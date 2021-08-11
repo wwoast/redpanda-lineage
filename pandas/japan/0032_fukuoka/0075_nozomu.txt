@@ -775,8 +775,9 @@ photo.153.author: yossi929
 photo.153.commitdate: 2021/7/13
 photo.153.link: https://www.instagram.com/yossi929/
 photo.153.tags: portrait, whiskers
-photo.154: https://www.instagram.com/p/CSVIA-EhbkQ/media/?size=m
+photo.154: ig://CSVIA-EhbkQ/m
 photo.154.author: yossi929
+photo.154.commitdate: 2021/8/10
 photo.154.link: https://www.instagram.com/yossi929/
 photo.154.tags: mofumofu, portrait, whiskers
 species: 2

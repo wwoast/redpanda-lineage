@@ -529,8 +529,9 @@ photo.103.author: apple_jasmine33
 photo.103.commitdate: 2021/8/9
 photo.103.link: https://www.instagram.com/apple_jasmine33/
 photo.103.tags: laying down, paws, smile, tongue, tree
-photo.104: https://www.instagram.com/p/CSVFlzmh_Dq/media/?size=m
+photo.104: ig://CSVFlzmh_Dq/m
 photo.104.author: redpanda_nippon_takashi
+photo.104.commitdate: 2021/8/10
 photo.104.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.104.tags: blink, portrait, yawn
 species: 2

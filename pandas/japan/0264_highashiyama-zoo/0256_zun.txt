@@ -858,8 +858,9 @@ photo.170.author: eos1089
 photo.170.commitdate: 2021/7/13
 photo.170.link: https://www.instagram.com/eos1089/
 photo.170.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.171: https://www.instagram.com/p/CSTrxguBSAl/media/?size=m
+photo.171: ig://CSTrxguBSAl/m
 photo.171.author: resapan.suki
+photo.171.commitdate: 2021/8/10
 photo.171.link: https://www.instagram.com/resapan.suki/
 photo.171.tags: paws, portrait, smile, whiskers
 species: 2

@@ -327,12 +327,14 @@ photo.63.author: hidehaya_biei
 photo.63.commitdate: 2021/6/15
 photo.63.link: https://www.instagram.com/hidehaya_biei/
 photo.63.tags: smile, whiskers
-photo.64: https://www.instagram.com/p/CSSeOaWhAZX/media/?size=m
+photo.64: ig://CSSeOaWhAZX/m
 photo.64.author: hidehaya_biei
+photo.64.commitdate: 2021/8/10
 photo.64.link: https://www.instagram.com/hidehaya_biei/
 photo.64.tags: smile, whiskers
-photo.65: https://www.instagram.com/p/CSWscmchmpT/media/?size=m
+photo.65: ig://CSWscmchmpT/m
 photo.65.author: alto0908
+photo.65.commitdate: 2021/8/10
 photo.65.link: https://www.instagram.com/alto0908/
 photo.65.tags: bamboo, bridge, paws, portrait
 species: 2

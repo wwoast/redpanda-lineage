@@ -363,8 +363,9 @@ photo.70.author: jas_forever_love
 photo.70.commitdate: 2021/8/2
 photo.70.link: https://www.instagram.com/jas_forever_love/
 photo.70.tags: close-up, laying down, portrait, videolink
-photo.71: https://www.instagram.com/p/CSaG8HpBrNN/media/?size=m
+photo.71: ig://CSaG8HpBrNN/m
 photo.71.author: hamamatsu.chiita
+photo.71.commitdate: 2021/8/10
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
 photo.71.tags: bridge, close-up, laying down, paws, portrait, whiskers
 species: 2
