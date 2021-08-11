@@ -15,5 +15,17 @@ language.order: en, jp
 location.1: unknown, 2016/6/7
 location.2: 278, unknown
 location.3: 277, 2019/1/4
+photo.1: https://www.instagram.com/p/ByASpUXoiq5/media/?size=m
+photo.1.author: parcanimalierdauvergne
+photo.1.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.1.tags: portrait, profile, white face
+photo.2: https://www.instagram.com/p/BvTlu8tFltH/media/?size=m
+photo.2.author: parcanimalierdauvergne
+photo.2.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.2.tags: portrait, whiskers, white face
+photo.3: https://www.instagram.com/p/BsPujeXFEpT/media/?size=m
+photo.3.author: parcanimalierdauvergne
+photo.3.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.3.tags: autumn, portrait, tail, tree, white face
 species: 1
 zoo: 277
