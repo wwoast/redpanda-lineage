@@ -239,34 +239,36 @@ photo.45.author: alto0908
 photo.45.commitdate: 2020/10/29
 photo.45.link: https://www.instagram.com/alto0908/
 photo.45.tags: mofumofu, portrait, tongue, whiskers
-photo.46: ig://CKvpjRehjPo/m
-photo.46.author: ssc6105
-photo.46.commitdate: 2021/6/29
-photo.46.link: https://www.instagram.com/ssc6105/
-photo.46.tags: long-tongue, portrait, tongue, whiskers, yawn
-photo.47: ig://CLEzKXhBhGh/m
-photo.47.author: panda.daisuki
-photo.47.commitdate: 2021/7/21
-photo.47.link: https://www.instagram.com/panda.daisuki/
-photo.47.tags: paws, portrait, standing, tail
-photo.48: ig://CQ1ANgwhorr/m
-photo.48.author: fetorus_mami
-photo.48.commitdate: 2021/7/9
-photo.48.link: https://www.instagram.com/fetorus_mami/
-photo.48.tags: dish, lunch time, tongue
-photo.49: ig://CRvFjKah5v2/m
-photo.49.author: miis_98
-photo.49.commitdate: 2021/7/30
-photo.49.link: https://www.instagram.com/miis_98/
-photo.49.tags: paws, portrait, smile, whiskers
-photo.50: https://www.instagram.com/p/CHnSCipB2UR/media/?size=m
-photo.50.author: nakacchi_desu
-photo.50.link: https://www.instagram.com/nakacchi_desu/
-photo.50.tags: mofumofu, paws, standing, whiskers
-photo.51: https://www.instagram.com/p/CHd9RdQBpRc/media/?size=m
-photo.51.author: kipekaila
-photo.51.link: https://www.instagram.com/kipekaila/
-photo.51.tags: close-up, mofumofu, whiskers
+photo.46: ig://CHd9RdQBpRc/m
+photo.46.author: kipekaila
+photo.46.commitdate: 2021/8/14
+photo.46.link: https://www.instagram.com/kipekaila/
+photo.46.tags: close-up, mofumofu, whiskers
+photo.47: ig://CHnSCipB2UR/m
+photo.47.author: nakacchi_desu
+photo.47.commitdate: 2021/8/14
+photo.47.link: https://www.instagram.com/nakacchi_desu/
+photo.47.tags: mofumofu, paws, standing, whiskers
+photo.48: ig://CKvpjRehjPo/m
+photo.48.author: ssc6105
+photo.48.commitdate: 2021/6/29
+photo.48.link: https://www.instagram.com/ssc6105/
+photo.48.tags: long-tongue, portrait, tongue, whiskers, yawn
+photo.49: ig://CLEzKXhBhGh/m
+photo.49.author: panda.daisuki
+photo.49.commitdate: 2021/7/21
+photo.49.link: https://www.instagram.com/panda.daisuki/
+photo.49.tags: paws, portrait, standing, tail
+photo.50: ig://CQ1ANgwhorr/m
+photo.50.author: fetorus_mami
+photo.50.commitdate: 2021/7/9
+photo.50.link: https://www.instagram.com/fetorus_mami/
+photo.50.tags: dish, lunch time, tongue
+photo.51: ig://CRvFjKah5v2/m
+photo.51.author: miis_98
+photo.51.commitdate: 2021/7/30
+photo.51.link: https://www.instagram.com/miis_98/
+photo.51.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 13169
 video.1: https://youtu.be/HQ_OsRtj6T0

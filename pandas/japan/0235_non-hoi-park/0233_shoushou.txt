@@ -523,12 +523,14 @@ photo.102.author: ayusuke56
 photo.102.commitdate: 2021/6/29
 photo.102.link: https://www.instagram.com/ayusuke56/
 photo.102.tags: portrait
-photo.103: https://www.instagram.com/p/CSS_W4EhXPt/media/?size=m
+photo.103: ig://CSS_W4EhXPt/m
 photo.103.author: grskus_tk
+photo.103.commitdate: 2021/8/14
 photo.103.link: https://www.instagram.com/grskus_tk/
 photo.103.tags: bridge, grooming, laying down, paws, tongue
-photo.104: https://www.instagram.com/p/CSTCELaBiwy/media/?size=m
+photo.104: ig://CSTCELaBiwy/m
 photo.104.author: grskus_tk
+photo.104.commitdate: 2021/8/14
 photo.104.link: https://www.instagram.com/grskus_tk/
 photo.104.tags: bamboo, peek
 species: 2
