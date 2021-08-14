@@ -36,11 +36,23 @@ photo.5: ig://B_mfaZHJ-1q/m
 photo.5.author: parcanimalierdauvergne
 photo.5.commitdate: 2021/8/10
 photo.5.link: https://www.instagram.com/parcanimalierdauvergne/
-photo.5.tags: portrait, profile, whiskers
+photo.5.tags: portrait, whiskers
 photo.6: ig://CBODcwwJ0bT/m
 photo.6.author: parcanimalierdauvergne
 photo.6.commitdate: 2021/8/10
 photo.6.link: https://www.instagram.com/parcanimalierdauvergne/
 photo.6.tags: baby, portrait, smile
+photo.7: https://www.instagram.com/p/CC_y4a_qVQX/media/?size=m
+photo.7.author: parcanimalierdauvergne
+photo.7.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.7.tags: bamboo, close-up, portrait, whiskers
+photo.8: https://www.instagram.com/p/CInFO82IgUh/media/?size=m
+photo.8.author: parcanimalierdauvergne
+photo.8.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.8.tags: bamboo, close-up, white face
+photo.9: https://www.instagram.com/p/CInFO82IgUh/media/?size=m
+photo.9.author: parcanimalierdauvergne
+photo.9.link: https://www.instagram.com/parcanimalierdauvergne/
+photo.9.tags: bamboo, mofumofu, portrait, profile
 species: 1
 zoo: 277
