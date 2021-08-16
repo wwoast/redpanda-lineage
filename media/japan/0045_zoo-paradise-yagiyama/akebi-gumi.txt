@@ -44,8 +44,9 @@ photo.6.link: https://www.instagram.com/alto0908/
 photo.6.tags: standing, siblings, sisters, tail, twins
 photo.6.tags.1195.location: 75, 145
 photo.6.tags.1196.location: 205, 55
-photo.7: https://www.instagram.com/p/CQtJWsIBjdm/media/?size=l
+photo.7: ig://CQtJWsIBjdm/l
 photo.7.author: alto0908
+photo.7.commitdate: 2021/8/15
 photo.7.link: https://www.instagram.com/alto0908/
 photo.7.tags: home, portrait, siblings, sisters, twins
 photo.7.tags.1195.location: 365, 270

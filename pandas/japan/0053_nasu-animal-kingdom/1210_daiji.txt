@@ -123,17 +123,19 @@ photo.22.author: fetorus_mami
 photo.22.commitdate: 2021/6/18
 photo.22.link: https://www.instagram.com/fetorus_mami/
 photo.22.tags: laying down, tongue
-photo.23: ig://CR6G1TMB9sM/m
-photo.23.author: miis_98
-photo.23.commitdate: 2021/7/29
-photo.23.link: https://www.instagram.com/miis_98/
-photo.23.tags: paws, portrait, smile, tail
-photo.24: https://www.instagram.com/p/CRB26cEByec/media/?size=m
-photo.24.author: panda.daisuki
-photo.24.link: https://www.instagram.com/panda.daisuki/
-photo.24.tags: paws, portrait, smile, whiskers
-photo.25: https://www.instagram.com/p/CSNeuFXBe5G/media/?size=m
+photo.23: ig://CRB26cEByec/m
+photo.23.author: panda.daisuki
+photo.23.commitdate: 2021/8/15
+photo.23.link: https://www.instagram.com/panda.daisuki/
+photo.23.tags: paws, portrait, smile, whiskers
+photo.24: ig://CR6G1TMB9sM/m
+photo.24.author: miis_98
+photo.24.commitdate: 2021/7/29
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: paws, portrait, smile, tail
+photo.25: ig://CSNeuFXBe5G/m
 photo.25.author: panda.daisuki
+photo.25.commitdate: 2021/8/15
 photo.25.link: https://www.instagram.com/panda.daisuki/
 photo.25.tags: paws, smile, tail, tree
 species: 2

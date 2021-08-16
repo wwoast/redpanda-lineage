@@ -489,39 +489,41 @@ photo.95.author: pink.b22
 photo.95.commitdate: 2021/6/20
 photo.95.link: https://www.instagram.com/pink.b22/
 photo.95.tags: smile, tongue, tree
-photo.96: ig://CP2z9YRhKR6/m
+photo.96: ig://CP1U8twhfpl/m
 photo.96.author: ssc6105
-photo.96.commitdate: 2021/8/2
+photo.96.commitdate: 2021/8/15
 photo.96.link: https://www.instagram.com/ssc6105/
-photo.96.tags: close-up, smile, whiskers
-photo.97: ig://CP47E-uBbwN/m
-photo.97.author: resapan.suki
+photo.96.tags: apple time, mofumofu, paws, standing, tail
+photo.97: ig://CP2z9YRhKR6/m
+photo.97.author: ssc6105
 photo.97.commitdate: 2021/8/2
-photo.97.link: https://www.instagram.com/resapan.suki/
-photo.97.tags: bamboo, paws, portrait, smile
-photo.98: ig://CQF8qsgBxA8/m
-photo.98.author: kaoru_a358
+photo.97.link: https://www.instagram.com/ssc6105/
+photo.97.tags: close-up, smile, whiskers
+photo.98: ig://CP47E-uBbwN/m
+photo.98.author: resapan.suki
 photo.98.commitdate: 2021/8/2
-photo.98.link: https://www.instagram.com/kaoru_a358/
-photo.98.tags: apple time, paws, standing, whiskers
-photo.99: ig://CQOD9NshpTj/m
+photo.98.link: https://www.instagram.com/resapan.suki/
+photo.98.tags: bamboo, paws, portrait, smile
+photo.99: ig://CQF8qsgBxA8/m
 photo.99.author: kaoru_a358
-photo.99.commitdate: 2021/6/19
+photo.99.commitdate: 2021/8/2
 photo.99.link: https://www.instagram.com/kaoru_a358/
-photo.99.tags: portrait, smile, tongue, whiskers
-photo.100: ig://CQj28N7B_vV/m
-photo.100.author: pink.b22
-photo.100.commitdate: 2021/8/2
-photo.100.link: https://www.instagram.com/pink.b22/
-photo.100.tags: apple time, bite, keeper, portrait, tree
-photo.101: https://www.instagram.com/p/CQV7GTMh7Tw/media/?size=m
+photo.99.tags: apple time, paws, standing, whiskers
+photo.100: ig://CQOD9NshpTj/m
+photo.100.author: kaoru_a358
+photo.100.commitdate: 2021/6/19
+photo.100.link: https://www.instagram.com/kaoru_a358/
+photo.100.tags: portrait, smile, tongue, whiskers
+photo.101: ig://CQV7GTMh7Tw/m
 photo.101.author: mini_cochi
+photo.101.commitdate: 2021/8/15
 photo.101.link: https://www.instagram.com/mini_cochi/
 photo.101.tags: apple time, keeper, smile, tongue, whiskers, white face
-photo.102: https://www.instagram.com/p/CP1U8twhfpl/media/?size=m
-photo.102.author: ssc6105
-photo.102.link: https://www.instagram.com/ssc6105/
-photo.102.tags: apple time, mofumofu, paws, standing, tail
+photo.102: ig://CQj28N7B_vV/m
+photo.102.author: pink.b22
+photo.102.commitdate: 2021/8/2
+photo.102.link: https://www.instagram.com/pink.b22/
+photo.102.tags: apple time, bite, keeper, portrait, tree
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

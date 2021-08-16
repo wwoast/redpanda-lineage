@@ -223,62 +223,71 @@ photo.42.author: itsuak
 photo.42.commitdate: 2020/9/12
 photo.42.link: https://www.instagram.com/itsuak/
 photo.42.tags: laying down, paws
-photo.43: ig://CHDJwt3h_1g/m
+photo.43: ig://CEE0fjOg2TM/m
 photo.43.author: itsuak
-photo.43.commitdate: 2020/11/11
+photo.43.commitdate: 2021/8/15
 photo.43.link: https://www.instagram.com/itsuak/
-photo.43.tags: laying down, tail
-photo.44: ig://CJvs1dAsWhT/m
+photo.43.tags: peek, portrait, whiskers
+photo.44: ig://CHDJwt3h_1g/m
 photo.44.author: itsuak
-photo.44.commitdate: 2021/3/2
+photo.44.commitdate: 2020/11/11
 photo.44.link: https://www.instagram.com/itsuak/
-photo.44.tags: paws, portrait, whiskers
-photo.45: ig://CLZoxZzB3bj/m
+photo.44.tags: laying down, tail
+photo.45: ig://CHvJ5spH33E/m
 photo.45.author: itsuak
-photo.45.commitdate: 2021/2/20
+photo.45.commitdate: 2021/8/15
 photo.45.link: https://www.instagram.com/itsuak/
-photo.45.tags: bamboo, bite, close-up, paws, portrait, profile
-photo.46: ig://CRMPkUzDsQn/m
+photo.45.tags: bridge, close-up, laying down, peek, portrait
+photo.46: ig://CJvs1dAsWhT/m
 photo.46.author: itsuak
-photo.46.commitdate: 2021/7/13
+photo.46.commitdate: 2021/3/2
 photo.46.link: https://www.instagram.com/itsuak/
-photo.46.tags: close-up, mofumofu, portrait, whiskers
-photo.47: https://www.instagram.com/p/CSCKAxqF45Y/media/?size=m
+photo.46.tags: paws, portrait, whiskers
+photo.47: ig://CLZoxZzB3bj/m
 photo.47.author: itsuak
+photo.47.commitdate: 2021/2/20
 photo.47.link: https://www.instagram.com/itsuak/
-photo.47.tags: portrait, whiskers
-photo.48: https://www.instagram.com/p/CRoXiWmhJ5i/media/?size=m
+photo.47.tags: bamboo, bite, close-up, paws, portrait, profile
+photo.48: ig://CL62RhRB1fX/m
 photo.48.author: itsuak
+photo.48.commitdate: 2021/8/15
 photo.48.link: https://www.instagram.com/itsuak/
-photo.48.tags: paws, portrait
-photo.49: https://www.instagram.com/p/CSJyXdvl2kt/media/?size=m
+photo.48.tags: close-up, laying down, portrait, sleeping, whiskers
+photo.49: ig://CPa1JBlBizI/m
 photo.49.author: itsuak
+photo.49.commitdate: 2021/8/15
 photo.49.link: https://www.instagram.com/itsuak/
-photo.49.tags: portrait, smile, whiskers
-photo.50: https://www.instagram.com/p/CSZJyZth4oH/media/?size=m
+photo.49.tags: bamboo
+photo.50: ig://CQtK29NjQWw/m
 photo.50.author: itsuak
+photo.50.commitdate: 2021/8/15
 photo.50.link: https://www.instagram.com/itsuak/
-photo.50.tags: peek, portrait, whiskers
-photo.51: https://www.instagram.com/p/CPa1JBlBizI/media/?size=m
+photo.50.tags: laying down, portrait, whiskers
+photo.51: ig://CRMPkUzDsQn/m
 photo.51.author: itsuak
+photo.51.commitdate: 2021/7/13
 photo.51.link: https://www.instagram.com/itsuak/
-photo.51.tags: bamboo
-photo.52: https://www.instagram.com/p/CL62RhRB1fX/media/?size=m
+photo.51.tags: close-up, mofumofu, portrait, whiskers
+photo.52: ig://CRoXiWmhJ5i/m
 photo.52.author: itsuak
+photo.52.commitdate: 2021/8/15
 photo.52.link: https://www.instagram.com/itsuak/
-photo.52.tags: close-up, laying down, portrait, sleeping, whiskers
-photo.53: https://www.instagram.com/p/CQtK29NjQWw/media/?size=m
+photo.52.tags: paws, portrait
+photo.53: ig://CSCKAxqF45Y/m
 photo.53.author: itsuak
+photo.53.commitdate: 2021/8/15
 photo.53.link: https://www.instagram.com/itsuak/
-photo.53.tags: laying down, portrait, whiskers
-photo.54: https://www.instagram.com/p/CEE0fjOg2TM/media/?size=m
+photo.53.tags: portrait, whiskers
+photo.54: ig://CSJyXdvl2kt/m
 photo.54.author: itsuak
+photo.54.commitdate: 2021/8/15
 photo.54.link: https://www.instagram.com/itsuak/
-photo.54.tags: peek, portrait, whiskers
-photo.55: https://www.instagram.com/p/CHvJ5spH33E/media/?size=m
+photo.54.tags: portrait, smile, whiskers
+photo.55: ig://CSZJyZth4oH/m
 photo.55.author: itsuak
+photo.55.commitdate: 2021/8/15
 photo.55.link: https://www.instagram.com/itsuak/
-photo.55.tags: bridge, close-up, laying down, peek, portrait
+photo.55.tags: peek, portrait, whiskers
 species: 2
 studbook.id: 14154
 zoo: 46

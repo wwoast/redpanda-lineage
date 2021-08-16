@@ -1103,15 +1103,16 @@ photo.218.author: ifumoto88
 photo.218.commitdate: 2021/7/14
 photo.218.link: https://www.instagram.com/ifumoto88/
 photo.218.tags: laying down, paws, portrait, smile
-photo.219: ig://CSTBLtCBObW/m
-photo.219.author: alto0908
-photo.219.commitdate: 2021/8/14
-photo.219.link: https://www.instagram.com/alto0908/
-photo.219.tags: portrait, whiskers
-photo.220: https://www.instagram.com/p/CQtIzBpha5f/media/?size=m
-photo.220.author: ifumoto88
-photo.220.link: https://www.instagram.com/ifumoto88/
-photo.220.tags: laying down, portrait, whiskers
+photo.219: ig://CQtIzBpha5f/m
+photo.219.author: ifumoto88
+photo.219.commitdate: 2021/8/15
+photo.219.link: https://www.instagram.com/ifumoto88/
+photo.219.tags: laying down, portrait, whiskers
+photo.220: ig://CSTBLtCBObW/m
+photo.220.author: alto0908
+photo.220.commitdate: 2021/8/14
+photo.220.link: https://www.instagram.com/alto0908/
+photo.220.tags: portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 1

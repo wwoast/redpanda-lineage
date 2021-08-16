@@ -43,8 +43,9 @@ photo.6.link: https://www.instagram.com/itsuak/
 photo.6.tags: couple
 photo.6.tags.159.location: 75, 155
 photo.6.tags.173.location: 180, 95
-photo.7: https://www.instagram.com/p/CLuDtqNAhWH/media/?size=l
+photo.7: ig://CLuDtqNAhWH/l
 photo.7.author: itsuak
+photo.7.commitdate: 2021/8/15
 photo.7.link: https://www.instagram.com/itsuak/
 photo.7.tags: couple, laying down
 photo.7.tags.159.location: 310, 220

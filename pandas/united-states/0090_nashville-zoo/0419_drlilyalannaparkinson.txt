@@ -100,8 +100,9 @@ photo.17.author: worldthathesees
 photo.17.commitdate: 2020/9/14
 photo.17.link: https://www.instagram.com/worldthathesees/
 photo.17.tags: paws, portrait, profile
-photo.18: https://www.instagram.com/p/CJ6gLovnXqN/media/?size=m
+photo.18: ig://CJ6gLovnXqN/m
 photo.18.author: nashvillezoo
+photo.18.commitdate: 2021/8/15
 photo.18.link: https://www.instagram.com/nashvillezoo/
 photo.18.tags: bamboo, paws, snow
 species: 2
