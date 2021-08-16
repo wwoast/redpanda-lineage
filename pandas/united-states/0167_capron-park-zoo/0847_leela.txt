@@ -16,6 +16,7 @@ litter: 553
 location.1: 129, 2014/6/26
 location.2: 130, 2015/5/15
 location.3: 146, 2018/1/30
+location.4: 167, 2020/11/14
 photo.1: ig://BwP9mb2lGng/m
 photo.1.author: okczoo
 photo.1.commitdate: 2019/10/15
@@ -43,4 +44,5 @@ photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: bamboo, portrait
 species: 1
 studbook.id: 1457
-zoo: 146
+uncertainty: location.4 exact date
+zoo: 167
