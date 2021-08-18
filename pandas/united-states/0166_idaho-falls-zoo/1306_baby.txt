@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1307
-photo.1: https://www.instagram.com/p/CScIx56laLp/media/?size=m
+photo.1: ig://CScIx56laLp/m
 photo.1.author: idahofallszoo
+photo.1.commitdate: 2021/8/18
 photo.1.link: https://www.instagram.com/idahofallszoo/
 photo.1.tags: baby, blink, keeper, newborn, portrait
 species: 1

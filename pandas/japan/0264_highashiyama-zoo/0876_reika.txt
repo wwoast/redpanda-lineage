@@ -493,8 +493,9 @@ photo.96.author: hamamatsu.chiita
 photo.96.commitdate: 2021/7/3
 photo.96.link: https://www.instagram.com/hamamatsu.chiita/
 photo.96.tags: close-up, portrait, whiskers
-photo.97: https://www.instagram.com/p/CSpj2hnBaEh/media/?size=m
+photo.97: ig://CSpj2hnBaEh/m
 photo.97.author: hamamatsu.chiita
+photo.97.commitdate: 2021/8/18
 photo.97.link: https://www.instagram.com/hamamatsu.chiita/
 photo.97.tags: portrait, smile, tongue
 species: 2

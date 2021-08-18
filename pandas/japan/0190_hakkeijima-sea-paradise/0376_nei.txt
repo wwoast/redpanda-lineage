@@ -260,18 +260,16 @@ photo.49.author: pantasanzoo1
 photo.49.commitdate: 2021/8/14
 photo.49.link: https://www.instagram.com/pantasanzoo1/
 photo.49.tags: laying down, grooming, paws, tail
-photo.50: https://www.instagram.com/p/CSbvCooBhGj/media/?size=m
+photo.50: ig://CSbvCooBhGj/m
 photo.50.author: redpan22
+photo.50.commitdate: 2021/8/18
 photo.50.link: https://www.instagram.com/redpan22/
 photo.50.tags: bridge, laying down, peek
-photo.51: https://www.instagram.com/p/CDySex0Bq52/media/?size=m
-photo.51.author: gloryeui
-photo.51.link: https://www.instagram.com/gloryeui/
-photo.51.tags: keeper, portrait
-photo.52: https://www.instagram.com/p/CSeT8xzBsc8/media/?size=m
-photo.52.author: pantasanzoo1
-photo.52.link: https://www.instagram.com/pantasanzoo1/
-photo.52.tags: door, lips, mofumofu, paws, whiskers
+photo.51: ig://CSeT8xzBsc8/m
+photo.51.author: pantasanzoo1
+photo.51.commitdate: 2021/8/18
+photo.51.link: https://www.instagram.com/pantasanzoo1/
+photo.51.tags: door, lips, mofumofu, paws, whiskers
 species: 2
 studbook.id: unknown
 zoo: 190

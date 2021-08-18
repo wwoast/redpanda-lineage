@@ -534,8 +534,9 @@ photo.104.author: redpanda_nippon_takashi
 photo.104.commitdate: 2021/8/10
 photo.104.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.104.tags: blink, portrait, yawn
-photo.105: https://www.instagram.com/p/CSl9OKrhfr3/media/?size=m
+photo.105: ig://CSl9OKrhfr3/m
 photo.105.author: jas_forever_love
+photo.105.commitdate: 2021/8/18
 photo.105.link: https://www.instagram.com/jas_forever_love/
 photo.105.tags: nose, portrait, surprise, tail, tree
 species: 2

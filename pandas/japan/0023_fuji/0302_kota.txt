@@ -245,8 +245,9 @@ photo.46.author: miis_98
 photo.46.commitdate: 2021/8/10
 photo.46.link: https://www.instagram.com/miis_98/
 photo.46.tags: paws, portrait, smile, tail, whiskers
-photo.47: https://www.instagram.com/p/CSmQHCYhMg9/media/?size=m
+photo.47: ig://CSmQHCYhMg9/m
 photo.47.author: pink.b22
+photo.47.commitdate: 2021/8/18
 photo.47.link: https://www.instagram.com/pink.b22/
 photo.47.tags: laying down, paws, tail
 species: 2

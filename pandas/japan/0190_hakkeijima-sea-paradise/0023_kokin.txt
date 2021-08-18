@@ -1297,18 +1297,16 @@ photo.259.author: pantasanzoo1
 photo.259.commitdate: 2021/8/10
 photo.259.link: https://www.instagram.com/pantasanzoo1/
 photo.259.tags: bamboo, close-up, grooming, mofumofu, tail
-photo.260: https://www.instagram.com/p/CD7kL5HB9tm/media/?size=m
-photo.260.author: gloryeui
-photo.260.link: https://www.instagram.com/gloryeui/
-photo.260.tags: bamboo, close-up, videolink
-photo.261: https://www.instagram.com/p/CSqGzl_huL9/media/?size=m
-photo.261.author: pantasanzoo1
-photo.261.link: https://www.instagram.com/pantasanzoo1/
-photo.261.tags: dish, whiskers
-photo.262: https://www.instagram.com/p/CSr0AH0BIiC/media/?size=m
-photo.262.author: minatomirai215
-photo.262.link: https://www.instagram.com/minatomirai215/
-photo.262.tags: dish, portrait, whiskers
+photo.260: ig://CSqGzl_huL9/m
+photo.260.author: pantasanzoo1
+photo.260.commitdate: 2021/8/18
+photo.260.link: https://www.instagram.com/pantasanzoo1/
+photo.260.tags: dish, whiskers
+photo.261: ig://CSr0AH0BIiC/m
+photo.261.author: minatomirai215
+photo.261.commitdate: 2021/8/18
+photo.261.link: https://www.instagram.com/minatomirai215/
+photo.261.tags: dish, portrait, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

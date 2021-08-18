@@ -58,8 +58,9 @@ photo.9.author: rossifari
 photo.9.commitdate: 2021/7/19
 photo.9.link: https://www.instagram.com/rossifari/
 photo.9.tags: close-up, mofumofu, whiskers
-photo.10: https://www.instagram.com/p/CSmnMEJlRrr/media/?size=m
+photo.10: ig://CSmnMEJlRrr/m
 photo.10.author: carsontheredpanda
+photo.10.commitdate: 2021/8/18
 photo.10.link: https://www.instagram.com/carsontheredpanda/
 photo.10.tags: paws, portrait, standing, tree
 species: 2
