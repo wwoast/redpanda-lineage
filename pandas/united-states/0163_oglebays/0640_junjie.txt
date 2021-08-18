@@ -20,12 +20,16 @@ photo.1: ig://BqQ0cPRB_xh/m
 photo.1.author: jiayue_2015
 photo.1.commitdate: 2019/4/3
 photo.1.link: https://www.instagram.com/jiayue_2015/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: ig://Bnvs6kNnImq/m
 photo.2.author: mauravarisco
 photo.2.commitdate: 2019/7/15
 photo.2.link: https://www.instagram.com/mauravarisco/
 photo.2.tags: smile, tongue
+photo.3: https://www.instagram.com/p/BfG6kgUnNq3/media/?size=m
+photo.3.author: snapcrackleangela
+photo.3.link: https://www.instagram.com/snapcrackleangela/
+photo.3.tags: peek, portrait
 species: 1
 studbook.id: 0819
 zoo: 163
