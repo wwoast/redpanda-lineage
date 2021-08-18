@@ -31,6 +31,10 @@ photo.2.author: nathalie.elliott
 photo.2.commitdate: 2021/7/8
 photo.2.link: https://www.instagram.com/nathalie.elliott/
 photo.2.tags: dish, home, portrait, tail
+photo.3: https://www.instagram.com/p/CSph_OZs-7a/media/?size=m
+photo.3.author: nathalie.elliott
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: bamboo, portrait
 species: 1
 uncertainty: location.2 moving date
 zoo: 219

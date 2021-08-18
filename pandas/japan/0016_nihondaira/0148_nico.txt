@@ -2,7 +2,7 @@
 _id: 148
 birthday: 2017/6/23
 birthplace: 16
-children: none
+children: 1301
 commitdate: 2018/6/28
 en.name: Nico
 en.nicknames: Long Smile
@@ -702,6 +702,10 @@ photo.139.author: wumpwoast
 photo.139.commitdate: 2021/8/10
 photo.139.link: https://www.instagram.com/wumpwoast/
 photo.139.tags: itchy, portrait, tail, whiskers
+photo.140: https://www.instagram.com/p/CSszAGgLd_q/media/?size=m
+photo.140.author: lesserpanda_shizuokacity_cp
+photo.140.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.140.tags: close-up, lips, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16
