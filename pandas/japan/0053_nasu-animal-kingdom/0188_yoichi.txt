@@ -225,25 +225,26 @@ photo.43.author: panda.daisuki
 photo.43.commitdate: 2020/9/3
 photo.43.link: https://www.instagram.com/panda.daisuki/
 photo.43.tags: portrait, smile
-photo.44: ig://CHbZGFjB8G4/m
-photo.44.author: kipekaila
-photo.44.commitdate: 2020/11/25
-photo.44.link: https://www.instagram.com/kipekaila/
-photo.44.tags: blink, portrait
-photo.45: ig://CMCje0uBFYz/m
-photo.45.author: fetorus_mami
-photo.45.commitdate: 2021/6/29
-photo.45.link: https://www.instagram.com/fetorus_mami/
-photo.45.tags: bamboo, portrait, whiskers
-photo.46: ig://CQ1AxIah3RN/m
+photo.44: ig://CFwWsjgBgTq/m
+photo.44.author: hamiiiii831_
+photo.44.commitdate: 2021/8/17
+photo.44.link: https://www.instagram.com/hamiiiii831_/
+photo.44.tags: bite, mofumofu, whiskers
+photo.45: ig://CHbZGFjB8G4/m
+photo.45.author: kipekaila
+photo.45.commitdate: 2020/11/25
+photo.45.link: https://www.instagram.com/kipekaila/
+photo.45.tags: blink, portrait
+photo.46: ig://CMCje0uBFYz/m
 photo.46.author: fetorus_mami
-photo.46.commitdate: 2021/7/9
+photo.46.commitdate: 2021/6/29
 photo.46.link: https://www.instagram.com/fetorus_mami/
-photo.46.tags: bamboo, paws, standing, tail
-photo.47: https://www.instagram.com/p/CFwWsjgBgTq/media/?size=m
-photo.47.author: hamiiiii831_
-photo.47.link: https://www.instagram.com/hamiiiii831_/
-photo.47.tags: bite, mofumofu, whiskers
+photo.46.tags: bamboo, portrait, whiskers
+photo.47: ig://CQ1AxIah3RN/m
+photo.47.author: fetorus_mami
+photo.47.commitdate: 2021/7/9
+photo.47.link: https://www.instagram.com/fetorus_mami/
+photo.47.tags: bamboo, paws, standing, tail
 species: 2
 studbook.id: 13141
 video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg
