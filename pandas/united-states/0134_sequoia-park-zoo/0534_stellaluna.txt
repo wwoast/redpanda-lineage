@@ -48,8 +48,9 @@ photo.6.author: worldthathesees
 photo.6.commitdate: 2019/4/9
 photo.6.link: https://www.instagram.com/worldthathesees/
 photo.6.tags: bamboo
-photo.7: https://www.instagram.com/p/CR7AW-FFkbN/media/?size=m
+photo.7: ig://CR7AW-FFkbN/m
 photo.7.author: sequoiaparkzoo
+photo.7.commitdate: 2021/8/18
 photo.7.link: https://www.instagram.com/sequoiaparkzoo/
 photo.7.tags: bamboo, mofumofu, paws, portrait
 species: 1

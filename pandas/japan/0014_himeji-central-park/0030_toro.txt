@@ -184,22 +184,25 @@ photo.34.author: fetorus_mami
 photo.34.commitdate: 2021/6/29
 photo.34.link: https://www.instagram.com/fetorus_mami/
 photo.34.tags: mofumofu
-photo.35: ig://CQtAHiEBR6n/m
-photo.35.author: love__mitarashi
-photo.35.commitdate: 2021/7/1
-photo.35.link: https://www.instagram.com/love__mitarashi/
-photo.35.tags: close-up, home, mofumofu, nose
-photo.36: https://www.instagram.com/p/CR6W65JBhMr/media/?size=m
+photo.35: ig://CQs7HTBh8Je/m
+photo.35.author: colette.jp
+photo.35.commitdate: 2021/8/18
+photo.35.link: https://www.instagram.com/colette.jp/
+photo.35.tags: apple time, keeper, paws, portrait, smile
+photo.36: ig://CQtAHiEBR6n/m
 photo.36.author: love__mitarashi
+photo.36.commitdate: 2021/7/1
 photo.36.link: https://www.instagram.com/love__mitarashi/
-photo.36.tags: door, paws, portrait
-photo.37: https://www.instagram.com/p/CRQ8FNhBfMI/media/?size=m
+photo.36.tags: close-up, home, mofumofu, nose
+photo.37: ig://CRQ8FNhBfMI/m
 photo.37.author: fetorus_mami
+photo.37.commitdate: 2021/8/18
 photo.37.link: https://www.instagram.com/fetorus_mami/
-photo.38: https://www.instagram.com/p/CQs7HTBh8Je/media/?size=m
-photo.38.author: colette.jp
-photo.38.link: https://www.instagram.com/colette.jp/
-photo.38.tags: apple time, keeper, paws, portrait, smile
+photo.38: ig://CR6W65JBhMr/m
+photo.38.author: love__mitarashi
+photo.38.commitdate: 2021/8/18
+photo.38.link: https://www.instagram.com/love__mitarashi/
+photo.38.tags: door, paws, portrait
 species: 2
 studbook.id: 0467
 zoo: 14

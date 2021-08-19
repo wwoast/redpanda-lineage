@@ -55,8 +55,9 @@ photo.8.author: oregonzoo
 photo.8.commitdate: 2021/6/23
 photo.8.link: https://www.instagram.com/oregonzoo/
 photo.8.tags: close-up, portrait, whiskers
-photo.9: https://www.instagram.com/p/CR9fLpqLy3Z/media/?size=m
+photo.9: ig://CR9fLpqLy3Z/m
 photo.9.author: oregonzoo
+photo.9.commitdate: 2021/8/18
 photo.9.link: https://www.instagram.com/oregonzoo/
 photo.9.tags: close-up, lips, portrait, whiskers
 species: 2
