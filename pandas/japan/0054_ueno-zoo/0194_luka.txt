@@ -715,15 +715,16 @@ photo.140.author: eos1089
 photo.140.commitdate: 2021/7/1
 photo.140.link: https://www.instagram.com/eos1089/
 photo.140.tags: bamboo, home, portrait, tongue
-photo.141: ig://CSrwNOghkYA/m
-photo.141.author: eos1089
-photo.141.commitdate: 2021/8/18
-photo.141.link: https://www.instagram.com/eos1089/
-photo.141.tags: laying down, paws, playing, portrait
-photo.142: https://www.instagram.com/p/CRNnZxHhSce/media/?size=m
-photo.142.author: nakacchi_desu
-photo.142.link: https://www.instagram.com/nakacchi_desu/
-photo.142.tags: mofumofu, tail, whiskers, window
+photo.141: ig://CRNnZxHhSce/m
+photo.141.author: nakacchi_desu
+photo.141.commitdate: 2021/8/20
+photo.141.link: https://www.instagram.com/nakacchi_desu/
+photo.141.tags: mofumofu, tail, whiskers, window
+photo.142: ig://CSrwNOghkYA/m
+photo.142.author: eos1089
+photo.142.commitdate: 2021/8/18
+photo.142.link: https://www.instagram.com/eos1089/
+photo.142.tags: laying down, paws, playing, portrait
 species: 2
 studbook.id: 1677
 zoo: 54
