@@ -79,22 +79,24 @@ photo.11.link: https://www.instagram.com/craig_craig_craig/
 photo.11.tags: apple time, baby, portrait, siblings, twins
 photo.11.tags.1189.location: 110, 125
 photo.11.tags.1190.location: 215, 200
-photo.12: ig://COK2RANhoZ8/l
-photo.12.author: mifko55
-photo.12.commitdate: 2021/5/31
-photo.12.link: https://www.instagram.com/mifko55/
-photo.12.tags: bamboo, portrait, siblings, twins
-photo.12.tags.1189.location: 155, 230
-photo.12.tags.1190.location: 480, 230
-photo.13: https://www.instagram.com/p/CSspmeOBG8d/media/?size=l
-photo.13.author: hamiiiii831_
-photo.13.link: https://www.instagram.com/hamiiiii831_/
-photo.13.tags: bridge, siblings, smile, twins
-photo.13.tags.1189.location: 350, 250
-photo.13.tags.1190.location: 150, 315
-photo.14: https://www.instagram.com/p/CLwYhA3BoLL/media/?size=m
-photo.14.author: leonard_redmof
-photo.14.link: https://www.instagram.com/leonard_redmof/
-photo.14.tags: baby, mofumofu, portrait, siblings, tail, twins
-photo.14.tags.1189.location: 210, 130
-photo.14.tags.1190.location: 120, 165
+photo.12: ig://CLwYhA3BoLL/m
+photo.12.author: leonard_redmof
+photo.12.commitdate: 2021/8/22
+photo.12.link: https://www.instagram.com/leonard_redmof/
+photo.12.tags: baby, mofumofu, portrait, siblings, tail, twins
+photo.12.tags.1189.location: 210, 130
+photo.12.tags.1190.location: 120, 165
+photo.13: ig://COK2RANhoZ8/l
+photo.13.author: mifko55
+photo.13.commitdate: 2021/5/31
+photo.13.link: https://www.instagram.com/mifko55/
+photo.13.tags: bamboo, portrait, siblings, twins
+photo.13.tags.1189.location: 155, 230
+photo.13.tags.1190.location: 480, 230
+photo.14: ig://CSspmeOBG8d/l
+photo.14.author: hamiiiii831_
+photo.14.commitdate: 2021/8/22
+photo.14.link: https://www.instagram.com/hamiiiii831_/
+photo.14.tags: bridge, siblings, smile, twins
+photo.14.tags.1189.location: 350, 250
+photo.14.tags.1190.location: 150, 315

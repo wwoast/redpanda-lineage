@@ -396,15 +396,16 @@ photo.77.author: eos1089
 photo.77.commitdate: 2021/7/3
 photo.77.link: https://www.instagram.com/eos1089/
 photo.77.tags: portrait, smile, tree, whiskers
-photo.78: ig://CRxuponhxea/m
-photo.78.author: hidehaya_biei
-photo.78.commitdate: 2021/7/30
-photo.78.link: https://www.instagram.com/hidehaya_biei/
-photo.78.tags: mofumofu, whiskers
-photo.79: https://www.instagram.com/p/CQyTguiB3En/media/?size=m
-photo.79.author: happy_love2.15
-photo.79.link: https://www.instagram.com/happy_love2.15/
-photo.79.tags: baby, climb, mofumofu, paws, portrait, smile, tree
+photo.78: ig://CQyTguiB3En/m
+photo.78.author: happy_love2.15
+photo.78.commitdate: 2021/8/22
+photo.78.link: https://www.instagram.com/happy_love2.15/
+photo.78.tags: baby, climb, mofumofu, paws, portrait, smile, tree
+photo.79: ig://CRxuponhxea/m
+photo.79.author: hidehaya_biei
+photo.79.commitdate: 2021/7/30
+photo.79.link: https://www.instagram.com/hidehaya_biei/
+photo.79.tags: mofumofu, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45
