@@ -4,6 +4,7 @@ birthday: 2011/7/17
 birthplace: 13
 children: 149, 225, 226, 233, 234, 235, 236
 commitdate: 2018/6/26
+death: 2021/8/22
 en.name: Charmin
 en.nicknames: none
 en.othernames: Cha-Min, Cha-min
@@ -135,6 +136,10 @@ photo.24.author: hamiiiii831_
 photo.24.commitdate: 2021/8/18
 photo.24.link: https://www.instagram.com/hamiiiii831_/
 photo.24.tags: paws, smile, standing, toys
+photo.25: https://www.instagram.com/p/CS8eLNKht2r/media/?size=m
+photo.25.author: asahiyamazoo1
+photo.25.link: https://www.instagram.com/asahiyamazoo1/
+photo.25.tags: smile
 species: 2
 studbook.id: 11108
 video.1: https://youtu.be/T0UIB96RKQI
