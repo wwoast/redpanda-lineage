@@ -270,14 +270,16 @@ photo.51.author: pantasanzoo1
 photo.51.commitdate: 2021/8/18
 photo.51.link: https://www.instagram.com/pantasanzoo1/
 photo.51.tags: door, lips, mofumofu, paws, whiskers
-photo.52: https://www.instagram.com/p/CS6yTr3hDoi/media/?size=m
-photo.52.author: minatomirai215
-photo.52.link: https://www.instagram.com/minatomirai215/
-photo.52.tags: keeper, portrait, tail
-photo.53: https://www.instagram.com/p/CS3ohqlB-fI/media/?size=m
-photo.53.author: _saaaaaaah_
-photo.53.link: https://www.instagram.com/_saaaaaaah_/
-photo.53.tags: peek
+photo.52: ig://CS3ohqlB-fI/m
+photo.52.author: _saaaaaaah_
+photo.52.commitdate: 2021/8/24
+photo.52.link: https://www.instagram.com/_saaaaaaah_/
+photo.52.tags: peek
+photo.53: ig://CS6yTr3hDoi/m
+photo.53.author: minatomirai215
+photo.53.commitdate: 2021/8/24
+photo.53.link: https://www.instagram.com/minatomirai215/
+photo.53.tags: keeper, portrait, tail
 species: 2
 studbook.id: unknown
 zoo: 190

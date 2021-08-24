@@ -129,8 +129,9 @@ photo.23.author: makimaru18
 photo.23.commitdate: 2021/8/9
 photo.23.link: https://www.instagram.com/makimaru18/
 photo.23.tags: portrait, smile, tongue, whiskers
-photo.24: https://www.instagram.com/p/CS4OAhiH4wM/media/?size=m
+photo.24: ig://CS4OAhiH4wM/m
 photo.24.author: tomo3700
+photo.24.commitdate: 2021/8/24
 photo.24.link: https://www.instagram.com/tomo3700/
 photo.24.tags: paws, peek, portrait, tongue
 species: 2

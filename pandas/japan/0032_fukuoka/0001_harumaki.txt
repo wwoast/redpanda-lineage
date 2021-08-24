@@ -2058,14 +2058,16 @@ photo.410.author: re_ichimaru
 photo.410.commitdate: 2021/8/10
 photo.410.link: https://www.instagram.com/re_ichimaru/
 photo.410.tags: paws, portrait, smile, tail
-photo.411: https://www.instagram.com/p/CS8RZjXhf-Q/media/?size=m
-photo.411.author: re_ichimaru
-photo.411.link: https://www.instagram.com/re_ichimaru/
-photo.411.tags: mofumofu, paws, portrait, spider, whiskers
-photo.412: https://www.instagram.com/p/CSxc81YJDj-/media/?size=m
-photo.412.author: yossi929
-photo.412.link: https://www.instagram.com/yossi929/
-photo.412.tags: peek, whiskers
+photo.411: ig://CSxc81YJDj-/m
+photo.411.author: yossi929
+photo.411.commitdate: 2021/8/24
+photo.411.link: https://www.instagram.com/yossi929/
+photo.411.tags: peek, whiskers
+photo.412: ig://CS8RZjXhf-Q/m
+photo.412.author: re_ichimaru
+photo.412.commitdate: 2021/8/24
+photo.412.link: https://www.instagram.com/re_ichimaru/
+photo.412.tags: mofumofu, paws, portrait, spider, whiskers
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44
