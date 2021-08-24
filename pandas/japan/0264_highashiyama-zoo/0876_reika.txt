@@ -174,7 +174,7 @@ photo.32: ig://B3xx-HlhzUV/m
 photo.32.author: miis_98
 photo.32.commitdate: 2019/10/22
 photo.32.link: https://www.instagram.com/miis_98/
-photo.32.tags: baby, laying down, portrait, profile, tree
+photo.32.tags: baby, laying down, portrait, tree
 photo.33: ig://B32zRZ4H9_F/m
 photo.33.author: tetusara.ki_
 photo.33.commitdate: 2019/10/22
@@ -498,6 +498,10 @@ photo.97.author: hamamatsu.chiita
 photo.97.commitdate: 2021/8/18
 photo.97.link: https://www.instagram.com/hamamatsu.chiita/
 photo.97.tags: portrait, smile, tongue
+photo.98: https://www.instagram.com/p/CS7jDrFhYSv/media/?size=m
+photo.98.author: hamamatsu.chiita
+photo.98.link: https://www.instagram.com/hamamatsu.chiita/
+photo.98.tags: close-up, portrait, profile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264
