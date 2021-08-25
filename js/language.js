@@ -3692,6 +3692,7 @@ Language.unpluralize = function(pieces) {
                    .replace(/^una\s/, "Una ");
       output.push(input);
     }
+    return output;
   } else if (L.display == "pt") {
     for (var input of pieces) {
       input = input.replace(/\b1 fotos/, "uma foto")
