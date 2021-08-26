@@ -488,24 +488,26 @@ photo.95.author: hamamatsu.chiita
 photo.95.commitdate: 2021/8/2
 photo.95.link: https://www.instagram.com/hamamatsu.chiita/
 photo.95.tags: mofumofu, portrait, whiskers
-photo.96: ig://CR8xPQ7Bs7g/m
-photo.96.author: kotata_513
-photo.96.commitdate: 2021/8/18
-photo.96.link: https://www.instagram.com/kotata_513/
-photo.96.tags: mofumofu, paws, portrait, profile
-photo.97: ig://CSU7D-ehlaR/m
-photo.97.author: hamamatsu.chiita
-photo.97.commitdate: 2021/8/10
-photo.97.link: https://www.instagram.com/hamamatsu.chiita/
-photo.97.tags: portrait, smile, tongue, whiskers
-photo.98: https://www.instagram.com/p/CStByG6h6bb/media/?size=m
-photo.98.author: kisshan324
-photo.98.link: https://www.instagram.com/kisshan324/
-photo.98.tags: baby, climb, portrait
-photo.99: https://www.instagram.com/p/CR2QdOqn-jD/media/?size=m
-photo.99.author: tomo3700
-photo.99.link: https://www.instagram.com/tomo3700/
-photo.99.tags: bamboo, bite, close-up, portrait, tongue, white face
+photo.96: ig://CR2QdOqn-jD/m
+photo.96.author: tomo3700
+photo.96.commitdate: 2021/8/25
+photo.96.link: https://www.instagram.com/tomo3700/
+photo.96.tags: bamboo, bite, close-up, portrait, tongue, white face
+photo.97: ig://CR8xPQ7Bs7g/m
+photo.97.author: kotata_513
+photo.97.commitdate: 2021/8/18
+photo.97.link: https://www.instagram.com/kotata_513/
+photo.97.tags: mofumofu, paws, portrait, profile
+photo.98: ig://CSU7D-ehlaR/m
+photo.98.author: hamamatsu.chiita
+photo.98.commitdate: 2021/8/10
+photo.98.link: https://www.instagram.com/hamamatsu.chiita/
+photo.98.tags: portrait, smile, tongue, whiskers
+photo.99: ig://CStByG6h6bb/m
+photo.99.author: kisshan324
+photo.99.commitdate: 2021/8/25
+photo.99.link: https://www.instagram.com/kisshan324/
+photo.99.tags: baby, climb, portrait
 species: 2
 studbook.id: unknown
 zoo: 13

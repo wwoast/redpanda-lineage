@@ -253,29 +253,30 @@ photo.48.author: mini_cochi
 photo.48.commitdate: 2021/7/29
 photo.48.link: https://www.instagram.com/mini_cochi/
 photo.48.tags: paws, portrait, smile, tree
-photo.49: ig://CSRlBN0H1zX/m
-photo.49.author: mini_cochi
-photo.49.commitdate: 2021/8/9
-photo.49.link: https://www.instagram.com/mini_cochi/
-photo.49.tags: nose, portrait, tail
-photo.50: ig://CSjfmEThWAG/m
-photo.50.author: redpan22
-photo.50.commitdate: 2021/8/18
-photo.50.link: https://www.instagram.com/redpan22/
-photo.50.tags: apple time, bite, paws, portrait
-photo.51: ig://CSo6q1xBP8Z/m
+photo.49: ig://CSA6dy_BJPT/m
+photo.49.author: mariten1119
+photo.49.commitdate: 2021/8/25
+photo.49.link: https://www.instagram.com/mariten1119/
+photo.49.tags: peek, smile, tail, tree
+photo.50: ig://CSRlBN0H1zX/m
+photo.50.author: mini_cochi
+photo.50.commitdate: 2021/8/9
+photo.50.link: https://www.instagram.com/mini_cochi/
+photo.50.tags: nose, portrait, tail
+photo.51: ig://CSjfmEThWAG/m
 photo.51.author: redpan22
 photo.51.commitdate: 2021/8/18
 photo.51.link: https://www.instagram.com/redpan22/
-photo.51.tags: mofumofu, paws, spider, tail, upside-down
-photo.52: ig://CS1uqbZhb71/m
+photo.51.tags: apple time, bite, paws, portrait
+photo.52: ig://CSo6q1xBP8Z/m
 photo.52.author: redpan22
-photo.52.commitdate: 2021/8/24
+photo.52.commitdate: 2021/8/18
 photo.52.link: https://www.instagram.com/redpan22/
-photo.52.tags: peek, portrait, whiskers
-photo.53: https://www.instagram.com/p/CSA6dy_BJPT/media/?size=m
-photo.53.author: mariten1119
-photo.53.link: https://www.instagram.com/mariten1119/
-photo.53.tags: peek, smile, tail, tree
+photo.52.tags: mofumofu, paws, spider, tail, upside-down
+photo.53: ig://CS1uqbZhb71/m
+photo.53.author: redpan22
+photo.53.commitdate: 2021/8/24
+photo.53.link: https://www.instagram.com/redpan22/
+photo.53.tags: peek, portrait, whiskers
 species: 2
 zoo: 17
