@@ -21,8 +21,9 @@ photo.1.author: beeksebergen
 photo.1.commitdate: 2020/8/5
 photo.1.link: https://www.instagram.com/beeksebergen/
 photo.1.tags: baby, mofumofu, newborn, portrait, profile
-photo.2: https://www.instagram.com/p/CJalVJAAcVp/media/?size=m
+photo.2: ig://CJalVJAAcVp/m
 photo.2.author: nicolethiessen288
+photo.2.commitdate: 2021/8/27
 photo.2.link: https://www.instagram.com/nicolethiessen288/
 photo.2.tags: mofumofu, whiskers
 species: 1

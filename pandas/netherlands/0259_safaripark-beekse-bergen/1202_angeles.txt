@@ -19,8 +19,9 @@ language.order: es, en, jp
 litter: unknown
 location.1: 260, 2012/7/4
 location.2: 259, 2013/5/30
-photo.1: https://www.instagram.com/p/CKgrEHogekG/media/?size=m
+photo.1: ig://CKgrEHogekG/m
 photo.1.author: nicolethiessen288
+photo.1.commitdate: 2021/8/27
 photo.1.link: https://www.instagram.com/nicolethiessen288/
 photo.1.tags: close-up, portrait, profile, whiskers
 species: 1
