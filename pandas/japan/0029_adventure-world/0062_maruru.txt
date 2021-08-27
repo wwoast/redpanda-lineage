@@ -248,8 +248,9 @@ photo.48.author: chankunvv
 photo.48.commitdate: 2021/6/6
 photo.48.link: https://www.instagram.com/chankunvv/
 photo.48.tags: home, portrait, smile, tail
-photo.49: https://www.instagram.com/p/CTEGWkvLIdV/media/?size=m
+photo.49: ig://CTEGWkvLIdV/m
 photo.49.author: wumpwoast
+photo.49.commitdate: 2021/8/27
 photo.49.link: https://www.instagram.com/wumpwoast/
 photo.49.tags: home, portrait, tongue
 species: 2
