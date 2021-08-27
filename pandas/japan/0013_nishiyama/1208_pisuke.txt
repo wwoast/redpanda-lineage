@@ -488,38 +488,41 @@ photo.95.author: hamamatsu.chiita
 photo.95.commitdate: 2021/8/2
 photo.95.link: https://www.instagram.com/hamamatsu.chiita/
 photo.95.tags: mofumofu, portrait, whiskers
-photo.96: ig://CR2QdOqn-jD/m
-photo.96.author: tomo3700
-photo.96.commitdate: 2021/8/25
-photo.96.link: https://www.instagram.com/tomo3700/
-photo.96.tags: bamboo, bite, close-up, portrait, tongue, white face
-photo.97: ig://CR8xPQ7Bs7g/m
-photo.97.author: kotata_513
-photo.97.commitdate: 2021/8/18
-photo.97.link: https://www.instagram.com/kotata_513/
-photo.97.tags: mofumofu, paws, portrait, profile
-photo.98: ig://CSU7D-ehlaR/m
-photo.98.author: hamamatsu.chiita
-photo.98.commitdate: 2021/8/10
-photo.98.link: https://www.instagram.com/hamamatsu.chiita/
-photo.98.tags: portrait, smile, tongue, whiskers
-photo.99: ig://CStByG6h6bb/m
-photo.99.author: kisshan324
-photo.99.commitdate: 2021/8/25
-photo.99.link: https://www.instagram.com/kisshan324/
-photo.99.tags: baby, climb, portrait
-photo.100: https://www.instagram.com/p/CR3L64PBBMr/media/?size=m
-photo.100.author: minato.yokohama4416
-photo.100.link: https://www.instagram.com/minato.yokohama4416/
-photo.100.tags: laying down, mofumofu, portrait, tree, wet
-photo.101: https://www.instagram.com/p/CRveBekhTNS/media/?size=m
+photo.96: ig://CRvb41RhqRf/m
+photo.96.author: grskus_tk
+photo.96.commitdate: 2021/8/26
+photo.96.link: https://www.instagram.com/grskus_tk/
+photo.96.tags: laying down, paws, smile, tail
+photo.97: ig://CRveBekhTNS/m
+photo.97.author: hamamatsu.chiita
+photo.97.commitdate: 2021/8/26
+photo.97.link: https://www.instagram.com/hamamatsu.chiita/
+photo.97.tags: bamboo, bite, portrait
+photo.98: ig://CR2QdOqn-jD/m
+photo.98.author: tomo3700
+photo.98.commitdate: 2021/8/25
+photo.98.link: https://www.instagram.com/tomo3700/
+photo.98.tags: bamboo, bite, close-up, portrait, tongue, white face
+photo.99: ig://CR3L64PBBMr/m
+photo.99.author: minato.yokohama4416
+photo.99.commitdate: 2021/8/26
+photo.99.link: https://www.instagram.com/minato.yokohama4416/
+photo.99.tags: laying down, mofumofu, portrait, tree, wet
+photo.100: ig://CR8xPQ7Bs7g/m
+photo.100.author: kotata_513
+photo.100.commitdate: 2021/8/18
+photo.100.link: https://www.instagram.com/kotata_513/
+photo.100.tags: mofumofu, paws, portrait, profile
+photo.101: ig://CSU7D-ehlaR/m
 photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2021/8/10
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
-photo.101.tags: bamboo, bite, portrait
-photo.102: https://www.instagram.com/p/CRvb41RhqRf/media/?size=m
-photo.102.author: grskus_tk
-photo.102.link: https://www.instagram.com/grskus_tk/
-photo.102.tags: laying down, paws, smile, tail
+photo.101.tags: portrait, smile, tongue, whiskers
+photo.102: ig://CStByG6h6bb/m
+photo.102.author: kisshan324
+photo.102.commitdate: 2021/8/25
+photo.102.link: https://www.instagram.com/kisshan324/
+photo.102.tags: baby, climb, portrait
 species: 2
 studbook.id: unknown
 zoo: 13
