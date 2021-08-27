@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: nl, en, jp
 litter: none
+location.1: 259, 2020/7/1
+location.2: 295, 2021/4/9
 nl.name: Binti
 nl.nicknames: none
 nl.othernames: none
@@ -28,4 +30,5 @@ photo.2.link: https://www.instagram.com/nicolethiessen288/
 photo.2.tags: mofumofu, whiskers
 species: 1
 studbook.id: unknown
+uncertainty: location.2 exact date
 zoo: 259
