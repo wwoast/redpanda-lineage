@@ -274,25 +274,26 @@ photo.52.author: daniele.tokyo
 photo.52.commitdate: 2020/12/20
 photo.52.link: https://www.instagram.com/daniele.tokyo/
 photo.52.tags: paws, smile, whiskers
-photo.53: ig://CNmjraPhccW/m
+photo.53: ig://CMzLC2RhvbW/m
 photo.53.author: colette.jp
-photo.53.commitdate: 2021/6/1
+photo.53.commitdate: 2021/8/27
 photo.53.link: https://www.instagram.com/colette.jp/
-photo.53.tags: apple time, keeper, portrait
-photo.54: ig://CONXIjjhPzO/m
-photo.54.author: love__mitarashi
-photo.54.commitdate: 2021/7/6
-photo.54.link: https://www.instagram.com/love__mitarashi/
-photo.54.tags: portrait
-photo.55: ig://COShEmaB205/m
+photo.53.tags: bamboo, home, paws, portrait, smile
+photo.54: ig://CNmjraPhccW/m
+photo.54.author: colette.jp
+photo.54.commitdate: 2021/6/1
+photo.54.link: https://www.instagram.com/colette.jp/
+photo.54.tags: apple time, keeper, portrait
+photo.55: ig://CONXIjjhPzO/m
 photo.55.author: love__mitarashi
 photo.55.commitdate: 2021/7/6
 photo.55.link: https://www.instagram.com/love__mitarashi/
-photo.55.tags: itchy, whiskers
-photo.56: https://www.instagram.com/p/CMzLC2RhvbW/media/?size=m
-photo.56.author: colette.jp
-photo.56.link: https://www.instagram.com/colette.jp/
-photo.56.tags: bamboo, home, paws, portrait, smile
+photo.55.tags: portrait
+photo.56: ig://COShEmaB205/m
+photo.56.author: love__mitarashi
+photo.56.commitdate: 2021/7/6
+photo.56.link: https://www.instagram.com/love__mitarashi/
+photo.56.tags: itchy, whiskers
 species: 2
 studbook.id: 14151
 zoo: 14

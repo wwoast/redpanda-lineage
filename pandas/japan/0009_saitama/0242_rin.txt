@@ -608,72 +608,76 @@ photo.119.author: ck.chie
 photo.119.commitdate: 2021/3/7
 photo.119.link: https://www.instagram.com/ck.chie/
 photo.119.tags: smile, white face
-photo.120: ig://CNCE9pJh-EB/m
+photo.120: ig://CMPL_SChsSS/m
 photo.120.author: ck.chie
-photo.120.commitdate: 2021/4/2
+photo.120.commitdate: 2021/8/27
 photo.120.link: https://www.instagram.com/ck.chie/
-photo.120.tags: bamboo, smile, white face
-photo.121: ig://CNJEvVvBKHt/m
+photo.120.tags: white face, yawn
+photo.121: ig://CM3wtP_hQvK/m
 photo.121.author: ck.chie
-photo.121.commitdate: 2021/4/2
+photo.121.commitdate: 2021/8/27
 photo.121.link: https://www.instagram.com/ck.chie/
-photo.121.tags: bamboo, bite, close-up, white face
-photo.122: ig://CNTY3PGhlJN/m
+photo.121.tags: laying down, peek
+photo.122: ig://CNCE9pJh-EB/m
 photo.122.author: ck.chie
-photo.122.commitdate: 2021/4/29
+photo.122.commitdate: 2021/4/2
 photo.122.link: https://www.instagram.com/ck.chie/
 photo.122.tags: bamboo, smile, white face
-photo.123: ig://CN2DNQLhR7c/m
-photo.123.author: ssc6105
-photo.123.commitdate: 2021/5/3
-photo.123.link: https://www.instagram.com/ssc6105/
-photo.123.tags: peek, tail, tree
-photo.124: ig://CN5GW24BHZY/m
-photo.124.author: panda.daisuki
-photo.124.commitdate: 2021/5/3
-photo.124.link: https://www.instagram.com/panda.daisuki/
-photo.124.tags: bamboo, portrait, smile, white face
-photo.125: ig://COaJaX3Bjtn/m
-photo.125.author: fetorus_mami
-photo.125.commitdate: 2021/6/4
-photo.125.link: https://www.instagram.com/fetorus_mami/
-photo.125.tags: portrait, tree, white face
-photo.126: ig://CPLHnPbBVVM/m
-photo.126.author: fetorus_mami
-photo.126.commitdate: 2021/7/7
-photo.126.link: https://www.instagram.com/fetorus_mami/
-photo.126.tags: portrait, white face
-photo.127: ig://CQNLJZELhox/m
-photo.127.author: miis_98
-photo.127.commitdate: 2021/6/19
-photo.127.link: https://www.instagram.com/miis_98/
-photo.127.tags: bamboo, paws, portrait
-photo.128: ig://CQ29G8jBVhI/m
-photo.128.author: ssc6105
-photo.128.commitdate: 2021/7/9
-photo.128.link: https://www.instagram.com/ssc6105/
-photo.128.tags: climb, paws, tail, tree
-photo.129: ig://CQ6_KLuhrjb/m
-photo.129.author: ssc6105
-photo.129.commitdate: 2021/7/9
-photo.129.link: https://www.instagram.com/ssc6105/
-photo.129.tags: laying down, paws, smile, tree
-photo.130: https://www.instagram.com/p/CM3wtP_hQvK/media/?size=m
-photo.130.author: ck.chie
-photo.130.link: https://www.instagram.com/ck.chie/
-photo.130.tags: laying down, peek
-photo.131: https://www.instagram.com/p/CQeiFWvheOg/media/?size=m
+photo.123: ig://CNJEvVvBKHt/m
+photo.123.author: ck.chie
+photo.123.commitdate: 2021/4/2
+photo.123.link: https://www.instagram.com/ck.chie/
+photo.123.tags: bamboo, bite, close-up, white face
+photo.124: ig://CNTY3PGhlJN/m
+photo.124.author: ck.chie
+photo.124.commitdate: 2021/4/29
+photo.124.link: https://www.instagram.com/ck.chie/
+photo.124.tags: bamboo, smile, white face
+photo.125: ig://CNcQfZMhjL5/m
+photo.125.author: ck.chie
+photo.125.commitdate: 2021/8/27
+photo.125.link: https://www.instagram.com/ck.chie/
+photo.125.tags: laying down, paws, tree, white face
+photo.126: ig://CN2DNQLhR7c/m
+photo.126.author: ssc6105
+photo.126.commitdate: 2021/5/3
+photo.126.link: https://www.instagram.com/ssc6105/
+photo.126.tags: peek, tail, tree
+photo.127: ig://CN5GW24BHZY/m
+photo.127.author: panda.daisuki
+photo.127.commitdate: 2021/5/3
+photo.127.link: https://www.instagram.com/panda.daisuki/
+photo.127.tags: bamboo, portrait, smile, white face
+photo.128: ig://COaJaX3Bjtn/m
+photo.128.author: fetorus_mami
+photo.128.commitdate: 2021/6/4
+photo.128.link: https://www.instagram.com/fetorus_mami/
+photo.128.tags: portrait, tree, white face
+photo.129: ig://CPLHnPbBVVM/m
+photo.129.author: fetorus_mami
+photo.129.commitdate: 2021/7/7
+photo.129.link: https://www.instagram.com/fetorus_mami/
+photo.129.tags: portrait, white face
+photo.130: ig://CQNLJZELhox/m
+photo.130.author: miis_98
+photo.130.commitdate: 2021/6/19
+photo.130.link: https://www.instagram.com/miis_98/
+photo.130.tags: bamboo, paws, portrait
+photo.131: ig://CQeiFWvheOg/m
 photo.131.author: ssc6105
+photo.131.commitdate: 2021/8/27
 photo.131.link: https://www.instagram.com/ssc6105/
 photo.131.tags: mofumofu, whiskers, white face
-photo.132: https://www.instagram.com/p/CMPL_SChsSS/media/?size=m
-photo.132.author: ck.chie
-photo.132.link: https://www.instagram.com/ck.chie/
-photo.132.tags: white face, yawn
-photo.133: https://www.instagram.com/p/CNcQfZMhjL5/media/?size=m
-photo.133.author: ck.chie
-photo.133.link: https://www.instagram.com/ck.chie/
-photo.133.tags: laying down, paws, tree, white face
+photo.132: ig://CQ29G8jBVhI/m
+photo.132.author: ssc6105
+photo.132.commitdate: 2021/7/9
+photo.132.link: https://www.instagram.com/ssc6105/
+photo.132.tags: climb, paws, tail, tree
+photo.133: ig://CQ6_KLuhrjb/m
+photo.133.author: ssc6105
+photo.133.commitdate: 2021/7/9
+photo.133.link: https://www.instagram.com/ssc6105/
+photo.133.tags: laying down, paws, smile, tree
 species: 2
 studbook.id: unknown
 zoo: 9

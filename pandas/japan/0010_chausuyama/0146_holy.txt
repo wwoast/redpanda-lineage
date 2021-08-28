@@ -211,30 +211,31 @@ photo.40.author: hamamatsu.chiita
 photo.40.commitdate: 2021/6/23
 photo.40.link: https://www.instagram.com/hamamatsu.chiita/
 photo.40.tags: close-up, techitechi, whiskers
-photo.41: ig://CNC4x7GhFs5/m
-photo.41.author: taka__3428
-photo.41.commitdate: 2021/4/10
-photo.41.link: https://www.instagram.com/taka__3428/
-photo.41.tags: peek
-photo.42: ig://CNYi4OeBC_J/m
-photo.42.author: rie_panda55
-photo.42.commitdate: 2021/5/4
-photo.42.link: https://www.instagram.com/rie_panda55/
-photo.42.tags: itchy, paws, portrait, tail
-photo.43: ig://CN_yh_ih6B4/m
-photo.43.author: shigeko0531
-photo.43.commitdate: 2021/5/19
-photo.43.link: https://www.instagram.com/shigeko0531/
-photo.43.tags: bamboo, paws, whiskers
-photo.44: ig://CPnre5gBDsr/m
-photo.44.author: minatomirai215
-photo.44.commitdate: 2021/6/20
-photo.44.link: https://www.instagram.com/minatomirai215/
-photo.44.tags: portrait, techitechi, whiskers
-photo.45: https://www.instagram.com/p/CM7SNIMh9NX/media/?size=m
+photo.41: ig://CM7SNIMh9NX/m
+photo.41.author: minatomirai215
+photo.41.commitdate: 2021/8/27
+photo.41.link: https://www.instagram.com/minatomirai215/
+photo.41.tags: bamboo, portrait
+photo.42: ig://CNC4x7GhFs5/m
+photo.42.author: taka__3428
+photo.42.commitdate: 2021/4/10
+photo.42.link: https://www.instagram.com/taka__3428/
+photo.42.tags: peek
+photo.43: ig://CNYi4OeBC_J/m
+photo.43.author: rie_panda55
+photo.43.commitdate: 2021/5/4
+photo.43.link: https://www.instagram.com/rie_panda55/
+photo.43.tags: itchy, paws, portrait, tail
+photo.44: ig://CN_yh_ih6B4/m
+photo.44.author: shigeko0531
+photo.44.commitdate: 2021/5/19
+photo.44.link: https://www.instagram.com/shigeko0531/
+photo.44.tags: bamboo, paws, whiskers
+photo.45: ig://CPnre5gBDsr/m
 photo.45.author: minatomirai215
+photo.45.commitdate: 2021/6/20
 photo.45.link: https://www.instagram.com/minatomirai215/
-photo.45.tags: bamboo, portrait
+photo.45.tags: portrait, techitechi, whiskers
 species: 2
 studbook.id: 1675
 zoo: 10

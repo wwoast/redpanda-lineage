@@ -496,30 +496,31 @@ photo.97.author: kojikoji2011
 photo.97.commitdate: 2021/6/19
 photo.97.link: https://www.instagram.com/kojikoji2011/
 photo.97.tags: portrait, whiskers
-photo.98: ig://CQUhR-bhX-0/m
-photo.98.author: re_ichimaru
-photo.98.commitdate: 2021/7/14
-photo.98.link: https://www.instagram.com/re_ichimaru/
-photo.98.tags: home, laying down, paws, portrait
-photo.99: ig://CRSt4OshqgD/m
+photo.98: ig://CQRActBhHHl/m
+photo.98.author: kojikoji2011
+photo.98.commitdate: 2021/8/27
+photo.98.link: https://www.instagram.com/kojikoji2011/
+photo.98.tags: paws, smile, tail
+photo.99: ig://CQUhR-bhX-0/m
 photo.99.author: re_ichimaru
 photo.99.commitdate: 2021/7/14
 photo.99.link: https://www.instagram.com/re_ichimaru/
-photo.99.tags: apple time, paws, portrait, smile
-photo.100: ig://CRTjAJQhTim/m
-photo.100.author: colette.jp
+photo.99.tags: home, laying down, paws, portrait
+photo.100: ig://CRSt4OshqgD/m
+photo.100.author: re_ichimaru
 photo.100.commitdate: 2021/7/14
-photo.100.link: https://www.instagram.com/colette.jp/
-photo.100.tags: apple time, bite, curly, paws, portrait, tail
-photo.101: ig://CRU32TPBoWP/m
-photo.101.author: _rifa_p
-photo.101.commitdate: 2021/7/19
-photo.101.link: https://www.instagram.com/_rifa_p/
-photo.101.tags: paws, portrait, smile, tree
-photo.102: https://www.instagram.com/p/CQRActBhHHl/media/?size=m
-photo.102.author: kojikoji2011
-photo.102.link: https://www.instagram.com/kojikoji2011/
-photo.102.tags: paws, smile, tail
+photo.100.link: https://www.instagram.com/re_ichimaru/
+photo.100.tags: apple time, paws, portrait, smile
+photo.101: ig://CRTjAJQhTim/m
+photo.101.author: colette.jp
+photo.101.commitdate: 2021/7/14
+photo.101.link: https://www.instagram.com/colette.jp/
+photo.101.tags: apple time, bite, curly, paws, portrait, tail
+photo.102: ig://CRU32TPBoWP/m
+photo.102.author: _rifa_p
+photo.102.commitdate: 2021/7/19
+photo.102.link: https://www.instagram.com/_rifa_p/
+photo.102.tags: paws, portrait, smile, tree
 species: 2
 studbook.id: 1695
 zoo: 42

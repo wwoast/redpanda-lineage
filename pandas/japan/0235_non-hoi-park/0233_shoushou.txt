@@ -483,70 +483,71 @@ photo.94.author: tomo3700
 photo.94.commitdate: 2021/4/11
 photo.94.link: https://www.instagram.com/tomo3700/
 photo.94.tags: keeper, paws, portrait, smile, standing
-photo.95: ig://CNayl5zhsxC/m
-photo.95.author: hamamatsu.chiita
-photo.95.commitdate: 2021/5/28
-photo.95.link: https://www.instagram.com/hamamatsu.chiita/
-photo.95.tags: close-up, portrait, whiskers
-photo.96: ig://COoNRD3BHod/m
+photo.95: ig://CM11Wt2h72P/m
+photo.95.author: kotata_513
+photo.95.commitdate: 2021/8/27
+photo.95.link: https://www.instagram.com/kotata_513/
+photo.95.tags: laying down, portrait, tree, yawn
+photo.96: ig://CNayl5zhsxC/m
 photo.96.author: hamamatsu.chiita
-photo.96.commitdate: 2021/6/29
+photo.96.commitdate: 2021/5/28
 photo.96.link: https://www.instagram.com/hamamatsu.chiita/
-photo.96.tags: mofumofu, portrait, smile
-photo.97: ig://COpHM5wB32A/m
+photo.96.tags: close-up, portrait, whiskers
+photo.97: ig://COoNRD3BHod/m
 photo.97.author: hamamatsu.chiita
 photo.97.commitdate: 2021/6/29
 photo.97.link: https://www.instagram.com/hamamatsu.chiita/
-photo.97.tags: laying down, paws, portrait
-photo.98: ig://CO5Auj7BzR5/m
-photo.98.author: ayusuke56
+photo.97.tags: mofumofu, portrait, smile
+photo.98: ig://COpHM5wB32A/m
+photo.98.author: hamamatsu.chiita
 photo.98.commitdate: 2021/6/29
-photo.98.link: https://www.instagram.com/ayusuke56/
-photo.98.tags: paws, portrait, smile
-photo.99: ig://CPA8HRRBnGx/m
+photo.98.link: https://www.instagram.com/hamamatsu.chiita/
+photo.98.tags: laying down, paws, portrait
+photo.99: ig://CO5Auj7BzR5/m
 photo.99.author: ayusuke56
-photo.99.commitdate: 2021/6/16
+photo.99.commitdate: 2021/6/29
 photo.99.link: https://www.instagram.com/ayusuke56/
-photo.99.tags: bridge, laying down, portrait
-photo.100: ig://CPQVDRLhu31/m
+photo.99.tags: paws, portrait, smile
+photo.100: ig://CPA8HRRBnGx/m
 photo.100.author: ayusuke56
-photo.100.commitdate: 2021/6/29
+photo.100.commitdate: 2021/6/16
 photo.100.link: https://www.instagram.com/ayusuke56/
-photo.100.tags: bamboo, paws, portrait
-photo.101: ig://CParCUHBhnp/m
+photo.100.tags: bridge, laying down, portrait
+photo.101: ig://CPQVDRLhu31/m
 photo.101.author: ayusuke56
 photo.101.commitdate: 2021/6/29
 photo.101.link: https://www.instagram.com/ayusuke56/
-photo.101.tags: bamboo, bite, paws, portrait
-photo.102: ig://CPgsRVUBBT7/m
-photo.102.author: hamamatsu.chiita
-photo.102.commitdate: 2021/7/21
-photo.102.link: https://www.instagram.com/hamamatsu.chiita/
-photo.102.tags: close-up, laying down, paws, portrait, smile, tongue
-photo.103: ig://CPnhYk1B8E-/m
-photo.103.author: ayusuke56
-photo.103.commitdate: 2021/6/29
-photo.103.link: https://www.instagram.com/ayusuke56/
-photo.103.tags: bamboo, close-up, paws
-photo.104: ig://CPqCHlkBsYS/m
+photo.101.tags: bamboo, paws, portrait
+photo.102: ig://CParCUHBhnp/m
+photo.102.author: ayusuke56
+photo.102.commitdate: 2021/6/29
+photo.102.link: https://www.instagram.com/ayusuke56/
+photo.102.tags: bamboo, bite, paws, portrait
+photo.103: ig://CPgsRVUBBT7/m
+photo.103.author: hamamatsu.chiita
+photo.103.commitdate: 2021/7/21
+photo.103.link: https://www.instagram.com/hamamatsu.chiita/
+photo.103.tags: close-up, laying down, paws, portrait, smile, tongue
+photo.104: ig://CPnhYk1B8E-/m
 photo.104.author: ayusuke56
 photo.104.commitdate: 2021/6/29
 photo.104.link: https://www.instagram.com/ayusuke56/
-photo.104.tags: portrait
-photo.105: ig://CSS_W4EhXPt/m
-photo.105.author: grskus_tk
-photo.105.commitdate: 2021/8/14
-photo.105.link: https://www.instagram.com/grskus_tk/
-photo.105.tags: bridge, grooming, laying down, paws, tongue
-photo.106: ig://CSTCELaBiwy/m
+photo.104.tags: bamboo, close-up, paws
+photo.105: ig://CPqCHlkBsYS/m
+photo.105.author: ayusuke56
+photo.105.commitdate: 2021/6/29
+photo.105.link: https://www.instagram.com/ayusuke56/
+photo.105.tags: portrait
+photo.106: ig://CSS_W4EhXPt/m
 photo.106.author: grskus_tk
 photo.106.commitdate: 2021/8/14
 photo.106.link: https://www.instagram.com/grskus_tk/
-photo.106.tags: bamboo, peek
-photo.107: https://www.instagram.com/p/CM11Wt2h72P/media/?size=m
-photo.107.author: kotata_513
-photo.107.link: https://www.instagram.com/kotata_513/
-photo.107.tags: laying down, portrait, tree, yawn
+photo.106.tags: bridge, grooming, laying down, paws, tongue
+photo.107: ig://CSTCELaBiwy/m
+photo.107.author: grskus_tk
+photo.107.commitdate: 2021/8/14
+photo.107.link: https://www.instagram.com/grskus_tk/
+photo.107.tags: bamboo, peek
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
