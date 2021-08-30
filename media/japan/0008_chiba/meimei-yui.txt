@@ -9,8 +9,9 @@ photo.1.link: https://www.instagram.com/panda.daisuki/
 photo.1.tags: apple time, mother's day, paws, portrait, standing
 photo.1.tags.36.location: 230, 75
 photo.1.tags.47.location: 120, 95
-photo.2: https://www.instagram.com/p/BKAC-soDb0h/media/?size=m
+photo.2: ig://BKAC-soDb0h/m
 photo.2.author: panda.daisuki
+photo.2.commitdate: 2021/8/29
 photo.2.link: https://www.instagram.com/panda.daisuki/
 photo.2.tags: apple time, mother's day, paws, portrait, standing
 photo.2.tags.36.location: 125, 70

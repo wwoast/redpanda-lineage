@@ -120,55 +120,56 @@ photo.22.author: ssc6105
 photo.22.commitdate: 2020/3/8
 photo.22.link: https://www.instagram.com/ssc6105/
 photo.22.tags: paws, peek
-photo.23: ig://B_tFTBGBGxG/m
-photo.23.author: eos1089
-photo.23.commitdate: 2020/6/7
-photo.23.link: https://www.instagram.com/eos1089/
-photo.23.tags: peek, portrait, tongue
-photo.24: ig://CFZXfW4BIYP/m
-photo.24.author: takahisakaneuchi
-photo.24.commitdate: 2020/9/21
-photo.24.link: https://www.instagram.com/takahisakaneuchi/
-photo.24.tags: apple time, paws, portrait, spider, tail
-photo.25: ig://CFzchr6BW_r/m
-photo.25.author: kisshan324
-photo.25.commitdate: 2020/11/19
-photo.25.link: https://www.instagram.com/kisshan324/
-photo.25.tags: paws, peek, spider
-photo.26: ig://CH73hgJhY4x/m
-photo.26.author: takahisakaneuchi
-photo.26.commitdate: 2020/12/2
-photo.26.link: https://www.instagram.com/takahisakaneuchi/
-photo.26.tags: keeper, peek, portrait, techitechi
-photo.27: ig://CRTdWaShS7r/m
-photo.27.author: ssc6105
-photo.27.commitdate: 2021/7/14
-photo.27.link: https://www.instagram.com/ssc6105/
-photo.27.tags: bamboo, paws, portrait, whiskers
-photo.28: ig://CRi_NyNBjhM/m
-photo.28.author: rie_panda55
-photo.28.commitdate: 2021/8/2
-photo.28.link: https://www.instagram.com/rie_panda55/
-photo.28.tags: portrait, whiskers
-photo.29: ig://CSVZpyLB_bz/m
-photo.29.author: ck.chie
-photo.29.commitdate: 2021/8/10
-photo.29.link: https://www.instagram.com/ck.chie/
-photo.29.tags: peek, portrait, smile, whiskers
-photo.30: ig://CSX0DXvhzvH/m
-photo.30.author: miis_98
+photo.23: ig://B-7IaHZBJq1/m
+photo.23.author: miis_98
+photo.23.commitdate: 2021/8/29
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: close-up, whiskers
+photo.24: ig://B_tFTBGBGxG/m
+photo.24.author: eos1089
+photo.24.commitdate: 2020/6/7
+photo.24.link: https://www.instagram.com/eos1089/
+photo.24.tags: peek, portrait, tongue
+photo.25: ig://CFZXfW4BIYP/m
+photo.25.author: takahisakaneuchi
+photo.25.commitdate: 2020/9/21
+photo.25.link: https://www.instagram.com/takahisakaneuchi/
+photo.25.tags: apple time, paws, portrait, spider, tail
+photo.26: ig://CFzchr6BW_r/m
+photo.26.author: kisshan324
+photo.26.commitdate: 2020/11/19
+photo.26.link: https://www.instagram.com/kisshan324/
+photo.26.tags: paws, peek, spider
+photo.27: ig://CH73hgJhY4x/m
+photo.27.author: takahisakaneuchi
+photo.27.commitdate: 2020/12/2
+photo.27.link: https://www.instagram.com/takahisakaneuchi/
+photo.27.tags: keeper, peek, portrait, techitechi
+photo.28: ig://CRTdWaShS7r/m
+photo.28.author: ssc6105
+photo.28.commitdate: 2021/7/14
+photo.28.link: https://www.instagram.com/ssc6105/
+photo.28.tags: bamboo, paws, portrait, whiskers
+photo.29: ig://CRi_NyNBjhM/m
+photo.29.author: rie_panda55
+photo.29.commitdate: 2021/8/2
+photo.29.link: https://www.instagram.com/rie_panda55/
+photo.29.tags: portrait, whiskers
+photo.30: ig://CSVZpyLB_bz/m
+photo.30.author: ck.chie
 photo.30.commitdate: 2021/8/10
-photo.30.link: https://www.instagram.com/miis_98/
-photo.30.tags: portrait, smile, whiskers
-photo.31: ig://CSojFmwByiL/m
+photo.30.link: https://www.instagram.com/ck.chie/
+photo.30.tags: peek, portrait, smile, whiskers
+photo.31: ig://CSX0DXvhzvH/m
 photo.31.author: miis_98
-photo.31.commitdate: 2021/8/18
+photo.31.commitdate: 2021/8/10
 photo.31.link: https://www.instagram.com/miis_98/
-photo.31.tags: lips, paws, portrait, whiskers
-photo.32: https://www.instagram.com/p/B-7IaHZBJq1/media/?size=m
+photo.31.tags: portrait, smile, whiskers
+photo.32: ig://CSojFmwByiL/m
 photo.32.author: miis_98
+photo.32.commitdate: 2021/8/18
 photo.32.link: https://www.instagram.com/miis_98/
-photo.32.tags: close-up, whiskers
+photo.32.tags: lips, paws, portrait, whiskers
 species: 2
 studbook.id: 15142
 zoo: 25
