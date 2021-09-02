@@ -2,7 +2,7 @@
 _id: 1247
 birthday: 2019/6/22
 birthplace: 271
-children: none
+children: 1312, 1313
 cn.name: 火狐
 cn.nicknames: none
 cn.othernames: none
@@ -10,7 +10,7 @@ commitdate: 2020/12/29
 en.name: Hui Hu
 en.nicknames: none
 en.othernames: Huo-Hu, Huo Hu, Hui-Hu, Firefox
-fr.name: Huo Hu
+fr.name: Hui Hu
 fr.nicknames: none
 fr.othernames: none
 gender: m
