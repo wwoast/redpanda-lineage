@@ -544,8 +544,9 @@ photo.106.author: jas_forever_love
 photo.106.commitdate: 2021/8/18
 photo.106.link: https://www.instagram.com/jas_forever_love/
 photo.106.tags: nose, portrait, surprise, tail, tree
-photo.107: https://www.instagram.com/p/CS_sC-Uh0Eo/media/?size=m
+photo.107: ig://CS_sC-Uh0Eo/m
 photo.107.author: jas_forever_love
+photo.107.commitdate: 2021/9/1
 photo.107.link: https://www.instagram.com/jas_forever_love/
 photo.107.tags: peek, smile, tree
 species: 2

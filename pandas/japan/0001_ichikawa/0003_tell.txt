@@ -582,15 +582,16 @@ photo.114.author: ifumoto88
 photo.114.commitdate: 2021/6/29
 photo.114.link: https://www.instagram.com/ifumoto88/
 photo.114.tags: mofumofu, peek, portrait, techitechi
-photo.115: ig://CRJcLvaB8o2/m
-photo.115.author: eos1089
-photo.115.commitdate: 2021/7/19
-photo.115.link: https://www.instagram.com/eos1089/
-photo.115.tags: close-up, mofumofu, portrait, whiskers
-photo.116: https://www.instagram.com/p/CQtJz11hXUY/media/?size=m
-photo.116.author: ifumoto88
-photo.116.link: https://www.instagram.com/ifumoto88/
-photo.116.tags: apple time, blink, paws, smile
+photo.115: ig://CQtJz11hXUY/m
+photo.115.author: ifumoto88
+photo.115.commitdate: 2021/9/1
+photo.115.link: https://www.instagram.com/ifumoto88/
+photo.115.tags: apple time, blink, paws, smile
+photo.116: ig://CRJcLvaB8o2/m
+photo.116.author: eos1089
+photo.116.commitdate: 2021/7/19
+photo.116.link: https://www.instagram.com/eos1089/
+photo.116.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 10112
 zoo: 1

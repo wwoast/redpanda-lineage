@@ -392,8 +392,9 @@ photo.76.author: fetorus_mami
 photo.76.commitdate: 2021/7/7
 photo.76.link: https://www.instagram.com/fetorus_mami/
 photo.76.tags: dish, smile, tongue
-photo.77: https://www.instagram.com/p/CTCmk--BQjy/media/?size=m
+photo.77: ig://CTCmk--BQjy/m
 photo.77.author: redpan22
+photo.77.commitdate: 2021/9/1
 photo.77.link: https://www.instagram.com/redpan22/
 photo.77.tags: portrait, profile, smile
 species: 2

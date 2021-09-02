@@ -21,29 +21,31 @@ language.order: fr, de, en, jp
 litter: unknown
 location.1: 251, 2020/6/6
 location.2: 219, 2021/3/1
-photo.1: ig://CPyownchKPe/m
+photo.1: ig://CPd_t9Eg_c5/m
 photo.1.author: nathalie.elliott
-photo.1.commitdate: 2021/7/6
+photo.1.commitdate: 2021/9/1
 photo.1.link: https://www.instagram.com/nathalie.elliott/
-photo.1.tags: flowers, mofumofu, peek, portrait, profile
-photo.2: ig://CQ9VgadhWjO/m
+photo.1.tags: peek, tail
+photo.2: ig://CPyownchKPe/m
 photo.2.author: nathalie.elliott
-photo.2.commitdate: 2021/7/8
+photo.2.commitdate: 2021/7/6
 photo.2.link: https://www.instagram.com/nathalie.elliott/
-photo.2.tags: dish, home, portrait, tail
-photo.3: ig://CSph_OZs-7a/m
+photo.2.tags: flowers, mofumofu, peek, portrait, profile
+photo.3: ig://CQ9VgadhWjO/m
 photo.3.author: nathalie.elliott
-photo.3.commitdate: 2021/8/18
+photo.3.commitdate: 2021/7/8
 photo.3.link: https://www.instagram.com/nathalie.elliott/
-photo.3.tags: bamboo, portrait
-photo.4: https://www.instagram.com/p/CR3_VfwMllJ/media/?size=m
+photo.3.tags: dish, home, portrait, tail
+photo.4: ig://CR3_VfwMllJ/m
 photo.4.author: nathalie.elliott
+photo.4.commitdate: 2021/9/1
 photo.4.link: https://www.instagram.com/nathalie.elliott/
 photo.4.tags: portrait
-photo.5: https://www.instagram.com/p/CPd_t9Eg_c5/media/?size=m
+photo.5: ig://CSph_OZs-7a/m
 photo.5.author: nathalie.elliott
+photo.5.commitdate: 2021/8/18
 photo.5.link: https://www.instagram.com/nathalie.elliott/
-photo.5.tags: peek, tail
+photo.5.tags: bamboo, portrait
 species: 1
 uncertainty: location.2 moving date
 zoo: 219

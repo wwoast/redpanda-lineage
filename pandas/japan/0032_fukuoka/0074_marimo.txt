@@ -539,8 +539,9 @@ photo.106.author: re_ichimaru
 photo.106.commitdate: 2021/6/6
 photo.106.link: https://www.instagram.com/re_ichimaru/
 photo.106.tags: climb, paws, portrait, window
-photo.107: https://www.instagram.com/p/CTBfWFlBBzd/media/?size=m
+photo.107: ig://CTBfWFlBBzd/m
 photo.107.author: re_ichimaru
+photo.107.commitdate: 2021/9/1
 photo.107.link: https://www.instagram.com/re_ichimaru/
 photo.107.tags: paws, portrait
 species: 2
