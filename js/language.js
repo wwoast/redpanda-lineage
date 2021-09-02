@@ -413,8 +413,10 @@ Language.L.gui = {
   "language": {
     "cn": {
       "cn": "汉语",
+      "de": "德语",
       "en": "英语",
       "es": "西班牙语",
+      "fr": "法语",
       "jp": "日语",
       "kr": "朝鮮语",
       "np": "尼泊尔语",
@@ -425,8 +427,10 @@ Language.L.gui = {
     },
     "en": {
       "cn": "Chinese",
+      "de": "German",
       "en": "English",
       "es": "Spanish",
+      "fr": "French",
       "jp": "Japanese",
       "kr": "Korean",
       "np": "Nepalese",
@@ -437,8 +441,10 @@ Language.L.gui = {
     },
     "es": {
       "cn": "Chino",
+      "de": "Alemán",
       "en": "Ingles",
       "es": "Español",
+      "fr": "Francés",
       "jp": "Japonés",
       "kr": "Coreano",
       "np": "Nepalés",
@@ -449,8 +455,10 @@ Language.L.gui = {
     },
     "jp": {
       "cn": "中国語",
+      "de": "ドイツ語",
       "en": "英語",
       "es": "スペイン語",
+      "fr": "フランス語",
       "jp": "日本語",
       "kr": "韓国語",
       "np": "ネパール語",
@@ -461,8 +469,10 @@ Language.L.gui = {
     },
     "np": {
       "cn": "चिनियाँ",
+      "de": "जर्मन",
       "en": "अंग्रेजी",
       "es": "स्पनिश",
+      "fr": "फ्रेन्च",
       "jp": "जापानी",
       "kr": "कोरियन",
       "np": "नेपाली",
@@ -473,8 +483,10 @@ Language.L.gui = {
     },
     "pt": {
       "cn": "Chinês",
+      "de": "Alemão",
       "en": "Inglês",
       "es": "Espanhol",
+      "fr": "Francês",
       "jp": "Japonês",
       "kr": "Coreano",
       "np": "Nepalês",
@@ -485,8 +497,10 @@ Language.L.gui = {
     },
     "ru": {
       "cn": "китайский",
+      "de": "немецкий",
       "en": "английский",
       "es": "испанский",
+      "fr": "французкий",
       "jp": "японский",
       "kr": "корейский",
       "np": "непальский",
@@ -497,8 +511,10 @@ Language.L.gui = {
     },
     "se": {
       "cn": "Kinesiskt",
+      "de": "Tyska",
       "en": "Engelska",
       "es": "Spanska",
+      "fr": "Franska",
       "jp": "Japanska",
       "kr": "Koreanska",
       "np": "Nepali",
