@@ -17,7 +17,7 @@ photo.1: ig://CHp51xbANds/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: baby, portrait, profile
+photo.1.tags: baby, portrait
 photo.2: ig://CJ52cOurooF/m
 photo.2.author: rossifari
 photo.2.commitdate: 2021/6/13
@@ -68,5 +68,9 @@ photo.11.author: carsontheredpanda
 photo.11.commitdate: 2021/8/18
 photo.11.link: https://www.instagram.com/carsontheredpanda/
 photo.11.tags: paws, portrait, standing, tree
+photo.12: https://www.instagram.com/p/CTCzqI8FNgR/media/?size=m
+photo.12.author: carsontheredpanda
+photo.12.link: https://www.instagram.com/carsontheredpanda/
+photo.12.tags: portrait, profile, smile, whiskers
 species: 2
 zoo: 43

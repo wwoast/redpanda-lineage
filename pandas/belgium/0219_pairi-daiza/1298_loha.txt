@@ -36,6 +36,14 @@ photo.3.author: nathalie.elliott
 photo.3.commitdate: 2021/8/18
 photo.3.link: https://www.instagram.com/nathalie.elliott/
 photo.3.tags: bamboo, portrait
+photo.4: https://www.instagram.com/p/CR3_VfwMllJ/media/?size=m
+photo.4.author: nathalie.elliott
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: portrait
+photo.5: https://www.instagram.com/p/CPd_t9Eg_c5/media/?size=m
+photo.5.author: nathalie.elliott
+photo.5.link: https://www.instagram.com/nathalie.elliott/
+photo.5.tags: peek, tail
 species: 1
 uncertainty: location.2 moving date
 zoo: 219

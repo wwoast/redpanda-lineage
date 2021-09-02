@@ -51,7 +51,7 @@ photo.8: ig://BoMAzITlva9/m
 photo.8.author: taka__3428
 photo.8.commitdate: 2018/9/27
 photo.8.link: https://www.instagram.com/taka__3428/
-photo.8.tags: grumpy, portrait, profile
+photo.8.tags: grumpy, portrait
 photo.9: ig://BpS9c2AldLW/m
 photo.9.author: kipekaila
 photo.9.commitdate: 2018/10/23
@@ -392,6 +392,10 @@ photo.76.author: fetorus_mami
 photo.76.commitdate: 2021/7/7
 photo.76.link: https://www.instagram.com/fetorus_mami/
 photo.76.tags: dish, smile, tongue
+photo.77: https://www.instagram.com/p/CTCmk--BQjy/media/?size=m
+photo.77.author: redpan22
+photo.77.link: https://www.instagram.com/redpan22/
+photo.77.tags: portrait, profile, smile
 species: 2
 studbook.id: 15155
 zoo: 10
