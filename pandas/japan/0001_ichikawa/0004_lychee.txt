@@ -308,29 +308,31 @@ photo.59.author: ssc6105
 photo.59.commitdate: 2021/4/29
 photo.59.link: https://www.instagram.com/ssc6105/
 photo.59.tags: smile, whiskers
-photo.60: ig://COW_1TIhiHS/m
-photo.60.author: ssc6105
-photo.60.commitdate: 2021/5/4
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: grooming, mofumofu, tail
-photo.61: ig://COqxkGDhmyF/m
-photo.61.author: ssc6105
-photo.61.commitdate: 2021/6/15
-photo.61.link: https://www.instagram.com/ssc6105/
-photo.61.tags: bear worm, laying down, portrait, tail
-photo.62: ig://CPA8tO-B2yZ/m
-photo.62.author: ifumoto88
-photo.62.commitdate: 2021/6/16
-photo.62.link: https://www.instagram.com/ifumoto88/
-photo.62.tags: apple time, bite, close-up, portrait, smile
-photo.63: https://www.instagram.com/p/CNZtPTABr_X/media/?size=m
-photo.63.author: daniele.tokyo
-photo.63.link: https://www.instagram.com/daniele.tokyo/
-photo.63.tags: keeper, peek, toothbrush
-photo.64: https://www.instagram.com/p/CNXUuUwBmnA/media/?size=m
-photo.64.author: ck.chie
-photo.64.link: https://www.instagram.com/ck.chie/
-photo.64.tags: laying down, paws, whiskers
+photo.60: ig://CNXUuUwBmnA/m
+photo.60.author: ck.chie
+photo.60.commitdate: 2021/9/6
+photo.60.link: https://www.instagram.com/ck.chie/
+photo.60.tags: laying down, paws, whiskers
+photo.61: ig://CNZtPTABr_X/m
+photo.61.author: daniele.tokyo
+photo.61.commitdate: 2021/9/6
+photo.61.link: https://www.instagram.com/daniele.tokyo/
+photo.61.tags: keeper, peek, toothbrush
+photo.62: ig://COW_1TIhiHS/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2021/5/4
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: grooming, mofumofu, tail
+photo.63: ig://COqxkGDhmyF/m
+photo.63.author: ssc6105
+photo.63.commitdate: 2021/6/15
+photo.63.link: https://www.instagram.com/ssc6105/
+photo.63.tags: bear worm, laying down, portrait, tail
+photo.64: ig://CPA8tO-B2yZ/m
+photo.64.author: ifumoto88
+photo.64.commitdate: 2021/6/16
+photo.64.link: https://www.instagram.com/ifumoto88/
+photo.64.tags: apple time, bite, close-up, portrait, smile
 species: 2
 studbook.id: 0558
 zoo: 1

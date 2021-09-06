@@ -853,20 +853,21 @@ photo.169.author: hamamatsu.chiita
 photo.169.commitdate: 2021/7/9
 photo.169.link: https://www.instagram.com/hamamatsu.chiita/
 photo.169.tags: peek, portrait, profile, whiskers
-photo.170: ig://CRPAD2VBC5S/m
-photo.170.author: eos1089
-photo.170.commitdate: 2021/7/13
-photo.170.link: https://www.instagram.com/eos1089/
-photo.170.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.171: ig://CSTrxguBSAl/m
-photo.171.author: resapan.suki
-photo.171.commitdate: 2021/8/10
-photo.171.link: https://www.instagram.com/resapan.suki/
-photo.171.tags: paws, portrait, smile, whiskers
-photo.172: https://www.instagram.com/p/CQCT6U3hWX5/media/?size=m
-photo.172.author: hamamatsu.chiita
-photo.172.link: https://www.instagram.com/hamamatsu.chiita/
-photo.172.tags: close-up, laying down, portrait, whiskers
+photo.170: ig://CQCT6U3hWX5/m
+photo.170.author: hamamatsu.chiita
+photo.170.commitdate: 2021/9/6
+photo.170.link: https://www.instagram.com/hamamatsu.chiita/
+photo.170.tags: close-up, laying down, portrait, whiskers
+photo.171: ig://CRPAD2VBC5S/m
+photo.171.author: eos1089
+photo.171.commitdate: 2021/7/13
+photo.171.link: https://www.instagram.com/eos1089/
+photo.171.tags: close-up, mofumofu, portrait, smile, whiskers
+photo.172: ig://CSTrxguBSAl/m
+photo.172.author: resapan.suki
+photo.172.commitdate: 2021/8/10
+photo.172.link: https://www.instagram.com/resapan.suki/
+photo.172.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

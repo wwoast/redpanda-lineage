@@ -493,28 +493,31 @@ photo.96.author: kotume4935
 photo.96.commitdate: 2021/2/28
 photo.96.link: https://www.instagram.com/kotume4935/
 photo.96.tags: laying down, portrait, smile, tail, tree
-photo.97: ig://COhJFuSBCEE/m
-photo.97.author: hidehaya_biei
-photo.97.commitdate: 2021/8/11
-photo.97.link: https://www.instagram.com/hidehaya_biei/
-photo.97.tags: smile, whiskers
-photo.98: ig://CPidlSSBRhb/m
-photo.98.author: redpan22
-photo.98.commitdate: 2021/8/11
-photo.98.link: https://www.instagram.com/redpan22/
-photo.98.tags: bamboo, home, mofumofu, portrait, techitechi
-photo.99: https://www.instagram.com/p/CNZGvi2hd1L/media/?size=m
+photo.97: ig://CJ8fInwBDrc/m
+photo.97.author: happy_love2.15
+photo.97.commitdate: 2021/9/6
+photo.97.link: https://www.instagram.com/happy_love2.15/
+photo.97.tags: home, paws, peek, portrait, snow
+photo.98: ig://CLiQX1xB0t7/m
+photo.98.author: hidehaya_biei
+photo.98.commitdate: 2021/9/6
+photo.98.link: https://www.instagram.com/hidehaya_biei/
+photo.98.tags: portrait, smile, whiskers
+photo.99: ig://CNZGvi2hd1L/m
 photo.99.author: hidehaya_biei
+photo.99.commitdate: 2021/9/6
 photo.99.link: https://www.instagram.com/hidehaya_biei/
 photo.99.tags: peek, smile
-photo.100: https://www.instagram.com/p/CLiQX1xB0t7/media/?size=m
+photo.100: ig://COhJFuSBCEE/m
 photo.100.author: hidehaya_biei
+photo.100.commitdate: 2021/8/11
 photo.100.link: https://www.instagram.com/hidehaya_biei/
-photo.100.tags: portrait, smile, whiskers
-photo.101: https://www.instagram.com/p/CJ8fInwBDrc/media/?size=m
-photo.101.author: happy_love2.15
-photo.101.link: https://www.instagram.com/happy_love2.15/
-photo.101.tags: home, paws, peek, portrait, snow
+photo.100.tags: smile, whiskers
+photo.101: ig://CPidlSSBRhb/m
+photo.101.author: redpan22
+photo.101.commitdate: 2021/8/11
+photo.101.link: https://www.instagram.com/redpan22/
+photo.101.tags: bamboo, home, mofumofu, portrait, techitechi
 species: 2
 studbook.id: unknown
 zoo: 45

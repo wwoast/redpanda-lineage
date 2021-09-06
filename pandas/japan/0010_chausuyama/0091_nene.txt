@@ -382,15 +382,16 @@ photo.74.author: redpan22
 photo.74.commitdate: 2021/8/15
 photo.74.link: https://www.instagram.com/redpan22/
 photo.74.tags: apple time, dish, paws, tongue, whiskers
-photo.75: ig://CPeL6TPBypD/m
-photo.75.author: hamamatsu.chiita
-photo.75.commitdate: 2021/6/18
-photo.75.link: https://www.instagram.com/hamamatsu.chiita/
-photo.75.tags: portrait, techitechi, white face
-photo.76: https://www.instagram.com/p/CNdZ-D4BhWz/media/?size=m
-photo.76.author: rie_panda55
-photo.76.link: https://www.instagram.com/rie_panda55/
-photo.76.tags: bamboo, portrait, smile, tail
+photo.75: ig://CNdZ-D4BhWz/m
+photo.75.author: rie_panda55
+photo.75.commitdate: 2021/9/6
+photo.75.link: https://www.instagram.com/rie_panda55/
+photo.75.tags: bamboo, portrait, smile, tail
+photo.76: ig://CPeL6TPBypD/m
+photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2021/6/18
+photo.76.link: https://www.instagram.com/hamamatsu.chiita/
+photo.76.tags: portrait, techitechi, white face
 species: 2
 studbook.id: 12109
 zoo: 10

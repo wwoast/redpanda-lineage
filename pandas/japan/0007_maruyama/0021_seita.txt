@@ -945,35 +945,36 @@ photo.187.author: cattail.sapporo
 photo.187.commitdate: 2021/4/10
 photo.187.link: https://www.instagram.com/cattail.sapporo/
 photo.187.tags: paws, portrait, tail
-photo.188: ig://COU2uW9hNZ_/m
-photo.188.author: leonard_redmof
-photo.188.commitdate: 2021/5/4
-photo.188.link: https://www.instagram.com/leonard_redmof/
-photo.188.tags: apple time, portrait, standing, tail, toys
-photo.189: ig://COxPj80gX0U/m
-photo.189.author: cattail.sapporo
-photo.189.commitdate: 2021/6/15
-photo.189.link: https://www.instagram.com/cattail.sapporo/
-photo.189.tags: apple time, mofumofu, pwas, portrait, smile, tongue, whiskers
-photo.190: ig://CQcJNqnAkn-/m
+photo.188: ig://CNhUWvLh15-/m
+photo.188.author: minatomirai215
+photo.188.commitdate: 2021/9/6
+photo.188.link: https://www.instagram.com/minatomirai215/
+photo.188.tags: bamboo, portrait
+photo.189: ig://COU2uW9hNZ_/m
+photo.189.author: leonard_redmof
+photo.189.commitdate: 2021/5/4
+photo.189.link: https://www.instagram.com/leonard_redmof/
+photo.189.tags: apple time, portrait, standing, tail, toys
+photo.190: ig://COxPj80gX0U/m
 photo.190.author: cattail.sapporo
-photo.190.commitdate: 2021/7/22
+photo.190.commitdate: 2021/6/15
 photo.190.link: https://www.instagram.com/cattail.sapporo/
-photo.190.tags: apple time, climb, paws, portrait, tail
-photo.191: ig://CRQ-UnSh0Vi/m
-photo.191.author: tama67photo
-photo.191.commitdate: 2021/7/14
-photo.191.link: https://www.instagram.com/tama67photo/
-photo.191.tags: close-up, mofumofu, portrait, sleeping
-photo.192: ig://CRWB06gAIfF/m
-photo.192.author: cattail.sapporo
-photo.192.commitdate: 2021/7/19
-photo.192.link: https://www.instagram.com/cattail.sapporo/
-photo.192.tags: bamboo, climb, paws, portrait, tail
-photo.193: https://www.instagram.com/p/CNhUWvLh15-/media/?size=m
-photo.193.author: minatomirai215
-photo.193.link: https://www.instagram.com/minatomirai215/
-photo.193.tags: bamboo, portrait
+photo.190.tags: apple time, mofumofu, pwas, portrait, smile, tongue, whiskers
+photo.191: ig://CQcJNqnAkn-/m
+photo.191.author: cattail.sapporo
+photo.191.commitdate: 2021/7/22
+photo.191.link: https://www.instagram.com/cattail.sapporo/
+photo.191.tags: apple time, climb, paws, portrait, tail
+photo.192: ig://CRQ-UnSh0Vi/m
+photo.192.author: tama67photo
+photo.192.commitdate: 2021/7/14
+photo.192.link: https://www.instagram.com/tama67photo/
+photo.192.tags: close-up, mofumofu, portrait, sleeping
+photo.193: ig://CRWB06gAIfF/m
+photo.193.author: cattail.sapporo
+photo.193.commitdate: 2021/7/19
+photo.193.link: https://www.instagram.com/cattail.sapporo/
+photo.193.tags: bamboo, climb, paws, portrait, tail
 species: 2
 studbook.id: 0554
 zoo: 7

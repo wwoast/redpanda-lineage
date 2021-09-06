@@ -115,8 +115,9 @@ photo.20.author: pippin455
 photo.20.commitdate: 2020/11/6
 photo.20.link: https://www.instagram.com/pippin455/
 photo.20.tags: laying down, mofumofu, tail, white face
-photo.21: https://www.instagram.com/p/CJZEkOzAU43/media/?size=m
+photo.21: ig://CJZEkOzAU43/m
 photo.21.author: pippin455
+photo.21.commitdate: 2021/9/6
 photo.21.link: https://www.instagram.com/pippin455/
 photo.21.tags: dish, smile, tongue
 species: 1

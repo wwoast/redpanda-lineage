@@ -46,15 +46,16 @@ photo.5.author: mirellad03
 photo.5.commitdate: 2021/9/1
 photo.5.link: https://www.instagram.com/mirellad03/
 photo.5.tags: paws, snow
-photo.6: ig://COQoVDJg5pP/m
+photo.6: ig://CODpL4hgTkR/m
 photo.6.author: nathalie.elliott
-photo.6.commitdate: 2021/9/1
+photo.6.commitdate: 2021/9/6
 photo.6.link: https://www.instagram.com/nathalie.elliott/
-photo.6.tags: peek, tree
-photo.7: https://www.instagram.com/p/CODpL4hgTkR/media/?size=m
+photo.6.tags: paws, peek, portrait, tree
+photo.7: ig://COQoVDJg5pP/m
 photo.7.author: nathalie.elliott
+photo.7.commitdate: 2021/9/1
 photo.7.link: https://www.instagram.com/nathalie.elliott/
-photo.7.tags: paws, peek, portrait, tree
+photo.7.tags: peek, tree
 species: 1
 uncertainty: location.2 moving date
 zoo: 219

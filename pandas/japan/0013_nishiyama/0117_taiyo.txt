@@ -277,30 +277,31 @@ photo.53.author: hamamatsu.chiita
 photo.53.commitdate: 2021/6/19
 photo.53.link: https://www.instagram.com/hamamatsu.chiita/
 photo.53.tags: portrait, whiskers
-photo.54: ig://CQvUS3qhCDy/m
-photo.54.author: minato.yokohama4416
-photo.54.commitdate: 2021/7/9
-photo.54.link: https://www.instagram.com/minato.yokohama4416/
-photo.54.tags: portrait, tree, videolink
-photo.55: ig://CRQkNrqhRHp/m
+photo.54: ig://CQI2hc3hD1N/m
+photo.54.author: hamamatsu.chiita
+photo.54.commitdate: 2021/9/6
+photo.54.link: https://www.instagram.com/hamamatsu.chiita/
+photo.54.tags: portrait, videolink, wet
+photo.55: ig://CQvUS3qhCDy/m
 photo.55.author: minato.yokohama4416
-photo.55.commitdate: 2021/7/14
+photo.55.commitdate: 2021/7/9
 photo.55.link: https://www.instagram.com/minato.yokohama4416/
-photo.55.tags: laying down, paws, peek, portrait, tree
-photo.56: ig://CSS-WRrBWxs/m
-photo.56.author: grskus_tk
-photo.56.commitdate: 2021/8/14
-photo.56.link: https://www.instagram.com/grskus_tk/
-photo.56.tags: smile, whiskers
-photo.57: ig://CSVzmUfB9tI/m
+photo.55.tags: portrait, tree, videolink
+photo.56: ig://CRQkNrqhRHp/m
+photo.56.author: minato.yokohama4416
+photo.56.commitdate: 2021/7/14
+photo.56.link: https://www.instagram.com/minato.yokohama4416/
+photo.56.tags: laying down, paws, peek, portrait, tree
+photo.57: ig://CSS-WRrBWxs/m
 photo.57.author: grskus_tk
 photo.57.commitdate: 2021/8/14
 photo.57.link: https://www.instagram.com/grskus_tk/
-photo.57.tags: peek
-photo.58: https://www.instagram.com/p/CQI2hc3hD1N/media/?size=m
-photo.58.author: hamamatsu.chiita
-photo.58.link: https://www.instagram.com/hamamatsu.chiita/
-photo.58.tags: portrait, videolink, wet
+photo.57.tags: smile, whiskers
+photo.58: ig://CSVzmUfB9tI/m
+photo.58.author: grskus_tk
+photo.58.commitdate: 2021/8/14
+photo.58.link: https://www.instagram.com/grskus_tk/
+photo.58.tags: peek
 species: 2
 studbook.id: 13143
 zoo: 13

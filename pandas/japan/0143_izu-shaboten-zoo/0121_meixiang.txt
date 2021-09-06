@@ -459,15 +459,16 @@ photo.89.author: pink.b22
 photo.89.commitdate: 2021/4/10
 photo.89.link: https://www.instagram.com/pink.b22/
 photo.89.tags: peek, portrait, whiskers
-photo.90: ig://COGuLoWBVm1/m
-photo.90.author: pink.b22
-photo.90.commitdate: 2021/5/31
-photo.90.link: https://www.instagram.com/pink.b22/
-photo.90.tags: peek, portrait
-photo.91: https://www.instagram.com/p/CNXnQK6Bxmx/media/?size=m
-photo.91.author: fetorus_mami
-photo.91.link: https://www.instagram.com/fetorus_mami/
-photo.91.tags: apple time, paws, smile, whiskers
+photo.90: ig://CNXnQK6Bxmx/m
+photo.90.author: fetorus_mami
+photo.90.commitdate: 2021/9/6
+photo.90.link: https://www.instagram.com/fetorus_mami/
+photo.90.tags: apple time, paws, smile, whiskers
+photo.91: ig://COGuLoWBVm1/m
+photo.91.author: pink.b22
+photo.91.commitdate: 2021/5/31
+photo.91.link: https://www.instagram.com/pink.b22/
+photo.91.tags: peek, portrait
 species: 2
 studbook.id: 1775
 zoo: 143

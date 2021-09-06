@@ -727,56 +727,61 @@ photo.143.author: colette.jp
 photo.143.commitdate: 2021/6/19
 photo.143.link: https://www.instagram.com/colette.jp/
 photo.143.tags: portrait, standing, tail, tree
-photo.144: ig://CQVmZbUhYCE/m
-photo.144.author: colette.jp
-photo.144.commitdate: 2021/8/6
-photo.144.link: https://www.instagram.com/colette.jp/
-photo.144.tags: laying down, paws, playing, portrait, wave
-photo.145: ig://CROYCo0hE50/m
-photo.145.author: love__mitarashi
-photo.145.commitdate: 2021/7/13
-photo.145.link: https://www.instagram.com/love__mitarashi/
-photo.145.tags: bamboo, home, laying down, mofumofu
-photo.146: ig://CRly6B1hrJ_/m
-photo.146.author: love__mitarashi
-photo.146.commitdate: 2021/8/2
-photo.146.link: https://www.instagram.com/love__mitarashi/
-photo.146.tags: portrait
-photo.147: ig://CSJhRnNBHnK/m
-photo.147.author: colette.jp
-photo.147.commitdate: 2021/8/9
-photo.147.link: https://www.instagram.com/colette.jp/
-photo.147.tags: keeper, paws, portrait, smile, whiskers
-photo.148: ig://CSOqsolBCni/m
+photo.144: ig://CP512upBKZy/m
+photo.144.author: love__mitarashi
+photo.144.commitdate: 2021/9/6
+photo.144.link: https://www.instagram.com/love__mitarashi/
+photo.144.tags: smile, tail
+photo.145: ig://CP63j5Th1ei/m
+photo.145.author: yakkooo24
+photo.145.commitdate: 2021/9/6
+photo.145.link: https://www.instagram.com/yakkooo24/
+photo.145.tags: bamboo, home, mofumofu, portrait
+photo.146: ig://CP77Sofh-Ao/m
+photo.146.author: colette.jp
+photo.146.commitdate: 2021/9/6
+photo.146.link: https://www.instagram.com/colette.jp/
+photo.146.tags: home, portrait, smile
+photo.147: ig://CP8PNKJBRyJ/m
+photo.147.author: minatomirai215
+photo.147.commitdate: 2021/9/6
+photo.147.link: https://www.instagram.com/minatomirai215/
+photo.147.tags: mofumofu, portrait
+photo.148: ig://CQDo8WhByue/m
 photo.148.author: colette.jp
-photo.148.commitdate: 2021/8/9
+photo.148.commitdate: 2021/9/6
 photo.148.link: https://www.instagram.com/colette.jp/
-photo.148.tags: portrait, smile, whiskers
-photo.149: ig://CSO12NLHeet/m
-photo.149.author: love__mitarashi
-photo.149.commitdate: 2021/8/10
-photo.149.link: https://www.instagram.com/love__mitarashi/
-photo.149.tags: mofumofu, portrait, whiskers
-photo.150: https://www.instagram.com/p/CP8PNKJBRyJ/media/?size=m
-photo.150.author: minatomirai215
-photo.150.link: https://www.instagram.com/minatomirai215/
-photo.150.tags: mofumofu, portrait
-photo.151: https://www.instagram.com/p/CP77Sofh-Ao/media/?size=m
-photo.151.author: colette.jp
-photo.151.link: https://www.instagram.com/colette.jp/
-photo.151.tags: home, portrait, smile
-photo.152: https://www.instagram.com/p/CP63j5Th1ei/media/?size=m
-photo.152.author: yakkooo24
-photo.152.link: https://www.instagram.com/yakkooo24/
-photo.152.tags: bamboo, home, mofumofu, portrait
-photo.153: https://www.instagram.com/p/CP512upBKZy/media/?size=m
-photo.153.author: love__mitarashi
-photo.153.link: https://www.instagram.com/love__mitarashi/
-photo.153.tags: smile, tail
-photo.154: https://www.instagram.com/p/CQDo8WhByue/media/?size=m
-photo.154.author: colette.jp
-photo.154.link: https://www.instagram.com/colette.jp/
-photo.154.tags: home, paws, portrait, standing, tail, tree
+photo.148.tags: home, paws, portrait, standing, tail, tree
+photo.149: ig://CQVmZbUhYCE/m
+photo.149.author: colette.jp
+photo.149.commitdate: 2021/8/6
+photo.149.link: https://www.instagram.com/colette.jp/
+photo.149.tags: laying down, paws, playing, portrait, wave
+photo.150: ig://CROYCo0hE50/m
+photo.150.author: love__mitarashi
+photo.150.commitdate: 2021/7/13
+photo.150.link: https://www.instagram.com/love__mitarashi/
+photo.150.tags: bamboo, home, laying down, mofumofu
+photo.151: ig://CRly6B1hrJ_/m
+photo.151.author: love__mitarashi
+photo.151.commitdate: 2021/8/2
+photo.151.link: https://www.instagram.com/love__mitarashi/
+photo.151.tags: portrait
+photo.152: ig://CSJhRnNBHnK/m
+photo.152.author: colette.jp
+photo.152.commitdate: 2021/8/9
+photo.152.link: https://www.instagram.com/colette.jp/
+photo.152.tags: keeper, paws, portrait, smile, whiskers
+photo.153: ig://CSOqsolBCni/m
+photo.153.author: colette.jp
+photo.153.commitdate: 2021/8/9
+photo.153.link: https://www.instagram.com/colette.jp/
+photo.153.tags: portrait, smile, whiskers
+photo.154: ig://CSO12NLHeet/m
+photo.154.author: love__mitarashi
+photo.154.commitdate: 2021/8/10
+photo.154.link: https://www.instagram.com/love__mitarashi/
+photo.154.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14

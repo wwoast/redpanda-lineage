@@ -453,20 +453,21 @@ photo.88.author: hamamatsu.chiita
 photo.88.commitdate: 2021/4/11
 photo.88.link: https://www.instagram.com/hamamatsu.chiita/
 photo.88.tags: close-up, ear, mofumofu, portrait, whiskers
-photo.89: ig://COSXwlGBO2j/m
-photo.89.author: makimaru18
-photo.89.commitdate: 2021/5/4
-photo.89.link: https://www.instagram.com/makimaru18/
-photo.89.tags: apple time, nose, paws, peek, portrait
-photo.90: ig://CP3B6PTh_u6/m
-photo.90.author: sakikukeco
-photo.90.commitdate: 2021/6/19
-photo.90.link: https://www.instagram.com/sakikukeco/
-photo.90.tags: portrait, whiskers
-photo.91: https://www.instagram.com/p/CNTZBGXhYk0/media/?size=m
-photo.91.author: tomo3700
-photo.91.link: https://www.instagram.com/tomo3700/
-photo.91.tags: peek, portrait, toys
+photo.89: ig://CNTZBGXhYk0/m
+photo.89.author: tomo3700
+photo.89.commitdate: 2021/9/6
+photo.89.link: https://www.instagram.com/tomo3700/
+photo.89.tags: peek, portrait, toys
+photo.90: ig://COSXwlGBO2j/m
+photo.90.author: makimaru18
+photo.90.commitdate: 2021/5/4
+photo.90.link: https://www.instagram.com/makimaru18/
+photo.90.tags: apple time, nose, paws, peek, portrait
+photo.91: ig://CP3B6PTh_u6/m
+photo.91.author: sakikukeco
+photo.91.commitdate: 2021/6/19
+photo.91.link: https://www.instagram.com/sakikukeco/
+photo.91.tags: portrait, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22
