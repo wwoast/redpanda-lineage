@@ -13,7 +13,6 @@ jp.nicknames: none
 jp.othernames: ヒカル
 language.order: jp, en
 litter: 177
-phoot.42.link: https://www.instagram.com/animal_love_us/
 photo.1: ig://BcEzsI2lefs/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
@@ -105,6 +104,7 @@ photo.18.tags: apple time, dish, paws, portrait, smile
 photo.19: ig://B8OXWtkBMsh/m
 photo.19.author: animal_love_us
 photo.19.commitdate: 2021/9/6
+photo.19.link: https://www.instagram.com/animal_love_us/
 photo.19.tags: apple time, close-up, portrait, smile, whiskers
 photo.20: ig://B-PfqDohpkd/m
 photo.20.author: fetorus_mami
