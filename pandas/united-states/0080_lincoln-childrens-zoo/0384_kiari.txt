@@ -4,6 +4,7 @@ birthday: 2014/6/20
 birthplace: 43
 children: none
 commitdate: 2018/11/13
+death: 2020/11/1
 en.name: Kiari
 en.nicknames: none
 en.othernames: none
@@ -333,4 +334,5 @@ photo.63.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.63.tags: paws, peek, portrait
 species: 2
 studbook.id: 1428
+uncertainty: death exact date
 zoo: 80
