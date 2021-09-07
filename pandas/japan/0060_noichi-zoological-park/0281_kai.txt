@@ -100,8 +100,9 @@ photo.17.author: love__mitarashi
 photo.17.commitdate: 2020/3/8
 photo.17.link: https://www.instagram.com/love__mitarashi/
 photo.17.tags: paws, portrait
-photo.18: https://www.instagram.com/p/CA9wbD9HkD-/media/?size=m
+photo.18: ig://CA9wbD9HkD-/m
 photo.18.author: noichizoo.1
+photo.18.commitdate: 2021/9/6
 photo.18.link: https://www.instagram.com/noichizoo.1/
 photo.18.tags: bamboo, paws, peek, portrait, smile
 species: 2

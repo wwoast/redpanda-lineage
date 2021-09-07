@@ -255,39 +255,41 @@ photo.48.author: minatomirai215
 photo.48.commitdate: 2021/8/2
 photo.48.link: https://www.instagram.com/minatomirai215/
 photo.48.tags: grooming, mofumofu, peek, portrait, whiskers
-photo.49: ig://CSTJnAXhNrD/m
-photo.49.author: pantasanzoo1
-photo.49.commitdate: 2021/8/14
-photo.49.link: https://www.instagram.com/pantasanzoo1/
-photo.49.tags: laying down, grooming, paws, tail
-photo.50: ig://CSbvCooBhGj/m
-photo.50.author: redpan22
-photo.50.commitdate: 2021/8/18
-photo.50.link: https://www.instagram.com/redpan22/
-photo.50.tags: bridge, laying down, peek
-photo.51: ig://CSeT8xzBsc8/m
+photo.49: ig://CSCOId1BPxF/m
+photo.49.author: take_421
+photo.49.commitdate: 2021/9/6
+photo.49.link: https://www.instagram.com/take_421/
+photo.49.tags: door, paws, portrait, whiskers
+photo.50: ig://CSEcRfrHNe8/m
+photo.50.author: _saaaaaaah_
+photo.50.commitdate: 2021/9/6
+photo.50.link: https://www.instagram.com/_saaaaaaah_/
+photo.50.tags: paws
+photo.51: ig://CSTJnAXhNrD/m
 photo.51.author: pantasanzoo1
-photo.51.commitdate: 2021/8/18
+photo.51.commitdate: 2021/8/14
 photo.51.link: https://www.instagram.com/pantasanzoo1/
-photo.51.tags: door, lips, mofumofu, paws, whiskers
-photo.52: ig://CS3ohqlB-fI/m
-photo.52.author: _saaaaaaah_
-photo.52.commitdate: 2021/8/24
-photo.52.link: https://www.instagram.com/_saaaaaaah_/
-photo.52.tags: peek
-photo.53: ig://CS6yTr3hDoi/m
-photo.53.author: minatomirai215
-photo.53.commitdate: 2021/8/24
-photo.53.link: https://www.instagram.com/minatomirai215/
-photo.53.tags: keeper, portrait, tail
-photo.54: https://www.instagram.com/p/CSEcRfrHNe8/media/?size=m
+photo.51.tags: laying down, grooming, paws, tail
+photo.52: ig://CSbvCooBhGj/m
+photo.52.author: redpan22
+photo.52.commitdate: 2021/8/18
+photo.52.link: https://www.instagram.com/redpan22/
+photo.52.tags: bridge, laying down, peek
+photo.53: ig://CSeT8xzBsc8/m
+photo.53.author: pantasanzoo1
+photo.53.commitdate: 2021/8/18
+photo.53.link: https://www.instagram.com/pantasanzoo1/
+photo.53.tags: door, lips, mofumofu, paws, whiskers
+photo.54: ig://CS3ohqlB-fI/m
 photo.54.author: _saaaaaaah_
+photo.54.commitdate: 2021/8/24
 photo.54.link: https://www.instagram.com/_saaaaaaah_/
-photo.54.tags: paws
-photo.55: https://www.instagram.com/p/CSCOId1BPxF/media/?size=m
-photo.55.author: take_421
-photo.55.link: https://www.instagram.com/take_421/
-photo.55.tags: door, paws, portrait, whiskers
+photo.54.tags: peek
+photo.55: ig://CS6yTr3hDoi/m
+photo.55.author: minatomirai215
+photo.55.commitdate: 2021/8/24
+photo.55.link: https://www.instagram.com/minatomirai215/
+photo.55.tags: keeper, portrait, tail
 species: 2
 studbook.id: unknown
 zoo: 190

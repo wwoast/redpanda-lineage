@@ -451,8 +451,9 @@ photo.87.author: framereim
 photo.87.commitdate: 2021/8/7
 photo.87.link: https://www.instagram.com/framereim/
 photo.87.tags: flowers, paws, smile
-photo.88: https://www.instagram.com/p/CSwu4h7hwXR/media/?size=m
+photo.88: ig://CSwu4h7hwXR/m
 photo.88.author: eos1089
+photo.88.commitdate: 2021/9/6
 photo.88.link: https://www.instagram.com/eos1089/
 photo.88.tags: close-up, laying down, portrait, sleeping
 species: 2

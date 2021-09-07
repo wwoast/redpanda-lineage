@@ -132,17 +132,19 @@ photo.24.author: ssc6105
 photo.24.commitdate: 2020/6/25
 photo.24.link: https://www.instagram.com/ssc6105/
 photo.24.tags: mofumofu, smile, whiskers
-photo.25: ig://CH9mt2IhvgR/m
-photo.25.author: kipekaila
-photo.25.commitdate: 2020/11/29
-photo.25.link: https://www.instagram.com/kipekaila/
-photo.25.tags: mofumofu, portrait, smile, whiskers
-photo.26: https://www.instagram.com/p/CBdPckNBFw0/media/?size=m
-photo.26.author: fetorus_mami
-photo.26.link: https://www.instagram.com/fetorus_mami/
-photo.26.tags: techitechi
-photo.27: https://www.instagram.com/p/CSEtjTjhsGJ/media/?size=m
+photo.25: ig://CBdPckNBFw0/m
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2021/9/6
+photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.tags: techitechi
+photo.26: ig://CH9mt2IhvgR/m
+photo.26.author: kipekaila
+photo.26.commitdate: 2020/11/29
+photo.26.link: https://www.instagram.com/kipekaila/
+photo.26.tags: mofumofu, portrait, smile, whiskers
+photo.27: ig://CSEtjTjhsGJ/m
 photo.27.author: panda.daisuki
+photo.27.commitdate: 2021/9/6
 photo.27.link: https://www.instagram.com/panda.daisuki/
 photo.27.tags: close-up, portrait, smile
 species: 2

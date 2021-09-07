@@ -720,19 +720,21 @@ photo.141.author: nakacchi_desu
 photo.141.commitdate: 2021/8/20
 photo.141.link: https://www.instagram.com/nakacchi_desu/
 photo.141.tags: mofumofu, tail, whiskers, window
-photo.142: ig://CSrwNOghkYA/m
+photo.142: ig://CRtQyzpBgCl/m
 photo.142.author: eos1089
-photo.142.commitdate: 2021/8/18
+photo.142.commitdate: 2021/9/6
 photo.142.link: https://www.instagram.com/eos1089/
-photo.142.tags: laying down, paws, playing, portrait
-photo.143: https://www.instagram.com/p/CRtQyzpBgCl/media/?size=m
-photo.143.author: eos1089
-photo.143.link: https://www.instagram.com/eos1089/
-photo.143.tags: mofumofu, paws, portrait, smile, upside-down
-photo.144: https://www.instagram.com/p/CRwMWjxBtRl/media/?size=m
-photo.144.author: craig_craig_craig
-photo.144.link: https://www.instagram.com/craig_craig_craig/
-photo.144.tags: dish, smile, whiskers
+photo.142.tags: mofumofu, paws, portrait, smile, upside-down
+photo.143: ig://CRwMWjxBtRl/m
+photo.143.author: craig_craig_craig
+photo.143.commitdate: 2021/9/6
+photo.143.link: https://www.instagram.com/craig_craig_craig/
+photo.143.tags: dish, smile, whiskers
+photo.144: ig://CSrwNOghkYA/m
+photo.144.author: eos1089
+photo.144.commitdate: 2021/8/18
+photo.144.link: https://www.instagram.com/eos1089/
+photo.144.tags: laying down, paws, playing, portrait
 species: 2
 studbook.id: 1677
 zoo: 54

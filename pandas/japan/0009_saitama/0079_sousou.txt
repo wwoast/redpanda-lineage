@@ -290,15 +290,16 @@ photo.56.author: fetorus_mami
 photo.56.commitdate: 2020/12/20
 photo.56.link: https://www.instagram.com/fetorus_mami/
 photo.56.tags: bamboo, close-up, whiskers
-photo.57: ig://CJdsqj2BgCj/m
-photo.57.author: fetorus_mami
-photo.57.commitdate: 2021/1/3
-photo.57.link: https://www.instagram.com/fetorus_mami/
-photo.57.tags: laying down, paws, portrait, tree
-photo.58: https://www.instagram.com/p/CIV2ob4BitW/media/?size=m
-photo.58.author: take_421
-photo.58.link: https://www.instagram.com/take_421/
-photo.58.tags: bamboo, close-up, peek, portrait
+photo.57: ig://CIV2ob4BitW/m
+photo.57.author: take_421
+photo.57.commitdate: 2021/9/6
+photo.57.link: https://www.instagram.com/take_421/
+photo.57.tags: bamboo, close-up, peek, portrait
+photo.58: ig://CJdsqj2BgCj/m
+photo.58.author: fetorus_mami
+photo.58.commitdate: 2021/1/3
+photo.58.link: https://www.instagram.com/fetorus_mami/
+photo.58.tags: laying down, paws, portrait, tree
 species: 2
 studbook.id: 12112
 zoo: 9

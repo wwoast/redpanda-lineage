@@ -348,8 +348,9 @@ photo.67.author: craig_craig_craig
 photo.67.commitdate: 2021/8/6
 photo.67.link: https://www.instagram.com/craig_craig_craig/
 photo.67.tags: close-up, whiskers
-photo.68: https://www.instagram.com/p/CRwTg2IhUZ6/media/?size=m
+photo.68: ig://CRwTg2IhUZ6/m
 photo.68.author: minatomirai215
+photo.68.commitdate: 2021/9/6
 photo.68.link: https://www.instagram.com/minatomirai215/
 photo.68.tags: portrait
 species: 2

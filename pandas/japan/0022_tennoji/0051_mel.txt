@@ -468,8 +468,9 @@ photo.91.author: sakikukeco
 photo.91.commitdate: 2021/6/19
 photo.91.link: https://www.instagram.com/sakikukeco/
 photo.91.tags: portrait, whiskers
-photo.92: https://www.instagram.com/p/CRsdsqLBy9V/media/?size=m
+photo.92: ig://CRsdsqLBy9V/m
 photo.92.author: mifko55
+photo.92.commitdate: 2021/9/6
 photo.92.link: https://www.instagram.com/mifko55/
 photo.92.tags: blink, portrait, whiskers
 species: 2

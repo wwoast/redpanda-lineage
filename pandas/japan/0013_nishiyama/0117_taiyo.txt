@@ -292,28 +292,31 @@ photo.56.author: minato.yokohama4416
 photo.56.commitdate: 2021/7/14
 photo.56.link: https://www.instagram.com/minato.yokohama4416/
 photo.56.tags: laying down, paws, peek, portrait, tree
-photo.57: ig://CSS-WRrBWxs/m
-photo.57.author: grskus_tk
-photo.57.commitdate: 2021/8/14
-photo.57.link: https://www.instagram.com/grskus_tk/
-photo.57.tags: smile, whiskers
-photo.58: ig://CSVzmUfB9tI/m
+photo.57: ig://CRuV4bMhp0q/m
+photo.57.author: hamamatsu.chiita
+photo.57.commitdate: 2021/9/6
+photo.57.link: https://www.instagram.com/hamamatsu.chiita/
+photo.57.tags: close-up, portrait, smile, whiskers
+photo.58: ig://CRvZiNKBywL/m
 photo.58.author: grskus_tk
-photo.58.commitdate: 2021/8/14
+photo.58.commitdate: 2021/9/6
 photo.58.link: https://www.instagram.com/grskus_tk/
-photo.58.tags: peek
-photo.59: https://www.instagram.com/p/CRvZiNKBywL/media/?size=m
-photo.59.author: grskus_tk
-photo.59.link: https://www.instagram.com/grskus_tk/
-photo.59.tags: paws, smile, whiskers
-photo.60: https://www.instagram.com/p/CRuV4bMhp0q/media/?size=m
-photo.60.author: hamamatsu.chiita
-photo.60.link: https://www.instagram.com/hamamatsu.chiita/
-photo.60.tags: close-up, portrait, smile, whiskers
-photo.61: https://www.instagram.com/p/CSFl8N9hqGu/media/?size=m
-photo.61.author: hamamatsu.chiita
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
-photo.61.tags: portrait, smile
+photo.58.tags: paws, smile, whiskers
+photo.59: ig://CSFl8N9hqGu/m
+photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2021/9/6
+photo.59.link: https://www.instagram.com/hamamatsu.chiita/
+photo.59.tags: portrait, smile
+photo.60: ig://CSS-WRrBWxs/m
+photo.60.author: grskus_tk
+photo.60.commitdate: 2021/8/14
+photo.60.link: https://www.instagram.com/grskus_tk/
+photo.60.tags: smile, whiskers
+photo.61: ig://CSVzmUfB9tI/m
+photo.61.author: grskus_tk
+photo.61.commitdate: 2021/8/14
+photo.61.link: https://www.instagram.com/grskus_tk/
+photo.61.tags: peek
 species: 2
 studbook.id: 13143
 zoo: 13

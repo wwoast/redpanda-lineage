@@ -1149,15 +1149,16 @@ photo.228.author: falcon_tenor
 photo.228.commitdate: 2021/8/11
 photo.228.link: https://www.instagram.com/falcon_tenor/
 photo.228.tags: close-up, mofumofu, portrait, whiskers
-photo.229: ig://CSIVKK7hZ62/m
-photo.229.author: tomo3700
-photo.229.commitdate: 2021/8/9
-photo.229.link: https://www.instagram.com/tomo3700/
-photo.229.tags: apple time, portrait, smile, whiskers
-photo.230: https://www.instagram.com/p/CSEqzb4h_d5/media/?size=m
-photo.230.author: i.satosato
-photo.230.link: https://www.instagram.com/i.satosato/
-photo.230.tags: bamboo, portrait, whiskers
+photo.229: ig://CSEqzb4h_d5/m
+photo.229.author: i.satosato
+photo.229.commitdate: 2021/9/6
+photo.229.link: https://www.instagram.com/i.satosato/
+photo.229.tags: bamboo, portrait, whiskers
+photo.230: ig://CSIVKK7hZ62/m
+photo.230.author: tomo3700
+photo.230.commitdate: 2021/8/9
+photo.230.link: https://www.instagram.com/tomo3700/
+photo.230.tags: apple time, portrait, smile, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

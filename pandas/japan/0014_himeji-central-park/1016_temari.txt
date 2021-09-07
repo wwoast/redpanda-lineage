@@ -767,25 +767,26 @@ photo.151.author: love__mitarashi
 photo.151.commitdate: 2021/8/2
 photo.151.link: https://www.instagram.com/love__mitarashi/
 photo.151.tags: portrait
-photo.152: ig://CSJhRnNBHnK/m
-photo.152.author: colette.jp
-photo.152.commitdate: 2021/8/9
-photo.152.link: https://www.instagram.com/colette.jp/
-photo.152.tags: keeper, paws, portrait, smile, whiskers
-photo.153: ig://CSOqsolBCni/m
+photo.152: ig://CSBx9HcLC3P/m
+photo.152.author: love__mitarashi
+photo.152.commitdate: 2021/9/6
+photo.152.link: https://www.instagram.com/love__mitarashi/
+photo.152.tags: home, laying down, paws, portrait, smile, tree
+photo.153: ig://CSJhRnNBHnK/m
 photo.153.author: colette.jp
 photo.153.commitdate: 2021/8/9
 photo.153.link: https://www.instagram.com/colette.jp/
-photo.153.tags: portrait, smile, whiskers
-photo.154: ig://CSO12NLHeet/m
-photo.154.author: love__mitarashi
-photo.154.commitdate: 2021/8/10
-photo.154.link: https://www.instagram.com/love__mitarashi/
-photo.154.tags: mofumofu, portrait, whiskers
-photo.155: https://www.instagram.com/p/CSBx9HcLC3P/media/?size=m
+photo.153.tags: keeper, paws, portrait, smile, whiskers
+photo.154: ig://CSOqsolBCni/m
+photo.154.author: colette.jp
+photo.154.commitdate: 2021/8/9
+photo.154.link: https://www.instagram.com/colette.jp/
+photo.154.tags: portrait, smile, whiskers
+photo.155: ig://CSO12NLHeet/m
 photo.155.author: love__mitarashi
+photo.155.commitdate: 2021/8/10
 photo.155.link: https://www.instagram.com/love__mitarashi/
-photo.155.tags: home, laying down, paws, portrait, smile, tree
+photo.155.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14

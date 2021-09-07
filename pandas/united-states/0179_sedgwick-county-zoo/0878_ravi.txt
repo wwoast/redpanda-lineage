@@ -115,39 +115,41 @@ photo.20.author: sedgwickcountyzoo
 photo.20.commitdate: 2021/7/21
 photo.20.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.20.tags: bamboo, dish, paws, portrait
-photo.21: ig://CFU6oJrMqA2/m
+photo.21: ig://CBRE5z2MtvU/m
 photo.21.author: sedgwickcountyzoo
-photo.21.commitdate: 2020/12/30
+photo.21.commitdate: 2021/9/6
 photo.21.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.21.tags: paws, smile, standing, tail
-photo.22: ig://CHgJKhoMgPA/m
+photo.21.tags: close-up, mofumofu, whiskers
+photo.22: ig://CBi0yWzsuYl/m
 photo.22.author: sedgwickcountyzoo
-photo.22.commitdate: 2020/11/22
+photo.22.commitdate: 2021/9/6
 photo.22.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.22.tags: pumpkin, paws, standing
-photo.23: ig://CI3zxjpsUEB/m
+photo.22.tags: dish, lunch time, paws, smile, standing
+photo.23: ig://CFU6oJrMqA2/m
 photo.23.author: sedgwickcountyzoo
 photo.23.commitdate: 2020/12/30
 photo.23.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.23.tags: paws, portrait, snow
-photo.24: ig://CI4s2_jBoJ2/m
+photo.23.tags: paws, smile, standing, tail
+photo.24: ig://CHgJKhoMgPA/m
 photo.24.author: sedgwickcountyzoo
-photo.24.commitdate: 2020/12/30
+photo.24.commitdate: 2020/11/22
 photo.24.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.24.tags: portrait, smile, snow
-photo.25: ig://CJz8fPlhylT/m
+photo.24.tags: pumpkin, paws, standing
+photo.25: ig://CI3zxjpsUEB/m
 photo.25.author: sedgwickcountyzoo
-photo.25.commitdate: 2021/5/30
-photo.25.link: https://www.instagram.com/carsontheredpanda/
-photo.25.tags: bamboo, paws, standing, tail
-photo.26: https://www.instagram.com/p/CBi0yWzsuYl/media/?size=m
+photo.25.commitdate: 2020/12/30
+photo.25.link: https://www.instagram.com/sedgwickcountyzoo/
+photo.25.tags: paws, portrait, snow
+photo.26: ig://CI4s2_jBoJ2/m
 photo.26.author: sedgwickcountyzoo
+photo.26.commitdate: 2020/12/30
 photo.26.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.26.tags: dish, lunch time, paws, smile, standing
-photo.27: https://www.instagram.com/p/CBRE5z2MtvU/media/?size=m
+photo.26.tags: portrait, smile, snow
+photo.27: ig://CJz8fPlhylT/m
 photo.27.author: sedgwickcountyzoo
-photo.27.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.27.tags: close-up, mofumofu, whiskers
+photo.27.commitdate: 2021/5/30
+photo.27.link: https://www.instagram.com/carsontheredpanda/
+photo.27.tags: bamboo, paws, standing, tail
 species: 1
 studbook.id: 1904
 zoo: 179
