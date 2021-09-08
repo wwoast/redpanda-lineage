@@ -398,8 +398,9 @@ photo.77.author: osaka_tennoji_zoo
 photo.77.commitdate: 2021/8/27
 photo.77.link: https://www.instagram.com/osaka_tennoji_zoo/
 photo.77.tags: close-up, nose, portrait
-photo.78: https://www.instagram.com/p/CTHrlJWhIn2/media/?size=m
+photo.78: ig://CTHrlJWhIn2/m
 photo.78.author: makimaru18
+photo.78.commitdate: 2021/9/7
 photo.78.link: https://www.instagram.com/makimaru18/
 photo.78.tags: keeper, portrait, smile, tail
 species: 2

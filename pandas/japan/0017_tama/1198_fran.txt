@@ -278,13 +278,15 @@ photo.53.author: redpan22
 photo.53.commitdate: 2021/8/24
 photo.53.link: https://www.instagram.com/redpan22/
 photo.53.tags: peek, portrait, whiskers
-photo.54: https://www.instagram.com/p/CTUUgjlhcDH/media/?size=m
-photo.54.author: redpan22
-photo.54.link: https://www.instagram.com/redpan22/
-photo.54.tags: portrait, tree, wet
-photo.55: https://www.instagram.com/p/CTSKwCKBi5o/media/?size=m
-photo.55.author: eos1089
-photo.55.link: https://www.instagram.com/eos1089/
-photo.55.tags: laying down, paws, portrait, smile, tree
+photo.54: ig://CTSKwCKBi5o/m
+photo.54.author: eos1089
+photo.54.commitdate: 2021/9/7
+photo.54.link: https://www.instagram.com/eos1089/
+photo.54.tags: laying down, paws, portrait, smile, tree
+photo.55: ig://CTUUgjlhcDH/m
+photo.55.author: redpan22
+photo.55.commitdate: 2021/9/7
+photo.55.link: https://www.instagram.com/redpan22/
+photo.55.tags: portrait, tree, wet
 species: 2
 zoo: 17

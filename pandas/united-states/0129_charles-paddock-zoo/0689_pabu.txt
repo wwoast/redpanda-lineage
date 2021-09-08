@@ -50,8 +50,9 @@ photo.7.author: charlespaddockzoo
 photo.7.commitdate: 2020/11/5
 photo.7.link: https://www.instagram.com/charlespaddockzoo/
 photo.7.tags: close-up, portrait
-photo.8: https://www.instagram.com/p/CSRlgR6HoSq/media/?size=m
+photo.8: ig://CSRlgR6HoSq/m
 photo.8.author: charlespaddockzoo
+photo.8.commitdate: 2021/9/7
 photo.8.link: https://www.instagram.com/charlespaddockzoo/
 photo.8.tags: bridge, laying down, paws, peek, whiskers
 species: 1

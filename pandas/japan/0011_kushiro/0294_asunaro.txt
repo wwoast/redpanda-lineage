@@ -479,8 +479,9 @@ photo.93.author: minatomirai215
 photo.93.commitdate: 2021/7/3
 photo.93.link: https://www.instagram.com/minatomirai215/
 photo.93.tags: autumn, portrait, tree, whiskers
-photo.94: https://www.instagram.com/p/CTMslPDhbSp/media/?size=m
+photo.94: ig://CTMslPDhbSp/m
 photo.94.author: craig_craig_craig
+photo.94.commitdate: 2021/9/7
 photo.94.link: https://www.instagram.com/craig_craig_craig/
 photo.94.tags: home, paws, portrait, tail, videolink
 species: 2

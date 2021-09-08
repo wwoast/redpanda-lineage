@@ -205,8 +205,9 @@ photo.38.author: hamamatsu.chiita
 photo.38.commitdate: 2021/6/16
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: close-up, portrait, whiskers
-photo.39: https://www.instagram.com/p/CTfjXczB-NS/media/?size=m
+photo.39: ig://CTfjXczB-NS/m
 photo.39.author: hamamatsu.chiita
+photo.39.commitdate: 2021/9/7
 photo.39.link: https://www.instagram.com/hamamatsu.chiita/
 photo.39.tags: portrait, smile, whiskers
 species: 2

@@ -1109,8 +1109,9 @@ photo.220.author: wumpwoast
 photo.220.commitdate: 2021/7/21
 photo.220.link: https://www.instagram.com/wumpwoast/
 photo.220.tags: close-up, portrait, whiskers
-photo.221: https://www.instagram.com/p/CTef2Qon02G/media/?size=m
+photo.221: ig://CTef2Qon02G/m
 photo.221.author: cattail.sapporo
+photo.221.commitdate: 2021/9/7
 photo.221.link: https://www.instagram.com/cattail.sapporo/
 photo.221.tags: close-up, portrait, whiskers
 species: 2
