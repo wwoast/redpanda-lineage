@@ -903,8 +903,9 @@ photo.180.author: falcon_tenor
 photo.180.commitdate: 2021/8/27
 photo.180.link: https://www.instagram.com/falcon_tenor/
 photo.180.tags: laying down, paws, portrait, whiskers
-photo.181: https://www.instagram.com/p/CTPKPrwhLZR/media/?size=m
+photo.181: ig://CTPKPrwhLZR/m
 photo.181.author: i.satosato
+photo.181.commitdate: 2021/9/8
 photo.181.link: https://www.instagram.com/i.satosato/
 photo.181.tags: door, laying down, tail
 species: 2

@@ -135,17 +135,20 @@ photo.24.author: rossifari
 photo.24.commitdate: 2021/6/13
 photo.24.link: https://www.instagram.com/rossifari/
 photo.24.tags: lips, peek, portrait, smile, tail, techitechi, whiskers
-photo.25: https://www.instagram.com/p/CTPzb0eJrzc/media/?size=m
-photo.25.author: carsontheredpanda
-photo.25.link: https://www.instagram.com/carsontheredpanda/
-photo.25.tags: smile, whiskers
-photo.26: https://www.instagram.com/p/CTHzDgUrYuP/media/?size=m
+photo.25: ig://CSprlgjN_JH/m
+photo.25.author: columbuszoo
+photo.25.commitdate: 2021/9/8
+photo.25.link: https://www.instagram.com/columbuszoo/
+photo.25.tags: smile
+photo.26: ig://CTHzDgUrYuP/m
 photo.26.author: rossifari
+photo.26.commitdate: 2021/9/8
 photo.26.link: https://www.instagram.com/rossifari/
 photo.26.tags: whiskers
-photo.27: https://www.instagram.com/p/CSprlgjN_JH/media/?size=m
-photo.27.author: columbuszoo
-photo.27.link: https://www.instagram.com/columbuszoo/
-photo.27.tags: smile
+photo.27: ig://CTPzb0eJrzc/m
+photo.27.author: carsontheredpanda
+photo.27.commitdate: 2021/9/8
+photo.27.link: https://www.instagram.com/carsontheredpanda/
+photo.27.tags: smile, whiskers
 species: 2
 zoo: 43

@@ -748,8 +748,9 @@ photo.147.author: panda.daisuki
 photo.147.commitdate: 2021/7/11
 photo.147.link: https://www.instagram.com/panda.daisuki/
 photo.147.tags: close-up, portrait, smile, whiskers
-photo.148: https://www.instagram.com/p/CTPSSM4hQzA/media/?size=m
+photo.148: ig://CTPSSM4hQzA/m
 photo.148.author: ck.chie
+photo.148.commitdate: 2021/9/8
 photo.148.link: https://www.instagram.com/ck.chie/
 photo.148.tags: paws, smile
 species: 2

@@ -360,15 +360,16 @@ photo.70.author: hamamatsu.chiita
 photo.70.commitdate: 2021/8/10
 photo.70.link: https://www.instagram.com/hamamatsu.chiita/
 photo.70.tags: close-up, portrait, smile, whiskers
-photo.71: ig://CTeNJaYh1e_/m
-photo.71.author: minato.yokohama4416
-photo.71.commitdate: 2021/9/7
-photo.71.link: https://www.instagram.com/minato.yokohama4416/
-photo.71.tags: portrait, whiskers
-photo.72: https://www.instagram.com/p/CTRq3UtB6Rr/media/?size=m
-photo.72.author: jas_forever_love
-photo.72.link: https://www.instagram.com/jas_forever_love/
-photo.72.tags: portrait, videolink
+photo.71: ig://CTRq3UtB6Rr/m
+photo.71.author: jas_forever_love
+photo.71.commitdate: 2021/9/8
+photo.71.link: https://www.instagram.com/jas_forever_love/
+photo.71.tags: portrait, videolink
+photo.72: ig://CTeNJaYh1e_/m
+photo.72.author: minato.yokohama4416
+photo.72.commitdate: 2021/9/7
+photo.72.link: https://www.instagram.com/minato.yokohama4416/
+photo.72.tags: portrait, whiskers
 species: 2
 studbook.id: 13168
 zoo: 13
