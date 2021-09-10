@@ -162,8 +162,9 @@ photo.30.author: miis_98
 photo.30.commitdate: 2021/6/16
 photo.30.link: https://www.instagram.com/miis_98/
 photo.30.tags: bamboo, paws, portrait, smile
-photo.31: https://www.instagram.com/p/CTXNJ4ul7tm/media/?size=m
+photo.31: ig://CTXNJ4ul7tm/m
 photo.31.author: mini_cochi
+photo.31.commitdate: 2021/9/10
 photo.31.link: https://www.instagram.com/mini_cochi/
 photo.31.tags: smile, whiskers
 species: 1

@@ -247,8 +247,9 @@ photo.47.author: nishicotolo
 photo.47.commitdate: 2021/9/1
 photo.47.link: https://www.instagram.com/nishicotolo/
 photo.47.tags: smile
-photo.48: https://www.instagram.com/p/CTY4LUwhRTn/media/?size=m
+photo.48: ig://CTY4LUwhRTn/m
 photo.48.author: nakacchi_desu
+photo.48.commitdate: 2021/9/10
 photo.48.link: https://www.instagram.com/nakacchi_desu/
 photo.48.tags: bite, climb, paws, playing, tail
 species: 2

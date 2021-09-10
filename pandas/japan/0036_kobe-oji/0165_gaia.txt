@@ -908,8 +908,9 @@ photo.181.author: i.satosato
 photo.181.commitdate: 2021/9/8
 photo.181.link: https://www.instagram.com/i.satosato/
 photo.181.tags: door, laying down, tail
-photo.182: https://www.instagram.com/p/CTW8w0DB9cH/media/?size=m
+photo.182: ig://CTW8w0DB9cH/m
 photo.182.author: i.satosato
+photo.182.commitdate: 2021/9/10
 photo.182.link: https://www.instagram.com/i.satosato/
 photo.182.tags: paws, portrait, smile, whiskers
 species: 2

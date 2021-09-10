@@ -46,11 +46,11 @@ photo.6.author: rossifari
 photo.6.commitdate: 2021/4/2
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: portrait
-photo.7: https://www.codaworry.com/images/rpf/benjamin-6-capemay.jpg
+photo.7: ig://CTYjZbinvXL/m
 photo.7.author: aimless_amos
-photo.7.commitdate: 2021/6/25
+photo.7.commitdate: 2021/9/10
 photo.7.link: https://www.instagram.com/aimless_amos/
-photo.7.tags: paws, portrait, whiskers
+photo.7.tags: lunch time, paws, portrait, tail
 photo.8: https://www.codaworry.com/images/rpf/benjamin-7-capemay.jpg
 photo.8.author: aimless_amos
 photo.8.commitdate: 2021/6/25
@@ -81,10 +81,6 @@ photo.13.author: aimless_amos
 photo.13.commitdate: 2021/6/25
 photo.13.link: https://www.instagram.com/aimless_amos/
 photo.13.tags: bite, carry, paws, portrait
-photo.14: https://www.instagram.com/p/CTYjZbinvXL/media/?size=m
-photo.14.author: aimless_amos
-photo.14.link: https://www.instagram.com/aimless_amos/
-photo.14.tags: lunch time, paws, portrait, tail
 species: 1
 studbook.id: 1533
 zoo: 186

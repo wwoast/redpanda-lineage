@@ -147,8 +147,9 @@ photo.27.author: panda.daisuki
 photo.27.commitdate: 2021/9/6
 photo.27.link: https://www.instagram.com/panda.daisuki/
 photo.27.tags: close-up, portrait, smile
-photo.28: https://www.instagram.com/p/CTcIXIcHMNB/media/?size=m
+photo.28: ig://CTcIXIcHMNB/m
 photo.28.author: fetorus_mami
+photo.28.commitdate: 2021/9/10
 photo.28.link: https://www.instagram.com/fetorus_mami/
 photo.28.tags: close-up, mofumofu, tail
 species: 2

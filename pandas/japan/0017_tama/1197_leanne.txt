@@ -198,17 +198,19 @@ photo.37.author: alto0908
 photo.37.commitdate: 2021/8/18
 photo.37.link: https://www.instagram.com/alto0908/
 photo.37.tags: door, peek, portrait
-photo.38: ig://CS1seJJHTCw/m
-photo.38.author: mini_cochi
-photo.38.commitdate: 2021/8/24
-photo.38.link: https://www.instagram.com/mini_cochi/
-photo.38.tags: close-up, window
-photo.39: https://www.instagram.com/p/CSLbVEYBtTo/media/?size=m
-photo.39.author: tokyo_zoogram
-photo.39.link: https://www.instagram.com/tokyo_zoogram/
-photo.39.tags: portrait
-photo.40: https://www.instagram.com/p/CTcT4rnH-Rq/media/?size=m
+photo.38: ig://CSLbVEYBtTo/m
+photo.38.author: tokyo_zoogram
+photo.38.commitdate: 2021/9/10
+photo.38.link: https://www.instagram.com/tokyo_zoogram/
+photo.38.tags: portrait
+photo.39: ig://CS1seJJHTCw/m
+photo.39.author: mini_cochi
+photo.39.commitdate: 2021/8/24
+photo.39.link: https://www.instagram.com/mini_cochi/
+photo.39.tags: close-up, window
+photo.40: ig://CTcT4rnH-Rq/m
 photo.40.author: mini_cochi
+photo.40.commitdate: 2021/9/10
 photo.40.link: https://www.instagram.com/mini_cochi/
 photo.40.tags: bamboo, peek, portrait
 species: 2

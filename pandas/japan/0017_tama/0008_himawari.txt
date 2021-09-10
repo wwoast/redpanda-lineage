@@ -1890,15 +1890,16 @@ photo.376.author: alto0908
 photo.376.commitdate: 2021/9/7
 photo.376.link: https://www.instagram.com/alto0908/
 photo.376.tags: door, paws, portrait
-photo.377: ig://CTcUzGWHoQT/m
-photo.377.author: mini_cochi
-photo.377.commitdate: 2021/9/7
-photo.377.link: https://www.instagram.com/mini_cochi/
-photo.377.tags: laying down, portrait, sleeping
-photo.378: https://www.instagram.com/p/CTXkm7HhRIy/media/?size=m
-photo.378.author: eos1089
-photo.378.link: https://www.instagram.com/eos1089/
-photo.378.tags: bridge, laying down, paws
+photo.377: ig://CTXkm7HhRIy/m
+photo.377.author: eos1089
+photo.377.commitdate: 2021/9/10
+photo.377.link: https://www.instagram.com/eos1089/
+photo.377.tags: bridge, laying down, paws
+photo.378: ig://CTcUzGWHoQT/m
+photo.378.author: mini_cochi
+photo.378.commitdate: 2021/9/7
+photo.378.link: https://www.instagram.com/mini_cochi/
+photo.378.tags: laying down, portrait, sleeping
 species: 2
 studbook.id: 1782
 zoo: 17

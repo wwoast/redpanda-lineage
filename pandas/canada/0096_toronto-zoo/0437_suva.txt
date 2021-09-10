@@ -70,8 +70,9 @@ photo.11.author: thetorontozoo
 photo.11.commitdate: 2021/7/25
 photo.11.link: https://www.instagram.com/thetorontozoo/
 photo.11.tags: bamboo, close-up, peek, smile
-photo.12: https://www.instagram.com/p/CTSSCiWChas/media/?size=m
+photo.12: ig://CTSSCiWChas/m
 photo.12.author: thetorontozoo
+photo.12.commitdate: 2021/9/10
 photo.12.link: https://www.instagram.com/thetorontozoo/
 photo.12.tags: dish, lunch time, mofumofu, paws
 species: 2

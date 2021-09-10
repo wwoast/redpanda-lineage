@@ -592,8 +592,9 @@ photo.116.author: eos1089
 photo.116.commitdate: 2021/7/19
 photo.116.link: https://www.instagram.com/eos1089/
 photo.116.tags: close-up, mofumofu, portrait, whiskers
-photo.117: https://www.instagram.com/p/CThdrEOBhdi/media/?size=m
+photo.117: ig://CThdrEOBhdi/m
 photo.117.author: craig_craig_craig
+photo.117.commitdate: 2021/9/10
 photo.117.link: https://www.instagram.com/craig_craig_craig/
 photo.117.tags: keeper, portrait, scale, videolink
 species: 2

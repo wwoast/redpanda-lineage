@@ -450,8 +450,9 @@ photo.87.author: daniele.tokyo
 photo.87.commitdate: 2021/7/30
 photo.87.link: https://www.instagram.com/daniele.tokyo/
 photo.87.tags: mofumofu, old, smile, whiskers
-photo.88: https://www.instagram.com/p/CTb4GMdhkWC/media/?size=m
+photo.88: ig://CTb4GMdhkWC/m
 photo.88.author: pink.b22
+photo.88.commitdate: 2021/9/10
 photo.88.link: https://www.instagram.com/pink.b22/
 photo.88.tags: home, portrait
 species: 2

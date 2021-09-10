@@ -353,8 +353,9 @@ photo.68.author: minatomirai215
 photo.68.commitdate: 2021/9/6
 photo.68.link: https://www.instagram.com/minatomirai215/
 photo.68.tags: portrait
-photo.69: https://www.instagram.com/p/CThj5JvhYoz/media/?size=m
+photo.69: ig://CThj5JvhYoz/m
 photo.69.author: panda.daisuki
+photo.69.commitdate: 2021/9/10
 photo.69.link: https://www.instagram.com/panda.daisuki/
 photo.69.tags: bamboo, close-up, portrait, white face
 species: 2

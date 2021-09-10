@@ -401,8 +401,9 @@ photo.77.author: miis_98
 photo.77.commitdate: 2021/7/1
 photo.77.link: https://www.instagram.com/miis_98/
 photo.77.tags: apple time, paws, portrait, slobber
-photo.78: https://www.instagram.com/p/CTdU4YoBD4z/media/?size=m
+photo.78: ig://CTdU4YoBD4z/m
 photo.78.author: miis_98
+photo.78.commitdate: 2021/9/10
 photo.78.link: https://www.instagram.com/miis_98/
 photo.78.tags: apple time, mofumofu, paws, portrait, smile
 species: 2

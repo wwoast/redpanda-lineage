@@ -534,8 +534,9 @@ photo.104.author: pink.b22
 photo.104.commitdate: 2021/8/2
 photo.104.link: https://www.instagram.com/pink.b22/
 photo.104.tags: apple time, bite, keeper, portrait, tree
-photo.105: https://www.instagram.com/p/CTYCOQ7hXVN/media/?size=m
+photo.105: ig://CTYCOQ7hXVN/m
 photo.105.author: pink.b22
+photo.105.commitdate: 2021/9/10
 photo.105.link: https://www.instagram.com/pink.b22/
 photo.105.tags: bamboo, flowers, paws, portrait, smile
 species: 2
