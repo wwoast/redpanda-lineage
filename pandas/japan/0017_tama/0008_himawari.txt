@@ -1885,29 +1885,31 @@ photo.375.author: ck.chie
 photo.375.commitdate: 2021/8/9
 photo.375.link: https://www.instagram.com/ck.chie/
 photo.375.tags: door, paws, peek, portrait, whiskers
-photo.376: ig://CTF_dhzBtCw/m
-photo.376.author: alto0908
-photo.376.commitdate: 2021/9/7
-photo.376.link: https://www.instagram.com/alto0908/
-photo.376.tags: door, paws, portrait
-photo.377: ig://CTXkm7HhRIy/m
-photo.377.author: eos1089
-photo.377.commitdate: 2021/9/10
-photo.377.link: https://www.instagram.com/eos1089/
-photo.377.tags: bridge, laying down, paws
-photo.378: ig://CTcUzGWHoQT/m
-photo.378.author: mini_cochi
+photo.376: ig://CS9M7N8h_PV/m
+photo.376.author: ck.chie
+photo.376.commitdate: 2021/9/11
+photo.376.link: https://www.instagram.com/ck.chie/
+photo.376.tags: portrait, standing, videolink
+photo.377: ig://CS-YLEEBIL3/m
+photo.377.author: ssc6105
+photo.377.commitdate: 2021/9/11
+photo.377.link: https://www.instagram.com/ssc6105/
+photo.377.tags: peek, smile, whiskers
+photo.378: ig://CTF_dhzBtCw/m
+photo.378.author: alto0908
 photo.378.commitdate: 2021/9/7
-photo.378.link: https://www.instagram.com/mini_cochi/
-photo.378.tags: laying down, portrait, sleeping
-photo.379: https://www.instagram.com/p/CS-YLEEBIL3/media/?size=m
-photo.379.author: ssc6105
-photo.379.link: https://www.instagram.com/ssc6105/
-photo.379.tags: peek, smile, whiskers
-photo.380: https://www.instagram.com/p/CS9M7N8h_PV/media/?size=m
-photo.380.author: ck.chie
-photo.380.link: https://www.instagram.com/ck.chie/
-photo.380.tags: portrait, standing, videolink
+photo.378.link: https://www.instagram.com/alto0908/
+photo.378.tags: door, paws, portrait
+photo.379: ig://CTXkm7HhRIy/m
+photo.379.author: eos1089
+photo.379.commitdate: 2021/9/10
+photo.379.link: https://www.instagram.com/eos1089/
+photo.379.tags: bridge, laying down, paws
+photo.380: ig://CTcUzGWHoQT/m
+photo.380.author: mini_cochi
+photo.380.commitdate: 2021/9/7
+photo.380.link: https://www.instagram.com/mini_cochi/
+photo.380.tags: laying down, portrait, sleeping
 species: 2
 studbook.id: 1782
 zoo: 17
