@@ -776,7 +776,7 @@ photo.155: ig://B6NeERchrf2/m
 photo.155.author: daniele.tokyo
 photo.155.commitdate: 2020/11/1
 photo.155.link: https://www.instagram.com/daniele.tokyo/
-photo.155.tags: close-up, portrait, whiskers
+photo.155.tags: close-up, portrait, profile, whiskers
 photo.156: ig://B6NjSPIhW2P/m
 photo.156.author: minatomirai215
 photo.156.commitdate: 2019/12/30
@@ -1251,7 +1251,7 @@ photo.250: ig://CQY3ku3BuBy/m
 photo.250.author: minatomirai215
 photo.250.commitdate: 2021/6/23
 photo.250.link: https://www.instagram.com/minatomirai215/
-photo.250.tags: paws, portrait, profile, whiskers
+photo.250.tags: paws, portrait, whiskers
 photo.251: ig://CQosIbugOg3/m
 photo.251.author: cattail.sapporo
 photo.251.commitdate: 2021/6/28
@@ -1322,6 +1322,10 @@ photo.264.author: minatomirai215
 photo.264.commitdate: 2021/9/8
 photo.264.link: https://www.instagram.com/minatomirai215/
 photo.264.tags: mofumofu, paws, tail, whiskers
+photo.265: https://www.instagram.com/p/CS9C1K6hXBS/media/?size=m
+photo.265.author: _saaaaaaah_
+photo.265.link: https://www.instagram.com/_saaaaaaah_/
+photo.265.tags: keeper, peek
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
