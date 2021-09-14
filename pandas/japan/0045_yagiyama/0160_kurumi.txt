@@ -159,15 +159,16 @@ photo.29.author: kotume4935
 photo.29.commitdate: 2021/7/19
 photo.29.link: https://www.instagram.com/kotume4935/
 photo.29.tags: home, peek, portrait, whiskers
-photo.30: ig://CS2_xvRnwgW/m
-photo.30.author: hidehaya_biei
-photo.30.commitdate: 2021/8/24
-photo.30.link: https://www.instagram.com/hidehaya_biei/
-photo.30.tags: nose, paws, smile, tongue, whiskers
-photo.31: https://www.instagram.com/p/CRd3XbLh-TQ/media/?size=m
-photo.31.author: eos1089
-photo.31.link: https://www.instagram.com/eos1089/
-photo.31.tags: home, laying down, paws, portrait, smile, tongue
+photo.30: ig://CRd3XbLh-TQ/m
+photo.30.author: eos1089
+photo.30.commitdate: 2021/9/13
+photo.30.link: https://www.instagram.com/eos1089/
+photo.30.tags: home, laying down, paws, portrait, smile, tongue
+photo.31: ig://CS2_xvRnwgW/m
+photo.31.author: hidehaya_biei
+photo.31.commitdate: 2021/8/24
+photo.31.link: https://www.instagram.com/hidehaya_biei/
+photo.31.tags: nose, paws, smile, tongue, whiskers
 species: 2
 studbook.id: 11112
 video.1: https://youtu.be/ma8fX2kWx_k

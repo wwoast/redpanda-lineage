@@ -218,13 +218,15 @@ photo.41.author: fetorus_mami
 photo.41.commitdate: 2021/7/18
 photo.41.link: https://www.instagram.com/fetorus_mami/
 photo.41.tags: tail, wink
-photo.42: https://www.instagram.com/p/CRfP_lAhzhy/media/?size=m
-photo.42.author: alto0908
-photo.42.link: https://www.instagram.com/alto0908/
-photo.42.tags: itchy, portrait, whiskers, wink
-photo.43: https://www.instagram.com/p/CReCzSHhYP2/media/?size=m
-photo.43.author: mini_cochi
-photo.43.link: https://www.instagram.com/mini_cochi/
-photo.43.tags: portrait, smile, tail
+photo.42: ig://CReCzSHhYP2/m
+photo.42.author: mini_cochi
+photo.42.commitdate: 2021/9/13
+photo.42.link: https://www.instagram.com/mini_cochi/
+photo.42.tags: portrait, smile, tail
+photo.43: ig://CRfP_lAhzhy/m
+photo.43.author: alto0908
+photo.43.commitdate: 2021/9/13
+photo.43.link: https://www.instagram.com/alto0908/
+photo.43.tags: itchy, portrait, whiskers, wink
 species: 2
 zoo: 9

@@ -264,20 +264,21 @@ photo.50.author: fetorus_mami
 photo.50.commitdate: 2021/7/9
 photo.50.link: https://www.instagram.com/fetorus_mami/
 photo.50.tags: dish, lunch time, tongue
-photo.51: ig://CRvFjKah5v2/m
-photo.51.author: miis_98
-photo.51.commitdate: 2021/7/30
-photo.51.link: https://www.instagram.com/miis_98/
-photo.51.tags: paws, portrait, smile, whiskers
-photo.52: ig://CSiA6FgB84P/m
-photo.52.author: alto0908
-photo.52.commitdate: 2021/8/18
-photo.52.link: https://www.instagram.com/alto0908/
-photo.52.tags: close-up, mofumofu, portrait
-photo.53: https://www.instagram.com/p/CRgm8BlhL3n/media/?size=m
-photo.53.author: eos1089
-photo.53.link: https://www.instagram.com/eos1089/
-photo.53.tags: mofumofu, portrait, smile, whiskers
+photo.51: ig://CRgm8BlhL3n/m
+photo.51.author: eos1089
+photo.51.commitdate: 2021/9/13
+photo.51.link: https://www.instagram.com/eos1089/
+photo.51.tags: mofumofu, portrait, smile, whiskers
+photo.52: ig://CRvFjKah5v2/m
+photo.52.author: miis_98
+photo.52.commitdate: 2021/7/30
+photo.52.link: https://www.instagram.com/miis_98/
+photo.52.tags: paws, portrait, smile, whiskers
+photo.53: ig://CSiA6FgB84P/m
+photo.53.author: alto0908
+photo.53.commitdate: 2021/8/18
+photo.53.link: https://www.instagram.com/alto0908/
+photo.53.tags: close-up, mofumofu, portrait
 species: 2
 studbook.id: 13169
 video.1: https://youtu.be/HQ_OsRtj6T0

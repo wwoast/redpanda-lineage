@@ -23,21 +23,23 @@ photo.3.link: https://www.instagram.com/alto0908/
 photo.3.tags: couple, portrait, whiskers
 photo.3.tags.38.location: 155, 215
 photo.3.tags.41.location: 325, 170
-photo.4: ig://CLjkN1qBPSU/m
-photo.4.author: alto0908
-photo.4.commitdate: 2021/6/29
-photo.4.link: https://www.instagram.com/alto0908/
-photo.4.tags: apple time, couple, keeper, portrait
-photo.4.tags.38.location: 200, 150
-photo.4.tags.41.location: 130, 120
-photo.5: https://www.instagram.com/p/CKy7oISh-g_/media/?size=l
-photo.5.author: panda.daisuki
-photo.5.link: https://www.instagram.com/panda.daisuki/
-photo.5.tags: couple, keeper, portrait
-photo.5.tags.38.location: 480, 250
-photo.5.tags.41.location: 140, 275
-photo.6: https://www.instagram.com/p/CMA8qV8hbIU/media/?size=l
+photo.4: ig://CKy7oISh-g_/l
+photo.4.author: panda.daisuki
+photo.4.commitdate: 2021/9/13
+photo.4.link: https://www.instagram.com/panda.daisuki/
+photo.4.tags: couple, keeper, portrait
+photo.4.tags.38.location: 480, 250
+photo.4.tags.41.location: 140, 275
+photo.5: ig://CLjkN1qBPSU/m
+photo.5.author: alto0908
+photo.5.commitdate: 2021/6/29
+photo.5.link: https://www.instagram.com/alto0908/
+photo.5.tags: apple time, couple, keeper, portrait
+photo.5.tags.38.location: 200, 150
+photo.5.tags.41.location: 130, 120
+photo.6: ig://CMA8qV8hbIU/l
 photo.6.author: rie_panda55
+photo.6.commitdate: 2021/9/13
 photo.6.link: https://www.instagram.com/rie_panda55/
 photo.6.tags: couple, home, portrait, tail, tree
 photo.6.tags.38.location: 210, 330

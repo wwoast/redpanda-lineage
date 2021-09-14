@@ -893,30 +893,31 @@ photo.178.author: i.satosato
 photo.178.commitdate: 2021/8/20
 photo.178.link: https://www.instagram.com/i.satosato/
 photo.178.tags: apple time, bite, keeper, portrait, tail
-photo.179: ig://CSUDXKzBrjx/m
-photo.179.author: i.satosato
-photo.179.commitdate: 2021/8/10
-photo.179.link: https://www.instagram.com/i.satosato/
-photo.179.tags: paws, portrait, whiskers
-photo.180: ig://CTB5juMB8Yy/m
-photo.180.author: falcon_tenor
-photo.180.commitdate: 2021/8/27
-photo.180.link: https://www.instagram.com/falcon_tenor/
-photo.180.tags: laying down, paws, portrait, whiskers
-photo.181: ig://CTPKPrwhLZR/m
-photo.181.author: i.satosato
-photo.181.commitdate: 2021/9/8
-photo.181.link: https://www.instagram.com/i.satosato/
-photo.181.tags: door, laying down, tail
-photo.182: ig://CTW8w0DB9cH/m
+photo.179: ig://CRdUB2aB-4t/m
+photo.179.author: falcon_tenor
+photo.179.commitdate: 2021/9/13
+photo.179.link: https://www.instagram.com/falcon_tenor/
+photo.179.tags: laying down, lips, paws
+photo.180: ig://CSUDXKzBrjx/m
+photo.180.author: i.satosato
+photo.180.commitdate: 2021/8/10
+photo.180.link: https://www.instagram.com/i.satosato/
+photo.180.tags: paws, portrait, whiskers
+photo.181: ig://CTB5juMB8Yy/m
+photo.181.author: falcon_tenor
+photo.181.commitdate: 2021/8/27
+photo.181.link: https://www.instagram.com/falcon_tenor/
+photo.181.tags: laying down, paws, portrait, whiskers
+photo.182: ig://CTPKPrwhLZR/m
 photo.182.author: i.satosato
-photo.182.commitdate: 2021/9/10
+photo.182.commitdate: 2021/9/8
 photo.182.link: https://www.instagram.com/i.satosato/
-photo.182.tags: paws, portrait, smile, whiskers
-photo.183: https://www.instagram.com/p/CRdUB2aB-4t/media/?size=m
-photo.183.author: falcon_tenor
-photo.183.link: https://www.instagram.com/falcon_tenor/
-photo.183.tags: laying down, lips, paws
+photo.182.tags: door, laying down, tail
+photo.183: ig://CTW8w0DB9cH/m
+photo.183.author: i.satosato
+photo.183.commitdate: 2021/9/10
+photo.183.link: https://www.instagram.com/i.satosato/
+photo.183.tags: paws, portrait, smile, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

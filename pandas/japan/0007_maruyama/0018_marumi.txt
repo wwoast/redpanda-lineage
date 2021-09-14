@@ -1906,30 +1906,31 @@ photo.380.author: cattail.sapporo
 photo.380.commitdate: 2021/7/18
 photo.380.link: https://www.instagram.com/cattail.sapporo/
 photo.380.tags: close-up, laying down, mofumofu, portrait, whiskers
-photo.381: ig://CR_MzS0njoz/m
-photo.381.author: cattail.sapporo
-photo.381.commitdate: 2021/8/18
-photo.381.link: https://www.instagram.com/cattail.sapporo/
-photo.381.tags: mofumofu, playing, portrait, smile, tail, toys
-photo.382: ig://CSttdUNBmkP/m
-photo.382.author: nishicotolo
-photo.382.commitdate: 2021/9/6
-photo.382.link: https://www.instagram.com/nishicotolo/
-photo.382.tags: mofumofu, paws, portrait, smile, tail
-photo.383: ig://CS311YvBi3P/m
+photo.381: ig://CRgb1LvB9Kz/m
+photo.381.author: tama67photo
+photo.381.commitdate: 2021/9/13
+photo.381.link: https://www.instagram.com/tama67photo/
+photo.381.tags: mofumofu, paws, portrait, whiskers
+photo.382: ig://CR_MzS0njoz/m
+photo.382.author: cattail.sapporo
+photo.382.commitdate: 2021/8/18
+photo.382.link: https://www.instagram.com/cattail.sapporo/
+photo.382.tags: mofumofu, playing, portrait, smile, tail, toys
+photo.383: ig://CSttdUNBmkP/m
 photo.383.author: nishicotolo
 photo.383.commitdate: 2021/9/6
 photo.383.link: https://www.instagram.com/nishicotolo/
-photo.383.tags: paws, whiskers
-photo.384: ig://CS9KRFPBQFJ/m
+photo.383.tags: mofumofu, paws, portrait, smile, tail
+photo.384: ig://CS311YvBi3P/m
 photo.384.author: nishicotolo
-photo.384.commitdate: 2021/9/11
+photo.384.commitdate: 2021/9/6
 photo.384.link: https://www.instagram.com/nishicotolo/
-photo.384.tags: laying down, sleeping
-photo.385: https://www.instagram.com/p/CRgb1LvB9Kz/media/?size=m
-photo.385.author: tama67photo
-photo.385.link: https://www.instagram.com/tama67photo/
-photo.385.tags: mofumofu, paws, portrait, whiskers
+photo.384.tags: paws, whiskers
+photo.385: ig://CS9KRFPBQFJ/m
+photo.385.author: nishicotolo
+photo.385.commitdate: 2021/9/11
+photo.385.link: https://www.instagram.com/nishicotolo/
+photo.385.tags: laying down, sleeping
 species: 2
 studbook.id: 1676
 zoo: 7
