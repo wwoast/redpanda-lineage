@@ -2,7 +2,7 @@
 _id: 1247
 birthday: 2019/6/22
 birthplace: 271
-children: none
+children: 1312, 1313
 cn.name: 火狐
 cn.nicknames: none
 cn.othernames: none
@@ -10,7 +10,7 @@ commitdate: 2020/12/29
 en.name: Hui Hu
 en.nicknames: none
 en.othernames: Huo-Hu, Huo Hu, Hui-Hu, Firefox
-fr.name: Huo Hu
+fr.name: Hui Hu
 fr.nicknames: none
 fr.othernames: none
 gender: m
@@ -41,6 +41,26 @@ photo.4.author: pairidaizaofficial
 photo.4.commitdate: 2020/12/30
 photo.4.link: https://www.instagram.com/pairidaizaofficial/
 photo.4.tags: portrait, profile, tail
+photo.5: ig://CLT9_elHhQO/m
+photo.5.author: mirellad03
+photo.5.commitdate: 2021/9/1
+photo.5.link: https://www.instagram.com/mirellad03/
+photo.5.tags: paws, snow
+photo.6: ig://CODpL4hgTkR/m
+photo.6.author: nathalie.elliott
+photo.6.commitdate: 2021/9/6
+photo.6.link: https://www.instagram.com/nathalie.elliott/
+photo.6.tags: paws, peek, portrait, tree
+photo.7: ig://COQoVDJg5pP/m
+photo.7.author: nathalie.elliott
+photo.7.commitdate: 2021/9/1
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: peek, tree
+photo.8: ig://CTejDqZMTJb/m
+photo.8.author: nathalie.elliott
+photo.8.commitdate: 2021/9/7
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: paws, portrait, tail
 species: 1
 uncertainty: location.2 moving date
 zoo: 219

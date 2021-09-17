@@ -11,7 +11,12 @@ gender: unknown
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
-language.order: en, jp
+language.order: jp, en
 litter: none
+photo.1: ig://CSVDP_KheVY/m
+photo.1.author: hamamatsu.chiita
+photo.1.commitdate: 2021/8/14
+photo.1.link: https://www.instagram.com/hamamatsu.chiita/
+photo.1.tags: newborn, videolink
 species: 2
 zoo: 31

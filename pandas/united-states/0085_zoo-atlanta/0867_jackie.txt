@@ -56,6 +56,11 @@ photo.8.author: rossifari
 photo.8.commitdate: 2021/6/18
 photo.8.link: https://www.instagram.com/rossifari/
 photo.8.tags: portrait, smile, whiskers
+photo.9: ig://CRgNwfoNwbd/m
+photo.9.author: rossifari
+photo.9.commitdate: 2021/9/6
+photo.9.link: https://www.instagram.com/rossifari/
+photo.9.tags: home, portrait, smile
 species: 1
 studbook.id: 1705
 uncertainty: location.3 date

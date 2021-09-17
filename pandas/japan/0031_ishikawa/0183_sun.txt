@@ -124,9 +124,9 @@ photo.22.commitdate: 2019/12/29
 photo.22.link: https://www.instagram.com/bee_san.13/
 photo.22.tags: apple time, keeper, portrait, whiskers
 photo.23: ig://B6XLsGzhlsz/m
-photo.23.author: merumeru119
+photo.23.author: reikazumeru7172119
 photo.23.commitdate: 2020/5/5
-photo.23.link: https://www.instagram.com/merumeru119/
+photo.23.link: https://www.instagram.com/reikazumeru7172119/
 photo.23.tags: portrait, whiskers
 photo.24: ig://B75iqzihUGI/m
 photo.24.author: bee_san.13
@@ -284,9 +284,9 @@ photo.54.commitdate: 2020/11/25
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: paws, portrait, whiskers
 photo.55: ig://CHo31uqBNTG/m
-photo.55.author: merumeru119
+photo.55.author: reikazumeru7172119
 photo.55.commitdate: 2020/11/17
-photo.55.link: https://www.instagram.com/merumeru119/
+photo.55.link: https://www.instagram.com/reikazumeru7172119/
 photo.55.tags: apple time, dish, paws, peek, standing
 photo.56: ig://CHuy7_nhENX/m
 photo.56.author: bee_san.13
@@ -313,36 +313,51 @@ photo.60.author: hamamatsu.chiita
 photo.60.commitdate: 2020/12/30
 photo.60.link: https://www.instagram.com/hamamatsu.chiita/
 photo.60.tags: laying down, tail
-photo.61: ig://CMEzaSuB5S5/m
-photo.61.author: hamamatsu.chiita
-photo.61.commitdate: 2021/3/28
-photo.61.link: https://www.instagram.com/hamamatsu.chiita/
-photo.61.tags: bamboo, portrait, tail
-photo.62: ig://CMVdi2sBIeH/m
+photo.61: ig://CJ5fkNXB2w_/m
+photo.61.author: craig_craig_craig
+photo.61.commitdate: 2021/8/6
+photo.61.link: https://www.instagram.com/craig_craig_craig/
+photo.61.tags: carry, portrait, surprise, tail
+photo.62: ig://CMEzaSuB5S5/m
 photo.62.author: hamamatsu.chiita
-photo.62.commitdate: 2021/4/11
+photo.62.commitdate: 2021/3/28
 photo.62.link: https://www.instagram.com/hamamatsu.chiita/
-photo.62.tags: mofumofu, portrait, white face
-photo.63: ig://CNIDwAih8ul/m
-photo.63.author: bee_san.13
-photo.63.commitdate: 2021/4/7
-photo.63.link: https://www.instagram.com/bee_san.13/
-photo.63.tags: portrait, smile, tree
-photo.64: ig://CNU1R4AB15m/m
+photo.62.tags: bamboo, portrait, tail
+photo.63: ig://CMVdi2sBIeH/m
+photo.63.author: hamamatsu.chiita
+photo.63.commitdate: 2021/4/11
+photo.63.link: https://www.instagram.com/hamamatsu.chiita/
+photo.63.tags: mofumofu, portrait, white face
+photo.64: ig://CNIDwAih8ul/m
 photo.64.author: bee_san.13
-photo.64.commitdate: 2021/5/4
+photo.64.commitdate: 2021/4/7
 photo.64.link: https://www.instagram.com/bee_san.13/
-photo.64.tags: paws, portrait, smile, whiskers
-photo.65: ig://CNtbZdLBcgG/m
-photo.65.author: makimaru18
-photo.65.commitdate: 2021/5/26
-photo.65.link: https://www.instagram.com/makimaru18/
-photo.65.tags: laying down, portrait, sleeping
-photo.66: ig://CQzFnHOBG5j/m
-photo.66.author: hamamatsu.chiita
-photo.66.commitdate: 2021/7/4
-photo.66.link: https://www.instagram.com/hamamatsu.chiita/
-photo.66.tags: mofumofu, portrait, whiskers
+photo.64.tags: portrait, smile, tree
+photo.65: ig://CNU1R4AB15m/m
+photo.65.author: bee_san.13
+photo.65.commitdate: 2021/5/4
+photo.65.link: https://www.instagram.com/bee_san.13/
+photo.65.tags: paws, portrait, smile, whiskers
+photo.66: ig://CNtbZdLBcgG/m
+photo.66.author: makimaru18
+photo.66.commitdate: 2021/5/26
+photo.66.link: https://www.instagram.com/makimaru18/
+photo.66.tags: laying down, portrait, sleeping
+photo.67: ig://CQzFnHOBG5j/m
+photo.67.author: hamamatsu.chiita
+photo.67.commitdate: 2021/7/4
+photo.67.link: https://www.instagram.com/hamamatsu.chiita/
+photo.67.tags: mofumofu, portrait, whiskers
+photo.68: ig://CS6nUY1HA8C/m
+photo.68.author: bee_san.13
+photo.68.commitdate: 2021/8/24
+photo.68.link: https://www.instagram.com/bee_san.13/
+photo.68.tags: portrait, tree, whiskers
+photo.69: ig://CS6yVHHB3qg/m
+photo.69.author: eos1089
+photo.69.commitdate: 2021/8/24
+photo.69.link: https://www.instagram.com/eos1089/
+photo.69.tags: peek, portrait, whiskers
 species: 2
 studbook.id: 15162
 zoo: 31

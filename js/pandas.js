@@ -777,6 +777,7 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
   var chosen_id = -1;
   var chosen_litter_ids = [];
   if (has_litters.length > 0) {
+    // TODO: ONLY ONE SET OF LITTERS IN THE BIRTHDAY FRONT PAGE. :/ Refactor.
     chosen_id = Pandas.randomChoice(has_litters, 1)[0];
     var chosen_animal = Pandas.searchPandaId(chosen_id)[0];
     chosen_litter_ids = Pandas.searchLitter(chosen_id)

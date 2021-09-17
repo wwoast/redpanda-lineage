@@ -359,16 +359,26 @@ photo.71.author: re_ichimaru
 photo.71.commitdate: 2021/2/2
 photo.71.link: https://www.instagram.com/re_ichimaru/
 photo.71.tags: climb, keeper, paws
-photo.72: ig://CMN1My6hqgq/m
+photo.72: ig://CLyX3Ivh-6-/m
 photo.72.author: yossi929
-photo.72.commitdate: 2021/6/29
+photo.72.commitdate: 2021/7/21
 photo.72.link: https://www.instagram.com/yossi929/
-photo.72.tags: blink, smile, tongue
-photo.73: ig://CNvxB-FhROL/m
+photo.72.tags: close-up, smile, whiskers
+photo.73: ig://CMN1My6hqgq/m
 photo.73.author: yossi929
-photo.73.commitdate: 2021/5/3
+photo.73.commitdate: 2021/6/29
 photo.73.link: https://www.instagram.com/yossi929/
-photo.73.tags: laying down, portrait, sleeping
+photo.73.tags: blink, smile, tongue
+photo.74: ig://CNCdt28hGbp/m
+photo.74.author: re_ichimaru
+photo.74.commitdate: 2021/7/21
+photo.74.link: https://www.instagram.com/re_ichimaru/
+photo.74.tags: laying down, paws, sleeping
+photo.75: ig://CNvxB-FhROL/m
+photo.75.author: yossi929
+photo.75.commitdate: 2021/5/3
+photo.75.link: https://www.instagram.com/yossi929/
+photo.75.tags: laying down, portrait, sleeping
 species: 2
 studbook.id: 15157
 zoo: 41

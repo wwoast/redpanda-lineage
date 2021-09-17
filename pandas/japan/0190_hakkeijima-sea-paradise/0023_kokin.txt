@@ -776,7 +776,7 @@ photo.155: ig://B6NeERchrf2/m
 photo.155.author: daniele.tokyo
 photo.155.commitdate: 2020/11/1
 photo.155.link: https://www.instagram.com/daniele.tokyo/
-photo.155.tags: close-up, portrait, whiskers
+photo.155.tags: close-up, portrait, profile, whiskers
 photo.156: ig://B6NjSPIhW2P/m
 photo.156.author: minatomirai215
 photo.156.commitdate: 2019/12/30
@@ -1041,7 +1041,7 @@ photo.208: ig://CDd2sWnhdEK/m
 photo.208.author: gloryeui
 photo.208.commitdate: 2020/9/10
 photo.208.link: https://www.instagram.com/gloryeui/
-photo.208.tags: bridge, peek, portrait
+photo.208.tags: bridge, close-up, muzzle, peek, portrait, whiskers
 photo.209: ig://CDi3gT8h0Ro/m
 photo.209.author: gloryeui
 photo.209.commitdate: 2020/8/15
@@ -1251,7 +1251,7 @@ photo.250: ig://CQY3ku3BuBy/m
 photo.250.author: minatomirai215
 photo.250.commitdate: 2021/6/23
 photo.250.link: https://www.instagram.com/minatomirai215/
-photo.250.tags: paws, portrait, profile, whiskers
+photo.250.tags: paws, portrait, whiskers
 photo.251: ig://CQosIbugOg3/m
 photo.251.author: cattail.sapporo
 photo.251.commitdate: 2021/6/28
@@ -1277,6 +1277,56 @@ photo.255.author: ssc6105
 photo.255.commitdate: 2021/7/13
 photo.255.link: https://www.instagram.com/ssc6105/
 photo.255.tags: keeper, paws, standing
+photo.256: ig://CRmzvP3BU3_/m
+photo.256.author: pantasanzoo1
+photo.256.commitdate: 2021/8/2
+photo.256.link: https://www.instagram.com/pantasanzoo1/
+photo.256.tags: close-up, keeper, whiskers
+photo.257: ig://CR5ZvgXBWBx/m
+photo.257.author: wumpwoast
+photo.257.commitdate: 2021/7/29
+photo.257.link: https://www.instagram.com/wumpwoast/
+photo.257.tags: portrait, whiskers
+photo.258: ig://CSHHQtBLNC7/m
+photo.258.author: _saaaaaaah_
+photo.258.commitdate: 2021/8/7
+photo.258.link: https://www.instagram.com/_saaaaaaah_/
+photo.258.tags: apple time, paws, window
+photo.259: ig://CSTAIwpBG7b/m
+photo.259.author: pantasanzoo1
+photo.259.commitdate: 2021/8/10
+photo.259.link: https://www.instagram.com/pantasanzoo1/
+photo.259.tags: bamboo, close-up, grooming, mofumofu, tail
+photo.260: ig://CSqGzl_huL9/m
+photo.260.author: pantasanzoo1
+photo.260.commitdate: 2021/8/18
+photo.260.link: https://www.instagram.com/pantasanzoo1/
+photo.260.tags: dish, whiskers
+photo.261: ig://CSr0AH0BIiC/m
+photo.261.author: minatomirai215
+photo.261.commitdate: 2021/8/18
+photo.261.link: https://www.instagram.com/minatomirai215/
+photo.261.tags: dish, portrait, whiskers
+photo.262: ig://CStRecfBvwE/m
+photo.262.author: pantasanzoo1
+photo.262.commitdate: 2021/8/25
+photo.262.link: https://www.instagram.com/pantasanzoo1/
+photo.262.tags: home, paws, standing, tail
+photo.263: ig://CSvB_DfBwVi/m
+photo.263.author: pantasanzoo1
+photo.263.commitdate: 2021/8/24
+photo.263.link: https://www.instagram.com/pantasanzoo1/
+photo.263.tags: home, smile
+photo.264: ig://CS9C1K6hXBS/m
+photo.264.author: _saaaaaaah_
+photo.264.commitdate: 2021/9/11
+photo.264.link: https://www.instagram.com/_saaaaaaah_/
+photo.264.tags: keeper, peek
+photo.265: ig://CTRo--nBw2K/m
+photo.265.author: minatomirai215
+photo.265.commitdate: 2021/9/8
+photo.265.link: https://www.instagram.com/minatomirai215/
+photo.265.tags: mofumofu, paws, tail, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

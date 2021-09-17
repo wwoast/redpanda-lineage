@@ -1,0 +1,22 @@
+[panda]
+_id: 1306
+birthday: 2021/7/1
+birthplace: 166
+children: none
+commitdate: 2021/8/18
+en.name: Baby
+en.nicknames: none
+en.othernames: Aka-chan
+gender: f
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1307
+photo.1: ig://CScIx56laLp/m
+photo.1.author: idahofallszoo
+photo.1.commitdate: 2021/8/18
+photo.1.link: https://www.instagram.com/idahofallszoo/
+photo.1.tags: baby, blink, keeper, newborn, portrait
+species: 1
+zoo: 166

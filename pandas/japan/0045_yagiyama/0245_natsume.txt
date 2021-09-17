@@ -428,56 +428,96 @@ photo.83.author: alto0908
 photo.83.commitdate: 2020/10/9
 photo.83.link: https://www.instagram.com/alto0908/
 photo.83.tags: bamboo, mofumofu, portrait
-photo.84: ig://CG1wVb5Boqx/m
-photo.84.author: hamiiiii831_
-photo.84.commitdate: 2020/10/27
-photo.84.link: https://www.instagram.com/hamiiiii831_/
-photo.84.tags: home, peek, portrait, smile
-photo.85: ig://CG9d9aGBpPi/m
-photo.85.author: makimaru18
-photo.85.commitdate: 2020/11/6
-photo.85.link: https://www.instagram.com/makimaru18/
-photo.85.tags: home, laying down, portrait, smile, tongue
-photo.86: ig://CHlWDWpg9i9/m
-photo.86.author: run.swim.shingo
-photo.86.commitdate: 2020/11/18
-photo.86.link: https://www.instagram.com/run.swim.shingo/
-photo.86.tags: autumn, paws, smile
-photo.87: ig://CHql01ugIli/m
-photo.87.author: run.swim.shingo
-photo.87.commitdate: 2020/11/18
-photo.87.link: https://www.instagram.com/run.swim.shingo/
-photo.87.tags: bridge, portrait, smile
-photo.88: ig://CIAGRpqhNjq/m
-photo.88.author: hamiiiii831_
-photo.88.commitdate: 2020/12/6
-photo.88.link: https://www.instagram.com/hamiiiii831_/
-photo.88.tags: home, portrait, smile, whiskers
-photo.89: ig://CIMgHIlhwNl/m
-photo.89.author: panda.daisuki
-photo.89.commitdate: 2020/12/3
-photo.89.link: https://www.instagram.com/panda.daisuki/
-photo.89.tags: air tasting, bamboo, paws, portrait, tongue
-photo.90: ig://CIM0mxGB7-z/m
-photo.90.author: kipekaila
-photo.90.commitdate: 2020/12/3
-photo.90.link: https://www.instagram.com/kipekaila/
-photo.90.tags: home, laying down, paws, techitechi
-photo.91: ig://CJBhYxZhXjG/m
-photo.91.author: happy_love2.15
-photo.91.commitdate: 2020/12/30
-photo.91.link: https://www.instagram.com/happy_love2.15/
-photo.91.tags: portrait, smile, snow
-photo.92: ig://CJqlxR-h3b_/m
-photo.92.author: happy_love2.15
-photo.92.commitdate: 2021/1/13
-photo.92.link: https://www.instagram.com/happy_love2.15/
-photo.92.tags: bamboo, home, portrait, smile, snow
-photo.93: ig://CJ682T5hp3h/m
-photo.93.author: kotume4935
-photo.93.commitdate: 2021/2/28
-photo.93.link: https://www.instagram.com/kotume4935/
-photo.93.tags: laying down, portrait, smile, tail, tree
+photo.84: ig://CGpO-ZKBDuy/m
+photo.84.author: panda.daisuki
+photo.84.commitdate: 2021/8/14
+photo.84.link: https://www.instagram.com/panda.daisuki/
+photo.84.tags: paws, portrait, whiskers
+photo.85: ig://CGwFETnhTl3/m
+photo.85.author: panda.daisuki
+photo.85.commitdate: 2021/8/14
+photo.85.link: https://www.instagram.com/panda.daisuki/
+photo.85.tags: portrait, tail, upside-down
+photo.86: ig://CG1wVb5Boqx/m
+photo.86.author: hamiiiii831_
+photo.86.commitdate: 2020/10/27
+photo.86.link: https://www.instagram.com/hamiiiii831_/
+photo.86.tags: home, peek, portrait, smile
+photo.87: ig://CG9d9aGBpPi/m
+photo.87.author: makimaru18
+photo.87.commitdate: 2020/11/6
+photo.87.link: https://www.instagram.com/makimaru18/
+photo.87.tags: home, laying down, portrait, smile, tongue
+photo.88: ig://CHlWDWpg9i9/m
+photo.88.author: run.swim.shingo
+photo.88.commitdate: 2020/11/18
+photo.88.link: https://www.instagram.com/run.swim.shingo/
+photo.88.tags: autumn, paws, smile
+photo.89: ig://CHql01ugIli/m
+photo.89.author: run.swim.shingo
+photo.89.commitdate: 2020/11/18
+photo.89.link: https://www.instagram.com/run.swim.shingo/
+photo.89.tags: bridge, portrait, smile
+photo.90: ig://CIAGRpqhNjq/m
+photo.90.author: hamiiiii831_
+photo.90.commitdate: 2020/12/6
+photo.90.link: https://www.instagram.com/hamiiiii831_/
+photo.90.tags: home, portrait, smile, whiskers
+photo.91: ig://CIKPXUuhGk0/m
+photo.91.author: hidehaya_biei
+photo.91.commitdate: 2021/8/14
+photo.91.link: https://www.instagram.com/hidehaya_biei/
+photo.91.tags: air tasting, close-up, mofumofu, portrait, tongue, whiskers
+photo.92: ig://CIMgHIlhwNl/m
+photo.92.author: panda.daisuki
+photo.92.commitdate: 2020/12/3
+photo.92.link: https://www.instagram.com/panda.daisuki/
+photo.92.tags: air tasting, bamboo, paws, portrait, tongue
+photo.93: ig://CIM0mxGB7-z/m
+photo.93.author: kipekaila
+photo.93.commitdate: 2020/12/3
+photo.93.link: https://www.instagram.com/kipekaila/
+photo.93.tags: home, laying down, paws, techitechi
+photo.94: ig://CJBhYxZhXjG/m
+photo.94.author: happy_love2.15
+photo.94.commitdate: 2020/12/30
+photo.94.link: https://www.instagram.com/happy_love2.15/
+photo.94.tags: portrait, smile, snow
+photo.95: ig://CJqlxR-h3b_/m
+photo.95.author: happy_love2.15
+photo.95.commitdate: 2021/1/13
+photo.95.link: https://www.instagram.com/happy_love2.15/
+photo.95.tags: bamboo, home, portrait, smile, snow
+photo.96: ig://CJ682T5hp3h/m
+photo.96.author: kotume4935
+photo.96.commitdate: 2021/2/28
+photo.96.link: https://www.instagram.com/kotume4935/
+photo.96.tags: laying down, portrait, smile, tail, tree
+photo.97: ig://CJ8fInwBDrc/m
+photo.97.author: happy_love2.15
+photo.97.commitdate: 2021/9/6
+photo.97.link: https://www.instagram.com/happy_love2.15/
+photo.97.tags: home, paws, peek, portrait, snow
+photo.98: ig://CLiQX1xB0t7/m
+photo.98.author: hidehaya_biei
+photo.98.commitdate: 2021/9/6
+photo.98.link: https://www.instagram.com/hidehaya_biei/
+photo.98.tags: portrait, smile, whiskers
+photo.99: ig://CNZGvi2hd1L/m
+photo.99.author: hidehaya_biei
+photo.99.commitdate: 2021/9/6
+photo.99.link: https://www.instagram.com/hidehaya_biei/
+photo.99.tags: peek, smile
+photo.100: ig://COhJFuSBCEE/m
+photo.100.author: hidehaya_biei
+photo.100.commitdate: 2021/8/11
+photo.100.link: https://www.instagram.com/hidehaya_biei/
+photo.100.tags: smile, whiskers
+photo.101: ig://CPidlSSBRhb/m
+photo.101.author: redpan22
+photo.101.commitdate: 2021/8/11
+photo.101.link: https://www.instagram.com/redpan22/
+photo.101.tags: bamboo, home, mofumofu, portrait, techitechi
 species: 2
 studbook.id: unknown
 zoo: 45

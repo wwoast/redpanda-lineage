@@ -312,31 +312,41 @@ photo.60.author: mini_cochi
 photo.60.commitdate: 2021/4/28
 photo.60.link: https://www.instagram.com/mini_cochi/
 photo.60.tags: apple time, paws, portrait, tree
-photo.61: ig://CKTU_f8hLzR/m
-photo.61.author: zoowfreedom299
-photo.61.commitdate: 2021/5/30
-photo.61.link: https://www.instagram.com/zoowfreedom299/
-photo.61.tags: apple time, keeper, paws, smile, standing
-photo.62: ig://CKlXJIghrkk/m
+photo.61: ig://CJx6c8CBQQ4/m
+photo.61.author: miis_98
+photo.61.commitdate: 2021/9/6
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: apple time, paws, smile, standing
+photo.62: ig://CKTU_f8hLzR/m
 photo.62.author: zoowfreedom299
-photo.62.commitdate: 2021/7/12
+photo.62.commitdate: 2021/5/30
 photo.62.link: https://www.instagram.com/zoowfreedom299/
-photo.62.tags: apple time, paws, smile
-photo.63: ig://CK9z_bghP7E/m
+photo.62.tags: apple time, keeper, paws, smile, standing
+photo.63: ig://CKlXJIghrkk/m
 photo.63.author: zoowfreedom299
 photo.63.commitdate: 2021/7/12
 photo.63.link: https://www.instagram.com/zoowfreedom299/
-photo.63.tags: apple time, paws, peek
-photo.64: ig://CLiPxpoB0i3/m
+photo.63.tags: apple time, paws, smile
+photo.64: ig://CK9z_bghP7E/m
 photo.64.author: zoowfreedom299
 photo.64.commitdate: 2021/7/12
 photo.64.link: https://www.instagram.com/zoowfreedom299/
-photo.64.tags: bamboo, bite, home, paws
-photo.65: ig://CQvqIjCh6-P/m
-photo.65.author: redpan22
-photo.65.commitdate: 2021/7/1
-photo.65.link: https://www.instagram.com/redpan22/
-photo.65.tags: ear, paws, smile
+photo.64.tags: apple time, paws, peek
+photo.65: ig://CLiPxpoB0i3/m
+photo.65.author: zoowfreedom299
+photo.65.commitdate: 2021/7/12
+photo.65.link: https://www.instagram.com/zoowfreedom299/
+photo.65.tags: bamboo, bite, home, paws
+photo.66: ig://CMzQg_zBY6t/m
+photo.66.author: redpan22
+photo.66.commitdate: 2021/8/27
+photo.66.link: https://www.instagram.com/redpan22/
+photo.66.tags: apple time, paws, smile
+photo.67: ig://CQvqIjCh6-P/m
+photo.67.author: redpan22
+photo.67.commitdate: 2021/7/1
+photo.67.link: https://www.instagram.com/redpan22/
+photo.67.tags: ear, paws, smile
 species: 2
 studbook.id: unknown
 zoo: 26

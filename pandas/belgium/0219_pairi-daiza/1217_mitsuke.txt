@@ -20,7 +20,7 @@ photo.1: ig://CF1vLXeg7YF/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
 photo.1.link: https://www.instagram.com/nathalie.elliott/
-photo.1.tags: baby, door, peek, portrait, profile
+photo.1.tags: baby, door, peek, portrait
 photo.2: https://www.codaworry.com/images/rpf/mitsuke-1-pairidaiza.jpg
 photo.2.author: nathalie.elliott
 photo.2.commitdate: 2021/3/29
@@ -31,5 +31,10 @@ photo.3.author: nathalie.elliott
 photo.3.commitdate: 2021/3/29
 photo.3.link: https://www.instagram.com/nathalie.elliott/
 photo.3.tags: baby, bridge, tail
+photo.4: ig://CLpQZBzH4f3/m
+photo.4.author: mirellad03
+photo.4.commitdate: 2021/7/30
+photo.4.link: https://www.instagram.com/mirellad03/
+photo.4.tags: bamboo, mofumofu, portrait, profile, wihskers
 species: 1
 zoo: 219

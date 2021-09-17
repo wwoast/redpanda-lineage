@@ -2,7 +2,7 @@
 _id: 148
 birthday: 2017/6/23
 birthplace: 16
-children: none
+children: 1305
 commitdate: 2018/6/28
 en.name: Nico
 en.nicknames: Long Smile
@@ -642,41 +642,76 @@ photo.127.author: taka__3428
 photo.127.commitdate: 2021/2/28
 photo.127.link: https://www.instagram.com/taka__3428/
 photo.127.tags: bamboo, peek, snow
-photo.128: ig://CNPVaM2h_9Y/m
-photo.128.author: shirokuma_jump
-photo.128.commitdate: 2021/4/29
-photo.128.link: https://www.instagram.com/shirokuma_jump/
-photo.128.tags: peek, portrait, whiskers
-photo.129: ig://COBwxswB38M/m
-photo.129.author: sasapan34
-photo.129.commitdate: 2021/5/31
-photo.129.link: https://www.instagram.com/sasapan34/
-photo.129.tags: bamboo, tail, whiskers
-photo.130: ig://COjw0VBhCQF/m
-photo.130.author: lesserpanda_shizuokacity_cp
-photo.130.commitdate: 2021/6/28
-photo.130.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.130.tags: close-up, paws, portrait, whiskers
-photo.131: ig://CPGcQsAhcU6/m
-photo.131.author: mini_cochi
+photo.128: ig://CM3aT8JhF8w/m
+photo.128.author: lesserpanda_shizuokacity_cp
+photo.128.commitdate: 2021/8/6
+photo.128.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.128.tags: paws, portrait, tail
+photo.129: ig://CNPVaM2h_9Y/m
+photo.129.author: shirokuma_jump
+photo.129.commitdate: 2021/4/29
+photo.129.link: https://www.instagram.com/shirokuma_jump/
+photo.129.tags: peek, portrait, whiskers
+photo.130: ig://COBwxswB38M/m
+photo.130.author: sasapan34
+photo.130.commitdate: 2021/5/31
+photo.130.link: https://www.instagram.com/sasapan34/
+photo.130.tags: bamboo, tail, whiskers
+photo.131: ig://COjw0VBhCQF/m
+photo.131.author: lesserpanda_shizuokacity_cp
 photo.131.commitdate: 2021/6/28
-photo.131.link: https://www.instagram.com/mini_cochi/
-photo.131.tags: keeper, portrait, smile, tail
-photo.132: ig://CQcy9RoBWB1/m
-photo.132.author: lesserpanda_shizuokacity_cp
-photo.132.commitdate: 2021/6/23
-photo.132.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.132.tags: apple time, paws, portrait, profile, whiskers
-photo.133: ig://CQuoHdBsPT5/m
+photo.131.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.131.tags: close-up, paws, portrait, whiskers
+photo.132: ig://CPGcQsAhcU6/m
+photo.132.author: mini_cochi
+photo.132.commitdate: 2021/6/28
+photo.132.link: https://www.instagram.com/mini_cochi/
+photo.132.tags: keeper, portrait, smile, tail
+photo.133: ig://CQcy9RoBWB1/m
 photo.133.author: lesserpanda_shizuokacity_cp
-photo.133.commitdate: 2021/7/1
+photo.133.commitdate: 2021/6/23
 photo.133.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.133.tags: bamboo, lunch time, portrait, tail
-photo.134: ig://CQ7nmQBsjV7/m
+photo.133.tags: apple time, paws, portrait, profile, whiskers
+photo.134: ig://CQuoHdBsPT5/m
 photo.134.author: lesserpanda_shizuokacity_cp
-photo.134.commitdate: 2021/7/5
+photo.134.commitdate: 2021/7/1
 photo.134.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.134.tags: mofumofu, portrait, whiskers
+photo.134.tags: bamboo, lunch time, portrait, tail
+photo.135: ig://CQ7nmQBsjV7/m
+photo.135.author: lesserpanda_shizuokacity_cp
+photo.135.commitdate: 2021/7/5
+photo.135.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.135.tags: mofumofu, portrait, whiskers
+photo.136: ig://CRkuBXeMPD5/m
+photo.136.author: lesserpanda_shizuokacity_cp
+photo.136.commitdate: 2021/8/2
+photo.136.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.136.tags: dish, portrait, smile, tail
+photo.137: ig://CR2ujKBMwfb/m
+photo.137.author: lesserpanda_shizuokacity_cp
+photo.137.commitdate: 2021/8/7
+photo.137.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.137.tags: mofumofu, peek, portrait
+photo.138: ig://CR75hniHy4l/m
+photo.138.author: lesserpanda_shizuokacity_cp
+photo.138.commitdate: 2021/8/18
+photo.138.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.138.tags: close-up, peek, portrait, whiskers
+photo.139: ig://CSVpwIQLUfc/m
+photo.139.author: lesserpanda_shizuokacity_cp
+photo.139.commitdate: 2021/8/10
+photo.139.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.139.tags: apple time, close-up, paws, smile, whiskers
+photo.140: ig://CSW1rMHHXbU/m
+photo.140.author: wumpwoast
+photo.140.commitdate: 2021/8/10
+photo.140.link: https://www.instagram.com/wumpwoast/
+photo.140.tags: itchy, portrait, tail, whiskers
+photo.141: ig://CSszAGgLd_q/m
+photo.141.author: lesserpanda_shizuokacity_cp
+photo.141.commitdate: 2021/8/18
+photo.141.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.141.tags: close-up, lips, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

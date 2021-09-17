@@ -15,5 +15,10 @@ language.order: en, jp
 litter: 968, 969
 location.1: 201, 2012/12/20
 location.2: 205, 2014/11/10
+photo.1: ig://CP9WkuyB53x/m
+photo.1.author: redpandasingapore
+photo.1.commitdate: 2021/9/6
+photo.1.link: https://www.instagram.com/redpandasingapore/
+photo.1.tags: portrait, profile, tree
 species: 1
 zoo: 205
