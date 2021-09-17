@@ -1,0 +1,15 @@
+[zoo]
+_id: 288
+commitdate: 2021/8/10
+en.address: Autovía del Mediterráneo, Km. 162, 5, 29680 Estepona, Málaga, Spain
+en.location: Estepona, Málaga, Spain
+en.name: Selwo Aventura
+es.address: Autovía del Mediterráneo, Km. 162, 5, 29680 Estepona, Málaga, Spain
+es.location: Estepona, Málaga, Spain
+es.name: Selwo Aventura
+flag: Spain
+language.order: es, en
+latitude: 36.4584657
+longitude: -5.0892368
+map: https://goo.gl/maps/zRaPJtmd3SzYr22cA
+website: https://www.selwo.es/

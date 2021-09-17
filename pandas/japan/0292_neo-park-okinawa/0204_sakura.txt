@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 203
+location.1: 35, 2015/6/27
+location.2: 292, 2021/7/16
 photo.1: ig://Bdcih30g3Yr/m
 photo.1.author: peek_a_boo00
 photo.1.commitdate: 2020/5/9
@@ -203,6 +205,16 @@ photo.38.author: love__mitarashi
 photo.38.commitdate: 2021/7/13
 photo.38.link: https://www.instagram.com/love__mitarashi/
 photo.38.tags: bridge, laying down, portrait, smile
+photo.39: ig://CRgphFshGpx/m
+photo.39.author: nakacchi_desu
+photo.39.commitdate: 2021/8/2
+photo.39.link: https://www.instagram.com/nakacchi_desu/
+photo.39.tags: home, laying down, peek
+photo.40: ig://CRpXAyJhwsc/m
+photo.40.author: love__mitarashi
+photo.40.commitdate: 2021/8/2
+photo.40.link: https://www.instagram.com/love__mitarashi/
+photo.40.tags: laying down, tongue
 species: 2
 studbook.id: 15140
-zoo: 35
+zoo: 292

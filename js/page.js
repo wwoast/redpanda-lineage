@@ -292,15 +292,18 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
+    // Kin Gin special
+    // var kg = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    // new_content.appendChild(kg);
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["60"], 5, Message.memorial);
-    new_content.appendChild(departed);
+    // var departed = Gallery.memorialPhotoCredits(L.display, ["124"], 3, Message.memorial);
+    // cdnew_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["11"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
     // Birthday logic
     var min_photo_count = 3;
-    var max_birthday_animals = 4;
+    var max_birthday_animals = 5;
     var birthday_count = Pandas.searchBirthdayToday(true, min_photo_count).length;
     if (birthday_count > 0) {
       var birthday = Gallery.birthdayPhotoCredits(L.display, min_photo_count, max_birthday_animals);
@@ -372,11 +375,14 @@ Page.home.special_tag_galleries = function() {
 Page.home.special_memorial = function() {
   // Special memorials that are important to redpandafinder
   var choice = Query.env.paging.seed;
-  if (choice % 3 == 0) {
+  if (choice % 7 == 0) {
+    var laila = Gallery.memorialPhotoCredits(L.display, ["60"], 3, Message.missing_you);
+    return laila;
+  } else if (choice % 3 == 0) {
     var hokuto = Gallery.memorialPhotoCredits(L.display, ["58"], 3, Message.missing_you);
     return hokuto;
   } else {
-    // Group memorial for Kin and Gin
+    // Group memorial for Kin and Gin, temporarily Hokuto
     var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
     return kingin;
   }

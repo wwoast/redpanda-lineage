@@ -4,6 +4,7 @@ birthday: 2014/7/7
 birthplace: 6
 children: none
 commitdate: 2018/6/22
+death: 2021/7/23
 en.name: Hiko
 en.nicknames: none
 en.othernames: none
@@ -125,6 +126,16 @@ photo.23.author: kojikoji2011
 photo.23.commitdate: 2021/7/8
 photo.23.link: https://www.instagram.com/kojikoji2011/
 photo.23.tags: bamboo, mofumofu, paws, portrait, smile, whiskers
+photo.24: ig://CRqoYHLhmeP/m
+photo.24.author: kmasahon
+photo.24.commitdate: 2021/7/23
+photo.24.link: https://www.instagram.com/kmasahon/
+photo.24.tags: mofumofu, peek
+photo.25: ig://CRq1q2LBaQB/m
+photo.25.author: kojikoji2011
+photo.25.commitdate: 2021/7/23
+photo.25.link: https://www.instagram.com/kojikoji2011/
+photo.25.tags: laying down, sleeping
 species: 2
 studbook.id: 14158
 zoo: 6

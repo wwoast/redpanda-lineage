@@ -183,9 +183,9 @@ photo.34.commitdate: 2020/3/9
 photo.34.link: https://www.instagram.com/apple_jasmine33/
 photo.34.tags: portrait, whiskers
 photo.35: ig://B8pWzL-hVuq/m
-photo.35.author: merumeru119
+photo.35.author: reikazumeru7172119
 photo.35.commitdate: 2020/5/5
-photo.35.link: https://www.instagram.com/merumeru119/
+photo.35.link: https://www.instagram.com/reikazumeru7172119/
 photo.35.tags: paws, whiskers
 photo.36: ig://B8sMiQuBK9b/m
 photo.36.author: minatomirai215
@@ -262,6 +262,16 @@ photo.50.author: leonard_redmof
 photo.50.commitdate: 2021/4/7
 photo.50.link: https://www.instagram.com/leonard_redmof/
 photo.50.tags: apple time, mofumofu, portrait, snow, tail
+photo.51: ig://CRhmbuhBCKx/m
+photo.51.author: sasapan34
+photo.51.commitdate: 2021/9/13
+photo.51.link: https://www.instagram.com/sasapan34/
+photo.51.tags: smile
+photo.52: ig://CR8sCsvn-7W/m
+photo.52.author: sasapan34
+photo.52.commitdate: 2021/8/18
+photo.52.link: https://www.instagram.com/sasapan34/
+photo.52.tags: whiskers
 species: 2
 studbook.id: 15134
 zoo: 37

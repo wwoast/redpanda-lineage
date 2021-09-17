@@ -4,6 +4,7 @@ birthday: 2002/6/26
 birthplace: 83
 children: none
 commitdate: 2018/11/23
+death: 2021/8/1
 en.name: Jiang
 en.nicknames: none
 en.othernames: none
@@ -28,7 +29,23 @@ photo.2: ig://CEjUGrxgs2z/m
 photo.2.author: rossifari
 photo.2.commitdate: 2020/9/15
 photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: portrait, profile
+photo.2.tags: portrait
+photo.3: ig://CKTmY2ALHMa/m
+photo.3.author: rossifari
+photo.3.commitdate: 2021/8/7
+photo.3.link: https://www.instagram.com/rossifari/
+photo.3.tags: apple time, paws, portrait, smile, whiskers
+photo.4: ig://CQmdnlegAbd/m
+photo.4.author: rossifari
+photo.4.commitdate: 2021/8/7
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: close-up, portrait, whiskers
+photo.5: ig://CSQriWJAvlY/m
+photo.5.author: rossifari
+photo.5.commitdate: 2021/8/7
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: close-up, lips, mofumofu, portrait, profile, whiskers
 species: 2
 studbook.id: 0220
+uncertainty: death exact date (~1wk)
 zoo: 43

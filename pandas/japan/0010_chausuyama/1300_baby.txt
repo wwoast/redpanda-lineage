@@ -1,0 +1,22 @@
+[panda]
+_id: 1300
+birthday: 2021/7/1
+birthplace: 10
+children: none
+commitdate: 2021/7/18
+en.name: Baby
+en.nicknames: none
+en.othernames: Aka-chan
+gender: f
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: jp, en
+litter: 1301
+photo.1: ig://CRV3J9cBdBy/m
+photo.1.author: chausuyamazoo
+photo.1.commitdate: 2021/7/18
+photo.1.link: https://www.instagram.com/chausuyamazoo/
+photo.1.tags: baby, bamboo, laying down, newborn, portrait, sleeping, tail
+species: 2
+zoo: 10

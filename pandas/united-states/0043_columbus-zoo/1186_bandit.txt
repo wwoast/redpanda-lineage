@@ -17,7 +17,7 @@ photo.1: ig://CHp51xbANds/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20
 photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: baby, portrait, profile
+photo.1.tags: baby, portrait
 photo.2: ig://CJ52cOurooF/m
 photo.2.author: rossifari
 photo.2.commitdate: 2021/6/13
@@ -48,5 +48,35 @@ photo.7.author: columbuszoo
 photo.7.commitdate: 2021/6/13
 photo.7.link: https://www.instagram.com/columbuszoo/
 photo.7.tags: nose, portrait, toys, whiskers
+photo.8: ig://CP0DzE_gOAd/m
+photo.8.author: rossifari
+photo.8.commitdate: 2021/7/22
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: paws, portrait, standing
+photo.9: ig://CQHCDKzNASX/m
+photo.9.author: columbuszoo
+photo.9.commitdate: 2021/9/6
+photo.9.link: https://www.instagram.com/columbuszoo/
+photo.9.tags: portrait, smile
+photo.10: ig://CQqJECZgh6M/m
+photo.10.author: rossifari
+photo.10.commitdate: 2021/7/19
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: close-up, mofumofu, whiskers
+photo.11: ig://CR2IT9dtufl/m
+photo.11.author: columbuszoo
+photo.11.commitdate: 2021/8/26
+photo.11.link: https://www.instagram.com/columbuszoo/
+photo.11.tags: portrait, smile, whiskers
+photo.12: ig://CSmnMEJlRrr/m
+photo.12.author: carsontheredpanda
+photo.12.commitdate: 2021/8/18
+photo.12.link: https://www.instagram.com/carsontheredpanda/
+photo.12.tags: paws, portrait, standing, tree
+photo.13: ig://CTCzqI8FNgR/m
+photo.13.author: carsontheredpanda
+photo.13.commitdate: 2021/9/1
+photo.13.link: https://www.instagram.com/carsontheredpanda/
+photo.13.tags: portrait, profile, smile, whiskers
 species: 2
 zoo: 43

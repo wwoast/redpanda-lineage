@@ -1,0 +1,18 @@
+[panda]
+_id: 1310
+birthday: 2021/6/22
+birthplace: 83
+children: none
+commitdate: 2021/9/1
+en.name: Paula
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ポーラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+species: 2
+studbook.id: unknown
+zoo: 83

@@ -40,15 +40,20 @@ photo.5.author: kisshan324
 photo.5.commitdate: 2020/2/29
 photo.5.link: https://www.instagram.com/kisshan324/
 photo.5.tags: paws, portrait, tongue, yawn
-photo.6: ig://B_YtV18hyhR/m
+photo.6: ig://B9S_PDbhmrV/m
 photo.6.author: ngsbiopark
-photo.6.commitdate: 2020/11/1
+photo.6.commitdate: 2021/8/14
 photo.6.link: https://www.instagram.com/ngsbiopark/
-photo.6.tags: close-up, laying down, paws
-photo.7: ig://CG1FR9aBy3V/m
+photo.6.tags: laying down, paws, portrait, tongue, yawn
+photo.7: ig://B_YtV18hyhR/m
 photo.7.author: ngsbiopark
 photo.7.commitdate: 2020/11/1
 photo.7.link: https://www.instagram.com/ngsbiopark/
+photo.7.tags: close-up, laying down, paws
+photo.8: ig://CG1FR9aBy3V/m
+photo.8.author: ngsbiopark
+photo.8.commitdate: 2020/11/1
+photo.8.link: https://www.instagram.com/ngsbiopark/
 species: 2
 studbook.id: 0686
 zoo: 3

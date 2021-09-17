@@ -1107,7 +1107,15 @@ Gallery.updatedPhotoOrdering = function(language, photo_count) {
     // Display updated photos for animals at this zoo first
     var zoo_panda_ids = Pandas.searchPandaZoo(zoo_photo.id).map(panda => panda["_id"]);
     var zoo_pandas = author_photos.concat(panda_photos).concat(update_photos)
-      .filter(panda => zoo_panda_ids.indexOf(panda.id) != -1);
+      .filter(panda => zoo_panda_ids.indexOf(panda.id) != -1)
+      .filter(function(panda) {
+        // If the commitdate of the animal isn't recent, it's not new and
+        // shouldn't be listed in the new zoo info, or with a heart panel
+        var currenttime = new Date();
+        var commitdate = Pandas.searchPandaId(panda.id)[0].commitdate;
+        var ms_per_week = 1000 * 60 * 60 * 24 * 7;
+        return (currenttime - commitdate > ms_per_week);
+      });
     zoo_pandas = Pandas.unique(zoo_pandas, "id");
     zoo_pandas = Pandas.sortPhotosByName(zoo_pandas, language + ".name");
     for (let zoo_panda of zoo_pandas) {

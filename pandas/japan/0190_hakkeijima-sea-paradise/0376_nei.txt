@@ -29,7 +29,7 @@ photo.3: ig://BsrGmF7ghST/m
 photo.3.author: resapanlove
 photo.3.commitdate: 2019/1/18
 photo.3.link: https://www.instagram.com/resapanlove/
-photo.3.tags: apple time, keeper, profile
+photo.3.tags: apple time, keeper
 photo.4: ig://Btisu0QlqGd/m
 photo.4.author: fetorus_mami
 photo.4.commitdate: 2019/10/16
@@ -214,7 +214,7 @@ photo.40: ig://CKulZ1WBr_n/m
 photo.40.author: miis_98
 photo.40.commitdate: 2021/2/15
 photo.40.link: https://www.instagram.com/miis_98/
-photo.40.tags: door, paws, portrait
+photo.40.tags: door, paws, portrait, profile
 photo.41: ig://CLLI4IRBrpV/m
 photo.41.author: minatomirai215
 photo.41.commitdate: 2021/2/15
@@ -250,6 +250,51 @@ photo.47.author: ssc6105
 photo.47.commitdate: 2021/7/14
 photo.47.link: https://www.instagram.com/ssc6105/
 photo.47.tags: apple time, paws, smile, standing, whiskers
+photo.48: ig://CRdsNoWhtuZ/m
+photo.48.author: minatomirai215
+photo.48.commitdate: 2021/8/2
+photo.48.link: https://www.instagram.com/minatomirai215/
+photo.48.tags: grooming, mofumofu, peek, portrait, whiskers
+photo.49: ig://CSCOId1BPxF/m
+photo.49.author: take_421
+photo.49.commitdate: 2021/9/6
+photo.49.link: https://www.instagram.com/take_421/
+photo.49.tags: door, paws, portrait, whiskers
+photo.50: ig://CSEcRfrHNe8/m
+photo.50.author: _saaaaaaah_
+photo.50.commitdate: 2021/9/6
+photo.50.link: https://www.instagram.com/_saaaaaaah_/
+photo.50.tags: paws
+photo.51: ig://CSTJnAXhNrD/m
+photo.51.author: pantasanzoo1
+photo.51.commitdate: 2021/8/14
+photo.51.link: https://www.instagram.com/pantasanzoo1/
+photo.51.tags: laying down, grooming, paws, tail
+photo.52: ig://CSbvCooBhGj/m
+photo.52.author: redpan22
+photo.52.commitdate: 2021/8/18
+photo.52.link: https://www.instagram.com/redpan22/
+photo.52.tags: bridge, laying down, peek
+photo.53: ig://CSeT8xzBsc8/m
+photo.53.author: pantasanzoo1
+photo.53.commitdate: 2021/8/18
+photo.53.link: https://www.instagram.com/pantasanzoo1/
+photo.53.tags: door, lips, mofumofu, paws, whiskers
+photo.54: ig://CS3ohqlB-fI/m
+photo.54.author: _saaaaaaah_
+photo.54.commitdate: 2021/8/24
+photo.54.link: https://www.instagram.com/_saaaaaaah_/
+photo.54.tags: peek
+photo.55: ig://CS6yTr3hDoi/m
+photo.55.author: minatomirai215
+photo.55.commitdate: 2021/8/24
+photo.55.link: https://www.instagram.com/minatomirai215/
+photo.55.tags: keeper, portrait, tail
+photo.56: ig://CTXTL-Chxnh/m
+photo.56.author: minatomirai215
+photo.56.commitdate: 2021/9/10
+photo.56.link: https://www.instagram.com/minatomirai215/
+photo.56.tags: apple time, portrait, standing
 species: 2
 studbook.id: unknown
 zoo: 190

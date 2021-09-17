@@ -103,15 +103,20 @@ photo.18.author: grskus_tk
 photo.18.commitdate: 2020/9/4
 photo.18.link: https://www.instagram.com/grskus_tk/
 photo.18.tags: smile, tail
-photo.19: ig://CNoRwlXh85K/m
-photo.19.author: makimaru18
-photo.19.commitdate: 2021/4/20
-photo.19.link: https://www.instagram.com/makimaru18/
-photo.19.tags: portrait, profile, smile, whiskers
-photo.20: ig://COfOs0kha5I/m
-photo.20.author: daniele.tokyo
-photo.20.commitdate: 2021/6/19
-photo.20.link: https://www.instagram.com/daniele.tokyo/
-photo.20.tags: baby, mofumofu, portrait, tail
+photo.19: ig://CGqfw2Qg1QH/m
+photo.19.author: s24.star_load
+photo.19.commitdate: 2021/8/14
+photo.19.link: https://www.instagram.com/s24.star_load/
+photo.19.tags: baby, mofumofu, smile
+photo.20: ig://CNoRwlXh85K/m
+photo.20.author: makimaru18
+photo.20.commitdate: 2021/4/20
+photo.20.link: https://www.instagram.com/makimaru18/
+photo.20.tags: portrait, profile, smile, whiskers
+photo.21: ig://COfOs0kha5I/m
+photo.21.author: daniele.tokyo
+photo.21.commitdate: 2021/6/19
+photo.21.link: https://www.instagram.com/daniele.tokyo/
+photo.21.tags: baby, mofumofu, portrait, tail
 species: 2
 zoo: 40

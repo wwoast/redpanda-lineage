@@ -1,0 +1,16 @@
+[zoo]
+_id: 295
+commitdate: 2021/8/27
+en.address: Veszprém, Veszprémvölgyi u., 8200 Hungary
+en.location: Veszprem, Hungary
+en.name: Veszprém Zoo
+en.othernames: Kittenberger Kálmán Zoo and Botanical Garden
+flag: Hungary
+hu.address: Veszprém, Veszprémvölgyi u., 8200 Hungary
+hu.location: Veszprém, Hungary
+hu.name: Veszprémi Állatkert
+language.order: hu, en
+latitude: 47.0898768
+longitude: 17.8897791
+map: https://www.google.com/maps/search/veszprem+zoo/@47.0898768,17.8897791,16z
+website: https://www.veszpzoo.hu/
