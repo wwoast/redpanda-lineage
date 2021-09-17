@@ -1,0 +1,26 @@
+[panda]
+_id: 1315
+birthday: 2021/7/3
+birthplace: 265
+children: none
+commitdate: 2021/09/17
+en.name: Boniface
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Bonifác
+hu.nicknames: none
+hu.othernames: none
+jp.name: ボニフェイス
+jp.nicknames: none
+jp.othernames: none
+language.order: hu, en, jp
+litter: none
+photo.1: ig://CSMQvwIqVsQ/m
+photo.1.author: zoobudapest
+photo.1.commitdate: 2021/9/17
+photo.1.link: https://www.instagram.com/zoobudapest/
+photo.1.tags: close-up, eye, muzzle, nose, paws
+species: 1
+uncertainty: exact date of birth
+zoo: 265

@@ -1,12 +1,12 @@
 [panda]
 _id: 1234
-birthday: 2012/6/22
-birthplace: unknown
-children: 1299, 1238, 1235
+birthday: 2010/6/22
+birthplace: 271
+children: 1299, 1238, 1235, 1316, 1317
 commitdate: 2020/11/24
 en.name: Lea
 en.nicknames: none
-en.othernames: none
+en.othernames: Lily
 gender: f
 hu.name: Lea
 hu.nicknames: none
@@ -16,8 +16,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: hu, en
 litter: unknown
-location.1: 266, 2012/6/22
-location.2: 220, 2014/6/6
+location.1: 271, 2010/6/22
+location.2: 266, 2011/5/27
+location.3: 220, 2014/6/6
 photo.1: ig://BuMvFoqAV5E/m
 photo.1.author: brigittabartakovics
 photo.1.commitdate: 2020/11/24
@@ -39,4 +40,5 @@ photo.4.commitdate: 2021/7/14
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: portrait, profile, whiskers
 species: 1
+studbook.id: 1047
 zoo: 220

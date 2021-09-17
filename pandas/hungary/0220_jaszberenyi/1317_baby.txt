@@ -1,0 +1,30 @@
+[panda]
+_id: 1317
+birthday: 2021/7/2
+birthplace: 220
+children: none
+commitdate: 2021/9/17
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+hu.name: Kölyök
+hu.nicknames: none
+hu.othernames: none
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, hu, jp
+litter: 1316
+photo.1: ig://CRquZEzhFf8/m
+photo.1.author: balathruin
+photo.1.commitdate: 2021/9/17
+photo.1.link: https://www.instagram.com/balathruin/
+photo.1.tags: siblings, home, ear, sleeping
+photo.2: ig://CSeNvMuMT-m/m
+photo.2.author: balathruin
+photo.2.commitdate: 2021/9/17
+photo.2.link: https://www.instagram.com/balathruin/
+photo.2.tags: siblings, home, ear, eye
+species: 1
+zoo: 220

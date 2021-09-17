@@ -1,0 +1,15 @@
+[zoo]
+_id: 286
+commitdate: 2021/9/17
+de.address: Adenauerallee 1, 30175 Hannover, Deutschland
+de.location: Hannover, Deutschland
+de.name: Erlebnis Zoo Hannover
+en.address: Adenauerallee 3, 30175 Hannover, Germany
+en.location: Hannover, Germany
+en.name: Hanover Adventure Zoo
+flag: Germany
+language.order: de, en
+latitude: 52.3817392
+longitude: 9.7669346
+map: https://goo.gl/maps/byxH1R4wsmukCRVPA
+website: https://www.zoo-hannover.de/

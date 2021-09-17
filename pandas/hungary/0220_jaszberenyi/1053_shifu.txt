@@ -2,26 +2,26 @@
 _id: 1053
 birthday: 2016/6/22
 birthplace: 219
-children: 1299, 1238, 1235
+children: 1299, 1238, 1235, 1316, 1317
 cn.name: 師父
 cn.nicknames: none
 cn.oldnames: 月
 cn.othernames: none
 commitdate: 2019/11/13
-en.name: Shifu
+en.name: Sifu
 en.nicknames: none
 en.oldnames: Tsuki
 en.othernames: none
 gender: m
-hu.name: Shifu
+hu.name: Sifu
 hu.nicknames: none
 hu.oldnames: Tsuki
-hu.othernames: Sifu
+hu.othernames: none
 jp.name: 師父
 jp.nicknames: none
 jp.oldnames: つき
 jp.othernames: しふ
-language.order: en, jp
+language.order: en, hu, jp
 litter: 1052
 location.1: 219, 2016/6/22
 location.2: 221, 2017/1/29
