@@ -1701,31 +1701,30 @@ photo.339.author: ayusuke56
 photo.339.commitdate: 2021/6/16
 photo.339.link: https://www.instagram.com/ayusuke56/
 photo.339.tags: portrait, smile
-photo.340: ig://CPxfoDshGGa/m
+photo.340: ig://CPjRyPrBOMn/m
 photo.340.author: hamamatsu.chiita
-photo.340.commitdate: 2021/7/22
 photo.340.link: https://www.instagram.com/hamamatsu.chiita/
-photo.340.tags: close-up, portrait, whiskers
-photo.341: ig://CP0GapSBplz/m
-photo.341.author: ssc6105
+photo.340.tags: laying down, portrait
+photo.341: ig://CPxfoDshGGa/m
+photo.341.author: hamamatsu.chiita
 photo.341.commitdate: 2021/7/22
-photo.341.link: https://www.instagram.com/ssc6105/
-photo.341.tags: climb, peek, tail, whiskers
-photo.342: ig://CP0q-7TBp6i/m
-photo.342.author: minatomirai215
+photo.341.link: https://www.instagram.com/hamamatsu.chiita/
+photo.341.tags: close-up, portrait, whiskers
+photo.342: ig://CP0GapSBplz/m
+photo.342.author: ssc6105
 photo.342.commitdate: 2021/7/22
-photo.342.link: https://www.instagram.com/minatomirai215/
-photo.342.tags: paws, portrait, smile, whiskers
-photo.343: ig://CRPacAnB8vZ/m
-photo.343.author: hamamatsu.chiita
-photo.343.commitdate: 2021/7/13
-photo.343.link: https://www.instagram.com/hamamatsu.chiita/
-photo.343.tags: portrait, whiskers
-photo.344.tags: paws, peek, portrait, snow
-photo.345: https://www.instagram.com/p/CPjRyPrBOMn/media/?size=m
-photo.345.author: hamamatsu.chiita
-photo.345.link: https://www.instagram.com/hamamatsu.chiita/
-photo.345.tags: laying down, portrait
+photo.342.link: https://www.instagram.com/ssc6105/
+photo.342.tags: climb, peek, tail, whiskers
+photo.343: ig://CP0q-7TBp6i/m
+photo.343.author: minatomirai215
+photo.343.commitdate: 2021/7/22
+photo.343.link: https://www.instagram.com/minatomirai215/
+photo.343.tags: paws, portrait, smile, whiskers
+photo.344: ig://CRPacAnB8vZ/m
+photo.344.author: hamamatsu.chiita
+photo.344.commitdate: 2021/7/13
+photo.344.link: https://www.instagram.com/hamamatsu.chiita/
+photo.344.tags: portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

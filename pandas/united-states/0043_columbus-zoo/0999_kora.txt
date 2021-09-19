@@ -115,64 +115,70 @@ photo.20.author: rossifari
 photo.20.commitdate: 2020/10/11
 photo.20.link: https://www.instagram.com/rossifari/
 photo.20.tags: portrait, smile, whiskers
-photo.21: ig://CLFRjWdnqN-/m
-photo.21.author: columbuszoo
-photo.21.commitdate: 2021/2/16
-photo.21.link: https://www.instagram.com/columbuszoo/
-photo.21.tags: apple time, paws, snow, standing
-photo.22: ig://CLl_2xdATFC/m
-photo.22.author: rossifari
-photo.22.commitdate: 2021/3/21
-photo.22.link: https://www.instagram.com/rossifari/
-photo.22.tags: climb, portrait
-photo.23: ig://CMKC--9LiXk/m
-photo.23.author: rossifari
-photo.23.commitdate: 2021/3/28
-photo.23.link: https://www.instagram.com/rossifari/
-photo.23.tags: air tasting, portrait, tongue, whiskers
-photo.24: ig://CMb9qBirUqr/m
-photo.24.author: rossifari
-photo.24.commitdate: 2021/6/13
-photo.24.link: https://www.instagram.com/rossifari/
-photo.24.tags: lips, peek, portrait, smile, tail, techitechi, whiskers
-photo.25: ig://CSprlgjN_JH/m
-photo.25.author: columbuszoo
-photo.25.commitdate: 2021/9/8
-photo.25.link: https://www.instagram.com/columbuszoo/
-photo.25.tags: smile
-photo.26: ig://CTHzDgUrYuP/m
-photo.26.author: rossifari
-photo.26.commitdate: 2021/9/8
-photo.26.link: https://www.instagram.com/rossifari/
-photo.26.tags: whiskers
-photo.27: ig://CTPzb0eJrzc/m
-photo.27.author: carsontheredpanda
-photo.27.commitdate: 2021/9/8
-photo.27.link: https://www.instagram.com/carsontheredpanda/
-photo.27.tags: smile, whiskers
-photo.28: https://www.instagram.com/p/CKHnzt4A16S/media/?size=m
-photo.28.author: lipscer
-photo.28.link: https://www.instagram.com/lipscer/
-photo.28.tags: peek, whiskers
-photo.29: https://www.instagram.com/p/CJyhOCrAYY6/media/?size=m
-photo.29.author: lipscer
-photo.29.link: https://www.instagram.com/lipscer/
-photo.29.tags: portrait, whiskers
-photo.30: https://www.instagram.com/p/CH7-9GhATL0/media/?size=m
-photo.30.author: lipscer
-photo.30.link: https://www.instagram.com/lipscer/
-photo.30.tags: bamboo, portrait
-photo.31: https://www.instagram.com/p/CHstTdDgzhs/media/?size=m
-photo.31.author: lipscer
-photo.31.link: https://www.instagram.com/lipscer/
-photo.31.tags: mofumofu, paws, tail, tree
-photo.32: https://www.instagram.com/p/CHrbvwpA_m2/media/?size=m
-photo.32.author: lipscer
-photo.32.link: https://www.instagram.com/lipscer/
-photo.32.tags: portrait, tree, whiskers
-photo.33: https://www.instagram.com/p/CKHLdeKg3Jh/media/?size=m
-photo.33.author: lipscer
-photo.33.link: https://www.instagram.com/lipscer/
-photo.33.tags: laying down
+photo.21: ig://CHrbvwpA_m2/m
+photo.21.author: lipscer
+photo.21.commitdate: 2021/9/18
+photo.21.link: https://www.instagram.com/lipscer/
+photo.21.tags: portrait, tree, whiskers
+photo.22: ig://CHstTdDgzhs/m
+photo.22.author: lipscer
+photo.22.commitdate: 2021/9/18
+photo.22.link: https://www.instagram.com/lipscer/
+photo.22.tags: mofumofu, paws, tail, tree
+photo.23: ig://CH7-9GhATL0/m
+photo.23.author: lipscer
+photo.23.commitdate: 2021/9/18
+photo.23.link: https://www.instagram.com/lipscer/
+photo.23.tags: bamboo, portrait
+photo.24: ig://CJyhOCrAYY6/m
+photo.24.author: lipscer
+photo.24.commitdate: 2021/9/18
+photo.24.link: https://www.instagram.com/lipscer/
+photo.24.tags: portrait, whiskers
+photo.25: ig://CKHLdeKg3Jh/m
+photo.25.author: lipscer
+photo.25.commitdate: 2021/9/18
+photo.25.link: https://www.instagram.com/lipscer/
+photo.25.tags: laying down
+photo.26: ig://CKHnzt4A16S/m
+photo.26.author: lipscer
+photo.26.commitdate: 2021/9/18
+photo.26.link: https://www.instagram.com/lipscer/
+photo.26.tags: peek, whiskers
+photo.27: ig://CLFRjWdnqN-/m
+photo.27.author: columbuszoo
+photo.27.commitdate: 2021/2/16
+photo.27.link: https://www.instagram.com/columbuszoo/
+photo.27.tags: apple time, paws, snow, standing
+photo.28: ig://CLl_2xdATFC/m
+photo.28.author: rossifari
+photo.28.commitdate: 2021/3/21
+photo.28.link: https://www.instagram.com/rossifari/
+photo.28.tags: climb, portrait
+photo.29: ig://CMKC--9LiXk/m
+photo.29.author: rossifari
+photo.29.commitdate: 2021/3/28
+photo.29.link: https://www.instagram.com/rossifari/
+photo.29.tags: air tasting, portrait, tongue, whiskers
+photo.30: ig://CMb9qBirUqr/m
+photo.30.author: rossifari
+photo.30.commitdate: 2021/6/13
+photo.30.link: https://www.instagram.com/rossifari/
+photo.30.tags: lips, peek, portrait, smile, tail, techitechi, whiskers
+photo.31: ig://CSprlgjN_JH/m
+photo.31.author: columbuszoo
+photo.31.commitdate: 2021/9/8
+photo.31.link: https://www.instagram.com/columbuszoo/
+photo.31.tags: smile
+photo.32: ig://CTHzDgUrYuP/m
+photo.32.author: rossifari
+photo.32.commitdate: 2021/9/8
+photo.32.link: https://www.instagram.com/rossifari/
+photo.32.tags: whiskers
+photo.33: ig://CTPzb0eJrzc/m
+photo.33.author: carsontheredpanda
+photo.33.commitdate: 2021/9/8
+photo.33.link: https://www.instagram.com/carsontheredpanda/
+photo.33.tags: smile, whiskers
 species: 2
 zoo: 43

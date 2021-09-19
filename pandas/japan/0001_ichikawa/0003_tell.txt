@@ -597,8 +597,9 @@ photo.117.author: craig_craig_craig
 photo.117.commitdate: 2021/9/10
 photo.117.link: https://www.instagram.com/craig_craig_craig/
 photo.117.tags: keeper, portrait, scale, videolink
-photo.118: https://www.instagram.com/p/CTtyknPBfnh/media/?size=m
+photo.118: ig://CTtyknPBfnh/m
 photo.118.author: craig_craig_craig
+photo.118.commitdate: 2021/9/18
 photo.118.link: https://www.instagram.com/craig_craig_craig/
 photo.118.tags: paws, portrait, standing, tail
 species: 2

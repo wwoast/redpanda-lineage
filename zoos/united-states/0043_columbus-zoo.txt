@@ -13,11 +13,13 @@ photo.1: ig://BqkNLkSHHZI/m
 photo.1.author: believeinthemagictraci
 photo.1.commitdate: 2019/4/30
 photo.1.link: https://www.instagram.com/believeinthemagictraci/
-photo.2: https://www.instagram.com/p/CSFr7DfNLvP/media/?size=m
+photo.2: ig://CRd1Er4NAAN/m
 photo.2.author: columbuszoo
+photo.2.commitdate: 2021/9/18
 photo.2.link: https://www.instagram.com/columbuszoo/
-photo.3: https://www.instagram.com/p/CRd1Er4NAAN/media/?size=m
+photo.2.tags: profile
+photo.3: ig://CSFr7DfNLvP/m
 photo.3.author: columbuszoo
+photo.3.commitdate: 2021/9/18
 photo.3.link: https://www.instagram.com/columbuszoo/
-photo.3.tags: profile
 website: https://www.columbuszoo.org/

@@ -237,25 +237,26 @@ photo.45.author: mifko55
 photo.45.commitdate: 2020/10/13
 photo.45.link: https://www.instagram.com/mifko55/
 photo.45.tags: bridge, laying down, mofumofu, portrait, tail, whiskers
-photo.46: ig://CO2izY1hMGT/m
-photo.46.author: kotata_513
-photo.46.commitdate: 2021/7/14
-photo.46.link: https://www.instagram.com/kotata_513/
-photo.46.tags: smile, whiskers
-photo.47: ig://CQviZTZBM1y/m
-photo.47.author: nishicotolo
-photo.47.commitdate: 2021/9/1
-photo.47.link: https://www.instagram.com/nishicotolo/
-photo.47.tags: smile
-photo.48: ig://CTY4LUwhRTn/m
-photo.48.author: nakacchi_desu
-photo.48.commitdate: 2021/9/10
-photo.48.link: https://www.instagram.com/nakacchi_desu/
-photo.48.tags: bite, climb, paws, playing, tail
-photo.49: https://www.instagram.com/p/CLeLkwPh1My/media/?size=m
-photo.49.author: nishicotolo
-photo.49.link: https://www.instagram.com/nishicotolo/
-photo.49.tags: ear, snow
+photo.46: ig://CLeLkwPh1My/m
+photo.46.author: nishicotolo
+photo.46.commitdate: 2021/9/18
+photo.46.link: https://www.instagram.com/nishicotolo/
+photo.46.tags: ear, snow
+photo.47: ig://CO2izY1hMGT/m
+photo.47.author: kotata_513
+photo.47.commitdate: 2021/7/14
+photo.47.link: https://www.instagram.com/kotata_513/
+photo.47.tags: smile, whiskers
+photo.48: ig://CQviZTZBM1y/m
+photo.48.author: nishicotolo
+photo.48.commitdate: 2021/9/1
+photo.48.link: https://www.instagram.com/nishicotolo/
+photo.48.tags: smile
+photo.49: ig://CTY4LUwhRTn/m
+photo.49.author: nakacchi_desu
+photo.49.commitdate: 2021/9/10
+photo.49.link: https://www.instagram.com/nakacchi_desu/
+photo.49.tags: bite, climb, paws, playing, tail
 species: 2
 studbook.id: unknown
 zoo: 37

@@ -455,14 +455,16 @@ photo.88.author: pink.b22
 photo.88.commitdate: 2021/9/10
 photo.88.link: https://www.instagram.com/pink.b22/
 photo.88.tags: home, portrait
-photo.89: https://www.instagram.com/p/CT8LiEQBd5s/media/?size=m
-photo.89.author: pink.b22
-photo.89.link: https://www.instagram.com/pink.b22/
-photo.89.tags: blink, home, paws, portrait
-photo.90: https://www.instagram.com/p/CTmslIfhIOR/media/?size=m
-photo.90.author: na.mo.pan
-photo.90.link: https://www.instagram.com/na.mo.pan/
-photo.90.tags: old, peek
+photo.89: ig://CTmslIfhIOR/m
+photo.89.author: na.mo.pan
+photo.89.commitdate: 2021/9/18
+photo.89.link: https://www.instagram.com/na.mo.pan/
+photo.89.tags: old, peek
+photo.90: ig://CT8LiEQBd5s/m
+photo.90.author: pink.b22
+photo.90.commitdate: 2021/9/18
+photo.90.link: https://www.instagram.com/pink.b22/
+photo.90.tags: blink, home, paws, portrait
 species: 2
 studbook.id: 00102
 zoo: 73

@@ -286,14 +286,16 @@ photo.55.author: daniele.tokyo
 photo.55.commitdate: 2021/7/9
 photo.55.link: https://www.instagram.com/daniele.tokyo/
 photo.55.tags: blink, smile, tail
-photo.56: https://www.instagram.com/p/CT4azHRBEYN/media/?size=m
+photo.56: ig://CTjuZp2hkmP/m
 photo.56.author: ifumoto88
+photo.56.commitdate: 2021/9/18
 photo.56.link: https://www.instagram.com/ifumoto88/
-photo.56.tags: apple time, paws, portrait
-photo.57: https://www.instagram.com/p/CTjuZp2hkmP/media/?size=m
+photo.56.tags: patrol, portrait
+photo.57: ig://CT4azHRBEYN/m
 photo.57.author: ifumoto88
+photo.57.commitdate: 2021/9/18
 photo.57.link: https://www.instagram.com/ifumoto88/
-photo.57.tags: patrol, portrait
+photo.57.tags: apple time, paws, portrait
 species: 2
 studbook.id: 0980
 zoo: 1

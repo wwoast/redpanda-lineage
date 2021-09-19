@@ -468,14 +468,16 @@ photo.91.author: wumpwoast
 photo.91.commitdate: 2021/9/7
 photo.91.link: https://www.instagram.com/wumpwoast/
 photo.91.tags: bamboo, baby, mofumofu, paws, portrait
-photo.92: https://www.instagram.com/p/CT0NH5QhIyH/media/?size=m
+photo.92: ig://CTjmfcohIgA/m
 photo.92.author: ssc6105
+photo.92.commitdate: 2021/9/18
 photo.92.link: https://www.instagram.com/ssc6105/
-photo.92.tags: smile, whiskers
-photo.93: https://www.instagram.com/p/CTjmfcohIgA/media/?size=m
+photo.92.tags: peek, tail, tree
+photo.93: ig://CT0NH5QhIyH/m
 photo.93.author: ssc6105
+photo.93.commitdate: 2021/9/18
 photo.93.link: https://www.instagram.com/ssc6105/
-photo.93.tags: peek, tail, tree
+photo.93.tags: smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 9

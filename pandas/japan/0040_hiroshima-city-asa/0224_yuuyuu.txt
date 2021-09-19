@@ -96,8 +96,9 @@ photo.17.author: grskus_tk
 photo.17.commitdate: 2020/9/4
 photo.17.link: https://www.instagram.com/grskus_tk/
 photo.17.tags: tail
-photo.18: https://www.instagram.com/p/CMBUcVHhZrg/media/?size=m
+photo.18: ig://CMBUcVHhZrg/m
 photo.18.author: grskus_tk
+photo.18.commitdate: 2021/9/18
 photo.18.link: https://www.instagram.com/grskus_tk/
 photo.18.tags: peek
 species: 2

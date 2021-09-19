@@ -55,20 +55,21 @@ photo.8.author: oregonzoo
 photo.8.commitdate: 2021/6/23
 photo.8.link: https://www.instagram.com/oregonzoo/
 photo.8.tags: close-up, portrait, whiskers
-photo.9: ig://CR9fLpqLy3Z/m
+photo.9: ig://CPZL6hKN3Ds/m
 photo.9.author: oregonzoo
-photo.9.commitdate: 2021/8/18
-photo.9.link: https://www.instagram.com/oregonzoo/
-photo.9.tags: close-up, lips, portrait, whiskers
-photo.10: ig://CTSO-W0r-qU/m
+photo.9.commitdate: 2021/9/18
+photo.9.link: https://www.instagram.com/accounts/activity/
+photo.9.tags: close-up, portrait, whiskers
+photo.10: ig://CR9fLpqLy3Z/m
 photo.10.author: oregonzoo
-photo.10.commitdate: 2021/9/10
+photo.10.commitdate: 2021/8/18
 photo.10.link: https://www.instagram.com/oregonzoo/
-photo.10.tags: bamboo, portrait
-photo.11: https://www.instagram.com/p/CPZL6hKN3Ds/media/?size=m
+photo.10.tags: close-up, lips, portrait, whiskers
+photo.11: ig://CTSO-W0r-qU/m
 photo.11.author: oregonzoo
-photo.11.link: https://www.instagram.com/accounts/activity/
-photo.11.tags: close-up, portrait, whiskers
+photo.11.commitdate: 2021/9/10
+photo.11.link: https://www.instagram.com/oregonzoo/
+photo.11.tags: bamboo, portrait
 species: 2
 studbook.id: 1115
 zoo: 191

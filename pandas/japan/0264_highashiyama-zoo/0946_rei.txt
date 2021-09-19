@@ -210,13 +210,15 @@ photo.39.author: hamamatsu.chiita
 photo.39.commitdate: 2021/9/7
 photo.39.link: https://www.instagram.com/hamamatsu.chiita/
 photo.39.tags: portrait, smile, whiskers
-photo.40: https://www.instagram.com/p/CTvBM6gBtKV/media/?size=m
+photo.40: ig://CTtwJO2B5Gn/m
 photo.40.author: hamamatsu.chiita
+photo.40.commitdate: 2021/9/18
 photo.40.link: https://www.instagram.com/hamamatsu.chiita/
-photo.40.tags: portrait, whiskers
-photo.41: https://www.instagram.com/p/CTtwJO2B5Gn/media/?size=m
+photo.40.tags: portrait
+photo.41: ig://CTvBM6gBtKV/m
 photo.41.author: hamamatsu.chiita
+photo.41.commitdate: 2021/9/18
 photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: portrait
+photo.41.tags: portrait, whiskers
 species: 2
 zoo: 264

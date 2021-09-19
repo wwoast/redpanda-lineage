@@ -513,8 +513,9 @@ photo.100.author: hamamatsu.chiita
 photo.100.commitdate: 2021/8/18
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
 photo.100.tags: laying down, portrait, whiskers
-photo.101: https://www.instagram.com/p/CTnRYB5hPxI/media/?size=m
+photo.101: ig://CTnRYB5hPxI/m
 photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2021/9/18
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
 photo.101.tags: portrait, whiskers, white face
 species: 2

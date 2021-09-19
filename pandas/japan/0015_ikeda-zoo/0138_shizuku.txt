@@ -231,8 +231,9 @@ photo.44.author: itsuak
 photo.44.commitdate: 2021/6/29
 photo.44.link: https://www.instagram.com/itsuak/
 photo.44.tags: door, portrait
-photo.45: https://www.instagram.com/p/CTmaJqhvRCv/media/?size=m
+photo.45: ig://CTmaJqhvRCv/m
 photo.45.author: itsuak
+photo.45.commitdate: 2021/9/18
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: laying down, portrait, sleeping
 species: 2
