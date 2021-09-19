@@ -51,6 +51,14 @@ photo.7.author: columbuszoo
 photo.7.commitdate: 2021/6/13
 photo.7.link: https://www.instagram.com/columbuszoo/
 photo.7.tags: close-up, portrait, snow, window
+photo.8: https://www.instagram.com/p/CJRTgPuAIpS/media/?size=m
+photo.8.author: lipscer
+photo.8.link: https://www.instagram.com/lipscer/
+photo.8.tags: whiskers
+photo.9: https://www.instagram.com/p/CJJTizaA9Vo/media/?size=m
+photo.9.author: lipscer
+photo.9.link: https://www.instagram.com/lipscer/
+photo.9.tags: tail
 species: 2
 studbook.id: 1338
 zoo: 44

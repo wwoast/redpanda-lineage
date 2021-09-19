@@ -13,7 +13,6 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 52
-phoot.82: https://www.instagram.com/p/CGurcrcBvMx/media/?size=m
 photo.1: ig://BaQtumtl045/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/12
@@ -437,6 +436,18 @@ photo.85.author: minato.yokohama4416
 photo.85.commitdate: 2021/9/1
 photo.85.link: https://www.instagram.com/minato.yokohama4416/
 photo.85.tags: mofumofu, peek, portrait, tail
+photo.86: https://www.instagram.com/p/CGurcrcBvMx/media/?size=m
+photo.86.author: redpanda_nippon_takashi
+photo.86.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.86.tags: paws, standing, tail, wet
+photo.87: https://www.instagram.com/p/CPd23voBltV/media/?size=m
+photo.87.author: minato.yokohama4416
+photo.87.link: https://www.instagram.com/minato.yokohama4416/
+photo.87.tags: bamboo, paws, portrait, shoots
+photo.88: https://www.instagram.com/p/CLeUMnJB9dX/media/?size=m
+photo.88.author: minato.yokohama4416
+photo.88.link: https://www.instagram.com/minato.yokohama4416/
+photo.88.tags: close-up, laying down, portrait, whiskers
 species: 2
 studbook.id: 15132
 zoo: 13
