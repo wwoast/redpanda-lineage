@@ -1,20 +1,20 @@
 [panda]
-_id: 1313
+_id: 1312
 birthday: 2021/7/22
 birthplace: 219
 children: none
 commitdate: 2021/9/1
-en.name: Baby
+en.name: Mohan
 en.nicknames: none
 en.othernames: none
-fr.name: Bébé
+fr.name: Mohan
 fr.nicknames: none
 fr.othernames: none
-gender: unknown
-jp.name: 赤ちゃん
+gender: m
+jp.name: モハン
 jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
-litter: 1312
+litter: 1313
 species: 1
 zoo: 219
