@@ -503,12 +503,14 @@ photo.98.author: hamamatsu.chiita
 photo.98.commitdate: 2021/8/24
 photo.98.link: https://www.instagram.com/hamamatsu.chiita/
 photo.98.tags: close-up, portrait, profile, whiskers
-photo.99: https://www.instagram.com/p/CTQKzyvBBJk/media/?size=m
+photo.99: ig://CTQKzyvBBJk/m
 photo.99.author: hamamatsu.chiita
+photo.99.commitdate: 2021/9/22
 photo.99.link: https://www.instagram.com/hamamatsu.chiita/
 photo.99.tags: smile, whiskers
-photo.100: https://www.instagram.com/p/CTVQigMh3j2/media/?size=m
+photo.100: ig://CTVQigMh3j2/m
 photo.100.author: hamamatsu.chiita
+photo.100.commitdate: 2021/9/22
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
 photo.100.tags: mofumofu, portrait, whiskers
 species: 2

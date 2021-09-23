@@ -534,8 +534,9 @@ photo.104.author: mifko55
 photo.104.commitdate: 2021/9/13
 photo.104.link: https://www.instagram.com/mifko55/
 photo.104.tags: bamboo, portrait, tail
-photo.105: https://www.instagram.com/p/CTpFCkshBfp/media/?size=m
+photo.105: ig://CTpFCkshBfp/m
 photo.105.author: redpan22
+photo.105.commitdate: 2021/9/22
 photo.105.link: https://www.instagram.com/redpan22/
 photo.105.tags: smile, tongue, whiskers
 species: 2
