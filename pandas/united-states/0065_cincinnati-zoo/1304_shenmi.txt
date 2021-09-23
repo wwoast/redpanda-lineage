@@ -4,14 +4,17 @@ birthday: 2021/7/16
 birthplace: 65
 children: none
 commitdate: 2021/8/9
-en.name: Baby
+cn.name: 神迷
+cn.nicknames: none
+cn.othernames: 咪咪
+en.name: Shenmi
 en.nicknames: none
-en.othernames: Aka-chan
+en.othernames: Mimi, Shen-Mi, Miimii, Mii-Mii
 gender: unknown
-jp.name: 赤ちゃん
+jp.name: シェンミ
 jp.nicknames: none
-jp.othernames: none
-language.order: en, jp
+jp.othernames: ミーミー
+language.order: cn, en, jp
 litter: none
 photo.1: ig://CSMLTIDtFgf/m
 photo.1.author: cincinnatizoo
