@@ -6,15 +6,18 @@ children: 1299, 1238, 1235, 1316, 1317
 commitdate: 2020/11/24
 en.name: Lea
 en.nicknames: none
-en.othernames: Lily
+en.oldnames: Lily
+en.othernames: none
 gender: f
 hu.name: Lea
 hu.nicknames: none
+hu.oldnames: Lili
 hu.othernames: none
 jp.name: レア
 jp.nicknames: none
+jp.oldnames: リリー
 jp.othernames: none
-language.order: hu, en
+language.order: hu, en, jp
 litter: unknown
 location.1: 271, 2010/6/22
 location.2: 266, 2011/5/27
@@ -39,6 +42,21 @@ photo.4.author: balathruin
 photo.4.commitdate: 2021/7/14
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: portrait, profile, whiskers
+photo.5: ig://CRBUHEuB547/m
+photo.5.author: balathruin
+photo.5.commitdate: 2021/9/23
+photo.5.link: https://www.instagram.com/balathruin/
+photo.5.tags: ear, nose, eye, muzzle, smile, tail
+photo.6: ig://CR6XTvbhmXy/m
+photo.6.author: balathruin
+photo.6.commitdate: 2021/9/23
+photo.6.link: https://www.instagram.com/balathruin/
+photo.6.tags: ear, nose, eye, muzzle, smile
+photo.7: ig://CSndAg4CdRP/m
+photo.7.author: balathruin
+photo.7.commitdate: 2021/9/23
+photo.7.link: https://www.instagram.com/balathruin/
+photo.7.tags: ear, nose, eye, muzzle, paw
 species: 1
 studbook.id: 1047
 zoo: 220

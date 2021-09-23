@@ -4,18 +4,21 @@ birthday: 2021/7/2
 birthplace: 220
 children: none
 commitdate: 2021/9/17
-en.name: Baby
+en.name: Sānō Āgō
 en.nicknames: none
 en.othernames: none
-gender: unknown
-hu.name: Kölyök
+gender: m
+hu.name: Kicsi Tűz
 hu.nicknames: none
 hu.othernames: none
-jp.name: 赤ちゃん
+jp.name: 小さな火
 jp.nicknames: none
 jp.othernames: none
-language.order: en, hu, jp
+language.order: en, hu, np, jp
 litter: 1316
+np.name: सानो आगो
+np.nicknames: none
+np.othernames: none
 photo.1: ig://CRquZEzhFf8/m
 photo.1.author: balathruin
 photo.1.commitdate: 2021/9/17
@@ -26,5 +29,15 @@ photo.2.author: balathruin
 photo.2.commitdate: 2021/9/17
 photo.2.link: https://www.instagram.com/balathruin/
 photo.2.tags: siblings, home, ear, eye
+photo.3: ig://CUFdMbBMF7l/m
+photo.3.author: balathruin
+photo.3.commitdate: 2021/9/23
+photo.3.link: https://www.instagram.com/balathruin/
+photo.3.tags: brothers, keeper, ear, eye, nose, muzzle, paw, tail
+photo.4: ig://CUGlG4Do8H2/m
+photo.4.author: balathruin
+photo.4.commitdate: 2021/9/23
+photo.4.link: https://www.instagram.com/balathruin/
+photo.4.tags: ear, eye, nose, muzzle
 species: 1
 zoo: 220

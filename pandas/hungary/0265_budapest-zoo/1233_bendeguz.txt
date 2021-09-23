@@ -14,7 +14,7 @@ hu.othernames: none
 jp.name: ベンデグス
 jp.nicknames: none
 jp.othernames: none
-language.order: hu, en
+language.order: hu, en, jp
 litter: unknown
 location.1: unknown
 location.2: 265
