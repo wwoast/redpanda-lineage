@@ -277,40 +277,41 @@ photo.53.author: craig_craig_craig
 photo.53.commitdate: 2020/11/1
 photo.53.link: https://www.instagram.com/craig_craig_craig/
 photo.53.tags: peek, whiskers
-photo.54: ig://CKyjxFXB5wJ/m
+photo.54: ig://CKlX_jFhicZ/m
 photo.54.author: fetorus_mami
-photo.54.commitdate: 2021/3/10
+photo.54.commitdate: 2021/9/23
 photo.54.link: https://www.instagram.com/fetorus_mami/
-photo.54.tags: grooming, laying down, paws, tail, upside-down
-photo.55: ig://CLsXwOKBojd/m
-photo.55.author: _rifa_p
-photo.55.commitdate: 2021/8/22
-photo.55.link: https://www.instagram.com/_rifa_p/
-photo.55.tags: peek, portrait
-photo.56: ig://COYBWd2hXFr/m
-photo.56.author: miis_98
-photo.56.commitdate: 2021/5/3
-photo.56.link: https://www.instagram.com/miis_98/
-photo.56.tags: peek, portrait, tree, whiskers
-photo.57: ig://COh9Uq-hrdl/m
+photo.54.tags: tail
+photo.55: ig://CKyjxFXB5wJ/m
+photo.55.author: fetorus_mami
+photo.55.commitdate: 2021/3/10
+photo.55.link: https://www.instagram.com/fetorus_mami/
+photo.55.tags: grooming, laying down, paws, tail, upside-down
+photo.56: ig://CLsXwOKBojd/m
+photo.56.author: _rifa_p
+photo.56.commitdate: 2021/8/22
+photo.56.link: https://www.instagram.com/_rifa_p/
+photo.56.tags: peek, portrait
+photo.57: ig://COYBWd2hXFr/m
 photo.57.author: miis_98
-photo.57.commitdate: 2021/6/9
+photo.57.commitdate: 2021/5/3
 photo.57.link: https://www.instagram.com/miis_98/
-photo.57.tags: paws, portrait, standing, tail
-photo.58: ig://CPQqPsHBGiW/m
+photo.57.tags: peek, portrait, tree, whiskers
+photo.58: ig://COh9Uq-hrdl/m
 photo.58.author: miis_98
-photo.58.commitdate: 2021/6/8
+photo.58.commitdate: 2021/6/9
 photo.58.link: https://www.instagram.com/miis_98/
-photo.58.tags: apple time, paws, peek, portrait, whiskers
-photo.59: ig://CRdZ9uthZeR/m
+photo.58.tags: paws, portrait, standing, tail
+photo.59: ig://CPQqPsHBGiW/m
 photo.59.author: miis_98
-photo.59.commitdate: 2021/8/2
+photo.59.commitdate: 2021/6/8
 photo.59.link: https://www.instagram.com/miis_98/
-photo.59.tags: bamboo, home, portrait
-photo.60: https://www.instagram.com/p/CKlX_jFhicZ/media/?size=m
-photo.60.author: fetorus_mami
-photo.60.link: https://www.instagram.com/fetorus_mami/
-photo.60.tags: tail
+photo.59.tags: apple time, paws, peek, portrait, whiskers
+photo.60: ig://CRdZ9uthZeR/m
+photo.60.author: miis_98
+photo.60.commitdate: 2021/8/2
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: bamboo, home, portrait
 species: 2
 studbook.id: 12106
 zoo: 23

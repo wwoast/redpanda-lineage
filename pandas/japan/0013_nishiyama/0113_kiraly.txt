@@ -92,8 +92,9 @@ photo.16.author: na.mo.pan
 photo.16.commitdate: 2021/1/16
 photo.16.link: https://www.instagram.com/na.mo.pan/
 photo.16.tags: portrait
-photo.17: https://www.instagram.com/p/CQpix0whtgn/media/?size=m
+photo.17: ig://CQpix0whtgn/m
 photo.17.author: minato.yokohama4416
+photo.17.commitdate: 2021/9/23
 photo.17.link: https://www.instagram.com/minato.yokohama4416/
 photo.17.tags: paws, peek, tail
 species: 2

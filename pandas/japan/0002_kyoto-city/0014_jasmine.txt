@@ -656,19 +656,21 @@ photo.129.author: akiakiakiko18
 photo.129.commitdate: 2021/1/15
 photo.129.link: https://www.instagram.com/akiakiakiko18/
 photo.129.tags: apple time, dish, paws
-photo.130: ig://CRTc-pJhkfy/m
-photo.130.author: jas_forever_love
-photo.130.commitdate: 2021/8/20
-photo.130.link: https://www.instagram.com/jas_forever_love/
-photo.130.tags: paws, smile, whiskers
-photo.131: https://www.instagram.com/p/CKMUCDLBkYJ/media/?size=m
-photo.131.author: na.mo.pan
-photo.131.link: https://www.instagram.com/na.mo.pan/
-photo.131.tags: portrait, tail
-photo.132: https://www.instagram.com/p/CMZYKrHhVOR/media/?size=m
-photo.132.author: firefoxpanda88
-photo.132.link: https://www.instagram.com/firefoxpanda88/
-photo.132.tags: peek, portrait, whiskers
+photo.130: ig://CKMUCDLBkYJ/m
+photo.130.author: na.mo.pan
+photo.130.commitdate: 2021/9/23
+photo.130.link: https://www.instagram.com/na.mo.pan/
+photo.130.tags: portrait, tail
+photo.131: ig://CMZYKrHhVOR/m
+photo.131.author: firefoxpanda88
+photo.131.commitdate: 2021/9/23
+photo.131.link: https://www.instagram.com/firefoxpanda88/
+photo.131.tags: peek, portrait, whiskers
+photo.132: ig://CRTc-pJhkfy/m
+photo.132.author: jas_forever_love
+photo.132.commitdate: 2021/8/20
+photo.132.link: https://www.instagram.com/jas_forever_love/
+photo.132.tags: paws, smile, whiskers
 species: 2
 studbook.id: 10125
 zoo: 2

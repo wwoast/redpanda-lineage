@@ -15,33 +15,34 @@ language.order: en, jp
 litter: 413, 415
 location.1: 83, 2011/6/20
 location.2: 91, 2012/8/6
-photo.1: ig://BoN0PUVBY9v/m
-photo.1.author: rossifari
-photo.1.commitdate: 2018/11/23
-photo.1.link: https://www.instagram.com/rossifari/
-photo.1.tags: sleeping
-photo.2: ig://BUvM4B5BNI7/m
-photo.2.author: bakajsab
-photo.2.commitdate: 2018/11/23
-photo.2.link: https://www.instagram.com/bakajsab/
-photo.2.tags: bamboo, portrait
-photo.3: ig://BUvM_RxhB-3/m
+photo.1: ig://BBtX6XsykJM/m
+photo.1.author: worldthathesees
+photo.1.commitdate: 2018/11/24
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: portrait, smile
+photo.2: ig://BBtYBW6ykJX/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2018/11/24
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: portrait, profile
+photo.3: ig://BUvM4B5BNI7/m
 photo.3.author: bakajsab
 photo.3.commitdate: 2018/11/23
 photo.3.link: https://www.instagram.com/bakajsab/
-photo.3.tags: laying down, portrait, smile
-photo.4: ig://BBtX6XsykJM/m
-photo.4.author: worldthathesees
-photo.4.commitdate: 2018/11/24
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: portrait, smile
-photo.5: ig://BBtYBW6ykJX/m
-photo.5.author: worldthathesees
-photo.5.commitdate: 2018/11/24
-photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: portrait, profile
-photo.6: https://www.instagram.com/p/CROMMaZtfuh/media/?size=m
+photo.3.tags: bamboo, portrait
+photo.4: ig://BUvM_RxhB-3/m
+photo.4.author: bakajsab
+photo.4.commitdate: 2018/11/23
+photo.4.link: https://www.instagram.com/bakajsab/
+photo.4.tags: laying down, portrait, smile
+photo.5: ig://BoN0PUVBY9v/m
+photo.5.author: rossifari
+photo.5.commitdate: 2018/11/23
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: sleeping
+photo.6: ig://CROMMaZtfuh/m
 photo.6.author: rossifari
+photo.6.commitdate: 2021/9/23
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: bamboo, paws, portrait, profile, tongue
 species: 2

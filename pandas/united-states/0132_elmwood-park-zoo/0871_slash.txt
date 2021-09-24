@@ -125,20 +125,21 @@ photo.22.author: rossifari
 photo.22.commitdate: 2020/9/7
 photo.22.link: https://www.instagram.com/rossifari/
 photo.22.tags: paws, whiskers
-photo.23: ig://CLJdWCrrDfF/m
+photo.23: ig://CINtEdOANYK/m
 photo.23.author: rossifari
-photo.23.commitdate: 2021/6/29
+photo.23.commitdate: 2021/9/23
 photo.23.link: https://www.instagram.com/rossifari/
-photo.23.tags: bamboo, paws, portrait, snow
-photo.24: ig://CNR4ArXgSeo/m
+photo.23.tags: close-up, portrait, whiskers
+photo.24: ig://CLJdWCrrDfF/m
 photo.24.author: rossifari
-photo.24.commitdate: 2021/4/29
+photo.24.commitdate: 2021/6/29
 photo.24.link: https://www.instagram.com/rossifari/
-photo.24.tags: portrait, whiskers, white face
-photo.25: https://www.instagram.com/p/CINtEdOANYK/media/?size=m
+photo.24.tags: bamboo, paws, portrait, snow
+photo.25: ig://CNR4ArXgSeo/m
 photo.25.author: rossifari
+photo.25.commitdate: 2021/4/29
 photo.25.link: https://www.instagram.com/rossifari/
-photo.25.tags: close-up, portrait, whiskers
+photo.25.tags: portrait, whiskers, white face
 species: 1
 studbook.id: 1435
 zoo: 132
