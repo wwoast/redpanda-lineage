@@ -16,5 +16,17 @@ jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
 litter: 1313
+photo.1: https://www.instagram.com/p/CUNjKyrtEss/media/?size=m
+photo.1.author: mirellad03
+photo.1.link: https://www.instagram.com/mirellad03/
+photo.1.tags: baby, mofumofu
+photo.2: https://www.instagram.com/p/CUFSvwhMRH3/media/?size=m
+photo.2.author: nathalie.elliott
+photo.2.link: https://www.instagram.com/nathalie.elliott/
+photo.2.tags: baby, mofumofu, portrait, profile
+photo.3: https://www.instagram.com/p/CT9NoATMV51/media/?size=m
+photo.3.author: nathalie.elliott
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, mofumofu
 species: 1
 zoo: 219
