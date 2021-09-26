@@ -1,0 +1,29 @@
+[panda]
+_id: 1318
+birthday: 2018/6/25
+birthplace: 220
+children: unknown
+commitdate: 2021/07/15
+en.name: Rukha
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Rukha
+hu.nicknames: none
+hu.othernames: Rukka
+language.order: hu, en
+litter: 1238
+location.1: 220, 2018/6/25
+location.2: 246, 2019/4/1
+photo.1: https://live.staticflickr.com/65535/48538244832_163b2bdbf0_b.jpg
+photo.1.author: Viktor Feltenberg
+photo.1.commitdate: 2021/07/15
+photo.1.link: https://www.flickr.com/photos/135540191@N07/48538244832
+photo.1.tags: ear, nose, eye, muzzle, tail, peek, whiskers
+photo.2: https://live.staticflickr.com/65535/48538245607_d416e6e2de_b.jpg
+photo.2.author: Viktor Feltenberg
+photo.2.commitdate: 2021/07/15
+photo.2.link: https://www.flickr.com/photos/135540191@N07/48538245607
+photo.2.tags: ear, nose, eye, muzzle, tail, whiskers, surprise
+species: 1
+zoo: 246

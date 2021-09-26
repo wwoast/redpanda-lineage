@@ -2,7 +2,7 @@
 _id: 1233
 birthday: 2019/6/19
 birthplace: unknown
-children: none
+children: 1315
 commitdate: 2020/11/24
 en.name: Bendegúz
 en.nicknames: none
@@ -14,7 +14,7 @@ hu.othernames: none
 jp.name: ベンデグス
 jp.nicknames: none
 jp.othernames: none
-language.order: hu, en
+language.order: hu, en, jp
 litter: unknown
 location.1: unknown
 location.2: 265
