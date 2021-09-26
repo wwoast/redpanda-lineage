@@ -1153,30 +1153,31 @@ photo.233.author: cattail.sapporo
 photo.233.commitdate: 2021/6/23
 photo.233.link: https://www.instagram.com/cattail.sapporo/
 photo.233.tags: close-up, portrait, whiskers
-photo.234: ig://CRNVW6ngaZA/m
-photo.234.author: cattail.sapporo
-photo.234.commitdate: 2021/8/20
-photo.234.link: https://www.instagram.com/cattail.sapporo/
-photo.234.tags: portrait, smile, whiskers
-photo.235: ig://CRQxOIPBYd5/m
-photo.235.author: leonard_redmof
+photo.234: ig://CQf9GylhhkS/m
+photo.234.author: leonard_redmof
+photo.234.commitdate: 2021/9/25
+photo.234.link: https://www.instagram.com/leonard_redmof/
+photo.234.tags: bamboo, carry, paws, portrait
+photo.235: ig://CRNVW6ngaZA/m
+photo.235.author: cattail.sapporo
 photo.235.commitdate: 2021/8/20
-photo.235.link: https://www.instagram.com/leonard_redmof/
-photo.235.tags: laying down, peek
-photo.236: ig://CRln0crB9Hc/m
+photo.235.link: https://www.instagram.com/cattail.sapporo/
+photo.235.tags: portrait, smile, whiskers
+photo.236: ig://CRQxOIPBYd5/m
 photo.236.author: leonard_redmof
-photo.236.commitdate: 2021/9/13
+photo.236.commitdate: 2021/8/20
 photo.236.link: https://www.instagram.com/leonard_redmof/
-photo.236.tags: close-up, laying down, paws, portrait
-photo.237: ig://CRnsUCJBqii/m
-photo.237.author: nishicotolo
+photo.236.tags: laying down, peek
+photo.237: ig://CRln0crB9Hc/m
+photo.237.author: leonard_redmof
 photo.237.commitdate: 2021/9/13
-photo.237.link: https://www.instagram.com/nishicotolo/
-photo.237.tags: laying down, portrait
-photo.238: https://www.instagram.com/p/CQf9GylhhkS/media/?size=m
-photo.238.author: leonard_redmof
-photo.238.link: https://www.instagram.com/leonard_redmof/
-photo.238.tags: bamboo, carry, paws, portrait
+photo.237.link: https://www.instagram.com/leonard_redmof/
+photo.237.tags: close-up, laying down, paws, portrait
+photo.238: ig://CRnsUCJBqii/m
+photo.238.author: nishicotolo
+photo.238.commitdate: 2021/9/13
+photo.238.link: https://www.instagram.com/nishicotolo/
+photo.238.tags: laying down, portrait
 species: 2
 studbook.id: 0674
 zoo: 7

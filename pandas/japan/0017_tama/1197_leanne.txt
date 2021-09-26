@@ -203,32 +203,35 @@ photo.38.author: alto0908
 photo.38.commitdate: 2021/8/18
 photo.38.link: https://www.instagram.com/alto0908/
 photo.38.tags: door, peek, portrait
-photo.39: ig://CSLbVEYBtTo/m
-photo.39.author: tokyo_zoogram
-photo.39.commitdate: 2021/9/10
-photo.39.link: https://www.instagram.com/tokyo_zoogram/
-photo.39.tags: portrait
-photo.40: ig://CS1seJJHTCw/m
-photo.40.author: mini_cochi
-photo.40.commitdate: 2021/8/24
-photo.40.link: https://www.instagram.com/mini_cochi/
-photo.40.tags: close-up, window
-photo.41: ig://CTcT4rnH-Rq/m
-photo.41.author: mini_cochi
+photo.39: ig://CSGhRz4hFUx/m
+photo.39.author: eos1089
+photo.39.commitdate: 2021/9/25
+photo.39.link: https://www.instagram.com/eos1089/
+photo.39.tags: friends, paws, portrait, smile, whiskers
+photo.40: ig://CSJycQ3h2NS/m
+photo.40.author: redpan22
+photo.40.commitdate: 2021/9/25
+photo.40.link: https://www.instagram.com/redpan22/
+photo.40.tags: portrait, smile, tongue, window
+photo.41: ig://CSLbVEYBtTo/m
+photo.41.author: tokyo_zoogram
 photo.41.commitdate: 2021/9/10
-photo.41.link: https://www.instagram.com/mini_cochi/
-photo.41.tags: bamboo, peek, portrait
-photo.42: https://www.instagram.com/p/CUEpOiDLcvk/media/?size=m
-photo.42.author: ck.chie
-photo.42.link: https://www.instagram.com/ck.chie/
-photo.42.tags: laying down, paws, portrait
-photo.43: https://www.instagram.com/p/CSJycQ3h2NS/media/?size=m
-photo.43.author: redpan22
-photo.43.link: https://www.instagram.com/redpan22/
-photo.43.tags: portrait, smile, tongue, window
-photo.44: https://www.instagram.com/p/CSGhRz4hFUx/media/?size=m
-photo.44.author: eos1089
-photo.44.link: https://www.instagram.com/eos1089/
-photo.44.tags: friends, paws, portrait, smile, whiskers
+photo.41.link: https://www.instagram.com/tokyo_zoogram/
+photo.41.tags: portrait
+photo.42: ig://CS1seJJHTCw/m
+photo.42.author: mini_cochi
+photo.42.commitdate: 2021/8/24
+photo.42.link: https://www.instagram.com/mini_cochi/
+photo.42.tags: close-up, window
+photo.43: ig://CTcT4rnH-Rq/m
+photo.43.author: mini_cochi
+photo.43.commitdate: 2021/9/10
+photo.43.link: https://www.instagram.com/mini_cochi/
+photo.43.tags: bamboo, peek, portrait
+photo.44: ig://CUEpOiDLcvk/m
+photo.44.author: ck.chie
+photo.44.commitdate: 2021/9/25
+photo.44.link: https://www.instagram.com/ck.chie/
+photo.44.tags: laying down, paws, portrait
 species: 2
 zoo: 17

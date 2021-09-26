@@ -1,8 +1,10 @@
 [media]
 _id: media.219.minju-mohan
+commitdate: 2021/9/25
 panda.tags: 1312, 1313
-photo.1: https://www.instagram.com/p/CUDaf72t4eu/media/?size=l
+photo.1: ig://CUDaf72t4eu/l
 photo.1.author: mirellad03
+photo.1.commitdate: 2021/9/25
 photo.1.link: https://www.instagram.com/mirellad03/
 photo.1.tags: baby, mofumofu, siblings, twins
 photo.1.tags.1312.location: 115, 160

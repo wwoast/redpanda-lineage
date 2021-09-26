@@ -122,8 +122,9 @@ photo.22.author: colette.jp
 photo.22.commitdate: 2021/8/2
 photo.22.link: https://www.instagram.com/colette.jp/
 photo.22.tags: close-up, portrait, smile, tongue
-photo.23: https://www.instagram.com/p/CUFO3pihJkD/media/?size=m
+photo.23: ig://CUFO3pihJkD/m
 photo.23.author: colette.jp
+photo.23.commitdate: 2021/9/25
 photo.23.link: https://www.instagram.com/colette.jp/
 photo.23.tags: laying down, mofumofu, portrait, sleeping
 species: 2

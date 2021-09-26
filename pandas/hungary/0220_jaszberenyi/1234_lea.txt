@@ -38,13 +38,15 @@ photo.4.author: balathruin
 photo.4.commitdate: 2021/7/14
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: portrait, profile, whiskers
-photo.5: https://www.instagram.com/p/CSndAg4CdRP/media/?size=m
+photo.5: ig://CR6XTvbhmXy/m
 photo.5.author: balathruin
+photo.5.commitdate: 2021/9/25
 photo.5.link: https://www.instagram.com/balathruin/
-photo.5.tags: paws, portrait, whiskers, white face
-photo.6: https://www.instagram.com/p/CR6XTvbhmXy/media/?size=m
+photo.5.tags: portrait, smile, whiskers
+photo.6: ig://CSndAg4CdRP/m
 photo.6.author: balathruin
+photo.6.commitdate: 2021/9/25
 photo.6.link: https://www.instagram.com/balathruin/
-photo.6.tags: portrait, smile, whiskers
+photo.6.tags: paws, portrait, whiskers, white face
 species: 1
 zoo: 220

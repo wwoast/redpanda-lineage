@@ -304,8 +304,9 @@ photo.58.author: miis_98
 photo.58.commitdate: 2021/9/18
 photo.58.link: https://www.instagram.com/miis_98/
 photo.58.tags: bamboo, peek, portrait
-photo.59: https://www.instagram.com/p/CUATVqxlMBe/media/?size=m
+photo.59: ig://CUATVqxlMBe/m
 photo.59.author: miis_98
+photo.59.commitdate: 2021/9/25
 photo.59.link: https://www.instagram.com/miis_98/
 photo.59.tags: portrait
 species: 2
