@@ -4,18 +4,23 @@ birthday: 2020/6/22
 birthplace: 220
 children: unknown
 commitdate: 2020/11/24
-en.name: Sparka
+en.name: Spārka
 en.nicknames: none
 en.othernames: none
 gender: f
-hu.name: Sparka
+hu.name: Szikra
 hu.nicknames: none
 hu.othernames: none
 jp.name: スパークア
 jp.nicknames: none
 jp.othernames: none
-language.order: hu, en
+language.order: en, hu, np, jp
 litter: unknown
+location.1: 220, 2020/6/22
+location.2: 286, 2021/7/17
+np.name: सस्पार्क
+np.nicknames: none
+np.othernames: none
 photo.1: https://www.szoljon.hu/wp-content/uploads/2020/08/P6A6398GB.jpg
 photo.1.author: Balázs Gémesi
 photo.1.commitdate: 2020/11/24
@@ -41,10 +46,20 @@ photo.5.author: balathruin
 photo.5.commitdate: 2021/7/11
 photo.5.link: https://www.instagram.com/balathruin/
 photo.5.tags: paws, peek, portrait, tail
-photo.6: ig://CRbLDXkBbYC/m
+photo.6: ig://CQve0SDhhVR/m
 photo.6.author: balathruin
-photo.6.commitdate: 2021/7/18
+photo.6.commitdate: 2021/7/15
 photo.6.link: https://www.instagram.com/balathruin/
-photo.6.tags: bridge, portrait, tail
+photo.6.tags: ear, eye, peek, nose, muzzle, tongue, smile
+photo.7: ig://CRbLDXkBbYC/m
+photo.7.author: balathruin
+photo.7.commitdate: 2021/7/18
+photo.7.link: https://www.instagram.com/balathruin/
+photo.7.tags: bridge, portrait, tail
+photo.8: ig://CSCGaUVs5EB/m
+photo.8.author: balathruin
+photo.8.commitdate: 2021/9/23
+photo.8.link: https://www.instagram.com/balathruin/
+photo.8.tags: bamboo, ear, nose, eye, muzzle, smile
 species: 1
 zoo: 220

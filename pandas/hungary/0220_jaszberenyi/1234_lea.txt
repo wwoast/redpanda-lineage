@@ -1,23 +1,27 @@
 [panda]
 _id: 1234
-birthday: 2012/6/22
-birthplace: unknown
-children: 1238, 1235
+birthday: 2010/6/22
+birthplace: 271
+children: 1299, 1238, 1235, 1316, 1317
 commitdate: 2020/11/24
 en.name: Lea
 en.nicknames: none
+en.oldnames: Lily
 en.othernames: none
 gender: f
 hu.name: Lea
 hu.nicknames: none
+hu.oldnames: Lili
 hu.othernames: none
 jp.name: レア
 jp.nicknames: none
+jp.oldnames: リリー
 jp.othernames: none
-language.order: hu, en
+language.order: hu, en, jp
 litter: unknown
-location.1: 266, 2012/6/22
-location.2: 220, 2014/6/6
+location.1: 271, 2010/6/22
+location.2: 266, 2011/5/27
+location.3: 220, 2014/6/6
 photo.1: ig://BuMvFoqAV5E/m
 photo.1.author: brigittabartakovics
 photo.1.commitdate: 2020/11/24
@@ -38,15 +42,21 @@ photo.4.author: balathruin
 photo.4.commitdate: 2021/7/14
 photo.4.link: https://www.instagram.com/balathruin/
 photo.4.tags: portrait, profile, whiskers
-photo.5: ig://CR6XTvbhmXy/m
+photo.5: ig://CRBUHEuB547/m
 photo.5.author: balathruin
-photo.5.commitdate: 2021/9/25
+photo.5.commitdate: 2021/9/23
 photo.5.link: https://www.instagram.com/balathruin/
-photo.5.tags: portrait, smile, whiskers
-photo.6: ig://CSndAg4CdRP/m
+photo.5.tags: ear, nose, eye, muzzle, smile, tail
+photo.6: ig://CR6XTvbhmXy/m
 photo.6.author: balathruin
-photo.6.commitdate: 2021/9/25
+photo.6.commitdate: 2021/9/23
 photo.6.link: https://www.instagram.com/balathruin/
-photo.6.tags: paws, portrait, whiskers, white face
+photo.6.tags: portrait, smile, whiskers
+photo.7: ig://CSndAg4CdRP/m
+photo.7.author: balathruin
+photo.7.commitdate: 2021/9/23
+photo.7.link: https://www.instagram.com/balathruin/
+photo.7.tags: paws, portrait, whiskers, white face
 species: 1
+studbook.id: 1047
 zoo: 220

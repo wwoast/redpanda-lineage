@@ -6,25 +6,48 @@ children: unknown
 commitdate: 2020/11/26
 en.name: Svea
 en.nicknames: none
+en.oldnames: Lea
 en.othernames: none
 gender: f
 jp.name: サヴェア
 jp.nicknames: none
+jp.oldnames: レア
 jp.othernames: none
 language.order: en
 litter: unknown
 location.1: 266, 2013/7/4
 location.2: 220, 2014/7/4
 location.3: 268, 2017/7/13
-photo.1: https://media04.meinbezirk.at/event/2020/01/08/0/520170_XXL.jpg
-photo.1.author: Linz Zoo
-photo.1.commitdate: 2020/11/26
-photo.1.link: https://www.meinbezirk.at/event/linz/c-kinder-jugend/fuehrung-im-linzer-zoo-die-tiere-im-winter_e554673
-photo.1.tags: ear, nose, eye, bamboo, bite, couple, lunch time
+photo.1: https://live.staticflickr.com/2816/11755864125_bd0fe8be77_n.jpg
+photo.1.author: Jason
+photo.1.commitdate: 2021/09/23
+photo.1.link: https://www.flickr.com/photos/jg31/
+photo.1.tags: sisters, ear, nose, eye, tail, muzzle, tree, bite
 photo.2: https://jaszberenyzoo.hu/sites/default/files/images/6_1.jpg
 photo.2.author: unknown
 photo.2.commitdate: 2020/11/26
 photo.2.link: https://jaszberenyzoo.hu/?q=node/1053
 photo.2.tags: ear, nose, eye, tail, tongue, muzzle, smile
+photo.3: https://live.staticflickr.com/7716/16503533813_73ae6aff2d_n.jpg
+photo.3.author: István Pető
+photo.3.commitdate: 2021/09/23
+photo.3.link: https://www.flickr.com/photos/stvtg/
+photo.3.tags: ear, nose, eye, tail, muzzle, tree
+photo.4: https://live.staticflickr.com/7709/16936097670_a08f813c7a_n.jpg
+photo.4.author: István Pető
+photo.4.commitdate: 2021/09/23
+photo.4.link: https://www.flickr.com/photos/stvtg/
+photo.4.tags: ear, nose, eye, tongue, muzzle, bamboo
+photo.5: https://live.staticflickr.com/7601/17123022181_cc94cc95d9_n.jpg
+photo.5.author: István Pető
+photo.5.commitdate: 2021/09/23
+photo.5.link: https://www.flickr.com/photos/stvtg/
+photo.5.tags: ear, nose, eye, tongue, muzzle, bamboo
+photo.6: https://media04.meinbezirk.at/event/2020/01/08/0/520170_XXL.jpg
+photo.6.author: Linz Zoo
+photo.6.commitdate: 2020/11/26
+photo.6.link: https://www.meinbezirk.at/event/linz/c-kinder-jugend/fuehrung-im-linzer-zoo-die-tiere-im-winter_e554673
+photo.6.tags: ear, nose, eye, bamboo, bite, couple, lunch time
 species: 1
+studbook.id: 1388
 zoo: 268

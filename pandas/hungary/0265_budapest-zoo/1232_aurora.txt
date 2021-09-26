@@ -2,7 +2,7 @@
 _id: 1232
 birthday: 2011/6/24
 birthplace: unknown
-children: 1240
+children: 1240, 1315
 commitdate: 2020/11/24
 en.name: Aurora
 en.nicknames: none
@@ -14,7 +14,7 @@ hu.othernames: none
 jp.name: オーロラ
 jp.nicknames: none
 jp.othernames: none
-language.order: hu, en
+language.order: hu, en, jp
 litter: unknown
 location.1: unknown
 location.2: 265, 2012/4/27
@@ -54,4 +54,5 @@ photo.7.commitdate: 2020/11/24
 photo.7.link: https://www.instagram.com/balathruin/
 photo.7.tags: ear, eye, tail
 species: 1
+studbook.id: 1160
 zoo: 265

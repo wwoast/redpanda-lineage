@@ -1,0 +1,43 @@
+[panda]
+_id: 1316
+birthday: 2021/7/2
+birthplace: 220
+children: none
+commitdate: 2021/9/17
+en.name: Sānō Kalī
+en.nicknames: none
+en.othernames: none
+gender: m
+hu.name: Kicsi Rügy
+hu.nicknames: none
+hu.othernames: none
+jp.name: 小さなつぼみ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, hu, np, jp
+litter: 1317
+np.name: सानो कली
+np.nicknames: none
+np.othernames: none
+photo.1: ig://CRquZEzhFf8/m
+photo.1.author: balathruin
+photo.1.commitdate: 2021/9/17
+photo.1.link: https://www.instagram.com/balathruin/
+photo.1.tags: siblings, home, ear, sleeping
+photo.2: ig://CSeNvMuMT-m/m
+photo.2.author: balathruin
+photo.2.commitdate: 2021/9/17
+photo.2.link: https://www.instagram.com/balathruin/
+photo.2.tags: siblings, home, ear, eye
+photo.3: ig://CUFdMbBMF7l/m
+photo.3.author: balathruin
+photo.3.commitdate: 2021/9/23
+photo.3.link: https://www.instagram.com/balathruin/
+photo.3.tags: brothers, keeper, ear, eye, nose, muzzle, paw, tail
+photo.4: ig://CUHpAjfMovG/m
+photo.4.author: balathruin
+photo.4.commitdate: 2021/9/23
+photo.4.link: https://www.instagram.com/balathruin/
+photo.4.tags: ear, eye, nose, muzzle, paw, tail
+species: 1
+zoo: 220

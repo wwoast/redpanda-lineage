@@ -4,7 +4,7 @@ birthday: 2018/6/25
 birthplace: 220
 children: unknown
 commitdate: 2020/11/26
-death: 2021/1/1
+death: 2020/7/1
 en.name: Camak
 en.nicknames: none
 en.othernames: none
@@ -16,7 +16,7 @@ jp.name: カマック
 jp.nicknames: none
 jp.othernames: none
 language.order: hu, en
-litter: unknown
+litter: 1299
 location.1: 220, 2018/6/25
 location.2: 269, 2019/4/15
 photo.1: ig://BwWFIvzFnyt/m
@@ -30,5 +30,5 @@ photo.2.commitdate: 2020/11/26
 photo.2.link: https://www.instagram.com/givskudzoo/
 photo.2.tags: portrait, profile, whiskers
 species: 1
-uncertainty: death exact date
+uncertainty: exact date of death
 zoo: 269
