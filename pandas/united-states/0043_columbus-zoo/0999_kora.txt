@@ -170,19 +170,20 @@ photo.31.author: columbuszoo
 photo.31.commitdate: 2021/9/8
 photo.31.link: https://www.instagram.com/columbuszoo/
 photo.31.tags: smile
-photo.32: ig://CTHzDgUrYuP/m
-photo.32.author: rossifari
-photo.32.commitdate: 2021/9/8
-photo.32.link: https://www.instagram.com/rossifari/
-photo.32.tags: whiskers
-photo.33: ig://CTPzb0eJrzc/m
-photo.33.author: carsontheredpanda
+photo.32: ig://CSvbaL2Lw9m/m
+photo.32.author: carsontheredpanda
+photo.32.commitdate: 2021/9/28
+photo.32.link: https://www.instagram.com/carsontheredpanda/
+photo.32.tags: close-up, door, laying down, portrait, smile, whiskers
+photo.33: ig://CTHzDgUrYuP/m
+photo.33.author: rossifari
 photo.33.commitdate: 2021/9/8
-photo.33.link: https://www.instagram.com/carsontheredpanda/
-photo.33.tags: smile, whiskers
-photo.34: https://www.instagram.com/p/CSvbaL2Lw9m/media/?size=m
+photo.33.link: https://www.instagram.com/rossifari/
+photo.33.tags: whiskers
+photo.34: ig://CTPzb0eJrzc/m
 photo.34.author: carsontheredpanda
+photo.34.commitdate: 2021/9/8
 photo.34.link: https://www.instagram.com/carsontheredpanda/
-photo.34.tags: close-up, door, laying down, portrait, smile, whiskers
+photo.34.tags: smile, whiskers
 species: 2
 zoo: 43

@@ -51,8 +51,9 @@ photo.7.author: zoomontana
 photo.7.commitdate: 2021/6/23
 photo.7.link: https://www.instagram.com/zoomontana/
 photo.7.tags: portrait, profile, white face
-photo.8: https://www.instagram.com/p/CSk3uL1tsXZ/media/?size=m
+photo.8: ig://CSk3uL1tsXZ/m
 photo.8.author: zoomontana
+photo.8.commitdate: 2021/9/28
 photo.8.link: https://www.instagram.com/zoomontana/
 photo.8.tags: laying down
 species: 1
