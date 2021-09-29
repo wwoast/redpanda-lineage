@@ -190,8 +190,9 @@ photo.35.author: grskus_tk
 photo.35.commitdate: 2021/6/18
 photo.35.link: https://www.instagram.com/grskus_tk/
 photo.35.tags: muzzle, paws, window
-photo.36: https://www.instagram.com/p/CUO0ZMHB7o6/media/?size=m
+photo.36: ig://CUO0ZMHB7o6/m
 photo.36.author: panda.daisuki
+photo.36.commitdate: 2021/9/28
 photo.36.link: https://www.instagram.com/panda.daisuki/
 photo.36.tags: muzzle, paws, portrait, whiskers
 species: 2

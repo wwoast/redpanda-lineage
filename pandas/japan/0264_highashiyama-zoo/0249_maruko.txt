@@ -372,14 +372,16 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2021/9/18
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
 photo.71.tags: close-up, lips, mofumofu, portrait, techitechi, whiskers
-photo.72: https://www.instagram.com/p/CUQjU4Uh9ND/media/?size=m
-photo.72.author: hamamatsu.chiita
-photo.72.link: https://www.instagram.com/hamamatsu.chiita/
-photo.72.tags: mofumofu, portrait, whiskers
-photo.73: https://www.instagram.com/p/CUJ13OkhlGM/media/?size=m
-photo.73.author: fetorus_mami
-photo.73.link: https://www.instagram.com/fetorus_mami/
-photo.73.tags: apple time, climb, paws, peek
+photo.72: ig://CUJ13OkhlGM/m
+photo.72.author: fetorus_mami
+photo.72.commitdate: 2021/9/28
+photo.72.link: https://www.instagram.com/fetorus_mami/
+photo.72.tags: apple time, climb, paws, peek
+photo.73: ig://CUQjU4Uh9ND/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2021/9/28
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

@@ -221,8 +221,9 @@ photo.42.author: re_ichimaru
 photo.42.commitdate: 2021/7/14
 photo.42.link: https://www.instagram.com/re_ichimaru/
 photo.42.tags: mofumofu, portrait, whiskers
-photo.43: https://www.instagram.com/p/CUNDq-QBi7M/media/?size=m
+photo.43: ig://CUNDq-QBi7M/m
 photo.43.author: kojikoji2011
+photo.43.commitdate: 2021/9/28
 photo.43.link: https://www.instagram.com/kojikoji2011/
 photo.43.tags: flowers, portrait, smile, whiskers
 species: 2

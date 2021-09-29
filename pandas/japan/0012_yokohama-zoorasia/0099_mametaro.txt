@@ -469,8 +469,9 @@ photo.91.author: kotata_513
 photo.91.commitdate: 2021/7/18
 photo.91.link: https://www.instagram.com/kotata_513/
 photo.91.tags: apple time, paws, smile, standing
-photo.92: https://www.instagram.com/p/CUQC5-Thz_h/media/?size=m
+photo.92: ig://CUQC5-Thz_h/m
 photo.92.author: minatomirai215
+photo.92.commitdate: 2021/9/28
 photo.92.link: https://www.instagram.com/minatomirai215/
 photo.92.tags: paws, portrait, smile, standing, whiskers, window
 species: 2

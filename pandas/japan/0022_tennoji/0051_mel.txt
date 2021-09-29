@@ -473,8 +473,9 @@ photo.92.author: mifko55
 photo.92.commitdate: 2021/9/6
 photo.92.link: https://www.instagram.com/mifko55/
 photo.92.tags: blink, portrait, whiskers
-photo.93: https://www.instagram.com/p/CUPVSjGhOFp/media/?size=m
+photo.93: ig://CUPVSjGhOFp/m
 photo.93.author: makimaru18
+photo.93.commitdate: 2021/9/28
 photo.93.link: https://www.instagram.com/makimaru18/
 photo.93.tags: mofumofu, portrait
 species: 2

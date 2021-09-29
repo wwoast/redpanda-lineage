@@ -38,8 +38,9 @@ photo.5.author: columbuszoo
 photo.5.commitdate: 2021/9/8
 photo.5.link: https://www.instagram.com/columbuszoo/
 photo.5.tags: smile
-photo.6: https://www.instagram.com/p/CUQTJUpLum2/media/?size=m
+photo.6: ig://CUQTJUpLum2/m
 photo.6.author: lipscer
+photo.6.commitdate: 2021/9/28
 photo.6.link: https://www.instagram.com/lipscer/
 photo.6.tags: close-up, peek, smile, whiskers
 species: 2

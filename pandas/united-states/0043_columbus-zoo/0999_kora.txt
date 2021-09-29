@@ -185,17 +185,20 @@ photo.34.author: carsontheredpanda
 photo.34.commitdate: 2021/9/8
 photo.34.link: https://www.instagram.com/carsontheredpanda/
 photo.34.tags: smile, whiskers
-photo.35: https://www.instagram.com/p/CUODkLaLBUS/media/?size=m
-photo.35.author: lipscer
-photo.35.link: https://www.instagram.com/lipscer/
-photo.35.tags: whiskers
-photo.36: https://www.instagram.com/p/CUMcPdyLdKe/media/?size=m
+photo.35: ig://CUMcPdyLdKe/m
+photo.35.author: wumpwoast
+photo.35.commitdate: 2021/9/28
+photo.35.link: https://www.instagram.com/wumpwoast/
+photo.35.tags: portrait, tail, tongue
+photo.36: ig://CUNfa5GpmCy/m
 photo.36.author: wumpwoast
+photo.36.commitdate: 2021/9/28
 photo.36.link: https://www.instagram.com/wumpwoast/
-photo.36.tags: portrait, tail, tongue
-photo.37: https://www.instagram.com/p/CUNfa5GpmCy/media/?size=m
-photo.37.author: wumpwoast
-photo.37.link: https://www.instagram.com/wumpwoast/
-photo.37.tags: close-up, smile, whiskers
+photo.36.tags: close-up, smile, whiskers
+photo.37: ig://CUODkLaLBUS/m
+photo.37.author: lipscer
+photo.37.commitdate: 2021/9/28
+photo.37.link: https://www.instagram.com/lipscer/
+photo.37.tags: whiskers
 species: 2
 zoo: 43
