@@ -230,8 +230,9 @@ photo.44.author: mini_cochi
 photo.44.commitdate: 2021/8/27
 photo.44.link: https://www.instagram.com/mini_cochi/
 photo.44.tags: itchy, mofumofu, paws, portrait
-photo.45: https://www.instagram.com/p/CUAVMVWhU8G/media/?size=m
+photo.45: ig://CUAVMVWhU8G/m
 photo.45.author: ifumoto88
+photo.45.commitdate: 2021/9/29
 photo.45.link: https://www.instagram.com/ifumoto88/
 photo.45.tags: laying down, portrait, sleeping
 species: 2

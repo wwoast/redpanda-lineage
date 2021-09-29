@@ -496,8 +496,9 @@ photo.97.author: tama67photo
 photo.97.commitdate: 2021/9/1
 photo.97.link: https://www.instagram.com/tama67photo/
 photo.97.tags: peek, portrait, tree
-photo.98: https://www.instagram.com/p/CUCgMKyB7Vn/media/?size=m
+photo.98: ig://CUCgMKyB7Vn/m
 photo.98.author: an920000
+photo.98.commitdate: 2021/9/29
 photo.98.link: https://www.instagram.com/an920000/
 photo.98.tags: bamboo, home, paws, portrait
 species: 2

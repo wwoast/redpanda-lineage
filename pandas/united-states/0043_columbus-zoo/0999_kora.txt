@@ -185,28 +185,30 @@ photo.34.author: carsontheredpanda
 photo.34.commitdate: 2021/9/8
 photo.34.link: https://www.instagram.com/carsontheredpanda/
 photo.34.tags: smile, whiskers
-photo.35: ig://CUMcPdyLdKe/m
-photo.35.author: wumpwoast
-photo.35.commitdate: 2021/9/28
-photo.35.link: https://www.instagram.com/wumpwoast/
-photo.35.tags: portrait, tail, tongue
-photo.36: ig://CUNfa5GpmCy/m
-photo.36.author: wumpwoast
-photo.36.commitdate: 2021/9/28
-photo.36.link: https://www.instagram.com/wumpwoast/
-photo.36.tags: close-up, smile, whiskers
-photo.37: ig://CUODkLaLBUS/m
-photo.37.author: lipscer
+photo.35: ig://CT_4wjhsjeH/m
+photo.35.author: rossifari
+photo.35.commitdate: 2021/9/29
+photo.35.link: https://www.instagram.com/rossifari/
+photo.35.tags: portrait, smile, whiskers
+photo.36: ig://CUDNKVRLT6q/m
+photo.36.author: lipscer
+photo.36.commitdate: 2021/9/29
+photo.36.link: https://www.instagram.com/lipscer/
+photo.36.tags: door, peek
+photo.37: ig://CUMcPdyLdKe/m
+photo.37.author: wumpwoast
 photo.37.commitdate: 2021/9/28
-photo.37.link: https://www.instagram.com/lipscer/
-photo.37.tags: whiskers
-photo.38: https://www.instagram.com/p/CUDNKVRLT6q/media/?size=m
-photo.38.author: lipscer
-photo.38.link: https://www.instagram.com/lipscer/
-photo.38.tags: door, peek
-photo.39: https://www.instagram.com/p/CT_4wjhsjeH/media/?size=m
-photo.39.author: rossifari
-photo.39.link: https://www.instagram.com/rossifari/
-photo.39.tags: portrait, smile, whiskers  
+photo.37.link: https://www.instagram.com/wumpwoast/
+photo.37.tags: portrait, tail, tongue
+photo.38: ig://CUNfa5GpmCy/m
+photo.38.author: wumpwoast
+photo.38.commitdate: 2021/9/28
+photo.38.link: https://www.instagram.com/wumpwoast/
+photo.38.tags: close-up, smile, whiskers
+photo.39: ig://CUODkLaLBUS/m
+photo.39.author: lipscer
+photo.39.commitdate: 2021/9/28
+photo.39.link: https://www.instagram.com/lipscer/
+photo.39.tags: whiskers
 species: 2
 zoo: 43
