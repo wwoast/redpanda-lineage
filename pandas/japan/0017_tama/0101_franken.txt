@@ -348,67 +348,71 @@ photo.67.author: eos1089
 photo.67.commitdate: 2020/6/10
 photo.67.link: https://www.instagram.com/eos1089/
 photo.67.tags: bamboo, bite, portrait
-photo.68: ig://CEs4SFSBMWZ/m
-photo.68.author: ssc6105
-photo.68.commitdate: 2021/2/24
-photo.68.link: https://www.instagram.com/ssc6105/
-photo.68.tags: tail, whiskers
-photo.69: ig://CFEOkivh4-W/m
-photo.69.author: panda.daisuki
-photo.69.commitdate: 2020/11/10
-photo.69.link: https://www.instagram.com/panda.daisuki/
-photo.69.tags: paws, portrait, smile, tail
-photo.70: ig://CFLNarshcIs/m
-photo.70.author: ck.chie
-photo.70.commitdate: 2021/2/24
-photo.70.link: https://www.instagram.com/ck.chie/
-photo.70.tags: bamboo, bite
-photo.71: ig://CF6j9RFhb-u/m
-photo.71.author: panda.daisuki
-photo.71.commitdate: 2020/11/8
-photo.71.link: https://www.instagram.com/panda.daisuki/
-photo.71.tags: portrait, smile, tail
-photo.72: ig://CJBchjnBm_s/m
-photo.72.author: mini_cochi
-photo.72.commitdate: 2021/1/2
-photo.72.link: https://www.instagram.com/mini_cochi/
-photo.72.tags: portrait, slobber
-photo.73: ig://CKDVo6KBqzR/m
-photo.73.author: osopanda551
-photo.73.commitdate: 2021/1/16
-photo.73.link: https://www.instagram.com/osopanda551/
-photo.73.tags: portrait, smile
-photo.74: ig://CPSb8CEBifg/m
-photo.74.author: osopanda551
-photo.74.commitdate: 2021/6/7
-photo.74.link: https://www.instagram.com/osopanda551/
-photo.74.tags: paws, portrait, whiskers
-photo.75: ig://CP8n2ynB3nv/m
-photo.75.author: eos1089
-photo.75.commitdate: 2021/7/3
-photo.75.link: https://www.instagram.com/eos1089/
-photo.75.tags: bamboo, portrait, smile, whiskers
-photo.76: ig://CQtP_zCh1zU/m
-photo.76.author: na.mo.pan
-photo.76.commitdate: 2021/7/1
-photo.76.link: https://www.instagram.com/na.mo.pan/
-photo.76.tags: door, paws, peek, portrait, whiskers
-photo.77: https://www.instagram.com/p/CCFYXEGjC6G/media/?size=m
-photo.77.author: otenba_redpanda
-photo.77.link: https://www.instagram.com/otenba_redpanda/
-photo.77.tags: bamboo, bite, portrait
-photo.78: https://www.instagram.com/p/CCTjdoHBVZe/media/?size=m
-photo.78.author: otenba_redpanda
-photo.78.link: https://www.instagram.com/otenba_redpanda/
-photo.78.tags: close-up, portrait, smile, whiskers
-photo.79: https://www.instagram.com/p/CCR4rccBojx/media/?size=m
-photo.79.author: otenba_redpanda
-photo.79.link: https://www.instagram.com/otenba_redpanda/
-photo.79.tags: ear, portrait, smile
-photo.80: https://www.instagram.com/p/CCZYMHmBS44/media/?size=m
-photo.80.author: otenba_redpanda
-photo.80.link: https://www.instagram.com/otenba_redpanda/
-photo.80.tags: paws, portrait, tail
+photo.68: ig://CCFYXEGjC6G/m
+photo.68.author: otenba_redpanda
+photo.68.commitdate: 2021/10/2
+photo.68.link: https://www.instagram.com/otenba_redpanda/
+photo.68.tags: bamboo, bite, portrait
+photo.69: ig://CCR4rccBojx/m
+photo.69.author: otenba_redpanda
+photo.69.commitdate: 2021/10/2
+photo.69.link: https://www.instagram.com/otenba_redpanda/
+photo.69.tags: ear, portrait, smile
+photo.70: ig://CCTjdoHBVZe/m
+photo.70.author: otenba_redpanda
+photo.70.commitdate: 2021/10/2
+photo.70.link: https://www.instagram.com/otenba_redpanda/
+photo.70.tags: close-up, portrait, smile, whiskers
+photo.71: ig://CCZYMHmBS44/m
+photo.71.author: otenba_redpanda
+photo.71.commitdate: 2021/10/2
+photo.71.link: https://www.instagram.com/otenba_redpanda/
+photo.71.tags: paws, portrait, tail
+photo.72: ig://CEs4SFSBMWZ/m
+photo.72.author: ssc6105
+photo.72.commitdate: 2021/2/24
+photo.72.link: https://www.instagram.com/ssc6105/
+photo.72.tags: tail, whiskers
+photo.73: ig://CFEOkivh4-W/m
+photo.73.author: panda.daisuki
+photo.73.commitdate: 2020/11/10
+photo.73.link: https://www.instagram.com/panda.daisuki/
+photo.73.tags: paws, portrait, smile, tail
+photo.74: ig://CFLNarshcIs/m
+photo.74.author: ck.chie
+photo.74.commitdate: 2021/2/24
+photo.74.link: https://www.instagram.com/ck.chie/
+photo.74.tags: bamboo, bite
+photo.75: ig://CF6j9RFhb-u/m
+photo.75.author: panda.daisuki
+photo.75.commitdate: 2020/11/8
+photo.75.link: https://www.instagram.com/panda.daisuki/
+photo.75.tags: portrait, smile, tail
+photo.76: ig://CJBchjnBm_s/m
+photo.76.author: mini_cochi
+photo.76.commitdate: 2021/1/2
+photo.76.link: https://www.instagram.com/mini_cochi/
+photo.76.tags: portrait, slobber
+photo.77: ig://CKDVo6KBqzR/m
+photo.77.author: osopanda551
+photo.77.commitdate: 2021/1/16
+photo.77.link: https://www.instagram.com/osopanda551/
+photo.77.tags: portrait, smile
+photo.78: ig://CPSb8CEBifg/m
+photo.78.author: osopanda551
+photo.78.commitdate: 2021/6/7
+photo.78.link: https://www.instagram.com/osopanda551/
+photo.78.tags: paws, portrait, whiskers
+photo.79: ig://CP8n2ynB3nv/m
+photo.79.author: eos1089
+photo.79.commitdate: 2021/7/3
+photo.79.link: https://www.instagram.com/eos1089/
+photo.79.tags: bamboo, portrait, smile, whiskers
+photo.80: ig://CQtP_zCh1zU/m
+photo.80.author: na.mo.pan
+photo.80.commitdate: 2021/7/1
+photo.80.link: https://www.instagram.com/na.mo.pan/
+photo.80.tags: door, paws, peek, portrait, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17
