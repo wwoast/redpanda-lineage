@@ -119,54 +119,56 @@ photo.21.author: mini_cochi
 photo.21.commitdate: 2020/7/14
 photo.21.link: https://www.instagram.com/mini_cochi/
 photo.21.tags: old, paws, portrait, smile
-photo.22: ig://CEMHMLFhqTd/m
-photo.22.author: ssc6105
-photo.22.commitdate: 2020/8/29
-photo.22.link: https://www.instagram.com/ssc6105/
-photo.22.tags: laying down, portrait, sleeping, tail
-photo.23: ig://CEjV_sghagj/m
-photo.23.author: ifumoto88
-photo.23.commitdate: 2020/9/4
-photo.23.link: https://www.instagram.com/ifumoto88/
-photo.23.tags: bamboo, mofumofu, old, portrait
-photo.24: ig://CG0zehqhiX3/m
-photo.24.author: sunnylettuce_2021
-photo.24.commitdate: 2020/11/1
-photo.24.link: https://www.instagram.com/sunnylettuce_2021/
-photo.24.tags: bamboo, mofumofu, old, smile
-photo.25: ig://CG2eDEzhX54/m
-photo.25.author: mini_cochi
-photo.25.commitdate: 2020/10/27
-photo.25.link: https://www.instagram.com/mini_cochi/
-photo.25.tags: laying down, mofumofu, old, tail
-photo.26: ig://CQEEMTMBymq/m
+photo.22: ig://CEDHKAahIvS/m
+photo.22.author: otenba_redpanda
+photo.22.commitdate: 2021/10/1
+photo.22.link: https://www.instagram.com/otenba_redpanda/
+photo.22.tags: mofumofu, portrait, whiskers
+photo.23: ig://CEMHMLFhqTd/m
+photo.23.author: ssc6105
+photo.23.commitdate: 2020/8/29
+photo.23.link: https://www.instagram.com/ssc6105/
+photo.23.tags: laying down, portrait, sleeping, tail
+photo.24: ig://CEjV_sghagj/m
+photo.24.author: ifumoto88
+photo.24.commitdate: 2020/9/4
+photo.24.link: https://www.instagram.com/ifumoto88/
+photo.24.tags: bamboo, mofumofu, old, portrait
+photo.25: ig://CG0zehqhiX3/m
+photo.25.author: sunnylettuce_2021
+photo.25.commitdate: 2020/11/1
+photo.25.link: https://www.instagram.com/sunnylettuce_2021/
+photo.25.tags: bamboo, mofumofu, old, smile
+photo.26: ig://CG2eDEzhX54/m
 photo.26.author: mini_cochi
-photo.26.commitdate: 2021/6/18
+photo.26.commitdate: 2020/10/27
 photo.26.link: https://www.instagram.com/mini_cochi/
-photo.26.tags: bamboo, mofumofu, old, portrait
-photo.27: ig://CREz_qXB1tr/m
-photo.27.author: eos1089
-photo.27.commitdate: 2021/7/11
-photo.27.link: https://www.instagram.com/eos1089/
-photo.27.tags: mofumofu, old, portrait, smile
-photo.28: ig://CRGtblhBoFG/m
-photo.28.author: kotata_513
-photo.28.commitdate: 2021/7/11
-photo.28.link: https://www.instagram.com/kotata_513/
-photo.28.tags: bamboo, portrait, smile, whiskers
-photo.29: ig://CRKg_dvBa4l/m
-photo.29.author: miis_98
+photo.26.tags: laying down, mofumofu, old, tail
+photo.27: ig://CJAoAYahvYx/m
+photo.27.author: otenba_redpanda
+photo.27.commitdate: 2021/10/1
+photo.27.link: https://www.instagram.com/otenba_redpanda/
+photo.27.tags: old, mofumofu, portrait, whiskers
+photo.28: ig://CQEEMTMBymq/m
+photo.28.author: mini_cochi
+photo.28.commitdate: 2021/6/18
+photo.28.link: https://www.instagram.com/mini_cochi/
+photo.28.tags: bamboo, mofumofu, old, portrait
+photo.29: ig://CREz_qXB1tr/m
+photo.29.author: eos1089
 photo.29.commitdate: 2021/7/11
-photo.29.link: https://www.instagram.com/miis_98/
-photo.29.tags: bamboo, dish, laying down, mofumofu, old, portrait
-photo.30: https://www.instagram.com/p/CEDHKAahIvS/media/?size=m
-photo.30.author: otenba_redpanda
-photo.30.link: https://www.instagram.com/otenba_redpanda/
-photo.30.tags: mofumofu, portrait, whiskers
-photo.31: https://www.instagram.com/p/CJAoAYahvYx/media/?size=m
-photo.31.author: otenba_redpanda
-photo.31.link: https://www.instagram.com/otenba_redpanda/
-photo.31.tags: old, mofumofu, portrait, whiskers
+photo.29.link: https://www.instagram.com/eos1089/
+photo.29.tags: mofumofu, old, portrait, smile
+photo.30: ig://CRGtblhBoFG/m
+photo.30.author: kotata_513
+photo.30.commitdate: 2021/7/11
+photo.30.link: https://www.instagram.com/kotata_513/
+photo.30.tags: bamboo, portrait, smile, whiskers
+photo.31: ig://CRKg_dvBa4l/m
+photo.31.author: miis_98
+photo.31.commitdate: 2021/7/11
+photo.31.link: https://www.instagram.com/miis_98/
+photo.31.tags: bamboo, dish, laying down, mofumofu, old, portrait
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw

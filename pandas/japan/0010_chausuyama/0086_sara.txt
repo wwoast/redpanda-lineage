@@ -820,8 +820,9 @@ photo.162.author: craig_craig_craig
 photo.162.commitdate: 2021/9/25
 photo.162.link: https://www.instagram.com/craig_craig_craig/
 photo.162.tags: bamboo, videolink
-photo.163: https://www.instagram.com/p/CTtQaehlO2r/media/?size=m
+photo.163: ig://CTtQaehlO2r/m
 photo.163.author: otenba_redpanda
+photo.163.commitdate: 2021/10/1
 photo.163.link: https://www.instagram.com/otenba_redpanda/
 photo.163.tags: peek, portrait, whiskers
 species: 2

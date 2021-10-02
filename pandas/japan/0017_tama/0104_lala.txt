@@ -293,55 +293,56 @@ photo.56.author: ssc6105
 photo.56.commitdate: 2020/8/29
 photo.56.link: https://www.instagram.com/ssc6105/
 photo.56.tags: paws, peek, portrait
-photo.57: ig://CGyP6B_hHGy/m
-photo.57.author: sunnylettuce_2021
-photo.57.commitdate: 2020/10/27
-photo.57.link: https://www.instagram.com/sunnylettuce_2021/
-photo.57.tags: mofumofu, portrait, tail
-photo.58: ig://CHB-Ud7BNY1/m
-photo.58.author: mariten1119
-photo.58.commitdate: 2020/11/11
-photo.58.link: https://www.instagram.com/mariten1119/
-photo.58.tags: laying down, paws, wave, yawn
-photo.59: ig://CJA5JCBBZzn/m
-photo.59.author: ssc6105
-photo.59.commitdate: 2021/1/2
-photo.59.link: https://www.instagram.com/ssc6105/
-photo.59.tags: paws, techitechi
-photo.60: ig://CJk06cjHnGB/m
-photo.60.author: mochan8686
-photo.60.commitdate: 2021/1/8
-photo.60.link: https://www.instagram.com/mochan8686/
-photo.60.tags: bamboo, mofumofu, portrait
-photo.61: ig://CKsno6pB6Q3/m
-photo.61.author: panda.daisuki
-photo.61.commitdate: 2021/3/10
-photo.61.link: https://www.instagram.com/panda.daisuki/
-photo.61.tags: paws, portrait, tongue, wave, yawn
-photo.62: ig://CQrpVdCB3HT/m
-photo.62.author: ck.chie
-photo.62.commitdate: 2021/6/28
-photo.62.link: https://www.instagram.com/ck.chie/
-photo.62.tags: bamboo, mofumofu, portrait, smile
-photo.63: ig://CRMDH11hGXX/m
-photo.63.author: mariten1119
-photo.63.commitdate: 2021/8/20
-photo.63.link: https://www.instagram.com/mariten1119/
-photo.63.tags: bamboo, tongue
-photo.64: ig://CSMXh6Upmk9/m
-photo.64.author: redpan22
-photo.64.commitdate: 2021/8/17
-photo.64.link: https://www.instagram.com/redpan22/
-photo.64.tags: hammock, mofumofu, paws, techitechi
-photo.65: ig://CSUPs7YnosG/m
-photo.65.author: mini_cochi
+photo.57: ig://CEz4NJmByyp/m
+photo.57.author: otenba_redpanda
+photo.57.commitdate: 2021/10/1
+photo.57.link: https://www.instagram.com/otenba_redpanda/
+photo.57.tags: laying down, portrait, smile, tongue, whiskers
+photo.58: ig://CGyP6B_hHGy/m
+photo.58.author: sunnylettuce_2021
+photo.58.commitdate: 2020/10/27
+photo.58.link: https://www.instagram.com/sunnylettuce_2021/
+photo.58.tags: mofumofu, portrait, tail
+photo.59: ig://CHB-Ud7BNY1/m
+photo.59.author: mariten1119
+photo.59.commitdate: 2020/11/11
+photo.59.link: https://www.instagram.com/mariten1119/
+photo.59.tags: laying down, paws, wave, yawn
+photo.60: ig://CJA5JCBBZzn/m
+photo.60.author: ssc6105
+photo.60.commitdate: 2021/1/2
+photo.60.link: https://www.instagram.com/ssc6105/
+photo.60.tags: paws, techitechi
+photo.61: ig://CJk06cjHnGB/m
+photo.61.author: mochan8686
+photo.61.commitdate: 2021/1/8
+photo.61.link: https://www.instagram.com/mochan8686/
+photo.61.tags: bamboo, mofumofu, portrait
+photo.62: ig://CKsno6pB6Q3/m
+photo.62.author: panda.daisuki
+photo.62.commitdate: 2021/3/10
+photo.62.link: https://www.instagram.com/panda.daisuki/
+photo.62.tags: paws, portrait, tongue, wave, yawn
+photo.63: ig://CQrpVdCB3HT/m
+photo.63.author: ck.chie
+photo.63.commitdate: 2021/6/28
+photo.63.link: https://www.instagram.com/ck.chie/
+photo.63.tags: bamboo, mofumofu, portrait, smile
+photo.64: ig://CRMDH11hGXX/m
+photo.64.author: mariten1119
+photo.64.commitdate: 2021/8/20
+photo.64.link: https://www.instagram.com/mariten1119/
+photo.64.tags: bamboo, tongue
+photo.65: ig://CSMXh6Upmk9/m
+photo.65.author: redpan22
 photo.65.commitdate: 2021/8/17
-photo.65.link: https://www.instagram.com/mini_cochi/
-photo.65.tags: hammock, mofumofu, portrait, tail
-photo.66: https://www.instagram.com/p/CEz4NJmByyp/media/?size=m
-photo.66.author: otenba_redpanda
-photo.66.link: https://www.instagram.com/otenba_redpanda/
-photo.66.tags: laying down, portrait, smile, tongue, whiskers
+photo.65.link: https://www.instagram.com/redpan22/
+photo.65.tags: hammock, mofumofu, paws, techitechi
+photo.66: ig://CSUPs7YnosG/m
+photo.66.author: mini_cochi
+photo.66.commitdate: 2021/8/17
+photo.66.link: https://www.instagram.com/mini_cochi/
+photo.66.tags: hammock, mofumofu, portrait, tail
 species: 2
 studbook.id: 0864
 zoo: 17

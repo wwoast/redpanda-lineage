@@ -273,35 +273,36 @@ photo.52.author: kijyo.zoo
 photo.52.commitdate: 2020/12/21
 photo.52.link: https://www.instagram.com/kijyo.zoo/
 photo.52.tags: apple time, keeper, portrait, standing, videolink
-photo.53: ig://CJ-DMfThOAc/m
-photo.53.author: lesserpanda_shizuokacity_cp
-photo.53.commitdate: 2021/1/16
-photo.53.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.53.tags: dish, lunch time, paws, peek, portrait, whiskers
-photo.54: ig://CN6ZT85BKQt/m
+photo.53: ig://CJo_pVQB6UB/m
+photo.53.author: otenba_redpanda
+photo.53.commitdate: 2021/10/1
+photo.53.link: https://www.instagram.com/otenba_redpanda/
+photo.53.tags: air tasting, bamboo, bite, close-up, portrait, tongue, whiskers
+photo.54: ig://CJ-DMfThOAc/m
 photo.54.author: lesserpanda_shizuokacity_cp
-photo.54.commitdate: 2021/5/19
+photo.54.commitdate: 2021/1/16
 photo.54.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.54.tags: portrait
-photo.55: ig://CPCezYBhLcv/m
+photo.54.tags: dish, lunch time, paws, peek, portrait, whiskers
+photo.55: ig://CN6ZT85BKQt/m
 photo.55.author: lesserpanda_shizuokacity_cp
-photo.55.commitdate: 2021/6/9
+photo.55.commitdate: 2021/5/19
 photo.55.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.55.tags: apple time, dish, lunch time, peek, portrait
-photo.56: ig://CRF_n7XsJp5/m
+photo.55.tags: portrait
+photo.56: ig://CPCezYBhLcv/m
 photo.56.author: lesserpanda_shizuokacity_cp
-photo.56.commitdate: 2021/7/11
+photo.56.commitdate: 2021/6/9
 photo.56.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.56.tags: close-up, grooming, laying down, paws, portrait
-photo.57: ig://CSaz3ZNHQFr/m
+photo.56.tags: apple time, dish, lunch time, peek, portrait
+photo.57: ig://CRF_n7XsJp5/m
 photo.57.author: lesserpanda_shizuokacity_cp
-photo.57.commitdate: 2021/8/18
+photo.57.commitdate: 2021/7/11
 photo.57.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.57.tags: home, portrait, tail
-photo.58: https://www.instagram.com/p/CJo_pVQB6UB/media/?size=m
-photo.58.author: otenba_redpanda
-photo.58.link: https://www.instagram.com/otenba_redpanda/
-photo.58.tags: air tasting, bamboo, bite, close-up, portrait, tongue, whiskers
+photo.57.tags: close-up, grooming, laying down, paws, portrait
+photo.58: ig://CSaz3ZNHQFr/m
+photo.58.author: lesserpanda_shizuokacity_cp
+photo.58.commitdate: 2021/8/18
+photo.58.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.58.tags: home, portrait, tail
 species: 2
 studbook.id: unknown
 zoo: 16

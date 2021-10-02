@@ -236,44 +236,46 @@ photo.45.author: ssc6105
 photo.45.commitdate: 2021/8/22
 photo.45.link: https://www.instagram.com/ssc6105/
 photo.45.tags: climb, peek, tail
-photo.46: ig://CFnYmgjhHHk/m
-photo.46.author: ssc6105
-photo.46.commitdate: 2020/11/19
-photo.46.link: https://www.instagram.com/ssc6105/
-photo.46.tags: laying down, tongue, whiskers
-photo.47: ig://CFwnHaJh-3E/m
-photo.47.author: kotata_513
-photo.47.commitdate: 2021/8/22
-photo.47.link: https://www.instagram.com/kotata_513/
-photo.47.tags: mofumofu, whiskers
-photo.48: ig://CH84KexH5HW/m
-photo.48.author: mochan8686
-photo.48.commitdate: 2020/11/29
-photo.48.link: https://www.instagram.com/mochan8686/
-photo.48.tags: portrait, tail, whiskers
-photo.49: ig://CO4toOrhERS/m
-photo.49.author: ck.chie
-photo.49.commitdate: 2021/6/15
-photo.49.link: https://www.instagram.com/ck.chie/
-photo.49.tags: bamboo, paws, portrait, smile, wink
-photo.50: ig://CRTwh1qh8nk/m
-photo.50.author: mini_cochi
-photo.50.commitdate: 2021/7/14
-photo.50.link: https://www.instagram.com/mini_cochi/
-photo.50.tags: bamboo, mofumofu, paws, portrait, smile
-photo.51: ig://CS1uaionnQe/m
-photo.51.author: mini_cochi
-photo.51.commitdate: 2021/8/24
-photo.51.link: https://www.instagram.com/mini_cochi/
-photo.51.tags: close-up, peek, portrait, whiskers
-photo.52: https://www.instagram.com/p/CCrj9MZhGFL/media/?size=m
-photo.52.author: otenba_redpanda
-photo.52.link: https://www.instagram.com/otenba_redpanda/
-photo.52.tags: bridge, laying down, portrait, tail
-photo.53: https://www.instagram.com/p/CGgqVbxBEQe/media/?size=m
-photo.53.author: otenba_redpanda
-photo.53.link: https://www.instagram.com/otenba_redpanda/
-photo.53.tags: blink, close-up, portrait, whiskers
+photo.46: ig://CCrj9MZhGFL/m
+photo.46.author: otenba_redpanda
+photo.46.commitdate: 2021/10/1
+photo.46.link: https://www.instagram.com/otenba_redpanda/
+photo.46.tags: bridge, laying down, portrait, tail
+photo.47: ig://CFnYmgjhHHk/m
+photo.47.author: ssc6105
+photo.47.commitdate: 2020/11/19
+photo.47.link: https://www.instagram.com/ssc6105/
+photo.47.tags: laying down, tongue, whiskers
+photo.48: ig://CFwnHaJh-3E/m
+photo.48.author: kotata_513
+photo.48.commitdate: 2021/8/22
+photo.48.link: https://www.instagram.com/kotata_513/
+photo.48.tags: mofumofu, whiskers
+photo.49: ig://CGgqVbxBEQe/m
+photo.49.author: otenba_redpanda
+photo.49.commitdate: 2021/10/1
+photo.49.link: https://www.instagram.com/otenba_redpanda/
+photo.49.tags: blink, close-up, portrait, whiskers
+photo.50: ig://CH84KexH5HW/m
+photo.50.author: mochan8686
+photo.50.commitdate: 2020/11/29
+photo.50.link: https://www.instagram.com/mochan8686/
+photo.50.tags: portrait, tail, whiskers
+photo.51: ig://CO4toOrhERS/m
+photo.51.author: ck.chie
+photo.51.commitdate: 2021/6/15
+photo.51.link: https://www.instagram.com/ck.chie/
+photo.51.tags: bamboo, paws, portrait, smile, wink
+photo.52: ig://CRTwh1qh8nk/m
+photo.52.author: mini_cochi
+photo.52.commitdate: 2021/7/14
+photo.52.link: https://www.instagram.com/mini_cochi/
+photo.52.tags: bamboo, mofumofu, paws, portrait, smile
+photo.53: ig://CS1uaionnQe/m
+photo.53.author: mini_cochi
+photo.53.commitdate: 2021/8/24
+photo.53.link: https://www.instagram.com/mini_cochi/
+photo.53.tags: close-up, peek, portrait, whiskers
 species: 2
 studbook.id: 0770
 zoo: 17
