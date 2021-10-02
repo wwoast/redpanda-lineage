@@ -513,5 +513,13 @@ photo.100.author: mini_cochi
 photo.100.commitdate: 2021/9/28
 photo.100.link: https://www.instagram.com/mini_cochi/
 photo.100.tags: paws, portrait, smile
+photo.101: https://www.instagram.com/p/CEZFQwzh2jr/media/?size=m
+photo.101.author: otenba_redpanda
+photo.101.link: https://www.instagram.com/otenba_redpanda/
+photo.101.tags: portrait, smile, whiskers
+photo.102: https://www.instagram.com/p/CES_laPBORC/media/?size=m
+photo.102.author: otenba_redpanda
+photo.102.link: https://www.instagram.com/otenba_redpanda/
+photo.102.tags: bamboo, bite, mofumofu, portrait
 species: 2
 zoo: 17
