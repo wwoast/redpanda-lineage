@@ -176,65 +176,66 @@ photo.33.author: mini_cochi
 photo.33.commitdate: 2021/7/6
 photo.33.link: https://www.instagram.com/mini_cochi/
 photo.33.tags: mofumofu, portrait, smile
-photo.34: ig://CCJUedpB-dA/m
+photo.34: ig://CB0u78JB9Fg/m
 photo.34.author: otenba_redpanda
 photo.34.commitdate: 2021/10/2
 photo.34.link: https://www.instagram.com/otenba_redpanda/
-photo.34.tags: close-up, mofumofu, portrait
-photo.35: ig://CCb1Re1hqii/m
+photo.34.tags: peek, portrait, whiskers
+photo.35: ig://CCJUedpB-dA/m
 photo.35.author: otenba_redpanda
-photo.35.commitdate: 2021/10/1
+photo.35.commitdate: 2021/10/2
 photo.35.link: https://www.instagram.com/otenba_redpanda/
-photo.35.tags: paws, portrait, whiskers
-photo.36: ig://CGDpjdzhJ76/m
-photo.36.author: ssc6105
-photo.36.commitdate: 2020/10/9
-photo.36.link: https://www.instagram.com/ssc6105/
-photo.36.tags: peek, portrait
-photo.37: ig://CGirj7theA2/m
-photo.37.author: ck.chie
-photo.37.commitdate: 2020/10/29
-photo.37.link: https://www.instagram.com/ck.chie/
-photo.37.tags: paws, peek, portrait, tree, whiskers
-photo.38: ig://CG7Lkm0hwuc/m
-photo.38.author: kotata_513
-photo.38.commitdate: 2020/11/8
-photo.38.link: https://www.instagram.com/kotata_513/
-photo.38.tags: muzzle
-photo.39: ig://CIO5BBGhyGm/m
-photo.39.author: otenba_redpanda
-photo.39.commitdate: 2021/10/2
-photo.39.link: https://www.instagram.com/otenba_redpanda/
-photo.39.tags: portrait, whiskers
-photo.40: ig://CJMrrWuhF7I/m
+photo.35.tags: close-up, mofumofu, portrait
+photo.36: ig://CCb1Re1hqii/m
+photo.36.author: otenba_redpanda
+photo.36.commitdate: 2021/10/1
+photo.36.link: https://www.instagram.com/otenba_redpanda/
+photo.36.tags: paws, portrait, whiskers
+photo.37: ig://CGDpjdzhJ76/m
+photo.37.author: ssc6105
+photo.37.commitdate: 2020/10/9
+photo.37.link: https://www.instagram.com/ssc6105/
+photo.37.tags: peek, portrait
+photo.38: ig://CGirj7theA2/m
+photo.38.author: ck.chie
+photo.38.commitdate: 2020/10/29
+photo.38.link: https://www.instagram.com/ck.chie/
+photo.38.tags: paws, peek, portrait, tree, whiskers
+photo.39: ig://CG7Lkm0hwuc/m
+photo.39.author: kotata_513
+photo.39.commitdate: 2020/11/8
+photo.39.link: https://www.instagram.com/kotata_513/
+photo.39.tags: muzzle
+photo.40: ig://CIO5BBGhyGm/m
 photo.40.author: otenba_redpanda
 photo.40.commitdate: 2021/10/2
 photo.40.link: https://www.instagram.com/otenba_redpanda/
 photo.40.tags: portrait, whiskers
-photo.41: ig://CK-EisnHQ8R/m
-photo.41.author: mochan8686
-photo.41.commitdate: 2021/3/7
-photo.41.link: https://www.instagram.com/mochan8686/
-photo.41.tags: bamboo, bite, portrait, smile
-photo.42: ig://CQERLZFh1O4/m
-photo.42.author: eos1089
-photo.42.commitdate: 2021/7/25
-photo.42.link: https://www.instagram.com/eos1089/
-photo.42.tags: close-up, portrait, whiskers
-photo.43: ig://CQE9O_6hdXj/m
-photo.43.author: alto0908
+photo.41: ig://CJMrrWuhF7I/m
+photo.41.author: otenba_redpanda
+photo.41.commitdate: 2021/10/2
+photo.41.link: https://www.instagram.com/otenba_redpanda/
+photo.41.tags: portrait, whiskers
+photo.42: ig://CK-EisnHQ8R/m
+photo.42.author: mochan8686
+photo.42.commitdate: 2021/3/7
+photo.42.link: https://www.instagram.com/mochan8686/
+photo.42.tags: bamboo, bite, portrait, smile
+photo.43: ig://CQERLZFh1O4/m
+photo.43.author: eos1089
 photo.43.commitdate: 2021/7/25
-photo.43.link: https://www.instagram.com/alto0908/
-photo.43.tags: door, peek, portrait, tail
-photo.44: ig://CQUbEjXBhvo/m
-photo.44.author: pink.b22
-photo.44.commitdate: 2021/7/14
-photo.44.link: https://www.instagram.com/pink.b22/
-photo.44.tags: laying down, portrait, tail
-photo.45: https://www.instagram.com/p/CB0u78JB9Fg/media/?size=m
-photo.45.author: otenba_redpanda
-photo.45.link: https://www.instagram.com/otenba_redpanda/
-photo.45.tags: peek, portrait, whiskers
+photo.43.link: https://www.instagram.com/eos1089/
+photo.43.tags: close-up, portrait, whiskers
+photo.44: ig://CQE9O_6hdXj/m
+photo.44.author: alto0908
+photo.44.commitdate: 2021/7/25
+photo.44.link: https://www.instagram.com/alto0908/
+photo.44.tags: door, peek, portrait, tail
+photo.45: ig://CQUbEjXBhvo/m
+photo.45.author: pink.b22
+photo.45.commitdate: 2021/7/14
+photo.45.link: https://www.instagram.com/pink.b22/
+photo.45.tags: laying down, portrait, tail
 species: 2
 studbook.id: 1091
 zoo: 17
