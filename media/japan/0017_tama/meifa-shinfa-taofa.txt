@@ -90,3 +90,10 @@ photo.11.tags: family, tail
 photo.11.tags.103.location: 5, 65
 photo.11.tags.948.location: 165, 205
 photo.11.tags.949.location: 35, 130
+photo.12: https://www.instagram.com/p/CHoSquah0d0/media/?size=m
+photo.12.author: otenba_redpanda
+photo.12.link: https://www.instagram.com/otenba_redpanda/
+photo.12.tags: door, family, portrait, whiskers
+photo.12.tags.103.location: 50, 155
+photo.12.tags.948.location: 175, 145
+photo.12.tags.949.location: 255, 120
