@@ -1,8 +1,10 @@
 [media]
 _id: media.17.shinfa-taofa
+commitdate: 2021/10/3
 panda.tags: 103, 948
-photo.1: https://www.instagram.com/p/CTqQTPyBqm0/media/?size=m
+photo.1: ig://CTqQTPyBqm0/m
 photo.1.author: otenba_redpanda
+photo.1.commitdate: 2021/10/3
 photo.1.link: https://www.instagram.com/otenba_redpanda/
 photo.1.tags: door, mother's day, portrait, whiskers
 photo.1.tags.103.location: 75, 160
