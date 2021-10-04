@@ -194,25 +194,26 @@ photo.37.author: miis_98
 photo.37.commitdate: 2021/8/6
 photo.37.link: https://www.instagram.com/miis_98/
 photo.37.tags: apple time, portrait, whiskers
-photo.38: ig://CRPrVUVhj8o/m
-photo.38.author: panda.daisuki
-photo.38.commitdate: 2021/7/13
-photo.38.link: https://www.instagram.com/panda.daisuki/
-photo.38.tags: portrait, whiskers
-photo.39: ig://CRRWJI7BkMM/m
-photo.39.author: minatomirai215
-photo.39.commitdate: 2021/8/20
-photo.39.link: https://www.instagram.com/minatomirai215/
-photo.39.tags: apple time, paws, peek, portrait, standing
-photo.40: ig://CUAVthihTq9/m
-photo.40.author: ifumoto88
-photo.40.commitdate: 2021/9/29
-photo.40.link: https://www.instagram.com/ifumoto88/
-photo.40.tags: bamboo, bite, mofumofu, portrait, profile
-photo.41: https://www.instagram.com/p/CPa5gNfhQBy/media/?size=m
-photo.41.author: grskus_tk
-photo.41.link: https://www.instagram.com/grskus_tk/
-photo.41.tags: apple time, bite, paws, tree
+photo.38: ig://CPa5gNfhQBy/m
+photo.38.author: grskus_tk
+photo.38.commitdate: 2021/10/4
+photo.38.link: https://www.instagram.com/grskus_tk/
+photo.38.tags: apple time, bite, paws, tree
+photo.39: ig://CRPrVUVhj8o/m
+photo.39.author: panda.daisuki
+photo.39.commitdate: 2021/7/13
+photo.39.link: https://www.instagram.com/panda.daisuki/
+photo.39.tags: portrait, whiskers
+photo.40: ig://CRRWJI7BkMM/m
+photo.40.author: minatomirai215
+photo.40.commitdate: 2021/8/20
+photo.40.link: https://www.instagram.com/minatomirai215/
+photo.40.tags: apple time, paws, peek, portrait, standing
+photo.41: ig://CUAVthihTq9/m
+photo.41.author: ifumoto88
+photo.41.commitdate: 2021/9/29
+photo.41.link: https://www.instagram.com/ifumoto88/
+photo.41.tags: bamboo, bite, mofumofu, portrait, profile
 species: 2
 studbook.id: 1694
 zoo: 26

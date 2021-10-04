@@ -598,20 +598,21 @@ photo.117.author: ssc6105
 photo.117.commitdate: 2021/7/21
 photo.117.link: https://www.instagram.com/ssc6105/
 photo.117.tags: bamboo, mofumofu, paws, standing
-photo.118: ig://CP8FoTQh9KC/m
-photo.118.author: rie_panda55
-photo.118.commitdate: 2021/6/19
-photo.118.link: https://www.instagram.com/rie_panda55/
-photo.118.tags: paws, portrait, smile, whiskers
-photo.119: ig://CSZYWLmhKoR/m
-photo.119.author: panda.daisuki
-photo.119.commitdate: 2021/8/10
-photo.119.link: https://www.instagram.com/panda.daisuki/
-photo.119.tags: apple time, keeper, paws, portrait, standing, tail
-photo.120: https://www.instagram.com/p/CPb6ouGB0ai/media/?size=m
-photo.120.author: ssc6105
-photo.120.link: https://www.instagram.com/ssc6105/
-photo.120.tags: keeper, paws, smile, tail, whiskers
+photo.118: ig://CPb6ouGB0ai/m
+photo.118.author: ssc6105
+photo.118.commitdate: 2021/10/4
+photo.118.link: https://www.instagram.com/ssc6105/
+photo.118.tags: keeper, paws, smile, tail, whiskers
+photo.119: ig://CP8FoTQh9KC/m
+photo.119.author: rie_panda55
+photo.119.commitdate: 2021/6/19
+photo.119.link: https://www.instagram.com/rie_panda55/
+photo.119.tags: paws, portrait, smile, whiskers
+photo.120: ig://CSZYWLmhKoR/m
+photo.120.author: panda.daisuki
+photo.120.commitdate: 2021/8/10
+photo.120.link: https://www.instagram.com/panda.daisuki/
+photo.120.tags: apple time, keeper, paws, portrait, standing, tail
 species: 2
 studbook.id: 13155
 zoo: 8

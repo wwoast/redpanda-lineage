@@ -252,20 +252,21 @@ photo.48.author: minatomirai215
 photo.48.commitdate: 2021/7/7
 photo.48.link: https://www.instagram.com/minatomirai215/
 photo.48.tags: mofumofu, portrait, whiskers
-photo.49: ig://CQskFUqhafD/m
-photo.49.author: eos1089
-photo.49.commitdate: 2021/9/1
-photo.49.link: https://www.instagram.com/eos1089/
-photo.49.tags: close-up, laying down, mofumofu, portrait
-photo.50: ig://CQtGGQahw1Q/m
-photo.50.author: minatomirai215
+photo.49: ig://CPTLM9fhiiC/m
+photo.49.author: miis_98
+photo.49.commitdate: 2021/10/4
+photo.49.link: https://www.instagram.com/miis_98/
+photo.49.tags: laying down, mofumofu, portrait, tail
+photo.50: ig://CQskFUqhafD/m
+photo.50.author: eos1089
 photo.50.commitdate: 2021/9/1
-photo.50.link: https://www.instagram.com/minatomirai215/
-photo.50.tags: apple time, keeper, mofumofu, portrait, techitechi
-photo.51: https://www.instagram.com/p/CPTLM9fhiiC/media/?size=m
-photo.51.author: miis_98
-photo.51.link: https://www.instagram.com/miis_98/
-photo.51.tags: laying down, mofumofu, portrait, tail
+photo.50.link: https://www.instagram.com/eos1089/
+photo.50.tags: close-up, laying down, mofumofu, portrait
+photo.51: ig://CQtGGQahw1Q/m
+photo.51.author: minatomirai215
+photo.51.commitdate: 2021/9/1
+photo.51.link: https://www.instagram.com/minatomirai215/
+photo.51.tags: apple time, keeper, mofumofu, portrait, techitechi
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y
