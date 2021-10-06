@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1300
-photo.1: https://www.instagram.com/p/CUnFPgGB2gD/media/?size=m
+photo.1: ig://CUnFPgGB2gD/m
 photo.1.author: resapan.suki
+photo.1.commitdate: 2021/10/6
 photo.1.link: https://www.instagram.com/resapan.suki/
 photo.1.tags: baby, mofumofu, portrait, profile, tail
 species: 2

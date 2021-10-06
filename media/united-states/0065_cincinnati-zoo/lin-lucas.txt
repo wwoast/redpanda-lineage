@@ -9,8 +9,9 @@ photo.1.link: https://www.instagram.com/cincinnatizoo/
 photo.1.tags: baby, bridge, mother's day, portrait
 photo.1.tags.390.location: 340, 230
 photo.1.tags.1191.location: 230, 270
-photo.2: https://www.instagram.com/p/CKfS3jxs0Ch/media/?size=l
+photo.2: ig://CKfS3jxs0Ch/l
 photo.2.author: cincinnatizoo
+photo.2.commitdate: 2021/10/6
 photo.2.link: https://www.instagram.com/cincinnatizoo/
 photo.2.tags: apple time, mother's day, portrait, snow
 photo.2.tags.390.location: 485, 105

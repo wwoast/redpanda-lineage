@@ -18,13 +18,15 @@ photo.1.author: chausuyamazoo
 photo.1.commitdate: 2021/7/18
 photo.1.link: https://www.instagram.com/chausuyamazoo/
 photo.1.tags: baby, bamboo, laying down, newborn, portrait, sleeping, tail
-photo.2: https://www.instagram.com/p/CUl37wxBxKm/media/?size=m
-photo.2.author: chausuyamazoo
-photo.2.link: https://www.instagram.com/chausuyamazoo/
-photo.2.tags: baby, mofumofu
-photo.3: https://www.instagram.com/p/CUg_UmlrwbO/media/?size=m
-photo.3.author: shigeko0531
-photo.3.link: https://www.instagram.com/shigeko0531/
-photo.3.tags: baby, home, mofumofu, portrait, profile
+photo.2: ig://CUg_UmlrwbO/m
+photo.2.author: shigeko0531
+photo.2.commitdate: 2021/10/6
+photo.2.link: https://www.instagram.com/shigeko0531/
+photo.2.tags: baby, home, mofumofu, portrait, profile
+photo.3: ig://CUl37wxBxKm/m
+photo.3.author: chausuyamazoo
+photo.3.commitdate: 2021/10/6
+photo.3.link: https://www.instagram.com/chausuyamazoo/
+photo.3.tags: baby, mofumofu
 species: 2
 zoo: 10

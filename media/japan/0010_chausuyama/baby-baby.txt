@@ -1,15 +1,18 @@
 [media]
 _id: media.10.baby-baby
+commitdate: 2021/10/6
 panda.tags: 1300, 1301
-photo.1: https://www.instagram.com/p/CUpTR8VFTlI/media/?size=l
-photo.1.author: shigeko0531
-photo.1.link: https://www.instagram.com/shigeko0531/
-photo.1.tags: baby, mofumofu, siblings, twins
-photo.1.tags.1300.location: 245, 200
-photo.1.tags.1301.location: 215, 315
-photo.2: https://www.instagram.com/p/CUhZk9bBf4e/media/?size=l
-photo.2.author: _saaaaaaah_
-photo.2.link: https://www.instagram.com/_saaaaaaah_/
-photo.2.tags: baby, grooming, siblings, twins
-photo.2.tags.1300.location: 155, 170
-photo.2.tags.1301.location: 250, 135
+photo.1: ig://CUhZk9bBf4e/l
+photo.1.author: _saaaaaaah_
+photo.1.commitdate: 2021/10/6
+photo.1.link: https://www.instagram.com/_saaaaaaah_/
+photo.1.tags: baby, grooming, siblings, twins
+photo.1.tags.1300.location: 155, 170
+photo.1.tags.1301.location: 250, 135
+photo.2: ig://CUpTR8VFTlI/l
+photo.2.author: shigeko0531
+photo.2.commitdate: 2021/10/6
+photo.2.link: https://www.instagram.com/shigeko0531/
+photo.2.tags: baby, mofumofu, siblings, twins
+photo.2.tags.1300.location: 245, 200
+photo.2.tags.1301.location: 215, 315
