@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 65, 2020/7/14
+location.2: 95, 2021/7/1
 photo.1: ig://CC4oleBDLlq/m
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2020/9/7
@@ -59,4 +61,5 @@ photo.9.commitdate: 2021/4/20
 photo.9.link: https://www.instagram.com/rossifari/
 photo.9.tags: paws, portrait, profile, standing, tail
 species: 2
-zoo: 65
+uncertainty: location.2 exact date in summer 2021
+zoo: 95
