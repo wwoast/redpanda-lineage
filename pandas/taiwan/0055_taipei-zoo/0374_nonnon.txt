@@ -4,6 +4,7 @@ birthday: 2003/6/16
 birthplace: 10
 children: none
 commitdate: 2018/10/27
+death: 2021/4/1
 en.name: Non-Non
 en.nicknames: none
 en.othernames: none
@@ -18,4 +19,5 @@ location.2: 17, 2005/3/30
 location.3: 55, 2005/12/15
 species: 2
 studbook.id: 0360
+uncertainty: exact day of death (reported by RPF forms)
 zoo: 55
