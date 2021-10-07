@@ -513,8 +513,9 @@ photo.100.author: hamamatsu.chiita
 photo.100.commitdate: 2021/9/22
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
 photo.100.tags: mofumofu, portrait, whiskers
-photo.101: https://www.instagram.com/p/CUlFD7rBSSt/media/?size=m
+photo.101: ig://CUlFD7rBSSt/m
 photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2021/10/6
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
 photo.101.tags: paws, portrait, whiskers
 species: 2

@@ -539,14 +539,16 @@ photo.105.author: pink.b22
 photo.105.commitdate: 2021/9/10
 photo.105.link: https://www.instagram.com/pink.b22/
 photo.105.tags: bamboo, flowers, paws, portrait, smile
-photo.106: https://www.instagram.com/p/CUq_YWBBnAV/media/?size=m
+photo.106: ig://CUpqJOLFtNy/m
 photo.106.author: otenba_redpanda
+photo.106.commitdate: 2021/10/6
 photo.106.link: https://www.instagram.com/otenba_redpanda/
-photo.106.tags: mofumofu, portrait, smile, tongue, whiskers, white face
-photo.107: https://www.instagram.com/p/CUpqJOLFtNy/media/?size=m
+photo.106.tags: laying down, mofumofu, portrait, tree
+photo.107: ig://CUq_YWBBnAV/m
 photo.107.author: otenba_redpanda
+photo.107.commitdate: 2021/10/6
 photo.107.link: https://www.instagram.com/otenba_redpanda/
-photo.107.tags: laying down, mofumofu, portrait, tree
+photo.107.tags: mofumofu, portrait, smile, tongue, whiskers, white face
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI

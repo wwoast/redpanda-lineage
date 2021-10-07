@@ -33,8 +33,9 @@ photo.4.author: carsontheredpanda
 photo.4.commitdate: 2021/9/18
 photo.4.link: https://www.instagram.com/carsontheredpanda/
 photo.4.tags: paws, portrait, tongue, whiskers
-photo.5: https://www.instagram.com/p/CUIj7hmPaub/media/?size=m
+photo.5: ig://CUIj7hmPaub/m
 photo.5.author: carsontheredpanda
+photo.5.commitdate: 2021/10/6
 photo.5.link: https://www.instagram.com/carsontheredpanda/
 photo.5.tags: portrait, smile, techitechi, whiskers
 species: 2

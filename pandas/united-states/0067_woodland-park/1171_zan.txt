@@ -38,8 +38,9 @@ photo.5.author: woodlandparkzoo
 photo.5.commitdate: 2021/6/9
 photo.5.link: https://www.instagram.com/carsontheredpanda/
 photo.5.tags: apple time, close-up, paws, smile
-photo.6: https://www.instagram.com/p/CUXz8REpfsx/media/?size=m
+photo.6: ig://CUXz8REpfsx/m
 photo.6.author: carsontheredpanda
+photo.6.commitdate: 2021/10/6
 photo.6.link: https://www.instagram.com/carsontheredpanda/
 photo.6.tags: portrait, profile, smile
 species: 2

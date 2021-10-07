@@ -36,8 +36,9 @@ photo.4.author: cincinnatizoo
 photo.4.commitdate: 2021/9/22
 photo.4.link: https://www.instagram.com/cincinnatizoo/
 photo.4.tags: baby, laying down, mofumofu, portrait, video
-photo.5: https://www.instagram.com/p/CUDKRb5NHug/media/?size=m
+photo.5: ig://CUDKRb5NHug/m
 photo.5.author: cincinnatizoo
+photo.5.commitdate: 2021/10/6
 photo.5.link: https://www.instagram.com/cincinnatizoo/
 photo.5.tags: baby, laying down, mofumofu, tail
 species: 2

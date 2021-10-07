@@ -538,32 +538,36 @@ photo.105.author: ayusuke56
 photo.105.commitdate: 2021/6/29
 photo.105.link: https://www.instagram.com/ayusuke56/
 photo.105.tags: portrait
-photo.106: ig://CSS_W4EhXPt/m
-photo.106.author: grskus_tk
-photo.106.commitdate: 2021/8/14
-photo.106.link: https://www.instagram.com/grskus_tk/
-photo.106.tags: bridge, grooming, laying down, paws, tongue
-photo.107: ig://CSTCELaBiwy/m
-photo.107.author: grskus_tk
-photo.107.commitdate: 2021/8/14
-photo.107.link: https://www.instagram.com/grskus_tk/
-photo.107.tags: bamboo, peek
-photo.108: https://www.instagram.com/p/CUjoOBmBkry/media/?size=m
+photo.106: ig://CPxgifVhnbK/m
+photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2021/10/6
+photo.106.link: https://www.instagram.com/hamamatsu.chiita/
+photo.106.tags: ear, portrait
+photo.107: ig://CQJ47rSBf6p/m
+photo.107.author: hamamatsu.chiita
+photo.107.commitdate: 2021/10/6
+photo.107.link: https://www.instagram.com/hamamatsu.chiita/
+photo.107.tags: close-up, grumpy, portrait
+photo.108: ig://CRkAU7hrKCq/m
 photo.108.author: hamamatsu.chiita
+photo.108.commitdate: 2021/10/6
 photo.108.link: https://www.instagram.com/hamamatsu.chiita/
-photo.108.tags: close-up, portrait, smile, whiskers
-photo.109: https://www.instagram.com/p/CRkAU7hrKCq/media/?size=m
-photo.109.author: hamamatsu.chiita
-photo.109.link: https://www.instagram.com/hamamatsu.chiita/
-photo.109.tags: ear, laying down, paws, portrait
-photo.110: https://www.instagram.com/p/CPxgifVhnbK/media/?size=m
-photo.110.author: hamamatsu.chiita
-photo.110.link: https://www.instagram.com/hamamatsu.chiita/
-photo.110.tags: ear, portrait
-photo.111: https://www.instagram.com/p/CQJ47rSBf6p/media/?size=m
+photo.108.tags: ear, laying down, paws, portrait
+photo.109: ig://CSS_W4EhXPt/m
+photo.109.author: grskus_tk
+photo.109.commitdate: 2021/8/14
+photo.109.link: https://www.instagram.com/grskus_tk/
+photo.109.tags: bridge, grooming, laying down, paws, tongue
+photo.110: ig://CSTCELaBiwy/m
+photo.110.author: grskus_tk
+photo.110.commitdate: 2021/8/14
+photo.110.link: https://www.instagram.com/grskus_tk/
+photo.110.tags: bamboo, peek
+photo.111: ig://CUjoOBmBkry/m
 photo.111.author: hamamatsu.chiita
+photo.111.commitdate: 2021/10/6
 photo.111.link: https://www.instagram.com/hamamatsu.chiita/
-photo.111.tags: close-up, grumpy, portrait
+photo.111.tags: close-up, portrait, smile, whiskers
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
