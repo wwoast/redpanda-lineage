@@ -118,8 +118,9 @@ photo.21.author: daniele.tokyo
 photo.21.commitdate: 2021/7/21
 photo.21.link: https://www.instagram.com/daniele.tokyo/
 photo.21.tags: laying down, paws, portrait, sleeping, tail
-photo.22: https://www.instagram.com/p/CTCMj-eB_Wi/media/?size=m
+photo.22: ig://CTCMj-eB_Wi/m
 photo.22.author: daniele.tokyo
+photo.22.commitdate: 2021/10/7
 photo.22.link: https://www.instagram.com/daniele.tokyo/
 photo.22.tags: keeper, peek, whiskers
 species: 2

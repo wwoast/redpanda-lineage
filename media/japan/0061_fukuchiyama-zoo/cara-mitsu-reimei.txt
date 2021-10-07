@@ -18,8 +18,9 @@ photo.2.tags: family, father's day, playing
 photo.2.tags.284.location: 80, 150
 photo.2.tags.286.location: 260, 115
 photo.2.tags.959.location: 130, 265
-photo.3: https://www.instagram.com/p/CTDztdMhGG-/media/?size=l
+photo.3: ig://CTDztdMhGG-/l
 photo.3.author: kisshan324
+photo.3.commitdate: 2021/10/7
 photo.3.link: https://www.instagram.com/kisshan324/
 photo.3.tags: family, father's day, playing
 photo.3.tags.284.location: 250, 280
