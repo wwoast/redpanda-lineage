@@ -130,61 +130,66 @@ photo.23.author: mishimarugo
 photo.23.commitdate: 2020/5/19
 photo.23.link: https://www.instagram.com/mishimarugo/
 photo.23.tags: portrait, techitechi
-photo.24: ig://CDGmv5khcqq/m
-photo.24.author: monmon_redpanda
-photo.24.commitdate: 2020/7/28
-photo.24.link: https://www.instagram.com/monmon_redpanda/
-photo.24.tags: portrait, whiskers
-photo.25: ig://CHaAXSWh4dz/m
-photo.25.author: miis_98
-photo.25.commitdate: 2020/11/20
-photo.25.link: https://www.instagram.com/miis_98/
-photo.25.tags: paws, portrait, smile, tail
-photo.26: ig://CH1HRkKBpve/m
-photo.26.author: yossi929
-photo.26.commitdate: 2020/12/2
-photo.26.link: https://www.instagram.com/yossi929/
-photo.26.tags: keeper, nose, portrait, training
-photo.27: ig://CKOh_2_B5Qy/m
-photo.27.author: sasapan34
-photo.27.commitdate: 2021/6/8
-photo.27.link: https://www.instagram.com/sasapan34/
-photo.27.tags: laying down, paws
-photo.28: ig://CL6vegLB0qO/m
-photo.28.author: mifko55
-photo.28.commitdate: 2021/3/10
-photo.28.link: https://www.instagram.com/mifko55/
-photo.28.tags: hammock, paws, portrait, tongue
-photo.29: ig://CMiXb3cBd1p/m
-photo.29.author: yossi929
-photo.29.commitdate: 2021/6/8
-photo.29.link: https://www.instagram.com/yossi929/
-photo.29.tags: hammock, peek, tongue
-photo.30: ig://CPRc50yhnW4/m
+photo.24: ig://CAa2nmdhoA6/m
+photo.24.author: hamiiiii831_
+photo.24.commitdate: 2020/5/27
+photo.24.link: https://www.instagram.com/hamiiiii831_/
+photo.24.tags: portrait, smile, tongue, toys
+photo.25: ig://CDGmv5khcqq/m
+photo.25.author: monmon_redpanda
+photo.25.commitdate: 2020/7/28
+photo.25.link: https://www.instagram.com/monmon_redpanda/
+photo.25.tags: portrait, whiskers
+photo.26: ig://CHaAXSWh4dz/m
+photo.26.author: miis_98
+photo.26.commitdate: 2020/11/20
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: paws, portrait, smile, tail
+photo.27: ig://CH1HRkKBpve/m
+photo.27.author: yossi929
+photo.27.commitdate: 2020/12/2
+photo.27.link: https://www.instagram.com/yossi929/
+photo.27.tags: keeper, nose, portrait, training
+photo.28: ig://CKOh_2_B5Qy/m
+photo.28.author: sasapan34
+photo.28.commitdate: 2021/6/8
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: laying down, paws
+photo.29: ig://CL6vegLB0qO/m
+photo.29.author: mifko55
+photo.29.commitdate: 2021/3/10
+photo.29.link: https://www.instagram.com/mifko55/
+photo.29.tags: hammock, paws, portrait, tongue
+photo.30: ig://CMiXb3cBd1p/m
 photo.30.author: yossi929
 photo.30.commitdate: 2021/6/8
 photo.30.link: https://www.instagram.com/yossi929/
-photo.30.tags: portrait, whiskers
-photo.31: ig://CPWoIQwhEao/m
+photo.30.tags: hammock, peek, tongue
+photo.31: ig://CPRc50yhnW4/m
 photo.31.author: yossi929
 photo.31.commitdate: 2021/6/8
 photo.31.link: https://www.instagram.com/yossi929/
-photo.31.tags: keeper, portrait, smile
-photo.32: ig://CPeq_GgBw8X/m
+photo.31.tags: portrait, whiskers
+photo.32: ig://CPWoIQwhEao/m
 photo.32.author: yossi929
 photo.32.commitdate: 2021/6/8
 photo.32.link: https://www.instagram.com/yossi929/
-photo.32.tags: bamboo, laying down
-photo.33: ig://CP4coWNhJLY/m
-photo.33.author: sasapan34
-photo.33.commitdate: 2021/6/24
-photo.33.link: https://www.instagram.com/sasapan34/
-photo.33.tags: mofumofu, smile
-photo.34: ig://CQLcSSaLuu_/m
-photo.34.author: yossi929
-photo.34.commitdate: 2021/6/19
-photo.34.link: https://www.instagram.com/yossi929/
-photo.34.tags: mofumofu, paws, smile
+photo.32.tags: keeper, portrait, smile
+photo.33: ig://CPeq_GgBw8X/m
+photo.33.author: yossi929
+photo.33.commitdate: 2021/6/8
+photo.33.link: https://www.instagram.com/yossi929/
+photo.33.tags: bamboo, laying down
+photo.34: ig://CP4coWNhJLY/m
+photo.34.author: sasapan34
+photo.34.commitdate: 2021/6/24
+photo.34.link: https://www.instagram.com/sasapan34/
+photo.34.tags: mofumofu, smile
+photo.35: ig://CQLcSSaLuu_/m
+photo.35.author: yossi929
+photo.35.commitdate: 2021/6/19
+photo.35.link: https://www.instagram.com/yossi929/
+photo.35.tags: mofumofu, paws, smile
 species: 2
 studbook.id: 0774
 zoo: 20

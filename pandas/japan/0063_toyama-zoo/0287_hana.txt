@@ -71,46 +71,51 @@ photo.11.author: framereim
 photo.11.commitdate: 2019/12/5
 photo.11.link: https://www.instagram.com/framereim/
 photo.11.tags: blink, dish, home, keeper, lunch time, portrait
-photo.12: ig://B53vHIeBC6M/m
-photo.12.author: fetorus_mami
-photo.12.commitdate: 2019/12/31
-photo.12.link: https://www.instagram.com/fetorus_mami/
-photo.12.tags: keeper, lunch time, techitechi
-photo.13: ig://B7WAishpcER/m
-photo.13.author: mochan8686
-photo.13.commitdate: 2020/1/16
-photo.13.link: https://www.instagram.com/mochan8686/
-photo.13.tags: home, lunch time, paws, portrait, tongue
-photo.14: ig://B8bTuIrhX1i/m
-photo.14.author: reikazumeru7172119
-photo.14.commitdate: 2020/5/5
-photo.14.link: https://www.instagram.com/reikazumeru7172119/
-photo.14.tags: laying down, sleeping, tail
-photo.15: ig://CB8BCvRnNpL/m
-photo.15.author: mochan8686
-photo.15.commitdate: 2020/7/2
-photo.15.link: https://www.instagram.com/mochan8686/
-photo.15.tags: portrait, techitechi, whiskers
-photo.16: ig://CFYm5ERBWJG/m
-photo.16.author: fetorus_mami
-photo.16.commitdate: 2021/6/14
-photo.16.link: https://www.instagram.com/fetorus_mami/
-photo.16.tags: whiskers
-photo.17: ig://CG6WvFsBo4p/m
-photo.17.author: reikazumeru7172119
-photo.17.commitdate: 2020/11/1
-photo.17.link: https://www.instagram.com/reikazumeru7172119/
-photo.17.tags: bamboo, blink, home, portrait
-photo.18: ig://CQYmwPdB2_l/m
-photo.18.author: mikaamihara
-photo.18.commitdate: 2021/6/23
-photo.18.link: https://www.instagram.com/mikaamihara/
-photo.18.tags: mofumofu, tail
-photo.19: ig://CSsdc0WHIk9/m
-photo.19.author: fetorus_mami
-photo.19.commitdate: 2021/8/18
-photo.19.link: https://www.instagram.com/fetorus_mami/
-photo.19.tags: bridge, peek, whiskers
+photo.12: ig://B4ufDFJBiue/m
+photo.12.author: hamiiiii831_
+photo.12.commitdate: 2019/11/15
+photo.12.link: https://www.instagram.com/hamiiiii831_/
+photo.12.tags: home, paws, portrait, whiskers
+photo.13: ig://B53vHIeBC6M/m
+photo.13.author: fetorus_mami
+photo.13.commitdate: 2019/12/31
+photo.13.link: https://www.instagram.com/fetorus_mami/
+photo.13.tags: keeper, lunch time, techitechi
+photo.14: ig://B7WAishpcER/m
+photo.14.author: mochan8686
+photo.14.commitdate: 2020/1/16
+photo.14.link: https://www.instagram.com/mochan8686/
+photo.14.tags: home, lunch time, paws, portrait, tongue
+photo.15: ig://B8bTuIrhX1i/m
+photo.15.author: reikazumeru7172119
+photo.15.commitdate: 2020/5/5
+photo.15.link: https://www.instagram.com/reikazumeru7172119/
+photo.15.tags: laying down, sleeping, tail
+photo.16: ig://CB8BCvRnNpL/m
+photo.16.author: mochan8686
+photo.16.commitdate: 2020/7/2
+photo.16.link: https://www.instagram.com/mochan8686/
+photo.16.tags: portrait, techitechi, whiskers
+photo.17: ig://CFYm5ERBWJG/m
+photo.17.author: fetorus_mami
+photo.17.commitdate: 2021/6/14
+photo.17.link: https://www.instagram.com/fetorus_mami/
+photo.17.tags: whiskers
+photo.18: ig://CG6WvFsBo4p/m
+photo.18.author: reikazumeru7172119
+photo.18.commitdate: 2020/11/1
+photo.18.link: https://www.instagram.com/reikazumeru7172119/
+photo.18.tags: bamboo, blink, home, portrait
+photo.19: ig://CQYmwPdB2_l/m
+photo.19.author: mikaamihara
+photo.19.commitdate: 2021/6/23
+photo.19.link: https://www.instagram.com/mikaamihara/
+photo.19.tags: mofumofu, tail
+photo.20: ig://CSsdc0WHIk9/m
+photo.20.author: fetorus_mami
+photo.20.commitdate: 2021/8/18
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: bridge, peek, whiskers
 species: 2
 studbook.id: 0551
 zoo: 63
