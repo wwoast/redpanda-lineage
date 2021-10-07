@@ -22,7 +22,7 @@ photo.2: ig://CGDgT1kh2wf/m
 photo.2.author: woodlandparkzoo
 photo.2.commitdate: 2020/10/7
 photo.2.link: https://www.instagram.com/woodlandparkzoo/
-photo.2.tags: baby, portrait, profile, pumpkin, smile, white face
+photo.2.tags: baby, portrait, pumpkin, smile, white face
 photo.3: ig://CGEQM62hfWu/m
 photo.3.author: woodlandparkzoo
 photo.3.commitdate: 2020/10/9
@@ -38,5 +38,9 @@ photo.5.author: woodlandparkzoo
 photo.5.commitdate: 2021/6/9
 photo.5.link: https://www.instagram.com/carsontheredpanda/
 photo.5.tags: apple time, close-up, paws, smile
+photo.6: https://www.instagram.com/p/CUXz8REpfsx/media/?size=m
+photo.6.author: carsontheredpanda
+photo.6.link: https://www.instagram.com/carsontheredpanda/
+photo.6.tags: portrait, profile, smile
 species: 2
 zoo: 67
