@@ -161,66 +161,61 @@ photo.29.author: mifko55
 photo.29.commitdate: 2020/5/4
 photo.29.link: https://www.instagram.com/mifko55/
 photo.29.tags: nose, portrait, smile, whiskers
-photo.30: ig://CCI7v9gBT7d/m
-photo.30.author: hamiiiii831_
-photo.30.commitdate: 2020/9/13
-photo.30.link: https://www.instagram.com/hamiiiii831_/
-photo.30.tags: close-up, paws, whiskers
-photo.31: ig://CC-7mmVB3Zx/m
+photo.30: ig://CC-7mmVB3Zx/m
+photo.30.author: chankunvv
+photo.30.commitdate: 2020/9/10
+photo.30.link: https://www.instagram.com/chankunvv/
+photo.30.tags: mofumofu, portrait
+photo.31: ig://CERIIvdhg30/m
 photo.31.author: chankunvv
-photo.31.commitdate: 2020/9/10
+photo.31.commitdate: 2021/6/14
 photo.31.link: https://www.instagram.com/chankunvv/
-photo.31.tags: mofumofu, portrait
-photo.32: ig://CERIIvdhg30/m
+photo.31.tags: paws, portrait, whiskers
+photo.32: ig://CGb2QfoB85_/m
 photo.32.author: chankunvv
-photo.32.commitdate: 2021/6/14
+photo.32.commitdate: 2020/11/2
 photo.32.link: https://www.instagram.com/chankunvv/
-photo.32.tags: paws, portrait, whiskers
-photo.33: ig://CGb2QfoB85_/m
-photo.33.author: chankunvv
-photo.33.commitdate: 2020/11/2
-photo.33.link: https://www.instagram.com/chankunvv/
-photo.33.tags: paws, portrait, smile
-photo.34: ig://CJi3jVvBLPs/m
+photo.32.tags: paws, portrait, smile
+photo.33: ig://CJi3jVvBLPs/m
+photo.33.author: craig_craig_craig
+photo.33.commitdate: 2021/1/3
+photo.33.link: https://www.instagram.com/craig_craig_craig/
+photo.33.tags: dish, lunch time, portrait, videolink
+photo.34: ig://CL4haoSBqoq/m
 photo.34.author: craig_craig_craig
-photo.34.commitdate: 2021/1/3
+photo.34.commitdate: 2021/3/7
 photo.34.link: https://www.instagram.com/craig_craig_craig/
 photo.34.tags: dish, lunch time, portrait, videolink
-photo.35: ig://CL4haoSBqoq/m
-photo.35.author: craig_craig_craig
-photo.35.commitdate: 2021/3/7
-photo.35.link: https://www.instagram.com/craig_craig_craig/
-photo.35.tags: dish, lunch time, portrait, videolink
-photo.36: ig://CNgu7MFhKo1/m
-photo.36.author: chankunvv
-photo.36.commitdate: 2021/4/17
-photo.36.link: https://www.instagram.com/chankunvv/
-photo.36.tags: dish, nose, portrait
-photo.37: ig://CP278yIhF44/m
+photo.35: ig://CNgu7MFhKo1/m
+photo.35.author: chankunvv
+photo.35.commitdate: 2021/4/17
+photo.35.link: https://www.instagram.com/chankunvv/
+photo.35.tags: dish, nose, portrait
+photo.36: ig://CP278yIhF44/m
+photo.36.author: craig_craig_craig
+photo.36.commitdate: 2021/7/5
+photo.36.link: https://www.instagram.com/craig_craig_craig/
+photo.36.tags: dish, lunch, nose, portrait, videolink
+photo.37: ig://CQ8bvmeBLH5/m
 photo.37.author: craig_craig_craig
 photo.37.commitdate: 2021/7/5
 photo.37.link: https://www.instagram.com/craig_craig_craig/
-photo.37.tags: dish, lunch, nose, portrait, videolink
-photo.38: ig://CQ8bvmeBLH5/m
+photo.37.tags: dish, nose, portrait, videolink
+photo.38: ig://CQ8xqJqB8bV/m
 photo.38.author: craig_craig_craig
-photo.38.commitdate: 2021/7/5
+photo.38.commitdate: 2021/7/8
 photo.38.link: https://www.instagram.com/craig_craig_craig/
-photo.38.tags: dish, nose, portrait, videolink
-photo.39: ig://CQ8xqJqB8bV/m
-photo.39.author: craig_craig_craig
+photo.38.tags: close-up, mofumofu, nose, portrait, whiskers
+photo.39: ig://CRDA9FKBSVW/m
+photo.39.author: sasapan34
 photo.39.commitdate: 2021/7/8
-photo.39.link: https://www.instagram.com/craig_craig_craig/
-photo.39.tags: close-up, mofumofu, nose, portrait, whiskers
-photo.40: ig://CRDA9FKBSVW/m
-photo.40.author: sasapan34
-photo.40.commitdate: 2021/7/8
-photo.40.link: https://www.instagram.com/sasapan34/
-photo.40.tags: paws, smile
-photo.41: ig://CRJixDhBW-V/m
-photo.41.author: mifko55
-photo.41.commitdate: 2021/7/19
-photo.41.link: https://www.instagram.com/mifko55/
-photo.41.tags: portrait, whiskers
+photo.39.link: https://www.instagram.com/sasapan34/
+photo.39.tags: paws, smile
+photo.40: ig://CRJixDhBW-V/m
+photo.40.author: mifko55
+photo.40.commitdate: 2021/7/19
+photo.40.link: https://www.instagram.com/mifko55/
+photo.40.tags: portrait, whiskers
 species: 2
 studbook.id: 10111
 zoo: 29

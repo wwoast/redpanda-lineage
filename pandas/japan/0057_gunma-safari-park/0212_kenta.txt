@@ -458,36 +458,31 @@ photo.90.author: miis_98
 photo.90.commitdate: 2021/3/2
 photo.90.link: https://www.instagram.com/miis_98/
 photo.90.tags: bamboo, bridge, poop, portrait
-photo.91: ig://CNomDxwh8Eg/m
-photo.91.author: hamiiiii831_
-photo.91.commitdate: 2021/6/1
-photo.91.link: https://www.instagram.com/hamiiiii831_/
-photo.91.tags: paws, videolink
-photo.92: ig://CNyzeucM-_m/m
-photo.92.author: miis_98
-photo.92.commitdate: 2021/5/3
-photo.92.link: https://www.instagram.com/miis_98/
-photo.92.tags: portrait, tail, whiskers
-photo.93: ig://COAYjP5hJ-9/m
-photo.93.author: resapan.suki
-photo.93.commitdate: 2021/5/19
-photo.93.link: https://www.instagram.com/resapan.suki/
-photo.93.tags: portrait, tongue, whiskers
-photo.94: ig://CPKcsXPhwFe/m
-photo.94.author: miis_98
-photo.94.commitdate: 2021/7/7
-photo.94.link: https://www.instagram.com/miis_98/
-photo.94.tags: peek, portrait
-photo.95: ig://CPna9oABFhq/m
-photo.95.author: fetorus_mami
-photo.95.commitdate: 2021/8/11
-photo.95.link: https://www.instagram.com/fetorus_mami/
-photo.95.tags: apple time, close-up
-photo.96: ig://CRgyKlShVaL/m
-photo.96.author: miis_98
-photo.96.commitdate: 2021/9/13
-photo.96.link: https://www.instagram.com/miis_98/
-photo.96.tags: bridge, laying down, portrait
+photo.91: ig://CNyzeucM-_m/m
+photo.91.author: miis_98
+photo.91.commitdate: 2021/5/3
+photo.91.link: https://www.instagram.com/miis_98/
+photo.91.tags: portrait, tail, whiskers
+photo.92: ig://COAYjP5hJ-9/m
+photo.92.author: resapan.suki
+photo.92.commitdate: 2021/5/19
+photo.92.link: https://www.instagram.com/resapan.suki/
+photo.92.tags: portrait, tongue, whiskers
+photo.93: ig://CPKcsXPhwFe/m
+photo.93.author: miis_98
+photo.93.commitdate: 2021/7/7
+photo.93.link: https://www.instagram.com/miis_98/
+photo.93.tags: peek, portrait
+photo.94: ig://CPna9oABFhq/m
+photo.94.author: fetorus_mami
+photo.94.commitdate: 2021/8/11
+photo.94.link: https://www.instagram.com/fetorus_mami/
+photo.94.tags: apple time, close-up
+photo.95: ig://CRgyKlShVaL/m
+photo.95.author: miis_98
+photo.95.commitdate: 2021/9/13
+photo.95.link: https://www.instagram.com/miis_98/
+photo.95.tags: bridge, laying down, portrait
 species: 2
 studbook.id: 1693
 zoo: 57

@@ -60,26 +60,21 @@ photo.9.author: sunnylettuce_2021
 photo.9.commitdate: 2019/12/31
 photo.9.link: https://www.instagram.com/sunnylettuce_2021/
 photo.9.tags: paws, smile
-photo.10: ig://CI7W7Q0B92c/m
-photo.10.author: hamiiiii831_
-photo.10.commitdate: 2020/12/30
-photo.10.link: https://www.instagram.com/hamiiiii831_/
-photo.10.tags: mofumofu, portrait, whiskers
-photo.11: ig://CL3SkMNh_KX/m
-photo.11.author: sasapan34
-photo.11.commitdate: 2021/3/10
-photo.11.link: https://www.instagram.com/sasapan34/
-photo.11.tags: whiskers
-photo.12: ig://CNKso0TBtmc/m
-photo.12.author: miis_98
-photo.12.commitdate: 2021/4/3
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: apple time, portrait, smile, whiskers
-photo.13: ig://CN9axp5hBLB/m
-photo.13.author: kojikoji2011
-photo.13.commitdate: 2021/6/7
-photo.13.link: https://www.instagram.com/kojikoji2011/
-photo.13.tags: portrait, whiskers, white face
+photo.10: ig://CL3SkMNh_KX/m
+photo.10.author: sasapan34
+photo.10.commitdate: 2021/3/10
+photo.10.link: https://www.instagram.com/sasapan34/
+photo.10.tags: whiskers
+photo.11: ig://CNKso0TBtmc/m
+photo.11.author: miis_98
+photo.11.commitdate: 2021/4/3
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: apple time, portrait, smile, whiskers
+photo.12: ig://CN9axp5hBLB/m
+photo.12.author: kojikoji2011
+photo.12.commitdate: 2021/6/7
+photo.12.link: https://www.instagram.com/kojikoji2011/
+photo.12.tags: portrait, whiskers, white face
 species: 2
 studbook.id: 13162
 zoo: 42

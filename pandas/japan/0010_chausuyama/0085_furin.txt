@@ -210,46 +210,41 @@ photo.39.author: panda.daisuki
 photo.39.commitdate: 2020/7/16
 photo.39.link: https://www.instagram.com/panda.daisuki/
 photo.39.tags: dish, flowers, portrait, smile
-photo.40: ig://CCe5x_8hUU5/m
-photo.40.author: hamiiiii831_
-photo.40.commitdate: 2020/7/16
-photo.40.link: https://www.instagram.com/hamiiiii831_/
-photo.40.tags: dish, paws, whiskers
-photo.41: ig://CFxSdJQBmTq/m
-photo.41.author: otenba_redpanda
-photo.41.commitdate: 2021/10/1
-photo.41.link: https://www.instagram.com/otenba_redpanda/
-photo.41.tags: close-up, portrait, smile, whiskers
-photo.42: ig://CFzHgeLBrmJ/m
-photo.42.author: craig_craig_craig
-photo.42.commitdate: 2020/11/8
-photo.42.link: https://www.instagram.com/craig_craig_craig/
-photo.42.tags: apple time, dish, portrait, tail, videolink
-photo.43: ig://CHbYy_wBsPC/m
-photo.43.author: rie_panda55
-photo.43.commitdate: 2020/11/21
-photo.43.link: https://www.instagram.com/rie_panda55/
-photo.43.tags: bamboo, portrait, smile, tail
-photo.44: ig://CH-DVUPh5SN/m
-photo.44.author: yakkooo24
-photo.44.commitdate: 2020/12/2
-photo.44.link: https://www.instagram.com/yakkooo24/
-photo.44.tags: apple time, dish, paws, portrait, smile
-photo.45: ig://CIAts3ShBoa/m
-photo.45.author: _saaaaaaah_
-photo.45.commitdate: 2020/12/12
-photo.45.link: https://www.instagram.com/_saaaaaaah_/
-photo.45.tags: apple time, paws, smile
-photo.46: ig://CIK4RRGBHKB/m
-photo.46.author: grskus_tk
-photo.46.commitdate: 2020/12/6
-photo.46.link: https://www.instagram.com/grskus_tk/
-photo.46.tags: bamboo, paws, tail
-photo.47: ig://CRMOwZvhTI3/m
-photo.47.author: shigeko0531
-photo.47.commitdate: 2021/7/13
-photo.47.link: https://www.instagram.com/shigeko0531/
-photo.47.tags: portrait, tree, videolink
+photo.40: ig://CFxSdJQBmTq/m
+photo.40.author: otenba_redpanda
+photo.40.commitdate: 2021/10/1
+photo.40.link: https://www.instagram.com/otenba_redpanda/
+photo.40.tags: close-up, portrait, smile, whiskers
+photo.41: ig://CFzHgeLBrmJ/m
+photo.41.author: craig_craig_craig
+photo.41.commitdate: 2020/11/8
+photo.41.link: https://www.instagram.com/craig_craig_craig/
+photo.41.tags: apple time, dish, portrait, tail, videolink
+photo.42: ig://CHbYy_wBsPC/m
+photo.42.author: rie_panda55
+photo.42.commitdate: 2020/11/21
+photo.42.link: https://www.instagram.com/rie_panda55/
+photo.42.tags: bamboo, portrait, smile, tail
+photo.43: ig://CH-DVUPh5SN/m
+photo.43.author: yakkooo24
+photo.43.commitdate: 2020/12/2
+photo.43.link: https://www.instagram.com/yakkooo24/
+photo.43.tags: apple time, dish, paws, portrait, smile
+photo.44: ig://CIAts3ShBoa/m
+photo.44.author: _saaaaaaah_
+photo.44.commitdate: 2020/12/12
+photo.44.link: https://www.instagram.com/_saaaaaaah_/
+photo.44.tags: apple time, paws, smile
+photo.45: ig://CIK4RRGBHKB/m
+photo.45.author: grskus_tk
+photo.45.commitdate: 2020/12/6
+photo.45.link: https://www.instagram.com/grskus_tk/
+photo.45.tags: bamboo, paws, tail
+photo.46: ig://CRMOwZvhTI3/m
+photo.46.author: shigeko0531
+photo.46.commitdate: 2021/7/13
+photo.46.link: https://www.instagram.com/shigeko0531/
+photo.46.tags: portrait, tree, videolink
 species: 2
 studbook.id: 0775
 zoo: 10
