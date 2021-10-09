@@ -13,14 +13,15 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1300
-photo.1: ig://CUnFPgGB2gD/m
-photo.1.author: resapan.suki
-photo.1.commitdate: 2021/10/6
-photo.1.link: https://www.instagram.com/resapan.suki/
-photo.1.tags: baby, mofumofu, portrait, profile, tail
-photo.2: https://www.instagram.com/p/CS_XmG7rU-G/media/?size=m
-photo.2.author: chausuyamazoo
-photo.2.link: https://www.instagram.com/chausuyamazoo/
-photo.2.tags: baby, mofumofu, scale
+photo.1: ig://CS_XmG7rU-G/m
+photo.1.author: chausuyamazoo
+photo.1.commitdate: 2021/10/9
+photo.1.link: https://www.instagram.com/chausuyamazoo/
+photo.1.tags: baby, mofumofu, scale
+photo.2: ig://CUnFPgGB2gD/m
+photo.2.author: resapan.suki
+photo.2.commitdate: 2021/10/6
+photo.2.link: https://www.instagram.com/resapan.suki/
+photo.2.tags: baby, mofumofu, portrait, profile, tail
 species: 2
 zoo: 10

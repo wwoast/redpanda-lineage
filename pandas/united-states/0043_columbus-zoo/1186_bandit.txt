@@ -108,17 +108,20 @@ photo.19.author: lipscer
 photo.19.commitdate: 2021/9/18
 photo.19.link: https://www.instagram.com/lipscer/
 photo.19.tags: close-up, whiskers
-photo.20: https://www.instagram.com/p/CUBLEAPr7AR/media/?size=m
+photo.20: ig://CUBLEAPr7AR/m
 photo.20.author: lipscer
+photo.20.commitdate: 2021/10/9
 photo.20.link: https://www.instagram.com/lipscer/
 photo.20.tags: mofumofu, tail, whiskers
-photo.21: https://www.instagram.com/p/CUFztnqLtc8/media/?size=m
+photo.21: ig://CUDdkg5rIpO/m
 photo.21.author: lipscer
+photo.21.commitdate: 2021/10/9
 photo.21.link: https://www.instagram.com/lipscer/
-photo.21.tags: portrait, whiskers
-photo.22: https://www.instagram.com/p/CUDdkg5rIpO/media/?size=m
+photo.21.tags: close-up, peek, whiskers
+photo.22: ig://CUFztnqLtc8/m
 photo.22.author: lipscer
+photo.22.commitdate: 2021/10/9
 photo.22.link: https://www.instagram.com/lipscer/
-photo.22.tags: close-up, peek, whiskers
+photo.22.tags: portrait, whiskers
 species: 2
 zoo: 43
