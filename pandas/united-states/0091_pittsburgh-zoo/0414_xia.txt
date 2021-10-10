@@ -40,15 +40,16 @@ photo.5.author: rossifari
 photo.5.commitdate: 2018/11/23
 photo.5.link: https://www.instagram.com/rossifari/
 photo.5.tags: sleeping
-photo.6: ig://CROMMaZtfuh/m
-photo.6.author: rossifari
-photo.6.commitdate: 2021/9/23
-photo.6.link: https://www.instagram.com/rossifari/
-photo.6.tags: bamboo, paws, portrait, profile, tongue
-photo.7: https://www.instagram.com/p/CIQtlgUFn_g/media/?size=m
-photo.7.author: pghzoo
-photo.7.link: https://www.instagram.com/pghzoo/
-photo.7.tags: bamboo, portrait, smile, snow
+photo.6: ig://CIQtlgUFn_g/m
+photo.6.author: pghzoo
+photo.6.commitdate: 2021/10/10
+photo.6.link: https://www.instagram.com/pghzoo/
+photo.6.tags: bamboo, portrait, smile, snow
+photo.7: ig://CROMMaZtfuh/m
+photo.7.author: rossifari
+photo.7.commitdate: 2021/9/23
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: bamboo, paws, portrait, profile, tongue
 species: 2
 studbook.id: 1117
 video.1: https://www.youtube.com/watch?v=xHwUOUE-xEU

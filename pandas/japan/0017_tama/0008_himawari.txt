@@ -1890,55 +1890,56 @@ photo.376.author: ck.chie
 photo.376.commitdate: 2021/8/9
 photo.376.link: https://www.instagram.com/ck.chie/
 photo.376.tags: door, paws, peek, portrait, whiskers
-photo.377: ig://CS9M7N8h_PV/m
-photo.377.author: ck.chie
-photo.377.commitdate: 2021/9/11
-photo.377.link: https://www.instagram.com/ck.chie/
-photo.377.tags: portrait, standing, videolink
-photo.378: ig://CS-YLEEBIL3/m
-photo.378.author: ssc6105
+photo.377: ig://CSjZbFpB1n4/m
+photo.377.author: ssc6105
+photo.377.commitdate: 2021/10/10
+photo.377.link: https://www.instagram.com/ssc6105/
+photo.377.tags: paws, standing, tail, upside-down
+photo.378: ig://CS9M7N8h_PV/m
+photo.378.author: ck.chie
 photo.378.commitdate: 2021/9/11
-photo.378.link: https://www.instagram.com/ssc6105/
-photo.378.tags: peek, smile, whiskers
-photo.379: ig://CTF_dhzBtCw/m
-photo.379.author: alto0908
-photo.379.commitdate: 2021/9/7
-photo.379.link: https://www.instagram.com/alto0908/
-photo.379.tags: door, paws, portrait
-photo.380: ig://CTXkm7HhRIy/m
-photo.380.author: eos1089
-photo.380.commitdate: 2021/9/10
-photo.380.link: https://www.instagram.com/eos1089/
-photo.380.tags: bridge, laying down, paws
-photo.381: ig://CTcUzGWHoQT/m
-photo.381.author: mini_cochi
-photo.381.commitdate: 2021/9/7
-photo.381.link: https://www.instagram.com/mini_cochi/
-photo.381.tags: laying down, portrait, sleeping
-photo.382: ig://CTi5dPxhplQ/m
-photo.382.author: otenba_redpanda
-photo.382.commitdate: 2021/10/1
-photo.382.link: https://www.instagram.com/accounts/activity/
-photo.382.tags: portrait, smile, whiskers
-photo.383: ig://CTvGZUjBMT3/m
+photo.378.link: https://www.instagram.com/ck.chie/
+photo.378.tags: portrait, standing, videolink
+photo.379: ig://CS-YLEEBIL3/m
+photo.379.author: ssc6105
+photo.379.commitdate: 2021/9/11
+photo.379.link: https://www.instagram.com/ssc6105/
+photo.379.tags: peek, smile, whiskers
+photo.380: ig://CTF_dhzBtCw/m
+photo.380.author: alto0908
+photo.380.commitdate: 2021/9/7
+photo.380.link: https://www.instagram.com/alto0908/
+photo.380.tags: door, paws, portrait
+photo.381: ig://CTXkm7HhRIy/m
+photo.381.author: eos1089
+photo.381.commitdate: 2021/9/10
+photo.381.link: https://www.instagram.com/eos1089/
+photo.381.tags: bridge, laying down, paws
+photo.382: ig://CTcUzGWHoQT/m
+photo.382.author: mini_cochi
+photo.382.commitdate: 2021/9/7
+photo.382.link: https://www.instagram.com/mini_cochi/
+photo.382.tags: laying down, portrait, sleeping
+photo.383: ig://CTi5dPxhplQ/m
 photo.383.author: otenba_redpanda
 photo.383.commitdate: 2021/10/1
-photo.383.link: https://www.instagram.com/otenba_redpanda/
-photo.383.tags: bridge, portrait, smile
-photo.384: ig://CUTQiBTB0dY/m
-photo.384.author: alto0908
-photo.384.commitdate: 2021/10/9
-photo.384.link: https://www.instagram.com/alto0908/
-photo.384.tags: laying down, grumpy, paws, portrait, whiskers
-photo.385: ig://CUc-jIahbWz/m
+photo.383.link: https://www.instagram.com/accounts/activity/
+photo.383.tags: portrait, smile, whiskers
+photo.384: ig://CTvGZUjBMT3/m
+photo.384.author: otenba_redpanda
+photo.384.commitdate: 2021/10/1
+photo.384.link: https://www.instagram.com/otenba_redpanda/
+photo.384.tags: bridge, portrait, smile
+photo.385: ig://CUTQiBTB0dY/m
 photo.385.author: alto0908
 photo.385.commitdate: 2021/10/9
 photo.385.link: https://www.instagram.com/alto0908/
-photo.385.tags: peek, portrait, whiskers
-photo.386: https://www.instagram.com/p/CSjZbFpB1n4/media/?size=m
-photo.386.author: ssc6105
-photo.386.link: https://www.instagram.com/ssc6105/
-photo.386.tags: paws, standing, tail, upside-down
+photo.385.tags: laying down, grumpy, paws, portrait, whiskers
+photo.386: ig://CUc-jIahbWz/m
+photo.386.author: alto0908
+photo.386.commitdate: 2021/10/9
+photo.386.link: https://www.instagram.com/alto0908/
+photo.386.tags: peek, portrait, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

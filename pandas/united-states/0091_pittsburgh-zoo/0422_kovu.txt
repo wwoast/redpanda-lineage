@@ -34,14 +34,16 @@ photo.4.author: snapcrackleangela
 photo.4.commitdate: 2020/10/1
 photo.4.link: https://www.instagram.com/snapcrackleangela/
 photo.4.tags: apple time, portrait
-photo.5: https://www.instagram.com/p/CT95wQ6ppPd/media/?size=m
+photo.5: ig://CTAjXHMlTsM/m
 photo.5.author: pghzoo
+photo.5.commitdate: 2021/10/10
 photo.5.link: https://www.instagram.com/pghzoo/
-photo.5.tags: smile, whiskers
-photo.6: https://www.instagram.com/p/CTAjXHMlTsM/media/?size=m
+photo.5.tags: close-up, portrait, tongue, whiskers
+photo.6: ig://CT95wQ6ppPd/m
 photo.6.author: pghzoo
+photo.6.commitdate: 2021/10/10
 photo.6.link: https://www.instagram.com/pghzoo/
-photo.6.tags: close-up, portrait, tongue, whiskers
+photo.6.tags: smile, whiskers
 species: 2
 studbook.id: 1426
 zoo: 91

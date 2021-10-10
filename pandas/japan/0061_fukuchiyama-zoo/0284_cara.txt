@@ -254,15 +254,16 @@ photo.48.author: jas_forever_love
 photo.48.commitdate: 2021/8/6
 photo.48.link: https://www.instagram.com/jas_forever_love/
 photo.48.tags: door, peek, smile, whiskers
-photo.49: ig://CUj1se7hi1I/m
-photo.49.author: chankunvv
-photo.49.commitdate: 2021/10/6
-photo.49.link: https://www.instagram.com/chankunvv/
-photo.49.tags: itchy, paws, portrait, surprise, tail
-photo.50: https://www.instagram.com/p/CRAwSythiUJ/media/?size=m
-photo.50.author: sasapan34
-photo.50.link: https://www.instagram.com/sasapan34/
-photo.50.tags: door, paws
+photo.49: ig://CRAwSythiUJ/m
+photo.49.author: sasapan34
+photo.49.commitdate: 2021/10/10
+photo.49.link: https://www.instagram.com/sasapan34/
+photo.49.tags: door, paws
+photo.50: ig://CUj1se7hi1I/m
+photo.50.author: chankunvv
+photo.50.commitdate: 2021/10/6
+photo.50.link: https://www.instagram.com/chankunvv/
+photo.50.tags: itchy, paws, portrait, surprise, tail
 species: 2
 studbook.id: 13165
 zoo: 61
