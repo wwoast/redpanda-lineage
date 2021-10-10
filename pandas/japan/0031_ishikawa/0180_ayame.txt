@@ -134,35 +134,36 @@ photo.24.author: bee_san.13
 photo.24.commitdate: 2021/3/28
 photo.24.link: https://www.instagram.com/bee_san.13/
 photo.24.tags: close-up, portrait
-photo.25: ig://CQhDK_6hP78/m
-photo.25.author: hamamatsu.chiita
-photo.25.commitdate: 2021/6/28
-photo.25.link: https://www.instagram.com/hamamatsu.chiita/
-photo.25.tags: close-up, laying down, mofumofu, paws, portrait
-photo.26: ig://CRMcoTRhBNo/m
-photo.26.author: eos1089
-photo.26.commitdate: 2021/8/20
-photo.26.link: https://www.instagram.com/eos1089/
-photo.26.tags: close-up, mofumofu, portrait, whiskers
-photo.27: ig://CR2CmW5hAjt/m
-photo.27.author: hamamatsu.chiita
-photo.27.commitdate: 2021/8/7
-photo.27.link: https://www.instagram.com/hamamatsu.chiita/
-photo.27.tags: paws, portrait, whiskers
-photo.28: ig://CR3nnAqBcAP/m
-photo.28.author: bee_san.13
+photo.25: ig://COoo5GjBLHa/m
+photo.25.author: bee_san.13
+photo.25.commitdate: 2021/10/9
+photo.25.link: https://www.instagram.com/bee_san.13/
+photo.25.tags: paws, portrait, standing
+photo.26: ig://CQhDK_6hP78/m
+photo.26.author: hamamatsu.chiita
+photo.26.commitdate: 2021/6/28
+photo.26.link: https://www.instagram.com/hamamatsu.chiita/
+photo.26.tags: close-up, laying down, mofumofu, paws, portrait
+photo.27: ig://CRMcoTRhBNo/m
+photo.27.author: eos1089
+photo.27.commitdate: 2021/8/20
+photo.27.link: https://www.instagram.com/eos1089/
+photo.27.tags: close-up, mofumofu, portrait, whiskers
+photo.28: ig://CR2CmW5hAjt/m
+photo.28.author: hamamatsu.chiita
 photo.28.commitdate: 2021/8/7
-photo.28.link: https://www.instagram.com/bee_san.13/
-photo.28.tags: portrait, smile
-photo.29: ig://CR3q5r1BVI9/m
-photo.29.author: grskus_tk
+photo.28.link: https://www.instagram.com/hamamatsu.chiita/
+photo.28.tags: paws, portrait, whiskers
+photo.29: ig://CR3nnAqBcAP/m
+photo.29.author: bee_san.13
 photo.29.commitdate: 2021/8/7
-photo.29.link: https://www.instagram.com/grskus_tk/
-photo.29.tags: tail
-photo.30: https://www.instagram.com/p/COoo5GjBLHa/media/?size=m
-photo.30.author: bee_san.13
-photo.30.link: https://www.instagram.com/bee_san.13/
-photo.30.tags: paws, portrait, standing
+photo.29.link: https://www.instagram.com/bee_san.13/
+photo.29.tags: portrait, smile
+photo.30: ig://CR3q5r1BVI9/m
+photo.30.author: grskus_tk
+photo.30.commitdate: 2021/8/7
+photo.30.link: https://www.instagram.com/grskus_tk/
+photo.30.tags: tail
 species: 2
 studbook.id: 11106
 zoo: 31

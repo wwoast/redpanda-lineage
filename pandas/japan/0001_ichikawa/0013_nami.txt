@@ -454,8 +454,9 @@ photo.89.author: daniele.tokyo
 photo.89.commitdate: 2021/7/19
 photo.89.link: https://www.instagram.com/daniele.tokyo/
 photo.89.tags: door, paws, whiskers
-photo.90: https://www.instagram.com/p/CUXX4plBbe3/media/?size=m
+photo.90: ig://CUXX4plBbe3/m
 photo.90.author: ifumoto88
+photo.90.commitdate: 2021/10/9
 photo.90.link: https://www.instagram.com/ifumoto88/
 photo.90.tags: paws, portrait, tail
 species: 2

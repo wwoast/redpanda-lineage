@@ -513,15 +513,16 @@ photo.100.author: hamamatsu.chiita
 photo.100.commitdate: 2021/9/22
 photo.100.link: https://www.instagram.com/hamamatsu.chiita/
 photo.100.tags: mofumofu, portrait, whiskers
-photo.101: ig://CUlFD7rBSSt/m
+photo.101: ig://CUVozQfhX-Z/m
 photo.101.author: hamamatsu.chiita
-photo.101.commitdate: 2021/10/6
+photo.101.commitdate: 2021/10/9
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
-photo.101.tags: paws, portrait, whiskers
-photo.102: https://www.instagram.com/p/CUVozQfhX-Z/media/?size=m
+photo.101.tags: portrait, smile, whiskers
+photo.102: ig://CUlFD7rBSSt/m
 photo.102.author: hamamatsu.chiita
+photo.102.commitdate: 2021/10/6
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
-photo.102.tags: portrait, smile, whiskers
+photo.102.tags: paws, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

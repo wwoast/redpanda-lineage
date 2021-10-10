@@ -1925,12 +1925,14 @@ photo.383.author: otenba_redpanda
 photo.383.commitdate: 2021/10/1
 photo.383.link: https://www.instagram.com/otenba_redpanda/
 photo.383.tags: bridge, portrait, smile
-photo.384: https://www.instagram.com/p/CUTQiBTB0dY/media/?size=m
+photo.384: ig://CUTQiBTB0dY/m
 photo.384.author: alto0908
+photo.384.commitdate: 2021/10/9
 photo.384.link: https://www.instagram.com/alto0908/
 photo.384.tags: laying down, grumpy, paws, portrait, whiskers
-photo.385: https://www.instagram.com/p/CUc-jIahbWz/media/?size=m
+photo.385: ig://CUc-jIahbWz/m
 photo.385.author: alto0908
+photo.385.commitdate: 2021/10/9
 photo.385.link: https://www.instagram.com/alto0908/
 photo.385.tags: peek, portrait, whiskers
 species: 2

@@ -270,8 +270,9 @@ photo.51.author: miis_98
 photo.51.commitdate: 2021/10/6
 photo.51.link: https://www.instagram.com/miis_98/
 photo.51.tags: dish, portrait, tail
-photo.52: https://www.instagram.com/p/CUZmq45B3OX/media/?size=m
+photo.52: ig://CUZmq45B3OX/m
 photo.52.author: hamiiiii831_
+photo.52.commitdate: 2021/10/9
 photo.52.link: https://www.instagram.com/hamiiiii831_/
 photo.52.tags: videolink
 species: 2

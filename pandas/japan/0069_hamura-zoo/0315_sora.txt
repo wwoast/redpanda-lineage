@@ -539,20 +539,21 @@ photo.105.author: pink.b22
 photo.105.commitdate: 2021/9/10
 photo.105.link: https://www.instagram.com/pink.b22/
 photo.105.tags: bamboo, flowers, paws, portrait, smile
-photo.106: ig://CUpqJOLFtNy/m
-photo.106.author: otenba_redpanda
-photo.106.commitdate: 2021/10/6
-photo.106.link: https://www.instagram.com/otenba_redpanda/
-photo.106.tags: laying down, mofumofu, portrait, tree
-photo.107: ig://CUq_YWBBnAV/m
+photo.106: ig://CUXTbrmhwB5/m
+photo.106.author: kotata_513
+photo.106.commitdate: 2021/10/9
+photo.106.link: https://www.instagram.com/kotata_513/
+photo.106.tags: apple time, keeper, portrait
+photo.107: ig://CUpqJOLFtNy/m
 photo.107.author: otenba_redpanda
 photo.107.commitdate: 2021/10/6
 photo.107.link: https://www.instagram.com/otenba_redpanda/
-photo.107.tags: mofumofu, portrait, smile, tongue, whiskers, white face
-photo.108: https://www.instagram.com/p/CUXTbrmhwB5/media/?size=m
-photo.108.author: kotata_513
-photo.108.link: https://www.instagram.com/kotata_513/
-photo.108.tags: apple time, keeper, portrait
+photo.107.tags: laying down, mofumofu, portrait, tree
+photo.108: ig://CUq_YWBBnAV/m
+photo.108.author: otenba_redpanda
+photo.108.commitdate: 2021/10/6
+photo.108.link: https://www.instagram.com/otenba_redpanda/
+photo.108.tags: mofumofu, portrait, smile, tongue, whiskers, white face
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI
