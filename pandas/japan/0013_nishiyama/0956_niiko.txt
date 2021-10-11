@@ -368,8 +368,9 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2021/8/10
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
 photo.71.tags: bridge, close-up, laying down, paws, portrait, whiskers
-photo.72: https://www.instagram.com/p/CTSwhtgrXZO/media/?size=m
+photo.72: ig://CTSwhtgrXZO/m
 photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2021/10/10
 photo.72.link: https://www.instagram.com/hamamatsu.chiita/
 photo.72.tags: portrait, smile, whiskers
 species: 2

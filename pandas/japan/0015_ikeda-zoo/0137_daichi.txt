@@ -265,48 +265,51 @@ photo.50.author: itsuak
 photo.50.commitdate: 2021/8/27
 photo.50.link: https://www.instagram.com/itsuak/
 photo.50.tags: bamboo, itchy, portrait
-photo.51: ig://CTKXpN2vtuo/m
+photo.51: ig://CTFInXKFPlL/m
 photo.51.author: itsuak
-photo.51.commitdate: 2021/9/7
+photo.51.commitdate: 2021/10/10
 photo.51.link: https://www.instagram.com/itsuak/
-photo.51.tags: bamboo, close-up, mofumofu, portrait, smile
-photo.52: ig://CTcUDoBPzPv/m
+photo.51.tags: bamboo, smile, tail
+photo.52: ig://CTKXpN2vtuo/m
 photo.52.author: itsuak
-photo.52.commitdate: 2021/9/10
+photo.52.commitdate: 2021/9/7
 photo.52.link: https://www.instagram.com/itsuak/
-photo.52.tags: laying down, sleeping
-photo.53: ig://CTw02WMv1b0/m
+photo.52.tags: bamboo, close-up, mofumofu, portrait, smile
+photo.53: ig://CTPUv1yv5DF/m
 photo.53.author: itsuak
-photo.53.commitdate: 2021/9/18
+photo.53.commitdate: 2021/10/10
 photo.53.link: https://www.instagram.com/itsuak/
-photo.53.tags: grooming, paws, portrait
-photo.54: ig://CUHxtxfFxik/m
-photo.54.author: itsuak
-photo.54.commitdate: 2021/10/6
-photo.54.link: https://www.instagram.com/itsuak/
-photo.54.tags: bamboo, portrait, smile, tail, tongue
-photo.55: ig://CUcnkHGP4W1/m
+photo.53.tags: smile, tail, tongue
+photo.54: ig://CTUI1zTh9jU/m
+photo.54.author: hamiiiii831_
+photo.54.commitdate: 2021/10/10
+photo.54.link: https://www.instagram.com/hamiiiii831_/
+photo.54.tags: mofumofu
+photo.55: ig://CTcUDoBPzPv/m
 photo.55.author: itsuak
-photo.55.commitdate: 2021/10/9
+photo.55.commitdate: 2021/9/10
 photo.55.link: https://www.instagram.com/itsuak/
-photo.55.tags: paws, portrait, tail
-photo.56: ig://CUe6Cn4h-HY/m
+photo.55.tags: laying down, sleeping
+photo.56: ig://CTw02WMv1b0/m
 photo.56.author: itsuak
-photo.56.commitdate: 2021/10/9
+photo.56.commitdate: 2021/9/18
 photo.56.link: https://www.instagram.com/itsuak/
-photo.56.tags: portrait, smile, tongue
-photo.57: https://www.instagram.com/p/CTUI1zTh9jU/media/?size=m
-photo.57.author: hamiiiii831_
-photo.57.link: https://www.instagram.com/hamiiiii831_/
-photo.57.tags: mofumofu
-photo.58: https://www.instagram.com/p/CTFInXKFPlL/media/?size=m
+photo.56.tags: grooming, paws, portrait
+photo.57: ig://CUHxtxfFxik/m
+photo.57.author: itsuak
+photo.57.commitdate: 2021/10/6
+photo.57.link: https://www.instagram.com/itsuak/
+photo.57.tags: bamboo, portrait, smile, tail, tongue
+photo.58: ig://CUcnkHGP4W1/m
 photo.58.author: itsuak
+photo.58.commitdate: 2021/10/9
 photo.58.link: https://www.instagram.com/itsuak/
-photo.58.tags: bamboo, smile, tail
-photo.59: https://www.instagram.com/p/CTPUv1yv5DF/media/?size=m
+photo.58.tags: paws, portrait, tail
+photo.59: ig://CUe6Cn4h-HY/m
 photo.59.author: itsuak
+photo.59.commitdate: 2021/10/9
 photo.59.link: https://www.instagram.com/itsuak/
-photo.59.tags: smile, tail, tongue
+photo.59.tags: portrait, smile, tongue
 species: 2
 studbook.id: 0978
 zoo: 15

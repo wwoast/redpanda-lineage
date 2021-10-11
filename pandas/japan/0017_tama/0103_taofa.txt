@@ -648,25 +648,26 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2021/10/3
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: paws, peek, portrait, techitechi, whiskers
-photo.128: ig://CTO9q8upq0i/m
-photo.128.author: otenba_redpanda
-photo.128.commitdate: 2021/10/3
-photo.128.link: https://www.instagram.com/otenba_redpanda/
-photo.128.tags: laying down, portrait, tail, whiskers, yawn
-photo.129: ig://CTYNWktBYOP/m
+photo.128: ig://CTHybGJnFMT/m
+photo.128.author: mini_cochi
+photo.128.commitdate: 2021/10/10
+photo.128.link: https://www.instagram.com/mini_cochi/
+photo.128.tags: flowers, portrait, smile, whiskers
+photo.129: ig://CTO9q8upq0i/m
 photo.129.author: otenba_redpanda
 photo.129.commitdate: 2021/10/3
 photo.129.link: https://www.instagram.com/otenba_redpanda/
-photo.129.tags: laying down, paws, portrait, smile, whiskers
-photo.130: ig://CT5ZAdIhIA0/m
+photo.129.tags: laying down, portrait, tail, whiskers, yawn
+photo.130: ig://CTYNWktBYOP/m
 photo.130.author: otenba_redpanda
 photo.130.commitdate: 2021/10/3
 photo.130.link: https://www.instagram.com/otenba_redpanda/
-photo.130.tags: bamboo, bite, paws, portrait, smile
-photo.131: https://www.instagram.com/p/CTHybGJnFMT/media/?size=m
-photo.131.author: mini_cochi
-photo.131.link: https://www.instagram.com/mini_cochi/
-photo.131.tags: flowers, portrait, smile, whiskers
+photo.130.tags: laying down, paws, portrait, smile, whiskers
+photo.131: ig://CT5ZAdIhIA0/m
+photo.131.author: otenba_redpanda
+photo.131.commitdate: 2021/10/3
+photo.131.link: https://www.instagram.com/otenba_redpanda/
+photo.131.tags: bamboo, bite, paws, portrait, smile
 species: 2
 studbook.id: 15127
 zoo: 17

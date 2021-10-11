@@ -65,8 +65,9 @@ photo.7.tags.213.location: 130, 275
 photo.7.tags.214.location: 250, 345
 photo.7.tags.250.location: 75, 290
 photo.7.tags.251.location: 180, 285
-photo.8: https://www.instagram.com/p/B_uR-7HHk0X/media/?size=l
+photo.8: ig://B_uR-7HHk0X/l
 photo.8.author: mini_cochi
+photo.8.commitdate: 2021/10/10
 photo.8.link: https://www.instagram.com/mini_cochi/
 photo.8.tags: apple time, dish, family, smile
 photo.8.tags.213.location: 470, 285
