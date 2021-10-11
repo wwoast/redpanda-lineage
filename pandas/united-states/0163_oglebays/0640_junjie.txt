@@ -6,7 +6,7 @@ children: 520
 commitdate: 2019/3/19
 en.name: Junjie
 en.nicknames: none
-en.othernames: none
+en.othernames: Junji
 gender: m
 jp.name: じゅんじ
 jp.nicknames: none
@@ -31,6 +31,10 @@ photo.3.author: jiayue_2015
 photo.3.commitdate: 2019/4/3
 photo.3.link: https://www.instagram.com/jiayue_2015/
 photo.3.tags: portrait, profile
+photo.4: https://www.instagram.com/p/B6tKVqYpNZY/media/?size=m
+photo.4.author: rossifari
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: home, laying down, portrait, whiskers
 species: 1
 studbook.id: 0819
 zoo: 163
