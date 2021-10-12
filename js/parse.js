@@ -62,19 +62,19 @@ Parse.keyword = {};
 /* Parse.keyword.alive = TODO */
 /* Parse.keyword.at = TODO */
 Parse.keyword.baby = {
-  "cn": ['TOWRITE'],
+  "cn": ['婴儿', '婴'],
   "en": ['aka-chan', 'Aka-Chan', 'Aka-chan', 'baby', 'Baby', 'babies', 'Babies'],
   "jp": ['赤', '赤ちゃん']
 }
 Parse.keyword.born = {
-  "cn": ['TOWRITE'],
+  "cn": ['出生'],
   "en": ['born', 'Born'],
-  "jp": ['TOWRITE']
+  "jp": ['生まれ']
 }
 Parse.keyword.born_at = {
-  "cn": ['TOWRITE'],
+  "cn": ['出生'],
   "en": ['born at', 'Born at'],
-  "jp": ['TOWRITE']
+  "jp": ['生まれ']
 }
 /* Parse.keyword.born + (around|after|before) = TODO */
 Parse.keyword.credit = {
@@ -181,7 +181,7 @@ Parse.keyword.lived_at = {
 }
 /* Parse.keyword.logical AND/OR/NOT/NOR = TODO */
 Parse.keyword.nearby = {
-  "cn": ['TOWRITE'],
+  "cn": ['附近'],
   "en": ['near', 'Near', 'nearby', 'Nearby'],
   "jp": ['近く', '近くの動物園']
 }
@@ -196,7 +196,7 @@ Parse.keyword.tag = {
   "jp": ['TOWRITE']
 }
 Parse.keyword.zoo = {
-  "cn": ['TOWRITE'],
+  "cn": ['动物园'],
   "en": ['zoo', 'Zoo'],
   "jp": ['動物園']
 }
@@ -294,6 +294,19 @@ Parse.regex.id = '(?:^[\-0-9][0-9]*)';
 // Any sequence of strings separated by spaces
 Parse.regex.name = '(?:^[^\n]+)';
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
+// Date formats, separated by some dash, slash, or dot
+// TODO: backslash is broken for these
+Parse.regex.date = {};
+// Default to mm_yy, but allow flexibility if the meaning is unambiguous
+Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2})';
+// Default to a locale-appropriate date format, falling back to dd_mm_yy.
+Parse.regex.date.aa_bb_yy = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{2})';
+Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{4})';
+// Unambiguous month and year
+Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{4})';
+Parse.regex.date.yyyy_mm = '(?:[0-9]{4}[-/\\\.][0-9]{1,2})';
+// Unambiguous and standard date parsing
+Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{1,2})';
 
 /*
     Code that helps jsleri tokenize things properly, finding things
@@ -428,6 +441,13 @@ Parse.tree.build_grammar = function() {
   var r_id = Regex(Parse.regex.id);
   var r_name = Regex(Parse.regex.name);
   var r_year = Regex(Parse.regex.year);
+  // Date regexes
+  var r_date_aa_bb = Regex(Parse.regex.date.aa_bb);
+  var r_date_aa_bb_yy = Regex(Parse.regex.date.aa_bb_yy);
+  var r_date_aa_bb_yyyy = Regex(Parse.regex.date.aa_bb_yyyy);
+  var r_date_mm_yyyy = Regex(Parse.regex.date.mm_yyyy);
+  var r_date_yyyy_mm = Regex(Parse.regex.date.yyyy_mm);
+  var r_date_yyyy_mm_dd = Regex(Parse.regex.date.yyyy_mm_dd);
   // Sets of operators
   // Zeroary keywords: Valid search with just a single term
   var c_k_zeroary = Choices(Parse.group.zeroary);
@@ -449,6 +469,7 @@ Parse.tree.build_grammar = function() {
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_id,
+    r_date_yyyy_mm_dd,    // Search by exact date. TODO: others
     c_k_zeroary,
     c_k_group_tags,       // Search for many tags at once
     c_k_group_tags_name,  // Tags followed by a name-string
@@ -607,6 +628,9 @@ Parse.tree.node_type = function(node, children) {
     }
     if (node.element.re == Parse.regex.year) {
       return "subject_year";
+    }
+    if (Object.values(Parse.regex.date).indexOf(node.element.re) != -1) {
+      return "subject_date";
     }
   }
 }
@@ -775,6 +799,7 @@ Parse.tree.types.keyword = [
 ];
 Parse.tree.types.subject = [
   "subject_author",
+  "subject_date",
   "subject_id",
   "subject_name",
   "subject_panda_id",

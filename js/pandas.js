@@ -698,6 +698,25 @@ Pandas.searchBabies = function(year) {
   return Pandas.sortYoungestToOldest(nodes);
 }
 
+Pandas.searchBirthdayList = function(input_date) {
+  // Find all pandas that have a certain birthday.
+  // Used for date searches, unlike other birthday functions which
+  // are for showing birthday pandas on the front page.
+  // TODO: only supports yyyy/mm/dd right now
+  input_date = input_date.replace(/\./g, "/");
+  input_date = input_date.replace(/-/g, "/");
+  var date = new Date(input_date);
+  var nodes = G.v().filter(function(vertex) {
+    var birthday = new Date(vertex.birthday);
+    return ((birthday.getDate() == date.getDate()) &&
+            (birthday.getMonth() == date.getMonth()) &&
+            (birthday.getFullYear() == date.getFullYear()));
+  }).run();
+  // TODO: make litter mates show up next to each other
+  // HACK: good enough for sorting names
+  return Pandas.sortByName(nodes, L.display + ".name");
+}
+
 // Find all pandas born today, given parameters:
 //   keep_living: panda must still be alive
 //   photo_count: panda must have at least this many photos

@@ -267,6 +267,10 @@ Query.resolver.single = function(set_node, singular_node) {
       hits = (panda_hits.length >= zoo_hits.length)
                     ? panda_hits : zoo_hits;
     }
+    // subject_date is treated like a birthday on its own
+    if (singular_node.type == "subject_date") {
+      hits = Pandas.searchBirthdayList(search_word);
+    }
     // subject_year isn't valid on its own
   }
   if (set_node.type == "set_keyword") {
