@@ -294,19 +294,18 @@ Parse.regex.id = '(?:^[\-0-9][0-9]*)';
 // Any sequence of strings separated by spaces
 Parse.regex.name = '(?:^[^\n]+)';
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
-// Date formats, separated by some dash, slash, or dot
-// TODO: backslash is broken for these
+// Date formats, separated by some symbol character that's not a space
 Parse.regex.date = {};
 // Default to mm_yy, but allow flexibility if the meaning is unambiguous
-Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2})';
+Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[^\s][0-9]{1,2})';
 // Default to a locale-appropriate date format, falling back to dd_mm_yy.
-Parse.regex.date.aa_bb_yy = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{2})';
-Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{4})';
+Parse.regex.date.aa_bb_yy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{2})';
+Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{4})';
 // Unambiguous month and year
-Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{4})';
-Parse.regex.date.yyyy_mm = '(?:[0-9]{4}[-/\\\.][0-9]{1,2})';
+Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{4})';
+Parse.regex.date.yyyy_mm = '(?:[0-9]{4}[^\s][0-9]{1,2})';
 // Unambiguous and standard date parsing
-Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{1,2})';
+Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
 
 /*
     Code that helps jsleri tokenize things properly, finding things
