@@ -705,6 +705,7 @@ Pandas.searchBirthdayList = function(input_date) {
   // TODO: only supports yyyy/mm/dd right now
   input_date = input_date.replace(/\./g, "/");
   input_date = input_date.replace(/-/g, "/");
+  input_date = input_date.replace(/\\/g, "/");
   var date = new Date(input_date);
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);

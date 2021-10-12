@@ -306,7 +306,7 @@ Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{4})'
 Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[-/\\\.][0-9]{4})';
 Parse.regex.date.yyyy_mm = '(?:[0-9]{4}[-/\\\.][0-9]{1,2})';
 // Unambiguous and standard date parsing
-Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[-/\\\.][0-9]{1,2}[-/\\\.][0-9]{1,2})';
+Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[-\./\\][0-9]{1,2}[-\./\\][0-9]{1,2})';
 
 /*
     Code that helps jsleri tokenize things properly, finding things
