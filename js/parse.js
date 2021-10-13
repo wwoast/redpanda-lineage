@@ -299,7 +299,7 @@ Parse.regex.date = {};
 // Default to mm_yy, but allow flexibility if the meaning is unambiguous
 Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[^\s][0-9]{1,2})';
 // Default to a locale-appropriate date format, falling back to dd_mm_yy.
-Parse.regex.date.aa_bb_yy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{2})';
+Parse.regex.date.aa_bb_cc = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
 Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{4})';
 // Unambiguous month and year
 Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{4})';
@@ -442,7 +442,7 @@ Parse.tree.build_grammar = function() {
   var r_year = Regex(Parse.regex.year);
   // Date regexes
   var r_date_aa_bb = Regex(Parse.regex.date.aa_bb);
-  var r_date_aa_bb_yy = Regex(Parse.regex.date.aa_bb_yy);
+  var r_date_aa_bb_cc = Regex(Parse.regex.date.aa_bb_cc);
   var r_date_aa_bb_yyyy = Regex(Parse.regex.date.aa_bb_yyyy);
   var r_date_mm_yyyy = Regex(Parse.regex.date.mm_yyyy);
   var r_date_yyyy_mm = Regex(Parse.regex.date.yyyy_mm);
@@ -469,6 +469,7 @@ Parse.tree.build_grammar = function() {
   var START = Prio(
     r_id,
     r_date_yyyy_mm_dd,    // Search by exact date. TODO: others
+    r_date_aa_bb_yyyy,
     c_k_zeroary,
     c_k_group_tags,       // Search for many tags at once
     c_k_group_tags_name,  // Tags followed by a name-string

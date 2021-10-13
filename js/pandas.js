@@ -702,11 +702,8 @@ Pandas.searchBirthdayList = function(input_date) {
   // Find all pandas that have a certain birthday.
   // Used for date searches, unlike other birthday functions which
   // are for showing birthday pandas on the front page.
-  // TODO: only supports yyyy/mm/dd right now
-  input_date = input_date.replace(/\./g, "/");
-  input_date = input_date.replace(/-/g, "/");
-  input_date = input_date.replace(/\\/g, "/");
-  var date = new Date(input_date);
+  var ymd = Pandas.parseDate(input_date, L.display);
+  var date = new Date(ymd["year"] + "/" + ymd["month"] + "/" + ymd["day"]);
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
     return ((birthday.getDate() == date.getDate()) &&
@@ -2176,6 +2173,63 @@ Pandas.nicknames = function(animal, language) {
 Pandas.othernames = function(animal, language) {
   var field = language + ".othernames";
   return animal[field] == undefined ? Pandas.def.animal[field] : animal[field];
+}
+
+// Parse a date based on the observed values, falling back to a
+// language-specific date format as appropriate.
+Pandas.parseDate = function(date, language) {
+  // Whatever the non-numeric date delimiters are, replace it with slash.
+  // Then chop off any delimiters at the beginning or end of the string.
+  date = date.replace(/[^\d]/g, '/');
+  date = date.replace(/^\//, '');
+  date = date.replace(/\/$/, '');
+  // Now figure out how many numbers are in the date we're dealing with
+  var nums = date.split("/").map(x => parseInt(x));
+  if (nums.length == 2) {
+    // Either month/day or month/year
+    if (nums[0] > 31) {    // Almost certainly YYYY/MM
+      return {"year": nums[0], "month": nums[1], "day": "any"};
+    } else if (nums[1] > 31) {    // Almost certainly MM/YYYY
+      return {"year": nums[1], "month": nums[0], "day": "any"};
+    } else {
+      // no four-digit year, so assume MM/DD based on locale
+      var locale = Language.L.date_locale["mm_dd"][language].split("_");
+      if (locale[0] == "mm") {
+        return {"year": "any", "month": nums[0], "day": nums[1]};
+      } else {
+        return {"year": "any", "month": nums[1], "day": nums[0]};
+      }
+    }
+  } else if (nums.length == 3) {
+    // Some form of month/day/year
+    var locale = Language.L.date_locale["yy_mm_dd"][language].split("_");
+    if (nums[0] > 31) {    // Almost certainly YYYY/MM/DD
+      return {"year": nums[0], "month": nums[1], "day": nums[2]};
+    } else if (nums[2] > 31) {
+      if (nums[0] > 12) {    // Almost certainly DD/MM/YYYY
+        return {"year": nums[2], "month": nums[1], "day": nums[0]};
+      } else if (nums[1] > 12) {    // Almost certainly MM/DD/YYYY
+        return {"year": nums[2], "month": nums[0], "day": nums[1]};
+      } else {
+        if (locale[0] == "mm") {
+          return {"year": nums[2], "month": nums[0], "day": nums[1]};
+        } else {
+          return {"year": nums[2], "month": nums[1], "day": nums[0]};
+        }
+      }
+    } else {   // All two-digit values for dates, so use the locale
+      var locale = Language.L.date_locale["yy_mm_dd"][language].split("_");
+      if (locale[0] == "mm") {
+        return {"year": nums[2], "month": nums[0], "day": nums[1]};
+      } else if (locale[0] == "dd") {
+        return {"year": nums[2], "month": nums[1], "day": nums[0]};
+      } else {
+        return {"year": nums[0], "month": nums[1], "day": nums[2]};
+      }
+    }
+  } else {   // Who knows what this is
+    return { "year": -1, "month": -1, "day": -1};
+  }
 }
 
 // Find all available photos for a specific animal

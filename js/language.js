@@ -99,6 +99,35 @@ Language.charset = {
   }
 }
 
+// Date formats for parsing support fallbacks, if there
+// would otherwise be ambiguity in the dates
+Language.L.date_locale = {
+  "mm_dd": {
+    "cn": "mm_dd",
+    "en": "mm_dd",
+    "es": "dd_mm",
+    "jp": "mm_dd",
+    "ne": "mm_dd",
+    "pt": "dd_mm"
+  },
+  "yy_mm": {
+    "cn": "yyyy_mm",
+    "en": "mm_yyyy",
+    "es": "mm_yyyy",
+    "jp": "yyyy_mm",
+    "ne": "yyyy_mm",
+    "pt": "mm_yyyy"
+  },
+  "yy_mm_dd": {
+    "cn": "yyyy_mm_dd",
+    "en": "mm_dd_yyyy",
+    "es": "dd_mm_yyyy",
+    "jp": "yyyy_mm_dd",
+    "ne": "yyyy_mm_dd",
+    "pt": "dd_mm_yyyy"
+  }
+}
+
 // Default parameters for entities that lack language information
 Language.L.default = {
   "order": ["en", "jp"]
