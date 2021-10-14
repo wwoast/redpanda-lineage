@@ -716,14 +716,11 @@ Pandas.searchBirthdayList = function(input_date) {
       "day": date.getDate()
     }
   }
-  var ymd_to_date = function(ymd) {
-    // Date likes MM/DD/YYYY format to correct years
-    return new Date(ymd["month"] + "/" + ymd["day"] + "/" + ymd["year"]);
-  }
   var input_ymd = Pandas.parseDate(input_date, L.display);
-  // Make sure we're using a 4-digit year
-  var input_do = ymd_to_date(input_ymd);
-  input_ymd = date_to_ymd(input_do);
+  // Make sure we're using a 4-digit year, assume > 2000
+  if (input_ymd["year"] < 2000) {
+    input_ymd["year"] = input_ymd["year"] + 2000;
+  }
   var nodes = G.v().filter(function(vertex) {
     return vertex["_id"] > 0;   // Just animals
   }).filter(function(vertex) {
@@ -734,8 +731,7 @@ Pandas.searchBirthdayList = function(input_date) {
             (compare(birthday_ymd, input_ymd, "year")));
   }).run();
   // TODO: make litter mates show up next to each other
-  // HACK: good enough for sorting names
-  return Pandas.sortByName(nodes, L.display + ".name");
+  return Pandas.sortOldestToYoungest(nodes);
 }
 
 // Find all pandas born today, given parameters:
@@ -744,6 +740,8 @@ Pandas.searchBirthdayList = function(input_date) {
 Pandas.searchBirthdayToday = function(keep_living=true, photo_count=20) {
   var today = new Date();
   var nodes = G.v().filter(function(vertex) {
+    return vertex["_id"] > 0;   // Just animals
+  }).filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()))
@@ -766,6 +764,8 @@ Pandas.searchBirthdayToday = function(keep_living=true, photo_count=20) {
 Pandas.searchBirthdayLitterIds = function(keep_living=true, photo_count=20) {
   var today = new Date();
   var litter_ids = G.v().filter(function(vertex) {
+    return vertex["_id"] > 0;   // Just animals
+  }).filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
     return ((birthday.getDate() == today.getDate()) &&
             (birthday.getMonth() == today.getMonth()));
