@@ -303,7 +303,6 @@ Parse.regex.date.aa_bb_cc = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
 Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{4})';
 // Unambiguous month and year
 Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{4})';
-Parse.regex.date.yyyy_mm = '(?:[0-9]{4}[^\s][0-9]{1,2})';
 // Unambiguous and standard date parsing
 Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
 
@@ -445,7 +444,6 @@ Parse.tree.build_grammar = function() {
   var r_date_aa_bb_cc = Regex(Parse.regex.date.aa_bb_cc);
   var r_date_aa_bb_yyyy = Regex(Parse.regex.date.aa_bb_yyyy);
   var r_date_mm_yyyy = Regex(Parse.regex.date.mm_yyyy);
-  var r_date_yyyy_mm = Regex(Parse.regex.date.yyyy_mm);
   var r_date_yyyy_mm_dd = Regex(Parse.regex.date.yyyy_mm_dd);
   // Sets of operators
   // Zeroary keywords: Valid search with just a single term
@@ -468,10 +466,11 @@ Parse.tree.build_grammar = function() {
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_id,
-    r_date_yyyy_mm_dd,    // Search by exact date. TODO: others
+    r_date_yyyy_mm_dd,    // Search by exact and partial dates
     r_date_aa_bb_yyyy,
     r_date_aa_bb_cc,
     r_date_mm_yyyy,
+    r_date_aa_bb,
     c_k_zeroary,
     c_k_group_tags,       // Search for many tags at once
     c_k_group_tags_name,  // Tags followed by a name-string
