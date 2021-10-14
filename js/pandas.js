@@ -710,7 +710,8 @@ Pandas.searchBirthdayList = function(input_date) {
     }
   }
   var ymd = Pandas.parseDate(input_date, L.display);
-  var date = new Date(ymd["year"] + "/" + ymd["month"] + "/" + ymd["day"]);
+  // MM/DD/YY order works best for the date function
+  var date = new Date(ymd["month"] + "/" + ymd["day"] + "/" + ymd["year"]);
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
     return ((compare(birthday, date, "getDate")) &&
