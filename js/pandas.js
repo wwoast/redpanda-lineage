@@ -703,20 +703,35 @@ Pandas.searchBirthdayList = function(input_date) {
   // Used for date searches, unlike other birthday functions which
   // are for showing birthday pandas on the front page.
   var compare = function(birthday, input, check) {
-    if (input == "any") {
+    if (input[check] == "any") {
       return true;
     } else {
-      return (birthday[check]() == input[check]());
+      return (birthday[check] == input[check]);
     }
   }
-  var ymd = Pandas.parseDate(input_date, L.display);
-  // MM/DD/YY order works best for the date function
-  var date = new Date(ymd["month"] + "/" + ymd["day"] + "/" + ymd["year"]);
+  var date_to_ymd = function(date) {
+    return {
+      "year": date.getFullYear(),
+      "month": date.getMonth() + 1,
+      "day": date.getDate()
+    }
+  }
+  var ymd_to_date = function(ymd) {
+    // Date likes MM/DD/YYYY format to correct years
+    return new Date(ymd["month"] + "/" + ymd["day"] + "/" + ymd["year"]);
+  }
+  var input_ymd = Pandas.parseDate(input_date, L.display);
+  // Make sure we're using a 4-digit year
+  var input_do = ymd_to_date(input_ymd);
+  input_ymd = date_to_ymd(input_do);
   var nodes = G.v().filter(function(vertex) {
+    return vertex["_id"] > 0;   // Just animals
+  }).filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
-    return ((compare(birthday, date, "getDate")) &&
-            (compare(birthday, date, "getMonth")) &&
-            (compare(birthday, date, "getFullYear")));
+    var birthday_ymd = date_to_ymd(birthday);
+    return ((compare(birthday_ymd, input_ymd, "day")) &&
+            (compare(birthday_ymd, input_ymd, "month")) &&
+            (compare(birthday_ymd, input_ymd, "year")));
   }).run();
   // TODO: make litter mates show up next to each other
   // HACK: good enough for sorting names

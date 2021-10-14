@@ -471,6 +471,7 @@ Parse.tree.build_grammar = function() {
     r_date_yyyy_mm_dd,    // Search by exact date. TODO: others
     r_date_aa_bb_yyyy,
     r_date_aa_bb_cc,
+    r_date_mm_yyyy,
     c_k_zeroary,
     c_k_group_tags,       // Search for many tags at once
     c_k_group_tags_name,  // Tags followed by a name-string
