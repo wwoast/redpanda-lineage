@@ -702,13 +702,20 @@ Pandas.searchBirthdayList = function(input_date) {
   // Find all pandas that have a certain birthday.
   // Used for date searches, unlike other birthday functions which
   // are for showing birthday pandas on the front page.
+  var compare = function(birthday, input, check) {
+    if (input == "any") {
+      return true;
+    } else {
+      return (birthday[check]() == input[check]());
+    }
+  }
   var ymd = Pandas.parseDate(input_date, L.display);
   var date = new Date(ymd["year"] + "/" + ymd["month"] + "/" + ymd["day"]);
   var nodes = G.v().filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
-    return ((birthday.getDate() == date.getDate()) &&
-            (birthday.getMonth() == date.getMonth()) &&
-            (birthday.getFullYear() == date.getFullYear()));
+    return ((compare(birthday, date, "getDate")) &&
+            (compare(birthday, date, "getMonth")) &&
+            (compare(birthday, date, "getFullYear")));
   }).run();
   // TODO: make litter mates show up next to each other
   // HACK: good enough for sorting names
