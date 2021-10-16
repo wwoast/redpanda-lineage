@@ -297,14 +297,16 @@ Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 // Date formats, separated by some symbol character that's not a space
 Parse.regex.date = {};
 // Default to mm_yy, but allow flexibility if the meaning is unambiguous
-Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[^\s][0-9]{1,2})';
+Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2})';
 // Default to a locale-appropriate date format, falling back to dd_mm_yy.
-Parse.regex.date.aa_bb_cc = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
-Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{1,2}[^\s][0-9]{4})';
+// Dates will not get transformed to newline-separated tokens, so they can
+// be differentiated from lists of ids this way.
+Parse.regex.date.aa_bb_cc = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2})';
+Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{4})';
 // Unambiguous month and year
-Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[^\s][0-9]{4})';
+Parse.regex.date.mm_yyyy = '(?:[0-9]{1,2}[^\s\n][0-9]{4})';
 // Unambiguous and standard date parsing
-Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[^\s][0-9]{1,2}[^\s][0-9]{1,2})';
+Parse.regex.date.yyyy_mm_dd = '(?:[0-9]{4}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2})';
 
 /*
     Code that helps jsleri tokenize things properly, finding things
@@ -466,9 +468,9 @@ Parse.tree.build_grammar = function() {
   // Start of the parsing logic, a list of prioritized forms of search queries
   var START = Prio(
     r_id,
-    r_date_yyyy_mm_dd,    // Search by exact and partial dates
+    r_date_yyyy_mm_dd,    // Search by exact dates
     r_date_aa_bb_yyyy,
-    r_date_aa_bb_cc,
+    r_date_aa_bb_cc,      // Search by partial dates
     r_date_mm_yyyy,
     r_date_aa_bb,
     c_k_zeroary,
