@@ -295,13 +295,13 @@ Parse.regex.id = '(?:^[\-0-9][0-9]*)';
 Parse.regex.name = '(?:^[^\n]+)';
 Parse.regex.year = '(?:19[0-9]{2}|2[0-9]{3})';
 // Date formats, separated by some symbol character that's not a space
+// Dates will not get transformed to newline-separated tokens, so they can
+// be differentiated from lists of ids this way.
 // For all regexes, support trailing symbol for CJK dates
 Parse.regex.date = {};
 // Default to mm_yy, but allow flexibility if the meaning is unambiguous
 Parse.regex.date.aa_bb = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)';
 // Default to a locale-appropriate date format, falling back to dd_mm_yy.
-// Dates will not get transformed to newline-separated tokens, so they can
-// be differentiated from lists of ids this way.
 Parse.regex.date.aa_bb_cc = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n]?)';
 Parse.regex.date.aa_bb_yyyy = '(?:[0-9]{1,2}[^\s\n][0-9]{1,2}[^\s\n][0-9]{4}[^\s\n]?)';
 // Unambiguous month and year.
