@@ -392,8 +392,9 @@ photo.75.author: hamamatsu.chiita
 photo.75.commitdate: 2021/9/28
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
 photo.75.tags: mofumofu, portrait, whiskers
-photo.76: https://www.instagram.com/p/CUszTXRB5Et/media/?size=m
+photo.76: ig://CUszTXRB5Et/m
 photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2021/10/16
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: mofumofu, portrait, whiskers
 species: 2

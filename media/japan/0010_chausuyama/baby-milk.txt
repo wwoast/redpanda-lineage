@@ -1,8 +1,10 @@
 [media]
 _id: media.10.baby-milk
+commitdate: 2021/10/16
 panda.tags: 247, 1300
-photo.1: https://www.instagram.com/p/CUtE2quvtWJ/media/?size=l
+photo.1: ig://CUtE2quvtWJ/l
 photo.1.author: shigeko0531
+photo.1.commitdate: 2021/10/16
 photo.1.link: https://www.instagram.com/shigeko0531/
 photo.1.tags: baby, mother's day, portrait
 photo.1.tags.247.location: 280, 175
