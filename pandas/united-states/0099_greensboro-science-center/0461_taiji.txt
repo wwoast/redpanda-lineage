@@ -10,7 +10,7 @@ en.othernames: Tai
 gender: m
 jp.name: たいじ
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: たい
 language.order: en, jp
 litter: none
 location.1: 83, 2012/5/21
@@ -50,6 +50,10 @@ photo.7.author: greensborosciencecenter
 photo.7.commitdate: 2020/8/9
 photo.7.link: https://www.instagram.com/greensborosciencecenter/
 photo.7.tags: portrait, tongue
+photo.8: https://www.instagram.com/p/CVA9WdttVOc/media/?size=m
+photo.8.author: greensborosciencecenter
+photo.8.link: https://www.instagram.com/greensborosciencecenter/
+photo.8.tags: portrait, whiskers
 species: 2
 studbook.id: 1233
 zoo: 99
