@@ -113,66 +113,41 @@ photo.20.author: hamiiiii831_
 photo.20.commitdate: 2020/3/12
 photo.20.link: https://www.instagram.com/hamiiiii831_/
 photo.20.tags: paws, portrait
-photo.21: ig://CFyFoEohwZA/m
-photo.21.author: reikazumeru7172119
-photo.21.commitdate: 2020/10/1
-photo.21.link: https://www.instagram.com/reikazumeru7172119/
-photo.21.tags: close-up, paws, portrait
-photo.22: ig://CGFlzQIhU3k/m
-photo.22.author: reikazumeru7172119
-photo.22.commitdate: 2020/10/9
-photo.22.link: https://www.instagram.com/reikazumeru7172119/
-photo.22.tags: apple time, paws, portrait, standing
-photo.23: ig://CH4U3yLBnEL/m
-photo.23.author: rie_panda55
-photo.23.commitdate: 2020/11/28
-photo.23.link: https://www.instagram.com/rie_panda55/
-photo.23.tags: paws, portrait, standing, tail
-photo.24: ig://CI211C0hPcz/m
-photo.24.author: jas_forever_love
-photo.24.commitdate: 2020/12/30
-photo.24.link: https://www.instagram.com/jas_forever_love/
-photo.24.tags: apple time, paws, standing, videolink
-photo.25: ig://CI5bkuVBuNQ/m
-photo.25.author: reikazumeru7172119
-photo.25.commitdate: 2021/1/14
-photo.25.link: https://www.instagram.com/reikazumeru7172119/
-photo.25.tags: portrait, snow, techitechi
-photo.26: ig://CLHMUzHB0--/m
-photo.26.author: mikaamihara
-photo.26.commitdate: 2021/2/16
-photo.26.link: https://www.instagram.com/mikaamihara/
-photo.26.tags: laying down, mofumofu, portrait, tail
-photo.27: ig://CLnvBapBz8D/m
-photo.27.author: reikazumeru7172119
-photo.27.commitdate: 2021/3/21
-photo.27.link: https://www.instagram.com/reikazumeru7172119/
-photo.27.tags: bamboo, home, paws, portrait, tongue
-photo.28: ig://CNPrEq3B6HO/m
-photo.28.author: reikazumeru7172119
-photo.28.commitdate: 2021/4/4
-photo.28.link: https://www.instagram.com/reikazumeru7172119/
-photo.28.tags: home, portrait, whiskers
-photo.29: ig://CSAawlOhd45/m
-photo.29.author: hamamatsu.chiita
-photo.29.commitdate: 2021/8/26
-photo.29.link: https://www.instagram.com/hamamatsu.chiita/
-photo.29.tags: close-up, portrait, whiskers
-photo.30: ig://CSsgEFNn3zJ/m
-photo.30.author: fetorus_mami
-photo.30.commitdate: 2021/8/26
-photo.30.link: https://www.instagram.com/fetorus_mami/
-photo.30.tags: apple time, bite, paws, standing, window
-photo.31: ig://CTNntIUhGtt/m
-photo.31.author: hamamatsu.chiita
-photo.31.commitdate: 2021/9/7
-photo.31.link: https://www.instagram.com/hamamatsu.chiita/
-photo.31.tags: portrait, whiskers
-photo.32: ig://CUyC1WYBNox/m
-photo.32.author: hamamatsu.chiita
-photo.32.commitdate: 2021/10/17
-photo.32.link: https://www.instagram.com/hamamatsu.chiita/
-photo.32.tags: bamboo, portrait, techitechi, whiskers
+photo.21: ig://CH4U3yLBnEL/m
+photo.21.author: rie_panda55
+photo.21.commitdate: 2020/11/28
+photo.21.link: https://www.instagram.com/rie_panda55/
+photo.21.tags: paws, portrait, standing, tail
+photo.22: ig://CI211C0hPcz/m
+photo.22.author: jas_forever_love
+photo.22.commitdate: 2020/12/30
+photo.22.link: https://www.instagram.com/jas_forever_love/
+photo.22.tags: apple time, paws, standing, videolink
+photo.23: ig://CLHMUzHB0--/m
+photo.23.author: mikaamihara
+photo.23.commitdate: 2021/2/16
+photo.23.link: https://www.instagram.com/mikaamihara/
+photo.23.tags: laying down, mofumofu, portrait, tail
+photo.24: ig://CSAawlOhd45/m
+photo.24.author: hamamatsu.chiita
+photo.24.commitdate: 2021/8/26
+photo.24.link: https://www.instagram.com/hamamatsu.chiita/
+photo.24.tags: close-up, portrait, whiskers
+photo.25: ig://CSsgEFNn3zJ/m
+photo.25.author: fetorus_mami
+photo.25.commitdate: 2021/8/26
+photo.25.link: https://www.instagram.com/fetorus_mami/
+photo.25.tags: apple time, bite, paws, standing, window
+photo.26: ig://CTNntIUhGtt/m
+photo.26.author: hamamatsu.chiita
+photo.26.commitdate: 2021/9/7
+photo.26.link: https://www.instagram.com/hamamatsu.chiita/
+photo.26.tags: portrait, whiskers
+photo.27: ig://CUyC1WYBNox/m
+photo.27.author: hamamatsu.chiita
+photo.27.commitdate: 2021/10/17
+photo.27.link: https://www.instagram.com/hamamatsu.chiita/
+photo.27.tags: bamboo, portrait, techitechi, whiskers
 species: 2
 studbook.id: 13152
 zoo: 63

@@ -149,81 +149,51 @@ photo.27.author: jas_forever_love
 photo.27.commitdate: 2020/6/6
 photo.27.link: https://www.instagram.com/jas_forever_love/
 photo.27.tags: peek, portrait, tree
-photo.28: ig://B7IWgfRBFHc/m
-photo.28.author: reikazumeru7172119
-photo.28.commitdate: 2020/5/5
-photo.28.link: https://www.instagram.com/reikazumeru7172119/
-photo.28.tags: grooming, paws, portrait, tail
-photo.29: ig://B8JJZZuBQvu/m
-photo.29.author: jas_forever_love
-photo.29.commitdate: 2020/2/8
-photo.29.link: https://www.instagram.com/jas_forever_love/
-photo.29.tags: laying down, peek, portrait, tail
-photo.30: ig://B8fKesmha3d/m
-photo.30.author: sasapan34
-photo.30.commitdate: 2020/2/17
-photo.30.link: https://www.instagram.com/sasapan34/
-photo.30.tags: whiskers
-photo.31: ig://B9x4vNvhmPS/m
-photo.31.author: reikazumeru7172119
-photo.31.commitdate: 2020/5/5
-photo.31.link: https://www.instagram.com/reikazumeru7172119/
-photo.31.tags: apple time, dish, home, paws, smile
-photo.32: ig://CF1zfQ1heuz/m
-photo.32.author: makimaru18
-photo.32.commitdate: 2020/11/8
-photo.32.link: https://www.instagram.com/makimaru18/
-photo.32.tags: home, laying down, tail
-photo.33: ig://CGF1B_KB_WP/m
-photo.33.author: reikazumeru7172119
-photo.33.commitdate: 2020/10/9
-photo.33.link: https://www.instagram.com/reikazumeru7172119/
-photo.33.tags: mofumofu, paws, portrait
-photo.34: ig://CLGziqphYU4/m
-photo.34.author: reikazumeru7172119
-photo.34.commitdate: 2021/7/21
-photo.34.link: https://www.instagram.com/reikazumeru7172119/
-photo.34.tags: laying down, mofumofu, peek, portrait, tail
-photo.35: ig://CNKnyL8hZlO/m
-photo.35.author: mikaamihara
-photo.35.commitdate: 2021/4/3
-photo.35.link: https://www.instagram.com/mikaamihara/
-photo.35.tags: portrait, white face
-photo.36: ig://CN19q0ABVfe/m
-photo.36.author: mikaamihara
-photo.36.commitdate: 2021/5/3
-photo.36.link: https://www.instagram.com/mikaamihara/
-photo.36.tags: home, peek, portrait, techitechi, wink
-photo.37: ig://CRDawH9B1yY/m
-photo.37.author: reikazumeru7172119
-photo.37.commitdate: 2021/7/9
-photo.37.link: https://www.instagram.com/reikazumeru7172119/
-photo.37.tags: home, laying down, paws, portrait, tail
-photo.38: ig://CRDzSLjhHY3/m
-photo.38.author: reikazumeru7172119
-photo.38.commitdate: 2021/7/9
-photo.38.link: https://www.instagram.com/reikazumeru7172119/
-photo.38.tags: bamboo, paws, standing
-photo.39: ig://CR4mHMBhjJc/m
-photo.39.author: hamamatsu.chiita
-photo.39.commitdate: 2021/10/6
-photo.39.link: https://www.instagram.com/hamamatsu.chiita/
-photo.39.tags: peek, portrait
-photo.40: ig://CUw_P0TBr7w/m
-photo.40.author: hamamatsu.chiita
-photo.40.commitdate: 2021/10/17
-photo.40.link: https://www.instagram.com/hamamatsu.chiita/
-photo.40.tags: home, mofumofu, portrait, smile
-photo.41: ig://CU8QPLhhI8W/m
-photo.41.author: hamamatsu.chiita
-photo.41.commitdate: 2021/10/17
-photo.41.link: https://www.instagram.com/hamamatsu.chiita/
-photo.41.tags: apple time, home, portrait
-photo.42: ig://CVD9NWPBM-M/m
-photo.42.author: hamamatsu.chiita
-photo.42.commitdate: 2021/10/17
-photo.42.link: https://www.instagram.com/hamamatsu.chiita/
-photo.42.tags: paws, portrait, smile
+photo.28: ig://B8JJZZuBQvu/m
+photo.28.author: jas_forever_love
+photo.28.commitdate: 2020/2/8
+photo.28.link: https://www.instagram.com/jas_forever_love/
+photo.28.tags: laying down, peek, portrait, tail
+photo.29: ig://B8fKesmha3d/m
+photo.29.author: sasapan34
+photo.29.commitdate: 2020/2/17
+photo.29.link: https://www.instagram.com/sasapan34/
+photo.29.tags: whiskers
+photo.30: ig://CF1zfQ1heuz/m
+photo.30.author: makimaru18
+photo.30.commitdate: 2020/11/8
+photo.30.link: https://www.instagram.com/makimaru18/
+photo.30.tags: home, laying down, tail
+photo.31: ig://CNKnyL8hZlO/m
+photo.31.author: mikaamihara
+photo.31.commitdate: 2021/4/3
+photo.31.link: https://www.instagram.com/mikaamihara/
+photo.31.tags: portrait, white face
+photo.32: ig://CN19q0ABVfe/m
+photo.32.author: mikaamihara
+photo.32.commitdate: 2021/5/3
+photo.32.link: https://www.instagram.com/mikaamihara/
+photo.32.tags: home, peek, portrait, techitechi, wink
+photo.33: ig://CR4mHMBhjJc/m
+photo.33.author: hamamatsu.chiita
+photo.33.commitdate: 2021/10/6
+photo.33.link: https://www.instagram.com/hamamatsu.chiita/
+photo.33.tags: peek, portrait
+photo.34: ig://CUw_P0TBr7w/m
+photo.34.author: hamamatsu.chiita
+photo.34.commitdate: 2021/10/17
+photo.34.link: https://www.instagram.com/hamamatsu.chiita/
+photo.34.tags: home, mofumofu, portrait, smile
+photo.35: ig://CU8QPLhhI8W/m
+photo.35.author: hamamatsu.chiita
+photo.35.commitdate: 2021/10/17
+photo.35.link: https://www.instagram.com/hamamatsu.chiita/
+photo.35.tags: apple time, home, portrait
+photo.36: ig://CVD9NWPBM-M/m
+photo.36.author: hamamatsu.chiita
+photo.36.commitdate: 2021/10/17
+photo.36.link: https://www.instagram.com/hamamatsu.chiita/
+photo.36.tags: paws, portrait, smile
 species: 2
 studbook.id: 15133
 zoo: 63
