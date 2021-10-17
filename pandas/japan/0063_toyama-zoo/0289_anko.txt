@@ -168,8 +168,9 @@ photo.31.author: hamamatsu.chiita
 photo.31.commitdate: 2021/9/7
 photo.31.link: https://www.instagram.com/hamamatsu.chiita/
 photo.31.tags: portrait, whiskers
-photo.32: https://www.instagram.com/p/CUyC1WYBNox/media/?size=m
+photo.32: ig://CUyC1WYBNox/m
 photo.32.author: hamamatsu.chiita
+photo.32.commitdate: 2021/10/17
 photo.32.link: https://www.instagram.com/hamamatsu.chiita/
 photo.32.tags: bamboo, portrait, techitechi, whiskers
 species: 2

@@ -483,8 +483,9 @@ photo.94.author: otenba_redpanda
 photo.94.commitdate: 2021/10/1
 photo.94.link: https://www.instagram.com/otenba_redpanda/
 photo.94.tags: close-up, laying down, portrait, smile, tongue, whiskers
-photo.95: https://www.instagram.com/p/CU-HIwxl83B/media/?size=m
+photo.95: ig://CU-HIwxl83B/m
 photo.95.author: miis_98
+photo.95.commitdate: 2021/10/17
 photo.95.link: https://www.instagram.com/miis_98/
 photo.95.tags: bridge, laying down, portrait, window
 species: 2

@@ -383,13 +383,15 @@ photo.74.author: otenba_redpanda
 photo.74.commitdate: 2021/10/9
 photo.74.link: https://www.instagram.com/otenba_redpanda/
 photo.74.tags: portrait, smile
-photo.75: https://www.instagram.com/p/CU_BtvGjATt/media/?size=m
-photo.75.author: otenba_redpanda
-photo.75.link: https://www.instagram.com/otenba_redpanda/
-photo.75.tags: paws, portrait, smile, whiskers
-photo.76: https://www.instagram.com/p/CUyUrMbBFNo/media/?size=m
-photo.76.author: miis_98
-photo.76.link: https://www.instagram.com/miis_98/
-photo.76.tags: bamboo, paws, portrait, tongue
+photo.75: ig://CUyUrMbBFNo/m
+photo.75.author: miis_98
+photo.75.commitdate: 2021/10/17
+photo.75.link: https://www.instagram.com/miis_98/
+photo.75.tags: bamboo, paws, portrait, tongue
+photo.76: ig://CU_BtvGjATt/m
+photo.76.author: otenba_redpanda
+photo.76.commitdate: 2021/10/17
+photo.76.link: https://www.instagram.com/otenba_redpanda/
+photo.76.tags: paws, portrait, smile, whiskers
 species: 2
 zoo: 17

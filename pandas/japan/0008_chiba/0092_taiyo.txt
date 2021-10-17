@@ -363,8 +363,9 @@ photo.70.author: panda.daisuki
 photo.70.commitdate: 2021/9/10
 photo.70.link: https://www.instagram.com/panda.daisuki/
 photo.70.tags: bamboo, close-up, portrait, white face
-photo.71: https://www.instagram.com/p/CVBn6IAB5B1/media/?size=m
+photo.71: ig://CVBn6IAB5B1/m
 photo.71.author: panda.daisuki
+photo.71.commitdate: 2021/10/17
 photo.71.link: https://www.instagram.com/panda.daisuki/
 photo.71.tags: laying down, paws, portrait, tree
 species: 2

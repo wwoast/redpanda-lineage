@@ -248,17 +248,20 @@ photo.47.author: ck.chie
 photo.47.commitdate: 2021/9/25
 photo.47.link: https://www.instagram.com/ck.chie/
 photo.47.tags: laying down, paws, portrait
-photo.48: https://www.instagram.com/p/CU3aVo2BKKT/media/?size=m
-photo.48.author: otenba_redpanda
-photo.48.link: https://www.instagram.com/otenba_redpanda/
-photo.48.tags: mofumofu, portrait, tail
-photo.49: https://www.instagram.com/p/CUzzhOVFWNl/media/?size=m
+photo.48: ig://CUyTiOHhYvr/m
+photo.48.author: miis_98
+photo.48.commitdate: 2021/10/17
+photo.48.link: https://www.instagram.com/miis_98/
+photo.48.tags: paws, portrait
+photo.49: ig://CUzzhOVFWNl/m
 photo.49.author: mini_cochi
+photo.49.commitdate: 2021/10/17
 photo.49.link: https://www.instagram.com/mini_cochi/
 photo.49.tags: bridge, grooming, paws, tail, upside-down
-photo.50: https://www.instagram.com/p/CUyTiOHhYvr/media/?size=m
-photo.50.author: miis_98
-photo.50.link: https://www.instagram.com/miis_98/
-photo.50.tags: paws, portrait
+photo.50: ig://CU3aVo2BKKT/m
+photo.50.author: otenba_redpanda
+photo.50.commitdate: 2021/10/17
+photo.50.link: https://www.instagram.com/otenba_redpanda/
+photo.50.tags: mofumofu, portrait, tail
 species: 2
 zoo: 17

@@ -543,12 +543,14 @@ photo.106.author: minato.yokohama4416
 photo.106.commitdate: 2021/9/7
 photo.106.link: https://www.instagram.com/minato.yokohama4416/
 photo.106.tags: home, laying down, portrait
-photo.107: https://www.instagram.com/p/CUzVRYgBoAu/media/?size=m
+photo.107: ig://CUzVRYgBoAu/m
 photo.107.author: hamamatsu.chiita
+photo.107.commitdate: 2021/10/17
 photo.107.link: https://www.instagram.com/hamamatsu.chiita/
 photo.107.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.108: https://www.instagram.com/p/CU0pO1Wh8qw/media/?size=m
+photo.108: ig://CU0pO1Wh8qw/m
 photo.108.author: hamamatsu.chiita
+photo.108.commitdate: 2021/10/17
 photo.108.link: https://www.instagram.com/hamamatsu.chiita/
 photo.108.tags: paws, sign, smile
 species: 2

@@ -1415,14 +1415,16 @@ photo.282.author: cattail.sapporo
 photo.282.commitdate: 2021/10/16
 photo.282.link: https://www.instagram.com/cattail.sapporo/
 photo.282.tags: home, mofumofu, portrait, smile, tail, tongue
-photo.283: https://www.instagram.com/p/CVC44QilNqd/media/?size=m
+photo.283: ig://CUwhV7OrGJQ/m
 photo.283.author: cattail.sapporo
+photo.283.commitdate: 2021/10/17
 photo.283.link: https://www.instagram.com/cattail.sapporo/
-photo.283.tags: close-up, mofumofu, portrait, whiskers
-photo.284: https://www.instagram.com/p/CUwhV7OrGJQ/media/?size=m
+photo.283.tags: peek, portrait, window
+photo.284: ig://CVC44QilNqd/m
 photo.284.author: cattail.sapporo
+photo.284.commitdate: 2021/10/17
 photo.284.link: https://www.instagram.com/cattail.sapporo/
-photo.284.tags: peek, portrait, window
+photo.284.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

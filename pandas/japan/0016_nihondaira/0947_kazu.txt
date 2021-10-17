@@ -248,8 +248,9 @@ photo.47.author: kijyo.zoo
 photo.47.commitdate: 2021/10/9
 photo.47.link: https://www.instagram.com/kijyo.zoo/
 photo.47.tags: bridge, portrait, videolink
-photo.48: https://www.instagram.com/p/CVClNunjPpE/media/?size=m
+photo.48: ig://CVClNunjPpE/m
 photo.48.author: lesserpanda_shizuokacity_cp
+photo.48.commitdate: 2021/10/17
 photo.48.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.48.tags: paws, portrait, videolink
 species: 2
