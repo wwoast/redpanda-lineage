@@ -825,13 +825,17 @@ ul.pandaList li a.passedAway {
 
 ul.pandaList.cn > li > a > span.condensed,
 ul.pandaList.en > li > a > span.condensed,
-ul.pandaList.np > li > a > span.condensed {
+ul.pandaList.es > li > a > span.condensed,
+ul.pandaList.np > li > a > span.condensed,
+ul.pandaList.pt > li > a > span.condensed {
     font-size: 12.5pt;
 }
 
 ul.pandaList.cn > li > a > span.ultraCondensed,
 ul.pandaList.en > li > a > span.ultraCondensed,
-ul.pandaList.np > li > a > span.ultraCondensed {
+ul.pandaList.es > li > a > span.ultraCondensed,
+ul.pandaList.np > li > a > span.ultraCondensed,
+ul.pandaList.pt > li > a > span.ultraCondensed {
     font-size: 10pt;
 }
 
