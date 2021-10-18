@@ -519,8 +519,9 @@ photo.101.author: minatomirai215
 photo.101.commitdate: 2021/9/28
 photo.101.link: https://www.instagram.com/minatomirai215/
 photo.101.tags: paws, portrait, smile, standing, whiskers, window
-photo.102: https://www.instagram.com/p/CUtaL_phiA9/media/?size=m
+photo.102: ig://CUtaL_phiA9/m
 photo.102.author: minatomirai215
+photo.102.commitdate: 2021/10/17
 photo.102.link: https://www.instagram.com/minatomirai215/
 photo.102.tags: apple time, paws, portrait, standing, window
 species: 2

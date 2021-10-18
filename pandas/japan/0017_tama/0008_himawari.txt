@@ -1940,8 +1940,9 @@ photo.386.author: alto0908
 photo.386.commitdate: 2021/10/9
 photo.386.link: https://www.instagram.com/alto0908/
 photo.386.tags: peek, portrait, whiskers
-photo.387: https://www.instagram.com/p/CU0qy_UB3et/media/?size=m
+photo.387: ig://CU0qy_UB3et/m
 photo.387.author: otenba_redpanda
+photo.387.commitdate: 2021/10/17
 photo.387.link: https://www.instagram.com/otenba_redpanda/
 photo.387.tags: portrait, whiskers
 species: 2

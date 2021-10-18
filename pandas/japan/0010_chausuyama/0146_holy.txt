@@ -271,8 +271,9 @@ photo.52.author: shigeko0531
 photo.52.commitdate: 2021/10/10
 photo.52.link: https://www.instagram.com/shigeko0531/
 photo.52.tags: bamboo, bite, portrait
-photo.53: https://www.instagram.com/p/CVE0qItBUMB/media/?size=m
+photo.53: ig://CVE0qItBUMB/m
 photo.53.author: mari_neko3
+photo.53.commitdate: 2021/10/17
 photo.53.link: https://www.instagram.com/mari_neko3/
 photo.53.tags: mofumofu, peek, portrait, profile
 species: 2
