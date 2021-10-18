@@ -220,7 +220,7 @@ photo.42: ig://CLy1yrhhhZQ/m
 photo.42.author: jas_forever_love
 photo.42.commitdate: 2021/3/4
 photo.42.link: https://www.instagram.com/jas_forever_love/
-photo.42.tags: close-up, portrait, profile, whiskers
+photo.42.tags: close-up, portrait, whiskers
 photo.43: ig://CM0MHyBh8sW/m
 photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2021/6/23
@@ -271,6 +271,10 @@ photo.52.author: shigeko0531
 photo.52.commitdate: 2021/10/10
 photo.52.link: https://www.instagram.com/shigeko0531/
 photo.52.tags: bamboo, bite, portrait
+photo.53: https://www.instagram.com/p/CVE0qItBUMB/media/?size=m
+photo.53.author: mari_neko3
+photo.53.link: https://www.instagram.com/mari_neko3/
+photo.53.tags: mofumofu, peek, portrait, profile
 species: 2
 studbook.id: 1675
 zoo: 10
