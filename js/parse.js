@@ -275,6 +275,12 @@ Parse.group.takes_subject_year = Parse.values([
   Parse.keyword.born,
   Parse.keyword.dead
 ]);
+// Keywords that take some kind of full date string
+Parse.group.takes_subject_date = Parse.values([
+  Parse.keyword.baby,
+  Parse.keyword.born,
+  Parse.keyword.dead
+]);
 // Single keywords that represent queries on their own
 Parse.group.zeroary = Parse.values([
   Language.L.tags,
@@ -426,7 +432,7 @@ Parse.tree.build_grammar = function() {
   var Repeat = window.jsleri.Repeat;
   var Sequence = window.jsleri.Sequence;
   // var THIS = window.jsleri.THIS;
-  // Take a list of operators and turn it into a choice
+  // Take a list of keywords/operators and turn it into a choice
   // NOTE: Choice.apply(Choice, Parse.keyword) == Choice(...Parse.keyword)
   var Choices = function(keyword_list) {
     return Choice.apply(Choice, (keyword_list).map(kw => Keyword(kw, true)));
@@ -456,6 +462,11 @@ Parse.tree.build_grammar = function() {
   var c_k_unary_name = Reversible(Choices(Parse.group.takes_subject_name), r_name);
   var c_k_unary_number = Reversible(Choices(Parse.group.takes_subject_number), r_id);
   var c_k_unary_year = Reversible(Choices(Parse.group.takes_subject_year), r_year);
+  var c_k_unary_date_aa_bb = Reversible(Choices(Parse.group.takes_subject_date), r_date_aa_bb);
+  var c_k_unary_date_aa_bb_cc = Reversible(Choices(Parse.group.takes_subject_date), r_date_aa_bb_cc);
+  var c_k_unary_date_aa_bb_yyyy = Reversible(Choices(Parse.group.takes_subject_date), r_date_aa_bb_yyyy);
+  var c_k_unary_date_mm_yyyy = Reversible(Choices(Parse.group.takes_subject_date), r_date_mm_yyyy);
+  var c_k_unary_date_yyyy_mm_dd = Reversible(Choices(Parse.group.takes_subject_date), r_date_yyyy_mm_dd);
   // Unary keyword with two subjects
   // Used to search for photo credits of a specific animal
   var c_k_unary_credit_author_and_name = Reversible(Sequence(Choices(Parse.group.takes_subject_author), r_name), r_name);
@@ -484,6 +495,11 @@ Parse.tree.build_grammar = function() {
     c_k_unary_credit_author_and_id,     // credit <author> <panda-id>
     c_k_unary_year,       // Unary keywords followed by year-number
     c_k_unary_number,     // Unary keywords followed by id-number
+    c_k_unary_date_yyyy_mm_dd,    // Unary keywords followed by an exact date
+    c_k_unary_date_aa_bb_yyyy,
+    c_k_unary_date_aa_bb_cc,      // Unary keywords followed by a partial date
+    c_k_unary_date_mm_yyyy,
+    c_k_unary_date_aa_bb,
     c_k_unary_name,       // Unary keywords followed by a name-string
     // TODO: don't have parse tree techniques to detect these
     // Sequence('(', THIS, ')'),   // Bracketed expressions
@@ -745,13 +761,20 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
       container_node.type = "set_keyword_year";
       subject_node.type = "subject_year";
     }
-    //  6) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
+    //  6) (group.year_subject)+(year or id): keyword plus a date
+    else if ((Parse.group.takes_subject_date.indexOf(keyword_node.str) != -1) &&
+             (subject_node.type == "subject_date"))          
+    {
+      container_node.type = "set_keyword_date";
+      subject_node.type = "subject_date";
+    }
+    //  7) (nearby)+(year or id): id of a zoo. Get zoos near the given one.
     else if ((Parse.group.nearby.indexOf(keyword_node.str) != -1) &&
              (subject_node.type == "subject_id")) {
       container_node.type = "set_nearby_zoo";
       subject_node.type = "subject_zoo_id";
     }
-    //  7) (panda)+(year or id): keyword plus an id. Get the panda matching the id.
+    //  8) (panda)+(year or id): keyword plus an id. Get the panda matching the id.
     else if ((Parse.group.panda.indexOf(keyword_node.str) != -1) && 
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
@@ -759,7 +782,7 @@ Parse.tree.node_type_specific_ids = function(container_node, value_nodes) {
       keyword_node.type = "type";
       subject_node.type = "subject_panda_id";
     }
-    //  8) (zoo)+(year or id): keyword plus an id. Get the zoo matching the id.
+    //  9) (zoo)+(year or id): keyword plus an id. Get the zoo matching the id.
     else if ((Parse.group.zoo.indexOf(keyword_node.str) != -1) && 
              ((subject_node.type == "subject_id") || 
               (subject_node.type == "subject_year"))) {
@@ -779,6 +802,7 @@ Parse.tree.types.sets = [
   "set_keyword",
   "set_keywords",
   "set_keyword_subject",
+  "set_keyword_date",
   "set_keyword_year",
   "set_matching_tags_photos",
   "set_nearby_zoo",

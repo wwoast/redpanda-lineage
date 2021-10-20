@@ -181,6 +181,9 @@ Query.resolver.pair = function(set_node) {
     search_word = subject_node.str;   // Only set when a subject is given
   }
   var tag = undefined;
+  if (set_node.type == "set_keyword_date") {
+    console.log("keyword + date");
+  }
   if (set_node.type == "set_keyword_subject") {
     // Go through what all the possible keywords might be that we care about here
     if (Parse.group.born_at.indexOf(keyword_node.str) != -1) {
