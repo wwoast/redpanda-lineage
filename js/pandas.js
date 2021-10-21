@@ -463,6 +463,34 @@ Pandas.checkId = function(input) {
   return (isFinite(input) && input != Pandas.def.animal['_id']);
 }
 
+// For wildcard date values, we do some date checks by
+// converting Date objects to year-month-day dicts
+Pandas.date_to_ymd = function(date) {
+  return {
+    "year": date.getFullYear(),
+    "month": date.getMonth() + 1,
+    "day": date.getDate()
+  }
+}
+
+// Match a birthday against a date-ymd dict, allowing for if
+// the check field (y m or d) is "any", match against the other
+// values.
+Pandas.date_ymd_compare_field = function(birthday, input, check) {
+  if (input[check] == "any") {
+    return true;
+  } else {
+    return (birthday[check] == input[check]);
+  }
+}
+
+Pandas.date_ymd_compare = function(birthday_ymd, input_ymd) {
+  return ((Pandas.date_ymd_compare_field(birthday_ymd, input_ymd, "day")) &&
+          (Pandas.date_ymd_compare_field(birthday_ymd, input_ymd, "month")) &&
+          (Pandas.date_ymd_compare_field(birthday_ymd, input_ymd, "year")));
+}
+
+
 // Filter for distinct animals
 Pandas.distinct = function(list) {
   var unique = (value, index, self) => {
@@ -702,20 +730,6 @@ Pandas.searchBirthdayList = function(input_date) {
   // Find all pandas that have a certain birthday.
   // Used for date searches, unlike other birthday functions which
   // are for showing birthday pandas on the front page.
-  var compare = function(birthday, input, check) {
-    if (input[check] == "any") {
-      return true;
-    } else {
-      return (birthday[check] == input[check]);
-    }
-  }
-  var date_to_ymd = function(date) {
-    return {
-      "year": date.getFullYear(),
-      "month": date.getMonth() + 1,
-      "day": date.getDate()
-    }
-  }
   var input_ymd = Pandas.parseDate(input_date, L.display);
   // Make sure we're using a 4-digit year, assume > 2000
   if (input_ymd["year"] < 2000) {
@@ -725,10 +739,8 @@ Pandas.searchBirthdayList = function(input_date) {
     return vertex["_id"] > 0;   // Just animals
   }).filter(function(vertex) {
     var birthday = new Date(vertex.birthday);
-    var birthday_ymd = date_to_ymd(birthday);
-    return ((compare(birthday_ymd, input_ymd, "day")) &&
-            (compare(birthday_ymd, input_ymd, "month")) &&
-            (compare(birthday_ymd, input_ymd, "year")));
+    var birthday_ymd = Pandas.date_to_ymd(birthday);
+    return Pandas.date_ymd_compare(birthday_ymd, input_ymd);
   }).run();
   // TODO: make litter mates show up next to each other
   return Pandas.sortOldestToYoungest(nodes);
@@ -872,7 +884,6 @@ Pandas.searchBirthdayLitterBias = function(keep_living=true, photo_count=20, max
   return final_animals;
 }
 
-
 // Find all pandas that died within a calendar year.
 Pandas.searchDead = function(year) {
   // Default search is for the most recent year we recorded a birth in
@@ -885,6 +896,22 @@ Pandas.searchDead = function(year) {
     var their_date = new Date(vertex.death);
     var their_year = their_date.getFullYear();
     return their_year == died_year;
+  }).unique().run();
+  return Pandas.sortYoungestToOldest(nodes);
+}
+
+Pandas.searchDiedList = function(input_date) {
+  var died_date_ymd = Pandas.parseDate(input_date, L.display);
+  // Make sure we're using a 4-digit year, assume > 2000
+  if (died_date_ymd["year"] < 2000) {
+    died_date_ymd["year"] = died_date_ymd["year"] + 2000;
+  }
+  var nodes = G.v().filter(function(vertex) {
+    return (vertex["photo.1"] != undefined);
+  }).filter(function (vertex) {
+    var their_date = new Date(vertex.death);
+    var their_date_ymd = Pandas.date_to_ymd(their_date);
+    return Pandas.date_ymd_compare(their_date_ymd, died_date_ymd);
   }).unique().run();
   return Pandas.sortYoungestToOldest(nodes);
 }

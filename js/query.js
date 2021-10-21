@@ -182,10 +182,17 @@ Query.resolver.pair = function(set_node) {
   }
   var tag = undefined;
   if (set_node.type == "set_keyword_date") {
-    console.log("keyword + date");
+    if (Parse.group.born.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchBirthdayList(search_word);
+    }
+    if (Parse.group.dead.indexOf(keyword_node.str) != -1) {
+      hits = Pandas.searchDiedList(search_word);
+    }
   }
   if (set_node.type == "set_keyword_subject") {
-    // Go through what all the possible keywords might be that we care about here
+    // Go through what all the possible keywords might be that we care about here.
+    // Subject may be ambiguous (number as either id or year) but is clarified by
+    // the additional keyword that is provided
     if (Parse.group.born_at.indexOf(keyword_node.str) != -1) {
       hits = Pandas.searchPandaZooBornRecords(search_word, true);
     }

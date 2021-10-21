@@ -206,6 +206,10 @@ Parse.group = {};
 Parse.group.baby = Parse.values([
   Parse.keyword.baby
 ]);
+// Valid born keywords
+Parse.group.born = Parse.values([
+  Parse.keyword.born
+]);
 // Valid born at keywords
 Parse.group.born_at = Parse.values([
   Parse.keyword.born_at
