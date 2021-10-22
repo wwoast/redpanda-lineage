@@ -1925,30 +1925,31 @@ photo.383.author: otenba_redpanda
 photo.383.commitdate: 2021/10/1
 photo.383.link: https://www.instagram.com/accounts/activity/
 photo.383.tags: portrait, smile, whiskers
-photo.384: ig://CTvGZUjBMT3/m
-photo.384.author: otenba_redpanda
-photo.384.commitdate: 2021/10/1
-photo.384.link: https://www.instagram.com/otenba_redpanda/
-photo.384.tags: bridge, portrait, smile
-photo.385: ig://CUTQiBTB0dY/m
-photo.385.author: alto0908
-photo.385.commitdate: 2021/10/9
-photo.385.link: https://www.instagram.com/alto0908/
-photo.385.tags: laying down, grumpy, paws, portrait, whiskers
-photo.386: ig://CUc-jIahbWz/m
+photo.384: ig://CTo4ArOhOhh/m
+photo.384.author: kotata_513
+photo.384.commitdate: 2021/10/22
+photo.384.link: https://www.instagram.com/kotata_513/
+photo.384.tags: smile, whiskers
+photo.385: ig://CTvGZUjBMT3/m
+photo.385.author: otenba_redpanda
+photo.385.commitdate: 2021/10/1
+photo.385.link: https://www.instagram.com/otenba_redpanda/
+photo.385.tags: bridge, portrait, smile
+photo.386: ig://CUTQiBTB0dY/m
 photo.386.author: alto0908
 photo.386.commitdate: 2021/10/9
 photo.386.link: https://www.instagram.com/alto0908/
-photo.386.tags: peek, portrait, whiskers
-photo.387: ig://CU0qy_UB3et/m
-photo.387.author: otenba_redpanda
-photo.387.commitdate: 2021/10/17
-photo.387.link: https://www.instagram.com/otenba_redpanda/
-photo.387.tags: portrait, whiskers
-photo.388: https://www.instagram.com/p/CTo4ArOhOhh/media/?size=m
-photo.388.author: kotata_513
-photo.388.link: https://www.instagram.com/kotata_513/
-photo.388.tags: smile, whiskers
+photo.386.tags: laying down, grumpy, paws, portrait, whiskers
+photo.387: ig://CUc-jIahbWz/m
+photo.387.author: alto0908
+photo.387.commitdate: 2021/10/9
+photo.387.link: https://www.instagram.com/alto0908/
+photo.387.tags: peek, portrait, whiskers
+photo.388: ig://CU0qy_UB3et/m
+photo.388.author: otenba_redpanda
+photo.388.commitdate: 2021/10/17
+photo.388.link: https://www.instagram.com/otenba_redpanda/
+photo.388.tags: portrait, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

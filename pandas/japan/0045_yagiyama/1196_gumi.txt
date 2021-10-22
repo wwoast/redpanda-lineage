@@ -152,14 +152,15 @@ photo.28.author: alto0908
 photo.28.commitdate: 2021/9/8
 photo.28.link: https://www.instagram.com/alto0908/
 photo.28.tags: paws, portrait, standing, tail
-photo.29: ig://CTj7P94BiTZ/m
-photo.29.author: redpan22
-photo.29.commitdate: 2021/9/18
-photo.29.link: https://www.instagram.com/redpan22/
-photo.29.tags: flowers, smile
-photo.30: https://www.instagram.com/p/CTaI2hOhiPI/media/?size=m
-photo.30.author: alto0908
-photo.30.link: https://www.instagram.com/alto0908/
-photo.30.tags: mofumofu, portrait
+photo.29: ig://CTaI2hOhiPI/m
+photo.29.author: alto0908
+photo.29.commitdate: 2021/10/22
+photo.29.link: https://www.instagram.com/alto0908/
+photo.29.tags: mofumofu, portrait
+photo.30: ig://CTj7P94BiTZ/m
+photo.30.author: redpan22
+photo.30.commitdate: 2021/9/18
+photo.30.link: https://www.instagram.com/redpan22/
+photo.30.tags: flowers, smile
 species: 2
 zoo: 45

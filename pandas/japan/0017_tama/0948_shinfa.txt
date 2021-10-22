@@ -613,24 +613,25 @@ photo.120.author: otenba_redpanda
 photo.120.commitdate: 2021/10/3
 photo.120.link: https://www.instagram.com/otenba_redpanda/
 photo.120.tags: door, mofumofu, portrait
-photo.121: ig://CTyVXlehGy6/m
-photo.121.author: otenba_redpanda
-photo.121.commitdate: 2021/10/3
-photo.121.link: https://www.instagram.com/otenba_redpanda/
-photo.121.tags: mofumofu, paws, portrait, smile, whiskers
-photo.122: ig://CT3Asv5BGah/m
+photo.121: ig://CTmTXiFhJJC/m
+photo.121.author: kotata_513
+photo.121.commitdate: 2021/10/22
+photo.121.link: https://www.instagram.com/kotata_513/
+photo.121.tags: smile, whiskers
+photo.122: ig://CTyVXlehGy6/m
 photo.122.author: otenba_redpanda
 photo.122.commitdate: 2021/10/3
 photo.122.link: https://www.instagram.com/otenba_redpanda/
-photo.122.tags: paws, portrait, smile, whiskers
-photo.123: ig://CUPs5-GFKmu/m
-photo.123.author: mini_cochi
-photo.123.commitdate: 2021/9/28
-photo.123.link: https://www.instagram.com/mini_cochi/
-photo.123.tags: paws, portrait, smile
-photo.124: https://www.instagram.com/p/CTmTXiFhJJC/media/?size=m
-photo.124.author: kotata_513
-photo.124.link: https://www.instagram.com/kotata_513/
-photo.124.tags: smile, whiskers
+photo.122.tags: mofumofu, paws, portrait, smile, whiskers
+photo.123: ig://CT3Asv5BGah/m
+photo.123.author: otenba_redpanda
+photo.123.commitdate: 2021/10/3
+photo.123.link: https://www.instagram.com/otenba_redpanda/
+photo.123.tags: paws, portrait, smile, whiskers
+photo.124: ig://CUPs5-GFKmu/m
+photo.124.author: mini_cochi
+photo.124.commitdate: 2021/9/28
+photo.124.link: https://www.instagram.com/mini_cochi/
+photo.124.tags: paws, portrait, smile
 species: 2
 zoo: 17

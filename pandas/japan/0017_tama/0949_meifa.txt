@@ -667,29 +667,30 @@ photo.131.author: otenba_redpanda
 photo.131.commitdate: 2021/10/3
 photo.131.link: https://www.instagram.com/otenba_redpanda/
 photo.131.tags: close-up, mofumofu, portrait, whiskers
-photo.132: ig://CTnb21kh5d5/m
-photo.132.author: otenba_redpanda
-photo.132.commitdate: 2021/10/3
-photo.132.link: https://www.instagram.com/otenba_redpanda/
-photo.132.tags: door, mofumofu, paws, portrait
-photo.133: ig://CT7NS1vF4A0/m
+photo.132: ig://CTmgVAGBWZk/m
+photo.132.author: redpan22
+photo.132.commitdate: 2021/10/22
+photo.132.link: https://www.instagram.com/redpan22/
+photo.132.tags: mofumofu, smile, whiskers
+photo.133: ig://CTnb21kh5d5/m
 photo.133.author: otenba_redpanda
 photo.133.commitdate: 2021/10/3
 photo.133.link: https://www.instagram.com/otenba_redpanda/
-photo.133.tags: bridge, laying down, paws, portrait
-photo.134: ig://CUPypFFBmBS/m
-photo.134.author: redpan22
-photo.134.commitdate: 2021/9/28
-photo.134.link: https://www.instagram.com/redpan22/
-photo.134.tags: mofumofu, peek
-photo.135: ig://CUaKE0Slq9O/m
-photo.135.author: mini_cochi
-photo.135.commitdate: 2021/10/9
-photo.135.link: https://www.instagram.com/mini_cochi/
-photo.135.tags: door, paws, portrait, smile
-photo.136: https://www.instagram.com/p/CTmgVAGBWZk/media/?size=m
-photo.136.author: redpan22
-photo.136.link: https://www.instagram.com/redpan22/
-photo.136.tags: mofumofu, smile, whiskers
+photo.133.tags: door, mofumofu, paws, portrait
+photo.134: ig://CT7NS1vF4A0/m
+photo.134.author: otenba_redpanda
+photo.134.commitdate: 2021/10/3
+photo.134.link: https://www.instagram.com/otenba_redpanda/
+photo.134.tags: bridge, laying down, paws, portrait
+photo.135: ig://CUPypFFBmBS/m
+photo.135.author: redpan22
+photo.135.commitdate: 2021/9/28
+photo.135.link: https://www.instagram.com/redpan22/
+photo.135.tags: mofumofu, peek
+photo.136: ig://CUaKE0Slq9O/m
+photo.136.author: mini_cochi
+photo.136.commitdate: 2021/10/9
+photo.136.link: https://www.instagram.com/mini_cochi/
+photo.136.tags: door, paws, portrait, smile
 species: 2
 zoo: 17

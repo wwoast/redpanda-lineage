@@ -238,38 +238,40 @@ photo.45.author: mini_cochi
 photo.45.commitdate: 2021/9/10
 photo.45.link: https://www.instagram.com/mini_cochi/
 photo.45.tags: bamboo, peek, portrait
-photo.46: ig://CT_0vOpBt1L/m
-photo.46.author: otenba_redpanda
-photo.46.commitdate: 2021/10/1
-photo.46.link: https://www.instagram.com/otenba_redpanda/
-photo.46.tags: door, portrait, smile, whiskers
-photo.47: ig://CUEpOiDLcvk/m
-photo.47.author: ck.chie
-photo.47.commitdate: 2021/9/25
-photo.47.link: https://www.instagram.com/ck.chie/
-photo.47.tags: laying down, paws, portrait
-photo.48: ig://CUyTiOHhYvr/m
-photo.48.author: miis_98
-photo.48.commitdate: 2021/10/17
-photo.48.link: https://www.instagram.com/miis_98/
-photo.48.tags: paws, portrait
-photo.49: ig://CUzzhOVFWNl/m
-photo.49.author: mini_cochi
-photo.49.commitdate: 2021/10/17
-photo.49.link: https://www.instagram.com/mini_cochi/
-photo.49.tags: bridge, grooming, paws, tail, upside-down
-photo.50: ig://CU3aVo2BKKT/m
-photo.50.author: otenba_redpanda
+photo.46: ig://CTuPy4FlYJ5/m
+photo.46.author: mini_cochi
+photo.46.commitdate: 2021/10/22
+photo.46.link: https://www.instagram.com/mini_cochi/
+photo.46.tags: bridge, laying down, paws, tail
+photo.47: ig://CTw-rADlizZ/m
+photo.47.author: mini_cochi
+photo.47.commitdate: 2021/10/22
+photo.47.link: https://www.instagram.com/mini_cochi/
+photo.47.tags: paws, portrait
+photo.48: ig://CT_0vOpBt1L/m
+photo.48.author: otenba_redpanda
+photo.48.commitdate: 2021/10/1
+photo.48.link: https://www.instagram.com/otenba_redpanda/
+photo.48.tags: door, portrait, smile, whiskers
+photo.49: ig://CUEpOiDLcvk/m
+photo.49.author: ck.chie
+photo.49.commitdate: 2021/9/25
+photo.49.link: https://www.instagram.com/ck.chie/
+photo.49.tags: laying down, paws, portrait
+photo.50: ig://CUyTiOHhYvr/m
+photo.50.author: miis_98
 photo.50.commitdate: 2021/10/17
-photo.50.link: https://www.instagram.com/otenba_redpanda/
-photo.50.tags: mofumofu, portrait, tail
-photo.51: https://www.instagram.com/p/CTw-rADlizZ/media/?size=m
+photo.50.link: https://www.instagram.com/miis_98/
+photo.50.tags: paws, portrait
+photo.51: ig://CUzzhOVFWNl/m
 photo.51.author: mini_cochi
+photo.51.commitdate: 2021/10/17
 photo.51.link: https://www.instagram.com/mini_cochi/
-photo.51.tags: paws, portrait
-photo.52: https://www.instagram.com/p/CTuPy4FlYJ5/media/?size=m
-photo.52.author: mini_cochi
-photo.52.link: https://www.instagram.com/mini_cochi/
-photo.52.tags: bridge, laying down, paws, tail
+photo.51.tags: bridge, grooming, paws, tail, upside-down
+photo.52: ig://CU3aVo2BKKT/m
+photo.52.author: otenba_redpanda
+photo.52.commitdate: 2021/10/17
+photo.52.link: https://www.instagram.com/otenba_redpanda/
+photo.52.tags: mofumofu, portrait, tail
 species: 2
 zoo: 17

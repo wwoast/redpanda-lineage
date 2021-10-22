@@ -144,25 +144,26 @@ photo.26.author: makimaru18
 photo.26.commitdate: 2021/9/8
 photo.26.link: https://www.instagram.com/makimaru18/
 photo.26.tags: bamboo, portrait, smile
-photo.27: ig://CUDGxWnBcCp/m
-photo.27.author: nakacchi_desu
-photo.27.commitdate: 2021/10/10
-photo.27.link: https://www.instagram.com/nakacchi_desu/
-photo.27.tags: laying down, tongue, whiskers
-photo.28: ig://CUrvquOBPq0/m
-photo.28.author: bubbles_octi
-photo.28.commitdate: 2021/10/16
-photo.28.link: https://www.instagram.com/bubbles_octi/
-photo.28.tags: smile
-photo.29: ig://CU6EPWvBirJ/m
-photo.29.author: makimaru18
-photo.29.commitdate: 2021/10/17
-photo.29.link: https://www.instagram.com/makimaru18/
-photo.29.tags: bamboo, bite, portrait
-photo.30: https://www.instagram.com/p/CTqnLbnBMCw/media/?size=m
-photo.30.author: osaka_tennoji_zoo
-photo.30.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.30.tags: mofumofu, portrait, tail
+photo.27: ig://CTqnLbnBMCw/m
+photo.27.author: osaka_tennoji_zoo
+photo.27.commitdate: 2021/10/22
+photo.27.link: https://www.instagram.com/osaka_tennoji_zoo/
+photo.27.tags: mofumofu, portrait, tail
+photo.28: ig://CUDGxWnBcCp/m
+photo.28.author: nakacchi_desu
+photo.28.commitdate: 2021/10/10
+photo.28.link: https://www.instagram.com/nakacchi_desu/
+photo.28.tags: laying down, tongue, whiskers
+photo.29: ig://CUrvquOBPq0/m
+photo.29.author: bubbles_octi
+photo.29.commitdate: 2021/10/16
+photo.29.link: https://www.instagram.com/bubbles_octi/
+photo.29.tags: smile
+photo.30: ig://CU6EPWvBirJ/m
+photo.30.author: makimaru18
+photo.30.commitdate: 2021/10/17
+photo.30.link: https://www.instagram.com/makimaru18/
+photo.30.tags: bamboo, bite, portrait
 species: 2
 studbook.id: 1780
 zoo: 22
