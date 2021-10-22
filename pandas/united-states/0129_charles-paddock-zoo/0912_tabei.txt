@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 524
 location.1: 108, 2013/6/1
 location.2: 154, 2014/5/13
+location.3: 129, 2021/8/1
 photo.1: ig://CFMuBxDhn1c/m
 photo.1.author: syracusezoo
 photo.1.commitdate: 2020/9/16
@@ -31,4 +32,5 @@ photo.3.commitdate: 2021/10/22
 photo.3.link: https://www.instagram.com/charlespaddockzoo/
 photo.3.tags: mofumofu, portrait, tail, white face
 species: 1
-zoo: 154
+uncertainty: location.3 exact month/day
+zoo: 129
