@@ -17,6 +17,7 @@ location.1: 141, 2013/6/6
 location.2: 114, 2014/9/30
 location.3: 49, 2017/12/19
 location.4: 154, 2019/10/1
+location.5: 129, 2021/5/1
 photo.1: ig://nbTVHUomVa/m
 photo.1.author: eriezoo
 photo.1.commitdate: 2019/9/21
@@ -29,5 +30,5 @@ photo.2.link: https://www.instagram.com/syracusezoo/
 photo.2.tags: white face
 species: 1
 studbook.id: 1310
-uncertainty: location.4 date
-zoo: 154
+uncertainty: location.4 date, location.5 date
+zoo: 129
