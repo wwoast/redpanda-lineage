@@ -295,30 +295,31 @@ photo.56.author: itsuak
 photo.56.commitdate: 2021/9/18
 photo.56.link: https://www.instagram.com/itsuak/
 photo.56.tags: grooming, paws, portrait
-photo.57: ig://CUHxtxfFxik/m
+photo.57: ig://CT19YHCP6gm/m
 photo.57.author: itsuak
-photo.57.commitdate: 2021/10/6
+photo.57.commitdate: 2021/10/24
 photo.57.link: https://www.instagram.com/itsuak/
-photo.57.tags: bamboo, portrait, smile, tail, tongue
-photo.58: ig://CUcnkHGP4W1/m
+photo.57.tags: portrait, smile, whiskers
+photo.58: ig://CUHxtxfFxik/m
 photo.58.author: itsuak
-photo.58.commitdate: 2021/10/9
+photo.58.commitdate: 2021/10/6
 photo.58.link: https://www.instagram.com/itsuak/
-photo.58.tags: paws, portrait, tail
-photo.59: ig://CUe6Cn4h-HY/m
+photo.58.tags: bamboo, portrait, smile, tail, tongue
+photo.59: ig://CUcnkHGP4W1/m
 photo.59.author: itsuak
 photo.59.commitdate: 2021/10/9
 photo.59.link: https://www.instagram.com/itsuak/
-photo.59.tags: portrait, smile, tongue
-photo.60: ig://CVDB3QpBB-j/m
+photo.59.tags: paws, portrait, tail
+photo.60: ig://CUe6Cn4h-HY/m
 photo.60.author: itsuak
-photo.60.commitdate: 2021/10/17
+photo.60.commitdate: 2021/10/9
 photo.60.link: https://www.instagram.com/itsuak/
-photo.60.tags: mofumofu, paws, portrait
-photo.61: https://www.instagram.com/p/CT19YHCP6gm/media/?size=m
+photo.60.tags: portrait, smile, tongue
+photo.61: ig://CVDB3QpBB-j/m
 photo.61.author: itsuak
+photo.61.commitdate: 2021/10/17
 photo.61.link: https://www.instagram.com/itsuak/
-photo.61.tags: portrait, smile, whiskers
+photo.61.tags: mofumofu, paws, portrait
 species: 2
 studbook.id: 0978
 zoo: 15

@@ -645,8 +645,9 @@ photo.129.author: bubbles_octi
 photo.129.commitdate: 2021/8/10
 photo.129.link: https://www.instagram.com/bubbles_octi/
 photo.129.tags: apple time, paws, portrait, smile, standing, whiskers
-photo.130: https://www.instagram.com/p/CT4SH9Dh-fm/media/?size=m
+photo.130: ig://CT4SH9Dh-fm/m
 photo.130.author: makimaru18
+photo.130.commitdate: 2021/10/24
 photo.130.link: https://www.instagram.com/makimaru18/
 photo.130.tags: keeper, paws, portrait, standing, tail
 species: 2

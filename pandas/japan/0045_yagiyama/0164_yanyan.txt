@@ -565,8 +565,9 @@ photo.111.author: minatomirai215
 photo.111.commitdate: 2021/8/6
 photo.111.link: https://www.instagram.com/minatomirai215/
 photo.111.tags: bridge, paws, portrait, whiskers
-photo.112: https://www.instagram.com/p/CTj1dwcB7Dk/media/?size=m
+photo.112: ig://CTj1dwcB7Dk/m
 photo.112.author: alto0908
+photo.112.commitdate: 2021/10/24
 photo.112.link: https://www.instagram.com/alto0908/
 photo.112.tags: close-up, portrait, whiskers
 species: 2

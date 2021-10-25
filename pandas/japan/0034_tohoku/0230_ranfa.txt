@@ -845,8 +845,9 @@ photo.168.author: daniele.tokyo
 photo.168.commitdate: 2021/8/26
 photo.168.link: https://www.instagram.com/daniele.tokyo/
 photo.168.tags: apple time, paws, whiskers
-photo.169: https://www.instagram.com/p/CT65kjMh68u/media/?size=m
+photo.169: ig://CT65kjMh68u/m
 photo.169.author: https://www.instagram.com/daniele.tokyo/
+photo.169.commitdate: 2021/10/24
 photo.169.tags: baby, mofumofu, whiskers
 species: 2
 studbook.id: unknown

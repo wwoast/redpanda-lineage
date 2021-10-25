@@ -158,27 +158,31 @@ photo.29.author: hamiiiii831_
 photo.29.commitdate: 2021/6/19
 photo.29.link: https://www.instagram.com/hamiiiii831_/
 photo.29.tags: paws, smile, tongue, videolink
-photo.30: ig://CUm_zChhrdl/m
-photo.30.author: panda.daisuki
-photo.30.commitdate: 2021/10/16
-photo.30.link: https://www.instagram.com/panda.daisuki/
-photo.30.tags: laying down, mofumofu, tail
-photo.31: https://www.instagram.com/p/CSOfcaCLIgl/media/?size=m
-photo.31.author: kaoru_a358
-photo.31.link: https://www.instagram.com/kaoru_a358/
-photo.31.tags: apple time, bite, close-up, portrait, smile
-photo.32: https://www.instagram.com/p/CSQKHnhBfTm/media/?size=m
-photo.32.author: panda.daisuki
-photo.32.link: https://www.instagram.com/panda.daisuki/
-photo.32.tags: laying down, mofumofu, portrait, tail
-photo.33: https://www.instagram.com/p/CTL0cxwLqWM/media/?size=m
-photo.33.author: hidehaya_biei
-photo.33.link: https://www.instagram.com/hidehaya_biei/
-photo.33.tags: mofumofu, paws, tongue
-photo.34: https://www.instagram.com/p/CTkIweRBE3I/media/?size=m
+photo.30: ig://CSOfcaCLIgl/m
+photo.30.author: kaoru_a358
+photo.30.commitdate: 2021/10/24
+photo.30.link: https://www.instagram.com/kaoru_a358/
+photo.30.tags: apple time, bite, close-up, portrait, smile
+photo.31: ig://CSQKHnhBfTm/m
+photo.31.author: panda.daisuki
+photo.31.commitdate: 2021/10/24
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: laying down, mofumofu, portrait, tail
+photo.32: ig://CTL0cxwLqWM/m
+photo.32.author: hidehaya_biei
+photo.32.commitdate: 2021/10/24
+photo.32.link: https://www.instagram.com/hidehaya_biei/
+photo.32.tags: mofumofu, paws, tongue
+photo.33: ig://CTkIweRBE3I/m
+photo.33.author: panda.daisuki
+photo.33.commitdate: 2021/10/24
+photo.33.link: https://www.instagram.com/panda.daisuki/
+photo.33.tags: air tasting, laying down, tongue
+photo.34: ig://CUm_zChhrdl/m
 photo.34.author: panda.daisuki
+photo.34.commitdate: 2021/10/16
 photo.34.link: https://www.instagram.com/panda.daisuki/
-photo.34.tags: air tasting, laying down, tongue
+photo.34.tags: laying down, mofumofu, tail
 species: 2
 studbook.id: unknown
 zoo: 53
