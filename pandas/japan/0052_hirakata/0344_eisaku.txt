@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: エイサク
 language.order: jp, en
 litter: 345
+location.1: 53, 2018/7/15
+location.2: 52, 2021/10/25
 photo.1: ig://Bo-PoplBpxr/m
 photo.1.author: resapanlove
 photo.1.commitdate: 2018/11/15
@@ -449,4 +451,4 @@ photo.87.link: https://www.instagram.com/panda.daisuki/
 photo.87.tags: portrait, smile, tongue, whiskers
 species: 2
 studbook.id: unknown
-zoo: 53
+zoo: 52
