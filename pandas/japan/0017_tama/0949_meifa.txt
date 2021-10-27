@@ -697,8 +697,9 @@ photo.137.author: mini_cochi
 photo.137.commitdate: 2021/10/9
 photo.137.link: https://www.instagram.com/mini_cochi/
 photo.137.tags: door, paws, portrait, smile
-photo.138: https://www.instagram.com/p/CUgSE23BrwV/media/?size=m
+photo.138: ig://CUgSE23BrwV/m
 photo.138.author: miis_98
+photo.138.commitdate: 2021/10/26
 photo.138.link: https://www.instagram.com/miis_98/
 photo.138.tags: portrait, smile, whiskers
 species: 2

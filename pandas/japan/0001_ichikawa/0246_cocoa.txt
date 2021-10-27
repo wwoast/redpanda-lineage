@@ -1128,18 +1128,21 @@ photo.223.author: ck.chie
 photo.223.commitdate: 2021/8/18
 photo.223.link: https://www.instagram.com/ck.chie/
 photo.223.tags: apple time, close-up, mofumofu, whiskers
-photo.224: https://www.instagram.com/p/CUclqm2Bvgr/media/?size=m
-photo.224.author: ifumoto88
-photo.224.link: https://www.instagram.com/ifumoto88/
-photo.224.tags: portrait, smile, tongue
-photo.225: https://www.instagram.com/p/CUINFoBBbIC/media/?size=m
+photo.224: ig://CUDsltSBXKh/m
+photo.224.author: ssc6105
+photo.224.commitdate: 2021/10/26
+photo.224.link: https://www.instagram.com/ssc6105/
+photo.224.tags: dish, home, laying down, paws, portrait, smile, whiskers
+photo.225: ig://CUINFoBBbIC/m
 photo.225.author: na.mo.pan
+photo.225.commitdate: 2021/10/26
 photo.225.link: https://www.instagram.com/na.mo.pan/
 photo.225.tags: paws, smile, tongue, whiskers
-photo.226: https://www.instagram.com/p/CUDsltSBXKh/media/?size=m
-photo.226.author: ssc6105
-photo.226.link: https://www.instagram.com/ssc6105/
-photo.226.tags: dish, home, laying down, paws, portrait, smile, whiskers
+photo.226: ig://CUclqm2Bvgr/m
+photo.226.author: ifumoto88
+photo.226.commitdate: 2021/10/26
+photo.226.link: https://www.instagram.com/ifumoto88/
+photo.226.tags: portrait, smile, tongue
 species: 2
 studbook.id: unknown
 zoo: 1
