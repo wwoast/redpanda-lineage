@@ -22,7 +22,7 @@ photo.2: ig://CUg_UmlrwbO/m
 photo.2.author: shigeko0531
 photo.2.commitdate: 2021/10/6
 photo.2.link: https://www.instagram.com/shigeko0531/
-photo.2.tags: baby, home, mofumofu, portrait, profile
+photo.2.tags: baby, home, mofumofu, portrait
 photo.3: ig://CUl37wxBxKm/m
 photo.3.author: chausuyamazoo
 photo.3.commitdate: 2021/10/6
@@ -48,5 +48,9 @@ photo.7.author: shigeko0531
 photo.7.commitdate: 2021/10/17
 photo.7.link: https://www.instagram.com/shigeko0531/
 photo.7.tags: baby, paws, smile
+photo.8: https://www.instagram.com/p/CVaHbPFBQ8e/media/?size=m
+photo.8.author: daniele.tokyo
+photo.8.link: https://www.instagram.com/daniele.tokyo/
+photo.8.tags: baby, mofumofu, portrait, profile, tail
 species: 2
 zoo: 10
