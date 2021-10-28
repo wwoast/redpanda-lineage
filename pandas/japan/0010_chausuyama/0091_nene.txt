@@ -407,8 +407,9 @@ photo.79.author: redpan22
 photo.79.commitdate: 2021/10/22
 photo.79.link: https://www.instagram.com/redpan22/
 photo.79.tags: close-up, home, mofumofu, portrait, tree, whiskers
-photo.80: https://www.instagram.com/p/CVbenqMBEBS/media/?size=m
+photo.80: ig://CVbenqMBEBS/m
 photo.80.author: otenba_redpanda
+photo.80.commitdate: 2021/10/27
 photo.80.link: https://www.instagram.com/otenba_redpanda/
 photo.80.tags: portrait, smile, whiskers
 species: 2

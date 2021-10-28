@@ -53,8 +53,9 @@ photo.7.author: wumpwoast
 photo.7.commitdate: 2020/5/1
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: laying down, paws, portrait, smile, tongue
-photo.8: https://www.instagram.com/p/CVi-IErBgxj/media/?size=m
+photo.8: ig://CVi-IErBgxj/m
 photo.8.author: woodlandparkzoo
+photo.8.commitdate: 2021/10/27
 photo.8.link: https://www.instagram.com/woodlandparkzoo/
 photo.8.tags: close-up, portrait, tongue, whiskers
 species: 2

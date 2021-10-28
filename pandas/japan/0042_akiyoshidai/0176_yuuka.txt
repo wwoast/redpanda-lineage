@@ -541,8 +541,9 @@ photo.106.author: re_ichimaru
 photo.106.commitdate: 2021/10/6
 photo.106.link: https://www.instagram.com/re_ichimaru/
 photo.106.tags: bear worm, curly, laying down, portrait, smile, tail
-photo.107: https://www.instagram.com/p/CVbf86HBLFu/media/?size=m
+photo.107: ig://CVbf86HBLFu/m
 photo.107.author: re_ichimaru
+photo.107.commitdate: 2021/10/27
 photo.107.link: https://www.instagram.com/re_ichimaru/
 photo.107.tags: curly, paws, smile, standing, tail, upside-down
 species: 2

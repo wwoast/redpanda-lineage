@@ -337,8 +337,9 @@ photo.65.author: chankunvv
 photo.65.commitdate: 2021/8/18
 photo.65.link: https://www.instagram.com/chankunvv/
 photo.65.tags: portrait, whiskers
-photo.66: https://www.instagram.com/p/CVjBB32hnE3/media/?size=m
+photo.66: ig://CVjBB32hnE3/m
 photo.66.author: wumpwoast
+photo.66.commitdate: 2021/10/27
 photo.66.link: https://www.instagram.com/wumpwoast/
 photo.66.tags: dish, portrait, whiskers
 species: 2

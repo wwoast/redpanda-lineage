@@ -292,14 +292,16 @@ photo.56.author: otenba_redpanda
 photo.56.commitdate: 2021/10/1
 photo.56.link: https://www.instagram.com/otenba_redpanda/
 photo.56.tags: air tasting, mofumofu, portrait, tongue, whiskers
-photo.57: https://www.instagram.com/p/CVZZ6YKL1s9/media/?size=m
-photo.57.author: mini_cochi
-photo.57.link: https://www.instagram.com/mini_cochi/
-photo.57.tags: mofumofu, portrait, whiskers, white face
-photo.58: https://www.instagram.com/p/CVSkB50BKJO/media/?size=m
-photo.58.author: jas_forever_love
-photo.58.link: https://www.instagram.com/jas_forever_love/
-photo.58.tags: paws, peek, portrait, tree, whiskers, white face
+photo.57: ig://CVSkB50BKJO/m
+photo.57.author: jas_forever_love
+photo.57.commitdate: 2021/10/27
+photo.57.link: https://www.instagram.com/jas_forever_love/
+photo.57.tags: paws, peek, portrait, tree, whiskers, white face
+photo.58: ig://CVZZ6YKL1s9/m
+photo.58.author: mini_cochi
+photo.58.commitdate: 2021/10/27
+photo.58.link: https://www.instagram.com/mini_cochi/
+photo.58.tags: mofumofu, portrait, whiskers, white face
 species: 2
 studbook.id: 11100
 zoo: 10

@@ -12,9 +12,9 @@ jp.name: 与作
 jp.nicknames: none
 jp.othernames: ヨサク
 language.order: jp, en
+litter: 344
 location.1: 53, 2018/7/15
 location.2: 52, 2021/10/25
-litter: 344
 photo.1: ig://BpHIOUmF6n9/m
 photo.1.author: daniele.tokyo
 photo.1.commitdate: 2018/11/15
@@ -335,8 +335,9 @@ photo.64.author: miis_98
 photo.64.commitdate: 2021/8/25
 photo.64.link: https://www.instagram.com/miis_98/
 photo.64.tags: apple time, lips, paws, portrait
-photo.65: https://www.instagram.com/p/CVZpzbJhtkF/media/?size=m
+photo.65: ig://CVZpzbJhtkF/m
 photo.65.author: ssc6105
+photo.65.commitdate: 2021/10/27
 photo.65.link: https://www.instagram.com/ssc6105/
 photo.65.tags: paws, whiskers
 species: 2

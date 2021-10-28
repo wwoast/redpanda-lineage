@@ -633,8 +633,9 @@ photo.124.author: mini_cochi
 photo.124.commitdate: 2021/9/28
 photo.124.link: https://www.instagram.com/mini_cochi/
 photo.124.tags: paws, portrait, smile
-photo.125: https://www.instagram.com/p/CVeBlwLBWcM/media/?size=m
+photo.125: ig://CVeBlwLBWcM/m
 photo.125.author: ck.chie
+photo.125.commitdate: 2021/10/27
 photo.125.link: https://www.instagram.com/ck.chie/
 photo.125.tags: paws, smile, whiskers
 species: 2
