@@ -390,8 +390,9 @@ photo.75.author: monmon_redpanda
 photo.75.commitdate: 2021/8/24
 photo.75.link: https://www.instagram.com/monmon_redpanda/
 photo.75.tags: eye, paws, portrait, whiskers
-photo.76: https://www.instagram.com/p/CVIjlyKFNWk/media/?size=m
+photo.76: ig://CVIjlyKFNWk/m
 photo.76.author: miis_98
+photo.76.commitdate: 2021/10/30
 photo.76.link: https://www.instagram.com/miis_98/
 photo.76.tags: eye, mofumofu, paws, portrait
 species: 2

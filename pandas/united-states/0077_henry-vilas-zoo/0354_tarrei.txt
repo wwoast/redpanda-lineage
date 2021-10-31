@@ -136,8 +136,9 @@ photo.24.author: henryvilaszoo
 photo.24.commitdate: 2021/7/4
 photo.24.link: https://www.instagram.com/henryvilaszoo/
 photo.24.tags: paws, portrait, whiskers
-photo.25: https://www.instagram.com/p/CVIOPJ-rGw6/media/?size=m
+photo.25: ig://CVIOPJ-rGw6/m
 photo.25.author: henryvilaszoo
+photo.25.commitdate: 2021/10/30
 photo.25.link: https://www.instagram.com/henryvilaszoo/
 photo.25.tags: laying down, portrait
 species: 2

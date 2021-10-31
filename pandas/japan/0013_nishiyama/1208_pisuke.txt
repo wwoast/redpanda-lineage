@@ -538,8 +538,9 @@ photo.105.author: hamamatsu.chiita
 photo.105.commitdate: 2021/10/17
 photo.105.link: https://www.instagram.com/hamamatsu.chiita/
 photo.105.tags: paws, sign, smile
-photo.106: https://www.instagram.com/p/CVTcA5QBUZX/media/?size=m
+photo.106: ig://CVTcA5QBUZX/m
 photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2021/10/30
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
 photo.106.tags: bamboo, portrait, whiskers
 species: 2

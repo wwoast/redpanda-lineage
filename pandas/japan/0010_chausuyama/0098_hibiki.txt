@@ -381,15 +381,16 @@ photo.76.author: otenba_redpanda
 photo.76.commitdate: 2021/10/1
 photo.76.link: https://www.instagram.com/otenba_redpanda/
 photo.76.tags: laying down, paws, whiskers
-photo.77: ig://CVaNFoJB_Wv/m
-photo.77.author: alto0908
-photo.77.commitdate: 2021/10/27
-photo.77.link: https://www.instagram.com/alto0908/
-photo.77.tags: portrait, tree, whiskers
-photo.78: https://www.instagram.com/p/CVIJM97h520/media/?size=m
-photo.78.author: jas_forever_love
-photo.78.link: https://www.instagram.com/jas_forever_love/
-photo.78.tags: mofumofu, smile, white face
+photo.77: ig://CVIJM97h520/m
+photo.77.author: jas_forever_love
+photo.77.commitdate: 2021/10/30
+photo.77.link: https://www.instagram.com/jas_forever_love/
+photo.77.tags: mofumofu, smile, white face
+photo.78: ig://CVaNFoJB_Wv/m
+photo.78.author: alto0908
+photo.78.commitdate: 2021/10/27
+photo.78.link: https://www.instagram.com/alto0908/
+photo.78.tags: portrait, tree, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10

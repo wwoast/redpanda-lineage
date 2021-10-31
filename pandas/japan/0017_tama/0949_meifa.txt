@@ -702,8 +702,9 @@ photo.138.author: miis_98
 photo.138.commitdate: 2021/10/26
 photo.138.link: https://www.instagram.com/miis_98/
 photo.138.tags: portrait, smile, whiskers
-photo.139: https://www.instagram.com/p/CVflHkAh3wO/media/?size=m
+photo.139: ig://CVflHkAh3wO/m
 photo.139.author: redpan22
+photo.139.commitdate: 2021/10/30
 photo.139.link: https://www.instagram.com/redpan22/
 photo.139.tags: paws, standing, wave
 species: 2

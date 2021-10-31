@@ -43,8 +43,9 @@ photo.6.author: carsontheredpanda
 photo.6.commitdate: 2021/10/6
 photo.6.link: https://www.instagram.com/carsontheredpanda/
 photo.6.tags: portrait, profile, smile
-photo.7: https://www.instagram.com/p/CVTGQWgPEVh/media/?size=m
+photo.7: ig://CVTGQWgPEVh/m
 photo.7.author: carsontheredpanda
+photo.7.commitdate: 2021/10/30
 photo.7.link: https://www.instagram.com/carsontheredpanda/
 photo.7.tags: portrait, smile
 species: 2
