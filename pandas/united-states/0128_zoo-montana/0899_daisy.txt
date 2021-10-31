@@ -4,6 +4,7 @@ birthday: 2006/6/6
 birthplace: 118
 children: none
 commitdate: 2019/7/2
+death: 2020/10/23
 en.name: Daisy
 en.nicknames: none
 en.othernames: none
@@ -20,4 +21,5 @@ location.4: 131, 2011/11/30
 location.5: 128, 2015/4/15
 species: 1
 studbook.id: 0603
+uncertainty: death exact date
 zoo: 128
