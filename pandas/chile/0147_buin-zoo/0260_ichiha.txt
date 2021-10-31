@@ -143,8 +143,9 @@ photo.26.author: buin_zoo
 photo.26.commitdate: 2021/4/3
 photo.26.link: https://www.instagram.com/buin_zoo/
 photo.26.tags: close-up, portrait
-photo.27: https://www.instagram.com/p/CUnHXlaL7m0/media/?size=m
+photo.27: ig://CUnHXlaL7m0/m
 photo.27.author: buin_zoo
+photo.27.commitdate: 2021/10/31
 photo.27.link: https://www.instagram.com/buin_zoo/
 photo.27.tags: apple time, paws, peek, portrait
 species: 2

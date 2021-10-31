@@ -235,8 +235,9 @@ photo.44.author: itsuak
 photo.44.commitdate: 2021/9/28
 photo.44.link: https://www.instagram.com/itsuak/
 photo.44.tags: mofumofu, paws, peek, portrait
-photo.45: https://www.instagram.com/p/CVX7hGxhImN/media/?size=m
+photo.45: ig://CVX7hGxhImN/m
 photo.45.author: itsuak
+photo.45.commitdate: 2021/10/31
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: close-up, mofumofu, portrait, smile, techitechi
 species: 2

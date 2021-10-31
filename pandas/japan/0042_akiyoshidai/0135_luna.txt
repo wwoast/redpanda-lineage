@@ -46,30 +46,31 @@ photo.6.author: re_ichimaru
 photo.6.commitdate: 2019/12/30
 photo.6.link: https://www.instagram.com/re_ichimaru/
 photo.6.tags: portrait
-photo.7: ig://CHko4BShoAm/m
-photo.7.author: re_ichimaru
-photo.7.commitdate: 2020/11/18
-photo.7.link: https://www.instagram.com/re_ichimaru/
-photo.7.tags: air tasting, blink, paws, portrait, tail, tongue
-photo.8: ig://CLoaNtAh6eX/m
-photo.8.author: kojikoji2011
-photo.8.commitdate: 2021/6/7
-photo.8.link: https://www.instagram.com/kojikoji2011/
-photo.8.tags: mofumofu, portrait, videolink
-photo.9: ig://CMmnDykhCmT/m
+photo.7: ig://CGsfHsClBvd/m
+photo.7.author: kojikoji2011
+photo.7.commitdate: 2021/10/31
+photo.7.link: https://www.instagram.com/kojikoji2011/
+photo.7.tags: portrait, smile, tail
+photo.8: ig://CHko4BShoAm/m
+photo.8.author: re_ichimaru
+photo.8.commitdate: 2020/11/18
+photo.8.link: https://www.instagram.com/re_ichimaru/
+photo.8.tags: air tasting, blink, paws, portrait, tail, tongue
+photo.9: ig://CLoaNtAh6eX/m
 photo.9.author: kojikoji2011
 photo.9.commitdate: 2021/6/7
 photo.9.link: https://www.instagram.com/kojikoji2011/
-photo.9.tags: eye, peek, techitechi
-photo.10: ig://COoXhjpBLPb/m
-photo.10.author: re_ichimaru
-photo.10.commitdate: 2021/6/4
-photo.10.link: https://www.instagram.com/re_ichimaru/
-photo.10.tags: eye, paws, portrait
-photo.11: https://www.instagram.com/p/CGsfHsClBvd/media/?size=m
-photo.11.author: kojikoji2011
-photo.11.link: https://www.instagram.com/kojikoji2011/
-photo.11.tags: portrait, smile, tail
+photo.9.tags: mofumofu, portrait, videolink
+photo.10: ig://CMmnDykhCmT/m
+photo.10.author: kojikoji2011
+photo.10.commitdate: 2021/6/7
+photo.10.link: https://www.instagram.com/kojikoji2011/
+photo.10.tags: eye, peek, techitechi
+photo.11: ig://COoXhjpBLPb/m
+photo.11.author: re_ichimaru
+photo.11.commitdate: 2021/6/4
+photo.11.link: https://www.instagram.com/re_ichimaru/
+photo.11.tags: eye, paws, portrait
 species: 2
 studbook.id: 0465
 zoo: 42

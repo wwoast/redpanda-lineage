@@ -43,14 +43,15 @@ photo.6.author: carsontheredpanda
 photo.6.commitdate: 2021/10/6
 photo.6.link: https://www.instagram.com/carsontheredpanda/
 photo.6.tags: portrait, profile, smile
-photo.7: ig://CVTGQWgPEVh/m
-photo.7.author: carsontheredpanda
-photo.7.commitdate: 2021/10/30
-photo.7.link: https://www.instagram.com/carsontheredpanda/
-photo.7.tags: portrait, smile
-photo.8: https://www.instagram.com/p/CVRSjp8ND1e/media/?size=m
-photo.8.author: woodlandparkzoo
-photo.8.link: https://www.instagram.com/woodlandparkzoo/
-photo.8.tags: bridge, tail
+photo.7: ig://CVRSjp8ND1e/m
+photo.7.author: woodlandparkzoo
+photo.7.commitdate: 2021/10/31
+photo.7.link: https://www.instagram.com/woodlandparkzoo/
+photo.7.tags: bridge, tail
+photo.8: ig://CVTGQWgPEVh/m
+photo.8.author: carsontheredpanda
+photo.8.commitdate: 2021/10/30
+photo.8.link: https://www.instagram.com/carsontheredpanda/
+photo.8.tags: portrait, smile
 species: 2
 zoo: 67

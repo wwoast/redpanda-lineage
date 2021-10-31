@@ -335,15 +335,16 @@ photo.64.author: miis_98
 photo.64.commitdate: 2021/8/25
 photo.64.link: https://www.instagram.com/miis_98/
 photo.64.tags: apple time, lips, paws, portrait
-photo.65: ig://CVZpzbJhtkF/m
+photo.65: ig://CVSbBjVhqBL/m
 photo.65.author: ssc6105
-photo.65.commitdate: 2021/10/27
+photo.65.commitdate: 2021/10/31
 photo.65.link: https://www.instagram.com/ssc6105/
-photo.65.tags: paws, whiskers
-photo.66: https://www.instagram.com/p/CVSbBjVhqBL/media/?size=m
+photo.65.tags: laying down, portrait, whiskers
+photo.66: ig://CVZpzbJhtkF/m
 photo.66.author: ssc6105
+photo.66.commitdate: 2021/10/27
 photo.66.link: https://www.instagram.com/ssc6105/
-photo.66.tags: laying down, portrait, whiskers
+photo.66.tags: paws, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

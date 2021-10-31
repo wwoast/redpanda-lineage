@@ -456,8 +456,9 @@ photo.88.author: eos1089
 photo.88.commitdate: 2021/9/6
 photo.88.link: https://www.instagram.com/eos1089/
 photo.88.tags: close-up, laying down, portrait, sleeping
-photo.89: https://www.instagram.com/p/CVLONFlh4Wn/media/?size=m
+photo.89: ig://CVLONFlh4Wn/m
 photo.89.author: eos1089
+photo.89.commitdate: 2021/10/31
 photo.89.link: https://www.instagram.com/eos1089/
 photo.89.tags: close-up, mofumofu, portrait, techitechi
 species: 2

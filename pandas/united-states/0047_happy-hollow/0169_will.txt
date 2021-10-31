@@ -314,19 +314,21 @@ photo.61.author: wumpwoast
 photo.61.commitdate: 2021/8/10
 photo.61.link: https://www.instagram.com/wumpwoast/
 photo.61.tags: bamboo, bite, paws, portrait
-photo.62: ig://CVEuNyCrpGJ/m
+photo.62: ig://CSdHJXWl8Zk/m
 photo.62.author: wumpwoast
-photo.62.commitdate: 2021/10/17
+photo.62.commitdate: 2021/10/31
 photo.62.link: https://www.instagram.com/wumpwoast/
-photo.62.tags: close-up, lunch time, paws, portrait
-photo.63: https://www.instagram.com/p/CSdHJXWl8Zk/media/?size=m
+photo.62.tags: dish, paws, portrait
+photo.63: ig://CU1nqtbr1rq/m
 photo.63.author: wumpwoast
+photo.63.commitdate: 2021/10/31
 photo.63.link: https://www.instagram.com/wumpwoast/
-photo.63.tags: dish, paws, portrait
-photo.64: https://www.instagram.com/p/CU1nqtbr1rq/media/?size=m
+photo.63.tags: laying down, peek, portrait
+photo.64: ig://CVEuNyCrpGJ/m
 photo.64.author: wumpwoast
+photo.64.commitdate: 2021/10/17
 photo.64.link: https://www.instagram.com/wumpwoast/
-photo.64.tags: laying down, peek, portrait
+photo.64.tags: close-up, lunch time, paws, portrait
 species: 1
 studbook.id: 1542
 zoo: 47

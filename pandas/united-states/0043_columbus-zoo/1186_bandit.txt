@@ -113,26 +113,29 @@ photo.20.author: lipscer
 photo.20.commitdate: 2021/10/9
 photo.20.link: https://www.instagram.com/lipscer/
 photo.20.tags: mofumofu, tail, whiskers
-photo.21: ig://CUDdkg5rIpO/m
-photo.21.author: lipscer
-photo.21.commitdate: 2021/10/9
-photo.21.link: https://www.instagram.com/lipscer/
-photo.21.tags: close-up, peek, whiskers
-photo.22: ig://CUFztnqLtc8/m
+photo.21: ig://CUCfRUDgqgK/m
+photo.21.author: rossifari
+photo.21.commitdate: 2021/10/31
+photo.21.link: https://www.instagram.com/rossifari/
+photo.21.tags: laying down, paws, portrait, smile
+photo.22: ig://CUDdkg5rIpO/m
 photo.22.author: lipscer
 photo.22.commitdate: 2021/10/9
 photo.22.link: https://www.instagram.com/lipscer/
-photo.22.tags: portrait, whiskers
-photo.23: https://www.instagram.com/p/CUCfRUDgqgK/media/?size=m
-photo.23.author: rossifari
-photo.23.link: https://www.instagram.com/rossifari/
-photo.23.tags: laying down, paws, portrait, smile
-photo.24: https://www.instagram.com/p/CUaRKCPllq2/media/?size=m
+photo.22.tags: close-up, peek, whiskers
+photo.23: ig://CUFztnqLtc8/m
+photo.23.author: lipscer
+photo.23.commitdate: 2021/10/9
+photo.23.link: https://www.instagram.com/lipscer/
+photo.23.tags: portrait, whiskers
+photo.24: ig://CUaRKCPllq2/m
 photo.24.author: wumpwoast
+photo.24.commitdate: 2021/10/31
 photo.24.link: https://www.instagram.com/wumpwoast/
 photo.24.tags: peek, portrait, smile, whiskers
-photo.25: https://www.instagram.com/p/CUc0vbcAKlr/media/?size=m
+photo.25: ig://CUc0vbcAKlr/m
 photo.25.author: lipscer
+photo.25.commitdate: 2021/10/31
 photo.25.link: https://www.instagram.com/lipscer/
 photo.25.tags: peek, portrait
 species: 2

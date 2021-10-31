@@ -44,8 +44,9 @@ photo.6.link: https://www.instagram.com/resapan.suki/
 photo.6.tags: baby, mofumofu, siblings, sisters, twins
 photo.6.tags.1300.location: 300, 210
 photo.6.tags.1301.location: 135, 240
-photo.7: https://www.instagram.com/p/CVU91jvBGBS/media/?size=l
+photo.7: ig://CVU91jvBGBS/l
 photo.7.author: daniele.tokyo
+photo.7.commitdate: 2021/10/31
 photo.7.link: https://www.instagram.com/daniele.tokyo/
 photo.7.tags: baby, laying down, mofumofu, portrait, tail
 photo.7.tags.1300.location: 180, 170
