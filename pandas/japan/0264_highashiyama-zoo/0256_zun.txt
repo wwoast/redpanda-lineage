@@ -918,8 +918,9 @@ photo.182.author: hamamatsu.chiita
 photo.182.commitdate: 2021/10/9
 photo.182.link: https://www.instagram.com/hamamatsu.chiita/
 photo.182.tags: close-up, portrait, whiskers
-photo.183: https://www.instagram.com/p/CVU-eKQhjzb/media/?size=m
+photo.183: ig://CVU-eKQhjzb/m
 photo.183.author: kotata_513
+photo.183.commitdate: 2021/11/3
 photo.183.link: https://www.instagram.com/kotata_513/
 photo.183.tags: bamboo, bite, paws, smile
 species: 2

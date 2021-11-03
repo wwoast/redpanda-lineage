@@ -1164,8 +1164,9 @@ photo.231.author: tomo3700
 photo.231.commitdate: 2021/8/9
 photo.231.link: https://www.instagram.com/tomo3700/
 photo.231.tags: apple time, portrait, smile, whiskers
-photo.232: https://www.instagram.com/p/CVSpckQBMOx/media/?size=m
+photo.232: ig://CVSpckQBMOx/m
 photo.232.author: i.satosato
+photo.232.commitdate: 2021/11/3
 photo.232.link: https://www.instagram.com/i.satosato/
 photo.232.tags: apple time, mofumofu, paws, tree, whiskers
 species: 2
