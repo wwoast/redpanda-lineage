@@ -795,8 +795,9 @@ photo.157.author: re_ichimaru
 photo.157.commitdate: 2021/9/18
 photo.157.link: https://www.instagram.com/re_ichimaru/
 photo.157.tags: laying down, portrait, tail, white face
-photo.158: https://www.instagram.com/p/CVbXKzHP4wu/media/?size=m
+photo.158: ig://CVbXKzHP4wu/m
 photo.158.author: yossi929
+photo.158.commitdate: 2021/11/3
 photo.158.link: https://www.instagram.com/yossi929/
 photo.158.tags: smile, whiskers
 species: 2

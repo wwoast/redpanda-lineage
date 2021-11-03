@@ -518,8 +518,9 @@ photo.101.author: redpan22
 photo.101.commitdate: 2021/8/11
 photo.101.link: https://www.instagram.com/redpan22/
 photo.101.tags: bamboo, home, mofumofu, portrait, techitechi
-photo.102: https://www.instagram.com/p/CVRF5HPhLFc/media/?size=m
+photo.102: ig://CVRF5HPhLFc/m
 photo.102.author: alto0908
+photo.102.commitdate: 2021/11/3
 photo.102.link: https://www.instagram.com/alto0908/
 photo.102.tags: close-up, home, laying down, portrait, whiskers
 species: 2
