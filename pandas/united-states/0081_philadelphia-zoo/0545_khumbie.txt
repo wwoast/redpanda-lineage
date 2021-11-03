@@ -19,7 +19,7 @@ photo.1: ig://BYYbKs4lWnc/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2019/4/6
 photo.1.link: https://www.instagram.com/philadelphiazoo/
-photo.1.tags: bamboo, paws, profile, tail
+photo.1.tags: bamboo, paws, portrait, tail
 photo.2: ig://BeZEpbxA74R/m
 photo.2.author: philadelphiazoo
 photo.2.commitdate: 2019/4/6
@@ -97,6 +97,22 @@ photo.17.author: rossifari
 photo.17.commitdate: 2021/6/27
 photo.17.link: https://www.instagram.com/rossifari/
 photo.17.tags: climb, close-up, whiskers
+photo.18: https://www.instagram.com/p/CT-QSXqtMzx/media/?size=m
+photo.18.author: philadelphiazoo
+photo.18.link: https://www.instagram.com/philadelphiazoo/
+photo.18.tags: close-up, portrait, profile, whiskers, white face
+photo.19: https://www.instagram.com/p/CRhfb7YDbYd/media/?size=m
+photo.19.author: philadelphiazoo
+photo.19.link: https://www.instagram.com/philadelphiazoo/
+photo.19.tags: close-up, mofumofu, portrait, tree, whiskers, white face
+photo.20: https://www.instagram.com/p/CQJV1eaDFXP/media/?size=m
+photo.20.author: philadelphiazoo
+photo.20.link: https://www.instagram.com/philadelphiazoo/
+photo.20.tags: lips, paws, smile, whiskers, white face
+photo.21: https://www.instagram.com/p/CM7i-7MlLal/media/?size=m
+photo.21.author: philadelphiazoo
+photo.21.link: https://www.instagram.com/philadelphiazoo/
+photo.21.tags: paws, toys, whiskers
 species: 1
 studbook.id: 1415
 zoo: 81
