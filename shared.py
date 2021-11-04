@@ -389,7 +389,7 @@ class PhotoFile():
         for desired_value in desired_values:
             if desired_value in value_list:
                 continue
-            else
+            else:
                 return False
         # All desired values are in the array
         return True    
