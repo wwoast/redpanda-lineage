@@ -379,6 +379,21 @@ class PhotoFile():
         # No desired values in the array
         return False
 
+    def array_has_all_values(self, field_name, desired_values):
+        """
+        Check that a panda tag list contains all values in a desired list
+        """
+        if self.config.has_option(self.section, field_name) == False:
+            return False
+        value_list = self.get_array(field_name)
+        for desired_value in desired_values:
+            if desired_value in value_list:
+                continue
+            else
+                return False
+        # All desired values are in the array
+        return True    
+
     def get_field(self, field_name):
         """
         Given a field name, return it if it exists. If the result is a list of

@@ -43,7 +43,7 @@ def collect_photo_uris(min_photos=0, species=["1", "2"], taglist=None):
                     current_tag = "photo." + str(photo_index) + ".tags"
                     # If we have a taglist, only collect photos in the list
                     if taglist != None:
-                        if photo_list.array_has_value(current_tag, taglist) == False:
+                        if photo_list.array_has_all_values(current_tag, taglist) == False:
                             photo_index = photo_index + 1
                             continue
                     # Collect photos
