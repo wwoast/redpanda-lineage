@@ -4,6 +4,7 @@ birthday: 2017/6/14
 birthplace: 213
 children: unknown
 commitdate: 2019/11/1
+death: 2020/2/1
 en.name: N'mai
 en.nicknames: none
 en.othernames: none
@@ -58,4 +59,5 @@ photo.9.commitdate: 2021/6/15
 photo.9.link: https://www.instagram.com/redpandanetwork/
 photo.9.tags: laying down, paws, white face
 species: 1
+uncertainty: death exact date ("early 2020")
 zoo: 150
