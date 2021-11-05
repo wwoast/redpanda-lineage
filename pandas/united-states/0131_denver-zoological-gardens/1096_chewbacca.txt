@@ -23,8 +23,9 @@ photo.1.author: uncredited
 photo.1.commitdate: 2020/6/21
 photo.1.link: https://www.google.com
 photo.1.tags: laying down
-photo.2: https://www.instagram.com/p/CVtL_kYL5Zc/media/?size=m
+photo.2: ig://CVtL_kYL5Zc/m
 photo.2.author: worldthathesees
+photo.2.commitdate: 2021/11/5
 photo.2.link: https://www.instagram.com/worldthathesees/
 photo.2.tags: paws, tail
 species: 1

@@ -695,8 +695,9 @@ photo.137.author: ifumoto88
 photo.137.commitdate: 2021/11/3
 photo.137.link: https://www.instagram.com/ifumoto88/
 photo.137.tags: portrait, smile, tree
-photo.138: https://www.instagram.com/p/CVxPJu3BXbl/media/?size=m
+photo.138: ig://CVxPJu3BXbl/m
 photo.138.author: ifumoto88
+photo.138.commitdate: 2021/11/5
 photo.138.link: https://www.instagram.com/ifumoto88/
 photo.138.tags: portrait, smile, tongue, whiskers
 species: 2

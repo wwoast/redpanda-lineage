@@ -41,8 +41,9 @@ photo.5.author: ashley_j15
 photo.5.commitdate: 2018/12/17
 photo.5.link: https://www.instagram.com/ashley_j15/
 photo.5.tags: portrait, tail
-photo.6: https://www.instagram.com/p/CVu1ap8Luc2/media/?size=m
+photo.6: ig://CVu1ap8Luc2/m
 photo.6.author: worldthathesees
+photo.6.commitdate: 2021/11/5
 photo.6.link: https://www.instagram.com/worldthathesees/
 photo.6.tags: laying down, mofumofu, peek, tail
 species: 2
