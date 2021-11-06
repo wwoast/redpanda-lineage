@@ -1425,34 +1425,36 @@ photo.284.author: cattail.sapporo
 photo.284.commitdate: 2021/10/17
 photo.284.link: https://www.instagram.com/cattail.sapporo/
 photo.284.tags: peek, portrait, window
-photo.285: ig://CVC44QilNqd/m
+photo.285: ig://CU4XFCGLSqY/m
 photo.285.author: cattail.sapporo
-photo.285.commitdate: 2021/10/17
+photo.285.commitdate: 2021/11/6
 photo.285.link: https://www.instagram.com/cattail.sapporo/
-photo.285.tags: close-up, mofumofu, portrait, whiskers
-photo.286: ig://CVcWjjzLX9s/m
+photo.285.tags: bamboo, tail
+photo.286: ig://CVC44QilNqd/m
 photo.286.author: cattail.sapporo
-photo.286.commitdate: 2021/10/27
+photo.286.commitdate: 2021/10/17
 photo.286.link: https://www.instagram.com/cattail.sapporo/
-photo.286.tags: close-up, portrait, whiskers
-photo.287: ig://CVe_uHFFdfK/m
-photo.287.author: cattail.sapporo
-photo.287.commitdate: 2021/10/30
-photo.287.link: https://www.instagram.com/cattail.sapporo/
-photo.287.tags: close-up, mofumofu, paws, portrait, smile, tongue
-photo.288: ig://CVheIsKLjr-/m
+photo.286.tags: close-up, mofumofu, portrait, whiskers
+photo.287: ig://CVaD-dhrZq4/m
+photo.287.author: izu_108
+photo.287.commitdate: 2021/11/6
+photo.287.link: https://www.instagram.com/izu_108/
+photo.287.tags: close-up, mofumofu, paws, whiskers
+photo.288: ig://CVcWjjzLX9s/m
 photo.288.author: cattail.sapporo
-photo.288.commitdate: 2021/11/3
+photo.288.commitdate: 2021/10/27
 photo.288.link: https://www.instagram.com/cattail.sapporo/
-photo.288.tags: blink, paws, portrait, smile
-photo.289: https://www.instagram.com/p/CVaD-dhrZq4/media/?size=m
-photo.289.author: izu_108
-photo.289.link: https://www.instagram.com/izu_108/
-photo.289.tags: close-up, mofumofu, paws, whiskers
-photo.290: https://www.instagram.com/p/CU4XFCGLSqY/media/?size=m
+photo.288.tags: close-up, portrait, whiskers
+photo.289: ig://CVe_uHFFdfK/m
+photo.289.author: cattail.sapporo
+photo.289.commitdate: 2021/10/30
+photo.289.link: https://www.instagram.com/cattail.sapporo/
+photo.289.tags: close-up, mofumofu, paws, portrait, smile, tongue
+photo.290: ig://CVheIsKLjr-/m
 photo.290.author: cattail.sapporo
+photo.290.commitdate: 2021/11/3
 photo.290.link: https://www.instagram.com/cattail.sapporo/
-photo.290.tags: bamboo, tail
+photo.290.tags: blink, paws, portrait, smile
 species: 2
 studbook.id: 10108
 zoo: 7

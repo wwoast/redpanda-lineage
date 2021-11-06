@@ -541,15 +541,16 @@ photo.106.author: re_ichimaru
 photo.106.commitdate: 2021/10/6
 photo.106.link: https://www.instagram.com/re_ichimaru/
 photo.106.tags: bear worm, curly, laying down, portrait, smile, tail
-photo.107: ig://CVbf86HBLFu/m
+photo.107: ig://CVJfi3ShVWG/m
 photo.107.author: re_ichimaru
-photo.107.commitdate: 2021/10/27
+photo.107.commitdate: 2021/11/6
 photo.107.link: https://www.instagram.com/re_ichimaru/
-photo.107.tags: curly, paws, smile, standing, tail, upside-down
-photo.108: https://www.instagram.com/p/CVJfi3ShVWG/media/?size=m
+photo.107.tags: paws, smile, tongue
+photo.108: ig://CVbf86HBLFu/m
 photo.108.author: re_ichimaru
+photo.108.commitdate: 2021/10/27
 photo.108.link: https://www.instagram.com/re_ichimaru/
-photo.108.tags: paws, smile, tongue
+photo.108.tags: curly, paws, smile, standing, tail, upside-down
 species: 2
 studbook.id: 1695
 zoo: 42

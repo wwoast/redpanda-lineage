@@ -795,15 +795,16 @@ photo.157.author: re_ichimaru
 photo.157.commitdate: 2021/9/18
 photo.157.link: https://www.instagram.com/re_ichimaru/
 photo.157.tags: laying down, portrait, tail, white face
-photo.158: ig://CVbXKzHP4wu/m
+photo.158: ig://CVJaC0yvuNk/m
 photo.158.author: yossi929
-photo.158.commitdate: 2021/11/3
+photo.158.commitdate: 2021/11/6
 photo.158.link: https://www.instagram.com/yossi929/
-photo.158.tags: smile, whiskers
-photo.159: https://www.instagram.com/p/CVJaC0yvuNk/media/?size=m
+photo.158.tags: paws, portrait, whiskers
+photo.159: ig://CVbXKzHP4wu/m
 photo.159.author: yossi929
+photo.159.commitdate: 2021/11/3
 photo.159.link: https://www.instagram.com/yossi929/
-photo.159.tags: paws, portrait, whiskers
+photo.159.tags: smile, whiskers
 species: 2
 studbook.id: 12108
 zoo: 32
