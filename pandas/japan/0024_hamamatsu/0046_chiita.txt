@@ -934,8 +934,9 @@ photo.185.author: hamamatsu.chiita
 photo.185.commitdate: 2021/9/7
 photo.185.link: https://www.instagram.com/hamamatsu.chiita/
 photo.185.tags: home, laying down, paws, portrait, whiskers
-photo.186: https://www.instagram.com/p/CVpnPmHhjXs/media/?size=m
+photo.186: ig://CVpnPmHhjXs/m
 photo.186.author: hamamatsu.chiita
+photo.186.commitdate: 2021/11/7
 photo.186.link: https://www.instagram.com/hamamatsu.chiita/
 photo.186.tags: portrait, whiskers
 species: 2

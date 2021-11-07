@@ -164,8 +164,9 @@ photo.30.author: makimaru18
 photo.30.commitdate: 2021/10/17
 photo.30.link: https://www.instagram.com/makimaru18/
 photo.30.tags: bamboo, bite, portrait
-photo.31: https://www.instagram.com/p/CV2X2R_BihC/media/?size=m
+photo.31: ig://CV2X2R_BihC/m
 photo.31.author: redpanda_nippon_takashi
+photo.31.commitdate: 2021/11/7
 photo.31.link: https://www.instagram.com/accounts/activity/
 photo.31.tags: portrait, smile, whiskers
 species: 2

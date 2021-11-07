@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/wncnaturecenter/
 photo.2.tags: couple, home
 photo.2.tags.399.location: 745, 380
 photo.2.tags.400.location: 265, 200
-photo.3: https://www.instagram.com/p/CQEFNNJN3PD/media/?size=l
+photo.3: ig://CQEFNNJN3PD/l
 photo.3.author: wncnaturecenter
+photo.3.commitdate: 2021/11/7
 photo.3.link: https://www.instagram.com/wncnaturecenter/
 photo.3.tags: couple, portrait, smile, tongue
 photo.3.tags.399.location: 150, 245

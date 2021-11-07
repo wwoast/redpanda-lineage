@@ -193,12 +193,14 @@ photo.36.author: yossi929
 photo.36.commitdate: 2020/10/9
 photo.36.link: https://www.instagram.com/yossi929/
 photo.36.tags: muzzle, portrait, smile, whiskers
-photo.37: https://www.instagram.com/p/CVjD6wMvgK-/media/?size=m
+photo.37: ig://CVjD6wMvgK-/m
 photo.37.author: yossi929
+photo.37.commitdate: 2021/11/7
 photo.37.link: https://www.instagram.com/yossi929/
 photo.37.tags: peek
-photo.38: https://www.instagram.com/p/CV81e_1PgCD/media/?size=m
+photo.38: ig://CV81e_1PgCD/m
 photo.38.author: yossi929
+photo.38.commitdate: 2021/11/7
 photo.38.link: https://www.instagram.com/yossi929/
 photo.38.tags: mofumofu, muzzle, peek, whiskers
 species: 2

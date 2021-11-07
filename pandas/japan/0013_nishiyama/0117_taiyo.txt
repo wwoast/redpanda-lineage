@@ -317,8 +317,9 @@ photo.61.author: kotata_513
 photo.61.commitdate: 2021/9/10
 photo.61.link: https://www.instagram.com/kotata_513/
 photo.61.tags: close-up, grooming, laying down, paws, portrait, tree, whiskers
-photo.62: https://www.instagram.com/p/CVoLUjch2RY/media/?size=m
+photo.62: ig://CVoLUjch2RY/m
 photo.62.author: hamamatsu.chiita
+photo.62.commitdate: 2021/11/7
 photo.62.link: https://www.instagram.com/hamamatsu.chiita/
 photo.62.tags: close-up, portrait, whiskers
 species: 2
