@@ -63,8 +63,9 @@ photo.10.author: daniele.tokyo
 photo.10.commitdate: 2021/10/27
 photo.10.link: https://www.instagram.com/daniele.tokyo/
 photo.10.tags: baby, mofumofu, portrait, profile, tail
-photo.11: https://www.instagram.com/p/CV77q0DJxfH/media/?size=m
+photo.11: ig://CV77q0DJxfH/m
 photo.11.author: redpan22
+photo.11.commitdate: 2021/11/10
 photo.11.link: https://www.instagram.com/redpan22/
 photo.11.tags: baby, keeper, paws, tail
 species: 2

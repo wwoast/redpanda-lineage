@@ -700,14 +700,16 @@ photo.138.author: ifumoto88
 photo.138.commitdate: 2021/11/5
 photo.138.link: https://www.instagram.com/ifumoto88/
 photo.138.tags: portrait, smile, tongue, whiskers
-photo.139: https://www.instagram.com/p/CV-rzaABhzs/media/?size=m
-photo.139.author: firefoxpanda88
-photo.139.link: https://www.instagram.com/firefoxpanda88/
-photo.139.tags: portrait, smile
-photo.140: https://www.instagram.com/p/CV7dkSCBcuH/media/?size=m
-photo.140.author: ssc6105
-photo.140.link: https://www.instagram.com/ssc6105/
-photo.140.tags: autumn, peek, tree
+photo.139: ig://CV7dkSCBcuH/m
+photo.139.author: ssc6105
+photo.139.commitdate: 2021/11/10
+photo.139.link: https://www.instagram.com/ssc6105/
+photo.139.tags: autumn, peek, tree
+photo.140: ig://CV-rzaABhzs/m
+photo.140.author: firefoxpanda88
+photo.140.commitdate: 2021/11/10
+photo.140.link: https://www.instagram.com/firefoxpanda88/
+photo.140.tags: portrait, smile
 species: 2
 studbook.id: 0872
 zoo: 1

@@ -228,8 +228,9 @@ photo.43.author: lesserpanda_shizuokacity_cp
 photo.43.commitdate: 2021/10/17
 photo.43.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.43.tags: paws, portrait, videolink
-photo.44: https://www.instagram.com/p/CV9hi-WrYmM/media/?size=m
+photo.44: ig://CV9hi-WrYmM/m
 photo.44.author: kijyo.zoo
+photo.44.commitdate: 2021/11/10
 photo.44.link: https://www.instagram.com/kijyo.zoo/
 photo.44.tags: peek, tree, videolink
 species: 2

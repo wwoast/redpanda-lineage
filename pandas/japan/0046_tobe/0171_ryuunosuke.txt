@@ -36,8 +36,9 @@ photo.4.author: kipekaila
 photo.4.commitdate: 2018/9/22
 photo.4.link: https://www.instagram.com/kipekaila/
 photo.4.tags: ear, eye, old
-photo.5: https://www.instagram.com/p/BqasbS5n_EB/media/?size=m
+photo.5: ig://BqasbS5n_EB/m
 photo.5.author: joy93.87
+photo.5.commitdate: 2021/11/10
 photo.5.link: https://www.instagram.com/joy93.87/
 photo.5.tags: ear, old, bamboo, portrait
 species: 2

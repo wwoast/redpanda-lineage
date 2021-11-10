@@ -51,8 +51,9 @@ photo.7.link: https://www.instagram.com/daniele.tokyo/
 photo.7.tags: baby, laying down, mofumofu, portrait, tail
 photo.7.tags.1300.location: 180, 170
 photo.7.tags.1301.location: 340, 340
-photo.8: https://www.instagram.com/p/CV-KjllsLjv/media/?size=l
+photo.8: ig://CV-KjllsLjv/l
 photo.8.author: daniele.tokyo
+photo.8.commitdate: 2021/11/10
 photo.8.link: https://www.instagram.com/daniele.tokyo/
 photo.8.tags: baby, laying down, mofumofu, portrait, tail
 photo.8.tags.1300.location: 175, 205
