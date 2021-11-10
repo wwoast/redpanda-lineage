@@ -10,7 +10,7 @@ en.othernames: Hima-chan
 gender: f
 jp.name: ひまわり
 jp.nicknames: none
-jp.othernames: none
+jp.othernames: コムギ
 language.order: jp, en
 litter: none
 location.1: 1, 2017/7/13
@@ -1960,6 +1960,10 @@ photo.390.author: alto0908
 photo.390.commitdate: 2021/11/5
 photo.390.link: https://www.instagram.com/alto0908/
 photo.390.tags: mofumofu, portrait, tail, whiskers
+photo.391: https://www.instagram.com/p/BbJEx0oFboC/media/?size=m
+photo.391.author: na.mo.pan
+photo.391.link: https://www.instagram.com/na.mo.pan/
+photo.391.tags: baby, home, laying down, mofumofu, portrait
 species: 2
 studbook.id: 1782
 zoo: 17
