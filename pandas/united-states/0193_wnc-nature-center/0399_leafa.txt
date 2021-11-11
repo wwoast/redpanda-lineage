@@ -111,8 +111,9 @@ photo.19.author: wncnaturecenter
 photo.19.commitdate: 2021/6/19
 photo.19.link: https://www.instagram.com/wncnaturecenter/
 photo.19.tags: bamboo, portrait, snow
-photo.20: https://www.instagram.com/p/CU7ssK-AEu0/media/?size=m
+photo.20: ig://CU7ssK-AEu0/m
 photo.20.author: wncnaturecenter
+photo.20.commitdate: 2021/11/10
 photo.20.link: https://www.instagram.com/wncnaturecenter/
 photo.20.tags: laying down, paws, portrait, tail
 species: 2

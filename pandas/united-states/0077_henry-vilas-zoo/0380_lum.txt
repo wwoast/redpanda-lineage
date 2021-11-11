@@ -52,8 +52,9 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2019/4/9
 photo.7.link: https://www.instagram.com/worldthathesees
 photo.7.tags: laying down
-photo.8: https://www.instagram.com/p/CVnxBfuJ74c/media/?size=m
+photo.8: ig://CVnxBfuJ74c/m
 photo.8.author: worldthathesees
+photo.8.commitdate: 2021/11/10
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: whiskers
 species: 2

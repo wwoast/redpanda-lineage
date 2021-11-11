@@ -41,8 +41,9 @@ photo.4.author: sandiegozoo
 photo.4.commitdate: 2019/10/26
 photo.4.link: https://www.instagram.com/sandiegozoo/
 photo.4.tags: dark face, laying down
-photo.5: https://www.instagram.com/p/CVpsQ1qLSFZ/media/?size=m
+photo.5: ig://CVpsQ1qLSFZ/m
 photo.5.author: worldthathesees
+photo.5.commitdate: 2021/11/10
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: tail
 species: 2
