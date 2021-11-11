@@ -23,17 +23,20 @@ photo.2.author: lesserpanda_shizuokacity_cp
 photo.2.commitdate: 2021/9/18
 photo.2.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.2.tags: baby, keeper, newborn, portrait
-photo.3: https://www.instagram.com/p/CWIdwcPBKvY/media/?size=m
-photo.3.author: daniele.tokyo
-photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: baby, laying down, mofumofu, portrait, tail
-photo.4: https://www.instagram.com/p/CWDRvSqFfw4/media/?size=m
+photo.3: ig://CWCaDC1puwk/m
+photo.3.author: lesserpanda_shizuokacity_cp
+photo.3.commitdate: 2021/11/11
+photo.3.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.3.tags: baby, close-up, whiskers
+photo.4: ig://CWDRvSqFfw4/m
 photo.4.author: kijyo.zoo
+photo.4.commitdate: 2021/11/11
 photo.4.link: https://www.instagram.com/kijyo.zoo/
 photo.4.tags: baby, bamboo, portrait, profile, videolink
-photo.5: https://www.instagram.com/p/CWCaDC1puwk/media/?size=m
-photo.5.author: lesserpanda_shizuokacity_cp
-photo.5.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.5.tags: baby, close-up, whiskers
+photo.5: ig://CWIdwcPBKvY/m
+photo.5.author: daniele.tokyo
+photo.5.commitdate: 2021/11/11
+photo.5.link: https://www.instagram.com/daniele.tokyo/
+photo.5.tags: baby, laying down, mofumofu, portrait, tail
 species: 2
 zoo: 16

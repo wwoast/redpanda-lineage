@@ -307,8 +307,9 @@ photo.59.author: mini_cochi
 photo.59.commitdate: 2021/10/27
 photo.59.link: https://www.instagram.com/mini_cochi/
 photo.59.tags: mofumofu, portrait, whiskers, white face
-photo.60: https://www.instagram.com/p/CWDg_70hZh3/media/?size=m
+photo.60: ig://CWDg_70hZh3/m
 photo.60.author: redpan22
+photo.60.commitdate: 2021/11/11
 photo.60.link: https://www.instagram.com/redpan22/
 photo.60.tags: apple time, autumn, dish, mofumofu, paws, tongue
 species: 2

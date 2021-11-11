@@ -50,55 +50,56 @@ photo.7.author: hanamaru_redpanda
 photo.7.commitdate: 2019/8/2
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
 photo.7.tags: mofumofu, portrait
-photo.8: ig://BfJ8u14hLgw/m
-photo.8.author: miis_98
-photo.8.commitdate: 2020/4/1
-photo.8.link: https://www.instagram.com/miis_98/
-photo.8.tags: bamboo, mofumofu, portrait
-photo.9: ig://BkrIeW4FbXf/m
-photo.9.author: panda.daisuki
-photo.9.commitdate: 2018/10/6
-photo.9.link: https://www.instagram.com/panda.daisuki/
-photo.9.tags: portrait
-photo.10: ig://BzYIYBdBEFI/m
+photo.8: ig://Bd2VL5Gh5WI/m
+photo.8.author: rie_panda55
+photo.8.commitdate: 2021/11/11
+photo.8.link: https://www.instagram.com/rie_panda55/
+photo.8.tags: apple time, dish, portrait, whiskers
+photo.9: ig://BfJ8u14hLgw/m
+photo.9.author: miis_98
+photo.9.commitdate: 2020/4/1
+photo.9.link: https://www.instagram.com/miis_98/
+photo.9.tags: bamboo, mofumofu, portrait
+photo.10: ig://BkrIeW4FbXf/m
 photo.10.author: panda.daisuki
-photo.10.commitdate: 2019/7/2
+photo.10.commitdate: 2018/10/6
 photo.10.link: https://www.instagram.com/panda.daisuki/
-photo.10.tags: portrait, tree
-photo.11: ig://B7zs84JBZ9r/m
-photo.11.author: grskus_tk
-photo.11.commitdate: 2020/1/28
-photo.11.link: https://www.instagram.com/grskus_tk/
-photo.11.tags: bamboo, portrait
-photo.12: ig://B9ff-ZdBniz/m
+photo.10.tags: portrait
+photo.11: ig://BzYIYBdBEFI/m
+photo.11.author: panda.daisuki
+photo.11.commitdate: 2019/7/2
+photo.11.link: https://www.instagram.com/panda.daisuki/
+photo.11.tags: portrait, tree
+photo.12: ig://B7zs84JBZ9r/m
 photo.12.author: grskus_tk
-photo.12.commitdate: 2020/3/12
+photo.12.commitdate: 2020/1/28
 photo.12.link: https://www.instagram.com/grskus_tk/
-photo.12.tags: mofumofu, portrait, whiskers
-photo.13: ig://B_w14r-nIZC/m
-photo.13.author: kipekaila
-photo.13.commitdate: 2020/5/5
-photo.13.link: https://www.instagram.com/kipekaila/
-photo.13.tags: portrait
-photo.14: ig://CCE-O3LhjMe/m
-photo.14.author: panda.daisuki
-photo.14.commitdate: 2020/7/1
-photo.14.link: https://www.instagram.com/panda.daisuki/
-photo.14.tags: laying down, paws, portrait, tree
-photo.15: ig://CFUVEK6hpbQ/m
-photo.15.author: grskus_tk
-photo.15.commitdate: 2020/9/24
-photo.15.link: https://www.instagram.com/grskus_tk/
-photo.15.tags: dish, portrait, videolink
-photo.16: ig://CQ0Zvm_BV8e/m
+photo.12.tags: bamboo, portrait
+photo.13: ig://B9ff-ZdBniz/m
+photo.13.author: grskus_tk
+photo.13.commitdate: 2020/3/12
+photo.13.link: https://www.instagram.com/grskus_tk/
+photo.13.tags: mofumofu, portrait, whiskers
+photo.14: ig://B_w14r-nIZC/m
+photo.14.author: kipekaila
+photo.14.commitdate: 2020/5/5
+photo.14.link: https://www.instagram.com/kipekaila/
+photo.14.tags: portrait
+photo.15: ig://CCE-O3LhjMe/m
+photo.15.author: panda.daisuki
+photo.15.commitdate: 2020/7/1
+photo.15.link: https://www.instagram.com/panda.daisuki/
+photo.15.tags: laying down, paws, portrait, tree
+photo.16: ig://CFUVEK6hpbQ/m
 photo.16.author: grskus_tk
-photo.16.commitdate: 2021/8/22
+photo.16.commitdate: 2020/9/24
 photo.16.link: https://www.instagram.com/grskus_tk/
-photo.16.tags: bamboo, bite
-photo.17: https://www.instagram.com/p/Bd2VL5Gh5WI/media/?size=m
-photo.17.author: rie_panda55
-photo.17.link: https://www.instagram.com/rie_panda55/
-photo.17.tags: apple time, dish, portrait, whiskers
+photo.16.tags: dish, portrait, videolink
+photo.17: ig://CQ0Zvm_BV8e/m
+photo.17.author: grskus_tk
+photo.17.commitdate: 2021/8/22
+photo.17.link: https://www.instagram.com/grskus_tk/
+photo.17.tags: bamboo, bite
 species: 2
 studbook.id: 13161
 zoo: 64

@@ -132,8 +132,9 @@ photo.24.author: colette.jp
 photo.24.commitdate: 2021/9/25
 photo.24.link: https://www.instagram.com/colette.jp/
 photo.24.tags: laying down, mofumofu, portrait, sleeping
-photo.25: https://www.instagram.com/p/CWCF5-IMlZN/media/?size=m
+photo.25: ig://CWCF5-IMlZN/m
 photo.25.author: miis_98
+photo.25.commitdate: 2021/11/11
 photo.25.link: https://www.instagram.com/miis_98/
 photo.25.tags: close-up, peek, whiskers
 species: 2

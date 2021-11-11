@@ -1114,8 +1114,9 @@ photo.221.author: cattail.sapporo
 photo.221.commitdate: 2021/9/7
 photo.221.link: https://www.instagram.com/cattail.sapporo/
 photo.221.tags: close-up, portrait, whiskers
-photo.222: https://www.instagram.com/p/CWF8HMvFqU3/media/?size=m
+photo.222: ig://CWF8HMvFqU3/m
 photo.222.author: cattail.sapporo
+photo.222.commitdate: 2021/11/11
 photo.222.link: https://www.instagram.com/cattail.sapporo/
 photo.222.tags: paws, portrait, smile, snow, tail
 species: 2

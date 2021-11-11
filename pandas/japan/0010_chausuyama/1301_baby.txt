@@ -48,8 +48,9 @@ photo.7.author: daniele.tokyo
 photo.7.commitdate: 2021/10/27
 photo.7.link: https://www.instagram.com/daniele.tokyo/
 photo.7.tags: baby, mofumofu, tail
-photo.8: https://www.instagram.com/p/CWEqHZbPv16/media/?size=m
+photo.8: ig://CWEqHZbPv16/m
 photo.8.author: otenba_redpanda
+photo.8.commitdate: 2021/11/11
 photo.8.link: https://www.instagram.com/otenba_redpanda/
 photo.8.tags: baby, mofumofu, portrait
 species: 2

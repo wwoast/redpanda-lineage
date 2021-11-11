@@ -180,8 +180,9 @@ photo.33.author: mybrotherisdylan
 photo.33.commitdate: 2021/10/30
 photo.33.link: https://www.instagram.com/mybrotherisdylan/
 photo.33.tags: bamboo, portrait, whiskers
-photo.34: https://www.instagram.com/p/CWG7BLGh2j5/media/?size=m
+photo.34: ig://CWG7BLGh2j5/m
 photo.34.author: hamamatsu.chiita
+photo.34.commitdate: 2021/11/11
 photo.34.link: https://www.instagram.com/hamamatsu.chiita/
 photo.34.tags: portrait, whiskers
 species: 2
