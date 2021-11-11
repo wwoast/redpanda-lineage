@@ -7,11 +7,35 @@ commitdate: 2021/7/1
 en.name: Baby
 en.nicknames: none
 en.othernames: Aka-chan
-gender: unknown
+gender: f
 jp.name: 赤ちゃん
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+photo.1: https://www.instagram.com/p/CWDJ6NJAPid/media/?size=m
+photo.1.author: oshimabranchoffice
+photo.1.link: https://www.instagram.com/oshimabranchoffice/
+photo.1.tags: baby, close-up, mofumofu, portrait, profile
+photo.2: https://www.instagram.com/p/CVRf7ehBFf6/media/?size=m
+photo.2.author: grskus_tk
+photo.2.link: https://www.instagram.com/grskus_tk/
+photo.2.tags: baby, mofumofu, peek
+photo.3: https://www.instagram.com/p/CVPub7IhUJ8/media/?size=m
+photo.3.author: grskus_tk
+photo.3.link: https://www.instagram.com/grskus_tk/
+photo.3.tags: baby, bamboo, close-up, paws, techitechi
+photo.4: https://www.instagram.com/p/CVU6tdshgQP/media/?size=m
+photo.4.author: grskus_tk
+photo.4.link: https://www.instagram.com/grskus_tk/
+photo.4.tags: baby, bamboo, mofumofu, tail
+photo.5: https://www.instagram.com/p/CVXM9-fBUXn/media/?size=m
+photo.5.author: grskus_tk
+photo.5.link: https://www.instagram.com/grskus_tk/
+photo.5.tags: baby, peek
+photo.6: https://www.instagram.com/p/CVPSn0jBrUG/media/?size=m
+photo.6.author: grskus_tk
+photo.6.link: https://www.instagram.com/grskus_tk/
+photo.6.tags: baby, climb, mofumofu, paws, tail
 species: 2
 zoo: 64
