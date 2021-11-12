@@ -2011,8 +2011,9 @@ photo.401.author: cattail.sapporo
 photo.401.commitdate: 2021/11/10
 photo.401.link: https://www.instagram.com/cattail.sapporo/
 photo.401.tags: close-up, portrait, whiskers
-photo.402: https://www.instagram.com/p/CWDXhm0lobB/media/?size=m
+photo.402: ig://CWDXhm0lobB/m
 photo.402.author: cattail.sapporo
+photo.402.commitdate: 2021/11/11
 photo.402.link: https://www.instagram.com/cattail.sapporo/
 photo.402.tags: close-up, mofumofu, paws, portrait, whiskers
 species: 2
