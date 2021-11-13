@@ -465,20 +465,21 @@ photo.91.author: hamamatsu.chiita
 photo.91.commitdate: 2021/10/6
 photo.91.link: https://www.instagram.com/hamamatsu.chiita/
 photo.91.tags: laying down, portrait, smile, whiskers
-photo.92: ig://CVbLIhlBVSx/m
-photo.92.author: hamamatsu.chiita
-photo.92.commitdate: 2021/10/27
-photo.92.link: https://www.instagram.com/hamamatsu.chiita/
-photo.92.tags: portrait, whiskers
-photo.93: ig://CV9PDdwJqkQ/m
-photo.93.author: gloryeui
-photo.93.commitdate: 2021/11/7
-photo.93.link: https://www.instagram.com/gloryeui/
-photo.93.tags: laying down, paws, peek, portrait, tail
-photo.94: https://www.instagram.com/p/CUuNv4nBInO/media/?size=m
-photo.94.author: minato.yokohama2130
-photo.94.link: https://www.instagram.com/minato.yokohama2130/
-photo.94.tags: laying down, portrait, videolink
+photo.92: ig://CUuNv4nBInO/m
+photo.92.author: minato.yokohama2130
+photo.92.commitdate: 2021/11/12
+photo.92.link: https://www.instagram.com/minato.yokohama2130/
+photo.92.tags: laying down, portrait, videolink
+photo.93: ig://CVbLIhlBVSx/m
+photo.93.author: hamamatsu.chiita
+photo.93.commitdate: 2021/10/27
+photo.93.link: https://www.instagram.com/hamamatsu.chiita/
+photo.93.tags: portrait, whiskers
+photo.94: ig://CV9PDdwJqkQ/m
+photo.94.author: gloryeui
+photo.94.commitdate: 2021/11/7
+photo.94.link: https://www.instagram.com/gloryeui/
+photo.94.tags: laying down, paws, peek, portrait, tail
 species: 2
 studbook.id: 13167
 zoo: 13

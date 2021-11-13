@@ -333,53 +333,55 @@ photo.64.author: jas_forever_love
 photo.64.commitdate: 2021/3/10
 photo.64.link: https://www.instagram.com/jas_forever_love/
 photo.64.tags: mofumofu, paws, snow
-photo.65: ig://CP35SXRhIpe/m
+photo.65: ig://CLuqNBuhr7r/m
 photo.65.author: hamamatsu.chiita
-photo.65.commitdate: 2021/6/19
+photo.65.commitdate: 2021/11/12
 photo.65.link: https://www.instagram.com/hamamatsu.chiita/
-photo.65.tags: mofumofu, portrait, whiskers
-photo.66: ig://CQ5dPHCh6KV/m
-photo.66.author: minato.yokohama2130
-photo.66.commitdate: 2021/7/5
-photo.66.link: https://www.instagram.com/minato.yokohama2130/
-photo.66.tags: bridge, peek, portrait, whiskers
-photo.67: ig://CRf4lwNhpPO/m
+photo.65.tags: close-up, mofumofu, portrait
+photo.66: ig://CP35SXRhIpe/m
+photo.66.author: hamamatsu.chiita
+photo.66.commitdate: 2021/6/19
+photo.66.link: https://www.instagram.com/hamamatsu.chiita/
+photo.66.tags: mofumofu, portrait, whiskers
+photo.67: ig://CQ5dPHCh6KV/m
 photo.67.author: minato.yokohama2130
-photo.67.commitdate: 2021/8/2
+photo.67.commitdate: 2021/7/5
 photo.67.link: https://www.instagram.com/minato.yokohama2130/
-photo.67.tags: close-up, laying down, portrait, smile, tongue, whiskers
-photo.68: ig://CRgROUhiBEX/m
+photo.67.tags: bridge, peek, portrait, whiskers
+photo.68: ig://CRf4lwNhpPO/m
 photo.68.author: minato.yokohama2130
 photo.68.commitdate: 2021/8/2
 photo.68.link: https://www.instagram.com/minato.yokohama2130/
-photo.68.tags: bridge, portrait, videolink
-photo.69: ig://CRgZQYOB14c/m
-photo.69.author: jas_forever_love
+photo.68.tags: close-up, laying down, portrait, smile, tongue, whiskers
+photo.69: ig://CRgROUhiBEX/m
+photo.69.author: minato.yokohama2130
 photo.69.commitdate: 2021/8/2
-photo.69.link: https://www.instagram.com/jas_forever_love/
-photo.69.tags: close-up, laying down, portrait, videolink
-photo.70: ig://CSaG8HpBrNN/m
-photo.70.author: hamamatsu.chiita
-photo.70.commitdate: 2021/8/10
-photo.70.link: https://www.instagram.com/hamamatsu.chiita/
-photo.70.tags: bridge, close-up, laying down, paws, portrait, whiskers
-photo.71: ig://CTSwhtgrXZO/m
-photo.71.author: hamamatsu.chiita
-photo.71.commitdate: 2021/10/10
-photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: portrait, smile, whiskers
-photo.72: ig://CV-XKH1pB25/m
-photo.72.author: gloryeui
-photo.72.commitdate: 2021/11/11
-photo.72.link: https://www.instagram.com/gloryeui/
-photo.72.tags: paws, portrait, whiskers
-photo.73: https://www.instagram.com/p/CSEdhpwhGb7/media/?size=m
-photo.73.author: minato.yokohama2130
-photo.73.link: https://www.instagram.com/minato.yokohama2130/
-photo.73.tags: bridge, laying down, paws, portrait, smile
-photo.74: https://www.instagram.com/p/CLuqNBuhr7r/media/?size=m
-photo.74.author: hamamatsu.chiita
-photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: close-up, mofumofu, portrait
+photo.69.link: https://www.instagram.com/minato.yokohama2130/
+photo.69.tags: bridge, portrait, videolink
+photo.70: ig://CRgZQYOB14c/m
+photo.70.author: jas_forever_love
+photo.70.commitdate: 2021/8/2
+photo.70.link: https://www.instagram.com/jas_forever_love/
+photo.70.tags: close-up, laying down, portrait, videolink
+photo.71: ig://CSEdhpwhGb7/m
+photo.71.author: minato.yokohama2130
+photo.71.commitdate: 2021/11/12
+photo.71.link: https://www.instagram.com/minato.yokohama2130/
+photo.71.tags: bridge, laying down, paws, portrait, smile
+photo.72: ig://CSaG8HpBrNN/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2021/8/10
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: bridge, close-up, laying down, paws, portrait, whiskers
+photo.73: ig://CTSwhtgrXZO/m
+photo.73.author: hamamatsu.chiita
+photo.73.commitdate: 2021/10/10
+photo.73.link: https://www.instagram.com/hamamatsu.chiita/
+photo.73.tags: portrait, smile, whiskers
+photo.74: ig://CV-XKH1pB25/m
+photo.74.author: gloryeui
+photo.74.commitdate: 2021/11/11
+photo.74.link: https://www.instagram.com/gloryeui/
+photo.74.tags: paws, portrait, whiskers
 species: 2
 zoo: 13

@@ -468,25 +468,26 @@ photo.91.author: kotata_513
 photo.91.commitdate: 2021/9/18
 photo.91.link: https://www.instagram.com/kotata_513/
 photo.91.tags: blink, flowers, smile, tree
-photo.92: ig://CU56cJuhnDW/m
-photo.92.author: miis_98
-photo.92.commitdate: 2021/10/17
-photo.92.link: https://www.instagram.com/miis_98/
-photo.92.tags: home, paws, portrait, smile
-photo.93: ig://CU7hGEMlEdQ/m
-photo.93.author: otenba_redpanda
+photo.92: ig://CUxYthYFA7D/m
+photo.92.author: mini_cochi
+photo.92.commitdate: 2021/11/12
+photo.92.link: https://www.instagram.com/mini_cochi/
+photo.92.tags: apple time, portrait, smile, tongue
+photo.93: ig://CU56cJuhnDW/m
+photo.93.author: miis_98
 photo.93.commitdate: 2021/10/17
-photo.93.link: https://www.instagram.com/otenba_redpanda/
-photo.93.tags: lips, portrait
-photo.94: ig://CVFjNSyhaMy/m
-photo.94.author: kotata_513
-photo.94.commitdate: 2021/11/6
-photo.94.link: https://www.instagram.com/kotata_513/
-photo.94.tags: blink, portrait, smile
-photo.95: https://www.instagram.com/p/CUxYthYFA7D/media/?size=m
-photo.95.author: mini_cochi
-photo.95.link: https://www.instagram.com/mini_cochi/
-photo.95.tags: apple time, portrait, smile, tongue
+photo.93.link: https://www.instagram.com/miis_98/
+photo.93.tags: home, paws, portrait, smile
+photo.94: ig://CU7hGEMlEdQ/m
+photo.94.author: otenba_redpanda
+photo.94.commitdate: 2021/10/17
+photo.94.link: https://www.instagram.com/otenba_redpanda/
+photo.94.tags: lips, portrait
+photo.95: ig://CVFjNSyhaMy/m
+photo.95.author: kotata_513
+photo.95.commitdate: 2021/11/6
+photo.95.link: https://www.instagram.com/kotata_513/
+photo.95.tags: blink, portrait, smile
 species: 2
 studbook.id: 13140
 zoo: 69

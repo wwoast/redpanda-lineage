@@ -223,19 +223,20 @@ photo.42.author: kijyo.zoo
 photo.42.commitdate: 2021/10/9
 photo.42.link: https://www.instagram.com/kijyo.zoo/
 photo.42.tags: bridge, portrait, videolink
-photo.43: ig://CVClNunjPpE/m
-photo.43.author: lesserpanda_shizuokacity_cp
-photo.43.commitdate: 2021/10/17
-photo.43.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.43.tags: paws, portrait, videolink
-photo.44: ig://CV9hi-WrYmM/m
-photo.44.author: kijyo.zoo
-photo.44.commitdate: 2021/11/10
-photo.44.link: https://www.instagram.com/kijyo.zoo/
-photo.44.tags: peek, tree, videolink
-photo.45: https://www.instagram.com/p/CUtWY1Gp-te/media/?size=m
+photo.43: ig://CUtWY1Gp-te/m
+photo.43.author: kijyo.zoo
+photo.43.commitdate: 2021/11/12
+photo.43.link: https://www.instagram.com/kijyo.zoo/
+photo.43.tags: paws, standing, videolink
+photo.44: ig://CVClNunjPpE/m
+photo.44.author: lesserpanda_shizuokacity_cp
+photo.44.commitdate: 2021/10/17
+photo.44.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.44.tags: paws, portrait, videolink
+photo.45: ig://CV9hi-WrYmM/m
 photo.45.author: kijyo.zoo
+photo.45.commitdate: 2021/11/10
 photo.45.link: https://www.instagram.com/kijyo.zoo/
-photo.45.tags: paws, standing, videolink
+photo.45.tags: peek, tree, videolink
 species: 2
 zoo: 16

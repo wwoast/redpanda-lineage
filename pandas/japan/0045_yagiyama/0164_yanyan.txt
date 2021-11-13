@@ -570,15 +570,16 @@ photo.112.author: alto0908
 photo.112.commitdate: 2021/10/24
 photo.112.link: https://www.instagram.com/alto0908/
 photo.112.tags: close-up, portrait, whiskers
-photo.113: ig://CWF4wTrB-Kz/m
-photo.113.author: rie_panda55
-photo.113.commitdate: 2021/11/11
-photo.113.link: https://www.instagram.com/rie_panda55/
-photo.113.tags: home, laying down, peek, portrait
-photo.114: https://www.instagram.com/p/CUvk8v4hMF8/media/?size=m
-photo.114.author: alto0908
-photo.114.link: https://www.instagram.com/alto0908/
-photo.114.tags: paws, portrait, standing, tree
+photo.113: ig://CUvk8v4hMF8/m
+photo.113.author: alto0908
+photo.113.commitdate: 2021/11/12
+photo.113.link: https://www.instagram.com/alto0908/
+photo.113.tags: paws, portrait, standing, tree
+photo.114: ig://CWF4wTrB-Kz/m
+photo.114.author: rie_panda55
+photo.114.commitdate: 2021/11/11
+photo.114.link: https://www.instagram.com/rie_panda55/
+photo.114.tags: home, laying down, peek, portrait
 species: 2
 studbook.id: 14142
 zoo: 45
