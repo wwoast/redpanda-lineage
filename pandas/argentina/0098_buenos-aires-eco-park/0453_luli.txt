@@ -26,20 +26,15 @@ photo.1.author: everywhere.inbetween17
 photo.1.commitdate: 2018/12/12
 photo.1.link: https://www.instagram.com/everywhere.inbetween17/
 photo.1.tags: home, portrait, profile
-photo.2: ig://BdtZSuiAHHG/m
-photo.2.author: joseluis_hv_
+photo.2: https://www.codaworry.com/images/rpf/luli-1-buenos-aires.jpg
+photo.2.author: Tomás Francisco Cuesta
 photo.2.commitdate: 2019/5/7
-photo.2.link: https://www.instagram.com/joseluis_hv_/
-photo.2.tags: mofumofu
-photo.3: https://www.codaworry.com/images/rpf/luli-1-buenos-aires.jpg
+photo.2.link: https://www.forestanimalrescue.org/red-pandas/
+photo.2.tags: bamboo
+photo.3: https://www.codaworry.com/images/rpf/luli-2-buenos-aires.jpg
 photo.3.author: Tomás Francisco Cuesta
 photo.3.commitdate: 2019/5/7
 photo.3.link: https://www.forestanimalrescue.org/red-pandas/
-photo.3.tags: bamboo
-photo.4: https://www.codaworry.com/images/rpf/luli-2-buenos-aires.jpg
-photo.4.author: Tomás Francisco Cuesta
-photo.4.commitdate: 2019/5/7
-photo.4.link: https://www.forestanimalrescue.org/red-pandas/
 species: 2
 studbook.id: 0471
 zoo: 98
