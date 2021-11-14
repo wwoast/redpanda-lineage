@@ -34,8 +34,9 @@ photo.5.author: redpandanetwork
 photo.5.commitdate: 2021/1/19
 photo.5.link: https://www.instagram.com/redpandanetwork/
 photo.5.tags: laying down, sleeping
-photo.6: https://www.instagram.com/p/CVOK5WuhFoh/media/?size=m
+photo.6: ig://CVOK5WuhFoh/m
 photo.6.author: redpandanetwork
+photo.6.commitdate: 2021/11/14
 photo.6.link: https://www.instagram.com/redpandanetwork/
 photo.6.tags: portrait, tree
 species: 3

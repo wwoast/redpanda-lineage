@@ -758,15 +758,16 @@ photo.149.author: na.mo.pan
 photo.149.commitdate: 2021/11/5
 photo.149.link: https://www.instagram.com/na.mo.pan/
 photo.149.tags: portrait, smile, whiskers
-photo.150: ig://CVSYPRghill/m
-photo.150.author: miis_98
-photo.150.commitdate: 2021/10/30
-photo.150.link: https://www.instagram.com/miis_98/
-photo.150.tags: portrait, whiskers
-photo.151: https://www.instagram.com/p/CVM74vjhhzV/media/?size=m
-photo.151.author: na.mo.pan
-photo.151.link: https://www.instagram.com/na.mo.pan/
-photo.151.tags: portrait, upside-down, whiskers
+photo.150: ig://CVM74vjhhzV/m
+photo.150.author: na.mo.pan
+photo.150.commitdate: 2021/11/14
+photo.150.link: https://www.instagram.com/na.mo.pan/
+photo.150.tags: portrait, upside-down, whiskers
+photo.151: ig://CVSYPRghill/m
+photo.151.author: miis_98
+photo.151.commitdate: 2021/10/30
+photo.151.link: https://www.instagram.com/miis_98/
+photo.151.tags: portrait, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8

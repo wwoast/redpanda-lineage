@@ -918,15 +918,16 @@ photo.183.author: i.satosato
 photo.183.commitdate: 2021/9/10
 photo.183.link: https://www.instagram.com/i.satosato/
 photo.183.tags: paws, portrait, smile, whiskers
-photo.184: ig://CV7isZ5hjZQ/m
-photo.184.author: imagoto17
-photo.184.commitdate: 2021/11/10
-photo.184.link: https://www.instagram.com/imagoto17/
-photo.184.tags: close-up, paws, whiskers
-photo.185: https://www.instagram.com/p/CVM4gRchYbQ/media/?size=m
-photo.185.author: falcon_tenor
-photo.185.link: https://www.instagram.com/falcon_tenor/
-photo.185.tags: grooming, mofumofu, tail
+photo.184: ig://CVM4gRchYbQ/m
+photo.184.author: falcon_tenor
+photo.184.commitdate: 2021/11/14
+photo.184.link: https://www.instagram.com/falcon_tenor/
+photo.184.tags: grooming, mofumofu, tail
+photo.185: ig://CV7isZ5hjZQ/m
+photo.185.author: imagoto17
+photo.185.commitdate: 2021/11/10
+photo.185.link: https://www.instagram.com/imagoto17/
+photo.185.tags: close-up, paws, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

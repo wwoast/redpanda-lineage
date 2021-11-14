@@ -917,15 +917,16 @@ photo.183.author: falcon_tenor
 photo.183.commitdate: 2021/10/7
 photo.183.link: https://www.instagram.com/falcon_tenor/
 photo.183.tags: bamboo, mofumofu, portrait
-photo.184: ig://CV9CW3RhfQE/m
-photo.184.author: panda.daisuki
-photo.184.commitdate: 2021/11/7
-photo.184.link: https://www.instagram.com/panda.daisuki/
-photo.184.tags: home, paws, portrait, smile, whiskers
-photo.185: https://www.instagram.com/p/CVJ-4EnhZK5/media/?size=m
-photo.185.author: falcon_tenor
-photo.185.link: https://www.instagram.com/falcon_tenor/
-photo.185.tags: apple time, blink, home, portrait, tail
+photo.184: ig://CVJ-4EnhZK5/m
+photo.184.author: falcon_tenor
+photo.184.commitdate: 2021/11/14
+photo.184.link: https://www.instagram.com/falcon_tenor/
+photo.184.tags: apple time, blink, home, portrait, tail
+photo.185: ig://CV9CW3RhfQE/m
+photo.185.author: panda.daisuki
+photo.185.commitdate: 2021/11/7
+photo.185.link: https://www.instagram.com/panda.daisuki/
+photo.185.tags: home, paws, portrait, smile, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

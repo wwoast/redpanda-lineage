@@ -449,20 +449,21 @@ photo.87.author: panda.daisuki
 photo.87.commitdate: 2021/10/26
 photo.87.link: https://www.instagram.com/panda.daisuki/
 photo.87.tags: portrait, smile, tongue, whiskers
-photo.88: ig://CVSbX-IhH5v/m
-photo.88.author: ssc6105
-photo.88.commitdate: 2021/10/31
-photo.88.link: https://www.instagram.com/ssc6105/
-photo.88.tags: laying down, mofumofu, portrait, tail
-photo.89: ig://CVYutdihVhn/m
+photo.88: ig://CVLBKZUh0Ca/m
+photo.88.author: panda.daisuki
+photo.88.commitdate: 2021/11/14
+photo.88.link: https://www.instagram.com/panda.daisuki/
+photo.88.tags: apple time, portrait, whiskers
+photo.89: ig://CVSbX-IhH5v/m
 photo.89.author: ssc6105
-photo.89.commitdate: 2021/10/27
+photo.89.commitdate: 2021/10/31
 photo.89.link: https://www.instagram.com/ssc6105/
-photo.89.tags: close-up, paws, whiskers
-photo.90: https://www.instagram.com/p/CVLBKZUh0Ca/media/?size=m
-photo.90.author: panda.daisuki
-photo.90.link: https://www.instagram.com/panda.daisuki/
-photo.90.tags: apple time, portrait, whiskers
+photo.89.tags: laying down, mofumofu, portrait, tail
+photo.90: ig://CVYutdihVhn/m
+photo.90.author: ssc6105
+photo.90.commitdate: 2021/10/27
+photo.90.link: https://www.instagram.com/ssc6105/
+photo.90.tags: close-up, paws, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

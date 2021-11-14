@@ -1960,20 +1960,21 @@ photo.390.author: alto0908
 photo.390.commitdate: 2021/10/30
 photo.390.link: https://www.instagram.com/alto0908/
 photo.390.tags: peek, portrait, whiskers
-photo.391: ig://CVwJtdaBYoB/m
-photo.391.author: alto0908
-photo.391.commitdate: 2021/11/5
-photo.391.link: https://www.instagram.com/alto0908/
-photo.391.tags: mofumofu, portrait, tail, whiskers
-photo.392: ig://CWB_wwQB6I_/m
+photo.391: ig://CVW2FiAMpFn/m
+photo.391.author: otenba_redpanda
+photo.391.commitdate: 2021/11/14
+photo.391.link: https://www.instagram.com/otenba_redpanda/
+photo.391.tags: paws, portrait, standing, tail
+photo.392: ig://CVwJtdaBYoB/m
 photo.392.author: alto0908
-photo.392.commitdate: 2021/11/11
+photo.392.commitdate: 2021/11/5
 photo.392.link: https://www.instagram.com/alto0908/
-photo.392.tags: close-up, mofumofu, portrait, whiskers
-photo.393: https://www.instagram.com/p/CVW2FiAMpFn/media/?size=m
-photo.393.author: otenba_redpanda
-photo.393.link: https://www.instagram.com/otenba_redpanda/
-photo.393.tags: paws, portrait, standing, tail
+photo.392.tags: mofumofu, portrait, tail, whiskers
+photo.393: ig://CWB_wwQB6I_/m
+photo.393.author: alto0908
+photo.393.commitdate: 2021/11/11
+photo.393.link: https://www.instagram.com/alto0908/
+photo.393.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

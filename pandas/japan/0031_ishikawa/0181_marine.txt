@@ -166,8 +166,9 @@ photo.31.author: bee_san.13
 photo.31.commitdate: 2021/9/29
 photo.31.link: https://www.instagram.com/bee_san.13/
 photo.31.tags: mofumofu, portrait, smile, whiskers
-photo.32: https://www.instagram.com/p/CVGnMCwhsyc/media/?size=m
+photo.32: ig://CVGnMCwhsyc/m
 photo.32.author: hamamatsu.chiita
+photo.32.commitdate: 2021/11/14
 photo.32.link: https://www.instagram.com/hamamatsu.chiita/
 photo.32.tags: close-up, mofumofu, whiskers
 species: 2

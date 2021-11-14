@@ -633,14 +633,15 @@ photo.124.author: mini_cochi
 photo.124.commitdate: 2021/9/28
 photo.124.link: https://www.instagram.com/mini_cochi/
 photo.124.tags: paws, portrait, smile
-photo.125: ig://CVeBlwLBWcM/m
-photo.125.author: ck.chie
-photo.125.commitdate: 2021/10/27
-photo.125.link: https://www.instagram.com/ck.chie/
-photo.125.tags: paws, smile, whiskers
-photo.126: https://www.instagram.com/p/CVKs01nhRM0/media/?size=m
-photo.126.author: otenba_redpanda
-photo.126.link: https://www.instagram.com/otenba_redpanda/
-photo.126.tags: mofumofu, peek, portrait, whiskers
+photo.125: ig://CVKs01nhRM0/m
+photo.125.author: otenba_redpanda
+photo.125.commitdate: 2021/11/14
+photo.125.link: https://www.instagram.com/otenba_redpanda/
+photo.125.tags: mofumofu, peek, portrait, whiskers
+photo.126: ig://CVeBlwLBWcM/m
+photo.126.author: ck.chie
+photo.126.commitdate: 2021/10/27
+photo.126.link: https://www.instagram.com/ck.chie/
+photo.126.tags: paws, smile, whiskers
 species: 2
 zoo: 17
