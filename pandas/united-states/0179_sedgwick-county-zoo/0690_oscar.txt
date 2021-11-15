@@ -17,6 +17,10 @@ litter: 528
 location.1: 108, 2002/6/20
 location.2: 155, 2008/11/20
 location.3: 179, 2010/11/12
+photo.1: https://www.instagram.com/p/CVoDf5vJgrU/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: laying down
 species: 1
 studbook.id: 0203
 zoo: 179
