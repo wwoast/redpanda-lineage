@@ -237,35 +237,36 @@ photo.45.author: mifko55
 photo.45.commitdate: 2020/10/13
 photo.45.link: https://www.instagram.com/mifko55/
 photo.45.tags: bridge, laying down, mofumofu, portrait, tail, whiskers
-photo.46: ig://CKkHqnLB7pR/m
-photo.46.author: sasapan34
-photo.46.commitdate: 2021/11/13
-photo.46.link: https://www.instagram.com/sasapan34/
-photo.46.tags: snow
-photo.47: ig://CLeLkwPh1My/m
-photo.47.author: nishicotolo
-photo.47.commitdate: 2021/9/18
-photo.47.link: https://www.instagram.com/nishicotolo/
-photo.47.tags: ear, snow
-photo.48: ig://CO2izY1hMGT/m
-photo.48.author: kotata_513
-photo.48.commitdate: 2021/7/14
-photo.48.link: https://www.instagram.com/kotata_513/
-photo.48.tags: smile, whiskers
-photo.49: ig://CQviZTZBM1y/m
-photo.49.author: nishicotolo
-photo.49.commitdate: 2021/9/1
-photo.49.link: https://www.instagram.com/nishicotolo/
-photo.49.tags: smile
-photo.50: ig://CTY4LUwhRTn/m
-photo.50.author: nakacchi_desu
-photo.50.commitdate: 2021/9/10
-photo.50.link: https://www.instagram.com/nakacchi_desu/
-photo.50.tags: bite, climb, paws, playing, tail
-photo.51: https://www.instagram.com/p/CIN25lBhbwo/media/?size=m
-photo.51.author: leonard_redmof
-photo.51.link: https://www.instagram.com/leonard_redmof/
-photo.51.tags: ear, portrait, standing, tail
+photo.46: ig://CIN25lBhbwo/m
+photo.46.author: leonard_redmof
+photo.46.commitdate: 2021/11/15
+photo.46.link: https://www.instagram.com/leonard_redmof/
+photo.46.tags: ear, portrait, standing, tail
+photo.47: ig://CKkHqnLB7pR/m
+photo.47.author: sasapan34
+photo.47.commitdate: 2021/11/13
+photo.47.link: https://www.instagram.com/sasapan34/
+photo.47.tags: snow
+photo.48: ig://CLeLkwPh1My/m
+photo.48.author: nishicotolo
+photo.48.commitdate: 2021/9/18
+photo.48.link: https://www.instagram.com/nishicotolo/
+photo.48.tags: ear, snow
+photo.49: ig://CO2izY1hMGT/m
+photo.49.author: kotata_513
+photo.49.commitdate: 2021/7/14
+photo.49.link: https://www.instagram.com/kotata_513/
+photo.49.tags: smile, whiskers
+photo.50: ig://CQviZTZBM1y/m
+photo.50.author: nishicotolo
+photo.50.commitdate: 2021/9/1
+photo.50.link: https://www.instagram.com/nishicotolo/
+photo.50.tags: smile
+photo.51: ig://CTY4LUwhRTn/m
+photo.51.author: nakacchi_desu
+photo.51.commitdate: 2021/9/10
+photo.51.link: https://www.instagram.com/nakacchi_desu/
+photo.51.tags: bite, climb, paws, playing, tail
 species: 2
 studbook.id: unknown
 zoo: 37

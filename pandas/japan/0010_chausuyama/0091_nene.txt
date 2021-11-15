@@ -372,50 +372,51 @@ photo.72.author: miis_98
 photo.72.commitdate: 2020/12/12
 photo.72.link: https://www.instagram.com/miis_98/
 photo.72.tags: portrait, tree, upside-down
-photo.73: ig://CJlv6oyBt0z/m
+photo.73: ig://CJGWIOWh8yn/m
 photo.73.author: minatomirai215
-photo.73.commitdate: 2021/1/13
+photo.73.commitdate: 2021/11/15
 photo.73.link: https://www.instagram.com/minatomirai215/
-photo.73.tags: apple time, dish, paws, portrait
-photo.74: ig://CKIElZhhKFE/m
-photo.74.author: shigeko0531
-photo.74.commitdate: 2021/3/2
-photo.74.link: https://www.instagram.com/shigeko0531/
-photo.74.tags: home, peek, portrait, tree
-photo.75: ig://CLyw5LJBOI-/m
-photo.75.author: redpan22
-photo.75.commitdate: 2021/8/15
-photo.75.link: https://www.instagram.com/redpan22/
-photo.75.tags: apple time, dish, paws, tongue, whiskers
-photo.76: ig://CMwuU13hUcK/m
+photo.73.tags: portrait, snow, tree
+photo.74: ig://CJlv6oyBt0z/m
+photo.74.author: minatomirai215
+photo.74.commitdate: 2021/1/13
+photo.74.link: https://www.instagram.com/minatomirai215/
+photo.74.tags: apple time, dish, paws, portrait
+photo.75: ig://CKIElZhhKFE/m
+photo.75.author: shigeko0531
+photo.75.commitdate: 2021/3/2
+photo.75.link: https://www.instagram.com/shigeko0531/
+photo.75.tags: home, peek, portrait, tree
+photo.76: ig://CLyw5LJBOI-/m
 photo.76.author: redpan22
-photo.76.commitdate: 2021/10/10
+photo.76.commitdate: 2021/8/15
 photo.76.link: https://www.instagram.com/redpan22/
-photo.76.tags: close-up, home, tree, white face
-photo.77: ig://CNdZ-D4BhWz/m
-photo.77.author: rie_panda55
-photo.77.commitdate: 2021/9/6
-photo.77.link: https://www.instagram.com/rie_panda55/
-photo.77.tags: bamboo, portrait, smile, tail
-photo.78: ig://CPeL6TPBypD/m
-photo.78.author: hamamatsu.chiita
-photo.78.commitdate: 2021/6/18
-photo.78.link: https://www.instagram.com/hamamatsu.chiita/
-photo.78.tags: portrait, techitechi, white face
-photo.79: ig://CTrykRnsvMA/m
-photo.79.author: redpan22
-photo.79.commitdate: 2021/10/22
-photo.79.link: https://www.instagram.com/redpan22/
-photo.79.tags: close-up, home, mofumofu, portrait, tree, whiskers
-photo.80: ig://CVbenqMBEBS/m
-photo.80.author: otenba_redpanda
-photo.80.commitdate: 2021/10/27
-photo.80.link: https://www.instagram.com/otenba_redpanda/
-photo.80.tags: portrait, smile, whiskers
-photo.81: https://www.instagram.com/p/CJGWIOWh8yn/media/?size=m
-photo.81.author: minatomirai215
-photo.81.link: https://www.instagram.com/minatomirai215/
-photo.81.tags: portrait, snow, tree
+photo.76.tags: apple time, dish, paws, tongue, whiskers
+photo.77: ig://CMwuU13hUcK/m
+photo.77.author: redpan22
+photo.77.commitdate: 2021/10/10
+photo.77.link: https://www.instagram.com/redpan22/
+photo.77.tags: close-up, home, tree, white face
+photo.78: ig://CNdZ-D4BhWz/m
+photo.78.author: rie_panda55
+photo.78.commitdate: 2021/9/6
+photo.78.link: https://www.instagram.com/rie_panda55/
+photo.78.tags: bamboo, portrait, smile, tail
+photo.79: ig://CPeL6TPBypD/m
+photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2021/6/18
+photo.79.link: https://www.instagram.com/hamamatsu.chiita/
+photo.79.tags: portrait, techitechi, white face
+photo.80: ig://CTrykRnsvMA/m
+photo.80.author: redpan22
+photo.80.commitdate: 2021/10/22
+photo.80.link: https://www.instagram.com/redpan22/
+photo.80.tags: close-up, home, mofumofu, portrait, tree, whiskers
+photo.81: ig://CVbenqMBEBS/m
+photo.81.author: otenba_redpanda
+photo.81.commitdate: 2021/10/27
+photo.81.link: https://www.instagram.com/otenba_redpanda/
+photo.81.tags: portrait, smile, whiskers
 species: 2
 studbook.id: 12109
 zoo: 10
