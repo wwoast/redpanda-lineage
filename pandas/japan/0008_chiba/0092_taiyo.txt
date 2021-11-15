@@ -378,15 +378,16 @@ photo.73.author: alto0908
 photo.73.commitdate: 2021/11/14
 photo.73.link: https://www.instagram.com/alto0908/
 photo.73.tags: bamboo, bite, paws, portrait, tongue
-photo.74: ig://CV8u7Q8B_k3/m
-photo.74.author: hamamatsu.chiita
-photo.74.commitdate: 2021/11/7
-photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: paws, portrait, whiskers, white face
-photo.75: https://www.instagram.com/p/CVsVA-ohI7a/media/?size=m
-photo.75.author: na.mo.pan
-photo.75.link: https://www.instagram.com/na.mo.pan/
-photo.75.tags: smile, whiskers, white face
+photo.74: ig://CVsVA-ohI7a/m
+photo.74.author: na.mo.pan
+photo.74.commitdate: 2021/11/15
+photo.74.link: https://www.instagram.com/na.mo.pan/
+photo.74.tags: smile, whiskers, white face
+photo.75: ig://CV8u7Q8B_k3/m
+photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2021/11/7
+photo.75.link: https://www.instagram.com/hamamatsu.chiita/
+photo.75.tags: paws, portrait, whiskers, white face
 species: 2
 studbook.id: 13150
 zoo: 8

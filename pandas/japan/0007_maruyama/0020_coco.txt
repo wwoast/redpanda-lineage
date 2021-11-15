@@ -1198,8 +1198,9 @@ photo.242.author: cattail.sapporo
 photo.242.commitdate: 2021/10/27
 photo.242.link: https://www.instagram.com/cattail.sapporo/
 photo.242.tags: close-up, portrait, techitechi, whiskers
-photo.243: https://www.instagram.com/p/CV2bRbPFynz/media/?size=m
+photo.243: ig://CV2bRbPFynz/m
 photo.243.author: cattail.sapporo
+photo.243.commitdate: 2021/11/15
 photo.243.link: https://www.instagram.com/cattail.sapporo/
 photo.243.tags: close-up, mofumofu, portrait, whiskers
 species: 2

@@ -1726,15 +1726,16 @@ photo.344.author: hamamatsu.chiita
 photo.344.commitdate: 2021/7/13
 photo.344.link: https://www.instagram.com/hamamatsu.chiita/
 photo.344.tags: portrait, whiskers
-photo.345: ig://CV8tel7BCqR/m
-photo.345.author: run.swim.shingo
-photo.345.commitdate: 2021/11/7
-photo.345.link: https://www.instagram.com/run.swim.shingo/
-photo.345.tags: bridge, smile, whiskers
-photo.346: https://www.instagram.com/p/CV5PNIehVhS/media/?size=m
-photo.346.author: redpan22
-photo.346.link: https://www.instagram.com/redpan22/
-photo.346.tags: close-up, peek, whiskers
+photo.345: ig://CV5PNIehVhS/m
+photo.345.author: redpan22
+photo.345.commitdate: 2021/11/15
+photo.345.link: https://www.instagram.com/redpan22/
+photo.345.tags: close-up, peek, whiskers
+photo.346: ig://CV8tel7BCqR/m
+photo.346.author: run.swim.shingo
+photo.346.commitdate: 2021/11/7
+photo.346.link: https://www.instagram.com/run.swim.shingo/
+photo.346.tags: bridge, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235
