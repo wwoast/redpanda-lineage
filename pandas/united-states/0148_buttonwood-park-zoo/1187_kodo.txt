@@ -78,13 +78,15 @@ photo.13.author: buttonwoodparkzoo
 photo.13.commitdate: 2021/6/23
 photo.13.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.13.tags: portrait, whiskers
-photo.14: https://www.instagram.com/p/CRoUwJzs9XK/media/?size=m
+photo.14: ig://CQhhDLzhUdl/m
 photo.14.author: buttonwoodparkzoo
+photo.14.commitdate: 2021/11/19
 photo.14.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.14.tags: peek, portrait, whiskers
-photo.15: https://www.instagram.com/p/CQhhDLzhUdl/media/?size=m
+photo.14.tags: baby, close-up, newborn, portrait
+photo.15: ig://CRoUwJzs9XK/m
 photo.15.author: buttonwoodparkzoo
+photo.15.commitdate: 2021/11/19
 photo.15.link: https://www.instagram.com/buttonwoodparkzoo/
-photo.15.tags: baby, close-up, newborn, portrait
+photo.15.tags: peek, portrait, whiskers
 species: 1
 zoo: 148

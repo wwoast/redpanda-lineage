@@ -797,15 +797,16 @@ photo.157.author: colette.jp
 photo.157.commitdate: 2021/11/14
 photo.157.link: https://www.instagram.com/colette.jp/
 photo.157.tags: climb, paws, portrait, standing
-photo.158: ig://CVXadgChZD5/m
-photo.158.author: colette.jp
-photo.158.commitdate: 2021/11/3
-photo.158.link: https://www.instagram.com/colette.jp/
-photo.158.tags: climb, home, mofumofu, paws, portrait
-photo.159: https://www.instagram.com/p/CVKxwVgl-u6/media/?size=m
-photo.159.author: love__mitarashi
-photo.159.link: https://www.instagram.com/love__mitarashi/
-photo.159.tags: bamboo, grooming, home, mofumofu, portrait, whiskers
+photo.158: ig://CVKxwVgl-u6/m
+photo.158.author: love__mitarashi
+photo.158.commitdate: 2021/11/19
+photo.158.link: https://www.instagram.com/love__mitarashi/
+photo.158.tags: bamboo, grooming, home, mofumofu, portrait, whiskers
+photo.159: ig://CVXadgChZD5/m
+photo.159.author: colette.jp
+photo.159.commitdate: 2021/11/3
+photo.159.link: https://www.instagram.com/colette.jp/
+photo.159.tags: climb, home, mofumofu, paws, portrait
 species: 2
 studbook.id: unknown
 zoo: 14

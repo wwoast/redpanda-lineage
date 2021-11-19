@@ -740,39 +740,41 @@ photo.145.author: fetorus_mami
 photo.145.commitdate: 2021/9/7
 photo.145.link: https://www.instagram.com/fetorus_mami/
 photo.145.tags: close-up, smile, whiskers
-photo.146: ig://CT5nPsXhSKG/m
-photo.146.author: ck.chie
-photo.146.commitdate: 2021/10/24
-photo.146.link: https://www.instagram.com/ck.chie/
-photo.146.tags: paws, portrait, smile
-photo.147: ig://CUAKa0Short/m
+photo.146: ig://CTmzSK7hYSu/m
+photo.146.author: eos1089
+photo.146.commitdate: 2021/11/19
+photo.146.link: https://www.instagram.com/eos1089/
+photo.146.tags: close-up, home, nose, portrait
+photo.147: ig://CTuFvIHBwAH/m
 photo.147.author: redpan22
-photo.147.commitdate: 2021/9/29
+photo.147.commitdate: 2021/11/19
 photo.147.link: https://www.instagram.com/redpan22/
-photo.147.tags: laying down, mofumofu, portrait, videolink
-photo.148: ig://CUX2VfpBarx/m
-photo.148.author: eos1089
-photo.148.commitdate: 2021/10/9
-photo.148.link: https://www.instagram.com/eos1089/
-photo.148.tags: dish, portrait, whiskers
-photo.149: ig://CUacZlkBH6u/m
-photo.149.author: eos1089
-photo.149.commitdate: 2021/10/9
-photo.149.link: https://www.instagram.com/eos1089/
-photo.149.tags: paws, portrait, smile
-photo.150: ig://CVnJWvsheWv/m
-photo.150.author: makimaru18
-photo.150.commitdate: 2021/11/15
-photo.150.link: https://www.instagram.com/makimaru18/
-photo.150.tags: portrait, whiskers
-photo.151: https://www.instagram.com/p/CTmzSK7hYSu/media/?size=m
+photo.147.tags: close-up, nose, peek
+photo.148: ig://CT5nPsXhSKG/m
+photo.148.author: ck.chie
+photo.148.commitdate: 2021/10/24
+photo.148.link: https://www.instagram.com/ck.chie/
+photo.148.tags: paws, portrait, smile
+photo.149: ig://CUAKa0Short/m
+photo.149.author: redpan22
+photo.149.commitdate: 2021/9/29
+photo.149.link: https://www.instagram.com/redpan22/
+photo.149.tags: laying down, mofumofu, portrait, videolink
+photo.150: ig://CUX2VfpBarx/m
+photo.150.author: eos1089
+photo.150.commitdate: 2021/10/9
+photo.150.link: https://www.instagram.com/eos1089/
+photo.150.tags: dish, portrait, whiskers
+photo.151: ig://CUacZlkBH6u/m
 photo.151.author: eos1089
+photo.151.commitdate: 2021/10/9
 photo.151.link: https://www.instagram.com/eos1089/
-photo.151.tags: close-up, home, nose, portrait
-photo.152: https://www.instagram.com/p/CTuFvIHBwAH/media/?size=m
-photo.152.author: redpan22
-photo.152.link: https://www.instagram.com/redpan22/
-photo.152.tags: close-up, nose, peek
+photo.151.tags: paws, portrait, smile
+photo.152: ig://CVnJWvsheWv/m
+photo.152.author: makimaru18
+photo.152.commitdate: 2021/11/15
+photo.152.link: https://www.instagram.com/makimaru18/
+photo.152.tags: portrait, whiskers
 species: 2
 studbook.id: 1677
 zoo: 54

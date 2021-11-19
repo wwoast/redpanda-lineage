@@ -359,8 +359,9 @@ photo.69.author: happy_love2.15
 photo.69.commitdate: 2021/8/18
 photo.69.link: https://www.instagram.com/happy_love2.15/
 photo.69.tags: home, portrait, smile, tongue, whiskers
-photo.70: https://www.instagram.com/p/CVStD2HhVtY/media/?size=m
+photo.70: ig://CVStD2HhVtY/m
 photo.70.author: happy_love2.15
+photo.70.commitdate: 2021/11/19
 photo.70.link: https://www.instagram.com/happy_love2.15/
 photo.70.tags: autumn, whiskers
 species: 2

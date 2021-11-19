@@ -568,8 +568,9 @@ photo.111.author: hamamatsu.chiita
 photo.111.commitdate: 2021/10/6
 photo.111.link: https://www.instagram.com/hamamatsu.chiita/
 photo.111.tags: close-up, portrait, smile, whiskers
-photo.112: https://www.instagram.com/p/CVU_l3yFHQt/media/?size=m
+photo.112: ig://CVU_l3yFHQt/m
 photo.112.author: kijyo.zoo
+photo.112.commitdate: 2021/11/19
 photo.112.link: https://www.instagram.com/kijyo.zoo/
 photo.112.tags: apple time, home, pumpkin, videolink
 species: 2

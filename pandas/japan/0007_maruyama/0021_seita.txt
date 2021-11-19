@@ -1010,24 +1010,26 @@ photo.200.author: cattail.sapporo
 photo.200.commitdate: 2021/10/17
 photo.200.link: https://www.instagram.com/cattail.sapporo/
 photo.200.tags: peek, portrait, tongue
-photo.201: ig://CVdIERBFK8t/m
+photo.201: ig://CVM8ML6rOZ_/m
 photo.201.author: cattail.sapporo
-photo.201.commitdate: 2021/10/27
+photo.201.commitdate: 2021/11/19
 photo.201.link: https://www.instagram.com/cattail.sapporo/
-photo.201.tags: close-up, laying down, mofumofu, portrait, sleeping
-photo.202: ig://CV23Tw1pHi7/m
-photo.202.author: cattail.sapporo
-photo.202.commitdate: 2021/11/15
-photo.202.link: https://www.instagram.com/cattail.sapporo/
-photo.202.tags: dish, lunch time, portrait, smile, whiskers
-photo.203: https://www.instagram.com/p/CVM8ML6rOZ_/media/?size=m
+photo.201.tags: mofumofu, paws, playing, portrait, upside-down
+photo.202: ig://CVXzKJbhcG_/m
+photo.202.author: leonard_redmof
+photo.202.commitdate: 2021/11/19
+photo.202.link: https://www.instagram.com/leonard_redmof/
+photo.202.tags: paws, portrait
+photo.203: ig://CVdIERBFK8t/m
 photo.203.author: cattail.sapporo
+photo.203.commitdate: 2021/10/27
 photo.203.link: https://www.instagram.com/cattail.sapporo/
-photo.203.tags: mofumofu, paws, playing, portrait, upside-down
-photo.204: https://www.instagram.com/p/CVXzKJbhcG_/media/?size=m
-photo.204.author: leonard_redmof
-photo.204.link: https://www.instagram.com/leonard_redmof/
-photo.204.tags: paws, portrait
+photo.203.tags: close-up, laying down, mofumofu, portrait, sleeping
+photo.204: ig://CV23Tw1pHi7/m
+photo.204.author: cattail.sapporo
+photo.204.commitdate: 2021/11/15
+photo.204.link: https://www.instagram.com/cattail.sapporo/
+photo.204.tags: dish, lunch time, portrait, smile, whiskers
 species: 2
 studbook.id: 0554
 zoo: 7
