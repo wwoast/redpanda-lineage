@@ -322,14 +322,16 @@ photo.63.author: framereim
 photo.63.commitdate: 2021/5/3
 photo.63.link: https://www.instagram.com/framereim/
 photo.63.tags: blink, laying down, mofumofu, paws, portrait, smile, whiskers
-photo.64: https://www.instagram.com/p/CWQO4MEhahh/media/?size=m
-photo.64.author: jas_forever_love
+photo.64: ig://CWM2BbaByTM/m
+photo.64.author: redpanda_nippon_takashi
+photo.64.commitdate: 2021/11/21
 photo.64.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.64.tags: mofumofu, paws, portrait
-photo.65: https://www.instagram.com/p/CWM2BbaByTM/media/?size=m
-photo.65.author: redpanda_nippon_takashi
+photo.64.tags: mofumofu, portrait, tongue
+photo.65: ig://CWQO4MEhahh/m
+photo.65.author: jas_forever_love
+photo.65.commitdate: 2021/11/21
 photo.65.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.65.tags: mofumofu, portrait, tongue
+photo.65.tags: mofumofu, paws, portrait
 species: 2
 video.1: https://youtu.be/TUNBGBRlvvg
 video.1.author: mmovies21

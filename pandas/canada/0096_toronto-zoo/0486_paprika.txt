@@ -30,8 +30,9 @@ photo.3.author: edmontonvalleyzoo
 photo.3.commitdate: 2020/5/17
 photo.3.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.3.tags: bamboo, portrait, profile
-photo.4: https://www.instagram.com/p/CWL0175v84A/media/?size=m
+photo.4: ig://CWL0175v84A/m
 photo.4.author: edmontonvalleyzoo
+photo.4.commitdate: 2021/11/21
 photo.4.link: https://www.instagram.com/edmontonvalleyzoo/
 photo.4.tags: mofumofu, paws
 species: 2

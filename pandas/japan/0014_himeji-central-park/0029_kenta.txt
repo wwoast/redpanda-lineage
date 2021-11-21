@@ -467,8 +467,9 @@ photo.91.author: colette.jp
 photo.91.commitdate: 2021/11/19
 photo.91.link: https://www.instagram.com/colette.jp/
 photo.91.tags: keeper, portrait, smile, tail
-photo.92: https://www.instagram.com/p/CWQWneNFNnG/media/?size=m
+photo.92: ig://CWQWneNFNnG/m
 photo.92.author: miis_98
+photo.92.commitdate: 2021/11/21
 photo.92.link: https://www.instagram.com/miis_98/
 photo.92.tags: laying down, portrait, sleeping
 species: 2

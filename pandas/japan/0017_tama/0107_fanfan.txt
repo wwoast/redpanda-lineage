@@ -179,8 +179,9 @@ photo.33.author: mini_cochi
 photo.33.commitdate: 2021/10/26
 photo.33.link: https://www.instagram.com/mini_cochi/
 photo.33.tags: dish, lunch time, mofumofu, portrait
-photo.34: https://www.instagram.com/p/CWSxuFqBFP7/media/?size=m
+photo.34: ig://CWSxuFqBFP7/m
 photo.34.author: otenba_redpanda
+photo.34.commitdate: 2021/11/21
 photo.34.link: https://www.instagram.com/otenba_redpanda/
 photo.34.tags: mofumofu, paws, portrait, tail, whiskers
 species: 2

@@ -60,8 +60,9 @@ photo.9.author: rossifari
 photo.9.commitdate: 2021/4/20
 photo.9.link: https://www.instagram.com/rossifari/
 photo.9.tags: paws, portrait, profile, standing, tail
-photo.10: https://www.instagram.com/p/CWTzM2ihP8G/media/?size=m
+photo.10: ig://CWTzM2ihP8G/m
 photo.10.author: carsontheredpanda
+photo.10.commitdate: 2021/11/21
 photo.10.link: https://www.instagram.com/carsontheredpanda/
 photo.10.tags: portrait, smile, whiskers
 species: 2

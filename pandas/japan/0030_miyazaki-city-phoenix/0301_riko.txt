@@ -110,14 +110,16 @@ photo.19.author: hamiiiii831_
 photo.19.commitdate: 2021/11/15
 photo.19.link: https://www.instagram.com/hamiiiii831_/
 photo.19.tags: mofumofu, techitechi
-photo.20: https://www.instagram.com/p/CWS0YjhBpCc/media/?size=m
+photo.20: ig://CV6NP3Kh5cZ/m
 photo.20.author: phoenixzoo1971
+photo.20.commitdate: 2021/11/21
 photo.20.link: https://www.instagram.com/phoenixzoo1971/
-photo.20.tags: bamboo, close-up, mofumofu, paws, whiskers
-photo.21: https://www.instagram.com/p/CV6NP3Kh5cZ/media/?size=m
+photo.20.tags: close-up, portrait, profile, techitechi
+photo.21: ig://CWS0YjhBpCc/m
 photo.21.author: phoenixzoo1971
+photo.21.commitdate: 2021/11/21
 photo.21.link: https://www.instagram.com/phoenixzoo1971/
-photo.21.tags: close-up, portrait, profile, techitechi
+photo.21.tags: bamboo, close-up, mofumofu, paws, whiskers
 species: 2
 studbook.id: 13157
 zoo: 30
