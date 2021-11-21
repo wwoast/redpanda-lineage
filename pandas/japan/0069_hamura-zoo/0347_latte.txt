@@ -488,8 +488,9 @@ photo.95.author: kotata_513
 photo.95.commitdate: 2021/11/6
 photo.95.link: https://www.instagram.com/kotata_513/
 photo.95.tags: blink, portrait, smile
-photo.96: https://www.instagram.com/p/CWYcEk_hbMh/media/?size=m
+photo.96: ig://CWYcEk_hbMh/m
 photo.96.author: eos1089
+photo.96.commitdate: 2021/11/21
 photo.96.link: https://www.instagram.com/eos1089/
 photo.96.tags: apple time, dish, mofumofu, paws, portrait, smile
 species: 2

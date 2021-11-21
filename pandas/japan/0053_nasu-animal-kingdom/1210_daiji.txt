@@ -183,8 +183,9 @@ photo.34.author: ssc6105
 photo.34.commitdate: 2021/10/31
 photo.34.link: https://www.instagram.com/ssc6105/
 photo.34.tags: mofumofu, peek
-photo.35: https://www.instagram.com/p/CWZzuG0LD3G/media/?size=m
+photo.35: ig://CWZzuG0LD3G/m
 photo.35.author: hidehaya_biei
+photo.35.commitdate: 2021/11/21
 photo.35.link: https://www.instagram.com/hidehaya_biei/
 photo.35.tags: mofumofu, paws
 species: 2

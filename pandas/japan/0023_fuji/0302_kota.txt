@@ -280,8 +280,9 @@ photo.53.author: miis_98
 photo.53.commitdate: 2021/11/7
 photo.53.link: https://www.instagram.com/miis_98/
 photo.53.tags: paws, portrait, tree
-photo.54: https://www.instagram.com/p/CWdfqH6JMv3/media/?size=m
+photo.54: ig://CWdfqH6JMv3/m
 photo.54.author: miis_98
+photo.54.commitdate: 2021/11/21
 photo.54.link: https://www.instagram.com/miis_98/
 photo.54.tags: bamboo, paws, portrait, tongue, whiskers
 species: 2

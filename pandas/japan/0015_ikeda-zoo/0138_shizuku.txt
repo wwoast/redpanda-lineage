@@ -236,8 +236,9 @@ photo.45.author: itsuak
 photo.45.commitdate: 2021/9/18
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: laying down, portrait, sleeping
-photo.46: https://www.instagram.com/p/CWdMcNTBjM2/media/?size=m
+photo.46: ig://CWdMcNTBjM2/m
 photo.46.author: itsuak
+photo.46.commitdate: 2021/11/21
 photo.46.link: https://www.instagram.com/makimaru18/
 photo.46.tags: paws, portrait, standing, tail
 species: 2

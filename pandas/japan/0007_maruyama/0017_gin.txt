@@ -1119,12 +1119,14 @@ photo.222.author: cattail.sapporo
 photo.222.commitdate: 2021/11/11
 photo.222.link: https://www.instagram.com/cattail.sapporo/
 photo.222.tags: paws, portrait, smile, snow, tail
-photo.223: https://www.instagram.com/p/CWdDA-MlKJz/media/?size=m
+photo.223: ig://CWdDA-MlKJz/m
 photo.223.author: cattail.sapporo
+photo.223.commitdate: 2021/11/21
 photo.223.link: https://www.instagram.com/cattail.sapporo/
 photo.223.tags: apple time, paws, portrait, snow, standing, tail
-photo.224: https://www.instagram.com/p/CWfr9eVFCf7/media/?size=m
+photo.224: ig://CWfr9eVFCf7/m
 photo.224.author: cattail.sapporo
+photo.224.commitdate: 2021/11/21
 photo.224.link: https://www.instagram.com/cattail.sapporo/
 photo.224.tags: apple time, paws, portrait, standing, tail
 species: 2

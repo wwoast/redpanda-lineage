@@ -230,8 +230,9 @@ photo.43.author: itsuak
 photo.43.commitdate: 2021/11/21
 photo.43.link: https://www.instagram.com/makimaru18/
 photo.43.tags: bamboo, paws, portrait, tongue
-photo.44: https://www.instagram.com/p/CWawK0tvQyZ/media/?size=m
+photo.44: ig://CWawK0tvQyZ/m
 photo.44.author: itsuak
+photo.44.commitdate: 2021/11/21
 photo.44.link: https://www.instagram.com/itsuak/
 photo.44.tags: close-up, mofumofu, portrait
 species: 2

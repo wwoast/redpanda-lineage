@@ -58,16 +58,19 @@ photo.9.author: otenba_redpanda
 photo.9.commitdate: 2021/11/11
 photo.9.link: https://www.instagram.com/otenba_redpanda/
 photo.9.tags: baby, mofumofu, portrait
-photo.10: https://www.instagram.com/p/CWdQ4EtBVaP/media/?size=m
-photo.10.author: ifumoto88
-photo.10.link: https://www.instagram.com/ifumoto88/
-photo.10.tags: baby, bamboo, portrait, surprise, tail
-photo.11: https://www.instagram.com/p/CWZCi-eB2Ot/media/?size=m
-photo.11.author: otenba_redpanda
-photo.11.link: https://www.instagram.com/otenba_redpanda/
-photo.11.tags: baby, mofumofu, portrait, whiskers
-photo.12: https://www.instagram.com/p/CWflhE_lvUe/media/?size=m
+photo.10: ig://CWZCi-eB2Ot/m
+photo.10.author: otenba_redpanda
+photo.10.commitdate: 2021/11/21
+photo.10.link: https://www.instagram.com/otenba_redpanda/
+photo.10.tags: baby, mofumofu, portrait, whiskers
+photo.11: ig://CWdQ4EtBVaP/m
+photo.11.author: ifumoto88
+photo.11.commitdate: 2021/11/21
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: baby, bamboo, portrait, surprise, tail
+photo.12: ig://CWflhE_lvUe/m
 photo.12.author: otenba_redpanda
+photo.12.commitdate: 2021/11/21
 photo.12.link: https://www.instagram.com/otenba_redpanda/
 photo.12.tags: baby, mofumofu, portrait, tail
 species: 2

@@ -518,8 +518,9 @@ photo.101.author: redpan22
 photo.101.commitdate: 2021/10/27
 photo.101.link: https://www.instagram.com/redpan22/
 photo.101.tags: paws, standing
-photo.102: https://www.instagram.com/p/CWfpU8jBNRJ/media/?size=m
+photo.102: ig://CWfpU8jBNRJ/m
 photo.102.author: hamamatsu.chiita
+photo.102.commitdate: 2021/11/21
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
 photo.102.tags: close-up, portrait, whiskers
 species: 2

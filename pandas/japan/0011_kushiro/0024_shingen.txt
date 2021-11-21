@@ -521,14 +521,16 @@ photo.102.author: redpan22
 photo.102.commitdate: 2021/10/30
 photo.102.link: https://www.instagram.com/redpan22/
 photo.102.tags: autumn, mofumofu, tail, whiskers
-photo.103: https://www.instagram.com/p/CWahxdKhvmO/media/?size=m
-photo.103.author: minatomirai215
-photo.103.link: https://www.instagram.com/minatomirai215/
-photo.103.tags: autumn, portrait, whiskers
-photo.104: https://www.instagram.com/p/CWX9N50hu9K/media/?size=m
-photo.104.author: tama67photo
-photo.104.link: https://www.instagram.com/tama67photo/
-photo.104.tags: autumn, portrait, tongue, tree
+photo.103: ig://CWX9N50hu9K/m
+photo.103.author: tama67photo
+photo.103.commitdate: 2021/11/21
+photo.103.link: https://www.instagram.com/tama67photo/
+photo.103.tags: autumn, portrait, tongue, tree
+photo.104: ig://CWahxdKhvmO/m
+photo.104.author: minatomirai215
+photo.104.commitdate: 2021/11/21
+photo.104.link: https://www.instagram.com/minatomirai215/
+photo.104.tags: autumn, portrait, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11
