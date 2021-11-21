@@ -4,6 +4,7 @@ birthday: 2004/7/23
 birthplace: 40
 children: none
 commitdate: 2018/6/29
+death: 2021/11/17
 en.name: Ichi
 en.nicknames: none
 en.othernames: none
@@ -88,6 +89,10 @@ photo.15.author: _saaaaaaah_
 photo.15.commitdate: 2021/10/31
 photo.15.link: https://www.instagram.com/_saaaaaaah_/
 photo.15.tags: ear, old
+photo.16: https://www.instagram.com/p/CWiNucbhr7p/media/?size=m
+photo.16.author: daniele.tokyo
+photo.16.link: https://www.instagram.com/daniele.tokyo/
+photo.16.tags: ear, paws, whiskers
 species: 2
 studbook.id: 0482
 zoo: 25
