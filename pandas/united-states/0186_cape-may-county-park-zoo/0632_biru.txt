@@ -4,7 +4,7 @@ birthday: 2010/6/24
 birthplace: 146
 children: 1069, 1184
 commitdate: 2020/3/15
-death: 2020/1/1
+death: 2019/5/16
 en.name: Biru
 en.nicknames: none
 en.othernames: none
@@ -60,5 +60,4 @@ photo.8.link: https://www.instagram.com/pippin455/
 photo.8.tags: paws, peek
 species: 1
 studbook.id: 1022
-uncertainty: death exact date
 zoo: 186

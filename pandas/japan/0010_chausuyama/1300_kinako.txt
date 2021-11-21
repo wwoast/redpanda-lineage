@@ -78,5 +78,17 @@ photo.13.author: otenba_redpanda
 photo.13.commitdate: 2021/11/11
 photo.13.link: https://www.instagram.com/otenba_redpanda/
 photo.13.tags: baby, close-up, mofumofu, portrait, whiskers
+photo.14: https://www.instagram.com/p/CWe47C4lxzO/media/?size=m
+photo.14.author: otenba_redpanda
+photo.14.link: https://www.instagram.com/otenba_redpanda/
+photo.14.tags: baby, bite, mofumofu, portrait
+photo.15: https://www.instagram.com/p/CWX6ggnBNUR/media/?size=m
+photo.15.author: daniele.tokyo
+photo.15.link: https://www.instagram.com/daniele.tokyo/
+photo.15.tags: baby, close-up, mofumofu, paws
+photo.16: https://www.instagram.com/p/CWiYEwQF2CN/media/?size=m
+photo.16.author: otenba_redpanda
+photo.16.link: https://www.instagram.com/otenba_redpanda/
+photo.16.tags: baby, mofumofu, whiskers
 species: 2
 zoo: 10
