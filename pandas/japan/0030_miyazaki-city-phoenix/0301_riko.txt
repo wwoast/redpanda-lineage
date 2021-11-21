@@ -69,7 +69,7 @@ photo.11: ig://B2ZLo4MhH9h/m
 photo.11.author: miis_98
 photo.11.commitdate: 2019/9/16
 photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: apple time, dish, portrait, profile, smile
+photo.11.tags: apple time, dish, portrait, smile
 photo.12: ig://B6z7Oc-BBlE/m
 photo.12.author: re_ichimaru
 photo.12.commitdate: 2020/1/9
@@ -110,6 +110,14 @@ photo.19.author: hamiiiii831_
 photo.19.commitdate: 2021/11/15
 photo.19.link: https://www.instagram.com/hamiiiii831_/
 photo.19.tags: mofumofu, techitechi
+photo.20: https://www.instagram.com/p/CWS0YjhBpCc/media/?size=m
+photo.20.author: phoenixzoo1971
+photo.20.link: https://www.instagram.com/phoenixzoo1971/
+photo.20.tags: bamboo, close-up, mofumofu, paws, whiskers
+photo.21: https://www.instagram.com/p/CV6NP3Kh5cZ/media/?size=m
+photo.21.author: phoenixzoo1971
+photo.21.link: https://www.instagram.com/phoenixzoo1971/
+photo.21.tags: close-up, portrait, profile, techitechi
 species: 2
 studbook.id: 13157
 zoo: 30
