@@ -281,14 +281,16 @@ photo.54.author: otenba_redpanda
 photo.54.commitdate: 2021/11/6
 photo.54.link: https://www.instagram.com/otenba_redpanda/
 photo.54.tags: mofumofu, portrait, techitechi
-photo.55: https://www.instagram.com/p/CVkUEE0BHel/media/?size=m
-photo.55.author: otenba_redpanda
-photo.55.link: https://www.instagram.com/otenba_redpanda/
-photo.55.tags: apple time, dish, mofumofu, paws, portrait
-photo.56: https://www.instagram.com/p/CVfS7mMBKYO/media/?size=m
-photo.56.author: jas_forever_love
-photo.56.link: https://www.instagram.com/jas_forever_love/
-photo.56.tags: laying down, mofumofu, portrait, whiskers
+photo.55: ig://CVfS7mMBKYO/m
+photo.55.author: jas_forever_love
+photo.55.commitdate: 2021/11/20
+photo.55.link: https://www.instagram.com/jas_forever_love/
+photo.55.tags: laying down, mofumofu, portrait, whiskers
+photo.56: ig://CVkUEE0BHel/m
+photo.56.author: otenba_redpanda
+photo.56.commitdate: 2021/11/20
+photo.56.link: https://www.instagram.com/otenba_redpanda/
+photo.56.tags: apple time, dish, mofumofu, paws, portrait
 species: 2
 studbook.id: 1675
 zoo: 10

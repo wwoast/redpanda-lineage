@@ -518,15 +518,16 @@ photo.101.author: redpan22
 photo.101.commitdate: 2021/8/11
 photo.101.link: https://www.instagram.com/redpan22/
 photo.101.tags: bamboo, home, mofumofu, portrait, techitechi
-photo.102: ig://CVRF5HPhLFc/m
-photo.102.author: alto0908
-photo.102.commitdate: 2021/11/3
-photo.102.link: https://www.instagram.com/alto0908/
-photo.102.tags: close-up, home, laying down, portrait, whiskers
-photo.103: https://www.instagram.com/p/CUZrY8-BUMG/media/?size=m
-photo.103.author: pink.b22
-photo.103.link: https://www.instagram.com/pink.b22/
-photo.103.tags: portrait, smile, tongue, whiskers
+photo.102: ig://CUZrY8-BUMG/m
+photo.102.author: pink.b22
+photo.102.commitdate: 2021/11/20
+photo.102.link: https://www.instagram.com/pink.b22/
+photo.102.tags: portrait, smile, tongue, whiskers
+photo.103: ig://CVRF5HPhLFc/m
+photo.103.author: alto0908
+photo.103.commitdate: 2021/11/3
+photo.103.link: https://www.instagram.com/alto0908/
+photo.103.tags: close-up, home, laying down, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45

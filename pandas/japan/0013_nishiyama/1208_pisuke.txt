@@ -548,15 +548,16 @@ photo.107.author: hamamatsu.chiita
 photo.107.commitdate: 2021/10/30
 photo.107.link: https://www.instagram.com/hamamatsu.chiita/
 photo.107.tags: bamboo, portrait, whiskers
-photo.108: ig://CVqqwiMhA0r/m
-photo.108.author: hamamatsu.chiita
-photo.108.commitdate: 2021/11/7
-photo.108.link: https://www.instagram.com/hamamatsu.chiita/
-photo.108.tags: close-up, laying down, mofumofu, portrait
-photo.109: https://www.instagram.com/p/CVgkbGKvVnz/media/?size=m
-photo.109.author: tomo3700
-photo.109.link: https://www.instagram.com/tomo3700/
-photo.109.tags: paws, standing, toys
+photo.108: ig://CVgkbGKvVnz/m
+photo.108.author: tomo3700
+photo.108.commitdate: 2021/11/20
+photo.108.link: https://www.instagram.com/tomo3700/
+photo.108.tags: paws, standing, toys
+photo.109: ig://CVqqwiMhA0r/m
+photo.109.author: hamamatsu.chiita
+photo.109.commitdate: 2021/11/7
+photo.109.link: https://www.instagram.com/hamamatsu.chiita/
+photo.109.tags: close-up, laying down, mofumofu, portrait
 species: 2
 studbook.id: unknown
 zoo: 13

@@ -48,14 +48,15 @@ photo.7.author: wumpwoast
 photo.7.commitdate: 2021/10/9
 photo.7.link: https://www.instagram.com/wumpwoast/
 photo.7.tags: smile, whiskers
-photo.8: ig://CUvBWF6Jeyk/m
-photo.8.author: carsontheredpanda
-photo.8.commitdate: 2021/10/17
-photo.8.link: https://www.instagram.com/carsontheredpanda/
-photo.8.tags: paws, portrait, smile, tree, whiskers
-photo.9: https://www.instagram.com/p/CUpnUvIgkV7/media/?size=m
-photo.9.author: lipscer
-photo.9.link: https://www.instagram.com/lipscer/
-photo.9.tags: close-up, mofumofu, whiskers
+photo.8: ig://CUpnUvIgkV7/m
+photo.8.author: lipscer
+photo.8.commitdate: 2021/11/20
+photo.8.link: https://www.instagram.com/lipscer/
+photo.8.tags: close-up, mofumofu, whiskers
+photo.9: ig://CUvBWF6Jeyk/m
+photo.9.author: carsontheredpanda
+photo.9.commitdate: 2021/10/17
+photo.9.link: https://www.instagram.com/carsontheredpanda/
+photo.9.tags: paws, portrait, smile, tree, whiskers
 species: 2
 zoo: 43

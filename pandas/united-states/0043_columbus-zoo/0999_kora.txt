@@ -225,19 +225,20 @@ photo.42.author: rossifari
 photo.42.commitdate: 2021/10/31
 photo.42.link: https://www.instagram.com/rossifari/
 photo.42.tags: close-up, mofumofu, portrait, whiskers
-photo.43: ig://CUiaDmqrmTB/m
+photo.43: ig://CUX_AzgrpIM/m
 photo.43.author: lipscer
-photo.43.commitdate: 2021/10/31
+photo.43.commitdate: 2021/11/20
 photo.43.link: https://www.instagram.com/lipscer/
-photo.43.tags: paws, portrait, smile, tail, whiskers
-photo.44: ig://CU0TH3QrqIT/m
+photo.43.tags: portrait, whiskers
+photo.44: ig://CUiaDmqrmTB/m
 photo.44.author: lipscer
-photo.44.commitdate: 2021/11/12
+photo.44.commitdate: 2021/10/31
 photo.44.link: https://www.instagram.com/lipscer/
-photo.44.tags: door, laying down, mofumofu, smile, whiskers
-photo.45: https://www.instagram.com/p/CUX_AzgrpIM/media/?size=m
+photo.44.tags: paws, portrait, smile, tail, whiskers
+photo.45: ig://CU0TH3QrqIT/m
 photo.45.author: lipscer
+photo.45.commitdate: 2021/11/12
 photo.45.link: https://www.instagram.com/lipscer/
-photo.45.tags: portrait, whiskers
+photo.45.tags: door, laying down, mofumofu, smile, whiskers
 species: 2
 zoo: 43
