@@ -13,6 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+location.1: 144, 2018/6/30
+location.2: 133, 2019/5/1
+location.3: 127, 2021/11/16
 photo.1: ig://BxlAQE6npN5/m
 photo.1.author: sunsetzoomhk
 photo.1.commitdate: 2020/5/11
@@ -24,4 +27,6 @@ photo.2.commitdate: 2019/11/27
 photo.2.link: https://www.instagram.com/ohmygoat1/
 photo.2.tags: portrait, profile
 species: 1
-zoo: 133
+studbook.id: 1835
+uncertainty: location.2 date
+zoo: 127
