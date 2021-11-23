@@ -488,27 +488,31 @@ photo.96.author: miis_98
 photo.96.commitdate: 2021/9/13
 photo.96.link: https://www.instagram.com/miis_98/
 photo.96.tags: bridge, laying down, portrait
-photo.97: ig://CVajBeHFMxN/m
+photo.97: ig://CUGhSu8Bcqh/m
 photo.97.author: miis_98
-photo.97.commitdate: 2021/11/3
+photo.97.commitdate: 2021/11/23
 photo.97.link: https://www.instagram.com/miis_98/
-photo.97.tags: mofumofu, portrait
-photo.98: https://www.instagram.com/p/CWI6vhPJFj9/media/?size=m
-photo.98.author: miis_98
-photo.98.link: https://www.instagram.com/miis_98/
-photo.98.tags: close-up, laying down, portrait, whiskers
-photo.99: https://www.instagram.com/p/CWdFb6bBzhh/media/?size=m
-photo.99.author: ssc6105
-photo.99.link: https://www.instagram.com/ssc6105/
-photo.99.tags: bamboo, laying down, paws, portrait, tail
-photo.100: https://www.instagram.com/p/CUGhSu8Bcqh/media/?size=m
+photo.97.tags: mofumofu, paws, portrait
+photo.98: ig://CUeKr9-r-xN/m
+photo.98.author: kaoru_a358
+photo.98.commitdate: 2021/11/23
+photo.98.link: https://www.instagram.com/kaoru_a358/
+photo.98.tags: laying down, portrait, whiskers
+photo.99: ig://CVajBeHFMxN/m
+photo.99.author: miis_98
+photo.99.commitdate: 2021/11/3
+photo.99.link: https://www.instagram.com/miis_98/
+photo.99.tags: mofumofu, portrait
+photo.100: ig://CWI6vhPJFj9/m
 photo.100.author: miis_98
+photo.100.commitdate: 2021/11/23
 photo.100.link: https://www.instagram.com/miis_98/
-photo.100.tags: mofumofu, paws, portrait
-photo.101: https://www.instagram.com/p/CUeKr9-r-xN/media/?size=m
-photo.101.author: kaoru_a358
-photo.101.link: https://www.instagram.com/kaoru_a358/
-photo.101.tags: laying down, portrait, whiskers
+photo.100.tags: close-up, laying down, portrait, whiskers
+photo.101: ig://CWdFb6bBzhh/m
+photo.101.author: ssc6105
+photo.101.commitdate: 2021/11/23
+photo.101.link: https://www.instagram.com/ssc6105/
+photo.101.tags: bamboo, laying down, paws, portrait, tail
 species: 2
 studbook.id: 1693
 zoo: 57
