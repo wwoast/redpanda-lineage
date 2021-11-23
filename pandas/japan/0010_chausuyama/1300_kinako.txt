@@ -73,37 +73,40 @@ photo.12.author: redpan22
 photo.12.commitdate: 2021/11/10
 photo.12.link: https://www.instagram.com/redpan22/
 photo.12.tags: baby, keeper, paws, tail
-photo.13: ig://CWFJ4PeBQAf/m
-photo.13.author: otenba_redpanda
-photo.13.commitdate: 2021/11/11
-photo.13.link: https://www.instagram.com/otenba_redpanda/
-photo.13.tags: baby, close-up, mofumofu, portrait, whiskers
-photo.14: ig://CWX6ggnBNUR/m
-photo.14.author: daniele.tokyo
-photo.14.commitdate: 2021/11/21
-photo.14.link: https://www.instagram.com/daniele.tokyo/
-photo.14.tags: baby, close-up, mofumofu, paws
-photo.15: ig://CWe47C4lxzO/m
-photo.15.author: otenba_redpanda
-photo.15.commitdate: 2021/11/21
-photo.15.link: https://www.instagram.com/otenba_redpanda/
-photo.15.tags: baby, bite, mofumofu, portrait
-photo.16: ig://CWiYEwQF2CN/m
+photo.13: ig://CWAp4IjBCe5/m
+photo.13.author: hamiiiii831_
+photo.13.commitdate: 2021/11/23
+photo.13.link: https://www.instagram.com/hamiiiii831_/
+photo.13.tags: baby, mofumofu, paws
+photo.14: ig://CWFJ4PeBQAf/m
+photo.14.author: otenba_redpanda
+photo.14.commitdate: 2021/11/11
+photo.14.link: https://www.instagram.com/otenba_redpanda/
+photo.14.tags: baby, close-up, mofumofu, portrait, whiskers
+photo.15: ig://CWIn5n-BdzD/m
+photo.15.author: redpan22
+photo.15.commitdate: 2021/11/23
+photo.15.link: https://www.instagram.com/redpan22/
+photo.15.tags: baby, mofumofu, portrait, tail
+photo.16: ig://CWKQcUYhPSY/m
 photo.16.author: otenba_redpanda
-photo.16.commitdate: 2021/11/21
+photo.16.commitdate: 2021/11/23
 photo.16.link: https://www.instagram.com/otenba_redpanda/
-photo.16.tags: baby, mofumofu, whiskers
-photo.17: https://www.instagram.com/p/CWAp4IjBCe5/media/?size=m
-photo.17.author: hamiiiii831_
-photo.17.link: https://www.instagram.com/hamiiiii831_/
-photo.17.tags: baby, mofumofu, paws
-photo.18: https://www.instagram.com/p/CWIn5n-BdzD/media/?size=m
-photo.18.author: redpan22
-photo.18.link: https://www.instagram.com/redpan22/
-photo.18.tags: baby, mofumofu, portrait, tail
-photo.19: https://www.instagram.com/p/CWKQcUYhPSY/media/?size=m
+photo.16.tags: baby, mofumofu, portrait, tail
+photo.17: ig://CWX6ggnBNUR/m
+photo.17.author: daniele.tokyo
+photo.17.commitdate: 2021/11/21
+photo.17.link: https://www.instagram.com/daniele.tokyo/
+photo.17.tags: baby, close-up, mofumofu, paws
+photo.18: ig://CWe47C4lxzO/m
+photo.18.author: otenba_redpanda
+photo.18.commitdate: 2021/11/21
+photo.18.link: https://www.instagram.com/otenba_redpanda/
+photo.18.tags: baby, bite, mofumofu, portrait
+photo.19: ig://CWiYEwQF2CN/m
 photo.19.author: otenba_redpanda
+photo.19.commitdate: 2021/11/21
 photo.19.link: https://www.instagram.com/otenba_redpanda/
-photo.19.tags: baby, mofumofu, portrait, tail
+photo.19.tags: baby, mofumofu, whiskers
 species: 2
 zoo: 10

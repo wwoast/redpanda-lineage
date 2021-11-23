@@ -1,8 +1,10 @@
 [media]
 _id: media.43.bandit-santi
+commitdate: 2021/11/23
 panda.tags: 1185, 1186
-photo.1: https://www.instagram.com/p/CFXjYPfBr13/media/?size=l
+photo.1: ig://CFXjYPfBr13/l
 photo.1.author: yanliang_24
+photo.1.commitdate: 2021/11/23
 photo.1.link: https://www.instagram.com/yanliang_24/
 photo.1.tags: baby, siblings, twins
 photo.1.tags.1185.location: 330, 190

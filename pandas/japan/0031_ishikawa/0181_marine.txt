@@ -171,8 +171,9 @@ photo.32.author: hamamatsu.chiita
 photo.32.commitdate: 2021/11/14
 photo.32.link: https://www.instagram.com/hamamatsu.chiita/
 photo.32.tags: close-up, mofumofu, whiskers
-photo.33: https://www.instagram.com/p/CWLdGHepqwV/media/?size=m
+photo.33: ig://CWLdGHepqwV/m
 photo.33.author: fetorus_mami
+photo.33.commitdate: 2021/11/23
 photo.33.link: https://www.instagram.com/fetorus_mami/
 photo.33.tags: peek, tail
 species: 2

@@ -1,17 +1,20 @@
 [media]
 _id: media.10.anko-kinako-milk
+commitdate: 2021/11/23
 panda.tags: 247, 1300, 1301
-photo.1: https://www.instagram.com/p/CWieKzYhYIH/media/?size=l
-photo.1.author: ssc6105
-photo.1.link: https://www.instagram.com/ssc6105/
-photo.1.tags: baby, family, mofumofu, mother's day, siblings, sisters, tail, twins
-photo.1.tags.247.location: 345, 180
-photo.1.tags.1300.location: 465, 270
-photo.1.tags.1301.location: 190, 310
-photo.2: https://www.instagram.com/p/CV_lVHkBtl3/media/?size=l
-photo.2.author: otenba_redpanda
-photo.2.link: https://www.instagram.com/otenba_redpanda/
-photo.2.tags: baby, family, mofumofu, mother's day, siblings, sisters, twins
-photo.2.tags.247.location: 445, 210
-photo.2.tags.1300.location: 100, 205
-photo.2.tags.1301.location: 260, 360
+photo.1: ig://CV_lVHkBtl3/l
+photo.1.author: otenba_redpanda
+photo.1.commitdate: 2021/11/23
+photo.1.link: https://www.instagram.com/otenba_redpanda/
+photo.1.tags: baby, family, mofumofu, mother's day, siblings, sisters, twins
+photo.1.tags.247.location: 445, 210
+photo.1.tags.1300.location: 100, 205
+photo.1.tags.1301.location: 260, 360
+photo.2: ig://CWieKzYhYIH/l
+photo.2.author: ssc6105
+photo.2.commitdate: 2021/11/23
+photo.2.link: https://www.instagram.com/ssc6105/
+photo.2.tags: baby, family, mofumofu, mother's day, siblings, sisters, tail, twins
+photo.2.tags.247.location: 345, 180
+photo.2.tags.1300.location: 465, 270
+photo.2.tags.1301.location: 190, 310
