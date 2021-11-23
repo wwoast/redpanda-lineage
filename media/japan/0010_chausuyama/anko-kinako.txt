@@ -1,5 +1,5 @@
 [media]
-_id: media.10.baby-baby
+_id: media.10.anko-kinako
 commitdate: 2021/10/6
 panda.tags: 1300, 1301
 photo.1: ig://CUhZk9bBf4e/l
@@ -48,13 +48,25 @@ photo.7: ig://CVU91jvBGBS/l
 photo.7.author: daniele.tokyo
 photo.7.commitdate: 2021/10/31
 photo.7.link: https://www.instagram.com/daniele.tokyo/
-photo.7.tags: baby, laying down, mofumofu, portrait, tail
+photo.7.tags: baby, laying down, mofumofu, portrait, siblings, sisters, tail, twins
 photo.7.tags.1300.location: 180, 170
 photo.7.tags.1301.location: 340, 340
 photo.8: ig://CV-KjllsLjv/l
 photo.8.author: daniele.tokyo
 photo.8.commitdate: 2021/11/10
 photo.8.link: https://www.instagram.com/daniele.tokyo/
-photo.8.tags: baby, laying down, mofumofu, portrait, tail
+photo.8.tags: baby, laying down, mofumofu, portrait, siblings, sisters, tail, twins
 photo.8.tags.1300.location: 175, 205
 photo.8.tags.1301.location: 470, 440
+photo.9: https://www.instagram.com/p/CVfRBL7hJB0/media/?size=l
+photo.9.author: daniele.tokyo
+photo.9.link: https://www.instagram.com/daniele.tokyo/
+photo.9.tags: baby, laying down, paws, playing, portrait, siblings, sisters, tail, twins
+photo.9.tags.1300.location: 135, 290
+photo.9.tags.1301.location: 520, 375
+photo.10: https://www.instagram.com/p/CVh10Djhynl/media/?size=l
+photo.10.author: daniele.tokyo
+photo.10.link: https://www.instagram.com/daniele.tokyo/
+photo.10.tags: baby, mofumofu, siblings, sisters, twins
+photo.10.tags.1300.location: 505, 275
+photo.10.tags.1301.location: 190, 285
