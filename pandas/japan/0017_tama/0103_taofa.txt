@@ -683,8 +683,9 @@ photo.134.author: redpan22
 photo.134.commitdate: 2021/11/15
 photo.134.link: https://www.instagram.com/redpan22/
 photo.134.tags: paws, wave, whiskers
-photo.135: https://www.instagram.com/p/CWNuZk3PB3e/media/?size=m
+photo.135: ig://CWNuZk3PB3e/m
 photo.135.author: ssc6105
+photo.135.commitdate: 2021/11/23
 photo.135.link: https://www.instagram.com/ssc6105/
 photo.135.tags: paws, standing, tail
 species: 2

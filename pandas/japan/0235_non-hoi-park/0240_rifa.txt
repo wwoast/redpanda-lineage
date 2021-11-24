@@ -1736,8 +1736,9 @@ photo.346.author: run.swim.shingo
 photo.346.commitdate: 2021/11/7
 photo.346.link: https://www.instagram.com/run.swim.shingo/
 photo.346.tags: bridge, smile, whiskers
-photo.347: https://www.instagram.com/p/CWMLSX9BXR7/media/?size=m
+photo.347: ig://CWMLSX9BXR7/m
 photo.347.author: hamamatsu.chiita
+photo.347.commitdate: 2021/11/23
 photo.347.link: https://www.instagram.com/hamamatsu.chiita/
 photo.347.tags: portrait, smile, whiskers
 species: 2

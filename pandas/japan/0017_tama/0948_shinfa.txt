@@ -643,8 +643,9 @@ photo.126.author: ck.chie
 photo.126.commitdate: 2021/10/27
 photo.126.link: https://www.instagram.com/ck.chie/
 photo.126.tags: paws, smile, whiskers
-photo.127: https://www.instagram.com/p/CWPnZUkhShS/media/?size=m
+photo.127: ig://CWPnZUkhShS/m
 photo.127.author: otenba_redpanda
+photo.127.commitdate: 2021/11/23
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: portrait, smile, whiskers
 species: 2

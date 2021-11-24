@@ -389,8 +389,9 @@ photo.75.author: leonard_redmof
 photo.75.commitdate: 2021/6/23
 photo.75.link: https://www.instagram.com/leonard_redmof/
 photo.75.tags: baby, bamboo, mofumofu
-photo.76: https://www.instagram.com/p/CWOy5S-FzRZ/media/?size=m
+photo.76: ig://CWOy5S-FzRZ/m
 photo.76.author: otenba_redpanda
+photo.76.commitdate: 2021/11/23
 photo.76.link: https://www.instagram.com/otenba_redpanda/
 photo.76.tags: grooming, mofumofu, paws, wave
 species: 2
