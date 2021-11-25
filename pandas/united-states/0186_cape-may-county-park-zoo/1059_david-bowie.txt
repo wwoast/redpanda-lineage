@@ -15,7 +15,7 @@ language.order: en, jp
 litter: unknown
 location.1: 144, 2018/6/30
 location.2: 133, 2019/5/1
-location.3: 127, 2021/11/16
+location.3: 186, 2021/11/16
 photo.1: ig://BxlAQE6npN5/m
 photo.1.author: sunsetzoomhk
 photo.1.commitdate: 2020/5/11
@@ -29,4 +29,4 @@ photo.2.tags: portrait, profile
 species: 1
 studbook.id: 1835
 uncertainty: location.2 date
-zoo: 127
+zoo: 186
