@@ -254,8 +254,9 @@ photo.48.author: nathalie.elliott
 photo.48.commitdate: 2021/11/21
 photo.48.link: https://www.instagram.com/nathalie.elliott/
 photo.48.tags: paws, portrait, tail
-photo.49: https://www.instagram.com/p/CWmCXDnMS0x/media/?size=m
+photo.49: ig://CWmCXDnMS0x/m
 photo.49.author: nathalie.elliott
+photo.49.commitdate: 2021/11/24
 photo.49.link: https://www.instagram.com/nathalie.elliott/
 photo.49.tags: portrait, whiskers
 species: 1

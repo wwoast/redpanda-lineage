@@ -94,8 +94,9 @@ photo.16.author: daniele.tokyo
 photo.16.commitdate: 2021/11/21
 photo.16.link: https://www.instagram.com/daniele.tokyo/
 photo.16.tags: ear, paws, whiskers
-photo.17: https://www.instagram.com/p/CWnoK4Uhg1u/media/?size=m
+photo.17: ig://CWnoK4Uhg1u/m
 photo.17.author: takahisakaneuchi
+photo.17.commitdate: 2021/11/24
 photo.17.link: https://www.instagram.com/takahisakaneuchi/
 photo.17.tags: paws, portrait, whiskers
 species: 2

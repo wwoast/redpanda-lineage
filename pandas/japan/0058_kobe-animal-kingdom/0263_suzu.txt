@@ -344,8 +344,9 @@ photo.66.author: gloryeui
 photo.66.commitdate: 2021/11/23
 photo.66.link: https://www.instagram.com/gloryeui/
 photo.66.tags: bamboo, mofumofu, paws, portrait
-photo.67: https://www.instagram.com/p/CWqwkhIBRxq/media/?size=m
+photo.67: ig://CWqwkhIBRxq/m
 photo.67.author: minatomirai215
+photo.67.commitdate: 2021/11/24
 photo.67.link: https://www.instagram.com/minatomirai215/
 photo.67.tags: laying down, mofumofu, portrait, tail, tree
 species: 2

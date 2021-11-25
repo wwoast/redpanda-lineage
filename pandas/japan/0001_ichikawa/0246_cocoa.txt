@@ -1153,8 +1153,9 @@ photo.228.author: otenba_redpanda
 photo.228.commitdate: 2021/11/15
 photo.228.link: https://www.instagram.com/otenba_redpanda/
 photo.228.tags: portrait, smile, whiskers
-photo.229: https://www.instagram.com/p/CWmlRL9BenN/media/?size=m
+photo.229: ig://CWmlRL9BenN/m
 photo.229.author: otenba_redpanda
+photo.229.commitdate: 2021/11/24
 photo.229.link: https://www.instagram.com/otenba_redpanda/
 photo.229.tags: portrait, whiskers
 species: 2
