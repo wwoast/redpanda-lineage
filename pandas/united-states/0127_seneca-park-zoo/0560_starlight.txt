@@ -59,7 +59,7 @@ photo.9: ig://B9jeA13Jh-L/m
 photo.9.author: senecaparkzoo
 photo.9.commitdate: 2020/3/15
 photo.9.link: https://www.instagram.com/senecaparkzoo/
-photo.9.tags: apple time, portrait, profile, smile, tongue
+photo.9.tags: apple time, portrait, smile, tongue
 photo.10: ig://CAvh5P5puue/m
 photo.10.author: redpandanetwork
 photo.10.commitdate: 2020/5/31
@@ -75,6 +75,10 @@ photo.12.author: senecaparkzoo
 photo.12.commitdate: 2021/7/29
 photo.12.link: https://www.instagram.com/senecaparkzoo/
 photo.12.tags: bamboo, paws, portrait
+photo.13: https://www.instagram.com/p/Bz0WFUagism/media/?size=m
+photo.13.author: b_aimz94
+photo.13.link: https://www.instagram.com/b_aimz94/
+photo.13.tags: portrait, profile, smile, whiskers
 species: 1
 studbook.id: 1713
 zoo: 127
