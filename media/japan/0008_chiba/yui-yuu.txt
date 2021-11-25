@@ -79,8 +79,9 @@ photo.11.link: https://www.instagram.com/panda.daisuki/
 photo.11.tags: home, portrait, siblings, sisters, twins, videolink
 photo.11.tags.40.location: 250, 160
 photo.11.tags.47.location: 105, 135
-photo.12: https://www.instagram.com/p/CPTKuRjBhWj/media/?size=l
+photo.12: ig://CPTKuRjBhWj/l
 photo.12.author: panda.daisuki
+photo.12.commitdate: 2021/11/25
 photo.12.link: https://www.instagram.com/panda.daisuki/
 photo.12.tags: home, laying down, portrait, siblings, sisters, twins
 photo.12.tags.40.location: 410, 230

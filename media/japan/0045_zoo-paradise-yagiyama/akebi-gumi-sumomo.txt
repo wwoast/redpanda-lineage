@@ -26,8 +26,9 @@ photo.3.tags: bridge, family, home, mother's day, siblings, sisters, twins
 photo.3.tags.162.location: 235, 455
 photo.3.tags.1195.location: 510, 200
 photo.3.tags.1196.location: 305, 260
-photo.4: https://www.instagram.com/p/CPb4XwCBsV0/media/?size=l
+photo.4: ig://CPb4XwCBsV0/l
 photo.4.author: alto0908
+photo.4.commitdate: 2021/11/25
 photo.4.link: https://www.instagram.com/alto0908/
 photo.4.tags: door, family, siblings, sisters, twins
 photo.4.tags.162.location: 165, 260
