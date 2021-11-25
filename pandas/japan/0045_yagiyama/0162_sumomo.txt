@@ -312,40 +312,41 @@ photo.60.author: pink.b22
 photo.60.commitdate: 2020/11/18
 photo.60.link: https://www.instagram.com/pink.b22/
 photo.60.tags: paws, portrait, smile, whiskers
-photo.61: ig://CJmWjdWBlCI/m
-photo.61.author: kotume4935
-photo.61.commitdate: 2021/2/28
-photo.61.link: https://www.instagram.com/kotume4935/
-photo.61.tags: air tasting, apple time, paws, portrait, tongue
-photo.62: ig://CNHFQjvBOmU/m
-photo.62.author: hidehaya_biei
-photo.62.commitdate: 2021/4/7
-photo.62.link: https://www.instagram.com/hidehaya_biei/
-photo.62.tags: mofumofu, whiskers
-photo.63: ig://COradkIBg_l/m
+photo.61: ig://CH1BKAggAI-/m
+photo.61.author: run.swim.shingo
+photo.61.commitdate: 2021/11/25
+photo.61.link: https://www.instagram.com/run.swim.shingo/
+photo.61.tags: bamboo, bridge, tail, tongue, whiskers
+photo.62: ig://CJmWjdWBlCI/m
+photo.62.author: kotume4935
+photo.62.commitdate: 2021/2/28
+photo.62.link: https://www.instagram.com/kotume4935/
+photo.62.tags: air tasting, apple time, paws, portrait, tongue
+photo.63: ig://CNHFQjvBOmU/m
 photo.63.author: hidehaya_biei
-photo.63.commitdate: 2021/6/15
+photo.63.commitdate: 2021/4/7
 photo.63.link: https://www.instagram.com/hidehaya_biei/
-photo.63.tags: smile, whiskers
-photo.64: ig://CPViW8phVU1/m
-photo.64.author: happy_love2.15
-photo.64.commitdate: 2021/10/4
-photo.64.link: https://www.instagram.com/happy_love2.15/
-photo.64.tags: mofumofu, paws, whiskers
-photo.65: ig://CSSeOaWhAZX/m
-photo.65.author: hidehaya_biei
-photo.65.commitdate: 2021/8/10
-photo.65.link: https://www.instagram.com/hidehaya_biei/
-photo.65.tags: smile, whiskers
-photo.66: ig://CSWscmchmpT/m
-photo.66.author: alto0908
+photo.63.tags: mofumofu, whiskers
+photo.64: ig://COradkIBg_l/m
+photo.64.author: hidehaya_biei
+photo.64.commitdate: 2021/6/15
+photo.64.link: https://www.instagram.com/hidehaya_biei/
+photo.64.tags: smile, whiskers
+photo.65: ig://CPViW8phVU1/m
+photo.65.author: happy_love2.15
+photo.65.commitdate: 2021/10/4
+photo.65.link: https://www.instagram.com/happy_love2.15/
+photo.65.tags: mofumofu, paws, whiskers
+photo.66: ig://CSSeOaWhAZX/m
+photo.66.author: hidehaya_biei
 photo.66.commitdate: 2021/8/10
-photo.66.link: https://www.instagram.com/alto0908/
-photo.66.tags: bamboo, bridge, paws, portrait
-photo.67: https://www.instagram.com/p/CH1BKAggAI-/media/?size=m
-photo.67.author: run.swim.shingo
-photo.67.link: https://www.instagram.com/run.swim.shingo/
-photo.67.tags: bamboo, bridge, tail, tongue, whiskers
+photo.66.link: https://www.instagram.com/hidehaya_biei/
+photo.66.tags: smile, whiskers
+photo.67: ig://CSWscmchmpT/m
+photo.67.author: alto0908
+photo.67.commitdate: 2021/8/10
+photo.67.link: https://www.instagram.com/alto0908/
+photo.67.tags: bamboo, bridge, paws, portrait
 species: 2
 studbook.id: 14155
 video.1: https://youtu.be/GxFrwnJH4s8

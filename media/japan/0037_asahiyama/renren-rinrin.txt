@@ -86,30 +86,31 @@ photo.12.link: https://www.instagram.com/leonard_redmof/
 photo.12.tags: baby, mofumofu, portrait, siblings, tail, twins
 photo.12.tags.1189.location: 210, 130
 photo.12.tags.1190.location: 120, 165
-photo.13: ig://COK2RANhoZ8/l
-photo.13.author: mifko55
-photo.13.commitdate: 2021/5/31
-photo.13.link: https://www.instagram.com/mifko55/
-photo.13.tags: bamboo, portrait, siblings, twins
-photo.13.tags.1189.location: 155, 230
-photo.13.tags.1190.location: 480, 230
-photo.14: ig://CQs9R2ghWwT/l
-photo.14.author: jas_forever_love
-photo.14.commitdate: 2021/10/7
-photo.14.link: https://www.instagram.com/jas_forever_love/
-photo.14.tags: baby, paws, portrait, siblings, tail, twins
-photo.14.tags.1189.location: 280, 215
-photo.14.tags.1190.location: 240, 185
-photo.15: ig://CSspmeOBG8d/l
-photo.15.author: hamiiiii831_
-photo.15.commitdate: 2021/8/22
-photo.15.link: https://www.instagram.com/hamiiiii831_/
-photo.15.tags: bridge, siblings, smile, twins
-photo.15.tags.1189.location: 350, 250
-photo.15.tags.1190.location: 150, 315
-photo.16: https://www.instagram.com/p/CMuL-_VBiIs/media/?size=l
-photo.16.author: nakacchi_desu
-photo.16.link: https://www.instagram.com/nakacchi_desu/
-photo.16.tags: laying down, snow, siblings, tail, twins
-photo.16.tags.1189.location: 215, 190
-photo.16.tags.1190.location: 325, 200
+photo.13: ig://CMuL-_VBiIs/l
+photo.13.author: nakacchi_desu
+photo.13.commitdate: 2021/11/25
+photo.13.link: https://www.instagram.com/nakacchi_desu/
+photo.13.tags: laying down, snow, siblings, tail, twins
+photo.13.tags.1189.location: 215, 190
+photo.13.tags.1190.location: 325, 200
+photo.14: ig://COK2RANhoZ8/l
+photo.14.author: mifko55
+photo.14.commitdate: 2021/5/31
+photo.14.link: https://www.instagram.com/mifko55/
+photo.14.tags: bamboo, portrait, siblings, twins
+photo.14.tags.1189.location: 155, 230
+photo.14.tags.1190.location: 480, 230
+photo.15: ig://CQs9R2ghWwT/l
+photo.15.author: jas_forever_love
+photo.15.commitdate: 2021/10/7
+photo.15.link: https://www.instagram.com/jas_forever_love/
+photo.15.tags: baby, paws, portrait, siblings, tail, twins
+photo.15.tags.1189.location: 280, 215
+photo.15.tags.1190.location: 240, 185
+photo.16: ig://CSspmeOBG8d/l
+photo.16.author: hamiiiii831_
+photo.16.commitdate: 2021/8/22
+photo.16.link: https://www.instagram.com/hamiiiii831_/
+photo.16.tags: bridge, siblings, smile, twins
+photo.16.tags.1189.location: 350, 250
+photo.16.tags.1190.location: 150, 315

@@ -453,53 +453,56 @@ photo.88.author: ssc6105
 photo.88.commitdate: 2020/11/22
 photo.88.link: https://www.instagram.com/ssc6105/
 photo.88.tags: dish, whiskers
-photo.89: ig://CLzjj--BfwN/m
-photo.89.author: eos1089
-photo.89.commitdate: 2021/8/15
-photo.89.link: https://www.instagram.com/eos1089/
-photo.89.tags: bamboo, bridge, paws, whiskers
-photo.90: ig://CL4l9JWB_Ys/m
-photo.90.author: eos1089
-photo.90.commitdate: 2021/8/15
-photo.90.link: https://www.instagram.com/eos1089/
-photo.90.tags: peek, whiskers
-photo.91: ig://COvdlX0BuYY/m
+photo.89: ig://CKta7KHhNAT/m
+photo.89.author: mini_cochi
+photo.89.commitdate: 2021/11/25
+photo.89.link: https://www.instagram.com/mini_cochi/
+photo.89.tags: laying down, whiskers
+photo.90: ig://CLbpS6UhTGz/m
+photo.90.author: kotata_513
+photo.90.commitdate: 2021/11/25
+photo.90.link: https://www.instagram.com/kotata_513/
+photo.90.tags: close-up, dish, whiskers
+photo.91: ig://CLzjj--BfwN/m
 photo.91.author: eos1089
-photo.91.commitdate: 2021/6/6
+photo.91.commitdate: 2021/8/15
 photo.91.link: https://www.instagram.com/eos1089/
-photo.91.tags: bamboo, peek, portrait
-photo.92: ig://CQWAeatBiZJ/m
-photo.92.author: mini_cochi
+photo.91.tags: bamboo, bridge, paws, whiskers
+photo.92: ig://CL4l9JWB_Ys/m
+photo.92.author: eos1089
 photo.92.commitdate: 2021/8/15
-photo.92.link: https://www.instagram.com/mini_cochi/
-photo.92.tags: laying down, portrait, tongue, whiskers
-photo.93: ig://CSmhYNDB_VR/m
-photo.93.author: eos1089
-photo.93.commitdate: 2021/8/18
-photo.93.link: https://www.instagram.com/eos1089/
-photo.93.tags: close-up, laying down, portrait, whiskers
-photo.94: ig://CTA7nJIBvOh/m
-photo.94.author: otenba_redpanda
-photo.94.commitdate: 2021/10/1
-photo.94.link: https://www.instagram.com/otenba_redpanda/
-photo.94.tags: close-up, laying down, portrait, smile, tongue, whiskers
-photo.95: ig://CU-HIwxl83B/m
-photo.95.author: miis_98
-photo.95.commitdate: 2021/10/17
-photo.95.link: https://www.instagram.com/miis_98/
-photo.95.tags: bridge, laying down, portrait, window
-photo.96: https://www.instagram.com/p/CLbpS6UhTGz/media/?size=m
-photo.96.author: kotata_513
-photo.96.link: https://www.instagram.com/kotata_513/
-photo.96.tags: close-up, dish, whiskers
-photo.97: https://www.instagram.com/p/CKta7KHhNAT/media/?size=m
-photo.97.author: mini_cochi
-photo.97.link: https://www.instagram.com/mini_cochi/
-photo.97.tags: laying down, whiskers
-photo.98: https://www.instagram.com/p/CMajOkgB5G6/media/?size=m
-photo.98.author: sasapan34
-photo.98.link: https://www.instagram.com/sasapan34/
-photo.98.tags: laying down, whiskers
+photo.92.link: https://www.instagram.com/eos1089/
+photo.92.tags: peek, whiskers
+photo.93: ig://CMajOkgB5G6/m
+photo.93.author: sasapan34
+photo.93.commitdate: 2021/11/25
+photo.93.link: https://www.instagram.com/sasapan34/
+photo.93.tags: laying down, whiskers
+photo.94: ig://COvdlX0BuYY/m
+photo.94.author: eos1089
+photo.94.commitdate: 2021/6/6
+photo.94.link: https://www.instagram.com/eos1089/
+photo.94.tags: bamboo, peek, portrait
+photo.95: ig://CQWAeatBiZJ/m
+photo.95.author: mini_cochi
+photo.95.commitdate: 2021/8/15
+photo.95.link: https://www.instagram.com/mini_cochi/
+photo.95.tags: laying down, portrait, tongue, whiskers
+photo.96: ig://CSmhYNDB_VR/m
+photo.96.author: eos1089
+photo.96.commitdate: 2021/8/18
+photo.96.link: https://www.instagram.com/eos1089/
+photo.96.tags: close-up, laying down, portrait, whiskers
+photo.97: ig://CTA7nJIBvOh/m
+photo.97.author: otenba_redpanda
+photo.97.commitdate: 2021/10/1
+photo.97.link: https://www.instagram.com/otenba_redpanda/
+photo.97.tags: close-up, laying down, portrait, smile, tongue, whiskers
+photo.98: ig://CU-HIwxl83B/m
+photo.98.author: miis_98
+photo.98.commitdate: 2021/10/17
+photo.98.link: https://www.instagram.com/miis_98/
+photo.98.tags: bridge, laying down, portrait, window
 species: 2
 studbook.id: 13170
 zoo: 69

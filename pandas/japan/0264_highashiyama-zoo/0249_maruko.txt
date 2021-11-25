@@ -397,8 +397,9 @@ photo.76.author: hamamatsu.chiita
 photo.76.commitdate: 2021/10/16
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: mofumofu, portrait, whiskers
-photo.77: https://www.instagram.com/p/CWkXMfcB-vo/media/?size=m
+photo.77: ig://CWkXMfcB-vo/m
 photo.77.author: pantasanzoo1
+photo.77.commitdate: 2021/11/25
 photo.77.link: https://www.instagram.com/pantasanzoo1/
 photo.77.tags: bamboo, bite, close-up, whiskers
 species: 2

@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/grskus_tk/
 photo.2.tags: couple
 photo.2.tags.26.location: 100, 130
 photo.2.tags.27.location: 85, 170
-photo.3: https://www.instagram.com/p/CWk1I_9huvQ/media/?size=l
+photo.3: ig://CWk1I_9huvQ/l
 photo.3.author: eos1089
+photo.3.commitdate: 2021/11/25
 photo.3.link: https://www.instagram.com/eos1089/
 photo.3.tags: couple, portrait, tail
 photo.3.tags.26.location: 400, 230
