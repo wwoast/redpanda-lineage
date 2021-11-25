@@ -16,6 +16,7 @@ litter: 342
 location.1: 81, 2015/6/26
 location.2: 133, 2017/10/26
 location.3: 186, 2019/9/26
+location.4: 146, 2021/11/11
 photo.1: https://www.codaworry.com/images/rpf/benjamin-1-capemay.jpg
 photo.1.author: aimless_amos
 photo.1.commitdate: 2020/5/27
@@ -83,4 +84,4 @@ photo.13.link: https://www.instagram.com/aimless_amos/
 photo.13.tags: bite, carry, paws, portrait
 species: 1
 studbook.id: 1533
-zoo: 186
+zoo: 146
