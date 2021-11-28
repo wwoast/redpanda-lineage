@@ -322,18 +322,21 @@ photo.62.author: hamamatsu.chiita
 photo.62.commitdate: 2021/11/7
 photo.62.link: https://www.instagram.com/hamamatsu.chiita/
 photo.62.tags: close-up, portrait, whiskers
-photo.63: https://www.instagram.com/p/CWmXPfshW-k/media/?size=m
-photo.63.author: sakikukeco
-photo.63.link: https://www.instagram.com/sakikukeco/
-photo.63.tags: autumn, portrait, whiskers
-photo.64: https://www.instagram.com/p/CWm4SFlh00R/media/?size=m
-photo.64.author: minato.yokohama2130
-photo.64.link: https://www.instagram.com/minato.yokohama2130/
-photo.64.tags: autumn, portrait, tree
-photo.65: https://www.instagram.com/p/CWks6vEhYp8/media/?size=m
+photo.63: ig://CWks6vEhYp8/m
+photo.63.author: minato.yokohama2130
+photo.63.commitdate: 2021/11/27
+photo.63.link: https://www.instagram.com/minato.yokohama2130/
+photo.63.tags: autumn, paws, portrait, whiskers
+photo.64: ig://CWmXPfshW-k/m
+photo.64.author: sakikukeco
+photo.64.commitdate: 2021/11/27
+photo.64.link: https://www.instagram.com/sakikukeco/
+photo.64.tags: autumn, portrait, whiskers
+photo.65: ig://CWm4SFlh00R/m
 photo.65.author: minato.yokohama2130
+photo.65.commitdate: 2021/11/27
 photo.65.link: https://www.instagram.com/minato.yokohama2130/
-photo.65.tags: autumn, paws, portrait, whiskers
+photo.65.tags: autumn, portrait, tree
 species: 2
 studbook.id: 13143
 zoo: 13

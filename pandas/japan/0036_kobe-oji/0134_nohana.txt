@@ -932,15 +932,16 @@ photo.186.author: miis_98
 photo.186.commitdate: 2021/11/21
 photo.186.link: https://www.instagram.com/miis_98/
 photo.186.tags: close-up, portrait, whiskers
-photo.187: ig://CWnA06lBC3g/m
-photo.187.author: falcon_tenor
-photo.187.commitdate: 2021/11/24
-photo.187.link: https://www.instagram.com/falcon_tenor/
-photo.187.tags: apple time, paws, standing, tail
-photo.188: https://www.instagram.com/p/CWjpxAXhulK/media/?size=m
-photo.188.author: panda.daisuki
-photo.188.link: https://www.instagram.com/panda.daisuki/
-photo.188.tags: door, mofumofu, portrait, tail
+photo.187: ig://CWjpxAXhulK/m
+photo.187.author: panda.daisuki
+photo.187.commitdate: 2021/11/27
+photo.187.link: https://www.instagram.com/panda.daisuki/
+photo.187.tags: door, mofumofu, portrait, tail
+photo.188: ig://CWnA06lBC3g/m
+photo.188.author: falcon_tenor
+photo.188.commitdate: 2021/11/24
+photo.188.link: https://www.instagram.com/falcon_tenor/
+photo.188.tags: apple time, paws, standing, tail
 species: 2
 studbook.id: 1789
 zoo: 36

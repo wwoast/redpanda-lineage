@@ -523,8 +523,9 @@ photo.102.author: ssc6105
 photo.102.commitdate: 2021/11/15
 photo.102.link: https://www.instagram.com/ssc6105/
 photo.102.tags: whiskers
-photo.103: https://www.instagram.com/p/CWk21ELBnbC/media/?size=m
+photo.103: ig://CWk21ELBnbC/m
 photo.103.author: ck.chie
+photo.103.commitdate: 2021/11/27
 photo.103.link: https://www.instagram.com/ck.chie/
 photo.103.tags: paws, playing, tail
 species: 2

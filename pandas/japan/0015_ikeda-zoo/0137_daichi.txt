@@ -330,8 +330,9 @@ photo.63.author: itsuak
 photo.63.commitdate: 2021/11/15
 photo.63.link: https://www.instagram.com/itsuak/
 photo.63.tags: mofumofu, paws, portrait, smile, tongue
-photo.64: https://www.instagram.com/p/CWkbda0hJoU/media/?size=m
+photo.64: ig://CWkbda0hJoU/m
 photo.64.author: itsuak
+photo.64.commitdate: 2021/11/27
 photo.64.link: https://www.instagram.com/itsuak/
 photo.64.tags: laying down, mofumofu, portrait
 species: 2
