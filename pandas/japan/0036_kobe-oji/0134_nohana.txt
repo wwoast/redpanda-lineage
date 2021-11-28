@@ -927,25 +927,26 @@ photo.185.author: panda.daisuki
 photo.185.commitdate: 2021/11/7
 photo.185.link: https://www.instagram.com/panda.daisuki/
 photo.185.tags: home, paws, portrait, smile, whiskers
-photo.186: ig://CWiY_0_lKsr/m
-photo.186.author: miis_98
-photo.186.commitdate: 2021/11/21
-photo.186.link: https://www.instagram.com/miis_98/
-photo.186.tags: close-up, portrait, whiskers
-photo.187: ig://CWjpxAXhulK/m
-photo.187.author: panda.daisuki
-photo.187.commitdate: 2021/11/27
-photo.187.link: https://www.instagram.com/panda.daisuki/
-photo.187.tags: door, mofumofu, portrait, tail
-photo.188: ig://CWnA06lBC3g/m
-photo.188.author: falcon_tenor
-photo.188.commitdate: 2021/11/24
-photo.188.link: https://www.instagram.com/falcon_tenor/
-photo.188.tags: apple time, paws, standing, tail
-photo.189: https://www.instagram.com/p/CWVIkkMBAal/media/?size=m
+photo.186: ig://CWVIkkMBAal/m
+photo.186.author: falcon_tenor
+photo.186.commitdate: 2021/11/28
+photo.186.link: https://www.instagram.com/falcon_tenor/
+photo.186.tags: apple time, paws, portrait, standing, tail
+photo.187: ig://CWiY_0_lKsr/m
+photo.187.author: miis_98
+photo.187.commitdate: 2021/11/21
+photo.187.link: https://www.instagram.com/miis_98/
+photo.187.tags: close-up, portrait, whiskers
+photo.188: ig://CWjpxAXhulK/m
+photo.188.author: panda.daisuki
+photo.188.commitdate: 2021/11/27
+photo.188.link: https://www.instagram.com/panda.daisuki/
+photo.188.tags: door, mofumofu, portrait, tail
+photo.189: ig://CWnA06lBC3g/m
 photo.189.author: falcon_tenor
+photo.189.commitdate: 2021/11/24
 photo.189.link: https://www.instagram.com/falcon_tenor/
-photo.189.tags: apple time, paws, portrait, standing, tail
+photo.189.tags: apple time, paws, standing, tail
 species: 2
 studbook.id: 1789
 zoo: 36

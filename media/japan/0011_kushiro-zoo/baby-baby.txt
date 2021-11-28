@@ -1,8 +1,10 @@
 [media]
 _id: media.11.baby-baby
+commitdate: 2021/11/28
 panda.tags: 1308, 1309
-photo.1: https://www.instagram.com/p/CWnF-gErAgF/media/?size=l
+photo.1: ig://CWnF-gErAgF/l
 photo.1.author: kushirozoo
+photo.1.commitdate: 2021/11/28
 photo.1.link: https://www.instagram.com/kushirozoo/
 photo.1.tags: baby, door, portrait, siblings, twins
 photo.1.tags.1308.location: 70, 150

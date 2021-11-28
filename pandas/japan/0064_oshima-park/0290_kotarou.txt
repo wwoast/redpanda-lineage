@@ -65,8 +65,9 @@ photo.10.author: grskus_tk
 photo.10.commitdate: 2020/10/31
 photo.10.link: https://www.instagram.com/grskus_tk/
 photo.10.tags: bamboo, paws, smile
-photo.11: https://www.instagram.com/p/CWVLdXVhUeF/media/?size=m
+photo.11: ig://CWVLdXVhUeF/m
 photo.11.author: grskus_tk
+photo.11.commitdate: 2021/11/28
 photo.11.link: https://www.instagram.com/grskus_tk/
 photo.11.tags: bamboo, smile
 species: 2

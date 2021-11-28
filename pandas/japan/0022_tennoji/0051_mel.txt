@@ -498,8 +498,9 @@ photo.97.author: gloryeui
 photo.97.commitdate: 2021/11/15
 photo.97.link: https://www.instagram.com/gloryeui/
 photo.97.tags: ear, peek, portrait
-photo.98: https://www.instagram.com/p/CWX_XOShBen/media/?size=m
+photo.98: ig://CWX_XOShBen/m
 photo.98.author: makimaru18
+photo.98.commitdate: 2021/11/28
 photo.98.link: https://www.instagram.com/makimaru18/
 photo.98.tags: bite, climb, paws, portrait, tail, tree
 species: 2

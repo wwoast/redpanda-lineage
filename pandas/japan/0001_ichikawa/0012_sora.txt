@@ -725,26 +725,31 @@ photo.143.author: firefoxpanda88
 photo.143.commitdate: 2021/11/10
 photo.143.link: https://www.instagram.com/firefoxpanda88/
 photo.143.tags: portrait, smile
-photo.144: https://www.instagram.com/p/CWhODfIhrt5/media/?size=m
-photo.144.author: ifumoto88
-photo.144.link: https://www.instagram.com/ifumoto88/
-photo.144.tags: autumn, portrait, tree
-photo.145: https://www.instagram.com/p/CWf2oB5hwwK/media/?size=m
+photo.144: ig://CWYOAVThkG4/m
+photo.144.author: alto0908
+photo.144.commitdate: 2021/11/28
+photo.144.link: https://www.instagram.com/alto0908/
+photo.144.tags: autumn, peek, tree
+photo.145: ig://CWf2oB5hwwK/m
 photo.145.author: redpan22
+photo.145.commitdate: 2021/11/28
 photo.145.link: https://www.instagram.com/redpan22/
 photo.145.tags: autumn, close-up, paws, tree, whiskers
-photo.146: https://www.instagram.com/p/CWg_LNZvg_A/media/?size=m
+photo.146: ig://CWg_LNZvg_A/m
 photo.146.author: otenba_redpanda
+photo.146.commitdate: 2021/11/28
 photo.146.link: https://www.instagram.com/otenba_redpanda/
 photo.146.tags: autumn, laying down, paws, portrait, tree
-photo.147: https://www.instagram.com/p/CWmpdC_B-0H/media/?size=m
+photo.147: ig://CWhODfIhrt5/m
 photo.147.author: ifumoto88
+photo.147.commitdate: 2021/11/28
 photo.147.link: https://www.instagram.com/ifumoto88/
-photo.147.tags: autumn, paws, portrait, tree
-photo.148: https://www.instagram.com/p/CWYOAVThkG4/media/?size=m
-photo.148.author: alto0908
-photo.148.link: https://www.instagram.com/alto0908/
-photo.148.tags: autumn, peek, tree
+photo.147.tags: autumn, portrait, tree
+photo.148: ig://CWmpdC_B-0H/m
+photo.148.author: ifumoto88
+photo.148.commitdate: 2021/11/28
+photo.148.link: https://www.instagram.com/ifumoto88/
+photo.148.tags: autumn, paws, portrait, tree
 species: 2
 studbook.id: 0872
 zoo: 1

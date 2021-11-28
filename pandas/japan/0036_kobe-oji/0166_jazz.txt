@@ -1194,23 +1194,26 @@ photo.237.author: tomo3700
 photo.237.commitdate: 2021/11/23
 photo.237.link: https://www.instagram.com/tomo3700/
 photo.237.tags: flowers, portrait, smile, whiskers
-photo.238: ig://CWmK2WoBaGN/m
-photo.238.author: panda.daisuki
-photo.238.commitdate: 2021/11/25
-photo.238.link: https://www.instagram.com/panda.daisuki/
-photo.238.tags: close-up, mofumofu, smile, whiskers
-photo.239: https://www.instagram.com/p/CWgD9nGhIc0/media/?size=m
+photo.238: ig://CWX-17UhRip/m
+photo.238.author: nishicotolo
+photo.238.commitdate: 2021/11/28
+photo.238.link: https://www.instagram.com/nishicotolo/
+photo.238.tags: paws, smile, tree, whiskers
+photo.239: ig://CWYdI6gh2q7/m
 photo.239.author: panda.daisuki
+photo.239.commitdate: 2021/11/28
 photo.239.link: https://www.instagram.com/panda.daisuki/
-photo.239.tags: mofumofu, paws, portrait, tail, tree
-photo.240: https://www.instagram.com/p/CWX-17UhRip/media/?size=m
-photo.240.author: nishicotolo
-photo.240.link: https://www.instagram.com/nishicotolo/
-photo.240.tags: paws, smile, tree, whiskers
-photo.241: https://www.instagram.com/p/CWYdI6gh2q7/media/?size=m
+photo.239.tags: tail, tree, whiskers
+photo.240: ig://CWgD9nGhIc0/m
+photo.240.author: panda.daisuki
+photo.240.commitdate: 2021/11/28
+photo.240.link: https://www.instagram.com/panda.daisuki/
+photo.240.tags: mofumofu, paws, portrait, tail, tree
+photo.241: ig://CWmK2WoBaGN/m
 photo.241.author: panda.daisuki
+photo.241.commitdate: 2021/11/25
 photo.241.link: https://www.instagram.com/panda.daisuki/
-photo.241.tags: tail, tree, whiskers
+photo.241.tags: close-up, mofumofu, smile, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

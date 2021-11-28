@@ -45,8 +45,9 @@ photo.6.author: lincolnchildrenszoo
 photo.6.commitdate: 2021/6/22
 photo.6.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.6.tags: paws, portrait
-photo.7: https://www.instagram.com/p/CT9sIHDtCKo/media/?size=m
+photo.7: ig://CT9sIHDtCKo/m
 photo.7.author: lincolnchildrenszoo
+photo.7.commitdate: 2021/11/28
 photo.7.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.7.tags: portrait, tail
 species: 1
