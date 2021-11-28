@@ -7,13 +7,13 @@ cn.name: 神迷
 cn.nicknames: none
 cn.othernames: 咪咪
 commitdate: 2021/8/9
-en.name: Shenmi
+en.name: Mimi
 en.nicknames: none
-en.othernames: Mimi, Shen-Mi, Miimii, Mii-Mii
+en.othernames: Shenmi, Shen-Mi, Miimii, Mii-Mii
 gender: f
-jp.name: シェンミ
+jp.name: ミーミー
 jp.nicknames: none
-jp.othernames: ミーミー
+jp.othernames: シェンミ
 language.order: cn, en, jp
 litter: none
 photo.1: ig://CSMLTIDtFgf/m
