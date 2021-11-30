@@ -93,7 +93,7 @@ photo.16.commitdate: 2018/12/6
 photo.16.link: https://www.instagram.com/yakko____/
 photo.16.tags: tree
 photo.17: ig://BqpG0uHFgEf/m
-photo.17.author: nishitocolo
+photo.17.author: nishicotolo
 photo.17.commitdate: 2018/11/26
 photo.17.link: https://www.instagram.com/nishicotolo/
 photo.18: ig://BrgOoeAF-US/m
@@ -332,6 +332,10 @@ photo.65.author: jas_forever_love
 photo.65.commitdate: 2021/11/21
 photo.65.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.65.tags: mofumofu, paws, portrait
+photo.66: https://www.instagram.com/p/CWdLLC4BONp/media/?size=m
+photo.66.author: nishicotolo
+photo.66.link: https://www.instagram.com/nishicotolo/
+photo.66.tags: mofumofu, paws, whiskers
 species: 2
 video.1: https://youtu.be/TUNBGBRlvvg
 video.1.author: mmovies21
