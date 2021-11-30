@@ -668,8 +668,9 @@ photo.131.author: hamamatsu.chiita
 photo.131.commitdate: 2021/8/18
 photo.131.link: https://www.instagram.com/hamamatsu.chiita/
 photo.131.tags: apple time, close-up, portrait, whiskers
-photo.132: https://www.instagram.com/p/CWdIQ_IF8O-/media/?size=m
+photo.132: ig://CWdIQ_IF8O-/m
 photo.132.author: gloryeui
+photo.132.commitdate: 2021/11/29
 photo.132.link: https://www.instagram.com/gloryeui/
 photo.132.tags: apple time, paws, portrait, tongue
 species: 2

@@ -1204,28 +1204,31 @@ photo.239.author: panda.daisuki
 photo.239.commitdate: 2021/11/28
 photo.239.link: https://www.instagram.com/panda.daisuki/
 photo.239.tags: tail, tree, whiskers
-photo.240: ig://CWgD9nGhIc0/m
-photo.240.author: panda.daisuki
-photo.240.commitdate: 2021/11/28
-photo.240.link: https://www.instagram.com/panda.daisuki/
-photo.240.tags: mofumofu, paws, portrait, tail, tree
-photo.241: ig://CWmK2WoBaGN/m
-photo.241.author: panda.daisuki
-photo.241.commitdate: 2021/11/25
-photo.241.link: https://www.instagram.com/panda.daisuki/
-photo.241.tags: close-up, mofumofu, smile, whiskers
-photo.242: https://www.instagram.com/p/CWedpdtBcte/media/?size=m
+photo.240: ig://CWc0N4YBeQf/m
+photo.240.author: falcon_tenor
+photo.240.commitdate: 2021/11/29
+photo.240.link: https://www.instagram.com/falcon_tenor/
+photo.240.tags: flowers, portrait, smile, whiskers
+photo.241: ig://CWdD62MBJ9K/m
+photo.241.author: imagoto17
+photo.241.commitdate: 2021/11/29
+photo.241.link: https://www.instagram.com/imagoto17/
+photo.241.tags: apple time, paws, peek, tree
+photo.242: ig://CWedpdtBcte/m
 photo.242.author: miis_98
+photo.242.commitdate: 2021/11/29
 photo.242.link: https://www.instagram.com/miis_98/
 photo.242.tags: portrait, smile, tree
-photo.243: https://www.instagram.com/p/CWc0N4YBeQf/media/?size=m
-photo.243.author: falcon_tenor
-photo.243.link: https://www.instagram.com/falcon_tenor/
-photo.243.tags: flowers, portrait, smile, whiskers
-photo.244: https://www.instagram.com/p/CWdD62MBJ9K/media/?size=m
-photo.244.author: imagoto17
-photo.244.link: https://www.instagram.com/imagoto17/
-photo.244.tags: apple time, paws, peek, tree
+photo.243: ig://CWgD9nGhIc0/m
+photo.243.author: panda.daisuki
+photo.243.commitdate: 2021/11/28
+photo.243.link: https://www.instagram.com/panda.daisuki/
+photo.243.tags: mofumofu, paws, portrait, tail, tree
+photo.244: ig://CWmK2WoBaGN/m
+photo.244.author: panda.daisuki
+photo.244.commitdate: 2021/11/25
+photo.244.link: https://www.instagram.com/panda.daisuki/
+photo.244.tags: close-up, mofumofu, smile, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

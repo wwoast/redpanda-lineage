@@ -722,14 +722,15 @@ photo.142.author: ssc6105
 photo.142.commitdate: 2021/11/15
 photo.142.link: https://www.instagram.com/ssc6105/
 photo.142.tags: bamboo, smile, whiskers
-photo.143: ig://CWlRPP3B-No/m
-photo.143.author: alto0908
-photo.143.commitdate: 2021/11/27
-photo.143.link: https://www.instagram.com/alto0908/
-photo.143.tags: peek, portrait, techitechi, whiskers
-photo.144: https://www.instagram.com/p/CWa2FDVhask/media/?size=m
-photo.144.author: redpan22
-photo.144.link: https://www.instagram.com/redpan22/
-photo.144.tags: paws, standing, tail, whiskers
+photo.143: ig://CWa2FDVhask/m
+photo.143.author: redpan22
+photo.143.commitdate: 2021/11/29
+photo.143.link: https://www.instagram.com/redpan22/
+photo.143.tags: paws, standing, tail, whiskers
+photo.144: ig://CWlRPP3B-No/m
+photo.144.author: alto0908
+photo.144.commitdate: 2021/11/27
+photo.144.link: https://www.instagram.com/alto0908/
+photo.144.tags: peek, portrait, techitechi, whiskers
 species: 2
 zoo: 17

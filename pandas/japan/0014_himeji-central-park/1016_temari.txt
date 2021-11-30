@@ -812,8 +812,9 @@ photo.160.author: miis_98
 photo.160.commitdate: 2021/11/28
 photo.160.link: https://www.instagram.com/miis_98/
 photo.160.tags: laying down, paws, portrait, whiskers
-photo.161: https://www.instagram.com/p/CWc-u1SBRKH/media/?size=m
+photo.161: ig://CWc-u1SBRKH/m
 photo.161.author: colette.jp
+photo.161.commitdate: 2021/11/29
 photo.161.link: https://www.instagram.com/colette.jp/
 photo.161.tags: portrait, smile, tongue, whiskers
 species: 2

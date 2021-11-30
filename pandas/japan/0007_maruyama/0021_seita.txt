@@ -1035,8 +1035,9 @@ photo.205.author: cattail.sapporo
 photo.205.commitdate: 2021/11/15
 photo.205.link: https://www.instagram.com/cattail.sapporo/
 photo.205.tags: dish, lunch time, portrait, smile, whiskers
-photo.206: https://www.instagram.com/p/CWbfo_qh_zu/media/?size=m
+photo.206: ig://CWbfo_qh_zu/m
 photo.206.author: mari_neko3
+photo.206.commitdate: 2021/11/29
 photo.206.link: https://www.instagram.com/mari_neko3/
 photo.206.tags: mofumofu, portrait, whiskers
 species: 2

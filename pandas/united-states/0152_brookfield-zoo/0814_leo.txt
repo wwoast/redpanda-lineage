@@ -37,8 +37,9 @@ photo.4.author: brookfieldzoo
 photo.4.commitdate: 2021/5/28
 photo.4.link: https://www.instagram.com/brookfieldzoo/
 photo.4.tags: peek
-photo.5: https://www.instagram.com/p/CWgrFd5P0JM/media/?size=m
+photo.5: ig://CWgrFd5P0JM/m
 photo.5.author: Kim Pruim
+photo.5.commitdate: 2021/11/29
 photo.5.link: https://www.instagram.com/zoogirl22/
 photo.5.tags: portrait, whiskers
 species: 1
