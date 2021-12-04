@@ -1,0 +1,16 @@
+[zoo]
+_id: 294
+commitdate: 2021/12/3
+de.address: Riehler Str. 173, 50735 Köln, Germany
+de.location: Köln, Deutschland
+de.name: Kölner Zoo
+en.address: Riehler Str. 173, 50735 Cologne, Germany
+en.location: Cologne, Germany
+en.name: Cologne Zoological Garden
+en.othernames: Koelner Zoo
+flag: Germany
+language.order: de, en
+latitude: 50.9597901
+longitude: 6.9717619
+map: https://goo.gl/maps/9v8LQTCipUadTzrm8
+website: https://www.koelnerzoo.de/

@@ -1,0 +1,15 @@
+[zoo]
+_id: 296
+commitdate: 2021/12/3
+de.address: Pfaffendorfer Str. 29, 04105 Leipzig, Germany
+de.location: Leipzing, Deutschland
+de.name: Zoo Leipzig
+en.address: Pfaffendorfer Str. 29, 04105 Leipzig, Germany
+en.location: Leipzig, Germany
+en.name: Zoo Leipzig
+flag: Germany
+language.order: de, en
+latitude: 51.3484866
+longitude: 12.3687819
+map: https://goo.gl/maps/1GfoNBBE3ahcoeXR7
+website: https://www.zoo-leipzig.de/

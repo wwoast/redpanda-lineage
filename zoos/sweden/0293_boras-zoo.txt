@@ -1,0 +1,13 @@
+[zoo]
+_id: 293
+commitdate: 2021/12/3
+en.address: Alidelundsgatan 11, 506 31 Borås, Sweden
+en.location: Borås, Sweden
+en.name: Borås Zoo
+en.othernames: Boras Zoo
+flag: Sweden
+language.order: en
+latitude: 57.740822
+longitude: 12.9392933
+map: https://goo.gl/maps/1CpcMfGdLCVqyE3f6
+website: https://www.borasdjurpark.se/
