@@ -8,11 +8,11 @@ en.address: unknown
 en.location: Wujin, Jiangsu, China
 en.name: Yancheng Wild Animal World
 flag: China
-jp.address: unknown 
+jp.address: unknown
 jp.location: Wujin, Jiangsu, China
 jp.name: Yancheng Wild Animal World
 language.order: cn, jp, en
-latitude: 31.699325 
+latitude: 31.699325
 longitude: 119.9261083
 map: https://goo.gl/maps/S7jZZrRv4qMqv4dq7
 website: https://www.yczoo.com/

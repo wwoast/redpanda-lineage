@@ -5,10 +5,10 @@ cn.location: 碧峰峡镇雨城雅安四川省中国
 cn.name: 碧峰峡野生动物世界
 commitdate: 2021/12/2
 en.address: unknown
-en.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China 
+en.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
 en.name: Bifengxia Wildlife Park
 flag: China
-jp.address: unknown 
+jp.address: unknown
 jp.location: Bifengxia Scenic Area, Yucheng District, Ya'an, Sichuan, China
 jp.name: Bifengxia Wildlife Park
 language.order: cn, jp, en
