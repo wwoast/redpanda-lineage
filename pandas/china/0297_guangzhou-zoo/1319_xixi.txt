@@ -1,0 +1,48 @@
+[panda]
+_id: 1319
+birthday: 2020/6/23
+birthplace: 297
+children: unknown
+cn.name: 晞晞
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2021/12/3
+en.name: XiXi
+en.nicknames: none
+en.othernames: Xi-Xi
+gender: f
+jp.name: シシ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/CW8Gxq9sB8k/media/?size=m
+photo.1.author: manmanko2
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: close-up, mofumofu, paws, whiskers
+photo.2: https://www.instagram.com/p/CW1r98ev2wZ/media/?size=m
+photo.2.author: manmanko2
+photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.tags: mofumofu, portrait, profile, whiskers
+photo.3: https://www.instagram.com/p/CUe_RQdBrnE/media/?size=m
+photo.3.author: manmanko2
+photo.3.link: https://www.instagram.com/manmanko2/
+photo.3.tags: friends, lunch time, tongue
+photo.4: https://www.instagram.com/p/CQbcdR2LkXB/media/?size=m
+photo.4.author: manmanko2
+photo.4.link: https://www.instagram.com/manmanko2/
+photo.4.tags: baby, home, laying down, mofumofu, paws, portrait, videolink
+photo.5: https://www.instagram.com/p/CL6pT0RBBcw/media/?size=m
+photo.5.author: manmanko2
+photo.5.link: https://www.instagram.com/manmanko2/
+photo.5.tags: baby, flowers, portrait, standing, tail
+photo.6: https://www.instagram.com/p/CKT0crchng_/media/?size=m
+photo.6.author: manmanko2
+photo.6.link: https://www.instagram.com/manmanko2/
+photo.6.tags: baby, mofumofu, portrait, tail, tree, whiskers
+photo.7: https://www.instagram.com/p/CKBBsIPhBYA/media/?size=m
+photo.7.author: manmanko2
+photo.7.link: https://www.instagram.com/manmanko2/
+photo.7.tags: baby, peek, portrait, tail
+species: 2
+zoo: 297
