@@ -251,8 +251,9 @@ photo.48.author: ssc6105
 photo.48.commitdate: 2021/11/15
 photo.48.link: https://www.instagram.com/ssc6105/
 photo.48.tags: paws, whiskers
-photo.49: https://www.instagram.com/p/CWou_M9B8Qg/media/?size=m
+photo.49: ig://CWou_M9B8Qg/m
 photo.49.author: otenba_redpanda
+photo.49.commitdate: 2021/12/6
 photo.49.link: https://www.instagram.com/otenba_redpanda/
 photo.49.tags: paws, portrait, tail
 species: 2

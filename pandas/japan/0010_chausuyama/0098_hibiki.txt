@@ -396,8 +396,9 @@ photo.79.author: ck.chie
 photo.79.commitdate: 2021/11/20
 photo.79.link: https://www.instagram.com/ck.chie/
 photo.79.tags: paws, smile, tail, tree, whiskers
-photo.80: https://www.instagram.com/p/CWmIkz6huvV/media/?size=m
+photo.80: ig://CWmIkz6huvV/m
 photo.80.author: ssc6105
+photo.80.commitdate: 2021/12/6
 photo.80.link: https://www.instagram.com/ssc6105/
 photo.80.tags: laying down, peek, tree
 species: 2
