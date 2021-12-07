@@ -302,8 +302,8 @@ Page.home.render = function() {
     // var departed = Gallery.memorialPhotoCredits(L.display, ["156"], 3, Message.memorial);
     // new_content.appendChild(departed);
     // Please remember these pandas
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["79"], 5, Message.missing_you);
-    new_content.appendChild(memorial);
+    // var memorial = Gallery.memorialPhotoCredits(L.display, ["79"], 5, Message.missing_you);
+    // new_content.appendChild(memorial);
     // Birthday logic
     var min_photo_count = 3;
     var max_birthday_animals = 5;
