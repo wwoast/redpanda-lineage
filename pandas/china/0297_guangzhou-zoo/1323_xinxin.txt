@@ -1,0 +1,28 @@
+[panda]
+_id: 1323
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 欣欣
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2021/12/6
+en.name: Xin-Xin
+en.nicknames: none
+en.othernames: Shin-Shin, Shinshin, Xinxin
+gender: f
+jp.name: シンシン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/CRElbvgBvGl/media/?size=m
+photo.1.author: manmanko2
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: smile, tail, whiskers
+photo.2: https://www.instagram.com/p/CQ_aI3VBguH/media/?size=m
+photo.2.author: manmanko2
+photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.tags: home, portrait, profile, tongue, whiskers
+species: 2
+zoo: 297

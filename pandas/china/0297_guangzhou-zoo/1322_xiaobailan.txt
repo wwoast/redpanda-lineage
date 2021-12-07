@@ -1,0 +1,48 @@
+[panda]
+_id: 1322
+birthday: unknown
+birthplace: unknown
+children: 1319
+cn.name: 小白脸
+cn.nicknames: 小白, 董事长, 白女士, 咪咪
+cn.othernames: none
+commitdate: 2021/12/6
+en.name: Xiao-Bai-Lan
+en.nicknames: Xiao-Bai, Chairman, Lady Bai, Mimi
+en.othernames: Xiaobailan, Xiaobai
+gender: f
+jp.name: シャオバイラン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/CPUn5Cwhh4z/media/?size=m
+photo.1.author: manmanko2
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: bite, ice treat, lunch time
+photo.2: https://www.instagram.com/p/CPLeo5cBCWV/media/?size=m
+photo.2.author: manmanko2
+photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.tags: ice treat, lunch time, portrait, tongue
+photo.3: https://www.instagram.com/p/CMxDDlpBbZS/media/?size=m
+photo.3.author: manmanko2
+photo.3.link: https://www.instagram.com/manmanko2/
+photo.3.tags: close-up, portrait, profile, whiskers
+photo.4: https://www.instagram.com/p/CL1PjYaBhys/media/?size=m
+photo.4.author: manmanko2
+photo.4.link: https://www.instagram.com/manmanko2/
+photo.4.tags: paws, whiskers
+photo.5: https://www.instagram.com/p/CJlRXgOh0Ol/media/?size=m
+photo.5.author: manmanko2
+photo.5.link: https://www.instagram.com/manmanko2/
+photo.5.tags: portrait, smile
+photo.6: https://www.instagram.com/p/CI-iFPGBBWh/media/?size=m
+photo.6.author: manmanko2
+photo.6.link: https://www.instagram.com/manmanko2/
+photo.6.tags: close-up, portrait, smile, tongue, whiskers
+photo.7: https://www.instagram.com/p/CC_Iqvclv3m/media/?size=m
+photo.7.author: manmanko2
+photo.7.link: https://www.instagram.com/manmanko2/
+photo.7.tags: portrait, smile, wink
+species: 2
+zoo: 297
