@@ -1,0 +1,28 @@
+[panda]
+_id: 1327
+birthday: 2019/7/1
+birthplace: 297
+children: unknown
+cn.name: 包包
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2021/12/8
+en.name: Bao-Bao
+en.nicknames: none
+en.othernames: Baobao
+gender: m
+jp.name: バオバオ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/CHzPioEhxiV/media/?size=m
+photo.1.author: manmanko2
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: paws, standing, whiskers
+photo.2: https://www.instagram.com/p/CDGx4QllsEJ/media/?size=m
+photo.2.author: manmanko2
+photo.2.link: https://www.instagram.com/manmanko2/
+photo.2.tags: paws, portrait, profile, smile, standing, tail
+species: 2
+zoo: 297
