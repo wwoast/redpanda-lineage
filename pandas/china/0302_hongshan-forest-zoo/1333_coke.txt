@@ -1,0 +1,24 @@
+[panda]
+_id: 1333
+birthday: unknown
+birthplace: unknown
+children: unknown
+cn.name: 可乐
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2021/12/8
+en.name: Coke
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: コーケ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: unknown
+photo.1: https://www.instagram.com/p/CHxnaw7hrKl/media/?size=m
+photo.1.author: manmanko2
+photo.1.link: https://www.instagram.com/manmanko2/
+photo.1.tags: bamboo, portrait, profile
+species: 2
+zoo: 301
