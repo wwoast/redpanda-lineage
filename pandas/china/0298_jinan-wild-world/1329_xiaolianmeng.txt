@@ -16,8 +16,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
 litter: unknown
-photo.1: https://www.instagram.com/p/CVLRgWmIzBc/media/?size=m
+photo.1: ig://CVLRgWmIzBc/m
 photo.1.author: manmanko2
+photo.1.commitdate: 2021/12/8
 photo.1.link: https://www.instagram.com/manmanko2/
 photo.1.tags: whiskers
 species: 2
