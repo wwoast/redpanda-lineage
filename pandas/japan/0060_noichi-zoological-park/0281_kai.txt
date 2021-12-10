@@ -105,8 +105,9 @@ photo.18.author: noichizoo.1
 photo.18.commitdate: 2021/9/6
 photo.18.link: https://www.instagram.com/noichizoo.1/
 photo.18.tags: bamboo, paws, peek, portrait, smile
-photo.19: https://www.instagram.com/p/CWAwTq8lR8t/media/?size=m
+photo.19: ig://CWAwTq8lR8t/m
 photo.19.author: love__mitarashi
+photo.19.commitdate: 2021/12/9
 photo.19.link: https://www.instagram.com/love__mitarashi/
 photo.19.tags: peek, tail, whiskers
 species: 2

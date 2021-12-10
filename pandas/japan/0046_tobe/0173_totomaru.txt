@@ -448,8 +448,9 @@ photo.88.author: itsuak
 photo.88.commitdate: 2021/11/4
 photo.88.link: https://www.instagram.com/itsuak/
 photo.88.tags: close-up, home, laying down, paws, portrait
-photo.89: https://www.instagram.com/p/CWA8AFZPOTk/media/?size=m
+photo.89: ig://CWA8AFZPOTk/m
 photo.89.author: itsuak
+photo.89.commitdate: 2021/12/9
 photo.89.link: https://www.instagram.com/itsuak/
 photo.89.tags: bear worm, laying down, paws, peek, tail, whiskers
 species: 2

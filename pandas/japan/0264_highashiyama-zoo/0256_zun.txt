@@ -923,25 +923,26 @@ photo.183.author: kotata_513
 photo.183.commitdate: 2021/11/3
 photo.183.link: https://www.instagram.com/kotata_513/
 photo.183.tags: bamboo, bite, paws, smile
-photo.184: ig://CWP5Spjhvov/m
-photo.184.author: hamamatsu.chiita
-photo.184.commitdate: 2021/11/23
-photo.184.link: https://www.instagram.com/hamamatsu.chiita/
-photo.184.tags: close-up, mofumofu, portrait, techitechi, whiskers
-photo.185: ig://CWnkOP-hF7z/m
-photo.185.author: kotata_513
-photo.185.commitdate: 2021/12/6
-photo.185.link: https://www.instagram.com/kotata_513/
-photo.185.tags: close-up, flowers, portrait, techitechi, whiskers
-photo.186: ig://CWodFfjhSow/m
-photo.186.author: hamamatsu.chiita
+photo.184: ig://CWA9wb3BeQd/m
+photo.184.author: kotata_513
+photo.184.commitdate: 2021/12/9
+photo.184.link: https://www.instagram.com/kotata_513/
+photo.184.tags: bridge, laying down, peek, smile, whiskers
+photo.185: ig://CWP5Spjhvov/m
+photo.185.author: hamamatsu.chiita
+photo.185.commitdate: 2021/11/23
+photo.185.link: https://www.instagram.com/hamamatsu.chiita/
+photo.185.tags: close-up, mofumofu, portrait, techitechi, whiskers
+photo.186: ig://CWnkOP-hF7z/m
+photo.186.author: kotata_513
 photo.186.commitdate: 2021/12/6
-photo.186.link: https://www.instagram.com/hamamatsu.chiita/
-photo.186.tags: close-up, flowers, portrait, whiskers
-photo.187: https://www.instagram.com/p/CWA9wb3BeQd/media/?size=m
-photo.187.author: kotata_513
-photo.187.link: https://www.instagram.com/kotata_513/
-photo.187.tags: bridge, laying down, peek, smile, whiskers
+photo.186.link: https://www.instagram.com/kotata_513/
+photo.186.tags: close-up, flowers, portrait, techitechi, whiskers
+photo.187: ig://CWodFfjhSow/m
+photo.187.author: hamamatsu.chiita
+photo.187.commitdate: 2021/12/6
+photo.187.link: https://www.instagram.com/hamamatsu.chiita/
+photo.187.tags: close-up, flowers, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

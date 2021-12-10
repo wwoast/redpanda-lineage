@@ -488,15 +488,16 @@ photo.95.author: kotata_513
 photo.95.commitdate: 2021/11/6
 photo.95.link: https://www.instagram.com/kotata_513/
 photo.95.tags: blink, portrait, smile
-photo.96: ig://CWYcEk_hbMh/m
-photo.96.author: eos1089
-photo.96.commitdate: 2021/11/21
-photo.96.link: https://www.instagram.com/eos1089/
-photo.96.tags: apple time, dish, mofumofu, paws, portrait, smile
-photo.97: https://www.instagram.com/p/CWAnoBpB9uQ/media/?size=m
-photo.97.author: ssc6105
-photo.97.link: https://www.instagram.com/ssc6105/
-photo.97.tags: paws, smile, whiskers
+photo.96: ig://CWAnoBpB9uQ/m
+photo.96.author: ssc6105
+photo.96.commitdate: 2021/12/9
+photo.96.link: https://www.instagram.com/ssc6105/
+photo.96.tags: paws, smile, whiskers
+photo.97: ig://CWYcEk_hbMh/m
+photo.97.author: eos1089
+photo.97.commitdate: 2021/11/21
+photo.97.link: https://www.instagram.com/eos1089/
+photo.97.tags: apple time, dish, mofumofu, paws, portrait, smile
 species: 2
 studbook.id: 13140
 zoo: 69

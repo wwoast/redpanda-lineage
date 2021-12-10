@@ -660,8 +660,9 @@ photo.132.author: makimaru18
 photo.132.commitdate: 2021/11/15
 photo.132.link: https://www.instagram.com/makimaru18/
 photo.132.tags: portrait, whiskers
-photo.133: https://www.instagram.com/p/CWA3D68B6mw/media/?size=m
+photo.133: ig://CWA3D68B6mw/m
 photo.133.author: makimaru18
+photo.133.commitdate: 2021/12/9
 photo.133.link: https://www.instagram.com/makimaru18/
 photo.133.tags: mofumofu, portrait, whiskers
 species: 2

@@ -118,8 +118,9 @@ photo.21.author: an920000
 photo.21.commitdate: 2020/10/13
 photo.21.link: https://www.instagram.com/an920000/
 photo.21.tags: close-up, portrait, whiskers
-photo.22: https://www.instagram.com/p/CKsVORSBycs/media/?size=m
+photo.22: ig://CKsVORSBycs/m
 photo.22.author: sasapan34
+photo.22.commitdate: 2021/12/9
 photo.22.link: https://www.instagram.com/sasapan34/
 photo.22.tags: snow, whiskers
 species: 2
