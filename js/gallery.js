@@ -1265,8 +1265,15 @@ Gallery.url.href = function(uri) {
   if (uri.indexOf("http") == 0) {
     return uri;
   } else if (uri.indexOf("ig") == 0) {
-    var ig_locator = uri.split("/")[2];
-    return `https://www.instagram.com/p/${ig_locator}`;
+    var uri_split = uri.split("/");
+    if (uri_split.length == 5) {   // IG URIs with usernames
+      var ig_author = uri.split("/")[2];
+      var ig_locator = uri.split("/")[3];
+      return `https://www.instagram.com/${ig_author}/p/${ig_locator}`;
+    } else {   // Legacy IG URIs
+      var ig_locator = uri.split("/")[2];
+      return `https://www.instagram.com/p/${ig_locator}`;
+    }
   } else {
     return Pandas.def.animal["photo.1"];
   }
