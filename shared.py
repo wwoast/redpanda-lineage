@@ -58,7 +58,35 @@ def fetch_photo(url, output_file=None, size=None):
     ig_url = resize_ig_link(ig_url, size)   # request biger size if necessary
     target_img = url
     # Assume target_img is the original url unless IG
-    if "ig://" in ig_url:
+    if ("ig://" in ig_url and len(ig_url.split("/")) == 5):
+        author = ig_url.split("/")[2]
+        shortcode = ig_url.split("/")[3]
+        url = "https://www.instagram.com/" + author + "/p/" + shortcode
+        maxwidth = 320
+        if (ig_url.split("/")[4] == "l"):
+            maxwidth = 640
+        token = os.getenv('OE_TOKEN', None)
+        if token == None:
+            raise KeyError("Please set an OE_TOKEN environment variable for using the IG API")
+        query_params = {
+            "url": url,
+            "maxwidth": maxwidth,
+            "fields": "thumbnail_url,author_name",
+            "access_token": token
+        }
+        instagram_api = "https://graph.facebook.com/v11.0/instagram_oembed"
+        try:
+            response = requests.get(instagram_api, params=query_params)
+            json = response.json()
+            target_img = json["thumbnail_url"]
+            author_name = json["author_name"]
+        except:
+            print("(error downloading " + shortcode + ".jpg)")
+            return False
+        if (output_file == None):
+            output_file = shortcode + ".jpg"
+        print("(ig_credit: " + author_name + "): " + target_img)
+    elif "ig://" in ig_url:
         shortcode = ig_url.split("/")[2]
         # Remove extra info from the IG url so that oEmbed likes it
         url = "https://www.instagram.com/p/" + shortcode
@@ -161,6 +189,12 @@ def update_ig_link(photo_uri):
         shortcode = photo_split[4]
         size = photo_split[6].split("=")[1]
         return 'ig://' + shortcode + "/" + size
+    elif "https://www.instagram.com/" in photo_uri:
+        photo_split = photo_uri.split("/")
+        author = photo_split[3]
+        shortcode = photo_split[5]
+        size = photo_split[7].split("=")[1]
+        return 'ig://' + author + "/" + shortcode + "/" + size
     else:
         return photo_uri
 
