@@ -1240,7 +1240,7 @@ Gallery.url.instagram = function(image, input_uri) {
     // Try and fetch the details to update the image
     var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`);
     if (ig_author != undefined) {
-      ig_target = encodeURICopmonent(`https://www.instagram.com/${ig_author}/p/${ig_locator}`);
+      ig_target = encodeURIComponent(`https://www.instagram.com/${ig_author}/p/${ig_locator}`);
     }
     var ig_template = `https://graph.facebook.com/v11.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
