@@ -1204,12 +1204,17 @@ Gallery.url.instagram = function(image, input_uri) {
   var uri_split = input_uri.split("/");
   var ig_locator = undefined;
   var ig_width = undefined;
+  var ig_author = undefined;
   if (uri_split.length == 3) {
     ig_locator = uri_split.pop();
     ig_width = "320";
   } else if (uri_split.length == 4) {
     ig_width = uri_split.pop();
     ig_locator = uri_split.pop();
+  } else if (uri_split.length == 5) {
+    ig_width = uri_split.pop();
+    ig_locator = uri_split.pop();
+    ig_author = uri_split.pop();
   } else {
     image.src = Pandas.def.animal["photo.1"];   // Default image
     return;
@@ -1233,7 +1238,10 @@ Gallery.url.instagram = function(image, input_uri) {
     image.src = Gallery.url.paths[ig_locator];
   } else {
     // Try and fetch the details to update the image
-    var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`)
+    var ig_target = encodeURIComponent(`https://www.instagram.com/p/${ig_locator}`);
+    if (ig_author != undefined) {
+      ig_target = encodeURICopmonent(`https://www.instagram.com/${ig_author}/p/${ig_locator}`);
+    }
     var ig_template = `https://graph.facebook.com/v11.0/instagram_oembed?url=${ig_target}&maxwidth=${ig_width}&fields=thumbnail_url&access_token=${Gallery.url.api.instagram}`;
     var ig_request = new XMLHttpRequest();
     ig_request.open('GET', ig_template, true);
