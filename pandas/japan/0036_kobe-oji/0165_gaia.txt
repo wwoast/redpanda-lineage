@@ -933,15 +933,16 @@ photo.186.author: imagoto17
 photo.186.commitdate: 2021/11/10
 photo.186.link: https://www.instagram.com/imagoto17/
 photo.186.tags: close-up, paws, whiskers
-photo.187: ig://CWahEGqhizX/m
-photo.187.author: miis_98
-photo.187.commitdate: 2021/11/29
-photo.187.link: https://www.instagram.com/miis_98/
-photo.187.tags: paws, portrait, whiskers
-photo.188: https://www.instagram.com/p/CWSuMIxhpke/media/?size=m
-photo.188.author: imagoto17
-photo.188.link: https://www.instagram.com/imagoto17/
-photo.188.tags: close-up, mofumofu, sample, whiskers
+photo.187: ig://CWSuMIxhpke/m
+photo.187.author: imagoto17
+photo.187.commitdate: 2021/12/17
+photo.187.link: https://www.instagram.com/imagoto17/
+photo.187.tags: close-up, mofumofu, sample, whiskers
+photo.188: ig://CWahEGqhizX/m
+photo.188.author: miis_98
+photo.188.commitdate: 2021/11/29
+photo.188.link: https://www.instagram.com/miis_98/
+photo.188.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

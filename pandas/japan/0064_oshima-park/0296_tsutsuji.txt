@@ -92,15 +92,16 @@ photo.16.author: oshimabranchoffice
 photo.16.commitdate: 2021/10/24
 photo.16.link: https://www.instagram.com/oshimabranchoffice/
 photo.16.tags: close-up, smile, tree
-photo.17: ig://CWZRIcbBRhy/m
+photo.17: ig://CWSrHsehl4k/m
 photo.17.author: grskus_tk
-photo.17.commitdate: 2021/11/28
+photo.17.commitdate: 2021/12/17
 photo.17.link: https://www.instagram.com/grskus_tk/
-photo.17.tags: smile
-photo.18: https://www.instagram.com/p/CWSrHsehl4k/media/?size=m
+photo.17.tags: peek, tail
+photo.18: ig://CWZRIcbBRhy/m
 photo.18.author: grskus_tk
+photo.18.commitdate: 2021/11/28
 photo.18.link: https://www.instagram.com/grskus_tk/
-photo.18.tags: peek, tail
+photo.18.tags: smile
 species: 2
 studbook.id: 1781
 zoo: 64

@@ -388,19 +388,21 @@ photo.75.author: hamamatsu.chiita
 photo.75.commitdate: 2021/11/7
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
 photo.75.tags: paws, portrait, whiskers, white face
-photo.76: ig://CWdBhqABtl9/m
-photo.76.author: ssc6105
-photo.76.commitdate: 2021/11/21
-photo.76.link: https://www.instagram.com/ssc6105/
-photo.76.tags: mofumofu, tail, tongue, tree
-photo.77: https://www.instagram.com/p/CWQjJI0hK3J/media/?size=m
+photo.76: ig://CWQA_NKBL7H/m
+photo.76.author: craig_craig_craig
+photo.76.commitdate: 2021/12/17
+photo.76.link: https://www.instagram.com/craig_craig_craig/
+photo.76.tags: home, paws, portrait, tail, whiskers
+photo.77: ig://CWQjJI0hK3J/m
 photo.77.author: craig_craig_craig
+photo.77.commitdate: 2021/12/17
 photo.77.link: https://www.instagram.com/craig_craig_craig/
 photo.77.tags: home, laying down, paws, tongue
-photo.78: https://www.instagram.com/p/CWQA_NKBL7H/media/?size=m
-photo.78.author: craig_craig_craig
-photo.78.link: https://www.instagram.com/craig_craig_craig/
-photo.78.tags: home, paws, portrait, tail, whiskers
+photo.78: ig://CWdBhqABtl9/m
+photo.78.author: ssc6105
+photo.78.commitdate: 2021/11/21
+photo.78.link: https://www.instagram.com/ssc6105/
+photo.78.tags: mofumofu, tail, tongue, tree
 species: 2
 studbook.id: 13150
 zoo: 8

@@ -662,8 +662,9 @@ photo.131.author: hamamatsu.chiita
 photo.131.commitdate: 2021/11/15
 photo.131.link: https://www.instagram.com/hamamatsu.chiita/
 photo.131.tags: close-up, portrait, whiskers, white face
-photo.132: https://www.instagram.com/p/CWTGUD8JlBr/media/?size=m
+photo.132: ig://CWTGUD8JlBr/m
 photo.132.author: gloryeui
+photo.132.commitdate: 2021/12/17
 photo.132.link: https://www.instagram.com/gloryeui/
 photo.132.tags: portrait, sample, smile, tongue, whiskers
 species: 2
