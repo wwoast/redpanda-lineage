@@ -648,5 +648,9 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2021/11/23
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: portrait, smile, whiskers
+photo.128: https://www.instagram.com/p/CHnYfYXBIbd/media/?size=m
+photo.128.author: mini_cochi
+photo.128.link: https://www.instagram.com/mini_cochi/
+photo.128.tags: paws, portrait, tree
 species: 2
 zoo: 17
