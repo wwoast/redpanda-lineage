@@ -543,25 +543,26 @@ photo.106.author: hamamatsu.chiita
 photo.106.commitdate: 2021/10/17
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
 photo.106.tags: paws, sign, smile
-photo.107: ig://CVTcA5QBUZX/m
-photo.107.author: hamamatsu.chiita
-photo.107.commitdate: 2021/10/30
-photo.107.link: https://www.instagram.com/hamamatsu.chiita/
-photo.107.tags: bamboo, portrait, whiskers
-photo.108: ig://CVgkbGKvVnz/m
-photo.108.author: tomo3700
-photo.108.commitdate: 2021/11/20
-photo.108.link: https://www.instagram.com/tomo3700/
-photo.108.tags: paws, standing, toys
-photo.109: ig://CVqqwiMhA0r/m
-photo.109.author: hamamatsu.chiita
-photo.109.commitdate: 2021/11/7
-photo.109.link: https://www.instagram.com/hamamatsu.chiita/
-photo.109.tags: close-up, laying down, mofumofu, portrait
-photo.110: https://www.instagram.com/p/CU_5XDhIf3u/media/?size=m
-photo.110.author: minato.yokohama2130
-photo.110.link: https://www.instagram.com/minato.yokohama2130/
-photo.110.tags: portrait, videolink
+photo.107: ig://CU_5XDhIf3u/m
+photo.107.author: minato.yokohama2130
+photo.107.commitdate: 2021/12/18
+photo.107.link: https://www.instagram.com/minato.yokohama2130/
+photo.107.tags: portrait, videolink
+photo.108: ig://CVTcA5QBUZX/m
+photo.108.author: hamamatsu.chiita
+photo.108.commitdate: 2021/10/30
+photo.108.link: https://www.instagram.com/hamamatsu.chiita/
+photo.108.tags: bamboo, portrait, whiskers
+photo.109: ig://CVgkbGKvVnz/m
+photo.109.author: tomo3700
+photo.109.commitdate: 2021/11/20
+photo.109.link: https://www.instagram.com/tomo3700/
+photo.109.tags: paws, standing, toys
+photo.110: ig://CVqqwiMhA0r/m
+photo.110.author: hamamatsu.chiita
+photo.110.commitdate: 2021/11/7
+photo.110.link: https://www.instagram.com/hamamatsu.chiita/
+photo.110.tags: close-up, laying down, mofumofu, portrait
 species: 2
 studbook.id: unknown
 zoo: 13

@@ -383,23 +383,25 @@ photo.74.author: miis_98
 photo.74.commitdate: 2021/10/17
 photo.74.link: https://www.instagram.com/miis_98/
 photo.74.tags: bamboo, paws, portrait, tongue
-photo.75: ig://CU_BtvGjATt/m
-photo.75.author: otenba_redpanda
-photo.75.commitdate: 2021/10/17
-photo.75.link: https://www.instagram.com/otenba_redpanda/
-photo.75.tags: paws, portrait, smile, whiskers
-photo.76: ig://CWAzvdOhH-m/m
-photo.76.author: ck.chie
-photo.76.commitdate: 2021/12/9
-photo.76.link: https://www.instagram.com/ck.chie/
-photo.76.tags: bamboo, paws, smile, whiskers
-photo.77: https://www.instagram.com/p/CU9-rTPBK2a/media/?size=m
-photo.77.author: ifumoto88
-photo.77.link: https://www.instagram.com/ifumoto88/
-photo.77.tags: paws, standing
-photo.78: https://www.instagram.com/p/CU45xgqFNxh/media/?size=m
-photo.78.author: mini_cochi
-photo.78.link: https://www.instagram.com/mini_cochi/
-photo.78.tags: bamboo, paws, portrait, sample, tongue
+photo.75: ig://CU45xgqFNxh/m
+photo.75.author: mini_cochi
+photo.75.commitdate: 2021/12/18
+photo.75.link: https://www.instagram.com/mini_cochi/
+photo.75.tags: bamboo, paws, portrait, sample, tongue
+photo.76: ig://CU9-rTPBK2a/m
+photo.76.author: ifumoto88
+photo.76.commitdate: 2021/12/18
+photo.76.link: https://www.instagram.com/ifumoto88/
+photo.76.tags: paws, standing
+photo.77: ig://CU_BtvGjATt/m
+photo.77.author: otenba_redpanda
+photo.77.commitdate: 2021/10/17
+photo.77.link: https://www.instagram.com/otenba_redpanda/
+photo.77.tags: paws, portrait, smile, whiskers
+photo.78: ig://CWAzvdOhH-m/m
+photo.78.author: ck.chie
+photo.78.commitdate: 2021/12/9
+photo.78.link: https://www.instagram.com/ck.chie/
+photo.78.tags: bamboo, paws, smile, whiskers
 species: 2
 zoo: 17
