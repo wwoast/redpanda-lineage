@@ -379,8 +379,9 @@ photo.74.author: minatomirai215
 photo.74.commitdate: 2021/10/27
 photo.74.link: https://www.instagram.com/minatomirai215/
 photo.74.tags: portrait, whiskers
-photo.75: https://www.instagram.com/p/CXBHOeZBM52/media/?size=m
+photo.75: ig://CXBHOeZBM52/m
 photo.75.author: daniele.tokyo
+photo.75.commitdate: 2021/12/19
 photo.75.link: https://www.instagram.com/daniele.tokyo/
 photo.75.tags: close-up, paws, whiskers
 species: 2

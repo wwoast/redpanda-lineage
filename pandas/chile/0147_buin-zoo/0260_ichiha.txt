@@ -133,25 +133,26 @@ photo.24.author: fetorus_mami
 photo.24.commitdate: 2020/3/28
 photo.24.link: https://www.instagram.com/fetorus_mami/
 photo.24.tags: autumn, portrait, sample, whiskers
-photo.25: ig://CLeRdacMys8/m
-photo.25.author: buin_zoo
-photo.25.commitdate: 2021/4/3
-photo.25.link: https://www.instagram.com/buin_zoo/
-photo.25.tags: close-up, nose, peek, portrait
-photo.26: ig://CMHeMOnL9du/m
+photo.25: ig://CIVwfv3BNha/m
+photo.25.author: kojikoji2011
+photo.25.commitdate: 2021/12/19
+photo.25.link: https://www.instagram.com/kojikoji2011/
+photo.25.tags: paws, portrait, sample, tail
+photo.26: ig://CLeRdacMys8/m
 photo.26.author: buin_zoo
 photo.26.commitdate: 2021/4/3
 photo.26.link: https://www.instagram.com/buin_zoo/
-photo.26.tags: close-up, portrait
-photo.27: ig://CUnHXlaL7m0/m
+photo.26.tags: close-up, nose, peek, portrait
+photo.27: ig://CMHeMOnL9du/m
 photo.27.author: buin_zoo
-photo.27.commitdate: 2021/10/31
+photo.27.commitdate: 2021/4/3
 photo.27.link: https://www.instagram.com/buin_zoo/
-photo.27.tags: apple time, paws, peek, portrait, sample
-photo.28: https://www.instagram.com/p/CIVwfv3BNha/media/?size=m
-photo.28.author: kojikoji2011
-photo.28.link: https://www.instagram.com/kojikoji2011/
-photo.28.tags: paws, portrait, sample, tail
+photo.27.tags: close-up, portrait
+photo.28: ig://CUnHXlaL7m0/m
+photo.28.author: buin_zoo
+photo.28.commitdate: 2021/10/31
+photo.28.link: https://www.instagram.com/buin_zoo/
+photo.28.tags: apple time, paws, peek, portrait, sample
 species: 2
 studbook.id: 14171
 zoo: 147
