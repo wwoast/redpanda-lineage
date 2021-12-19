@@ -508,114 +508,126 @@ photo.100.author: panda.daisuki
 photo.100.commitdate: 2021/4/3
 photo.100.link: https://www.instagram.com/panda.daisuki/
 photo.100.tags: bamboo, eye, paws
-photo.101: ig://COZLnduBrUa/m
+photo.101: ig://COTqnvHBxSF/m
 photo.101.author: sunnylettuce_2021
-photo.101.commitdate: 2021/5/3
+photo.101.commitdate: 2021/12/19
 photo.101.link: https://www.instagram.com/sunnylettuce_2021/
-photo.101.tags: paws, standing, whiskers
-photo.102: ig://COaIt3Fh1y0/m
-photo.102.author: fetorus_mami
-photo.102.commitdate: 2021/8/11
-photo.102.link: https://www.instagram.com/fetorus_mami/
-photo.102.tags: peek
-photo.103: ig://COmSVLVBNT0/m
+photo.101.tags: close-up, nose, sample, whiskers
+photo.102: ig://COZLnduBrUa/m
+photo.102.author: sunnylettuce_2021
+photo.102.commitdate: 2021/5/3
+photo.102.link: https://www.instagram.com/sunnylettuce_2021/
+photo.102.tags: paws, standing, whiskers
+photo.103: ig://COaIt3Fh1y0/m
 photo.103.author: fetorus_mami
-photo.103.commitdate: 2021/9/23
+photo.103.commitdate: 2021/8/11
 photo.103.link: https://www.instagram.com/fetorus_mami/
-photo.103.tags: laying down, peek
-photo.104: ig://COnJ-ndBTSc/m
-photo.104.author: mini_cochi
-photo.104.commitdate: 2021/6/4
-photo.104.link: https://www.instagram.com/mini_cochi/
-photo.104.tags: bamboo, close-up, paws, portrait, smile
-photo.105: ig://COxjd5nhKv7/m
-photo.105.author: fetorus_mami
-photo.105.commitdate: 2021/6/6
-photo.105.link: https://www.instagram.com/fetorus_mami/
-photo.105.tags: portrait, whiskers
-photo.106: ig://CPLGSqXhlf-/m
+photo.103.tags: peek
+photo.104: ig://COmSVLVBNT0/m
+photo.104.author: fetorus_mami
+photo.104.commitdate: 2021/9/23
+photo.104.link: https://www.instagram.com/fetorus_mami/
+photo.104.tags: laying down, peek
+photo.105: ig://COnJ-ndBTSc/m
+photo.105.author: mini_cochi
+photo.105.commitdate: 2021/6/4
+photo.105.link: https://www.instagram.com/mini_cochi/
+photo.105.tags: bamboo, close-up, paws, portrait, smile
+photo.106: ig://COxjd5nhKv7/m
 photo.106.author: fetorus_mami
-photo.106.commitdate: 2021/7/7
+photo.106.commitdate: 2021/6/6
 photo.106.link: https://www.instagram.com/fetorus_mami/
-photo.106.tags: bridge, laying down, tree
-photo.107: ig://CP73AEPhQCN/m
+photo.106.tags: portrait, whiskers
+photo.107: ig://CPLGSqXhlf-/m
 photo.107.author: fetorus_mami
-photo.107.commitdate: 2021/9/23
+photo.107.commitdate: 2021/7/7
 photo.107.link: https://www.instagram.com/fetorus_mami/
-photo.107.tags: laying down, tail, tree
-photo.108: ig://CQKLA1OB1Gh/m
-photo.108.author: miis_98
-photo.108.commitdate: 2021/6/19
-photo.108.link: https://www.instagram.com/miis_98/
-photo.108.tags: bamboo, paws, portrait, standing
-photo.109: ig://CQhOLCpBr3U/m
-photo.109.author: panda.daisuki
-photo.109.commitdate: 2021/9/23
-photo.109.link: https://www.instagram.com/panda.daisuki/
-photo.109.tags: portrait, whiskers
-photo.110: ig://CQiY7Z6BYTX/m
-photo.110.author: ssc6105
-photo.110.commitdate: 2021/7/3
-photo.110.link: https://www.instagram.com/ssc6105/
-photo.110.tags: bamboo, paws, whiskers, wink
-photo.111: ig://CR6MSQWhOMm/m
-photo.111.author: fetorus_mami
-photo.111.commitdate: 2021/8/26
-photo.111.link: https://www.instagram.com/fetorus_mami/
-photo.111.tags: paws, tail, whiskers
-photo.112: ig://CVwDagJhOl1/m
-photo.112.author: rie_panda55
-photo.112.commitdate: 2021/11/15
-photo.112.link: https://www.instagram.com/rie_panda55/
-photo.112.tags: bamboo, paws, peek, portrait
-photo.113: https://www.instagram.com/p/CXkIsZ6JPZu/media/?size=m
-photo.113.author: fetorus_mami
-photo.113.link: https://www.instagram.com/fetorus_mami/
-photo.113.tags: paws, portrait, sample, tree, wink
-photo.114: https://www.instagram.com/p/CXgT5yGFeLz/media/?size=m
+photo.107.tags: bridge, laying down, tree
+photo.108: ig://CP73AEPhQCN/m
+photo.108.author: fetorus_mami
+photo.108.commitdate: 2021/9/23
+photo.108.link: https://www.instagram.com/fetorus_mami/
+photo.108.tags: laying down, tail, tree
+photo.109: ig://CQKLA1OB1Gh/m
+photo.109.author: miis_98
+photo.109.commitdate: 2021/6/19
+photo.109.link: https://www.instagram.com/miis_98/
+photo.109.tags: bamboo, paws, portrait, standing
+photo.110: ig://CQhOLCpBr3U/m
+photo.110.author: panda.daisuki
+photo.110.commitdate: 2021/9/23
+photo.110.link: https://www.instagram.com/panda.daisuki/
+photo.110.tags: portrait, whiskers
+photo.111: ig://CQiY7Z6BYTX/m
+photo.111.author: ssc6105
+photo.111.commitdate: 2021/7/3
+photo.111.link: https://www.instagram.com/ssc6105/
+photo.111.tags: bamboo, paws, whiskers, wink
+photo.112: ig://CR6MSQWhOMm/m
+photo.112.author: fetorus_mami
+photo.112.commitdate: 2021/8/26
+photo.112.link: https://www.instagram.com/fetorus_mami/
+photo.112.tags: paws, tail, whiskers
+photo.113: ig://CVwDagJhOl1/m
+photo.113.author: rie_panda55
+photo.113.commitdate: 2021/11/15
+photo.113.link: https://www.instagram.com/rie_panda55/
+photo.113.tags: bamboo, paws, peek, portrait
+photo.114: ig://CXKXarfp27O/m
 photo.114.author: fetorus_mami
+photo.114.commitdate: 2021/12/19
 photo.114.link: https://www.instagram.com/fetorus_mami/
-photo.114.tags: paws, sample, whiskers
-photo.115: https://www.instagram.com/p/CXpB1z_BT2-/media/?size=m
+photo.114.tags: bridge, laying down, paws, portrait, sample, tree
+photo.115: ig://CXKX2zZpI_-/m
 photo.115.author: fetorus_mami
+photo.115.commitdate: 2021/12/19
 photo.115.link: https://www.instagram.com/fetorus_mami/
-photo.115.tags: autumn, paws, whiskers
-photo.116: https://www.instagram.com/p/CXMOY8CB-gC/media/?size=m
-photo.116.author: alto0908
-photo.116.link: https://www.instagram.com/alto0908/
-photo.116.tags: portrait, sample, whiskers
-photo.117: https://www.instagram.com/p/CXOTzQXFyQH/media/?size=m
-photo.117.author: fetorus_mami
-photo.117.link: https://www.instagram.com/fetorus_mami/
-photo.117.tags: baby, laying down, mofumofu, whiskers
-photo.118: https://www.instagram.com/p/CXKYbFxJFQ2/media/?size=m
-photo.118.author: fetorus_mami
-photo.118.link: https://www.instagram.com/fetorus_mami/
-photo.118.tags: peek, tail, tree
-photo.119: https://www.instagram.com/p/CXKX2zZpI_-/media/?size=m
+photo.115.tags: peek, smile, tree
+photo.116: ig://CXKYbFxJFQ2/m
+photo.116.author: fetorus_mami
+photo.116.commitdate: 2021/12/19
+photo.116.link: https://www.instagram.com/fetorus_mami/
+photo.116.tags: peek, tail, tree
+photo.117: ig://CXLjabKhLJG/m
+photo.117.author: ssc6105
+photo.117.commitdate: 2021/12/19
+photo.117.link: https://www.instagram.com/ssc6105/
+photo.117.tags: close-up, sample, whiskers
+photo.118: ig://CXMOY8CB-gC/m
+photo.118.author: alto0908
+photo.118.commitdate: 2021/12/19
+photo.118.link: https://www.instagram.com/alto0908/
+photo.118.tags: portrait, sample, whiskers
+photo.119: ig://fetorus_mami/CXOPjEolQVz/m
 photo.119.author: fetorus_mami
+photo.119.commitdate: 2021/12/19
 photo.119.link: https://www.instagram.com/fetorus_mami/
-photo.119.tags: peek, smile, tree
-photo.120: https://www.instagram.com/p/CXKXarfp27O/media/?size=m
+photo.119.tags: smile
+photo.120: ig://fetorus_mami/CXOS1WqlnRh/m
 photo.120.author: fetorus_mami
+photo.120.commitdate: 2021/12/19
 photo.120.link: https://www.instagram.com/fetorus_mami/
-photo.120.tags: bridge, laying down, paws, portrait, sample, tree
-photo.121: https://www.instagram.com/p/CXLjabKhLJG/media/?size=m
-photo.121.author: ssc6105
-photo.121.link: https://www.instagram.com/ssc6105/
-photo.121.tags: close-up, sample, whiskers
-photo.122: https://www.instagram.com/p/COTqnvHBxSF/media/?size=m
-photo.122.author: sunnylettuce_2021
-photo.122.link: https://www.instagram.com/sunnylettuce_2021/
-photo.122.tags: close-up, nose, sample, whiskers
-photo.123: https://www.instagram.com/fetorus_mami/p/CXOS1WqlnRh/media/?size=m
+photo.120.tags: baby
+photo.121: ig://CXOTzQXFyQH/m
+photo.121.author: fetorus_mami
+photo.121.commitdate: 2021/12/19
+photo.121.link: https://www.instagram.com/fetorus_mami/
+photo.121.tags: baby, laying down, mofumofu, whiskers
+photo.122: ig://CXgT5yGFeLz/m
+photo.122.author: fetorus_mami
+photo.122.commitdate: 2021/12/19
+photo.122.link: https://www.instagram.com/fetorus_mami/
+photo.122.tags: paws, sample, whiskers
+photo.123: ig://CXkIsZ6JPZu/m
 photo.123.author: fetorus_mami
+photo.123.commitdate: 2021/12/19
 photo.123.link: https://www.instagram.com/fetorus_mami/
-photo.123.tags: baby
-photo.124: https://www.instagram.com/fetorus_mami/p/CXOPjEolQVz/media/?size=m
+photo.123.tags: paws, portrait, sample, tree, wink
+photo.124: ig://CXpB1z_BT2-/m
 photo.124.author: fetorus_mami
+photo.124.commitdate: 2021/12/19
 photo.124.link: https://www.instagram.com/fetorus_mami/
-photo.124.tags: smile
+photo.124.tags: autumn, paws, whiskers
 species: 2
 studbook.id: 1772
 zoo: 9
