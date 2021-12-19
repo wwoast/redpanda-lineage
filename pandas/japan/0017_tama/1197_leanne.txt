@@ -107,7 +107,7 @@ photo.19: ig://CP2-SwLBjlq/m
 photo.19.author: ifumoto88
 photo.19.commitdate: 2021/6/18
 photo.19.link: https://www.instagram.com/ifumoto88/
-photo.19.tags: portrait, tree, wet
+photo.19.tags: portrait, sample, tree, wet
 photo.20: ig://CP_6TuAhtG5/m
 photo.20.author: alto0908
 photo.20.commitdate: 2021/6/18
@@ -122,7 +122,7 @@ photo.22: ig://CQBFU4nh1wi/m
 photo.22.author: kotata_513
 photo.22.commitdate: 2021/6/18
 photo.22.link: https://www.instagram.com/kotata_513/
-photo.22.tags: paws, portrait, smile, tree
+photo.22.tags: paws, portrait, sample, smile, tree
 photo.23: ig://CQEGBZtBSQJ/m
 photo.23.author: mini_cochi
 photo.23.commitdate: 2021/6/18
@@ -137,12 +137,12 @@ photo.25: ig://CQQ0Kn6Bn61/m
 photo.25.author: ifumoto88
 photo.25.commitdate: 2021/6/18
 photo.25.link: https://www.instagram.com/ifumoto88/
-photo.25.tags: paws, portrait, tail, tree
+photo.25.tags: paws, portrait, sample, tail, tree
 photo.26: ig://CQRuyemB0eu/m
 photo.26.author: panda.daisuki
 photo.26.commitdate: 2021/6/23
 photo.26.link: https://www.instagram.com/panda.daisuki/
-photo.26.tags: mofumofu, peek, portrait, profile, tail
+photo.26.tags: mofumofu, peek, portrait, profile, sample, tail
 photo.27: ig://CQU-cTJhXAg/m
 photo.27.author: mariten1119
 photo.27.commitdate: 2021/6/23
@@ -177,7 +177,7 @@ photo.33: ig://CQ8SXBgB2UK/m
 photo.33.author: alto0908
 photo.33.commitdate: 2021/7/5
 photo.33.link: https://www.instagram.com/alto0908/
-photo.33.tags: peek, portrait, tree, upside-down
+photo.33.tags: peek, portrait, sample, tree, upside-down
 photo.34: ig://CQ8U8__h7Hc/m
 photo.34.author: osopanda551
 photo.34.commitdate: 2021/7/5
@@ -192,12 +192,12 @@ photo.36: ig://CRRKvx4BOkr/m
 photo.36.author: alto0908
 photo.36.commitdate: 2021/7/14
 photo.36.link: https://www.instagram.com/alto0908/
-photo.36.tags: butterfly, portrait, smile, whiskers
+photo.36.tags: butterfly, portrait, sample, smile, whiskers
 photo.37: ig://CRYyZDdB65Y/m
 photo.37.author: osopanda551
 photo.37.commitdate: 2021/7/18
 photo.37.link: https://www.instagram.com/osopanda551/
-photo.37.tags: portrait, smile, tree
+photo.37.tags: portrait, sample, smile, tree
 photo.38: ig://CRhLnWuhrEj/m
 photo.38.author: eos1089
 photo.38.commitdate: 2021/9/13
@@ -217,17 +217,17 @@ photo.41: ig://CSGhRz4hFUx/m
 photo.41.author: eos1089
 photo.41.commitdate: 2021/9/25
 photo.41.link: https://www.instagram.com/eos1089/
-photo.41.tags: friends, paws, portrait, smile, whiskers
+photo.41.tags: friends, paws, portrait, sample, smile, whiskers
 photo.42: ig://CSJycQ3h2NS/m
 photo.42.author: redpan22
 photo.42.commitdate: 2021/9/25
 photo.42.link: https://www.instagram.com/redpan22/
-photo.42.tags: portrait, smile, tongue, window
+photo.42.tags: portrait, sample, smile, tongue, window
 photo.43: ig://CSLbVEYBtTo/m
 photo.43.author: tokyo_zoogram
 photo.43.commitdate: 2021/9/10
 photo.43.link: https://www.instagram.com/tokyo_zoogram/
-photo.43.tags: portrait
+photo.43.tags: portrait, sample
 photo.44: ig://CS1seJJHTCw/m
 photo.44.author: mini_cochi
 photo.44.commitdate: 2021/8/24
@@ -242,7 +242,7 @@ photo.46: ig://CTcT4rnH-Rq/m
 photo.46.author: mini_cochi
 photo.46.commitdate: 2021/9/10
 photo.46.link: https://www.instagram.com/mini_cochi/
-photo.46.tags: bamboo, peek, portrait
+photo.46.tags: bamboo, peek, portrait, sample
 photo.47: ig://CTuPy4FlYJ5/m
 photo.47.author: mini_cochi
 photo.47.commitdate: 2021/10/22
@@ -298,5 +298,21 @@ photo.57.author: ck.chie
 photo.57.commitdate: 2021/11/27
 photo.57.link: https://www.instagram.com/ck.chie/
 photo.57.tags: bridge, paws, tail, upside-down
+photo.58: https://www.instagram.com/p/CJKWYzIBPxQ/media/?size=m
+photo.58.author: sunnylettuce_2021
+photo.58.link: https://www.instagram.com/sunnylettuce_2021/
+photo.58.tags: baby, bamboo, close-up, smile, whiskers
+photo.59: https://www.instagram.com/p/CUlZZ0yBpIV/media/?size=m
+photo.59.author: otenba_redpanda
+photo.59.link: https://www.instagram.com/otenba_redpanda/
+photo.59.tags: mofumofu, portrait, sample
+photo.60: https://www.instagram.com/p/CHh5ZeQBhsZ/media/?size=m
+photo.60.author: sb23megumi
+photo.60.link: https://www.instagram.com/sb23megumi/
+photo.60.tags: baby, hammock, mofumofu, paws, portrait
+photo.61: https://www.instagram.com/p/CU5871iBWtm/media/?size=m
+photo.61.author: alto0908
+photo.61.link: https://www.instagram.com/alto0908/
+photo.61.tags: paws, portrait, sample, smile, upside-down
 species: 2
 zoo: 17
