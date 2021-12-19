@@ -32,7 +32,7 @@ photo.4: ig://CWDRvSqFfw4/m
 photo.4.author: kijyo.zoo
 photo.4.commitdate: 2021/11/11
 photo.4.link: https://www.instagram.com/kijyo.zoo/
-photo.4.tags: baby, bamboo, portrait, profile, videolink
+photo.4.tags: baby, bamboo, portrait, profile, sample, videolink
 photo.5: ig://CWIdwcPBKvY/m
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2021/11/11
@@ -42,7 +42,7 @@ photo.6: ig://CWQMHp6BC1L/m
 photo.6.author: daniele.tokyo
 photo.6.commitdate: 2021/11/21
 photo.6.link: https://www.instagram.com/daniele.tokyo/
-photo.6.tags: baby, laying down, mofumofu, paws
+photo.6.tags: baby, laying down, mofumofu, paws, sample, tail
 photo.7: ig://CWQTnEaBoZ1/m
 photo.7.author: _saaaaaaah_
 photo.7.commitdate: 2021/11/21
@@ -52,11 +52,23 @@ photo.8: ig://CWSw7QIBIXI/m
 photo.8.author: daniele.tokyo
 photo.8.commitdate: 2021/12/17
 photo.8.link: https://www.instagram.com/daniele.tokyo/
-photo.8.tags: baby, mofumofu, peek, whiskers
+photo.8.tags: baby, mofumofu, peek, sample, whiskers
 photo.9: ig://CWlGfejFTvb/m
 photo.9.author: miis_98
 photo.9.commitdate: 2021/11/27
 photo.9.link: https://www.instagram.com/miis_98/
-photo.9.tags: baby, laying down, mofumofu, paws, portrait, tail
+photo.9.tags: baby, laying down, mofumofu, paws, portrait, sample, tail
+photo.10: https://www.instagram.com/p/CWHuZv0l3y_/media/?size=m
+photo.10.author: lesserpanda_shizuokacity_cp
+photo.10.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.10.tags: baby, newborn
+photo.11: https://www.instagram.com/p/CW6s23rhvO7/media/?size=m
+photo.11.author: otenba_redpanda
+photo.11.link: https://www.instagram.com/otenba_redpanda/
+photo.11.tags: apple time, baby, mofumofu, portrait, sample
+photo.12: https://www.instagram.com/p/CXm09L8Pot-/media/?size=m
+photo.12.author: pantasanzoo1
+photo.12.link: https://www.instagram.com/pantasanzoo1/
+photo.12.tags: baby, tail
 species: 2
 zoo: 16
