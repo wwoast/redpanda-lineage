@@ -668,14 +668,15 @@ photo.131.author: hamamatsu.chiita
 photo.131.commitdate: 2021/8/18
 photo.131.link: https://www.instagram.com/hamamatsu.chiita/
 photo.131.tags: apple time, close-up, portrait, whiskers
-photo.132: ig://CWdIQ_IF8O-/m
-photo.132.author: gloryeui
-photo.132.commitdate: 2021/11/29
-photo.132.link: https://www.instagram.com/gloryeui/
-photo.132.tags: apple time, paws, portrait, tongue
-photo.133: https://www.instagram.com/p/CVP6ejMBNzJ/media/?size=m
-photo.133.author: taka__3428
-photo.133.link: https://www.instagram.com/taka__3428/
-photo.133.tags: home, peek, standing
+photo.132: ig://CVP6ejMBNzJ/m
+photo.132.author: taka__3428
+photo.132.commitdate: 2021/12/18
+photo.132.link: https://www.instagram.com/taka__3428/
+photo.132.tags: home, peek, standing
+photo.133: ig://CWdIQ_IF8O-/m
+photo.133.author: gloryeui
+photo.133.commitdate: 2021/11/29
+photo.133.link: https://www.instagram.com/gloryeui/
+photo.133.tags: apple time, paws, portrait, tongue
 species: 2
 zoo: 24

@@ -378,8 +378,9 @@ photo.73.author: otenba_redpanda
 photo.73.commitdate: 2021/10/26
 photo.73.link: https://www.instagram.com/otenba_redpanda/
 photo.73.tags: hammock, laying down, peek, portrait
-photo.74: https://www.instagram.com/p/CVSnTlqhUJ0/media/?size=m
+photo.74: ig://CVSnTlqhUJ0/m
 photo.74.author: ifumoto88
+photo.74.commitdate: 2021/12/18
 photo.74.link: https://www.instagram.com/ifumoto88/
 photo.74.tags: bite, close-up, paws, portrait
 species: 2
