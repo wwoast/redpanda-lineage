@@ -410,8 +410,9 @@ photo.79.author: pink.b22
 photo.79.commitdate: 2021/11/15
 photo.79.link: https://www.instagram.com/pink.b22/
 photo.79.tags: eye, mofumofu, portrait
-photo.80: https://www.instagram.com/hamamatsu.chiita/p/CXMg4cehwwm/media/?size=m
+photo.80: ig://hamamatsu.chiita/CXMg4cehwwm/m
 photo.80.author: hamamatsu.chiita
+photo.80.commitdate: 2021/12/19
 photo.80.link: https://www.instagram.com/hamamatsu.chiita/
 photo.80.tags: eye, mofumofu, portrait, sample
 species: 2

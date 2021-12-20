@@ -464,8 +464,9 @@ photo.90.author: ssc6105
 photo.90.commitdate: 2021/10/27
 photo.90.link: https://www.instagram.com/ssc6105/
 photo.90.tags: close-up, paws, whiskers
-photo.91: https://www.instagram.com/p/CXP66jGrj4D/media/?size=m
+photo.91: ig://CXP66jGrj4D/m
 photo.91.author: hidehaya_biei
+photo.91.commitdate: 2021/12/19
 photo.91.link: https://www.instagram.com/hidehaya_biei/
 photo.91.tags: paws, sample, smile, whiskers
 species: 2
