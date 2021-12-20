@@ -1352,8 +1352,9 @@ photo.270.author: minatomirai215
 photo.270.commitdate: 2021/11/11
 photo.270.link: https://www.instagram.com/minatomirai215/
 photo.270.tags: portrait, tail, whiskers
-photo.271: https://www.instagram.com/gloryeui/p/CXnuXijLwvP/media/?size=m
+photo.271: ig://gloryeui/CXnuXijLwvP/m
 photo.271.author: gloryeui
+photo.271.commitdate: 2021/12/20
 photo.271.link: https://www.instagram.com/gloryeui/
 photo.271.tags: keeper, laying down, paws, portrait, tail, upside-down
 species: 2
