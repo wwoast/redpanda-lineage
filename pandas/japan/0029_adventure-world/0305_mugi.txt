@@ -5,7 +5,7 @@ birthplace: 29
 children: none
 commitdate: 2018/8/12
 en.name: Mugi
-en.nicknames: Babu, Yon, Mugiweeb, Weebles, Mugiweeble, Mugiweebles
+en.nicknames: Babu, Yon, Mugiweeb, Weebles, Mugiweeble, Mugiweebles, Oatpuff
 en.othernames: none
 gender: m
 jp.name: 麦
@@ -17,12 +17,12 @@ photo.1: ig://BqMBnbxFUL1/m
 photo.1.author: adventureworld_official
 photo.1.commitdate: 2018/11/17
 photo.1.link: https://www.instagram.com/adventureworld_official/
-photo.1.tags: baby, muzzle, portrait
+photo.1.tags: baby, muzzle, portrait, sample
 photo.2: ig://BqTcR8zlMx8/m
 photo.2.author: monmon_redpanda
 photo.2.commitdate: 2018/11/17
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: baby, muzzle, portrait
+photo.2.tags: baby, muzzle, portrait, sample
 photo.3: ig://BqloCMBFp_S/m
 photo.3.author: framereim
 photo.3.commitdate: 2018/11/25
@@ -32,17 +32,17 @@ photo.4: ig://BqmIbuylGru/m
 photo.4.author: adventureworld_official
 photo.4.commitdate: 2018/12/6
 photo.4.link: https://www.instagram.com/adventureworld_official/
-photo.4.tags: baby, muzzle, portrait
+photo.4.tags: baby, muzzle, portrait, sample
 photo.5: ig://Bqs15vhFiqO/m
 photo.5.author: framereim
 photo.5.commitdate: 2018/11/27
 photo.5.link: https://www.instagram.com/framereim/
-photo.5.tags: baby, muzzle, portrait, techitechi
+photo.5.tags: baby, muzzle, portrait, sample, techitechi
 photo.6: ig://BrbUnR_F8Zw/m
 photo.6.author: kipekaila
 photo.6.commitdate: 2018/12/16
 photo.6.link: https://www.instagram.com/kipekaila/
-photo.6.tags: baby, muzzle, portrait
+photo.6.tags: baby, muzzle, portrait, sample
 photo.7: ig://Brdw59plRwg/m
 photo.7.author: craig_craig_craig
 photo.7.commitdate: 2018/12/17
@@ -52,12 +52,12 @@ photo.8: ig://Bref9ipFjaW/m
 photo.8.author: craig_craig_craig
 photo.8.commitdate: 2018/12/17
 photo.8.link: https://www.instagram.com/craig_craig_craig/
-photo.8.tags: baby, keeper, muzzle, portrait, standing
+photo.8.tags: baby, keeper, muzzle, portrait, sample, standing
 photo.9: ig://Brga5kHlGzy/m
 photo.9.author: _natsu_panda_
 photo.9.commitdate: 2018/12/25
 photo.9.link: https://www.instagram.com/_natsu_panda_/
-photo.9.tags: muzzle, portrait
+photo.9.tags: muzzle, portrait, sample
 photo.10: ig://BrkPEVBFMO6/m
 photo.10.author: mifko55
 photo.10.commitdate: 2018/12/19
@@ -77,17 +77,17 @@ photo.13: ig://Br9qWkxlwtW/m
 photo.13.author: falcon_tenor
 photo.13.commitdate: 2018/12/30
 photo.13.link: https://www.instagram.com/falcon_tenor/
-photo.13.tags: muzzle, portrait
+photo.13.tags: muzzle, portrait, sample
 photo.14: ig://BsJuZDpg2YJ/m
 photo.14.author: nakacchi_desu
 photo.14.commitdate: 2019/1/3
 photo.14.link: https://www.instagram.com/nakacchi_desu/
-photo.14.tags: mofumofu, paws, tail
+photo.14.tags: mofumofu, paws, sample, tail
 photo.15: ig://Bsc6F98lYac/m
 photo.15.author: falcon_tenor
 photo.15.commitdate: 2019/1/15
 photo.15.link: https://www.instagram.com/falcon_tenor/
-photo.15.tags: mofumofu, portrait
+photo.15.tags: mofumofu, portrait, sample
 photo.16: ig://Bs2wcxTFNs0/m
 photo.16.author: daniele.tokyo
 photo.16.commitdate: 2019/1/20
@@ -97,31 +97,32 @@ photo.17: ig://Bs5MgKXl26q/m
 photo.17.author: yakkooo24
 photo.17.commitdate: 2020/1/18
 photo.17.link: https://www.instagram.com/yakkooo24/
-photo.17.tags: baby, portrait, standing, tail
+photo.17.tags: baby, portrait, sample, standing, tail
 photo.18: ig://Bs7Pmyxlyqj/m
 photo.18.author: adventureworld_official
 photo.18.commitdate: 2019/1/24
 photo.18.link: https://www.instagram.com/adventureworld_official/
-photo.18.tags: mofumofu, tail, tree, upside-down
+photo.18.tags: mofumofu, sample, tail, tree, upside-down
 photo.19: ig://BtDi0-5FaFc/m
 photo.19.author: nakageo
 photo.19.commitdate: 2019/1/27
 photo.19.link: https://www.instagram.com/nakageo/
-photo.19.tags: paws, tree
+photo.19.tags: paws, sample, tree
 photo.20: ig://BtQud0qgHMh/m
 photo.20.author: pon.bird
 photo.20.commitdate: 2019/2/4
 photo.20.link: https://www.instagram.com/pon.bird/
-photo.20.tags: laying down, portrait, tree
+photo.20.tags: laying down, portrait, sample, tree
 photo.21: ig://BtitTfLF0J0/m
 photo.21.author: mifko55
 photo.21.commitdate: 2019/2/17
 photo.21.link: https://www.instagram.com/mifko55/
+photo.21.tags: baby, sample
 photo.22: ig://BtvL0vWlJsq/m
 photo.22.author: nakageo
 photo.22.commitdate: 2019/2/19
 photo.22.link: https://www.instagram.com/nakageo/
-photo.22.tags: mofumofu, surprise
+photo.22.tags: baby, mofumofu, sample, surprise
 photo.23: ig://BuJcaMig90I/m
 photo.23.author: animal0720
 photo.23.commitdate: 2019/3/2
@@ -135,27 +136,27 @@ photo.25: ig://BvkZb60nhIu/m
 photo.25.author: mochan8686
 photo.25.commitdate: 2019/4/1
 photo.25.link: https://www.instagram.com/mochan8686/
-photo.25.tags: bridge, portrait
+photo.25.tags: baby, bridge, portrait, sample
 photo.26: ig://Bv3uOcDFVR7/m
 photo.26.author: framereim
 photo.26.commitdate: 2019/4/6
 photo.26.link: https://www.instagram.com/framereim/
-photo.26.tags: portrait, smile
+photo.26.tags: baby, portrait, sample, smile
 photo.27: ig://BwDgk5alC8U/m
 photo.27.author: nakageo
 photo.27.commitdate: 2019/4/10
 photo.27.link: https://www.instagram.com/nakageo/
-photo.27.tags: smile, tree
+photo.27.tags: baby, smile, tree
 photo.28: ig://BwRkEicF4hL/m
 photo.28.author: craig_craig_craig
 photo.28.commitdate: 2019/5/10
 photo.28.link: https://www.instagram.com/craig_craig_craig/
-photo.28.tags: bridge, smile, tongue
+photo.28.tags: baby, bridge, sample, smile, tongue
 photo.29: ig://BwTOFXZlR0M/m
 photo.29.author: craig_craig_craig
 photo.29.commitdate: 2019/5/10
 photo.29.link: https://www.instagram.com/craig_craig_craig/
-photo.29.tags: dish, lunch time
+photo.29.tags: dish, lunch time, portrait, sample
 photo.30: ig://BwiLRcCFhKH/m
 photo.30.author: craig_craig_craig
 photo.30.commitdate: 2019/5/10
@@ -165,7 +166,7 @@ photo.31: ig://BwnzJHUlbVw/m
 photo.31.author: fetorus_mami
 photo.31.commitdate: 2019/5/16
 photo.31.link: https://www.instagram.com/fetorus_mami/
-photo.31.tags: laying down, tree
+photo.31.tags: laying down, sample, tree
 photo.32: ig://BwtAhRnlCZi/m
 photo.32.author: resapanlove
 photo.32.commitdate: 2019/4/30
@@ -175,7 +176,7 @@ photo.33: ig://BwtjxSZFX-h/m
 photo.33.author: framereim
 photo.33.commitdate: 2019/4/30
 photo.33.link: https://www.instagram.com/framereim/
-photo.33.tags: portrait, standing, tongue
+photo.33.tags: portrait, sample, standing, tongue
 photo.34: ig://BxoJVJBFsSG/m
 photo.34.author: framereim
 photo.34.commitdate: 2019/5/21
@@ -189,27 +190,27 @@ photo.36: ig://Bx2OePwl18c/m
 photo.36.author: fetorus_mami
 photo.36.commitdate: 2019/5/30
 photo.36.link: https://www.instagram.com/fetorus_mami/
-photo.36.tags: bridge, laying down, peek
+photo.36.tags: bridge, laying down, peek, sample
 photo.37: ig://Bx4W6O0hz0I/m
 photo.37.author: fetorus_mami
 photo.37.commitdate: 2019/5/31
 photo.37.link: https://www.instagram.com/fetorus_mami/
-photo.37.tags: bamboo, white face
+photo.37.tags: bamboo, sample, white face
 photo.38: ig://Bx904SUBmtv/m
 photo.38.author: fetorus_mami
 photo.38.commitdate: 2019/5/31
 photo.38.link: https://www.instagram.com/fetorus_mami/
-photo.38.tags: bridge
+photo.38.tags: bridge, sample
 photo.39: ig://ByGypZphDCv/m
 photo.39.author: fetorus_mami
 photo.39.commitdate: 2019/6/1
 photo.39.link: https://www.instagram.com/fetorus_mami/
-photo.39.tags: bridge, portrait
+photo.39.tags: bridge, portrait, sample
 photo.40: ig://ByQISEZB3Zh/m
 photo.40.author: craig_craig_craig
 photo.40.commitdate: 2019/6/3
 photo.40.link: https://www.instagram.com/craig_craig_craig/
-photo.40.tags: paws, portrait, smile
+photo.40.tags: paws, portrait, sample, smile
 photo.41: ig://BylgvMVhWNA/m
 photo.41.author: redpanda_nippon_takashi
 photo.41.commitdate: 2019/6/13
@@ -219,17 +220,17 @@ photo.42: ig://BylkGc9h5gP/m
 photo.42.author: fetorus_mami
 photo.42.commitdate: 2019/6/13
 photo.42.link: https://www.instagram.com/fetorus_mami/
-photo.42.tags: bite, smile
+photo.42.tags: bite, portrait, sample, smile
 photo.43: ig://ByoRJJchbKT/m
 photo.43.author: fetorus_mami
 photo.43.commitdate: 2019/6/13
 photo.43.link: https://www.instagram.com/fetorus_mami/
-photo.43.tags: dish, portrait, smile
+photo.43.tags: dish, portrait, sample, smile
 photo.44: ig://Byux2dMBInM/m
 photo.44.author: fetorus_mami
 photo.44.commitdate: 2019/6/16
 photo.44.link: https://www.instagram.com/fetorus_mami/
-photo.44.tags: bridge, laying down
+photo.44.tags: bridge, laying down, sample
 photo.45: ig://By2fiVqhgPC/m
 photo.45.author: nakageo
 photo.45.commitdate: 2019/6/20
@@ -239,7 +240,7 @@ photo.46: ig://By7XngTht32/m
 photo.46.author: nakageo
 photo.46.commitdate: 2019/6/21
 photo.46.link: https://www.instagram.com/nakageo/
-photo.46.tags: bridge, mofumofu, tail
+photo.46.tags: bridge, mofumofu, sample, tail
 photo.47: ig://By8vMVhhF0R/m
 photo.47.author: craig_craig_craig
 photo.47.commitdate: 2019/6/23
@@ -249,12 +250,12 @@ photo.48: ig://By9Ni8aBO07/m
 photo.48.author: redpanda_nippon_takashi
 photo.48.commitdate: 2019/6/23
 photo.48.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.48.tags: mofumofu, portrait
+photo.48.tags: mofumofu, portrait, sample
 photo.49: ig://By-HzeLhPan/m
 photo.49.author: apple_jasmine33
 photo.49.commitdate: 2019/6/23
 photo.49.link: https://www.instagram.com/apple_jasmine33/
-photo.49.tags: bridge, portrait, smile
+photo.49.tags: bridge, portrait, sample, smile
 photo.50: ig://BzAq-HthcdK/m
 photo.50.author: nakageo
 photo.50.commitdate: 2019/6/22
@@ -269,37 +270,37 @@ photo.52: ig://BzCBxQhBIgV/m
 photo.52.author: craig_craig_craig
 photo.52.commitdate: 2019/6/23
 photo.52.link: https://www.instagram.com/craig_craig_craig/
-photo.52.tags: portrait, smile
+photo.52.tags: portrait, sample, smile
 photo.53: ig://BzeNnWAB-oz/m
 photo.53.author: apple_jasmine33
 photo.53.commitdate: 2019/7/9
 photo.53.link: https://www.instagram.com/apple_jasmine33/
-photo.53.tags: portrait, standing
+photo.53.tags: portrait, sample, standing
 photo.54: ig://Bzf6_bBhSoU/m
 photo.54.author: craig_craig_craig
 photo.54.commitdate: 2019/7/9
 photo.54.link: https://www.instagram.com/craig_craig_craig/
-photo.54.tags: bridge, laying down
+photo.54.tags: bridge, laying down, sample
 photo.55: ig://BznZyaJgpfr/m
 photo.55.author: pon.bird
 photo.55.commitdate: 2019/8/13
 photo.55.link: https://www.instagram.com/pon.bird/
-photo.55.tags: paws, portrait, smile
+photo.55.tags: paws, portrait, sample, smile
 photo.56: ig://B0Su_t-B9Nq/m
 photo.56.author: adventureworld_official
 photo.56.commitdate: 2019/8/13
 photo.56.link: https://www.instagram.com/adventureworld_official/
-photo.56.tags: lunch time, portrait
+photo.56.tags: lunch time, portrait, sample
 photo.57: ig://B0uk-wyBaEa/m
 photo.57.author: redpanda_nippon_takashi
 photo.57.commitdate: 2019/8/6
 photo.57.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.57.tags: laying down, techitechi
+photo.57.tags: laying down, sample, techitechi
 photo.58: ig://B0wb0ooBS9g/m
 photo.58.author: kipekaila
 photo.58.commitdate: 2019/8/6
 photo.58.link: https://www.instagram.com/kipekaila/
-photo.58.tags: nose, smile
+photo.58.tags: nose, sample, smile
 photo.59: ig://B0x1gsoA6B2/m
 photo.59.author: s24.star_load
 photo.59.commitdate: 2019/8/20
@@ -309,7 +310,7 @@ photo.60: ig://B2HJ2pRBaaj/m
 photo.60.author: motohin
 photo.60.commitdate: 2019/9/9
 photo.60.link: https://www.instagram.com/motohin/
-photo.60.tags: portrait, smile
+photo.60.tags: portrait, sample, smile
 photo.61: ig://B2JrO3DAFF4/m
 photo.61.author: nakacchi_desu
 photo.61.commitdate: 2019/9/14
@@ -319,17 +320,17 @@ photo.62: ig://B2LxZHIBuJE/m
 photo.62.author: resapanlove
 photo.62.commitdate: 2019/9/14
 photo.62.link: https://www.instagram.com/resapanlove/
-photo.62.tags: portrait, smile
+photo.62.tags: portrait, sample, smile
 photo.63: ig://B2OvcV5BXsX/m
 photo.63.author: resapanlove
 photo.63.commitdate: 2019/9/14
 photo.63.link: https://www.instagram.com/resapanlove/
-photo.63.tags: bridge, bamboo, peek
+photo.63.tags: bridge, bamboo, peek, sample
 photo.64: ig://B2T7uv7B3kl/m
 photo.64.author: resapanlove
 photo.64.commitdate: 2019/9/14
 photo.64.link: https://www.instagram.com/resapanlove/
-photo.64.tags: paws, smile, spider, tail
+photo.64.tags: paws, sample, smile, spider, tail
 photo.65: ig://B23-k0fhOmr/m
 photo.65.author: framereim
 photo.65.commitdate: 2019/10/8
@@ -339,22 +340,22 @@ photo.66: ig://B3l_-AjgmX0/m
 photo.66.author: kai.kuniko
 photo.66.commitdate: 2019/10/17
 photo.66.link: https://www.instagram.com/kai.kuniko/
-photo.66.tags: bridge, laying down, paws, portrait
+photo.66.tags: bridge, laying down, paws, portrait, sample
 photo.67: ig://B4FOYTwB7aI/m
 photo.67.author: fetorus_mami
 photo.67.commitdate: 2019/10/27
 photo.67.link: https://www.instagram.com/fetorus_mami/
-photo.67.tags: dish, paws, smile, tongue
+photo.67.tags: dish, paws, sample, smile, tongue
 photo.68: ig://B4Pb4MVBmdN/m
 photo.68.author: framereim
 photo.68.commitdate: 2019/10/31
 photo.68.link: https://www.instagram.com/framereim/
-photo.68.tags: apple time, smile, tongue
+photo.68.tags: apple time, sample, smile, tongue
 photo.69: ig://B4QuvQ7B6Ai/m
 photo.69.author: fetorus_mami
 photo.69.commitdate: 2019/10/31
 photo.69.link: https://www.instagram.com/fetorus_mami/
-photo.69.tags: bridge, laying down, portrait, profile, techitechi
+photo.69.tags: bridge, laying down, portrait, profile, sample, techitechi
 photo.70: ig://B4XPsEGhND5/m
 photo.70.author: fetorus_mami
 photo.70.commitdate: 2019/11/4
@@ -364,7 +365,7 @@ photo.71: ig://B4ZgYBRBhTc/m
 photo.71.author: chankunvv
 photo.71.commitdate: 2019/11/4
 photo.71.link: https://www.instagram.com/chankunvv/
-photo.71.tags: mofumofu, paws, portrait
+photo.71.tags: mofumofu, paws, portrait, sample
 photo.72: ig://B4ZqzuUhhe6/m
 photo.72.author: chankunvv
 photo.72.commitdate: 2019/11/4
@@ -374,7 +375,7 @@ photo.73: ig://B4hPy6fhpAB/m
 photo.73.author: chankunvv
 photo.73.commitdate: 2019/11/9
 photo.73.link: https://www.instagram.com/chankunvv/
-photo.73.tags: bridge, laying down, paws, portrait, tongue
+photo.73.tags: bridge, laying down, paws, portrait, sample, tongue
 photo.74: ig://B4zXK-GBtFr/m
 photo.74.author: chankunvv
 photo.74.commitdate: 2019/11/17
@@ -394,7 +395,7 @@ photo.77: ig://B5h6GMdBrFt/m
 photo.77.author: chankunvv
 photo.77.commitdate: 2019/12/5
 photo.77.link: https://www.instagram.com/chankunvv/
-photo.77.tags: dish, portrait, smile
+photo.77.tags: dish, portrait, sample, smile
 photo.78: ig://B5kkd6DB6md/m
 photo.78.author: chankunvv
 photo.78.commitdate: 2019/12/5
@@ -404,22 +405,22 @@ photo.79: ig://B5nkT5MBlKC/m
 photo.79.author: craig_craig_craig
 photo.79.commitdate: 2019/12/9
 photo.79.link: https://www.instagram.com/craig_craig_craig/
-photo.79.tags: bridge, portrait
+photo.79.tags: bridge, portrait, sample
 photo.80: ig://B6JiYmqBjUu/m
 photo.80.author: craig_craig_craig
 photo.80.commitdate: 2019/12/29
 photo.80.link: https://www.instagram.com/craig_craig_craig/
-photo.80.tags: portrait
+photo.80.tags: portrait, sample, whiskers
 photo.81: ig://B6f81oHBMrA/m
 photo.81.author: fetorus_mami
 photo.81.commitdate: 2019/12/30
 photo.81.link: https://www.instagram.com/fetorus_mami/
-photo.81.tags: dish, portrait
+photo.81.tags: dish, portrait, sample
 photo.82: ig://B6sCqriBIXS/m
 photo.82.author: chankunvv
 photo.82.commitdate: 2019/12/31
 photo.82.link: https://www.instagram.com/chankunvv/
-photo.82.tags: air tasting, portrait, tongue, whiskers
+photo.82.tags: air tasting, portrait, sample, tongue, whiskers
 photo.83: ig://B6s2DqPBAQ9/m
 photo.83.author: kipekaila
 photo.83.commitdate: 2019/12/31
@@ -429,17 +430,17 @@ photo.84: ig://B7BFSIBhjOp/m
 photo.84.author: framereim
 photo.84.commitdate: 2020/1/9
 photo.84.link: https://www.instagram.com/framereim/
-photo.84.tags: dish, lunch time, paws, smile, standing
+photo.84.tags: dish, lunch time, paws, sample, smile, standing
 photo.85: ig://B7aq3c9Bqxe/m
 photo.85.author: sasapan34
 photo.85.commitdate: 2020/1/19
 photo.85.link: https://www.instagram.com/sasapan34/
-photo.85.tags: peek
+photo.85.tags: peek, sample
 photo.86: ig://B7gFttmh5B0/m
 photo.86.author: chankunvv
 photo.86.commitdate: 2020/1/21
 photo.86.link: https://www.instagram.com/chankunvv/
-photo.86.tags: portrait, techitechi, whiskers
+photo.86.tags: portrait, sample, techitechi, whiskers
 photo.87: ig://B7nBNRGBVvU/m
 photo.87.author: adventureworld_official
 photo.87.commitdate: 2020/3/20
@@ -449,7 +450,7 @@ photo.88: ig://B7qSbn_BZGa/m
 photo.88.author: framereim
 photo.88.commitdate: 2020/1/25
 photo.88.link: https://www.instagram.com/framereim/
-photo.88.tags: keeper, lunch time, paws, standing
+photo.88.tags: keeper, lunch time, paws, sample, standing
 photo.89: ig://B7tNEI0hZj8/m
 photo.89.author: fetorus_mami
 photo.89.commitdate: 2020/1/26
@@ -464,17 +465,17 @@ photo.91: ig://B73aYxWBpqL/m
 photo.91.author: fetorus_mami
 photo.91.commitdate: 2020/1/28
 photo.91.link: https://www.instagram.com/fetorus_mami/
-photo.91.tags: mofumofu, portrait, tongue, whiskers
+photo.91.tags: mofumofu, portrait, sample, tongue, whiskers
 photo.92: ig://B8DvMFIBSwk/m
 photo.92.author: pink.b22
 photo.92.commitdate: 2020/2/13
 photo.92.link: https://www.instagram.com/pink.b22/
-photo.92.tags: bamboo, bite, tongue
+photo.92.tags: bamboo, bite, portrait, sample, tongue
 photo.93: ig://B8FU7giBK6e/m
 photo.93.author: framereim
 photo.93.commitdate: 2020/2/13
 photo.93.link: https://www.instagram.com/framereim/
-photo.93.tags: dish, lunch time, paws, smile
+photo.93.tags: dish, lunch time, paws, sample, smile
 photo.94: ig://B8XU5FoBemW/m
 photo.94.author: miis_98
 photo.94.commitdate: 2020/2/18
@@ -484,7 +485,7 @@ photo.95: ig://B8Z5fQrBE2v/m
 photo.95.author: miis_98
 photo.95.commitdate: 2020/2/18
 photo.95.link: https://www.instagram.com/miis_98/
-photo.95.tags: portrait, whiskers
+photo.95.tags: portrait, sample, whiskers
 photo.96: ig://B8gjEkphV3m/m
 photo.96.author: fetorus_mami
 photo.96.commitdate: 2020/2/18
@@ -494,7 +495,7 @@ photo.97: ig://B8nN4mghlom/m
 photo.97.author: adventureworld_official
 photo.97.commitdate: 2020/3/20
 photo.97.link: https://www.instagram.com/adventureworld_official/
-photo.97.tags: dish, laying down, portrait
+photo.97.tags: dish, laying down, portrait, sample
 photo.98: ig://B8qNZeVhYEI/m
 photo.98.author: redpanda_nippon_takashi
 photo.98.commitdate: 2020/2/29
@@ -504,12 +505,12 @@ photo.99: ig://B8v168Xh2I_/m
 photo.99.author: craig_craig_craig
 photo.99.commitdate: 2020/2/29
 photo.99.link: https://www.instagram.com/craig_craig_craig/
-photo.99.tags: paws, portrait, standing, window
+photo.99.tags: paws, portrait, sample, standing, window
 photo.100: ig://B8w6rpRB6Ms/m
 photo.100.author: craig_craig_craig
 photo.100.commitdate: 2020/2/29
 photo.100.link: https://www.instagram.com/craig_craig_craig/
-photo.100.tags: paws, standing
+photo.100.tags: paws, sample, standing
 photo.101: ig://B8x1LWInRyy/m
 photo.101.author: craig_craig_craig
 photo.101.commitdate: 2020/2/29
@@ -519,22 +520,22 @@ photo.102: ig://B8yeG6Mhwgk/m
 photo.102.author: craig_craig_craig
 photo.102.commitdate: 2020/2/29
 photo.102.link: https://www.instagram.com/craig_craig_craig/
-photo.102.tags: paws, standing
+photo.102.tags: paws, sample, standing
 photo.103: ig://B80WotABs3e/m
 photo.103.author: craig_craig_craig
 photo.103.commitdate: 2020/2/29
 photo.103.link: https://www.instagram.com/craig_craig_craig/
-photo.103.tags: paws, standing
+photo.103.tags: paws, sample, standing
 photo.104: ig://B82O21whwpA/m
 photo.104.author: miis_98
 photo.104.commitdate: 2020/2/29
 photo.104.link: https://www.instagram.com/miis_98/
-photo.104.tags: dish, portrait, smile, tail
+photo.104.tags: dish, portrait, sample, smile, tail
 photo.105: ig://B82R3ihhq_M/m
 photo.105.author: redpanda_nippon_takashi
 photo.105.commitdate: 2020/2/29
 photo.105.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.105.tags: peek, portrait, whiskers
+photo.105.tags: peek, portrait, sample, whiskers
 photo.106: ig://B8329WchSmd/m
 photo.106.author: craig_craig_craig
 photo.106.commitdate: 2020/2/29
@@ -549,12 +550,12 @@ photo.108: ig://B88bju-Bu_m/m
 photo.108.author: chankunvv
 photo.108.commitdate: 2020/2/29
 photo.108.link: https://www.instagram.com/chankunvv/
-photo.108.tags: portrait, whiskers
+photo.108.tags: portrait, sample, whiskers
 photo.109: ig://B9DxaTjB6Va/m
 photo.109.author: craig_craig_craig
 photo.109.commitdate: 2020/3/10
 photo.109.link: https://www.instagram.com/craig_craig_craig/
-photo.109.tags: bridge, peek, portrait, whiskers
+photo.109.tags: bridge, peek, portrait, sample, whiskers
 photo.110: ig://B9FiJKDhD4z/m
 photo.110.author: craig_craig_craig
 photo.110.commitdate: 2020/3/10
@@ -564,37 +565,37 @@ photo.111: ig://B9J1seFhX-3/m
 photo.111.author: craig_craig_craig
 photo.111.commitdate: 2020/3/10
 photo.111.link: https://www.instagram.com/craig_craig_craig/
-photo.111.tags: apple time, paws, portrait, tongue
+photo.111.tags: apple time, paws, portrait, sample, tongue
 photo.112: ig://B9NPxxXBGxt/m
 photo.112.author: craig_craig_craig
 photo.112.commitdate: 2020/3/10
 photo.112.link: https://www.instagram.com/craig_craig_craig/
-photo.112.tags: paws, portrait, tongue, whiskers
+photo.112.tags: paws, portrait, sample, tongue, whiskers
 photo.113: ig://B9VrmchBI7d/m
 photo.113.author: craig_craig_craig
 photo.113.commitdate: 2020/3/10
 photo.113.link: https://www.instagram.com/craig_craig_craig/
-photo.113.tags: paws, portrait
+photo.113.tags: paws, portrait, sample
 photo.114: ig://B9Zn6DShYzZ/m
 photo.114.author: craig_craig_craig
 photo.114.commitdate: 2020/3/10
 photo.114.link: https://www.instagram.com/craig_craig_craig/
-photo.114.tags: dish, lunch time, paws, portrait, whiskers
+photo.114.tags: dish, lunch time, paws, portrait, sample, whiskers
 photo.115: ig://B9dWJ1-B9LL/m
 photo.115.author: craig_craig_craig
 photo.115.commitdate: 2020/3/17
 photo.115.link: https://www.instagram.com/craig_craig_craig/
-photo.115.tags: air tasting, portrait, tongue
+photo.115.tags: air tasting, portrait, sample, tongue
 photo.116: ig://B9eI6tKBYw7/m
 photo.116.author: craig_craig_craig
 photo.116.commitdate: 2020/3/17
 photo.116.link: https://www.instagram.com/craig_craig_craig/
-photo.116.tags: air tasting, portrait, tongue
+photo.116.tags: air tasting, portrait, sample, tongue
 photo.117: ig://B9fSOgdhuG8/m
 photo.117.author: craig_craig_craig
 photo.117.commitdate: 2020/3/17
 photo.117.link: https://www.instagram.com/craig_craig_craig/
-photo.117.tags: dish, mofumofu, paws, portrait, smile
+photo.117.tags: dish, mofumofu, paws, portrait, sample, smile
 photo.118: ig://B9h2BWgBCFd/m
 photo.118.author: craig_craig_craig
 photo.118.commitdate: 2020/3/17
@@ -604,17 +605,17 @@ photo.119: ig://B9imLVKBTeI/m
 photo.119.author: craig_craig_craig
 photo.119.commitdate: 2020/3/17
 photo.119.link: https://www.instagram.com/craig_craig_craig/
-photo.119.tags: bamboo, laying down, portrait, smile, tongue, upside-down
+photo.119.tags: bamboo, laying down, portrait, sample, smile, tongue, upside-down
 photo.120: ig://B9vdGkXh-Xj/m
 photo.120.author: kipekaila
 photo.120.commitdate: 2020/3/17
 photo.120.link: https://www.instagram.com/kipekaila/
-photo.120.tags: baby, muzzle, portrait, whiskers
+photo.120.tags: baby, muzzle, portrait, sample, whiskers
 photo.121: ig://B9yBr23BEhT/m
 photo.121.author: craig_craig_craig
 photo.121.commitdate: 2020/3/19
 photo.121.link: https://www.instagram.com/craig_craig_craig/
-photo.121.tags: bridge, laying down, peek, portrait
+photo.121.tags: bridge, laying down, peek, portrait, sample
 photo.122: ig://B-SJNnfh3nM/m
 photo.122.author: kisshan324
 photo.122.commitdate: 2020/3/28
@@ -624,7 +625,7 @@ photo.123: ig://B-UJ427B-_U/m
 photo.123.author: chankunvv
 photo.123.commitdate: 2020/5/2
 photo.123.link: https://www.instagram.com/chankunvv/
-photo.123.tags: portrait, whiskers
+photo.123.tags: portrait, sample, whiskers
 photo.124: ig://B-Zh_F6hHop/m
 photo.124.author: craig_craig_craig
 photo.124.commitdate: 2020/4/17
@@ -634,17 +635,17 @@ photo.125: ig://B-sf5zkhzyV/m
 photo.125.author: craig_craig_craig
 photo.125.commitdate: 2020/4/15
 photo.125.link: https://www.instagram.com/craig_craig_craig/
-photo.125.tags: portrait, smile
+photo.125.tags: portrait, sample, smile
 photo.126: ig://B-wwHnSBgSM/m
 photo.126.author: craig_craig_craig
 photo.126.commitdate: 2020/5/2
 photo.126.link: https://www.instagram.com/craig_craig_craig/
-photo.126.tags: portrait, tail
+photo.126.tags: portrait, sample, tail
 photo.127: ig://B-zZrc6BNzn/m
 photo.127.author: mifko55
 photo.127.commitdate: 2020/5/2
 photo.127.link: https://www.instagram.com/mifko55/
-photo.127.tags: baby, mofumofu, muzzle, portrait, tail
+photo.127.tags: baby, mofumofu, muzzle, portrait, sample, tail
 photo.128: ig://B_H12kNhB3S/m
 photo.128.author: craig_craig_craig
 photo.128.commitdate: 2020/5/2
@@ -659,17 +660,17 @@ photo.130: ig://B_oSUZGnTAA/m
 photo.130.author: chankunvv
 photo.130.commitdate: 2020/5/2
 photo.130.link: https://www.instagram.com/chankunvv/
-photo.130.tags: portrait, whiskers
+photo.130.tags: portrait, sample, whiskers
 photo.131: ig://CAh72qbHK_Q/m
 photo.131.author: chankunvv
 photo.131.commitdate: 2020/6/13
 photo.131.link: https://www.instagram.com/chankunvv/
-photo.131.tags: laying down, paws, portrait
+photo.131.tags: laying down, paws, portrait, sample
 photo.132: ig://CApZQFCHqF0/m
 photo.132.author: chankunvv
 photo.132.commitdate: 2020/6/20
 photo.132.link: https://www.instagram.com/chankunvv/
-photo.132.tags: paws, portrait, smile, standing
+photo.132.tags: paws, portrait, sample, smile, standing
 photo.133: ig://CAsQ-yxHGzN/m
 photo.133.author: craig_craig_craig
 photo.133.commitdate: 2020/6/13
@@ -684,12 +685,12 @@ photo.135: ig://CAxW70JBu0T/m
 photo.135.author: mifko55
 photo.135.commitdate: 2020/6/20
 photo.135.link: https://www.instagram.com/mifko55/
-photo.135.tags: bridge, peek, portrait, tail
+photo.135.tags: bridge, peek, portrait, sample, tail
 photo.136: ig://CCJJiTphHaX/m
 photo.136.author: hamiiiii831_
 photo.136.commitdate: 2020/7/14
 photo.136.link: https://www.instagram.com/hamiiiii831_/
-photo.136.tags: paws, standing
+photo.136.tags: paws, sample, standing
 photo.137: ig://CCgDysJhqNx/m
 photo.137.author: chankunvv
 photo.137.commitdate: 2020/7/18
@@ -699,17 +700,17 @@ photo.138: ig://CDAY35bBhnu/m
 photo.138.author: chankunvv
 photo.138.commitdate: 2020/7/31
 photo.138.link: https://www.instagram.com/chankunvv/
-photo.138.tags: portrait, smile, whiskers
+photo.138.tags: portrait, sample, smile, whiskers
 photo.139: ig://CDAgAW2hSAm/m
 photo.139.author: adventureworld_official
 photo.139.commitdate: 2020/8/2
 photo.139.link: https://www.instagram.com/adventureworld_official/
-photo.139.tags: close-up, mofumofu, portrait, techitechi
+photo.139.tags: close-up, mofumofu, portrait, sample, techitechi
 photo.140: ig://CDWrjVOhYXE/m
 photo.140.author: resapan.suki
 photo.140.commitdate: 2020/8/5
 photo.140.link: https://www.instagram.com/resapan.suki/
-photo.140.tags: air tasting, mofumofu, portrait, tongue
+photo.140.tags: air tasting, mofumofu, portrait, sample, tongue
 photo.141: ig://CDgotAzBKqa/m
 photo.141.author: craig_craig_craig
 photo.141.commitdate: 2020/8/5
@@ -719,7 +720,7 @@ photo.142: ig://CDj8jgdB5-A/m
 photo.142.author: redpanda_nippon_takashi
 photo.142.commitdate: 2020/8/13
 photo.142.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.142.tags: paws, smile, whiskers
+photo.142.tags: paws, sample, smile, whiskers
 photo.143: ig://CDtX_IGhK3a/m
 photo.143.author: chankunvv
 photo.143.commitdate: 2020/8/17
@@ -729,52 +730,52 @@ photo.144: ig://CD_fHNZBRUi/m
 photo.144.author: craig_craig_craig
 photo.144.commitdate: 2020/10/1
 photo.144.link: https://www.instagram.com/craig_craig_craig/
-photo.144.tags: baby, mofumofu
+photo.144.tags: baby, mofumofu, sample
 photo.145: ig://CECFEZ0hseh/m
 photo.145.author: craig_craig_craig
 photo.145.commitdate: 2020/9/7
 photo.145.link: https://www.instagram.com/craig_craig_craig/
-photo.145.tags: mofumofu, portrait, tail
+photo.145.tags: mofumofu, portrait, sample, tail
 photo.146: ig://CEJfWMFhRxc/m
 photo.146.author: chankunvv
 photo.146.commitdate: 2020/8/29
 photo.146.link: https://www.instagram.com/chankunvv/
-photo.146.tags: mofumofu, portrait
+photo.146.tags: mofumofu, portrait, sample
 photo.147: ig://CEMAvGxBmt7/m
 photo.147.author: chankunvv
 photo.147.commitdate: 2020/8/29
 photo.147.link: https://www.instagram.com/chankunvv/
-photo.147.tags: paws, peek, portrait
+photo.147.tags: paws, peek, portrait, sample
 photo.148: ig://CEMWzfTBRfX/m
 photo.148.author: chankunvv
 photo.148.commitdate: 2020/8/29
 photo.148.link: https://www.instagram.com/chankunvv/
-photo.148.tags: portrait, videolink
+photo.148.tags: portrait, sample, videolink
 photo.149: ig://CFBbhfKBDC1/m
 photo.149.author: riri_panda616
 photo.149.commitdate: 2020/10/1
 photo.149.link: https://www.instagram.com/riri_panda616/
-photo.149.tags: bamboo, paws, portrait
+photo.149.tags: bamboo, paws, portrait, sample
 photo.150: ig://CFZZLkCBCQu/m
 photo.150.author: chankunvv
 photo.150.commitdate: 2020/9/21
 photo.150.link: https://www.instagram.com/chankunvv/
-photo.150.tags: dish, nose, portrait
+photo.150.tags: dish, nose, portrait, sample, whiskers
 photo.151: ig://CGuh30QhP2c/m
 photo.151.author: chankunvv
 photo.151.commitdate: 2020/10/26
 photo.151.link: https://www.instagram.com/chankunvv/
-photo.151.tags: portrait
+photo.151.tags: portrait, sample
 photo.152: ig://CGzXhoYhk87/m
 photo.152.author: framereim
 photo.152.commitdate: 2021/8/14
 photo.152.link: https://www.instagram.com/framereim/
-photo.152.tags: paws, standing, techitechi, window
+photo.152.tags: paws, sample, standing, techitechi, window
 photo.153: ig://CG6zel8BKyT/m
 photo.153.author: resapan.suki
 photo.153.commitdate: 2020/11/1
 photo.153.link: https://www.instagram.com/resapan.suki/
-photo.153.tags: close-up, grooming, paws, portrait, tongue
+photo.153.tags: close-up, grooming, paws, portrait, sample, tongue
 photo.154: ig://CJgaRPdh8F4/m
 photo.154.author: craig_craig_craig
 photo.154.commitdate: 2021/1/28
@@ -809,22 +810,22 @@ photo.160: ig://CKTg0OjB90u/m
 photo.160.author: craig_craig_craig
 photo.160.commitdate: 2021/3/2
 photo.160.link: https://www.instagram.com/craig_craig_craig/
-photo.160.tags: paws, standing
+photo.160.tags: paws, sample, standing
 photo.161: ig://CKYFqyAhf4t/m
 photo.161.author: craig_craig_craig
 photo.161.commitdate: 2021/2/28
 photo.161.link: https://www.instagram.com/craig_craig_craig/
-photo.161.tags: paws, portrait, standing, tail
+photo.161.tags: paws, portrait, sample, standing, tail
 photo.162: ig://CLB4idpBgHh/m
 photo.162.author: framereim
 photo.162.commitdate: 2021/3/2
 photo.162.link: https://www.instagram.com/framereim/
-photo.162.tags: dish, lunch time, portrait, tail
+photo.162.tags: dish, lunch time, portrait, sample, tail
 photo.163: ig://CL6unofhjar/m
 photo.163.author: craig_craig_craig
 photo.163.commitdate: 2021/3/4
 photo.163.link: https://www.instagram.com/craig_craig_craig/
-photo.163.tags: dish, portrait, videolink
+photo.163.tags: dish, portrait, sample, videolink
 photo.164: ig://CNj8rhthgCC/m
 photo.164.author: chankunvv
 photo.164.commitdate: 2021/6/1
@@ -839,12 +840,12 @@ photo.166: ig://CN96D55B3Rt/m
 photo.166.author: chankunvv
 photo.166.commitdate: 2021/5/19
 photo.166.link: https://www.instagram.com/chankunvv/
-photo.166.tags: dish, peek, portrait
+photo.166.tags: dish, peek, portrait, sample
 photo.167: ig://COPCHOvBuOx/m
 photo.167.author: framereim
 photo.167.commitdate: 2021/5/3
 photo.167.link: https://www.instagram.com/framereim/
-photo.167.tags: dish, laying down, lunch time, smile, whiskers
+photo.167.tags: dish, laying down, lunch time, sample, smile, whiskers
 photo.168: ig://CORnMrdhMw5/m
 photo.168.author: chankunvv
 photo.168.commitdate: 2021/5/3
@@ -864,12 +865,12 @@ photo.171: ig://CSjMXIELenf/m
 photo.171.author: chankunvv
 photo.171.commitdate: 2021/11/21
 photo.171.link: https://www.instagram.com/chankunvv/
-photo.171.tags: mofumofu, nose, portrait
+photo.171.tags: mofumofu, nose, portrait, sample
 photo.172: ig://CURuNCXLyX-/m
 photo.172.author: chankunvv
 photo.172.commitdate: 2021/10/9
 photo.172.link: https://www.instagram.com/chankunvv/
-photo.172.tags: dish, paws, portrait, tail
+photo.172.tags: dish, paws, portrait, sample, tail
 photo.173: ig://CWVaz-NBYgY/m
 photo.173.author: nishicotolo
 photo.173.commitdate: 2021/11/21
@@ -879,7 +880,7 @@ photo.174: ig://CWan9mIhmfD/m
 photo.174.author: jas_forever_love
 photo.174.commitdate: 2021/11/21
 photo.174.link: https://www.instagram.com/jas_forever_love/
-photo.174.tags: mofumofu, peek, portrait, tongue
+photo.174.tags: mofumofu, peek, portrait, sample, tongue
 photo.175: ig://CWiafkGBYRM/m
 photo.175.author: apple_jasmine33
 photo.175.commitdate: 2021/11/25
@@ -889,7 +890,7 @@ photo.176: ig://CWngja8Bjjp/m
 photo.176.author: redpanda_nippon_takashi
 photo.176.commitdate: 2021/11/24
 photo.176.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.176.tags: close-up, paws, whiskers
+photo.176.tags: close-up, paws, sample, whiskers
 photo.177: ig://CXqL7D-r21K/m
 photo.177.author: chankunvv
 photo.177.commitdate: 2021/12/19
