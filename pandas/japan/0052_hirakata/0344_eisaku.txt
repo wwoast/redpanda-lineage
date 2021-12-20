@@ -74,7 +74,7 @@ photo.12: ig://B0V0vS9hMRG/m
 photo.12.author: craig_craig_craig
 photo.12.commitdate: 2019/7/28
 photo.12.link: https://www.instagram.com/craig_craig_craig/
-photo.12.tags: laying down, portrait, profile, smile
+photo.12.tags: laying down, portrait, sample, smile
 photo.13: ig://B0nkhSFB9ID/m
 photo.13.author: miis_98
 photo.13.commitdate: 2019/8/10
@@ -469,6 +469,10 @@ photo.91.author: hidehaya_biei
 photo.91.commitdate: 2021/12/19
 photo.91.link: https://www.instagram.com/hidehaya_biei/
 photo.91.tags: paws, sample, smile, whiskers
+photo.92: https://www.instagram.com/p/CXlLb4mP2t_/media/?size=m
+photo.92.author: jas_forever_love
+photo.92.link: https://www.instagram.com/jas_forever_love/
+photo.92.tags: portrait, profile, sample, tree 
 species: 2
 studbook.id: unknown
 zoo: 52

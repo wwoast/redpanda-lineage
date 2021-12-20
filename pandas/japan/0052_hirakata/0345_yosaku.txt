@@ -99,7 +99,7 @@ photo.17: ig://B2ESCOkBDKl/m
 photo.17.author: mifko55
 photo.17.commitdate: 2019/9/6
 photo.17.link: https://www.instagram.com/mifko55/
-photo.17.tags: portrait, profile
+photo.17.tags: portrait, sample
 photo.18: ig://B2hwW5jBPDz/m
 photo.18.author: panda.daisuki
 photo.18.commitdate: 2019/9/18
@@ -370,6 +370,10 @@ photo.71.author: ssc6105
 photo.71.commitdate: 2021/12/19
 photo.71.link: https://www.instagram.com/ssc6105/
 photo.71.tags: climb, paws, sample, smile, tail
+photo.72: https://www.instagram.com/p/CXgDjvjBkQu/media/?size=m
+photo.72.author: jas_forever_love
+photo.72.link: https://www.instagram.com/jas_forever_love/
+photo.72.tags: portrait, profile, sample, tree
 species: 2
 studbook.id: unknown
 zoo: 52
