@@ -2927,6 +2927,15 @@ Language.L.tags = {
         "np": [Language.L.emoji.reiwa],
         "pt": ["reiwa"]
   },
+  "sample": {
+        "cn": ["样本", "样品", "样"],
+     "emoji": [Language.L.emoji.panda],
+        "en": ["sample"],
+        "es": ["muestra"],
+        "jp": ["見本", "試料", "試供品"],
+        "np": ["नमूना"],
+        "pt": ["amostra"]
+  },
   "scale": {
         "cn": ["测体重"],
      "emoji": [Language.L.emoji.scale],
