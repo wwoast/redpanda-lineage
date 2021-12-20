@@ -943,8 +943,9 @@ photo.188.author: miis_98
 photo.188.commitdate: 2021/11/29
 photo.188.link: https://www.instagram.com/miis_98/
 photo.188.tags: paws, portrait, whiskers
-photo.189: https://www.instagram.com/p/CXnn3HxPFr9/media/?size=m
+photo.189: ig://CXnn3HxPFr9/m
 photo.189.author: i.satosato
+photo.189.commitdate: 2021/12/19
 photo.189.link: https://www.instagram.com/i.satosato/
 photo.189.tags: home, paws, portrait, sample, tail
 species: 2

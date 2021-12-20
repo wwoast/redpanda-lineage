@@ -1040,8 +1040,9 @@ photo.206.author: mari_neko3
 photo.206.commitdate: 2021/11/29
 photo.206.link: https://www.instagram.com/mari_neko3/
 photo.206.tags: mofumofu, portrait, whiskers
-photo.207: https://www.instagram.com/p/CXntAkKvWI6/media/?size=m
+photo.207: ig://CXntAkKvWI6/m
 photo.207.author: hamamatsu.chiita
+photo.207.commitdate: 2021/12/19
 photo.207.link: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0554
