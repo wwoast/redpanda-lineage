@@ -20,5 +20,17 @@ photo.1.author: redpandasingapore
 photo.1.commitdate: 2021/9/6
 photo.1.link: https://www.instagram.com/redpandasingapore/
 photo.1.tags: portrait, profile, tree
+photo.2: https://www.instagram.com/p/CW2mLIkh8KY/media/?size=m
+photo.2.author: redpandasingapore
+photo.2.link: https://www.instagram.com/redpandasingapore/
+photo.2.tags: paws, portrait, whiskers
+photo.3: https://www.instagram.com/p/CQvdTpwB3VG/media/?size=m
+photo.3.author: redpandasingapore
+photo.3.link: https://www.instagram.com/redpandasingapore/
+photo.3.tags: keeper, portrait, videolink, tail
+photo.4: https://www.instagram.com/p/CT9hn-rBYbf/media/?size=m
+photo.4.author: redpandasingapore
+photo.4.link: https://www.instagram.com/redpandasingapore/
+photo.4.tags: laying down, paws, tail
 species: 1
 zoo: 205
