@@ -4,6 +4,7 @@ birthday: 2021/7/22
 birthplace: 219
 children: none
 commitdate: 2021/9/1
+death: 2021/12/17
 en.name: Minju
 en.nicknames: none
 en.othernames: none
@@ -26,5 +27,13 @@ photo.2.author: mirellad03
 photo.2.commitdate: 2021/9/25
 photo.2.link: https://www.instagram.com/mirellad03/
 photo.2.tags: baby, mofumofu, white face
+photo.3: https://www.instagram.com/p/CXA8B9aMGkX/media/?size=m
+photo.3.author: nathalie.elliott
+photo.3.link: https://www.instagram.com/nathalie.elliott/
+photo.3.tags: baby, bamboo, bite, portrait, profile, white face
+photo.4: https://www.instagram.com/p/CWy6JWJM5CF/media/?size=m
+photo.4.author: nathalie.elliott
+photo.4.link: https://www.instagram.com/nathalie.elliott/
+photo.4.tags: baby, bamboo, mofumofu, paws, portrait, tail
 species: 1
 zoo: 219
