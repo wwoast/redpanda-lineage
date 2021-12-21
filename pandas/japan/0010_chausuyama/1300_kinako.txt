@@ -118,21 +118,25 @@ photo.21.author: resapan.suki
 photo.21.commitdate: 2021/12/6
 photo.21.link: https://www.instagram.com/resapan.suki/
 photo.21.tags: baby, keeper, portrait, tail
-photo.22: https://www.instagram.com/p/CW5wtqFBlUN/media/?size=m
-photo.22.author: hamiiiii831_
-photo.22.link: https://www.instagram.com/hamiiiii831_/
-photo.22.tags: baby, sample, snow, videolink
-photo.23: https://www.instagram.com/p/CW5dg6FhAlT/media/?size=m
+photo.22: ig://CW25s22hs0f/m
+photo.22.author: ck.chie
+photo.22.commitdate: 2021/12/21
+photo.22.link: https://www.instagram.com/ck.chie/
+photo.22.tags: bamboo, mofumofu, paws, portrait, sample
+photo.23: ig://CW5dg6FhAlT/m
 photo.23.author: ck.chie
+photo.23.commitdate: 2021/12/21
 photo.23.link: https://www.instagram.com/ck.chie/
 photo.23.tags: baby, close-up, dish, paws, sample, whiskers
-photo.24: https://www.instagram.com/p/CW6tIJ7Bn5Y/media/?size=m
-photo.24.author: resapan.suki
-photo.24.link: https://www.instagram.com/resapan.suki/
-photo.24.tags: bamboo, laying down, paws, playing, portrait, sample, upside-down
-photo.25: https://www.instagram.com/p/CW25s22hs0f/media/?size=m
-photo.25.author: ck.chie
-photo.25.link: https://www.instagram.com/ck.chie/
-photo.25.tags: bamboo, mofumofu, paws, portrait, sample
+photo.24: ig://CW5wtqFBlUN/m
+photo.24.author: hamiiiii831_
+photo.24.commitdate: 2021/12/21
+photo.24.link: https://www.instagram.com/hamiiiii831_/
+photo.24.tags: baby, sample, snow, videolink
+photo.25: ig://CW6tIJ7Bn5Y/m
+photo.25.author: resapan.suki
+photo.25.commitdate: 2021/12/21
+photo.25.link: https://www.instagram.com/resapan.suki/
+photo.25.tags: bamboo, laying down, paws, playing, portrait, sample, upside-down
 species: 2
 zoo: 10

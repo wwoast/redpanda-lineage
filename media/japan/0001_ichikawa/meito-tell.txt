@@ -1,8 +1,10 @@
 [media]
 _id: media.1.meito-tell
+commitdate: 2021/12/21
 panda.tags: 2, 3
-photo.1: https://www.instagram.com/p/CW5DnRnhVQb/media/?size=l
+photo.1: ig://CW5DnRnhVQb/l
 photo.1.author: na.mo.pan
+photo.1.commitdate: 2021/12/21
 photo.1.link: https://www.instagram.com/na.mo.pan/
 photo.1.tags: friends
 photo.1.tags.2.location: 170, 285

@@ -1515,25 +1515,26 @@ photo.302.author: cattail.sapporo
 photo.302.commitdate: 2021/12/17
 photo.302.link: https://www.instagram.com/cattail.sapporo/
 photo.302.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.303: ig://CXk1065rWq2/m
+photo.303: ig://CW4_yDQL-81/m
 photo.303.author: cattail.sapporo
-photo.303.commitdate: 2021/12/19
+photo.303.commitdate: 2021/12/21
 photo.303.link: https://www.instagram.com/cattail.sapporo/
-photo.303.tags: close-up, paws, portrait, sample, snow, whiskers
-photo.304: ig://CXmZ11jv3pX/m
+photo.303.tags: peek, portrait, sample, tail
+photo.304: ig://CXk1065rWq2/m
 photo.304.author: cattail.sapporo
 photo.304.commitdate: 2021/12/19
 photo.304.link: https://www.instagram.com/cattail.sapporo/
-photo.304.tags: portrait, snow
-photo.305: ig://CXo4CJYBmpd/m
-photo.305.author: hamamatsu.chiita
+photo.304.tags: close-up, paws, portrait, sample, snow, whiskers
+photo.305: ig://CXmZ11jv3pX/m
+photo.305.author: cattail.sapporo
 photo.305.commitdate: 2021/12/19
-photo.305.link: https://www.instagram.com/hamamatsu.chiita/
-photo.305.tags: blink, mofumofu, portrait, sample, snow, whiskers
-photo.306: https://www.instagram.com/p/CW4_yDQL-81/media/?size=m
-photo.306.author: cattail.sapporo
-photo.306.link: https://www.instagram.com/cattail.sapporo/
-photo.306.tags: peek, portrait, sample, tail
+photo.305.link: https://www.instagram.com/cattail.sapporo/
+photo.305.tags: portrait, snow
+photo.306: ig://CXo4CJYBmpd/m
+photo.306.author: hamamatsu.chiita
+photo.306.commitdate: 2021/12/19
+photo.306.link: https://www.instagram.com/hamamatsu.chiita/
+photo.306.tags: blink, mofumofu, portrait, sample, snow, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

@@ -198,8 +198,9 @@ photo.37.author: pink.b22
 photo.37.commitdate: 2021/11/28
 photo.37.link: https://www.instagram.com/pink.b22/
 photo.37.tags: bamboo, bite, paws, standing, tail
-photo.38: https://www.instagram.com/p/CW5uojXBcsf/media/?size=m
+photo.38: ig://CW5uojXBcsf/m
 photo.38.author: redpan22
+photo.38.commitdate: 2021/12/21
 photo.38.link: https://www.instagram.com/redpan22/
 photo.38.tags: paws, sample, smile, whiskers
 species: 2

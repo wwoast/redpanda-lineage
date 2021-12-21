@@ -2046,20 +2046,21 @@ photo.408.author: mari_neko3
 photo.408.commitdate: 2021/11/29
 photo.408.link: https://www.instagram.com/mari_neko3/
 photo.408.tags: close-up, nose, portrait, whiskers
-photo.409: ig://CXjx1jcBm4m/m
-photo.409.author: hamamatsu.chiita
-photo.409.commitdate: 2021/12/20
-photo.409.link: https://www.instagram.com/hamamatsu.chiita/
-photo.409.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.410: ig://CXpJQcGvHHl/m
-photo.410.author: leonard_redmof
+photo.409: ig://CW50EY_l15t/m
+photo.409.author: cattail.sapporo
+photo.409.commitdate: 2021/12/21
+photo.409.link: https://www.instagram.com/cattail.sapporo/
+photo.409.tags: mofumofu, portrait, sample, tail
+photo.410: ig://CXjx1jcBm4m/m
+photo.410.author: hamamatsu.chiita
 photo.410.commitdate: 2021/12/20
-photo.410.link: https://www.instagram.com/leonard_redmof/
-photo.410.tags: portrait, sample, snow, whiskers
-photo.411: https://www.instagram.com/p/CW50EY_l15t/media/?size=m
-photo.411.author: cattail.sapporo
-photo.411.link: https://www.instagram.com/cattail.sapporo/
-photo.411.tags: mofumofu, portrait, sample, tail
+photo.410.link: https://www.instagram.com/hamamatsu.chiita/
+photo.410.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.411: ig://CXpJQcGvHHl/m
+photo.411.author: leonard_redmof
+photo.411.commitdate: 2021/12/20
+photo.411.link: https://www.instagram.com/leonard_redmof/
+photo.411.tags: portrait, sample, snow, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

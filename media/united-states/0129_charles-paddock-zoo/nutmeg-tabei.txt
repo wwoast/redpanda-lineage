@@ -1,8 +1,10 @@
 [media]
 _id: media.129.nutmeg-tabei
+commitdate: 2021/12/21
 panda.tags: 866, 912
-photo.1: https://www.instagram.com/p/CW6Chh1p7Lb/media/?size=l
+photo.1: ig://CW6Chh1p7Lb/l
 photo.1.author: charlespaddockzoo
+photo.1.commitdate: 2021/12/21
 photo.1.link: https://www.instagram.com/charlespaddockzoo/
 photo.1.tags: friends
 photo.1.tags.866.location: 245, 190
