@@ -780,12 +780,12 @@ photo.154: ig://B6NeERchrf2/m
 photo.154.author: daniele.tokyo
 photo.154.commitdate: 2020/11/1
 photo.154.link: https://www.instagram.com/daniele.tokyo/
-photo.154.tags: close-up, portrait, profile, whiskers
+photo.154.tags: close-up, portrait, profile, sample, whiskers
 photo.155: ig://B6NjSPIhW2P/m
 photo.155.author: minatomirai215
 photo.155.commitdate: 2019/12/30
 photo.155.link: https://www.instagram.com/minatomirai215/
-photo.155.tags: tail, whiskers
+photo.155.tags: sample, tail, whiskers
 photo.156: ig://B6QYRAOhk_R/m
 photo.156.author: wumpwoast
 photo.156.commitdate: 2020/1/11
@@ -810,7 +810,7 @@ photo.160: ig://B6nIVsPhAxw/m
 photo.160.author: ssc6105
 photo.160.commitdate: 2019/12/30
 photo.160.link: https://www.instagram.com/ssc6105/
-photo.160.tags: portrait
+photo.160.tags: portrait, sample
 photo.161: ig://B7BLuWeBq_p/m
 photo.161.author: gloryeui
 photo.161.commitdate: 2020/1/11
@@ -830,12 +830,12 @@ photo.164: ig://B7soeswhSuE/m
 photo.164.author: ssc6105
 photo.164.commitdate: 2020/1/26
 photo.164.link: https://www.instagram.com/ssc6105/
-photo.164.tags: paws, whiskers
+photo.164.tags: paws, sample, whiskers
 photo.165: ig://B7xiIHqhYZn/m
 photo.165.author: gloryeui
 photo.165.commitdate: 2020/1/28
 photo.165.link: https://www.instagram.com/gloryeui/
-photo.165.tags: bridge, peek, portrait
+photo.165.tags: bridge, peek, portrait, whiskers
 photo.166: ig://B8HYxd0h0D0/m
 photo.166.author: minatomirai215
 photo.166.commitdate: 2020/2/3
@@ -855,7 +855,7 @@ photo.169: ig://B8VB8cphfw4/m
 photo.169.author: firefoxpanda88
 photo.169.commitdate: 2020/2/16
 photo.169.link: https://www.instagram.com/firefoxpanda88/
-photo.169.tags: portrait, whiskers
+photo.169.tags: portrait, sample, whiskers
 photo.170: ig://B8a5OXXBlpA/m
 photo.170.author: minatomirai215
 photo.170.commitdate: 2020/2/18
@@ -870,7 +870,7 @@ photo.172: ig://B8foqnTBShh/m
 photo.172.author: minatomirai215
 photo.172.commitdate: 2020/2/17
 photo.172.link: https://www.instagram.com/minatomirai215/
-photo.172.tags: portrait, smile, tail
+photo.172.tags: portrait, sample, smile, tail
 photo.173: ig://B8ik4hhBTvl/m
 photo.173.author: minatomirai215
 photo.173.commitdate: 2020/2/19
@@ -885,27 +885,27 @@ photo.175: ig://B8pHq7kB-py/m
 photo.175.author: ssc6105
 photo.175.commitdate: 2020/2/26
 photo.175.link: https://www.instagram.com/ssc6105/
-photo.175.tags: tail, whiskers
+photo.175.tags: sample, tail, whiskers
 photo.176: ig://B8sx8MJhrbD/m
 photo.176.author: mari_neko3
 photo.176.commitdate: 2020/2/26
 photo.176.link: https://www.instagram.com/mari_neko3/
-photo.176.tags: portrait, tongue, whiskers
+photo.176.tags: portrait, sample, tongue, whiskers
 photo.177: ig://B8s39SUB12T/m
 photo.177.author: ssc6105
 photo.177.commitdate: 2020/2/26
 photo.177.link: https://www.instagram.com/ssc6105/
-photo.177.tags: bamboo
+photo.177.tags: bamboo, sample, whiskers
 photo.178: ig://B8w6pY5BtX_/m
 photo.178.author: ssc6105
 photo.178.commitdate: 2020/2/27
 photo.178.link: https://www.instagram.com/ssc6105/
-photo.178.tags: keeper, peek, tail
+photo.178.tags: keeper, peek, sample, tail
 photo.179: ig://B82MO60hPuk/m
 photo.179.author: ssc6105
 photo.179.commitdate: 2020/2/27
 photo.179.link: https://www.instagram.com/ssc6105/
-photo.179.tags: bamboo, whiskers
+photo.179.tags: bamboo, sample, whiskers
 photo.180: ig://B9RR0PkhHen/m
 photo.180.author: mari_neko3
 photo.180.commitdate: 2020/3/8
@@ -920,12 +920,12 @@ photo.182: ig://B-MKHp8hPJ-/m
 photo.182.author: minatomirai215
 photo.182.commitdate: 2020/3/28
 photo.182.link: https://www.instagram.com/minatomirai215/
-photo.182.tags: whiskers
+photo.182.tags: sample, whiskers
 photo.183: ig://B-WEee5hHyx/m
 photo.183.author: wumpwoast
 photo.183.commitdate: 2020/4/3
 photo.183.link: https://www.instagram.com/wumpwoast/
-photo.183.tags: mofumofu, portrait
+photo.183.tags: mofumofu, portrait, sample
 photo.184: ig://B_JvNUFB0Sy/m
 photo.184.author: _saaaaaaah_
 photo.184.commitdate: 2020/4/25
@@ -945,7 +945,7 @@ photo.187: ig://CAy5kw0BwCf/m
 photo.187.author: wumpwoast
 photo.187.commitdate: 2021/6/6
 photo.187.link: https://www.instagram.com/wumpwoast/
-photo.187.tags: bamboo, portrait, tail
+photo.187.tags: bamboo, portrait, sample, tail
 photo.188: ig://CA4jv-dhdAm/m
 photo.188.author: ssc6105
 photo.188.commitdate: 2020/6/27
@@ -955,7 +955,7 @@ photo.189: ig://CBA4aaqB0XV/m
 photo.189.author: miis_98
 photo.189.commitdate: 2020/6/27
 photo.189.link: https://www.instagram.com/miis_98/
-photo.189.tags: bamboo, paws, portrait, smile
+photo.189.tags: bamboo, paws, portrait, sample, smile
 photo.190: ig://CBERKiCBMcf/m
 photo.190.author: wumpwoast
 photo.190.commitdate: 2021/6/6
@@ -965,27 +965,27 @@ photo.191: ig://CBIr5yxh5go/m
 photo.191.author: minatomirai215
 photo.191.commitdate: 2020/6/27
 photo.191.link: https://www.instagram.com/minatomirai215/
-photo.191.tags: keeper, lunch time, portrait
+photo.191.tags: keeper, lunch time, portrait, sample, whiskers
 photo.192: ig://CBN7VPcBYPx/m
 photo.192.author: miis_98
 photo.192.commitdate: 2020/6/27
 photo.192.link: https://www.instagram.com/miis_98/
-photo.192.tags: smile, whiskers
+photo.192.tags: sample, smile, whiskers
 photo.193: ig://CBVtnsGhkih/m
 photo.193.author: minatomirai215
 photo.193.commitdate: 2020/6/14
 photo.193.link: https://www.instagram.com/minatomirai215/
-photo.193.tags: dish, keeper, paws, portrait
+photo.193.tags: dish, keeper, paws, portrait, whiskers
 photo.194: ig://CBl5Yc1prRz/m
 photo.194.author: ssc6105
 photo.194.commitdate: 2020/6/27
 photo.194.link: https://www.instagram.com/ssc6105/
-photo.194.tags: laying down, mofumofu, paws, portrait
+photo.194.tags: laying down, mofumofu, paws, portrait, sample
 photo.195: ig://CB3UiAOBOiN/m
 photo.195.author: minatomirai215
 photo.195.commitdate: 2020/6/27
 photo.195.link: https://www.instagram.com/minatomirai215/
-photo.195.tags: paws, portrait, whiskers
+photo.195.tags: paws, portrait, sample, whiskers
 photo.196: ig://CB-GJxcBGGI/m
 photo.196.author: leonard_redmof
 photo.196.commitdate: 2020/7/25
@@ -995,7 +995,7 @@ photo.197: ig://CB-bgUrBIv-/m
 photo.197.author: daniele.tokyo
 photo.197.commitdate: 2020/7/25
 photo.197.link: https://www.instagram.com/daniele.tokyo/
-photo.197.tags: laying down, mofumofu, portrait
+photo.197.tags: laying down, mofumofu, portrait, sample
 photo.198: ig://CB-doRThBgp/m
 photo.198.author: ssc6105
 photo.198.commitdate: 2020/7/25
@@ -1005,12 +1005,12 @@ photo.199: ig://CB-4mR_B8h2/m
 photo.199.author: minatomirai215
 photo.199.commitdate: 2020/7/25
 photo.199.link: https://www.instagram.com/minatomirai215/
-photo.199.tags: bamboo, bite, portrait, whiskers
+photo.199.tags: bamboo, bite, portrait, sample, whiskers
 photo.200: ig://CCAU5ichRFx/m
 photo.200.author: wumpwoast
 photo.200.commitdate: 2020/7/25
 photo.200.link: https://www.instagram.com/wumpwoast/
-photo.200.tags: portrait, tail
+photo.200.tags: portrait, sample, tail
 photo.201: ig://CCEKYB_BUyb/m
 photo.201.author: ssc6105
 photo.201.commitdate: 2020/7/25
@@ -1020,7 +1020,7 @@ photo.202: ig://CCyDiPKBKml/m
 photo.202.author: craig_craig_craig
 photo.202.commitdate: 2020/7/25
 photo.202.link: https://www.instagram.com/craig_craig_craig/
-photo.202.tags: door, paws, portrait
+photo.202.tags: door, paws, portrait, sample
 photo.203: ig://CC6CT8LBbMr/m
 photo.203.author: grskus_tk
 photo.203.commitdate: 2020/7/25
@@ -1030,22 +1030,22 @@ photo.204: ig://CDB4m9Gh4yT/m
 photo.204.author: mini_cochi
 photo.204.commitdate: 2020/7/28
 photo.204.link: https://www.instagram.com/mini_cochi/
-photo.204.tags: portrait, smile, whiskers
+photo.204.tags: portrait, sample, smile, whiskers
 photo.205: ig://CDGzTfUhkMr/m
 photo.205.author: gloryeui
 photo.205.commitdate: 2020/7/28
 photo.205.link: https://www.instagram.com/gloryeui/
-photo.205.tags: portrait, whiskers
+photo.205.tags: portrait, sample, whiskers
 photo.206: ig://CDLrKKxhAIS/m
 photo.206.author: gloryeui
 photo.206.commitdate: 2020/7/28
 photo.206.link: https://www.instagram.com/gloryeui/
-photo.206.tags: paws, portrait
+photo.206.tags: paws, portrait, sample
 photo.207: ig://CDd2sWnhdEK/m
 photo.207.author: gloryeui
 photo.207.commitdate: 2020/9/10
 photo.207.link: https://www.instagram.com/gloryeui/
-photo.207.tags: bridge, close-up, muzzle, peek, portrait, whiskers
+photo.207.tags: bridge, close-up, muzzle, peek, portrait, sample, whiskers
 photo.208: ig://CDi3gT8h0Ro/m
 photo.208.author: gloryeui
 photo.208.commitdate: 2020/8/15
@@ -1065,12 +1065,12 @@ photo.211: ig://CD2j7ayhKkE/m
 photo.211.author: pantasanzoo1
 photo.211.commitdate: 2020/8/25
 photo.211.link: https://www.instagram.com/pantasanzoo1/
-photo.211.tags: grooming, laying down, paws
+photo.211.tags: grooming, laying down, paws, sample
 photo.212: ig://CD2wabIBTcS/m
 photo.212.author: pantasanzoo1
 photo.212.commitdate: 2020/8/25
 photo.212.link: https://www.instagram.com/pantasanzoo1/
-photo.212.tags: bamboo, smile, tongue
+photo.212.tags: bamboo, sample, smile, tongue
 photo.213: ig://CD7kL5HB9tm/m
 photo.213.author: gloryeui
 photo.213.commitdate: 2020/9/10
@@ -1080,7 +1080,7 @@ photo.214: ig://CD_rux_hMQ1/m
 photo.214.author: minatomirai215
 photo.214.commitdate: 2020/8/28
 photo.214.link: https://www.instagram.com/minatomirai215/
-photo.214.tags: portrait, whiskers
+photo.214.tags: portrait, sample, whiskers
 photo.215: ig://CEERnauBcll/m
 photo.215.author: gloryeui
 photo.215.commitdate: 2020/8/28
@@ -1090,7 +1090,7 @@ photo.216: ig://CEE3gckBC2C/m
 photo.216.author: minatomirai215
 photo.216.commitdate: 2020/8/28
 photo.216.link: https://www.instagram.com/minatomirai215/
-photo.216.tags: portrait, videolink
+photo.216.tags: portrait, sample, videolink
 photo.217: ig://CEM7qk0hx1H/m
 photo.217.author: minatomirai215
 photo.217.commitdate: 2020/8/28
@@ -1110,12 +1110,12 @@ photo.220: ig://CFTiKOJBGb3/m
 photo.220.author: seaparadise_official
 photo.220.commitdate: 2020/9/24
 photo.220.link: https://www.instagram.com/seaparadise_official/
-photo.220.tags: apple time, keeper, paws, standing, tail
+photo.220.tags: apple time, keeper, paws, sample, standing, tail
 photo.221: ig://CFajoFyBCsn/m
 photo.221.author: rie_panda55
 photo.221.commitdate: 2020/9/21
 photo.221.link: https://www.instagram.com/rie_panda55/
-photo.221.tags: home, laying down, portrait
+photo.221.tags: home, laying down, portrait, sample
 photo.222: ig://CFxloe-B9AL/m
 photo.222.author: wumpwoast
 photo.222.commitdate: 2021/6/28
@@ -1125,7 +1125,7 @@ photo.223: ig://CF88Zi7hREc/m
 photo.223.author: wumpwoast
 photo.223.commitdate: 2021/6/6
 photo.223.link: https://www.instagram.com/wumpwoast/
-photo.223.tags: paws, portrait, videolink
+photo.223.tags: paws, portrait, sample, videolink
 photo.224: ig://CGSYtsyBFKm/m
 photo.224.author: wumpwoast
 photo.224.commitdate: 2021/6/6
@@ -1140,12 +1140,12 @@ photo.226: ig://CGlwYhVhwUS/m
 photo.226.author: wumpwoast
 photo.226.commitdate: 2020/10/25
 photo.226.link: https://www.instagram.com/wumpwoast/
-photo.226.tags: portrait, whiskers
+photo.226.tags: portrait, sample, whiskers
 photo.227: ig://CGme7nqh8q9/m
 photo.227.author: ssc6105
 photo.227.commitdate: 2020/10/25
 photo.227.link: https://www.instagram.com/ssc6105/
-photo.227.tags: keeper, paws, portrait
+photo.227.tags: keeper, paws, portrait, sample
 photo.228: ig://CGuQq1Uh5mP/m
 photo.228.author: ssc6105
 photo.228.commitdate: 2020/10/25
@@ -1155,27 +1155,27 @@ photo.229: ig://CG3j6Kph_oz/m
 photo.229.author: wumpwoast
 photo.229.commitdate: 2020/10/27
 photo.229.link: https://www.instagram.com/wumpwoast/
-photo.229.tags: portrait, tail
+photo.229.tags: portrait, sample, tail
 photo.230: ig://CHnXezvBoDS/m
 photo.230.author: minatomirai215
 photo.230.commitdate: 2020/11/21
 photo.230.link: https://www.instagram.com/minatomirai215/
-photo.230.tags: portrait, videolink
+photo.230.tags: portrait, sample, videolink
 photo.231: ig://CHpxuGDhvqO/m
 photo.231.author: gloryeui
 photo.231.commitdate: 2020/11/17
 photo.231.link: https://www.instagram.com/gloryeui/
-photo.231.tags: bamboo, portrait, smile, videolink
+photo.231.tags: bamboo, portrait, sample, smile, videolink
 photo.232: ig://CH1VRCcB42h/m
 photo.232.author: gloryeui
 photo.232.commitdate: 2020/11/28
 photo.232.link: https://www.instagram.com/gloryeui/
-photo.232.tags: portrait, whiskers
+photo.232.tags: portrait, sample, whiskers
 photo.233: ig://CI-rQq4BJaB/m
 photo.233.author: minatomirai215
 photo.233.commitdate: 2020/12/30
 photo.233.link: https://www.instagram.com/minatomirai215/
-photo.233.tags: bamboo, portrait, smile
+photo.233.tags: bamboo, portrait, sample, smile
 photo.234: ig://CJJQd9ThZIq/m
 photo.234.author: minatomirai215
 photo.234.commitdate: 2020/12/29
@@ -1185,7 +1185,7 @@ photo.235: ig://CJOoU-qBDDg/m
 photo.235.author: wumpwoast
 photo.235.commitdate: 2020/12/29
 photo.235.link: https://www.instagram.com/wumpwoast/
-photo.235.tags: close-up, portrait, whiskers
+photo.235.tags: close-up, portrait, sample, whiskers
 photo.236: ig://CJvhCt2hI_f/m
 photo.236.author: minatomirai215
 photo.236.commitdate: 2021/3/2
@@ -1195,7 +1195,7 @@ photo.237: ig://CKYmRTyhQHN/m
 photo.237.author: ssc6105
 photo.237.commitdate: 2021/4/22
 photo.237.link: https://www.instagram.com/ssc6105/
-photo.237.tags: peek, smile, whiskers
+photo.237.tags: peek, sample, smile, whiskers
 photo.238: ig://CKaYjaGhRiE/m
 photo.238.author: ssc6105
 photo.238.commitdate: 2021/4/22
@@ -1205,7 +1205,7 @@ photo.239: ig://CKgkhEIBIWy/m
 photo.239.author: minatomirai215
 photo.239.commitdate: 2021/1/31
 photo.239.link: https://www.instagram.com/minatomirai215/
-photo.239.tags: home, keeper, portrait, whiskers
+photo.239.tags: home, keeper, portrait, sample, smile, whiskers
 photo.240: ig://CKqTjFBBzeo/m
 photo.240.author: ssc6105
 photo.240.commitdate: 2021/1/30
@@ -1215,7 +1215,7 @@ photo.241: ig://CKr7Se7hrrJ/m
 photo.241.author: miis_98
 photo.241.commitdate: 2021/1/30
 photo.241.link: https://www.instagram.com/miis_98/
-photo.241.tags: portrait, whiskers
+photo.241.tags: portrait, sample, whiskers
 photo.242: ig://CKttx12B6Kc/m
 photo.242.author: minatomirai215
 photo.242.commitdate: 2021/2/16
@@ -1225,17 +1225,17 @@ photo.243: ig://CLXQcXKB2LX/m
 photo.243.author: minatomirai215
 photo.243.commitdate: 2021/2/20
 photo.243.link: https://www.instagram.com/minatomirai215/
-photo.243.tags: paws, portrait, tail, whiskers
+photo.243.tags: paws, portrait, sample, tail, whiskers
 photo.244: ig://CMEtEolBaSo/m
 photo.244.author: _saaaaaaah_
 photo.244.commitdate: 2021/4/10
 photo.244.link: https://www.instagram.com/_saaaaaaah_/
-photo.244.tags: bamboo, smile, whiskers
+photo.244.tags: bamboo, sample, smile, whiskers
 photo.245: ig://CMe_uDCB-hN/m
 photo.245.author: minatomirai215
 photo.245.commitdate: 2021/3/29
 photo.245.link: https://www.instagram.com/minatomirai215/
-photo.245.tags: portrait
+photo.245.tags: portrait, sample
 photo.246: ig://CMnCI6yn70N/m
 photo.246.author: minatomirai215
 photo.246.commitdate: 2021/3/29
@@ -1245,17 +1245,17 @@ photo.247: ig://CPDpbxhhTfZ/m
 photo.247.author: minatomirai215
 photo.247.commitdate: 2021/6/8
 photo.247.link: https://www.instagram.com/minatomirai215/
-photo.247.tags: laying down, portrait
+photo.247.tags: laying down, portrait, sample
 photo.248: ig://CPF2n-uBbkA/m
 photo.248.author: daniele.tokyo
 photo.248.commitdate: 2021/6/8
 photo.248.link: https://www.instagram.com/daniele.tokyo/
-photo.248.tags: close-up, mofumofu, portrait, tongue
+photo.248.tags: close-up, mofumofu, portrait, sample, tongue
 photo.249: ig://CQY3ku3BuBy/m
 photo.249.author: minatomirai215
 photo.249.commitdate: 2021/6/23
 photo.249.link: https://www.instagram.com/minatomirai215/
-photo.249.tags: paws, portrait, whiskers
+photo.249.tags: paws, portrait, sample, whiskers
 photo.250: ig://CQosIbugOg3/m
 photo.250.author: cattail.sapporo
 photo.250.commitdate: 2021/6/28
@@ -1265,12 +1265,12 @@ photo.251: ig://CQqPoszB5sx/m
 photo.251.author: minatomirai215
 photo.251.commitdate: 2021/6/28
 photo.251.link: https://www.instagram.com/minatomirai215/
-photo.251.tags: portrait, smile, whiskers
+photo.251.tags: portrait, sample, smile, whiskers
 photo.252: ig://CQrFUXGsRH3/m
 photo.252.author: wumpwoast
 photo.252.commitdate: 2021/6/28
 photo.252.link: https://www.instagram.com/wumpwoast/
-photo.252.tags: close-up, itchy, portrait, whiskers
+photo.252.tags: close-up, itchy, portrait, sample, whiskers
 photo.253: ig://CQ5mXZxhTBz/m
 photo.253.author: gloryeui
 photo.253.commitdate: 2021/7/5
@@ -1280,17 +1280,17 @@ photo.254: ig://CRPhGCehy0M/m
 photo.254.author: ssc6105
 photo.254.commitdate: 2021/7/13
 photo.254.link: https://www.instagram.com/ssc6105/
-photo.254.tags: keeper, paws, standing
+photo.254.tags: keeper, paws, sample, standing, training
 photo.255: ig://CRmzvP3BU3_/m
 photo.255.author: pantasanzoo1
 photo.255.commitdate: 2021/8/2
 photo.255.link: https://www.instagram.com/pantasanzoo1/
-photo.255.tags: close-up, keeper, whiskers
+photo.255.tags: close-up, keeper, sample, whiskers
 photo.256: ig://CR5ZvgXBWBx/m
 photo.256.author: wumpwoast
 photo.256.commitdate: 2021/7/29
 photo.256.link: https://www.instagram.com/wumpwoast/
-photo.256.tags: portrait, whiskers
+photo.256.tags: portrait, sample, whiskers
 photo.257: ig://CSHHQtBLNC7/m
 photo.257.author: _saaaaaaah_
 photo.257.commitdate: 2021/8/7
@@ -1305,12 +1305,12 @@ photo.259: ig://CSqGzl_huL9/m
 photo.259.author: pantasanzoo1
 photo.259.commitdate: 2021/8/18
 photo.259.link: https://www.instagram.com/pantasanzoo1/
-photo.259.tags: dish, whiskers
+photo.259.tags: dish, sample, whiskers
 photo.260: ig://CSr0AH0BIiC/m
 photo.260.author: minatomirai215
 photo.260.commitdate: 2021/8/18
 photo.260.link: https://www.instagram.com/minatomirai215/
-photo.260.tags: dish, portrait, whiskers
+photo.260.tags: dish, portrait, sample, whiskers
 photo.261: ig://CStRecfBvwE/m
 photo.261.author: pantasanzoo1
 photo.261.commitdate: 2021/8/25
@@ -1320,17 +1320,17 @@ photo.262: ig://CSvB_DfBwVi/m
 photo.262.author: pantasanzoo1
 photo.262.commitdate: 2021/8/24
 photo.262.link: https://www.instagram.com/pantasanzoo1/
-photo.262.tags: home, smile
+photo.262.tags: home, sample, smile, whiskers
 photo.263: ig://CS9C1K6hXBS/m
 photo.263.author: _saaaaaaah_
 photo.263.commitdate: 2021/9/11
 photo.263.link: https://www.instagram.com/_saaaaaaah_/
-photo.263.tags: keeper, peek
+photo.263.tags: keeper, peek, sample
 photo.264: ig://CTRo--nBw2K/m
 photo.264.author: minatomirai215
 photo.264.commitdate: 2021/9/8
 photo.264.link: https://www.instagram.com/minatomirai215/
-photo.264.tags: mofumofu, paws, tail, whiskers
+photo.264.tags: mofumofu, paws, sample, tail, whiskers
 photo.265: ig://CUM85JUhVOj/m
 photo.265.author: minatomirai215
 photo.265.commitdate: 2021/9/25
@@ -1350,12 +1350,12 @@ photo.268: ig://CU4A2a_BP9-/m
 photo.268.author: pantasanzoo1
 photo.268.commitdate: 2021/10/30
 photo.268.link: https://www.instagram.com/pantasanzoo1/
-photo.268.tags: dish, smile, whiskers
+photo.268.tags: dish, sample, smile, whiskers
 photo.269: ig://CWIupFBhEyL/m
 photo.269.author: minatomirai215
 photo.269.commitdate: 2021/11/11
 photo.269.link: https://www.instagram.com/minatomirai215/
-photo.269.tags: portrait, tail, whiskers
+photo.269.tags: portrait, sample, tail, whiskers
 photo.270: ig://CXi4w9-F3X0/m
 photo.270.author: gloryeui
 photo.270.commitdate: 2021/12/20
@@ -1366,6 +1366,18 @@ photo.271.author: gloryeui
 photo.271.commitdate: 2021/12/20
 photo.271.link: https://www.instagram.com/gloryeui/
 photo.271.tags: keeper, laying down, paws, portrait, tail, upside-down
+photo.272: https://www.instagram.com/p/CXYQUDSrrcf/media/?size=m
+photo.272.author: gloryeui
+photo.272.link: https://www.instagram.com/gloryeui/
+photo.272.tags: bridge, laying down, paws, playing, portrait, sample, smile
+photo.273: https://www.instagram.com/p/BnDzqjplx9w/media/?size=m
+photo.273.author: daniele.tokyo
+photo.273.link: https://www.instagram.com/daniele.tokyo/
+photo.273.tags: close-up, laying down, mofumofu, portrait, sample
+photo.274: https://www.instagram.com/p/CIAuE0ohJCy/media/?size=m
+photo.274.author: gloryeui
+photo.274.link: https://www.instagram.com/gloryeui/
+photo.274.tags: grooming, laying down, paws, portrait, videolink
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
