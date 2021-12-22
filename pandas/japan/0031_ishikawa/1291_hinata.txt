@@ -27,7 +27,7 @@ photo.3: ig://CUsJmvMlpnm/m
 photo.3.author: bee_san.13
 photo.3.commitdate: 2021/10/6
 photo.3.link: https://www.instagram.com/bee_san.13/
-photo.3.tags: baby, paws, portrait, profile
+photo.3.tags: baby, paws, portrait
 photo.4: ig://CU12nLurKBJ/m
 photo.4.author: bee_san.13
 photo.4.commitdate: 2021/10/17
@@ -88,5 +88,9 @@ photo.15.author: bee_san.13
 photo.15.commitdate: 2021/12/17
 photo.15.link: https://www.instagram.com/bee_san.13/
 photo.15.tags: baby, climb, mofumofu, paws, peek, portrait
+photo.16: https://www.instagram.com/p/CXmiu-EPoWJ/media/?size=m
+photo.16.author: bee_san.13
+photo.16.link: https://www.instagram.com/bee_san.13/
+photo.16.tags: baby, portrait, profile, sample, smile, techitechi, whiskers
 species: 2
 zoo: 31

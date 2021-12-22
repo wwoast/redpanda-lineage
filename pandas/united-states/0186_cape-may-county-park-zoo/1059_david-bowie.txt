@@ -25,7 +25,11 @@ photo.2: ig://B42tRS7AeuK/m
 photo.2.author: ohmygoat1
 photo.2.commitdate: 2019/11/27
 photo.2.link: https://www.instagram.com/ohmygoat1/
-photo.2.tags: portrait, profile
+photo.2.tags: portrait
+photo.3: https://www.instagram.com/p/CXolelNrvEE/media/?size=m
+photo.3.author: capemaycountyzoo
+photo.3.link: https://www.instagram.com/capemaycountyzoo/
+photo.3.tags: paws, portrait, profile, smile, whiskers
 species: 1
 studbook.id: 1835
 uncertainty: location.2 date
