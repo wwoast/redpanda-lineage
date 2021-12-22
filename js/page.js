@@ -313,10 +313,10 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Special galleries
-    if (birthday_count <= 2) {
-      var special_galleries = Page.home.special_galleries();
-      new_content.appendChild(special_galleries);
-    }
+    // if (birthday_count <= 2) {
+    //  var special_galleries = Page.home.special_galleries();
+    //  new_content.appendChild(special_galleries);
+    // }
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
