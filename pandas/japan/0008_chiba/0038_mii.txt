@@ -628,8 +628,9 @@ photo.123.author: takahisakaneuchi
 photo.123.commitdate: 2021/11/28
 photo.123.link: https://www.instagram.com/takahisakaneuchi/
 photo.123.tags: door, portrait, whiskers
-photo.124: https://www.instagram.com/p/CXlB9biPX42/media/?size=m
+photo.124: ig://CXlB9biPX42/m
 photo.124.author: otenba_redpanda
+photo.124.commitdate: 2021/12/22
 photo.124.link: https://www.instagram.com/otenba_redpanda/
 photo.124.tags: bamboo, paws, portrait, sample, tongue
 species: 2

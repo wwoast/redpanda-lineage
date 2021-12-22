@@ -379,8 +379,9 @@ photo.75.author: yossi929
 photo.75.commitdate: 2021/5/3
 photo.75.link: https://www.instagram.com/yossi929/
 photo.75.tags: laying down, portrait, sleeping
-photo.76: https://www.instagram.com/p/CXMs4X_v23S/media/?size=m
+photo.76: ig://CXMs4X_v23S/m
 photo.76.author: yossi929
+photo.76.commitdate: 2021/12/22
 photo.76.link: https://www.instagram.com/yossi929/
 photo.76.tags: close-up, sample, whiskers
 species: 2

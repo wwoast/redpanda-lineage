@@ -18,17 +18,20 @@ photo.1.author: tama67photo
 photo.1.commitdate: 2021/11/15
 photo.1.link: https://www.instagram.com/tama67photo/
 photo.1.tags: baby, door, portrait
-photo.2: https://www.instagram.com/p/CXMzsOYB-0k/media/?size=m
-photo.2.author: an920000
-photo.2.link: https://www.instagram.com/an920000/
-photo.2.tags: baby, close-up
-photo.3: https://www.instagram.com/p/CXLaZ2qF0Ll/media/?size=m
+photo.2: ig://CW54uSWJOv5/m
+photo.2.author: sasapan34
+photo.2.commitdate: 2021/12/22
+photo.2.link: https://www.instagram.com/sasapan34/
+photo.2.tags: baby, paws
+photo.3: ig://CXLaZ2qF0Ll/m
 photo.3.author: daniele.tokyo
+photo.3.commitdate: 2021/12/22
 photo.3.link: https://www.instagram.com/daniele.tokyo/
 photo.3.tags: baby, home, mofumofu, paws
-photo.4: https://www.instagram.com/p/CW54uSWJOv5/media/?size=m
-photo.4.author: sasapan34
-photo.4.link: https://www.instagram.com/sasapan34/
-photo.4.tags: baby, paws
+photo.4: ig://CXMzsOYB-0k/m
+photo.4.author: an920000
+photo.4.commitdate: 2021/12/22
+photo.4.link: https://www.instagram.com/an920000/
+photo.4.tags: baby, close-up
 species: 2
 zoo: 11

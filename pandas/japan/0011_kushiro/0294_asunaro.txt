@@ -484,8 +484,9 @@ photo.94.author: craig_craig_craig
 photo.94.commitdate: 2021/9/7
 photo.94.link: https://www.instagram.com/craig_craig_craig/
 photo.94.tags: home, paws, portrait, tail, videolink
-photo.95: https://www.instagram.com/p/CXAGHslpndp/media/?size=m
+photo.95: ig://CXAGHslpndp/m
 photo.95.author: sasapan34
+photo.95.commitdate: 2021/12/22
 photo.95.link: https://www.instagram.com/sasapan34/
 photo.95.tags: sample, tail, whiskers
 species: 2

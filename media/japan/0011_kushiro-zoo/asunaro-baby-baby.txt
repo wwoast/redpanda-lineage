@@ -1,8 +1,10 @@
 [media]
 _id: media.11.asunaro-baby-baby
+commitdate: 2021/12/22
 panda.tags: 294, 1308, 1309
-photo.1: https://www.instagram.com/p/CXLf7APhUah/media/?size=l
+photo.1: ig://CXLf7APhUah/l
 photo.1.author: an920000
+photo.1.commitdate: 2021/12/22
 photo.1.link: https://www.instagram.com/an920000/
 photo.1.tags: baby, family, playing
 photo.1.tags.294.location: 455, 45

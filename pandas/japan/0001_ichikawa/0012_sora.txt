@@ -765,8 +765,9 @@ photo.151.author: ssc6105
 photo.151.commitdate: 2021/12/6
 photo.151.link: https://www.instagram.com/ssc6105/
 photo.151.tags: autumn, laying down, sleeping, tail, tree
-photo.152: https://www.instagram.com/p/CXiddevBuEx/media/?size=m
+photo.152: ig://CXiddevBuEx/m
 photo.152.author: otenba_redpanda
+photo.152.commitdate: 2021/12/22
 photo.152.link: https://www.instagram.com/otenba_redpanda/
 photo.152.tags: mofumofu, paws, portrait, sample, whiskers
 species: 2

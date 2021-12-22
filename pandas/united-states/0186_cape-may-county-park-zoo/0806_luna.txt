@@ -114,11 +114,11 @@ photo.19.author: aimless_amos
 photo.19.commitdate: 2021/6/25
 photo.19.link: https://www.instagram.com/aimless_amos/
 photo.19.tags: bamboo, dish, mofumofu, portrait, tail, white face
-photo.20: https://www.codaworry.com/images/rpf/luna-6-capemay.jpg
-photo.20.author: aimless_amos
-photo.20.commitdate: 2021/6/25
-photo.20.link: https://www.instagram.com/aimless_amos/
-photo.20.tags: mofumofu, portrait, tongue
+photo.20: ig://CXyipzDg36W/m
+photo.20.author: capemaycountyzoo
+photo.20.commitdate: 2021/12/22
+photo.20.link: https://www.instagram.com/capemaycountyzoo/
+photo.20.tags: portrait, scale, smile, tongue
 photo.21: https://www.codaworry.com/images/rpf/luna-7-capemay.jpg
 photo.21.author: aimless_amos
 photo.21.commitdate: 2021/6/25
@@ -229,10 +229,6 @@ photo.42.author: aimless_amos
 photo.42.commitdate: 2021/6/25
 photo.42.link: https://www.instagram.com/aimless_amos/
 photo.42.tags: portrait, tail, white face
-photo.43: https://www.instagram.com/p/CXyipzDg36W/media/?size=m
-photo.43.author: capemaycountyzoo
-photo.43.link: https://www.instagram.com/capemaycountyzoo/
-photo.43.tags: portrait, scale, smile, tongue
 species: 1
 studbook.id: 0105
 zoo: 186

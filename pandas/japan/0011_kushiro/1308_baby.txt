@@ -18,21 +18,25 @@ photo.1.author: kushirozoo
 photo.1.commitdate: 2021/10/31
 photo.1.link: https://www.instagram.com/kushirozoo/
 photo.1.tags: baby, close-up, portrait, whiskers, videolink
-photo.2: https://www.instagram.com/p/CXcYJIXB6pg/media/?size=m
-photo.2.author: hamiiiii831_
-photo.2.link: https://www.instagram.com/hamiiiii831_/
-photo.2.tags: baby, mofumofu, paws, tail, tongue
-photo.3: https://www.instagram.com/p/CXN_Mm2Bl0c/media/?size=m
-photo.3.author: daniele.tokyo
-photo.3.link: https://www.instagram.com/daniele.tokyo/
-photo.3.tags: baby, close-up, mofumofu, paws, tree
-photo.4: https://www.instagram.com/p/CXN5wYphtE8/media/?size=m
-photo.4.author: an920000
-photo.4.link: https://www.instagram.com/an920000/
-photo.4.tags: baby, bamboo, home, mofumofu, peek
-photo.5: https://www.instagram.com/p/CW-dB_jlPaP/media/?size=m
-photo.5.author: sasapan34
-photo.5.link: https://www.instagram.com/sasapan34/
-photo.5.tags: baby, mofumofu, tail
+photo.2: ig://CW-dB_jlPaP/m
+photo.2.author: sasapan34
+photo.2.commitdate: 2021/12/22
+photo.2.link: https://www.instagram.com/sasapan34/
+photo.2.tags: baby, mofumofu, tail
+photo.3: ig://CXN5wYphtE8/m
+photo.3.author: an920000
+photo.3.commitdate: 2021/12/22
+photo.3.link: https://www.instagram.com/an920000/
+photo.3.tags: baby, bamboo, home, mofumofu, peek
+photo.4: ig://CXN_Mm2Bl0c/m
+photo.4.author: daniele.tokyo
+photo.4.commitdate: 2021/12/22
+photo.4.link: https://www.instagram.com/daniele.tokyo/
+photo.4.tags: baby, close-up, mofumofu, paws, tree
+photo.5: ig://CXcYJIXB6pg/m
+photo.5.author: hamiiiii831_
+photo.5.commitdate: 2021/12/22
+photo.5.link: https://www.instagram.com/hamiiiii831_/
+photo.5.tags: baby, mofumofu, paws, tail, tongue
 species: 2
 zoo: 11

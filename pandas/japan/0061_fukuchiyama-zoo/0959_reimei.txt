@@ -543,14 +543,15 @@ photo.106.author: bubbles_octi
 photo.106.commitdate: 2021/11/7
 photo.106.link: https://www.instagram.com/bubbles_octi/
 photo.106.tags: climb, peek, portrait, techitechi, whiskers
-photo.107: ig://CXS1yEsPyOB/m
-photo.107.author: apple_jasmine33
-photo.107.commitdate: 2021/12/19
-photo.107.link: https://www.instagram.com/apple_jasmine33/
-photo.107.tags: close-up, sample, whiskers, white face
-photo.108: https://www.instagram.com/p/CXJC1Rahh1i/media/?size=m
-photo.108.author: redpanda_nippon_takashi
-photo.108.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.108.tags: dish, paws, portrait, standing, tail
+photo.107: ig://CXJC1Rahh1i/m
+photo.107.author: redpanda_nippon_takashi
+photo.107.commitdate: 2021/12/22
+photo.107.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.107.tags: dish, paws, portrait, standing, tail
+photo.108: ig://CXS1yEsPyOB/m
+photo.108.author: apple_jasmine33
+photo.108.commitdate: 2021/12/19
+photo.108.link: https://www.instagram.com/apple_jasmine33/
+photo.108.tags: close-up, sample, whiskers, white face
 species: 2
 zoo: 61
