@@ -16,6 +16,7 @@ litter: 580, 808
 location.1: 146, 2013/7/20
 location.2: 186, 2014/4/22
 location.3: 155, 2018/11/1
+location.4: 80, 2021/6/1
 photo.1: ig://BApZmDHk00d/m
 photo.1.author: capemaycountyzoo
 photo.1.commitdate: 2020/2/17
@@ -83,4 +84,5 @@ photo.13.link: https://www.instagram.com/worldthathesees/
 photo.13.tags: air tasting, laying down, tongue
 species: 1
 studbook.id: 1357
-zoo: 155
+uncertainty: location.4 exact month and day
+zoo: 80
