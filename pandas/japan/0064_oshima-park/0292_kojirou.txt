@@ -153,15 +153,16 @@ photo.28.author: grskus_tk
 photo.28.commitdate: 2021/11/11
 photo.28.link: https://www.instagram.com/grskus_tk/
 photo.28.tags: dish, mofumofu, tongue, whiskers
-photo.29: ig://CXpT9eYPH5o/m
-photo.29.author: grskus_tk
+photo.29: ig://rie_panda55/CXKOWcZhy8a/m
+photo.29.author: rie_panda55
 photo.29.commitdate: 2021/12/22
-photo.29.link: https://www.instagram.com/grskus_tk/
-photo.29.tags: apple time, dish, smile
-photo.30: https://www.instagram.com/rie_panda55/p/CXKOWcZhy8a/media/?size=m
-photo.30.author: rie_panda55
-photo.30.link: https://www.instagram.com/rie_panda55/
-photo.30.tags: peek, portrait
+photo.29.link: https://www.instagram.com/rie_panda55/
+photo.29.tags: peek, portrait
+photo.30: ig://CXpT9eYPH5o/m
+photo.30.author: grskus_tk
+photo.30.commitdate: 2021/12/22
+photo.30.link: https://www.instagram.com/grskus_tk/
+photo.30.tags: apple time, dish, smile
 species: 2
 studbook.id: 1296
 zoo: 64

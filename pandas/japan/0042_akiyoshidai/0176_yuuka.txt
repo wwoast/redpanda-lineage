@@ -526,40 +526,41 @@ photo.103.author: _rifa_p
 photo.103.commitdate: 2021/7/19
 photo.103.link: https://www.instagram.com/_rifa_p/
 photo.103.tags: paws, portrait, smile, tree
-photo.104: ig://CUClOZMhylm/m
-photo.104.author: re_ichimaru
-photo.104.commitdate: 2021/9/29
-photo.104.link: https://www.instagram.com/re_ichimaru/
-photo.104.tags: grooming, mofumofu, portrait, tail
-photo.105: ig://CUFW_jcB_jd/m
-photo.105.author: kojikoji2011
-photo.105.commitdate: 2021/10/6
-photo.105.link: https://www.instagram.com/kojikoji2011/
-photo.105.tags: laying down, paws, portrait, smile, whiskers
-photo.106: ig://CUHt9S7hsrr/m
-photo.106.author: re_ichimaru
+photo.104: ig://CT8nXa0ByL7/m
+photo.104.author: kojikoji2011
+photo.104.commitdate: 2021/12/22
+photo.104.link: https://www.instagram.com/kojikoji2011/
+photo.104.tags: paws, portrait, tail, tongue
+photo.105: ig://CUClOZMhylm/m
+photo.105.author: re_ichimaru
+photo.105.commitdate: 2021/9/29
+photo.105.link: https://www.instagram.com/re_ichimaru/
+photo.105.tags: grooming, mofumofu, portrait, tail
+photo.106: ig://CUFW_jcB_jd/m
+photo.106.author: kojikoji2011
 photo.106.commitdate: 2021/10/6
-photo.106.link: https://www.instagram.com/re_ichimaru/
-photo.106.tags: bear worm, curly, laying down, portrait, smile, tail
-photo.107: ig://CVJfi3ShVWG/m
+photo.106.link: https://www.instagram.com/kojikoji2011/
+photo.106.tags: laying down, paws, portrait, smile, whiskers
+photo.107: ig://CUHt9S7hsrr/m
 photo.107.author: re_ichimaru
-photo.107.commitdate: 2021/11/6
+photo.107.commitdate: 2021/10/6
 photo.107.link: https://www.instagram.com/re_ichimaru/
-photo.107.tags: paws, smile, tongue
-photo.108: ig://CVbf86HBLFu/m
+photo.107.tags: bear worm, curly, laying down, portrait, smile, tail
+photo.108: ig://CVJfi3ShVWG/m
 photo.108.author: re_ichimaru
-photo.108.commitdate: 2021/10/27
+photo.108.commitdate: 2021/11/6
 photo.108.link: https://www.instagram.com/re_ichimaru/
-photo.108.tags: curly, paws, smile, standing, tail, upside-down
-photo.109: ig://CWdhwkqB53O/m
-photo.109.author: kojikoji2011
-photo.109.commitdate: 2021/11/29
-photo.109.link: https://www.instagram.com/kojikoji2011/
-photo.109.tags: close-up, portrait, whiskers
-photo.110: https://www.instagram.com/p/CT8nXa0ByL7/media/?size=m
+photo.108.tags: paws, smile, tongue
+photo.109: ig://CVbf86HBLFu/m
+photo.109.author: re_ichimaru
+photo.109.commitdate: 2021/10/27
+photo.109.link: https://www.instagram.com/re_ichimaru/
+photo.109.tags: curly, paws, smile, standing, tail, upside-down
+photo.110: ig://CWdhwkqB53O/m
 photo.110.author: kojikoji2011
+photo.110.commitdate: 2021/11/29
 photo.110.link: https://www.instagram.com/kojikoji2011/
-photo.110.tags: paws, portrait, tail, tongue
+photo.110.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 1695
 zoo: 42

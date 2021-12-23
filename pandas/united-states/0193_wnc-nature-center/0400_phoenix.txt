@@ -73,8 +73,9 @@ photo.11.author: wncnaturecenter
 photo.11.commitdate: 2021/1/3
 photo.11.link: https://www.instagram.com/wncnaturecenter/
 photo.11.tags: apple time, portrait, pumpkin, tongue, whiskers
-photo.12: https://www.instagram.com/p/CXY0vGyN5Ab/media/?size=m
+photo.12: ig://CXY0vGyN5Ab/m
 photo.12.author: wncnaturecenter
+photo.12.commitdate: 2021/12/22
 photo.12.link: https://www.instagram.com/wncnaturecenter/
 photo.12.tags: close-up, portrait, smile, whiskers
 species: 2

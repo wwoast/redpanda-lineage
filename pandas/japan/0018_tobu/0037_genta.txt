@@ -523,8 +523,9 @@ photo.102.author: hamamatsu.chiita
 photo.102.commitdate: 2021/11/21
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
 photo.102.tags: close-up, portrait, whiskers
-photo.103: https://www.instagram.com/p/CXgRKTWlhcZ/media/?size=m
+photo.103: ig://CXgRKTWlhcZ/m
 photo.103.author: fetorus_mami
+photo.103.commitdate: 2021/12/22
 photo.103.link: https://www.instagram.com/fetorus_mami/
 photo.103.tags: apple time, close-up, smile, whiskers, window
 species: 2

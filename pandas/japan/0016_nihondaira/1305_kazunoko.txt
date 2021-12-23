@@ -68,14 +68,15 @@ photo.11.author: otenba_redpanda
 photo.11.commitdate: 2021/12/19
 photo.11.link: https://www.instagram.com/otenba_redpanda/
 photo.11.tags: apple time, baby, mofumofu, portrait, sample
-photo.12: ig://CXm09L8Pot-/m
-photo.12.author: pantasanzoo1
-photo.12.commitdate: 2021/12/19
-photo.12.link: https://www.instagram.com/pantasanzoo1/
-photo.12.tags: baby, tail
-photo.13: https://www.instagram.com/p/CXSX0W2Fp9D/media/?size=m
-photo.13.author: lesserpanda_shizuokacity_cp
-photo.13.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.13.tags: baby, close-up
+photo.12: ig://CXSX0W2Fp9D/m
+photo.12.author: lesserpanda_shizuokacity_cp
+photo.12.commitdate: 2021/12/22
+photo.12.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.12.tags: baby, close-up
+photo.13: ig://CXm09L8Pot-/m
+photo.13.author: pantasanzoo1
+photo.13.commitdate: 2021/12/19
+photo.13.link: https://www.instagram.com/pantasanzoo1/
+photo.13.tags: baby, tail
 species: 2
 zoo: 16

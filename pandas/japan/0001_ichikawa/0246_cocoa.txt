@@ -1173,8 +1173,9 @@ photo.232.author: ifumoto88
 photo.232.commitdate: 2021/12/19
 photo.232.link: https://www.instagram.com/ifumoto88/
 photo.232.tags: peek, portrait, sample, smile, whiskers
-photo.233: https://www.instagram.com/p/CXYilirBvxQ/media/?size=m
+photo.233: ig://CXYilirBvxQ/m
 photo.233.author: ifumoto88
+photo.233.commitdate: 2021/12/22
 photo.233.link: https://www.instagram.com/ifumoto88/
 photo.233.tags: portrait, whiskers
 species: 2

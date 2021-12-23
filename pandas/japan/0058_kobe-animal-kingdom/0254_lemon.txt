@@ -569,8 +569,9 @@ photo.111.author: minatomirai215
 photo.111.commitdate: 2021/12/6
 photo.111.link: https://www.instagram.com/minatomirai215/
 photo.111.tags: paws, portrait, smile, whiskers
-photo.112: https://www.instagram.com/p/CXc0PuTv84b/media/?size=m
+photo.112: ig://CXc0PuTv84b/m
 photo.112.author: grskus_tk
+photo.112.commitdate: 2021/12/22
 photo.112.link: https://www.instagram.com/grskus_tk/
 photo.112.tags: sample, smile, whiskers
 species: 2

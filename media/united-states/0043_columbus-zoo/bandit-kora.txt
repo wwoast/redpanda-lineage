@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: bamboo, mother's day, portrait, snow
 photo.2.tags.999.location: 350, 50
 photo.2.tags.1186.location: 155, 215
-photo.3: https://www.instagram.com/p/CULZDEbrwJr/media/?size=l
+photo.3: ig://CULZDEbrwJr/l
 photo.3.author: lipscer
+photo.3.commitdate: 2021/12/22
 photo.3.link: https://www.instagram.com/lipscer/
 photo.3.tags: home, mother's day, smile
 photo.3.tags.999.location: 240, 505

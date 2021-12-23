@@ -318,8 +318,9 @@ photo.61.author: ck.chie
 photo.61.commitdate: 2021/11/27
 photo.61.link: https://www.instagram.com/ck.chie/
 photo.61.tags: bridge, paws, tail, upside-down
-photo.62: https://www.instagram.com/mini_cochi/p/CXOFhlIFi4G/media/?size=m
+photo.62: ig://mini_cochi/CXOFhlIFi4G/m
 photo.62.author: mini_cochi
+photo.62.commitdate: 2021/12/22
 photo.62.link: https://www.instagram.com/mini_cochi/
 photo.62.tags: bamboo, bite, portrait, sample, tongue
 species: 2
