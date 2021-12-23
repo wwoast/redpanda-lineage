@@ -65,16 +65,17 @@ photo.9.link: https://www.instagram.com/osopanda551/
 photo.9.tags: laying down, paws, playing, portrait, siblings, sisters, twins
 photo.9.tags.1197.location: 295, 150
 photo.9.tags.1198.location: 105, 295
-photo.10: ig://CTUOO4YhEXZ/l
-photo.10.author: daniele.tokyo
-photo.10.commitdate: 2021/10/10
-photo.10.link: https://www.instagram.com/daniele.tokyo/
-photo.10.tags: bamboo, siblings, sisters, tail, twins
-photo.10.tags.1197.location: 325, 170
-photo.10.tags.1198.location: 430, 185
-photo.11: https://www.instagram.com/p/CRi-82vBJAQ/media/?size=l
-photo.11.author: kotata_513
-photo.11.link: https://www.instagram.com/kotata_513/
-photo.11.tags: playing, portrait, siblings, sisters, tail, twins
-photo.11.tags.1197.location: 155, 165
-photo.11.tags.1198.location: 230, 75
+photo.10: ig://CRi-82vBJAQ/l
+photo.10.author: kotata_513
+photo.10.commitdate: 2021/12/22
+photo.10.link: https://www.instagram.com/kotata_513/
+photo.10.tags: playing, portrait, siblings, sisters, tail, twins
+photo.10.tags.1197.location: 155, 165
+photo.10.tags.1198.location: 230, 75
+photo.11: ig://CTUOO4YhEXZ/l
+photo.11.author: daniele.tokyo
+photo.11.commitdate: 2021/10/10
+photo.11.link: https://www.instagram.com/daniele.tokyo/
+photo.11.tags: bamboo, siblings, sisters, tail, twins
+photo.11.tags.1197.location: 325, 170
+photo.11.tags.1198.location: 430, 185

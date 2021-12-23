@@ -120,8 +120,9 @@ photo.21.author: sequoiaparkzoo
 photo.21.commitdate: 2021/7/6
 photo.21.link: https://www.instagram.com/sequoiaparkzoo/
 photo.21.tags: portrait, tail, whiskers
-photo.22: https://www.instagram.com/p/CUSR0L-lTOk/media/?size=m
+photo.22: ig://CUSR0L-lTOk/m
 photo.22.author: sequoiaparkzoo
+photo.22.commitdate: 2021/12/22
 photo.22.link: https://www.instagram.com/sequoiaparkzoo/
 photo.22.tags: laying down, sample, sleeping, tail
 species: 1

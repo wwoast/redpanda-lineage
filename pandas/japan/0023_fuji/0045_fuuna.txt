@@ -312,15 +312,16 @@ photo.60.author: miis_98
 photo.60.commitdate: 2021/8/2
 photo.60.link: https://www.instagram.com/miis_98/
 photo.60.tags: bamboo, home, portrait
-photo.61: ig://CV5mLTtptiq/m
+photo.61: ig://CUST95SlNLx/m
 photo.61.author: miis_98
-photo.61.commitdate: 2021/11/7
+photo.61.commitdate: 2021/12/22
 photo.61.link: https://www.instagram.com/miis_98/
-photo.61.tags: paws, portrait, tongue, whiskers
-photo.62: https://www.instagram.com/p/CUST95SlNLx/media/?size=m
+photo.61.tags: bridge, paws, standing, tongue
+photo.62: ig://CV5mLTtptiq/m
 photo.62.author: miis_98
+photo.62.commitdate: 2021/11/7
 photo.62.link: https://www.instagram.com/miis_98/
-photo.62.tags: bridge, paws, standing, tongue
+photo.62.tags: paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 12106
 zoo: 23

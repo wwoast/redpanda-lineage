@@ -395,30 +395,31 @@ photo.76.author: minatomirai215
 photo.76.commitdate: 2021/9/6
 photo.76.link: https://www.instagram.com/minatomirai215/
 photo.76.tags: door, mofumofu, portrait
-photo.77: ig://CS1ZD9Thd_u/m
-photo.77.author: monmon_redpanda
-photo.77.commitdate: 2021/8/24
-photo.77.link: https://www.instagram.com/monmon_redpanda/
-photo.77.tags: eye, paws, portrait, whiskers
-photo.78: ig://CVIjlyKFNWk/m
-photo.78.author: miis_98
-photo.78.commitdate: 2021/10/30
-photo.78.link: https://www.instagram.com/miis_98/
-photo.78.tags: eye, mofumofu, paws, portrait
-photo.79: ig://CVoQDqohX8T/m
-photo.79.author: pink.b22
-photo.79.commitdate: 2021/11/15
-photo.79.link: https://www.instagram.com/pink.b22/
-photo.79.tags: eye, mofumofu, portrait
-photo.80: ig://hamamatsu.chiita/CXMg4cehwwm/m
-photo.80.author: hamamatsu.chiita
-photo.80.commitdate: 2021/12/19
-photo.80.link: https://www.instagram.com/hamamatsu.chiita/
-photo.80.tags: eye, mofumofu, portrait, sample
-photo.81: https://www.instagram.com/p/CSdlrn3hiVL/media/?size=m
-photo.81.author: ssc6105
-photo.81.link: https://www.instagram.com/ssc6105/
-photo.81.tags: laying down, mofumofu, paws, whiskers
+photo.77: ig://CSdlrn3hiVL/m
+photo.77.author: ssc6105
+photo.77.commitdate: 2021/12/22
+photo.77.link: https://www.instagram.com/ssc6105/
+photo.77.tags: laying down, mofumofu, paws, whiskers
+photo.78: ig://CS1ZD9Thd_u/m
+photo.78.author: monmon_redpanda
+photo.78.commitdate: 2021/8/24
+photo.78.link: https://www.instagram.com/monmon_redpanda/
+photo.78.tags: eye, paws, portrait, whiskers
+photo.79: ig://CVIjlyKFNWk/m
+photo.79.author: miis_98
+photo.79.commitdate: 2021/10/30
+photo.79.link: https://www.instagram.com/miis_98/
+photo.79.tags: eye, mofumofu, paws, portrait
+photo.80: ig://CVoQDqohX8T/m
+photo.80.author: pink.b22
+photo.80.commitdate: 2021/11/15
+photo.80.link: https://www.instagram.com/pink.b22/
+photo.80.tags: eye, mofumofu, portrait
+photo.81: ig://hamamatsu.chiita/CXMg4cehwwm/m
+photo.81.author: hamamatsu.chiita
+photo.81.commitdate: 2021/12/19
+photo.81.link: https://www.instagram.com/hamamatsu.chiita/
+photo.81.tags: eye, mofumofu, portrait, sample
 species: 2
 studbook.id: 0366
 zoo: 8
