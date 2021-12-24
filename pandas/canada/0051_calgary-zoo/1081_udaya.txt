@@ -88,7 +88,7 @@ photo.14: ig://CFSgOG5BRQ1/m
 photo.14.author: garseeyaink
 photo.14.commitdate: 2020/10/31
 photo.14.link: https://www.instagram.com/garseeyaink/
-photo.14.tags: portrait, profile
+photo.14.tags: portrait
 photo.15: ig://CGSTnS7h5Bw/m
 photo.15.author: garseeyaink
 photo.15.commitdate: 2020/10/31
@@ -134,5 +134,25 @@ photo.23.author: garseeyaink
 photo.23.commitdate: 2021/11/28
 photo.23.link: https://www.instagram.com/garseeyaink/
 photo.23.tags: smile, whiskers
+photo.24: https://www.instagram.com/p/CRX8WQKAcbI/media/?size=m
+photo.24.author: westcoast_kathy
+photo.24.link: https://www.instagram.com/westcoast_kathy/
+photo.24.tags: mofumofu, portrait
+photo.25: https://www.instagram.com/p/CJwWYW1hapH/media/?size=m
+photo.25.author: garseeyaink
+photo.25.link: https://www.instagram.com/garseeyaink/
+photo.25.tags: peek, snow, whiskers
+photo.26: https://www.instagram.com/p/CJqmrloh7HT/media/?size=m
+photo.26.author: garseeyaink
+photo.26.link: https://www.instagram.com/garseeyaink/
+photo.26.tags: peek, portrait, tree
+photo.27: https://www.instagram.com/p/CJB618Rh0Sw/media/?size=m
+photo.27.author: garseeyaink
+photo.27.link: https://www.instagram.com/garseeyaink/
+photo.27.tags: peek, portrait, tree
+photo.28: https://www.instagram.com/p/CIGxKCbh9uj/media/?size=m
+photo.28.author: garseeyaink
+photo.28.link: https://www.instagram.com/garseeyaink/
+photo.28.tags: bamboo, bite, home, paws, portrait, profile, smile
 species: 2
 zoo: 51

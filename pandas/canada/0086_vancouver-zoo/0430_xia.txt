@@ -1,0 +1,38 @@
+[panda]
+_id: 430
+birthday: 2013/7/1
+birthplace: 94
+children: 427, 428, 429
+commitdate: 2018/11/23
+en.name: Xia
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: キア
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 431, 445
+location.1: 94, 2013/7/1
+location.2: 76, 2014/10/15
+location.3: 94, 2017/11/21
+location.4: 86, 2021/10/1
+photo.1: ig://BihKc-ABAQv/m
+photo.1.author: alexacaluori
+photo.1.commitdate: 2020/2/26
+photo.1.link: https://www.instagram.com/alexacaluori/
+photo.1.tags: snow, tail
+photo.2: ig://BlRbslyluSO/m
+photo.2.author: myrveilleuse.carpediem
+photo.2.commitdate: 2020/2/26
+photo.2.link: https://www.instagram.com/myrveilleuse.carpediem/
+photo.2.tags: portrait, smile, tail, tongue
+photo.3: ig://B8TsCMMFV1B/m
+photo.3.author: zoodegranbyofficiel
+photo.3.commitdate: 2020/2/25
+photo.3.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.3.tags: snow
+species: 2
+studbook.id: 1349
+uncertainty: location.4 exact date (after september)
+zoo: 86

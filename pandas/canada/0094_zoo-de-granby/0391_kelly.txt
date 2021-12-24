@@ -15,16 +15,15 @@ language.order: en, jp
 litter: none
 location.1: 65, 2015/6/12
 location.2: 94, 2016/5/12
-photo.1: ig://Bt39uc-AghF/m
-photo.1.author: zoodegranbyofficiel
-photo.1.commitdate: 2020/2/25
-photo.1.link: https://www.instagram.com/zoodegranbyofficiel/
-photo.1.tags: portrait, whiskers
-photo.2: ig://B2OidPhJd8p/m
-photo.2.author: realbhadbhabie100
+photo.1: ig://B2OidPhJd8p/m
+photo.1.author: realbhadbhabie100
+photo.1.commitdate: 2020/2/26
+photo.1.link: https://www.instagram.com/realbhadbhabie100/
+photo.1.tags: bridge, portrait, smile, tail
+photo.2: ig://BU4JYp8D4j_/m
+photo.2.author: arnaultlavillephotography
 photo.2.commitdate: 2020/2/26
-photo.2.link: https://www.instagram.com/realbhadbhabie100/
-photo.2.tags: bridge, portrait, smile, tail
+photo.2.link: https://www.instagram.com/arnaultlavillephotography/
 species: 2
 studbook.id: 1511
 zoo: 94

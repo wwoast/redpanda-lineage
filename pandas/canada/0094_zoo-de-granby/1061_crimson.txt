@@ -13,6 +13,8 @@ jp.nicknames: 真紅
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 76, 2019/6/16
+location.2: 94, 2021/10/1
 photo.1: ig://B2FReGAjQBe/m
 photo.1.author: assiniboineparkzoo
 photo.1.commitdate: 2019/11/29
@@ -28,5 +30,10 @@ photo.3.author: assiniboineparkzoo
 photo.3.commitdate: 2019/11/29
 photo.3.link: https://www.instagram.com/assiniboineparkzoo/
 photo.3.tags: baby, snow, tail
+photo.4: https://www.instagram.com/p/CV8IIPWNME_/media/?size=m
+photo.4.author: zoodegranbyofficiel
+photo.4.link: https://www.instagram.com/zoodegranbyofficiel/
+photo.4.tags: grooming, mofumofu, paws, portrait, tree
 species: 2
-zoo: 76
+uncertainty: locaion.2 exact date, likely swap with 0430 xia
+zoo: 94
