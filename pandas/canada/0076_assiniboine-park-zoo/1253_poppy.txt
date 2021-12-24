@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1252
-photo.1: https://www.instagram.com/p/CMP5GQtjj5a/media/?size=m
+photo.1: ig://CMP5GQtjj5a/m
 photo.1.author: assiniboineparkzoo
+photo.1.commitdate: 2021/12/23
 photo.1.link: https://www.instagram.com/assiniboineparkzoo/
 photo.1.tags: close-up, lunch time, videolink
 species: 2

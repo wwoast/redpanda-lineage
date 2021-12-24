@@ -23,18 +23,21 @@ photo.2.author: assiniboineparkzoo
 photo.2.commitdate: 2021/4/4
 photo.2.link: https://www.instagram.com/assiniboineparkzoo/
 photo.2.tags: paws, peek, portrait, snow, whiskers
-photo.3: https://www.instagram.com/p/CSkUQ-LHcHe/media/?size=m
+photo.3: ig://CSkUQ-LHcHe/m
 photo.3.author: assiniboineparkzoo
+photo.3.commitdate: 2021/12/23
 photo.3.link: https://www.instagram.com/assiniboineparkzoo/
 photo.3.tags: portrait, techitechi, whiskers
-photo.4: https://www.instagram.com/p/CWWXoMBPWcQ/media/?size=m
+photo.4: ig://CU0fSeLvs61/m
 photo.4.author: assiniboineparkzoo
+photo.4.commitdate: 2021/12/23
 photo.4.link: https://www.instagram.com/assiniboineparkzoo/
-photo.4.tags: paws, snow, tree
-photo.5: https://www.instagram.com/p/CU0fSeLvs61/media/?size=m
+photo.4.tags: paws, smile, whiskers
+photo.5: ig://CWWXoMBPWcQ/m
 photo.5.author: assiniboineparkzoo
+photo.5.commitdate: 2021/12/23
 photo.5.link: https://www.instagram.com/assiniboineparkzoo/
-photo.5.tags: paws, smile, whiskers
+photo.5.tags: paws, snow, tree
 species: 2
 studbook.id: unknown
 zoo: 76

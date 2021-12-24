@@ -94,65 +94,70 @@ photo.15.author: garseeyaink
 photo.15.commitdate: 2020/10/31
 photo.15.link: https://www.instagram.com/garseeyaink/
 photo.15.tags: bamboo, bite, portrait
-photo.16: ig://CKZf3CGBINq/m
+photo.16: ig://CIGxKCbh9uj/m
 photo.16.author: garseeyaink
-photo.16.commitdate: 2021/2/4
+photo.16.commitdate: 2021/12/23
 photo.16.link: https://www.instagram.com/garseeyaink/
-photo.16.tags: bamboo, portrait, smile
-photo.17: ig://CO2-Zzah_gX/m
+photo.16.tags: bamboo, bite, home, paws, portrait, profile, smile
+photo.17: ig://CJB618Rh0Sw/m
 photo.17.author: garseeyaink
-photo.17.commitdate: 2021/6/20
+photo.17.commitdate: 2021/12/23
 photo.17.link: https://www.instagram.com/garseeyaink/
-photo.17.tags: portrait, shake, techitechi, tree
-photo.18: ig://CPJ8H9-BqPO/m
+photo.17.tags: peek, portrait, tree
+photo.18: ig://CJqmrloh7HT/m
 photo.18.author: garseeyaink
-photo.18.commitdate: 2021/6/20
+photo.18.commitdate: 2021/12/23
 photo.18.link: https://www.instagram.com/garseeyaink/
-photo.18.tags: portrait, smile, tail, tree, wet
-photo.19: ig://CPLR4-XBEJT/m
+photo.18.tags: peek, portrait, tree
+photo.19: ig://CJwWYW1hapH/m
 photo.19.author: garseeyaink
-photo.19.commitdate: 2021/6/20
+photo.19.commitdate: 2021/12/23
 photo.19.link: https://www.instagram.com/garseeyaink/
-photo.19.tags: portrait, shake, tail, techitechi, tree, wet
-photo.20: ig://CPZUQOZgZpz/m
-photo.20.author: westcoast_kathy
-photo.20.commitdate: 2021/10/4
-photo.20.link: https://www.instagram.com/westcoast_kathy/
-photo.20.tags: bamboo, paws, smile, techitechi
-photo.21: ig://CVbobXOJ8je/m
+photo.19.tags: peek, snow, whiskers
+photo.20: ig://CKZf3CGBINq/m
+photo.20.author: garseeyaink
+photo.20.commitdate: 2021/2/4
+photo.20.link: https://www.instagram.com/garseeyaink/
+photo.20.tags: bamboo, portrait, smile
+photo.21: ig://CO2-Zzah_gX/m
 photo.21.author: garseeyaink
-photo.21.commitdate: 2021/11/28
+photo.21.commitdate: 2021/6/20
 photo.21.link: https://www.instagram.com/garseeyaink/
-photo.21.tags: bamboo, close-up, paws, portrait, whiskers
-photo.22: ig://CVxs6twp83K/m
+photo.21.tags: portrait, shake, techitechi, tree
+photo.22: ig://CPJ8H9-BqPO/m
 photo.22.author: garseeyaink
-photo.22.commitdate: 2021/11/28
+photo.22.commitdate: 2021/6/20
 photo.22.link: https://www.instagram.com/garseeyaink/
-photo.22.tags: close-up, peek, tree, whiskers
-photo.23: ig://CWV32IMpV7n/m
+photo.22.tags: portrait, smile, tail, tree, wet
+photo.23: ig://CPLR4-XBEJT/m
 photo.23.author: garseeyaink
-photo.23.commitdate: 2021/11/28
+photo.23.commitdate: 2021/6/20
 photo.23.link: https://www.instagram.com/garseeyaink/
-photo.23.tags: smile, whiskers
-photo.24: https://www.instagram.com/p/CRX8WQKAcbI/media/?size=m
+photo.23.tags: portrait, shake, tail, techitechi, tree, wet
+photo.24: ig://CPZUQOZgZpz/m
 photo.24.author: westcoast_kathy
+photo.24.commitdate: 2021/10/4
 photo.24.link: https://www.instagram.com/westcoast_kathy/
-photo.24.tags: mofumofu, portrait
-photo.25: https://www.instagram.com/p/CJwWYW1hapH/media/?size=m
-photo.25.author: garseeyaink
-photo.25.link: https://www.instagram.com/garseeyaink/
-photo.25.tags: peek, snow, whiskers
-photo.26: https://www.instagram.com/p/CJqmrloh7HT/media/?size=m
+photo.24.tags: bamboo, paws, smile, techitechi
+photo.25: ig://CRX8WQKAcbI/m
+photo.25.author: westcoast_kathy
+photo.25.commitdate: 2021/12/23
+photo.25.link: https://www.instagram.com/westcoast_kathy/
+photo.25.tags: mofumofu, portrait
+photo.26: ig://CVbobXOJ8je/m
 photo.26.author: garseeyaink
+photo.26.commitdate: 2021/11/28
 photo.26.link: https://www.instagram.com/garseeyaink/
-photo.26.tags: peek, portrait, tree
-photo.27: https://www.instagram.com/p/CJB618Rh0Sw/media/?size=m
+photo.26.tags: bamboo, close-up, paws, portrait, whiskers
+photo.27: ig://CVxs6twp83K/m
 photo.27.author: garseeyaink
+photo.27.commitdate: 2021/11/28
 photo.27.link: https://www.instagram.com/garseeyaink/
-photo.27.tags: peek, portrait, tree
-photo.28: https://www.instagram.com/p/CIGxKCbh9uj/media/?size=m
+photo.27.tags: close-up, peek, tree, whiskers
+photo.28: ig://CWV32IMpV7n/m
 photo.28.author: garseeyaink
+photo.28.commitdate: 2021/11/28
 photo.28.link: https://www.instagram.com/garseeyaink/
-photo.28.tags: bamboo, bite, home, paws, portrait, profile, smile
+photo.28.tags: smile, whiskers
 species: 2
 zoo: 51
