@@ -569,15 +569,16 @@ photo.111.author: minatomirai215
 photo.111.commitdate: 2021/12/6
 photo.111.link: https://www.instagram.com/minatomirai215/
 photo.111.tags: paws, portrait, smile, whiskers
-photo.112: ig://CXc0PuTv84b/m
-photo.112.author: grskus_tk
-photo.112.commitdate: 2021/12/22
-photo.112.link: https://www.instagram.com/grskus_tk/
-photo.112.tags: sample, smile, whiskers
-photo.113: https://www.instagram.com/p/CXN3kz8BPlU/media/?size=m
-photo.113.author: imagoto17
-photo.113.link: https://www.instagram.com/imagoto17/
-photo.113.tags: close-up, peek, portrait, whiskers
+photo.112: ig://CXN3kz8BPlU/m
+photo.112.author: imagoto17
+photo.112.commitdate: 2021/12/26
+photo.112.link: https://www.instagram.com/imagoto17/
+photo.112.tags: close-up, peek, portrait, whiskers
+photo.113: ig://CXc0PuTv84b/m
+photo.113.author: grskus_tk
+photo.113.commitdate: 2021/12/22
+photo.113.link: https://www.instagram.com/grskus_tk/
+photo.113.tags: sample, smile, whiskers
 species: 2
 studbook.id: 14164
 zoo: 58

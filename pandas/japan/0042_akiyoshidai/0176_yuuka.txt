@@ -561,8 +561,9 @@ photo.110.author: kojikoji2011
 photo.110.commitdate: 2021/11/29
 photo.110.link: https://www.instagram.com/kojikoji2011/
 photo.110.tags: close-up, portrait, whiskers
-photo.111: https://www.instagram.com/p/CXTZRsfB5dn/media/?size=m
+photo.111: ig://CXTZRsfB5dn/m
 photo.111.author: kojikoji2011
+photo.111.commitdate: 2021/12/26
 photo.111.link: https://www.instagram.com/kojikoji2011/
 photo.111.tags: curly, portrait, tail, whiskers
 species: 2

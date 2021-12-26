@@ -78,8 +78,9 @@ photo.12.author: hemkerzoo
 photo.12.commitdate: 2020/5/17
 photo.12.link: https://www.instagram.com/hemkerzoo/
 photo.12.tags: portrait, snow
-photo.13: https://www.instagram.com/p/CXTvqJILYGn/media/?size=m
+photo.13: ig://CXTvqJILYGn/m
 photo.13.author: worldthathesees
+photo.13.commitdate: 2021/12/26
 photo.13.link: https://www.instagram.com/worldthathesees/
 photo.13.tags: laying down, whiskers, white face
 species: 1

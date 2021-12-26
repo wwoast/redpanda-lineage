@@ -337,8 +337,9 @@ photo.65.author: minato.yokohama2130
 photo.65.commitdate: 2021/11/27
 photo.65.link: https://www.instagram.com/minato.yokohama2130/
 photo.65.tags: autumn, portrait, tree
-photo.66: https://www.instagram.com/p/CX79NL0PO9h/media/?size=m
+photo.66: ig://CX79NL0PO9h/m
 photo.66.author: minato.yokohama2130
+photo.66.commitdate: 2021/12/26
 photo.66.link: https://www.instagram.com/minato.yokohama2130/
 photo.66.tags: paws, portrait, standing, tail
 species: 2

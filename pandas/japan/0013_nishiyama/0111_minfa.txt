@@ -610,8 +610,9 @@ photo.119.author: hamamatsu.chiita
 photo.119.commitdate: 2021/11/20
 photo.119.link: https://www.instagram.com/hamamatsu.chiita/
 photo.119.tags: portrait, smile, whiskers
-photo.120: https://www.instagram.com/p/CXUSAE5BMDk/media/?size=m
+photo.120: ig://CXUSAE5BMDk/m
 photo.120.author: hamamatsu.chiita
+photo.120.commitdate: 2021/12/26
 photo.120.link: https://www.instagram.com/hamamatsu.chiita/
 photo.120.tags: portrait, sample
 species: 2

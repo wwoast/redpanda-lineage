@@ -778,8 +778,9 @@ photo.153.author: hamamatsu.chiita
 photo.153.commitdate: 2021/12/17
 photo.153.link: https://www.instagram.com/hamamatsu.chiita/
 photo.153.tags: portrait, sample, whiskers
-photo.154: https://www.instagram.com/p/CXROQYgh8Hg/media/?size=m
+photo.154: ig://CXROQYgh8Hg/m
 photo.154.author: eos1089
+photo.154.commitdate: 2021/12/26
 photo.154.link: https://www.instagram.com/eos1089/
 photo.154.tags: portrait, whiskers
 species: 2
