@@ -15,6 +15,10 @@ language.order: en, jp
 litter: 642, 643
 location.1: 104, 2010/6/27
 location.2: 166, 2011/5/12
+photo.1: https://www.instagram.com/p/CXJ1qzYpOgr/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: peek, white face
 species: 1
 studbook.id: 1024
 zoo: 166
