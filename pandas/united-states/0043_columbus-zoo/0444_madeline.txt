@@ -20,25 +20,26 @@ photo.1.author: columbuszoo
 photo.1.commitdate: 2018/11/24
 photo.1.link: https://www.instagram.com/columbuszoo/
 photo.1.tags: profile, smile
-photo.2: ig://BxncIDjhLwJ/m
-photo.2.author: yanliang_24
-photo.2.commitdate: 2020/11/6
-photo.2.link: https://www.instagram.com/yanliang_24/
-photo.2.tags: portrait
-photo.3: ig://Bztq8CQlIUS/m
-photo.3.author: andersonkelley
-photo.3.commitdate: 2021/9/29
-photo.3.link: https://www.instagram.com/accounts/activity/
-photo.3.tags: close-up, portrait, whiskers
-photo.4: ig://CSESm0ftT_-/m
-photo.4.author: rossifari
-photo.4.commitdate: 2021/8/7
-photo.4.link: https://www.instagram.com/rossifari/
-photo.4.tags: portrait, snow, standing, whiskers
-photo.5: https://www.instagram.com/p/BtFL8EYBjAm/media/?size=m
+photo.2: ig://BtFL8EYBjAm/m
+photo.2.author: rossifari
+photo.2.commitdate: 2021/12/27
+photo.2.link: https://www.instagram.com/rossifari/
+photo.2.tags: portrait, tail, tree
+photo.3: ig://BxncIDjhLwJ/m
+photo.3.author: yanliang_24
+photo.3.commitdate: 2020/11/6
+photo.3.link: https://www.instagram.com/yanliang_24/
+photo.3.tags: portrait
+photo.4: ig://Bztq8CQlIUS/m
+photo.4.author: andersonkelley
+photo.4.commitdate: 2021/9/29
+photo.4.link: https://www.instagram.com/accounts/activity/
+photo.4.tags: close-up, portrait, whiskers
+photo.5: ig://CSESm0ftT_-/m
 photo.5.author: rossifari
+photo.5.commitdate: 2021/8/7
 photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: portrait, tail, tree
+photo.5.tags: portrait, snow, standing, whiskers
 species: 2
 studbook.id: 1524
 zoo: 43

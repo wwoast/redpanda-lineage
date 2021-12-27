@@ -119,61 +119,64 @@ photo.21.author: nathalie.elliott
 photo.21.commitdate: 2021/11/19
 photo.21.link: https://www.instagram.com/nathalie.elliott/
 photo.21.tags: portrait, tongue, whiskers
-photo.22: ig://CCExj_YAnqT/m
+photo.22: ig://CByUSNYg4AP/m
 photo.22.author: nathalie.elliott
-photo.22.commitdate: 2021/9/1
+photo.22.commitdate: 2021/12/27
 photo.22.link: https://www.instagram.com/nathalie.elliott/
-photo.22.tags: bamboo, itchy, paws, portrait, tree
-photo.23: ig://CDVpErCA9yP/m
+photo.22.tags: bamboo, mofumofu, portrait
+photo.23: ig://CCExj_YAnqT/m
 photo.23.author: nathalie.elliott
 photo.23.commitdate: 2021/9/1
 photo.23.link: https://www.instagram.com/nathalie.elliott/
-photo.23.tags: laying down, portrait, tongue, whiskers
-photo.24: ig://CFTrJqngZd3/m
+photo.23.tags: bamboo, itchy, paws, portrait, tree
+photo.24: ig://CCnlSpBAKkv/m
 photo.24.author: nathalie.elliott
-photo.24.commitdate: 2020/12/9
+photo.24.commitdate: 2021/12/27
 photo.24.link: https://www.instagram.com/nathalie.elliott/
-photo.24.tags: portrait, smile, tail, tongue
-photo.25: ig://CGQlvB4A5FD/m
+photo.24.tags: close-up, home, laying down, portrait
+photo.25: ig://CDBC1Fvgjdp/m
 photo.25.author: nathalie.elliott
-photo.25.commitdate: 2020/10/13
+photo.25.commitdate: 2021/12/27
 photo.25.link: https://www.instagram.com/nathalie.elliott/
-photo.25.tags: laying down, portrait, whiskers
-photo.26: ig://CGfA0NxAgI7/m
+photo.25.tags: laying down, paws, tongue
+photo.26: ig://CDVpErCA9yP/m
 photo.26.author: nathalie.elliott
-photo.26.commitdate: 2020/12/8
+photo.26.commitdate: 2021/9/1
 photo.26.link: https://www.instagram.com/nathalie.elliott/
-photo.26.tags: bamboo, portrait
-photo.27: ig://CHhl-ixATwQ/m
+photo.26.tags: laying down, portrait, tongue, whiskers
+photo.27: ig://CFTrJqngZd3/m
 photo.27.author: nathalie.elliott
 photo.27.commitdate: 2020/12/9
 photo.27.link: https://www.instagram.com/nathalie.elliott/
-photo.28: ig://CH-MBxCAoJS/m
+photo.27.tags: portrait, smile, tail, tongue
+photo.28: ig://CGQlvB4A5FD/m
 photo.28.author: nathalie.elliott
-photo.28.commitdate: 2020/11/28
+photo.28.commitdate: 2020/10/13
 photo.28.link: https://www.instagram.com/nathalie.elliott/
-photo.28.tags: bamboo, paws, portrait
-photo.29: ig://CIO2OANgPQr/m
+photo.28.tags: laying down, portrait, whiskers
+photo.29: ig://CGfA0NxAgI7/m
 photo.29.author: nathalie.elliott
-photo.29.commitdate: 2020/12/3
+photo.29.commitdate: 2020/12/8
 photo.29.link: https://www.instagram.com/nathalie.elliott/
-photo.29.tags: laying down, portrait, smile
-photo.30: ig://CJ9hCFUgBjx/m
+photo.29.tags: bamboo, portrait
+photo.30: ig://CHhl-ixATwQ/m
 photo.30.author: nathalie.elliott
-photo.30.commitdate: 2021/5/21
+photo.30.commitdate: 2020/12/9
 photo.30.link: https://www.instagram.com/nathalie.elliott/
-photo.30.tags: portrait, whiskers
-photo.31: https://www.instagram.com/p/CByUSNYg4AP/media/?size=m
+photo.31: ig://CH-MBxCAoJS/m
 photo.31.author: nathalie.elliott
+photo.31.commitdate: 2020/11/28
 photo.31.link: https://www.instagram.com/nathalie.elliott/
-photo.31.tags: bamboo, mofumofu, portrait
-photo.32: https://www.instagram.com/p/CCnlSpBAKkv/media/?size=m
+photo.31.tags: bamboo, paws, portrait
+photo.32: ig://CIO2OANgPQr/m
 photo.32.author: nathalie.elliott
+photo.32.commitdate: 2020/12/3
 photo.32.link: https://www.instagram.com/nathalie.elliott/
-photo.32.tags: close-up, home, laying down, portrait
-photo.33: https://www.instagram.com/p/CDBC1Fvgjdp/media/?size=m
+photo.32.tags: laying down, portrait, smile
+photo.33: ig://CJ9hCFUgBjx/m
 photo.33.author: nathalie.elliott
+photo.33.commitdate: 2021/5/21
 photo.33.link: https://www.instagram.com/nathalie.elliott/
-photo.33.tags: laying down, paws, tongue
+photo.33.tags: portrait, whiskers
 species: 1
 zoo: 219

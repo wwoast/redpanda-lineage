@@ -9,29 +9,31 @@ photo.1.link: https://www.instagram.com/ifumoto88/
 photo.1.tags: apple time, couple, smile
 photo.1.tags.121.location: 230, 105
 photo.1.tags.140.location: 95, 120
-photo.2: ig://CE1piqYB3jH/l
-photo.2.author: rie_panda55
-photo.2.commitdate: 2020/11/10
-photo.2.link: https://www.instagram.com/rie_panda55/
-photo.2.tags: bamboo, bridge, couple, itchy, portrait, smile, tail
-photo.2.tags.121.location: 340, 150
-photo.2.tags.140.location: 110, 200
-photo.3: ig://COAKfnLBpl0/l
-photo.3.author: pink.b22
-photo.3.commitdate: 2021/5/31
-photo.3.link: https://www.instagram.com/pink.b22/
-photo.3.tags: couple, paws, portrait
-photo.3.tags.121.location: 400, 285
-photo.3.tags.140.location: 270, 150
-photo.4: https://www.instagram.com/p/CBjY_EUhePi/media/?size=l
-photo.4.author: kotume4935
-photo.4.link: https://www.instagram.com/kotume4935/
-photo.4.tags: couple, peek, portrait
-photo.4.tags.121.location: 405, 240
-photo.4.tags.140.location: 100, 235
-photo.5: https://www.instagram.com/p/CC4hnUTBYQ6/media/?size=l
-photo.5.author: tetusara.ki_
-photo.5.link: https://www.instagram.com/tetusara.ki_/
-photo.5.tags: couple, laying down, paws, portrait, sleeping
-photo.5.tags.121.location: 105, 175
-photo.5.tags.140.location: 430, 60
+photo.2: ig://CBjY_EUhePi/l
+photo.2.author: kotume4935
+photo.2.commitdate: 2021/12/27
+photo.2.link: https://www.instagram.com/kotume4935/
+photo.2.tags: couple, peek, portrait
+photo.2.tags.121.location: 405, 240
+photo.2.tags.140.location: 100, 235
+photo.3: ig://CC4hnUTBYQ6/l
+photo.3.author: tetusara.ki_
+photo.3.commitdate: 2021/12/27
+photo.3.link: https://www.instagram.com/tetusara.ki_/
+photo.3.tags: couple, laying down, paws, portrait, sleeping
+photo.3.tags.121.location: 105, 175
+photo.3.tags.140.location: 430, 60
+photo.4: ig://CE1piqYB3jH/l
+photo.4.author: rie_panda55
+photo.4.commitdate: 2020/11/10
+photo.4.link: https://www.instagram.com/rie_panda55/
+photo.4.tags: bamboo, bridge, couple, itchy, portrait, smile, tail
+photo.4.tags.121.location: 340, 150
+photo.4.tags.140.location: 110, 200
+photo.5: ig://COAKfnLBpl0/l
+photo.5.author: pink.b22
+photo.5.commitdate: 2021/5/31
+photo.5.link: https://www.instagram.com/pink.b22/
+photo.5.tags: couple, paws, portrait
+photo.5.tags.121.location: 400, 285
+photo.5.tags.140.location: 270, 150

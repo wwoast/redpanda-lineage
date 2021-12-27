@@ -98,8 +98,9 @@ photo.12.tags: family, playing, siblings, twins
 photo.12.tags.65.location: 445, 105
 photo.12.tags.962.location: 840, 430
 photo.12.tags.963.location: 425, 430
-photo.13: https://www.instagram.com/p/B_4T5GJhjXA/media/?size=l
+photo.13: ig://B_4T5GJhjXA/l
 photo.13.author: taka__3428
+photo.13.commitdate: 2021/12/27
 photo.13.link: https://www.instagram.com/taka__3428/
 photo.13.tags: bamboo, family, siblings, twins
 photo.13.tags.65.location: 95, 265
