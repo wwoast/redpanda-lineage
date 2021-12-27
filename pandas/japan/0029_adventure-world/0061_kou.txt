@@ -19,45 +19,47 @@ photo.1: ig://BS1IZBaD0lc/m
 photo.1.author: mariten1119
 photo.1.commitdate: 2018/8/12
 photo.1.link: https://www.instagram.com/mariten1119/
+photo.1.tags: portrait, sample
 photo.2: ig://BTv_z20gSl4/m
 photo.2.author: mifko55
 photo.2.commitdate: 2020/4/17
 photo.2.link: https://www.instagram.com/mifko55/
-photo.2.tags: portrait, whiskers
+photo.2.tags: close-up, portrait, sample, whiskers
 photo.3: ig://BVhO6daAwyQ/m
 photo.3.author: mifko55
 photo.3.commitdate: 2020/4/17
 photo.3.link: https://www.instagram.com/mifko55/
-photo.3.tags: pooping, portrait, tail, tongue
+photo.3.tags: pooping, portrait, sample, tail, tongue
 photo.4: ig://BYUTNL4gp8y/m
 photo.4.author: framereim
 photo.4.commitdate: 2018/8/12
 photo.4.link: https://www.instagram.com/framereim/
-photo.4.tags: portrait, profile, smile, tree
+photo.4.tags: portrait, profile, sample, smile, tree
 photo.5: ig://BY0kXq0hxtf/m
 photo.5.author: apple_jasmine33
 photo.5.commitdate: 2020/5/7
 photo.5.link: https://www.instagram.com/apple_jasmine33/
-photo.5.tags: portrait, smile, whiskers
+photo.5.tags: portrait, sample, smile, whiskers
 photo.6: ig://BY6tuxfgCfa/m
 photo.6.author: mifko55
 photo.6.commitdate: 2020/4/17
 photo.6.link: https://www.instagram.com/mifko55/
-photo.6.tags: paws, portrait, smile, tree, whiskers
+photo.6.tags: paws, portrait, sample, smile, tree, whiskers
 photo.7: ig://BZTgwkDggfN/m
 photo.7.author: mifko55
 photo.7.commitdate: 2020/4/17
 photo.7.link: https://www.instagram.com/mifko55/
-photo.7.tags: portrait, smile, tree, wink
+photo.7.tags: portrait, sample, smile, tree, wink
 photo.8: ig://BbCPGWXheph/m
 photo.8.author: mifko55
 photo.8.commitdate: 2020/4/17
 photo.8.link: https://www.instagram.com/mifko55/
-photo.8.tags: portrait
+photo.8.tags: portrait, sample
 photo.9: ig://Bbc43M5Am51/m
 photo.9.author: bubbles_octi
 photo.9.commitdate: 2018/7/22
 photo.9.link: https://www.instagram.com/bubbles_octi/
+photo.9.tags: sample
 photo.10: ig://BcEwde1gj6S/m
 photo.10.author: bubbles_octi
 photo.10.commitdate: 2018/7/22
@@ -66,7 +68,7 @@ photo.11: ig://BjR_1n7FPun/m
 photo.11.author: jas_forever_love
 photo.11.commitdate: 2018/8/12
 photo.11.link: https://www.instagram.com/jas_forever_love/
-photo.11.tags: blink, portrait, smile, tongue, tree
+photo.11.tags: blink, portrait, sample, smile, tongue, tree
 photo.12: ig://BjZUSOLlKS5/m
 photo.12.author: apple_jasmine33
 photo.12.commitdate: 2018/7/22
@@ -76,7 +78,7 @@ photo.13: ig://Bn_YgAzlGqb/m
 photo.13.author: fetorus_mami
 photo.13.commitdate: 2018/9/22
 photo.13.link: https://www.instagram.com/fetorus_mami/
-photo.13.tags: mofumofu, smile
+photo.13.tags: close-up, mofumofu, sample, smile
 photo.14: ig://BpRerfPlL2L/m
 photo.14.author: mifko55
 photo.14.commitdate: 2018/10/23
@@ -86,24 +88,27 @@ photo.15: ig://BqBExsIAprY/m
 photo.15.author: resapanlove
 photo.15.commitdate: 2018/11/11
 photo.15.link: https://www.instagram.com/resapanlove/
-photo.15.tags: paws, smile
+photo.15.tags: paws, portrait, sample, smile
 photo.16: ig://Bqmv2ndnBgU/m
 photo.16.author: yakko____
 photo.16.commitdate: 2018/12/6
 photo.16.link: https://www.instagram.com/yakko____/
-photo.16.tags: tree
+photo.16.tags: laying down, portrait, sample, tree
 photo.17: ig://BqpG0uHFgEf/m
 photo.17.author: nishicotolo
 photo.17.commitdate: 2018/11/26
 photo.17.link: https://www.instagram.com/nishicotolo/
+photo.17.tags: sample
 photo.18: ig://BrgOoeAF-US/m
 photo.18.author: kipekaila
 photo.18.commitdate: 2018/12/19
 photo.18.link: https://www.instagram.com/kipekaila/
+photo.18.tags: peek, portrait, sample, tail
 photo.19: ig://BrgYrovl20L/m
 photo.19.author: mifko55
 photo.19.commitdate: 2018/12/19
 photo.19.link: https://www.instagram.com/mifko55/
+photo.19.tags: sample
 photo.20: ig://BrgbNfTFs9H/m
 photo.20.author: kipekaila
 photo.20.commitdate: 2018/12/19
@@ -113,22 +118,22 @@ photo.21: ig://BroKnBoFxnQ/m
 photo.21.author: _natsu_panda_
 photo.21.commitdate: 2018/12/25
 photo.21.link: https://www.instagram.com/_natsu_panda_/
-photo.21.tags: portrait
+photo.21.tags: mofumofu, portrait, sample
 photo.22: ig://BswNuosF4TC/m
 photo.22.author: mifko55
 photo.22.commitdate: 2019/1/19
 photo.22.link: https://www.instagram.com/mifko55/
-photo.22.tags: techitechi
+photo.22.tags: portrait, sample, techitechi
 photo.23: ig://Bu1DEzVFlaW/m
 photo.23.author: mifko55
 photo.23.commitdate: 2019/3/12
 photo.23.link: https://www.instagram.com/mifko55/
-photo.23.tags: mofumofu, paws, portrait
+photo.23.tags: mofumofu, paws, portrait, sample, whiskers
 photo.24: ig://BvRDM8VFWtM/m
 photo.24.author: nishicotolo
 photo.24.commitdate: 2019/3/21
 photo.24.link: https://www.instagram.com/nishicotolo/
-photo.24.tags: smile
+photo.24.tags: sample, smile
 photo.25: ig://BwJ0qy4lPgF/m
 photo.25.author: nishicotolo
 photo.25.commitdate: 2019/4/15
@@ -138,12 +143,12 @@ photo.26: ig://BwwKS69l8Xk/m
 photo.26.author: mifko55
 photo.26.commitdate: 2019/5/5
 photo.26.link: https://www.instagram.com/mifko55/
-photo.26.tags: paws, portrait, smile
+photo.26.tags: paws, portrait, sample, smile
 photo.27: ig://BxmkIFRllT6/m
 photo.27.author: mifko55
 photo.27.commitdate: 2019/5/21
 photo.27.link: https://www.instagram.com/mifko55/
-photo.27.tags: itchy, portrait, smile
+photo.27.tags: itchy, portrait, sample, smile, whiskers
 photo.28: ig://ByIV6KWhYHH/m
 photo.28.author: resapanlove
 photo.28.commitdate: 2019/6/1
@@ -158,7 +163,7 @@ photo.30: ig://ByqyJoOFEmV/m
 photo.30.author: yakkooo24
 photo.30.commitdate: 2020/1/18
 photo.30.link: https://www.instagram.com/yakkooo24/
-photo.30.tags: paws, portrait
+photo.30.tags: paws, portrait, sample
 photo.31: ig://BysSAl8hPf2/m
 photo.31.author: sasapan34
 photo.31.commitdate: 2019/6/16
@@ -168,21 +173,22 @@ photo.32: ig://BysZzXyhV8p/m
 photo.32.author: resapanlove
 photo.32.commitdate: 2019/6/16
 photo.32.link: https://www.instagram.com/resapanlove/
-photo.32.tags: paws, portrait, tree
+photo.32.tags: paws, portrait, sample, tree
 photo.33: ig://BzVCdW5Bcj9/m
 photo.33.author: apple_jasmine33
 photo.33.commitdate: 2020/5/7
 photo.33.link: https://www.instagram.com/apple_jasmine33/
-photo.33.tags: mofumofu, portrait, smile
+photo.33.tags: mofumofu, portrait, sample, smile
 photo.34: ig://B0gRrq2BuB9/m
 photo.34.author: sasapan34
 photo.34.commitdate: 2019/7/30
 photo.34.link: https://www.instagram.com/sasapan34/
-photo.34.tags: paws
+photo.34.tags: paws, sample
 photo.35: ig://B2G15ASBfsw/m
 photo.35.author: nishicotolo
 photo.35.commitdate: 2019/9/9
 photo.35.link: https://www.instagram.com/nishicotolo/
+photo.35.tags: sample
 photo.36: ig://B2OouNjh4d-/m
 photo.36.author: nishicotolo
 photo.36.commitdate: 2019/9/14
@@ -192,46 +198,47 @@ photo.37: ig://B3l_6TogWZ_/m
 photo.37.author: kai.kuniko
 photo.37.commitdate: 2019/10/15
 photo.37.link: https://www.instagram.com/kai.kuniko/
-photo.37.tags: bamboo, dish, portrait, smile
+photo.37.tags: bamboo, dish, portrait, sample, smile
 photo.38: ig://B4D0lSwhxGO/m
 photo.38.author: fetorus_mami
 photo.38.commitdate: 2019/10/26
 photo.38.link: https://www.instagram.com/fetorus_mami/
-photo.38.tags: dish, home, paws, portrait, tongue
+photo.38.tags: dish, home, paws, portrait, sample, tongue
 photo.39: ig://B4euqdqB2rK/m
 photo.39.author: chankunvv
 photo.39.commitdate: 2019/11/8
 photo.39.link: https://www.instagram.com/chankunvv/
-photo.39.tags: laying down, portrait, smile, tree
+photo.39.tags: laying down, portrait, sample, smile, tree
 photo.40: ig://B52YYg1BAgE/m
 photo.40.author: chankunvv
 photo.40.commitdate: 2019/12/16
 photo.40.link: https://www.instagram.com/chankunvv/
-photo.40.tags: mofumofu, portrait, smile, tree, whiskers
+photo.40.tags: close-up, mofumofu, portrait, sample, smile, tree, whiskers
 photo.41: ig://B6jayBdhPv1/m
 photo.41.author: kipekaila
 photo.41.commitdate: 2019/12/30
 photo.41.link: https://www.instagram.com/kipekaila/
-photo.41.tags: paws, portrait
+photo.41.tags: paws, portrait, sample
 photo.42: ig://B6z1JNOhP2p/m
 photo.42.author: chankunvv
 photo.42.commitdate: 2020/1/9
 photo.42.link: https://www.instagram.com/chankunvv/
-photo.42.tags: paws, portrait
+photo.42.tags: paws, portrait, sample
 photo.43: ig://B7N-J2CBhW4/m
 photo.43.author: mifko55
 photo.43.commitdate: 2020/1/14
 photo.43.link: https://www.instagram.com/mifko55/
-photo.43.tags: lips, portrait, paws, techitechi
+photo.43.tags: lips, portrait, paws, sample, techitechi
 photo.44: ig://B7TABfnBw15/m
 photo.44.author: sasapan34
 photo.44.commitdate: 2020/1/16
 photo.44.link: https://www.instagram.com/sasapan34/
+photo.44.tags: sample
 photo.45: ig://B8RA89rByXf/m
 photo.45.author: framereim
 photo.45.commitdate: 2020/2/11
 photo.45.link: https://www.instagram.com/framereim/
-photo.45.tags: mofumofu, paws, portrait
+photo.45.tags: mofumofu, paws, portrait, sample
 photo.46: ig://B8Z3m_jhL7o/m
 photo.46.author: redpanda_nippon_takashi
 photo.46.commitdate: 2020/2/17
@@ -241,22 +248,22 @@ photo.47: ig://B8bud0ZB5P1/m
 photo.47.author: redpanda_nippon_takashi
 photo.47.commitdate: 2020/2/18
 photo.47.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.47.tags: apple time, home, paws, portrait
+photo.47.tags: apple time, home, paws, portrait, sample
 photo.48: ig://B8nhYIkApPw/m
 photo.48.author: miis_98
 photo.48.commitdate: 2020/2/26
 photo.48.link: https://www.instagram.com/miis_98/
-photo.48.tags: mofumofu, paws, portrait, whiskers
+photo.48.tags: mofumofu, paws, portrait, sample, whiskers
 photo.49: ig://B9xGjA9BFjz/m
 photo.49.author: kipekaila
 photo.49.commitdate: 2020/3/18
 photo.49.link: https://www.instagram.com/kipekaila/
-photo.49.tags: mofumofu, paws, portrait
+photo.49.tags: mofumofu, paws, portrait, sample
 photo.50: ig://B9y6GJHhkAI/m
 photo.50.author: mifko55
 photo.50.commitdate: 2020/3/18
 photo.50.link: https://www.instagram.com/mifko55/
-photo.50.tags: mofumofu, portrait
+photo.50.tags: mofumofu, portrait, sample
 photo.51: ig://B-R4xgmBdM6/m
 photo.51.author: mifko55
 photo.51.commitdate: 2020/3/28
@@ -271,7 +278,7 @@ photo.53: ig://CBaOAENBixs/m
 photo.53.author: mifko55
 photo.53.commitdate: 2020/6/21
 photo.53.link: https://www.instagram.com/mifko55/
-photo.53.tags: itchy, portrait, techitechi, tree
+photo.53.tags: itchy, portrait, sample, techitechi, tree
 photo.54: ig://CCDvuKUB2uN/m
 photo.54.author: framereim
 photo.54.commitdate: 2020/7/12
@@ -281,12 +288,12 @@ photo.55: ig://CH2bRgzB99z/m
 photo.55.author: chankunvv
 photo.55.commitdate: 2020/11/28
 photo.55.link: https://www.instagram.com/chankunvv/
-photo.55.tags: portrait, smile
+photo.55.tags: portrait, sample, smile
 photo.56: ig://CJbCxunBDJE/m
 photo.56.author: mifko55
 photo.56.commitdate: 2021/1/3
 photo.56.link: https://www.instagram.com/mifko55/
-photo.56.tags: peek, portrait
+photo.56.tags: peek, portrait, sample
 photo.57: ig://CJoLhROh3BQ/m
 photo.57.author: craig_craig_craig
 photo.57.commitdate: 2021/1/13
@@ -311,32 +318,32 @@ photo.61: ig://CNdmIolhBje/m
 photo.61.author: mifko55
 photo.61.commitdate: 2021/4/17
 photo.61.link: https://www.instagram.com/mifko55/
-photo.61.tags: mofumofu, portrait, whiskers
+photo.61.tags: mofumofu, portrait, sample, whiskers
 photo.62: ig://CNlr7H3hTQz/m
 photo.62.author: framereim
 photo.62.commitdate: 2021/5/28
 photo.62.link: https://www.instagram.com/framereim/
-photo.62.tags: keeper, peek, portrait, techitechi
+photo.62.tags: keeper, peek, portrait, sample, techitechi
 photo.63: ig://CN9QfR5hdgv/m
 photo.63.author: framereim
 photo.63.commitdate: 2021/5/3
 photo.63.link: https://www.instagram.com/framereim/
-photo.63.tags: blink, laying down, mofumofu, paws, portrait, smile, whiskers
+photo.63.tags: blink, laying down, mofumofu, paws, portrait, sample, smile, whiskers
 photo.64: ig://CWM2BbaByTM/m
 photo.64.author: redpanda_nippon_takashi
 photo.64.commitdate: 2021/11/21
 photo.64.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.64.tags: mofumofu, portrait, tongue
+photo.64.tags: mofumofu, portrait, sample, tongue
 photo.65: ig://CWQO4MEhahh/m
 photo.65.author: jas_forever_love
 photo.65.commitdate: 2021/11/21
 photo.65.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.65.tags: mofumofu, paws, portrait
+photo.65.tags: mofumofu, paws, portrait, sample
 photo.66: ig://CWdLLC4BONp/m
 photo.66.author: nishicotolo
 photo.66.commitdate: 2021/11/29
 photo.66.link: https://www.instagram.com/nishicotolo/
-photo.66.tags: mofumofu, paws, whiskers
+photo.66.tags: mofumofu, paws, sample, whiskers
 photo.67: ig://CXRvV38BKS5/m
 photo.67.author: redpanda_nippon_takashi
 photo.67.commitdate: 2021/12/22
