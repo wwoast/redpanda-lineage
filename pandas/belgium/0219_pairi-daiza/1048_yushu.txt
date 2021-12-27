@@ -59,7 +59,7 @@ photo.9: ig://BxblJQYIV0A/m
 photo.9.author: nathalie.elliott
 photo.9.commitdate: 2019/11/24
 photo.9.link: https://www.instagram.com/nathalie.elliott/
-photo.9.tags: portrait, whiskers
+photo.9.tags: peek, portrait, whiskers
 photo.10: ig://ByJJWb3osFr/m
 photo.10.author: nathalie.elliott
 photo.10.commitdate: 2019/11/24
@@ -254,5 +254,9 @@ photo.48.author: nathalie.elliott
 photo.48.commitdate: 2021/11/24
 photo.48.link: https://www.instagram.com/nathalie.elliott/
 photo.48.tags: portrait, whiskers
+photo.49: https://www.instagram.com/p/CC5o4RwAJH8/media/?size=m
+photo.49.author: nathalie.elliott
+photo.49.link: https://www.instagram.com/nathalie.elliott/
+photo.49.tags: peek, portrait, tail
 species: 1
 zoo: 219
