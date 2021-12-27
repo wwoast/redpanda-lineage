@@ -18,7 +18,7 @@ photo.1: ig://BB0t12WPi7_/m
 photo.1.author: panda.daisuki
 photo.1.commitdate: 2019/7/7
 photo.1.link: https://www.instagram.com/panda.daisuki/
-photo.1.tags: bamboo, portrait, standing, tree
+photo.1.tags: bamboo, portrait, sample, standing, tree
 photo.2: ig://BKD8Ds1jw3n/m
 photo.2.author: minatomirai215
 photo.2.commitdate: 2020/4/18
@@ -33,27 +33,27 @@ photo.4: ig://Bc72HnsA0fg/m
 photo.4.author: bubbles_octi
 photo.4.commitdate: 2018/7/22
 photo.4.link: https://www.instagram.com/bubbles_octi/
-photo.4.tags: grumpy, portrait
+photo.4.tags: grumpy, portrait, sample
 photo.5: ig://Bi1hWmJFJgR/m
 photo.5.author: makimaru18
 photo.5.commitdate: 2018/7/22
 photo.5.link: https://www.instagram.com/makimaru18/
-photo.5.tags: portrait, smile
+photo.5.tags: portrait, sample, smile
 photo.6: ig://BlVbYfylYIo/m
 photo.6.author: taketake_aniphoto
 photo.6.commitdate: 2018/7/22
 photo.6.link: https://www.instagram.com/taketake_aniphoto/
-photo.6.tags: apple time, standing
+photo.6.tags: apple time, sample, standing
 photo.7: ig://BoHV4h3F_rO/m
 photo.7.author: bubbles_octi
 photo.7.commitdate: 2018/9/25
 photo.7.link: https://www.instagram.com/bubbles_octi/
-photo.7.tags: standing
+photo.7.tags: portrait, standing
 photo.8: ig://BoY5VQxFbyM/m
 photo.8.author: makimaru18
 photo.8.commitdate: 2018/10/1
 photo.8.link: https://www.instagram.com/makimaru18/
-photo.8.tags: bamboo, portrait
+photo.8.tags: bamboo, portrait, sample
 photo.9: ig://Boty7iHlaLa/m
 photo.9.author: yossi929
 photo.9.commitdate: 2018/10/9
@@ -68,12 +68,12 @@ photo.11: ig://BpJS6BHlJtH/m
 photo.11.author: kotata_513
 photo.11.commitdate: 2018/10/20
 photo.11.link: https://www.instagram.com/kotata_513/
-photo.11.tags: bamboo, portrait, profile
+photo.11.tags: bamboo, portrait, profile, sample
 photo.12: ig://Bp5T8mYFpgW/m
 photo.12.author: wumpwoast
 photo.12.commitdate: 2018/11/7
 photo.12.link: https://www.instagram.com/wumpwoast/
-photo.12.tags: portrait
+photo.12.tags: portrait, sample
 photo.13: ig://BrP2BDkFv9Y/m
 photo.13.author: sakikukeco
 photo.13.commitdate: 2018/12/11
@@ -83,27 +83,27 @@ photo.14: ig://BrfRq_xFT7o/m
 photo.14.author: bubbles_octi
 photo.14.commitdate: 2018/12/17
 photo.14.link: https://www.instagram.com/bubbles_octi/
-photo.14.tags: standing
+photo.14.tags: sample, standing
 photo.15: ig://BsK9iXvFHRm/m
 photo.15.author: bubbles_octi
 photo.15.commitdate: 2019/1/3
 photo.15.link: https://www.instagram.com/bubbles_octi/
-photo.15.tags: standing
+photo.15.tags: sample, standing
 photo.16: ig://BsPueBPlF4u/m
 photo.16.author: kotata_513
 photo.16.commitdate: 2019/1/6
 photo.16.link: https://www.instagram.com/kotata_513/
-photo.16.tags: bamboo, tongue, wink
+photo.16.tags: bamboo, sample, tongue, wink
 photo.17: ig://BsXSOgWlNeG/m
 photo.17.author: bubbles_octi
 photo.17.commitdate: 2019/1/9
 photo.17.link: https://www.instagram.com/bubbles_octi/
-photo.17.tags: carry, portrait
+photo.17.tags: carry, portrait, sample
 photo.18: ig://BsajeTVlTvN/m
 photo.18.author: makimaru18
 photo.18.commitdate: 2019/1/9
 photo.18.link: https://www.instagram.com/makimaru18/
-photo.18.tags: bamboo, portrait, smile, tongue
+photo.18.tags: bamboo, portrait, sample, smile, tongue
 photo.19: ig://Bs1z6M4lFFW/m
 photo.19.author: sakikukeco
 photo.19.commitdate: 2019/1/20
@@ -128,12 +128,12 @@ photo.23: ig://Bv5NTCuFmoK/m
 photo.23.author: makimaru18
 photo.23.commitdate: 2019/4/6
 photo.23.link: https://www.instagram.com/makimaru18/
-photo.23.tags: portrait, smile, tongue
+photo.23.tags: portrait, sample, smile, tongue
 photo.24: ig://Bxm5oqEllfj/m
 photo.24.author: bubbles_octi
 photo.24.commitdate: 2019/5/21
 photo.24.link: https://www.instagram.com/bubbles_octi/
-photo.24.tags: portrait, smile
+photo.24.tags: portrait, sample, smile
 photo.25: ig://ByAnd9SB2YO/m
 photo.25.author: shrimpieaqua
 photo.25.commitdate: 2019/6/13
@@ -143,7 +143,7 @@ photo.26: ig://ByMWSNOlZtT/m
 photo.26.author: sakikukeco
 photo.26.commitdate: 2019/6/2
 photo.26.link: https://www.instagram.com/sakikukeco/
-photo.26.tags: apple time, standing
+photo.26.tags: apple time, sample, standing
 photo.27: ig://ByXl4-ahXfK/m
 photo.27.author: sakikukeco
 photo.27.commitdate: 2019/6/6
@@ -163,22 +163,22 @@ photo.30: ig://B03OYOpB0Q_/m
 photo.30.author: sakikukeco
 photo.30.commitdate: 2019/8/12
 photo.30.link: https://www.instagram.com/sakikukeco/
-photo.30.tags: portrait, smile
+photo.30.tags: portrait, sample, smile
 photo.31: ig://B1JWpGxhdT_/m
 photo.31.author: sakikukeco
 photo.31.commitdate: 2019/8/15
 photo.31.link: https://www.instagram.com/sakikukeco/
-photo.31.tags: mofumofu, paws, portrait, tail
+photo.31.tags: mofumofu, paws, portrait, sample, tail
 photo.32: ig://B1bNKp-hzLg/m
 photo.32.author: sakikukeco
 photo.32.commitdate: 2019/8/22
 photo.32.link: https://www.instagram.com/sakikukeco/
-photo.32.tags: home, portrait
+photo.32.tags: home, portrait, sample
 photo.33: ig://B2GkZdGh2xq/m
 photo.33.author: sasapan34
 photo.33.commitdate: 2019/9/9
 photo.33.link: https://www.instagram.com/sasapan34/
-photo.33.tags: lips, smile
+photo.33.tags: lips, sample, smile
 photo.34: ig://B2SY6amBJCX/m
 photo.34.author: akiakiakiko18
 photo.34.commitdate: 2019/9/14
@@ -203,21 +203,22 @@ photo.38: ig://B38fSdqhiN8/m
 photo.38.author: yossi929
 photo.38.commitdate: 2019/10/22
 photo.38.link: https://www.instagram.com/yossi929/
-photo.38.tags: paws, portrait, toys
+photo.38.tags: paws, portrait, sample, toys
 photo.39: ig://B4LmB-chFrY/m
 photo.39.author: yossi929
 photo.39.commitdate: 2019/10/28
 photo.39.link: https://www.instagram.com/yossi929/
+photo.39.tags: sample
 photo.40: ig://B4cHX1kgsnM/m
 photo.40.author: sunnylettuce_2021
 photo.40.commitdate: 2019/11/5
 photo.40.link: https://www.instagram.com/sunnylettuce_2021/
-photo.40.tags: bridge, paws
+photo.40.tags: bridge, paws, sample
 photo.41: ig://B5i-WZahhjn/m
 photo.41.author: motohin
 photo.41.commitdate: 2019/12/5
 photo.41.link: https://www.instagram.com/motohin/
-photo.41.tags: portrait, whiskers
+photo.41.tags: portrait, sample, whiskers
 photo.42: ig://B5sGmTphf7Z/m
 photo.42.author: nishicotolo
 photo.42.commitdate: 2019/12/11
@@ -227,17 +228,17 @@ photo.43: ig://B6no7ZOhIe5/m
 photo.43.author: makimaru18
 photo.43.commitdate: 2019/12/29
 photo.43.link: https://www.instagram.com/makimaru18/
-photo.43.tags: bite, laying down, paws, portrait, tail, toys, upside-down
+photo.43.tags: bite, laying down, paws, portrait, sample, tail, toys, upside-down
 photo.44: ig://B69hLiuBcIC/m
 photo.44.author: arinco_g6
 photo.44.commitdate: 2020/5/2
 photo.44.link: https://www.instagram.com/arinco_g6/
-photo.44.tags: paws, smile
+photo.44.tags: paws, sample, smile
 photo.45: ig://B7bVtW7hnL_/m
 photo.45.author: fetorus_mami
 photo.45.commitdate: 2020/1/19
 photo.45.link: https://www.instagram.com/fetorus_mami/
-photo.45.tags: paws, smile, standing
+photo.45.tags: paws, sample, smile, standing
 photo.46: ig://B73TTmBB4fN/m
 photo.46.author: makimaru18
 photo.46.commitdate: 2020/1/28
@@ -247,7 +248,7 @@ photo.47: ig://B8GmIzmBsOQ/m
 photo.47.author: nishicotolo
 photo.47.commitdate: 2020/2/7
 photo.47.link: https://www.instagram.com/nishicotolo/
-photo.47.tags: bamboo
+photo.47.tags: bamboo, sample
 photo.48: ig://B8RNALtB9sg/m
 photo.48.author: makimaru18
 photo.48.commitdate: 2020/2/10
@@ -267,22 +268,22 @@ photo.51: ig://B_jT0Y7nFzH/m
 photo.51.author: sakikukeco
 photo.51.commitdate: 2020/5/2
 photo.51.link: https://www.instagram.com/sakikukeco/
-photo.51.tags: paws
+photo.51.tags: paws, sample
 photo.52: ig://B_2IdFLHf9X/m
 photo.52.author: minatomirai215
 photo.52.commitdate: 2020/5/9
 photo.52.link: https://www.instagram.com/minatomirai215/
-photo.52.tags: portrait
+photo.52.tags: portrait, sample
 photo.53: ig://CBIgA28hT_9/m
 photo.53.author: nakacchi_desu
 photo.53.commitdate: 2020/6/15
 photo.53.link: https://www.instagram.com/nakacchi_desu/
-photo.53.tags: apple time, paws, standing, tail
+photo.53.tags: apple time, paws, sample, standing, tail
 photo.54: ig://CBUAzMnBVwG/m
 photo.54.author: tomo3700
 photo.54.commitdate: 2020/6/15
 photo.54.link: https://www.instagram.com/tomo3700/
-photo.54.tags: home, mofumofu, portrait
+photo.54.tags: home, mofumofu, portrait, sample
 photo.55: ig://CBWwzEohC87/m
 photo.55.author: sakikukeco
 photo.55.commitdate: 2020/6/15
@@ -292,17 +293,17 @@ photo.56: ig://CBeTrylhbR8/m
 photo.56.author: tomo3700
 photo.56.commitdate: 2020/6/30
 photo.56.link: https://www.instagram.com/tomo3700/
-photo.56.tags: portrait
+photo.56.tags: portrait, sample
 photo.57: ig://CCNC0zThOvT/m
 photo.57.author: redpanda_nippon_takashi
 photo.57.commitdate: 2020/7/12
 photo.57.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.57.tags: bamboo, close-up, portrait, smile, tongue
+photo.57.tags: bamboo, close-up, portrait, sample, smile, tongue
 photo.58: ig://CCz8vXYhz6N/m
 photo.58.author: chankunvv
 photo.58.commitdate: 2020/7/24
 photo.58.link: https://www.instagram.com/chankunvv/
-photo.58.tags: mofumofu, paws, portrait
+photo.58.tags: mofumofu, paws, portrait, sample
 photo.59: ig://CC3MuvZh2IY/m
 photo.59.author: kisshan324
 photo.59.commitdate: 2020/7/24
@@ -312,12 +313,12 @@ photo.60: ig://CDrKKYBBDEk/m
 photo.60.author: sakikukeco
 photo.60.commitdate: 2020/11/8
 photo.60.link: https://www.instagram.com/sakikukeco/
-photo.60.tags: apple time, paws, smile, standing
+photo.60.tags: apple time, paws, sample, smile, standing
 photo.61: ig://CEAmYhPh-gt/m
 photo.61.author: makimaru18
 photo.61.commitdate: 2020/11/8
 photo.61.link: https://www.instagram.com/makimaru18/
-photo.61.tags: apple time, mofumofu, paws, portrait, praying, smile, standing
+photo.61.tags: apple time, mofumofu, paws, portrait, praying, sample, smile, standing
 photo.62: ig://CEtYbQPBN_9/m
 photo.62.author: pink.b22
 photo.62.commitdate: 2020/9/19
@@ -332,62 +333,62 @@ photo.64: ig://CGgsBJPBWP8/m
 photo.64.author: makimaru18
 photo.64.commitdate: 2020/11/8
 photo.64.link: https://www.instagram.com/makimaru18/
-photo.64.tags: bridge, paws, portrait
+photo.64.tags: bridge, paws, portrait, sample
 photo.65: ig://CI-8eYNhMfP/m
 photo.65.author: sakikukeco
 photo.65.commitdate: 2021/1/2
 photo.65.link: https://www.instagram.com/sakikukeco/
-photo.65.tags: mofumofu, nose, paws
+photo.65.tags: mofumofu, nose, paws, sample
 photo.66: ig://CKGqxtYhtFT/m
 photo.66.author: bubbles_octi
 photo.66.commitdate: 2021/1/28
 photo.66.link: https://www.instagram.com/bubbles_octi/
-photo.66.tags: apple time, paws, portrait, standing, toys
+photo.66.tags: apple time, paws, portrait, sample, standing, toys
 photo.67: ig://CKQ9YKaBsyH/m
 photo.67.author: makimaru18
 photo.67.commitdate: 2021/3/2
 photo.67.link: https://www.instagram.com/makimaru18/
-photo.67.tags: keeper, lunch time, paws, portrait
+photo.67.tags: keeper, lunch time, paws, portrait, sample
 photo.68: ig://CLMHyG5Bs4B/m
 photo.68.author: makimaru18
 photo.68.commitdate: 2021/2/16
 photo.68.link: https://www.instagram.com/makimaru18/
-photo.68.tags: apple time, mofumofu, paws, portrait, smile
+photo.68.tags: apple time, mofumofu, paws, portrait, sample, smile
 photo.69: ig://CLlr3RYhxSe/m
 photo.69.author: makimaru18
 photo.69.commitdate: 2021/3/21
 photo.69.link: https://www.instagram.com/makimaru18/
-photo.69.tags: apple time, paws, portrait, tongue
+photo.69.tags: apple time, paws, portrait, sample, tongue
 photo.70: ig://CLnqJLcB52G/m
 photo.70.author: sakikukeco
 photo.70.commitdate: 2021/3/21
 photo.70.link: https://www.instagram.com/sakikukeco/
-photo.70.tags: paws, portrait, smile, standing
+photo.70.tags: paws, portrait, sample, smile, standing
 photo.71: ig://CMZiD-jhm5R/m
 photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2021/3/29
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: mofumofu, paws, portrait
+photo.71.tags: mofumofu, paws, portrait, sample
 photo.72: ig://CMe_J0fBlqe/m
 photo.72.author: bubbles_octi
 photo.72.commitdate: 2021/3/29
 photo.72.link: https://www.instagram.com/bubbles_octi/
-photo.72.tags: paws, portrait
+photo.72.tags: paws, portrait, sample
 photo.73: ig://CNL6zOCBxM6/m
 photo.73.author: makimaru18
 photo.73.commitdate: 2021/4/3
 photo.73.link: https://www.instagram.com/makimaru18/
-photo.73.tags: paws, playing, portrait
+photo.73.tags: paws, playing, portrait, sample
 photo.74: ig://CNXMxM8hEpI/m
 photo.74.author: jas_forever_love
 photo.74.commitdate: 2021/4/29
 photo.74.link: https://www.instagram.com/jas_forever_love/
-photo.74.tags: paws, playing, portrait, tail, upside-down
+photo.74.tags: paws, playing, portrait, sample, tail, upside-down
 photo.75: ig://CPQJl9Fh6MX/m
 photo.75.author: bubbles_octi
 photo.75.commitdate: 2021/7/7
 photo.75.link: https://www.instagram.com/bubbles_octi/
-photo.75.tags: portrait, smile, tongue, toys
+photo.75.tags: portrait, sample, smile, tongue, toys
 photo.76: ig://CPQjG7dhI2r/m
 photo.76.author: bubbles_octi
 photo.76.commitdate: 2021/7/14
@@ -402,12 +403,12 @@ photo.78: ig://CTD46mcBqbX/m
 photo.78.author: osaka_tennoji_zoo
 photo.78.commitdate: 2021/8/27
 photo.78.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.78.tags: close-up, nose, portrait
+photo.78.tags: close-up, nose, portrait, sample
 photo.79: ig://CTHrlJWhIn2/m
 photo.79.author: makimaru18
 photo.79.commitdate: 2021/9/7
 photo.79.link: https://www.instagram.com/makimaru18/
-photo.79.tags: keeper, portrait, smile, tail
+photo.79.tags: keeper, portrait, sample, smile, tail
 photo.80: ig://CUUuFULh6B_/m
 photo.80.author: makimaru18
 photo.80.commitdate: 2021/12/22
@@ -417,7 +418,7 @@ photo.81: ig://CUzc6zjhQKZ/m
 photo.81.author: jas_forever_love
 photo.81.commitdate: 2021/11/12
 photo.81.link: https://www.instagram.com/jas_forever_love/
-photo.81.tags: laying down, mofumofu, paws
+photo.81.tags: laying down, mofumofu, paws, sample
 photo.82: ig://makimaru18/CXQ5yf8BQlx/m
 photo.82.author: makimaru18
 photo.82.commitdate: 2021/12/22
