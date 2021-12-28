@@ -488,25 +488,26 @@ photo.95.author: mini_cochi
 photo.95.commitdate: 2021/8/15
 photo.95.link: https://www.instagram.com/mini_cochi/
 photo.95.tags: laying down, portrait, tongue, whiskers
-photo.96: ig://CSmhYNDB_VR/m
-photo.96.author: eos1089
-photo.96.commitdate: 2021/8/18
-photo.96.link: https://www.instagram.com/eos1089/
-photo.96.tags: close-up, laying down, portrait, whiskers
-photo.97: ig://CTA7nJIBvOh/m
-photo.97.author: otenba_redpanda
-photo.97.commitdate: 2021/10/1
-photo.97.link: https://www.instagram.com/otenba_redpanda/
-photo.97.tags: close-up, laying down, portrait, smile, tongue, whiskers
-photo.98: ig://CU-HIwxl83B/m
-photo.98.author: miis_98
-photo.98.commitdate: 2021/10/17
-photo.98.link: https://www.instagram.com/miis_98/
-photo.98.tags: bridge, laying down, portrait, window
-photo.99: https://www.instagram.com/p/CSk93P9hsGv/media/?size=m
-photo.99.author: framereim
-photo.99.link: https://www.instagram.com/framereim/
-photo.99.tags: portrait, whiskers
+photo.96: ig://CSk93P9hsGv/m
+photo.96.author: framereim
+photo.96.commitdate: 2021/12/28
+photo.96.link: https://www.instagram.com/framereim/
+photo.96.tags: portrait, whiskers
+photo.97: ig://CSmhYNDB_VR/m
+photo.97.author: eos1089
+photo.97.commitdate: 2021/8/18
+photo.97.link: https://www.instagram.com/eos1089/
+photo.97.tags: close-up, laying down, portrait, whiskers
+photo.98: ig://CTA7nJIBvOh/m
+photo.98.author: otenba_redpanda
+photo.98.commitdate: 2021/10/1
+photo.98.link: https://www.instagram.com/otenba_redpanda/
+photo.98.tags: close-up, laying down, portrait, smile, tongue, whiskers
+photo.99: ig://CU-HIwxl83B/m
+photo.99.author: miis_98
+photo.99.commitdate: 2021/10/17
+photo.99.link: https://www.instagram.com/miis_98/
+photo.99.tags: bridge, laying down, portrait, window
 species: 2
 studbook.id: 13170
 zoo: 69

@@ -294,33 +294,36 @@ photo.56.author: love__mitarashi
 photo.56.commitdate: 2021/7/6
 photo.56.link: https://www.instagram.com/love__mitarashi/
 photo.56.tags: itchy, whiskers
-photo.57: ig://CS_o_x-BPn2/m
+photo.57: ig://CRi4c44hdyf/m
 photo.57.author: colette.jp
-photo.57.commitdate: 2021/9/1
+photo.57.commitdate: 2021/12/28
 photo.57.link: https://www.instagram.com/colette.jp/
-photo.57.tags: keeper, paws, portrait, standing, tail
-photo.58: ig://CV7ejkHBKHR/m
-photo.58.author: colette.jp
-photo.58.commitdate: 2021/11/10
-photo.58.link: https://www.instagram.com/colette.jp/
-photo.58.tags: paws, portrait, smile
-photo.59: ig://CWiGajLhvme/m
+photo.57.tags: close-up, keeper, portrait, whiskers
+photo.58: ig://CSrMxG8H8ph/m
+photo.58.author: love__mitarashi
+photo.58.commitdate: 2021/12/28
+photo.58.link: https://www.instagram.com/love__mitarashi/
+photo.58.tags: paws, tail
+photo.59: ig://CS_o_x-BPn2/m
 photo.59.author: colette.jp
-photo.59.commitdate: 2021/11/27
+photo.59.commitdate: 2021/9/1
 photo.59.link: https://www.instagram.com/colette.jp/
-photo.59.tags: mofumofu, paws, peek, portrait
-photo.60: https://www.instagram.com/p/CSrMxG8H8ph/media/?size=m
-photo.60.author: love__mitarashi
-photo.60.link: https://www.instagram.com/love__mitarashi/
-photo.60.tags: paws, tail
-photo.61: https://www.instagram.com/p/CRi4c44hdyf/media/?size=m
-photo.61.author: colette.jp
-photo.61.link: https://www.instagram.com/colette.jp/
-photo.61.tags: close-up, keeper, portrait, whiskers
-photo.62: https://www.instagram.com/p/CWapnNSFS8D/media/?size=m
-photo.62.author: love__mitarashi
-photo.62.link: https://www.instagram.com/love__mitarashi/
-photo.62.tags: paws, tail
+photo.59.tags: keeper, paws, portrait, standing, tail
+photo.60: ig://CV7ejkHBKHR/m
+photo.60.author: colette.jp
+photo.60.commitdate: 2021/11/10
+photo.60.link: https://www.instagram.com/colette.jp/
+photo.60.tags: paws, portrait, smile
+photo.61: ig://CWapnNSFS8D/m
+photo.61.author: love__mitarashi
+photo.61.commitdate: 2021/12/28
+photo.61.link: https://www.instagram.com/love__mitarashi/
+photo.61.tags: paws, tail
+photo.62: ig://CWiGajLhvme/m
+photo.62.author: colette.jp
+photo.62.commitdate: 2021/11/27
+photo.62.link: https://www.instagram.com/colette.jp/
+photo.62.tags: mofumofu, paws, peek, portrait
 species: 2
 studbook.id: 14151
 zoo: 14
