@@ -73,18 +73,20 @@ photo.12.author: otenba_redpanda
 photo.12.commitdate: 2021/11/21
 photo.12.link: https://www.instagram.com/otenba_redpanda/
 photo.12.tags: baby, mofumofu, portrait, tail
-photo.13: ig://CXlajN9PD9C/m
-photo.13.author: alto0908
-photo.13.commitdate: 2021/12/19
-photo.13.link: https://www.instagram.com/alto0908/
-photo.13.tags: baby, laying down, mofumofu, portrait, sample
-photo.14: https://www.instagram.com/ck.chie/p/CXLcINGBbVR/media/?size=m
-photo.14.author: ck.chie
-photo.14.link: https://www.instagram.com/ck.chie/
-photo.14.tags: baby, portrait, sample, snow, tail
-photo.15: https://www.instagram.com/p/CXMrvl4DLQO/media/?size=m
-photo.15.author: otenba_redpanda
-photo.15.link: https://www.instagram.com/otenba_redpanda/
-photo.15.tags: baby, bamboo, paws, portrait, sample, standing, tail
+photo.13: ig://ck.chie/CXLcINGBbVR/m
+photo.13.author: ck.chie
+photo.13.commitdate: 2021/12/29
+photo.13.link: https://www.instagram.com/ck.chie/
+photo.13.tags: baby, portrait, sample, snow, tail
+photo.14: ig://CXMrvl4DLQO/m
+photo.14.author: otenba_redpanda
+photo.14.commitdate: 2021/12/29
+photo.14.link: https://www.instagram.com/otenba_redpanda/
+photo.14.tags: baby, bamboo, paws, portrait, sample, standing, tail
+photo.15: ig://CXlajN9PD9C/m
+photo.15.author: alto0908
+photo.15.commitdate: 2021/12/19
+photo.15.link: https://www.instagram.com/alto0908/
+photo.15.tags: baby, laying down, mofumofu, portrait, sample
 species: 2
 zoo: 10

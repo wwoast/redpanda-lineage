@@ -775,8 +775,9 @@ photo.153.author: otenba_redpanda
 photo.153.commitdate: 2021/12/22
 photo.153.link: https://www.instagram.com/otenba_redpanda/
 photo.153.tags: mofumofu, paws, portrait, sample, whiskers
-photo.154: https://www.instagram.com/p/CXqXIQpPT7j/media/?size=m
+photo.154: ig://CXqXIQpPT7j/m
 photo.154.author: jas_forever_love
+photo.154.commitdate: 2021/12/29
 photo.154.link: https://www.instagram.com/jas_forever_love/
 photo.154.tags: mofumofu, paws
 species: 2

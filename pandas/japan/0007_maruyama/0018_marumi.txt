@@ -2071,28 +2071,31 @@ photo.413.author: cattail.sapporo
 photo.413.commitdate: 2021/12/21
 photo.413.link: https://www.instagram.com/cattail.sapporo/
 photo.413.tags: mofumofu, portrait, sample, tail
-photo.414: ig://CXjx1jcBm4m/m
-photo.414.author: hamamatsu.chiita
-photo.414.commitdate: 2021/12/20
-photo.414.link: https://www.instagram.com/hamamatsu.chiita/
-photo.414.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.415: ig://CXpJQcGvHHl/m
-photo.415.author: leonard_redmof
-photo.415.commitdate: 2021/12/20
-photo.415.link: https://www.instagram.com/leonard_redmof/
-photo.415.tags: portrait, sample, snow, whiskers
-photo.416: https://www.instagram.com/p/CXQlCAsFjuJ/media/?size=m
+photo.414: ig://CXQlCAsFjuJ/m
+photo.414.author: cattail.sapporo
+photo.414.commitdate: 2021/12/29
+photo.414.link: https://www.instagram.com/cattail.sapporo/
+photo.414.tags: paws, portrait, snow
+photo.415: ig://CXaV7NiLimK/m
+photo.415.author: cattail.sapporo
+photo.415.commitdate: 2021/12/29
+photo.415.link: https://www.instagram.com/cattail.sapporo/
+photo.415.tags: paws, peek, portrait
+photo.416: ig://CXiqn5xFl-Y/m
 photo.416.author: cattail.sapporo
+photo.416.commitdate: 2021/12/29
 photo.416.link: https://www.instagram.com/cattail.sapporo/
 photo.416.tags: paws, portrait, snow
-photo.417: https://www.instagram.com/p/CXaV7NiLimK/media/?size=m
-photo.417.author: cattail.sapporo
-photo.417.link: https://www.instagram.com/cattail.sapporo/
-photo.417.tags: paws, peek, portrait
-photo.418: https://www.instagram.com/p/CXiqn5xFl-Y/media/?size=m
-photo.418.author: cattail.sapporo
-photo.418.link: https://www.instagram.com/cattail.sapporo/
-photo.418.tags: paws, portrait, snow
+photo.417: ig://CXjx1jcBm4m/m
+photo.417.author: hamamatsu.chiita
+photo.417.commitdate: 2021/12/20
+photo.417.link: https://www.instagram.com/hamamatsu.chiita/
+photo.417.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.418: ig://CXpJQcGvHHl/m
+photo.418.author: leonard_redmof
+photo.418.commitdate: 2021/12/20
+photo.418.link: https://www.instagram.com/leonard_redmof/
+photo.418.tags: portrait, sample, snow, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

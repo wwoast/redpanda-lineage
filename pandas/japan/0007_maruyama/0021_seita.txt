@@ -1040,19 +1040,21 @@ photo.206.author: mari_neko3
 photo.206.commitdate: 2021/11/29
 photo.206.link: https://www.instagram.com/mari_neko3/
 photo.206.tags: mofumofu, portrait, whiskers
-photo.207: ig://CXntAkKvWI6/m
-photo.207.author: hamamatsu.chiita
-photo.207.commitdate: 2021/12/19
-photo.207.link: https://www.instagram.com/hamamatsu.chiita/
-photo.207.tags: mofumofu, portrait, sample, whiskers
-photo.208: https://www.instagram.com/p/CXYW2_oFjSn/media/?size=m
+photo.207: ig://CXYW2_oFjSn/m
+photo.207.author: cattail.sapporo
+photo.207.commitdate: 2021/12/29
+photo.207.link: https://www.instagram.com/cattail.sapporo/
+photo.207.tags: bite, mofumofu, paws, portrait
+photo.208: ig://CXb9l9nPMZP/m
 photo.208.author: cattail.sapporo
+photo.208.commitdate: 2021/12/29
 photo.208.link: https://www.instagram.com/cattail.sapporo/
-photo.208.tags: bite, mofumofu, paws, portrait
-photo.209: https://www.instagram.com/p/CXb9l9nPMZP/media/?size=m
-photo.209.author: cattail.sapporo
-photo.209.link: https://www.instagram.com/cattail.sapporo/
-photo.209.tags: bamboo, portrait, smile
+photo.208.tags: bamboo, portrait, smile
+photo.209: ig://CXntAkKvWI6/m
+photo.209.author: hamamatsu.chiita
+photo.209.commitdate: 2021/12/19
+photo.209.link: https://www.instagram.com/hamamatsu.chiita/
+photo.209.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0554
 zoo: 7
