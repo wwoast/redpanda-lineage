@@ -904,7 +904,16 @@ Show.button.random.action = function() {
                               .map(entity => entity._id);
   var groupIds = P.db.vertices.filter(entity => entity._id.indexOf("media") == 0)
                               .map(entity => entity["panda.tags"])
-                              .map(tags => tags.split(", ").join(" "));
+                              .map(tags => tags.split(", ").join(" "))
+                              .filter(function(tags){
+                                // If all animals in the group photo are dead, don't present
+                                var alive = tags.split(" ").map(id => Pandas.searchPandaId(id).death != undefined);
+                                if (alive.every(id => id === true)) {
+                                  return false;
+                                } else {
+                                  return true;
+                                }
+                              });
   var randomChoices = pandaIds.concat(groupIds).concat(zooIds);
   window.location = "#query/" + randomChoices[Math.floor(Math.random() * randomChoices.length)];
   Show.button.language.hide();   // If language menu open, hide it
