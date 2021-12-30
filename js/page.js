@@ -299,7 +299,7 @@ Page.home.render = function() {
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["415", "468", "1313", "354"], 3, Message.memorial);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["415",  "468", "1313"], 3, Message.memorial);
     new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["79"], 5, Message.missing_you);
