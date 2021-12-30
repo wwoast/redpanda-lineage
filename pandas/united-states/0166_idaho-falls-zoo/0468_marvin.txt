@@ -4,6 +4,7 @@ birthday: 2019/6/29
 birthplace: 166
 children: 1306, 1307
 commitdate: 2019/11/30
+death: 2021/12/28
 en.name: Marvin
 en.nicknames: none
 en.othernames: none
@@ -101,7 +102,35 @@ photo.17.author: worldthathesees
 photo.17.commitdate: 2020/12/29
 photo.17.link: https://www.instagram.com/worldthathesees/
 photo.17.tags: portrait, profile, smile
+photo.18: https://www.instagram.com/p/B-qJ4Qah-98/media/?size=m
+photo.18.author: worldthathesees
+photo.18.link: https://www.instagram.com/worldthathesees/
+photo.18.tags: baby, portrait, smile, tongue, whiskers
+photo.19: https://www.instagram.com/p/B9_3r89he9o/media/?size=m
+photo.19.author: worldthathesees
+photo.19.link: https://www.instagram.com/worldthathesees/
+photo.19.tags: mofumofu, smile, tail
+photo.20: https://www.instagram.com/p/B96uor0BQk3/media/?size=m
+photo.20.author: worldthathesees
+photo.20.link: https://www.instagram.com/worldthathesees/
+photo.20.tags: portrait, smile, tongue, window
+photo.21: https://www.instagram.com/p/B94PvTDnFJt/media/?size=m
+photo.21.author: worldthathesees
+photo.21.link: https://www.instagram.com/worldthathesees/
+photo.21.tags: close-up, portrait, whiskers, window
+photo.22: https://www.instagram.com/p/B91kE5rhwzx/media/?size=m
+photo.22.author: worldthathesees
+photo.22.link: https://www.instagram.com/worldthathesees/
+photo.22.tags: mofumofu, portrait, smile, tongue, whiskers, white face
+photo.23: https://www.instagram.com/p/B9y6KLNBvRs/media/?size=m
+photo.23.author: worldthathesees
+photo.23.link: https://www.instagram.com/worldthathesees/
+photo.23.tags: close-up, wihskers, white face
+photo.24: https://www.instagram.com/p/B9wx25uBSJa/media/?size=m
+photo.24.author: worldthathesees
+photo.24.link: https://www.instagram.com/worldthathesees/
+photo.24.tags: mofumofu, portrait, window
 species: 1
 studbook.id: 1933
-uncertainty: location.3 exact date
+uncertainty: location.3 exact date, death exact day
 zoo: 166

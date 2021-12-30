@@ -4,6 +4,7 @@ birthday: 2011/6/20
 birthplace: 83
 children: 494, 496, 1082, 1083
 commitdate: 2018/11/23
+death: 2021/12/21
 en.name: Muse
 en.nicknames: none
 en.othernames: none
@@ -47,4 +48,5 @@ photo.6.link: https://www.instagram.com/uticazoo/
 photo.6.tags: bamboo, peek, portrait
 species: 2
 studbook.id: 1116
+uncertainty: death exact date
 zoo: 92
