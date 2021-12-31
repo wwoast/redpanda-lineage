@@ -885,25 +885,26 @@ photo.174.author: ck.chie
 photo.174.commitdate: 2021/12/18
 photo.174.link: https://www.instagram.com/ck.chie/
 photo.174.tags: apple time, paws, portrait, smile
-photo.175: ig://CXRqO_5BGCd/m
-photo.175.author: hamamatsu.chiita
+photo.175: ig://CXKAtMuhyjP/m
+photo.175.author: ssc6105
 photo.175.commitdate: 2021/12/30
-photo.175.link: https://www.instagram.com/hamamatsu.chiita/
-photo.175.tags: paws, smile, whiskers
-photo.176: ig://CXnq33OvCv7/m
-photo.176.author: pink.b22
-photo.176.commitdate: 2021/12/20
-photo.176.link: https://www.instagram.com/pink.b22/
-photo.176.tags: mofumofu, portrait, sample
-photo.177: ig://CXpA8HNh_np/m
-photo.177.author: fetorus_mami
+photo.175.link: https://www.instagram.com/ssc6105/
+photo.175.tags: bear worm, laying down, paws, portrait, sleeping
+photo.176: ig://CXRqO_5BGCd/m
+photo.176.author: hamamatsu.chiita
+photo.176.commitdate: 2021/12/30
+photo.176.link: https://www.instagram.com/hamamatsu.chiita/
+photo.176.tags: paws, smile, whiskers
+photo.177: ig://CXnq33OvCv7/m
+photo.177.author: pink.b22
 photo.177.commitdate: 2021/12/20
-photo.177.link: https://www.instagram.com/fetorus_mami/
-photo.177.tags: bamboo, close-up, mofumofu, sample
-photo.178: https://www.instagram.com/p/CXKAtMuhyjP/media/?size=m
-photo.178.author: ssc6105
-photo.178.link: https://www.instagram.com/ssc6105/
-photo.178.tags: bear worm, laying down, paws, portrait, sleeping
+photo.177.link: https://www.instagram.com/pink.b22/
+photo.177.tags: mofumofu, portrait, sample
+photo.178: ig://CXpA8HNh_np/m
+photo.178.author: fetorus_mami
+photo.178.commitdate: 2021/12/20
+photo.178.link: https://www.instagram.com/fetorus_mami/
+photo.178.tags: bamboo, close-up, mofumofu, sample
 species: 2
 studbook.id: 1295
 zoo: 18

@@ -333,8 +333,9 @@ photo.64.author: gloryeui
 photo.64.commitdate: 2021/11/23
 photo.64.link: https://www.instagram.com/gloryeui/
 photo.64.tags: portrait, smile, tongue, whiskers
-photo.65: https://www.instagram.com/grskus_tk/p/CXQdLyThhMs/media/?size=m
+photo.65: ig://grskus_tk/CXQdLyThhMs/m
 photo.65.author: grskus_tk
+photo.65.commitdate: 2021/12/30
 photo.65.link: https://www.instagram.com/grskus_tk/
 photo.65.tags: bamboo, bite, paws, tongue
 species: 2

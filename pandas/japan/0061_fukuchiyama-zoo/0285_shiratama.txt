@@ -234,15 +234,16 @@ photo.45.author: kisshan324
 photo.45.commitdate: 2021/12/6
 photo.45.link: https://www.instagram.com/kisshan324/
 photo.45.tags: home, paws, portrait, smile
-photo.46: ig://CXOVH_3saWH/m
-photo.46.author: apple_jasmine33
-photo.46.commitdate: 2021/12/26
-photo.46.link: https://www.instagram.com/apple_jasmine33/
-photo.46.tags: peek, whiskers
-photo.47: https://www.instagram.com/p/CXDiozihvad/media/?size=m
-photo.47.author: redpanda_nippon_takashi
-photo.47.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.47.tags: bamboo, bite, paws, smile
+photo.46: ig://CXDiozihvad/m
+photo.46.author: redpanda_nippon_takashi
+photo.46.commitdate: 2021/12/30
+photo.46.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.46.tags: bamboo, bite, paws, smile
+photo.47: ig://CXOVH_3saWH/m
+photo.47.author: apple_jasmine33
+photo.47.commitdate: 2021/12/26
+photo.47.link: https://www.instagram.com/apple_jasmine33/
+photo.47.tags: peek, whiskers
 species: 2
 studbook.id: 13158
 zoo: 61

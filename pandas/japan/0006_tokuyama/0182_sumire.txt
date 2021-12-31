@@ -104,8 +104,9 @@ photo.18.author: kojikoji2011
 photo.18.commitdate: 2021/10/9
 photo.18.link: https://www.instagram.com/kojikoji2011/
 photo.18.tags: portrait, smile, whiskers
-photo.19: https://www.instagram.com/p/CXLlb-wBfW0/media/?size=m
+photo.19: ig://CXLlb-wBfW0/m
 photo.19.author: makimaru18
+photo.19.commitdate: 2021/12/30
 photo.19.link: https://www.instagram.com/makimaru18/
 photo.19.tags: portrait, whiskers
 species: 2

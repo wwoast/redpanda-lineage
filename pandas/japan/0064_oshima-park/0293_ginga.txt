@@ -105,15 +105,16 @@ photo.18.author: daniele.tokyo
 photo.18.commitdate: 2021/12/21
 photo.18.link: https://www.instagram.com/daniele.tokyo/
 photo.18.tags: bamboo, bite, portrait, sample, tongue, whiskers
-photo.19: ig://CXqjs1hr6sj/m
-photo.19.author: miis_98
-photo.19.commitdate: 2021/12/22
-photo.19.link: https://www.instagram.com/miis_98/
-photo.19.tags: mofumofu, portrait, whiskers
-photo.20: https://www.instagram.com/p/CXI1q2vh3V6/media/?size=m
-photo.20.author: rie_panda55
-photo.20.link: https://www.instagram.com/rie_panda55/
-photo.20.tags: climb, dish, paws, portrait
+photo.19: ig://CXI1q2vh3V6/m
+photo.19.author: rie_panda55
+photo.19.commitdate: 2021/12/30
+photo.19.link: https://www.instagram.com/rie_panda55/
+photo.19.tags: climb, dish, paws, portrait
+photo.20: ig://CXqjs1hr6sj/m
+photo.20.author: miis_98
+photo.20.commitdate: 2021/12/22
+photo.20.link: https://www.instagram.com/miis_98/
+photo.20.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 13161
 zoo: 64
