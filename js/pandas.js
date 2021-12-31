@@ -1980,6 +1980,7 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
       (Pandas.unique(animals, "name").length == 1)) {
     output_string = Language.L.gui["babies"][L.display];
   }
+  // TODO: replace "baby, baby & mom" with "babies & mom"
   return output_string;
 }
 
