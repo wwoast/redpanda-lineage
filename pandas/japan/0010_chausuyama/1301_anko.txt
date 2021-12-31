@@ -32,7 +32,7 @@ photo.4: ig://CVB5_AUhVZk/m
 photo.4.author: resapan.suki
 photo.4.commitdate: 2021/10/17
 photo.4.link: https://www.instagram.com/resapan.suki/
-photo.4.tags: baby, portrait, profile, whiskers
+photo.4.tags: baby, portrait, whiskers
 photo.5: ig://CVNPc8_BKzf/m
 photo.5.author: daniele.tokyo
 photo.5.commitdate: 2021/10/31
@@ -88,5 +88,13 @@ photo.15.author: alto0908
 photo.15.commitdate: 2021/12/19
 photo.15.link: https://www.instagram.com/alto0908/
 photo.15.tags: baby, laying down, mofumofu, portrait, sample
+photo.16: https://www.instagram.com/p/CXKKGf1BTRP/media/?size=m
+photo.16.author: otenba_redpanda
+photo.16.link: https://www.instagram.com/otenba_redpanda/
+photo.16.tags: baby, mofumofu, portrait, profile, whiskers
+photo.17: https://www.instagram.com/p/CXJM1djBGsJ/media/?size=m
+photo.17.author: resapan.suki
+photo.17.link: https://www.instagram.com/resapan.suki/
+photo.17.tags: baby, mofumofu, paws, portrait, smile, tail
 species: 2
 zoo: 10

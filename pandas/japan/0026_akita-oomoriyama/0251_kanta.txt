@@ -8,7 +8,7 @@ en.name: Kanta
 en.nicknames: none
 en.othernames: none
 gender: m
-jp.name: カンタ
+jp.name: かんた
 jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
@@ -337,6 +337,10 @@ photo.65.author: mini_cochi
 photo.65.commitdate: 2021/12/19
 photo.65.link: https://www.instagram.com/mini_cochi/
 photo.65.tags: paws, portrait, sample, tail
+photo.66: https://www.instagram.com/p/CXEVp5nh0vp/media/?size=m
+photo.66.author: minatomirai215
+photo.66.link: https://www.instagram.com/minatomirai215/
+photo.66.tags: mofumofu, paws, portrait
 species: 2
 studbook.id: unknown
 zoo: 26

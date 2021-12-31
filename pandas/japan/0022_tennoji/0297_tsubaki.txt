@@ -167,8 +167,12 @@ photo.30.tags: bamboo, bite, portrait
 photo.31: ig://CV2X2R_BihC/m
 photo.31.author: redpanda_nippon_takashi
 photo.31.commitdate: 2021/11/7
-photo.31.link: https://www.instagram.com/accounts/activity/
+photo.31.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.31.tags: portrait, smile, whiskers
+photo.32: https://www.instagram.com/makimaru18/p/CXJCZ6ThoPf/media/?size=m
+photo.32.author: makimaru18
+photo.32.link: https://www.instagram.com/makimaru18/
+photo.32.tags: portrait, tail, window
 species: 2
 studbook.id: 1780
 zoo: 22
