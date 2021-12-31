@@ -1070,7 +1070,7 @@ Language.L.messages = {
            " साथै तपाईंको स्थानीय चिडियाखानालाई समर्थन गर्नुहोस्। ",
            "<INSERTLINK_RPF>",
            " प्रोजेक्टको वंश डाटा शिष्टाचार, तर मिडिया यसको सिर्जनाकर्ताहरूको सम्पत्ति रहन्छ।",
-           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२१ Justin Fairchild द्वारा।"],
+           " लेआउट र डिजाइन प्रतिलिपि अधिकार २०२२ Justin Fairchild द्वारा।"],
     "pt": ["Se você ama pandas-vermelhos, por favor apoie a  ",
            "<INSERTLINK_RPN>",
            " bem como seus zoológicos locais. Dados de linhagem são uma cortesia do projeto ",
