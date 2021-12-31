@@ -50,8 +50,9 @@ photo.7.author: rossifari
 photo.7.commitdate: 2021/9/23
 photo.7.link: https://www.instagram.com/rossifari/
 photo.7.tags: bamboo, paws, portrait, profile, tongue
-photo.8: https://www.instagram.com/p/CXRM8fYrdx_/media/?size=m
+photo.8: ig://CXRM8fYrdx_/m
 photo.8.author: worldthathesees
+photo.8.commitdate: 2021/12/30
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: peek, whiskers
 species: 2

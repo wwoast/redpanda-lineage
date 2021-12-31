@@ -824,8 +824,9 @@ photo.163.author: otenba_redpanda
 photo.163.commitdate: 2021/11/23
 photo.163.link: https://www.instagram.com/otenba_redpanda/
 photo.163.tags: apple time, dish, paws, portrait, techitechi
-photo.164: https://www.instagram.com/resapan.suki/p/CXQzEHQhqt8/media/?size=m
+photo.164: ig://resapan.suki/CXQzEHQhqt8/m
 photo.164.author: resapan.suki
+photo.164.commitdate: 2021/12/30
 photo.164.link: https://www.instagram.com/resapan.suki/
 photo.164.tags: hammock, peek, portrait, tongue
 species: 2

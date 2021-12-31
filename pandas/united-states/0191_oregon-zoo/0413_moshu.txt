@@ -80,8 +80,9 @@ photo.13.author: oregonzoo
 photo.13.commitdate: 2021/9/10
 photo.13.link: https://www.instagram.com/oregonzoo/
 photo.13.tags: bamboo, portrait
-photo.14: https://www.instagram.com/p/CXQaOJqOwg8/media/?size=m
+photo.14: ig://CXQaOJqOwg8/m
 photo.14.author: worldthathesees
+photo.14.commitdate: 2021/12/30
 photo.14.link: https://www.instagram.com/worldthathesees/
 photo.14.tags: bamboo, whiskers
 species: 2

@@ -885,20 +885,21 @@ photo.174.author: ck.chie
 photo.174.commitdate: 2021/12/18
 photo.174.link: https://www.instagram.com/ck.chie/
 photo.174.tags: apple time, paws, portrait, smile
-photo.175: ig://CXnq33OvCv7/m
-photo.175.author: pink.b22
-photo.175.commitdate: 2021/12/20
-photo.175.link: https://www.instagram.com/pink.b22/
-photo.175.tags: mofumofu, portrait, sample
-photo.176: ig://CXpA8HNh_np/m
-photo.176.author: fetorus_mami
+photo.175: ig://CXRqO_5BGCd/m
+photo.175.author: hamamatsu.chiita
+photo.175.commitdate: 2021/12/30
+photo.175.link: https://www.instagram.com/hamamatsu.chiita/
+photo.175.tags: paws, smile, whiskers
+photo.176: ig://CXnq33OvCv7/m
+photo.176.author: pink.b22
 photo.176.commitdate: 2021/12/20
-photo.176.link: https://www.instagram.com/fetorus_mami/
-photo.176.tags: bamboo, close-up, mofumofu, sample
-photo.177: https://www.instagram.com/p/CXRqO_5BGCd/media/?size=m
-photo.177.author: hamamatsu.chiita
-photo.177.link: https://www.instagram.com/hamamatsu.chiita/
-photo.177.tags: paws, smile, whiskers
+photo.176.link: https://www.instagram.com/pink.b22/
+photo.176.tags: mofumofu, portrait, sample
+photo.177: ig://CXpA8HNh_np/m
+photo.177.author: fetorus_mami
+photo.177.commitdate: 2021/12/20
+photo.177.link: https://www.instagram.com/fetorus_mami/
+photo.177.tags: bamboo, close-up, mofumofu, sample
 species: 2
 studbook.id: 1295
 zoo: 18

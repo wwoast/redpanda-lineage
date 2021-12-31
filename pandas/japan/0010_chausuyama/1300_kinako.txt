@@ -138,14 +138,15 @@ photo.25.author: resapan.suki
 photo.25.commitdate: 2021/12/21
 photo.25.link: https://www.instagram.com/resapan.suki/
 photo.25.tags: bamboo, laying down, paws, playing, portrait, sample, upside-down
-photo.26: ig://CXTnYgHBzYn/m
-photo.26.author: redpan22
-photo.26.commitdate: 2021/12/26
-photo.26.link: https://www.instagram.com/redpan22/
-photo.26.tags: bamboo, close-up, paws, snow
-photo.27: https://www.instagram.com/p/CXPWMoSB1W8/media/?size=m
-photo.27.author: otenba_redpanda
-photo.27.link: https://www.instagram.com/otenba_redpanda/
-photo.27.tags: laying down, mofumofu, paws, portrait, tail
+photo.26: ig://CXPWMoSB1W8/m
+photo.26.author: otenba_redpanda
+photo.26.commitdate: 2021/12/30
+photo.26.link: https://www.instagram.com/otenba_redpanda/
+photo.26.tags: laying down, mofumofu, paws, portrait, tail
+photo.27: ig://CXTnYgHBzYn/m
+photo.27.author: redpan22
+photo.27.commitdate: 2021/12/26
+photo.27.link: https://www.instagram.com/redpan22/
+photo.27.tags: bamboo, close-up, paws, snow
 species: 2
 zoo: 10

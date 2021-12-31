@@ -503,18 +503,21 @@ photo.98.author: rie_panda55
 photo.98.commitdate: 2021/12/17
 photo.98.link: https://www.instagram.com/rie_panda55/
 photo.98.tags: home, paws, portrait, sample, smile, tree
-photo.99: https://www.instagram.com/p/CXQlj3Ohbfn/media/?size=m
-photo.99.author: ck.chie
-photo.99.link: https://www.instagram.com/ck.chie/
-photo.99.tags: autumn, blink, paws, standing, tail
-photo.100: https://www.instagram.com/p/CXChP8ShSTp/media/?size=m
-photo.100.author: hamiiiii831_
-photo.100.link: https://www.instagram.com/hamiiiii831_/
-photo.100.tags: bamboo, paws, standing, tail
-photo.101: https://www.instagram.com/p/CXLqTZrhqAy/media/?size=m
-photo.101.author: redpan22
-photo.101.link: https://www.instagram.com/redpan22/
-photo.101.tags: paws, standing, tail
+photo.99: ig://CXChP8ShSTp/m
+photo.99.author: hamiiiii831_
+photo.99.commitdate: 2021/12/30
+photo.99.link: https://www.instagram.com/hamiiiii831_/
+photo.99.tags: bamboo, paws, standing, tail
+photo.100: ig://CXLqTZrhqAy/m
+photo.100.author: redpan22
+photo.100.commitdate: 2021/12/30
+photo.100.link: https://www.instagram.com/redpan22/
+photo.100.tags: paws, standing, tail
+photo.101: ig://CXQlj3Ohbfn/m
+photo.101.author: ck.chie
+photo.101.commitdate: 2021/12/30
+photo.101.link: https://www.instagram.com/ck.chie/
+photo.101.tags: autumn, blink, paws, standing, tail
 species: 2
 studbook.id: 15155
 zoo: 10
