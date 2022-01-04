@@ -12,11 +12,13 @@ language.order: jp, en
 latitude: 32.7749943
 longitude: 130.7392573
 map: https://goo.gl/maps/Aveudmjy2829ox8Z6
-photo.1: https://www.instagram.com/p/CX7Z-MClHqk/media/?size=m
+photo.1: ig://CX7Z-MClHqk/m
 photo.1.author: kumamoto_doushokubutsuen
+photo.1.commitdate: 2022/1/4
 photo.1.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.1.tags: profile
-photo.2: https://www.instagram.com/p/CYIzCbCh1BK/media/?size=m
+photo.2: ig://CYIzCbCh1BK/m
 photo.2.author: kumamoto_doushokubutsuen
+photo.2.commitdate: 2022/1/4
 photo.2.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 website: https://www.ezooko.jp/
