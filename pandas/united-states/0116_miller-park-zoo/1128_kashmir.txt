@@ -7,7 +7,7 @@ commitdate: 2020/3/13
 en.name: Kashmir
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: カシミール
 jp.nicknames: none
 jp.othernames: none
@@ -21,5 +21,9 @@ photo.1.author: millerparkzoo
 photo.1.commitdate: 2020/3/13
 photo.1.link: https://www.instagram.com/millerparkzoo/
 photo.1.tags: baby, paws, portrait, smile, whiskers
+photo.2: https://www.instagram.com/worldthathesees/p/CYKRxi-JV-y/media/?size=m
+photo.2.author: worldthathesees
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: peek, white face
 species: 1
 zoo: 116

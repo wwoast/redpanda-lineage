@@ -10,7 +10,7 @@ commitdate: 2020/3/13
 en.name: China
 en.nicknames: none
 en.othernames: none
-gender: unknown
+gender: f
 jp.name: 中国
 jp.nicknames: none
 jp.othernames: none
@@ -26,5 +26,9 @@ photo.2.author: millerparkzoo
 photo.2.commitdate: 2020/3/15
 photo.2.link: https://www.instagram.com/millerparkzoo/
 photo.2.tags: peek, portrait, tree
+photo.3: https://www.instagram.com/worldthathesees/p/CYKRAYTpZlO/media/?size=m
+photo.3.author: worldthathesees
+photo.3.link: https://www.instagram.com/worldthathesees/
+photo.3.tags: mofumofu, whiskers
 species: 1
 zoo: 116

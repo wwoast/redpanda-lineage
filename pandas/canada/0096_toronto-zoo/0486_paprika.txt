@@ -29,7 +29,7 @@ photo.3: ig://B8j97IvgG8B/m
 photo.3.author: edmontonvalleyzoo
 photo.3.commitdate: 2020/5/17
 photo.3.link: https://www.instagram.com/edmontonvalleyzoo/
-photo.3.tags: bamboo, portrait, profile
+photo.3.tags: bamboo, portrait
 photo.4: ig://CWL0175v84A/m
 photo.4.author: edmontonvalleyzoo
 photo.4.commitdate: 2021/11/21
@@ -40,6 +40,18 @@ photo.5.author: thetorontozoo
 photo.5.commitdate: 2021/12/23
 photo.5.link: https://www.instagram.com/thetorontozoo/
 photo.5.tags: mofumofu, whiskers
+photo.6: https://www.instagram.com/p/CXb7qN7PUYM/media/?size=m
+photo.6.author: thetorontozoo
+photo.6.link: https://www.instagram.com/thetorontozoo/
+photo.6.tags: laying down, whiskers
+photo.7: https://www.instagram.com/p/CWdiHeeMmhq/media/?size=m
+photo.7.author: thetorontozoo
+photo.7.link: https://www.instagram.com/thetorontozoo/
+photo.7.tags: apple time, portrait, profile, smile, whiskers
+photo.8: https://www.instagram.com/p/CWtIu-nrYct/media/?size=m
+photo.8.author: thetorontozoo
+photo.8.link: https://www.instagram.com/thetorontozoo/
+photo.8.tags: close-up, tail, whiskers
 species: 2
 studbook.id: 1731
 uncertainty: location.2 exact day of week

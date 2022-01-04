@@ -19,22 +19,22 @@ photo.1: ig://BpA1Q9_HrXr/m
 photo.1.author: mochan8686
 photo.1.commitdate: 2018/11/27
 photo.1.link: https://www.instagram.com/mochan8686/
-photo.1.tags: portrait, smile
+photo.1.tags: portrait, sample, smile
 photo.2: ig://BqFHVDkny8N/m
 photo.2.author: mochan8686
 photo.2.commitdate: 2018/11/27
 photo.2.link: https://www.instagram.com/mochan8686/
-photo.2.tags: ear, portrait, tongue
+photo.2.tags: ear, portrait, sample, tongue
 photo.3: ig://Br5Bb5tnLlM/m
 photo.3.author: mochan8686
 photo.3.commitdate: 2018/12/27
 photo.3.link: https://www.instagram.com/mochan8686/
-photo.3.tags: portrait, smile, tongue
+photo.3.tags: portrait, sample, smile, tongue
 photo.4: ig://ByG9dUnhgPJ/m
 photo.4.author: makimaru18
 photo.4.commitdate: 2019/6/1
 photo.4.link: https://www.instagram.com/makimaru18/
-photo.4.tags: portrait
+photo.4.tags: portrait, sample
 photo.5: ig://ByMw_J-B7k4/m
 photo.5.author: chankunvv
 photo.5.commitdate: 2019/10/28
@@ -44,17 +44,17 @@ photo.6: ig://B0nszIxn-44/m
 photo.6.author: mochan8686
 photo.6.commitdate: 2019/8/2
 photo.6.link: https://www.instagram.com/mochan8686/
-photo.6.tags: portrait
+photo.6.tags: portrait, sample
 photo.7: ig://B7tFGSYBA_z/m
 photo.7.author: nakacchi_desu
 photo.7.commitdate: 2020/1/26
 photo.7.link: https://www.instagram.com/nakacchi_desu/
-photo.7.tags: smile, tongue
+photo.7.tags: sample, smile, tongue
 photo.8: ig://CAepi3wnY92/m
 photo.8.author: makimaru18
 photo.8.commitdate: 2020/5/23
 photo.8.link: https://www.instagram.com/makimaru18/
-photo.8.tags: mofumofu, portrait
+photo.8.tags: mofumofu, portrait, sample
 photo.9: ig://CA2xHLkgGyS/m
 photo.9.author: nakacchi_desu
 photo.9.commitdate: 2020/6/1
@@ -64,22 +64,22 @@ photo.10: ig://CDU1b4tnoyb/m
 photo.10.author: mochan8686
 photo.10.commitdate: 2020/7/31
 photo.10.link: https://www.instagram.com/mochan8686/
-photo.10.tags: mofumofu, portrait, profile
+photo.10.tags: mofumofu, portrait, profile, sample
 photo.11: ig://CJYu_UJhjPg/m
 photo.11.author: sakikukeco
 photo.11.commitdate: 2020/12/30
 photo.11.link: https://www.instagram.com/sakikukeco/
-photo.11.tags: paws, portrait, smile, tongue
+photo.11.tags: paws, portrait, sample, smile, tongue
 photo.12: ig://CJalU12BX0U/m
 photo.12.author: bubbles_octi
 photo.12.commitdate: 2020/12/30
 photo.12.link: https://www.instagram.com/bubbles_octi/
-photo.12.tags: portrait, tail, yawn
+photo.12.tags: portrait, sample, tail, yawn
 photo.13: ig://CNM7klKhgNq/m
 photo.13.author: chankunvv
 photo.13.commitdate: 2021/4/3
 photo.13.link: https://www.instagram.com/chankunvv/
-photo.13.tags: mofumofu, portrait
+photo.13.tags: mofumofu, portrait, sample
 photo.14: ig://CSeO6NAB5m7/m
 photo.14.author: _saaaaaaah_
 photo.14.commitdate: 2021/8/18
@@ -89,7 +89,11 @@ photo.15: ig://CV2eEPehGJH/m
 photo.15.author: makimaru18
 photo.15.commitdate: 2021/11/5
 photo.15.link: https://www.instagram.com/makimaru18/
-photo.15.tags: mofumofu, paws, portrait
+photo.15.tags: mofumofu, paws, portrait, sample
+photo.16: https://www.instagram.com/p/CWxXQvbBOGc/media/?size=m
+photo.16.author: chankunvv
+photo.16.link: https://www.instagram.com/chankunvv/
+photo.16.tags: peek, portrait, sample, tail
 species: 2
 studbook.id: 0685
 zoo: 52
