@@ -538,8 +538,9 @@ photo.105.author: daniele.tokyo
 photo.105.commitdate: 2021/12/22
 photo.105.link: https://www.instagram.com/daniele.tokyo/
 photo.105.tags: climb, head-first, paws, sample, tail, tree, whiskers
-photo.106: https://www.instagram.com/p/CXrIu7pB1uC/media/?size=m
+photo.106: ig://CXrIu7pB1uC/m
 photo.106.author: minatomirai215
+photo.106.commitdate: 2022/1/4
 photo.106.link: https://www.instagram.com/minatomirai215/
 photo.106.tags: portrait, whiskers
 species: 2

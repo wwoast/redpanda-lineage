@@ -239,8 +239,9 @@ photo.45.author: itsuak
 photo.45.commitdate: 2021/10/9
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: peek, portrait, smile, tree
-photo.46: https://www.instagram.com/p/CYOuAvevQaE/media/?size=m
+photo.46: ig://CYOuAvevQaE/m
 photo.46.author: itsuak
+photo.46.commitdate: 2022/1/4
 photo.46.link: https://www.instagram.com/itsuak/
 photo.46.tags: portrait, tail, whiskers
 species: 2

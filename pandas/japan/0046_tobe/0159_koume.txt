@@ -288,8 +288,9 @@ photo.55.author: itsuak
 photo.55.commitdate: 2021/8/15
 photo.55.link: https://www.instagram.com/itsuak/
 photo.55.tags: peek, portrait, whiskers
-photo.56: https://www.instagram.com/p/CYDtFUPvrpx/media/?size=m
+photo.56: ig://CYDtFUPvrpx/m
 photo.56.author: itsuak
+photo.56.commitdate: 2022/1/4
 photo.56.link: https://www.instagram.com/itsuak/
 photo.56.tags: close-up, laying down, paws, portrait
 species: 2

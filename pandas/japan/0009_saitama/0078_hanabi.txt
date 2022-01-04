@@ -274,14 +274,16 @@ photo.53.author: redpan22
 photo.53.commitdate: 2021/5/31
 photo.53.link: https://www.instagram.com/redpan22/
 photo.53.tags: bamboo, bite, close-up, shoots, whiskers
-photo.54: https://www.instagram.com/p/CYOeQVMP2UO/media/?size=m
-photo.54.author: fetorus_mami
-photo.54.link: https://www.instagram.com/fetorus_mami/
-photo.54.tags: bamboo, bite, close-up, mofumofu, tongue
-photo.55: https://www.instagram.com/p/CXyg3oIFs6S/media/?size=m
-photo.55.author: mini_cochi
-photo.55.link: https://www.instagram.com/mini_cochi/
-photo.55.tags: mofumofu, portrait, sample, whiskers
+photo.54: ig://CXyg3oIFs6S/m
+photo.54.author: mini_cochi
+photo.54.commitdate: 2022/1/4
+photo.54.link: https://www.instagram.com/mini_cochi/
+photo.54.tags: mofumofu, portrait, sample, whiskers
+photo.55: ig://CYOeQVMP2UO/m
+photo.55.author: fetorus_mami
+photo.55.commitdate: 2022/1/4
+photo.55.link: https://www.instagram.com/fetorus_mami/
+photo.55.tags: bamboo, bite, close-up, mofumofu, tongue
 species: 2
 studbook.id: 11105
 zoo: 9

@@ -519,8 +519,9 @@ photo.101.author: pink.b22
 photo.101.commitdate: 2021/12/30
 photo.101.link: https://www.instagram.com/pink.b22/
 photo.101.tags: bamboo, laying down, mofumofu, portrait
-photo.102: https://www.instagram.com/p/CYQjxCsr6so/media/?size=m
+photo.102: ig://CYQjxCsr6so/m
 photo.102.author: miis_98
+photo.102.commitdate: 2022/1/4
 photo.102.link: https://www.instagram.com/miis_98/
 photo.102.tags: apple time, paws, portrait, tongue, whiskers
 species: 2

@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1175, 1177
-photo.1: https://www.instagram.com/worldthathesees/p/CYMDUeoLS22/media/?size=m
+photo.1: ig://worldthathesees/CYMDUeoLS22/m
 photo.1.author: worldthathesees
+photo.1.commitdate: 2022/1/4
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: whiskers, white face
 species: 1

@@ -31,8 +31,9 @@ photo.3.author: manmanko2
 photo.3.commitdate: 2021/12/8
 photo.3.link: https://www.instagram.com/manmanko2/
 photo.3.tags: profile, smile, whiskers
-photo.4: https://www.instagram.com/manmanko2/p/CYOJB-FrqcK/media/?size=m
+photo.4: ig://manmanko2/CYOJB-FrqcK/m
 photo.4.author: manmanko2
+photo.4.commitdate: 2022/1/4
 photo.4.link: https://www.instagram.com/manmanko2/
 photo.4.tags: portrait, smile, surprise, tail
 species: 2

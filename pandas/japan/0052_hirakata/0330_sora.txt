@@ -90,8 +90,9 @@ photo.15.author: makimaru18
 photo.15.commitdate: 2021/11/5
 photo.15.link: https://www.instagram.com/makimaru18/
 photo.15.tags: mofumofu, paws, portrait, sample
-photo.16: https://www.instagram.com/p/CWxXQvbBOGc/media/?size=m
+photo.16: ig://CWxXQvbBOGc/m
 photo.16.author: chankunvv
+photo.16.commitdate: 2022/1/4
 photo.16.link: https://www.instagram.com/chankunvv/
 photo.16.tags: peek, portrait, sample, tail
 species: 2

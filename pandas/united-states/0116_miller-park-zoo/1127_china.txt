@@ -16,18 +16,19 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, cn, jp
 litter: 1128, 1129
-photo.1: ig://B4aVoillSzC/m
+photo.1: ig://B2mydmDFa2F/m
 photo.1.author: millerparkzoo
-photo.1.commitdate: 2020/3/13
+photo.1.commitdate: 2020/3/15
 photo.1.link: https://www.instagram.com/millerparkzoo/
-photo.1.tags: portrait, whiskers
-photo.2: ig://B2mydmDFa2F/m
+photo.1.tags: peek, portrait, tree
+photo.2: ig://B4aVoillSzC/m
 photo.2.author: millerparkzoo
-photo.2.commitdate: 2020/3/15
+photo.2.commitdate: 2020/3/13
 photo.2.link: https://www.instagram.com/millerparkzoo/
-photo.2.tags: peek, portrait, tree
-photo.3: https://www.instagram.com/worldthathesees/p/CYKRAYTpZlO/media/?size=m
+photo.2.tags: portrait, whiskers
+photo.3: ig://worldthathesees/CYKRAYTpZlO/m
 photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/4
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: mofumofu, whiskers
 species: 1
