@@ -35,8 +35,9 @@ photo.4.author: redpandasingapore
 photo.4.commitdate: 2021/12/21
 photo.4.link: https://www.instagram.com/redpandasingapore/
 photo.4.tags: paws, portrait, whiskers
-photo.5: https://www.instagram.com/p/CXsamr0pCuo/media/?size=m
+photo.5: ig://CXsamr0pCuo/m
 photo.5.author: redpandasingapore
+photo.5.commitdate: 2022/1/4
 photo.5.link: https://www.instagram.com/redpandasingapore/
 photo.5.tags: apple time, paws, portrait, smile, tail
 species: 1

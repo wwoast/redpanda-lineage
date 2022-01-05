@@ -112,12 +112,14 @@ photo.20.author: hamamatsu.chiita
 photo.20.commitdate: 2021/12/22
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.21: https://www.instagram.com/p/CXsTY1UPjtP/media/?size=m
+photo.21: ig://CXsTY1UPjtP/m
 photo.21.author: minato.yokohama2130
+photo.21.commitdate: 2022/1/4
 photo.21.link: https://www.instagram.com/minato.yokohama2130/
 photo.21.tags: close-up, mofumofu, portrait, sample
-photo.22: https://www.instagram.com/p/CXsjM6FvBoB/media/?size=m
+photo.22: ig://CXsjM6FvBoB/m
 photo.22.author: minato.yokohama2130
+photo.22.commitdate: 2022/1/4
 photo.22.link: https://www.instagram.com/minato.yokohama2130/
 photo.22.tags: portrait, sample, tail
 species: 2
