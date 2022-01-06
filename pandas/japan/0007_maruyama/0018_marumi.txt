@@ -2101,8 +2101,9 @@ photo.419.author: leonard_redmof
 photo.419.commitdate: 2021/12/20
 photo.419.link: https://www.instagram.com/leonard_redmof/
 photo.419.tags: portrait, sample, snow, whiskers
-photo.420: https://www.instagram.com/p/CX0nBHirQUU/media/?size=m
+photo.420: ig://CX0nBHirQUU/m
 photo.420.author: cattail.sapporo
+photo.420.commitdate: 2022/1/6
 photo.420.link: https://www.instagram.com/cattail.sapporo/
 photo.420.tags: dish, portrait, sample, smile, snow, whiskers
 species: 2

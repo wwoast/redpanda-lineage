@@ -1178,8 +1178,9 @@ photo.233.author: ifumoto88
 photo.233.commitdate: 2021/12/22
 photo.233.link: https://www.instagram.com/ifumoto88/
 photo.233.tags: portrait, whiskers
-photo.234: https://www.instagram.com/p/CYWTuvMhLo-/media/?size=m
+photo.234: ig://CYWTuvMhLo-/m
 photo.234.author: ifumoto88
+photo.234.commitdate: 2022/1/6
 photo.234.link: https://www.instagram.com/ifumoto88/
 photo.234.tags: home, portrait, whiskers
 species: 2

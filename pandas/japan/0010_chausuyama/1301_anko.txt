@@ -103,13 +103,15 @@ photo.18.author: otenba_redpanda
 photo.18.commitdate: 2022/1/4
 photo.18.link: https://www.instagram.com/otenba_redpanda/
 photo.18.tags: baby, close-up, mofumofu, portrait, sample
-photo.19: https://www.instagram.com/p/CX1CQyiPlfv/media/?size=m
-photo.19.author: resapan_suki
-photo.19.link: https://www.instagram.com/resapan.suki/
-photo.19.tags: baby, laying down, mofumofu, portrait, whiskers
-photo.20: https://www.instagram.com/p/CX08_SDPV8Y/media/?size=m
-photo.20.author: alto0908
-photo.20.link: https://www.instagram.com/alto0908/
-photo.20.tags: baby, bamboo, mofumofu, portrait, smile, tail, tongue
+photo.19: ig://CX08_SDPV8Y/m
+photo.19.author: alto0908
+photo.19.commitdate: 2022/1/6
+photo.19.link: https://www.instagram.com/alto0908/
+photo.19.tags: baby, bamboo, mofumofu, portrait, smile, tail, tongue
+photo.20: ig://CX1CQyiPlfv/m
+photo.20.author: resapan_suki
+photo.20.commitdate: 2022/1/6
+photo.20.link: https://www.instagram.com/resapan.suki/
+photo.20.tags: baby, laying down, mofumofu, portrait, whiskers
 species: 2
 zoo: 10

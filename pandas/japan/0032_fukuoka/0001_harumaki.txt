@@ -2118,8 +2118,9 @@ photo.422.author: re_ichimaru
 photo.422.commitdate: 2021/12/30
 photo.422.link: https://www.instagram.com/re_ichimaru/
 photo.422.tags: paws, portrait, toys, whiskers
-photo.423: https://www.instagram.com/_rifa_p/p/CX1HkmFvdX5/media/?size=m
+photo.423: ig://_rifa_p/CX1HkmFvdX5/m
 photo.423.author: _rifa_p
+photo.423.commitdate: 2022/1/6
 photo.423.link: https://www.instagram.com/_rifa_p/
 photo.423.tags: laying down, portrait, smile, whiskers
 species: 2

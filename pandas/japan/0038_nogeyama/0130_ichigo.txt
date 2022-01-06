@@ -586,14 +586,16 @@ photo.114.author: pantasanzoo1
 photo.114.commitdate: 2021/12/30
 photo.114.link: https://www.instagram.com/pantasanzoo1/
 photo.114.tags: bamboo, paws, standing, tail
-photo.115: https://www.instagram.com/p/CYFlZivBDJ0/media/?size=m
-photo.115.author: pantasanzoo1
-photo.115.link: https://www.instagram.com/pantasanzoo1/
-photo.115.tags: apple time, keeper, paws, smile, standing
-photo.116: https://www.instagram.com/eos1089/p/CX1NIt9hlEh/media/?size=m
-photo.116.author: eos1089
-photo.116.link: https://www.instagram.com/eos1089/
-photo.116.tags: paws, peek, portrait, whiskers
+photo.115: ig://eos1089/CX1NIt9hlEh/m
+photo.115.author: eos1089
+photo.115.commitdate: 2022/1/6
+photo.115.link: https://www.instagram.com/eos1089/
+photo.115.tags: paws, peek, portrait, whiskers
+photo.116: ig://CYFlZivBDJ0/m
+photo.116.author: pantasanzoo1
+photo.116.commitdate: 2022/1/6
+photo.116.link: https://www.instagram.com/pantasanzoo1/
+photo.116.tags: apple time, keeper, paws, smile, standing
 species: 2
 studbook.id: 12117
 zoo: 38

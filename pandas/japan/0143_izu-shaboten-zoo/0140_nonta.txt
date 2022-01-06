@@ -446,8 +446,9 @@ photo.86.author: pink.b22
 photo.86.commitdate: 2021/12/30
 photo.86.link: https://www.instagram.com/pink.b22/
 photo.86.tags: grooming, laying down, mofumofu, paws, portrait, videolink
-photo.87: https://www.instagram.com/p/CX0gblIP2Zl/media/?size=m
+photo.87: ig://CX0gblIP2Zl/m
 photo.87.author: otenba_redpanda
+photo.87.commitdate: 2022/1/6
 photo.87.link: https://www.instagram.com/otenba_redpanda/
 photo.87.tags: bamboo, mofumofu, portrait, tongue, whiskers
 species: 2

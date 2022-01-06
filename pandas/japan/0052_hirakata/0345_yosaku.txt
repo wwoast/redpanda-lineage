@@ -375,8 +375,9 @@ photo.72.author: ssc6105
 photo.72.commitdate: 2021/12/19
 photo.72.link: https://www.instagram.com/ssc6105/
 photo.72.tags: climb, paws, sample, smile, tail
-photo.73: https://www.instagram.com/p/CYD6CIlPSVa/media/?size=m
+photo.73: ig://CYD6CIlPSVa/m
 photo.73.author: makimaru18
+photo.73.commitdate: 2022/1/6
 photo.73.link: https://www.instagram.com/makimaru18/
 photo.73.tags: apple time, lips, paws, portrait, sample, whiskers
 species: 2

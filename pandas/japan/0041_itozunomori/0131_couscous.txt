@@ -384,10 +384,11 @@ photo.76.author: yossi929
 photo.76.commitdate: 2021/12/22
 photo.76.link: https://www.instagram.com/yossi929/
 photo.76.tags: close-up, sample, whiskers
-photo.77: https://www.instagram.com/p/CYH4L44PBEs/media/?size=m
+photo.77: ig://CYH4L44PBEs/m
 photo.77.author: yossi929
+photo.77.commitdate: 2022/1/6
 photo.77.link: https://www.instagram.com/yossi929/
-photo.77.tags: apple time, bamboo, paws, smile, snow, whiskers 
+photo.77.tags: apple time, bamboo, paws, smile, snow, whiskers
 species: 2
 studbook.id: 15157
 zoo: 41

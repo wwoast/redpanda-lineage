@@ -224,19 +224,21 @@ photo.42.author: miis_98
 photo.42.commitdate: 2021/11/21
 photo.42.link: https://www.instagram.com/miis_98/
 photo.42.tags: mofumofu, paws, portrait, smile
-photo.43: ig://CYYZxVjvvzb/m
-photo.43.author: hcpsafari
+photo.43: ig://grskus_tk/CYTAegAvrEY/m
+photo.43.author: grskus_tk
 photo.43.commitdate: 2022/1/6
-photo.43.link: https://www.instagram.com/hcpsafari/
-photo.43.tags: close-up, mofumofu, whiskers
-photo.44: https://www.instagram.com/minatomirai215/p/CYZSBhahw3E/media/?size=m
-photo.44.author: minatomirai215
-photo.44.link: https://www.instagram.com/minatomirai215/
-photo.44.tags: blink, itchy, mofumofu, paws, portrait, sample, whiskers
-photo.45: https://www.instagram.com/grskus_tk/p/CYTAegAvrEY/media/?size=m
-photo.45.author: grskus_tk
-photo.45.link: https://www.instagram.com/grskus_tk/
-photo.45.tags: mofumofu, tail
+photo.43.link: https://www.instagram.com/grskus_tk/
+photo.43.tags: mofumofu, tail
+photo.44: ig://CYYZxVjvvzb/m
+photo.44.author: hcpsafari
+photo.44.commitdate: 2022/1/6
+photo.44.link: https://www.instagram.com/hcpsafari/
+photo.44.tags: close-up, mofumofu, whiskers
+photo.45: ig://minatomirai215/CYZSBhahw3E/m
+photo.45.author: minatomirai215
+photo.45.commitdate: 2022/1/6
+photo.45.link: https://www.instagram.com/minatomirai215/
+photo.45.tags: blink, itchy, mofumofu, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0467
 zoo: 14

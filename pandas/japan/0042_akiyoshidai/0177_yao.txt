@@ -201,8 +201,9 @@ photo.38.author: re_ichimaru
 photo.38.commitdate: 2021/7/14
 photo.38.link: https://www.instagram.com/re_ichimaru/
 photo.38.tags: portrait, smile, whiskers
-photo.39: https://www.instagram.com/p/CYWYn0dvpKk/media/?size=m
+photo.39: ig://CYWYn0dvpKk/m
 photo.39.author: kojikoji2011
+photo.39.commitdate: 2022/1/6
 photo.39.link: https://www.instagram.com/kojikoji2011/
 photo.39.tags: close-up, portrait, whiskers
 species: 2
