@@ -224,8 +224,9 @@ photo.42.author: miis_98
 photo.42.commitdate: 2021/11/21
 photo.42.link: https://www.instagram.com/miis_98/
 photo.42.tags: mofumofu, paws, portrait, smile
-photo.43: https://www.instagram.com/p/CYYZxVjvvzb/media/?size=m
+photo.43: ig://CYYZxVjvvzb/m
 photo.43.author: hcpsafari
+photo.43.commitdate: 2022/1/6
 photo.43.link: https://www.instagram.com/hcpsafari/
 photo.43.tags: close-up, mofumofu, whiskers
 species: 2
