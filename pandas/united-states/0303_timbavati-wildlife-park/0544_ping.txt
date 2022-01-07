@@ -61,6 +61,10 @@ photo.9.author: wumpwoast
 photo.9.commitdate: 2021/8/7
 photo.9.link: https://www.instagram.com/wumpwoast/
 photo.9.tags: close-up, portrait, whiskers
+photo.10: https://www.instagram.com/p/CVu7pJ6FrGE/media/?size=m
+photo.10.author: timbavatiwildlifepark
+photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.10.tags: peek, whiskers
 species: 1
 studbook.id: 1727
 uncertainty: location.2 move date mm/yy, location.3 exact move date
