@@ -86,7 +86,7 @@ photo.15: ig://CJYu8pxhPGZ/m
 photo.15.author: kojikoji2011
 photo.15.commitdate: 2021/6/7
 photo.15.link: https://www.instagram.com/kojikoji2011/
-photo.15.tags: eye, grooming, paws, portrait, profile, tail
+photo.15.tags: eye, grooming, paws, portrait, tail
 photo.16: ig://CKI2F4xhRI_/m
 photo.16.author: kojikoji2011
 photo.16.commitdate: 2021/6/7
@@ -112,6 +112,10 @@ photo.20.author: kojikoji2011
 photo.20.commitdate: 2021/9/6
 photo.20.link: https://www.instagram.com/kojikoji2011/
 photo.20.tags: laying down, tail
+photo.21: https://www.instagram.com/p/CYG4a5aPPto/media/?size=m
+photo.21.author: kojikoji2011
+photo.21.link: https://www.instagram.com/kojikoji2011/
+photo.21.tags: apple time, dish, eye, portrait, profile, whiskers
 species: 2
 studbook.id: 0370
 zoo: 42
