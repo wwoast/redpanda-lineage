@@ -12,10 +12,10 @@ jp.name: パック
 jp.nicknames: none
 jp.othernames: イエレン
 language.order: en, jp
+litter: 544
 location.1: 81, 2017/6/22
 location.2: 129, 2019/1/1
 location.3: 303, 2021/5/14
-litter: 544
 photo.1: ig://B9PFqrlBlBh/m
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/2
@@ -56,27 +56,31 @@ photo.8.author: charlespaddockzoo
 photo.8.commitdate: 2020/8/23
 photo.8.link: https://www.instagram.com/charlespaddockzoo/
 photo.8.tags: laying down, paws, peek, smile
-photo.9: ig://CWdos_vpYwr/m
-photo.9.author: wumpwoast
-photo.9.commitdate: 2021/11/21
-photo.9.link: https://www.instagram.com/wumpwoast/
-photo.9.tags: close-up, portrait, whiskers
-photo.10: https://www.instagram.com/timbavatiwildlifepark/p/CO8AcnqFNi7/media/?size=m
+photo.9: ig://timbavatiwildlifepark/CO8AcnqFNi7/m
+photo.9.author: timbavatiwildlifepark
+photo.9.commitdate: 2022/1/6
+photo.9.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.9.tags: laying down, peek, whiskers
+photo.10: ig://CQWQ_pXl1k8/m
 photo.10.author: timbavatiwildlifepark
+photo.10.commitdate: 2022/1/6
 photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.10.tags: laying down, peek, whiskers
-photo.11: https://www.instagram.com/p/CRte-7tFZV-/media/?size=m
+photo.10.tags: paws, whiskers
+photo.11: ig://CRte-7tFZV-/m
 photo.11.author: timbavatiwildlifepark
+photo.11.commitdate: 2022/1/6
 photo.11.link: https://www.instagram.com/timbavatiwildlifepark/
 photo.11.tags: mofumofu
-photo.12: https://www.instagram.com/p/CT9qouIFOEF/media/?size=m
+photo.12: ig://CT9qouIFOEF/m
 photo.12.author: timbavatiwildlifepark
+photo.12.commitdate: 2022/1/6
 photo.12.link: https://www.instagram.com/timbavatiwildlifepark/
 photo.12.tags: mofumofu, whiskers
-photo.13: https://www.instagram.com/p/CQWQ_pXl1k8/media/?size=m
-photo.13.author: timbavatiwildlifepark
-photo.13.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.13.tags: paws, whiskers
+photo.13: ig://CWdos_vpYwr/m
+photo.13.author: wumpwoast
+photo.13.commitdate: 2021/11/21
+photo.13.link: https://www.instagram.com/wumpwoast/
+photo.13.tags: close-up, portrait, whiskers
 species: 1
 studbook.id: 1721
 uncertainty: location.2 move date mm/yy, location.3 exact move date

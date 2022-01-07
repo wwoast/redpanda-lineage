@@ -12,10 +12,10 @@ jp.name: ピン
 jp.nicknames: none
 jp.othernames: ピンジン
 language.order: en, jp
+litter: 543
 location.1: 81, 2017/6/22
 location.2: 129, 2019/1/1
 location.3: 303, 2021/5/14
-litter: 543
 photo.1: ig://B9QktPrBo6G/m
 photo.1.author: wumpwoast
 photo.1.commitdate: 2020/3/2
@@ -61,8 +61,9 @@ photo.9.author: wumpwoast
 photo.9.commitdate: 2021/8/7
 photo.9.link: https://www.instagram.com/wumpwoast/
 photo.9.tags: close-up, portrait, whiskers
-photo.10: https://www.instagram.com/p/CVu7pJ6FrGE/media/?size=m
+photo.10: ig://CVu7pJ6FrGE/m
 photo.10.author: timbavatiwildlifepark
+photo.10.commitdate: 2022/1/6
 photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
 photo.10.tags: peek, whiskers
 species: 1
