@@ -113,8 +113,9 @@ photo.20.author: resapan.suki
 photo.20.commitdate: 2022/1/6
 photo.20.link: https://www.instagram.com/resapan.suki/
 photo.20.tags: baby, laying down, mofumofu, portrait, whiskers
-photo.21: https://www.instagram.com/p/CYF1VK-FgGH/media/?size=m
+photo.21: ig://CYF1VK-FgGH/m
 photo.21.author: otenba_redpanda
+photo.21.commitdate: 2022/1/6
 photo.21.link: https://www.instagram.com/otenba_redpanda/
 photo.21.tags: baby, mofumofu, peek, portrait
 species: 2

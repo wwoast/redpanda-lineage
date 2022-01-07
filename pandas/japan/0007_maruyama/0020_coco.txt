@@ -1253,12 +1253,14 @@ photo.253.author: cattail.sapporo
 photo.253.commitdate: 2021/12/20
 photo.253.link: https://www.instagram.com/cattail.sapporo/
 photo.253.tags: paws, portrait, snow
-photo.254: https://www.instagram.com/p/CYIPSjHlu1y/media/?size=m
+photo.254: ig://CYIPSjHlu1y/m
 photo.254.author: cattail.sapporo
+photo.254.commitdate: 2022/1/6
 photo.254.link: https://www.instagram.com/cattail.sapporo/
 photo.254.tags: portrait, tail, techitechi
-photo.255: https://www.instagram.com/p/CYTgwA4Lnda/media/?size=m
+photo.255: ig://CYTgwA4Lnda/m
 photo.255.author: cattail.sapporo
+photo.255.commitdate: 2022/1/6
 photo.255.link: https://www.instagram.com/cattail.sapporo/
 photo.255.tags: close-up, mofumofu, portrait, snow, whiskers
 species: 2

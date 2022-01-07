@@ -362,33 +362,36 @@ photo.70.author: zoowfreedom299
 photo.70.commitdate: 2021/7/12
 photo.70.link: https://www.instagram.com/zoowfreedom299/
 photo.70.tags: bamboo, bite, home, paws
-photo.71: ig://CMzQg_zBY6t/m
-photo.71.author: redpan22
-photo.71.commitdate: 2021/8/27
-photo.71.link: https://www.instagram.com/redpan22/
-photo.71.tags: apple time, paws, smile
-photo.72: ig://CQvqIjCh6-P/m
+photo.71: ig://zoowfreedom299/CL29ICPhAM6/m
+photo.71.author: zoowfreedom299
+photo.71.commitdate: 2022/1/6
+photo.71.link: https://www.instagram.com/zoowfreedom299/
+photo.71.tags: apple time, paws, standing, upside-down
+photo.72: ig://CMzQg_zBY6t/m
 photo.72.author: redpan22
-photo.72.commitdate: 2021/7/1
+photo.72.commitdate: 2021/8/27
 photo.72.link: https://www.instagram.com/redpan22/
-photo.72.tags: ear, paws, smile
-photo.73: ig://CT9rIr8hR_a/m
-photo.73.author: ifumoto88
-photo.73.commitdate: 2021/9/18
-photo.73.link: https://www.instagram.com/ifumoto88/
-photo.73.tags: apple time, paws, portrait, smile
-photo.74: https://www.instagram.com/p/CNhBb5PhtHa/media/?size=m
+photo.72.tags: apple time, paws, smile
+photo.73: ig://CNdxD1EBG5H/m
+photo.73.author: zoowfreedom299
+photo.73.commitdate: 2022/1/6
+photo.73.link: https://www.instagram.com/zoowfreedom299/
+photo.73.tags: apple time, nose, paws
+photo.74: ig://CNhBb5PhtHa/m
 photo.74.author: zoowfreedom299
+photo.74.commitdate: 2022/1/6
 photo.74.link: https://www.instagram.com/zoowfreedom299/
 photo.74.tags: keeper, lunch time, paws
-photo.75: https://www.instagram.com/zoowfreedom299/p/CL29ICPhAM6/media/?size=m
-photo.75.author: zoowfreedom299
-photo.75.link: https://www.instagram.com/zoowfreedom299/
-photo.75.tags: apple time, paws, standing, upside-down
-photo.76: https://www.instagram.com/p/CNdxD1EBG5H/media/?size=m
-photo.76.author: zoowfreedom299
-photo.76.link: https://www.instagram.com/zoowfreedom299/
-photo.76.tags: apple time, nose, paws
+photo.75: ig://CQvqIjCh6-P/m
+photo.75.author: redpan22
+photo.75.commitdate: 2021/7/1
+photo.75.link: https://www.instagram.com/redpan22/
+photo.75.tags: ear, paws, smile
+photo.76: ig://CT9rIr8hR_a/m
+photo.76.author: ifumoto88
+photo.76.commitdate: 2021/9/18
+photo.76.link: https://www.instagram.com/ifumoto88/
+photo.76.tags: apple time, paws, portrait, smile
 species: 2
 studbook.id: unknown
 zoo: 26

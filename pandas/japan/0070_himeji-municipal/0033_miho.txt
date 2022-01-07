@@ -119,12 +119,14 @@ photo.21.author: miis_98
 photo.21.commitdate: 2021/11/11
 photo.21.link: https://www.instagram.com/miis_98/
 photo.21.tags: portrait, profile
-photo.22: https://www.instagram.com/p/CX99HRRPZ-N/media/?size=m
+photo.22: ig://CX99HRRPZ-N/m
 photo.22.author: sasapan34
+photo.22.commitdate: 2022/1/6
 photo.22.link: https://www.instagram.com/sasapan34/
 photo.22.tags: sample, whiskers
-photo.23: https://www.instagram.com/p/CYRcU32vaE5/media/?size=m
+photo.23: ig://CYRcU32vaE5/m
 photo.23.author: grskus_tk
+photo.23.commitdate: 2022/1/6
 photo.23.link: https://www.instagram.com/grskus_tk/
 photo.23.tags: peek, sample, whiskers
 species: 2

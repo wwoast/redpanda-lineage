@@ -328,8 +328,9 @@ photo.63.author: ck.chie
 photo.63.commitdate: 2022/1/4
 photo.63.link: https://www.instagram.com/ck.chie/
 photo.63.tags: climb, paws, standing
-photo.64: https://www.instagram.com/otenba_redpanda/p/CYC2JqJhrNY/media/?size=m
+photo.64: ig://otenba_redpanda/CYC2JqJhrNY/m
 photo.64.author: otenba_redpanda
+photo.64.commitdate: 2022/1/6
 photo.64.link: https://www.instagram.com/otenba_redpanda/
 photo.64.tags: paws, portrait, standing, tail
 species: 2

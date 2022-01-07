@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 861
-photo.1: https://www.instagram.com/p/CYH0Aqvp0IG/media/?size=m
+photo.1: ig://CYH0Aqvp0IG/m
 photo.1.author: worldthathesees
+photo.1.commitdate: 2022/1/6
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down, white face
 species: 1

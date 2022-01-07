@@ -160,8 +160,9 @@ photo.30.author: happy_love2.15
 photo.30.commitdate: 2021/5/3
 photo.30.link: https://www.instagram.com/happy_love2.15/
 photo.30.tags: mofumofu, portrait, tail, white face
-photo.31: https://www.instagram.com/p/CYBtWJCPMo0/media/?size=m
+photo.31: ig://CYBtWJCPMo0/m
 photo.31.author: mybrotherisdylan
+photo.31.commitdate: 2022/1/6
 photo.31.link: https://www.instagram.com/mybrotherisdylan/
 photo.31.tags: bamboo, paws, white face
 species: 1

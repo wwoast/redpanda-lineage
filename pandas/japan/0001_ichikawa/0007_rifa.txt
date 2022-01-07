@@ -634,8 +634,9 @@ photo.125.author: eos1089
 photo.125.commitdate: 2021/12/6
 photo.125.link: https://www.instagram.com/eos1089/
 photo.125.tags: bridge, climb, close-up, paws, portrait, whiskers
-photo.126: https://www.instagram.com/ifumoto88/p/CYQ7qwnrnkg/media/?size=m
+photo.126: ig://ifumoto88/CYQ7qwnrnkg/m
 photo.126.author: ifumoto88
+photo.126.commitdate: 2022/1/6
 photo.126.link: https://www.instagram.com/ifumoto88/
 photo.126.tags: close-up, portrait, whiskers
 species: 2
