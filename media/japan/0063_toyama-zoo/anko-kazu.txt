@@ -2,16 +2,17 @@
 _id: media.63.anko-kazu
 commitdate: 2020/3/21
 panda.tags: 289, 947
-photo.1: ig://B9Ot8KLBL7P/l
-photo.1.author: jas_forever_love
-photo.1.commitdate: 2020/3/21
-photo.1.link: https://www.instagram.com/jas_forever_love/
-photo.1.tags: climb, mother's day, paws, peek
-photo.1.tags.289.location: 400, 520
-photo.1.tags.947.location: 430, 275
-photo.2: https://www.instagram.com/p/B4uMpnhhg0M/media/?size=l
-photo.2.author: daniele.tokyo
-photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: close-up, mofumofu, mother's day, sleeping
-photo.2.tags.289.location: 340, 305
-photo.2.tags.947.location: 330, 615
+photo.1: ig://B4uMpnhhg0M/l
+photo.1.author: daniele.tokyo
+photo.1.commitdate: 2022/1/7
+photo.1.link: https://www.instagram.com/daniele.tokyo/
+photo.1.tags: close-up, mofumofu, mother's day, sleeping
+photo.1.tags.289.location: 340, 305
+photo.1.tags.947.location: 330, 615
+photo.2: ig://B9Ot8KLBL7P/l
+photo.2.author: jas_forever_love
+photo.2.commitdate: 2020/3/21
+photo.2.link: https://www.instagram.com/jas_forever_love/
+photo.2.tags: climb, mother's day, paws, peek
+photo.2.tags.289.location: 400, 520
+photo.2.tags.947.location: 430, 275

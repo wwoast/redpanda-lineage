@@ -639,22 +639,26 @@ photo.126.author: fetorus_mami
 photo.126.commitdate: 2021/12/19
 photo.126.link: https://www.instagram.com/fetorus_mami/
 photo.126.tags: autumn, paws, whiskers
-photo.127: https://www.instagram.com/p/CYTZMKKvtCT/media/?size=m
+photo.127: ig://fetorus_mami/CXyCDPbrh0Z/m
 photo.127.author: fetorus_mami
+photo.127.commitdate: 2022/1/7
 photo.127.link: https://www.instagram.com/fetorus_mami/
-photo.127.tags: bamboo, close-up, mofumofu, sample, smile
-photo.128: https://www.instagram.com/mini_cochi/p/CXyXnv1LcNB/media/?size=m
+photo.127.tags: bamboo, smile, whiskers
+photo.128: ig://mini_cochi/CXyXnv1LcNB/m
 photo.128.author: mini_cochi
+photo.128.commitdate: 2022/1/7
 photo.128.link: https://www.instagram.com/mini_cochi/
 photo.128.tags: close-up, portrait, sample, whiskers
-photo.129: https://www.instagram.com/fetorus_mami/p/CXyCDPbrh0Z/media/?size=m
+photo.129: ig://fetorus_mami/CX3JTBcr6f-/m
 photo.129.author: fetorus_mami
+photo.129.commitdate: 2022/1/7
 photo.129.link: https://www.instagram.com/fetorus_mami/
-photo.129.tags: bamboo, smile, whiskers
-photo.130: https://www.instagram.com/fetorus_mami/p/CX3JTBcr6f-/media/?size=m
+photo.129.tags: autumn, peek, whiskers
+photo.130: ig://CYTZMKKvtCT/m
 photo.130.author: fetorus_mami
+photo.130.commitdate: 2022/1/7
 photo.130.link: https://www.instagram.com/fetorus_mami/
-photo.130.tags: autumn, peek, whiskers
+photo.130.tags: bamboo, close-up, mofumofu, sample, smile
 species: 2
 studbook.id: 1772
 zoo: 9

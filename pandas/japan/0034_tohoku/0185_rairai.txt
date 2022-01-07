@@ -149,45 +149,46 @@ photo.27.author: kisshan324
 photo.27.commitdate: 2020/9/24
 photo.27.link: https://www.instagram.com/kisshan324/
 photo.27.tags: portrait
-photo.28: ig://CHpjABNBd2m/m
-photo.28.author: daniele.tokyo
-photo.28.commitdate: 2020/12/8
-photo.28.link: https://www.instagram.com/daniele.tokyo/
-photo.28.tags: paws, whiskers
-photo.29: ig://CJIw-rdBdFX/m
+photo.28: ig://CHZWNNhB1qm/m
+photo.28.author: mariten1119
+photo.28.commitdate: 2022/1/7
+photo.28.link: https://www.instagram.com/mariten1119/
+photo.28.tags: bamboo, paws
+photo.29: ig://CHpjABNBd2m/m
 photo.29.author: daniele.tokyo
-photo.29.commitdate: 2021/1/2
+photo.29.commitdate: 2020/12/8
 photo.29.link: https://www.instagram.com/daniele.tokyo/
-photo.29.tags: apple time, keeper, snow
-photo.30: ig://CJVo88tBAEt/m
+photo.29.tags: paws, whiskers
+photo.30: ig://CJIw-rdBdFX/m
 photo.30.author: daniele.tokyo
-photo.30.commitdate: 2021/1/28
+photo.30.commitdate: 2021/1/2
 photo.30.link: https://www.instagram.com/daniele.tokyo/
-photo.30.tags: close-up, snow, whiskers
-photo.31: ig://CMJ8CK-hK4l/m
+photo.30.tags: apple time, keeper, snow
+photo.31: ig://CJVo88tBAEt/m
 photo.31.author: daniele.tokyo
-photo.31.commitdate: 2021/6/29
+photo.31.commitdate: 2021/1/28
 photo.31.link: https://www.instagram.com/daniele.tokyo/
-photo.31.tags: apple time, snow, toys
-photo.32: ig://CQ8WtpYhkSw/m
+photo.31.tags: close-up, snow, whiskers
+photo.32: ig://CMJ8CK-hK4l/m
 photo.32.author: daniele.tokyo
-photo.32.commitdate: 2021/7/5
+photo.32.commitdate: 2021/6/29
 photo.32.link: https://www.instagram.com/daniele.tokyo/
-photo.32.tags: mofumofu, smile, tongue, whiskers
-photo.33: ig://CRi7HWDhezk/m
+photo.32.tags: apple time, snow, toys
+photo.33: ig://CQ8WtpYhkSw/m
 photo.33.author: daniele.tokyo
-photo.33.commitdate: 2021/8/2
+photo.33.commitdate: 2021/7/5
 photo.33.link: https://www.instagram.com/daniele.tokyo/
-photo.33.tags: close-up, mofumofu, portrait, whiskers
-photo.34: ig://CSrBXvpBzAN/m
+photo.33.tags: mofumofu, smile, tongue, whiskers
+photo.34: ig://CRi7HWDhezk/m
 photo.34.author: daniele.tokyo
-photo.34.commitdate: 2021/12/28
+photo.34.commitdate: 2021/8/2
 photo.34.link: https://www.instagram.com/daniele.tokyo/
-photo.34.tags: mofumofu, sample, tongue, whiskers
-photo.35: https://www.instagram.com/p/CHZWNNhB1qm/media/?size=m
-photo.35.author: mariten1119
-photo.35.link: https://www.instagram.com/mariten1119/
-photo.35.tags: bamboo, paws
+photo.34.tags: close-up, mofumofu, portrait, whiskers
+photo.35: ig://CSrBXvpBzAN/m
+photo.35.author: daniele.tokyo
+photo.35.commitdate: 2021/12/28
+photo.35.link: https://www.instagram.com/daniele.tokyo/
+photo.35.tags: mofumofu, sample, tongue, whiskers
 species: 2
 studbook.id: 14152
 zoo: 34
