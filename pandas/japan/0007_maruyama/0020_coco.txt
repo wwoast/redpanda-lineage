@@ -1253,20 +1253,21 @@ photo.253.author: cattail.sapporo
 photo.253.commitdate: 2021/12/20
 photo.253.link: https://www.instagram.com/cattail.sapporo/
 photo.253.tags: paws, portrait, snow
-photo.254: ig://CYIPSjHlu1y/m
+photo.254: ig://cattail.sapporo/CX3KDtaLS9i/m
 photo.254.author: cattail.sapporo
-photo.254.commitdate: 2022/1/6
+photo.254.commitdate: 2022/1/8
 photo.254.link: https://www.instagram.com/cattail.sapporo/
-photo.254.tags: portrait, tail, techitechi
-photo.255: ig://CYTgwA4Lnda/m
+photo.254.tags: mofumofu, portrait, sample, snow
+photo.255: ig://CYIPSjHlu1y/m
 photo.255.author: cattail.sapporo
 photo.255.commitdate: 2022/1/6
 photo.255.link: https://www.instagram.com/cattail.sapporo/
-photo.255.tags: close-up, mofumofu, portrait, snow, whiskers
-photo.256: https://www.instagram.com/cattail.sapporo/p/CX3KDtaLS9i/media/?size=m
+photo.255.tags: portrait, tail, techitechi
+photo.256: ig://CYTgwA4Lnda/m
 photo.256.author: cattail.sapporo
+photo.256.commitdate: 2022/1/6
 photo.256.link: https://www.instagram.com/cattail.sapporo/
-photo.256.tags: mofumofu, portrait, sample, snow
+photo.256.tags: close-up, mofumofu, portrait, snow, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7

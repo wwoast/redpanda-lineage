@@ -534,8 +534,9 @@ photo.104.author: minatomirai215
 photo.104.commitdate: 2021/12/18
 photo.104.link: https://www.instagram.com/minatomirai215/
 photo.104.tags: paws, portrait, tree
-photo.105: https://www.instagram.com/p/CX3aAohvNst/media/?size=m
+photo.105: ig://CX3aAohvNst/m
 photo.105.author: kotata_513
+photo.105.commitdate: 2022/1/8
 photo.105.link: https://www.instagram.com/kotata_513/
 photo.105.tags: carry, portrait, tail
 species: 2

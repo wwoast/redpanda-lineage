@@ -858,20 +858,21 @@ photo.170.author: hidehaya_biei
 photo.170.commitdate: 2021/12/22
 photo.170.link: https://www.instagram.com/hidehaya_biei/
 photo.170.tags: sample, snow, whiskers
-photo.171: ig://CYH18UJBBwp/m
-photo.171.author: ssc6105
-photo.171.commitdate: 2022/1/6
-photo.171.link: https://www.instagram.com/ssc6105/
-photo.171.tags: bamboo, paws, standing, whiskers
-photo.172: ig://CYUu8INhBQ8/m
+photo.171: ig://daniele.tokyo/CX0nH0nvRoO/m
+photo.171.author: daniele.tokyo
+photo.171.commitdate: 2022/1/8
+photo.171.link: https://www.instagram.com/daniele.tokyo/
+photo.171.tags: laying down, paws, playing, portrait, snow, tail, toys
+photo.172: ig://CYH18UJBBwp/m
 photo.172.author: ssc6105
 photo.172.commitdate: 2022/1/6
 photo.172.link: https://www.instagram.com/ssc6105/
-photo.172.tags: paws, sample, snow, whiskers
-photo.173: https://www.instagram.com/daniele.tokyo/p/CX0nH0nvRoO/media/?size=m
-photo.173.author: daniele.tokyo
-photo.173.link: https://www.instagram.com/daniele.tokyo/
-photo.173.tags: laying down, paws, playing, portrait, snow, tail, toys
+photo.172.tags: bamboo, paws, standing, whiskers
+photo.173: ig://CYUu8INhBQ8/m
+photo.173.author: ssc6105
+photo.173.commitdate: 2022/1/6
+photo.173.link: https://www.instagram.com/ssc6105/
+photo.173.tags: paws, sample, snow, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

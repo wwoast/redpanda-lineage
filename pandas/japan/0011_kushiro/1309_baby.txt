@@ -33,14 +33,15 @@ photo.4.author: an920000
 photo.4.commitdate: 2021/12/22
 photo.4.link: https://www.instagram.com/an920000/
 photo.4.tags: baby, close-up
-photo.5: ig://CYQ1K7SPw8e/m
-photo.5.author: tama67photo
-photo.5.commitdate: 2022/1/7
-photo.5.link: https://www.instagram.com/tama67photo/
-photo.5.tags: baby, mofumofu, portrait, snow
-photo.6: https://www.instagram.com/p/CXwBzEPPTKi/media/?size=m
-photo.6.author: minatomirai215
-photo.6.link: https://www.instagram.com/minatomirai215/
-photo.6.tags: baby, bite, destruction, portrait
+photo.5: ig://CXwBzEPPTKi/m
+photo.5.author: minatomirai215
+photo.5.commitdate: 2022/1/8
+photo.5.link: https://www.instagram.com/minatomirai215/
+photo.5.tags: baby, bite, destruction, portrait
+photo.6: ig://CYQ1K7SPw8e/m
+photo.6.author: tama67photo
+photo.6.commitdate: 2022/1/7
+photo.6.link: https://www.instagram.com/tama67photo/
+photo.6.tags: baby, mofumofu, portrait, snow
 species: 2
 zoo: 11

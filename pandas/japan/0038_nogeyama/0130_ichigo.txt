@@ -591,20 +591,21 @@ photo.115.author: eos1089
 photo.115.commitdate: 2022/1/6
 photo.115.link: https://www.instagram.com/eos1089/
 photo.115.tags: paws, peek, portrait, whiskers
-photo.116: ig://miis_98/CYDdM2zviAp/m
-photo.116.author: miis_98
-photo.116.commitdate: 2022/1/6
-photo.116.link: https://www.instagram.com/miis_98/
-photo.116.tags: bamboo, bite, paws, portrait, tail
-photo.117: ig://CYFlZivBDJ0/m
-photo.117.author: pantasanzoo1
+photo.116: ig://CX3c1coMhbt/m
+photo.116.author: minatomirai215
+photo.116.commitdate: 2022/1/8
+photo.116.link: https://www.instagram.com/minatomirai215/
+photo.116.tags: peek, portrait, whiskers
+photo.117: ig://miis_98/CYDdM2zviAp/m
+photo.117.author: miis_98
 photo.117.commitdate: 2022/1/6
-photo.117.link: https://www.instagram.com/pantasanzoo1/
-photo.117.tags: apple time, keeper, paws, smile, standing
-photo.118: https://www.instagram.com/p/CX3c1coMhbt/media/?size=m
-photo.118.author: minatomirai215
-photo.118.link: https://www.instagram.com/minatomirai215/
-photo.118.tags: peek, portrait, whiskers
+photo.117.link: https://www.instagram.com/miis_98/
+photo.117.tags: bamboo, bite, paws, portrait, tail
+photo.118: ig://CYFlZivBDJ0/m
+photo.118.author: pantasanzoo1
+photo.118.commitdate: 2022/1/6
+photo.118.link: https://www.instagram.com/pantasanzoo1/
+photo.118.tags: apple time, keeper, paws, smile, standing
 species: 2
 studbook.id: 12117
 zoo: 38

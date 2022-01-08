@@ -383,15 +383,16 @@ photo.74.author: ifumoto88
 photo.74.commitdate: 2021/12/18
 photo.74.link: https://www.instagram.com/ifumoto88/
 photo.74.tags: bite, close-up, paws, portrait
-photo.75: ig://CYOfc8vr7Qg/m
-photo.75.author: mini_cochi
-photo.75.commitdate: 2022/1/4
-photo.75.link: https://www.instagram.com/mini_cochi/
-photo.75.tags: close-up, bamboo, portrait, whiskers
-photo.76: https://www.instagram.com/miis_98/p/CX7lyC7ruhl/media/?size=m
-photo.76.author: miis_98
-photo.76.link: https://www.instagram.com/miis_98/
-photo.76.tags: portrait, sample
+photo.75: ig://miis_98/CX7lyC7ruhl/m
+photo.75.author: miis_98
+photo.75.commitdate: 2022/1/8
+photo.75.link: https://www.instagram.com/miis_98/
+photo.75.tags: portrait, sample
+photo.76: ig://CYOfc8vr7Qg/m
+photo.76.author: mini_cochi
+photo.76.commitdate: 2022/1/4
+photo.76.link: https://www.instagram.com/mini_cochi/
+photo.76.tags: close-up, bamboo, portrait, whiskers
 species: 2
 studbook.id: 0864
 zoo: 17
