@@ -332,8 +332,9 @@ photo.64.author: ssc6105
 photo.64.commitdate: 2022/1/7
 photo.64.link: https://www.instagram.com/ssc6105/
 photo.64.tags: paws, smile, whiskers
-photo.65: https://www.instagram.com/p/CX7LMX8hNRS/media/?size=m
+photo.65: ig://CX7LMX8hNRS/m
 photo.65.author: alto0908
+photo.65.commitdate: 2022/1/8
 photo.65.link: https://www.instagram.com/alto0908/
 photo.65.tags: laying down, paws, portrait, tail, tree
 species: 2

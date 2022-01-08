@@ -418,24 +418,25 @@ photo.81.author: miis_98
 photo.81.commitdate: 2022/1/6
 photo.81.link: https://www.instagram.com/miis_98/
 photo.81.tags: laying down, peek, portrait
-photo.82: ig://CYBbbRYv1uX/m
+photo.82: ig://ssc6105/CX-9G2uPQMt/m
 photo.82.author: ssc6105
-photo.82.commitdate: 2022/1/4
+photo.82.commitdate: 2022/1/8
 photo.82.link: https://www.instagram.com/ssc6105/
-photo.82.tags: mofumofu, paws, tail, tongue
-photo.83: ig://CYBofVmPiiP/m
-photo.83.author: redpan22
+photo.82.tags: laying down, portrait, sample, tail
+photo.83: ig://CYBbbRYv1uX/m
+photo.83.author: ssc6105
 photo.83.commitdate: 2022/1/4
-photo.83.link: https://www.instagram.com/redpan22/
-photo.83.tags: climb, paws, portrait, sample, tail
-photo.84: ig://CYGlS5XN2sj/m
-photo.84.author: otenba_redpanda
-photo.84.commitdate: 2022/1/6
-photo.84.link: https://www.instagram.com/otenba_redpanda/
-photo.84.tags: mofumofu, paws, portrait, tail
-photo.85: https://www.instagram.com/ssc6105/p/CX-9G2uPQMt/media/?size=m
-photo.85.author: ssc6105
-photo.85.link: https://www.instagram.com/ssc6105/
-photo.85.tags: laying down, portrait, sample, tail
+photo.83.link: https://www.instagram.com/ssc6105/
+photo.83.tags: mofumofu, paws, tail, tongue
+photo.84: ig://CYBofVmPiiP/m
+photo.84.author: redpan22
+photo.84.commitdate: 2022/1/4
+photo.84.link: https://www.instagram.com/redpan22/
+photo.84.tags: climb, paws, portrait, sample, tail
+photo.85: ig://CYGlS5XN2sj/m
+photo.85.author: otenba_redpanda
+photo.85.commitdate: 2022/1/6
+photo.85.link: https://www.instagram.com/otenba_redpanda/
+photo.85.tags: mofumofu, paws, portrait, tail
 species: 2
 zoo: 17

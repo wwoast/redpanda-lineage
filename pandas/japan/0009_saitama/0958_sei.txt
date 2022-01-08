@@ -263,8 +263,9 @@ photo.50.author: mini_cochi
 photo.50.commitdate: 2021/11/21
 photo.50.link: https://www.instagram.com/mini_cochi/
 photo.50.tags: bamboo, paws, portrait
-photo.51: https://www.instagram.com/p/CYANrTEhYfJ/media/?size=m
+photo.51: ig://CYANrTEhYfJ/m
 photo.51.author: otenba_redpanda
+photo.51.commitdate: 2022/1/8
 photo.51.link: https://www.instagram.com/otenba_redpanda/
 photo.51.tags: bamboo, mofumofu, paws, portrait, whiskers
 species: 2

@@ -278,8 +278,9 @@ photo.53.author: itozu_zoo
 photo.53.commitdate: 2021/12/20
 photo.53.link: https://www.instagram.com/itozu_zoo/
 photo.53.tags: lunch time, paws, portrait, sample, standing, tail, whiskers
-photo.54: https://www.instagram.com/p/CX7vWncLAEC/media/?size=m
+photo.54: ig://CX7vWncLAEC/m
 photo.54.author: itozu_zoo
+photo.54.commitdate: 2022/1/8
 photo.54.link: https://www.instagram.com/itozu_zoo/
 photo.54.tags: laying down, paws, portrait, sleeping
 species: 2

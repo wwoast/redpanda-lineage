@@ -538,15 +538,16 @@ photo.105.author: ck.chie
 photo.105.commitdate: 2021/11/27
 photo.105.link: https://www.instagram.com/ck.chie/
 photo.105.tags: paws, playing, tail
-photo.106: ig://otenba_redpanda/CYUlJTBhowZ/m
-photo.106.author: otenba_redpanda
-photo.106.commitdate: 2022/1/6
-photo.106.link: https://www.instagram.com/otenba_redpanda/
-photo.106.tags: autumn, mofumofu, portrait, whiskers
-photo.107: https://www.instagram.com/mini_cochi/p/CX6PZZYlmeX/media/?size=m
-photo.107.author: mini_cochi
-photo.107.link: https://www.instagram.com/mini_cochi/
-photo.107.tags: autumn, portrait, tail, whiskers
+photo.106: ig://mini_cochi/CX6PZZYlmeX/m
+photo.106.author: mini_cochi
+photo.106.commitdate: 2022/1/8
+photo.106.link: https://www.instagram.com/mini_cochi/
+photo.106.tags: autumn, portrait, tail, whiskers
+photo.107: ig://otenba_redpanda/CYUlJTBhowZ/m
+photo.107.author: otenba_redpanda
+photo.107.commitdate: 2022/1/6
+photo.107.link: https://www.instagram.com/otenba_redpanda/
+photo.107.tags: autumn, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17

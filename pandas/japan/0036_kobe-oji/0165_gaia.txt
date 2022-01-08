@@ -963,20 +963,21 @@ photo.192.author: i.satosato
 photo.192.commitdate: 2021/12/19
 photo.192.link: https://www.instagram.com/i.satosato/
 photo.192.tags: home, paws, portrait, sample, tail
-photo.193: ig://CYRI_d-PdEH/m
-photo.193.author: i.satosato
-photo.193.commitdate: 2022/1/6
-photo.193.link: https://www.instagram.com/i.satosato/
-photo.193.tags: laying down, paws, portrait, tail
-photo.194: ig://wumpwoast/CYYFbUYrqep/m
-photo.194.author: wumpwoast
+photo.193: ig://CX-v2UmvfNS/m
+photo.193.author: imagoto17
+photo.193.commitdate: 2022/1/8
+photo.193.link: https://www.instagram.com/imagoto17/
+photo.193.tags: paws, sample, tail, whiskers
+photo.194: ig://CYRI_d-PdEH/m
+photo.194.author: i.satosato
 photo.194.commitdate: 2022/1/6
-photo.194.link: https://www.instagram.com/wumpwoast/
-photo.194.tags: portrait, tail
-photo.195: https://www.instagram.com/p/CX-v2UmvfNS/media/?size=m
-photo.195.author: imagoto17
-photo.195.link: https://www.instagram.com/imagoto17/
-photo.195.tags: paws, sample, tail, whiskers
+photo.194.link: https://www.instagram.com/i.satosato/
+photo.194.tags: laying down, paws, portrait, tail
+photo.195: ig://wumpwoast/CYYFbUYrqep/m
+photo.195.author: wumpwoast
+photo.195.commitdate: 2022/1/6
+photo.195.link: https://www.instagram.com/wumpwoast/
+photo.195.tags: portrait, tail
 species: 2
 studbook.id: 0457
 zoo: 36

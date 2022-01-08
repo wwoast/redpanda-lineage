@@ -1555,8 +1555,9 @@ photo.310.author: hamamatsu.chiita
 photo.310.commitdate: 2021/12/19
 photo.310.link: https://www.instagram.com/hamamatsu.chiita/
 photo.310.tags: blink, mofumofu, portrait, sample, snow, whiskers
-photo.311: https://www.instagram.com/p/CX-6bkWrkok/media/?size=m
+photo.311: ig://CX-6bkWrkok/m
 photo.311.author: cattail.sapporo
+photo.311.commitdate: 2022/1/8
 photo.311.link: https://www.instagram.com/cattail.sapporo/
 photo.311.tags: close-up, portrait, sample, snow, tail
 species: 2
