@@ -40,8 +40,9 @@ photo.5.author: buttonwoodparkzoo
 photo.5.commitdate: 2021/4/10
 photo.5.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.5.tags: portrait, whiskers
-photo.6: https://www.instagram.com/p/CXbaosuhSyv/media/?size=m
+photo.6: ig://CXbaosuhSyv/m
 photo.6.author: buttonwoodparkzoo
+photo.6.commitdate: 2022/1/7
 photo.6.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.6.tags: paws, portrait
 species: 1

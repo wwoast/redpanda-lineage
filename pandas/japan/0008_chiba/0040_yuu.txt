@@ -368,8 +368,9 @@ photo.71.author: ck.chie
 photo.71.commitdate: 2021/11/19
 photo.71.link: https://www.instagram.com/ck.chie/
 photo.71.tags: laying down, peek, portrait
-photo.72: https://www.instagram.com/p/CWq-vGthcke/media/?size=m
+photo.72: ig://CWq-vGthcke/m
 photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2022/1/7
 photo.72.link: https://www.instagram.com/hamamatsu.chiita/
 photo.72.tags: close-up, portrait, sample, whiskers
 species: 2

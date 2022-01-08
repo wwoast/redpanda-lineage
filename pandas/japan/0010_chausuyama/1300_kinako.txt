@@ -143,27 +143,30 @@ photo.26.author: otenba_redpanda
 photo.26.commitdate: 2021/12/30
 photo.26.link: https://www.instagram.com/otenba_redpanda/
 photo.26.tags: laying down, mofumofu, paws, portrait, tail
-photo.27: ig://CXTnYgHBzYn/m
-photo.27.author: redpan22
-photo.27.commitdate: 2021/12/26
-photo.27.link: https://www.instagram.com/redpan22/
-photo.27.tags: bamboo, close-up, paws, snow
-photo.28: ig://CYFaQ_aBuUu/m
-photo.28.author: alto0908
-photo.28.commitdate: 2022/1/6
-photo.28.link: https://www.instagram.com/alto0908/
-photo.28.tags: bamboo, mofumofu, portrait
-photo.29: https://www.instagram.com/p/CXgwBMgh7Np/media/?size=m
-photo.29.author: resapan.suki
-photo.29.link: https://www.instagram.com/resapan.suki/
-photo.29.tags: playing, portrait, videolink
-photo.30: https://www.instagram.com/p/CXTIyfyB5bX/media/?size=m
-photo.30.author: daniele.tokyo
-photo.30.link: https://www.instagram.com/daniele.tokyo/
-photo.30.tags: baby, mofumofu, paws, tail, techitechi
-photo.31: https://www.instagram.com/miis_98/p/CXTuxGapdyu/media/?size=m
-photo.31.author: miis_98
-photo.31.link: https://www.instagram.com/miis_98/
-photo.31.tags: mofumofu, paws, smile, whiskers
+photo.27: ig://CXTIyfyB5bX/m
+photo.27.author: daniele.tokyo
+photo.27.commitdate: 2022/1/7
+photo.27.link: https://www.instagram.com/daniele.tokyo/
+photo.27.tags: baby, mofumofu, paws, tail, techitechi
+photo.28: ig://CXTnYgHBzYn/m
+photo.28.author: redpan22
+photo.28.commitdate: 2021/12/26
+photo.28.link: https://www.instagram.com/redpan22/
+photo.28.tags: bamboo, close-up, paws, snow
+photo.29: ig://miis_98/CXTuxGapdyu/m
+photo.29.author: miis_98
+photo.29.commitdate: 2022/1/7
+photo.29.link: https://www.instagram.com/miis_98/
+photo.29.tags: mofumofu, paws, smile, whiskers
+photo.30: ig://CXgwBMgh7Np/m
+photo.30.author: resapan.suki
+photo.30.commitdate: 2022/1/7
+photo.30.link: https://www.instagram.com/resapan.suki/
+photo.30.tags: playing, portrait, videolink
+photo.31: ig://CYFaQ_aBuUu/m
+photo.31.author: alto0908
+photo.31.commitdate: 2022/1/6
+photo.31.link: https://www.instagram.com/alto0908/
+photo.31.tags: bamboo, mofumofu, portrait
 species: 2
 zoo: 10

@@ -63,24 +63,25 @@ photo.10.author: miis_98
 photo.10.commitdate: 2021/11/27
 photo.10.link: https://www.instagram.com/miis_98/
 photo.10.tags: baby, laying down, mofumofu, paws, portrait, sample, tail
-photo.11: ig://CW6s23rhvO7/m
-photo.11.author: otenba_redpanda
-photo.11.commitdate: 2021/12/19
-photo.11.link: https://www.instagram.com/otenba_redpanda/
-photo.11.tags: apple time, baby, mofumofu, portrait, sample
-photo.12: ig://CXSX0W2Fp9D/m
-photo.12.author: lesserpanda_shizuokacity_cp
-photo.12.commitdate: 2021/12/22
-photo.12.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.12.tags: baby, close-up
-photo.13: ig://CXm09L8Pot-/m
-photo.13.author: pantasanzoo1
-photo.13.commitdate: 2021/12/19
-photo.13.link: https://www.instagram.com/pantasanzoo1/
-photo.13.tags: baby, tail
-photo.14: https://www.instagram.com/p/CWy43yUh0Tq/media/?size=m
-photo.14.author: taka__3428
-photo.14.link: https://www.instagram.com/taka__3428/
-photo.14.tags: baby, videolink, window
+photo.11: ig://CWy43yUh0Tq/m
+photo.11.author: taka__3428
+photo.11.commitdate: 2022/1/7
+photo.11.link: https://www.instagram.com/taka__3428/
+photo.11.tags: baby, videolink, window
+photo.12: ig://CW6s23rhvO7/m
+photo.12.author: otenba_redpanda
+photo.12.commitdate: 2021/12/19
+photo.12.link: https://www.instagram.com/otenba_redpanda/
+photo.12.tags: apple time, baby, mofumofu, portrait, sample
+photo.13: ig://CXSX0W2Fp9D/m
+photo.13.author: lesserpanda_shizuokacity_cp
+photo.13.commitdate: 2021/12/22
+photo.13.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.13.tags: baby, close-up
+photo.14: ig://CXm09L8Pot-/m
+photo.14.author: pantasanzoo1
+photo.14.commitdate: 2021/12/19
+photo.14.link: https://www.instagram.com/pantasanzoo1/
+photo.14.tags: baby, tail
 species: 2
 zoo: 16

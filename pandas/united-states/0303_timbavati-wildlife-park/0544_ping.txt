@@ -66,8 +66,9 @@ photo.10.author: timbavatiwildlifepark
 photo.10.commitdate: 2022/1/6
 photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
 photo.10.tags: peek, whiskers
-photo.11: https://www.instagram.com/p/CWtif8fBWVi/media/?size=m
+photo.11: ig://CWtif8fBWVi/m
 photo.11.author: wumpwoast
+photo.11.commitdate: 2022/1/7
 photo.11.link: https://www.instagram.com/wumpwoast/
 photo.11.tags: bamboo, portrait, sample, tail
 species: 1

@@ -363,14 +363,16 @@ photo.70.author: taka__3428
 photo.70.commitdate: 2021/11/28
 photo.70.link: https://www.instagram.com/taka__3428/
 photo.70.tags: close-up, portrait, whiskers
-photo.71: https://www.instagram.com/p/CW9w-_xhpu2/media/?size=m
-photo.71.author: otenba_redpanda
-photo.71.link: https://www.instagram.com/otenba_redpanda/
-photo.71.tags: bamboo, portrait, sample, whiskers
-photo.72: https://www.instagram.com/p/CWx1g_rhTq-/media/?size=m
-photo.72.author: taka__3428
-photo.72.link: https://www.instagram.com/taka__3428/
-photo.72.tags: blink, itchy, paws, tongue
+photo.71: ig://CWx1g_rhTq-/m
+photo.71.author: taka__3428
+photo.71.commitdate: 2022/1/7
+photo.71.link: https://www.instagram.com/taka__3428/
+photo.71.tags: blink, itchy, paws, tongue
+photo.72: ig://CW9w-_xhpu2/m
+photo.72.author: otenba_redpanda
+photo.72.commitdate: 2022/1/7
+photo.72.link: https://www.instagram.com/otenba_redpanda/
+photo.72.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

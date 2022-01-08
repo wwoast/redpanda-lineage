@@ -157,8 +157,9 @@ photo.29.author: mini_cochi
 photo.29.commitdate: 2021/11/14
 photo.29.link: https://www.instagram.com/mini_cochi/
 photo.29.tags: portrait, whiskers
-photo.30: https://www.instagram.com/p/CWxjd-rFvNe/media/?size=m
+photo.30: ig://CWxjd-rFvNe/m
 photo.30.author: hidehaya_biei
+photo.30.commitdate: 2022/1/7
 photo.30.link: https://www.instagram.com/hidehaya_biei/
 photo.30.tags: mofumofu, paws, snow
 species: 2

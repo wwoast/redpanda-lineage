@@ -249,49 +249,51 @@ photo.47.author: love__mitarashi
 photo.47.commitdate: 2021/5/4
 photo.47.link: https://www.instagram.com/love__mitarashi/
 photo.47.tags: ear
-photo.48: ig://CQYUKUFhBFT/m
-photo.48.author: jas_forever_love
-photo.48.commitdate: 2021/8/6
-photo.48.link: https://www.instagram.com/jas_forever_love/
-photo.48.tags: door, peek, smile, whiskers
-photo.49: ig://CRAwSythiUJ/m
-photo.49.author: sasapan34
-photo.49.commitdate: 2021/10/10
-photo.49.link: https://www.instagram.com/sasapan34/
-photo.49.tags: door, paws
-photo.50: ig://CUj1se7hi1I/m
-photo.50.author: chankunvv
-photo.50.commitdate: 2021/10/6
-photo.50.link: https://www.instagram.com/chankunvv/
-photo.50.tags: itchy, paws, portrait, surprise, tail
-photo.51: ig://CV0yw_eh36I/m
-photo.51.author: bubbles_octi
-photo.51.commitdate: 2021/11/5
-photo.51.link: https://www.instagram.com/bubbles_octi/
-photo.51.tags: ear, peek, tail
-photo.52: ig://CV9eWvBhBmR/m
-photo.52.author: sakikukeco
-photo.52.commitdate: 2021/11/7
-photo.52.link: https://www.instagram.com/sakikukeco/
-photo.52.tags: close-up, mofumofu, portrait, whiskers
-photo.53: ig://CXCxSOkBx0q/m
-photo.53.author: redpanda_nippon_takashi
-photo.53.commitdate: 2021/12/22
-photo.53.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.53.tags: ear, jizo, mofumofu, paws, portrait, sample, tongue
-photo.54: ig://CX0lXo7voun/m
-photo.54.author: jas_forever_love
-photo.54.commitdate: 2022/1/6
-photo.54.link: https://www.instagram.com/jas_forever_love/
-photo.54.tags: close-up, ear, portrait, whiskers
-photo.55: https://www.instagram.com/p/COvBDMzhbIF/media/?size=m
-photo.55.author: love__mitarashi
-photo.55.link: https://www.instagram.com/love__mitarashi/
-photo.55.tags: ear, itchy
-photo.56: https://www.instagram.com/p/CSWZaPChdgT/media/?size=m
-photo.56.author: apple_jasmine33
-photo.56.link: https://www.instagram.com/apple_jasmine33/
-photo.56.tags: peek, tail
+photo.48: ig://COvBDMzhbIF/m
+photo.48.author: love__mitarashi
+photo.48.commitdate: 2022/1/7
+photo.48.link: https://www.instagram.com/love__mitarashi/
+photo.48.tags: ear, itchy
+photo.49: ig://CQYUKUFhBFT/m
+photo.49.author: jas_forever_love
+photo.49.commitdate: 2021/8/6
+photo.49.link: https://www.instagram.com/jas_forever_love/
+photo.49.tags: door, peek, smile, whiskers
+photo.50: ig://CRAwSythiUJ/m
+photo.50.author: sasapan34
+photo.50.commitdate: 2021/10/10
+photo.50.link: https://www.instagram.com/sasapan34/
+photo.50.tags: door, paws
+photo.51: ig://CSWZaPChdgT/m
+photo.51.author: apple_jasmine33
+photo.51.commitdate: 2022/1/7
+photo.51.link: https://www.instagram.com/apple_jasmine33/
+photo.51.tags: peek, tail
+photo.52: ig://CUj1se7hi1I/m
+photo.52.author: chankunvv
+photo.52.commitdate: 2021/10/6
+photo.52.link: https://www.instagram.com/chankunvv/
+photo.52.tags: itchy, paws, portrait, surprise, tail
+photo.53: ig://CV0yw_eh36I/m
+photo.53.author: bubbles_octi
+photo.53.commitdate: 2021/11/5
+photo.53.link: https://www.instagram.com/bubbles_octi/
+photo.53.tags: ear, peek, tail
+photo.54: ig://CV9eWvBhBmR/m
+photo.54.author: sakikukeco
+photo.54.commitdate: 2021/11/7
+photo.54.link: https://www.instagram.com/sakikukeco/
+photo.54.tags: close-up, mofumofu, portrait, whiskers
+photo.55: ig://CXCxSOkBx0q/m
+photo.55.author: redpanda_nippon_takashi
+photo.55.commitdate: 2021/12/22
+photo.55.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.55.tags: ear, jizo, mofumofu, paws, portrait, sample, tongue
+photo.56: ig://CX0lXo7voun/m
+photo.56.author: jas_forever_love
+photo.56.commitdate: 2022/1/6
+photo.56.link: https://www.instagram.com/jas_forever_love/
+photo.56.tags: close-up, ear, portrait, whiskers
 species: 2
 studbook.id: 13165
 zoo: 61
