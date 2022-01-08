@@ -30,7 +30,11 @@ photo.3: ig://CXolelNrvEE/m
 photo.3.author: capemaycountyzoo
 photo.3.commitdate: 2021/12/22
 photo.3.link: https://www.instagram.com/capemaycountyzoo/
-photo.3.tags: paws, portrait, profile, smile, whiskers
+photo.3.tags: paws, portrait, smile, whiskers
+photo.4: https://www.instagram.com/p/CXqeRa3MQ7h/media/?size=m
+photo.4.author: rossifari
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: portrait, profile
 species: 1
 studbook.id: 1835
 uncertainty: location.2 date
