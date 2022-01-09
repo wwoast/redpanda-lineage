@@ -118,5 +118,13 @@ photo.21.author: otenba_redpanda
 photo.21.commitdate: 2022/1/6
 photo.21.link: https://www.instagram.com/otenba_redpanda/
 photo.21.tags: baby, mofumofu, peek, portrait
+photo.22: https://www.instagram.com/p/CWzS221BYdM/media/?size=m
+photo.22.author: alto0908
+photo.22.link: https://www.instagram.com/alto0908/
+photo.22.tags: baby, mofumofu, portrait, snow
+photo.23: https://www.instagram.com/p/CW0SwsfBv3Y/media/?size=m
+photo.23.author: redpan22
+photo.23.link: https://www.instagram.com/redpan22/
+photo.23.tags: baby, mofumofu, snow
 species: 2
 zoo: 10
