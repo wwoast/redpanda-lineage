@@ -737,15 +737,16 @@ photo.146.author: lesserpanda_shizuokacity_cp
 photo.146.commitdate: 2021/11/7
 photo.146.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.146.tags: apple time, close-up, smile
-photo.147: ig://otenba_redpanda/CXR7JgSBC2y/m
-photo.147.author: otenba_redpanda
-photo.147.commitdate: 2021/12/22
-photo.147.link: https://www.instagram.com/otenba_redpanda/
-photo.147.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.148: https://www.instagram.com/p/CWuRqFEFToF/media/?size=m
-photo.148.author: lesserpanda_shizuokacity_cp
-photo.148.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.148.tags: peek
+photo.147: ig://CWuRqFEFToF/m
+photo.147.author: lesserpanda_shizuokacity_cp
+photo.147.commitdate: 2022/1/9
+photo.147.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.147.tags: peek
+photo.148: ig://otenba_redpanda/CXR7JgSBC2y/m
+photo.148.author: otenba_redpanda
+photo.148.commitdate: 2021/12/22
+photo.148.link: https://www.instagram.com/otenba_redpanda/
+photo.148.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 1771
 zoo: 16

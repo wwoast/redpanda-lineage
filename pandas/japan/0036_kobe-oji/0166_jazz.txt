@@ -1234,15 +1234,16 @@ photo.245.author: panda.daisuki
 photo.245.commitdate: 2021/11/25
 photo.245.link: https://www.instagram.com/panda.daisuki/
 photo.245.tags: close-up, mofumofu, smile, whiskers
-photo.246: ig://CX13X2eBngK/m
-photo.246.author: ssc6105
-photo.246.commitdate: 2022/1/8
-photo.246.link: https://www.instagram.com/ssc6105/
-photo.246.tags: paws, peek, whiskers
-photo.247: https://www.instagram.com/p/CWxgR0xhX-t/media/?size=m
-photo.247.author: falcon_tenor
-photo.247.link: https://www.instagram.com/falcon_tenor/
-photo.247.tags: flowers, peek, whiskers
+photo.246: ig://CWxgR0xhX-t/m
+photo.246.author: falcon_tenor
+photo.246.commitdate: 2022/1/9
+photo.246.link: https://www.instagram.com/falcon_tenor/
+photo.246.tags: flowers, peek, whiskers
+photo.247: ig://CX13X2eBngK/m
+photo.247.author: ssc6105
+photo.247.commitdate: 2022/1/8
+photo.247.link: https://www.instagram.com/ssc6105/
+photo.247.tags: paws, peek, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

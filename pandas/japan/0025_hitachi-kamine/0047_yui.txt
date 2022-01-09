@@ -190,15 +190,16 @@ photo.36.author: craig_craig_craig
 photo.36.commitdate: 2021/10/7
 photo.36.link: https://www.instagram.com/craig_craig_craig/
 photo.36.tags: close-up, peek, portrait
-photo.37: ig://hamiiiii831_/CXQInuIP7RJ/m
-photo.37.author: hamiiiii831_
-photo.37.commitdate: 2021/12/30
-photo.37.link: https://www.instagram.com/hamiiiii831_/
-photo.37.tags: bridge, peek, tongue, whiskers
-photo.38: https://www.instagram.com/p/CW0XzbxBQuK/media/?size=m
-photo.38.author: takahisakaneuchi
-photo.38.link: https://www.instagram.com/takahisakaneuchi/
-photo.38.tags: portrait, whiskers
+photo.37: ig://CW0XzbxBQuK/m
+photo.37.author: takahisakaneuchi
+photo.37.commitdate: 2022/1/9
+photo.37.link: https://www.instagram.com/takahisakaneuchi/
+photo.37.tags: portrait, whiskers
+photo.38: ig://hamiiiii831_/CXQInuIP7RJ/m
+photo.38.author: hamiiiii831_
+photo.38.commitdate: 2021/12/30
+photo.38.link: https://www.instagram.com/hamiiiii831_/
+photo.38.tags: bridge, peek, tongue, whiskers
 species: 2
 studbook.id: 15142
 zoo: 25

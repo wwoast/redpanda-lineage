@@ -543,19 +543,20 @@ photo.106.author: bubbles_octi
 photo.106.commitdate: 2021/11/7
 photo.106.link: https://www.instagram.com/bubbles_octi/
 photo.106.tags: climb, peek, portrait, techitechi, whiskers
-photo.107: ig://CXJC1Rahh1i/m
-photo.107.author: redpanda_nippon_takashi
-photo.107.commitdate: 2021/12/22
-photo.107.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.107.tags: dish, paws, portrait, standing, tail
-photo.108: ig://CXS1yEsPyOB/m
-photo.108.author: apple_jasmine33
-photo.108.commitdate: 2021/12/19
-photo.108.link: https://www.instagram.com/apple_jasmine33/
-photo.108.tags: close-up, sample, whiskers, white face
-photo.109: https://www.instagram.com/p/CXGVx81BTBO/media/?size=m
-photo.109.author: jas_forever_love
-photo.109.link: https://www.instagram.com/jas_forever_love/
-photo.109.tags: close-up, grumpy, sample, whiskers, white face
+photo.107: ig://CXGVx81BTBO/m
+photo.107.author: jas_forever_love
+photo.107.commitdate: 2022/1/9
+photo.107.link: https://www.instagram.com/jas_forever_love/
+photo.107.tags: close-up, grumpy, sample, whiskers, white face
+photo.108: ig://CXJC1Rahh1i/m
+photo.108.author: redpanda_nippon_takashi
+photo.108.commitdate: 2021/12/22
+photo.108.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.108.tags: dish, paws, portrait, standing, tail
+photo.109: ig://CXS1yEsPyOB/m
+photo.109.author: apple_jasmine33
+photo.109.commitdate: 2021/12/19
+photo.109.link: https://www.instagram.com/apple_jasmine33/
+photo.109.tags: close-up, sample, whiskers, white face
 species: 2
 zoo: 61

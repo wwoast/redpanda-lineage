@@ -513,19 +513,21 @@ photo.101.author: ssc6105
 photo.101.commitdate: 2021/11/23
 photo.101.link: https://www.instagram.com/ssc6105/
 photo.101.tags: bamboo, laying down, paws, portrait, tail
-photo.102: ig://miis_98/CXLztlRFCOA/m
+photo.102: ig://CW0wmlXpTzi/m
 photo.102.author: miis_98
-photo.102.commitdate: 2021/12/30
+photo.102.commitdate: 2022/1/9
 photo.102.link: https://www.instagram.com/miis_98/
-photo.102.tags: laying down, mofumofu, portrait
-photo.103: https://www.instagram.com/p/CXw4ENZBFE3/media/?size=m
+photo.102.tags: apple time, autumn, bite, portrait
+photo.103: ig://miis_98/CXLztlRFCOA/m
 photo.103.author: miis_98
+photo.103.commitdate: 2021/12/30
 photo.103.link: https://www.instagram.com/miis_98/
-photo.103.tags: paws, portrait, whiskers
-photo.104: https://www.instagram.com/p/CW0wmlXpTzi/media/?size=m
+photo.103.tags: laying down, mofumofu, portrait
+photo.104: ig://CXw4ENZBFE3/m
 photo.104.author: miis_98
+photo.104.commitdate: 2022/1/9
 photo.104.link: https://www.instagram.com/miis_98/
-photo.104.tags: apple time, autumn, bite, portrait
+photo.104.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

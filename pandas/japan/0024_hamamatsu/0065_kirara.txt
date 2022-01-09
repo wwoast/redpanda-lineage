@@ -667,24 +667,26 @@ photo.132.author: gloryeui
 photo.132.commitdate: 2021/12/17
 photo.132.link: https://www.instagram.com/gloryeui/
 photo.132.tags: portrait, sample, smile, tongue, whiskers
-photo.133: ig://CXLrLfcFY2I/m
+photo.133: ig://CWvSM65Fyu9/m
 photo.133.author: gloryeui
-photo.133.commitdate: 2021/12/30
+photo.133.commitdate: 2022/1/9
 photo.133.link: https://www.instagram.com/gloryeui/
-photo.133.tags: bridge, paws, portrait, smile, tongue, whiskers
-photo.134: ig://taka__3428/CYUn4Y_BLMJ/m
-photo.134.author: taka__3428
-photo.134.commitdate: 2022/1/6
-photo.134.link: https://www.instagram.com/taka__3428/
-photo.134.tags: close-up, whiskers
-photo.135: https://www.instagram.com/p/CWvSM65Fyu9/media/?size=m
+photo.133.tags: lunch time, paws, peek, portrait
+photo.134: ig://CWx0kehB59d/m
+photo.134.author: hamamatsu.chiita
+photo.134.commitdate: 2022/1/9
+photo.134.link: https://www.instagram.com/hamamatsu.chiita/
+photo.134.tags: paws, portrait, whiskers
+photo.135: ig://CXLrLfcFY2I/m
 photo.135.author: gloryeui
+photo.135.commitdate: 2021/12/30
 photo.135.link: https://www.instagram.com/gloryeui/
-photo.135.tags: lunch time, paws, peek, portrait
-photo.136: https://www.instagram.com/p/CWx0kehB59d/media/?size=m
-photo.136.author: hamamatsu.chiita
-photo.136.link: https://www.instagram.com/hamamatsu.chiita/
-photo.136.tags: paws, portrait, whiskers
+photo.135.tags: bridge, paws, portrait, smile, tongue, whiskers
+photo.136: ig://taka__3428/CYUn4Y_BLMJ/m
+photo.136.author: taka__3428
+photo.136.commitdate: 2022/1/6
+photo.136.link: https://www.instagram.com/taka__3428/
+photo.136.tags: close-up, whiskers
 species: 2
 studbook.id: 14135
 zoo: 24

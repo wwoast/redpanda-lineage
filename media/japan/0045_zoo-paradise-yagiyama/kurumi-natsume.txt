@@ -16,8 +16,9 @@ photo.2.link: https://www.instagram.com/alto0908/
 photo.2.tags: home, mother's day
 photo.2.tags.160.location: 615, 385
 photo.2.tags.245.location: 375, 565
-photo.3: https://www.instagram.com/p/CIGJeugB9Cq/media/?size=l
+photo.3: ig://CIGJeugB9Cq/l
 photo.3.author: mini_cochi
+photo.3.commitdate: 2022/1/9
 photo.3.link: https://www.instagram.com/mini_cochi/
 photo.3.tags: bamboo, home, laying down, mother's day, paws, portrait, techitechi
 photo.3.tags.160.location: 220, 310

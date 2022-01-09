@@ -770,40 +770,41 @@ photo.152.author: pink.b22
 photo.152.commitdate: 2022/1/8
 photo.152.link: https://www.instagram.com/pink.b22/
 photo.152.tags: autumn, paws, portrait, tree
-photo.153: ig://CWwZvLmh0fy/m
-photo.153.author: pink.b22
-photo.153.commitdate: 2022/1/8
-photo.153.link: https://www.instagram.com/pink.b22/
-photo.153.tags: dish, laying down, paws, portrait
-photo.154: ig://ifumoto88/CXVxJc9BThH/m
-photo.154.author: ifumoto88
-photo.154.commitdate: 2021/12/26
-photo.154.link: https://www.instagram.com/ifumoto88/
-photo.154.tags: close-up, laying down, mofumofu
-photo.155: ig://CXiddevBuEx/m
-photo.155.author: otenba_redpanda
-photo.155.commitdate: 2021/12/22
-photo.155.link: https://www.instagram.com/otenba_redpanda/
-photo.155.tags: mofumofu, paws, portrait, sample, whiskers
-photo.156: ig://CXqXIQpPT7j/m
-photo.156.author: jas_forever_love
-photo.156.commitdate: 2021/12/29
-photo.156.link: https://www.instagram.com/jas_forever_love/
-photo.156.tags: mofumofu, paws
-photo.157: ig://CX54ksUPwJI/m
-photo.157.author: na.mo.pan
-photo.157.commitdate: 2022/1/8
-photo.157.link: https://www.instagram.com/na.mo.pan/
-photo.157.tags: paws, tail, tree
-photo.158: ig://na.mo.pan/CX8mVNiPOLh/m
+photo.153: ig://CWvSsqOBqmp/m
+photo.153.author: ifumoto88
+photo.153.commitdate: 2022/1/9
+photo.153.link: https://www.instagram.com/ifumoto88/
+photo.153.tags: autumn, portrait, tongue
+photo.154: ig://CWwZvLmh0fy/m
+photo.154.author: pink.b22
+photo.154.commitdate: 2022/1/8
+photo.154.link: https://www.instagram.com/pink.b22/
+photo.154.tags: dish, laying down, paws, portrait
+photo.155: ig://ifumoto88/CXVxJc9BThH/m
+photo.155.author: ifumoto88
+photo.155.commitdate: 2021/12/26
+photo.155.link: https://www.instagram.com/ifumoto88/
+photo.155.tags: close-up, laying down, mofumofu
+photo.156: ig://CXiddevBuEx/m
+photo.156.author: otenba_redpanda
+photo.156.commitdate: 2021/12/22
+photo.156.link: https://www.instagram.com/otenba_redpanda/
+photo.156.tags: mofumofu, paws, portrait, sample, whiskers
+photo.157: ig://CXqXIQpPT7j/m
+photo.157.author: jas_forever_love
+photo.157.commitdate: 2021/12/29
+photo.157.link: https://www.instagram.com/jas_forever_love/
+photo.157.tags: mofumofu, paws
+photo.158: ig://CX54ksUPwJI/m
 photo.158.author: na.mo.pan
 photo.158.commitdate: 2022/1/8
 photo.158.link: https://www.instagram.com/na.mo.pan/
-photo.158.tags: laying down, mofumofu, portrait, whiskers
-photo.159: https://www.instagram.com/p/CWvSsqOBqmp/media/?size=m
-photo.159.author: ifumoto88
-photo.159.link: https://www.instagram.com/ifumoto88/
-photo.159.tags: autumn, portrait, tongue
+photo.158.tags: paws, tail, tree
+photo.159: ig://na.mo.pan/CX8mVNiPOLh/m
+photo.159.author: na.mo.pan
+photo.159.commitdate: 2022/1/8
+photo.159.link: https://www.instagram.com/na.mo.pan/
+photo.159.tags: laying down, mofumofu, portrait, whiskers
 species: 2
 studbook.id: 0872
 zoo: 1

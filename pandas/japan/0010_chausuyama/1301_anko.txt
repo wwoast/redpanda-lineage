@@ -73,58 +73,60 @@ photo.12.author: otenba_redpanda
 photo.12.commitdate: 2021/11/21
 photo.12.link: https://www.instagram.com/otenba_redpanda/
 photo.12.tags: baby, mofumofu, portrait, tail
-photo.13: ig://CXJM1djBGsJ/m
-photo.13.author: resapan.suki
-photo.13.commitdate: 2021/12/30
-photo.13.link: https://www.instagram.com/resapan.suki/
-photo.13.tags: baby, mofumofu, paws, portrait, smile, tail
-photo.14: ig://CXKKGf1BTRP/m
-photo.14.author: otenba_redpanda
-photo.14.commitdate: 2021/12/30
-photo.14.link: https://www.instagram.com/otenba_redpanda/
-photo.14.tags: baby, mofumofu, portrait, whiskers
-photo.15: ig://ck.chie/CXLcINGBbVR/m
-photo.15.author: ck.chie
-photo.15.commitdate: 2021/12/29
-photo.15.link: https://www.instagram.com/ck.chie/
-photo.15.tags: baby, portrait, sample, snow, tail
-photo.16: ig://CXMrvl4DLQO/m
+photo.13: ig://CWzS221BYdM/m
+photo.13.author: alto0908
+photo.13.commitdate: 2022/1/9
+photo.13.link: https://www.instagram.com/alto0908/
+photo.13.tags: baby, mofumofu, portrait, snow
+photo.14: ig://CW0SwsfBv3Y/m
+photo.14.author: redpan22
+photo.14.commitdate: 2022/1/9
+photo.14.link: https://www.instagram.com/redpan22/
+photo.14.tags: baby, mofumofu, snow
+photo.15: ig://CXJM1djBGsJ/m
+photo.15.author: resapan.suki
+photo.15.commitdate: 2021/12/30
+photo.15.link: https://www.instagram.com/resapan.suki/
+photo.15.tags: baby, mofumofu, paws, portrait, smile, tail
+photo.16: ig://CXKKGf1BTRP/m
 photo.16.author: otenba_redpanda
-photo.16.commitdate: 2021/12/29
+photo.16.commitdate: 2021/12/30
 photo.16.link: https://www.instagram.com/otenba_redpanda/
-photo.16.tags: baby, bamboo, paws, portrait, sample, standing, tail
-photo.17: ig://CXlajN9PD9C/m
-photo.17.author: alto0908
-photo.17.commitdate: 2021/12/19
-photo.17.link: https://www.instagram.com/alto0908/
-photo.17.tags: baby, laying down, mofumofu, portrait, sample
-photo.18: ig://CXro9CkBX2B/m
+photo.16.tags: baby, mofumofu, portrait, whiskers
+photo.17: ig://ck.chie/CXLcINGBbVR/m
+photo.17.author: ck.chie
+photo.17.commitdate: 2021/12/29
+photo.17.link: https://www.instagram.com/ck.chie/
+photo.17.tags: baby, portrait, sample, snow, tail
+photo.18: ig://CXMrvl4DLQO/m
 photo.18.author: otenba_redpanda
-photo.18.commitdate: 2022/1/4
+photo.18.commitdate: 2021/12/29
 photo.18.link: https://www.instagram.com/otenba_redpanda/
-photo.18.tags: baby, close-up, mofumofu, portrait, sample
-photo.19: ig://CX08_SDPV8Y/m
+photo.18.tags: baby, bamboo, paws, portrait, sample, standing, tail
+photo.19: ig://CXlajN9PD9C/m
 photo.19.author: alto0908
-photo.19.commitdate: 2022/1/6
+photo.19.commitdate: 2021/12/19
 photo.19.link: https://www.instagram.com/alto0908/
-photo.19.tags: baby, bamboo, mofumofu, portrait, smile, tail, tongue
-photo.20: ig://CX1CQyiPlfv/m
-photo.20.author: resapan.suki
-photo.20.commitdate: 2022/1/6
-photo.20.link: https://www.instagram.com/resapan.suki/
-photo.20.tags: baby, laying down, mofumofu, portrait, whiskers
-photo.21: ig://CYF1VK-FgGH/m
-photo.21.author: otenba_redpanda
+photo.19.tags: baby, laying down, mofumofu, portrait, sample
+photo.20: ig://CXro9CkBX2B/m
+photo.20.author: otenba_redpanda
+photo.20.commitdate: 2022/1/4
+photo.20.link: https://www.instagram.com/otenba_redpanda/
+photo.20.tags: baby, close-up, mofumofu, portrait, sample
+photo.21: ig://CX08_SDPV8Y/m
+photo.21.author: alto0908
 photo.21.commitdate: 2022/1/6
-photo.21.link: https://www.instagram.com/otenba_redpanda/
-photo.21.tags: baby, mofumofu, peek, portrait
-photo.22: https://www.instagram.com/p/CWzS221BYdM/media/?size=m
-photo.22.author: alto0908
-photo.22.link: https://www.instagram.com/alto0908/
-photo.22.tags: baby, mofumofu, portrait, snow
-photo.23: https://www.instagram.com/p/CW0SwsfBv3Y/media/?size=m
-photo.23.author: redpan22
-photo.23.link: https://www.instagram.com/redpan22/
-photo.23.tags: baby, mofumofu, snow
+photo.21.link: https://www.instagram.com/alto0908/
+photo.21.tags: baby, bamboo, mofumofu, portrait, smile, tail, tongue
+photo.22: ig://CX1CQyiPlfv/m
+photo.22.author: resapan.suki
+photo.22.commitdate: 2022/1/6
+photo.22.link: https://www.instagram.com/resapan.suki/
+photo.22.tags: baby, laying down, mofumofu, portrait, whiskers
+photo.23: ig://CYF1VK-FgGH/m
+photo.23.author: otenba_redpanda
+photo.23.commitdate: 2022/1/6
+photo.23.link: https://www.instagram.com/otenba_redpanda/
+photo.23.tags: baby, mofumofu, peek, portrait
 species: 2
 zoo: 10

@@ -58,14 +58,15 @@ photo.9.author: daniele.tokyo
 photo.9.commitdate: 2022/1/7
 photo.9.link: https://www.instagram.com/daniele.tokyo/
 photo.9.tags: baby, close-up, whiskers
-photo.10: ig://CXhelR9hMeX/m
-photo.10.author: miis_98
-photo.10.commitdate: 2021/12/22
-photo.10.link: https://www.instagram.com/miis_98/
-photo.10.tags: baby, mofumofu, portrait, whiskers
-photo.11: https://www.instagram.com/p/CXGekGMhzpE/media/?size=m
-photo.11.author: rie_panda55
-photo.11.link: https://www.instagram.com/rie_panda55/
-photo.11.tags: baby, mofumofu, portrait
+photo.10: ig://CXGekGMhzpE/m
+photo.10.author: rie_panda55
+photo.10.commitdate: 2022/1/9
+photo.10.link: https://www.instagram.com/rie_panda55/
+photo.10.tags: baby, mofumofu, portrait
+photo.11: ig://CXhelR9hMeX/m
+photo.11.author: miis_98
+photo.11.commitdate: 2021/12/22
+photo.11.link: https://www.instagram.com/miis_98/
+photo.11.tags: baby, mofumofu, portrait, whiskers
 species: 2
 zoo: 64
