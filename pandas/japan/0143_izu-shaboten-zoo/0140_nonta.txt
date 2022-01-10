@@ -441,20 +441,21 @@ photo.85.author: fetorus_mami
 photo.85.commitdate: 2021/11/29
 photo.85.link: https://www.instagram.com/fetorus_mami/
 photo.85.tags: apple time, close-up, mofumofu, paws, whiskers
-photo.86: ig://pink.b22/CXKHYSTBK3a/m
-photo.86.author: pink.b22
-photo.86.commitdate: 2021/12/30
-photo.86.link: https://www.instagram.com/pink.b22/
-photo.86.tags: grooming, laying down, mofumofu, paws, portrait, videolink
-photo.87: ig://CX0gblIP2Zl/m
-photo.87.author: otenba_redpanda
-photo.87.commitdate: 2022/1/6
-photo.87.link: https://www.instagram.com/otenba_redpanda/
-photo.87.tags: bamboo, mofumofu, portrait, tongue, whiskers
-photo.88: https://www.instagram.com/p/CXC7_nPFJbm/media/?size=m
+photo.86: ig://CXC7_nPFJbm/m
+photo.86.author: otenba_redpanda
+photo.86.commitdate: 2022/1/9
+photo.86.link: https://www.instagram.com/otenba_redpanda/
+photo.86.tags: mofumofu, portrait, smile, tongue
+photo.87: ig://pink.b22/CXKHYSTBK3a/m
+photo.87.author: pink.b22
+photo.87.commitdate: 2021/12/30
+photo.87.link: https://www.instagram.com/pink.b22/
+photo.87.tags: grooming, laying down, mofumofu, paws, portrait, videolink
+photo.88: ig://CX0gblIP2Zl/m
 photo.88.author: otenba_redpanda
+photo.88.commitdate: 2022/1/6
 photo.88.link: https://www.instagram.com/otenba_redpanda/
-photo.88.tags: mofumofu, portrait, smile, tongue
+photo.88.tags: bamboo, mofumofu, portrait, tongue, whiskers
 species: 2
 studbook.id: 12102
 zoo: 143

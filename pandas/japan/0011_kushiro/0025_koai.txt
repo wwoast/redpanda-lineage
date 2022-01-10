@@ -379,19 +379,21 @@ photo.74.author: minatomirai215
 photo.74.commitdate: 2021/10/27
 photo.74.link: https://www.instagram.com/minatomirai215/
 photo.74.tags: portrait, whiskers
-photo.75: ig://CXBHOeZBM52/m
-photo.75.author: daniele.tokyo
-photo.75.commitdate: 2021/12/19
-photo.75.link: https://www.instagram.com/daniele.tokyo/
-photo.75.tags: close-up, paws, whiskers
-photo.76: https://www.instagram.com/p/CXGUlfAFD4t/media/?size=m
-photo.76.author: sasapan34
-photo.76.link: https://www.instagram.com/sasapan34/
-photo.76.tags: sample, whiskers
-photo.77: https://www.instagram.com/p/CWiP_UfhKMT/media/?size=m
+photo.75: ig://CWiP_UfhKMT/m
+photo.75.author: sasapan34
+photo.75.commitdate: 2022/1/9
+photo.75.link: https://www.instagram.com/sasapan34/
+photo.75.tags: close-up, lips, sample, whiskers
+photo.76: ig://CXBHOeZBM52/m
+photo.76.author: daniele.tokyo
+photo.76.commitdate: 2021/12/19
+photo.76.link: https://www.instagram.com/daniele.tokyo/
+photo.76.tags: close-up, paws, whiskers
+photo.77: ig://CXGUlfAFD4t/m
 photo.77.author: sasapan34
+photo.77.commitdate: 2022/1/9
 photo.77.link: https://www.instagram.com/sasapan34/
-photo.77.tags: close-up, lips, sample, whiskers
+photo.77.tags: sample, whiskers
 species: 2
 studbook.id: 0458
 zoo: 11

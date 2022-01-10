@@ -368,15 +368,16 @@ photo.71.author: taka__3428
 photo.71.commitdate: 2022/1/7
 photo.71.link: https://www.instagram.com/taka__3428/
 photo.71.tags: blink, itchy, paws, tongue
-photo.72: ig://CW9w-_xhpu2/m
-photo.72.author: otenba_redpanda
-photo.72.commitdate: 2022/1/7
-photo.72.link: https://www.instagram.com/otenba_redpanda/
-photo.72.tags: bamboo, portrait, sample, whiskers
-photo.73: https://www.instagram.com/p/CW4Nrl5hdd8/media/?size=m
-photo.73.author: miis_98
-photo.73.link: https://www.instagram.com/miis_98/
-photo.73.tags: paws, portrait, sample, whiskers
+photo.72: ig://CW4Nrl5hdd8/m
+photo.72.author: miis_98
+photo.72.commitdate: 2022/1/9
+photo.72.link: https://www.instagram.com/miis_98/
+photo.72.tags: paws, portrait, sample, whiskers
+photo.73: ig://CW9w-_xhpu2/m
+photo.73.author: otenba_redpanda
+photo.73.commitdate: 2022/1/7
+photo.73.link: https://www.instagram.com/otenba_redpanda/
+photo.73.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

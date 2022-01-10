@@ -417,15 +417,16 @@ photo.81.author: ifumoto88
 photo.81.commitdate: 2021/9/18
 photo.81.link: https://www.instagram.com/ifumoto88/
 photo.81.tags: apple time, paws, portrait, smile
-photo.82: ig://CXOl6m6hFH2/m
-photo.82.author: minatomirai215
-photo.82.commitdate: 2022/1/7
-photo.82.link: https://www.instagram.com/minatomirai215/
-photo.82.tags: mofumofu, peek, portrait
-photo.83: https://www.instagram.com/p/CW8NtUdFlEM/media/?size=m
-photo.83.author: fetorus_mami
-photo.83.link: https://www.instagram.com/fetorus_mami/
-photo.83.tags: close-up, grooming, mofumofu, paws, tongue
+photo.82: ig://CW8NtUdFlEM/m
+photo.82.author: fetorus_mami
+photo.82.commitdate: 2022/1/9
+photo.82.link: https://www.instagram.com/fetorus_mami/
+photo.82.tags: close-up, grooming, mofumofu, paws, tongue
+photo.83: ig://CXOl6m6hFH2/m
+photo.83.author: minatomirai215
+photo.83.commitdate: 2022/1/7
+photo.83.link: https://www.instagram.com/minatomirai215/
+photo.83.tags: mofumofu, peek, portrait
 species: 2
 studbook.id: unknown
 zoo: 26

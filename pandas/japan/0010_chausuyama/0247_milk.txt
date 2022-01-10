@@ -1357,20 +1357,21 @@ photo.269.author: hidehaya_biei
 photo.269.commitdate: 2021/11/11
 photo.269.link: https://www.instagram.com/hidehaya_biei/
 photo.269.tags: bamboo, close-up, mofumofu, portrait, smile
-photo.270: ig://CXPxfQ3h3J9/m
-photo.270.author: otenba_redpanda
-photo.270.commitdate: 2021/12/30
-photo.270.link: https://www.instagram.com/otenba_redpanda/
-photo.270.tags: portrait, sample, whiskers
-photo.271: ig://CYEh5HOP4NM/m
-photo.271.author: minatomirai215
-photo.271.commitdate: 2022/1/6
-photo.271.link: https://www.instagram.com/minatomirai215/
-photo.271.tags: bamboo, paws, standing, techitechi
-photo.272: https://www.instagram.com/p/CW8fVyhhbsm/media/?size=m
-photo.272.author: na.mo.pan
-photo.272.link: https://www.instagram.com/na.mo.pan/
-photo.272.tags: dish, portrait
+photo.270: ig://CW8fVyhhbsm/m
+photo.270.author: na.mo.pan
+photo.270.commitdate: 2022/1/9
+photo.270.link: https://www.instagram.com/na.mo.pan/
+photo.270.tags: dish, portrait
+photo.271: ig://CXPxfQ3h3J9/m
+photo.271.author: otenba_redpanda
+photo.271.commitdate: 2021/12/30
+photo.271.link: https://www.instagram.com/otenba_redpanda/
+photo.271.tags: portrait, sample, whiskers
+photo.272: ig://CYEh5HOP4NM/m
+photo.272.author: minatomirai215
+photo.272.commitdate: 2022/1/6
+photo.272.link: https://www.instagram.com/minatomirai215/
+photo.272.tags: bamboo, paws, standing, techitechi
 species: 2
 studbook.id: unknown
 zoo: 10

@@ -529,8 +529,9 @@ photo.103.author: eos1089
 photo.103.commitdate: 2021/11/21
 photo.103.link: https://www.instagram.com/eos1089/
 photo.103.tags: portrait, smile, whiskers
-photo.104: https://www.instagram.com/p/CW4JrMJBO7R/media/?size=m
+photo.104: ig://CW4JrMJBO7R/m
 photo.104.author: otenba_redpanda
+photo.104.commitdate: 2022/1/9
 photo.104.link: https://www.instagram.com/otenba_redpanda/
 photo.104.tags: mofumofu, portrait, sample, whiskers
 species: 2

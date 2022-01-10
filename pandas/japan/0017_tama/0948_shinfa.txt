@@ -648,14 +648,15 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2021/11/23
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: portrait, smile, whiskers
-photo.128: ig://CXlRrxfPsjv/m
-photo.128.author: miis_98
-photo.128.commitdate: 2021/12/19
-photo.128.link: https://www.instagram.com/miis_98/
-photo.128.tags: paws, portrait, sample, tree
-photo.129: https://www.instagram.com/p/CXD00dhhXxL/media/?size=m
-photo.129.author: redpan22
-photo.129.link: https://www.instagram.com/redpan22/
-photo.129.tags: paws, peek, tree
+photo.128: ig://CXD00dhhXxL/m
+photo.128.author: redpan22
+photo.128.commitdate: 2022/1/9
+photo.128.link: https://www.instagram.com/redpan22/
+photo.128.tags: paws, peek, tree
+photo.129: ig://CXlRrxfPsjv/m
+photo.129.author: miis_98
+photo.129.commitdate: 2021/12/19
+photo.129.link: https://www.instagram.com/miis_98/
+photo.129.tags: paws, portrait, sample, tree
 species: 2
 zoo: 17

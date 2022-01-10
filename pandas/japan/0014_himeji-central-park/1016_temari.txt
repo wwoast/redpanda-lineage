@@ -832,8 +832,9 @@ photo.164.author: colette.jp
 photo.164.commitdate: 2021/11/29
 photo.164.link: https://www.instagram.com/colette.jp/
 photo.164.tags: portrait, smile, tongue, whiskers
-photo.165: https://www.instagram.com/p/CXBKuRwhsd_/media/?size=m
+photo.165: ig://CXBKuRwhsd_/m
 photo.165.author: colette.jp
+photo.165.commitdate: 2022/1/9
 photo.165.link: https://www.instagram.com/colette.jp/
 photo.165.tags: laying down, paws, playing, portrait, tail
 species: 2

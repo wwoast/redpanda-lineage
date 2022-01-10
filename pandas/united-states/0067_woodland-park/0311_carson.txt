@@ -945,15 +945,16 @@ photo.186.author: carsontheredpanda
 photo.186.commitdate: 2021/12/6
 photo.186.link: https://www.instagram.com/carsontheredpanda/
 photo.186.tags: autumn, portrait, pumpkin, white face
-photo.187: ig://CYTgrxngPlE/m
-photo.187.author: rossifari
-photo.187.commitdate: 2022/1/7
-photo.187.link: https://www.instagram.com/rossifari/
-photo.187.tags: laying down, portrait, sample, tail, tongue, whiskers
-photo.188: https://www.instagram.com/p/CW2ML5oLYFW/media/?size=m
-photo.188.author: carsontheredpanda
-photo.188.link: https://www.instagram.com/carsontheredpanda/
-photo.188.tags: paws, peek, portrait, smile, whiskers
+photo.187: ig://CW2ML5oLYFW/m
+photo.187.author: carsontheredpanda
+photo.187.commitdate: 2022/1/9
+photo.187.link: https://www.instagram.com/carsontheredpanda/
+photo.187.tags: paws, peek, portrait, smile, whiskers
+photo.188: ig://CYTgrxngPlE/m
+photo.188.author: rossifari
+photo.188.commitdate: 2022/1/7
+photo.188.link: https://www.instagram.com/rossifari/
+photo.188.tags: laying down, portrait, sample, tail, tongue, whiskers
 species: 1
 studbook.id: 1440
 zoo: 67

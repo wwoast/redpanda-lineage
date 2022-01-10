@@ -155,8 +155,9 @@ photo.28.author: sedgwickcountyzoo
 photo.28.commitdate: 2021/12/18
 photo.28.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.28.tags: close-up, peek, portrait, whiskers
-photo.29: https://www.instagram.com/p/CXB43QIL_Av/media/?size=m
+photo.29: ig://CXB43QIL_Av/m
 photo.29.author: sedgwickcountyzoo
+photo.29.commitdate: 2022/1/9
 photo.29.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.29.tags: close-up, paws, portrait, whiskers
 species: 1

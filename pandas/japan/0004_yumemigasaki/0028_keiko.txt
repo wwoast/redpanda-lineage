@@ -443,15 +443,16 @@ photo.87.author: eos1089
 photo.87.commitdate: 2021/10/17
 photo.87.link: https://www.instagram.com/eos1089/
 photo.87.tags: portrait, spider
-photo.88: ig://CYETwnSLAtz/m
-photo.88.author: mini_cochi
-photo.88.commitdate: 2022/1/6
-photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: bamboo, portrait, tongue
-photo.89: https://www.instagram.com/p/CW7arjIBYsJ/media/?size=m
-photo.89.author: miis_98
-photo.89.link: https://www.instagram.com/miis_98/
-photo.89.tags: bamboo, mofumofu, portrait, smile, tongue, whiskers
+photo.88: ig://CW7arjIBYsJ/m
+photo.88.author: miis_98
+photo.88.commitdate: 2022/1/9
+photo.88.link: https://www.instagram.com/miis_98/
+photo.88.tags: bamboo, mofumofu, portrait, smile, tongue, whiskers
+photo.89: ig://CYETwnSLAtz/m
+photo.89.author: mini_cochi
+photo.89.commitdate: 2022/1/6
+photo.89.link: https://www.instagram.com/mini_cochi/
+photo.89.tags: bamboo, portrait, tongue
 species: 2
 studbook.id: 15128
 zoo: 4
