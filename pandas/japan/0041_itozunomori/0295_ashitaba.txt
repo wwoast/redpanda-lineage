@@ -273,22 +273,24 @@ photo.52.author: makimaru18
 photo.52.commitdate: 2022/1/7
 photo.52.link: https://www.instagram.com/makimaru18/
 photo.52.tags: paws, portrait, toys, videolink
-photo.53: ig://CXnbIOlLhBq/m
-photo.53.author: itozu_zoo
-photo.53.commitdate: 2021/12/20
-photo.53.link: https://www.instagram.com/itozu_zoo/
-photo.53.tags: lunch time, paws, portrait, sample, standing, tail, whiskers
-photo.54: ig://CX7vWncLAEC/m
+photo.53: ig://CXBJRIAluCM/m
+photo.53.author: yossi929
+photo.53.commitdate: 2022/1/10
+photo.53.link: https://www.instagram.com/yossi929/
+photo.53.tags: laying down, mofumofu, peek, smile, tree
+photo.54: ig://CXnbIOlLhBq/m
 photo.54.author: itozu_zoo
-photo.54.commitdate: 2022/1/8
+photo.54.commitdate: 2021/12/20
 photo.54.link: https://www.instagram.com/itozu_zoo/
-photo.54.tags: laying down, paws, portrait, sleeping
-photo.55: https://www.instagram.com/p/CXBJRIAluCM/media/?size=m
-photo.55.author: yossi929
-photo.55.link: https://www.instagram.com/yossi929/
-photo.55.tags: laying down, mofumofu, peek, smile, tree
-photo.56: https://www.instagram.com/p/CYRV50Alrtv/media/?size=m
+photo.54.tags: lunch time, paws, portrait, sample, standing, tail, whiskers
+photo.55: ig://CX7vWncLAEC/m
+photo.55.author: itozu_zoo
+photo.55.commitdate: 2022/1/8
+photo.55.link: https://www.instagram.com/itozu_zoo/
+photo.55.tags: laying down, paws, portrait, sleeping
+photo.56: ig://CYRV50Alrtv/m
 photo.56.author: yossi929
+photo.56.commitdate: 2022/1/10
 photo.56.link: https://www.instagram.com/yossi929/
 photo.56.tags: apple time, nose, snow
 species: 2

@@ -180,15 +180,16 @@ photo.33.author: taka__3428
 photo.33.commitdate: 2021/11/29
 photo.33.link: https://www.instagram.com/taka__3428/
 photo.33.tags: bamboo
-photo.34: ig://CXmyGFBv7aO/m
-photo.34.author: pantasanzoo1
-photo.34.commitdate: 2021/12/19
-photo.34.link: https://www.instagram.com/pantasanzoo1/
-photo.34.tags: paws, wave
-photo.35: https://www.instagram.com/p/CW73AgfhzBD/media/?size=m
-photo.35.author: otenba_redpanda
-photo.35.link: https://www.instagram.com/otenba_redpanda/
-photo.35.tags: bamboo, bite, portrait, sample, smile, whiskers
+photo.34: ig://CW73AgfhzBD/m
+photo.34.author: otenba_redpanda
+photo.34.commitdate: 2022/1/10
+photo.34.link: https://www.instagram.com/otenba_redpanda/
+photo.34.tags: bamboo, bite, portrait, sample, smile, whiskers
+photo.35: ig://CXmyGFBv7aO/m
+photo.35.author: pantasanzoo1
+photo.35.commitdate: 2021/12/19
+photo.35.link: https://www.instagram.com/pantasanzoo1/
+photo.35.tags: paws, wave
 species: 2
 studbook.id: 1220
 zoo: 16

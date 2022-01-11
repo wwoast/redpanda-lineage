@@ -360,38 +360,41 @@ photo.69.author: hidehaya_biei
 photo.69.commitdate: 2021/11/11
 photo.69.link: https://www.instagram.com/hidehaya_biei/
 photo.69.tags: paws, smile, wave, whiskers
-photo.70: ig://CXgDjvjBkQu/m
-photo.70.author: jas_forever_love
-photo.70.commitdate: 2021/12/20
-photo.70.link: https://www.instagram.com/jas_forever_love/
-photo.70.tags: portrait, profile, sample, tree
-photo.71: ig://CXnrRftvuSC/m
-photo.71.author: imagoto17
-photo.71.commitdate: 2021/12/19
-photo.71.link: https://www.instagram.com/imagoto17/
-photo.71.tags: paws, portrait, sample, smile
-photo.72: ig://CXpHOyyBwWl/m
-photo.72.author: ssc6105
+photo.70: ig://CW5bOyXlt2V/m
+photo.70.author: chankunvv
+photo.70.commitdate: 2022/1/10
+photo.70.link: https://www.instagram.com/chankunvv/
+photo.70.tags: nose, portrait, window
+photo.71: ig://CXgDjvjBkQu/m
+photo.71.author: jas_forever_love
+photo.71.commitdate: 2021/12/20
+photo.71.link: https://www.instagram.com/jas_forever_love/
+photo.71.tags: portrait, profile, sample, tree
+photo.72: ig://CXnrRftvuSC/m
+photo.72.author: imagoto17
 photo.72.commitdate: 2021/12/19
-photo.72.link: https://www.instagram.com/ssc6105/
-photo.72.tags: climb, paws, sample, smile, tail
-photo.73: ig://CYD6CIlPSVa/m
-photo.73.author: makimaru18
-photo.73.commitdate: 2022/1/6
-photo.73.link: https://www.instagram.com/makimaru18/
-photo.73.tags: apple time, lips, paws, portrait, sample, whiskers
-photo.74: https://www.instagram.com/p/CW5bOyXlt2V/media/?size=m
-photo.74.author: chankunvv
-photo.74.link: https://www.instagram.com/chankunvv/
-photo.74.tags: nose, portrait, window
-photo.75: https://www.instagram.com/p/CYDBOyah4Pk/media/?size=m
+photo.72.link: https://www.instagram.com/imagoto17/
+photo.72.tags: paws, portrait, sample, smile
+photo.73: ig://CXpHOyyBwWl/m
+photo.73.author: ssc6105
+photo.73.commitdate: 2021/12/19
+photo.73.link: https://www.instagram.com/ssc6105/
+photo.73.tags: climb, paws, sample, smile, tail
+photo.74: ig://CXuIs0QhrCN/m
+photo.74.author: ssc6105
+photo.74.commitdate: 2022/1/10
+photo.74.link: https://www.instagram.com/ssc6105/
+photo.74.tags: paws, sample, techitechi, whiskers
+photo.75: ig://CYDBOyah4Pk/m
 photo.75.author: apple_jasmine33
+photo.75.commitdate: 2022/1/10
 photo.75.link: https://www.instagram.com/apple_jasmine33/
 photo.75.tags: mofumofu, paws, smile
-photo.76: https://www.instagram.com/p/CXuIs0QhrCN/media/?size=m
-photo.76.author: ssc6105
-photo.76.link: https://www.instagram.com/ssc6105/
-photo.76.tags: paws, sample, techitechi, whiskers
+photo.76: ig://CYD6CIlPSVa/m
+photo.76.author: makimaru18
+photo.76.commitdate: 2022/1/6
+photo.76.link: https://www.instagram.com/makimaru18/
+photo.76.tags: apple time, lips, paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

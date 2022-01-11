@@ -356,8 +356,9 @@ photo.68.author: tomo3700
 photo.68.commitdate: 2021/11/21
 photo.68.link: https://www.instagram.com/tomo3700/
 photo.68.tags: dish, lunch time, paws, portrait, smile
-photo.69: https://www.instagram.com/p/CXIusXzBy3w/media/?size=m
+photo.69: ig://CXIusXzBy3w/m
 photo.69.author: minato.yokohama2130
+photo.69.commitdate: 2022/1/10
 photo.69.link: https://www.instagram.com/minato.yokohama0233/
 photo.69.tags: paws, portrait, videolink, whiskers
 species: 2

@@ -399,20 +399,21 @@ photo.77.author: otenba_redpanda
 photo.77.commitdate: 2021/12/17
 photo.77.link: https://www.instagram.com/otenba_redpanda/
 photo.77.tags: bear worm, laying down, mofumofu, sample
-photo.78: ig://CXVSg07r3MN/m
-photo.78.author: shigeko0531
-photo.78.commitdate: 2021/12/26
-photo.78.link: https://www.instagram.com/shigeko0531/
-photo.78.tags: dish, itchy, paws, portrait
-photo.79: ig://CX07pH6rZ_v/m
-photo.79.author: mini_cochi
-photo.79.commitdate: 2022/1/8
-photo.79.link: https://www.instagram.com/mini_cochi/
-photo.79.tags: bamboo, paws, portrait, smile, tongue
-photo.80: https://www.instagram.com/p/CW6sTaNPHnk/media/?size=m
-photo.80.author: tomo3700
-photo.80.link: https://www.instagram.com/tomo3700/
-photo.80.tags: bamboo, paws, portrait, sample, tail
+photo.78: ig://CW6sTaNPHnk/m
+photo.78.author: tomo3700
+photo.78.commitdate: 2022/1/10
+photo.78.link: https://www.instagram.com/tomo3700/
+photo.78.tags: bamboo, paws, portrait, sample, tail
+photo.79: ig://CXVSg07r3MN/m
+photo.79.author: shigeko0531
+photo.79.commitdate: 2021/12/26
+photo.79.link: https://www.instagram.com/shigeko0531/
+photo.79.tags: dish, itchy, paws, portrait
+photo.80: ig://CX07pH6rZ_v/m
+photo.80.author: mini_cochi
+photo.80.commitdate: 2022/1/8
+photo.80.link: https://www.instagram.com/mini_cochi/
+photo.80.tags: bamboo, paws, portrait, smile, tongue
 species: 2
 studbook.id: 14141
 zoo: 10

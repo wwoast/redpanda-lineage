@@ -2005,20 +2005,21 @@ photo.399.author: otenba_redpanda
 photo.399.commitdate: 2022/1/8
 photo.399.link: https://www.instagram.com/otenba_redpanda/
 photo.399.tags: close-up, peek, portrait, whiskers
-photo.400: ig://CYRKww_vK0l/m
-photo.400.author: ck.chie
-photo.400.commitdate: 2022/1/6
-photo.400.link: https://www.instagram.com/ck.chie/
-photo.400.tags: grooming, mofumofu, paws, standing, tongue
-photo.401: ig://CYSRvsqhlPz/m
-photo.401.author: ssc6105
+photo.400: ig://mini_cochi/CYBuHRRrzWk/m
+photo.400.author: mini_cochi
+photo.400.commitdate: 2022/1/10
+photo.400.link: https://www.instagram.com/mini_cochi/
+photo.400.tags: portrait, sample, whiskers
+photo.401: ig://CYRKww_vK0l/m
+photo.401.author: ck.chie
 photo.401.commitdate: 2022/1/6
-photo.401.link: https://www.instagram.com/ssc6105/
-photo.401.tags: bridge, mofumofu, paws, tail
-photo.402: https://www.instagram.com/mini_cochi/p/CYBuHRRrzWk/media/?size=m
-photo.402.author: mini_cochi
-photo.402.link: https://www.instagram.com/mini_cochi/
-photo.402.tags: portrait, sample, whiskers
+photo.401.link: https://www.instagram.com/ck.chie/
+photo.401.tags: grooming, mofumofu, paws, standing, tongue
+photo.402: ig://CYSRvsqhlPz/m
+photo.402.author: ssc6105
+photo.402.commitdate: 2022/1/6
+photo.402.link: https://www.instagram.com/ssc6105/
+photo.402.tags: bridge, mofumofu, paws, tail
 species: 2
 studbook.id: 1782
 zoo: 17

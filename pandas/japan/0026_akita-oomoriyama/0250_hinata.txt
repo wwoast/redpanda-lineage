@@ -417,20 +417,21 @@ photo.81.author: ifumoto88
 photo.81.commitdate: 2021/9/18
 photo.81.link: https://www.instagram.com/ifumoto88/
 photo.81.tags: apple time, paws, portrait, smile
-photo.82: ig://CW8NtUdFlEM/m
-photo.82.author: fetorus_mami
-photo.82.commitdate: 2022/1/9
-photo.82.link: https://www.instagram.com/fetorus_mami/
-photo.82.tags: close-up, grooming, mofumofu, paws, tongue
-photo.83: ig://CXOl6m6hFH2/m
-photo.83.author: minatomirai215
-photo.83.commitdate: 2022/1/7
-photo.83.link: https://www.instagram.com/minatomirai215/
-photo.83.tags: mofumofu, peek, portrait
-photo.84: https://www.instagram.com/p/CW5vtl2FcSz/media/?size=m
-photo.84.author: mini_cochi
-photo.84.link: https://www.instagram.com/mini_cochi/
-photo.84.tags: close-up, portrait, sample, whiskers
+photo.82: ig://CW5vtl2FcSz/m
+photo.82.author: mini_cochi
+photo.82.commitdate: 2022/1/10
+photo.82.link: https://www.instagram.com/mini_cochi/
+photo.82.tags: close-up, portrait, sample, whiskers
+photo.83: ig://CW8NtUdFlEM/m
+photo.83.author: fetorus_mami
+photo.83.commitdate: 2022/1/9
+photo.83.link: https://www.instagram.com/fetorus_mami/
+photo.83.tags: close-up, grooming, mofumofu, paws, tongue
+photo.84: ig://CXOl6m6hFH2/m
+photo.84.author: minatomirai215
+photo.84.commitdate: 2022/1/7
+photo.84.link: https://www.instagram.com/minatomirai215/
+photo.84.tags: mofumofu, peek, portrait
 species: 2
 studbook.id: unknown
 zoo: 26

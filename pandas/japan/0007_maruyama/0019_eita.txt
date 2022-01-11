@@ -1520,62 +1520,66 @@ photo.303.author: cattail.sapporo
 photo.303.commitdate: 2021/12/21
 photo.303.link: https://www.instagram.com/cattail.sapporo/
 photo.303.tags: peek, portrait, sample, tail
-photo.304: ig://cattail.sapporo/CXNlPRprN8N/m
+photo.304: ig://CW-FVnorQSf/m
 photo.304.author: cattail.sapporo
-photo.304.commitdate: 2021/12/30
+photo.304.commitdate: 2022/1/10
 photo.304.link: https://www.instagram.com/cattail.sapporo/
-photo.304.tags: paws, portrait, sample, whiskers
-photo.305: ig://CXTmEQElVP8/m
+photo.304.tags: portrait, sample, snow, tail
+photo.305: ig://CXI6IlUF1Km/m
 photo.305.author: cattail.sapporo
-photo.305.commitdate: 2021/12/26
+photo.305.commitdate: 2022/1/10
 photo.305.link: https://www.instagram.com/cattail.sapporo/
-photo.305.tags: portrait, sample, smile, tail
-photo.306: ig://CXanbAcLDuj/m
+photo.305.tags: paws, portrait, sample, standing, tail
+photo.306: ig://cattail.sapporo/CXNlPRprN8N/m
 photo.306.author: cattail.sapporo
 photo.306.commitdate: 2021/12/30
 photo.306.link: https://www.instagram.com/cattail.sapporo/
-photo.306.tags: portrait, snow, tail
-photo.307: ig://CXk1065rWq2/m
+photo.306.tags: paws, portrait, sample, whiskers
+photo.307: ig://CXTmEQElVP8/m
 photo.307.author: cattail.sapporo
-photo.307.commitdate: 2021/12/19
+photo.307.commitdate: 2021/12/26
 photo.307.link: https://www.instagram.com/cattail.sapporo/
-photo.307.tags: close-up, paws, portrait, sample, snow, whiskers
-photo.308: ig://leonard_redmof/CXlZv6kvYJK/m
-photo.308.author: leonard_redmof
-photo.308.commitdate: 2021/12/29
-photo.308.link: https://www.instagram.com/leonard_redmof/
-photo.308.tags: paws, portrait
-photo.309: ig://CXmZ11jv3pX/m
+photo.307.tags: portrait, sample, smile, tail
+photo.308: ig://CXanbAcLDuj/m
+photo.308.author: cattail.sapporo
+photo.308.commitdate: 2021/12/30
+photo.308.link: https://www.instagram.com/cattail.sapporo/
+photo.308.tags: portrait, snow, tail
+photo.309: ig://CXk1065rWq2/m
 photo.309.author: cattail.sapporo
 photo.309.commitdate: 2021/12/19
 photo.309.link: https://www.instagram.com/cattail.sapporo/
-photo.309.tags: portrait, snow
-photo.310: ig://CXo4CJYBmpd/m
-photo.310.author: hamamatsu.chiita
-photo.310.commitdate: 2021/12/19
-photo.310.link: https://www.instagram.com/hamamatsu.chiita/
-photo.310.tags: blink, mofumofu, portrait, sample, snow, whiskers
-photo.311: ig://CX-6bkWrkok/m
+photo.309.tags: close-up, paws, portrait, sample, snow, whiskers
+photo.310: ig://leonard_redmof/CXlZv6kvYJK/m
+photo.310.author: leonard_redmof
+photo.310.commitdate: 2021/12/29
+photo.310.link: https://www.instagram.com/leonard_redmof/
+photo.310.tags: paws, portrait
+photo.311: ig://CXmZ11jv3pX/m
 photo.311.author: cattail.sapporo
-photo.311.commitdate: 2022/1/8
+photo.311.commitdate: 2021/12/19
 photo.311.link: https://www.instagram.com/cattail.sapporo/
-photo.311.tags: close-up, portrait, sample, snow, tail
-photo.312: https://www.instagram.com/p/CW-FVnorQSf/media/?size=m
-photo.312.author: cattail.sapporo
-photo.312.link: https://www.instagram.com/cattail.sapporo/
-photo.312.tags: portrait, sample, snow, tail
-photo.313: https://www.instagram.com/p/CXI6IlUF1Km/media/?size=m
+photo.311.tags: portrait, snow
+photo.312: ig://CXo4CJYBmpd/m
+photo.312.author: hamamatsu.chiita
+photo.312.commitdate: 2021/12/19
+photo.312.link: https://www.instagram.com/hamamatsu.chiita/
+photo.312.tags: blink, mofumofu, portrait, sample, snow, whiskers
+photo.313: ig://CXu2VgarRkc/m
 photo.313.author: cattail.sapporo
+photo.313.commitdate: 2022/1/10
 photo.313.link: https://www.instagram.com/cattail.sapporo/
-photo.313.tags: paws, portrait, sample, standing, tail
-photo.314: https://www.instagram.com/izu_108/p/CYIY64_LQ53/media/?size=m
-photo.314.author: izu_108
-photo.314.link: https://www.instagram.com/izu_108/
-photo.314.tags: close-up, sample, whiskers
-photo.315: https://www.instagram.com/p/CXu2VgarRkc/media/?size=m
-photo.315.author: cattail.sapporo
-photo.315.link: https://www.instagram.com/cattail.sapporo/
-photo.315.tags: close-up, nose, portrait, snow, whiskers
+photo.313.tags: close-up, nose, portrait, snow, whiskers
+photo.314: ig://CX-6bkWrkok/m
+photo.314.author: cattail.sapporo
+photo.314.commitdate: 2022/1/8
+photo.314.link: https://www.instagram.com/cattail.sapporo/
+photo.314.tags: close-up, portrait, sample, snow, tail
+photo.315: ig://izu_108/CYIY64_LQ53/m
+photo.315.author: izu_108
+photo.315.commitdate: 2022/1/10
+photo.315.link: https://www.instagram.com/izu_108/
+photo.315.tags: close-up, sample, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7
