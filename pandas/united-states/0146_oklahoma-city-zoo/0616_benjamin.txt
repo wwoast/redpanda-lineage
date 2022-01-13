@@ -52,11 +52,11 @@ photo.7.author: aimless_amos
 photo.7.commitdate: 2021/9/10
 photo.7.link: https://www.instagram.com/aimless_amos/
 photo.7.tags: lunch time, paws, portrait, tail
-photo.8: https://www.codaworry.com/images/rpf/benjamin-7-capemay.jpg
-photo.8.author: aimless_amos
-photo.8.commitdate: 2021/6/25
-photo.8.link: https://www.instagram.com/aimless_amos/
-photo.8.tags: apple time, portrait, tail, toys
+photo.8: ig://CX6BUzrrvQN/m
+photo.8.author: worldthathesees
+photo.8.commitdate: 2022/1/12
+photo.8.link: https://www.instagram.com/worldthathesees/
+photo.8.tags: smile
 photo.9: https://www.codaworry.com/images/rpf/benjamin-8-capemay.jpg
 photo.9.author: aimless_amos
 photo.9.commitdate: 2021/6/25
@@ -82,10 +82,6 @@ photo.13.author: aimless_amos
 photo.13.commitdate: 2021/6/25
 photo.13.link: https://www.instagram.com/aimless_amos/
 photo.13.tags: bite, carry, paws, portrait
-photo.14: https://www.instagram.com/p/CX6BUzrrvQN/media/?size=m
-photo.14.author: worldthathesees
-photo.14.link: https://www.instagram.com/worldthathesees/
-photo.14.tags: smile
 species: 1
 studbook.id: 1533
 zoo: 146
