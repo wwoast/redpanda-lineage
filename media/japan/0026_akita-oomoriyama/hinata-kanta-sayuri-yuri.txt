@@ -74,3 +74,19 @@ photo.8.tags.213.location: 470, 285
 photo.8.tags.214.location: 185, 140
 photo.8.tags.250.location: 380, 200
 photo.8.tags.251.location: 275, 220
+photo.9: https://www.instagram.com/p/B68FgEGBQCH/media/?size=l
+photo.9.author: redpan22
+photo.9.link: https://www.instagram.com/redpan22/
+photo.9.tags: family, tail
+photo.9.tags.213.location: 105, 650
+photo.9.tags.214.location: 380, 365
+photo.9.tags.250.location: 130, 155
+photo.9.tags.251.location: 520, 100
+photo.10: https://www.instagram.com/p/B5rBbbUBetF/media/?size=l
+photo.10.author: zoowfreedom299
+photo.10.link: https://www.instagram.com/zoowfreedom299/
+photo.10.tags: apple time, family, keeper, paws, tail, tree
+photo.10.tags.213.location: 195, 400
+photo.10.tags.214.location: 165, 600
+photo.10.tags.250.location: 515, 150
+photo.10.tags.251.location: 320, 315
