@@ -288,15 +288,16 @@ photo.55.author: itozu_zoo
 photo.55.commitdate: 2022/1/8
 photo.55.link: https://www.instagram.com/itozu_zoo/
 photo.55.tags: laying down, paws, portrait, sleeping
-photo.56: ig://CYRV50Alrtv/m
-photo.56.author: yossi929
-photo.56.commitdate: 2022/1/10
-photo.56.link: https://www.instagram.com/yossi929/
-photo.56.tags: apple time, nose, snow
-photo.57: https://www.instagram.com/p/CYKv0vXB3OO/media/?size=m
-photo.57.author: re_ichimaru
-photo.57.link: https://www.instagram.com/re_ichimaru/
-photo.57.tags: apple time, peek, snow
+photo.56: ig://CYKv0vXB3OO/m
+photo.56.author: re_ichimaru
+photo.56.commitdate: 2022/1/13
+photo.56.link: https://www.instagram.com/re_ichimaru/
+photo.56.tags: apple time, peek, snow
+photo.57: ig://CYRV50Alrtv/m
+photo.57.author: yossi929
+photo.57.commitdate: 2022/1/10
+photo.57.link: https://www.instagram.com/yossi929/
+photo.57.tags: apple time, nose, snow
 species: 2
 studbook.id: 1682
 zoo: 41

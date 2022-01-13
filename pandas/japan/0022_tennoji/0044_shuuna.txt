@@ -424,8 +424,9 @@ photo.82.author: makimaru18
 photo.82.commitdate: 2021/12/22
 photo.82.link: https://www.instagram.com/makimaru18/
 photo.82.tags: mofumofu, paws, portrait, sample, whiskers
-photo.83: https://www.instagram.com/p/CYRDSk2vFRd/media/?size=m
+photo.83: ig://CYRDSk2vFRd/m
 photo.83.author: redpan22
+photo.83.commitdate: 2022/1/13
 photo.83.link: https://www.instagram.com/redpan22/
 photo.83.tags: paws, sample, scale, standing, tail
 species: 2

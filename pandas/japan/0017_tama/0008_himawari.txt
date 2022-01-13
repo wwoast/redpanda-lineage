@@ -2010,20 +2010,21 @@ photo.400.author: mini_cochi
 photo.400.commitdate: 2022/1/10
 photo.400.link: https://www.instagram.com/mini_cochi/
 photo.400.tags: portrait, sample, whiskers
-photo.401: ig://CYRKww_vK0l/m
-photo.401.author: ck.chie
-photo.401.commitdate: 2022/1/6
-photo.401.link: https://www.instagram.com/ck.chie/
-photo.401.tags: grooming, mofumofu, paws, standing, tongue
-photo.402: ig://CYSRvsqhlPz/m
-photo.402.author: ssc6105
+photo.401: ig://CYKlus8h0qI/m
+photo.401.author: alto0908
+photo.401.commitdate: 2022/1/13
+photo.401.link: https://www.instagram.com/alto0908/
+photo.401.tags: laying down, paws, portrait, sample, tail
+photo.402: ig://CYRKww_vK0l/m
+photo.402.author: ck.chie
 photo.402.commitdate: 2022/1/6
-photo.402.link: https://www.instagram.com/ssc6105/
-photo.402.tags: bridge, mofumofu, paws, tail
-photo.403: https://www.instagram.com/p/CYKlus8h0qI/media/?size=m
-photo.403.author: alto0908
-photo.403.link: https://www.instagram.com/alto0908/
-photo.403.tags: laying down, paws, portrait, sample, tail
+photo.402.link: https://www.instagram.com/ck.chie/
+photo.402.tags: grooming, mofumofu, paws, standing, tongue
+photo.403: ig://CYSRvsqhlPz/m
+photo.403.author: ssc6105
+photo.403.commitdate: 2022/1/6
+photo.403.link: https://www.instagram.com/ssc6105/
+photo.403.tags: bridge, mofumofu, paws, tail
 species: 2
 studbook.id: 1782
 zoo: 17
