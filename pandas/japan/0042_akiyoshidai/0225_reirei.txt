@@ -130,24 +130,25 @@ photo.23.author: kojikoji2011
 photo.23.commitdate: 2021/6/7
 photo.23.link: https://www.instagram.com/kojikoji2011/
 photo.23.tags: bamboo, paws, smile
-photo.24: ig://CVXuYtgh8F2/m
-photo.24.author: kojikoji2011
-photo.24.commitdate: 2021/10/31
-photo.24.link: https://www.instagram.com/kojikoji2011/
-photo.24.tags: close-up, portrait, whiskers
-photo.25: ig://CWYM--UhDXw/m
+photo.24: ig://CUw0SiEBBc8/m
+photo.24.author: sasapan34
+photo.24.commitdate: 2022/1/13
+photo.24.link: https://www.instagram.com/sasapan34/
+photo.25: ig://CVXuYtgh8F2/m
 photo.25.author: kojikoji2011
-photo.25.commitdate: 2021/11/21
+photo.25.commitdate: 2021/10/31
 photo.25.link: https://www.instagram.com/kojikoji2011/
 photo.25.tags: close-up, portrait, whiskers
-photo.26: ig://CWxrp6mhd7T/m
+photo.26: ig://CWYM--UhDXw/m
 photo.26.author: kojikoji2011
-photo.26.commitdate: 2022/1/7
+photo.26.commitdate: 2021/11/21
 photo.26.link: https://www.instagram.com/kojikoji2011/
-photo.26.tags: paws, portrait, whiskers
-photo.27: https://www.instagram.com/p/CUw0SiEBBc8/media/?size=m
-photo.27.author: sasapan34
-photo.27.link: https://www.instagram.com/sasapan34/
+photo.26.tags: close-up, portrait, whiskers
+photo.27: ig://CWxrp6mhd7T/m
+photo.27.author: kojikoji2011
+photo.27.commitdate: 2022/1/7
+photo.27.link: https://www.instagram.com/kojikoji2011/
+photo.27.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 1686
 zoo: 42

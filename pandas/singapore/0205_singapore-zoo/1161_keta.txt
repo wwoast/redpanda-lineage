@@ -18,18 +18,20 @@ location.2: 205, 2018/1/1
 np.name: केटा
 np.nicknames: none
 np.othernames: none
-photo.1: ig://CPy8sb1hpaC/m
+photo.1: ig://CO5Jp-sB47i/m
 photo.1.author: redpandasingapore
-photo.1.commitdate: 2021/6/24
+photo.1.commitdate: 2022/1/13
 photo.1.link: https://www.instagram.com/redpandasingapore/
-photo.1.tags: bridge, portrait, profile
-photo.2: https://www.instagram.com/p/CRIg6z-B8Re/media/?size=m
+photo.1.tags: peek, portrait
+photo.2: ig://CPy8sb1hpaC/m
 photo.2.author: redpandasingapore
+photo.2.commitdate: 2021/6/24
 photo.2.link: https://www.instagram.com/redpandasingapore/
-photo.2.tags: climb, paws, peek, tail
-photo.3: https://www.instagram.com/p/CO5Jp-sB47i/media/?size=m
+photo.2.tags: bridge, portrait, profile
+photo.3: ig://CRIg6z-B8Re/m
 photo.3.author: redpandasingapore
+photo.3.commitdate: 2022/1/13
 photo.3.link: https://www.instagram.com/redpandasingapore/
-photo.3.tags: peek, portrait
+photo.3.tags: climb, paws, peek, tail
 species: 1
 zoo: 205

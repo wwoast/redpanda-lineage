@@ -1,8 +1,10 @@
 [media]
 _id: media.37.riirii-taotao-yuuyuu
+commitdate: 2022/1/13
 panda.tags: 227, 235, 236
-photo.1: https://www.instagram.com/p/CK_Oso2hnEm/media/?size=l
+photo.1: ig://CK_Oso2hnEm/l
 photo.1.author: kotata_513
+photo.1.commitdate: 2022/1/13
 photo.1.link: https://www.instagram.com/p/CK_Oso2hnEm/media/?size=m
 photo.1.tags: bamboo, family, paws, siblings, sisters, snow, standing, twins
 photo.1.tags.227.location: 485, 95

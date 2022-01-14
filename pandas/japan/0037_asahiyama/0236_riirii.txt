@@ -192,19 +192,21 @@ photo.36.author: sasapan34
 photo.36.commitdate: 2021/9/13
 photo.36.link: https://www.instagram.com/sasapan34/
 photo.36.tags: bamboo, smile
-photo.37: ig://CVpuS-esi2l/m
-photo.37.author: ho0oipo
-photo.37.commitdate: 2021/11/15
-photo.37.link: https://www.instagram.com/ho0oipo/
-photo.37.tags: apple time, portrait, tail, upside-down
-photo.38: https://www.instagram.com/p/CWtnDYqhkij/media/?size=m
-photo.38.author: sasapan34
-photo.38.link: https://www.instagram.com/sasapan34/
-photo.38.tags: apple time, close-up, toys
-photo.39: https://www.instagram.com/p/CUyi4-YhcZV/media/?size=m
+photo.37: ig://CUyi4-YhcZV/m
+photo.37.author: sasapan34
+photo.37.commitdate: 2022/1/13
+photo.37.link: https://www.instagram.com/sasapan34/
+photo.37.tags: apple time, bamboo, tail, toys, upside-down
+photo.38: ig://CVpuS-esi2l/m
+photo.38.author: ho0oipo
+photo.38.commitdate: 2021/11/15
+photo.38.link: https://www.instagram.com/ho0oipo/
+photo.38.tags: apple time, portrait, tail, upside-down
+photo.39: ig://CWtnDYqhkij/m
 photo.39.author: sasapan34
+photo.39.commitdate: 2022/1/13
 photo.39.link: https://www.instagram.com/sasapan34/
-photo.39.tags: apple time, bamboo, tail, toys, upside-down
+photo.39.tags: apple time, close-up, toys
 species: 2
 studbook.id: unknown
 zoo: 37

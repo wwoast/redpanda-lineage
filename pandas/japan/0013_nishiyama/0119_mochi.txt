@@ -461,30 +461,31 @@ photo.90.author: minato.yokohama2130
 photo.90.commitdate: 2021/9/1
 photo.90.link: https://www.instagram.com/minato.yokohama2130/
 photo.90.tags: mofumofu, peek, portrait, tail
-photo.91: ig://CUyP8mnPxNb/m
-photo.91.author: tomo3700
-photo.91.commitdate: 2021/11/12
-photo.91.link: https://www.instagram.com/tomo3700/
-photo.91.tags: bear worm, laying down, paws, portrait, tail
-photo.92: ig://CWs39ouB3Dd/m
-photo.92.author: hamiiiii831_
-photo.92.commitdate: 2022/1/9
-photo.92.link: https://www.instagram.com/hamiiiii831_/
-photo.92.tags: apple time, dish, mofumofu, paws, whiskers
-photo.93: ig://CW6fM0khvw3/m
-photo.93.author: hamamatsu.chiita
-photo.93.commitdate: 2022/1/10
-photo.93.link: https://www.instagram.com/hamamatsu.chiita/
-photo.93.tags: mofumofu, portrait, sample, whiskers
-photo.94: ig://CXwjUgUBMTd/m
+photo.91: ig://CTp7gGnhmLk/m
+photo.91.author: hamamatsu.chiita
+photo.91.commitdate: 2022/1/13
+photo.91.link: https://www.instagram.com/hamamatsu.chiita/
+photo.91.tags: lips, mofumofu, portrait, sample, techitechi, whiskers
+photo.92: ig://CUyP8mnPxNb/m
+photo.92.author: tomo3700
+photo.92.commitdate: 2021/11/12
+photo.92.link: https://www.instagram.com/tomo3700/
+photo.92.tags: bear worm, laying down, paws, portrait, tail
+photo.93: ig://CWs39ouB3Dd/m
+photo.93.author: hamiiiii831_
+photo.93.commitdate: 2022/1/9
+photo.93.link: https://www.instagram.com/hamiiiii831_/
+photo.93.tags: apple time, dish, mofumofu, paws, whiskers
+photo.94: ig://CW6fM0khvw3/m
 photo.94.author: hamamatsu.chiita
 photo.94.commitdate: 2022/1/10
 photo.94.link: https://www.instagram.com/hamamatsu.chiita/
 photo.94.tags: mofumofu, portrait, sample, whiskers
-photo.95: https://www.instagram.com/p/CTp7gGnhmLk/media/?size=m
+photo.95: ig://CXwjUgUBMTd/m
 photo.95.author: hamamatsu.chiita
+photo.95.commitdate: 2022/1/10
 photo.95.link: https://www.instagram.com/hamamatsu.chiita/
-photo.95.tags: lips, mofumofu, portrait, sample, techitechi, whiskers
+photo.95.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 15132
 zoo: 13

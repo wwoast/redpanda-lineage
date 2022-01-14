@@ -143,14 +143,15 @@ photo.26.author: sasapan34
 photo.26.commitdate: 2021/8/25
 photo.26.link: https://www.instagram.com/sasapan34/
 photo.26.tags: paws, peek, smile, white face
-photo.27: ig://redpan22/CXJGXIqB45M/m
-photo.27.author: redpan22
-photo.27.commitdate: 2021/12/30
-photo.27.link: https://www.instagram.com/redpan22/
-photo.27.tags: close-up, paws, snow, whiskers
-photo.28: https://www.instagram.com/p/CWsyMTrB0fI/media/?size=m
-photo.28.author: sasapan34
-photo.28.link: https://www.instagram.com/sasapan34/
-photo.28.tags: bamboo, snow
+photo.27: ig://CWsyMTrB0fI/m
+photo.27.author: sasapan34
+photo.27.commitdate: 2022/1/13
+photo.27.link: https://www.instagram.com/sasapan34/
+photo.27.tags: bamboo, snow
+photo.28: ig://redpan22/CXJGXIqB45M/m
+photo.28.author: redpan22
+photo.28.commitdate: 2021/12/30
+photo.28.link: https://www.instagram.com/redpan22/
+photo.28.tags: close-up, paws, snow, whiskers
 species: 2
 zoo: 37

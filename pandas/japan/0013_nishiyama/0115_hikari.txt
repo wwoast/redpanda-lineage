@@ -375,34 +375,36 @@ photo.73.author: minato.yokohama2130
 photo.73.commitdate: 2021/9/7
 photo.73.link: https://www.instagram.com/minato.yokohama2130/
 photo.73.tags: portrait, whiskers
-photo.74: ig://CVBZCeLh7QW/m
+photo.74: ig://CU18ng9B7jF/m
 photo.74.author: hamamatsu.chiita
-photo.74.commitdate: 2022/1/7
+photo.74.commitdate: 2022/1/13
 photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: close-up, mofumofu, portrait, smile, whiskers
-photo.75: ig://CVXhp8ThYOS/m
+photo.74.tags: close-up, portrait, sample, smile, whiskers
+photo.75: ig://CVBZCeLh7QW/m
 photo.75.author: hamamatsu.chiita
-photo.75.commitdate: 2021/11/19
+photo.75.commitdate: 2022/1/7
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
-photo.75.tags: portrait, whiskers
-photo.76: ig://CWY9EZ9hBih/m
-photo.76.author: hamamatsu.chiita
-photo.76.commitdate: 2021/11/28
-photo.76.link: https://www.instagram.com/hamamatsu.chiita/
-photo.76.tags: close-up, portrait, whiskers
-photo.77: ig://CXKCwFiB-Fp/m
+photo.75.tags: close-up, mofumofu, portrait, smile, whiskers
+photo.76: ig://CVSYNs9BiMX/m
+photo.76.author: minato.yokohama2130
+photo.76.commitdate: 2022/1/13
+photo.76.link: https://www.instagram.com/minato.yokohama0233/
+photo.76.tags: portrait
+photo.77: ig://CVXhp8ThYOS/m
 photo.77.author: hamamatsu.chiita
-photo.77.commitdate: 2021/12/30
+photo.77.commitdate: 2021/11/19
 photo.77.link: https://www.instagram.com/hamamatsu.chiita/
-photo.77.tags: mofumofu, portrait, whiskers
-photo.78: https://www.instagram.com/p/CU18ng9B7jF/media/?size=m
+photo.77.tags: portrait, whiskers
+photo.78: ig://CWY9EZ9hBih/m
 photo.78.author: hamamatsu.chiita
+photo.78.commitdate: 2021/11/28
 photo.78.link: https://www.instagram.com/hamamatsu.chiita/
-photo.78.tags: close-up, portrait, sample, smile, whiskers
-photo.79: https://www.instagram.com/p/CVSYNs9BiMX/media/?size=m
-photo.79.author: minato.yokohama2130
-photo.79.link: https://www.instagram.com/minato.yokohama0233/
-photo.79.tags: portrait
+photo.78.tags: close-up, portrait, whiskers
+photo.79: ig://CXKCwFiB-Fp/m
+photo.79.author: hamamatsu.chiita
+photo.79.commitdate: 2021/12/30
+photo.79.link: https://www.instagram.com/hamamatsu.chiita/
+photo.79.tags: mofumofu, portrait, whiskers
 species: 2
 studbook.id: 13168
 zoo: 13

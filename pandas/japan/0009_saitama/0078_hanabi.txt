@@ -274,25 +274,26 @@ photo.53.author: redpan22
 photo.53.commitdate: 2021/5/31
 photo.53.link: https://www.instagram.com/redpan22/
 photo.53.tags: bamboo, bite, close-up, shoots, whiskers
-photo.54: ig://ssc6105/CXvZX6qv6Mz/m
-photo.54.author: ssc6105
-photo.54.commitdate: 2022/1/6
-photo.54.link: https://www.instagram.com/ssc6105/
-photo.54.tags: portrait, whiskers
-photo.55: ig://CXyg3oIFs6S/m
-photo.55.author: mini_cochi
-photo.55.commitdate: 2022/1/4
-photo.55.link: https://www.instagram.com/mini_cochi/
-photo.55.tags: mofumofu, portrait, sample, whiskers
-photo.56: ig://CYOeQVMP2UO/m
-photo.56.author: fetorus_mami
+photo.54: ig://CWDlmnshmU1/m
+photo.54.author: ifumoto88
+photo.54.commitdate: 2022/1/13
+photo.54.link: https://www.instagram.com/ifumoto88/
+photo.54.tags: peek, portrait, tail, tree
+photo.55: ig://ssc6105/CXvZX6qv6Mz/m
+photo.55.author: ssc6105
+photo.55.commitdate: 2022/1/6
+photo.55.link: https://www.instagram.com/ssc6105/
+photo.55.tags: portrait, whiskers
+photo.56: ig://CXyg3oIFs6S/m
+photo.56.author: mini_cochi
 photo.56.commitdate: 2022/1/4
-photo.56.link: https://www.instagram.com/fetorus_mami/
-photo.56.tags: bamboo, bite, close-up, mofumofu, tongue
-photo.57: https://www.instagram.com/p/CWDlmnshmU1/media/?size=m
-photo.57.author: ifumoto88
-photo.57.link: https://www.instagram.com/ifumoto88/
-photo.57.tags: peek, portrait, tail, tree
+photo.56.link: https://www.instagram.com/mini_cochi/
+photo.56.tags: mofumofu, portrait, sample, whiskers
+photo.57: ig://CYOeQVMP2UO/m
+photo.57.author: fetorus_mami
+photo.57.commitdate: 2022/1/4
+photo.57.link: https://www.instagram.com/fetorus_mami/
+photo.57.tags: bamboo, bite, close-up, mofumofu, tongue
 species: 2
 studbook.id: 11105
 zoo: 9
