@@ -12,6 +12,8 @@ jp.name: シャオボ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 92, 2019/7/6
+location.2: 87, 2021/5/1
 litter: 1083
 photo.1: ig://B3Zm2HansLU/m
 photo.1.author: uticazoo
@@ -48,5 +50,10 @@ photo.7.author: uticazoo
 photo.7.commitdate: 2020/8/15
 photo.7.link: https://www.instagram.com/uticazoo/
 photo.7.tags: paws, smile
+photo.8: https://www.instagram.com/p/CT2WLJNpsOU/media/?size=m
+photo.8.author: lincolnparkzoo
+photo.8.link: https://www.instagram.com/lincolnparkzoo/
+photo.8.tags: portrait, whiskers
 species: 2
-zoo: 92
+uncertainty: location.2 exact month/day
+zoo: 87

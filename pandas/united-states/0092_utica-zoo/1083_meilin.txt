@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1082
+location.1: 92, 2019/7/6
+location.2: 87, 2021/5/1
 photo.1: ig://B7tOmffHsn9/m
 photo.1.author: uticazoo
 photo.1.commitdate: 2020/2/23
@@ -29,4 +31,5 @@ photo.3.commitdate: 2021/8/6
 photo.3.link: https://www.instagram.com/uticazoo/
 photo.3.tags: portrait, snow, toys, whiskers
 species: 2
-zoo: 92
+uncertainty: location.2 exact month/day
+zoo: 87
