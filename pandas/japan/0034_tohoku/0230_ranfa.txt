@@ -868,15 +868,16 @@ photo.172.author: ssc6105
 photo.172.commitdate: 2022/1/6
 photo.172.link: https://www.instagram.com/ssc6105/
 photo.172.tags: bamboo, paws, standing, whiskers
-photo.173: ig://CYUu8INhBQ8/m
-photo.173.author: ssc6105
-photo.173.commitdate: 2022/1/6
-photo.173.link: https://www.instagram.com/ssc6105/
-photo.173.tags: paws, sample, snow, whiskers
-photo.174: https://www.instagram.com/p/CYL1tfOvZ2Y/media/?size=m
-photo.174.author: daniele.tokyo
-photo.174.link: https://www.instagram.com/daniele.tokyo/
-photo.174.tags: apple time, keeper, portrait, smile, snow
+photo.173: ig://CYL1tfOvZ2Y/m
+photo.173.author: daniele.tokyo
+photo.173.commitdate: 2022/1/14
+photo.173.link: https://www.instagram.com/daniele.tokyo/
+photo.173.tags: apple time, keeper, portrait, smile, snow
+photo.174: ig://CYUu8INhBQ8/m
+photo.174.author: ssc6105
+photo.174.commitdate: 2022/1/6
+photo.174.link: https://www.instagram.com/ssc6105/
+photo.174.tags: paws, sample, snow, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

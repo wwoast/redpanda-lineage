@@ -1009,8 +1009,9 @@ photo.200.author: hamamatsu.chiita
 photo.200.commitdate: 2022/1/6
 photo.200.link: https://www.instagram.com/hamamatsu.chiita/
 photo.200.tags: portrait, whiskers
-photo.201: https://www.instagram.com/p/CYLuadDP4IZ/media/?size=m
+photo.201: ig://CYLuadDP4IZ/m
 photo.201.author: hamamatsu.chiita
+photo.201.commitdate: 2022/1/14
 photo.201.link: https://www.instagram.com/hamamatsu.chiita/
 photo.201.tags: paws, whiskers
 species: 2

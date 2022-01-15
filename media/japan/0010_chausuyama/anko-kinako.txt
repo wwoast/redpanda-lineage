@@ -100,8 +100,9 @@ photo.14.link: https://www.instagram.com/na.mo.pan/
 photo.14.tags: baby, bamboo, portrait, siblings, sisters, twins
 photo.14.tags.1300.location: 360, 210
 photo.14.tags.1301.location: 110, 250
-photo.15: https://www.instagram.com/p/CYQKjA3v6Jq/media/?size=l
+photo.15: ig://CYQKjA3v6Jq/l
 photo.15.author: otenba_redpanda
+photo.15.commitdate: 2022/1/14
 photo.15.link: https://www.instagram.com/otenba_redpanda/
 photo.15.tags: mofumofu, portrait, siblings, sisters, twins
 photo.15.tags.1300.location: 350, 225

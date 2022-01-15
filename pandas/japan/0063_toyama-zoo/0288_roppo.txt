@@ -205,8 +205,9 @@ photo.38.author: hamamatsu.chiita
 photo.38.commitdate: 2022/1/7
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
 photo.38.tags: portrait, smile
-photo.39: https://www.instagram.com/p/CYPees9hpUG/media/?size=m
+photo.39: ig://CYPees9hpUG/m
 photo.39.author: hamamatsu.chiita
+photo.39.commitdate: 2022/1/14
 photo.39.link: https://www.instagram.com/hamamatsu.chiita/
 photo.39.tags: paws, smile
 species: 2

@@ -489,15 +489,16 @@ photo.95.author: redpanda_nippon_takashi
 photo.95.commitdate: 2022/1/6
 photo.95.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.95.tags: climb, paws, tail, tree
-photo.96: ig://tomo3700/CYSQjr0p8pd/m
-photo.96.author: tomo3700
-photo.96.commitdate: 2022/1/10
-photo.96.link: https://www.instagram.com/tomo3700/
-photo.96.tags: paws, peek, portrait, sample, whiskers
-photo.97: https://www.instagram.com/p/CYLMF2Iv4Mt/media/?size=m
-photo.97.author: sakikukeco
-photo.97.link: https://www.instagram.com/p/CYLMF2Iv4Mt/media/?size=m
-photo.97.tags: apple time, keeper, nose, paws, portrait, whiskers
+photo.96: ig://CYLMF2Iv4Mt/m
+photo.96.author: sakikukeco
+photo.96.commitdate: 2022/1/14
+photo.96.link: https://www.instagram.com/p/CYLMF2Iv4Mt/media/?size=m
+photo.96.tags: apple time, keeper, nose, paws, portrait, whiskers
+photo.97: ig://tomo3700/CYSQjr0p8pd/m
+photo.97.author: tomo3700
+photo.97.commitdate: 2022/1/10
+photo.97.link: https://www.instagram.com/tomo3700/
+photo.97.tags: paws, peek, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

@@ -329,22 +329,26 @@ photo.63.author: colette.jp
 photo.63.commitdate: 2021/12/30
 photo.63.link: https://www.instagram.com/colette.jp/
 photo.63.tags: keeper, paws, portrait, standing
-photo.64: https://www.instagram.com/p/CYRM2uYr4di/media/?size=m
+photo.64: ig://CYLuaPyL4NQ/m
 photo.64.author: gloryeui
+photo.64.commitdate: 2022/1/14
 photo.64.link: https://www.instagram.com/gloryeui/
-photo.64.tags: home, laying down, portrait, sample
-photo.65: https://www.instagram.com/p/CYTQKZfv6rj/media/?size=m
-photo.65.author: grskus_tk
-photo.65.link: https://www.instagram.com/grskus_tk/
-photo.65.tags: nose
-photo.66: https://www.instagram.com/gloryeui/p/CYTqqvZLdgn/media/?size=m
-photo.66.author: gloryeui
-photo.66.link: https://www.instagram.com/gloryeui/
-photo.66.tags: bridge, portrait, sample, tail
-photo.67: https://www.instagram.com/p/CYLuaPyL4NQ/media/?size=m
+photo.64.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.65: ig://CYRM2uYr4di/m
+photo.65.author: gloryeui
+photo.65.commitdate: 2022/1/14
+photo.65.link: https://www.instagram.com/gloryeui/
+photo.65.tags: home, laying down, portrait, sample
+photo.66: ig://CYTQKZfv6rj/m
+photo.66.author: grskus_tk
+photo.66.commitdate: 2022/1/14
+photo.66.link: https://www.instagram.com/grskus_tk/
+photo.66.tags: nose
+photo.67: ig://gloryeui/CYTqqvZLdgn/m
 photo.67.author: gloryeui
+photo.67.commitdate: 2022/1/14
 photo.67.link: https://www.instagram.com/gloryeui/
-photo.67.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.67.tags: bridge, portrait, sample, tail
 species: 2
 studbook.id: 14151
 zoo: 14
