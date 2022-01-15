@@ -245,38 +245,39 @@ photo.47.author: grskus_tk
 photo.47.commitdate: 2022/1/7
 photo.47.link: https://www.instagram.com/grskus_tk/
 photo.47.tags: mofumofu, paws, portrait, smile, tree, whiskers
-photo.48: ig://CUAVMVWhU8G/m
-photo.48.author: ifumoto88
-photo.48.commitdate: 2021/9/29
-photo.48.link: https://www.instagram.com/ifumoto88/
-photo.48.tags: laying down, portrait, sleeping
-photo.49: ig://CVsXpFIFkyP/m
-photo.49.author: miis_98
-photo.49.commitdate: 2021/11/5
-photo.49.link: https://www.instagram.com/miis_98/
-photo.49.tags: paws, portrait, smile
-photo.50: ig://CWAP4iAh8mP/m
-photo.50.author: resapan.suki
-photo.50.commitdate: 2021/12/9
-photo.50.link: https://www.instagram.com/resapan.suki/
-photo.50.tags: apple time, close-up, paws, videolink
-photo.51: ig://CW8NGfvl0h5/m
-photo.51.author: fetorus_mami
-photo.51.commitdate: 2022/1/9
-photo.51.link: https://www.instagram.com/fetorus_mami/
-photo.51.tags: bamboo, paws, smile, standing, tail
-photo.52: ig://CXTLXDcvpxZ/m
-photo.52.author: minatomirai215
-photo.52.commitdate: 2022/1/15
-photo.52.link: https://www.instagram.com/minatomirai215/
-photo.52.tags: bamboo, paws, portrait, standing, tail
+photo.48: ig://CTmTU8xhmte/m
+photo.48.author: grskus_tk
+photo.48.commitdate: 2022/1/15
+photo.48.link: https://www.instagram.com/grskus_tk/
+photo.48.tags: peek
+photo.49: ig://CUAVMVWhU8G/m
+photo.49.author: ifumoto88
+photo.49.commitdate: 2021/9/29
+photo.49.link: https://www.instagram.com/ifumoto88/
+photo.49.tags: laying down, portrait, sleeping
+photo.50: ig://CVsXpFIFkyP/m
+photo.50.author: miis_98
+photo.50.commitdate: 2021/11/5
+photo.50.link: https://www.instagram.com/miis_98/
+photo.50.tags: paws, portrait, smile
+photo.51: ig://CWAP4iAh8mP/m
+photo.51.author: resapan.suki
+photo.51.commitdate: 2021/12/9
+photo.51.link: https://www.instagram.com/resapan.suki/
+photo.51.tags: apple time, close-up, paws, videolink
+photo.52: ig://CW8NGfvl0h5/m
+photo.52.author: fetorus_mami
+photo.52.commitdate: 2022/1/9
+photo.52.link: https://www.instagram.com/fetorus_mami/
+photo.52.tags: bamboo, paws, smile, standing, tail
 photo.53: https: //www.instagram.com/p/CRNrbjUhmMx/media/?size=m
 photo.53.author: grskus_tk
 photo.53.link: https://www.instagram.com/grskus_tk/
-photo.54: https://www.instagram.com/p/CTmTU8xhmte/media/?size=m
-photo.54.author: grskus_tk
-photo.54.link: https://www.instagram.com/grskus_tk/
-photo.54.tags: peek
+photo.54: ig://CXTLXDcvpxZ/m
+photo.54.author: minatomirai215
+photo.54.commitdate: 2022/1/15
+photo.54.link: https://www.instagram.com/minatomirai215/
+photo.54.tags: bamboo, paws, portrait, standing, tail
 species: 2
 studbook.id: 13160
 zoo: 26

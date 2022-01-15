@@ -279,15 +279,16 @@ photo.53.author: alto0908
 photo.53.commitdate: 2021/8/18
 photo.53.link: https://www.instagram.com/alto0908/
 photo.53.tags: close-up, mofumofu, portrait
-photo.54: ig://CUjXCqzhvPt/m
-photo.54.author: nasu_animal_kingdom
-photo.54.commitdate: 2021/12/17
-photo.54.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.54.tags: apple time, paws, standing, videolink
-photo.55: https://www.instagram.com/p/CT127p_hJPL/media/?size=m
-photo.55.author: panda.daisuki
-photo.55.link: https://www.instagram.com/panda.daisuki/
-photo.55.tags: apple time, bite, mofumofu, portrait, whiskers
+photo.54: ig://CT127p_hJPL/m
+photo.54.author: panda.daisuki
+photo.54.commitdate: 2022/1/15
+photo.54.link: https://www.instagram.com/panda.daisuki/
+photo.54.tags: apple time, bite, mofumofu, portrait, whiskers
+photo.55: ig://CUjXCqzhvPt/m
+photo.55.author: nasu_animal_kingdom
+photo.55.commitdate: 2021/12/17
+photo.55.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.55.tags: apple time, paws, standing, videolink
 species: 2
 studbook.id: 13169
 video.1: https://youtu.be/HQ_OsRtj6T0
