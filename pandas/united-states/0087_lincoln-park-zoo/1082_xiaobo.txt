@@ -50,11 +50,14 @@ photo.7.author: uticazoo
 photo.7.commitdate: 2020/8/15
 photo.7.link: https://www.instagram.com/uticazoo/
 photo.7.tags: paws, smile
-photo.8: ig://CT2WLJNpsOU/m
+photo.8: https://www.instagram.com/p/CV5Y5k9M4tp/media/?size=m
 photo.8.author: lincolnparkzoo
-photo.8.commitdate: 2022/1/15
 photo.8.link: https://www.instagram.com/lincolnparkzoo/
-photo.8.tags: portrait, whiskers
+photo.8.tags: paws
+photo.9: https://www.instagram.com/p/CVfnzk2MSz4/media/?size=m
+photo.9.author: lincolnparkzoo
+photo.9.link: https://www.instagram.com/lincolnparkzoo/
+photo.9.tags: peek, whiskers
 species: 2
 uncertainty: location.2 exact month/day
 zoo: 87

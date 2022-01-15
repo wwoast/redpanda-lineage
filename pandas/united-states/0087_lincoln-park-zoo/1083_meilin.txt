@@ -30,6 +30,15 @@ photo.3.author: uticazoo
 photo.3.commitdate: 2021/8/6
 photo.3.link: https://www.instagram.com/uticazoo/
 photo.3.tags: portrait, snow, toys, whiskers
+photo.4: ig://CT2WLJNpsOU/m
+photo.4.author: lincolnparkzoo
+photo.4.commitdate: 2022/1/15
+photo.4.link: https://www.instagram.com/lincolnparkzoo/
+photo.4.tags: portrait, profile, whiskers
+photo.5: https://www.instagram.com/p/CYPh6QCp41m/media/?size=m
+photo.5.author: worldthathesees
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: carry, tail
 species: 2
 uncertainty: location.2 exact month/day
 zoo: 87
