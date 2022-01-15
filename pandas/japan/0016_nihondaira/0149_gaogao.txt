@@ -353,44 +353,46 @@ photo.68.author: kijyo.zoo
 photo.68.commitdate: 2021/10/17
 photo.68.link: https://www.instagram.com/kijyo.zoo/
 photo.68.tags: keeper, paws, standing, videolink
-photo.69: ig://CV_7C1VFeHZ/m
+photo.69: ig://CVcF_iJrUdK/m
 photo.69.author: lesserpanda_shizuokacity_cp
-photo.69.commitdate: 2021/12/9
+photo.69.commitdate: 2022/1/15
 photo.69.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.69.tags: paws, tail
-photo.70: ig://CWVejvUhY8X/m
-photo.70.author: taka__3428
-photo.70.commitdate: 2021/11/28
-photo.70.link: https://www.instagram.com/taka__3428/
-photo.70.tags: close-up, portrait, whiskers
-photo.71: ig://CWx1g_rhTq-/m
+photo.69.tags: peek, tail
+photo.70: ig://CV_7C1VFeHZ/m
+photo.70.author: lesserpanda_shizuokacity_cp
+photo.70.commitdate: 2021/12/9
+photo.70.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.70.tags: paws, tail
+photo.71: ig://CWVejvUhY8X/m
 photo.71.author: taka__3428
-photo.71.commitdate: 2022/1/7
+photo.71.commitdate: 2021/11/28
 photo.71.link: https://www.instagram.com/taka__3428/
-photo.71.tags: blink, itchy, paws, tongue
-photo.72: ig://CW4Nrl5hdd8/m
-photo.72.author: miis_98
-photo.72.commitdate: 2022/1/9
-photo.72.link: https://www.instagram.com/miis_98/
-photo.72.tags: paws, portrait, sample, whiskers
-photo.73: ig://CW5dEquBOmS/m
+photo.71.tags: close-up, portrait, whiskers
+photo.72: ig://CWkBI2mFSB2/m
+photo.72.author: lesserpanda_shizuokacity_cp
+photo.72.commitdate: 2022/1/15
+photo.72.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.72.tags: bamboo, peek
+photo.73: ig://CWx1g_rhTq-/m
 photo.73.author: taka__3428
-photo.73.commitdate: 2022/1/10
+photo.73.commitdate: 2022/1/7
 photo.73.link: https://www.instagram.com/taka__3428/
-photo.73.tags: paws, peek, sample, whiskers
-photo.74: ig://CW9w-_xhpu2/m
-photo.74.author: otenba_redpanda
-photo.74.commitdate: 2022/1/7
-photo.74.link: https://www.instagram.com/otenba_redpanda/
-photo.74.tags: bamboo, portrait, sample, whiskers
-photo.75: https://www.instagram.com/p/CWkBI2mFSB2/media/?size=m
-photo.75.author: lesserpanda_shizuokacity_cp
-photo.75.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.75.tags: bamboo, peek
-photo.76: https://www.instagram.com/p/CVcF_iJrUdK/media/?size=m
-photo.76.author: lesserpanda_shizuokacity_cp
-photo.76.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.76.tags: peek, tail
+photo.73.tags: blink, itchy, paws, tongue
+photo.74: ig://CW4Nrl5hdd8/m
+photo.74.author: miis_98
+photo.74.commitdate: 2022/1/9
+photo.74.link: https://www.instagram.com/miis_98/
+photo.74.tags: paws, portrait, sample, whiskers
+photo.75: ig://CW5dEquBOmS/m
+photo.75.author: taka__3428
+photo.75.commitdate: 2022/1/10
+photo.75.link: https://www.instagram.com/taka__3428/
+photo.75.tags: paws, peek, sample, whiskers
+photo.76: ig://CW9w-_xhpu2/m
+photo.76.author: otenba_redpanda
+photo.76.commitdate: 2022/1/7
+photo.76.link: https://www.instagram.com/otenba_redpanda/
+photo.76.tags: bamboo, portrait, sample, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

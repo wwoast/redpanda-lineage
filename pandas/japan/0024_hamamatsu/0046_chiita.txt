@@ -994,30 +994,31 @@ photo.197.author: hamamatsu.chiita
 photo.197.commitdate: 2021/11/29
 photo.197.link: https://www.instagram.com/hamamatsu.chiita/
 photo.197.tags: portrait, whiskers
-photo.198: ig://CWx0E7NBPIM/m
+photo.198: ig://CWl0qK2BHYS/m
 photo.198.author: hamamatsu.chiita
-photo.198.commitdate: 2022/1/9
+photo.198.commitdate: 2022/1/15
 photo.198.link: https://www.instagram.com/hamamatsu.chiita/
-photo.198.tags: portrait, whiskers
-photo.199: ig://CW5i2sBBiEZ/m
-photo.199.author: taka__3428
-photo.199.commitdate: 2022/1/10
-photo.199.link: https://www.instagram.com/taka__3428/
-photo.199.tags: itchy, paws, sample, wave
-photo.200: ig://CYHycHThzYv/m
-photo.200.author: hamamatsu.chiita
-photo.200.commitdate: 2022/1/6
-photo.200.link: https://www.instagram.com/hamamatsu.chiita/
-photo.200.tags: portrait, whiskers
-photo.201: ig://CYLuadDP4IZ/m
+photo.198.tags: home, paws, portrait, sample, whiskers
+photo.199: ig://CWx0E7NBPIM/m
+photo.199.author: hamamatsu.chiita
+photo.199.commitdate: 2022/1/9
+photo.199.link: https://www.instagram.com/hamamatsu.chiita/
+photo.199.tags: portrait, whiskers
+photo.200: ig://CW5i2sBBiEZ/m
+photo.200.author: taka__3428
+photo.200.commitdate: 2022/1/10
+photo.200.link: https://www.instagram.com/taka__3428/
+photo.200.tags: itchy, paws, sample, wave
+photo.201: ig://CYHycHThzYv/m
 photo.201.author: hamamatsu.chiita
-photo.201.commitdate: 2022/1/14
+photo.201.commitdate: 2022/1/6
 photo.201.link: https://www.instagram.com/hamamatsu.chiita/
-photo.201.tags: paws, whiskers
-photo.202: https://www.instagram.com/p/CWl0qK2BHYS/media/?size=m
+photo.201.tags: portrait, whiskers
+photo.202: ig://CYLuadDP4IZ/m
 photo.202.author: hamamatsu.chiita
+photo.202.commitdate: 2022/1/14
 photo.202.link: https://www.instagram.com/hamamatsu.chiita/
-photo.202.tags: home, paws, portrait, sample, whiskers
+photo.202.tags: paws, whiskers
 species: 2
 studbook.id: 0869
 video.1: https://youtu.be/-WMjIqoEK1U

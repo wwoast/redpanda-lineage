@@ -436,8 +436,9 @@ photo.85.author: happy_love2.15
 photo.85.commitdate: 2021/11/20
 photo.85.link: https://www.instagram.com/happy_love2.15/
 photo.85.tags: baby, mofumofu, portrait, tree
-photo.86: https://www.instagram.com/p/CWWgkQcB_RD/media/?size=m
+photo.86: ig://CWWgkQcB_RD/m
 photo.86.author: rie_panda55
+photo.86.commitdate: 2022/1/15
 photo.86.link: https://www.instagram.com/rie_panda55/
 photo.86.tags: bamboo, bridge, portrait, sample, smile, whiskers
 species: 2
