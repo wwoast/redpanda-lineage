@@ -410,8 +410,9 @@ photo.79.author: bubbles_octi
 photo.79.commitdate: 2022/1/14
 photo.79.link: https://www.instagram.com/bubbles_octi/
 photo.79.tags: close-up, portrait, sample, whiskers
-photo.80: https://www.instagram.com/p/CYTtZ3RP_Lh/media/?size=m
+photo.80: ig://CYTtZ3RP_Lh/m
 photo.80.author: redpanda_nippon_takashi
+photo.80.commitdate: 2022/1/15
 photo.80.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.80.tags: peek, whiskers
 species: 2

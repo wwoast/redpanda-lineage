@@ -143,67 +143,75 @@ photo.26.author: resapan.suki
 photo.26.commitdate: 2021/12/21
 photo.26.link: https://www.instagram.com/resapan.suki/
 photo.26.tags: bamboo, laying down, paws, playing, portrait, sample, upside-down
-photo.27: ig://CXPWMoSB1W8/m
-photo.27.author: otenba_redpanda
-photo.27.commitdate: 2021/12/30
-photo.27.link: https://www.instagram.com/otenba_redpanda/
-photo.27.tags: laying down, mofumofu, paws, portrait, tail
-photo.28: ig://CXTIyfyB5bX/m
-photo.28.author: daniele.tokyo
-photo.28.commitdate: 2022/1/7
-photo.28.link: https://www.instagram.com/daniele.tokyo/
-photo.28.tags: baby, mofumofu, paws, tail, techitechi
-photo.29: ig://CXTnYgHBzYn/m
-photo.29.author: redpan22
-photo.29.commitdate: 2021/12/26
-photo.29.link: https://www.instagram.com/redpan22/
-photo.29.tags: bamboo, close-up, paws, snow
-photo.30: ig://miis_98/CXTuxGapdyu/m
-photo.30.author: miis_98
-photo.30.commitdate: 2022/1/7
-photo.30.link: https://www.instagram.com/miis_98/
-photo.30.tags: mofumofu, paws, smile, whiskers
-photo.31: ig://CXgwBMgh7Np/m
-photo.31.author: resapan.suki
-photo.31.commitdate: 2022/1/7
-photo.31.link: https://www.instagram.com/resapan.suki/
-photo.31.tags: playing, portrait, videolink
-photo.32: ig://CYFaQ_aBuUu/m
-photo.32.author: alto0908
-photo.32.commitdate: 2022/1/6
-photo.32.link: https://www.instagram.com/alto0908/
-photo.32.tags: bamboo, mofumofu, portrait
-photo.33: https://www.instagram.com/otenba_redpanda/p/CYQ2XPkvJFB/media/?size=m
-photo.33.author: otenba_redpanda
-photo.33.link: https://www.instagram.com/otenba_redpanda/
-photo.33.tags: close-up, portrait, sample, whiskers
-photo.34: https://www.instagram.com/p/CXBRVTxBW5w/media/?size=m
-photo.34.author: redpan22
-photo.34.link: https://www.instagram.com/redpan22/
-photo.34.tags: paws, portrait, standing
-photo.35: https://www.instagram.com/p/CW8QZEiBo6Q/media/?size=m
-photo.35.author: redpan22
-photo.35.link: https://www.instagram.com/redpan22/
-photo.35.tags: peek, portrait
-photo.36: https://www.instagram.com/p/CXD_9WmFywn/media/?size=m
-photo.36.author: tomo3700
-photo.36.link: https://www.instagram.com/tomo3700/
-photo.36.tags: laying down, peek, portrait
-photo.37: https://www.instagram.com/p/CXGms71BYMb/media/?size=m
+photo.27: ig://CW8QZEiBo6Q/m
+photo.27.author: redpan22
+photo.27.commitdate: 2022/1/15
+photo.27.link: https://www.instagram.com/redpan22/
+photo.27.tags: peek, portrait
+photo.28: ig://CXBRVTxBW5w/m
+photo.28.author: redpan22
+photo.28.commitdate: 2022/1/15
+photo.28.link: https://www.instagram.com/redpan22/
+photo.28.tags: paws, portrait, standing
+photo.29: ig://CXD_9WmFywn/m
+photo.29.author: tomo3700
+photo.29.commitdate: 2022/1/15
+photo.29.link: https://www.instagram.com/tomo3700/
+photo.29.tags: laying down, peek, portrait
+photo.30: ig://CXGms71BYMb/m
+photo.30.author: redpan22
+photo.30.commitdate: 2022/1/15
+photo.30.link: https://www.instagram.com/redpan22/
+photo.30.tags: bamboo, close-up, mofumofu
+photo.31: ig://CXPWMoSB1W8/m
+photo.31.author: otenba_redpanda
+photo.31.commitdate: 2021/12/30
+photo.31.link: https://www.instagram.com/otenba_redpanda/
+photo.31.tags: laying down, mofumofu, paws, portrait, tail
+photo.32: ig://CXTIyfyB5bX/m
+photo.32.author: daniele.tokyo
+photo.32.commitdate: 2022/1/7
+photo.32.link: https://www.instagram.com/daniele.tokyo/
+photo.32.tags: baby, mofumofu, paws, tail, techitechi
+photo.33: ig://CXTnYgHBzYn/m
+photo.33.author: redpan22
+photo.33.commitdate: 2021/12/26
+photo.33.link: https://www.instagram.com/redpan22/
+photo.33.tags: bamboo, close-up, paws, snow
+photo.34: ig://miis_98/CXTuxGapdyu/m
+photo.34.author: miis_98
+photo.34.commitdate: 2022/1/7
+photo.34.link: https://www.instagram.com/miis_98/
+photo.34.tags: mofumofu, paws, smile, whiskers
+photo.35: ig://CXgwBMgh7Np/m
+photo.35.author: resapan.suki
+photo.35.commitdate: 2022/1/7
+photo.35.link: https://www.instagram.com/resapan.suki/
+photo.35.tags: playing, portrait, videolink
+photo.36: ig://CXitg_Thq_N/m
+photo.36.author: ssc6105
+photo.36.commitdate: 2022/1/15
+photo.36.link: https://www.instagram.com/ssc6105/
+photo.36.tags: bamboo, paws, tongue
+photo.37: ig://CXlpUkjh69v/m
 photo.37.author: redpan22
+photo.37.commitdate: 2022/1/15
 photo.37.link: https://www.instagram.com/redpan22/
-photo.37.tags: bamboo, close-up, mofumofu
-photo.38: https://www.instagram.com/p/CXitg_Thq_N/media/?size=m
-photo.38.author: ssc6105
-photo.38.link: https://www.instagram.com/ssc6105/
-photo.38.tags: bamboo, paws, tongue
-photo.39: https://www.instagram.com/p/CXlpUkjh69v/media/?size=m
-photo.39.author: redpan22
-photo.39.link: https://www.instagram.com/redpan22/
-photo.39.tags: mofumofu, snow
-photo.40: https://www.instagram.com/na.mo.pan/p/CYF6557PzqX/media/?size=m
-photo.40.author: na.mo.pan
-photo.40.link: https://www.instagram.com/na.mo.pan/
-photo.40.tags: bamboo, paws, portrait, sample, whiskers
+photo.37.tags: mofumofu, snow
+photo.38: ig://CYFaQ_aBuUu/m
+photo.38.author: alto0908
+photo.38.commitdate: 2022/1/6
+photo.38.link: https://www.instagram.com/alto0908/
+photo.38.tags: bamboo, mofumofu, portrait
+photo.39: ig://na.mo.pan/CYF6557PzqX/m
+photo.39.author: na.mo.pan
+photo.39.commitdate: 2022/1/15
+photo.39.link: https://www.instagram.com/na.mo.pan/
+photo.39.tags: bamboo, paws, portrait, sample, whiskers
+photo.40: ig://otenba_redpanda/CYQ2XPkvJFB/m
+photo.40.author: otenba_redpanda
+photo.40.commitdate: 2022/1/15
+photo.40.link: https://www.instagram.com/otenba_redpanda/
+photo.40.tags: close-up, portrait, sample, whiskers
 species: 2
 zoo: 10

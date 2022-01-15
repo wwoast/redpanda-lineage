@@ -273,8 +273,9 @@ photo.52.author: otenba_redpanda
 photo.52.commitdate: 2022/1/7
 photo.52.link: https://www.instagram.com/otenba_redpanda/
 photo.52.tags: close-up, peek, portrait, sample, whiskers
-photo.53: https://www.instagram.com/p/CYStMCovD45/media/?size=m
+photo.53: ig://CYStMCovD45/m
 photo.53.author: lesserpanda_shizuokacity_cp
+photo.53.commitdate: 2022/1/15
 photo.53.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.53.tags: peek, tree
 species: 2

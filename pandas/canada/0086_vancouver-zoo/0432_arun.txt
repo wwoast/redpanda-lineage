@@ -639,8 +639,9 @@ photo.126.author: westcoast_kathy
 photo.126.commitdate: 2022/1/14
 photo.126.link: https://www.instagram.com/westcoast_kathy/
 photo.126.tags: nose, peek, snow
-photo.127: https://www.instagram.com/p/CYSMWSHvzXn/media/?size=m
+photo.127: ig://CYSMWSHvzXn/m
 photo.127.author: westcoast_kathy
+photo.127.commitdate: 2022/1/15
 photo.127.link: https://www.instagram.com/westcoast_kathy/
 photo.127.tags: portrait, sample, whiskers
 species: 2

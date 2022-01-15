@@ -35,8 +35,9 @@ photo.4.author: lincolnparkzoo
 photo.4.commitdate: 2022/1/15
 photo.4.link: https://www.instagram.com/lincolnparkzoo/
 photo.4.tags: portrait, profile, whiskers
-photo.5: https://www.instagram.com/p/CYPh6QCp41m/media/?size=m
+photo.5: ig://CYPh6QCp41m/m
 photo.5.author: worldthathesees
+photo.5.commitdate: 2022/1/15
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: carry, tail
 species: 2
