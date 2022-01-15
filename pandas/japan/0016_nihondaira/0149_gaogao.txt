@@ -383,6 +383,14 @@ photo.74.author: otenba_redpanda
 photo.74.commitdate: 2022/1/7
 photo.74.link: https://www.instagram.com/otenba_redpanda/
 photo.74.tags: bamboo, portrait, sample, whiskers
+photo.75: https://www.instagram.com/p/CWkBI2mFSB2/media/?size=m
+photo.75.author: lesserpanda_shizuokacity_cp
+photo.75.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.75.tags: bamboo, peek
+photo.76: https://www.instagram.com/p/CVcF_iJrUdK/media/?size=m
+photo.76.author: lesserpanda_shizuokacity_cp
+photo.76.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.76.tags: peek, tail
 species: 2
 studbook.id: 15138
 zoo: 16
