@@ -23,11 +23,15 @@ photo.1.author: eriezoo
 photo.1.commitdate: 2019/9/21
 photo.1.link: https://www.instagram.com/eriezoo/
 photo.1.tags: portrait, profile, white face
-photo.2: ig://CFKMEXgsjV-/m
-photo.2.author: syracusezoo
-photo.2.commitdate: 2020/9/16
-photo.2.link: https://www.instagram.com/syracusezoo/
-photo.2.tags: white face
+photo.2: ig://CQJi66JF-_q/m
+photo.2.author: charlespaddockzoo
+photo.2.commitdate: 2021/6/18
+photo.2.link: https://www.instagram.com/charlespaddockzoo/
+photo.2.tags: bamboo, close-up, portrait, techitechi, white face
+photo.3: https://www.instagram.com/p/CY11L0pPpzx/media/?size=m
+photo.3.author: wumpwoast
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: paws, peek, portrait, whiskers
 species: 1
 studbook.id: 1310
 uncertainty: location.4 date, location.5 date
