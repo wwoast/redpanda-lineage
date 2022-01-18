@@ -662,8 +662,9 @@ photo.130.author: otenba_redpanda
 photo.130.commitdate: 2021/11/15
 photo.130.link: https://www.instagram.com/otenba_redpanda/
 photo.130.tags: mofumofu, paws, portrait, tail
-photo.131: https://www.instagram.com/p/CYmPep7BIw3/media/?size=m
+photo.131: ig://CYmPep7BIw3/m
 photo.131.author: eos1089
+photo.131.commitdate: 2022/1/18
 photo.131.link: https://www.instagram.com/eos1089/
 photo.131.tags: paws, portrait, tongue
 species: 2

@@ -16,28 +16,29 @@ litter: 524
 location.1: 108, 2013/6/1
 location.2: 154, 2014/5/13
 location.3: 129, 2021/5/1
-photo.1: ig://CFMuBxDhn1c/m
+photo.1: ig://CFKMEXgsjV-/m
 photo.1.author: syracusezoo
 photo.1.commitdate: 2020/9/16
 photo.1.link: https://www.instagram.com/syracusezoo/
-photo.1.tags: paws, tree, white face
-photo.2: ig://CK1ksU9s_XZ/m
+photo.1.tags: white face
+photo.2: ig://CFMuBxDhn1c/m
 photo.2.author: syracusezoo
-photo.2.commitdate: 2021/5/30
+photo.2.commitdate: 2020/9/16
 photo.2.link: https://www.instagram.com/syracusezoo/
-photo.2.tags: portrait, profile, smile, whiskers, white face
-photo.3: ig://CT0tt5dF3xG/m
-photo.3.author: charlespaddockzoo
-photo.3.commitdate: 2021/10/22
-photo.3.link: https://www.instagram.com/charlespaddockzoo/
-photo.3.tags: mofumofu, portrait, tail, white face
-photo.4: ig://CFKMEXgsjV-/m
-photo.4.author: syracusezoo
-photo.4.commitdate: 2020/9/16
-photo.4.link: https://www.instagram.com/syracusezoo/
-photo.4.tags: white face
-photo.5: https://www.instagram.com/p/CY4nfdOvq7_/media/?size=m
+photo.2.tags: paws, tree, white face
+photo.3: ig://CK1ksU9s_XZ/m
+photo.3.author: syracusezoo
+photo.3.commitdate: 2021/5/30
+photo.3.link: https://www.instagram.com/syracusezoo/
+photo.3.tags: portrait, profile, smile, whiskers, white face
+photo.4: ig://CT0tt5dF3xG/m
+photo.4.author: charlespaddockzoo
+photo.4.commitdate: 2021/10/22
+photo.4.link: https://www.instagram.com/charlespaddockzoo/
+photo.4.tags: mofumofu, portrait, tail, white face
+photo.5: ig://CY4nfdOvq7_/m
 photo.5.author: wumpwoast
+photo.5.commitdate: 2022/1/18
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.5.tags: paws, portrait, tail, tree, whiskers
 species: 1

@@ -393,8 +393,9 @@ photo.76.author: otenba_redpanda
 photo.76.commitdate: 2022/1/7
 photo.76.link: https://www.instagram.com/otenba_redpanda/
 photo.76.tags: bamboo, portrait, sample, whiskers
-photo.77: https://www.instagram.com/p/CYiJ9VyF2w7/media/?size=m
+photo.77: ig://CYiJ9VyF2w7/m
 photo.77.author: lesserpanda_shizuokacity_cp
+photo.77.commitdate: 2022/1/18
 photo.77.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.77.tags: paws, portrait, smile, tree, whiskers
 species: 2

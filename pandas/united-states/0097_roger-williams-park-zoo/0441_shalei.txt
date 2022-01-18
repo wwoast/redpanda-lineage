@@ -41,10 +41,11 @@ photo.5.author: worldthathesees
 photo.5.commitdate: 2022/1/10
 photo.5.link: https://www.instagram.com/worldthathesees/
 photo.5.tags: bamboo, close-up, whiskers
-photo.6: https://www.instagram.com/rwpzoo/p/CYo8fLQFNAB/media/?size=m
+photo.6: ig://rwpzoo/CYo8fLQFNAB/m
 photo.6.author: rwpzoo
+photo.6.commitdate: 2022/1/18
 photo.6.link: https://www.instagram.com/rwpzoo/
-photo.6.tags: close-up, peek, techitechi, whiskers 
+photo.6.tags: close-up, peek, techitechi, whiskers
 species: 2
 studbook.id: 0934
 zoo: 97

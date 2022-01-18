@@ -335,8 +335,9 @@ photo.64.author: mini_cochi
 photo.64.commitdate: 2022/1/6
 photo.64.link: https://www.instagram.com/mini_cochi/
 photo.64.tags: portrait, sample, whiskers
-photo.65: https://www.instagram.com/p/CYp5v2oLeZm/media/?size=m
+photo.65: ig://CYp5v2oLeZm/m
 photo.65.author: fetorus_mami
+photo.65.commitdate: 2022/1/18
 photo.65.link: https://www.instagram.com/fetorus_mami/
 photo.65.tags: peek
 species: 2

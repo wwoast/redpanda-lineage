@@ -28,8 +28,9 @@ photo.2.author: charlespaddockzoo
 photo.2.commitdate: 2021/6/18
 photo.2.link: https://www.instagram.com/charlespaddockzoo/
 photo.2.tags: bamboo, close-up, portrait, techitechi, white face
-photo.3: https://www.instagram.com/p/CY11L0pPpzx/media/?size=m
+photo.3: ig://CY11L0pPpzx/m
 photo.3.author: wumpwoast
+photo.3.commitdate: 2022/1/18
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: paws, peek, portrait, whiskers
 species: 1
