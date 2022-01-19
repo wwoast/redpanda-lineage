@@ -4,6 +4,7 @@ birthday: 2003/6/27
 birthplace: 101
 children: none
 commitdate: 2019/3/24
+death: 2021/12/21
 en.name: Isabel
 en.nicknames: none
 en.othernames: Izzie, Izzy
@@ -19,4 +20,5 @@ location.3: 85, 2005/11/17
 location.4: 161, 2008/11/12
 species: 1
 studbook.id: 0303
+uncertainty: death exact date in december 2021
 zoo: 161

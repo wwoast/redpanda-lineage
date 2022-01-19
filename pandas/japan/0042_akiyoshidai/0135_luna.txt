@@ -4,6 +4,7 @@ birthday: 2004/6/28
 birthplace: 46
 children: 32, 366, 257, 258, 302, 483, 195, 201, 259, 260
 commitdate: 2018/6/27
+death: 2022/1/18
 en.name: Luna
 en.nicknames: none
 en.othernames: none
@@ -20,7 +21,7 @@ photo.1: ig://BiPImdYFvI7/m
 photo.1.author: yossi929
 photo.1.commitdate: 2018/7/19
 photo.1.link: https://www.instagram.com/yossi929/
-photo.1.tags: profile
+photo.1.tags: portrait, profile
 photo.2: ig://BsrAE2-Fxem/m
 photo.2.author: craig_craig_craig
 photo.2.commitdate: 2019/6/23
@@ -35,7 +36,7 @@ photo.4: ig://B5BjUUFBsaJ/m
 photo.4.author: resapanlove
 photo.4.commitdate: 2019/11/26
 photo.4.link: https://www.instagram.com/resapanlove/
-photo.4.tags: portrait
+photo.4.tags: paws, portrait
 photo.5: ig://B5cgj12hKH6/m
 photo.5.author: fetorus_mami
 photo.5.commitdate: 2019/12/31
@@ -45,7 +46,7 @@ photo.6: ig://B6MzkXYBUOV/m
 photo.6.author: re_ichimaru
 photo.6.commitdate: 2019/12/30
 photo.6.link: https://www.instagram.com/re_ichimaru/
-photo.6.tags: portrait
+photo.6.tags: portrait, whiskers
 photo.7: ig://CGsfHsClBvd/m
 photo.7.author: kojikoji2011
 photo.7.commitdate: 2021/10/31

@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: 雅
 language.order: jp, en
 litter: none
+location.1: 9, 2017/6/25
+location.2: 56, 2022/1/16
 photo.1: ig://BaOnlgcF57y/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
@@ -661,4 +663,4 @@ photo.130.link: https://www.instagram.com/fetorus_mami/
 photo.130.tags: bamboo, close-up, mofumofu, sample, smile
 species: 2
 studbook.id: 1772
-zoo: 9
+zoo: 56
