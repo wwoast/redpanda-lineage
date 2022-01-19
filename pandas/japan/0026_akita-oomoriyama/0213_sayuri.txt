@@ -229,20 +229,21 @@ photo.44.author: hidehaya_biei
 photo.44.commitdate: 2021/11/21
 photo.44.link: https://www.instagram.com/hidehaya_biei/
 photo.44.tags: close-up, paws, smile, whiskers
-photo.45: ig://hidehaya_biei/CXKvzUfLpmA/m
-photo.45.author: hidehaya_biei
-photo.45.commitdate: 2021/12/30
-photo.45.link: https://www.instagram.com/hidehaya_biei/
-photo.45.tags: close-up, dish, slobber, wet, whiskers
-photo.46: ig://CXcgTJiByLB/m
-photo.46.author: minatomirai215
-photo.46.commitdate: 2021/12/22
-photo.46.link: https://www.instagram.com/minatomirai215/
-photo.46.tags: bamboo, paws, portrait, sample
-photo.47: https://www.instagram.com/p/CW2CjSclsHD/media/?size=m
-photo.47.author: fetorus_mami
-photo.47.link: https://www.instagram.com/fetorus_mami/
-photo.47.tags: bamboo, close-up, paws, peek, whiskers
+photo.45: ig://CW2CjSclsHD/m
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2022/1/19
+photo.45.link: https://www.instagram.com/fetorus_mami/
+photo.45.tags: bamboo, close-up, paws, peek, whiskers
+photo.46: ig://hidehaya_biei/CXKvzUfLpmA/m
+photo.46.author: hidehaya_biei
+photo.46.commitdate: 2021/12/30
+photo.46.link: https://www.instagram.com/hidehaya_biei/
+photo.46.tags: close-up, dish, slobber, wet, whiskers
+photo.47: ig://CXcgTJiByLB/m
+photo.47.author: minatomirai215
+photo.47.commitdate: 2021/12/22
+photo.47.link: https://www.instagram.com/minatomirai215/
+photo.47.tags: bamboo, paws, portrait, sample
 species: 2
 studbook.id: 1694
 zoo: 26

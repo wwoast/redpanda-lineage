@@ -378,8 +378,9 @@ photo.73.author: panda.daisuki
 photo.73.commitdate: 2022/1/15
 photo.73.link: https://www.instagram.com/panda.daisuki/
 photo.73.tags: apple time, keeper, paws, portrait
-photo.74: https://www.instagram.com/p/CYYy2rCP0br/media/?size=m
+photo.74: ig://CYYy2rCP0br/m
 photo.74.author: pink.b22
+photo.74.commitdate: 2022/1/19
 photo.74.link: https://www.instagram.com/pink.b22/
 photo.74.tags: peek, portrait, snow, techitechi
 species: 2

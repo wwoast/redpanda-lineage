@@ -419,8 +419,9 @@ photo.81.author: mini_cochi
 photo.81.commitdate: 2022/1/8
 photo.81.link: https://www.instagram.com/mini_cochi/
 photo.81.tags: bamboo, paws, portrait, smile, tongue
-photo.82: https://www.instagram.com/p/CYcnTTihh7J/media/?size=m
+photo.82: ig://CYcnTTihh7J/m
 photo.82.author: otenba_redpanda
+photo.82.commitdate: 2022/1/19
 photo.82.link: https://www.instagram.com/otenba_redpanda/
 photo.82.tags: close-up, mofumofu, portrait, whiskers
 species: 2

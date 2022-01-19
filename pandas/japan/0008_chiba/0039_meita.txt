@@ -753,49 +753,51 @@ photo.148.author: ck.chie
 photo.148.commitdate: 2021/9/8
 photo.148.link: https://www.instagram.com/ck.chie/
 photo.148.tags: paws, smile
-photo.149: ig://CVIltCDh9j2/m
-photo.149.author: na.mo.pan
-photo.149.commitdate: 2021/11/5
-photo.149.link: https://www.instagram.com/na.mo.pan/
-photo.149.tags: portrait, smile, whiskers
-photo.150: ig://CVM74vjhhzV/m
+photo.149: ig://fetorus_mami/CUOl5tqh4-3/m
+photo.149.author: fetorus_mami
+photo.149.commitdate: 2022/1/19
+photo.149.link: https://www.instagram.com/fetorus_mami/
+photo.149.tags: close-up, smile, tongue, whiskers
+photo.150: ig://CVIltCDh9j2/m
 photo.150.author: na.mo.pan
-photo.150.commitdate: 2021/11/14
+photo.150.commitdate: 2021/11/5
 photo.150.link: https://www.instagram.com/na.mo.pan/
-photo.150.tags: portrait, upside-down, whiskers
-photo.151: ig://CVSYPRghill/m
-photo.151.author: miis_98
-photo.151.commitdate: 2021/10/30
-photo.151.link: https://www.instagram.com/miis_98/
-photo.151.tags: portrait, whiskers
-photo.152: ig://CWQCYqPhLcx/m
-photo.152.author: craig_craig_craig
-photo.152.commitdate: 2021/12/17
-photo.152.link: https://www.instagram.com/craig_craig_craig/
-photo.152.tags: portrait, tongue, whiskers
-photo.153: ig://CWRPDZ9B-OT/m
-photo.153.author: hamamatsu.chiita
+photo.150.tags: portrait, smile, whiskers
+photo.151: ig://CVM74vjhhzV/m
+photo.151.author: na.mo.pan
+photo.151.commitdate: 2021/11/14
+photo.151.link: https://www.instagram.com/na.mo.pan/
+photo.151.tags: portrait, upside-down, whiskers
+photo.152: ig://CVSYPRghill/m
+photo.152.author: miis_98
+photo.152.commitdate: 2021/10/30
+photo.152.link: https://www.instagram.com/miis_98/
+photo.152.tags: portrait, whiskers
+photo.153: ig://CWQCYqPhLcx/m
+photo.153.author: craig_craig_craig
 photo.153.commitdate: 2021/12/17
-photo.153.link: https://www.instagram.com/hamamatsu.chiita/
-photo.153.tags: portrait, sample, whiskers
-photo.154: ig://CW1k6jfDOK1/m
-photo.154.author: otenba_redpanda
-photo.154.commitdate: 2022/1/9
-photo.154.link: https://www.instagram.com/otenba_redpanda/
-photo.154.tags: close-up, mofumofu, muzzle, portrait, smile, tongue, whiskers
-photo.155: ig://CXROQYgh8Hg/m
-photo.155.author: eos1089
-photo.155.commitdate: 2021/12/26
-photo.155.link: https://www.instagram.com/eos1089/
-photo.155.tags: portrait, whiskers
-photo.156: https://www.instagram.com/p/CYaGpqkBH7D/media/?size=m
-photo.156.author: panda.daisuki
-photo.156.link: https://www.instagram.com/panda.daisuki/
-photo.156.tags: nose, portrait, snow, tree, whiskers
-photo.157: https://www.instagram.com/fetorus_mami/p/CUOl5tqh4-3/media/?size=m
-photo.157.author: fetorus_mami
-photo.157.link: https://www.instagram.com/fetorus_mami/
-photo.157.tags: close-up, smile, tongue, whiskers
+photo.153.link: https://www.instagram.com/craig_craig_craig/
+photo.153.tags: portrait, tongue, whiskers
+photo.154: ig://CWRPDZ9B-OT/m
+photo.154.author: hamamatsu.chiita
+photo.154.commitdate: 2021/12/17
+photo.154.link: https://www.instagram.com/hamamatsu.chiita/
+photo.154.tags: portrait, sample, whiskers
+photo.155: ig://CW1k6jfDOK1/m
+photo.155.author: otenba_redpanda
+photo.155.commitdate: 2022/1/9
+photo.155.link: https://www.instagram.com/otenba_redpanda/
+photo.155.tags: close-up, mofumofu, muzzle, portrait, smile, tongue, whiskers
+photo.156: ig://CXROQYgh8Hg/m
+photo.156.author: eos1089
+photo.156.commitdate: 2021/12/26
+photo.156.link: https://www.instagram.com/eos1089/
+photo.156.tags: portrait, whiskers
+photo.157: ig://CYaGpqkBH7D/m
+photo.157.author: panda.daisuki
+photo.157.commitdate: 2022/1/19
+photo.157.link: https://www.instagram.com/panda.daisuki/
+photo.157.tags: nose, portrait, snow, tree, whiskers
 species: 2
 studbook.id: 14148
 zoo: 8
