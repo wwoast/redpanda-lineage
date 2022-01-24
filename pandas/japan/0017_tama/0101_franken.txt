@@ -563,6 +563,14 @@ photo.110.author: otenba_redpanda
 photo.110.commitdate: 2022/1/6
 photo.110.link: https://www.instagram.com/otenba_redpanda/
 photo.110.tags: autumn, mofumofu, portrait, whiskers
+photo.111: https://www.instagram.com/p/CYlrMuOrPo3/media/?size=m
+photo.111.author: ifumoto88
+photo.111.link: https://www.instagram.com/ifumoto88/
+photo.111.tags: peek, portrait, sample, tail, tree
+photo.112: https://www.instagram.com/alto0908/p/CYjM4Mxvqo5/media/?size=m
+photo.112.author: alto0908
+photo.112.link: https://www.instagram.com/alto0908/
+photo.112.tags: paws, portrait, sample, tree, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17
