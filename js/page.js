@@ -370,6 +370,11 @@ Page.home.special_tag_galleries = function() {
       "message": Message.autumn,
       "photo_count": 3,
       "taglist": ["autumn", "portrait"]
+    },
+    {
+      "message": Message.baby_photos,
+      "photo_count": 3,
+      "taglist": ["baby", "portrait"]
     }
   ];
   var choice = Query.env.paging.seed % special_galleries.length;
