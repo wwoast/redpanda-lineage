@@ -349,8 +349,9 @@ photo.67.author: gloryeui
 photo.67.commitdate: 2022/1/14
 photo.67.link: https://www.instagram.com/gloryeui/
 photo.67.tags: bridge, portrait, sample, tail
-photo.68: https://www.instagram.com/p/CYh8TLmpAKL/media/?size=m
+photo.68: ig://CYh8TLmpAKL/m
 photo.68.author: gloryeui
+photo.68.commitdate: 2022/1/23
 photo.68.link: https://www.instagram.com/gloryeui/
 photo.68.tags: peek, portrait, sample, whiskers
 species: 2

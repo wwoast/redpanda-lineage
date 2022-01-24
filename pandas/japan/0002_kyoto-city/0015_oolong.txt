@@ -1023,8 +1023,9 @@ photo.203.author: makimaru18
 photo.203.commitdate: 2022/1/6
 photo.203.link: https://www.instagram.com/makimaru18/
 photo.203.tags: close-up, paws, portrait, whiskers
-photo.204: https://www.instagram.com/p/CYkbUX1h4wC/media/?size=m
+photo.204: ig://CYkbUX1h4wC/m
 photo.204.author: motohin
+photo.204.commitdate: 2022/1/23
 photo.204.link: https://www.instagram.com/motohin/
 photo.204.tags: portrait, sample, whiskers
 species: 2

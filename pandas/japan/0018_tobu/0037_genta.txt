@@ -548,8 +548,9 @@ photo.107.author: na.mo.pan
 photo.107.commitdate: 2022/1/4
 photo.107.link: https://www.instagram.com/na.mo.pan/
 photo.107.tags: peek, portrait, sample, whiskers
-photo.108: https://www.instagram.com/p/CYrHLALFpYJ/media/?size=m
+photo.108: ig://CYrHLALFpYJ/m
 photo.108.author: miis_98
+photo.108.commitdate: 2022/1/23
 photo.108.link: https://www.instagram.com/miis_98/
 photo.108.tags: dish, paws, portrait, sample, smile, tongue, whiskers
 species: 2

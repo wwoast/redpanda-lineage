@@ -298,8 +298,9 @@ photo.57.author: itsuak
 photo.57.commitdate: 2022/1/4
 photo.57.link: https://www.instagram.com/itsuak/
 photo.57.tags: close-up, laying down, paws, portrait
-photo.58: https://www.instagram.com/p/CYmG4S_PgsE/media/?size=m
+photo.58: ig://CYmG4S_PgsE/m
 photo.58.author: itsuak
+photo.58.commitdate: 2022/1/23
 photo.58.link: https://www.instagram.com/itsuak/
 photo.58.tags: bamboo, paws, portrait, smile, whiskers
 species: 2

@@ -658,8 +658,9 @@ photo.129.author: miis_98
 photo.129.commitdate: 2021/12/19
 photo.129.link: https://www.instagram.com/miis_98/
 photo.129.tags: paws, portrait, sample, tree
-photo.130: https://www.instagram.com/p/CYqbyMZvisb/media/?size=m
+photo.130: ig://CYqbyMZvisb/m
 photo.130.author: ssc6105
+photo.130.commitdate: 2022/1/23
 photo.130.link: https://www.instagram.com/ssc6105/
 photo.130.tags: sample, smile, whiskers
 species: 2

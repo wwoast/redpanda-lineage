@@ -348,8 +348,9 @@ photo.67.author: otenba_redpanda
 photo.67.commitdate: 2022/1/19
 photo.67.link: https://www.instagram.com/otenba_redpanda/
 photo.67.tags: portrait, sample, smile, whiskers
-photo.68: https://www.instagram.com/p/CYsCa2PhGDR/media/?size=m
+photo.68: ig://CYsCa2PhGDR/m
 photo.68.author: otenba_redpanda
+photo.68.commitdate: 2022/1/23
 photo.68.link: https://www.instagram.com/otenba_redpanda/
 photo.68.tags: climb, paws, peek, tail
 species: 2

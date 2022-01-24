@@ -508,8 +508,9 @@ photo.99.author: miis_98
 photo.99.commitdate: 2021/10/17
 photo.99.link: https://www.instagram.com/miis_98/
 photo.99.tags: bridge, laying down, portrait, window
-photo.100: https://www.instagram.com/p/CYkUnWtlC7V/media/?size=m
+photo.100: ig://CYkUnWtlC7V/m
 photo.100.author: otenba_redpanda
+photo.100.commitdate: 2022/1/23
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: paws, portrait, whiskers
 species: 2
