@@ -47,7 +47,25 @@ Message.arrived_from_zoo = function(zoo, date, language) {
       text = text + field;
     }
   }
-  return text; 
+  return text;
+}
+Message.autumn = function(language) {
+  var link = document.createElement('a')
+  link.href = "#query/autumn";
+  var p = document.createElement('p');
+  for (var i in L.messages.autumn[language]) {
+    var field = L.messages.autumn[language][i];
+    var msg = document.createTextNode(field);
+    p.appendChild(msg);
+  }
+  var shrinker = document.createElement('div');
+  shrinker.className = "shrinker";
+  shrinker.appendChild(p);
+  var message = document.createElement('div');
+  message.className = "tagSummary";
+  message.appendChild(shrinker);
+  link.appendChild(message);
+  return link;
 }
 Message.birthday = function(name, animal_id, years, language) {
   var link = document.createElement('a');

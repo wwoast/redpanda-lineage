@@ -1964,7 +1964,8 @@ Pandas.groupMediaCaption = function(entity, photo_index) {
   // Read off their names into the output string and return
   if (animals.length > 0) {
     var connector = Language.L.messages["and"][L.display];
-    if ((animals.length > 2) && (L.display == "en")) {
+    // HACK: Assume latin languages do comma-replacement the same way
+    if ((animals.length > 2) && (Language.alphabets.latin.indexOf(L.display) != -1)) {
       connector = Language.L.messages["comma"][L.display];
       output_string = animals.map(x => x.name).join(connector);
       var last_animal = animals[animals.length-1];

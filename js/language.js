@@ -53,7 +53,6 @@ Language.alphabets = {
   "latin": ["de", "dk", "en", "es", "fr", "nl", "pl", "pt", "se"],
 }
 
-
 // Character translation tables per language. Just hiragana/katakana.
 // Define this for all objects, not just for the instance.
 Language.charset = {
@@ -873,6 +872,26 @@ Language.L.messages = {
     "pt": ["<INSERTDATE>",
            ", desde ",
            "<INSERTZOO>"]
+  },
+  "autumn": {
+    "cn": [Language.L.emoji.autumn, 
+           " 变色的季节 ",
+           Language.L.emoji.autumn],
+    "en": [Language.L.emoji.autumn,
+           " Season of changing colors ",
+           Language.L.emoji.autumn],
+    "es": [Language.L.emoji.autumn,
+           " Temporada de colores cambiantes ",
+           Language.L.emoji.autumn],
+    "jp": [Language.L.emoji.autumn,
+           " 色が変わる季節 ",
+           Language.L.emoji.autumn],
+    "np": [Language.L.emoji.autumn, 
+           " रंग परिवर्तन को मौसम ",
+           Language.L.emoji.autumn],
+    "pt": [Language.L.emoji.autumn,
+           " Estação de mudança de cores ",
+           Language.L.emoji.autumn],
   },
   "birthday_overflow": {
     "cn": [Language.L.emoji.fireworks,

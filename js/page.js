@@ -299,7 +299,7 @@ Page.home.render = function() {
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["135", "30"], 3, Message.memorial);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["135"], 3, Message.memorial);
     new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["79"], 5, Message.missing_you);
@@ -313,10 +313,10 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Special galleries
-    // if (birthday_count <= 2) {
-    //  var special_galleries = Page.home.special_galleries();
-    //  new_content.appendChild(special_galleries);
-    // }
+    if (birthday_count <= 2) {
+      var special_galleries = Page.home.special_galleries();
+      new_content.appendChild(special_galleries);
+    }
     var nearby = Message.findNearbyZoo(L.display);
     new_content.appendChild(nearby);
     var new_photos = Gallery.updatedNewPhotoCredits(L.display);
@@ -365,6 +365,11 @@ Page.home.special_tag_galleries = function() {
       "message": Message.lunch_time,
       "photo_count": 3,
       "taglist": ["apple time", "portrait", "snow"]
+    },
+    {
+      "message": Message.autumn,
+      "photo_count": 3,
+      "taglist": ["autumn", "portrait"]
     }
   ];
   var choice = Query.env.paging.seed % special_galleries.length;
