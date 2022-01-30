@@ -69,7 +69,7 @@ photo.11: ig://B9OTOXphd8i/m
 photo.11.author: fuji_safari
 photo.11.commitdate: 2020/5/19
 photo.11.link: https://www.instagram.com/fuji_safari/
-photo.11.tags: portrait, profile
+photo.11.tags: portrait, sample
 photo.12: ig://B9Y2w6dB85H/m
 photo.12.author: fuji_safari
 photo.12.commitdate: 2020/5/19
@@ -290,6 +290,10 @@ photo.55.author: miis_98
 photo.55.commitdate: 2022/1/6
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: portrait, tail, whiskers
+photo.56: https://www.instagram.com/miis_98/p/CYm5fuChrLv/media/?size=m
+photo.56.author: miis_98
+photo.56.link: https://www.instagram.com/miis_98/
+photo.56.tags: peek, portrait, profile, sample, tree
 species: 2
 studbook.id: 12119
 zoo: 23
