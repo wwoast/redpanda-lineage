@@ -52,8 +52,9 @@ photo.7.author: reidparkzoo
 photo.7.commitdate: 2020/10/13
 photo.7.link: https://www.instagram.com/reidparkzoo/
 photo.7.tags: laying down, paws, portrait
-photo.8: https://www.instagram.com/worldthathesees/p/CXlQ0SCLiYG/media/?size=m
+photo.8: ig://worldthathesees/CXlQ0SCLiYG/m
 photo.8.athor: worldthathesees
+photo.8.commitdate: 2022/1/29
 photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: nose, peek
 species: 1

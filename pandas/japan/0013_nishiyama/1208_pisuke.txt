@@ -588,15 +588,16 @@ photo.115.author: hamamatsu.chiita
 photo.115.commitdate: 2021/11/7
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
 photo.115.tags: close-up, laying down, mofumofu, portrait
-photo.116: ig://CYM62z7Bl7t/m
-photo.116.author: hamamatsu.chiita
-photo.116.commitdate: 2022/1/4
-photo.116.link: https://www.instagram.com/hamamatsu.chiita/
-photo.116.tags: close-up, mofumofu, portrait, whiskers
-photo.117: https://www.instagram.com/p/CWsuwLNlPAD/media/?size=m
-photo.117.author: tomo3700
-photo.117.link: https://www.instagram.com/tomo3700/
-photo.117.tags: portrait, whiskers
+photo.116: ig://CWsuwLNlPAD/m
+photo.116.author: tomo3700
+photo.116.commitdate: 2022/1/29
+photo.116.link: https://www.instagram.com/tomo3700/
+photo.116.tags: portrait, whiskers
+photo.117: ig://CYM62z7Bl7t/m
+photo.117.author: hamamatsu.chiita
+photo.117.commitdate: 2022/1/4
+photo.117.link: https://www.instagram.com/hamamatsu.chiita/
+photo.117.tags: close-up, mofumofu, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13

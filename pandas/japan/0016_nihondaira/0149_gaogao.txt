@@ -373,35 +373,36 @@ photo.72.author: lesserpanda_shizuokacity_cp
 photo.72.commitdate: 2022/1/15
 photo.72.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.72.tags: bamboo, peek
-photo.73: ig://CWx1g_rhTq-/m
-photo.73.author: taka__3428
-photo.73.commitdate: 2022/1/7
-photo.73.link: https://www.instagram.com/taka__3428/
-photo.73.tags: blink, itchy, paws, tongue
-photo.74: ig://CW4Nrl5hdd8/m
-photo.74.author: miis_98
-photo.74.commitdate: 2022/1/9
-photo.74.link: https://www.instagram.com/miis_98/
-photo.74.tags: paws, portrait, sample, whiskers
-photo.75: ig://CW5dEquBOmS/m
-photo.75.author: taka__3428
-photo.75.commitdate: 2022/1/10
-photo.75.link: https://www.instagram.com/taka__3428/
-photo.75.tags: paws, peek, sample, whiskers
-photo.76: ig://CW9w-_xhpu2/m
-photo.76.author: otenba_redpanda
-photo.76.commitdate: 2022/1/7
-photo.76.link: https://www.instagram.com/otenba_redpanda/
-photo.76.tags: bamboo, portrait, sample, whiskers
-photo.77: ig://CYiJ9VyF2w7/m
-photo.77.author: lesserpanda_shizuokacity_cp
-photo.77.commitdate: 2022/1/18
-photo.77.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.77.tags: paws, portrait, smile, tree, whiskers
-photo.78: https://www.instagram.com/p/CWn3v97h05Z/media/?size=m
-photo.78.author: nakacchi_desu
-photo.78.link: https://www.instagram.com/nakacchi_desu/
-photo.78.tags: peek, bridge
+photo.73: ig://CWn3v97h05Z/m
+photo.73.author: nakacchi_desu
+photo.73.commitdate: 2022/1/29
+photo.73.link: https://www.instagram.com/nakacchi_desu/
+photo.73.tags: peek, bridge
+photo.74: ig://CWx1g_rhTq-/m
+photo.74.author: taka__3428
+photo.74.commitdate: 2022/1/7
+photo.74.link: https://www.instagram.com/taka__3428/
+photo.74.tags: blink, itchy, paws, tongue
+photo.75: ig://CW4Nrl5hdd8/m
+photo.75.author: miis_98
+photo.75.commitdate: 2022/1/9
+photo.75.link: https://www.instagram.com/miis_98/
+photo.75.tags: paws, portrait, sample, whiskers
+photo.76: ig://CW5dEquBOmS/m
+photo.76.author: taka__3428
+photo.76.commitdate: 2022/1/10
+photo.76.link: https://www.instagram.com/taka__3428/
+photo.76.tags: paws, peek, sample, whiskers
+photo.77: ig://CW9w-_xhpu2/m
+photo.77.author: otenba_redpanda
+photo.77.commitdate: 2022/1/7
+photo.77.link: https://www.instagram.com/otenba_redpanda/
+photo.77.tags: bamboo, portrait, sample, whiskers
+photo.78: ig://CYiJ9VyF2w7/m
+photo.78.author: lesserpanda_shizuokacity_cp
+photo.78.commitdate: 2022/1/18
+photo.78.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.78.tags: paws, portrait, smile, tree, whiskers
 species: 2
 studbook.id: 15138
 zoo: 16

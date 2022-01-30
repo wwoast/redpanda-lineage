@@ -628,25 +628,26 @@ photo.123.author: takahisakaneuchi
 photo.123.commitdate: 2021/11/28
 photo.123.link: https://www.instagram.com/takahisakaneuchi/
 photo.123.tags: door, portrait, whiskers
-photo.124: ig://CXDym7zhmZ7/m
-photo.124.author: panda.daisuki
-photo.124.commitdate: 2022/1/9
-photo.124.link: https://www.instagram.com/panda.daisuki/
-photo.124.tags: apple time, mofumofu, paws, portrait, whiskers
-photo.125: ig://CXlB9biPX42/m
-photo.125.author: otenba_redpanda
-photo.125.commitdate: 2021/12/22
-photo.125.link: https://www.instagram.com/otenba_redpanda/
-photo.125.tags: bamboo, paws, portrait, sample, tongue
-photo.126: ig://CYmMAtbBHXU/m
-photo.126.author: minatomirai215
-photo.126.commitdate: 2022/1/23
-photo.126.link: https://www.instagram.com/minatomirai215/
-photo.126.tags: peek, portrait, sample, tree
-photo.127: https://www.instagram.com/p/CW0HcWwrOWA/media/?size=m
-photo.127.author: otenba_redpanda
-photo.127.link: https://www.instagram.com/otenba_redpanda/
-photo.127.tags: bamboo, mofumofu, portrait, whiskers
+photo.124: ig://CW0HcWwrOWA/m
+photo.124.author: otenba_redpanda
+photo.124.commitdate: 2022/1/29
+photo.124.link: https://www.instagram.com/otenba_redpanda/
+photo.124.tags: bamboo, mofumofu, portrait, whiskers
+photo.125: ig://CXDym7zhmZ7/m
+photo.125.author: panda.daisuki
+photo.125.commitdate: 2022/1/9
+photo.125.link: https://www.instagram.com/panda.daisuki/
+photo.125.tags: apple time, mofumofu, paws, portrait, whiskers
+photo.126: ig://CXlB9biPX42/m
+photo.126.author: otenba_redpanda
+photo.126.commitdate: 2021/12/22
+photo.126.link: https://www.instagram.com/otenba_redpanda/
+photo.126.tags: bamboo, paws, portrait, sample, tongue
+photo.127: ig://CYmMAtbBHXU/m
+photo.127.author: minatomirai215
+photo.127.commitdate: 2022/1/23
+photo.127.link: https://www.instagram.com/minatomirai215/
+photo.127.tags: peek, portrait, sample, tree
 species: 2
 studbook.id: 13155
 zoo: 8

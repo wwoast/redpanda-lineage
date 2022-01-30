@@ -33,8 +33,9 @@ photo.3.author: mnzoo
 photo.3.commitdate: 2021/9/21
 photo.3.link: https://www.instagram.com/mnzoo/
 photo.3.tags: laying down, tree
-photo.4: https://www.instagram.com/p/CXLpMPCLBHy/media/?size=m
+photo.4: ig://CXLpMPCLBHy/m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2022/1/29
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: techitechi, whiskers
 species: 1

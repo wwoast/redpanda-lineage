@@ -31,8 +31,9 @@ photo.3.author: worldthathesees
 photo.3.commitdate: 2019/4/13
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: target training, white face
-photo.4: https://www.instagram.com/p/CXlQrpWLzLu/media/?size=m
+photo.4: ig://CXlQrpWLzLu/m
 photo.4.author: worldthathesees
+photo.4.commitdate: 2022/1/29
 photo.4.link: https://www.instagram.com/worldthathesees/
 photo.4.tags: white face
 species: 1

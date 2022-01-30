@@ -666,8 +666,9 @@ photo.131.author: fetorus_mami
 photo.131.commitdate: 2022/1/7
 photo.131.link: https://www.instagram.com/fetorus_mami/
 photo.131.tags: bamboo, close-up, mofumofu, sample, smile
-photo.132: https://www.instagram.com/p/CYpdQkHvz28/media/?size=m
+photo.132: ig://CYpdQkHvz28/m
 photo.132.author: otenba_redpanda
+photo.132.commitdate: 2022/1/29
 photo.132.link: https://www.instagram.com/p/CYpdQkHvz28/media/?size=m
 photo.132.tags: mofumofu, portrait, videolink, whiskers
 species: 2

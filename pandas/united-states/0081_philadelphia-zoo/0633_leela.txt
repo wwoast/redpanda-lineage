@@ -27,8 +27,9 @@ photo.2.author: rossifari
 photo.2.commitdate: 2019/10/8
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: bamboo, portrait
-photo.3: https://www.instagram.com/p/CXJFo3zroOR/media/?size=m
+photo.3: ig://CXJFo3zroOR/m
 photo.3.author: worldthathesees
+photo.3.commitdate: 2022/1/29
 photo.3.link: https://www.instagram.com/worldthathesees/
 photo.3.tags: laying down, tail
 species: 1
