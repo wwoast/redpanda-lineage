@@ -658,18 +658,20 @@ photo.129.author: miis_98
 photo.129.commitdate: 2021/12/19
 photo.129.link: https://www.instagram.com/miis_98/
 photo.129.tags: paws, portrait, sample, tree
-photo.130: ig://CYqbyMZvisb/m
+photo.130: ig://CYn7udYvJcR/m
 photo.130.author: ssc6105
-photo.130.commitdate: 2022/1/23
+photo.130.commitdate: 2022/1/30
 photo.130.link: https://www.instagram.com/ssc6105/
-photo.130.tags: sample, smile, whiskers
-photo.131: https://www.instagram.com/p/CYn7udYvJcR/media/?size=m
-photo.131.author: ssc6105
-photo.131.link: https://www.instagram.com/ssc6105/
-photo.131.tags: smile, tail
-photo.132: https://www.instagram.com/p/CYovkSHvlNO/media/?size=m
-photo.132.author: eos1089
-photo.132.link: https://www.instagram.com/eos1089/
-photo.132.tags: paws, portrait, sample, smile, snow, standing, tail
+photo.130.tags: smile, tail
+photo.131: ig://CYovkSHvlNO/m
+photo.131.author: eos1089
+photo.131.commitdate: 2022/1/30
+photo.131.link: https://www.instagram.com/eos1089/
+photo.131.tags: paws, portrait, sample, smile, snow, standing, tail
+photo.132: ig://CYqbyMZvisb/m
+photo.132.author: ssc6105
+photo.132.commitdate: 2022/1/23
+photo.132.link: https://www.instagram.com/ssc6105/
+photo.132.tags: sample, smile, whiskers
 species: 2
 zoo: 17

@@ -273,8 +273,9 @@ photo.52.author: otenba_redpanda
 photo.52.commitdate: 2022/1/8
 photo.52.link: https://www.instagram.com/otenba_redpanda/
 photo.52.tags: bamboo, mofumofu, paws, portrait, whiskers
-photo.53: https://www.instagram.com/fetorus_mami/p/CYbsbZ4l0il/media/?size=m
+photo.53: ig://fetorus_mami/CYbsbZ4l0il/m
 photo.53.author: fetorus_mami
+photo.53.commitdate: 2022/1/30
 photo.53.link: https://www.instagram.com/fetorus_mami/
 photo.53.tags: bamboo, mofumofu, paws, smile
 species: 2

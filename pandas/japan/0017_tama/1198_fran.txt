@@ -453,18 +453,20 @@ photo.88.author: resapan.suki
 photo.88.commitdate: 2022/1/19
 photo.88.link: https://www.instagram.com/resapan.suki/
 photo.88.tags: grooming, laying down, mofumofu, paws, portrait, tail, videolink
-photo.89: ig://ck.chie/CYoJ_7TvFJk/m
-photo.89.author: ck.chie
-photo.89.commitdate: 2022/1/18
-photo.89.link: https://www.instagram.com/ck.chie/
-photo.89.tags: bamboo, bite, portrait
-photo.90: https://www.instagram.com/ssc6105/p/CYpNTq8hk3k/media/?size=m
-photo.90.author: ssc6105
-photo.90.link: https://www.instagram.com/ssc6105/
-photo.90.tags: bridge, peek, tail, upside-down
-photo.91: https://www.instagram.com/p/CYjKwlHrQmk/media/?size=m
-photo.91.author: mini_cochi
-photo.91.link: https://www.instagram.com/mini_cochi/
-photo.91.tags: laying down, mofumofu, portrait, sample, tail
+photo.89: ig://CYjKwlHrQmk/m
+photo.89.author: mini_cochi
+photo.89.commitdate: 2022/1/30
+photo.89.link: https://www.instagram.com/mini_cochi/
+photo.89.tags: laying down, mofumofu, portrait, sample, tail
+photo.90: ig://ck.chie/CYoJ_7TvFJk/m
+photo.90.author: ck.chie
+photo.90.commitdate: 2022/1/18
+photo.90.link: https://www.instagram.com/ck.chie/
+photo.90.tags: bamboo, bite, portrait
+photo.91: ig://ssc6105/CYpNTq8hk3k/m
+photo.91.author: ssc6105
+photo.91.commitdate: 2022/1/30
+photo.91.link: https://www.instagram.com/ssc6105/
+photo.91.tags: bridge, peek, tail, upside-down
 species: 2
 zoo: 17

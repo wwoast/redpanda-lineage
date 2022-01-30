@@ -290,8 +290,9 @@ photo.55.author: miis_98
 photo.55.commitdate: 2022/1/6
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: portrait, tail, whiskers
-photo.56: https://www.instagram.com/miis_98/p/CYm5fuChrLv/media/?size=m
+photo.56: ig://miis_98/CYm5fuChrLv/m
 photo.56.author: miis_98
+photo.56.commitdate: 2022/1/30
 photo.56.link: https://www.instagram.com/miis_98/
 photo.56.tags: peek, portrait, profile, sample, tree
 species: 2

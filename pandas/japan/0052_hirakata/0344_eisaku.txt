@@ -504,12 +504,14 @@ photo.98.author: tomo3700
 photo.98.commitdate: 2022/1/10
 photo.98.link: https://www.instagram.com/tomo3700/
 photo.98.tags: paws, peek, portrait, sample, whiskers
-photo.99: https://www.instagram.com/p/CYils6fskSa/media/?size=m
+photo.99: ig://CYils6fskSa/m
 photo.99.author: makimaru18
+photo.99.commitdate: 2022/1/30
 photo.99.link: https://www.instagram.com/makimaru18/
 photo.99.tags: portrait, sample, smile, whiskers
-photo.100: https://www.instagram.com/p/CYi_yHpPCW9/media/?size=m
+photo.100: ig://CYi_yHpPCW9/m
 photo.100.author: jas_forever_love
+photo.100.commitdate: 2022/1/30
 photo.100.link: https://www.instagram.com/jas_forever_love/
 photo.100.tags: peek, portrait, sample, whiskers
 species: 2

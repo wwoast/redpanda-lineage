@@ -255,8 +255,9 @@ photo.48.author: itsuak
 photo.48.commitdate: 2022/1/6
 photo.48.link: https://www.instagram.com/itsuak/
 photo.48.tags: lips, mofumofu, peek, portrait, sample
-photo.49: https://www.instagram.com/p/CYm17HKvqFJ/media/?size=m
+photo.49: ig://CYm17HKvqFJ/m
 photo.49.author: tomo3700
+photo.49.commitdate: 2022/1/30
 photo.49.link: https://www.instagram.com/tomo3700/
 photo.49.tags: portrait, sample, smile, whiskers
 species: 2

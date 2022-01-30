@@ -478,8 +478,9 @@ photo.94.author: itsuak
 photo.94.commitdate: 2022/1/14
 photo.94.link: https://www.instagram.com/itsuak/
 photo.94.tags: portrait, smile, whiskers
-photo.95: https://www.instagram.com/p/CYojULQPNO8/media/?size=m
+photo.95: ig://CYojULQPNO8/m
 photo.95.author: itsuak
+photo.95.commitdate: 2022/1/30
 photo.95.link: https://www.instagram.com/itsuak/
 photo.95.tags: bamboo, paws, portrait, sample, smile
 species: 2

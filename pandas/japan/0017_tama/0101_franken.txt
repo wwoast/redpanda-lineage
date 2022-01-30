@@ -573,8 +573,9 @@ photo.112.author: ifumoto88
 photo.112.commitdate: 2022/1/23
 photo.112.link: https://www.instagram.com/ifumoto88/
 photo.112.tags: peek, portrait, sample, tail, tree
-photo.113: https://www.instagram.com/p/CYmNlj-hX0M/media/?size=m
+photo.113: ig://CYmNlj-hX0M/m
 photo.113.author: eos1089
+photo.113.commitdate: 2022/1/30
 photo.113.link: https://www.instagram.com/eos1089/
 photo.113.tags: laying down, paws, playing, portrait, snow, upside-down
 species: 2

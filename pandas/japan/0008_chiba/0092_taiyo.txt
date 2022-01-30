@@ -413,12 +413,14 @@ photo.80.author: otenba_redpanda
 photo.80.commitdate: 2021/12/22
 photo.80.link: https://www.instagram.com/otenba_redpanda/
 photo.80.tags: close-up, portrait, sample, whiskers
-photo.81: https://www.instagram.com/ssc6105/p/CYiwW0OvFnn/media/?size=m
+photo.81: ig://ssc6105/CYiwW0OvFnn/m
 photo.81.author: ssc6105
+photo.81.commitdate: 2022/1/30
 photo.81.link: https://www.instagram.com/ssc6105/
 photo.81.tags: climb, paws, peek
-photo.82: https://www.instagram.com/p/CYjHirjvmDf/media/?size=m
+photo.82: ig://CYjHirjvmDf/m
 photo.82.author: panda.daisuki
+photo.82.commitdate: 2022/1/30
 photo.82.link: https://www.instagram.com/panda.daisuki/
 photo.82.tags: paws, portrait, whiskers
 species: 2

@@ -335,15 +335,16 @@ photo.64.author: mini_cochi
 photo.64.commitdate: 2022/1/6
 photo.64.link: https://www.instagram.com/mini_cochi/
 photo.64.tags: portrait, sample, whiskers
-photo.65: ig://CYp5v2oLeZm/m
-photo.65.author: fetorus_mami
-photo.65.commitdate: 2022/1/18
-photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: peek
-photo.66: https://www.instagram.com/otenba_redpanda/p/CYiKC_jlboj/media/?size=m
-photo.66.author: otenba_redpanda
-photo.66.link: https://www.instagram.com/otenba_redpanda/
-photo.66.tags: portrait, sample, whiskers
+photo.65: ig://otenba_redpanda/CYiKC_jlboj/m
+photo.65.author: otenba_redpanda
+photo.65.commitdate: 2022/1/30
+photo.65.link: https://www.instagram.com/otenba_redpanda/
+photo.65.tags: portrait, sample, whiskers
+photo.66: ig://CYp5v2oLeZm/m
+photo.66.author: fetorus_mami
+photo.66.commitdate: 2022/1/18
+photo.66.link: https://www.instagram.com/fetorus_mami/
+photo.66.tags: peek
 species: 2
 studbook.id: unknown
 zoo: 190

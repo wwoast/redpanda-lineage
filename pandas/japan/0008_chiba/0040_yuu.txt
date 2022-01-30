@@ -383,15 +383,16 @@ photo.74.author: pink.b22
 photo.74.commitdate: 2022/1/19
 photo.74.link: https://www.instagram.com/pink.b22/
 photo.74.tags: peek, portrait, snow, techitechi
-photo.75: ig://panda.daisuki/CYl9MtiPTSQ/m
-photo.75.author: panda.daisuki
-photo.75.commitdate: 2022/1/23
-photo.75.link: https://www.instagram.com/panda.daisuki/
-photo.75.tags: paws, portrait, tail, whiskers
-photo.76: https://www.instagram.com/p/CYi4XLqvunC/media/?size=m
-photo.76.author: pink.b22
-photo.76.link: https://www.instagram.com/pink.b22/
-photo.76.tags: bamboo, paws, portrait, tongue
+photo.75: ig://CYi4XLqvunC/m
+photo.75.author: pink.b22
+photo.75.commitdate: 2022/1/30
+photo.75.link: https://www.instagram.com/pink.b22/
+photo.75.tags: bamboo, paws, portrait, tongue
+photo.76: ig://panda.daisuki/CYl9MtiPTSQ/m
+photo.76.author: panda.daisuki
+photo.76.commitdate: 2022/1/23
+photo.76.link: https://www.instagram.com/panda.daisuki/
+photo.76.tags: paws, portrait, tail, whiskers
 species: 2
 studbook.id: 15141
 zoo: 8
