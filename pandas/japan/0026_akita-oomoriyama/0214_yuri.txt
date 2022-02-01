@@ -260,25 +260,20 @@ photo.50.author: miis_98
 photo.50.commitdate: 2021/11/5
 photo.50.link: https://www.instagram.com/miis_98/
 photo.50.tags: paws, portrait, smile
-photo.51: ig://CWAP4iAh8mP/m
-photo.51.author: resapan.suki
-photo.51.commitdate: 2021/12/9
-photo.51.link: https://www.instagram.com/resapan.suki/
-photo.51.tags: apple time, close-up, paws, videolink
-photo.52: ig://CW8NGfvl0h5/m
-photo.52.author: fetorus_mami
-photo.52.commitdate: 2022/1/9
-photo.52.link: https://www.instagram.com/fetorus_mami/
-photo.52.tags: bamboo, paws, smile, standing, tail
-photo.53: ig://CRNrbjUhmMx/m
-photo.53.author: grskus_tk
+photo.51: ig://CW8NGfvl0h5/m
+photo.51.author: fetorus_mami
+photo.51.commitdate: 2022/1/9
+photo.51.link: https://www.instagram.com/fetorus_mami/
+photo.51.tags: bamboo, paws, smile, standing, tail
+photo.52: ig://CRNrbjUhmMx/m
+photo.52.author: grskus_tk
+photo.52.commitdate: 2022/1/15
+photo.52.link: https://www.instagram.com/grskus_tk/
+photo.53: ig://CXTLXDcvpxZ/m
+photo.53.author: minatomirai215
 photo.53.commitdate: 2022/1/15
-photo.53.link: https://www.instagram.com/grskus_tk/
-photo.54: ig://CXTLXDcvpxZ/m
-photo.54.author: minatomirai215
-photo.54.commitdate: 2022/1/15
-photo.54.link: https://www.instagram.com/minatomirai215/
-photo.54.tags: bamboo, paws, portrait, standing, tail
+photo.53.link: https://www.instagram.com/minatomirai215/
+photo.53.tags: bamboo, paws, portrait, standing, tail
 species: 2
 studbook.id: 13160
 zoo: 26

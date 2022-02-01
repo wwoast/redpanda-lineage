@@ -263,36 +263,31 @@ photo.49.author: minato.yokohama0233
 photo.49.commitdate: 2020/3/5
 photo.49.link: https://www.instagram.com/minato.yokohama0233/
 photo.49.tags: bamboo, paws, portrait, standing
-photo.50: ig://B9Ec33dhTNk/m
-photo.50.author: resapan.suki
-photo.50.commitdate: 2020/3/5
-photo.50.link: https://www.instagram.com/resapan.suki/
-photo.50.tags: paws, portrait
-photo.51: ig://B9j2yatBvqN/m
-photo.51.author: kisshan324
-photo.51.commitdate: 2020/3/18
-photo.51.link: https://www.instagram.com/kisshan324/
-photo.51.tags: paws, portrait, standing, tail
-photo.52: ig://CA5JrqTBxUe/m
-photo.52.author: framereim
-photo.52.commitdate: 2020/6/5
-photo.52.link: https://www.instagram.com/framereim/
-photo.52.tags: portrait
-photo.53: ig://CDWV610h8tE/m
-photo.53.author: nakacchi_desu
-photo.53.commitdate: 2020/8/5
-photo.53.link: https://www.instagram.com/nakacchi_desu/
-photo.53.tags: paws, whiskers
-photo.54: ig://CGuxNo7BZ-M/m
-photo.54.author: sakikukeco
-photo.54.commitdate: 2020/10/29
-photo.54.link: https://www.instagram.com/sakikukeco/
-photo.54.tags: keeper, peek, portrait
-photo.55: ig://CJkyiqOB4Xb/m
-photo.55.author: kisshan324
-photo.55.commitdate: 2021/4/28
-photo.55.link: https://www.instagram.com/kisshan324/
-photo.55.tags: portrait, tail, tree
+photo.50: ig://B9j2yatBvqN/m
+photo.50.author: kisshan324
+photo.50.commitdate: 2020/3/18
+photo.50.link: https://www.instagram.com/kisshan324/
+photo.50.tags: paws, portrait, standing, tail
+photo.51: ig://CA5JrqTBxUe/m
+photo.51.author: framereim
+photo.51.commitdate: 2020/6/5
+photo.51.link: https://www.instagram.com/framereim/
+photo.51.tags: portrait
+photo.52: ig://CDWV610h8tE/m
+photo.52.author: nakacchi_desu
+photo.52.commitdate: 2020/8/5
+photo.52.link: https://www.instagram.com/nakacchi_desu/
+photo.52.tags: paws, whiskers
+photo.53: ig://CGuxNo7BZ-M/m
+photo.53.author: sakikukeco
+photo.53.commitdate: 2020/10/29
+photo.53.link: https://www.instagram.com/sakikukeco/
+photo.53.tags: keeper, peek, portrait
+photo.54: ig://CJkyiqOB4Xb/m
+photo.54.author: kisshan324
+photo.54.commitdate: 2021/4/28
+photo.54.link: https://www.instagram.com/kisshan324/
+photo.54.tags: portrait, tail, tree
 species: 2
 studbook.id: 13163
 uncertainty: location.3 move date (exhibit start is 2021/1/2)
