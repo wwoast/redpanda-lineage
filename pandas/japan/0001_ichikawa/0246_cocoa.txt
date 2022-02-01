@@ -1178,20 +1178,21 @@ photo.233.author: ifumoto88
 photo.233.commitdate: 2021/12/22
 photo.233.link: https://www.instagram.com/ifumoto88/
 photo.233.tags: portrait, whiskers
-photo.234: ig://CYWTuvMhLo-/m
-photo.234.author: ifumoto88
-photo.234.commitdate: 2022/1/6
-photo.234.link: https://www.instagram.com/ifumoto88/
-photo.234.tags: home, portrait, whiskers
-photo.235: ig://CYv9wCjLLgC/m
+photo.234: ig://CYDRyg5P3fr/m
+photo.234.author: otenba_redpanda
+photo.234.commitdate: 2022/1/31
+photo.234.link: https://www.instagram.com/otenba_redpanda/
+photo.234.tags: paws, peek, portrait, smile, standing
+photo.235: ig://CYWTuvMhLo-/m
 photo.235.author: ifumoto88
-photo.235.commitdate: 2022/1/18
+photo.235.commitdate: 2022/1/6
 photo.235.link: https://www.instagram.com/ifumoto88/
-photo.235.tags: bamboo, paws, portrait, smile
-photo.236: https://www.instagram.com/p/CYDRyg5P3fr/media/?size=m
-photo.236.author: otenba_redpanda
-photo.236.link: https://www.instagram.com/otenba_redpanda/
-photo.236.tags: paws, peek, portrait, smile, standing
+photo.235.tags: home, portrait, whiskers
+photo.236: ig://CYv9wCjLLgC/m
+photo.236.author: ifumoto88
+photo.236.commitdate: 2022/1/18
+photo.236.link: https://www.instagram.com/ifumoto88/
+photo.236.tags: bamboo, paws, portrait, smile
 species: 2
 studbook.id: unknown
 zoo: 1

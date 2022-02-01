@@ -1411,35 +1411,36 @@ photo.280.author: minatomirai215
 photo.280.commitdate: 2022/1/8
 photo.280.link: https://www.instagram.com/minatomirai215/
 photo.280.tags: flowers, portrait, tail
-photo.281: ig://CYHHlyMFCF4/m
-photo.281.author: mini_cochi
-photo.281.commitdate: 2022/1/6
-photo.281.link: https://www.instagram.com/mini_cochi/
-photo.281.tags: close-up, keeper, portrait, smile, whiskers
-photo.282: ig://CYHSBOyPFE_/m
-photo.282.author: minatomirai215
+photo.281: ig://CYGbp-_Ljth/m
+photo.281.author: gloryeui
+photo.281.commitdate: 2022/1/31
+photo.281.link: https://www.instagram.com/gloryeui/
+photo.281.tags: keeper, playing, portrait
+photo.282: ig://CYHHlyMFCF4/m
+photo.282.author: mini_cochi
 photo.282.commitdate: 2022/1/6
-photo.282.link: https://www.instagram.com/minatomirai215/
-photo.282.tags: portrait, whiskers
-photo.283: ig://CYUFSqkvD27/m
+photo.282.link: https://www.instagram.com/mini_cochi/
+photo.282.tags: close-up, keeper, portrait, smile, whiskers
+photo.283: ig://CYHSBOyPFE_/m
 photo.283.author: minatomirai215
 photo.283.commitdate: 2022/1/6
 photo.283.link: https://www.instagram.com/minatomirai215/
-photo.283.tags: keeper, paws, portrait
-photo.284: ig://CYilaaNlB9v/m
-photo.284.author: otenba_redpanda
-photo.284.commitdate: 2022/1/30
-photo.284.link: https://www.instagram.com/otenba_redpanda/
-photo.284.tags: peek, portrait, sample, whiskers
-photo.285: ig://CYmBLjhLcUh/m
-photo.285.author: fetorus_mami
+photo.283.tags: portrait, whiskers
+photo.284: ig://CYUFSqkvD27/m
+photo.284.author: minatomirai215
+photo.284.commitdate: 2022/1/6
+photo.284.link: https://www.instagram.com/minatomirai215/
+photo.284.tags: keeper, paws, portrait
+photo.285: ig://CYilaaNlB9v/m
+photo.285.author: otenba_redpanda
 photo.285.commitdate: 2022/1/30
-photo.285.link: https://www.instagram.com/fetorus_mami/
-photo.285.tags: keeper, smile, whiskers
-photo.286: https://www.instagram.com/p/CYGbp-_Ljth/media/?size=m
-photo.286.author: gloryeui
-photo.286.link: https://www.instagram.com/gloryeui/
-photo.286.tags: keeper, playing, portrait
+photo.285.link: https://www.instagram.com/otenba_redpanda/
+photo.285.tags: peek, portrait, sample, whiskers
+photo.286: ig://CYmBLjhLcUh/m
+photo.286.author: fetorus_mami
+photo.286.commitdate: 2022/1/30
+photo.286.link: https://www.instagram.com/fetorus_mami/
+photo.286.tags: keeper, smile, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

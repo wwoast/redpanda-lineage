@@ -78,13 +78,15 @@ photo.13.author: wumpwoast
 photo.13.commitdate: 2021/10/16
 photo.13.link: https://www.instagram.com/wumpwoast/
 photo.13.tags: bamboo, bite, standing, tail
-photo.14: https://www.instagram.com/p/CX_BMErsM2-/media/?size=m
-photo.14.author: rossifari
-photo.14.link: https://www.instagram.com/rossifari/
-photo.14.tags: bamboo, paws, portrait, smile, standing
-photo.15: https://www.instagram.com/p/CXMHH82IH-k/media/?size=m
-photo.15.author: cincinnatizoo
-photo.15.link: https://www.instagram.com/cincinnatizoo/
-photo.15.tags: peek, portrait, videolink
+photo.14: ig://CXMHH82IH-k/m
+photo.14.author: cincinnatizoo
+photo.14.commitdate: 2022/1/31
+photo.14.link: https://www.instagram.com/cincinnatizoo/
+photo.14.tags: peek, portrait, videolink
+photo.15: ig://CX_BMErsM2-/m
+photo.15.author: rossifari
+photo.15.commitdate: 2022/1/31
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: bamboo, paws, portrait, smile, standing
 species: 2
 zoo: 65

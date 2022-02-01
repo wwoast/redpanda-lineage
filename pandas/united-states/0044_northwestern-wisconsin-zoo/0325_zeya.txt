@@ -140,8 +140,9 @@ photo.25.author: newzoogb
 photo.25.commitdate: 2020/11/8
 photo.25.link: https://www.instagram.com/newzoogb/
 photo.25.tags: portrait, smile
-photo.26: https://www.instagram.com/p/CYHAw7ALUdd/media/?size=m
+photo.26: ig://CYHAw7ALUdd/m
 photo.26.author: worldthathesees
+photo.26.commitdate: 2022/1/31
 photo.26.link: https://www.instagram.com/worldthathesees/
 photo.26.tags: mofumofu, peek
 species: 2

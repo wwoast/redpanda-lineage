@@ -36,15 +36,16 @@ photo.4.author: rossifari
 photo.4.commitdate: 2022/1/8
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: portrait, profile
-photo.5: ig://CYmWSXovqPi/m
-photo.5.author: aimless_amos
-photo.5.commitdate: 2022/1/23
-photo.5.link: https://www.instagram.com/carsontheredpanda/
-photo.5.tags: portrait, sample, snow, tongue, toys, whiskers
-photo.6: https://www.instagram.com/p/CYEGxkIA5BJ/media/?size=m
-photo.6.author: rossifari
-photo.6.link: https://www.instagram.com/rossifari/
-photo.6.tags: bamboo, paws, smile
+photo.5: ig://CYEGxkIA5BJ/m
+photo.5.author: rossifari
+photo.5.commitdate: 2022/1/31
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: bamboo, paws, smile
+photo.6: ig://CYmWSXovqPi/m
+photo.6.author: aimless_amos
+photo.6.commitdate: 2022/1/23
+photo.6.link: https://www.instagram.com/carsontheredpanda/
+photo.6.tags: portrait, sample, snow, tongue, toys, whiskers
 species: 1
 studbook.id: 1835
 uncertainty: location.2 date
