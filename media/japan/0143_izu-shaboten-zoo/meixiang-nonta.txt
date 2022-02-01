@@ -37,8 +37,9 @@ photo.5.link: https://www.instagram.com/pink.b22/
 photo.5.tags: couple, paws, portrait
 photo.5.tags.121.location: 400, 285
 photo.5.tags.140.location: 270, 150
-photo.6: https://www.instagram.com/p/CWa97rzpXbT/media/?size=l
+photo.6: ig://CWa97rzpXbT/l
 photo.6.author: fetorus_mami
+photo.6.commitdate: 2022/2/1
 photo.6.link: https://www.instagram.com/fetorus_mami/
 photo.6.tags: apple time, bite, couple, paws, whiskers
 photo.6.tags.121.location: 255, 260

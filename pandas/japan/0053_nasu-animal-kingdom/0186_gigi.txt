@@ -253,15 +253,16 @@ photo.48.author: alto0908
 photo.48.commitdate: 2021/8/18
 photo.48.link: https://www.instagram.com/alto0908/
 photo.48.tags: close-up, portrait, techitechi, whiskers
-photo.49: ig://CWwCVrqvEt7/m
-photo.49.author: hidehaya_biei
-photo.49.commitdate: 2022/1/9
-photo.49.link: https://www.instagram.com/hidehaya_biei/
-photo.49.tags: peek, whiskers
-photo.50: https://www.instagram.com/p/CS9Q5evBWyd/media/?size=m
-photo.50.author: hamiiiii831_
-photo.50.link: https://www.instagram.com/hamiiiii831_/
-photo.50.tags: mofumofu, paws, sample, smile
+photo.49: ig://CS9Q5evBWyd/m
+photo.49.author: hamiiiii831_
+photo.49.commitdate: 2022/2/1
+photo.49.link: https://www.instagram.com/hamiiiii831_/
+photo.49.tags: mofumofu, paws, sample, smile
+photo.50: ig://CWwCVrqvEt7/m
+photo.50.author: hidehaya_biei
+photo.50.commitdate: 2022/1/9
+photo.50.link: https://www.instagram.com/hidehaya_biei/
+photo.50.tags: peek, whiskers
 species: 2
 studbook.id: 0986
 zoo: 53

@@ -170,8 +170,9 @@ photo.24.link: https://www.instagram.com/kisshan324/
 photo.24.tags: apple time, dish, mother's day, portrait, tail
 photo.24.tags.100.location: 230, 180
 photo.24.tags.1208.location: 290, 120
-photo.25: https://www.instagram.com/p/CUPeKngh7qV/media/?size=l
+photo.25: ig://CUPeKngh7qV/l
 photo.25.author: jas_forever_love
+photo.25.commitdate: 2022/2/1
 photo.25.link: https://www.instagram.com/jas_forever_love/
 photo.25.tags: apple time, mother's day
 photo.25.tags.100.location: 265, 320
