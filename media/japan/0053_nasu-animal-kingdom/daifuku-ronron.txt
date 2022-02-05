@@ -1,8 +1,10 @@
 [media]
 _id: media.53.daifuku-ronron
+commitdate: 2022/2/5
 panda.tags: 190, 1209
-photo.1: https://www.instagram.com/p/CIAzcjihWhH/media/?size=l
+photo.1: ig://CIAzcjihWhH/l
 photo.1.author: kotata_513
+photo.1.commitdate: 2022/2/5
 photo.1.link: https://www.instagram.com/kotata_513/
 photo.1.tags: baby, mofumofu, mother's day, peek, portrait, whiskers
 photo.1.tags.190.location: 420, 150
