@@ -659,8 +659,12 @@ photo.129.tags: bamboo, close-up, mofumofu, sample, smile
 photo.130: ig://CYpdQkHvz28/m
 photo.130.author: otenba_redpanda
 photo.130.commitdate: 2022/1/29
-photo.130.link: https://www.instagram.com/p/CYpdQkHvz28/media/?size=m
+photo.130.link: https://www.instagram.com/otenba_redpanda/
 photo.130.tags: mofumofu, portrait, videolink, whiskers
+photo.131: https://www.instagram.com/p/CYdsnKIPMe_/media/?size=m
+photo.131.author: fetorus_mami
+photo.131.link: https://www.instagram.com/fetorus_mami/
+photo.131.tags: bamboo, paws, sample, smile 
 species: 2
 studbook.id: 1772
 zoo: 56
