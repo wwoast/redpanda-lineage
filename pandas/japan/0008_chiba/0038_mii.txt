@@ -643,15 +643,16 @@ photo.126.author: otenba_redpanda
 photo.126.commitdate: 2021/12/22
 photo.126.link: https://www.instagram.com/otenba_redpanda/
 photo.126.tags: bamboo, paws, portrait, sample, tongue
-photo.127: ig://CYmMAtbBHXU/m
-photo.127.author: minatomirai215
-photo.127.commitdate: 2022/1/23
-photo.127.link: https://www.instagram.com/minatomirai215/
-photo.127.tags: peek, portrait, sample, tree
-photo.128: https://www.instagram.com/panda.daisuki/p/CX7n4vfvmTp/media/?size=m
-photo.128.author: panda.daisuki
-photo.128.link: https://www.instagram.com/panda.daisuki/
-photo.128.tags: paws, portrait, standing, tail
+photo.127: ig://panda.daisuki/CX7n4vfvmTp/m
+photo.127.author: panda.daisuki
+photo.127.commitdate: 2022/2/6
+photo.127.link: https://www.instagram.com/panda.daisuki/
+photo.127.tags: paws, portrait, standing, tail
+photo.128: ig://CYmMAtbBHXU/m
+photo.128.author: minatomirai215
+photo.128.commitdate: 2022/1/23
+photo.128.link: https://www.instagram.com/minatomirai215/
+photo.128.tags: peek, portrait, sample, tree
 species: 2
 studbook.id: 13155
 zoo: 8

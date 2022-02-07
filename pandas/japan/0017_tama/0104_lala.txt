@@ -338,60 +338,61 @@ photo.65.author: panda.daisuki
 photo.65.commitdate: 2021/3/10
 photo.65.link: https://www.instagram.com/panda.daisuki/
 photo.65.tags: paws, portrait, tongue, wave, yawn
-photo.66: ig://CQrpVdCB3HT/m
-photo.66.author: ck.chie
-photo.66.commitdate: 2021/6/28
-photo.66.link: https://www.instagram.com/ck.chie/
-photo.66.tags: bamboo, mofumofu, portrait, smile
-photo.67: ig://CRMDH11hGXX/m
-photo.67.author: mariten1119
-photo.67.commitdate: 2021/8/20
-photo.67.link: https://www.instagram.com/mariten1119/
-photo.67.tags: bamboo, tongue
-photo.68: ig://CSMXh6Upmk9/m
-photo.68.author: redpan22
-photo.68.commitdate: 2021/8/17
-photo.68.link: https://www.instagram.com/redpan22/
-photo.68.tags: hammock, mofumofu, paws, techitechi
-photo.69: ig://CSUPs7YnosG/m
-photo.69.author: mini_cochi
+photo.66: ig://CQn5-Ylhn5f/m
+photo.66.author: redpan22
+photo.66.commitdate: 2022/2/6
+photo.66.link: https://www.instagram.com/redpan22/
+photo.66.tags: climb, paws, peek, sample, smile
+photo.67: ig://CQrpVdCB3HT/m
+photo.67.author: ck.chie
+photo.67.commitdate: 2021/6/28
+photo.67.link: https://www.instagram.com/ck.chie/
+photo.67.tags: bamboo, mofumofu, portrait, smile
+photo.68: ig://CRMDH11hGXX/m
+photo.68.author: mariten1119
+photo.68.commitdate: 2021/8/20
+photo.68.link: https://www.instagram.com/mariten1119/
+photo.68.tags: bamboo, tongue
+photo.69: ig://CSMXh6Upmk9/m
+photo.69.author: redpan22
 photo.69.commitdate: 2021/8/17
-photo.69.link: https://www.instagram.com/mini_cochi/
-photo.69.tags: hammock, mofumofu, portrait, tail
-photo.70: ig://CTJNARYhil8/m
-photo.70.author: otenba_redpanda
-photo.70.commitdate: 2021/10/2
-photo.70.link: https://www.instagram.com/otenba_redpanda/
-photo.70.tags: mofumofu, portrait, techitechi
-photo.71: ig://CTuE2ORlFnE/m
+photo.69.link: https://www.instagram.com/redpan22/
+photo.69.tags: hammock, mofumofu, paws, techitechi
+photo.70: ig://CSUPs7YnosG/m
+photo.70.author: mini_cochi
+photo.70.commitdate: 2021/8/17
+photo.70.link: https://www.instagram.com/mini_cochi/
+photo.70.tags: hammock, mofumofu, portrait, tail
+photo.71: ig://CTJNARYhil8/m
 photo.71.author: otenba_redpanda
 photo.71.commitdate: 2021/10/2
 photo.71.link: https://www.instagram.com/otenba_redpanda/
-photo.71.tags: mofumofu, portrait, techitechi, tongue
-photo.72: ig://CUgNLYOht2c/m
+photo.71.tags: mofumofu, portrait, techitechi
+photo.72: ig://CTuE2ORlFnE/m
 photo.72.author: otenba_redpanda
-photo.72.commitdate: 2021/10/26
+photo.72.commitdate: 2021/10/2
 photo.72.link: https://www.instagram.com/otenba_redpanda/
-photo.72.tags: hammock, laying down, peek, portrait
-photo.73: ig://CVSnTlqhUJ0/m
-photo.73.author: ifumoto88
-photo.73.commitdate: 2021/12/18
-photo.73.link: https://www.instagram.com/ifumoto88/
-photo.73.tags: bite, close-up, paws, portrait
-photo.74: ig://miis_98/CX7lyC7ruhl/m
-photo.74.author: miis_98
-photo.74.commitdate: 2022/1/8
-photo.74.link: https://www.instagram.com/miis_98/
-photo.74.tags: portrait, sample
-photo.75: ig://CYOfc8vr7Qg/m
-photo.75.author: mini_cochi
-photo.75.commitdate: 2022/1/4
-photo.75.link: https://www.instagram.com/mini_cochi/
-photo.75.tags: close-up, bamboo, portrait, whiskers
-photo.76: https://www.instagram.com/p/CQn5-Ylhn5f/media/?size=m
-photo.76.author: redpan22
-photo.76.link: https://www.instagram.com/redpan22/
-photo.76.tags: climb, paws, peek, sample, smile 
+photo.72.tags: mofumofu, portrait, techitechi, tongue
+photo.73: ig://CUgNLYOht2c/m
+photo.73.author: otenba_redpanda
+photo.73.commitdate: 2021/10/26
+photo.73.link: https://www.instagram.com/otenba_redpanda/
+photo.73.tags: hammock, laying down, peek, portrait
+photo.74: ig://CVSnTlqhUJ0/m
+photo.74.author: ifumoto88
+photo.74.commitdate: 2021/12/18
+photo.74.link: https://www.instagram.com/ifumoto88/
+photo.74.tags: bite, close-up, paws, portrait
+photo.75: ig://miis_98/CX7lyC7ruhl/m
+photo.75.author: miis_98
+photo.75.commitdate: 2022/1/8
+photo.75.link: https://www.instagram.com/miis_98/
+photo.75.tags: portrait, sample
+photo.76: ig://CYOfc8vr7Qg/m
+photo.76.author: mini_cochi
+photo.76.commitdate: 2022/1/4
+photo.76.link: https://www.instagram.com/mini_cochi/
+photo.76.tags: close-up, bamboo, portrait, whiskers
 species: 2
 studbook.id: 0864
 zoo: 17

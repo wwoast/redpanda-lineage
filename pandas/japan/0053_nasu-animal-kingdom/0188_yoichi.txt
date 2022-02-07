@@ -255,10 +255,11 @@ photo.49.author: nasu_animal_kingdom
 photo.49.commitdate: 2022/1/8
 photo.49.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.49.tags: paws, smile, snow, standing, tail
-photo.50: https://www.instagram.com/p/CYXT-llhBmj/media/?size=m
+photo.50: ig://CYXT-llhBmj/m
 photo.50.author: ssc6105
+photo.50.commitdate: 2022/2/6
 photo.50.link: https://www.instagram.com/ssc6105/
-photo.50.tags: bite, keeper, lunch time, paws, snow, standing 
+photo.50.tags: bite, keeper, lunch time, paws, snow, standing
 species: 2
 studbook.id: 13141
 video.1: https://www.youtube.com/watch?v=HeXUvkKeMpg

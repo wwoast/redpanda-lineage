@@ -2176,20 +2176,21 @@ photo.434.author: cattail.sapporo
 photo.434.commitdate: 2022/1/6
 photo.434.link: https://www.instagram.com/cattail.sapporo/
 photo.434.tags: dish, lunch time, portrait, snow, tongue, whiskers
-photo.435: ig://hamamatsu.chiita/CYmnuWyh0Di/m
-photo.435.author: hamamatsu.chiita
-photo.435.commitdate: 2022/1/23
-photo.435.link: https://www.instagram.com/hamamatsu.chiita/
-photo.435.tags: close-up, portrait, sample, snow, whiskers
-photo.436: ig://CYqMDeGLLvq/m
-photo.436.author: cattail.sapporo
+photo.435: ig://CYa9CR5LJc3/m
+photo.435.author: cattail.sapporo
+photo.435.commitdate: 2022/2/6
+photo.435.link: https://www.instagram.com/cattail.sapporo/
+photo.435.tags: paws, playing, portrait, sample, snow, tail
+photo.436: ig://hamamatsu.chiita/CYmnuWyh0Di/m
+photo.436.author: hamamatsu.chiita
 photo.436.commitdate: 2022/1/23
-photo.436.link: https://www.instagram.com/cattail.sapporo/
-photo.436.tags: close-up, nose, portrait, sample, tongue, whiskers
-photo.437: https://www.instagram.com/p/CYa9CR5LJc3/media/?size=m
+photo.436.link: https://www.instagram.com/hamamatsu.chiita/
+photo.436.tags: close-up, portrait, sample, snow, whiskers
+photo.437: ig://CYqMDeGLLvq/m
 photo.437.author: cattail.sapporo
+photo.437.commitdate: 2022/1/23
 photo.437.link: https://www.instagram.com/cattail.sapporo/
-photo.437.tags: paws, playing, portrait, sample, snow, tail
+photo.437.tags: close-up, nose, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

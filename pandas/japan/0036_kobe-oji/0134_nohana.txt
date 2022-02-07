@@ -957,15 +957,16 @@ photo.191.author: falcon_tenor
 photo.191.commitdate: 2021/12/20
 photo.191.link: https://www.instagram.com/falcon_tenor/
 photo.191.tags: apple time, keeper, paws, portrait, tail
-photo.192: ig://grskus_tk/CX_X3krvDKd/m
-photo.192.author: grskus_tk
-photo.192.commitdate: 2022/1/8
-photo.192.link: https://www.instagram.com/grskus_tk/
-photo.192.tags: paws, tail, whiskers
-photo.193: https://www.instagram.com/p/CXyfFhlPakH/media/?size=m
-photo.193.author: i.satosato
-photo.193.link: https://www.instagram.com/i.satosato/
-photo.193.tags: apple time, bite, keeper, paws, portrait, sample, standing, tail
+photo.192: ig://CXyfFhlPakH/m
+photo.192.author: i.satosato
+photo.192.commitdate: 2022/2/6
+photo.192.link: https://www.instagram.com/i.satosato/
+photo.192.tags: apple time, bite, keeper, paws, portrait, sample, standing, tail
+photo.193: ig://grskus_tk/CX_X3krvDKd/m
+photo.193.author: grskus_tk
+photo.193.commitdate: 2022/1/8
+photo.193.link: https://www.instagram.com/grskus_tk/
+photo.193.tags: paws, tail, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

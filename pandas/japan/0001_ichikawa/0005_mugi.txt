@@ -1225,25 +1225,26 @@ photo.244.author: na.mo.pan
 photo.244.commitdate: 2021/12/22
 photo.244.link: https://www.instagram.com/na.mo.pan/
 photo.244.tags: bamboo, sample, smile, whiskers
-photo.245: ig://ifumoto88/CXvuUQBPEmH/m
-photo.245.author: ifumoto88
-photo.245.commitdate: 2022/1/8
-photo.245.link: https://www.instagram.com/ifumoto88/
-photo.245.tags: bite, paws, portrait, whiskers
-photo.246: ig://CYQE1f2PA7h/m
-photo.246.author: na.mo.pan
-photo.246.commitdate: 2022/1/14
-photo.246.link: https://www.instagram.com/na.mo.pan/
-photo.246.tags: apple time, paws, whiskers
-photo.247: ig://CYoGtpALiH5/m
-photo.247.author: ifumoto88
-photo.247.commitdate: 2022/1/29
-photo.247.link: https://www.instagram.com/ifumoto88/
-photo.247.tags: paws, portrait, sample, smile, whiskers
-photo.248: https://www.instagram.com/p/CXq2Xi2hTg8/media/?size=m
-photo.248.author: panda.daisuki
-photo.248.link: https://www.instagram.com/panda.daisuki/
-photo.248.tags: close-up, peek, portrait, whiskers
+photo.245: ig://CXq2Xi2hTg8/m
+photo.245.author: panda.daisuki
+photo.245.commitdate: 2022/2/6
+photo.245.link: https://www.instagram.com/panda.daisuki/
+photo.245.tags: close-up, peek, portrait, whiskers
+photo.246: ig://ifumoto88/CXvuUQBPEmH/m
+photo.246.author: ifumoto88
+photo.246.commitdate: 2022/1/8
+photo.246.link: https://www.instagram.com/ifumoto88/
+photo.246.tags: bite, paws, portrait, whiskers
+photo.247: ig://CYQE1f2PA7h/m
+photo.247.author: na.mo.pan
+photo.247.commitdate: 2022/1/14
+photo.247.link: https://www.instagram.com/na.mo.pan/
+photo.247.tags: apple time, paws, whiskers
+photo.248: ig://CYoGtpALiH5/m
+photo.248.author: ifumoto88
+photo.248.commitdate: 2022/1/29
+photo.248.link: https://www.instagram.com/ifumoto88/
+photo.248.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 15152
 zoo: 1

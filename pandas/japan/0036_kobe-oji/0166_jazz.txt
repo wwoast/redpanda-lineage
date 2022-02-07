@@ -1234,24 +1234,26 @@ photo.245.author: i.satosato
 photo.245.commitdate: 2022/1/9
 photo.245.link: https://www.instagram.com/i.satosato/
 photo.245.tags: flowers, portrait, whiskers
-photo.246: ig://CX13X2eBngK/m
-photo.246.author: ssc6105
-photo.246.commitdate: 2022/1/8
-photo.246.link: https://www.instagram.com/ssc6105/
-photo.246.tags: paws, peek, whiskers
-photo.247: ig://CYn9LvlvnxP/m
-photo.247.author: imagoto17
-photo.247.commitdate: 2022/1/30
-photo.247.link: https://www.instagram.com/imagoto17/
-photo.247.tags: laying down, mofumofu, peek, portrait, sample, tail, tree
-photo.248: https://www.instagram.com/falcon_tenor/p/CYbVeYkP95l/media/?size=m
+photo.246: ig://CXuNwJjsexO/m
+photo.246.author: panda.daisuki
+photo.246.commitdate: 2022/2/6
+photo.246.link: https://www.instagram.com/panda.daisuki/
+photo.246.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.247: ig://CX13X2eBngK/m
+photo.247.author: ssc6105
+photo.247.commitdate: 2022/1/8
+photo.247.link: https://www.instagram.com/ssc6105/
+photo.247.tags: paws, peek, whiskers
+photo.248: ig://falcon_tenor/CYbVeYkP95l/m
 photo.248.author: falcon_tenor
+photo.248.commitdate: 2022/2/6
 photo.248.link: https://www.instagram.com/falcon_tenor/
 photo.248.tags: climb, peek, portrait, sample, smile, tail, tree
-photo.249: https://www.instagram.com/p/CXuNwJjsexO/media/?size=m
-photo.249.author: panda.daisuki
-photo.249.link: https://www.instagram.com/panda.daisuki/
-photo.249.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.249: ig://CYn9LvlvnxP/m
+photo.249.author: imagoto17
+photo.249.commitdate: 2022/1/30
+photo.249.link: https://www.instagram.com/imagoto17/
+photo.249.tags: laying down, mofumofu, peek, portrait, sample, tail, tree
 species: 2
 studbook.id: 1778
 zoo: 36

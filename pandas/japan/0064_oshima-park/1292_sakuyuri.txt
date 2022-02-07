@@ -98,8 +98,9 @@ photo.17.author: miis_98
 photo.17.commitdate: 2021/12/22
 photo.17.link: https://www.instagram.com/miis_98/
 photo.17.tags: baby, mofumofu, portrait, whiskers
-photo.18: https://www.instagram.com/p/CXxiBhRPRoR/media/?size=m
+photo.18: ig://CXxiBhRPRoR/m
 photo.18.author: grskus_tk
+photo.18.commitdate: 2022/2/6
 photo.18.link: https://www.instagram.com/grskus_tk/
 photo.18.tags: baby, home, peek
 species: 2

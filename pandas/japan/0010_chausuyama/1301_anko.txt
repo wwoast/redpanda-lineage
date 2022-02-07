@@ -153,23 +153,25 @@ photo.28.author: otenba_redpanda
 photo.28.commitdate: 2022/1/15
 photo.28.link: https://www.instagram.com/otenba_redpanda/
 photo.28.tags: laying down, mofumofu, sample
-photo.29: ig://CYkiWMVJsEw/m
-photo.29.author: shigeko0531
-photo.29.commitdate: 2022/1/23
-photo.29.link: https://www.instagram.com/shigeko0531/
-photo.29.tags: bamboo, peek
-photo.30: ig://shigeko0531/CYqSDJfLHy1/m
-photo.30.author: shigeko0531
-photo.30.commitdate: 2022/1/23
-photo.30.link: https://www.instagram.com/shigeko0531/
-photo.30.tags: close-up, peek, techitechi
-photo.31: https://www.instagram.com/p/CYbRRQtP5wt/media/?size=m
-photo.31.author: jas_forever_love
-photo.31.link: https://www.instagram.com/jas_forever_love/
-photo.31.tags: bamboo, bite, mofumofu, portrait, sample
-photo.32: https://www.instagram.com/alto0908/p/CYZ3Twqh0yV/media/?size=m
-photo.32.author: alto0908
-photo.32.link: https://www.instagram.com/alto0908/
-photo.32.tags: mofumofu, peek, portrait
+photo.29: ig://alto0908/CYZ3Twqh0yV/m
+photo.29.author: alto0908
+photo.29.commitdate: 2022/2/6
+photo.29.link: https://www.instagram.com/alto0908/
+photo.29.tags: mofumofu, peek, portrait
+photo.30: ig://CYbRRQtP5wt/m
+photo.30.author: jas_forever_love
+photo.30.commitdate: 2022/2/6
+photo.30.link: https://www.instagram.com/jas_forever_love/
+photo.30.tags: bamboo, bite, mofumofu, portrait, sample
+photo.31: ig://CYkiWMVJsEw/m
+photo.31.author: shigeko0531
+photo.31.commitdate: 2022/1/23
+photo.31.link: https://www.instagram.com/shigeko0531/
+photo.31.tags: bamboo, peek
+photo.32: ig://shigeko0531/CYqSDJfLHy1/m
+photo.32.author: shigeko0531
+photo.32.commitdate: 2022/1/23
+photo.32.link: https://www.instagram.com/shigeko0531/
+photo.32.tags: close-up, peek, techitechi
 species: 2
 zoo: 10

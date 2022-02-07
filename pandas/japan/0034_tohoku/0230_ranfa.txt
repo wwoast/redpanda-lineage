@@ -823,47 +823,51 @@ photo.163.author: hidehaya_biei
 photo.163.commitdate: 2021/12/22
 photo.163.link: https://www.instagram.com/hidehaya_biei/
 photo.163.tags: sample, snow, whiskers
-photo.164: ig://daniele.tokyo/CX0nH0nvRoO/m
+photo.164: ig://CXyCVCmPS96/m
 photo.164.author: daniele.tokyo
-photo.164.commitdate: 2022/1/8
+photo.164.commitdate: 2022/2/6
 photo.164.link: https://www.instagram.com/daniele.tokyo/
-photo.164.tags: laying down, paws, playing, portrait, snow, tail, toys
-photo.165: ig://CYH18UJBBwp/m
-photo.165.author: ssc6105
-photo.165.commitdate: 2022/1/6
-photo.165.link: https://www.instagram.com/ssc6105/
-photo.165.tags: bamboo, paws, standing, whiskers
-photo.166: ig://CYL1tfOvZ2Y/m
+photo.164.tags: bite, paws, snow
+photo.165: ig://daniele.tokyo/CX0nH0nvRoO/m
+photo.165.author: daniele.tokyo
+photo.165.commitdate: 2022/1/8
+photo.165.link: https://www.instagram.com/daniele.tokyo/
+photo.165.tags: laying down, paws, playing, portrait, snow, tail, toys
+photo.166: ig://CYBfGQvPleI/m
 photo.166.author: daniele.tokyo
-photo.166.commitdate: 2022/1/14
+photo.166.commitdate: 2022/2/6
 photo.166.link: https://www.instagram.com/daniele.tokyo/
-photo.166.tags: apple time, keeper, portrait, smile, snow
-photo.167: ig://CYUu8INhBQ8/m
+photo.166.tags: paws, sample, snow, standing
+photo.167: ig://CYH18UJBBwp/m
 photo.167.author: ssc6105
 photo.167.commitdate: 2022/1/6
 photo.167.link: https://www.instagram.com/ssc6105/
-photo.167.tags: paws, sample, snow, whiskers
-photo.168: ig://CYoHBonPaT1/m
+photo.167.tags: bamboo, paws, standing, whiskers
+photo.168: ig://CYL1tfOvZ2Y/m
 photo.168.author: daniele.tokyo
-photo.168.commitdate: 2022/1/30
+photo.168.commitdate: 2022/1/14
 photo.168.link: https://www.instagram.com/daniele.tokyo/
-photo.168.tags: dish, laying down, paws, portrait, sample, toys
-photo.169: https://www.instagram.com/p/CYanGfYLQI_/media/?size=m
-photo.169.author: hidehaya_biei
-photo.169.link: https://www.instagram.com/hidehaya_biei/
-photo.169.tags: portrait, sample, snow, tail
-photo.170: https://www.instagram.com/p/CYYpqNQvHoJ/media/?size=m
+photo.168.tags: apple time, keeper, portrait, smile, snow
+photo.169: ig://CYUu8INhBQ8/m
+photo.169.author: ssc6105
+photo.169.commitdate: 2022/1/6
+photo.169.link: https://www.instagram.com/ssc6105/
+photo.169.tags: paws, sample, snow, whiskers
+photo.170: ig://CYYpqNQvHoJ/m
 photo.170.author: hamiiiii831_
+photo.170.commitdate: 2022/2/6
 photo.170.link: https://www.instagram.com/hamiiiii831_/
 photo.170.tags: apple time, paws, smile, snow
-photo.171: https://www.instagram.com/p/CYBfGQvPleI/media/?size=m
-photo.171.author: daniele.tokyo
-photo.171.link: https://www.instagram.com/daniele.tokyo/
-photo.171.tags: paws, sample, snow, standing
-photo.172: https://www.instagram.com/p/CXyCVCmPS96/media/?size=m
+photo.171: ig://CYanGfYLQI_/m
+photo.171.author: hidehaya_biei
+photo.171.commitdate: 2022/2/6
+photo.171.link: https://www.instagram.com/hidehaya_biei/
+photo.171.tags: portrait, sample, snow, tail
+photo.172: ig://CYoHBonPaT1/m
 photo.172.author: daniele.tokyo
+photo.172.commitdate: 2022/1/30
 photo.172.link: https://www.instagram.com/daniele.tokyo/
-photo.172.tags: bite, paws, snow
+photo.172.tags: dish, laying down, paws, portrait, sample, toys
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

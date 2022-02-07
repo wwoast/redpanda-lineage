@@ -578,19 +578,21 @@ photo.113.author: tomo3700
 photo.113.commitdate: 2022/1/29
 photo.113.link: https://www.instagram.com/tomo3700/
 photo.113.tags: portrait, whiskers
-photo.114: ig://CYM62z7Bl7t/m
-photo.114.author: hamamatsu.chiita
-photo.114.commitdate: 2022/1/4
-photo.114.link: https://www.instagram.com/hamamatsu.chiita/
-photo.114.tags: close-up, mofumofu, portrait, whiskers
-photo.115: https://www.instagram.com/p/CYdudV6P095/media/?size=m
+photo.114: ig://CXSqHb1PFPx/m
+photo.114.author: minato.yokohama0233
+photo.114.commitdate: 2022/2/6
+photo.114.link: https://www.instagram.com/minato.yokohama0233/
+photo.114.tags: blink, whiskers
+photo.115: ig://CYM62z7Bl7t/m
 photo.115.author: hamamatsu.chiita
+photo.115.commitdate: 2022/1/4
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
-photo.115.tags: close-up, laying down, portrait, sample, whiskers
-photo.116: https://www.instagram.com/p/CXSqHb1PFPx/media/?size=m
-photo.116.author: minato.yokohama0233
-photo.116.link: https://www.instagram.com/minato.yokohama0233/
-photo.116.tags: blink, whiskers
+photo.115.tags: close-up, mofumofu, portrait, whiskers
+photo.116: ig://CYdudV6P095/m
+photo.116.author: hamamatsu.chiita
+photo.116.commitdate: 2022/2/6
+photo.116.link: https://www.instagram.com/hamamatsu.chiita/
+photo.116.tags: close-up, laying down, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 13

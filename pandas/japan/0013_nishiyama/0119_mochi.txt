@@ -476,8 +476,9 @@ photo.93.author: hamamatsu.chiita
 photo.93.commitdate: 2022/1/10
 photo.93.link: https://www.instagram.com/hamamatsu.chiita/
 photo.93.tags: mofumofu, portrait, sample, whiskers
-photo.94: https://www.instagram.com/p/CXyIQChPLQO/media/?size=m
+photo.94: ig://CXyIQChPLQO/m
 photo.94.author: makimaru18
+photo.94.commitdate: 2022/2/6
 photo.94.link: https://www.instagram.com/makimaru18/
 photo.94.tags: apple time, bamboo, dish, lunch time, paws, portrait, sample, smile
 species: 2

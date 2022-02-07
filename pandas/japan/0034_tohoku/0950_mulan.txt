@@ -402,17 +402,20 @@ photo.78.author: ssc6105
 photo.78.commitdate: 2022/1/31
 photo.78.link: https://www.instagram.com/ssc6105/
 photo.78.tags: climb, paws, sample, smile, standing, snow
-photo.79: https://www.instagram.com/p/CYbPG32P5Lh/media/?size=m
+photo.79: ig://CYTgqc4vOut/m
 photo.79.author: daniele.tokyo
-photo.79.link: https://www.instagram.com/daniele.tokyo/
-photo.79.tags: paws, snow
-photo.80: https://www.instagram.com/p/CYbSrztPuYN/media/?size=m
-photo.80.author: ssc6105
-photo.80.link: https://www.instagram.com/ssc6105/
-photo.80.tags: peek, sample, snow, tail, whiskers
-photo.81: https://www.instagram.com/p/CYTgqc4vOut/media/?size=m
-photo.81.author: daniele.tokyo
-photo.81.link: https://www.instagram.com/p/CYTgqc4vOut/media/?size=m
-photo.81.tags: paws, playing, snow, tail, toys, upside-down
+photo.79.commitdate: 2022/2/6
+photo.79.link: https://www.instagram.com/p/CYTgqc4vOut/media/?size=m
+photo.79.tags: paws, playing, snow, tail, toys, upside-down
+photo.80: ig://CYbPG32P5Lh/m
+photo.80.author: daniele.tokyo
+photo.80.commitdate: 2022/2/6
+photo.80.link: https://www.instagram.com/daniele.tokyo/
+photo.80.tags: paws, snow
+photo.81: ig://CYbSrztPuYN/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2022/2/6
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: peek, sample, snow, tail, whiskers
 species: 2
 zoo: 34

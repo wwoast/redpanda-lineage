@@ -50,8 +50,9 @@ photo.7.link: https://www.instagram.com/itsuak/
 photo.7.tags: couple, laying down
 photo.7.tags.159.location: 310, 220
 photo.7.tags.173.location: 535, 270
-photo.8: https://www.instagram.com/p/CYGXaP-PPrn/media/?size=l
+photo.8: ig://CYGXaP-PPrn/l
 photo.8.author: itsuak
+photo.8.commitdate: 2022/2/6
 photo.8.link: https://www.instagram.com/itsuak/
 photo.8.tags: bridge, close-up, couple, paws, portrait
 photo.8.tags.159.location: 210, 370

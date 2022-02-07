@@ -429,14 +429,15 @@ photo.83.author: makimaru18
 photo.83.commitdate: 2021/12/22
 photo.83.link: https://www.instagram.com/makimaru18/
 photo.83.tags: mofumofu, paws, portrait, sample, whiskers
-photo.84: ig://CYRDSk2vFRd/m
-photo.84.author: redpan22
-photo.84.commitdate: 2022/1/13
-photo.84.link: https://www.instagram.com/redpan22/
-photo.84.tags: paws, sample, scale, standing, tail
-photo.85: https://www.instagram.com/p/CXx84W4v3e3/media/?size=m
-photo.85.author: _saaaaaaah_
-photo.85.link: https://www.instagram.com/_saaaaaaah_/
+photo.84: ig://CXx84W4v3e3/m
+photo.84.author: _saaaaaaah_
+photo.84.commitdate: 2022/2/6
+photo.84.link: https://www.instagram.com/_saaaaaaah_/
+photo.85: ig://CYRDSk2vFRd/m
+photo.85.author: redpan22
+photo.85.commitdate: 2022/1/13
+photo.85.link: https://www.instagram.com/redpan22/
+photo.85.tags: paws, sample, scale, standing, tail
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo
