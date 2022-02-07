@@ -36,6 +36,7 @@ photo.4.tags: baby, paws, portrait, snow, surprise
 photo.5: ig://CYYyx1QvBcL/m
 photo.5.author: tama67photo
 photo.5.commitdate: 2022/2/6
+photo.5.link: https://www.instagram.com/tama67photo/
 photo.5.tags: baby, bridge, tail
 photo.6: ig://CYjCnkWPhUt/m
 photo.6.author: tama67photo
@@ -52,6 +53,5 @@ photo.8.author: tama67photo
 photo.8.commitdate: 2022/1/18
 photo.8.link: https://www.instagram.com/tama67photo/
 photo.8.tags: climb, peek
-phtoo.8.link: https://www.instagram.com/tama67photo/
 species: 2
 zoo: 11
