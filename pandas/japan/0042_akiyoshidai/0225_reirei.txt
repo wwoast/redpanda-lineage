@@ -139,29 +139,31 @@ photo.25.author: kojikoji2011
 photo.25.commitdate: 2021/10/31
 photo.25.link: https://www.instagram.com/kojikoji2011/
 photo.25.tags: close-up, portrait, whiskers
-photo.26: ig://CWYM--UhDXw/m
+photo.26: ig://CWGHbkkBYc_/m
 photo.26.author: kojikoji2011
-photo.26.commitdate: 2021/11/21
+photo.26.commitdate: 2022/2/9
 photo.26.link: https://www.instagram.com/kojikoji2011/
-photo.26.tags: close-up, portrait, whiskers
-photo.27: ig://CWxrp6mhd7T/m
+photo.26.tags: autumn, peek
+photo.27: ig://kojikoji2011/CWN4W_xPbmu/m
 photo.27.author: kojikoji2011
-photo.27.commitdate: 2022/1/7
+photo.27.commitdate: 2022/2/9
 photo.27.link: https://www.instagram.com/kojikoji2011/
-photo.27.tags: paws, portrait, whiskers
-photo.28: ig://CYq0t_HvwxQ/m
+photo.27.tags: autumn, peek, portrait, sample, whiskers
+photo.28: ig://CWYM--UhDXw/m
 photo.28.author: kojikoji2011
-photo.28.commitdate: 2022/1/18
+photo.28.commitdate: 2021/11/21
 photo.28.link: https://www.instagram.com/kojikoji2011/
-photo.28.tags: home, laying down, portrait, snow
-photo.29: https://www.instagram.com/kojikoji2011/p/CWN4W_xPbmu/media/?size=m
+photo.28.tags: close-up, portrait, whiskers
+photo.29: ig://CWxrp6mhd7T/m
 photo.29.author: kojikoji2011
+photo.29.commitdate: 2022/1/7
 photo.29.link: https://www.instagram.com/kojikoji2011/
-photo.29.tags: autumn, peek, portrait, sample, whiskers
-photo.30: https://www.instagram.com/p/CWGHbkkBYc_/media/?size=m
+photo.29.tags: paws, portrait, whiskers
+photo.30: ig://CYq0t_HvwxQ/m
 photo.30.author: kojikoji2011
+photo.30.commitdate: 2022/1/18
 photo.30.link: https://www.instagram.com/kojikoji2011/
-photo.30.tags: autumn, peek
+photo.30.tags: home, laying down, portrait, snow
 species: 2
 studbook.id: 1686
 zoo: 42

@@ -2123,8 +2123,9 @@ photo.423.author: _rifa_p
 photo.423.commitdate: 2022/1/14
 photo.423.link: https://www.instagram.com/_rifa_p/
 photo.423.tags: keeper, portrait, standing
-photo.424: https://www.instagram.com/p/CY2qcquPokP/media/?size=m
+photo.424: ig://CY2qcquPokP/m
 photo.424.author: grskus_tk
+photo.424.commitdate: 2022/2/9
 photo.424.link: https://www.instagram.com/grskus_tk/
 photo.424.tags: whiskers
 species: 2

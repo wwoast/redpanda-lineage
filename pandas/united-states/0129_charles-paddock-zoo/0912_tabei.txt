@@ -36,15 +36,16 @@ photo.4.author: charlespaddockzoo
 photo.4.commitdate: 2021/10/22
 photo.4.link: https://www.instagram.com/charlespaddockzoo/
 photo.4.tags: mofumofu, portrait, tail, white face
-photo.5: ig://CY4nfdOvq7_/m
-photo.5.author: wumpwoast
-photo.5.commitdate: 2022/1/18
-photo.5.link: https://www.instagram.com/wumpwoast/
-photo.5.tags: paws, portrait, tail, tree, whiskers
-photo.6: https://www.instagram.com/p/CXcMonRLZaC/media/?size=m
-photo.6.author: worldthathesees
-photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: baby
+photo.5: ig://CXcMonRLZaC/m
+photo.5.author: worldthathesees
+photo.5.commitdate: 2022/2/9
+photo.5.link: https://www.instagram.com/worldthathesees/
+photo.5.tags: baby
+photo.6: ig://CY4nfdOvq7_/m
+photo.6.author: wumpwoast
+photo.6.commitdate: 2022/1/18
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: paws, portrait, tail, tree, whiskers
 species: 1
 uncertainty: location.3 exact month/day
 zoo: 129

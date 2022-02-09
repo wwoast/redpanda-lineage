@@ -489,8 +489,9 @@ photo.95.author: sasapan34
 photo.95.commitdate: 2021/12/22
 photo.95.link: https://www.instagram.com/sasapan34/
 photo.95.tags: sample, tail, whiskers
-photo.96: https://www.instagram.com/p/CY8dHH6LGvF/media/?size=m
+photo.96: ig://CY8dHH6LGvF/m
 photo.96.author: leonard_redmof
+photo.96.commitdate: 2022/2/9
 photo.96.link: https://www.instagram.com/leonard_redmof/
 photo.96.tags: bridge, peek, portrait, sample, tail
 species: 2

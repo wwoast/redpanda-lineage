@@ -556,29 +556,30 @@ photo.109.author: re_ichimaru
 photo.109.commitdate: 2021/10/27
 photo.109.link: https://www.instagram.com/re_ichimaru/
 photo.109.tags: curly, paws, smile, standing, tail, upside-down
-photo.110: ig://CWdhwkqB53O/m
+photo.110: ig://CVhxzX4hbj0/m
 photo.110.author: kojikoji2011
-photo.110.commitdate: 2021/11/29
+photo.110.commitdate: 2022/2/9
 photo.110.link: https://www.instagram.com/kojikoji2011/
-photo.110.tags: close-up, portrait, whiskers
-photo.111: ig://CXTZRsfB5dn/m
+photo.110.tags: bamboo, close-up, paws, portrait, sample, smile, whiskers
+photo.111: ig://kojikoji2011/CVxiNxChsxy/m
 photo.111.author: kojikoji2011
-photo.111.commitdate: 2021/12/26
 photo.111.link: https://www.instagram.com/kojikoji2011/
-photo.111.tags: curly, portrait, tail, whiskers
-photo.112: ig://kojikoji2011/CYgXD18v_4e/m
+photo.111.tags: peek, sample, tree, whiskers
+photo.112: ig://CWdhwkqB53O/m
 photo.112.author: kojikoji2011
-photo.112.commitdate: 2022/2/5
+photo.112.commitdate: 2021/11/29
 photo.112.link: https://www.instagram.com/kojikoji2011/
-photo.112.tags: bamboo, close-up, portrait, sample, smile, whiskers
-photo.113: https://www.instagram.com/kojikoji2011/p/CVxiNxChsxy/
+photo.112.tags: close-up, portrait, whiskers
+photo.113: ig://CXTZRsfB5dn/m
 photo.113.author: kojikoji2011
+photo.113.commitdate: 2021/12/26
 photo.113.link: https://www.instagram.com/kojikoji2011/
-photo.113.tags: peek, sample, tree, whiskers
-photo.114: https://www.instagram.com/p/CVhxzX4hbj0/media/?size=m
+photo.113.tags: curly, portrait, tail, whiskers
+photo.114: ig://kojikoji2011/CYgXD18v_4e/m
 photo.114.author: kojikoji2011
+photo.114.commitdate: 2022/2/5
 photo.114.link: https://www.instagram.com/kojikoji2011/
-photo.114.tags: bamboo, close-up, paws, portrait, sample, smile, whiskers
+photo.114.tags: bamboo, close-up, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 1695
 zoo: 42
