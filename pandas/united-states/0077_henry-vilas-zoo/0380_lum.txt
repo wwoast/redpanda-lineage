@@ -4,6 +4,7 @@ birthday: 2000/6/4
 birthplace: 43
 children: 381
 commitdate: 2018/11/13
+death: 2020/1/1
 en.name: Lum
 en.nicknames: none
 en.othernames: none
@@ -59,4 +60,5 @@ photo.8.link: https://www.instagram.com/worldthathesees/
 photo.8.tags: whiskers
 species: 2
 studbook.id: 0008
+uncertainty: death date/year
 zoo: 77

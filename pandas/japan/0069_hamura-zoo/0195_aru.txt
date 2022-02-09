@@ -513,6 +513,10 @@ photo.100.author: otenba_redpanda
 photo.100.commitdate: 2022/1/23
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: paws, portrait, whiskers
+photo.101: https://www.instagram.com/p/CY6SrWTFe8U/media/?size=m
+photo.101.author: otenba_redpanda
+photo.101.link: https://www.instagram.com/otenba_redpanda/
+photo.101.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 13170
 zoo: 69
