@@ -196,6 +196,7 @@ Language.L.emoji = {
           "male": "♂️",
            "map": "🗺️",
          "media": "🖼",
+      "megagift": "🍏🍎",
          "money": "💸",
        "monocle": "🧐",
           "moon": "🌙",
