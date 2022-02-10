@@ -166,6 +166,10 @@ Message.credit = function(credit, count, language) {
       var msg = document.createElement('b');
       msg.innerText = field;
       p.appendChild(msg);
+    } else if ((field == L.emoji.gift + " ") && (count >= 1000)) {
+      field = L.emoji.megagift + " ";
+      var msg = document.createTextNode(field);
+      p.appendChild(msg);
     } else {
       var msg = document.createTextNode(field);
       p.appendChild(msg);
