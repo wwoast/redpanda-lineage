@@ -283,13 +283,15 @@ photo.54.author: sasapan34
 photo.54.commitdate: 2022/2/6
 photo.54.link: https://www.instagram.com/sasapan34/
 photo.54.tags: bamboo, paws, smile
-photo.55: https://www.instagram.com/p/CY1R7xGvVKq/media/?size=m
+photo.55: ig://CY1R7xGvVKq/m
 photo.55.author: taka__3428
+photo.55.commitdate: 2022/2/9
 photo.55.link: https://www.instagram.com/taka__3428/
 photo.55.tags: paws, peek, sample, tree, whiskers
-photo.56: https://www.instagram.com/p/CY3k1kzv-x9/media/?size=m
+photo.56: ig://CY3k1kzv-x9/m
 photo.56.author: taka__3428
+photo.56.commitdate: 2022/2/9
 photo.56.link: https://www.instagram.com/taka__3428/
-photo.56.tags: close-up, laying down, tongue, whiskers 
+photo.56.tags: close-up, laying down, tongue, whiskers
 species: 2
 zoo: 16

@@ -553,8 +553,9 @@ photo.108.author: miis_98
 photo.108.commitdate: 2022/1/23
 photo.108.link: https://www.instagram.com/miis_98/
 photo.108.tags: dish, paws, portrait, sample, smile, tongue, whiskers
-photo.109: https://www.instagram.com/p/CY1gTKFPLyW/media/?size=m
+photo.109: ig://CY1gTKFPLyW/m
 photo.109.author: miis_98
+photo.109.commitdate: 2022/2/9
 photo.109.link: https://www.instagram.com/miis_98/
 photo.109.tags: peek, tree
 species: 2

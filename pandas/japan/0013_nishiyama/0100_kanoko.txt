@@ -439,8 +439,9 @@ photo.85.author: hamamatsu.chiita
 photo.85.commitdate: 2021/12/28
 photo.85.link: https://www.instagram.com/hamamatsu.chiita/
 photo.85.tags: portrait, smile, whiskers
-photo.86: https://www.instagram.com/p/CY-EOqHPtH4/media/?size=m
+photo.86: ig://CY-EOqHPtH4/m
 photo.86.author: tomo3700
+photo.86.commitdate: 2022/2/9
 photo.86.link: https://www.instagram.com/tomo3700/
 photo.86.tags: peek, portrait, sample, tail
 species: 2

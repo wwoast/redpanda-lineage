@@ -1630,8 +1630,9 @@ photo.325.author: cattail.sapporo
 photo.325.commitdate: 2022/1/23
 photo.325.link: https://www.instagram.com/cattail.sapporo/
 photo.325.tags: apple time, bamboo, dish, lunch time, paws, portrait, sample, smile, snow, whiskers
-photo.326: https://www.instagram.com/p/CY2E2FgBCS1/media/?size=m
+photo.326: ig://CY2E2FgBCS1/m
 photo.326.author: hamamatsu.chiita
+photo.326.commitdate: 2022/2/9
 photo.326.link: https://www.instagram.com/hamamatsu.chiita/
 photo.326.tags: mofumofu, portrait, sample, smile, tongue, whiskers
 species: 2

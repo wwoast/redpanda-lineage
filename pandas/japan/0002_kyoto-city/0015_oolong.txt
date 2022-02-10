@@ -1033,10 +1033,11 @@ photo.205.author: jas_forever_love
 photo.205.commitdate: 2022/1/30
 photo.205.link: https://www.instagram.com/jas_forever_love/
 photo.205.tags: climb, tail, tree
-photo.206: https://www.instagram.com/p/CY81LsHPINz/media/?size=m
+photo.206: ig://CY81LsHPINz/m
 photo.206.author: redpanda_nippon_takashi
+photo.206.commitdate: 2022/2/9
 photo.206.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.206.tags: peek, sample, snow, whiskers 
+photo.206.tags: peek, sample, snow, whiskers
 species: 2
 studbook.id: 11131
 zoo: 2
