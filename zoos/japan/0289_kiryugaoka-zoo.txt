@@ -12,4 +12,17 @@ language.order: jp, en
 latitude: 36.4198651
 longitude: 139.3324586
 map: https://goo.gl/maps/vd74wUJnUA7cyL7x7
+photo.1: https://www.instagram.com/p/CAeuP7THrgU/media/?size=m
+photo.1.author: kiryucity_gunma_kiritori
+photo.1.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.2: https://www.instagram.com/p/B3MGan7n_w9/media/?size=m
+photo.2.author: kiryucity_gunma_kiritori
+photo.2.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.2.tags: profile
+photo.3: https://www.instagram.com/p/BzJ_ZolnwcS/media/?size=m
+photo.3.author: kiryucity_gunma_kiritori
+photo.3.link: https://www.instagram.com/kiryucity_gunma_kiritori/
+photo.4: https://www.instagram.com/p/Bhvltg3lPsC/media/?size=m
+photo.4.author: kiryucity_gunma_kiritori
+photo.4.link: https://www.instagram.com/kiryucity_gunma_kiritori/
 website: https://www.city.kiryu.lg.jp/zoo/
