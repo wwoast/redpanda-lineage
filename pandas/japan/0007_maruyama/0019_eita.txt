@@ -1635,8 +1635,9 @@ photo.326.author: hamamatsu.chiita
 photo.326.commitdate: 2022/2/9
 photo.326.link: https://www.instagram.com/hamamatsu.chiita/
 photo.326.tags: mofumofu, portrait, sample, smile, tongue, whiskers
-photo.327: https://www.instagram.com/p/CZofhU8LDyE/media/?size=m
+photo.327: ig://CZofhU8LDyE/m
 photo.327.author: cattail.sapporo
+photo.327.commitdate: 2022/2/11
 photo.327.link: https://www.instagram.com/cattail.sapporo/
 photo.327.tags: portrait, sample, whiskers, yawn
 species: 2

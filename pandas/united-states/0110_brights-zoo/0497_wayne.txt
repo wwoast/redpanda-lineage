@@ -41,14 +41,16 @@ photo.5.author: rossifari
 photo.5.commitdate: 2020/9/16
 photo.5.link: https://www.instagram.com/rossifari/
 photo.5.tags: apple time, paws, portrait, smile, white face
-photo.6: https://www.instagram.com/p/CZueZfQJxBq/media/?size=m
+photo.6: ig://CZWy0meL8Lq/m
 photo.6.author: brightszoo
+photo.6.commitdate: 2022/2/11
 photo.6.link: https://www.instagram.com/brightszoo/
-photo.6.tags: blink, close-up, paws, tongue, white face
-photo.7: https://www.instagram.com/p/CZWy0meL8Lq/media/?size=m
+photo.6.tags: paws, smile, whiskers
+photo.7: ig://CZueZfQJxBq/m
 photo.7.author: brightszoo
+photo.7.commitdate: 2022/2/11
 photo.7.link: https://www.instagram.com/brightszoo/
-photo.7.tags: paws, smile, whiskers
+photo.7.tags: blink, close-up, paws, tongue, white face
 species: 1
 studbook.id: 1234
 zoo: 110

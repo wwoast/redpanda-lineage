@@ -371,8 +371,9 @@ photo.74.author: shigeko0531
 photo.74.commitdate: 2022/1/30
 photo.74.link: https://www.instagram.com/shigeko0531/
 photo.74.tags: close-up, peek, snow, techitechi, whiskers
-photo.75: https://www.instagram.com/p/CZrUQNVhwFp/media/?size=m
+photo.75: ig://CZrUQNVhwFp/m
 photo.75.author: redpan22
+photo.75.commitdate: 2022/2/11
 photo.75.link: https://www.instagram.com/redpan22/
 photo.75.tags: snow, tree, whiskers
 species: 2

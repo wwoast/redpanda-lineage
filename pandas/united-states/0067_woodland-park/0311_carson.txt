@@ -970,8 +970,9 @@ photo.191.author: carsontheredpanda
 photo.191.commitdate: 2022/1/23
 photo.191.link: https://www.instagram.com/carsontheredpanda/
 photo.191.tags: dish, lunch time, nose, portrait, smile, whiskers
-photo.192: https://www.instagram.com/p/CZuhpBVPfnP/media/?size=m
+photo.192: ig://CZuhpBVPfnP/m
 photo.192.author: carsontheredpanda
+photo.192.commitdate: 2022/2/11
 photo.192.link: https://www.instagram.com/carsontheredpanda/
 photo.192.tags: lunch time, paws, portrait, sample, smile, whiskers
 species: 1

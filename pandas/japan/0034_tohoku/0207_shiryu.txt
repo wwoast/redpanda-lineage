@@ -121,8 +121,9 @@ photo.22.author: rie_panda55
 photo.22.commitdate: 2021/11/6
 photo.22.link: https://www.instagram.com/rie_panda55/
 photo.22.tags: paws, portrait, whiskers
-photo.23: https://www.instagram.com/p/CZwNSB-LX83/media/?size=m
+photo.23: ig://CZwNSB-LX83/m
 photo.23.author: daniele.tokyo
+photo.23.commitdate: 2022/2/11
 photo.23.link: https://www.instagram.com/daniele.tokyo/
 photo.23.tags: nose, paws, snow, whiskers
 species: 2

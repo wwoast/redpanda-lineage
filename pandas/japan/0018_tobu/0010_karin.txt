@@ -920,8 +920,9 @@ photo.181.author: pink.b22
 photo.181.commitdate: 2022/1/6
 photo.181.link: https://www.instagram.com/pink.b22/
 photo.181.tags: mofumofu, paws, portrait, sample, tail
-photo.182: https://www.instagram.com/p/CZrDJL1PXs4/media/?size=m
+photo.182: ig://CZrDJL1PXs4/m
 photo.182.author: ssc6105
+photo.182.commitdate: 2022/2/11
 photo.182.link: https://www.instagram.com/ssc6105/
 photo.182.tags: ear, mofumofu, sample
 species: 2
