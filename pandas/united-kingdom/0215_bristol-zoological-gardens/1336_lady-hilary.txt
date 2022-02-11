@@ -1,0 +1,35 @@
+[panda]
+_id: 1336
+birthday: 2007/12/27
+birthplace: 204
+children: 1265
+death: 2019/9/9
+commitdate: 2022/2/11
+en.name: Lady Hilary
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: 貴女ヒラリー
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 204, 2007/12/27
+location.2: 215, 2011/6/14
+photo.1: https://www.instagram.com/p/B2OdaWTnwfL/media/?size=m
+photo.1.author: bristolzoo
+photo.1.link: https://www.instagram.com/bristolzoo/
+photo.1.tags: itchy, paws
+photo.2: https://www.instagram.com/p/BtWckwqA4BN/media/?size=m
+photo.2.author: bristolzoo
+photo.2.link: https://www.instagram.com/bristolzoo/
+photo.2.tags: paws, portrait, snow, whiskers
+photo.3: https://www.instagram.com/p/BqNdTk_ABga/media/?size=m
+photo.3.author: bristolzoo
+photo.3.link: https://www.instagram.com/bristolzoo/
+photo.3.tags: bamboo, bite, snow
+photo.4: https://www.instagram.com/p/Bog7EGSH9oj/media/?size=m
+photo.4.author: bristolzoo
+photo.4.link: https://www.instagram.com/bristolzoo/
+photo.4.tags: bamboo, bite, portrait, profile, sample, tongue, whiskers
+species: 1
+zoo: 215

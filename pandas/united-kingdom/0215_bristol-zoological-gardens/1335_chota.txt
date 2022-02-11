@@ -1,0 +1,37 @@
+[panda]
+_id: 1335
+birthday: 2008/6/27
+birthplace: 271
+children: 1265
+death: 2020/4/1
+commitdate: 2022/2/11
+en.name: Chota
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ちょた
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+location.1: 271, 2008/6/27
+location.2: 150, 2009/5/1
+location.3: 215, 2015/8/11
+photo.1: https://www.instagram.com/p/BkiE5RBnsOW/media/?size=m
+photo.1.author: bristolzoo
+photo.1.link: https://www.instagram.com/bristolzoo/
+photo.1.tags: bamboo, portrait, profile, whiskers
+photo.2: https://www.instagram.com/p/Bd2CCHlHBRR/media/?size=m
+photo.2.author: bristolzoo
+photo.2.link: https://www.instagram.com/bristolzoo/
+photo.2.tags: bamboo, close-up, whiskers, white face
+photo.3: https://www.instagram.com/p/BsvJgxbDZNG/media/?size=m
+photo.3.author: bristolzoo
+photo.3.link: https://www.instagram.com/bristolzoo/
+photo.3.tags: paws, peek, portrait
+photo.4: https://www.instagram.com/p/BtVmh7uF3ez/media/?size=m
+photo.4.author: bristolzoo
+photo.4.link: https://www.instagram.com/bristolzoo/
+photo.4.tags: nose, snow, tail
+species: 1
+uncertainty: exact date of death in April
+zoo: 215
