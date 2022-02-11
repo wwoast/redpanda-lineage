@@ -202,7 +202,7 @@ photo.38: ig://CQzFj8hhecd/m
 photo.38.author: hamamatsu.chiita
 photo.38.commitdate: 2021/7/4
 photo.38.link: https://www.instagram.com/hamamatsu.chiita/
-photo.38.tags: portrait, profile, whiskers
+photo.38.tags: portrait, sample, whiskers
 photo.39: ig://CQzvogLscYd/m
 photo.39.author: lesserpanda_shizuokacity_cp
 photo.39.commitdate: 2021/8/22
@@ -293,5 +293,9 @@ photo.56.author: taka__3428
 photo.56.commitdate: 2022/2/9
 photo.56.link: https://www.instagram.com/taka__3428/
 photo.56.tags: close-up, laying down, tongue, whiskers
+photo.57: https://www.instagram.com/p/CZjN-oSPzHB/media/?size=m
+photo.57.author: otenba_redpanda
+photo.57.link: https://www.instagram.com/otenba_redpanda/
+photo.57.tags: portrait, profile, sample, whiskers
 species: 2
 zoo: 16
