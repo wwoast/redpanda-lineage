@@ -14,12 +14,14 @@ jp.othernames: none
 language.order: en, jp
 location.1: 275, 2020/7/15
 location.2: 215, 2021/6/1
-photo.1: https://www.instagram.com/p/CQsvkrmtukg/media/?size=m
+photo.1: ig://CQsvkrmtukg/m
 photo.1.author: bristolzoo
+photo.1.commitdate: 2022/2/10
 photo.1.link: https://www.instagram.com/bristolzoo/
 photo.1.tags: peek, profile, tree, white face
-photo.2: https://www.instagram.com/p/CWnoeBNM1Zj/media/?size=m
+photo.2: ig://CWnoeBNM1Zj/m
 photo.2.author: bristolzoo
+photo.2.commitdate: 2022/2/10
 photo.2.link: https://www.instagram.com/bristolzoo/
 photo.2.tags: peek, tree
 species: 1

@@ -58,13 +58,15 @@ photo.9.author: tama67photo
 photo.9.commitdate: 2022/2/9
 photo.9.link: https://www.instagram.com/tama67photo/
 photo.9.tags: baby, climb, head-first, portrait, tail, tree
-photo.10: https://www.instagram.com/p/CZwPC68vlKH/media/?size=m
-photo.10.author: tama67photo
-photo.10.link: https://www.instagram.com/tama67photo/
-photo.10.tags: baby, bamboo, close-up, nose, portrait, profile, sample, snow
-photo.11: https://www.instagram.com/p/CZwOttYvmDl/media/?size=m
-photo.11.author: minatomirai215
-photo.11.link: https://www.instagram.com/minatomirai215/
-photo.11.tags: baby, climb, mofumofu, paws, portrait, sample
+photo.10: ig://CZwOttYvmDl/m
+photo.10.author: minatomirai215
+photo.10.commitdate: 2022/2/10
+photo.10.link: https://www.instagram.com/minatomirai215/
+photo.10.tags: baby, climb, mofumofu, paws, portrait, sample
+photo.11: ig://CZwPC68vlKH/m
+photo.11.author: tama67photo
+photo.11.commitdate: 2022/2/10
+photo.11.link: https://www.instagram.com/tama67photo/
+photo.11.tags: baby, bamboo, close-up, nose, portrait, profile, sample, snow
 species: 2
 zoo: 11

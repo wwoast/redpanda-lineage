@@ -26,8 +26,9 @@ photo.2.author: manmanko2
 photo.2.commitdate: 2021/12/8
 photo.2.link: https://www.instagram.com/manmanko2/
 photo.2.tags: peek, tail
-photo.3: https://www.instagram.com/p/CZjgZXRP1tJ/media/?size=m
+photo.3: ig://CZjgZXRP1tJ/m
 photo.3.author: manmanko2
+photo.3.commitdate: 2022/2/10
 photo.3.link: https://www.instagram.com/manmanko2/
 photo.3.tags: apple time, bite, smile
 species: 2

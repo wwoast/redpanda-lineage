@@ -54,30 +54,36 @@ photo.8.author: parcanimalierdauvergne
 photo.8.commitdate: 2021/8/14
 photo.8.link: https://www.instagram.com/parcanimalierdauvergne/
 photo.8.tags: bamboo, close-up, mofumofu, portrait, white face
-photo.9: https://www.instagram.com/p/CKD55VPgPkm/media/?size=m
+photo.9: ig://CKD55VPgPkm/m
 photo.9.author: bristolzoo
+photo.9.commitdate: 2022/2/10
 photo.9.link: https://www.instagram.com/bristolzoo/
 photo.9.tags: bamboo, laying down, peek, whiskers
-photo.10: https://www.instagram.com/p/CWsddYpM6G2/media/?size=m
+photo.10: ig://CRJdfkwjWLu/m
 photo.10.author: bristolzoo
+photo.10.commitdate: 2022/2/10
 photo.10.link: https://www.instagram.com/bristolzoo/
-photo.10.tags: paws, portrait, profile, sample, tree, whiskers
-photo.11: https://www.instagram.com/p/CTT8IjpjLYb/media/?size=m
+photo.10.tags: laying down, paws, sample, tree, whiskers
+photo.11: ig://CSWXrNzoY87/m
 photo.11.author: bristolzoo
+photo.11.commitdate: 2022/2/10
 photo.11.link: https://www.instagram.com/bristolzoo/
-photo.11.tags: paws, sample, tree, wave, whiskers
-photo.12: https://www.instagram.com/p/CRJdfkwjWLu/media/?size=m
+photo.11.tags: keeper, peek, portrait, toys
+photo.12: ig://CTT8IjpjLYb/m
 photo.12.author: bristolzoo
+photo.12.commitdate: 2022/2/10
 photo.12.link: https://www.instagram.com/bristolzoo/
-photo.12.tags: laying down, paws, sample, tree, whiskers
-photo.13: https://www.instagram.com/p/CT9Q3tOMsE3/media/?size=m
+photo.12.tags: paws, sample, tree, wave, whiskers
+photo.13: ig://CT9Q3tOMsE3/m
 photo.13.author: bristolzoo
+photo.13.commitdate: 2022/2/10
 photo.13.link: https://www.instagram.com/bristolzoo/
 photo.13.tags: peek, smile, tree, whiskers
-photo.14: https://www.instagram.com/p/CSWXrNzoY87/media/?size=m
+photo.14: ig://CWsddYpM6G2/m
 photo.14.author: bristolzoo
+photo.14.commitdate: 2022/2/10
 photo.14.link: https://www.instagram.com/bristolzoo/
-photo.14.tags: keeper, peek, portrait, toys
+photo.14.tags: paws, portrait, profile, sample, tree, whiskers
 species: 1
 uncertainty: location.2 exact date (july or august)
 zoo: 215

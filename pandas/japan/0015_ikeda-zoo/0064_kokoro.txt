@@ -248,8 +248,9 @@ photo.47.author: itsuak
 photo.47.commitdate: 2021/11/7
 photo.47.link: https://www.instagram.com/itsuak/
 photo.47.tags: bamboo, close-up, portrait
-photo.48: https://www.instagram.com/p/CZo9vduP-NN/media/?size=m
+photo.48: ig://CZo9vduP-NN/m
 photo.48.author: itsuak
+photo.48.commitdate: 2022/2/10
 photo.48.link: https://www.instagram.com/itsuak/
 photo.48.tags: bamboo, peek, portrait
 species: 2

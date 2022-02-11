@@ -293,8 +293,9 @@ photo.56.author: taka__3428
 photo.56.commitdate: 2022/2/9
 photo.56.link: https://www.instagram.com/taka__3428/
 photo.56.tags: close-up, laying down, tongue, whiskers
-photo.57: https://www.instagram.com/p/CZjN-oSPzHB/media/?size=m
+photo.57: ig://CZjN-oSPzHB/m
 photo.57.author: otenba_redpanda
+photo.57.commitdate: 2022/2/10
 photo.57.link: https://www.instagram.com/otenba_redpanda/
 photo.57.tags: portrait, profile, sample, whiskers
 species: 2

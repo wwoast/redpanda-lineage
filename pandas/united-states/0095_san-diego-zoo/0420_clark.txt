@@ -184,8 +184,9 @@ photo.34.author: carsontheredpanda
 photo.34.commitdate: 2022/1/6
 photo.34.link: https://www.instagram.com/carsontheredpanda/
 photo.34.tags: mofumofu, portrait, tree, whiskers
-photo.35: https://www.instagram.com/p/CZmcBgnFFWu/media/?size=m
+photo.35: ig://CZmcBgnFFWu/m
 photo.35.author: rossifari
+photo.35.commitdate: 2022/2/10
 photo.35.link: https://www.instagram.com/rossifari/
 photo.35.tags: close-up, portrait, tongue, whiskers
 species: 2

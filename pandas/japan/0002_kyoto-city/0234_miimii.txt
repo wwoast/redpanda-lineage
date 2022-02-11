@@ -619,8 +619,9 @@ photo.121.author: apple_jasmine33
 photo.121.commitdate: 2022/2/6
 photo.121.link: https://www.instagram.com/apple_jasmine33/
 photo.121.tags: close-up, paws, smile, whiskers
-photo.122: https://www.instagram.com/p/CZrBTVyPLCR/media/?size=m
+photo.122: ig://CZrBTVyPLCR/m
 photo.122.author: jas_forever_love
+photo.122.commitdate: 2022/2/10
 photo.122.link: https://www.instagram.com/jas_forever_love/
 photo.122.tags: peek, portrait, tail, tree, upside-down
 species: 2

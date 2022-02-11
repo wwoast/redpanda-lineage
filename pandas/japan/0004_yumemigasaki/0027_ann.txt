@@ -274,8 +274,9 @@ photo.52.author: mini_cochi
 photo.52.commitdate: 2022/1/6
 photo.52.link: https://www.instagram.com/mini_cochi/
 photo.52.tags: bamboo, bite, paws, portrait, whiskers, white face
-photo.53: https://www.instagram.com/p/CZnwsKXlmAZ/media/?size=m
+photo.53: ig://CZnwsKXlmAZ/m
 photo.53.author: otenba_redpanda
+photo.53.commitdate: 2022/2/10
 photo.53.link: https://www.instagram.com/otenba_redpanda/
 photo.53.tags: bamboo, portrait, sample, tongue, white face
 species: 2
