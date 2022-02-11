@@ -9,4 +9,17 @@ language.order: en
 latitude: 51.4637269
 longitude: -2.6241997
 map: https://goo.gl/maps/y4LPjAf61fM5z3CT6
+photo.1: https://www.instagram.com/p/CQashKwgpdv/media/?size=m
+photo.1.author: bristolzoo
+photo.1.link: https://www.instagram.com/bristolzoo/
+photo.2: https://www.instagram.com/p/COc7jD8nSb7/media/?size=m
+photo.2.author: bristolzoo
+photo.2.link: https://www.instagram.com/bristolzoo/
+photo.3: https://www.instagram.com/p/B8_seQHA9Oe/media/?size=m
+photo.3.author: bristolzoo
+photo.3.link: https://www.instagram.com/bristolzoo/
+photo.4: https://www.instagram.com/p/BmsvXGIH6mq/media/?size=m
+photo.4.author: bristolzoo
+photo.4.link: https://www.instagram.com/bristolzoo/
+photo.4.tags: profile
 website: https://www.bristolzoo.org.uk
