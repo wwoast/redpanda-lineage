@@ -619,15 +619,16 @@ photo.121.author: apple_jasmine33
 photo.121.commitdate: 2022/2/6
 photo.121.link: https://www.instagram.com/apple_jasmine33/
 photo.121.tags: close-up, paws, smile, whiskers
-photo.122: ig://CZrBTVyPLCR/m
-photo.122.author: jas_forever_love
-photo.122.commitdate: 2022/2/10
-photo.122.link: https://www.instagram.com/jas_forever_love/
-photo.122.tags: peek, portrait, tail, tree, upside-down
-photo.123: https://www.instagram.com/p/CZW6HEwvL9Z/media/?size=m
-photo.123.author: sakikukeco
-photo.123.link: https://www.instagram.com/sakikukeco/
-photo.123.tags: peek, smile, whiskers
+photo.122: ig://CZW6HEwvL9Z/m
+photo.122.author: sakikukeco
+photo.122.commitdate: 2022/2/12
+photo.122.link: https://www.instagram.com/sakikukeco/
+photo.122.tags: peek, smile, whiskers
+photo.123: ig://CZrBTVyPLCR/m
+photo.123.author: jas_forever_love
+photo.123.commitdate: 2022/2/10
+photo.123.link: https://www.instagram.com/jas_forever_love/
+photo.123.tags: peek, portrait, tail, tree, upside-down
 species: 2
 studbook.id: 1786
 zoo: 2

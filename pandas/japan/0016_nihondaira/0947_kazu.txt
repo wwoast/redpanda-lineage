@@ -298,8 +298,9 @@ photo.57.author: otenba_redpanda
 photo.57.commitdate: 2022/2/10
 photo.57.link: https://www.instagram.com/otenba_redpanda/
 photo.57.tags: portrait, profile, sample, whiskers
-photo.58: https://www.instagram.com/p/CZmWNXmPUvt/media/?size=m
+photo.58: ig://CZmWNXmPUvt/m
 photo.58.author: rie_panda55
+photo.58.commitdate: 2022/2/12
 photo.58.link: https://www.instagram.com/rie_panda55/
 photo.58.tags: bamboo, portrait, smile, snow
 species: 2

@@ -240,8 +240,9 @@ photo.45.author: shigeko0531
 photo.45.commitdate: 2021/7/13
 photo.45.link: https://www.instagram.com/shigeko0531/
 photo.45.tags: portrait, tree, videolink
-photo.46: https://www.instagram.com/p/CZZdJ7OhsZZ/media/?size=m
+photo.46: ig://CZZdJ7OhsZZ/m
 photo.46.author: otenba_redpanda
+photo.46.commitdate: 2022/2/12
 photo.46.link: https://www.instagram.com/otenba_redpanda/
 photo.46.tags: close-up, portrait, whiskers
 species: 2

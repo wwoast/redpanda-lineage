@@ -648,8 +648,9 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2022/2/9
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: peek, portrait, sample, techitechi, whiskers
-photo.128: https://www.instagram.com/p/CZmRP63lRWC/media/?size=m
+photo.128: ig://CZmRP63lRWC/m
 photo.128.author: mini_cochi
+photo.128.commitdate: 2022/2/12
 photo.128.link: https://www.instagram.com/mini_cochi/
 photo.128.tags: apple time, paws, portrait, sample, whiskers
 species: 2

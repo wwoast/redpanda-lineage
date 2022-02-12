@@ -702,8 +702,9 @@ photo.139.author: taka__3428
 photo.139.commitdate: 2022/1/6
 photo.139.link: https://www.instagram.com/taka__3428/
 photo.139.tags: close-up, whiskers
-photo.140: https://www.instagram.com/p/CZmXoUXlV2B/media/?size=m
+photo.140: ig://CZmXoUXlV2B/m
 photo.140.author: miis_98
+photo.140.commitdate: 2022/2/12
 photo.140.link: https://www.instagram.com/miis_98/
 photo.140.tags: portrait, sample, smile, tongue, whiskers
 species: 2
