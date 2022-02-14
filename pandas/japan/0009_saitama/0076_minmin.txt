@@ -4,13 +4,14 @@ birthday: 2002/7/17
 birthplace: 6
 children: 299, 1182, 357, 27, 143, 78, 153, 347
 commitdate: 2018/6/23
+death: 2022/2/13
 en.name: Min-Min
 en.nicknames: none
 en.othernames: Minmin
 gender: m
-jp.name: 明明
+jp.name: ミンミン
 jp.nicknames: none
-jp.othernames: ミンミン
+jp.othernames: none
 language.order: jp, en
 litter: 328
 location.1: 6, 2002/7/17
@@ -273,6 +274,18 @@ photo.52.author: otenba_redpanda
 photo.52.commitdate: 2022/1/8
 photo.52.link: https://www.instagram.com/otenba_redpanda/
 photo.52.tags: paws, portrait, tail
+photo.53: https://www.instagram.com/p/CZLKpztvBE6/media/?size=m
+photo.53.author: fetorus_mami
+photo.53.link: https://www.instagram.com/fetorus_mami/
+photo.53.tags: bamboo, mofumofu, peek, sample, tail
+photo.54: https://www.instagram.com/p/CXcYYw-lgXM/media/?size=m
+photo.54.author: fetorus_mami
+photo.54.link: https://www.instagram.com/fetorus_mami/
+photo.54.tags: bamboo, mofumofu, peek, sample, tail, tongue
+photo.55: https://www.instagram.com/p/CV6c3WBhBZk/media/?size=m
+photo.55.author: fetorus_mami
+photo.55.link: https://www.instagram.com/fetorus_mami/
+photo.55.tags: door, paws, peek
 species: 2
 studbook.id: 0293
 zoo: 9

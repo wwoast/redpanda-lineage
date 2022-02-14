@@ -292,15 +292,12 @@ Page.home.render = function() {
     var new_content = document.createElement('div');
     new_content.className = "results birthdayPandas";
     new_content.id = "contentFrame";
-    // Kin Gin special
-    // var kg = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
-    // new_content.appendChild(kg);
     // Halloween
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
     // Current memorials
-    // var departed = Gallery.memorialPhotoCredits(L.display, ["135"], 3, Message.memorial);
-    // new_content.appendChild(departed);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["76"], 3, Message.memorial);
+    new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["79"], 5, Message.missing_you);
     // new_content.appendChild(memorial);
