@@ -299,7 +299,7 @@ Page.home.render = function() {
     var departed = Gallery.memorialPhotoCredits(L.display, ["76"], 3, Message.memorial);
     new_content.appendChild(departed);
     // Please remember these pandas
-    var memorial = Gallery.memorialPhotoCredits(L.display, ["82"], 5, Message.missing_you);
+    var memorial = Gallery.memorialPhotoCredits(L.display, ["82"], 3, Message.missing_you);
     new_content.appendChild(memorial);
     // Birthday logic
     var min_photo_count = 3;
