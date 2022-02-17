@@ -1,6 +1,6 @@
 # Red Panda Lineage
 
-[![Build Status](https://travis-ci.com/wwoast/redpanda-lineage.svg?branch=master)](https://travis-ci.com/wwoast/redpanda-lineage)
+[![Build Status](https://travis-ci.com/wwoast/redpanda-lineage.svg?branch=master)](https://app.travis-ci.com/github.com/wwoast/redpanda-lineage)
 [![Red Pandas](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.pandas&label=red%20pandas&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
 [![Zoos](https://img.shields.io/badge/dynamic/json.svg?query=$._totals.zoos&label=zoos&uri=https%3A%2F%2Fwwoast.github.io%2Fredpanda-lineage%2Fexport%2Fredpanda.json)](https://wwoast.github.io/redpanda-lineage/export/redpanda.json)
 
