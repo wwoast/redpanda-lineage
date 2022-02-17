@@ -19,5 +19,5 @@ litter: none
 location.1: 219, 2015/6/11
 location.2: 272, 2016/3/20
 species: 1
-uncertainty: location.2 exact date 
+uncertainty: location.2 exact date
 zoo: 272
