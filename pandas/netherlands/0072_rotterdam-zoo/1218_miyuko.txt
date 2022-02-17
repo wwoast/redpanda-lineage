@@ -15,6 +15,8 @@ jp.name: ミユコ
 jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
+location.1: 219, 2020/7/10
+location.2: 72, 2021/12/1
 litter: 1217
 photo.1: ig://CF1veFxA558/m
 photo.1.author: nathalie.elliott
@@ -62,4 +64,5 @@ photo.9.commitdate: 2021/5/26
 photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: bamboo, paws, portrait, standing, tail
 species: 1
-zoo: 219
+uncertainty: location.2 exact date
+zoo: 72
