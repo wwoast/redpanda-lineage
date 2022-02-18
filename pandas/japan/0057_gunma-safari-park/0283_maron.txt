@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: none
+location.1: 60, 2017/7/17
+location.2: 57, 2022/2/16
 photo.1: ig://Bfai3nVl5nZ/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2020/3/12
@@ -193,4 +195,4 @@ photo.36.link: https://www.instagram.com/akiakiakiko18/
 photo.36.tags: peek, portrait
 species: 2
 studbook.id: 1787
-zoo: 60
+zoo: 57
