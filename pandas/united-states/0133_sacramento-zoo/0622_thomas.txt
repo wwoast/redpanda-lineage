@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 621
 location.1: 145, 2013/6/20
 location.2: 146, 2017/12/12
+location.3: 133, 2021/11/10
 photo.1: ig://ByQwlfsnLzm/m
 photo.1.author: okczoo
 photo.1.commitdate: 2019/10/15
@@ -70,6 +71,35 @@ photo.11.author: okczoo
 photo.11.commitdate: 2022/1/13
 photo.11.link: https://www.instagram.com/okczoo/
 photo.11.tags: paws, peek, snow
+photo.12: https://www.instagram.com/p/CIymCewhhRL/media/?size=m
+photo.12.author: okczoo
+photo.12.link: https://www.instagram.com/carsontheredpanda/
+photo.12.tags: paws, smile, snow, standing
+photo.13: https://www.instagram.com/p/CT9sri0NjQr/media/?size=m
+photo.13.author: okczoo
+photo.13.link: https://www.instagram.com/okczoo/
+photo.13.tags: close-up, standing, whiskers
+photo.14: https://www.instagram.com/p/BggluwMg8cO/media/?size=m
+photo.14.author: esdeemphoto
+photo.14.link: https://www.instagram.com/esdeemphoto/
+photo.14.tags: portrait, sample, smile, whiskers
+photo.15: https://www.instagram.com/p/Bf8udB6lKfS/media/?size=m
+photo.15.author: esdeemphoto
+photo.15.link: https://www.instagram.com/esdeemphoto/
+photo.15.tags: peek, portrait, sample, smile, tongue, whiskers
+photo.16: https://www.instagram.com/p/Bi5TRJunB-U/media/?size=m
+photo.16.author: esdeemphoto
+photo.16.link: https://www.instagram.com/esdeemphoto/
+photo.16.tags: bamboo, paws, smile
+photo.17: https://www.instagram.com/p/B_GQJ4oBfpi/media/?size=m
+photo.17.author: worldthathesees
+photo.17.link: https://www.instagram.com/worldthathesees/
+photo.17.tags: portrait, sample, smile, whiskers
+photo.18: https://www.instagram.com/p/B_D0GT_Bf7y/media/?size=m
+photo.18.author: worldthathesees
+photo.18.link: https://www.instagram.com/worldthathesees/
+photo.18.tags: paws, portrait, sample, smile, whiskers
 species: 1
 studbook.id: 1332
-zoo: 146
+uncertainty: location.3 is a best guess based on benjamin's move-in date
+zoo: 133
