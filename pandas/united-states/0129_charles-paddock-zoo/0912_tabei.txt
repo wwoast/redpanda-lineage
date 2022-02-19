@@ -46,14 +46,16 @@ photo.6.author: wumpwoast
 photo.6.commitdate: 2022/1/18
 photo.6.link: https://www.instagram.com/wumpwoast/
 photo.6.tags: paws, portrait, tail, tree, whiskers
-photo.7: https://www.instagram.com/p/CY8YIH3rX3u/media/?size=m
+photo.7: ig://CY61wjUFaad/m
 photo.7.author: wumpwoast
+photo.7.commitdate: 2022/2/18
 photo.7.link: https://www.instagram.com/wumpwoast/
-photo.7.tags: laying down, portrait, sleeping, whiskers, white face
-photo.8: https://www.instagram.com/p/CY61wjUFaad/media/?size=m
+photo.7.tags: close-up, peek, sample, whiskers
+photo.8: ig://CY8YIH3rX3u/m
 photo.8.author: wumpwoast
+photo.8.commitdate: 2022/2/18
 photo.8.link: https://www.instagram.com/wumpwoast/
-photo.8.tags: close-up, peek, sample, whiskers
+photo.8.tags: laying down, portrait, sleeping, whiskers, white face
 species: 1
 uncertainty: location.3 exact month/day
 zoo: 129

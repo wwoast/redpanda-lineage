@@ -37,8 +37,9 @@ photo.5.link: https://www.instagram.com/minatomirai215/
 photo.5.tags: bridge, couple, portrait
 photo.5.tags.23.location: 255, 180
 photo.5.tags.376.location: 155, 205
-photo.6: https://www.instagram.com/gloryeui/p/CYIRJBuFKNm/media/?size=l
+photo.6: ig://gloryeui/CYIRJBuFKNm/l
 photo.6.author: gloryeui
+photo.6.commitdate: 2022/2/18
 photo.6.link: https://www.instagram.com/gloryeui/
 photo.6.tags: couple, home, peek, portrait
 photo.6.tags.23.location: 300, 50

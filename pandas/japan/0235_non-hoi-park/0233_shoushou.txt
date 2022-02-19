@@ -613,24 +613,26 @@ photo.120.author: gloryeui
 photo.120.commitdate: 2021/12/26
 photo.120.link: https://www.instagram.com/gloryeui/
 photo.120.tags: portrait, smile
-photo.121: ig://CZWZ-DqreL9/m
-photo.121.author: otenba_redpanda
-photo.121.commitdate: 2022/2/10
-photo.121.link: https://www.instagram.com/otenba_redpanda/
-photo.121.tags: bamboo, paws, portrait, tail, whiskers
-photo.122: ig://CZlv7BOF17I/m
-photo.122.author: otenba_redpanda
-photo.122.commitdate: 2022/2/10
-photo.122.link: https://www.instagram.com/otenba_redpanda/
-photo.122.tags: bamboo, itchy, paws, portrait, tail
-photo.123: https://www.instagram.com/p/CXVqf6zr0bg/media/?size=m
-photo.123.author: gloryeui
-photo.123.link: https://www.instagram.com/gloryeui/
-photo.123.tags: bamboo, paws, peek, portrait, sample
-photo.124: https://www.instagram.com/p/CXVa_m5LRc5/media/?size=m
-photo.124.author: gloryeui
-photo.124.link: https://www.instagram.com/gloryeui/
-photo.124.tags: apple time, keeper, peek, portrait
+photo.121: ig://CXVa_m5LRc5/m
+photo.121.author: gloryeui
+photo.121.commitdate: 2022/2/18
+photo.121.link: https://www.instagram.com/gloryeui/
+photo.121.tags: apple time, keeper, peek, portrait
+photo.122: ig://CXVqf6zr0bg/m
+photo.122.author: gloryeui
+photo.122.commitdate: 2022/2/18
+photo.122.link: https://www.instagram.com/gloryeui/
+photo.122.tags: bamboo, paws, peek, portrait, sample
+photo.123: ig://CZWZ-DqreL9/m
+photo.123.author: otenba_redpanda
+photo.123.commitdate: 2022/2/10
+photo.123.link: https://www.instagram.com/otenba_redpanda/
+photo.123.tags: bamboo, paws, portrait, tail, whiskers
+photo.124: ig://CZlv7BOF17I/m
+photo.124.author: otenba_redpanda
+photo.124.commitdate: 2022/2/10
+photo.124.link: https://www.instagram.com/otenba_redpanda/
+photo.124.tags: bamboo, itchy, paws, portrait, tail
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

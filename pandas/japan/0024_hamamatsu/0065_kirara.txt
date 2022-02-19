@@ -702,15 +702,16 @@ photo.139.author: taka__3428
 photo.139.commitdate: 2022/1/6
 photo.139.link: https://www.instagram.com/taka__3428/
 photo.139.tags: close-up, whiskers
-photo.140: ig://CZmXoUXlV2B/m
-photo.140.author: miis_98
-photo.140.commitdate: 2022/2/12
-photo.140.link: https://www.instagram.com/miis_98/
-photo.140.tags: portrait, sample, smile, tongue, whiskers
-photo.141: https://www.instagram.com/p/CYyvSvpvhmD/media/?size=m
-photo.141.author: taka__3428
-photo.141.link: https://www.instagram.com/taka__3428/
-photo.141.tags: bamboo, close-up, paws, whiskers, white face
+photo.140: ig://CYyvSvpvhmD/m
+photo.140.author: taka__3428
+photo.140.commitdate: 2022/2/18
+photo.140.link: https://www.instagram.com/taka__3428/
+photo.140.tags: bamboo, close-up, paws, whiskers, white face
+photo.141: ig://CZmXoUXlV2B/m
+photo.141.author: miis_98
+photo.141.commitdate: 2022/2/12
+photo.141.link: https://www.instagram.com/miis_98/
+photo.141.tags: portrait, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 14135
 zoo: 24

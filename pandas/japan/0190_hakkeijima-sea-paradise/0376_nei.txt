@@ -330,37 +330,41 @@ photo.63.author: gloryeui
 photo.63.commitdate: 2021/12/19
 photo.63.link: https://www.instagram.com/gloryeui/
 photo.63.tags: paws, portrait, sample, whiskers
-photo.64: ig://CYIYEdrrMBR/m
-photo.64.author: mini_cochi
-photo.64.commitdate: 2022/1/6
-photo.64.link: https://www.instagram.com/mini_cochi/
-photo.64.tags: portrait, sample, whiskers
-photo.65: ig://otenba_redpanda/CYiKC_jlboj/m
-photo.65.author: otenba_redpanda
-photo.65.commitdate: 2022/1/30
-photo.65.link: https://www.instagram.com/otenba_redpanda/
-photo.65.tags: portrait, sample, whiskers
-photo.66: ig://CYp5v2oLeZm/m
-photo.66.author: fetorus_mami
-photo.66.commitdate: 2022/1/18
-photo.66.link: https://www.instagram.com/fetorus_mami/
-photo.66.tags: peek
-photo.67: https://www.instagram.com/gloryeui/p/CYIQ0pRlIx6/media/?size=m
+photo.64: ig://gloryeui/CYEKJTrLfv3/m
+photo.64.author: gloryeui
+photo.64.commitdate: 2022/2/18
+photo.64.link: https://www.instagram.com/gloryeui/
+photo.64.tags: air tasting, paws, portrait, standing, tail, tongue, whiskers
+photo.65: ig://CYFzQOfrUTF/m
+photo.65.author: gloryeui
+photo.65.commitdate: 2022/2/18
+photo.65.link: https://www.instagram.com/gloryeui/
+photo.65.tags: bridge, home, peek, portrait, tail, whiskers
+photo.66: ig://CYF6pACrMw8/m
+photo.66.author: gloryeui
+photo.66.commitdate: 2022/2/18
+photo.66.link: https://www.instagram.com/gloryeui/
+photo.66.tags: door, peek, portrait, tongue
+photo.67: ig://gloryeui/CYIQ0pRlIx6/m
 photo.67.author: gloryeui
+photo.67.commitdate: 2022/2/18
 photo.67.link: https://www.instagram.com/gloryeui/
 photo.67.tags: portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/CYF6pACrMw8/media/?size=m
-photo.68.author: gloryeui
-photo.68.link: https://www.instagram.com/gloryeui/
-photo.68.tags: door, peek, portrait, tongue
-photo.69: https://www.instagram.com/gloryeui/p/CYEKJTrLfv3/media/?size=m
-photo.69.author: gloryeui
-photo.69.link: https://www.instagram.com/gloryeui/
-photo.69.tags: air tasting, paws, portrait, standing, tail, tongue, whiskers
-photo.70: https://www.instagram.com/p/CYFzQOfrUTF/media/?size=m
-photo.70.author: gloryeui
-photo.70.link: https://www.instagram.com/gloryeui/
-photo.70.tags: bridge, home, peek, portrait, tail, whiskers
+photo.68: ig://CYIYEdrrMBR/m
+photo.68.author: mini_cochi
+photo.68.commitdate: 2022/1/6
+photo.68.link: https://www.instagram.com/mini_cochi/
+photo.68.tags: portrait, sample, whiskers
+photo.69: ig://otenba_redpanda/CYiKC_jlboj/m
+photo.69.author: otenba_redpanda
+photo.69.commitdate: 2022/1/30
+photo.69.link: https://www.instagram.com/otenba_redpanda/
+photo.69.tags: portrait, sample, whiskers
+photo.70: ig://CYp5v2oLeZm/m
+photo.70.author: fetorus_mami
+photo.70.commitdate: 2022/1/18
+photo.70.link: https://www.instagram.com/fetorus_mami/
+photo.70.tags: peek
 species: 2
 studbook.id: unknown
 zoo: 190
