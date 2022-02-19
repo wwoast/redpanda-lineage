@@ -322,8 +322,9 @@ photo.62.author: yossi929
 photo.62.commitdate: 2021/11/11
 photo.62.link: https://www.instagram.com/yossi929/
 photo.62.tags: close-up, mofumofu, whiskers
-photo.63: https://www.instagram.com/p/CY2QABPM4Nv/media/?size=m
+photo.63: ig://CY2QABPM4Nv/m
 photo.63.author: yossi929
+photo.63.commitdate: 2022/2/18
 photo.63.link: https://www.instagram.com/yossi929/
 photo.63.tags: close-up, mofumofu, nose, whiskers
 species: 2

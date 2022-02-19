@@ -6,7 +6,6 @@ children: none
 commitdate: 2018/7/6
 en.name: Jazz
 en.nicknames: nonehttps://www.instagram.com/p/CY6WZPvBPdj/media/?size=m
-
 en.othernames: none
 gender: m
 jp.name: ジャズ
@@ -1255,8 +1254,9 @@ photo.249.author: imagoto17
 photo.249.commitdate: 2022/1/30
 photo.249.link: https://www.instagram.com/imagoto17/
 photo.249.tags: laying down, mofumofu, peek, portrait, sample, tail, tree
-photo.250: https://www.instagram.com/p/CY6WZPvBPdj/media/?size=m
+photo.250: ig://CY6WZPvBPdj/m
 photo.250.author: redpan22
+photo.250.commitdate: 2022/2/18
 photo.250.link: https://www.instagram.com/redpan22/
 photo.250.tags: close-up, paws, smile, whiskers
 species: 2

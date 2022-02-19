@@ -1,20 +1,24 @@
 [media]
 _id: media.16.kazunoko-nico
+commitdate: 2022/2/18
 panda.tags: 148, 1305
-photo.1: https://www.instagram.com/p/CXDAt7hrmyc/media/?size=l
-photo.1.author: kijyo.zoo
-photo.1.link: https://www.instagram.com/kijyo.zoo/
-photo.1.tags: apple time, baby, portrait, videolink
-photo.1.tags.148.location: 220, 270
-photo.1.tags.1305.location: 335, 170
-photo.2: https://www.instagram.com/fetorus_mami/p/CWQZCJNFFgN/media/?size=m
-photo.2.author: fetorus_mami
-photo.2.link: https://www.instagram.com/fetorus_mami/
-photo.2.tags: baby, laying down, mother's day, playing, tongue
-photo.2.tags.148.location: 250, 105
-photo.2.tags.1305.location: 115, 260
-photo.3: https://www.instagram.com/lesserpanda_shizuokacity_cp/p/CZGNFt9FM29/media/?size=l
+photo.1: ig://fetorus_mami/CWQZCJNFFgN/m
+photo.1.author: fetorus_mami
+photo.1.commitdate: 2022/2/18
+photo.1.link: https://www.instagram.com/fetorus_mami/
+photo.1.tags: baby, laying down, mother's day, playing, tongue
+photo.1.tags.148.location: 250, 105
+photo.1.tags.1305.location: 115, 260
+photo.2: ig://CXDAt7hrmyc/l
+photo.2.author: kijyo.zoo
+photo.2.commitdate: 2022/2/18
+photo.2.link: https://www.instagram.com/kijyo.zoo/
+photo.2.tags: apple time, baby, portrait, videolink
+photo.2.tags.148.location: 220, 270
+photo.2.tags.1305.location: 335, 170
+photo.3: ig://lesserpanda_shizuokacity_cp/CZGNFt9FM29/l
 photo.3.author: lesserpanda_shizuokacity_cp
+photo.3.commitdate: 2022/2/18
 photo.3.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.3.tags: baby, mother's day, smile, whiskers
 photo.3.tags.148.location: 300, 100

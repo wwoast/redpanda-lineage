@@ -847,8 +847,9 @@ photo.167.author: gloryeui
 photo.167.commitdate: 2022/2/5
 photo.167.link: https://www.instagram.com/gloryeui/
 photo.167.tags: nose, portrait, whiskers
-photo.168: https://www.instagram.com/p/CY_bfSArCXV/media/?size=m
+photo.168: ig://CY_bfSArCXV/m
 photo.168.author: love__mitarashi
+photo.168.commitdate: 2022/2/18
 photo.168.link: https://www.instagram.com/love__mitarashi/
 photo.168.tags: climb, paws, portrait, whiskers, white face
 species: 2

@@ -213,14 +213,15 @@ photo.40.author: redpan22
 photo.40.commitdate: 2022/1/23
 photo.40.link: https://www.instagram.com/redpan22/
 photo.40.tags: baby, bamboo, paws, sample, standing
-photo.41: ig://CZQBTy1v20z/m
-photo.41.author: otenba_redpanda
-photo.41.commitdate: 2022/2/12
-photo.41.link: https://www.instagram.com/otenba_redpanda/
-photo.41.tags: hammock, mofumofu, peek, portrait, whiskers
-photo.42: https://www.instagram.com/p/CZHCr_IPZ9t/media/?size=m
-photo.42.author: jas_forever_love
-photo.42.link: https://www.instagram.com/jas_forever_love/
-photo.42.tags: laying down, mofumofu, paws, portrait, sample, snow, whiskers
+photo.41: ig://CZHCr_IPZ9t/m
+photo.41.author: jas_forever_love
+photo.41.commitdate: 2022/2/18
+photo.41.link: https://www.instagram.com/jas_forever_love/
+photo.41.tags: laying down, mofumofu, paws, portrait, sample, snow, whiskers
+photo.42: ig://CZQBTy1v20z/m
+photo.42.author: otenba_redpanda
+photo.42.commitdate: 2022/2/12
+photo.42.link: https://www.instagram.com/otenba_redpanda/
+photo.42.tags: hammock, mofumofu, peek, portrait, whiskers
 species: 2
 zoo: 10
