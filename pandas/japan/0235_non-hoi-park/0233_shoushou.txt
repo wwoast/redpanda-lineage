@@ -623,20 +623,21 @@ photo.122.author: gloryeui
 photo.122.commitdate: 2022/2/18
 photo.122.link: https://www.instagram.com/gloryeui/
 photo.122.tags: bamboo, paws, peek, portrait, sample
-photo.123: ig://CZWZ-DqreL9/m
-photo.123.author: otenba_redpanda
-photo.123.commitdate: 2022/2/10
-photo.123.link: https://www.instagram.com/otenba_redpanda/
-photo.123.tags: bamboo, paws, portrait, tail, whiskers
-photo.124: ig://CZlv7BOF17I/m
+photo.123: ig://hamamatsu.chiita/CZBxFUPPo-X/m
+photo.123.author: hamamatsu.chiita
+photo.123.commitdate: 2022/2/19
+photo.123.link: https://www.instagram.com/hamamatsu.chiita/
+photo.123.tags: portrait, sample, whiskers
+photo.124: ig://CZWZ-DqreL9/m
 photo.124.author: otenba_redpanda
 photo.124.commitdate: 2022/2/10
 photo.124.link: https://www.instagram.com/otenba_redpanda/
-photo.124.tags: bamboo, itchy, paws, portrait, tail
-photo.125: https://www.instagram.com/hamamatsu.chiita/p/CZBxFUPPo-X/media/?size=m
-photo.125.author: hamamatsu.chiita
-photo.125.link: https://www.instagram.com/hamamatsu.chiita/
-photo.125.tags: portrait, sample, whiskers
+photo.124.tags: bamboo, paws, portrait, tail, whiskers
+photo.125: ig://CZlv7BOF17I/m
+photo.125.author: otenba_redpanda
+photo.125.commitdate: 2022/2/10
+photo.125.link: https://www.instagram.com/otenba_redpanda/
+photo.125.tags: bamboo, itchy, paws, portrait, tail
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI

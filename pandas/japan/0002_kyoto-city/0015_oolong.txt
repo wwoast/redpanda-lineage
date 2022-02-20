@@ -1038,8 +1038,9 @@ photo.206.author: redpanda_nippon_takashi
 photo.206.commitdate: 2022/2/9
 photo.206.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.206.tags: peek, sample, snow, whiskers
-photo.207: https://www.instagram.com/p/CZByiSaPktb/media/?size=m
+photo.207: ig://CZByiSaPktb/m
 photo.207.author: _saaaaaaah_
+photo.207.commitdate: 2022/2/19
 photo.207.link: https://www.instagram.com/_saaaaaaah_/
 photo.207.tags: apple time, peek, snow
 species: 2

@@ -8,18 +8,20 @@ en.name: Sisu
 en.nicknames: none
 en.othernames: none
 gender: f
-jp.name: シス 
+jp.name: シス
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1302
-photo.1: https://www.instagram.com/p/CShWNJcM7c-/media/?size=m
+photo.1: ig://CR87UGsApbc/m
 photo.1.author: potawatomizoo
+photo.1.commitdate: 2022/2/19
 photo.1.link: https://www.instagram.com/potawatomizoo/
-photo.1.tags: baby, keeper
-photo.2: https://www.instagram.com/p/CR87UGsApbc/media/?size=m
+photo.1.tags: baby, keeper, tail
+photo.2: ig://CShWNJcM7c-/m
 photo.2.author: potawatomizoo
+photo.2.commitdate: 2022/2/19
 photo.2.link: https://www.instagram.com/potawatomizoo/
-photo.2.tags: baby, keeper, tail
+photo.2.tags: baby, keeper
 species: 1
 zoo: 104

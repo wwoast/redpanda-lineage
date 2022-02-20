@@ -296,15 +296,16 @@ photo.57.author: ck.chie
 photo.57.commitdate: 2021/12/30
 photo.57.link: https://www.instagram.com/ck.chie/
 photo.57.tags: laying down, peek, portrait
-photo.58: ig://CY6VTF3BSAZ/m
-photo.58.author: minatomirai215
-photo.58.commitdate: 2022/2/9
-photo.58.link: https://www.instagram.com/minatomirai215/
-photo.58.tags: peek, portrait, sample, techitechi, whiskers
-photo.59: https://www.instagram.com/mari_neko3/p/CXiToXrhll3/media/?size=m
-photo.59.author: mari_neko3
-photo.59.link: https://www.instagram.com/mari_neko3/
-photo.59.tags: laying down, paws
+photo.58: ig://mari_neko3/CXiToXrhll3/m
+photo.58.author: mari_neko3
+photo.58.commitdate: 2022/2/19
+photo.58.link: https://www.instagram.com/mari_neko3/
+photo.58.tags: laying down, paws
+photo.59: ig://CY6VTF3BSAZ/m
+photo.59.author: minatomirai215
+photo.59.commitdate: 2022/2/9
+photo.59.link: https://www.instagram.com/minatomirai215/
+photo.59.tags: peek, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 1675
 zoo: 10
