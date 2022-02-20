@@ -35,30 +35,31 @@ photo.4.author: rossifari
 photo.4.commitdate: 2019/12/5
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: portrait, smile, whiskers
-photo.5: ig://B6tXRbaB0s0/m
-photo.5.author: worldthathesees
-photo.5.commitdate: 2019/12/31
-photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: nose, portrait, whiskers
-photo.6: ig://B6uI4kYhSeE/m
+photo.5: ig://B51S4JqBJkj/m
+photo.5.author: yanliang_24
+photo.5.commitdate: 2022/2/20
+photo.5.link: https://www.instagram.com/yanliang_24/
+photo.5.tags: bamboo, close-up, mofumofu, portrait, tongue, whiskers
+photo.6: ig://B6tXRbaB0s0/m
 photo.6.author: worldthathesees
 photo.6.commitdate: 2019/12/31
 photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: bridge, peek, whiskers
-photo.7: ig://B-GAPwfD82L/m
-photo.7.author: cincinnatizoo
-photo.7.commitdate: 2020/7/14
-photo.7.link: https://www.instagram.com/cincinnatizoo/
-photo.7.tags: standing, whiskers
-photo.8: ig://CFs4P6-H_de/m
+photo.6.tags: nose, portrait, whiskers
+photo.7: ig://B6uI4kYhSeE/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2019/12/31
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: bridge, peek, whiskers
+photo.8: ig://B-GAPwfD82L/m
 photo.8.author: cincinnatizoo
-photo.8.commitdate: 2020/11/8
+photo.8.commitdate: 2020/7/14
 photo.8.link: https://www.instagram.com/cincinnatizoo/
-photo.8.tags: laying down, paws, portrait, sleeping, tree
-photo.9: https://www.instagram.com/p/B51S4JqBJkj/media/?size=m
-photo.9.author: yanliang_24
-photo.9.link: https://www.instagram.com/yanliang_24/
-photo.9.tags: bamboo, close-up, mofumofu, portrait, tongue, whiskers
+photo.8.tags: standing, whiskers
+photo.9: ig://CFs4P6-H_de/m
+photo.9.author: cincinnatizoo
+photo.9.commitdate: 2020/11/8
+photo.9.link: https://www.instagram.com/cincinnatizoo/
+photo.9.tags: laying down, paws, portrait, sleeping, tree
 species: 2
 studbook.id: 1525
 zoo: 65

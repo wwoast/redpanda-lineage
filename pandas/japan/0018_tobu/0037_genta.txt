@@ -558,20 +558,21 @@ photo.109.author: miis_98
 photo.109.commitdate: 2022/2/9
 photo.109.link: https://www.instagram.com/miis_98/
 photo.109.tags: peek, tree
-photo.110: ig://CZZU4EZlMP-/m
-photo.110.author: mini_cochi
-photo.110.commitdate: 2022/2/12
-photo.110.link: https://www.instagram.com/mini_cochi/
-photo.110.tags: paws, smile, standing, whiskers
-photo.111: ig://CZtpNCCPSqy/m
-photo.111.author: ssc6105
-photo.111.commitdate: 2022/2/10
-photo.111.link: https://www.instagram.com/ssc6105/
-photo.111.tags: apple time, paws, sample, standing, whiskers
-photo.112: https://www.instagram.com/p/CZL4wXpvSDJ/media/?size=m
+photo.110: ig://CZL4wXpvSDJ/m
+photo.110.author: ssc6105
+photo.110.commitdate: 2022/2/20
+photo.110.link: https://www.instagram.com/ssc6105/
+photo.110.tags: paws, sample, standing
+photo.111: ig://CZZU4EZlMP-/m
+photo.111.author: mini_cochi
+photo.111.commitdate: 2022/2/12
+photo.111.link: https://www.instagram.com/mini_cochi/
+photo.111.tags: paws, smile, standing, whiskers
+photo.112: ig://CZtpNCCPSqy/m
 photo.112.author: ssc6105
+photo.112.commitdate: 2022/2/10
 photo.112.link: https://www.instagram.com/ssc6105/
-photo.112.tags: paws, sample, standing
+photo.112.tags: apple time, paws, sample, standing, whiskers
 species: 2
 studbook.id: 12105
 zoo: 18

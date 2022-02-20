@@ -370,8 +370,9 @@ photo.71.author: gloryeui
 photo.71.commitdate: 2022/2/19
 photo.71.link: https://www.instagram.com/gloryeui/
 photo.71.tags: apple time, bridge, keeper, dish, peek, portrait
-photo.72: https://www.instagram.com/p/CZdYRuOL4Ij/media/?size=m
+photo.72: ig://CZdYRuOL4Ij/m
 photo.72.author: otenba_redpanda
+photo.72.commitdate: 2022/2/20
 photo.72.link: https://www.instagram.com/otenba_redpanda/
 photo.72.tags: apple time, portrait, whiskers
 species: 2

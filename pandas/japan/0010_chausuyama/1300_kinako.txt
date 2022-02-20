@@ -223,9 +223,10 @@ photo.42.author: otenba_redpanda
 photo.42.commitdate: 2022/2/12
 photo.42.link: https://www.instagram.com/otenba_redpanda/
 photo.42.tags: hammock, mofumofu, peek, portrait, whiskers
-photo.43: https://www.instagram.com/p/CZeUIWrP0fF/media/?size=m
+photo.43: ig://CZeUIWrP0fF/m
 photo.43.author: redpan22
+photo.43.commitdate: 2022/2/20
 photo.43.link: https://www.instagram.com/redpan22/
-photo.43.tags: hammock, laying down, paws, playing, peek, portrait, sample 
+photo.43.tags: hammock, laying down, paws, playing, peek, portrait, sample
 species: 2
 zoo: 10

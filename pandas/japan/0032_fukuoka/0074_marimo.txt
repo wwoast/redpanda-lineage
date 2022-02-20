@@ -579,8 +579,9 @@ photo.114.author: re_ichimaru
 photo.114.commitdate: 2021/12/9
 photo.114.link: https://www.instagram.com/re_ichimaru/
 photo.114.tags: paws, portrait, toys, window
-photo.115: https://www.instagram.com/p/CY-X80ZPpf_/media/?size=m
+photo.115: ig://CY-X80ZPpf_/m
 photo.115.author: grskus_tk
+photo.115.commitdate: 2022/2/20
 photo.115.link: https://www.instagram.com/grskus_tk/
 photo.115.tags: peek, tongue
 species: 2

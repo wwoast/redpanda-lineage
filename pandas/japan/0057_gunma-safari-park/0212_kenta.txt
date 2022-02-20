@@ -444,15 +444,16 @@ photo.87.author: miis_98
 photo.87.commitdate: 2022/1/9
 photo.87.link: https://www.instagram.com/miis_98/
 photo.87.tags: paws, portrait, whiskers
-photo.88: ig://CZRoTGRFb-c/m
+photo.88: ig://CZE52ThFPBv/m
 photo.88.author: miis_98
-photo.88.commitdate: 2022/2/19
+photo.88.commitdate: 2022/2/20
 photo.88.link: https://www.instagram.com/miis_98/
-photo.88.tags: grooming, paws, portrait, whiskers
-photo.89: https://www.instagram.com/p/CZE52ThFPBv/media/?size=m
+photo.88.tags: portrait, sample, smile, whiskers
+photo.89: ig://CZRoTGRFb-c/m
 photo.89.author: miis_98
+photo.89.commitdate: 2022/2/19
 photo.89.link: https://www.instagram.com/miis_98/
-photo.89.tags: portrait, sample, smile, whiskers
+photo.89.tags: grooming, paws, portrait, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

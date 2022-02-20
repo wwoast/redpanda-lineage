@@ -1707,15 +1707,16 @@ photo.340.author: redpan22
 photo.340.commitdate: 2022/1/19
 photo.340.link: https://www.instagram.com/redpan22/
 photo.340.tags: laying down, paws, peek, whiskers
-photo.341: ig://CZnJJfvqARW/m
+photo.341: ig://CZkkYBoNVNH/m
 photo.341.author: otenba_redpanda
-photo.341.commitdate: 2022/2/10
+photo.341.commitdate: 2022/2/20
 photo.341.link: https://www.instagram.com/otenba_redpanda/
-photo.341.tags: mofumofu, portrait, sample, whiskers
-photo.342: https://www.instagram.com/p/CZkkYBoNVNH/media/?size=m
+photo.341.tags: close-up, laying down, portrait, sample, whiskers
+photo.342: ig://CZnJJfvqARW/m
 photo.342.author: otenba_redpanda
+photo.342.commitdate: 2022/2/10
 photo.342.link: https://www.instagram.com/otenba_redpanda/
-photo.342.tags: close-up, laying down, portrait, sample, whiskers
+photo.342.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

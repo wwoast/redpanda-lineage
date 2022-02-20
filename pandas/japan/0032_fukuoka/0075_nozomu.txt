@@ -835,15 +835,16 @@ photo.165.author: yossi929
 photo.165.commitdate: 2021/12/6
 photo.165.link: https://www.instagram.com/yossi929/
 photo.165.tags: paws, whiskers
-photo.166: ig://CZpxxb9vPnf/m
-photo.166.author: yossi929
-photo.166.commitdate: 2022/2/12
-photo.166.link: https://www.instagram.com/yossi929/
-photo.166.tags: close-up, whiskers
-photo.167: https://www.instagram.com/p/CZiMMjch3Ev/media/?size=m
-photo.167.author: re_ichimaru
-photo.167.link: https://www.instagram.com/re_ichimaru/
-photo.167.tags: bamboo, bite, mofumofu, portrait, sample, tongue, whiskers
+photo.166: ig://CZiMMjch3Ev/m
+photo.166.author: re_ichimaru
+photo.166.commitdate: 2022/2/20
+photo.166.link: https://www.instagram.com/re_ichimaru/
+photo.166.tags: bamboo, bite, mofumofu, portrait, sample, tongue, whiskers
+photo.167: ig://CZpxxb9vPnf/m
+photo.167.author: yossi929
+photo.167.commitdate: 2022/2/12
+photo.167.link: https://www.instagram.com/yossi929/
+photo.167.tags: close-up, whiskers
 species: 2
 studbook.id: 12108
 zoo: 32

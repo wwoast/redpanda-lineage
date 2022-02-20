@@ -973,15 +973,16 @@ photo.194.author: wumpwoast
 photo.194.commitdate: 2022/1/6
 photo.194.link: https://www.instagram.com/wumpwoast/
 photo.194.tags: portrait, tail
-photo.195: ig://CZjjy4fvlz8/m
-photo.195.author: i.satosato
-photo.195.commitdate: 2022/2/12
-photo.195.link: https://www.instagram.com/i.satosato/
-photo.195.tags: laying down, paws, sample, tail
-photo.196: https://www.instagram.com/p/CZGh5iqvfvt/media/?size=m
-photo.196.author: falcon_tenor
-photo.196.link: https://www.instagram.com/falcon_tenor/
-photo.196.tags: paws, peek, portrait, sample, tree
+photo.195: ig://CZGh5iqvfvt/m
+photo.195.author: falcon_tenor
+photo.195.commitdate: 2022/2/20
+photo.195.link: https://www.instagram.com/falcon_tenor/
+photo.195.tags: paws, peek, portrait, sample, tree
+photo.196: ig://CZjjy4fvlz8/m
+photo.196.author: i.satosato
+photo.196.commitdate: 2022/2/12
+photo.196.link: https://www.instagram.com/i.satosato/
+photo.196.tags: laying down, paws, sample, tail
 species: 2
 studbook.id: 0457
 zoo: 36

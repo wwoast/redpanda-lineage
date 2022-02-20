@@ -137,8 +137,9 @@ photo.25.author: hamamatsu.chiita
 photo.25.commitdate: 2022/1/6
 photo.25.link: https://www.instagram.com/hamamatsu.chiita/
 photo.25.tags: bamboo, portrait, smile, whiskers
-photo.26: https://www.instagram.com/p/CZKrn5jhspP/media/?size=m
+photo.26: ig://CZKrn5jhspP/m
 photo.26.author: hamamatsu.chiita
+photo.26.commitdate: 2022/2/20
 photo.26.link: https://www.instagram.com/hamamatsu.chiita/
 photo.26.tags: mofumofu, portrait, sample
 species: 2

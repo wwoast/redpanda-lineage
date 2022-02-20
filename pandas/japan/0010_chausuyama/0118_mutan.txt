@@ -424,8 +424,9 @@ photo.82.author: otenba_redpanda
 photo.82.commitdate: 2022/1/19
 photo.82.link: https://www.instagram.com/otenba_redpanda/
 photo.82.tags: close-up, mofumofu, portrait, whiskers
-photo.83: https://www.instagram.com/p/CZHK70hv47Y/media/?size=m
+photo.83: ig://CZHK70hv47Y/m
 photo.83.author: otenba_redpanda
+photo.83.commitdate: 2022/2/20
 photo.83.link: https://www.instagram.com/otenba_redpanda/
 photo.83.tags: close-up, whiskers
 species: 2

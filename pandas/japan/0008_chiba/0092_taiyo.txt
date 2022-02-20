@@ -418,8 +418,9 @@ photo.81.author: panda.daisuki
 photo.81.commitdate: 2022/1/30
 photo.81.link: https://www.instagram.com/panda.daisuki/
 photo.81.tags: paws, portrait, whiskers
-photo.82: https://www.instagram.com/p/CY9-4cGBymf/media/?size=m
+photo.82: ig://CY9-4cGBymf/m
 photo.82.author: ssc6105
+photo.82.commitdate: 2022/2/20
 photo.82.link: https://www.instagram.com/ssc6105/
 photo.82.tags: sample, tail, whiskers
 species: 2

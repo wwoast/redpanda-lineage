@@ -1645,15 +1645,16 @@ photo.328.author: cattail.sapporo
 photo.328.commitdate: 2022/2/19
 photo.328.link: https://www.instagram.com/cattail.sapporo/
 photo.328.tags: close-up, laying down, paws, portrait, sample, whiskers
-photo.329: ig://CZofhU8LDyE/m
-photo.329.author: cattail.sapporo
-photo.329.commitdate: 2022/2/11
-photo.329.link: https://www.instagram.com/cattail.sapporo/
-photo.329.tags: portrait, sample, whiskers, yawn
-photo.330: https://www.instagram.com/p/CZfRoLehWDG/media/?size=m
-photo.330.author: hamamatsu.chiita
-photo.330.link: https://www.instagram.com/hamamatsu.chiita/
-photo.330.tags: close-up, mofumofu, portrait, sample, snow, tongue, whiskers
+photo.329: ig://CZfRoLehWDG/m
+photo.329.author: hamamatsu.chiita
+photo.329.commitdate: 2022/2/20
+photo.329.link: https://www.instagram.com/hamamatsu.chiita/
+photo.329.tags: close-up, mofumofu, portrait, sample, snow, tongue, whiskers
+photo.330: ig://CZofhU8LDyE/m
+photo.330.author: cattail.sapporo
+photo.330.commitdate: 2022/2/11
+photo.330.link: https://www.instagram.com/cattail.sapporo/
+photo.330.tags: portrait, sample, whiskers, yawn
 species: 2
 studbook.id: 10108
 zoo: 7

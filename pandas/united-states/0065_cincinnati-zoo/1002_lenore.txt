@@ -23,72 +23,75 @@ photo.2.author: cincinnatizoo
 photo.2.commitdate: 2020/1/3
 photo.2.link: https://www.instagram.com/cincinnatizoo/
 photo.2.tags: baby, portrait, profile, whiskers
-photo.3: ig://B6yeFoDBDoX/m
-photo.3.author: worldthathesees
-photo.3.commitdate: 2020/1/3
-photo.3.link: https://www.instagram.com/worldthathesees/
-photo.3.tags: bamboo, snow
-photo.4: ig://B60Lyr-hjeT/m
-photo.4.author: worldthathesees
-photo.4.commitdate: 2020/1/9
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: tail, whiskers
-photo.5: ig://B621txJhFux/m
+photo.3: ig://B4I1vWRhN_r/m
+photo.3.author: yanliang_24
+photo.3.commitdate: 2022/2/20
+photo.3.link: https://www.instagram.com/yanliang_24/
+photo.3.tags: baby, peek, portrait
+photo.4: ig://B56E9J3H0qZ/m
+photo.4.author: shaesavestheplanet
+photo.4.commitdate: 2020/2/23
+photo.4.link: https://www.instagram.com/shaesavestheplanet/
+photo.4.tags: keeper, portrait, whiskers
+photo.5: ig://B6yeFoDBDoX/m
 photo.5.author: worldthathesees
-photo.5.commitdate: 2020/1/9
+photo.5.commitdate: 2020/1/3
 photo.5.link: https://www.instagram.com/worldthathesees/
-photo.5.tags: portrait, tree, techitechi
-photo.6: ig://B63jFUTh-zM/m
+photo.5.tags: bamboo, snow
+photo.6: ig://B60Lyr-hjeT/m
 photo.6.author: worldthathesees
 photo.6.commitdate: 2020/1/9
 photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: mofumofu, tail, tree
-photo.7: ig://B67_JwXh1h2/m
+photo.6.tags: tail, whiskers
+photo.7: ig://B621txJhFux/m
 photo.7.author: worldthathesees
 photo.7.commitdate: 2020/1/9
 photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: paws, portrait, snow, techitechi
-photo.8: ig://B67AqelBSGJ/m
+photo.7.tags: portrait, tree, techitechi
+photo.8: ig://B63jFUTh-zM/m
 photo.8.author: worldthathesees
 photo.8.commitdate: 2020/1/9
 photo.8.link: https://www.instagram.com/worldthathesees/
-photo.8.tags: bamboo, portrait, standing, tail, tree
+photo.8.tags: mofumofu, tail, tree
 photo.9: ig://B65aYW7BIOj/m
 photo.9.author: worldthathesees
 photo.9.commitdate: 2020/1/9
 photo.9.link: https://www.instagram.com/worldthathesees/
 photo.9.tags: portrait, snow, whiskers
-photo.10: ig://B56E9J3H0qZ/m
-photo.10.author: shaesavestheplanet
-photo.10.commitdate: 2020/2/23
-photo.10.link: https://www.instagram.com/shaesavestheplanet/
-photo.10.tags: keeper, portrait, whiskers
-photo.11: https://www.instagram.com/p/B4I1vWRhN_r/media/?size=m
-photo.11.author: yanliang_24
-photo.11.link: https://www.instagram.com/yanliang_24/
-photo.11.tags: baby, peek, portrait
-photo.12: https://www.instagram.com/p/CYPhkjBpguB/media/?size=m
-photo.12.author: worldthathesees
-photo.12.link: https://www.instagram.com/worldthathesees/
-photo.12.tags: snow, tail, whiskers
-photo.13: https://www.instagram.com/p/CZHHcyEsZcm/media/?size=m
+photo.10: ig://B67AqelBSGJ/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2020/1/9
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: bamboo, portrait, standing, tail, tree
+photo.11: ig://B67_JwXh1h2/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2020/1/9
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: paws, portrait, snow, techitechi
+photo.12: ig://CAFkcWMgDAn/m
+photo.12.author: cincinnatizoo
+photo.12.commitdate: 2020/6/24
+photo.12.link: https://www.instagram.com/cincinnatizoo/
+photo.12.tags: mofumofu, videolink
+photo.13: ig://CRyDS6pA79N/m
 photo.13.author: rossifari
+photo.13.commitdate: 2021/8/26
 photo.13.link: https://www.instagram.com/rossifari/
-photo.13.tags: close-up, portrait, whiskers
-photo.14: ig://CAFkcWMgDAn/m
-photo.14.author: cincinnatizoo
-photo.14.commitdate: 2020/6/24
-photo.14.link: https://www.instagram.com/cincinnatizoo/
-photo.14.tags: mofumofu, videolink
-photo.15: ig://CRyDS6pA79N/m
-photo.15.author: rossifari
-photo.15.commitdate: 2021/8/26
-photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: bamboo, paws, portrait, smile
-photo.16: ig://CUoEAcJpYSs/m
-photo.16.author: wumpwoast
-photo.16.commitdate: 2021/10/16
-photo.16.link: https://www.instagram.com/wumpwoast/
-photo.16.tags: bamboo, bite, standing, tail
+photo.13.tags: bamboo, paws, portrait, smile
+photo.14: ig://CUoEAcJpYSs/m
+photo.14.author: wumpwoast
+photo.14.commitdate: 2021/10/16
+photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.tags: bamboo, bite, standing, tail
+photo.15: ig://CYPhkjBpguB/m
+photo.15.author: worldthathesees
+photo.15.commitdate: 2022/2/20
+photo.15.link: https://www.instagram.com/worldthathesees/
+photo.15.tags: snow, tail, whiskers
+photo.16: ig://CZHHcyEsZcm/m
+photo.16.author: rossifari
+photo.16.commitdate: 2022/2/20
+photo.16.link: https://www.instagram.com/rossifari/
+photo.16.tags: close-up, portrait, whiskers
 species: 2
 zoo: 65

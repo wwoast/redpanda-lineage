@@ -357,8 +357,9 @@ photo.69.author: minato.yokohama0233
 photo.69.commitdate: 2022/2/18
 photo.69.link: https://www.instagram.com/minato.yokohama0233/
 photo.69.tags: bamboo, paws, portrait, sample, whiskers
-photo.70: https://www.instagram.com/p/CZcsgbAhG1P/media/?size=m
+photo.70: ig://CZcsgbAhG1P/m
 photo.70.author: hamamatsu.chiita
+photo.70.commitdate: 2022/2/20
 photo.70.link: https://www.instagram.com/hamamatsu.chiita/
 photo.70.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

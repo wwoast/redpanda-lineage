@@ -397,29 +397,31 @@ photo.76.author: fetorus_mami
 photo.76.commitdate: 2022/1/19
 photo.76.link: https://www.instagram.com/fetorus_mami/
 photo.76.tags: bridge, close-up, paws, peek, portrait, whiskers
-photo.77: ig://CWkXMfcB-vo/m
-photo.77.author: pantasanzoo1
-photo.77.commitdate: 2021/11/25
-photo.77.link: https://www.instagram.com/pantasanzoo1/
-photo.77.tags: bamboo, bite, close-up, whiskers
-photo.78: ig://CXvx003PDBN/m
-photo.78.author: craig_craig_craig
-photo.78.commitdate: 2022/1/4
-photo.78.link: https://www.instagram.com/craig_craig_craig/
-photo.78.tags: flowers, peek
-photo.79: ig://ssc6105/CX5vJjCv9p6/m
-photo.79.author: ssc6105
-photo.79.commitdate: 2022/1/31
-photo.79.link: https://www.instagram.com/ssc6105/
-photo.79.tags: peek, portrait
-photo.80: https://www.instagram.com/p/CWS4Ba4B-mo/media/?size=m
-photo.80.author: kotata_513
-photo.80.link: https://www.instagram.com/kotata_513/
-photo.80.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.81: https://www.instagram.com/p/CVXkBEIhw3s/media/?size=m
-photo.81.author: kotata_513
-photo.81.link: https://www.instagram.com/kotata_513/
-photo.81.tags: sample, smile, tail, whiskers
+photo.77: ig://CVXkBEIhw3s/m
+photo.77.author: kotata_513
+photo.77.commitdate: 2022/2/20
+photo.77.link: https://www.instagram.com/kotata_513/
+photo.77.tags: sample, smile, tail, whiskers
+photo.78: ig://CWS4Ba4B-mo/m
+photo.78.author: kotata_513
+photo.78.commitdate: 2022/2/20
+photo.78.link: https://www.instagram.com/kotata_513/
+photo.78.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.79: ig://CWkXMfcB-vo/m
+photo.79.author: pantasanzoo1
+photo.79.commitdate: 2021/11/25
+photo.79.link: https://www.instagram.com/pantasanzoo1/
+photo.79.tags: bamboo, bite, close-up, whiskers
+photo.80: ig://CXvx003PDBN/m
+photo.80.author: craig_craig_craig
+photo.80.commitdate: 2022/1/4
+photo.80.link: https://www.instagram.com/craig_craig_craig/
+photo.80.tags: flowers, peek
+photo.81: ig://ssc6105/CX5vJjCv9p6/m
+photo.81.author: ssc6105
+photo.81.commitdate: 2022/1/31
+photo.81.link: https://www.instagram.com/ssc6105/
+photo.81.tags: peek, portrait
 species: 2
 studbook.id: unknown
 zoo: 264

@@ -573,15 +573,16 @@ photo.112.author: eos1089
 photo.112.commitdate: 2022/1/30
 photo.112.link: https://www.instagram.com/eos1089/
 photo.112.tags: laying down, paws, playing, portrait, snow, upside-down
-photo.113: ig://CY_WIbdv7fR/m
-photo.113.author: minatomirai215
-photo.113.commitdate: 2022/2/18
-photo.113.link: https://www.instagram.com/minatomirai215/
-photo.113.tags: portrait, sample, whiskers
-photo.114: https://www.instagram.com/p/CYtdOkBvKiC/media/?size=m
-photo.114.author: kotata_513
-photo.114.link: https://www.instagram.com/kotata_513/
-photo.114.tags: bamboo, paws, portrait, sample, smile, snow
+photo.113: ig://CYtdOkBvKiC/m
+photo.113.author: kotata_513
+photo.113.commitdate: 2022/2/20
+photo.113.link: https://www.instagram.com/kotata_513/
+photo.113.tags: bamboo, paws, portrait, sample, smile, snow
+photo.114: ig://CY_WIbdv7fR/m
+photo.114.author: minatomirai215
+photo.114.commitdate: 2022/2/18
+photo.114.link: https://www.instagram.com/minatomirai215/
+photo.114.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17

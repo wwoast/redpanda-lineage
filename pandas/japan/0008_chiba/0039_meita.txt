@@ -798,8 +798,9 @@ photo.157.author: panda.daisuki
 photo.157.commitdate: 2022/1/19
 photo.157.link: https://www.instagram.com/panda.daisuki/
 photo.157.tags: nose, portrait, snow, tree, whiskers
-photo.158: https://www.instagram.com/p/CZiF-yQBk7Y/media/?size=m
+photo.158: ig://CZiF-yQBk7Y/m
 photo.158.author: ssc6105
+photo.158.commitdate: 2022/2/20
 photo.158.link: https://www.instagram.com/ssc6105/
 photo.158.tags: bamboo, paws, standing, tongue
 species: 2

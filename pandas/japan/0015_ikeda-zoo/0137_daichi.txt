@@ -345,18 +345,21 @@ photo.66.author: itsuak
 photo.66.commitdate: 2022/2/9
 photo.66.link: https://www.instagram.com/itsuak/
 photo.66.tags: laying down, mofumofu, portrait, sleeping, tail
-photo.67: https://www.instagram.com/p/CZhN9vev08w/media/?size=m
+photo.67: ig://itsuak/CZHkJ7_Psz1/m
 photo.67.author: itsuak
+photo.67.commitdate: 2022/2/20
 photo.67.link: https://www.instagram.com/itsuak/
-photo.67.tags: close-up, grooming, mofumofu, paws, portrait, sample
-photo.68: https://www.instagram.com/itsuak/p/CZHkJ7_Psz1/media/?size=m
+photo.67.tags: blink, grooming, laying down, mofumofu, paws, portrait
+photo.68: ig://CZMruYtv4ox/m
 photo.68.author: itsuak
+photo.68.commitdate: 2022/2/20
 photo.68.link: https://www.instagram.com/itsuak/
-photo.68.tags: blink, grooming, laying down, mofumofu, paws, portrait
-photo.69: https://www.instagram.com/p/CZMruYtv4ox/media/?size=m
+photo.68.tags: mofumofu, portrait, sample
+photo.69: ig://CZhN9vev08w/m
 photo.69.author: itsuak
+photo.69.commitdate: 2022/2/20
 photo.69.link: https://www.instagram.com/itsuak/
-photo.69.tags: mofumofu, portrait, sample
+photo.69.tags: close-up, grooming, mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 0978
 zoo: 15

@@ -920,28 +920,31 @@ photo.181.author: pink.b22
 photo.181.commitdate: 2022/1/6
 photo.181.link: https://www.instagram.com/pink.b22/
 photo.181.tags: mofumofu, paws, portrait, sample, tail
-photo.182: ig://CZbzTlVvUVK/m
+photo.182: ig://CZAnbkRhXyz/m
 photo.182.author: pink.b22
-photo.182.commitdate: 2022/2/12
+photo.182.commitdate: 2022/2/20
 photo.182.link: https://www.instagram.com/pink.b22/
-photo.182.tags: bamboo, bite, mofumofu, paws, portrait, sample
-photo.183: ig://CZrDJL1PXs4/m
-photo.183.author: ssc6105
-photo.183.commitdate: 2022/2/11
-photo.183.link: https://www.instagram.com/ssc6105/
-photo.183.tags: ear, mofumofu, sample
-photo.184: https://www.instagram.com/p/CZnBdyKBV5f/media/?size=m
-photo.184.author: ssc6105
-photo.184.link: https://www.instagram.com/ssc6105/
-photo.184.tags: mofumofu, paws, sample, smile
-photo.185: https://www.instagram.com/p/CZAnbkRhXyz/media/?size=m
-photo.185.author: pink.b22
-photo.185.link: https://www.instagram.com/pink.b22/
-photo.185.tags: bamboo, paws, portrait, sample, smile
-photo.186: https://www.instagram.com/p/CZL_KaOvPhm/media/?size=m
-photo.186.author: pink.b22
-photo.186.link: https://www.instagram.com/pink.b22/
-photo.186.tags: paws, portrait, standing, tail
+photo.182.tags: bamboo, paws, portrait, sample, smile
+photo.183: ig://CZL_KaOvPhm/m
+photo.183.author: pink.b22
+photo.183.commitdate: 2022/2/20
+photo.183.link: https://www.instagram.com/pink.b22/
+photo.183.tags: paws, portrait, standing, tail
+photo.184: ig://CZbzTlVvUVK/m
+photo.184.author: pink.b22
+photo.184.commitdate: 2022/2/12
+photo.184.link: https://www.instagram.com/pink.b22/
+photo.184.tags: bamboo, bite, mofumofu, paws, portrait, sample
+photo.185: ig://CZnBdyKBV5f/m
+photo.185.author: ssc6105
+photo.185.commitdate: 2022/2/20
+photo.185.link: https://www.instagram.com/ssc6105/
+photo.185.tags: mofumofu, paws, sample, smile
+photo.186: ig://CZrDJL1PXs4/m
+photo.186.author: ssc6105
+photo.186.commitdate: 2022/2/11
+photo.186.link: https://www.instagram.com/ssc6105/
+photo.186.tags: ear, mofumofu, sample
 species: 2
 studbook.id: 1295
 zoo: 18
