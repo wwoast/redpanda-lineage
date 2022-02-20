@@ -58,35 +58,28 @@ photo.9.author: jiayue_2015
 photo.9.commitdate: 2020/2/29
 photo.9.link: https://www.instagram.com/jiayue_2015/
 photo.9.tags: mofumofu, portrait, tongue
-photo.10: ig://CAFkcWMgDAn/m
-photo.10.author: cincinnatizoo
-photo.10.commitdate: 2020/6/24
-photo.10.link: https://www.instagram.com/cincinnatizoo/
-photo.10.tags: mofumofu, videolink
-photo.11: ig://CH7smEgL_yz/m
-photo.11.author: rossifari
-photo.11.commitdate: 2020/12/6
-photo.11.link: https://www.instagram.com/rossifari/
-photo.11.tags: portrait, whiskers
-photo.12: ig://CRyDS6pA79N/m
+photo.10: ig://CH7smEgL_yz/m
+photo.10.author: rossifari
+photo.10.commitdate: 2020/12/6
+photo.10.link: https://www.instagram.com/rossifari/
+photo.10.tags: portrait, whiskers
+photo.11: ig://CXMHH82IH-k/m
+photo.11.author: cincinnatizoo
+photo.11.commitdate: 2022/1/31
+photo.11.link: https://www.instagram.com/cincinnatizoo/
+photo.11.tags: peek, portrait, videolink
+photo.12: ig://CX_BMErsM2-/m
 photo.12.author: rossifari
-photo.12.commitdate: 2021/8/26
+photo.12.commitdate: 2022/1/31
 photo.12.link: https://www.instagram.com/rossifari/
-photo.12.tags: bamboo, paws, portrait, smile
-photo.13: ig://CUoEAcJpYSs/m
-photo.13.author: wumpwoast
-photo.13.commitdate: 2021/10/16
-photo.13.link: https://www.instagram.com/wumpwoast/
-photo.13.tags: bamboo, bite, standing, tail
-photo.14: ig://CXMHH82IH-k/m
-photo.14.author: cincinnatizoo
-photo.14.commitdate: 2022/1/31
-photo.14.link: https://www.instagram.com/cincinnatizoo/
-photo.14.tags: peek, portrait, videolink
-photo.15: ig://CX_BMErsM2-/m
-photo.15.author: rossifari
-photo.15.commitdate: 2022/1/31
-photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: bamboo, paws, portrait, smile, standing
+photo.12.tags: bamboo, paws, portrait, smile, standing
+photo.13: https://www.instagram.com/p/B8mvM0yhSU3/media/?size=m
+photo.13.author: yanliang_24
+photo.13.link: https://www.instagram.com/yanliang_24/
+photo.13.tags: laying down, mofumofu, portrait
+photo.14: https://www.instagram.com/p/CYPhv8qJH9t/media/?size=m
+photo.14.author: worldthathesees
+photo.14.link: https://www.instagram.com/worldthathesees/
+photo.14.tags: snow, whiskers
 species: 2
 zoo: 65

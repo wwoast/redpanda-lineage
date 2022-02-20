@@ -63,5 +63,32 @@ photo.10.author: shaesavestheplanet
 photo.10.commitdate: 2020/2/23
 photo.10.link: https://www.instagram.com/shaesavestheplanet/
 photo.10.tags: keeper, portrait, whiskers
+photo.11: https://www.instagram.com/p/B4I1vWRhN_r/media/?size=m
+photo.11.author: yanliang_24
+photo.11.link: https://www.instagram.com/yanliang_24/
+photo.11.tags: baby, peek, portrait
+photo.12: https://www.instagram.com/p/CYPhkjBpguB/media/?size=m
+photo.12.author: worldthathesees
+photo.12.link: https://www.instagram.com/worldthathesees/
+photo.12.tags: snow, tail, whiskers
+photo.13: https://www.instagram.com/p/CZHHcyEsZcm/media/?size=m
+photo.13.author: rossifari
+photo.13.link: https://www.instagram.com/rossifari/
+photo.13.tags: close-up, portrait, whiskers
+photo.14: ig://CAFkcWMgDAn/m
+photo.14.author: cincinnatizoo
+photo.14.commitdate: 2020/6/24
+photo.14.link: https://www.instagram.com/cincinnatizoo/
+photo.14.tags: mofumofu, videolink
+photo.15: ig://CRyDS6pA79N/m
+photo.15.author: rossifari
+photo.15.commitdate: 2021/8/26
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: bamboo, paws, portrait, smile
+photo.16: ig://CUoEAcJpYSs/m
+photo.16.author: wumpwoast
+photo.16.commitdate: 2021/10/16
+photo.16.link: https://www.instagram.com/wumpwoast/
+photo.16.tags: bamboo, bite, standing, tail
 species: 2
 zoo: 65

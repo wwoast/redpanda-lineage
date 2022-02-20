@@ -513,6 +513,10 @@ photo.100.author: otenba_redpanda
 photo.100.commitdate: 2022/2/5
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: close-up, portrait, sample, smile, whiskers
+photo.101: https://www.instagram.com/p/CZjvXcpvB4J/media/?size=m
+photo.101.author: redpan22
+photo.101.link: https://www.instagram.com/redpan22/
+photo.101.tags: laying down, mofumofu, paws, portrait, sample
 species: 2
 studbook.id: 13140
 zoo: 69
