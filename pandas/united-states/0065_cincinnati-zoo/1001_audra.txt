@@ -48,11 +48,6 @@ photo.7.author: worldthathesees
 photo.7.commitdate: 2020/1/9
 photo.7.link: https://www.instagram.com/worldthathesees/
 photo.7.tags: bamboo, portrait, snow
-photo.8: ig://B8SuLNqlwZe/m
-photo.8.author: andersonkelley
-photo.8.commitdate: 2020/2/24
-photo.8.link: https://www.instagram.com/andersonkelley/
-photo.8.tags: peek
 photo.9: ig://B8mVW3gFwc5/m
 photo.9.author: jiayue_2015
 photo.9.commitdate: 2020/2/29
@@ -73,15 +68,15 @@ photo.12.author: cincinnatizoo
 photo.12.commitdate: 2022/1/31
 photo.12.link: https://www.instagram.com/cincinnatizoo/
 photo.12.tags: peek, portrait, videolink
-photo.13: ig://CX_BMErsM2-/m
-photo.13.author: rossifari
-photo.13.commitdate: 2022/1/31
-photo.13.link: https://www.instagram.com/rossifari/
-photo.13.tags: bamboo, paws, portrait, smile, standing
-photo.14: ig://CYPhv8qJH9t/m
+photo.13: ig://CYPhv8qJH9t/m
+photo.13.author: worldthathesees
+photo.13.commitdate: 2022/2/20
+photo.13.link: https://www.instagram.com/worldthathesees/
+photo.13.tags: snow, whiskers
+photo.14: ig://B6yeFoDBDoX/m
 photo.14.author: worldthathesees
-photo.14.commitdate: 2022/2/20
+photo.14.commitdate: 2020/1/3
 photo.14.link: https://www.instagram.com/worldthathesees/
-photo.14.tags: snow, whiskers
+photo.14.tags: bamboo, snow
 species: 2
 zoo: 65
