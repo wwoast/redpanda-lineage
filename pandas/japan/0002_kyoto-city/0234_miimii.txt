@@ -629,6 +629,14 @@ photo.123.author: jas_forever_love
 photo.123.commitdate: 2022/2/10
 photo.123.link: https://www.instagram.com/jas_forever_love/
 photo.123.tags: peek, portrait, tail, tree, upside-down
+photo.124: https://www.instagram.com/redpanda_nippon_takashi/p/CZBsdfsv_v1/media/?size=m
+photo.124.author: redpanda_nippon_takashi
+photo.124.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.124.tags: portrait, sample, snow, whiskers
+photo.125: https://www.instagram.com/p/CY811GiP_W4/media/?size=m
+photo.125.author: redpanda_nippon_takashi
+photo.125.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.125.tags: climb, paws, peek, tree
 species: 2
 studbook.id: 1786
 zoo: 2

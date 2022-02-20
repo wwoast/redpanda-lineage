@@ -22,7 +22,7 @@ photo.1: ig://nbTVHUomVa/m
 photo.1.author: eriezoo
 photo.1.commitdate: 2019/9/21
 photo.1.link: https://www.instagram.com/eriezoo/
-photo.1.tags: portrait, profile, white face
+photo.1.tags: portrait, white face
 photo.2: ig://CQJi66JF-_q/m
 photo.2.author: charlespaddockzoo
 photo.2.commitdate: 2021/6/18
@@ -32,7 +32,23 @@ photo.3: ig://CY11L0pPpzx/m
 photo.3.author: wumpwoast
 photo.3.commitdate: 2022/1/18
 photo.3.link: https://www.instagram.com/wumpwoast/
-photo.3.tags: paws, peek, portrait, whiskers
+photo.3.tags: paws, peek, portrait, profile, whiskers
+photo.4: https://www.instagram.com/p/CZDzG_8LkG2/media/?size=m
+photo.4.author: wumpwoast
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: portrait, sample, whiskers
+photo.5: https://www.instagram.com/p/CZBTFhnr0Lh/media/?size=m
+photo.5.author: wumpwoast
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: close-up, paws, sample, smile, whiskers
+photo.6: https://www.instagram.com/p/CZH0MZap14U/media/?size=m
+photo.6.author: wumpwoast
+photo.6.link: https://www.instagram.com/wumpwoast/
+photo.6.tags: close-up, laying down, sleeping, whiskers
+photo.7: https://www.instagram.com/p/CZKfidPv5yf/media/?size=m
+photo.7.author: wumpwoast
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: laying down, tail, white face
 species: 1
 studbook.id: 1310
 uncertainty: location.4 date, location.5 date
