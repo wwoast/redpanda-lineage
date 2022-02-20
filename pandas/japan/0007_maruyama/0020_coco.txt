@@ -1303,8 +1303,9 @@ photo.263.author: cattail.sapporo
 photo.263.commitdate: 2022/2/18
 photo.263.link: https://www.instagram.com/cattail.sapporo/
 photo.263.tags: close-up, peek, portrait, sample, snow
-photo.264: https://www.instagram.com/p/CZgznGrL_qq/media/?size=m
+photo.264: ig://CZgznGrL_qq/m
 photo.264.author: cattail.sapporo
+photo.264.commitdate: 2022/2/19
 photo.264.link: https://www.instagram.com/cattail.sapporo/
 photo.264.tags: air tasting, portrait, snow, tongue, whiskers
 species: 2

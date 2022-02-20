@@ -444,8 +444,9 @@ photo.87.author: miis_98
 photo.87.commitdate: 2022/1/9
 photo.87.link: https://www.instagram.com/miis_98/
 photo.87.tags: paws, portrait, whiskers
-photo.88: https://www.instagram.com/p/CZRoTGRFb-c/media/?size=m
+photo.88: ig://CZRoTGRFb-c/m
 photo.88.author: miis_98
+photo.88.commitdate: 2022/2/19
 photo.88.link: https://www.instagram.com/miis_98/
 photo.88.tags: grooming, paws, portrait, whiskers
 species: 2

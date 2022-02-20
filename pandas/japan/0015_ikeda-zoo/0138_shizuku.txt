@@ -246,8 +246,9 @@ photo.47.author: itsuak
 photo.47.commitdate: 2022/2/9
 photo.47.link: https://www.instagram.com/itsuak/
 photo.47.tags: bamboo, portrait, sample, smile, whiskers
-photo.48: https://www.instagram.com/p/CZTJLpyvs7W/media/?size=m
+photo.48: ig://CZTJLpyvs7W/m
 photo.48.author: makimaru18
+photo.48.commitdate: 2022/2/19
 photo.48.link: https://www.instagram.com/makimaru18/
 photo.48.tags: keeper, paws, portrait, standing, tail
 species: 2

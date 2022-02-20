@@ -548,20 +548,21 @@ photo.107.author: jas_forever_love
 photo.107.commitdate: 2021/10/31
 photo.107.link: https://www.instagram.com/jas_forever_love/
 photo.107.tags: portrait, smile, whiskers
-photo.108: ig://CWkwyOhByV_/m
-photo.108.author: pantasanzoo1
-photo.108.commitdate: 2021/11/27
-photo.108.link: https://www.instagram.com/pantasanzoo1/
-photo.108.tags: bamboo, close-up, whiskers
-photo.109: ig://gloryeui/CYvRdtxrsTO/m
-photo.109.author: gloryeui
-photo.109.commitdate: 2022/2/9
-photo.109.link: https://www.instagram.com/gloryeui/
-photo.109.tags: flowers, peek, portrait, whiskers
-photo.110: https://www.instagram.com/p/CVkcr5LhWTI/media/?size=m
-photo.110.author: kotata_513
-photo.110.link: https://www.instagram.com/kotata_513/
-photo.110.tags: paws, portrait, sample, whiskers
+photo.108: ig://CVkcr5LhWTI/m
+photo.108.author: kotata_513
+photo.108.commitdate: 2022/2/19
+photo.108.link: https://www.instagram.com/kotata_513/
+photo.108.tags: paws, portrait, sample, whiskers
+photo.109: ig://CWkwyOhByV_/m
+photo.109.author: pantasanzoo1
+photo.109.commitdate: 2021/11/27
+photo.109.link: https://www.instagram.com/pantasanzoo1/
+photo.109.tags: bamboo, close-up, whiskers
+photo.110: ig://gloryeui/CYvRdtxrsTO/m
+photo.110.author: gloryeui
+photo.110.commitdate: 2022/2/9
+photo.110.link: https://www.instagram.com/gloryeui/
+photo.110.tags: flowers, peek, portrait, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

@@ -330,8 +330,9 @@ photo.64.author: kojikoji2011
 photo.64.commitdate: 2022/1/13
 photo.64.link: https://www.instagram.com/kojikoji2011/
 photo.64.tags: apple time, paws, smile, whiskers, window
-photo.65: https://www.instagram.com/p/CZULNDtPv8U/media/?size=m
+photo.65: ig://CZULNDtPv8U/m
 photo.65.author: kojikoji2011
+photo.65.commitdate: 2022/2/19
 photo.65.link: https://www.instagram.com/kojikoji2011/
 photo.65.tags: portrait, sample, whiskers
 species: 2

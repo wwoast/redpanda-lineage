@@ -365,8 +365,9 @@ photo.70.author: fetorus_mami
 photo.70.commitdate: 2022/1/18
 photo.70.link: https://www.instagram.com/fetorus_mami/
 photo.70.tags: peek
-photo.71: https://www.instagram.com/p/CZS-edCl6V9/media/?size=m
+photo.71: ig://CZS-edCl6V9/m
 photo.71.author: gloryeui
+photo.71.commitdate: 2022/2/19
 photo.71.link: https://www.instagram.com/gloryeui/
 photo.71.tags: apple time, bridge, keeper, dish, peek, portrait
 species: 2

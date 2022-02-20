@@ -61,14 +61,16 @@ photo.9.author: rossifari
 photo.9.commitdate: 2021/9/6
 photo.9.link: https://www.instagram.com/rossifari/
 photo.9.tags: home, portrait, smile
-photo.10: https://www.instagram.com/p/CYAFheVpX_L/media/?size=m
-photo.10.author: worldthathesees
-photo.10.link: https://www.instagram.com/worldthathesees/
-photo.10.tags: bridge, smile, tail
-photo.11: https://www.instagram.com/p/CWCNgBiLCLb/media/?size=m
-photo.11.author: zooatl
-photo.11.link: https://www.instagram.com/zooatl/
-photo.11.tags: close-up, portrait, scale, tail, whiskers
+photo.10: ig://CWCNgBiLCLb/m
+photo.10.author: zooatl
+photo.10.commitdate: 2022/2/19
+photo.10.link: https://www.instagram.com/zooatl/
+photo.10.tags: close-up, portrait, scale, tail, whiskers
+photo.11: ig://CYAFheVpX_L/m
+photo.11.author: worldthathesees
+photo.11.commitdate: 2022/2/19
+photo.11.link: https://www.instagram.com/worldthathesees/
+photo.11.tags: bridge, smile, tail
 species: 1
 studbook.id: 1705
 uncertainty: location.3 date

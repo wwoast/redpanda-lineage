@@ -762,22 +762,25 @@ photo.150.author: ssc6105
 photo.150.commitdate: 2022/2/9
 photo.150.link: https://www.instagram.com/ssc6105/
 photo.150.tags: peek, sample, smile, whiskers
-photo.151: ig://CZWoOBjvGQf/m
-photo.151.author: kotata_513
-photo.151.commitdate: 2022/2/12
-photo.151.link: https://www.instagram.com/kotata_513/
-photo.151.tags: paws, playing, portrait, snow
-photo.152: https://www.instagram.com/p/CZVwy47pQBD/media/?size=m
-photo.152.author: otenba_redpanda
-photo.152.link: https://www.instagram.com/otenba_redpanda/
-photo.152.tags: close-up, portrait, sample, smile, tongue, whiskers
-photo.153: https://www.instagram.com/p/CZRGqtCPVPw/media/?size=m
-photo.153.author: ssc6105
-photo.153.link: https://www.instagram.com/ssc6105/
-photo.153.tags: climb, paws, peek
-photo.154: https://www.instagram.com/p/CZRrSN3vllL/media/?size=m
-photo.154.author: redpan22
-photo.154.link: https://www.instagram.com/redpan22/
-photo.154.tags: portrait, sample, smile
+photo.151: ig://CZRGqtCPVPw/m
+photo.151.author: ssc6105
+photo.151.commitdate: 2022/2/19
+photo.151.link: https://www.instagram.com/ssc6105/
+photo.151.tags: climb, paws, peek
+photo.152: ig://CZRrSN3vllL/m
+photo.152.author: redpan22
+photo.152.commitdate: 2022/2/19
+photo.152.link: https://www.instagram.com/redpan22/
+photo.152.tags: portrait, sample, smile
+photo.153: ig://CZVwy47pQBD/m
+photo.153.author: otenba_redpanda
+photo.153.commitdate: 2022/2/19
+photo.153.link: https://www.instagram.com/otenba_redpanda/
+photo.153.tags: close-up, portrait, sample, smile, tongue, whiskers
+photo.154: ig://CZWoOBjvGQf/m
+photo.154.author: kotata_513
+photo.154.commitdate: 2022/2/12
+photo.154.link: https://www.instagram.com/kotata_513/
+photo.154.tags: paws, playing, portrait, snow
 species: 2
 zoo: 17

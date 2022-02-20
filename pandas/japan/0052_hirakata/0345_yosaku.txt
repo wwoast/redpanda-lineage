@@ -415,12 +415,14 @@ photo.80.author: redpanda_nippon_takashi
 photo.80.commitdate: 2022/1/15
 photo.80.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.80.tags: peek, whiskers
-photo.81: https://www.instagram.com/p/CZQKbsKhl5x/media/?size=m
+photo.81: ig://CZQKbsKhl5x/m
 photo.81.author: hidehaya_biei
+photo.81.commitdate: 2022/2/19
 photo.81.link: https://www.instagram.com/hidehaya_biei/
 photo.81.tags: laying down, paws, portrait, sample, smile, whiskers
-photo.82: https://www.instagram.com/p/CZeKfx6Pdab/media/?size=m
+photo.82: ig://CZeKfx6Pdab/m
 photo.82.author: makimaru18
+photo.82.commitdate: 2022/2/19
 photo.82.link: https://www.instagram.com/makimaru18/
 photo.82.tags: apple time, paws, portrait, sample, smile, whiskers
 species: 2
