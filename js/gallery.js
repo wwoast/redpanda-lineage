@@ -238,6 +238,9 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
   if (Object.keys(Pandas.def.authors).indexOf(photo_info.credit) == -1) {
     apple_link.href = "#credit/" + photo_info["credit"];
     apple_link.innerText = L.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
+    if (parseInt(apple_count) >= 1000) {
+      apple_link.innerText = L.emoji.megagift + " " + P.db._photo.credit[info.photo_credit];
+    }
   } else {
     apple_link.innerText = "";
   }
