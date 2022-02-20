@@ -236,10 +236,11 @@ Gallery.G.userApplePoints = function(photo_info, current_index, new_index) {
   var apple_link = document.getElementById(animal_id + "/counts/" + current_index);
   apple_link.id = animal_id + "/counts/" + new_index;
   if (Object.keys(Pandas.def.authors).indexOf(photo_info.credit) == -1) {
+    var apple_count = P.db._photo.credit[photo_info["credit"]];
     apple_link.href = "#credit/" + photo_info["credit"];
-    apple_link.innerText = L.emoji.gift + " " + P.db._photo.credit[photo_info["credit"]];
+    apple_link.innerText = L.emoji.gift + " " + apple_count;
     if (parseInt(apple_count) >= 1000) {
-      apple_link.innerText = L.emoji.megagift + " " + P.db._photo.credit[info.photo_credit];
+      apple_link.innerText = L.emoji.megagift + " " + apple_count;
     }
   } else {
     apple_link.innerText = "";

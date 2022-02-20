@@ -179,9 +179,9 @@ Show.appleLink = function(info, container_element) {
   } else {
     // Otherwise make an apple link with # of photos contributed
     var apple_count = P.db._photo.credit[info.photo_credit];
-    credit_count_link.innerText = L.emoji.gift + " " + P.db._photo.credit[info.photo_credit];
+    credit_count_link.innerText = L.emoji.gift + " " + apple_count;
     if (parseInt(apple_count) >= 1000) {
-      credit_count_link.innerText = L.emoji.megagift + " " + P.db._photo.credit[info.photo_credit];
+      credit_count_link.innerText = L.emoji.megagift + " " + apple_count;
     }
   }
   other_photos.appendChild(credit_count_link);
