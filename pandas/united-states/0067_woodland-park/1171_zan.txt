@@ -13,8 +13,6 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1172
-location.1: 67, 2020/5/25
-location.2: 76, 2021/12/4
 photo.1: ig://CGDgFV-hliK/m
 photo.1.author: woodlandparkzoo
 photo.1.commitdate: 2020/10/7
@@ -56,5 +54,4 @@ photo.8.commitdate: 2021/10/30
 photo.8.link: https://www.instagram.com/carsontheredpanda/
 photo.8.tags: portrait, smile
 species: 2
-uncertainty: location.2 exact date
-zoo: 76
+zoo: 67
