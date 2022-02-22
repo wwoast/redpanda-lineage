@@ -534,19 +534,20 @@ photo.106.author: wumpwoast
 photo.106.commitdate: 2021/12/20
 photo.106.link: https://www.instagram.com/wumpwoast/
 photo.106.tags: close-up, whiskers
-photo.107: ig://CZIRMTfhvNl/m
-photo.107.author: ssc6105
-photo.107.commitdate: 2022/2/18
-photo.107.link: https://www.instagram.com/ssc6105/
-photo.107.tags: apple time, paws, standing, whiskers
-photo.108: ig://CZITh95hwk0/m
-photo.108.author: alto0908
-photo.108.commitdate: 2022/2/20
-photo.108.link: https://www.instagram.com/alto0908/
-photo.108.tags: close-up, portrait, sample, whiskers
-photo.109: https://www.instagram.com/otenba_redpanda/p/CY-B6EEr7B_/media/?size=m
-photo.109.author: otenba_redpanda
-photo.109.link: https://www.instagram.com/otenba_redpanda/
+photo.107: ig://otenba_redpanda/CY-B6EEr7B_/m
+photo.107.author: otenba_redpanda
+photo.107.commitdate: 2022/2/21
+photo.107.link: https://www.instagram.com/otenba_redpanda/
+photo.107.tags: close-up, portrait, sample, whiskers
+photo.108: ig://CZIRMTfhvNl/m
+photo.108.author: ssc6105
+photo.108.commitdate: 2022/2/18
+photo.108.link: https://www.instagram.com/ssc6105/
+photo.108.tags: apple time, paws, standing, whiskers
+photo.109: ig://CZITh95hwk0/m
+photo.109.author: alto0908
+photo.109.commitdate: 2022/2/20
+photo.109.link: https://www.instagram.com/alto0908/
 photo.109.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13145

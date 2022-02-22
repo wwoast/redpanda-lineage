@@ -40,8 +40,9 @@ photo.5.author: carsontheredpanda
 photo.5.commitdate: 2021/10/6
 photo.5.link: https://www.instagram.com/carsontheredpanda/
 photo.5.tags: portrait, smile, techitechi, whiskers
-photo.6: https://www.instagram.com/p/CYhD3vvptMI/media/?size=m
+photo.6: ig://CYhD3vvptMI/m
 photo.6.author: lincolnchildrenszoo
+photo.6.commitdate: 2022/2/21
 photo.6.link: https://www.instagram.com/carsontheredpanda/
 photo.6.tags: laying down, paws, portrait, sample, whiskers
 species: 2
