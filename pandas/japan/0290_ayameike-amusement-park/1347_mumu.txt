@@ -1,0 +1,21 @@
+[panda]
+_id: 1347
+birthday: 1988/7/13
+birthplace: 40
+children: none
+commitdate: 2022/2/22
+death: 1998/1/3
+en.name: Mu-Mu
+en.nicknames: none
+en.othernames: Mumu, Muu-Muu, Muumuu
+gender: f
+jp.name: 夢夢
+jp.nicknames: none
+jp.othernames: ムームー
+language.order: jp, en
+litter: 852
+location.1: 40, 1988/7/13
+location.2: 290, 1990/3/23
+species: 2
+studbook.id: 8845
+zoo: 290
