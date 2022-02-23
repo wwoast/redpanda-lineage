@@ -366,20 +366,21 @@ photo.73.author: alto0908
 photo.73.commitdate: 2022/1/29
 photo.73.link: https://www.instagram.com/alto0908/
 photo.73.tags: portrait, snow, tree, whiskers
-photo.74: ig://shigeko0531/CYn2_ker_i7/m
-photo.74.author: shigeko0531
-photo.74.commitdate: 2022/1/30
-photo.74.link: https://www.instagram.com/shigeko0531/
-photo.74.tags: close-up, peek, snow, techitechi, whiskers
-photo.75: ig://CZrUQNVhwFp/m
-photo.75.author: redpan22
-photo.75.commitdate: 2022/2/11
-photo.75.link: https://www.instagram.com/redpan22/
-photo.75.tags: snow, tree, whiskers
-photo.76: https://www.instagram.com/p/CYbN8Ajv_zN/media/?size=m
-photo.76.author: _saaaaaaah_
-photo.76.link: https://www.instagram.com/_saaaaaaah_/
-photo.76.tags: bamboo, mofumofu, sample, whiskers
+photo.74: ig://CYbN8Ajv_zN/m
+photo.74.author: _saaaaaaah_
+photo.74.commitdate: 2022/2/23
+photo.74.link: https://www.instagram.com/_saaaaaaah_/
+photo.74.tags: bamboo, mofumofu, sample, whiskers
+photo.75: ig://shigeko0531/CYn2_ker_i7/m
+photo.75.author: shigeko0531
+photo.75.commitdate: 2022/1/30
+photo.75.link: https://www.instagram.com/shigeko0531/
+photo.75.tags: close-up, peek, snow, techitechi, whiskers
+photo.76: ig://CZrUQNVhwFp/m
+photo.76.author: redpan22
+photo.76.commitdate: 2022/2/11
+photo.76.link: https://www.instagram.com/redpan22/
+photo.76.tags: snow, tree, whiskers
 species: 2
 studbook.id: 15156
 zoo: 10
