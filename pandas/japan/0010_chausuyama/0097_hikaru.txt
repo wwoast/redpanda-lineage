@@ -4,6 +4,7 @@ birthday: 2015/7/19
 birthplace: 10
 children: none
 commitdate: 2018/6/23
+death: 2022/2/21
 en.name: Hikaru
 en.nicknames: none
 en.othernames: none
@@ -488,6 +489,18 @@ photo.95.author: shigeko0531
 photo.95.commitdate: 2022/2/12
 photo.95.link: https://www.instagram.com/shigeko0531/
 photo.95.tags: laying down, mofumofu, paws, portrait, sample, sleeping, tongue
+photo.96: https://www.instagram.com/p/CY4ADnDv67N/media/?size=m
+photo.96.author: na.mo.pan
+photo.96.link: https://www.instagram.com/na.mo.pan/
+photo.96.tags: peek, sample, tree, whiskers
+photo.97: https://www.instagram.com/p/CDx6puHho2O/media/?size=m
+photo.97.author: shigeko0531
+photo.97.link: https://www.instagram.com/shigeko0531/
+photo.97.tags: paws, sample, standing, whiskers
+photo.98: https://www.instagram.com/shigeko0531/p/CYaSflSJPfG/media/?size=m
+photo.98.author: shigeko0531
+photo.98.link: https://www.instagram.com/shigeko0531/
+photo.98.tags: bite, mofumofu, snow
 species: 2
 studbook.id: 15155
 zoo: 10
