@@ -2020,20 +2020,21 @@ photo.402.author: ssc6105
 photo.402.commitdate: 2022/1/6
 photo.402.link: https://www.instagram.com/ssc6105/
 photo.402.tags: bridge, mofumofu, paws, tail
-photo.403: ig://CYjIdv4PBnM/m
-photo.403.author: kotata_513
-photo.403.commitdate: 2022/1/30
-photo.403.link: https://www.instagram.com/kotata_513/
-photo.403.tags: bridge, paws, portrait, sample, snow, tail, upside-down
-photo.404: ig://CZrPq5CPG4I/m
+photo.403: ig://CYbbvT0P1pg/m
+photo.403.author: ck.chie
+photo.403.commitdate: 2022/2/23
+photo.403.link: https://www.instagram.com/ck.chie/
+photo.403.tags: bamboo, close-up, tongue, whiskers
+photo.404: ig://CYjIdv4PBnM/m
 photo.404.author: kotata_513
-photo.404.commitdate: 2022/2/11
+photo.404.commitdate: 2022/1/30
 photo.404.link: https://www.instagram.com/kotata_513/
-photo.404.tags: bridge, paws, portrait, snow, tail, upside-down
-photo.405: https://www.instagram.com/p/CYbbvT0P1pg/media/?size=m
-photo.405.author: ck.chie
-photo.405.link: https://www.instagram.com/ck.chie/
-photo.405.tags: bamboo, close-up, tongue, whiskers
+photo.404.tags: bridge, paws, portrait, sample, snow, tail, upside-down
+photo.405: ig://CZrPq5CPG4I/m
+photo.405.author: kotata_513
+photo.405.commitdate: 2022/2/11
+photo.405.link: https://www.instagram.com/kotata_513/
+photo.405.tags: bridge, paws, portrait, snow, tail, upside-down
 species: 2
 studbook.id: 1782
 zoo: 17
