@@ -4,6 +4,7 @@ birthday: 2014/6/19
 birthplace: 120
 children: none
 commitdate: 2019/7/2
+death: 2022/2/17
 en.name: Rochan
 en.nicknames: none
 en.othernames: none
@@ -24,7 +25,7 @@ photo.2: ig://BsJ1nEGB1Vs/m
 photo.2.author: rossifari
 photo.2.commitdate: 2020/3/3
 photo.2.link: https://www.instagram.com/rossifari/
-photo.2.tags: portrait, profile, whiskers
+photo.2.tags: portrait, whiskers
 photo.3: ig://B2mhvuHp5cl/m
 photo.3.author: ctbeardsleyzoo
 photo.3.commitdate: 2020/3/3
@@ -45,5 +46,17 @@ photo.6.author: ctbeardsleyzoo
 photo.6.commitdate: 2021/4/29
 photo.6.link: https://www.instagram.com/ctbeardsleyzoo/
 photo.6.tags: mofumofu, portrait, whiskers
+photo.7: https://www.instagram.com/p/CXmO2g6JiVt/media/?size=m
+photo.7.author: worldthathesees
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: laying down, peek, whiskers
+photo.8: https://www.instagram.com/p/CXvkbB_g8P7/media/?size=m
+photo.8.author: rossifari
+photo.8.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.8.tags: portrait, profile
+photo.9: https://www.instagram.com/p/CaZ3eh3rtKR/media/?size=m
+photo.9.author: ctbeardsleyzoo
+photo.9.link: https://www.instagram.com/ctbeardsleyzoo/
+photo.9.tags: bridge, close-up, peek, whiskers
 species: 1
 zoo: 194
