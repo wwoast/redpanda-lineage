@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 1197
+location.1: 17, 2020/7/20
+location.2: 289, 2022/2/28
 photo.1: ig://CHfOnucBfNS/m
 photo.1.author: kotata_513
 photo.1.commitdate: 2020/11/21
@@ -469,4 +471,4 @@ photo.91.commitdate: 2022/2/20
 photo.91.link: https://www.instagram.com/otenba_redpanda/
 photo.91.tags: close-up, portrait, sample, whiskers
 species: 2
-zoo: 17
+zoo: 289
