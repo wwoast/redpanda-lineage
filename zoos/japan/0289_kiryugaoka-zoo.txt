@@ -3,11 +3,13 @@ _id: 289
 commitdate: 2022/2/10
 en.address: 3 Chome-8-13 Miyamotocho, Kiryu, Gunma 376-0056, Japan
 en.location: Kiryu, Gunma Prefecture, Japan
-en.name: Miraihehadatake Yamada Manufacturing Kiryugaoka Zoo
+en.name: Kiryugaoka Zoo
+en.othernames: Miraihehadatake Yamada Manufacturing Kiryugaoka Zoo
 flag: Japan
 jp.address: 〒376-0056 群馬県桐生市宮本町３丁目８−13
 jp.location: 桐生市 群馬県
-jp.name: 未来へはばたけ 山田製作所 桐生が岡動物園
+jp.name: 桐生が岡動物園
+jp.othernames: 未来へはばたけ 山田製作所 桐生が岡動物園
 language.order: jp, en
 latitude: 36.4198651
 longitude: 139.3324586
