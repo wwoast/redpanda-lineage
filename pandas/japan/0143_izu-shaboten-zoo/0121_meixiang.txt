@@ -474,28 +474,31 @@ photo.92.author: kotume4935
 photo.92.commitdate: 2021/9/6
 photo.92.link: https://www.instagram.com/kotume4935/
 photo.92.tags: bamboo, close-up, mofumofu, portrait, whiskers
-photo.93: ig://CXCSye0F1Rw/m
-photo.93.author: otenba_redpanda
-photo.93.commitdate: 2022/1/9
-photo.93.link: https://www.instagram.com/otenba_redpanda/
-photo.93.tags: bamboo, close-up, mofumofu, peek, portrait, techitechi
-photo.94: ig://CXvXU6yP-Bb/m
-photo.94.author: otenba_redpanda
-photo.94.commitdate: 2022/2/6
-photo.94.link: https://www.instagram.com/otenba_redpanda/
-photo.94.tags: bamboo, close-up, paws, portrait
-photo.95: https://www.instagram.com/p/CTOiRFyBrrA/media/?size=m
-photo.95.author: minato.yokohama0233
-photo.95.link: https://www.instagram.com/minato.yokohama0233/
-photo.95.tags: close-up, portrait, sample, whiskers
-photo.96: https://www.instagram.com/p/CTIiRsxBz8l/media/?size=m
-photo.96.author: minato.yokohama0233
-photo.96.link: https://www.instagram.com/minato.yokohama0233/
-photo.96.tags: portrait, sample, smile, tongue, whiskers
-photo.97: https://www.instagram.com/p/CTXT7YWFivW/media/?size=m
-photo.97.author: mini_cochi
-photo.97.link: https://www.instagram.com/mini_cochi/
-photo.97.tags: bamboo, laying down, mofumofu, whiskers
+photo.93: ig://CTIiRsxBz8l/m
+photo.93.author: minato.yokohama0233
+photo.93.commitdate: 2022/2/28
+photo.93.link: https://www.instagram.com/minato.yokohama0233/
+photo.93.tags: portrait, sample, smile, tongue, whiskers
+photo.94: ig://CTOiRFyBrrA/m
+photo.94.author: minato.yokohama0233
+photo.94.commitdate: 2022/2/28
+photo.94.link: https://www.instagram.com/minato.yokohama0233/
+photo.94.tags: close-up, portrait, sample, whiskers
+photo.95: ig://CTXT7YWFivW/m
+photo.95.author: mini_cochi
+photo.95.commitdate: 2022/2/28
+photo.95.link: https://www.instagram.com/mini_cochi/
+photo.95.tags: bamboo, laying down, mofumofu, whiskers
+photo.96: ig://CXCSye0F1Rw/m
+photo.96.author: otenba_redpanda
+photo.96.commitdate: 2022/1/9
+photo.96.link: https://www.instagram.com/otenba_redpanda/
+photo.96.tags: bamboo, close-up, mofumofu, peek, portrait, techitechi
+photo.97: ig://CXvXU6yP-Bb/m
+photo.97.author: otenba_redpanda
+photo.97.commitdate: 2022/2/6
+photo.97.link: https://www.instagram.com/otenba_redpanda/
+photo.97.tags: bamboo, close-up, paws, portrait
 species: 2
 studbook.id: 1775
 zoo: 143

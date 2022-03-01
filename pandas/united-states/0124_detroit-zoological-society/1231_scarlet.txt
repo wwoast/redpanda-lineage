@@ -28,8 +28,9 @@ photo.3.author: detroitzoo
 photo.3.commitdate: 2021/7/4
 photo.3.link: https://www.instagram.com/detroitzoo/
 photo.3.tags: bamboo, paws, white face
-photo.4: https://www.instagram.com/p/CR9NeF8rjvd/media/?size=m
+photo.4: ig://CR9NeF8rjvd/m
 photo.4.author: detroitzoo
+photo.4.commitdate: 2022/2/28
 photo.4.link: https://www.instagram.com/detroitzoo/
 photo.4.tags: tail, tree, white face
 species: 1

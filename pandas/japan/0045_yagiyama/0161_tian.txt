@@ -354,24 +354,26 @@ photo.68.author: happy_love2.15
 photo.68.commitdate: 2021/8/18
 photo.68.link: https://www.instagram.com/happy_love2.15/
 photo.68.tags: home, portrait, smile, tongue, whiskers
-photo.69: ig://CVStD2HhVtY/m
-photo.69.author: happy_love2.15
-photo.69.commitdate: 2021/11/19
-photo.69.link: https://www.instagram.com/happy_love2.15/
-photo.69.tags: autumn, whiskers
-photo.70: ig://CWjuS17h1B2/m
-photo.70.author: alto0908
-photo.70.commitdate: 2021/11/25
-photo.70.link: https://www.instagram.com/alto0908/
-photo.70.tags: bamboo, bite, close-up, portrait, whiskers
-photo.71: https://www.instagram.com/p/CTlmB5SL0pf/media/?size=m
-photo.71.author: hidehaya_biei
-photo.71.link: https://www.instagram.com/hidehaya_biei/
-photo.71.tags: portrait, snow, whiskers
-photo.72: https://www.instagram.com/p/CTcAZLMBNyL/media/?size=m
+photo.69: ig://CTcAZLMBNyL/m
+photo.69.author: alto0908
+photo.69.commitdate: 2022/2/28
+photo.69.link: https://www.instagram.com/alto0908/
+photo.69.tags: bamboo, close-up, home, portrait, sample
+photo.70: ig://CTlmB5SL0pf/m
+photo.70.author: hidehaya_biei
+photo.70.commitdate: 2022/2/28
+photo.70.link: https://www.instagram.com/hidehaya_biei/
+photo.70.tags: portrait, snow, whiskers
+photo.71: ig://CVStD2HhVtY/m
+photo.71.author: happy_love2.15
+photo.71.commitdate: 2021/11/19
+photo.71.link: https://www.instagram.com/happy_love2.15/
+photo.71.tags: autumn, whiskers
+photo.72: ig://CWjuS17h1B2/m
 photo.72.author: alto0908
+photo.72.commitdate: 2021/11/25
 photo.72.link: https://www.instagram.com/alto0908/
-photo.72.tags: bamboo, close-up, home, portrait, sample
+photo.72.tags: bamboo, bite, close-up, portrait, whiskers
 species: 2
 studbook.id: 1191
 zoo: 45

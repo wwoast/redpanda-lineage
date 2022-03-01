@@ -503,25 +503,26 @@ photo.98.author: otenba_redpanda
 photo.98.commitdate: 2021/10/1
 photo.98.link: https://www.instagram.com/otenba_redpanda/
 photo.98.tags: close-up, laying down, portrait, smile, tongue, whiskers
-photo.99: ig://CU-HIwxl83B/m
-photo.99.author: miis_98
-photo.99.commitdate: 2021/10/17
-photo.99.link: https://www.instagram.com/miis_98/
-photo.99.tags: bridge, laying down, portrait, window
-photo.100: ig://CYkUnWtlC7V/m
-photo.100.author: otenba_redpanda
-photo.100.commitdate: 2022/1/23
-photo.100.link: https://www.instagram.com/otenba_redpanda/
-photo.100.tags: paws, portrait, whiskers
-photo.101: ig://CY6SrWTFe8U/m
+photo.99: ig://CTgA36ZprEg/m
+photo.99.author: sasapan34
+photo.99.commitdate: 2022/2/28
+photo.99.link: https://www.instagram.com/sasapan34/
+photo.99.tags: sample, whiskers
+photo.100: ig://CU-HIwxl83B/m
+photo.100.author: miis_98
+photo.100.commitdate: 2021/10/17
+photo.100.link: https://www.instagram.com/miis_98/
+photo.100.tags: bridge, laying down, portrait, window
+photo.101: ig://CYkUnWtlC7V/m
 photo.101.author: otenba_redpanda
-photo.101.commitdate: 2022/2/9
+photo.101.commitdate: 2022/1/23
 photo.101.link: https://www.instagram.com/otenba_redpanda/
 photo.101.tags: paws, portrait, whiskers
-photo.102: https://www.instagram.com/p/CTgA36ZprEg/media/?size=m
-photo.102.author: sasapan34
-photo.102.link: https://www.instagram.com/sasapan34/
-photo.102.tags: sample, whiskers
+photo.102: ig://CY6SrWTFe8U/m
+photo.102.author: otenba_redpanda
+photo.102.commitdate: 2022/2/9
+photo.102.link: https://www.instagram.com/otenba_redpanda/
+photo.102.tags: paws, portrait, whiskers
 species: 2
 studbook.id: 13170
 zoo: 69
