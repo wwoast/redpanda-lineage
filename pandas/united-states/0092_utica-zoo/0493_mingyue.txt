@@ -41,15 +41,16 @@ photo.5.author: colleenhaley14
 photo.5.commitdate: 2020/2/27
 photo.5.link: https://www.instagram.com/colleenhaley14/
 photo.5.tags: portrait, smile, snow
-photo.6: ig://CRuX8nDHkIZ/m
+photo.6: ig://CI3PnXHHQPU/m
 photo.6.author: uticazoo
-photo.6.commitdate: 2022/1/13
+photo.6.commitdate: 2022/2/28
 photo.6.link: https://www.instagram.com/uticazoo/
-photo.6.tags: close-up, nose, sample, whiskers
-photo.7: https://www.instagram.com/p/CI3PnXHHQPU/media/?size=m
+photo.6.tags: paws, portrait, snow
+photo.7: ig://CRuX8nDHkIZ/m
 photo.7.author: uticazoo
+photo.7.commitdate: 2022/1/13
 photo.7.link: https://www.instagram.com/uticazoo/
-photo.7.tags: paws, portrait, snow
+photo.7.tags: close-up, nose, sample, whiskers
 species: 2
 studbook.id: 1337
 zoo: 92

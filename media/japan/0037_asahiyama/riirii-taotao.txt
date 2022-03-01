@@ -51,16 +51,17 @@ photo.7.link: https://www.instagram.com/an920000/
 photo.7.tags: bridge, laying down, siblings, sisters, twins
 photo.7.tags.235.location: 350, 365
 photo.7.tags.236.location: 355, 235
-photo.8: ig://CL9InhtBQeT/l
-photo.8.author: kotata_513
-photo.8.commitdate: 2021/11/25
-photo.8.link: https://www.instagram.com/kotata_513/
-photo.8.tags: bridge, laying down, portrait, siblings, sisters, snow, tail, twins
-photo.8.tags.235.location: 285, 305
-photo.8.tags.236.location: 90, 360
-photo.9: https://www.instagram.com/p/CIIYLgVhmHl/media/?size=l
-photo.9.author: jas_forever_love
-photo.9.link: https://www.instagram.com/jas_forever_love/
-photo.9.tags: laying down, playing, siblings, sisters, tail, twins
-photo.9.tags.235.location: 330, 150
-photo.9.tags.236.location: 215, 235
+photo.8: ig://CIIYLgVhmHl/l
+photo.8.author: jas_forever_love
+photo.8.commitdate: 2022/2/28
+photo.8.link: https://www.instagram.com/jas_forever_love/
+photo.8.tags: laying down, playing, siblings, sisters, tail, twins
+photo.8.tags.235.location: 330, 150
+photo.8.tags.236.location: 215, 235
+photo.9: ig://CL9InhtBQeT/l
+photo.9.author: kotata_513
+photo.9.commitdate: 2021/11/25
+photo.9.link: https://www.instagram.com/kotata_513/
+photo.9.tags: bridge, laying down, portrait, siblings, sisters, snow, tail, twins
+photo.9.tags.235.location: 285, 305
+photo.9.tags.236.location: 90, 360

@@ -2,23 +2,24 @@
 _id: media.37.renren-taotao
 commitdate: 2021/8/22
 panda.tags: 235, 1189
-photo.1: ig://CJGU-vfh7yV/l
-photo.1.author: kotata_513
-photo.1.commitdate: 2021/8/22
-photo.1.link: https://www.instagram.com/kotata_513/
-photo.1.tags: dish, keeper, paws, siblings
-photo.1.tags.235.location: 140, 465
-photo.1.tags.1189.location: 280, 150
-photo.2: ig://CTvz7kPLcnx/l
-photo.2.author: sasapan34
-photo.2.commitdate: 2021/9/22
-photo.2.link: https://www.instagram.com/sasapan34/
-photo.2.tags: bridge, laying down, siblings
-photo.2.tags.235.location: 475, 410
-photo.2.tags.1189.location: 205, 235
-photo.3: https://www.instagram.com/p/CIvd_cohFDc/media/?size=l
-photo.3.author: kipekaila
-photo.3.link: https://www.instagram.com/kipekaila/
-photo.3.tags: home, peek, siblings
-photo.3.tags.235.location: 275, 440
-photo.3.tags.1189.location: 215, 190
+photo.1: ig://CIvd_cohFDc/l
+photo.1.author: kipekaila
+photo.1.commitdate: 2022/2/28
+photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.tags: home, peek, siblings
+photo.1.tags.235.location: 275, 440
+photo.1.tags.1189.location: 215, 190
+photo.2: ig://CJGU-vfh7yV/l
+photo.2.author: kotata_513
+photo.2.commitdate: 2021/8/22
+photo.2.link: https://www.instagram.com/kotata_513/
+photo.2.tags: dish, keeper, paws, siblings
+photo.2.tags.235.location: 140, 465
+photo.2.tags.1189.location: 280, 150
+photo.3: ig://CTvz7kPLcnx/l
+photo.3.author: sasapan34
+photo.3.commitdate: 2021/9/22
+photo.3.link: https://www.instagram.com/sasapan34/
+photo.3.tags: bridge, laying down, siblings
+photo.3.tags.235.location: 475, 410
+photo.3.tags.1189.location: 205, 235

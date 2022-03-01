@@ -12,9 +12,9 @@ jp.name: 桃桃
 jp.nicknames: none
 jp.othernames: タオタオ
 language.order: jp, en
+litter: 236
 location.1: 37, 2018/7/11
 location.2: 289, 2022/3/1
-litter: 236
 photo.1: ig://BqcHRgAFYc3/m
 photo.1.author: asahiyamazoo1
 photo.1.commitdate: 2018/11/28
@@ -259,38 +259,41 @@ photo.49.author: sasapan34
 photo.49.commitdate: 2021/11/13
 photo.49.link: https://www.instagram.com/sasapan34/
 photo.49.tags: snow
-photo.50: ig://CLeLkwPh1My/m
-photo.50.author: nishicotolo
-photo.50.commitdate: 2021/9/18
-photo.50.link: https://www.instagram.com/nishicotolo/
-photo.50.tags: ear, snow
-photo.51: ig://CO2izY1hMGT/m
-photo.51.author: kotata_513
-photo.51.commitdate: 2021/7/14
-photo.51.link: https://www.instagram.com/kotata_513/
-photo.51.tags: smile, whiskers
-photo.52: ig://CQviZTZBM1y/m
+photo.50: ig://CK3FnHYBDUQ/m
+photo.50.author: sasapan34
+photo.50.commitdate: 2022/2/28
+photo.50.link: https://www.instagram.com/sasapan34/
+photo.50.tags: blink, paws, snow
+photo.51: ig://CLWbPCphwkO/m
+photo.51.author: sasapan34
+photo.51.commitdate: 2022/2/28
+photo.51.link: https://www.instagram.com/sasapan34/
+photo.51.tags: close-up, ear, mofumofu, snow, whiskers
+photo.52: ig://CLeLkwPh1My/m
 photo.52.author: nishicotolo
-photo.52.commitdate: 2021/9/1
+photo.52.commitdate: 2021/9/18
 photo.52.link: https://www.instagram.com/nishicotolo/
-photo.52.tags: smile
-photo.53: ig://CTY4LUwhRTn/m
-photo.53.author: nakacchi_desu
-photo.53.commitdate: 2021/9/10
-photo.53.link: https://www.instagram.com/nakacchi_desu/
-photo.53.tags: bite, climb, paws, playing, tail
-photo.54: https://www.instagram.com/p/CK3FnHYBDUQ/media/?size=m
-photo.54.author: sasapan34
-photo.54.link: https://www.instagram.com/sasapan34/
-photo.54.tags: blink, paws, snow
-photo.55: https://www.instagram.com/p/CLWbPCphwkO/media/?size=m
-photo.55.author: sasapan34
-photo.55.link: https://www.instagram.com/sasapan34/
-photo.55.tags: close-up, ear, mofumofu, snow, whiskers
-photo.56: https://www.instagram.com/p/CNElUbvBDpJ/media/?size=m
-photo.56.author: sasapan34
-photo.56.link: https://www.instagram.com/sasapan34/
-photo.56.tags: smile, whiskers
+photo.52.tags: ear, snow
+photo.53: ig://CNElUbvBDpJ/m
+photo.53.author: sasapan34
+photo.53.commitdate: 2022/2/28
+photo.53.link: https://www.instagram.com/sasapan34/
+photo.53.tags: smile, whiskers
+photo.54: ig://CO2izY1hMGT/m
+photo.54.author: kotata_513
+photo.54.commitdate: 2021/7/14
+photo.54.link: https://www.instagram.com/kotata_513/
+photo.54.tags: smile, whiskers
+photo.55: ig://CQviZTZBM1y/m
+photo.55.author: nishicotolo
+photo.55.commitdate: 2021/9/1
+photo.55.link: https://www.instagram.com/nishicotolo/
+photo.55.tags: smile
+photo.56: ig://CTY4LUwhRTn/m
+photo.56.author: nakacchi_desu
+photo.56.commitdate: 2021/9/10
+photo.56.link: https://www.instagram.com/nakacchi_desu/
+photo.56.tags: bite, climb, paws, playing, tail
 species: 2
 studbook.id: unknown
 zoo: 289

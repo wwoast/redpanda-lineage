@@ -23,14 +23,15 @@ photo.2.author: redpandanetwork
 photo.2.commitdate: 2022/2/19
 photo.2.link: https://www.instagram.com/redpandanetwork/
 photo.2.tags: baby, laying down, mofumofu, newborn
-photo.3: ig://CZe1l_tL7uF/m
-photo.3.author: potawatomizoo
-photo.3.commitdate: 2022/2/19
-photo.3.link: https://www.instagram.com/potawatomizoo/
-photo.3.tags: bamboo, home, paws, portrait, white face
-photo.4: https://www.instagram.com/p/CZUoE_UJ0hC/media/?size=m
-photo.4.author: juliapartenope
-photo.4.link: https://www.instagram.com/carsontheredpanda/
-photo.4.tags: paws, portrait, sample, tail, whiskers, white face
+photo.3: ig://CZUoE_UJ0hC/m
+photo.3.author: juliapartenope
+photo.3.commitdate: 2022/2/28
+photo.3.link: https://www.instagram.com/carsontheredpanda/
+photo.3.tags: paws, portrait, sample, tail, whiskers, white face
+photo.4: ig://CZe1l_tL7uF/m
+photo.4.author: potawatomizoo
+photo.4.commitdate: 2022/2/19
+photo.4.link: https://www.instagram.com/potawatomizoo/
+photo.4.tags: bamboo, home, paws, portrait, white face
 species: 1
 zoo: 104
