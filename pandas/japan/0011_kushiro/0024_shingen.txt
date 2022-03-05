@@ -518,45 +518,46 @@ photo.101.author: redpan22
 photo.101.commitdate: 2021/11/19
 photo.101.link: https://www.instagram.com/redpan22/
 photo.101.tags: autumn, close-up, peek, sample, whiskers
-photo.102: ig://CViIAm0hhnA/m
+photo.102: ig://CVQDwn-hQtP/m
 photo.102.author: redpan22
-photo.102.commitdate: 2021/10/30
+photo.102.commitdate: 2022/3/4
 photo.102.link: https://www.instagram.com/redpan22/
-photo.102.tags: autumn, mofumofu, sample, tail, whiskers
-photo.103: ig://CWDWwzLBSm6/m
-photo.103.author: tama67photo
-photo.103.commitdate: 2022/1/13
-photo.103.link: https://www.instagram.com/tama67photo
-photo.103.tags: autumn, paws, portrait, tail, tongue
-photo.104: ig://CWE_W3Bhl5V/m
-photo.104.author: minatomirai215
+photo.102.tags: autumn, bridge, paws, tail
+photo.103: ig://CViIAm0hhnA/m
+photo.103.author: redpan22
+photo.103.commitdate: 2021/10/30
+photo.103.link: https://www.instagram.com/redpan22/
+photo.103.tags: autumn, mofumofu, sample, tail, whiskers
+photo.104: ig://CWDWwzLBSm6/m
+photo.104.author: tama67photo
 photo.104.commitdate: 2022/1/13
-photo.104.link: https://www.instagram.com/minatomirai215/
-photo.104.tags: autumn, paws, portrait, sample
-photo.105: ig://CWX9N50hu9K/m
-photo.105.author: tama67photo
-photo.105.commitdate: 2021/11/21
-photo.105.link: https://www.instagram.com/tama67photo/
-photo.105.tags: autumn, portrait, tongue, tree
-photo.106: ig://CWahxdKhvmO/m
-photo.106.author: minatomirai215
+photo.104.link: https://www.instagram.com/tama67photo
+photo.104.tags: autumn, paws, portrait, tail, tongue
+photo.105: ig://CWE_W3Bhl5V/m
+photo.105.author: minatomirai215
+photo.105.commitdate: 2022/1/13
+photo.105.link: https://www.instagram.com/minatomirai215/
+photo.105.tags: autumn, paws, portrait, sample
+photo.106: ig://CWX9N50hu9K/m
+photo.106.author: tama67photo
 photo.106.commitdate: 2021/11/21
-photo.106.link: https://www.instagram.com/minatomirai215/
-photo.106.tags: autumn, portrait, sample, whiskers
-photo.107: ig://CXQj_pFBBn0/m
-photo.107.author: daniele.tokyo
-photo.107.commitdate: 2021/12/22
-photo.107.link: https://www.instagram.com/daniele.tokyo/
-photo.107.tags: climb, head-first, paws, sample, tail, tree, whiskers
-photo.108: ig://CXrIu7pB1uC/m
-photo.108.author: minatomirai215
-photo.108.commitdate: 2022/1/4
-photo.108.link: https://www.instagram.com/minatomirai215/
-photo.108.tags: portrait, whiskers
-photo.109: https://www.instagram.com/p/CVQDwn-hQtP/media/?size=m
-photo.109.author: redpan22
-photo.109.link: https://www.instagram.com/redpan22/
-photo.109.tags: autumn, bridge, paws, tail
+photo.106.link: https://www.instagram.com/tama67photo/
+photo.106.tags: autumn, portrait, tongue, tree
+photo.107: ig://CWahxdKhvmO/m
+photo.107.author: minatomirai215
+photo.107.commitdate: 2021/11/21
+photo.107.link: https://www.instagram.com/minatomirai215/
+photo.107.tags: autumn, portrait, sample, whiskers
+photo.108: ig://CXQj_pFBBn0/m
+photo.108.author: daniele.tokyo
+photo.108.commitdate: 2021/12/22
+photo.108.link: https://www.instagram.com/daniele.tokyo/
+photo.108.tags: climb, head-first, paws, sample, tail, tree, whiskers
+photo.109: ig://CXrIu7pB1uC/m
+photo.109.author: minatomirai215
+photo.109.commitdate: 2022/1/4
+photo.109.link: https://www.instagram.com/minatomirai215/
+photo.109.tags: portrait, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11

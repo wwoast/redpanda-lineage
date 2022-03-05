@@ -815,40 +815,41 @@ photo.161.author: yossi929
 photo.161.commitdate: 2021/11/6
 photo.161.link: https://www.instagram.com/yossi929/
 photo.161.tags: paws, portrait, whiskers
-photo.162: ig://CVOsB-ihuf8/m
-photo.162.author: re_ichimaru
-photo.162.commitdate: 2021/11/14
-photo.162.link: https://www.instagram.com/re_ichimaru/
-photo.162.tags: apple time, peek, portrait, toys
-photo.163: ig://CVbXKzHP4wu/m
-photo.163.author: yossi929
-photo.163.commitdate: 2021/11/3
-photo.163.link: https://www.instagram.com/yossi929/
-photo.163.tags: smile, whiskers
-photo.164: ig://CWRevJxvhxu/m
+photo.162: ig://CVOc400hkzq/m
+photo.162.author: yossi929
+photo.162.commitdate: 2022/3/4
+photo.162.link: https://www.instagram.com/yossi929/
+photo.162.tags: bamboo, close-up, nose, whiskers
+photo.163: ig://CVOsB-ihuf8/m
+photo.163.author: re_ichimaru
+photo.163.commitdate: 2021/11/14
+photo.163.link: https://www.instagram.com/re_ichimaru/
+photo.163.tags: apple time, peek, portrait, toys
+photo.164: ig://CVbXKzHP4wu/m
 photo.164.author: yossi929
-photo.164.commitdate: 2021/11/23
+photo.164.commitdate: 2021/11/3
 photo.164.link: https://www.instagram.com/yossi929/
-photo.164.tags: paws, portrait, tail
-photo.165: ig://CWn2QMvJPBA/m
+photo.164.tags: smile, whiskers
+photo.165: ig://CWRevJxvhxu/m
 photo.165.author: yossi929
-photo.165.commitdate: 2021/12/6
+photo.165.commitdate: 2021/11/23
 photo.165.link: https://www.instagram.com/yossi929/
-photo.165.tags: paws, whiskers
-photo.166: ig://CZiMMjch3Ev/m
-photo.166.author: re_ichimaru
-photo.166.commitdate: 2022/2/20
-photo.166.link: https://www.instagram.com/re_ichimaru/
-photo.166.tags: bamboo, bite, mofumofu, portrait, sample, tongue, whiskers
-photo.167: ig://CZpxxb9vPnf/m
-photo.167.author: yossi929
-photo.167.commitdate: 2022/2/12
-photo.167.link: https://www.instagram.com/yossi929/
-photo.167.tags: close-up, whiskers
-photo.168: https://www.instagram.com/p/CVOc400hkzq/media/?size=m
+photo.165.tags: paws, portrait, tail
+photo.166: ig://CWn2QMvJPBA/m
+photo.166.author: yossi929
+photo.166.commitdate: 2021/12/6
+photo.166.link: https://www.instagram.com/yossi929/
+photo.166.tags: paws, whiskers
+photo.167: ig://CZiMMjch3Ev/m
+photo.167.author: re_ichimaru
+photo.167.commitdate: 2022/2/20
+photo.167.link: https://www.instagram.com/re_ichimaru/
+photo.167.tags: bamboo, bite, mofumofu, portrait, sample, tongue, whiskers
+photo.168: ig://CZpxxb9vPnf/m
 photo.168.author: yossi929
+photo.168.commitdate: 2022/2/12
 photo.168.link: https://www.instagram.com/yossi929/
-photo.168.tags: bamboo, close-up, nose, whiskers
+photo.168.tags: close-up, whiskers
 species: 2
 studbook.id: 12108
 zoo: 32

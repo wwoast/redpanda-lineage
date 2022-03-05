@@ -281,35 +281,36 @@ photo.54.author: otenba_redpanda
 photo.54.commitdate: 2021/11/6
 photo.54.link: https://www.instagram.com/otenba_redpanda/
 photo.54.tags: mofumofu, portrait, techitechi
-photo.55: ig://CVfS7mMBKYO/m
-photo.55.author: jas_forever_love
-photo.55.commitdate: 2021/11/20
-photo.55.link: https://www.instagram.com/jas_forever_love/
-photo.55.tags: laying down, mofumofu, portrait, whiskers
-photo.56: ig://CVkUEE0BHel/m
-photo.56.author: otenba_redpanda
+photo.55: ig://CVQiObLBArq/m
+photo.55.author: craig_craig_craig
+photo.55.commitdate: 2022/3/4
+photo.55.link: https://www.instagram.com/craig_craig_craig/
+photo.55.tags: laying down, mofumofu, portrait, whiskers, videolink
+photo.56: ig://CVfS7mMBKYO/m
+photo.56.author: jas_forever_love
 photo.56.commitdate: 2021/11/20
-photo.56.link: https://www.instagram.com/otenba_redpanda/
-photo.56.tags: apple time, dish, mofumofu, paws, portrait
-photo.57: ig://CW-t3DwBtRW/m
-photo.57.author: ck.chie
-photo.57.commitdate: 2021/12/30
-photo.57.link: https://www.instagram.com/ck.chie/
-photo.57.tags: laying down, peek, portrait
-photo.58: ig://mari_neko3/CXiToXrhll3/m
-photo.58.author: mari_neko3
-photo.58.commitdate: 2022/2/19
-photo.58.link: https://www.instagram.com/mari_neko3/
-photo.58.tags: laying down, paws
-photo.59: ig://CY6VTF3BSAZ/m
-photo.59.author: minatomirai215
-photo.59.commitdate: 2022/2/9
-photo.59.link: https://www.instagram.com/minatomirai215/
-photo.59.tags: peek, portrait, sample, techitechi, whiskers
-photo.60: https://www.instagram.com/p/CVQiObLBArq/media/?size=m
-photo.60.author: craig_craig_craig
-photo.60.link: https://www.instagram.com/craig_craig_craig/
-photo.60.tags: laying down, mofumofu, portrait, whiskers, videolink
+photo.56.link: https://www.instagram.com/jas_forever_love/
+photo.56.tags: laying down, mofumofu, portrait, whiskers
+photo.57: ig://CVkUEE0BHel/m
+photo.57.author: otenba_redpanda
+photo.57.commitdate: 2021/11/20
+photo.57.link: https://www.instagram.com/otenba_redpanda/
+photo.57.tags: apple time, dish, mofumofu, paws, portrait
+photo.58: ig://CW-t3DwBtRW/m
+photo.58.author: ck.chie
+photo.58.commitdate: 2021/12/30
+photo.58.link: https://www.instagram.com/ck.chie/
+photo.58.tags: laying down, peek, portrait
+photo.59: ig://mari_neko3/CXiToXrhll3/m
+photo.59.author: mari_neko3
+photo.59.commitdate: 2022/2/19
+photo.59.link: https://www.instagram.com/mari_neko3/
+photo.59.tags: laying down, paws
+photo.60: ig://CY6VTF3BSAZ/m
+photo.60.author: minatomirai215
+photo.60.commitdate: 2022/2/9
+photo.60.link: https://www.instagram.com/minatomirai215/
+photo.60.tags: peek, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 1675
 zoo: 10
