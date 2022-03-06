@@ -15,6 +15,10 @@ language.order: en, jp
 litter: 680
 location.1: 117, 2014/6/11
 location.2: 105, 2015/11/10
+photo.1: https://www.instagram.com/p/CSMq8COHolb/media/?size=m
+photo.1.author: hoglezoo
+photo.1.link: https://www.instagram.com/hoglezoo/
+photo.1.tags: paws, portrait, profile, whiskers
 species: 1
 studbook.id: 1408
 zoo: 105
