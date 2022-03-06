@@ -513,6 +513,10 @@ photo.100.author: otenba_redpanda
 photo.100.commitdate: 2022/2/20
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: close-up, portrait, sample, whiskers
+photo.101: https://www.instagram.com/p/CahBNlKLIv9/media/?size=m
+photo.101.author: mini_cochi
+photo.101.link: https://www.instagram.com/mini_cochi/
+photo.101.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 9
