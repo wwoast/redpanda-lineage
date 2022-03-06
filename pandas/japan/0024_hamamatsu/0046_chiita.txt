@@ -1039,12 +1039,14 @@ photo.206.author: hamamatsu.chiita
 photo.206.commitdate: 2022/2/20
 photo.206.link: https://www.instagram.com/hamamatsu.chiita/
 photo.206.tags: apple time, grumpy, nose, paws, sample, whiskers
-photo.207: https://www.instagram.com/p/CZ42y_xBTVH/media/?size=m
+photo.207: ig://CZ42y_xBTVH/m
 photo.207.author: taka__3428
+photo.207.commitdate: 2022/3/6
 photo.207.link: https://www.instagram.com/taka__3428/
 photo.207.tags: paws, peek, sample, whiskers
 photo.208: https://instagram.com/p/CZ1ca7EPY7u/media/?size=m
 photo.208.author: hamamatsu.chiita
+photo.208.commitdate: 2022/3/6
 photo.208.link: https://www.instagram.com/hamamatsu.chiita/
 photo.208.tags: close-up, mofumofu, nose, portrait, sample, whiskers
 species: 2

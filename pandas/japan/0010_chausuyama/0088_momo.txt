@@ -297,45 +297,46 @@ photo.57.author: mini_cochi
 photo.57.commitdate: 2021/10/27
 photo.57.link: https://www.instagram.com/mini_cochi/
 photo.57.tags: mofumofu, portrait, whiskers, white face
-photo.58: ig://CWDg_70hZh3/m
-photo.58.author: redpan22
-photo.58.commitdate: 2021/11/11
-photo.58.link: https://www.instagram.com/redpan22/
-photo.58.tags: apple time, autumn, dish, mofumofu, paws, tongue
-photo.59: ig://CWaE9MpBUmp/m
-photo.59.author: otenba_redpanda
-photo.59.commitdate: 2021/11/28
-photo.59.link: https://www.instagram.com/otenba_redpanda/
-photo.59.tags: mofumofu, portrait, whiskers
-photo.60: ig://CWcT-Xyh48L/m
-photo.60.author: mari_neko3
+photo.58: ig://CV2vXsjJfPm/m
+photo.58.author: shigeko0531
+photo.58.commitdate: 2022/3/6
+photo.58.link: https://www.instagram.com/shigeko0531/
+photo.58.tags: apple time, close-up, peek, smile, whiskers
+photo.59: ig://CWDg_70hZh3/m
+photo.59.author: redpan22
+photo.59.commitdate: 2021/11/11
+photo.59.link: https://www.instagram.com/redpan22/
+photo.59.tags: apple time, autumn, dish, mofumofu, paws, tongue
+photo.60: ig://CWaE9MpBUmp/m
+photo.60.author: otenba_redpanda
 photo.60.commitdate: 2021/11/28
-photo.60.link: https://www.instagram.com/mari_neko3/
-photo.60.tags: laying down, portrait, smile, tree, whiskers
-photo.61: ig://CWt6ct3BTlM/m
-photo.61.author: ssc6105
-photo.61.commitdate: 2022/1/7
-photo.61.link: https://www.instagram.com/ssc6105/
-photo.61.tags: paws, smile, whiskers
-photo.62: ig://CX7LMX8hNRS/m
-photo.62.author: alto0908
-photo.62.commitdate: 2022/1/8
-photo.62.link: https://www.instagram.com/alto0908/
-photo.62.tags: laying down, paws, portrait, tail, tree
-photo.63: ig://CY6IK0NB8mf/m
-photo.63.author: ck.chie
-photo.63.commitdate: 2022/2/21
-photo.63.link: https://www.instagram.com/ck.chie/
-photo.63.tags: mofumofu, tongue, whiskers
-photo.64: ig://CZEWlTcrOnM/m
-photo.64.author: shigeko0531
+photo.60.link: https://www.instagram.com/otenba_redpanda/
+photo.60.tags: mofumofu, portrait, whiskers
+photo.61: ig://CWcT-Xyh48L/m
+photo.61.author: mari_neko3
+photo.61.commitdate: 2021/11/28
+photo.61.link: https://www.instagram.com/mari_neko3/
+photo.61.tags: laying down, portrait, smile, tree, whiskers
+photo.62: ig://CWt6ct3BTlM/m
+photo.62.author: ssc6105
+photo.62.commitdate: 2022/1/7
+photo.62.link: https://www.instagram.com/ssc6105/
+photo.62.tags: paws, smile, whiskers
+photo.63: ig://CX7LMX8hNRS/m
+photo.63.author: alto0908
+photo.63.commitdate: 2022/1/8
+photo.63.link: https://www.instagram.com/alto0908/
+photo.63.tags: laying down, paws, portrait, tail, tree
+photo.64: ig://CY6IK0NB8mf/m
+photo.64.author: ck.chie
 photo.64.commitdate: 2022/2/21
-photo.64.link: https://www.instagram.com/shigeko0531/
-photo.64.tags: apple time, paws, portrait, smile, snow
-photo.65: https://www.instagram.com/p/CV2vXsjJfPm/media/?size=m
+photo.64.link: https://www.instagram.com/ck.chie/
+photo.64.tags: mofumofu, tongue, whiskers
+photo.65: ig://CZEWlTcrOnM/m
 photo.65.author: shigeko0531
+photo.65.commitdate: 2022/2/21
 photo.65.link: https://www.instagram.com/shigeko0531/
-photo.65.tags: apple time, close-up, peek, smile, whiskers
+photo.65.tags: apple time, paws, portrait, smile, snow
 species: 2
 studbook.id: 11100
 zoo: 10

@@ -342,8 +342,9 @@ photo.66.author: wumpwoast
 photo.66.commitdate: 2021/10/27
 photo.66.link: https://www.instagram.com/wumpwoast/
 photo.66.tags: dish, portrait, whiskers
-photo.67: https://www.instagram.com/p/CajUjJpP0qS/media/?size=m
+photo.67: ig://CajUjJpP0qS/m
 photo.67.author: chankunvv
+photo.67.commitdate: 2022/3/6
 photo.67.link: https://www.instagram.com/chankunvv/
 photo.67.tags: apple time, blink, paws, portrait, smile, tail
 species: 2

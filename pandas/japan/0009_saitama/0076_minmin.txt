@@ -289,28 +289,31 @@ photo.55.author: fetorus_mami
 photo.55.commitdate: 2022/2/14
 photo.55.link: https://www.instagram.com/fetorus_mami/
 photo.55.tags: bamboo, mofumofu, peek, sample, tail
-photo.56: ig://CaBUFPyPkrB/m
-photo.56.author: minatomirai215
-photo.56.commitdate: 2022/3/5
-photo.56.link: https://www.instagram.com/minatomirai215/
-photo.56.tags: mofumofu, muzzle, peek
-photo.57: ig://CaGqMsqvxzs/m
-photo.57.author: fetorus_mami
-photo.57.commitdate: 2022/3/5
-photo.57.link: https://www.instagram.com/fetorus_mami/
-photo.57.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/CZ9T3kAPk37/media/?size=m
-photo.58.author: rie_panda55
-photo.58.link: https://www.instagram.com/rie_panda55/
-photo.58.tags: mofumofu, paws, portrait, sample, whiskers
-photo.59: https://www.instagram.com/p/CZ9V8a3lsR2/media/?size=m
-photo.59.author: mini_cochi
-photo.59.link: https://www.instagram.com/mini_cochi/
-photo.59.tags: mofumofu, muzzle
-photo.60: https://www.instagram.com/p/CZ9G8L3voY7/media/?size=m
-photo.60.author: ssc6105
-photo.60.link: https://www.instagram.com/ssc6105/
-photo.60.tags: bamboo, paws, peek, sample, whiskers
+photo.56: ig://CZ9G8L3voY7/m
+photo.56.author: ssc6105
+photo.56.commitdate: 2022/3/6
+photo.56.link: https://www.instagram.com/ssc6105/
+photo.56.tags: bamboo, paws, peek, sample, whiskers
+photo.57: ig://CZ9T3kAPk37/m
+photo.57.author: rie_panda55
+photo.57.commitdate: 2022/3/6
+photo.57.link: https://www.instagram.com/rie_panda55/
+photo.57.tags: mofumofu, paws, portrait, sample, whiskers
+photo.58: ig://CZ9V8a3lsR2/m
+photo.58.author: mini_cochi
+photo.58.commitdate: 2022/3/6
+photo.58.link: https://www.instagram.com/mini_cochi/
+photo.58.tags: mofumofu, muzzle
+photo.59: ig://CaBUFPyPkrB/m
+photo.59.author: minatomirai215
+photo.59.commitdate: 2022/3/5
+photo.59.link: https://www.instagram.com/minatomirai215/
+photo.59.tags: mofumofu, muzzle, peek
+photo.60: ig://CaGqMsqvxzs/m
+photo.60.author: fetorus_mami
+photo.60.commitdate: 2022/3/5
+photo.60.link: https://www.instagram.com/fetorus_mami/
+photo.60.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0293
 zoo: 9

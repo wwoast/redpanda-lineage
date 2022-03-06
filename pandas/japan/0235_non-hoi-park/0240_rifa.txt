@@ -1717,8 +1717,9 @@ photo.342.author: otenba_redpanda
 photo.342.commitdate: 2022/2/10
 photo.342.link: https://www.instagram.com/otenba_redpanda/
 photo.342.tags: mofumofu, portrait, sample, whiskers
-photo.343: https://www.instagram.com/p/CZ7mNJEBrnD/media/?size=m
+photo.343: ig://CZ7mNJEBrnD/m
 photo.343.author: hamamatsu.chiita
+photo.343.commitdate: 2022/3/6
 photo.343.link: https://www.instagram.com/hamamatsu.chiita/
 photo.343.tags: laying down, peek, sample, tree, whiskers
 species: 2
