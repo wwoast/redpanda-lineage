@@ -179,8 +179,9 @@ photo.33.author: makimaru18
 photo.33.commitdate: 2022/2/19
 photo.33.link: https://www.instagram.com/makimaru18/
 photo.33.tags: portrait, whiskers
-photo.34: https://www.instagram.com/p/CaHOsHRv7gZ/media/?size=m
+photo.34: ig://CaHOsHRv7gZ/m
 photo.34.author: makimaru18
+photo.34.commitdate: 2022/3/5
 photo.34.link: https://www.instagram.com/makimaru18/
 photo.34.tags: air tasting, mofumofu, portrait, tail, tongue
 species: 2

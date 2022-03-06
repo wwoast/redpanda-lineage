@@ -270,8 +270,9 @@ photo.51.author: itsuak
 photo.51.commitdate: 2022/2/9
 photo.51.link: https://www.instagram.com/itsuak/
 photo.51.tags: laying down, paws, portrait, sample
-photo.52: https://www.instagram.com/p/CaFYyk-PPQ7/media/?size=m
+photo.52: ig://CaFYyk-PPQ7/m
 photo.52.author: itsuak
+photo.52.commitdate: 2022/3/5
 photo.52.link: https://www.instagram.com/itsuak/
 photo.52.tags: mofumofu, peek, portrait, sample, whiskers
 species: 2

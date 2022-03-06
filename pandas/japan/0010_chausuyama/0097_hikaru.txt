@@ -504,38 +504,46 @@ photo.98.author: shigeko0531
 photo.98.commitdate: 2022/2/12
 photo.98.link: https://www.instagram.com/shigeko0531/
 photo.98.tags: laying down, mofumofu, paws, portrait, sample, sleeping, tongue
-photo.99: https://www.instagram.com/p/CaUmQ9BFzEB/media/?size=m
-photo.99.author: mini_cochi
-photo.99.link: https://www.instagram.com/mini_cochi/
-photo.99.tags: paws, portrait, sample, whiskers
-photo.100: https://www.instagram.com/p/CaVnGO5vbqN/media/?size=m
-photo.100.author: otenba_redpanda
-photo.100.link: https://www.instagram.com/otenba_redpanda/
-photo.100.tags: close-up, laying down, mofumofu, portrait, sample, smile, tree
-photo.101: https://www.instagram.com/p/CaUkt_DlKIq/media/?size=m
-photo.101.author: shigeko0531
-photo.101.link: https://www.instagram.com/shigeko0531/
-photo.101.tags: bamboo, blink
-photo.102: https://www.instagram.com/p/CaXCVH9Prij/media/?size=m
-photo.102.author: alto0908
-photo.102.link: https://www.instagram.com/alto0908/
-photo.102.tags: mofumofu, peek, portrait, sample, tree
-photo.103: https://www.instagram.com/p/CaaMioaBtyu/media/?size=m
-photo.103.author: minatomirai215
-photo.103.link: https://www.instagram.com/minatomirai215/
-photo.103.tags: mofumofu, paws, peek, portrait, sample, whiskers
-photo.104: https://www.instagram.com/p/CaUgzubBHKg/media/?size=m
-photo.104.author: redpan22
-photo.104.link: https://www.instagram.com/redpan22/
-photo.104.tags: peek, portrait, tree, whiskers
-photo.105: https://www.instagram.com/p/CaW4zMvLrrK/media/?size=m
-photo.105.author: daniele.tokyo
-photo.105.link: https://www.instagram.com/daniele.tokyo/
-photo.105.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
-photo.106: https://www.instagram.com/p/CaU70hZpqLS/media/?size=m
-photo.106.author: wumpwoast
-photo.106.link: https://www.instagram.com/wumpwoast/
-photo.106.tags: portrait, smile 
+photo.99: ig://CaUgzubBHKg/m
+photo.99.author: redpan22
+photo.99.commitdate: 2022/3/5
+photo.99.link: https://www.instagram.com/redpan22/
+photo.99.tags: peek, portrait, tree, whiskers
+photo.100: ig://CaUkt_DlKIq/m
+photo.100.author: shigeko0531
+photo.100.commitdate: 2022/3/5
+photo.100.link: https://www.instagram.com/shigeko0531/
+photo.100.tags: bamboo, blink
+photo.101: ig://CaUmQ9BFzEB/m
+photo.101.author: mini_cochi
+photo.101.commitdate: 2022/3/5
+photo.101.link: https://www.instagram.com/mini_cochi/
+photo.101.tags: paws, portrait, sample, whiskers
+photo.102: ig://CaU70hZpqLS/m
+photo.102.author: wumpwoast
+photo.102.commitdate: 2022/3/5
+photo.102.link: https://www.instagram.com/wumpwoast/
+photo.102.tags: portrait, smile
+photo.103: ig://CaVnGO5vbqN/m
+photo.103.author: otenba_redpanda
+photo.103.commitdate: 2022/3/5
+photo.103.link: https://www.instagram.com/otenba_redpanda/
+photo.103.tags: close-up, laying down, mofumofu, portrait, sample, smile, tree
+photo.104: ig://CaW4zMvLrrK/m
+photo.104.author: daniele.tokyo
+photo.104.commitdate: 2022/3/5
+photo.104.link: https://www.instagram.com/daniele.tokyo/
+photo.104.tags: close-up, laying down, mofumofu, portrait, sample, whiskers
+photo.105: ig://CaXCVH9Prij/m
+photo.105.author: alto0908
+photo.105.commitdate: 2022/3/5
+photo.105.link: https://www.instagram.com/alto0908/
+photo.105.tags: mofumofu, peek, portrait, sample, tree
+photo.106: ig://CaaMioaBtyu/m
+photo.106.author: minatomirai215
+photo.106.commitdate: 2022/3/5
+photo.106.link: https://www.instagram.com/minatomirai215/
+photo.106.tags: mofumofu, paws, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 15155
 zoo: 10

@@ -28,8 +28,9 @@ photo.3.author: bronxzoo
 photo.3.commitdate: 2020/9/12
 photo.3.link: https://www.instagram.com/bronxzoo/
 photo.3.tags: mofumofu, portrait, tail, white face
-photo.4: https://www.instagram.com/p/CZ94o9PFe1H/media/?size=m
+photo.4: ig://CZ94o9PFe1H/m
 photo.4.author: stlzoo
+photo.4.commitdate: 2022/3/5
 photo.4.link: https://www.instagram.com/stlzoo/
 photo.4.tags: close-up, portrait, snow, whiskers
 species: 1

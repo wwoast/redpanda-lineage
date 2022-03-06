@@ -289,12 +289,14 @@ photo.55.author: fetorus_mami
 photo.55.commitdate: 2022/2/14
 photo.55.link: https://www.instagram.com/fetorus_mami/
 photo.55.tags: bamboo, mofumofu, peek, sample, tail
-photo.56: https://www.instagram.com/p/CaBUFPyPkrB/media/?size=m
+photo.56: ig://CaBUFPyPkrB/m
 photo.56.author: minatomirai215
+photo.56.commitdate: 2022/3/5
 photo.56.link: https://www.instagram.com/minatomirai215/
 photo.56.tags: mofumofu, muzzle, peek
-photo.57: https://www.instagram.com/p/CaGqMsqvxzs/media/?size=m
+photo.57: ig://CaGqMsqvxzs/m
 photo.57.author: fetorus_mami
+photo.57.commitdate: 2022/3/5
 photo.57.link: https://www.instagram.com/fetorus_mami/
 photo.57.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

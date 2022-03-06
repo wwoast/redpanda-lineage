@@ -286,8 +286,9 @@ photo.54.author: wumpwoast
 photo.54.commitdate: 2021/12/22
 photo.54.link: https://www.instagram.com/wumpwoast/
 photo.54.tags: peek, portrait
-photo.55: https://www.instagram.com/p/CZ_CnJqrztr/media/?size=m
+photo.55: ig://CZ_CnJqrztr/m
 photo.55.author: wumpwoast
+photo.55.commitdate: 2022/3/5
 photo.55.link: https://www.instagram.com/wumpwoast/
 photo.55.tags: mofumofu, portrait, whiskers
 species: 1
