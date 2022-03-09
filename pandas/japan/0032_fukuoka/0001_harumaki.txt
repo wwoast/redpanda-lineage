@@ -2138,8 +2138,9 @@ photo.426.author: re_ichimaru
 photo.426.commitdate: 2022/2/19
 photo.426.link: https://www.instagram.com/re_ichimaru/
 photo.426.tags: close-up, peek, portrait, sample, whiskers
-photo.427: https://www.instagram.com/p/Caf1_hTvJ7o/media/?size=m
+photo.427: ig://Caf1_hTvJ7o/m
 photo.427.author: yossi929
+photo.427.commitdate: 2022/3/8
 photo.427.link: https://www.instagram.com/yossi929/
 photo.427.tags: peek, sample, smile, whiskers
 species: 2

@@ -1367,15 +1367,16 @@ photo.271.author: otenba_redpanda
 photo.271.commitdate: 2022/2/12
 photo.271.link: https://www.instagram.com/otenba_redpanda/
 photo.271.tags: muzzle, portrait, sample, snow, whiskers
-photo.272: ig://CZ-a_dVLJ9C/m
-photo.272.author: otenba_redpanda
-photo.272.commitdate: 2022/3/6
-photo.272.link: https://www.instagram.com/otenba_redpanda/
-photo.272.tags: bamboo, close-up, paws, portrait, sample, whiskers
-photo.273: https://www.instagram.com/p/CZ6DTecLjOt/media/?size=m
-photo.273.author: shigeko0531
-photo.273.link: https://www.instagram.com/shigeko0531/
-photo.273.tags: mofumofu, snow, whiskers, white face
+photo.272: ig://CZ6DTecLjOt/m
+photo.272.author: shigeko0531
+photo.272.commitdate: 2022/3/8
+photo.272.link: https://www.instagram.com/shigeko0531/
+photo.272.tags: mofumofu, snow, whiskers, white face
+photo.273: ig://CZ-a_dVLJ9C/m
+photo.273.author: otenba_redpanda
+photo.273.commitdate: 2022/3/6
+photo.273.link: https://www.instagram.com/otenba_redpanda/
+photo.273.tags: bamboo, close-up, paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10
