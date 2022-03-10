@@ -162,7 +162,7 @@ photo.31: ig://Bsfh3EaFRHd/m
 photo.31.author: daniele.tokyo
 photo.31.commitdate: 2019/1/18
 photo.31.link: https://www.instagram.com/daniele.tokyo/
-photo.31.tags: bamboo, portrait, profile, smile
+photo.31.tags: bamboo, portrait, smile
 photo.32: ig://BuUrD1dlrSh/m
 photo.32.author: wumpwoast
 photo.32.commitdate: 2020/6/1
@@ -878,6 +878,14 @@ photo.174.author: hidehaya_biei
 photo.174.commitdate: 2022/3/8
 photo.174.link: https://www.instagram.com/hidehaya_biei/
 photo.174.tags: peek, techitechi, whiskers
+photo.175: https://www.instagram.com/p/Calpj27LZo6/media/?size=m
+photo.175.author: hidehaya_biei
+photo.175.link: https://www.instagram.com/hidehaya_biei/
+photo.175.tags: mofumofu, peek, sample, snow, techitechi
+photo.176: https://www.instagram.com/p/CZ-oacahNTb/media/?size=m
+photo.176.author: hidehaya_biei
+photo.176.link: https://www.instagram.com/hidehaya_biei/
+photo.176.tags: portrait, profile, sample, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8
