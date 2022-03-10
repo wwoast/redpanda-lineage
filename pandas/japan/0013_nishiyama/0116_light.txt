@@ -525,8 +525,9 @@ photo.103.author: jas_forever_love
 photo.103.commitdate: 2022/2/12
 photo.103.link: https://www.instagram.com/jas_forever_love/
 photo.103.tags: dish, portrait, sample, whiskers
-photo.104: https://www.instagram.com/p/CZ5IDb5BhqR/media/?size=m
+photo.104: ig://CZ5IDb5BhqR/m
 photo.104.author: hamamatsu.chiita
+photo.104.commitdate: 2022/3/9
 photo.104.link: https://www.instagram.com/hamamatsu.chiita/
 photo.104.tags: mofumofu, portrait, sample, whiskers
 species: 2

@@ -381,8 +381,9 @@ photo.76.author: redpan22
 photo.76.commitdate: 2022/2/11
 photo.76.link: https://www.instagram.com/redpan22/
 photo.76.tags: snow, tree, whiskers
-photo.77: https://www.instagram.com/p/CZ6qsx_PaIX/media/?size=m
+photo.77: ig://CZ6qsx_PaIX/m
 photo.77.author: jas_forever_love
+photo.77.commitdate: 2022/3/9
 photo.77.link: https://www.instagram.com/jas_forever_love/
 photo.77.tags: bamboo, mofumofu, portrait, sample, snow, whiskers
 species: 2

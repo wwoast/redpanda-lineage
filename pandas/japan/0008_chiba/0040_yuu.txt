@@ -418,10 +418,11 @@ photo.81.author: ssc6105
 photo.81.commitdate: 2022/3/8
 photo.81.link: https://www.instagram.com/ssc6105/
 photo.81.tags: climb, paws, surprise, tail, whiskers
-photo.82: https://www.instagram.com/p/CZ9xS2ovR0I/media/?size=m
+photo.82: ig://CZ9xS2ovR0I/m
 photo.82.author: eos1089
+photo.82.commitdate: 2022/3/9
 photo.82.link: https://www.instagram.com/eos1089/
-photo.82.tags: paws, playing, portrait, snow, surprise, tail 
+photo.82.tags: paws, playing, portrait, snow, surprise, tail
 species: 2
 studbook.id: 15141
 zoo: 8

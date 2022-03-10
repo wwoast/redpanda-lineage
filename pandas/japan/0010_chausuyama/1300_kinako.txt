@@ -228,12 +228,14 @@ photo.43.author: redpan22
 photo.43.commitdate: 2022/2/20
 photo.43.link: https://www.instagram.com/redpan22/
 photo.43.tags: hammock, laying down, paws, playing, peek, portrait, sample
-photo.44: https://www.instagram.com/p/CZ4XLaJvM9H/media/?size=m
+photo.44: ig://CZ4XLaJvM9H/m
 photo.44.author: alto0908
+photo.44.commitdate: 2022/3/9
 photo.44.link: https://www.instagram.com/alto0908/
 photo.44.tags: close-up, hammock, peek, sample, techitechi
-photo.45: https://www.instagram.com/p/CZ58cSbJgm9/media/?size=m
+photo.45: ig://CZ58cSbJgm9/m
 photo.45.author: otenba_redpanda
+photo.45.commitdate: 2022/3/9
 photo.45.link: https://www.instagram.com/otenba_redpanda/
 photo.45.tags: close-up, laying down, mofumofu, portrait, sample
 species: 2

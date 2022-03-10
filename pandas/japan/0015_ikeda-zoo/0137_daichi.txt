@@ -360,8 +360,9 @@ photo.69.author: itsuak
 photo.69.commitdate: 2022/2/20
 photo.69.link: https://www.instagram.com/itsuak/
 photo.69.tags: close-up, grooming, mofumofu, paws, portrait, sample
-photo.70: https://www.instagram.com/p/CZ9Y4QTv4bM/media/?size=m
+photo.70: ig://CZ9Y4QTv4bM/m
 photo.70.author: itsuak
+photo.70.commitdate: 2022/3/9
 photo.70.link: https://www.instagram.com/itsuak/
 photo.70.tags: bamboo, mofumofu, portrait, smile
 species: 2
