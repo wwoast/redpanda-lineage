@@ -50,15 +50,16 @@ photo.7.author: rossifari
 photo.7.commitdate: 2021/9/23
 photo.7.link: https://www.instagram.com/rossifari/
 photo.7.tags: bamboo, paws, portrait, profile, tongue
-photo.8: ig://CXRM8fYrdx_/m
-photo.8.author: worldthathesees
-photo.8.commitdate: 2021/12/30
-photo.8.link: https://www.instagram.com/worldthathesees/
-photo.8.tags: peek, whiskers
-photo.9: https://www.instagram.com/p/CTwUfqpr_Ot/media/?size=m
-photo.9.author: rossifari
-photo.9.link: https://www.instagram.com/rossifari/
-photo.9.tags: close-up, mofumofu, portrait, tongue, whiskers, wink
+photo.8: ig://CTwUfqpr_Ot/m
+photo.8.author: rossifari
+photo.8.commitdate: 2022/3/10
+photo.8.link: https://www.instagram.com/rossifari/
+photo.8.tags: close-up, mofumofu, portrait, tongue, whiskers, wink
+photo.9: ig://CXRM8fYrdx_/m
+photo.9.author: worldthathesees
+photo.9.commitdate: 2021/12/30
+photo.9.link: https://www.instagram.com/worldthathesees/
+photo.9.tags: peek, whiskers
 species: 2
 studbook.id: 1117
 video.1: https://www.youtube.com/watch?v=xHwUOUE-xEU

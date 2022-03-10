@@ -598,8 +598,9 @@ photo.117.author: hamamatsu.chiita
 photo.117.commitdate: 2022/2/6
 photo.117.link: https://www.instagram.com/hamamatsu.chiita/
 photo.117.tags: close-up, laying down, portrait, sample, whiskers
-photo.118: https://www.instagram.com/p/Caa1GNYhv2M/media/?size=m
+photo.118: ig://Caa1GNYhv2M/m
 photo.118.author: miis_98
+photo.118.commitdate: 2022/3/10
 photo.118.link: https://www.instagram.com/miis_98/
 photo.118.tags: bamboo, close-up, portrait, sample, tongue, whiskers
 species: 2

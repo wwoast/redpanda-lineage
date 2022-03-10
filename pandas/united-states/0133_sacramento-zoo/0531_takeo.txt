@@ -90,8 +90,9 @@ photo.15.author: sacramentozoo
 photo.15.commitdate: 2021/3/18
 photo.15.link: https://www.instagram.com/sacramentozoo/
 photo.15.tags: whiskers
-photo.16: https://www.instagram.com/p/Caal9BFByBv/media/?size=m
+photo.16: ig://Caal9BFByBv/m
 photo.16.author: sacramentozoo
+photo.16.commitdate: 2022/3/10
 photo.16.link: https://www.instagram.com/redpandanetwork/
 photo.16.tags: mofumofu, portrait, sample, whiskers, white face
 species: 1

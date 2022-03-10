@@ -281,8 +281,9 @@ photo.54.author: eos1089
 photo.54.commitdate: 2022/1/31
 photo.54.link: https://www.instagram.com/eos1089/
 photo.54.tags: bamboo, mofumofu, portrait, tongue
-photo.55: https://www.instagram.com/p/CanogYoLJrU/media/?size=m
+photo.55: ig://CanogYoLJrU/m
 photo.55.author: otenba_redpanda
+photo.55.commitdate: 2022/3/10
 photo.55.link: https://www.instagram.com/otenba_redpanda/
 photo.55.tags: bamboo, muzzle, paws, portrait, tongue, whiskers
 species: 2

@@ -363,8 +363,9 @@ photo.70.author: otenba_redpanda
 photo.70.commitdate: 2022/2/20
 photo.70.link: https://www.instagram.com/otenba_redpanda/
 photo.70.tags: bridge, laying down, portrait, sample, tail
-photo.71: https://www.instagram.com/p/Casl2vxpCKc/media/?size=m
+photo.71: ig://Casl2vxpCKc/m
 photo.71.author: otenba_redpanda
+photo.71.commitdate: 2022/3/10
 photo.71.link: https://www.instagram.com/otenba_redpanda/
 photo.71.tags: paws, portrait, standing, whiskers
 species: 2
