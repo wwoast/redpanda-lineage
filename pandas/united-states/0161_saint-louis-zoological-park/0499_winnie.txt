@@ -14,7 +14,7 @@ jp.othernames: none
 language.order: en, jp
 litter: none
 location.1: 48, 2014/7/24
-location.2: 161, 2022/2/12
+location.2: 161, 2022/1/28
 photo.1: ig://BCQ5yg_r4ck/m
 photo.1.author: bronxzoo
 photo.1.commitdate: 2019/4/8
@@ -35,6 +35,10 @@ photo.4.author: stlzoo
 photo.4.commitdate: 2022/3/5
 photo.4.link: https://www.instagram.com/stlzoo/
 photo.4.tags: close-up, portrait, snow, whiskers
+photo.5: https://www.instagram.com/p/CZ4a1e2q2xG/media/?size=m
+photo.5.author: stlzoo
+photo.5.link: https://www.instagram.com/stlzoo/
+photo.5.tags: peek, snow, techitechi
 species: 1
 studbook.id: 1441
 uncertainty: location.2 exact date (w/in 1 month or so)
