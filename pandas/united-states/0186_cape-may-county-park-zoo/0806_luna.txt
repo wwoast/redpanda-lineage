@@ -119,11 +119,11 @@ photo.20.author: capemaycountyzoo
 photo.20.commitdate: 2021/12/22
 photo.20.link: https://www.instagram.com/capemaycountyzoo/
 photo.20.tags: portrait, scale, smile, tongue
-photo.21: https://www.codaworry.com/images/rpf/luna-7-capemay.jpg
+photo.21: ig://CZ2cYfPJJsJ/m
 photo.21.author: aimless_amos
-photo.21.commitdate: 2021/6/25
-photo.21.link: https://www.instagram.com/aimless_amos/
-photo.21.tags: paws, portrait
+photo.21.commitdate: 2022/3/9
+photo.21.link: https://www.instagram.com/carsontheredpanda/
+photo.21.tags: laying down, tail, whiskers
 photo.22: https://www.codaworry.com/images/rpf/luna-8-capemay.jpg
 photo.22.author: aimless_amos
 photo.22.commitdate: 2021/6/25
@@ -229,10 +229,6 @@ photo.42.author: aimless_amos
 photo.42.commitdate: 2021/6/25
 photo.42.link: https://www.instagram.com/aimless_amos/
 photo.42.tags: portrait, tail, white face
-photo.43: https://www.instagram.com/p/CZ2cYfPJJsJ/media/?size=m
-photo.43.author: aimless_amos
-photo.43.link: https://www.instagram.com/carsontheredpanda/
-photo.43.tags: laying down, tail, whiskers
 species: 1
 studbook.id: 0105
 zoo: 186

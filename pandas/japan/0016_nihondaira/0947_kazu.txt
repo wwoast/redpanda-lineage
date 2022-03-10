@@ -303,8 +303,9 @@ photo.58.author: rie_panda55
 photo.58.commitdate: 2022/2/12
 photo.58.link: https://www.instagram.com/rie_panda55/
 photo.58.tags: bamboo, portrait, smile, snow
-photo.59: https://www.instagram.com/p/CZxTO-mh_wO/media/?size=m
+photo.59: ig://CZxTO-mh_wO/m
 photo.59.author: hamamatsu.chiita
+photo.59.commitdate: 2022/3/9
 photo.59.link: https://www.instagram.com/hamamatsu.chiita/
 photo.59.tags: peek, portrait, sample, tree, whiskers
 species: 2

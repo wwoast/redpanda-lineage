@@ -505,29 +505,30 @@ photo.98.author: otenba_redpanda
 photo.98.commitdate: 2022/2/20
 photo.98.link: https://www.instagram.com/otenba_redpanda/
 photo.98.tags: close-up, portrait, sample, whiskers
-photo.99: ig://CaA8CHvBr-l/m
+photo.99: ig://CZ1ogoavOQf/m
 photo.99.author: ssc6105
-photo.99.commitdate: 2022/3/5
+photo.99.commitdate: 2022/3/9
 photo.99.link: https://www.instagram.com/ssc6105/
-photo.99.tags: bridge, climb, paws, peek, whiskers
-photo.100: ig://Caeu70RvlKY/m
-photo.100.author: kotata_513
-photo.100.commitdate: 2022/3/8
-photo.100.link: https://www.instagram.com/kotata_513/
-photo.100.tags: laying down, paws, tree, whiskers
-photo.101: ig://Cae6hMSFhKs/m
-photo.101.author: mini_cochi
-photo.101.commitdate: 2022/3/6
-photo.101.link: https://www.instagram.com/mini_cochi/
-photo.101.tags: bamboo, laying down, mofumofu, peek, portrait, sample, whiskers
-photo.102: ig://Caf1aH8hA5g/m
-photo.102.author: ssc6105
-photo.102.commitdate: 2022/3/8
-photo.102.link: https://www.instagram.com/ssc6105/
-photo.102.tags: mofumofu, paws, smile, upside-down
-photo.103: https://www.instagram.com/p/CZ1ogoavOQf/media/?size=m
+photo.99.tags: laying dow, peek, sample, tail, whiskers
+photo.100: ig://CaA8CHvBr-l/m
+photo.100.author: ssc6105
+photo.100.commitdate: 2022/3/5
+photo.100.link: https://www.instagram.com/ssc6105/
+photo.100.tags: bridge, climb, paws, peek, whiskers
+photo.101: ig://Caeu70RvlKY/m
+photo.101.author: kotata_513
+photo.101.commitdate: 2022/3/8
+photo.101.link: https://www.instagram.com/kotata_513/
+photo.101.tags: laying down, paws, tree, whiskers
+photo.102: ig://Cae6hMSFhKs/m
+photo.102.author: mini_cochi
+photo.102.commitdate: 2022/3/6
+photo.102.link: https://www.instagram.com/mini_cochi/
+photo.102.tags: bamboo, laying down, mofumofu, peek, portrait, sample, whiskers
+photo.103: ig://Caf1aH8hA5g/m
 photo.103.author: ssc6105
+photo.103.commitdate: 2022/3/8
 photo.103.link: https://www.instagram.com/ssc6105/
-photo.103.tags: laying dow, peek, sample, tail, whiskers 
+photo.103.tags: mofumofu, paws, smile, upside-down
 species: 2
 zoo: 289

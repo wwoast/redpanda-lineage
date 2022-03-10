@@ -30,15 +30,16 @@ photo.3.author: bronxzoo
 photo.3.commitdate: 2020/9/12
 photo.3.link: https://www.instagram.com/bronxzoo/
 photo.3.tags: mofumofu, portrait, tail, white face
-photo.4: ig://CZ94o9PFe1H/m
+photo.4: ig://CZ4a1e2q2xG/m
 photo.4.author: stlzoo
-photo.4.commitdate: 2022/3/5
+photo.4.commitdate: 2022/3/9
 photo.4.link: https://www.instagram.com/stlzoo/
-photo.4.tags: close-up, portrait, snow, whiskers
-photo.5: https://www.instagram.com/p/CZ4a1e2q2xG/media/?size=m
+photo.4.tags: peek, snow, techitechi
+photo.5: ig://CZ94o9PFe1H/m
 photo.5.author: stlzoo
+photo.5.commitdate: 2022/3/5
 photo.5.link: https://www.instagram.com/stlzoo/
-photo.5.tags: peek, snow, techitechi
+photo.5.tags: close-up, portrait, snow, whiskers
 species: 1
 studbook.id: 1441
 uncertainty: location.2 exact date (w/in 1 month or so)

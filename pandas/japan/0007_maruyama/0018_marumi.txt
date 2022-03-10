@@ -2211,15 +2211,16 @@ photo.441.author: cattail.sapporo
 photo.441.commitdate: 2022/2/20
 photo.441.link: https://www.instagram.com/cattail.sapporo/
 photo.441.tags: close-up, mofumofu, portrait, sample, slobber
-photo.442: ig://CZ-LjHghTOJ/m
-photo.442.author: hamamatsu.chiita
-photo.442.commitdate: 2022/3/6
+photo.442: ig://CZ39CWQL-0k/m
+photo.442.author: cattail.sapporo
+photo.442.commitdate: 2022/3/9
 photo.442.link: https://www.instagram.com/hamamatsu.chiita/
-photo.442.tags: laying down, mofumofu, paws, portrait, sample, whiskers
-photo.443: https://www.instagram.com/p/CZ39CWQL-0k/media/?size=m
-photo.443.author: cattail.sapporo
+photo.442.tags: close-up, dish, mofumofu, portrait, snow, whiskers
+photo.443: ig://CZ-LjHghTOJ/m
+photo.443.author: hamamatsu.chiita
+photo.443.commitdate: 2022/3/6
 photo.443.link: https://www.instagram.com/hamamatsu.chiita/
-photo.443.tags: close-up, dish, mofumofu, portrait, snow, whiskers
+photo.443.tags: laying down, mofumofu, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7
