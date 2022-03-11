@@ -1002,6 +1002,18 @@ photo.200.author: tomo3700
 photo.200.commitdate: 2022/2/20
 photo.200.link: https://www.instagram.com/tomo3700/
 photo.200.tags: portrait, sample, smile, tail, tongue, whiskers
+photo.201: https://www.instagram.com/p/CamtF1UP3jJ/media/?size=m
+photo.201.author: panda.daisuki
+photo.201.link: https://www.instagram.com/panda.daisuki/
+photo.201.tags: portrait, sample, whiskers
+photo.202: https://www.instagram.com/p/CajcBWSvGsL/media/?size=m
+photo.202.author: falcon_tenor
+photo.202.link: https://www.instagram.com/falcon_tenor/
+photo.202.tags: portrait, standing, tail
+photo.203: https://www.instagram.com/p/Cag5encPnXT/media/?size=m
+photo.203.author: imagoto17
+photo.203.link: https://www.instagram.com/imagoto17/
+photo.203.tags: paws, standing, tongue, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36
