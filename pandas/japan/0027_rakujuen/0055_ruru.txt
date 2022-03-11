@@ -393,8 +393,9 @@ photo.76.author: hamamatsu.chiita
 photo.76.commitdate: 2022/3/5
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
-photo.77: https://www.instagram.com/p/CaiOAH2BwN9/media/?size=m
+photo.77: ig://CaiOAH2BwN9/m
 photo.77.author: hamamatsu.chiita
+photo.77.commitdate: 2022/3/10
 photo.77.link: https://www.instagram.com/hamamatsu.chiita/
 photo.77.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2

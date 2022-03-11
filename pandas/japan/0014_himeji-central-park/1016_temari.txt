@@ -857,8 +857,9 @@ photo.169.author: colette.jp
 photo.169.commitdate: 2022/3/9
 photo.169.link: https://www.instagram.com/colette.jp/
 photo.169.tags: air tasting, portrait, sample, tongue, whiskers
-photo.170: https://www.instagram.com/p/CajvtSpr3FU/media/?size=m
+photo.170: ig://CajvtSpr3FU/m
 photo.170.author: love__mitarashi
+photo.170.commitdate: 2022/3/10
 photo.170.link: https://www.instagram.com/love__mitarashi/
 photo.170.tags: portrait, sample, whiskers
 species: 2

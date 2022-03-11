@@ -1123,8 +1123,9 @@ photo.222.author: apple_jasmine33
 photo.222.commitdate: 2022/2/19
 photo.222.link: https://www.instagram.com/apple_jasmine33/
 photo.222.tags: apple time, peek, portrait, sample, toys, whiskers
-photo.223: https://www.instagram.com/p/Caiz6JQPBOq/media/?size=m
+photo.223: ig://Caiz6JQPBOq/m
 photo.223.author: makimaru18
+photo.223.commitdate: 2022/3/10
 photo.223.link: https://www.instagram.com/makimaru18/
 photo.223.tags: close-up, portrait, sample, tongue, whiskers
 species: 2
