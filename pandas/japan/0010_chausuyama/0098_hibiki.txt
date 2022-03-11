@@ -386,8 +386,9 @@ photo.77.author: jas_forever_love
 photo.77.commitdate: 2022/3/9
 photo.77.link: https://www.instagram.com/jas_forever_love/
 photo.77.tags: bamboo, mofumofu, portrait, sample, snow, whiskers
-photo.78: https://www.instagram.com/p/CardpQWL3S0/media/?size=m
+photo.78: ig://CardpQWL3S0/m
 photo.78.author: shigeko0531
+photo.78.commitdate: 2022/3/10
 photo.78.link: https://www.instagram.com/shigeko0531/
 photo.78.tags: mofumofu, sample, snow, techitechi, whiskers
 species: 2
