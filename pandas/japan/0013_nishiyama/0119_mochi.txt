@@ -486,15 +486,16 @@ photo.95.author: hamamatsu.chiita
 photo.95.commitdate: 2022/2/21
 photo.95.link: https://www.instagram.com/hamamatsu.chiita/
 photo.95.tags: mofumofu, portrait, sample, whiskers
-photo.96: ig://Cafo73GBJv7/m
-photo.96.author: hamamatsu.chiita
-photo.96.commitdate: 2022/3/10
-photo.96.link: https://www.instagram.com/hamamatsu.chiita/
-photo.96.tags: mofumofu, portrait, sample, whiskers
-photo.97: https://www.instagram.com/p/CaN7W5JBAgj/media/?size=m
-photo.97.author: miis_98
-photo.97.link: https://www.instagram.com/miis_98/
-photo.97.tags: paws, portrait, sample, whiskers
+photo.96: ig://CaN7W5JBAgj/m
+photo.96.author: miis_98
+photo.96.commitdate: 2022/3/11
+photo.96.link: https://www.instagram.com/miis_98/
+photo.96.tags: paws, portrait, sample, whiskers
+photo.97: ig://Cafo73GBJv7/m
+photo.97.author: hamamatsu.chiita
+photo.97.commitdate: 2022/3/10
+photo.97.link: https://www.instagram.com/hamamatsu.chiita/
+photo.97.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 15132
 zoo: 13

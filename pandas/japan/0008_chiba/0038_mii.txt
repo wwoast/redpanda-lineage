@@ -663,8 +663,9 @@ photo.130.author: ck.chie
 photo.130.commitdate: 2022/3/6
 photo.130.link: https://www.instagram.com/ck.chie/
 photo.130.tags: apple time, lips, paws, sample, smile, tail, whiskers
-photo.131: https://www.instagram.com/p/CaQXWxEPO1g/media/?size=m
+photo.131: ig://CaQXWxEPO1g/m
 photo.131.author: otenba_redpanda
+photo.131.commitdate: 2022/3/11
 photo.131.link: https://www.instagram.com/otenba_redpanda/
 photo.131.tags: bamboo, paws, sample, standing
 species: 2

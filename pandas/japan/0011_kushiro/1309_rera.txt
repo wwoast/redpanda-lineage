@@ -73,8 +73,9 @@ photo.12.author: tama67photo
 photo.12.commitdate: 2022/2/10
 photo.12.link: https://www.instagram.com/tama67photo/
 photo.12.tags: baby, bamboo, close-up, nose, portrait, profile, sample, snow
-photo.13: https://www.instagram.com/p/CaMfyK9P6mY/media/?size=m
+photo.13: ig://CaMfyK9P6mY/m
 photo.13.author: tama67photo
+photo.13.commitdate: 2022/3/11
 photo.13.link: https://www.instagram.com/tama67photo/
 photo.13.tags: baby, peek
 species: 2

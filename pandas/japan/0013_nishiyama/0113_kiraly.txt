@@ -1,4 +1,3 @@
-https://www.instagram.com/p/CaNoQDWhNff/media/?size=m
 [panda]
 _id: 113
 birthday: 2011/6/27
@@ -153,8 +152,9 @@ photo.28.author: tomo3700
 photo.28.commitdate: 2022/3/6
 photo.28.link: https://www.instagram.com/tomo3700/
 photo.28.tags: apple time, close-up, dish, mofumofu, peek, paws, portrait, sample, whiskers
-photo.29: https://www.instagram.com/p/CaNoQDWhNff/media/?size=m
+photo.29: ig://CaNoQDWhNff/m
 photo.29.author: hamamatsu.chiita
+photo.29.commitdate: 2022/3/11
 photo.29.link: https://www.instagram.com/hamamatsu.chiita/
 photo.29.tags: mofumofu, portrait, whiskers
 species: 2

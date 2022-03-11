@@ -658,8 +658,9 @@ photo.129.author: mini_cochi
 photo.129.commitdate: 2022/2/12
 photo.129.link: https://www.instagram.com/mini_cochi/
 photo.129.tags: apple time, paws, portrait, sample, whiskers
-photo.130: https://www.instagram.com/p/CaPmf3hhdI3/media/?size=m
+photo.130: ig://CaPmf3hhdI3/m
 photo.130.author: minatomirai215
+photo.130.commitdate: 2022/3/11
 photo.130.link: https://www.instagram.com/minatomirai215/
 photo.130.tags: bridge, paws, peek, portrait, smile, tail
 species: 2

@@ -365,8 +365,9 @@ photo.70.author: itsuak
 photo.70.commitdate: 2022/3/9
 photo.70.link: https://www.instagram.com/itsuak/
 photo.70.tags: bamboo, mofumofu, portrait, smile
-photo.71: https://www.instagram.com/p/CaZ5BZTvFcw/media/?size=m
+photo.71: ig://CaZ5BZTvFcw/m
 photo.71.author: itsuak
+photo.71.commitdate: 2022/3/11
 photo.71.link: https://www.instagram.com/itsuak/
 photo.71.tags: mofumofu, paws, peek, portrait, toys
 species: 2

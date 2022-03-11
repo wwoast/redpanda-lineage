@@ -309,55 +309,56 @@ photo.59.author: colette.jp
 photo.59.commitdate: 2021/9/1
 photo.59.link: https://www.instagram.com/colette.jp/
 photo.59.tags: keeper, paws, portrait, standing, tail
-photo.60: ig://CV7ejkHBKHR/m
+photo.60: ig://CT1qvlfBBb3/m
 photo.60.author: colette.jp
-photo.60.commitdate: 2021/11/10
+photo.60.commitdate: 2022/3/11
 photo.60.link: https://www.instagram.com/colette.jp/
-photo.60.tags: paws, portrait, smile
-photo.61: ig://CWapnNSFS8D/m
-photo.61.author: love__mitarashi
-photo.61.commitdate: 2021/12/28
-photo.61.link: https://www.instagram.com/love__mitarashi/
-photo.61.tags: paws, tail
-photo.62: ig://CWiGajLhvme/m
-photo.62.author: colette.jp
-photo.62.commitdate: 2021/11/27
-photo.62.link: https://www.instagram.com/colette.jp/
-photo.62.tags: mofumofu, paws, peek, portrait
-photo.63: ig://CXdfaCuBFVg/m
+photo.60.tags: paws, portrait, sample, smile
+photo.61: ig://CV7ejkHBKHR/m
+photo.61.author: colette.jp
+photo.61.commitdate: 2021/11/10
+photo.61.link: https://www.instagram.com/colette.jp/
+photo.61.tags: paws, portrait, smile
+photo.62: ig://CWapnNSFS8D/m
+photo.62.author: love__mitarashi
+photo.62.commitdate: 2021/12/28
+photo.62.link: https://www.instagram.com/love__mitarashi/
+photo.62.tags: paws, tail
+photo.63: ig://CWiGajLhvme/m
 photo.63.author: colette.jp
-photo.63.commitdate: 2021/12/30
+photo.63.commitdate: 2021/11/27
 photo.63.link: https://www.instagram.com/colette.jp/
-photo.63.tags: keeper, paws, portrait, standing
-photo.64: ig://CYLuaPyL4NQ/m
-photo.64.author: gloryeui
-photo.64.commitdate: 2022/1/14
-photo.64.link: https://www.instagram.com/gloryeui/
-photo.64.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.65: ig://CYRM2uYr4di/m
+photo.63.tags: mofumofu, paws, peek, portrait
+photo.64: ig://CXdfaCuBFVg/m
+photo.64.author: colette.jp
+photo.64.commitdate: 2021/12/30
+photo.64.link: https://www.instagram.com/colette.jp/
+photo.64.tags: keeper, paws, portrait, standing
+photo.65: ig://CYLuaPyL4NQ/m
 photo.65.author: gloryeui
 photo.65.commitdate: 2022/1/14
 photo.65.link: https://www.instagram.com/gloryeui/
-photo.65.tags: home, laying down, portrait, sample
-photo.66: ig://CYTQKZfv6rj/m
-photo.66.author: grskus_tk
+photo.65.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.66: ig://CYRM2uYr4di/m
+photo.66.author: gloryeui
 photo.66.commitdate: 2022/1/14
-photo.66.link: https://www.instagram.com/grskus_tk/
-photo.66.tags: nose
-photo.67: ig://gloryeui/CYTqqvZLdgn/m
-photo.67.author: gloryeui
+photo.66.link: https://www.instagram.com/gloryeui/
+photo.66.tags: home, laying down, portrait, sample
+photo.67: ig://CYTQKZfv6rj/m
+photo.67.author: grskus_tk
 photo.67.commitdate: 2022/1/14
-photo.67.link: https://www.instagram.com/gloryeui/
-photo.67.tags: bridge, portrait, sample, tail
-photo.68: ig://CYh8TLmpAKL/m
+photo.67.link: https://www.instagram.com/grskus_tk/
+photo.67.tags: nose
+photo.68: ig://gloryeui/CYTqqvZLdgn/m
 photo.68.author: gloryeui
-photo.68.commitdate: 2022/1/23
+photo.68.commitdate: 2022/1/14
 photo.68.link: https://www.instagram.com/gloryeui/
-photo.68.tags: peek, portrait, sample, whiskers
-photo.69: https://www.instagram.com/p/CT1qvlfBBb3/media/?size=m
-photo.69.author: colette.jp
-photo.69.link: https://www.instagram.com/colette.jp/
-photo.69.tags: paws, portrait, sample, smile
+photo.68.tags: bridge, portrait, sample, tail
+photo.69: ig://CYh8TLmpAKL/m
+photo.69.author: gloryeui
+photo.69.commitdate: 2022/1/23
+photo.69.link: https://www.instagram.com/gloryeui/
+photo.69.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 14151
 zoo: 14
