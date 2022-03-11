@@ -13,10 +13,13 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 992, 993
+location.1: 118, 2018/6/12
+location.2: 123, 2020/6/1
 photo.1: ig://Bw0RCcVg_u7/m
 photo.1.author: greenvillezoo
 photo.1.commitdate: 2020/1/25
 photo.1.link: https://www.instagram.com/greenvillezoo/
 photo.1.tags: hammock, peek, white face
 species: 1
-zoo: 118
+uncertainty: location.2 exact date (6/16/2020 is the published news)
+zoo: 123

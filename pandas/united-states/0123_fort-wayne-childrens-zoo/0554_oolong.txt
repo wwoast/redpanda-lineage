@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
+location.1: 105, 2018/6/29
+location.2: 123, 2020/6/1
 photo.1: ig://BoMbEeGhcIL/m
 photo.1.author: binderparkzoo
 photo.1.commitdate: 2019/3/9
@@ -30,4 +32,5 @@ photo.3.link: https://www.instagram.com/binderparkzoo/
 photo.3.tags: paws, smile
 species: 1
 studbook.id: unknown
-zoo: 105
+uncertainty: location.2 exact date (6/16/2020 is the published news)
+zoo: 123
