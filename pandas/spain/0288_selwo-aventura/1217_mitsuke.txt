@@ -16,6 +16,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
 litter: 1218
+location.1: 219, 2020/7/10
+location.2: 288, 2021/12/1
 photo.1: ig://CF1vLXeg7YF/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
@@ -47,4 +49,5 @@ photo.6.commitdate: 2022/2/28
 photo.6.link: https://www.instagram.com/nathalie.elliott/
 photo.6.tags: paws, portrait, tongue, wet, whiskers
 species: 1
-zoo: 219
+uncertainty: location.2 exact date
+zoo: 288
