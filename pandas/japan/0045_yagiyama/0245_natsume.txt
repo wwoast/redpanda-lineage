@@ -513,30 +513,31 @@ photo.100.author: pink.b22
 photo.100.commitdate: 2021/11/20
 photo.100.link: https://www.instagram.com/pink.b22/
 photo.100.tags: portrait, smile, tongue, whiskers
-photo.101: ig://CVRF5HPhLFc/m
-photo.101.author: alto0908
-photo.101.commitdate: 2021/11/3
-photo.101.link: https://www.instagram.com/alto0908/
-photo.101.tags: close-up, home, laying down, portrait, whiskers
-photo.102: ig://CWRjzaQhCwB/m
-photo.102.author: redpan22
-photo.102.commitdate: 2021/11/21
-photo.102.link: https://www.instagram.com/redpan22/
-photo.102.tags: autumn, whiskers
-photo.103: ig://CXVBRmbhQ1m/m
-photo.103.author: hidehaya_biei
-photo.103.commitdate: 2021/12/26
-photo.103.link: https://www.instagram.com/hidehaya_biei/
-photo.103.tags: bridge, paws, whiskers
-photo.104: ig://CYzd5OEhkHH/m
-photo.104.author: run.swim.shingo
-photo.104.commitdate: 2022/1/23
-photo.104.link: https://www.instagram.com/run.swim.shingo/
-photo.104.tags: paws, sample, smile, snow, tongue, whiskers
-photo.105: https://www.instagram.com/p/CUyLNCOBmi3/media/?size=m
-photo.105.author: pink.b22
-photo.105.link: https://www.instagram.com/pink.b22/
-photo.105.tags: bamboo, bridge, home, laying down, portrait, sample, techitechi
+photo.101: ig://CUyLNCOBmi3/m
+photo.101.author: pink.b22
+photo.101.commitdate: 2022/3/11
+photo.101.link: https://www.instagram.com/pink.b22/
+photo.101.tags: bamboo, bridge, home, laying down, portrait, sample, techitechi
+photo.102: ig://CVRF5HPhLFc/m
+photo.102.author: alto0908
+photo.102.commitdate: 2021/11/3
+photo.102.link: https://www.instagram.com/alto0908/
+photo.102.tags: close-up, home, laying down, portrait, whiskers
+photo.103: ig://CWRjzaQhCwB/m
+photo.103.author: redpan22
+photo.103.commitdate: 2021/11/21
+photo.103.link: https://www.instagram.com/redpan22/
+photo.103.tags: autumn, whiskers
+photo.104: ig://CXVBRmbhQ1m/m
+photo.104.author: hidehaya_biei
+photo.104.commitdate: 2021/12/26
+photo.104.link: https://www.instagram.com/hidehaya_biei/
+photo.104.tags: bridge, paws, whiskers
+photo.105: ig://CYzd5OEhkHH/m
+photo.105.author: run.swim.shingo
+photo.105.commitdate: 2022/1/23
+photo.105.link: https://www.instagram.com/run.swim.shingo/
+photo.105.tags: paws, sample, smile, snow, tongue, whiskers
 species: 2
 studbook.id: unknown
 zoo: 45

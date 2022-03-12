@@ -138,19 +138,20 @@ photo.25.author: lipscer
 photo.25.commitdate: 2021/10/31
 photo.25.link: https://www.instagram.com/lipscer/
 photo.25.tags: peek, portrait
-photo.26: ig://CX2fNjwre6_/m
-photo.26.author: wumpwoast
-photo.26.commitdate: 2022/1/4
-photo.26.link: https://www.instagram.com/wumpwoast/
-photo.26.tags: laying down, mofumofu, paws, portrait, smile, whiskers
-photo.27: ig://CYRCwP-Mxkj/m
-photo.27.author: rossifari
+photo.26: ig://CVEJQAMgHca/m
+photo.26.author: lipscer
+photo.26.commitdate: 2022/3/11
+photo.26.link: https://www.instagram.com/lipscer/
+photo.26.tags: nose, paws, peek
+photo.27: ig://CX2fNjwre6_/m
+photo.27.author: wumpwoast
 photo.27.commitdate: 2022/1/4
-photo.27.link: https://www.instagram.com/rossifari/
-photo.27.tags: climb, paws, portrait, whiskers
-photo.28: https://www.instagram.com/p/CVEJQAMgHca/media/?size=m
-photo.28.author: lipscer
-photo.28.link: https://www.instagram.com/lipscer/
-photo.28.tags: nose, paws, peek
+photo.27.link: https://www.instagram.com/wumpwoast/
+photo.27.tags: laying down, mofumofu, paws, portrait, smile, whiskers
+photo.28: ig://CYRCwP-Mxkj/m
+photo.28.author: rossifari
+photo.28.commitdate: 2022/1/4
+photo.28.link: https://www.instagram.com/rossifari/
+photo.28.tags: climb, paws, portrait, whiskers
 species: 2
 zoo: 43

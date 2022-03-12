@@ -358,32 +358,36 @@ photo.69.author: bee_san.13
 photo.69.commitdate: 2021/10/6
 photo.69.link: https://www.instagram.com/bee_san.13/
 photo.69.tags: night, portrait, smile, tongue
-photo.70: ig://CVNZzYmF5vW/m
+photo.70: ig://CU-BcNYFEr0/m
 photo.70.author: bee_san.13
-photo.70.commitdate: 2021/11/14
+photo.70.commitdate: 2022/3/11
 photo.70.link: https://www.instagram.com/bee_san.13/
-photo.70.tags: portrait, smile, tongue, whiskers
-photo.71: ig://CWnb7t5hrJ5/m
-photo.71.author: makimaru18
-photo.71.commitdate: 2022/2/1
-photo.71.link: https://www.instagram.com/makimaru18/
-photo.71.tags: climb, portrait, smile, tail, upside-down
-photo.72: https://www.instagram.com/p/CU-BcNYFEr0/media/?size=m
+photo.70.tags: laying down, portrait, sample, whiskers
+photo.71: ig://CVAgGohlMF3/m
+photo.71.author: bee_san.13
+photo.71.commitdate: 2022/3/11
+photo.71.link: https://www.instagram.com/bee_san.13/
+photo.71.tags: close-up, paws, portrait, sample, whiskers
+photo.72: ig://CVNZzYmF5vW/m
 photo.72.author: bee_san.13
+photo.72.commitdate: 2021/11/14
 photo.72.link: https://www.instagram.com/bee_san.13/
-photo.72.tags: laying down, portrait, sample, whiskers
-photo.73: https://www.instagram.com/p/CWEl6HXPYRQ/media/?size=m
+photo.72.tags: portrait, smile, tongue, whiskers
+photo.73: ig://CVq9OWxP3zU/m
 photo.73.author: bee_san.13
+photo.73.commitdate: 2022/3/11
 photo.73.link: https://www.instagram.com/bee_san.13/
-photo.73.tags: laying down, portrait, sample, sleeping, whiskers
-photo.74: https://www.instagram.com/p/CVq9OWxP3zU/media/?size=m
+photo.73.tags: laying down, portrait, smile, tail, upside-down
+photo.74: ig://CWEl6HXPYRQ/m
 photo.74.author: bee_san.13
+photo.74.commitdate: 2022/3/11
 photo.74.link: https://www.instagram.com/bee_san.13/
-photo.74.tags: laying down, portrait, smile, tail, upside-down
-photo.75: https://www.instagram.com/p/CVAgGohlMF3/media/?size=m
-photo.75.author: bee_san.13
-photo.75.link: https://www.instagram.com/bee_san.13/
-photo.75.tags: close-up, paws, portrait, sample, whiskers
+photo.74.tags: laying down, portrait, sample, sleeping, whiskers
+photo.75: ig://CWnb7t5hrJ5/m
+photo.75.author: makimaru18
+photo.75.commitdate: 2022/2/1
+photo.75.link: https://www.instagram.com/makimaru18/
+photo.75.tags: climb, portrait, smile, tail, upside-down
 species: 2
 studbook.id: 15162
 zoo: 31
