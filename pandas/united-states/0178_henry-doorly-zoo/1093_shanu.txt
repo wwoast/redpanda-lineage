@@ -12,6 +12,8 @@ jp.name: シャヌ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 126, 2019/7/17
+location.2: 178, 2021/9/1
 litter: 1094
 photo.1: ig://B5qyuHtpMEZ/m
 photo.1.author: leerichardsonzoo
@@ -19,4 +21,5 @@ photo.1.commitdate: 2020/1/20
 photo.1.link: https://www.instagram.com/leerichardsonzoo/
 photo.1.tags: baby, bamboo, portrait
 species: 1
-zoo: 126
+uncertainty: location.2 arrival (9/20 was news release)
+zoo: 178
