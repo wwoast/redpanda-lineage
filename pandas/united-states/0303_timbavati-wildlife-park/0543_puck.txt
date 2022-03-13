@@ -81,6 +81,10 @@ photo.13.author: wumpwoast
 photo.13.commitdate: 2021/11/21
 photo.13.link: https://www.instagram.com/wumpwoast/
 photo.13.tags: close-up, portrait, whiskers
+photo.14: https://www.instagram.com/p/CVYO8YzpTXD/media/?size=m
+photo.14.author: wumpwoast
+photo.14.link: https://www.instagram.com/wumpwoast/
+photo.14.tags: bamboo, paws, portrait, sample
 species: 1
 studbook.id: 1721
 uncertainty: location.2 move date mm/yy, location.3 exact move date
