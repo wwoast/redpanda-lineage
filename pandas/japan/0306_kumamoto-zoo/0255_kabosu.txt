@@ -14,6 +14,8 @@ jp.nicknames: none
 jp.oldnames: こみかん
 jp.othernames: かぼす
 language.order: jp, en
+location.1: 19, 2019/3/18
+location.2: 306, 2022/3/13
 litter: none
 photo.1: ig://BogDVgwlBm0/m
 photo.1.author: yossi929
@@ -182,4 +184,4 @@ photo.33.link: https://www.instagram.com/grskus_tk/
 photo.33.tags: bamboo, peek
 species: 2
 studbook.id: unknown
-zoo: 19
+zoo: 306
