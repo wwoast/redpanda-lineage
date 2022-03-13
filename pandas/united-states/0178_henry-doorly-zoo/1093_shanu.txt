@@ -12,16 +12,17 @@ jp.name: シャヌ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+litter: 1094
 location.1: 126, 2019/7/17
 location.2: 178, 2021/9/1
-litter: 1094
 photo.1: ig://B5qyuHtpMEZ/m
 photo.1.author: leerichardsonzoo
 photo.1.commitdate: 2020/1/20
 photo.1.link: https://www.instagram.com/leerichardsonzoo/
 photo.1.tags: baby, bamboo, portrait
-photo.2: https://www.instagram.com/p/CVTacUQhtLZ/media/?size=m
+photo.2: ig://CVTacUQhtLZ/m
 photo.2.author: theomahazoo
+photo.2.commitdate: 2022/3/13
 photo.2.link: https://www.instagram.com/redpandanetwork/
 photo.2.tags: close-up, portrait, smile, tongue, whiskers
 species: 1

@@ -245,14 +245,15 @@ photo.46.author: lipscer
 photo.46.commitdate: 2021/11/12
 photo.46.link: https://www.instagram.com/lipscer/
 photo.46.tags: door, laying down, mofumofu, smile, whiskers
-photo.47: ig://CY4TDYqp2wp/m
-photo.47.author: carsontheredpanda
-photo.47.commitdate: 2022/2/9
-photo.47.link: https://www.instagram.com/carsontheredpanda/
-photo.47.tags: home, laying down, portrait, whiskers
-photo.48: https://www.instagram.com/p/CWR5rz8JtB3/media/?size=m
-photo.48.author: wumpwoast
-photo.48.link: https://www.instagram.com/wumpwoast/
-photo.48.tags: close-up, portrait, whiskers
+photo.47: ig://CWR5rz8JtB3/m
+photo.47.author: wumpwoast
+photo.47.commitdate: 2022/3/13
+photo.47.link: https://www.instagram.com/wumpwoast/
+photo.47.tags: close-up, portrait, whiskers
+photo.48: ig://CY4TDYqp2wp/m
+photo.48.author: carsontheredpanda
+photo.48.commitdate: 2022/2/9
+photo.48.link: https://www.instagram.com/carsontheredpanda/
+photo.48.tags: home, laying down, portrait, whiskers
 species: 2
 zoo: 43

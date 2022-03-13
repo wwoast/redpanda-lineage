@@ -46,35 +46,36 @@ photo.6.author: wumpwoast
 photo.6.commitdate: 2021/3/21
 photo.6.link: https://www.instagram.com/wumpwoast/
 photo.6.tags: portrait
-photo.7: ig://CMQq_EphwTT/m
+photo.7: ig://CLxKaw4hkuq/m
 photo.7.author: wumpwoast
-photo.7.commitdate: 2021/6/30
+photo.7.commitdate: 2022/3/13
 photo.7.link: https://www.instagram.com/wumpwoast/
-photo.7.tags: bamboo, bite, portrait, tail
-photo.8: ig://CQtLimOljVN/m
-photo.8.author: charlespaddockzoo
-photo.8.commitdate: 2021/7/1
-photo.8.link: https://www.instagram.com/charlespaddockzoo/
-photo.8.tags: bamboo, laying down, paws, portrait, tail
-photo.9: ig://CR1sm34BCwf/m
-photo.9.author: wumpwoast
-photo.9.commitdate: 2021/8/7
-photo.9.link: https://www.instagram.com/wumpwoast/
-photo.9.tags: close-up, portrait, whiskers
-photo.10: ig://CVu7pJ6FrGE/m
-photo.10.author: timbavatiwildlifepark
-photo.10.commitdate: 2022/1/6
-photo.10.link: https://www.instagram.com/timbavatiwildlifepark/
-photo.10.tags: peek, whiskers
-photo.11: ig://CWtif8fBWVi/m
-photo.11.author: wumpwoast
-photo.11.commitdate: 2022/1/7
-photo.11.link: https://www.instagram.com/wumpwoast/
-photo.11.tags: bamboo, portrait, sample, tail
-photo.12: https://www.instagram.com/p/CLxKaw4hkuq/media/?size=m
+photo.7.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.8: ig://CMQq_EphwTT/m
+photo.8.author: wumpwoast
+photo.8.commitdate: 2021/6/30
+photo.8.link: https://www.instagram.com/wumpwoast/
+photo.8.tags: bamboo, bite, portrait, tail
+photo.9: ig://CQtLimOljVN/m
+photo.9.author: charlespaddockzoo
+photo.9.commitdate: 2021/7/1
+photo.9.link: https://www.instagram.com/charlespaddockzoo/
+photo.9.tags: bamboo, laying down, paws, portrait, tail
+photo.10: ig://CR1sm34BCwf/m
+photo.10.author: wumpwoast
+photo.10.commitdate: 2021/8/7
+photo.10.link: https://www.instagram.com/wumpwoast/
+photo.10.tags: close-up, portrait, whiskers
+photo.11: ig://CVu7pJ6FrGE/m
+photo.11.author: timbavatiwildlifepark
+photo.11.commitdate: 2022/1/6
+photo.11.link: https://www.instagram.com/timbavatiwildlifepark/
+photo.11.tags: peek, whiskers
+photo.12: ig://CWtif8fBWVi/m
 photo.12.author: wumpwoast
+photo.12.commitdate: 2022/1/7
 photo.12.link: https://www.instagram.com/wumpwoast/
-photo.12.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.12.tags: bamboo, portrait, sample, tail
 species: 1
 studbook.id: 1727
 uncertainty: location.2 move date mm/yy, location.3 exact move date

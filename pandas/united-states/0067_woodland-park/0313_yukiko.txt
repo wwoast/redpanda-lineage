@@ -58,8 +58,9 @@ photo.8.author: woodlandparkzoo
 photo.8.commitdate: 2021/10/27
 photo.8.link: https://www.instagram.com/woodlandparkzoo/
 photo.8.tags: close-up, portrait, tongue, whiskers
-photo.9: https://www.instagram.com/p/CVmg9ibri2K/media/?size=m
+photo.9: ig://CVmg9ibri2K/m
 photo.9.author: wumpwoast
+photo.9.commitdate: 2022/3/13
 photo.9.link: https://www.instagram.com/wumpwoast/
 photo.9.tags: portrait, whiskers
 species: 2

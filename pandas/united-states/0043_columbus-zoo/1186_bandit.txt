@@ -128,34 +128,35 @@ photo.23.author: lipscer
 photo.23.commitdate: 2021/10/9
 photo.23.link: https://www.instagram.com/lipscer/
 photo.23.tags: portrait, whiskers
-photo.24: ig://CUaRKCPllq2/m
+photo.24: ig://CUQQYp-Ptrd/m
 photo.24.author: wumpwoast
-photo.24.commitdate: 2021/10/31
+photo.24.commitdate: 2022/3/13
 photo.24.link: https://www.instagram.com/wumpwoast/
-photo.24.tags: peek, portrait, smile, whiskers
-photo.25: ig://CUc0vbcAKlr/m
-photo.25.author: lipscer
+photo.24.tags: laying down, portrait, smile, whiskers
+photo.25: ig://CUaRKCPllq2/m
+photo.25.author: wumpwoast
 photo.25.commitdate: 2021/10/31
-photo.25.link: https://www.instagram.com/lipscer/
-photo.25.tags: peek, portrait
-photo.26: ig://CVEJQAMgHca/m
+photo.25.link: https://www.instagram.com/wumpwoast/
+photo.25.tags: peek, portrait, smile, whiskers
+photo.26: ig://CUc0vbcAKlr/m
 photo.26.author: lipscer
-photo.26.commitdate: 2022/3/11
+photo.26.commitdate: 2021/10/31
 photo.26.link: https://www.instagram.com/lipscer/
-photo.26.tags: nose, paws, peek
-photo.27: ig://CX2fNjwre6_/m
-photo.27.author: wumpwoast
-photo.27.commitdate: 2022/1/4
-photo.27.link: https://www.instagram.com/wumpwoast/
-photo.27.tags: laying down, mofumofu, paws, portrait, smile, whiskers
-photo.28: ig://CYRCwP-Mxkj/m
-photo.28.author: rossifari
+photo.26.tags: peek, portrait
+photo.27: ig://CVEJQAMgHca/m
+photo.27.author: lipscer
+photo.27.commitdate: 2022/3/11
+photo.27.link: https://www.instagram.com/lipscer/
+photo.27.tags: nose, paws, peek
+photo.28: ig://CX2fNjwre6_/m
+photo.28.author: wumpwoast
 photo.28.commitdate: 2022/1/4
-photo.28.link: https://www.instagram.com/rossifari/
-photo.28.tags: climb, paws, portrait, whiskers
-photo.29: https://www.instagram.com/p/CUQQYp-Ptrd/media/?size=m
-photo.29.author: wumpwoast
-photo.29.link: https://www.instagram.com/wumpwoast/
-photo.29.tags: laying down, portrait, smile, whiskers
+photo.28.link: https://www.instagram.com/wumpwoast/
+photo.28.tags: laying down, mofumofu, paws, portrait, smile, whiskers
+photo.29: ig://CYRCwP-Mxkj/m
+photo.29.author: rossifari
+photo.29.commitdate: 2022/1/4
+photo.29.link: https://www.instagram.com/rossifari/
+photo.29.tags: climb, paws, portrait, whiskers
 species: 2
 zoo: 43
