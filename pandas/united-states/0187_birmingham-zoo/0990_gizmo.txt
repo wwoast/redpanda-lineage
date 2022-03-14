@@ -95,8 +95,9 @@ photo.16.author: redpandanetwork
 photo.16.commitdate: 2021/6/28
 photo.16.link: https://www.instagram.com/redpandanetwork/
 photo.16.tags: whiskers, white face
-photo.17: https://www.instagram.com/p/CZz1ExGtPgu/media/?size=m
+photo.17: ig://CZz1ExGtPgu/m
 photo.17.author: bhamzoo
+photo.17.commitdate: 2022/3/13
 photo.17.link: https://www.instagram.com/bhamzoo/
 photo.17.tags: mofumofu, whiskers
 species: 1

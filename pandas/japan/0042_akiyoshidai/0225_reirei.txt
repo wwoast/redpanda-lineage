@@ -169,8 +169,9 @@ photo.31.author: kojikoji2011
 photo.31.commitdate: 2022/2/14
 photo.31.link: https://www.instagram.com/kojikoji2011/
 photo.31.tags: close-up, portrait, sample, whiskers
-photo.32: https://www.instagram.com/p/CaTESdCB4A0/media/?size=m
+photo.32: ig://CaTESdCB4A0/m
 photo.32.author: sasapan34
+photo.32.commitdate: 2022/3/13
 photo.32.link: https://www.instagram.com/sasapan34/
 photo.32.tags: smile, whiskers
 species: 2

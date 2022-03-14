@@ -363,14 +363,15 @@ photo.70.author: otenba_redpanda
 photo.70.commitdate: 2022/2/20
 photo.70.link: https://www.instagram.com/otenba_redpanda/
 photo.70.tags: bridge, laying down, portrait, sample, tail
-photo.71: ig://Casl2vxpCKc/m
+photo.71: ig://CZ0jafVMZ7T/m
 photo.71.author: otenba_redpanda
-photo.71.commitdate: 2022/3/10
+photo.71.commitdate: 2022/3/13
 photo.71.link: https://www.instagram.com/otenba_redpanda/
-photo.71.tags: paws, portrait, standing, whiskers
-photo.72: https://www.instagram.com/p/CZ0jafVMZ7T/media/?size=m
+photo.71.tags: paws, portrait, sample, standing, whiskers
+photo.72: ig://Casl2vxpCKc/m
 photo.72.author: otenba_redpanda
+photo.72.commitdate: 2022/3/10
 photo.72.link: https://www.instagram.com/otenba_redpanda/
-photo.72.tags: paws, portrait, sample, standing, whiskers
+photo.72.tags: paws, portrait, standing, whiskers
 species: 2
 zoo: 17

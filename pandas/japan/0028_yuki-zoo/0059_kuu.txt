@@ -445,15 +445,16 @@ photo.86.author: pink.b22
 photo.86.commitdate: 2021/3/21
 photo.86.link: https://www.instagram.com/pink.b22/
 photo.86.tags: laying down, paws, portrait, sleeping, tail
-photo.87: ig://CaMvv1WBRxn/m
-photo.87.author: minatomirai215
-photo.87.commitdate: 2022/3/5
-photo.87.link: https://www.instagram.com/minatomirai215/
-photo.87.tags: bamboo, peek, portrait, whiskers
-photo.88: https://www.instagram.com/p/CaKSgEVvM3e/media/?size=m
-photo.88.author: eos1089
-photo.88.link: https://www.instagram.com/eos1089/
-photo.88.tags: paws, portrait, smile, whiskers
+photo.87: ig://CaKSgEVvM3e/m
+photo.87.author: eos1089
+photo.87.commitdate: 2022/3/13
+photo.87.link: https://www.instagram.com/eos1089/
+photo.87.tags: paws, portrait, smile, whiskers
+photo.88: ig://CaMvv1WBRxn/m
+photo.88.author: minatomirai215
+photo.88.commitdate: 2022/3/5
+photo.88.link: https://www.instagram.com/minatomirai215/
+photo.88.tags: bamboo, peek, portrait, whiskers
 species: 2
 studbook.id: 0865
 zoo: 28

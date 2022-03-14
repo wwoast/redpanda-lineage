@@ -588,8 +588,9 @@ photo.115.author: hamamatsu.chiita
 photo.115.commitdate: 2022/2/12
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
 photo.115.tags: mofumofu, portrait, sample, whiskers
-photo.116: https://www.instagram.com/p/CZwMW7VPaZ6/media/?size=m
+photo.116: ig://CZwMW7VPaZ6/m
 photo.116.author: otenba_redpanda
+photo.116.commitdate: 2022/3/13
 photo.116.link: https://www.instagram.com/otenba_redpanda/
 photo.116.tags: mofumofu, portrait, whiskers
 species: 2

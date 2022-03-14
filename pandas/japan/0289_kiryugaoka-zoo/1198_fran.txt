@@ -505,44 +505,45 @@ photo.98.author: otenba_redpanda
 photo.98.commitdate: 2022/2/20
 photo.98.link: https://www.instagram.com/otenba_redpanda/
 photo.98.tags: close-up, portrait, sample, whiskers
-photo.99: ig://CZ1ogoavOQf/m
-photo.99.author: ssc6105
-photo.99.commitdate: 2022/3/9
-photo.99.link: https://www.instagram.com/ssc6105/
-photo.99.tags: laying dow, peek, sample, tail, whiskers
-photo.100: ig://CaA8CHvBr-l/m
+photo.99: ig://CZzPZOQF5J3/m
+photo.99.author: mini_cochi
+photo.99.commitdate: 2022/3/13
+photo.99.link: https://www.instagram.com/mini_cochi/
+photo.99.tags: marking, portrait, smile, whiskers
+photo.100: ig://CZ1ogoavOQf/m
 photo.100.author: ssc6105
-photo.100.commitdate: 2022/3/5
+photo.100.commitdate: 2022/3/9
 photo.100.link: https://www.instagram.com/ssc6105/
-photo.100.tags: bridge, climb, paws, peek, whiskers
-photo.101: ig://Caeu70RvlKY/m
-photo.101.author: kotata_513
-photo.101.commitdate: 2022/3/8
-photo.101.link: https://www.instagram.com/kotata_513/
-photo.101.tags: laying down, paws, tree, whiskers
-photo.102: ig://Cae6hMSFhKs/m
-photo.102.author: mini_cochi
-photo.102.commitdate: 2022/3/6
-photo.102.link: https://www.instagram.com/mini_cochi/
-photo.102.tags: bamboo, laying down, mofumofu, peek, portrait, sample, whiskers
-photo.103: ig://Caf1aH8hA5g/m
-photo.103.author: ssc6105
-photo.103.commitdate: 2022/3/8
-photo.103.link: https://www.instagram.com/ssc6105/
-photo.103.tags: mofumofu, paws, smile, upside-down
-photo.104: ig://CajkAAQPThh/m
-photo.104.author: otenba_redpanda
-photo.104.commitdate: 2022/3/10
-photo.104.link: https://www.instagram.com/otenba_redpanda/
-photo.104.tags: laying down, paws, playing, upside-down
-photo.105: ig://CaoDUcYL1oE/m
+photo.100.tags: laying dow, peek, sample, tail, whiskers
+photo.101: ig://CaA8CHvBr-l/m
+photo.101.author: ssc6105
+photo.101.commitdate: 2022/3/5
+photo.101.link: https://www.instagram.com/ssc6105/
+photo.101.tags: bridge, climb, paws, peek, whiskers
+photo.102: ig://Caeu70RvlKY/m
+photo.102.author: kotata_513
+photo.102.commitdate: 2022/3/8
+photo.102.link: https://www.instagram.com/kotata_513/
+photo.102.tags: laying down, paws, tree, whiskers
+photo.103: ig://Cae6hMSFhKs/m
+photo.103.author: mini_cochi
+photo.103.commitdate: 2022/3/6
+photo.103.link: https://www.instagram.com/mini_cochi/
+photo.103.tags: bamboo, laying down, mofumofu, peek, portrait, sample, whiskers
+photo.104: ig://Caf1aH8hA5g/m
+photo.104.author: ssc6105
+photo.104.commitdate: 2022/3/8
+photo.104.link: https://www.instagram.com/ssc6105/
+photo.104.tags: mofumofu, paws, smile, upside-down
+photo.105: ig://CajkAAQPThh/m
 photo.105.author: otenba_redpanda
 photo.105.commitdate: 2022/3/10
 photo.105.link: https://www.instagram.com/otenba_redpanda/
-photo.105.tags: laying down, mofumofu, paws, portrait, sample, whiskers
-photo.106: https://www.instagram.com/p/CZzPZOQF5J3/media/?size=m
-photo.106.author: mini_cochi
-photo.106.link: https://www.instagram.com/mini_cochi/
-photo.106.tags: marking, portrait, smile, whiskers
+photo.105.tags: laying down, paws, playing, upside-down
+photo.106: ig://CaoDUcYL1oE/m
+photo.106.author: otenba_redpanda
+photo.106.commitdate: 2022/3/10
+photo.106.link: https://www.instagram.com/otenba_redpanda/
+photo.106.tags: laying down, mofumofu, paws, portrait, sample, whiskers
 species: 2
 zoo: 289

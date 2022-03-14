@@ -313,14 +313,15 @@ photo.60.author: hamamatsu.chiita
 photo.60.commitdate: 2022/3/9
 photo.60.link: https://www.instagram.com/hamamatsu.chiita/
 photo.60.tags: peek, portrait, sample, tree, whiskers
-photo.61: ig://CagU6RfLo-f/m
+photo.61: ig://CaTc8Dergvq/m
 photo.61.author: lesserpanda_shizuokacity_cp
-photo.61.commitdate: 2022/3/11
+photo.61.commitdate: 2022/3/13
 photo.61.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.61.tags: paws, standing, tail
-photo.62: https://www.instagram.com/p/CaTc8Dergvq/media/?size=m
+photo.61.tags: close-up, portrait, whiskers
+photo.62: ig://CagU6RfLo-f/m
 photo.62.author: lesserpanda_shizuokacity_cp
+photo.62.commitdate: 2022/3/11
 photo.62.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.62.tags: close-up, portrait, whiskers
+photo.62.tags: paws, standing, tail
 species: 2
 zoo: 16

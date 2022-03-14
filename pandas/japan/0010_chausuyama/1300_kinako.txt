@@ -238,14 +238,15 @@ photo.45.author: otenba_redpanda
 photo.45.commitdate: 2022/3/9
 photo.45.link: https://www.instagram.com/otenba_redpanda/
 photo.45.tags: close-up, laying down, mofumofu, portrait, sample
-photo.46: ig://CaretvcvfMR/m
-photo.46.author: alto0908
-photo.46.commitdate: 2022/3/10
-photo.46.link: https://www.instagram.com/alto0908/
-photo.46.tags: close-up, mofumofu, portrait, sleeping
-photo.47: https://www.instagram.com/p/CaTD9eEBWoL/media/?size=m
-photo.47.author: otenba_redpanda
-photo.47.link: https://www.instagram.com/otenba_redpanda/
-photo.47.tags: bite, close-up, mofumofu, portrait, techitechi
+photo.46: ig://CaTD9eEBWoL/m
+photo.46.author: otenba_redpanda
+photo.46.commitdate: 2022/3/13
+photo.46.link: https://www.instagram.com/otenba_redpanda/
+photo.46.tags: bite, close-up, mofumofu, portrait, techitechi
+photo.47: ig://CaretvcvfMR/m
+photo.47.author: alto0908
+photo.47.commitdate: 2022/3/10
+photo.47.link: https://www.instagram.com/alto0908/
+photo.47.tags: close-up, mofumofu, portrait, sleeping
 species: 2
 zoo: 10

@@ -1002,25 +1002,26 @@ photo.200.author: tomo3700
 photo.200.commitdate: 2022/2/20
 photo.200.link: https://www.instagram.com/tomo3700/
 photo.200.tags: portrait, sample, smile, tail, tongue, whiskers
-photo.201: ig://Cag5encPnXT/m
-photo.201.author: imagoto17
-photo.201.commitdate: 2022/3/10
-photo.201.link: https://www.instagram.com/imagoto17/
-photo.201.tags: paws, standing, tongue, whiskers
-photo.202: ig://CajcBWSvGsL/m
-photo.202.author: falcon_tenor
+photo.201: ig://CaSAs6ivKKW/m
+photo.201.author: panda.daisuki
+photo.201.commitdate: 2022/3/13
+photo.201.link: https://www.instagram.com/panda.daisuki/
+photo.201.tags: apple time, paws, portrait, sample, whiskers
+photo.202: ig://Cag5encPnXT/m
+photo.202.author: imagoto17
 photo.202.commitdate: 2022/3/10
-photo.202.link: https://www.instagram.com/falcon_tenor/
-photo.202.tags: portrait, standing, tail
-photo.203: ig://CamtF1UP3jJ/m
-photo.203.author: panda.daisuki
+photo.202.link: https://www.instagram.com/imagoto17/
+photo.202.tags: paws, standing, tongue, whiskers
+photo.203: ig://CajcBWSvGsL/m
+photo.203.author: falcon_tenor
 photo.203.commitdate: 2022/3/10
-photo.203.link: https://www.instagram.com/panda.daisuki/
-photo.203.tags: portrait, sample, whiskers
-photo.204: https://www.instagram.com/p/CaSAs6ivKKW/media/?size=m
+photo.203.link: https://www.instagram.com/falcon_tenor/
+photo.203.tags: portrait, standing, tail
+photo.204: ig://CamtF1UP3jJ/m
 photo.204.author: panda.daisuki
+photo.204.commitdate: 2022/3/10
 photo.204.link: https://www.instagram.com/panda.daisuki/
-photo.204.tags: apple time, paws, portrait, sample, whiskers
+photo.204.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

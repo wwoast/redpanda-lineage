@@ -51,9 +51,10 @@ photo.7.link: https://www.instagram.com/makimaru18/
 photo.7.tags: couple, portrait, tree
 photo.7.tags.51.location: 140, 320
 photo.7.tags.52.location: 240, 100
-photo.8: https://www.instagram.com/p/CZyysfpvUWb/media/?size=l
+photo.8: ig://CZyysfpvUWb/l
 photo.8.author: tomo3700
+photo.8.commitdate: 2022/3/13
 photo.8.link: https://www.instagram.com/tomo3700/
 photo.8.tags: friends, peek, portrait, sample, whiskers
 photo.8.tags.51.location: 435, 190
-photo.8.tags.52.location: 305, 415 
+photo.8.tags.52.location: 305, 415
