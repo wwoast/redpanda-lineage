@@ -72,22 +72,17 @@ photo.12: ig://CQiz3qPLIQf/m
 photo.12.author: sequoiaparkzoo
 photo.12.commitdate: 2021/8/18
 photo.12.link: https://www.instagram.com/sequoiaparkzoo/
-photo.12.tags: close-up, whiskers, white face
-photo.13: ig://CTqHDMjAFf1/m
+photo.12.tags: close-up, sample, whiskers, white face
+photo.13: ig://CT19Jsal7Yj/m
 photo.13.author: sequoiaparkzoo
 photo.13.commitdate: 2021/12/22
 photo.13.link: https://www.instagram.com/sequoiaparkzoo/
-photo.13.tags: close-up, portrait, sample, whiskers
-photo.14: ig://CT19Jsal7Yj/m
+photo.13.tags: paws, portrait, sample, white face
+photo.14: ig://CT7GvA7skHZ/m
 photo.14.author: sequoiaparkzoo
 photo.14.commitdate: 2021/12/22
 photo.14.link: https://www.instagram.com/sequoiaparkzoo/
-photo.14.tags: paws, portrait, sample, white face
-photo.15: ig://CT7GvA7skHZ/m
-photo.15.author: sequoiaparkzoo
-photo.15.commitdate: 2021/12/22
-photo.15.link: https://www.instagram.com/sequoiaparkzoo/
-photo.15.tags: paws, sample, tail, white face
+photo.14.tags: paws, sample, tail, white face
 species: 1
 studbook.id: 1449
 zoo: 134
