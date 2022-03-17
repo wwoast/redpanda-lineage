@@ -296,8 +296,8 @@ Page.home.render = function() {
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
     // Current memorials
-    // var departed = Gallery.memorialPhotoCredits(L.display, ["97"], 3, Message.memorial);
-    // new_content.appendChild(departed);
+    var departed = Gallery.memorialPhotoCredits(L.display, ["122"], 3, Message.memorial);
+    new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
     // new_content.appendChild(memorial);
