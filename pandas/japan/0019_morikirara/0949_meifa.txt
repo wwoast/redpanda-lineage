@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: メイファ
 language.order: jp, en
 litter: 948
+location.1: 17, 2019/6/19
+location.2: 19, 2022/3/16
 photo.1: ig://B3WssgohtsE/m
 photo.1.author: kaoru_a358
 photo.1.commitdate: 2019/10/15
@@ -241,7 +243,7 @@ photo.45.tags: paws, peek, portrait
 photo.46: ig://B9bW80tBwIz/m
 photo.46.author: pink.b22
 photo.46.commitdate: 2020/3/10
-photo.46.link: https://www.instagram.com/pink.b22/
+photo.46.link: https://www.instagram.com/pink.b22/17
 photo.46.tags: bamboo, bite, paws, portrait
 photo.47: ig://B9bqcxVBK-F/m
 photo.47.author: osopanda551
@@ -828,4 +830,4 @@ photo.163.commitdate: 2022/3/13
 photo.163.link: https://www.instagram.com/ssc6105/
 photo.163.tags: bamboo, portrait, sample, smile, whiskers
 species: 2
-zoo: 17
+zoo: 19
