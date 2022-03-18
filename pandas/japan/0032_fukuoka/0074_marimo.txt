@@ -584,8 +584,9 @@ photo.115.author: grskus_tk
 photo.115.commitdate: 2022/2/20
 photo.115.link: https://www.instagram.com/grskus_tk/
 photo.115.tags: peek, tongue
-photo.116: https://www.instagram.com/p/CZX0dRzPejW/media/?size=m
+photo.116: ig://CZX0dRzPejW/m
 photo.116.author: yossi929
+photo.116.commitdate: 2022/3/17
 photo.116.link: https://www.instagram.com/yossi929/
 photo.116.tags: portrait, window
 species: 2

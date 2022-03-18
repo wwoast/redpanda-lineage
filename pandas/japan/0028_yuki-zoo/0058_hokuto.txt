@@ -944,15 +944,16 @@ photo.186.author: cattail.sapporo
 photo.186.commitdate: 2022/2/21
 photo.186.link: https://www.instagram.com/cattail.sapporo/
 photo.186.tags: paws, portrait, sample, smile, snow, tail
-photo.187: ig://CaTqNG8Lx0h/m
-photo.187.author: wumpwoast
-photo.187.commitdate: 2022/3/13
-photo.187.link: https://www.instagram.com/wumpwoast/
-photo.187.tags: autumn, portrait, sample, tail
-photo.188: https://www.instagram.com/p/CZWa8ZBr1AR/media/?size=m
-photo.188.author: cattail.sapporo
-photo.188.link: https://www.instagram.com/cattail.sapporo/
-photo.188.tags: bridge, mofumofu, peek, portrait, sample, smile, whiskers
+photo.187: ig://CZWa8ZBr1AR/m
+photo.187.author: cattail.sapporo
+photo.187.commitdate: 2022/3/17
+photo.187.link: https://www.instagram.com/cattail.sapporo/
+photo.187.tags: bridge, mofumofu, peek, portrait, sample, smile, whiskers
+photo.188: ig://CaTqNG8Lx0h/m
+photo.188.author: wumpwoast
+photo.188.commitdate: 2022/3/13
+photo.188.link: https://www.instagram.com/wumpwoast/
+photo.188.tags: autumn, portrait, sample, tail
 species: 2
 studbook.id: 14161
 uncertainty: studbook says hokuto birthday 7/11. mmovies says 7/10
