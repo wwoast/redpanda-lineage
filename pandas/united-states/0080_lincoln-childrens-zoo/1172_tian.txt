@@ -50,8 +50,9 @@ photo.7.author: lincolnchildrenszoo
 photo.7.commitdate: 2022/3/5
 photo.7.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.7.tags: close-up, portrait, whiskers
-photo.8: https://www.instagram.com/p/Ca5EwF6JM0n/media/?size=m
+photo.8: ig://Ca5EwF6JM0n/m
 photo.8.author: lincolnchildrenszoo
+photo.8.commitdate: 2022/3/18
 photo.8.link: https://www.instagram.com/carsontheredpanda/
 photo.8.tags: paws, portrait, sample, smile, whiskers
 species: 2

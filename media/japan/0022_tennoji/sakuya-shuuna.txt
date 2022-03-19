@@ -9,8 +9,9 @@ photo.1.link: https://www.instagram.com/makimaru18/
 photo.1.tags: apple time, paws, portrait, standing
 photo.1.tags.44.location: 310, 110
 photo.1.tags.52.location: 155, 185
-photo.2: https://www.instagram.com/p/Ca1Ruatv7RV/media/?size=l
+photo.2: ig://Ca1Ruatv7RV/l
 photo.2.author: makimaru18
+photo.2.commitdate: 2022/3/18
 photo.2.link: https://www.instagram.com/makimaru18/
 photo.2.tags: paws, portrait, whiskers
 photo.2.tags.44.location: 65, 230

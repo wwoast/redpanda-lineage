@@ -283,8 +283,9 @@ photo.54.author: mini_cochi
 photo.54.commitdate: 2022/3/10
 photo.54.link: https://www.instagram.com/mini_cochi/
 photo.54.tags: close-up, whiskers
-photo.55: https://www.instagram.com/p/Ca5s3NoB8bl/media/?size=m
+photo.55: ig://Ca5s3NoB8bl/m
 photo.55.author: miis_98
+photo.55.commitdate: 2022/3/18
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: paws, portrait, sample, tree, whiskers
 species: 2
