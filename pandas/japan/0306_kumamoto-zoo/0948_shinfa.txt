@@ -680,31 +680,34 @@ photo.133.author: ssc6105
 photo.133.commitdate: 2022/1/23
 photo.133.link: https://www.instagram.com/ssc6105/
 photo.133.tags: sample, smile, whiskers
-photo.134: ig://CZc4iDNM2UV/m
-photo.134.author: otenba_redpanda
-photo.134.commitdate: 2022/2/12
-photo.134.link: https://www.instagram.com/otenba_redpanda/
-photo.134.tags: bamboo, bite, mofumofu, portrait, sample, techitechi, whiskers
-photo.135: ig://CZehuOMLS56/m
-photo.135.author: mini_cochi
-photo.135.commitdate: 2022/2/20
-photo.135.link: https://www.instagram.com/mini_cochi/
-photo.135.tags: paws, portrait, sample, tree, whiskers
-photo.136: ig://CamYJCjvuln/m
-photo.136.author: ssc6105
-photo.136.commitdate: 2022/3/10
-photo.136.link: https://www.instagram.com/ssc6105/
-photo.136.tags: bamboo, bite, snow, tail
-photo.137: https://www.instagram.com/p/CYukiOehNly/media/?size=m
+photo.134: ig://CYukiOehNly/m
+photo.134.author: ssc6105
+photo.134.commitdate: 2022/3/19
+photo.134.link: https://www.instagram.com/ssc6105/
+photo.134.tags: climb, paws, peek, sample, tree, whiskers
+photo.135: ig://CZc4iDNM2UV/m
+photo.135.author: otenba_redpanda
+photo.135.commitdate: 2022/2/12
+photo.135.link: https://www.instagram.com/otenba_redpanda/
+photo.135.tags: bamboo, bite, mofumofu, portrait, sample, techitechi, whiskers
+photo.136: ig://CZehuOMLS56/m
+photo.136.author: mini_cochi
+photo.136.commitdate: 2022/2/20
+photo.136.link: https://www.instagram.com/mini_cochi/
+photo.136.tags: paws, portrait, sample, tree, whiskers
+photo.137: ig://CamYJCjvuln/m
 photo.137.author: ssc6105
+photo.137.commitdate: 2022/3/10
 photo.137.link: https://www.instagram.com/ssc6105/
-photo.137.tags: climb, paws, peek, sample, tree, whiskers
-photo.138: https://www.instagram.com/p/CbCrDPvPUog/media/?size=m
+photo.137.tags: bamboo, bite, snow, tail
+photo.138: ig://CbCrDPvPUog/m
 photo.138.author: kumamoto_doushokubutsuen
+photo.138.commitdate: 2022/3/19
 photo.138.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.138.tags: crate, dish, portrait, smile
-photo.139: https://www.instagram.com/p/CbFCuS3P14L/media/?size=m
+photo.139: ig://CbFCuS3P14L/m
 photo.139.author: kumamoto_doushokubutsuen
+photo.139.commitdate: 2022/3/19
 photo.139.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.139.tags: portrait, tail
 species: 2

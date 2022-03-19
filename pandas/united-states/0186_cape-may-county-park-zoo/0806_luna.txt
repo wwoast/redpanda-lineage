@@ -124,11 +124,11 @@ photo.21.author: aimless_amos
 photo.21.commitdate: 2022/3/9
 photo.21.link: https://www.instagram.com/carsontheredpanda/
 photo.21.tags: laying down, tail, whiskers
-photo.22: https://www.codaworry.com/images/rpf/luna-8-capemay.jpg
+photo.22: ig://CbF11lFLsUT/m
 photo.22.author: aimless_amos
-photo.22.commitdate: 2021/6/25
-photo.22.link: https://www.instagram.com/aimless_amos/
-photo.22.tags: mofumofu, portrait, tail, tongue, white face
+photo.22.commitdate: 2022/3/19
+photo.22.link: https://www.instagram.com/carsontheredpanda/
+photo.22.tags: mofumofu, old, portrait, sample, whiskers, white face
 photo.23: https://www.codaworry.com/images/rpf/luna-9-capemay.jpg
 photo.23.author: aimless_amos
 photo.23.commitdate: 2021/6/25
@@ -229,10 +229,6 @@ photo.42.author: aimless_amos
 photo.42.commitdate: 2021/6/25
 photo.42.link: https://www.instagram.com/aimless_amos/
 photo.42.tags: portrait, tail, white face
-photo.43: https://www.instagram.com/p/CbF11lFLsUT/media/?size=m
-photo.43.author: aimless_amos
-photo.43.link: https://www.instagram.com/carsontheredpanda/
-photo.43.tags: mofumofu, old, portrait, sample, whiskers, white face
 species: 1
 studbook.id: 0105
 zoo: 186

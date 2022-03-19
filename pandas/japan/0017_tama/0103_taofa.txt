@@ -743,20 +743,21 @@ photo.146.author: redpan22
 photo.146.commitdate: 2022/1/30
 photo.146.link: https://www.instagram.com/redpan22/
 photo.146.tags: bamboo, nose, sample, whiskers
-photo.147: ig://CZeXOAxPhdM/m
-photo.147.author: kotata_513
-photo.147.commitdate: 2022/2/12
-photo.147.link: https://www.instagram.com/kotata_513/
-photo.147.tags: bamboo, bite, portrait, sample, snow
-photo.148: ig://CaZgdX1PgG6/m
-photo.148.author: ssc6105
-photo.148.commitdate: 2022/3/11
-photo.148.link: https://www.instagram.com/ssc6105/
-photo.148.tags: bite, paws, standing, tree
-photo.149: https://www.instagram.com/p/CZQgWeGr460/media/?size=m
-photo.149.author: otenba_redpanda
-photo.149.link: https://www.instagram.com/otenba_redpanda/
-photo.149.tags: close-up, portrait, sample, smile, whiskers
+photo.147: ig://CZQgWeGr460/m
+photo.147.author: otenba_redpanda
+photo.147.commitdate: 2022/3/19
+photo.147.link: https://www.instagram.com/otenba_redpanda/
+photo.147.tags: close-up, portrait, sample, smile, whiskers
+photo.148: ig://CZeXOAxPhdM/m
+photo.148.author: kotata_513
+photo.148.commitdate: 2022/2/12
+photo.148.link: https://www.instagram.com/kotata_513/
+photo.148.tags: bamboo, bite, portrait, sample, snow
+photo.149: ig://CaZgdX1PgG6/m
+photo.149.author: ssc6105
+photo.149.commitdate: 2022/3/11
+photo.149.link: https://www.instagram.com/ssc6105/
+photo.149.tags: bite, paws, standing, tree
 species: 2
 studbook.id: 15127
 zoo: 17

@@ -380,8 +380,9 @@ photo.73.author: minatomirai215
 photo.73.commitdate: 2022/3/8
 photo.73.link: https://www.instagram.com/minatomirai215/
 photo.73.tags: door, peek, portrait, smile, whiskers
-photo.74: https://www.instagram.com/p/CbFUTM7r1nM/media/?size=m
+photo.74: ig://CbFUTM7r1nM/m
 photo.74.author: gloryeui
+photo.74.commitdate: 2022/3/19
 photo.74.link: https://www.instagram.com/gloryeui/
 photo.74.tags: home, dish, peek, portrait, whiskers
 species: 2

@@ -378,15 +378,16 @@ photo.73.author: grskus_tk
 photo.73.commitdate: 2021/12/30
 photo.73.link: https://www.instagram.com/grskus_tk/
 photo.73.tags: bamboo, bite, paws, tongue
-photo.74: ig://Cao-AZrP6Vz/m
-photo.74.author: minatomirai215
-photo.74.commitdate: 2022/3/10
-photo.74.link: https://www.instagram.com/minatomirai215/
-photo.74.tags: paws, portrait, sample, tongue, whiskers
-photo.75: https://www.instagram.com/panda.daisuki/p/CZLC2jYh1Cs/media/?size=m
-photo.75.author: panda.daisuki
-photo.75.link: https://www.instagram.com/panda.daisuki/
-photo.75.tags: bamboo, portrait, whiskers
+photo.74: ig://panda.daisuki/CZLC2jYh1Cs/m
+photo.74.author: panda.daisuki
+photo.74.commitdate: 2022/3/19
+photo.74.link: https://www.instagram.com/panda.daisuki/
+photo.74.tags: bamboo, portrait, whiskers
+photo.75: ig://Cao-AZrP6Vz/m
+photo.75.author: minatomirai215
+photo.75.commitdate: 2022/3/10
+photo.75.link: https://www.instagram.com/minatomirai215/
+photo.75.tags: paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 15145
 zoo: 58

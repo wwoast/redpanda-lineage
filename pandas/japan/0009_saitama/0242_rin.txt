@@ -703,24 +703,26 @@ photo.138.author: ck.chie
 photo.138.commitdate: 2021/12/22
 photo.138.link: https://www.instagram.com/ck.chie/
 photo.138.tags: bamboo, paws, sample, smile
-photo.139: ig://minatomirai215/CZR_4vQPu5r/m
-photo.139.author: minatomirai215
-photo.139.commitdate: 2022/2/19
-photo.139.link: https://www.instagram.com/minatomirai215/
-photo.139.tags: bamboo, bite, paws, portrait, sample, smile
-photo.140: ig://CZfjIHWLB_H/m
-photo.140.author: otenba_redpanda
-photo.140.commitdate: 2022/2/12
-photo.140.link: https://www.instagram.com/otenba_redpanda/
-photo.140.tags: bamboo, bite, close-up, portrait, sample, smile
-photo.141: https://www.instagram.com/p/CZAkaMQhH15/media/?size=m
-photo.141.author: ssc6105
-photo.141.link: https://www.instagram.com/ssc6105/
-photo.141.tags: laying down, peek, tree, white face
-photo.142: https://www.instagram.com/p/CYyZoS6PJBb/media/?size=m
-photo.142.author: ssc6105
-photo.142.link: https://www.instagram.com/ssc6105/
-photo.142.tags: tree, upside-down, white face
+photo.139: ig://CYyZoS6PJBb/m
+photo.139.author: ssc6105
+photo.139.commitdate: 2022/3/19
+photo.139.link: https://www.instagram.com/ssc6105/
+photo.139.tags: tree, upside-down, white face
+photo.140: ig://CZAkaMQhH15/m
+photo.140.author: ssc6105
+photo.140.commitdate: 2022/3/19
+photo.140.link: https://www.instagram.com/ssc6105/
+photo.140.tags: laying down, peek, tree, white face
+photo.141: ig://minatomirai215/CZR_4vQPu5r/m
+photo.141.author: minatomirai215
+photo.141.commitdate: 2022/2/19
+photo.141.link: https://www.instagram.com/minatomirai215/
+photo.141.tags: bamboo, bite, paws, portrait, sample, smile
+photo.142: ig://CZfjIHWLB_H/m
+photo.142.author: otenba_redpanda
+photo.142.commitdate: 2022/2/12
+photo.142.link: https://www.instagram.com/otenba_redpanda/
+photo.142.tags: bamboo, bite, close-up, portrait, sample, smile
 species: 2
 studbook.id: unknown
 zoo: 9
