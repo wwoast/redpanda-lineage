@@ -1027,14 +1027,16 @@ photo.205.author: panda.daisuki
 photo.205.commitdate: 2022/3/10
 photo.205.link: https://www.instagram.com/panda.daisuki/
 photo.205.tags: portrait, sample, whiskers
-photo.206: https://www.instagram.com/p/CbOyf64L441/media/?size=m
-photo.206.author: falcon_tenor
-photo.206.link: https://www.instagram.com/falcon_tenor/
-photo.206.tags: bamboo, home, paws, portrait, sample, standing, tail, whiskers
-photo.207: https://www.instagram.com/p/CbM5dK3vjMb/media/?size=m
-photo.207.author: i.satosato
-photo.207.link: https://www.instagram.com/i.satosato/
-photo.207.tags: bamboo, paws, sample, standing, tail, whiskers
+photo.206: ig://CbM5dK3vjMb/m
+photo.206.author: i.satosato
+photo.206.commitdate: 2022/3/20
+photo.206.link: https://www.instagram.com/i.satosato/
+photo.206.tags: bamboo, paws, sample, standing, tail, whiskers
+photo.207: ig://CbOyf64L441/m
+photo.207.author: falcon_tenor
+photo.207.commitdate: 2022/3/20
+photo.207.link: https://www.instagram.com/falcon_tenor/
+photo.207.tags: bamboo, home, paws, portrait, sample, standing, tail, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

@@ -1377,8 +1377,9 @@ photo.273.author: otenba_redpanda
 photo.273.commitdate: 2022/3/6
 photo.273.link: https://www.instagram.com/otenba_redpanda/
 photo.273.tags: bamboo, close-up, paws, portrait, sample, whiskers
-photo.274: https://www.instagram.com/p/CbBzT6Zqb8G/media/?size=m
+photo.274: ig://CbBzT6Zqb8G/m
 photo.274.author: otenba_redpanda
+photo.274.commitdate: 2022/3/20
 photo.274.link: https://www.instagram.com/otenba_redpanda/
 photo.274.tags: paws, portrait, snow, techitechi, whiskers
 species: 2

@@ -322,18 +322,21 @@ photo.62.author: miis_98
 photo.62.commitdate: 2021/11/7
 photo.62.link: https://www.instagram.com/miis_98/
 photo.62.tags: paws, portrait, tongue, whiskers
-photo.63: https://www.instagram.com/p/CbHb6CbrteN/media/?size=m
+photo.63: ig://CajYvqhv34i/m
 photo.63.author: fuji_safari
+photo.63.commitdate: 2022/3/20
 photo.63.link: https://www.instagram.com/fuji_safari/
-photo.63.tags: laying down, paws, portrait, sample, smile, tongue
-photo.64: https://www.instagram.com/p/Ca1fUs4POf1/media/?size=m
+photo.63.tags: close-up, grooming, paws, portrait
+photo.64: ig://Ca1fUs4POf1/m
 photo.64.author: fuji_safari
+photo.64.commitdate: 2022/3/20
 photo.64.link: https://www.instagram.com/fuji_safari/
 photo.64.tags: close-up, portrait, sample, whiskers
-photo.65: https://www.instagram.com/p/CajYvqhv34i/media/?size=m
+photo.65: ig://CbHb6CbrteN/m
 photo.65.author: fuji_safari
+photo.65.commitdate: 2022/3/20
 photo.65.link: https://www.instagram.com/fuji_safari/
-photo.65.tags: close-up, grooming, paws, portrait
+photo.65.tags: laying down, paws, portrait, sample, smile, tongue
 species: 2
 studbook.id: 12106
 zoo: 23

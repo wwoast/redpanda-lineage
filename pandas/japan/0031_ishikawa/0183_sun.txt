@@ -388,8 +388,9 @@ photo.75.author: makimaru18
 photo.75.commitdate: 2022/2/1
 photo.75.link: https://www.instagram.com/makimaru18/
 photo.75.tags: climb, portrait, smile, tail, upside-down
-photo.76: https://www.instagram.com/p/Ca79VfwhVeN/media/?size=m
+photo.76: ig://Ca79VfwhVeN/m
 photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2022/3/20
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: portrait, sample, whiskers
 species: 2

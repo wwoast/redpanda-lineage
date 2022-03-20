@@ -448,8 +448,9 @@ photo.87.author: fetorus_mami
 photo.87.commitdate: 2022/2/10
 photo.87.link: https://www.instagram.com/fetorus_mami/
 photo.87.tags: close-up, paws, sample, whiskers
-photo.88: https://www.instagram.com/p/CbCDCNar7b5/media/?size=m
+photo.88: ig://CbCDCNar7b5/m
 photo.88.author: fetorus_mami
+photo.88.commitdate: 2022/3/20
 photo.88.link: https://www.instagram.com/fetorus_mami/
 photo.88.tags: close-up, mofumofu, paws, sample, whiskers
 species: 2

@@ -290,14 +290,16 @@ photo.55.author: miis_98
 photo.55.commitdate: 2022/1/30
 photo.55.link: https://www.instagram.com/miis_98/
 photo.55.tags: peek, portrait, profile, sample, tree
-photo.56: https://www.instagram.com/p/CbNSN7shaFM/media/?size=m
-photo.56.author: miis_98
-photo.56.link: https://www.instagram.com/miis_98/
-photo.56.tags: marking, paws, portrait, sample, tail
-photo.57: https://www.instagram.com/p/CaMMLvgv8C_/media/?size=m
-photo.57.author: fuji_safari
-photo.57.link: https://www.instagram.com/fuji_safari/
-photo.57.tags: portrait, sample, smile, whiskers
+photo.56: ig://CaMMLvgv8C_/m
+photo.56.author: fuji_safari
+photo.56.commitdate: 2022/3/20
+photo.56.link: https://www.instagram.com/fuji_safari/
+photo.56.tags: portrait, sample, smile, whiskers
+photo.57: ig://CbNSN7shaFM/m
+photo.57.author: miis_98
+photo.57.commitdate: 2022/3/20
+photo.57.link: https://www.instagram.com/miis_98/
+photo.57.tags: marking, paws, portrait, sample, tail
 species: 2
 studbook.id: 12119
 zoo: 23

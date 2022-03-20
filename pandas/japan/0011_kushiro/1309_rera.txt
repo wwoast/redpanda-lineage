@@ -73,17 +73,20 @@ photo.12.author: tama67photo
 photo.12.commitdate: 2022/3/11
 photo.12.link: https://www.instagram.com/tama67photo/
 photo.12.tags: baby, peek
-photo.13: https://www.instagram.com/p/CbKVniVh1aT/media/?size=m
+photo.13: ig://CbH2MYJvt6d/m
 photo.13.author: tama67photo
+photo.13.commitdate: 2022/3/20
 photo.13.link: https://www.instagram.com/tama67photo/
-photo.13.tags: baby, close-up, mofumofu, portrait, sample
-photo.14: https://www.instagram.com/p/CbNBqUWvsqw/media/?size=m
+photo.13.tags: baby, paws, portrait, snow
+photo.14: ig://CbKVniVh1aT/m
 photo.14.author: tama67photo
+photo.14.commitdate: 2022/3/20
 photo.14.link: https://www.instagram.com/tama67photo/
-photo.14.tags: baby, peek, tail
-photo.15: https://www.instagram.com/p/CbH2MYJvt6d/media/?size=m
+photo.14.tags: baby, close-up, mofumofu, portrait, sample
+photo.15: ig://CbNBqUWvsqw/m
 photo.15.author: tama67photo
+photo.15.commitdate: 2022/3/20
 photo.15.link: https://www.instagram.com/tama67photo/
-photo.15.tags: baby, paws, portrait, snow
+photo.15.tags: baby, peek, tail
 species: 2
 zoo: 11

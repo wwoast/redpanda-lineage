@@ -513,8 +513,9 @@ photo.100.author: makimaru18
 photo.100.commitdate: 2021/11/28
 photo.100.link: https://www.instagram.com/makimaru18/
 photo.100.tags: bite, climb, paws, portrait, tail, tree
-photo.101: https://www.instagram.com/p/CbH-jmKvuNb/media/?size=m
+photo.101: ig://CbH-jmKvuNb/m
 photo.101.author: makimaru18
+photo.101.commitdate: 2022/3/20
 photo.101.link: https://www.instagram.com/makimaru18/
 photo.101.tags: paws, peek, portrait, sample, tail, whiskers
 species: 2

@@ -834,12 +834,14 @@ photo.164.author: ssc6105
 photo.164.commitdate: 2022/3/13
 photo.164.link: https://www.instagram.com/ssc6105/
 photo.164.tags: bamboo, portrait, sample, smile, whiskers
-photo.165: https://www.instagram.com/p/CbKanXEJlE9/media/?size=m
+photo.165: ig://CbKanXEJlE9/m
 photo.165.author: morikirara
+photo.165.commitdate: 2022/3/20
 photo.165.link: https://www.instagram.com/morikirara/
 photo.165.tags: bamboo, sample, smile, whiskers
-photo.166: https://www.instagram.com/p/CbKtJ_Tvw6i/media/?size=m
+photo.166: ig://CbKtJ_Tvw6i/m
 photo.166.author: redpan22
+photo.166.commitdate: 2022/3/20
 photo.166.link: https://www.instagram.com/redpan22/
 photo.166.tags: bamboo, paws, portrait, sample, smile, tree, whiskers
 species: 2

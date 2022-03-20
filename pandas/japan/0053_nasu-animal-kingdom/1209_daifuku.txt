@@ -218,8 +218,9 @@ photo.41.author: hidehaya_biei
 photo.41.commitdate: 2022/1/10
 photo.41.link: https://www.instagram.com/hidehaya_biei/
 photo.41.tags: close-up, paws, sample, whiskers
-photo.42: https://www.instagram.com/p/CbEuaP3LMwx/media/?size=m
+photo.42: ig://CbEuaP3LMwx/m
 photo.42.author: panda.daisuki
+photo.42.commitdate: 2022/3/20
 photo.42.link: https://www.instagram.com/panda.daisuki/
 photo.42.tags: bamboo, close-up, mofumofu, portrait
 species: 2

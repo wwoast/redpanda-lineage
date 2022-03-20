@@ -810,8 +810,9 @@ photo.159.author: eos1089
 photo.159.commitdate: 2022/2/21
 photo.159.link: https://www.instagram.com/eos1089/
 photo.159.tags: mofumofu, portrait, sample, whiskers
-photo.160: https://www.instagram.com/p/CbNVD1FBrtT/media/?size=m
+photo.160: ig://CbNVD1FBrtT/m
 photo.160.author: mifko55
+photo.160.commitdate: 2022/3/20
 photo.160.link: https://www.instagram.com/mifko55/
 photo.160.tags: bamboo, paws, portrait, smile
 species: 2

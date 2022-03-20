@@ -53,8 +53,9 @@ photo.8.author: milwaukeecozoo
 photo.8.commitdate: 2020/6/28
 photo.8.link: https://www.instagram.com/milwaukeecozoo/
 photo.8.tags: laying down
-photo.9: https://www.instagram.com/p/CbNlI11Lwxe/media/?size=m
+photo.9: ig://CbNlI11Lwxe/m
 photo.9.author: redpandanetwork
+photo.9.commitdate: 2022/3/20
 photo.9.link: https://www.instagram.com/redpandanetwork/
 photo.9.tags: close-up, mofumofu, portrait, whiskers
 species: 2

@@ -584,8 +584,9 @@ photo.114.author: redpan22
 photo.114.commitdate: 2022/1/30
 photo.114.link: https://www.instagram.com/redpan22/
 photo.114.tags: sample, tongue, whiskers
-photo.115: https://www.instagram.com/p/CbADZ9PPLqH/media/?size=m
+photo.115: ig://CbADZ9PPLqH/m
 photo.115.author: jas_forever_love
+photo.115.commitdate: 2022/3/20
 photo.115.link: https://www.instagram.com/jas_forever_love/
 photo.115.tags: close-up, sample, smile, whiskers
 species: 2

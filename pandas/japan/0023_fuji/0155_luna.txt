@@ -92,8 +92,9 @@ photo.15.author: miis_98
 photo.15.commitdate: 2021/10/9
 photo.15.link: https://www.instagram.com/miis_98/
 photo.15.tags: home, portrait, tail
-photo.16: https://www.instagram.com/p/CbH2Y65PW_b/media/?size=m
+photo.16: ig://CbH2Y65PW_b/m
 photo.16.author: miis_98
+photo.16.commitdate: 2022/3/20
 photo.16.link: https://www.instagram.com/miis_98/
 photo.16.tags: bamboo, home, portrait, smile, whiskers
 species: 2

@@ -664,14 +664,16 @@ photo.131.author: westcoast_kathy
 photo.131.commitdate: 2022/3/10
 photo.131.link: https://www.instagram.com/westcoast_kathy/
 photo.131.tags: laying down, mofumofu, paws, peek, portrait, whiskers
-photo.132: https://www.instagram.com/p/CbOwL7quyTS/media/?size=m
+photo.132: ig://CbBh2CFpfoE/m
 photo.132.author: westcoast_kathy
+photo.132.commitdate: 2022/3/20
 photo.132.link: https://www.instagram.com/westcoast_kathy/
-photo.132.tags: bamboo, close-up, paws, whiskers
-photo.133: https://www.instagram.com/p/CbBh2CFpfoE/media/?size=m
+photo.132.tags: blink, nose, whiskers
+photo.133: ig://CbOwL7quyTS/m
 photo.133.author: westcoast_kathy
+photo.133.commitdate: 2022/3/20
 photo.133.link: https://www.instagram.com/westcoast_kathy/
-photo.133.tags: blink, nose, whiskers
+photo.133.tags: bamboo, close-up, paws, whiskers
 species: 2
 studbook.id: 1444
 zoo: 86

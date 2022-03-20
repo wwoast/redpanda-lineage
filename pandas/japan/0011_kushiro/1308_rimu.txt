@@ -123,13 +123,15 @@ photo.22.author: tama67photo
 photo.22.commitdate: 2022/3/10
 photo.22.link: https://www.instagram.com/tama67photo/
 photo.22.tags: baby, mofumofu, peek, portrait, sample, tail, wet
-photo.23: https://www.instagram.com/p/CbFVjD0vrXd/media/?size=m
-photo.23.author: tama67photo
-photo.23.link: https://www.instagram.com/tama67photo/
-photo.23.tags: baby, mofumofu, peek, portrait, sample, tail
-photo.24: https://www.instagram.com/p/Ca9ryA9pfWM/media/?size=m
-photo.24.author: sasapan34
-photo.24.link: https://www.instagram.com/sasapan34/
-photo.24.tags: mofumofu, snow, techitechi
+photo.23: ig://Ca9ryA9pfWM/m
+photo.23.author: sasapan34
+photo.23.commitdate: 2022/3/20
+photo.23.link: https://www.instagram.com/sasapan34/
+photo.23.tags: mofumofu, snow, techitechi
+photo.24: ig://CbFVjD0vrXd/m
+photo.24.author: tama67photo
+photo.24.commitdate: 2022/3/20
+photo.24.link: https://www.instagram.com/tama67photo/
+photo.24.tags: baby, mofumofu, peek, portrait, sample, tail
 species: 2
 zoo: 11
