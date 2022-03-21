@@ -46,6 +46,36 @@ photo.6.author: aimless_amos
 photo.6.commitdate: 2022/1/23
 photo.6.link: https://www.instagram.com/carsontheredpanda/
 photo.6.tags: portrait, sample, snow, tongue, toys, whiskers
+photo.7: https://www.codaworry.com/images/rpf/david-bowie-1-capemay.jpg
+photo.7.author: aimless_amos
+photo.7.commitdate: 2022/3/21
+photo.7.link: https://www.instagram.com/aimless_amos/
+photo.7.tags: close-up, paws, portrait, standing
+photo.8: https://www.codaworry.com/images/rpf/david-bowie-2-capemay.jpg
+photo.8.author: aimless_amos
+photo.8.commitdate: 2022/3/21
+photo.8.link: https://www.instagram.com/aimless_amos/
+photo.8.tags: paws, portrait, standing, tail, whiskers
+photo.9: https://www.codaworry.com/images/rpf/david-bowie-3-capemay.jpg
+photo.9.author: aimless_amos
+photo.9.commitdate: 2022/3/21
+photo.9.link: https://www.instagram.com/aimless_amos/
+photo.9.tags: home, portrait, snow, whiskers
+photo.10: https://www.codaworry.com/images/rpf/david-bowie-4-capemay.jpg
+photo.10.author: aimless_amos
+photo.10.commitdate: 2022/3/21
+photo.10.link: https://www.instagram.com/aimless_amos/
+photo.10.tags: paws, portrait, sample, tail, whiskers
+photo.11: https://www.codaworry.com/images/rpf/david-bowie-5-capemay.jpg
+photo.11.author: aimless_amos
+photo.11.commitdate: 2022/3/21
+photo.11.link: https://www.instagram.com/aimless_amos/
+photo.11.tags: nose, paws, portrait, toys, whiskers 
+photo.12: https://www.codaworry.com/images/rpf/david-bowie-6-capemay.jpg
+photo.12.author: aimless_amos
+photo.12.commitdate: 2022/3/21
+photo.12.link: https://www.instagram.com/aimless_amos/
+photo.12.tags: close-up, portrait, sample, whiskers
 species: 1
 studbook.id: 1835
 uncertainty: location.2 date
