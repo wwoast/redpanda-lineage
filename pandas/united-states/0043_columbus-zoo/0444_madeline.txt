@@ -33,13 +33,17 @@ photo.3.tags: portrait
 photo.4: ig://Bztq8CQlIUS/m
 photo.4.author: andersonkelley
 photo.4.commitdate: 2021/9/29
-photo.4.link: https://www.instagram.com/accounts/activity/
+photo.4.link: https://www.instagram.com/andersonkelley/
 photo.4.tags: close-up, portrait, whiskers
 photo.5: ig://CSESm0ftT_-/m
 photo.5.author: rossifari
 photo.5.commitdate: 2021/8/7
 photo.5.link: https://www.instagram.com/rossifari/
 photo.5.tags: portrait, snow, standing, whiskers
+photo.6: https://www.instagram.com/p/CX4Ipj3PT7Q/media/?size=m
+photo.6.author: worldthathesees
+photo.6.link: https://www.instagram.com/worldthathesees/
+photo.6.tags: paws, whiskers
 species: 2
 studbook.id: 1524
 zoo: 43
