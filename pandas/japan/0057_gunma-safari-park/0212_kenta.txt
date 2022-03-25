@@ -444,35 +444,36 @@ photo.87.author: miis_98
 photo.87.commitdate: 2022/1/9
 photo.87.link: https://www.instagram.com/miis_98/
 photo.87.tags: paws, portrait, whiskers
-photo.88: ig://CZE52ThFPBv/m
+photo.88: ig://CYjjsATlbns/m
 photo.88.author: miis_98
-photo.88.commitdate: 2022/2/20
+photo.88.commitdate: 2022/3/24
 photo.88.link: https://www.instagram.com/miis_98/
-photo.88.tags: portrait, sample, smile, whiskers
-photo.89: ig://CZK-HYhBHYY/m
+photo.88.tags: bamboo, bite, mofumofu, paws, portrait, sample, smile
+photo.89: ig://CZE52ThFPBv/m
 photo.89.author: miis_98
-photo.89.commitdate: 2022/2/23
+photo.89.commitdate: 2022/2/20
 photo.89.link: https://www.instagram.com/miis_98/
-photo.89.tags: bamboo, close-up, sample, tail, whiskers
-photo.90: ig://CZRoTGRFb-c/m
+photo.89.tags: portrait, sample, smile, whiskers
+photo.90: ig://CZK-HYhBHYY/m
 photo.90.author: miis_98
-photo.90.commitdate: 2022/2/19
+photo.90.commitdate: 2022/2/23
 photo.90.link: https://www.instagram.com/miis_98/
-photo.90.tags: grooming, paws, portrait, whiskers
-photo.91: ig://CZ4_jy4BDiR/m
-photo.91.author: ssc6105
-photo.91.commitdate: 2022/3/9
-photo.91.link: https://www.instagram.com/ssc6105/
-photo.91.tags: paws, sample, tail, whiskers
-photo.92: ig://Caa51ZbBKZP/m
+photo.90.tags: bamboo, close-up, sample, tail, whiskers
+photo.91: ig://CZRoTGRFb-c/m
+photo.91.author: miis_98
+photo.91.commitdate: 2022/2/19
+photo.91.link: https://www.instagram.com/miis_98/
+photo.91.tags: grooming, paws, portrait, whiskers
+photo.92: ig://CZ4_jy4BDiR/m
 photo.92.author: ssc6105
-photo.92.commitdate: 2022/3/10
+photo.92.commitdate: 2022/3/9
 photo.92.link: https://www.instagram.com/ssc6105/
-photo.92.tags: laying down, mofumofu, paws, whiskers
-photo.93: https://www.instagram.com/p/CYjjsATlbns/media/?size=m
-photo.93.author: miis_98
-photo.93.link: https://www.instagram.com/miis_98/
-photo.93.tags: bamboo, bite, mofumofu, paws, portrait, sample, smile
+photo.92.tags: paws, sample, tail, whiskers
+photo.93: ig://Caa51ZbBKZP/m
+photo.93.author: ssc6105
+photo.93.commitdate: 2022/3/10
+photo.93.link: https://www.instagram.com/ssc6105/
+photo.93.tags: laying down, mofumofu, paws, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

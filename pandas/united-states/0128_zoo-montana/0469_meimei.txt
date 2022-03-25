@@ -100,15 +100,16 @@ photo.17: ig://COp9Z64txFl/m
 photo.17.author: zoomontana
 photo.17.commitdate: 2021/6/23
 photo.17.link: https://www.instagram.com/zoomontana/
-photo.18: ig://CbAntYFo2Xw/m
-photo.18.author: zoomontana
-photo.18.commitdate: 2022/3/20
-photo.18.link: https://www.instagram.com/zoomontana/
-photo.18.tags: bamboo, paws, portrait, tongue, whiskers
-photo.19: https://www.instagram.com/p/CX68yr2p_RI/media/?size=m
-photo.19.author: worldthathesees
-photo.19.link: https://www.instagram.com/worldthathesees/
-photo.19.tags: paws, whiskers
+photo.18: ig://CX68yr2p_RI/m
+photo.18.author: worldthathesees
+photo.18.commitdate: 2022/3/24
+photo.18.link: https://www.instagram.com/worldthathesees/
+photo.18.tags: paws, whiskers
+photo.19: ig://CbAntYFo2Xw/m
+photo.19.author: zoomontana
+photo.19.commitdate: 2022/3/20
+photo.19.link: https://www.instagram.com/zoomontana/
+photo.19.tags: bamboo, paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 1536
 zoo: 128

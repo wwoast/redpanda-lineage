@@ -578,29 +578,30 @@ photo.113.author: taka__3428
 photo.113.commitdate: 2021/12/26
 photo.113.link: https://www.instagram.com/taka__3428/
 photo.113.tags: close-up, nose, peek
-photo.114: ig://CZLNfS0PHiL/m
-photo.114.author: fetorus_mami
-photo.114.commitdate: 2022/3/19
-photo.114.link: https://www.instagram.com/fetorus_mami/
-photo.114.tags: close-up, sample, whiskers
-photo.115: ig://CZZhj0JFaFK/m
-photo.115.author: miis_98
-photo.115.commitdate: 2022/2/12
-photo.115.link: https://www.instagram.com/miis_98/
-photo.115.tags: apple time, dish, mofumofu, portrait, sample, whiskers
-photo.116: ig://CZl5v9mP8Ai/m
-photo.116.author: hamamatsu.chiita
+photo.114: ig://CYluXaMPjRM/m
+photo.114.author: taka__3428
+photo.114.commitdate: 2022/3/24
+photo.114.link: https://www.instagram.com/taka__3428/
+photo.114.tags: bamboo, close-up, nose, sample, whiskers
+photo.115: ig://CZLNfS0PHiL/m
+photo.115.author: fetorus_mami
+photo.115.commitdate: 2022/3/19
+photo.115.link: https://www.instagram.com/fetorus_mami/
+photo.115.tags: close-up, sample, whiskers
+photo.116: ig://CZZhj0JFaFK/m
+photo.116.author: miis_98
 photo.116.commitdate: 2022/2/12
-photo.116.link: https://www.instagram.com/hamamatsu.chiita/
-photo.116.tags: mofumofu, portrait, sample, whiskers
-photo.117: ig://CZwMW7VPaZ6/m
-photo.117.author: otenba_redpanda
-photo.117.commitdate: 2022/3/13
-photo.117.link: https://www.instagram.com/otenba_redpanda/
-photo.117.tags: mofumofu, portrait, whiskers
-photo.118: https://www.instagram.com/p/CYluXaMPjRM/media/?size=m
-photo.118.author: taka__3428
-photo.118.link: https://www.instagram.com/taka__3428/
-photo.118.tags: bamboo, close-up, nose, sample, whiskers
+photo.116.link: https://www.instagram.com/miis_98/
+photo.116.tags: apple time, dish, mofumofu, portrait, sample, whiskers
+photo.117: ig://CZl5v9mP8Ai/m
+photo.117.author: hamamatsu.chiita
+photo.117.commitdate: 2022/2/12
+photo.117.link: https://www.instagram.com/hamamatsu.chiita/
+photo.117.tags: mofumofu, portrait, sample, whiskers
+photo.118: ig://CZwMW7VPaZ6/m
+photo.118.author: otenba_redpanda
+photo.118.commitdate: 2022/3/13
+photo.118.link: https://www.instagram.com/otenba_redpanda/
+photo.118.tags: mofumofu, portrait, whiskers
 species: 2
 zoo: 24
