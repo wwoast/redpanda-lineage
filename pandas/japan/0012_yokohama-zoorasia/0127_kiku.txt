@@ -663,8 +663,9 @@ photo.130.author: minatomirai215
 photo.130.commitdate: 2022/3/11
 photo.130.link: https://www.instagram.com/minatomirai215/
 photo.130.tags: bridge, paws, peek, portrait, smile, tail
-photo.131: https://www.instagram.com/p/CaXMo__llOg/media/?size=m
+photo.131: ig://CaXMo__llOg/m
 photo.131.author: mini_cochi
+photo.131.commitdate: 2022/3/28
 photo.131.link: https://www.instagram.com/mini_cochi/
 photo.131.tags: peek, portrait, sample, whiskers
 species: 2

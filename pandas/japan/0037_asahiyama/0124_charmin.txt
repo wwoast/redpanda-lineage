@@ -171,8 +171,9 @@ photo.31.author: sasapan34
 photo.31.commitdate: 2022/3/4
 photo.31.link: https://www.instagram.com/sasapan34/
 photo.31.tags: apple time, peek, snow
-photo.32: https://www.instagram.com/p/CaWH_LnvTWg/media/?size=m
+photo.32: ig://CaWH_LnvTWg/m
 photo.32.author: sasapan34
+photo.32.commitdate: 2022/3/28
 photo.32.link: https://www.instagram.com/sasapan34/
 photo.32.tags: paws, standing, tail
 species: 2

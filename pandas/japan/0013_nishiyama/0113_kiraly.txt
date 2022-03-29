@@ -162,8 +162,9 @@ photo.30.author: hamamatsu.chiita
 photo.30.commitdate: 2022/3/11
 photo.30.link: https://www.instagram.com/hamamatsu.chiita/
 photo.30.tags: mofumofu, portrait, whiskers
-photo.31: https://www.instagram.com/p/Cahkc4wP2aA/media/?size=m
+photo.31: ig://Cahkc4wP2aA/m
 photo.31.author: sakikukeco
+photo.31.commitdate: 2022/3/28
 photo.31.link: https://www.instagram.com/sakikukeco/
 photo.31.tags: bamboo, bite, mofumofu, portrait, tongue
 species: 2
