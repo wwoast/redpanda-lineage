@@ -2226,15 +2226,16 @@ photo.444.author: cattail.sapporo
 photo.444.commitdate: 2022/3/13
 photo.444.link: https://www.instagram.com/cattail.sapporo/
 photo.444.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.445: ig://CaocYZtrj8y/m
-photo.445.author: cattail.sapporo
-photo.445.commitdate: 2022/3/10
-photo.445.link: https://www.instagram.com/cattail.sapporo/
-photo.445.tags: air tasting, close-up, portrait, sample, snow, tongue, whiskers
-photo.446: https://www.instagram.com/p/CamVkKYv0Kx/media/?size=m
-photo.446.author: nishicotolo
-photo.446.link: https://www.instagram.com/nishicotolo/
-photo.446.tags: bamboo, peek, sample, snow, tail
+photo.445: ig://CamVkKYv0Kx/m
+photo.445.author: nishicotolo
+photo.445.commitdate: 2022/3/29
+photo.445.link: https://www.instagram.com/nishicotolo/
+photo.445.tags: bamboo, peek, sample, snow, tail
+photo.446: ig://CaocYZtrj8y/m
+photo.446.author: cattail.sapporo
+photo.446.commitdate: 2022/3/10
+photo.446.link: https://www.instagram.com/cattail.sapporo/
+photo.446.tags: air tasting, close-up, portrait, sample, snow, tongue, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

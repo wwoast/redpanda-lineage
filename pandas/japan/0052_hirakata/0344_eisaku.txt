@@ -514,19 +514,21 @@ photo.100.author: jas_forever_love
 photo.100.commitdate: 2022/2/18
 photo.100.link: https://www.instagram.com/jas_forever_love/
 photo.100.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.101: ig://CalXJz4vFwX/m
-photo.101.author: hamiiiii831_
-photo.101.commitdate: 2022/3/9
-photo.101.link: https://www.instagram.com/hamiiiii831_/
-photo.101.tags: laying down, paws, smile, whiskers
-photo.102: https://www.instagram.com/p/CZ_sNU-vtlX/media/?size=m
-photo.102.author: jas_forever_love
-photo.102.link: https://www.instagram.com/jas_forever_love/
-photo.102.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.103: https://www.instagram.com/p/CaFGE5Vl1DN/media/?size=m
-photo.103.author: miis_98
-photo.103.link: https://www.instagram.com/miis_98/
-photo.103.tags: paws, peek, portrait, smile, whiskers
+photo.101: ig://CZ_sNU-vtlX/m
+photo.101.author: jas_forever_love
+photo.101.commitdate: 2022/3/29
+photo.101.link: https://www.instagram.com/jas_forever_love/
+photo.101.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.102: ig://CaFGE5Vl1DN/m
+photo.102.author: miis_98
+photo.102.commitdate: 2022/3/29
+photo.102.link: https://www.instagram.com/miis_98/
+photo.102.tags: paws, peek, portrait, smile, whiskers
+photo.103: ig://CalXJz4vFwX/m
+photo.103.author: hamiiiii831_
+photo.103.commitdate: 2022/3/9
+photo.103.link: https://www.instagram.com/hamiiiii831_/
+photo.103.tags: laying down, paws, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

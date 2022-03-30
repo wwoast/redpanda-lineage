@@ -1377,15 +1377,16 @@ photo.273.author: otenba_redpanda
 photo.273.commitdate: 2022/3/6
 photo.273.link: https://www.instagram.com/otenba_redpanda/
 photo.273.tags: bamboo, close-up, paws, portrait, sample, whiskers
-photo.274: ig://CbBzT6Zqb8G/m
-photo.274.author: otenba_redpanda
-photo.274.commitdate: 2022/3/20
-photo.274.link: https://www.instagram.com/otenba_redpanda/
-photo.274.tags: paws, portrait, snow, techitechi, whiskers
-photo.275: https://www.instagram.com/p/CaGLgWThqoo/media/?size=m
-photo.275.author: alto0908
-photo.275.link: https://www.instagram.com/alto0908/
-photo.275.tags: paws, portrait, sample, snow, whiskers
+photo.274: ig://CaGLgWThqoo/m
+photo.274.author: alto0908
+photo.274.commitdate: 2022/3/29
+photo.274.link: https://www.instagram.com/alto0908/
+photo.274.tags: paws, portrait, sample, snow, whiskers
+photo.275: ig://CbBzT6Zqb8G/m
+photo.275.author: otenba_redpanda
+photo.275.commitdate: 2022/3/20
+photo.275.link: https://www.instagram.com/otenba_redpanda/
+photo.275.tags: paws, portrait, snow, techitechi, whiskers
 species: 2
 studbook.id: unknown
 zoo: 10

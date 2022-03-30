@@ -538,8 +538,9 @@ photo.105.author: run.swim.shingo
 photo.105.commitdate: 2022/1/23
 photo.105.link: https://www.instagram.com/run.swim.shingo/
 photo.105.tags: paws, sample, smile, snow, tongue, whiskers
-photo.106: https://www.instagram.com/p/CaeevxcvqQL/media/?size=m
+photo.106: ig://CaeevxcvqQL/m
 photo.106.author: pink.b22
+photo.106.commitdate: 2022/3/29
 photo.106.link: https://www.instagram.com/pink.b22/
 photo.106.tags: portrait, sample, snow, whiskers
 species: 2

@@ -71,8 +71,9 @@ photo.11.author: worldthathesees
 photo.11.commitdate: 2022/2/19
 photo.11.link: https://www.instagram.com/worldthathesees/
 photo.11.tags: bridge, smile, tail
-photo.12: https://www.instagram.com/p/CaI0WXcLi2t/media/?size=m
+photo.12: ig://CaI0WXcLi2t/m
 photo.12.author: zooatl
+photo.12.commitdate: 2022/3/29
 photo.12.link: https://www.instagram.com/zooatl/
 photo.12.tags: dish, portrait, tail, techitechi
 species: 1

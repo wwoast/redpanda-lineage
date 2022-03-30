@@ -98,15 +98,16 @@ photo.17.author: chankunvv
 photo.17.commitdate: 2022/1/6
 photo.17.link: https://www.instagram.com/chankunvv/
 photo.17.tags: peek, portrait
-photo.18: ig://CbCSN6-OaTs/m
-photo.18.author: chankunvv
-photo.18.commitdate: 2022/3/19
-photo.18.link: https://www.instagram.com/chankunvv/
-photo.18.tags: laying down, paws, portrait, smile
-photo.19: https://www.instagram.com/p/CaHeVtYvvWE/media/?size=m
-photo.19.author: sasapan34
-photo.19.link: https://www.instagram.com/sasapan34/
-photo.19.tags: smile, whiskers
+photo.18: ig://CaHeVtYvvWE/m
+photo.18.author: sasapan34
+photo.18.commitdate: 2022/3/29
+photo.18.link: https://www.instagram.com/sasapan34/
+photo.18.tags: smile, whiskers
+photo.19: ig://CbCSN6-OaTs/m
+photo.19.author: chankunvv
+photo.19.commitdate: 2022/3/19
+photo.19.link: https://www.instagram.com/chankunvv/
+photo.19.tags: laying down, paws, portrait, smile
 species: 2
 studbook.id: 1099
 zoo: 29

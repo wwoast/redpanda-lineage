@@ -722,18 +722,21 @@ photo.142.author: chankunvv
 photo.142.commitdate: 2021/7/22
 photo.142.link: https://www.instagram.com/chankunvv/
 photo.142.tags: bamboo, paws, tongue
-photo.143: https://www.instagram.com/p/CaD-l7QPcL5/media/?size=m
+photo.143: ig://CaD-l7QPcL5/m
 photo.143.author: fetorus_mami
+photo.143.commitdate: 2022/3/29
 photo.143.link: https://www.instagram.com/fetorus_mami/
 photo.143.tags: apple time, keeper, laying down, paws, smile, upside-down, whiskers
-photo.144: https://www.instagram.com/p/CaEFm4yvT-g/media/?size=m
+photo.144: ig://CaD_YLjPXIc/m
 photo.144.author: fetorus_mami
+photo.144.commitdate: 2022/3/29
 photo.144.link: https://www.instagram.com/fetorus_mami/
-photo.144.tags: close-up, keeper, paws, sample, whiskers
-photo.145: https://www.instagram.com/p/CaD_YLjPXIc/media/?size=m
+photo.144.tags: keeper, paws, sample, smile, whiskers
+photo.145: ig://CaEFm4yvT-g/m
 photo.145.author: fetorus_mami
+photo.145.commitdate: 2022/3/29
 photo.145.link: https://www.instagram.com/fetorus_mami/
-photo.145.tags: keeper, paws, sample, smile, whiskers
+photo.145.tags: close-up, keeper, paws, sample, whiskers
 species: 2
 studbook.id: 0553
 zoo: 10

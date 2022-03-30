@@ -429,15 +429,16 @@ photo.83.author: otenba_redpanda
 photo.83.commitdate: 2022/2/20
 photo.83.link: https://www.instagram.com/otenba_redpanda/
 photo.83.tags: close-up, whiskers
-photo.84: ig://CaZSwXwvRWb/m
-photo.84.author: otenba_redpanda
-photo.84.commitdate: 2022/3/10
-photo.84.link: https://www.instagram.com/otenba_redpanda/
-photo.84.tags: bamboo, paws, sample, standing
-photo.85: https://www.instagram.com/p/CaClQ8cheWs/media/?size=m
-photo.85.author: alto0908
-photo.85.link: https://www.instagram.com/alto0908/
-photo.85.tags: close-up, mofumofu, portrait, profile, sample, whiskers
+photo.84: ig://CaClQ8cheWs/m
+photo.84.author: alto0908
+photo.84.commitdate: 2022/3/29
+photo.84.link: https://www.instagram.com/alto0908/
+photo.84.tags: close-up, mofumofu, portrait, profile, sample, whiskers
+photo.85: ig://CaZSwXwvRWb/m
+photo.85.author: otenba_redpanda
+photo.85.commitdate: 2022/3/10
+photo.85.link: https://www.instagram.com/otenba_redpanda/
+photo.85.tags: bamboo, paws, sample, standing
 species: 2
 studbook.id: 14141
 zoo: 10
