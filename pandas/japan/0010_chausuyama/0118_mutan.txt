@@ -25,7 +25,7 @@ photo.2: ig://BiZOe9yF1DR/m
 photo.2.author: jas_forever_love
 photo.2.commitdate: 2018/7/20
 photo.2.link: https://www.instagram.com/jas_forever_love/
-photo.2.tags: portrait, profile
+photo.2.tags: bamboo, paws, portrait, sample
 photo.3: ig://BkIB69Cl_UP/m
 photo.3.author: kotata_513
 photo.3.commitdate: 2018/7/20
@@ -434,6 +434,10 @@ photo.84.author: otenba_redpanda
 photo.84.commitdate: 2022/3/10
 photo.84.link: https://www.instagram.com/otenba_redpanda/
 photo.84.tags: bamboo, paws, sample, standing
+photo.85: https://www.instagram.com/p/CaClQ8cheWs/media/?size=m
+photo.85.author: alto0908
+photo.85.link: https://www.instagram.com/alto0908/
+photo.85.tags: close-up, mofumofu, portrait, profile, sample, whiskers
 species: 2
 studbook.id: 14141
 zoo: 10
