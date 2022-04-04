@@ -860,8 +860,9 @@ photo.170.author: yossi929
 photo.170.commitdate: 2022/2/12
 photo.170.link: https://www.instagram.com/yossi929/
 photo.170.tags: close-up, whiskers
-photo.171: https://www.instagram.com/p/CZ72MrBvdRF/media/?size=m
+photo.171: ig://CZ72MrBvdRF/m
 photo.171.author: yossi929
+photo.171.commitdate: 2022/4/4
 photo.171.link: https://www.instagram.com/yossi929/
 photo.171.tags: keeper, long-tongue, paws, portrait, tongue, whiskers
 species: 2

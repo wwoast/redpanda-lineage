@@ -219,8 +219,9 @@ photo.41.author: tokyo_hamura_city
 photo.41.commitdate: 2022/2/20
 photo.41.link: https://www.instagram.com/tokyo_hamura_city/
 photo.41.tags: bamboo, mofumofu, portrait, sample, smile
-photo.42: https://www.instagram.com/p/Cb7tksgLc1Q/media/?size=m
+photo.42: ig://Cb7tksgLc1Q/m
 photo.42.author: mini_cochi
+photo.42.commitdate: 2022/4/4
 photo.42.link: https://www.instagram.com/mini_cochi/
 photo.42.tags: close-up, portrait, sample, whiskers
 species: 2

@@ -1,8 +1,10 @@
 [media]
 _id: media.8.taiyo-yuu
+commitdate: 2022/4/4
 panda.tags: 40, 92
-photo.1: https://www.instagram.com/p/CZ9CGwdv8cV/media/?size=l
+photo.1: ig://CZ9CGwdv8cV/l
 photo.1.author: ssc6105
+photo.1.commitdate: 2022/4/4
 photo.1.link: https://www.instagram.com/ssc6105/
 photo.1.tags: couple, upside-down
 photo.1.tags.40.location: 330, 330

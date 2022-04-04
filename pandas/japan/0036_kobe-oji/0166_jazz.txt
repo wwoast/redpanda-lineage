@@ -1259,15 +1259,16 @@ photo.250.author: redpan22
 photo.250.commitdate: 2022/2/18
 photo.250.link: https://www.instagram.com/redpan22/
 photo.250.tags: close-up, paws, smile, whiskers
-photo.251: ig://Cafwnn7BS_t/m
-photo.251.author: panda.daisuki
-photo.251.commitdate: 2022/3/29
-photo.251.link: https://www.instagram.com/panda.daisuki/
-photo.251.tags: laying down, portrait, sample, tail, whiskers
-photo.252: https://www.instagram.com/p/CZy05UWPE4n/media/?size=m
-photo.252.author: imagoto17
-photo.252.link: https://www.instagram.com/imagoto17/
-photo.252.tags: laying down, mofumofu, portrait, sample, videolink, whiskers
+photo.251: ig://CZy05UWPE4n/m
+photo.251.author: imagoto17
+photo.251.commitdate: 2022/4/4
+photo.251.link: https://www.instagram.com/imagoto17/
+photo.251.tags: laying down, mofumofu, portrait, sample, videolink, whiskers
+photo.252: ig://Cafwnn7BS_t/m
+photo.252.author: panda.daisuki
+photo.252.commitdate: 2022/3/29
+photo.252.link: https://www.instagram.com/panda.daisuki/
+photo.252.tags: laying down, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

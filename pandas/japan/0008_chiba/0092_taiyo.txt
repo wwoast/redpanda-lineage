@@ -438,8 +438,9 @@ photo.85.author: ssc6105
 photo.85.commitdate: 2022/3/10
 photo.85.link: https://www.instagram.com/ssc6105/
 photo.85.tags: home, laying down, paws, portrait, sleeping
-photo.86: https://www.instagram.com/p/Caj41XzvGjy/media/?size=m
+photo.86: ig://Caj41XzvGjy/m
 photo.86.author: ssc6105
+photo.86.commitdate: 2022/4/4
 photo.86.link: https://www.instagram.com/ssc6105/
 photo.86.tags: apple time, keeper, paws, portrait, sample, standing, tail
 species: 2

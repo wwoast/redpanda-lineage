@@ -139,35 +139,36 @@ photo.25.author: morikirara
 photo.25.commitdate: 2021/12/19
 photo.25.link: https://www.instagram.com/morikirara/
 photo.25.tags: close-up, laying down, sample, whiskers
-photo.26: ig://CYajglOPb1V/m
-photo.26.author: grskus_tk
-photo.26.commitdate: 2022/1/19
-photo.26.link: https://www.instagram.com/grskus_tk/
-photo.26.tags: bamboo, techitechi, whiskers
-photo.27: ig://CZS0zc1BnPv/m
+photo.26: ig://CYGvVEXP8MN/m
+photo.26.author: re_ichimaru
+photo.26.commitdate: 2022/4/4
+photo.26.link: https://www.instagram.com/re_ichimaru/
+photo.26.tags: keeper, portrait, sample, toys
+photo.27: ig://CYajglOPb1V/m
 photo.27.author: grskus_tk
-photo.27.commitdate: 2022/3/19
+photo.27.commitdate: 2022/1/19
 photo.27.link: https://www.instagram.com/grskus_tk/
-photo.27.tags: keeper, portrait, sample, standing, tail
-photo.28: ig://CZVbCrxBlCX/m
+photo.27.tags: bamboo, techitechi, whiskers
+photo.28: ig://CZS0zc1BnPv/m
 photo.28.author: grskus_tk
-photo.28.commitdate: 2022/2/19
+photo.28.commitdate: 2022/3/19
 photo.28.link: https://www.instagram.com/grskus_tk/
-photo.28.tags: keeper, paws, standing
-photo.29: ig://CZeE-PWPAf-/m
+photo.28.tags: keeper, portrait, sample, standing, tail
+photo.29: ig://CZVbCrxBlCX/m
 photo.29.author: grskus_tk
-photo.29.commitdate: 2022/2/20
+photo.29.commitdate: 2022/2/19
 photo.29.link: https://www.instagram.com/grskus_tk/
-photo.29.tags: paws, sample, smile, standing
-photo.30: ig://CZrFGDoJxWY/m
-photo.30.author: morikirara
-photo.30.commitdate: 2022/2/12
-photo.30.link: https://www.instagram.com/morikirara/
-photo.30.tags: laying down, mofumofu, tail
-photo.31: https://www.instagram.com/p/CYGvVEXP8MN/media/?size=m
-photo.31.author: re_ichimaru
-photo.31.link: https://www.instagram.com/re_ichimaru/
-photo.31.tags: keeper, portrait, sample, toys
+photo.29.tags: keeper, paws, standing
+photo.30: ig://CZeE-PWPAf-/m
+photo.30.author: grskus_tk
+photo.30.commitdate: 2022/2/20
+photo.30.link: https://www.instagram.com/grskus_tk/
+photo.30.tags: paws, sample, smile, standing
+photo.31: ig://CZrFGDoJxWY/m
+photo.31.author: morikirara
+photo.31.commitdate: 2022/2/12
+photo.31.link: https://www.instagram.com/morikirara/
+photo.31.tags: laying down, mofumofu, tail
 species: 2
 studbook.id: 0760
 zoo: 19

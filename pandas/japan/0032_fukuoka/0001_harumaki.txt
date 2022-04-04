@@ -2148,30 +2148,31 @@ photo.428.author: re_ichimaru
 photo.428.commitdate: 2022/2/19
 photo.428.link: https://www.instagram.com/re_ichimaru/
 photo.428.tags: close-up, peek, portrait, sample, whiskers
-photo.429: ig://CaMxlPPBvRm/m
-photo.429.author: grskus_tk
-photo.429.commitdate: 2022/3/11
-photo.429.link: https://www.instagram.com/grskus_tk/
-photo.429.tags: lips, peek, techitechi, whiskers
-photo.430: ig://CaQ7E0mvcwl/m
-photo.430.author: re_ichimaru
+photo.429: ig://CZvd-hxvA53/m
+photo.429.author: re_ichimaru
+photo.429.commitdate: 2022/4/4
+photo.429.link: https://www.instagram.com/re_ichimaru/
+photo.429.tags: portrait, sample, techitechi
+photo.430: ig://CaMxlPPBvRm/m
+photo.430.author: grskus_tk
 photo.430.commitdate: 2022/3/11
-photo.430.link: https://www.instagram.com/re_ichimaru/
-photo.430.tags: paws, sample, standing, tail
-photo.431: ig://Caf1_hTvJ7o/m
-photo.431.author: yossi929
-photo.431.commitdate: 2022/3/8
-photo.431.link: https://www.instagram.com/yossi929/
-photo.431.tags: peek, sample, smile, whiskers
-photo.432: ig://Cax9i0WPSZp/m
+photo.430.link: https://www.instagram.com/grskus_tk/
+photo.430.tags: lips, peek, techitechi, whiskers
+photo.431: ig://CaQ7E0mvcwl/m
+photo.431.author: re_ichimaru
+photo.431.commitdate: 2022/3/11
+photo.431.link: https://www.instagram.com/re_ichimaru/
+photo.431.tags: paws, sample, standing, tail
+photo.432: ig://Caf1_hTvJ7o/m
 photo.432.author: yossi929
-photo.432.commitdate: 2022/3/18
+photo.432.commitdate: 2022/3/8
 photo.432.link: https://www.instagram.com/yossi929/
-photo.432.tags: close-up, mofumofu, techitechi, whiskers
-photo.433: https://www.instagram.com/p/CZvd-hxvA53/media/?size=m
-photo.433.author: re_ichimaru
-photo.433.link: https://www.instagram.com/re_ichimaru/
-photo.433.tags: portrait, sample, techitechi
+photo.432.tags: peek, sample, smile, whiskers
+photo.433: ig://Cax9i0WPSZp/m
+photo.433.author: yossi929
+photo.433.commitdate: 2022/3/18
+photo.433.link: https://www.instagram.com/yossi929/
+photo.433.tags: close-up, mofumofu, techitechi, whiskers
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44

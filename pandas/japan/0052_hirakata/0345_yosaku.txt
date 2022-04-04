@@ -425,35 +425,36 @@ photo.82.author: makimaru18
 photo.82.commitdate: 2022/2/19
 photo.82.link: https://www.instagram.com/makimaru18/
 photo.82.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.83: ig://CaEz-cVvCk4/m
-photo.83.author: jas_forever_love
-photo.83.commitdate: 2022/3/29
-photo.83.link: https://www.instagram.com/jas_forever_love/
-photo.83.tags: portrait, sample, smile, whiskers
-photo.84: ig://CaIylpkhJng/m
-photo.84.author: miis_98
+photo.83: ig://CZ8Y_EhLhz6/m
+photo.83.author: hidehaya_biei
+photo.83.commitdate: 2022/4/4
+photo.83.link: https://www.instagram.com/hidehaya_biei/
+photo.83.tags: itchy, paws, sample, smile, whiskers
+photo.84: ig://CaEz-cVvCk4/m
+photo.84.author: jas_forever_love
 photo.84.commitdate: 2022/3/29
-photo.84.link: https://www.instagram.com/miis_98/
-photo.84.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.85: ig://CamrXF6P7y5/m
-photo.85.author: fetorus_mami
-photo.85.commitdate: 2022/3/10
-photo.85.link: https://www.instagram.com/fetorus_mami/
-photo.85.tags: bamboo, peek, sample, smile, whiskers
-photo.86: ig://CamuLq1PCBI/m
+photo.84.link: https://www.instagram.com/jas_forever_love/
+photo.84.tags: portrait, sample, smile, whiskers
+photo.85: ig://CaIylpkhJng/m
+photo.85.author: miis_98
+photo.85.commitdate: 2022/3/29
+photo.85.link: https://www.instagram.com/miis_98/
+photo.85.tags: apple time, paws, portrait, sample, smile, whiskers
+photo.86: ig://CamrXF6P7y5/m
 photo.86.author: fetorus_mami
 photo.86.commitdate: 2022/3/10
 photo.86.link: https://www.instagram.com/fetorus_mami/
-photo.86.tags: portrait, sample, tongue, tree, whiskers
-photo.87: ig://CauCkKbPpu4/m
+photo.86.tags: bamboo, peek, sample, smile, whiskers
+photo.87: ig://CamuLq1PCBI/m
 photo.87.author: fetorus_mami
 photo.87.commitdate: 2022/3/10
 photo.87.link: https://www.instagram.com/fetorus_mami/
-photo.87.tags: bamboo, paws, tail, tree
-photo.88: https://www.instagram.com/p/CZ8Y_EhLhz6/media/?size=m
-photo.88.author: hidehaya_biei
-photo.88.link: https://www.instagram.com/hidehaya_biei/
-photo.88.tags: itchy, paws, sample, smile, whiskers
+photo.87.tags: portrait, sample, tongue, tree, whiskers
+photo.88: ig://CauCkKbPpu4/m
+photo.88.author: fetorus_mami
+photo.88.commitdate: 2022/3/10
+photo.88.link: https://www.instagram.com/fetorus_mami/
+photo.88.tags: bamboo, paws, tail, tree
 species: 2
 studbook.id: unknown
 zoo: 52

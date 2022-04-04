@@ -513,15 +513,16 @@ photo.100.author: otenba_redpanda
 photo.100.commitdate: 2022/2/20
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: close-up, portrait, sample, whiskers
-photo.101: ig://CahBNlKLIv9/m
-photo.101.author: mini_cochi
-photo.101.commitdate: 2022/3/6
-photo.101.link: https://www.instagram.com/mini_cochi/
-photo.101.tags: mofumofu, portrait, sample, whiskers
-photo.102: https://www.instagram.com/p/CZx15uFpp8s/media/?size=m
-photo.102.author: fetorus_mami
-photo.102.link: https://www.instagram.com/fetorus_mami/
-photo.102.tags: grooming, mofumofu, paws, whiskers
+photo.101: ig://CZx15uFpp8s/m
+photo.101.author: fetorus_mami
+photo.101.commitdate: 2022/4/4
+photo.101.link: https://www.instagram.com/fetorus_mami/
+photo.101.tags: grooming, mofumofu, paws, whiskers
+photo.102: ig://CahBNlKLIv9/m
+photo.102.author: mini_cochi
+photo.102.commitdate: 2022/3/6
+photo.102.link: https://www.instagram.com/mini_cochi/
+photo.102.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 9
