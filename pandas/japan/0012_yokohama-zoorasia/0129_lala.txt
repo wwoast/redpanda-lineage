@@ -312,15 +312,16 @@ photo.60.author: minatomirai215
 photo.60.commitdate: 2022/2/18
 photo.60.link: https://www.instagram.com/minatomirai215/
 photo.60.tags: peek, portrait, sample, whiskers
-photo.61: ig://CaXL2vUv_Km/m
-photo.61.author: pantasanzoo1
-photo.61.commitdate: 2022/3/11
-photo.61.link: https://www.instagram.com/pantasanzoo1/
-photo.61.tags: mofumofu, paws, smile, tongue, whiskers, white face
-photo.62: https://www.instagram.com/p/CZTuVcmFbtg/media/?size=m
-photo.62.author: otenba_redpanda
-photo.62.link: https://www.instagram.com/otenba_redpanda/
-photo.62.tags: lips, mofumofu, portrait, sample, whiskers
+photo.61: ig://CZTuVcmFbtg/m
+photo.61.author: otenba_redpanda
+photo.61.commitdate: 2022/4/5
+photo.61.link: https://www.instagram.com/otenba_redpanda/
+photo.61.tags: lips, mofumofu, portrait, sample, whiskers
+photo.62: ig://CaXL2vUv_Km/m
+photo.62.author: pantasanzoo1
+photo.62.commitdate: 2022/3/11
+photo.62.link: https://www.instagram.com/pantasanzoo1/
+photo.62.tags: mofumofu, paws, smile, tongue, whiskers, white face
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y

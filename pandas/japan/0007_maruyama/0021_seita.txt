@@ -1105,35 +1105,36 @@ photo.219.author: cattail.sapporo
 photo.219.commitdate: 2022/2/18
 photo.219.link: https://www.instagram.com/cattail.sapporo/
 photo.219.tags: bamboo, bite, blink, paws, portrait, smile, tongue
-photo.220: ig://CZjV3m7r4LW/m
-photo.220.author: cattail.sapporo
-photo.220.commitdate: 2022/2/12
-photo.220.link: https://www.instagram.com/cattail.sapporo/
-photo.220.tags: portrait, sample, tail, whiskers
-photo.221: ig://CZ1dwZFLHe8/m
+photo.220: ig://CZUEJIVLtO1/m
+photo.220.author: leonard_redmof
+photo.220.commitdate: 2022/4/5
+photo.220.link: https://www.instagram.com/leonard_redmof/
+photo.220.tags: mofumofu, portrait, sample, whiskers
+photo.221: ig://CZjV3m7r4LW/m
 photo.221.author: cattail.sapporo
-photo.221.commitdate: 2022/3/13
+photo.221.commitdate: 2022/2/12
 photo.221.link: https://www.instagram.com/cattail.sapporo/
-photo.221.tags: climb, paws, portrait, tail, whiskers
-photo.222: ig://CaPGKryrn-I/m
+photo.221.tags: portrait, sample, tail, whiskers
+photo.222: ig://CZ1dwZFLHe8/m
 photo.222.author: cattail.sapporo
-photo.222.commitdate: 2022/3/11
+photo.222.commitdate: 2022/3/13
 photo.222.link: https://www.instagram.com/cattail.sapporo/
-photo.222.tags: portrait, sample, snow, whiskers
-photo.223: ig://Caj0YM1rzxm/m
+photo.222.tags: climb, paws, portrait, tail, whiskers
+photo.223: ig://CaPGKryrn-I/m
 photo.223.author: cattail.sapporo
-photo.223.commitdate: 2022/3/6
+photo.223.commitdate: 2022/3/11
 photo.223.link: https://www.instagram.com/cattail.sapporo/
-photo.223.tags: laying down, mofumofu, portrait, sample, tail
-photo.224: ig://Ca4WBUyL9LS/m
+photo.223.tags: portrait, sample, snow, whiskers
+photo.224: ig://Caj0YM1rzxm/m
 photo.224.author: cattail.sapporo
-photo.224.commitdate: 2022/3/18
+photo.224.commitdate: 2022/3/6
 photo.224.link: https://www.instagram.com/cattail.sapporo/
-photo.224.tags: portrait, sample, shake, snow
-photo.225: https://www.instagram.com/p/CZUEJIVLtO1/media/?size=m
-photo.225.author: leonard_redmof
-photo.225.link: https://www.instagram.com/leonard_redmof/
-photo.225.tags: mofumofu, portrait, sample, whiskers
+photo.224.tags: laying down, mofumofu, portrait, sample, tail
+photo.225: ig://Ca4WBUyL9LS/m
+photo.225.author: cattail.sapporo
+photo.225.commitdate: 2022/3/18
+photo.225.link: https://www.instagram.com/cattail.sapporo/
+photo.225.tags: portrait, sample, shake, snow
 species: 2
 studbook.id: 0554
 zoo: 7

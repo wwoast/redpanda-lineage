@@ -359,14 +359,16 @@ photo.69.author: gloryeui
 photo.69.commitdate: 2022/1/23
 photo.69.link: https://www.instagram.com/gloryeui/
 photo.69.tags: peek, portrait, sample, whiskers
-photo.70: https://www.instagram.com/p/CZZQeaQlLSr/media/?size=m
-photo.70.author: love__mitarashi
-photo.70.link: https://www.instagram.com/love__mitarashi/
-photo.70.tags: peek, portrait, sample
-photo.71: https://www.instagram.com/p/CZJodWuPUxm/media/?size=m
-photo.71.author: colette.jp
-photo.71.link: https://www.instagram.com/colette.jp/
-photo.71.tags: paws, portrait, sample
+photo.70: ig://CZJodWuPUxm/m
+photo.70.author: colette.jp
+photo.70.commitdate: 2022/4/5
+photo.70.link: https://www.instagram.com/colette.jp/
+photo.70.tags: paws, portrait, sample
+photo.71: ig://CZZQeaQlLSr/m
+photo.71.author: love__mitarashi
+photo.71.commitdate: 2022/4/5
+photo.71.link: https://www.instagram.com/love__mitarashi/
+photo.71.tags: peek, portrait, sample
 species: 2
 studbook.id: 14151
 zoo: 14
