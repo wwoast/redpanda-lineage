@@ -302,7 +302,7 @@ photo.58: ig://CZjN-oSPzHB/m
 photo.58.author: otenba_redpanda
 photo.58.commitdate: 2022/2/10
 photo.58.link: https://www.instagram.com/otenba_redpanda/
-photo.58.tags: portrait, profile, sample, whiskers
+photo.58.tags: portrait, sample, whiskers
 photo.59: ig://CZmWNXmPUvt/m
 photo.59.author: rie_panda55
 photo.59.commitdate: 2022/2/12
@@ -328,5 +328,9 @@ photo.63.author: pink.b22
 photo.63.commitdate: 2022/3/20
 photo.63.link: https://www.instagram.com/pink.b22/
 photo.63.tags: laying down, portrait, sample, tree, whiskers
+photo.64: https://www.instagram.com/p/Ca2DHyiLCeS/media/?size=m
+photo.64.author: mini_cochi
+photo.64.link: https://www.instagram.com/mini_cochi/
+photo.64.tags: laying down, paws, portrait, profile, sample, tree, whiskers
 species: 2
 zoo: 16
