@@ -108,81 +108,56 @@ photo.20.author: wumpwoast
 photo.20.commitdate: 2022/3/13
 photo.20.link: https://www.instagram.com/wumpwoast/
 photo.20.tags: bamboo, home, portrait
-photo.21: ig://B9eU_XjJRM9/m
-photo.21.author: mybrotherisdylan
-photo.21.commitdate: 2020/11/6
-photo.21.link: https://www.instagram.com/mybrotherisdylan/
-photo.21.tags: laying down, paws
-photo.22: ig://B-NYPfUhSzo/m
+photo.21: ig://B-NYPfUhSzo/m
+photo.21.author: wumpwoast
+photo.21.commitdate: 2020/3/26
+photo.21.link: https://www.instagram.com/wumpwoast/
+photo.21.tags: paws, portrait, whiskers
+photo.22: ig://B-Qx5s1BFkj/m
 photo.22.author: wumpwoast
-photo.22.commitdate: 2020/3/26
+photo.22.commitdate: 2020/3/28
 photo.22.link: https://www.instagram.com/wumpwoast/
-photo.22.tags: paws, portrait, whiskers
-photo.23: ig://B-Qx5s1BFkj/m
-photo.23.author: wumpwoast
-photo.23.commitdate: 2020/3/28
-photo.23.link: https://www.instagram.com/wumpwoast/
-photo.23.tags: bamboo, laying down, sleeping
-photo.24: ig://B-URneChJDL/m
-photo.24.author: bananawani_official
-photo.24.commitdate: 2020/4/13
-photo.24.link: https://www.instagram.com/bananawani_official/
-photo.24.tags: laying down, portrait, tree, upside-down
-photo.25: ig://B-r2ICCBs5n/m
+photo.22.tags: bamboo, laying down, sleeping
+photo.23: ig://B-URneChJDL/m
+photo.23.author: bananawani_official
+photo.23.commitdate: 2020/4/13
+photo.23.link: https://www.instagram.com/bananawani_official/
+photo.23.tags: laying down, portrait, tree, upside-down
+photo.24: ig://B-r2ICCBs5n/m
+photo.24.author: craig_craig_craig
+photo.24.commitdate: 2020/5/9
+photo.24.link: https://www.instagram.com/craig_craig_craig/
+photo.24.tags: peek, portrait
+photo.25: ig://CAnA3qCnOy5/m
 photo.25.author: craig_craig_craig
-photo.25.commitdate: 2020/5/9
+photo.25.commitdate: 2020/8/3
 photo.25.link: https://www.instagram.com/craig_craig_craig/
-photo.25.tags: peek, portrait
-photo.26: ig://CAnA3qCnOy5/m
-photo.26.author: craig_craig_craig
-photo.26.commitdate: 2020/8/3
-photo.26.link: https://www.instagram.com/craig_craig_craig/
-photo.26.tags: baby, mofumofu
-photo.27: ig://CDjLH8ehBpD/m
+photo.25.tags: baby, mofumofu
+photo.26: ig://CDjLH8ehBpD/m
+photo.26.author: miis_98
+photo.26.commitdate: 2020/8/13
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: bamboo, door, home, portrait
+photo.27: ig://CD0r2I3hmI5/m
 photo.27.author: miis_98
-photo.27.commitdate: 2020/8/13
+photo.27.commitdate: 2020/9/15
 photo.27.link: https://www.instagram.com/miis_98/
-photo.27.tags: bamboo, door, home, portrait
-photo.28: ig://CD0r2I3hmI5/m
-photo.28.author: miis_98
-photo.28.commitdate: 2020/9/15
-photo.28.link: https://www.instagram.com/miis_98/
-photo.28.tags: portrait, tail
-photo.29: ig://CEEH5DuhJVa/m
-photo.29.author: pink.b22
-photo.29.commitdate: 2020/9/7
-photo.29.link: https://www.instagram.com/pink.b22/
-photo.29.tags: home, laying down, paws, portrait
-photo.30: ig://CEaLjBphbXa/m
-photo.30.author: kotume4935
-photo.30.commitdate: 2021/2/28
-photo.30.link: https://www.instagram.com/kotume4935/
-photo.30.tags: portrait, smile, whiskers
-photo.31: ig://CE-NbkCBVED/m
-photo.31.author: tetusara.ki_
-photo.31.commitdate: 2020/9/15
-photo.31.link: https://www.instagram.com/tetusara.ki_/
-photo.31.tags: laying down, mofumofu, portrait
-photo.32: ig://CG9ZqbTBpev/m
-photo.32.author: mybrotherisdylan
-photo.32.commitdate: 2020/11/15
-photo.32.link: https://www.instagram.com/mybrotherisdylan/
-photo.32.tags: close-up, paws
-photo.33: ig://CJmy1dGhhqm/m
-photo.33.author: mybrotherisdylan
-photo.33.commitdate: 2021/1/8
-photo.33.link: https://www.instagram.com/mybrotherisdylan/
-photo.33.tags: patrol, tail, whiskers
-photo.34: ig://CNMx_3jhzhq/m
-photo.34.author: mybrotherisdylan
-photo.34.commitdate: 2021/4/3
-photo.34.link: https://www.instagram.com/mybrotherisdylan/
-photo.34.tags: paws
-photo.35: ig://CROaUxChgS3/m
-photo.35.author: mybrotherisdylan
-photo.35.commitdate: 2021/8/20
-photo.35.link: https://www.instagram.com/mybrotherisdylan/
-photo.35.tags: laying down, paws, peek
+photo.27.tags: portrait, tail
+photo.28: ig://CEEH5DuhJVa/m
+photo.28.author: pink.b22
+photo.28.commitdate: 2020/9/7
+photo.28.link: https://www.instagram.com/pink.b22/
+photo.28.tags: home, laying down, paws, portrait
+photo.29: ig://CEaLjBphbXa/m
+photo.29.author: kotume4935
+photo.29.commitdate: 2021/2/28
+photo.29.link: https://www.instagram.com/kotume4935/
+photo.29.tags: portrait, smile, whiskers
+photo.30: ig://CE-NbkCBVED/m
+photo.30.author: tetusara.ki_
+photo.30.commitdate: 2020/9/15
+photo.30.link: https://www.instagram.com/tetusara.ki_/
+photo.30.tags: laying down, mofumofu, portrait
 species: 1
 studbook.id: 1791
 zoo: 59

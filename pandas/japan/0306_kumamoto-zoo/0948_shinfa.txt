@@ -710,27 +710,30 @@ photo.139.author: ssc6105
 photo.139.commitdate: 2022/3/10
 photo.139.link: https://www.instagram.com/ssc6105/
 photo.139.tags: bamboo, bite, snow, tail
-photo.140: ig://CbCrDPvPUog/m
-photo.140.author: kumamoto_doushokubutsuen
-photo.140.commitdate: 2022/3/19
-photo.140.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.140.tags: crate, dish, portrait, smile
-photo.141: ig://CbFCuS3P14L/m
-photo.141.author: kumamoto_doushokubutsuen
-photo.141.commitdate: 2022/3/19
-photo.141.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.141.tags: portrait, tail
-photo.142: https://www.instagram.com/p/Ca7NjvTLo_9/media/?size=m
-photo.142.author: mini_cochi
-photo.142.link: https://www.instagram.com/mini_cochi/
-photo.142.tags: climb, paws, portrait, smile, tree, whiskers
-photo.143: https://www.instagram.com/p/Ca9R5ravTJP/media/?size=m
+photo.140: ig://Ca7NjvTLo_9/m
+photo.140.author: mini_cochi
+photo.140.commitdate: 2022/4/5
+photo.140.link: https://www.instagram.com/mini_cochi/
+photo.140.tags: climb, paws, portrait, smile, tree, whiskers
+photo.141: ig://Ca8D_ItBIt4/m
+photo.141.author: ssc6105
+photo.141.commitdate: 2022/4/5
+photo.141.link: https://www.instagram.com/ssc6105/
+photo.141.tags: peek, sample, tail
+photo.142: ig://Ca9R5ravTJP/m
+photo.142.author: kumamoto_doushokubutsuen
+photo.142.commitdate: 2022/4/5
+photo.142.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.142.tags: bamboo, hammock, portrait, tail
+photo.143: ig://CbCrDPvPUog/m
 photo.143.author: kumamoto_doushokubutsuen
+photo.143.commitdate: 2022/3/19
 photo.143.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.143.tags: bamboo, hammock, portrait, tail
-photo.144: https://www.instagram.com/p/Ca8D_ItBIt4/media/?size=m
-photo.144.author: ssc6105
-photo.144.link: https://www.instagram.com/ssc6105/
-photo.144.tags: peek, sample, tail
+photo.143.tags: crate, dish, portrait, smile
+photo.144: ig://CbFCuS3P14L/m
+photo.144.author: kumamoto_doushokubutsuen
+photo.144.commitdate: 2022/3/19
+photo.144.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.144.tags: portrait, tail
 species: 2
 zoo: 306

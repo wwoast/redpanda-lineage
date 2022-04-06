@@ -448,15 +448,16 @@ photo.87.author: fetorus_mami
 photo.87.commitdate: 2022/2/10
 photo.87.link: https://www.instagram.com/fetorus_mami/
 photo.87.tags: close-up, paws, sample, whiskers
-photo.88: ig://CbCDCNar7b5/m
-photo.88.author: fetorus_mami
-photo.88.commitdate: 2022/3/20
-photo.88.link: https://www.instagram.com/fetorus_mami/
-photo.88.tags: close-up, mofumofu, paws, sample, whiskers
-photo.89: https://www.instagram.com/p/Ca69k5LvFCv/media/?size=m
-photo.89.author: makimaru18
-photo.89.link: https://www.instagram.com/makimaru18/
-photo.89.tags: apple time, keeper, paws, portrait, tail
+photo.88: ig://Ca69k5LvFCv/m
+photo.88.author: makimaru18
+photo.88.commitdate: 2022/4/5
+photo.88.link: https://www.instagram.com/makimaru18/
+photo.88.tags: apple time, keeper, paws, portrait, tail
+photo.89: ig://CbCDCNar7b5/m
+photo.89.author: fetorus_mami
+photo.89.commitdate: 2022/3/20
+photo.89.link: https://www.instagram.com/fetorus_mami/
+photo.89.tags: close-up, mofumofu, paws, sample, whiskers
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

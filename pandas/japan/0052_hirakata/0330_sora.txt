@@ -105,8 +105,9 @@ photo.18.author: miis_98
 photo.18.commitdate: 2022/3/5
 photo.18.link: https://www.instagram.com/miis_98/
 photo.18.tags: mofumofu, paws, portrait, sample, whiskers
-photo.19: https://www.instagram.com/p/CauDz4GP7xO/media/?size=m
+photo.19: ig://CauDz4GP7xO/m
 photo.19.author: fetorus_mami
+photo.19.commitdate: 2022/4/5
 photo.19.link: https://www.instagram.com/fetorus_mami/
 photo.19.tags: apple time, smile, whiskers
 species: 2

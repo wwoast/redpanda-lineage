@@ -281,15 +281,16 @@ photo.54.author: eos1089
 photo.54.commitdate: 2022/1/31
 photo.54.link: https://www.instagram.com/eos1089/
 photo.54.tags: bamboo, mofumofu, portrait, tongue
-photo.55: ig://CanogYoLJrU/m
+photo.55: ig://CY_reU3FFn8/m
 photo.55.author: otenba_redpanda
-photo.55.commitdate: 2022/3/10
+photo.55.commitdate: 2022/4/5
 photo.55.link: https://www.instagram.com/otenba_redpanda/
-photo.55.tags: bamboo, muzzle, paws, portrait, tongue, whiskers
-photo.56: https://www.instagram.com/p/CY_reU3FFn8/media/?size=m
+photo.55.tags: bamboo, bite, mofumofu, portrait, sample, tongue
+photo.56: ig://CanogYoLJrU/m
 photo.56.author: otenba_redpanda
+photo.56.commitdate: 2022/3/10
 photo.56.link: https://www.instagram.com/otenba_redpanda/
-photo.56.tags: bamboo, bite, mofumofu, portrait, sample, tongue
+photo.56.tags: bamboo, muzzle, paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

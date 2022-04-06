@@ -206,25 +206,26 @@ photo.39.author: re_ichimaru
 photo.39.commitdate: 2021/7/14
 photo.39.link: https://www.instagram.com/re_ichimaru/
 photo.39.tags: portrait, smile, whiskers
-photo.40: ig://CYWYn0dvpKk/m
+photo.40: ig://CV21NVEBo-z/m
 photo.40.author: kojikoji2011
-photo.40.commitdate: 2022/1/6
+photo.40.commitdate: 2022/4/5
 photo.40.link: https://www.instagram.com/kojikoji2011/
-photo.40.tags: close-up, portrait, whiskers
-photo.41: ig://CY1QtQ7PMHy/m
+photo.40.tags: paws, portrait, sample, whiskers
+photo.41: ig://CYWYn0dvpKk/m
 photo.41.author: kojikoji2011
-photo.41.commitdate: 2022/2/9
+photo.41.commitdate: 2022/1/6
 photo.41.link: https://www.instagram.com/kojikoji2011/
-photo.41.tags: paws, portrait, sample, smile, whiskers
-photo.42: ig://CaE6B2pPh4J/m
+photo.41.tags: close-up, portrait, whiskers
+photo.42: ig://CY1QtQ7PMHy/m
 photo.42.author: kojikoji2011
-photo.42.commitdate: 2022/3/29
+photo.42.commitdate: 2022/2/9
 photo.42.link: https://www.instagram.com/kojikoji2011/
-photo.42.tags: paws, sample, tail, whiskers
-photo.43: https://www.instagram.com/p/CV21NVEBo-z/media/?size=m
+photo.42.tags: paws, portrait, sample, smile, whiskers
+photo.43: ig://CaE6B2pPh4J/m
 photo.43.author: kojikoji2011
+photo.43.commitdate: 2022/3/29
 photo.43.link: https://www.instagram.com/kojikoji2011/
-photo.43.tags: paws, portrait, sample, whiskers
+photo.43.tags: paws, sample, tail, whiskers
 species: 2
 studbook.id: 1783
 zoo: 42

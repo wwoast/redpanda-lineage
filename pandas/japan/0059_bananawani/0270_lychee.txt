@@ -111,51 +111,41 @@ photo.20.author: wumpwoast
 photo.20.commitdate: 2020/5/15
 photo.20.link: https://www.instagram.com/wumpwoast/
 photo.20.tags: close-up, laying down, portrait, whiskers
-photo.21: ig://CCYaFPyhgo4/m
-photo.21.author: mybrotherisdylan
-photo.21.commitdate: 2020/11/6
-photo.21.link: https://www.instagram.com/mybrotherisdylan/
-photo.21.tags: mofumofu, old
-photo.22: ig://CCzpJMLhEUf/m
-photo.22.author: tetusara.ki_
-photo.22.commitdate: 2020/7/24
-photo.22.link: https://www.instagram.com/tetusara.ki_/
-photo.22.tags: bamboo, portrait
-photo.23: ig://CDwRlkMBb1r/m
-photo.23.author: wumpwoast
-photo.23.commitdate: 2020/8/11
-photo.23.link: https://www.instagram.com/wumpwoast/
-photo.23.tags: door, portrait
-photo.24: ig://CD1ZgW3hNVi/m
-photo.24.author: mini_cochi
-photo.24.commitdate: 2020/8/22
-photo.24.link: https://www.instagram.com/mini_cochi/
-photo.24.tags: mofumofu, portrait, smile
-photo.25: ig://CD8QAs1BvH0/m
-photo.25.author: miis_98
-photo.25.commitdate: 2020/11/6
-photo.25.link: https://www.instagram.com/miis_98/
-photo.25.tags: apple time, old, paws
-photo.26: ig://CD-jkFwBTFU/m
-photo.26.author: kotume4935
-photo.26.commitdate: 2021/2/28
-photo.26.link: https://www.instagram.com/kotume4935/
-photo.26.tags: laying down, paws, portrait, smile
-photo.27: ig://CFPOmD6BgcQ/m
-photo.27.author: fetorus_mami
-photo.27.commitdate: 2020/11/6
-photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.27.tags: old, mofumofu, smile
-photo.28: ig://CG9gGixhX56/m
-photo.28.author: mybrotherisdylan
-photo.28.commitdate: 2020/11/6
-photo.28.link: https://www.instagram.com/mybrotherisdylan/
-photo.28.tags: eye, laying down, old, smile, tongue
-photo.29: ig://CHSwkJ2BrYC/m
-photo.29.author: firefoxpanda88
-photo.29.commitdate: 2020/11/15
-photo.29.link: https://www.instagram.com/firefoxpanda88/
-photo.29.tags: portrait
+photo.21: ig://CCzpJMLhEUf/m
+photo.21.author: tetusara.ki_
+photo.21.commitdate: 2020/7/24
+photo.21.link: https://www.instagram.com/tetusara.ki_/
+photo.21.tags: bamboo, portrait
+photo.22: ig://CDwRlkMBb1r/m
+photo.22.author: wumpwoast
+photo.22.commitdate: 2020/8/11
+photo.22.link: https://www.instagram.com/wumpwoast/
+photo.22.tags: door, portrait
+photo.23: ig://CD1ZgW3hNVi/m
+photo.23.author: mini_cochi
+photo.23.commitdate: 2020/8/22
+photo.23.link: https://www.instagram.com/mini_cochi/
+photo.23.tags: mofumofu, portrait, smile
+photo.24: ig://CD8QAs1BvH0/m
+photo.24.author: miis_98
+photo.24.commitdate: 2020/11/6
+photo.24.link: https://www.instagram.com/miis_98/
+photo.24.tags: apple time, old, paws
+photo.25: ig://CD-jkFwBTFU/m
+photo.25.author: kotume4935
+photo.25.commitdate: 2021/2/28
+photo.25.link: https://www.instagram.com/kotume4935/
+photo.25.tags: laying down, paws, portrait, smile
+photo.26: ig://CFPOmD6BgcQ/m
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2020/11/6
+photo.26.link: https://www.instagram.com/fetorus_mami/
+photo.26.tags: old, mofumofu, smile
+photo.27: ig://CHSwkJ2BrYC/m
+photo.27.author: firefoxpanda88
+photo.27.commitdate: 2020/11/15
+photo.27.link: https://www.instagram.com/firefoxpanda88/
+photo.27.tags: portrait
 species: 1
 studbook.id: 0577
 uncertainty: death month/day

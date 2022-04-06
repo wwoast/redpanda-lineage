@@ -123,16 +123,11 @@ photo.22.author: fetorus_mami
 photo.22.commitdate: 2020/12/30
 photo.22.link: https://www.instagram.com/fetorus_mami/
 photo.22.tags: close-up, whiskers
-photo.23: ig://CJnAcaohNGv/m
-photo.23.author: mybrotherisdylan
-photo.23.commitdate: 2021/1/13
-photo.23.link: https://www.instagram.com/mybrotherisdylan/
-photo.23.tags: grooming, laying down, paws, portrait, tongue
-photo.24: ig://CPGLvfpB6UL/m
-photo.24.author: miis_98
-photo.24.commitdate: 2021/6/8
-photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: portrait, smile, whiskers
+photo.23: ig://CPGLvfpB6UL/m
+photo.23.author: miis_98
+photo.23.commitdate: 2021/6/8
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: portrait, smile, whiskers
 species: 1
 studbook.id: 14172
 zoo: 59

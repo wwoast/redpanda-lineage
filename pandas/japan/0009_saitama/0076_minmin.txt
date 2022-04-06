@@ -304,25 +304,26 @@ photo.58.author: mini_cochi
 photo.58.commitdate: 2022/3/6
 photo.58.link: https://www.instagram.com/mini_cochi/
 photo.58.tags: mofumofu, muzzle
-photo.59: ig://CaBUFPyPkrB/m
-photo.59.author: minatomirai215
-photo.59.commitdate: 2022/3/5
-photo.59.link: https://www.instagram.com/minatomirai215/
-photo.59.tags: mofumofu, muzzle, peek
-photo.60: ig://CaGqMsqvxzs/m
-photo.60.author: fetorus_mami
+photo.59: ig://CZ_jssuPD2E/m
+photo.59.author: otenba_redpanda
+photo.59.commitdate: 2022/4/5
+photo.59.link: https://www.instagram.com/otenba_redpanda/
+photo.59.tags: paws, portrait, sample, white face
+photo.60: ig://CaBUFPyPkrB/m
+photo.60.author: minatomirai215
 photo.60.commitdate: 2022/3/5
-photo.60.link: https://www.instagram.com/fetorus_mami/
-photo.60.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.61: ig://CaKlw4IBRpT/m
+photo.60.link: https://www.instagram.com/minatomirai215/
+photo.60.tags: mofumofu, muzzle, peek
+photo.61: ig://CaGqMsqvxzs/m
 photo.61.author: fetorus_mami
-photo.61.commitdate: 2022/3/11
+photo.61.commitdate: 2022/3/5
 photo.61.link: https://www.instagram.com/fetorus_mami/
-photo.61.tags: close-up, sample, white face, whiskers
-photo.62: https://www.instagram.com/p/CZ_jssuPD2E/media/?size=m
-photo.62.author: otenba_redpanda
-photo.62.link: https://www.instagram.com/otenba_redpanda/
-photo.62.tags: paws, portrait, sample, white face
+photo.61.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.62: ig://CaKlw4IBRpT/m
+photo.62.author: fetorus_mami
+photo.62.commitdate: 2022/3/11
+photo.62.link: https://www.instagram.com/fetorus_mami/
+photo.62.tags: close-up, sample, white face, whiskers
 species: 2
 studbook.id: 0293
 zoo: 9
