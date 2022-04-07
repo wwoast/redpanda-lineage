@@ -158,8 +158,9 @@ photo.29.author: leonard_redmof
 photo.29.commitdate: 2022/3/5
 photo.29.link: https://www.instagram.com/leonard_redmof/
 photo.29.tags: itchy, paws, portrait, shake, snow
-photo.30: https://www.instagram.com/p/CbAIXAWP5QE/media/?size=m
+photo.30: ig://CbAIXAWP5QE/m
 photo.30.author: sasapan34
+photo.30.commitdate: 2022/4/7
 photo.30.link: https://www.instagram.com/sasapan34/
 photo.30.tags: paws, peek, snow
 species: 2

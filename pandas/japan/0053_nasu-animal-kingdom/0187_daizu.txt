@@ -217,15 +217,16 @@ photo.41.author: nasu_animal_kingdom
 photo.41.commitdate: 2022/2/5
 photo.41.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.41.tags: close-up, paws, sample, standing, whiskers
-photo.42: ig://CbHEhMTPzwi/m
-photo.42.author: nasu_animal_kingdom
-photo.42.commitdate: 2022/4/5
-photo.42.link: https://www.instagram.com/nasu_animal_kingdom/
-photo.42.tags: close-up, paws, sample, scale, whiskers
-photo.43: https://www.instagram.com/p/Ca_lqnfrQz8/media/?size=m
-photo.43.author: panda.daisuki
-photo.43.link: https://www.instagram.com/panda.daisuki/
-photo.43.tags: portrait, snow, tail, tree
+photo.42: ig://Ca_lqnfrQz8/m
+photo.42.author: panda.daisuki
+photo.42.commitdate: 2022/4/7
+photo.42.link: https://www.instagram.com/panda.daisuki/
+photo.42.tags: portrait, snow, tail, tree
+photo.43: ig://CbHEhMTPzwi/m
+photo.43.author: nasu_animal_kingdom
+photo.43.commitdate: 2022/4/5
+photo.43.link: https://www.instagram.com/nasu_animal_kingdom/
+photo.43.tags: close-up, paws, sample, scale, whiskers
 species: 2
 studbook.id: 1090
 zoo: 53

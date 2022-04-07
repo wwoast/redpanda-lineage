@@ -450,15 +450,16 @@ photo.87.author: mini_cochi
 photo.87.commitdate: 2022/3/9
 photo.87.link: https://www.instagram.com/mini_cochi/
 photo.87.tags: eye, paws, portrait, sample, snow
-photo.88: ig://CarYfwuPO2x/m
-photo.88.author: ssc6105
-photo.88.commitdate: 2022/3/10
-photo.88.link: https://www.instagram.com/ssc6105/
-photo.88.tags: close-up, eye, mofumofu, paws, sample
-photo.89: https://www.instagram.com/p/CaChnhkvkoi/media/?size=m
-photo.89.author: craig_craig_craig
-photo.89.link: https://www.instagram.com/craig_craig_craig/
-photo.89.tags: eye, laying down, paws, snow
+photo.88: ig://CaChnhkvkoi/m
+photo.88.author: craig_craig_craig
+photo.88.commitdate: 2022/4/7
+photo.88.link: https://www.instagram.com/craig_craig_craig/
+photo.88.tags: eye, laying down, paws, snow
+photo.89: ig://CarYfwuPO2x/m
+photo.89.author: ssc6105
+photo.89.commitdate: 2022/3/10
+photo.89.link: https://www.instagram.com/ssc6105/
+photo.89.tags: close-up, eye, mofumofu, paws, sample
 species: 2
 studbook.id: 0366
 zoo: 8

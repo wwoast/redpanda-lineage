@@ -663,24 +663,26 @@ photo.130.author: ck.chie
 photo.130.commitdate: 2022/3/6
 photo.130.link: https://www.instagram.com/ck.chie/
 photo.130.tags: apple time, lips, paws, sample, smile, tail, whiskers
-photo.131: ig://CaQXWxEPO1g/m
-photo.131.author: otenba_redpanda
-photo.131.commitdate: 2022/3/11
-photo.131.link: https://www.instagram.com/otenba_redpanda/
-photo.131.tags: bamboo, paws, sample, standing
-photo.132: ig://CaxIFGMvL1q/m
-photo.132.author: minatomirai215
-photo.132.commitdate: 2022/4/5
-photo.132.link: https://www.instagram.com/minatomirai215/
-photo.132.tags: climb, keeper, peek, portrait, sample
-photo.133: https://www.instagram.com/p/CaFmAw0hSnx/media/?size=m
-photo.133.author: eos1089
-photo.133.link: https://www.instagram.com/eos1089/
-photo.133.tags: bamboo, mofumofu, portrait, sample, snow, techitechi
-photo.134: https://www.instagram.com/p/CaHdtfVP9Dt/media/?size=m
-photo.134.author: ck.chie
-photo.134.link: https://www.instagram.com/ck.chie/
-photo.134.tags: mofumofu, peek, tree
+photo.131: ig://CaFmAw0hSnx/m
+photo.131.author: eos1089
+photo.131.commitdate: 2022/4/7
+photo.131.link: https://www.instagram.com/eos1089/
+photo.131.tags: bamboo, mofumofu, portrait, sample, snow, techitechi
+photo.132: ig://CaHdtfVP9Dt/m
+photo.132.author: ck.chie
+photo.132.commitdate: 2022/4/7
+photo.132.link: https://www.instagram.com/ck.chie/
+photo.132.tags: mofumofu, peek, tree
+photo.133: ig://CaQXWxEPO1g/m
+photo.133.author: otenba_redpanda
+photo.133.commitdate: 2022/3/11
+photo.133.link: https://www.instagram.com/otenba_redpanda/
+photo.133.tags: bamboo, paws, sample, standing
+photo.134: ig://CaxIFGMvL1q/m
+photo.134.author: minatomirai215
+photo.134.commitdate: 2022/4/5
+photo.134.link: https://www.instagram.com/minatomirai215/
+photo.134.tags: climb, keeper, peek, portrait, sample
 species: 2
 studbook.id: 13155
 zoo: 8

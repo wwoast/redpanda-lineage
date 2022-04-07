@@ -413,8 +413,9 @@ photo.80.author: otenba_redpanda
 photo.80.commitdate: 2022/2/20
 photo.80.link: https://www.instagram.com/otenba_redpanda/
 photo.80.tags: bamboo, bite, portrait, sample, whiskers
-photo.81: https://www.instagram.com/p/CaBbXojtNOo/media/?size=m
+photo.81: ig://CaBbXojtNOo/m
 photo.81.author: lesserpanda_shizuokacity_cp
+photo.81.commitdate: 2022/4/7
 photo.81.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.81.tags: peek
 species: 2

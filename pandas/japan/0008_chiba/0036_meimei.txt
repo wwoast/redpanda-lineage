@@ -217,15 +217,16 @@ photo.41.author: rie_panda55
 photo.41.commitdate: 2022/3/5
 photo.41.link: https://www.instagram.com/rie_panda55/
 photo.41.tags: muzzle, paws, portrait, sample, tail, tongue
-photo.42: ig://CajkeUiPM1t/m
-photo.42.author: ssc6105
-photo.42.commitdate: 2022/3/6
-photo.42.link: https://www.instagram.com/ssc6105/
-photo.42.tags: muzzle, paws, sample, tongue
-photo.43: https://www.instagram.com/p/CaHsiq8l439/media/?size=m
-photo.43.author: mini_cochi
-photo.43.link: https://www.instagram.com/mini_cochi/
-photo.43.tags: paws, peek, portrait, sample, whiskers
+photo.42: ig://CaHsiq8l439/m
+photo.42.author: mini_cochi
+photo.42.commitdate: 2022/4/7
+photo.42.link: https://www.instagram.com/mini_cochi/
+photo.42.tags: paws, peek, portrait, sample, whiskers
+photo.43: ig://CajkeUiPM1t/m
+photo.43.author: ssc6105
+photo.43.commitdate: 2022/3/6
+photo.43.link: https://www.instagram.com/ssc6105/
+photo.43.tags: muzzle, paws, sample, tongue
 species: 2
 studbook.id: 0771
 zoo: 8

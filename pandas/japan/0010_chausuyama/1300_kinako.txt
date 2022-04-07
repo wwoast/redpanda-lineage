@@ -258,38 +258,35 @@ photo.49.author: redpan22
 photo.49.commitdate: 2022/2/20
 photo.49.link: https://www.instagram.com/redpan22/
 photo.49.tags: hammock, laying down, paws, playing, peek, portrait, sample
-photo.50: ig://CZ1xFIBPQEo/m
+photo.50: ig://CZo0MiOPjjx/m
 photo.50.author: redpan22
-photo.50.commitdate: 2022/3/19
+photo.50.commitdate: 2022/4/7
 photo.50.link: https://www.instagram.com/redpan22/
-photo.50.tags: bamboo, laying down, paws, playing, upside-down
-photo.51: ig://CZ4XLaJvM9H/m
-photo.51.author: alto0908
-photo.51.commitdate: 2022/3/9
-photo.51.link: https://www.instagram.com/alto0908/
-photo.51.tags: close-up, hammock, peek, sample, techitechi
-photo.52: ig://CZ58cSbJgm9/m
-photo.52.author: otenba_redpanda
+photo.50.tags: bridge, laying down, paws
+photo.51: ig://CZ1xFIBPQEo/m
+photo.51.author: redpan22
+photo.51.commitdate: 2022/3/19
+photo.51.link: https://www.instagram.com/redpan22/
+photo.51.tags: bamboo, laying down, paws, playing, upside-down
+photo.52: ig://CZ4XLaJvM9H/m
+photo.52.author: alto0908
 photo.52.commitdate: 2022/3/9
-photo.52.link: https://www.instagram.com/otenba_redpanda/
-photo.52.tags: close-up, laying down, mofumofu, portrait, sample
-photo.53: ig://CaTD9eEBWoL/m
+photo.52.link: https://www.instagram.com/alto0908/
+photo.52.tags: close-up, hammock, peek, sample, techitechi
+photo.53: ig://CZ58cSbJgm9/m
 photo.53.author: otenba_redpanda
-photo.53.commitdate: 2022/3/13
+photo.53.commitdate: 2022/3/9
 photo.53.link: https://www.instagram.com/otenba_redpanda/
-photo.53.tags: bite, close-up, mofumofu, portrait, techitechi
-photo.54: ig://CaretvcvfMR/m
-photo.54.author: alto0908
-photo.54.commitdate: 2022/3/10
-photo.54.link: https://www.instagram.com/alto0908/
-photo.54.tags: close-up, mofumofu, portrait, sleeping
-photo.55: https://www.instagram.com/p/CZ58cSbJgm9/media/?size=m
-photo.55.author: otenba_redpanda
-photo.55.link: https://www.instagram.com/otenba_redpanda/
-photo.55.tags: laying down, mofumofu, portrait, sample
-photo.56: https://www.instagram.com/p/CZo0MiOPjjx/media/?size=m
-photo.56.author: redpan22
-photo.56.link: https://www.instagram.com/redpan22/
-photo.56.tags: bridge, laying down, paws
+photo.53.tags: close-up, laying down, mofumofu, portrait, sample
+photo.54: ig://CaTD9eEBWoL/m
+photo.54.author: otenba_redpanda
+photo.54.commitdate: 2022/3/13
+photo.54.link: https://www.instagram.com/otenba_redpanda/
+photo.54.tags: bite, close-up, mofumofu, portrait, techitechi
+photo.55: ig://CaretvcvfMR/m
+photo.55.author: alto0908
+photo.55.commitdate: 2022/3/10
+photo.55.link: https://www.instagram.com/alto0908/
+photo.55.tags: close-up, mofumofu, portrait, sleeping
 species: 2
 zoo: 10
