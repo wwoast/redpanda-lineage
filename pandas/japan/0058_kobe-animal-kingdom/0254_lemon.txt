@@ -569,30 +569,31 @@ photo.111.author: colette.jp
 photo.111.commitdate: 2022/1/9
 photo.111.link: https://www.instagram.com/colette.jp/
 photo.111.tags: portrait, sample, smile, tongue, whiskers
-photo.112: ig://CXN3kz8BPlU/m
-photo.112.author: imagoto17
-photo.112.commitdate: 2021/12/26
-photo.112.link: https://www.instagram.com/imagoto17/
-photo.112.tags: close-up, peek, portrait, whiskers
-photo.113: ig://CXc0PuTv84b/m
-photo.113.author: grskus_tk
-photo.113.commitdate: 2021/12/22
-photo.113.link: https://www.instagram.com/grskus_tk/
-photo.113.tags: sample, smile, whiskers
-photo.114: ig://CYoVAocPs9C/m
-photo.114.author: redpan22
-photo.114.commitdate: 2022/1/30
-photo.114.link: https://www.instagram.com/redpan22/
-photo.114.tags: sample, tongue, whiskers
-photo.115: ig://CbADZ9PPLqH/m
-photo.115.author: jas_forever_love
-photo.115.commitdate: 2022/3/20
-photo.115.link: https://www.instagram.com/jas_forever_love/
-photo.115.tags: close-up, sample, smile, whiskers
-photo.116: https://www.instagram.com/p/CXNwGOLvW8U/media/?size=m
-photo.116.author: grskus_tk
-photo.116.link: https://www.instagram.com/grskus_tk/
-photo.116.tags: paws, whiskers
+photo.112: ig://CXNwGOLvW8U/m
+photo.112.author: grskus_tk
+photo.112.commitdate: 2022/4/8
+photo.112.link: https://www.instagram.com/grskus_tk/
+photo.112.tags: paws, whiskers
+photo.113: ig://CXN3kz8BPlU/m
+photo.113.author: imagoto17
+photo.113.commitdate: 2021/12/26
+photo.113.link: https://www.instagram.com/imagoto17/
+photo.113.tags: close-up, peek, portrait, whiskers
+photo.114: ig://CXc0PuTv84b/m
+photo.114.author: grskus_tk
+photo.114.commitdate: 2021/12/22
+photo.114.link: https://www.instagram.com/grskus_tk/
+photo.114.tags: sample, smile, whiskers
+photo.115: ig://CYoVAocPs9C/m
+photo.115.author: redpan22
+photo.115.commitdate: 2022/1/30
+photo.115.link: https://www.instagram.com/redpan22/
+photo.115.tags: sample, tongue, whiskers
+photo.116: ig://CbADZ9PPLqH/m
+photo.116.author: jas_forever_love
+photo.116.commitdate: 2022/3/20
+photo.116.link: https://www.instagram.com/jas_forever_love/
+photo.116.tags: close-up, sample, smile, whiskers
 species: 2
 studbook.id: 14164
 zoo: 58
