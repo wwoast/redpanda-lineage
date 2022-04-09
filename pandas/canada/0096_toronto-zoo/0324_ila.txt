@@ -139,51 +139,41 @@ photo.25.author: thetorontozoo
 photo.25.commitdate: 2019/12/16
 photo.25.link: https://www.instagram.com/thetorontozoo/
 photo.25.tags: paws, snow, standing
-photo.26: ig://B56JdojJnBJ/m
-photo.26.author: thegrumpypenguin
-photo.26.commitdate: 2020/11/17
-photo.26.link: https://www.instagram.com/thegrumpypenguin/
-photo.26.tags: nose, peek, portrait, window
-photo.27: ig://B6uOhgkBgtE/m
-photo.27.author: carsontheredpanda
-photo.27.commitdate: 2019/12/31
-photo.27.link: https://www.instagram.com/carsontheredpanda/
-photo.27.tags: mofumofu, portrait, tail
-photo.28: ig://B7NMr-_AFvU/m
+photo.26: ig://B6uOhgkBgtE/m
+photo.26.author: carsontheredpanda
+photo.26.commitdate: 2019/12/31
+photo.26.link: https://www.instagram.com/carsontheredpanda/
+photo.26.tags: mofumofu, portrait, tail
+photo.27: ig://B7NMr-_AFvU/m
+photo.27.author: westcoast_kathy
+photo.27.commitdate: 2020/11/17
+photo.27.link: https://www.instagram.com/westcoast_kathy/
+photo.27.tags: mofumofu, portrait, smile, whiskers
+photo.28: ig://B9VkP3EAuaH/m
 photo.28.author: westcoast_kathy
-photo.28.commitdate: 2020/11/17
+photo.28.commitdate: 2020/3/9
 photo.28.link: https://www.instagram.com/westcoast_kathy/
-photo.28.tags: mofumofu, portrait, smile, whiskers
-photo.29: ig://B8JnnF3JwNn/m
-photo.29.author: thegrumpypenguin
-photo.29.commitdate: 2020/11/17
-photo.29.link: https://www.instagram.com/thegrumpypenguin/
-photo.29.tags: air tasting, bamboo, tongue
-photo.30: ig://B9VkP3EAuaH/m
+photo.28.tags: mofumofu, portrait
+photo.29: ig://B9kGA1IhQ47/m
+photo.29.author: thetorontozoo
+photo.29.commitdate: 2020/3/12
+photo.29.link: https://www.instagram.com/thetorontozoo/
+photo.29.tags: bamboo, paws, smile
+photo.30: ig://B_OmRfkAau_/m
 photo.30.author: westcoast_kathy
-photo.30.commitdate: 2020/3/9
+photo.30.commitdate: 2020/11/15
 photo.30.link: https://www.instagram.com/westcoast_kathy/
-photo.30.tags: mofumofu, portrait
-photo.31: ig://B9kGA1IhQ47/m
+photo.30.tags: mofumofu, peek, tree
+photo.31: ig://B_QX3c2g1uX/m
 photo.31.author: thetorontozoo
-photo.31.commitdate: 2020/3/12
+photo.31.commitdate: 2020/5/2
 photo.31.link: https://www.instagram.com/thetorontozoo/
-photo.31.tags: bamboo, paws, smile
-photo.32: ig://B_OmRfkAau_/m
-photo.32.author: westcoast_kathy
-photo.32.commitdate: 2020/11/15
-photo.32.link: https://www.instagram.com/westcoast_kathy/
-photo.32.tags: mofumofu, peek, tree
-photo.33: ig://B_QX3c2g1uX/m
-photo.33.author: thetorontozoo
-photo.33.commitdate: 2020/5/2
-photo.33.link: https://www.instagram.com/thetorontozoo/
-photo.33.tags: paws, standing, tail, training
-photo.34: ig://CYFR9Z9r3bF/m
-photo.34.author: worldthathesees
-photo.34.commitdate: 2022/1/31
-photo.34.link: https://www.instagram.com/worldthathesees/
-photo.34.tags: mofumofu, whiskers
+photo.31.tags: paws, standing, tail, training
+photo.32: ig://CYFR9Z9r3bF/m
+photo.32.author: worldthathesees
+photo.32.commitdate: 2022/1/31
+photo.32.link: https://www.instagram.com/worldthathesees/
+photo.32.tags: mofumofu, whiskers
 species: 2
 studbook.id: 1809
 zoo: 96

@@ -35,56 +35,51 @@ photo.4.author: rossifari
 photo.4.commitdate: 2019/12/3
 photo.4.link: https://www.instagram.com/rossifari/
 photo.4.tags: autumn, portrait, tongue, whiskers
-photo.5: ig://B7GZ4gmJD8y/m
-photo.5.author: thegrumpypenguin
-photo.5.commitdate: 2020/11/17
-photo.5.link: https://www.instagram.com/thegrumpypenguin/
-photo.5.tags: smile
-photo.6: ig://B_pQZvPDBlj/m
-photo.6.author: rossifari
-photo.6.commitdate: 2020/5/4
-photo.6.link: https://www.instagram.com/rossifari/
-photo.6.tags: autumn, paws, portrait
-photo.7: ig://CEM-PBDg5hx/m
+photo.5: ig://B_pQZvPDBlj/m
+photo.5.author: rossifari
+photo.5.commitdate: 2020/5/4
+photo.5.link: https://www.instagram.com/rossifari/
+photo.5.tags: autumn, paws, portrait
+photo.6: ig://CEM-PBDg5hx/m
+photo.6.author: thetorontozoo
+photo.6.commitdate: 2020/8/28
+photo.6.link: https://www.instagram.com/thetorontozoo/
+photo.6.tags: bridge, laying down, paws, portrait
+photo.7: ig://CGKuy-JggZ2/m
 photo.7.author: thetorontozoo
-photo.7.commitdate: 2020/8/28
+photo.7.commitdate: 2020/12/6
 photo.7.link: https://www.instagram.com/thetorontozoo/
-photo.7.tags: bridge, laying down, paws, portrait
-photo.8: ig://CGKuy-JggZ2/m
+photo.7.tags: close-up, nose
+photo.8: ig://CII90sABjka/m
 photo.8.author: thetorontozoo
-photo.8.commitdate: 2020/12/6
+photo.8.commitdate: 2020/12/3
 photo.8.link: https://www.instagram.com/thetorontozoo/
-photo.8.tags: close-up, nose
-photo.9: ig://CII90sABjka/m
+photo.8.tags: paws, smile, whiskers
+photo.9: ig://CLhF0UAh_PP/m
 photo.9.author: thetorontozoo
-photo.9.commitdate: 2020/12/3
+photo.9.commitdate: 2021/3/18
 photo.9.link: https://www.instagram.com/thetorontozoo/
-photo.9.tags: paws, smile, whiskers
-photo.10: ig://CLhF0UAh_PP/m
+photo.9.tags: nose, paws, peek, whiskers
+photo.10: ig://CQE0eXmBZZy/m
 photo.10.author: thetorontozoo
-photo.10.commitdate: 2021/3/18
+photo.10.commitdate: 2021/7/25
 photo.10.link: https://www.instagram.com/thetorontozoo/
-photo.10.tags: nose, paws, peek, whiskers
-photo.11: ig://CQE0eXmBZZy/m
+photo.10.tags: bamboo, close-up, peek, smile
+photo.11: ig://CTSSCiWChas/m
 photo.11.author: thetorontozoo
-photo.11.commitdate: 2021/7/25
+photo.11.commitdate: 2021/9/10
 photo.11.link: https://www.instagram.com/thetorontozoo/
-photo.11.tags: bamboo, close-up, peek, smile
-photo.12: ig://CTSSCiWChas/m
+photo.11.tags: dish, lunch time, mofumofu, paws
+photo.12: ig://CT4oWj4M7LV/m
 photo.12.author: thetorontozoo
-photo.12.commitdate: 2021/9/10
+photo.12.commitdate: 2022/2/28
 photo.12.link: https://www.instagram.com/thetorontozoo/
-photo.12.tags: dish, lunch time, mofumofu, paws
-photo.13: ig://CT4oWj4M7LV/m
+photo.12.tags: close-up, paws, nose, sample, whiskers
+photo.13: ig://CT9vigXgwoa/m
 photo.13.author: thetorontozoo
 photo.13.commitdate: 2022/2/28
 photo.13.link: https://www.instagram.com/thetorontozoo/
-photo.13.tags: close-up, paws, nose, sample, whiskers
-photo.14: ig://CT9vigXgwoa/m
-photo.14.author: thetorontozoo
-photo.14.commitdate: 2022/2/28
-photo.14.link: https://www.instagram.com/thetorontozoo/
-photo.14.tags: close-up, nose, whiskers
+photo.13.tags: close-up, nose, whiskers
 species: 2
 studbook.id: 1701
 zoo: 96
