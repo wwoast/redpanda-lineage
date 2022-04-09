@@ -78,20 +78,21 @@ photo.13.author: rossifari
 photo.13.commitdate: 2021/2/19
 photo.13.link: https://www.instagram.com/rossifari/
 photo.13.tags: bamboo, paws, portrait, smile
-photo.14: ig://COr_QmFtatr/m
-photo.14.author: rossifari
-photo.14.commitdate: 2021/6/13
-photo.14.link: https://www.instagram.com/rossifari/
-photo.14.tags: peek, portrait, whiskers
-photo.15: ig://CP7yLx4ganY/m
+photo.14: ig://CNmhzmTFmOD/m
+photo.14.author: cincinnatizoo
+photo.14.commitdate: 2022/4/8
+photo.14.link: https://www.instagram.com/cincinnatizoo/
+photo.14.tags: paws, sample, smile, tongue, whiskers
+photo.15: ig://COr_QmFtatr/m
 photo.15.author: rossifari
-photo.15.commitdate: 2021/6/19
+photo.15.commitdate: 2021/6/13
 photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: peek, portrait, tongue, whiskers
-photo.16: https://www.instagram.com/p/CNmhzmTFmOD/media/?size=m
-photo.16.author: cincinnatizoo
-photo.16.link: https://www.instagram.com/cincinnatizoo/
-photo.16.tags: paws, sample, smile, tongue, whiskers
+photo.15.tags: peek, portrait, whiskers
+photo.16: ig://CP7yLx4ganY/m
+photo.16.author: rossifari
+photo.16.commitdate: 2021/6/19
+photo.16.link: https://www.instagram.com/rossifari/
+photo.16.tags: peek, portrait, tongue, whiskers
 species: 2
 studbook.id: 1319
 zoo: 65

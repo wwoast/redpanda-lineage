@@ -1140,8 +1140,9 @@ photo.226.author: cattail.sapporo
 photo.226.commitdate: 2022/3/18
 photo.226.link: https://www.instagram.com/cattail.sapporo/
 photo.226.tags: portrait, sample, shake, snow
-photo.227: https://www.instagram.com/p/CbPjcm0rM2I/media/?size=m
+photo.227: ig://CbPjcm0rM2I/m
 photo.227.author: cattail.sapporo
+photo.227.commitdate: 2022/4/8
 photo.227.link: https://www.instagram.com/cattail.sapporo/
 photo.227.tags: mofumofu, portrait, whiskers
 species: 2

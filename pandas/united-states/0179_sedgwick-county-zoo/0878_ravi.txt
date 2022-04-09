@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 877
 location.1: 146, 2019/6/2
 location.2: 179, 2020/5/1
+phoot.33.tags: bamboo, close-up, tongue, whiskers
 photo.1: ig://B2_59HAHkJ2/m
 photo.1.author: okczoo
 photo.1.commitdate: 2019/10/15
@@ -165,21 +166,23 @@ photo.30.author: sedgwickcountyzoo
 photo.30.commitdate: 2022/1/9
 photo.30.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.30.tags: close-up, paws, portrait, whiskers
-photo.31: ig://CaAnpARLG2A/m
+photo.31: ig://CXt9JIyLzSX/m
 photo.31.author: sedgwickcountyzoo
-photo.31.commitdate: 2022/4/5
+photo.31.commitdate: 2022/4/8
 photo.31.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.31.tags: bamboo, bite, close-up, sample, tongue, whiskers
-photo.32: https://www.instagram.com/p/CYrxroLLnJR/media/?size=m
+photo.32: ig://CYrxroLLnJR/m
 photo.32.author: sedgwickcountyzoo
+photo.32.commitdate: 2022/4/8
 photo.32.link: https://www.instagram.com/sedgwickcountyzoo/
 photo.32.tags: paws, portrait, sample, smile, whiskers
-photo.33: https://www.instagram.com/p/CXt9JIyLzSX/media/?size=m
+photo.33: ig://CaAnpARLG2A/m
 photo.33.author: sedgwickcountyzoo
+photo.33.commitdate: 2022/4/5
 photo.33.link: https://www.instagram.com/sedgwickcountyzoo/
-phoot.33.tags: bamboo, close-up, tongue, whiskers
-photo.34: https://www.instagram.com/p/CaFjsS6phCK/media/?size=m
+photo.33.tags: bamboo, bite, close-up, sample, tongue, whiskers
+photo.34: ig://CaFjsS6phCK/m
 photo.34.author: sedgwickcountyzoo
+photo.34.commitdate: 2022/4/8
 photo.34.link: https://www.instagram.com/carsontheredpanda/
 photo.34.tags: paws, portrait, smile, snow, standing, whiskers
 species: 1

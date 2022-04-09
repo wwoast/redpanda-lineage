@@ -452,8 +452,9 @@ photo.88.author: daniele.tokyo
 photo.88.commitdate: 2022/4/5
 photo.88.link: https://www.instagram.com/daniele.tokyo/
 photo.88.tags: apple time, bite, close-up, snow, whiskers
-photo.89: https://www.instagram.com/p/CbM55Y0v2h0/media/?size=m
+photo.89: ig://CbM55Y0v2h0/m
 photo.89.author: daniele.tokyo
+photo.89.commitdate: 2022/4/8
 photo.89.link: https://www.instagram.com/daniele.tokyo/
 photo.89.tags: bamboo, laying down, portrait, sample, tail
 species: 2

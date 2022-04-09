@@ -590,24 +590,26 @@ photo.115.author: panda.daisuki
 photo.115.commitdate: 2022/3/5
 photo.115.link: https://www.instagram.com/panda.daisuki/
 photo.115.tags: close-up, portrait, sample, whiskers
-photo.116: ig://CaecCH9PQko/m
+photo.116: ig://CaMiuRfPs30/m
 photo.116.author: ssc6105
-photo.116.commitdate: 2022/3/10
+photo.116.commitdate: 2022/4/8
 photo.116.link: https://www.instagram.com/ssc6105/
-photo.116.tags: bamboo, paws, sample, smile, tongue, whiskers
-photo.117: ig://Cahx-R0PPH0/m
-photo.117.author: minatomirai215
-photo.117.commitdate: 2022/3/8
-photo.117.link: https://www.instagram.com/minatomirai215/
-photo.117.tags: bamboo, paws, portrait, smile
-photo.118: https://www.instagram.com/p/CaUOtnSvywT/media/?size=m
+photo.116.tags: close-up, sample, whiskers
+photo.117: ig://CaUOtnSvywT/m
+photo.117.author: ssc6105
+photo.117.commitdate: 2022/4/8
+photo.117.link: https://www.instagram.com/ssc6105/
+photo.117.tags: bamboo, close-up, sample, smile, whiskers
+photo.118: ig://CaecCH9PQko/m
 photo.118.author: ssc6105
+photo.118.commitdate: 2022/3/10
 photo.118.link: https://www.instagram.com/ssc6105/
-photo.118.tags: bamboo, close-up, sample, smile, whiskers
-photo.119: https://www.instagram.com/p/CaMiuRfPs30/media/?size=m
-photo.119.author: ssc6105
-photo.119.link: https://www.instagram.com/ssc6105/
-photo.119.tags: close-up, sample, whiskers
+photo.118.tags: bamboo, paws, sample, smile, tongue, whiskers
+photo.119: ig://Cahx-R0PPH0/m
+photo.119.author: minatomirai215
+photo.119.commitdate: 2022/3/8
+photo.119.link: https://www.instagram.com/minatomirai215/
+photo.119.tags: bamboo, paws, portrait, smile
 species: 2
 studbook.id: 14165
 zoo: 8

@@ -1,15 +1,18 @@
 [media]
 _id: media.127.lukas-media-starlight
+commitdate: 2022/4/8
 panda.tags: 560, 1337, 1338
-photo.1: https://www.instagram.com/p/CVQkACGr4fR/media/?size=l
+photo.1: ig://CVQkACGr4fR/l
 photo.1.author: senecaparkzoo
+photo.1.commitdate: 2022/4/8
 photo.1.link: https://www.instagram.com/senecaparkzoo/
 photo.1.tags: bamboo, family, portrait, tail
 photo.1.tags.560.location: 85, 350
 photo.1.tags.1337.location: 370, 150
 photo.1.tags.1338.location: 185, 150
-photo.2: https://www.instagram.com/p/CYhHsWZrOwd/media/?size=l
+photo.2: ig://CYhHsWZrOwd/l
 photo.2.author: senecaparkzoo
+photo.2.commitdate: 2022/4/8
 photo.2.link: https://www.instagram.com/senecaparkzoo/
 photo.2.tags: family, laying down, mofumofu
 photo.2.tags.560.location: 520, 180

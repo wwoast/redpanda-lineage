@@ -10,8 +10,9 @@ photo.1.tags: keeper, standing, tail
 photo.1.tags.44.location: 765, 185
 photo.1.tags.51.location: 345, 640
 photo.1.tags.52.location: 175, 575
-photo.2: https://www.instagram.com/p/CaAQDDchA6n/media/?size=l
+photo.2: ig://CaAQDDchA6n/l
 photo.2.author: nakacchi_desu
+photo.2.commitdate: 2022/4/8
 photo.2.link: https://www.instagram.com/nakacchi_desu/
 photo.2.tags: laying down, peek, tail
 photo.2.tags.44.location: 260, 160

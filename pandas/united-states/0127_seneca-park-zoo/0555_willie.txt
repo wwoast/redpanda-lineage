@@ -41,15 +41,16 @@ photo.5.author: senecaparkzoo
 photo.5.commitdate: 2021/7/29
 photo.5.link: https://www.instagram.com/senecaparkzoo/
 photo.5.tags: hammock, white face
-photo.6: ig://CX3JTeFLIFf/m
-photo.6.author: worldthathesees
-photo.6.commitdate: 2022/3/24
+photo.6: ig://CUp3Sc0Nd7R/m
+photo.6.author: senecaparkzoo
+photo.6.commitdate: 2022/4/8
 photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: whiskers, white face
-photo.7: https://www.instagram.com/p/CUp3Sc0Nd7R/media/?size=m
-photo.7.author: senecaparkzoo
+photo.6.tags: portrait, tongue, white face
+photo.7: ig://CX3JTeFLIFf/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2022/3/24
 photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: portrait, tongue, white face
+photo.7.tags: whiskers, white face
 species: 1
 studbook.id: 1520
 uncertainty: location.3 date

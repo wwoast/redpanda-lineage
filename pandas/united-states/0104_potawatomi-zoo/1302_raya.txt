@@ -28,19 +28,20 @@ photo.3.author: redpandanetwork
 photo.3.commitdate: 2022/2/19
 photo.3.link: https://www.instagram.com/redpandanetwork/
 photo.3.tags: baby, laying down, mofumofu, newborn
-photo.4: ig://CZUoE_UJ0hC/m
-photo.4.author: juliapartenope
-photo.4.commitdate: 2022/2/28
-photo.4.link: https://www.instagram.com/carsontheredpanda/
-photo.4.tags: paws, portrait, sample, tail, whiskers, white face
-photo.5: ig://CZe1l_tL7uF/m
-photo.5.author: potawatomizoo
-photo.5.commitdate: 2022/2/19
-photo.5.link: https://www.instagram.com/potawatomizoo/
-photo.5.tags: bamboo, home, paws, portrait, white face
-photo.6: https://www.instagram.com/p/CXeDJO0rFke/media/?size=m
+photo.4: ig://CXeDJO0rFke/m
+photo.4.author: potawatomizoo
+photo.4.commitdate: 2022/4/8
+photo.4.link: https://www.instagram.com/potawatomizoo/
+photo.4.tags: baby, mofumofu, paws, smile, tail, whiskers, white face
+photo.5: ig://CZUoE_UJ0hC/m
+photo.5.author: juliapartenope
+photo.5.commitdate: 2022/2/28
+photo.5.link: https://www.instagram.com/carsontheredpanda/
+photo.5.tags: paws, portrait, sample, tail, whiskers, white face
+photo.6: ig://CZe1l_tL7uF/m
 photo.6.author: potawatomizoo
+photo.6.commitdate: 2022/2/19
 photo.6.link: https://www.instagram.com/potawatomizoo/
-photo.6.tags: baby, mofumofu, paws, smile, tail, whiskers, white face
+photo.6.tags: bamboo, home, paws, portrait, white face
 species: 1
 zoo: 104
