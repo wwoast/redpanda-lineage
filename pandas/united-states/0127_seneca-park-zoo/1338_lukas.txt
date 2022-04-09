@@ -13,5 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1337
+photo.1: https://www.instagram.com/p/CWixppJLVdx/media/?size=m
+photo.1.author: senecaparkzoo
+photo.1.link: https://www.instagram.com/senecaparkzoo/
+photo.1.tags: baby, mofumofu, portrait, profile, sample, scale
 species: 1
 zoo: 127
