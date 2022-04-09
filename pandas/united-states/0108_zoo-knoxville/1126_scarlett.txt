@@ -16,5 +16,9 @@ language.order: en, jp
 litter: none
 location.1: 141, 2011/6/10
 location.2: 108, 2012/11/8
+photo.1: https://www.instagram.com/worldthathesees/p/CXQaAWwu7GC/media/?size=m
+photo.1.author: worldthathesees
+photo.1.link: https://www.instagram.com/worldthathesees/
+photo.1.tags: whiskers, white face
 species: 1
 zoo: 108
