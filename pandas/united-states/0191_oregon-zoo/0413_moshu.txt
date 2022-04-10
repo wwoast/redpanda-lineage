@@ -16,7 +16,6 @@ litter: 414, 415
 location.1: 83, 2011/6/20
 location.2: 90, 2012/5/14
 location.3: 191, 2019/11/17https://www.instagram.com/p/CbIjJ1ypqq2/media/?size=m
-
 photo.1: ig://BgMlUomBkEN/m
 photo.1.author: nashvillezoo
 photo.1.commitdate: 2018/12/12
@@ -91,8 +90,9 @@ photo.15.author: oregonzoo
 photo.15.commitdate: 2022/3/8
 photo.15.link: https://www.instagram.com/oregonzoo/
 photo.15.tags: flower, nose, whiskers
-photo.16: https://www.instagram.com/p/CbIjJ1ypqq2/media/?size=m
+photo.16: ig://CbIjJ1ypqq2/m
 photo.16.author: oregonzoo
+photo.16.commitdate: 2022/4/10
 photo.16.link: https://www.instagram.com/oregonzoo/
 photo.16.tags: close-up, lips, portrait, whiskers
 species: 2

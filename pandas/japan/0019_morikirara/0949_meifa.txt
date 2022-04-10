@@ -859,23 +859,25 @@ photo.169.author: otenba_redpanda
 photo.169.commitdate: 2022/4/4
 photo.169.link: https://www.instagram.com/otenba_redpanda/
 photo.169.tags: portrait, sample, techitechi, whiskers, wink
-photo.170: ig://CbKanXEJlE9/m
-photo.170.author: morikirara
-photo.170.commitdate: 2022/3/20
-photo.170.link: https://www.instagram.com/morikirara/
-photo.170.tags: bamboo, sample, smile, whiskers
-photo.171: ig://CbKtJ_Tvw6i/m
-photo.171.author: redpan22
-photo.171.commitdate: 2022/3/20
-photo.171.link: https://www.instagram.com/redpan22/
-photo.171.tags: bamboo, paws, portrait, sample, smile, tree, whiskers
-photo.172: https://www.instagram.com/p/CbH4WCAPgSH/media/?size=m
-photo.172.author: redpan22
-photo.172.link: https://www.instagram.com/redpan22/
-photo.172.tags: mofumofu, portrait, sample, whiskers
-photo.173: https://www.instagram.com/p/CbH4b-lr0p-/media/?size=m
-photo.173.author: mini_cochi
-photo.173.link: https://www.instagram.com/mini_cochi/
-photo.173.tags: portrait, sample, tail, whiskers
+photo.170: ig://CbH4WCAPgSH/m
+photo.170.author: redpan22
+photo.170.commitdate: 2022/4/10
+photo.170.link: https://www.instagram.com/redpan22/
+photo.170.tags: mofumofu, portrait, sample, whiskers
+photo.171: ig://CbH4b-lr0p-/m
+photo.171.author: mini_cochi
+photo.171.commitdate: 2022/4/10
+photo.171.link: https://www.instagram.com/mini_cochi/
+photo.171.tags: portrait, sample, tail, whiskers
+photo.172: ig://CbKanXEJlE9/m
+photo.172.author: morikirara
+photo.172.commitdate: 2022/3/20
+photo.172.link: https://www.instagram.com/morikirara/
+photo.172.tags: bamboo, sample, smile, whiskers
+photo.173: ig://CbKtJ_Tvw6i/m
+photo.173.author: redpan22
+photo.173.commitdate: 2022/3/20
+photo.173.link: https://www.instagram.com/redpan22/
+photo.173.tags: bamboo, paws, portrait, sample, smile, tree, whiskers
 species: 2
 zoo: 19
