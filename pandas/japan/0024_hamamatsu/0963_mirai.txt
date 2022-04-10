@@ -713,29 +713,30 @@ photo.140.author: hamamatsu.chiita
 photo.140.commitdate: 2022/3/9
 photo.140.link: https://www.instagram.com/hamamatsu.chiita/
 photo.140.tags: portrait, sample, whiskers
-photo.141: ig://CaIdt22BcFn/m
-photo.141.author: hamamatsu.chiita
-photo.141.commitdate: 2022/4/7
-photo.141.link: https://www.instagram.com/hamamatsu.chiita/
-photo.141.tags: close-up, portrait, sample, whiskers
-photo.142: ig://CaMerVivsf3/m
-photo.142.author: taka__3428
-photo.142.commitdate: 2022/3/11
-photo.142.link: https://www.instagram.com/taka__3428/
-photo.142.tags: apple time, bite, paws, playing, standing, toys
-photo.143: ig://CahihI2v8_F/m
+photo.141: ig://CaEAKRarQSF/m
+photo.141.author: otenba_redpanda
+photo.141.commitdate: 2022/4/10
+photo.141.link: https://www.instagram.com/otenba_redpanda/
+photo.141.tags: paws, portrait, sample, wave, whiskers
+photo.142: ig://CaIdt22BcFn/m
+photo.142.author: hamamatsu.chiita
+photo.142.commitdate: 2022/4/7
+photo.142.link: https://www.instagram.com/hamamatsu.chiita/
+photo.142.tags: close-up, portrait, sample, whiskers
+photo.143: ig://CaMerVivsf3/m
 photo.143.author: taka__3428
-photo.143.commitdate: 2022/3/10
+photo.143.commitdate: 2022/3/11
 photo.143.link: https://www.instagram.com/taka__3428/
-photo.143.tags: apple time, climb, close-up, paws, tongue
-photo.144: ig://Caj0b6avCl6/m
+photo.143.tags: apple time, bite, paws, playing, standing, toys
+photo.144: ig://CahihI2v8_F/m
 photo.144.author: taka__3428
 photo.144.commitdate: 2022/3/10
 photo.144.link: https://www.instagram.com/taka__3428/
-photo.144.tags: paws, sample, whiskers
-photo.145: https://www.instagram.com/p/CaEAKRarQSF/media/?size=m
-photo.145.author: otenba_redpanda
-photo.145.link: https://www.instagram.com/otenba_redpanda/
-photo.145.tags: paws, portrait, sample, wave, whiskers
+photo.144.tags: apple time, climb, close-up, paws, tongue
+photo.145: ig://Caj0b6avCl6/m
+photo.145.author: taka__3428
+photo.145.commitdate: 2022/3/10
+photo.145.link: https://www.instagram.com/taka__3428/
+photo.145.tags: paws, sample, whiskers
 species: 2
 zoo: 24

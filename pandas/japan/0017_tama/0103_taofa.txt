@@ -743,45 +743,46 @@ photo.146.author: redpan22
 photo.146.commitdate: 2022/1/30
 photo.146.link: https://www.instagram.com/redpan22/
 photo.146.tags: bamboo, nose, sample, whiskers
-photo.147: ig://CZQgWeGr460/m
-photo.147.author: otenba_redpanda
-photo.147.commitdate: 2022/3/19
-photo.147.link: https://www.instagram.com/otenba_redpanda/
-photo.147.tags: close-up, portrait, sample, smile, whiskers
-photo.148: ig://CZeXOAxPhdM/m
-photo.148.author: kotata_513
-photo.148.commitdate: 2022/2/12
-photo.148.link: https://www.instagram.com/kotata_513/
-photo.148.tags: bamboo, bite, portrait, sample, snow
-photo.149: ig://CZxpEPAPkRb/m
-photo.149.author: mini_cochi
-photo.149.commitdate: 2022/4/4
-photo.149.link: https://www.instagram.com/mini_cochi/
-photo.149.tags: paws, peek, portrait, sample, tree
-photo.150: ig://CZy7eePvSKx/m
-photo.150.author: otenba_redpanda
+photo.147: ig://CZMTFQOPEYs/m
+photo.147.author: redpan22
+photo.147.commitdate: 2022/4/10
+photo.147.link: https://www.instagram.com/redpan22/
+photo.147.tags: climb, paws, sample, tree, whiskers
+photo.148: ig://CZQgWeGr460/m
+photo.148.author: otenba_redpanda
+photo.148.commitdate: 2022/3/19
+photo.148.link: https://www.instagram.com/otenba_redpanda/
+photo.148.tags: close-up, portrait, sample, smile, whiskers
+photo.149: ig://CZeXOAxPhdM/m
+photo.149.author: kotata_513
+photo.149.commitdate: 2022/2/12
+photo.149.link: https://www.instagram.com/kotata_513/
+photo.149.tags: bamboo, bite, portrait, sample, snow
+photo.150: ig://CZxpEPAPkRb/m
+photo.150.author: mini_cochi
 photo.150.commitdate: 2022/4/4
-photo.150.link: https://www.instagram.com/otenba_redpanda/
-photo.150.tags: paws, peek, portrait, sample, whiskers
-photo.151: ig://CaZgdX1PgG6/m
-photo.151.author: ssc6105
-photo.151.commitdate: 2022/3/11
-photo.151.link: https://www.instagram.com/ssc6105/
-photo.151.tags: bite, paws, standing, tree
-photo.152: ig://Ca40APwr7PV/m
-photo.152.author: mini_cochi
-photo.152.commitdate: 2022/4/5
-photo.152.link: https://www.instagram.com/mini_cochi/
-photo.152.tags: bamboo, nose, paws, portrait, sample
-photo.153: ig://CbOazVNPZ2a/m
-photo.153.author: ssc6105
-photo.153.commitdate: 2022/3/20
-photo.153.link: https://www.instagram.com/ssc6105/
-photo.153.tags: autumn, paws, sample, tail, whiskers
-photo.154: https://www.instagram.com/p/CZMTFQOPEYs/media/?size=m
-photo.154.author: redpan22
-photo.154.link: https://www.instagram.com/redpan22/
-photo.154.tags: climb, paws, sample, tree, whiskers
+photo.150.link: https://www.instagram.com/mini_cochi/
+photo.150.tags: paws, peek, portrait, sample, tree
+photo.151: ig://CZy7eePvSKx/m
+photo.151.author: otenba_redpanda
+photo.151.commitdate: 2022/4/4
+photo.151.link: https://www.instagram.com/otenba_redpanda/
+photo.151.tags: paws, peek, portrait, sample, whiskers
+photo.152: ig://CaZgdX1PgG6/m
+photo.152.author: ssc6105
+photo.152.commitdate: 2022/3/11
+photo.152.link: https://www.instagram.com/ssc6105/
+photo.152.tags: bite, paws, standing, tree
+photo.153: ig://Ca40APwr7PV/m
+photo.153.author: mini_cochi
+photo.153.commitdate: 2022/4/5
+photo.153.link: https://www.instagram.com/mini_cochi/
+photo.153.tags: bamboo, nose, paws, portrait, sample
+photo.154: ig://CbOazVNPZ2a/m
+photo.154.author: ssc6105
+photo.154.commitdate: 2022/3/20
+photo.154.link: https://www.instagram.com/ssc6105/
+photo.154.tags: autumn, paws, sample, tail, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

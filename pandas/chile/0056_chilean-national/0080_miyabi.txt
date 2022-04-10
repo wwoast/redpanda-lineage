@@ -676,40 +676,41 @@ photo.133.author: fetorus_mami
 photo.133.commitdate: 2022/2/9
 photo.133.link: https://www.instagram.com/fetorus_mami/
 photo.133.tags: bamboo, paws, sample, whiskers
-photo.134: ig://CZRwedTFvI5/m
+photo.134: ig://CZLLegQvWvB/m
 photo.134.author: fetorus_mami
-photo.134.commitdate: 2022/2/19
+photo.134.commitdate: 2022/4/10
 photo.134.link: https://www.instagram.com/fetorus_mami/
-photo.134.tags: bamboo, bite, close-up, paws
-photo.135: ig://CZW918Lln1N/m
+photo.134.tags: whiskers
+photo.135: ig://CZRwedTFvI5/m
 photo.135.author: fetorus_mami
-photo.135.commitdate: 2022/3/19
+photo.135.commitdate: 2022/2/19
 photo.135.link: https://www.instagram.com/fetorus_mami/
-photo.135.tags: peek, whiskers
-photo.136: ig://CZxvNYGpIXt/m
+photo.135.tags: bamboo, bite, close-up, paws
+photo.136: ig://CZW918Lln1N/m
 photo.136.author: fetorus_mami
-photo.136.commitdate: 2022/3/6
+photo.136.commitdate: 2022/3/19
 photo.136.link: https://www.instagram.com/fetorus_mami/
-photo.136.tags: bamboo, close-up, paws, whiskers
-photo.137: ig://CZ3iqe5vS2H/m
+photo.136.tags: peek, whiskers
+photo.137: ig://CZxvNYGpIXt/m
 photo.137.author: fetorus_mami
-photo.137.commitdate: 2022/3/9
+photo.137.commitdate: 2022/3/6
 photo.137.link: https://www.instagram.com/fetorus_mami/
-photo.137.tags: bamboo, close-up, paws
-photo.138: ig://CaZz7IZBA6V/m
+photo.137.tags: bamboo, close-up, paws, whiskers
+photo.138: ig://CZ3iqe5vS2H/m
 photo.138.author: fetorus_mami
-photo.138.commitdate: 2022/4/8
+photo.138.commitdate: 2022/3/9
 photo.138.link: https://www.instagram.com/fetorus_mami/
-photo.138.tags: mofumofu, paws, white face
-photo.139: ig://CbFiK-PBCk4/m
-photo.139.author: minatomirai215
-photo.139.commitdate: 2022/3/19
-photo.139.link: https://www.instagram.com/minatomirai215/
-photo.139.tags: peek, portrait, sample, tree
-photo.140: https://www.instagram.com/p/CZLLegQvWvB/media/?size=m
-photo.140.author: fetorus_mami
-photo.140.link: https://www.instagram.com/fetorus_mami/
-photo.140.tags: whiskers
+photo.138.tags: bamboo, close-up, paws
+photo.139: ig://CaZz7IZBA6V/m
+photo.139.author: fetorus_mami
+photo.139.commitdate: 2022/4/8
+photo.139.link: https://www.instagram.com/fetorus_mami/
+photo.139.tags: mofumofu, paws, white face
+photo.140: ig://CbFiK-PBCk4/m
+photo.140.author: minatomirai215
+photo.140.commitdate: 2022/3/19
+photo.140.link: https://www.instagram.com/minatomirai215/
+photo.140.tags: peek, portrait, sample, tree
 species: 2
 studbook.id: 1772
 zoo: 56

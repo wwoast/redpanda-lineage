@@ -564,20 +564,21 @@ photo.110.author: mini_cochi
 photo.110.commitdate: 2022/2/12
 photo.110.link: https://www.instagram.com/mini_cochi/
 photo.110.tags: paws, portrait, sample, smile, tree
-photo.111: ig://CaZmk8EFooZ/m
-photo.111.author: mini_cochi
-photo.111.commitdate: 2022/3/10
-photo.111.link: https://www.instagram.com/mini_cochi/
-photo.111.tags: apple time, close-up, paws, portrait, sample, standing, whiskers
-photo.112: ig://CajBAjZvZgc/m
-photo.112.author: alto0908
+photo.111: ig://CaGd3DTPnNl/m
+photo.111.author: minatomirai215
+photo.111.commitdate: 2022/4/10
+photo.111.link: https://www.instagram.com/minatomirai215/
+photo.111.tags: keeper, portrait, whiskers
+photo.112: ig://CaZmk8EFooZ/m
+photo.112.author: mini_cochi
 photo.112.commitdate: 2022/3/10
-photo.112.link: https://www.instagram.com/alto0908/
-photo.112.tags: close-up, peek, whiskers
-photo.113: https://www.instagram.com/p/CaGd3DTPnNl/media/?size=m
-photo.113.author: minatomirai215
-photo.113.link: https://www.instagram.com/minatomirai215/
-photo.113.tags: keeper, portrait, whiskers
+photo.112.link: https://www.instagram.com/mini_cochi/
+photo.112.tags: apple time, close-up, paws, portrait, sample, standing, whiskers
+photo.113: ig://CajBAjZvZgc/m
+photo.113.author: alto0908
+photo.113.commitdate: 2022/3/10
+photo.113.link: https://www.instagram.com/alto0908/
+photo.113.tags: close-up, peek, whiskers
 species: 2
 studbook.id: 1683
 zoo: 12

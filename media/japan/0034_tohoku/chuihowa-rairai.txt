@@ -58,8 +58,9 @@ photo.8.link: https://www.instagram.com/daniele.tokyo/
 photo.8.tags: apple time, bamboo, couple, paws, portrait
 photo.8.tags.185.location: 200, 125
 photo.8.tags.206.location: 105, 170
-photo.9: https://www.instagram.com/p/CZ9IsAMPyD1/media/?size=l
+photo.9: ig://CZ9IsAMPyD1/l
 photo.9.author: daniele.tokyo
+photo.9.commitdate: 2022/4/10
 photo.9.link: https://www.instagram.com/daniele.tokyo/
 photo.9.tags: couple, mofumofu, peek, snow, whiskers
 photo.9.tags.185.location: 370, 250

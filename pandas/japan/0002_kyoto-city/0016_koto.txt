@@ -1123,20 +1123,21 @@ photo.222.author: redpanda_nippon_takashi
 photo.222.commitdate: 2022/4/5
 photo.222.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.222.tags: paws, snow, whiskers
-photo.223: ig://CZbyNvGvcDN/m
-photo.223.author: apple_jasmine33
-photo.223.commitdate: 2022/2/19
-photo.223.link: https://www.instagram.com/apple_jasmine33/
-photo.223.tags: apple time, peek, portrait, sample, toys, whiskers
-photo.224: ig://Caiz6JQPBOq/m
-photo.224.author: makimaru18
-photo.224.commitdate: 2022/3/10
-photo.224.link: https://www.instagram.com/makimaru18/
-photo.224.tags: close-up, portrait, sample, tongue, whiskers
-photo.225: https://www.instagram.com/p/CZMJiBmPuk8/media/?size=m
-photo.225.author: jas_forever_love
-photo.225.link: https://www.instagram.com/jas_forever_love/
-photo.225.tags: paws, peek, tree, whiskers
+photo.223: ig://CZMJiBmPuk8/m
+photo.223.author: jas_forever_love
+photo.223.commitdate: 2022/4/10
+photo.223.link: https://www.instagram.com/jas_forever_love/
+photo.223.tags: paws, peek, tree, whiskers
+photo.224: ig://CZbyNvGvcDN/m
+photo.224.author: apple_jasmine33
+photo.224.commitdate: 2022/2/19
+photo.224.link: https://www.instagram.com/apple_jasmine33/
+photo.224.tags: apple time, peek, portrait, sample, toys, whiskers
+photo.225: ig://Caiz6JQPBOq/m
+photo.225.author: makimaru18
+photo.225.commitdate: 2022/3/10
+photo.225.link: https://www.instagram.com/makimaru18/
+photo.225.tags: close-up, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2

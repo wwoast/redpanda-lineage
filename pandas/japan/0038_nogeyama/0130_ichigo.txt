@@ -671,44 +671,46 @@ photo.131.author: mini_cochi
 photo.131.commitdate: 2022/4/5
 photo.131.link: https://www.instagram.com/mini_cochi/
 photo.131.tags: home, portrait, sample
-photo.132: ig://CZO9js6PM47/m
-photo.132.author: pantasanzoo1
-photo.132.commitdate: 2022/4/5
-photo.132.link: https://www.instagram.com/pantasanzoo1/
-photo.132.tags: apple time, paws, sample, tongue, yawn
-photo.133: ig://CZrV8PAPrui/m
+photo.132: ig://CZMdpTCFlG8/m
+photo.132.author: mini_cochi
+photo.132.commitdate: 2022/4/10
+photo.132.link: https://www.instagram.com/mini_cochi/
+photo.132.tags: laying down, peek, tree
+photo.133: ig://CZOEVJlv7TJ/m
 photo.133.author: minatomirai215
-photo.133.commitdate: 2022/2/11
+photo.133.commitdate: 2022/4/10
 photo.133.link: https://www.instagram.com/minatomirai215/
-photo.133.tags: paws, sample, standing, tail
-photo.134: ig://CZ1_yX1vRgL/m
-photo.134.author: minatomirai215
-photo.134.commitdate: 2022/3/19
-photo.134.link: https://www.instagram.com/minatomirai215/
-photo.134.tags: apple time, peek, portrait, smile, whiskers
-photo.135: ig://CaSLsbUP-Di/m
-photo.135.author: pantasanzoo1
-photo.135.commitdate: 2022/3/13
-photo.135.link: https://www.instagram.com/pantasanzoo1/
-photo.135.tags: laying down, tail
-photo.136: ig://Cacvgfrhfqa/m
+photo.133.tags: paws, portrait, sample, tail, whiskers
+photo.134: ig://CZO9js6PM47/m
+photo.134.author: pantasanzoo1
+photo.134.commitdate: 2022/4/5
+photo.134.link: https://www.instagram.com/pantasanzoo1/
+photo.134.tags: apple time, paws, sample, tongue, yawn
+photo.135: ig://CZrV8PAPrui/m
+photo.135.author: minatomirai215
+photo.135.commitdate: 2022/2/11
+photo.135.link: https://www.instagram.com/minatomirai215/
+photo.135.tags: paws, sample, standing, tail
+photo.136: ig://CZ1_yX1vRgL/m
 photo.136.author: minatomirai215
-photo.136.commitdate: 2022/3/11
+photo.136.commitdate: 2022/3/19
 photo.136.link: https://www.instagram.com/minatomirai215/
-photo.136.tags: portrait, sample, whiskers
-photo.137: ig://CalXH74PLXo/m
-photo.137.author: minatomirai215
-photo.137.commitdate: 2022/3/9
-photo.137.link: https://www.instagram.com/minatomirai215/
-photo.137.tags: marking, paws, portrait, sample, tail
-photo.138: https://www.instagram.com/p/CZOEVJlv7TJ/media/?size=m
+photo.136.tags: apple time, peek, portrait, smile, whiskers
+photo.137: ig://CaSLsbUP-Di/m
+photo.137.author: pantasanzoo1
+photo.137.commitdate: 2022/3/13
+photo.137.link: https://www.instagram.com/pantasanzoo1/
+photo.137.tags: laying down, tail
+photo.138: ig://Cacvgfrhfqa/m
 photo.138.author: minatomirai215
+photo.138.commitdate: 2022/3/11
 photo.138.link: https://www.instagram.com/minatomirai215/
-photo.138.tags: paws, portrait, sample, tail, whiskers
-photo.139: https://www.instagram.com/p/CZMdpTCFlG8/media/?size=m
-photo.139.author: mini_cochi
-photo.139.link: https://www.instagram.com/mini_cochi/
-photo.139.tags: laying down, peek, tree
+photo.138.tags: portrait, sample, whiskers
+photo.139: ig://CalXH74PLXo/m
+photo.139.author: minatomirai215
+photo.139.commitdate: 2022/3/9
+photo.139.link: https://www.instagram.com/minatomirai215/
+photo.139.tags: marking, paws, portrait, sample, tail
 species: 2
 studbook.id: 12117
 zoo: 38

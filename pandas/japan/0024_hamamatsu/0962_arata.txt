@@ -583,33 +583,35 @@ photo.114.author: taka__3428
 photo.114.commitdate: 2022/3/24
 photo.114.link: https://www.instagram.com/taka__3428/
 photo.114.tags: bamboo, close-up, nose, sample, whiskers
-photo.115: ig://CZLNfS0PHiL/m
-photo.115.author: fetorus_mami
-photo.115.commitdate: 2022/3/19
-photo.115.link: https://www.instagram.com/fetorus_mami/
-photo.115.tags: close-up, sample, whiskers
-photo.116: ig://CZZhj0JFaFK/m
-photo.116.author: miis_98
-photo.116.commitdate: 2022/2/12
-photo.116.link: https://www.instagram.com/miis_98/
-photo.116.tags: apple time, dish, mofumofu, portrait, sample, whiskers
-photo.117: ig://CZl5v9mP8Ai/m
-photo.117.author: hamamatsu.chiita
-photo.117.commitdate: 2022/2/12
-photo.117.link: https://www.instagram.com/hamamatsu.chiita/
-photo.117.tags: mofumofu, portrait, sample, whiskers
-photo.118: ig://CZwMW7VPaZ6/m
-photo.118.author: otenba_redpanda
-photo.118.commitdate: 2022/3/13
-photo.118.link: https://www.instagram.com/otenba_redpanda/
-photo.118.tags: mofumofu, portrait, whiskers
-photo.119: https://www.instagram.com/p/CY3uRxIPXsx/media/?size=m
-photo.119.author: taka__3428
-photo.119.link: https://www.instagram.com/taka__3428/
-photo.119.tags: close-up, mofumofu, whiskers
-photo.120: https://www.instagram.com/p/CYoQ1WMPw3w/media/?size=m
-photo.120.author: taka__3428
-photo.120.link: https://www.instagram.com/taka__3428/
-photo.120.tags: bamboo, close-up, sample, wink
+photo.115: ig://CYoQ1WMPw3w/m
+photo.115.author: taka__3428
+photo.115.commitdate: 2022/4/10
+photo.115.link: https://www.instagram.com/taka__3428/
+photo.115.tags: bamboo, close-up, sample, wink
+photo.116: ig://CY3uRxIPXsx/m
+photo.116.author: taka__3428
+photo.116.commitdate: 2022/4/10
+photo.116.link: https://www.instagram.com/taka__3428/
+photo.116.tags: close-up, mofumofu, whiskers
+photo.117: ig://CZLNfS0PHiL/m
+photo.117.author: fetorus_mami
+photo.117.commitdate: 2022/3/19
+photo.117.link: https://www.instagram.com/fetorus_mami/
+photo.117.tags: close-up, sample, whiskers
+photo.118: ig://CZZhj0JFaFK/m
+photo.118.author: miis_98
+photo.118.commitdate: 2022/2/12
+photo.118.link: https://www.instagram.com/miis_98/
+photo.118.tags: apple time, dish, mofumofu, portrait, sample, whiskers
+photo.119: ig://CZl5v9mP8Ai/m
+photo.119.author: hamamatsu.chiita
+photo.119.commitdate: 2022/2/12
+photo.119.link: https://www.instagram.com/hamamatsu.chiita/
+photo.119.tags: mofumofu, portrait, sample, whiskers
+photo.120: ig://CZwMW7VPaZ6/m
+photo.120.author: otenba_redpanda
+photo.120.commitdate: 2022/3/13
+photo.120.link: https://www.instagram.com/otenba_redpanda/
+photo.120.tags: mofumofu, portrait, whiskers
 species: 2
 zoo: 24

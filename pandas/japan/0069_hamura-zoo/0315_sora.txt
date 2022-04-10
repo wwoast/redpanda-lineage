@@ -564,39 +564,41 @@ photo.110.author: redpan22
 photo.110.commitdate: 2022/2/18
 photo.110.link: https://www.instagram.com/redpan22/
 photo.110.tags: paws, sample, smile, tongue, tree
-photo.111: ig://CZ1pnwYlZKB/m
-photo.111.author: mini_cochi
-photo.111.commitdate: 2022/3/19
-photo.111.link: https://www.instagram.com/mini_cochi/
-photo.111.tags: apple time, bite, close-up, keeper, paws, portrait, whiskers, white face
-photo.112: ig://CZ_2jLsPMDC/m
-photo.112.author: kotata_513
-photo.112.commitdate: 2022/4/5
-photo.112.link: https://www.instagram.com/kotata_513/
-photo.112.tags: laying down, paws, portrait, sample, sleeping, tree
-photo.113: ig://CaKY-3RPgYr/m
-photo.113.author: redpan22
+photo.111: ig://CZEdMhePbAG/m
+photo.111.author: otenba_redpanda
+photo.111.commitdate: 2022/4/10
+photo.111.link: https://www.instagram.com/otenba_redpanda/
+photo.111.tags: apple time, ear, paws, portrait, sample, standing, tail
+photo.112: ig://CZEvYLjrE5J/m
+photo.112.author: mini_cochi
+photo.112.commitdate: 2022/4/10
+photo.112.link: https://www.instagram.com/mini_cochi/
+photo.112.tags: apple time, bite, mofumofu, paws, portrait, tree
+photo.113: ig://CZ1pnwYlZKB/m
+photo.113.author: mini_cochi
 photo.113.commitdate: 2022/3/19
-photo.113.link: https://www.instagram.com/redpan22/
-photo.113.tags: bite, paws, sample, smile, techitechi, tree
-photo.114: ig://CaM6yUdFNat/m
-photo.114.author: mini_cochi
-photo.114.commitdate: 2022/3/11
-photo.114.link: https://www.instagram.com/mini_cochi/
-photo.114.tags: paws, portrait, tail, tree, upside-down, white face
-photo.115: ig://CaR2dqoPZHs/m
-photo.115.author: kotata_513
-photo.115.commitdate: 2022/3/13
-photo.115.link: https://www.instagram.com/kotata_513/
-photo.115.tags: paws, toys
-photo.116: https://www.instagram.com/p/CZEdMhePbAG/media/?size=m
-photo.116.author: otenba_redpanda
-photo.116.link: https://www.instagram.com/otenba_redpanda/
-photo.116.tags: apple time, ear, paws, portrait, sample, standing, tail
-photo.117: https://www.instagram.com/p/CZEvYLjrE5J/media/?size=m
-photo.117.author: mini_cochi
-photo.117.link: https://www.instagram.com/mini_cochi/
-photo.117.tags: apple time, bite, mofumofu, paws, portrait, tree
+photo.113.link: https://www.instagram.com/mini_cochi/
+photo.113.tags: apple time, bite, close-up, keeper, paws, portrait, whiskers, white face
+photo.114: ig://CZ_2jLsPMDC/m
+photo.114.author: kotata_513
+photo.114.commitdate: 2022/4/5
+photo.114.link: https://www.instagram.com/kotata_513/
+photo.114.tags: laying down, paws, portrait, sample, sleeping, tree
+photo.115: ig://CaKY-3RPgYr/m
+photo.115.author: redpan22
+photo.115.commitdate: 2022/3/19
+photo.115.link: https://www.instagram.com/redpan22/
+photo.115.tags: bite, paws, sample, smile, techitechi, tree
+photo.116: ig://CaM6yUdFNat/m
+photo.116.author: mini_cochi
+photo.116.commitdate: 2022/3/11
+photo.116.link: https://www.instagram.com/mini_cochi/
+photo.116.tags: paws, portrait, tail, tree, upside-down, white face
+photo.117: ig://CaR2dqoPZHs/m
+photo.117.author: kotata_513
+photo.117.commitdate: 2022/3/13
+photo.117.link: https://www.instagram.com/kotata_513/
+photo.117.tags: paws, toys
 species: 2
 studbook.id: 14139
 video.1: https://youtu.be/kg5sPxHd_xI
