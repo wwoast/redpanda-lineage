@@ -50,8 +50,9 @@ photo.7.author: keepermerlo
 photo.7.commitdate: 2020/6/22
 photo.7.link: https://www.instagram.com/keepermerlo/
 photo.7.tags: paws, toys
-photo.8: https://www.instagram.com/p/Ca-LtVQFybX/media/?size=m
+photo.8: ig://Ca-LtVQFybX/m
 photo.8.author: pueblozoo
+photo.8.commitdate: 2022/4/10
 photo.8.link: https://www.instagram.com/pueblozoo/
 photo.8.tags: close-up, tail, white face
 species: 1

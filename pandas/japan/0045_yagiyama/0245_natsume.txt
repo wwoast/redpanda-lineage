@@ -543,8 +543,9 @@ photo.106.author: pink.b22
 photo.106.commitdate: 2022/3/29
 photo.106.link: https://www.instagram.com/pink.b22/
 photo.106.tags: portrait, sample, snow, whiskers
-photo.107: https://www.instagram.com/p/Ca4QR5cva4p/media/?size=m
+photo.107: ig://Ca4QR5cva4p/m
 photo.107.author: pink.b22
+photo.107.commitdate: 2022/4/10
 photo.107.link: https://www.instagram.com/pink.b22/
 photo.107.tags: paws, portrait, sample, snow, tongue, whiskers
 species: 2

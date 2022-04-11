@@ -514,8 +514,9 @@ photo.100.author: otenba_redpanda
 photo.100.commitdate: 2022/2/6
 photo.100.link: https://www.instagram.com/otenba_redpanda/
 photo.100.tags: bamboo, close-up, paws, portrait
-photo.101: https://www.instagram.com/p/Ca_OgRlt5Vj/media/?size=m
+photo.101: ig://Ca_OgRlt5Vj/m
 photo.101.author: otenba_redpanda
+photo.101.commitdate: 2022/4/10
 photo.101.link: https://www.instagram.com/otenba_redpanda/
 photo.101.tags: close-up, portrait, sample, whiskers
 species: 2

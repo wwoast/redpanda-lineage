@@ -717,8 +717,9 @@ photo.142.author: otenba_redpanda
 photo.142.commitdate: 2022/4/4
 photo.142.link: https://www.instagram.com/otenba_redpanda/
 photo.142.tags: bamboo, portrait, sample, whiskers, white face
-photo.143: https://www.instagram.com/p/CbFB0g1vZKD/media/?size=m
+photo.143: ig://CbFB0g1vZKD/m
 photo.143.author: taka__3428
+photo.143.commitdate: 2022/4/10
 photo.143.link: https://www.instagram.com/taka__3428/
 photo.143.tags: apple time, bite, close-up, whiskers
 species: 2

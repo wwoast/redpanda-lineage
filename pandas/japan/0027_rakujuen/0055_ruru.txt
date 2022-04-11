@@ -383,8 +383,9 @@ photo.74.author: hamamatsu.chiita
 photo.74.commitdate: 2022/3/10
 photo.74.link: https://www.instagram.com/hamamatsu.chiita/
 photo.74.tags: close-up, lips, portrait, sample, smile, whiskers
-photo.75: https://www.instagram.com/p/Ca6gWIoLCFq/media/?size=m
+photo.75: ig://Ca6gWIoLCFq/m
 photo.75.author: otenba_redpanda
+photo.75.commitdate: 2022/4/10
 photo.75.link: https://www.instagram.com/otenba_redpanda/
 photo.75.tags: paws, portrait, sample, whiskers
 species: 2

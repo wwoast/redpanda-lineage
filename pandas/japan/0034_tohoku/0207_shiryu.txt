@@ -126,8 +126,9 @@ photo.23.author: daniele.tokyo
 photo.23.commitdate: 2022/2/11
 photo.23.link: https://www.instagram.com/daniele.tokyo/
 photo.23.tags: nose, paws, snow, whiskers
-photo.24: https://www.instagram.com/p/Ca9aEyXPXFd/media/?size=m
+photo.24: ig://Ca9aEyXPXFd/m
 photo.24.author: ssc6105
+photo.24.commitdate: 2022/4/10
 photo.24.link: https://www.instagram.com/ssc6105/
 photo.24.tags: toys, whiskers
 species: 2

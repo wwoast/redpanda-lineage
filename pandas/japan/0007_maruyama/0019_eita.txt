@@ -1695,8 +1695,9 @@ photo.338.author: leonard_redmof
 photo.338.commitdate: 2022/4/10
 photo.338.link: https://www.instagram.com/leonard_redmof/
 photo.338.tags: paws, portrait, smile, snow, standing, tail
-photo.339: https://www.instagram.com/p/CbCk_7hL5of/media/?size=m
+photo.339: ig://CbCk_7hL5of/m
 photo.339.author: cattail.sapporo
+photo.339.commitdate: 2022/4/10
 photo.339.link: https://www.instagram.com/cattail.sapporo/
 photo.339.tags: apple time, blink, keeper, paws, portrait, standing, tail
 species: 2
