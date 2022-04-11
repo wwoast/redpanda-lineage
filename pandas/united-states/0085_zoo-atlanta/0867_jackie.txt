@@ -81,6 +81,10 @@ photo.13.author: zooatl
 photo.13.commitdate: 2022/4/8
 photo.13.link: https://www.instagram.com/zooatl/
 photo.13.tags: portrait, sample, whiskers
+photo.14: https://www.instagram.com/p/Ca-fkNJF4H7/media/?size=m
+photo.14.author: zooatl
+photo.14.link: https://www.instagram.com/zooatl/
+photo.14.tags: paws, portrait, sample, smile, tail, tree, whiskers
 species: 1
 studbook.id: 1705
 uncertainty: location.3 date

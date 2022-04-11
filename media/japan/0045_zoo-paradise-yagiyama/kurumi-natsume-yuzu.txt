@@ -6,7 +6,7 @@ photo.1: ig://Bw7DEH8l_nt/l
 photo.1.author: minatomirai215
 photo.1.commitdate: 2020/5/1
 photo.1.link: https://www.instagram.com/minatomirai215/
-photo.1.tags: family, home, portrait
+photo.1.tags: family, home, portrait, siblings, twins
 photo.1.tags.160.location: 665, 510
 photo.1.tags.244.location: 460, 470
 photo.1.tags.245.location: 285, 745
@@ -18,3 +18,10 @@ photo.2.tags: family, home, siblings, twins
 photo.2.tags.160.location: 435, 475
 photo.2.tags.244.location: 320, 715
 photo.2.tags.245.location: 145, 605
+photo.3: https://www.instagram.com/p/Ca7wSZshRqP/media/?size=l
+photo.3.author: eos1089
+photo.3.link: https://www.instagram.com/eos1089/
+photo.3.tags: family, home, laying down, portrait, smile, siblings, tail, twins
+photo.3.tags.160.location: 200, 290
+photo.3.tags.244.location: 380, 300
+photo.3.tags.245.location: 110, 270
