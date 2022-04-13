@@ -276,25 +276,26 @@ photo.53.author: otenba_redpanda
 photo.53.commitdate: 2022/1/6
 photo.53.link: https://www.instagram.com/otenba_redpanda/
 photo.53.tags: bamboo, paws, portrait, sample
-photo.54: ig://CYei-4wBV0u/m
+photo.54: ig://CYdPd-rP6mp/m
 photo.54.author: eos1089
-photo.54.commitdate: 2022/1/31
+photo.54.commitdate: 2022/4/12
 photo.54.link: https://www.instagram.com/eos1089/
-photo.54.tags: bamboo, mofumofu, portrait, tongue
-photo.55: ig://CY_reU3FFn8/m
-photo.55.author: otenba_redpanda
-photo.55.commitdate: 2022/4/5
-photo.55.link: https://www.instagram.com/otenba_redpanda/
-photo.55.tags: bamboo, bite, mofumofu, portrait, sample, tongue
-photo.56: ig://CanogYoLJrU/m
+photo.54.tags: close-up, mofumofu, muzzle, nose, portrait, snow, tongue, whiskers
+photo.55: ig://CYei-4wBV0u/m
+photo.55.author: eos1089
+photo.55.commitdate: 2022/1/31
+photo.55.link: https://www.instagram.com/eos1089/
+photo.55.tags: bamboo, mofumofu, portrait, tongue
+photo.56: ig://CY_reU3FFn8/m
 photo.56.author: otenba_redpanda
-photo.56.commitdate: 2022/3/10
+photo.56.commitdate: 2022/4/5
 photo.56.link: https://www.instagram.com/otenba_redpanda/
-photo.56.tags: bamboo, muzzle, paws, portrait, tongue, whiskers
-photo.57: https://www.instagram.com/p/CYdPd-rP6mp/media/?size=m
-photo.57.author: eos1089
-photo.57.link: https://www.instagram.com/eos1089/
-photo.57.tags: close-up, mofumofu, muzzle, nose, portrait, snow, tongue, whiskers 
+photo.56.tags: bamboo, bite, mofumofu, portrait, sample, tongue
+photo.57: ig://CanogYoLJrU/m
+photo.57.author: otenba_redpanda
+photo.57.commitdate: 2022/3/10
+photo.57.link: https://www.instagram.com/otenba_redpanda/
+photo.57.tags: bamboo, muzzle, paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 1091
 zoo: 17

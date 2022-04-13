@@ -638,35 +638,36 @@ photo.125.author: minatomirai215
 photo.125.commitdate: 2021/12/22
 photo.125.link: https://www.instagram.com/minatomirai215/
 photo.125.tags: peek, portrait, techitechi, whiskers
-photo.126: ig://otenba_redpanda/CZCGHhuPrQ0/m
-photo.126.author: otenba_redpanda
-photo.126.commitdate: 2022/2/9
-photo.126.link: https://www.instagram.com/otenba_redpanda/
-photo.126.tags: peek, portrait, sample, techitechi, whiskers
-photo.127: ig://CZGWzqdv7u4/m
-photo.127.author: minatomirai215
-photo.127.commitdate: 2022/2/18
-photo.127.link: https://www.instagram.com/minatomirai215/
-photo.127.tags: apple time, bite, close-up, paws, portrait, whiskers
-photo.128: ig://CZmRP63lRWC/m
-photo.128.author: mini_cochi
-photo.128.commitdate: 2022/2/12
-photo.128.link: https://www.instagram.com/mini_cochi/
-photo.128.tags: apple time, paws, portrait, sample, whiskers
-photo.129: ig://CaPmf3hhdI3/m
-photo.129.author: minatomirai215
-photo.129.commitdate: 2022/3/11
-photo.129.link: https://www.instagram.com/minatomirai215/
-photo.129.tags: bridge, paws, peek, portrait, smile, tail
-photo.130: ig://CaXMo__llOg/m
-photo.130.author: mini_cochi
-photo.130.commitdate: 2022/3/28
-photo.130.link: https://www.instagram.com/mini_cochi/
-photo.130.tags: peek, portrait, sample, whiskers
-photo.131: https://www.instagram.com/p/CYeB0VJPO7K/media/?size=m
-photo.131.author: minatomirai215
-photo.131.link: https://www.instagram.com/minatomirai215/
-photo.131.tags: bamboo, peek, portrait, whiskers
+photo.126: ig://CYeB0VJPO7K/m
+photo.126.author: minatomirai215
+photo.126.commitdate: 2022/4/12
+photo.126.link: https://www.instagram.com/minatomirai215/
+photo.126.tags: bamboo, peek, portrait, whiskers
+photo.127: ig://otenba_redpanda/CZCGHhuPrQ0/m
+photo.127.author: otenba_redpanda
+photo.127.commitdate: 2022/2/9
+photo.127.link: https://www.instagram.com/otenba_redpanda/
+photo.127.tags: peek, portrait, sample, techitechi, whiskers
+photo.128: ig://CZGWzqdv7u4/m
+photo.128.author: minatomirai215
+photo.128.commitdate: 2022/2/18
+photo.128.link: https://www.instagram.com/minatomirai215/
+photo.128.tags: apple time, bite, close-up, paws, portrait, whiskers
+photo.129: ig://CZmRP63lRWC/m
+photo.129.author: mini_cochi
+photo.129.commitdate: 2022/2/12
+photo.129.link: https://www.instagram.com/mini_cochi/
+photo.129.tags: apple time, paws, portrait, sample, whiskers
+photo.130: ig://CaPmf3hhdI3/m
+photo.130.author: minatomirai215
+photo.130.commitdate: 2022/3/11
+photo.130.link: https://www.instagram.com/minatomirai215/
+photo.130.tags: bridge, paws, peek, portrait, smile, tail
+photo.131: ig://CaXMo__llOg/m
+photo.131.author: mini_cochi
+photo.131.commitdate: 2022/3/28
+photo.131.link: https://www.instagram.com/mini_cochi/
+photo.131.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 15135
 zoo: 12

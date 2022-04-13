@@ -245,15 +245,16 @@ photo.47.author: yossi929
 photo.47.commitdate: 2021/10/31
 photo.47.link: https://www.instagram.com/yossi929/
 photo.47.tags: peek, portrait
-photo.48: ig://CbONhk6v3Zp/m
-photo.48.author: yossi929
-photo.48.commitdate: 2022/3/20
-photo.48.link: https://www.instagram.com/yossi929/
-photo.48.tags: portrait, sample, whiskers
-photo.49: https://www.instagram.com/grskus_tk/p/CYWUsYrMSOU/media/?size=m
-photo.49.author: grskus_tk
-photo.49.link: https://www.instagram.com/grskus_tk/
-photo.49.tags: paws, peek, whiskers
+photo.48: ig://grskus_tk/CYWUsYrMSOU/m
+photo.48.author: grskus_tk
+photo.48.commitdate: 2022/4/12
+photo.48.link: https://www.instagram.com/grskus_tk/
+photo.48.tags: paws, peek, whiskers
+photo.49: ig://CbONhk6v3Zp/m
+photo.49.author: yossi929
+photo.49.commitdate: 2022/3/20
+photo.49.link: https://www.instagram.com/yossi929/
+photo.49.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0764
 zoo: 41

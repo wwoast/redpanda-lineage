@@ -389,20 +389,21 @@ photo.77.author: yossi929
 photo.77.commitdate: 2022/1/6
 photo.77.link: https://www.instagram.com/yossi929/
 photo.77.tags: apple time, bamboo, paws, smile, snow, whiskers
-photo.78: ig://CYa-OoerpL7/m
-photo.78.author: itozu_zoo
-photo.78.commitdate: 2022/2/21
-photo.78.link: https://www.instagram.com/itozu_zoo/
-photo.78.tags: lunch time, paws, portrait, sample, snow
-photo.79: ig://CY5dULjv3Eb/m
-photo.79.author: re_ichimaru
-photo.79.commitdate: 2022/2/9
-photo.79.link: https://www.instagram.com/re_ichimaru/
-photo.79.tags: lunch time, portrait, sample, smile, snow, tail, whiskers
-photo.80: https://www.instagram.com/p/CYX7lJdPoaD/media/?size=m
+photo.78: ig://CYX7lJdPoaD/m
+photo.78.author: re_ichimaru
+photo.78.commitdate: 2022/4/12
+photo.78.link: https://www.instagram.com/re_ichimaru/
+photo.78.tags: grapes, lunch time, peek, portrait, snow, whiskers
+photo.79: ig://CYa-OoerpL7/m
+photo.79.author: itozu_zoo
+photo.79.commitdate: 2022/2/21
+photo.79.link: https://www.instagram.com/itozu_zoo/
+photo.79.tags: lunch time, paws, portrait, sample, snow
+photo.80: ig://CY5dULjv3Eb/m
 photo.80.author: re_ichimaru
+photo.80.commitdate: 2022/2/9
 photo.80.link: https://www.instagram.com/re_ichimaru/
-photo.80.tags: grapes, lunch time, peek, portrait, snow, whiskers
+photo.80.tags: lunch time, portrait, sample, smile, snow, tail, whiskers
 species: 2
 studbook.id: 15157
 zoo: 41

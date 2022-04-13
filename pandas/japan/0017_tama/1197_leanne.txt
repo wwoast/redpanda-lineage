@@ -353,29 +353,30 @@ photo.68.author: otenba_redpanda
 photo.68.commitdate: 2022/1/19
 photo.68.link: https://www.instagram.com/otenba_redpanda/
 photo.68.tags: portrait, sample, smile, whiskers
-photo.69: ig://CYsCa2PhGDR/m
-photo.69.author: otenba_redpanda
-photo.69.commitdate: 2022/1/23
-photo.69.link: https://www.instagram.com/otenba_redpanda/
-photo.69.tags: climb, paws, peek, tail
-photo.70: ig://CZgmQSklGRg/m
+photo.69: ig://CYdxLJnv-zP/m
+photo.69.author: ssc6105
+photo.69.commitdate: 2022/4/12
+photo.69.link: https://www.instagram.com/ssc6105/
+photo.69.tags: bamboo, paws, portrait, sample
+photo.70: ig://CYsCa2PhGDR/m
 photo.70.author: otenba_redpanda
-photo.70.commitdate: 2022/2/20
+photo.70.commitdate: 2022/1/23
 photo.70.link: https://www.instagram.com/otenba_redpanda/
-photo.70.tags: bridge, laying down, portrait, sample, tail
-photo.71: ig://CZ0jafVMZ7T/m
+photo.70.tags: climb, paws, peek, tail
+photo.71: ig://CZgmQSklGRg/m
 photo.71.author: otenba_redpanda
-photo.71.commitdate: 2022/3/13
+photo.71.commitdate: 2022/2/20
 photo.71.link: https://www.instagram.com/otenba_redpanda/
-photo.71.tags: paws, portrait, sample, standing, whiskers
-photo.72: ig://Casl2vxpCKc/m
+photo.71.tags: bridge, laying down, portrait, sample, tail
+photo.72: ig://CZ0jafVMZ7T/m
 photo.72.author: otenba_redpanda
-photo.72.commitdate: 2022/3/10
+photo.72.commitdate: 2022/3/13
 photo.72.link: https://www.instagram.com/otenba_redpanda/
-photo.72.tags: paws, portrait, standing, whiskers
-photo.73: https://www.instagram.com/p/CYdxLJnv-zP/media/?size=m
-photo.73.author: ssc6105
-photo.73.link: https://www.instagram.com/ssc6105/
-photo.73.tags: bamboo, paws, portrait, sample
+photo.72.tags: paws, portrait, sample, standing, whiskers
+photo.73: ig://Casl2vxpCKc/m
+photo.73.author: otenba_redpanda
+photo.73.commitdate: 2022/3/10
+photo.73.link: https://www.instagram.com/otenba_redpanda/
+photo.73.tags: paws, portrait, standing, whiskers
 species: 2
 zoo: 17

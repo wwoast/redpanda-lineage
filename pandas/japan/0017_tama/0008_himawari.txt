@@ -2030,30 +2030,31 @@ photo.404.author: ck.chie
 photo.404.commitdate: 2022/2/23
 photo.404.link: https://www.instagram.com/ck.chie/
 photo.404.tags: bamboo, close-up, tongue, whiskers
-photo.405: ig://CYjIdv4PBnM/m
-photo.405.author: kotata_513
-photo.405.commitdate: 2022/1/30
-photo.405.link: https://www.instagram.com/kotata_513/
-photo.405.tags: bridge, paws, portrait, sample, snow, tail, upside-down
-photo.406: ig://CZrPq5CPG4I/m
+photo.405: ig://CYd_FU7PhZx/m
+photo.405.author: ifumoto88
+photo.405.commitdate: 2022/4/12
+photo.405.link: https://www.instagram.com/ifumoto88/
+photo.405.tags: bamboo, bridge, portrait, shake, snow, wet
+photo.406: ig://CYjIdv4PBnM/m
 photo.406.author: kotata_513
-photo.406.commitdate: 2022/2/11
+photo.406.commitdate: 2022/1/30
 photo.406.link: https://www.instagram.com/kotata_513/
-photo.406.tags: bridge, paws, portrait, snow, tail, upside-down
-photo.407: ig://Cao2xH8rSzq/m
-photo.407.author: daniele.tokyo
-photo.407.commitdate: 2022/3/10
-photo.407.link: https://www.instagram.com/daniele.tokyo/
-photo.407.tags: baby, mofumofu, portrait
-photo.408: ig://Cao7q2qhqeX/m
-photo.408.author: firefoxpanda88
+photo.406.tags: bridge, paws, portrait, sample, snow, tail, upside-down
+photo.407: ig://CZrPq5CPG4I/m
+photo.407.author: kotata_513
+photo.407.commitdate: 2022/2/11
+photo.407.link: https://www.instagram.com/kotata_513/
+photo.407.tags: bridge, paws, portrait, snow, tail, upside-down
+photo.408: ig://Cao2xH8rSzq/m
+photo.408.author: daniele.tokyo
 photo.408.commitdate: 2022/3/10
-photo.408.link: https://www.instagram.com/firefoxpanda88/
-photo.408.tags: close-up, portrait, whiskers
-photo.409: https://www.instagram.com/p/CYd_FU7PhZx/media/?size=m
-photo.409.author: ifumoto88
-photo.409.link: https://www.instagram.com/ifumoto88/
-photo.409.tags: bamboo, bridge, portrait, shake, snow, wet
+photo.408.link: https://www.instagram.com/daniele.tokyo/
+photo.408.tags: baby, mofumofu, portrait
+photo.409: ig://Cao7q2qhqeX/m
+photo.409.author: firefoxpanda88
+photo.409.commitdate: 2022/3/10
+photo.409.link: https://www.instagram.com/firefoxpanda88/
+photo.409.tags: close-up, portrait, whiskers
 species: 2
 studbook.id: 1782
 zoo: 17

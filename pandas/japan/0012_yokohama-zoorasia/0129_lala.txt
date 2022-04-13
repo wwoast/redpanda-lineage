@@ -302,35 +302,36 @@ photo.58.author: minatomirai215
 photo.58.commitdate: 2021/12/9
 photo.58.link: https://www.instagram.com/minatomirai215/
 photo.58.tags: mofumofu, portrait, whiskers
-photo.59: ig://CY48IrMhDfs/m
-photo.59.author: miis_98
-photo.59.commitdate: 2022/2/9
-photo.59.link: https://www.instagram.com/miis_98/
-photo.59.tags: close-up, mofumofu, sample, tongue, whiskers
-photo.60: ig://CZCk8k5BdwE/m
-photo.60.author: minatomirai215
-photo.60.commitdate: 2022/2/18
-photo.60.link: https://www.instagram.com/minatomirai215/
-photo.60.tags: peek, portrait, sample, whiskers
-photo.61: ig://CZTuVcmFbtg/m
-photo.61.author: otenba_redpanda
-photo.61.commitdate: 2022/4/5
-photo.61.link: https://www.instagram.com/otenba_redpanda/
-photo.61.tags: lips, mofumofu, portrait, sample, whiskers
-photo.62: ig://CaXL2vUv_Km/m
-photo.62.author: pantasanzoo1
-photo.62.commitdate: 2022/3/11
-photo.62.link: https://www.instagram.com/pantasanzoo1/
-photo.62.tags: mofumofu, paws, smile, tongue, whiskers, white face
-photo.63: ig://CbAOzk5PVe1/m
-photo.63.author: minatomirai215
-photo.63.commitdate: 2022/4/5
-photo.63.link: https://www.instagram.com/minatomirai215/
-photo.63.tags: bamboo, mofumofu, paws, portrait, sample, smile, tail
-photo.64: https://www.instagram.com/p/CYdOf9kPvtu/media/?size=m
-photo.64.author: pantasanzoo1
-photo.64.link: https://www.instagram.com/pantasanzoo1/
-photo.64.tags: close-up, mofumofu, paws, whiskers
+photo.59: ig://CYdOf9kPvtu/m
+photo.59.author: pantasanzoo1
+photo.59.commitdate: 2022/4/12
+photo.59.link: https://www.instagram.com/pantasanzoo1/
+photo.59.tags: close-up, mofumofu, paws, whiskers
+photo.60: ig://CY48IrMhDfs/m
+photo.60.author: miis_98
+photo.60.commitdate: 2022/2/9
+photo.60.link: https://www.instagram.com/miis_98/
+photo.60.tags: close-up, mofumofu, sample, tongue, whiskers
+photo.61: ig://CZCk8k5BdwE/m
+photo.61.author: minatomirai215
+photo.61.commitdate: 2022/2/18
+photo.61.link: https://www.instagram.com/minatomirai215/
+photo.61.tags: peek, portrait, sample, whiskers
+photo.62: ig://CZTuVcmFbtg/m
+photo.62.author: otenba_redpanda
+photo.62.commitdate: 2022/4/5
+photo.62.link: https://www.instagram.com/otenba_redpanda/
+photo.62.tags: lips, mofumofu, portrait, sample, whiskers
+photo.63: ig://CaXL2vUv_Km/m
+photo.63.author: pantasanzoo1
+photo.63.commitdate: 2022/3/11
+photo.63.link: https://www.instagram.com/pantasanzoo1/
+photo.63.tags: mofumofu, paws, smile, tongue, whiskers, white face
+photo.64: ig://CbAOzk5PVe1/m
+photo.64.author: minatomirai215
+photo.64.commitdate: 2022/4/5
+photo.64.link: https://www.instagram.com/minatomirai215/
+photo.64.tags: bamboo, mofumofu, paws, portrait, sample, smile, tail
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y

@@ -354,25 +354,26 @@ photo.68.author: gloryeui
 photo.68.commitdate: 2022/1/14
 photo.68.link: https://www.instagram.com/gloryeui/
 photo.68.tags: bridge, portrait, sample, tail
-photo.69: ig://CYh8TLmpAKL/m
+photo.69: ig://CYdC865LJVW/m
 photo.69.author: gloryeui
-photo.69.commitdate: 2022/1/23
+photo.69.commitdate: 2022/4/12
 photo.69.link: https://www.instagram.com/gloryeui/
-photo.69.tags: peek, portrait, sample, whiskers
-photo.70: ig://CZJodWuPUxm/m
-photo.70.author: colette.jp
-photo.70.commitdate: 2022/4/5
-photo.70.link: https://www.instagram.com/colette.jp/
-photo.70.tags: paws, portrait, sample
-photo.71: ig://CZZQeaQlLSr/m
-photo.71.author: love__mitarashi
+photo.69.tags: mofumofu, peek, portrait, sample, whiskers
+photo.70: ig://CYh8TLmpAKL/m
+photo.70.author: gloryeui
+photo.70.commitdate: 2022/1/23
+photo.70.link: https://www.instagram.com/gloryeui/
+photo.70.tags: peek, portrait, sample, whiskers
+photo.71: ig://CZJodWuPUxm/m
+photo.71.author: colette.jp
 photo.71.commitdate: 2022/4/5
-photo.71.link: https://www.instagram.com/love__mitarashi/
-photo.71.tags: peek, portrait, sample
-photo.72: https://www.instagram.com/p/CYdC865LJVW/media/?size=m
-photo.72.author: gloryeui
-photo.72.link: https://www.instagram.com/gloryeui/
-photo.72.tags: mofumofu, peek, portrait, sample, whiskers
+photo.71.link: https://www.instagram.com/colette.jp/
+photo.71.tags: paws, portrait, sample
+photo.72: ig://CZZQeaQlLSr/m
+photo.72.author: love__mitarashi
+photo.72.commitdate: 2022/4/5
+photo.72.link: https://www.instagram.com/love__mitarashi/
+photo.72.tags: peek, portrait, sample
 species: 2
 studbook.id: 14151
 zoo: 14

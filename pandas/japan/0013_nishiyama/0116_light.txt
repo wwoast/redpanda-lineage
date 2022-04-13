@@ -515,30 +515,31 @@ photo.101.author: minato.yokohama0233
 photo.101.commitdate: 2022/1/13
 photo.101.link: https://www.instagram.com/minato.yokohama0233/
 photo.101.tags: apple time, dish, mofumofu, paws, portrait, sample, tail
-photo.102: ig://CY9yo1DBWnR/m
+photo.102: ig://hamamatsu.chiita/CYgKenCvnlH/m
 photo.102.author: hamamatsu.chiita
-photo.102.commitdate: 2022/2/21
+photo.102.commitdate: 2022/4/12
 photo.102.link: https://www.instagram.com/hamamatsu.chiita/
-photo.102.tags: bamboo, bite, paws, portrait, sample
-photo.103: ig://CZmBYEIPSSk/m
-photo.103.author: jas_forever_love
-photo.103.commitdate: 2022/2/12
-photo.103.link: https://www.instagram.com/jas_forever_love/
-photo.103.tags: dish, portrait, sample, whiskers
-photo.104: ig://CZ5IDb5BhqR/m
-photo.104.author: hamamatsu.chiita
-photo.104.commitdate: 2022/3/9
-photo.104.link: https://www.instagram.com/hamamatsu.chiita/
-photo.104.tags: mofumofu, portrait, sample, whiskers
-photo.105: ig://CaKAKMUPGGa/m
+photo.102.tags: close-up, portrait, sample, whiskers
+photo.103: ig://CY9yo1DBWnR/m
+photo.103.author: hamamatsu.chiita
+photo.103.commitdate: 2022/2/21
+photo.103.link: https://www.instagram.com/hamamatsu.chiita/
+photo.103.tags: bamboo, bite, paws, portrait, sample
+photo.104: ig://CZmBYEIPSSk/m
+photo.104.author: jas_forever_love
+photo.104.commitdate: 2022/2/12
+photo.104.link: https://www.instagram.com/jas_forever_love/
+photo.104.tags: dish, portrait, sample, whiskers
+photo.105: ig://CZ5IDb5BhqR/m
 photo.105.author: hamamatsu.chiita
-photo.105.commitdate: 2022/3/13
+photo.105.commitdate: 2022/3/9
 photo.105.link: https://www.instagram.com/hamamatsu.chiita/
-photo.105.tags: portrait, whiskers
-photo.106: https://www.instagram.com/hamamatsu.chiita/p/CYgKenCvnlH/media/?size=m
+photo.105.tags: mofumofu, portrait, sample, whiskers
+photo.106: ig://CaKAKMUPGGa/m
 photo.106.author: hamamatsu.chiita
+photo.106.commitdate: 2022/3/13
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
-photo.106.tags: close-up, portrait, sample, whiskers
+photo.106.tags: portrait, whiskers
 species: 2
 studbook.id: 13167
 zoo: 13

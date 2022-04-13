@@ -393,15 +393,16 @@ photo.76.author: mini_cochi
 photo.76.commitdate: 2022/1/4
 photo.76.link: https://www.instagram.com/mini_cochi/
 photo.76.tags: close-up, bamboo, portrait, whiskers
-photo.77: ig://CaJQXLJPYns/m
+photo.77: ig://otenba_redpanda/CYflLoOIK3f/m
 photo.77.author: otenba_redpanda
-photo.77.commitdate: 2022/3/29
+photo.77.commitdate: 2022/4/12
 photo.77.link: https://www.instagram.com/otenba_redpanda/
-photo.77.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
-photo.78: https://www.instagram.com/otenba_redpanda/p/CYflLoOIK3f/media/?size=m
+photo.77.tags: bamboo, bite, portrait, sample, window
+photo.78: ig://CaJQXLJPYns/m
 photo.78.author: otenba_redpanda
+photo.78.commitdate: 2022/3/29
 photo.78.link: https://www.instagram.com/otenba_redpanda/
-photo.78.tags: bamboo, bite, portrait, sample, window
+photo.78.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 0864
 zoo: 17

@@ -978,25 +978,26 @@ photo.195.author: wumpwoast
 photo.195.commitdate: 2022/1/6
 photo.195.link: https://www.instagram.com/wumpwoast/
 photo.195.tags: portrait, tail
-photo.196: ig://CZGh5iqvfvt/m
-photo.196.author: falcon_tenor
-photo.196.commitdate: 2022/2/20
-photo.196.link: https://www.instagram.com/falcon_tenor/
-photo.196.tags: paws, peek, portrait, sample, tree
-photo.197: ig://CZjjy4fvlz8/m
-photo.197.author: i.satosato
-photo.197.commitdate: 2022/2/12
-photo.197.link: https://www.instagram.com/i.satosato/
-photo.197.tags: laying down, paws, sample, tail
-photo.198: ig://CbMhlI9LZls/m
-photo.198.author: pantasanzoo1
-photo.198.commitdate: 2022/4/8
-photo.198.link: https://www.instagram.com/pantasanzoo1/
-photo.198.tags: close-up, paws, whiskers
-photo.199: https://www.instagram.com/p/CYde9A9PUgN/media/?size=m
-photo.199.author: i.satosato
-photo.199.link: https://www.instagram.com/i.satosato/
-photo.199.tags: paws, portrait, sample, tail
+photo.196: ig://CYde9A9PUgN/m
+photo.196.author: i.satosato
+photo.196.commitdate: 2022/4/12
+photo.196.link: https://www.instagram.com/i.satosato/
+photo.196.tags: paws, portrait, sample, tail
+photo.197: ig://CZGh5iqvfvt/m
+photo.197.author: falcon_tenor
+photo.197.commitdate: 2022/2/20
+photo.197.link: https://www.instagram.com/falcon_tenor/
+photo.197.tags: paws, peek, portrait, sample, tree
+photo.198: ig://CZjjy4fvlz8/m
+photo.198.author: i.satosato
+photo.198.commitdate: 2022/2/12
+photo.198.link: https://www.instagram.com/i.satosato/
+photo.198.tags: laying down, paws, sample, tail
+photo.199: ig://CbMhlI9LZls/m
+photo.199.author: pantasanzoo1
+photo.199.commitdate: 2022/4/8
+photo.199.link: https://www.instagram.com/pantasanzoo1/
+photo.199.tags: close-up, paws, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36
