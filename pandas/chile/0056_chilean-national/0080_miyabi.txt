@@ -661,60 +661,61 @@ photo.130.author: fetorus_mami
 photo.130.commitdate: 2022/2/5
 photo.130.link: https://www.instagram.com/fetorus_mami/
 photo.130.tags: bamboo, paws, sample, smile
-photo.131: ig://CYpdQkHvz28/m
-photo.131.author: otenba_redpanda
-photo.131.commitdate: 2022/1/29
-photo.131.link: https://www.instagram.com/otenba_redpanda/
-photo.131.tags: mofumofu, portrait, videolink, whiskers
-photo.132: ig://CYzpE4ChvBv/m
-photo.132.author: ssc6105
-photo.132.commitdate: 2022/3/19
-photo.132.link: https://www.instagram.com/ssc6105/
-photo.132.tags: paws, tail, whiskers
-photo.133: ig://CZCCZSBLHat/m
-photo.133.author: fetorus_mami
-photo.133.commitdate: 2022/2/9
-photo.133.link: https://www.instagram.com/fetorus_mami/
-photo.133.tags: bamboo, paws, sample, whiskers
-photo.134: ig://CZLLegQvWvB/m
+photo.131: ig://fetorus_mami/CYkwdUrLsnE/m
+photo.131.author: fetorus_mami
+photo.131.commitdate: 2022/4/12
+photo.131.link: https://www.instagram.com/fetorus_mami/
+photo.131.tags: peek, whiskers
+photo.132: ig://CYpdQkHvz28/m
+photo.132.author: otenba_redpanda
+photo.132.commitdate: 2022/1/29
+photo.132.link: https://www.instagram.com/otenba_redpanda/
+photo.132.tags: mofumofu, portrait, videolink, whiskers
+photo.133: ig://CYzpE4ChvBv/m
+photo.133.author: ssc6105
+photo.133.commitdate: 2022/3/19
+photo.133.link: https://www.instagram.com/ssc6105/
+photo.133.tags: paws, tail, whiskers
+photo.134: ig://CZCCZSBLHat/m
 photo.134.author: fetorus_mami
-photo.134.commitdate: 2022/4/10
+photo.134.commitdate: 2022/2/9
 photo.134.link: https://www.instagram.com/fetorus_mami/
-photo.134.tags: whiskers
-photo.135: ig://CZRwedTFvI5/m
+photo.134.tags: bamboo, paws, sample, whiskers
+photo.135: ig://CZLLegQvWvB/m
 photo.135.author: fetorus_mami
-photo.135.commitdate: 2022/2/19
+photo.135.commitdate: 2022/4/10
 photo.135.link: https://www.instagram.com/fetorus_mami/
-photo.135.tags: bamboo, bite, close-up, paws
-photo.136: ig://CZW918Lln1N/m
+photo.135.tags: whiskers
+photo.136: ig://CZRwedTFvI5/m
 photo.136.author: fetorus_mami
-photo.136.commitdate: 2022/3/19
+photo.136.commitdate: 2022/2/19
 photo.136.link: https://www.instagram.com/fetorus_mami/
-photo.136.tags: peek, whiskers
-photo.137: ig://CZxvNYGpIXt/m
+photo.136.tags: bamboo, bite, close-up, paws
+photo.137: ig://CZW918Lln1N/m
 photo.137.author: fetorus_mami
-photo.137.commitdate: 2022/3/6
+photo.137.commitdate: 2022/3/19
 photo.137.link: https://www.instagram.com/fetorus_mami/
-photo.137.tags: bamboo, close-up, paws, whiskers
-photo.138: ig://CZ3iqe5vS2H/m
+photo.137.tags: peek, whiskers
+photo.138: ig://CZxvNYGpIXt/m
 photo.138.author: fetorus_mami
-photo.138.commitdate: 2022/3/9
+photo.138.commitdate: 2022/3/6
 photo.138.link: https://www.instagram.com/fetorus_mami/
-photo.138.tags: bamboo, close-up, paws
-photo.139: ig://CaZz7IZBA6V/m
+photo.138.tags: bamboo, close-up, paws, whiskers
+photo.139: ig://CZ3iqe5vS2H/m
 photo.139.author: fetorus_mami
-photo.139.commitdate: 2022/4/8
+photo.139.commitdate: 2022/3/9
 photo.139.link: https://www.instagram.com/fetorus_mami/
-photo.139.tags: mofumofu, paws, white face
-photo.140: ig://CbFiK-PBCk4/m
-photo.140.author: minatomirai215
-photo.140.commitdate: 2022/3/19
-photo.140.link: https://www.instagram.com/minatomirai215/
-photo.140.tags: peek, portrait, sample, tree
-photo.141: https://www.instagram.com/fetorus_mami/p/CYkwdUrLsnE/media/?size=m
-photo.141.author: fetorus_mami
-photo.141.link: https://www.instagram.com/fetorus_mami/
-photo.141.tags: peek, whiskers
+photo.139.tags: bamboo, close-up, paws
+photo.140: ig://CaZz7IZBA6V/m
+photo.140.author: fetorus_mami
+photo.140.commitdate: 2022/4/8
+photo.140.link: https://www.instagram.com/fetorus_mami/
+photo.140.tags: mofumofu, paws, white face
+photo.141: ig://CbFiK-PBCk4/m
+photo.141.author: minatomirai215
+photo.141.commitdate: 2022/3/19
+photo.141.link: https://www.instagram.com/minatomirai215/
+photo.141.tags: peek, portrait, sample, tree
 species: 2
 studbook.id: 1772
 zoo: 56

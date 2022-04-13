@@ -847,30 +847,31 @@ photo.167.author: gloryeui
 photo.167.commitdate: 2022/2/5
 photo.167.link: https://www.instagram.com/gloryeui/
 photo.167.tags: nose, portrait, whiskers
-photo.168: ig://CY_bfSArCXV/m
-photo.168.author: love__mitarashi
-photo.168.commitdate: 2022/2/18
-photo.168.link: https://www.instagram.com/love__mitarashi/
-photo.168.tags: climb, paws, portrait, whiskers, white face
-photo.169: ig://CZ319o_vkWh/m
-photo.169.author: colette.jp
-photo.169.commitdate: 2022/3/9
-photo.169.link: https://www.instagram.com/colette.jp/
-photo.169.tags: air tasting, portrait, sample, tongue, whiskers
-photo.170: ig://CaCPJMNPfzm/m
+photo.168: ig://CYlqjhSPj12/m
+photo.168.author: colette.jp
+photo.168.commitdate: 2022/4/12
+photo.168.link: https://www.instagram.com/colette.jp/
+photo.168.tags: apple time, lips, paws, portrait, whiskers
+photo.169: ig://CY_bfSArCXV/m
+photo.169.author: love__mitarashi
+photo.169.commitdate: 2022/2/18
+photo.169.link: https://www.instagram.com/love__mitarashi/
+photo.169.tags: climb, paws, portrait, whiskers, white face
+photo.170: ig://CZ319o_vkWh/m
 photo.170.author: colette.jp
-photo.170.commitdate: 2022/3/29
+photo.170.commitdate: 2022/3/9
 photo.170.link: https://www.instagram.com/colette.jp/
-photo.170.tags: laying down, mofumofu, paws, portrait, sample, smile, whiskers
-photo.171: ig://CajvtSpr3FU/m
-photo.171.author: love__mitarashi
-photo.171.commitdate: 2022/3/10
-photo.171.link: https://www.instagram.com/love__mitarashi/
-photo.171.tags: portrait, sample, whiskers
-photo.172: https://www.instagram.com/p/CYlqjhSPj12/media/?size=m
-photo.172.author: colette.jp
-photo.172.link: https://www.instagram.com/colette.jp/
-photo.172.tags: apple time, lips, paws, portrait, whiskers
+photo.170.tags: air tasting, portrait, sample, tongue, whiskers
+photo.171: ig://CaCPJMNPfzm/m
+photo.171.author: colette.jp
+photo.171.commitdate: 2022/3/29
+photo.171.link: https://www.instagram.com/colette.jp/
+photo.171.tags: laying down, mofumofu, paws, portrait, sample, smile, whiskers
+photo.172: ig://CajvtSpr3FU/m
+photo.172.author: love__mitarashi
+photo.172.commitdate: 2022/3/10
+photo.172.link: https://www.instagram.com/love__mitarashi/
+photo.172.tags: portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14
