@@ -584,8 +584,9 @@ photo.114.author: jas_forever_love
 photo.114.commitdate: 2022/3/20
 photo.114.link: https://www.instagram.com/jas_forever_love/
 photo.114.tags: close-up, sample, smile, whiskers
-photo.115: https://www.instagram.com/p/CcDMf2dvd06/media/?size=m
+photo.115: ig://CcDMf2dvd06/m
 photo.115.author: leonard_redmof
+photo.115.commitdate: 2022/4/13
 photo.115.link: https://www.instagram.com/leonard_redmof/
 photo.115.tags: bridge, paws, portrait, sample, smile, tail
 species: 2

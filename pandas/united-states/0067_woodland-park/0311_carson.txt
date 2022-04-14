@@ -985,8 +985,9 @@ photo.194.author: carsontheredpanda
 photo.194.commitdate: 2022/3/20
 photo.194.link: https://www.instagram.com/carsontheredpanda/
 photo.194.tags: dish, home, paws, peek, portrait, whiskers
-photo.195: https://www.instagram.com/p/CcDt7d-pCtz/media/?size=m
+photo.195: ig://CcDt7d-pCtz/m
 photo.195.author: carsontheredpanda
+photo.195.commitdate: 2022/4/13
 photo.195.link: https://www.instagram.com/carsontheredpanda/
 photo.195.tags: keeper, paws, standing, tail
 species: 1

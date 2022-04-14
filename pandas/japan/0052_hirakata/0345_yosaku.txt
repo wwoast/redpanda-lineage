@@ -460,12 +460,14 @@ photo.89.author: fetorus_mami
 photo.89.commitdate: 2022/3/10
 photo.89.link: https://www.instagram.com/fetorus_mami/
 photo.89.tags: bamboo, paws, tail, tree
-photo.90: https://www.instagram.com/p/CcFyRFCrptC/media/?size=m
+photo.90: ig://CcFyRFCrptC/m
 photo.90.author: leonard_redmof
+photo.90.commitdate: 2022/4/13
 photo.90.link: https://www.instagram.com/leonard_redmof/
 photo.90.tags: dish, portrait, sample, smile, whiskers
-photo.91: https://www.instagram.com/p/CcKniPmLCOz/media/?size=m
+photo.91: ig://CcKniPmLCOz/m
 photo.91.author: chankunvv
+photo.91.commitdate: 2022/4/13
 photo.91.link: https://www.instagram.com/chankunvv/
 photo.91.tags: apple time, paws, portrait, sample, smile
 species: 2

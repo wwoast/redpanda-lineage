@@ -815,8 +815,9 @@ photo.160.author: mifko55
 photo.160.commitdate: 2022/3/20
 photo.160.link: https://www.instagram.com/mifko55/
 photo.160.tags: bamboo, paws, portrait, smile
-photo.161: https://www.instagram.com/p/CcIGrKxvNYY/media/?size=m
+photo.161: ig://CcIGrKxvNYY/m
 photo.161.author: na.mo.pan
+photo.161.commitdate: 2022/4/13
 photo.161.link: https://www.instagram.com/na.mo.pan/
 photo.161.tags: home, laying down, paws, sample, tongue, whiskers
 species: 2
