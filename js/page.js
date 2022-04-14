@@ -296,7 +296,8 @@ Page.home.render = function() {
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
     // Current memorials
-    var departed = Gallery.memorialPhotoCredits(L.display, ["57"], 3, Message.memorial);
+    var memorial_ids = ["150", "57"]
+    var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
     new_content.appendChild(departed);
     // Please remember these pandas
     // var memorial = Gallery.memorialPhotoCredits(L.display, ["59"], 3, Message.missing_you);
@@ -310,7 +311,7 @@ Page.home.render = function() {
       new_content.appendChild(birthday);
     }
     // Special galleries
-    if (birthday_count <= 2) {
+    if (birthday_count + memorial_ids.length < 2) {
       var special_galleries = Page.home.special_galleries();
       new_content.appendChild(special_galleries);
     }
