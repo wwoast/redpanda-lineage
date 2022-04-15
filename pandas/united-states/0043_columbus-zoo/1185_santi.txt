@@ -28,37 +28,40 @@ photo.3.author: lipscer
 photo.3.commitdate: 2021/9/18
 photo.3.link: https://www.instagram.com/lipscer/
 photo.3.tags: bamboo, mofumofu, portrait, profile, smile
-photo.4: ig://CS62PPftVjF/m
-photo.4.author: columbuszoo
-photo.4.commitdate: 2021/9/8
-photo.4.link: https://www.instagram.com/columbuszoo/
-photo.4.tags: smile
-photo.5: ig://CUQTJUpLum2/m
-photo.5.author: lipscer
-photo.5.commitdate: 2021/9/28
-photo.5.link: https://www.instagram.com/lipscer/
-photo.5.tags: close-up, peek, smile, whiskers
-photo.6: ig://CUSpa10pMje/m
-photo.6.author: wumpwoast
-photo.6.commitdate: 2021/10/9
-photo.6.link: https://www.instagram.com/wumpwoast/
-photo.6.tags: smile, whiskers
-photo.7: ig://CUpnUvIgkV7/m
-photo.7.author: lipscer
-photo.7.commitdate: 2021/11/20
-photo.7.link: https://www.instagram.com/lipscer/
-photo.7.tags: close-up, mofumofu, whiskers
-photo.8: https://www.instagram.com/p/CbQxIBpNPsu/media/?size=m
-photo.8.author: columbuszoo
-photo.8.link: https://www.instagram.com/columbuszoo/
-photo.8.tags: mofumofu, tree, upside-down
-photo.9: https://www.instagram.com/p/CaczkPdJrD7/media/?size=m
+photo.4: ig://COvVkvZAOWK/m
+photo.4.author: Kim Pruim
+photo.4.commitdate: 2022/4/15
+photo.4.link: https://www.instagram.com/zoogirl22/
+photo.4.tags: climb, tree, whiskers
+photo.5: ig://CS62PPftVjF/m
+photo.5.author: columbuszoo
+photo.5.commitdate: 2021/9/8
+photo.5.link: https://www.instagram.com/columbuszoo/
+photo.5.tags: smile
+photo.6: ig://CUQTJUpLum2/m
+photo.6.author: lipscer
+photo.6.commitdate: 2021/9/28
+photo.6.link: https://www.instagram.com/lipscer/
+photo.6.tags: close-up, peek, smile, whiskers
+photo.7: ig://CUSpa10pMje/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2021/10/9
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: smile, whiskers
+photo.8: ig://CUpnUvIgkV7/m
+photo.8.author: lipscer
+photo.8.commitdate: 2021/11/20
+photo.8.link: https://www.instagram.com/lipscer/
+photo.8.tags: close-up, mofumofu, whiskers
+photo.9: ig://CaczkPdJrD7/m
 photo.9.author: carsontheredpanda
+photo.9.commitdate: 2022/4/15
 photo.9.link: https://www.instagram.com/carsontheredpanda/
 photo.9.tags: close-up, lunch time, peek, sample, whiskers
-photo.10: https://www.instagram.com/p/COvVkvZAOWK/media/?size=m
-photo.10.author: Kim Pruim
-photo.10.link: https://www.instagram.com/zoogirl22/
-photo.10.tags: climb, tree, whiskers
+photo.10: ig://CbQxIBpNPsu/m
+photo.10.author: columbuszoo
+photo.10.commitdate: 2022/4/15
+photo.10.link: https://www.instagram.com/columbuszoo/
+photo.10.tags: mofumofu, tree, upside-down
 species: 2
 zoo: 43

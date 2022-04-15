@@ -35,21 +35,21 @@ photo.4.author: andersonkelley
 photo.4.commitdate: 2021/9/29
 photo.4.link: https://www.instagram.com/andersonkelley/
 photo.4.tags: close-up, portrait, whiskers
-photo.5: ig://CSESm0ftT_-/m
-photo.5.author: rossifari
-photo.5.commitdate: 2021/8/7
-photo.5.link: https://www.instagram.com/rossifari/
-photo.5.tags: portrait, snow, standing, whiskers
-photo.6: ig://CX4Ipj3PT7Q/m
-photo.6.author: worldthathesees
-photo.6.commitdate: 2022/3/24
-photo.6.link: https://www.instagram.com/worldthathesees/
-photo.6.tags: paws, whiskers
-photo.7: ig://CRZLYWmpZgq/m
-photo.7.author: redpandanetwork
-photo.7.commitdate: 2021/7/18
-photo.7.link: https://www.instagram.com/redpandanetwork/
-photo.7.tags: bamboo, lunch time, paws, portrait, standing, tail
+photo.5: ig://CRZLYWmpZgq/m
+photo.5.author: redpandanetwork
+photo.5.commitdate: 2021/7/18
+photo.5.link: https://www.instagram.com/redpandanetwork/
+photo.5.tags: bamboo, lunch time, paws, portrait, standing, tail
+photo.6: ig://CSESm0ftT_-/m
+photo.6.author: rossifari
+photo.6.commitdate: 2021/8/7
+photo.6.link: https://www.instagram.com/rossifari/
+photo.6.tags: portrait, snow, standing, whiskers
+photo.7: ig://CX4Ipj3PT7Q/m
+photo.7.author: worldthathesees
+photo.7.commitdate: 2022/3/24
+photo.7.link: https://www.instagram.com/worldthathesees/
+photo.7.tags: paws, whiskers
 species: 2
 studbook.id: 1524
 zoo: 43

@@ -45,23 +45,26 @@ photo.6.author: milwaukeecozoo
 photo.6.commitdate: 2020/6/7
 photo.6.link: https://www.instagram.com/milwaukeecozoo/
 photo.6.tags: paws, smile, whiskers
-photo.7: ig://CX3JJ1mOIuf/m
-photo.7.author: worldthathesees
-photo.7.commitdate: 2022/3/24
-photo.7.link: https://www.instagram.com/worldthathesees/
-photo.7.tags: baby, bamboo, paws, snow, tail
-photo.8: https://www.instagram.com/p/CT9uSOEsjYR/media/?size=m
+photo.7: ig://CQGhZoHDRBN/m
+photo.7.author: milwaukeecozoo
+photo.7.commitdate: 2022/4/15
+photo.7.link: https://www.instagram.com/milwaukeecozoo/
+photo.7.tags: bamboo, bite, paws, tongue, whiskers
+photo.8: ig://CSoveu9Dhrj/m
 photo.8.author: milwaukeecozoo
+photo.8.commitdate: 2022/4/15
 photo.8.link: https://www.instagram.com/milwaukeecozoo/
-photo.8.tags: bamboo, close-up, peek, portrait
-photo.9: https://www.instagram.com/p/CQGhZoHDRBN/media/?size=m
+photo.8.tags: bamboo, close-up, portrait, sample, whiskers
+photo.9: ig://CT9uSOEsjYR/m
 photo.9.author: milwaukeecozoo
+photo.9.commitdate: 2022/4/15
 photo.9.link: https://www.instagram.com/milwaukeecozoo/
-photo.9.tags: bamboo, bite, paws, tongue, whiskers
-photo.10: https://www.instagram.com/p/CSoveu9Dhrj/media/?size=m
-photo.10.author: milwaukeecozoo
-photo.10.link: https://www.instagram.com/milwaukeecozoo/
-photo.10.tags: bamboo, close-up, portrait, sample, whiskers
+photo.9.tags: bamboo, close-up, peek, portrait
+photo.10: ig://CX3JJ1mOIuf/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2022/3/24
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: baby, bamboo, paws, snow, tail
 species: 2
 studbook.id: 1518
 zoo: 93

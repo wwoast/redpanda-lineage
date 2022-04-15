@@ -27,37 +27,41 @@ photo.2.author: brookfieldzoo
 photo.2.commitdate: 2019/4/7
 photo.2.link: https://www.instagram.com/brookfieldzoo/
 photo.2.tags: profile
-photo.3: ig://B6bNj3OpRJH/m
-photo.3.author: rossifari
-photo.3.commitdate: 2019/12/29
-photo.3.link: https://www.instagram.com/rossifari/
-photo.3.tags: portrait, tail, whiskers
-photo.4: ig://CNM-n-eHU-p/m
-photo.4.author: brookfieldzoo
-photo.4.commitdate: 2021/5/28
-photo.4.link: https://www.instagram.com/brookfieldzoo/
-photo.4.tags: peek
-photo.5: ig://CWgrFd5P0JM/m
+photo.3: ig://B4yBz_KgjnU/m
+photo.3.author: Kim Pruim
+photo.3.commitdate: 2022/4/15
+photo.3.link: https://www.instagram.com/zoogirl22/
+photo.3.tags: peek, whiskers
+photo.4: ig://B6bNj3OpRJH/m
+photo.4.author: rossifari
+photo.4.commitdate: 2019/12/29
+photo.4.link: https://www.instagram.com/rossifari/
+photo.4.tags: portrait, tail, whiskers
+photo.5: ig://B94lu7_g-Ep/m
 photo.5.author: Kim Pruim
-photo.5.commitdate: 2021/11/29
+photo.5.commitdate: 2022/4/15
 photo.5.link: https://www.instagram.com/zoogirl22/
-photo.5.tags: portrait, whiskers
-photo.6: https://www.instagram.com/p/CWwyEM-L1JX/media/?size=m
-photo.6.author: Kim Pruim
-photo.6.link: https://www.instagram.com/zoogirl22/
-photo.6.tags: whiskers
-photo.7: https://www.instagram.com/p/CWou2r-rJQA/media/?size=m
+photo.5.tags: mofumofu, sample, whiskers
+photo.6: ig://CNM-n-eHU-p/m
+photo.6.author: brookfieldzoo
+photo.6.commitdate: 2021/5/28
+photo.6.link: https://www.instagram.com/brookfieldzoo/
+photo.6.tags: peek
+photo.7: ig://CWgrFd5P0JM/m
 photo.7.author: Kim Pruim
+photo.7.commitdate: 2021/11/29
 photo.7.link: https://www.instagram.com/zoogirl22/
-photo.7.tags: close-up, sample, smile, tongue, whiskers
-photo.8: https://www.instagram.com/p/B94lu7_g-Ep/media/?size=m
+photo.7.tags: portrait, whiskers
+photo.8: ig://CWou2r-rJQA/m
 photo.8.author: Kim Pruim
+photo.8.commitdate: 2022/4/15
 photo.8.link: https://www.instagram.com/zoogirl22/
-photo.8.tags: mofumofu, sample, whiskers
-photo.9: https://www.instagram.com/p/B4yBz_KgjnU/media/?size=m
+photo.8.tags: close-up, sample, smile, tongue, whiskers
+photo.9: ig://CWwyEM-L1JX/m
 photo.9.author: Kim Pruim
+photo.9.commitdate: 2022/4/15
 photo.9.link: https://www.instagram.com/zoogirl22/
-photo.9.tags: peek, whiskers 
+photo.9.tags: whiskers
 species: 1
 studbook.id: 1707
 zoo: 152

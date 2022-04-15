@@ -955,24 +955,26 @@ photo.188.author: ssc6105
 photo.188.commitdate: 2022/2/11
 photo.188.link: https://www.instagram.com/ssc6105/
 photo.188.tags: ear, mofumofu, sample
-photo.189: ig://CbD3ZubBSbj/m
-photo.189.author: ssc6105
-photo.189.commitdate: 2022/4/10
-photo.189.link: https://www.instagram.com/ssc6105/
-photo.189.tags: apple time, peek, whiskers
-photo.190: ig://CbKOK1gvB6S/m
-photo.190.author: ssc6105
-photo.190.commitdate: 2022/4/10
-photo.190.link: https://www.instagram.com/ssc6105/
-photo.190.tags: muzzle, paws, whiskers
-photo.191: https://www.instagram.com/p/CaCSSVQvNBq/media/?size=m
-photo.191.author: ck.chie
-photo.191.link: https://www.instagram.com/ck.chie/
-photo.191.tags: apple time, paws, smile, whiskers
-photo.192: https://www.instagram.com/p/CaE5v2rvlZn/media/?size=m
-photo.192.author: ck.chie
-photo.192.link: https://www.instagram.com/ck.chie/
-photo.192.tags: bamboo, portrait, sample, smile, whiskers
+photo.189: ig://CaCSSVQvNBq/m
+photo.189.author: ck.chie
+photo.189.commitdate: 2022/4/15
+photo.189.link: https://www.instagram.com/ck.chie/
+photo.189.tags: apple time, paws, smile, whiskers
+photo.190: ig://CaE5v2rvlZn/m
+photo.190.author: ck.chie
+photo.190.commitdate: 2022/4/15
+photo.190.link: https://www.instagram.com/ck.chie/
+photo.190.tags: bamboo, portrait, sample, smile, whiskers
+photo.191: ig://CbD3ZubBSbj/m
+photo.191.author: ssc6105
+photo.191.commitdate: 2022/4/10
+photo.191.link: https://www.instagram.com/ssc6105/
+photo.191.tags: apple time, peek, whiskers
+photo.192: ig://CbKOK1gvB6S/m
+photo.192.author: ssc6105
+photo.192.commitdate: 2022/4/10
+photo.192.link: https://www.instagram.com/ssc6105/
+photo.192.tags: muzzle, paws, whiskers
 species: 2
 studbook.id: 1295
 zoo: 18
