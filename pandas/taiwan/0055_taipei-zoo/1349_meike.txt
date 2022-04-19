@@ -18,25 +18,30 @@ language.order: cn, en, jp
 litter: unknown
 location.1: 291, 2008/7/22
 location.2: 55, 2014/6/6
-photo.1: https://www.instagram.com/p/CaPtnwLBHMv/media/?size=m
+photo.1: ig://yuredpanda/CYnMTKaPgmL/m
 photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/18
 photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: close-up, portrait, whiskers
-photo.2: https://www.instagram.com/p/CZ4pgT3Bzas/media/?size=m
+photo.1.tags: close-up, portrait, profile, sample, smile, whiskers
+photo.2: ig://CY8DtQ9Pv-o/m
 photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/18
 photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: bamboo, bite, portrait, whiskers
-photo.3: https://www.instagram.com/p/CbACf9pv1K5/media/?size=m
+photo.2.tags: portrait, whiskers
+photo.3: ig://CZ4pgT3Bzas/m
 photo.3.author: yuredpanda
+photo.3.commitdate: 2022/4/18
 photo.3.link: https://www.instagram.com/yuredpanda/
-photo.3.tags: dish, smile, whiskers
-photo.4: https://www.instagram.com/p/CY8DtQ9Pv-o/media/?size=m
+photo.3.tags: bamboo, bite, portrait, whiskers
+photo.4: ig://CaPtnwLBHMv/m
 photo.4.author: yuredpanda
+photo.4.commitdate: 2022/4/18
 photo.4.link: https://www.instagram.com/yuredpanda/
-photo.4.tags: portrait, whiskers
-photo.5: https://www.instagram.com/yuredpanda/p/CYnMTKaPgmL/media/?size=m
+photo.4.tags: close-up, portrait, whiskers
+photo.5: ig://CbACf9pv1K5/m
 photo.5.author: yuredpanda
+photo.5.commitdate: 2022/4/18
 photo.5.link: https://www.instagram.com/yuredpanda/
-photo.5.tags: close-up, portrait, profile, sample, smile, whiskers
+photo.5.tags: dish, smile, whiskers
 species: 2
 zoo: 55
