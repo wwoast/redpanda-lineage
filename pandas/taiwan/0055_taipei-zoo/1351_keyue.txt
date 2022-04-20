@@ -16,5 +16,29 @@ jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
 litter: 1352
+photo.1: https://www.instagram.com/p/CZ3dP5zP2_x/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: bamboo, close-up, mofumofu, portrait, whiskers
+photo.2: https://www.instagram.com/p/CZzOK4vvPtP/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: bamboo, paws, portrait, whiskers
+photo.3: https://www.instagram.com/p/CXPi0eWBTRj/media/?size=m
+photo.3.author: yuredpanda
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: close-up, laying down, mofumofu, portrait, whiskers
+photo.4: https://www.instagram.com/p/CcMVyiVvClK/media/?size=m
+photo.4.author: yuredpanda
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: peek, portrait, smile, whiskers
+photo.5: https://www.instagram.com/p/CamwNPQvnjT/media/?size=m
+photo.5.author: yuredpanda
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: close-up, portrait, profile, tongue, whiskers
+photo.6: https://www.instagram.com/p/CXcWj2eB6j-/media/?size=m
+photo.6.author: yuredpanda
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: peek, whiskers
 species: 2
 zoo: 55

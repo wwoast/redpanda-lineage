@@ -16,5 +16,17 @@ jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
 litter: 1351
+photo.1: https://www.instagram.com/p/CZ21S4Whqkz/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: muzzle, portrait, smile, whiskers
+photo.2: https://www.instagram.com/p/CaQupc4v50A/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: portrait, whiskers
+photo.3: https://www.instagram.com/p/CVEqgkEB6wi/media/?size=m
+photo.3.author: yuredpanda
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: paws, portrait, profile, whiskers
 species: 2
 zoo: 55
