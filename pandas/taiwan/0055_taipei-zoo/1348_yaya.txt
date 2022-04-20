@@ -2,7 +2,7 @@
 _id: 1348
 birthday: 2010/6/26
 birthplace: 291
-children: unknown
+children: 1351, 1352, 1353
 cn.name: 丫丫
 cn.nicknames: none
 cn.othernames: YY
@@ -18,20 +18,5 @@ language.order: cn, en, jp
 litter: unknown
 location.1: 291, 2010/6/26
 location.2: 55, 2014/6/6
-photo.1: ig://B1iqfx3hphU/m
-photo.1.author: redpanda_tata
-photo.1.commitdate: 2022/4/18
-photo.1.link: https://www.instagram.com/redpanda_tata/
-photo.1.tags: portrait, smile, whiskers
-photo.2: ig://B18n1UChd7m/m
-photo.2.author: redpanda_tata
-photo.2.commitdate: 2022/4/18
-photo.2.link: https://www.instagram.com/redpanda_tata/
-photo.2.tags: portrait, tail, tongue, whiskers
-photo.3: ig://B3hEyMshD0O/m
-photo.3.author: redpanda_tata
-photo.3.commitdate: 2022/4/18
-photo.3.link: https://www.instagram.com/redpanda_tata/
-photo.3.tags: portrait, profile, smile, tail, whiskers
 species: 2
 zoo: 55

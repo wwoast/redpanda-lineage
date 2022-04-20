@@ -1,0 +1,32 @@
+[panda]
+_id: 1355
+birthday: 2017/6/11 
+birthplace: 55
+children: none
+cn.name: 的可頌
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2022/4/19
+en.name: Croissant
+en.nicknames: none
+en.othernames: Dekesong
+gender: m
+jp.name: クロワッサン
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: 1354
+photo.1: https://www.instagram.com/p/CajqxdDvjhf/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: mofumofu, whiskers
+photo.2: https://www.instagram.com/p/CbXPhI0v-5q/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: paws, portrait, profile, smile, whiskers
+photo.3: https://www.instagram.com/p/CcbDDa-h-Ze/media/?size=m
+photo.3.author: yuredpanda
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: close-up, lips, sample, whiskers
+species: 2
+zoo: 55

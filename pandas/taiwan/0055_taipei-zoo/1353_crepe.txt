@@ -1,0 +1,44 @@
+[panda]
+_id: 1354
+birthday: 2017/6/11 
+birthplace: 55
+children: none
+cn.name: 可麗餅
+cn.nicknames: none
+cn.othernames: none
+commitdate: 2022/4/19
+en.name: Crepe
+en.nicknames: none
+en.othernames: Kelibing
+gender: f
+jp.name: クレープ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: 1355
+photo.1: https://www.instagram.com/p/CaiktJThZFi/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: blink, laying down, portrait, white face, yawn
+photo.2: https://www.instagram.com/p/CaYs5ldPA1p/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: bamboo, mofumofu, portrait, profile, whiskers
+photo.3: https://www.instagram.com/p/CaV3rZnvnRl/media/?size=m
+photo.3.author: yuredpanda
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: portrait, smile, whiskers
+photo.4: https://www.instagram.com/p/CaODpCeBTRM/media/?size=m
+photo.4.author: yuredpanda
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: mofumofu, peek, portrait, whiskers
+photo.5: https://www.instagram.com/p/CaQ4v71vTJ2/media/?size=m
+photo.5.author: yuredpanda
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: peek, portrait, whiskers, white face
+photo.6: https://www.instagram.com/p/CbMLCIZvf7b/media/?size=m
+photo.6.author: yuredpanda
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: mofumofu, portrait, smile, whiskers
+species: 2
+zoo: 55

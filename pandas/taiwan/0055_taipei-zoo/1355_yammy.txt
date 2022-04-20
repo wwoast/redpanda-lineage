@@ -1,0 +1,28 @@
+[panda]
+_id: 1353
+birthday: 2018/6/24
+birthplace: 55
+children: none
+cn.name: Yammy
+cn.nicknames: none
+cn.othernames: Yummy
+commitdate: 2022/4/19
+en.name: Yammy
+en.nicknames: none
+en.othernames: Yummy
+gender: m
+jp.name: ヤミー
+jp.nicknames: none
+jp.othernames: ユミー
+language.order: cn, en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CaPGZzCvTDH/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: portrait, whiskers
+photo.2: https://www.instagram.com/p/CbeqIqbLNWj/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: close-up, portrait, whiskers
+species: 2
+zoo: 55
