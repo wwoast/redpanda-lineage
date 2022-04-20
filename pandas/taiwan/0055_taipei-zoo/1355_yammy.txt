@@ -1,5 +1,5 @@
 [panda]
-_id: 1353
+_id: 1355
 birthday: 2018/6/24
 birthplace: 55
 children: none
@@ -16,14 +16,6 @@ jp.nicknames: none
 jp.othernames: ユミー
 language.order: cn, en, jp
 litter: none
-<<<<<<< HEAD
-photo.1: https://www.instagram.com/p/CaPGZzCvTDH/media/?size=m
-photo.1.author: yuredpanda
-photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: portrait, whiskers
-photo.2: https://www.instagram.com/p/CbeqIqbLNWj/media/?size=m
-photo.2.author: yuredpanda
-=======
 photo.1: ig://CaPGZzCvTDH/m
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/19
@@ -32,7 +24,6 @@ photo.1.tags: portrait, whiskers
 photo.2: ig://CbeqIqbLNWj/m
 photo.2.author: yuredpanda
 photo.2.commitdate: 2022/4/19
->>>>>>> mergebranch
 photo.2.link: https://www.instagram.com/yuredpanda/
 photo.2.tags: close-up, portrait, whiskers
 species: 2

@@ -31,40 +31,6 @@ photo.3.author: redpanda_tata
 photo.3.commitdate: 2022/4/18
 photo.3.link: https://www.instagram.com/redpanda_tata/
 photo.3.tags: portrait, smile, tail, whiskers
-<<<<<<< HEAD
-photo.4: https://www.instagram.com/yuredpanda/p/CXXL8U6Bd0J/media/?size=m
-photo.4.author: yuredpanda
-photo.4.link: https://www.instagram.com/yuredpanda/
-photo.4.tags: portrait, sample, tail, whiskers
-photo.5: https://www.instagram.com/p/CbPFod4LwR8/media/?size=m
-photo.5.author: yuredpanda
-photo.5.link: https://www.instagram.com/yuredpanda/
-photo.5.tags: peek, whiskers
-photo.6: https://www.instagram.com/p/CaMtAYMvhul/media/?size=m
-photo.6.author: yuredpanda
-photo.6.link: https://www.instagram.com/yuredpanda/
-photo.6.tags: bamboo, bite, mofumofu, portrait, smile, whiskers
-photo.7: https://www.instagram.com/p/CcKNNFTv0nz/media/?size=m
-photo.7.author: yuredpanda
-photo.7.link: https://www.instagram.com/yuredpanda/
-photo.7.tags: peek, tail, whiskers
-photo.8: https://www.instagram.com/p/CZ38n_QP-K7/media/?size=m
-photo.8.author: yuredpanda
-photo.8.link: https://www.instagram.com/yuredpanda/
-photo.8.tags: bamboo, bite, portrait, profile, whiskers
-photo.9: https://www.instagram.com/p/CZCdcZKvC_y/media/?size=m
-photo.9.author: yuredpanda
-photo.9.link: https://www.instagram.com/yuredpanda/
-photo.9.tags: paws, portrait, smile, whiskers
-photo.10: https://www.instagram.com/p/Cag2Ql0PRUo/media/?size=m
-photo.10.author: yuredpanda
-photo.10.link: https://www.instagram.com/yuredpanda/
-photo.10.tags: close-up, mofumofu, portrait
-photo.11: https://www.instagram.com/p/CYVUHTLvLPs/media/?size=m
-photo.11.author: yuredpanda
-photo.11.link: https://www.instagram.com/yuredpanda/
-photo.11.tags: grooming, paws, portrait
-=======
 photo.4: ig://yuredpanda/CXXL8U6Bd0J/m
 photo.4.author: yuredpanda
 photo.4.commitdate: 2022/4/19
@@ -105,7 +71,6 @@ photo.11.author: yuredpanda
 photo.11.commitdate: 2022/4/19
 photo.11.link: https://www.instagram.com/yuredpanda/
 photo.11.tags: peek, tail, whiskers
->>>>>>> mergebranch
 species: 2
 uncertainty: birthday (may have been 23rd)
 zoo: 55
