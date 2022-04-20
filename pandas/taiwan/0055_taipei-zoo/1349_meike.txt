@@ -33,27 +33,30 @@ photo.3.author: yuredpanda
 photo.3.commitdate: 2022/4/18
 photo.3.link: https://www.instagram.com/yuredpanda/
 photo.3.tags: bamboo, bite, portrait, whiskers
-photo.4: ig://CaPtnwLBHMv/m
+photo.4: ig://CZ-jePhBfsw/m
 photo.4.author: yuredpanda
-photo.4.commitdate: 2022/4/18
+photo.4.commitdate: 2022/4/19
 photo.4.link: https://www.instagram.com/yuredpanda/
-photo.4.tags: close-up, portrait, whiskers
-photo.5: ig://CbACf9pv1K5/m
+photo.4.tags: portrait, shake
+photo.5: ig://CaID87chAhf/m
 photo.5.author: yuredpanda
-photo.5.commitdate: 2022/4/18
+photo.5.commitdate: 2022/4/19
 photo.5.link: https://www.instagram.com/yuredpanda/
-photo.5.tags: dish, smile, whiskers
-photo.6: https://www.instagram.com/p/CaUQXK1Pl6L/media/?size=m
+photo.5.tags: mofumofu, paws, whiskers
+photo.6: ig://CaPtnwLBHMv/m
 photo.6.author: yuredpanda
+photo.6.commitdate: 2022/4/18
 photo.6.link: https://www.instagram.com/yuredpanda/
-photo.6.tags: close-up, lunch time, portrait, whiskers
-photo.7: https://www.instagram.com/p/CaID87chAhf/media/?size=m
+photo.6.tags: close-up, portrait, whiskers
+photo.7: ig://CaUQXK1Pl6L/m
 photo.7.author: yuredpanda
+photo.7.commitdate: 2022/4/19
 photo.7.link: https://www.instagram.com/yuredpanda/
-photo.7.tags: mofumofu, paws, whiskers
-photo.8: https://www.instagram.com/p/CZ-jePhBfsw/media/?size=m
+photo.7.tags: close-up, lunch time, portrait, whiskers
+photo.8: ig://CbACf9pv1K5/m
 photo.8.author: yuredpanda
+photo.8.commitdate: 2022/4/18
 photo.8.link: https://www.instagram.com/yuredpanda/
-photo.8.tags: portrait, shake
+photo.8.tags: dish, smile, whiskers
 species: 2
 zoo: 55

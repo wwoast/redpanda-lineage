@@ -16,12 +16,14 @@ jp.nicknames: none
 jp.othernames: ユミー
 language.order: cn, en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CaPGZzCvTDH/media/?size=m
+photo.1: ig://CaPGZzCvTDH/m
 photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/19
 photo.1.link: https://www.instagram.com/yuredpanda/
 photo.1.tags: portrait, whiskers
-photo.2: https://www.instagram.com/p/CbeqIqbLNWj/media/?size=m
+photo.2: ig://CbeqIqbLNWj/m
 photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/19
 photo.2.link: https://www.instagram.com/yuredpanda/
 photo.2.tags: close-up, portrait, whiskers
 species: 2
