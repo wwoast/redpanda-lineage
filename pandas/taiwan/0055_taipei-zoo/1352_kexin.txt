@@ -16,17 +16,20 @@ jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
 litter: 1351
-photo.1: https://www.instagram.com/p/CZ21S4Whqkz/media/?size=m
+photo.1: ig://CVEqgkEB6wi/m
 photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/20
 photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: muzzle, portrait, smile, whiskers
-photo.2: https://www.instagram.com/p/CaQupc4v50A/media/?size=m
+photo.1.tags: paws, portrait, profile, whiskers
+photo.2: ig://CZ21S4Whqkz/m
 photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/20
 photo.2.link: https://www.instagram.com/yuredpanda/
-photo.2.tags: portrait, whiskers
-photo.3: https://www.instagram.com/p/CVEqgkEB6wi/media/?size=m
+photo.2.tags: muzzle, portrait, smile, whiskers
+photo.3: ig://CaQupc4v50A/m
 photo.3.author: yuredpanda
+photo.3.commitdate: 2022/4/20
 photo.3.link: https://www.instagram.com/yuredpanda/
-photo.3.tags: paws, portrait, profile, whiskers
+photo.3.tags: portrait, whiskers
 species: 2
 zoo: 55

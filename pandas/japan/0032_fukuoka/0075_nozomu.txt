@@ -15,7 +15,6 @@ language.order: jp, en
 litter: 91
 location.1: 10, 2012/7/5
 location.2: 32, 2016/4/10
-phoot.172: https://www.instagram.com/p/CZJB6xQPTJd/media/?size=m
 photo.1: ig://BWD6ggkFi9y/m
 photo.1.author: yossi929
 photo.1.commitdate: 2018/7/24
@@ -881,6 +880,11 @@ photo.174.author: re_ichimaru
 photo.174.commitdate: 2022/4/8
 photo.174.link: https://www.instagram.com/re_ichimaru/
 photo.174.tags: laying down, mofumofu, paws, portrait, sleeping, tail
+photo.175: ig://CZJB6xQPTJd/m
+photo.175.author: re_ichimaru
+photo.175.commitdate: 2022/4/20
+photo.175.link: https://www.instagram.com/re_ichimaru/
+photo.175.tags: peek, portrait, wet, whiskers
 species: 2
 studbook.id: 12108
 zoo: 32
