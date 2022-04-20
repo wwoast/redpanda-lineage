@@ -15,8 +15,14 @@ language.order: jp, en
 litter: 157
 location.1: 17, 2004/6/17
 location.2: 55, 2005/12/15
+<<<<<<< HEAD
 photo.1: https://www.instagram.com/p/B51w5uYHfPa/media/?size=m
 photo.1.author: lovetaipeizoo
+=======
+photo.1: ig://B51w5uYHfPa/m
+photo.1.author: lovetaipeizoo
+photo.1.commitdate: 2022/4/19
+>>>>>>> mergebranch
 photo.1.link: https://www.instagram.com/lovetaipeizoo/
 photo.1.tags: blink, muzzle, portrait, profile, smile, whiskers
 species: 2

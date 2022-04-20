@@ -31,6 +31,7 @@ photo.3.author: redpanda_tata
 photo.3.commitdate: 2022/4/18
 photo.3.link: https://www.instagram.com/redpanda_tata/
 photo.3.tags: portrait, smile, tail, whiskers
+<<<<<<< HEAD
 photo.4: https://www.instagram.com/yuredpanda/p/CXXL8U6Bd0J/media/?size=m
 photo.4.author: yuredpanda
 photo.4.link: https://www.instagram.com/yuredpanda/
@@ -63,6 +64,48 @@ photo.11: https://www.instagram.com/p/CYVUHTLvLPs/media/?size=m
 photo.11.author: yuredpanda
 photo.11.link: https://www.instagram.com/yuredpanda/
 photo.11.tags: grooming, paws, portrait
+=======
+photo.4: ig://yuredpanda/CXXL8U6Bd0J/m
+photo.4.author: yuredpanda
+photo.4.commitdate: 2022/4/19
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: portrait, sample, tail, whiskers
+photo.5: ig://CYVUHTLvLPs/m
+photo.5.author: yuredpanda
+photo.5.commitdate: 2022/4/19
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: grooming, paws, portrait
+photo.6: ig://CZCdcZKvC_y/m
+photo.6.author: yuredpanda
+photo.6.commitdate: 2022/4/19
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: paws, portrait, smile, whiskers
+photo.7: ig://CZ38n_QP-K7/m
+photo.7.author: yuredpanda
+photo.7.commitdate: 2022/4/19
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: bamboo, bite, portrait, profile, whiskers
+photo.8: ig://CaMtAYMvhul/m
+photo.8.author: yuredpanda
+photo.8.commitdate: 2022/4/19
+photo.8.link: https://www.instagram.com/yuredpanda/
+photo.8.tags: bamboo, bite, mofumofu, portrait, smile, whiskers
+photo.9: ig://Cag2Ql0PRUo/m
+photo.9.author: yuredpanda
+photo.9.commitdate: 2022/4/19
+photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.tags: close-up, mofumofu, portrait
+photo.10: ig://CbPFod4LwR8/m
+photo.10.author: yuredpanda
+photo.10.commitdate: 2022/4/19
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: peek, whiskers
+photo.11: ig://CcKNNFTv0nz/m
+photo.11.author: yuredpanda
+photo.11.commitdate: 2022/4/19
+photo.11.link: https://www.instagram.com/yuredpanda/
+photo.11.tags: peek, tail, whiskers
+>>>>>>> mergebranch
 species: 2
 uncertainty: birthday (may have been 23rd)
 zoo: 55

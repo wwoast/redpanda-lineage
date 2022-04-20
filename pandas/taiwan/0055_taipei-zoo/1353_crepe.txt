@@ -1,6 +1,10 @@
 [panda]
 _id: 1354
+<<<<<<< HEAD
 birthday: 2017/6/11 
+=======
+birthday: 2017/6/11
+>>>>>>> mergebranch
 birthplace: 55
 children: none
 cn.name: 可麗餅
@@ -16,6 +20,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
 litter: 1355
+<<<<<<< HEAD
 photo.1: https://www.instagram.com/p/CaiktJThZFi/media/?size=m
 photo.1.author: yuredpanda
 photo.1.link: https://www.instagram.com/yuredpanda/
@@ -38,6 +43,36 @@ photo.5.link: https://www.instagram.com/yuredpanda/
 photo.5.tags: peek, portrait, whiskers, white face
 photo.6: https://www.instagram.com/p/CbMLCIZvf7b/media/?size=m
 photo.6.author: yuredpanda
+=======
+photo.1: ig://CaODpCeBTRM/m
+photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/19
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: mofumofu, peek, portrait, whiskers
+photo.2: ig://CaQ4v71vTJ2/m
+photo.2.author: yuredpanda
+photo.2.commitdate: 2022/4/19
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: peek, portrait, whiskers, white face
+photo.3: ig://CaV3rZnvnRl/m
+photo.3.author: yuredpanda
+photo.3.commitdate: 2022/4/19
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: portrait, smile, whiskers
+photo.4: ig://CaYs5ldPA1p/m
+photo.4.author: yuredpanda
+photo.4.commitdate: 2022/4/19
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: bamboo, mofumofu, portrait, profile, whiskers
+photo.5: ig://CaiktJThZFi/m
+photo.5.author: yuredpanda
+photo.5.commitdate: 2022/4/19
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: blink, laying down, portrait, white face, yawn
+photo.6: ig://CbMLCIZvf7b/m
+photo.6.author: yuredpanda
+photo.6.commitdate: 2022/4/19
+>>>>>>> mergebranch
 photo.6.link: https://www.instagram.com/yuredpanda/
 photo.6.tags: mofumofu, portrait, smile, whiskers
 species: 2

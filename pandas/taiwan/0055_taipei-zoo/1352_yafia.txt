@@ -16,8 +16,14 @@ jp.nicknames: none
 jp.othernames: ミュウミュウ
 language.order: cn, en, jp
 litter: 1351, 1353
+<<<<<<< HEAD
 photo.1: https://www.instagram.com/p/Bnu-7c2lBSU/media/?size=m
 photo.1.author: lovetaipeizoo
+=======
+photo.1: ig://Bnu-7c2lBSU/m
+photo.1.author: lovetaipeizoo
+photo.1.commitdate: 2022/4/19
+>>>>>>> mergebranch
 photo.1.link: https://www.instagram.com/lovetaipeizoo/
 photo.1.tags: bamboo, laying down, portrait, smile
 species: 2
