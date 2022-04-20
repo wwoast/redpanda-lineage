@@ -1,5 +1,5 @@
 [panda]
-_id: 1354
+_id: 1356
 birthday: 2017/6/11
 birthplace: 55
 children: none
@@ -15,7 +15,7 @@ jp.name: クロワッサン
 jp.nicknames: none
 jp.othernames: none
 language.order: cn, en, jp
-litter: 1353
+litter: 1355
 photo.1: ig://CajqxdDvjhf/m
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/19
