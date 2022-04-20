@@ -2,7 +2,7 @@
 _id: 1349
 birthday: 2008/7/22
 birthplace: 291
-children: unknown
+children: 1353, 1354
 cn.name: 美可
 cn.nicknames: none
 cn.othernames: none
@@ -43,5 +43,17 @@ photo.5.author: yuredpanda
 photo.5.commitdate: 2022/4/18
 photo.5.link: https://www.instagram.com/yuredpanda/
 photo.5.tags: dish, smile, whiskers
+photo.6: https://www.instagram.com/p/CaUQXK1Pl6L/media/?size=m
+photo.6.author: yuredpanda
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: close-up, lunch time, portrait, whiskers
+photo.7: https://www.instagram.com/p/CaID87chAhf/media/?size=m
+photo.7.author: yuredpanda
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: mofumofu, paws, whiskers
+photo.8: https://www.instagram.com/p/CZ-jePhBfsw/media/?size=m
+photo.8.author: yuredpanda
+photo.8.link: https://www.instagram.com/yuredpanda/
+photo.8.tags: portrait, shake
 species: 2
 zoo: 55

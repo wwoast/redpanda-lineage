@@ -4,6 +4,7 @@ birthday: 2004/6/29
 birthplace: 34
 children: none
 commitdate: 2018/11/26
+death: 2019/10/1
 en.name: Luli
 en.nicknames: none
 en.oldnames: Pi-pa, Pipa
@@ -37,4 +38,5 @@ photo.3.commitdate: 2019/5/7
 photo.3.link: https://www.forestanimalrescue.org/red-pandas/
 species: 2
 studbook.id: 0471
+uncertainty: death exact day, passed away in late 2019
 zoo: 98
