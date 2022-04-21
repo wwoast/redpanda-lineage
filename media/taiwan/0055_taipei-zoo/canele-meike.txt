@@ -1,8 +1,10 @@
 [media]
 _id: media.55.canele-mieke
+commitdate: 2022/4/20
 panda.tags: 1349, 1359
-photo.1: https://www.instagram.com/p/CbSKtKzPaqO/media/?size=l
+photo.1: ig://CbSKtKzPaqO/l
 photo.1.author: yuredpanda
+photo.1.commitdate: 2022/4/20
 photo.1.link: https://www.instagram.com/yuredpanda/
 photo.1.tags: mother's day, nose
 photo.1.tags.1349.location: 110, 145
