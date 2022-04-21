@@ -2,7 +2,7 @@
 _id: 1349
 birthday: 2008/7/22
 birthplace: 291
-children: 1351, 1352, 1355, 1356
+children: 1351, 1352, 1355, 1356, 1358, 1359
 cn.name: 美可
 cn.nicknames: none
 cn.othernames: none
@@ -22,7 +22,7 @@ photo.1: ig://yuredpanda/CYnMTKaPgmL/m
 photo.1.author: yuredpanda
 photo.1.commitdate: 2022/4/18
 photo.1.link: https://www.instagram.com/yuredpanda/
-photo.1.tags: close-up, portrait, profile, sample, smile, whiskers
+photo.1.tags: close-up, portrait, sample, smile, whiskers
 photo.2: ig://CY8DtQ9Pv-o/m
 photo.2.author: yuredpanda
 photo.2.commitdate: 2022/4/18
@@ -58,5 +58,29 @@ photo.8.author: yuredpanda
 photo.8.commitdate: 2022/4/18
 photo.8.link: https://www.instagram.com/yuredpanda/
 photo.8.tags: dish, smile, whiskers
+photo.9: https://www.instagram.com/p/CcPOuHcvDYA/media/?size=m
+photo.9.author: yuredpanda
+photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.tags: laying down, mofumofu, whiskers
+photo.10: https://www.instagram.com/p/CZGgmkRPsfd/media/?size=m
+photo.10.author: yuredpanda
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: laying down, peek, portrait
+photo.11: https://www.instagram.com/p/CaEF4Huv0zD/media/?size=m
+photo.11.author: yuredpanda
+photo.11.link: https://www.instagram.com/yuredpanda/
+photo.11.tags: itchy, paws, portrait, smile, techitechi, whiskers, wink
+photo.12: https://www.instagram.com/p/CaJFf0SvNe4/media/?size=m
+photo.12.author: yuredpanda
+photo.12.link: https://www.instagram.com/yuredpanda/
+photo.12.tags: bridge, climb, paws, tail, whiskers
+photo.13: https://www.instagram.com/p/CZzj9tThyum/media/?size=m
+photo.13.author: yuredpanda
+photo.13.link: https://www.instagram.com/yuredpanda/
+photo.13.tags: climb, mofumofu, paws, portrait, wave, whiskers
+photo.14: https://www.instagram.com/p/CZvN4qLvudT/media/?size=m
+photo.14.author: yuredpanda
+photo.14.link: https://www.instagram.com/yuredpanda/
+photo.14.tags: close-up, laying down, mofumofu, portrait, profile, whiskers
 species: 2
 zoo: 55

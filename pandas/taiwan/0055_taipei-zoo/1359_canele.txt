@@ -1,0 +1,116 @@
+[panda]
+_id: 1359
+birthday: 2021/7/6
+birthplace: 55
+children: none
+cn.name: 可麗露
+cn.nicknames: Lulu
+cn.othernames: none
+commitdate: 2022/4/20
+en.name: Canele
+en.nicknames: Lulu
+en.othernames: Canelé, Kelilu
+gender: f
+jp.name: カヌレ
+jp.nicknames: none
+jp.othernames: none
+language.order: cn, en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CcOzcaTPW8k/media/?size=m
+photo.1.author: yuredpanda
+photo.1.link: https://www.instagram.com/yuredpanda/
+photo.1.tags: laying down, mofumofu
+photo.2: https://www.instagram.com/p/CaWTdYrvvrK/media/?size=m
+photo.2.author: yuredpanda
+photo.2.link: https://www.instagram.com/yuredpanda/
+photo.2.tags: baby, mofumofu, portrait, smile
+photo.3: https://www.instagram.com/p/CbPYJBCvHmI/media/?size=m
+photo.3.author: yuredpanda
+photo.3.link: https://www.instagram.com/yuredpanda/
+photo.3.tags: bite, mofumofu, portrait, tail
+photo.4: https://www.instagram.com/p/CabW2hxvwwa/media/?size=m
+photo.4.author: yuredpanda
+photo.4.link: https://www.instagram.com/yuredpanda/
+photo.4.tags: bridge, mofumofu, paws, peek, portrait
+photo.5: https://www.instagram.com/p/CaL-56HvqUT/media/?size=m
+photo.5.author: yuredpanda
+photo.5.link: https://www.instagram.com/yuredpanda/
+photo.5.tags: bamboo, mofumofu, portrait
+photo.6: https://www.instagram.com/p/CaBVWVkvXuu/media/?size=m
+photo.6.author: yuredpanda
+photo.6.link: https://www.instagram.com/yuredpanda/
+photo.6.tags: mofumofu, portrait, profile
+photo.7: https://www.instagram.com/p/CZ8UZnTvHn3/media/?size=m
+photo.7.author: yuredpanda
+photo.7.link: https://www.instagram.com/yuredpanda/
+photo.7.tags: dish, nose, portrait
+photo.8: https://www.instagram.com/p/CZ56GE0vWRT/media/?size=m
+photo.8.author: yuredpanda
+photo.8.link: https://www.instagram.com/yuredpanda/
+photo.8.tags: bamboo, bite, mofumofu, portrait
+photo.9: https://www.instagram.com/p/CZ7HVizBq3n/media/?size=m
+photo.9.author: yuredpanda
+photo.9.link: https://www.instagram.com/yuredpanda/
+photo.9.tags: mofumofu, portrait
+photo.10: https://www.instagram.com/p/CZ9MOqMPa6F/media/?size=m
+photo.10.author: yuredpanda
+photo.10.link: https://www.instagram.com/yuredpanda/
+photo.10.tags: bite, mofumofu, paws, portrait
+photo.11: https://www.instagram.com/p/CZ-5BqLvNjV/media/?size=m
+photo.11.author: yuredpanda
+photo.11.link: https://www.instagram.com/yuredpanda/
+photo.11.tags: laying down, mofumofu
+photo.12: https://www.instagram.com/p/CaTE6ybBSKW/media/?size=m
+photo.12.author: yuredpanda
+photo.12.link: https://www.instagram.com/yuredpanda/
+photo.12.tags: mofumofu, peek, portrait
+photo.13: https://www.instagram.com/p/CbZoP7yv9mj/media/?size=m
+photo.13.author: yuredpanda
+photo.13.link: https://www.instagram.com/yuredpanda/
+photo.13.tags: dish, mofumofu, portrait
+photo.14: https://www.instagram.com/p/CZy8cB_v3OV/media/?size=m
+photo.14.author: yuredpanda
+photo.14.link: https://www.instagram.com/yuredpanda/
+photo.14.tags: laying down, paws, playing, portrait, smile
+photo.15: https://www.instagram.com/p/CZ0fXsRP6CI/media/?size=m
+photo.15.author: yuredpanda
+photo.15.link: https://www.instagram.com/yuredpanda/
+photo.15.tags: close-up, laying down, mofumofu, paws, playing, portrait
+photo.16: https://www.instagram.com/p/CZw--sFPNr4/media/?size=m
+photo.16.author: yuredpanda
+photo.16.link: https://www.instagram.com/yuredpanda/
+photo.16.tags: mofumofu, paws, portrait, standing, tail
+photo.17: https://www.instagram.com/p/CZvYhX1P18K/media/?size=m
+photo.17.author: yuredpanda
+photo.17.link: https://www.instagram.com/yuredpanda/
+photo.17.tags: laying down, mofumofu, tongue
+photo.18: https://www.instagram.com/p/CY_38WpvVMw/media/?size=m
+photo.18.author: yuredpanda
+photo.18.link: https://www.instagram.com/yuredpanda/
+photo.18.tags: mofumofu, portrait, tongue
+photo.19: https://www.instagram.com/p/CYkPzSfBfMs/media/?size=m
+photo.19.author: yuredpanda
+photo.19.link: https://www.instagram.com/yuredpanda/
+photo.19.tags: baby, mofumofu, smile, tail
+photo.20: https://www.instagram.com/p/CZtnFh1PkhO/media/?size=m
+photo.20.author: yuredpanda
+photo.20.link: https://www.instagram.com/yuredpanda/
+photo.20.tags: baby, mofumofu
+photo.21: https://www.instagram.com/p/CZoQFKYvhvA/media/?size=m
+photo.21.author: yuredpanda
+photo.21.link: https://www.instagram.com/yuredpanda/
+photo.21.tags: baby, bamboo, close-up, mofumofu, portrait
+photo.22: https://www.instagram.com/p/CZdkWm5Pp1Y/media/?size=m
+photo.22.author: yuredpanda
+photo.22.link: https://www.instagram.com/yuredpanda/
+photo.22.tags: baby, bite, laying down, playing, portrait
+photo.23: https://www.instagram.com/p/CZfGCmWhb4L/media/?size=m
+photo.23.author: yuredpanda
+photo.23.link: https://www.instagram.com/yuredpanda/
+photo.23.tags: paws, surprise, tail
+photo.24: https://www.instagram.com/p/CZhN3pJv1vR/media/?size=m
+photo.24.author: yuredpanda
+photo.24.link: https://www.instagram.com/yuredpanda/
+photo.24.tags: peek, portrait, wet 
+species: 2
+zoo: 55
