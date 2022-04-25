@@ -538,15 +538,16 @@ photo.105.author: mini_cochi
 photo.105.commitdate: 2022/3/9
 photo.105.link: https://www.instagram.com/mini_cochi/
 photo.105.tags: apple time, bamboo, bite, mofumofu, paws, portrait, sample, whiskers
-photo.106: ig://Cb7h3_ULoAb/m
-photo.106.author: mini_cochi
-photo.106.commitdate: 2022/4/4
-photo.106.link: https://www.instagram.com/mini_cochi/
-photo.106.tags: cherry blossoms, portrait, sample
-photo.107: https://www.instagram.com/p/CbfDy1uvduN/media/?size=m
-photo.107.author: redpan22
-photo.107.link: https://www.instagram.com/redpan22/
-photo.107.tags: bamboo, bite, mofumofu, sample, tongue
+photo.106: ig://CbfDy1uvduN/m
+photo.106.author: redpan22
+photo.106.commitdate: 2022/4/25
+photo.106.link: https://www.instagram.com/redpan22/
+photo.106.tags: bamboo, bite, mofumofu, sample, tongue
+photo.107: ig://Cb7h3_ULoAb/m
+photo.107.author: mini_cochi
+photo.107.commitdate: 2022/4/4
+photo.107.link: https://www.instagram.com/mini_cochi/
+photo.107.tags: cherry blossoms, portrait, sample
 species: 2
 studbook.id: 13140
 zoo: 69

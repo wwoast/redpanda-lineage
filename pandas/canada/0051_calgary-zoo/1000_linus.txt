@@ -235,8 +235,9 @@ photo.44.author: westcoast_kathy
 photo.44.commitdate: 2022/3/5
 photo.44.link: https://www.instagram.com/westcoast_kathy/
 photo.44.tags: bamboo, close-up, sample, whiskers
-photo.45: https://www.instagram.com/p/CbgyS60umHu/media/?size=m
+photo.45: ig://CbgyS60umHu/m
 photo.45.author: westcoast_kathy
+photo.45.commitdate: 2022/4/25
 photo.45.link: https://www.instagram.com/westcoast_kathy/
 photo.45.tags: peek, portrait, sample, tail
 species: 2

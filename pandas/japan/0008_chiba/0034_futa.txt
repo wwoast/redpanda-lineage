@@ -334,7 +334,7 @@ photo.64: ig://CFZUAIihZ7N/m
 photo.64.author: panda.daisuki
 photo.64.commitdate: 2021/10/9
 photo.64.link: https://www.instagram.com/panda.daisuki/
-photo.64.tags: portrait, tail
+photo.64.tags: peek, portrait, sample, tail, whiskers
 photo.65: ig://CFbgtFhByiJ/m
 photo.65.author: ssc6105
 photo.65.commitdate: 2021/8/29
@@ -344,7 +344,7 @@ photo.66: ig://CHF6nnOhCMP/m
 photo.66.author: mini_cochi
 photo.66.commitdate: 2021/11/15
 photo.66.link: https://www.instagram.com/mini_cochi/
-photo.66.tags: paws, portrait, tail, whiskers
+photo.66.tags: paws, peek, portrait, sample, tail, whiskers
 photo.67: ig://CHT9oISBpiH/m
 photo.67.author: panda.daisuki
 photo.67.commitdate: 2021/12/9
@@ -460,14 +460,6 @@ photo.89.author: ssc6105
 photo.89.commitdate: 2022/3/10
 photo.89.link: https://www.instagram.com/ssc6105/
 photo.89.tags: close-up, eye, mofumofu, paws, sample
-photo.90: https://www.instagram.com/p/CHF6nnOhCMP/media/?size=m
-photo.90.author: mini_cochi
-photo.90.link: https://www.instagram.com/mini_cochi/
-photo.90.tags: peek, portrait, sample, whiskers
-photo.91: https://www.instagram.com/p/CFZUAIihZ7N/media/?size=m
-photo.91.author: panda.daisuki
-photo.91.link: https://www.instagram.com/panda.daisuki/
-photo.91.tags: peek, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 0366
 zoo: 8

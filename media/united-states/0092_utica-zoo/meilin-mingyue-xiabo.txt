@@ -10,8 +10,9 @@ photo.1.tags: baby, family, lunch time, mother's day, siblings, twins
 photo.1.tags.493.location: 155, 205
 photo.1.tags.1082.location: 275, 245
 photo.1.tags.1083.location: 65, 245
-photo.2: https://www.instagram.com/p/CFXS_QuHSg-/media/?size=l
+photo.2: ig://CFXS_QuHSg-/l
 photo.2.author: uticazoo
+photo.2.commitdate: 2022/4/25
 photo.2.link: https://www.instagram.com/uticazoo/
 photo.2.tags: family, portrait, siblings, twins
 photo.2.tags.493.location: 135, 170

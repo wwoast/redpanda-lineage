@@ -770,9 +770,10 @@ photo.151.author: redpan22
 photo.151.commitdate: 2022/4/8
 photo.151.link: https://www.instagram.com/redpan22/
 photo.151.tags: close-up, paws, portrait, sample, whiskers
-photo.152: https://www.instagram.com/p/CbjcZBZuhGA/media/?size=m
+photo.152: ig://CbjcZBZuhGA/m
 photo.152.author: yossi929
+photo.152.commitdate: 2022/4/25
 photo.152.link: https://www.instagram.com/yossi929/
-photo.152.tags: bamboo, portrait, profile, sample, smile, whiskers 
+photo.152.tags: bamboo, portrait, profile, sample, smile, whiskers
 species: 2
 zoo: 306

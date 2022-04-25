@@ -36,20 +36,21 @@ photo.4: ig://BPymQ1Vj5nj/m
 photo.4.author: _wild.photos.by.peter_
 photo.4.commitdate: 2018/12/17
 photo.4.link: https://www.instagram.com/_wild.photos.by.peter_/
-photo.5: ig://BrLN365AT3e/m
-photo.5.author: byteforbyte
-photo.5.commitdate: 2018/12/12
-photo.5.link: https://www.instagram.com/byteforbyte/
-photo.5.tags: autumn, tree
-photo.6: ig://CI3wBPtFXtH/m
-photo.6.author: prospectparkzoo
-photo.6.commitdate: 2021/6/9
-photo.6.link: https://www.instagram.com/prospectparkzoo/
-photo.6.tags: paws, portrait, snow, tail
-photo.7: https://www.instagram.com/p/BZlf-tRgP08/media/?size=m
-photo.7.author: wumpwoast
-photo.7.link: https://www.instagram.com/wumpwoast/
-photo.7.tags: bridge, paws, portrait, smile, tail
+photo.5: ig://BZlf-tRgP08/m
+photo.5.author: wumpwoast
+photo.5.commitdate: 2022/4/25
+photo.5.link: https://www.instagram.com/wumpwoast/
+photo.5.tags: bridge, paws, portrait, smile, tail
+photo.6: ig://BrLN365AT3e/m
+photo.6.author: byteforbyte
+photo.6.commitdate: 2018/12/12
+photo.6.link: https://www.instagram.com/byteforbyte/
+photo.6.tags: autumn, tree
+photo.7: ig://CI3wBPtFXtH/m
+photo.7.author: prospectparkzoo
+photo.7.commitdate: 2021/6/9
+photo.7.link: https://www.instagram.com/prospectparkzoo/
+photo.7.tags: paws, portrait, snow, tail
 species: 2
 studbook.id: 0502
 zoo: 84

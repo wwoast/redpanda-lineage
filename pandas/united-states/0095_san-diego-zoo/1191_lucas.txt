@@ -70,8 +70,9 @@ photo.11.author: rossifari
 photo.11.commitdate: 2022/3/17
 photo.11.link: https://www.instagram.com/rossifari/
 photo.11.tags: peek, portrait, sample, whiskers
-photo.12: https://www.instagram.com/p/CaXJ0ycMAJK/media/?size=m
+photo.12: ig://CaXJ0ycMAJK/m
 photo.12.author: rossifari
+photo.12.commitdate: 2022/4/25
 photo.12.link: https://www.instagram.com/rossifari/
 photo.12.tags: dish, keeper, peek
 species: 2
