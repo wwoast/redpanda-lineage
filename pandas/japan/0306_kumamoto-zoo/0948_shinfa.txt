@@ -264,7 +264,7 @@ photo.50: ig://B9RnYyXBLDW/m
 photo.50.author: mini_cochi
 photo.50.commitdate: 2020/3/5
 photo.50.link: https://www.instagram.com/mini_cochi/
-photo.50.tags: portrait, profile, smile, whiskers
+photo.50.tags: portrait, smile, whiskers
 photo.51: ig://B9WYj6uBxGc/m
 photo.51.author: ck.chie
 photo.51.commitdate: 2020/3/10
@@ -770,5 +770,9 @@ photo.151.author: redpan22
 photo.151.commitdate: 2022/4/8
 photo.151.link: https://www.instagram.com/redpan22/
 photo.151.tags: close-up, paws, portrait, sample, whiskers
+photo.152: https://www.instagram.com/p/CbjcZBZuhGA/media/?size=m
+photo.152.author: yossi929
+photo.152.link: https://www.instagram.com/yossi929/
+photo.152.tags: bamboo, portrait, profile, sample, smile, whiskers 
 species: 2
 zoo: 306
