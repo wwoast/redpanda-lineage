@@ -519,8 +519,9 @@ photo.101.author: otenba_redpanda
 photo.101.commitdate: 2022/4/10
 photo.101.link: https://www.instagram.com/otenba_redpanda/
 photo.101.tags: close-up, portrait, sample, whiskers
-photo.102: https://www.instagram.com/p/CblZKzyLOJy/media/?size=m
+photo.102: ig://CblZKzyLOJy/m
 photo.102.author: otenba_redpanda
+photo.102.commitdate: 2022/4/25
 photo.102.link: https://www.instagram.com/otenba_redpanda/
 photo.102.tags: mofumofu, peek, portrait, sample, whiskers
 species: 2

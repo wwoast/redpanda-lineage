@@ -872,8 +872,9 @@ photo.172.author: love__mitarashi
 photo.172.commitdate: 2022/3/10
 photo.172.link: https://www.instagram.com/love__mitarashi/
 photo.172.tags: portrait, sample, whiskers
-photo.173: https://www.instagram.com/p/CbhXrdYPDSA/media/?size=m
+photo.173: ig://CbhXrdYPDSA/m
 photo.173.author: colette.jp
+photo.173.commitdate: 2022/4/25
 photo.173.link: https://www.instagram.com/colette.jp/
 photo.173.tags: mofumofu, peek, portrait, sample, whiskers
 species: 2

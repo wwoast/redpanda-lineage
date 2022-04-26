@@ -909,8 +909,9 @@ photo.179.author: redpan22
 photo.179.commitdate: 2022/3/20
 photo.179.link: https://www.instagram.com/redpan22/
 photo.179.tags: bamboo, paws, portrait, sample, smile, tree, whiskers
-photo.180: https://www.instagram.com/p/Cbhu3g5vmoz/media/?size=m
+photo.180: ig://Cbhu3g5vmoz/m
 photo.180.author: sasapan34
+photo.180.commitdate: 2022/4/25
 photo.180.link: https://www.instagram.com/sasapan34/
 photo.180.tags: tail, whiskers
 species: 2

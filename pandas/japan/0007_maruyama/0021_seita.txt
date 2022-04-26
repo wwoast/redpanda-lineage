@@ -1145,8 +1145,9 @@ photo.227.author: cattail.sapporo
 photo.227.commitdate: 2022/4/8
 photo.227.link: https://www.instagram.com/cattail.sapporo/
 photo.227.tags: mofumofu, portrait, whiskers
-photo.228: https://www.instagram.com/p/Cbm62tJJQFU/media/?size=m
+photo.228: ig://Cbm62tJJQFU/m
 photo.228.author: minatomirai215
+photo.228.commitdate: 2022/4/25
 photo.228.link: https://www.instagram.com/minatomirai215/
 photo.228.tags: hammock, peek, portrait
 species: 2

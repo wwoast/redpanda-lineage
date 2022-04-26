@@ -110,8 +110,9 @@ photo.19.author: fetorus_mami
 photo.19.commitdate: 2022/4/5
 photo.19.link: https://www.instagram.com/fetorus_mami/
 photo.19.tags: apple time, smile, whiskers
-photo.20: https://www.instagram.com/p/CbhMqaCr0zx/media/?size=m
+photo.20: ig://CbhMqaCr0zx/m
 photo.20.author: fetorus_mami
+photo.20.commitdate: 2022/4/25
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: portrait, profile, sample
 species: 2

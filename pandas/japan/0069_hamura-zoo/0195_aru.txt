@@ -533,8 +533,9 @@ photo.104.author: mini_cochi
 photo.104.commitdate: 2022/3/13
 photo.104.link: https://www.instagram.com/mini_cochi/
 photo.104.tags: mofumofu, portrait, sample, tail, whiskers
-photo.105: https://www.instagram.com/p/CblfLrAhiTF/media/?size=m
+photo.105: ig://CblfLrAhiTF/m
 photo.105.author: rie_panda55
+photo.105.commitdate: 2022/4/25
 photo.105.link: https://www.instagram.com/rie_panda55/
 photo.105.tags: bamboo, bridge, portrait, sample
 species: 2

@@ -132,8 +132,9 @@ photo.24.author: kojikoji2011
 photo.24.commitdate: 2022/3/10
 photo.24.link: https://www.instagram.com/kojikoji2011/
 photo.24.tags: paws, portrait, profile, whiskers
-photo.25: https://www.instagram.com/p/Cbm1hP4JjOQ/media/?size=m
+photo.25: ig://Cbm1hP4JjOQ/m
 photo.25.author: sasapan34
+photo.25.commitdate: 2022/4/25
 photo.25.link: https://www.instagram.com/sasapan34/
 photo.25.tags: paws, smile
 species: 2
