@@ -64,7 +64,7 @@ photo.10: ig://CDU1b4tnoyb/m
 photo.10.author: mochan8686
 photo.10.commitdate: 2020/7/31
 photo.10.link: https://www.instagram.com/mochan8686/
-photo.10.tags: mofumofu, portrait, profile, sample
+photo.10.tags: mofumofu, portrait, sample
 photo.11: ig://CJYu_UJhjPg/m
 photo.11.author: sakikukeco
 photo.11.commitdate: 2020/12/30
@@ -110,6 +110,10 @@ photo.19.author: fetorus_mami
 photo.19.commitdate: 2022/4/5
 photo.19.link: https://www.instagram.com/fetorus_mami/
 photo.19.tags: apple time, smile, whiskers
+photo.20: https://www.instagram.com/p/CbhMqaCr0zx/media/?size=m
+photo.20.author: fetorus_mami
+photo.20.link: https://www.instagram.com/fetorus_mami/
+photo.20.tags: portrait, profile, sample
 species: 2
 studbook.id: 0685
 zoo: 52
