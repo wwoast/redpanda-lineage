@@ -378,19 +378,20 @@ photo.73.author: otenba_redpanda
 photo.73.commitdate: 2022/3/10
 photo.73.link: https://www.instagram.com/otenba_redpanda/
 photo.73.tags: paws, portrait, standing, whiskers
-photo.74: ig://CcF5EctPi5j/m
-photo.74.author: mini_cochi
-photo.74.commitdate: 2022/4/13
-photo.74.link: https://www.instagram.com/mini_cochi/
-photo.74.tags: door, paws, portrait, sample, whiskers
-photo.75: ig://CcLANTYvMGB/m
-photo.75.author: ifumoto88
+photo.74: ig://CbkgPVqPIV3/m
+photo.74.author: alto0908
+photo.74.commitdate: 2022/4/26
+photo.74.link: https://www.instagram.com/alto0908/
+photo.74.tags: portrait, sample, whiskers
+photo.75: ig://CcF5EctPi5j/m
+photo.75.author: mini_cochi
 photo.75.commitdate: 2022/4/13
-photo.75.link: https://www.instagram.com/ifumoto88/
-photo.75.tags: bamboo, mofumofu, portrait, sample, smile
-photo.76: https://www.instagram.com/p/CbkgPVqPIV3/media/?size=m
-photo.76.author: alto0908
-photo.76.link: https://www.instagram.com/alto0908/
-photo.76.tags: portrait, sample, whiskers
+photo.75.link: https://www.instagram.com/mini_cochi/
+photo.75.tags: door, paws, portrait, sample, whiskers
+photo.76: ig://CcLANTYvMGB/m
+photo.76.author: ifumoto88
+photo.76.commitdate: 2022/4/13
+photo.76.link: https://www.instagram.com/ifumoto88/
+photo.76.tags: bamboo, mofumofu, portrait, sample, smile
 species: 2
 zoo: 17

@@ -1705,15 +1705,16 @@ photo.340.author: cattail.sapporo
 photo.340.commitdate: 2022/4/10
 photo.340.link: https://www.instagram.com/cattail.sapporo/
 photo.340.tags: apple time, blink, keeper, paws, portrait, standing, tail
-photo.341: ig://CcMWu7jvR_-/m
-photo.341.author: minatomirai215
-photo.341.commitdate: 2022/4/13
-photo.341.link: https://www.instagram.com/minatomirai215/
-photo.341.tags: portrait, snow, whiskers
-photo.342: https://www.instagram.com/p/CbotvA3Oyo5/media/?size=m
-photo.342.author: cattail.sapporo
-photo.342.link: https://www.instagram.com/cattail.sapporo/
-photo.342.tags: paws, portrait, sample, tail
+photo.341: ig://CbotvA3Oyo5/m
+photo.341.author: cattail.sapporo
+photo.341.commitdate: 2022/4/26
+photo.341.link: https://www.instagram.com/cattail.sapporo/
+photo.341.tags: paws, portrait, sample, tail
+photo.342: ig://CcMWu7jvR_-/m
+photo.342.author: minatomirai215
+photo.342.commitdate: 2022/4/13
+photo.342.link: https://www.instagram.com/minatomirai215/
+photo.342.tags: portrait, snow, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

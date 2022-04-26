@@ -199,8 +199,9 @@ photo.37.author: kotata_513
 photo.37.commitdate: 2022/2/20
 photo.37.link: https://www.instagram.com/kotata_513/
 photo.37.tags: paws, portrait, smile, tail
-photo.38: https://www.instagram.com/p/CboDPs1BLPR/media/?size=m
+photo.38: ig://CboDPs1BLPR/m
 photo.38.author: fetorus_mami
+photo.38.commitdate: 2022/4/26
 photo.38.link: https://www.instagram.com/fetorus_mami/
 photo.38.tags: mofumofu, sample, whiskers
 species: 2

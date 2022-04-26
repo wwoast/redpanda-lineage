@@ -1338,8 +1338,9 @@ photo.270.author: cattail.sapporo
 photo.270.commitdate: 2022/4/10
 photo.270.link: https://www.instagram.com/cattail.sapporo/
 photo.270.tags: close-up, portrait, snow, whiskers
-photo.271: https://www.instagram.com/p/Cbo-j1GuBaR/media/?size=m
+photo.271: ig://Cbo-j1GuBaR/m
 photo.271.author: cattail.sapporo
+photo.271.commitdate: 2022/4/26
 photo.271.link: https://www.instagram.com/cattail.sapporo/
 photo.271.tags: paws, portrait, sample, whiskers
 species: 2
