@@ -18,8 +18,9 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2022/1/4
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down
-photo.2: https://www.instagram.com/p/CbXTY25u0do/media/?size=m
+photo.2: ig://CbXTY25u0do/m
 photo.2.author: rossifari
+photo.2.commitdate: 2022/4/26
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: close-up, portrait, tail, whiskers
 species: 2

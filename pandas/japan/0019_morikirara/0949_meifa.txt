@@ -909,14 +909,15 @@ photo.179.author: redpan22
 photo.179.commitdate: 2022/3/20
 photo.179.link: https://www.instagram.com/redpan22/
 photo.179.tags: bamboo, paws, portrait, sample, smile, tree, whiskers
-photo.180: ig://Cbhu3g5vmoz/m
-photo.180.author: sasapan34
-photo.180.commitdate: 2022/4/25
-photo.180.link: https://www.instagram.com/sasapan34/
-photo.180.tags: tail, whiskers
-photo.181: https://www.instagram.com/p/Cbco-hJpbxv/media/?size=m
-photo.181.author: morikirara
-photo.181.link: https://www.instagram.com/morikirara/
-photo.181.tags: close-up, hammock, laying down, paws, sample, whiskers
+photo.180: ig://Cbco-hJpbxv/m
+photo.180.author: morikirara
+photo.180.commitdate: 2022/4/26
+photo.180.link: https://www.instagram.com/morikirara/
+photo.180.tags: close-up, hammock, laying down, paws, sample, whiskers
+photo.181: ig://Cbhu3g5vmoz/m
+photo.181.author: sasapan34
+photo.181.commitdate: 2022/4/25
+photo.181.link: https://www.instagram.com/sasapan34/
+photo.181.tags: tail, whiskers
 species: 2
 zoo: 19

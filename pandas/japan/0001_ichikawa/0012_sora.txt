@@ -810,24 +810,26 @@ photo.160.author: ssc6105
 photo.160.commitdate: 2022/2/23
 photo.160.link: https://www.instagram.com/ssc6105/
 photo.160.tags: paws, portrait, sample, smile, whiskers
-photo.161: ig://Cbci-zRvU6C/m
-photo.161.author: ck.chie
+photo.161: ig://Ca2AnRgP5Rf/m
+photo.161.author: ifumoto88
 photo.161.commitdate: 2022/4/26
-photo.161.link: https://www.instagram.com/ck.chie/
-photo.161.tags: apple time, mofumofu, paws, sample, whiskers
-photo.162: ig://Cbm0W_BL6ZX/m
+photo.161.link: https://www.instagram.com/ifumoto88/
+photo.161.tags: mofumofu, paws, peek, sample, techitechi, tree
+photo.162: ig://CbARMxtLnJJ/m
 photo.162.author: ifumoto88
 photo.162.commitdate: 2022/4/26
 photo.162.link: https://www.instagram.com/ifumoto88/
-photo.162.tags: laying down, peek, portrait, sample, tree
-photo.163: https://www.instagram.com/p/CbARMxtLnJJ/media/?size=m
-photo.163.author: ifumoto88
-photo.163.link: https://www.instagram.com/ifumoto88/
-photo.163.tags: mofumofu, portrait, sample, whiskers
-photo.164: https://www.instagram.com/p/Ca2AnRgP5Rf/media/?size=m
+photo.162.tags: mofumofu, portrait, sample, whiskers
+photo.163: ig://Cbci-zRvU6C/m
+photo.163.author: ck.chie
+photo.163.commitdate: 2022/4/26
+photo.163.link: https://www.instagram.com/ck.chie/
+photo.163.tags: apple time, mofumofu, paws, sample, whiskers
+photo.164: ig://Cbm0W_BL6ZX/m
 photo.164.author: ifumoto88
+photo.164.commitdate: 2022/4/26
 photo.164.link: https://www.instagram.com/ifumoto88/
-photo.164.tags: mofumofu, paws, peek, sample, techitechi, tree
+photo.164.tags: laying down, peek, portrait, sample, tree
 species: 2
 studbook.id: 0872
 zoo: 1

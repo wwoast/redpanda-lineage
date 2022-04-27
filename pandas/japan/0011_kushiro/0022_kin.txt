@@ -171,8 +171,9 @@ photo.31.author: cattail.sapporo
 photo.31.commitdate: 2021/11/11
 photo.31.link: https://www.instagram.com/cattail.sapporo/
 photo.31.tags: apple time, close-up, lips, paws, portrait, sample
-photo.32: https://www.instagram.com/p/CbXOJDeLoUI/media/?size=m
+photo.32: ig://CbXOJDeLoUI/m
 photo.32.author: cattail.sapporo
+photo.32.commitdate: 2022/4/26
 photo.32.link: https://www.instagram.com/cattail.sapporo/
 photo.32.tags: peek, portrait, snow
 species: 2

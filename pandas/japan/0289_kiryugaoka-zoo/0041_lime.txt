@@ -580,49 +580,51 @@ photo.113.author: otenba_redpanda
 photo.113.commitdate: 2022/1/9
 photo.113.link: https://www.instagram.com/otenba_redpanda/
 photo.113.tags: mofumofu, portrait, sample, whiskers
-photo.114: ig://CZ66VhAB4LJ/m
-photo.114.author: rie_panda55
-photo.114.commitdate: 2022/3/6
-photo.114.link: https://www.instagram.com/rie_panda55/
-photo.114.tags: door, paws, peek, portrait, sample, whiskers
-photo.115: ig://CaFNC9KPsAA/m
-photo.115.author: panda.daisuki
-photo.115.commitdate: 2022/3/5
-photo.115.link: https://www.instagram.com/panda.daisuki/
-photo.115.tags: close-up, portrait, sample, whiskers
-photo.116: ig://CaMiuRfPs30/m
-photo.116.author: ssc6105
-photo.116.commitdate: 2022/4/8
-photo.116.link: https://www.instagram.com/ssc6105/
-photo.116.tags: close-up, sample, whiskers
-photo.117: ig://CaUOtnSvywT/m
-photo.117.author: ssc6105
-photo.117.commitdate: 2022/4/8
-photo.117.link: https://www.instagram.com/ssc6105/
-photo.117.tags: bamboo, close-up, sample, smile, whiskers
-photo.118: ig://CaecCH9PQko/m
+photo.114: ig://CZ1pztPPhEn/m
+photo.114.author: ifumoto88
+photo.114.commitdate: 2022/4/26
+photo.114.link: https://www.instagram.com/ifumoto88/
+photo.114.tags: paws, portrait, sample, snow
+photo.115: ig://CZ3_PkFh0W2/m
+photo.115.author: ifumoto88
+photo.115.commitdate: 2022/4/26
+photo.115.link: https://www.instagram.com/ifumoto88/
+photo.115.tags: paws, portrait, smile, snow, surprise, wihskers
+photo.116: ig://CZ66VhAB4LJ/m
+photo.116.author: rie_panda55
+photo.116.commitdate: 2022/3/6
+photo.116.link: https://www.instagram.com/rie_panda55/
+photo.116.tags: door, paws, peek, portrait, sample, whiskers
+photo.117: ig://CaFNC9KPsAA/m
+photo.117.author: panda.daisuki
+photo.117.commitdate: 2022/3/5
+photo.117.link: https://www.instagram.com/panda.daisuki/
+photo.117.tags: close-up, portrait, sample, whiskers
+photo.118: ig://CaMiuRfPs30/m
 photo.118.author: ssc6105
-photo.118.commitdate: 2022/3/10
+photo.118.commitdate: 2022/4/8
 photo.118.link: https://www.instagram.com/ssc6105/
-photo.118.tags: bamboo, paws, sample, smile, tongue, whiskers
-photo.119: ig://Cahx-R0PPH0/m
-photo.119.author: minatomirai215
-photo.119.commitdate: 2022/3/8
-photo.119.link: https://www.instagram.com/minatomirai215/
-photo.119.tags: bamboo, paws, portrait, smile
-photo.120: ig://Cb15Sebrlc5/m
+photo.118.tags: close-up, sample, whiskers
+photo.119: ig://CaUOtnSvywT/m
+photo.119.author: ssc6105
+photo.119.commitdate: 2022/4/8
+photo.119.link: https://www.instagram.com/ssc6105/
+photo.119.tags: bamboo, close-up, sample, smile, whiskers
+photo.120: ig://CaecCH9PQko/m
 photo.120.author: ssc6105
-photo.120.commitdate: 2022/4/13
+photo.120.commitdate: 2022/3/10
 photo.120.link: https://www.instagram.com/ssc6105/
-photo.120.tags: bamboo, lips, paws, sample, smile, standing
-photo.121: https://www.instagram.com/p/CZ3_PkFh0W2/media/?size=m
-photo.121.author: ifumoto88
-photo.121.link: https://www.instagram.com/ifumoto88/
-photo.121.tags: paws, portrait, smile, snow, surprise, wihskers
-photo.122: https://www.instagram.com/p/CZ1pztPPhEn/media/?size=m
-photo.122.author: ifumoto88
-photo.122.link: https://www.instagram.com/ifumoto88/
-photo.122.tags: paws, portrait, sample, snow
+photo.120.tags: bamboo, paws, sample, smile, tongue, whiskers
+photo.121: ig://Cahx-R0PPH0/m
+photo.121.author: minatomirai215
+photo.121.commitdate: 2022/3/8
+photo.121.link: https://www.instagram.com/minatomirai215/
+photo.121.tags: bamboo, paws, portrait, smile
+photo.122: ig://Cb15Sebrlc5/m
+photo.122.author: ssc6105
+photo.122.commitdate: 2022/4/13
+photo.122.link: https://www.instagram.com/ssc6105/
+photo.122.tags: bamboo, lips, paws, sample, smile, standing
 species: 2
 studbook.id: 14165
 zoo: 289
