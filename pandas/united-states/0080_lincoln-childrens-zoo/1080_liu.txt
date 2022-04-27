@@ -12,6 +12,8 @@ jp.name: リュウ
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 84, 2019/6/28
+location.2: 80, 2021/1/1
 litter: 1079
 photo.1: ig://CYMDd-srtoh/m
 photo.1.author: worldthathesees
@@ -24,4 +26,5 @@ photo.2.commitdate: 2022/4/26
 photo.2.link: https://www.instagram.com/rossifari/
 photo.2.tags: close-up, portrait, tail, whiskers
 species: 2
-zoo: 84
+uncertainty: location.2 exact month/year
+zoo: 80
