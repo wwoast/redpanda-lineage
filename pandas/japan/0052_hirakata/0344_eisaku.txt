@@ -529,15 +529,16 @@ photo.103.author: hamiiiii831_
 photo.103.commitdate: 2022/3/9
 photo.103.link: https://www.instagram.com/hamiiiii831_/
 photo.103.tags: laying down, paws, smile, whiskers
-photo.104: ig://CbhL7WPr9al/m
-photo.104.author: fetorus_mami
-photo.104.commitdate: 2022/4/25
-photo.104.link: https://www.instagram.com/fetorus_mami/
-photo.104.tags: bamboo, mofumofu, sample, whiskers
-photo.105: https://www.instagram.com/p/Cbe9h-WPKcf/media/?size=m
-photo.105.author: jas_forever_love
-photo.105.link: https://www.instagram.com/jas_forever_love/
-photo.105.tags: portrait, sample, smile, whiskers
+photo.104: ig://Cbe9h-WPKcf/m
+photo.104.author: jas_forever_love
+photo.104.commitdate: 2022/4/26
+photo.104.link: https://www.instagram.com/jas_forever_love/
+photo.104.tags: portrait, sample, smile, whiskers
+photo.105: ig://CbhL7WPr9al/m
+photo.105.author: fetorus_mami
+photo.105.commitdate: 2022/4/25
+photo.105.link: https://www.instagram.com/fetorus_mami/
+photo.105.tags: bamboo, mofumofu, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52
