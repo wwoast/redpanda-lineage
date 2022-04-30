@@ -294,8 +294,9 @@ photo.56.author: jas_forever_love
 photo.56.commitdate: 2022/1/6
 photo.56.link: https://www.instagram.com/jas_forever_love/
 photo.56.tags: close-up, ear, portrait, whiskers
-photo.57: https://www.instagram.com/p/CbXEAJXv9nU/media/?size=m
+photo.57: ig://CbXEAJXv9nU/m
 photo.57.author: sakikukeco
+photo.57.commitdate: 2022/4/29
 photo.57.link: https://www.instagram.com/sakikukeco/
 photo.57.tags: mofumofu, peek, portrait, sample
 species: 2
