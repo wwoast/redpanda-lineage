@@ -228,15 +228,16 @@ photo.43.author: hidehaya_biei
 photo.43.commitdate: 2022/4/8
 photo.43.link: https://www.instagram.com/hidehaya_biei/
 photo.43.tags: close-up, laying down, whiskers
-photo.44: ig://Cbg3jObunuW/m
-photo.44.author: hidehaya_biei
-photo.44.commitdate: 2022/4/25
-photo.44.link: https://www.instagram.com/hidehaya_biei/
-photo.44.tags: mofumofu, peek, smile
-photo.45: https://www.instagram.com/p/CbSb2GCvmD2/media/?size=m
-photo.45.author: panda.daisuki
-photo.45.link: https://www.instagram.com/panda.daisuki/
-photo.45.tags: laying down, mofumofu, portrait, sample, smile, whiskers
+photo.44: ig://CbSb2GCvmD2/m
+photo.44.author: panda.daisuki
+photo.44.commitdate: 2022/4/29
+photo.44.link: https://www.instagram.com/panda.daisuki/
+photo.44.tags: laying down, mofumofu, portrait, sample, smile, whiskers
+photo.45: ig://Cbg3jObunuW/m
+photo.45.author: hidehaya_biei
+photo.45.commitdate: 2022/4/25
+photo.45.link: https://www.instagram.com/hidehaya_biei/
+photo.45.tags: mofumofu, peek, smile
 species: 2
 studbook.id: unknown
 zoo: 53

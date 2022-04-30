@@ -194,15 +194,16 @@ photo.36.author: bee_san.13
 photo.36.commitdate: 2022/2/19
 photo.36.link: https://www.instagram.com/bee_san.13/
 photo.36.tags: home, paws, portrait, snow, tree
-photo.37: ig://CbN_TS6BNy_/m
-photo.37.author: hamamatsu.chiita
-photo.37.commitdate: 2022/3/20
-photo.37.link: https://www.instagram.com/hamamatsu.chiita/
-photo.37.tags: close-up, portrait, sample
-photo.38: https://www.instagram.com/p/Ca6v_8zLVqT/media/?size=m
-photo.38.author: bee_san.13
-photo.38.link: https://www.instagram.com/bee_san.13/
-photo.38.tags: mofumofu, peek, whiskers
+photo.37: ig://Ca6v_8zLVqT/m
+photo.37.author: bee_san.13
+photo.37.commitdate: 2022/4/29
+photo.37.link: https://www.instagram.com/bee_san.13/
+photo.37.tags: mofumofu, peek, whiskers
+photo.38: ig://CbN_TS6BNy_/m
+photo.38.author: hamamatsu.chiita
+photo.38.commitdate: 2022/3/20
+photo.38.link: https://www.instagram.com/hamamatsu.chiita/
+photo.38.tags: close-up, portrait, sample
 species: 2
 studbook.id: 11106
 zoo: 31

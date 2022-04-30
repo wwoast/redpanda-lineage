@@ -455,20 +455,21 @@ photo.88.author: mini_cochi
 photo.88.commitdate: 2022/3/9
 photo.88.link: https://www.instagram.com/mini_cochi/
 photo.88.tags: eye, paws, portrait, sample, snow
-photo.89: ig://CaChnhkvkoi/m
-photo.89.author: craig_craig_craig
-photo.89.commitdate: 2022/4/7
-photo.89.link: https://www.instagram.com/craig_craig_craig/
-photo.89.tags: eye, laying down, paws, snow
-photo.90: ig://CarYfwuPO2x/m
-photo.90.author: ssc6105
-photo.90.commitdate: 2022/3/10
-photo.90.link: https://www.instagram.com/ssc6105/
-photo.90.tags: close-up, eye, mofumofu, paws, sample
-photo.91: https://www.instagram.com/p/CZ7E0q0BCbr/media/?size=m
-photo.91.author: eos1089
-photo.91.link: https://www.instagram.com/eos1089/
-photo.91.tags: eye, portrait, sample, snow
+photo.89: ig://CZ7E0q0BCbr/m
+photo.89.author: eos1089
+photo.89.commitdate: 2022/4/29
+photo.89.link: https://www.instagram.com/eos1089/
+photo.89.tags: eye, portrait, sample, snow
+photo.90: ig://CaChnhkvkoi/m
+photo.90.author: craig_craig_craig
+photo.90.commitdate: 2022/4/7
+photo.90.link: https://www.instagram.com/craig_craig_craig/
+photo.90.tags: eye, laying down, paws, snow
+photo.91: ig://CarYfwuPO2x/m
+photo.91.author: ssc6105
+photo.91.commitdate: 2022/3/10
+photo.91.link: https://www.instagram.com/ssc6105/
+photo.91.tags: close-up, eye, mofumofu, paws, sample
 species: 2
 studbook.id: 0366
 zoo: 8

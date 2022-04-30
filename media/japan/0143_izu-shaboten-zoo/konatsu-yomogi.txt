@@ -86,8 +86,9 @@ photo.12.link: https://www.instagram.com/otenba_redpanda/
 photo.12.tags: apple time, bite, couple, paws, portrait, whiskers
 photo.12.tags.163.location: 390, 200
 photo.12.tags.203.location: 175, 170
-photo.13: https://www.instagram.com/p/CbPUjuqLCXU/media/?size=l
+photo.13: ig://CbPUjuqLCXU/l
 photo.13.author: pink.b22
+photo.13.commitdate: 2022/4/29
 photo.13.link: https://www.instagram.com/pink.b22/
 photo.13.tags: bridge, couple, laying down, portrait, sample, whiskers
 photo.13.tags.163.location: 490, 275

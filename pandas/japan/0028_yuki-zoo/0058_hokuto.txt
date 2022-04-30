@@ -959,8 +959,9 @@ photo.189.author: wumpwoast
 photo.189.commitdate: 2022/3/13
 photo.189.link: https://www.instagram.com/wumpwoast/
 photo.189.tags: autumn, portrait, sample, tail
-photo.190: https://www.instagram.com/p/CbSGrf-LI-C/media/?size=m
+photo.190: ig://CbSGrf-LI-C/m
 photo.190.author: cattail.sapporo
+photo.190.commitdate: 2022/4/29
 photo.190.link: https://www.instagram.com/cattail.sapporo/
 photo.190.tags: close-up, flower, portrait, sample
 species: 2

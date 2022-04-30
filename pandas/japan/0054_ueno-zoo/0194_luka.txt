@@ -810,24 +810,26 @@ photo.159.author: eos1089
 photo.159.commitdate: 2022/2/21
 photo.159.link: https://www.instagram.com/eos1089/
 photo.159.tags: mofumofu, portrait, sample, whiskers
-photo.160: ig://CbNVD1FBrtT/m
-photo.160.author: mifko55
-photo.160.commitdate: 2022/3/20
-photo.160.link: https://www.instagram.com/mifko55/
-photo.160.tags: bamboo, paws, portrait, smile
-photo.161: ig://CcIGrKxvNYY/m
-photo.161.author: na.mo.pan
-photo.161.commitdate: 2022/4/13
-photo.161.link: https://www.instagram.com/na.mo.pan/
-photo.161.tags: home, laying down, paws, sample, tongue, whiskers
-photo.162: https://www.instagram.com/p/Ca5U1OThfiq/media/?size=m
-photo.162.author: eos1089
-photo.162.link: https://www.instagram.com/eos1089/
-photo.162.tags: bite, climb, paws, portrait, tail
-photo.163: https://www.instagram.com/p/CZ4m3pahYJx/media/?size=m
-photo.163.author: eos1089
-photo.163.link: https://www.instagram.com/eos1089/
-photo.163.tags: peek, portrait, sample, tail
+photo.160: ig://CZ4m3pahYJx/m
+photo.160.author: eos1089
+photo.160.commitdate: 2022/4/29
+photo.160.link: https://www.instagram.com/eos1089/
+photo.160.tags: peek, portrait, sample, tail
+photo.161: ig://Ca5U1OThfiq/m
+photo.161.author: eos1089
+photo.161.commitdate: 2022/4/29
+photo.161.link: https://www.instagram.com/eos1089/
+photo.161.tags: bite, climb, paws, portrait, tail
+photo.162: ig://CbNVD1FBrtT/m
+photo.162.author: mifko55
+photo.162.commitdate: 2022/3/20
+photo.162.link: https://www.instagram.com/mifko55/
+photo.162.tags: bamboo, paws, portrait, smile
+photo.163: ig://CcIGrKxvNYY/m
+photo.163.author: na.mo.pan
+photo.163.commitdate: 2022/4/13
+photo.163.link: https://www.instagram.com/na.mo.pan/
+photo.163.tags: home, laying down, paws, sample, tongue, whiskers
 species: 2
 studbook.id: 1677
 zoo: 54

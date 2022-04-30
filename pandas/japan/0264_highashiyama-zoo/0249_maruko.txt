@@ -427,15 +427,16 @@ photo.82.author: rie_panda55
 photo.82.commitdate: 2022/3/10
 photo.82.link: https://www.instagram.com/rie_panda55/
 photo.82.tags: bamboo, paws, portrait, standing, window
-photo.83: ig://Cbl1RRzrrtF/m
-photo.83.author: miis_98
-photo.83.commitdate: 2022/4/25
-photo.83.link: https://www.instagram.com/miis_98/
-photo.83.tags: keeper, portrait, sample, whiskers
-photo.84: https://www.instagram.com/p/CbQiO3ZhA0U/media/?size=m
-photo.84.author: hamamatsu.chiita
-photo.84.link: https://www.instagram.com/hamamatsu.chiita/
-photo.84.tags: mofumofu, portrait, sample, whiskers
+photo.83: ig://CbQiO3ZhA0U/m
+photo.83.author: hamamatsu.chiita
+photo.83.commitdate: 2022/4/29
+photo.83.link: https://www.instagram.com/hamamatsu.chiita/
+photo.83.tags: mofumofu, portrait, sample, whiskers
+photo.84: ig://Cbl1RRzrrtF/m
+photo.84.author: miis_98
+photo.84.commitdate: 2022/4/25
+photo.84.link: https://www.instagram.com/miis_98/
+photo.84.tags: keeper, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

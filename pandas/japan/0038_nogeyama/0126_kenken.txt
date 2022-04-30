@@ -670,24 +670,26 @@ photo.131.author: miis_98
 photo.131.commitdate: 2022/1/4
 photo.131.link: https://www.instagram.com/miis_98/
 photo.131.tags: apple time, paws, portrait, tongue, whiskers
-photo.132: ig://CZ3yJ8CBSfQ/m
-photo.132.author: otenba_redpanda
-photo.132.commitdate: 2022/3/9
-photo.132.link: https://www.instagram.com/otenba_redpanda/
-photo.132.tags: bamboo, mofumofu, portrait, whiskers
-photo.133: ig://CaT207VP1Yr/m
-photo.133.author: pantasanzoo1
-photo.133.commitdate: 2022/3/28
-photo.133.link: https://www.instagram.com/pantasanzoo1/
-photo.133.tags: bamboo, grooming, paws, tail
-photo.134: https://www.instagram.com/p/CafXln1hvXE/media/?size=m
-photo.134.author: eos1089
-photo.134.link: https://www.instagram.com/eos1089/
-photo.134.tags: mofumofu, paws, portrait, sample, tongue, whiskers
-photo.135: https://www.instagram.com/p/CZHroKjP6iF/media/?size=m
+photo.132: ig://CZHroKjP6iF/m
+photo.132.author: eos1089
+photo.132.commitdate: 2022/4/29
+photo.132.link: https://www.instagram.com/eos1089/
+photo.132.tags: climb, paws, peek, portrait, sample
+photo.133: ig://CZ3yJ8CBSfQ/m
+photo.133.author: otenba_redpanda
+photo.133.commitdate: 2022/3/9
+photo.133.link: https://www.instagram.com/otenba_redpanda/
+photo.133.tags: bamboo, mofumofu, portrait, whiskers
+photo.134: ig://CaT207VP1Yr/m
+photo.134.author: pantasanzoo1
+photo.134.commitdate: 2022/3/28
+photo.134.link: https://www.instagram.com/pantasanzoo1/
+photo.134.tags: bamboo, grooming, paws, tail
+photo.135: ig://CafXln1hvXE/m
 photo.135.author: eos1089
+photo.135.commitdate: 2022/4/29
 photo.135.link: https://www.instagram.com/eos1089/
-photo.135.tags: climb, paws, peek, portrait, sample
+photo.135.tags: mofumofu, paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 0684
 zoo: 38
