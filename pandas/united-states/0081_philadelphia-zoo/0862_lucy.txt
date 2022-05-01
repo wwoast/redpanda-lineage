@@ -4,15 +4,19 @@ birthday: 2018/6/25
 birthplace: 177
 children: none
 commitdate: 2019/6/9
-en.name: Roji
+en.name: Lucy
 en.nicknames: none
-en.othernames: Rosie, Lucy
+en.oldnames: Roji, Rosie
+en.othernames: none
 gender: f
-jp.name: ロジ
+jp.name: ルシー
 jp.nicknames: none
+jp.oldnames: ロジ
 jp.othernames: none
 language.order: en, jp
 litter: 861
+location.1: 177, 2018/6/25
+location.2: 81, 2021/8/1
 photo.1: ig://CW1fnAuswuE/m
 photo.1.author: philadelphiazoo
 photo.1.commitdate: 2022/5/1
@@ -35,4 +39,5 @@ photo.4.link: https://www.instagram.com/philadelphiazoo/
 photo.4.tags: close-up, videolink, whiskers
 species: 1
 studbook.id: 1820
+uncertainty: location.2 exact date (first photo is august)
 zoo: 177
