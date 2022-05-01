@@ -6,7 +6,7 @@ children: none
 commitdate: 2019/6/9
 en.name: Roji
 en.nicknames: none
-en.othernames: Rosie
+en.othernames: Rosie, Lucy
 gender: f
 jp.name: ロジ
 jp.nicknames: none
@@ -18,6 +18,22 @@ photo.1.author: worldthathesees
 photo.1.commitdate: 2022/1/6
 photo.1.link: https://www.instagram.com/worldthathesees/
 photo.1.tags: laying down, white face
+photo.2: https://www.instagram.com/p/CW1fnAuswuE/media/?size=m
+photo.2.author: philadelphiazoo
+photo.2.link: https://www.instagram.com/philadelphiazoo/
+photo.2.tags: close-up, videolink
+photo.3: https://www.instagram.com/p/Cc8KUuCMTPh/media/?size=m
+photo.3.author: philadelphiazoo
+photo.3.link: https://www.instagram.com/philadelphiazoo/
+photo.3.tags: close-up, videolink, whiskers
+photo.4: https://www.instagram.com/p/CbXqnsVMfGl/media/?size=m
+photo.4.author: philadelphiazoo
+photo.4.link: https://www.instagram.com/philadelphiazoo/
+photo.4.tags: bamboo, paws, smile, whiskers, white face
+photo.5: https://www.instagram.com/p/CW1fnAuswuE/media/?size=m
+photo.5.author: philadelphiazoo
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: bamboo, close-up, videolink, whiskers
 species: 1
 studbook.id: 1820
 zoo: 177

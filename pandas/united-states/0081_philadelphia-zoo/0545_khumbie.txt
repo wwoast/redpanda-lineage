@@ -82,46 +82,41 @@ photo.14.author: rossifari
 photo.14.commitdate: 2020/8/9
 photo.14.link: https://www.instagram.com/rossifari/
 photo.14.tags: climb, close-up, portrait, white face
-photo.15: ig://CDGpMgbgEL5/m
+photo.15: ig://CDbPj1KgxG1/m
 photo.15.author: rossifari
-photo.15.commitdate: 2020/8/9
+photo.15.commitdate: 2020/8/5
 photo.15.link: https://www.instagram.com/rossifari/
-photo.15.tags: close-up, portrait, smile, whiskers
-photo.16: ig://CDbPj1KgxG1/m
+photo.15.tags: portrait, whiskers
+photo.16: ig://CFUp3FYAcv1/m
 photo.16.author: rossifari
-photo.16.commitdate: 2020/8/5
+photo.16.commitdate: 2021/6/27
 photo.16.link: https://www.instagram.com/rossifari/
-photo.16.tags: portrait, whiskers
-photo.17: ig://CFUp3FYAcv1/m
-photo.17.author: rossifari
-photo.17.commitdate: 2021/6/27
-photo.17.link: https://www.instagram.com/rossifari/
-photo.17.tags: climb, close-up, whiskers
-photo.18: ig://CM7i-7MlLal/m
+photo.16.tags: climb, close-up, whiskers
+photo.17: ig://CM7i-7MlLal/m
+photo.17.author: philadelphiazoo
+photo.17.commitdate: 2021/11/3
+photo.17.link: https://www.instagram.com/philadelphiazoo/
+photo.17.tags: paws, toys, whiskers
+photo.18: ig://CQJV1eaDFXP/m
 photo.18.author: philadelphiazoo
 photo.18.commitdate: 2021/11/3
 photo.18.link: https://www.instagram.com/philadelphiazoo/
-photo.18.tags: paws, toys, whiskers
-photo.19: ig://CQJV1eaDFXP/m
+photo.18.tags: lips, paws, smile, whiskers, white face
+photo.19: ig://CRhfb7YDbYd/m
 photo.19.author: philadelphiazoo
 photo.19.commitdate: 2021/11/3
 photo.19.link: https://www.instagram.com/philadelphiazoo/
-photo.19.tags: lips, paws, smile, whiskers, white face
-photo.20: ig://CRhfb7YDbYd/m
+photo.19.tags: close-up, mofumofu, portrait, tree, whiskers, white face
+photo.20: ig://CT-QSXqtMzx/m
 photo.20.author: philadelphiazoo
 photo.20.commitdate: 2021/11/3
 photo.20.link: https://www.instagram.com/philadelphiazoo/
-photo.20.tags: close-up, mofumofu, portrait, tree, whiskers, white face
-photo.21: ig://CT-QSXqtMzx/m
+photo.20.tags: close-up, portrait, profile, whiskers, white face
+photo.21: ig://CasHiAbsSLk/m
 photo.21.author: philadelphiazoo
-photo.21.commitdate: 2021/11/3
+photo.21.commitdate: 2022/4/10
 photo.21.link: https://www.instagram.com/philadelphiazoo/
-photo.21.tags: close-up, portrait, profile, whiskers, white face
-photo.22: ig://CasHiAbsSLk/m
-photo.22.author: philadelphiazoo
-photo.22.commitdate: 2022/4/10
-photo.22.link: https://www.instagram.com/philadelphiazoo/
-photo.22.tags: bamboo, videolink, white face
+photo.21.tags: bamboo, videolink, white face
 species: 1
 studbook.id: 1415
 zoo: 81

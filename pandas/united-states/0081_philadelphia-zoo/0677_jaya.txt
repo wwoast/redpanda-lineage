@@ -47,6 +47,15 @@ photo.6.author: rossifari
 photo.6.commitdate: 2022/2/28
 photo.6.link: https://www.instagram.com/rossifari/
 photo.6.tags: bamboo, portrait, tongue, whiskers
+photo.7: ig://CDGpMgbgEL5/m
+photo.7.author: rossifari
+photo.7.commitdate: 2020/8/9
+photo.7.link: https://www.instagram.com/rossifari/
+photo.7.tags: close-up, portrait, smile, whiskers
+photo.8: https://www.instagram.com/p/CYhHWNyL0Bt/media/?size=m
+photo.8.author: philadelphiazoo
+photo.8.link: https://www.instagram.com/philadelphiazoo/
+photo.8.tags: peek, snow, whiskers
 species: 1
 studbook.id: 0705
 zoo: 81
