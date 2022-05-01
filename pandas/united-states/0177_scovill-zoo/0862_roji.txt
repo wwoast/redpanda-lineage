@@ -13,27 +13,26 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 861
-photo.1: ig://CYH0Aqvp0IG/m
-photo.1.author: worldthathesees
-photo.1.commitdate: 2022/1/6
-photo.1.link: https://www.instagram.com/worldthathesees/
-photo.1.tags: laying down, white face
-photo.2: https://www.instagram.com/p/CW1fnAuswuE/media/?size=m
-photo.2.author: philadelphiazoo
-photo.2.link: https://www.instagram.com/philadelphiazoo/
-photo.2.tags: close-up, videolink
-photo.3: https://www.instagram.com/p/Cc8KUuCMTPh/media/?size=m
+photo.1: ig://CW1fnAuswuE/m
+photo.1.author: philadelphiazoo
+photo.1.commitdate: 2022/5/1
+photo.1.link: https://www.instagram.com/philadelphiazoo/
+photo.1.tags: bamboo, close-up, videolink, whiskers
+photo.2: ig://CYH0Aqvp0IG/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2022/1/6
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: laying down, white face
+photo.3: ig://CbXqnsVMfGl/m
 photo.3.author: philadelphiazoo
+photo.3.commitdate: 2022/5/1
 photo.3.link: https://www.instagram.com/philadelphiazoo/
-photo.3.tags: close-up, videolink, whiskers
-photo.4: https://www.instagram.com/p/CbXqnsVMfGl/media/?size=m
+photo.3.tags: bamboo, paws, smile, whiskers, white face
+photo.4: ig://Cc8KUuCMTPh/m
 photo.4.author: philadelphiazoo
+photo.4.commitdate: 2022/5/1
 photo.4.link: https://www.instagram.com/philadelphiazoo/
-photo.4.tags: bamboo, paws, smile, whiskers, white face
-photo.5: https://www.instagram.com/p/CW1fnAuswuE/media/?size=m
-photo.5.author: philadelphiazoo
-photo.5.link: https://www.instagram.com/philadelphiazoo/
-photo.5.tags: bamboo, close-up, videolink, whiskers
+photo.4.tags: close-up, videolink, whiskers
 species: 1
 studbook.id: 1820
 zoo: 177
