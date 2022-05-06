@@ -37,6 +37,10 @@ photo.4.author: philadelphiazoo
 photo.4.commitdate: 2022/5/1
 photo.4.link: https://www.instagram.com/philadelphiazoo/
 photo.4.tags: close-up, videolink, whiskers
+photo.5: https://www.instagram.com/p/CTFOnhYsCLp/media/?size=m
+photo.5.author: philadelphiazoo
+photo.5.link: https://www.instagram.com/philadelphiazoo/
+photo.5.tags: close-up, videolink
 species: 1
 studbook.id: 1820
 uncertainty: location.2 exact date (first photo is august)
