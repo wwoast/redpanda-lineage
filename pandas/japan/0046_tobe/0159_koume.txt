@@ -288,25 +288,26 @@ photo.55.author: itsuak
 photo.55.commitdate: 2021/8/15
 photo.55.link: https://www.instagram.com/itsuak/
 photo.55.tags: peek, portrait, whiskers
-photo.56: ig://CW-41aCv7LW/m
+photo.56: ig://CU5HXDlvkUi/m
 photo.56.author: itsuak
-photo.56.commitdate: 2022/1/10
+photo.56.commitdate: 2022/5/5
 photo.56.link: https://www.instagram.com/itsuak/
-photo.56.tags: paws, portrait, sample, whiskers
-photo.57: ig://CYDtFUPvrpx/m
+photo.56.tags: bamboo, whiskers
+photo.57: ig://CW-41aCv7LW/m
 photo.57.author: itsuak
-photo.57.commitdate: 2022/1/4
+photo.57.commitdate: 2022/1/10
 photo.57.link: https://www.instagram.com/itsuak/
-photo.57.tags: close-up, laying down, paws, portrait
-photo.58: ig://CYmG4S_PgsE/m
+photo.57.tags: paws, portrait, sample, whiskers
+photo.58: ig://CYDtFUPvrpx/m
 photo.58.author: itsuak
-photo.58.commitdate: 2022/1/23
+photo.58.commitdate: 2022/1/4
 photo.58.link: https://www.instagram.com/itsuak/
-photo.58.tags: bamboo, paws, portrait, smile, whiskers
-photo.59: https://www.instagram.com/p/CU5HXDlvkUi/media/?size=m
+photo.58.tags: close-up, laying down, paws, portrait
+photo.59: ig://CYmG4S_PgsE/m
 photo.59.author: itsuak
+photo.59.commitdate: 2022/1/23
 photo.59.link: https://www.instagram.com/itsuak/
-photo.59.tags: bamboo, whiskers
+photo.59.tags: bamboo, paws, portrait, smile, whiskers
 species: 2
 studbook.id: 14154
 zoo: 46

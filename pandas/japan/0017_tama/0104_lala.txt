@@ -378,35 +378,36 @@ photo.73.author: otenba_redpanda
 photo.73.commitdate: 2021/10/26
 photo.73.link: https://www.instagram.com/otenba_redpanda/
 photo.73.tags: hammock, laying down, peek, portrait
-photo.74: ig://CVSnTlqhUJ0/m
-photo.74.author: ifumoto88
-photo.74.commitdate: 2021/12/18
-photo.74.link: https://www.instagram.com/ifumoto88/
-photo.74.tags: bite, close-up, paws, portrait
-photo.75: ig://miis_98/CX7lyC7ruhl/m
-photo.75.author: miis_98
-photo.75.commitdate: 2022/1/8
-photo.75.link: https://www.instagram.com/miis_98/
-photo.75.tags: portrait, sample
-photo.76: ig://CYOfc8vr7Qg/m
-photo.76.author: mini_cochi
-photo.76.commitdate: 2022/1/4
-photo.76.link: https://www.instagram.com/mini_cochi/
-photo.76.tags: close-up, bamboo, portrait, whiskers
-photo.77: ig://otenba_redpanda/CYflLoOIK3f/m
-photo.77.author: otenba_redpanda
-photo.77.commitdate: 2022/4/12
-photo.77.link: https://www.instagram.com/otenba_redpanda/
-photo.77.tags: bamboo, bite, portrait, sample, window
-photo.78: ig://CaJQXLJPYns/m
+photo.74: ig://CU7msLDBhRy/m
+photo.74.author: redpan22
+photo.74.commitdate: 2022/5/5
+photo.74.link: https://www.instagram.com/redpan22/
+photo.74.tags: laying down, mofumofu, portrait, sample, sleeping
+photo.75: ig://CVSnTlqhUJ0/m
+photo.75.author: ifumoto88
+photo.75.commitdate: 2021/12/18
+photo.75.link: https://www.instagram.com/ifumoto88/
+photo.75.tags: bite, close-up, paws, portrait
+photo.76: ig://miis_98/CX7lyC7ruhl/m
+photo.76.author: miis_98
+photo.76.commitdate: 2022/1/8
+photo.76.link: https://www.instagram.com/miis_98/
+photo.76.tags: portrait, sample
+photo.77: ig://CYOfc8vr7Qg/m
+photo.77.author: mini_cochi
+photo.77.commitdate: 2022/1/4
+photo.77.link: https://www.instagram.com/mini_cochi/
+photo.77.tags: close-up, bamboo, portrait, whiskers
+photo.78: ig://otenba_redpanda/CYflLoOIK3f/m
 photo.78.author: otenba_redpanda
-photo.78.commitdate: 2022/3/29
+photo.78.commitdate: 2022/4/12
 photo.78.link: https://www.instagram.com/otenba_redpanda/
-photo.78.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
-photo.79: https://www.instagram.com/p/CU7msLDBhRy/media/?size=m
-photo.79.author: redpan22
-photo.79.link: https://www.instagram.com/redpan22/
-photo.79.tags: laying down, mofumofu, portrait, sample, sleeping
+photo.78.tags: bamboo, bite, portrait, sample, window
+photo.79: ig://CaJQXLJPYns/m
+photo.79.author: otenba_redpanda
+photo.79.commitdate: 2022/3/29
+photo.79.link: https://www.instagram.com/otenba_redpanda/
+photo.79.tags: bamboo, mofumofu, portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: 0864
 zoo: 17
