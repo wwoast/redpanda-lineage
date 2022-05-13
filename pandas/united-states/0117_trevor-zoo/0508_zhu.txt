@@ -63,8 +63,9 @@ photo.9.author: trevorzoomillbrook
 photo.9.commitdate: 2021/12/22
 photo.9.link: https://www.instagram.com/trevorzoomillbrook/
 photo.9.tags: laying down, whiskers
-photo.10: https://www.instagram.com/p/Cb7cz48ukOZ/media/?size=m
+photo.10: ig://Cb7cz48ukOZ/m
 photo.10.author: rossifari
+photo.10.commitdate: 2022/5/13
 photo.10.link: https://www.instagram.com/rossifari/
 photo.10.tags: keeper, portrait, whiskers
 species: 1

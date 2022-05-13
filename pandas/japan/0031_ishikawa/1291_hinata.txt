@@ -123,8 +123,9 @@ photo.22.author: hamamatsu.chiita
 photo.22.commitdate: 2022/3/6
 photo.22.link: https://www.instagram.com/hamamatsu.chiita/
 photo.22.tags: close-up, portrait, profile, sample, smile, whiskers
-photo.23: https://www.instagram.com/p/Cb8UwO7hrG4/media/?size=m
+photo.23: ig://Cb8UwO7hrG4/m
 photo.23.author: hamamatsu.chiita
+photo.23.commitdate: 2022/5/13
 photo.23.link: https://www.instagram.com/hamamatsu.chiita/
 photo.23.tags: mofumofu, portrait, sample, smile, whiskers
 species: 2

@@ -1343,8 +1343,9 @@ photo.271.author: cattail.sapporo
 photo.271.commitdate: 2022/4/26
 photo.271.link: https://www.instagram.com/cattail.sapporo/
 photo.271.tags: paws, portrait, sample, whiskers
-photo.272: https://www.instagram.com/p/Cb2H57fLOD6/media/?size=m
+photo.272: ig://Cb2H57fLOD6/m
 photo.272.author: cattail.sapporo
+photo.272.commitdate: 2022/5/13
 photo.272.link: https://www.instagram.com/cattail.sapporo/
 photo.272.tags: paws, portrait, sample, smile, whiskers
 species: 2
