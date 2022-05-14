@@ -644,15 +644,16 @@ photo.127.author: na.mo.pan
 photo.127.commitdate: 2022/1/31
 photo.127.link: https://www.instagram.com/na.mo.pan/
 photo.127.tags: peek, snow, techitechi, whiskers
-photo.128: ig://CcP6cQRv6OB/m
-photo.128.author: firefoxpanda88
-photo.128.commitdate: 2022/4/13
-photo.128.link: https://www.instagram.com/firefoxpanda88/
-photo.128.tags: close-up, mofumofu, portrait, sample, smile, whiskers
-photo.129: https://www.instagram.com/p/Cb1nxkYLTSR/media/?size=m
-photo.129.author: otenba_redpanda
-photo.129.link: https://www.instagram.com/otenba_redpanda/
-photo.129.tags: laying down, home, portrait, sample, whiskers
+photo.128: ig://Cb1nxkYLTSR/m
+photo.128.author: otenba_redpanda
+photo.128.commitdate: 2022/5/13
+photo.128.link: https://www.instagram.com/otenba_redpanda/
+photo.128.tags: laying down, home, portrait, sample, whiskers
+photo.129: ig://CcP6cQRv6OB/m
+photo.129.author: firefoxpanda88
+photo.129.commitdate: 2022/4/13
+photo.129.link: https://www.instagram.com/firefoxpanda88/
+photo.129.tags: close-up, mofumofu, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 13147
 zoo: 1

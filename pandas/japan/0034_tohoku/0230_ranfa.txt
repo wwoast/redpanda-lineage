@@ -978,20 +978,21 @@ photo.194.author: otenba_redpanda
 photo.194.commitdate: 2022/4/26
 photo.194.link: https://www.instagram.com/otenba_redpanda/
 photo.194.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.195: ig://CbpOpE0PNKK/m
+photo.195: ig://Cbmp2DxhE7S/m
 photo.195.author: daniele.tokyo
-photo.195.commitdate: 2022/4/26
+photo.195.commitdate: 2022/5/13
 photo.195.link: https://www.instagram.com/daniele.tokyo/
-photo.195.tags: paws, sample, standing, tail, toys
-photo.196: ig://Cb6Cbqgr7ky/m
-photo.196.author: otenba_redpanda
-photo.196.commitdate: 2022/5/13
-photo.196.link: https://www.instagram.com/otenba_redpanda/
-photo.196.tags: portrait, sample, techitechi, whiskers
-photo.197: https://www.instagram.com/p/Cbmp2DxhE7S/media/?size=m
-photo.197.author: daniele.tokyo
-photo.197.link: https://www.instagram.com/daniele.tokyo/
-photo.197.tags: paws, sample, snow, whiskers
+photo.195.tags: paws, sample, snow, whiskers
+photo.196: ig://CbpOpE0PNKK/m
+photo.196.author: daniele.tokyo
+photo.196.commitdate: 2022/4/26
+photo.196.link: https://www.instagram.com/daniele.tokyo/
+photo.196.tags: paws, sample, standing, tail, toys
+photo.197: ig://Cb6Cbqgr7ky/m
+photo.197.author: otenba_redpanda
+photo.197.commitdate: 2022/5/13
+photo.197.link: https://www.instagram.com/otenba_redpanda/
+photo.197.tags: portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

@@ -327,8 +327,9 @@ photo.63.author: yossi929
 photo.63.commitdate: 2022/2/18
 photo.63.link: https://www.instagram.com/yossi929/
 photo.63.tags: close-up, mofumofu, nose, whiskers
-photo.64: https://www.instagram.com/p/Cb57x4bvKxY/media/?size=m
+photo.64: ig://Cb57x4bvKxY/m
 photo.64.author: yossi929
+photo.64.commitdate: 2022/5/13
 photo.64.link: https://www.instagram.com/yossi929/
 photo.64.tags: bridge, paws, portrait, sample
 species: 2

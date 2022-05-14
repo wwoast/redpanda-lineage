@@ -323,8 +323,9 @@ photo.62.author: otenba_redpanda
 photo.62.commitdate: 2022/2/9
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: bamboo, bite, close-up, lips, mofumofu, portrait, sample, tongue, whiskers
-photo.63: https://www.instagram.com/p/CbobKX4tSTG/media/?size=m
+photo.63: ig://CbobKX4tSTG/m
 photo.63.author: lesserpanda_shizuokacity_cp
+photo.63.commitdate: 2022/5/13
 photo.63.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.63.tags: dish, lunch time, mofumofu, portrait, sample, whiskers
 species: 2

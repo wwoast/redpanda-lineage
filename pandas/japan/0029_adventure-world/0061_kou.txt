@@ -364,8 +364,9 @@ photo.70.author: sasapan34
 photo.70.commitdate: 2022/2/22
 photo.70.link: https://www.instagram.com/sasapan34/
 photo.70.tags: paws, whiskers
-photo.71: https://www.instagram.com/p/Cb1qJ2kLLIh/media/?size=m
+photo.71: ig://Cb1qJ2kLLIh/m
 photo.71.author: grskus_tk
+photo.71.commitdate: 2022/5/13
 photo.71.link: https://www.instagram.com/grskus_tk/
 photo.71.tags: close-up, paws, sample, whiskers
 species: 2

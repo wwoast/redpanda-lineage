@@ -1073,8 +1073,9 @@ photo.213.author: apple_jasmine33
 photo.213.commitdate: 2022/4/26
 photo.213.link: https://www.instagram.com/apple_jasmine33/
 photo.213.tags: climb, peek, whiskers
-photo.214: https://www.instagram.com/p/Cb1MZm7LdWR/media/?size=m
+photo.214: ig://Cb1MZm7LdWR/m
 photo.214.author: gloryeui
+photo.214.commitdate: 2022/5/13
 photo.214.link: https://www.instagram.com/gloryeui/
 photo.214.tags: portrait, sample, tail, whiskers
 species: 2

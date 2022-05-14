@@ -1338,20 +1338,21 @@ photo.270.author: cattail.sapporo
 photo.270.commitdate: 2022/4/10
 photo.270.link: https://www.instagram.com/cattail.sapporo/
 photo.270.tags: close-up, portrait, snow, whiskers
-photo.271: ig://Cbo-j1GuBaR/m
-photo.271.author: cattail.sapporo
-photo.271.commitdate: 2022/4/26
-photo.271.link: https://www.instagram.com/cattail.sapporo/
-photo.271.tags: paws, portrait, sample, whiskers
-photo.272: ig://Cb2H57fLOD6/m
+photo.271: ig://CbmkVZRp7HU/m
+photo.271.author: leonard_redmof
+photo.271.commitdate: 2022/5/13
+photo.271.link: https://www.instagram.com/leonard_redmof/
+photo.271.tags: home, paws, snow
+photo.272: ig://Cbo-j1GuBaR/m
 photo.272.author: cattail.sapporo
-photo.272.commitdate: 2022/5/13
+photo.272.commitdate: 2022/4/26
 photo.272.link: https://www.instagram.com/cattail.sapporo/
-photo.272.tags: paws, portrait, sample, smile, whiskers
-photo.273: https://www.instagram.com/p/CbmkVZRp7HU/media/?size=m
-photo.273.author: leonard_redmof
-photo.273.link: https://www.instagram.com/leonard_redmof/
-photo.273.tags: home, paws, snow
+photo.272.tags: paws, portrait, sample, whiskers
+photo.273: ig://Cb2H57fLOD6/m
+photo.273.author: cattail.sapporo
+photo.273.commitdate: 2022/5/13
+photo.273.link: https://www.instagram.com/cattail.sapporo/
+photo.273.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7

@@ -1064,8 +1064,9 @@ photo.211.author: hamamatsu.chiita
 photo.211.commitdate: 2022/3/13
 photo.211.link: https://www.instagram.com/hamamatsu.chiita/
 photo.211.tags: close-up, sample, whiskers
-photo.212: https://www.instagram.com/p/Cb2X8-YPuIt/media/?size=m
+photo.212: ig://Cb2X8-YPuIt/m
 photo.212.author: taka__3428
+photo.212.commitdate: 2022/5/13
 photo.212.link: https://www.instagram.com/taka__3428/
 photo.212.tags: bamboo, paws, peek, sample, whiskers
 species: 2

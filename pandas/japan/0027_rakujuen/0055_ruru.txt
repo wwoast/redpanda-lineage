@@ -388,8 +388,9 @@ photo.75.author: otenba_redpanda
 photo.75.commitdate: 2022/4/10
 photo.75.link: https://www.instagram.com/otenba_redpanda/
 photo.75.tags: paws, portrait, sample, whiskers
-photo.76: https://www.instagram.com/p/CbmzXs3JkxW/media/?size=m
+photo.76: ig://CbmzXs3JkxW/m
 photo.76.author: otenba_redpanda
+photo.76.commitdate: 2022/5/13
 photo.76.link: https://www.instagram.com/otenba_redpanda/
 photo.76.tags: peek, whiskers
 species: 2
