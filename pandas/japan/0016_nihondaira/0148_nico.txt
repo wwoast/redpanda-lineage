@@ -747,25 +747,26 @@ photo.148.author: otenba_redpanda
 photo.148.commitdate: 2021/12/22
 photo.148.link: https://www.instagram.com/otenba_redpanda/
 photo.148.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.149: ig://CaoDSv1tfJj/m
+photo.149: ig://CZih13Kt1JG/m
 photo.149.author: lesserpanda_shizuokacity_cp
-photo.149.commitdate: 2022/3/10
+photo.149.commitdate: 2022/5/17
 photo.149.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.149.tags: apple time, close-up, dish, smile, whiskers
+photo.149.tags: bamboo, paws, portrait, videolink
 photo.150: https://instagram.com/p/CZ8Rxr0N4HX/media/?size=m
 photo.150.author: lesserpanda_shizuokacity_cp
 photo.150.commitdate: 2022/4/10
 photo.150.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.150.tags: bamboo, paws, tail
-photo.151: ig://Ca6E4Xmt0qB/m
+photo.151: ig://CaoDSv1tfJj/m
 photo.151.author: lesserpanda_shizuokacity_cp
-photo.151.commitdate: 2022/5/13
+photo.151.commitdate: 2022/3/10
 photo.151.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.151.tags: bamboo, bite, paws, tongue
-photo.152: https://www.instagram.com/p/CZih13Kt1JG/media/?size=m
+photo.151.tags: apple time, close-up, dish, smile, whiskers
+photo.152: ig://Ca6E4Xmt0qB/m
 photo.152.author: lesserpanda_shizuokacity_cp
+photo.152.commitdate: 2022/5/13
 photo.152.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.152.tags: bamboo, paws, portrait, videolink
+photo.152.tags: bamboo, bite, paws, tongue
 species: 2
 studbook.id: 1771
 zoo: 16

@@ -1068,84 +1068,86 @@ photo.211.author: akiakiakiko18
 photo.211.commitdate: 2021/1/16
 photo.211.link: https://www.instagram.com/akiakiakiko18/
 photo.211.tags: whiskers
-photo.212: ig://CMRVi2zB1qU/m
+photo.212: ig://CLaa5afBdVP/m
 photo.212.author: akiakiakiko18
-photo.212.commitdate: 2021/4/11
+photo.212.commitdate: 2022/5/17
 photo.212.link: https://www.instagram.com/akiakiakiko18/
-photo.212.tags: paws, toys
-photo.213: ig://CMSuDkeB2Xw/m
-photo.213.author: hamamatsu.chiita
-photo.213.commitdate: 2021/4/11
-photo.213.link: https://www.instagram.com/hamamatsu.chiita/
-photo.213.tags: close-up, portrait, whiskers
-photo.214: ig://CM1xrZLB5g_/m
-photo.214.author: jas_forever_love
-photo.214.commitdate: 2021/8/27
-photo.214.link: https://www.instagram.com/jas_forever_love/
-photo.214.tags: paws, standing, tail, toys
-photo.215: ig://CNZxGIAhdo_/m
-photo.215.author: jas_forever_love
-photo.215.commitdate: 2021/5/28
-photo.215.link: https://www.instagram.com/jas_forever_love/
-photo.215.tags: flowers, portrait, videolink
-photo.216: ig://CQ3L9UQhNBR/m
-photo.216.author: apple_jasmine33
-photo.216.commitdate: 2021/7/13
-photo.216.link: https://www.instagram.com/apple_jasmine33/
-photo.216.tags: apple time, smile
-photo.217: ig://CRlyVpnh-U4/m
-photo.217.author: apple_jasmine33
-photo.217.commitdate: 2021/8/2
-photo.217.link: https://www.instagram.com/apple_jasmine33/
-photo.217.tags: apple time, paws, portrait, toys, whiskers
-photo.218: ig://CSEecIOhApp/m
-photo.218.author: jas_forever_love
-photo.218.commitdate: 2021/8/26
-photo.218.link: https://www.instagram.com/jas_forever_love/
-photo.218.tags: apple time, tongue, toys
-photo.219: ig://CWvGMB9hnJh/m
-photo.219.author: hamamatsu.chiita
-photo.219.commitdate: 2022/1/9
-photo.219.link: https://www.instagram.com/hamamatsu.chiita/
-photo.219.tags: close-up, lips, portrait, sample, whiskers
-photo.220: ig://CW8KM_sB-Su/m
-photo.220.author: minatomirai215
-photo.220.commitdate: 2022/1/9
-photo.220.link: https://www.instagram.com/minatomirai215/
-photo.220.tags: door, portrait, window
-photo.221: ig://CYmxDLNBPQZ/m
-photo.221.author: redpanda_nippon_takashi
-photo.221.commitdate: 2022/1/23
-photo.221.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.221.tags: laying down, paws, portrait, tree
-photo.222: ig://redpanda_nippon_takashi/CZIV5gwhoFm/m
-photo.222.author: redpanda_nippon_takashi
-photo.222.commitdate: 2022/4/5
-photo.222.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.222.tags: paws, snow, whiskers
-photo.223: ig://CZMJiBmPuk8/m
-photo.223.author: jas_forever_love
-photo.223.commitdate: 2022/4/10
-photo.223.link: https://www.instagram.com/jas_forever_love/
-photo.223.tags: paws, peek, tree, whiskers
-photo.224: ig://CZbyNvGvcDN/m
-photo.224.author: apple_jasmine33
-photo.224.commitdate: 2022/2/19
-photo.224.link: https://www.instagram.com/apple_jasmine33/
-photo.224.tags: apple time, peek, portrait, sample, toys, whiskers
-photo.225: ig://Caiz6JQPBOq/m
-photo.225.author: makimaru18
-photo.225.commitdate: 2022/3/10
-photo.225.link: https://www.instagram.com/makimaru18/
-photo.225.tags: close-up, portrait, sample, tongue, whiskers
-photo.226: https://www.instagram.com/p/CLaa5afBdVP/media/?size=m
-photo.226.author: akiakiakiko18
-photo.226.link: https://www.instagram.com/akiakiakiko18/
-photo.226.tags: tail, whiskers
-photo.227: https://www.instagram.com/p/CLbx5SQBPfX/media/?size=m
-photo.227.author: gloryeui
-photo.227.link: https://www.instagram.com/gloryeui/
-photo.227.tags: bridge, portrait
+photo.212.tags: tail, whiskers
+photo.213: ig://CLbx5SQBPfX/m
+photo.213.author: gloryeui
+photo.213.commitdate: 2022/5/17
+photo.213.link: https://www.instagram.com/gloryeui/
+photo.213.tags: bridge, portrait
+photo.214: ig://CMRVi2zB1qU/m
+photo.214.author: akiakiakiko18
+photo.214.commitdate: 2021/4/11
+photo.214.link: https://www.instagram.com/akiakiakiko18/
+photo.214.tags: paws, toys
+photo.215: ig://CMSuDkeB2Xw/m
+photo.215.author: hamamatsu.chiita
+photo.215.commitdate: 2021/4/11
+photo.215.link: https://www.instagram.com/hamamatsu.chiita/
+photo.215.tags: close-up, portrait, whiskers
+photo.216: ig://CM1xrZLB5g_/m
+photo.216.author: jas_forever_love
+photo.216.commitdate: 2021/8/27
+photo.216.link: https://www.instagram.com/jas_forever_love/
+photo.216.tags: paws, standing, tail, toys
+photo.217: ig://CNZxGIAhdo_/m
+photo.217.author: jas_forever_love
+photo.217.commitdate: 2021/5/28
+photo.217.link: https://www.instagram.com/jas_forever_love/
+photo.217.tags: flowers, portrait, videolink
+photo.218: ig://CQ3L9UQhNBR/m
+photo.218.author: apple_jasmine33
+photo.218.commitdate: 2021/7/13
+photo.218.link: https://www.instagram.com/apple_jasmine33/
+photo.218.tags: apple time, smile
+photo.219: ig://CRlyVpnh-U4/m
+photo.219.author: apple_jasmine33
+photo.219.commitdate: 2021/8/2
+photo.219.link: https://www.instagram.com/apple_jasmine33/
+photo.219.tags: apple time, paws, portrait, toys, whiskers
+photo.220: ig://CSEecIOhApp/m
+photo.220.author: jas_forever_love
+photo.220.commitdate: 2021/8/26
+photo.220.link: https://www.instagram.com/jas_forever_love/
+photo.220.tags: apple time, tongue, toys
+photo.221: ig://CWvGMB9hnJh/m
+photo.221.author: hamamatsu.chiita
+photo.221.commitdate: 2022/1/9
+photo.221.link: https://www.instagram.com/hamamatsu.chiita/
+photo.221.tags: close-up, lips, portrait, sample, whiskers
+photo.222: ig://CW8KM_sB-Su/m
+photo.222.author: minatomirai215
+photo.222.commitdate: 2022/1/9
+photo.222.link: https://www.instagram.com/minatomirai215/
+photo.222.tags: door, portrait, window
+photo.223: ig://CYmxDLNBPQZ/m
+photo.223.author: redpanda_nippon_takashi
+photo.223.commitdate: 2022/1/23
+photo.223.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.223.tags: laying down, paws, portrait, tree
+photo.224: ig://redpanda_nippon_takashi/CZIV5gwhoFm/m
+photo.224.author: redpanda_nippon_takashi
+photo.224.commitdate: 2022/4/5
+photo.224.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.224.tags: paws, snow, whiskers
+photo.225: ig://CZMJiBmPuk8/m
+photo.225.author: jas_forever_love
+photo.225.commitdate: 2022/4/10
+photo.225.link: https://www.instagram.com/jas_forever_love/
+photo.225.tags: paws, peek, tree, whiskers
+photo.226: ig://CZbyNvGvcDN/m
+photo.226.author: apple_jasmine33
+photo.226.commitdate: 2022/2/19
+photo.226.link: https://www.instagram.com/apple_jasmine33/
+photo.226.tags: apple time, peek, portrait, sample, toys, whiskers
+photo.227: ig://Caiz6JQPBOq/m
+photo.227.author: makimaru18
+photo.227.commitdate: 2022/3/10
+photo.227.link: https://www.instagram.com/makimaru18/
+photo.227.tags: close-up, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2

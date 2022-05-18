@@ -139,8 +139,9 @@ photo.25.author: grskus_tk
 photo.25.commitdate: 2021/3/21
 photo.25.link: https://www.instagram.com/grskus_tk/
 photo.25.tags: smile
-photo.26: https://www.instagram.com/p/CdnhWf4PPx6/media/?size=m
+photo.26: ig://CdnhWf4PPx6/m
 photo.26.author: kojikoji2011
+photo.26.commitdate: 2022/5/17
 photo.26.link: https://www.instagram.com/kojikoji2011/
 photo.26.tags: paws, portrait, sample, smile, whiskers
 species: 2

@@ -284,15 +284,16 @@ photo.54.author: hamiiiii831_
 photo.54.commitdate: 2022/4/15
 photo.54.link: https://www.instagram.com/hamiiiii831_/
 photo.54.tags: paws, smile, videolink
-photo.55: ig://Cb8OqZCBgqZ/m
-photo.55.author: hamiiiii831_
-photo.55.commitdate: 2022/5/13
-photo.55.link: https://www.instagram.com/hamiiiii831_/
-photo.55.tags: paws, portrait, sample, smile, standing, surprise, wave
-photo.56: https://www.instagram.com/p/CbX2I_wJOc9/media/?size=m
-photo.56.author: miis_98
-photo.56.link: https://www.instagram.com/miis_98/
-photo.56.tags: paws, portrait, sample, tail, wave
+photo.55: ig://CbX2I_wJOc9/m
+photo.55.author: miis_98
+photo.55.commitdate: 2022/5/17
+photo.55.link: https://www.instagram.com/miis_98/
+photo.55.tags: paws, portrait, sample, tail, wave
+photo.56: ig://Cb8OqZCBgqZ/m
+photo.56.author: hamiiiii831_
+photo.56.commitdate: 2022/5/13
+photo.56.link: https://www.instagram.com/hamiiiii831_/
+photo.56.tags: paws, portrait, sample, smile, standing, surprise, wave
 species: 2
 studbook.id: 13144
 zoo: 57

@@ -178,8 +178,9 @@ photo.33.author: panda.daisuki
 photo.33.commitdate: 2021/6/6
 photo.33.link: https://www.instagram.com/panda.daisuki/
 photo.33.tags: apple time, paws, standing, tail
-photo.34: https://www.instagram.com/p/CdkMJUQvDRo/media/?size=m
+photo.34: ig://CdkMJUQvDRo/m
 photo.34.author: kojikoji2011
+photo.34.commitdate: 2022/5/17
 photo.34.link: https://www.instagram.com/kojikoji2011/
 photo.34.tags: mofumofu, portrait, smile
 species: 2
