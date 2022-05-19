@@ -347,14 +347,15 @@ photo.67.author: chankunvv
 photo.67.commitdate: 2022/3/6
 photo.67.link: https://www.instagram.com/chankunvv/
 photo.67.tags: apple time, blink, paws, portrait, smile, tail
-photo.68: ig://CbmpwZ4h3wX/m
-photo.68.author: grskus_tk
-photo.68.commitdate: 2022/5/13
-photo.68.link: https://www.instagram.com/grskus_tk/
-photo.68.tags: tongue
-photo.69: https://www.instagram.com/p/CbUzmCvvYlG/media/?size=m
-photo.69.author: sasapan34
-photo.69.link: https://www.instagram.com/sasapan34/
-photo.69.tags: tail, whiskers
+photo.68: ig://CbUzmCvvYlG/m
+photo.68.author: sasapan34
+photo.68.commitdate: 2022/5/18
+photo.68.link: https://www.instagram.com/sasapan34/
+photo.68.tags: tail, whiskers
+photo.69: ig://CbmpwZ4h3wX/m
+photo.69.author: grskus_tk
+photo.69.commitdate: 2022/5/13
+photo.69.link: https://www.instagram.com/grskus_tk/
+photo.69.tags: tongue
 species: 2
 zoo: 29

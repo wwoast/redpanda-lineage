@@ -496,8 +496,9 @@ photo.97.author: hamamatsu.chiita
 photo.97.commitdate: 2022/3/10
 photo.97.link: https://www.instagram.com/hamamatsu.chiita/
 photo.97.tags: mofumofu, portrait, sample, whiskers
-photo.98: https://www.instagram.com/p/CbYSiIThsqg/media/?size=m
+photo.98: ig://CbYSiIThsqg/m
 photo.98.author: hamamatsu.chiita
+photo.98.commitdate: 2022/5/18
 photo.98.link: https://www.instagram.com/hamamatsu.chiita/
 photo.98.tags: mofumofu, portrait, sample, whiskers
 species: 2

@@ -1073,15 +1073,16 @@ photo.213.author: apple_jasmine33
 photo.213.commitdate: 2022/4/26
 photo.213.link: https://www.instagram.com/apple_jasmine33/
 photo.213.tags: climb, peek, whiskers
-photo.214: ig://Cb1MZm7LdWR/m
-photo.214.author: gloryeui
-photo.214.commitdate: 2022/5/13
-photo.214.link: https://www.instagram.com/gloryeui/
-photo.214.tags: portrait, sample, tail, whiskers
-photo.215: https://www.instagram.com/p/Cbul0gmvLtY/media/?size=m
-photo.215.author: apple_jasmine33
-photo.215.link: https://www.instagram.com/apple_jasmine33/
-photo.215.tags: whiskers
+photo.214: ig://Cbul0gmvLtY/m
+photo.214.author: apple_jasmine33
+photo.214.commitdate: 2022/5/18
+photo.214.link: https://www.instagram.com/apple_jasmine33/
+photo.214.tags: whiskers
+photo.215: ig://Cb1MZm7LdWR/m
+photo.215.author: gloryeui
+photo.215.commitdate: 2022/5/13
+photo.215.link: https://www.instagram.com/gloryeui/
+photo.215.tags: portrait, sample, tail, whiskers
 species: 2
 studbook.id: 11131
 zoo: 2

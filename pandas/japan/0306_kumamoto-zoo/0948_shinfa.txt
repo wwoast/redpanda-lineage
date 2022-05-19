@@ -770,24 +770,25 @@ photo.151.author: redpan22
 photo.151.commitdate: 2022/4/8
 photo.151.link: https://www.instagram.com/redpan22/
 photo.151.tags: close-up, paws, portrait, sample, whiskers
-photo.152: ig://CbeJkb6PEbT/m
+photo.152: ig://CbXPbXkPxyY/m
 photo.152.author: kumamoto_doushokubutsuen
-photo.152.commitdate: 2022/4/26
+photo.152.commitdate: 2022/5/18
 photo.152.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.152.tags: bridge, close-up, paws, sample, whiskers
-photo.153: ig://CbjcZBZuhGA/m
-photo.153.author: yossi929
-photo.153.commitdate: 2022/4/25
-photo.153.link: https://www.instagram.com/yossi929/
-photo.153.tags: bamboo, portrait, profile, sample, smile, whiskers
-photo.154: ig://Cb7QNI-BODQ/m
-photo.154.author: daniele.tokyo
-photo.154.commitdate: 2022/5/13
-photo.154.link: https://www.instagram.com/daniele.tokyo/
-photo.154.tags: bridge, paws, peek, sample, tail, tree
-photo.155: https://www.instagram.com/p/CbXPbXkPxyY/media/?size=m
-photo.155.author: kumamoto_doushokubutsuen
-photo.155.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.155.tags: bamboo, hammock, portrait, tail
+photo.152.tags: bamboo, hammock, portrait, tail
+photo.153: ig://CbeJkb6PEbT/m
+photo.153.author: kumamoto_doushokubutsuen
+photo.153.commitdate: 2022/4/26
+photo.153.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.153.tags: bridge, close-up, paws, sample, whiskers
+photo.154: ig://CbjcZBZuhGA/m
+photo.154.author: yossi929
+photo.154.commitdate: 2022/4/25
+photo.154.link: https://www.instagram.com/yossi929/
+photo.154.tags: bamboo, portrait, profile, sample, smile, whiskers
+photo.155: ig://Cb7QNI-BODQ/m
+photo.155.author: daniele.tokyo
+photo.155.commitdate: 2022/5/13
+photo.155.link: https://www.instagram.com/daniele.tokyo/
+photo.155.tags: bridge, paws, peek, sample, tail, tree
 species: 2
 zoo: 306

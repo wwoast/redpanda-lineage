@@ -270,8 +270,9 @@ photo.51.author: itsuak
 photo.51.commitdate: 2022/3/6
 photo.51.link: https://www.instagram.com/itsuak/
 photo.51.tags: close-up, home, itchy, paws, portrait
-photo.52: https://www.instagram.com/p/CbZESAPlIZM/media/?size=m
+photo.52: ig://CbZESAPlIZM/m
 photo.52.author: makimaru18
+photo.52.commitdate: 2022/5/18
 photo.52.link: https://www.instagram.com/makimaru18/
 photo.52.tags: home, mofumofu, peek, portrait, sample
 species: 2
