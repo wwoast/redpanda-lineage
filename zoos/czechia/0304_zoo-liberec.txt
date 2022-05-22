@@ -1,0 +1,15 @@
+[zoo]
+_id: 304
+commitdate: 2022/5/22
+cz.address: Lidové sady 425/1, 460 01 Liberec, Czechia
+cz.location: Liberec, Czechia
+cz.name: Zoo Liberec
+en.address: Lidové sady 425/1, 460 01 Liberec, Czechia
+en.location: Liberec, Czechia
+en.name: Liberec Zoo
+flag: Czechia
+language.order: cz, en
+latitude: 50.7777838
+longitude: 15.0810931
+map: https://goo.gl/maps/mi1tghpUJXYGJQcr7
+website: https://www.zooliberec.cz/
