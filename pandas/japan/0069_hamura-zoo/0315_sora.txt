@@ -604,8 +604,9 @@ photo.118.author: rie_panda55
 photo.118.commitdate: 2022/5/17
 photo.118.link: https://www.instagram.com/rie_panda55/
 photo.118.tags: portrait, sample, smile, tail, whiskers
-photo.119: https://www.instagram.com/p/CcWVOXdhP-9/media/?size=m
+photo.119: ig://CcWVOXdhP-9/m
 photo.119.author: otenba_redpanda
+photo.119.commitdate: 2022/5/25
 photo.119.link: https://www.instagram.com/otenba_redpanda/
 photo.119.tags: apple time, bite, home, paws, sample, standing, whiskers
 species: 2

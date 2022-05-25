@@ -238,8 +238,9 @@ photo.45.author: hidehaya_biei
 photo.45.commitdate: 2022/4/25
 photo.45.link: https://www.instagram.com/hidehaya_biei/
 photo.45.tags: mofumofu, peek, smile
-photo.46: https://www.instagram.com/p/CcVMqNmPO0t/media/?size=m
+photo.46: ig://CcVMqNmPO0t/m
 photo.46.author: panda.daisuki
+photo.46.commitdate: 2022/5/25
 photo.46.link: https://www.instagram.com/panda.daisuki/
 photo.46.tags: laying down, mofumofu, portrait, whiskers
 species: 2

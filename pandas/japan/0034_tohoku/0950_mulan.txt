@@ -472,8 +472,9 @@ photo.92.author: otenba_redpanda
 photo.92.commitdate: 2022/4/26
 photo.92.link: https://www.instagram.com/otenba_redpanda/
 photo.92.tags: peek, portrait, sample, snow, tail, whiskers
-photo.93: https://www.instagram.com/p/CcUaJeCuX0m/media/?size=m
+photo.93: ig://CcUaJeCuX0m/m
 photo.93.author: hidehaya_biei
+photo.93.commitdate: 2022/5/25
 photo.93.link: https://www.instagram.com/hidehaya_biei/
 photo.93.tags: paws, sample, snow, whiskers
 species: 2

@@ -643,8 +643,9 @@ photo.126.author: hamamatsu.chiita
 photo.126.commitdate: 2022/5/13
 photo.126.link: https://www.instagram.com/hamamatsu.chiita/
 photo.126.tags: bamboo, close-up, ear, grumpy, portrait, smile, whiskers
-photo.127: https://www.instagram.com/p/CcY3PmyrU1i/media/?size=m
+photo.127: ig://CcY3PmyrU1i/m
 photo.127.author: otenba_redpanda
+photo.127.commitdate: 2022/5/25
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: grumpy, paws, peek, portrait, whiskers
 species: 2

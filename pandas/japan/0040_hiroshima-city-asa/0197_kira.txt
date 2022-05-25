@@ -155,8 +155,9 @@ photo.28.author: satoshi_jimny
 photo.28.commitdate: 2022/1/7
 photo.28.link: https://www.instagram.com/satoshi_jimny/
 photo.28.tags: smile, tongue
-photo.29: https://www.instagram.com/p/CcVCqoMPYWY/media/?size=m
+photo.29: ig://CcVCqoMPYWY/m
 photo.29.author: kojikoji2011
+photo.29.commitdate: 2022/5/25
 photo.29.link: https://www.instagram.com/kojikoji2011/
 photo.29.tags: bamboo, close-up, paws, portrait
 species: 2
