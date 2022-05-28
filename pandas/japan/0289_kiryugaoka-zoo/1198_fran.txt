@@ -565,12 +565,14 @@ photo.110.author: ssc6105
 photo.110.commitdate: 2022/5/13
 photo.110.link: https://www.instagram.com/ssc6105/
 photo.110.tags: laying down, mofumofu, sample, whiskers
-photo.111: https://www.instagram.com/p/Ccl0T8uLPwb/media/?size=m
+photo.111: ig://Ccl0T8uLPwb/m
 photo.111.author: otenba_redpanda
+photo.111.commitdate: 2022/5/27
 photo.111.link: https://www.instagram.com/otenba_redpanda/
 photo.111.tags: peek, portrait, sample, whiskers
-photo.112: https://www.instagram.com/p/CcykdjmB9ex/media/?size=m
+photo.112: ig://CcykdjmB9ex/m
 photo.112.author: rie_panda55
+photo.112.commitdate: 2022/5/27
 photo.112.link: https://www.instagram.com/rie_panda55/
 photo.112.tags: laying down, peek, portrait, whiskers
 species: 2

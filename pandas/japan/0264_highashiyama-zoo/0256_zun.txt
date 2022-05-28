@@ -1003,12 +1003,14 @@ photo.199.author: mini_cochi
 photo.199.commitdate: 2022/5/18
 photo.199.link: https://www.instagram.com/mini_cochi/
 photo.199.tags: paws, portrait, sample, smile
-photo.200: https://www.instagram.com/p/CcpxFjgvoV5/media/?size=m
+photo.200: ig://CcpxFjgvoV5/m
 photo.200.author: kotata_513
+photo.200.commitdate: 2022/5/27
 photo.200.link: https://www.instagram.com/kotata_513/
 photo.200.tags: bite, paws, playing, sample, surprise, whiskers
-photo.201: https://www.instagram.com/p/CcxU5kALiuC/media/?size=m
+photo.201: ig://CcxU5kALiuC/m
 photo.201.author: daniele.tokyo
+photo.201.commitdate: 2022/5/27
 photo.201.link: https://www.instagram.com/daniele.tokyo/
 photo.201.tags: flowers, peek, sample, tongue, whiskers
 species: 2

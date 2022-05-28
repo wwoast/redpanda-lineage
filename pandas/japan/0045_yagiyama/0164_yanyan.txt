@@ -640,8 +640,9 @@ photo.126.author: pink.b22
 photo.126.commitdate: 2022/3/10
 photo.126.link: https://www.instagram.com/pink.b22/
 photo.126.tags: paws, smile, snow, whiskers
-photo.127: https://www.instagram.com/p/CcwCDpEBwHj/media/?size=m
+photo.127: ig://CcwCDpEBwHj/m
 photo.127.author: pink.b22
+photo.127.commitdate: 2022/5/27
 photo.127.link: https://www.instagram.com/pink.b22/
 photo.127.tags: bamboo, bite, paws, sample, tongue, whiskers
 species: 2

@@ -625,22 +625,26 @@ photo.122.author: ssc6105
 photo.122.commitdate: 2022/4/13
 photo.122.link: https://www.instagram.com/ssc6105/
 photo.122.tags: bamboo, lips, paws, sample, smile, standing
-photo.123: https://www.instagram.com/p/Cco3TKvLEv9/media/?size=m
-photo.123.author: ifumoto88
-photo.123.link: https://www.instagram.com/ifumoto88/
-photo.123.tags: bamboo, bite, portrait, smile, whiskers
-photo.124: https://www.instagram.com/p/CcprCYzLgkB/media/?size=m
-photo.124.author: ifumoto88
-photo.124.link: https://www.instagram.com/ifumoto88/
-photo.124.tags: keeper, portrait, sample, whiskers
-photo.125: https://www.instagram.com/p/CcNXzVDvlv1/media/?size=m
-photo.125.author: craig_craig_craig
-photo.125.link: https://www.instagram.com/craig_craig_craig/
-photo.125.tags: paws, peek, whiskers
-photo.126: https://www.instagram.com/p/CcVAJ8yLi9C/media/?size=m
-photo.126.author: daniele.tokyo
-photo.126.link: https://www.instagram.com/daniele.tokyo/
-photo.126.tags: bridge, peek, sample, smile, tongue, whiskers
+photo.123: ig://CcNXzVDvlv1/m
+photo.123.author: craig_craig_craig
+photo.123.commitdate: 2022/5/27
+photo.123.link: https://www.instagram.com/craig_craig_craig/
+photo.123.tags: paws, peek, whiskers
+photo.124: ig://CcVAJ8yLi9C/m
+photo.124.author: daniele.tokyo
+photo.124.commitdate: 2022/5/27
+photo.124.link: https://www.instagram.com/daniele.tokyo/
+photo.124.tags: bridge, peek, sample, smile, tongue, whiskers
+photo.125: ig://Cco3TKvLEv9/m
+photo.125.author: ifumoto88
+photo.125.commitdate: 2022/5/27
+photo.125.link: https://www.instagram.com/ifumoto88/
+photo.125.tags: bamboo, bite, portrait, smile, whiskers
+photo.126: ig://CcprCYzLgkB/m
+photo.126.author: ifumoto88
+photo.126.commitdate: 2022/5/27
+photo.126.link: https://www.instagram.com/ifumoto88/
+photo.126.tags: keeper, portrait, sample, whiskers
 species: 2
 studbook.id: 14165
 zoo: 289
