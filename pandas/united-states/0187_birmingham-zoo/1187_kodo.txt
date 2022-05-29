@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
+location.1: 148, 2020/6/4
+location.2: 187, 2022/5/17
 photo.1: ig://CCEeAm_jEWb/m
 photo.1.author: buttonwoodparkzoo
 photo.1.commitdate: 2020/7/1
@@ -89,4 +91,4 @@ photo.15.commitdate: 2022/2/12
 photo.15.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.15.tags: peek, snow, whiskers
 species: 1
-zoo: 148
+zoo: 187
