@@ -15,28 +15,34 @@ language.order: en, jp
 litter: 1363
 location.1: 247, 2011/6/26
 location.2: 257, 2012/6/20
-photo.1: https://www.instagram.com/p/CVSqx4As76p/media/?size=m
+photo.1: ig://CVSqx4As76p/m
 photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/5/30
 photo.1.link: https://www.instagram.com/seelviahhtaz/
 photo.1.tags: laying down, portrait, profile, sample, tree
-photo.2: https://www.instagram.com/p/CXawCzwqcOt/media/?size=m
+photo.2: ig://CXawCzwqcOt/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/5/30
 photo.2.link: https://www.instagram.com/seelviahhtaz/
 photo.2.tags: bridge, laying down, tree, whiskers
-photo.3: https://www.instagram.com/p/CXe-FFYqirF/media/?size=m
+photo.3: ig://CXe-FFYqirF/m
 photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/5/30
 photo.3.link: https://www.instagram.com/seelviahhtaz/
 photo.3.tags: close-up
-photo.4: https://www.instagram.com/p/CYbtNKSqttz/media/?size=m
+photo.4: ig://CYbtNKSqttz/m
 photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/5/30
 photo.4.link: https://www.instagram.com/seelviahhtaz/
 photo.4.tags: tree, whiskers
-photo.5: https://www.instagram.com/p/CZ0GneVspDV/media/?size=m
+photo.5: ig://CZ0GneVspDV/m
 photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/5/30
 photo.5.link: https://www.instagram.com/seelviahhtaz/
 photo.5.tags: close-up, sample, whiskers
-photo.6: https://www.instagram.com/p/CdyPLwDt3zy/media/?size=m
+photo.6: ig://CdyPLwDt3zy/m
 photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/5/30
 photo.6.link: https://www.instagram.com/seelviahhtaz/
 photo.6.tags: peek, whiskers
 species: 1
