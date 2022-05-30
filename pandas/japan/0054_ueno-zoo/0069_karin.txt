@@ -481,8 +481,9 @@ photo.93.author: eos1089
 photo.93.commitdate: 2022/4/29
 photo.93.link: https://www.instagram.com/eos1089/
 photo.93.tags: apple time, bite, close-up, home, keeper, portrait, whiskers
-photo.94: https://www.instagram.com/p/CcKt65nPlYy/media/?size=m
+photo.94: ig://CcKt65nPlYy/m
 photo.94.author: na.mo.pan
+photo.94.commitdate: 2022/5/30
 photo.94.link: https://www.instagram.com/na.mo.pan/
 photo.94.tags: portrait, sample, smile
 species: 2

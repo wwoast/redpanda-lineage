@@ -2286,29 +2286,31 @@ photo.456.author: cattail.sapporo
 photo.456.commitdate: 2022/5/18
 photo.456.link: https://www.instagram.com/cattail.sapporo/
 photo.456.tags: close-up, hammock, laying down, mofumofu, portrait
-photo.457: ig://Ccax9MAvHXt/m
-photo.457.author: minatomirai215
-photo.457.commitdate: 2022/5/25
-photo.457.link: https://www.instagram.com/minatomirai215/
-photo.457.tags: close-up, home, paws, portrait, sample, whiskers
-photo.458: ig://CcpsBNjvFJ5/m
-photo.458.author: komabazoophoto
-photo.458.commitdate: 2022/5/27
-photo.458.link: https://www.instagram.com/komabazoophoto/
-photo.458.tags: close-up, mofumofu, portrait, snow, whiskers
-photo.459: ig://CcxZuSkLunh/m
-photo.459.author: cattail.sapporo
-photo.459.commitdate: 2022/5/27
-photo.459.link: https://www.instagram.com/cattail.sapporo/
-photo.459.tags: hammock, mofumofu, portrait, sample, smile, tongue, tail
-photo.460: https://www.instagram.com/p/Cb6sK16raTu/media/?size=m
-photo.460.author: cattail.sapporo
-photo.460.link: https://www.instagram.com/cattail.sapporo/
-photo.460.tags: hammock, mofumofu, portrait, sample, tail, whiskers
-photo.461: https://www.instagram.com/p/CcDaA0Yr4H9/media/?size=m
+photo.457: ig://Cb6sK16raTu/m
+photo.457.author: cattail.sapporo
+photo.457.commitdate: 2022/5/30
+photo.457.link: https://www.instagram.com/cattail.sapporo/
+photo.457.tags: hammock, mofumofu, portrait, sample, tail, whiskers
+photo.458: ig://CcDaA0Yr4H9/m
+photo.458.author: cattail.sapporo
+photo.458.commitdate: 2022/5/30
+photo.458.link: https://www.instagram.com/cattail.sapporo/
+photo.458.tags: blink, hammock, laying down, mofumofu, portrait, tail, yawn
+photo.459: ig://Ccax9MAvHXt/m
+photo.459.author: minatomirai215
+photo.459.commitdate: 2022/5/25
+photo.459.link: https://www.instagram.com/minatomirai215/
+photo.459.tags: close-up, home, paws, portrait, sample, whiskers
+photo.460: ig://CcpsBNjvFJ5/m
+photo.460.author: komabazoophoto
+photo.460.commitdate: 2022/5/27
+photo.460.link: https://www.instagram.com/komabazoophoto/
+photo.460.tags: close-up, mofumofu, portrait, snow, whiskers
+photo.461: ig://CcxZuSkLunh/m
 photo.461.author: cattail.sapporo
+photo.461.commitdate: 2022/5/27
 photo.461.link: https://www.instagram.com/cattail.sapporo/
-photo.461.tags: blink, hammock, laying down, mofumofu, portrait, tail, yawn
+photo.461.tags: hammock, mofumofu, portrait, sample, smile, tongue, tail
 species: 2
 studbook.id: 1676
 zoo: 7

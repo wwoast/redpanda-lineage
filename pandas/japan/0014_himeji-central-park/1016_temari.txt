@@ -907,20 +907,21 @@ photo.179.author: colette.jp
 photo.179.commitdate: 2022/4/25
 photo.179.link: https://www.instagram.com/colette.jp/
 photo.179.tags: mofumofu, peek, portrait, sample, whiskers
-photo.180: ig://Cb91AEOPORY/m
-photo.180.author: daniele.tokyo
-photo.180.commitdate: 2022/5/13
-photo.180.link: https://www.instagram.com/daniele.tokyo/
-photo.180.tags: baby, mofumofu, sample, whiskers, white face
-photo.181: ig://CcuroiNvXr4/m
-photo.181.author: colette.jp
-photo.181.commitdate: 2022/5/27
-photo.181.link: https://www.instagram.com/colette.jp/
-photo.181.tags: paws, peek, portrait, sample, smile, standing, tail, whiskers
-photo.182: https://www.instagram.com/p/CbpHL60JWIM/media/?size=m
+photo.180: ig://CbpHL60JWIM/m
+photo.180.author: colette.jp
+photo.180.commitdate: 2022/5/30
+photo.180.link: https://www.instagram.com/colette.jp/
+photo.180.tags: paws, portrait, smile, tail, whiskers
+photo.181: ig://Cb91AEOPORY/m
+photo.181.author: daniele.tokyo
+photo.181.commitdate: 2022/5/13
+photo.181.link: https://www.instagram.com/daniele.tokyo/
+photo.181.tags: baby, mofumofu, sample, whiskers, white face
+photo.182: ig://CcuroiNvXr4/m
 photo.182.author: colette.jp
+photo.182.commitdate: 2022/5/27
 photo.182.link: https://www.instagram.com/colette.jp/
-photo.182.tags: paws, portrait, smile, tail, whiskers
+photo.182.tags: paws, peek, portrait, sample, smile, standing, tail, whiskers
 species: 2
 studbook.id: unknown
 zoo: 14

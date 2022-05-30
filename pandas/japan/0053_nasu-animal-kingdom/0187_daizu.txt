@@ -227,8 +227,9 @@ photo.43.author: nasu_animal_kingdom
 photo.43.commitdate: 2022/4/5
 photo.43.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.43.tags: close-up, paws, sample, scale, whiskers
-photo.44: https://www.instagram.com/p/CbtO3p7B5sd/media/?size=m
+photo.44: ig://CbtO3p7B5sd/m
 photo.44.author: panda.daisuki
+photo.44.commitdate: 2022/5/30
 photo.44.link: https://www.instagram.com/panda.daisuki/
 photo.44.tags: close-up, portrait, sample, whiskers
 species: 2
