@@ -15,32 +15,39 @@ language.order: en, jp
 litter: unknown
 location.1: 307, 2019/6/29
 location.2: 257, 2020/9/17
-photo.1: https://www.instagram.com/p/CT-V8ziq4Mh/media/?size=m
+photo.1: ig://CT-V8ziq4Mh/m
 photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/6/1
 photo.1.link: https://www.instagram.com/seelviahhtaz/
 photo.1.tags: close-up, portrait, whiskers
-photo.2: https://www.instagram.com/p/CUTHfczMqWu/media/?size=m
+photo.2: ig://CUTHfczMqWu/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/6/1
 photo.2.link: https://www.instagram.com/seelviahhtaz/
 photo.2.tags: bite, close-up, mofumofu, portrait, profile, sample, whiskers
-photo.3: https://www.instagram.com/p/CXRqhD3qkTg/media/?size=m
+photo.3: ig://CXRqhD3qkTg/m
 photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/6/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
 photo.3.tags: bamboo, bridge, friend, paws
-photo.4: https://www.instagram.com/p/CX9tzbwqbxu/media/?size=m
+photo.4: ig://CX9tzbwqbxu/m
 photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/6/1
 photo.4.link: https://www.instagram.com/seelviahhtaz/
 photo.4.tags: bamboo, close-up, paws, peek
-photo.5: https://www.instagram.com/p/CZYDCcQtnhK/media/?size=m
+photo.5: ig://CZYDCcQtnhK/m
 photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/6/1
 photo.5.link: https://www.instagram.com/seelviahhtaz/
 photo.5.tags: bamboo, paws, peek, sample, standing, CD0fT7aJINL
-photo.6: https://www.instagram.com/p/CaQaTalM1Gb/media/?size=m
+photo.6: ig://CaQaTalM1Gb/m
 photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/6/1
 photo.6.link: https://www.instagram.com/seelviahhtaz/
 photo.6.tags: bridge, smile
-photo.7: https://www.instagram.com/p/CdyOFcftR23/media/?size=m
+photo.7: ig://CdyOFcftR23/m
 photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/6/1
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: sample, smile, whiskers, white face
 species: 1
