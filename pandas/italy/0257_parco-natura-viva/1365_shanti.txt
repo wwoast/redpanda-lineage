@@ -13,32 +13,39 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1366
-photo.1: https://www.instagram.com/p/CVzC17zqLiK/media/?size=m
+photo.1: ig://CVzC17zqLiK/m
 photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/6/1
 photo.1.link: https://www.instagram.com/seelviahhtaz/
 photo.1.tags: baby, close-up, mofumofu, white face
-photo.2: https://www.instagram.com/p/CWGf1IdMKpC/media/?size=m
+photo.2: ig://CWGf1IdMKpC/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/6/1
 photo.2.link: https://www.instagram.com/seelviahhtaz/
 photo.2.tags: baby, close-up, mofumofu, portrait, sample, whiskers, white face
-photo.3: https://www.instagram.com/p/CcxPrFpNSxl/media/?size=m
+photo.3: ig://CWtxKy-KIM3/m
 photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/6/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
-photo.3.tags: mofumofu, peek, white face
-photo.4: https://www.instagram.com/p/CWtxKy-KIM3/media/?size=m
+photo.3.tags: baby, bamboo, laying down, portrait, profile, sample
+photo.4: ig://CYuy3FdKTWv/m
 photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/6/1
 photo.4.link: https://www.instagram.com/seelviahhtaz/
-photo.4.tags: baby, bamboo, laying down, portrait, profile, sample
-photo.5: https://www.instagram.com/p/CYuy3FdKTWv/media/?size=m
+photo.4.tags: baby, bamboo, mofumofu, peek, portrait, sample
+photo.5: ig://CbpzVlms2px/m
 photo.5.author: seelviahhtaz
+photo.5.commitdate: 2022/6/1
 photo.5.link: https://www.instagram.com/seelviahhtaz/
-photo.5.tags: baby, bamboo, mofumofu, peek, portrait, sample
-photo.6: https://www.instagram.com/p/CbpzVlms2px/media/?size=m
+photo.5.tags: mofumofu, paws, portrait, sample, whiskers
+photo.6: ig://CcxPrFpNSxl/m
 photo.6.author: seelviahhtaz
+photo.6.commitdate: 2022/6/1
 photo.6.link: https://www.instagram.com/seelviahhtaz/
-photo.6.tags: mofumofu, paws, portrait, sample, whiskers
-photo.7: https://www.instagram.com/p/CdvRJ4RMwGE/media/?size=m
+photo.6.tags: mofumofu, peek, white face
+photo.7: ig://CdvRJ4RMwGE/m
 photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/6/1
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: bamboo, peek, whiskers, white face
 species: 1

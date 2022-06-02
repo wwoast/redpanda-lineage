@@ -15,16 +15,19 @@ language.order: en, jp
 litter: 1365
 location.1: 257, 2021/6/1
 location.2: 241, 2022/4/1
-photo.1: https://www.instagram.com/p/CY49xpNKPap/media/?size=m
+photo.1: ig://CY49xpNKPap/m
 photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/6/1
 photo.1.link: https://www.instagram.com/seelviahhtaz/
 photo.1.tags: close-up, mofumofu, sample, whiskers
-photo.2: https://www.instagram.com/p/Cb8afsQsMQA/media/?size=m
+photo.2: ig://Cb8afsQsMQA/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/6/1
 photo.2.link: https://www.instagram.com/seelviahhtaz/
 photo.2.tags: close-up, mofumofu, portrait, profile, sample, smile, whiskers
-photo.3: https://www.instagram.com/p/Cc9MRmuN_0_/media/?size=m
+photo.3: ig://Cc9MRmuN_0_/m
 photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/6/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
 photo.3.tags: bamboo, bite, portrait, whiskers
 species: 1
