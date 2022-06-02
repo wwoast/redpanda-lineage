@@ -382,8 +382,9 @@ photo.74.author: otenba_redpanda
 photo.74.commitdate: 2022/1/9
 photo.74.link: https://www.instagram.com/otenba_redpanda/
 photo.74.tags: bamboo, mofumofu, portrait
-photo.75: https://www.instagram.com/p/CduDnOfvOoN/media/?size=m
+photo.75: ig://CduDnOfvOoN/m
 photo.75.author: fetorus_mami
+photo.75.commitdate: 2022/6/1
 photo.75.link: https://www.instagram.com/fetorus_mami/
 photo.75.tags: apple time, blink, dish, portrait, sample, smile, whiskers, white face
 species: 2

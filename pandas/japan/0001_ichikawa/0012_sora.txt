@@ -835,14 +835,16 @@ photo.165.author: _rifa_p
 photo.165.commitdate: 2022/5/25
 photo.165.link: https://www.instagram.com/_rifa_p/
 photo.165.tags: paws, portrait, standing, tail
-photo.166: https://www.instagram.com/p/Cdu5h79rS9H/media/?size=m
-photo.166.author: ifumoto88
-photo.166.link: https://www.instagram.com/ifumoto88/
-photo.166.tags: mofumofu, portrait, sample, smile, tree
-photo.167: https://www.instagram.com/p/Cdhl_Z2vWG2/media/?size=m
-photo.167.author: na.mo.pan
-photo.167.link: https://www.instagram.com/na.mo.pan/
-photo.167.tags: paws, portrait, sample, smile, whiskers
+photo.166: ig://Cdhl_Z2vWG2/m
+photo.166.author: na.mo.pan
+photo.166.commitdate: 2022/6/1
+photo.166.link: https://www.instagram.com/na.mo.pan/
+photo.166.tags: paws, portrait, sample, smile, whiskers
+photo.167: ig://Cdu5h79rS9H/m
+photo.167.author: ifumoto88
+photo.167.commitdate: 2022/6/1
+photo.167.link: https://www.instagram.com/ifumoto88/
+photo.167.tags: mofumofu, portrait, sample, smile, tree
 species: 2
 studbook.id: 0872
 zoo: 1
