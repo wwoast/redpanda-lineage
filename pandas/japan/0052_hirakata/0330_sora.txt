@@ -115,10 +115,11 @@ photo.20.author: fetorus_mami
 photo.20.commitdate: 2022/4/25
 photo.20.link: https://www.instagram.com/fetorus_mami/
 photo.20.tags: portrait, profile, sample
-photo.21: https://www.instagram.com/p/CcsiI75P6MM/media/?size=m
+photo.21: ig://CcsiI75P6MM/m
 photo.21.author: sakikukeco
+photo.21.commitdate: 2022/6/2
 photo.21.link: https://www.instagram.com/sakikukeco/
-photo.21.tags: bamboo, mofumofu, portrait, tongue 
+photo.21.tags: bamboo, mofumofu, portrait, tongue
 species: 2
 studbook.id: 0685
 zoo: 52

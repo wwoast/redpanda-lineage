@@ -250,8 +250,9 @@ photo.47.author: yossi929
 photo.47.commitdate: 2020/10/9
 photo.47.link: https://www.instagram.com/yossi929/
 photo.47.tags: portrait, whiskers
-photo.48: https://www.instagram.com/p/CdEwBC4h-JJ/media/?size=m
+photo.48: ig://CdEwBC4h-JJ/m
 photo.48.author: miis_98
+photo.48.commitdate: 2022/6/2
 photo.48.link: https://www.instagram.com/miis_98/
 photo.48.tags: peek, sample, smile
 species: 2

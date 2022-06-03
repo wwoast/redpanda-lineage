@@ -543,40 +543,41 @@ photo.106.author: fetorus_mami
 photo.106.commitdate: 2021/12/22
 photo.106.link: https://www.instagram.com/fetorus_mami/
 photo.106.tags: apple time, close-up, smile, whiskers, window
-photo.107: ig://CXz4bBrPFZ1/m
-photo.107.author: na.mo.pan
-photo.107.commitdate: 2022/1/4
-photo.107.link: https://www.instagram.com/na.mo.pan/
-photo.107.tags: peek, portrait, sample, whiskers
-photo.108: ig://CYrHLALFpYJ/m
-photo.108.author: miis_98
-photo.108.commitdate: 2022/1/23
-photo.108.link: https://www.instagram.com/miis_98/
-photo.108.tags: dish, paws, portrait, sample, smile, tongue, whiskers
-photo.109: ig://CY1gTKFPLyW/m
+photo.107: ig://CXsyU0EPm0o/m
+photo.107.author: masa_polarbear
+photo.107.commitdate: 2022/6/2
+photo.107.link: https://www.instagram.com/masa_polarbear/
+photo.107.tags: peek, whiskers
+photo.108: ig://CXz4bBrPFZ1/m
+photo.108.author: na.mo.pan
+photo.108.commitdate: 2022/1/4
+photo.108.link: https://www.instagram.com/na.mo.pan/
+photo.108.tags: peek, portrait, sample, whiskers
+photo.109: ig://CYrHLALFpYJ/m
 photo.109.author: miis_98
-photo.109.commitdate: 2022/2/9
+photo.109.commitdate: 2022/1/23
 photo.109.link: https://www.instagram.com/miis_98/
-photo.109.tags: peek, tree
-photo.110: ig://CZL4wXpvSDJ/m
-photo.110.author: ssc6105
-photo.110.commitdate: 2022/2/20
-photo.110.link: https://www.instagram.com/ssc6105/
-photo.110.tags: paws, sample, standing
-photo.111: ig://CZZU4EZlMP-/m
-photo.111.author: mini_cochi
-photo.111.commitdate: 2022/2/12
-photo.111.link: https://www.instagram.com/mini_cochi/
-photo.111.tags: paws, smile, standing, whiskers
-photo.112: ig://CZtpNCCPSqy/m
-photo.112.author: ssc6105
-photo.112.commitdate: 2022/2/10
-photo.112.link: https://www.instagram.com/ssc6105/
-photo.112.tags: apple time, paws, sample, standing, whiskers
-photo.113: https://www.instagram.com/p/CXsyU0EPm0o/media/?size=m
-photo.113.author: masa_polarbear
-photo.113.link: https://www.instagram.com/masa_polarbear/
-photo.113.tags: peek, whiskers
+photo.109.tags: dish, paws, portrait, sample, smile, tongue, whiskers
+photo.110: ig://CY1gTKFPLyW/m
+photo.110.author: miis_98
+photo.110.commitdate: 2022/2/9
+photo.110.link: https://www.instagram.com/miis_98/
+photo.110.tags: peek, tree
+photo.111: ig://CZL4wXpvSDJ/m
+photo.111.author: ssc6105
+photo.111.commitdate: 2022/2/20
+photo.111.link: https://www.instagram.com/ssc6105/
+photo.111.tags: paws, sample, standing
+photo.112: ig://CZZU4EZlMP-/m
+photo.112.author: mini_cochi
+photo.112.commitdate: 2022/2/12
+photo.112.link: https://www.instagram.com/mini_cochi/
+photo.112.tags: paws, smile, standing, whiskers
+photo.113: ig://CZtpNCCPSqy/m
+photo.113.author: ssc6105
+photo.113.commitdate: 2022/2/10
+photo.113.link: https://www.instagram.com/ssc6105/
+photo.113.tags: apple time, paws, sample, standing, whiskers
 species: 2
 studbook.id: 12105
 zoo: 18

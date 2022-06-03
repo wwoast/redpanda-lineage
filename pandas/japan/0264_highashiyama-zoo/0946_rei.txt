@@ -245,13 +245,15 @@ photo.46.author: ssc6105
 photo.46.commitdate: 2022/4/13
 photo.46.link: https://www.instagram.com/ssc6105/
 photo.46.tags: peek, portrait, sample, whiskers
-photo.47: https://www.instagram.com/p/Cdavk36pnV9/media/?size=m
-photo.47.author: tomo3700
-photo.47.link: https://www.instagram.com/tomo3700/
-photo.47.tags: paws, portrait, sample, smile, whiskers
-photo.48: https://www.instagram.com/p/CdTLGCzPDT6/media/?size=m
-photo.48.author: nakacchi_desu
-photo.48.link: https://www.instagram.com/nakacchi_desu/
-photo.48.tags: bridge, paws, peek, tail
+photo.47: ig://CdTLGCzPDT6/m
+photo.47.author: nakacchi_desu
+photo.47.commitdate: 2022/6/2
+photo.47.link: https://www.instagram.com/nakacchi_desu/
+photo.47.tags: bridge, paws, peek, tail
+photo.48: ig://Cdavk36pnV9/m
+photo.48.author: tomo3700
+photo.48.commitdate: 2022/6/2
+photo.48.link: https://www.instagram.com/tomo3700/
+photo.48.tags: paws, portrait, sample, smile, whiskers
 species: 2
 zoo: 264

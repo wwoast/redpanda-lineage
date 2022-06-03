@@ -408,8 +408,9 @@ photo.79.author: otenba_redpanda
 photo.79.commitdate: 2022/5/27
 photo.79.link: https://www.instagram.com/otenba_redpanda/
 photo.79.tags: bamboo, close-up, mofumofu, paws, portrait, sample, tongue, whiskers
-photo.80: https://www.instagram.com/p/CdVgqyTriPZ/media/?size=m
+photo.80: ig://CdVgqyTriPZ/m
 photo.80.author: osopanda551
+photo.80.commitdate: 2022/6/2
 photo.80.link: https://www.instagram.com/osopanda551/
 photo.80.tags: laying down, paws, portrait, sample, tail, tree
 species: 2

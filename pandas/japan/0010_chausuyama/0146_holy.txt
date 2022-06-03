@@ -321,8 +321,9 @@ photo.62.author: otenba_redpanda
 photo.62.commitdate: 2022/5/25
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: laying down, mofumofu, portrait
-photo.63: https://www.instagram.com/p/CcsMkTqv2va/media/?size=m
+photo.63: ig://CcsMkTqv2va/m
 photo.63.author: fetorus_mami
+photo.63.commitdate: 2022/6/2
 photo.63.link: https://www.instagram.com/fetorus_mami/
 photo.63.tags: close-up, sample, smile, whiskers
 species: 2

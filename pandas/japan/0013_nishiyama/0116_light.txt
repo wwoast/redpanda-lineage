@@ -540,8 +540,9 @@ photo.106.author: hamamatsu.chiita
 photo.106.commitdate: 2022/3/13
 photo.106.link: https://www.instagram.com/hamamatsu.chiita/
 photo.106.tags: portrait, whiskers
-photo.107: https://www.instagram.com/p/CdaxtqHLuRX/media/?size=m
+photo.107: ig://CdaxtqHLuRX/m
 photo.107.author: gloryeui
+photo.107.commitdate: 2022/6/2
 photo.107.link: https://www.instagram.com/gloryeui/
 photo.107.tags: climb, portrait, sample, smile, whiskers
 species: 2

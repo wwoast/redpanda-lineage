@@ -611,14 +611,16 @@ photo.120.author: kojikoji2011
 photo.120.commitdate: 2022/5/27
 photo.120.link: https://www.instagram.com/kojikoji2011/
 photo.120.tags: apple time, bite, portrait, sample, smile, tongue, whiskers
-photo.121: https://www.instagram.com/p/CdXKWxsvYi2/media/?size=m
+photo.121: ig://CczM_C9vASf/m
 photo.121.author: re_ichimaru
+photo.121.commitdate: 2022/6/2
 photo.121.link: https://www.instagram.com/re_ichimaru/
-photo.121.tags: curly, paws, peek, sample, tail
-photo.122: https://www.instagram.com/p/CczM_C9vASf/media/?size=m
+photo.121.tags: bamboo, paws, portrait, sample
+photo.122: ig://CdXKWxsvYi2/m
 photo.122.author: re_ichimaru
+photo.122.commitdate: 2022/6/2
 photo.122.link: https://www.instagram.com/re_ichimaru/
-photo.122.tags: bamboo, paws, portrait, sample
+photo.122.tags: curly, paws, peek, sample, tail
 species: 2
 studbook.id: 1695
 zoo: 42

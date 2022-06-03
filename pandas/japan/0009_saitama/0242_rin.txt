@@ -723,8 +723,9 @@ photo.142.author: otenba_redpanda
 photo.142.commitdate: 2022/2/12
 photo.142.link: https://www.instagram.com/otenba_redpanda/
 photo.142.tags: bamboo, bite, close-up, portrait, sample, smile
-photo.143: https://www.instagram.com/p/CdfJkYyPPoq/media/?size=m
+photo.143: ig://CdfJkYyPPoq/m
 photo.143.author: na.mo.pan
+photo.143.commitdate: 2022/6/2
 photo.143.link: https://www.instagram.com/na.mo.pan/
 photo.143.tags: bamboo, close-up, white face
 species: 2

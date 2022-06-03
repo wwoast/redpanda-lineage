@@ -228,8 +228,9 @@ photo.43.author: hamamatsu.chiita
 photo.43.commitdate: 2022/5/30
 photo.43.link: https://www.instagram.com/hamamatsu.chiita/
 photo.43.tags: close-up, mofumofu, portrait, whiskers
-photo.44: https://www.instagram.com/p/CdewT5VrzM5/media/?size=m
+photo.44: ig://CdewT5VrzM5/m
 photo.44.author: shigeko0531
+photo.44.commitdate: 2022/6/2
 photo.44.link: https://www.instagram.com/shigeko0531/
 photo.44.tags: close-up, laying down, mofumofu, sample, whiskers
 species: 2

@@ -183,8 +183,9 @@ photo.34.author: rossifari
 photo.34.commitdate: 2022/1/4
 photo.34.link: https://www.instagram.com/rossifari/
 photo.34.tags: climb, paws, portrait, whiskers
-photo.35: https://www.instagram.com/p/Cddt3jArcgI/media/?size=m
+photo.35: ig://Cddt3jArcgI/m
 photo.35.author: carsontheredpanda
+photo.35.commitdate: 2022/6/2
 photo.35.link: https://www.instagram.com/carsontheredpanda/
 photo.35.tags: bamboo, close-up, portrait, sample smile
 species: 2

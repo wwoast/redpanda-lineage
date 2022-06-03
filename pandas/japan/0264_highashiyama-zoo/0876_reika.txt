@@ -568,8 +568,9 @@ photo.111.author: rie_panda55
 photo.111.commitdate: 2022/3/6
 photo.111.link: https://www.instagram.com/rie_panda55/
 photo.111.tags: climb, paws, portrait, sample, smile, tail, tree
-photo.112: https://www.instagram.com/p/Ccp0wc2rAX9/media/?size=m
+photo.112: ig://Ccp0wc2rAX9/m
 photo.112.author: mini_cochi
+photo.112.commitdate: 2022/6/2
 photo.112.link: https://www.instagram.com/mini_cochi/
 photo.112.tags: bamboo, peek, portrait, sample, whiskers
 species: 2
