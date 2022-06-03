@@ -1,6 +1,6 @@
 [panda]
 _id: 1364
-birthday: 2019/6/29
+birthday: 2019/6/26
 birthplace: 307
 children: 1365, 1366
 commitdate: 2022/6/1
@@ -13,7 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: unknown
-location.1: 307, 2019/6/29
+location.1: 307, 2019/6/26
 location.2: 257, 2020/9/17
 photo.1: ig://CT-V8ziq4Mh/m
 photo.1.author: seelviahhtaz
