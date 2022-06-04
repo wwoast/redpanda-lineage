@@ -401,8 +401,9 @@ photo.80.author: shigeko0531
 photo.80.commitdate: 2022/3/10
 photo.80.link: https://www.instagram.com/shigeko0531/
 photo.80.tags: mofumofu, sample, snow, techitechi, whiskers
-photo.81: https://www.instagram.com/p/CcsNWjzPVZi/media/?size=m
+photo.81: ig://CcsNWjzPVZi/m
 photo.81.author: fetorus_mami
+photo.81.commitdate: 2022/6/3
 photo.81.link: https://www.instagram.com/fetorus_mami/
 photo.81.tags: flowers, peek, whiskers
 species: 2

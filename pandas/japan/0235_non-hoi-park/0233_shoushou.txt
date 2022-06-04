@@ -648,14 +648,16 @@ photo.127.author: otenba_redpanda
 photo.127.commitdate: 2022/5/25
 photo.127.link: https://www.instagram.com/otenba_redpanda/
 photo.127.tags: grumpy, paws, peek, portrait, whiskers
-photo.128: https://www.instagram.com/p/Ccq4ox0PUct/media/?size=m
+photo.128: ig://CciG0azLY0J/m
 photo.128.author: mini_cochi
+photo.128.commitdate: 2022/6/3
 photo.128.link: https://www.instagram.com/mini_cochi/
-photo.128.tags: keeper, peek, portrait, smile, tongue
-photo.129: https://www.instagram.com/p/CciG0azLY0J/media/?size=m
+photo.128.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
+photo.129: ig://Ccq4ox0PUct/m
 photo.129.author: mini_cochi
+photo.129.commitdate: 2022/6/3
 photo.129.link: https://www.instagram.com/mini_cochi/
-photo.129.tags: close-up, grumpy, mofumofu, portrait, sample, whiskers
+photo.129.tags: keeper, peek, portrait, smile, tongue
 species: 2
 studbook.id: 1785
 video.1: https://youtu.be/T0UIB96RKQI
