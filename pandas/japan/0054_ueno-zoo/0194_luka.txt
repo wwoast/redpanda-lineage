@@ -835,15 +835,16 @@ photo.164.author: na.mo.pan
 photo.164.commitdate: 2022/5/30
 photo.164.link: https://www.instagram.com/na.mo.pan/
 photo.164.tags: portrait, sample, smile, tongue, whiskers
-photo.165: ig://CcnYAogLqOp/m
-photo.165.author: mini_cochi
-photo.165.commitdate: 2022/5/27
-photo.165.link: https://www.instagram.com/mini_cochi/
-photo.165.tags: mofumofu, paws, portrait, sample, whiskers
-photo.166: https://www.instagram.com/p/CcXYzl8Pi8L/media/?size=m
-photo.166.author: minatomirai215
-photo.166.link: https://www.instagram.com/minatomirai215/
-photo.166.tags: peek, portrait, sample, whiskers
+photo.165: ig://CcXYzl8Pi8L/m
+photo.165.author: minatomirai215
+photo.165.commitdate: 2022/6/6
+photo.165.link: https://www.instagram.com/minatomirai215/
+photo.165.tags: peek, portrait, sample, whiskers
+photo.166: ig://CcnYAogLqOp/m
+photo.166.author: mini_cochi
+photo.166.commitdate: 2022/5/27
+photo.166.link: https://www.instagram.com/mini_cochi/
+photo.166.tags: mofumofu, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1677
 zoo: 54

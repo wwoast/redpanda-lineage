@@ -97,8 +97,9 @@ photo.16.author: miis_98
 photo.16.commitdate: 2022/3/20
 photo.16.link: https://www.instagram.com/miis_98/
 photo.16.tags: bamboo, home, portrait, smile, whiskers
-photo.17: https://www.instagram.com/p/CcgqzgPP76u/media/?size=m
+photo.17: ig://CcgqzgPP76u/m
 photo.17.author: miis_98
+photo.17.commitdate: 2022/6/6
 photo.17.link: https://www.instagram.com/miis_98/
 photo.17.tags: peek, portrait, sample, whiskers
 species: 2
