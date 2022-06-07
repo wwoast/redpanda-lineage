@@ -1,3 +1,4 @@
+https://www.instagram.com/p/Cdi7ySTl783/media/?size=m
 [panda]
 _id: 311
 birthday: 2014/7/1
@@ -1030,6 +1031,10 @@ photo.203.author: carsontheredpanda
 photo.203.commitdate: 2022/6/2
 photo.203.link: https://www.instagram.com/carsontheredpanda/
 photo.203.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.204: https://www.instagram.com/p/Cdi7ySTl783/media/?size=m
+photo.204.author: carsontheredpanda
+photo.204.link: https://www.instagram.com/carsontheredpanda/
+photo.204.tags: peek, portrait, white face
 species: 1
 studbook.id: 1440
 zoo: 67
