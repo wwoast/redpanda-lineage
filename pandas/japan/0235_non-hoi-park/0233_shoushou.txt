@@ -658,8 +658,9 @@ photo.129.author: mini_cochi
 photo.129.commitdate: 2022/6/3
 photo.129.link: https://www.instagram.com/mini_cochi/
 photo.129.tags: keeper, peek, portrait, smile, tongue
-photo.130: https://www.instagram.com/p/Cc3khSnhK_Z/media/?size=m
+photo.130: ig://Cc3khSnhK_Z/m
 photo.130.author: hamamatsu.chiita
+photo.130.commitdate: 2022/6/6
 photo.130.link: https://www.instagram.com/hamamatsu.chiita/
 photo.130.tags: bamboo, mofumofu, portrait, sample, whiskers
 species: 2

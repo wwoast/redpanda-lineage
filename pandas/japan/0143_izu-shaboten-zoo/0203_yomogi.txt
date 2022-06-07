@@ -374,8 +374,9 @@ photo.72.author: otenba_redpanda
 photo.72.commitdate: 2022/6/3
 photo.72.link: https://www.instagram.com/otenba_redpanda/
 photo.72.tags: mofumofu, paws, portrait, sample, whiskers
-photo.73: https://www.instagram.com/p/Cc3yoQ7h_9l/media/?size=m
+photo.73: ig://Cc3yoQ7h_9l/m
 photo.73.author: tomo3700
+photo.73.commitdate: 2022/6/6
 photo.73.link: https://www.instagram.com/tomo3700/
 photo.73.tags: dish, paws, portrait, sample, whiskers
 species: 2
