@@ -56,8 +56,9 @@ photo.8.author: fwkidszoo
 photo.8.commitdate: 2019/11/26
 photo.8.link: https://www.instagram.com/fwkidszoo/
 photo.8.tags: pumpkin
-photo.9: https://www.instagram.com/p/CdngAACOYAZ/media/?size=m
+photo.9: ig://CdngAACOYAZ/m
 photo.9.author: rossifari
+photo.9.commitdate: 2022/6/6
 photo.9.link: https://www.instagram.com/rossifari/
 photo.9.tags: peek, whiskers, white face
 species: 1

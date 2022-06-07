@@ -160,8 +160,9 @@ photo.30.author: fetorus_mami
 photo.30.commitdate: 2022/4/10
 photo.30.link: https://www.instagram.com/fetorus_mami/
 photo.30.tags: portrait, sample, whiskers, white face
-photo.31: https://www.instagram.com/p/Cc-suhhrVAF/media/?size=m
+photo.31: ig://Cc-suhhrVAF/m
 photo.31.author: mini_cochi
+photo.31.commitdate: 2022/6/6
 photo.31.link: https://www.instagram.com/mini_cochi/
 photo.31.tags: portrait, sample, smile, tree, white face
 species: 1

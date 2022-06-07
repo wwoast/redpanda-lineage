@@ -548,8 +548,9 @@ photo.107.author: mini_cochi
 photo.107.commitdate: 2022/4/4
 photo.107.link: https://www.instagram.com/mini_cochi/
 photo.107.tags: cherry blossoms, portrait, sample
-photo.108: https://www.instagram.com/p/CdBh7l-Pgw3/media/?size=m
+photo.108: ig://CdBh7l-Pgw3/m
 photo.108.author: eos1089
+photo.108.commitdate: 2022/6/6
 photo.108.link: https://www.instagram.com/eos1089/
 photo.108.tags: curly, paws, portrait, sample, smile, tail
 species: 2

@@ -124,11 +124,11 @@ photo.21.author: aimless_amos
 photo.21.commitdate: 2022/5/13
 photo.21.link: https://www.instagram.com/carsontheredpanda/
 photo.21.tags: bamboo, portrait, sample, smile
-photo.22: https://www.codaworry.com/images/rpf/luna-50-capemay.jpg
+photo.22: ig://Cdqdg-WrbMy/m
 photo.22.author: aimless_amos
-photo.22.commitdate: 2022/3/19
+photo.22.commitdate: 2022/6/6
 photo.22.link: https://www.instagram.com/carsontheredpanda/
-photo.22.tags: mofumofu, old, portrait, sample, whiskers, white face
+photo.22.tags: laying down, portrait, sample, tail
 photo.23: https://www.codaworry.com/images/rpf/luna-9-capemay.jpg
 photo.23.author: aimless_amos
 photo.23.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/Cdqdg-WrbMy/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/carsontheredpanda/
-photo.63.tags: laying down, portrait, sample, tail
 species: 1
 studbook.id: 0105
 zoo: 186

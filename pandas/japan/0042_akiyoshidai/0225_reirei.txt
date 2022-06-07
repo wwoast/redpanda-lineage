@@ -184,8 +184,9 @@ photo.34.author: kojikoji2011
 photo.34.commitdate: 2022/6/2
 photo.34.link: https://www.instagram.com/kojikoji2011/
 photo.34.tags: close-up, portrait, sample, whiskers
-photo.35: https://www.instagram.com/p/CdTVkn2LYM3/media/?size=m
+photo.35: ig://CdTVkn2LYM3/m
 photo.35.author: miis_98
+photo.35.commitdate: 2022/6/6
 photo.35.link: https://www.instagram.com/miis_98/
 photo.35.tags: paws, portrait, sample
 species: 2

@@ -110,8 +110,9 @@ photo.19.author: zoomontana
 photo.19.commitdate: 2022/3/20
 photo.19.link: https://www.instagram.com/zoomontana/
 photo.19.tags: bamboo, paws, portrait, tongue, whiskers
-photo.20: https://www.instagram.com/p/Cdn4hWdqyrR/media/?size=m
+photo.20: ig://Cdn4hWdqyrR/m
 photo.20.author: zoomontana
+photo.20.commitdate: 2022/6/6
 photo.20.link: https://www.instagram.com/zoomontana/
 photo.20.tags: bamboo, portrait, smile, whiskers
 species: 2

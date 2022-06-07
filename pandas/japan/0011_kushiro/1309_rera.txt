@@ -108,9 +108,10 @@ photo.19.author: komabazoophoto
 photo.19.commitdate: 2022/5/25
 photo.19.link: https://www.instagram.com/komabazoophoto/
 photo.19.tags: paws, portrait, sample, snow
-photo.20: https://www.instagram.com/p/CdqC9YjPZm9/media/?size=m
+photo.20: ig://CdqC9YjPZm9/m
 photo.20.author: komabazoophoto
+photo.20.commitdate: 2022/6/6
 photo.20.link: https://www.instagram.com/komabazoophoto/
-photo.20.tags: close-up, portrait, snow, tongue 
+photo.20.tags: close-up, portrait, snow, tongue
 species: 2
 zoo: 11

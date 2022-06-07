@@ -15,9 +15,10 @@ language.order: en, jp
 litter: 1173
 location.1: 145, 2018/6/20
 location.2: 254, 2020/6/10
-photo.1: https://www.instagram.com/p/CQgdaNKrnit/media/?size=m
+photo.1: ig://CQgdaNKrnit/m
 photo.1.author: wildlife.safari
+photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
-photo.1.tags: birthday, close-up, grapes, lunch time, whiskers 
+photo.1.tags: birthday, close-up, grapes, lunch time, whiskers
 species: 1
 zoo: 254

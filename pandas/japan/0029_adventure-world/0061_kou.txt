@@ -369,8 +369,9 @@ photo.71.author: grskus_tk
 photo.71.commitdate: 2022/5/13
 photo.71.link: https://www.instagram.com/grskus_tk/
 photo.71.tags: close-up, paws, sample, whiskers
-photo.72: https://www.instagram.com/p/CdneqHzLs1s/media/?size=m
+photo.72: ig://CdneqHzLs1s/m
 photo.72.author: gloryeui
+photo.72.commitdate: 2022/6/6
 photo.72.link: https://www.instagram.com/gloryeui/
 photo.72.tags: peek, portrait, smile, tree
 species: 2

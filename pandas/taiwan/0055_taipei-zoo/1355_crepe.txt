@@ -56,8 +56,9 @@ photo.8.author: yuredpanda
 photo.8.commitdate: 2022/4/19
 photo.8.link: https://www.instagram.com/yuredpanda/
 photo.8.tags: mofumofu, portrait, smile, whiskers
-photo.9: https://www.instagram.com/p/CdXPo-3PTjX/media/?size=m
+photo.9: ig://CdXPo-3PTjX/m
 photo.9.author: yuredpanda
+photo.9.commitdate: 2022/6/6
 photo.9.link: https://www.instagram.com/yuredpanda/
 photo.9.tags: portrait, whiskers, white face
 species: 2

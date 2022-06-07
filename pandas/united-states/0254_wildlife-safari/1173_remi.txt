@@ -15,8 +15,9 @@ language.order: en, jp
 litter: 1174
 location.1: 145, 2018/6/20
 location.2: 254, 2020/6/10
-photo.1: https://www.instagram.com/p/CK4FDiZLm6s/media/?size=m
+photo.1: ig://CK4FDiZLm6s/m
 photo.1.author: wildlife.safari
+photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: peek, toys
 species: 1
