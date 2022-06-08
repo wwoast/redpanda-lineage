@@ -469,12 +469,14 @@ photo.91.author: miis_98
 photo.91.commitdate: 2022/3/11
 photo.91.link: https://www.instagram.com/miis_98/
 photo.91.tags: bamboo, peek, portrait, sample, whiskers
-photo.92: https://www.instagram.com/p/CdJl_mBBY2z/media/?size=m
+photo.92: ig://CdJl_mBBY2z/m
 photo.92.author: hamamatsu.chiita
+photo.92.commitdate: 2022/6/7
 photo.92.link: https://www.instagram.com/hamamatsu.chiita/
 photo.92.tags: close-up, laying down, portrait
-photo.93: https://www.instagram.com/p/CdQtkLsLgjl/media/?size=m
+photo.93: ig://CdQtkLsLgjl/m
 photo.93.author: gloryeui
+photo.93.commitdate: 2022/6/7
 photo.93.link: https://www.instagram.com/gloryeui/
 photo.93.tags: bamboo, portrait, sample, smile, whiskers
 species: 2

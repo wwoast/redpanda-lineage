@@ -130,8 +130,9 @@ photo.23.author: phoenixzoo1971
 photo.23.commitdate: 2022/1/8
 photo.23.link: https://www.instagram.com/phoenixzoo1971/
 photo.23.tags: birthday, nose
-photo.24: https://www.instagram.com/p/CdIgDkcvPyn/media/?size=m
+photo.24: ig://CdIgDkcvPyn/m
 photo.24.author: daniele.tokyo
+photo.24.commitdate: 2022/6/7
 photo.24.link: https://www.instagram.com/daniele.tokyo/
 photo.24.tags: mofumofu, paws, tree
 species: 2

@@ -60,8 +60,9 @@ photo.9.author: lincolnchildrenszoo
 photo.9.commitdate: 2022/6/2
 photo.9.link: https://www.instagram.com/carsontheredpanda/
 photo.9.tags: paws, portrait, sample, smile, whiskers
-photo.10: https://www.instagram.com/p/Cc8LsdGLble/media/?size=m
+photo.10: ig://Cc8LsdGLble/m
 photo.10.author: carsontheredpanda
+photo.10.commitdate: 2022/6/7
 photo.10.link: https://www.instagram.com/carsontheredpanda/
 photo.10.tags: peek, portrait, sample, tree
 species: 2

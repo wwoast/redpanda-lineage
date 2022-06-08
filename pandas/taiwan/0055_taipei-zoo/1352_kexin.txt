@@ -41,8 +41,9 @@ photo.5.author: yuredpanda
 photo.5.commitdate: 2022/4/20
 photo.5.link: https://www.instagram.com/yuredpanda/
 photo.5.tags: portrait, profile, tongue, whiskers
-photo.6: https://www.instagram.com/p/CdUTYT3P4B4/media/?size=m
+photo.6: ig://CdUTYT3P4B4/m
 photo.6.author: yuredpanda
+photo.6.commitdate: 2022/6/7
 photo.6.link: https://www.instagram.com/yuredpanda/
 photo.6.tags: laying down, paws, portrait, sample, whiskers
 species: 2

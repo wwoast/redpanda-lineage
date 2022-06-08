@@ -377,14 +377,16 @@ photo.73.author: hamamatsu.chiita
 photo.73.commitdate: 2022/3/29
 photo.73.link: https://www.instagram.com/hamamatsu.chiita/
 photo.73.tags: bamboo, close-up, portrait, sample, whiskers
-photo.74: https://www.instagram.com/p/CdFkCi7viYi/media/?size=m
+photo.74: ig://Cc_dB2_hcT4/m
 photo.74.author: hamamatsu.chiita
+photo.74.commitdate: 2022/6/7
 photo.74.link: https://www.instagram.com/hamamatsu.chiita/
-photo.74.tags: bamboo, close-up, portrait, sample, whiskers
-photo.75: https://www.instagram.com/p/Cc_dB2_hcT4/media/?size=m
+photo.74.tags: close-up, portrait, sample, whiskers
+photo.75: ig://CdFkCi7viYi/m
 photo.75.author: hamamatsu.chiita
+photo.75.commitdate: 2022/6/7
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
-photo.75.tags: close-up, portrait, sample, whiskers
+photo.75.tags: bamboo, close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13143
 zoo: 13

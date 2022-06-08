@@ -613,20 +613,21 @@ photo.120.author: jas_forever_love
 photo.120.commitdate: 2022/6/2
 photo.120.link: https://www.instagram.com/jas_forever_love/
 photo.120.tags: peek, tree
-photo.121: ig://CdawHAeLot2/m
-photo.121.author: gloryeui
-photo.121.commitdate: 2022/6/2
-photo.121.link: https://www.instagram.com/gloryeui/
-photo.121.tags: peek, portrait, sample, smile, tree
-photo.122: ig://CdawUfqPJQI/m
-photo.122.author: kotata_513
+photo.121: ig://Cc-R2h_vavA/m
+photo.121.author: hamamatsu.chiita
+photo.121.commitdate: 2022/6/7
+photo.121.link: https://www.instagram.com/hamamatsu.chiita/
+photo.121.tags: close-up, mofumofu, portrait, sample
+photo.122: ig://CdawHAeLot2/m
+photo.122.author: gloryeui
 photo.122.commitdate: 2022/6/2
-photo.122.link: https://www.instagram.com/kotata_513/
-photo.122.tags: muzzle, portrait, sample, smile, tree
-photo.123: https://www.instagram.com/p/Cc-R2h_vavA/media/?size=m
-photo.123.author: hamamatsu.chiita
-photo.123.link: https://www.instagram.com/hamamatsu.chiita/
-photo.123.tags: close-up, mofumofu, portrait, sample
+photo.122.link: https://www.instagram.com/gloryeui/
+photo.122.tags: peek, portrait, sample, smile, tree
+photo.123: ig://CdawUfqPJQI/m
+photo.123.author: kotata_513
+photo.123.commitdate: 2022/6/2
+photo.123.link: https://www.instagram.com/kotata_513/
+photo.123.tags: muzzle, portrait, sample, smile, tree
 species: 2
 studbook.id: unknown
 zoo: 13

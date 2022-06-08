@@ -468,15 +468,16 @@ photo.91.author: chankunvv
 photo.91.commitdate: 2022/4/13
 photo.91.link: https://www.instagram.com/chankunvv/
 photo.91.tags: laying down, mofumofu, paws, portrait, sample, whiskers
-photo.92: ig://CdQP87gPzIv/m
-photo.92.author: makimaru18
-photo.92.commitdate: 2022/6/6
-photo.92.link: https://www.instagram.com/makimaru18/
-photo.92.tags: bite, portrait, sample, smile
-photo.93: https://www.instagram.com/p/CdA4zvKvy1r/media/?size=m
-photo.93.author: bubbles_octi
-photo.93.link: https://www.instagram.com/bubbles_octi/
-photo.93.tags: mofumofu, paws, portrait, sample, whiskers
+photo.92: ig://CdA4zvKvy1r/m
+photo.92.author: bubbles_octi
+photo.92.commitdate: 2022/6/7
+photo.92.link: https://www.instagram.com/bubbles_octi/
+photo.92.tags: mofumofu, paws, portrait, sample, whiskers
+photo.93: ig://CdQP87gPzIv/m
+photo.93.author: makimaru18
+photo.93.commitdate: 2022/6/6
+photo.93.link: https://www.instagram.com/makimaru18/
+photo.93.tags: bite, portrait, sample, smile
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo

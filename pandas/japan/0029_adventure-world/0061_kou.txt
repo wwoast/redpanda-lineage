@@ -369,15 +369,16 @@ photo.71.author: grskus_tk
 photo.71.commitdate: 2022/5/13
 photo.71.link: https://www.instagram.com/grskus_tk/
 photo.71.tags: close-up, paws, sample, whiskers
-photo.72: ig://CdneqHzLs1s/m
-photo.72.author: gloryeui
-photo.72.commitdate: 2022/6/6
-photo.72.link: https://www.instagram.com/gloryeui/
-photo.72.tags: peek, portrait, smile, tree
-photo.73: https://www.instagram.com/p/CdAci-KOvsy/media/?size=m
-photo.73.author: chankunvv
-photo.73.link: https://www.instagram.com/chankunvv/
-photo.73.tags: portrait, sample, tail
+photo.72: ig://CdAci-KOvsy/m
+photo.72.author: chankunvv
+photo.72.commitdate: 2022/6/7
+photo.72.link: https://www.instagram.com/chankunvv/
+photo.72.tags: portrait, sample, tail
+photo.73: ig://CdneqHzLs1s/m
+photo.73.author: gloryeui
+photo.73.commitdate: 2022/6/6
+photo.73.link: https://www.instagram.com/gloryeui/
+photo.73.tags: peek, portrait, smile, tree
 species: 2
 video.1: https://youtu.be/TUNBGBRlvvg
 video.1.author: mmovies21

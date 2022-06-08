@@ -790,14 +790,15 @@ photo.155.author: daniele.tokyo
 photo.155.commitdate: 2022/5/13
 photo.155.link: https://www.instagram.com/daniele.tokyo/
 photo.155.tags: bridge, paws, peek, sample, tail, tree
-photo.156: ig://CdjmP3xvnpf/m
-photo.156.author: kumamoto_doushokubutsuen
-photo.156.commitdate: 2022/6/1
-photo.156.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.156.tags: bamboo, portrait, sample, toys
-photo.157: https://www.instagram.com/p/CdUN8MihM9x/media/?size=m
-photo.157.author: yossi929
-photo.157.link: https://www.instagram.com/yossi929/
-photo.157.tags: portrait, sample, smile, whiskers
+photo.156: ig://CdUN8MihM9x/m
+photo.156.author: yossi929
+photo.156.commitdate: 2022/6/7
+photo.156.link: https://www.instagram.com/yossi929/
+photo.156.tags: portrait, sample, smile, whiskers
+photo.157: ig://CdjmP3xvnpf/m
+photo.157.author: kumamoto_doushokubutsuen
+photo.157.commitdate: 2022/6/1
+photo.157.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.157.tags: bamboo, portrait, sample, toys
 species: 2
 zoo: 306

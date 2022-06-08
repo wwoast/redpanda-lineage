@@ -413,24 +413,25 @@ photo.80.author: mini_cochi
 photo.80.commitdate: 2022/6/6
 photo.80.link: https://www.instagram.com/mini_cochi/
 photo.80.tags: peek, portrait, tail, tree
-photo.81: ig://CdVgqyTriPZ/m
-photo.81.author: osopanda551
-photo.81.commitdate: 2022/6/2
-photo.81.link: https://www.instagram.com/osopanda551/
-photo.81.tags: laying down, paws, portrait, sample, tail, tree
-photo.82: ig://Cdl-Y3_DPkZ/m
-photo.82.author: otenba_redpanda
-photo.82.commitdate: 2022/6/6
-photo.82.link: https://www.instagram.com/otenba_redpanda/
-photo.82.tags: flowers, paws, portrait, sample
-photo.83: ig://CdvYUnYLVSU/m
-photo.83.author: ifumoto88
+photo.81: ig://CdNq_9TP-8q/m
+photo.81.author: redpan22
+photo.81.commitdate: 2022/6/7
+photo.81.link: https://www.instagram.com/redpan22/
+photo.81.tags: paws, portrait, tree, upside-down, wet
+photo.82: ig://CdVgqyTriPZ/m
+photo.82.author: osopanda551
+photo.82.commitdate: 2022/6/2
+photo.82.link: https://www.instagram.com/osopanda551/
+photo.82.tags: laying down, paws, portrait, sample, tail, tree
+photo.83: ig://Cdl-Y3_DPkZ/m
+photo.83.author: otenba_redpanda
 photo.83.commitdate: 2022/6/6
-photo.83.link: https://www.instagram.com/ifumoto88/
-photo.83.tags: bamboo, paws, portrait, smile, tongue
-photo.84: https://www.instagram.com/p/CdNq_9TP-8q/media/?size=m
-photo.84.author: redpan22
-photo.84.link: https://www.instagram.com/redpan22/
-photo.84.tags: paws, portrait, tree, upside-down, wet
+photo.83.link: https://www.instagram.com/otenba_redpanda/
+photo.83.tags: flowers, paws, portrait, sample
+photo.84: ig://CdvYUnYLVSU/m
+photo.84.author: ifumoto88
+photo.84.commitdate: 2022/6/6
+photo.84.link: https://www.instagram.com/ifumoto88/
+photo.84.tags: bamboo, paws, portrait, smile, tongue
 species: 2
 zoo: 17

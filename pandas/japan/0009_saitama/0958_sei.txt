@@ -293,13 +293,14 @@ photo.56.author: fetorus_mami
 photo.56.commitdate: 2022/6/2
 photo.56.link: https://www.instagram.com/fetorus_mami/
 photo.56.tags: laying down, whiskers
-photo.57: ig://Cdc2h2Av6u0/m
-photo.57.author: na.mo.pan
-photo.57.commitdate: 2022/6/2
-photo.57.link: https://www.instagram.com/na.mo.pan/
-photo.58: https://www.instagram.com/p/CdQKrPnv4Pt/media/?size=m
-photo.58.author: fetorus_mami
-photo.58.link: https://www.instagram.com/fetorus_mami/
-photo.58.tags: peek, portrait, sample, tongue, tree, whiskers
+photo.57: ig://CdQKrPnv4Pt/m
+photo.57.author: fetorus_mami
+photo.57.commitdate: 2022/6/7
+photo.57.link: https://www.instagram.com/fetorus_mami/
+photo.57.tags: peek, portrait, sample, tongue, tree, whiskers
+photo.58: ig://Cdc2h2Av6u0/m
+photo.58.author: na.mo.pan
+photo.58.commitdate: 2022/6/2
+photo.58.link: https://www.instagram.com/na.mo.pan/
 species: 2
 zoo: 9

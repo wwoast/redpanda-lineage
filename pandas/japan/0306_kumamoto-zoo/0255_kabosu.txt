@@ -202,20 +202,21 @@ photo.37.author: yossi929
 photo.37.commitdate: 2022/5/30
 photo.37.link: https://www.instagram.com/yossi929/
 photo.37.tags: bamboo, paws, portrait, sample, tongue, whiskers
-photo.38: ig://CdK0wrhupY6/m
-photo.38.author: yossi929
-photo.38.commitdate: 2022/6/6
-photo.38.link: https://www.instagram.com/yossi929/
-photo.38.tags: close-up, portrait, sample, smile, whiskers
-photo.39: ig://CdvH_QhvD29/m
-photo.39.author: daniele.tokyo
-photo.39.commitdate: 2022/6/1
-photo.39.link: https://www.instagram.com/daniele.tokyo/
-photo.39.tags: bamboo, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
-photo.40: https://www.instagram.com/p/CdA-zkQrk9M/media/?size=m
-photo.40.author: miis_98
-photo.40.link: https://www.instagram.com/miis_98/
-photo.40.tags: portrait, sample, smile, tongue, whiskers
+photo.38: ig://CdA-zkQrk9M/m
+photo.38.author: miis_98
+photo.38.commitdate: 2022/6/7
+photo.38.link: https://www.instagram.com/miis_98/
+photo.38.tags: portrait, sample, smile, tongue, whiskers
+photo.39: ig://CdK0wrhupY6/m
+photo.39.author: yossi929
+photo.39.commitdate: 2022/6/6
+photo.39.link: https://www.instagram.com/yossi929/
+photo.39.tags: close-up, portrait, sample, smile, whiskers
+photo.40: ig://CdvH_QhvD29/m
+photo.40.author: daniele.tokyo
+photo.40.commitdate: 2022/6/1
+photo.40.link: https://www.instagram.com/daniele.tokyo/
+photo.40.tags: bamboo, laying down, mofumofu, paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: unknown
 zoo: 306
