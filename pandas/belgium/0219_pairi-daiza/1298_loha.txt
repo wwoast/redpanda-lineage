@@ -51,12 +51,14 @@ photo.6.author: nathalie.elliott
 photo.6.commitdate: 2021/9/10
 photo.6.link: https://www.instagram.com/nathalie.elliott/
 photo.6.tags: home, lunch time, portrait
-photo.7: https://www.instagram.com/p/CXeYiMaoxDb/media/?size=m
+photo.7: ig://CXeYiMaoxDb/m
 photo.7.author: nathalie.elliott
+photo.7.commitdate: 2022/6/10
 photo.7.link: https://www.instagram.com/nathalie.elliott/
 photo.7.tags: bamboo, peek, portrait, sample, whiskers
-photo.8: https://www.instagram.com/p/CY058Njsss3/media/?size=m
+photo.8: ig://CY058Njsss3/m
 photo.8.author: nathalie.elliott
+photo.8.commitdate: 2022/6/10
 photo.8.link: https://www.instagram.com/nathalie.elliott/
 photo.8.tags: peek, portrait, sample, whiskers
 species: 1

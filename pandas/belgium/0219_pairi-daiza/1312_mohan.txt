@@ -41,22 +41,25 @@ photo.5.author: nathalie.elliott
 photo.5.commitdate: 2021/12/21
 photo.5.link: https://www.instagram.com/nathalie.elliott/
 photo.5.tags: baby, mofumofu, portrait, sample, tail
-photo.6: ig://CaO3_QSsvwy/m
+photo.6: ig://CYVxetxsid_/m
 photo.6.author: nathalie.elliott
-photo.6.commitdate: 2022/3/11
+photo.6.commitdate: 2022/6/10
 photo.6.link: https://www.instagram.com/nathalie.elliott/
-photo.6.tags: baby, climb, peek, portrait, smile
-photo.7: https://www.instagram.com/p/CZNXSubMD36/media/?size=m
+photo.6.tags: baby, mofumofu, portrait, profile, sample
+photo.7: ig://CY_QFWYMC_h/m
 photo.7.author: nathalie.elliott
+photo.7.commitdate: 2022/6/10
 photo.7.link: https://www.instagram.com/nathalie.elliott/
-photo.7.tags: baby, portrait, sample, whiskers
-photo.8: https://www.instagram.com/p/CY_QFWYMC_h/media/?size=m
+photo.7.tags: baby, peek, portrait, sample, tree
+photo.8: ig://CZNXSubMD36/m
 photo.8.author: nathalie.elliott
+photo.8.commitdate: 2022/6/10
 photo.8.link: https://www.instagram.com/nathalie.elliott/
-photo.8.tags: baby, peek, portrait, sample, tree
-photo.9: https://www.instagram.com/p/CYVxetxsid_/media/?size=m
+photo.8.tags: baby, portrait, sample, whiskers
+photo.9: ig://CaO3_QSsvwy/m
 photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/3/11
 photo.9.link: https://www.instagram.com/nathalie.elliott/
-photo.9.tags: baby, mofumofu, portrait, profile, sample
+photo.9.tags: baby, climb, peek, portrait, smile
 species: 1
 zoo: 219

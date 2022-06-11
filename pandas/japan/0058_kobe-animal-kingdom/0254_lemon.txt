@@ -594,8 +594,9 @@ photo.116.author: leonard_redmof
 photo.116.commitdate: 2022/4/13
 photo.116.link: https://www.instagram.com/leonard_redmof/
 photo.116.tags: bridge, paws, portrait, sample, smile, tail
-photo.117: https://www.instagram.com/p/CcIZ9RBPWYH/media/?size=m
+photo.117: ig://CcIZ9RBPWYH/m
 photo.117.author: leonard_redmof
+photo.117.commitdate: 2022/6/10
 photo.117.link: https://www.instagram.com/leonard_redmof/
 photo.117.tags: close-up, portrait, sample, tongue, whiskers
 species: 2

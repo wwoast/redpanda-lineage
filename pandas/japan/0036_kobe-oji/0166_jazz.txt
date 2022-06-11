@@ -1324,15 +1324,16 @@ photo.263.author: tomo3700
 photo.263.commitdate: 2022/5/13
 photo.263.link: https://www.instagram.com/tomo3700/
 photo.263.tags: autumn, peek, portrait, sample, tree, whiskers
-photo.264: ig://CdvGPWCPhzc/m
-photo.264.author: imagoto17
-photo.264.commitdate: 2022/6/6
-photo.264.link: https://www.instagram.com/imagoto17/
-photo.264.tags: mofumofu, peek, tail, tree
-photo.265: https://www.instagram.com/p/CcHqyd7PQS5/media/?size=m
-photo.265.author: falcon_tenor
-photo.265.link: https://www.instagram.com/falcon_tenor/
-photo.265.tags: bridge, paws, laying down, tail, tree
+photo.264: ig://CcHqyd7PQS5/m
+photo.264.author: falcon_tenor
+photo.264.commitdate: 2022/6/10
+photo.264.link: https://www.instagram.com/falcon_tenor/
+photo.264.tags: bridge, paws, laying down, tail, tree
+photo.265: ig://CdvGPWCPhzc/m
+photo.265.author: imagoto17
+photo.265.commitdate: 2022/6/6
+photo.265.link: https://www.instagram.com/imagoto17/
+photo.265.tags: mofumofu, peek, tail, tree
 species: 2
 studbook.id: 1778
 zoo: 36

@@ -695,25 +695,26 @@ photo.139.author: hamiiiii831_
 photo.139.commitdate: 2022/4/8
 photo.139.link: https://www.instagram.com/hamiiiii831_/
 photo.139.tags: bridge, laying down, paws, videolink, whiskers
-photo.140: ig://CcVDlDsvCet/m
-photo.140.author: makimaru18
-photo.140.commitdate: 2022/6/6
-photo.140.link: https://www.instagram.com/makimaru18/
-photo.140.tags: bamboo, mofumofu, paws, portrait, sample, smile
-photo.141: ig://CckaJXfv848/m
-photo.141.author: osaka_tennoji_zoo
+photo.140: ig://CcIF1ZDPb-F/m
+photo.140.author: hamamatsu.chiita
+photo.140.commitdate: 2022/6/10
+photo.140.link: https://www.instagram.com/hamamatsu.chiita/
+photo.140.tags: close up, portrait, sample, whiskers
+photo.141: ig://CcVDlDsvCet/m
+photo.141.author: makimaru18
 photo.141.commitdate: 2022/6/6
-photo.141.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.141.tags: apple time, close-up, paws, standing, whiskers
-photo.142: ig://CdfoMTmPIab/m
+photo.141.link: https://www.instagram.com/makimaru18/
+photo.141.tags: bamboo, mofumofu, paws, portrait, sample, smile
+photo.142: ig://CckaJXfv848/m
 photo.142.author: osaka_tennoji_zoo
-photo.142.commitdate: 2022/6/2
+photo.142.commitdate: 2022/6/6
 photo.142.link: https://www.instagram.com/osaka_tennoji_zoo/
-photo.142.tags: peek, whiskers
-photo.143: https://www.instagram.com/p/CcIF1ZDPb-F/media/?size=m
-photo.143.author: hamamatsu.chiita
-photo.143.link: https://www.instagram.com/hamamatsu.chiita/
-photo.143.tags: close up, portrait, sample, whiskers
+photo.142.tags: apple time, close-up, paws, standing, whiskers
+photo.143: ig://CdfoMTmPIab/m
+photo.143.author: osaka_tennoji_zoo
+photo.143.commitdate: 2022/6/2
+photo.143.link: https://www.instagram.com/osaka_tennoji_zoo/
+photo.143.tags: peek, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

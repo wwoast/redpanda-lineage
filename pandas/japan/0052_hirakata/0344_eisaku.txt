@@ -529,35 +529,36 @@ photo.103.author: hamiiiii831_
 photo.103.commitdate: 2022/3/9
 photo.103.link: https://www.instagram.com/hamiiiii831_/
 photo.103.tags: laying down, paws, smile, whiskers
-photo.104: ig://Cbe9h-WPKcf/m
-photo.104.author: jas_forever_love
-photo.104.commitdate: 2022/4/26
-photo.104.link: https://www.instagram.com/jas_forever_love/
-photo.104.tags: portrait, sample, smile, whiskers
-photo.105: ig://CbhL7WPr9al/m
-photo.105.author: fetorus_mami
-photo.105.commitdate: 2022/4/25
-photo.105.link: https://www.instagram.com/fetorus_mami/
-photo.105.tags: bamboo, mofumofu, sample, whiskers
-photo.106: ig://CcP3hbuvylT/m
-photo.106.author: jas_forever_love
-photo.106.commitdate: 2022/6/3
-photo.106.link: https://www.instagram.com/jas_forever_love/
-photo.106.tags: paws, sample, smile, standing, tongue, whiskers
-photo.107: ig://CcRibQFPatW/m
-photo.107.author: hamiiiii831_
-photo.107.commitdate: 2022/6/6
-photo.107.link: https://www.instagram.com/hamiiiii831_/
-photo.107.tags: laying down, mofumofu, paws, sample, sleeping, whiskers
-photo.108: ig://CcxHNABPKyL/m
-photo.108.author: sakikukeco
-photo.108.commitdate: 2022/6/3
-photo.108.link: https://www.instagram.com/sakikukeco/
-photo.108.tags: apple time, bamboo, paws, portrait, sample, standing, whiskers
-photo.109: https://www.instagram.com/p/CbZsB41v3g0/media/?size=m
-photo.109.author: hamiiiii831_
-photo.109.link: https://www.instagram.com/hamiiiii831_/
-photo.109.tags: paws, sample, smile, tongue
+photo.104: ig://CbZsB41v3g0/m
+photo.104.author: hamiiiii831_
+photo.104.commitdate: 2022/6/10
+photo.104.link: https://www.instagram.com/hamiiiii831_/
+photo.104.tags: paws, sample, smile, tongue
+photo.105: ig://Cbe9h-WPKcf/m
+photo.105.author: jas_forever_love
+photo.105.commitdate: 2022/4/26
+photo.105.link: https://www.instagram.com/jas_forever_love/
+photo.105.tags: portrait, sample, smile, whiskers
+photo.106: ig://CbhL7WPr9al/m
+photo.106.author: fetorus_mami
+photo.106.commitdate: 2022/4/25
+photo.106.link: https://www.instagram.com/fetorus_mami/
+photo.106.tags: bamboo, mofumofu, sample, whiskers
+photo.107: ig://CcP3hbuvylT/m
+photo.107.author: jas_forever_love
+photo.107.commitdate: 2022/6/3
+photo.107.link: https://www.instagram.com/jas_forever_love/
+photo.107.tags: paws, sample, smile, standing, tongue, whiskers
+photo.108: ig://CcRibQFPatW/m
+photo.108.author: hamiiiii831_
+photo.108.commitdate: 2022/6/6
+photo.108.link: https://www.instagram.com/hamiiiii831_/
+photo.108.tags: laying down, mofumofu, paws, sample, sleeping, whiskers
+photo.109: ig://CcxHNABPKyL/m
+photo.109.author: sakikukeco
+photo.109.commitdate: 2022/6/3
+photo.109.link: https://www.instagram.com/sakikukeco/
+photo.109.tags: apple time, bamboo, paws, portrait, sample, standing, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

@@ -803,29 +803,31 @@ photo.158.author: eos1089
 photo.158.commitdate: 2022/5/30
 photo.158.link: https://www.instagram.com/eos1089/
 photo.158.tags: bamboo, paws, portrait, sample, standing, whiskers
-photo.159: ig://CcLFCMerNGu/m
-photo.159.author: mini_cochi
-photo.159.commitdate: 2022/6/6
-photo.159.link: https://www.instagram.com/mini_cochi/
-photo.159.tags: flowers, tail
-photo.160: ig://CdVd7RgP1fX/m
-photo.160.author: ck.chie
+photo.159: ig://CcJuvJPvk61/m
+photo.159.author: alto0908
+photo.159.commitdate: 2022/6/10
+photo.159.link: https://www.instagram.com/alto0908/
+photo.159.tags: close-up, nose, portrait, sample, tongue
+photo.160: ig://CcLFCMerNGu/m
+photo.160.author: mini_cochi
 photo.160.commitdate: 2022/6/6
-photo.160.link: https://www.instagram.com/ck.chie/
-photo.160.tags: bamboo, flowers, nose, paws, portrait, shoots
-photo.161: ig://CdYL43nPtkd/m
+photo.160.link: https://www.instagram.com/mini_cochi/
+photo.160.tags: flowers, tail
+photo.161: ig://CcQJhaePqMT/m
 photo.161.author: sb23megumi
-photo.161.commitdate: 2022/6/6
+photo.161.commitdate: 2022/6/10
 photo.161.link: https://www.instagram.com/sb23megumi/
-photo.161.tags: bamboo, blink, portrait, shoots, smile, whiskers
-photo.162: https://www.instagram.com/p/CcJuvJPvk61/media/?size=m
-photo.162.author: alto0908
-photo.162.link: https://www.instagram.com/alto0908/
-photo.162.tags: close-up, nose, portrait, sample, tongue
-photo.163: https://www.instagram.com/p/CcQJhaePqMT/media/?size=m
+photo.161.tags: climb, grumpy, lips, paws, peek, portrait, whiskers
+photo.162: ig://CdVd7RgP1fX/m
+photo.162.author: ck.chie
+photo.162.commitdate: 2022/6/6
+photo.162.link: https://www.instagram.com/ck.chie/
+photo.162.tags: bamboo, flowers, nose, paws, portrait, shoots
+photo.163: ig://CdYL43nPtkd/m
 photo.163.author: sb23megumi
+photo.163.commitdate: 2022/6/6
 photo.163.link: https://www.instagram.com/sb23megumi/
-photo.163.tags: climb, grumpy, lips, paws, peek, portrait, whiskers
+photo.163.tags: bamboo, blink, portrait, shoots, smile, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

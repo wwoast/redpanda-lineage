@@ -240,8 +240,9 @@ photo.45.author: westcoast_kathy
 photo.45.commitdate: 2022/4/25
 photo.45.link: https://www.instagram.com/westcoast_kathy/
 photo.45.tags: peek, portrait, sample, tail
-photo.46: https://www.instagram.com/p/CbydlzXp3hE/media/?size=m
+photo.46: ig://CbydlzXp3hE/m
 photo.46.author: westcoast_kathy
+photo.46.commitdate: 2022/6/10
 photo.46.link: https://www.instagram.com/westcoast_kathy/
 photo.46.tags: close-up, portrait, sample, whiskers
 species: 2
