@@ -30,7 +30,7 @@ photo.3: ig://CUFSvwhMRH3/m
 photo.3.author: nathalie.elliott
 photo.3.commitdate: 2021/9/25
 photo.3.link: https://www.instagram.com/nathalie.elliott/
-photo.3.tags: baby, mofumofu, portrait, profile, sample
+photo.3.tags: baby, mofumofu, portrait, sample
 photo.4: ig://CUNjKyrtEss/m
 photo.4.author: mirellad03
 photo.4.commitdate: 2021/9/25
@@ -46,5 +46,17 @@ photo.6.author: nathalie.elliott
 photo.6.commitdate: 2022/3/11
 photo.6.link: https://www.instagram.com/nathalie.elliott/
 photo.6.tags: baby, climb, peek, portrait, smile
+photo.7: https://www.instagram.com/p/CZNXSubMD36/media/?size=m
+photo.7.author: nathalie.elliott
+photo.7.link: https://www.instagram.com/nathalie.elliott/
+photo.7.tags: baby, portrait, sample, whiskers
+photo.8: https://www.instagram.com/p/CY_QFWYMC_h/media/?size=m
+photo.8.author: nathalie.elliott
+photo.8.link: https://www.instagram.com/nathalie.elliott/
+photo.8.tags: baby, peek, portrait, sample, tree
+photo.9: https://www.instagram.com/p/CYVxetxsid_/media/?size=m
+photo.9.author: nathalie.elliott
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: baby, mofumofu, portrait, profile, sample
 species: 1
 zoo: 219
