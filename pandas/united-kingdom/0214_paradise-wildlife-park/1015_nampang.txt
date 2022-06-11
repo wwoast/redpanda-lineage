@@ -4,6 +4,7 @@ birthday: 2017/6/14
 birthplace: 213
 children: unknown
 commitdate: 2019/11/1
+death: 2022/6/10
 en.name: Nam Pang
 en.nicknames: none
 en.othernames: Nam'pang, Nampang, Nam'Pang
@@ -51,4 +52,5 @@ photo.7.commitdate: 2021/6/29
 photo.7.link: https://www.instagram.com/jobrownphotography/
 photo.7.tags: portrait, wet, whiskers
 species: 1
+uncertainty: death exact date (may be earlier by a few days)
 zoo: 214
