@@ -61,6 +61,10 @@ photo.8.author: nathalie.elliott
 photo.8.commitdate: 2022/6/10
 photo.8.link: https://www.instagram.com/nathalie.elliott/
 photo.8.tags: peek, portrait, sample, whiskers
+photo.9: https://www.instagram.com/p/CdFhei7smML/media/?size=m
+photo.9.author: nathalie.elliott
+photo.9.link: https://www.instagram.com/nathalie.elliott/
+photo.9.tags: portrait, sample, tree, whiskers
 species: 1
 uncertainty: location.2 moving date
 zoo: 219
