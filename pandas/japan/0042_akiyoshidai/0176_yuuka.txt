@@ -606,29 +606,31 @@ photo.119.author: re_ichimaru
 photo.119.commitdate: 2022/5/18
 photo.119.link: https://www.instagram.com/re_ichimaru/
 photo.119.tags: apple time, paws, portrait, sample, whiskers
-photo.120: ig://CcnoxtkvM_D/m
-photo.120.author: kojikoji2011
-photo.120.commitdate: 2022/5/27
-photo.120.link: https://www.instagram.com/kojikoji2011/
-photo.120.tags: apple time, bite, portrait, sample, smile, tongue, whiskers
-photo.121: ig://CczM_C9vASf/m
-photo.121.author: re_ichimaru
-photo.121.commitdate: 2022/6/2
-photo.121.link: https://www.instagram.com/re_ichimaru/
-photo.121.tags: bamboo, paws, portrait, sample
-photo.122: ig://CdXKWxsvYi2/m
+photo.120: ig://CbqrfE_BkV4/m
+photo.120.author: re_ichimaru
+photo.120.commitdate: 2022/6/11
+photo.120.link: https://www.instagram.com/re_ichimaru/
+photo.120.tags: curly, paws, portrait, sample, tail
+photo.121: ig://CcnoxtkvM_D/m
+photo.121.author: kojikoji2011
+photo.121.commitdate: 2022/5/27
+photo.121.link: https://www.instagram.com/kojikoji2011/
+photo.121.tags: apple time, bite, portrait, sample, smile, tongue, whiskers
+photo.122: ig://CczM_C9vASf/m
 photo.122.author: re_ichimaru
 photo.122.commitdate: 2022/6/2
 photo.122.link: https://www.instagram.com/re_ichimaru/
-photo.122.tags: curly, paws, peek, sample, tail
-photo.123: https://www.instagram.com/p/CbqrfE_BkV4/media/?size=m
-photo.123.author: re_ichimaru
-photo.123.link: https://www.instagram.com/re_ichimaru/
-photo.123.tags: curly, paws, portrait, sample, tail
-photo.124: https://www.instagram.com/p/CdFtYdwPX3V/media/?size=m
-photo.124.author: colette.jp
-photo.124.link: https://www.instagram.com/colette.jp/
-photo.124.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.122.tags: bamboo, paws, portrait, sample
+photo.123: ig://CdFtYdwPX3V/m
+photo.123.author: colette.jp
+photo.123.commitdate: 2022/6/11
+photo.123.link: https://www.instagram.com/colette.jp/
+photo.123.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.124: ig://CdXKWxsvYi2/m
+photo.124.author: re_ichimaru
+photo.124.commitdate: 2022/6/2
+photo.124.link: https://www.instagram.com/re_ichimaru/
+photo.124.tags: curly, paws, peek, sample, tail
 species: 2
 studbook.id: 1695
 zoo: 42

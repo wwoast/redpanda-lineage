@@ -1345,15 +1345,16 @@ photo.268.author: ifumoto88
 photo.268.commitdate: 2022/6/6
 photo.268.link: https://www.instagram.com/ifumoto88/
 photo.268.tags: apple time, close-up, paws, portrait, sample, tongue, whiskers
-photo.269: ig://CdijxzsBpvW/m
-photo.269.author: ifumoto88
-photo.269.commitdate: 2022/6/2
-photo.269.link: https://www.instagram.com/ifumoto88/
-photo.269.tags: paws, portrait, sample, smile, tail, tree, wave
-photo.270: https://www.instagram.com/p/CdIsWlsviSz/media/?size=m
-photo.270.author: panda.daisuki
-photo.270.link: https://www.instagram.com/panda.daisuki/
-photo.270.tags: close-up, portrait, sample, whiskers
+photo.269: ig://CdIsWlsviSz/m
+photo.269.author: panda.daisuki
+photo.269.commitdate: 2022/6/11
+photo.269.link: https://www.instagram.com/panda.daisuki/
+photo.269.tags: close-up, portrait, sample, whiskers
+photo.270: ig://CdijxzsBpvW/m
+photo.270.author: ifumoto88
+photo.270.commitdate: 2022/6/2
+photo.270.link: https://www.instagram.com/ifumoto88/
+photo.270.tags: paws, portrait, sample, smile, tail, tree, wave
 species: 2
 studbook.id: 15152
 zoo: 1

@@ -723,15 +723,16 @@ photo.142.author: otenba_redpanda
 photo.142.commitdate: 2022/2/12
 photo.142.link: https://www.instagram.com/otenba_redpanda/
 photo.142.tags: bamboo, bite, close-up, portrait, sample, smile
-photo.143: ig://CdfJkYyPPoq/m
-photo.143.author: na.mo.pan
-photo.143.commitdate: 2022/6/2
-photo.143.link: https://www.instagram.com/na.mo.pan/
-photo.143.tags: bamboo, close-up, white face
-photo.144: https://www.instagram.com/p/CbcdtXyv9vk/media/?size=m
-photo.144.author: sasapan34
-photo.144.link: https://www.instagram.com/sasapan34/
-photo.144.tags: lips, sample, smile, whiskers
+photo.143: ig://CbcdtXyv9vk/m
+photo.143.author: sasapan34
+photo.143.commitdate: 2022/6/11
+photo.143.link: https://www.instagram.com/sasapan34/
+photo.143.tags: lips, sample, smile, whiskers
+photo.144: ig://CdfJkYyPPoq/m
+photo.144.author: na.mo.pan
+photo.144.commitdate: 2022/6/2
+photo.144.link: https://www.instagram.com/na.mo.pan/
+photo.144.tags: bamboo, close-up, white face
 species: 2
 studbook.id: unknown
 zoo: 9

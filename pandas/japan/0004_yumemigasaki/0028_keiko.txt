@@ -473,8 +473,9 @@ photo.93.author: miis_98
 photo.93.commitdate: 2022/2/10
 photo.93.link: https://www.instagram.com/miis_98/
 photo.93.tags: bamboo, bite, peek, portrait, sample, smile, whiskers
-photo.94: https://www.instagram.com/p/CaeFOQ1vxlH/media/?size=m
+photo.94: ig://CaeFOQ1vxlH/m
 photo.94.author: pantasanzoo1
+photo.94.commitdate: 2022/6/11
 photo.94.link: https://www.instagram.com/pantasanzoo1/
 photo.94.tags: climb, paws, spider, tail
 species: 2

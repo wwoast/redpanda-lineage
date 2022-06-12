@@ -1013,15 +1013,16 @@ photo.202.author: i.satosato
 photo.202.commitdate: 2022/5/30
 photo.202.link: https://www.instagram.com/i.satosato/
 photo.202.tags: paws, portrait, sample, tail, whiskers
-photo.203: ig://CdcWSTdPglA/m
-photo.203.author: re_ichimaru
-photo.203.commitdate: 2022/6/2
-photo.203.link: https://www.instagram.com/re_ichimaru/
-photo.203.tags: flowers, portrait, sample, smile, whiskers
-photo.204: https://www.instagram.com/p/CdIRTVAPnoY/media/?size=m
-photo.204.author: i.satosato
-photo.204.link: https://www.instagram.com/i.satosato/
-photo.204.tags: apple time, peek, portrait, sample, standing
+photo.203: ig://CdIRTVAPnoY/m
+photo.203.author: i.satosato
+photo.203.commitdate: 2022/6/11
+photo.203.link: https://www.instagram.com/i.satosato/
+photo.203.tags: apple time, peek, portrait, sample, standing
+photo.204: ig://CdcWSTdPglA/m
+photo.204.author: re_ichimaru
+photo.204.commitdate: 2022/6/2
+photo.204.link: https://www.instagram.com/re_ichimaru/
+photo.204.tags: flowers, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36

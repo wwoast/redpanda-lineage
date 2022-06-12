@@ -978,51 +978,56 @@ photo.194.author: daniele.tokyo
 photo.194.commitdate: 2022/4/29
 photo.194.link: https://www.instagram.com/daniele.tokyo/
 photo.194.tags: close-up, paws, sample, techitechi, whiskers
-photo.195: ig://CbdupGVLFht/m
-photo.195.author: otenba_redpanda
-photo.195.commitdate: 2022/4/26
-photo.195.link: https://www.instagram.com/otenba_redpanda/
-photo.195.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.196: ig://Cbmp2DxhE7S/m
-photo.196.author: daniele.tokyo
-photo.196.commitdate: 2022/5/13
-photo.196.link: https://www.instagram.com/daniele.tokyo/
-photo.196.tags: paws, sample, snow, whiskers
-photo.197: ig://CbpOpE0PNKK/m
+photo.195: ig://CbcWqryrGih/m
+photo.195.author: daniele.tokyo
+photo.195.commitdate: 2022/6/11
+photo.195.link: https://www.instagram.com/daniele.tokyo/
+photo.195.tags: paws, peek, sample, whiskers
+photo.196: ig://CbdupGVLFht/m
+photo.196.author: otenba_redpanda
+photo.196.commitdate: 2022/4/26
+photo.196.link: https://www.instagram.com/otenba_redpanda/
+photo.196.tags: apple time, paws, portrait, sample, smile, whiskers
+photo.197: ig://Cbe7drWLD5R/m
 photo.197.author: daniele.tokyo
-photo.197.commitdate: 2022/4/26
+photo.197.commitdate: 2022/6/11
 photo.197.link: https://www.instagram.com/daniele.tokyo/
-photo.197.tags: paws, sample, standing, tail, toys
-photo.198: ig://CbuYO2aP4KN/m
-photo.198.author: daniele.tokyo
-photo.198.commitdate: 2022/5/18
-photo.198.link: https://www.instagram.com/daniele.tokyo/
-photo.198.tags: laying down, peek, sample, whiskers
-photo.199: ig://Cb6Cbqgr7ky/m
-photo.199.author: otenba_redpanda
-photo.199.commitdate: 2022/5/13
-photo.199.link: https://www.instagram.com/otenba_redpanda/
-photo.199.tags: portrait, sample, techitechi, whiskers
-photo.200: https://www.instagram.com/p/Cbzh0hyPrjY/media/?size=m
+photo.197.tags: laying down, mofumofu, paws, portrait, sample
+photo.198: ig://CbgSAwarx8w/m
+photo.198.author: otenba_redpanda
+photo.198.commitdate: 2022/6/11
+photo.198.link: https://www.instagram.com/otenba_redpanda/
+photo.198.tags: paws, smile, standing, techitechi, toys, whiskers
+photo.199: ig://Cbi-ljqJ00f/m
+photo.199.author: hidehaya_biei
+photo.199.commitdate: 2022/6/11
+photo.199.link: https://www.instagram.com/hidehaya_biei/
+photo.199.tags: close-up, peek, whiskers
+photo.200: ig://Cbmp2DxhE7S/m
 photo.200.author: daniele.tokyo
+photo.200.commitdate: 2022/5/13
 photo.200.link: https://www.instagram.com/daniele.tokyo/
-photo.200.tags: close-up, paws, sample, snow, whiskers
-photo.201: https://www.instagram.com/p/Cbe7drWLD5R/media/?size=m
+photo.200.tags: paws, sample, snow, whiskers
+photo.201: ig://CbpOpE0PNKK/m
 photo.201.author: daniele.tokyo
+photo.201.commitdate: 2022/4/26
 photo.201.link: https://www.instagram.com/daniele.tokyo/
-photo.201.tags: laying down, mofumofu, paws, portrait, sample
-photo.202: https://www.instagram.com/p/CbgSAwarx8w/media/?size=m
-photo.202.author: otenba_redpanda
-photo.202.link: https://www.instagram.com/otenba_redpanda/
-photo.202.tags: paws, smile, standing, techitechi, toys, whiskers
-photo.203: https://www.instagram.com/p/Cbi-ljqJ00f/media/?size=m
-photo.203.author: hidehaya_biei
-photo.203.link: https://www.instagram.com/hidehaya_biei/
-photo.203.tags: close-up, peek, whiskers
-photo.204: https://www.instagram.com/p/CbcWqryrGih/media/?size=m
-photo.204.author: daniele.tokyo
-photo.204.link: https://www.instagram.com/daniele.tokyo/
-photo.204.tags: paws, peek, sample, whiskers
+photo.201.tags: paws, sample, standing, tail, toys
+photo.202: ig://CbuYO2aP4KN/m
+photo.202.author: daniele.tokyo
+photo.202.commitdate: 2022/5/18
+photo.202.link: https://www.instagram.com/daniele.tokyo/
+photo.202.tags: laying down, peek, sample, whiskers
+photo.203: ig://Cbzh0hyPrjY/m
+photo.203.author: daniele.tokyo
+photo.203.commitdate: 2022/6/11
+photo.203.link: https://www.instagram.com/daniele.tokyo/
+photo.203.tags: close-up, paws, sample, snow, whiskers
+photo.204: ig://Cb6Cbqgr7ky/m
+photo.204.author: otenba_redpanda
+photo.204.commitdate: 2022/5/13
+photo.204.link: https://www.instagram.com/otenba_redpanda/
+photo.204.tags: portrait, sample, techitechi, whiskers
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

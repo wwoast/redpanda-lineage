@@ -61,8 +61,9 @@ photo.8.author: nathalie.elliott
 photo.8.commitdate: 2022/6/10
 photo.8.link: https://www.instagram.com/nathalie.elliott/
 photo.8.tags: peek, portrait, sample, whiskers
-photo.9: https://www.instagram.com/p/CdFhei7smML/media/?size=m
+photo.9: ig://CdFhei7smML/m
 photo.9.author: nathalie.elliott
+photo.9.commitdate: 2022/6/11
 photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: portrait, sample, tree, whiskers
 species: 1

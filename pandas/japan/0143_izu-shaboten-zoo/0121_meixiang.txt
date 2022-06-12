@@ -524,20 +524,21 @@ photo.102.author: otenba_redpanda
 photo.102.commitdate: 2022/4/29
 photo.102.link: https://www.instagram.com/otenba_redpanda/
 photo.102.tags: lunch time, mofumofu, paws, portrait, sample, whiskers
-photo.103: ig://CbbJGZgP_Wf/m
-photo.103.author: tomo3700
-photo.103.commitdate: 2022/5/17
-photo.103.link: https://www.instagram.com/tomo3700/
-photo.103.tags: paws, peek, portrait, whiskers
-photo.104: ig://CblZKzyLOJy/m
-photo.104.author: otenba_redpanda
-photo.104.commitdate: 2022/4/25
-photo.104.link: https://www.instagram.com/otenba_redpanda/
-photo.104.tags: mofumofu, peek, portrait, sample, whiskers
-photo.105: https://www.instagram.com/p/CbYhcuKhOBA/media/?size=m
-photo.105.author: pink.b22
-photo.105.link: https://www.instagram.com/pink.b22/
-photo.105.tags: close-up, portrait, sample, whiskers
+photo.103: ig://CbYhcuKhOBA/m
+photo.103.author: pink.b22
+photo.103.commitdate: 2022/6/11
+photo.103.link: https://www.instagram.com/pink.b22/
+photo.103.tags: close-up, portrait, sample, whiskers
+photo.104: ig://CbbJGZgP_Wf/m
+photo.104.author: tomo3700
+photo.104.commitdate: 2022/5/17
+photo.104.link: https://www.instagram.com/tomo3700/
+photo.104.tags: paws, peek, portrait, whiskers
+photo.105: ig://CblZKzyLOJy/m
+photo.105.author: otenba_redpanda
+photo.105.commitdate: 2022/4/25
+photo.105.link: https://www.instagram.com/otenba_redpanda/
+photo.105.tags: mofumofu, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 1775
 zoo: 143

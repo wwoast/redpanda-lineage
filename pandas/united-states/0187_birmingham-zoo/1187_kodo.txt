@@ -90,8 +90,9 @@ photo.15.author: buttonwoodparkzoo
 photo.15.commitdate: 2022/2/12
 photo.15.link: https://www.instagram.com/buttonwoodparkzoo/
 photo.15.tags: peek, snow, whiskers
-photo.16: https://www.instagram.com/p/CdIeQf1OWQ_/media/?size=m
+photo.16: ig://CdIeQf1OWQ_/m
 photo.16.author: worldthathesees
+photo.16.commitdate: 2022/6/11
 photo.16.link: https://www.instagram.com/worldthathesees/
 photo.16.tags: paws, whiskers
 species: 1

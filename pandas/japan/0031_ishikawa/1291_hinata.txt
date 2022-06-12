@@ -138,13 +138,15 @@ photo.25.author: miis_98
 photo.25.commitdate: 2022/5/27
 photo.25.link: https://www.instagram.com/miis_98/
 photo.25.tags: bridge, smile, tree
-photo.26: https://www.instagram.com/p/CdF8nhYvsBq/media/?size=m
+photo.26: ig://CdDW2_6v9Ov/m
 photo.26.author: hamamatsu.chiita
+photo.26.commitdate: 2022/6/11
 photo.26.link: https://www.instagram.com/hamamatsu.chiita/
-photo.26.tags: close-up, portrait, sample, tongue
-photo.27: https://www.instagram.com/p/CdDW2_6v9Ov/media/?size=m
+photo.26.tags: portrait, sample, tongue, tree, whiskers
+photo.27: ig://CdF8nhYvsBq/m
 photo.27.author: hamamatsu.chiita
+photo.27.commitdate: 2022/6/11
 photo.27.link: https://www.instagram.com/hamamatsu.chiita/
-photo.27.tags: portrait, sample, tongue, tree, whiskers
+photo.27.tags: close-up, portrait, sample, tongue
 species: 2
 zoo: 31

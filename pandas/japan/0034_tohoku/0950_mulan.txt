@@ -467,33 +467,35 @@ photo.91.author: hidehaya_biei
 photo.91.commitdate: 2022/5/18
 photo.91.link: https://www.instagram.com/hidehaya_biei/
 photo.91.tags: dish, portrait, sample, whiskers
-photo.92: ig://CbjtGZzL0-h/m
+photo.92: ig://CbexS3SL_i5/m
 photo.92.author: otenba_redpanda
-photo.92.commitdate: 2022/4/26
+photo.92.commitdate: 2022/6/11
 photo.92.link: https://www.instagram.com/otenba_redpanda/
-photo.92.tags: peek, portrait, sample, snow, tail, whiskers
-photo.93: ig://CcUaJeCuX0m/m
-photo.93.author: hidehaya_biei
-photo.93.commitdate: 2022/5/25
-photo.93.link: https://www.instagram.com/hidehaya_biei/
-photo.93.tags: paws, sample, snow, whiskers
-photo.94: ig://Cdk00mJvuKz/m
-photo.94.author: daniele.tokyo
-photo.94.commitdate: 2022/6/6
-photo.94.link: https://www.instagram.com/daniele.tokyo/
-photo.94.tags: paws, sample, surprise, toys, whiskers
-photo.95: ig://Cdp-Y5DPy13/m
-photo.95.author: daniele.tokyo
-photo.95.commitdate: 2022/6/6
-photo.95.link: https://www.instagram.com/daniele.tokyo/
-photo.95.tags: laying down, paws, portrait, tongue, wink
-photo.96: https://www.instagram.com/p/CbhjsbiPhn9/media/?size=m
+photo.92.tags: bamboo, portrait, sample, whiskers
+photo.93: ig://CbhjsbiPhn9/m
+photo.93.author: daniele.tokyo
+photo.93.commitdate: 2022/6/11
+photo.93.link: https://www.instagram.com/daniele.tokyo/
+photo.93.tags: paws, playing, snow, surprise
+photo.94: ig://CbjtGZzL0-h/m
+photo.94.author: otenba_redpanda
+photo.94.commitdate: 2022/4/26
+photo.94.link: https://www.instagram.com/otenba_redpanda/
+photo.94.tags: peek, portrait, sample, snow, tail, whiskers
+photo.95: ig://CcUaJeCuX0m/m
+photo.95.author: hidehaya_biei
+photo.95.commitdate: 2022/5/25
+photo.95.link: https://www.instagram.com/hidehaya_biei/
+photo.95.tags: paws, sample, snow, whiskers
+photo.96: ig://Cdk00mJvuKz/m
 photo.96.author: daniele.tokyo
+photo.96.commitdate: 2022/6/6
 photo.96.link: https://www.instagram.com/daniele.tokyo/
-photo.96.tags: paws, playing, snow, surprise
-photo.97: https://www.instagram.com/p/CbexS3SL_i5/media/?size=m
-photo.97.author: otenba_redpanda
-photo.97.link: https://www.instagram.com/otenba_redpanda/
-photo.97.tags: bamboo, portrait, sample, whiskers
+photo.96.tags: paws, sample, surprise, toys, whiskers
+photo.97: ig://Cdp-Y5DPy13/m
+photo.97.author: daniele.tokyo
+photo.97.commitdate: 2022/6/6
+photo.97.link: https://www.instagram.com/daniele.tokyo/
+photo.97.tags: laying down, paws, portrait, tongue, wink
 species: 2
 zoo: 34

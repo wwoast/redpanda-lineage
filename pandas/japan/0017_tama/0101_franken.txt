@@ -603,20 +603,21 @@ photo.118.author: otenba_redpanda
 photo.118.commitdate: 2022/3/18
 photo.118.link: https://www.instagram.com/otenba_redpanda/
 photo.118.tags: close-up, paws, portrait, whiskers
-photo.119: ig://CcIYtd_LS4y/m
-photo.119.author: ifumoto88
-photo.119.commitdate: 2022/4/13
-photo.119.link: https://www.instagram.com/ifumoto88/
-photo.119.tags: bamboo, laying down, mofumofu, portrait, sample, tail
-photo.120: ig://CcwG3m7rERO/m
-photo.120.author: otenba_redpanda
-photo.120.commitdate: 2022/6/3
-photo.120.link: https://www.instagram.com/otenba_redpanda/
-photo.120.tags: close-up, laying down, paws, peek, portrait, sample, tree
-photo.121: https://www.instagram.com/p/CbtKwZtLqJ7/media/?size=m
+photo.119: ig://CbtKwZtLqJ7/m
+photo.119.author: otenba_redpanda
+photo.119.commitdate: 2022/6/11
+photo.119.link: https://www.instagram.com/otenba_redpanda/
+photo.119.tags: laying down, paws, playing, portrait, smile, tail
+photo.120: ig://CcIYtd_LS4y/m
+photo.120.author: ifumoto88
+photo.120.commitdate: 2022/4/13
+photo.120.link: https://www.instagram.com/ifumoto88/
+photo.120.tags: bamboo, laying down, mofumofu, portrait, sample, tail
+photo.121: ig://CcwG3m7rERO/m
 photo.121.author: otenba_redpanda
+photo.121.commitdate: 2022/6/3
 photo.121.link: https://www.instagram.com/otenba_redpanda/
-photo.121.tags: laying down, paws, playing, portrait, smile, tail
+photo.121.tags: close-up, laying down, paws, peek, portrait, sample, tree
 species: 2
 studbook.id: 1224
 zoo: 17
