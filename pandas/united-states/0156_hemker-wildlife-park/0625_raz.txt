@@ -18,6 +18,7 @@ litter: none
 location.1: 122, 2011/6/14
 location.2: 155, 2012/9/6
 location.3: 156, 2017/4/27
+location.4: 155, 2021/6/30
 photo.1: ig://BTh2YiQF03E/m
 photo.1.author: hemkerzoo
 photo.1.commitdate: 2019/10/20
@@ -83,6 +84,11 @@ photo.13.author: worldthathesees
 photo.13.commitdate: 2021/12/26
 photo.13.link: https://www.instagram.com/worldthathesees/
 photo.13.tags: laying down, whiskers, white face
+photo.14: https://www.instagram.com/p/Ca7XQ--KlHS/media/?size=m
+photo.14.author: blankparkzoo
+photo.14.link: https://www.instagram.com/blankparkzoo/
+photo.14.tags: bite, close-up, lunch time, sample, whiskers
 species: 1
 studbook.id: 1126
+uncertainty: location.4 exact date
 zoo: 156
