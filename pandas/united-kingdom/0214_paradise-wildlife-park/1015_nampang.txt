@@ -51,6 +51,18 @@ photo.7.author: jobrownphotography
 photo.7.commitdate: 2021/6/29
 photo.7.link: https://www.instagram.com/jobrownphotography/
 photo.7.tags: portrait, wet, whiskers
+photo.8: https://www.instagram.com/p/CNNMsrSArZA/media/?size=m
+photo.8.author: jobrownphotography
+photo.8.link: https://www.instagram.com/jobrownphotography/
+photo.8.tags: peek, whiskers
+photo.9: https://www.instagram.com/p/CMukeOaA0BD/media/?size=m
+photo.9.author: jobrownphotography
+photo.9.link: https://www.instagram.com/jobrownphotography/
+photo.9.tags: bamboo, peek, portrait, whiskers
+photo.10: https://www.instagram.com/p/CLmo3kKgFIR/media/?size=m
+photo.10.author: jobrownphotography
+photo.10.link: https://www.instagram.com/jobrownphotography/
+photo.10.tags: portrait, sample, wet, whiskers
 species: 1
 uncertainty: death exact date (may be earlier by a few days)
 zoo: 214
