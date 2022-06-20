@@ -199,20 +199,21 @@ photo.37.author: kotata_513
 photo.37.commitdate: 2022/2/20
 photo.37.link: https://www.instagram.com/kotata_513/
 photo.37.tags: paws, portrait, smile, tail
-photo.38: ig://CboDPs1BLPR/m
+photo.38: ig://CbP4uoMvCE8/m
 photo.38.author: fetorus_mami
-photo.38.commitdate: 2022/4/26
+photo.38.commitdate: 2022/6/20
 photo.38.link: https://www.instagram.com/fetorus_mami/
-photo.38.tags: mofumofu, sample, whiskers
-photo.39: ig://Cb_vNmrBdqw/m
+photo.38.tags: peek
+photo.39: ig://CboDPs1BLPR/m
 photo.39.author: fetorus_mami
-photo.39.commitdate: 2022/6/10
+photo.39.commitdate: 2022/4/26
 photo.39.link: https://www.instagram.com/fetorus_mami/
-photo.39.tags: paws, peek, sample, toy
-photo.40: https://www.instagram.com/p/CbP4uoMvCE8/media/?size=m
+photo.39.tags: mofumofu, sample, whiskers
+photo.40: ig://Cb_vNmrBdqw/m
 photo.40.author: fetorus_mami
+photo.40.commitdate: 2022/6/10
 photo.40.link: https://www.instagram.com/fetorus_mami/
-photo.40.tags: peek
+photo.40.tags: paws, peek, sample, toy
 species: 2
 studbook.id: 0774
 zoo: 20
