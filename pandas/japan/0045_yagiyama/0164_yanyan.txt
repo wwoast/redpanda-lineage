@@ -655,8 +655,9 @@ photo.129.author: fetorus_mami
 photo.129.commitdate: 2022/6/6
 photo.129.link: https://www.instagram.com/fetorus_mami/
 photo.129.tags: portrait, sample, whiskers
-photo.130: https://www.instagram.com/p/Ce6HdVRv6n1/media/?size=m
+photo.130: ig://Ce6HdVRv6n1/m
 photo.130.author: minatomirai215
+photo.130.commitdate: 2022/6/21
 photo.130.link: https://www.instagram.com/minatomirai215/
 photo.130.tags: portrait, smile, whiskers
 species: 2

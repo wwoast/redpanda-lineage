@@ -244,8 +244,9 @@ photo.46.author: itsuak
 photo.46.commitdate: 2022/1/4
 photo.46.link: https://www.instagram.com/itsuak/
 photo.46.tags: portrait, tail, whiskers
-photo.47: https://www.instagram.com/p/Ce3m49RP63X/media/?size=m
+photo.47: ig://Ce3m49RP63X/m
 photo.47.author: itsuak
+photo.47.commitdate: 2022/6/21
 photo.47.link: https://www.instagram.com/itsuak/
 photo.47.tags: door, portrait, sample, smile, whiskers
 species: 2
