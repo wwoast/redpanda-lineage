@@ -1023,12 +1023,14 @@ photo.204.author: re_ichimaru
 photo.204.commitdate: 2022/6/2
 photo.204.link: https://www.instagram.com/re_ichimaru/
 photo.204.tags: flowers, portrait, sample, smile, whiskers
-photo.205: https://www.instagram.com/p/CetHrvXvedR/media/?size=m
+photo.205: ig://CetHrvXvedR/m
 photo.205.author: imagoto17
+photo.205.commitdate: 2022/6/21
 photo.205.link: https://www.instagram.com/imagoto17/
 photo.205.tags: paws, portrait, sample, tail
-photo.206: https://www.instagram.com/p/CeyJr7HJ0hr/media/?size=m
+photo.206: ig://CeyJr7HJ0hr/m
 photo.206.author: i.satosato
+photo.206.commitdate: 2022/6/21
 photo.206.link: https://www.instagram.com/i.satosato/
 photo.206.tags: close-up, portrait, tree, whiskers
 species: 2

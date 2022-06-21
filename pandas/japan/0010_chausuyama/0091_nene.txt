@@ -388,12 +388,14 @@ photo.75.author: fetorus_mami
 photo.75.commitdate: 2022/6/1
 photo.75.link: https://www.instagram.com/fetorus_mami/
 photo.75.tags: apple time, blink, dish, portrait, sample, smile, whiskers, white face
-photo.76: https://www.instagram.com/p/CfBquZqP3gH/media/?size=m
+photo.76: ig://CfBquZqP3gH/m
 photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2022/6/21
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: laying down, mofumofu, portrait, sample, tree, white face
-photo.77: https://www.instagram.com/p/CfCGZI_PaXO/media/?size=m
+photo.77: ig://CfCGZI_PaXO/m
 photo.77.author: minatomirai215
+photo.77.commitdate: 2022/6/21
 photo.77.link: https://www.instagram.com/minatomirai215/
 photo.77.tags: mofumofu, peek, portrait, tree, white face
 species: 2

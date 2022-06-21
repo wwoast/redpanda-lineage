@@ -54,8 +54,9 @@ photo.8.author: eos1089
 photo.8.commitdate: 2021/6/23
 photo.8.link: https://www.instagram.com/eos1089/
 photo.8.tags: eye, portrait, tail
-photo.9: https://www.instagram.com/p/Ce_SxTuLHoE/media/?size=m
+photo.9: ig://Ce_SxTuLHoE/m
 photo.9.author: mini_cochi
+photo.9.commitdate: 2022/6/21
 photo.9.link: https://www.instagram.com/mini_cochi/
 photo.9.tags: birthday, door, paws, tail, tongue
 species: 2

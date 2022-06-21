@@ -379,8 +379,9 @@ photo.73.author: gloryeui
 photo.73.commitdate: 2022/6/6
 photo.73.link: https://www.instagram.com/gloryeui/
 photo.73.tags: peek, portrait, smile, tree
-photo.74: https://www.instagram.com/p/CeyNCgQvszt/media/?size=m
+photo.74: ig://CeyNCgQvszt/m
 photo.74.author: mifko55
+photo.74.commitdate: 2022/6/21
 photo.74.link: https://www.instagram.com/mifko55/
 photo.74.tags: mofumofu, paws, portrait, sample
 species: 2

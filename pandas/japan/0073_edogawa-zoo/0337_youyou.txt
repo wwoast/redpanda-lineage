@@ -384,8 +384,9 @@ photo.74.author: na.mo.pan
 photo.74.commitdate: 2022/6/7
 photo.74.link: https://www.instagram.com/na.mo.pan/
 photo.74.tags: old, peek, portrait, smile, tail, wink
-photo.75: https://www.instagram.com/p/CfCpyGGhM_k/media/?size=m
+photo.75: ig://CfCpyGGhM_k/m
 photo.75.author: ssc6105
+photo.75.commitdate: 2022/6/21
 photo.75.link: https://www.instagram.com/ssc6105/
 photo.75.tags: blink, home, paws, sample, smile, techitechi
 species: 2

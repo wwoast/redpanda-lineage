@@ -122,8 +122,9 @@ photo.22.author: miis_98
 photo.22.commitdate: 2022/1/8
 photo.22.link: https://www.instagram.com/miis_98/
 photo.22.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.23: https://www.instagram.com/p/CfBfbyTP9Q1/media/?size=m
+photo.23: ig://CfBfbyTP9Q1/m
 photo.23.author: grskus_tk
+photo.23.commitdate: 2022/6/21
 photo.23.link: https://www.instagram.com/grskus_tk/
 photo.23.tags: peek, sample, smile, tree
 species: 2

@@ -20,12 +20,14 @@ photo.1.author: wildlife.safari
 photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: birthday, close-up, grapes, lunch time, whiskers
-photo.2: https://www.instagram.com/p/Cepwr8Pu0eV/media/?size=m
+photo.2: ig://Cepwr8Pu0eV/m
 photo.2.author: wumpwoast
+photo.2.commitdate: 2022/6/21
 photo.2.link: https://www.instagram.com/wumpwoast/
 photo.2.tags: close-up, portrait, profile, smile
-photo.3: https://www.instagram.com/p/Ce147D3PmN8/media/?size=m
+photo.3: ig://Ce147D3PmN8/m
 photo.3.author: wumpwoast
+photo.3.commitdate: 2022/6/21
 photo.3.link: https://www.instagram.com/wumpwoast/
 photo.3.tags: laying down, mofumofu, sample
 species: 1

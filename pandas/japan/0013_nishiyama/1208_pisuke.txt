@@ -628,8 +628,9 @@ photo.123.author: kotata_513
 photo.123.commitdate: 2022/6/2
 photo.123.link: https://www.instagram.com/kotata_513/
 photo.123.tags: muzzle, portrait, sample, smile, tree
-photo.124: https://www.instagram.com/p/Cezc4X0BGgi/media/?size=m
+photo.124: ig://Cezc4X0BGgi/m
 photo.124.author: tomo3700
+photo.124.commitdate: 2022/6/21
 photo.124.link: https://www.instagram.com/tomo3700/
 photo.124.tags: lips, portrait, sample, whiskers
 species: 2

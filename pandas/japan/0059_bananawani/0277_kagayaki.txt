@@ -163,8 +163,9 @@ photo.31.author: sasapan34
 photo.31.commitdate: 2022/6/6
 photo.31.link: https://www.instagram.com/sasapan34/
 photo.31.tags: paws, sample, whiskers
-photo.32: https://www.instagram.com/p/CexcpjbP-ZO/media/?size=m
+photo.32: ig://CexcpjbP-ZO/m
 photo.32.author: miis_98
+photo.32.commitdate: 2022/6/21
 photo.32.link: https://www.instagram.com/miis_98/
 photo.32.tags: close-up, paws, portrait, sample, whiskers
 species: 1

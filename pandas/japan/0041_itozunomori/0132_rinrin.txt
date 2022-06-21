@@ -255,8 +255,9 @@ photo.49.author: yossi929
 photo.49.commitdate: 2022/3/20
 photo.49.link: https://www.instagram.com/yossi929/
 photo.49.tags: portrait, sample, whiskers
-photo.50: https://www.instagram.com/p/CfCxiCkPFIe/media/?size=m
+photo.50: ig://CfCxiCkPFIe/m
 photo.50.author: yossi929
+photo.50.commitdate: 2022/6/21
 photo.50.link: https://www.instagram.com/yossi929/
 photo.50.tags: close-up, peek, sample, whiskers
 species: 2

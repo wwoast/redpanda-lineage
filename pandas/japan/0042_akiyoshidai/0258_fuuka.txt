@@ -62,7 +62,7 @@ photo.10: ig://CQGao7mBKVi/m
 photo.10.author: kojikoji2011
 photo.10.commitdate: 2021/6/18
 photo.10.link: https://www.instagram.com/kojikoji2011/
-photo.10.tags: paws
+photo.10.tags: paws, whiskers
 photo.11: ig://CSB8jcbBeo9/m
 photo.11.author: kojikoji2011
 photo.11.commitdate: 2021/9/6
@@ -83,10 +83,6 @@ photo.14.author: sasapan34
 photo.14.commitdate: 2022/3/20
 photo.14.link: https://www.instagram.com/sasapan34/
 photo.14.tags: paws, sample, whiskers
-photo.15: https://www.instagram.com/p/CQGao7mBKVi/media/?size=m
-photo.15.author: kojikoji2011
-photo.15.link: https://www.instagram.com/kojikoji2011/
-photo.15.tags: paws, whiskers
 species: 2
 studbook.id: 1198
 zoo: 42

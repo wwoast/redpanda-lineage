@@ -109,8 +109,9 @@ photo.19.author: makimaru18
 photo.19.commitdate: 2021/12/30
 photo.19.link: https://www.instagram.com/makimaru18/
 photo.19.tags: portrait, whiskers
-photo.20: https://www.instagram.com/p/CemSaY4Bz3P/media/?size=m
+photo.20: ig://CemSaY4Bz3P/m
 photo.20.author: hamamatsu.chiita
+photo.20.commitdate: 2022/6/21
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: close-up, portrait, sample, smile, tongue, whiskers
 species: 2

@@ -618,8 +618,9 @@ photo.121.author: otenba_redpanda
 photo.121.commitdate: 2022/6/3
 photo.121.link: https://www.instagram.com/otenba_redpanda/
 photo.121.tags: close-up, laying down, paws, peek, portrait, sample, tree
-photo.122: https://www.instagram.com/p/CeuRxmOrk96/media/?size=m
+photo.122: ig://CeuRxmOrk96/m
 photo.122.author: otenba_redpanda
+photo.122.commitdate: 2022/6/21
 photo.122.link: https://www.instagram.com/otenba_redpanda/
 photo.122.tags: paws, portrait, sample, whiskers
 species: 2
