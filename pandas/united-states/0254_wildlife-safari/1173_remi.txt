@@ -20,5 +20,9 @@ photo.1.author: wildlife.safari
 photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: peek, toys
+photo.2: https://www.instagram.com/p/CexBXA7pBsv/media/?size=m
+photo.2.author: wumpwoast
+photo.2.link: https://www.instagram.com/wumpwoast/
+photo.2.tags: close-up, peek, portrait, sample
 species: 1
 zoo: 254
