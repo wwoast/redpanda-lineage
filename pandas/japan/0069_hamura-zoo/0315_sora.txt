@@ -609,8 +609,9 @@ photo.119.author: otenba_redpanda
 photo.119.commitdate: 2022/5/25
 photo.119.link: https://www.instagram.com/otenba_redpanda/
 photo.119.tags: apple time, bite, home, paws, sample, standing, whiskers
-photo.120: https://www.instagram.com/p/CeqhiytNHk2/media/?size=m
+photo.120: ig://CeqhiytNHk2/m
 photo.120.author: otenba_redpanda
+photo.120.commitdate: 2022/6/22
 photo.120.link: https://www.instagram.com/otenba_redpanda/
 photo.120.tags: apple time, paws, portrait, sample, standing, tail
 species: 2

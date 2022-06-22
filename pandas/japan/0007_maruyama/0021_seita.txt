@@ -1185,8 +1185,9 @@ photo.235.author: cattail.sapporo
 photo.235.commitdate: 2022/6/2
 photo.235.link: https://www.instagram.com/cattail.sapporo/
 photo.235.tags: bridge, home, paws, portrait, sample, tail
-photo.236: https://www.instagram.com/p/CeEIP0FrJ7_/media/?size=m
+photo.236: ig://CeEIP0FrJ7_/m
 photo.236.author: cattail.sapporo
+photo.236.commitdate: 2022/6/22
 photo.236.link: https://www.instagram.com/cattail.sapporo/
 photo.236.tags: home, mofumofu, paws, portrait, tail
 species: 2

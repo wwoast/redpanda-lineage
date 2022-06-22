@@ -553,8 +553,9 @@ photo.108.author: eos1089
 photo.108.commitdate: 2022/6/6
 photo.108.link: https://www.instagram.com/eos1089/
 photo.108.tags: curly, paws, portrait, sample, smile, tail
-photo.109: https://www.instagram.com/p/CeUjJfZBB8e/media/?size=m
+photo.109: ig://CeUjJfZBB8e/m
 photo.109.author: miis_98
+photo.109.commitdate: 2022/6/22
 photo.109.link: https://www.instagram.com/miis_98/
 photo.109.tags: apple time, grumpy, mofumofu, portrait, sample, toys
 species: 2

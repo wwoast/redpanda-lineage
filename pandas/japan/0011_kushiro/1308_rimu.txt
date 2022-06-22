@@ -138,16 +138,19 @@ photo.25.author: komabazoophoto
 photo.25.commitdate: 2022/6/6
 photo.25.link: https://www.instagram.com/komabazoophoto/
 photo.25.tags: home, mofumofu, peek, portrait, tongue
-photo.26: https://www.instagram.com/p/Cededk7JEvx/media/?size=m
+photo.26: ig://CeTNxOKPZhR/m
 photo.26.author: komabazoophoto
+photo.26.commitdate: 2022/6/22
 photo.26.link: https://www.instagram.com/komabazoophoto/
-photo.26.tags: baby, peek, portrait, snow
-photo.27: https://www.instagram.com/p/CegkLDmBl9o/media/?size=m
-photo.27.author: fetorus_mami
-photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.28: https://www.instagram.com/p/CeTNxOKPZhR/media/?size=m
-photo.28.author: komabazoophoto
-photo.28.link: https://www.instagram.com/komabazoophoto/
-photo.28.tags: portrait, snow, tree
+photo.26.tags: portrait, snow, tree
+photo.27: ig://Cededk7JEvx/m
+photo.27.author: komabazoophoto
+photo.27.commitdate: 2022/6/22
+photo.27.link: https://www.instagram.com/komabazoophoto/
+photo.27.tags: baby, peek, portrait, snow
+photo.28: ig://CegkLDmBl9o/m
+photo.28.author: fetorus_mami
+photo.28.commitdate: 2022/6/22
+photo.28.link: https://www.instagram.com/fetorus_mami/
 species: 2
 zoo: 11
