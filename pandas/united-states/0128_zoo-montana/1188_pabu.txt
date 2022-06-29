@@ -110,8 +110,9 @@ photo.19.author: zoomontana
 photo.19.commitdate: 2022/6/7
 photo.19.link: https://www.instagram.com/zoomontana/
 photo.19.tags: dish, paws, portrait, sample, standing, wave, whiskers
-photo.20: https://www.instagram.com/p/CeRMMjEtOpz/media/?size=m
+photo.20: ig://CeRMMjEtOpz/m
 photo.20.author: zoomontana
+photo.20.commitdate: 2022/6/29
 photo.20.link: https://www.instagram.com/zoomontana/
 photo.20.tags: close-up, paws, portrait, sample, techitechi, whiskers
 species: 2

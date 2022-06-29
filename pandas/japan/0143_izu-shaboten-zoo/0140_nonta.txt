@@ -446,15 +446,16 @@ photo.86.author: otenba_redpanda
 photo.86.commitdate: 2022/3/20
 photo.86.link: https://www.instagram.com/otenba_redpanda/
 photo.86.tags: long-tongue, mofumofu, portrait, tongue, whiskers
-photo.87: ig://Ce_M0Y2LhZw/m
-photo.87.author: fetorus_mami
-photo.87.commitdate: 2022/6/21
-photo.87.link: https://www.instagram.com/fetorus_mami/
-photo.87.tags: grooming, paws, tongue
-photo.88: https://www.instagram.com/p/CeSJVunP7k4/media/?size=m
-photo.88.author: pantasanzoo1
-photo.88.link: https://www.instagram.com/pantasanzoo1/
-photo.88.tags: lunch time, mofumofu, paws, smile, whiskers
+photo.87: ig://CeSJVunP7k4/m
+photo.87.author: pantasanzoo1
+photo.87.commitdate: 2022/6/29
+photo.87.link: https://www.instagram.com/pantasanzoo1/
+photo.87.tags: lunch time, mofumofu, paws, smile, whiskers
+photo.88: ig://Ce_M0Y2LhZw/m
+photo.88.author: fetorus_mami
+photo.88.commitdate: 2022/6/21
+photo.88.link: https://www.instagram.com/fetorus_mami/
+photo.88.tags: grooming, paws, tongue
 species: 2
 studbook.id: 12102
 zoo: 143

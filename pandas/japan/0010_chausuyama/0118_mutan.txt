@@ -464,8 +464,9 @@ photo.90.author: jas_forever_love
 photo.90.commitdate: 2022/6/6
 photo.90.link: https://www.instagram.com/jas_forever_love/
 photo.90.tags: peek, sample, tree
-photo.91: https://www.instagram.com/p/CeRCbqMPG07/media/?size=m
+photo.91: ig://CeRCbqMPG07/m
 photo.91.author: firefoxpanda88
+photo.91.commitdate: 2022/6/29
 photo.91.link: https://www.instagram.com/firefoxpanda88/
 photo.91.tags: flowers, paws, portrait, sample
 species: 2
