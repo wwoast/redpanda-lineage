@@ -15,6 +15,7 @@ language.order: en, jp
 litter: 680
 location.1: 117, 2014/6/11
 location.2: 105, 2015/11/10
+location.3: 165, 2021/6/12
 photo.1: ig://CSMq8COHolb/m
 photo.1.author: hoglezoo
 photo.1.commitdate: 2022/3/5
@@ -27,4 +28,4 @@ photo.2.link: https://www.instagram.com/hoglezoo/
 photo.2.tags: apple time, bamboo, portrait, sample, whiskers
 species: 1
 studbook.id: 1408
-zoo: 105
+zoo: 165

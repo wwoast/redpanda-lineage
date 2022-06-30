@@ -15,6 +15,7 @@ language.order: en, jp
 litter: none
 location.1: 120, 2018/6/29
 location.2: 160, 2019/7/1
+location.3: 165, 2022/5/12
 photo.1: ig://BomlkzWhC3Y/m
 photo.1.author: toxicsoul666
 photo.1.commitdate: 2019/8/2
@@ -66,7 +67,8 @@ photo.10.commitdate: 2022/4/10
 photo.10.link: https://www.instagram.com/pueblozoo/
 photo.10.tags: close-up, tail, white face
 species: 1
+uncertainty: location.3 exact date
 video.1: https://youtu.be/SJLzs0xck_Y
 video.1.author: Zoo New England
 video.1.link: https://www.youtube.com/channel/UCdfgDIchbgzZ0cgxZek7ijw
-zoo: 160
+zoo: 165
