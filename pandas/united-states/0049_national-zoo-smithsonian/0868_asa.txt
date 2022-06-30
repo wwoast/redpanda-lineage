@@ -15,8 +15,9 @@ language.order: en, jp
 litter: 869
 location.1: 114, 2014/5/27
 location.2: 49, 2015/12/8
-photo.1: https://www.instagram.com/p/CeEXk0vsUvt/media/?size=m
+photo.1: ig://CeEXk0vsUvt/m
 photo.1.author: smithsonianzoo
+photo.1.commitdate: 2022/6/29
 photo.1.link: https://www.instagram.com/smithsonianzoo/
 photo.1.tags: portrait, smile, tongue, toys
 species: 1

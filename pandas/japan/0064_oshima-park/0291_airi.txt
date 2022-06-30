@@ -70,8 +70,9 @@ photo.11.author: grskus_tk
 photo.11.commitdate: 2022/1/7
 photo.11.link: https://www.instagram.com/grskus_tk/
 photo.11.tags: apple time, close-up, lips
-photo.12: https://www.instagram.com/p/CeCz1czvege/media/?size=m
+photo.12: ig://CeCz1czvege/m
 photo.12.author: grskus_tk
+photo.12.commitdate: 2022/6/29
 photo.12.link: https://www.instagram.com/grskus_tk/
 photo.12.tags: peek
 species: 2

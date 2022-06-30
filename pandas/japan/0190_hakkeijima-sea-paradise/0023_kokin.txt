@@ -1511,8 +1511,9 @@ photo.300.author: pantasanzoo1
 photo.300.commitdate: 2022/6/6
 photo.300.link: https://www.instagram.com/pantasanzoo1/
 photo.300.tags: keeper, laying down, paws, playing, whiskers
-photo.301: https://www.instagram.com/p/CeD-JUKrXGF/media/?size=m
+photo.301: ig://CeD-JUKrXGF/m
 photo.301.author: gloryeui
+photo.301.commitdate: 2022/6/29
 photo.301.link: https://www.instagram.com/gloryeui/
 photo.301.tags: portrait, whiskers
 species: 2

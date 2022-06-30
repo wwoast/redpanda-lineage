@@ -1012,8 +1012,9 @@ photo.200.author: kotata_513
 photo.200.commitdate: 2021/12/19
 photo.200.link: https://www.instagram.com/kotata_513/
 photo.200.tags: laying down, paws, portrait, sample
-photo.201: https://www.instagram.com/p/Cd-kwhcvmtO/media/?size=m
+photo.201: ig://Cd-kwhcvmtO/m
 photo.201.author: daniele.tokyo
+photo.201.commitdate: 2022/6/29
 photo.201.link: https://www.instagram.com/daniele.tokyo/
 photo.201.tags: paws, sample, standing, toys
 species: 2

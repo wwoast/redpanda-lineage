@@ -135,8 +135,9 @@ photo.24.author: daniele.tokyo
 photo.24.commitdate: 2022/6/7
 photo.24.link: https://www.instagram.com/daniele.tokyo/
 photo.24.tags: mofumofu, paws, tree
-photo.25: https://www.instagram.com/p/CeBJiszPS-i/media/?size=m
+photo.25: ig://CeBJiszPS-i/m
 photo.25.author: daniele.tokyo
+photo.25.commitdate: 2022/6/29
 photo.25.link: https://www.instagram.com/daniele.tokyo/
 photo.25.tags: bamboo, paws, portrait, sample, whiskers
 species: 2

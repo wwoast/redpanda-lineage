@@ -174,46 +174,51 @@ photo.32.author: morikirara
 photo.32.commitdate: 2022/2/12
 photo.32.link: https://www.instagram.com/morikirara/
 photo.32.tags: laying down, mofumofu, tail
-photo.33: ig://CdDZ5UgvYMh/m
-photo.33.author: daniele.tokyo
-photo.33.commitdate: 2022/6/6
-photo.33.link: https://www.instagram.com/daniele.tokyo/
-photo.33.tags: keeper, lips, techitechi
-photo.34: ig://CdVmIi8pYwk/m
-photo.34.author: morikirara
-photo.34.commitdate: 2022/6/7
-photo.34.link: https://www.instagram.com/morikirara/
-photo.34.tags: bamboo, close-up, sample, tongue, whiskers
-photo.35: ig://CdfrSs_r6GV/m
-photo.35.author: daniele.tokyo
-photo.35.commitdate: 2022/6/1
-photo.35.link: https://www.instagram.com/daniele.tokyo/
-photo.35.tags: dish, peek, sample, techitechi, wet, whiskers
-photo.36: ig://CdnZmFAr2k5/m
+photo.33: ig://CbFkKwGvkX0/m
+photo.33.author: grskus_tk
+photo.33.commitdate: 2022/6/29
+photo.33.link: https://www.instagram.com/grskus_tk/
+photo.33.tags: climb, paws, peek, techitechi, tree
+photo.34: ig://CdDZ5UgvYMh/m
+photo.34.author: daniele.tokyo
+photo.34.commitdate: 2022/6/6
+photo.34.link: https://www.instagram.com/daniele.tokyo/
+photo.34.tags: keeper, lips, techitechi
+photo.35: ig://CdVmIi8pYwk/m
+photo.35.author: morikirara
+photo.35.commitdate: 2022/6/7
+photo.35.link: https://www.instagram.com/morikirara/
+photo.35.tags: bamboo, close-up, sample, tongue, whiskers
+photo.36: ig://CdfrSs_r6GV/m
 photo.36.author: daniele.tokyo
-photo.36.commitdate: 2022/6/6
+photo.36.commitdate: 2022/6/1
 photo.36.link: https://www.instagram.com/daniele.tokyo/
-photo.36.tags: keeper, paws, standing, whiskers
-photo.37: https://www.instagram.com/p/CeDuVncvDsI/media/?size=m
+photo.36.tags: dish, peek, sample, techitechi, wet, whiskers
+photo.37: ig://CdnZmFAr2k5/m
 photo.37.author: daniele.tokyo
+photo.37.commitdate: 2022/6/6
 photo.37.link: https://www.instagram.com/daniele.tokyo/
-photo.37.tags: climb, close-up, paws, portrait, sample, whiskers
-photo.38: https://www.instagram.com/p/CexZI4RJk6p/media/?size=m
-photo.38.author: morikirara
-photo.38.link: https://www.instagram.com/morikirara/
-photo.38.tags: apple time, bamboo, birthday, dish, keeper
-photo.39: https://www.instagram.com/p/Cexv-vSLouD/media/?size=m
-photo.39.author: grskus_tk
-photo.39.link: https://www.instagram.com/grskus_tk/
-photo.39.tags: bamboo, tongue
-photo.40: https://www.instagram.com/p/CeyEpVZvzvv/media/?size=m
-photo.40.author: daniele.tokyo
-photo.40.link: https://www.instagram.com/daniele.tokyo/
-photo.40.tags: apple time, keeper, paws, standing, tail
-photo.41: https://www.instagram.com/p/CbFkKwGvkX0/media/?size=m
-photo.41.author: grskus_tk
-photo.41.link: https://www.instagram.com/grskus_tk/
-photo.41.tags: climb, paws, peek, techitechi, tree
+photo.37.tags: keeper, paws, standing, whiskers
+photo.38: ig://CeDuVncvDsI/m
+photo.38.author: daniele.tokyo
+photo.38.commitdate: 2022/6/29
+photo.38.link: https://www.instagram.com/daniele.tokyo/
+photo.38.tags: climb, close-up, paws, portrait, sample, whiskers
+photo.39: ig://CexZI4RJk6p/m
+photo.39.author: morikirara
+photo.39.commitdate: 2022/6/29
+photo.39.link: https://www.instagram.com/morikirara/
+photo.39.tags: apple time, bamboo, birthday, dish, keeper
+photo.40: ig://Cexv-vSLouD/m
+photo.40.author: grskus_tk
+photo.40.commitdate: 2022/6/29
+photo.40.link: https://www.instagram.com/grskus_tk/
+photo.40.tags: bamboo, tongue
+photo.41: ig://CeyEpVZvzvv/m
+photo.41.author: daniele.tokyo
+photo.41.commitdate: 2022/6/29
+photo.41.link: https://www.instagram.com/daniele.tokyo/
+photo.41.tags: apple time, keeper, paws, standing, tail
 species: 2
 studbook.id: 0760
 zoo: 19

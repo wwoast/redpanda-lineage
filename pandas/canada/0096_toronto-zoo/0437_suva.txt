@@ -80,19 +80,21 @@ photo.13.author: thetorontozoo
 photo.13.commitdate: 2022/2/28
 photo.13.link: https://www.instagram.com/thetorontozoo/
 photo.13.tags: close-up, nose, whiskers
-photo.14: ig://CeVxokNshiR/m
-photo.14.author: rossifari
-photo.14.commitdate: 2022/6/22
-photo.14.link: https://www.instagram.com/rossifari/
-photo.14.tags: paws, portrait, standing, tail, whiskers
-photo.15: https://www.instagram.com/p/CeJl1O-FrH7/media/?size=m
-photo.15.author: thetorontozoo
-photo.15.link: https://www.instagram.com/thetorontozoo/
-photo.15.tags: lips, portrait, sample, standing, tail, whiskers
-photo.16: https://www.instagram.com/p/CeLcFSguFo0/media/?size=m
+photo.14: ig://CeJl1O-FrH7/m
+photo.14.author: thetorontozoo
+photo.14.commitdate: 2022/6/29
+photo.14.link: https://www.instagram.com/thetorontozoo/
+photo.14.tags: lips, portrait, sample, standing, tail, whiskers
+photo.15: ig://CeLcFSguFo0/m
+photo.15.author: rossifari
+photo.15.commitdate: 2022/6/29
+photo.15.link: https://www.instagram.com/rossifari/
+photo.15.tags: paws, portrait, sample, tail, whiskers
+photo.16: ig://CeVxokNshiR/m
 photo.16.author: rossifari
+photo.16.commitdate: 2022/6/22
 photo.16.link: https://www.instagram.com/rossifari/
-photo.16.tags: paws, portrait, sample, tail, whiskers
+photo.16.tags: paws, portrait, standing, tail, whiskers
 species: 2
 studbook.id: 1701
 zoo: 96

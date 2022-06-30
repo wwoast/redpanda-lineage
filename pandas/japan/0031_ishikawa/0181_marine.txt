@@ -191,8 +191,9 @@ photo.36.author: miis_98
 photo.36.commitdate: 2022/6/3
 photo.36.link: https://www.instagram.com/miis_98/
 photo.36.tags: ear, mofumofu, peek, portrait, sample
-photo.37: https://www.instagram.com/p/CeHcP1phF6N/media/?size=m
+photo.37: ig://CeHcP1phF6N/m
 photo.37.author: hamamatsu.chiita
+photo.37.commitdate: 2022/6/29
 photo.37.link: https://www.instagram.com/hamamatsu.chiita/
 photo.37.tags: close-up, portrait, sample, techitechi, whiskers
 species: 2
