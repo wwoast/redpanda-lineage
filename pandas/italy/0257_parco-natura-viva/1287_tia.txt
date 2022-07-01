@@ -15,5 +15,5 @@ language.order: en, jp
 location.1: 282, 2019/7/2
 location.2: 257, 2020/10/1
 species: 1
-uncertainty: location.2 move date (prior to 2021 breeding)
+uncertainty: location.2 move date (prior to breeding)
 zoo: 257
