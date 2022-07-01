@@ -1,0 +1,33 @@
+[panda]
+_id: 1367
+birthday: 
+birthplace: 257
+children: none
+commitdate: 2022/7/1
+en.name: Bimala
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ビマラ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CfZ2kMrNTIY/media/?size=m
+photo.1.author: seelviahhtaz
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: flowers, nose, whiskers
+photo.2: https://www.instagram.com/p/CdyDpReMd9z/media/?size=m
+photo.2.author: seelviahhtaz
+photo.2.link: https://www.instagram.com/seelviahhtaz/
+photo.2.tags: laying down, peek, tree, whiskers
+photo.3: https://www.instagram.com/p/CdyKDL1NjVI/media/?size=m
+photo.3.author: seelviahhtaz
+photo.3.link: https://www.instagram.com/seelviahhtaz/
+photo.3.tags: portrait, profile, sample, whiskers, white face
+photo.4: https://www.instagram.com/p/CetQ2ChtoXg/media/?size=m
+photo.4.author: seelviahhtaz
+photo.4.link: https://www.instagram.com/seelviahhtaz/
+photo.4.tags: laying down, portrait, sample, tree, white face
+species: 1
+zoo: 257
