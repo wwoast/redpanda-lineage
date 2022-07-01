@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1366
+location.1: 257, 2021/6/1
+location.2: 308, 2022/6/30
 photo.1: ig://CVzC17zqLiK/m
 photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/6/1
@@ -49,5 +51,5 @@ photo.7.commitdate: 2022/6/1
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: bamboo, peek, whiskers, white face
 species: 1
-uncertainty: birthday in june
-zoo: 257
+uncertainty: birthday in june, location.2 exact date
+zoo: 308
