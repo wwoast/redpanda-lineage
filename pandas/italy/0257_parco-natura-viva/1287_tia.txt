@@ -12,5 +12,8 @@ jp.name: ティア
 jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
+location.1: 282, 2019/7/2
+location.2: 257, 2020/10/1
 species: 1
-zoo: 282
+uncertainty: location.2 move date (prior to 2021 breeding)
+zoo: 257
