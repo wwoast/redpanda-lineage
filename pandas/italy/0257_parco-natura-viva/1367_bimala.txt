@@ -13,21 +13,25 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CfZ2kMrNTIY/media/?size=m
+photo.1: ig://CdyDpReMd9z/m
 photo.1.author: seelviahhtaz
+photo.1.commitdate: 2022/7/1
 photo.1.link: https://www.instagram.com/seelviahhtaz/
-photo.1.tags: flowers, nose, whiskers
-photo.2: https://www.instagram.com/p/CdyDpReMd9z/media/?size=m
+photo.1.tags: laying down, peek, tree, whiskers
+photo.2: ig://CdyKDL1NjVI/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/7/1
 photo.2.link: https://www.instagram.com/seelviahhtaz/
-photo.2.tags: laying down, peek, tree, whiskers
-photo.3: https://www.instagram.com/p/CdyKDL1NjVI/media/?size=m
+photo.2.tags: portrait, profile, sample, whiskers, white face
+photo.3: ig://CetQ2ChtoXg/m
 photo.3.author: seelviahhtaz
+photo.3.commitdate: 2022/7/1
 photo.3.link: https://www.instagram.com/seelviahhtaz/
-photo.3.tags: portrait, profile, sample, whiskers, white face
-photo.4: https://www.instagram.com/p/CetQ2ChtoXg/media/?size=m
+photo.3.tags: laying down, portrait, sample, tree, white face
+photo.4: ig://CfZ2kMrNTIY/m
 photo.4.author: seelviahhtaz
+photo.4.commitdate: 2022/7/1
 photo.4.link: https://www.instagram.com/seelviahhtaz/
-photo.4.tags: laying down, portrait, sample, tree, white face
+photo.4.tags: flowers, nose, whiskers
 species: 1
 zoo: 257
