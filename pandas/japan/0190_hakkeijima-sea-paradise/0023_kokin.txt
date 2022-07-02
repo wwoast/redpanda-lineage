@@ -1492,9 +1492,9 @@ photo.296.commitdate: 2022/3/10
 photo.296.link: https://www.instagram.com/minatomirai215/
 photo.296.tags: close-up, sample, whiskers
 photo.297: ig://CcFP0IlvIDT/m
-photo.297.author: redpannda_love
+photo.297.author: rpanda_animals
 photo.297.commitdate: 2022/4/13
-photo.297.link: https://www.instagram.com/redpannda_love/
+photo.297.link: https://www.instagram.com/rpanda_animals/
 photo.297.tags: close-up, paws, sample, smile, whiskers
 photo.298: ig://CcgoqSsLnLG/m
 photo.298.author: otenba_redpanda
@@ -1516,6 +1516,14 @@ photo.301.author: gloryeui
 photo.301.commitdate: 2022/6/29
 photo.301.link: https://www.instagram.com/gloryeui/
 photo.301.tags: portrait, whiskers
+photo.302: https://www.instagram.com/p/Cd3R0xwpWeC/media/?size=m
+photo.302.author: rpanda_animals
+photo.302.link: https://www.instagram.com/rpanda_animals/
+photo.302.tags: sample, smile, whiskers
+photo.303: https://www.instagram.com/p/Cd3R7aSJZ31/media/?size=m
+photo.303.author: rpanda_animals
+photo.303.link: https://www.instagram.com/rpanda_animals/
+photo.303.tags: smile
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
