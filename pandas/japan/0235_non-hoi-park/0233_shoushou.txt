@@ -663,8 +663,9 @@ photo.130.author: hamamatsu.chiita
 photo.130.commitdate: 2022/6/6
 photo.130.link: https://www.instagram.com/hamamatsu.chiita/
 photo.130.tags: bamboo, mofumofu, portrait, sample, whiskers
-photo.131: https://www.instagram.com/p/Cd4LMrprSgy/media/?size=m
+photo.131: ig://Cd4LMrprSgy/m
 photo.131.author: otenba_redpanda
+photo.131.commitdate: 2022/7/1
 photo.131.link: https://www.instagram.com/otenba_redpanda/
 photo.131.tags: bamboo, portrait, sample, tongue
 species: 2

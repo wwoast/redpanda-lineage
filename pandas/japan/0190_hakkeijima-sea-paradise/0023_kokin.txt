@@ -1511,19 +1511,21 @@ photo.300.author: pantasanzoo1
 photo.300.commitdate: 2022/6/6
 photo.300.link: https://www.instagram.com/pantasanzoo1/
 photo.300.tags: keeper, laying down, paws, playing, whiskers
-photo.301: ig://CeD-JUKrXGF/m
-photo.301.author: gloryeui
-photo.301.commitdate: 2022/6/29
-photo.301.link: https://www.instagram.com/gloryeui/
-photo.301.tags: portrait, whiskers
-photo.302: https://www.instagram.com/p/Cd3R0xwpWeC/media/?size=m
+photo.301: ig://Cd3R0xwpWeC/m
+photo.301.author: rpanda_animals
+photo.301.commitdate: 2022/7/1
+photo.301.link: https://www.instagram.com/rpanda_animals/
+photo.301.tags: sample, smile, whiskers
+photo.302: ig://Cd3R7aSJZ31/m
 photo.302.author: rpanda_animals
+photo.302.commitdate: 2022/7/1
 photo.302.link: https://www.instagram.com/rpanda_animals/
-photo.302.tags: sample, smile, whiskers
-photo.303: https://www.instagram.com/p/Cd3R7aSJZ31/media/?size=m
-photo.303.author: rpanda_animals
-photo.303.link: https://www.instagram.com/rpanda_animals/
-photo.303.tags: smile
+photo.302.tags: smile
+photo.303: ig://CeD-JUKrXGF/m
+photo.303.author: gloryeui
+photo.303.commitdate: 2022/6/29
+photo.303.link: https://www.instagram.com/gloryeui/
+photo.303.tags: portrait, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

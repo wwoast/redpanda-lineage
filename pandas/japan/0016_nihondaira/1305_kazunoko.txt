@@ -118,24 +118,25 @@ photo.21.author: otenba_redpanda
 photo.21.commitdate: 2022/2/20
 photo.21.link: https://www.instagram.com/otenba_redpanda/
 photo.21.tags: baby, peek, portrait, whiskers
-photo.22: ig://CcNe0Dhvo7z/m
-photo.22.author: taka__3428
-photo.22.commitdate: 2022/5/30
-photo.22.link: https://www.instagram.com/taka__3428/
-photo.22.tags: keeper, tongue
-photo.23: ig://CcVNAWwvU2W/m
+photo.22: ig://CcMhOCfP_h5/m
+photo.22.author: grskus_tk
+photo.22.commitdate: 2022/7/1
+photo.22.link: https://www.instagram.com/grskus_tk/
+photo.22.tags: peek
+photo.23: ig://CcNe0Dhvo7z/m
 photo.23.author: taka__3428
-photo.23.commitdate: 2022/6/2
+photo.23.commitdate: 2022/5/30
 photo.23.link: https://www.instagram.com/taka__3428/
-photo.23.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
-photo.24: ig://CdKRXklLzrZ/m
-photo.24.author: lesserpanda_shizuokacity_cp
-photo.24.commitdate: 2022/6/11
-photo.24.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
-photo.24.tags: baby, bamboo, close-up, mofumofu, nose, sample
-photo.25: https://www.instagram.com/p/CcMhOCfP_h5/media/?size=m
-photo.25.author: grskus_tk
-photo.25.link: https://www.instagram.com/grskus_tk/
-photo.25.tags: peek
+photo.23.tags: keeper, tongue
+photo.24: ig://CcVNAWwvU2W/m
+photo.24.author: taka__3428
+photo.24.commitdate: 2022/6/2
+photo.24.link: https://www.instagram.com/taka__3428/
+photo.24.tags: apple time, bite, close-up, mofumofu, paws, portrait, whiskers
+photo.25: ig://CdKRXklLzrZ/m
+photo.25.author: lesserpanda_shizuokacity_cp
+photo.25.commitdate: 2022/6/11
+photo.25.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
+photo.25.tags: baby, bamboo, close-up, mofumofu, nose, sample
 species: 2
 zoo: 16

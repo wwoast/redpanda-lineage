@@ -363,13 +363,15 @@ photo.70.author: gloryeui
 photo.70.commitdate: 2022/6/1
 photo.70.link: https://www.instagram.com/gloryeui/
 photo.70.tags: bamboo, close-up, portrait, sample, whiskers
-photo.71: https://www.instagram.com/p/Cd373qFhRbL/media/?size=m
-photo.71.author: hamamatsu.chiita
-photo.71.link: https://www.instagram.com/hamamatsu.chiita/
-photo.71.tags: laying down, portrait, sample, tree, whiskers
-photo.72: https://www.instagram.com/p/Cd0VU0iraSI/media/?size=m
-photo.72.author: gloryeui
-photo.72.link: https://www.instagram.com/gloryeui/
-photo.72.tags: peek, portrait
+photo.71: ig://Cd0VU0iraSI/m
+photo.71.author: gloryeui
+photo.71.commitdate: 2022/7/1
+photo.71.link: https://www.instagram.com/gloryeui/
+photo.71.tags: peek, portrait
+photo.72: ig://Cd373qFhRbL/m
+photo.72.author: hamamatsu.chiita
+photo.72.commitdate: 2022/7/1
+photo.72.link: https://www.instagram.com/hamamatsu.chiita/
+photo.72.tags: laying down, portrait, sample, tree, whiskers
 species: 2
 zoo: 16

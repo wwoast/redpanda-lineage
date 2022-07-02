@@ -568,19 +568,21 @@ photo.111.author: rie_panda55
 photo.111.commitdate: 2022/3/6
 photo.111.link: https://www.instagram.com/rie_panda55/
 photo.111.tags: climb, paws, portrait, sample, smile, tail, tree
-photo.112: ig://Ccp0wc2rAX9/m
-photo.112.author: mini_cochi
-photo.112.commitdate: 2022/6/2
-photo.112.link: https://www.instagram.com/mini_cochi/
-photo.112.tags: bamboo, peek, portrait, sample, whiskers
-photo.113: https://www.instagram.com/p/Cb9yAWYv1uq/media/?size=m
-photo.113.author: grskus_tk
-photo.113.link: https://www.instagram.com/grskus_tk/
-photo.113.tags: peek, sample, whiskers
-photo.114: https://www.instagram.com/p/Cd1Z5_HBEtp/media/?size=m
+photo.112: ig://Cb9yAWYv1uq/m
+photo.112.author: grskus_tk
+photo.112.commitdate: 2022/7/1
+photo.112.link: https://www.instagram.com/grskus_tk/
+photo.112.tags: peek, sample, whiskers
+photo.113: ig://Ccp0wc2rAX9/m
+photo.113.author: mini_cochi
+photo.113.commitdate: 2022/6/2
+photo.113.link: https://www.instagram.com/mini_cochi/
+photo.113.tags: bamboo, peek, portrait, sample, whiskers
+photo.114: ig://Cd1Z5_HBEtp/m
 photo.114.author: hamamatsu.chiita
+photo.114.commitdate: 2022/7/1
 photo.114.link: https://www.instagram.com/hamamatsu.chiita/
-photo.114.tags: close-up, lips, portrait, sample, smile, whiskers 
+photo.114.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264
