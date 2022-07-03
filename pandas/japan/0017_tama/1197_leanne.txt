@@ -448,14 +448,15 @@ photo.87.author: ifumoto88
 photo.87.commitdate: 2022/6/6
 photo.87.link: https://www.instagram.com/ifumoto88/
 photo.87.tags: bamboo, paws, portrait, smile, tongue
-photo.88: ig://Cen05-uvVfA/m
-photo.88.author: fetorus_mami
-photo.88.commitdate: 2022/6/21
-photo.88.link: https://www.instagram.com/fetorus_mami/
-photo.88.tags: portrait, sample, smile, whiskers
-photo.89: https://www.instagram.com/p/Cdx4I9urN10/media/?size=m
-photo.89.author: osopanda551
-photo.89.link: https://www.instagram.com/osopanda551/
-photo.89.tags: peek, portrait, sample, tree
+photo.88: ig://Cdx4I9urN10/m
+photo.88.author: osopanda551
+photo.88.commitdate: 2022/7/3
+photo.88.link: https://www.instagram.com/osopanda551/
+photo.88.tags: peek, portrait, sample, tree
+photo.89: ig://Cen05-uvVfA/m
+photo.89.author: fetorus_mami
+photo.89.commitdate: 2022/6/21
+photo.89.link: https://www.instagram.com/fetorus_mami/
+photo.89.tags: portrait, sample, smile, whiskers
 species: 2
 zoo: 17

@@ -199,8 +199,9 @@ photo.37.author: hamamatsu.chiita
 photo.37.commitdate: 2022/6/1
 photo.37.link: https://www.instagram.com/hamamatsu.chiita/
 photo.37.tags: mofumofu, portrait, sample, tongue, whiskers
-photo.38: https://www.instagram.com/p/CdziO8mp9g-/media/?size=m
+photo.38: ig://CdziO8mp9g-/m
 photo.38.author: redpanda_nippon_takashi
+photo.38.commitdate: 2022/7/3
 photo.38.link: https://www.instagram.com/redpanda_nippon_takashi/
 photo.38.tags: bamboo, bite, close-up, mofumofu, portrait, sample, whiskers
 species: 2

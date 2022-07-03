@@ -479,8 +479,9 @@ photo.93.author: gloryeui
 photo.93.commitdate: 2022/6/7
 photo.93.link: https://www.instagram.com/gloryeui/
 photo.93.tags: bamboo, portrait, sample, smile, whiskers
-photo.94: https://www.instagram.com/p/CdxpeCPvoGq/media/?size=m
+photo.94: ig://CdxpeCPvoGq/m
 photo.94.author: hamiiiii831_
+photo.94.commitdate: 2022/7/3
 photo.94.link: https://www.instagram.com/hamiiiii831_/
 photo.94.tags: peek, whiskers
 species: 2

@@ -563,25 +563,26 @@ photo.110.author: daniele.tokyo
 photo.110.commitdate: 2021/12/22
 photo.110.link: https://www.instagram.com/daniele.tokyo/
 photo.110.tags: climb, head-first, paws, sample, tail, tree, whiskers
-photo.111: ig://CXrIu7pB1uC/m
-photo.111.author: minatomirai215
-photo.111.commitdate: 2022/1/4
-photo.111.link: https://www.instagram.com/minatomirai215/
-photo.111.tags: portrait, whiskers
-photo.112: ig://CcwCnPcBBrn/m
-photo.112.author: fetorus_mami
-photo.112.commitdate: 2022/5/27
-photo.112.link: https://www.instagram.com/fetorus_mami/
-photo.112.tags: apple time, home, paws, sample, smile, whiskers
-photo.113: ig://Ce8sEL5vn90/m
-photo.113.author: minatomirai215
-photo.113.commitdate: 2022/6/21
-photo.113.link: https://www.instagram.com/minatomirai215/
-photo.113.tags: bamboo, mofumofu, paws, portrait, smile, whiskers
-photo.114: https://www.instagram.com/p/CXZxjMghajt/media/?size=m
-photo.114.author: hamiiiii831_
-photo.114.link: https://www.instagram.com/hamiiiii831_/
-photo.114.tags: close-up, paws, sample, whiskers
+photo.111: ig://CXZxjMghajt/m
+photo.111.author: hamiiiii831_
+photo.111.commitdate: 2022/7/3
+photo.111.link: https://www.instagram.com/hamiiiii831_/
+photo.111.tags: close-up, paws, sample, whiskers
+photo.112: ig://CXrIu7pB1uC/m
+photo.112.author: minatomirai215
+photo.112.commitdate: 2022/1/4
+photo.112.link: https://www.instagram.com/minatomirai215/
+photo.112.tags: portrait, whiskers
+photo.113: ig://CcwCnPcBBrn/m
+photo.113.author: fetorus_mami
+photo.113.commitdate: 2022/5/27
+photo.113.link: https://www.instagram.com/fetorus_mami/
+photo.113.tags: apple time, home, paws, sample, smile, whiskers
+photo.114: ig://Ce8sEL5vn90/m
+photo.114.author: minatomirai215
+photo.114.commitdate: 2022/6/21
+photo.114.link: https://www.instagram.com/minatomirai215/
+photo.114.tags: bamboo, mofumofu, paws, portrait, smile, whiskers
 species: 2
 studbook.id: 1195
 zoo: 11

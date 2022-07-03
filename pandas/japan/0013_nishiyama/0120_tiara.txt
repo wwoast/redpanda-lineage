@@ -371,8 +371,9 @@ photo.71.author: hamamatsu.chiita
 photo.71.commitdate: 2022/1/23
 photo.71.link: https://www.instagram.com/hamamatsu.chiita/
 photo.71.tags: portrait, whiskers
-photo.72: https://www.instagram.com/p/Cd4F5z5BlZJ/media/?size=m
+photo.72: ig://Cd4F5z5BlZJ/m
 photo.72.author: rie_panda55
+photo.72.commitdate: 2022/7/3
 photo.72.link: https://www.instagram.com/rie_panda55/
 photo.72.tags: bamboo, portrait, sample, whiskers
 species: 2

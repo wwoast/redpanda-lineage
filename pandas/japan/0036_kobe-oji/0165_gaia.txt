@@ -1023,20 +1023,21 @@ photo.204.author: re_ichimaru
 photo.204.commitdate: 2022/6/2
 photo.204.link: https://www.instagram.com/re_ichimaru/
 photo.204.tags: flowers, portrait, sample, smile, whiskers
-photo.205: ig://CetHrvXvedR/m
-photo.205.author: imagoto17
-photo.205.commitdate: 2022/6/21
-photo.205.link: https://www.instagram.com/imagoto17/
-photo.205.tags: paws, portrait, sample, tail
-photo.206: ig://CeyJr7HJ0hr/m
-photo.206.author: i.satosato
+photo.205: ig://CdzK4oMBeFe/m
+photo.205.author: tomo3700
+photo.205.commitdate: 2022/7/3
+photo.205.link: https://www.instagram.com/tomo3700/
+photo.205.tags: apple time, close-up, paws, peek, portrait, sample
+photo.206: ig://CetHrvXvedR/m
+photo.206.author: imagoto17
 photo.206.commitdate: 2022/6/21
-photo.206.link: https://www.instagram.com/i.satosato/
-photo.206.tags: close-up, portrait, tree, whiskers
-photo.207: https://www.instagram.com/p/CdzK4oMBeFe/media/?size=m
-photo.207.author: tomo3700
-photo.207.link: https://www.instagram.com/tomo3700/
-photo.207.tags: apple time, close-up, paws, peek, portrait, sample
+photo.206.link: https://www.instagram.com/imagoto17/
+photo.206.tags: paws, portrait, sample, tail
+photo.207: ig://CeyJr7HJ0hr/m
+photo.207.author: i.satosato
+photo.207.commitdate: 2022/6/21
+photo.207.link: https://www.instagram.com/i.satosato/
+photo.207.tags: close-up, portrait, tree, whiskers
 species: 2
 studbook.id: 0457
 zoo: 36
