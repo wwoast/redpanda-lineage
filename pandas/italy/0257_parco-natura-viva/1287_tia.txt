@@ -14,6 +14,10 @@ jp.othernames: none
 language.order: en, jp
 location.1: 282, 2019/7/2
 location.2: 257, 2020/10/1
+photo.1: https://www.instagram.com/p/CdyX6znNMiq/media/?size=m
+photo.1.author: seelviahhtaz
+photo.1.link: https://www.instagram.com/seelviahhtaz/
+photo.1.tags: bamboo, portrait, profile, tail
 species: 1
 uncertainty: location.2 move date (prior to breeding)
 zoo: 257
