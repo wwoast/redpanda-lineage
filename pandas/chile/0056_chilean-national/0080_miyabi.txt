@@ -14,7 +14,7 @@ jp.othernames: 雅
 language.order: jp, en
 litter: none
 location.1: 9, 2017/6/25
-location.2: 56, 2022/1/16
+location.2: 56, 2022/6/12
 photo.1: ig://BaOnlgcF57y/m
 photo.1.author: hanamaru_redpanda
 photo.1.commitdate: 2018/12/23
@@ -726,6 +726,11 @@ photo.143.author: fetorus_mami
 photo.143.commitdate: 2022/6/29
 photo.143.link: https://www.instagram.com/fetorus_mami/
 photo.143.tags: laying down, peek, sample, whiskers
+photo.144: https://www.instagram.com/p/CfSzXfBPsIA/media/?size=m
+photo.144.author: fetorus_mami
+photo.144.link: https://www.instagram.com/fetorus_mami/
+photo.144.tags: bamboo, mofumofu, sample, smile, wink
 species: 2
 studbook.id: 1772
+uncertainty: exact location.2 date (git history)
 zoo: 56
