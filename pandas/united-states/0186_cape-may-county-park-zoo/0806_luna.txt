@@ -134,16 +134,16 @@ photo.23.author: aimless_amos
 photo.23.commitdate: 2022/6/29
 photo.23.link: https://www.instagram.com/carsontheredpanda/
 photo.23.tags: bamboo, laying down, portrait, sample
-photo.24: https://www.codaworry.com/images/rpf/luna-10-capemay.jpg
+photo.24: ig://CfG2ZLBgsGv/m
 photo.24.author: aimless_amos
-photo.24.commitdate: 2021/6/25
-photo.24.link: https://www.instagram.com/aimless_amos/
-photo.24.tags: mofumofu, paws, peek, portrait, tail
-photo.25: https://www.codaworry.com/images/rpf/luna-11-capemay.jpg
+photo.24.commitdate: 2022/7/9
+photo.24.link: https://www.instagram.com/capemaycountyzoo/
+photo.24.tags: close-up, nose, portrait, sample
+photo.25: ig://CfWwvVZlldW/m
 photo.25.author: aimless_amos
-photo.25.commitdate: 2021/6/25
-photo.25.link: https://www.instagram.com/aimless_amos/
-photo.25.tags: peek, tail
+photo.25.commitdate: 2022/7/9
+photo.25.link: https://www.instagram.com/carsontheredpanda/
+photo.25.tags: portrait, sample, smile
 photo.26: https://www.codaworry.com/images/rpf/luna-12-capemay.jpg
 photo.26.author: aimless_amos
 photo.26.commitdate: 2021/6/25
@@ -329,14 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/CfG2ZLBgsGv/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/capemaycountyzoo/
-photo.63.tags: close-up, nose, portrait, sample
-photo.64: https://www.instagram.com/p/CfWwvVZlldW/media/?size=m
-photo.64.author: aimless_amos
-photo.64.link: https://www.instagram.com/carsontheredpanda/
-photo.64.tags: portrait, sample, smile
 species: 1
 studbook.id: 0105
 zoo: 186

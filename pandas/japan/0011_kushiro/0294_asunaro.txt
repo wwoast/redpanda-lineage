@@ -499,14 +499,16 @@ photo.97.author: mari_neko3
 photo.97.commitdate: 2022/6/22
 photo.97.link: https://www.instagram.com/mari_neko3/
 photo.97.tags: portrait, sample, smile, tree, whiskers
-photo.98: https://www.instagram.com/p/CfbaiXxp5Nc/media/?size=m
-photo.98.author: komabazoophoto
-photo.98.link: https://www.instagram.com/komabazoophoto/
-photo.98.tags: close-up, paws, portrait, sample
-photo.99: https://www.instagram.com/p/CfHJElhPXA8/media/?size=m
-photo.99.author: minatomirai215
-photo.99.link: https://www.instagram.com/minatomirai215/
-photo.99.tags: bridge, portrait, sample, whiskers
+photo.98: ig://CfHJElhPXA8/m
+photo.98.author: minatomirai215
+photo.98.commitdate: 2022/7/9
+photo.98.link: https://www.instagram.com/minatomirai215/
+photo.98.tags: bridge, portrait, sample, whiskers
+photo.99: ig://CfbaiXxp5Nc/m
+photo.99.author: komabazoophoto
+photo.99.commitdate: 2022/7/9
+photo.99.link: https://www.instagram.com/komabazoophoto/
+photo.99.tags: close-up, paws, portrait, sample
 species: 2
 studbook.id: 1681
 zoo: 11

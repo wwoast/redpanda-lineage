@@ -379,8 +379,9 @@ photo.73.author: tomo3700
 photo.73.commitdate: 2022/6/6
 photo.73.link: https://www.instagram.com/tomo3700/
 photo.73.tags: dish, paws, portrait, sample, whiskers
-photo.74: https://www.instagram.com/p/CfSTHMQLx5O/media/?size=m
+photo.74: ig://CfSTHMQLx5O/m
 photo.74.author: otenba_redpanda
+photo.74.commitdate: 2022/7/9
 photo.74.link: https://www.instagram.com/otenba_redpanda/
 photo.74.tags: laying down, portrait, sample, smile
 species: 2

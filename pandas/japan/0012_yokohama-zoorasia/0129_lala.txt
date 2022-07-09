@@ -332,10 +332,11 @@ photo.64.author: minatomirai215
 photo.64.commitdate: 2022/4/5
 photo.64.link: https://www.instagram.com/minatomirai215/
 photo.64.tags: bamboo, mofumofu, paws, portrait, sample, smile, tail
-photo.65: https://www.instagram.com/p/CfYut9lvKnD/media/?size=m
+photo.65: ig://CfYut9lvKnD/m
 photo.65.author: minatomirai215
+photo.65.commitdate: 2022/7/9
 photo.65.link: https://www.instagram.com/minatomirai215/
-photo.65.tags: apple time, bamboo, mofumofu, peek, portrait, sample, whiskers 
+photo.65.tags: apple time, bamboo, mofumofu, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 0468
 video.1: https://youtu.be/Mnfw3xe6c6Y

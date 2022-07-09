@@ -294,12 +294,14 @@ photo.56.author: nasu_animal_kingdom
 photo.56.commitdate: 2021/12/17
 photo.56.link: https://www.instagram.com/nasu_animal_kingdom/
 photo.56.tags: apple time, paws, standing, videolink
-photo.57: https://www.instagram.com/p/CfYGjnePzK4/media/?size=m
+photo.57: ig://CfYGjnePzK4/m
 photo.57.author: miis_98
+photo.57.commitdate: 2022/7/9
 photo.57.link: https://www.instagram.com/miis_98/
 photo.57.tags: mofumofu, peek, portrait, sample, whiskers
-photo.58: https://www.instagram.com/p/CfcpsqahGCE/media/?size=m
+photo.58: ig://CfcpsqahGCE/m
 photo.58.author: hamiiiii831_
+photo.58.commitdate: 2022/7/9
 photo.58.link: https://www.instagram.com/hamiiiii831_/
 photo.58.tags: mofumofu, paws, sample, tongue, whiskers
 species: 2

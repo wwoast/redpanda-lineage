@@ -65,8 +65,9 @@ photo.10.author: worldthathesees
 photo.10.commitdate: 2022/3/24
 photo.10.link: https://www.instagram.com/worldthathesees/
 photo.10.tags: baby, bamboo, paws, snow, tail
-photo.11: https://www.instagram.com/p/CfWOqVwAAD8/media/?size=m
+photo.11: ig://CfWOqVwAAD8/m
 photo.11.author: rossifari
+photo.11.commitdate: 2022/7/9
 photo.11.link: https://www.instagram.com/rossifari/
 photo.11.tags: close-up, lips, portrait, sample, whiskers
 species: 2

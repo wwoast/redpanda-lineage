@@ -1526,16 +1526,19 @@ photo.303.author: gloryeui
 photo.303.commitdate: 2022/6/29
 photo.303.link: https://www.instagram.com/gloryeui/
 photo.303.tags: portrait, whiskers
-photo.304: https://www.instagram.com/p/CfUtK0lLKwx/media/?size=m
+photo.304: ig://CfUtK0lLKwx/m
 photo.304.author: otenba_redpanda
+photo.304.commitdate: 2022/7/9
 photo.304.link: https://www.instagram.com/otenba_redpanda/
 photo.304.tags: keeper, lips, paws, sample, standing, whiskers
-photo.305: https://www.instagram.com/p/CfVrIW1Pway/media/?size=m
+photo.305: ig://CfVrIW1Pway/m
 photo.305.author: pantasanzoo1
+photo.305.commitdate: 2022/7/9
 photo.305.link: https://www.instagram.com/pantasanzoo1/
 photo.305.tags: close-up, dish, peek, sample, whiskers
-photo.306: https://www.instagram.com/p/CfWZ6xEJOGQ/media/?size=m
+photo.306: ig://CfWZ6xEJOGQ/m
 photo.306.author: minatomirai215
+photo.306.commitdate: 2022/7/9
 photo.306.link: https://www.instagram.com/minatomirai215/
 photo.306.tags: dish, peek, portrait, sample, tail
 species: 2

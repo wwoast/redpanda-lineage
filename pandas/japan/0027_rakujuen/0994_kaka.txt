@@ -144,13 +144,15 @@ photo.26.author: kojikoji2011
 photo.26.commitdate: 2022/5/17
 photo.26.link: https://www.instagram.com/kojikoji2011/
 photo.26.tags: paws, portrait, sample, smile, whiskers
-photo.27: https://www.instagram.com/p/CfYyEM6P-WH/media/?size=m
-photo.27.author: colette.jp
-photo.27.link: https://www.instagram.com/colette.jp/
-photo.27.tags: apple time, keeper, paws, portrait, sample, standing, tail, wave
-photo.28: https://www.instagram.com/p/CfYSDXFBF1P/media/?size=m
-photo.28.author: rakujyu_mishima
-photo.28.link: https://www.instagram.com/rakujyu_mishima/
-photo.28.tags: apple time, close-up, whiskers
+photo.27: ig://CfYSDXFBF1P/m
+photo.27.author: rakujyu_mishima
+photo.27.commitdate: 2022/7/9
+photo.27.link: https://www.instagram.com/rakujyu_mishima/
+photo.27.tags: apple time, close-up, whiskers
+photo.28: ig://CfYyEM6P-WH/m
+photo.28.author: colette.jp
+photo.28.commitdate: 2022/7/9
+photo.28.link: https://www.instagram.com/colette.jp/
+photo.28.tags: apple time, keeper, paws, portrait, sample, standing, tail, wave
 species: 2
 zoo: 27
