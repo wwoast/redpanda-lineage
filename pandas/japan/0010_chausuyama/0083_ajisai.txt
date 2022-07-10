@@ -103,46 +103,41 @@ photo.18.author: redpan22
 photo.18.commitdate: 2019/7/11
 photo.18.link: https://www.instagram.com/redpan22/
 photo.18.tags: laying down, portrait, tail, tree
-photo.19: ig://B0KuuTwBAYv/m
-photo.19.author: tabechum
-photo.19.commitdate: 2019/7/22
-photo.19.link: https://www.instagram.com/tabechum/
-photo.19.tags: portrait, smile
-photo.20: ig://B1tLK4IhZUQ/m
-photo.20.author: taka__3428
-photo.20.commitdate: 2019/8/29
-photo.20.link: https://www.instagram.com/taka__3428/
-photo.20.tags: portrait, tree
-photo.21: ig://B16QgxnhBqI/m
+photo.19: ig://B1tLK4IhZUQ/m
+photo.19.author: taka__3428
+photo.19.commitdate: 2019/8/29
+photo.19.link: https://www.instagram.com/taka__3428/
+photo.19.tags: portrait, tree
+photo.20: ig://B16QgxnhBqI/m
+photo.20.author: ayusuke56
+photo.20.commitdate: 2019/9/3
+photo.20.link: https://www.instagram.com/ayusuke56/
+photo.20.tags: paws, portrait, tail, tree
+photo.21: ig://B2MWDeUhjej/m
 photo.21.author: ayusuke56
-photo.21.commitdate: 2019/9/3
+photo.21.commitdate: 2019/9/9
 photo.21.link: https://www.instagram.com/ayusuke56/
-photo.21.tags: paws, portrait, tail, tree
-photo.22: ig://B2MWDeUhjej/m
-photo.22.author: ayusuke56
-photo.22.commitdate: 2019/9/9
-photo.22.link: https://www.instagram.com/ayusuke56/
-photo.22.tags: portrait, smile
-photo.23: ig://B3rOEV6hh4G/m
-photo.23.author: kaoru_a358
-photo.23.commitdate: 2019/10/17
-photo.23.link: https://www.instagram.com/kaoru_a358/
-photo.23.tags: autumn, laying down, portrait, tongue, tree
-photo.24: ig://CAU7H2LBgbg/m
-photo.24.author: shigeko0531
-photo.24.commitdate: 2020/5/23
-photo.24.link: https://www.instagram.com/shigeko0531/
-photo.24.tags: portrait, videolink
-photo.25: ig://CBs7LDsBtuM/m
-photo.25.author: panda.daisuki
-photo.25.commitdate: 2020/6/24
-photo.25.link: https://www.instagram.com/panda.daisuki/
-photo.25.tags: paws, portrait, smile
-photo.26: ig://CBulOPOhZA6/m
-photo.26.author: shigeko0531
-photo.26.commitdate: 2020/6/26
-photo.26.link: https://www.instagram.com/shigeko0531/
-photo.26.tags: paws, portrait, tail, tongue, tree
+photo.21.tags: portrait, smile
+photo.22: ig://B3rOEV6hh4G/m
+photo.22.author: kaoru_a358
+photo.22.commitdate: 2019/10/17
+photo.22.link: https://www.instagram.com/kaoru_a358/
+photo.22.tags: autumn, laying down, portrait, tongue, tree
+photo.23: ig://CAU7H2LBgbg/m
+photo.23.author: shigeko0531
+photo.23.commitdate: 2020/5/23
+photo.23.link: https://www.instagram.com/shigeko0531/
+photo.23.tags: portrait, videolink
+photo.24: ig://CBs7LDsBtuM/m
+photo.24.author: panda.daisuki
+photo.24.commitdate: 2020/6/24
+photo.24.link: https://www.instagram.com/panda.daisuki/
+photo.24.tags: paws, portrait, smile
+photo.25: ig://CBulOPOhZA6/m
+photo.25.author: shigeko0531
+photo.25.commitdate: 2020/6/26
+photo.25.link: https://www.instagram.com/shigeko0531/
+photo.25.tags: paws, portrait, tail, tongue, tree
 species: 2
 studbook.id: 0671
 zoo: 10

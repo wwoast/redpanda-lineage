@@ -23,34 +23,29 @@ photo.2.author: craig_craig_craig
 photo.2.commitdate: 2018/7/26
 photo.2.link: https://www.instagram.com/craig_craig_craig/
 photo.2.tags: sleeping
-photo.3: ig://BofjiT8l-v2/m
-photo.3.author: tabechum
-photo.3.commitdate: 2018/10/3
-photo.3.link: https://www.instagram.com/tabechum/
-photo.3.tags: portrait, profile
-photo.4: ig://BpfjmqMl-8k/m
-photo.4.author: craig_craig_craig
-photo.4.commitdate: 2018/10/28
-photo.4.link: https://www.instagram.com/craig_craig_craig/
-photo.5: ig://BqY1qE0FGgB/m
-photo.5.author: wumpwoast
-photo.5.commitdate: 2018/11/20
-photo.5.link: https://www.instagram.com/wumpwoast/
-photo.6: ig://CE1Te6FhR2G/m
-photo.6.author: ifumoto88
-photo.6.commitdate: 2020/9/14
-photo.6.link: https://www.instagram.com/ifumoto88/
-photo.6.tags: whiskers
-photo.7: ig://CQyAAuSB2fC/m
-photo.7.author: daniele.tokyo
-photo.7.commitdate: 2021/7/1
-photo.7.link: https://www.instagram.com/daniele.tokyo/
-photo.7.tags: bite, nose, smile, tongue
-photo.8: ig://CSrlgaLFmeY/m
-photo.8.author: wumpwoast
-photo.8.commitdate: 2021/8/18
-photo.8.link: https://www.instagram.com/wumpwoast/
-photo.8.tags: paws, portrait
+photo.3: ig://BpfjmqMl-8k/m
+photo.3.author: craig_craig_craig
+photo.3.commitdate: 2018/10/28
+photo.3.link: https://www.instagram.com/craig_craig_craig/
+photo.4: ig://BqY1qE0FGgB/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2018/11/20
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.5: ig://CE1Te6FhR2G/m
+photo.5.author: ifumoto88
+photo.5.commitdate: 2020/9/14
+photo.5.link: https://www.instagram.com/ifumoto88/
+photo.5.tags: whiskers
+photo.6: ig://CQyAAuSB2fC/m
+photo.6.author: daniele.tokyo
+photo.6.commitdate: 2021/7/1
+photo.6.link: https://www.instagram.com/daniele.tokyo/
+photo.6.tags: bite, nose, smile, tongue
+photo.7: ig://CSrlgaLFmeY/m
+photo.7.author: wumpwoast
+photo.7.commitdate: 2021/8/18
+photo.7.link: https://www.instagram.com/wumpwoast/
+photo.7.tags: paws, portrait
 species: 2
 studbook.id: 0274
 zoo: 34

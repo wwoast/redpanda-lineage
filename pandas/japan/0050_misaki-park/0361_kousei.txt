@@ -22,16 +22,11 @@ photo.1.author: apple_jasmine33
 photo.1.commitdate: 2020/5/4
 photo.1.link: https://www.instagram.com/apple_jasmine33/
 photo.1.tags: bamboo, portrait, smile
-photo.2: ig://BYA6km-BLyt/m
-photo.2.author: tabechum
-photo.2.commitdate: 2020/4/1
-photo.2.link: https://www.instagram.com/tabechum/
-photo.2.tags: portrait, profile
-photo.3: ig://B1qxuF-hm9K/m
-photo.3.author: framereim
-photo.3.commitdate: 2019/8/29
-photo.3.link: https://www.instagram.com/framereim/
-photo.3.tags: bite, paws
+photo.2: ig://B1qxuF-hm9K/m
+photo.2.author: framereim
+photo.2.commitdate: 2019/8/29
+photo.2.link: https://www.instagram.com/framereim/
+photo.2.tags: bite, paws
 species: 2
 studbook.id: 0083
 zoo: 50

@@ -15,168 +15,158 @@ language.order: jp, en
 litter: 239
 location.1: 14, 2011/6/27
 location.2: 13, 2013/2/14
-photo.1: ig://BXKLfOahaYe/m
-photo.1.author: tabechum
-photo.1.commitdate: 2020/4/12
-photo.1.link: https://www.instagram.com/tabechum/
-photo.1.tags: mofumofu, portrait
-photo.2: ig://Bic9dngFplc/m
-photo.2.author: craig_craig_craig
+photo.1: ig://Bic9dngFplc/m
+photo.1.author: craig_craig_craig
+photo.1.commitdate: 2018/7/20
+photo.1.link: https://www.instagram.com/craig_craig_craig/
+photo.2: ig://BjZgrvAl30F/m
+photo.2.author: i.satosato
 photo.2.commitdate: 2018/7/20
-photo.2.link: https://www.instagram.com/craig_craig_craig/
-photo.3: ig://BjL0EpZlpDZ/m
-photo.3.author: tabechum
-photo.3.commitdate: 2020/4/9
-photo.3.link: https://www.instagram.com/tabechum/
-photo.3.tags: close-up, laying down, paws, portrait
-photo.4: ig://BjZgrvAl30F/m
-photo.4.author: i.satosato
+photo.2.link: https://www.instagram.com/i.satosato/
+photo.2.tags: apple time
+photo.3: ig://BjhnkGxl3Y2/m
+photo.3.author: fetorus_mami
+photo.3.commitdate: 2018/7/20
+photo.3.link: https://www.instagram.com/fetorus_mami/
+photo.3.tags: bamboo
+photo.4: ig://Bkg_Uu_F1nn/m
+photo.4.author: kotata_513
 photo.4.commitdate: 2018/7/20
-photo.4.link: https://www.instagram.com/i.satosato/
-photo.4.tags: apple time
-photo.5: ig://BjhnkGxl3Y2/m
-photo.5.author: fetorus_mami
-photo.5.commitdate: 2018/7/20
-photo.5.link: https://www.instagram.com/fetorus_mami/
-photo.5.tags: bamboo
-photo.6: ig://Bkg_Uu_F1nn/m
-photo.6.author: kotata_513
-photo.6.commitdate: 2018/7/20
-photo.6.link: https://www.instagram.com/kotata_513/
-photo.6.tags: smile
-photo.7: ig://Bookf-Yl9Vq/m
-photo.7.author: minato.yokohama4416
-photo.7.commitdate: 2018/10/9
-photo.7.link: https://www.instagram.com/minato.yokohama4416/
-photo.7.tags: mofumofu, smile
-photo.8: ig://BpgvDJol9AW/m
-photo.8.author: minato.yokohama4416
-photo.8.commitdate: 2018/10/30
-photo.8.link: https://www.instagram.com/minato.yokohama4416/
-photo.9: ig://BpotHqElt38/m
-photo.9.author: jas_forever_love
-photo.9.commitdate: 2018/11/2
-photo.9.link: https://www.instagram.com/jas_forever_love/
-photo.9.tags: smile
-photo.10: ig://Bq00SFRHi3U/m
-photo.10.author: yakko____
-photo.10.commitdate: 2018/12/6
-photo.10.link: https://www.instagram.com/yakko____/
-photo.10.tags: bridge, laying down
-photo.11: ig://Bsz1ocdlZZj/m
-photo.11.author: minato.yokohama4416
-photo.11.commitdate: 2019/1/20
-photo.11.link: https://www.instagram.com/minato.yokohama4416/
-photo.12: ig://Bs2rRw6FE_x/m
-photo.12.author: minato.yokohama4416
-photo.12.commitdate: 2019/1/20
-photo.12.link: https://www.instagram.com/minato.yokohama4416/
-photo.12.tags: laying down, paws
-photo.13: ig://BtDyzIrF4Eb/m
-photo.13.author: nekonekokoneko147
-photo.13.commitdate: 2019/4/3
-photo.13.link: https://www.instagram.com/nekonekokoneko147/
-photo.13.tags: smile
-photo.14: ig://BtTQGPcFjzr/m
-photo.14.author: joy93.87
-photo.14.commitdate: 2021/11/10
-photo.14.link: https://www.instagram.com/joy93.87/
-photo.14.tags: laying down, portrait, bridge
-photo.15: ig://B3zHyN4hFtQ/m
-photo.15.author: minato.yokohama4416
-photo.15.commitdate: 2019/10/20
-photo.15.link: https://www.instagram.com/minato.yokohama4416/
+photo.4.link: https://www.instagram.com/kotata_513/
+photo.4.tags: smile
+photo.5: ig://Bookf-Yl9Vq/m
+photo.5.author: minato.yokohama4416
+photo.5.commitdate: 2018/10/9
+photo.5.link: https://www.instagram.com/minato.yokohama4416/
+photo.5.tags: mofumofu, smile
+photo.6: ig://BpgvDJol9AW/m
+photo.6.author: minato.yokohama4416
+photo.6.commitdate: 2018/10/30
+photo.6.link: https://www.instagram.com/minato.yokohama4416/
+photo.7: ig://BpotHqElt38/m
+photo.7.author: jas_forever_love
+photo.7.commitdate: 2018/11/2
+photo.7.link: https://www.instagram.com/jas_forever_love/
+photo.7.tags: smile
+photo.8: ig://Bq00SFRHi3U/m
+photo.8.author: yakko____
+photo.8.commitdate: 2018/12/6
+photo.8.link: https://www.instagram.com/yakko____/
+photo.8.tags: bridge, laying down
+photo.9: ig://Bsz1ocdlZZj/m
+photo.9.author: minato.yokohama4416
+photo.9.commitdate: 2019/1/20
+photo.9.link: https://www.instagram.com/minato.yokohama4416/
+photo.10: ig://Bs2rRw6FE_x/m
+photo.10.author: minato.yokohama4416
+photo.10.commitdate: 2019/1/20
+photo.10.link: https://www.instagram.com/minato.yokohama4416/
+photo.10.tags: laying down, paws
+photo.11: ig://BtDyzIrF4Eb/m
+photo.11.author: nekonekokoneko147
+photo.11.commitdate: 2019/4/3
+photo.11.link: https://www.instagram.com/nekonekokoneko147/
+photo.11.tags: smile
+photo.12: ig://BtTQGPcFjzr/m
+photo.12.author: joy93.87
+photo.12.commitdate: 2021/11/10
+photo.12.link: https://www.instagram.com/joy93.87/
+photo.12.tags: laying down, portrait, bridge
+photo.13: ig://B3zHyN4hFtQ/m
+photo.13.author: minato.yokohama4416
+photo.13.commitdate: 2019/10/20
+photo.13.link: https://www.instagram.com/minato.yokohama4416/
+photo.13.tags: portrait
+photo.14: ig://B_wpfgpnoS4/m
+photo.14.author: minato.yokohama4416
+photo.14.commitdate: 2020/5/7
+photo.14.link: https://www.instagram.com/minato.yokohama4416/
+photo.14.tags: climb, head-first, paws, portrait, smile
+photo.15: ig://CKCH754Bme2/m
+photo.15.author: na.mo.pan
+photo.15.commitdate: 2021/1/16
+photo.15.link: https://www.instagram.com/na.mo.pan/
 photo.15.tags: portrait
-photo.16: ig://B_wpfgpnoS4/m
+photo.16: ig://CQpix0whtgn/m
 photo.16.author: minato.yokohama4416
-photo.16.commitdate: 2020/5/7
+photo.16.commitdate: 2021/9/23
 photo.16.link: https://www.instagram.com/minato.yokohama4416/
-photo.16.tags: climb, head-first, paws, portrait, smile
-photo.17: ig://CKCH754Bme2/m
-photo.17.author: na.mo.pan
-photo.17.commitdate: 2021/1/16
-photo.17.link: https://www.instagram.com/na.mo.pan/
-photo.17.tags: portrait
-photo.18: ig://CQpix0whtgn/m
-photo.18.author: minato.yokohama4416
-photo.18.commitdate: 2021/9/23
-photo.18.link: https://www.instagram.com/minato.yokohama4416/
-photo.18.tags: paws, peek, tail
-photo.19: ig://CXBG4M4hjqP/m
-photo.19.author: hamamatsu.chiita
-photo.19.commitdate: 2021/12/22
-photo.19.link: https://www.instagram.com/hamamatsu.chiita/
-photo.19.tags: close-up, mofumofu, sample, whiskers
-photo.20: ig://CXDm9aaB7Cu/m
-photo.20.author: hamamatsu.chiita
-photo.20.commitdate: 2021/12/22
-photo.20.link: https://www.instagram.com/hamamatsu.chiita/
-photo.20.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.21: ig://CXsTY1UPjtP/m
-photo.21.author: minato.yokohama4416
-photo.21.commitdate: 2022/1/4
-photo.21.link: https://www.instagram.com/minato.yokohama4416/
-photo.21.tags: close-up, mofumofu, portrait, sample
-photo.22: ig://CXsjM6FvBoB/m
-photo.22.author: minato.yokohama4416
-photo.22.commitdate: 2022/1/4
-photo.22.link: https://www.instagram.com/minato.yokohama4416/
-photo.22.tags: portrait, sample, tail
-photo.23: ig://CYR9YucBVh6/m
+photo.16.tags: paws, peek, tail
+photo.17: ig://CXBG4M4hjqP/m
+photo.17.author: hamamatsu.chiita
+photo.17.commitdate: 2021/12/22
+photo.17.link: https://www.instagram.com/hamamatsu.chiita/
+photo.17.tags: close-up, mofumofu, sample, whiskers
+photo.18: ig://CXDm9aaB7Cu/m
+photo.18.author: hamamatsu.chiita
+photo.18.commitdate: 2021/12/22
+photo.18.link: https://www.instagram.com/hamamatsu.chiita/
+photo.18.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.19: ig://CXsTY1UPjtP/m
+photo.19.author: minato.yokohama4416
+photo.19.commitdate: 2022/1/4
+photo.19.link: https://www.instagram.com/minato.yokohama4416/
+photo.19.tags: close-up, mofumofu, portrait, sample
+photo.20: ig://CXsjM6FvBoB/m
+photo.20.author: minato.yokohama4416
+photo.20.commitdate: 2022/1/4
+photo.20.link: https://www.instagram.com/minato.yokohama4416/
+photo.20.tags: portrait, sample, tail
+photo.21: ig://CYR9YucBVh6/m
+photo.21.author: hamamatsu.chiita
+photo.21.commitdate: 2022/1/6
+photo.21.link: https://www.instagram.com/hamamatsu.chiita/
+photo.21.tags: close-up, portrait, whiskers
+photo.22: ig://CYTYEDhvPEk/m
+photo.22.author: hamamatsu.chiita
+photo.22.commitdate: 2022/1/6
+photo.22.link: https://www.instagram.com/hamamatsu.chiita/
+photo.22.tags: apple time, bite, mofumofu, portrait, whiskers
+photo.23: ig://CYUoUJZBKZx/m
 photo.23.author: hamamatsu.chiita
 photo.23.commitdate: 2022/1/6
 photo.23.link: https://www.instagram.com/hamamatsu.chiita/
-photo.23.tags: close-up, portrait, whiskers
-photo.24: ig://CYTYEDhvPEk/m
+photo.23.tags: bamboo, portrait, smile, whiskers
+photo.24: ig://CZKrn5jhspP/m
 photo.24.author: hamamatsu.chiita
-photo.24.commitdate: 2022/1/6
+photo.24.commitdate: 2022/2/20
 photo.24.link: https://www.instagram.com/hamamatsu.chiita/
-photo.24.tags: apple time, bite, mofumofu, portrait, whiskers
-photo.25: ig://CYUoUJZBKZx/m
-photo.25.author: hamamatsu.chiita
-photo.25.commitdate: 2022/1/6
-photo.25.link: https://www.instagram.com/hamamatsu.chiita/
-photo.25.tags: bamboo, portrait, smile, whiskers
-photo.26: ig://CZKrn5jhspP/m
-photo.26.author: hamamatsu.chiita
-photo.26.commitdate: 2022/2/20
-photo.26.link: https://www.instagram.com/hamamatsu.chiita/
-photo.26.tags: mofumofu, portrait, sample
-photo.27: ig://CZWdFYBvVbm/m
-photo.27.author: jas_forever_love
-photo.27.commitdate: 2022/3/17
-photo.27.link: https://www.instagram.com/jas_forever_love/
-photo.27.tags: paws, peek, portrait, sample
-photo.28: ig://CZ6WTuyPDnW/m
-photo.28.author: miis_98
-photo.28.commitdate: 2022/3/5
-photo.28.link: https://www.instagram.com/miis_98/
-photo.28.tags: apple time, mofumofu, paws, portrait, sample, whiskers
-photo.29: ig://CZ70m8dvU8h/m
-photo.29.author: tomo3700
-photo.29.commitdate: 2022/3/6
-photo.29.link: https://www.instagram.com/tomo3700/
-photo.29.tags: apple time, close-up, dish, mofumofu, peek, paws, portrait, sample, whiskers
-photo.30: ig://CaNoQDWhNff/m
-photo.30.author: hamamatsu.chiita
-photo.30.commitdate: 2022/3/11
-photo.30.link: https://www.instagram.com/hamamatsu.chiita/
-photo.30.tags: mofumofu, portrait, whiskers
-photo.31: ig://Cahkc4wP2aA/m
-photo.31.author: sakikukeco
-photo.31.commitdate: 2022/3/28
-photo.31.link: https://www.instagram.com/sakikukeco/
-photo.31.tags: bamboo, bite, mofumofu, portrait, tongue
-photo.32: ig://CblcRWCBvAy/m
-photo.32.author: minato.yokohama4416
-photo.32.commitdate: 2022/4/25
-photo.32.link: https://www.instagram.com/minato.yokohama4416/
-photo.32.tags: apple time, dish, paws, portrait, sample, whiskers
-photo.33: ig://Ce8c3FRPDVg/m
-photo.33.author: jas_forever_love
-photo.33.commitdate: 2022/6/21
-photo.33.link: https://www.instagram.com/jas_forever_love/
-photo.33.tags: lips, mofumofu, portrait, sample, whiskers
+photo.24.tags: mofumofu, portrait, sample
+photo.25: ig://CZWdFYBvVbm/m
+photo.25.author: jas_forever_love
+photo.25.commitdate: 2022/3/17
+photo.25.link: https://www.instagram.com/jas_forever_love/
+photo.25.tags: paws, peek, portrait, sample
+photo.26: ig://CZ6WTuyPDnW/m
+photo.26.author: miis_98
+photo.26.commitdate: 2022/3/5
+photo.26.link: https://www.instagram.com/miis_98/
+photo.26.tags: apple time, mofumofu, paws, portrait, sample, whiskers
+photo.27: ig://CZ70m8dvU8h/m
+photo.27.author: tomo3700
+photo.27.commitdate: 2022/3/6
+photo.27.link: https://www.instagram.com/tomo3700/
+photo.27.tags: apple time, close-up, dish, mofumofu, peek, paws, portrait, sample, whiskers
+photo.28: ig://CaNoQDWhNff/m
+photo.28.author: hamamatsu.chiita
+photo.28.commitdate: 2022/3/11
+photo.28.link: https://www.instagram.com/hamamatsu.chiita/
+photo.28.tags: mofumofu, portrait, whiskers
+photo.29: ig://Cahkc4wP2aA/m
+photo.29.author: sakikukeco
+photo.29.commitdate: 2022/3/28
+photo.29.link: https://www.instagram.com/sakikukeco/
+photo.29.tags: bamboo, bite, mofumofu, portrait, tongue
+photo.30: ig://CblcRWCBvAy/m
+photo.30.author: minato.yokohama4416
+photo.30.commitdate: 2022/4/25
+photo.30.link: https://www.instagram.com/minato.yokohama4416/
+photo.30.tags: apple time, dish, paws, portrait, sample, whiskers
+photo.31: ig://Ce8c3FRPDVg/m
+photo.31.author: jas_forever_love
+photo.31.commitdate: 2022/6/21
+photo.31.link: https://www.instagram.com/jas_forever_love/
+photo.31.tags: lips, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 11102
 zoo: 13

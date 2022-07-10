@@ -110,61 +110,56 @@ photo.19.author: kmasahon
 photo.19.commitdate: 2019/6/21
 photo.19.link: https://www.instagram.com/kmasahon/
 photo.19.tags: tree
-photo.20: ig://B4bMI35hQuH/m
-photo.20.author: tabechum
-photo.20.commitdate: 2019/11/5
-photo.20.link: https://www.instagram.com/tabechum/
-photo.20.tags: apple time, dish, keeper, standing, tail
-photo.21: ig://B5DcHilBr7x/m
-photo.21.author: minatomirai215
-photo.21.commitdate: 2019/12/1
-photo.21.link: https://www.instagram.com/minatomirai215/
-photo.21.tags: apple time, bridge, portrait
-photo.22: ig://B5VFfbAhqH9/m
-photo.22.author: apple_jasmine33
-photo.22.commitdate: 2020/5/23
-photo.22.link: https://www.instagram.com/apple_jasmine33/
-photo.22.tags: portrait
-photo.23: ig://B5WJpdkBzfU/m
-photo.23.author: resapanlove
-photo.23.commitdate: 2019/11/28
-photo.23.link: https://www.instagram.com/resapanlove/
-photo.23.tags: keeper, paws, standing
-photo.24: ig://B6C8slIhuxb/m
-photo.24.author: fetorus_mami
-photo.24.commitdate: 2019/12/29
-photo.24.link: https://www.instagram.com/fetorus_mami/
-photo.24.tags: bamboo, portrait, whiskers, white face
-photo.25: ig://B6IaxioB9RI/m
-photo.25.author: jas_forever_love
-photo.25.commitdate: 2019/12/30
-photo.25.link: https://www.instagram.com/jas_forever_love/
-photo.25.tags: home, paws, portrait, smile, whiskers
-photo.26: ig://B7ex_2wB7Yb/m
-photo.26.author: re_ichimaru
-photo.26.commitdate: 2020/1/21
-photo.26.link: https://www.instagram.com/re_ichimaru/
-photo.26.tags: portrait, smile
-photo.27: ig://CDzL7s3hb3s/m
-photo.27.author: minatomirai215
-photo.27.commitdate: 2020/8/13
-photo.27.link: https://www.instagram.com/minatomirai215/
-photo.27.tags: apple time, paws, whiskers
-photo.28: ig://CHVgZ-4B5N7/m
-photo.28.author: satoshi_jimny
-photo.28.commitdate: 2022/1/7
-photo.28.link: https://www.instagram.com/satoshi_jimny/
-photo.28.tags: smile, tongue
-photo.29: ig://CcVCqoMPYWY/m
+photo.20: ig://B5DcHilBr7x/m
+photo.20.author: minatomirai215
+photo.20.commitdate: 2019/12/1
+photo.20.link: https://www.instagram.com/minatomirai215/
+photo.20.tags: apple time, bridge, portrait
+photo.21: ig://B5VFfbAhqH9/m
+photo.21.author: apple_jasmine33
+photo.21.commitdate: 2020/5/23
+photo.21.link: https://www.instagram.com/apple_jasmine33/
+photo.21.tags: portrait
+photo.22: ig://B5WJpdkBzfU/m
+photo.22.author: resapanlove
+photo.22.commitdate: 2019/11/28
+photo.22.link: https://www.instagram.com/resapanlove/
+photo.22.tags: keeper, paws, standing
+photo.23: ig://B6C8slIhuxb/m
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2019/12/29
+photo.23.link: https://www.instagram.com/fetorus_mami/
+photo.23.tags: bamboo, portrait, whiskers, white face
+photo.24: ig://B6IaxioB9RI/m
+photo.24.author: jas_forever_love
+photo.24.commitdate: 2019/12/30
+photo.24.link: https://www.instagram.com/jas_forever_love/
+photo.24.tags: home, paws, portrait, smile, whiskers
+photo.25: ig://B7ex_2wB7Yb/m
+photo.25.author: re_ichimaru
+photo.25.commitdate: 2020/1/21
+photo.25.link: https://www.instagram.com/re_ichimaru/
+photo.25.tags: portrait, smile
+photo.26: ig://CDzL7s3hb3s/m
+photo.26.author: minatomirai215
+photo.26.commitdate: 2020/8/13
+photo.26.link: https://www.instagram.com/minatomirai215/
+photo.26.tags: apple time, paws, whiskers
+photo.27: ig://CHVgZ-4B5N7/m
+photo.27.author: satoshi_jimny
+photo.27.commitdate: 2022/1/7
+photo.27.link: https://www.instagram.com/satoshi_jimny/
+photo.27.tags: smile, tongue
+photo.28: ig://CcVCqoMPYWY/m
+photo.28.author: kojikoji2011
+photo.28.commitdate: 2022/5/25
+photo.28.link: https://www.instagram.com/kojikoji2011/
+photo.28.tags: bamboo, close-up, paws, portrait
+photo.29: ig://Cd2OprkvR_x/m
 photo.29.author: kojikoji2011
-photo.29.commitdate: 2022/5/25
+photo.29.commitdate: 2022/7/3
 photo.29.link: https://www.instagram.com/kojikoji2011/
-photo.29.tags: bamboo, close-up, paws, portrait
-photo.30: ig://Cd2OprkvR_x/m
-photo.30.author: kojikoji2011
-photo.30.commitdate: 2022/7/3
-photo.30.link: https://www.instagram.com/kojikoji2011/
-photo.30.tags: portrait, sample, whiskers
+photo.29.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 14138
 zoo: 40

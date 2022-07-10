@@ -13,158 +13,153 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 275
-photo.1: ig://BMC0_chAB0F/m
-photo.1.author: tabechum
-photo.1.commitdate: 2020/5/12
-photo.1.link: https://www.instagram.com/tabechum/
-photo.1.tags: baby, portrait, white face
-photo.2: ig://BNmL96ml43N/m
-photo.2.author: kipekaila
-photo.2.commitdate: 2018/12/15
-photo.2.link: https://www.instagram.com/kipekaila/
-photo.2.tags: baby
-photo.3: ig://BOZ7FlwjweD/m
+photo.1: ig://BNmL96ml43N/m
+photo.1.author: kipekaila
+photo.1.commitdate: 2018/12/15
+photo.1.link: https://www.instagram.com/kipekaila/
+photo.1.tags: baby
+photo.2: ig://BOZ7FlwjweD/m
+photo.2.author: minatomirai215
+photo.2.commitdate: 2020/5/12
+photo.2.link: https://www.instagram.com/minatomirai215/
+photo.2.tags: white face
+photo.3: ig://BOyV0u8D9-m/m
 photo.3.author: minatomirai215
 photo.3.commitdate: 2020/5/12
 photo.3.link: https://www.instagram.com/minatomirai215/
-photo.3.tags: white face
-photo.4: ig://BOyV0u8D9-m/m
+photo.3.tags: baby, paws, portrait, tree
+photo.4: ig://BPbVPPdDP0A/m
 photo.4.author: minatomirai215
 photo.4.commitdate: 2020/5/12
 photo.4.link: https://www.instagram.com/minatomirai215/
-photo.4.tags: baby, paws, portrait, tree
-photo.5: ig://BPbVPPdDP0A/m
-photo.5.author: minatomirai215
-photo.5.commitdate: 2020/5/12
-photo.5.link: https://www.instagram.com/minatomirai215/
-photo.5.tags: paws, portrait, smile, tongue, white face
-photo.6: ig://BbRQRO7lWfk/m
+photo.4.tags: paws, portrait, smile, tongue, white face
+photo.5: ig://BbRQRO7lWfk/m
+photo.5.author: hanamaru_redpanda
+photo.5.commitdate: 2018/12/15
+photo.5.link: https://www.instagram.com/hanamaru_redpanda/
+photo.5.tags: bamboo
+photo.6: ig://Bde54W8FVog/m
 photo.6.author: hanamaru_redpanda
-photo.6.commitdate: 2018/12/15
+photo.6.commitdate: 2018/12/23
 photo.6.link: https://www.instagram.com/hanamaru_redpanda/
-photo.6.tags: bamboo
-photo.7: ig://Bde54W8FVog/m
+photo.7: ig://Bhi5ZiAF7Ib/m
 photo.7.author: hanamaru_redpanda
-photo.7.commitdate: 2018/12/23
+photo.7.commitdate: 2018/12/15
 photo.7.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8: ig://Bhi5ZiAF7Ib/m
-photo.8.author: hanamaru_redpanda
+photo.7.tags: profile
+photo.8: ig://Birnuu4l65K/m
+photo.8.author: fetorus_mami
 photo.8.commitdate: 2018/12/15
-photo.8.link: https://www.instagram.com/hanamaru_redpanda/
-photo.8.tags: profile
-photo.9: ig://Birnuu4l65K/m
-photo.9.author: fetorus_mami
+photo.8.link: https://www.instagram.com/fetorus_mami/
+photo.8.tags: tree
+photo.9: ig://Bj4gMmElXLp/m
+photo.9.author: craig_craig_craig
 photo.9.commitdate: 2018/12/15
-photo.9.link: https://www.instagram.com/fetorus_mami/
-photo.9.tags: tree
-photo.10: ig://Bj4gMmElXLp/m
-photo.10.author: craig_craig_craig
+photo.9.link: https://www.instagram.com/craig_craig_craig/
+photo.9.tags: tail, tree
+photo.10: ig://BlFpD87lY6Q/m
+photo.10.author: hanamaru_redpanda
 photo.10.commitdate: 2018/12/15
-photo.10.link: https://www.instagram.com/craig_craig_craig/
-photo.10.tags: tail, tree
-photo.11: ig://BlFpD87lY6Q/m
-photo.11.author: hanamaru_redpanda
+photo.10.link: https://www.instagram.com/hanamaru_redpanda/
+photo.10.tags: laying down
+photo.11: ig://BmBWwGQhIvl/m
+photo.11.author: miis_98
 photo.11.commitdate: 2018/12/15
-photo.11.link: https://www.instagram.com/hanamaru_redpanda/
-photo.11.tags: laying down
-photo.12: ig://BmBWwGQhIvl/m
-photo.12.author: miis_98
-photo.12.commitdate: 2018/12/15
-photo.12.link: https://www.instagram.com/miis_98/
-photo.13: ig://BrcjqpyFwN3/m
-photo.13.author: peek_a_boo00
-photo.13.commitdate: 2018/12/17
-photo.13.link: https://www.instagram.com/peek_a_boo00/
-photo.14: ig://Bs74GdgFhkw/m
-photo.14.author: hrly2201
-photo.14.commitdate: 2019/6/9
-photo.14.link: https://www.instagram.com/hrly2201/
-photo.14.tags: tail
-photo.15: ig://Bxcc123l7sT/m
-photo.15.author: craig_craig_craig
-photo.15.commitdate: 2019/5/19
-photo.15.link: https://www.instagram.com/craig_craig_craig/
-photo.15.tags: air tasting, tongue
-photo.16: ig://ByoUQ1VBtX9/m
-photo.16.author: miis_98
-photo.16.commitdate: 2019/6/13
-photo.16.link: https://www.instagram.com/miis_98/
-photo.16.tags: white face
-photo.17: ig://B3o6reUhvGY/m
-photo.17.author: _natsu_panda_
-photo.17.commitdate: 2020/1/18
-photo.17.link: https://www.instagram.com/_natsu_panda_/
-photo.17.tags: bamboo, paws, smile
-photo.18: ig://B4inb_eHHBe/m
+photo.11.link: https://www.instagram.com/miis_98/
+photo.12: ig://BrcjqpyFwN3/m
+photo.12.author: peek_a_boo00
+photo.12.commitdate: 2018/12/17
+photo.12.link: https://www.instagram.com/peek_a_boo00/
+photo.13: ig://Bs74GdgFhkw/m
+photo.13.author: hrly2201
+photo.13.commitdate: 2019/6/9
+photo.13.link: https://www.instagram.com/hrly2201/
+photo.13.tags: tail
+photo.14: ig://Bxcc123l7sT/m
+photo.14.author: craig_craig_craig
+photo.14.commitdate: 2019/5/19
+photo.14.link: https://www.instagram.com/craig_craig_craig/
+photo.14.tags: air tasting, tongue
+photo.15: ig://ByoUQ1VBtX9/m
+photo.15.author: miis_98
+photo.15.commitdate: 2019/6/13
+photo.15.link: https://www.instagram.com/miis_98/
+photo.15.tags: white face
+photo.16: ig://B3o6reUhvGY/m
+photo.16.author: _natsu_panda_
+photo.16.commitdate: 2020/1/18
+photo.16.link: https://www.instagram.com/_natsu_panda_/
+photo.16.tags: bamboo, paws, smile
+photo.17: ig://B4inb_eHHBe/m
+photo.17.author: kotume4935
+photo.17.commitdate: 2021/2/28
+photo.17.link: https://www.instagram.com/kotume4935/
+photo.17.tags: itchy, portrait, tail, tree, white face
+photo.18: ig://B4tWYMshIOs/m
 photo.18.author: kotume4935
 photo.18.commitdate: 2021/2/28
 photo.18.link: https://www.instagram.com/kotume4935/
-photo.18.tags: itchy, portrait, tail, tree, white face
-photo.19: ig://B4tWYMshIOs/m
-photo.19.author: kotume4935
-photo.19.commitdate: 2021/2/28
-photo.19.link: https://www.instagram.com/kotume4935/
-photo.19.tags: bamboo, peek, portrait, white face
-photo.20: ig://B6YWi82hEOE/m
-photo.20.author: wumpwoast
-photo.20.commitdate: 2020/1/11
-photo.20.link: https://www.instagram.com/wumpwoast/
-photo.20.tags: paws, portrait, white face
-photo.21: ig://B6utvg9BYcg/m
+photo.18.tags: bamboo, peek, portrait, white face
+photo.19: ig://B6YWi82hEOE/m
+photo.19.author: wumpwoast
+photo.19.commitdate: 2020/1/11
+photo.19.link: https://www.instagram.com/wumpwoast/
+photo.19.tags: paws, portrait, white face
+photo.20: ig://B6utvg9BYcg/m
+photo.20.author: _saaaaaaah_
+photo.20.commitdate: 2020/1/9
+photo.20.link: https://www.instagram.com/_saaaaaaah_/
+photo.20.tags: bamboo, whiskers, white face
+photo.21: ig://B93-pPXhcAT/m
 photo.21.author: _saaaaaaah_
-photo.21.commitdate: 2020/1/9
+photo.21.commitdate: 2020/3/20
 photo.21.link: https://www.instagram.com/_saaaaaaah_/
-photo.21.tags: bamboo, whiskers, white face
-photo.22: ig://B93-pPXhcAT/m
-photo.22.author: _saaaaaaah_
-photo.22.commitdate: 2020/3/20
-photo.22.link: https://www.instagram.com/_saaaaaaah_/
-photo.22.tags: peek, tree
-photo.23: ig://CD1UUXJBOV7/m
-photo.23.author: mini_cochi
-photo.23.commitdate: 2020/8/22
-photo.23.link: https://www.instagram.com/mini_cochi/
-photo.23.tags: bamboo, paws, portrait
-photo.24: ig://CD3xyQShIAr/m
-photo.24.author: miis_98
-photo.24.commitdate: 2020/8/29
-photo.24.link: https://www.instagram.com/miis_98/
-photo.24.tags: paws, portrait, smile, whiskers, white face
-photo.25: ig://CEKwYhlhXWh/m
-photo.25.author: kotume4935
-photo.25.commitdate: 2021/2/28
-photo.25.link: https://www.instagram.com/kotume4935/
-photo.25.tags: portrait, smile, tree
-photo.26: ig://CE1NRPsh_mp/m
-photo.26.author: ssc6105
-photo.26.commitdate: 2020/9/16
-photo.26.link: https://www.instagram.com/ssc6105/
-photo.26.tags: home, laying down, paws, portrait, smile, tongue
-photo.27: ig://CFPOODNhnjh/m
-photo.27.author: fetorus_mami
-photo.27.commitdate: 2020/11/6
-photo.27.link: https://www.instagram.com/fetorus_mami/
-photo.27.tags: mofumofu, smile, tree
-photo.28: ig://CGpXE05hWWO/m
-photo.28.author: firefoxpanda88
-photo.28.commitdate: 2020/10/26
-photo.28.link: https://www.instagram.com/firefoxpanda88/
-photo.28.tags: climb, paws, portrait, tree, white face
-photo.29: ig://COK0h8uBxVS/m
-photo.29.author: happy_love2.15
-photo.29.commitdate: 2021/5/3
-photo.29.link: https://www.instagram.com/happy_love2.15/
-photo.29.tags: mofumofu, portrait, tail, white face
-photo.30: ig://CazSbzaPUwZ/m
-photo.30.author: fetorus_mami
-photo.30.commitdate: 2022/4/10
-photo.30.link: https://www.instagram.com/fetorus_mami/
-photo.30.tags: portrait, sample, whiskers, white face
-photo.31: ig://Cc-suhhrVAF/m
-photo.31.author: mini_cochi
-photo.31.commitdate: 2022/6/6
-photo.31.link: https://www.instagram.com/mini_cochi/
-photo.31.tags: portrait, sample, smile, tree, white face
+photo.21.tags: peek, tree
+photo.22: ig://CD1UUXJBOV7/m
+photo.22.author: mini_cochi
+photo.22.commitdate: 2020/8/22
+photo.22.link: https://www.instagram.com/mini_cochi/
+photo.22.tags: bamboo, paws, portrait
+photo.23: ig://CD3xyQShIAr/m
+photo.23.author: miis_98
+photo.23.commitdate: 2020/8/29
+photo.23.link: https://www.instagram.com/miis_98/
+photo.23.tags: paws, portrait, smile, whiskers, white face
+photo.24: ig://CEKwYhlhXWh/m
+photo.24.author: kotume4935
+photo.24.commitdate: 2021/2/28
+photo.24.link: https://www.instagram.com/kotume4935/
+photo.24.tags: portrait, smile, tree
+photo.25: ig://CE1NRPsh_mp/m
+photo.25.author: ssc6105
+photo.25.commitdate: 2020/9/16
+photo.25.link: https://www.instagram.com/ssc6105/
+photo.25.tags: home, laying down, paws, portrait, smile, tongue
+photo.26: ig://CFPOODNhnjh/m
+photo.26.author: fetorus_mami
+photo.26.commitdate: 2020/11/6
+photo.26.link: https://www.instagram.com/fetorus_mami/
+photo.26.tags: mofumofu, smile, tree
+photo.27: ig://CGpXE05hWWO/m
+photo.27.author: firefoxpanda88
+photo.27.commitdate: 2020/10/26
+photo.27.link: https://www.instagram.com/firefoxpanda88/
+photo.27.tags: climb, paws, portrait, tree, white face
+photo.28: ig://COK0h8uBxVS/m
+photo.28.author: happy_love2.15
+photo.28.commitdate: 2021/5/3
+photo.28.link: https://www.instagram.com/happy_love2.15/
+photo.28.tags: mofumofu, portrait, tail, white face
+photo.29: ig://CazSbzaPUwZ/m
+photo.29.author: fetorus_mami
+photo.29.commitdate: 2022/4/10
+photo.29.link: https://www.instagram.com/fetorus_mami/
+photo.29.tags: portrait, sample, whiskers, white face
+photo.30: ig://Cc-suhhrVAF/m
+photo.30.author: mini_cochi
+photo.30.commitdate: 2022/6/6
+photo.30.link: https://www.instagram.com/mini_cochi/
+photo.30.tags: portrait, sample, smile, tree, white face
 species: 1
 studbook.id: 16100
 zoo: 59

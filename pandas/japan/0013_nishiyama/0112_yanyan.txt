@@ -14,180 +14,175 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 66
-photo.1: ig://BL9rvvbAeVP/m
-photo.1.author: tabechum
-photo.1.commitdate: 2020/4/12
-photo.1.link: https://www.instagram.com/tabechum/
-photo.1.tags: laying down, whiskers
-photo.2: ig://Bi_5U0ilF4f/m
-photo.2.author: daniele.tokyo
+photo.1: ig://Bi_5U0ilF4f/m
+photo.1.author: daniele.tokyo
+photo.1.commitdate: 2018/7/20
+photo.1.link: https://www.instagram.com/daniele.tokyo/
+photo.1.tags: portrait, wet
+photo.2: ig://Bjo2cubngrx/m
+photo.2.author: minato.yokohama4416
 photo.2.commitdate: 2018/7/20
-photo.2.link: https://www.instagram.com/daniele.tokyo/
-photo.2.tags: portrait, wet
-photo.3: ig://Bjo2cubngrx/m
-photo.3.author: minato.yokohama4416
+photo.2.link: https://www.instagram.com/minato.yokohama4416/
+photo.2.tags: apple time, keeper
+photo.3: ig://BkQ7-SYl_pl/m
+photo.3.author: kotata_513
 photo.3.commitdate: 2018/7/20
-photo.3.link: https://www.instagram.com/minato.yokohama4416/
-photo.3.tags: apple time, keeper
-photo.4: ig://BkQ7-SYl_pl/m
-photo.4.author: kotata_513
+photo.3.link: https://www.instagram.com/kotata_513/
+photo.3.tags: portrait, smile
+photo.4: ig://BkZ5stnFTtL/m
+photo.4.author: i.satosato
 photo.4.commitdate: 2018/7/20
-photo.4.link: https://www.instagram.com/kotata_513/
-photo.4.tags: portrait, smile
-photo.5: ig://BkZ5stnFTtL/m
-photo.5.author: i.satosato
-photo.5.commitdate: 2018/7/20
-photo.5.link: https://www.instagram.com/i.satosato/
-photo.5.tags: bear worm, portrait
-photo.6: ig://Bnn05J9lWtg/m
+photo.4.link: https://www.instagram.com/i.satosato/
+photo.4.tags: bear worm, portrait
+photo.5: ig://Bnn05J9lWtg/m
+photo.5.author: minato.yokohama4416
+photo.5.commitdate: 2018/9/13
+photo.5.link: https://www.instagram.com/minato.yokohama4416/
+photo.5.tags: laying down, paws, portrait, profile, smile, tongue, whiskers
+photo.6: ig://Bn84OrLlHB8/m
 photo.6.author: minato.yokohama4416
-photo.6.commitdate: 2018/9/13
+photo.6.commitdate: 2018/9/22
 photo.6.link: https://www.instagram.com/minato.yokohama4416/
-photo.6.tags: laying down, paws, portrait, profile, smile, tongue, whiskers
-photo.7: ig://Bn84OrLlHB8/m
+photo.6.tags: laying down, tail
+photo.7: ig://BoL3cJkllRV/m
 photo.7.author: minato.yokohama4416
-photo.7.commitdate: 2018/9/22
+photo.7.commitdate: 2018/9/27
 photo.7.link: https://www.instagram.com/minato.yokohama4416/
-photo.7.tags: laying down, tail
-photo.8: ig://BoL3cJkllRV/m
-photo.8.author: minato.yokohama4416
-photo.8.commitdate: 2018/9/27
-photo.8.link: https://www.instagram.com/minato.yokohama4416/
-photo.8.tags: portrait, smile
-photo.9: ig://BolVtm_lNHS/m
-photo.9.author: gloryeui
-photo.9.commitdate: 2018/10/6
-photo.9.link: https://www.instagram.com/gloryeui/
-photo.9.tags: mofumofu, portrait, tail
-photo.10: ig://Bp1fFS4FWD1/m
-photo.10.author: minato.yokohama4416
-photo.10.commitdate: 2018/11/6
-photo.10.link: https://www.instagram.com/minato.yokohama4416/
-photo.10.tags: home, portrait
-photo.11: ig://Bql9hyKFD14/m
-photo.11.author: makimaru18
-photo.11.commitdate: 2018/11/25
-photo.11.link: https://www.instagram.com/makimaru18/
-photo.11.tags: laying down, portrait
-photo.12: ig://BqqO-z2FNDv/m
-photo.12.author: tomo3700
-photo.12.commitdate: 2018/11/27
-photo.12.link: https://www.instagram.com/tomo3700/
-photo.12.tags: autumn, laying down
-photo.13: ig://Bq04j8NgOG7/m
-photo.13.author: resapanlove
-photo.13.commitdate: 2018/11/30
-photo.13.link: https://www.instagram.com/resapanlove/
-photo.13.tags: autumn
-photo.14: ig://Bq4CMaunG8l/m
-photo.14.author: yakko____
-photo.14.commitdate: 2018/12/6
-photo.14.link: https://www.instagram.com/yakko____/
+photo.7.tags: portrait, smile
+photo.8: ig://BolVtm_lNHS/m
+photo.8.author: gloryeui
+photo.8.commitdate: 2018/10/6
+photo.8.link: https://www.instagram.com/gloryeui/
+photo.8.tags: mofumofu, portrait, tail
+photo.9: ig://Bp1fFS4FWD1/m
+photo.9.author: minato.yokohama4416
+photo.9.commitdate: 2018/11/6
+photo.9.link: https://www.instagram.com/minato.yokohama4416/
+photo.9.tags: home, portrait
+photo.10: ig://Bql9hyKFD14/m
+photo.10.author: makimaru18
+photo.10.commitdate: 2018/11/25
+photo.10.link: https://www.instagram.com/makimaru18/
+photo.10.tags: laying down, portrait
+photo.11: ig://BqqO-z2FNDv/m
+photo.11.author: tomo3700
+photo.11.commitdate: 2018/11/27
+photo.11.link: https://www.instagram.com/tomo3700/
+photo.11.tags: autumn, laying down
+photo.12: ig://Bq04j8NgOG7/m
+photo.12.author: resapanlove
+photo.12.commitdate: 2018/11/30
+photo.12.link: https://www.instagram.com/resapanlove/
+photo.12.tags: autumn
+photo.13: ig://Bq4CMaunG8l/m
+photo.13.author: yakko____
+photo.13.commitdate: 2018/12/6
+photo.13.link: https://www.instagram.com/yakko____/
+photo.13.tags: portrait
+photo.14: ig://Br6EnkqlL23/m
+photo.14.author: kijyo.zoo
+photo.14.commitdate: 2018/12/27
+photo.14.link: https://www.instagram.com/kijyo.zoo/
 photo.14.tags: portrait
-photo.15: ig://Br6EnkqlL23/m
-photo.15.author: kijyo.zoo
-photo.15.commitdate: 2018/12/27
-photo.15.link: https://www.instagram.com/kijyo.zoo/
-photo.15.tags: portrait
-photo.16: ig://BsITUrElriF/m
-photo.16.author: minato.yokohama4416
-photo.16.commitdate: 2019/1/3
-photo.16.link: https://www.instagram.com/minato.yokohama4416/
-photo.16.tags: bamboo, portrait
-photo.17: ig://BsQBHuRHDVT/m
-photo.17.author: joy93.87
-photo.17.commitdate: 2021/11/10
-photo.17.link: https://www.instagram.com/joy93.87/
-photo.17.tags: autumn, laying down, paws
-photo.18: ig://Bub5t4qlF28/m
-photo.18.author: minato.yokohama4416
-photo.18.commitdate: 2019/3/9
-photo.18.link: https://www.instagram.com/minato.yokohama4416/
-photo.18.tags: portrait
-photo.19: ig://Bv1S14fFX4B/m
-photo.19.author: jas_forever_love
-photo.19.commitdate: 2019/4/5
-photo.19.link: https://www.instagram.com/jas_forever_love/
-photo.20: ig://B1_fSGlBD4s/m
-photo.20.author: kisshan324
-photo.20.commitdate: 2019/9/5
-photo.20.link: https://www.instagram.com/kisshan324/
-photo.20.tags: bamboo, lunch time, paws, portrait
-photo.21: ig://B7xxk8cBThK/m
+photo.15: ig://BsITUrElriF/m
+photo.15.author: minato.yokohama4416
+photo.15.commitdate: 2019/1/3
+photo.15.link: https://www.instagram.com/minato.yokohama4416/
+photo.15.tags: bamboo, portrait
+photo.16: ig://BsQBHuRHDVT/m
+photo.16.author: joy93.87
+photo.16.commitdate: 2021/11/10
+photo.16.link: https://www.instagram.com/joy93.87/
+photo.16.tags: autumn, laying down, paws
+photo.17: ig://Bub5t4qlF28/m
+photo.17.author: minato.yokohama4416
+photo.17.commitdate: 2019/3/9
+photo.17.link: https://www.instagram.com/minato.yokohama4416/
+photo.17.tags: portrait
+photo.18: ig://Bv1S14fFX4B/m
+photo.18.author: jas_forever_love
+photo.18.commitdate: 2019/4/5
+photo.18.link: https://www.instagram.com/jas_forever_love/
+photo.19: ig://B1_fSGlBD4s/m
+photo.19.author: kisshan324
+photo.19.commitdate: 2019/9/5
+photo.19.link: https://www.instagram.com/kisshan324/
+photo.19.tags: bamboo, lunch time, paws, portrait
+photo.20: ig://B7xxk8cBThK/m
+photo.20.author: minato.yokohama4416
+photo.20.commitdate: 2020/1/28
+photo.20.link: https://www.instagram.com/minato.yokohama4416/
+photo.20.tags: laying down, portrait, whiskers
+photo.21: ig://B72wuu0BdiS/m
 photo.21.author: minato.yokohama4416
-photo.21.commitdate: 2020/1/28
+photo.21.commitdate: 2020/2/3
 photo.21.link: https://www.instagram.com/minato.yokohama4416/
-photo.21.tags: laying down, portrait, whiskers
-photo.22: ig://B72wuu0BdiS/m
-photo.22.author: minato.yokohama4416
-photo.22.commitdate: 2020/2/3
-photo.22.link: https://www.instagram.com/minato.yokohama4416/
-photo.22.tags: bamboo, portrait, tongue
-photo.23: ig://B88oxFFBZfu/m
-photo.23.author: jas_forever_love
-photo.23.commitdate: 2020/2/26
-photo.23.link: https://www.instagram.com/jas_forever_love/
-photo.23.tags: bamboo, mofumofu, portrait
-photo.24: ig://B-CdVTQBOHT/m
-photo.24.author: sakikukeco
-photo.24.commitdate: 2020/3/22
-photo.24.link: https://www.instagram.com/sakikukeco/
-photo.24.tags: mofumofu, portrait
-photo.25: ig://B-9lJnFhHah/m
+photo.21.tags: bamboo, portrait, tongue
+photo.22: ig://B88oxFFBZfu/m
+photo.22.author: jas_forever_love
+photo.22.commitdate: 2020/2/26
+photo.22.link: https://www.instagram.com/jas_forever_love/
+photo.22.tags: bamboo, mofumofu, portrait
+photo.23: ig://B-CdVTQBOHT/m
+photo.23.author: sakikukeco
+photo.23.commitdate: 2020/3/22
+photo.23.link: https://www.instagram.com/sakikukeco/
+photo.23.tags: mofumofu, portrait
+photo.24: ig://B-9lJnFhHah/m
+photo.24.author: craig_craig_craig
+photo.24.commitdate: 2020/4/18
+photo.24.link: https://www.instagram.com/craig_craig_craig/
+photo.24.tags: autumn, paws, portrait, standing
+photo.25: ig://B_CSuA3hoH7/m
 photo.25.author: craig_craig_craig
 photo.25.commitdate: 2020/4/18
 photo.25.link: https://www.instagram.com/craig_craig_craig/
-photo.25.tags: autumn, paws, portrait, standing
-photo.26: ig://B_CSuA3hoH7/m
-photo.26.author: craig_craig_craig
-photo.26.commitdate: 2020/4/18
-photo.26.link: https://www.instagram.com/craig_craig_craig/
-photo.26.tags: autumn, close-up, portrait
-photo.27: ig://CIDFa5_hH1H/m
-photo.27.author: minato.yokohama4416
-photo.27.commitdate: 2020/12/6
-photo.27.link: https://www.instagram.com/minato.yokohama4416/
-photo.27.tags: bamboo, home, portrait
-photo.28: ig://CKRmvJABQJZ/m
-photo.28.author: na.mo.pan
-photo.28.commitdate: 2021/1/25
-photo.28.link: https://www.instagram.com/na.mo.pan/
-photo.28.tags: apple time, dish, portrait, whiskers
-photo.29: ig://CKd04iFh6Q9/m
-photo.29.author: jas_forever_love
+photo.25.tags: autumn, close-up, portrait
+photo.26: ig://CIDFa5_hH1H/m
+photo.26.author: minato.yokohama4416
+photo.26.commitdate: 2020/12/6
+photo.26.link: https://www.instagram.com/minato.yokohama4416/
+photo.26.tags: bamboo, home, portrait
+photo.27: ig://CKRmvJABQJZ/m
+photo.27.author: na.mo.pan
+photo.27.commitdate: 2021/1/25
+photo.27.link: https://www.instagram.com/na.mo.pan/
+photo.27.tags: apple time, dish, portrait, whiskers
+photo.28: ig://CKd04iFh6Q9/m
+photo.28.author: jas_forever_love
+photo.28.commitdate: 2021/1/31
+photo.28.link: https://www.instagram.com/jas_forever_love/
+photo.28.tags: bamboo, peek, whiskers
+photo.29: ig://CKd7rUhhv03/m
+photo.29.author: makimaru18
 photo.29.commitdate: 2021/1/31
-photo.29.link: https://www.instagram.com/jas_forever_love/
-photo.29.tags: bamboo, peek, whiskers
-photo.30: ig://CKd7rUhhv03/m
-photo.30.author: makimaru18
+photo.29.link: https://www.instagram.com/makimaru18/
+photo.29.tags: itchy, portrait
+photo.30: ig://CKgkQbCBT0N/m
+photo.30.author: apple_jasmine33
 photo.30.commitdate: 2021/1/31
-photo.30.link: https://www.instagram.com/makimaru18/
-photo.30.tags: itchy, portrait
-photo.31: ig://CKgkQbCBT0N/m
-photo.31.author: apple_jasmine33
+photo.30.link: https://www.instagram.com/apple_jasmine33/
+photo.30.tags: bamboo, laying down, peek
+photo.31: ig://CKgpNujh1Mf/m
+photo.31.author: tomo3700
 photo.31.commitdate: 2021/1/31
-photo.31.link: https://www.instagram.com/apple_jasmine33/
-photo.31.tags: bamboo, laying down, peek
-photo.32: ig://CKgpNujh1Mf/m
+photo.31.link: https://www.instagram.com/tomo3700/
+photo.31.tags: portrait, whiskers
+photo.32: ig://CKm0902BAfJ/m
 photo.32.author: tomo3700
-photo.32.commitdate: 2021/1/31
+photo.32.commitdate: 2021/1/28
 photo.32.link: https://www.instagram.com/tomo3700/
-photo.32.tags: portrait, whiskers
-photo.33: ig://CKm0902BAfJ/m
-photo.33.author: tomo3700
-photo.33.commitdate: 2021/1/28
-photo.33.link: https://www.instagram.com/tomo3700/
-photo.33.tags: apple time, keeper, portrait
-photo.34: ig://CKqwxRShBf0/m
+photo.32.tags: apple time, keeper, portrait
+photo.33: ig://CKqwxRShBf0/m
+photo.33.author: minato.yokohama4416
+photo.33.commitdate: 2021/9/23
+photo.33.link: https://www.instagram.com/minato.yokohama4416/
+photo.33.tags: close-up, itchy, paws, portrait, whiskers
+photo.34: ig://CK8UYKAh5BH/m
 photo.34.author: minato.yokohama4416
 photo.34.commitdate: 2021/9/23
 photo.34.link: https://www.instagram.com/minato.yokohama4416/
-photo.34.tags: close-up, itchy, paws, portrait, whiskers
-photo.35: ig://CK8UYKAh5BH/m
-photo.35.author: minato.yokohama4416
-photo.35.commitdate: 2021/9/23
-photo.35.link: https://www.instagram.com/minato.yokohama4416/
-photo.35.tags: portrait, tail, wet
+photo.34.tags: portrait, tail, wet
 species: 2
 studbook.id: 1098
 zoo: 13

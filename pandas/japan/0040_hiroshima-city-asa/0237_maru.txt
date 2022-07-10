@@ -118,76 +118,66 @@ photo.21.author: kmasahon
 photo.21.commitdate: 2019/10/31
 photo.21.link: https://www.instagram.com/kmasahon/
 photo.21.tags: paws, tongue, whiskers
-photo.22: ig://B4WGq6wh4vT/m
-photo.22.author: tabechum
-photo.22.commitdate: 2019/11/4
-photo.22.link: https://www.instagram.com/tabechum/
-photo.22.tags: paws, portrait, smile
-photo.23: ig://B4imk1gHbyl/m
-photo.23.author: motohin
-photo.23.commitdate: 2019/11/9
-photo.23.link: https://www.instagram.com/motohin/
-photo.23.tags: mofumofu, portrait, whiskers
-photo.24: ig://B5Xjzhuhiam/m
-photo.24.author: apple_jasmine33
-photo.24.commitdate: 2020/5/23
-photo.24.link: https://www.instagram.com/apple_jasmine33/
-photo.24.tags: portrait
-photo.25: ig://B5pvhhEhyh5/m
-photo.25.author: re_ichimaru
-photo.25.commitdate: 2019/12/9
-photo.25.link: https://www.instagram.com/re_ichimaru/
-photo.25.tags: mofumofu, tail, whiskers
-photo.26: ig://B5sEsiahuUE/m
-photo.26.author: jas_forever_love
-photo.26.commitdate: 2019/12/11
-photo.26.link: https://www.instagram.com/jas_forever_love/
-photo.26.tags: portrait, whiskers
-photo.27: ig://B6YFBjRBPs_/m
-photo.27.author: tabechum
-photo.27.commitdate: 2019/12/29
-photo.27.link: https://www.instagram.com/tabechum/
-photo.27.tags: air tasting, paws, tongue
-photo.28: ig://B6365PJh1xu/m
-photo.28.author: kmasahon
-photo.28.commitdate: 2020/1/11
-photo.28.link: https://www.instagram.com/kmasahon/
-photo.28.tags: tongue, whiskers
-photo.29: ig://B7yEdBthCDf/m
-photo.29.author: apple_jasmine33
-photo.29.commitdate: 2020/2/14
-photo.29.link: https://www.instagram.com/apple_jasmine33/
-photo.29.tags: bamboo, tongue
-photo.30: ig://B70aUgjBNLL/m
-photo.30.author: redpanda_nippon_takashi
-photo.30.commitdate: 2020/2/3
-photo.30.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.30.tags: whiskers
-photo.31: ig://B9IjAgIBESS/m
-photo.31.author: mifko55
-photo.31.commitdate: 2020/3/5
-photo.31.link: https://www.instagram.com/mifko55/
-photo.31.tags: portrait, tail, whiskers
-photo.32: ig://CIupF3AhiPQ/m
-photo.32.author: makimaru18
-photo.32.commitdate: 2021/1/5
-photo.32.link: https://www.instagram.com/makimaru18/
-photo.32.tags: paws, portrait, whiskers
-photo.33: ig://COy3ye7hlfB/m
-photo.33.author: panda.daisuki
-photo.33.commitdate: 2021/6/6
-photo.33.link: https://www.instagram.com/panda.daisuki/
-photo.33.tags: apple time, paws, standing, tail
-photo.34: ig://CcS-GjDvSqK/m
-photo.34.author: kojikoji2011
-photo.34.commitdate: 2022/5/25
-photo.34.link: https://www.instagram.com/kojikoji2011/
-photo.34.tags: mofumofu, portrait, sample, whiskers
-photo.35: ig://CdkMJUQvDRo/m
-photo.35.author: kojikoji2011
-photo.35.commitdate: 2022/5/17
-photo.35.link: https://www.instagram.com/kojikoji2011/
-photo.35.tags: mofumofu, portrait, smile
+photo.22: ig://B4imk1gHbyl/m
+photo.22.author: motohin
+photo.22.commitdate: 2019/11/9
+photo.22.link: https://www.instagram.com/motohin/
+photo.22.tags: mofumofu, portrait, whiskers
+photo.23: ig://B5Xjzhuhiam/m
+photo.23.author: apple_jasmine33
+photo.23.commitdate: 2020/5/23
+photo.23.link: https://www.instagram.com/apple_jasmine33/
+photo.23.tags: portrait
+photo.24: ig://B5pvhhEhyh5/m
+photo.24.author: re_ichimaru
+photo.24.commitdate: 2019/12/9
+photo.24.link: https://www.instagram.com/re_ichimaru/
+photo.24.tags: mofumofu, tail, whiskers
+photo.25: ig://B5sEsiahuUE/m
+photo.25.author: jas_forever_love
+photo.25.commitdate: 2019/12/11
+photo.25.link: https://www.instagram.com/jas_forever_love/
+photo.25.tags: portrait, whiskers
+photo.26: ig://B6365PJh1xu/m
+photo.26.author: kmasahon
+photo.26.commitdate: 2020/1/11
+photo.26.link: https://www.instagram.com/kmasahon/
+photo.26.tags: tongue, whiskers
+photo.27: ig://B7yEdBthCDf/m
+photo.27.author: apple_jasmine33
+photo.27.commitdate: 2020/2/14
+photo.27.link: https://www.instagram.com/apple_jasmine33/
+photo.27.tags: bamboo, tongue
+photo.28: ig://B70aUgjBNLL/m
+photo.28.author: redpanda_nippon_takashi
+photo.28.commitdate: 2020/2/3
+photo.28.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.28.tags: whiskers
+photo.29: ig://B9IjAgIBESS/m
+photo.29.author: mifko55
+photo.29.commitdate: 2020/3/5
+photo.29.link: https://www.instagram.com/mifko55/
+photo.29.tags: portrait, tail, whiskers
+photo.30: ig://CIupF3AhiPQ/m
+photo.30.author: makimaru18
+photo.30.commitdate: 2021/1/5
+photo.30.link: https://www.instagram.com/makimaru18/
+photo.30.tags: paws, portrait, whiskers
+photo.31: ig://COy3ye7hlfB/m
+photo.31.author: panda.daisuki
+photo.31.commitdate: 2021/6/6
+photo.31.link: https://www.instagram.com/panda.daisuki/
+photo.31.tags: apple time, paws, standing, tail
+photo.32: ig://CcS-GjDvSqK/m
+photo.32.author: kojikoji2011
+photo.32.commitdate: 2022/5/25
+photo.32.link: https://www.instagram.com/kojikoji2011/
+photo.32.tags: mofumofu, portrait, sample, whiskers
+photo.33: ig://CdkMJUQvDRo/m
+photo.33.author: kojikoji2011
+photo.33.commitdate: 2022/5/17
+photo.33.link: https://www.instagram.com/kojikoji2011/
+photo.33.tags: mofumofu, portrait, smile
 species: 2
 studbook.id: 15136
 zoo: 40

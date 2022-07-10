@@ -55,26 +55,21 @@ photo.8.author: miis_98
 photo.8.commitdate: 2020/4/1
 photo.8.link: https://www.instagram.com/miis_98/
 photo.8.tags: apple time, keeper, paws, smile
-photo.9: ig://BXejN-TBPSA/m
-photo.9.author: tabechum
-photo.9.commitdate: 2020/4/1
-photo.9.link: https://www.instagram.com/tabechum/
-photo.9.tags: apple time, keeper, paws, portrait
-photo.10: ig://BhVjgY2BSVX/m
-photo.10.author: minatomirai215
+photo.9: ig://BhVjgY2BSVX/m
+photo.9.author: minatomirai215
+photo.9.commitdate: 2018/7/20
+photo.9.link: https://www.instagram.com/minatomirai215/
+photo.9.tags: grooming
+photo.10: ig://BhasYq0lbiw/m
+photo.10.author: miis_98
 photo.10.commitdate: 2018/7/20
-photo.10.link: https://www.instagram.com/minatomirai215/
-photo.10.tags: grooming
-photo.11: ig://BhasYq0lbiw/m
-photo.11.author: miis_98
-photo.11.commitdate: 2018/7/20
-photo.11.link: https://www.instagram.com/miis_98/
-photo.11.tags: profile
-photo.12: ig://B_Ef_qLB_Cj/m
-photo.12.author: ifumoto88
-photo.12.commitdate: 2021/1/5
-photo.12.link: https://www.instagram.com/ifumoto88/
-photo.12.tags: paws, portrait
+photo.10.link: https://www.instagram.com/miis_98/
+photo.10.tags: profile
+photo.11: ig://B_Ef_qLB_Cj/m
+photo.11.author: ifumoto88
+photo.11.commitdate: 2021/1/5
+photo.11.link: https://www.instagram.com/ifumoto88/
+photo.11.tags: paws, portrait
 species: 2
 studbook.id: 0087
 zoo: 12

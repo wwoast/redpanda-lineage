@@ -26,26 +26,21 @@ photo.2.author: ngsbiopark
 photo.2.commitdate: 2018/12/26
 photo.2.link: https://www.instagram.com/ngsbiopark/
 photo.2.tags: portrait, smile
-photo.3: ig://Bp-y3CklnyZ/m
-photo.3.author: tabechum
-photo.3.commitdate: 2018/11/11
-photo.3.link: https://www.instagram.com/tabechum/
-photo.3.tags: lunch time, portrait, profile, smile, tongue
-photo.4: ig://BxZq0pUFfGS/m
-photo.4.author: daniele.tokyo
-photo.4.commitdate: 2019/5/16
-photo.4.link: https://www.instagram.com/daniele.tokyo/
-photo.4.tags: portrait, tongue, white face
-photo.5: ig://CYgAW4wvDz5/m
+photo.3: ig://BxZq0pUFfGS/m
+photo.3.author: daniele.tokyo
+photo.3.commitdate: 2019/5/16
+photo.3.link: https://www.instagram.com/daniele.tokyo/
+photo.3.tags: portrait, tongue, white face
+photo.4: ig://CYgAW4wvDz5/m
+photo.4.author: grskus_tk
+photo.4.commitdate: 2022/2/23
+photo.4.link: https://www.instagram.com/grskus_tk/
+photo.4.tags: laying down, paws
+photo.5: ig://CYgSp_jvK8H/m
 photo.5.author: grskus_tk
-photo.5.commitdate: 2022/2/23
+photo.5.commitdate: 2022/2/5
 photo.5.link: https://www.instagram.com/grskus_tk/
-photo.5.tags: laying down, paws
-photo.6: ig://CYgSp_jvK8H/m
-photo.6.author: grskus_tk
-photo.6.commitdate: 2022/2/5
-photo.6.link: https://www.instagram.com/grskus_tk/
-photo.6.tags: close-up, mofumofu, smile, whiskers
+photo.5.tags: close-up, mofumofu, smile, whiskers
 species: 2
 studbook.id: 0294
 zoo: 3

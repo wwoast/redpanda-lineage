@@ -31,26 +31,21 @@ photo.3.author: sbskyy
 photo.3.commitdate: 2018/12/26
 photo.3.link: https://www.instagram.com/sbskyy/
 photo.3.tags: laying down, tail
-photo.4: ig://BqBPSy2lpx8/m
-photo.4.author: tabechum
-photo.4.commitdate: 2018/11/11
-photo.4.link: https://www.instagram.com/tabechum/
-photo.4.tags: portrait, profile
-photo.5: ig://BvZKUXOly1c/m
-photo.5.author: craig_craig_craig
-photo.5.commitdate: 2019/4/5
-photo.5.link: https://www.instagram.com/craig_craig_craig/
-photo.5.tags: laying down, portrait
-photo.6: ig://BxesN0CgBKl/m
-photo.6.author: sbskyy
-photo.6.commitdate: 2019/5/20
-photo.6.link: https://www.instagram.com/sbskyy/
-photo.6.tags: laying down, old
-photo.7: ig://B_oI0E4BiM_/m
-photo.7.author: ngsbiopark
-photo.7.commitdate: 2020/11/1
-photo.7.link: https://www.instagram.com/ngsbiopark/
-photo.7.tags: ear, grooming, portrait, videolink
+photo.4: ig://BvZKUXOly1c/m
+photo.4.author: craig_craig_craig
+photo.4.commitdate: 2019/4/5
+photo.4.link: https://www.instagram.com/craig_craig_craig/
+photo.4.tags: laying down, portrait
+photo.5: ig://BxesN0CgBKl/m
+photo.5.author: sbskyy
+photo.5.commitdate: 2019/5/20
+photo.5.link: https://www.instagram.com/sbskyy/
+photo.5.tags: laying down, old
+photo.6: ig://B_oI0E4BiM_/m
+photo.6.author: ngsbiopark
+photo.6.commitdate: 2020/11/1
+photo.6.link: https://www.instagram.com/ngsbiopark/
+photo.6.tags: ear, grooming, portrait, videolink
 species: 2
 studbook.id: 0099
 zoo: 3

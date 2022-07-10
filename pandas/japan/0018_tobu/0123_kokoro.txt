@@ -69,64 +69,45 @@ photo.11.author: hanamaru_redpanda
 photo.11.commitdate: 2018/12/23
 photo.11.link: https://www.instagram.com/hanamaru_redpanda/
 photo.11.tags: portrait, tongue
-photo.12: ig://BhshqJeF6fg/m
-photo.12.author: tabechum
+photo.12: ig://Bh1X6HeF7Kd/m
+photo.12.author: mifko55
 photo.12.commitdate: 2018/7/21
-photo.12.link: https://www.instagram.com/tabechum/
-photo.13: ig://Bhvzz--lR0M/m
-photo.13.author: tabechum
+photo.12.link: https://www.instagram.com/mifko55/
+photo.12.tags: portrait, profile, smile
+photo.13: ig://BjcbhtflPr-/m
+photo.13.author: sobu9529
 photo.13.commitdate: 2018/7/21
-photo.13.link: https://www.instagram.com/tabechum/
-photo.13.tags: portrait
-photo.14: ig://Bhxf4yqlhfG/m
-photo.14.author: tabechum
-photo.14.commitdate: 2018/7/21
-photo.14.link: https://www.instagram.com/tabechum/
-photo.14.tags: portrait, smile
-photo.15: ig://Bh1X6HeF7Kd/m
-photo.15.author: mifko55
-photo.15.commitdate: 2018/7/21
-photo.15.link: https://www.instagram.com/mifko55/
-photo.15.tags: portrait, profile, smile
-photo.16: ig://BjcbhtflPr-/m
-photo.16.author: sobu9529
-photo.16.commitdate: 2018/7/21
-photo.16.link: https://www.instagram.com/sobu9529/
-photo.17: ig://BzbfawohX8C/m
-photo.17.author: ssc6105
-photo.17.commitdate: 2019/7/9
-photo.17.link: https://www.instagram.com/ssc6105/
-photo.17.tags: portrait
-photo.18: ig://B0icrk-BYMa/m
-photo.18.author: ifumoto88
-photo.18.commitdate: 2019/7/30
-photo.18.link: https://www.instagram.com/ifumoto88/
+photo.13.link: https://www.instagram.com/sobu9529/
+photo.14: ig://BzbfawohX8C/m
+photo.14.author: ssc6105
+photo.14.commitdate: 2019/7/9
+photo.14.link: https://www.instagram.com/ssc6105/
+photo.14.tags: portrait
+photo.15: ig://B0icrk-BYMa/m
+photo.15.author: ifumoto88
+photo.15.commitdate: 2019/7/30
+photo.15.link: https://www.instagram.com/ifumoto88/
+photo.15.tags: air tasting, portrait, tongue
+photo.16: ig://B0ipkpEheeR/m
+photo.16.author: firefoxpanda88
+photo.16.commitdate: 2019/7/30
+photo.16.link: https://www.instagram.com/firefoxpanda88/
+photo.16.tags: paws, standing, tail
+photo.17: ig://B0j2rd6nffx/m
+photo.17.author: _rifa_p
+photo.17.commitdate: 2019/7/30
+photo.17.link: https://www.instagram.com/_rifa_p/
+photo.17.tags: paws, standing
+photo.18: ig://B0n36tgBwzl/m
+photo.18.author: rie_panda55
+photo.18.commitdate: 2019/8/2
+photo.18.link: https://www.instagram.com/rie_panda55/
 photo.18.tags: air tasting, portrait, tongue
-photo.19: ig://B0ipkpEheeR/m
-photo.19.author: firefoxpanda88
-photo.19.commitdate: 2019/7/30
-photo.19.link: https://www.instagram.com/firefoxpanda88/
-photo.19.tags: paws, standing, tail
-photo.20: ig://B0j2rd6nffx/m
-photo.20.author: _rifa_p
-photo.20.commitdate: 2019/7/30
-photo.20.link: https://www.instagram.com/_rifa_p/
-photo.20.tags: paws, standing
-photo.21: ig://B0kMKb1HLaS/m
-photo.21.author: tabechum
-photo.21.commitdate: 2019/7/30
-photo.21.link: https://www.instagram.com/tabechum/
-photo.21.tags: flowers, peek, portrait
-photo.22: ig://B0n36tgBwzl/m
-photo.22.author: rie_panda55
-photo.22.commitdate: 2019/8/2
-photo.22.link: https://www.instagram.com/rie_panda55/
-photo.22.tags: air tasting, portrait, tongue
-photo.23: ig://B0pLTsNB3iq/m
-photo.23.author: rnrirhrh
-photo.23.commitdate: 2019/8/2
-photo.23.link: https://www.instagram.com/rnrirhrh/
-photo.23.tags: portrait, tail, tongue
+photo.19: ig://B0pLTsNB3iq/m
+photo.19.author: rnrirhrh
+photo.19.commitdate: 2019/8/2
+photo.19.link: https://www.instagram.com/rnrirhrh/
+photo.19.tags: portrait, tail, tongue
 species: 2
 studbook.id: 0782
 zoo: 18
