@@ -317,8 +317,9 @@ photo.61.author: fetorus_mami
 photo.61.commitdate: 2022/6/2
 photo.61.link: https://www.instagram.com/fetorus_mami/
 photo.61.tags: close-up, sample, smile, whiskers
-photo.62: https://www.instagram.com/p/CeTZeXwNO0z/media/?size=m
+photo.62: ig://CeTZeXwNO0z/m
 photo.62.author: otenba_redpanda
+photo.62.commitdate: 2022/7/11
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: mofumofu, portrait, sample, techitechi, whiskers
 species: 2

@@ -201,18 +201,21 @@ photo.38.author: hamiiiii831_
 photo.38.commitdate: 2021/12/30
 photo.38.link: https://www.instagram.com/hamiiiii831_/
 photo.38.tags: bridge, peek, tongue, whiskers
-photo.39: https://www.instagram.com/p/Cej47NCBqkR/media/?size=m
+photo.39: ig://Cej47NCBqkR/m
 photo.39.author: craig_craig_craig
+photo.39.commitdate: 2022/7/11
 photo.39.link: https://www.instagram.com/craig_craig_craig/
 photo.39.tags: bite, portrait, sample, tongue, whiskers
-photo.40: https://www.instagram.com/p/CfJp9rTPj7p/media/?size=m
+photo.40: ig://Ce_Ys9-P95H/m
 photo.40.author: craig_craig_craig
+photo.40.commitdate: 2022/7/11
 photo.40.link: https://www.instagram.com/craig_craig_craig/
-photo.40.tags: peek, portrait
-photo.41: https://www.instagram.com/p/Ce_Ys9-P95H/media/?size=m
+photo.40.tags: portrait, sample, tongue
+photo.41: ig://CfJp9rTPj7p/m
 photo.41.author: craig_craig_craig
+photo.41.commitdate: 2022/7/11
 photo.41.link: https://www.instagram.com/craig_craig_craig/
-photo.41.tags: portrait, sample, tongue
+photo.41.tags: peek, portrait
 species: 2
 studbook.id: 15142
 zoo: 25

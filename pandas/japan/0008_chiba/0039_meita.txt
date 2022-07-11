@@ -823,8 +823,9 @@ photo.162.author: ifumoto88
 photo.162.commitdate: 2022/6/6
 photo.162.link: https://www.instagram.com/ifumoto88/
 photo.162.tags: portrait, sample, whiskers
-photo.163: https://www.instagram.com/p/CeUgghiBOWS/media/?size=m
+photo.163: ig://CeUgghiBOWS/m
 photo.163.author: panda.daisuki
+photo.163.commitdate: 2022/7/11
 photo.163.link: https://www.instagram.com/panda.daisuki/
 photo.163.tags: portrait, sample, smile, whiskers
 species: 2

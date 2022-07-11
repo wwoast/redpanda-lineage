@@ -645,10 +645,11 @@ photo.126.author: hamamatsu.chiita
 photo.126.commitdate: 2022/5/18
 photo.126.link: https://www.instagram.com/hamamatsu.chiita/
 photo.126.tags: close-up, portrait, sample, whiskers
-photo.127: https://www.instagram.com/p/CegHurqBqDd/media/?size=m
+photo.127: ig://CegHurqBqDd/m
 photo.127.author: tomo3700
+photo.127.commitdate: 2022/7/11
 photo.127.link: https://www.instagram.com/tomo3700/
-photo.127.tags: close-up, peek, portrait, tree 
+photo.127.tags: close-up, peek, portrait, tree
 species: 2
 studbook.id: 0672
 zoo: 13

@@ -69,8 +69,9 @@ photo.11.author: grskus_tk
 photo.11.commitdate: 2022/2/18
 photo.11.link: https://www.instagram.com/grskus_tk/
 photo.11.tags: paws, whiskers
-photo.12: https://www.instagram.com/p/CbqtvIPBQMS/media/?size=m
+photo.12: ig://CbqtvIPBQMS/m
 photo.12.author: ngsbiopark
+photo.12.commitdate: 2022/7/11
 photo.12.link: https://www.instagram.com/ngsbiopark/
 photo.12.tags: sample, whiskers
 species: 2

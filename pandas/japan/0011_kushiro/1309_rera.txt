@@ -118,14 +118,15 @@ photo.21.author: komabazoophoto
 photo.21.commitdate: 2022/6/6
 photo.21.link: https://www.instagram.com/komabazoophoto/
 photo.21.tags: close-up, portrait, snow, tongue
-photo.22: ig://CeglPgqPgIG/m
-photo.22.author: fetorus_mami
-photo.22.commitdate: 2022/6/22
-photo.22.link: https://www.instagram.com/fetorus_mami/
-photo.22.tags: mofumofu, peek, sample, tree
-photo.23: https://www.instagram.com/p/CeYZM6cve0J/media/?size=m
-photo.23.author: komabazoophoto
-photo.23.link: https://www.instagram.com/komabazoophoto/
-photo.23.tags: mofumofu, paws, peek, portrait, sample, snow
+photo.22: ig://CeYZM6cve0J/m
+photo.22.author: komabazoophoto
+photo.22.commitdate: 2022/7/11
+photo.22.link: https://www.instagram.com/komabazoophoto/
+photo.22.tags: mofumofu, paws, peek, portrait, sample, snow
+photo.23: ig://CeglPgqPgIG/m
+photo.23.author: fetorus_mami
+photo.23.commitdate: 2022/6/22
+photo.23.link: https://www.instagram.com/fetorus_mami/
+photo.23.tags: mofumofu, peek, sample, tree
 species: 2
 zoo: 11
