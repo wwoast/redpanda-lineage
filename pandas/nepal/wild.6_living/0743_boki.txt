@@ -39,8 +39,9 @@ photo.6.author: redpandanetwork
 photo.6.commitdate: 2021/11/14
 photo.6.link: https://www.instagram.com/redpandanetwork/
 photo.6.tags: portrait, tree
-photo.7: https://www.instagram.com/p/CfNgW-mrVgp/media/?size=m
+photo.7: ig://CfNgW-mrVgp/m
 photo.7.author: redpandanetwork
+photo.7.commitdate: 2022/7/14
 photo.7.link: https://www.instagram.com/redpandanetwork/
 photo.7.tags: laying down, mofumofu, paws, portrait, sample, tree, wet
 species: 3

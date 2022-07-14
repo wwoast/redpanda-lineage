@@ -1526,25 +1526,26 @@ photo.303.author: gloryeui
 photo.303.commitdate: 2022/6/29
 photo.303.link: https://www.instagram.com/gloryeui/
 photo.303.tags: portrait, whiskers
-photo.304: ig://CfUtK0lLKwx/m
-photo.304.author: otenba_redpanda
-photo.304.commitdate: 2022/7/9
-photo.304.link: https://www.instagram.com/otenba_redpanda/
-photo.304.tags: keeper, lips, paws, sample, standing, whiskers
-photo.305: ig://CfVrIW1Pway/m
-photo.305.author: pantasanzoo1
+photo.304: ig://CfLsziauLXD/m
+photo.304.author: gloryeui
+photo.304.commitdate: 2022/7/14
+photo.304.link: https://www.instagram.com/gloryeui/
+photo.304.tags: portrait, sample, tail, whiskers
+photo.305: ig://CfUtK0lLKwx/m
+photo.305.author: otenba_redpanda
 photo.305.commitdate: 2022/7/9
-photo.305.link: https://www.instagram.com/pantasanzoo1/
-photo.305.tags: close-up, dish, peek, sample, whiskers
-photo.306: ig://CfWZ6xEJOGQ/m
-photo.306.author: minatomirai215
+photo.305.link: https://www.instagram.com/otenba_redpanda/
+photo.305.tags: keeper, lips, paws, sample, standing, whiskers
+photo.306: ig://CfVrIW1Pway/m
+photo.306.author: pantasanzoo1
 photo.306.commitdate: 2022/7/9
-photo.306.link: https://www.instagram.com/minatomirai215/
-photo.306.tags: dish, peek, portrait, sample, tail
-photo.307: https://www.instagram.com/p/CfLsziauLXD/media/?size=m
-photo.307.author: gloryeui
-photo.307.link: https://www.instagram.com/gloryeui/
-photo.307.tags: portrait, sample, tail, whiskers
+photo.306.link: https://www.instagram.com/pantasanzoo1/
+photo.306.tags: close-up, dish, peek, sample, whiskers
+photo.307: ig://CfWZ6xEJOGQ/m
+photo.307.author: minatomirai215
+photo.307.commitdate: 2022/7/9
+photo.307.link: https://www.instagram.com/minatomirai215/
+photo.307.tags: dish, peek, portrait, sample, tail
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

@@ -1434,15 +1434,16 @@ photo.289.author: cattail.sapporo
 photo.289.commitdate: 2022/6/22
 photo.289.link: https://www.instagram.com/cattail.sapporo/
 photo.289.tags: close-up, mofumofu, paws, portrait, whiskers
-photo.290: ig://CfbRMeOr-IV/m
-photo.290.author: cattail.sapporo
-photo.290.commitdate: 2022/7/9
-photo.290.link: https://www.instagram.com/cattail.sapporo/
-photo.290.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.291: https://www.instagram.com/p/CfMV6FpvRJo/media/?size=m
-photo.291.author: minatomirai215
-photo.291.link: https://www.instagram.com/minatomirai215/
-photo.291.tags: keeper, nose, portrait, snow
+photo.290: ig://CfMV6FpvRJo/m
+photo.290.author: minatomirai215
+photo.290.commitdate: 2022/7/14
+photo.290.link: https://www.instagram.com/minatomirai215/
+photo.290.tags: keeper, nose, portrait, snow
+photo.291: ig://CfbRMeOr-IV/m
+photo.291.author: cattail.sapporo
+photo.291.commitdate: 2022/7/9
+photo.291.link: https://www.instagram.com/cattail.sapporo/
+photo.291.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0674
 zoo: 7

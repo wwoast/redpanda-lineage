@@ -20,22 +20,24 @@ photo.1.author: wildlife.safari
 photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: birthday, close-up, grapes, lunch time, whiskers
-photo.2: ig://Cepwr8Pu0eV/m
-photo.2.author: wumpwoast
-photo.2.commitdate: 2022/6/21
-photo.2.link: https://www.instagram.com/wumpwoast/
-photo.2.tags: close-up, portrait, profile, smile
-photo.3: ig://Ce147D3PmN8/m
+photo.2: ig://CYHA71WrMUt/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2022/7/14
+photo.2.link: https://www.instagram.com/worldthathesees/
+photo.2.tags: door, whiskers
+photo.3: ig://Cepwr8Pu0eV/m
 photo.3.author: wumpwoast
 photo.3.commitdate: 2022/6/21
 photo.3.link: https://www.instagram.com/wumpwoast/
-photo.3.tags: laying down, mofumofu, sample
-photo.4: https://www.instagram.com/p/CYHA71WrMUt/media/?size=m
-photo.4.author: worldthathesees
-photo.4.link: https://www.instagram.com/worldthathesees/
-photo.4.tags: door, whiskers
-photo.5: https://www.instagram.com/p/CfN3bmBunaf/media/?size=m
+photo.3.tags: close-up, portrait, profile, smile
+photo.4: ig://Ce147D3PmN8/m
+photo.4.author: wumpwoast
+photo.4.commitdate: 2022/6/21
+photo.4.link: https://www.instagram.com/wumpwoast/
+photo.4.tags: laying down, mofumofu, sample
+photo.5: ig://CfN3bmBunaf/m
 photo.5.author: wumpwoast
+photo.5.commitdate: 2022/7/14
 photo.5.link: https://www.instagram.com/wumpwoast/
 photo.5.tags: close-up, lunch time, tongue, whiskers
 species: 1

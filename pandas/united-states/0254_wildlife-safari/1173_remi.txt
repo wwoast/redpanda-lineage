@@ -20,18 +20,20 @@ photo.1.author: wildlife.safari
 photo.1.commitdate: 2022/6/6
 photo.1.link: https://www.instagram.com/wildlife.safari/
 photo.1.tags: peek, toys
-photo.2: ig://CexBXA7pBsv/m
-photo.2.author: wumpwoast
-photo.2.commitdate: 2022/6/21
-photo.2.link: https://www.instagram.com/wumpwoast/
-photo.2.tags: close-up, peek, portrait, sample
-photo.3: https://www.instagram.com/p/CYHBBtbLPz_/media/?size=m
-photo.3.author: worldthathesees
-photo.3.link: https://www.instagram.com/worldthathesees
-photo.3.tags: bamboo, tongue, whiskers
-photo.4: https://www.instagram.com/p/CfBCW9su-sI/media/?size=m
+photo.2: ig://CYHBBtbLPz_/m
+photo.2.author: worldthathesees
+photo.2.commitdate: 2022/7/14
+photo.2.link: https://www.instagram.com/worldthathesees
+photo.2.tags: bamboo, tongue, whiskers
+photo.3: ig://CexBXA7pBsv/m
+photo.3.author: wumpwoast
+photo.3.commitdate: 2022/6/21
+photo.3.link: https://www.instagram.com/wumpwoast/
+photo.3.tags: close-up, peek, portrait, sample
+photo.4: ig://CfBCW9su-sI/m
 photo.4.author: wumpwoast
+photo.4.commitdate: 2022/7/14
 photo.4.link: https://www.instagram.com/wumpwoast/
-photo.4.tags: portrait, sample, wet, whiskers 
+photo.4.tags: portrait, sample, wet, whiskers
 species: 1
 zoo: 254
