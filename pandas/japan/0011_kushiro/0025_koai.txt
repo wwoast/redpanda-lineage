@@ -394,20 +394,21 @@ photo.77.author: sasapan34
 photo.77.commitdate: 2022/1/9
 photo.77.link: https://www.instagram.com/sasapan34/
 photo.77.tags: sample, whiskers
-photo.78: ig://CcwD4CYh4YX/m
-photo.78.author: fetorus_mami
-photo.78.commitdate: 2022/5/27
-photo.78.link: https://www.instagram.com/fetorus_mami/
-photo.78.tags: paws, sample, whiskers
-photo.79: ig://CeoSjlTvjxK/m
-photo.79.author: minatomirai215
-photo.79.commitdate: 2022/6/21
-photo.79.link: https://www.instagram.com/minatomirai215/
-photo.79.tags: paws, portrait, sample, whiskers
-photo.80: https://www.instagram.com/p/CYENxWBBAl4/media/?size=m
-photo.80.author: mifko55
-photo.80.link: https://www.instagram.com/mifko55/
-photo.80.tags: peek, portrait
+photo.78: ig://CYENxWBBAl4/m
+photo.78.author: mifko55
+photo.78.commitdate: 2022/7/13
+photo.78.link: https://www.instagram.com/mifko55/
+photo.78.tags: peek, portrait
+photo.79: ig://CcwD4CYh4YX/m
+photo.79.author: fetorus_mami
+photo.79.commitdate: 2022/5/27
+photo.79.link: https://www.instagram.com/fetorus_mami/
+photo.79.tags: paws, sample, whiskers
+photo.80: ig://CeoSjlTvjxK/m
+photo.80.author: minatomirai215
+photo.80.commitdate: 2022/6/21
+photo.80.link: https://www.instagram.com/minatomirai215/
+photo.80.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0458
 zoo: 11

@@ -1002,15 +1002,16 @@ photo.198.author: kotata_513
 photo.198.commitdate: 2021/12/19
 photo.198.link: https://www.instagram.com/kotata_513/
 photo.198.tags: laying down, paws, portrait, sample
-photo.199: ig://Cd-kwhcvmtO/m
-photo.199.author: daniele.tokyo
-photo.199.commitdate: 2022/6/29
-photo.199.link: https://www.instagram.com/daniele.tokyo/
-photo.199.tags: paws, sample, standing, toys
-photo.200: https://www.instagram.com/p/CauUsjWvoOL/media/?size=m
-photo.200.author: mifko55
-photo.200.link: https://www.instagram.com/mifko55/
-photo.200.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.199: ig://CauUsjWvoOL/m
+photo.199.author: mifko55
+photo.199.commitdate: 2022/7/13
+photo.199.link: https://www.instagram.com/mifko55/
+photo.199.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.200: ig://Cd-kwhcvmtO/m
+photo.200.author: daniele.tokyo
+photo.200.commitdate: 2022/6/29
+photo.200.link: https://www.instagram.com/daniele.tokyo/
+photo.200.tags: paws, sample, standing, toys
 species: 2
 studbook.id: 1779
 zoo: 20

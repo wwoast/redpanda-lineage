@@ -669,8 +669,9 @@ photo.131.author: makimaru18
 photo.131.commitdate: 2022/6/29
 photo.131.link: https://www.instagram.com/makimaru18/
 photo.131.tags: paws, portrait, standing
-photo.132: https://www.instagram.com/p/CegjZPHB4Bp/media/?size=m
+photo.132: ig://CegjZPHB4Bp/m
 photo.132.author: akiakiakiko18
+photo.132.commitdate: 2022/7/13
 photo.132.link: https://www.instagram.com/akiakiakiko18/
 photo.132.tags: close-up, portrait, sample, whiskers
 species: 2

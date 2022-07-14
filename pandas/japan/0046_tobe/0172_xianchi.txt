@@ -239,15 +239,16 @@ photo.45.author: itsuak
 photo.45.commitdate: 2022/1/4
 photo.45.link: https://www.instagram.com/itsuak/
 photo.45.tags: portrait, tail, whiskers
-photo.46: ig://Ce3m49RP63X/m
-photo.46.author: itsuak
-photo.46.commitdate: 2022/6/21
-photo.46.link: https://www.instagram.com/itsuak/
-photo.46.tags: door, portrait, sample, smile, whiskers
-photo.47: https://www.instagram.com/p/CazgeSAPGwA/media/?size=m
-photo.47.author: mifko55
-photo.47.link: https://www.instagram.com/mifko55/
-photo.47.tags: portrait, sample, whiskers
+photo.46: ig://CazgeSAPGwA/m
+photo.46.author: mifko55
+photo.46.commitdate: 2022/7/13
+photo.46.link: https://www.instagram.com/mifko55/
+photo.46.tags: portrait, sample, whiskers
+photo.47: ig://Ce3m49RP63X/m
+photo.47.author: itsuak
+photo.47.commitdate: 2022/6/21
+photo.47.link: https://www.instagram.com/itsuak/
+photo.47.tags: door, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 0768
 zoo: 46

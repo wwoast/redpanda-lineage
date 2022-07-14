@@ -288,8 +288,9 @@ photo.54.author: kisshan324
 photo.54.commitdate: 2021/4/28
 photo.54.link: https://www.instagram.com/kisshan324/
 photo.54.tags: portrait, tail, tree
-photo.55: https://www.instagram.com/p/CT9HtDoBFUt/media/?size=m
+photo.55: ig://CT9HtDoBFUt/m
 photo.55.author: mifko55
+photo.55.commitdate: 2022/7/13
 photo.55.link: https://www.instagram.com/mifko55/
 photo.55.tags: home, portrait, sample
 species: 2
