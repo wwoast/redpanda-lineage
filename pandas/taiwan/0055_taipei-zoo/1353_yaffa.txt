@@ -71,12 +71,14 @@ photo.11.author: yuredpanda
 photo.11.commitdate: 2022/4/19
 photo.11.link: https://www.instagram.com/yuredpanda/
 photo.11.tags: peek, tail, whiskers
-photo.12: https://www.instagram.com/p/CfGw3CiP03C/media/?size=m
+photo.12: ig://CfGw3CiP03C/m
 photo.12.author: yuredpanda
+photo.12.commitdate: 2022/7/18
 photo.12.link: https://www.instagram.com/yuredpanda/
 photo.12.tags: lips, portrait, sample, tail, whiskers
-photo.13: https://www.instagram.com/p/CfQ6xq8vU0R/media/?size=m
+photo.13: ig://CfQ6xq8vU0R/m
 photo.13.author: yuredpanda
+photo.13.commitdate: 2022/7/18
 photo.13.link: https://www.instagram.com/yuredpanda/
 photo.13.tags: peek, portrait, sample, whiskers
 species: 2

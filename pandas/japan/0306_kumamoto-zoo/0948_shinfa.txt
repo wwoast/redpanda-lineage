@@ -810,13 +810,15 @@ photo.159.author: kumamoto_doushokubutsuen
 photo.159.commitdate: 2022/6/1
 photo.159.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.159.tags: bamboo, portrait, sample, toys
-photo.160: https://www.instagram.com/p/CfFdbv9L3lh/media/?size=m
-photo.160.author: otenba_redpanda
-photo.160.link: https://www.instagram.com/otenba_redpanda/
-photo.160.tags: mofumofu, portrait, sample, whiskers
-photo.161: https://www.instagram.com/p/CfEVUHzvfel/media/?size=m
-photo.161.author: redpan22
-photo.161.link: https://www.instagram.com/redpan22/
-photo.161.tags: close-up, dish, lunch time, smile, whiskers
+photo.160: ig://CfEVUHzvfel/m
+photo.160.author: redpan22
+photo.160.commitdate: 2022/7/18
+photo.160.link: https://www.instagram.com/redpan22/
+photo.160.tags: close-up, dish, lunch time, smile, whiskers
+photo.161: ig://CfFdbv9L3lh/m
+photo.161.author: otenba_redpanda
+photo.161.commitdate: 2022/7/18
+photo.161.link: https://www.instagram.com/otenba_redpanda/
+photo.161.tags: mofumofu, portrait, sample, whiskers
 species: 2
 zoo: 306

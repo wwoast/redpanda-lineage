@@ -388,25 +388,26 @@ photo.75.author: minatomirai215
 photo.75.commitdate: 2022/6/21
 photo.75.link: https://www.instagram.com/minatomirai215/
 photo.75.tags: mofumofu, peek, portrait, tree, white face
-photo.76: ig://CfEJQy9vgwX/m
-photo.76.author: jas_forever_love
-photo.76.commitdate: 2022/7/9
-photo.76.link: https://www.instagram.com/jas_forever_love/
-photo.76.tags: close-up, sample, whiskers
-photo.77: ig://CfEQjOlPsWb/m
-photo.77.author: fetorus_mami
+photo.76: ig://CfEGRKvvXyZ/m
+photo.76.author: daniele.tokyo
+photo.76.commitdate: 2022/7/18
+photo.76.link: https://www.instagram.com/daniele.tokyo/
+photo.76.tags: dish, flowers, sample, whiskers
+photo.77: ig://CfEJQy9vgwX/m
+photo.77.author: jas_forever_love
 photo.77.commitdate: 2022/7/9
-photo.77.link: https://www.instagram.com/fetorus_mami/
-photo.77.tags: bamboo, close-up, paws, sample, white face
-photo.78: ig://CfEXpdtvUwg/m
-photo.78.author: colette.jp
+photo.77.link: https://www.instagram.com/jas_forever_love/
+photo.77.tags: close-up, sample, whiskers
+photo.78: ig://CfEQjOlPsWb/m
+photo.78.author: fetorus_mami
 photo.78.commitdate: 2022/7/9
-photo.78.link: https://www.instagram.com/colette.jp/
-photo.78.tags: portrait, sample, standing, tree
-photo.79: https://www.instagram.com/p/CfEGRKvvXyZ/media/?size=m
-photo.79.author: daniele.tokyo
-photo.79.link: https://www.instagram.com/daniele.tokyo/
-photo.79.tags: dish, flowers, sample, whiskers
+photo.78.link: https://www.instagram.com/fetorus_mami/
+photo.78.tags: bamboo, close-up, paws, sample, white face
+photo.79: ig://CfEXpdtvUwg/m
+photo.79.author: colette.jp
+photo.79.commitdate: 2022/7/9
+photo.79.link: https://www.instagram.com/colette.jp/
+photo.79.tags: portrait, sample, standing, tree
 species: 2
 studbook.id: 12109
 zoo: 10

@@ -703,8 +703,9 @@ photo.139.author: ifumoto88
 photo.139.commitdate: 2022/6/2
 photo.139.link: https://www.instagram.com/ifumoto88/
 photo.139.tags: close-up, sample, smile, whiskers
-photo.140: https://www.instagram.com/p/CfAzd5-vtbP/media/?size=m
+photo.140: ig://CfAzd5-vtbP/m
 photo.140.author: ssc6105
+photo.140.commitdate: 2022/7/18
 photo.140.link: https://www.instagram.com/ssc6105/
 photo.140.tags: dish, laying down, paws, portrait, sample, whiskers
 species: 2

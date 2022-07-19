@@ -186,10 +186,11 @@ photo.35.author: hamamatsu.chiita
 photo.35.commitdate: 2022/6/29
 photo.35.link: https://www.instagram.com/hamamatsu.chiita/
 photo.35.tags: close-up, portrait, sample, techitechi, whiskers
-photo.36: https://www.instagram.com/p/CfZvlH4hhlR/media/?size=m
+photo.36: ig://CfZvlH4hhlR/m
 photo.36.author: hamamatsu.chiita
+photo.36.commitdate: 2022/7/18
 photo.36.link: https://www.instagram.com/hamamatsu.chiita/
-photo.36.tags: bear worm, bridge, ear, laying down, paws, portrait, sample, tongue 
+photo.36.tags: bear worm, bridge, ear, laying down, paws, portrait, sample, tongue
 species: 2
 studbook.id: 14162
 zoo: 31

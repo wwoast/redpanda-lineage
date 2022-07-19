@@ -660,8 +660,9 @@ photo.130.author: minatomirai215
 photo.130.commitdate: 2022/6/21
 photo.130.link: https://www.instagram.com/minatomirai215/
 photo.130.tags: portrait, smile, whiskers
-photo.131: https://www.instagram.com/p/CfGwXaAvOub/media/?size=m
+photo.131: ig://CfGwXaAvOub/m
 photo.131.author: minatomirai215
+photo.131.commitdate: 2022/7/18
 photo.131.link: https://www.instagram.com/minatomirai215/
 photo.131.tags: portrait, whiskers
 species: 2
