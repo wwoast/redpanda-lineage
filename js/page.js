@@ -295,6 +295,9 @@ Page.home.render = function() {
     // Halloween
     // var halloween = Gallery.special.pumpkin(L.display, 3);
     // new_content.appendChild(halloween);
+    // Kin Gin special
+    var kingin = Gallery.memorialPhotoCreditsGroup(L.display, "media.7.gin-kin", ["22", "17"], 3);
+    new_content.appendChild(kingin);
     // Current memorials
     var memorial_ids = [];
     var departed = Gallery.memorialPhotoCredits(L.display, memorial_ids, 3, Message.memorial);
