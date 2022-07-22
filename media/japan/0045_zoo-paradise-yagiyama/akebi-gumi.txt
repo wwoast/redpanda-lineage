@@ -99,15 +99,17 @@ photo.14.link: https://www.instagram.com/pink.b22/
 photo.14.tags: apple time, home, paws, siblings, sisters, twins
 photo.14.tags.1195.location: 275, 115
 photo.14.tags.1196.location: 375, 195
-photo.15: https://www.instagram.com/p/CfZF-QlrzMe/media/?size=l
-photo.15.author: minatomirai215
-photo.15.link: https://www.instagram.com/minatomirai215/
-photo.15.tags: home, portrait, siblings, sisters, twins
-photo.15.tags.1195.location: 365, 250
-photo.15.tags.1196.location: 105, 180
-photo.16: https://www.instagram.com/p/CfYxP2lvPor/media/?size=l
-photo.16.author: alto0908
-photo.16.link: https://www.instagram.com/alto0908/
-photo.16.tags: close-up, home, portrait, sample, siblings, sisters, twins
-photo.16.tags.1195.location: 315, 340
-photo.16.tags.1196.location: 190, 130
+photo.15: ig://CfYxP2lvPor/l
+photo.15.author: alto0908
+photo.15.commitdate: 2022/7/22
+photo.15.link: https://www.instagram.com/alto0908/
+photo.15.tags: close-up, home, portrait, sample, siblings, sisters, twins
+photo.15.tags.1195.location: 315, 340
+photo.15.tags.1196.location: 190, 130
+photo.16: ig://CfZF-QlrzMe/l
+photo.16.author: minatomirai215
+photo.16.commitdate: 2022/7/22
+photo.16.link: https://www.instagram.com/minatomirai215/
+photo.16.tags: home, portrait, siblings, sisters, twins
+photo.16.tags.1195.location: 365, 250
+photo.16.tags.1196.location: 105, 180

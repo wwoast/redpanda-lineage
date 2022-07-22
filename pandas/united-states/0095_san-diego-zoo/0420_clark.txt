@@ -199,8 +199,9 @@ photo.37.author: rossifari
 photo.37.commitdate: 2022/4/8
 photo.37.link: https://www.instagram.com/rossifari/
 photo.37.tags: blink, close-up, paws, portrait, sample, tongue, tree
-photo.38: https://www.instagram.com/p/CfTucRcOPTe/media/?size=m
+photo.38: ig://CfTucRcOPTe/m
 photo.38.author: rossifari
+photo.38.commitdate: 2022/7/22
 photo.38.link: https://www.instagram.com/rossifari/
 photo.38.tags: tongue, whiskers
 species: 2

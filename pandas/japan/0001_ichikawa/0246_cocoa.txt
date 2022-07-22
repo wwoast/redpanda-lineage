@@ -1268,15 +1268,16 @@ photo.251.author: ifumoto88
 photo.251.commitdate: 2022/6/6
 photo.251.link: https://www.instagram.com/ifumoto88/
 photo.251.tags: bamboo, bite, close-up, mofumofu, portrait, shoots, whiskers
-photo.252: ig://CfW7cc2PSwx/m
-photo.252.author: na.mo.pan
-photo.252.commitdate: 2022/7/9
-photo.252.link: https://www.instagram.com/na.mo.pan/
-photo.252.tags: bamboo, portrait, smile, tail
-photo.253: https://www.instagram.com/p/CfVWMI_PIGf/media/?size=m
-photo.253.author: ssc6105
-photo.253.link: https://www.instagram.com/ssc6105/
-photo.253.tags: paws, peek
+photo.252: ig://CfVWMI_PIGf/m
+photo.252.author: ssc6105
+photo.252.commitdate: 2022/7/22
+photo.252.link: https://www.instagram.com/ssc6105/
+photo.252.tags: paws, peek
+photo.253: ig://CfW7cc2PSwx/m
+photo.253.author: na.mo.pan
+photo.253.commitdate: 2022/7/9
+photo.253.link: https://www.instagram.com/na.mo.pan/
+photo.253.tags: bamboo, portrait, smile, tail
 species: 2
 studbook.id: unknown
 zoo: 1

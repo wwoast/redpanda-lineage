@@ -1050,8 +1050,9 @@ photo.207.author: carsontheredpanda
 photo.207.commitdate: 2022/6/29
 photo.207.link: https://www.instagram.com/carsontheredpanda/
 photo.207.tags: paws, portrait, sample, whiskers, white face
-photo.208: https://www.instagram.com/p/CfU9vYEvdFS/media/?size=m
+photo.208: ig://CfU9vYEvdFS/m
 photo.208.author: wumpwoast
+photo.208.commitdate: 2022/7/22
 photo.208.link: https://www.instagram.com/wumpwoast/
 photo.208.tags: bamboo, bite, close-up, portrait, sample, whiskers, white face
 species: 1

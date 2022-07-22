@@ -726,19 +726,21 @@ photo.143.author: fetorus_mami
 photo.143.commitdate: 2022/6/29
 photo.143.link: https://www.instagram.com/fetorus_mami/
 photo.143.tags: laying down, peek, sample, whiskers
-photo.144: ig://CfSzXfBPsIA/m
+photo.144: ig://CfOOFOAP9KQ/m
 photo.144.author: fetorus_mami
-photo.144.commitdate: 2022/7/9
+photo.144.commitdate: 2022/7/22
 photo.144.link: https://www.instagram.com/fetorus_mami/
-photo.144.tags: bamboo, mofumofu, sample, smile, wink
-photo.145: https://www.instagram.com/p/CfO4h4_PoXL/media/?size=m
+photo.144.tags: whiskers, white face
+photo.145: ig://CfO4h4_PoXL/m
 photo.145.author: minatomirai215
+photo.145.commitdate: 2022/7/22
 photo.145.link: https://www.instagram.com/minatomirai215/
 photo.145.tags: bamboo, bite, paws, portrait, standing
-photo.146: https://www.instagram.com/p/CfOOFOAP9KQ/media/?size=m
+photo.146: ig://CfSzXfBPsIA/m
 photo.146.author: fetorus_mami
+photo.146.commitdate: 2022/7/9
 photo.146.link: https://www.instagram.com/fetorus_mami/
-photo.146.tags: whiskers, white face
+photo.146.tags: bamboo, mofumofu, sample, smile, wink
 species: 2
 studbook.id: 1772
 uncertainty: exact location.2 date (git history)

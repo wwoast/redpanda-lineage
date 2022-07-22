@@ -1750,10 +1750,11 @@ photo.349.author: cattail.sapporo
 photo.349.commitdate: 2022/7/9
 photo.349.link: https://www.instagram.com/cattail.sapporo/
 photo.349.tags: mofumofu, paws, portrait, sample, tail, whiskers
-photo.350: https://www.instagram.com/p/CfYz7DAr6pE/media/?size=m
+photo.350: ig://CfYz7DAr6pE/m
 photo.350.author: cattail.sapporo
+photo.350.commitdate: 2022/7/22
 photo.350.link: https://www.instagram.com/cattail.sapporo/
-photo.350.tags: bridge, laying down, mofumofu, paws, portrait, tongue, whiskers 
+photo.350.tags: bridge, laying down, mofumofu, paws, portrait, tongue, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

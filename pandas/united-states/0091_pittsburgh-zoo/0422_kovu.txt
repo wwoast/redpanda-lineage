@@ -44,26 +44,31 @@ photo.6.author: pghzoo
 photo.6.commitdate: 2021/10/10
 photo.6.link: https://www.instagram.com/pghzoo/
 photo.6.tags: smile, whiskers
-photo.7: https://www.instagram.com/p/CfCRNLlu6pF/media/?size=m
+photo.7: ig://CYJ0UZuOUXj/m
 photo.7.author: pghzoo
+photo.7.commitdate: 2022/7/22
 photo.7.link: https://www.instagram.com/pghzoo/
-photo.7.tags: close-up, paws, portrait, whiskers
-photo.8: https://www.instagram.com/p/CcQVkg-NOCB/media/?size=m
+photo.7.tags: paws, whiskers
+photo.8: ig://CbDNXK8ugnJ/m
 photo.8.author: pghzoo
+photo.8.commitdate: 2022/7/22
 photo.8.link: https://www.instagram.com/pghzoo/
-photo.8.tags: peek, smile, whiskers
-photo.9: https://www.instagram.com/p/Cbc6wecOWhW/media/?size=m
+photo.8.tags: close-up, smile, whiskers
+photo.9: ig://Cbc6wecOWhW/m
 photo.9.author: pghzoo
+photo.9.commitdate: 2022/7/22
 photo.9.link: https://www.instagram.com/pghzoo/
 photo.9.tags: close-up, tail, whiskers
-photo.10: https://www.instagram.com/p/CbDNXK8ugnJ/media/?size=m
+photo.10: ig://CcQVkg-NOCB/m
 photo.10.author: pghzoo
+photo.10.commitdate: 2022/7/22
 photo.10.link: https://www.instagram.com/pghzoo/
-photo.10.tags: close-up, smile, whiskers
-photo.11: https://www.instagram.com/p/CYJ0UZuOUXj/media/?size=m
+photo.10.tags: peek, smile, whiskers
+photo.11: ig://CfCRNLlu6pF/m
 photo.11.author: pghzoo
+photo.11.commitdate: 2022/7/22
 photo.11.link: https://www.instagram.com/pghzoo/
-photo.11.tags: paws, whiskers
+photo.11.tags: close-up, paws, portrait, whiskers
 species: 2
 studbook.id: 1426
 zoo: 91
