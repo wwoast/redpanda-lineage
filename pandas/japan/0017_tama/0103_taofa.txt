@@ -833,8 +833,9 @@ photo.164.author: otenba_redpanda
 photo.164.commitdate: 2022/6/29
 photo.164.link: https://www.instagram.com/otenba_redpanda/
 photo.164.tags: peek, portrait, sample, smile, tongue, whiskers
-photo.165: https://www.instagram.com/p/CfAVBYRBS5F/media/?size=m
+photo.165: ig://CfAVBYRBS5F/m
 photo.165.author: miis_98
+photo.165.commitdate: 2022/7/23
 photo.165.link: https://www.instagram.com/miis_98/
 photo.165.tags: portrait, sample, tongue, tree, whiskers
 species: 2

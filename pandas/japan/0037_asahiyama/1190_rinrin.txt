@@ -133,32 +133,34 @@ photo.24.author: sasapan34
 photo.24.commitdate: 2021/8/22
 photo.24.link: https://www.instagram.com/sasapan34/
 photo.24.tags: smile, snow, white face
-photo.25: ig://CRsZBk5B4JF/m
-photo.25.author: sasapan34
-photo.25.commitdate: 2021/9/6
-photo.25.link: https://www.instagram.com/sasapan34/
-photo.25.tags: bridge, laying down, white face
-photo.26: ig://CR0o5cThnTH/m
+photo.25: ig://CRloE5xhka-/m
+photo.25.author: nishicotolo
+photo.25.commitdate: 2022/7/23
+photo.25.link: https://www.instagram.com/nishicotolo/
+photo.25.tags: portrait
+photo.26: ig://CRsZBk5B4JF/m
 photo.26.author: sasapan34
-photo.26.commitdate: 2021/8/25
+photo.26.commitdate: 2021/9/6
 photo.26.link: https://www.instagram.com/sasapan34/
-photo.26.tags: paws, peek, smile, white face
-photo.27: ig://CWsyMTrB0fI/m
+photo.26.tags: bridge, laying down, white face
+photo.27: ig://CR0o5cThnTH/m
 photo.27.author: sasapan34
-photo.27.commitdate: 2022/1/13
+photo.27.commitdate: 2021/8/25
 photo.27.link: https://www.instagram.com/sasapan34/
-photo.27.tags: bamboo, snow
-photo.28: ig://redpan22/CXJGXIqB45M/m
-photo.28.author: redpan22
-photo.28.commitdate: 2021/12/30
-photo.28.link: https://www.instagram.com/redpan22/
-photo.28.tags: close-up, paws, snow, whiskers
-photo.29: https://www.instagram.com/p/CRloE5xhka-/media/?size=m
-photo.29.author: nishicotolo
-photo.29.link: https://www.instagram.com/nishicotolo/
-photo.29.tags: portrait
-photo.30: https://www.instagram.com/p/CfEIvVvP-LI/media/?size=m
+photo.27.tags: paws, peek, smile, white face
+photo.28: ig://CWsyMTrB0fI/m
+photo.28.author: sasapan34
+photo.28.commitdate: 2022/1/13
+photo.28.link: https://www.instagram.com/sasapan34/
+photo.28.tags: bamboo, snow
+photo.29: ig://redpan22/CXJGXIqB45M/m
+photo.29.author: redpan22
+photo.29.commitdate: 2021/12/30
+photo.29.link: https://www.instagram.com/redpan22/
+photo.29.tags: close-up, paws, snow, whiskers
+photo.30: ig://CfEIvVvP-LI/m
 photo.30.author: nishicotolo
+photo.30.commitdate: 2022/7/23
 photo.30.link: https://www.instagram.com/nishicotolo/
 photo.30.tags: bridge, close-up, laying down
 species: 2

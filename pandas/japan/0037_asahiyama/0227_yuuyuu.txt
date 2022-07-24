@@ -128,19 +128,21 @@ photo.23.author: sasapan34
 photo.23.commitdate: 2022/1/13
 photo.23.link: https://www.instagram.com/sasapan34/
 photo.23.tags: mofumofu, snow, techitechi, whiskers
-photo.24: ig://CdjzCtvvmX2/m
-photo.24.author: mari_neko3
-photo.24.commitdate: 2022/6/6
-photo.24.link: https://www.instagram.com/mari_neko3/
-photo.24.tags: close-up, portrait, sample, whiskers
-photo.25: https://www.instagram.com/p/CUtEE_qhMW0/media/?size=m
-photo.25.author: sasapan34
-photo.25.link: https://www.instagram.com/sasapan34/
-photo.25.tags: lips, smile
-photo.26: https://www.instagram.com/p/CdLMxBtraTC/media/?size=m
-photo.26.author: leonard_redmof
-photo.26.link: https://www.instagram.com/leonard_redmof/
-photo.26.tags: bridge, itchy, paws, tail
+photo.24: ig://CUtEE_qhMW0/m
+photo.24.author: sasapan34
+photo.24.commitdate: 2022/7/23
+photo.24.link: https://www.instagram.com/sasapan34/
+photo.24.tags: lips, smile
+photo.25: ig://CdLMxBtraTC/m
+photo.25.author: leonard_redmof
+photo.25.commitdate: 2022/7/23
+photo.25.link: https://www.instagram.com/leonard_redmof/
+photo.25.tags: bridge, itchy, paws, tail
+photo.26: ig://CdjzCtvvmX2/m
+photo.26.author: mari_neko3
+photo.26.commitdate: 2022/6/6
+photo.26.link: https://www.instagram.com/mari_neko3/
+photo.26.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 11130
 zoo: 37

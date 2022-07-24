@@ -55,17 +55,19 @@ photo.8.author: rossifari
 photo.8.commitdate: 2022/3/10
 photo.8.link: https://www.instagram.com/rossifari/
 photo.8.tags: close-up, mofumofu, portrait, tongue, whiskers, wink
-photo.9: ig://CXRM8fYrdx_/m
-photo.9.author: worldthathesees
-photo.9.commitdate: 2021/12/30
-photo.9.link: https://www.instagram.com/worldthathesees/
-photo.9.tags: peek, whiskers
-photo.10: https://www.instagram.com/p/CXRJ1z5sa5V/media/?size=m
-photo.10.author: pghzoo
-photo.10.link: https://www.instagram.com/pghzoo/
-photo.10.tags: bamboo, bite, snow, tail
-photo.11: https://www.instagram.com/p/CYyvDlzOAsv/media/?size=m
+photo.9: ig://CXRJ1z5sa5V/m
+photo.9.author: pghzoo
+photo.9.commitdate: 2022/7/23
+photo.9.link: https://www.instagram.com/pghzoo/
+photo.9.tags: bamboo, bite, snow, tail
+photo.10: ig://CXRM8fYrdx_/m
+photo.10.author: worldthathesees
+photo.10.commitdate: 2021/12/30
+photo.10.link: https://www.instagram.com/worldthathesees/
+photo.10.tags: peek, whiskers
+photo.11: ig://CYyvDlzOAsv/m
 photo.11.author: pghzoo
+photo.11.commitdate: 2022/7/23
 photo.11.link: https://www.instagram.com/pghzoo/
 photo.11.tags: bamboo, snow, whiskers
 species: 2
