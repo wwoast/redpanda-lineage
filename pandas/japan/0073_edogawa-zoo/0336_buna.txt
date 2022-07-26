@@ -595,22 +595,26 @@ photo.116.author: ifumoto88
 photo.116.commitdate: 2022/4/25
 photo.116.link: https://www.instagram.com/ifumoto88/
 photo.116.tags: itchy, laying down, paws, playing, portrait
-photo.117: https://www.instagram.com/p/CgHNjkuB8Gg/media/?size=m
-photo.117.author: ssc6105
-photo.117.link: https://www.instagram.com/ssc6105/
-photo.117.tags: blink, door, home, laying down, sample, tongue
-photo.118: https://www.instagram.com/p/CgGzEkUhs1Q/media/?size=m
-photo.118.author: edogawa.kankyozaidan
-photo.118.link: https://www.instagram.com/edogawa.kankyozaidan/
-photo.118.tags: bamboo, blink, laying down, tail
-photo.119: https://www.instagram.com/p/CgHC4Kju72A/media/?size=m
-photo.119.author: daniele.tokyo
-photo.119.link: https://www.instagram.com/daniele.tokyo/
-photo.119.tags: door, home, laying down, paws, sample
-photo.120: https://www.instagram.com/p/CgHIR6kBGIT/media/?size=m
-photo.120.author: na.mo.pan
-photo.120.link: https://www.instagram.com/na.mo.pan/
-photo.120.tags: grooming, home, laying down, paws, portrait, sample, tongue  
+photo.117: ig://CgGzEkUhs1Q/m
+photo.117.author: edogawa.kankyozaidan
+photo.117.commitdate: 2022/7/25
+photo.117.link: https://www.instagram.com/edogawa.kankyozaidan/
+photo.117.tags: bamboo, blink, laying down, tail
+photo.118: ig://CgHC4Kju72A/m
+photo.118.author: daniele.tokyo
+photo.118.commitdate: 2022/7/25
+photo.118.link: https://www.instagram.com/daniele.tokyo/
+photo.118.tags: door, home, laying down, paws, sample
+photo.119: ig://CgHIR6kBGIT/m
+photo.119.author: na.mo.pan
+photo.119.commitdate: 2022/7/25
+photo.119.link: https://www.instagram.com/na.mo.pan/
+photo.119.tags: grooming, home, laying down, paws, portrait, sample, tongue
+photo.120: ig://CgHNjkuB8Gg/m
+photo.120.author: ssc6105
+photo.120.commitdate: 2022/7/25
+photo.120.link: https://www.instagram.com/ssc6105/
+photo.120.tags: blink, door, home, laying down, sample, tongue
 species: 2
 studbook.id: 00102
 zoo: 73

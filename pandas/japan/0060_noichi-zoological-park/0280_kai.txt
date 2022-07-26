@@ -92,8 +92,9 @@ photo.16.author: love__mitarashi
 photo.16.commitdate: 2021/11/21
 photo.16.link: https://www.instagram.com/love__mitarashi/
 photo.16.tags: door, peek, portrait
-photo.17: https://www.instagram.com/p/CfeOxGSrTLq/media/?size=m
+photo.17: ig://CfeOxGSrTLq/m
 photo.17.author: love__mitarashi
+photo.17.commitdate: 2022/7/25
 photo.17.link: https://www.instagram.com/love__mitarashi/
 photo.17.tags: peek, portrait, sample, whiskers
 species: 2

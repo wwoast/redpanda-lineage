@@ -253,8 +253,9 @@ photo.48.author: alto0908
 photo.48.commitdate: 2022/7/22
 photo.48.link: https://www.instagram.com/alto0908/
 photo.48.tags: baby, bamboo, mofumofu, portrait, sample, smile
-photo.49: https://www.instagram.com/p/CgQDtsyrSIi/media/?size=m
+photo.49: ig://CgQDtsyrSIi/m
 photo.49.author: otenba_redpanda
+photo.49.commitdate: 2022/7/25
 photo.49.link: https://www.instagram.com/otenba_redpanda/
 photo.49.tags: mofumofu, portrait, sample
 species: 2

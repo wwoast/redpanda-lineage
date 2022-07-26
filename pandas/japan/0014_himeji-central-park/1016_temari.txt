@@ -937,8 +937,9 @@ photo.185.author: colette.jp
 photo.185.commitdate: 2022/7/23
 photo.185.link: https://www.instagram.com/colette.jp/
 photo.185.tags: paws, portrait, sample, smile, whiskers
-photo.186: https://www.instagram.com/p/CgRTzBgPSow/media/?size=m
+photo.186: ig://CgRTzBgPSow/m
 photo.186.author: colette.jp
+photo.186.commitdate: 2022/7/25
 photo.186.link: https://www.instagram.com/colette.jp/
 photo.186.tags: bridge, portrait, sample, smile, tail, tree
 species: 2

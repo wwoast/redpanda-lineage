@@ -1033,8 +1033,9 @@ photo.206.author: i.satosato
 photo.206.commitdate: 2022/6/21
 photo.206.link: https://www.instagram.com/i.satosato/
 photo.206.tags: close-up, portrait, tree, whiskers
-photo.207: https://www.instagram.com/p/CgO8FLZvSUh/media/?size=m
+photo.207: ig://CgO8FLZvSUh/m
 photo.207.author: i.satosato
+photo.207.commitdate: 2022/7/25
 photo.207.link: https://www.instagram.com/i.satosato/
 photo.207.tags: laying down, paws, portrait, sample, whiskers, yawn
 species: 2

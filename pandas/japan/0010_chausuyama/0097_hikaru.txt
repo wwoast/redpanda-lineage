@@ -529,8 +529,9 @@ photo.103.author: mari_neko3
 photo.103.commitdate: 2022/7/3
 photo.103.link: https://www.instagram.com/mari_neko3/
 photo.103.tags: blink, portrait, sample, smile, tongue, tree
-photo.104: https://www.instagram.com/p/CgL-1BduAZy/media/?size=m
+photo.104: ig://CgL-1BduAZy/m
 photo.104.author: otenba_redpanda
+photo.104.commitdate: 2022/7/25
 photo.104.link: https://www.instagram.com/otenba_redpanda/
 photo.104.tags: laying down, portrait, sample, tree, whiskers
 species: 2

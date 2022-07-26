@@ -670,8 +670,9 @@ photo.131.author: ssc6105
 photo.131.commitdate: 2022/6/10
 photo.131.link: https://www.instagram.com/ssc6105/
 photo.131.tags: bamboo, mofumofu, paws, sample, smile, whiskers
-photo.132: https://www.instagram.com/p/CgMfNcUh0ti/media/?size=m
+photo.132: ig://CgMfNcUh0ti/m
 photo.132.author: minatomirai215
+photo.132.commitdate: 2022/7/25
 photo.132.link: https://www.instagram.com/minatomirai215/
 photo.132.tags: paws, portrait, sample, smile
 species: 2

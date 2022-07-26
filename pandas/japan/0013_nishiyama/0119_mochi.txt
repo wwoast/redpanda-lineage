@@ -506,8 +506,9 @@ photo.99.author: hamamatsu.chiita
 photo.99.commitdate: 2022/7/18
 photo.99.link: https://www.instagram.com/hamamatsu.chiita/
 photo.99.tags: close-up, mofumofu, whiskers
-photo.100: https://www.instagram.com/p/CgW5fimPvoQ/media/?size=m
+photo.100: ig://CgW5fimPvoQ/m
 photo.100.author: minato.yokohama4416
+photo.100.commitdate: 2022/7/25
 photo.100.link: https://www.instagram.com/minato.yokohama4416/
 photo.100.tags: peek, portrait, smile, tree
 species: 2
