@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CgRqaUig15j/media/?size=m
+photo.1: ig://CgRqaUig15j/m
 photo.1.author: thetorontozoo
+photo.1.commitdate: 2022/7/28
 photo.1.link: https://www.instagram.com/thetorontozoo/
 photo.1.tags: baby, keeper, newborn, portrait, profile, white face
 species: 2
