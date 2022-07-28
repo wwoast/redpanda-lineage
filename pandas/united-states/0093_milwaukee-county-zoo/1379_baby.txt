@@ -1,7 +1,7 @@
 [panda]
 _id: 1379
 birthday: 2022/6/12
-birthplace: 99
+birthplace: 93
 children: none
 commitdate: 2022/7/27
 en.name: Baby
@@ -19,4 +19,4 @@ photo.1.commitdate: 2022/7/27
 photo.1.link: https://www.instagram.com/milwaukeecozoo/
 photo.1.tags: baby, keeper, newborn
 species: 2
-zoo: 99
+zoo: 93
