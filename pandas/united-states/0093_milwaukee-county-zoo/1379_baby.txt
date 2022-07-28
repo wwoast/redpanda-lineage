@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/Cfgt2hfsiQd/media/?size=m
+photo.1: ig://Cfgt2hfsiQd/m
 photo.1.author: milwaukeecozoo
+photo.1.commitdate: 2022/7/27
 photo.1.link: https://www.instagram.com/milwaukeecozoo/
 photo.1.tags: baby, keeper, newborn
 species: 2

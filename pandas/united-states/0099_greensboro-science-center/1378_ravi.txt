@@ -13,12 +13,14 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/CfcGBhqln-G/media/?size=m
+photo.1: ig://CfcGBhqln-G/m
 photo.1.author: greensborosciencecenter
+photo.1.commitdate: 2022/7/27
 photo.1.link: https://www.instagram.com/greensborosciencecenter/
 photo.1.tags: baby, newborn
-photo.2: https://www.instagram.com/p/Cf9qIjVlHrV/media/?size=m
+photo.2: ig://Cf9qIjVlHrV/m
 photo.2.author: greensborosciencecenter
+photo.2.commitdate: 2022/7/27
 photo.2.link: https://www.instagram.com/greensborosciencecenter/
 photo.2.tags: baby, keeper, newborn
 species: 2
