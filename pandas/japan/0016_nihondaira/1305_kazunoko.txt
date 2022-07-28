@@ -32,7 +32,7 @@ photo.4: ig://CWDRvSqFfw4/m
 photo.4.author: kijyo.zoo
 photo.4.commitdate: 2021/11/11
 photo.4.link: https://www.instagram.com/kijyo.zoo/
-photo.4.tags: baby, bamboo, portrait, profile, sample, videolink
+photo.4.tags: baby, bamboo, portrait, sample, videolink
 photo.5: ig://CWHuZv0l3y_/m
 photo.5.author: lesserpanda_shizuokacity_cp
 photo.5.commitdate: 2021/12/19
@@ -138,5 +138,9 @@ photo.25.author: lesserpanda_shizuokacity_cp
 photo.25.commitdate: 2022/6/11
 photo.25.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.25.tags: baby, bamboo, close-up, mofumofu, nose, sample
+photo.26: https://www.instagram.com/p/CfIAi8kLlFV/media/?size=m
+photo.26.author: otenba_redpanda
+photo.26.link: https://www.instagram.com/otenba_redpanda/
+photo.26.tags: bamboo, mofumofu, portrait, profile, sample
 species: 2
 zoo: 16
