@@ -448,10 +448,11 @@ photo.87.author: miis_98
 photo.87.commitdate: 2022/7/14
 photo.87.link: https://www.instagram.com/miis_98/
 photo.87.tags: portrait, tongue, whiskers
-photo.88: https://www.instagram.com/p/CgJ_K05LV8H/media/?size=m
+photo.88: ig://CgJ_K05LV8H/m
 photo.88.author: mini_cochi
+photo.88.commitdate: 2022/7/28
 photo.88.link: https://www.instagram.com/mini_cochi/
-photo.88.tags: bamboo, paws, peek, portrait, sample 
+photo.88.tags: bamboo, paws, peek, portrait, sample
 species: 2
 studbook.id: 0864
 zoo: 17

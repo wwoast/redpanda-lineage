@@ -28,8 +28,9 @@ photo.2.author: yuredpanda
 photo.2.commitdate: 2022/4/18
 photo.2.link: https://www.instagram.com/yuredpanda/
 photo.2.tags: peek, portrait, tail
-photo.3: https://www.instagram.com/p/CfhRHboPS5k/media/?size=m
+photo.3: ig://CfhRHboPS5k/m
 photo.3.author: yuredpanda
+photo.3.commitdate: 2022/7/28
 photo.3.link: https://www.instagram.com/yuredpanda/
 photo.3.tags: portrait, whiskers
 species: 2

@@ -60,8 +60,9 @@ photo.9.author: thetorontozoo
 photo.9.commitdate: 2022/3/9
 photo.9.link: https://www.instagram.com/thetorontozoo/
 photo.9.tags: close-up, techitechi, whiskers
-photo.10: https://www.instagram.com/p/CgX2PuEr6Bo/media/?size=m
+photo.10: ig://CgX2PuEr6Bo/m
 photo.10.author: thetorontozoo
+photo.10.commitdate: 2022/7/28
 photo.10.link: https://www.instagram.com/thetorontozoo/
 photo.10.tags: bamboo, paws, sample
 species: 2

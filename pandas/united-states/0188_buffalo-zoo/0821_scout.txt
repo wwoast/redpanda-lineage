@@ -99,8 +99,9 @@ photo.17.author: buffalo_zoo
 photo.17.commitdate: 2022/4/8
 photo.17.link: https://www.instagram.com/buffalo_zoo/
 photo.17.tags: bamboo, paws, snow
-photo.18: https://www.instagram.com/p/CgJs23IAz7Z/media/?size=m
+photo.18: ig://CgJs23IAz7Z/m
 photo.18.author: rossifari
+photo.18.commitdate: 2022/7/28
 photo.18.link: https://www.instagram.com/rossifari/
 photo.18.tags: portrait, sample, tail, whiskers
 species: 1

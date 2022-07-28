@@ -463,29 +463,30 @@ photo.90.author: mini_cochi
 photo.90.commitdate: 2022/7/9
 photo.90.link: https://www.instagram.com/mini_cochi/
 photo.90.tags: door, paws, portrait, sample, smile
-photo.91: ig://CgNhxx2BAwi/m
-photo.91.author: alto0908
-photo.91.commitdate: 2022/7/25
-photo.91.link: https://www.instagram.com/alto0908/
-photo.91.tags: door, paws, portrait, sample, whiskers
-photo.92: ig://CgO81p0ryLA/m
-photo.92.author: mini_cochi
+photo.91: ig://CgNe9O1MtAL/m
+photo.91.author: otenba_redpanda
+photo.91.commitdate: 2022/7/28
+photo.91.link: https://www.instagram.com/otenba_redpanda/
+photo.91.tags: bamboo, portrait, sample, whiskers
+photo.92: ig://CgNhxx2BAwi/m
+photo.92.author: alto0908
 photo.92.commitdate: 2022/7/25
-photo.92.link: https://www.instagram.com/mini_cochi/
+photo.92.link: https://www.instagram.com/alto0908/
 photo.92.tags: door, paws, portrait, sample, whiskers
-photo.93: ig://CgO9xqRvvNn/m
-photo.93.author: kotata_513
+photo.93: ig://CgO81p0ryLA/m
+photo.93.author: mini_cochi
 photo.93.commitdate: 2022/7/25
-photo.93.link: https://www.instagram.com/kotata_513/
-photo.93.tags: bamboo, portrait, sample, smile, whiskers
-photo.94: ig://CgW2nW4LC7B/m
-photo.94.author: mini_cochi
+photo.93.link: https://www.instagram.com/mini_cochi/
+photo.93.tags: door, paws, portrait, sample, whiskers
+photo.94: ig://CgO9xqRvvNn/m
+photo.94.author: kotata_513
 photo.94.commitdate: 2022/7/25
-photo.94.link: https://www.instagram.com/mini_cochi/
-photo.94.tags: laying down, mofumofu, paws, portrait, tail, tree
-photo.95: https://www.instagram.com/p/CgNe9O1MtAL/media/?size=m
-photo.95.author: otenba_redpanda
-photo.95.link: https://www.instagram.com/otenba_redpanda/
-photo.95.tags: bamboo, portrait, sample, whiskers
+photo.94.link: https://www.instagram.com/kotata_513/
+photo.94.tags: bamboo, portrait, sample, smile, whiskers
+photo.95: ig://CgW2nW4LC7B/m
+photo.95.author: mini_cochi
+photo.95.commitdate: 2022/7/25
+photo.95.link: https://www.instagram.com/mini_cochi/
+photo.95.tags: laying down, mofumofu, paws, portrait, tail, tree
 species: 2
 zoo: 17

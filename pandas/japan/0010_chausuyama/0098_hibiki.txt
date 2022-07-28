@@ -402,8 +402,9 @@ photo.80.author: fetorus_mami
 photo.80.commitdate: 2022/6/3
 photo.80.link: https://www.instagram.com/fetorus_mami/
 photo.80.tags: flowers, peek, whiskers
-photo.81: https://www.instagram.com/p/CgK6MDALQHm/media/?size=m
+photo.81: ig://CgK6MDALQHm/m
 photo.81.author: otenba_redpanda
+photo.81.commitdate: 2022/7/28
 photo.81.link: https://www.instagram.com/otenba_redpanda/
 photo.81.tags: peek, portrait, smile, tree
 species: 2

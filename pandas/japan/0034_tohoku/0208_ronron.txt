@@ -55,8 +55,9 @@ photo.8.author: fetorus_mami
 photo.8.commitdate: 2021/7/30
 photo.8.link: https://www.instagram.com/fetorus_mami/
 photo.8.tags: grooming, mofumofu, paws
-photo.9: https://www.instagram.com/p/CgXNBp5h_bk/media/?size=m
+photo.9: ig://CgXNBp5h_bk/m
 photo.9.author: fetorus_mami
+photo.9.commitdate: 2022/7/28
 photo.9.link: https://www.instagram.com/fetorus_mami/
 photo.9.tags: paws
 species: 2

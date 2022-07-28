@@ -259,23 +259,26 @@ photo.50.author: minatomirai215
 photo.50.commitdate: 2021/12/22
 photo.50.link: https://www.instagram.com/minatomirai215/
 photo.50.tags: bamboo, paws, portrait, sample
-photo.51: ig://CaLeHL6JOCE/m
-photo.51.author: hidehaya_biei
-photo.51.commitdate: 2022/3/11
-photo.51.link: https://www.instagram.com/hidehaya_biei/
-photo.51.tags: paws, peek, sample, whiskers
-photo.52: https://www.instagram.com/p/CZWIxi1Lebw/media/?size=m
-photo.52.author: zoowfreedom299
-photo.52.link: https://www.instagram.com/zoowfreedom299/
-photo.52.tags: apple time, sample, snow
-photo.53: https://www.instagram.com/p/CefS8jhrjOx/media/?size=m
+photo.51: ig://CZWIxi1Lebw/m
+photo.51.author: zoowfreedom299
+photo.51.commitdate: 2022/7/28
+photo.51.link: https://www.instagram.com/zoowfreedom299/
+photo.51.tags: apple time, sample, snow
+photo.52: ig://CaLeHL6JOCE/m
+photo.52.author: hidehaya_biei
+photo.52.commitdate: 2022/3/11
+photo.52.link: https://www.instagram.com/hidehaya_biei/
+photo.52.tags: paws, peek, sample, whiskers
+photo.53: ig://CeVx2xavd_C/m
 photo.53.author: zoowfreedom299
+photo.53.commitdate: 2022/7/28
 photo.53.link: https://www.instagram.com/zoowfreedom299/
-photo.53.tags: mofumofu, paws, sample
-photo.54: https://www.instagram.com/p/CeVx2xavd_C/media/?size=m
+photo.53.tags: paws, smile, whiskers
+photo.54: ig://CefS8jhrjOx/m
 photo.54.author: zoowfreedom299
+photo.54.commitdate: 2022/7/28
 photo.54.link: https://www.instagram.com/zoowfreedom299/
-photo.54.tags: paws, smile, whiskers
+photo.54.tags: mofumofu, paws, sample
 species: 2
 studbook.id: 1694
 zoo: 26

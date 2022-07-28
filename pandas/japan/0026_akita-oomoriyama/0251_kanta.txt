@@ -367,12 +367,14 @@ photo.71.author: mifko55
 photo.71.commitdate: 2022/7/13
 photo.71.link: https://www.instagram.com/mifko55/
 photo.71.tags: portrait, sample, snow
-photo.72: https://www.instagram.com/p/CfdtrqLvkr6/media/?size=m
+photo.72: ig://CfdtrqLvkr6/m
 photo.72.author: zoowfreedom299
+photo.72.commitdate: 2022/7/28
 photo.72.link: https://www.instagram.com/zoowfreedom299/
 photo.72.tags: paws, portrait, sample, smile
-photo.73: https://www.instagram.com/p/Cf509OhPcrN/media/?size=m
+photo.73: ig://Cf509OhPcrN/m
 photo.73.author: zoowfreedom299
+photo.73.commitdate: 2022/7/28
 photo.73.link: https://www.instagram.com/zoowfreedom299/
 photo.73.tags: paws, smile
 species: 2

@@ -937,23 +937,26 @@ photo.185.author: colette.jp
 photo.185.commitdate: 2022/7/23
 photo.185.link: https://www.instagram.com/colette.jp/
 photo.185.tags: paws, portrait, sample, smile, whiskers
-photo.186: ig://CgRTzBgPSow/m
+photo.186: ig://CgB6gDMPCJl/m
 photo.186.author: colette.jp
-photo.186.commitdate: 2022/7/25
+photo.186.commitdate: 2022/7/28
 photo.186.link: https://www.instagram.com/colette.jp/
-photo.186.tags: bridge, portrait, sample, smile, tail, tree
-photo.187: https://www.instagram.com/p/CgWf7GOu9Jt/media/?size=m
-photo.187.author: love__mitarashi
-photo.187.link: https://www.instagram.com/love__mitarashi/
-photo.187.tags: home, paws, sample, tail, white face
-photo.188: https://www.instagram.com/p/CgUD6GKrmUB/media/?size=m
+photo.186.tags: climb, close-up, paws, portrait, profile, sample, smile, tree, whiskers
+photo.187: ig://CgRTzBgPSow/m
+photo.187.author: colette.jp
+photo.187.commitdate: 2022/7/25
+photo.187.link: https://www.instagram.com/colette.jp/
+photo.187.tags: bridge, portrait, sample, smile, tail, tree
+photo.188: ig://CgUD6GKrmUB/m
 photo.188.author: love__mitarashi
+photo.188.commitdate: 2022/7/28
 photo.188.link: https://www.instagram.com/love__mitarashi/
 photo.188.tags: home, laying down, poop, tail
-photo.189: https://www.instagram.com/p/CgB6gDMPCJl/media/?size=m
-photo.189.author: colette.jp
-photo.189.link: https://www.instagram.com/colette.jp/
-photo.189.tags: climb, close-up, paws, portrait, profile, sample, smile, tree, whiskers  
+photo.189: ig://CgWf7GOu9Jt/m
+photo.189.author: love__mitarashi
+photo.189.commitdate: 2022/7/28
+photo.189.link: https://www.instagram.com/love__mitarashi/
+photo.189.tags: home, paws, sample, tail, white face
 species: 2
 studbook.id: unknown
 zoo: 14

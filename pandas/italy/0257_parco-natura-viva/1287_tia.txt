@@ -19,8 +19,9 @@ photo.1.author: seelviahhtaz
 photo.1.commitdate: 2022/7/3
 photo.1.link: https://www.instagram.com/seelviahhtaz/
 photo.1.tags: bamboo, portrait, profile, tail
-photo.2: https://www.instagram.com/p/CfhAAtvNOFk/media/?size=m
+photo.2: ig://CfhAAtvNOFk/m
 photo.2.author: seelviahhtaz
+photo.2.commitdate: 2022/7/28
 photo.2.link: https://www.instagram.com/seelviahhtaz/
 photo.2.tags: laying down
 species: 1
