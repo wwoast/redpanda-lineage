@@ -1,0 +1,25 @@
+[panda]
+_id: 1378
+birthday: 2022/6/20
+birthplace: 99
+children: none
+commitdate: 2022/7/27
+en.name: Ravi
+en.nicknames: none
+en.othernames: none
+gender: m
+jp.name: ラビ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/CfcGBhqln-G/media/?size=m
+photo.1.author: greensborosciencecenter
+photo.1.link: https://www.instagram.com/greensborosciencecenter/
+photo.1.tags: baby, newborn
+photo.2: https://www.instagram.com/p/Cf9qIjVlHrV/media/?size=m
+photo.2.author: greensborosciencecenter
+photo.2.link: https://www.instagram.com/greensborosciencecenter/
+photo.2.tags: baby, keeper, newborn
+species: 2
+zoo: 99

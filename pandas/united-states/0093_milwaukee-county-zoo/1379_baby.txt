@@ -1,0 +1,21 @@
+[panda]
+_id: 1379
+birthday: 2022/6/12
+birthplace: 99
+children: none
+commitdate: 2022/7/27
+en.name: Baby
+en.nicknames: none
+en.othernames: none
+gender: unknown
+jp.name: 赤ちゃん
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/Cfgt2hfsiQd/media/?size=m
+photo.1.author: milwaukeecozoo
+photo.1.link: https://www.instagram.com/milwaukeecozoo/
+photo.1.tags: baby, keeper, newborn
+species: 2
+zoo: 99
