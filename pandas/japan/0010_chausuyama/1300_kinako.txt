@@ -318,8 +318,9 @@ photo.61.author: otenba_redpanda
 photo.61.commitdate: 2022/7/9
 photo.61.link: https://www.instagram.com/otenba_redpanda/
 photo.61.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
-photo.62: https://www.instagram.com/p/CgFwi5EBMSA/media/?size=m
+photo.62: ig://CgFwi5EBMSA/m
 photo.62.author: otenba_redpanda
+photo.62.commitdate: 2022/7/28
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: mofumofu, peek, portrait, sample, tongue
 species: 2

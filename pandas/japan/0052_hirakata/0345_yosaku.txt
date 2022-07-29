@@ -500,14 +500,16 @@ photo.97.author: jas_forever_love
 photo.97.commitdate: 2022/7/11
 photo.97.link: https://www.instagram.com/jas_forever_love/
 photo.97.tags: sample, smile, whiskers
-photo.98: https://www.instagram.com/p/CgGKwyGhAuG/media/?size=m
-photo.98.author: makimaru18
-photo.98.link: https://www.instagram.com/makimaru18/
-photo.98.tags: apple time, paws, portrait, sample, whiskers
-photo.99: https://www.instagram.com/p/Cf__KlzBAPZ/media/?size=m
-photo.99.author: eos1089
-photo.99.link: https://www.instagram.com/eos1089/
-photo.99.tags: laying down, portrait, sample, whiskers, yawn
+photo.98: ig://Cf__KlzBAPZ/m
+photo.98.author: eos1089
+photo.98.commitdate: 2022/7/28
+photo.98.link: https://www.instagram.com/eos1089/
+photo.98.tags: laying down, portrait, sample, whiskers, yawn
+photo.99: ig://CgGKwyGhAuG/m
+photo.99.author: makimaru18
+photo.99.commitdate: 2022/7/28
+photo.99.link: https://www.instagram.com/makimaru18/
+photo.99.tags: apple time, paws, portrait, sample, whiskers
 species: 2
 studbook.id: unknown
 zoo: 52

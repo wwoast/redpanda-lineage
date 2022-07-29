@@ -50,8 +50,9 @@ photo.7.author: seelviahhtaz
 photo.7.commitdate: 2022/6/1
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: sample, smile, whiskers, white face
-photo.8: https://www.instagram.com/p/CgFjKnssnB2/media/?size=m
+photo.8: ig://CgFjKnssnB2/m
 photo.8.author: seelviahhtaz
+photo.8.commitdate: 2022/7/28
 photo.8.link: https://www.instagram.com/seelviahhtaz/
 photo.8.tags: peek, whiskers
 species: 1
