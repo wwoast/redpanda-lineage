@@ -245,24 +245,25 @@ photo.46.author: ssc6105
 photo.46.commitdate: 2022/4/13
 photo.46.link: https://www.instagram.com/ssc6105/
 photo.46.tags: peek, portrait, sample, whiskers
-photo.47: ig://CdTLGCzPDT6/m
-photo.47.author: nakacchi_desu
-photo.47.commitdate: 2022/6/2
-photo.47.link: https://www.instagram.com/nakacchi_desu/
-photo.47.tags: bridge, paws, peek, tail
-photo.48: ig://Cdavk36pnV9/m
-photo.48.author: tomo3700
+photo.47: ig://CcHVqM2v-P1/m
+photo.47.author: grskus_tk
+photo.47.commitdate: 2022/7/28
+photo.47.link: https://www.instagram.com/grskus_tk/
+photo.47.tags: marking
+photo.48: ig://CdTLGCzPDT6/m
+photo.48.author: nakacchi_desu
 photo.48.commitdate: 2022/6/2
-photo.48.link: https://www.instagram.com/tomo3700/
-photo.48.tags: paws, portrait, sample, smile, whiskers
-photo.49: ig://CfcfIIuhznD/m
-photo.49.author: hamamatsu.chiita
-photo.49.commitdate: 2022/7/9
-photo.49.link: https://www.instagram.com/hamamatsu.chiita/
-photo.49.tags: close-up, portrait, sample, whiskers
-photo.50: https://www.instagram.com/p/CcHVqM2v-P1/media/?size=m
-photo.50.author: grskus_tk
-photo.50.link: https://www.instagram.com/grskus_tk/
-photo.50.tags: marking
+photo.48.link: https://www.instagram.com/nakacchi_desu/
+photo.48.tags: bridge, paws, peek, tail
+photo.49: ig://Cdavk36pnV9/m
+photo.49.author: tomo3700
+photo.49.commitdate: 2022/6/2
+photo.49.link: https://www.instagram.com/tomo3700/
+photo.49.tags: paws, portrait, sample, smile, whiskers
+photo.50: ig://CfcfIIuhznD/m
+photo.50.author: hamamatsu.chiita
+photo.50.commitdate: 2022/7/9
+photo.50.link: https://www.instagram.com/hamamatsu.chiita/
+photo.50.tags: close-up, portrait, sample, whiskers
 species: 2
 zoo: 264
