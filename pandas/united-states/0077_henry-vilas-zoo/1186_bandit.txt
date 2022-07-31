@@ -13,6 +13,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1185
+location.1: 43, 2020/6/13
+location.2: 77, 2022/6/8
 photo.1: ig://CHp51xbANds/m
 photo.1.author: rossifari
 photo.1.commitdate: 2020/11/20
@@ -194,4 +196,4 @@ photo.36.commitdate: 2022/6/2
 photo.36.link: https://www.instagram.com/carsontheredpanda/
 photo.36.tags: bamboo, close-up, portrait, sample smile
 species: 2
-zoo: 43
+zoo: 77
