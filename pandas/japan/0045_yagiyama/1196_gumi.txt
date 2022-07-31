@@ -203,8 +203,9 @@ photo.38.author: redpan22
 photo.38.commitdate: 2021/12/21
 photo.38.link: https://www.instagram.com/redpan22/
 photo.38.tags: paws, sample, smile, whiskers
-photo.39: https://www.instagram.com/p/Cf3oZouPq1o/media/?size=m
+photo.39: ig://Cf3oZouPq1o/m
 photo.39.author: alto0908
+photo.39.commitdate: 2022/7/31
 photo.39.link: https://www.instagram.com/alto0908/
 photo.39.tags: bridge, portrait, sample, smile, tongue, whiskers
 species: 2

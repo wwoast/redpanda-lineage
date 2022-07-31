@@ -394,8 +394,9 @@ photo.76.author: hidehaya_biei
 photo.76.commitdate: 2022/3/6
 photo.76.link: https://www.instagram.com/hidehaya_biei/
 photo.76.tags: paws, portrait, sample, snow, whiskers
-photo.77: https://www.instagram.com/p/CetjRwrBqYm/media/?size=m
+photo.77: ig://CetjRwrBqYm/m
 photo.77.author: eos1089
+photo.77.commitdate: 2022/7/31
 photo.77.link: https://www.instagram.com/eos1089/
 photo.77.tags: door, peek, portrait, standing, tail
 species: 2

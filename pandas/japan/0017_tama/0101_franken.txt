@@ -618,15 +618,16 @@ photo.121.author: otenba_redpanda
 photo.121.commitdate: 2022/6/3
 photo.121.link: https://www.instagram.com/otenba_redpanda/
 photo.121.tags: close-up, laying down, paws, peek, portrait, sample, tree
-photo.122: ig://CeuRxmOrk96/m
-photo.122.author: otenba_redpanda
-photo.122.commitdate: 2022/6/21
-photo.122.link: https://www.instagram.com/otenba_redpanda/
-photo.122.tags: paws, portrait, sample, whiskers
-photo.123: https://www.instagram.com/p/CeoVaPbPDFq/media/?size=m
-photo.123.author: eos1089
-photo.123.link: https://www.instagram.com/eos1089/
-photo.123.tags: laying down, paws, playing, portrait, snow, surprise, upside-down, tail
+photo.122: ig://CeoVaPbPDFq/m
+photo.122.author: eos1089
+photo.122.commitdate: 2022/7/31
+photo.122.link: https://www.instagram.com/eos1089/
+photo.122.tags: laying down, paws, playing, portrait, snow, surprise, upside-down, tail
+photo.123: ig://CeuRxmOrk96/m
+photo.123.author: otenba_redpanda
+photo.123.commitdate: 2022/6/21
+photo.123.link: https://www.instagram.com/otenba_redpanda/
+photo.123.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 1224
 zoo: 17

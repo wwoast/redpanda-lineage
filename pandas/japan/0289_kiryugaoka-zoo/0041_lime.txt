@@ -665,19 +665,21 @@ photo.130.author: miis_98
 photo.130.commitdate: 2022/7/28
 photo.130.link: https://www.instagram.com/miis_98/
 photo.130.tags: bridge, portrait, sample, smile, tongue, whiskers
-photo.131: ig://CgVQGyMBwYd/m
-photo.131.author: alto0908
-photo.131.commitdate: 2022/7/25
-photo.131.link: https://www.instagram.com/alto0908/
-photo.131.tags: bamboo, keeper, lunch time, peek, portrait, whiskers
-photo.132: https://www.instagram.com/p/Cf7BtTvhrZg/media/?size=m
-photo.132.author: eos1089
-photo.132.link: https://www.instagram.com/eos1089/
-photo.132.tags: close-up, lunch time, mofumofu, paws, portrait, sample, whiskers
-photo.133: https://www.instagram.com/p/Cf9LDoFPAz6/media/?size=m
-photo.133.author: minatomirai215
-photo.133.link: https://www.instagram.com/minatomirai215/
-photo.133.tags: peek, portrait, whiskers
+photo.131: ig://Cf7BtTvhrZg/m
+photo.131.author: eos1089
+photo.131.commitdate: 2022/7/31
+photo.131.link: https://www.instagram.com/eos1089/
+photo.131.tags: close-up, lunch time, mofumofu, paws, portrait, sample, whiskers
+photo.132: ig://Cf9LDoFPAz6/m
+photo.132.author: minatomirai215
+photo.132.commitdate: 2022/7/31
+photo.132.link: https://www.instagram.com/minatomirai215/
+photo.132.tags: peek, portrait, whiskers
+photo.133: ig://CgVQGyMBwYd/m
+photo.133.author: alto0908
+photo.133.commitdate: 2022/7/25
+photo.133.link: https://www.instagram.com/alto0908/
+photo.133.tags: bamboo, keeper, lunch time, peek, portrait, whiskers
 species: 2
 studbook.id: 14165
 zoo: 289

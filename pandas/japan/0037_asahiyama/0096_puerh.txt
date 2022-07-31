@@ -297,8 +297,9 @@ photo.57.author: fetorus_mami
 photo.57.commitdate: 2022/7/31
 photo.57.link: https://www.instagram.com/fetorus_mami/
 photo.57.tags: nose, portrait, sample, tongue, whiskers
-photo.58: https://www.instagram.com/p/Cf5FKFVBZGz/media/?size=m
+photo.58: ig://Cf5FKFVBZGz/m
 photo.58.author: fetorus_mami
+photo.58.commitdate: 2022/7/31
 photo.58.link: https://www.instagram.com/fetorus_mami/
 photo.58.tags: paws, standing, upside-down
 species: 2

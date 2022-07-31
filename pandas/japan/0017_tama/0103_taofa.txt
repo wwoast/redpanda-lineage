@@ -833,20 +833,21 @@ photo.164.author: otenba_redpanda
 photo.164.commitdate: 2022/6/29
 photo.164.link: https://www.instagram.com/otenba_redpanda/
 photo.164.tags: peek, portrait, sample, smile, tongue, whiskers
-photo.165: ig://CfAVBYRBS5F/m
-photo.165.author: miis_98
-photo.165.commitdate: 2022/7/23
-photo.165.link: https://www.instagram.com/miis_98/
-photo.165.tags: portrait, sample, tongue, tree, whiskers
-photo.166: ig://CgW5Y2kr3Sf/m
-photo.166.author: mini_cochi
-photo.166.commitdate: 2022/7/25
-photo.166.link: https://www.instagram.com/mini_cochi/
-photo.166.tags: portrait, smile, tree, whiskers
-photo.167: https://www.instagram.com/p/CewKgxGP17q/media/?size=m
-photo.167.author: eos1089
-photo.167.link: https://www.instagram.com/eos1089/
-photo.167.tags: autumn, close-up, paws, playing, portrait, sample, whiskers
+photo.165: ig://CewKgxGP17q/m
+photo.165.author: eos1089
+photo.165.commitdate: 2022/7/31
+photo.165.link: https://www.instagram.com/eos1089/
+photo.165.tags: autumn, close-up, paws, playing, portrait, sample, whiskers
+photo.166: ig://CfAVBYRBS5F/m
+photo.166.author: miis_98
+photo.166.commitdate: 2022/7/23
+photo.166.link: https://www.instagram.com/miis_98/
+photo.166.tags: portrait, sample, tongue, tree, whiskers
+photo.167: ig://CgW5Y2kr3Sf/m
+photo.167.author: mini_cochi
+photo.167.commitdate: 2022/7/25
+photo.167.link: https://www.instagram.com/mini_cochi/
+photo.167.tags: portrait, smile, tree, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17

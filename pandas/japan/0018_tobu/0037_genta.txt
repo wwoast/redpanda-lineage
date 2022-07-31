@@ -578,8 +578,9 @@ photo.113.author: ssc6105
 photo.113.commitdate: 2022/7/28
 photo.113.link: https://www.instagram.com/ssc6105/
 photo.113.tags: apple time, paws, sample, standing
-photo.114: https://www.instagram.com/p/Cfiq7ujv7el/media/?size=m
+photo.114: ig://Cfiq7ujv7el/m
 photo.114.author: eos1089
+photo.114.commitdate: 2022/7/31
 photo.114.link: https://www.instagram.com/eos1089/
 photo.114.tags: portrait, sample, whiskers
 species: 2

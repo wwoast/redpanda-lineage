@@ -1033,15 +1033,16 @@ photo.206.author: i.satosato
 photo.206.commitdate: 2022/6/21
 photo.206.link: https://www.instagram.com/i.satosato/
 photo.206.tags: close-up, portrait, tree, whiskers
-photo.207: ig://CgO8FLZvSUh/m
-photo.207.author: i.satosato
-photo.207.commitdate: 2022/7/25
-photo.207.link: https://www.instagram.com/i.satosato/
-photo.207.tags: laying down, paws, portrait, sample, whiskers, yawn
-photo.208: https://www.instagram.com/p/Cf5xXWIPtWo/media/?size=m
-photo.208.author: falcon_tenor
-photo.208.link: https://www.instagram.com/falcon_tenor/
-photo.208.tags: bear worm, laying down, tail
+photo.207: ig://Cf5xXWIPtWo/m
+photo.207.author: falcon_tenor
+photo.207.commitdate: 2022/7/31
+photo.207.link: https://www.instagram.com/falcon_tenor/
+photo.207.tags: bear worm, laying down, tail
+photo.208: ig://CgO8FLZvSUh/m
+photo.208.author: i.satosato
+photo.208.commitdate: 2022/7/25
+photo.208.link: https://www.instagram.com/i.satosato/
+photo.208.tags: laying down, paws, portrait, sample, whiskers, yawn
 species: 2
 studbook.id: 0457
 zoo: 36
