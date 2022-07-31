@@ -509,15 +509,16 @@ photo.100.author: ssc6105
 photo.100.commitdate: 2022/7/3
 photo.100.link: https://www.instagram.com/ssc6105/
 photo.100.tags: apple time, bamboo, bite, paws, sample
-photo.101: ig://Cf-SuEMhsPS/m
-photo.101.author: fetorus_mami
+photo.101: ig://Cf6su4CLwBT/m
+photo.101.author: miis_98
 photo.101.commitdate: 2022/7/31
-photo.101.link: https://www.instagram.com/fetorus_mami/
-photo.101.tags: bamboo, close-up, mofumofu, paws, sample, whiskers
-photo.102: https://www.instagram.com/p/Cf6su4CLwBT/media/?size=m
-photo.102.author: miis_98
-photo.102.link: https://www.instagram.com/miis_98/
-photo.102.tags: apple time, bamboo, portrait, sample, whiskers
+photo.101.link: https://www.instagram.com/miis_98/
+photo.101.tags: apple time, bamboo, portrait, sample, whiskers
+photo.102: ig://Cf-SuEMhsPS/m
+photo.102.author: fetorus_mami
+photo.102.commitdate: 2022/7/31
+photo.102.link: https://www.instagram.com/fetorus_mami/
+photo.102.tags: bamboo, close-up, mofumofu, paws, sample, whiskers
 species: 2
 studbook.id: 1693
 zoo: 57

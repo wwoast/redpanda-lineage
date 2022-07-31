@@ -563,30 +563,31 @@ photo.110.author: gloryeui
 photo.110.commitdate: 2022/2/9
 photo.110.link: https://www.instagram.com/gloryeui/
 photo.110.tags: flowers, peek, portrait, whiskers
-photo.111: ig://CalFWKjBqCw/m
-photo.111.author: rie_panda55
-photo.111.commitdate: 2022/3/6
-photo.111.link: https://www.instagram.com/rie_panda55/
-photo.111.tags: climb, paws, portrait, sample, smile, tail, tree
-photo.112: ig://Cb9yAWYv1uq/m
-photo.112.author: grskus_tk
-photo.112.commitdate: 2022/7/1
-photo.112.link: https://www.instagram.com/grskus_tk/
-photo.112.tags: peek, sample, whiskers
-photo.113: ig://Ccp0wc2rAX9/m
-photo.113.author: mini_cochi
-photo.113.commitdate: 2022/6/2
-photo.113.link: https://www.instagram.com/mini_cochi/
-photo.113.tags: bamboo, peek, portrait, sample, whiskers
-photo.114: ig://Cd1Z5_HBEtp/m
-photo.114.author: hamamatsu.chiita
-photo.114.commitdate: 2022/7/1
-photo.114.link: https://www.instagram.com/hamamatsu.chiita/
-photo.114.tags: close-up, lips, portrait, sample, smile, whiskers
-photo.115: https://www.instagram.com/p/CZg-YVFv-L2/media/?size=m
-photo.115.author: yakko____
-photo.115.link: https://www.instagram.com/yakko____/
-photo.115.tags: paws, portrait, sample, whiskers
+photo.111: ig://CZg-YVFv-L2/m
+photo.111.author: yakko____
+photo.111.commitdate: 2022/7/31
+photo.111.link: https://www.instagram.com/yakko____/
+photo.111.tags: paws, portrait, sample, whiskers
+photo.112: ig://CalFWKjBqCw/m
+photo.112.author: rie_panda55
+photo.112.commitdate: 2022/3/6
+photo.112.link: https://www.instagram.com/rie_panda55/
+photo.112.tags: climb, paws, portrait, sample, smile, tail, tree
+photo.113: ig://Cb9yAWYv1uq/m
+photo.113.author: grskus_tk
+photo.113.commitdate: 2022/7/1
+photo.113.link: https://www.instagram.com/grskus_tk/
+photo.113.tags: peek, sample, whiskers
+photo.114: ig://Ccp0wc2rAX9/m
+photo.114.author: mini_cochi
+photo.114.commitdate: 2022/6/2
+photo.114.link: https://www.instagram.com/mini_cochi/
+photo.114.tags: bamboo, peek, portrait, sample, whiskers
+photo.115: ig://Cd1Z5_HBEtp/m
+photo.115.author: hamamatsu.chiita
+photo.115.commitdate: 2022/7/1
+photo.115.link: https://www.instagram.com/hamamatsu.chiita/
+photo.115.tags: close-up, lips, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 264

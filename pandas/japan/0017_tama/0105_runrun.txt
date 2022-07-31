@@ -276,8 +276,9 @@ photo.53.author: otenba_redpanda
 photo.53.commitdate: 2021/11/11
 photo.53.link: https://www.instagram.com/otenba_redpanda/
 photo.53.tags: paws, portrait, tail, whiskers
-photo.54: https://www.instagram.com/p/CfVaYPjPWsu/media/?size=m
+photo.54: ig://CfVaYPjPWsu/m
 photo.54.author: eos1089
+photo.54.commitdate: 2022/7/31
 photo.54.link: https://www.instagram.com/eos1089/
 photo.54.tags: laying down, paws, portrait, sample, whiskers
 species: 2

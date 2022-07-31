@@ -660,15 +660,16 @@ photo.130.author: minatomirai215
 photo.130.commitdate: 2022/6/21
 photo.130.link: https://www.instagram.com/minatomirai215/
 photo.130.tags: portrait, smile, whiskers
-photo.131: ig://CfGwXaAvOub/m
-photo.131.author: minatomirai215
-photo.131.commitdate: 2022/7/18
-photo.131.link: https://www.instagram.com/minatomirai215/
-photo.131.tags: portrait, whiskers
-photo.132: https://www.instagram.com/p/CfExOGav7ss/media/?size=m
-photo.132.author: eos1089
-photo.132.link: https://www.instagram.com/eos1089/
-photo.132.tags: peek, portrait, sample, smile, whiskers
+photo.131: ig://CfExOGav7ss/m
+photo.131.author: eos1089
+photo.131.commitdate: 2022/7/31
+photo.131.link: https://www.instagram.com/eos1089/
+photo.131.tags: peek, portrait, sample, smile, whiskers
+photo.132: ig://CfGwXaAvOub/m
+photo.132.author: minatomirai215
+photo.132.commitdate: 2022/7/18
+photo.132.link: https://www.instagram.com/minatomirai215/
+photo.132.tags: portrait, whiskers
 species: 2
 studbook.id: 14142
 zoo: 45

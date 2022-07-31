@@ -125,15 +125,16 @@ photo.23.author: otenba_redpanda
 photo.23.commitdate: 2022/4/26
 photo.23.link: https://www.instagram.com/otenba_redpanda/
 photo.23.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.24: ig://CgRWDhxPJrc/m
+photo.24: ig://Cf1EwAdP5IV/m
 photo.24.author: daniele.tokyo
-photo.24.commitdate: 2022/7/25
+photo.24.commitdate: 2022/7/31
 photo.24.link: https://www.instagram.com/daniele.tokyo/
-photo.24.tags: bamboo, bridge, laying down, peek, smile, tongue
-photo.25: https://www.instagram.com/p/Cf1EwAdP5IV/media/?size=m
+photo.24.tags: bite, close-up, portrait, sample, whiskers
+photo.25: ig://CgRWDhxPJrc/m
 photo.25.author: daniele.tokyo
+photo.25.commitdate: 2022/7/25
 photo.25.link: https://www.instagram.com/daniele.tokyo/
-photo.25.tags: bite, close-up, portrait, sample, whiskers
+photo.25.tags: bamboo, bridge, laying down, peek, smile, tongue
 species: 2
 studbook.id: 10113
 zoo: 34

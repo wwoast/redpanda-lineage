@@ -865,15 +865,16 @@ photo.171.author: ifumoto88
 photo.171.commitdate: 2022/6/1
 photo.171.link: https://www.instagram.com/ifumoto88/
 photo.171.tags: mofumofu, portrait, sample, smile, tree
-photo.172: ig://Ce17OjmBTrt/m
-photo.172.author: ssc6105
-photo.172.commitdate: 2022/7/18
-photo.172.link: https://www.instagram.com/ssc6105/
-photo.172.tags: paws, portrait, sample, whiskers
-photo.173: https://www.instagram.com/p/Ce1SF-bpYjB/media/?size=m
-photo.173.author: eos1089
-photo.173.link: https://www.instagram.com/eos1089/
-photo.173.tags: paws, peek, portrait
+photo.172: ig://Ce1SF-bpYjB/m
+photo.172.author: eos1089
+photo.172.commitdate: 2022/7/31
+photo.172.link: https://www.instagram.com/eos1089/
+photo.172.tags: paws, peek, portrait
+photo.173: ig://Ce17OjmBTrt/m
+photo.173.author: ssc6105
+photo.173.commitdate: 2022/7/18
+photo.173.link: https://www.instagram.com/ssc6105/
+photo.173.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 0872
 zoo: 1

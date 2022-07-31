@@ -358,8 +358,9 @@ photo.69.author: ifumoto88
 photo.69.commitdate: 2022/6/3
 photo.69.link: https://www.instagram.com/ifumoto88/
 photo.69.tags: bamboo, close-up, portrait, shoots, tongue, whiskers
-photo.70: https://www.instagram.com/p/CfMcHrFvfzc/media/?size=m
+photo.70: ig://CfMcHrFvfzc/m
 photo.70.author: eos1089
+photo.70.commitdate: 2022/7/31
 photo.70.link: https://www.instagram.com/eos1089/
 photo.70.tags: portrait, sample, tongue, whiskers
 species: 2

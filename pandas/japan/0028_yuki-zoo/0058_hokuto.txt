@@ -969,12 +969,14 @@ photo.191.author: eos1089
 photo.191.commitdate: 2022/7/31
 photo.191.link: https://www.instagram.com/eos1089/
 photo.191.tags: door, paws, sample, standing, tail
-photo.192: https://www.instagram.com/p/Cf3gKiDPwZI/media/?size=m
+photo.192: ig://Cf3gKiDPwZI/m
 photo.192.author: minatomirai215
+photo.192.commitdate: 2022/7/31
 photo.192.link: https://www.instagram.com/minatomirai215/
 photo.192.tags: peek, portrait, sample, tree, whiskers
-photo.193: https://www.instagram.com/p/Cf5pdc6u-NL/media/?size=m
+photo.193: ig://Cf5pdc6u-NL/m
 photo.193.author: wumpwoast
+photo.193.commitdate: 2022/7/31
 photo.193.link: https://www.instagram.com/wumpwoast/
 photo.193.tags: portrait, smile
 species: 2

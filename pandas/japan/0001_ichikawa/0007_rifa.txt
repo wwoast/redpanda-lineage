@@ -659,20 +659,21 @@ photo.130.author: ifumoto88
 photo.130.commitdate: 2022/6/29
 photo.130.link: https://www.instagram.com/ifumoto88/
 photo.130.tags: lips, portrait, sample, smile
-photo.131: ig://CfBYF4hvmEg/m
-photo.131.author: ssc6105
-photo.131.commitdate: 2022/7/23
-photo.131.link: https://www.instagram.com/ssc6105/
-photo.131.tags: climb, close-up, paws, sample, smile
-photo.132: ig://CfoSmK6LheW/m
-photo.132.author: ifumoto88
-photo.132.commitdate: 2022/7/31
-photo.132.link: https://www.instagram.com/ifumoto88/
-photo.132.tags: paws, portrait, sample, whiskers
-photo.133: https://www.instagram.com/p/Ce_lK5OPZil/media/?size=m
-photo.133.author: eos1089
-photo.133.link: https://www.instagram.com/eos1089/
-photo.133.tags: apple time, close-up, paws, portrait, sample, whiskers
+photo.131: ig://Ce_lK5OPZil/m
+photo.131.author: eos1089
+photo.131.commitdate: 2022/7/31
+photo.131.link: https://www.instagram.com/eos1089/
+photo.131.tags: apple time, close-up, paws, portrait, sample, whiskers
+photo.132: ig://CfBYF4hvmEg/m
+photo.132.author: ssc6105
+photo.132.commitdate: 2022/7/23
+photo.132.link: https://www.instagram.com/ssc6105/
+photo.132.tags: climb, close-up, paws, sample, smile
+photo.133: ig://CfoSmK6LheW/m
+photo.133.author: ifumoto88
+photo.133.commitdate: 2022/7/31
+photo.133.link: https://www.instagram.com/ifumoto88/
+photo.133.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 13147
 zoo: 1
