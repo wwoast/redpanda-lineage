@@ -1492,9 +1492,9 @@ photo.296.commitdate: 2022/3/10
 photo.296.link: https://www.instagram.com/minatomirai215/
 photo.296.tags: close-up, sample, whiskers
 photo.297: ig://CcFP0IlvIDT/m
-photo.297.author: cute.animals_redpanda
+photo.297.author: 90redpanda10
 photo.297.commitdate: 2022/4/13
-photo.297.link: https://www.instagram.com/cute.animals_redpanda/
+photo.297.link: https://www.instagram.com/90redpanda10/
 photo.297.tags: close-up, paws, sample, smile, whiskers
 photo.298: ig://CcgoqSsLnLG/m
 photo.298.author: otenba_redpanda
@@ -1512,14 +1512,14 @@ photo.300.commitdate: 2022/6/6
 photo.300.link: https://www.instagram.com/pantasanzoo1/
 photo.300.tags: keeper, laying down, paws, playing, whiskers
 photo.301: ig://Cd3R0xwpWeC/m
-photo.301.author: cute.animals_redpanda
+photo.301.author: 90redpanda10
 photo.301.commitdate: 2022/7/1
-photo.301.link: https://www.instagram.com/cute.animals_redpanda/
+photo.301.link: https://www.instagram.com/90redpanda10/
 photo.301.tags: sample, smile, whiskers
 photo.302: ig://Cd3R7aSJZ31/m
-photo.302.author: cute.animals_redpanda
+photo.302.author: 90redpanda10
 photo.302.commitdate: 2022/7/1
-photo.302.link: https://www.instagram.com/cute.animals_redpanda/
+photo.302.link: https://www.instagram.com/90redpanda10/
 photo.302.tags: smile
 photo.303: ig://CeD-JUKrXGF/m
 photo.303.author: gloryeui
@@ -1546,6 +1546,14 @@ photo.307.author: minatomirai215
 photo.307.commitdate: 2022/7/9
 photo.307.link: https://www.instagram.com/minatomirai215/
 photo.307.tags: dish, peek, portrait, sample, tail
+photo.308: https://www.instagram.com/p/CfoEekRvhDO/media/?size=m
+photo.308.author: 90redpanda10
+photo.308.link: https://www.instagram.com/90redpanda10/
+photo.308.tags: close-up, portrait, sample, whiskers
+photo.309: https://www.instagram.com/p/CfnGnK1vL7Q/media/?size=m
+photo.309.author: 90redpanda10
+photo.309.link: https://www.instagram.com/90redpanda10/
+photo.309.tags: paws, peek, portrait, sample
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0
