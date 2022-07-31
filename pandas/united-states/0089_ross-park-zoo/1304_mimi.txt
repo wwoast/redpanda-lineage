@@ -16,6 +16,8 @@ jp.nicknames: none
 jp.othernames: シェンミ
 language.order: cn, en, jp
 litter: none
+location.1: 65, 2021/7/16
+location.2: 89, 2022/5/3
 photo.1: ig://CSMLTIDtFgf/m
 photo.1.author: cincinnatizoo
 photo.1.commitdate: 2021/8/9
@@ -67,4 +69,4 @@ photo.10.commitdate: 2022/6/7
 photo.10.link: https://www.instagram.com/carsontheredpanda/
 photo.10.tags: itchy, portrait, sample, smile, tongue
 species: 2
-zoo: 65
+zoo: 89
