@@ -1012,8 +1012,9 @@ photo.200.author: daniele.tokyo
 photo.200.commitdate: 2022/6/29
 photo.200.link: https://www.instagram.com/daniele.tokyo/
 photo.200.tags: paws, sample, standing, toys
-photo.201: https://www.instagram.com/p/CfqNTFkPAfl/media/?size=m
+photo.201: ig://CfqNTFkPAfl/m
 photo.201.author: falcon_tenor
+photo.201.commitdate: 2022/7/31
 photo.201.link: https://www.instagram.com/falcon_tenor/
 photo.201.tags: mofumofu, sample
 species: 2

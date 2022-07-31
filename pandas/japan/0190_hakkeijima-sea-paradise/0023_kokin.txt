@@ -1546,14 +1546,16 @@ photo.307.author: minatomirai215
 photo.307.commitdate: 2022/7/9
 photo.307.link: https://www.instagram.com/minatomirai215/
 photo.307.tags: dish, peek, portrait, sample, tail
-photo.308: https://www.instagram.com/p/CfoEekRvhDO/media/?size=m
+photo.308: ig://CfnGnK1vL7Q/m
 photo.308.author: 90redpanda10
+photo.308.commitdate: 2022/7/31
 photo.308.link: https://www.instagram.com/90redpanda10/
-photo.308.tags: close-up, portrait, sample, whiskers
-photo.309: https://www.instagram.com/p/CfnGnK1vL7Q/media/?size=m
+photo.308.tags: paws, peek, portrait, sample
+photo.309: ig://CfoEekRvhDO/m
 photo.309.author: 90redpanda10
+photo.309.commitdate: 2022/7/31
 photo.309.link: https://www.instagram.com/90redpanda10/
-photo.309.tags: paws, peek, portrait, sample
+photo.309.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 1774
 video.1: https://youtu.be/f-hoQdNnqA0

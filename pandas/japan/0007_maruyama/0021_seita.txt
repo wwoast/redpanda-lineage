@@ -1205,19 +1205,21 @@ photo.239.author: minatomirai215
 photo.239.commitdate: 2022/7/23
 photo.239.link: https://www.instagram.com/minatomirai215/
 photo.239.tags: bamboo, bite, portrait, sample, snow
-photo.240: ig://CgWpXeFPACy/m
-photo.240.author: leonard_redmof
-photo.240.commitdate: 2022/7/25
-photo.240.link: https://www.instagram.com/leonard_redmof/
-photo.240.tags: portrait, sample, whiskers
-photo.241: https://www.instagram.com/p/Cfv4fl9LE-m/media/?size=m
+photo.240: ig://CfojyrjrIQ7/m
+photo.240.author: cattail.sapporo
+photo.240.commitdate: 2022/7/31
+photo.240.link: https://www.instagram.com/cattail.sapporo/
+photo.240.tags: home, paws, portrait, sample, tail, whiskers
+photo.241: ig://Cfv4fl9LE-m/m
 photo.241.author: cattail.sapporo
+photo.241.commitdate: 2022/7/31
 photo.241.link: https://www.instagram.com/cattail.sapporo/
 photo.241.tags: close-up, grooming, paws, portrait, sample, tongue, whiskers
-photo.242: https://www.instagram.com/p/CfojyrjrIQ7/media/?size=m
-photo.242.author: cattail.sapporo
-photo.242.link: https://www.instagram.com/cattail.sapporo/
-photo.242.tags: home, paws, portrait, sample, tail, whiskers
+photo.242: ig://CgWpXeFPACy/m
+photo.242.author: leonard_redmof
+photo.242.commitdate: 2022/7/25
+photo.242.link: https://www.instagram.com/leonard_redmof/
+photo.242.tags: portrait, sample, whiskers
 species: 2
 studbook.id: 0554
 zoo: 7

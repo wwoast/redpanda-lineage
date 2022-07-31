@@ -26,8 +26,9 @@ photo.3.tags: apple time, keeper, siblings, twins
 photo.3.tags.176.location: 335, 155
 photo.3.tags.177.location: 190, 190
 photo.3.tags.178.location: 105, 185
-photo.4: https://www.instagram.com/p/Cf_OhlrhWNc/media/?size=l
+photo.4: ig://Cf_OhlrhWNc/l
 photo.4.author: colette.jp
+photo.4.commitdate: 2022/7/31
 photo.4.link: https://www.instagram.com/colette.jp/
 photo.4.tags: portrait, siblings, smile, twins
 photo.4.tags.176.location: 75, 175

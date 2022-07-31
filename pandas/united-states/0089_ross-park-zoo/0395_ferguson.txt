@@ -98,22 +98,26 @@ photo.17.author: rossparkzoo
 photo.17.commitdate: 2022/2/23
 photo.17.link: https://www.instagram.com/rossparkzoo/
 photo.17.tags: close-up, paws, portrait, sample, whiskers
-photo.18: https://www.instagram.com/p/CfRIhy2AzKC/media/?size=m
+photo.18: ig://CeEQsAMukqg/m
 photo.18.author: rossparkzoo
+photo.18.commitdate: 2022/7/31
 photo.18.link: https://www.instagram.com/rossparkzoo/
-photo.18.tags: bamboo, laying down, portrait, sample
-photo.19: https://www.instagram.com/p/CfHSgY_OABY/media/?size=m
+photo.18.tags: close-up, portrait, sample, whiskers
+photo.19: ig://CeoXUiMs4p4/m
 photo.19.author: rossparkzoo
+photo.19.commitdate: 2022/7/31
 photo.19.link: https://www.instagram.com/rossparkzoo/
-photo.19.tags: apple time, dish, paws, portrait, tongue, whiskers
-photo.20: https://www.instagram.com/p/CeoXUiMs4p4/media/?size=m
+photo.19.tags: portrait, sample, smile, tail
+photo.20: ig://CfHSgY_OABY/m
 photo.20.author: rossparkzoo
+photo.20.commitdate: 2022/7/31
 photo.20.link: https://www.instagram.com/rossparkzoo/
-photo.20.tags: portrait, sample, smile, tail
-photo.21: https://www.instagram.com/p/CeEQsAMukqg/media/?size=m
+photo.20.tags: apple time, dish, paws, portrait, tongue, whiskers
+photo.21: ig://CfRIhy2AzKC/m
 photo.21.author: rossparkzoo
+photo.21.commitdate: 2022/7/31
 photo.21.link: https://www.instagram.com/rossparkzoo/
-photo.21.tags: close-up, portrait, sample, whiskers
+photo.21.tags: bamboo, laying down, portrait, sample
 species: 2
 studbook.id: 1527
 zoo: 89

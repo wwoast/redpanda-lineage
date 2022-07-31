@@ -13,6 +13,7 @@ jp.nicknames: none
 jp.othernames: none
 language.order: jp, en
 litter: 167
+phoot.268.link: https://www.instagram.com/imagoto17/
 photo.1: ig://BagKfyyH49V/m
 photo.1.author: tomo3700
 photo.1.commitdate: 2018/12/27
@@ -1344,9 +1345,9 @@ photo.267.author: imagoto17
 photo.267.commitdate: 2022/7/23
 photo.267.link: https://www.instagram.com/imagoto17/
 photo.267.tags: bridge, laying down, paws, tail, tongue
-photo.268: https://www.instagram.com/p/CftZTNHPAUK/media/?size=m
+photo.268: ig://CftZTNHPAUK/m
 photo.268.author: imagoto17
-phoot.268.link: https://www.instagram.com/imagoto17/
+photo.268.commitdate: 2022/7/31
 photo.268.tags: apple time, paws, sample, standing
 species: 2
 studbook.id: 1778

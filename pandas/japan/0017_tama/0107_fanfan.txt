@@ -118,7 +118,7 @@ photo.21: ig://CCbD7IqBS0O/m
 photo.21.author: mini_cochi
 photo.21.commitdate: 2020/7/14
 photo.21.link: https://www.instagram.com/mini_cochi/
-photo.21.tags: old, paws, portrait, smile
+photo.21.tags: mofumofu, old, paws, portrait, sample, smile, tail, whiskers
 photo.22: ig://CEDHKAahIvS/m
 photo.22.author: otenba_redpanda
 photo.22.commitdate: 2021/10/1
@@ -184,10 +184,6 @@ photo.34.author: otenba_redpanda
 photo.34.commitdate: 2021/11/21
 photo.34.link: https://www.instagram.com/otenba_redpanda/
 photo.34.tags: mofumofu, paws, portrait, tail, whiskers
-photo.35: https://www.instagram.com/p/CCbD7IqBS0O/media/?size=m
-photo.35.author: mini_cochi
-photo.35.link: https://www.instagram.com/mini_cochi/
-photo.35.tags: old, mofumofu, portrait, sample, tail, whiskers
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw

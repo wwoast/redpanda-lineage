@@ -304,15 +304,16 @@ photo.58.author: hamiiiii831_
 photo.58.commitdate: 2022/7/9
 photo.58.link: https://www.instagram.com/hamiiiii831_/
 photo.58.tags: mofumofu, paws, sample, tongue, whiskers
-photo.59: ig://CgKe3dkhluV/m
-photo.59.author: eos1089
-photo.59.commitdate: 2022/7/25
-photo.59.link: https://www.instagram.com/eos1089/
-photo.59.tags: mofumofu, portrait, sample, whiskers
-photo.60: https://www.instagram.com/p/CfpaSJgBdiB/media/?size=m
-photo.60.author: panda.daisuki
-photo.60.link: https://www.instagram.com/panda.daisuki/
-photo.60.tags: close-up, paws, portrait, whiskers, window
+photo.59: ig://CfpaSJgBdiB/m
+photo.59.author: panda.daisuki
+photo.59.commitdate: 2022/7/31
+photo.59.link: https://www.instagram.com/panda.daisuki/
+photo.59.tags: close-up, paws, portrait, whiskers, window
+photo.60: ig://CgKe3dkhluV/m
+photo.60.author: eos1089
+photo.60.commitdate: 2022/7/25
+photo.60.link: https://www.instagram.com/eos1089/
+photo.60.tags: mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 13169
 video.1: https://youtu.be/HQ_OsRtj6T0
