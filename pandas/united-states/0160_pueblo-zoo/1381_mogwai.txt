@@ -1,0 +1,22 @@
+[panda]
+_id: 1381
+birthday: 2021/6/18
+birthplace: 160
+children: none
+commitdate: 2022/8/1
+en.name: Mogwai
+en.nicknames: none
+en.othernames: Mowgi, Mowgli
+gender: m
+jp.name: モーグリ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: 1382
+photo.1: https://www.instagram.com/p/CRhuVIRlSas/media/?size=m
+photo.1.author: pueblozoo
+photo.1.link: https://www.instagram.com/pueblozoo/
+photo.1.tags: baby, newborn, keeper, portrait, profile
+species: 1
+uncertainty: birthday may be 6/19
+zoo: 160
