@@ -772,14 +772,16 @@ photo.153.author: taka__3428
 photo.153.commitdate: 2022/6/1
 photo.153.link: https://www.instagram.com/taka__3428/
 photo.153.tags: apple time, paws, sample, standing, whiskers
-photo.154: https://www.instagram.com/p/Ceb-zKShTGj/media/?size=m
-photo.154.author: hamamatsu.chiita
-photo.154.link: https://www.instagram.com/hamamatsu.chiita/
-photo.154.tags: portrait, sample, whiskers, white face
-photo.155: https://www.instagram.com/p/CeYwiClPdJY/media/?size=m
-photo.155.author: taka__3428
-photo.155.link: https://www.instagram.com/taka__3428/
-photo.155.tags: flowers, peek, tree
+photo.154: ig://CeYwiClPdJY/m
+photo.154.author: taka__3428
+photo.154.commitdate: 2022/8/1
+photo.154.link: https://www.instagram.com/taka__3428/
+photo.154.tags: flowers, peek, tree
+photo.155: ig://Ceb-zKShTGj/m
+photo.155.author: hamamatsu.chiita
+photo.155.commitdate: 2022/8/1
+photo.155.link: https://www.instagram.com/hamamatsu.chiita/
+photo.155.tags: portrait, sample, whiskers, white face
 species: 2
 studbook.id: 14135
 zoo: 24

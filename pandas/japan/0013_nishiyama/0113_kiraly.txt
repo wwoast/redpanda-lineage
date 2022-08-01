@@ -162,25 +162,26 @@ photo.30.author: minato.yokohama4416
 photo.30.commitdate: 2022/4/25
 photo.30.link: https://www.instagram.com/minato.yokohama4416/
 photo.30.tags: apple time, dish, paws, portrait, sample, whiskers
-photo.31: ig://Ce8c3FRPDVg/m
-photo.31.author: jas_forever_love
-photo.31.commitdate: 2022/6/21
-photo.31.link: https://www.instagram.com/jas_forever_love/
-photo.31.tags: lips, mofumofu, portrait, sample, whiskers
-photo.32: ig://CgOTX7FO2Wn/m
-photo.32.author: kijyo.zoo
-photo.32.commitdate: 2022/7/25
-photo.32.link: https://www.instagram.com/kijyo.zoo/
-photo.32.tags: mofumofu, portrait, sample, smile
-photo.33: ig://CgSa09OBYKG/m
-photo.33.author: hamamatsu.chiita
+photo.31: ig://CeZqlNBh_9R/m
+photo.31.author: minato.yokohama4416
+photo.31.commitdate: 2022/8/1
+photo.31.link: https://www.instagram.com/minato.yokohama4416/
+photo.31.tags: apple time, mofumofu, paws, portrait, sample
+photo.32: ig://Ce8c3FRPDVg/m
+photo.32.author: jas_forever_love
+photo.32.commitdate: 2022/6/21
+photo.32.link: https://www.instagram.com/jas_forever_love/
+photo.32.tags: lips, mofumofu, portrait, sample, whiskers
+photo.33: ig://CgOTX7FO2Wn/m
+photo.33.author: kijyo.zoo
 photo.33.commitdate: 2022/7/25
-photo.33.link: https://www.instagram.com/hamamatsu.chiita/
-photo.33.tags: close-up, portrait, sample, whiskers
-photo.34: https://www.instagram.com/p/CeZqlNBh_9R/media/?size=m
-photo.34.author: minato.yokohama4416
-photo.34.link: https://www.instagram.com/minato.yokohama4416/
-photo.34.tags: apple time, mofumofu, paws, portrait, sample 
+photo.33.link: https://www.instagram.com/kijyo.zoo/
+photo.33.tags: mofumofu, portrait, sample, smile
+photo.34: ig://CgSa09OBYKG/m
+photo.34.author: hamamatsu.chiita
+photo.34.commitdate: 2022/7/25
+photo.34.link: https://www.instagram.com/hamamatsu.chiita/
+photo.34.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 11102
 zoo: 13

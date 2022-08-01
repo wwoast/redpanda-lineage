@@ -228,20 +228,21 @@ photo.43.author: fetorus_mami
 photo.43.commitdate: 2022/6/29
 photo.43.link: https://www.instagram.com/fetorus_mami/
 photo.43.tags: close-up, sample, tongue
-photo.44: ig://Cf-Q58ZhTqH/m
-photo.44.author: fetorus_mami
-photo.44.commitdate: 2022/7/31
-photo.44.link: https://www.instagram.com/fetorus_mami/
-photo.44.tags: laying down, mofumofu, paws, sample
-photo.45: ig://CgGGU3MLamZ/m
-photo.45.author: miis_98
-photo.45.commitdate: 2022/7/28
-photo.45.link: https://www.instagram.com/miis_98/
-photo.45.tags: portrait, sample, smile, tongue, whiskers
-photo.46: https://www.instagram.com/p/CefI1npvqpy/media/?size=m
-photo.46.author: hamiiiii831_
-photo.46.link: https://www.instagram.com/hamiiiii831_/
-photo.46.tags: paws, sample, standing, whiskers
+photo.44: ig://CefI1npvqpy/m
+photo.44.author: hamiiiii831_
+photo.44.commitdate: 2022/8/1
+photo.44.link: https://www.instagram.com/hamiiiii831_/
+photo.44.tags: paws, sample, standing, whiskers
+photo.45: ig://Cf-Q58ZhTqH/m
+photo.45.author: fetorus_mami
+photo.45.commitdate: 2022/7/31
+photo.45.link: https://www.instagram.com/fetorus_mami/
+photo.45.tags: laying down, mofumofu, paws, sample
+photo.46: ig://CgGGU3MLamZ/m
+photo.46.author: miis_98
+photo.46.commitdate: 2022/7/28
+photo.46.link: https://www.instagram.com/miis_98/
+photo.46.tags: portrait, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 1787
 zoo: 57

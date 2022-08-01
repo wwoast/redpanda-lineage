@@ -347,8 +347,9 @@ photo.67.author: miis_98
 photo.67.commitdate: 2022/5/25
 photo.67.link: https://www.instagram.com/miis_98/
 photo.67.tags: itchy, paws, portrait, sample, tail
-photo.68: https://www.instagram.com/p/CeYaTp8vyjt/media/?size=m
+photo.68: ig://CeYaTp8vyjt/m
 photo.68.author: hamamatsu.chiita
+photo.68.commitdate: 2022/8/1
 photo.68.link: https://www.instagram.com/hamamatsu.chiita/
 photo.68.tags: portrait, sample, whiskers
 species: 2

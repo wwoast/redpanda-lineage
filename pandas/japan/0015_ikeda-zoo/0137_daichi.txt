@@ -395,15 +395,16 @@ photo.76.author: itsuak
 photo.76.commitdate: 2022/6/6
 photo.76.link: https://www.instagram.com/itsuak/
 photo.76.tags: bamboo, mofumofu, paws, portrait, sample, shoots
-photo.77: ig://CfxR_GrB-xK/m
-photo.77.author: miis_98
-photo.77.commitdate: 2022/7/31
-photo.77.link: https://www.instagram.com/miis_98/
-photo.77.tags: mofumofu, paws, portrait, sample, tongue
-photo.78: https://www.instagram.com/p/CeVvmh9v-gA/media/?size=m
-photo.78.author: itsuak
-photo.78.link: https://www.instagram.com/itsuak/
-photo.78.tags: bridge, mofumofu, portrait, sample
+photo.77: ig://CeVvmh9v-gA/m
+photo.77.author: itsuak
+photo.77.commitdate: 2022/8/1
+photo.77.link: https://www.instagram.com/itsuak/
+photo.77.tags: bridge, mofumofu, portrait, sample
+photo.78: ig://CfxR_GrB-xK/m
+photo.78.author: miis_98
+photo.78.commitdate: 2022/7/31
+photo.78.link: https://www.instagram.com/miis_98/
+photo.78.tags: mofumofu, paws, portrait, sample, tongue
 species: 2
 studbook.id: 0978
 zoo: 15

@@ -1023,20 +1023,21 @@ photo.203.author: daniele.tokyo
 photo.203.commitdate: 2022/5/27
 photo.203.link: https://www.instagram.com/daniele.tokyo/
 photo.203.tags: flowers, peek, sample, tongue, whiskers
-photo.204: ig://Cf7Ahg-B4uv/m
-photo.204.author: eos1089
-photo.204.commitdate: 2022/7/31
-photo.204.link: https://www.instagram.com/eos1089/
-photo.204.tags: paws, sample, tail, techitechi, tree
-photo.205: ig://Cf86vZSPKfn/m
-photo.205.author: kotata_513
+photo.204: ig://Ceam4GhhSsS/m
+photo.204.author: hamamatsu.chiita
+photo.204.commitdate: 2022/8/1
+photo.204.link: https://www.instagram.com/hamamatsu.chiita/
+photo.204.tags: air tasting, close-up, portrait, sample, tongue, whiskers
+photo.205: ig://Cf7Ahg-B4uv/m
+photo.205.author: eos1089
 photo.205.commitdate: 2022/7/31
-photo.205.link: https://www.instagram.com/kotata_513/
-photo.205.tags: bamboo, bite, paws, shoots, surprise
-photo.206: https://www.instagram.com/p/Ceam4GhhSsS/media/?size=m
-photo.206.author: hamamatsu.chiita
-photo.206.link: https://www.instagram.com/hamamatsu.chiita/
-photo.206.tags: air tasting, close-up, portrait, sample, tongue, whiskers 
+photo.205.link: https://www.instagram.com/eos1089/
+photo.205.tags: paws, sample, tail, techitechi, tree
+photo.206: ig://Cf86vZSPKfn/m
+photo.206.author: kotata_513
+photo.206.commitdate: 2022/7/31
+photo.206.link: https://www.instagram.com/kotata_513/
+photo.206.tags: bamboo, bite, paws, shoots, surprise
 species: 2
 studbook.id: unknown
 zoo: 264

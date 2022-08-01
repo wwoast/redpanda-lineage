@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: 1382
-photo.1: https://www.instagram.com/p/CRhuVIRlSas/media/?size=m
+photo.1: ig://CRhuVIRlSas/m
 photo.1.author: pueblozoo
+photo.1.commitdate: 2022/8/1
 photo.1.link: https://www.instagram.com/pueblozoo/
 photo.1.tags: baby, newborn, keeper, portrait, profile
 species: 1
