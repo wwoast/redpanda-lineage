@@ -583,8 +583,9 @@ photo.114.author: eos1089
 photo.114.commitdate: 2022/7/31
 photo.114.link: https://www.instagram.com/eos1089/
 photo.114.tags: portrait, sample, whiskers
-photo.115: https://www.instagram.com/p/Cg2eVmXhM40/media/?size=m
+photo.115: ig://Cg2eVmXhM40/m
 photo.115.author: hamamatsu.chiita
+photo.115.commitdate: 2022/8/5
 photo.115.link: https://www.instagram.com/hamamatsu.chiita/
 photo.115.tags: close-up, portrait, sample, whiskers
 species: 2

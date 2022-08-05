@@ -283,8 +283,9 @@ photo.54.author: hamamatsu.chiita
 photo.54.commitdate: 2022/7/28
 photo.54.link: https://www.instagram.com/hamamatsu.chiita/
 photo.54.tags: muzzle, portrait, sample, whiskers
-photo.55: https://www.instagram.com/p/Cgq-8vuh4Hs/media/?size=m
+photo.55: ig://Cgq-8vuh4Hs/m
 photo.55.author: craig_craig_craig
+photo.55.commitdate: 2022/8/5
 photo.55.link: https://www.instagram.com/craig_craig_craig/
 photo.55.tags: laying down, muzzle, portrait, sample
 species: 2

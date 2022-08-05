@@ -114,8 +114,9 @@ photo.20.author: hamamatsu.chiita
 photo.20.commitdate: 2022/6/21
 photo.20.link: https://www.instagram.com/hamamatsu.chiita/
 photo.20.tags: close-up, portrait, sample, smile, tongue, whiskers
-photo.21: https://www.instagram.com/p/Cg1yWYfPUr0/media/?size=m
+photo.21: ig://Cg1yWYfPUr0/m
 photo.21.author: kojikoji2011
+photo.21.commitdate: 2022/8/5
 photo.21.link: https://www.instagram.com/kojikoji2011/
 photo.21.tags: lips, portrait, sample, whiskers
 species: 2
