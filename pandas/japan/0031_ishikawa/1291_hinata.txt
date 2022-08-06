@@ -163,8 +163,9 @@ photo.30.author: hamamatsu.chiita
 photo.30.commitdate: 2022/6/21
 photo.30.link: https://www.instagram.com/hamamatsu.chiita/
 photo.30.tags: close-up, laying down, portrait, sample, smile, tongue, whiskers, white face
-photo.31: https://www.instagram.com/p/CgsLebLhLP3/media/?size=m
+photo.31: ig://CgsLebLhLP3/m
 photo.31.author: hamamatsu.chiita
+photo.31.commitdate: 2022/8/5
 photo.31.link: https://www.instagram.com/hamamatsu.chiita/
 photo.31.tags: close-up, portrait, sample, smile, whiskers
 species: 2

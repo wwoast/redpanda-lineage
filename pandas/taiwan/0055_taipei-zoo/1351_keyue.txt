@@ -86,8 +86,9 @@ photo.14.author: yuredpanda
 photo.14.commitdate: 2022/6/22
 photo.14.link: https://www.instagram.com/yuredpanda/
 photo.14.tags: mofumofu, peek
-photo.15: https://www.instagram.com/p/Cgx_IFRBgFI/media/?size=m
+photo.15: ig://Cgx_IFRBgFI/m
 photo.15.author: yuredpanda
+photo.15.commitdate: 2022/8/5
 photo.15.link: https://www.instagram.com/yuredpanda/
 photo.15.tags: close-up, portrait, profile, sample, whiskers
 species: 2

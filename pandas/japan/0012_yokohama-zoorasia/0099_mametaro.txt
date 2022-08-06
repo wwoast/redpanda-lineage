@@ -614,8 +614,9 @@ photo.120.author: minatomirai215
 photo.120.commitdate: 2022/7/14
 photo.120.link: https://www.instagram.com/minatomirai215/
 photo.120.tags: portrait, sample, smile, whiskers
-photo.121: https://www.instagram.com/p/CgeZEF5BGNJ/media/?size=m
+photo.121: ig://CgeZEF5BGNJ/m
 photo.121.author: kotata_513
+photo.121.commitdate: 2022/8/5
 photo.121.link: https://www.instagram.com/kotata_513/
 photo.121.tags: bamboo, bite, portrait, sample, wink
 species: 2

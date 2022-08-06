@@ -270,18 +270,20 @@ photo.51.author: hamamatsu.chiita
 photo.51.commitdate: 2022/7/31
 photo.51.link: https://www.instagram.com/hamamatsu.chiita/
 photo.51.tags: close-up, peek, portrait, sample
-photo.52: ig://CgrM4MgOoUf/m
-photo.52.author: gloryeui
+photo.52: ig://Cgcu2wTBIMq/m
+photo.52.author: hamamatsu.chiita
 photo.52.commitdate: 2022/8/5
-photo.52.link: https://www.instagram.com/gloryeui/
-photo.52.tags: bamboo, itchy, paws, portrait, sample, whiskers
-photo.53: https://www.instagram.com/p/Cgcu2wTBIMq/media/?size=m
-photo.53.author: hamamatsu.chiita
-photo.53.link: https://www.instagram.com/hamamatsu.chiita/
-photo.53.tags: close-up, portrait, sample, whiskers
-photo.54: https://www.instagram.com/p/CgeFUemOhby/media/?size=m
+photo.52.link: https://www.instagram.com/hamamatsu.chiita/
+photo.52.tags: close-up, portrait, sample, whiskers
+photo.53: ig://CgeFUemOhby/m
+photo.53.author: gloryeui
+photo.53.commitdate: 2022/8/5
+photo.53.link: https://www.instagram.com/gloryeui/
+photo.53.tags: portrait, sample, tail, whiskers
+photo.54: ig://CgrM4MgOoUf/m
 photo.54.author: gloryeui
+photo.54.commitdate: 2022/8/5
 photo.54.link: https://www.instagram.com/gloryeui/
-photo.54.tags: portrait, sample, tail, whiskers
+photo.54.tags: bamboo, itchy, paws, portrait, sample, whiskers
 species: 2
 zoo: 264

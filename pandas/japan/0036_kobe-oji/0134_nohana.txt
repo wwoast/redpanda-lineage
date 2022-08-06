@@ -1077,12 +1077,14 @@ photo.215.author: i.satosato
 photo.215.commitdate: 2022/6/7
 photo.215.link: https://www.instagram.com/i.satosato/
 photo.215.tags: bamboo, paws, smile, standing, whiskers
-photo.216: https://www.instagram.com/p/CgrK-GNh-8R/media/?size=m
+photo.216: ig://CgrK-GNh-8R/m
 photo.216.author: falcon_tenor
+photo.216.commitdate: 2022/8/5
 photo.216.link: https://www.instagram.com/falcon_tenor/
 photo.216.tags: portrait, sample, smile, tongue, whiskers
-photo.217: https://www.instagram.com/p/CgrUSA3hXa0/media/?size=m
+photo.217: ig://CgrUSA3hXa0/m
 photo.217.author: i.satosato
+photo.217.commitdate: 2022/8/5
 photo.217.link: https://www.instagram.com/i.satosato/
 photo.217.tags: paws, portrait, sample, smile, tree, whiskers
 species: 2

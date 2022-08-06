@@ -86,8 +86,9 @@ photo.14.author: aimless_amos
 photo.14.commitdate: 2022/7/9
 photo.14.link: https://www.instagram.com/carsontheredpanda/
 photo.14.tags: birthday, paws, portrait, sample, standing, whiskers
-photo.15: https://www.instagram.com/p/Cgo54tFA8Zj/media/?size=m
+photo.15: ig://Cgo54tFA8Zj/m
 photo.15.author: capemaycountyzoo
+photo.15.commitdate: 2022/8/5
 photo.15.link: https://www.instagram.com/capemaycountyzoo/
 photo.15.tags: ice treat, portrait, sample
 species: 1
