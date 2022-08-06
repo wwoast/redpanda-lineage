@@ -70,7 +70,7 @@ photo.11: ig://CbT_qbtLrfA/m
 photo.11.author: yuredpanda
 photo.11.commitdate: 2022/4/20
 photo.11.link: https://www.instagram.com/yuredpanda/
-photo.11.tags: portrait, profile, whiskers
+photo.11.tags: portrait, sample, whiskers
 photo.12: ig://CcMVyiVvClK/m
 photo.12.author: yuredpanda
 photo.12.commitdate: 2022/4/20
@@ -86,5 +86,9 @@ photo.14.author: yuredpanda
 photo.14.commitdate: 2022/6/22
 photo.14.link: https://www.instagram.com/yuredpanda/
 photo.14.tags: mofumofu, peek
+photo.15: https://www.instagram.com/p/Cgx_IFRBgFI/media/?size=m
+photo.15.author: yuredpanda
+photo.15.link: https://www.instagram.com/yuredpanda/
+photo.15.tags: close-up, portrait, profile, sample, whiskers
 species: 2
 zoo: 55
