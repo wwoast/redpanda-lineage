@@ -543,8 +543,9 @@ photo.106.author: bubbles_octi
 photo.106.commitdate: 2022/6/11
 photo.106.link: https://www.instagram.com/bubbles_octi/
 photo.106.tags: mofumofu, paws, peek, sample, tree
-photo.107: https://www.instagram.com/p/CgnD0Q_BCzA/media/?size=m
+photo.107: ig://CgnD0Q_BCzA/m
 photo.107.author: hamamatsu.chiita
+photo.107.commitdate: 2022/8/7
 photo.107.link: https://www.instagram.com/hamamatsu.chiita/
 photo.107.tags: close-up, portrait, sample, whiskers
 species: 2

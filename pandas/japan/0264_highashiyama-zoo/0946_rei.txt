@@ -280,14 +280,15 @@ photo.53.author: gloryeui
 photo.53.commitdate: 2022/8/5
 photo.53.link: https://www.instagram.com/gloryeui/
 photo.53.tags: portrait, sample, tail, whiskers
-photo.54: ig://CgrM4MgOoUf/m
+photo.54: ig://CgmIB_Orbc3/m
 photo.54.author: gloryeui
-photo.54.commitdate: 2022/8/5
+photo.54.commitdate: 2022/8/7
 photo.54.link: https://www.instagram.com/gloryeui/
-photo.54.tags: bamboo, itchy, paws, portrait, sample, whiskers
-photo.55: https://www.instagram.com/p/CgmIB_Orbc3/media/?size=m
+photo.54.tags: bamboo, portrait, sample, shoots, whiskers
+photo.55: ig://CgrM4MgOoUf/m
 photo.55.author: gloryeui
+photo.55.commitdate: 2022/8/5
 photo.55.link: https://www.instagram.com/gloryeui/
-photo.55.tags: bamboo, portrait, sample, shoots, whiskers
+photo.55.tags: bamboo, itchy, paws, portrait, sample, whiskers
 species: 2
 zoo: 264

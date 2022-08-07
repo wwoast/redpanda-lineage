@@ -383,8 +383,9 @@ photo.74.author: lesserpanda_shizuokacity_cp
 photo.74.commitdate: 2022/7/28
 photo.74.link: https://www.instagram.com/lesserpanda_shizuokacity_cp/
 photo.74.tags: paws, smile, tree, whiskers
-photo.75: https://www.instagram.com/p/CgnKJ-gJHgc/media/?size=m
+photo.75: ig://CgnKJ-gJHgc/m
 photo.75.author: otenba_redpanda
+photo.75.commitdate: 2022/8/7
 photo.75.link: https://www.instagram.com/otenba_redpanda/
 photo.75.tags: close-up, portrait, sample, whiskers
 species: 2

@@ -503,23 +503,25 @@ photo.98.author: mini_cochi
 photo.98.commitdate: 2022/7/25
 photo.98.link: https://www.instagram.com/mini_cochi/
 photo.98.tags: laying down, mofumofu, paws, portrait, tail, tree
-photo.99: ig://CgreXVpr3oN/m
-photo.99.author: mini_cochi
-photo.99.commitdate: 2022/8/5
-photo.99.link: https://www.instagram.com/mini_cochi/
-photo.99.tags: paws, portrait, tail, tongue, tree
-photo.100: ig://Cgu_q3MBhRB/m
-photo.100.author: ck.chie
-photo.100.commitdate: 2022/8/5
-photo.100.link: https://www.instagram.com/ck.chie/
-photo.100.tags: carry, portrait, sample, whiskers
-photo.101: https://www.instagram.com/p/CgmHG-fvSgJ/media/?size=m
-photo.101.author: kotata_513
-photo.101.link: https://www.instagram.com/kotata_513/
-photo.101.tags: paws, surprise, tail
-photo.102: https://www.instagram.com/p/Cgogkowh7FY/media/?size=m
-photo.102.author: _saaaaaaah_
-photo.102.link: https://www.instagram.com/_saaaaaaah_/
-photo.102.tags: laying down, paws, smile, tail, tree
+photo.99: ig://CgmHG-fvSgJ/m
+photo.99.author: kotata_513
+photo.99.commitdate: 2022/8/7
+photo.99.link: https://www.instagram.com/kotata_513/
+photo.99.tags: paws, surprise, tail
+photo.100: ig://Cgogkowh7FY/m
+photo.100.author: _saaaaaaah_
+photo.100.commitdate: 2022/8/7
+photo.100.link: https://www.instagram.com/_saaaaaaah_/
+photo.100.tags: laying down, paws, smile, tail, tree
+photo.101: ig://CgreXVpr3oN/m
+photo.101.author: mini_cochi
+photo.101.commitdate: 2022/8/5
+photo.101.link: https://www.instagram.com/mini_cochi/
+photo.101.tags: paws, portrait, tail, tongue, tree
+photo.102: ig://Cgu_q3MBhRB/m
+photo.102.author: ck.chie
+photo.102.commitdate: 2022/8/5
+photo.102.link: https://www.instagram.com/ck.chie/
+photo.102.tags: carry, portrait, sample, whiskers
 species: 2
 zoo: 17
