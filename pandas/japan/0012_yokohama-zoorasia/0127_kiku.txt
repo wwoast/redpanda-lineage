@@ -615,18 +615,21 @@ photo.120.author: minatomirai215
 photo.120.commitdate: 2022/7/23
 photo.120.link: https://www.instagram.com/minatomirai215/
 photo.120.tags: apple time, bamboo, keeper, paws, portrait, sample
-photo.121: https://www.instagram.com/p/CghR7Cvvw7E/media/?size=m
-photo.121.author: minatomirai215
-photo.121.link: https://www.instagram.com/minatomirai215/
-photo.121.tags: paws, peek, portrait, sample, whiskers
-photo.122: https://www.instagram.com/p/Cge04vbBrQ6/media/?size=m
-photo.122.author: eos1089
-photo.122.link: https://www.instagram.com/eos1089/
-photo.122.tags: peek, portrait, sample, whiskers
-photo.123: https://www.instagram.com/p/Cgfqdg8h700/media/?size=m
-photo.123.author: alto0908
-photo.123.link: https://www.instagram.com/alto0908/
-photo.123.tags: peek, portrait, sample, tail
+photo.121: ig://Cge04vbBrQ6/m
+photo.121.author: eos1089
+photo.121.commitdate: 2022/8/8
+photo.121.link: https://www.instagram.com/eos1089/
+photo.121.tags: peek, portrait, sample, whiskers
+photo.122: ig://Cgfqdg8h700/m
+photo.122.author: alto0908
+photo.122.commitdate: 2022/8/8
+photo.122.link: https://www.instagram.com/alto0908/
+photo.122.tags: peek, portrait, sample, tail
+photo.123: ig://CghR7Cvvw7E/m
+photo.123.author: minatomirai215
+photo.123.commitdate: 2022/8/8
+photo.123.link: https://www.instagram.com/minatomirai215/
+photo.123.tags: paws, peek, portrait, sample, whiskers
 species: 2
 studbook.id: 15135
 zoo: 12

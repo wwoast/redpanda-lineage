@@ -1364,14 +1364,16 @@ photo.271.author: imagoto17
 photo.271.commitdate: 2022/7/31
 photo.271.link: https://www.instagram.com/imagoto17/
 photo.271.tags: apple time, paws, sample, standing
-photo.272: https://www.instagram.com/p/CggFSxLvGHp/media/?size=m
-photo.272.author: falcon_tenor
-photo.272.link: https://www.instagram.com/falcon_tenor/
-photo.272.tags: paws, portrait, sample, tongue, whiskers
-photo.273: https://www.instagram.com/p/CgeLDoUPNK_/media/?size=m
-photo.273.author: imagoto17
-photo.273.link: https://www.instagram.com/imagoto17/
-photo.273.tags: apple time, keeper, paws, portrait, smile
+photo.272: ig://CgeLDoUPNK_/m
+photo.272.author: imagoto17
+photo.272.commitdate: 2022/8/8
+photo.272.link: https://www.instagram.com/imagoto17/
+photo.272.tags: apple time, keeper, paws, portrait, smile
+photo.273: ig://CggFSxLvGHp/m
+photo.273.author: falcon_tenor
+photo.273.commitdate: 2022/8/8
+photo.273.link: https://www.instagram.com/falcon_tenor/
+photo.273.tags: paws, portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

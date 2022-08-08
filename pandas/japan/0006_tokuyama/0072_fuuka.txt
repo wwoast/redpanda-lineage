@@ -216,10 +216,11 @@ photo.40.author: hamamatsu.chiita
 photo.40.commitdate: 2022/7/31
 photo.40.link: https://www.instagram.com/hamamatsu.chiita/
 photo.40.tags: grooming, mofumofu, paws, sample
-photo.41: https://www.instagram.com/p/CghHAQqPXnR/media/?size=m
+photo.41: ig://CghHAQqPXnR/m
 photo.41.author: kojikoji2011
+photo.41.commitdate: 2022/8/8
 photo.41.link: https://www.instagram.com/kojikoji2011/
-photo.41.tags: marking, peek, portrait, tail 
+photo.41.tags: marking, peek, portrait, tail
 species: 2
 studbook.id: 0663
 zoo: 6

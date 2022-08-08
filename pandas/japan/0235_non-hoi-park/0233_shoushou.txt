@@ -683,8 +683,9 @@ photo.134.author: hamamatsu.chiita
 photo.134.commitdate: 2022/7/31
 photo.134.link: https://www.instagram.com/hamamatsu.chiita/
 photo.134.tags: close-up, portrait, sample, whiskers
-photo.135: https://www.instagram.com/p/Cgxnx86r6zn/media/?size=m
+photo.135: ig://Cgxnx86r6zn/m
 photo.135.author: otenba_redpanda
+photo.135.commitdate: 2022/8/8
 photo.135.link: https://www.instagram.com/otenba_redpanda/
 photo.135.tags: bamboo, paws, portrait, sample, tail
 species: 2

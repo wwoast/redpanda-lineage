@@ -880,10 +880,11 @@ photo.174.author: ifumoto88
 photo.174.commitdate: 2022/8/7
 photo.174.link: https://www.instagram.com/ifumoto88/
 photo.174.tags: lips, mofumofu, peek, portrait, smile, whiskers
-photo.175: https://www.instagram.com/p/CgiqvSmv0Ce/media/?size=m
+photo.175: ig://CgiqvSmv0Ce/m
 photo.175.author: miis_98
+photo.175.commitdate: 2022/8/8
 photo.175.link: https://www.instagram.com/miis_98/
-photo.175.tags: portrait, sample, tree, whiskers 
+photo.175.tags: portrait, sample, tree, whiskers
 species: 2
 studbook.id: 0872
 zoo: 1

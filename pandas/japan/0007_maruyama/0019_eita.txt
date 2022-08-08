@@ -1765,12 +1765,14 @@ photo.352.author: cattail.sapporo
 photo.352.commitdate: 2022/7/31
 photo.352.link: https://www.instagram.com/cattail.sapporo/
 photo.352.tags: home, portrait, tongue, whiskers
-photo.353: https://www.instagram.com/p/CgeOIvcLZDN/media/?size=m
+photo.353: ig://CgeOIvcLZDN/m
 photo.353.author: cattail.sapporo
+photo.353.commitdate: 2022/8/8
 photo.353.link: https://www.instagram.com/cattail.sapporo/
 photo.353.tags: paws, portrait, sample, tail, whiskers
-photo.354: https://www.instagram.com/p/Cg6xU3ghrFu/media/?size=m
+photo.354: ig://Cg6xU3ghrFu/m
 photo.354.author: leonard_redmof
+photo.354.commitdate: 2022/8/8
 photo.354.link: https://www.instagram.com/leonard_redmof/
 photo.354.tags: peek, portrait, sample, whiskers
 species: 2

@@ -323,8 +323,9 @@ photo.62.author: otenba_redpanda
 photo.62.commitdate: 2022/7/28
 photo.62.link: https://www.instagram.com/otenba_redpanda/
 photo.62.tags: mofumofu, peek, portrait, sample, tongue
-photo.63: https://www.instagram.com/p/CghFsRmvXFE/media/?size=m
+photo.63: ig://CghFsRmvXFE/m
 photo.63.author: redpan22
+photo.63.commitdate: 2022/8/8
 photo.63.link: https://www.instagram.com/redpan22/
 photo.63.tags: mofumofu, paws, playing, portrait
 species: 2

@@ -387,8 +387,9 @@ photo.75.author: hamamatsu.chiita
 photo.75.commitdate: 2022/6/7
 photo.75.link: https://www.instagram.com/hamamatsu.chiita/
 photo.75.tags: bamboo, close-up, portrait, sample, whiskers
-photo.76: https://www.instagram.com/p/Cgh4pERBc9I/media/?size=m
+photo.76: ig://Cgh4pERBc9I/m
 photo.76.author: hamamatsu.chiita
+photo.76.commitdate: 2022/8/8
 photo.76.link: https://www.instagram.com/hamamatsu.chiita/
 photo.76.tags: laying down, paws, portrait, sample, tree
 species: 2

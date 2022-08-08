@@ -83,10 +83,11 @@ photo.14.author: pantasanzoo1
 photo.14.commitdate: 2022/8/5
 photo.14.link: https://www.instagram.com/pantasanzoo1/
 photo.14.tags: apple time, keeper
-photo.15: https://www.instagram.com/p/Cgbq1qUBKkc/media/?size=m
+photo.15: ig://Cgbq1qUBKkc/m
 photo.15.author: _saaaaaaah_
+photo.15.commitdate: 2022/8/8
 photo.15.link: https://www.instagram.com/_saaaaaaah_/
-photo.15.tags: grooming, home, laying down, paws 
+photo.15.tags: grooming, home, laying down, paws
 species: 1
 studbook.id: unknown
 zoo: 59

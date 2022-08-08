@@ -511,8 +511,9 @@ photo.100.author: minato.yokohama4416
 photo.100.commitdate: 2022/7/25
 photo.100.link: https://www.instagram.com/minato.yokohama4416/
 photo.100.tags: peek, portrait, smile, tree
-photo.101: https://www.instagram.com/p/CgppskRhNII/media/?size=m
+photo.101: ig://CgppskRhNII/m
 photo.101.author: hamamatsu.chiita
+photo.101.commitdate: 2022/8/8
 photo.101.link: https://www.instagram.com/hamamatsu.chiita/
 photo.101.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

@@ -347,8 +347,9 @@ photo.67.author: eos1089
 photo.67.commitdate: 2022/7/31
 photo.67.link: https://www.instagram.com/eos1089/
 photo.67.tags: portrait, sample, whiskers
-photo.68: https://www.instagram.com/p/CgiOVfPhdcx/media/?size=m
+photo.68: ig://CgiOVfPhdcx/m
 photo.68.author: alto0908
+photo.68.commitdate: 2022/8/8
 photo.68.link: https://www.instagram.com/alto0908/
 photo.68.tags: door, portrait, sample, tongue
 species: 2

@@ -881,8 +881,9 @@ photo.174.author: yossi929
 photo.174.commitdate: 2022/6/3
 photo.174.link: https://www.instagram.com/yossi929/
 photo.174.tags: keeper, paws, portrait, sample, standing, tongue
-photo.175: https://www.instagram.com/p/CggB14fvrLo/media/?size=m
+photo.175: ig://CggB14fvrLo/m
 photo.175.author: re_ichimaru
+photo.175.commitdate: 2022/8/8
 photo.175.link: https://www.instagram.com/re_ichimaru/
 photo.175.tags: paws, portrait, tail, tongue, whiskers
 species: 2

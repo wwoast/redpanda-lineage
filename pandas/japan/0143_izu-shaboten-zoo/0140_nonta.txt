@@ -466,8 +466,9 @@ photo.90.author: otenba_redpanda
 photo.90.commitdate: 2022/7/23
 photo.90.link: https://www.instagram.com/otenba_redpanda/
 photo.90.tags: mofumofu, sample, techitechi, tongue
-photo.91: https://www.instagram.com/p/CgYIN_HL0vj/media/?size=m
+photo.91: ig://CgYIN_HL0vj/m
 photo.91.author: miis_98
+photo.91.commitdate: 2022/8/8
 photo.91.link: https://www.instagram.com/miis_98/
 photo.91.tags: lunch time, paws, portrait, sample, tongue
 species: 2
