@@ -628,6 +628,10 @@ photo.123.author: otenba_redpanda
 photo.123.commitdate: 2022/6/21
 photo.123.link: https://www.instagram.com/otenba_redpanda/
 photo.123.tags: paws, portrait, sample, whiskers
+photo.124: https://www.instagram.com/p/Ce7J8GLrJ7E/media/?size=m
+photo.124.author: otenba_redpanda
+photo.124.link: https://www.instagram.com/otenba_redpanda/
+photo.124.tags: paws, portrait, sample, tail
 species: 2
 studbook.id: 1224
 zoo: 17
