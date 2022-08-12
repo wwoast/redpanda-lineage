@@ -1,9 +1,11 @@
 [media]
 _id: media.13.kanoko-light
+commitdate: 2022/8/11
 panda.tags: 100, 116
-photo.1: https://www.instagram.com/p/Cg771PDhiFW/media/?size=l
+photo.1: ig://Cg771PDhiFW/l
 photo.1.author: tomo3700
+photo.1.commitdate: 2022/8/11
 photo.1.link: https://www.instagram.com/tomo3700/
 photo.1.tags: blink, couple, dish, paws, portrait, whiskers
 photo.1.tags.100.location: 120, 220
-photo.1.tags.116.location: 340, 215 
+photo.1.tags.116.location: 340, 215
