@@ -543,15 +543,16 @@ photo.106.author: bubbles_octi
 photo.106.commitdate: 2022/6/11
 photo.106.link: https://www.instagram.com/bubbles_octi/
 photo.106.tags: mofumofu, paws, peek, sample, tree
-photo.107: ig://CgnD0Q_BCzA/m
-photo.107.author: hamamatsu.chiita
-photo.107.commitdate: 2022/8/7
-photo.107.link: https://www.instagram.com/hamamatsu.chiita/
-photo.107.tags: close-up, portrait, sample, whiskers
-photo.108: https://www.instagram.com/p/Ce8Wy_MJm1C/media/?size=m
-photo.108.author: makimaru18
-photo.108.link: https://www.instagram.com/makimaru18/
-photo.108.tags: bamboo, close-up, paws, portrait, sample, whiskers
+photo.107: ig://Ce8Wy_MJm1C/m
+photo.107.author: makimaru18
+photo.107.commitdate: 2022/8/11
+photo.107.link: https://www.instagram.com/makimaru18/
+photo.107.tags: bamboo, close-up, paws, portrait, sample, whiskers
+photo.108: ig://CgnD0Q_BCzA/m
+photo.108.author: hamamatsu.chiita
+photo.108.commitdate: 2022/8/7
+photo.108.link: https://www.instagram.com/hamamatsu.chiita/
+photo.108.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

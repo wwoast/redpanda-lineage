@@ -298,30 +298,31 @@ photo.57.author: hidehaya_biei
 photo.57.commitdate: 2022/1/9
 photo.57.link: https://www.instagram.com/hidehaya_biei/
 photo.57.tags: peek, whiskers
-photo.58: ig://CfJclp6r__G/m
-photo.58.author: miis_98
-photo.58.commitdate: 2022/7/18
-photo.58.link: https://www.instagram.com/miis_98/
-photo.58.tags: apple time, portrait, sample, whiskers
-photo.59: ig://CfZ-FKTBuEl/m
-photo.59.author: hamiiiii831_
-photo.59.commitdate: 2022/7/9
-photo.59.link: https://www.instagram.com/hamiiiii831_/
-photo.59.tags: bamboo, paws, portrait, sample, whiskers
-photo.60: ig://Cfbt6J0rgtL/m
-photo.60.author: miis_98
+photo.58: ig://Ce--Kcup-CN/m
+photo.58.author: hamiiiii831_
+photo.58.commitdate: 2022/8/11
+photo.58.link: https://www.instagram.com/hamiiiii831_/
+photo.58.tags: paws, sample, whiskers
+photo.59: ig://CfJclp6r__G/m
+photo.59.author: miis_98
+photo.59.commitdate: 2022/7/18
+photo.59.link: https://www.instagram.com/miis_98/
+photo.59.tags: apple time, portrait, sample, whiskers
+photo.60: ig://CfZ-FKTBuEl/m
+photo.60.author: hamiiiii831_
 photo.60.commitdate: 2022/7/9
-photo.60.link: https://www.instagram.com/miis_98/
-photo.60.tags: portrait, sample, whiskers
-photo.61: ig://Cgp9tJThIfN/m
-photo.61.author: panda.daisuki
-photo.61.commitdate: 2022/8/7
-photo.61.link: https://www.instagram.com/panda.daisuki/
-photo.61.tags: apple time, mofumofu, portrait, sample, whiskers
-photo.62: https://www.instagram.com/p/Ce--Kcup-CN/media/?size=m
-photo.62.author: hamiiiii831_
-photo.62.link: https://www.instagram.com/hamiiiii831_/
-photo.62.tags: paws, sample, whiskers
+photo.60.link: https://www.instagram.com/hamiiiii831_/
+photo.60.tags: bamboo, paws, portrait, sample, whiskers
+photo.61: ig://Cfbt6J0rgtL/m
+photo.61.author: miis_98
+photo.61.commitdate: 2022/7/9
+photo.61.link: https://www.instagram.com/miis_98/
+photo.61.tags: portrait, sample, whiskers
+photo.62: ig://Cgp9tJThIfN/m
+photo.62.author: panda.daisuki
+photo.62.commitdate: 2022/8/7
+photo.62.link: https://www.instagram.com/panda.daisuki/
+photo.62.tags: apple time, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0986
 zoo: 53

@@ -384,8 +384,9 @@ photo.74.author: colette.jp
 photo.74.commitdate: 2022/7/3
 photo.74.link: https://www.instagram.com/colette.jp/
 photo.74.tags: paws, portrait, sample, smile, tail
-photo.75: https://www.instagram.com/p/Cg9A9oZhKYb/media/?size=m
+photo.75: ig://Cg9A9oZhKYb/m
 photo.75.author: colette.jp
+photo.75.commitdate: 2022/8/11
 photo.75.link: https://www.instagram.com/colette.jp/
 photo.75.tags: bamboo, home, laying down, mofumofu, portrait, sample
 species: 2

@@ -205,8 +205,9 @@ photo.38.author: henryvilaszoo
 photo.38.commitdate: 2022/7/31
 photo.38.link: https://www.instagram.com/henryvilaszoo/
 photo.38.tags: paws, portrait, sample, smile, whiskers
-photo.39: https://www.instagram.com/p/CgzVIuDL7CX/media/?size=m
+photo.39: ig://CgzVIuDL7CX/m
 photo.39.author: henryvilaszoo
+photo.39.commitdate: 2022/8/11
 photo.39.link: https://www.instagram.com/henryvilaszoo/
 photo.39.tags: laying down, smile, tail, whiskers
 species: 2

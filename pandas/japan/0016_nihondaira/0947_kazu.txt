@@ -388,8 +388,9 @@ photo.75.author: otenba_redpanda
 photo.75.commitdate: 2022/8/7
 photo.75.link: https://www.instagram.com/otenba_redpanda/
 photo.75.tags: close-up, portrait, sample, whiskers
-photo.76: https://www.instagram.com/p/Cg1rIzaL-GQ/media/?size=m
+photo.76: ig://Cg1rIzaL-GQ/m
 photo.76.author: mini_cochi
+photo.76.commitdate: 2022/8/11
 photo.76.link: https://www.instagram.com/mini_cochi/
 photo.76.tags: mofumofu, paws, portrait, sample, whiskers
 species: 2

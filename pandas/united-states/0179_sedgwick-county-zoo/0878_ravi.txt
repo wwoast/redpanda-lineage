@@ -185,14 +185,16 @@ photo.34.author: sedgwickcountyzoo
 photo.34.commitdate: 2022/4/8
 photo.34.link: https://www.instagram.com/carsontheredpanda/
 photo.34.tags: paws, portrait, smile, snow, standing, whiskers
-photo.35: https://www.instagram.com/p/CgxTyzRuR1j/media/?size=m
+photo.35: ig://Ceo-jmXrUwy/m
 photo.35.author: sedgwickcountyzoo
+photo.35.commitdate: 2022/8/11
 photo.35.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.35.tags: paws, sample, standing, whiskers
-photo.36: https://www.instagram.com/p/Ceo-jmXrUwy/media/?size=m
+photo.35.tags: laying down, paws, portrait, sample, smile, tongue, whiskers
+photo.36: ig://CgxTyzRuR1j/m
 photo.36.author: sedgwickcountyzoo
+photo.36.commitdate: 2022/8/11
 photo.36.link: https://www.instagram.com/sedgwickcountyzoo/
-photo.36.tags: laying down, paws, portrait, sample, smile, tongue, whiskers 
+photo.36.tags: paws, sample, standing, whiskers
 species: 1
 studbook.id: 1904
 zoo: 179

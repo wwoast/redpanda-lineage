@@ -1129,25 +1129,26 @@ photo.224.author: cattail.sapporo
 photo.224.commitdate: 2021/11/21
 photo.224.link: https://www.instagram.com/cattail.sapporo/
 photo.224.tags: apple time, paws, portrait, standing, tail
-photo.225: ig://CaHd--FLP2T/m
-photo.225.author: cattail.sapporo
-photo.225.commitdate: 2022/3/5
-photo.225.link: https://www.instagram.com/cattail.sapporo/
-photo.225.tags: apple time, bite, close-up, paws, portrait, whiskers
-photo.226: ig://CgUDaehv0BW/m
-photo.226.author: minatomirai215
-photo.226.commitdate: 2022/7/25
-photo.226.link: https://www.instagram.com/minatomirai215/
-photo.226.tags: bamboo, portrait, sample, smile, tongue, whiskers
-photo.227: ig://Cg1fvLErgDJ/m
-photo.227.author: cattail.sapporo
-photo.227.commitdate: 2022/8/5
-photo.227.link: https://www.instagram.com/cattail.sapporo/
-photo.227.tags: paws, portrait, sample, snow, tongue
-photo.228: https://www.instagram.com/p/CXHKF6lvX5q/media/?size=m
-photo.228.author: wumpwoast
-photo.228.link: https://www.instagram.com/wumpwoast/
-photo.228.tags: climb, paws, peek, spider
+photo.225: ig://CXHKF6lvX5q/m
+photo.225.author: wumpwoast
+photo.225.commitdate: 2022/8/11
+photo.225.link: https://www.instagram.com/wumpwoast/
+photo.225.tags: climb, paws, peek, spider
+photo.226: ig://CaHd--FLP2T/m
+photo.226.author: cattail.sapporo
+photo.226.commitdate: 2022/3/5
+photo.226.link: https://www.instagram.com/cattail.sapporo/
+photo.226.tags: apple time, bite, close-up, paws, portrait, whiskers
+photo.227: ig://CgUDaehv0BW/m
+photo.227.author: minatomirai215
+photo.227.commitdate: 2022/7/25
+photo.227.link: https://www.instagram.com/minatomirai215/
+photo.227.tags: bamboo, portrait, sample, smile, tongue, whiskers
+photo.228: ig://Cg1fvLErgDJ/m
+photo.228.author: cattail.sapporo
+photo.228.commitdate: 2022/8/5
+photo.228.link: https://www.instagram.com/cattail.sapporo/
+photo.228.tags: paws, portrait, sample, snow, tongue
 species: 2
 studbook.id: 12116
 zoo: 7

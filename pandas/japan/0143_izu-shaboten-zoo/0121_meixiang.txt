@@ -544,25 +544,26 @@ photo.106.author: pantasanzoo1
 photo.106.commitdate: 2022/6/22
 photo.106.link: https://www.instagram.com/pantasanzoo1/
 photo.106.tags: close-up, smile, whiskers
-photo.107: ig://CfOKxbNvhk9/m
+photo.107: ig://Ce_MumQLT0c/m
 photo.107.author: fetorus_mami
-photo.107.commitdate: 2022/7/22
+photo.107.commitdate: 2022/8/11
 photo.107.link: https://www.instagram.com/fetorus_mami/
-photo.107.tags: bamboo, close-up, mofumofu, paws
-photo.108: ig://CfXfXnTrZI9/m
-photo.108.author: otenba_redpanda
+photo.107.tags: mofumofu, paws, peek, sample, whiskers
+photo.108: ig://CfOKxbNvhk9/m
+photo.108.author: fetorus_mami
 photo.108.commitdate: 2022/7/22
-photo.108.link: https://www.instagram.com/otenba_redpanda/
-photo.108.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.109: ig://CgUCTQ7r-sP/m
-photo.109.author: miis_98
-photo.109.commitdate: 2022/7/28
-photo.109.link: https://www.instagram.com/miis_98/
-photo.109.tags: peek, portrait, sample, whiskers
-photo.110: https://www.instagram.com/p/Ce_MumQLT0c/media/?size=m
-photo.110.author: fetorus_mami
-photo.110.link: https://www.instagram.com/fetorus_mami/
-photo.110.tags: mofumofu, paws, peek, sample, whiskers
+photo.108.link: https://www.instagram.com/fetorus_mami/
+photo.108.tags: bamboo, close-up, mofumofu, paws
+photo.109: ig://CfXfXnTrZI9/m
+photo.109.author: otenba_redpanda
+photo.109.commitdate: 2022/7/22
+photo.109.link: https://www.instagram.com/otenba_redpanda/
+photo.109.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.110: ig://CgUCTQ7r-sP/m
+photo.110.author: miis_98
+photo.110.commitdate: 2022/7/28
+photo.110.link: https://www.instagram.com/miis_98/
+photo.110.tags: peek, portrait, sample, whiskers
 species: 2
 studbook.id: 1775
 zoo: 143
