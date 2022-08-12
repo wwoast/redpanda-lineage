@@ -1355,44 +1355,46 @@ photo.270.author: ifumoto88
 photo.270.commitdate: 2022/6/2
 photo.270.link: https://www.instagram.com/ifumoto88/
 photo.270.tags: paws, portrait, sample, smile, tail, tree, wave
-photo.271: ig://CfoTz7dres2/m
-photo.271.author: ifumoto88
-photo.271.commitdate: 2022/7/31
-photo.271.link: https://www.instagram.com/ifumoto88/
-photo.271.tags: dish, paws, peek, portrait
-photo.272: ig://Cfq0VqWLRVa/m
-photo.272.author: ifumoto88
-photo.272.commitdate: 2022/7/31
-photo.272.link: https://www.instagram.com/ifumoto88/
-photo.272.tags: paws, playing, portrait, toys
-photo.273: ig://Cf7evrwBwu9/m
-photo.273.author: alto0908
+photo.271: ig://CdtxOmpBVGO/m
+photo.271.author: masa_polarbear
+photo.271.commitdate: 2022/8/12
+photo.271.link: https://www.instagram.com/masa_polarbear/
+photo.271.tags: peek, whiskers
+photo.272: ig://Ce8xIDePqnE/m
+photo.272.author: masa_polarbear
+photo.272.commitdate: 2022/8/12
+photo.272.link: https://www.instagram.com/masa_polarbear/
+photo.272.tags: whiskers
+photo.273: ig://CfoTz7dres2/m
+photo.273.author: ifumoto88
 photo.273.commitdate: 2022/7/31
-photo.273.link: https://www.instagram.com/alto0908/
-photo.273.tags: close-up, mofumofu, portrait, sample
-photo.274: ig://Cf7_pvGPo8W/m
-photo.274.author: eos1089
+photo.273.link: https://www.instagram.com/ifumoto88/
+photo.273.tags: dish, paws, peek, portrait
+photo.274: ig://Cfq0VqWLRVa/m
+photo.274.author: ifumoto88
 photo.274.commitdate: 2022/7/31
-photo.274.link: https://www.instagram.com/eos1089/
-photo.274.tags: apple time, paws, portrait, sample, smile, whiskers
-photo.275: ig://Cf_osXpLgp0/m
-photo.275.author: ifumoto88
+photo.274.link: https://www.instagram.com/ifumoto88/
+photo.274.tags: paws, playing, portrait, toys
+photo.275: ig://Cf7evrwBwu9/m
+photo.275.author: alto0908
 photo.275.commitdate: 2022/7/31
-photo.275.link: https://www.instagram.com/ifumoto88/
-photo.275.tags: close-up, laying down, portrait, sample, smile
-photo.276: ig://CgeXaRaLxmV/m
-photo.276.author: ifumoto88
-photo.276.commitdate: 2022/8/7
-photo.276.link: https://www.instagram.com/ifumoto88/
-photo.276.tags: mofumofu, portrait, sample
-photo.277: https://www.instagram.com/p/Ce8xIDePqnE/media/?size=m
-photo.277.author: masa_polarbear
-photo.277.link: https://www.instagram.com/masa_polarbear/
-photo.277.tags: whiskers
-photo.278: https://www.instagram.com/p/CdtxOmpBVGO/media/?size=m
-photo.278.author: masa_polarbear
-photo.278.link: https://www.instagram.com/masa_polarbear/
-photo.278.tags: peek, whiskers
+photo.275.link: https://www.instagram.com/alto0908/
+photo.275.tags: close-up, mofumofu, portrait, sample
+photo.276: ig://Cf7_pvGPo8W/m
+photo.276.author: eos1089
+photo.276.commitdate: 2022/7/31
+photo.276.link: https://www.instagram.com/eos1089/
+photo.276.tags: apple time, paws, portrait, sample, smile, whiskers
+photo.277: ig://Cf_osXpLgp0/m
+photo.277.author: ifumoto88
+photo.277.commitdate: 2022/7/31
+photo.277.link: https://www.instagram.com/ifumoto88/
+photo.277.tags: close-up, laying down, portrait, sample, smile
+photo.278: ig://CgeXaRaLxmV/m
+photo.278.author: ifumoto88
+photo.278.commitdate: 2022/8/7
+photo.278.link: https://www.instagram.com/ifumoto88/
+photo.278.tags: mofumofu, portrait, sample
 species: 2
 studbook.id: 15152
 zoo: 1

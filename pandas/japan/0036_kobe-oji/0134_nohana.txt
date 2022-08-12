@@ -1077,20 +1077,21 @@ photo.215.author: i.satosato
 photo.215.commitdate: 2022/6/7
 photo.215.link: https://www.instagram.com/i.satosato/
 photo.215.tags: bamboo, paws, smile, standing, whiskers
-photo.216: ig://CgrK-GNh-8R/m
+photo.216: ig://CeiBwTMvR0m/m
 photo.216.author: falcon_tenor
-photo.216.commitdate: 2022/8/5
+photo.216.commitdate: 2022/8/12
 photo.216.link: https://www.instagram.com/falcon_tenor/
-photo.216.tags: portrait, sample, smile, tongue, whiskers
-photo.217: ig://CgrUSA3hXa0/m
-photo.217.author: i.satosato
+photo.216.tags: flowers, smile
+photo.217: ig://CgrK-GNh-8R/m
+photo.217.author: falcon_tenor
 photo.217.commitdate: 2022/8/5
-photo.217.link: https://www.instagram.com/i.satosato/
-photo.217.tags: paws, portrait, sample, smile, tree, whiskers
-photo.218: https://www.instagram.com/p/CeiBwTMvR0m/media/?size=m
-photo.218.author: falcon_tenor
-photo.218.link: https://www.instagram.com/falcon_tenor/
-photo.218.tags: flowers, smile
+photo.217.link: https://www.instagram.com/falcon_tenor/
+photo.217.tags: portrait, sample, smile, tongue, whiskers
+photo.218: ig://CgrUSA3hXa0/m
+photo.218.author: i.satosato
+photo.218.commitdate: 2022/8/5
+photo.218.link: https://www.instagram.com/i.satosato/
+photo.218.tags: paws, portrait, sample, smile, tree, whiskers
 species: 2
 studbook.id: 1789
 zoo: 36

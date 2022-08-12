@@ -559,25 +559,26 @@ photo.111.author: alto0908
 photo.111.commitdate: 2022/2/20
 photo.111.link: https://www.instagram.com/alto0908/
 photo.111.tags: close-up, portrait, sample, whiskers
-photo.112: ig://Ce_mbyNP__H/m
-photo.112.author: eos1089
-photo.112.commitdate: 2022/7/31
-photo.112.link: https://www.instagram.com/eos1089/
-photo.112.tags: bridge, paws, peek, portrait, whiskers
-photo.113: ig://CfAEPMeBd93/m
-photo.113.author: ssc6105
-photo.113.commitdate: 2022/7/3
-photo.113.link: https://www.instagram.com/ssc6105/
-photo.113.tags: close-up, sample, smile, whiskers
-photo.114: ig://Cgfgjp_P6i7/m
-photo.114.author: otenba_redpanda
-photo.114.commitdate: 2022/8/5
-photo.114.link: https://www.instagram.com/otenba_redpanda/
-photo.114.tags: close-up, portrait, sample, whiskers
-photo.115: https://www.instagram.com/p/Ce6Ak4JPNND/media/?size=m
-photo.115.author: masa_polarbear
-photo.115.link: https://www.instagram.com/masa_polarbear/
-photo.115.tags: bridge, laying down, paws, sleeping, whiskers
+photo.112: ig://Ce6Ak4JPNND/m
+photo.112.author: masa_polarbear
+photo.112.commitdate: 2022/8/12
+photo.112.link: https://www.instagram.com/masa_polarbear/
+photo.112.tags: bridge, laying down, paws, sleeping, whiskers
+photo.113: ig://Ce_mbyNP__H/m
+photo.113.author: eos1089
+photo.113.commitdate: 2022/7/31
+photo.113.link: https://www.instagram.com/eos1089/
+photo.113.tags: bridge, paws, peek, portrait, whiskers
+photo.114: ig://CfAEPMeBd93/m
+photo.114.author: ssc6105
+photo.114.commitdate: 2022/7/3
+photo.114.link: https://www.instagram.com/ssc6105/
+photo.114.tags: close-up, sample, smile, whiskers
+photo.115: ig://Cgfgjp_P6i7/m
+photo.115.author: otenba_redpanda
+photo.115.commitdate: 2022/8/5
+photo.115.link: https://www.instagram.com/otenba_redpanda/
+photo.115.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13145
 zoo: 1

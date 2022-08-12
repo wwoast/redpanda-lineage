@@ -810,33 +810,35 @@ photo.159.author: kumamoto_doushokubutsuen
 photo.159.commitdate: 2022/6/1
 photo.159.link: https://www.instagram.com/kumamoto_doushokubutsuen/
 photo.159.tags: bamboo, portrait, sample, toys
-photo.160: ig://Ce--JZqvphh/m
+photo.160: ig://Ce5795gPziz/m
 photo.160.author: kumamoto_doushokubutsuen
-photo.160.commitdate: 2022/8/11
+photo.160.commitdate: 2022/8/12
 photo.160.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.160.tags: bamboo, close-up, sample, whiskers
-photo.161: ig://CfEVUHzvfel/m
+photo.160.tags: close-up, hammock, sample, tail
+photo.161: ig://Ce6FFE5PAI3/m
 photo.161.author: redpan22
-photo.161.commitdate: 2022/7/18
+photo.161.commitdate: 2022/8/12
 photo.161.link: https://www.instagram.com/redpan22/
-photo.161.tags: close-up, dish, lunch time, smile, whiskers
-photo.162: ig://CfFdbv9L3lh/m
-photo.162.author: otenba_redpanda
-photo.162.commitdate: 2022/7/18
-photo.162.link: https://www.instagram.com/otenba_redpanda/
-photo.162.tags: mofumofu, portrait, sample, whiskers
-photo.163: ig://CgHNWREvwUk/m
+photo.161.tags: hammock, peek, whiskers
+photo.162: ig://Ce--JZqvphh/m
+photo.162.author: kumamoto_doushokubutsuen
+photo.162.commitdate: 2022/8/11
+photo.162.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.162.tags: bamboo, close-up, sample, whiskers
+photo.163: ig://CfEVUHzvfel/m
 photo.163.author: redpan22
-photo.163.commitdate: 2022/7/28
+photo.163.commitdate: 2022/7/18
 photo.163.link: https://www.instagram.com/redpan22/
-photo.163.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.164: https://www.instagram.com/p/Ce5795gPziz/media/?size=m
-photo.164.author: kumamoto_doushokubutsuen
-photo.164.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.164.tags: close-up, hammock, sample, tail
-photo.165: https://www.instagram.com/p/Ce6FFE5PAI3/media/?size=m
+photo.163.tags: close-up, dish, lunch time, smile, whiskers
+photo.164: ig://CfFdbv9L3lh/m
+photo.164.author: otenba_redpanda
+photo.164.commitdate: 2022/7/18
+photo.164.link: https://www.instagram.com/otenba_redpanda/
+photo.164.tags: mofumofu, portrait, sample, whiskers
+photo.165: ig://CgHNWREvwUk/m
 photo.165.author: redpan22
+photo.165.commitdate: 2022/7/28
 photo.165.link: https://www.instagram.com/redpan22/
-photo.165.tags: hammock, peek, whiskers
+photo.165.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 zoo: 306
