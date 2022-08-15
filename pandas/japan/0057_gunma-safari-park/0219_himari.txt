@@ -4,6 +4,7 @@ birthday: 2013/6/15
 birthplace: 15
 children: none
 commitdate: 2018/7/26
+death: 2022/8/10
 en.name: Himari
 en.nicknames: none
 en.othernames: none
@@ -309,6 +310,18 @@ photo.59.author: fetorus_mami
 photo.59.commitdate: 2022/7/31
 photo.59.link: https://www.instagram.com/fetorus_mami/
 photo.59.tags: bamboo, close-up, mofumofu, muzzle, sample
+photo.60: https://www.instagram.com/p/BRam-I7lkgp/media/?size=m
+photo.60.author: rdpnzoo
+photo.60.link: https://www.instagram.com/rdpnzoo/
+photo.60.tags: mofumofu, sample
+photo.61: https://www.instagram.com/p/BOUGkGEDAzv/media/?size=m
+photo.61.author: rdpnzoo
+photo.61.link: https://www.instagram.com/rdpnzoo/
+photo.61.tags: bamboo, sample, smile, whiskers
+photo.62: https://www.instagram.com/p/BNEjLlmjF89/media/?size=m
+photo.62.author: rdpnzoo
+photo.62.link: https://www.instagram.com/rdpnzoo/
+photo.62.tags: grooming, mofumofu, tail, whiskers
 species: 2
 studbook.id: 13144
 zoo: 57
