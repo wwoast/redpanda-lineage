@@ -835,14 +835,15 @@ photo.164.author: otenba_redpanda
 photo.164.commitdate: 2022/7/18
 photo.164.link: https://www.instagram.com/otenba_redpanda/
 photo.164.tags: mofumofu, portrait, sample, whiskers
-photo.165: ig://CgHNWREvwUk/m
-photo.165.author: redpan22
-photo.165.commitdate: 2022/7/28
-photo.165.link: https://www.instagram.com/redpan22/
-photo.165.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.166: https://www.instagram.com/p/Cf1CHUzPUdP/media/?size=m
-photo.166.author: kumamoto_doushokubutsuen
-photo.166.link: https://www.instagram.com/kumamoto_doushokubutsuen/
-photo.166.tags: close-up, ice treat, paws, whiskers
+photo.165: ig://Cf1CHUzPUdP/m
+photo.165.author: kumamoto_doushokubutsuen
+photo.165.commitdate: 2022/8/16
+photo.165.link: https://www.instagram.com/kumamoto_doushokubutsuen/
+photo.165.tags: close-up, ice treat, paws, whiskers
+photo.166: ig://CgHNWREvwUk/m
+photo.166.author: redpan22
+photo.166.commitdate: 2022/7/28
+photo.166.link: https://www.instagram.com/redpan22/
+photo.166.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 zoo: 306

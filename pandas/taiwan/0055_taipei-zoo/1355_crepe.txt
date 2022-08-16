@@ -61,8 +61,9 @@ photo.9.author: yuredpanda
 photo.9.commitdate: 2022/6/6
 photo.9.link: https://www.instagram.com/yuredpanda/
 photo.9.tags: portrait, whiskers, white face
-photo.10: https://www.instagram.com/p/CgDkgjivOdc/media/?size=m
+photo.10: ig://CgDkgjivOdc/m
 photo.10.author: yuredpanda
+photo.10.commitdate: 2022/8/16
 photo.10.link: https://www.instagram.com/yuredpanda/
 photo.10.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2

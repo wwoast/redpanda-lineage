@@ -172,20 +172,21 @@ photo.32.author: jas_forever_love
 photo.32.commitdate: 2022/6/21
 photo.32.link: https://www.instagram.com/jas_forever_love/
 photo.32.tags: lips, mofumofu, portrait, sample, whiskers
-photo.33: ig://CgOTX7FO2Wn/m
-photo.33.author: kijyo.zoo
-photo.33.commitdate: 2022/7/25
-photo.33.link: https://www.instagram.com/kijyo.zoo/
-photo.33.tags: mofumofu, portrait, sample, smile
-photo.34: ig://CgSa09OBYKG/m
-photo.34.author: hamamatsu.chiita
+photo.33: ig://CfzzjEZBOQJ/m
+photo.33.author: minato.yokohama4416
+photo.33.commitdate: 2022/8/16
+photo.33.link: https://www.instagram.com/minato.yokohama4416/
+photo.33.tags: laying down, mofumofu, portrait, sample
+photo.34: ig://CgOTX7FO2Wn/m
+photo.34.author: kijyo.zoo
 photo.34.commitdate: 2022/7/25
-photo.34.link: https://www.instagram.com/hamamatsu.chiita/
-photo.34.tags: close-up, portrait, sample, whiskers
-photo.35: https://www.instagram.com/p/CfzzjEZBOQJ/media/?size=m
-photo.35.author: minato.yokohama4416
-photo.35.link: https://www.instagram.com/minato.yokohama4416/
-photo.35.tags: laying down, mofumofu, portrait, sample
+photo.34.link: https://www.instagram.com/kijyo.zoo/
+photo.34.tags: mofumofu, portrait, sample, smile
+photo.35: ig://CgSa09OBYKG/m
+photo.35.author: hamamatsu.chiita
+photo.35.commitdate: 2022/7/25
+photo.35.link: https://www.instagram.com/hamamatsu.chiita/
+photo.35.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 11102
 zoo: 13

@@ -946,15 +946,16 @@ photo.188.author: eos1089
 photo.188.commitdate: 2022/7/31
 photo.188.link: https://www.instagram.com/eos1089/
 photo.188.tags: bamboo, paws, portrait, sample, smile
-photo.189: ig://CgOw1Plv_nw/m
-photo.189.author: miis_98
-photo.189.commitdate: 2022/7/28
-photo.189.link: https://www.instagram.com/miis_98/
-photo.189.tags: bridge, paws, portrait, sample, smile
-photo.190: https://www.instagram.com/p/CfuppFhLyLc/media/?size=m
-photo.190.author: otenba_redpanda
-photo.190.link: https://www.instagram.com/otenba_redpanda/
-photo.190.tags: mofumofu, portrait, sample, whiskers
+photo.189: ig://CfuppFhLyLc/m
+photo.189.author: otenba_redpanda
+photo.189.commitdate: 2022/8/16
+photo.189.link: https://www.instagram.com/otenba_redpanda/
+photo.189.tags: mofumofu, portrait, sample, whiskers
+photo.190: ig://CgOw1Plv_nw/m
+photo.190.author: miis_98
+photo.190.commitdate: 2022/7/28
+photo.190.link: https://www.instagram.com/miis_98/
+photo.190.tags: bridge, paws, portrait, sample, smile
 species: 2
 studbook.id: 1691
 video.1: https://youtu.be/ma8fX2kWx_k

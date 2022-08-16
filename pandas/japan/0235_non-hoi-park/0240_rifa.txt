@@ -1787,15 +1787,16 @@ photo.356.author: osopanda551
 photo.356.commitdate: 2022/8/1
 photo.356.link: https://www.instagram.com/osopanda551/
 photo.356.tags: bamboo, paws, portrait, sample, tongue
-photo.357: ig://CgV8wubvxxi/m
-photo.357.author: ayusuke56
-photo.357.commitdate: 2022/7/25
-photo.357.link: https://www.instagram.com/ayusuke56/
-photo.357.tags: paws, portrait, sample, smile, whiskers
-photo.358: https://www.instagram.com/p/CgB5SZkPYip/media/?size=m
-photo.358.author: daniele.tokyo
-photo.358.link: https://www.instagram.com/daniele.tokyo/
-photo.358.tags: portrait, sample, wet
+photo.357: ig://CgB5SZkPYip/m
+photo.357.author: daniele.tokyo
+photo.357.commitdate: 2022/8/16
+photo.357.link: https://www.instagram.com/daniele.tokyo/
+photo.357.tags: portrait, sample, wet
+photo.358: ig://CgV8wubvxxi/m
+photo.358.author: ayusuke56
+photo.358.commitdate: 2022/7/25
+photo.358.link: https://www.instagram.com/ayusuke56/
+photo.358.tags: paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: unknown
 zoo: 235

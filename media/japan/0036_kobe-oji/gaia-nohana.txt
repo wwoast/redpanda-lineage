@@ -135,8 +135,9 @@ photo.19.link: https://www.instagram.com/falcon_tenor/
 photo.19.tags: couple, paws, portrait, standing
 photo.19.tags.134.location: 160, 125
 photo.19.tags.165.location: 345, 155
-photo.20: https://www.instagram.com/p/Cfv2EekPK17/media/?size=l
+photo.20: ig://Cfv2EekPK17/l
 photo.20.author: i.satosato
+photo.20.commitdate: 2022/8/16
 photo.20.link: https://www.instagram.com/i.satosato/
 photo.20.tags: apple time, couple, paws, portrait, sample, whiskers
 photo.20.tags.134.location: 210, 215

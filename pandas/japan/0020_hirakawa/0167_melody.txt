@@ -1017,8 +1017,9 @@ photo.201.author: falcon_tenor
 photo.201.commitdate: 2022/7/31
 photo.201.link: https://www.instagram.com/falcon_tenor/
 photo.201.tags: mofumofu, sample
-photo.202: https://www.instagram.com/p/CftfU-4P3dC/media/?size=m
+photo.202: ig://CftfU-4P3dC/m
 photo.202.author: redpan22
+photo.202.commitdate: 2022/8/16
 photo.202.link: https://www.instagram.com/redpan22/
 photo.202.tags: paws, peek, sample, whiskers
 species: 2
