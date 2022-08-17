@@ -445,8 +445,9 @@ photo.86.author: minatomirai215
 photo.86.commitdate: 2022/3/5
 photo.86.link: https://www.instagram.com/minatomirai215/
 photo.86.tags: bamboo, peek, portrait, whiskers
-photo.87: https://www.instagram.com/p/CfjQgWXP-I_/media/?size=m
+photo.87: ig://CfjQgWXP-I_/m
 photo.87.author: minatomirai215
+photo.87.commitdate: 2022/8/16
 photo.87.link: https://www.instagram.com/minatomirai215/
 photo.87.tags: bamboo, portrait, sample, tree
 species: 2

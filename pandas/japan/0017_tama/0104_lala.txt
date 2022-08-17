@@ -458,8 +458,9 @@ photo.89.author: mini_cochi
 photo.89.commitdate: 2022/7/28
 photo.89.link: https://www.instagram.com/mini_cochi/
 photo.89.tags: bamboo, paws, peek, portrait, sample
-photo.90: https://www.instagram.com/p/CgsYcy6jI_7/media/?size=m
+photo.90: ig://CgsYcy6jI_7/m
 photo.90.author: otenba_redpanda
+photo.90.commitdate: 2022/8/16
 photo.90.link: https://www.instagram.com/otenba_redpanda/
 photo.90.tags: mofumofu, portrait, sample, whiskers
 species: 2

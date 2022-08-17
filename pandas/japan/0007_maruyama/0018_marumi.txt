@@ -2355,34 +2355,36 @@ photo.470.author: cattail.sapporo
 photo.470.commitdate: 2022/7/9
 photo.470.link: https://www.instagram.com/ishimisu/
 photo.470.tags: close-up, portrait, sample, tongue, whiskers
-photo.471: ig://CftTglCLY0y/m
-photo.471.author: cattail.sapporo
-photo.471.commitdate: 2022/7/31
-photo.471.link: https://www.instagram.com/cattail.sapporo/
-photo.471.tags: laying down, portrait, whiskers
-photo.472: ig://CgMKhtkOmNf/m
+photo.471: ig://CfgppgwPXKQ/m
+photo.471.author: leonard_redmof
+photo.471.commitdate: 2022/8/16
+photo.471.link: https://www.instagram.com/leonard_redmof/
+photo.471.tags: keeper, mofumofu, paws, portrait, sample, whiskers
+photo.472: ig://CflqE_WrGsf/m
 photo.472.author: cattail.sapporo
-photo.472.commitdate: 2022/7/28
+photo.472.commitdate: 2022/8/16
 photo.472.link: https://www.instagram.com/cattail.sapporo/
-photo.472.tags: laying down, mofumofu, portrait, sample, whiskers
-photo.473: ig://Cgd30NwOmxd/m
+photo.472.tags: close-up, laying down, mofumofu, portrait, whiskers
+photo.473: ig://CftTglCLY0y/m
 photo.473.author: cattail.sapporo
-photo.473.commitdate: 2022/8/8
+photo.473.commitdate: 2022/7/31
 photo.473.link: https://www.instagram.com/cattail.sapporo/
-photo.473.tags: itchy, paws, portrait, sample, whiskers
-photo.474: ig://CgjCsYAhS47/m
-photo.474.author: maruyamazoo_official
-photo.474.commitdate: 2022/8/5
-photo.474.link: https://www.instagram.com/maruyamazoo_official/
-photo.474.tags: portrait, sample, smile, whiskers
-photo.475: https://www.instagram.com/p/CflqE_WrGsf/media/?size=m
+photo.473.tags: laying down, portrait, whiskers
+photo.474: ig://CgMKhtkOmNf/m
+photo.474.author: cattail.sapporo
+photo.474.commitdate: 2022/7/28
+photo.474.link: https://www.instagram.com/cattail.sapporo/
+photo.474.tags: laying down, mofumofu, portrait, sample, whiskers
+photo.475: ig://Cgd30NwOmxd/m
 photo.475.author: cattail.sapporo
+photo.475.commitdate: 2022/8/8
 photo.475.link: https://www.instagram.com/cattail.sapporo/
-photo.475.tags: close-up, laying down, mofumofu, portrait, whiskers
-photo.476: https://www.instagram.com/p/CfgppgwPXKQ/media/?size=m
-photo.476.author: leonard_redmof
-photo.476.link: https://www.instagram.com/leonard_redmof/
-photo.476.tags: keeper, mofumofu, paws, portrait, sample, whiskers
+photo.475.tags: itchy, paws, portrait, sample, whiskers
+photo.476: ig://CgjCsYAhS47/m
+photo.476.author: maruyamazoo_official
+photo.476.commitdate: 2022/8/5
+photo.476.link: https://www.instagram.com/maruyamazoo_official/
+photo.476.tags: portrait, sample, smile, whiskers
 species: 2
 studbook.id: 1676
 zoo: 7

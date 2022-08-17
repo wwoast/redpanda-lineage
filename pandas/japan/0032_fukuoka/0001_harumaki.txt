@@ -2198,42 +2198,46 @@ photo.438.author: re_ichimaru
 photo.438.commitdate: 2022/7/18
 photo.438.link: https://www.instagram.com/re_ichimaru/
 photo.438.tags: bridge, laying down, paws, whiskers
-photo.439: ig://CgEp-xyvTJR/m
-photo.439.author: eos1089
-photo.439.commitdate: 2022/7/28
-photo.439.link: https://www.instagram.com/eos1089/
-photo.439.tags: home, laying down, lips, paws, portrait, sample
-photo.440: ig://CgSof0VvKwt/m
-photo.440.author: yossi929
-photo.440.commitdate: 2022/7/25
-photo.440.link: https://www.instagram.com/yossi929/
-photo.440.tags: peek, sample, tongue, whiskers
-photo.441: ig://CgaaXBDvNcN/m
-photo.441.author: yossi929
-photo.441.commitdate: 2022/8/8
-photo.441.link: https://www.instagram.com/yossi929/
-photo.441.tags: close-up, sample, tongue, whiskers
-photo.442: ig://CgkoiEsP-3G/m
-photo.442.author: yossi929
-photo.442.commitdate: 2022/8/7
-photo.442.link: https://www.instagram.com/yossi929/
-photo.442.tags: apple time, keeper, standing, whiskers
-photo.443: https://www.instagram.com/p/CgDR3GkBdv7/media/?size=m
-photo.443.author: re_ichimaru
-photo.443.link: https://www.instagram.com/re_ichimaru/
-photo.443.tags: apple time, keeper, paws, sample, smile, whiskers
-photo.444: https://www.instagram.com/p/CgDJNHPvRVn/media/?size=m
+photo.439: ig://CgDJNHPvRVn/m
+photo.439.author: yossi929
+photo.439.commitdate: 2022/8/16
+photo.439.link: https://www.instagram.com/yossi929/
+photo.439.tags: apple time, keeper, nose, sample, whiskers
+photo.440: ig://CgDR3GkBdv7/m
+photo.440.author: re_ichimaru
+photo.440.commitdate: 2022/8/16
+photo.440.link: https://www.instagram.com/re_ichimaru/
+photo.440.tags: apple time, keeper, paws, sample, smile, whiskers
+photo.441: ig://CgDaO4RvfVT/m
+photo.441.author: masa_polarbear
+photo.441.commitdate: 2022/8/16
+photo.441.link: https://www.instagram.com/masa_polarbear/
+photo.441.tags: sample, whiskers
+photo.442: ig://CgDzFk4uETO/m
+photo.442.author: wumpwoast
+photo.442.commitdate: 2022/8/16
+photo.442.link: https://www.instagram.com/wumpwoast/
+photo.442.tags: close-up, paws, portrait
+photo.443: ig://CgEp-xyvTJR/m
+photo.443.author: eos1089
+photo.443.commitdate: 2022/7/28
+photo.443.link: https://www.instagram.com/eos1089/
+photo.443.tags: home, laying down, lips, paws, portrait, sample
+photo.444: ig://CgSof0VvKwt/m
 photo.444.author: yossi929
+photo.444.commitdate: 2022/7/25
 photo.444.link: https://www.instagram.com/yossi929/
-photo.444.tags: apple time, keeper, nose, sample, whiskers
-photo.445: https://www.instagram.com/p/CgDzFk4uETO/media/?size=m
-photo.445.author: wumpwoast
-photo.445.link: https://www.instagram.com/wumpwoast/
-photo.445.tags: close-up, paws, portrait
-photo.446: https://www.instagram.com/p/CgDaO4RvfVT/media/?size=m
-photo.446.author: masa_polarbear
-photo.446.link: https://www.instagram.com/masa_polarbear/
-photo.446.tags: sample, whiskers
+photo.444.tags: peek, sample, tongue, whiskers
+photo.445: ig://CgaaXBDvNcN/m
+photo.445.author: yossi929
+photo.445.commitdate: 2022/8/8
+photo.445.link: https://www.instagram.com/yossi929/
+photo.445.tags: close-up, sample, tongue, whiskers
+photo.446: ig://CgkoiEsP-3G/m
+photo.446.author: yossi929
+photo.446.commitdate: 2022/8/7
+photo.446.link: https://www.instagram.com/yossi929/
+photo.446.tags: apple time, keeper, standing, whiskers
 species: 2
 studbook.id: 1697
 video.1: https://www.youtube.com/watch?v=9m89fVLit44

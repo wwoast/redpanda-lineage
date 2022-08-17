@@ -548,15 +548,16 @@ photo.107.author: makimaru18
 photo.107.commitdate: 2022/8/11
 photo.107.link: https://www.instagram.com/makimaru18/
 photo.107.tags: bamboo, close-up, paws, portrait, sample, whiskers
-photo.108: ig://CgnD0Q_BCzA/m
-photo.108.author: hamamatsu.chiita
-photo.108.commitdate: 2022/8/7
-photo.108.link: https://www.instagram.com/hamamatsu.chiita/
-photo.108.tags: close-up, portrait, sample, whiskers
-photo.109: https://www.instagram.com/p/CfjP_J9v_lV/media/?size=m
-photo.109.author: sakikukeco
-photo.109.link: https://www.instagram.com/sakikukeco/
-photo.109.tags: close-up, portrait, whiskers
+photo.108: ig://CfjP_J9v_lV/m
+photo.108.author: sakikukeco
+photo.108.commitdate: 2022/8/16
+photo.108.link: https://www.instagram.com/sakikukeco/
+photo.108.tags: close-up, portrait, whiskers
+photo.109: ig://CgnD0Q_BCzA/m
+photo.109.author: hamamatsu.chiita
+photo.109.commitdate: 2022/8/7
+photo.109.link: https://www.instagram.com/hamamatsu.chiita/
+photo.109.tags: close-up, portrait, sample, whiskers
 species: 2
 studbook.id: 13166
 zoo: 22

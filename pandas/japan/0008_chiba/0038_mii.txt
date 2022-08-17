@@ -698,15 +698,16 @@ photo.137.author: ssc6105
 photo.137.commitdate: 2022/7/18
 photo.137.link: https://www.instagram.com/ssc6105/
 photo.137.tags: apple time, bite, close-up, paws, sample, whiskers
-photo.138: ig://CgkteCFhsGM/m
-photo.138.author: otenba_redpanda
-photo.138.commitdate: 2022/8/7
-photo.138.link: https://www.instagram.com/otenba_redpanda/
-photo.138.tags: portrait, sample, tongue, whiskers
-photo.139: https://www.instagram.com/p/Cfzk5K5Bm9N/media/?size=m
-photo.139.author: hamamatsu.chiita
-photo.139.link: https://www.instagram.com/hamamatsu.chiita/
-photo.139.tags: bamboo, portrait, sample, smile, whiskers
+photo.138: ig://Cfzk5K5Bm9N/m
+photo.138.author: hamamatsu.chiita
+photo.138.commitdate: 2022/8/16
+photo.138.link: https://www.instagram.com/hamamatsu.chiita/
+photo.138.tags: bamboo, portrait, sample, smile, whiskers
+photo.139: ig://CgkteCFhsGM/m
+photo.139.author: otenba_redpanda
+photo.139.commitdate: 2022/8/7
+photo.139.link: https://www.instagram.com/otenba_redpanda/
+photo.139.tags: portrait, sample, tongue, whiskers
 species: 2
 studbook.id: 13155
 zoo: 8

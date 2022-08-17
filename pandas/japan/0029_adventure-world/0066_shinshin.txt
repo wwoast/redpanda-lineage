@@ -108,15 +108,16 @@ photo.19.author: chankunvv
 photo.19.commitdate: 2022/3/19
 photo.19.link: https://www.instagram.com/chankunvv/
 photo.19.tags: laying down, paws, portrait, smile
-photo.20: ig://CdneW9KLqkQ/m
-photo.20.author: gloryeui
-photo.20.commitdate: 2022/6/6
-photo.20.link: https://www.instagram.com/gloryeui/
-photo.20.tags: bear worm, laying down, paws, portrait, wet
-photo.21: https://www.instagram.com/p/CbyoLArPIP1/media/?size=m
-photo.21.author: grskus_tk
-photo.21.link: https://www.instagram.com/grskus_tk/
-photo.21.tags: whiskers
+photo.20: ig://CbyoLArPIP1/m
+photo.20.author: grskus_tk
+photo.20.commitdate: 2022/8/16
+photo.20.link: https://www.instagram.com/grskus_tk/
+photo.20.tags: whiskers
+photo.21: ig://CdneW9KLqkQ/m
+photo.21.author: gloryeui
+photo.21.commitdate: 2022/6/6
+photo.21.link: https://www.instagram.com/gloryeui/
+photo.21.tags: bear worm, laying down, paws, portrait, wet
 species: 2
 studbook.id: 1099
 zoo: 29
