@@ -1,0 +1,21 @@
+[panda]
+_id: 1385
+birthday: 2022/6/4
+birthplace: 80
+children: none
+commitdate: 2022/8/18
+en.name: Betty
+en.nicknames: none
+en.othernames: none
+gender: f
+jp.name: ベティ
+jp.nicknames: none
+jp.othernames: none
+language.order: en, jp
+litter: none
+photo.1: https://www.instagram.com/p/ChXerWNsKwR/media/?size=m
+photo.1.author: lincolnchildrenszoo
+photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
+photo.1.tags: baby, mofumofu, portrait, profile, sample
+species: 2
+zoo: 80
