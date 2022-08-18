@@ -13,8 +13,9 @@ jp.nicknames: none
 jp.othernames: none
 language.order: en, jp
 litter: none
-photo.1: https://www.instagram.com/p/ChXerWNsKwR/media/?size=m
+photo.1: ig://ChXerWNsKwR/m
 photo.1.author: lincolnchildrenszoo
+photo.1.commitdate: 2022/8/18
 photo.1.link: https://www.instagram.com/lincolnchildrenszoo/
 photo.1.tags: baby, mofumofu, portrait, profile, sample
 species: 2
