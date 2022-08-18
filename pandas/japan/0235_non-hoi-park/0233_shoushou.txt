@@ -688,8 +688,9 @@ photo.135.author: otenba_redpanda
 photo.135.commitdate: 2022/8/8
 photo.135.link: https://www.instagram.com/otenba_redpanda/
 photo.135.tags: bamboo, paws, portrait, sample, tail
-photo.136: https://www.instagram.com/p/ChWm2ieP2XZ/media/?size=m
+photo.136: ig://ChWm2ieP2XZ/m
 photo.136.author: ssc6105
+photo.136.commitdate: 2022/8/18
 photo.136.link: https://www.instagram.com/ssc6105/
 photo.136.tags: bear worm, laying down, paws, portrait, sample, sleeping
 species: 2

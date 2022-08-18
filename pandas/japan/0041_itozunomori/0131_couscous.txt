@@ -404,8 +404,9 @@ photo.80.author: re_ichimaru
 photo.80.commitdate: 2022/2/9
 photo.80.link: https://www.instagram.com/re_ichimaru/
 photo.80.tags: lunch time, portrait, sample, smile, snow, tail, whiskers
-photo.81: https://www.instagram.com/p/ChWohSGOdlK/media/?size=m
+photo.81: ig://ChWohSGOdlK/m
 photo.81.author: itozu_zoo
+photo.81.commitdate: 2022/8/18
 photo.81.link: https://www.instagram.com/itozu_zoo/
 photo.81.tags: bear worm, laying down, lunch time, mofumofu, portrait, sample, whiskers
 species: 2
