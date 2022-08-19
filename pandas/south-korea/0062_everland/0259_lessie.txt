@@ -24,12 +24,16 @@ photo.1: ig://BnlfqE6lJ-s/m
 photo.1.author: monmon_redpanda
 photo.1.commitdate: 2018/10/24
 photo.1.link: https://www.instagram.com/monmon_redpanda/
-photo.1.tags: apple time, portrait, profile
+photo.1.tags: apple time, portrait, profile, sample
 photo.2: ig://BnhgHY_l3XW/m
 photo.2.author: monmon_redpanda
 photo.2.commitdate: 2019/6/23
 photo.2.link: https://www.instagram.com/monmon_redpanda/
-photo.2.tags: lunch time, keeper, portrait
+photo.2.tags: lunch time, keeper, portrait, sample
+photo.3: https://www.instagram.com/p/ChZABM0BANX/media/?size=m
+photo.3.author: witheverland
+photo.3.link: https://www.instagram.com/witheverland/
+photo.3.tags: bamboo, birthday, ice treat, portrait, sample, smile
 species: 2
 studbook.id: 14170
 zoo: 62
