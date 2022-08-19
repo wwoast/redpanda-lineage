@@ -45,8 +45,9 @@ photo.6.author: seelviahhtaz
 photo.6.commitdate: 2022/5/30
 photo.6.link: https://www.instagram.com/seelviahhtaz/
 photo.6.tags: peek, whiskers
-photo.7: https://www.instagram.com/p/Chaz0TrNVjy/media/?size=m
+photo.7: ig://Chaz0TrNVjy/m
 photo.7.author: seelviahhtaz
+photo.7.commitdate: 2022/8/18
 photo.7.link: https://www.instagram.com/seelviahhtaz/
 photo.7.tags: laying down, sample, tree
 species: 1

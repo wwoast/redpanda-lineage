@@ -308,22 +308,26 @@ photo.59.author: itsuak
 photo.59.commitdate: 2022/1/23
 photo.59.link: https://www.instagram.com/itsuak/
 photo.59.tags: bamboo, paws, portrait, smile, whiskers
-photo.60: https://www.instagram.com/p/ChR565TBvbs/media/?size=m
+photo.60: ig://Ce8hBDKPZCY/m
 photo.60.author: itsuak
+photo.60.commitdate: 2022/8/18
 photo.60.link: https://www.instagram.com/itsuak/
-photo.60.tags: laying down, paws, portrait, sample, whiskers
-photo.61: https://www.instagram.com/p/CgMtNL2PnTG/media/?size=m
+photo.60.tags: grooming, paws, portrait, whiskers
+photo.61: ig://CfWYzo3vmLl/m
 photo.61.author: itsuak
+photo.61.commitdate: 2022/8/18
 photo.61.link: https://www.instagram.com/itsuak/
-photo.61.tags: close-up, laying down, portrait, sample, sleeping, whiskers
-photo.62: https://www.instagram.com/p/CfWYzo3vmLl/media/?size=m
+photo.61.tags: bamboo, bite, smile
+photo.62: ig://CgMtNL2PnTG/m
 photo.62.author: itsuak
+photo.62.commitdate: 2022/8/18
 photo.62.link: https://www.instagram.com/itsuak/
-photo.62.tags: bamboo, bite, smile
-photo.63: https://www.instagram.com/p/Ce8hBDKPZCY/media/?size=m
+photo.62.tags: close-up, laying down, portrait, sample, sleeping, whiskers
+photo.63: ig://ChR565TBvbs/m
 photo.63.author: itsuak
+photo.63.commitdate: 2022/8/18
 photo.63.link: https://www.instagram.com/itsuak/
-photo.63.tags: grooming, paws, portrait, whiskers
+photo.63.tags: laying down, paws, portrait, sample, whiskers
 species: 2
 studbook.id: 14154
 zoo: 46
