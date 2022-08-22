@@ -63,19 +63,21 @@ photo.9.author: nathalie.elliott
 photo.9.commitdate: 2021/4/3
 photo.9.link: https://www.instagram.com/nathalie.elliott/
 photo.9.tags: portrait, whiskers
-photo.10: ig://CNrx6VwAQZ2/m
+photo.10: ig://CNUpbVTgNQv/m
 photo.10.author: nathalie.elliott
-photo.10.commitdate: 2021/5/26
+photo.10.commitdate: 2022/8/22
 photo.10.link: https://www.instagram.com/nathalie.elliott/
-photo.10.tags: bamboo, paws, portrait, standing, tail
-photo.11: https://www.instagram.com/p/CNUpbVTgNQv/media/?size=m
+photo.10.tags: portrait, tongue, whiskers, yawn
+photo.11: ig://CNhwaITAoHA/m
 photo.11.author: nathalie.elliott
+photo.11.commitdate: 2022/8/22
 photo.11.link: https://www.instagram.com/nathalie.elliott/
-photo.11.tags: portrait, tongue, whiskers, yawn
-photo.12: https://www.instagram.com/p/CNhwaITAoHA/media/?size=m
+photo.11.tags: baby, paws, portrait, tail, tree
+photo.12: ig://CNrx6VwAQZ2/m
 photo.12.author: nathalie.elliott
+photo.12.commitdate: 2021/5/26
 photo.12.link: https://www.instagram.com/nathalie.elliott/
-photo.12.tags: baby, paws, portrait, tail, tree
+photo.12.tags: bamboo, paws, portrait, standing, tail
 species: 1
 uncertainty: location.2 month and year (wild guess)
 zoo: 219
