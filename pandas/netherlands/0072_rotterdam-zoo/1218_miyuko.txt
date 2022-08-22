@@ -16,6 +16,8 @@ jp.nicknames: none
 jp.othernames: none
 language.order: fr, en, jp
 litter: 1217
+location.1: 219, 2020/7/10
+location.2: 72, 2022/1/1
 photo.1: ig://CF1veFxA558/m
 photo.1.author: nathalie.elliott
 photo.1.commitdate: 2020/10/11
@@ -66,5 +68,14 @@ photo.10.author: nathalie.elliott
 photo.10.commitdate: 2021/5/26
 photo.10.link: https://www.instagram.com/nathalie.elliott/
 photo.10.tags: bamboo, paws, portrait, standing, tail
+photo.11: https://www.instagram.com/p/CNUpbVTgNQv/media/?size=m
+photo.11.author: nathalie.elliott
+photo.11.link: https://www.instagram.com/nathalie.elliott/
+photo.11.tags: portrait, tongue, whiskers, yawn
+photo.12: https://www.instagram.com/p/CNhwaITAoHA/media/?size=m
+photo.12.author: nathalie.elliott
+photo.12.link: https://www.instagram.com/nathalie.elliott/
+photo.12.tags: baby, paws, portrait, tail, tree
 species: 1
+uncertainty: location.2 month and year (wild guess)
 zoo: 219
