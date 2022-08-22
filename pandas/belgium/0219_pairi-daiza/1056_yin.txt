@@ -4,6 +4,7 @@ birthday: 2016/6/17
 birthplace: 225
 children: 1058, 1217, 1218
 commitdate: 2019/11/23
+death: 2022/2/1
 en.name: Yin
 en.nicknames: none
 en.othernames: none
@@ -184,4 +185,5 @@ photo.34.commitdate: 2021/5/21
 photo.34.link: https://www.instagram.com/nathalie.elliott/
 photo.34.tags: portrait, whiskers
 species: 1
+uncertainty: death exact day (feb is close)
 zoo: 219
