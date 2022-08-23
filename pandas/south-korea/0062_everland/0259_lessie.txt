@@ -7,7 +7,7 @@ commitdate: 2018/7/28
 en.name: Lessie
 en.nicknames: none
 en.oldnames: Tōya, Toya, Touya
-en.othernames: Lessy, Lessi
+en.othernames: Lessy, Lessi, Ressy, Resey
 gender: m
 jp.name: とうや
 jp.nicknames: none
@@ -35,6 +35,10 @@ photo.3.author: witheverland
 photo.3.commitdate: 2022/8/18
 photo.3.link: https://www.instagram.com/witheverland/
 photo.3.tags: bamboo, birthday, ice treat, portrait, sample, smile
+photo.4: https://www.instagram.com/p/B3zpgFdhDiR/media/?size=m
+photo.4.author: redpandamuseum
+photo.4.link: https://www.instagram.com/redpandamuseum/
+photo.4.tags: paws, portrait, sample, whiskers
 species: 2
 studbook.id: 14170
 zoo: 62
