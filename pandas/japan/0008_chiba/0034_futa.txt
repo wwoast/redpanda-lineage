@@ -485,20 +485,21 @@ photo.94.author: ssc6105
 photo.94.commitdate: 2022/6/21
 photo.94.link: https://www.instagram.com/ssc6105/
 photo.94.tags: eye, mofumofu, paws, sample, tail
-photo.95: ig://CfmH74PvRXU/m
-photo.95.author: eos1089
-photo.95.commitdate: 2022/7/31
-photo.95.link: https://www.instagram.com/eos1089/
-photo.95.tags: eye, laying down, mofumofu, paws, portrait, tail
-photo.96: ig://Cg0JOiABOtn/m
-photo.96.author: ssc6105
-photo.96.commitdate: 2022/8/5
-photo.96.link: https://www.instagram.com/ssc6105/
-photo.96.tags: eye, sample, tail, whiskers
-photo.97: https://www.instagram.com/p/CfOfyX5vMd6/media/?size=m
-photo.97.author: hamamatsu.chiita
-photo.97.link: https://www.instagram.com/hamamatsu.chiita/
-photo.97.tags: eye, portrait, sample, whiskers
+photo.95: ig://CfOfyX5vMd6/m
+photo.95.author: hamamatsu.chiita
+photo.95.commitdate: 2022/8/22
+photo.95.link: https://www.instagram.com/hamamatsu.chiita/
+photo.95.tags: eye, portrait, sample, whiskers
+photo.96: ig://CfmH74PvRXU/m
+photo.96.author: eos1089
+photo.96.commitdate: 2022/7/31
+photo.96.link: https://www.instagram.com/eos1089/
+photo.96.tags: eye, laying down, mofumofu, paws, portrait, tail
+photo.97: ig://Cg0JOiABOtn/m
+photo.97.author: ssc6105
+photo.97.commitdate: 2022/8/5
+photo.97.link: https://www.instagram.com/ssc6105/
+photo.97.tags: eye, sample, tail, whiskers
 species: 2
 studbook.id: 0366
 zoo: 8

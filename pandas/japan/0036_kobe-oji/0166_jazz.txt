@@ -1359,44 +1359,46 @@ photo.270.author: apple_jasmine33
 photo.270.commitdate: 2022/8/12
 photo.270.link: https://www.instagram.com/apple_jasmine33/
 photo.270.tags: paws, portrait, sample, smile, whiskers
-photo.271: ig://CfTXyLCvPfj/m
-photo.271.author: imagoto17
-photo.271.commitdate: 2022/7/23
-photo.271.link: https://www.instagram.com/imagoto17/
-photo.271.tags: bridge, laying down, paws, tail, tongue
-photo.272: ig://CftZTNHPAUK/m
-photo.272.author: imagoto17
-photo.272.commitdate: 2022/7/31
-photo.272.link: https://www.instagram.com/imagoto17/
-photo.272.tags: apple time, paws, sample, standing
-photo.273: ig://CgeLDoUPNK_/m
+photo.271: ig://Ce9g6S5BdJR/m
+photo.271.author: panda.daisuki
+photo.271.commitdate: 2022/8/22
+photo.271.link: https://www.instagram.com/panda.daisuki/
+photo.271.tags: close-up, paws, portrait, sample, whiskers
+photo.272: ig://CfC1QQqBDwr/m
+photo.272.author: panda.daisuki
+photo.272.commitdate: 2022/8/22
+photo.272.link: https://www.instagram.com/panda.daisuki/
+photo.272.tags: laying down, peek, portrait, sample, whiskers
+photo.273: ig://CfTXyLCvPfj/m
 photo.273.author: imagoto17
-photo.273.commitdate: 2022/8/8
+photo.273.commitdate: 2022/7/23
 photo.273.link: https://www.instagram.com/imagoto17/
-photo.273.tags: apple time, keeper, paws, portrait, smile
-photo.274: ig://CggFSxLvGHp/m
-photo.274.author: falcon_tenor
-photo.274.commitdate: 2022/8/8
-photo.274.link: https://www.instagram.com/falcon_tenor/
-photo.274.tags: paws, portrait, sample, tongue, whiskers
-photo.275: ig://Cg6YrfchGQg/m
-photo.275.author: falcon_tenor
-photo.275.commitdate: 2022/8/11
-photo.275.link: https://www.instagram.com/falcon_tenor/
-photo.275.tags: close-up, bite, paws, sample, techitechi
-photo.276: ig://Cg6kdOVhFsD/m
-photo.276.author: i.satosato
-photo.276.commitdate: 2022/8/11
-photo.276.link: https://www.instagram.com/i.satosato/
-photo.276.tags: paws, sample, standing, whiskers
-photo.277: https://www.instagram.com/p/Ce9g6S5BdJR/media/?size=m
-photo.277.author: panda.daisuki
-photo.277.link: https://www.instagram.com/panda.daisuki/
-photo.277.tags: close-up, paws, portrait, sample, whiskers
-photo.278: https://www.instagram.com/p/CfC1QQqBDwr/media/?size=m
-photo.278.author: panda.daisuki
-photo.278.link: https://www.instagram.com/panda.daisuki/
-photo.278.tags: laying down, peek, portrait, sample, whiskers
+photo.273.tags: bridge, laying down, paws, tail, tongue
+photo.274: ig://CftZTNHPAUK/m
+photo.274.author: imagoto17
+photo.274.commitdate: 2022/7/31
+photo.274.link: https://www.instagram.com/imagoto17/
+photo.274.tags: apple time, paws, sample, standing
+photo.275: ig://CgeLDoUPNK_/m
+photo.275.author: imagoto17
+photo.275.commitdate: 2022/8/8
+photo.275.link: https://www.instagram.com/imagoto17/
+photo.275.tags: apple time, keeper, paws, portrait, smile
+photo.276: ig://CggFSxLvGHp/m
+photo.276.author: falcon_tenor
+photo.276.commitdate: 2022/8/8
+photo.276.link: https://www.instagram.com/falcon_tenor/
+photo.276.tags: paws, portrait, sample, tongue, whiskers
+photo.277: ig://Cg6YrfchGQg/m
+photo.277.author: falcon_tenor
+photo.277.commitdate: 2022/8/11
+photo.277.link: https://www.instagram.com/falcon_tenor/
+photo.277.tags: close-up, bite, paws, sample, techitechi
+photo.278: ig://Cg6kdOVhFsD/m
+photo.278.author: i.satosato
+photo.278.commitdate: 2022/8/11
+photo.278.link: https://www.instagram.com/i.satosato/
+photo.278.tags: paws, sample, standing, whiskers
 species: 2
 studbook.id: 1778
 zoo: 36

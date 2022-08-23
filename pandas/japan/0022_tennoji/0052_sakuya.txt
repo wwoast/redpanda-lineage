@@ -715,15 +715,16 @@ photo.143.author: osaka_tennoji_zoo
 photo.143.commitdate: 2022/6/2
 photo.143.link: https://www.instagram.com/osaka_tennoji_zoo/
 photo.143.tags: peek, whiskers
-photo.144: ig://CftZcgvvh3g/m
-photo.144.author: makimaru18
-photo.144.commitdate: 2022/7/31
-photo.144.link: https://www.instagram.com/makimaru18/
-photo.144.tags: bamboo, close-up, nose, portrait
-photo.145: https://www.instagram.com/p/CfMKV_4PLHC/media/?size=m
-photo.145.author: tomo3700
-photo.145.link: https://www.instagram.com/tomo3700/
-photo.145.tags: close-up, portrait, sample, tongue, tree
+photo.144: ig://CfMKV_4PLHC/m
+photo.144.author: tomo3700
+photo.144.commitdate: 2022/8/22
+photo.144.link: https://www.instagram.com/tomo3700/
+photo.144.tags: close-up, portrait, sample, tongue, tree
+photo.145: ig://CftZcgvvh3g/m
+photo.145.author: makimaru18
+photo.145.commitdate: 2022/7/31
+photo.145.link: https://www.instagram.com/makimaru18/
+photo.145.tags: bamboo, close-up, nose, portrait
 species: 2
 studbook.id: 13166
 zoo: 22

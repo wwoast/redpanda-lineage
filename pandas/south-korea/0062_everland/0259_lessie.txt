@@ -30,15 +30,16 @@ photo.2.author: monmon_redpanda
 photo.2.commitdate: 2018/10/24
 photo.2.link: https://www.instagram.com/monmon_redpanda/
 photo.2.tags: apple time, portrait, profile, sample
-photo.3: ig://ChZABM0BANX/m
-photo.3.author: witheverland
-photo.3.commitdate: 2022/8/18
-photo.3.link: https://www.instagram.com/witheverland/
-photo.3.tags: bamboo, birthday, ice treat, portrait, sample, smile
-photo.4: https://www.instagram.com/p/B3zpgFdhDiR/media/?size=m
-photo.4.author: redpandamuseum
-photo.4.link: https://www.instagram.com/redpandamuseum/
-photo.4.tags: paws, portrait, sample, whiskers
+photo.3: ig://B3zpgFdhDiR/m
+photo.3.author: redpandamuseum
+photo.3.commitdate: 2022/8/22
+photo.3.link: https://www.instagram.com/redpandamuseum/
+photo.3.tags: paws, portrait, sample, whiskers
+photo.4: ig://ChZABM0BANX/m
+photo.4.author: witheverland
+photo.4.commitdate: 2022/8/18
+photo.4.link: https://www.instagram.com/witheverland/
+photo.4.tags: bamboo, birthday, ice treat, portrait, sample, smile
 species: 2
 studbook.id: 14170
 zoo: 62

@@ -843,25 +843,26 @@ photo.166.author: miis_98
 photo.166.commitdate: 2022/7/23
 photo.166.link: https://www.instagram.com/miis_98/
 photo.166.tags: portrait, sample, tongue, tree, whiskers
-photo.167: ig://Cf1ILB2PXRC/m
-photo.167.author: sb23megumi
-photo.167.commitdate: 2022/8/16
-photo.167.link: https://www.instagram.com/sb23megumi/
-photo.167.tags: portrait, sample, smile, tail, tongue, whiskers
-photo.168: ig://CgW5Y2kr3Sf/m
-photo.168.author: mini_cochi
-photo.168.commitdate: 2022/7/25
-photo.168.link: https://www.instagram.com/mini_cochi/
-photo.168.tags: portrait, smile, tree, whiskers
-photo.169: ig://Cgrav_PL3-v/m
+photo.167: ig://CfOqeToLDUF/m
+photo.167.author: mini_cochi
+photo.167.commitdate: 2022/8/22
+photo.167.link: https://www.instagram.com/mini_cochi/
+photo.167.tags: paws, portrait, sample, tree
+photo.168: ig://Cf1ILB2PXRC/m
+photo.168.author: sb23megumi
+photo.168.commitdate: 2022/8/16
+photo.168.link: https://www.instagram.com/sb23megumi/
+photo.168.tags: portrait, sample, smile, tail, tongue, whiskers
+photo.169: ig://CgW5Y2kr3Sf/m
 photo.169.author: mini_cochi
-photo.169.commitdate: 2022/8/5
+photo.169.commitdate: 2022/7/25
 photo.169.link: https://www.instagram.com/mini_cochi/
-photo.169.tags: peek, portrait, sample, smile, tongue, whiskers
-photo.170: https://www.instagram.com/p/CfOqeToLDUF/media/?size=m
+photo.169.tags: portrait, smile, tree, whiskers
+photo.170: ig://Cgrav_PL3-v/m
 photo.170.author: mini_cochi
+photo.170.commitdate: 2022/8/5
 photo.170.link: https://www.instagram.com/mini_cochi/
-photo.170.tags: paws, portrait, sample, tree
+photo.170.tags: peek, portrait, sample, smile, tongue, whiskers
 species: 2
 studbook.id: 15127
 zoo: 17
