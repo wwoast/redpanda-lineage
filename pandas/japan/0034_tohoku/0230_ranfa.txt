@@ -1013,35 +1013,36 @@ photo.201.author: otenba_redpanda
 photo.201.commitdate: 2022/5/13
 photo.201.link: https://www.instagram.com/otenba_redpanda/
 photo.201.tags: portrait, sample, techitechi, whiskers
-photo.202: ig://Cd94RBPOUB1/m
-photo.202.author: hidehaya_biei
-photo.202.commitdate: 2022/6/29
-photo.202.link: https://www.instagram.com/hidehaya_biei/
-photo.202.tags: laying down, portrait, sample, wink
-photo.203: ig://CgXMN_6BOOI/m
-photo.203.author: fetorus_mami
-photo.203.commitdate: 2022/7/25
-photo.203.link: https://www.instagram.com/fetorus_mami/
-photo.203.tags: apple time, close-up, lips, paws, sample, whiskers
-photo.204: ig://CgeOB-BB2As/m
-photo.204.author: daniele.tokyo
-photo.204.commitdate: 2022/8/8
-photo.204.link: https://www.instagram.com/daniele.tokyo/
-photo.204.tags: close-up, dish, mofumofu, sample, slobber
-photo.205: ig://Cggy1F7B3xh/m
+photo.202: ig://CdxwNcYvl4g/m
+photo.202.author: daniele.tokyo
+photo.202.commitdate: 2022/8/24
+photo.202.link: https://www.instagram.com/daniele.tokyo/
+photo.202.tags: grooming, mofumofu, paws, portrait, sample, tail, whiskers
+photo.203: ig://Cd94RBPOUB1/m
+photo.203.author: hidehaya_biei
+photo.203.commitdate: 2022/6/29
+photo.203.link: https://www.instagram.com/hidehaya_biei/
+photo.203.tags: laying down, portrait, sample, wink
+photo.204: ig://CgXMN_6BOOI/m
+photo.204.author: fetorus_mami
+photo.204.commitdate: 2022/7/25
+photo.204.link: https://www.instagram.com/fetorus_mami/
+photo.204.tags: apple time, close-up, lips, paws, sample, whiskers
+photo.205: ig://CgeOB-BB2As/m
 photo.205.author: daniele.tokyo
 photo.205.commitdate: 2022/8/8
 photo.205.link: https://www.instagram.com/daniele.tokyo/
-photo.205.tags: laying down, paws, portrait, sample, white face
-photo.206: ig://CgmAB3DvdsX/m
+photo.205.tags: close-up, dish, mofumofu, sample, slobber
+photo.206: ig://Cggy1F7B3xh/m
 photo.206.author: daniele.tokyo
-photo.206.commitdate: 2022/8/7
+photo.206.commitdate: 2022/8/8
 photo.206.link: https://www.instagram.com/daniele.tokyo/
-photo.206.tags: flowers, mofumofu, peek, sample
-photo.207: https://www.instagram.com/p/CdxwNcYvl4g/media/?size=m
+photo.206.tags: laying down, paws, portrait, sample, white face
+photo.207: ig://CgmAB3DvdsX/m
 photo.207.author: daniele.tokyo
+photo.207.commitdate: 2022/8/7
 photo.207.link: https://www.instagram.com/daniele.tokyo/
-photo.207.tags: grooming, mofumofu, paws, portrait, sample, tail, whiskers
+photo.207.tags: flowers, mofumofu, peek, sample
 species: 2
 studbook.id: unknown
 video.1: https://youtu.be/Tj1Vraltvq8

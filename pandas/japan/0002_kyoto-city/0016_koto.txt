@@ -1158,20 +1158,21 @@ photo.229.author: jas_forever_love
 photo.229.commitdate: 2022/6/11
 photo.229.link: https://www.instagram.com/jas_forever_love/
 photo.229.tags: close-up, lips, sample, whiskers
-photo.230: ig://Ce3NM0dhHUP/m
-photo.230.author: apple_jasmine33
-photo.230.commitdate: 2022/6/21
-photo.230.link: https://www.instagram.com/apple_jasmine33/
-photo.230.tags: paws, peek, portrait, sample, tree
-photo.231: ig://Cg5GlsaBdYg/m
-photo.231.author: hamamatsu.chiita
-photo.231.commitdate: 2022/8/11
-photo.231.link: https://www.instagram.com/hamamatsu.chiita/
-photo.231.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.232: https://www.instagram.com/p/Cdsj3smvySG/media/?size=m
-photo.232.author: jas_forever_love
-photo.232.link: https://www.instagram.com/jas_forever_love/
-photo.232.tags: close-up, sample, whiskers
+photo.230: ig://Cdsj3smvySG/m
+photo.230.author: jas_forever_love
+photo.230.commitdate: 2022/8/24
+photo.230.link: https://www.instagram.com/jas_forever_love/
+photo.230.tags: close-up, sample, whiskers
+photo.231: ig://Ce3NM0dhHUP/m
+photo.231.author: apple_jasmine33
+photo.231.commitdate: 2022/6/21
+photo.231.link: https://www.instagram.com/apple_jasmine33/
+photo.231.tags: paws, peek, portrait, sample, tree
+photo.232: ig://Cg5GlsaBdYg/m
+photo.232.author: hamamatsu.chiita
+photo.232.commitdate: 2022/8/11
+photo.232.link: https://www.instagram.com/hamamatsu.chiita/
+photo.232.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2

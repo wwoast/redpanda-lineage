@@ -129,26 +129,26 @@ photo.22.author: aimless_amos
 photo.22.commitdate: 2022/6/6
 photo.22.link: https://www.instagram.com/carsontheredpanda/
 photo.22.tags: laying down, portrait, sample, tail
-photo.23: ig://CeBcM1nL2FI/m
+photo.23: ig://Cdx4REtOKap/m
 photo.23.author: aimless_amos
-photo.23.commitdate: 2022/6/29
-photo.23.link: https://www.instagram.com/carsontheredpanda/
-photo.23.tags: bamboo, laying down, portrait, sample
-photo.24: ig://CfG2ZLBgsGv/m
+photo.23.commitdate: 2022/8/24
+photo.23.link: https://www.instagram.com/capemaycountyzoo/
+photo.23.tags: bamboo, muzzle, paws, sample, smile
+photo.24: ig://CeBcM1nL2FI/m
 photo.24.author: aimless_amos
-photo.24.commitdate: 2022/7/9
-photo.24.link: https://www.instagram.com/capemaycountyzoo/
-photo.24.tags: close-up, nose, portrait, sample
-photo.25: ig://CfWwvVZlldW/m
+photo.24.commitdate: 2022/6/29
+photo.24.link: https://www.instagram.com/carsontheredpanda/
+photo.24.tags: bamboo, laying down, portrait, sample
+photo.25: ig://CfG2ZLBgsGv/m
 photo.25.author: aimless_amos
 photo.25.commitdate: 2022/7/9
-photo.25.link: https://www.instagram.com/carsontheredpanda/
-photo.25.tags: portrait, sample, smile
-photo.26: https://www.codaworry.com/images/rpf/luna-12-capemay.jpg
+photo.25.link: https://www.instagram.com/capemaycountyzoo/
+photo.25.tags: close-up, nose, portrait, sample
+photo.26: ig://CfWwvVZlldW/m
 photo.26.author: aimless_amos
-photo.26.commitdate: 2021/6/25
-photo.26.link: https://www.instagram.com/aimless_amos/
-photo.26.tags: portrait, tail, toys
+photo.26.commitdate: 2022/7/9
+photo.26.link: https://www.instagram.com/carsontheredpanda/
+photo.26.tags: portrait, sample, smile
 photo.27: https://www.codaworry.com/images/rpf/luna-13-capemay.jpg
 photo.27.author: aimless_amos
 photo.27.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/Cdx4REtOKap/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/capemaycountyzoo/
-photo.63.tags: bamboo, muzzle, paws, sample, smile
 species: 1
 studbook.id: 0105
 zoo: 186

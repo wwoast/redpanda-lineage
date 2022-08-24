@@ -313,29 +313,30 @@ photo.60.author: tomo3700
 photo.60.commitdate: 2022/6/6
 photo.60.link: https://www.instagram.com/tomo3700/
 photo.60.tags: panda bowl, portrait
-photo.61: ig://Cfcni14rLXR/m
-photo.61.author: otenba_redpanda
-photo.61.commitdate: 2022/7/9
-photo.61.link: https://www.instagram.com/otenba_redpanda/
-photo.61.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
-photo.62: ig://CgFwi5EBMSA/m
+photo.61: ig://Cdw5aUgvOBA/m
+photo.61.author: fetorus_mami
+photo.61.commitdate: 2022/8/24
+photo.61.link: https://www.instagram.com/fetorus_mami/
+photo.61.tags: peek, smile
+photo.62: ig://Cfcni14rLXR/m
 photo.62.author: otenba_redpanda
-photo.62.commitdate: 2022/7/28
+photo.62.commitdate: 2022/7/9
 photo.62.link: https://www.instagram.com/otenba_redpanda/
-photo.62.tags: mofumofu, peek, portrait, sample, tongue
-photo.63: ig://CghFsRmvXFE/m
-photo.63.author: redpan22
-photo.63.commitdate: 2022/8/8
-photo.63.link: https://www.instagram.com/redpan22/
-photo.63.tags: mofumofu, paws, playing, portrait
-photo.64: ig://Cg-aCvKvCtZ/m
-photo.64.author: otenba_redpanda
-photo.64.commitdate: 2022/8/11
-photo.64.link: https://www.instagram.com/otenba_redpanda/
-photo.64.tags: mofumofu, portrait, sample, whiskers
-photo.65: https://www.instagram.com/p/Cdw5aUgvOBA/media/?size=m
-photo.65.author: fetorus_mami
-photo.65.link: https://www.instagram.com/fetorus_mami/
-photo.65.tags: peek, smile
+photo.62.tags: close-up, mofumofu, portrait, sample, techitechi, whiskers
+photo.63: ig://CgFwi5EBMSA/m
+photo.63.author: otenba_redpanda
+photo.63.commitdate: 2022/7/28
+photo.63.link: https://www.instagram.com/otenba_redpanda/
+photo.63.tags: mofumofu, peek, portrait, sample, tongue
+photo.64: ig://CghFsRmvXFE/m
+photo.64.author: redpan22
+photo.64.commitdate: 2022/8/8
+photo.64.link: https://www.instagram.com/redpan22/
+photo.64.tags: mofumofu, paws, playing, portrait
+photo.65: ig://Cg-aCvKvCtZ/m
+photo.65.author: otenba_redpanda
+photo.65.commitdate: 2022/8/11
+photo.65.link: https://www.instagram.com/otenba_redpanda/
+photo.65.tags: mofumofu, portrait, sample, whiskers
 species: 2
 zoo: 10
