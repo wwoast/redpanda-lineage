@@ -9,7 +9,7 @@ cn.othernames: none
 commitdate: 2019/7/10
 en.name: Rou-Rou
 en.nicknames: none
-en.othernames: Rourou, Rouge
+en.othernames: Rourou, Rouge, Yau-Yau, Yauyau
 gender: f
 jp.name: ロウロウ
 jp.nicknames: none
@@ -48,5 +48,9 @@ photo.6.author: redpanda_tata
 photo.6.commitdate: 2020/3/12
 photo.6.link: https://www.instagram.com/redpanda_tata/
 photo.6.tags: mofumofu, portrait
+photo.7: https://www.instagram.com/p/CY_uYPGvXZ1/media/?size=m
+photo.7.author: redpanda_tata
+photo.7.link: https://www.instagram.com/redpanda_tata/
+photo.7.tags: peek, portrait, whiskers
 species: 2
 zoo: 196
