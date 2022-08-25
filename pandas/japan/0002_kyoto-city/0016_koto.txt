@@ -1163,24 +1163,26 @@ photo.230.author: jas_forever_love
 photo.230.commitdate: 2022/8/24
 photo.230.link: https://www.instagram.com/jas_forever_love/
 photo.230.tags: close-up, sample, whiskers
-photo.231: ig://Ce3NM0dhHUP/m
-photo.231.author: apple_jasmine33
-photo.231.commitdate: 2022/6/21
-photo.231.link: https://www.instagram.com/apple_jasmine33/
-photo.231.tags: paws, peek, portrait, sample, tree
-photo.232: ig://Cg5GlsaBdYg/m
-photo.232.author: hamamatsu.chiita
-photo.232.commitdate: 2022/8/11
-photo.232.link: https://www.instagram.com/hamamatsu.chiita/
-photo.232.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.233: https://www.instagram.com/p/Cd0JX9-ve6W/media/?size=m
-photo.233.author: hamamatsu.chiita
-photo.233.link: https://www.instagram.com/hamamatsu.chiita/
-photo.233.tags: close-up, mofumofu, portrait, sample, whiskers
-photo.234: https://www.instagram.com/p/Cd2re-MvlLf/media/?size=m
-photo.234.author: redpanda_nippon_takashi
-photo.234.link: https://www.instagram.com/redpanda_nippon_takashi/
-photo.234.tags: flowers, whiskers
+photo.231: ig://Cd0JX9-ve6W/m
+photo.231.author: hamamatsu.chiita
+photo.231.commitdate: 2022/8/25
+photo.231.link: https://www.instagram.com/hamamatsu.chiita/
+photo.231.tags: close-up, mofumofu, portrait, sample, whiskers
+photo.232: ig://Cd2re-MvlLf/m
+photo.232.author: redpanda_nippon_takashi
+photo.232.commitdate: 2022/8/25
+photo.232.link: https://www.instagram.com/redpanda_nippon_takashi/
+photo.232.tags: flowers, whiskers
+photo.233: ig://Ce3NM0dhHUP/m
+photo.233.author: apple_jasmine33
+photo.233.commitdate: 2022/6/21
+photo.233.link: https://www.instagram.com/apple_jasmine33/
+photo.233.tags: paws, peek, portrait, sample, tree
+photo.234: ig://Cg5GlsaBdYg/m
+photo.234.author: hamamatsu.chiita
+photo.234.commitdate: 2022/8/11
+photo.234.link: https://www.instagram.com/hamamatsu.chiita/
+photo.234.tags: close-up, mofumofu, portrait, sample, whiskers
 species: 2
 studbook.id: 0997
 zoo: 2

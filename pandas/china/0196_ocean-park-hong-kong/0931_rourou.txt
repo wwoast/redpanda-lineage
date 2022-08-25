@@ -18,21 +18,21 @@ language.order: cn, en, jp
 litter: unknown
 location.1: 195, unknown
 location.2: 196, 2009/3/22
-photo.1: ig://BzlBG2in8Nc/m
+photo.1: ig://BzaSdqzH-jc/m
 photo.1.author: redpanda_tata
 photo.1.commitdate: 2019/7/10
 photo.1.link: https://www.instagram.com/redpanda_tata/
-photo.1.tags: bamboo, eye, paws, portrait, profile
+photo.1.tags: nose, paws
 photo.2: ig://Bze04_tDTTa/m
 photo.2.author: redpanda_tata
 photo.2.commitdate: 2019/7/10
 photo.2.link: https://www.instagram.com/redpanda_tata/
 photo.2.tags: paws, portrait, tail
-photo.3: ig://BzaSdqzH-jc/m
+photo.3: ig://BzlBG2in8Nc/m
 photo.3.author: redpanda_tata
 photo.3.commitdate: 2019/7/10
 photo.3.link: https://www.instagram.com/redpanda_tata/
-photo.3.tags: nose, paws
+photo.3.tags: bamboo, eye, paws, portrait, profile
 photo.4: ig://B0OGIwFBCbn/m
 photo.4.author: redpanda_tata
 photo.4.commitdate: 2019/7/22
@@ -48,8 +48,9 @@ photo.6.author: redpanda_tata
 photo.6.commitdate: 2020/3/12
 photo.6.link: https://www.instagram.com/redpanda_tata/
 photo.6.tags: mofumofu, portrait
-photo.7: https://www.instagram.com/p/CY_uYPGvXZ1/media/?size=m
+photo.7: ig://CY_uYPGvXZ1/m
 photo.7.author: redpanda_tata
+photo.7.commitdate: 2022/8/25
 photo.7.link: https://www.instagram.com/redpanda_tata/
 photo.7.tags: peek, portrait, whiskers
 species: 2

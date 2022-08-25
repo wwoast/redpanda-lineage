@@ -1015,7 +1015,7 @@ photo.202: ig://B_vOO6vh_G3/m
 photo.202.author: minatomirai215
 photo.202.commitdate: 2020/5/31
 photo.202.link: https://www.instagram.com/minatomirai215/
-photo.202.tags: portrait, smile, whiskers
+photo.202.tags: portrait, sample, smile, snow, whiskers
 photo.203: ig://B_2EpSFnVOq/m
 photo.203.author: nishicotolo
 photo.203.commitdate: 2020/5/31
@@ -1785,10 +1785,6 @@ photo.356.author: leonard_redmof
 photo.356.commitdate: 2022/8/8
 photo.356.link: https://www.instagram.com/leonard_redmof/
 photo.356.tags: peek, portrait, sample, whiskers
-photo.357: https://www.instagram.com/p/B_vOO6vh_G3/media/?size=m
-photo.357.author: minatomirai215
-photo.357.link: https://www.instagram.com/minatomirai215/
-photo.357.tags: portrait, sample, snow, whiskers
 species: 2
 studbook.id: 10108
 zoo: 7

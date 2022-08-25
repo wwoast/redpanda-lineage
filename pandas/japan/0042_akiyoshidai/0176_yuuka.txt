@@ -621,40 +621,41 @@ photo.122.author: re_ichimaru
 photo.122.commitdate: 2022/6/2
 photo.122.link: https://www.instagram.com/re_ichimaru/
 photo.122.tags: bamboo, paws, portrait, sample
-photo.123: ig://CdFtYdwPX3V/m
-photo.123.author: colette.jp
-photo.123.commitdate: 2022/6/11
-photo.123.link: https://www.instagram.com/colette.jp/
-photo.123.tags: paws, portrait, sample, smile, tongue, whiskers
-photo.124: ig://CdXKWxsvYi2/m
-photo.124.author: re_ichimaru
-photo.124.commitdate: 2022/6/2
-photo.124.link: https://www.instagram.com/re_ichimaru/
-photo.124.tags: curly, paws, peek, sample, tail
-photo.125: ig://CexfJhSPK3Z/m
+photo.123: ig://CdEm8Y0hVgK/m
+photo.123.author: re_ichimaru
+photo.123.commitdate: 2022/8/25
+photo.123.link: https://www.instagram.com/re_ichimaru/
+photo.123.tags: curly, peek, portrait, tail
+photo.124: ig://CdFtYdwPX3V/m
+photo.124.author: colette.jp
+photo.124.commitdate: 2022/6/11
+photo.124.link: https://www.instagram.com/colette.jp/
+photo.124.tags: paws, portrait, sample, smile, tongue, whiskers
+photo.125: ig://CdXKWxsvYi2/m
 photo.125.author: re_ichimaru
-photo.125.commitdate: 2022/6/21
+photo.125.commitdate: 2022/6/2
 photo.125.link: https://www.instagram.com/re_ichimaru/
-photo.125.tags: apple time, paws, portrait, sample, standing, tail, window
-photo.126: ig://Cf5aD3PPXRJ/m
+photo.125.tags: curly, paws, peek, sample, tail
+photo.126: ig://CexfJhSPK3Z/m
 photo.126.author: re_ichimaru
-photo.126.commitdate: 2022/7/31
+photo.126.commitdate: 2022/6/21
 photo.126.link: https://www.instagram.com/re_ichimaru/
-photo.126.tags: curly, sample, tail
-photo.127: ig://CgMRqMyPnNK/m
-photo.127.author: colette.jp
-photo.127.commitdate: 2022/7/25
-photo.127.link: https://www.instagram.com/colette.jp/
-photo.127.tags: close-up, portrait, sample, smile
-photo.128: ig://CgW2tzuPybe/m
-photo.128.author: kojikoji2011
+photo.126.tags: apple time, paws, portrait, sample, standing, tail, window
+photo.127: ig://Cf5aD3PPXRJ/m
+photo.127.author: re_ichimaru
+photo.127.commitdate: 2022/7/31
+photo.127.link: https://www.instagram.com/re_ichimaru/
+photo.127.tags: curly, sample, tail
+photo.128: ig://CgMRqMyPnNK/m
+photo.128.author: colette.jp
 photo.128.commitdate: 2022/7/25
-photo.128.link: https://www.instagram.com/kojikoji2011/
-photo.128.tags: portrait, sample, smile, whiskers, window
-photo.129: https://www.instagram.com/p/CdEm8Y0hVgK/media/?size=m
-photo.129.author: re_ichimaru
-photo.129.link: https://www.instagram.com/re_ichimaru/
-photo.129.tags: curly, peek, portrait, tail 
+photo.128.link: https://www.instagram.com/colette.jp/
+photo.128.tags: close-up, portrait, sample, smile
+photo.129: ig://CgW2tzuPybe/m
+photo.129.author: kojikoji2011
+photo.129.commitdate: 2022/7/25
+photo.129.link: https://www.instagram.com/kojikoji2011/
+photo.129.tags: portrait, sample, smile, whiskers, window
 species: 2
 studbook.id: 1695
 zoo: 42

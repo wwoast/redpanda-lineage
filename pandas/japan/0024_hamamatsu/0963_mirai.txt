@@ -753,14 +753,15 @@ photo.148.author: taka__3428
 photo.148.commitdate: 2022/6/2
 photo.148.link: https://www.instagram.com/taka__3428/
 photo.148.tags: close-up, mofumofu, sample, whiskers
-photo.149: ig://Cfm7qbrrlJ8/m
-photo.149.author: otenba_redpanda
-photo.149.commitdate: 2022/7/31
-photo.149.link: https://www.instagram.com/otenba_redpanda/
-photo.149.tags: close-up, portrait, sample, whiskers
-photo.150: https://www.instagram.com/p/Cdx2az3Phjd/media/?size=m
-photo.150.author: taka__3428
-photo.150.link: https://www.instagram.com/taka__3428/
-photo.150.tags: mofumofu, sample, whiskers
+photo.149: ig://Cdx2az3Phjd/m
+photo.149.author: taka__3428
+photo.149.commitdate: 2022/8/25
+photo.149.link: https://www.instagram.com/taka__3428/
+photo.149.tags: mofumofu, sample, whiskers
+photo.150: ig://Cfm7qbrrlJ8/m
+photo.150.author: otenba_redpanda
+photo.150.commitdate: 2022/7/31
+photo.150.link: https://www.instagram.com/otenba_redpanda/
+photo.150.tags: close-up, portrait, sample, whiskers
 species: 2
 zoo: 24

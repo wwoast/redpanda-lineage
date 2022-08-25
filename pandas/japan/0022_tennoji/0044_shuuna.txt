@@ -478,20 +478,21 @@ photo.93.author: makimaru18
 photo.93.commitdate: 2022/6/6
 photo.93.link: https://www.instagram.com/makimaru18/
 photo.93.tags: bite, portrait, sample, smile
-photo.94: ig://Cd6yyeWhZmn/m
-photo.94.author: tomo3700
-photo.94.commitdate: 2022/6/29
-photo.94.link: https://www.instagram.com/tomo3700/
-photo.94.tags: laying down, paws, peek, portrait, sample
-photo.95: ig://CfG8F-tPcD7/m
-photo.95.author: makimaru18
-photo.95.commitdate: 2022/7/18
-photo.95.link: https://www.instagram.com/makimaru18/
-photo.95.tags: peek, portrait, sample, smile
-photo.96: https://www.instagram.com/p/Cd0ykjdJutu/media/?size=m
-photo.96.author: sakikukeco
-photo.96.link: https://www.instagram.com/sakikukeco/
-photo.96.tags: paws, portrait, sample, shake
+photo.94: ig://Cd0ykjdJutu/m
+photo.94.author: sakikukeco
+photo.94.commitdate: 2022/8/25
+photo.94.link: https://www.instagram.com/sakikukeco/
+photo.94.tags: paws, portrait, sample, shake
+photo.95: ig://Cd6yyeWhZmn/m
+photo.95.author: tomo3700
+photo.95.commitdate: 2022/6/29
+photo.95.link: https://www.instagram.com/tomo3700/
+photo.95.tags: laying down, paws, peek, portrait, sample
+photo.96: ig://CfG8F-tPcD7/m
+photo.96.author: makimaru18
+photo.96.commitdate: 2022/7/18
+photo.96.link: https://www.instagram.com/makimaru18/
+photo.96.tags: peek, portrait, sample, smile
 species: 2
 studbook.id: 0676
 video.1: https://youtu.be/M2EoG5r8Kuo
