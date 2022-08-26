@@ -51,8 +51,9 @@ photo.7.author: henryvilaszoo
 photo.7.commitdate: 2022/7/31
 photo.7.link: https://www.instagram.com/henryvilaszoo/
 photo.7.tags: birthday, portrait, whiskers
-photo.8: https://www.instagram.com/p/ChmtK5PuZxP/media/?size=m
+photo.8: ig://ChmtK5PuZxP/m
 photo.8.author: henryvilaszoo
+photo.8.commitdate: 2022/8/26
 photo.8.link: https://www.instagram.com/henryvilaszoo/
 photo.8.tags: paws, peek, sample, whiskers
 species: 2

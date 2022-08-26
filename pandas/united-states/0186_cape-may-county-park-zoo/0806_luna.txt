@@ -149,11 +149,11 @@ photo.26.author: aimless_amos
 photo.26.commitdate: 2022/7/9
 photo.26.link: https://www.instagram.com/carsontheredpanda/
 photo.26.tags: portrait, sample, smile
-photo.27: https://www.codaworry.com/images/rpf/luna-13-capemay.jpg
+photo.27: ig://Chh9TVOJYYb/m
 photo.27.author: aimless_amos
-photo.27.commitdate: 2021/6/25
+photo.27.commitdate: 2022/8/26
 photo.27.link: https://www.instagram.com/aimless_amos/
-photo.27.tags: bamboo, bite, paws, portrait, white face
+photo.27.tags: old, paws, sample, tail, white face
 photo.28: https://www.codaworry.com/images/rpf/luna-14-capemay.jpg
 photo.28.author: aimless_amos
 photo.28.commitdate: 2021/6/25
@@ -329,10 +329,6 @@ photo.62.author: aimless_amos
 photo.62.commitdate: 2022/3/21
 photo.62.link: https://www.instagram.com/aimless_amos/
 photo.62.tags: close-up, muzzle, paws, portrait, sample, whiskers
-photo.63: https://www.instagram.com/p/Chh9TVOJYYb/media/?size=m
-photo.63.author: aimless_amos
-photo.63.link: https://www.instagram.com/aimless_amos/
-photo.63.tags: old, paws, sample, tail, white face
 species: 1
 studbook.id: 0105
 zoo: 186

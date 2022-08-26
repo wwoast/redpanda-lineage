@@ -413,8 +413,9 @@ photo.80.author: kijyo.zoo
 photo.80.commitdate: 2022/7/25
 photo.80.link: https://www.instagram.com/kijyo.zoo/
 photo.80.tags: close-up, mofumofu, portrait, sample, smile, whiskers
-photo.81: https://www.instagram.com/p/ChbjUc_hccs/media/?size=m
+photo.81: ig://ChbjUc_hccs/m
 photo.81.author: minato.yokohama4416
+photo.81.commitdate: 2022/8/26
 photo.81.link: https://www.instagram.com/minato.yokohama4416/
 photo.81.tags: mofumofu, portrait, sample, tree
 species: 2

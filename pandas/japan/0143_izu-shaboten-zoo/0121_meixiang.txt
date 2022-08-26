@@ -564,8 +564,9 @@ photo.110.author: miis_98
 photo.110.commitdate: 2022/7/28
 photo.110.link: https://www.instagram.com/miis_98/
 photo.110.tags: peek, portrait, sample, whiskers
-photo.111: https://www.instagram.com/p/ChdSuoyv3BK/media/?size=m
+photo.111: ig://ChdSuoyv3BK/m
 photo.111.author: otenba_redpanda
+photo.111.commitdate: 2022/8/26
 photo.111.link: https://www.instagram.com/otenba_redpanda/
 photo.111.tags: portrait, sample, whiskers
 species: 2

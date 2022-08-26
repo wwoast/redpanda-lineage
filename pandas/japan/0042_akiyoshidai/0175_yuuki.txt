@@ -60,45 +60,46 @@ photo.9.author: sunnylettuce_2022
 photo.9.commitdate: 2019/12/31
 photo.9.link: https://www.instagram.com/sunnylettuce_2022/
 photo.9.tags: paws, smile
-photo.10: ig://CI7W7Q0B92c/m
-photo.10.author: hamiiiii831_
-photo.10.commitdate: 2020/12/30
-photo.10.link: https://www.instagram.com/hamiiiii831_/
-photo.10.tags: mofumofu, portrait, whiskers
-photo.11: ig://CL3SkMNh_KX/m
-photo.11.author: sasapan34
-photo.11.commitdate: 2021/3/10
-photo.11.link: https://www.instagram.com/sasapan34/
-photo.11.tags: whiskers
-photo.12: ig://CNKso0TBtmc/m
-photo.12.author: miis_98
-photo.12.commitdate: 2021/4/3
-photo.12.link: https://www.instagram.com/miis_98/
-photo.12.tags: apple time, portrait, smile, whiskers
-photo.13: ig://CN9axp5hBLB/m
-photo.13.author: kojikoji2011
-photo.13.commitdate: 2021/6/7
-photo.13.link: https://www.instagram.com/kojikoji2011/
-photo.13.tags: portrait, sample, whiskers, white face
-photo.14: ig://CaPPJRcPKL6/m
+photo.10: ig://CCv1Glul_eP/m
+photo.10.author: kojikoji2011
+photo.10.commitdate: 2022/8/26
+photo.10.link: https://www.instagram.com/kojikoji2011/
+photo.10.tags: portrait, sample, whiskers
+photo.11: ig://CI7W7Q0B92c/m
+photo.11.author: hamiiiii831_
+photo.11.commitdate: 2020/12/30
+photo.11.link: https://www.instagram.com/hamiiiii831_/
+photo.11.tags: mofumofu, portrait, whiskers
+photo.12: ig://CL3SkMNh_KX/m
+photo.12.author: sasapan34
+photo.12.commitdate: 2021/3/10
+photo.12.link: https://www.instagram.com/sasapan34/
+photo.12.tags: whiskers
+photo.13: ig://CNKso0TBtmc/m
+photo.13.author: miis_98
+photo.13.commitdate: 2021/4/3
+photo.13.link: https://www.instagram.com/miis_98/
+photo.13.tags: apple time, portrait, smile, whiskers
+photo.14: ig://CN9axp5hBLB/m
 photo.14.author: kojikoji2011
-photo.14.commitdate: 2022/3/5
+photo.14.commitdate: 2021/6/7
 photo.14.link: https://www.instagram.com/kojikoji2011/
-photo.14.tags: paws, peek, whiskers
-photo.15: ig://Cea_IyXPYet/m
+photo.14.tags: portrait, sample, whiskers, white face
+photo.15: ig://CaPPJRcPKL6/m
 photo.15.author: kojikoji2011
-photo.15.commitdate: 2022/8/1
+photo.15.commitdate: 2022/3/5
 photo.15.link: https://www.instagram.com/kojikoji2011/
-photo.15.tags: bamboo, portrait, sample, whiskers
-photo.16: ig://CgMJz7avAkr/m
+photo.15.tags: paws, peek, whiskers
+photo.16: ig://Cea_IyXPYet/m
 photo.16.author: kojikoji2011
-photo.16.commitdate: 2022/7/28
+photo.16.commitdate: 2022/8/1
 photo.16.link: https://www.instagram.com/kojikoji2011/
-photo.16.tags: blink, paws, portrait, sample, smile, whiskers
-photo.17: https://www.instagram.com/p/CCv1Glul_eP/media/?size=m
+photo.16.tags: bamboo, portrait, sample, whiskers
+photo.17: ig://CgMJz7avAkr/m
 photo.17.author: kojikoji2011
+photo.17.commitdate: 2022/7/28
 photo.17.link: https://www.instagram.com/kojikoji2011/
-photo.17.tags: portrait, sample, whiskers
+photo.17.tags: blink, paws, portrait, sample, smile, whiskers
 species: 2
 studbook.id: 13162
 zoo: 42
