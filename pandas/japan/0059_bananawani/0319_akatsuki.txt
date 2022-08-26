@@ -42,7 +42,7 @@ photo.6: ig://BxFmpm8lYTm/m
 photo.6.author: fetorus_mami
 photo.6.commitdate: 2019/6/9
 photo.6.link: https://www.instagram.com/fetorus_mami/
-photo.6.tags: pooping, portrait, profile
+photo.6.tags: pooping, portrait
 photo.7: ig://BycP8B-Br16/m
 photo.7.author: _saaaaaaah_
 photo.7.commitdate: 2019/6/9
@@ -78,6 +78,10 @@ photo.13.author: pantasanzoo1
 photo.13.commitdate: 2022/8/5
 photo.13.link: https://www.instagram.com/pantasanzoo1/
 photo.13.tags: paws, smile, whiskers
+photo.14: https://www.instagram.com/p/Chs3AESBEwr/media/?size=m
+photo.14.author: miis_98
+photo.14.link: https://www.instagram.com/miis_98/
+photo.14.tags: portrait, profile, smile
 species: 1
 studbook.id: unknown
 zoo: 59
