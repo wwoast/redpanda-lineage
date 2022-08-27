@@ -113,15 +113,16 @@ photo.20.author: itsuak
 photo.20.commitdate: 2019/8/23
 photo.20.link: https://www.instagram.com/itsuak/
 photo.20.tags: laying down, paws, portrait, tongue
-photo.21: ig://CAzrTF5BKbx/m
-photo.21.author: minatomirai215
-photo.21.commitdate: 2020/5/30
-photo.21.link: https://www.instagram.com/minatomirai215/
-photo.21.tags: apple time, paws, portrait
-photo.22: https://www.instagram.com/p/B76BqmIF3ln/media/?size=m
-photo.22.author: kojikoji2011
-photo.22.link: https://www.instagram.com/kojikoji2011/
-photo.22.tags: bamboo, laying down, paws
+photo.21: ig://B76BqmIF3ln/m
+photo.21.author: kojikoji2011
+photo.21.commitdate: 2022/8/26
+photo.21.link: https://www.instagram.com/kojikoji2011/
+photo.21.tags: bamboo, laying down, paws
+photo.22: ig://CAzrTF5BKbx/m
+photo.22.author: minatomirai215
+photo.22.commitdate: 2020/5/30
+photo.22.link: https://www.instagram.com/minatomirai215/
+photo.22.tags: apple time, paws, portrait
 species: 2
 studbook.id: 0660
 zoo: 6
