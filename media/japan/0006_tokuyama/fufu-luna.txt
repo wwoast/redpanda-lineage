@@ -9,44 +9,45 @@ photo.1.link: https://www.instagram.com/animal_love_us/
 photo.1.tags: apple time, couple, portrait, tail
 photo.1.tags.71.location: 400, 270
 photo.1.tags.73.location: 55, 240
-photo.2: ig://CJ8uIB0h6Y9/l
+photo.2: ig://CGaRfQPFiab/l
 photo.2.author: kojikoji2011
-photo.2.commitdate: 2021/6/7
+photo.2.commitdate: 2022/8/28
 photo.2.link: https://www.instagram.com/kojikoji2011/
-photo.2.tags: bamboo, couple
-photo.2.tags.71.location: 190, 160
+photo.2.tags: couple, home
+photo.2.tags.71.location: 210, 130
 photo.2.tags.73.location: 510, 230
-photo.3: ig://CMzaj_XBXaM/l
+photo.3: ig://CJ8uIB0h6Y9/l
 photo.3.author: kojikoji2011
 photo.3.commitdate: 2021/6/7
 photo.3.link: https://www.instagram.com/kojikoji2011/
-photo.3.tags: couple, home, paws, smile, tail
-photo.3.tags.71.location: 140, 195
-photo.3.tags.73.location: 515, 310
-photo.4: ig://CO20WQPh-y_/l
+photo.3.tags: bamboo, couple
+photo.3.tags.71.location: 190, 160
+photo.3.tags.73.location: 510, 230
+photo.4: ig://CMzaj_XBXaM/l
 photo.4.author: kojikoji2011
 photo.4.commitdate: 2021/6/7
 photo.4.link: https://www.instagram.com/kojikoji2011/
-photo.4.tags: bamboo, couple, home, paws, portrait
-photo.4.tags.71.location: 530, 235
-photo.4.tags.73.location: 115, 300
-photo.5: ig://CVp88wOBqOS/l
+photo.4.tags: couple, home, paws, smile, tail
+photo.4.tags.71.location: 140, 195
+photo.4.tags.73.location: 515, 310
+photo.5: ig://CO20WQPh-y_/l
 photo.5.author: kojikoji2011
-photo.5.commitdate: 2022/4/10
+photo.5.commitdate: 2021/6/7
 photo.5.link: https://www.instagram.com/kojikoji2011/
-photo.5.tags: apple time, couple, windowlink
-photo.5.tags.71.location: 420, 235
-photo.5.tags.73.location: 130, 350
-photo.6: ig://CWk7MX1h18p/l
+photo.5.tags: bamboo, couple, home, paws, portrait
+photo.5.tags.71.location: 530, 235
+photo.5.tags.73.location: 115, 300
+photo.6: ig://CVp88wOBqOS/l
 photo.6.author: kojikoji2011
-photo.6.commitdate: 2021/11/27
+photo.6.commitdate: 2022/4/10
 photo.6.link: https://www.instagram.com/kojikoji2011/
-photo.6.tags: apple time, couple, paws, portrait, window
-photo.6.tags.71.location: 435, 235
-photo.6.tags.73.location: 145, 385
-photo.7: https://www.instagram.com/p/CGaRfQPFiab/media/?size=l
+photo.6.tags: apple time, couple, windowlink
+photo.6.tags.71.location: 420, 235
+photo.6.tags.73.location: 130, 350
+photo.7: ig://CWk7MX1h18p/l
 photo.7.author: kojikoji2011
+photo.7.commitdate: 2021/11/27
 photo.7.link: https://www.instagram.com/kojikoji2011/
-photo.7.tags: couple, home
-photo.7.tags.71.location: 210, 130
-photo.7.tags.73.location: 510, 230
+photo.7.tags: apple time, couple, paws, portrait, window
+photo.7.tags.71.location: 435, 235
+photo.7.tags.73.location: 145, 385

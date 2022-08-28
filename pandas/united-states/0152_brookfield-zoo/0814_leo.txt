@@ -62,8 +62,9 @@ photo.9.author: Kim Pruim
 photo.9.commitdate: 2022/4/15
 photo.9.link: https://www.instagram.com/zoogirl22/
 photo.9.tags: whiskers
-photo.10: https://www.instagram.com/p/Chj2Zr7MbOX/media/?size=m
+photo.10: ig://Chj2Zr7MbOX/m
 photo.10.author: rossifari
+photo.10.commitdate: 2022/8/28
 photo.10.link: https://www.instagram.com/rossifari/
 photo.10.tags: portrait, sample, tail, whiskers
 species: 1

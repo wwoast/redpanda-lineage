@@ -219,8 +219,9 @@ photo.41.author: makimaru18
 photo.41.commitdate: 2022/8/11
 photo.41.link: https://www.instagram.com/makimaru18/
 photo.41.tags: mofumofu, portrait, sample, tail, whiskers
-photo.42: https://www.instagram.com/p/Chjhk3mhqsA/media/?size=m
+photo.42: ig://Chjhk3mhqsA/m
 photo.42.author: makimaru18
+photo.42.commitdate: 2022/8/28
 photo.42.link: https://www.instagram.com/makimaru18/
 photo.42.tags: portrait, sample, smile, tongue, whiskers
 species: 2

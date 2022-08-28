@@ -522,8 +522,9 @@ photo.102.author: daniele.tokyo
 photo.102.commitdate: 2022/8/8
 photo.102.link: https://www.instagram.com/daniele.tokyo/
 photo.102.tags: paws, sample, smile, whiskers
-photo.103: https://www.instagram.com/p/ChjvfwGhfWQ/media/?size=m
+photo.103: ig://ChjvfwGhfWQ/m
 photo.103.author: daniele.tokyo
+photo.103.commitdate: 2022/8/28
 photo.103.link: https://www.instagram.com/daniele.tokyo/
 photo.103.tags: portrait, sample, tail, tongue
 species: 2
