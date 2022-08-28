@@ -58,7 +58,7 @@ photo.9: ig://B7I1JKmhOMz/m
 photo.9.author: osopanda551
 photo.9.commitdate: 2020/1/14
 photo.9.link: https://www.instagram.com/osopanda551/
-photo.9.tags: bamboo, mofumofu, old, portrait, profile
+photo.9.tags: bamboo, mofumofu, old, portrait
 photo.10: ig://B7NrYS5hCoN/m
 photo.10.author: ck.chie
 photo.10.commitdate: 2020/1/14
@@ -184,6 +184,10 @@ photo.34.author: otenba_redpanda
 photo.34.commitdate: 2021/11/21
 photo.34.link: https://www.instagram.com/otenba_redpanda/
 photo.34.tags: mofumofu, paws, portrait, tail, whiskers
+photo.35: https://www.instagram.com/p/CS4Xwv8H99P/media/?size=m
+photo.35.author: mini_cochi
+photo.35.link: https://www.instagram.com/mini_cochi/
+photo.35.tags: close-up, mofumofu, portrait, profile, sample, whiskers, white face
 species: 2
 studbook.id: 9991
 video.1: https://youtu.be/AnjnjrW-9iw
